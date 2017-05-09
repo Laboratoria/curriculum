@@ -1,11 +1,15 @@
-### [12. React Deep Dive](#)
+# 12. React Deep Dive
 
-#### Proyectos:
+## Proyectos:
 
 * Continuamos con proyecto de [intro a React]
 
-#### Aprenderás:
+## Aprenderás:
 
 * React Router
 * Redux
 * Jest
+
+## Syllabus
+
+* ...

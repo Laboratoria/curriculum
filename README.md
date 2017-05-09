@@ -50,7 +50,7 @@ Guías de estilos para JavaScript:
 * [13. The Web Stack](13-web-stack)
 * [14. Node.js](14-node)
 * [15. Algoritmos](15-algorithms)
-* [16. Estrucuturas de datos](16-data-structures)
+* [16. Estructuras de datos](16-data-structures)
 * ...
 
 * * *

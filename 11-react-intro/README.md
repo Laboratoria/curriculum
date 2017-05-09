@@ -1,12 +1,16 @@
-### [11. Intro to React](#)
+# 11. Intro to React
 
-#### Proyectos:
+## Proyectos:
 
 * ...
 
-#### Aprenderás:
+## Aprenderás:
 
 * Setting up: WebPack / Yarn
 * Babel
 * JSX
 * React Components
+
+## Syllabus
+
+* ...

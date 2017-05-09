@@ -1,4 +1,4 @@
-### Algoritmos
+# 15. Algoritmos
 
 Tags: `cs-fundamentals`, `js`
 

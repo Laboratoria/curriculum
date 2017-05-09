@@ -1,10 +1,10 @@
-### [13. The Web Stack](#)
+# 13. The Web Stack
 
-#### Proyectos:
+## Proyectos:
 
 * Diseñas, construir y desplegar un site estático que use una API?
 
-#### Aprenderás:
+## Aprenderás:
 
 1. HTML / CSS / JS (DOM / BOM)
 2. HTTP

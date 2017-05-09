@@ -1,10 +1,10 @@
-### [11. Functional JavaScript](#)
+# 10. Functional JavaScript
 
-#### Proyectos:
+## Proyectos:
 
 * ...
 
-#### Aprenderás:
+## Aprenderás:
 
 * Recursión
 * High Order Functions
@@ -12,3 +12,7 @@
 * Inmutabilidad
 * Composición de funciones
 * Composición de objetos
+
+## Syllabus
+
+* ...

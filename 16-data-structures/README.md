@@ -1,4 +1,4 @@
-### Estructuras de datos
+# 16. Estructuras de datos
 
 Tags: `cs-fundamentals`, `js`
 
