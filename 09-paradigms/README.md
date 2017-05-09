@@ -32,46 +32,65 @@ tendrán que:
 
 ## Syllabus
 
+### Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
+
+30min (self-paced)
+
+### Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+
+2h (presencial)
+
+### Lesson 3: [OOP and Prototypal inheritance](03-oop)
+
+1h (self-paced)
+
+### Lesson 4: [Proyecto (implementación OOP)](04-oop-project)
+
+3h (presencial)
+
+### Lesson 5: [Demos de proyectos OOP](05-oop-demos)
+
+1h (presencial)
+
+### Lesson 6: [Object factories and composition](06-composition)
+
+1h (self-paced)
+
+### Lesson 7: [Proyecto (implementación FP)](07-fp-project)
+
+3h (presencial)
+
+### Lesson 8: [Demos de proyectos FP](08-fp-demos)
+
+1h (presencial)
+
+* * *
+
+
+## Lesson plan for LIM20171
+
 ### Week 1
 
 #### Jueves
 
-##### Lesson 1: Introducción a Paradigmas de Programación
-
-30min (self-paced)
-
-##### Lesson 2: Ejercicios guiados, ayudantías, presentaciones, proyecto...
-
-2h (presencial)
+* Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
+  30min (self-paced)
+* Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+  2h (presencial)
 
 #### Sábado
 
-##### Lesson 3: OOP and Prototypal inheritance
-
-1h (self-paced)
-
-##### Lesson 4: Proyecto (implementación OOP)
-
-3h (presencial)
+* Lesson 3: [OOP and Prototypal inheritance](03-oop) 1h (self-paced)
+* Lesson 4: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
 
 ### Week 2
 
 #### Jueves
 
-##### Lesson 5: Demos de proyectos OOP
-
-1h (presencial)
-
-##### Lesson 6: Object factories and composition
-
-1h (self-paced)
+* Lesson 5: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
+* Lesson 6: [Object factories and composition](06-composition) 1h (self-paced)
 
 #### Sábado
 
-##### Lesson 7: Proyecto (implementación FP)
-
-3h (presencial)
-
-##### Lesson 5: Demos de proyectos FP
-
-1h (presencial)
+* Lesson 7: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
+* Lesson 8: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
