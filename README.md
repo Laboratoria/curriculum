@@ -2,13 +2,19 @@
 
 Necesitamos elegir una guía de estilos???
 
+* * *
+
 ## Prep
 
-### Introducción a la programación en JS
+### [01. Introducción a la programación en JS](#)
 
-Proyectos:
+#### Proyectos:
 
-Aprenderás:
+* Cajero automático
+* Es una tarjeto de crédito falsa?
+* Mensajes encriptados
+
+#### Aprenderás:
 
 * Variables
 * Tipos
@@ -22,6 +28,8 @@ Aprenderás:
 * Objetos
 * CLI
 * Git
+
+* * *
 
 ## Bootcamp
 
@@ -42,60 +50,116 @@ Aprenderás:
 * TDD
 * Node
 * Modules...
-*
+* ...
+
+* * *
 
 ## Full Stack JS
 
-### JS Review: Syntax, Types, Operators
-### JS Review: Arrays, Objects
-### JS Review: Functions
+### 01. [JS Deep Dive](#)
+
+#### Proyectos:
+
+* ...
+
+#### Aprenderás:
+
+* ...
+
+#### Syllabus
+
+1. Syntax (ES6 basics)
+1. Execution Context (1h)
+2. Types and Operators (1h)
+3. Objects (5h)
+4. Functions (5h)
+
+### [02. Programming Paradigms](#)
+
+#### Proyectos
+
+* Extender juego implementando nuevos personajes y mapas usando herencia prototipal
+* Extender juego implementando nuevos personajes y mapas usando composición
+
+#### Aprenderás:
+
+* Qué son los paradigmas de programación
+* Qué son FP, OOP y PP y cómo se comparan
+* Entender las diferencias y entre el estilo imperativo vs declarativo
+* Constructores vs Factories
+* Herencia prototipal
+* High Order Functions
+* Funciones puras
+* Composición de funciones
+* Evitar el estado compartido
+* Evitar el estado cambiante (inmutabilidad)
+* Composition over inheritance
+
+### [03. Functional JavaScript](#)
+
+#### Proyectos:
+
+* ...
+
+#### Aprenderás:
+
+* Recursión
+* High Order Functions
+* Funciones puras
+* Inmutabilidad
+* ...
+
+### [04. Intro to React](#)
+
+1. Setting up: WebPack / Yarn
+2. JSX
+3. React Components
+4. Redux
+5. Router
+6. Jest
+
+### [05. React Deep Dive](#)
 
 
-### [Programming Paradigms](#)
+### [The Web Stack](#)
 
-### [Functional JavaScript](#)
+Proyectos:
 
+* Diseñas, construir y desplegar un site estático que use una API?
 
+1. HTML / CSS / JS (DOM / BOM)
+2. HTTP
+2. URL
+3. XHR
+4. JSON
+5. RESTful APIs
 
-### Intro to React
-### React Deep Dive
+### [Node.js](#)
 
+1. Introducción a Node.js
+2. npm
+3. HTTP Server?
+4. File system
+6. ...?
 
-
-### Node.js
 ### Build a dynamic site with node
-### Mongo & Express
+### Databases? (SQL vs NoSQL)
 ### Build a Rest api with Express
+### Angular?
+### Patrones de diseño?
+
+### Front-end operations
+
+1. Build and deployment
+2. Tracking issues
+3. Tracking performance
+4. Bugs and Error Handling
 
 
 
-### Algorithmic thinking
-### Data Structures
+### Algoritmos
 
-## UXD
-## Mobile
-## Otros
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### CS Fundamentals
-
-#### Unit 1: [Algoritmos](src/algoritmos) (4 semanas)
+Tags: `cs-fundamentals`, `js`
 
 1. [Introducción a algoritmos](src/algoritmos/intro) (1h)
 2. [Notación asintótica](src/algoritmos/big-o) (1h)
@@ -103,7 +167,9 @@ Aprenderás:
 4. [Búsqueda](src/algoritmos/search) (5h)
 5. [Ordenamiento](src/algoritmos/sort) (5h)
 
-#### Unit 2: [Estructuras de datos](src/estructuras-de-datos) (4 semanas)
+### Estructuras de datos
+
+Tags: `cs-fundamentals`, `js`
 
 1. [Arreglos](src/estructuras-de-datos/arrays) (1h)
 2. [Objectos](src/estructuras-de-datos/hashes) (1h)
@@ -113,57 +179,12 @@ Aprenderás:
 6. [Grafos](src/estructuras-de-datos/graphs) (5h)
 7. [Árboles](src/estructuras-de-datos/trees) (5h)
 
-### JavaScript deep dive
+* * *
 
-#### Unit 3: [JavaScript avanzado](src/js-avanzado) (4 semanas)
+## UXD
 
-1. Execution Context (1h)
-2. Types and Operators (1h)
-3. Objects (5h)
-4. Functions (5h)
-5. [Recursividad](src/js-avanzado/recursividad) (5h)
+* * *
 
-#### Unit 4: [Paradigmas de programación](src/paradigmas) (2 semanas)
+## Mobile
 
-1. [Functional Programming](src/js-avanzado/functional-programming) (5h)
-2. OOP and Prototype (5h)
-
-#### Unit 5: Front-end operations
-
-1. Build and deployment
-2. Tracking issues
-3. Tracking performance
-4. Bugs and Error Handling
-
-### Frameworks
-
-NOTA: Deberían todas hacer las dos o quizás que elijan una de las dos?
-
-#### Unit 6: React (4 semanas)
-
-1. Setting up: WebPack / Yarn
-2. JSX
-3. React Components
-4. Redux
-5. Router
-6. Jest
-
-#### Unit 7: Angular
-
-#### Unit 7: Patrones de diseño?
-
-### The Web Stack
-
-1. HTTP
-2. URL
-3. XHR
-4. JSON
-5. REST Architecture
-
-#### Unit 9: Node.js (4 semanas)
-
-1. Introducción a Node.js
-2. npm
-3. HTTP Server?
-4. File system
-6. ...?
+* * *
