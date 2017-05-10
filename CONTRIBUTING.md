@@ -28,7 +28,7 @@ sigue los siguientes pasos:
 1. _Fork_ repo
 2. Crear branch `00-name`
 3. Crear directorio `00-name`
-4. Crear `README.md` basado en [esta plantilla](#s)
+4. Crear `README.md` basado en [esta plantilla](#)
 5. Desarrollar propuesta del curso (outline)
 6. Enviar pull request
 7. Review y discusión
