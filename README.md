@@ -9,15 +9,15 @@ y _cursos_.
 
 ## La _malla curricular_
 
-Cuando decimos la _malla curricular_ nos referimos al _big picture_, el
-_hilo conductor_ que conceta el conjunto de _cursos_.
+Cuando decimos _malla curricular_ nos referimos al _big picture_, el
+_hilo conductor_ que conecta el conjunto de _cursos_.
 
 Nuestra propuesta de _modelo de aprendizaje_ pretende atacar de frente el
 desafío de cómo hacer que la teoría se aprenda a través de la práctica. Por
-ello, la currícula está _imaginada_ como una serie de _productos_ completos, de
-complejidad y scope gradualmente más complejo.
+ello, la currícula está _imaginada_ como una serie de _productos_ completos,
+de complejidad y scope gradualmente más complejo.
 
-En este issue puedes seguir y/p paricipar en la discusión abierta sobre el
+En este issue puedes seguir y/o paricipar en la discusión abierta sobre el
 mode: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3)
 
 Inicialmente, los encargados oficiales de la _malla curricular_ son
