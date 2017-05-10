@@ -34,7 +34,7 @@ tendrán que:
 
 ### Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
 
-30min (self-paced)
+1h (self-paced)
 
 ### Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
 
