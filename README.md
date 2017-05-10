@@ -20,15 +20,18 @@ complejidad y scope gradualmente más complejo.
 En este issue puedes seguir y/p paricipar en la discusión abierta sobre el
 mode: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3)
 
-Inicialmente, los encargados oficiales de la _malla curricular_ son:
+Inicialmente, los encargados oficiales de la _malla curricular_ son
 [Lupo Montero](https://github.com/lupomontero),
 [Iván Medina](https://github.com/ivandevp) y
-[Rodulfo Prieto](https://github.com/chamodev).
+[Rodulfo Prieto](https://github.com/chamodev), pero está abierta a sugerencias
+(issues, pull requests, ...) de todo el equipo de formación de Laboratoria así
+como de la comunidad en general. Queremos hacer una malla abierta.
 
 ## Los _cursos_
 
-Cada curso debe tener un _dueño_ o _autor_, quien es responsable del curso como
-unidad atómica.
+Cada curso debe tener un _dueño_ o _autor_, quien es responsable del curso
+como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
+como profesionales y expertos de la industria.
 
 ### Prep
 
@@ -43,7 +46,7 @@ unidad atómica.
 * [06. Offline first](#)
 * [07. Capstone project](#)
 
-### Full Stack JS
+### Educación Continua
 
 * [08. JS Deep Dive](08-deep-dive)
 * [09. Programming Paradigms](09-paradigms) [L. Montero]
