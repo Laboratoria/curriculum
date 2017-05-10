@@ -18,11 +18,12 @@ participar en discusiones relevantes y añadir nuevos _issues_.
 
 El primer paso debería ser buscar en el tracker para ver si el tema ya se ha
 propuesto o si hay disucusiones relacionadas. Si el tema está propuesto
-participa en el _issue_ correspondiente y ofrece ayuda, si no, crea u nnuevo
+participa en el _issue_ correspondiente y ofrece ayuda, si no, crea un nuevo
 issue con un resumen de tu propuesta.
 
-Una vez tu propuesta inicial haya tenido cierta tracción e interés, el proceso
-de colaboració está establecido de la siguiente manera:
+Una vez tu propuesta inicial haya tenido cierta tracción e interés, los
+`maintainers` te invitarán a iniciar el proceso de colaboración. Este proceso
+sigue los siguientes pasos:
 
 1. _Fork_ repo
 2. Crear branch `00-name`
