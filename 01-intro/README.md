@@ -1,6 +1,6 @@
 # 01. Introducción a la programación en JS
 
-## Proyectos:
+## Productos a desarrollar:
 
 * Cajero automático
 * Es una tarjeto de crédito falsa?
