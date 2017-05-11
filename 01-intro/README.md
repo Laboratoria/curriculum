@@ -25,32 +25,30 @@ Pondrás en práctica lo aprendido al implementar los siguientes productos web q
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
-30min (self-paced)
+**_30min (self-paced)_**
 
-Entendamos lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo eso dicta la metodología de enseñanza de Laboratoria.
+Antes de partir es importante que revises lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo eso dicta la metodología de enseñanza de Laboratoria.
 
-| # | Tipo | Descripcion           |
+| # | Tipo | Tópico           |
 | - | ----- | --------------------  |
 | 00 | video | Growth Mindset vs. Fixed Mindset |
 | 01 | video | Cómo se aprende en Laboratoria  
 | 02 | lectura | Firma de compromiso
 
 ### Lección 01: [Sobre la programación y la web](02-web-development-process)
-30min (self-paced):
+**_30min (self-paced)_**
 
-Aprende exactamente qué es la web y cómo sus 5 componentes principales: (HTML, CSS, JS, HTTP y URLs) se interrelacionan entre si.
+Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
 
-| # | Tipo | Descripcion           |
+| # | Tipo | Tópico           |
 | - | ----- | --------------------  |
 | 00 | video |¿Qué es la programación y porqué aprender a programar?
 | 00 | video | Hablándole a la máquina: lenguajes de bajo y alto nivel
 | 00 | video | ¿Qué es JavaScript y por qué aprenderlo?
-| 00 | video | ¿Cómo funciona la web?
+| 00 | video | ¿Cómo funciona la web? Web vs. Internet
 | 00 | video | HTML, CSS y JavaScript
 | 00 | video | HTTP and URLs
 | 00 | video | Escribiendo JavaScript en la consola
 | 00 | quiz | Prueba tu conocimiento.
-
-
 
 * * *
