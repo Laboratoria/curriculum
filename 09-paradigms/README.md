@@ -60,6 +60,8 @@ Participar en el proyecto involucra lo siguiente:
 * Hacer **code review** y **merges**
 * Presentar el trabajo final al resto del grupo con una **demo**
 
+El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
+
 ## Aprenderás
 
 * Qué son los **paradigmas de programación**
@@ -121,8 +123,8 @@ Participar en el proyecto involucra lo siguiente:
 
 ## Libros (mínimo 4)
 
-* [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp), Richard Warburton, O'Reilly
-* [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp), Richard Warburton, O'Reilly Media
+* [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [Programming Paradigms for Dummies: What Every Programmer Should Know](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf), Peter Van Roy, Université Catholique de Louvain, Bélgica, circa 2010.
 
 ## Benchmarks
@@ -131,7 +133,6 @@ Cursos similares que sirven como referencia:
 
 * [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015), Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
-* [Introduction to Functional Programming - How to Think Functionally in (Almost) Any Language](http://shop.oreilly.com/product/0636920052463.do), Barry Burd, November 2016, O'Reilly Media
 * [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html), Kurt Nørmarks, Aalborg University, Dinamarca.
 
 ## Referencias
@@ -144,24 +145,18 @@ Capítulos de libros:
 Blog posts:
 
 * [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257), Eric Elliott en Medium, Feb 20 2017
-* [Master the JavaScript Interview: What is Functional Programming?]( https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0), Eric Elliott en Medium, Jan 3 2017
-* [Functional Programming In JavaScript — With Practical Examples (Part 1)]( https://medium.freecodecamp.com/functional-programming-in-js-with-practical-examples-part-1-87c2b0dbc276), Free Code Camp, @rajaraodv, Nov 14 2016
 * [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/), Beth Allchurch, 29 of June, 2016
 * [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming), Mary Rose Cook
 
 Videos:
 
 * [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), JSUnconf 2016
-* [Stefanie Schirmer: Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo), JSConf EU 2015
-* [James Coglan: Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html), JSConf EU 2014
 * [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI), 30 Aug 2013
-* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep 13 2012
 
 Otros recursos:
 
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
-* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
 
 ***
 
