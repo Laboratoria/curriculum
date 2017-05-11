@@ -119,6 +119,12 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | survey | 10min | Self-assessment & feedback
 
 * * *
+## Contributors
+* Rodulfo Prieto (autor)
+* Lupo Montero
+* Iván Medina
+* ...
+
 ## Libros de consulta
 * http://eloquentjavascript.net/
 * http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
