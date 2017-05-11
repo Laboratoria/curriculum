@@ -9,24 +9,21 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 * A correr programas a través de la interfaz de línea de comandos (_CLI_)
 * A utilizar un sistema de control de versiones (_Git_)
 
-## Productos a crear:
+## Productos a desarrollar:
 Pondrás en práctica lo aprendido al implementar los siguientes productos web que serán parte de tu portafolio:
 
-##### 1. Cajero automático
-Crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
+1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
 
-##### 2. ¿Es una tarjeto de crédito falsa?
-Crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-##### 3. Mensajes encriptados en Facebook
-Aplicación web que publica mensajes codificados (encriptados) en Facebook que tus amigos solo pueden decifrar a través de tu aplicación web.
+3. **Mensajes encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook que tus amigos solo pueden decifrar a través de tu aplicación web.
 
-## Contenido
-* Duración: 30 horas
-* Lecciones: 15
-* Problem Sets: 5
-* Proyectos: 3
+## Duración
+* Duración total: 30 horas aprox.
+* Presecial: 12 horas
+* Self-paced (online): 15-20 horas aprox.
 
+## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
 30min (self-paced)
 
@@ -53,8 +50,6 @@ Aprende exactamente qué es la web y cómo sus 5 componentes principales: (HTML,
 | 00 | video | HTTP and URLs
 | 00 | video | Escribiendo JavaScript en la consola
 | 00 | quiz | Prueba tu conocimiento.
-
-
 
 
 
