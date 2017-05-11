@@ -1,61 +1,80 @@
 # 09. Paradigmas de programación
 
-Los _Paradigmas de Programación_ (_Programming Paradigms_) son formas diferentes
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
 de pensar en cómo se organiza un programa basado en una serie de principios, los
 cuales resultan en estilos muy distintos y lenguages muy diversos.
 
-JavaScript es un leguage _híbrido_, por decirlo de alguna forma, y contiene
+**JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
 elementos propios de lenguages funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
-funcional, si no que en su dinamismo y rareza, JavaScript nos permite programar
-de forma funcional, orientado a objetos, eventos, por procedimientos, ...
+funcional, si no que en su dinamismo y rareza, **JavaScript nos permite programar
+de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
+_por procedimientos_, ...**
 
-Como desarrollador Full Stack JS es esencial entender los distintos paradigmas
-de programación y cómo se traducen al mundo real en proyectos de JavaScript.
+Como desarrollador **Full Stack JS** es esencial entender los distintos
+paradigmas de programación y cómo se traducen al mundo real en proyectos de
+JavaScript.
 
 Históricamente, el paradigma orientado a objetos (OOP) ha sido el predominante,
 pero recientemente, y en particular en la comunidad de JavaScript, hay un
-resurgir del paradigma funcional y sus bondades. JavaScript es un lenguage de
-corazón funcional, así que conocer el paradigma, y cómo se compara a la
+resurgir del paradigma funcional y sus bondades. **JavaScript es un lenguage de
+corazón funcional**, así que conocer el paradigma, y cómo se compara a la
 programación orientada a objetos, no sólo te hará una mejor coder, si no que
 podrás entender cómo se pueden enfrentar los mismos problemas con enfoques
 distintos, e identificar y adaptarse a bases de código existentes.
+
+En este curso formarás parte de un equipo responsable de extender la
+funcionalidad de un juego de dos dimensiones escrito en JavaScript. **Tu equipo
+tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code
+reviews**. Todo el flujo de trabajo será a través de un repositorio alojado en
+GitHub. Durante la primera semana tu equipo tendrá que extender el juego
+_heredando_ del prototipo de un contructor ya implementado, mientras que en la
+segunda semana tendrán que refactorizar el código de la primera semana usando
+el paradigma funcional.
 
 ## Detalles logísticos
 
 * Duración: 2 semanas
 * Horas por semana: 7 hrs
-* Self-paced: 3 hrs
+* Self-paced: 4 hrs
 * Presencial: 10 hrs
-* Total horas: 13
+* Total horas: 14
 
-## Proyectos
+## Producto
 
-* [Código fuente del juego](https://github.com/Laboratoria/game-oop)
-* [Demo](https://laboratoria.github.io/game-oop/)
+El _producto_ en el que trabajarás es un
+[videojuego de ejemplo](https://laboratoria.github.io/game-oop/), con una
+[base de código](https://github.com/Laboratoria/game-oop) existente y que
+funciona. La idea es que un jefe ficticio le ha pedido a tu equipo que añada
+una serie de _personajes_ y _niveles_ nuevos.
 
-Durante el curso se desarrollarán dos "proyectos" basados en una aplicación
-existente, un [juego](https://laboratoria.github.io/game-oop/). Las alumnas
-tendrán que:
+Participar en el proyecto involucra lo siguiente:
 
-* Hacer un fork del repo _upstream_
-* Extender juego implementando nuevos personajes y mapas usando herencia
-* Extender juego implementando nuevos personajes y mapas usando composición
-* Enviar pull requests para solicitar code reviews
-* Presentar el trabajo final al resto del grupo
+* Tener una cuenta en **GitHub**
+* Hacer un **fork** del repo _upstream_
+* **Mapear y dividir el trabajo** con tu equipo
+* Setear **milestones**
+* Implementar nuevos personajes y mapas usando **herencia**
+* Implementar nuevos personajes y mapas usando **composición**
+* Enviar **pull requests**
+* Hacer **code review** y **merges**
+* Presentar el trabajo final al resto del grupo con una **demo**
 
 ## Aprenderás:
 
-* Qué son los paradigmas de programación
-* Qué son FP, OOP y PP y cómo se comparan
-* A entender las diferencias y entre el estilo imperativo vs declarativo
-* Las diferencias entre _constructores_ y _factories_
-* Cómo implementar _herencia prototipal_
-* Los principios básicos de la programación funcional
-* A usar _composición_ como alternativa la _herencia_
-* A trabajar sobre una base de código existente
-* A trabajar haciendo "pair programming"
-* A trabajar en branches o forks y pull requests
+* Qué son los **paradigmas de programación**
+* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
+* A entender las diferencias y entre el estilo **imperativo vs declarativo**
+* Las diferencias entre **constructores** y **factories**
+* Cómo implementar **herencia prototipal**
+* Los principios básicos de la **programación funcional**
+* A usar **composición** como alternativa la _herencia_
+* A **trabajar sobre una base de código existente**
+* A trabajar haciendo **pair programming**
+* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
+  **branches**, **forks** y **pull requests**
+
+***
 
 ## Syllabus
 
@@ -110,8 +129,6 @@ Cursos similares que sirven como referencia:
 * https://www.udacity.com/course/object-oriented-javascript--ud015
 * https://github.com/madbernard/blinky-dance-party
 
-* * *
-
 ## Referencias
 
 * http://eloquentjavascript.net/03_functions.html
@@ -133,6 +150,8 @@ Cursos similares que sirven como referencia:
 * https://en.wikipedia.org/wiki/Programming_paradigm
 * https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms
 * http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html
+
+***
 
 ## Lesson plan for LIM20171
 
