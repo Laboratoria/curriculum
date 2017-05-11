@@ -123,9 +123,13 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 
 ## Libros (mínimo 4)
 
-* [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp), Richard Warburton, O'Reilly Media
+* [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp),
+  Richard Warburton, O'Reilly Media
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [Programming Paradigms for Dummies: What Every Programmer Should Know](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf), Peter Van Roy, Université Catholique de Louvain, Bélgica, circa 2010.
+* [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes),
+  Kyle Simpson, O'Reilly Media, Jul 2014
+* [Programming Paradigms for Dummies: What Every Programmer Should Know](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf),
+  Peter Van Roy, Université Catholique de Louvain, Bélgica, circa 2010.
 
 ## Benchmarks
 
@@ -141,6 +145,7 @@ Capítulos de libros:
 
 * [Eloquent JavaScript - Chapter 3: Functions](http://eloquentjavascript.net/03_functions.html)
 * [Eloquent JavaScript - Chapter 5: Higher-Order Functions](http://eloquentjavascript.net/05_higher_order.html)
+* [Eloquent JavaScript - Chapter 6: The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
 
 Blog posts:
 
