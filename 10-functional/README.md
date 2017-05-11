@@ -11,7 +11,15 @@ proliferación de librerías como underscore y lodash, después la adición de
 conocer el paradigma funcional y estilo declarativo se han convertido en una
 necesidad para cualquier desarrollador de JavaScript.
 
-## Productos
+## Detalles logísticos
+
+* Duración: 2 semanas
+* Horas por semana: 7 hrs
+* Self-paced: 4 hrs
+* Presencial: 10 hrs
+* Total horas: 14
+
+## Producto
 
 * Refactorizar juego usado en lección 9 usando principios de programación
   funcional, ES6 y añadiendo test suite.
@@ -32,6 +40,8 @@ necesidad para cualquier desarrollador de JavaScript.
 * Trabajo en equipo
 * Peer-review
 * Github issues, branches, pull requests, ...
+
+***
 
 ## Syllabus
 
@@ -59,7 +69,52 @@ necesidad para cualquier desarrollador de JavaScript.
 
 3h (presencial)
 
+***
 
+## Contributors
+
+* Lupo Montero (autor)
+* Bianca Gandolfo
+* Mariano Crowe
+* ...
+
+## Libros (mínimo 4)
+
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+
+## Benchmarks
+
+Cursos similares que sirven como referencia:
+
+* [Introduction to Functional Programming - How to Think Functionally in (Almost) Any Language](http://shop.oreilly.com/product/0636920052463.do), Barry Burd, November 2016, O'Reilly Media
+
+## Referencias
+
+Capítulos de libros:
+
+* [Eloquent JavaScript - Chapter 3: Functions](http://eloquentjavascript.net/03_functions.html)
+* [Eloquent JavaScript - Chapter 5: Higher-Order Functions](http://eloquentjavascript.net/05_higher_order.html)
+
+Blog posts:
+
+* [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257), Eric Elliott en Medium, Feb 20 2017
+* [Master the JavaScript Interview: What is Functional Programming?]( https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0), Eric Elliott en Medium, Jan 3 2017
+* [Functional Programming In JavaScript — With Practical Examples (Part 1)]( https://medium.freecodecamp.com/functional-programming-in-js-with-practical-examples-part-1-87c2b0dbc276), Free Code Camp, @rajaraodv, Nov 14 2016
+* [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/), Beth Allchurch, 29 of June, 2016
+* [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming), Mary Rose Cook
+
+Videos:
+
+* [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), Anjana Vakil, JSUnconf 2016
+* [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo), Stefanie Schirmer, JSConf EU 2015
+* [Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html), James Coglan, JSConf EU 2014
+* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep 13 2012
+
+Otros recursos:
+
+* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
+
+***
 
 ## Lesson plan for LIM20171
 
