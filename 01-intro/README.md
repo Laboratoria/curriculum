@@ -19,13 +19,11 @@ Pondrás en práctica los conceptos aprendidos al implementar los siguientes tre
 3. **Mensajes encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook que tus amigos solo pueden decifrar a través de tu aplicación web.
 
 ## Duración
-* Duración total: 30 horas aprox.
+* Total: 30 horas aprox.
 * Presecial: 12 horas (4 sesiones de 3hr c/u)
 * Self-paced (online): 15-20 horas aprox.
 
-## Libros de consulta
-* http://eloquentjavascript.net/
-* http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
+***
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
@@ -120,6 +118,7 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | lecture | 30min | Solucionario
 | survey | 10min | Self-assessment & feedback
 
-
-
 * * *
+## Libros de consulta
+* http://eloquentjavascript.net/
+* http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
