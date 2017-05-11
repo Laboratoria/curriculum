@@ -128,3 +128,18 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 ## Libros de consulta
 * http://eloquentjavascript.net/
 * http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
+
+* * *
+## Suggested Lesson Plan
+
+### Formato Bootcamp (Full-time)
+| Week | Lunes | Martes | Miercoles | Jueves | Viernes
+| ---- | --- | --- | --- | --- | ---
+|  01  | Lecciones 00 a 05 (self-paced) | Lección 06 (presencial)  | tbd | tbd | tbd
+|  02  | tbd | tbd | tbd | tbd | tbd
+
+### Formato Educación Contínua 4x4
+| Week | Lunes | Martes | Miercoles | Jueves | Viernes | Sabado
+| ---- | ----- | ------ | --------- | ------ | ------- | -----
+|  01  | ----- | ------ | --------- | Lecciones 00 a 05 (self-paced) | ------- | Ayudantía (presencial **opcional**)
+|  02  | ----- | ------ | --------- | Lección 06 (presencial)| ------- | -----
