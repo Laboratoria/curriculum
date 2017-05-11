@@ -84,33 +84,97 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 
 1h (self-paced)
 
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | video      |    2min  | ¿Qué son los paradigmas de programación?
+|   2   | video      |    3min  | Declarativo vs Imperativo
+|   3   | video      |    3min  | Comparativa de paradigmas
+|   4   | video      |    4min  | Por procedimientos
+|   5   | code       |   10min  | Ejericio por procedimientos
+|   6   | video      |    4min  | Orientado a objetos
+|   7   | code       |   10min  | Ejericio OOP
+|   8   | video      |    4min  | Funcional
+|   9   | code       |   10min  | Ejericio funcional
+|  10   | quiz       |   10min  | Prueba tu conocimiento
+
 ### Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
 
 2h (presencial)
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | intro      |   10min  | Bienvenida, presentación, ...
+|   2   | ejemplo    |   10min  | Implementación imperativa
+|   3   | ejemplo    |   10min  | Implementación por procedimientos
+|   4   | ejemplo    |   10min  | Implementación orientada a objetos
+|   5   | ejemplo    |   10min  | Implementación funcional
+|   6   | break      |   10min  | Ejercicios de instancia vs prototipo
+|   7   | ejercicios |   30min  | Herencia prototipal
+|   8   | challenge  |   30min  | Ejercicios de herencia prototipal
 
 ### Lesson 3: [OOP and Prototypal inheritance](03-oop)
 
 1h (self-paced)
 
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | video      |   10min  | Propiedades de instancia vs prototipo
+|   2   | code       |   10min  | Ejercicios de instancia vs prototipo
+|   3   | video      |   10min  | Herencia prototipal
+|   4   | code       |   10min  | Ejercicios de herencia prototipal
+|   5   | quiz       |   10min  | Prueba tu conocimiento
+
 ### Lesson 4: [Proyecto (implementación OOP)](04-oop-project)
 
 3h (presencial)
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | charla     |   15min  | Entorno y metodología de trabajo
+|   2   | reunión    |   15min  | Identificar tareas, dividir trabajo
+|   3   | code       |   2h     | Hacking...
+|   4   | review     |   30min  | Code review
 
 ### Lesson 5: [Demos de proyectos OOP](05-oop-demos)
 
 1h (presencial)
 
+Cada equipo (dos alumnas) tendrea 5 minutos para presentar su demo.
+
 ### Lesson 6: [Object factories and composition](06-composition)
 
 1h (self-paced)
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | video      |   10min  | Introducción a la programación funcional
+|   2   | video      |   10min  | Estado compartido y cómo evitarlo
+|   3   | video      |   10min  | Composition over inheritance
+|   4   | code       |   10min  | Ejercicios de composición
+|   5   | quiz       |   10min  | Prueba tu conocimiento
 
 ### Lesson 7: [Proyecto (implementación FP)](07-fp-project)
 
 3h (presencial)
 
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | qa         |   15min  | Open questions
+|   2   | reunión    |   15min  | Re-cap
+|   3   | code       |   2h     | Hacking...
+|   4   | review     |   30min  | Code review
+
 ### Lesson 8: [Demos de proyectos FP](08-fp-demos)
 
 1h (presencial)
+
+Cada equipo (dos alumnas) tendrea 5 minutos para presentar su demo.
 
 * * *
 
@@ -135,7 +199,8 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 
 Cursos similares que sirven como referencia:
 
-* [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015), Hack Reactor en Udacity
+* [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015),
+  Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
 * [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html), Kurt Nørmarks, Aalborg University, Dinamarca.
 
@@ -149,14 +214,21 @@ Capítulos de libros:
 
 Blog posts:
 
-* [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257), Eric Elliott en Medium, Feb 20 2017
-* [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/), Beth Allchurch, 29 of June, 2016
-* [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming), Mary Rose Cook
+* [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/),
+  Yevgeniy Brikman, Apr 09, 2014
+* [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257),
+  Eric Elliott en Medium, Feb 20 2017
+* [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/),
+  Beth Allchurch, 29 of June, 2016
+* [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming),
+  Mary Rose Cook
 
 Videos:
 
-* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), JSUnconf 2016
-* [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI), 30 Aug 2013
+* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  JSUnconf 2016
+* [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+  30 Aug 2013
 
 Otros recursos:
 

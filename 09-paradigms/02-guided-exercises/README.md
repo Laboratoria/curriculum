@@ -4,7 +4,6 @@ Duración: 2h (presencial)
 
 ## Lesson plan
 
-
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
 |   1   | intro      |   10min  | Bienvenida, presentación, ...
