@@ -60,7 +60,8 @@ Participar en el proyecto involucra lo siguiente:
 * Hacer **code review** y **merges**
 * Presentar el trabajo final al resto del grupo con una **demo**
 
-El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
+El juego está inspirado en el ejemplo de
+[js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
 
 ## Aprenderás
 
@@ -84,6 +85,10 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 
 1h (self-paced)
 
+En esta lección aprenderás las características y diferencias entre los
+paradigmas más relevantes para JavaScript: imperativo, por procedimientos,
+orientado a objetos (OOP) y funcional (FP).
+
 #### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
@@ -99,26 +104,13 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 |   9   | code       |   10min  | Ejericio funcional
 |  10   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
-
-2h (presencial)
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | intro      |   10min  | Bienvenida, presentación, ...
-|   2   | ejemplo    |   10min  | Implementación imperativa
-|   3   | ejemplo    |   10min  | Implementación por procedimientos
-|   4   | ejemplo    |   10min  | Implementación orientada a objetos
-|   5   | ejemplo    |   10min  | Implementación funcional
-|   6   | break      |   10min  | Ejercicios de instancia vs prototipo
-|   7   | ejercicios |   30min  | Herencia prototipal
-|   8   | challenge  |   30min  | Ejercicios de herencia prototipal
-
-### Lesson 3: [OOP and Prototypal inheritance](03-oop)
+### Lesson 2: [OOP y herencia prototipal](03-oop)
 
 1h (self-paced)
+
+Después de haber completado la introducción a paradigmas, te introdicirás en los
+detalles de cómo usar contructores y prototipos para crear jerarquías de
+herencia.
 
 #### Lesson plan
 
@@ -130,26 +122,54 @@ El juego está inspirado en el ejemplo de [js-tiles de mozdevs](https://github.c
 |   4   | code       |   10min  | Ejercicios de herencia prototipal
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 4: [Proyecto (implementación OOP)](04-oop-project)
-
-3h (presencial)
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   15min  | Entorno y metodología de trabajo
-|   2   | reunión    |   15min  | Identificar tareas, dividir trabajo
-|   3   | code       |   2h     | Hacking...
-|   4   | review     |   30min  | Code review
-
-### Lesson 5: [Demos de proyectos OOP](05-oop-demos)
+### Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
 
 1h (presencial)
 
-Cada equipo (dos alumnas) tendrea 5 minutos para presentar su demo.
+Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
+en particular y herencia prototipal, en esta lección nos concentraremos en hacer
+ejercicios todos juntos con la ayuda del profe y los TAs.
 
-### Lesson 6: [Object factories and composition](06-composition)
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | ejercicios |   30min  | Herencia prototipal
+|   2   | challenge  |   30min  | Ejercicios de herencia prototipal
+
+### Lesson 4: [Entorno y metodología de trabajo](#)
+
+1h (presencial)
+
+...
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | charla     |   30min  | Kick-off: Entorno y metodología de trabajo
+|   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
+
+### Lesson 5: [Proyecto (implementación OOP)](04-oop-project)
+
+3h (presencial)
+
+...
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | code       |   2h     | Hacking...
+|   2   | review     |   30min  | Code review
+
+### Lesson 6: [Demos de proyectos OOP](05-oop-demos)
+
+1h (presencial)
+
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+
+### Lesson 7: [Object factories and composition](06-composition)
 
 1h (self-paced)
+
+...
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
@@ -159,22 +179,24 @@ Cada equipo (dos alumnas) tendrea 5 minutos para presentar su demo.
 |   4   | code       |   10min  | Ejercicios de composición
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 7: [Proyecto (implementación FP)](07-fp-project)
+### Lesson 8: [Proyecto (implementación FP)](07-fp-project)
 
 3h (presencial)
 
+...
+
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | qa         |   15min  | Open questions
+|   1   | qa         |   15min  | Kick-off: Open questions
 |   2   | reunión    |   15min  | Re-cap
 |   3   | code       |   2h     | Hacking...
 |   4   | review     |   30min  | Code review
 
-### Lesson 8: [Demos de proyectos FP](08-fp-demos)
+### Lesson 9: [Demos de proyectos FP](08-fp-demos)
 
 1h (presencial)
 
-Cada equipo (dos alumnas) tendrea 5 minutos para presentar su demo.
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 * * *
 
@@ -245,22 +267,23 @@ Otros recursos:
 
 * Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
   1h (self-paced)
-* Lesson 2: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
-  2h (presencial)
+* Lesson 2: [OOP and Prototypal inheritance](03-oop) 1h (self-paced)
+* Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+  1h (presencial)
 
 #### Sábado
 
-* Lesson 3: [OOP and Prototypal inheritance](03-oop) 1h (self-paced)
-* Lesson 4: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
+* Lesson 4: [Entorno y metodología de trabajo](#) 1h (presencial)
+* Lesson 5: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
 
 ### Week 2
 
 #### Jueves
 
-* Lesson 5: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
-* Lesson 6: [Object factories and composition](06-composition) 1h (self-paced)
+* Lesson 6: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
+* Lesson 7: [Object factories and composition](06-composition) 1h (self-paced)
 
 #### Sábado
 
-* Lesson 7: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
-* Lesson 8: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
+* Lesson 8: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
+* Lesson 9: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
