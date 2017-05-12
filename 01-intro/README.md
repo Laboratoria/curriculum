@@ -23,8 +23,6 @@ Pondrás en práctica los conceptos aprendidos al implementar los siguientes tre
 * Presecial: 12 horas (4 sesiones de 3hr c/u)
 * Self-paced (online): 15-20 horas aprox.
 
-***
-
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
 **_10min (self-paced)_**
@@ -143,7 +141,6 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 
 ### Formato Bootcamp (full-time)
 * Tiempo estimado: _*2 semanas*_
-* Propuesta de horario:
 
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
@@ -156,7 +153,6 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 
 ### Formato Educación Contínua 4x4
 * Tiempo estimado: _*4 semanas*_
-* Propuesta de horario:
 
 #### Semana 1
 * Online Pre-work: Lecciones 00-05
