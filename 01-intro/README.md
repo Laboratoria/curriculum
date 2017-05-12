@@ -28,6 +28,7 @@ Pondrás en práctica los conceptos aprendidos al implementar los siguientes tre
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
 **_10min (self-paced)_**
+
 Antes de partir es importante que revises lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo estos hallazgos dictan la metodología de enseñanza de Laboratoria.
 
 | # | Tipo | Tópico           
@@ -38,6 +39,7 @@ Antes de partir es importante que revises lo que la ciencia nos dice sobre el pr
 
 ### Lección 01: [Sobre la programación y la web](02-web-development-process)
 **_30min (self-paced)_**
+
 Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
 
 | # | Tipo | Tópico           
@@ -53,6 +55,7 @@ Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las 
 
 ### Lección 02: [Crea tu primera página web](02-your-first-website)
 **_25min (self-paced)_**
+
 Con lo que sabes ya puedes crear tu primera página web.
 
 | # | Tipo | Tópico           
@@ -66,6 +69,7 @@ Con lo que sabes ya puedes crear tu primera página web.
 
 ### Lección 03: [Variables y Tipos de Datos](03-variables-and-data-types)
 **_25min (self-paced)_**
+
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
 
 | # | Tipo | Tópico           
@@ -79,8 +83,11 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 
 ### Lección 04: [Strings & Numbers](04-strings-and-numbers)
 **_35min (self-paced)_**
+
 Aprende dos de los tipos de datos más importantes: String y Numbers.
 
+| # | Tipo | Tópico           
+| - | ----- | -----
 | 23 | video | Strings
 | 24 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
 | 25 | video | Dado un string, imprime el número de caracteres
@@ -93,6 +100,7 @@ Aprende dos de los tipos de datos más importantes: String y Numbers.
 
 ### Lección 05: [Otros tipos de datos y operadores](05-other-data-types)
 **_25min (self-paced)_**
+
 Continúa aprendiendo otros tipos de datos clave para la creación de programas.
 
 | # | Tipo | Tópico           
