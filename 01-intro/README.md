@@ -200,7 +200,7 @@ Ejercicios individuales para practicar y solidificar los conceptos aprendidos
 * ...
 
 ## Libros de consulta
-* http://eloquentjavascript.net/
+* [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
 
 * * *
