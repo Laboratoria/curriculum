@@ -48,8 +48,6 @@ el paradigma funcional.
 
 ## Detalles logísticos
 
-* Duración: 2 semanas
-* Horas por semana: 7 hrs
 * Self-paced: 4 hrs
 * Presencial: 10 hrs
 * Total horas: 14
@@ -260,6 +258,9 @@ Otros recursos:
 ***
 
 ## Lesson plan for LIM20171
+
+* Duración: 2 semanas
+* Horas por semana: 7 hrs
 
 ### Week 1
 
