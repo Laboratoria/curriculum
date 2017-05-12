@@ -32,6 +32,20 @@ _heredando_ del prototipo de un contructor ya implementado, mientras que en la
 segunda semana tendrán que refactorizar el código de la primera semana usando
 el paradigma funcional.
 
+## Aprenderás
+
+* Qué son los **paradigmas de programación**
+* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
+* A entender las diferencias y entre el estilo **imperativo vs declarativo**
+* Las diferencias entre **constructores** y **factories**
+* Cómo implementar **herencia prototipal**
+* Los principios básicos de la **programación funcional**
+* A usar **composición** como alternativa la _herencia_
+* A **trabajar sobre una base de código existente**
+* A trabajar haciendo **pair programming**
+* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
+  **branches**, **forks** y **pull requests**
+
 ## Detalles logísticos
 
 * Duración: 2 semanas
@@ -62,20 +76,6 @@ Participar en el proyecto involucra lo siguiente:
 
 El juego está inspirado en el ejemplo de
 [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
-
-## Aprenderás
-
-* Qué son los **paradigmas de programación**
-* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
-* Las diferencias entre **constructores** y **factories**
-* Cómo implementar **herencia prototipal**
-* Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
 
 ***
 
