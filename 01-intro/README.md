@@ -232,7 +232,7 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 
 #### Semana 3
 * Online Pre-work: Lección 11
-* Presencial: Lección 
+* Presencial: Lección
 
 #### Semana 4
 * Online Pre-work: Lecciones ...
