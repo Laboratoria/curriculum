@@ -147,7 +147,7 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 | 9am  | Sprint Kick-off        | check-in    | check-in | check-in | check-in |
 | 10am | L01-L03 (self-paced) | L06 (presencial)   | tbd | tbd | tbd
 | 12pm | Almuerzo        | Almuerzo    | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | L04-L05 (self-paced)  | tbd         | tbd | tbd | tbd
+| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)         | tbd | tbd | tbd
 | 3pm  | Ayudantia & 1:1 | 1:1 review  | tbd | tbd | tbd
 | 5pm  | libre           | libre       | tbd | tbd | tbd
 
