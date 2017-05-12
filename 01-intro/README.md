@@ -131,22 +131,24 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 
 * * *
 ## Suggested Lesson Plans
-Cuánto se demora en realizar este curso varía de acuerdo a la cantidad de horas disponibles. Aquí presentamos opciones de horario de acuerdo al formato de estudio.
+El tiempo requerido para completar este curso varía de acuerdo a la cantidad de horas disponibles a la semana. A continuación, los lessons plans por defecto para modalidad Bootcamp (full-time) y Educación Continua (4x4)
 
-### Formato Bootcamp (Full-time)
-En formato Bootcamp Full-time, este curso demora **2 semanas**
+### Formato Bootcamp (full-time)
+* Tiempo estimado: _*2 semanas*_
+* Propuesta de horario:
 
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
-| 9am  | Kick-off        | check-in    | check-in | check-in | check-in |
-| 10am | Online L01-L03  | Presencial L06   | tbd | tbd | tbd
+| 9am  | Sprint Kick-off        | check-in    | check-in | check-in | check-in |
+| 10am | L01-L03 (self-paced) | L06 (presencial)   | tbd | tbd | tbd
 | 12pm | Almuerzo        | Almuerzo    | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | Online L04-L05  | tbd         | tbd | tbd | tbd
+| 1pm  | L04-L05 (self-paced)  | tbd         | tbd | tbd | tbd
 | 3pm  | Ayudantia & 1:1 | 1:1 review  | tbd | tbd | tbd
 | 5pm  | libre           | libre       | tbd | tbd | tbd
 
 ### Formato Educación Contínua 4x4
-En formato 4x4, este curso demora **4 semanas**
+* Tiempo estimado: _*4 semanas*_
+* Propuesta de horario:
 
 #### Semana 1
 * Online Pre-work: Lecciones 00-05
