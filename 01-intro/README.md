@@ -37,81 +37,81 @@ Antes de partir es importante que revises lo que la ciencia nos dice sobre el pr
 | 03 | lectura | Compromiso
 
 ### Lección 01: [Sobre la programación y la web](02-web-development-process)
-**_30min (self-paced)_**
+**_35min (self-paced)_**
 
 Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 03 | video |¿Qué es la programación y porqué aprender a programar?
-| 04 | video | Hablándole a la máquina: lenguajes de bajo y alto nivel
-| 05 | video | ¿Qué es JavaScript y por qué aprenderlo?
-| 06 | video | ¿Cómo funciona la web?
-| 07 | video | HTML, CSS & JavaScript
-| 08 | video | HTTP & URLs
-| 09 | video | Escribiendo JavaScript en la consola
-| 10 | quiz | Prueba tu conocimiento
+| 01 | video |¿Qué es la programación y porqué aprender a programar?
+| 02 | video | Hablándole a la máquina: lenguajes de bajo y alto nivel
+| 03 | video | ¿Qué es JavaScript y por qué aprenderlo?
+| 04 | video | ¿Cómo funciona la web?
+| 05 | video | HTML, CSS & JavaScript
+| 06 | video | HTTP & URLs
+| 07 | video | Escribiendo JavaScript en la consola
+| 08 | quiz | Prueba tu conocimiento
 
 ### Lección 02: [Crea tu primera página web](02-your-first-website)
-**_25min (self-paced)_**
+**_30min (self-paced)_**
 
 Con lo que sabes ya puedes crear tu primera página web.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 11 | video | Descarga un editor de texto
-| 12 | video | Crea el HTML y CSS de tu primera web
-| 13 | video | Agrega interactividad con JS usando `alert()` y `document.write()`
-| 14 | video | Utilizando `console.log` y el Chrome developer tools
-| 15 | reto | Debugging un programa: encuentra el error y arreglalo
-| 16 | quiz | Prueba tu conocimiento
+| 01 | video | Descarga un editor de texto
+| 02 | video | Crea el HTML y CSS de tu primera web
+| 03 | video | Agrega interactividad con JS usando `alert()` y `document.write()`
+| 04 | video | Utilizando `console.log` y el Chrome developer tools
+| 05 | reto | Debugging un programa: encuentra el error y arreglalo
+| 06 | quiz | Prueba tu conocimiento
 
 ### Lección 03: [Variables y Tipos de Datos](03-variables-and-data-types)
-**_25min (self-paced)_**
+**_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 17 | video | ¿Qué son variables?
-| 18 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
-| 19 | video | Nombrando variables
-| 20 | reto | Crea nuevas variables y modifica su valor
-| 21 | video | Valores y tipos de datos
-| 22 | quiz | Prueba tu conocimiento
+| 01 | video | ¿Qué son variables?
+| 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
+| 03 | video | Nombrando variables
+| 04 | reto | Crea nuevas variables y modifica su valor
+| 05 | video | Valores y tipos de datos
+| 06 | quiz | Prueba tu conocimiento
 
 ### Lección 04: [Strings & Numbers](04-strings-and-numbers)
-**_35min (self-paced)_**
+**_40min (self-paced)_**
 
 Aprende dos de los tipos de datos más importantes: String y Numbers.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 23 | video | Strings
-| 24 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
-| 25 | video | Dado un string, imprime el número de caracteres
-| 26 | reto | Dada un string, imprime en mayúscula
-| 27 | video | Numbers y operadores aritméticos
-| 28 | video | Dado un número de días, devuelve la cantidad de minutos
-| 29 | video | Métodos comunes `toString()`, `toFixed()` y `parseInt()`
-| 30 | reto | Dada una temperatura en °C, devuelve el valor en °F
-| 31 | quiz | Prueba tu conocimiento
+| 01 | video | Strings
+| 02 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
+| 03 | video | Dado un string, imprime el número de caracteres
+| 04 | reto | Dada un string, imprime en mayúscula
+| 05 | video | Numbers y operadores aritméticos
+| 06 | video | Dado un número de días, devuelve la cantidad de minutos
+| 07 | video | Métodos comunes `toString()`, `toFixed()` y `parseInt()`
+| 08 | reto | Dada una temperatura en °C, devuelve el valor en °F
+| 09 | quiz | Prueba tu conocimiento
 
 ### Lección 05: [Otros tipos de datos y operadores](05-other-data-types)
-**_25min (self-paced)_**
+**_30min (self-paced)_**
 
 Continúa aprendiendo otros tipos de datos clave para la creación de programas.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 32 | video | Booleans
-| 33 | video | Operadores relacionales, de igualdad e identidad, de lógica y de comparación
-| 34 | video | Undefined values: undefined y null
-| 35 | video | Unary operators: typeof
-| 36 | video | Type coercion
-| 37 | quiz | Prueba tu conocimiento
+| 01 | video | Booleans
+| 02 | video | Operadores relacionales, de igualdad e identidad, de lógica y de comparación
+| 03 | video | Undefined values: undefined y null
+| 04 | video | Unary operators: typeof
+| 05 | video | Type coercion
+| 06 | quiz | Prueba tu conocimiento
 
-### Lección 06: [Ejercicios guiados](06-instructor-led-projects)
+### Lección 06: [Ejercicios guiados](06-instructor-led-projects-strings-numbers)
 **_3hrs (presencial)_**
 
 Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
@@ -124,6 +124,73 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | Peer programming | 35min | Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
 | lecture | 30min | Solucionario
 | survey | 10min | Self-assessment & feedback
+
+### Lección 07: [Estructuras Condicionales](07-conditional-structures)
+**_30min (self-paced)_**
+
+Explora una de las formas más comunes de controlar el flujo de tu programa, y por lo tanto darle flexibilidad a lo que hace tu producto.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Repaso semana 1
+| 02 | video | Introducción a estructuras condicionales
+| 03 | video | If… else & else if
+| 04 | reto | Completa el siguiente código para que de acuerdo a la edad clasifique entre: baby, toddler, kid, teenager and adult.
+| 05 | video | switch
+| 06 | quiz | Prueba tu conocimiento
+
+### Lección 08: [Estructuras Repetitivas](07-loops)
+**_40min (self-paced)_**
+
+Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY: Don't Repeat Yourself.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Código DRY
+| 02 | video | Introducción a estructuras repetitivas
+| 03 | video | while and do loops
+| 04 | reto  | Imprime los números del 0-10
+| 05 | video | Saliendo de un loop
+| 06 | video | for loops
+| 07 | reto | Imprime los caracteres de un string
+| 08 | quiz | Prueba tu conocimiento
+
+### Lección 09: [Creando codigo reusable con Funciones](07-loops)
+**_50min (self-paced)_**
+
+Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Introducción a funciones
+| 02 | reto  | Crea una función
+| 03 | video | Las funciones también cambian el flujo del programa
+| 04 | video | Return statement
+| 05 | reto | Crea una función con dos opciones de return
+| 06 | video | Pasar información a una función
+| 07 | reto | Crea una función que sume dos números. Si los argumentos no son números debe retornar mensaje de error.
+| 08 | video | Entiende scope
+| 09 | video | Clean code: indentación, cammelCase, semantica y comentarios
+| 10 | quiz | Prueba tu conocimiento
+
+### Lección 10: [Ejercicios guiados](10-instructor-led-projects-functions)
+**_3hrs (presencial)_**
+
+Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
+
+| Tipo | Duración | Descripción           
+| - | ----- | -----
+| lecture | 60min | Revisar conceptos aprendidos
+| lecture | 10min | Asignar equipos
+| Peer programming | 35min | Crea un programa que haga 5 preguntas de matemática al usuario. Registre las preguntas correctas. Al final le muestre su resultado y le dé la medalla correspondiente. 5 buenas = Oro. Al menos 3 ó 4 = Plata. Menos de 3 = Bronce.
+| Peer programming | 35min | Crea un programa que dado un monto y montos de billetes, devuelva los billetes a entregar
+| lecture | 30min | Solucionario
+| survey | 10min | Self-assessment & feedback
+
+### Lección 11: [Problem Sets](11-problem-sets-intro)
+**_6hrs (self-paced)_**
+
+Ejercicios individuales para practicar y solidificar los conceptos aprendidos
 
 * * *
 ## Contributors
@@ -145,12 +212,12 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
-| 9am  | Sprint Kick-off        | check-in    | check-in | check-in | check-in |
-| 10am | L01-L03 (self-paced) | L06 (presencial)   | tbd | tbd | tbd
-| 12pm | Almuerzo        | Almuerzo    | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)         | tbd | tbd | tbd
-| 3pm  | Ayudantia & 1:1 | tbd  | tbd | tbd | tbd
-| 5pm  | libre           | libre       | tbd | tbd | tbd
+| 9am  | Sprint Kick-off       | check-in           | check-in | check-in | check-in |
+| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | Ayudantia & 1:1 | tbd
+| 12pm | Almuerzo              | Almuerzo            | Almuerzo | Almuerzo | Almuerzo
+| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (self-paced) | tbd | tbd
+| 3pm  | Ayudantia & 1:1       | L07-L09 (self-paced)  | L11 cont. (self-paced) | tbd | tbd
+| 5pm  | libre                 | libre       | tbd | tbd | tbd
 
 ### Formato Educación Contínua 4x4
 * Tiempo estimado: _*4 semanas*_
@@ -160,12 +227,12 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 * Presencial: Lección 06
 
 #### Semana 2
-* Online Pre-work: Lecciones ...
-* Presencial: Lección ...
+* Online Pre-work: Lecciones 07-09
+* Presencial: Lección 10
 
 #### Semana 3
-* Online Pre-work: Lecciones ...
-* Presencial: Lección ...
+* Online Pre-work: Lección 11
+* Presencial: Lección 
 
 #### Semana 4
 * Online Pre-work: Lecciones ...
