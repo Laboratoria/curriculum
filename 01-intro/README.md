@@ -78,7 +78,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | 22 | quiz | Prueba tu conocimiento
 
 ### Lección 04: [Strings & Numbers](04-strings-and-numbers)
-**_40min (self-paced)_**
+**_35min (self-paced)_**
 Aprende dos de los tipos de datos más importantes: String y Numbers.
 
 | 23 | video | Strings
@@ -130,16 +130,36 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 * http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
 
 * * *
-## Suggested Lesson Plan
+## Suggested Lesson Plans
+Cuánto se demora en realizar este curso varía de acuerdo a la cantidad de horas disponibles. Aquí presentamos opciones de horario de acuerdo al formato de estudio.
 
 ### Formato Bootcamp (Full-time)
-| Week | Lunes | Martes | Miercoles | Jueves | Viernes
-| ---- | --- | --- | --- | --- | ---
-|  01  | Lecciones 00 a 05 (self-paced) | Lección 06 (presencial)  | tbd | tbd | tbd
-|  02  | tbd | tbd | tbd | tbd | tbd
+En formato Bootcamp Full-time, este curso demora **2 semanas**
+
+| Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
+| ---- | ------------- | -----------    | ------------ | ------------ | ------- |
+| 9am  | Kick-off        | check-in    | check-in | check-in | check-in |
+| 10am | Online L01-L03  | Presencial L06   | tbd | tbd | tbd
+| 12pm | Almuerzo        | Almuerzo    | Almuerzo | Almuerzo | Almuerzo
+| 1pm  | Online L04-L05  | tbd         | tbd | tbd | tbd
+| 3pm  | Ayudantia & 1:1 | 1:1 review  | tbd | tbd | tbd
+| 5pm  | libre           | libre       | tbd | tbd | tbd
 
 ### Formato Educación Contínua 4x4
-| Week | Lunes | Martes | Miercoles | Jueves | Viernes | Sabado
-| ---- | ----- | ------ | --------- | ------ | ------- | -----
-|  01  | ----- | ------ | --------- | Lecciones 00 a 05 (self-paced) | ------- | Ayudantía (presencial **opcional**)
-|  02  | ----- | ------ | --------- | Lección 06 (presencial)| ------- | -----
+En formato 4x4, este curso demora **4 semanas**
+
+#### Semana 1
+* Online Pre-work: Lecciones 00-05
+* Presencial: Lección 06
+
+#### Semana 2
+* Online Pre-work: Lecciones ...
+* Presencial: Lección ...
+
+#### Semana 3
+* Online Pre-work: Lecciones ...
+* Presencial: Lección ...
+
+#### Semana 4
+* Online Pre-work: Lecciones ...
+* Presencial: Lección ...
