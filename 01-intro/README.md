@@ -32,8 +32,9 @@ Antes de partir es importante que revises lo que la ciencia nos dice sobre el pr
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 00 | video | Growth Mindset vs. Fixed Mindset
-| 01 | video | Cómo se aprende en Laboratoria  
-| 02 | lectura | Compromiso
+| 01 | video | Aprendiendo a aprender
+| 02 | video | Cómo se aprende en Laboratoria  
+| 03 | lectura | Compromiso
 
 ### Lección 01: [Sobre la programación y la web](02-web-development-process)
 **_30min (self-paced)_**
@@ -136,8 +137,8 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 * http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
 
 * * *
-## Suggested Lesson Plans
-El tiempo requerido para completar este curso varía de acuerdo a la cantidad de horas disponibles a la semana. A continuación, los lessons plans por defecto para modalidad Bootcamp (full-time) y Educación Continua (4x4)
+## Lesson Plans
+El tiempo requerido para completar este curso varía de acuerdo a la cantidad de horas disponibles a la semana. A continuación presentamos los lessons plans sugeridos para la modalidad Bootcamp (full-time) y la modalidad Educación Continua (4x4)
 
 ### Formato Bootcamp (full-time)
 * Tiempo estimado: _*2 semanas*_
@@ -148,7 +149,7 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 | 10am | L01-L03 (self-paced) | L06 (presencial)   | tbd | tbd | tbd
 | 12pm | Almuerzo        | Almuerzo    | Almuerzo | Almuerzo | Almuerzo
 | 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)         | tbd | tbd | tbd
-| 3pm  | Ayudantia & 1:1 | 1:1 review  | tbd | tbd | tbd
+| 3pm  | Ayudantia & 1:1 | tbd  | tbd | tbd | tbd
 | 5pm  | libre           | libre       | tbd | tbd | tbd
 
 ### Formato Educación Contínua 4x4
