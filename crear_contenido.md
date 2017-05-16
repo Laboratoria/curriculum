@@ -45,9 +45,52 @@ Una vez que el outline esté cerrado entre el coordinador del curso y el creador
 Con el outline completo, el creador de contenido empezará a crear lo necesario para el desarrollo de la primera semana de clases y será guardado en la carpeta `Semana-01` en el mismo repositorio. El contenido a crear incluye:
 
 * **Scripts**: estos guiones servirán como guías para los videos y para el dictado de las clases que se soportarán por los slides.  
+
+Ejemplo
+
+~~~
+[Script] Computers generally tend to spend about a full quarter of their processing power on sorting different data. As an example, a computer in a hospital may maintain a very large database of all patients who have ever been to the hospital for treatment in the past 5 years. Different people in the hospital might want different lists of patients. A person managing hospital finances might want a list of patients ordered by their hospital charges. A researcher might want a list ordered by the disease for which they were treated. An administrator might want a list ordered by the doctor who treated the patient. While generating these lists, the computer will have to sort the data afresh every time according to the need of the user.
+
+[Ask] Can you think of any other scenario in which sorting is important? What advantages are there of maintaining sorted data over unsorted data? What are the possible disadvantages?
+
+[Script] Computers are actually very simple machines. They can really only do one thing at a time. Their power lies in being able to do these things very quickly which gives the illusion that they are very smart. However we will see as we discover how to solve a fundamental computing problem: sorting a list, exactly how dumb computers really are. Let’s start with a group exercise!
+~~~
+
 * **Screencasts:** para los screencasts utilizaremos este manual.
+
+![](https://www.besttechie.com/wp-content/uploads/2015/10/screenflow-editor.png)
+
 * **Ejercicios guiados:** deberán incluir paso a paso el desarrollo del ejercicio que el profesor realizará. Este ejercicio deberá tener la solución en github y un screencast del paso a paso.
+
+
+
+
 * **Ejercicios prácticos/casos:** para estos casos el creador de contenido deberá sugerir si se deben desarrollar en grupo o individualmente y el tiempo que se le debe dar a cada alumno para resolver el caso.
+
+Ejemplo:
+
+**Does the array contain "wdi"?**
+Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
+
+```javascript
+findWdi([9,'Bart Simpson', true, 'wdi']) // returns true
+findWdi(['a','b','c']) // returns false
+```
+
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+
+```javascript
+
+	function findWdi(arr){
+		// TODO: Place your code here
+	}
+
+```
+
+
+
+
 * **Quizzes:** son necesarios para probar el conocimiento de las estudiantes luego de ver las clases en video. Deben ser creados en google form e incluir el link en el repo.
 
 
