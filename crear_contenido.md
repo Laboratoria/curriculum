@@ -42,14 +42,13 @@ Una vez que el outline esté cerrado entre el coordinador del curso y el creador
 
 ### Paso 4 
 
-Con el outline completo, el creador de contenido empezará a crear lo necesario para el desarrollo de la primera semana de clases, esto incluye:
+Con el outline completo, el creador de contenido empezará a crear lo necesario para el desarrollo de la primera semana de clases y será guardado en la carpeta `Semana-01` en el mismo repositorio. El contenido a crear incluye:
 
-* **Scripts**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
-
-* **Screencasts:** para los screencasts utilizaremos "screenflow"
-* Ejercicios
-* Quizzes 
+* **Scripts**: estos guiones servirán como guías para los videos y para el dictado de las clases que se soportarán por los slides.  
+* **Screencasts:** para los screencasts utilizaremos este manual.
+* **Ejercicios guiados:** deberán incluir paso a paso el desarrollo del ejercicio que el profesor realizará. Este ejercicio deberá tener la solución en github y un screencast del paso a paso.
+* **Ejercicios prácticos/casos:** para estos casos el creador de contenido deberá sugerir si se deben desarrollar en grupo o individualmente y el tiempo que se le debe dar a cada alumno para resolver el caso.
+* **Quizzes:** son necesarios para probar el conocimiento de las estudiantes luego de ver las clases en video. Deben ser creados en google form e incluir el link en el repo.
 
 
 Ejemplo: 
@@ -68,10 +67,7 @@ Ejemplo:
 ### Paso 5 
 
 1. Enviar pull request
-2. Review y discusión: (grupal - incluye a los encargados de ejecución)
-
-
-
+2. Review y discusión: esta revisión está a cargo del coordinador del curso.
 
 ### Paso 6 
 
@@ -82,5 +78,5 @@ El creador de contenido vuelve al paso 4 para crear el material de las siguiente
 
 ### Paso 7 
 
-13. Merge to master
+1. El coordinador del curso aprueba el contenido de la primera semana y hace **Merge to master**
 
