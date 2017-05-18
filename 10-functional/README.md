@@ -97,11 +97,22 @@ Capítulos de libros:
 
 Blog posts:
 
-* [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257), Eric Elliott en Medium, Feb 20 2017
-* [Master the JavaScript Interview: What is Functional Programming?]( https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0), Eric Elliott en Medium, Jan 3 2017
-* [Functional Programming In JavaScript — With Practical Examples (Part 1)]( https://medium.freecodecamp.com/functional-programming-in-js-with-practical-examples-part-1-87c2b0dbc276), Free Code Camp, @rajaraodv, Nov 14 2016
-* [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/), Beth Allchurch, 29 of June, 2016
-* [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming), Mary Rose Cook
+* [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257),
+  Eric Elliott en Medium, Feb 20 2017
+* [Master the JavaScript Interview: What is Functional Programming?]( https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0),
+  Eric Elliott en Medium, Jan 3 2017
+* [Functional Programming In JavaScript — With Practical Examples (Part 1)]( https://medium.freecodecamp.com/functional-programming-in-js-with-practical-examples-part-1-87c2b0dbc276),
+  Free Code Camp, @rajaraodv, Nov 14 2016
+* [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/),
+  Beth Allchurch, 29 of June, 2016
+* [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming),
+  Mary Rose Cook
+* [Functional Programming in Javascript (Part 2)](https://medium.com/@y_kishino/functional-programming-in-javascript-part-2-78078df327a5)
+  [@yyyk](https://medium.com/@y_kishino), Apr 16 2017 (needs review)
+* [One webpack config to rule them all — environments that is](https://medium.com/@ryandrewjohnson/one-webpack-config-to-rule-them-all-environments-that-is-277457769779),
+  [Ryan Johnson](https://medium.com/@ryandrewjohnson), Feb 12 2017
+* [What are NPM, Yarn, Babel, and Webpack; and how to properly use them?](https://medium.com/front-end-hacking/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987),
+  [Gasim Gasimzada](https://medium.com/@gasim.appristas), May 9 2017 (needs review) 
 
 Videos:
 
