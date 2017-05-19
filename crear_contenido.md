@@ -44,9 +44,7 @@ Una vez que el outline esté cerrado entre el coordinador del curso y el creador
 
 Con el outline completo, el creador de contenido empezará a crear lo necesario para el desarrollo de la primera semana de clases y será guardado en la carpeta `Semana-01` en el mismo repositorio. El contenido a crear incluye:
 
-* **Scripts**: estos guiones servirán como guías para los videos y para el dictado de las clases que se soportarán por los slides.  
-
-Ejemplo
+* **Scripts**: estos guiones servirán como guías para los videos y para el dictado de las clases que se soportarán por los slides. Aquí puedes ver un ejemplo:
 
 ~~~
 [Script] Computers generally tend to spend about a full quarter of their processing power on sorting different data. As an example, a computer in a hospital may maintain a very large database of all patients who have ever been to the hospital for treatment in the past 5 years. Different people in the hospital might want different lists of patients. A person managing hospital finances might want a list of patients ordered by their hospital charges. A researcher might want a list ordered by the disease for which they were treated. An administrator might want a list ordered by the doctor who treated the patient. While generating these lists, the computer will have to sort the data afresh every time according to the need of the user.
@@ -56,9 +54,7 @@ Ejemplo
 [Script] Computers are actually very simple machines. They can really only do one thing at a time. Their power lies in being able to do these things very quickly which gives the illusion that they are very smart. However we will see as we discover how to solve a fundamental computing problem: sorting a list, exactly how dumb computers really are. Let’s start with a group exercise!
 ~~~
 
-* **Screencasts:** para los screencasts utilizaremos este manual.
-
-![](https://www.besttechie.com/wp-content/uploads/2015/10/screenflow-editor.png)
+* **Screencasts:** para ver cómo crear un screencast puedes mirar este [link](https://learn.onemonth.com/how-to-record-your-screen-and-make-a-video-tutorial-c6d37e78cf18). Adicionalmente, puedes ver [este screencast hecho por nosotros](https://laboratoria.wistia.com/medias/tstcuensp9) para que te des una idea de lo que buscamos. La intención del screencast que nos envies es que nos muestres tu idea de desarrollo de los ejercicios. De todos modos, Laboratoria realizará una producción del video . 
 
 * **Ejercicios guiados:** deberán incluir paso a paso el desarrollo del ejercicio que el profesor realizará. Este ejercicio deberá tener la solución en github y un screencast del paso a paso.
 
