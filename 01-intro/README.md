@@ -1,7 +1,7 @@
-# 01. Introducción a la programación (en JavaScript)
+# 01. Introducción a la programación (con JavaScript)
 En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
-## Aprenderás:
+## Aprenderás
 * Cómo funciona la Web: HTML, CSS, JavaScript, HTTP & URLs
 * Conceptos básicos de programación como variables, tipos y estructuras de datos, operadores, declaraciones condicionales y cíclicas y funciones.
 * La sintaxis básica de JavaScript como lenguaje de programación
@@ -9,7 +9,12 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 * A correr programas utilizando la interfaz de línea de comandos (_CLI_)
 * A utilizar un sistema de control de versiones (_Git_)
 
-## Productos a desarrollar:
+## Duración
+* Total: 30 horas aprox.
+* Presecial: 12 horas (4 sesiones de 3hr c/u)
+* Self-paced (online): 15-20 horas aprox.
+
+## Productos a desarrollar
 Pondrás en práctica los conceptos aprendidos al implementar los siguientes tres (3) productos web que serán parte de tu portafolio:
 
 1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
@@ -17,11 +22,6 @@ Pondrás en práctica los conceptos aprendidos al implementar los siguientes tre
 2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 3. **Mensajes encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook que tus amigos solo pueden decifrar a través de tu aplicación web.
-
-## Duración
-* Total: 30 horas aprox.
-* Presecial: 12 horas (4 sesiones de 3hr c/u)
-* Self-paced (online): 15-20 horas aprox.
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
@@ -83,7 +83,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 ### Lección 04: [Strings & Numbers](04-strings-and-numbers)
 **_40min (self-paced)_**
 
-Aprende dos de los tipos de datos más importantes: String y Numbers.
+Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -191,6 +191,41 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 **_6hrs (self-paced)_**
 
 Ejercicios individuales para practicar y solidificar los conceptos aprendidos
+
+### Lección 12: [Objects & Arrays](12-intro-objects-and-arrays)
+**_60min (self-paced)_**
+
+Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras de datos más complejas. Llegó la hora de conocer a los `objects` y los `arrays`. ¡Con ellos vas a poder crear programas más interesantes!
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Intro a objects y arrays
+| 02 | video | ¿Qué son arrays y por qué son importantes ?
+| 03 | video | Creando arrays, accesando y modificando sus diferentes tipos de elementos
+| 04 | video | Propiedades y métodos de los arrays: `.length`; `.push()`; `.shift()`; `.unshift()`; `.pop()`; `.concat()`; `.indexOf()`; `.join()`; `.slice()`; `.lastIndexOf()`; `.trim()`
+| 05 | quiz | Prueba tu conocimiento
+| 06 | reto | Varios retos pequeños de manipulación de `arrays`
+| 07 | video | ¿Qué son objects y por qué son importantes ?
+| 08 | video | Creando obejcts, accesando, agregando y modificando valores
+| 09 | quiz | Prueba tu conocimiento
+| 10 | reto | Varios retos pequeños de manipulación de `objetos`
+| 11 | video | Combinando objects con arrays
+| 12 | reto | Manipula un arreglo de objetos que representan tus amigos
+
+### Lección 13: [Ejercicios guiados ](13-instructor-led-projects-functions)
+**_3hrs (presencial)_**
+
+Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
+
+| Tipo | Duración | Descripción           
+| - | ----- | -----
+| lecture | 60min | Revisar conceptos aprendidos
+| lecture | 10min | Asignar equipos
+| Peer programming | 20min | Crea un programa que imprima la suma todos los números entre un rango, como: `console.log(sum(range(start, end)))`
+| Peer programming | 20min | Crea una función que invierta el orden de los elementos de un array
+| Peer programming | 20min | Crea una función `arrayToList` y otra `listToArray`
+| lecture | 30min | Solucionario
+| survey | 10min | Self-assessment & feedback
 
 * * *
 ## Contributors
