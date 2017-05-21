@@ -15,11 +15,15 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 ## Productos a desarrollar
 Pondrás en práctica los conceptos aprendidos al implementar los siguientes tres (3) productos web que serán parte de tu portafolio:
 
-1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
+1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
-2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+2. **Data visualization - Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
 
-3. **Mensajes encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook que tus amigos solo pueden decifrar a través de tu aplicación web.
+3. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+
+4. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+
+5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
@@ -262,7 +266,7 @@ Resuelve los siguiente problemas en Replit:
 14. isHacker
 15. isUnicorn
 
-### Lección 15: [APIs and JSON](15-apis)
+### Lección 15: [APIs, JSON & Data visualization basics](15-apis)
 **_60min (self-paced)_**
 
 Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de otras personas. Conoce cómo hacerlo a través de las APIs.
@@ -274,16 +278,23 @@ Una de las cosas más interesantes de la programación hoy en día es la posibil
 | 03 | video | Conectándote al API de flicker
 | 04 | reto | reto de comandos para conectarse a un API
 | 05 | quiz | prueba tu conocimiento
-| 06 | video | Web deployment con Heroku
-| 07 | reto | reto de comandos para deployment
+| 06 | video | Data visualization tools: D3 library
+| 07 | reto | reto de data visualization
 | 08 | quiz | prueba tu conocimiento
-| 09 | video | Data visualization tools: D3 library
-| 10 | reto | reto de data visualization
-| 11 | quiz | prueba tu conocimiento
-| 12 | video | Utilizando Google AppScripts
 
+### Lección 16: [Web Deployment](16-web-deployment)
+**_20min (self-paced)_**
 
-### Lección 16: [Creating Cool Products](16-cool-products)
+Para que tus productos se vuelvan públicos, debes aprender a deplegar tus products a la Web.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Web deployment basics
+| 02 | video | Heroku
+| 03 | reto | reto de comandos para deployment
+| 04 | quiz | prueba tu conocimiento
+
+### Lección 17: [Creating Cool Products](17-cool-products)
 **_6hrs (self-paced)_**
 
 Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
@@ -307,7 +318,7 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 ## Libros de consulta
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015 
+* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
 
 * * *
 ## Lesson Plans
