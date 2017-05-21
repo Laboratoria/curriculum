@@ -194,7 +194,7 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 ### Lección 11: [Problem Sets](11-problem-sets-functions)
 **_6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 1. getStringLength
 2. countSpaces
 3. countVowels
@@ -251,7 +251,7 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 ### Lección 14: [Problem Sets](14-problem-sets-objects-and-arrays)
 **_6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 1. arrayToObject
 2. objectToArray
 3. personalGreeting
@@ -268,10 +268,10 @@ Resuelve los siguiente problemas en Replit:
 14. isHacker
 15. isUnicorn
 
-### Lección 15: [APIs, JSON & Data visualization basics](15-apis)
-**_60min (self-paced)_**
+### Lección 15: [Intro to APIs and JSON](15-apis-and-json)
+**_30min (self-paced)_**
 
-Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de otras personas. Conoce cómo hacerlo a través de las APIs.
+Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de terceros. Conoce cómo hacerlo a través de las Aplication Programming Interfaces (APIs).
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -280,26 +280,24 @@ Una de las cosas más interesantes de la programación hoy en día es la posibil
 | 03 | video | Conectándote al API de flicker
 | 04 | reto | reto de comandos para conectarse a un API
 | 05 | quiz | prueba tu conocimiento
-| 06 | video | Data visualization tools: D3 library
-| 07 | reto | reto de data visualization
-| 08 | quiz | prueba tu conocimiento
 
-### Lección 16: [Web Deployment](16-web-deployment)
+### Lección 16: [Web Deployment Basics](16-web-deployment-basics)
 **_20min (self-paced)_**
 
-Para que tus productos se vuelvan públicos, debes aprender a deplegar tus products a la Web.
+Aprende a desplegar productos en la Web para que todos el mundo pueda consumirlos.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 01 | video | Web deployment basics
 | 02 | video | Heroku
-| 03 | reto | reto de comandos para deployment
-| 04 | quiz | prueba tu conocimiento
+| 03 | video | Deployment guiado de un site
+| 04 | reto | reto de comandos para deployment
+| 05 | quiz | prueba tu conocimiento
 
 ### Lección 17: [Creating Cool Products](17-cool-products)
-**_6hrs (self-paced)_**
+**_3-6hrs_**
 
-Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
+Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige al menos dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
 
 1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
@@ -316,7 +314,6 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 * Rodulfo Prieto (autor)
 * Lupo Montero
 * Iván Medina
-* ...
 
 ## Libros de consulta
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
@@ -364,5 +361,5 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 * Presencial: Lección 13
 
 #### Semana 4
-* Online Pre-work: Lecciones 14, 15 y 16
+* Online Pre-work: Lecciones 14-16
 * Presencial: Lección 17
