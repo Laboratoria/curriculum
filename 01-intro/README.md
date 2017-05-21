@@ -3,11 +3,9 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 
 ## Aprenderás
 * Cómo funciona la Web: HTML, CSS, JavaScript, HTTP & URLs
-* Conceptos básicos de programación como variables, tipos y estructuras de datos, operadores, declaraciones condicionales y cíclicas y funciones.
+* Conceptos básicos de programación como: variables, tipos datos, estructuras de datos, operadores, declaraciones condicionales, ciclos y funciones
 * La sintaxis básica de JavaScript como lenguaje de programación
 * A crear y desplegar aplicaciones web interactivas
-* A correr programas utilizando la interfaz de línea de comandos (_CLI_)
-* A utilizar un sistema de control de versiones (_Git_)
 
 ## Duración
 * Total: 30 horas aprox.
@@ -31,10 +29,10 @@ Antes de partir es importante que revises lo que la ciencia nos dice sobre el pr
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 00 | video | Growth Mindset vs. Fixed Mindset
-| 01 | video | Aprendiendo a aprender
-| 02 | video | Cómo se aprende en Laboratoria  
-| 03 | lectura | Compromiso
+| 01 | video | Growth Mindset vs. Fixed Mindset
+| 02 | video | Aprendiendo a aprender
+| 03 | video | Cómo se aprende en Laboratoria  
+| 04 | lectura | Compromiso
 
 ### Lección 01: [Sobre la programación y la web](02-web-development-process)
 **_35min (self-paced)_**
@@ -120,8 +118,8 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | - | ----- | -----
 | lecture | 60min | Revisar conceptos aprendidos
 | lecture | 10min | Asignar equipos
-| Peer programming | 35min | Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
-| Peer programming | 35min | Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
+| Pair programming | 35min | Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
+| Pair programming | 35min | Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
 | lecture | 30min | Solucionario
 | survey | 10min | Self-assessment & feedback
 
@@ -182,15 +180,31 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | - | ----- | -----
 | lecture | 60min | Revisar conceptos aprendidos
 | lecture | 10min | Asignar equipos
-| Peer programming | 35min | Crea un programa que haga 5 preguntas de matemática al usuario. Registre las preguntas correctas. Al final le muestre su resultado y le dé la medalla correspondiente. 5 buenas = Oro. Al menos 3 ó 4 = Plata. Menos de 3 = Bronce.
-| Peer programming | 35min | Crea un programa que dado un monto y montos de billetes, devuelva los billetes a entregar
+| Pair programming | 35min | Crea un programa que haga 5 preguntas de matemática al usuario. Registre las preguntas correctas. Al final le muestre su resultado y le dé la medalla correspondiente. 5 buenas = Oro. Al menos 3 ó 4 = Plata. Menos de 3 = Bronce.
+| Pair programming | 35min | Crea un programa que un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado
 | lecture | 30min | Solucionario
 | survey | 10min | Self-assessment & feedback
 
-### Lección 11: [Problem Sets](11-problem-sets-intro)
+### Lección 11: [Problem Sets](11-problem-sets-functions)
 **_6hrs (self-paced)_**
 
-Ejercicios individuales para practicar y solidificar los conceptos aprendidos
+Resuelve los siguiente problemas en Replit:
+1. getStringLength
+* countSpaces
+* countVowels
+* capitalizeFirstLetter
+* isPrime
+* isEven
+* isOdd
+* isGreater
+* isSpleeping
+* areBothEven
+* isOldEnoughToDrinkAndDrive
+* determineBadge
+* fizzBuzz
+* chessBoard
+* piramidConsole
+* isValidCreditCard
 
 ### Lección 12: [Objects & Arrays](12-intro-objects-and-arrays)
 **_60min (self-paced)_**
@@ -199,33 +213,74 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | video | Intro a objects y arrays
-| 02 | video | ¿Qué son arrays y por qué son importantes ?
-| 03 | video | Creando arrays, accesando y modificando sus diferentes tipos de elementos
-| 04 | video | Propiedades y métodos de los arrays: `.length`; `.push()`; `.shift()`; `.unshift()`; `.pop()`; `.concat()`; `.indexOf()`; `.join()`; `.slice()`; `.lastIndexOf()`; `.trim()`
+| 01 | video | Intro a objetos y arreglos
+| 02 | video | ¿Qué son arreglos y por qué son importantes ?
+| 03 | video | Creando, accesando y modificando arreglos
+| 04 | video | Propiedades y métodos comunes de arreglos: `.length`; `.push()`; `.shift()`; `.unshift()`; `.pop()`; `.concat()`; `.indexOf()`; `.join()`; `.slice()`; `.lastIndexOf()`; `.trim()`
 | 05 | quiz | Prueba tu conocimiento
-| 06 | reto | Varios retos pequeños de manipulación de `arrays`
-| 07 | video | ¿Qué son objects y por qué son importantes ?
-| 08 | video | Creando obejcts, accesando, agregando y modificando valores
+| 06 | reto | Varios retos pequeños de manipulación de arreglos
+| 07 | video | ¿Qué son objetos en JS y por qué son importantes ?
+| 08 | video | Creando, accesando y modificando objetos
 | 09 | quiz | Prueba tu conocimiento
-| 10 | reto | Varios retos pequeños de manipulación de `objetos`
-| 11 | video | Combinando objects con arrays
+| 10 | reto | Varios retos pequeños de manipulación de objetos
+| 11 | video | Combinando arreglos con objetos
 | 12 | reto | Manipula un arreglo de objetos que representan tus amigos
 
-### Lección 13: [Ejercicios guiados ](13-instructor-led-projects-functions)
+### Lección 13: [Ejercicios guiados ](13-instructor-led-projects-objects-and-arrays)
 **_3hrs (presencial)_**
 
 Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
 
 | Tipo | Duración | Descripción           
 | - | ----- | -----
-| lecture | 60min | Revisar conceptos aprendidos
-| lecture | 10min | Asignar equipos
-| Peer programming | 20min | Crea un programa que imprima la suma todos los números entre un rango, como: `console.log(sum(range(start, end)))`
-| Peer programming | 20min | Crea una función que invierta el orden de los elementos de un array
-| Peer programming | 20min | Crea una función `arrayToList` y otra `listToArray`
+| lecture | 20min | Revisar conceptos aprendidos
+| lecture | 5min | Asignar equipos
+| Pair programming | 30min | Crea un programa que imprima la suma todos los números entre un rango, como: `console.log(sum(range(start, end)))`
+| Pair programming | 30min | Crea una función que invierta el orden de los elementos de un array
+| Pair programming | 30min | Crea una función `arrayToList` y otra `listToArray`
+| Pair programming | 30min | Crea varias función que busquen un elemento en un array: linear search and binary search
 | lecture | 30min | Solucionario
-| survey | 10min | Self-assessment & feedback
+| survey | 5min | Self-assessment & feedback
+
+### Lección 14: [Problem Sets](14-problem-sets-objects-and-arrays)
+**_6hrs (self-paced)_**
+
+Resuelve los siguiente problemas en Replit:
+1. arrayToObject
+* objectToArray
+* personalGreeting
+* addProperty
+* removeProperty
+* calculateFee
+* removeElement
+* removeDuplicates
+* sortArray
+* classAverage
+* isEmployable
+* calculateDropoutRate
+* topStudents
+* isHacker
+* isUnicorn
+
+### Lección 15: [APIs and JSON](15-apis)
+**_60min (self-paced)_**
+
+Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de otras personas. Conoce cómo hacerlo a través de las APIs.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | ¿Qué son las APIs y por qué son importantes?
+| 02 | video | Conectándote al API de flicker
+| 03 | reto | reto de comandos de APIs
+| 04 | quiz | prueba tu conocimiento
+
+
+## Cool Projects
+1. Google AppScripts: email (calendar booking) automático desde sheets
+2. Google AppScripts: login con FB para saber tus amigos y visualizar data
+3. Post encriptados en Facebook
+4. Consumir data del API de meetup para sacar los mas activos
+5. Consumir data del API de Laboratoria para visualizar las mejores alumnas
 
 * * *
 ## Contributors
@@ -248,11 +303,11 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
 | 9am  | Sprint Kick-off       | check-in           | check-in | check-in | check-in |
-| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | Ayudantia & 1:1 | tbd
-| 12pm | Almuerzo              | Almuerzo            | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (self-paced) | tbd | tbd
-| 3pm  | Ayudantia & 1:1       | L07-L09 (self-paced)  | L11 cont. (self-paced) | tbd | tbd
-| 5pm  | libre                 | libre       | tbd | tbd | tbd
+| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | L12 (self-paced) | L14 cont. (self-paced)
+| 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
+| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (self-paced) | Ayudantia & 1:1 | L14 cont. (self-paced)
+| 3pm  | Ayudantia & 1:1       | L07-L09 (self-paced)  | L11 cont. (self-paced) | L13 (presencial) | Ayudantia & 1:1
+| 5pm  | libre                 | libre       | L11 cont. (self-paced) | L14 (self-paced) | L14 cont. (self-paced)
 
 ### Formato Educación Contínua 4x4
 * Tiempo estimado: _*4 semanas*_
