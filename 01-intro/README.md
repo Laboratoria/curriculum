@@ -190,21 +190,21 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 
 Resuelve los siguiente problemas en Replit:
 1. getStringLength
-* countSpaces
-* countVowels
-* capitalizeFirstLetter
-* isPrime
-* isEven
-* isOdd
-* isGreater
-* isSpleeping
-* areBothEven
-* isOldEnoughToDrinkAndDrive
-* determineBadge
-* fizzBuzz
-* chessBoard
-* piramidConsole
-* isValidCreditCard
+2. countSpaces
+3. countVowels
+4. capitalizeFirstLetter
+5. isPrime
+6. isEven
+7. isOdd
+8. isGreater
+9. isSpleeping
+10. areBothEven
+11. isOldEnoughToDrinkAndDrive
+12. determineBadge
+13. fizzBuzz
+14. chessBoard
+15. piramidConsole
+16. isValidCreditCard
 
 ### Lección 12: [Objects & Arrays](12-intro-objects-and-arrays)
 **_60min (self-paced)_**
@@ -247,20 +247,20 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 
 Resuelve los siguiente problemas en Replit:
 1. arrayToObject
-* objectToArray
-* personalGreeting
-* addProperty
-* removeProperty
-* calculateFee
-* removeElement
-* removeDuplicates
-* sortArray
-* classAverage
-* isEmployable
-* calculateDropoutRate
-* topStudents
-* isHacker
-* isUnicorn
+2. objectToArray
+3. personalGreeting
+4. addProperty
+5. removeProperty
+6. calculateFee
+7. removeElement
+8. removeDuplicates
+9. sortArray
+10. classAverage
+11. isEmployable
+12. calculateDropoutRate
+13. topStudents
+14. isHacker
+15. isUnicorn
 
 ### Lección 15: [APIs and JSON](15-apis)
 **_60min (self-paced)_**
@@ -270,17 +270,33 @@ Una de las cosas más interesantes de la programación hoy en día es la posibil
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 01 | video | ¿Qué son las APIs y por qué son importantes?
-| 02 | video | Conectándote al API de flicker
-| 03 | reto | reto de comandos de APIs
-| 04 | quiz | prueba tu conocimiento
+| 02 | video | Entendiendo y manipulando data en formato JSON
+| 03 | video | Conectándote al API de flicker
+| 04 | reto | reto de comandos para conectarse a un API
+| 05 | quiz | prueba tu conocimiento
+| 06 | video | Web deployment con Heroku
+| 07 | reto | reto de comandos para deployment
+| 08 | quiz | prueba tu conocimiento
+| 09 | video | Data visualization tools: D3 library
+| 10 | reto | reto de data visualization
+| 11 | quiz | prueba tu conocimiento
+| 12 | video | Utilizando Google AppScripts
 
 
-## Cool Projects
-1. Google AppScripts: email (calendar booking) automático desde sheets
-2. Google AppScripts: login con FB para saber tus amigos y visualizar data
-3. Post encriptados en Facebook
-4. Consumir data del API de meetup para sacar los mas activos
-5. Consumir data del API de Laboratoria para visualizar las mejores alumnas
+### Lección 16: [Creating Cool Products](16-cool-products)
+**_6hrs (self-paced)_**
+
+Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
+
+1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
+
+2. **Data visualization - Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
+
+3. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+
+4. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+
+5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
 
 * * *
 ## Contributors
@@ -291,7 +307,7 @@ Una de las cosas más interesantes de la programación hoy en día es la posibil
 
 ## Libros de consulta
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
+* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015 
 
 * * *
 ## Lesson Plans
@@ -302,12 +318,12 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
-| 9am  | Sprint Kick-off       | check-in           | check-in | check-in | check-in |
-| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | L12 (self-paced) | L14 cont. (self-paced)
+| 9am  | Sprint Kick-off       | check-in & daily           | check-in & daily | check-in & daily | check-in & daily |
+| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | Ayudantia & Office Hours | L14 cont. (problem sets)
 | 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (self-paced) | Ayudantia & 1:1 | L14 cont. (self-paced)
-| 3pm  | Ayudantia & 1:1       | L07-L09 (self-paced)  | L11 cont. (self-paced) | L13 (presencial) | Ayudantia & 1:1
-| 5pm  | libre                 | libre       | L11 cont. (self-paced) | L14 (self-paced) | L14 cont. (self-paced)
+| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (problem sets) | L12 (self-paced) | L14 cont. (problem sets)
+| 3pm  | Ayudantia       | L07-L09 (self-paced)  | L11 cont. (problem sets) | L13 (presencial) | Ayudantia
+| 5pm  | Office Hours                 | Office Hours       | L11 cont. (problem sets) | L14 (problem sets) | Office Hours
 
 ### Formato Educación Contínua 4x4
 * Tiempo estimado: _*4 semanas*_
@@ -321,9 +337,9 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 * Presencial: Lección 10
 
 #### Semana 3
-* Online Pre-work: Lección 11
-* Presencial: Lección
+* Online Pre-work: Lección 11 y 12
+* Presencial: Lección 13
 
 #### Semana 4
-* Online Pre-work: Lecciones ...
-* Presencial: Lección ...
+* Online Pre-work: Lecciones 14 y 15
+* Presencial: Lección 16
