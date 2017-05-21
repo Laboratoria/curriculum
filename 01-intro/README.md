@@ -5,7 +5,9 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 * Cómo funciona la Web: HTML, CSS, JavaScript, HTTP & URLs
 * Conceptos básicos de programación como: variables, tipos datos, estructuras de datos, operadores, declaraciones condicionales, ciclos y funciones
 * La sintaxis básica de JavaScript como lenguaje de programación
-* A crear y desplegar aplicaciones web interactivas
+* A concetarte y utilizar APIs de terceros
+* A crear y desplegar aplicaciones web
+
 
 ## Duración
 * Total: 30 horas aprox.
@@ -301,13 +303,13 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
-2. **Data visualization - Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
+2. **Data visualization - Facebook friends Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
 
 3. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
 
 4. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
 
-5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
+5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders de Laboratoria.
 
 * * *
 ## Contributors
@@ -327,6 +329,7 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 ### Formato Bootcamp (full-time)
 * Tiempo estimado: _*2 semanas*_
 
+#### Semana 1
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
 | 9am  | Sprint Kick-off       | check-in & daily           | check-in & daily | check-in & daily | check-in & daily |
@@ -335,6 +338,15 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 | 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (problem sets) | L12 (self-paced) | L14 cont. (problem sets)
 | 3pm  | Ayudantia       | L07-L09 (self-paced)  | L11 cont. (problem sets) | L13 (presencial) | Ayudantia
 | 5pm  | Office Hours                 | Office Hours       | L11 cont. (problem sets) | L14 (problem sets) | Office Hours
+
+#### Semana 2
+| Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
+| ---- | ------------- | -----------    | ------------ | ------------ | ------- |
+| 9am  | check-in & daily       | check-in & daily           | check-in & daily | check-in & daily | Demo |
+| 10am | L17 (products)  | L17 (products)   | L17 (products) | L17 (products) | Demo
+| 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
+| 1pm | L17 (products)  |  Office Hours   | L17 (products) |  Office Hours | Demo
+| 5pm | Office Hours  | L17 (products)    | Office Hours  | L17 (products)  | Demo
 
 ### Formato Educación Contínua 4x4
 * Tiempo estimado: _*4 semanas*_
@@ -352,5 +364,5 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 * Presencial: Lección 13
 
 #### Semana 4
-* Online Pre-work: Lecciones 14 y 15
-* Presencial: Lección 16
+* Online Pre-work: Lecciones 14, 15 y 16
+* Presencial: Lección 17
