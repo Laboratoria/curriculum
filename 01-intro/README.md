@@ -11,11 +11,11 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 
 ## Duración
 * Total: 30 horas aprox.
-* Presecial: 12 horas (4 sesiones de 3hr c/u)
+* Presencial: 12 horas (4 sesiones de 3hr c/u)
 * Self-paced (online): 15-20 horas aprox.
 
 ## Productos a desarrollar
-Pondrás en práctica los conceptos aprendidos al implementar los siguientes tres (3) productos web que serán parte de tu portafolio:
+Pondrás en práctica los conceptos aprendidos al implementar al menos tres (3) de los siguientes productos web:
 
 1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
@@ -340,7 +340,7 @@ El tiempo requerido para completar este curso varía de acuerdo a la cantidad de
 | Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
 | ---- | ------------- | -----------    | ------------ | ------------ | ------- |
 | 9am  | check-in & daily       | check-in & daily           | check-in & daily | check-in & daily | Demo |
-| 10am | L17 (products)  | L17 (products)   | L17 (products) | L17 (products) | Demo
+| 10am | L15-L16 (self-paced)  | L17 (products)   | L17 (products) | L17 (products) | Demo
 | 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
 | 1pm | L17 (products)  |  Office Hours   | L17 (products) |  Office Hours | Demo
 | 5pm | Office Hours  | L17 (products)    | Office Hours  | L17 (products)  | Demo
