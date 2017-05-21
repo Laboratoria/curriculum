@@ -192,7 +192,7 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | survey | 10min | Self-assessment & feedback
 
 ### Lección 11: [Problem Sets](11-problem-sets-functions)
-**_6hrs (self-paced)_**
+**_3-6hrs (self-paced)_**
 
 Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 1. getStringLength
@@ -249,7 +249,7 @@ Sesión presencial para repasar y consolidar los conceptos aprendidos online y p
 | survey | 5min | Self-assessment & feedback
 
 ### Lección 14: [Problem Sets](14-problem-sets-objects-and-arrays)
-**_6hrs (self-paced)_**
+**_3-6hrs (self-paced)_**
 
 Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 1. arrayToObject
