@@ -269,9 +269,9 @@ Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 15. isUnicorn
 
 ### Lección 15: [Intro to APIs and JSON](15-apis-and-json)
-**_30min (self-paced)_**
+**_60min (self-paced)_**
 
-Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de terceros. Conoce cómo hacerlo a través de las Aplication Programming Interfaces (APIs).
+Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de terceros. Conoce cómo hacerlo a través de las Aplication Programming Interfaces (APIs) y el formato de datos JSON. Además, aprende lo básico de la visualización de datos con herramientas JavaScript.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -280,6 +280,11 @@ Una de las cosas más interesantes de la programación hoy en día es la posibil
 | 03 | video | Conectándote al API de flicker
 | 04 | reto | reto de comandos para conectarse a un API
 | 05 | quiz | prueba tu conocimiento
+| 06 | video | Data visualization basics
+| 07 | video | Librerías en JS para visualizar datos
+| 08 | reto | reto de uso de librerías para visualizar data
+| 09 | quiz | prueba tu conocimiento
+
 
 ### Lección 16: [Web Deployment Basics](16-web-deployment-basics)
 **_20min (self-paced)_**
