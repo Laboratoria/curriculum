@@ -17,15 +17,15 @@ En un mundo que rápidamente se está digitalizando, aprender a programar abre n
 ## Productos a desarrollar
 Pondrás en práctica los conceptos aprendidos al implementar al menos tres (3) de los siguientes productos web:
 
-1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
+1. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
 
-2. **Data visualization - Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
+2. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
 
-3. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+3. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
 
-4. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+2. **Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
 
-5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
+5. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
@@ -299,15 +299,15 @@ Aprende a desplegar productos en la Web para que todos el mundo pueda consumirlo
 
 Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige al menos dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
 
-1. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
+1. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
 
-2. **Data visualization - Facebook friends Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
+2. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
 
-3. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+3. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
 
-4. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+2. **Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
 
-5. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders de Laboratoria.
+5. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
 
 * * *
 ## Contributors
