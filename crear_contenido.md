@@ -46,13 +46,13 @@ Con el outline completo, el creador de contenido empezará a crear lo necesario 
 
 * **Scripts**: estos guiones servirán como guías para los videos y para el dictado de las clases que se soportarán por los slides. Aquí puedes ver un ejemplo:
 
-~~~
+>
 [Script] Computers generally tend to spend about a full quarter of their processing power on sorting different data. As an example, a computer in a hospital may maintain a very large database of all patients who have ever been to the hospital for treatment in the past 5 years. Different people in the hospital might want different lists of patients. A person managing hospital finances might want a list of patients ordered by their hospital charges. A researcher might want a list ordered by the disease for which they were treated. An administrator might want a list ordered by the doctor who treated the patient. While generating these lists, the computer will have to sort the data afresh every time according to the need of the user.
 
-[Ask] Can you think of any other scenario in which sorting is important? What advantages are there of maintaining sorted data over unsorted data? What are the possible disadvantages?
+> [Ask] Can you think of any other scenario in which sorting is important? What advantages are there of maintaining sorted data over unsorted data? What are the possible disadvantages?
 
-[Script] Computers are actually very simple machines. They can really only do one thing at a time. Their power lies in being able to do these things very quickly which gives the illusion that they are very smart. However we will see as we discover how to solve a fundamental computing problem: sorting a list, exactly how dumb computers really are. Let’s start with a group exercise!
-~~~
+>[Script] Computers are actually very simple machines. They can really only do one thing at a time. Their power lies in being able to do these things very quickly which gives the illusion that they are very smart. However we will see as we discover how to solve a fundamental computing problem: sorting a list, exactly how dumb computers really are. Let’s start with a group exercise!
+
 
 * **Screencasts:** para ver cómo crear un screencast puedes mirar este [link](https://learn.onemonth.com/how-to-record-your-screen-and-make-a-video-tutorial-c6d37e78cf18). Adicionalmente, puedes ver [este screencast hecho por nosotros](https://laboratoria.wistia.com/medias/tstcuensp9) para que te des una idea de lo que buscamos. La intención del screencast que nos envies es que nos muestres tu idea de desarrollo de los ejercicios. De todos modos, Laboratoria realizará una producción del video . 
 
@@ -63,42 +63,42 @@ Con el outline completo, el creador de contenido empezará a crear lo necesario 
 
 * **Ejercicios prácticos/casos:** para estos casos el creador de contenido deberá sugerir si se deben desarrollar en grupo o individualmente y el tiempo que se le debe dar a cada alumno para resolver el caso.
 
-Ejemplo:
+	Ejemplo:
 
-**Does the array contain "wdi"?**
-Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
+	>**Does the array contain "wdi"?**
+	Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
 
-```javascript
+	```javascript
 findWdi([9,'Bart Simpson', true, 'wdi']) // returns true
 findWdi(['a','b','c']) // returns false
 ```
 
-<details>
-<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
-
-```javascript
-
-	function findWdi(arr){
-		// TODO: Place your code here
-	}
-
-```
-</details>
+	<details>
+	<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+	
+	```javascript
+	
+		function findWdi(arr){
+			// TODO: Place your code here
+		}
+	
+	```
+	</details>
 
 
 * **Quizzes:** son necesarios para probar el conocimiento de las estudiantes luego de ver las clases en video. Deben ser creados en google form e incluir el link en el repo.
 
 
-Ejemplo: 
+	Ejemplo: 
 
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | ¿Qué son variables?
-| 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
-| 03 | video | Nombrando variables
-| 04 | reto | Crea nuevas variables y modifica su valor
-| 05 | video | Valores y tipos de datos
-| 06 | quiz | Prueba tu conocimiento
+	| # | Tipo | Tópico           
+	| - | ----- | -----
+	| 01 | video | ¿Qué son variables?
+	| 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
+	| 03 | video | Nombrando variables
+	| 04 | reto | Crea nuevas variables y modifica su valor
+	| 05 | video | Valores y tipos de datos
+	| 06 | quiz | Prueba tu conocimiento
 
 
 
