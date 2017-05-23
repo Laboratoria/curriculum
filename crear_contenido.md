@@ -83,8 +83,7 @@ findWdi(['a','b','c']) // returns false
 	}
 
 ```
-
-
+</details>
 
 
 * **Quizzes:** son necesarios para probar el conocimiento de las estudiantes luego de ver las clases en video. Deben ser creados en google form e incluir el link en el repo.
