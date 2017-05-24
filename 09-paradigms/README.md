@@ -79,7 +79,21 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
+### Lesson 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
+
+1h (presencial)
+
+Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
+presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
+metodología de trabajo.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 2: [Introducción a Paradigmas de Programación](01-intro)
 
 1h (self-paced)
 
@@ -102,7 +116,7 @@ orientado a objetos (OOP) y funcional (FP).
 |   9   | code       |   10min  | Ejericio funcional
 |  10   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 2: [OOP y herencia prototipal](03-oop)
+### Lesson 3: [OOP y herencia prototipal](03-oop)
 
 1h (self-paced)
 
@@ -120,7 +134,7 @@ herencia.
 |   4   | code       |   10min  | Ejercicios de herencia prototipal
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+### Lesson 4: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
 
 1h (presencial)
 
@@ -135,7 +149,7 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 |   1   | ejercicios |   30min  | Herencia prototipal
 |   2   | challenge  |   30min  | Ejercicios de herencia prototipal
 
-### Lesson 4: [Entorno y metodología de trabajo](#)
+### Lesson 5: [Entorno y metodología de trabajo](#)
 
 1h (presencial)
 
@@ -146,7 +160,18 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 |   1   | charla     |   30min  | Kick-off: Entorno y metodología de trabajo
 |   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
 
-### Lesson 5: [Proyecto (implementación OOP)](04-oop-project)
+### Lesson 6: [Proyecto (implementación OOP)](04-oop-project)
+
+2h (presencial)
+
+...
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | code       |   2h     | Hacking...
+|   2   | review     |   30min  | Code review
+
+### Lesson 7: [Proyecto (implementación OOP)](04-oop-project)
 
 3h (presencial)
 
@@ -157,13 +182,13 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 |   1   | code       |   2h     | Hacking...
 |   2   | review     |   30min  | Code review
 
-### Lesson 6: [Demos de proyectos OOP](05-oop-demos)
+### Lesson 8: [Demos de proyectos OOP](05-oop-demos)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Lesson 7: [Object factories and composition](06-composition)
+### Lesson 9: [Object factories and composition](06-composition)
 
 1h (self-paced)
 
@@ -177,7 +202,13 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 |   4   | code       |   10min  | Ejercicios de composición
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 8: [Proyecto (implementación FP)](07-fp-project)
+### Lesson 10: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+
+1h (presencial)
+
+...
+
+### Lesson 11: [Proyecto (implementación FP)](07-fp-project)
 
 3h (presencial)
 
@@ -190,7 +221,20 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 |   3   | code       |   2h     | Hacking...
 |   4   | review     |   30min  | Code review
 
-### Lesson 9: [Demos de proyectos FP](08-fp-demos)
+### Lesson 12: [Proyecto (implementación FP)](07-fp-project)
+
+2h (presencial)
+
+...
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | qa         |   15min  | Kick-off: Open questions
+|   2   | reunión    |   15min  | Re-cap
+|   3   | code       |   2h     | Hacking...
+|   4   | review     |   30min  | Code review
+
+### Lesson 13: [Demos de proyectos FP](08-fp-demos)
 
 1h (presencial)
 
@@ -203,9 +247,9 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 * Lupo Montero (autor)
 * Bianca Gandolfo
 * Mariano Crowe
-* ...
+* John Cárdenas
 
-## Libros (mínimo 4)
+## Libros
 
 * [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp),
   Richard Warburton, O'Reilly Media
@@ -257,34 +301,55 @@ Otros recursos:
 
 ***
 
-## Lesson plan for LIM20171
+## Lesson plan para LIM20171
 
-* Duración: 2 semanas
-* Horas por semana: 7 hrs
+* Duración: 4 semanas
+* Horas por semana: 5-6 hrs
 
-### Week 1
+### Semana 1
 
 #### Jueves
 
-* Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
-  1h (self-paced)
-* Lesson 2: [OOP and Prototypal inheritance](03-oop) 1h (self-paced)
-* Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+* Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
   1h (presencial)
+* Lección 2: [Introducción a Paradigmas de Programación](01-intro)
+  1h (self-paced)
 
 #### Sábado
 
-* Lesson 4: [Entorno y metodología de trabajo](#) 1h (presencial)
-* Lesson 5: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
+* Lección 3: [OOP y herencia prototipal](03-oop) 1h (self-paced)
+* Lección 4: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+  1h (presencial)
+* Lección 5: [Entorno y metodología de trabajo](#) 1h (presencial)
 
-### Week 2
+### Semana 2
 
 #### Jueves
 
-* Lesson 6: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
-* Lesson 7: [Object factories and composition](06-composition) 1h (self-paced)
+* Lección 6: [Proyecto (implementación OOP)](04-oop-project) 2h (presencial)
 
 #### Sábado
 
-* Lesson 8: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
-* Lesson 9: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
+* Lección 7: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
+* Lección 8: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
+
+### Semana 3
+
+#### Jueves
+
+* Lección 9: [Object factories and composition](06-composition) 1h (self-paced)
+* Lección 10: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+
+#### Sábado
+
+* Lección 11: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
+
+### Semana 4
+
+#### Jueves
+
+* Lección 12: [Proyecto (implementación FP)](07-fp-project) 2h (presencial)
+
+#### Sábado
+
+* Lección 13: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
