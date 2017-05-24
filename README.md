@@ -1,6 +1,6 @@
 # Full Stack JavaScript
 
-Este repositorio es lugar donde vamos a ir continuamente _dieñando_ nuestro
+Este repositorio es el lugar donde vamos a ir continuamente _dieñando_ nuestro
 programa de formación en **JavaScript**.
 
 En este repo se irán _ordenando_, _desarrollando_, _discutiendo_ y
@@ -18,7 +18,7 @@ ello, la currícula está _imaginada_ como una serie de _productos_ completos,
 de complejidad y scope gradualmente más complejo.
 
 En este issue puedes seguir y/o paricipar en la discusión abierta sobre el
-mode: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3)
+modelo: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3)
 
 Inicialmente, los encargados oficiales de la _malla curricular_ son
 [Lupo Montero](https://github.com/lupomontero),
@@ -59,14 +59,14 @@ como profesionales y expertos de la industria.
 * [16. Estructuras de datos](16-data-structures)
 * ...
 
-* * *
+***
 
 Guías de estilos para JavaScript:
 
 * [Frontend: AirBnB](https://github.com/airbnb/javascript)
 * [Node.js: Hapi](https://hapijs.com/styleguide)
 
-* * *
+***
 
 ## Ideas para otros cursos:
 
@@ -75,7 +75,7 @@ Guías de estilos para JavaScript:
 * Angular?
 * Patrones de diseño?
 
-* * *
+***
 
 ## Notas bootcamp:
 
