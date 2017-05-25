@@ -48,9 +48,9 @@ el paradigma funcional.
 
 ## Detalles logísticos
 
-* Self-paced: 4 hrs
-* Presencial: 10 hrs
-* Total horas: 14
+* Self-paced: 7 horas
+* Presencial: 11 horas
+* Total: 18 horas
 
 ## Producto
 
@@ -232,10 +232,7 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | qa         |   15min  | Kick-off: Open questions
-|   2   | reunión    |   15min  | Re-cap
-|   3   | code       |   2h     | Hacking...
-|   4   | review     |   30min  | Code review
+|   1   | code       |   2h     | Hacking...
 
 ### Lesson 12: [Proyecto (implementación FP)](07-fp-project)
 
@@ -247,10 +244,8 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | qa         |   15min  | Kick-off: Open questions
-|   2   | reunión    |   15min  | Re-cap
-|   3   | code       |   2h     | Hacking...
-|   4   | review     |   30min  | Code review
+|   1   | code       |   1h     | Hacking...
+|   2   | review     |   1h     | Pull requests, code review
 
 ### Lesson 13: [Demos de proyectos FP](08-fp-demos)
 
