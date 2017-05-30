@@ -351,7 +351,7 @@ Otros recursos:
 
 ### Semana 3
 
-#### Jueves 29 de Junio???
+#### Miércoles 28 de Junio
 
 * Lección 8: [Demos de proyectos OOP](#) 1h (presencial)
 * Lección 9: [Object factories and composition](#) 1h (self-paced)
