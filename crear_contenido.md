@@ -123,14 +123,14 @@ link en el repo.
 
 **Ejemplo general:**
 
-| # | Tipo | Tópico | Contenido
-| - | ----- | -----   -----
-| 01 | video | ¿Qué son variables? | script
-| 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables | screencast
-| 03 | ejercicio guiado | Nombrando variables | screencast
-| 04 | quiz | Prueba tu conocimiento | quizz
-| 05 | reto | Crea nuevas variables y modifica su valor | ejercicio practico
-| 06 | clase presencial | Valores y tipos de datos | script
+|  #  | Tipo  | Tópico | Contenido
+| --- | ----- | ------ | ---------
+|  01 | video | ¿Qué son variables? | script
+|  02 | video | Recibe información usando `prompt()` y guarda los datos en variables | screencast
+|  03 | ejercicio guiado | Nombrando variables | screencast
+|  04 | quiz | Prueba tu conocimiento | quizz
+|  05 | reto | Crea nuevas variables y modifica su valor | ejercicio práctico
+|  06 | clase presencial | Valores y tipos de datos | script
 
 ### Paso 5
 
