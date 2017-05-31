@@ -11,21 +11,6 @@ proliferación de librerías como underscore y lodash, después la adición de
 conocer el paradigma funcional y estilo declarativo se han convertido en una
 necesidad para cualquier desarrollador de JavaScript.
 
-## Detalles logísticos
-
-* Duración: 2 semanas
-* Horas por semana: 7 hrs
-* Self-paced: 4 hrs
-* Presencial: 10 hrs
-* Total horas: 14
-
-## Producto
-
-* Refactorizar juego usado en lección 9 usando principios de programación
-  funcional, ES6 y añadiendo test suite.
-* El "proyecto" está basado en iterar una aplicación existente y llevar a cabo
-  su siguiente release usando metodología agile.
-
 ## Aprenderás
 
 * ES6
@@ -40,6 +25,19 @@ necesidad para cualquier desarrollador de JavaScript.
 * Trabajo en equipo
 * Peer-review
 * Github issues, branches, pull requests, ...
+
+## Detalles logísticos
+
+* Self-paced: x hrs
+* Presencial: y hrs
+* Total horas: z
+
+## Producto
+
+* Refactorizar juego usado en lección 9 usando principios de programación
+  funcional, ES6 y añadiendo test suite.
+* El "proyecto" está basado en iterar una aplicación existente y llevar a cabo
+  su siguiente release usando metodología agile.
 
 ***
 
@@ -71,14 +69,13 @@ necesidad para cualquier desarrollador de JavaScript.
 
 ***
 
-## Contributors
+## Autor(es) / Colaboradores
 
 * Lupo Montero (autor)
-* Bianca Gandolfo
 * Mariano Crowe
 * ...
 
-## Libros (mínimo 4)
+## Libros
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 
@@ -112,7 +109,7 @@ Blog posts:
 * [One webpack config to rule them all — environments that is](https://medium.com/@ryandrewjohnson/one-webpack-config-to-rule-them-all-environments-that-is-277457769779),
   [Ryan Johnson](https://medium.com/@ryandrewjohnson), Feb 12 2017
 * [What are NPM, Yarn, Babel, and Webpack; and how to properly use them?](https://medium.com/front-end-hacking/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987),
-  [Gasim Gasimzada](https://medium.com/@gasim.appristas), May 9 2017 (needs review) 
+  [Gasim Gasimzada](https://medium.com/@gasim.appristas), May 9 2017 (needs review)
 
 Videos:
 
