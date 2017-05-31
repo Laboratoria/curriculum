@@ -287,13 +287,13 @@ Application deployment, management, maintenance, configuration and repair.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `repair`, `debugging`, ...
 
-#### [19. Algoritmos](15-algorithms)
+#### [19. Algoritmos](#)
 
 _Autor: ???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### [20. Estructuras de datos](16-data-structures)
+#### [20. Estructuras de datos](#)
 
 _Autor: ???_
 
