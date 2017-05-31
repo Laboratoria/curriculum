@@ -51,6 +51,21 @@ Por ahora sólo hay un _curso_ en la _fase_ `prep`. La idea es que son cursos
 dirigidos a gente que nunca ha tenido contacto con la programación, o
 principiantes que quieran iniciarse en el viaje del Full Stack JS.
 
+#### [00. Cursos/tutoriales de terceros](#)
+
+Recomendamos a todas las interesadas que descarguen y sigan los siguientes
+cursos interactivos creados por la comunidad [nodeschool](http://nodeschool.io).
+Estos cursos te darán una oportunidad de familiarizarte no sólo con JavaScript,
+HTML y git, que son conocimientos esenciales, si no que lo harás en el entorno
+de la línea de comando (tu nuevo mejor amigo).
+
+* [javascripting](https://github.com/workshopper/javascripting): Learn
+  JavaScript by adventuring around in the terminal.
+* [learnyouhtml](https://github.com/denysdovhan/learnyouhtml): Learn you how to
+  create your first web-page.
+* [git-it](https://github.com/jlord/git-it-electron): Git-it is a (Mac, Win,
+  Linux) Desktop App for Learning Git and GitHub
+
 #### [01. Introducción a la programación en JS](01-intro)
 
 _Autor: R. Prieto_
