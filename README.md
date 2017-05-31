@@ -33,6 +33,18 @@ Cada curso debe tener un _dueño_ o _autor_, quien es responsable del curso
 como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
+Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
+el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo y
+dedican tiempo todos los días, mientras que los _cursos_ de _educación continua_
+están dirigidos a un público que trabaja, y por lo tanto tiene mucho menos
+disponibilidad de tiempo (aprox. 7h por semana).
+
+Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
+(cursos blended full-time o part-time, 6 meses) y _educación contunua_ (cursos
+blended 7 horas por semana, 18 meses).
+
+***
+
 ### Prep
 
 Por ahora sólo hay un _curso_ en la _fase_ `prep`. La idea es que son cursos
@@ -61,6 +73,8 @@ de meetup para determinar los developers más activos de tu ciudad.
 * **Laboratoria Coders**: crea y despliega una web que se conecte al API de
 Laboratoria para visualizar la data de las coders.
 
+***
+
 ### Bootcamp
 
 El **Bootcamp** tiene una duración de 6 meses, a tiempo completo. Las chicas
@@ -81,11 +95,19 @@ a diversas charlas sobre HTML, CSS y JavaScript.
 Tags: `git`, `github`, `markdown`, `html5`, `css3`, `dom`, `eventos`,
 `despliegue`, `github-pages`, `unix shell`
 
-* **Portfolio site**: ...
+* **Portfolio site**: El entregable final del curso será un website estático.
+Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
+un instructor.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
 _Autor: ???_
+
+Hoy en día la web no es sólo una plataforma para publicar contenido, sino que se
+ha convertido en la plataforma de computación más grande! Esto significa que
+las "páginas web" han ido evolucionando hasta convertirse en "aplicaciones".
+Cada vez encontramos más funcionalidad e interacción, y en este contexto
+JavaScript es la pieza que ha permitido el desarrollo de éstas aplicaciones.
 
 Durante este curso construirás un SPA (Single Page App), que es básicamente una
 aplicación que corre completamente dentro del navegador.
@@ -103,6 +125,13 @@ Tags: `spa`, `npm`, `gulp`, `es6`, `handlebars`, `fonts`, `bootstrap`,
 #### [04. Data Driven Single Page Apps](#)
 
 _Autor: ???_
+
+Una vez completada to primera SPA en la lección anterior, ahora tendrás la
+oportunidad continuar con su desarrollo, y a través de continuous enhancement
+añadir nueva funcionalidad, como autenticación, múltiples usuarios y
+almacenamiento de datos en un servicio cloud.
+
+Node.js, AJAX, Testing, auth
 
 * **Notes App: multi user, cloud data**: continúa con la aplicación iniciada en
 el curso anterior. En esta iteración añadirás un back-end que permita hacer
@@ -135,31 +164,64 @@ _Autor: ???_
 
 Tags: ...
 
+***
+
 ### Educación Continua
 
 El programa de **Educación Continua** en principio se ofrece a egresadas de
 nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
-quiere ofrecer una selección de cursos que las ayuden a seguir creciendo como
+quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
 
-#### [08. JS Deep Dive](08-deep-dive)
+#### [08. JS Deep Dive](#)
 
 _Autor: ???_
 
-Calculadora?
+El programa de _educación continua_ arranca con un curso que incluye un poco más
+de teoría de lo habitual. Cubriremos `tipo`, `operadores`, `objetos` y
+`funciones` en profundidad.
+
+* **Calculadora**: en este curso construirás una calculadora que permita sumar,
+restar, multiplicar, dividir y calcular potencias. La calculadora se
+implementará como una web app escrita puramente en vanilla JS dentro del
+navegador.
+
+Tags: `tipos de datos`, `operadores`, `funciones`, `objetos`,
+`execution context`, `es6`, ...
 
 #### [09. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
-Extender un video juego 2d
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
+de pensar en cómo se organiza un programa basado en una serie de principios, los
+cuales resultan en estilos muy distintos y lenguages muy diversos.
+
+* **Extender video juego 2d**: En este curso formarás parte de un equipo
+responsable de extender la funcionalidad de un juego 2d. **Tu equipo tendrá que
+dividir tareas, trabajar en parejas y hacer code reviews**. Durante la primera
+semana tu equipo tendrá que extender el juego _heredando_ del prototipo de un
+constructor ya implementado, mientras que en la segunda semana tendrán que
+refactorizar el código de la primera semana usando el paradigma funcional.
+
+Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
+`composition`
 
 #### [10. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
-Refactorizar un video juego 2d
+En este curso te familiarizarás con los principios de la programación funcional,
+tan de moda en el mundo de JavaScript.
+
+* **Refactorizar video juego 2d**: como ejemplo de programación funcional
+tendrás que refactorizar el juego con el que se ha estado trabajando en el curso
+anterior. La versión refactorizada debe usar los principios de FP e incluir
+tests exhaustivos.
+
+Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
+`testing`, `jest`
 
 #### [11. Intro to React](11-react-intro)
 
@@ -167,27 +229,75 @@ _Autor: M. Crowe / L. Montero_
 
 Convertir video juego en app con interfaz más completa, high scores, ...
 
+Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
+
 #### [12. React Deep Dive](12-react-deep-dive)
 
 _Autor: M. Crowe / L. Montero_
 
 ...
 
-#### [13. The Web Stack](13-web-stack)
+Tags: `react router`, `redux`, `raduim`, ...
+
+#### [13. The Web Stack](#)
 
 _Autor: ???_
 
-#### [14. Node.js](14-node)
+Diseñar, construir y desplegar un site estático que use una API con CORS.
+
+Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `rest`, `server`,
+`client`, ...
+
+#### [14. Command Line Foo](#)
 
 _Autor: ???_
 
-#### [15. Algoritmos](15-algorithms)
+Tags: `shell arguments`, `filesystem`, ...
+
+#### [15. Node.js](#)
 
 _Autor: ???_
 
-#### [16. Estructuras de datos](16-data-structures)
+Tags: `npm`, `yarn`, `HTTP Server`, `filesystem`, ...
+
+#### [16. Micro services?](#)
 
 _Autor: ???_
+
+Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
+
+#### [17. Angular 2?](#)
+
+_Autor: ???_
+
+Tags: ...
+
+#### [18. Análisis y visualización de datos](#)
+
+_Autor: ???_
+
+Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
+
+#### [18. WebOps/DevOps](#)
+
+_Autor: ???_
+
+Application deployment, management, maintenance, configuration and repair.
+
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`repair`, `debugging`, ...
+
+#### [19. Algoritmos](15-algorithms)
+
+_Autor: ???_
+
+Tags: `big-O`, `adhoc`, `search`, `sort`
+
+#### [20. Estructuras de datos](16-data-structures)
+
+_Autor: ???_
+
+Tags: `cs`, `arrays`, `objects`, `stacks`, `sets`, `queues`, `graphs`, `trees`
 
 #### ...
 
