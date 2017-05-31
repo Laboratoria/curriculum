@@ -27,18 +27,19 @@ Para crear un nuevo curso, se siguen los siguientes pasos:
 
 ### Paso 1
 
-El coordinador del curso identifica la necesidad del curso y realiza lo siguiente:
+El coordinador del curso identifica la necesidad del curso y realiza lo
+siguiente:
 
-1. Crear branch `00-nombre-del-curso`
-2. Crear directorio `00-nombre-del-curso`
-3. Crear `README.md` basado en [esta plantilla](#) y debe contener lo siguiente:
-	* Título del curso
-	* Breve descripción
-	* Formato
-	* Duración / temas logísticos
-	* Quién será el creador del contenido del curso
-4. Y agrega al creador de contenido al repositorio de Laboratoria
-
+1. Crea branch `00-nombre-del-curso`
+2. Crea directorio `00-nombre-del-curso`
+3. Crea `README.md` basado en [esta plantilla](https://github.com/Laboratoria/curricula-js/blob/master/00-template/README.md)
+y debe contener lo siguiente:
+  * Título del curso
+  * Breve descripción
+  * Formato
+  * Duración / temas logísticos
+  * Quién será el creador del contenido del curso
+4. Agrega al creador de contenido al repositorio de Laboratoria
 
 ### Paso 2
 
@@ -104,7 +105,7 @@ screencast puedes mirar este [link](https://learn.onemonth.com/how-to-record-you
 teóricos a través de ejercicios. Si lo ves necesario puedes incluir un
 screencast del ejercicio o incluir un paso a paso del desarrollo del ejercicio
 (recuerda que estos ejercicios serán guiados por otros profesores en todas los
-  campus). Este ejercicio deberá tener la solución en github.
+campus). Este ejercicio deberá tener la solución en github.
 
 
 * **Ejercicios prácticos/casos:** estos ejercicios serán desarrollados en las
@@ -128,7 +129,7 @@ look like)
 
 ```js
 function findWdi(arr){
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 ```
 </details>
