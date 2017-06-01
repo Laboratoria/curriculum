@@ -153,7 +153,7 @@ el curso anterior. En esta iteración añadirás un back-end que permita hacer
 autenticación, almacenar data, y así pasar a una experiencia multi-usuario.
 
 Tags: `node.js`, `xhr`, `json`, `mocha`, `firebase`, `docs`, `cli`, `auth`,
-`docker`, `regular expressions`, `rest`
+`regular expressions`, `rest`
 
 #### [05. Servidores con Node.js y Mobile first](#)
 
