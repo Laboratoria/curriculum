@@ -8,7 +8,11 @@ temas principales, metodología y enfoque de la experiencia.
 
 ## Público objetivo
 
-Para quién es este curso? Qué conocimientos previos se necesitan?
+Para quién es este curso?
+
+## Requerimientos previos
+
+Qué conocimientos previos se necesitan?
 
 ## Aprenderás
 
