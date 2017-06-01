@@ -1,6 +1,6 @@
 # Full Stack JavaScript
 
-Este repositorio es el lugar donde vamos a ir continuamente _dieñando_ nuestro
+Este repositorio es el lugar donde vamos a ir continuamente _diseñando_ nuestro
 programa de formación en **JavaScript**.
 
 En este repo se irán _ordenando_, _desarrollando_, _discutiendo_ y
