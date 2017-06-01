@@ -1,5 +1,15 @@
 # 12. React Deep Dive
 
+...
+
+## Público objetivo
+
+Para quién es este curso?
+
+## Requerimientos previos
+
+Qué conocimientos previos se necesitan?
+
 ## Aprenderás
 
 * React Router

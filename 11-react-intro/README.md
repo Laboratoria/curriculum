@@ -2,8 +2,8 @@
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 encapsular nuestro código en lindos componentes, si no que representa un cambio
-de paradigma que va mucho más allá del navegador o incluso la web. React es una
-forma de pensar y construir interfaces, y no está ilimitado a una sóla
+de paradigma que va mucho más allá del navegador o incluso la web. **React** es
+una forma de pensar y construir interfaces, y no está ilimitado a una sóla
 plataforma; a través de la abstracción de los renderers podemos escribir
 interfaces nativas para web, mobile, desktop, tv, ...
 

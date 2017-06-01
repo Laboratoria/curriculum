@@ -112,7 +112,9 @@ Tags: `git`, `github`, `markdown`, `html5`, `css3`, `dom`, `eventos`,
 
 * **Portfolio site**: El entregable final del curso será un website estático.
 Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor.
+un instructor. Este portafolio lo seguirás iterando durante el curso y al final
+se convertirá en tu portafolio real, necesario para el proceso de inserción
+laboral.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
@@ -240,9 +242,17 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 
 #### [11. Intro to React](11-react-intro)
 
-_Autor: M. Crowe / L. Montero_
+_Autor: M. Crowe_
 
-Convertir video juego en app con interfaz más completa, high scores, ...
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite
+encapsular nuestro código en lindos componentes, si no que representa un cambio
+de paradigma que va mucho más allá del navegador o incluso la web. **React** es
+una forma de pensar y construir interfaces, y no está ilimitado a una sóla
+plataforma; a través de la abstracción de los renderers podemos escribir
+interfaces nativas para web, mobile, desktop, tv, ...
+
+* **Convertir video juego 2d en React app**: Convertir video juego en app con
+interfaz más completa, high scores, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
