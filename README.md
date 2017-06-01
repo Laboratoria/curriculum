@@ -382,7 +382,7 @@ Pero **POR FAVOR** no olvides leer detalladamente la
 Todos los materiales de este repo son (c) 2017 [Laboratoria](http;//laboratoria.la/).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 </a>
 
-Este trabajo está publicado bajo la licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
+Este trabajo está publicado bajo la licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative commons Attribution-ShareAlike 4.0</a>.
