@@ -28,7 +28,7 @@ funcionalidad de un juego de dos dimensiones escrito en JavaScript. **Tu equipo
 tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code
 reviews**. Todo el flujo de trabajo será a través de un repositorio alojado en
 GitHub. Durante la primera semana tu equipo tendrá que extender el juego
-_heredando_ del prototipo de un contructor ya implementado, mientras que en la
+_heredando_ del prototipo de un constructor ya implementado, mientras que en la
 segunda semana tendrán que refactorizar el código de la primera semana usando
 el paradigma funcional.
 
@@ -162,10 +162,10 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | ejercicios |   30min  | Herencia prototipal
-|   2   | challenge  |   30min  | Ejercicios de herencia prototipal
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | solucionario |   15min  | Herencia prototipal
+|   2   | challenge    |   45min  | Ejercicios de herencia prototipal
 
 ### Lesson 6: [Proyecto (implementación OOP)](#)
 
@@ -262,9 +262,8 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 ## Contributors
 
 * Lupo Montero (autor)
-* Bianca Gandolfo
 * Mariano Crowe
-* John Cárdenas
+* Otros colaboradores?
 
 ## Libros
 
