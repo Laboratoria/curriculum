@@ -90,7 +90,7 @@ Evaluación previa!!!
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
-metodología de aprendizaje, requisitos previos, ...
+metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 #### Lesson plan
 
@@ -102,13 +102,14 @@ metodología de aprendizaje, requisitos previos, ...
 
 1h (presencial)
 
-Durante esta hora presencial...
+Durante esta sesión nos aseguraremos que todas tienen git instalado, acceso al
+repo, su propio fork, ...
 
 #### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   30min  | Entorno y metodología de trabajo
+|   1   | charla     |   30min  | Entorno: Git + GitHub
 |   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
 
 ### Lesson 3: [Introducción a Paradigmas de Programación](#)
@@ -171,7 +172,9 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 2h (presencial)
 
-...
+En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
+tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
+mapas. La implementación será usando herencia prototipal.
 
 #### Lesson plan
 
@@ -183,7 +186,9 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 2h (self-paced)
 
-...
+En la primera mitad de esta sesión continuarás codeando los personajes y mapas
+en versión OOP (usando herencia prototipal) con el objetivo de preparar un
+_pull request_ que revisaremos durante la segunda hora.
 
 #### Lesson plan
 
@@ -216,17 +221,27 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 |   4   | code       |   10min  | Ejercicios de composición
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 10: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+### Lesson 10: [Ejercicios guiados, ayudantías](02-guided-exercises)
 
 1h (presencial)
 
-...
+En esta lección nos concentraremos en hacer ejercicios todos juntos con la ayuda
+del profe y los TAs.
+
+#### Lesson plan
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | solucionario |   15min  | Slocucionario
+|   2   | challenge    |   45min  | Ejercicios de composición
 
 ### Lesson 11: [Proyecto (implementación FP)](07-fp-project)
 
 2h (self-paced)
 
-...
+En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
+tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
+mapas. La implementación será usando el estilo funcional (composición).
 
 #### Lesson plan
 
@@ -238,7 +253,9 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 2h (presencial)
 
-...
+En la primera mitad de esta sesión continuarás codeando los personajes y mapas
+en versión funcional (usando composición) con el objetivo de preparar un
+_pull request_ que revisaremos durante la segunda hora.
 
 #### Lesson plan
 
@@ -262,7 +279,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 ## Contributors
 
 * Lupo Montero (autor)
-* Mariano Crowe
+* Mariano Crowe (technical review)
 * Otros colaboradores?
 
 ## Libros
@@ -279,6 +296,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 Cursos similares que sirven como referencia:
 
+* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion), José Dimas Luján Castillo, video2brain, 8 Mar 2017
 * [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015),
   Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
@@ -305,10 +323,18 @@ Blog posts:
 
 Videos:
 
-* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
-  JSUnconf 2016
 * [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI),
   30 Aug 2013
+* Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
+  `aprox. 3h`
+* [Prototypes in JavaScript - FunFunFunction #16](https://www.youtube.com/watch?v=riDVvXZ_Kb4),
+  `11:55`, funfunfunction, 25 Jan 2016
+* [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
+  `19:19`, funfunfunction, 22 ago. 2016
+* [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
+  José Dimas Luján Castillo, video2brain, 8 Mar 2017
+* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  JSUnconf 2016
 
 Otros recursos:
 
