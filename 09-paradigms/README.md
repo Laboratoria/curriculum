@@ -128,11 +128,11 @@ orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 |   2   | video      |    3min  | Declarativo vs Imperativo
 |   3   | video      |    3min  | Comparativa de paradigmas
 |   4   | video      |    4min  | Por procedimientos
-|   5   | code       |   10min  | Ejericio por procedimientos
+|   5   | code       |   10min  | Ejercicio por procedimientos
 |   6   | video      |    4min  | Orientado a objetos
-|   7   | code       |   10min  | Ejericio OOP
+|   7   | code       |   10min  | Ejercicio OOP
 |   8   | video      |    4min  | Funcional
-|   9   | code       |   10min  | Ejericio funcional
+|   9   | code       |   10min  | Ejercicio funcional
 |  10   | quiz       |   10min  | Prueba tu conocimiento
 
 ### Lesson 4: [OOP y herencia prototipal](#)
@@ -323,18 +323,24 @@ Blog posts:
 
 Videos:
 
-* [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+* [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+  `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
+* [Prototypal Inheritance](https://frontendmasters.com/courses/javascript-jquery-dom/prototypal-inheritance/),
+  `8:52`, Justin Meyer, [Frontend Masters](https://frontendmasters.com/)
 * Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
-  `aprox. 3h`
+  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q), 2016
 * [Prototypes in JavaScript - FunFunFunction #16](https://www.youtube.com/watch?v=riDVvXZ_Kb4),
-  `11:55`, funfunfunction, 25 Jan 2016
+  `11:55`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  25 Jan 2016
 * [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
-  `19:19`, funfunfunction, 22 ago. 2016
+  `19:19`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  22 ago. 2016
 * [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
-  José Dimas Luján Castillo, video2brain, 8 Mar 2017
-* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
-  JSUnconf 2016
+  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
+  8 Mar 2017
+* [Learning Functional Programming with JavaScript- JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  `29:56`, Anjana Vakil, [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA) 2016
 
 Otros recursos:
 
