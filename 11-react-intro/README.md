@@ -66,8 +66,11 @@ relacionados con los temas tratados en el curso.
 Incluir una lista de cursos similares que sirvan como referencia.
 
 * https://reactforbeginners.com/
+* http://www.curiouslearning.org/react-form-index/
 
 ## Lecturas complementarias
 
 Incluir una lista de capítulos de libros, blog posts, videos, y otros recursos
 como links a wikipedia, documentación, ...
+
+* https://hackernoon.com/understanding-state-and-props-in-react-94bc09232b9c
