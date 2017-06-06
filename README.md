@@ -1,6 +1,6 @@
 # Full Stack JavaScript
 
-Este repositorio es el lugar donde vamos a ir continuamente _dieñando_ nuestro
+Este repositorio es el lugar donde vamos a ir continuamente _diseñando_ nuestro
 programa de formación en **JavaScript**.
 
 En este repo se irán _ordenando_, _desarrollando_, _discutiendo_ y
@@ -112,7 +112,9 @@ Tags: `git`, `github`, `markdown`, `html5`, `css3`, `dom`, `eventos`,
 
 * **Portfolio site**: El entregable final del curso será un website estático.
 Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor.
+un instructor. Este portafolio lo seguirás iterando durante el curso y al final
+se convertirá en tu portafolio real, necesario para el proceso de inserción
+laboral.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
@@ -153,7 +155,7 @@ el curso anterior. En esta iteración añadirás un back-end que permita hacer
 autenticación, almacenar data, y así pasar a una experiencia multi-usuario.
 
 Tags: `node.js`, `xhr`, `json`, `mocha`, `firebase`, `docs`, `cli`, `auth`,
-`docker`, `regular expressions`, `rest`
+`regular expressions`, `rest`
 
 #### [05. Servidores con Node.js y Mobile first](#)
 
@@ -240,9 +242,17 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 
 #### [11. Intro to React](11-react-intro)
 
-_Autor: M. Crowe / L. Montero_
+_Autor: M. Crowe_
 
-Convertir video juego en app con interfaz más completa, high scores, ...
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite
+encapsular nuestro código en lindos componentes, si no que representa un cambio
+de paradigma que va mucho más allá del navegador o incluso la web. **React** es
+una forma de pensar y construir interfaces, y no está ilimitado a una sóla
+plataforma; a través de la abstracción de los renderers podemos escribir
+interfaces nativas para web, mobile, desktop, tv, ...
+
+* **Convertir video juego 2d en React app**: Convertir video juego en app con
+interfaz más completa, high scores, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
@@ -359,3 +369,20 @@ Temas a cubrir a través de la práctica
 * Node
 * Modules...
 * ...
+
+## Contribuciones
+
+Toda contribución es **gratamente bienvenida**.
+
+Pero **POR FAVOR** no olvides leer detalladamente la
+[guía para contribuidores](CONTRIBUTING.md) antes de enviar un PR.
+
+## Licencia & Copyright
+
+Todos los materiales de este repo son (c) 2017 [Laboratoria](http;//laboratoria.la/).
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a>
+
+Este trabajo está publicado bajo la licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative commons Attribution-ShareAlike 4.0</a>.

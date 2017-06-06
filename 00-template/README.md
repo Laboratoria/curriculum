@@ -6,6 +6,14 @@ tema central y su importancia para un desarrollador full stack.
 Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
 temas principales, metodología y enfoque de la experiencia.
 
+## Público objetivo
+
+Para quién es este curso?
+
+## Requerimientos previos
+
+Qué conocimientos previos se necesitan?
+
 ## Aprenderás
 
 En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
