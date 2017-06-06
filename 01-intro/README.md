@@ -289,11 +289,12 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 01 | video | Tips sobre cómo crear tus productos
-| 02 | video | **Cajero automático**: crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
-| 03 | video | **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
-| 04 | video | **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
-| 05 | video | Aprende a desplegar tus productos en la web con `Heroku`
-| 06 | video | Cierre
+| 02 | video | Cómo enviar tu trabajo
+| 03 | video | **Cajero automático**: crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
+| 04 | video | **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+| 05 | video | **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
+| 06 | video | Aprende a desplegar tus productos en la web con `Heroku`
+| 07 | video | Cierre
 
 ### BONUS Lesson!!! (17): [Javascripting de Node](17-javascripting)
 **_3hrs_**
