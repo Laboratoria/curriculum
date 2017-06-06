@@ -28,7 +28,7 @@ funcionalidad de un juego de dos dimensiones escrito en JavaScript. **Tu equipo
 tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code
 reviews**. Todo el flujo de trabajo será a través de un repositorio alojado en
 GitHub. Durante la primera semana tu equipo tendrá que extender el juego
-_heredando_ del prototipo de un contructor ya implementado, mientras que en la
+_heredando_ del prototipo de un constructor ya implementado, mientras que en la
 segunda semana tendrán que refactorizar el código de la primera semana usando
 el paradigma funcional.
 
@@ -48,9 +48,9 @@ el paradigma funcional.
 
 ## Detalles logísticos
 
-* Self-paced: 4 hrs
-* Presencial: 10 hrs
-* Total horas: 14
+* Self-paced: 7 horas
+* Presencial: 11 horas
+* Total: 18 horas
 
 ## Producto
 
@@ -75,17 +75,50 @@ Participar en el proyecto involucra lo siguiente:
 El juego está inspirado en el ejemplo de
 [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
 
+
+***
+
+Evaluación previa!!!
+
 ***
 
 ## Syllabus
 
-### Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
+### Lesson 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
+
+1h (presencial)
+
+Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
+presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
+metodología de aprendizaje, requisitos previos y metodología de evaluación.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 2: [Entorno y metodología de trabajo](#)
+
+1h (presencial)
+
+Durante esta sesión nos aseguraremos que todas tienen git instalado, acceso al
+repo, su propio fork, ...
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | charla     |   30min  | Entorno: Git + GitHub
+|   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
+
+### Lesson 3: [Introducción a Paradigmas de Programación](#)
 
 1h (self-paced)
 
 En esta lección aprenderás las características y diferencias entre los
 paradigmas más relevantes para JavaScript: imperativo, por procedimientos,
-orientado a objetos (OOP) y funcional (FP).
+orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 
 #### Lesson plan
 
@@ -95,14 +128,14 @@ orientado a objetos (OOP) y funcional (FP).
 |   2   | video      |    3min  | Declarativo vs Imperativo
 |   3   | video      |    3min  | Comparativa de paradigmas
 |   4   | video      |    4min  | Por procedimientos
-|   5   | code       |   10min  | Ejericio por procedimientos
+|   5   | code       |   10min  | Ejercicio por procedimientos
 |   6   | video      |    4min  | Orientado a objetos
-|   7   | code       |   10min  | Ejericio OOP
+|   7   | code       |   10min  | Ejercicio OOP
 |   8   | video      |    4min  | Funcional
-|   9   | code       |   10min  | Ejericio funcional
+|   9   | code       |   10min  | Ejercicio funcional
 |  10   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 2: [OOP y herencia prototipal](03-oop)
+### Lesson 4: [OOP y herencia prototipal](#)
 
 1h (self-paced)
 
@@ -120,7 +153,7 @@ herencia.
 |   4   | code       |   10min  | Ejercicios de herencia prototipal
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+### Lesson 5: [Ejercicios guiados, ayudantías, charlas](#)
 
 1h (presencial)
 
@@ -130,44 +163,55 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | ejercicios |   30min  | Herencia prototipal
-|   2   | challenge  |   30min  | Ejercicios de herencia prototipal
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | solucionario |   15min  | Herencia prototipal
+|   2   | challenge    |   45min  | Ejercicios de herencia prototipal
 
-### Lesson 4: [Entorno y metodología de trabajo](#)
+### Lesson 6: [Proyecto (implementación OOP)](#)
 
-1h (presencial)
+2h (presencial)
 
-...
+En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
+tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
+mapas. La implementación será usando herencia prototipal.
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   30min  | Kick-off: Entorno y metodología de trabajo
-|   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
-
-### Lesson 5: [Proyecto (implementación OOP)](04-oop-project)
-
-3h (presencial)
-
-...
+#### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
 |   1   | code       |   2h     | Hacking...
-|   2   | review     |   30min  | Code review
 
-### Lesson 6: [Demos de proyectos OOP](05-oop-demos)
+### Lesson 7: [Proyecto (implementación OOP)](#)
+
+2h (self-paced)
+
+En la primera mitad de esta sesión continuarás codeando los personajes y mapas
+en versión OOP (usando herencia prototipal) con el objetivo de preparar un
+_pull request_ que revisaremos durante la segunda hora.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | code       |   1h     | Hacking...
+|   2   | review     |   1h     | Pull requests, code review
+
+### Lesson 8: [Demos de proyectos OOP](05-oop-demos)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Lesson 7: [Object factories and composition](06-composition)
+### Lesson 9: [Object factories and composition](06-composition)
 
 1h (self-paced)
 
-...
+En esta lección veremos en detalle cómo usar composición como una alternativa a
+las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
+orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
+
+#### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
@@ -177,35 +221,68 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 |   4   | code       |   10min  | Ejercicios de composición
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 8: [Proyecto (implementación FP)](07-fp-project)
+### Lesson 10: [Ejercicios guiados, ayudantías](02-guided-exercises)
 
-3h (presencial)
+1h (presencial)
 
-...
+En esta lección nos concentraremos en hacer ejercicios todos juntos con la ayuda
+del profe y los TAs.
+
+#### Lesson plan
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | solucionario |   15min  | Slocucionario
+|   2   | challenge    |   45min  | Ejercicios de composición
+
+### Lesson 11: [Proyecto (implementación FP)](07-fp-project)
+
+2h (self-paced)
+
+En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
+tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
+mapas. La implementación será usando el estilo funcional (composición).
+
+#### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | qa         |   15min  | Kick-off: Open questions
-|   2   | reunión    |   15min  | Re-cap
-|   3   | code       |   2h     | Hacking...
-|   4   | review     |   30min  | Code review
+|   1   | code       |   2h     | Hacking...
 
-### Lesson 9: [Demos de proyectos FP](08-fp-demos)
+### Lesson 12: [Proyecto (implementación FP)](07-fp-project)
+
+2h (presencial)
+
+En la primera mitad de esta sesión continuarás codeando los personajes y mapas
+en versión funcional (usando composición) con el objetivo de preparar un
+_pull request_ que revisaremos durante la segunda hora.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | code       |   1h     | Hacking...
+|   2   | review     |   1h     | Pull requests, code review
+
+### Lesson 13: [Demos de proyectos FP](08-fp-demos)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-* * *
+### Lesson 14: [Examen](#)
+
+1h (presencial)
+
+***
 
 ## Contributors
 
 * Lupo Montero (autor)
-* Bianca Gandolfo
-* Mariano Crowe
-* ...
+* Mariano Crowe (technical review)
+* Otros colaboradores?
 
-## Libros (mínimo 4)
+## Libros
 
 * [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp),
   Richard Warburton, O'Reilly Media
@@ -219,6 +296,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 Cursos similares que sirven como referencia:
 
+* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion), José Dimas Luján Castillo, video2brain, 8 Mar 2017
 * [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015),
   Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
@@ -245,10 +323,24 @@ Blog posts:
 
 Videos:
 
-* [Anjana Vakil: Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
-  JSUnconf 2016
-* [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+* [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+  `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
+* [Prototypal Inheritance](https://frontendmasters.com/courses/javascript-jquery-dom/prototypal-inheritance/),
+  `8:52`, Justin Meyer, [Frontend Masters](https://frontendmasters.com/)
+* Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
+  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q), 2016
+* [Prototypes in JavaScript - FunFunFunction #16](https://www.youtube.com/watch?v=riDVvXZ_Kb4),
+  `11:55`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  25 Jan 2016
+* [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
+  `19:19`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  22 ago. 2016
+* [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
+  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
+  8 Mar 2017
+* [Learning Functional Programming with JavaScript- JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  `29:56`, Anjana Vakil, [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA) 2016
 
 Otros recursos:
 
@@ -257,34 +349,56 @@ Otros recursos:
 
 ***
 
-## Lesson plan for LIM20171
+## Lesson plan para LIM20171
 
-* Duración: 2 semanas
-* Horas por semana: 7 hrs
+* Duración: 4 semanas
+* Horas por semana: 4-5 hrs
 
-### Week 1
+### Semana 1
 
-#### Jueves
+#### Jueves 15 de Junio
 
-* Lesson 1: [Introducción a Paradigmas de Programación](01-intro)
-  1h (self-paced)
-* Lesson 2: [OOP and Prototypal inheritance](03-oop) 1h (self-paced)
-* Lesson 3: [Ejercicios guiados, ayudantías, charlas](02-guided-exercises)
+* Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
   1h (presencial)
+* Lección 2: [Entorno y metodología de trabajo](#) 1h (presencial)
+* Lección 3: [Introducción a Paradigmas de Programación](#)
+  1h (self-paced)
 
-#### Sábado
+#### Sábado 17 de Junio
 
-* Lesson 4: [Entorno y metodología de trabajo](#) 1h (presencial)
-* Lesson 5: [Proyecto (implementación OOP)](04-oop-project) 3h (presencial)
+* Lección 4: [OOP y herencia prototipal](#) 1h (self-paced)
 
-### Week 2
+### Semana 2
 
-#### Jueves
+#### Jueves 22 de Junio
 
-* Lesson 6: [Demos de proyectos OOP](05-oop-demos) 1h (presencial)
-* Lesson 7: [Object factories and composition](06-composition) 1h (self-paced)
+* Lección 5: [Ejercicios guiados, ayudantías, charlas](#)
+  1h (presencial)
+* Lección 6: [Proyecto (implementación OOP)](#) 2h (presencial)
 
-#### Sábado
+#### Sábado 24 de Junio
 
-* Lesson 8: [Proyecto (implementación FP)](07-fp-project) 3h (presencial)
-* Lesson 9: [Demos de proyectos FP](08-fp-demos) 1h (presencial)
+* Lección 7: [Proyecto (implementación OOP)](#) 2h (self-paced)
+
+### Semana 3
+
+#### Miércoles 28 de Junio
+
+* Lección 8: [Demos de proyectos OOP](#) 1h (presencial)
+* Lección 9: [Object factories and composition](#) 1h (self-paced)
+* Lección 10: [Ejercicios guiados, ayudantías, charlas](#) 1h (presencial)
+
+#### Sábado 1 de Julio
+
+* Lección 11: [Proyecto (implementación FP)](#) 2h (self-paced)
+
+### Semana 4
+
+#### Jueves 6 de Julio
+
+* Lección 12: [Proyecto (implementación FP)](#) 2h (presencial)
+* Lección 13: [Demos de proyectos FP](#) 1h (presencial)
+
+#### Sábado 8 de Julio
+
+* Lección 14: [Examen](#) 1h (presencial)
