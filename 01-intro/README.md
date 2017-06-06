@@ -1,31 +1,34 @@
 # 01. Introducción a la programación (con JavaScript)
 En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
+## Público Objetivo
+Este curso está dirigido a personas _sin_ conocimientos previos de programación que tienen el interés de aventurarse al mundo del código. Será tu primer paso en la ruta de aprendizaje.
+
+## Propósito General
+El propósito de este curso es darte una idea de qué se trata el mundo del desarrollo de software, para que puedas determinar si es algo que te apasiona perseguir como profesión. Al terminar este curso sabrás si el código es lo tuyo y habrás sentado unas buenas bases para el desarrollo de tu carrera profesional en el mundo tech.
+
 ## Aprenderás
 * Cómo funciona la Web: HTML, CSS, JavaScript, HTTP & URLs
 * Conceptos básicos de programación como: variables, tipos datos, estructuras de datos, operadores, declaraciones condicionales, ciclos y funciones
 * La sintaxis básica de JavaScript como lenguaje de programación
-* A concetarte y utilizar APIs de terceros
-* A crear y desplegar aplicaciones web
-
+* A correr programas utilizando la interfaz de línea de comandos (CLI)
+* A utilizar un sistema de control de versiones (Git)
 
 ## Duración
 * Total: 30 horas aprox.
-* Presencial: 12 horas (4 sesiones de 3hr c/u)
-* Self-paced (online): 15-20 horas aprox.
+* Modalidad: Self-paced (online)
+
+## Requerimientos previos
+Ningún conocimiento previo de programación es necesario para completar este curso. Está diseñado para principiantes.
 
 ## Productos a desarrollar
-Pondrás en práctica los conceptos aprendidos al implementar al menos tres (3) de los siguientes productos web:
+En este curso pondrás en práctica los conceptos al desarrollar tres (3) productos digitales:
 
-1. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
 
-2. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
 
-3. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
-
-2. **Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
-
-5. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
+3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
 ## Syllabus
 ### Lección 00: [Growth Mindset](01-growth-mindset)
@@ -59,7 +62,7 @@ Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las 
 ### Lección 02: [Crea tu primera página web](02-your-first-website)
 **_30min (self-paced)_**
 
-Con lo que sabes ya puedes crear tu primera página web.
+Utiliza lo que has aprendido para crear tu primera página web.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -70,7 +73,19 @@ Con lo que sabes ya puedes crear tu primera página web.
 | 05 | reto | Debugging un programa: encuentra el error y arreglalo
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 03: [Variables y Tipos de Datos](03-variables-and-data-types)
+### Lección 03: [Tu ambiente de desarrollo](02-your-first-website)
+**_30min (self-paced)_**
+
+Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás desacrgar un par de programas y aprender a usarlos.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | ¿Qué es `Node.js`? + descarga Node.js
+| 02 | video | ¿Qué es la línea de comandos?
+| 03 | video | JavaScript en la línea de comandos
+| 04 | video | `Git` & `GitHub`
+
+### Lección 04: [Variables y Tipos de Datos](03-variables-and-data-types)
 **_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
@@ -84,7 +99,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | 05 | video | Valores y tipos de datos
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 04: [Strings & Numbers](04-strings-and-numbers)
+### Lección 05: [Strings & Numbers](04-strings-and-numbers)
 **_40min (self-paced)_**
 
 Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
@@ -101,7 +116,7 @@ Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
 | 08 | reto | Dada una temperatura en °C, devuelve el valor en °F
 | 09 | quiz | Prueba tu conocimiento
 
-### Lección 05: [Otros tipos de datos y operadores](05-other-data-types)
+### Lección 06: [Otros tipos de datos y operadores](05-other-data-types)
 **_30min (self-paced)_**
 
 Continúa aprendiendo otros tipos de datos clave para la creación de programas.
@@ -115,21 +130,20 @@ Continúa aprendiendo otros tipos de datos clave para la creación de programas.
 | 05 | video | Type coercion
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 06: [Ejercicios guiados](06-instructor-led-projects-strings-numbers)
-**_3hrs (presencial)_**
+### Lección 07: [Ejercicios guiados](06-instructor-led-projects-strings-numbers)
+**_45min (self-paced)_**
 
-Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
+Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
 
-| Tipo | Duración | Descripción           
+| # | Tipo | Tópico           
 | - | ----- | -----
-| lecture | 60min | Revisar conceptos aprendidos
-| lecture | 10min | Asignar equipos
-| Pair programming | 35min | Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
-| Pair programming | 35min | Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
-| lecture | 30min | Solucionario
-| survey | 10min | Self-assessment & feedback
+| 01 | video | Revisar conceptos aprendidos
+| 02 | video | Enunciado: Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
+| 03 | video | Solucionario
+| 04 | video | Enunciado: Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
+| 05 | video | Solucionario
 
-### Lección 07: [Estructuras Condicionales](07-conditional-structures)
+### Lección 08: [Estructuras Condicionales](07-conditional-structures)
 **_30min (self-paced)_**
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y por lo tanto darle flexibilidad a lo que hace tu producto.
@@ -138,12 +152,12 @@ Explora una de las formas más comunes de controlar el flujo de tu programa, y p
 | - | ----- | -----
 | 01 | video | Repaso semana 1
 | 02 | video | Introducción a estructuras condicionales
-| 03 | video | If… else & else if
+| 03 | video | `If… else` & `else if`
 | 04 | reto | Completa el siguiente código para que de acuerdo a la edad clasifique entre: baby, toddler, kid, teenager and adult.
-| 05 | video | switch
+| 05 | video | `switch`
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 08: [Estructuras Repetitivas](07-loops)
+### Lección 09: [Estructuras Repetitivas](07-loops)
 **_40min (self-paced)_**
 
 Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY: Don't Repeat Yourself.
@@ -152,14 +166,14 @@ Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY:
 | - | ----- | -----
 | 01 | video | Código DRY
 | 02 | video | Introducción a estructuras repetitivas
-| 03 | video | while and do loops
+| 03 | video | `while` and `do while` loops
 | 04 | reto  | Imprime los números del 0-10
 | 05 | video | Saliendo de un loop
-| 06 | video | for loops
-| 07 | reto | Imprime los caracteres de un string
+| 06 | video | `for` loops
+| 07 | reto | Imprime los caracteres de un `string`
 | 08 | quiz | Prueba tu conocimiento
 
-### Lección 09: [Creando codigo reusable con Funciones](07-loops)
+### Lección 10: [Creando codigo reusable con Funciones](07-loops)
 **_50min (self-paced)_**
 
 Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
@@ -169,32 +183,31 @@ Funciones es un tema que todo desarrollador en JavaScript debe conocer a profund
 | 01 | video | Introducción a funciones
 | 02 | reto  | Crea una función
 | 03 | video | Las funciones también cambian el flujo del programa
-| 04 | video | Return statement
-| 05 | reto | Crea una función con dos opciones de return
+| 04 | video | `return` statement
+| 05 | reto | Crea una función con dos opciones de `return`
 | 06 | video | Pasar información a una función
 | 07 | reto | Crea una función que sume dos números. Si los argumentos no son números debe retornar mensaje de error.
-| 08 | video | Entiende scope
+| 08 | video | Entiende `scope`
 | 09 | video | Clean code: indentación, cammelCase, semantica y comentarios
 | 10 | quiz | Prueba tu conocimiento
 
-### Lección 10: [Ejercicios guiados](10-instructor-led-projects-functions)
-**_3hrs (presencial)_**
+### Lección 11: [Ejercicios guiados](10-instructor-led-projects-functions)
+**_45min (self-paced)_**
 
-Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
+Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
 
-| Tipo | Duración | Descripción           
+| # | Tipo | Tópico           
 | - | ----- | -----
-| lecture | 60min | Revisar conceptos aprendidos
-| lecture | 10min | Asignar equipos
-| Pair programming | 35min | Crea un programa que haga 5 preguntas de matemática al usuario. Registre las preguntas correctas. Al final le muestre su resultado y le dé la medalla correspondiente. 5 buenas = Oro. Al menos 3 ó 4 = Plata. Menos de 3 = Bronce.
-| Pair programming | 35min | Crea un programa que un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado
-| lecture | 30min | Solucionario
-| survey | 10min | Self-assessment & feedback
+| 01 | video | Revisar conceptos aprendidos
+| 02 | video | Enunciado: crea dos funciones, `add` y `multiply`. Cada uno debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * 9824 + 777
+| 03 | video | Solucionario
+| 04 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
+| 05 | video | Solucionario
 
-### Lección 11: [Problem Sets](11-problem-sets-functions)
+### Lección 12: [Problem Sets](11-problem-sets-functions)
 **_3-6hrs (self-paced)_**
 
-Resuelve al menos cinco (5) de los siguiente problemas en Replit:
+Resuelve los siguiente problemas en Replit:
 1. getStringLength
 2. countSpaces
 3. countVowels
@@ -210,9 +223,8 @@ Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 13. fizzBuzz
 14. chessBoard
 15. piramidConsole
-16. isValidCreditCard
 
-### Lección 12: [Objects & Arrays](12-intro-objects-and-arrays)
+### Lección 13: [Objects & Arrays](12-intro-objects-and-arrays)
 **_60min (self-paced)_**
 
 Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras de datos más complejas. Llegó la hora de conocer a los `objects` y los `arrays`. ¡Con ellos vas a poder crear programas más interesantes!
@@ -232,26 +244,27 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 11 | video | Combinando arreglos con objetos
 | 12 | reto | Manipula un arreglo de objetos que representan tus amigos
 
-### Lección 13: [Ejercicios guiados ](13-instructor-led-projects-objects-and-arrays)
-**_3hrs (presencial)_**
+### Lección 14: [Ejercicios guiados ](13-instructor-led-projects-objects-and-arrays)
+**_45min (self-paced)_**
 
-Sesión presencial para repasar y consolidar los conceptos aprendidos online y practicar desarrollando ejercicios prácticos.
+Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
 
-| Tipo | Duración | Descripción           
+| # | Tipo | Tópico           
 | - | ----- | -----
-| lecture | 20min | Revisar conceptos aprendidos
-| lecture | 5min | Asignar equipos
-| Pair programming | 30min | Crea un programa que imprima la suma todos los números entre un rango, como: `console.log(sum(range(start, end)))`
-| Pair programming | 30min | Crea una función que invierta el orden de los elementos de un array
-| Pair programming | 30min | Crea una función `arrayToList` y otra `listToArray`
-| Pair programming | 30min | Crea varias función que busquen un elemento en un array: linear search and binary search
-| lecture | 30min | Solucionario
-| survey | 5min | Self-assessment & feedback
+| 01 | video | Revisar conceptos aprendidos
+| 02 | video | Enunciado: Crea un programa que imprima la suma todos los números entre un rango, como: `console.log(sum(range(start, end)))`
+| 03 | video | Solucionario
+| 04 | video | Enunciado: Crea una función que invierta el orden de los elementos de un array
+| 05 | video | Solucionario
+| 06 | video | Enunciado: Crea una función `arrayToList` y otra `listToArray`
+| 07 | video | Solucionario
+| 08 | video | Enunciado: Crea dos funciones que busquen un elemento en un array: linear search and binary search
+| 09 | video | Solucionario
 
-### Lección 14: [Problem Sets](14-problem-sets-objects-and-arrays)
+### Lección 15: [Problem Sets](14-problem-sets-objects-and-arrays)
 **_3-6hrs (self-paced)_**
 
-Resuelve al menos cinco (5) de los siguiente problemas en Replit:
+Resuelve los siguiente problemas en Replit:
 1. arrayToObject
 2. objectToArray
 3. personalGreeting
@@ -268,51 +281,29 @@ Resuelve al menos cinco (5) de los siguiente problemas en Replit:
 14. isHacker
 15. isUnicorn
 
-### Lección 15: [Intro to APIs and JSON](15-apis-and-json)
-**_60min (self-paced)_**
-
-Una de las cosas más interesantes de la programación hoy en día es la posibilidad de trabajar y colaborar con data y sistemas de terceros. Conoce cómo hacerlo a través de las Aplication Programming Interfaces (APIs) y el formato de datos JSON. Además, aprende lo básico de la visualización de datos con herramientas JavaScript.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | ¿Qué son las APIs y por qué son importantes?
-| 02 | video | Entendiendo y manipulando data en formato JSON
-| 03 | video | Conectándote al API de flicker
-| 04 | reto | reto de comandos para conectarse a un API
-| 05 | quiz | prueba tu conocimiento
-| 06 | video | Data visualization basics
-| 07 | video | Librerías en JS para visualizar datos
-| 08 | reto | reto de uso de librerías para visualizar data
-| 09 | quiz | prueba tu conocimiento
-
-
-### Lección 16: [Web Deployment Basics](16-web-deployment-basics)
-**_20min (self-paced)_**
-
-Aprende a desplegar productos en la Web para que todos el mundo pueda consumirlos.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Web deployment basics
-| 02 | video | Heroku
-| 03 | video | Deployment guiado de un site
-| 04 | reto | reto de comandos para deployment
-| 05 | quiz | prueba tu conocimiento
-
-### Lección 17: [Creating Cool Products](17-cool-products)
+### Lección 16: [Creating Cool Products](17-cool-products)
 **_3-6hrs_**
 
-Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos. Elige al menos dos (2) de los productos a continuación (o plantea tu propio set de retos) y hackea con todo.
+Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos.
 
-1. **Post encriptados en Facebook**: crea y despliega una web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar regresando a tu web.
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Tips sobre cómo crear tus productos
+| 02 | video | **Cajero automático**: crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
+| 03 | video | **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+| 04 | video | **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
+| 05 | video | Aprende a desplegar tus productos en la web con `Heroku`
+| 06 | video | Cierre
 
-2. **Developers más activos**: crear y despliega una web que se conecte al API de meetup para determinar los developers más activos de tu ciudad.
+### BONUS Lesson!!! (17): [Javascripting de Node](17-javascripting)
+**_3hrs_**
 
-3. **Laboratoria Coders** crear y despliega una web que se conecte al API de Laboratoria para visualizar la data de las coders.
+Si quieres solidificar tus conocimientos y asegurarte de que dominas por completo los temas que acabas de aprender, te recomendamos completar el curso de [javascripting](https://github.com/workshopper/javascripting) de la comunidad de [node](https://nodeschool.io/).
 
-2. **Friend Clusters** : crea y despliega una web en la que personas hagan login con Facebook y puedan visualizar la data de clusters de sus amigos.
-
-5. **Google AppScripts**: aprende a utilizar Google AppScripts para enviar e-mails y crear eventos en el calendario de forma automática desde una base de datos en Google Sheets.
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | video | Tutorial workshoppers javascripting
+| 02 | video | Cómo enviar tu trabajo
 
 * * *
 ## Contributors
@@ -323,48 +314,3 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 ## Libros de consulta
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
-
-* * *
-## Lesson Plans
-El tiempo requerido para completar este curso varía de acuerdo a la cantidad de horas disponibles a la semana. A continuación presentamos los lessons plans sugeridos para la modalidad Bootcamp (full-time) y la modalidad Educación Continua (4x4)
-
-### Formato Bootcamp (full-time)
-* Tiempo estimado: _*2 semanas*_
-
-#### Semana 1
-| Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
-| ---- | ------------- | -----------    | ------------ | ------------ | ------- |
-| 9am  | Sprint Kick-off       | check-in & daily           | check-in & daily | check-in & daily | check-in & daily |
-| 10am | L01-L03 (self-paced)  | L06 (presencial)   | L10 (presencial) | Ayudantia & Office Hours | L14 cont. (problem sets)
-| 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
-| 1pm  | L04-L05 (self-paced)  | L06 cont. (presencial)| L11 (problem sets) | L12 (self-paced) | L14 cont. (problem sets)
-| 3pm  | Ayudantia       | L07-L09 (self-paced)  | L11 cont. (problem sets) | L13 (presencial) | Ayudantia
-| 5pm  | Office Hours                 | Office Hours       | L11 cont. (problem sets) | L14 (problem sets) | Office Hours
-
-#### Semana 2
-| Hora |  Lunes        | Martes         | Miercoles    | Jueves       | Viernes |
-| ---- | ------------- | -----------    | ------------ | ------------ | ------- |
-| 9am  | check-in & daily       | check-in & daily           | check-in & daily | check-in & daily | Demo |
-| 10am | L15-L16 (self-paced)  | L17 (products)   | L17 (products) | L17 (products) | Demo
-| 12pm | Almuerzo              | Almuerzo           | Almuerzo | Almuerzo | Almuerzo
-| 1pm | L17 (products)  |  Office Hours   | L17 (products) |  Office Hours | Demo
-| 5pm | Office Hours  | L17 (products)    | Office Hours  | L17 (products)  | Demo
-
-### Formato Educación Contínua 4x4
-* Tiempo estimado: _*4 semanas*_
-
-#### Semana 1
-* Online Pre-work: Lecciones 00-05
-* Presencial: Lección 06
-
-#### Semana 2
-* Online Pre-work: Lecciones 07-09
-* Presencial: Lección 10
-
-#### Semana 3
-* Online Pre-work: Lección 11 y 12
-* Presencial: Lección 13
-
-#### Semana 4
-* Online Pre-work: Lecciones 14-16
-* Presencial: Lección 17
