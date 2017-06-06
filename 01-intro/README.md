@@ -73,10 +73,10 @@ Utiliza lo que has aprendido para crear tu primera página web.
 | 05 | reto | Debugging un programa: encuentra el error y arreglalo
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 03: [Tu ambiente de desarrollo](02-your-first-website)
+### Lección 03: [Tu ambiente de desarrollo: Git & CLI](02-your-first-website)
 **_30min (self-paced)_**
 
-Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás desacrgar un par de programas y aprender a usarlos.
+Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás descargar un par de programas y aprender a usarlos.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -173,7 +173,7 @@ Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY:
 | 07 | reto | Imprime los caracteres de un `string`
 | 08 | quiz | Prueba tu conocimiento
 
-### Lección 10: [Creando codigo reusable con Funciones](07-loops)
+### Lección 10: [Creando código reusable con Funciones](07-loops)
 **_50min (self-paced)_**
 
 Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
