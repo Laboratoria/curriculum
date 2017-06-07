@@ -20,21 +20,26 @@ funcionalidad como "high scores", ...
 
 ## Público objetivo
 
-Para quién es este curso?
+Este curso está dirigido a personas con conocimientos previos de programación y desarrollo web, que quieren aprender nuevas herramientas que les permitan desarrollar proyectos web de una manera más agil, modular y sostenible en el tiempo.
 
 ## Requerimientos previos
 
-Qué conocimientos previos se necesitan?
+Para poder llevar adelante este curso sin frustración, es recomendable los siguientes conocimientos previos:
+* Manejo de línea de comandos y git
+* Javascript functional: es5, inmutabilidad, node y npm
+* Desarrollo web standard: html y dom + css
+* Patrones de diseño básicos: reusabilidad, modularización, encapsulamiento y composición
 
 ## Aprenderás
 
-* Yarn
-* WebPack
-* Babel
-* JSX
-* React Components
-* Props
-* State
+* ES6: Utiliza las últimas especificaciones y extensiones de javascript (es6) de manera "universal", a través de técnicas como la trasnpilación y el uso de polyfills. Herramientas: yarn, webpack, babel.
+* JSX: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces. Herramientas: webpack, react.
+* React:
+  - Fundamentos: virtual DOM y one-way data binding
+  - Componentes y su ciclo de vida.
+  - Definición de propiedades (`props`) para los componentes y sus tipos.
+  - Manejo de estados (`state`).
+  - Componentes sin estado (`stateless`) y sus beneficios.
 
 ## Detalles logísticos
 
@@ -44,7 +49,10 @@ Qué conocimientos previos se necesitan?
 
 ## Producto
 
-Convertir video juego en app con interfaz más completa, high scores, ...
+Convertir video juego del curso 10-funcional en una single app con las siguientes extensiones:
+* Texto de introducción al juego
+* High-scores
+* ...
 
 ## Syllabus
 
