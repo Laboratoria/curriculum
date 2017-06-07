@@ -28,18 +28,21 @@ Para poder llevar adelante este curso sin frustración, es recomendable los sigu
 * Manejo de línea de comandos y git
 * Javascript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
-* Patrones de diseño básicos: reusabilidad, modularización, encapsulamiento y composición
+* Conceptos básicos de diseño de software e interfaces: reusabilidad, modularización, encapsulamiento, composición, MVC, mocking...
 
 ## Aprenderás
 
-* ES6: Utiliza las últimas especificaciones y extensiones de javascript (es6) de manera "universal", a través de técnicas como la trasnpilación y el uso de polyfills. Herramientas: yarn, webpack, babel.
+* ES6: Utiliza las últimas especificaciones y extensiones de javascript (es6) de manera "universal", a través de la trasnpilación y el uso de polyfills. Herramientas: yarn, webpack, babel.
 * JSX: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces. Herramientas: webpack, react.
 * React:
-  - Fundamentos: virtual DOM y one-way data binding
+  - Fundamentos:
+    - Virtual DOM
+    - One-way data binding
+    - Learn once, write anywhere
   - Componentes y su ciclo de vida.
   - Definición de propiedades (`props`) para los componentes y sus tipos.
-  - Manejo de estados (`state`).
-  - Componentes sin estado (`stateless`) y sus beneficios.
+  - Manejo de estados (`state`) por componente.
+  - Componentes sin estado (`stateless`) y estado global.
 
 ## Detalles logísticos
 
@@ -56,7 +59,166 @@ Convertir video juego del curso 10-funcional en una single app con las siguiente
 
 ## Syllabus
 
-* ...
+### Lesson 0: [Set de herramientas](#)
+
+1h (self-paced)
+
+Antes de empezar necesitamos familiarizarnos con dos herramientas: Yarn y Webpack.
+
+En esta lección aprenderás, qué beneficios provee yarn sobre npm, para qué sirve webpack y revisaremos algunos `loaders` y `plugins` populares de webpack.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 1: [Javascript: un lenguage vivo](#)
+
+1h (presencial)
+
+Para empezar a usar react, necesitamos familiarizarnos con la nueva sintaxis de Javascript.
+En esta lección aprenderás:
+* Qué es el estándard ECMAScript y como evoluciona
+* Qué es es6 y que mejoras propone sobre su antecesor (es5), así como sus desventajas
+* Cómo usar yarn, babel-loader y webpack para convertir codigo es6 en es5 y así superar las desventajas antes expuestas
+* Un tour detallado sobre las extensiones de sintaxis que incorpora es6 que te alegrarán la vida
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 2: [Proyecto ES6](#)
+
+2h (self-paced)
+
+Para afianzar los conocimientos introducidos en la lección anterior, ahora aplicaremos lo aprendido en tu juego, para que implemente las mejoras básicas propuestas por es6 y sea empaquetado por webpack, así puede continuar ejecutándose en todos los navegadores.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 3: [JSX y React básico](#)
+
+1h (presencial)
+
+React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su  `templating language` por defecto.
+
+En esta lección aprenderemos qué es JSX, que beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con webpack. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas q nos permitan.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 4: [Proyecto React](#)
+
+2h (self-paced)
+
+Es hora de convertir a tu proyecto en un proyecto React! En esta lección nos ocuparemos de transformar todo tu html a JSX y crearemos la `single-page app` que contendrá a tu juego.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 5: [React OOP y props](#)
+
+1h (presencial)
+
+React define sólo 7 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
+
+Además veremos cómo pasar parámetros a los componentes a través de sus `props`, para hacerlos reutilizables.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 6: [Proyecto React](#)
+
+2h (self-paced)
+
+Ahora vamos a hacer que tu aplicación sea mas interesante. En esta lección diseñarás al detalle la interfaz (UI) de tu app y maquetarás cada sección de tu página con componentes de react.
+
+Luego crearemos mocks funcionales usando props, para que tu aplicación quede preparada para la próxima lección: estado!
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 7: [React OOP y estado interno de componentes](#)
+
+1h (presencial)
+
+> Mira el código fuente de tu proyecto, sus carpetas y archivos de configuración ¿Te has puesto a pensar que podríamos haber logrado el mismo resultado usando solamente html? Entonces, ¿para que complicarnos tanto?
+
+> En el día a día del profesional del software, no se limita a idear y crear proyectos nuevos, sino que en realidad la mayoría de nuestro tiempo se va corrigiendo errores o creando extensiones para aplicaciones existentes, que van creciendo en complejidad a medida que pasa el tiempo y van evolucionando. Es ahí donde react hace que nuestra vida no sea un infierno.
+
+En esta lección vamos a darle protagonismo al estado de la aplicación. Veremos qué mecanismos nos brinda react para llevar registro de los cambios de estado que la aplicación manifiesta, a medida que el usuario va interactuando con la aplicación. Además veremos cómo se relacionan estos cambios de estado con el ciclo de vida y renderizado de nuestros componentes.
+
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 8: [Proyecto React](#)
+
+3h (self-paced)
+
+En esta lección vamos a empezar a convertir a tu aplicación, en una aplicación verdaderamente profesional: vamos a especificar e implmentar los estados que cada uno de nuestros componentes debe "recordar" a través de todo su ciclo de vida, asi como el estado global de nuestra aplicación.
+
+### Lesson 9: [React FOP, componentes `stateless`, HOCs y estado global](#)
+
+1h (presencial)
+
+> Nuevamente, revisa tu código, el código fuente de tus componentes. ¿No hay algo que huele a podrido? Claro! ¿Qué pasó con tanto incapié que nos han hecho en el encapsulamiento, la modulariazión y la "separación de intereses" (`separation of concerns`), para que ahora terminemos poniendo todo junto entreverado adentro de una clase?
+
+> Cuando las aplicaciones son pequeñas y los componentes comparten poca información, usar componentes con estados y acciones propias es una alternativa rápida y válida. ¿Pero qué ocurre a medida que la aplicación se va complejizando y cuando, por ejemplo, el usuario hace click en un botón se desencadenan reacciónes alrededor de toda la página? ¿Cómo mantenemos sincronizado todo eso?
+
+Hasta aquí podemos decir que React es una muy buena herramienta, pero realmente no tiene ningún valor diferencial con otras que hacen algo parecido.
+
+En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos un conjunto de herramientas único: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
+
+Veremos como diseñar nuestras aplicaciónes orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 10: [Proyecto React](#)
+
+3h (self-paced)
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+### Lesson 11: [Proyecto React: deployment](#)
+
+30mins (self-paced)
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
 
 ## Autor(es) / Colaboradores
 
