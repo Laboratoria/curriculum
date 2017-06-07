@@ -5,13 +5,15 @@
 - Conocer _datatypes_ en JavaScript
 
 ## ¿Qué son variables y para qué sirven?
-```_El contenido a continuación es una traducción al Español de:  
+-**
+_El contenido a continuación es una traducción al Español de:  
 [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014 gracias a [hectorip](http://hectorip.github.io/Eloquent-JavaScript-ES-online)_
-```
+-**
 
 Hasta ahora hemos visto cómo producir nuevos valores de viejos valores, pero esto no cambia los valores antiguos, y el nuevo valor tiene que ser inmediatamente utilizado o se disipará de nuevo. Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada _variable_.
 
-```var atrapado = 5 * 5;
+```
+var atrapado = 5 * 5;
 ```
 
 La palabra especial (palabra clave o keyword) _var_ indica que esta frase va a definir una variable. Es seguida por el nombre de la variable y, si queremos dar de inmediato un valor, por un operador de = y una expresión.
@@ -20,7 +22,8 @@ La declaración anterior crea una variable llamada atrapado y se usa para retene
 
 Después de que una variable se ha definido, su nombre puede ser usado como una expresión. El valor de esa expresión es el valor que la variable alberga actualmente. He aquí un ejemplo:
 
-```var diez = 10;
+```
+var diez = 10;
 console.log(diez * diez);
 // → 100
 ```
