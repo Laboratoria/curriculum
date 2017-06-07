@@ -6,12 +6,18 @@
 
 ## ¿Qué son variables y para qué sirven?
 -**
-_El texto a continuación es una traducción al Español de:[Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014 gracias a [hectorip](http://hectorip.github.io/Eloquent-JavaScript-ES-online)_
+_El texto a continuación se basa en gran medida (con ciertos ajustes) en el capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014_
 -**
 
-Hasta ahora hemos visto cómo producir nuevos valores de viejos valores, pero esto no cambia los valores antiguos, y el nuevo valor tiene que ser inmediatamente utilizado o se disipará de nuevo. Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada _variable_.
+Vivimos un mundo de Big Data. La data está en todos lados. En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está lleno de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y suben en YouTube, las imágenes que aparecen en Instagram, los registros del clima, los corrreos electrónicos que escribes... todo eso es data!
 
-```var atrapado = 5 * 5;
+En el mundo de las computadoras se puede leer data, modificar data y crear nueva data. En el ambiente de JavaScript, pedazos o conjuntos de datos son llamados _valores_.
+
+
+, pero esto no cambia los valores antiguos, y el nuevo valor tiene que ser inmediatamente utilizado o se disipará de nuevo. Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada _variable_.
+
+```
+var atrapado = 5 * 5;
 ```
 
 La palabra especial (palabra clave o keyword) _var_ indica que esta frase va a definir una variable. Es seguida por el nombre de la variable y, si queremos dar de inmediato un valor, por un operador de = y una expresión.

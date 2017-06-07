@@ -92,6 +92,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 
 | # | Tipo | Tópico           
 | - | ----- | -----
+| 01 | lectura | Data, valores y tipos de datos
 | 01 | video | ¿Qué son variables?
 | 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
 | 03 | video | Nombrando variables
