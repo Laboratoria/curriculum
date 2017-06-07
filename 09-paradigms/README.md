@@ -1,14 +1,15 @@
 # 09. Paradigmas de programación
 
-Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
-de pensar en cómo se organiza un programa basado en una serie de principios, los
-cuales resultan en estilos muy distintos y lenguages muy diversos.
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
+diferentes de pensar en cómo se organiza un programa basado en una serie de
+principios, los cuales resultan en estilos muy distintos y lenguages muy
+diversos.
 
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
 elementos propios de lenguages funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
-funcional, si no que en su dinamismo y rareza, **JavaScript nos permite programar
-de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
+funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
+programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
 _por procedimientos_, ...**
 
 Como desarrollador **Full Stack JS** es esencial entender los distintos
@@ -40,7 +41,7 @@ el paradigma funcional.
 * Las diferencias entre **constructores** y **factories**
 * Cómo implementar **herencia prototipal**
 * Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
+* A usar **composición** como alternativa a la _herencia_
 * A **trabajar sobre una base de código existente**
 * A trabajar haciendo **pair programming**
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
@@ -75,18 +76,13 @@ Participar en el proyecto involucra lo siguiente:
 El juego está inspirado en el ejemplo de
 [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
 
-
-***
-
-Evaluación previa!!!
-
 ***
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
+### Lesson 1: [Presentación del curso](#)
 
-1h (presencial)
+30min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
@@ -96,21 +92,23 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+|   1   | charla     |   30min  | xxx
 
 ### Lesson 2: [Entorno y metodología de trabajo](#)
 
-1h (presencial)
+1.5h (presencial)
 
-Durante esta sesión nos aseguraremos que todas tienen git instalado, acceso al
-repo, su propio fork, ...
+Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
+acceso al repo, su propio fork, ...
 
 #### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   30min  | Entorno: Git + GitHub
-|   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
+|   1   | workshop   |   20min  | Entorno: Git + GitHub
+|   2   | workshop   |   30min  | Identificar tareas, dividir trabajo
+|   3   | workshop   |   20min  | Entorno: Node.js + npm
+|   4   | workshop   |   20min  | Ejemplo: Workshopper (paradigms)
 
 ### Lesson 3: [Introducción a Paradigmas de Programación](#)
 
@@ -296,11 +294,13 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 Cursos similares que sirven como referencia:
 
-* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion), José Dimas Luján Castillo, video2brain, 8 Mar 2017
+* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion),
+  José Dimas Luján Castillo, video2brain, 8 Mar 2017
 * [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015),
   Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
-* [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html), Kurt Nørmarks, Aalborg University, Dinamarca.
+* [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html),
+  Kurt Nørmarks, Aalborg University, Dinamarca.
 
 ## Referencias
 
@@ -329,7 +329,8 @@ Videos:
 * [Prototypal Inheritance](https://frontendmasters.com/courses/javascript-jquery-dom/prototypal-inheritance/),
   `8:52`, Justin Meyer, [Frontend Masters](https://frontendmasters.com/)
 * Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
-  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q), 2016
+  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  2016
 * [Prototypes in JavaScript - FunFunFunction #16](https://www.youtube.com/watch?v=riDVvXZ_Kb4),
   `11:55`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
   25 Jan 2016
@@ -340,7 +341,9 @@ Videos:
   `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
   8 Mar 2017
 * [Learning Functional Programming with JavaScript- JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY),
-  `29:56`, Anjana Vakil, [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA) 2016
+  `29:56`, Anjana Vakil,
+  [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
+  2016
 
 Otros recursos:
 
@@ -359,8 +362,8 @@ Otros recursos:
 #### Jueves 15 de Junio
 
 * Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
-  1h (presencial)
-* Lección 2: [Entorno y metodología de trabajo](#) 1h (presencial)
+  30min (presencial)
+* Lección 2: [Entorno y metodología de trabajo](#) 1.5h (presencial)
 * Lección 3: [Introducción a Paradigmas de Programación](#)
   1h (self-paced)
 
