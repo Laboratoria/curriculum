@@ -31,7 +31,7 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
 ## Syllabus
-### Lección 00: [Growth Mindset](01-growth-mindset)
+### Lección 00: [Growth Mindset](00-growth-mindset)
 **_10min (self-paced)_**
 
 Antes de partir es importante que revises lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo estos hallazgos dictan la metodología de enseñanza de Laboratoria.
@@ -43,7 +43,7 @@ Antes de partir es importante que revises lo que la ciencia nos dice sobre el pr
 | 03 | video | Cómo se aprende en Laboratoria  
 | 04 | lectura | Compromiso
 
-### Lección 01: [Sobre la programación y la web](02-web-development-process)
+### Lección 01: [Sobre la programación y la web](01-web-development-process)
 **_35min (self-paced)_**
 
 Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
@@ -73,7 +73,7 @@ Utiliza lo que has aprendido para crear tu primera página web.
 | 05 | reto | Debugging un programa: encuentra el error y arreglalo
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 03: [Tu ambiente de desarrollo: Git & CLI](02-your-first-website)
+### Lección 03: [Tu ambiente de desarrollo: Git & CLI](03-your-first-website)
 **_30min (self-paced)_**
 
 Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás descargar un par de programas y aprender a usarlos.
@@ -85,7 +85,7 @@ Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitar
 | 03 | video | JavaScript en la línea de comandos
 | 04 | video | `Git` & `GitHub`
 
-### Lección 04: [Variables y Tipos de Datos](03-variables-and-data-types)
+### Lección 04: [Variables y Tipos de Datos](04-variables-and-data-types)
 **_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
@@ -99,7 +99,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | 05 | video | Valores y tipos de datos
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 05: [Strings & Numbers](04-strings-and-numbers)
+### Lección 05: [Strings & Numbers](05-strings-and-numbers)
 **_40min (self-paced)_**
 
 Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
@@ -116,7 +116,7 @@ Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
 | 08 | reto | Dada una temperatura en °C, devuelve el valor en °F
 | 09 | quiz | Prueba tu conocimiento
 
-### Lección 06: [Otros tipos de datos y operadores](05-other-data-types)
+### Lección 06: [Otros tipos de datos y operadores](06-other-data-types)
 **_30min (self-paced)_**
 
 Continúa aprendiendo otros tipos de datos clave para la creación de programas.
@@ -130,7 +130,7 @@ Continúa aprendiendo otros tipos de datos clave para la creación de programas.
 | 05 | video | Type coercion
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 07: [Ejercicios guiados](06-instructor-led-projects-strings-numbers)
+### Lección 07: [Ejercicios guiados](07-instructor-led-projects-strings-numbers)
 **_45min (self-paced)_**
 
 Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
@@ -143,7 +143,7 @@ Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos 
 | 04 | video | Enunciado: Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
 | 05 | video | Solucionario
 
-### Lección 08: [Estructuras Condicionales](07-conditional-structures)
+### Lección 08: [Estructuras Condicionales](08-conditional-structures)
 **_30min (self-paced)_**
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y por lo tanto darle flexibilidad a lo que hace tu producto.
@@ -157,7 +157,7 @@ Explora una de las formas más comunes de controlar el flujo de tu programa, y p
 | 05 | video | `switch`
 | 06 | quiz | Prueba tu conocimiento
 
-### Lección 09: [Estructuras Repetitivas](07-loops)
+### Lección 09: [Estructuras Repetitivas](09-loops)
 **_40min (self-paced)_**
 
 Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY: Don't Repeat Yourself.
@@ -173,7 +173,7 @@ Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY:
 | 07 | reto | Imprime los caracteres de un `string`
 | 08 | quiz | Prueba tu conocimiento
 
-### Lección 10: [Creando código reusable con Funciones](07-loops)
+### Lección 10: [Creando código reusable con Funciones](10-loops)
 **_50min (self-paced)_**
 
 Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
@@ -191,7 +191,7 @@ Funciones es un tema que todo desarrollador en JavaScript debe conocer a profund
 | 09 | video | Clean code: indentación, cammelCase, semantica y comentarios
 | 10 | quiz | Prueba tu conocimiento
 
-### Lección 11: [Ejercicios guiados](10-instructor-led-projects-functions)
+### Lección 11: [Ejercicios guiados](11-instructor-led-projects-functions)
 **_45min (self-paced)_**
 
 Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
@@ -204,7 +204,7 @@ Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
 | 04 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
 | 05 | video | Solucionario
 
-### Lección 12: [Problem Sets](11-problem-sets-functions)
+### Lección 12: [Problem Sets](12-problem-sets-functions)
 **_3-6hrs (self-paced)_**
 
 Resuelve los siguiente problemas en Replit:
@@ -224,7 +224,7 @@ Resuelve los siguiente problemas en Replit:
 14. chessBoard
 15. piramidConsole
 
-### Lección 13: [Objects & Arrays](12-intro-objects-and-arrays)
+### Lección 13: [Objects & Arrays](13-intro-objects-and-arrays)
 **_60min (self-paced)_**
 
 Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras de datos más complejas. Llegó la hora de conocer a los `objects` y los `arrays`. ¡Con ellos vas a poder crear programas más interesantes!
@@ -244,7 +244,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 11 | video | Combinando arreglos con objetos
 | 12 | reto | Manipula un arreglo de objetos que representan tus amigos
 
-### Lección 14: [Ejercicios guiados ](13-instructor-led-projects-objects-and-arrays)
+### Lección 14: [Ejercicios guiados ](14-instructor-led-projects-objects-and-arrays)
 **_45min (self-paced)_**
 
 Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
@@ -261,7 +261,7 @@ Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos 
 | 08 | video | Enunciado: Crea dos funciones que busquen un elemento en un array: linear search and binary search
 | 09 | video | Solucionario
 
-### Lección 15: [Problem Sets](14-problem-sets-objects-and-arrays)
+### Lección 15: [Problem Sets](15-problem-sets-objects-and-arrays)
 **_3-6hrs (self-paced)_**
 
 Resuelve los siguiente problemas en Replit:
@@ -281,7 +281,7 @@ Resuelve los siguiente problemas en Replit:
 14. isHacker
 15. isUnicorn
 
-### Lección 16: [Creating Cool Products](17-cool-products)
+### Lección 16: [Creating Cool Products](16-cool-products)
 **_3-6hrs_**
 
 Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos.
