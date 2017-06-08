@@ -85,7 +85,7 @@ Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitar
 | 03 | video | JavaScript en la línea de comandos
 | 04 | video | `Git` & `GitHub`
 
-### Lección 04: [Variables y Tipos de Datos](04-variables-and-data-types.md)
+### Lección 04: [Tipos de Datos y Variables](04-variables-and-data-types.md)
 **_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
