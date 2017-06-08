@@ -52,7 +52,7 @@ Para poder llevar adelante este curso sin frustración, es recomendable los sigu
 
 ## Producto
 
-Convertir video juego del curso 10-funcional en una single app con las siguientes extensiones:
+Convertir video juego del curso [10-funcional](#) en una single app con las siguientes extensiones:
 * Texto de introducción al juego
 * High-scores
 * ...
@@ -63,9 +63,9 @@ Convertir video juego del curso 10-funcional en una single app con las siguiente
 
 1h (self-paced)
 
-Antes de empezar necesitamos familiarizarnos con dos herramientas: Yarn y Webpack.
+Antes de empezar necesitamos familiarizarnos con dos herramientas: `yarn` y `webpack`.
 
-En esta lección aprenderás, qué beneficios provee yarn sobre npm, para qué sirve webpack y revisaremos algunos `loaders` y `plugins` populares de webpack.
+En esta lección aprenderás qué beneficios provee `yarn` sobre `npm`, para qué sirve `webpack` y revisaremos algunos de sus `loaders` y `plugins` más populares.
 
 #### Lesson plan
 
@@ -79,8 +79,8 @@ En esta lección aprenderás, qué beneficios provee yarn sobre npm, para qué s
 
 Para empezar a usar react, necesitamos familiarizarnos con la nueva sintaxis de Javascript.
 En esta lección aprenderás:
-* Qué es el estándard ECMAScript y como evoluciona
-* Qué es es6 y que mejoras propone sobre su antecesor (es5), así como sus desventajas
+* Qué es el estándard ECMAScript y como evoluciona.
+* Qué es es6 y que mejoras propone sobre su antecesor (es5), así como sus desventajas.
 * Cómo usar yarn, babel-loader y webpack para convertir codigo es6 en es5 y así superar las desventajas antes expuestas
 * Un tour detallado sobre las extensiones de sintaxis que incorpora es6 que te alegrarán la vida
 
@@ -106,9 +106,9 @@ Para afianzar los conocimientos introducidos en la lección anterior, ahora apli
 
 1h (presencial)
 
-React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su  `templating language` por defecto.
+React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
-En esta lección aprenderemos qué es JSX, que beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con webpack. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas q nos permitan.
+En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con webpack. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas q nos permitan debuggear nuestro código.
 
 #### Lesson plan
 
@@ -120,7 +120,9 @@ En esta lección aprenderemos qué es JSX, que beneficios introduce, por qué es
 
 2h (self-paced)
 
-Es hora de convertir a tu proyecto en un proyecto React! En esta lección nos ocuparemos de transformar todo tu html a JSX y crearemos la `single-page app` que contendrá a tu juego.
+Es hora de convertir a tu proyecto en un proyecto React!
+
+En esta lección nos ocuparemos de transformar todo tu html a JSX y crearemos la `single-page app` que contendrá a tu juego.
 
 #### Lesson plan
 
@@ -132,7 +134,7 @@ Es hora de convertir a tu proyecto en un proyecto React! En esta lección nos oc
 
 1h (presencial)
 
-React define sólo 7 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
+React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
 
 Además veremos cómo pasar parámetros a los componentes a través de sus `props`, para hacerlos reutilizables.
 
@@ -148,7 +150,7 @@ Además veremos cómo pasar parámetros a los componentes a través de sus `prop
 
 Ahora vamos a hacer que tu aplicación sea mas interesante. En esta lección diseñarás al detalle la interfaz (UI) de tu app y maquetarás cada sección de tu página con componentes de react.
 
-Luego crearemos mocks funcionales usando props, para que tu aplicación quede preparada para la próxima lección: estado!
+Luego crearemos mocks funcionales usando props, para que tu aplicación quede preparada para la próxima lección: manejo de estados!
 
 #### Lesson plan
 
@@ -164,7 +166,7 @@ Luego crearemos mocks funcionales usando props, para que tu aplicación quede pr
 
 > En el día a día del profesional del software, no se limita a idear y crear proyectos nuevos, sino que en realidad la mayoría de nuestro tiempo se va corrigiendo errores o creando extensiones para aplicaciones existentes, que van creciendo en complejidad a medida que pasa el tiempo y van evolucionando. Es ahí donde react hace que nuestra vida no sea un infierno.
 
-En esta lección vamos a darle protagonismo al estado de la aplicación. Veremos qué mecanismos nos brinda react para llevar registro de los cambios de estado que la aplicación manifiesta, a medida que el usuario va interactuando con la aplicación. Además veremos cómo se relacionan estos cambios de estado con el ciclo de vida y renderizado de nuestros componentes.
+En esta lección vamos a darle protagonismo al estado de la aplicación. Veremos qué mecanismos nos brinda react para llevar registro de los cambios de estado que la aplicación manifiesta, a medida que el usuario va interactuando con ella. Además veremos cómo se relacionan estos cambios de estado con el ciclo de vida y renderizado de nuestros componentes.
 
 
 #### Lesson plan
@@ -187,11 +189,11 @@ En esta lección vamos a empezar a convertir a tu aplicación, en una aplicació
 
 > Cuando las aplicaciones son pequeñas y los componentes comparten poca información, usar componentes con estados y acciones propias es una alternativa rápida y válida. ¿Pero qué ocurre a medida que la aplicación se va complejizando y cuando, por ejemplo, el usuario hace click en un botón se desencadenan reacciónes alrededor de toda la página? ¿Cómo mantenemos sincronizado todo eso?
 
-Hasta aquí podemos decir que React es una muy buena herramienta, pero realmente no tiene ningún valor diferencial con otras que hacen algo parecido.
+Hasta aquí podemos decir que React es una muy buena herramienta, pero realmente no ofrece ningún valor diferencial en relación a otras que hacen algo parecido.
 
-En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos un conjunto de herramientas único: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
+En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos, un conjunto de herramientas **único**: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
 
-Veremos como diseñar nuestras aplicaciónes orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones.
+Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones.
 
 #### Lesson plan
 
