@@ -85,20 +85,19 @@ Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitar
 | 03 | video | JavaScript en la línea de comandos
 | 04 | video | `Git` & `GitHub`
 
-### Lección 04: [Tipos de Datos y Variables](04-variables-and-data-types.md)
+### Lección 04: [Tipos de Datos y Variables](04-variables-and-data-types)
 **_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | lectura | Data, valores y tipos de datos
-| 01 | video | ¿Qué son variables?
-| 02 | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
-| 03 | video | Nombrando variables
-| 04 | reto | Crea nuevas variables y modifica su valor
-| 05 | video | Valores y tipos de datos
-| 06 | quiz | Prueba tu conocimiento
+| 01 | lectura | Valores y tipos de datos
+| 02a | lectura | ¿Qué son variables?
+| 02b | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
+| 02c | lectura | Nombrando variables
+| 03 | reto | Crea nuevas variables y modifica su valor
+| 04 | quiz | Prueba tu conocimiento
 
 ### Lección 05: [Strings & Numbers](05-strings-and-numbers)
 **_40min (self-paced)_**
