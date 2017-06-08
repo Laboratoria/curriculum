@@ -1,11 +1,11 @@
 # Valores, tipos de datos y operadores
 ## Objetivos de Aprendizaje
-- Conocer _data types_ (tipos de datos) en JavaScript
-- ¿Qué son _variables_ y para qué sirven?
-- Cómo nombrar _variables_
+- Entender qué se entiende por _values_ (valores) en JavaScript
+- Conocer los diferentes _data types_ (tipos de datos) en JavaScript
+- Aprender cómo combinar y transformar valores con operadores en JavaScript
 
 ***
-_El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en Español disponible por [hectorip](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)_
+_El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html) disponible gracias a [hectorip](http://hectorip.github.io)_
 ***
 
 ## Vivimos en un mundo de Data
@@ -14,9 +14,9 @@ En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos d
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como [predecir si una mujer está embarazada, según su historial de compra en un hipermercado](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4).
 
 ## Tipos de datos
-Las computadoras son un gran recurso para trabajar con grandes cantidades de data. De hecho, en el mundo de las computadoras solo existe data. Con las computadores podemos leer data, modificar data y crear nueva data. Toda la data es almacenada como secuencias largas de los famosos _bits_ - esas secuencias de unos y ceros que viste en Matrix.  
+Las computadoras son un gran recurso para trabajar con grandes cantidades de datos. De hecho, en el mundo de las computadoras solo existen datos. Con las computadores podemos leer data, modificar data y crear nueva data. Toda la data es almacenada como secuencias largas de los famosos _bits_ - esas secuencias de unos y ceros que viste en Matrix.  
 
-Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en pedazos que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _values_ (valores en Español). Cada _value_ tiene un _data type_ (tipo de dato) que determina su rol. En JavaScript existen cinco (5) tipos de datos primitivos:
+Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en "pedazos" que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _**values**_ (valores en español). Cada _value_ tiene un _data type_ (tipo de dato) que determina su rol. En JavaScript existen cinco (5) tipos de datos primitivos:
 1. `numbers` (números)
 2. `strings` (cadenas)
 3. `booleans` (booleanos)
@@ -102,7 +102,7 @@ También existe un operador aritmético más, que podrías no reconocer inmediat
 ```
 
 ## 2. Strings
-El siguiente _data type_ básico son los `strings`. Es el tipo de dato que utilzamos para representar texto. Son declaradas al poner el contenido entre comillas.
+El siguiente _data type_ básico son los `strings`. Es el tipo de dato que utilzamos para representar texto. Se declaran al poner el contenido entre comillas.
 
 Abre tu consola y escribe lo siguiente:
 ```JavaScript
@@ -117,7 +117,7 @@ Abre tu consola y escribe lo siguiente:
 
 ```
 
-Tanto las comillas simples como las dobles pueden ser usadas para declarar `strings` mientras coincidan al principio y al final. Casi cualquier cosa puede colocarse entre comillas, y JavaScript creará un _string value_ de esa cosa.
+Tanto las comillas simples como las dobles pueden ser usadas para declarar `strings`, siempre y cuando coincidan al principio y al final. Casi cualquier cosa puede colocarse entre comillas, y JavaScript creará un _string value_ de esa cosa.
 
 Existen un par de caracteres en los _data types_ `strings` que tienen un comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se encuentra dentro de un texto entre comillas, indica que el carácter siguiente tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea. Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe los siguientes textos en tu consola (recurda siempre colocarlos entre comillas, sean simples o dobles).
 
@@ -188,10 +188,10 @@ El operador menos puede usar tanto como operador binario como operador unario.
 // returns > -8
 ```
 
-## Booleans
+## 3. Booleans
 A menudo, necesitarás un valor que simplemente distinga entre dos posibilidades, como "sí" y "no" o "encendido" y "apagado". Para esto, JavaScript tiene un tipo de dato _boolean_, que tiene sólo dos valores: _true_ (verdadero) y _false_ (falso).
 
-### Comparaciones
+### Operadores comparativos
 Realiza esta comparación en tu consola:
 
 ```JavaScript
@@ -253,8 +253,89 @@ Sólo existe un valor en JavaScript que no es igual a sí mismo, y este es NaN, 
 La intención de NaN es representar el resultado de un cálculo sin sentido y como tal, no es igual al resultado de cualquier otro cálculo sin sentido.
 
 ### Operadores Lógicos
+Hay también algunas operaciones que pueden ser aplicadas a los valores `Booleans`. JavaScript soporta tres operadores lógicos: _and_, _or_ y _not_. Estos pueden ser usados para "razonar" con los `Booleans`.
 
-## Material de referencia
+El operador && representa la operación lógica _and_ ("y"). Es un operador binario, y su resultado es _true_ (verdadero) sólo si los dos valores dados son verdaderos. El operador || denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero. _Not_ (Negación) es escrito como un símbolo de admiración (!). Es un operador binario que voltea el valor que se le de; !true produce false y !false regresa true.
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)
-- [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en Español por [hectorip](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
+```JavaScript
+true && true
+// returns > true
+
+true && false
+// returns > false
+
+false && false
+// returns > false
+
+true || true
+// returns > true
+
+true || false
+// returns > true
+
+!true
+// returns > false
+
+!false
+// returns > true
+
+```
+
+El último operador lógico del que aprenderás no es unario, ni binario, sino ternario, opera en tres valores. Este es escrito con un símbolo de interrogación y dos puntos, como sigue:
+
+```JavaScript
+true ? 1 : 2
+// returns > 1
+
+false ? 1 : 2
+// returns > 2
+```
+
+Este es llamado el operador condicional (o algunas veces el operador tenario dado que es el único operador de este tipo en el lenguaje). El valor a la izquierda del signo de interrogación "escoge" cuál de los otros dos valores resultará. Cuando es verdadero, el valor central es escogido, y cuando es falso, el valor de la derecha se da como resultado.
+
+## 4. Null y undefined
+Existen dos valores especiales, escritos `null` y `undefined`, que son usados para denotar la ausencia de un valor significativo. Son valores en sí mismos, pero no poseen ninguna información. Muchas operaciones en el lenguaje que no producen un valor con significado (lo verás después) producen `undefined` simplemente porque tienen que producir algún valor.
+
+La diferencia en el significado entre `undefined` y `null` es un accidente del diseño de JavaScript, y no importa la mayoría del tiempo.
+
+### Conversión automática de tipo
+Cuando un operador es aplicado al tipo "incorrecto" de valor, JavaScript convertirá silenciosamente el valor en el tipo de dato que espera, usando un conjunto de reglas que a menudo no son lo que tú quieres o esperas. Esto es llamado _coerción de tipo_. Mira estos ejemplos:
+
+```JavaScript
+8 * null
+// returns > 0
+
+"5" - 1
+// returns > 4
+
+"5" + 1
+// returns > 51
+
+"cinco" * 2
+// returns > NaN
+
+false == 0
+// returns > true
+```
+
+El null en la primera expresión se vuelve 0, y el "5" en la segunda expresión se convierte en 5 (de string a number). Aún así, en la tercera expresión, + intenta hacer concatenación de strings antes de una suma numérica, así que el 1 es convertido en "1" (de number a string). Cuando algo que no se corresponde con un número de manera obvia (como "cinco" o undefined) es convertido a un número, el valor resultante es NaN. Las siguientes operaciones aritméticas sobre NaN seguirán produciendo NaN. Por eso, en la cuarta expresión, "cinco" * 2 retorna NaN.
+
+En el caso de la quinta expresión, cuando comparamos valores que tienen tipos de dato diferentes, JavaScript usa un complicado y confuso conjunto de reglas para determinar qué hacer. En la mayoría de los casos, sólo trata de convertir uno de los valores al tipo de dato del otro valor. Sin embargo, cuando null o undefined están en cualquier lado de la operación, resulta verdadero sólo en el caso de que los dos lados sean null o undefined.
+
+Siguiendo con la quinta expresión, las reglas para convertir cadenas y números a Booleanos dicen que 0, NaN y la cadena vacía ("") cuentan como _false_, mientras que todos los demás valores cuentan como _true_. Debido a esto, expresiones como 0 == false y "" == false también son verdaderas.
+
+Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Así que "" === false es falso como se espera.
+
+```JavaScript
+false == 0
+// returns > true
+
+"" == 0
+// returns > true
+
+false === 0
+// returns > false
+
+"" === 0
+// returns > false
+```
