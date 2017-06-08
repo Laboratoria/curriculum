@@ -322,9 +322,7 @@ El null en la primera expresión se vuelve 0, y el "5" en la segunda expresión 
 
 En el caso de la quinta expresión, cuando comparamos valores que tienen tipos de dato diferentes, JavaScript usa un complicado y confuso conjunto de reglas para determinar qué hacer. En la mayoría de los casos, sólo trata de convertir uno de los valores al tipo de dato del otro valor. Sin embargo, cuando null o undefined están en cualquier lado de la operación, resulta verdadero sólo en el caso de que los dos lados sean null o undefined.
 
-Siguiendo con la quinta expresión, las reglas para convertir cadenas y números a Booleanos dicen que 0, NaN y la cadena vacía ("") cuentan como _false_, mientras que todos los demás valores cuentan como _true_. Debido a esto, expresiones como 0 == false y "" == false también son verdaderas.
-
-Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Así que "" === false es falso como se espera.
+Siguiendo con la quinta expresión, las reglas para convertir cadenas y números a Booleanos dicen que 0, NaN y la cadena vacía ("") cuentan como _false_, mientras que todos los demás valores cuentan como _true_. Debido a esto, las siguientes expresiones retornan _true_:
 
 ```JavaScript
 false == 0
@@ -333,6 +331,11 @@ false == 0
 "" == 0
 // returns > true
 
+```
+
+Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Por lo tanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el resutado contrario: _false_
+
+```JavaScript
 false === 0
 // returns > false
 
