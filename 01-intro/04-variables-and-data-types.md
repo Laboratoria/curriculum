@@ -5,7 +5,7 @@
 - Cómo nombrar _variables_
 
 ***
-_El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014_
+_El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 1 y 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en Español: http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html ._
 ***
 
 ## Vivimos en un mundo de Data
@@ -17,7 +17,7 @@ La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que
 
 Las computadoras son un gran recurso para trabajar con grandes cantidades de data. De hecho, en el mundo de las computadoras solo existe data. Con las computadores podemos leer data, modificar data y crear nueva data. Toda la data es almacenada como secuencias largas de los famosos _bits_ - esas secuencias de unos y ceros que viste en Matrix.  
 
-Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en pedazos que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _values_ (valores en Español). Cada _value_ tiene un "tipo" que determina su rol. En JavaScript existen seis (5) tipos de datos primitivos:
+Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en pedazos que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _values_ (valores en Español). Cada _value_ tiene un "tipo" que determina su rol. En JavaScript existen cinco (5) tipos de datos primitivos:
 1. `numbers` (números)
 2. `strings` (cadenas)
 3. `booleans` (booleanos)
@@ -27,28 +27,82 @@ Las computadoras manejan billones de bits. Para hacer más fácil el manejo de g
 La data y los tipos de datos forman las bases de cualquier lenguaje de programación. Nos permiten organizar información y determinar cómo correr el programa. En esta lección aprenderás a definir y manipular estos tipos de datos.
 
 ## Numbers
-Los valores de tipo `number` son, sin sorpresa alguna, valores numéricos. En un programa en JavaScript, se escriben de la siguiente forma:
+Los _values_ de tipo `number` son, sin sorpresa alguna, valores numéricos. Es decir, pedazos de data que representan información numérica se representan con el tipo `number`. Esto incluye números positivos, negativos, enteros y decimales. Además,el tipo de data `number` tiene tres valores simbólicos: +Infinity, -Infinity y NaN (no-un-número).
 
-<html>
-   <head>
-     <link rel="stylesheet" href="bower_components/xterm.js/dist/xterm.css" />
-     <script src="bower_components/xterm.js/dist/xterm.js"></script>
-   </head>
-   <body>
-     <div id="terminal"></div>
-     <script>
-       var term = new Terminal();
-       term.open(document.getElementById('#terminal'));
-       term.write('Hello from \033[1;3;31mxterm.js\033[0m $ ')
-     </script>
-   </body>
- </html>
+Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click con el botón derecho del mouse) y escribe los siguientes números. Al hacerlo, la consola te lo regresa el número de vuelta.
 
+```JavaScript
 13
-Usa eso en un programa y causará que el patrón de bits para el número 13 exista dentro de la memoria de la computadora.
+// returns > 13
 
-JavaScript usa una cantidad fija de bits, 64, para guardar un valor del tipo número. Existe un límite en la cantidad de patrones que se pueden hacer con 64 bits, lo que significa que la cantidad de números que puedes representar también es limitada. Para N dígitos decimales, la cantidad de números que pueden ser representados es 10N. Similarmente, dados 64 dígitos binarios, puedes representar 264 números diferentes, que es cerca de 18 cuatrillones (un 18 con 18 ceros después). Eso es mucho.
+-9.81
+// returns > -9.81
 
-La memoria de la computadora solía ser mucho más pequeña, y la gente tendía a usar grupos de 8 ó 16 bits para representar sus números. Era fácil desbordar accidentalmente números tan pequeños: terminar con un número que no pudiera ser almacenado en el número dado de bits. Hoy, incluso las computadoras personales tienen mucha memoria, así que eres libre de usar grupos de 64 bits, lo que significa que necesitas preocuparte del desbordamiento sólo cuando estés tratando con números verdaderamente astronómicos.
+```
 
-No todos los número enteros debajo de 18 cuatrillones caben en un número de JavaScript. Esos bits también guardan números negativos, así que un bit indica el signo del número. Un problema mayor es que los números no enteros también deben ser representados. Para hacer esto, algunos de los bits son usados para guardar la posición del punto decimal. El número entero máximo real que puede ser guardado está más cerca del rango de los 9 trillones (15 ceros), que aún es satisfactoriamente grande.
+También puedes hacer uso de la notación científica para números muy grandes o muy pequeños, añadiendo una "e" de "exponente", seguido por el exponente del número:
+
+```JavaScript
+5e10
+// returns > 50000000000
+
+-2.998e8
+// returns > -299800000
+
+```
+
+### Aritmética
+Lo principal que se hace con los números es aritmética. Sigamos explorando el comportamiento del tipo de dato `numbers` en tu consola. Escribe el siguiente ejemplo en tu consola y confirma que tienes el mismo resultado:
+
+
+```JavaScript
+100 + 4 * 11
+// returns > 144
+```
+
+Los símbolos + y * son llamados _operators_ (operadores). El primero representa la suma y el segundo la multiplicación. Al poner un operador entre dos valores, se aplicará la operación a esos valores y producirá un nuevo valor. Como ves, la multiplicación ocurre primero. Pero como en matemáticas, puedes cambiar esto encerrando en paréntesis la suma.
+
+```JavaScript
+(100 + 4) * 11
+// returns > 1144
+```
+
+Para la resta existe el operador -, y la división se puede hacer con el operador /. Veamos más ejemplos (recurda hacerlos en tu consola también!)
+
+```JavaScript
+12345 / 250
+// returns > 49.38
+
+1234 + 57 * 3 - 31 / 4
+// returns > 1397.25
+
+100 / 0
+// returns > Infinity
+
+100 / -0
+// returns > -Infinity
+
+1000 * Infinity
+// returns > Infinity
+
+0/0
+// returns > NaN
+
+Infinity - Infinity
+// returns > NaN
+```
+
+También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo % es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100*3 + 14 = 314), y 144 % 12 da 0 (porque 12*12 + 0 = 144). Verás a menudo este operador referido como _modulo_, aunque técnicamente residuo es más preciso.
+
+```JavaScript
+5%3
+// returns > 2
+
+7%2
+// returns > 1
+```
+
+## Material de referencia
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)
+- [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en Español por [hectorip](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
