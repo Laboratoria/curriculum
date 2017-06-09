@@ -1,4 +1,4 @@
-# 12. Redux Deep Dive
+# 13. Redux Deep Dive
 
 ...
 
