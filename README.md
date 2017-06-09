@@ -34,7 +34,7 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo y
+el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo, **no** dominan el idioma ingles y
 dedican tiempo todos los días, mientras que los _cursos_ de _educación continua_
 están dirigidos a un público que trabaja, y por lo tanto tiene mucho menos
 disponibilidad de tiempo (aprox. 7h por semana).
