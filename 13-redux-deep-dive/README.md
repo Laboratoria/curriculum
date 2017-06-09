@@ -1,4 +1,4 @@
-# 12. React Deep Dive
+# 12. Redux Deep Dive
 
 ...
 
@@ -12,12 +12,6 @@ Qué conocimientos previos se necesitan?
 
 ## Aprenderás
 
-* React Router
-* Redux
-* Jest
-* Enzyme
-* Other renderers: D3, Native, ...
-* Fiber?
 
 ## Detalles logísticos
 
