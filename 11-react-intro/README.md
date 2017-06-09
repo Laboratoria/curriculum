@@ -1,26 +1,20 @@
 # 11. Intro to React
 
-**React** es una tecnología realmente revolucionaria, que no sólo nos permite
-encapsular nuestro código en lindos componentes, si no que representa un cambio
-de paradigma que va mucho más allá del navegador o incluso la web. **React** es
-una forma de pensar y construir interfaces, y no está ilimitado a una sóla
-plataforma; a través de la abstracción de los renderers podemos escribir
-interfaces nativas para web, mobile, desktop, tv, ...
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite crear interfaces a través de lindos componentes, si no que representa un cambio de paradigma que va mucho más allá del navegador o incluso la web.
 
-> "Someone is going to unify these three different syntaxes and write a language
-that just addresses the web-platform directly and it’s going to be insanely
-popular."
-- Jeremy Ashkenas, “Rise of the transpilers”
+A medida que la web han ido evolucionando y hemos pasado de páginas estáticas a aplicaciones web cada vez más **interactivas y dinámicas**, sumado eso a la aparición de los **clientes móbiles**, ha sido necesaria la creación de nuevas estrategias y herramientas, que nos permitan lidiar con esta complejidad creciente en el desarrollo de interfaces, de una manera **ordenada**, **uniforme** y **sostenible**.
 
-Esto es React!!!
+**React** ha representa una auténtica revolución, no sólo por la **practicidad** y **simplicidad** de su enfoque, sino también porque nos permite usar **una misma tecnología** para desarrollar interfaces, no importa si es una página web estática, una single-page app, una aplicación de escritorio o una aplicación móvil.
 
 En este curso continuarás con el video juego que construimos en el curso
 anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
 funcionalidad como "high scores", ...
 
+**Tags**: `react`, componentes, `ui`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
+
 ## Público objetivo
 
-Este curso está dirigido a personas con conocimientos previos de programación y desarrollo web, que quieren aprender nuevas herramientas que les permitan desarrollar proyectos web de una manera más agil, modular y sostenible en el tiempo.
+Este curso está dirigido a personas con conocimientos previos de **programación y desarrollo web**, que quieren aprender nuevas herramientas que les permitan desarrollar interfaces web de una manera más **ágil**, **modular** y **sostenible en el tiempo**.
 
 ## Requerimientos previos
 
@@ -28,21 +22,22 @@ Para poder llevar adelante este curso sin frustración, es recomendable los sigu
 * Manejo de línea de comandos y git
 * Javascript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
-* Conceptos básicos de diseño de software e interfaces: reusabilidad, modularización, encapsulamiento, composición, MVC, mocking...
 
 ## Aprenderás
 
-* ES6: Utiliza las últimas especificaciones y extensiones de javascript (es6) de manera "universal", a través de la trasnpilación y el uso de polyfills. Herramientas: yarn, webpack, babel.
-* JSX: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces. Herramientas: webpack, react.
-* React:
-  - Fundamentos:
-    - Virtual DOM
-    - One-way data binding
-    - Learn once, write anywhere
-  - Componentes y su ciclo de vida.
-  - Definición de propiedades (`props`) para los componentes y sus tipos.
-  - Manejo de estados (`state`) por componente.
-  - Componentes sin estado (`stateless`) y estado global.
+* Fundamentos de **React**:
+  - Virtual DOM
+  - One-way data binding
+  - Learn once, write anywhere
+* Componentes `stateless` (sin estado)
+* **ES2015**: Utiliza las últimas especificaciones y extensiones de javascript (es2015) de manera "universal", a través de la transpilación y el uso de polyfills. Herramientas: `yarn`, `webpack`, `babel`.
+* **JSX**: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces. Herramientas: `webpack`, `react`.
+* Definición de propiedades (`props`) para los componentes y sus tipos.
+* Manejo de `state` global
+* Componentes `statefull`:
+  - Su ciclo de vida.
+  - Manejo de `state` interno.
+  - Referencias entre componentes (`refs`)
 
 ## Detalles logísticos
 
@@ -55,7 +50,7 @@ Para poder llevar adelante este curso sin frustración, es recomendable los sigu
 Convertir video juego del curso [10-funcional](#) en una single app con las siguientes extensiones:
 * Texto de introducción al juego
 * High-scores
-* ...
+* ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
 
 ## Syllabus
 
