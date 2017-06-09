@@ -1,8 +1,8 @@
 # 11. React
 
-**React** es una tecnología realmente revolucionaria, que no sólo nos permite crear interfaces a través de lindos componentes, sino que representa un cambio de paradigma que va mucho más allá del navegador o incluso la web.
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite crear interfaces a través de lindos componentes, si no que representa un cambio de paradigma que va mucho más allá del navegador o incluso la web.
 
-A medida que la web ha ido evolucionando y hemos pasado de páginas estáticas a aplicaciones web cada vez más **interactivas y dinámicas**, sumado eso a la aparición de los **clientes móbiles**, ha sido necesaria la creación de nuevas estrategias y herramientas, que nos permitan lidiar con esta complejidad creciente en el desarrollo de interfaces, de una manera **ordenada**, **uniforme** y **sostenible**.
+A medida que la web han ido evolucionando y hemos pasado de páginas estáticas a aplicaciones web cada vez más **interactivas y dinámicas**, sumado eso a la aparición de los **clientes móbiles**, ha sido necesaria la creación de nuevas estrategias y herramientas, que nos permitan lidiar con esta complejidad creciente en el desarrollo de interfaces, de una manera **ordenada**, **uniforme** y **sostenible**.
 
 **React** representa una auténtica revolución, no sólo por la **practicidad** y **simplicidad** de su enfoque, sino también porque nos permite usar **una misma tecnología** para desarrollar interfaces, no importa si es una página web estática, una single-page app, una aplicación de escritorio o una aplicación móvil.
 
@@ -10,7 +10,7 @@ En este curso continuarás con el video juego que construimos en el curso
 anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
 funcionalidad como "high scores", ...
 
-***Tags***: `react`, componentes, `ui`, `stateless`, `HOCs`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
+***Tags***: `react`, componentes, `ui`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
 
 ## Público objetivo
 
@@ -22,8 +22,6 @@ Para poder llevar adelante este curso sin frustración, es recomendable los sigu
 * Manejo de línea de comandos y git
 * Javascript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
-
-También debes haber completado el curso [10-funcional](#).
 
 ## Aprenderás
 
