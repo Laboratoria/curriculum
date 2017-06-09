@@ -10,7 +10,7 @@ En este curso continuarás con el video juego que construimos en el curso
 anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
 funcionalidad como "high scores", ...
 
-***Tags***: `react`, componentes, `ui`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
+***Tags***: `react`, componentes, `ui`, `stateless1`, `HOCs`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
 
 ## Público objetivo
 
