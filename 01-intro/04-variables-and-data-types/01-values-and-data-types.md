@@ -9,7 +9,7 @@ _El texto a continuación se basa en gran medida, con ciertos ajustes, en el cap
 ***
 
 ## Vivimos en un mundo de Data
-En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está lleno de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
+En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
 
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como [predecir si una mujer está embarazada, según su historial de compra en un hipermercado](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4).
 
@@ -255,7 +255,7 @@ La intención de NaN es representar el resultado de un cálculo sin sentido y co
 ### Operadores Lógicos
 Hay también algunas operaciones que pueden ser aplicadas a los valores `Booleans`. JavaScript soporta tres operadores lógicos: _and_, _or_ y _not_. Estos pueden ser usados para "razonar" con los `Booleans`.
 
-El operador && representa la operación lógica _and_ ("y"). Es un operador binario, y su resultado es _true_ (verdadero) sólo si los dos valores dados son verdaderos. El operador || denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero. _Not_ (Negación) es escrito como un símbolo de admiración (!). Es un operador binario que voltea el valor que se le de; !true produce false y !false regresa true.
+El operador `&&` representa la operación lógica _and_ ("y"). Es un operador binario, y su resultado es _true_ (verdadero) sólo si los dos valores dados son verdaderos. El operador `||` denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero. _Not_ (Negación) es escrito como un símbolo de admiración `!`. Es un operador binario que voltea el valor que se le de; !true produce false y !false produce true. Veamos unos ejemplos:
 
 ```JavaScript
 true && true
