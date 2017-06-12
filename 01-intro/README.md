@@ -93,11 +93,10 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 01 | lectura | Valores y tipos de datos
-| 02a | lectura | ¿Qué son variables?
-| 02b | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
-| 02c | lectura | Nombrando variables
-| 03 | reto | Crea nuevas variables y modifica su valor
-| 04 | quiz | Prueba tu conocimiento
+| 02 | lectura | Variables
+| 03 | video | Practicando con variables y tipos de datos
+| 04 | reto | Crea nuevas variables y modifica su valor
+| 05 | quiz | Prueba tu conocimiento
 
 ### Lección 05: [Strings & Numbers](05-strings-and-numbers)
 **_40min (self-paced)_**
