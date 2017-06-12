@@ -313,13 +313,15 @@ Capítulos de libros:
 Blog posts:
 
 * [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/),
-  Yevgeniy Brikman, Apr 09, 2014
+  Yevgeniy Brikman, Apr 09 2014
 * [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257),
   Eric Elliott en Medium, Feb 20 2017
 * [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/),
   Beth Allchurch, 29 of June, 2016
 * [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming),
   Mary Rose Cook
+* [Introducción a programación funcional en JavaScript — Parte 1](https://medium.com/laboratoria-how-to/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-1-e0b1d0b2142e),
+  Lupo Montero en Medium, Feb 15 2017
 
 Videos:
 
