@@ -68,7 +68,6 @@ Muchas veces se explica el concepto de variables con la analogía de una caja: l
 
 
 ## Nombrando Variables
-
 En JavaScript, existen ciertas reglas para nombrar variables. Los nombres de variables:
 
 1. **No** pueden incluir espacios
@@ -97,3 +96,65 @@ Veamos algunos ejemplos:
 | full_price | no usa camel case | fullPrice
 | x | no es descriptivo | age
 | altura | en español | height
+
+## Incrementar y Disminuir
+Como programadora, muchas veces tendrás que incrementar o disminuir el valor de una variable numérica por un cierto valor. Por ejemplo, puede que tengas la variable `score` que registra el puntaje en un juego de fútbol. Cada vez que alguien anote un gol, la variable `score` debe aumentar en 1. Esto lo puedes hacer de la siguiente manera:
+
+```JavaScript
+var score = 0;
+score = score + 1;
+score;
+// returns > 1
+```
+
+Esto mismo se puede escribir de una manera más sencilla:
+
+```JavaScript
+var score = 0;
+score++;
+score;
+// returns > 1
+```
+
+Lo mismo podemos hacer para disminuir el valor de una variable. Por ejemplo, en un video juego puede que tengas una variable llamada `lifePoints` que registra los "puntos de vida" de un jugador. El jugador parte con 100 puntos y cada vez que un enemigo lo golpea, pierde 25 puntos. Cada vez que toma una bebida regenera 10 puntos.
+
+
+```JavaScript
+var lifePoints = 100;
+lifePoints = lifePoints - 25;
+lifePoints
+// returns > 75
+
+lifePoints = lifePoints + 10;
+lifePoints
+// returns > 85
+
+```
+
+Esto se puede escribir de una manera reducida, así:
+
+```JavaScript
+var lifePoints = 100;
+lifePoints -= 25;
+lifePoints
+// returns > 75
+
+lifePoints += 10;
+lifePoints
+// returns > 85
+
+```
+
+Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también `*=` y `/=`:
+
+```JavaScript
+var balloons = 100;
+balloons *= 2;
+balloons
+// returns > 200
+
+var balloons = 100;
+balloons /= 4;
+balloons
+// returns > 25
+```

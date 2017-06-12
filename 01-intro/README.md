@@ -68,8 +68,8 @@ Utiliza lo que has aprendido para crear tu primera página web.
 | - | ----- | -----
 | 01 | video | Descarga un editor de texto
 | 02 | video | Crea el HTML y CSS de tu primera web
-| 03 | video | Agrega interactividad con JS usando `alert()` y `document.write()`
-| 04 | video | Utilizando `console.log` y el Chrome developer tools
+| 03 | video | Agrega interactividad con JS usando `alert()`, `document.write()` y `prompt()`
+| 04 | video | Utilizando `console.log()` y el Chrome developer tools
 | 05 | reto | Debugging un programa: encuentra el error y arreglalo
 | 06 | quiz | Prueba tu conocimiento
 

@@ -296,7 +296,7 @@ Este es llamado el operador condicional (o algunas veces el operador tenario dad
 ## 4. Null y undefined
 Existen dos valores especiales, escritos `null` y `undefined`, que son usados para denotar la ausencia de un valor significativo. Son valores en sí mismos, pero no poseen ninguna información. Muchas operaciones en el lenguaje que no producen un valor con significado (lo verás después) producen `undefined` simplemente porque tienen que producir algún valor.
 
-La diferencia en el significado entre `undefined` y `null` es un accidente del diseño de JavaScript, y no importa la mayoría del tiempo.
+La diferencia en el significado entre `undefined` y `null` es un accidente del diseño de JavaScript, y no importa la mayoría del tiempo.  
 
 ### Conversión automática de tipo
 Cuando un operador es aplicado al tipo "incorrecto" de valor, JavaScript convertirá silenciosamente el valor en el tipo de dato que espera, usando un conjunto de reglas que a menudo no son lo que tú quieres o esperas. Esto es llamado _coerción de tipo_. Mira estos ejemplos:
