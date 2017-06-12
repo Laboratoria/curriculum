@@ -94,7 +94,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | - | ----- | -----
 | 01 | lectura | Valores y tipos de datos
 | 02 | lectura | Variables
-| 03 | video | Practicando con variables y tipos de datos
+| 03 | ejercicios | Practicando con variables y tipos de datos
 | 04 | reto | Crea nuevas variables y modifica su valor
 | 05 | quiz | Prueba tu conocimiento
 
