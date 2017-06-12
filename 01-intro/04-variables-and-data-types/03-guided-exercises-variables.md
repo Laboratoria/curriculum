@@ -15,4 +15,5 @@ Ahora que ya conoces qué son y para qué usar variables, practica con los sigui
 
 Al terminar, revisa tus soluciones con las de Michelle. Asegúrate de comparar no sólo que tu programa funciona de la misma manera, pero que seguiste las buenas prácticas de nombramiento de variables.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_QTag-SbZ0o" frameborder="0" allowfullscreen></iframe>
+
+[![SOLUTION VIDEO](https://www.youtube.com/embed/_QTag-SbZ0o)](https://www.youtube.com/embed/_QTag-SbZ0o)
