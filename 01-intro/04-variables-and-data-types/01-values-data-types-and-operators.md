@@ -185,7 +185,7 @@ Los otros operadores que hemos visto operaban sobre dos valores, pero typeof só
 El operador menos puede usar tanto como operador binario como operador unario.
 
 ```JavaScript
-- (10-2)
+- (10 - 2)
 // returns > -8
 ```
 

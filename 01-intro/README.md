@@ -88,7 +88,7 @@ Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitar
 ### Lección 04: [Tipos de Datos y Variables](04-variables-and-data-types)
 **_30min (self-paced)_**
 
-Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
+Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa y los diferentes tipo de datos de los valores en JavaScript.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
