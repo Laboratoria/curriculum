@@ -26,7 +26,7 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 
 1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
 
-2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
@@ -92,54 +92,13 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | lectura | Valores y tipos de datos
+| 01 | lectura | Valores, tipos de datos y operadores
 | 02 | lectura | Variables
-| 03 | ejercicios | Practicando con variables y tipos de datos
-| 04 | reto | Dado un monto en dólares, devuelve el monto en otras monedas
-| 05 | quiz | Prueba tu conocimiento
-
-### Lección 05: [Manipulando Strings & Numbers](05-strings-and-numbers)
-**_40min (self-paced)_**
-
-Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
-| 03 | video | Dado un string, imprime el número de caracteres
-| 04 | reto | Dada un string, imprime en mayúscula
-| 05 | video | Numbers y operadores aritméticos
-| 06 | video | Dado un número de días, devuelve la cantidad de minutos
-| 07 | video | Métodos comunes `toString()`, `toFixed()` y `parseInt()`
-| 08 | reto | Dada una temperatura en °C, devuelve el valor en °F
-| 09 | quiz | Prueba tu conocimiento
-
-### Lección 06: [Otros tipos de datos y operadores](06-other-data-types)
-**_30min (self-paced)_**
-
-Continúa aprendiendo otros tipos de datos clave para la creación de programas.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Booleans
-| 02 | video | Operadores relacionales, de igualdad e identidad, de lógica y de comparación
-| 03 | video | Undefined values: undefined y null
-| 04 | video | Unary operators: typeof
-| 05 | video | Type coercion
-| 06 | quiz | Prueba tu conocimiento
-
-### Lección 07: [Ejercicios guiados](07-instructor-led-projects-strings-numbers)
-**_45min (self-paced)_**
-
-Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Revisar conceptos aprendidos
-| 02 | video | Enunciado: Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
-| 03 | video | Solucionario
-| 04 | video | Enunciado: Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
-| 05 | video | Solucionario
+| 03 | lectura | Manipulando `strings` y `numbers`
+| 04 | lectura | Comentarios en JavaScript
+| 05 | video | Practicando con ejercicios de variables y tipos de datos
+| 06 | reto | Dado un monto en dólares, devuelve el monto en otras monedas
+| 07 | quiz | Prueba tu conocimiento
 
 ### Lección 08: [Estructuras Condicionales](08-conditional-structures)
 **_30min (self-paced)_**

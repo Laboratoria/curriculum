@@ -1,7 +1,7 @@
 # Code Challenge - Variables y tipos de datos
 
 ## Objetivos de Aprendizaje
-- Demostrar conocimiento aprendido codeando
+- Demostrar el conocimiento aprendido resolviendo un problema de código simple
 
 ## Tips para completar los retos
 Michelle te explica cómo completar estos retos.
