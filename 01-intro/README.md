@@ -95,18 +95,17 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | 01 | lectura | Valores y tipos de datos
 | 02 | lectura | Variables
 | 03 | ejercicios | Practicando con variables y tipos de datos
-| 04 | reto | Crea nuevas variables y modifica su valor
+| 04 | reto | Dado un monto en dólares, devuelve el monto en otras monedas
 | 05 | quiz | Prueba tu conocimiento
 
-### Lección 05: [Strings & Numbers](05-strings-and-numbers)
+### Lección 05: [Manipulando Strings & Numbers](05-strings-and-numbers)
 **_40min (self-paced)_**
 
 Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | video | Strings
-| 02 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
+| 01 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
 | 03 | video | Dado un string, imprime el número de caracteres
 | 04 | reto | Dada un string, imprime en mayúscula
 | 05 | video | Numbers y operadores aritméticos

@@ -1,21 +1,46 @@
-# Code Challenge - Variables & Data Types
+# Code Challenge - Variables y tipos de datos
 
-## Challenges
+## Objetivos de Aprendizaje
+- Demostrar conocimiento aprendido codeando
+
+## Tips para completar los retos
+Michelle te explica cómo completar estos retos.
+
+[![HOW TO GUIDE](https://www.youtube.com/embed/_QTag-SbZ0o)](https://www.youtube.com/embed/_QTag-SbZ0o)
+
+
+## Reto 01: Convertidor de monedas
 
 ```JavaScript
-I.
 /*
- * Crea una variable llamada "postLiked" y asígnale un valor Boolean
+ * Reto 1: Covertidor de monedas
+ *
+ * Instrucciones:
+ * Convierte el valor en dolares a
+   peso mexicano, peso chileno y sol peruano
+ *
+ * Utiliza las tasas de cambio siguientes:
+ *
+ *    Soles = dolares * 3.25
+ *    Pesos Mexicanos = dolares * 18
+ *    Pesos Chilenos = dolares * 660
+ *
+ * Suerte!
+ *
 */
 
-II.
-/*
-  1. Crea una variable llamada "cost" y asígnale el valor de 100
-  2. Crea una segunda variable llamada "taxRate" con el valor de 15%
-  3. Create una tercera variable llamada "totalCost" que sea igual a "cost" multiplicado por "taxRate"
-  4. Imprime el valor de totalCost en la consola
-  5. Modifica el valor de cost a 150
-  6. Modifical el valor de taxRate a 10%
-*/
+ var usDollars = 48.25;
+ var peruvianSoles = // tu código aquí
+ var mexicanPesos = // tu código aquí
+ var chileanPesos = // tu código aquí
 
-```
+// Imprime el monto equivalente en pesos mexicanos
+ console.log(/* tu código aquí */);
+
+// Imprime el monto equivalente en pesos chilenos
+ console.log(/* tu código aquí */);
+
+// Imprime el monto equivalente en pesos mexicanos
+ console.log(/* tu código aquí */);
+
+ ```

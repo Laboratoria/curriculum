@@ -91,7 +91,7 @@ Infinity - Infinity
 // returns > NaN
 ```
 
-También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo % es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100*3 + 14 = 314), y 144 % 12 da 0 (porque 12*12 + 0 = 144). Verás a menudo este operador referido como _modulo_, aunque técnicamente residuo es más preciso.
+También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo % es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100 multiplicado por 3 + 14 = 314), y 144 % 12 da 0 (porque 12 multiplicado por 12 + 0 = 144). Verás a menudo este operador referido como _modulo_, aunque técnicamente residuo es más preciso.
 
 ```JavaScript
 5 % 3
