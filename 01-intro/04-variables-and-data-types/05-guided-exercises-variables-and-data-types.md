@@ -5,6 +5,8 @@
 ## Ejercicios Guiados
 Ahora que ya conoces ciertos conceptos base de la programación, es hora de que veas en práctica lo que puedes crear. A continuación verás una serie de videos donde Michelle utiliza los conceptos anteriores para crear cosas chéveres!
 
+Los proyectos que Michelle creará son:
+
 1. Crea una web que pida al usuario su edad, en años, utilizando `prompt()` y devuelva su edad, **en segundos**, utilizando `document.write()`.
 
 2. Crea una web que pida al usuario la temperatura en Celsius (°C), utilizando `prompt()`, y devuelva, en la consola, la temperatura en Farenheit (°F) utilizando `console.log()`. La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) + 32`.

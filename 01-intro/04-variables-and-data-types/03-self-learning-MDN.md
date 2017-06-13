@@ -20,9 +20,8 @@ Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (
 >3. Desarrollo de complementos para Firefox
 >4. Desarrollo de Firefox OS
 
-Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas abosolutamente todo (especialmente todo lo referente a UTF-16). Pero, eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
+Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas abosolutamente todo (especialmente todo lo referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
 
->
 ```JavaScript
 var x = "Mozilla";
 var empty = "";
@@ -61,7 +60,7 @@ console.log('hola'.length);
 
 ## Practicando el auto-aprendizaje
 
-Ahora que ha quedado demostrado el _"súper poder del auto-aprendizaje"_ lee en MDN otras cosas interesantes que podemos hacer con `strings` y `numbers`, como:
+Ahora que ha quedado demostrado el _"súper poder del auto-aprendizaje"_, lee en MDN otras cosas interesantes que podemos hacer con `strings` y `numbers`, como:
 
 1. [Obtener un caracter específico de un string](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charAt)
 2. [Obtener el índice de un caracter de un string](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/indexOf)
