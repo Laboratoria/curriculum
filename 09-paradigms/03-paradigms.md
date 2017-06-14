@@ -53,13 +53,44 @@ _por procedimientos_, ...**
 #### Historia
 
 Para tener una idea general de los paradigmas y sus peculiaridades, es útil
-repasar la historia de los paradigmas (aunque sea por encima).
+repasar su historia (aunque sea por encima).
 
 El primer paradigma en aparecer, primera mitad de los años 50, es el
 **imperativo**, que se caracteriza por un nivel bajo de abstracción. Por lo
 tanto el código está enfocado en las instrucciones que la computadora debe
 seguir, y no necesariamente en la semántica o lógica de la funcionalidad que
 estamos implementando.
+
+```
+section .text             ;section declaration
+
+                          ;we must export the entry point to the ELF linker or
+  global  _start          ;loader. They conventionally recognize _start as their
+                          ;entry point. Use ld -e foo to override the default.
+
+_start:
+
+                          ;write our string to stdout
+
+  mov     edx,len         ;third argument: message length
+  mov     ecx,msg         ;second argument: pointer to message to write
+  mov     ebx,1           ;first argument: file handle (stdout)
+  mov     eax,4           ;system call number (sys_write)
+  int     0x80            ;call kernel
+
+                          ;and exit
+
+  mov     ebx,0           ;first syscall argument: exit code
+  mov     eax,1           ;system call number (sys_exit)
+  int     0x80            ;call kernel
+
+section .data             ;section declaration
+
+msg db    "Hello, world!",0xa    ;our dear string
+len equ   $ - msg                ;length of our dear string
+```
+
+http://www.tldp.org/HOWTO/Assembly-HOWTO/hello.html
 
 Según la programación fue evolucionando, y los programas creciendo, vemos cómo
 van a ir surgiendo diferentes formas de "abstraer" y "organizar" el código. A
@@ -76,21 +107,22 @@ contexto JavaScript destaca por su dinamismo y su naturaleza funcional.
 
 | Año  | Lenguaje   | Paradigma  |
 |------|------------|------------|
-| 1951 | Assembly   | imperativo |
-| 1957 | Fortran    | imperativo |
-| 1958 | Fortran II | imperativo, procedural |
-| 1958 | Lisp       | funcional |
-| 1965 | Simula     | orientado a objetos |
-| 1972 | Smalltalk  | orientado a objetos |
-| 1972 | Prolog     | lógico |
+| 1949 | [Assembly](https://en.wikipedia.org/wiki/Assembly_language) | imperativo |
+| 1957 | [Fortran](https://en.wikipedia.org/wiki/Fortran) | imperativo |
+| 1958 | [Fortran II](https://en.wikipedia.org/wiki/Fortran#FORTRAN_II) | imperativo, procedural |
+| 1958 | [Lisp](https://goo.gl/ZbUXeg) | funcional |
+| 1965 | [Simula](https://en.wikipedia.org/wiki/Simula) | orientado a objetos |
+| 1972 | [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) | orientado a objetos |
+| 1972 | [Prolog](https://en.wikipedia.org/wiki/Prolog) | lógico |
 | 1972 | [C](https://goo.gl/4bnEHY) | imperativo, procedural, estructurado |
+| 1975 | [Scheme](https://goo.gl/x2WMht) | funcional
 | 1983 | [C++](https://en.wikipedia.org/wiki/C%2B%2B) | imperativo, procedural, estructurado, orientado a objetos |
 | 1987 | [Perl](https://en.wikipedia.org/wiki/Perl) | imperativo, procedural, funcional, orientado a objetos, orientado a eventos
 | 1991 | [Python](https://goo.gl/bJ9Wcg) | imperativo, procedural, funcional, orientado a objetos
 | 1995 | [Ruby](https://goo.gl/PhfLjJ) | imperativo, funcional, orientado a objetos
 | 1995 | [Java](https://goo.gl/aWjoSR) | imperativo, orientado a objetos
-| 1995 | [JavaScript](https://en.wikipedia.org/wiki/JavaScript) | imperativo, funcional, orientado a objetos, orientado a eventos
 | 1995 | [PHP](https://en.wikipedia.org/wiki/PHP) | imperativo, procedural, orientado a objetos
+| 1995 | [JavaScript](https://en.wikipedia.org/wiki/JavaScript) | imperativo, funcional, orientado a objetos, orientado a eventos
 
 #### Declarativo vs Imperativo
 
@@ -106,10 +138,12 @@ mucho más declarativo.
 
 #### Comparativa de paradigmas
 
-La mejor manera de entender qué es un paradigma es viendo ejemplos. Empecemos
-por un ejemplo del paradigma imperativo, que es el
+La mejor manera de entender qué es un paradigma es viendo ejemplos.
 
 ##### Imperativo
+
+Empecemos por un ejemplo del paradigma imperativo. El siguiente programa imprime
+a la consola los números primos menores que `20`:
 
 ```js
 for (var i = 2; i < 20; i++) {
@@ -126,6 +160,13 @@ for (var i = 2; i < 20; i++) {
 }
 ```
 
+Las variables como contadores, son característicos del estilo imperativo, ya que
+en este estilo el principal mecanismo de cómputo se lleva a cabo a través de la
+asignación de valores en variables. Veremos así uso de variables globales y
+mutación de los valores asignados a variables.
+
+Si nos fijamos detalladamente,  los valores de `i` e `isPrime` van variando durante la ejecución
+
 #### Por procedimientos
 
 ```js
@@ -138,25 +179,75 @@ function isPrime(num) {
   return true;
 }
 
-function printPrimes(start, end) {
+function getPrimes(start, end) {
+  var primes = [];
   for (var i = start; i < end; i++) {
     if (isPrime(i)) {
-      console.log(i);
+      primes.push(i);
     }
   }
+  return primes;
 }
 
-printPrimes(2, 20);
+console.log(getPrimes(2, 20));
 ```
 
 #### OOP
 
 ```js
-//...
+function Note(text) {
+  this.text = text || '';
+  this.createdAt = new Date();
+  this.completed = false;
+}
+
+Note.prototype.toString = function () {
+  let str = '[' + (this.completed ? 'X' : ' ') + ']';
+  str += ' | ' + this.createdAt.toDateString();
+  str += ' | ' + this.text;
+  return str;
+};
+
+const note = new Note('hola');
+
+console.log(note.toString());
 ```
 
 #### FP
 
+Mecanismo principal de cómputo es aplicar argumentos a funciones.
+
 ```js
-//...
+const noteToString = note => [
+  '[' + (note.completed ? 'X' : ' ') + ']',
+  ' | ' + note.createdAt.toDateString(),
+  ' | ' + note.text
+].join('');
+
+console.log(noteToString({text: 'hola', createdAt: new Date()}));
+```
+
+
+```js
+function sum(array) {
+  var total = 0;
+  for (var i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total;
+}
+```
+
+
+```js
+const sum = array => !array.length ? 0 : array[0] + sum(array.slice(1));
+```
+
+```js
+function sum(array) {
+  if (!array.length) {
+    return 0;
+  }
+  return array[0] + sum(array.slice(1));
+};
 ```
