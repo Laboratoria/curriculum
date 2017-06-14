@@ -1,17 +1,3 @@
-# Code Challenge - Variables y tipos de datos
-
-## Objetivos de Aprendizaje
-- Demostrar el conocimiento aprendido resolviendo un problema de código simple
-
-## Tips para completar los retos
-Michelle te explica cómo completar estos retos.
-
-[![HOW TO GUIDE](https://www.youtube.com/embed/_QTag-SbZ0o)](https://www.youtube.com/embed/_QTag-SbZ0o)
-
-
-## Reto 01: Convertidor de monedas
-
-```JavaScript
 /*
  * Reto 1: Covertidor de monedas
  *
@@ -42,5 +28,3 @@ Michelle te explica cómo completar estos retos.
 
 // Imprime el monto equivalente en pesos mexicanos
  console.log(/* tu código aquí */);
-
- ```
