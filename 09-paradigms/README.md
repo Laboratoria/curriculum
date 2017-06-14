@@ -80,7 +80,7 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso](#)
+### Lesson 1: [Presentación del curso](01-intro.md)
 
 30min (presencial)
 
@@ -351,6 +351,7 @@ Otros recursos:
 
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
+* [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 
 ***
 
@@ -365,7 +366,7 @@ Otros recursos:
 
 * Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
   30min (presencial)
-* Lección 2: [Entorno y metodología de trabajo](#) 1.5h (presencial)
+* Lección 2: [Entorno y metodología de trabajo](#) 1h (presencial)
 * Lección 3: [Introducción a Paradigmas de Programación](#)
   1h (self-paced)
 

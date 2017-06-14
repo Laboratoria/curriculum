@@ -2,8 +2,8 @@
 
 ## Lección 01: Presentación del curso
 
-* Formato: `charla` (en el futuro será video)
-* Duración: `30min`
+* Formato: `presentation` (en el futuro será video)
+* Duración: `15min`
 
 ### Objetivos de la lección
 
@@ -22,17 +22,20 @@ En esta lección queremos dejarte claro lo siguiente:
 #### Paradigmas en general
 
 * Qué son los **paradigmas de programación**
-* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
+* Qué son **PP**, **FP** y **OOP**, y cómo se comparan
 * A entender las diferencias y entre el estilo **imperativo vs declarativo**
 
 #### OOP
 
 * Las diferencias entre **constructores** y **factories**
 * Cómo implementar **herencia prototipal**
+* `Object.create`
 
 #### FP
+
 * Los principios básicos de la **programación funcional**
 * A usar **composición** como alternativa a la _herencia_
+* `Object.assign`
 
 #### Otros
 
@@ -45,6 +48,7 @@ En esta lección queremos dejarte claro lo siguiente:
 
 * Agile
 * Productos
+* Demos
 * Auto-gestión
 * Peer review
 * Aprendizaje vs enseñanza
@@ -61,13 +65,13 @@ En esta lección queremos dejarte claro lo siguiente:
 
 * Ejercicios workshop paradigmas
 * Ejercicios workshop planetproto
-* Ejercicios workshop fp?
+* Ejercicios workshop fp
 * PR implementación OOP
 * PR implementación FP
 
 ### Evaluación
 
-* Ejercicios
-* Proyectos
-* Demos
-* Examen
+* Ejercicios (10% => 3.3% x 3)
+* Proyectos (60% => 30% x 2)
+* Demos (20% => 10% x 2)
+* Examen (20%)

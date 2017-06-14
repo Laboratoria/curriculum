@@ -11,7 +11,7 @@ acceso al repo, su propio fork, ...
 ### Objetivos de la lección
 
 * Que todas tengan git y node instalado
-* Que todas tengan cuenta active y configurada en GitHub
+* Que todas tengan cuenta activa y configurada en GitHub
 * Que todas tengan acceso a los repos necesarios para el curso
 * Que todas se familiaricen con el formato workshopper de nodeschool.io
 
