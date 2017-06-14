@@ -53,6 +53,11 @@ diferentes de pensar en cómo se organiza un programa basado en una serie de
 principios, los cuales resultan en estilos muy distintos y lenguages muy
 diversos.
 
+Cuando hablamos de **Paradigmas de Programación** inevitablemente tenemos que
+hablar de lenguajes de programación. Algunos lenguajes son _multi-paradigma_, lo
+que quiere decir que nos permiten programar en diferentes paradigmas, mientras
+que otros se enfocan específicamente en uno.
+
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
 elementos propios de lenguages funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
@@ -60,7 +65,16 @@ funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
 programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
 _por procedimientos_, ...**
 
+También veremos que los "paradigmas" son "estilos" de programación que no son
+necesariamente exclusivos. De hecho, algunos son complementarios o evoluciones
+de paradigmas más antiguos o con un nivel de abstracción más bajo. Así, la
+programación procedural y orientada a objetos van acompañadas de un estilo
+imperativo, que se basa pricipalmente en "hacer algo" a través de asignar
+valores en variables y cambiar esos valores durante la ejecución.
+
 ### Historia
+
+`video: 3min`
 
 Para tener una idea general de los paradigmas y sus peculiaridades, es útil
 repasar su historia (aunque sea por encima).
@@ -70,6 +84,10 @@ El primer paradigma en aparecer, primera mitad de los años 50, es el
 tanto el código está enfocado en las instrucciones que la computadora debe
 seguir, y no necesariamente en la semántica o lógica de la funcionalidad que
 estamos implementando.
+
+Veamos un ejemplo de `Assembly`, el primer lenguaje "moderno", que apareció en
+el año 1949, y que sigue vivo a día de hoy, eso sí, para cosas muy específicas,
+que nos son necesariamente lo que vemos los desarrolladores web ;-)
 
 ```
 section .text             ;section declaration
@@ -102,11 +120,26 @@ len equ   $ - msg                ;length of our dear string
 
 http://www.tldp.org/HOWTO/Assembly-HOWTO/hello.html
 
-Según la programación fue evolucionando, y los programas creciendo, vemos cómo
-van a ir surgiendo diferentes formas de "abstraer", "organizar" y "reusar" el
-código. A finales de los años 50 vemos como aparecen **Fortran II** y **Lisp**,
-introduciendo la programación **procedural** y **funcional**. Con ambos enfoques
-pasamos a nuevos nieveles de abstracción y mejora en el reuso de código.
+El snippet de arriba es un "hello world" escrito en `Assembly` (una versión
+moderna, pero muy parecido a lo que hubieras visto en los años 50). Lo único que
+hace es imprimir el string `Hello, world!`. El equivalente a todo el código de
+arriba en JavaScript sería:
+
+```js
+console.log('Hello, world!');
+```
+
+En nuestro caso, JavaScript tiene un nivel de abstracción mucho más alto. Con lo
+cual, no tenemos que preocuparnos de muchos detalles que JavaScript ya abstrae
+para nosotros, como manejo de memoria, instrucciones del procesador, ... Esto
+nos permite expresar de forma más "humana" la intención de nuestro programa.
+
+Regresamos a los años 50. Según la programación fue evolucionando, y los
+programas creciendo, vemos cómo van a ir surgiendo diferentes formas de
+"abstraer", "organizar" y "reusar" el código. A finales de los años 50 vemos
+como aparecen **Fortran II** y **Lisp**, introduciendo la programación
+**procedural** y **funcional**. Con ambos enfoques pasamos a nuevos nieveles de
+abstracción y mejora en el reuso de código.
 
 En los años 70 y 80 se da el boom de la programación orientada a objetos,
 primero con **Smalltalk** y después **C++**.
@@ -136,9 +169,11 @@ contexto JavaScript destaca por su dinamismo y su naturaleza funcional.
 
 ### Declarativo vs Imperativo
 
+`video: 3min`
+
 Hemos mencionado que los primeros lenguajes de programación eran imperativos, y
 que se centraban en el "cómo" más que en el "qué". Como contrapartida, el estilo
-imperativo se caracteriza por lo contrario, preocuparse más por "qué" queremos
+declarativo se caracteriza por lo contrario, preocuparse más por "qué" queremos
 hacer, en vez de cómo lo debe ejecutar la computadora.
 
 Algunos paradigmas son más imperativos y otros más declarativos. Por ejemplo,
@@ -146,11 +181,37 @@ la programación orientada a procedimientos y orientada objetos van a tener un
 caracter imperativo mientras que la programación funcional tiene un caracter
 mucho más declarativo.
 
-### Comparativa de paradigmas
+Veamos un ejemplo:
 
-La mejor manera de entender qué es un paradigma es viendo ejemplos.
+```js
+function sum(array) {
+  var total = 0;
+  for (var i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total;
+}
+```
 
-#### Imperativo
+
+```js
+const sum = array => !array.length ? 0 : array[0] + sum(array.slice(1));
+```
+
+```js
+function sum(array) {
+  if (!array.length) {
+    return 0;
+  }
+  return array[0] + sum(array.slice(1));
+};
+```
+
+HTML es un lenguaje declarativo!
+
+### Imperativo
+
+`video: 3min`
 
 Empecemos por un ejemplo del paradigma imperativo. El siguiente programa imprime
 a la consola los números primos menores que `20`:
@@ -178,7 +239,9 @@ mutación de los valores asignados a variables.
 Si nos fijamos detalladamente,  los valores de `i` e `isPrime` van variando
 durante la ejecución...
 
-#### Ejercicio paradigma imperativo
+### Ejercicio paradigma imperativo
+
+`code: 3min`
 
 Hacer fork de repo...
 
@@ -186,6 +249,8 @@ En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
 en la que haremos los ejercicios.
 
 #### Por procedimientos
+
+`video: 4min`
 
 ```js
 function isPrime(num) {
@@ -212,9 +277,13 @@ console.log(getPrimes(2, 20));
 
 #### Ejercicio paradigma por procedimientos
 
+`code: 8min`
+
 ...
 
 #### OOP
+
+`video: 4min`
 
 ```js
 function Note(text) {
@@ -237,9 +306,13 @@ console.log(note.toString());
 
 #### Ejercicio OOP
 
+`code: 10min`
+
 ...
 
 #### FP
+
+`video: 4min`
 
 Mecanismo principal de cómputo es aplicar argumentos a funciones.
 
@@ -253,32 +326,9 @@ const noteToString = note => [
 console.log(noteToString({text: 'hola', createdAt: new Date()}));
 ```
 
-
-```js
-function sum(array) {
-  var total = 0;
-  for (var i = 0; i < array.length; i++) {
-    total += array[i];
-  }
-  return total;
-}
-```
-
-
-```js
-const sum = array => !array.length ? 0 : array[0] + sum(array.slice(1));
-```
-
-```js
-function sum(array) {
-  if (!array.length) {
-    return 0;
-  }
-  return array[0] + sum(array.slice(1));
-};
-```
-
 #### Ejercicio FP
+
+`code: 10min`
 
 ...
 
