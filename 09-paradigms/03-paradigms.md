@@ -20,7 +20,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 ### Requisitos
 
 * Es fundamental tener instalado y configurado `git` y `npm`
-* Cuenta en GitHub
+* Cuenta en [GitHub](https://github.com/)
 * Instalar `learnyouparadigms` con el siguiente comando: `npm install -g Laboratoria/learnyouparadigms`
 
 ***
@@ -29,7 +29,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | video  |    2min  | [¿Qué son los paradigmas de programación?](#qué-son-los-paradigmas-de-programación)
+|   1   | video  |    3min  | [¿Qué son los paradigmas de programación?](#qué-son-los-paradigmas-de-programación)
 |   2   | video  |    3min  | [Historia](#historia)
 |   3   | video  |    3min  | [Declarativo vs Imperativo](#declarativo-vs-imperativo)
 |   4   | video  |    3min  | [Paradigma imperativo](#imperativo)
@@ -46,48 +46,98 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 
 ### ¿Qué son los paradigmas de programación?
 
-`video: 2min`
+`video: 3min`
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de
 principios, los cuales resultan en estilos muy distintos y lenguages muy
 diversos.
 
+Consideremos la siguiente función:
+
+```js
+function sum(array) {
+  var total = 0;
+  for (var i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total;
+}
+```
+
+La función `sum(array)` recibe un array de números y retorna la suma de todos
+los elementos del array. Para llevar a cabo la suma, usamos la variable `total`,
+la cual vamos a ir actualizando (mutando) mientras vamos recorriendo el arreglo
+con un bucle (`for` en este caso). Estas características son típicas del estilo
+imperativo.
+
+Ahora, podemos implementar exactamente la misma funcionalidad usando un enfoque
+completamente distinto.
+
+```js
+function sum(array) {
+  if (!array.length) {
+    return 0;
+  }
+  return array[0] + sum(array.slice(1));
+};
+```
+
+En esta segunda implementación, la función `sum(array)` sigue teniendo la misma
+interfaz (recibe los mismos argumentos y retorna lo mismo), pero claramente
+podemos ver que la lógica se expresa de una manera muy diferente. En la versión
+recursiva hemos reemplazado el bucle `for` por recursión, y además podemos ver
+que no hay asignación ni mutación de variables, el "cómputo" se hace por
+aplicación de argumentos a funciones. Este tipo de características son propias
+del paradigma funcional.
+
+***
+
+PRO TIP:
+
+Haciendo uso de ES2015 podemos refactorizar la versión funcional de `sum` de
+esta manera:
+
+```js
+const sum = array => !array.length ? 0 : array[0] + sum(array.slice(1));
+```
+
+***
+
 Cuando hablamos de **Paradigmas de Programación** inevitablemente tenemos que
-hablar de lenguajes de programación. Algunos lenguajes son _multi-paradigma_, lo
-que quiere decir que nos permiten programar en diferentes paradigmas, mientras
-que otros se enfocan específicamente en uno.
+hablar de lenguajes de programación. Algunos lenguajes, como JavaScript, son
+_multi-paradigma_, lo que quiere decir que nos permiten programar en diferentes
+paradigmas, mientras que otros se enfocan específicamente en uno.
 
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
 elementos propios de lenguages funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
-funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
-programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
-_por procedimientos_, ...**
+funcional. **JavaScript nos permite programar de forma _funcional_, _orientado a
+objetos_, _orientado a eventos_, _por procedimientos_, ...**
 
 También veremos que los "paradigmas" son "estilos" de programación que no son
 necesariamente exclusivos. De hecho, algunos son complementarios o evoluciones
 de paradigmas más antiguos o con un nivel de abstracción más bajo. Así, la
-programación procedural y orientada a objetos van acompañadas de un estilo
-imperativo, que se basa pricipalmente en "hacer algo" a través de asignar
-valores en variables y cambiar esos valores durante la ejecución.
+programación procedural y orientada a objetos, por ejemplo, ambas son
+imperativas, ya que comparten una raíz común.
 
 ### Historia
 
 `video: 3min`
 
 Para tener una idea general de los paradigmas y sus peculiaridades, es útil
-repasar su historia (aunque sea por encima).
+repasar brevemente su historia.
 
 El primer paradigma en aparecer, primera mitad de los años 50, es el
 **imperativo**, que se caracteriza por un nivel bajo de abstracción. Por lo
 tanto el código está enfocado en las instrucciones que la computadora debe
 seguir, y no necesariamente en la semántica o lógica de la funcionalidad que
-estamos implementando.
+estamos implementando (el cómo nosotros pensamos en lo que hace el programa).
 
 Veamos un ejemplo de `Assembly`, el primer lenguaje "moderno", que apareció en
 el año 1949, y que sigue vivo a día de hoy, eso sí, para cosas muy específicas,
-que nos son necesariamente lo que vemos los desarrolladores web ;-)
+que nos son necesariamente lo que vemos los desarrolladores web, pero que sirve
+para este ejemplo ;-)
 
 ```
 section .text             ;section declaration
@@ -122,8 +172,8 @@ http://www.tldp.org/HOWTO/Assembly-HOWTO/hello.html
 
 El snippet de arriba es un "hello world" escrito en `Assembly` (una versión
 moderna, pero muy parecido a lo que hubieras visto en los años 50). Lo único que
-hace es imprimir el string `Hello, world!`. El equivalente a todo el código de
-arriba en JavaScript sería:
+hace este programa es imprimir el string `Hello, world!`. El equivalente a todo
+el código de arriba en JavaScript sería:
 
 ```js
 console.log('Hello, world!');
@@ -131,10 +181,11 @@ console.log('Hello, world!');
 
 En nuestro caso, JavaScript tiene un nivel de abstracción mucho más alto. Con lo
 cual, no tenemos que preocuparnos de muchos detalles que JavaScript ya abstrae
-para nosotros, como manejo de memoria, instrucciones del procesador, ... Esto
-nos permite expresar de forma más "humana" la intención de nuestro programa.
+para nosotros, como manejo de memoria, instrucciones del procesador, etc. Esto
+nos permite expresar de forma más "humana" la intención de nuestro programa, y
+con mucho menos código.
 
-Regresamos a los años 50. Según la programación fue evolucionando, y los
+Regresamos a los años 50. Según la programación va evolucionando, y los
 programas creciendo, vemos cómo van a ir surgiendo diferentes formas de
 "abstraer", "organizar" y "reusar" el código. A finales de los años 50 vemos
 como aparecen **Fortran II** y **Lisp**, introduciendo la programación
@@ -146,7 +197,18 @@ primero con **Smalltalk** y después **C++**.
 
 **JavaScript** nace en 1995, el mismo año que **Java**, **Ruby** y **PHP**. La
 década de los 90 se caracteriza por los lenguajes multi-paradigma. En ese
-contexto JavaScript destaca por su dinamismo y su naturaleza funcional.
+contexto JavaScript destaca por su dinamismo y su naturaleza funcional. De hecho
+a nivel conceptual, JavaScript está fuertemente inspirado por **Scheme**, que es
+un lenguaje funcional, y los prototipos de **Self**, aunque por necesidades del
+mercado, la sintáxis se parece más a la familia de lenguajes de **C** y
+**Java**, que son imperativos. Por esta razón, JavaScript se considera muchas
+veces [el lenguaje más
+incomprendido](http://javascript.crockford.com/javascript.html), y quizás
+confuso.
+
+Como referencia, abajo podemos ver una tabla con algunos de los lenguajes más
+significativos a nivel de cambios de paradigma, y el conexto en el que aparece
+JavaScript.
 
 | Año  | Lenguaje   | Paradigma  |
 |------|------------|------------|
@@ -184,27 +246,32 @@ mucho más declarativo.
 Veamos un ejemplo:
 
 ```js
-function sum(array) {
-  var total = 0;
-  for (var i = 0; i < array.length; i++) {
-    total += array[i];
+var array = [
+  {id: 'uno', name: 'el primero'},
+  {id: 'dos', name: 'el segundo'},
+  {name: 'no tengo id'}
+];
+```
+
+
+```js
+const names = [];
+for (var i = 0; i < array.length; i++) {
+  if (array[i].id) {
+    names.push(array[i].id);
   }
-  return total;
 }
+
+console.log(names);
+// ['uno', ''dos]
 ```
 
 
 ```js
-const sum = array => !array.length ? 0 : array[0] + sum(array.slice(1));
-```
-
-```js
-function sum(array) {
-  if (!array.length) {
-    return 0;
-  }
-  return array[0] + sum(array.slice(1));
-};
+const names = array
+  .filter(item => typeof item.id === 'string')
+  .map(item => item.id);
+// ['uno', ''dos]
 ```
 
 HTML es un lenguaje declarativo!
