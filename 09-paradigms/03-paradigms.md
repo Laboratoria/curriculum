@@ -31,16 +31,15 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 |-------|--------|----------|------------
 |   1   | video  |    3min  | [¿Qué son los paradigmas de programación?](#qué-son-los-paradigmas-de-programación)
 |   2   | video  |    3min  | [Historia](#historia)
-|   3   | video  |    3min  | [Declarativo vs Imperativo](#declarativo-vs-imperativo)
-|   4   | video  |    3min  | [Paradigma imperativo](#imperativo)
-|   5   | code   |    3min  | [Ejercicio imperativo](#)
-|   6   | video  |    4min  | [Por procedimientos](#por-procedimientos)
-|   7   | code   |    8min  | Ejercicio por procedimientos
-|   8   | video  |    4min  | [Orientado a objetos](#oop)
-|   9   | code   |   10min  | Ejercicio OOP
-|  10   | video  |    4min  | [Funcional](#fp)
-|  11   | code   |   10min  | Ejercicio funcional
-|  12   | qa     |    5min  | Re-cap
+|   3   | video  |    4min  | [Declarativo vs Imperativo](#declarativo-vs-imperativo)
+|   4   | code   |    3min  | [Ejercicio imperativo](#)
+|   5   | video  |    4min  | [Por procedimientos](#por-procedimientos)
+|   6   | code   |    8min  | Ejercicio por procedimientos
+|   7   | video  |    4min  | [Orientado a objetos](#oop)
+|   8   | code   |   10min  | Ejercicio OOP
+|   9   | video  |    4min  | [Funcional](#fp)
+|  10   | code   |   10min  | Ejercicio funcional
+|  11   | qa     |    8min  | Re-cap
 
 ***
 
@@ -231,19 +230,20 @@ JavaScript.
 
 ### Declarativo vs Imperativo
 
-`video: 3min`
+`video: 4min`
 
 Hemos mencionado que los primeros lenguajes de programación eran imperativos, y
 que se centraban en el "cómo" más que en el "qué". Como contrapartida, el estilo
-declarativo se caracteriza por lo contrario, preocuparse más por "qué" queremos
-hacer, en vez de cómo lo debe ejecutar la computadora.
+declarativo se caracteriza por lo contrario, enfocarse más en "qué" queremos
+hacer, desde el punto de vista de un ser humano, en vez de cómo lo debe ejecutar
+la computadora. Por ende, cuanto más declarativo, más alejado del hardware.
 
 Algunos paradigmas son más imperativos y otros más declarativos. Por ejemplo,
-la programación orientada a procedimientos y orientada objetos van a tener un
-caracter imperativo mientras que la programación funcional tiene un caracter
-mucho más declarativo.
+la programación orientada a procedimientos, o la programación orientada objetos,
+van a tener un caracter imperativo, mientras que la programación funcional tiene
+un caracter mucho más declarativo.
 
-Veamos un ejemplo:
+Imáginemos que tenemos la siguiente data en un array de objetos:
 
 ```js
 var array = [
@@ -253,58 +253,71 @@ var array = [
 ];
 ```
 
+A partir de esta data, ahora nos piden extraer los `id` de cada un de los
+objetos y amacenarlos en un nuevo arreglo (`names`). Si nos planteamos el
+problema desde un enfoque imperativo, podríamos implementar una solución así:
 
 ```js
 const names = [];
+
 for (var i = 0; i < array.length; i++) {
   if (array[i].id) {
     names.push(array[i].id);
   }
 }
 
-console.log(names);
-// ['uno', ''dos]
+console.log(names); // ['uno', ''dos]
 ```
 
+En el código anterior, probablemente puedas identificar claramente el estilo
+imperativo. Las variables como "contadores" y "acumuladores", son típicos del
+estilo imperativo. En este estilo el principal mecanismo de cómputo se lleva a
+cabo a través de la asignación de valores en variables. Veremos así uso de
+variables globales y mutación de los valores asignados a variables a través del
+tiempo.
+
+JavaScript nos ofrece utilidades para afrontar este tipo problemas desde el
+enfoque funcional. Así, los arrays (gracias a `Array.prototype`) tienen una
+serie de métodos para manipular su data a través de "higher order functions",
+que en este caso son funciones que aceptan otra función como argumento, como por
+ejemplo `Array.prototype.filter` o `Array.prototype.map`. Veamos cómo podemos
+usar estas herramientas para implementar la misma lógica:
 
 ```js
 const names = array
   .filter(item => typeof item.id === 'string')
   .map(item => item.id);
-// ['uno', ''dos]
+
+console.log(names); // ['uno', ''dos]
 ```
 
-HTML es un lenguaje declarativo!
+En esta nueva versión hacemos lo siguiente:
 
-### Imperativo
+1. Usamos `Array#filter` para crear un nuevo arreglo sólo con aquellos elementos
+   que tengan un `id` que sea un string (`typeof item.id === 'string'`).
+2. Usamos `Array#map` para transformar cada elemento del arreglo y crear un
+   nuevo arreglo con los resultados.
 
-`video: 3min`
+De esta forma los detalles de la iteración quedan escondidos detrás de
+`Array#filter` y `Array#map`, haciendo nuestro código más declarativo.
 
-Empecemos por un ejemplo del paradigma imperativo. El siguiente programa imprime
-a la consola los números primos menores que `20`:
+También podemos ver cómo "encadenamos" (method chaining) las invocaciones de
+`filter` y `map` ya que ambas retornan un array, que a su vez tiene todos los
+métodos de `Array.prototype`.
 
-```js
-for (var i = 2; i < 20; i++) {
-  var isPrime = true;
-  for (var j = 2; j <= (i / 2); j++) {
-    if (i % j == 0) {
-      isPrime = false;
-      break;
-    }
-  }
-  if (isPrime) {
-    console.log(i);
-  }
-}
-```
+El estilo declarativo depende de que el lenguage (o librerías) nos ofrezcan este
+tipo de herramientas o abstracciones con las que poder expresar nuestra lógica
+sin preocuparnos tanto sobre los detalles de implementación.
 
-Las variables como contadores, son característicos del estilo imperativo, ya que
-en este estilo el principal mecanismo de cómputo se lleva a cabo a través de la
-asignación de valores en variables. Veremos así uso de variables globales y
-mutación de los valores asignados a variables.
-
-Si nos fijamos detalladamente,  los valores de `i` e `isPrime` van variando
-durante la ejecución...
+Para terminar esta sección, cabe mencionar que HTML es un lenguaje declarativo!
+Muchos se quejarían diciendo que HTML no es un lenguaje de programación, sino un
+lenguaje de marcado (_markup language_). Pero podemos considerear a HTML como un
+lenguage declarativo muy restringido, no de uso general, donde sólo podemos
+crear un árbol de nodos a partir de una estructura de etiquetas (_tags_) con una
+sintáxis y semántica predefinida. Es declarativo en el sentido de que no le
+estamos diciendo a la computadora cómo convertir nuestro código en instruccions,
+sino que describimos de formal declarativa lo que queremos que ocurra (el
+compilador o intérprete se encarga del resto).
 
 ### Ejercicio paradigma imperativo
 
@@ -315,7 +328,7 @@ Hacer fork de repo...
 En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
 en la que haremos los ejercicios.
 
-#### Por procedimientos
+### Por procedimientos
 
 `video: 4min`
 
@@ -342,13 +355,13 @@ function getPrimes(start, end) {
 console.log(getPrimes(2, 20));
 ```
 
-#### Ejercicio paradigma por procedimientos
+### Ejercicio paradigma por procedimientos
 
 `code: 8min`
 
 ...
 
-#### OOP
+### OOP
 
 `video: 4min`
 
@@ -371,13 +384,13 @@ const note = new Note('hola');
 console.log(note.toString());
 ```
 
-#### Ejercicio OOP
+### Ejercicio OOP
 
 `code: 10min`
 
 ...
 
-#### FP
+### FP
 
 `video: 4min`
 
@@ -393,7 +406,7 @@ const noteToString = note => [
 console.log(noteToString({text: 'hola', createdAt: new Date()}));
 ```
 
-#### Ejercicio FP
+### Ejercicio FP
 
 `code: 10min`
 
@@ -415,7 +428,10 @@ Videos:
 * [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
   `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
-* [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
+* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw),
+  `8:27`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
+  Jun 28 2016
+* [Qué es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
   `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
   8 Mar 2017
 
@@ -424,3 +440,4 @@ Otros recursos:
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
+* [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
