@@ -328,6 +328,12 @@ Videos:
 * [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
   `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
+* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw),
+  `8:27`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
+  Jun 28 2016
+* [Qué es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
+  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
+  8 Mar 2017
 * [Prototypal Inheritance](https://frontendmasters.com/courses/javascript-jquery-dom/prototypal-inheritance/),
   `8:52`, Justin Meyer, [Frontend Masters](https://frontendmasters.com/)
 * Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
@@ -339,9 +345,6 @@ Videos:
 * [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
   `19:19`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
   22 ago. 2016
-* [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
-  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
-  8 Mar 2017
 * [Learning Functional Programming with JavaScript- JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY),
   `29:56`, Anjana Vakil,
   [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
@@ -352,6 +355,7 @@ Otros recursos:
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
+* [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
 
 ***
 

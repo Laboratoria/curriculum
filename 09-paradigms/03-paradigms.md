@@ -32,13 +32,13 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 |   1   | video  |    3min  | [¿Qué son los paradigmas de programación?](#qué-son-los-paradigmas-de-programación)
 |   2   | video  |    3min  | [Historia](#historia)
 |   3   | video  |    4min  | [Declarativo vs Imperativo](#declarativo-vs-imperativo)
-|   4   | code   |    5min  | [Ejercicio imperativo](#)
-|   5   | video  |    5min  | [Por procedimientos](#por-procedimientos)
-|   6   | code   |    8min  | Ejercicio por procedimientos
-|   7   | video  |    5min  | [Orientado a objetos](#oop)
-|   8   | code   |   10min  | Ejercicio OOP
+|   4   | code   |    5min  | [Ejercicio imperativo](#ejercicio-paradigma-imperativo)
+|   5   | video  |    5min  | [Por procedimientos](#programación-por-procedimientos)
+|   6   | code   |    8min  | [Ejercicio por procedimientos](#ejercicio-paradigma-por-procedimientos)
+|   7   | video  |    5min  | [Programacion Orientada a Objetos](#oop)
+|   8   | code   |   10min  | [Ejercicio OOP](#ejercicio-oop)
 |   9   | video  |    5min  | [Funcional](#fp)
-|  10   | code   |   10min  | Ejercicio funcional
+|  10   | code   |   10min  | [Ejercicio funcional](#ejercicio-fp)
 |  11   | qa     |    5min  | Re-cap
 
 ***
@@ -460,32 +460,36 @@ const myModule = require('./src/myModule');
 
 `code: 8min`
 
-```js
-function isPrime(num) {
-  for (var i = 2; i <= (num / 2); i++) {
-    if (num % i == 0) {
-      return false;
-    }
-  }
-  return true;
-}
-
-function getPrimes(start, end) {
-  var primes = [];
-  for (var i = start; i < end; i++) {
-    if (isPrime(i)) {
-      primes.push(i);
-    }
-  }
-  return primes;
-}
-
-console.log(getPrimes(2, 20));
-```
+En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
+en la que haremos los ejercicios.
 
 ### OOP
 
 `video: 5min`
+
+La **Programación Orientada a Objetos** (_Object Oriented Programming_ - OOP) 
+representa un cambio de paradigma bastante grande con respecto al paradigma por
+procedimientos que hemos visto hasta ahora. Cuando programamos por
+procedimientos nos concentramos en funciones, que representan acciones, y así
+nuestra semántica está orientada a acciones antes que a estructuras de datos.
+
+En la programación orientada a objetos le damos la vuelta a la tortilla, y en
+vez de pensar en acciones nos enfocamos en definir los "tipos" de datos primero,
+y después decidimos que interacciones van a tener. Resumiendo, ponemos las
+definiciones de los tipos de datos como punto de partida a la hora de modelar un
+programa.
+
+JavaScript es un lenguage dinámicamente tipado (_dynamically typed_), pero a
+diferencia de la mayoría de lenguajes de su generación, usa herencia prototipal
+en vez de clases, lo cual suele confundir a muchos programadores con experiencia
+en otros lenguajes orientados a objetos.
+
+Imaginemos que tenemos que escribir una aplicación de "notas" donde el usuario
+puede crear diferentes tipos de "notas" (texto, imágenes, audio, ...).
+
+Si vamos a seguir el estilo orientado a objetos, normalmente empezaríamos por
+modelar el "tipo de objeto" que con el que vamos a representar una "nota".
+Podríamos empezar con algo así:
 
 ```js
 function Note(text) {
@@ -500,10 +504,88 @@ Note.prototype.toString = function () {
   str += ' | ' + this.text;
   return str;
 };
+```
 
-const note = new Note('hola');
+Hemos declarado una función (`Notes`) que hace uso de una _pseudo variable_ 
+llamada `this`. La presencia de `this` (junto con la convención de usar la
+primera letra en mayúscula), nos indica que esta función está escrita
+para ser invocada con el _keyword_ `new`. Este tipo de función es lo que
+conocemos como un _constructor_. Los constructores son funciones cuyo propósito
+es crear un objeto, inicializarlo y ofrecernos una manera de "diseñar" el
+prototipo que tendrán los objetos creados con este constructor. Dicho de otra
+manera, menos correcta pero más común, los constructores son lo más parecido a
+clases en JavaScript (por lo menos hasta ES6).
 
+Ahora que ya tenemos un constructor, vamos a usarlo para crear un objeto:
+
+```js
+const note = new Note('comprar arroz');
+console.log(note);
+```
+
+En la consola deberías de ver algo así:
+
+```
+Note {
+  text: 'comprar arroz',
+  createdAt: 2017-06-14T22:39:51.987Z,
+  completed: false }
+```
+
+...
+
+inheritance
+
+```js
+// Constructor `Note`
+function Note(text) {
+  this.text = text || '';
+  this.createdAt = new Date();
+  this.completed = false;
+}
+
+// Añade método `toString()` a prototipo de `Notes`.
+Note.prototype.toString = function () {
+  let str = '[' + (this.completed ? 'X' : ' ') + ']';
+  str += ' | ' + this.createdAt.toDateString();
+  str += ' | ' + this.text;
+  return str;
+};
+
+// Contructor `ImageNote`
+function ImageNote(url) {
+  this.url = url;
+  Note.call(this, 'an image note');
+}
+
+// Heredamos de `Note.prototype`
+ImageNote.prototype = Object.create(Note.prototype);
+ImageNote.prototype.constructor = ImageNote;
+
+// Sobreescribimos el método `toString` para instancias de `ImageNote`
+ImageNote.prototype.toString = function () {
+  return Note.prototype.toString.call(this) + ' | ' + this.url;
+};
+
+
+const note = new Note('comprar arroz');
+const imageNote = new ImageNote('http://foo.bar/baz.jpg');
+
+console.log(note);
 console.log(note.toString());
+
+console.log(imageNote);
+console.log(imageNote.toString());
+
+console.log(note instanceof Note); // true
+console.log(note instanceof ImageNote); // false
+console.log(imageNote instanceof Note); // true
+console.log(imageNote instanceof ImageNote); // true
+
+console.log(Note.prototype.isPrototypeOf(note)); // true
+console.log(Note.prototype.isPrototypeOf(imageNote)); // true
+console.log(ImageNote.prototype.isPrototypeOf(note)); // false
+console.log(ImageNote.prototype.isPrototypeOf(imageNote)); // true
 ```
 
 ### Ejercicio OOP

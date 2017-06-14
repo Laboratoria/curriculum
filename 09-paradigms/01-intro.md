@@ -72,6 +72,6 @@ En esta lección queremos dejarte claro lo siguiente:
 ### Evaluación
 
 * Ejercicios (10% => 3.3% x 3)
-* Proyectos (60% => 30% x 2)
+* Proyectos (50% => 25% x 2)
 * Demos (20% => 10% x 2)
 * Examen (20%)
