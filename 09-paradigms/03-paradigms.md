@@ -32,14 +32,14 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 |   1   | video  |    3min  | [¿Qué son los paradigmas de programación?](#qué-son-los-paradigmas-de-programación)
 |   2   | video  |    3min  | [Historia](#historia)
 |   3   | video  |    4min  | [Declarativo vs Imperativo](#declarativo-vs-imperativo)
-|   4   | code   |    3min  | [Ejercicio imperativo](#)
-|   5   | video  |    4min  | [Por procedimientos](#por-procedimientos)
+|   4   | code   |    5min  | [Ejercicio imperativo](#)
+|   5   | video  |    5min  | [Por procedimientos](#por-procedimientos)
 |   6   | code   |    8min  | Ejercicio por procedimientos
-|   7   | video  |    4min  | [Orientado a objetos](#oop)
+|   7   | video  |    5min  | [Orientado a objetos](#oop)
 |   8   | code   |   10min  | Ejercicio OOP
-|   9   | video  |    4min  | [Funcional](#fp)
+|   9   | video  |    5min  | [Funcional](#fp)
 |  10   | code   |   10min  | Ejercicio funcional
-|  11   | qa     |    8min  | Re-cap
+|  11   | qa     |    5min  | Re-cap
 
 ***
 
@@ -266,7 +266,7 @@ for (var i = 0; i < array.length; i++) {
   }
 }
 
-console.log(names); // ['uno', ''dos]
+console.log(names); // ['uno', 'dos']
 ```
 
 En el código anterior, probablemente puedas identificar claramente el estilo
@@ -288,7 +288,7 @@ const names = array
   .filter(item => typeof item.id === 'string')
   .map(item => item.id);
 
-console.log(names); // ['uno', ''dos]
+console.log(names); // ['uno', 'dos']
 ```
 
 En esta nueva versión hacemos lo siguiente:
@@ -321,16 +321,144 @@ compilador o intérprete se encarga del resto).
 
 ### Ejercicio paradigma imperativo
 
-`code: 3min`
+`code: 5min`
 
 Hacer fork de repo...
 
 En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
 en la que haremos los ejercicios.
 
-### Por procedimientos
+### Programación por procedimientos
 
-`video: 4min`
+`video: 5min`
+
+La programación por procedimientos (_procedural programming_) pertenece a la
+rama del estilo _imperativo_. Antes mencionamos que a finales de los años 50
+Fortran II introduce la programación por procedimientos, y de esa forma
+empezamos a "organizar", "abstraer" y "reusar" nuestro código.
+
+Cuando programamos orientados a procedimientos, lo cual puede ser un enfoque
+válido para programas o scripts pequeños, nos concentramos en agrupar código
+en procedimientos o funciones, e invocar estos procedimientos con diferentes
+argumentos o parámetros. En este sentido es parecido a la programación
+funcional, pero con la diferencia de que nos mantenemos en la rama imperativa,
+mientras que la programación funcional es declarativa.
+
+Refactoricemos el ejemplo anterior donde sacábamos la propiedad `id` de una
+lista de objetos. Empecemos por envolver el código en una función:
+
+```js
+function getIds(inputArray) {
+  const names = [];
+
+  for (var i = 0; i < inputArray.length; i++) {
+    if (inputArray[i].id) {
+      names.push(inputArray[i].id);
+    }
+  }
+
+  return names;
+}
+
+console.log(getIds(array)); // ['uno', 'dos']
+```
+
+Este cambio parece menor, pero añade una capa de abstracción que nos da un
+montón de flexibilidad. Ahora nuestro código está _encapsulado_ dentro de su
+propio _scope_ y podemos reusar la lógica para otros arrays (podemos invocar la
+función cuantas veces queramos).
+
+Pero vayamos un paso más allá. Ahora que estamos ordenando nuestro código usando
+funciones, aprovechemos a abstraer y mejorar la comprobación que hacíamos para
+saber si un objeto tiene una propiedad `id`.
+
+```js
+function hasId(obj) {
+  return obj && typeof obj.id === 'string';
+}
+
+function getIds(inputArray) {
+  const names = [];
+
+  for (var i = 0; i < inputArray.length; i++) {
+    if (hasId(inputArray[i])) {
+      names.push(inputArray[i].id);
+    }
+  }
+
+  return names;
+}
+
+console.log(getIds(array)); // ['uno', 'dos']
+console.log(hasId()); // false
+console.log(hasId({name: 'foo'})); // false
+console.log(hasId({id: 'uno'})); // true
+```
+
+En esta nueva versión hemos partido el código en dos funciones, y al hacerlo
+hemos tenido que dar nombres a estas funciones. Estos nombres representan de
+alguna forma esa capa de abstracción. Ahora podemos hablar de `hasId()`
+cuando queremos referirnos a ese pedacito de lógica. Así, poco a poco vamos
+creando una semántica que nos permite alejarnos de los detalles de
+implementación.
+
+Una de las consecuencias de estos cambios es el concepto de "modularidad". Esto
+va a permitir que empecemos a escribir programas estructurados en módulos
+independientes, que son más fáciles de entender, testear, mantener, ...
+
+En JavaScript existen varios sistemas de módulos, principalmente **AMD**,
+**Common JS** y **ES2015/ES6**. Para este ejemplo vamos a concentrarnos en
+**Common JS**, que es el que usa **Node.js**, y que también podemos usar en el
+navegador gracias a los _bundlers_. En nuestro ejemplo, ahora que nuestro código
+vive dentro de una función, podríamos _exportar_ la función, lo que nos
+permitiría usar esta función desde otros scripts u otros programas. Esto es
+esencial para casi cuaquier programa o script hoy en día, con consecuencias que
+damos por sentado como poder organizar nuestro código en archivos y carpetas
+diferentes o tener dependecias de módulos externos.
+
+
+Para exportar nuestra función `getIds` usando Common JS en Node.js, podemos
+simplemente asignar nuestra función a `module.exports`.
+
+```js
+// al final del script
+module.exports = getIds;
+```
+
+El objeto `module` es una variable local a cada script en Common JS. Si
+asignamos algo a `module.exports`, éste será el valor que recibiremos cuando
+requiramos nuestro "módulo". Por ejemplo, imaginemos que salvamos el script en
+el archivo `src/getIds.js`, y ahora lo queremos usar desde otro script afuera de
+`src/`:
+
+```js
+const getIds = require('./src/getIds');
+// `getIds` tiene el valor que hemos exportado a través de `module.exports`
+// en el script `src/getIds.js`
+```
+
+Common JS también nos ofrece la opción de exportar los valores que queramos
+como propiedades del objeto `exports` (que es un alias de `module.exports`). Así
+en vez de exportar sólo un valor (la función `getids`), podemos exporar varios
+valores.
+
+```js
+exports.getIds = getIds;
+exports.hasId = hasId;
+```
+
+Ahora cuando requerimos nuestro módulo desde otro script lo que recibimos es
+un objeto (el objeto `exports`), que tiene dos propiedades, `getIds` y `hasId`.
+
+```js
+const myModule = require('./src/myModule');
+// myModule.getIds()
+// myModule.hasId()
+```
+
+### Ejercicio paradigma por procedimientos
+
+`code: 8min`
 
 ```js
 function isPrime(num) {
@@ -355,15 +483,9 @@ function getPrimes(start, end) {
 console.log(getPrimes(2, 20));
 ```
 
-### Ejercicio paradigma por procedimientos
-
-`code: 8min`
-
-...
-
 ### OOP
 
-`video: 4min`
+`video: 5min`
 
 ```js
 function Note(text) {
@@ -392,7 +514,7 @@ console.log(note.toString());
 
 ### FP
 
-`video: 4min`
+`video: 5min`
 
 Mecanismo principal de cómputo es aplicar argumentos a funciones.
 
