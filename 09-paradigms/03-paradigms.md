@@ -615,7 +615,69 @@ en la que haremos los ejercicios.
 
 `video: 5min`
 
-Mecanismo principal de cómputo es aplicar argumentos a funciones.
+Finalmente llegamos al paradigma funcional (_Functional Programming_), y digo
+finalmente porque es probable que sientas curiosidad por conocer un poco más
+sobre este paradigma tan incomprendido, pero tan de moda en el mundo de
+JavaScript.
+
+A diferencia del paradigma procedural y el orientado a objetos, la programación
+funcional pertenece a la rama de los lenguajes declarativos. Esto quiere decir
+que el "estilo" en el que programamos va a estar mucho más enfocado en qué
+queremos hacer y no tanto en los detalles de cómo la computadora lo ejecuta.
+
+Cuando hablamos del estilo imperativo dijimos que nos enfocábamos en asignar
+valores a variables, mutar esos valores, e iterar usando bucles. La programación
+funcional se caracteriza por exactamente lo opuesto. En FP el principal
+mecanismo de cómputo es la aplicación de argumentos a funciones. De hecho,
+podemos resumir los principios de la programación funcional en los siguientes:
+
+* Higher order functions (funciones como argumentos y/o valores de retorno)
+* Funciones puras (sin efectos secundarios y siempre retorna lo mismo para los
+  mismos argumentos)
+* Inmutabilidad (no "mutar" valores asignados)
+* Evitar el "estado" compartido (no usar referencias fuera del scope de la
+  función)
+* Uso de recursión como alternativa a la iteración.
+
+Veamos estos conceptos en acción:
+
+```js
+// pasando una función anónima como un argumento
+setTimeout(function () {
+  //...
+}, 100);
+
+
+// recibiendo una función como un argumento
+function map(arr, fn) {
+  const results = [];
+  for (let i = 0; i < arr.length; i++) {
+    results.push(fn(arr[i]));
+  }
+  return results;
+}
+
+// Ahora reemplazando iteración con recursividad
+function recursiveMap(arr, fn) {
+  if (!arr.length) {
+    return [];
+  }
+  return [fn(arr[0])].concat(recursiveMap(arr.slice(1), fn));
+}
+``` 
+
+La última función (`recursiveMap`) es un buen ejemplo de FP porque muestra como
+podemos recibir una función como argumento, reemplzar iteración por recursión, 
+evitar asignación y mutación. Además no accede a ninguna referencia fuera de su
+scope (sólo usa variables locales) y no tiene ningún efecto secundario (se
+limita a producir output a partir de su input (argumentos).
+
+A diferencia de los "procedimientos", las funciones puras se caracterizan por
+evitar los efectos secundarios
+
+Arrow functions?
+
+Transformaciones...
 
 ```js
 const noteToString = note => [
