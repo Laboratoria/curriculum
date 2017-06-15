@@ -642,6 +642,12 @@ Blog posts:
 
 * [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/),
   Yevgeniy Brikman, Apr 09 2014
+* [Understanding JavaScript Constructors](https://css-tricks.com/understanding-javascript-constructors/),
+  Faraz Kelhini, CSS Tricks, Sep 24 2015
+* [ECMAScript 6 modules: the final syntax](http://2ality.com/2014/09/es6-modules-final.html),
+  Axel Rauschmayer, 07 Sep 2014
+* [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc),
+  Preethi Kasireddy (FreeCodeCamp), Jan 22 2016
 * [Introducción a programación funcional en JavaScript — Parte 1](https://medium.com/laboratoria-how-to/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-1-e0b1d0b2142e),
   Lupo Montero en Medium, Feb 15 2017
 
@@ -663,5 +669,6 @@ Otros recursos:
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
-* https://css-tricks.com/understanding-javascript-constructors/
+* [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
+* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)

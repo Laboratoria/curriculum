@@ -120,18 +120,19 @@ orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | video      |    2min  | ¿Qué son los paradigmas de programación?
-|   2   | video      |    3min  | Declarativo vs Imperativo
-|   3   | video      |    3min  | Comparativa de paradigmas
-|   4   | video      |    4min  | Por procedimientos
-|   5   | code       |   10min  | Ejercicio por procedimientos
-|   6   | video      |    4min  | Orientado a objetos
-|   7   | code       |   10min  | Ejercicio OOP
-|   8   | video      |    4min  | Funcional
-|   9   | code       |   10min  | Ejercicio funcional
-|  10   | quiz       |   10min  | Prueba tu conocimiento
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | video  |    3min  | ¿Qué son los paradigmas de programación?
+|   2   | video  |    3min  | Historia
+|   3   | video  |    4min  | Declarativo vs Imperativo
+|   4   | video  |    5min  | Ejercicio Imperativo
+|   5   | video  |    5min  | Por procedimientos
+|   6   | code   |    8min  | Ejercicio por procedimientos
+|   7   | video  |    5min  | Orientado a objetos
+|   8   | code   |   10min  | Ejercicio OOP
+|   9   | video  |    5min  | Funcional
+|  10   | code   |   10min  | Ejercicio funcional
+|  11   | qa     |    5min  | Re-cap
 
 ### Lesson 4: [OOP y herencia prototipal](#)
 
@@ -314,6 +315,12 @@ Blog posts:
 
 * [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/),
   Yevgeniy Brikman, Apr 09 2014
+* [Understanding JavaScript Constructors](https://css-tricks.com/understanding-javascript-constructors/),
+  Faraz Kelhini, CSS Tricks, Sep 24 2015
+* [ECMAScript 6 modules: the final syntax](http://2ality.com/2014/09/es6-modules-final.html),
+  Axel Rauschmayer, 07 Sep 2014
+* [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc),
+  Preethi Kasireddy (FreeCodeCamp), Jan 22 2016
 * [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257),
   Eric Elliott en Medium, Feb 20 2017
 * [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/),
@@ -356,8 +363,9 @@ Otros recursos:
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
-* https://css-tricks.com/understanding-javascript-constructors/
+* [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
+* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
 
 ***
 
