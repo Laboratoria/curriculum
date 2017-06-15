@@ -356,6 +356,8 @@ Otros recursos:
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+* https://css-tricks.com/understanding-javascript-constructors/
 
 ***
 

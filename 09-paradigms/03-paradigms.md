@@ -467,17 +467,23 @@ en la que haremos los ejercicios.
 
 `video: 5min`
 
-La **Programación Orientada a Objetos** (_Object Oriented Programming_ - OOP) 
+La **Programación Orientada a Objetos** (_Object Oriented Programming_ - OOP)
 representa un cambio de paradigma bastante grande con respecto al paradigma por
-procedimientos que hemos visto hasta ahora. Cuando programamos por
-procedimientos nos concentramos en funciones, que representan acciones, y así
-nuestra semántica está orientada a acciones antes que a estructuras de datos.
+procedimientos que acabamos de ver. Cuando programamos por procedimientos nos
+concentramos en funciones, que representan acciones, y así nuestra semántica
+está orientada a acciones antes que a estructuras de datos.
 
 En la programación orientada a objetos le damos la vuelta a la tortilla, y en
 vez de pensar en acciones nos enfocamos en definir los "tipos" de datos primero,
-y después decidimos que interacciones van a tener. Resumiendo, ponemos las
-definiciones de los tipos de datos como punto de partida a la hora de modelar un
-programa.
+y después decidimos que interacciones van a tener.
+
+En OOP nos concentramos en describir objetos, que tienen una data (un estado)
+asociado y una serie de operaciones que pueden realizar.
+
+A la hora de construir aplicaciones nos vemos obligados a pensar en cómo
+"modelar" o representar en código cosas del mundo real o conceptos útiles para
+un ser humano (un usuario, un documento, ...) y la programación orientada a
+objetos propone crear tipos de objetos para representar estas cosas.
 
 JavaScript es un lenguage dinámicamente tipado (_dynamically typed_), pero a
 diferencia de la mayoría de lenguajes de su generación, usa herencia prototipal
@@ -506,7 +512,7 @@ Note.prototype.toString = function () {
 };
 ```
 
-Hemos declarado una función (`Notes`) que hace uso de una _pseudo variable_ 
+Hemos declarado una función (`Notes`) que hace uso de una _pseudo variable_
 llamada `this`. La presencia de `this` (junto con la convención de usar la
 primera letra en mayúscula), nos indica que esta función está escrita
 para ser invocada con el _keyword_ `new`. Este tipo de función es lo que
@@ -516,7 +522,14 @@ prototipo que tendrán los objetos creados con este constructor. Dicho de otra
 manera, menos correcta pero más común, los constructores son lo más parecido a
 clases en JavaScript (por lo menos hasta ES6).
 
-Ahora que ya tenemos un constructor, vamos a usarlo para crear un objeto:
+Cuando usamos constructores, es importante acordarnos de usar `new` a la hora de
+invocarlos, si no, el constructor retornará `undefined`.
+
+Aparte del constructor, hemos añadido un método al prototipo del constructor
+(`Note.prototype`). Cuando usamos constructores, el prototipo del constructor
+será usado en todas las instancias (objetos) creados con el constructor.
+
+Creemos un objeto para ver que significa todo esto:
 
 ```js
 const note = new Note('comprar arroz');
@@ -532,27 +545,41 @@ Note {
   completed: false }
 ```
 
-...
-
-inheritance
+Podemos ver que `note` es un objeto con tres propiedades (`text`, `createdAt` y
+`completed`). Estas tres propiedades están declaradas directamente sobre la
+instancia. Pero qué pasó con el método `toString` que le añadimos al prototipo
+de `Note`?
 
 ```js
-// Constructor `Note`
-function Note(text) {
-  this.text = text || '';
-  this.createdAt = new Date();
-  this.completed = false;
-}
+console.log(note.prototype); // undefined
+console.log(note.__proto__); // Note { toString: [Function] }
+console.log(note.toString); // [Function]
 
-// Añade método `toString()` a prototipo de `Notes`.
-Note.prototype.toString = function () {
-  let str = '[' + (this.completed ? 'X' : ' ') + ']';
-  str += ' | ' + this.createdAt.toDateString();
-  str += ' | ' + this.text;
-  return str;
-};
+console.log(note instanceof Note); // true
+console.log(Note.prototype.isPrototypeOf(note)); // true
+```
 
-// Contructor `ImageNote`
+El objeto `note` sí tiene el método `toString`, pero no directamente sobre la
+instancia, si no que está en su prototipo. Cuando tratamos de acceder a una
+propiedad que no existe en un objeto, JavaScript va a buscar a ver si hay una
+propiedad con ese nombre en el prototipo del objeto, si la encuentra usará esa,
+si no buscará en el prototipo del prototipo, y así irá recorriendo lo que
+conocemos como la cadena de prototipos (prototype chain).
+
+En la programación orientada a objetos el principal mecanismo de reuso de código
+es la "herencia", donde un objeto "hereda" una serie de propiedades y/o métodos
+de otro objeto o clase (en herencia prototipal heredamos directamente de un
+objeto en vez de una clase).
+
+Para heredar de un objeto existente, podemos crear un nuevo constructor y
+a su prototipo asignarle un objeto que tenga como prototipo el prototipo del
+constructor que queremos "extender". Para crear ese objeto que podamos usar como
+prototipo del nuevo constructor vamos a usar `Object.create()`, que nos permite
+crear un nuevo objeto especificando su prototipo.
+
+Implementemos un nuevo tipo de nota que herede de `Note`.
+
+```js
 function ImageNote(url) {
   this.url = url;
   Note.call(this, 'an image note');
@@ -566,23 +593,25 @@ ImageNote.prototype.constructor = ImageNote;
 ImageNote.prototype.toString = function () {
   return Note.prototype.toString.call(this) + ' | ' + this.url;
 };
+```
 
+Hemos creado un constructor `ImageNote`, y antes de fijarnos en el cuerpo del
+constructor veamos primero el mecanismo de herencia. A `ImageNote.prototype` le
+asignamos un objeto nuevo que tiene `Note.prototype` como prototipo usando
+`Object.create()`.
 
-const note = new Note('comprar arroz');
+Ahora instanciemos nuestro objeto y veamos como se comporta:
+
+```js
 const imageNote = new ImageNote('http://foo.bar/baz.jpg');
-
-console.log(note);
-console.log(note.toString());
 
 console.log(imageNote);
 console.log(imageNote.toString());
 
-console.log(note instanceof Note); // true
 console.log(note instanceof ImageNote); // false
 console.log(imageNote instanceof Note); // true
 console.log(imageNote instanceof ImageNote); // true
 
-console.log(Note.prototype.isPrototypeOf(note)); // true
 console.log(Note.prototype.isPrototypeOf(imageNote)); // true
 console.log(ImageNote.prototype.isPrototypeOf(note)); // false
 console.log(ImageNote.prototype.isPrototypeOf(imageNote)); // true
@@ -592,7 +621,8 @@ console.log(ImageNote.prototype.isPrototypeOf(imageNote)); // true
 
 `code: 10min`
 
-...
+En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
+en la que haremos los ejercicios.
 
 ### FP
 
@@ -614,7 +644,8 @@ console.log(noteToString({text: 'hola', createdAt: new Date()}));
 
 `code: 10min`
 
-...
+En el terminal, escribe `paradigms` y después [Enter] para abrir la aplicación
+en la que haremos los ejercicios.
 
 ***
 
@@ -645,3 +676,5 @@ Otros recursos:
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+* https://css-tricks.com/understanding-javascript-constructors/
