@@ -714,6 +714,14 @@ const createRobot = name => ({
 });
 ```
 
+Cuando el cuerpo de la función es sólo una expresión (un objeto literal en
+nuestro caso), las "arrow functions" nos permiten hacer retorno implícito, lo
+que significa que podemos obviar los `{}` que determinan el "bloque' de la
+función y el keyword `return`. El resultado de evaluar la expresión será el
+valor de retorno. En este ejemplo hemos envuelto la expresión (el objeto
+literal) en paréntesis `()` para evitar que los `{}` se confundan con el cuerpo
+de la función. En este caso los curly braces son parte del objeto!
+
 ***
 
 En FP, en vez de pensar en "tipos", normalmente nos centramos en
@@ -805,3 +813,6 @@ Otros recursos:
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+

@@ -366,3 +366,6 @@ Otros recursos:
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
