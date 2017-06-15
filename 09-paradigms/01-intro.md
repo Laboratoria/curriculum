@@ -56,10 +56,15 @@ En esta lección queremos dejarte claro lo siguiente:
 
 ### Estrategia de aprendizaje
 
-* Producto/proyectos
-* Videos + Ejercicios + Quizzes
+* Producto/proyectos: [extender el juego](https://laboratoria.github.io/game-oop/)
 * Charlas, ayudantías y ejercicios guiados
+* Videos
+* Ejercicios:
+  [learnyouparadigms](https://github.com/Laboratoria/learnyouparadigms),
+  [planetproto](https://github.com/sporto/planetproto),
+  [functional-programming-workshop](https://github.com/timoxley/functional-javascript-workshop)
 * Workshops
+* Quizzes
 
 ### Entregables
 
@@ -75,3 +80,11 @@ En esta lección queremos dejarte claro lo siguiente:
 * Proyectos (50% => 25% x 2)
 * Demos (20% => 10% x 2)
 * Examen (20%)
+
+## Syllabus
+
+Ver [Syllabus en readme del curso](README.md#syllabus).
+
+## Calendario
+
+Ver [calendario para LIM20171](lim-ec-js-2017-1.md).
