@@ -741,20 +741,13 @@ argumento.
 ```js
 const array = ['1', '02', '33', '3.14', '028'];
 
-
-const double = function (num) {
-  return num + num;
-};
+const double = num => num + num;
 
 console.log(array.map(double));
 // [ '11', '0202', '3333', '3.143.14', '028028' ]
 
-
 console.log(array.map(parseFloat));
 // [ 1, 2, 33, 3.14, 28 ]
-
-
-//const double2 = num => num + num;
 
 console.log(array.map(parseFloat).map(double));
 // [ 2, 4, 66, 6.28, 56 ]
@@ -766,7 +759,8 @@ console.log(arrayToDouble(array));
 ```
 
 Como vemos en estos ejemplos, podemos encadenar invocaciones a `Array#map` para
-ir "transformando" os elementos de un arreglo.
+ir "transformando" los elementos de un arreglo, ya que cada invocación retorna
+un array.
 
 ### Ejercicio FP
 
