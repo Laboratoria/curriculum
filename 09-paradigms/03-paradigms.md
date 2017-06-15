@@ -724,7 +724,11 @@ un objeto (su valor de retorno). De esta forma cada función está completamente
 aislada del mundo exterior y se concentra en hacer sólo una cosa.
 
 Un buen ejemplo para visualzar el concepto de transformación es el método
-`Array#map` en JavaScript (muy parecido al mapa que acabomos de implemntar).
+`Array#map` en JavaScript (muy parecido al map que acabomos de implemntar).
+`Array.prototype.map` recibe un argumento, una función que será invocada para
+cada elemento del array (pasando el elemento como argumento), y retorna un nuevo
+arreglo con los resultados de cada invocación a la función que pasamos como
+argumento.
 
 ```js
 const array = ['1', '02', '33', '3.14', '028'];
@@ -752,6 +756,9 @@ const arrayToDouble = array => array.map(parseFloat).map(double);
 console.log(arrayToDouble(array));
 // [ 2, 4, 66, 6.28, 56 ]
 ```
+
+Como vemos en estos ejemplos, podemos encadenar invocaciones a `Array#map` para
+ir "transformando" os elementos de un arreglo.
 
 ### Ejercicio FP
 
