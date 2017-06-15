@@ -669,24 +669,88 @@ function recursiveMap(arr, fn) {
 La última función (`recursiveMap`) es un buen ejemplo de FP porque muestra como
 podemos recibir una función como argumento, reemplzar iteración por recursión, 
 evitar asignación y mutación. Además no accede a ninguna referencia fuera de su
-scope (sólo usa variables locales) y no tiene ningún efecto secundario (se
-limita a producir output a partir de su input (argumentos).
+scope (sólo usa variables locales) y no tiene ningún efecto secundario: se
+limita a producir un valor de retorno a partir de su input (argumentos).
 
-A diferencia de los "procedimientos", las funciones puras se caracterizan por
-evitar los efectos secundarios
-
-Arrow functions?
-
-Transformaciones...
+Para comparar con el ejemplo que hicimos de OOP, ahora vamos a crear una función
+que cree objetos, algo parecido a un constructor, pero muy distinto a la vez.
+Los constructores son un tipo de función especial que se invoca con `new`, usa
+`this` internamente y define un prototipo. La función que vamos a implementar
+ahora se va a limitar a crear un objeto y retornarlo, nada de `new`, `this` o
+`prototype`.
 
 ```js
-const noteToString = note => [
-  '[' + (note.completed ? 'X' : ' ') + ']',
-  ' | ' + note.createdAt.toDateString(),
-  ' | ' + note.text
-].join('');
+const createRobot = function(name) {
+  return {
+    name: name,
+    active: false
+  };
+};
+```
 
-console.log(noteToString({text: 'hola', createdAt: new Date()}));
+ES2015 introduce "arrow functions" (funciones flecha), que es una implementación
+de funciones muy parecido al keyword `function`, pero que no implica `new`,
+`this` ni `prototype`.
+
+```js
+const createRobot = (name) => {
+  return {
+    name: name,
+    active: false
+  };
+};
+```
+
+***
+
+PRO TIP:
+
+Con un poquito más de azúcar sintáctica cortesía de ES2015:
+
+```js
+const createRobot = name => ({
+  name,
+  active: false
+});
+```
+
+***
+
+En FP, en vez de pensar en "tipos", normalmente nos centramos en
+transformaciones. Es decir, una función recibe un input (argumentos) y de alguna
+forma los "transforma" en otra cosa. Por ejemplo, en la función anterior,
+podemos decir que la función `createRobot` transforma un `string` (su input) en
+un objeto (su valor de retorno). De esta forma cada función está completamente
+aislada del mundo exterior y se concentra en hacer sólo una cosa.
+
+Un buen ejemplo para visualzar el concepto de transformación es el método
+`Array#map` en JavaScript (muy parecido al mapa que acabomos de implemntar).
+
+```js
+const array = ['1', '02', '33', '3.14', '028'];
+
+
+const double = function (num) {
+  return num + num;
+};
+
+console.log(array.map(double));
+// [ '11', '0202', '3333', '3.143.14', '028028' ]
+
+
+console.log(array.map(parseFloat));
+// [ 1, 2, 33, 3.14, 28 ]
+
+
+//const double2 = num => num + num;
+
+console.log(array.map(parseFloat).map(double));
+// [ 2, 4, 66, 6.28, 56 ]
+
+const arrayToDouble = array => array.map(parseFloat).map(double);
+
+console.log(arrayToDouble(array));
+// [ 2, 4, 66, 6.28, 56 ]
 ```
 
 ### Ejercicio FP
