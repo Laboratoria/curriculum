@@ -49,7 +49,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), orientado a eventos,
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de
-principios, los cuales resultan en estilos muy distintos y lenguages muy
+principios, los cuales resultan en estilos muy distintos y lenguajes muy
 diversos.
 
 Consideremos la siguiente función:
@@ -109,7 +109,7 @@ _multi-paradigma_, lo que quiere decir que nos permiten programar en diferentes
 paradigmas, mientras que otros se enfocan específicamente en uno.
 
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
-elementos propios de lenguages funcionales (por ejemplo funciones como objetos
+elementos propios de lenguajes funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
 funcional. **JavaScript nos permite programar de forma _funcional_, _orientado a
 objetos_, _orientado a eventos_, _por procedimientos_, ...**
@@ -305,19 +305,19 @@ También podemos ver cómo "encadenamos" (method chaining) las invocaciones de
 `filter` y `map` ya que ambas retornan un array, que a su vez tiene todos los
 métodos de `Array.prototype`.
 
-El estilo declarativo depende de que el lenguage (o librerías) nos ofrezcan este
+El estilo declarativo depende de que el lenguaje (o librerías) nos ofrezcan este
 tipo de herramientas o abstracciones con las que poder expresar nuestra lógica
 sin preocuparnos tanto sobre los detalles de implementación.
 
 Para terminar esta sección, cabe mencionar que HTML es un lenguaje declarativo!
 Muchos se quejarían diciendo que HTML no es un lenguaje de programación, sino un
 lenguaje de marcado (_markup language_). Pero podemos considerear a HTML como un
-lenguage declarativo muy restringido, no de uso general, donde sólo podemos
+lenguaje declarativo muy restringido, no de uso general, donde sólo podemos
 crear un árbol de nodos a partir de una estructura de etiquetas (_tags_) con una
 sintáxis y semántica predefinida. Es declarativo en el sentido de que no le
-estamos diciendo a la computadora cómo convertir nuestro código en instruccions,
-sino que describimos de formal declarativa lo que queremos que ocurra (el
-compilador o intérprete se encarga del resto).
+estamos diciendo a la computadora cómo convertir nuestro código en
+instrucciones, sino que describimos de formal declarativa lo que queremos que
+ocurra (el compilador o intérprete se encarga del resto).
 
 ### Ejercicio paradigma imperativo
 
@@ -338,11 +338,15 @@ Fortran II introduce la programación por procedimientos, y de esa forma
 empezamos a "organizar", "abstraer" y "reusar" nuestro código.
 
 Cuando programamos orientados a procedimientos, lo cual puede ser un enfoque
-válido para programas o scripts pequeños, nos concentramos en agrupar código
+válido para ciertos programas o scripts, nos concentramos en agrupar código
 en procedimientos o funciones, e invocar estos procedimientos con diferentes
 argumentos o parámetros. En este sentido es parecido a la programación
 funcional, pero con la diferencia de que nos mantenemos en la rama imperativa,
-mientras que la programación funcional es declarativa.
+describiendo acciones como pasos secuenciales, que podrían tener efectos
+secundarios y donde el output no está necesariamente deterinado por los
+argumentos de entrada. Mientras que la programación funcional es más abstracta,
+se basa en funciones puras sin efectos secundarios, evitar el estado compartido,
+y otros principios específicos de la programación funcional.
 
 Refactoricemos el ejemplo anterior donde sacábamos la propiedad `id` de una
 lista de objetos. Empecemos por envolver el código en una función:
@@ -475,25 +479,17 @@ está orientada a acciones antes que a estructuras de datos.
 
 En la programación orientada a objetos le damos la vuelta a la tortilla, y en
 vez de pensar en acciones nos enfocamos en definir los "tipos" de datos primero,
-y después decidimos que interacciones van a tener.
-
-En OOP nos concentramos en describir objetos, que tienen una data (un estado)
-asociado y una serie de operaciones que pueden realizar.
+y después decidimos que interacciones van a tener. En OOP diseñamos objetos, que
+van a tener una data (un estado) y una serie de operaciones que pueden realizar.
 
 A la hora de construir aplicaciones nos vemos obligados a pensar en cómo
 "modelar" o representar en código cosas del mundo real o conceptos útiles para
 un ser humano (un usuario, un documento, ...) y la programación orientada a
 objetos propone crear tipos de objetos para representar estas cosas.
 
-JavaScript es un lenguage dinámicamente tipado (_dynamically typed_), pero a
-diferencia de la mayoría de lenguajes de su generación, usa herencia prototipal
-en vez de clases, lo cual suele confundir a muchos programadores con experiencia
-en otros lenguajes orientados a objetos.
-
 Imaginemos que tenemos que escribir una aplicación de "notas" donde el usuario
-puede crear diferentes tipos de "notas" (texto, imágenes, audio, ...).
-
-Si vamos a seguir el estilo orientado a objetos, normalmente empezaríamos por
+puede crear diferentes tipos de "notas", marcarlas como completadas, ... Si
+vamos a seguir el estilo orientado a objetos, normalmente empezaríamos por
 modelar el "tipo de objeto" que con el que vamos a representar una "nota".
 Podríamos empezar con algo así:
 
@@ -503,33 +499,26 @@ function Note(text) {
   this.createdAt = new Date();
   this.completed = false;
 }
-
-Note.prototype.toString = function () {
-  let str = '[' + (this.completed ? 'X' : ' ') + ']';
-  str += ' | ' + this.createdAt.toDateString();
-  str += ' | ' + this.text;
-  return str;
-};
 ```
 
-Hemos declarado una función (`Notes`) que hace uso de una _pseudo variable_
-llamada `this`. La presencia de `this` (junto con la convención de usar la
-primera letra en mayúscula), nos indica que esta función está escrita
+Hemos declarado una función (`Note`) que hace uso de una _pseudo variable_
+llamada `this`. La presencia de `this`, junto con la convención de usar la
+primera letra en mayúscula, nos indican que esta función está escrita
 para ser invocada con el _keyword_ `new`. Este tipo de función es lo que
 conocemos como un _constructor_. Los constructores son funciones cuyo propósito
-es crear un objeto, inicializarlo y ofrecernos una manera de "diseñar" el
+es crear un objeto, inicializarlo y ofrecernos una manera de especificar el
 prototipo que tendrán los objetos creados con este constructor. Dicho de otra
 manera, menos correcta pero más común, los constructores son lo más parecido a
 clases en JavaScript (por lo menos hasta ES6).
 
-Cuando usamos constructores, es importante acordarnos de usar `new` a la hora de
-invocarlos, si no, el constructor retornará `undefined`.
+JavaScript es un lenguaje dinámicamente tipado (_dynamically typed_), pero a
+diferencia de la mayoría de lenguajes de su generación, usa herencia prototipal
+en vez de clases, lo cual suele confundir a muchos programadores con experiencia
+en otros lenguajes orientados a objetos.
 
-Aparte del constructor, hemos añadido un método al prototipo del constructor
-(`Note.prototype`). Cuando usamos constructores, el prototipo del constructor
-será usado en todas las instancias (objetos) creados con el constructor.
-
-Creemos un objeto para ver que significa todo esto:
+Cuando invocamos un constructor precedido de `new`, la pseudo-variable `this` es
+una referencia al nuevo objeto creado al invocar el constructor. Creemos un
+objeto para ver que significa todo esto:
 
 ```js
 const note = new Note('comprar arroz');
@@ -547,16 +536,56 @@ Note {
 
 Podemos ver que `note` es un objeto con tres propiedades (`text`, `createdAt` y
 `completed`). Estas tres propiedades están declaradas directamente sobre la
-instancia. Pero qué pasó con el método `toString` que le añadimos al prototipo
-de `Note`?
+instancia.
+
+Cuando usamos constructores, es importante acordarnos de usar `new` a la hora de
+invocarlos, si no, el constructor retornará `undefined`.
+
+```js
+const note = Note('comprar arroz');
+console.log(note); // undefined
+```
+
+Hemos dicho que una de las características fundamentales de OOP es que empezamos
+por definir los tipos de datos (ya sea con clases, constructores, prototipos,
+...), lo cual nos permite inspeccionar los objetos creados para saber si son
+una instacia de un constructor (con el operador `instanceof`) o comprobar si un
+objeto está en la cadena de prototipos de otro objeto
+(`Object.prototype.isPrototypeOf`).
+
+```js
+console.log(note instanceof Note); // true
+console.log(Note.prototype.isPrototypeOf(note)); // true
+```
+
+Ahora que ya hemos definido un constructor que inicializa una serie de
+propiedades, podemos usar el prototipo del constructor (`Note.prototype`) para
+añadir funcionalidad. Todo lo que le añadamos a `Note.prototype` será parte del
+prototipo de los objetos creados por `new Note()`. Añadamos un método al
+prototipo de `Note`:
+
+```js
+Note.prototype.toString = function () {
+  let str = '[' + (this.completed ? 'X' : ' ') + ']';
+  str += ' | ' + this.createdAt.toDateString();
+  str += ' | ' + this.text;
+  return str;
+};
+```
+
+Hemos añadido el método `Note.prototype.toString`, que simplemente retorna una
+representación de nuestro objeto como string. Ahora todos los objetos que
+creemos con `new Note()` deberían de "heredar" un método `toString`. Si hacemos
+`console.log(note)` veremos las tres propiedades que seteamos en el constructor,
+pero qué pasó con el método `toString` que le habíamos  añadimo al prototipo de
+`Note`?
+
+Inspeccionemos un poco...
 
 ```js
 console.log(note.prototype); // undefined
 console.log(note.__proto__); // Note { toString: [Function] }
 console.log(note.toString); // [Function]
-
-console.log(note instanceof Note); // true
-console.log(Note.prototype.isPrototypeOf(note)); // true
 ```
 
 El objeto `note` sí tiene el método `toString`, pero no directamente sobre la
@@ -567,55 +596,13 @@ si no buscará en el prototipo del prototipo, y así irá recorriendo lo que
 conocemos como la cadena de prototipos (prototype chain).
 
 En la programación orientada a objetos el principal mecanismo de reuso de código
-es la "herencia", donde un objeto "hereda" una serie de propiedades y/o métodos
+es la "herencia", donde un objeto "hereda" una serie de propiedades y métodos
 de otro objeto o clase (en herencia prototipal heredamos directamente de un
 objeto en vez de una clase).
 
-Para heredar de un objeto existente, podemos crear un nuevo constructor y
-a su prototipo asignarle un objeto que tenga como prototipo el prototipo del
-constructor que queremos "extender". Para crear ese objeto que podamos usar como
-prototipo del nuevo constructor vamos a usar `Object.create()`, que nos permite
-crear un nuevo objeto especificando su prototipo.
-
-Implementemos un nuevo tipo de nota que herede de `Note`.
-
-```js
-function ImageNote(url) {
-  this.url = url;
-  Note.call(this, 'an image note');
-}
-
-// Heredamos de `Note.prototype`
-ImageNote.prototype = Object.create(Note.prototype);
-ImageNote.prototype.constructor = ImageNote;
-
-// Sobreescribimos el método `toString` para instancias de `ImageNote`
-ImageNote.prototype.toString = function () {
-  return Note.prototype.toString.call(this) + ' | ' + this.url;
-};
-```
-
-Hemos creado un constructor `ImageNote`, y antes de fijarnos en el cuerpo del
-constructor veamos primero el mecanismo de herencia. A `ImageNote.prototype` le
-asignamos un objeto nuevo que tiene `Note.prototype` como prototipo usando
-`Object.create()`.
-
-Ahora instanciemos nuestro objeto y veamos como se comporta:
-
-```js
-const imageNote = new ImageNote('http://foo.bar/baz.jpg');
-
-console.log(imageNote);
-console.log(imageNote.toString());
-
-console.log(note instanceof ImageNote); // false
-console.log(imageNote instanceof Note); // true
-console.log(imageNote instanceof ImageNote); // true
-
-console.log(Note.prototype.isPrototypeOf(imageNote)); // true
-console.log(ImageNote.prototype.isPrototypeOf(note)); // false
-console.log(ImageNote.prototype.isPrototypeOf(imageNote)); // true
-```
+En la próxima lección de este curso exploraremos los detalles de cómo
+implementar jerarquías de herencia usando prototipos. Por el momento nos
+quedamos con estos conceptos.
 
 ### Ejercicio OOP
 
