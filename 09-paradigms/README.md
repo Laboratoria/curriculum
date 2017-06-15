@@ -1,14 +1,15 @@
 # 09. Paradigmas de programación
 
-Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
-de pensar en cómo se organiza un programa basado en una serie de principios, los
-cuales resultan en estilos muy distintos y lenguages muy diversos.
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
+diferentes de pensar en cómo se organiza un programa basado en una serie de
+principios, los cuales resultan en estilos muy distintos y lenguages muy
+diversos.
 
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
 elementos propios de lenguages funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
-funcional, si no que en su dinamismo y rareza, **JavaScript nos permite programar
-de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
+funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
+programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
 _por procedimientos_, ...**
 
 Como desarrollador **Full Stack JS** es esencial entender los distintos
@@ -40,7 +41,7 @@ el paradigma funcional.
 * Las diferencias entre **constructores** y **factories**
 * Cómo implementar **herencia prototipal**
 * Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
+* A usar **composición** como alternativa a la _herencia_
 * A **trabajar sobre una base de código existente**
 * A trabajar haciendo **pair programming**
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
@@ -75,18 +76,13 @@ Participar en el proyecto involucra lo siguiente:
 El juego está inspirado en el ejemplo de
 [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
 
-
-***
-
-Evaluación previa!!!
-
 ***
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
+### Lesson 1: [Presentación del curso](01-intro.md)
 
-1h (presencial)
+15min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
@@ -96,23 +92,25 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+|   1   | charla     |   15min  | xxx
 
-### Lesson 2: [Entorno y metodología de trabajo](#)
+### Lesson 2: [Entorno y metodología de trabajo](02-env.md)
 
 1h (presencial)
 
-Durante esta sesión nos aseguraremos que todas tienen git instalado, acceso al
-repo, su propio fork, ...
+Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
+acceso al repo, su propio fork, ...
 
 #### Lesson plan
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   30min  | Entorno: Git + GitHub
-|   2   | reunión    |   30min  | Identificar tareas, dividir trabajo
+|   1   | workshop   |   15min  | Entorno: Git + GitHub
+|   2   | workshop   |   15min  | Identificar tareas, dividir trabajo
+|   3   | workshop   |   15min  | Entorno: Node.js + npm
+|   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
 
-### Lesson 3: [Introducción a Paradigmas de Programación](#)
+### Lesson 3: [Introducción a Paradigmas de Programación](03-paradigms.md)
 
 1h (self-paced)
 
@@ -122,18 +120,19 @@ orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | video      |    2min  | ¿Qué son los paradigmas de programación?
-|   2   | video      |    3min  | Declarativo vs Imperativo
-|   3   | video      |    3min  | Comparativa de paradigmas
-|   4   | video      |    4min  | Por procedimientos
-|   5   | code       |   10min  | Ejercicio por procedimientos
-|   6   | video      |    4min  | Orientado a objetos
-|   7   | code       |   10min  | Ejercicio OOP
-|   8   | video      |    4min  | Funcional
-|   9   | code       |   10min  | Ejercicio funcional
-|  10   | quiz       |   10min  | Prueba tu conocimiento
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | video  |    3min  | ¿Qué son los paradigmas de programación?
+|   2   | video  |    3min  | Historia
+|   3   | video  |    4min  | Declarativo vs Imperativo
+|   4   | video  |    5min  | Ejercicio Imperativo
+|   5   | video  |    5min  | Por procedimientos
+|   6   | code   |    8min  | Ejercicio por procedimientos
+|   7   | video  |    5min  | Orientado a objetos
+|   8   | code   |   10min  | Ejercicio OOP
+|   9   | video  |    5min  | Funcional
+|  10   | code   |   10min  | Ejercicio funcional
+|  11   | qa     |    5min  | Re-cap
 
 ### Lesson 4: [OOP y herencia prototipal](#)
 
@@ -296,11 +295,13 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 Cursos similares que sirven como referencia:
 
-* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion), José Dimas Luján Castillo, video2brain, 8 Mar 2017
+* [Fundamentos de la programación: Paradigmas de programación](https://www.video2brain.com/mx/cursos/fundamentos-de-la-programacion-paradigmas-de-programacion),
+  José Dimas Luján Castillo, video2brain, 8 Mar 2017
 * [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015),
   Hack Reactor en Udacity
 * [Ejercicio de ejemplo del curso de Hack Reactor](https://github.com/madbernard/blinky-dance-party)
-* [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html), Kurt Nørmarks, Aalborg University, Dinamarca.
+* [Overview of the four main programming paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html),
+  Kurt Nørmarks, Aalborg University, Dinamarca.
 
 ## Referencias
 
@@ -313,92 +314,58 @@ Capítulos de libros:
 Blog posts:
 
 * [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/),
-  Yevgeniy Brikman, Apr 09, 2014
+  Yevgeniy Brikman, Apr 09 2014
+* [Understanding JavaScript Constructors](https://css-tricks.com/understanding-javascript-constructors/),
+  Faraz Kelhini, CSS Tricks, Sep 24 2015
+* [ECMAScript 6 modules: the final syntax](http://2ality.com/2014/09/es6-modules-final.html),
+  Axel Rauschmayer, 07 Sep 2014
+* [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc),
+  Preethi Kasireddy (FreeCodeCamp), Jan 22 2016
 * [Why Learn Functional Programming in JavaScript? (Composing Software)]( https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257),
   Eric Elliott en Medium, Feb 20 2017
 * [JavaScript and Functional Programming](https://bethallchurch.github.io/JavaScript-and-Functional-Programming/),
   Beth Allchurch, 29 of June, 2016
 * [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming),
   Mary Rose Cook
+* [Introducción a programación funcional en JavaScript — Parte 1](https://medium.com/laboratoria-how-to/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-1-e0b1d0b2142e),
+  Lupo Montero en Medium, Feb 15 2017
 
 Videos:
 
 * [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
   `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
+* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw),
+  `8:27`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
+  Jun 28 2016
+* [Qué es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
+  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
+  8 Mar 2017
 * [Prototypal Inheritance](https://frontendmasters.com/courses/javascript-jquery-dom/prototypal-inheritance/),
   `8:52`, Justin Meyer, [Frontend Masters](https://frontendmasters.com/)
 * Playlist: [Object Creation in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub),
-  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q), 2016
+  `aprox. 3h`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
+  2016
 * [Prototypes in JavaScript - FunFunFunction #16](https://www.youtube.com/watch?v=riDVvXZ_Kb4),
   `11:55`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
   25 Jan 2016
 * [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
   `19:19`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
   22 ago. 2016
-* [Que es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),
-  `5:15`, José Dimas Luján Castillo, [video2brain](https://www.video2brain.com/),
-  8 Mar 2017
 * [Learning Functional Programming with JavaScript- JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY),
-  `29:56`, Anjana Vakil, [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA) 2016
+  `29:56`, Anjana Vakil,
+  [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
+  2016
 
 Otros recursos:
 
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
+* [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
+* [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
+* [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
+* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-***
-
-## Lesson plan para LIM20171
-
-* Duración: 4 semanas
-* Horas por semana: 4-5 hrs
-
-### Semana 1
-
-#### Jueves 15 de Junio
-
-* Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
-  1h (presencial)
-* Lección 2: [Entorno y metodología de trabajo](#) 1h (presencial)
-* Lección 3: [Introducción a Paradigmas de Programación](#)
-  1h (self-paced)
-
-#### Sábado 17 de Junio
-
-* Lección 4: [OOP y herencia prototipal](#) 1h (self-paced)
-
-### Semana 2
-
-#### Jueves 22 de Junio
-
-* Lección 5: [Ejercicios guiados, ayudantías, charlas](#)
-  1h (presencial)
-* Lección 6: [Proyecto (implementación OOP)](#) 2h (presencial)
-
-#### Sábado 24 de Junio
-
-* Lección 7: [Proyecto (implementación OOP)](#) 2h (self-paced)
-
-### Semana 3
-
-#### Miércoles 28 de Junio
-
-* Lección 8: [Demos de proyectos OOP](#) 1h (presencial)
-* Lección 9: [Object factories and composition](#) 1h (self-paced)
-* Lección 10: [Ejercicios guiados, ayudantías, charlas](#) 1h (presencial)
-
-#### Sábado 1 de Julio
-
-* Lección 11: [Proyecto (implementación FP)](#) 2h (self-paced)
-
-### Semana 4
-
-#### Jueves 6 de Julio
-
-* Lección 12: [Proyecto (implementación FP)](#) 2h (presencial)
-* Lección 13: [Demos de proyectos FP](#) 1h (presencial)
-
-#### Sábado 8 de Julio
-
-* Lección 14: [Examen](#) 1h (presencial)
