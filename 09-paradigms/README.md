@@ -82,7 +82,7 @@ El juego está inspirado en el ejemplo de
 
 ### Lesson 1: [Presentación del curso](01-intro.md)
 
-30min (presencial)
+15min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
@@ -92,11 +92,11 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   30min  | xxx
+|   1   | charla     |   15min  | xxx
 
-### Lesson 2: [Entorno y metodología de trabajo](#)
+### Lesson 2: [Entorno y metodología de trabajo](02-env.md)
 
-1.5h (presencial)
+1h (presencial)
 
 Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
 acceso al repo, su propio fork, ...
@@ -105,12 +105,12 @@ acceso al repo, su propio fork, ...
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | workshop   |   20min  | Entorno: Git + GitHub
-|   2   | workshop   |   30min  | Identificar tareas, dividir trabajo
-|   3   | workshop   |   20min  | Entorno: Node.js + npm
-|   4   | workshop   |   20min  | Ejemplo: Workshopper (paradigms)
+|   1   | workshop   |   15min  | Entorno: Git + GitHub
+|   2   | workshop   |   15min  | Identificar tareas, dividir trabajo
+|   3   | workshop   |   15min  | Entorno: Node.js + npm
+|   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
 
-### Lesson 3: [Introducción a Paradigmas de Programación](#)
+### Lesson 3: [Introducción a Paradigmas de Programación](03-paradigms.md)
 
 1h (self-paced)
 

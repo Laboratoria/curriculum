@@ -8,7 +8,7 @@
 #### Jueves 15 de Junio
 
 * Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
-  30min (presencial)
+  15min (presencial)
 * Lección 2: [Entorno y metodología de trabajo](#) 1h (presencial)
 * Lección 3: [Introducción a Paradigmas de Programación](#)
   1h (self-paced)

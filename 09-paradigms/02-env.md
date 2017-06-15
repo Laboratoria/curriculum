@@ -3,7 +3,7 @@
 ## Lección 02: Entorno y metodología de trabajo
 
 * Formato: `workshop` (en el futuro será video)
-* Duración: `1h 30min`
+* Duración: `1h`
 
 Durante esta sesión nos aseguraremos ,
 acceso al repo, su propio fork, ...
@@ -21,27 +21,27 @@ acceso al repo, su propio fork, ...
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | workshop   |   20min  | Entorno: Git + GitHub
-|   2   | workshop   |   30min  | Identificar tareas, dividir trabajo
-|   3   | workshop   |   20min  | Entorno: Node.js + npm
-|   4   | workshop   |   20min  | Ejemplo: Workshopper (paradigms)
+|   1   | workshop   |   15min  | Entorno: Git + GitHub
+|   2   | workshop   |   15min  | Identificar tareas, dividir trabajo
+|   3   | workshop   |   15min  | Entorno: Node.js + npm
+|   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
 
 #### 1. Entorno: Git + GitHub
 
 * Formato: `workshop`
-* Duración: `20min`
+* Duración: `15min`
 
 #### 2. Identificar tareas, dividir trabajo
 
 * Formato: `workshop`
-* Duración: `30min`
+* Duración: `15min`
 
 #### 3. Entorno: Node.js + npm
 
 * Formato: `workshop`
-* Duración: `20min`
+* Duración: `15min`
 
 #### 4. Ejemplo: Workshopper (paradigms)
 
 * Formato: `workshop`
-* Duración: `20min`
+* Duración: `15min`
