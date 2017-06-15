@@ -169,3 +169,8 @@ siguientes semanas.
 
 1. El coordinador del curso aprueba el contenido de la primera semana y hace
 **Merge to master**
+
+***
+
+## Buenas prácticas para generar cursos
+ -  **Mantener tus cursos DRY**. Al momento de planear el curso, tener en consideración que ya existe material (videos, entradas de blog, etc) muy bueno en internet que únicamente necesita traducirse. Generar contenido desde 0 es dificil. Traducir y dar credito, no.
