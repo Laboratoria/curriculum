@@ -14,7 +14,7 @@ Completa las siguientes evaluaciones:
 1. [Cuestionario de conceptos](https://goo.gl/forms/mfLgPHFwGfI0lrSH2)
 Los cuestionarios sólo pueden ser completados una vez y **NO** podrás cambiar tus respuestas.
 
-2. [Retos de código](www.replit.com)
+2. [Retos de código](https://repl.it/classroom/invite/GLlJ8G7)
 Los retos de código puedes intentar resolverlos cuantas veces quieras.
 
 <h4>IMPORTANTE: _Si estás tomando este curso como parte del proceso de postulación para Laboratoria, tu desempeño en los cuestionarios y retos de código serán tomados en consideración en el proceso de admisión. _  </h4>

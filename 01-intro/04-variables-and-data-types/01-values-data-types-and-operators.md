@@ -343,3 +343,5 @@ false === 0
 "" === 0
 // returns > false
 ```
+
+<h3>[CONTINUAR](01-intro/04-variables-and-data-types/02-variables.md)</h3>
