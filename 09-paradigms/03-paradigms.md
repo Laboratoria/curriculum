@@ -254,19 +254,19 @@ var array = [
 ```
 
 A partir de esta data, ahora nos piden extraer los `id` de cada un de los
-objetos y amacenarlos en un nuevo arreglo (`names`). Si nos planteamos el
+objetos y amacenarlos en un nuevo arreglo (`ids`). Si nos planteamos el
 problema desde un enfoque imperativo, podríamos implementar una solución así:
 
 ```js
-const names = [];
+const ids = [];
 
 for (var i = 0; i < array.length; i++) {
   if (array[i].id) {
-    names.push(array[i].id);
+    ids.push(array[i].id);
   }
 }
 
-console.log(names); // ['uno', 'dos']
+console.log(ids); // ['uno', 'dos']
 ```
 
 En el código anterior, probablemente puedas identificar claramente el estilo
@@ -284,11 +284,11 @@ ejemplo `Array.prototype.filter` o `Array.prototype.map`. Veamos cómo podemos
 usar estas herramientas para implementar la misma lógica:
 
 ```js
-const names = array
+const ids = array
   .filter(item => typeof item.id === 'string')
   .map(item => item.id);
 
-console.log(names); // ['uno', 'dos']
+console.log(ids); // ['uno', 'dos']
 ```
 
 En esta nueva versión hacemos lo siguiente:
@@ -353,15 +353,15 @@ lista de objetos. Empecemos por envolver el código en una función:
 
 ```js
 function getIds(inputArray) {
-  const names = [];
+  const ids = [];
 
   for (var i = 0; i < inputArray.length; i++) {
     if (inputArray[i].id) {
-      names.push(inputArray[i].id);
+      ids.push(inputArray[i].id);
     }
   }
 
-  return names;
+  return ids;
 }
 
 console.log(getIds(array)); // ['uno', 'dos']
@@ -382,15 +382,15 @@ function hasId(obj) {
 }
 
 function getIds(inputArray) {
-  const names = [];
+  const ids = [];
 
   for (var i = 0; i < inputArray.length; i++) {
     if (hasId(inputArray[i])) {
-      names.push(inputArray[i].id);
+      ids.push(inputArray[i].id);
     }
   }
 
-  return names;
+  return ids;
 }
 
 console.log(getIds(array)); // ['uno', 'dos']
