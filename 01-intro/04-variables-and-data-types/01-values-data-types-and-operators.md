@@ -345,4 +345,4 @@ false === 0
 ```
 
 ##
-**[Continuar](01-intro/04-variables-and-data-types/02-variables.md)**
+**[Continuar](02-variables.md)**
