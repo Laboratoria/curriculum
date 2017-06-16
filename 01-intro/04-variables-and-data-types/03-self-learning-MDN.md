@@ -84,7 +84,7 @@ Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-
 2. Realiza una consulta en el canal de [Slack](www.google.com) de Laboratoria para este curso
 3. Consulta con una amiga que sepa de programación
 
-_<h4>NOTA: Es importante es **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
+_<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
 
 ##
 **[Continuar](04-comments.md)**
