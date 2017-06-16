@@ -344,4 +344,5 @@ false === 0
 // returns > false
 ```
 
-<h3>[CONTINUAR](01-intro/04-variables-and-data-types/02-variables.md)</h3>
+##
+**[Continuar](01-intro/04-variables-and-data-types/02-variables.md)**
