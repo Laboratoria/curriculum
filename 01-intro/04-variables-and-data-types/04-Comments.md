@@ -34,3 +34,6 @@ console.log(/* tu código aquí */);
 La idea es que borres el comentario y utilices ese espacio para escribir tu código. No te preocupes por borrar los comentarios. Eso sí, **no** borres otras partes del programa. Si lo haces, es muy probable que no te funcione muy bien.
 
 Ahora sí, continúa con los ejercicios y quizzes de esta lección. Mucha suerte!
+
+##
+**[Continuar](05-guided-exercises-variables-and-data-types.md)**

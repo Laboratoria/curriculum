@@ -30,3 +30,9 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 4. Iniciales
 <a href="https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be"><img src = "https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> </a>
+
+## Continuar
+¡Felicidades! Has llegado al final de la lección `04-variables-and-data-types`. Continúa a la siguiente sección de "prueba tu conocimiento" para que demuestres lo que sabes.
+
+##
+**[Continuar](06-prueba-tu-conocimiento-variables-and-data-typess.md)**
