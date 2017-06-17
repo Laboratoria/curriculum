@@ -156,7 +156,7 @@ Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo qu
 A partir de ahora comienza a contar el reloj.
 
 
-### Lesson 5: [HOCs y estado global](#)
+### Lesson 6: [HOCs y estado global](#)
 
 1h (self-paced)
 
@@ -173,7 +173,7 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 |   1   | XXXXX      |    Xmin  | xxx
 
 
-### Lesson 6: [React OOP: ciclo de vida, estado interno y referencias](#)
+### Lesson 7: [React OOP: ciclo de vida, estado interno y referencias](#)
 
 1h (self-paced)
 
@@ -208,7 +208,7 @@ Repensaremos los problemas pendientes y pasados con los nuevos conceptos que hem
 |   1   | XXXXX      |    Xmin  | xxx
 
 
-### Lesson 7: [run, build y deploy scripts](#)
+### Lesson 8: [run, build y deploy scripts](#)
 
 30min (self-paced)
 
