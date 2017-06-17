@@ -19,7 +19,7 @@ Este curso está dirigido a personas con conocimientos previos de **programació
 ## Requerimientos previos
 
 Para poder llevar adelante este curso sin frustración, es recomendable los siguientes conocimientos previos:
-* Manejo de línea de comandos y git
+* Manejo de línea de comandos (\*nix) y git
 * Javascript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
 
@@ -47,6 +47,22 @@ También debes haber completado el curso [10-funcional](#).
 * Presencial: y hrs
 * Total horas: z
 
+## Formato del curso
+En este curso proponemos una especia de "simulacro" de la vida real. Un enfoque orientado al producto, desarrollando nuestro proyecto como se hace hoy por hoy en los equipos de trabajo profesionales.
+
+Haremos foco en el aprendizaje de React como herramienta profesional para el desarrollo de interfaces (en este caso web), pero además practicaremos otras capacidades, como pueden ser el análisis, la capacidad de trabajar en equipo y auto-gestionarse, las prácticas de documentación, capacidad de comunicarse para expresar puntos de vista e ideas, etc.
+
+Todo esto buscaremos aprenderlo practicando, haciendo, golpéandonos la cabeza contra el teclado, conversando con nuestrxs compañerxs, consultando a nuestrxs tutorxs y los recursos online que ellxs nos recomienden, y principalmente, dedicando muchas horas a desarrollar un producto del que podamos sentirnos orgullosxs.
+
+### Evaluación
+En este curso no tendremos exámenes, tu puntaje final será conformado en un 60% por el puntaje de tu producto y tu equipo y el 40% restante será determinado por tu desempeño personal.
+
+Para determinar el puntaje de tu equipo / producto contaremos con sesiones períodicas de revisión de código durante todo el proceso y luego con el desempeño del producto durante el dia de la demo, donde será evaluado por el equipo técnico y el resto de los equipos.
+
+Tu desempeño personal estará determinado por tu participación dentro de las sesiones presenciales, tu actividad en github (escribiendo código, comentando, creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o contestando preguntas), etc.
+
+Todos los equipos deberán exponer sus resultados durante el día de la demo, independientemente del estado de completitud del producto. Aquellos equipos que no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
 ## Producto
 
 Convertir video juego del curso [10-funcional](#) en una single app con las siguientes extensiones:
@@ -54,32 +70,28 @@ Convertir video juego del curso [10-funcional](#) en una single app con las sigu
 * High-scores
 * ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
 
+Y además deberá contar con los siguientes requermientos técnicos:
+- Estar desarrollada íntegramente en es6 y react, y empaquetada con webpack
+- Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr, empaquetar y desplegar la aplicación respectivamente.
+- Haber administrado y documentado todo el proceso de creación de la aplicación en github.
+- Al día de la demo, la aplicación deberá estar publicada en una URL accesible universalmente.
+
 ## Syllabus
 
-### Lesson 0: [Set de herramientas](#)
+### Lesson 1: [Presentación del curso](01-intro.md)
 
-1h (self-paced)
+15min (presencial)
 
-Antes de empezar necesitamos familiarizarnos con dos herramientas: `yarn` y `webpack`.
+Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto a entregar al fin del curso, la metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
-En esta lección aprenderás qué beneficios provee `yarn` sobre `npm`, para qué sirve `webpack` y revisaremos algunos de sus `loaders` y `plugins` más populares.
 
-#### Lesson plan
+### Lesson 2: [Intro a React](#)
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+30min (self-paced)
 
-### Lesson 1: [Javascript: un lenguage vivo](#)
+En esta primera lección veremos qué hace exactamente React. Veremos cómo integrarlo en tiempo cero en una página web existente y cómo construir interfaces con el.
 
-1h (presencial)
-
-Para empezar a usar react, necesitamos familiarizarnos con la nueva sintaxis de Javascript.
-En esta lección aprenderás:
-* Qué es el estándard ECMAScript y como evoluciona.
-* Qué es es6 y que mejoras propone sobre su antecesor (es5), así como sus desventajas.
-* Cómo usar yarn, babel-loader y webpack para convertir codigo es6 en es5 y así superar las desventajas antes expuestas
-* Un tour detallado sobre las extensiones de sintaxis que incorpora es6 que te alegrarán la vida
+Analizaremos su "propuesta", estructura y herramientas básicas.
 
 #### Lesson plan
 
@@ -87,25 +99,14 @@ En esta lección aprenderás:
 |-------|------------|----------|------------
 |   1   | XXXXX      |    Xmin  | xxx
 
-### Lesson 2: [Proyecto ES6](#)
 
-2h (self-paced)
+### Lesson 3: [JSX, ES6 y React](#)
 
-Para afianzar los conocimientos introducidos en la lección anterior, ahora aplicaremos lo aprendido en tu juego, para que implemente las mejoras básicas propuestas por es6 y sea empaquetado por webpack, así puede continuar ejecutándose en todos los navegadores.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-### Lesson 3: [JSX y React básico](#)
-
-1h (presencial)
+30min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
-En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con webpack. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas q nos permitan debuggear nuestro código.
+En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con `webpack`, una herramienta de empaquetado. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas que nos permitan debuggear nuestro código.
 
 #### Lesson plan
 
@@ -113,80 +114,53 @@ En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué e
 |-------|------------|----------|------------
 |   1   | XXXXX      |    Xmin  | xxx
 
-### Lesson 4: [Proyecto React](#)
 
-2h (self-paced)
+### Lesson 4: [Componentes (`stateless`)](#)
+
+30min (self-paced)
+
+En esta lección vamos a aprender al detalle qué es, cómo se declara y cómo se usa un Componente. Veremos en qué se convierte nuestro código jsx una vez empaquetado, para entender mejor la relación entre react, js y jsx.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+
+### Lesson 5: [`props`](#)
+
+30min (self-paced)
+
+En esta lección veremos cómo podemos pasarle parámetros a los componentes a través de sus `props`.
+
+Revisaremos todas las herramientas que nos da React para definir, especificar y validar estas props, y por qué es tan importante hacerlo.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+
+### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](#)
+
+2h (presencial)
 
 Es hora de convertir a tu proyecto en un proyecto React!
 
-En esta lección nos ocuparemos de transformar todo tu html a JSX y crearemos la `single-page app` que contendrá a tu juego.
+Durante la primera hora de esta sesión te encargarás de identificar las tareas que tú y tu equipo deben realizar para cumplir con el objetivo del curso. Unas vez identificadas estas tareas, las organizarán en el tiempo de duración del curso y se las distribuirán de manera equitativa, según un criterio que ustedes establezcan y acuerden usar.
 
-#### Lesson plan
+Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo que nuestro equipo estará a tu disposición para que los bombardees a preguntas y solicitudes de recomendaciones.
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-### Lesson 5: [React OOP y props](#)
-
-1h (presencial)
-
-React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
-
-Además veremos cómo pasar parámetros a los componentes a través de sus `props`, para hacerlos reutilizables.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-### Lesson 6: [Proyecto React](#)
-
-2h (self-paced)
-
-Ahora vamos a hacer que tu aplicación sea mas interesante. En esta lección diseñarás al detalle la interfaz (UI) de tu app y maquetarás cada sección de tu página con componentes de react.
-
-Luego crearemos mocks funcionales usando props, para que tu aplicación quede preparada para la próxima lección: manejo de estados!
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-### Lesson 7: [React OOP y estado interno de componentes](#)
-
-1h (presencial)
-
-> Mira el código fuente de tu proyecto, sus carpetas y archivos de configuración ¿Te has puesto a pensar que podríamos haber logrado el mismo resultado usando solamente html? Entonces, ¿para que complicarnos tanto?
-
-> En el día a día del profesional del software, no se limita a idear y crear proyectos nuevos, sino que en realidad la mayoría de nuestro tiempo se va corrigiendo errores o creando extensiones para aplicaciones existentes, que van creciendo en complejidad a medida que pasa el tiempo y van evolucionando. Es ahí donde react hace que nuestra vida no sea un infierno.
-
-En esta lección vamos a darle protagonismo al estado de la aplicación. Veremos qué mecanismos nos brinda react para llevar registro de los cambios de estado que la aplicación manifiesta, a medida que el usuario va interactuando con ella. Además veremos cómo se relacionan estos cambios de estado con el ciclo de vida y renderizado de nuestros componentes.
+A partir de ahora comienza a contar el reloj.
 
 
-#### Lesson plan
+### Lesson 5: [HOCs y estado global](#)
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+1h (self-paced)
 
-### Lesson 8: [Proyecto React](#)
-
-3h (self-paced)
-
-En esta lección vamos a empezar a convertir a tu aplicación, en una aplicación verdaderamente profesional: vamos a especificar e implmentar los estados que cada uno de nuestros componentes debe "recordar" a través de todo su ciclo de vida, asi como el estado global de nuestra aplicación.
-
-### Lesson 9: [React FOP, componentes `stateless`, HOCs y estado global](#)
-
-1h (presencial)
-
-> Nuevamente, revisa tu código, el código fuente de tus componentes. ¿No hay algo que huele a podrido? Claro! ¿Qué pasó con tanto incapié que nos han hecho en el encapsulamiento, la modulariazión y la "separación de intereses" (`separation of concerns`), para que ahora terminemos poniendo todo junto entreverado adentro de una clase?
-
-> Cuando las aplicaciones son pequeñas y los componentes comparten poca información, usar componentes con estados y acciones propias es una alternativa rápida y válida. ¿Pero qué ocurre a medida que la aplicación se va complejizando y cuando, por ejemplo, el usuario hace click en un botón se desencadenan reacciónes alrededor de toda la página? ¿Cómo mantenemos sincronizado todo eso?
-
-Hasta aquí podemos decir que React es una muy buena herramienta, pero realmente no ofrece ningún valor diferencial en relación a otras que hacen algo parecido.
+Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero realmente no ofrece ningún valor diferencial en relación a otras que hacen algo parecido.
 
 En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos, un conjunto de herramientas **único**: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
 
@@ -198,19 +172,17 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 |-------|------------|----------|------------
 |   1   | XXXXX      |    Xmin  | xxx
 
-### Lesson 10: [Proyecto React](#)
 
-3h (self-paced)
+### Lesson 6: [React OOP: ciclo de vida, estado interno y referencias](#)
 
-#### Lesson plan
+1h (self-paced)
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
 
-### Lesson 11: [Proyecto React: deployment](#)
+Luego analizaremos casos en los que necesitamos que los componentes tengan un estado propio y encapsulado.
 
-30mins (self-paced)
+Y por último veremos casos en los que a dos componentes no les alcanza con compartir un estado, sino que necesitan una referencia explícita de uno a otro.
+
 
 #### Lesson plan
 
@@ -218,6 +190,82 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 |-------|------------|----------|------------
 |   1   | XXXXX      |    Xmin  | xxx
 
+
+### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](#)
+
+2h (presencial)
+
+A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar y enfocarte en tu producto.
+
+Durante esta sesión realizaremos nuestra primera revisión del código. Identificaremos los retos a resolver durante la siguiente semana y podremos hacer todas las preguntas que tengamos al equipo técnico.
+
+Repensaremos los problemas pendientes y pasados con los nuevos conceptos que hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una aplicación verdaderamente profesional.
+
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | XXXXX      |    Xmin  | xxx
+
+
+### Lesson 7: [run, build y deploy scripts](#)
+
+30min (self-paced)
+
+Durante esta sesión revisaremos unas estrategias sencillas para hacer que tu día a día desarrollando tu proyecto, sea un poco más placentero.
+
+Intentaremos entender qué son las `tasks` (tareas), qué hacen exactamente estas 3 tareas en particular y qué rol cumplen en cada etapa del software, desde el desarrollo a la publicación.
+
+Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y `github pages` para publicar nuestro código
+
+
+### Workshop 3: [Meetup](#)
+
+1.5h (presencial)
+
+Para distendernos un poco del proyecto, y abrir un poco la cancha, haremos una sesión de preguntas y respuestas abiertas, donde lxs alumnxs podrán hacer preguntas sobre tecnología, pero en un ámbito general, no restringido a lo que estamos aprendiendo.
+
+Pueden ser problemas que tengan en el trabajo, en proyectos personales o mera curiosidad. Contaremos con algunos hackers senior que les darán sus impresiones y recomendaciones.
+
+
+### Workshop 4: [Proyecto React: Revisión de código y QA](#)
+
+1 (presencial)
+
+Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del código, veremos si hemos cumplido o no con lo planeado, y por qué.
+
+Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos las tareas que mayor efecto tengan en nuestro producto final.
+
+
+### Workshop 5 [Tips para que tu demo sea un éxito](#)
+
+30min (presencial)
+
+Estés o no acostumbradx a hablar en público, siempre es bueno contar con algunas ayudas para no cometer errores comunes a la hora de hacer una presentación.
+
+Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una presentación atractiva.
+
+
+### Workshop 6: [Proyecto React: Revisión de código y QA](#)
+
+1 (presencial)
+
+Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya deberías haber cerrado tu proyecto, y deberías estar solamente ajustando detalles, enfocado en tu demo.
+
+Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo técnico, y resolver dudas de último minuto.
+
+
+### [Día de la demo](#)
+
+2h (presencial)
+
+Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para preguntas del jurado y los miembros de los otros equipos.
+
+El orden de presentación se determinará aleatoriamente y se dará a conocer el mismo día.
+
+Los jurados contarán con una tabla de punteo, para valuar a los equipos y sus demos.
+
+Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
 
 ## Autor(es) / Colaboradores
 
