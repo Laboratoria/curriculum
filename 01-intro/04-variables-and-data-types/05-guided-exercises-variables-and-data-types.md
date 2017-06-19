@@ -14,36 +14,22 @@ Los proyectos a crear son:
 
 3. **Ganancias y pérdidas**: Crea un programa que pide los ingresos, los costos y el % de impuestos, y calcula la ganancia después de impuestos. Debe imprimir el resultado en la web con el símbolo $ adelante.
 
-4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El usuario debe ingresar dos palabras separadas por un espacio, como por ejemplo: "Ana Martinez". El programa debe devuelver un mensaje que dice el número de caracteres de su nombre completo (sin incluir el espacio) y las iniciales en mayúscula.
-
-Casos de prueba:
-
-| Input | Output
-| ------------ | -----
-| Ana Martinez | AM
-| ana martinez | AM
-| Michelle Seguil  | MS
-| michelle seguil  | MS
+4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El usuario debe ingresar dos palabras separadas por un espacio, por ejemplo: "Ana Martinez". El programa debe devolver las iniciales **en mayúscula** (independientemente si el usuario las ingresó así). Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven "AM". "Michelle Seguil" y "michelle seguil" ambos devuelven "MS".
 
 ## Solucionarios
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
 
 #### 1. Edad en segundos
-<a href="https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be"><img src = "https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> </a>
-
-#### 2. Convertidor de temperatura
-<a href="https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be"><img src = "https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> </a>
-
-#### 3. Ganancias y pérdidas
-<a href="https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be"><img src = "https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> </a>
-
-#### 4. Iniciales
-<a href="https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be"><img src = "https://www.youtube.com/watch?v=TePHiOKb72k&feature=youtu.be" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> </a>
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
-## Próximo paso
-Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección final llamada "prueba tu conocimiento", donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
+#### 2. Convertidor de temperatura
+
+#### 3. Ganancias y pérdidas
+
+#### 4. Iniciales
+
+## Último paso de la lección
+Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección final llamada _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
 
 ##
 **[Ir a prueba tu conocimiento](06-prueba-tu-conocimiento-variables-y-tipos-de-datos.md)**
