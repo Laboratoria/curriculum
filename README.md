@@ -1,6 +1,6 @@
 # Full Stack JavaScript
 
-Este repositorio es el lugar donde vamos a ir continuamente _dieñando_ nuestro
+Este repositorio es el lugar donde vamos a ir continuamente _diseñando_ nuestro
 programa de formación en **JavaScript**.
 
 En este repo se irán _ordenando_, _desarrollando_, _discutiendo_ y
@@ -27,6 +27,18 @@ Inicialmente, los encargados oficiales de la _malla curricular_ son
 (issues, pull requests, ...) de todo el equipo de formación de Laboratoria así
 como de la comunidad en general. Queremos hacer una malla abierta.
 
+## Mapa de conceptos, tecnologías y herramientas
+
+Como guía en el proceso de diseño de la malla estamos usando un "mapa" de
+_conceptos_, _tecnologías_ y _herramientas_ que queremos cubrir en la currícula.
+Este mapa es un mapa vivo, se basa en feedback de empleadores, profes y alumnas.
+Si tienes alguna sugerencia o comentario no dudes en
+[abrir un issue](https://github.com/Laboratoria/curricula-js/issues) ;-)
+
+![mapa de topicos](https://user-images.githubusercontent.com/110297/27301108-c25bf836-54f7-11e7-9ce0-3346ff435926.png)
+
+Fuente: https://github.com/Laboratoria/curricula-js/issues/25
+
 ## Los _cursos_
 
 Cada curso debe tener un _dueño_ o _autor_, quien es responsable del curso
@@ -34,7 +46,7 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo y
+el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo, **no** dominan el idioma ingles y
 dedican tiempo todos los días, mientras que los _cursos_ de _educación continua_
 están dirigidos a un público que trabaja, y por lo tanto tiene mucho menos
 disponibilidad de tiempo (aprox. 7h por semana).
@@ -112,7 +124,9 @@ Tags: `git`, `github`, `markdown`, `html5`, `css3`, `dom`, `eventos`,
 
 * **Portfolio site**: El entregable final del curso será un website estático.
 Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor.
+un instructor. Este portafolio lo seguirás iterando durante el curso y al final
+se convertirá en tu portafolio real, necesario para el proceso de inserción
+laboral.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
@@ -153,7 +167,7 @@ el curso anterior. En esta iteración añadirás un back-end que permita hacer
 autenticación, almacenar data, y así pasar a una experiencia multi-usuario.
 
 Tags: `node.js`, `xhr`, `json`, `mocha`, `firebase`, `docs`, `cli`, `auth`,
-`docker`, `regular expressions`, `rest`
+`regular expressions`, `rest`
 
 #### [05. Servidores con Node.js y Mobile first](#)
 
@@ -240,9 +254,17 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 
 #### [11. Intro to React](11-react-intro)
 
-_Autor: M. Crowe / L. Montero_
+_Autor: M. Crowe_
 
-Convertir video juego en app con interfaz más completa, high scores, ...
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite
+encapsular nuestro código en lindos componentes, si no que representa un cambio
+de paradigma que va mucho más allá del navegador o incluso la web. **React** es
+una forma de pensar y construir interfaces, y no está ilimitado a una sóla
+plataforma; a través de la abstracción de los renderers podemos escribir
+interfaces nativas para web, mobile, desktop, tv, ...
+
+* **Convertir video juego 2d en React app**: Convertir video juego en app con
+interfaz más completa, high scores, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
@@ -318,44 +340,19 @@ Tags: `cs`, `arrays`, `objects`, `stacks`, `sets`, `queues`, `graphs`, `trees`
 
 ***
 
-## Guías de estilos
+## Contribuciones
 
-JavaScript:
+Toda contribución es **gratamente bienvenida**.
 
-* [Frontend: AirBnB](https://github.com/airbnb/javascript)
-* [Node.js: Hapi](https://hapijs.com/styleguide)
+Pero **POR FAVOR** no olvides leer detalladamente la
+[guía para contribuidores](CONTRIBUTING.md) antes de enviar un PR.
 
-***
+## Licencia & Copyright
 
-## Ideas para otros cursos:
+Todos los materiales de este repo son (c) 2017 [Laboratoria](http;//laboratoria.la/).
 
-* Databases? (SQL vs NoSQL)
-* Build a Rest api with Express/Hapi/Restify
-* Angular 2?
-* Patrones de diseño?
-* Seguridad
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a>
 
-***
-
-## Notas bootcamp:
-
-Temas a cubrir a través de la práctica
-
-* Dev Environment (browser, cli, node...)
-* Testing (proving that it works)
-* DOM/BOM
-* Eventos
-* Functions: Scope, Closures, ...
-* Async / Callbacks / HOF / Promises
-* Recursión
-* Clean Code / DRY
-* HTML: Semantic HTML, HTML5, ...
-* CSS: Buenas práctivas, Herencia, CSS3, ...
-* JSON
-* AJAX
-* APIs
-* jQuery
-* TDD
-* Node
-* Modules...
-* ...
+Este trabajo está publicado bajo la licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative commons Attribution-ShareAlike 4.0</a>.
