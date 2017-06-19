@@ -340,15 +340,6 @@ Tags: `cs`, `arrays`, `objects`, `stacks`, `sets`, `queues`, `graphs`, `trees`
 
 ***
 
-## Guías de estilos
-
-JavaScript:
-
-* [Frontend: AirBnB](https://github.com/airbnb/javascript)
-* [Node.js: Hapi](https://hapijs.com/styleguide)
-
-***
-
 ## Contribuciones
 
 Toda contribución es **gratamente bienvenida**.
