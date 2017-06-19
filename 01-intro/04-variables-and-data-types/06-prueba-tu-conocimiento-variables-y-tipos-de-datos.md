@@ -5,15 +5,20 @@
 
 ## Reglas
 - Para completar esta sección puedes utilizar todo el material que tengas a tu disposición. Es decir, puedes regresar a las lecturas, revisar tus apuntes, inclusive puedes buscar en Google.
-- Lo que **NO** puedes hacer es tener asistencia de otra persona. Todos los cuestionarios son de carácter **INDIVIDUAL**.
+- Lo que **NO** puedes hacer es tener asistencia de otra persona. Todos los cuestionarios y retos son de carácter **INDIVIDUAL**.
 
 ## Instrucciones
 
-Completa las dos (2) siguientes evaluaciones:
+Sigue con detenimiento cada uno de los siguientes pasos:
 
-- [Cuestionario de conceptos](https://goo.gl/forms/mfLgPHFwGfI0lrSH2). Para completar este cuestionario debes ingresar con una cuenta de Google (sin no tienes una, puedes crearla en este [link](https://accounts.google.com/SignUp?hl=es)). Los cuestionarios sólo pueden ser completados una vez y **no** podrás cambiar tus respuestas.
+1. Crea una cuenta en Replit en: https://repl.it/signup?teacher=1
+2. Responde el siguiente cuestionario: https://goo.gl/forms/47xgsmCo6JhfrTML2
+3. Responde el siguiente quiz:
+https://goo.gl/forms/mfLgPHFwGfI0lrSH2
+_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
+4. Entra al salón de clases llamado "laboratoria-intro-js" que hemos creado en Replit: https://repl.it/classroom/invite/GLlJ8G7
+5. Completa el ejercicio titulado _"Convertidor de monedas"_
+6. Responde el siguiente cuestionario:
 
-- [Reto de código:  Convertidor de monedas](https://repl.it/classroom/invite/GLlJ8G7). Para completar este reto debes:
-  1. Completa el reto titulado _"Convertidor de monedas"_ en la plataforma Replit. Debes crearte una cuenta para avanzar. Los retos de código puedes intentar resolverlos cuantas veces quieras.
 
 <h3>**IMPORTANTE**: _Si estás tomando este curso como parte del proceso de postulación para Laboratoria, tu desempeño en los cuestionarios y retos de código serán tomados en consideración en el proceso de admisión. _  </h3>
