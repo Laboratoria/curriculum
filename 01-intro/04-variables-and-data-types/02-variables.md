@@ -15,6 +15,7 @@ Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar 
 // returns > "Hola, mi nombre es Michelley tengo 19 años"
 
 ```
+
 Si quiesiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha perdido.
 
 Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada `variable`. Se utiliza así:
@@ -23,6 +24,7 @@ Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada `va
 var age = 19;
 // returns > undefined
 ```
+
 La palabra clave (_keyword_) `var` indica que esta frase va a definir una variable. Es seguida por el nombre de la variable (el nombre _age_) y, si queremos asignarle de inmediato un valor, le sigue el operador `=` y una expresión (el número 19).
 
 La declaración anterior crea una variable llamada age (o edad en español) y se usa para retener el número 19. La consola devuelve undefined, pero no creas que es un error. Es lo que JavaScript hace cuando un comando no retorna valor. Cuando escribes 12 + 5, la consola retorna 17. Pero al declarar una variable llamada age asignándole el valor 19, no hay un valor de retorno. Por eso la consola simplemente devuelve undefined (en el resto de los ejemplos vamos a omitir ese undefined de retorno porque no agrega mucho valor a la explicación).
