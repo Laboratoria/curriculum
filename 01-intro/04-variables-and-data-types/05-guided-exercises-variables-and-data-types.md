@@ -14,7 +14,7 @@ Los proyectos a crear son:
 
 3. **Ganancias y pérdidas**: Crea un programa que pide los ingresos, los costos y el % de impuestos, y calcula la ganancia después de impuestos. Debe imprimir el resultado en la web con el símbolo $ adelante.
 
-4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El usuario debe ingresar dos palabras separadas por un espacio, por ejemplo: "Ana Martinez". El programa debe devolver las iniciales **en mayúscula** (independientemente si el usuario las ingresó así). Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven "AM". "Michelle Seguil" y "michelle seguil" ambos devuelven "MS".
+4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El usuario debe ingresar dos palabras separadas por un espacio, por ejemplo: "Ana Martinez". El programa debe devolver las iniciales **en mayúscula**. Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven las iniciales "AM". "Michelle Seguil" y "michelle seguil" devuelven "MS".
 
 ## Solucionarios
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
@@ -23,13 +23,16 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 #### 2. Convertidor de temperatura
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 #### 3. Ganancias y pérdidas
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 #### 4. Iniciales
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 ## Último paso de la lección
-Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección final llamada _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
+Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
 
 ##
-**[Ir a prueba tu conocimiento](06-prueba-tu-conocimiento-variables-y-tipos-de-datos.md)**
+**[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento-variables-y-tipos-de-datos.md)**
