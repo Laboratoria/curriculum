@@ -1,7 +1,7 @@
 # Auto-aprendizaje: manipulando strings y numbers
 ## Objetivos de Aprendizaje
 - Conocer la documentación MDN y la importancia del auto-aprendizaje
-- Aprender las cosas que podemos hacer con los `strings` y `numbers` en JavaScript
+- Aprender a manipular `strings` y `numbers` en JavaScript
 
 ## Aprendiendo sobre `string.length`
 En el mundo de la tecnología, el **auto-aprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde los inicios de tu camino en el mundo del código, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
