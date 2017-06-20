@@ -1,8 +1,12 @@
 # 10. Functional JavaScript
 
-La programación funcional es un paradigma de programación de suma relevancia hoy
-en día, ya que se presta a resolver problemas de paralelización, asincronía y
-programación reactiva entre otros. La programación funcional (Functional
+En este curso exploraremos el paradigma funcional en JavaScript así como varios
+patrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de
+los nuevos features de ES2015.
+
+La programación funcional es un paradigma de programación de suma relevancia
+hoy en día, ya que se presta a resolver problemas de paralelización, asincronía
+y programación reactiva entre otros. La programación funcional (Functional
 Programming - FP) no es realmente un paradigma nuevo, existe desde hace medio
 siglo, pero recientemente, y en particular en el mundo de JavaScript, se ha
 convertido en tanto una moda como una necesidad. Poco a poco, desde la
@@ -11,9 +15,30 @@ proliferación de librerías como underscore y lodash, después la adición de
 conocer el paradigma funcional y estilo declarativo se han convertido en una
 necesidad para cualquier desarrollador de JavaScript.
 
+Familiarizarnos con la programción funcional en JavaScript y ES2015 nos
+permitirá más adelante desenvolvernos con naturalidad en React.
+
+***Tags***: `functional`, `es6`, ...
+
+## Público objetivo
+
+Este curso está dirigido a desarrolladoras tanto front-end como back-end.
+JavaScript es un lenguaje de naturaleza funcional. En este curso aprenderás
+sobre los principios de la programación funcional y cómo se reflejan en
+JavaScript moderno.
+
+## Requerimientos previos
+
+Para poder llevar adelante este curso sin frustración, es recomendable los
+siguientes conocimientos previos:
+
+* Manejo de línea de comandos (\*nix) y `git`
+* Manejo básico de `npm`
+* Debes haber completado el curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms).
+
 ## Aprenderás
 
-* ES6
+* ES2015
 * Recursión
 * High Order Functions
 * Funciones puras
@@ -28,9 +53,9 @@ necesidad para cualquier desarrollador de JavaScript.
 
 ## Detalles logísticos
 
-* Self-paced: x hrs
-* Presencial: y hrs
-* Total horas: z
+* Self-paced: 5 hrs (aprox.)
+* Presencial: 10 hrs (aprox.)
+* Total horas: 15 (apox.)
 
 ## Producto
 
@@ -43,36 +68,144 @@ necesidad para cualquier desarrollador de JavaScript.
 
 ## Syllabus
 
-### Lesson 1: [Explicación del proyecto, división de trabajo](01-intro)
+### Lesson 1: [Presentación del curso](#)
 
-1h (self-paced)
+15min (presencial)
 
-### Lesson 2: [ES6](02-es6)
+Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
+presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
+metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
-1h (self-paced)
+#### Lesson plan
 
-### Lesson 3: [Principios de la Programación Funcional](02-principles)
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | charla     |   15min  | xxx
 
-1h (self-paced)
+### Lesson 2: [Funciones puras](#)
 
-### Lesson 4: [Hacking: issues, branches, pull requests](02-principles)
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 3: [Inmutabilidad](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 4: [Recursión](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 5: [HOF](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 6: [Aplicación parcial, bind, call](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 7: [Ejercicios guiados](#)
+
+1h (presencial)
+
+#### Lesson plan
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | solucionario |   30min  | ...
+|   2   | challenge    |   30min  | ...
+
+### Workshop 1: [Hacking: reemplazando iteración con recursión y HOF](#)
+
+2h (presencial)
+
+### Lesson 8: [Asicronía](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Lesson 9: [Currying](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Workshop 2: [Hacking: refactoring](#)
 
 3h (presencial)
 
-### Lesson 5: [Hacking: code review, discussion](03-intro)
+### Lesson 10: [Espías](#)
 
-3h (presencial)
+30min (self-paced)
 
-### Lesson 6: [Release](04-intro)
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
 
-3h (presencial)
+### Lesson 11: [Testing](#)
+
+30min (self-paced)
+
+| Orden |  Tipo        | Duración | Descripción
+|-------|--------------|----------|------------
+|   1   | video        |   10min  | ...
+|   2   | code         |   20min  | ...
+
+### Workshop 4: [Hacking: refactoring y testing](#)
+
+1h (presencial)
+
+### Workshop 5: [Code review](#)
+
+1h (presencial)
+
+### Workshop 6: [Demos de proyectos FP](#)
+
+1h (presencial)
+
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+
+### [Examen](#)
+
+30min (presencial)
 
 ***
 
 ## Autor(es) / Colaboradores
 
 * Lupo Montero (autor)
-* Mariano Crowe
+* Mariano Crowe (technical review)
 * ...
 
 ## Libros
@@ -121,32 +254,3 @@ Videos:
 Otros recursos:
 
 * [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
-
-***
-
-## Lesson plan for LIM20171
-
-### Week 1
-
-#### Jueves
-
-* Lesson 1: [Explicación del proyecto, división de trabajo](01-intro)
-  1h (self-paced)
-* Lesson 2: [ES6](02-es6) 1h (self-paced)
-
-#### Sábado
-
-* Lesson 3: [Principios de la Programación Funcional](02-principles)
-  1h (self-paced)
-* Lesson 4: [Hacking: issues, branches, pull requests](02-principles)
-  3h (presencial)
-
-### Week 2
-
-#### Jueves
-
-* Lesson 5: [Hacking: code review, discussion](03-intro) 3h (presencial)
-
-#### Sábado
-
-* Lesson 6: [Release](04-intro) 3h (presencial)
