@@ -173,4 +173,12 @@ siguientes semanas.
 ***
 
 ## Buenas prácticas para generar cursos
+
  -  **Mantener tus cursos DRY**. Al momento de planear el curso, tener en consideración que ya existe material (videos, entradas de blog, etc) muy bueno en internet que únicamente necesita traducirse. Generar contenido desde 0 es dificil. Traducir y dar credito, no.
+
+***
+
+## Guías de estilos
+
+ * `>= ES2015`: [Frontend: AirBnB](https://github.com/airbnb/javascript)
+ * `< ES2015`: [Google Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
