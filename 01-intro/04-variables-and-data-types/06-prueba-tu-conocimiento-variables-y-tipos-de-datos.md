@@ -11,15 +11,15 @@
 
 Sigue con detenimiento cada uno de los siguientes pasos:
 
-1. Crea una cuenta en Replit en: https://repl.it/signup?teacher=1
-2. Responde la siguiente encuesta de entrada: https://goo.gl/forms/47xgsmCo6JhfrTML2
-3. Responde el siguiente quiz de conceptos:
+1. Crea una cuenta en Replit en: https://repl.it/signup
+2. Responde la encuesta de entrada: https://goo.gl/forms/47xgsmCo6JhfrTML2
+3. Responde el quiz de conceptos:
 https://goo.gl/forms/mfLgPHFwGfI0lrSH2
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 4. Entra al salón de clases llamado [laboratoria-intro-js](https://repl.it/classroom/invite/GLlJ8G7) y completa los siguientes retos de código
   - Convertidor de monedas
   - Cuenta de restaurante
-5. Responde la siguiente auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1
+5. Responde la auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1
 
 
 <h3>**IMPORTANTE**: _Si estás tomando este curso como parte del proceso de postulación para Laboratoria, tu desempeño en los cuestionarios y retos de código serán tomados en consideración en el proceso de admisión._  </h3>

@@ -23,15 +23,15 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 #### 2. Convertidor de temperatura
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+
 
 #### 3. Ganancias y pérdidas
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+
 
 #### 4. Iniciales
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
-## Último paso de la lección
+
+## Último paso de esta lección
 Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
 
 ##
