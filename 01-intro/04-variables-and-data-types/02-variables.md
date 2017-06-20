@@ -8,7 +8,7 @@ _El texto a continuación se basa en gran medida, con ciertos ajustes, en el cap
 ***
 
 ## Variables
-Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y transformar `numbers`, `strings` y `booleans`. Pero, qué podemos hacer con esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se pierden. Sigue en tu consola el siguiente ejemplo:
+Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y transformar `numbers`, `strings` y `booleans`. Pero, ¿qué podemos hacer con esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se pierden. Sigue en tu consola el siguiente ejemplo:
 
 ```JavaScript
 'Hola, mi nombre es ' + 'Michelle' + 'y tengo ' + 19 + ' años';

@@ -12,7 +12,7 @@ En JavaScript existe una forma fácil de obtener la longitud de un `string` que 
 
 ¿Cómo podemos aprender sobre esto? Empeiza abriendo Google y realizando una búsqueda con algo como: _"obtener la longitud de un string en JavaScript"_. Esto nos dará varios resultados que nos pueden ayudar.
 
-Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuenta es una de las fuentes más confiables para investigar sobre JavaScript. De hehco, el creador de JavaScript,[Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/About):
+Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuenta es una de las fuentes más confiables para investigar sobre JavaScript. De hehco, el creador de JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/About):
 > MDN es una plataforma de aprendizaje para las tecnologías Web y el software con el que funciona la Web, incluyendo:
 
 >1. Estándares Web como CSS, HTML, y JavaScript
