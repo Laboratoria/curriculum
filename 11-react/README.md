@@ -299,19 +299,29 @@ Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos d
 
 ## Libros
 
-Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
+* [Learning React](http://shop.oreilly.com/product/0636920049579.do)
+* [React: Up & Running: Building Web Applications](http://shop.oreilly.com/product/0636920042266.do)
 
 ## Benchmarks
 
-Incluir una lista de cursos similares que sirvan como referencia.
-
+* https://reacttraining.com/online/react-fundamentals
+* https://thinkster.io/tutorials/getting-started-with-react
+* https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
+* https://github.com/arkency/reactjs_koans
+* https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react
+* https://www.codeschool.com/courses/powering-up-with-react
 * https://reactforbeginners.com/
-* http://www.curiouslearning.org/react-form-index/
+
 
 ## Lecturas complementarias
 
-Incluir una lista de capítulos de libros, blog posts, videos, y otros recursos
-como links a wikipedia, documentación, ...
+* [React - página oficial](https://facebook.github.io/react/)
+* [React patterns](http://reactpatterns.com)
+* [Functional React - Get your App outta my Component](https://medium.com/@adamterlson/functional-react-series-part-1-get-your-app-outta-my-component-92656ae13e25?ref=mybridge.co)
+* [React in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
+* [Everything can be a component](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component) https://hackernoon.com/understanding-state-and-props-in-react-94bc09232b9c
+* [30 days of react](https://github.com/fullstackreact/30-days-of-react)
+* [Awesome React](https://github.com/enaqx/awesome-react)
+* [Recursos para aprender React en español](https://github.com/jlobos/react-espanol)
 
-* https://hackernoon.com/understanding-state-and-props-in-react-94bc09232b9c
+
