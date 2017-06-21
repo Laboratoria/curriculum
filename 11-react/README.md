@@ -84,10 +84,16 @@ Y además deberá contar con los siguientes requermientos técnicos:
 
 Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto a entregar al fin del curso, la metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
+#### Lesson plan
+
+| Orden |  Tipo      | Duración | Descripción
+|-------|------------|----------|------------
+|   1   | charla     |   15min  | 
+
 
 ### Lesson 2: [Intro a React](#)
 
-30min (self-paced)
+40min (self-paced)
 
 En esta primera lección veremos qué hace exactamente React. Veremos cómo integrarlo en tiempo cero en una página web existente y cómo construir interfaces con el.
 
@@ -95,52 +101,55 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |   15min  | Conceptos básicos de React
+|   2   | texto  |    5min  | Instalación y uso
+|   4   | video  |    5min  | Nuestro primer componente
+|   5   | code   |   10min  | Ejercicio: Nuestro primer componente
+|   6   | qa     |    5min  | Re-cap
 
 
-### Lesson 3: [JSX, ES6 y React](#)
+### Lesson 3: [JSX, Babel y React](#)
 
-30min (self-paced)
+25min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
-En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con `webpack`, una herramienta de empaquetado. Además construiremos nuestros primeros componentes e instalaremos algunas herramientas que nos permitan debuggear nuestro código.
+En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con `babel` y `webpack` (un transpilador y una herramienta de empaquetado, respectivamente). Además construiremos nuestros primeros componentes e instalaremos algunas herramientas que nos permitan debuggear nuestro código.
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |   10min  | El ecosistema React: JSX, Babel y Webpack
+|   1   | video  |   4min   | Integrando todo
+|   2   | code   |   10min  | Ejercicio: Nuestro primer componente empaquetado
+|   3   | qa     |    5min  | Re-cap
 
 
-### Lesson 4: [Componentes (`stateless`)](#)
+### Lesson 4: [Componentes (`stateless`) y `props`](#)
 
-30min (self-paced)
+1h (self-paced)
 
 En esta lección vamos a aprender al detalle qué es, cómo se declara y cómo se usa un Componente. Veremos en qué se convierte nuestro código jsx una vez empaquetado, para entender mejor la relación entre react, js y jsx.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-
-### Lesson 5: [`props`](#)
-
-30min (self-paced)
-
-En esta lección veremos cómo podemos pasarle parámetros a los componentes a través de sus `props`.
+Luego veremos cómo podemos pasarle parámetros a los componentes a través de sus `props`.
 
 Revisaremos todas las herramientas que nos da React para definir, especificar y validar estas props, y por qué es tan importante hacerlo.
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |    5min  | Componentes stateless: Creando interfaces con funciones.
+|   2   | texto  |   10min  | One-direction dataflow y props
+|   3   | code   |   10min  | Ejercicio: Composición de componentes stateless
+|   4   | texto  |    5min  | Props: propTypes y defaultProps
+|   5   | code   |   10min  | Ejercicio: propTypes y defaultProps
+|   6   | texto  |   5min   | `children` property
+|   7   | code   |   10min  | Ejercicio: usando .map y .filter
+|   8   | qa     |    5min  | Re-cap
 
 
 ### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](#)
@@ -156,7 +165,7 @@ Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo qu
 A partir de ahora comienza a contar el reloj.
 
 
-### Lesson 6: [HOCs y estado global](#)
+### Lesson 5: [HOCs y estado global](#)
 
 1h (self-paced)
 
@@ -168,12 +177,19 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |    7min  | Higher order components (HOC)
+|   2   | code   |    8min  | Ejercicio: Higher order components (HOC)
+|   3   | texto  |    7min  | Data injection y middlewares
+|   4   | code   |    8min  | Ejercicio: Data injection y middlewares
+|   5   | texto  |    7min  | `function` props (aka actions)
+|   6   | code   |    8min  | Ejercicio: Actions
+|   3   | code   |   10min  | Ejercicio de integración
+|   5   | qa     |    5min  | Re-cap
 
 
-### Lesson 7: [React OOP: ciclo de vida, estado interno y referencias](#)
+### Lesson 6: [React OOP: ciclo de vida, estado interno y referencias](#)
 
 1h (self-paced)
 
@@ -186,9 +202,15 @@ Y por último veremos casos en los que a dos componentes no les alcanza con comp
 
 #### Lesson plan
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |    5min  | Componentes modelados como objetos
+|   2   | code   |    5min  | Ejercicio: Componentes modelados como objetos
+|   3   | texto  |    7min  | Local mutable state
+|   4   | code   |    8min  | Ejercicio: Local mutable state
+|   5   | texto  |   10min  | Ciclo de vida de un componente
+|   6   | code   |   15min  | Ejercicio de integración: file upload component with progress bar
+|   7   | qa     |    5min  | Re-cap
 
 
 ### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](#)
@@ -201,14 +223,7 @@ Durante esta sesión realizaremos nuestra primera revisión del código. Identif
 
 Repensaremos los problemas pendientes y pasados con los nuevos conceptos que hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una aplicación verdaderamente profesional.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | XXXXX      |    Xmin  | xxx
-
-
-### Lesson 8: [run, build y deploy scripts](#)
+### Lesson 7: [run, build y deploy scripts](#)
 
 30min (self-paced)
 
@@ -217,6 +232,15 @@ Durante esta sesión revisaremos unas estrategias sencillas para hacer que tu d�
 Intentaremos entender qué son las `tasks` (tareas), qué hacen exactamente estas 3 tareas en particular y qué rol cumplen en cada etapa del software, desde el desarrollo a la publicación.
 
 Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y `github pages` para publicar nuestro código
+
+#### Lesson plan
+
+| Orden |  Tipo  | Duración | Descripción
+|-------|--------|----------|------------
+|   1   | texto  |    5min  | Software life cycle: dev, build, deploy
+|   2   | texto  |    5min  | Npm as a task runner
+|   3   | texto  |    5min  | Github pages
+|   5   | code   |   15min  | Ejercicio: Crear scripts de start, build y deploy
 
 
 ### Workshop 3: [Meetup](#)
