@@ -2,11 +2,12 @@
 ¡Hola! Bienvenida al curso `01. Introducción a la programación (con JavaScript)` de Laboratoria. A continuación te presentamos los detalles de cómo llevar este curso.
 
 ## Descargar y cuentas
-Para completar este curso, necesitarás desacargar y crear cuentas de algunos servicios. Antes de emepzar, es necesario que:
+Para completar este curso, necesitarás desacargar y crear cuentas de algunos servicios web. Antes de emepezar, es necesario que:
 
   1. Tengas una cuenta de Google(gmail). Si no tienes, puedes crea una aquí: https://accounts.google.com/SignUp?hl=es
-  2. Crea una cuenta en Replit en: https://repl.it/signup
-  3. Descarga el editor de texto Atom en: https://atom.io/
+  2. Crea una cuenta en Replit (un salón de clases virtual para aprender código): https://repl.it/signup
+  3. Crea una cuenta en GitHub (una plataforma de trabajo colaborativo para programadores): https://github.com/join
+  4. Descarga Atom (un editor de texto): https://atom.io/
 
 ## Grupo de Facebook
 Hemos creado un grupo en Facebook para ....
