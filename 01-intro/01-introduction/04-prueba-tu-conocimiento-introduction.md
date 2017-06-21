@@ -10,3 +10,9 @@
 ## Instrucciones
 
 Sigue con detenimiento cada uno de los siguientes pasos:
+
+1. Responde la encuesta de entrada: https://goo.gl/forms/47xgsmCo6JhfrTML2
+2. Responde el quiz de conceptos:
+https://goo.gl/forms/mfLgPHFwGfI0lrSH2
+_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
+3. Responde la auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1

@@ -5,8 +5,10 @@
 
 ## Growth Mindset vs. Fixed Mindset
 
+## Aprendiendo a aprender
+
 ## Compromiso???
 - Gogle Forms con checks!
 
 
-**[Continuar](01-why-learn-to-code.md)**
+**[Continuar](03-your-first-website.md)**

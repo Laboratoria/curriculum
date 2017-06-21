@@ -31,61 +31,19 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
 ## Syllabus
-### Lección 00: [Growth Mindset](00-growth-mindset)
-**_10min (self-paced)_**
 
-Antes de partir es importante que revises lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo estos hallazgos dictan la metodología de enseñanza de Laboratoria.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Growth Mindset vs. Fixed Mindset
-| 02 | video | Aprendiendo a aprender
-| 03 | video | Cómo se aprende en Laboratoria  
-| 04 | lectura | Compromiso
-
-### Lección 01: [Sobre la programación y la web](01-web-development-process)
-**_35min (self-paced)_**
-
-Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video |¿Qué es la programación y porqué aprender a programar?
-| 02 | video | Hablándole a la máquina: lenguajes de bajo y alto nivel
-| 03 | video | ¿Qué es JavaScript y por qué aprenderlo?
-| 04 | video | ¿Cómo funciona la web?
-| 05 | video | HTML, CSS & JavaScript
-| 06 | video | HTTP & URLs
-| 07 | video | Escribiendo JavaScript en la consola
-| 08 | quiz | Prueba tu conocimiento
-
-### Lección 02: [Crea tu primera página web](02-your-first-website)
+### Lección 01: [Introducción](01-introduction)
 **_30min (self-paced)_**
 
-Utiliza lo que has aprendido para crear tu primera página web.
-
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | video | Descarga un editor de texto
-| 02 | video | Crea el HTML y CSS de tu primera web
-| 03 | video | Agrega interactividad con JS usando `alert()`, `document.write()` y `prompt()`
-| 04 | video | Utilizando `console.log()` y el Chrome developer tools
-| 05 | reto | Debugging un programa: encuentra el error y arreglalo
-| 06 | quiz | Prueba tu conocimiento
+| 00 | lectura | Bienvenida y orientación
+| 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
+| 02 | lectura | Growth Mindset
+| 03 | lectura | Tu primera página web
+| 04 | quiz | Prueba tu conocimiento
 
-### Lección 03: [Tu ambiente de desarrollo: Git & CLI](03-your-first-website)
-**_30min (self-paced)_**
-
-Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás descargar un par de programas y aprender a usarlos.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | ¿Qué es `Node.js`? + descarga Node.js
-| 02 | video | ¿Qué es la línea de comandos?
-| 03 | video | JavaScript en la línea de comandos
-| 04 | video | `Git` & `GitHub`
-
-### Lección 04: [Variables y Tipos de Datos](04-variables-and-data-types)
+### Lección 02: [Variables y Tipos de Datos](02-variables-and-data-types)
 **_30min (self-paced)_**
 
 Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa y los diferentes tipo de datos de los valores en JavaScript.

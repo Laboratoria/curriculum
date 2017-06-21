@@ -10,11 +10,17 @@ Para completar este curso, necesitarás desacargar y crear cuentas de algunos se
   3. Crea una cuenta en GitHub (una plataforma de trabajo colaborativo para programadores): https://github.com/join
   4. Descarga Atom (un editor de texto): https://atom.io/
 
+Video de Michelle explicando las descargas.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+
 ## Grupo de Facebook
 Hemos creado un grupo en Facebook para ....
 
 ## Horas de consulta
 También ofreceremos horas de consultas ...
+- Mexico
+- Peru
+- Chile
 
 ## Fechas importantes
 Si estás tomando este curso como parte del proceso de admisión a Laboratoria, las fechas importantes son ....
