@@ -1,8 +1,8 @@
 # ¿Por qué aprender a programar?
 ## Objetivos de aprendizaje
 - Entender qué es la programación y por qué aprender a programar
-- Entender qué es JavaScript y por qué aprederlo
 - Conocer algunas historias de egresadas de Laboratoria
+- Entender qué es JavaScript y por qué aprederlo
 
 ***
 _El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015_
@@ -24,6 +24,18 @@ La programación se ha vuelto tan importante, que se encuentra entre las carrera
   1. Programador de software es la carrera que tendrá mayor crecimiento en la próxima década en América Latina. Según estimaciones, la región va a tener una necesidad de 1.25 millones de programadores hacia 2025.
   2. Desarrolladores web y desarrolladores de software se encuentran dentro de las profesiones mejor pagadas en América Latina.
   3. Los empleos tech ya no sólo se encuentran en el sector tech. En la actualidad 2 de cada 3 empleos tech se encuentran fuera del sector. Ello significa que la programación abre las puertas para trabajar en diferentes sectores y aportar tu talento al desarrollo de distintas industrias.
+
+## Historias de egresadas de Laboratoria  
+Las estudiantes de Laboratoria utilizan la programación como herramienta de transformación. El 75% de las estudiantes encuentran empleo y triplican sus ingresos. Aquí algunas historias de éxito:
+
+Sandra (México)
+> Sandra terminó la preparatoria y empezó a trabajar en una tienda de autoservicio para mantener a su hijo. Hoy, gracias a lo aprendido en Laboratoria, es desarrolladora web en micochinito.com en la Ciudad de México y tiene un sueldo 3.5 veces mayor que antes.
+
+Danna (Chile)
+> Danna tiene 26 años y por problemas económicos no pudo terminar la Universidad. Antes de ingresar a Laboratoria trabajaba en un call center. Su primer trabajo como desarrolladora fue en Ilógica. Hoy trabaja en ThoughtWorks, empresa que además de triplicar su salario, la llevó a la India a capacitarse.
+
+Carol (Perú)
+> Carol estudió tres años de Diseño Gráfico Publicitario. Antes de Laboratoria, trabajaba largas horas 6 días a la semana para mantenerse a ella y a su hijo. Hoy Carol trabaja como desarrolladora web en 54solutions, una agencia de medios digitales con un clima laboral positivo y ganando más que nunca.
 
 ## ¿Qué es JavaScript?
 Las computadoras son tan tontas que no podemos darle nuestras instrucciones en inglés, español o cualquier otro idioma hablado. Tenemos que escribir nuestros programas en un `lenguaje de programación`. JavaScript es justamente eso: un lenguaje de programación.
