@@ -1,7 +1,7 @@
 # ¿Por qué aprender a programar?
-## Objetivos de esta sección
+## Objetivos de aprendizaje
 - Entender qué es la programación y por qué aprender a programar
-- Aprender sobre JavaScript y por qué es considerado el lenguaje más popular para la web
+- Entender qué es JavaScript y por qué aprederlo
 - Conocer algunas historias de egresadas de Laboratoria
 
 ***
@@ -13,16 +13,29 @@ Las computadoras son máquinas increíblemente poderosas, capaces de realizar ha
 
 Pero en el fondo, las computadoras son realmente bastante tontas. Las computadoras sólo pueden hacer _exactamente_ lo que nosotros, los humanos, les digamos. Nosotros le decimos cómo comportarse usando programas de computación, que son simplemente un conjuntos de instrucciones para que las computadoras sigan. Sin programas, ¡las computadoras no pueden hacer nada! La programación es, por lo tanto, el arte de crear un conjunto de instrucciones que indican a una computadora cómo realizar una tarea.
 
+## ¿Por qué aprender a programar?
+Tres razones:
+  1. Programador de software es la carrera que tendrá mayor crecimiento en la próxima década en América Latina. Según estimaciones, la región va a tener una necesidad de 1.25 millones de programadores hacia 2025.
+  2. Desarrolladores web y desarrolladores de software se encuentran dentro de las profesiones mejor pagadas en América Latina.
+  3. Los empleos tech ya no sólo se encuentran en el sector tech. En la actualidad 2 de cada 3 empleos tech se encuentran fuera del sector. Ello significa que la programación abre las puertas para trabajar en diferentes sectores y aportar tu talento al desarrollo de distintas industrias.
+
 ## ¿Qué es JavaScript?
 Las computadoras son tan tontas que no podemos darle nuestras instrucciones en inglés, español o cualquier otro idioma hablado. Tenemos que escribir nuestros programas en un `lenguaje de programación`, y JavaScript es justamente eso: un lenguaje de programación.
 
 Puede que no hayas oído hablar de JavaScript antes, pero ciertamente lo has usado. JavaScript se utiliza para escribir programas que se ejecutan en **páginas web**. JavaScript puede controlar cómo se ve una página web o hacer que la página responda cuando un usuario hace click en un botón o mueve el mouse. Sitios como Gmail, Facebook y Twitter usan JavaScript para facilitar el envío de correo electrónico, publicar comentarios o navegar por sitios web.
 
-JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web como Internet Explorer, Mozilla Firefox o Google Chrome. Cada navegador web viene con un intérprete JavaScript que entiende cómo leer programas JavaScript.
+## ¿Por qué JavaScript?
+JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web, como Internet Explorer, Mozilla Firefox o Google Chrome. Cada navegador web viene con un _intérprete_ JavaScript que entiende cómo leer programas JavaScript.
 
+## Escribiendo JavaScript en la web
+Veamos cómo es eso que el navegador tiene un intérprete de JavaScript. En el siguiente video, Michelle te mostrará cómo escribir JavaScript y hacer cosas chéveres desde tu computadora, únicamente abriendo el navegador.
 
-## Historias de egresadas de Laboratoria
- --- videos???
- --- Links a Medium posts???
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+
+## Historia de JavaScript
+JavaScript fue creado en solo 10 días por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), en 1995, para crear interactividad y dinamismo en el navegador Netscape Navigator. Desde entonces, ha sido adoptado por la mayoría de los navegadores modernos. Por muchos años JavaScript fue utilizado únicamente dentro del navegador. Sin embargo, hoy en día se utiliza JavaScript también _fuera_ del navegador para crear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi infinitas - lo cual lo hace un excelente lenguaje de programación que aprender. ¡Vamos!
+
+## JavaScript != Java
+Última nota final sobre el contexto de JavaScript como lenguaje de programación: JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de programación. Mucha gente confunde los nombres. Tú no :)
 
 **[Continuar](01-why-learn-to-code.md)**
