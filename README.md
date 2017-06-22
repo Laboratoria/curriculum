@@ -27,6 +27,18 @@ Inicialmente, los encargados oficiales de la _malla curricular_ son
 (issues, pull requests, ...) de todo el equipo de formación de Laboratoria así
 como de la comunidad en general. Queremos hacer una malla abierta.
 
+## Mapa de conceptos, tecnologías y herramientas
+
+Como guía en el proceso de diseño de la malla estamos usando un "mapa" de
+_conceptos_, _tecnologías_ y _herramientas_ que queremos cubrir en la currícula.
+Este mapa es un mapa vivo, se basa en feedback de empleadores, profes y alumnas.
+Si tienes alguna sugerencia o comentario no dudes en
+[abrir un issue](https://github.com/Laboratoria/curricula-js/issues) ;-)
+
+![mapa de topicos](https://user-images.githubusercontent.com/110297/27301108-c25bf836-54f7-11e7-9ce0-3346ff435926.png)
+
+Fuente: https://github.com/Laboratoria/curricula-js/issues/25
+
 ## Los _cursos_
 
 Cada curso debe tener un _dueño_ o _autor_, quien es responsable del curso
@@ -327,48 +339,6 @@ Tags: `cs`, `arrays`, `objects`, `stacks`, `sets`, `queues`, `graphs`, `trees`
 #### ...
 
 ***
-
-## Guías de estilos
-
-JavaScript:
-
-* [Frontend: AirBnB](https://github.com/airbnb/javascript)
-* [Node.js: Hapi](https://hapijs.com/styleguide)
-
-***
-
-## Ideas para otros cursos:
-
-* Databases? (SQL vs NoSQL)
-* Build a Rest api with Express/Hapi/Restify
-* Angular 2?
-* Patrones de diseño?
-* Seguridad
-
-***
-
-## Notas bootcamp:
-
-Temas a cubrir a través de la práctica
-
-* Dev Environment (browser, cli, node...)
-* Testing (proving that it works)
-* DOM/BOM
-* Eventos
-* Functions: Scope, Closures, ...
-* Async / Callbacks / HOF / Promises
-* Recursión
-* Clean Code / DRY
-* HTML: Semantic HTML, HTML5, ...
-* CSS: Buenas práctivas, Herencia, CSS3, ...
-* JSON
-* AJAX
-* APIs
-* jQuery
-* TDD
-* Node
-* Modules...
-* ...
 
 ## Contribuciones
 

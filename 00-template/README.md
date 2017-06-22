@@ -7,6 +7,7 @@ Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
 temas principales, metodología y enfoque de la experiencia.
 
 Requerimientos de la intro:
+
 - Cuál es el tema en un tweet
 - Dónde encaja dentro del mundo profesional y en la historia del software
 - Por qué es relevante aprender esto
