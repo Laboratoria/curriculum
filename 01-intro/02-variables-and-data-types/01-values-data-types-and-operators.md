@@ -341,7 +341,11 @@ false === 0
 
 "" === 0
 // returns > false
+<<<<<<< HEAD:01-intro/02-variables-and-data-types/01-values-data-types-and-operators.md
 ```
 
 ##
 **[Continuar](02-variables.md)**
+=======
+```
+>>>>>>> c8af4cb213ffc8eac4c66383647b795a9fd87444:01-intro/04-variables-and-data-types/01-values-and-data-types.md
