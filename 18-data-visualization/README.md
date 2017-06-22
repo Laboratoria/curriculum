@@ -42,9 +42,9 @@ temas principales, metodología y enfoque de la experiencia.
 
 ## Producto
 
-> Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
-desarrollar durante el curso, junto con la metodología de trabajo propuesta
-así como entregables y método de evaluación.
+Las alumnas deberás desarrollar el siguiente data dashboard como producto final:
+
+https://public.tableau.com/profile/publish/Laboratoria-CursodeVisualizacin-DatadeComerciodePasesLatinoamricanos/PerfilComercialporPas#!/publish-confirm
 
 ## Syllabus
 > Agregar lesson plan
