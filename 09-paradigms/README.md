@@ -146,11 +146,10 @@ herencia.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | Propiedades de instancia vs prototipo
-|   2   | code       |   10min  | Ejercicios de instancia vs prototipo
-|   3   | video      |   10min  | Herencia prototipal
-|   4   | code       |   10min  | Ejercicios de herencia prototipal
-|   5   | quiz       |   10min  | Prueba tu conocimiento
+|   1   | video      |    6min  | `this` y `bind`
+|   1   | video      |    6min  | `Object.create`
+|   2   | video      |    6min  | Herencia prototipal
+|   4   | code       |   40min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
 
 ### Lesson 5: [Ejercicios guiados, ayudantías, charlas](#)
 
@@ -366,6 +365,8 @@ Otros recursos:
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [MDN - Function.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+* [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-
