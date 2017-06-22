@@ -41,7 +41,7 @@ Tu primer acercamiento al mundo de la tecnología. Después de una breve bienven
 | 00 | lectura | Bienvenida y orientación
 | 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
 | 02 | lectura | Growth Mindset
-| 03 | lectura | Introducción a HTML
+| 03 | lectura | Tu primera página web
 | 04 | quiz | Prueba tu conocimiento
 
 ### Lección 02: [Variables y Tipos de Datos](02-variables-and-data-types)
@@ -56,8 +56,7 @@ Aprende a utilizar variables para almacenar información que cambia durante el t
 | 03 | lectura | Manipulando `strings` y `numbers`
 | 04 | lectura | Comentarios en JavaScript
 | 05 | video | Practicando con ejercicios de variables y tipos de datos
-| 06 | reto | Dado un monto en dólares, devuelve el monto en otras monedas
-| 07 | quiz | Prueba tu conocimiento
+| 06 | quiz | Prueba tu conocimiento
 
 ### Lección 08: [Estructuras Condicionales](08-conditional-structures)
 **_30min (self-paced)_**

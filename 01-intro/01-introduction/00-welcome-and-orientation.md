@@ -8,7 +8,8 @@ La duración aproximada del curso es de 20-30 horas, podrás avanzar a tu propio
 
 Para pasar a la siguiente fase del proceso de selección es necesario que completes todo el pre-trabajo. Las postulantes que demuestren un mayor compromiso y potencial para aprender pasarán al periodo de pre-admisión, donde continuaremos con el curso de modo presencial, para que así puedan demostrarnos todo lo que ya dominan y pueden hacer!
 
-No te asustes, porque no estás sola, nosotros queremos acompañarte en este proceso y por ello te brindamos algunas opciones a través de las cuales podremos apoyarte durante el curso:
+## Acompañamiento y puntos de apoyo
+No te asustes, porque no estás sola, nosotros queremos acompañarte en este proceso y por ello te brindamos tres (3) opciones a través de las cuales podremos apoyarte durante el curso:
 
 <!--
 ## Descargar y cuentas
@@ -80,4 +81,53 @@ Si estás tomando este curso como parte del proceso de admisión a Laboratoria, 
 Nuestra expectativa con este curso es...
 -->
 
-**[Continuar](01-growth-mindset.md)**
+## Sobre este curso
+
+#### Objetivo del curso
+Este curso está dirigido a personas sin conocimientos previos de programación que tienen el interés de aventurarse al mundo del código. Será tu primer paso en la ruta de aprendizaje.
+
+El propósito de este curso es darte una idea de qué se trata el mundo del desarrollo de software, para que puedas determinar si es algo que te apasiona perseguir como profesión. Al terminar este curso sabrás si el código es lo tuyo y habrás sentado unas buenas bases para el desarrollo de tu carrera profesional en el mundo tech.
+
+#### Aprenderás
+- Entender qué es la programación y por qué aprender a programar
+- Entender qué es JavaScript y por qué aprederlo
+- Tener un primer acercamiento al mundo del código, creando tu primera página web
+- A darle dinamismo a tu web utilizando JavaScript
+- Algunos conceptos básicos de programación como: variables, tipos datos y operadores
+
+#### Duración
+* Total: 20-30 horas.
+* Modalidad: Self-paced (a tu propio ritmo - online)
+
+#### Requerimientos previos
+Ningún conocimiento previo de programación es necesario para completar este curso. Está diseñado para principiantes.
+
+#### Syllabus
+Este pre-work consta de 2 módulos principales:
+
+##### Módulo 1: Introducción
+
+Queremos motivarte a aprender a programar, y por ello te brindaremos más información sobre cómo, a través del código, podrás transformar tu futuro. Además, te daremos algunos consejos para aprender a aprender. Después de eso,¡te enseñaremos a crear tu primera página web!
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 00 | lectura | Bienvenida y orientación
+| 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
+| 02 | lectura | Growth Mindset
+| 03 | lectura | Tu primera página web
+| 04 | quiz | Prueba tu conocimiento
+
+##### Módulo 2: variables y tipos de datos
+
+El segundo módulo entrará a más detalle en algunos conceptos base de la programación, como lo son las variables, los tipos de datos y los operadores.
+
+| # | Tipo | Tópico           
+| - | ----- | -----
+| 01 | lectura | Valores, tipos de datos y operadores
+| 02 | lectura | Variables
+| 03 | lectura | Manipulando `strings` y `numbers`
+| 04 | lectura | Comentarios en JavaScript
+| 05 | video | Practicando con ejercicios de variables y tipos de datos
+| 06 | quiz | Prueba tu conocimiento
+
+**[EMPEZAR](01-growth-mindset.md)**
