@@ -1,5 +1,5 @@
 # Bienvenida y orientación
-¡Hola! Bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso `01. Introducción a la programación (con JavaScript) de Laboratoria`, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.  
+¡Hola! Bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso `01. Introducción a la programación (con JavaScript)` de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.  
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas y mejores oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
@@ -25,7 +25,7 @@ Video de Michelle explicando las descargas.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 -->
 
-#### 1. Grupo de Facebook
+### 1. Grupo de Facebook
 Te invitamos a unirte al grupo de facebook de la sede a la que estás postulando, donde podrás preguntar y resolver dudas en conjunto con las demás postulantes y con el staff de profesores de Laboratoria.
 
 En Laboratoria creemos mucho en la investigación individual y también en el apoyo en grupo. Lo importante es que individualmente entiendas lo que vas haciendo, así te apoyes en tus compañeras o amigas. Además, recuerda que la mejor manera de aprender es enseñar! No dejes de compartir tus conocimientos con tus compañeras.
@@ -34,7 +34,7 @@ En Laboratoria creemos mucho en la investigación individual y también en el ap
 * Ciudad de México:
 * Santiago de Chile:
 
-#### 2. Horas de consulta
+### 2. Horas de consulta
 Queremos que sepas que puedes contar con nosotros, pues nuestro principal objetivo es que aprendas. Te invitamos a las horas de consulta presenciales en Laboratoria, donde podrás recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te preocupes, pues transmitiremos estas sesiones por Facebook live y luego subiremos los videos a los grupos.
 Las horas de consulta por sede son las siguientes:
 
@@ -55,7 +55,7 @@ Las horas de consulta por sede son las siguientes:
   - Jueves 20 de julio de 6pm a 8pm
   - Jueves 27 de julio de 6pm a 8pm
 
-#### 3. Punto principal de contacto
+### 3. Punto principal de contacto
 Creemos que con el grupo de facebook y las horas de consulta, estarás muy bien acompañada por nuestros profesores y por todas las postulantes, y que por ambos canales lograrás resolver todas tus dudas.
 
 De todas maneras, te brindamos puntos principales de contacto por sede, para que puedas realizar consultas excepcionales e importantes que no puedas solucionar por los otros medios.
@@ -83,29 +83,29 @@ Nuestra expectativa con este curso es...
 
 ## Sobre este curso
 
-#### Objetivo del curso
+### Objetivo del curso
 Este curso está dirigido a personas sin conocimientos previos de programación que tienen el interés de aventurarse al mundo del código. Será tu primer paso en la ruta de aprendizaje.
 
 El propósito de este curso es darte una idea de qué se trata el mundo del desarrollo de software, para que puedas determinar si es algo que te apasiona perseguir como profesión. Al terminar este curso sabrás si el código es lo tuyo y habrás sentado unas buenas bases para el desarrollo de tu carrera profesional en el mundo tech.
 
-#### Aprenderás
+### Aprenderás
 - Entender qué es la programación y por qué aprender a programar
 - Entender qué es JavaScript y por qué aprederlo
 - Tener un primer acercamiento al mundo del código, creando tu primera página web
 - A darle dinamismo a tu web utilizando JavaScript
 - Algunos conceptos básicos de programación como: variables, tipos datos y operadores
 
-#### Duración
+### Duración
 * Total: 20-30 horas.
 * Modalidad: Self-paced (a tu propio ritmo - online)
 
-#### Requerimientos previos
+### Requerimientos previos
 Ningún conocimiento previo de programación es necesario para completar este curso. Está diseñado para principiantes.
 
-#### Syllabus
+## Syllabus
 Este pre-work consta de 2 módulos principales:
 
-##### Módulo 1: Introducción
+### Módulo 1: Introducción
 
 Queremos motivarte a aprender a programar, y por ello te brindaremos más información sobre cómo, a través del código, podrás transformar tu futuro. Además, te daremos algunos consejos para aprender a aprender. Después de eso,¡te enseñaremos a crear tu primera página web!
 
@@ -117,7 +117,7 @@ Queremos motivarte a aprender a programar, y por ello te brindaremos más inform
 | 03 | lectura | Tu primera página web
 | 04 | quiz | Prueba tu conocimiento
 
-##### Módulo 2: variables y tipos de datos
+### Módulo 2: variables y tipos de datos
 
 El segundo módulo entrará a más detalle en algunos conceptos base de la programación, como lo son las variables, los tipos de datos y los operadores.
 
