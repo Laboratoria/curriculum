@@ -34,13 +34,14 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 
 ### Lección 01: [Introducción](01-introduction)
 **_30min (self-paced)_**
+Tu primer acercamiento al mundo de la tecnología. Después de una breve bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás tu primera página web.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
 | 00 | lectura | Bienvenida y orientación
 | 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
 | 02 | lectura | Growth Mindset
-| 03 | lectura | Tu primera página web
+| 03 | lectura | Introducción a HTML
 | 04 | quiz | Prueba tu conocimiento
 
 ### Lección 02: [Variables y Tipos de Datos](02-variables-and-data-types)
@@ -220,6 +221,11 @@ Si quieres solidificar tus conocimientos y asegurarte de que dominas por complet
 | - | ----- | -----
 | 01 | video | Tutorial workshoppers javascripting
 | 02 | video | Cómo enviar tu trabajo
+
+### BONUS Lesson!!! (17): [Javascripting de Node](18-how-the-web-works)
+**_30min_**
+- ¿Cómo funciona la web?
+- HTTP & URLs
 
 * * *
 ## Contributors
