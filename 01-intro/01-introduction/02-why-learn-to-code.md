@@ -43,19 +43,21 @@ Las computadoras son tan tontas que no podemos darle nuestras instrucciones en i
 Puede que no hayas oído hablar de JavaScript antes, pero ciertamente lo has usado. JavaScript se utiliza para escribir programas que se ejecutan en **páginas web**. JavaScript puede controlar cómo se ve una página web o hacer que la página responda cuando un usuario hace click en un botón o mueve el mouse. Sitios como Gmail, Facebook y Twitter usan JavaScript para facilitar el envío de correo electrónico, publicar comentarios o navegar por sitios web.
 
 ## ¿Por qué JavaScript?
-JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web. Un navegador web es lo que utilizas para navegar por internet. Los navegadores más populares son: Google Chrome, Safari, Mozilla Firefox e Internet Explorer. Cada navegador web viene con un _intérprete_ JavaScript que entiende cómo leer programas JavaScript.
+JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web. Un navegador web es lo que utilizas para navegar por internet. Por ejemplo, lo que utilizas para abrir Facebook o Google o Wikipedia en tu computadora. Los navegadores más populares son: Google Chrome, Safari, Mozilla Firefox e Internet Explorer. Cada navegador web viene con un _intérprete_ JavaScript que entiende cómo leer programas JavaScript.
 
-**FALTA añadir gráfico de JS en el tiempo**
+Otra razón que hace interesante estudiar JavaScript en este momento es su posición como uno de los lenguages de programación más populares. Según GitHub, una red de trabajo colaborativo para programadores, JavaScript es el lenguaje más popular dentro de esta plataforma:
+
+![Most popular language](https://adtmag.com/articles/2015/08/20/~/media/ECG/adtmag/Images/2015/08/github_languages.jpg)
+
+## Historia de JavaScript
+JavaScript fue creado (¡en solo 10 días!) por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), en 1995, para crear interactividad y dinamismo en Netscape Navigator, uno de los primeros navegadores web. Desde entonces, JavaScript ha sido adoptado por la mayoría de los navegadores modernos (piensa en Chrome, Safari, etc.). Y por muchos años JavaScript fue utilizado únicamente dentro del navegador. Sin embargo, hoy en día se utiliza JavaScript también _fuera_ del navegador para crear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi infinitas - lo cual lo hace un excelente lenguaje de programación que aprender.
 
 ## Escribiendo JavaScript en la web
 Seguramente te estás preguntando cómo es eso tener un _intérprete_ JavaScript en el navegador. Pues, _**la mejor forma de aprender es haciendo**_: abre tu navegador Chrome y sigue los pasos que presenta Michelle en el siguiente video. Michelle te mostrará cómo escribir JavaScript y cómo hacer cosas chéveres desde tu computadora, únicamente utilizando el navegador.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
-
-## Historia de JavaScript
-JavaScript fue creado en solo 10 días por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), en 1995, para crear interactividad y dinamismo en Netscape Navigator, uno de los primeros navegadores web. Desde entonces, JavaScript ha sido adoptado por la mayoría de los navegadores modernos (piensa en Chrome, Safari, etc.). Y por muchos años JavaScript fue utilizado únicamente dentro del navegador. Sin embargo, hoy en día se utiliza JavaScript también _fuera_ del navegador para crear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi infinitas - lo cual lo hace un excelente lenguaje de programación que aprender.
+[![VIDEO MICHELLE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
 
 ## JavaScript != Java
-Última nota final sobre el contexto de JavaScript como lenguaje de programación: JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de programación. Mucha gente confunde los nombres. Tú no :)
+Última nota final sobre el contexto de JavaScript como lenguaje de programación: JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de programación. Mucha gente los confunde. Tú no :)
 
 **[Continuar](03-your-first-website.md)**
