@@ -58,4 +58,4 @@ JavaScript fue creado en solo 10 días por [Brendan Eich](https://en.wikipedia.o
 ## JavaScript != Java
 Última nota final sobre el contexto de JavaScript como lenguaje de programación: JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de programación. Mucha gente confunde los nombres. Tú no :)
 
-**[Continuar](02-growth-mindset.md)**
+**[Continuar](03-your-first-website.md)**

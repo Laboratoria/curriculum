@@ -28,4 +28,4 @@ Si estás tomando este curso como parte del proceso de admisión a Laboratoria, 
 ## Expectativas
 Nuestra expectativa con este curso es...
 
-**[Continuar](01-why-learn-to-code.md)**
+**[Continuar](01-growth-mindset.md)**
