@@ -89,10 +89,11 @@ En la lección anterior vimos cómo `this` tomaba un valor especial en caso de l
 constructores. En ese contexto `this` hace referencia al nuevo objeto que crea
 el constructor.
 
-Pero hay otra manera más explícita: `Function#bind`. Todas las funciones en
-JavaScript son objetos que heredan de `Function.prototype`, y así heredan el
-método `bind()`, que nos permite crear una copia de una función, pero con
-`this`, el "contexto", asignado epxplícitamente a un valor.
+Pero hay otra manera más explícita de asignarle un valor a `this`:
+`Function#bind`. Todas las funciones en JavaScript son objetos que heredan de
+`Function.prototype`, y así heredan el método `bind()`, que nos permite crear
+una copia de la función, pero con `this`, el "contexto", asignado
+explícitamente a un valor.
 
 "Bind" literalmente significa "ligar", "unir a" o "vincular con". Veamos un
 ejemplo:
@@ -290,7 +291,7 @@ const johnny = Object.create(robot).init('johnny');
 Por ahora hemos invocado `Object.create()` con un solo argumento: el prototipo
 que queremos que tenga el nuevo objeto. Pero `Object.create()` nos ofrece la
 posibilidad de pasar un segundo argumento: un objeto cuyas propiedades serán
-agregadas al objeto recien creado, con los nombres de propiedad
+agregadas al objeto recién creado, con los nombres de propiedad
 correspondientes. Estas propiedades corresponden al segundo argumento de
 [`Object.defineProperties`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties).
 
@@ -334,8 +335,8 @@ después el prototipo, de ahí el prototipo del prototipo y así sucesivamente.
 También hemos hablado de cómo el concepto de "herencia" y las "jerarquías de
 herencia" son fundamentales en la programación orientada a objetos. Ahora es la
 hora de ver cómo usamos lo que hemos aprendido de prototipos y `Object.create`
-para implementar una jerarquía de herencia, dónde un objeto hereda de un objeto
-que a su vez hereda de otro.
+para implementar una jerarquía de herencia, donde un objeto hereda de otro
+objeto que a su vez hereda de otro.
 
 Para heredar de un objeto existente, podemos crear un nuevo constructor y
 a su prototipo asignarle un objeto que tenga como prototipo el prototipo del
@@ -433,12 +434,12 @@ creada con `ImageNote` usamos `call()`. `Function.prototype.call` es muy
 parecida a `Function.prototype.bind`, pero en vez de retornar una función con
 el contexto fijado, lo que hace es invocar la función con el contexto deseado.
 
-También podemos ver al hacer `console.log` que el objeto aparece como de "tipo"
-`Note` y no `ImageNote`. Eso es porque el prototipo de una función guarga una
-referencia su constructor en una propiedad llamada `constructor`. Al reemplazar
-el prototipo de `ImageNote` con el objeto creado con `Object.create`, la
-propiedad `constructor` ahora apunta al constructor de `Note`. Podemos corregir
-esto explícitamente asignando `ImageNote.prototype.constructor`:
+También podemos ver, al hacer `console.log`, que el objeto aparece como de
+"tipo" `Note` y no `ImageNote`. Eso es porque el prototipo de una función guarda
+una referencia a su constructor en una propiedad llamada `constructor`. Al
+reemplazar el prototipo de `ImageNote` con el objeto creado con `Object.create`,
+la propiedad `constructor` ahora resuleve al constructor de `Note`. Podemos
+corregir esto explícitamente asignando `ImageNote.prototype.constructor`:
 
 ```js
 function ImageNote(url) {
