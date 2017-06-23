@@ -116,7 +116,7 @@ Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
 | 01 | video | Revisar conceptos aprendidos
 | 02 | video | Enunciado: crea dos funciones, `add` y `multiply`. Cada uno debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * 9824 + 777
 | 03 | video | Solucionario
-| 04 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
+| 04 | video | Enunciado: crea una función que encripte los mensajes utilizando el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
 | 05 | video | Solucionario
 
 ### Lección 12: [Problem Sets](12-problem-sets-functions)
@@ -175,6 +175,8 @@ Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos 
 | 07 | video | Solucionario
 | 08 | video | Enunciado: Crea dos funciones que busquen un elemento en un array: linear search and binary search
 | 09 | video | Solucionario
+| 10 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
+| 11 | video | Solucionario
 
 ### Lección 15: [Problem Sets](15-problem-sets-objects-and-arrays)
 **_3-6hrs (self-paced)_**

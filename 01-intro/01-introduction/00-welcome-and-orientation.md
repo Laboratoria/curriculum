@@ -130,4 +130,4 @@ El segundo módulo entrará a más detalle en algunos conceptos base de la progr
 | 05 | video | Practicando con ejercicios de variables y tipos de datos
 | 06 | quiz | Prueba tu conocimiento
 
-**[EMPEZAR](01-growth-mindset.md)**
+### **[EMPEZAR](01-growth-mindset.md)**
