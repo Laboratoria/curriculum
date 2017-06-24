@@ -163,12 +163,11 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 | Orden |  Tipo        | Duración | Descripción
 |-------|--------------|----------|------------
-|   1   | solucionario |   15min  | Herencia prototipal
-|   2   | challenge    |   15min  | Ejercicios de herencia prototipal
+|   1   | solucionario |   30min  | Herencia prototipal
 
 ### Lesson 6: [Proyecto (implementación OOP)](#)
 
-2h (presencial)
+1h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
