@@ -15,10 +15,10 @@ _hilo conductor_ que conecta el conjunto de _cursos_.
 Nuestra propuesta de _modelo de aprendizaje_ pretende atacar de frente el
 desafío de cómo hacer que la teoría se aprenda a través de la práctica. Por
 ello, la currícula está _imaginada_ como una serie de _productos_ completos,
-de complejidad y scope gradualmente más complejo.
+de complejidad y scope incremental.
 
-En este issue puedes seguir y/o paricipar en la discusión abierta sobre el
-modelo: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3)
+En este issue puedes seguir y/o participar en la discusión abierta sobre el
+modelo: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3).
 
 Inicialmente, los encargados oficiales de la _malla curricular_ son
 [Lupo Montero](https://github.com/lupomontero),
@@ -46,13 +46,13 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudia a tiempo completo, **no** dominan el idioma ingles y
+el _bootcamp_ tendrán en cuenta que las alumnas estudian a tiempo completo, **no** dominan el idioma ingles y
 dedican tiempo todos los días, mientras que los _cursos_ de _educación continua_
 están dirigidos a un público que trabaja, y por lo tanto tiene mucho menos
 disponibilidad de tiempo (aprox. 7h por semana).
 
 Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
-(cursos blended full-time o part-time, 6 meses) y _educación contunua_ (cursos
+(cursos blended full-time o part-time, 6 meses) y _educación continua_ (cursos
 blended 7 horas por semana, 18 meses).
 
 ***
@@ -73,10 +73,10 @@ de la línea de comando (tu nuevo mejor amigo).
 
 * [javascripting](https://github.com/workshopper/javascripting): Learn
   JavaScript by adventuring around in the terminal.
-* [learnyouhtml](https://github.com/denysdovhan/learnyouhtml): Learn you how to
+* [learnyouhtml](https://github.com/denysdovhan/learnyouhtml): Learn how to
   create your first web-page.
-* [git-it](https://github.com/jlord/git-it-electron): Git-it is a (Mac, Win,
-  Linux) Desktop App for Learning Git and GitHub
+* [git-it](https://github.com/jlord/git-it-electron): Git-it is a (Mac, Windows,
+  Linux) Desktop App for Learning Git and GitHub.
 
 #### [01. Introducción a la programación en JS](01-intro)
 
@@ -85,20 +85,20 @@ _Autor: R. Prieto_
 Este curso será requisito para acceder al resto de los cursos.
 
 Tags: `javascript`, `html`, `css`, `http`, `url`, `variables`, `tipos de datos`,
-`estructuras de datos`, `operadores`, `condicionales`, `ciclos`, `funciones`,
-`xhr`, `json`.
+`estructuras de datos`, `operadores`, `condicionales`, `ciclos`, `funciones`.
 
 Durante este curso se harán productos como:
+
+* **Cajero automático**: crea un programa que un cajero automático pueda 
+utilizar para determinar el número mínimo de billetes a entregar dado un 
+monto solicitado.
+
+* **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si 
+una tarjeta de crédito es válida según el algoritmo de Luhn.
 
 * **Posts encriptados** en Facebook: crea y despliega una web que publica
 mensajes encriptados en Facebook, que tus amigos solo pueden decifrar
 regresando a tu web.
-
-* **Developers más activos**: crea y despliega una web que se conecte al API
-de meetup para determinar los developers más activos de tu ciudad.
-
-* **Laboratoria Coders**: crea y despliega una web que se conecte al API de
-Laboratoria para visualizar la data de las coders.
 
 ***
 
