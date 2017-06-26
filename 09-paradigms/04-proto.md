@@ -3,13 +3,13 @@
 ## Lección 04: OOP y herencia prototipal
 
 * Formato: `video/code` (self-paced)
-* Duración: `1h`
+* Duración: `1.5h`
 
 En esta lección aprenderás a implementar herencia prototipal en JavaScript.
 
 ### Objetivos de la lección
 
-* Entender `this`
+* Entender `this`, `bind` y `call`
 * Entender el concepto de "prototipo"
 * Aprender a implementar herencia prototipal
 
@@ -18,6 +18,7 @@ En esta lección aprenderás a implementar herencia prototipal en JavaScript.
 * Es fundamental tener instalado y configurado `git` y `npm`
 * Cuenta en [GitHub](https://github.com/)
 * Instalar `planetproto` con el siguiente comando: `npm install -g planetproto`
+* Fork propio del repo de tu cohort
 
 ***
 
@@ -25,16 +26,16 @@ En esta lección aprenderás a implementar herencia prototipal en JavaScript.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | script     |    6min  | `this` y `bind`
-|   1   | script     |    6min  | `Object.create`
-|   2   | script     |    6min  | Herencia prototipal
-|   4   | code       |   40min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
+|   1   | script     |   10min  | `this` y `bind`
+|   1   | script     |   10min  | `Object.create`
+|   2   | script     |   10min  | Herencia prototipal
+|   4   | code       |   60min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
 
 ***
 
 ### `this` y `bind`
 
-`video: 6min`
+`video: 10min`
 
 Entender el concepto de `this` es fundamental para entender el modelo de
 objetos de JavaScript.
@@ -178,7 +179,7 @@ dog.talk(); // woof!
 
 ### Object.create()
 
-`video: 6min`
+`video: 10min`
 
 En JavaScript todo objeto tiene un "prototipo", aunque no lo especifiquemos.
 Cuando creamos un objeto literal, el prototipo del objeto por defecto es
@@ -324,7 +325,7 @@ prototipos. Hoy en día `Object.create()` ya es parte del lenguaje en sí.
 
 ### Herencia prototipal
 
-`video: 6min`
+`video: 10min`
 
 Hasta ahora nos hemos concetrado en el concepto de prototipo y cómo crear
 objetos con un prototipo determinado. También hemos mencionado el concepto
