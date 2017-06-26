@@ -226,92 +226,17 @@ Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr
 `microservices`.
 
 
-#### UX Design
+#### Front-End Development
 
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño 
-de experiencia de usuario.
 
-#### UI Developer
-
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo 
-de interfaces sin necesidad de profundizar tanto en la lógica de programación.
-
-#### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
+##### [08. JS Next Steps](#)
 
 _Autor: ???_
 
-Hoy en día la web no es sólo una plataforma para publicar contenido, sino que se
-ha convertido en la plataforma de computación más grande! Esto significa que
-las "páginas web" han ido evolucionando hasta convertirse en "aplicaciones".
-Cada vez encontramos más funcionalidad e interacción, y en este contexto
-JavaScript es la pieza que ha permitido el desarrollo de éstas aplicaciones.
+Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,  
+`web-rtc`, `progressive-web-apps`.
 
-Durante este curso construirás un SPA (Single Page App), que es básicamente una
-aplicación que corre completamente dentro del navegador.
-
-Como temas teóricos complementarios estudiarás sobre module bundlers,
-templating y browser APIs.
-
-* **Notes App: single user, local data**: crea una aplicación de "notas" que
-permita al usuario guardar textos cortos e imágenes, ordenarlas, etiquetarlas...
-Esta aplicación guardará toda su data localmente en un entorno "sin servidor".
-
-Tags: `spa`, `npm`, `gulp`, `es6`, `handlebars`, `fonts`, `bootstrap`,
-`localStorage`, `sessionStorage`, `history`, `shell scripts`
-
-#### [04. Data Driven Single Page Apps](#)
-
-_Autor: ???_
-
-Una vez completada to primera SPA en la lección anterior, ahora tendrás la
-oportunidad continuar con su desarrollo, y a través de continuous enhancement
-añadir nueva funcionalidad, como autenticación, múltiples usuarios y
-almacenamiento de datos en un servicio cloud.
-
-Node.js, AJAX, Testing, auth
-
-* **Notes App: multi user, cloud data**: continúa con la aplicación iniciada en
-el curso anterior. En esta iteración añadirás un back-end que permita hacer
-autenticación, almacenar data, y así pasar a una experiencia multi-usuario.
-
-Tags: `node.js`, `xhr`, `json`, `mocha`, `firebase`, `docs`, `cli`, `auth`,
-`regular expressions`, `rest`
-
-#### [05. Servidores con Node.js y Mobile first](#)
-
-_Autor: ???_
-
-* **Notes App: mobile ui**: ...
-
-Tags: `media-queries`, `express|hapi|restify`, `webpack`, `flexbox`, `http`,
-`css3-animations`, `databases`, `touch events`, `gestures`, `ci`
-
-#### [06. Desplegando en el mundo real y Offline first](#)
-
-_Autor: ???_
-
-* **Notes App: offline, sync**: ...
-
-Tags: `app-cache`, `jest`, `enzyme`, `yarn`, `web standards`, `svg`, `nginx`,
-`automated deployment`
-
-#### [07. Capstone project](#)
-
-_Autor: ???_
-
-Tags: ...
-
-***
-
-### Educación Continua
-
-El programa de **Educación Continua** en principio se ofrece a egresadas de
-nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
-quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
-desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
-carreras como developers.
-
-#### [10. Functional JavaScript](10-functional)
+##### [09. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
@@ -325,6 +250,66 @@ tests exhaustivos.
 
 Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 `testing`, `jest`
+
+##### [10. Build Tools](#)
+
+_Autor: ???_
+
+Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`, 
+`task-runner`.
+
+
+##### [11. Front-End Frameworks](#)
+
+_Autor: ???_
+
+Tags: `react`, `angular`, `vue`, `typescript`, `flow`.
+
+#### Back-End Development
+
+##### [08. NodeJS](#)
+
+_Autor: ???_
+
+Tags: `http`, `file-system`, `express`, `api-development`, `deployment`.
+
+
+##### [09. Databases](#)
+
+_Autor: ???_
+
+Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
+
+##### [10. ME*N Stack](#)
+
+_Autor: ???_
+
+Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
+
+#### UX Design
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño 
+de experiencia de usuario.
+
+#### UI Developer
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo 
+de interfaces sin necesidad de profundizar tanto en la lógica de programación.
+
+#### Capstone Project
+
+En este último paso, se dará un espacio para que los diversos tracks se junten y desarrollen 
+productos juntos, enlazando todos los skills aprendidos e integrándolos.
+
+***
+
+### Educación Continua
+
+El programa de **Educación Continua** en principio se ofrece a egresadas de
+nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
+quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
+desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
+carreras como developers.
 
 #### [11. Intro to React](11-react-intro)
 
