@@ -177,7 +177,7 @@ navegador.
 
 Tags: `tipos de datos`, `operadores`, `funciones`, `objetos`, `execution context`, `es6`, ...
 
-#### [05. Programming Paradigms](09-paradigms)
+##### [05. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -195,7 +195,7 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`
 
-#### [06. Computer Science](#)
+##### [06. Computer Science](#)
 
 _Autor: ???_
 
@@ -210,7 +210,7 @@ que permita la navegación a través del historial de cambios.
 Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
 `solid`, `mvc`, `singleton`.
 
-#### [07. Internet Deep Dive](#)
+##### [07. Internet Deep Dive](#)
 
 _Autor: ???_
 
