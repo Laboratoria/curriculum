@@ -137,30 +137,25 @@ un instructor. Este portafolio evolucionará durante el transcurso del bootcamp
 y al final se convertirá en tu portafolio real, necesario para el proceso de inserción
 laboral.
 
-Tags: `semantic markup`, `box model`, `selectors`, `display`, `positioning`, `js`, `es6`, 
-`problem solving (logic)`, `dom`, `eventos`, `git`, `unix shell`, `github-pages`, `ux`, 
-`design-thinking`, `lean`, `design-sprint`.
+Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
+`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `dom`, `eventos`, `git`, 
+`unix shell`, `github-pages`, `ux`, `design-thinking`, `lean`, `design-sprint`, `discovery`, 
+`research`.
 
-#### [02. Tu primer website: de idea a proyecto publicado](#)
+##### [03. Web Development: Getting Deeper](#)
 
-_Autor: ???_
+Debido a que los perfiles son afines, el siguiente paso es ver herramientas que se
+usan en el desarrollo web de manera profesional. Aquí se verán temas como: Agile (Scrum),
+Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
+DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
 
-En este curso construirás un sitio web estático desde cero, y en el proceso
-aprenderás sobre: HTML semántico, arquitectura de información, interfaces
-interactivas, manipulación del DOM, administración de código fuente con git,
-cómo trabajar en equipo usando GitHub, y finalmente cómo desplegar tu proyecto.
+Tags: `scrum`, `tdd`, `unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`,
+`data-attributes`, `jquery`, `git-workflow`, `synthetiz-and-define`, `sketch`. 
 
-Durante este curso también estudiarás fundamentos de programación y asistirás
-a diversas charlas sobre HTML, CSS y JavaScript.
-
-Tags: `git`, `github`, `markdown`, `html5`, `css3`, `dom`, `eventos`,
-`despliegue`, `github-pages`, `unix shell`
-
-* **Portfolio site**: El entregable final del curso será un website estático.
-Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor. Este portafolio lo seguirás iterando durante el curso y al final
-se convertirá en tu portafolio real, necesario para el proceso de inserción
-laboral.
+* **Portfolio v2**: El entregable final del curso será un website aun estático pero 
+con herramientas que hacen un producto con mayor calidad, agregando herramientas usadas 
+en el mercado como CSS Frameworks y JS libraries, además de usar metodologías 
+de trabajo colaborativo y enfocado a pruebas.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
