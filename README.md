@@ -163,6 +163,53 @@ En este track se encontrarán las estudiantes que sientan una mayor afinidad con
 y JavaScript de tal manera que puedan especializarse en `Front-End Development` o `Back-End 
 Development`.
 
+##### [04. JS Deep Dive](#)
+
+_Autor: ???_
+
+Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`, 
+`objetos` y `funciones` en profundidad.
+
+* **Calculadora**: en este curso construirás una calculadora que permita sumar,
+restar, multiplicar, dividir y calcular potencias. La calculadora se
+implementará como una web app escrita puramente en vanilla JS dentro del
+navegador.
+
+Tags: `tipos de datos`, `operadores`, `funciones`, `objetos`, `execution context`, `es6`, ...
+
+#### [05. Programming Paradigms](09-paradigms)
+
+_Autor: L. Montero_
+
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
+de pensar en cómo se organiza un programa basado en una serie de principios, los
+cuales resultan en estilos muy distintos y lenguages muy diversos.
+
+* **Extender video juego 2d**: En este curso formarás parte de un equipo
+responsable de extender la funcionalidad de un juego 2d. **Tu equipo tendrá que
+dividir tareas, trabajar en parejas y hacer code reviews**. Durante la primera
+semana tu equipo tendrá que extender el juego _heredando_ del prototipo de un
+constructor ya implementado, mientras que en la segunda semana tendrán que
+refactorizar el código de la primera semana usando el paradigma funcional.
+
+Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
+`composition`
+
+#### [06. Computer Science](09-paradigms)
+
+_Autor: ???_
+
+La ciencia de la computación consiste en el estudio de sistemas computacionales 
+sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y 
+aplicación, dicho esto, en este curso se verán temas como algoritmos, notación 
+asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web. 
+
+* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git 
+que permita la navegación a través del historial de cambios.
+
+Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
+`solid`, `mvc`, `singleton`.
+
 #### UX Design
 
 En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño 
@@ -247,40 +294,6 @@ nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
 quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
-
-#### [08. JS Deep Dive](#)
-
-_Autor: ???_
-
-El programa de _educación continua_ arranca con un curso que incluye un poco más
-de teoría de lo habitual. Cubriremos `tipo`, `operadores`, `objetos` y
-`funciones` en profundidad.
-
-* **Calculadora**: en este curso construirás una calculadora que permita sumar,
-restar, multiplicar, dividir y calcular potencias. La calculadora se
-implementará como una web app escrita puramente en vanilla JS dentro del
-navegador.
-
-Tags: `tipos de datos`, `operadores`, `funciones`, `objetos`,
-`execution context`, `es6`, ...
-
-#### [09. Programming Paradigms](09-paradigms)
-
-_Autor: L. Montero_
-
-Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
-de pensar en cómo se organiza un programa basado en una serie de principios, los
-cuales resultan en estilos muy distintos y lenguages muy diversos.
-
-* **Extender video juego 2d**: En este curso formarás parte de un equipo
-responsable de extender la funcionalidad de un juego 2d. **Tu equipo tendrá que
-dividir tareas, trabajar en parejas y hacer code reviews**. Durante la primera
-semana tu equipo tendrá que extender el juego _heredando_ del prototipo de un
-constructor ya implementado, mientras que en la segunda semana tendrán que
-refactorizar el código de la primera semana usando el paradigma funcional.
-
-Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
-`composition`
 
 #### [10. Functional JavaScript](10-functional)
 
