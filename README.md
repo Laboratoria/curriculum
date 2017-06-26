@@ -93,7 +93,7 @@ Durante este curso se harán productos como:
 utilizar para determinar el número mínimo de billetes a entregar dado un 
 monto solicitado.
 
-* **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si 
+* **¿Es una tarjeta de crédito falsa?**: crea un programa que confirme si 
 una tarjeta de crédito es válida según el algoritmo de Luhn.
 
 * **Posts encriptados** en Facebook: crea y despliega una web que publica
@@ -156,6 +156,22 @@ Tags: `scrum`, `tdd`, `unit-testing`, `mocha`, `media-queries`, `bootstrap`, `fl
 con herramientas que hacen un producto con mayor calidad, agregando herramientas usadas 
 en el mercado como CSS Frameworks y JS libraries, además de usar metodologías 
 de trabajo colaborativo y enfocado a pruebas.
+
+#### JS Core
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación 
+y JavaScript de tal manera que puedan especializarse en `Front-End Development` o `Back-End 
+Development`.
+
+#### UX Design
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño 
+de experiencia de usuario.
+
+#### UI Developer
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo 
+de interfaces sin necesidad de profundizar tanto en la lógica de programación.
 
 #### [03. Server-less Single Page Apps: el reinado de JavaScript](#)
 
