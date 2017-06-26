@@ -195,7 +195,7 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`
 
-#### [06. Computer Science](09-paradigms)
+#### [06. Computer Science](#)
 
 _Autor: ???_
 
@@ -209,6 +209,22 @@ que permita la navegación a través del historial de cambios.
 
 Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
 `solid`, `mvc`, `singleton`.
+
+#### [07. Internet Deep Dive](#)
+
+_Autor: ???_
+
+En este curso se verán temas de `network` para entender qué es lo que sucede 
+por detrás de la web (arquitectura cliente-servidor), para luego profundizar en 
+temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
+
+* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a 
+través de un API y que luego puedan ser consumidas en una aplicación cliente que
+haga el proceso de búsqueda y reserva.
+
+Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`, 
+`microservices`.
+
 
 #### UX Design
 
