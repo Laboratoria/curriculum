@@ -104,8 +104,42 @@ regresando a tu web.
 
 ### Bootcamp
 
-El **Bootcamp** tiene una duración de 6 meses, a tiempo completo. Las chicas
-postularán una vez completado el curso de "Introducción a la programación".
+El **Bootcamp** tiene una duración de X meses, a tiempo completo. Las chicas
+postularán una vez completado el curso de "Introducción a la programación". 
+Una vez dentro, llevarán durante X semanas una serie de temas a la que denominamos 
+**Common Core**, a partir de ahí podrán especializarse en 4 perfiles (`tracks`): `UI Developer`, 
+`UX Designer`, `Front-End Developer` y `Back-End Developer`.
+
+#### Common Core
+
+En este espacio, las estudiantes experimentarán un poco de los diversos tracks con
+la intención de descubrir su afinidad, no se verán todos los temas a profundidad,
+pero si lo necesario para poder entender en que track especializarse.
+
+##### [02. Web Development: Getting Started](#)
+
+_Autor: ???_
+
+En este primer curso se construirá un sitio estático desde cero, empezando por entender 
+los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán 
+temas como HTML semántico, arquitectura de información, estilos (CSS), agregando interactividad 
+con JavaScript a través del DOM y eventos, control de versionamiento de código con git, 
+subiendo proyectos a Github y haciendo deployment a GitHub Pages, todo esto acompañado 
+de talleres de UX que nos provean de una visión de creación productos eficientes.
+
+Durante este curso, se buscará que todos los temas sean involucrados en la práctica, es 
+decir, HTML, CSS, JS y Git será usado en todos los proyectos en proporciones significativas 
+con la finalidad de que se encuentren en constante práctica.
+
+* **Portfolio site**: El entregable final del curso será un website estático.
+Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
+un instructor. Este portafolio evolucionará durante el transcurso del bootcamp 
+y al final se convertirá en tu portafolio real, necesario para el proceso de inserción
+laboral.
+
+Tags: `semantic markup`, `box model`, `selectors`, `display`, `positioning`, `js`, `es6`, 
+`problem solving (logic)`, `dom`, `eventos`, `git`, `unix shell`, `github-pages`, `ux`, 
+`design-thinking`, `lean`, `design-sprint`.
 
 #### [02. Tu primer website: de idea a proyecto publicado](#)
 
