@@ -26,7 +26,7 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 
 1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
 
-2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+2. **¿Es una tarjeta de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
@@ -68,7 +68,7 @@ Explora una de las formas más comunes de controlar el flujo de tu programa, y p
 | 01 | video | Repaso semana 1
 | 02 | video | Introducción a estructuras condicionales
 | 03 | video | `If… else` & `else if`
-| 04 | reto | Completa el siguiente código para que de acuerdo a la edad clasifique entre: baby, toddler, kid, teenager and adult.
+| 04 | reto | Completa el siguiente código para que, de acuerdo a la edad, clasifique entre: baby, toddler, kid, teenager and adult.
 | 05 | video | `switch`
 | 06 | quiz | Prueba tu conocimiento
 
@@ -91,7 +91,7 @@ Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY:
 ### Lección 10: [Creando código reusable con Funciones](10-loops)
 **_50min (self-paced)_**
 
-Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
+Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y, por lo tanto, retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso para entender el mundo de oportunidades que te ofrecen las funciones.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -208,7 +208,7 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 | 01 | video | Tips sobre cómo crear tus productos
 | 02 | video | Cómo enviar tu trabajo
 | 03 | video | **Cajero automático**: crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
-| 04 | video | **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+| 04 | video | **¿Es una tarjeta de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
 | 05 | video | **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 | 06 | video | Aprende a desplegar tus productos en la web con `Heroku`
 | 07 | video | Cierre
