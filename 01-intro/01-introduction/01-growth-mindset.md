@@ -23,13 +23,14 @@ _**Tener una mentalidad de crecimiento significa que entiendes que puedes desarr
 
 Mira este video sobre Growth mindset:
 
-[![Video Growth Mindset](https://www.youtube.com/watch?v=pN34FNbOKXc)
+[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
+
 
 ## Desarrollando Growth Mindset
 Verás que tu mentalidad puede variar, pues aunque quisiéramos tener siempre una mentalidad de crecimiento, la realidad es que tenemos que trabajar día a día y en cada situación desafiante para mantenerla. Lo importante es poder reconocer y detectar cuándo estamos teniendo elementos de una mentalidad fija, para luego reflexionar y encontrar estrategias para cambiar.
 La siguiente imagen resume algunas de las diferencias entre ambas mentalidades, y te ayudará a identificar cómo mejorar:
 
-![Image Growth Mindset](https://www.google.co.uk/search?q=mentalidad+de+crecimiento&rlz=1C5CHFA_enUS583VE584&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj4xYGgj9_UAhXFIcAKHdcRCyUQ_AUICigB#imgrc=oJQkkXvLPtPAHM)
+![Image Growth Mindset](https://infoes.examtime.com/files/2015/10/Mentalidad-Fija-vs-Mentalidad-de-Crecimiento.jpg)
 
 ## Growth Mindset en Laboratoria
 Antes de pasar al siguiente módulo queremos darte algunos consejos para tu proceso de aprendizaje:
@@ -41,11 +42,6 @@ Con todos estos conocimientos que has adquirido y con tu nueva mentalidad, te pr
 
 Y para ello, tú tendrás que proponerte lo siguiente:
 
-
-> Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro.
-
-> Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender.
-
->Soy consciente que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
+> Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender. Soy consciente que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
 
 **[Sí, me propongo y me comprometo (click para empezar)’](02-why-learn-to-code.md)**
