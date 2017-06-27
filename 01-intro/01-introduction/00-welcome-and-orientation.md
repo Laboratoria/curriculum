@@ -1,5 +1,5 @@
 # Bienvenida y orientación
-¡Hola! Bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso `01. Introducción a la programación (con JavaScript)` de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.  
+¡Hola! Antes que nada, ¡¡queremos felicitarte por haber pasado exitosamente el examen!! Ahora, te damos la bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso `01. Introducción a la programación (con JavaScript)` de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.  
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas y mejores oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
@@ -30,9 +30,9 @@ Te invitamos a unirte al grupo de facebook de la sede a la que estás postulando
 
 En Laboratoria creemos mucho en la investigación individual y también en el apoyo en grupo. Lo importante es que individualmente entiendas lo que vas haciendo, así te apoyes en tus compañeras o amigas. Además, recuerda que la mejor manera de aprender es enseñar! No dejes de compartir tus conocimientos con tus compañeras.
 
-* Lima:
-* Ciudad de México:
-* Santiago de Chile:
+* Lima: https://facebook.com/groups/LaboratoriaLima20172/?ref=group_cover
+* Ciudad de México: https://facebook.com/groups/LaboratoriaMX20172/?ref=group_cover
+* Santiago de Chile: https://facebook.com/groups/LaboratoriaCHILE20172/?ref=group_cover
 
 ### 2. Horas de consulta
 Queremos que sepas que puedes contar con nosotros, pues nuestro principal objetivo es que aprendas. Te invitamos a las horas de consulta presenciales en Laboratoria, donde podrás recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te preocupes, pues transmitiremos estas sesiones por Facebook live y luego subiremos los videos a los grupos.
