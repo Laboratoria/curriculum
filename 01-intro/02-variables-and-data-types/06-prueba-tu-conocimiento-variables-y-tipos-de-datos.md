@@ -20,6 +20,4 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
   - Cuenta de restaurante
 4. Responde la auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1
 
-<h1>VIDEO REPLIT!!</h1>
-
 <h3>**IMPORTANTE**: _Si estás tomando este curso como parte del proceso de postulación para Laboratoria, tu desempeño en los cuestionarios y retos de código serán tomados en consideración en el proceso de admisión._  </h3>
