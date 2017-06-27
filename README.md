@@ -46,10 +46,10 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudian a tiempo completo, **no** dominan el idioma ingles y
-dedican tiempo todos los días, mientras que los _cursos_ de _educación continua_
-están dirigidos a un público que trabaja, y por lo tanto tiene mucho menos
-disponibilidad de tiempo (aprox. 7h por semana).
+el _bootcamp_ tendrán en cuenta que las alumnas estudian medio tiempo, **no** 
+dominan el idioma ingles y dedican tiempo todos los días, mientras que los 
+_cursos_ de _educación continua_ están dirigidos a un público que trabaja, y por 
+lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h por semana).
 
 Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
 (cursos blended full-time o part-time, 6 meses) y _educación continua_ (cursos
@@ -104,7 +104,7 @@ regresando a tu web.
 
 ### Bootcamp
 
-El **Bootcamp** tiene una duración de X meses, a tiempo completo. Las chicas
+El **Bootcamp** tiene una duración de X meses, a tiempo parcial. Las chicas
 postularán una vez completado el curso de "Introducción a la programación". 
 Una vez dentro, llevarán durante X semanas una serie de temas a la que denominamos 
 **Common Core**, a partir de ahí podrán especializarse en 4 perfiles (`tracks`): `UI Developer`, 
