@@ -48,7 +48,7 @@ En el siguiente video, Michelle te guiará a través de los siguientes pasos par
 
 Aquí el video de Michelle:
 
-[![Video Michelle](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+[![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
 ## Etiquetas y elementos HTML
 Los documentos HTML se componen de `elementos`. Salvo algunas excepciones (por ejemplo `<!DOCTYPE html>`), los elemento comienza con una `etiqueta de inicio` y termina con una `etiqueta de fin`. Por ejemplo, en nuestro documento tenemos el elemento `p`, que comienza con la etiqueta de inicio `<p>` y termina con la etiqueta de finalización `</p>`. El texto que se encuentra entre las etiquetas de apertura y de cierre es el _contenido_ del elemento.
@@ -129,8 +129,7 @@ Los pasos a seguir son:
 
 
 Aquí el video de Michelle:
-
-[![Video Michelle](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+[![Mi primera Web HTML con JS](https://img.youtube.com/vi/SSiWsDoK4GE/0.jpg)](https://www.youtube.com/watch?v=SSiWsDoK4GE)
 
 <!--
 ## Sube tu página a GitHub Pages

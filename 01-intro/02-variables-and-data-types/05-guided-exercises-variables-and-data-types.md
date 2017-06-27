@@ -20,7 +20,7 @@ Los proyectos a crear son:
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
 
 #### 1. Edad en segundos
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=5-b-sceaqyE)
+[![Solution Age in Seconds](https://img.youtube.com/vi/1IZT_7EfRMw/0.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
 
 #### 2. Convertidor de temperatura
 

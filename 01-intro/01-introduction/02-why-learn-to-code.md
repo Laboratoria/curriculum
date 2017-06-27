@@ -55,7 +55,7 @@ JavaScript fue creado (¡en solo 10 días!) por [Brendan Eich](https://en.wikipe
 ## Escribiendo JavaScript en la web
 Seguramente te estás preguntando cómo es eso tener un _intérprete_ JavaScript en el navegador. Pues, _**la mejor forma de aprender es haciendo**_: abre tu navegador Chrome y sigue los pasos que presenta Michelle en el siguiente video. Michelle te mostrará cómo escribir JavaScript y cómo hacer cosas chéveres desde tu computadora, únicamente utilizando el navegador.
 
-[![VIDEO MICHELLE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)](https://www.youtube.com/watch?v=TePHiOKb72k)
+[![JS EN EL NAVEGADOR](http://img.youtube.com/vi/_guTQcHaUQo/0.jpg)](http://www.youtube.com/watch?v=_guTQcHaUQo)
 
 ## JavaScript != Java
 Última nota final sobre el contexto de JavaScript como lenguaje de programación: JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de programación. Mucha gente los confunde. Tú no :)

@@ -44,4 +44,4 @@ Y para ello, tú tendrás que proponerte lo siguiente:
 
 > Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender. Soy consciente que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
 
-**[Sí, me propongo y me comprometo (click para empezar)’](02-why-learn-to-code.md)**
+**[Sí, me propongo y me comprometo (click para continuar)’](02-why-learn-to-code.md)**
