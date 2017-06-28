@@ -10,8 +10,9 @@ de datos diseñadas específicamente para enfrentar desafíos de escalabilidad y
 agilidad en el desarrollo moderno.
 
 En este curso contruirás una aplicación que use una base de datos no relacional
-de documentos JSON (MongoDB o CouchDB). Los usuarios de esta aplicación podrán
-crear "documentos" de varios tipos que podrán salvar, editar, borrar y
+de documentos JSON ([MongoDB](https://www.mongodb.com/) o
+[CouchDB](http://couchdb.apache.org/)). Los usuarios de esta aplicación deberán
+poder crear "documentos" de varios tipos que podrán salvar, editar, borrar y
 sincronizar.
 
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,

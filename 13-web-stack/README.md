@@ -8,19 +8,17 @@ veces nos paramos a pensar en todas las piezas que componen este ecosistema
 vivo, desde el modelo TCP/IP o sistemas operativos, hasta HTML/CSS/JS, pasando
 por DNS, HTTP (servidores, clientes, proxys), URLs, dominios, ...
 
-Como desarrolladora Full Stack, es fundamental estar familiarizado con todos
+Como desarrolladora Full Stack, es fundamental estar familiarizada con todos
 estos protocolos y estándares para poder entender el contexto en el que operan
 nuestras aplicaciones.
 
-En este curso trabajarás en equipos de dos, construyendo un SPA haciendo
-especial énfasis en estándares, deployment y analisis de como interctuan todas
-estas piezas que componen el Web Stack.
+En este curso trabajarás en equipos de dos personas, construyendo un SPA
+haciendo especial énfasis en estándares, deployment, y análisis de cómo
+interctúan todas estas piezas que componen el _Web Stack_.
 
 Al final del curso habrás construido y desplegado una aplicación usando un
-dominio de verdad (?) y presentarás una demo dónde explicarás la experiencia,
+dominio de verdad (?) y presentarás una demo donde explicarás la experiencia,
 lo aprendido y cómo encajan las diferentes piezas del web stack en el producto.
-
-Diseñar, construir y desplegar un site estático que use una API con CORS.
 
 Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `rest`, `server`,
 `client`, ...

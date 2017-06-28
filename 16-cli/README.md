@@ -6,21 +6,21 @@ pieza crucial en el día a día de un desarrollador web, ya sea usando `git`,
 corriendo un `bundler`, instalando dependencias con `npm` o escribiendo scripts
 para arrancar o desplegar aplicaciones.
 
-El primer `unix shell` apareció en 1971, con la primera versión de Unix. A pesar
-de sus más de 40 años de edad, sigue siendo una tecnología totalmente vigente,
-y de alguna forma se ha convertido en el estándar para la interacción con
-servidores y sistemas operativos "Unix-like" (GNU/Linux, BSD, MacOS, Android,
-...).
+La primera `unix shell` apareció en 1971, con la primera versión de Unix. A
+pesar de sus más de 40 años de edad, sigue siendo una tecnología totalmente
+vigente, y de alguna forma se ha convertido en el estándar para la interacción
+con servidores y sistemas operativos "Unix-like" (GNU/Linux, BSD, MacOS,
+Android, ...).
 
 De hecho, en 2016, `unix shell`, es uno de los skills más buscados en la
 industria (ranqueado No. 14 entre los 25 skills más importantes para ser
-contratado en 2016, según LinkedIn.
+contratado en 2016, según LinkedIn).
 
 En este curso aprenderás a escribir shell scripts además de construir un
-programa para ser usado desde la lína de comando. 
+programa con `Node.js` para ser usado desde la lína de comando. 
 
 Tags: `cli`, `shell`, `bash`, `profile`, `history`, `envirnoment`, `process`,
-`pipes`, `stdin`, `stdout`, `stderr`, `nodejs`.
+`pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`, `npm-scripts`.
 
 ## Público objetivo
 

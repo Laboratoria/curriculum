@@ -1,12 +1,13 @@
 # 14. Building HTTP servers with Node.js
 
-Node.js es sin lugar a dudas una de las tecnologías más _de moda_ en Silicon
-Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
-las principales herramientas con las que contamos en nuestro arsenal. Node nos
-permite llevar nuestro conocimiento en JavaScript más allá del navegador.
+[Node.js](https://nodejs.org/) es sin lugar a dudas una de las tecnologías más
+_de moda_ en Silicon Valley y el mundo. Como desarrolladoras Full Stack
+JavaScript, Node.js es una de las principales herramientas con las que contamos
+en nuestro arsenal. Node nos permite llevar nuestro conocimiento de JavaScript
+más allá del navegador.
 
 Node.js nos permite construir servidores y scripts que se prestan a la
-progración orientada a eventos, asicronía, real-time, ... gracias a la propia
+programación orientada a eventos, asicronía, real-time, ... gracias a la propia
 naturaleza de JavaScript. Por ello se ha convertido en una herramienta muy usada
 para construir aplicaciones distribuidas, con mucha concurrencia y altamente
 escalables.
