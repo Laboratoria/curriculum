@@ -13,20 +13,19 @@
 
 #### Sábado 17 de Junio
 
-* Lección 3: [Introducción a Paradigmas de Programación](#)
-  1h (self-paced)
+* Lección 3: [Introducción a Paradigmas de Programación](#) 1h (self-paced)
+  `learnyouparadigms`
 
 ### Semana 2
 
 #### Jueves 22 de Junio
 
-* Lección 4: [OOP y herencia prototipal](#) 2h (self-paced)
+* Lección 4: [OOP y herencia prototipal](#) 2h (self-paced) `planetproto`
 
 #### Sábado 24 de Junio
 
-* Lección 5: [Ejercicios guiados](#) 30min (presencial)
+* Lección 5: [Ejercicios guiados](#) 1min (presencial)
 * Lección 6: [Proyecto (implementación OOP)](#) 1h (presencial)
-
 
 ### Semana 3
 
@@ -38,15 +37,14 @@
 #### Sábado 1 de Julio
 
 * Lección 9: [Object factories and composition](#) 1h (self-paced)
-* Lección 10: [Ejercicios guiados](#) 1h (presencial)
 
 ### Semana 4
 
 #### Jueves 6 de Julio
 
-* Lección 11: [Proyecto (implementación FP)](#) 3h (presencial)
+* Lección 10: [Ejercicios guiados](#) 1h (presencial)
+* Lección 11: [Proyecto (implementación FP)](#) 2h (presencial)
 
 #### Sábado 8 de Julio
 
 * Lección 12: [Demos de proyectos FP](#) 1h (presencial)
-* Lección 13: [Examen](#) 1h (presencial)
