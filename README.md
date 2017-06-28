@@ -52,8 +52,8 @@ _cursos_ de _educación continua_ están dirigidos a un público que trabaja, y 
 lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h por semana).
 
 Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
-(cursos blended full-time o part-time, 6 meses) y _educación continua_ (cursos
-blended 7 horas por semana, 18 meses).
+(cursos blended part-time, 6 meses) y _educación continua_ (cursos blended 7
+horas por semana, 18 meses).
 
 ***
 
@@ -311,7 +311,7 @@ quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
 
-#### [11. Intro to React](11-react-intro)
+#### [11. React](11-react)
 
 _Autor: M. Crowe_
 
@@ -327,7 +327,7 @@ interfaz más completa, high scores, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
-#### [12. React Deep Dive](12-react-deep-dive)
+#### [12. Redux](#)
 
 _Autor: M. Crowe / L. Montero_
 
@@ -335,38 +335,73 @@ _Autor: M. Crowe / L. Montero_
 
 Tags: `react router`, `redux`, `raduim`, ...
 
-#### [13. The Web Stack](#)
+#### [13. The Web Stack](13-web-stack)
 
 _Autor: ???_
 
-Diseñar, construir y desplegar un site estático que use una API con CORS.
+La web es un ecosistema de estándares, protocolos, lenguajes y software. Pocas
+veces nos paramos a pensar en todas las piezas que componen este ecosistema
+vivo, desde el modelo TCP/IP o sistemas operativos, hasta HTML/CSS/JS, pasando
+por DNS, HTTP (servidores, clientes, proxys), URLs, dominios, ...
 
-Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `rest`, `server`,
-`client`, ...
+Al final del curso habrás construido y desplegado una aplicación usando un
+dominio de verdad (?) y presentarás una demo donde explicarás la experiencia, lo
+aprendido y cómo encajan las diferentes piezas del web stack en el producto.
 
-#### [14. Command Line Foo](#)
+Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `server`, `client`, ...
+
+#### [14. Building HTTP servers with Node.js](14-nodejs)
 
 _Autor: ???_
 
-Tags: `shell arguments`, `filesystem`, ...
+Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
+Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
+las principales herramientas con las que contamos en nuestro arsenal. Node nos
+permite llevar nuestro conocimiento de JavaScript más allá del navegador.
 
-#### [15. Node.js](#)
+En este curso construirás un servidor web que sirva contenido estático además de
+algunos endpoints dinámicos que sirvan data en formato JSON.
+
+Tags: `node`, `npm`, `yarn`, `http-server`, `filesystem`, `static-server`, ...
+
+#### [15. Modelando y persistiendo data con NoSQL](15-nosql)
 
 _Autor: ???_
 
-Tags: `npm`, `yarn`, `HTTP Server`, `filesystem`, ...
+Las bases de datos no relacionales (NoSQL) son una nueva generación de bases de
+datos diseñadas específicamente para enfrentar desafíos de escalabilidad y
+agilidad en el desarrollo moderno.
 
-#### [16. Micro services?](#)
+En este curso contruirás una aplicación que use una base de datos no relacional
+de documentos JSON (MongoDB o CouchDB). Los usuarios de esta aplicación deberán
+poder crear "documentos" de varios tipos que podrán salvar, editar, borrar y
+sincronizar.
+
+Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
+`partitioning`, `search` ...
+
+#### [16. Command Line Foo](16-cli)
+
+_Autor: ???_
+
+La primera `unix shell` apareció en 1971, con la primera versión de Unix. A
+pesar de sus más de 40 años de edad, sigue siendo una tecnología totalmente
+vigente, y de alguna forma se ha convertido en el estándar para la interacción
+con servidores y sistemas operativos "Unix-like" (GNU/Linux, BSD, MacOS,
+Android, ...).
+
+En este curso aprenderás a escribir shell scripts además de construir un
+programa con `Node.js` para ser usado desde la lína de comando. 
+
+Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
+`process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
+`npm-scripts`.
+
+#### [17. Micro services?](#)
 
 _Autor: ???_
 
 Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
-
-#### [17. Angular 2?](#)
-
-_Autor: ???_
-
-Tags: ...
 
 #### [18. Análisis y visualización de datos](#)
 
@@ -374,7 +409,7 @@ _Autor: ???_
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-#### [18. WebOps/DevOps](#)
+#### [19. WebOps/DevOps](#)
 
 _Autor: ???_
 
@@ -383,13 +418,13 @@ Application deployment, management, maintenance, configuration and repair.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `repair`, `debugging`, ...
 
-#### [19. Algoritmos](#)
+#### [20. Algoritmos](#)
 
 _Autor: ???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### [20. Estructuras de datos](#)
+#### [21. Estructuras de datos](#)
 
 _Autor: ???_
 
