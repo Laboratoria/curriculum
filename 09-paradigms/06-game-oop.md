@@ -1,9 +1,9 @@
 # 09. Paradigmas de programación
 
-## Lección 06: Proyecto juego 2d (OOP y herencia prototipal) [Parte 1]
+## Lección 06: Proyecto juego 2d (OOP y herencia prototipal)
 
 * Formato: `workshop` (self-paced)
-* Duración: `60min`
+* Duración: `3h`
 
 En este workshop implementarás personajes para un video juego.
 
