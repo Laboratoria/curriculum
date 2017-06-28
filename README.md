@@ -52,8 +52,8 @@ _cursos_ de _educación continua_ están dirigidos a un público que trabaja, y 
 lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h por semana).
 
 Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
-(cursos blended full-time o part-time, 6 meses) y _educación continua_ (cursos
-blended 7 horas por semana, 18 meses).
+(cursos blended part-time, 6 meses) y _educación continua_ (cursos blended 7
+horas por semana, 18 meses).
 
 ***
 
@@ -311,7 +311,7 @@ quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
 
-#### [11. Intro to React](11-react-intro)
+#### [11. React](11-react)
 
 _Autor: M. Crowe_
 
@@ -327,7 +327,7 @@ interfaz más completa, high scores, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
-#### [12. React Deep Dive](12-react-deep-dive)
+#### [12. Redux](#)
 
 _Autor: M. Crowe / L. Montero_
 
