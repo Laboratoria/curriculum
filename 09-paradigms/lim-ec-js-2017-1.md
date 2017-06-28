@@ -7,44 +7,44 @@
 
 #### Jueves 15 de Junio
 
-* Lección 1: [Presentación del curso, proyecto, objetivos y evaluación](#)
+* Lección 0: [Presentación del curso, proyecto, objetivos y evaluación](01-intro.md)
   15min (presencial)
-* Lección 2: [Entorno y metodología de trabajo](#) 1.5h (presencial)
+* Workshop 1: [Entorno y metodología de trabajo](02-env.md) 1.5h (presencial)
 
 #### Sábado 17 de Junio
 
-* Lección 3: [Introducción a Paradigmas de Programación](#) 1h (self-paced)
+* Lección 1: [Introducción a Paradigmas de Programación](03-paradigms.md) 1h (self-paced)
   `learnyouparadigms`
 
 ### Semana 2
 
 #### Jueves 22 de Junio
 
-* Lección 4: [OOP y herencia prototipal](#) 2h (self-paced) `planetproto`
+* Lección 2: [OOP y herencia prototipal](04-proto.md) 2h (self-paced) `planetproto`
 
 #### Sábado 24 de Junio
 
-* Lección 5: [Ejercicios guiados](#) 1min (presencial)
-* Lección 6: [Proyecto (implementación OOP)](#) 1h (presencial)
+* Workshop 2: [Ejercicios guiados](05-solucionario.md) 1min (presencial)
+* Workshop 3: [Proyecto (implementación OOP)](06-game-oop.md) 1h (presencial)
 
 ### Semana 3
 
 #### Miércoles 28 de Junio
 
-* Lección 7: [Proyecto (implementación OOP)](#) 2h (self-paced)
-* Lección 8: [Demos de proyectos OOP](#) 1h (presencial)
+* Workshop 3 (cont.): [Proyecto (implementación OOP)](06-game-oop.md) 2h (self-paced)
+* Workshop 4: [Demos de proyectos OOP](#) 1h (presencial)
 
 #### Sábado 1 de Julio
 
-* Lección 9: [Object factories and composition](#) 1h (self-paced)
+* Lección 3: [Object factories and composition](#) 1h (self-paced)
 
 ### Semana 4
 
 #### Jueves 6 de Julio
 
-* Lección 10: [Ejercicios guiados](#) 1h (presencial)
-* Lección 11: [Proyecto (implementación FP)](#) 2h (presencial)
+* Workshop 5: [Ejercicios guiados](#) 1h (presencial)
+* Workshop 6: [Proyecto (implementación FP)](#) 2h (presencial)
 
 #### Sábado 8 de Julio
 
-* Lección 12: [Demos de proyectos FP](#) 1h (presencial)
+* Workshop 7: [Demos de proyectos FP](#) 1h (presencial)

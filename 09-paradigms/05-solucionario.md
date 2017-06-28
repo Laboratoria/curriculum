@@ -3,7 +3,7 @@
 ## Lección 05: Solucionario
 
 * Formato: `workshop` (self-paced)
-* Duración: `30min`
+* Duración: `60min`
 
 En este workshop revisaremos los ejercicios de `planetproto` y
 `learnyouparadigms` y responderemos sus preguntas.
@@ -26,7 +26,7 @@ En este workshop revisaremos los ejercicios de `planetproto` y
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | workshop   |   30min  | Solucionario y preguntas
+|   1   | workshop   |   60min  | Solucionario y preguntas
 
 ***
 

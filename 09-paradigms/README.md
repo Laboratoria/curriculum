@@ -80,7 +80,7 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso](01-intro.md)
+### Lesson 0: [Presentación del curso](01-intro.md)
 
 15min (presencial)
 
@@ -94,7 +94,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 |-------|------------|----------|------------
 |   1   | charla     |   15min  | xxx
 
-### Lesson 2: [Entorno y metodología de trabajo](02-env.md)
+### Workshop 1: [Entorno y metodología de trabajo](02-env.md)
 
 1h (presencial)
 
@@ -110,7 +110,7 @@ acceso al repo, su propio fork, ...
 |   3   | workshop   |   15min  | Entorno: Node.js + npm
 |   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
 
-### Lesson 3: [Introducción a Paradigmas de Programación](03-paradigms.md)
+### Lesson 1: [Introducción a Paradigmas de Programación](03-paradigms.md)
 
 1h (self-paced)
 
@@ -134,7 +134,7 @@ orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 |  10   | code   |   10min  | Ejercicio funcional
 |  11   | qa     |    5min  | Re-cap
 
-### Lesson 4: [OOP y herencia prototipal](#)
+### Lesson 2: [OOP y herencia prototipal](04-proto.md)
 
 1.5h (self-paced)
 
@@ -151,9 +151,9 @@ herencia.
 |   2   | video      |   10min  | Herencia prototipal
 |   4   | code       |   60min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
 
-### Lesson 5: [Solucionario y ejercicios guiados](#)
+### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario.md)
 
-30min (presencial)
+1h (presencial)
 
 Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
 en particular y herencia prototipal, en esta lección nos concentraremos en hacer
@@ -165,9 +165,9 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 |-------|--------------|----------|------------
 |   1   | solucionario |   30min  | Herencia prototipal
 
-### Lesson 6: [Proyecto (implementación OOP)](#)
+### Workshop 3: [Proyecto (implementación OOP)](#)
 
-1h (presencial)
+3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
@@ -178,29 +178,15 @@ mapas. La implementación será usando herencia prototipal.
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
 |   1   | code       |   2h     | Hacking...
-
-### Lesson 7: [Proyecto (implementación OOP)](#)
-
-2h (self-paced)
-
-En la primera mitad de esta sesión continuarás codeando los personajes y mapas
-en versión OOP (usando herencia prototipal) con el objetivo de preparar un
-_pull request_ que revisaremos durante la segunda hora.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   1h     | Hacking...
 |   2   | review     |   1h     | Pull requests, code review
 
-### Lesson 8: [Demos de proyectos OOP](05-oop-demos)
+### Workshop 4: [Demos de proyectos OOP](05-oop-demos)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Lesson 9: [Object factories and composition](06-composition)
+### Lesson 3: [Object factories and composition](06-composition)
 
 1h (self-paced)
 
@@ -218,7 +204,7 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 |   4   | code       |   10min  | Ejercicios de composición
 |   5   | quiz       |   10min  | Prueba tu conocimiento
 
-### Lesson 10: [Ejercicios guiados, ayudantías](02-guided-exercises)
+### Workshop 5: [Ejercicios guiados, ayudantías](02-guided-exercises)
 
 1h (presencial)
 
@@ -232,9 +218,9 @@ del profe y los TAs.
 |   1   | solucionario |   15min  | Slocucionario
 |   2   | challenge    |   45min  | Ejercicios de composición
 
-### Lesson 11: [Proyecto (implementación FP)](07-fp-project)
+### Workshop 6: [Proyecto (implementación FP)](07-fp-project)
 
-2h (self-paced)
+3h (self-paced)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
@@ -245,31 +231,13 @@ mapas. La implementación será usando el estilo funcional (composición).
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
 |   1   | code       |   2h     | Hacking...
-
-### Lesson 12: [Proyecto (implementación FP)](07-fp-project)
-
-2h (presencial)
-
-En la primera mitad de esta sesión continuarás codeando los personajes y mapas
-en versión funcional (usando composición) con el objetivo de preparar un
-_pull request_ que revisaremos durante la segunda hora.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   1h     | Hacking...
 |   2   | review     |   1h     | Pull requests, code review
 
-### Lesson 13: [Demos de proyectos FP](08-fp-demos)
+### Workshop 7: [Demos de proyectos FP](08-fp-demos)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
-
-### Lesson 14: [Examen](#)
-
-1h (presencial)
 
 ***
 
