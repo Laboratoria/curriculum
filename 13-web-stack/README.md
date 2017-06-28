@@ -1,7 +1,7 @@
 # 13. The Web Stack
 
 Ver comentarios en
-[issue #26][https://github.com/Laboratoria/curricula-js/issues/26#issuecomment-306603268].
+[issue #26](https://github.com/Laboratoria/curricula-js/issues/26#issuecomment-306603268).
 
 La _web_ es un ecosistema de estándares, protocolos, lenguajes y software. Pocas
 veces nos paramos a pensar en todas las piezas que componen este ecosistema
