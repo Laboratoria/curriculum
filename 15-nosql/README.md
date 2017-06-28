@@ -1,4 +1,4 @@
-# 15. NoSQL
+# 15. Modelando y persistiendo data con NoSQL
 
 Cada vez más, trabajamos con aplicaciones que generan enormes cantidades de data
 con estructuras cambiantes. Las bases de datos tradicionales (relacionales)

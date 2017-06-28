@@ -19,8 +19,10 @@ contratado en 2016, según LinkedIn).
 En este curso aprenderás a escribir shell scripts además de construir un
 programa con `Node.js` para ser usado desde la lína de comando. 
 
-Tags: `cli`, `shell`, `bash`, `profile`, `history`, `envirnoment`, `process`,
-`pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`, `npm-scripts`.
+Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
+`process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
+`npm-scripts`.
+
 
 ## Público objetivo
 
