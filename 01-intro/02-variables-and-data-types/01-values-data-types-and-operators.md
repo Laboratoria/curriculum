@@ -164,16 +164,16 @@ Hay más maneras de manipular `strings`, que veremos más adelante.
 No todos los operadores son símbolos. Algunos son escritos como palabras. Un ejemplo es el operador typeof, que produce una cadena de texto que representa el tipo del valor que le pasaste.
 
 ```JavaScript
-typeof(4.5)
+typeof 4.5
 // returns > "number"
 
-typeof("hola")
+typeof "hola"
 // returns > "string"
 
-typeof(NaN)
+typeof NaN
 // returns > "number"
 
-typeof(Infinity)
+typeof Infinity
 // returns > "number"
 
 ```
@@ -201,10 +201,10 @@ Realiza esta comparación en tu consola:
 2 < 3
 // returns > false
 
-typeof(3 > 2)
+typeof (3 > 2)
 // returns > "boolean"
 
-typeof(2 > 3)
+typeof (2 > 3)
 // returns > "boolean"
 ```
 
