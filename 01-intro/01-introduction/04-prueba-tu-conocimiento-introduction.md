@@ -11,10 +11,9 @@
 
 Sigue con detenimiento cada uno de los siguientes pasos:
 
-1. Responde la encuesta de entrada: [pending: falta link]
-2. Responde el quiz de conceptos: [pending: falta link]
+1. Responde el quiz de conceptos: https://goo.gl/forms/eQgwALBRp8FUh5TB2
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
-3. Responde la auto-evaluación (anónima): [pending: falta link]
+2. Responde la auto-evaluación (anónima): https://goo.gl/forms/RrUrEVEDSvZKSxTu1
 
 <h3>**IMPORTANTE**: _Si estás tomando este curso como parte del proceso de postulación para Laboratoria, tu desempeño en los cuestionarios y retos de código serán tomados en consideración en el proceso de admisión._  </h3>
 
