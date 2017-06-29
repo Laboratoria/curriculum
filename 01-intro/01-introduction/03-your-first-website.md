@@ -98,7 +98,7 @@ Para incluir JavaScript en una web HTML puedes utilizar el elemento `script` y c
     <p>Esta es mi primera web</p>
 
     <script type="text/javascript">
-      alert(¡Hola Mundo!);
+      alert('¡Hola Mundo!');
     </script>    
 
   </body>
