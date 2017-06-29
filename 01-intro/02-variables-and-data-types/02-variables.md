@@ -16,7 +16,7 @@ Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar 
 
 ```
 
-Si quiesiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha perdido.
+Si quisiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha perdido.
 
 Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada `variable`. Se utiliza así:
 
@@ -66,7 +66,7 @@ age = 20;
 ```
 Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_ `var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.  
 
-Muchas veces se explica el concepto de variables con la analogía de una caja: las variables son como "caja" en las que puedes meter algún valor que luego pudes cambiar por otro. Sin embargo, una analogía más fiel es pensar en variables como **tentáculos**. Las variables en realidad no es que "contengan" los valores (como una caja); más bien los agarra (como un tentáculo). De hehco, dos variables pueden referirse a un mismo valor. Un programa puede acceder sólo los valores que todavía mantiene "agarrados". Cuando necesitas recordar algo, creas un tentáculo nuevo para "agarrarlo" o cambias unos de tus tentáculos existentes para agarrar lo nuevo.
+Muchas veces se explica el concepto de variables con la analogía de una caja: las variables son como "caja" en las que puedes meter algún valor que luego pudes cambiar por otro. Sin embargo, una analogía más fiel es pensar en variables como **tentáculos**. Las variables en realidad no es que "contengan" los valores (como una caja); más bien los agarra (como un tentáculo). De hecho, dos variables pueden referirse a un mismo valor. Un programa puede acceder sólo a los valores que todavía mantiene "agarrados". Cuando necesitas recordar algo, creas un tentáculo nuevo para "agarrarlo" o cambias unos de tus tentáculos existentes para agarrar lo nuevo.
 
 
 ## Nombrando Variables
@@ -89,7 +89,7 @@ Además de estas reglas, existen una serie de "sugerencias" que debes tomar en c
 
 Veamos algunos ejemplos:
 
-| Mal nombres | Problema | Mejor nombre
+| Mal nombre | Problema | Mejor nombre
 | ------------| -------- | ------------
 | age of fiends | Error: contiene espacios | ageOfFriends
 | null | Error: palabra clave (keyword) | empty

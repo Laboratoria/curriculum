@@ -10,7 +10,7 @@ Los proyectos a crear son:
 
 1. **Edad en segundos**: Crea una web que pida al usuario su edad, en años, utilizando `prompt()` y devuelva su edad, **en segundos**, utilizando `document.write()`.
 
-2. **Convertidor de temperatura**:Crea una web que pida al usuario la temperatura en Celsius (°C), utilizando `prompt()`, y devuelva, en la consola, la temperatura en Farenheit (°F) utilizando `console.log()`. La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) + 32`.
+2. **Convertidor de temperatura**: Crea una web que pida al usuario la temperatura en Celsius (°C), utilizando `prompt()`, y devuelva, en la consola, la temperatura en Farenheit (°F) utilizando `console.log()`. La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) + 32`.
 
 3. **Ganancias y pérdidas**: Crea un programa que pide los ingresos, los costos y el % de impuestos, y calcula la ganancia después de impuestos. Debe imprimir el resultado en la web con el símbolo $ adelante.
 

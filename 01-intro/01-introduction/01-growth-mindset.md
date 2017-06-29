@@ -5,7 +5,7 @@
 ## Sobre Growth Mindset
 Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en **aprender a aprender**.
 
-Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no solo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
+¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no solo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
 
 La mayoría de personas creen que la inteligencia es una capacidad mental con la que nacemos, que es estática y que no podemos cambiar. Esta creencia ocasiona que pensemos que nuestra inteligencia tiene un límite, y que hay cosas que simplemente no podremos aprender.
 
@@ -13,7 +13,7 @@ Sin embargo, diversas investigaciones sobre el cerebro y el aprendizaje han demo
 
 Hace 30 años, Carol Dweck, una psicóloga estadounidense, se planteó investigar y comparar cómo estas distintas creencias podían causar que las personas obtuvieran diferentes resultados al enfrentarse a un reto de aprendizaje. Después de varias investigaciones, ella acuñó los términos Fixed mindset y Growth mindset, es decir mentalidad fija o mentalidad de crecimiento, para describir a ambos tipos de creencias.
 
-A través de sus estudios en diferentes escuelas de estados unidos, ella descubrió que cuando los estudiantes creen que pueden lograr que su inteligencia se desarrolle, entonces están dispuestos a esforzarse más, porque entienden que el logro que alcanzarán será mejor y más grande.
+A través de sus estudios en diferentes escuelas de Estados Unidos, ella descubrió que cuando los estudiantes creen que pueden lograr que su inteligencia se desarrolle, entonces están dispuestos a esforzarse más, porque entienden que el logro que alcanzarán será mejor y más grande.
 
 Actualmente, los últimos avances en neurociencias han mostrado que el cerebro es mucho más maleable de lo que pensábamos. Las investigaciones en plasticidad neuronal evidencian cómo la conectividad entre neuronas puede cambiar con las experiencias que las personas van acumulando. Con práctica, las redes neuronales van creciendo y creando nuevas conexiones. Esto implica que tú puedes incrementar el crecimiento de tus redes neuronales con acciones, como al realizar preguntas, leer, practicar una y otra vez algo que te resulta complicado, y manteniendo buenos hábitos de alimentación y sueño.
 

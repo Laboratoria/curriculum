@@ -10,9 +10,9 @@ Internet es un excelente recurso para aprender por tu cuenta. Es como una gran b
 
 En JavaScript existe una forma fácil de obtener la longitud de un `string` que te devuelve la cantidad de caracteres que componen el `string`. Por ejemplo, la longitud de _'hola'_ es 4 (porque son 4 caracteres) y la de _"supercalifragilisticexpialidocious"_ es 34 (porque son 34 caracteres).
 
-¿Cómo podemos aprender sobre esto? Empeiza abriendo Google y realizando una búsqueda con algo como: _"obtener la longitud de un string en JavaScript"_. Esto nos dará varios resultados que nos pueden ayudar.
+¿Cómo podemos aprender sobre esto? Empieza abriendo Google y realizando una búsqueda con algo como: _"obtener la longitud de un string en JavaScript"_. Esto nos dará varios resultados que nos pueden ayudar.
 
-Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuenta es una de las fuentes más confiables para investigar sobre JavaScript. De hecho, el creador de JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/About):
+Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuente es una de las fuentes más confiables para investigar sobre JavaScript. De hecho, el creador de JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/About):
 > MDN es una plataforma de aprendizaje para las tecnologías Web y el software con el que funciona la Web, incluyendo:
 
 >1. Estándares Web como CSS, HTML, y JavaScript
@@ -20,7 +20,7 @@ Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (
 >3. Desarrollo de complementos para Firefox
 >4. Desarrollo de Firefox OS
 
-Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas abosolutamente todo (especialmente todo lo referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
+Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas absolutamente todo (especialmente todo lo referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
 
 ```JavaScript
 var x = "Mozilla";
@@ -84,7 +84,7 @@ Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-
 2. Realiza una consulta en uno de los grupos de Facebook [(ver bienvenida)](https://github.com/Laboratoria/curricula-js/blob/intro-js/01-intro/01-introduction/00-welcome-and-orientation.md)
 3. Consulta con una amiga que sepa de programación :)
 
-_<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
+_<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
 
 ##
 **[Continuar](04-Comments.md)**

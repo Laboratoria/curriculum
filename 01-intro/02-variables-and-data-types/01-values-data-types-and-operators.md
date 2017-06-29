@@ -66,7 +66,7 @@ Los símbolos `+` y `*` son llamados _operators_ (operadores). El primero repres
 // returns > 1144
 ```
 
-Para la resta existe el operador `-`, y la división se puede hacer con el operador `/`. Veamos más ejemplos (recurda hacerlos en tu consola también!)
+Para la resta existe el operador `-`, y la división se puede hacer con el operador `/`. Veamos más ejemplos (recuerda hacerlos en tu consola también!):
 
 ```JavaScript
 12345 / 250
@@ -91,7 +91,7 @@ Infinity - Infinity
 // returns > NaN
 ```
 
-También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo `%` es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100 multiplicado por 3 + 14 = 314), y 144 % 12 da 0 (porque 12 multiplicado por 12 + 0 = 144). Verás a menudo este operador referido como _modulo_, aunque técnicamente residuo es más preciso.
+También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo `%` es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100 multiplicado por 3 + 14 = 314), y 144 % 12 da 0 (porque 12 multiplicado por 12 + 0 = 144). Verás a menudo este operador referido como _módulo_, aunque técnicamente residuo es más preciso.
 
 ```JavaScript
 5 % 3
@@ -119,7 +119,7 @@ Abre tu consola y escribe lo siguiente:
 
 Tanto las comillas simples como las dobles pueden ser usadas para declarar `strings`, siempre y cuando coincidan al principio y al final. Casi cualquier cosa puede colocarse entre comillas, y JavaScript creará un _string value_ de esa cosa.
 
-Existen un par de caracteres en los _data types_ `strings` que tienen un comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se encuentra dentro de un texto entre comillas, indica que el carácter siguiente tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea. Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe los siguientes textos en tu consola (recurda siempre colocarlos entre comillas, sean simples o dobles).
+Existen un par de caracteres en los _data types_ `strings` que tienen un comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se encuentra dentro de un texto entre comillas, indica que el carácter siguiente tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea. Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe los siguientes textos en tu consola (recuerda siempre colocarlos entre comillas, sean simples o dobles).
 
 ```JavaScript
 "Esta es la primera línea \n Y esta la segunda"
@@ -247,7 +247,7 @@ Otros operadores similares son >= (mayor o igual que), <= (menor o igual que), =
 Sólo existe un valor en JavaScript que no es igual a sí mismo, y este es NaN, que significa "no es un número".
 
 ```JavaScript
-"NaN" == "NaN"
+NaN == NaN
 // returns > false
 ```
 La intención de NaN es representar el resultado de un cálculo sin sentido y como tal, no es igual al resultado de cualquier otro cálculo sin sentido.
@@ -333,7 +333,7 @@ false == 0
 
 ```
 
-Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Por lo tanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el resutado contrario: _false_
+Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Por lo tanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el resutado contrario: _false_:
 
 ```JavaScript
 false === 0
