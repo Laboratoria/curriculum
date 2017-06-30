@@ -14,10 +14,9 @@ Sigue con detenimiento cada uno de los siguientes pasos:
 1. Responde el quiz de conceptos:
 https://goo.gl/forms/mfLgPHFwGfI0lrSH2
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
-2. Entra al salón de clases llamado [laboratoria-intro-js](https://repl.it/classroom/invite/GLlJ8G7) y completa los siguientes retos de código:
+2. Entra al salón de clases llamado [laboratoria-intro-js](https://repl.it/classroom/invite/GLlJ8G7) y completa los siguientes retos de código (_Nota: para hacer esto tendrás que crearte una cuenta en un servicio llamado Replit. Guarda muy bien tu Replit username que lo necesitarás más adelante_):
   - Convertidor de monedas
-  - Cuenta de restaurante
-_Nota: para hacer esto tendrás que crearte una cuenta en un servicio llamado Replit. Guarda muy bien tu Replit username que lo necesitarás más adelante_  
+  - Cuenta de restaurante  
 3. Responde la auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1
 4. Responde la encuesta de datos personales: https://goo.gl/forms/47xgsmCo6JhfrTML2
 
