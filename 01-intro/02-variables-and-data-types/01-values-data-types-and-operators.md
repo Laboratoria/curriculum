@@ -9,7 +9,7 @@ _El texto a continuación se basa en gran medida, con ciertos ajustes, en el cap
 ***
 
 ## Vivimos en un mundo de Data
-En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está lleno de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
+En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
 
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como [predecir si una mujer está embarazada, según su historial de compra en un hipermercado](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4).
 
@@ -28,7 +28,7 @@ La data y los tipos de datos forman las bases de cualquier lenguaje de programac
 ## 1. Numbers
 Los _values_ de tipo `number` son, sin sorpresa alguna, valores numéricos. Es decir, pedazos de data que representan información numérica se representan con el tipo `number`. Esto incluye números positivos, negativos, enteros y decimales. Además,el tipo de datos `number` tiene tres valores simbólicos: +Infinity, -Infinity y NaN (no-un-número).
 
-Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click con el botón derecho del mouse) y escribe los siguientes números. Al hacerlo, la consola te lo regresa el número de vuelta.
+Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click con el botón derecho del mouse -> inspect -> console) y escribe los siguientes números. Al hacerlo, la consola te lo regresa el número de vuelta.
 
 ```JavaScript
 13
@@ -59,14 +59,14 @@ Lo principal que se hace con los números es aritmética. Sigamos explorando el 
 // returns > 144
 ```
 
-Los símbolos + y * son llamados _operators_ (operadores). El primero representa la suma y el segundo la multiplicación. Al poner un operador entre dos valores, se aplicará la operación a esos valores y producirá un nuevo valor. Como ves, la multiplicación ocurre primero. Pero como en matemáticas, puedes cambiar esto encerrando en paréntesis la suma.
+Los símbolos `+` y `*` son llamados _operators_ (operadores). El primero representa la suma y el segundo la multiplicación. Al poner un operador entre dos valores, se aplicará la operación a esos valores y producirá un nuevo valor. Como ves, la multiplicación ocurre primero. Pero como en matemáticas, puedes cambiar esto encerrando en paréntesis la suma.
 
 ```JavaScript
 (100 + 4) * 11
 // returns > 1144
 ```
 
-Para la resta existe el operador -, y la división se puede hacer con el operador /. Veamos más ejemplos (recurda hacerlos en tu consola también!)
+Para la resta existe el operador `-`, y la división se puede hacer con el operador `/`. Veamos más ejemplos (recuerda hacerlos en tu consola también!):
 
 ```JavaScript
 12345 / 250
@@ -91,7 +91,7 @@ Infinity - Infinity
 // returns > NaN
 ```
 
-También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo % es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100*3 + 14 = 314), y 144 % 12 da 0 (porque 12*12 + 0 = 144). Verás a menudo este operador referido como _modulo_, aunque técnicamente residuo es más preciso.
+También existe un operador aritmético más, que podrías no reconocer inmediatamente. El símbolo `%` es usado para representar la operación _residuo_. X % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce 14 (porque 100 multiplicado por 3 + 14 = 314), y 144 % 12 da 0 (porque 12 multiplicado por 12 + 0 = 144). Verás a menudo este operador referido como _módulo_, aunque técnicamente residuo es más preciso.
 
 ```JavaScript
 5 % 3
@@ -119,7 +119,7 @@ Abre tu consola y escribe lo siguiente:
 
 Tanto las comillas simples como las dobles pueden ser usadas para declarar `strings`, siempre y cuando coincidan al principio y al final. Casi cualquier cosa puede colocarse entre comillas, y JavaScript creará un _string value_ de esa cosa.
 
-Existen un par de caracteres en los _data types_ `strings` que tienen un comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se encuentra dentro de un texto entre comillas, indica que el carácter siguiente tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea. Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe los siguientes textos en tu consola (recurda siempre colocarlos entre comillas, sean simples o dobles).
+Existen un par de caracteres en los _data types_ `strings` que tienen un comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se encuentra dentro de un texto entre comillas, indica que el carácter siguiente tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea. Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe los siguientes textos en tu consola (recuerda siempre colocarlos entre comillas, sean simples o dobles).
 
 ```JavaScript
 "Esta es la primera línea \n Y esta la segunda"
@@ -164,16 +164,16 @@ Hay más maneras de manipular `strings`, que veremos más adelante.
 No todos los operadores son símbolos. Algunos son escritos como palabras. Un ejemplo es el operador typeof, que produce una cadena de texto que representa el tipo del valor que le pasaste.
 
 ```JavaScript
-typeof(4.5)
+typeof 4.5
 // returns > "number"
 
-typeof("hola")
+typeof "hola"
 // returns > "string"
 
-typeof(NaN)
+typeof NaN
 // returns > "number"
 
-typeof(Infinity)
+typeof Infinity
 // returns > "number"
 
 ```
@@ -184,7 +184,7 @@ Los otros operadores que hemos visto operaban sobre dos valores, pero typeof só
 El operador menos puede usar tanto como operador binario como operador unario.
 
 ```JavaScript
-- (10-2)
+- (10 - 2)
 // returns > -8
 ```
 
@@ -201,10 +201,10 @@ Realiza esta comparación en tu consola:
 2 < 3
 // returns > false
 
-typeof(3 > 2)
+typeof (3 > 2)
 // returns > "boolean"
 
-typeof(2 > 3)
+typeof (2 > 3)
 // returns > "boolean"
 ```
 
@@ -247,7 +247,7 @@ Otros operadores similares son >= (mayor o igual que), <= (menor o igual que), =
 Sólo existe un valor en JavaScript que no es igual a sí mismo, y este es NaN, que significa "no es un número".
 
 ```JavaScript
-"NaN" == "NaN"
+NaN == NaN
 // returns > false
 ```
 La intención de NaN es representar el resultado de un cálculo sin sentido y como tal, no es igual al resultado de cualquier otro cálculo sin sentido.
@@ -255,7 +255,7 @@ La intención de NaN es representar el resultado de un cálculo sin sentido y co
 ### Operadores Lógicos
 Hay también algunas operaciones que pueden ser aplicadas a los valores `Booleans`. JavaScript soporta tres operadores lógicos: _and_, _or_ y _not_. Estos pueden ser usados para "razonar" con los `Booleans`.
 
-El operador && representa la operación lógica _and_ ("y"). Es un operador binario, y su resultado es _true_ (verdadero) sólo si los dos valores dados son verdaderos. El operador || denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero. _Not_ (Negación) es escrito como un símbolo de admiración (!). Es un operador binario que voltea el valor que se le de; !true produce false y !false regresa true.
+El operador `&&` representa la operación lógica _and_ ("y"). Es un operador binario, y su resultado es _true_ (verdadero) sólo si los dos valores dados son verdaderos. El operador `||` denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero. _Not_ (Negación) es escrito como un símbolo de admiración `!`. Es un operador binario que voltea el valor que se le de; !true produce false y !false produce true. Veamos unos ejemplos:
 
 ```JavaScript
 true && true
@@ -296,7 +296,7 @@ Este es llamado el operador condicional (o algunas veces el operador tenario dad
 ## 4. Null y undefined
 Existen dos valores especiales, escritos `null` y `undefined`, que son usados para denotar la ausencia de un valor significativo. Son valores en sí mismos, pero no poseen ninguna información. Muchas operaciones en el lenguaje que no producen un valor con significado (lo verás después) producen `undefined` simplemente porque tienen que producir algún valor.
 
-La diferencia en el significado entre `undefined` y `null` es un accidente del diseño de JavaScript, y no importa la mayoría del tiempo.
+La diferencia en el significado entre `undefined` y `null` es un accidente del diseño de JavaScript, y no importa la mayoría del tiempo.  
 
 ### Conversión automática de tipo
 Cuando un operador es aplicado al tipo "incorrecto" de valor, JavaScript convertirá silenciosamente el valor en el tipo de dato que espera, usando un conjunto de reglas que a menudo no son lo que tú quieres o esperas. Esto es llamado _coerción de tipo_. Mira estos ejemplos:
@@ -333,7 +333,7 @@ false == 0
 
 ```
 
-Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Por lo tanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el resutado contrario: _false_
+Para casos en el que no quieres que ocurra ninguna conversión automática de tipos, existen dos operadores extra: === y !==. El primero prueba si un valor es precisamente igual a otro, y el segundo si no es precisamente igual. Por lo tanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el resutado contrario: _false_:
 
 ```JavaScript
 false === 0
@@ -342,3 +342,6 @@ false === 0
 "" === 0
 // returns > false
 ```
+
+##
+**[Continuar](02-variables.md)**
