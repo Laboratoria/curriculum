@@ -67,7 +67,7 @@ Explora una de las formas más comunes de controlar el flujo de tu programa, y p
 | - | ----- | -----
 | 01 | video | Repaso semana 1
 | 02 | video | Introducción a estructuras condicionales
-| 03 | video | `If… else` & `else if`
+| 03 | video | `if… else` & `else if`
 | 04 | reto | Completa el siguiente código para que, de acuerdo a la edad, clasifique entre: baby, toddler, kid, teenager and adult.
 | 05 | video | `switch`
 | 06 | quiz | Prueba tu conocimiento
@@ -122,7 +122,7 @@ Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
 ### Lección 12: [Problem Sets](12-problem-sets-functions)
 **_3-6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve los siguiente problemas en [`Repl.it`](https://repl.it):
 1. getStringLength
 2. countSpaces
 3. countVowels
@@ -152,7 +152,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 04 | video | Propiedades y métodos comunes de arreglos: `.length`; `.push()`; `.shift()`; `.unshift()`; `.pop()`; `.concat()`; `.indexOf()`; `.join()`; `.slice()`; `.lastIndexOf()`; `.trim()`
 | 05 | quiz | Prueba tu conocimiento
 | 06 | reto | Varios retos pequeños de manipulación de arreglos
-| 07 | video | ¿Qué son objetos en JS y por qué son importantes ?
+| 07 | video | ¿Qué son objetos en JS y por qué son importantes?
 | 08 | video | Creando, accesando y modificando objetos
 | 09 | quiz | Prueba tu conocimiento
 | 10 | reto | Varios retos pequeños de manipulación de objetos
@@ -162,7 +162,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 ### Lección 14: [Ejercicios guiados ](14-instructor-led-projects-objects-and-arrays)
 **_45min (self-paced)_**
 
-Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
+Repasa y consolida los conceptos aprendidos con algunos ejercicios prácticos guiados.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -181,7 +181,7 @@ Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos 
 ### Lección 15: [Problem Sets](15-problem-sets-objects-and-arrays)
 **_3-6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve los siguiente problemas en [`Repl.it`](https://repl.it):
 1. arrayToObject
 2. objectToArray
 3. personalGreeting

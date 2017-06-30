@@ -15,7 +15,7 @@ Sigue con detenimiento cada uno de los siguientes pasos:
 2. Responde el quiz de conceptos:
 https://goo.gl/forms/mfLgPHFwGfI0lrSH2
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
-3. Entra al salón de clases llamado [laboratoria-intro-js](https://repl.it/classroom/invite/GLlJ8G7) y completa los siguientes retos de código
+3. Entra al salón de clases llamado [laboratoria-intro-js](https://repl.it/classroom/invite/GLlJ8G7) y completa los siguientes retos de código:
   - Convertidor de monedas
   - Cuenta de restaurante
 4. Responde la auto-evaluación (anónima): https://goo.gl/forms/dY6qIDmyZtSDLnoh1

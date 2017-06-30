@@ -90,7 +90,7 @@ El propósito de este curso es darte una idea de qué se trata el mundo del desa
 
 ### Aprenderás
 - Entender qué es la programación y por qué aprender a programar
-- Entender qué es JavaScript y por qué aprederlo
+- Entender qué es JavaScript y por qué aprenderlo
 - Tener un primer acercamiento al mundo del código, creando tu primera página web
 - A darle dinamismo a tu web utilizando JavaScript
 - Algunos conceptos básicos de programación como: variables, tipos datos y operadores
@@ -117,7 +117,7 @@ Queremos motivarte a aprender a programar, y por ello te brindaremos más inform
 | 03 | lectura | Tu primera página web
 | 04 | quiz | Prueba tu conocimiento
 
-### Módulo 2: variables y tipos de datos
+### Módulo 2: Variables y tipos de datos
 
 El segundo módulo entrará a más detalle en algunos conceptos base de la programación, como lo son las variables, los tipos de datos y los operadores.
 
