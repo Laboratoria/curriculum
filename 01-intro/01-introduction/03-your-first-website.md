@@ -129,6 +129,7 @@ Los pasos a seguir son:
 
 
 Aquí el video de Michelle:
+
 [![Mi primera Web HTML con JS](https://img.youtube.com/vi/SSiWsDoK4GE/0.jpg)](https://www.youtube.com/watch?v=SSiWsDoK4GE)
 
 <!--
