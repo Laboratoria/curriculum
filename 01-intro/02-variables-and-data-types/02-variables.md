@@ -11,8 +11,8 @@ _El texto a continuación se basa en gran medida, con ciertos ajustes, en el cap
 Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y transformar `numbers`, `strings` y `booleans`. Pero, ¿qué podemos hacer con esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se pierden. Sigue en tu consola el siguiente ejemplo:
 
 ```JavaScript
-'Hola, mi nombre es ' + 'Michelle' + 'y tengo ' + 19 + ' años';
-// returns > "Hola, mi nombre es Michelley tengo 19 años"
+'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + 19 + ' años';
+// returns > "Hola, mi nombre es Michelle y tengo 19 años"
 
 ```
 
@@ -61,8 +61,8 @@ var age = 19;
 // returns > undefined
 age = 20;
 // returns > 20
-'Hola, mi nombre es ' + 'Michelle' + 'y tengo ' + age + ' años';
-// returns > "Hola, mi nombre es Michelley tengo 20 años"
+'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
+// returns > "Hola, mi nombre es Michelle y tengo 20 años"
 ```
 Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_ `var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.  
 
