@@ -3,7 +3,7 @@
 - Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptar una mentalidad de crecimiento antes de empezar este curso
 
 ## Sobre Growth Mindset
-Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en **aprender a aprender**.
+Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en _**aprender a aprender**_.
 
 ¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no solo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
 
