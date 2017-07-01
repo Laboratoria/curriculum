@@ -36,7 +36,7 @@
 
 #### Sábado 1 de Julio
 
-* Lección 3: [Object factories and composition](#) 1h (self-paced)
+* Lección 3: [Object factories and composition](#) 1.5h (self-paced)
 
 ### Semana 4
 

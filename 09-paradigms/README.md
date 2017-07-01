@@ -188,7 +188,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ### Lesson 3: [Object factories and composition](06-composition)
 
-1h (self-paced)
+1.5h (self-paced)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
@@ -245,7 +245,6 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 * Lupo Montero (autor)
 * Mariano Crowe (technical review)
-* Otros colaboradores?
 
 ## Libros
 
@@ -337,3 +336,4 @@ Otros recursos:
 * [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* [MDN - Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
