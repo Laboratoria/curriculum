@@ -13,7 +13,10 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 ### Objetivos de la lección
 
-* ...
+* Entender _closures_.
+* Aprender las diferencias entre _facrories_ y _constructores_.
+* Aprender a usar `Object.assign()` para extender y mezclar objetos.
+* Aprender a usar _composición_ como alternativa a la herencia.
 
 ### Requisitos
 
@@ -40,14 +43,17 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 `lectura: 3min`
 
-En JavaScript las _funciones_ no son sólo "funciones", también son _closures_.
+Para poder entender las funciones _factory_ y el mecanismo de composición de
+objetos que vamos ver más adelante, es esencial sentirse cómoda con el concepto
+de _closure_.
 
-En JavaScript, cuando declaramos una función, el cuerpo de la función tiene
-acceso al scope dónde se declaró la funcíon además de su scope local. _Closure_
-significa que las funciones se cierran alrededor de las variables a las que
-tiene acceso. Por lo tanto, una función creada dentro de otra función tiene
-acceso a las variables del scope de la función que la envuelve, incluso después
-de que ésta haya retornado. Considera el siguiente snippet:
+En JavaScript las _funciones_ no son sólo "funciones", también son _closures_.
+Esto quiere decir que cuando declaramos una función, el cuerpo de la función
+tiene acceso al scope dónde se declaró la funcíon además de su scope local.
+_Closure_ significa que las funciones se "cierran" alrededor de las variables a
+las que tiene acceso. Por lo tanto, una función creada dentro de otra función
+tiene acceso a las variables del scope de la función que la envuelve, incluso
+después de que ésta haya retornado. Considera el siguiente snippet:
 
 ```js
 const makeFunction = function () {
@@ -63,7 +69,8 @@ myFunc(); // true
 
 En el ejemplo de arriba podemos ver que `makeFunction` es una función anónima
 que retorna otra función anónima, y ésta última todavía tiene acceso a `foo`
-después de que `makeFunction` ya ha retornado.
+(una variable local de `makeFunction`) después de que `makeFunction` ya ha
+retornado.
 
 Los closures son un "feature" muy poderoso y nos van a permitir crear scopes
 "privados" (sólo visibles para aquellas funciones creadas dentro de un scope
@@ -97,7 +104,7 @@ say(); // "Hola soy Pedro Picapiedra"
 En un lenguaje sin "closures", a la hora de invocar `say()` en este ejemplo,
 tendríamos que haber explícitamente pasado `name` como argumento. En JavaScript
 la función `say()` tiene acceso al contexto exterior, incluso si invocáramos la
-función desde otro lugar o como un callback de una operación asíncrona, siempre
+función desde otro lugar, o como un callback de una operación asíncrona, siempre
 va a recordar ese contexto exterior (outer scope) y puede hacer referencia a él.
 
 Pero... por qué, para qué? Veamos un ejemplo.
@@ -114,16 +121,17 @@ function fetchData() {
 En el código de arriba la función `fetchData()` va a hacer una llamada AJAX
 (usando jQuery), y cuando la llamada retorna (esto ocurre después de que
 `fetchData` haya retornado) el callback todavía tiene acceso a `reqId`. Esto es
-muy útil a la hora programar operaciones asíncronas.
+muy útil a la hora programar operaciones asíncronas, ente otras cosas.
 
 ### Factories
 
 `lectura: 5min`
 
-Las `factories` o `factory functions` son simplemente functiones que crean
+Las `factories` o `factory functions` son simplemente funciones que crean
 objetos. Podemos usar factories como alternativa a los constructores, siendo más
-simples y por la tanto más fácil visualizar lo que hacen. En la lección anterior
-vimos una función `createNote` que creaba un objeto. Era una factory!
+simples y por la tanto más fácil visualizar lo que hacen. Nada de `this`, `new`
+o `Function.prototype`. En la lección anterior vimos una función `createNote`
+que creaba un objeto. Era una factory!
 
 ```js
 const createNote = text => ({
@@ -135,9 +143,10 @@ const createNote = text => ({
 
 Esta función es muy sencilla, pero comparada al constructor `Note`, que también
 vimos en la lección pasada, le falta añadir la funcionalidad que le habíamos
-añadido a los objetos creados con `Note` a través de `Note.prototype`. Para
-solventar esto, podríamos añadir un método `toString` directamente sobre la
-instancia que retorna nuestro factory:
+añadido a los objetos creados con `Note` a través de `Note.prototype` (habíamos
+añadido un método `Note.prototype.toString`). Para solventar esto, podríamos
+añadir el método `toString` directamente sobre la instancia que retorna nuestro
+factory:
 
 ```js
 const createNote = text => ({
@@ -210,7 +219,7 @@ console.log(note.toString());
 
 En esta nueva versión el objeto retornado por `createNote` tiene los métodos
 `complete()`, que nos permite marcar la nota como completada y comprobar si está
-completada, y `toString()`, sin necesidad de exponer sus estado interno. Lo cual
+completada, y `toString()`, sin necesidad de exponer sus estado interno, lo cual
 puede ser muy útil además de resultar en _interfaces_ más limpias.
 
 ### Object.assign()
