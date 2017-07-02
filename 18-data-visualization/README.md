@@ -1,4 +1,4 @@
-# 18. Introducción a la Visualización de Data
+﻿# 18. Introducción a la Visualización de Data
 
 “Ojos que no ven, corazón que no siente”. En este curso aprenderas a crear visualizaciones dinámicas para diferentes datas.
 
@@ -51,30 +51,33 @@ https://public.tableau.com/profile/publish/Laboratoria-CursodeVisualizacin-Datad
 
 ## Syllabus
 
-Semana 1: Setup e Introducción a la visualizacion de Datos: 
+####Semana 1: Setup e Introducción a la visualizacion de Datos: 
 
-Lección 1:  Conceptos base e introducción a cómo analizar un problema de datos. 
+#####Lección 1:  Conceptos base e introducción a cómo analizar un problema de datos. 
 
-Orden	Tipo	Duración	Descripción
-1	Video  xmin	¿Cómo se aprende en Laboratoria? 
-2	Video	5min	Introducción a la metodología de análisis de problemas
-3	Video	5min	Cómo formular la pregunta que guía el análisis
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video|  xmin|	¿Cómo se aprende en Laboratoria?| 
+|2|	Video|	5min|	Introducción a la metodología de análisis de problemas|
+|3|	Video|	5min|	Cómo formular la pregunta que guía el análisis|
  
-Lección 2:  Conceptos Introductorios sobre datos. 
+#####Lección 2:  Conceptos Introductorios sobre datos. 
 
-Orden	Tipo	Duración	Descripción
-1	Video 6 min	Fuentes y tipos de datos.
-2	Video	6 min	Conceptos introductorios de Limpieza y preparación de la Data. 
-3	Video	4 min	Metadatos, Fuentes y Diccionario de una fuente de datos. 
-4	Video	7 min	Agregaciones y dimensiones dentro de una fuente de datos. 
-5	Video	4 min	Teoría de colores para uso en visualizaciones
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video| 6 min|	Fuentes y tipos de datos.|
+|2|	Video|	6 min|	Conceptos introductorios de Limpieza y preparación de la Data. |
+|3|	Video|	4 min|	Metadatos, Fuentes y Diccionario de una fuente de datos. |
+|4|	Video|	7 min|	Agregaciones y dimensiones dentro de una fuente de datos. |
+|5|	Video|	4 min|	Teoría de colores para uso en visualizaciones|
 
-Lección 3:  Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
+#####Lección 3:  Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
 
-Orden	Tipo	Duración	Descripción
-1	workshop	15 min	Instalacion de Tableau Public. 
-2	workshop	30 min	Exploración de Data Ejemplo
-3	workshop	45 min	Exploración de Datas adicionales
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	workshop|	15 min	|Instalacion de Tableau Public. |
+|2|	workshop|	30 min	|Exploración de Data Ejemplo|
+|3|	workshop|	45 min	|Exploración de Datas adicionales|
 
 Datas adicionales: 
 1. Data de Música
@@ -83,63 +86,70 @@ Datas adicionales:
 4. 
 5. 
 
-Semana 2: Introducción a visualizaciones
+####Semana 2: Introducción a visualizaciones
 
-Lección 4: Introducción a tipo de visualizaciones
+#####Lección 4: Introducción a tipo de visualizaciones
 
-Orden	Tipo	Duración	Descripción
-1	Video 6 min	Tipo de Visualizaciones.
-2	Video	4 min	Visualizaciones Tradicionales. 
-3	Video	4 min	Visualizaciones de Tiempo
-4 Video	4 min	Visualizaciones Geográficas
-5 Video	4 min	Visualizaciones Avanzadas
-6	Video	7 min	Visualizaciones Estadísticas (Introducción a Pareto, box e histograma pero no serán cubiertas en este curso) 
-7	Video	7 min	Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)
-
-
-Lección 5: Gráficos Tradicionales
-
-Orden	Tipo	Duración	Descripción
-1	Video 5 min	Gráfico de Columnas.
-2	Video	5 min	Gráfico de pie. 
-3	Video	5 min	Gráfico de Burbujas (Bubble)
-4 Video	6 min	Gráfico de dispersión (Scatter) 
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|Video |6 min	|Tipo de Visualizaciones.|
+|2|Video|	4 min	|Visualizaciones Tradicionales. |
+|3|Video|	4 min	|Visualizaciones de Tiempo|
+|4|Video|	4 min	|Visualizaciones Geográficas|
+|5|Video|	4 min	|Visualizaciones Avanzadas|
+|6|Video|	7 min	|Visualizaciones Estadísticas (Introducción a Pareto, box e histograma pero no serán cubiertas en este curso) |
+|7|Video|	10 min	|Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)|
 
 
-Lección 6 (Online): Gráficos para manejo de Tiempo
+#####Lección 5: Gráficos Tradicionales
 
-Orden	Tipo	Duración	Descripción
-1	Video 8 min	Series de Tiempo.
-2	Video	4 min	Líneas de Tiempo (Timeline). 
-3	Video	4 min	Calendarios
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video| 5 min|	Gráfico de Columnas.|
+|2|	Video|	5 min|	Gráfico de pie. |
+|3|	Video|	5 min|	Gráfico de Burbujas (Bubble)|
+|4| Video|	6 min|	Gráfico de dispersión (Scatter) |
 
 
-Semana 3: Visualizaciones avanzadas e interactividad: 
+#####Lección 6: Gráficos para manejo de Tiempo
 
-Lección 7 (Online): Visualizaciones Geográficas y Avanzadas: 
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video| 8 min|	Series de Tiempo.|
+|2|	Video|	4 min|	Líneas de Tiempo (Timeline). |
+|3|	Video|	4 min|	Calendarios|
 
-Orden	Tipo	Duración	Descripción
-1	Video 7 min	Introducción a las coordenadas geográficas.
-2	Video	4 min	Visualizaciones con punto. 
-3	Video	4 min	Visualizaciones de Área
-4 Video	8 min	Chartmotion
 
-Lección 8: Interconexión e interactividad entre visualizaciones, 
+####Semana 3: Visualizaciones avanzadas e interactividad: 
 
-Orden	Tipo	Duración	Descripción
-1	Video 7 min	Introducción a un tablero de información
-2	Video	4 min	Creación de un tablero de información.
-3 Video 5 min Cómo comunicar una historia usando el tablero de información interactivo. 
+#####Lección 7: Visualizaciones Geográficas y Avanzadas: 
 
-Lección 9: Aplicando el conocimiento en los trabajos particulares
-Orden	Tipo	Duración	Descripción
-1     code    90 min   Trabajo en parejas para revisar los tableros de cada una
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video| 7 min|	Introducción a las coordenadas geográficas.|
+|2|	Video|	4 min|	Visualizaciones con punto. |
+|3|	Video|	4 min|	Visualizaciones de Área|
+|4| Video|	8 min|	Chartmotion|
 
-Semana 4: Aprendiendo a comunicar lo que las visualizaciones nos dicen
+#####Lección 8: Interconexión e interactividad entre visualizaciones, 
 
-Lección 10: Presentación de la historia a una audiencia
-Orden	Tipo	Duración	Descripción
-1     code   90 min    Presentación de la historia usando los tableros dinámicos
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|	Video| 7 min|	Introducción a un tablero de información|
+|2|	Video|	4 min|	Creación de un tablero de información.|
+|3| Video| 5 min| Cómo comunicar una historia usando el tablero de información interactivo. |
+
+#####Lección 9: Aplicando el conocimiento en los trabajos particulares
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|     code|    90 min|   Trabajo en parejas para revisar los tableros de cada una|
+
+####Semana 4: Aprendiendo a comunicar lo que las visualizaciones nos dicen
+
+#####Lección 10: Presentación de la historia a una audiencia
+|Orden|	Tipo|	Duración|	Descripción|
+|---|---|---|---|
+|1|     code|   90 min|    Presentación de la historia usando los tableros dinámicos|
 
 ## Autor(es) / Colaboradores
 
