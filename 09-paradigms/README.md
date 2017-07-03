@@ -136,7 +136,7 @@ orientado a eventos, orientado a objetos (OOP) y funcional (FP).
 
 ### Lesson 4: [OOP y herencia prototipal](#)
 
-1h (self-paced)
+1.5h (self-paced)
 
 Después de haber completado la introducción a paradigmas, te introdicirás en los
 detalles de cómo usar contructores y prototipos para crear jerarquías de
@@ -146,15 +146,14 @@ herencia.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | Propiedades de instancia vs prototipo
-|   2   | code       |   10min  | Ejercicios de instancia vs prototipo
-|   3   | video      |   10min  | Herencia prototipal
-|   4   | code       |   10min  | Ejercicios de herencia prototipal
-|   5   | quiz       |   10min  | Prueba tu conocimiento
+|   1   | video      |   10min  | `this` y `bind`
+|   1   | video      |   10min  | `Object.create`
+|   2   | video      |   10min  | Herencia prototipal
+|   4   | code       |   60min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
 
-### Lesson 5: [Ejercicios guiados, ayudantías, charlas](#)
+### Lesson 5: [Solucionario y ejercicios guiados](#)
 
-1h (presencial)
+30min (presencial)
 
 Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
 en particular y herencia prototipal, en esta lección nos concentraremos en hacer
@@ -164,12 +163,11 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 | Orden |  Tipo        | Duración | Descripción
 |-------|--------------|----------|------------
-|   1   | solucionario |   15min  | Herencia prototipal
-|   2   | challenge    |   45min  | Ejercicios de herencia prototipal
+|   1   | solucionario |   30min  | Herencia prototipal
 
 ### Lesson 6: [Proyecto (implementación OOP)](#)
 
-2h (presencial)
+1h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
@@ -366,6 +364,8 @@ Otros recursos:
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [MDN - Function.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+* [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-

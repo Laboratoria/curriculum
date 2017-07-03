@@ -254,19 +254,19 @@ var array = [
 ```
 
 A partir de esta data, ahora nos piden extraer los `id` de cada un de los
-objetos y amacenarlos en un nuevo arreglo (`names`). Si nos planteamos el
+objetos y amacenarlos en un nuevo arreglo (`ids`). Si nos planteamos el
 problema desde un enfoque imperativo, podríamos implementar una solución así:
 
 ```js
-const names = [];
+const ids = [];
 
 for (var i = 0; i < array.length; i++) {
   if (array[i].id) {
-    names.push(array[i].id);
+    ids.push(array[i].id);
   }
 }
 
-console.log(names); // ['uno', 'dos']
+console.log(ids); // ['uno', 'dos']
 ```
 
 En el código anterior, probablemente puedas identificar claramente el estilo
@@ -284,11 +284,11 @@ ejemplo `Array.prototype.filter` o `Array.prototype.map`. Veamos cómo podemos
 usar estas herramientas para implementar la misma lógica:
 
 ```js
-const names = array
+const ids = array
   .filter(item => typeof item.id === 'string')
   .map(item => item.id);
 
-console.log(names); // ['uno', 'dos']
+console.log(ids); // ['uno', 'dos']
 ```
 
 En esta nueva versión hacemos lo siguiente:
@@ -353,15 +353,15 @@ lista de objetos. Empecemos por envolver el código en una función:
 
 ```js
 function getIds(inputArray) {
-  const names = [];
+  const ids = [];
 
   for (var i = 0; i < inputArray.length; i++) {
     if (inputArray[i].id) {
-      names.push(inputArray[i].id);
+      ids.push(inputArray[i].id);
     }
   }
 
-  return names;
+  return ids;
 }
 
 console.log(getIds(array)); // ['uno', 'dos']
@@ -382,15 +382,15 @@ function hasId(obj) {
 }
 
 function getIds(inputArray) {
-  const names = [];
+  const ids = [];
 
   for (var i = 0; i < inputArray.length; i++) {
     if (hasId(inputArray[i])) {
-      names.push(inputArray[i].id);
+      ids.push(inputArray[i].id);
     }
   }
 
-  return names;
+  return ids;
 }
 
 console.log(getIds(array)); // ['uno', 'dos']
@@ -621,23 +621,26 @@ sobre este paradigma tan incomprendido, pero tan de moda en el mundo de
 JavaScript.
 
 A diferencia del paradigma procedural y el orientado a objetos, la programación
-funcional pertenece a la rama de los lenguajes declarativos. Esto quiere decir
-que el "estilo" en el que programamos va a estar mucho más enfocado en qué
+funcional pertenece a la rama de los paradigmas _declarativos_. Esto quiere
+decir que el "estilo" en el que programamos va a estar mucho más enfocado en qué
 queremos hacer y no tanto en los detalles de cómo la computadora lo ejecuta.
 
 Cuando hablamos del estilo imperativo dijimos que nos enfocábamos en asignar
-valores a variables, mutar esos valores, e iterar usando bucles. La programación
-funcional se caracteriza por exactamente lo opuesto. En FP el principal
-mecanismo de cómputo es la aplicación de argumentos a funciones. De hecho,
-podemos resumir los principios de la programación funcional en los siguientes:
+valores a variables, mutar esas variables, e iterar usando bucles. La
+programación funcional se caracteriza por exactamente lo opuesto. **En FP el
+principal mecanismo de cómputo es la aplicación de argumentos a funciones**.
+Como consecuencia, evitamos la asignación de varialbles, mutación, delegamos el
+control de flujo, ... De hecho, podemos resumir los principios de la
+programación funcional en los siguientes:
 
-* Higher order functions (funciones como argumentos y/o valores de retorno)
-* Funciones puras (sin efectos secundarios y siempre retorna lo mismo para los
-  mismos argumentos)
-* Inmutabilidad (no "mutar" valores asignados)
-* Evitar el "estado" compartido (no usar referencias fuera del scope de la
+* **Higher order functions** (funciones como argumentos y/o valores de retorno)
+* **Funciones puras** (sin efectos secundarios y siempre retorna lo mismo para
+  los mismos argumentos)
+* **Composición** de funciones
+* **Inmutabilidad** (no "mutar" valores asignados)
+* **Evitar el "estado" compartido** (no usar referencias fuera del scope de la
   función)
-* Uso de recursión como alternativa a la iteración.
+* Uso de **recursión** como alternativa a la iteración.
 
 Veamos estos conceptos en acción:
 
@@ -664,13 +667,14 @@ function recursiveMap(arr, fn) {
   }
   return [fn(arr[0])].concat(recursiveMap(arr.slice(1), fn));
 }
-``` 
+```
 
 La última función (`recursiveMap`) es un buen ejemplo de FP porque muestra como
-podemos recibir una función como argumento, reemplzar iteración por recursión, 
+podemos recibir una función como argumento, reemplzar iteración por recursión,
 evitar asignación y mutación. Además no accede a ninguna referencia fuera de su
 scope (sólo usa variables locales) y no tiene ningún efecto secundario: se
-limita a producir un valor de retorno a partir de su input (argumentos).
+limita a producir un valor de retorno a partir de su input (argumentos) sin
+afectar nada fuera de su _scope_.
 
 Para comparar con el ejemplo que hicimos de OOP, ahora vamos a crear una función
 que cree objetos, algo parecido a un constructor, pero muy distinto a la vez.
@@ -680,7 +684,7 @@ ahora se va a limitar a crear un objeto y retornarlo, nada de `new`, `this` o
 `prototype`.
 
 ```js
-const createRobot = function(name) {
+const createRobot = function (name) {
   return {
     name: name,
     active: false
@@ -689,7 +693,7 @@ const createRobot = function(name) {
 ```
 
 ES2015 introduce "arrow functions" (funciones flecha), que es una implementación
-de funciones muy parecido al keyword `function`, pero que no implica `new`,
+de funciones muy parecida al keyword `function`, pero que no implica `new`,
 `this` ni `prototype`.
 
 ```js
@@ -715,8 +719,8 @@ const createRobot = name => ({
 ```
 
 Cuando el cuerpo de la función es sólo una expresión (un objeto literal en
-nuestro caso), las "arrow functions" nos permiten hacer retorno implícito, lo
-que significa que podemos obviar los `{}` que determinan el "bloque' de la
+nuestro caso), las "arrow functions" nos permiten hacer _retorno implícito_, lo
+que significa que podemos obviar los `{}` que determinan el "bloque" de la
 función y el keyword `return`. El resultado de evaluar la expresión será el
 valor de retorno. En este ejemplo hemos envuelto la expresión (el objeto
 literal) en paréntesis `()` para evitar que los `{}` se confundan con el cuerpo
@@ -732,11 +736,10 @@ un objeto (su valor de retorno). De esta forma cada función está completamente
 aislada del mundo exterior y se concentra en hacer sólo una cosa.
 
 Un buen ejemplo para visualzar el concepto de transformación es el método
-`Array#map` en JavaScript (muy parecido al map que acabomos de implemntar).
+`Array#map` en JavaScript (muy parecido al map que acabamos de implementar).
 `Array.prototype.map` recibe un argumento, una función que será invocada para
-cada elemento del array (pasando el elemento como argumento), y retorna un nuevo
-arreglo con los resultados de cada invocación a la función que pasamos como
-argumento.
+cada elemento del array, y retorna un nuevo arreglo con los resultados de cada
+invocación a la función que recibe `Array#map` como argumento.
 
 ```js
 const array = ['1', '02', '33', '3.14', '028'];
@@ -761,6 +764,18 @@ console.log(arrayToDouble(array));
 Como vemos en estos ejemplos, podemos encadenar invocaciones a `Array#map` para
 ir "transformando" los elementos de un arreglo, ya que cada invocación retorna
 un array.
+
+#### Qué ventajas ofrece?
+
+* Cómo hemos visto en el ejemplo de arriba, el código funcional tiende a ser más
+  conciso y expresivo.
+* Más predecible. Más adelante veremos que como resultado de los principios del
+  paradigma (uso de funciones puras, inmutabilidad, evitar estado compartido y
+  efectos secundarios, ...) nuestro código será más fácil de predecir, aislar y
+  probar.
+* Se presta a la paralelización y la computación distribuida.
+* Se presta a la asincrónia.
+* JavaScript, como lenguaje, tiene una naturaleza más funcional que imperativa.
 
 ### Ejercicio FP
 
@@ -809,4 +824,3 @@ Otros recursos:
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-

@@ -20,16 +20,16 @@ Los proyectos a crear son:
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
 
 #### 1. Edad en segundos
-<a href="https://www.youtube.com/watch?v=1IZT_7EfRMw"><img src="https://i.ytimg.com/vi/1IZT_7EfRMw/maxresdefault.jpg" width="50%" alt="Solution Age in Seconds">
+[![Solution Age in Seconds](https://i.ytimg.com/vi/1IZT_7EfRMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
 
 #### 2. Convertidor de temperatura
-<a href="https://www.youtube.com/watch?v=Ix6VLiBcABw"><img src="https://i.ytimg.com/vi/Ix6VLiBcABw/maxresdefault.jpg" width="50%" alt="Solution Temperature converter">
+[![Solution Temperature converter](https://i.ytimg.com/vi/Ix6VLiBcABw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ix6VLiBcABw)
 
 #### 3. Ganancias y pérdidas
-<a href="https://www.youtube.com/watch?v=2WtBw8eC0us"><img src="https://i.ytimg.com/vi/2WtBw8eC0us/maxresdefault.jpg" width="50%" alt="Solution Earnings and loses">
+[![Solution Earnings and loses](https://i.ytimg.com/vi/2WtBw8eC0us/maxresdefault.jpg)](https://www.youtube.com/watch?v=2WtBw8eC0us)
 
 #### 4. Iniciales
-<a href="https://www.youtube.com/watch?v=E5ozw3b6iM4"><img src="https://i.ytimg.com/vi/E5ozw3b6iM4/maxresdefault.jpg" width="50%" alt="Solution Initials">
+[![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
 
 ## Último paso de esta lección
 Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
