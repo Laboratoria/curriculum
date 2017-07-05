@@ -137,4 +137,4 @@ Aquí el video de Michelle:
 y deplegándola en [GitHub Pages](https://pages.github.com/)
 -->
 
-**[Continuar](04-prueba-tu-conocimiento-introduction.md)**
+**[Continuar](04-prueba-tu-conocimiento.md)**

@@ -87,4 +87,4 @@ Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-
 _<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
 
 ##
-**[Continuar](04-Comments.md)**
+**[Continuar](04-comments.md)**

@@ -37,4 +37,4 @@ La idea es que borres el comentario y utilices ese espacio para escribir tu cód
 Ahora sí, continúa con los ejercicios y quizzes de esta lección. Mucha suerte!
 
 ##
-**[Continuar](05-guided-exercises-variables-and-data-types.md)**
+**[Continuar](05-guided-exercises.md)**

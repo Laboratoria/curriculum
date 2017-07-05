@@ -35,4 +35,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
 
 ##
-**[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento-variables-y-tipos-de-datos.md)**
+**[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento.md)**
