@@ -59,7 +59,7 @@ const myModule = require('./src/myModule');
 
 ***
 
-### Referencias
+## Referencias
 
 Blog posts:
 

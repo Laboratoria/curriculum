@@ -94,7 +94,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 |-------|------------|----------|------------
 |   1   | lectura    |   15min  | [Presentación del curso](01-intro.md)
 
-### Workshop 1: [Entorno y metodología de trabajo](02-env.md)
+### Workshop 1: [Entorno y metodología de trabajo](02-env)
 
 1h (presencial)
 
@@ -134,7 +134,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), ...
 |   9   | lectura |   10min  | [Funcional](03-paradigms/10-fp.md)
 |  10   | code    |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
 
-### Lesson 2: [OOP y herencia prototipal](04-proto.md)
+### Lesson 2: [OOP y herencia prototipal](04-proto)
 
 1.5h (self-paced)
 
@@ -146,10 +146,10 @@ herencia.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | `this` y `bind`
-|   1   | video      |   10min  | `Object.create`
-|   2   | video      |   10min  | Herencia prototipal
-|   4   | code       |   60min  | Ejercicios [planetproto](https://github.com/sporto/planetproto)
+|   1   | video      |   10min  | [`this` y `bind`](04-proto/01-this-and-bind)
+|   1   | video      |   10min  | [`Object.create`](04-proto/02-object-create.md)
+|   2   | video      |   10min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
+|   4   | code       |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
 
 ### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario.md)
 
@@ -163,9 +163,9 @@ ejercicios todos juntos con la ayuda del profe y los TAs.
 
 | Orden |  Tipo        | Duración | Descripción
 |-------|--------------|----------|------------
-|   1   | solucionario |   30min  | Herencia prototipal
+|   1   | solucionario |   60min  | Herencia prototipal (planetproto)
 
-### Workshop 3: [Proyecto (implementación OOP)](#)
+### Workshop 3: [Proyecto (implementación OOP)](06-game-oop.md)
 
 3h (presencial)
 
@@ -180,13 +180,13 @@ mapas. La implementación será usando herencia prototipal.
 |   1   | code       |   2h     | Hacking...
 |   2   | review     |   1h     | Pull requests, code review
 
-### Workshop 4: [Demos de proyectos OOP](05-oop-demos)
+### Workshop 4: [Demos de proyectos OOP](07-game-oop-demo.md)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Lesson 3: [Object factories and composition](06-composition)
+### Lesson 3: [Object factories and composition](08-composition)
 
 1.5h (self-paced)
 
@@ -198,13 +198,13 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | Introducción a la programación funcional
-|   2   | video      |   10min  | Estado compartido y cómo evitarlo
-|   3   | video      |   10min  | Composition over inheritance
-|   4   | code       |   10min  | Ejercicios de composición
-|   5   | quiz       |   10min  | Prueba tu conocimiento
+|   1   | lectura    |    3min  | [Closures](08-composition/01-closures.md)
+|   2   | lectura    |    5min  | [Factories](08-composition/02-factories.md)
+|   3   | lectura    |    5min  | [Object.assign](08-composition/03-object-assign.md)
+|   4   | lectura    |   10min  | [Composition over inheritance](08-composition/04-composition-over-inheritance.md)
+|   5   | code       |   60min  | [Ejercicios](08-composition/05-exercises.md)
 
-### Workshop 5: [Ejercicios guiados, ayudantías](02-guided-exercises)
+### Workshop 5: [Ejercicios guiados, ayudantías](09-solucionario.md)
 
 1h (presencial)
 
@@ -215,10 +215,9 @@ del profe y los TAs.
 
 | Orden |  Tipo        | Duración | Descripción
 |-------|--------------|----------|------------
-|   1   | solucionario |   15min  | Slocucionario
-|   2   | challenge    |   45min  | Ejercicios de composición
+|   1   | solucionario |   60min  | Solucionario ejercicios `Laboratoria/coi`
 
-### Workshop 6: [Proyecto (implementación FP)](07-fp-project)
+### Workshop 6: [Proyecto (implementación FP)](10-game-fp.md)
 
 3h (self-paced)
 
@@ -233,7 +232,7 @@ mapas. La implementación será usando el estilo funcional (composición).
 |   1   | code       |   2h     | Hacking...
 |   2   | review     |   1h     | Pull requests, code review
 
-### Workshop 7: [Demos de proyectos FP](08-fp-demos)
+### Workshop 7: [Demos de proyectos FP](11-game-fp-demo.md)
 
 1h (presencial)
 

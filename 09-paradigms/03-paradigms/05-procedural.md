@@ -80,7 +80,7 @@ implementación.
 
 ***
 
-### Referencias
+## Referencias
 
 Otros recursos:
 
