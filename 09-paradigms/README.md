@@ -82,7 +82,7 @@ El juego está inspirado en el ejemplo de
 
 ### Lesson 0: [Presentación del curso](01-intro.md)
 
-15min (presencial)
+20min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
@@ -92,7 +92,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   15min  | xxx
+|   1   | lectura    |   15min  | [Presentación del curso](01-intro.md)
 
 ### Workshop 1: [Entorno y metodología de trabajo](02-env.md)
 
@@ -105,34 +105,34 @@ acceso al repo, su propio fork, ...
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | workshop   |   15min  | Entorno: Git + GitHub
-|   2   | workshop   |   15min  | Identificar tareas, dividir trabajo
-|   3   | workshop   |   15min  | Entorno: Node.js + npm
-|   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
+|   1   | workshop   |   20min  | [Entorno: Git + GitHub](02-env/01-git+github.md)
+|   2   | workshop   |   20min  | [Entorno: Node.js + npm](02-env/02-node+npm.md)
+|   3   | workshop   |   20min  | [Ejemplo: Workshopper (paradigms)](02-env/03-workshopper.md)
 
-### Lesson 1: [Introducción a Paradigmas de Programación](03-paradigms.md)
+### Lesson 1: [Introducción a Paradigmas de Programación](03-paradigms)
 
-1h (self-paced)
+1.5h (self-paced)
 
 En esta lección aprenderás las características y diferencias entre los
-paradigmas más relevantes para JavaScript: imperativo, por procedimientos,
-orientado a eventos, orientado a objetos (OOP) y funcional (FP).
+paradigmas más relevantes para **JavaScript**, que es un lenguaje
+multi-paradigma y nos permite programar en varios estilos: imperativo, por
+procedimientos, orientado a objetos (OOP), funcional (FP), ...
 
 #### Lesson plan
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | video  |    3min  | ¿Qué son los paradigmas de programación?
-|   2   | video  |    3min  | Historia
-|   3   | video  |    4min  | Declarativo vs Imperativo
-|   4   | video  |    5min  | Ejercicio Imperativo
-|   5   | video  |    5min  | Por procedimientos
-|   6   | code   |    8min  | Ejercicio por procedimientos
-|   7   | video  |    5min  | Orientado a objetos
-|   8   | code   |   10min  | Ejercicio OOP
-|   9   | video  |    5min  | Funcional
-|  10   | code   |   10min  | Ejercicio funcional
-|  11   | qa     |    5min  | Re-cap
+| Orden |  Tipo   | Duración | Descripción
+|-------|---------|----------|------------
+|   1   | video   |    4min  | [¿Qué son los paradigmas de programación?](03-paradigms/01-overview.md)
+|   2   | video   |    3min  | [Historia](03-paradigms/02-history.md)
+|   3   | video   |   12min  | [Declarativo vs Imperativo](03-paradigms/03-declarative-vs-imperative.md)
+|   4   | video   |    5min  | [Ejercicio Imperativo](03-paradigms/04-imperative-exercise.md)
+|   5   | video   |    6min  | [Por procedimientos](03-paradigms/05-procedural.md)
+|   6   | video   |    6min  | [Modularidad](03-paradigms/06-modules.md)
+|   6   | code    |    8min  | [Ejercicio por procedimientos](03-paradigms/07-procedural-exercise.md)
+|   7   | video   |   12min  | [Orientado a objetos](03-paradigms/08-oop.md)
+|   8   | code    |   10min  | [Ejercicio OOP](03-paradigms/09-oop-exercise.md)
+|   9   | lectura |   10min  | [Funcional](03-paradigms/10-fp.md)
+|  10   | code    |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
 
 ### Lesson 2: [OOP y herencia prototipal](04-proto.md)
 
