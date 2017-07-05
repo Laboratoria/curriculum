@@ -1,20 +1,20 @@
 # 08. JS Deep Dive
 
-JS Deep Dive, es un curso teorico-practico que profundiza no solo el conocimiento de JavaScript, sino todo lo necesario para entenderlo correctamente. Entender como funciona Javascript por dentro, curiosear con la teoria de compiladores y entender conceptos de Computer Science asociados. Finalmente este curso tiene como proposito consolidar tus conocimientos y aumentar tu habilidad para deteccion de errores, entenderas partes que incluso desarrolladores experimentados desconocen y/o ignoran.
+JS Deep Dive, es un curso teoríco-práctico que profundiza no solo el conocimiento de JavaScript, sino todo lo necesario para entenderlo correctamente. Entender como funciona Javascript por dentro, curiosear con la teoria de compiladores y entender conceptos de Computer Science asociados. Finalmente este curso tiene como propósito consolidar tus conocimientos y aumentar tu habilidad para detección de errores, entenderás partes que incluso desarrolladores experimentados desconocen y/o ignoran.
 
 
-En este curso usaras los conceptos aprendidos desarrollando una pequenha libreria para detectar errores de JavaScript, la cual customizaras a tu gusto. El seguimiento del proyecto estara bajo el esquema Open Source, deberas seguir un github, crear branches, colaborar en equipo y plantear soluciones, finalmente cada equipo presentara una demo funcional de su producto bajo un esquema de presentacion Startup ante un jurado con experiencia en el tema.
+En este curso usarás los conceptos aprendidos,desarrollando una pequeña librería para detectar errores de JavaScript, la cual customizaras a tu gusto. El seguimiento del proyecto estará bajo el esquema Open Source, deberás usar un repositorio, crear branches, colaborar en equipo y plantear soluciones, finalmente cada equipo presentará una demo funcional de su producto bajo un esquema de presentación Startup ante un jurado con experiencia en el tema.
 
 ## Público objetivo
 
-Apto para todo publico
+Apto para todo público
 
 ## Requerimientos previos
 
 Haber usado JavaScript
 
 ## Aprenderás
-* Que es JavaScript y por que es importante
+* Qué es JavaScript y por que es importante
 * Como funcionan los lenguajes de programacion
 * Una breve introduccion a Compiladores
 * JavaScript como nunca antes lo has visto 
@@ -31,7 +31,7 @@ Haber usado JavaScript
 
 ## Producto
 
-El producto en el que trabajaras es una pequenha libreria para manejar errores en paginas web en especial en SPA( Single page application ), construiras bajo una base o semilla un detector de errores global que podras usar en tus proyectos. Podras customizar el paso de mensajes, agregar nuevas funcionalidades e incluso explotar la data de tu libreria.
+El producto en el que trabajaras es una pequeña librería para manejar errores en páginas web en especial en SPA( Single page application ), construirás bajo una base o semilla un detector de errores global que podrás usar en tus proyectos. Podrás customizar el paso de mensajes, agregar nuevas funcionalidades e incluso explotar la data de tu librería.
 
 Participar en el proyecto involucra lo siguiente:
 
