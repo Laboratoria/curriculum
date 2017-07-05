@@ -8,3 +8,7 @@
 * Cuenta en [GitHub](https://github.com/)
 * Instalar `planetproto` con el siguiente comando: `npm install -g planetproto`
 * Fork propio del repo de tu cohort
+
+***
+
+[Continuar](../05-solucionario.md)

@@ -9,3 +9,7 @@ Durante esta sesión...
 
 * Que todas tengan instalen `learnyouparadigms` y lo puedan ejecutar.
 * Familiarizarse con la ejecución de "workshoppers".
+
+***
+
+[Continuar](../03-paradigms/01-overview.md)

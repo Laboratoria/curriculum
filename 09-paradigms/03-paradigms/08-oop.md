@@ -150,3 +150,7 @@ Otros recursos:
 
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+
+***
+
+[Continuar](09-oop-exercise.md)

@@ -110,3 +110,7 @@ Videos:
 Otros recursos:
 
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+***
+
+[Continuar](03-object-assign.md)

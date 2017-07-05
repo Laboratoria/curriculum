@@ -1,6 +1,4 @@
-# 09. Paradigmas de programación
-
-## Lección 06: Proyecto juego 2d (OOP y herencia prototipal)
+# Proyecto juego 2d (OOP y herencia prototipal)
 
 * Formato: `workshop` (self-paced)
 * Duración: `3h`
@@ -64,3 +62,7 @@ Otros recursos:
 * [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 * [MDN - Object.defineProperties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
+
+***
+
+[Continuar](07-game-oop-demo.md)

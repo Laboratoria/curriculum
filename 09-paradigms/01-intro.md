@@ -83,3 +83,7 @@ Ver [Syllabus en readme del curso](README.md#syllabus).
 ## Calendario
 
 Ver [calendario para LIM20171](lim-ec-js-2017-1.md).
+
+***
+
+[Continuar](02-env/01-git%2Bgithub.md)

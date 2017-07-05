@@ -115,3 +115,7 @@ JavaScript.
 Otros recursos:
 
 * [History of programming languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
+
+***
+
+[Continuar](03-declarative-vs-imperative.md)

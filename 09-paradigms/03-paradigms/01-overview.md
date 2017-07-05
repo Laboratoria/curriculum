@@ -102,3 +102,7 @@ Otros recursos:
 
 * [Definición de Programming_paradigm en Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Comparativa de paradigmas de programación en Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
+
+***
+
+[Continuar](02-history.md)

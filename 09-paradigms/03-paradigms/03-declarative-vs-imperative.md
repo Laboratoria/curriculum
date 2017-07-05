@@ -105,3 +105,7 @@ Otros recursos:
 
 * [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
+
+***
+
+[Continuar](04-imperative-exercise.md)

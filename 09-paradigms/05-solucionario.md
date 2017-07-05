@@ -1,6 +1,4 @@
-# 09. Paradigmas de programación
-
-## Lección 05: Solucionario
+# Solucionario learnyouparadigms y planetproto
 
 * Formato: `workshop` (self-paced)
 * Duración: `60min`
@@ -64,3 +62,7 @@ Otros recursos:
 * [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 * [MDN - Object.defineProperties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
+
+***
+
+[Continuar](06-game-oop.md)

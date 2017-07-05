@@ -71,3 +71,7 @@ console.log(arr); // [1, 2, 3] NO MODIFICADO!
 Otros recursos:
 
 * [MDN - Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+***
+
+[Continuar](04-composition-over-inheritance.md)

@@ -156,3 +156,7 @@ Otros recursos:
 
 * [MDN - Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 * [MDN - Object.defineProperties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
+
+***
+
+[Continuar](03-prototypal-inheritance.md)

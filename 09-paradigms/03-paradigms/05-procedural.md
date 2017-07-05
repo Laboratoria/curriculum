@@ -85,3 +85,7 @@ implementación.
 Otros recursos:
 
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
+
+***
+
+[Continuar](06-modules.md)

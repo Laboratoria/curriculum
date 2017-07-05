@@ -95,3 +95,7 @@ Otros recursos:
 * [MDN - Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [MDN - Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+***
+
+[Continuar](02-factories.md)

@@ -67,3 +67,7 @@ Blog posts:
   Axel Rauschmayer, 07 Sep 2014
 * [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc),
   Preethi Kasireddy (FreeCodeCamp), Jan 22 2016
+
+***
+
+[Continuar](07-procedural-exercise.md)
