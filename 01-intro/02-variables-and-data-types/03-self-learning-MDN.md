@@ -1,9 +1,14 @@
 # Auto-aprendizaje: manipulando strings y numbers
+
 ## Objetivos de Aprendizaje
+
 - Conocer la documentación MDN y la importancia del auto-aprendizaje
 - Aprender a manipular `strings` y `numbers` en JavaScript
 
+***
+
 ## Aprendiendo sobre `string.length`
+
 En el mundo de la tecnología, el **auto-aprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde los inicios de tu camino en el mundo del código, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
 
 Internet es un excelente recurso para aprender por tu cuenta. Es como una gran biblioteca de conocimiento siempre a tu disposición. Veamos un ejemplo:
@@ -13,6 +18,7 @@ En JavaScript existe una forma fácil de obtener la longitud de un `string` que 
 ¿Cómo podemos aprender sobre esto? Empieza abriendo Google y realizando una búsqueda con algo como: _"obtener la longitud de un string en JavaScript"_. Esto nos dará varios resultados que nos pueden ayudar.
 
 Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuente es una de las fuentes más confiables para investigar sobre JavaScript. De hecho, el creador de JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/About):
+
 > MDN es una plataforma de aprendizaje para las tecnologías Web y el software con el que funciona la Web, incluyendo:
 
 >1. Estándares Web como CSS, HTML, y JavaScript
@@ -22,7 +28,7 @@ Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (
 
 Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas absolutamente todo (especialmente todo lo referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
 
-```JavaScript
+```js
 var x = "Mozilla";
 var empty = "";
 
@@ -35,7 +41,7 @@ console.log("La cadena vacia tiene una longitud de " + empty.length);
 
 Después de leer la documentación debería quedar claro que para conocer la longitud de strings, lo que debemos es colocarle un _.length_ al final, así:
 
-```JavaScript
+```js
 var shortWord = 'hola'
 var longWord = "supercalifragilisticexpialidocious"
 
@@ -70,6 +76,7 @@ Ahora que ha quedado demostrado el _"súper poder del auto-aprendizaje"_, lee en
 6. [Convertir un string en un número](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) **nota**: este artículo está en inglés. Intenta leerlo con ayuda del [traductor de Google](https://translate.google.com/)
 
 Al final de estas lecturas, debes saber muy bien cómo funcionan:
+
 - charAt()
 - indexOf()
 - toUpperCase()
@@ -78,6 +85,7 @@ Al final de estas lecturas, debes saber muy bien cómo funcionan:
 - parseInt()
 
 ## Otros recursos de auto-aprendizaje
+
 Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-aprendizaje:
 
 1. Busca otros recursos en la web. Uno muy bueno es [stackoverflow](https://es.stackoverflow.com/) (aunque en español suele haber menos contenido de calidad, así que quizás tengas que apoyarte con el traductor de Google)
@@ -86,5 +94,6 @@ Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-
 
 _<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
 
-##
-**[Continuar](04-comments.md)**
+***
+
+[Continuar](04-comments.md)
