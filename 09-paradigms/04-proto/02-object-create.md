@@ -2,7 +2,7 @@
 
 `video: 10min`
 
-https://laboratoria.wistia.com/medias/y3ka2dold6
+[![Paradigmas - Proto: Object.create()](https://embedwistia-a.akamaihd.net/deliveries/276361587ebe2506d327117feaee304949c0601f.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/y3ka2dold6?wvideo=y3ka2dold6)
 
 En JavaScript todo objeto tiene un "prototipo", aunque no lo especifiquemos.
 Cuando creamos un objeto literal, el prototipo del objeto por defecto es

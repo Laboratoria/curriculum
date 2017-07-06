@@ -2,8 +2,7 @@
 
 `video: 4min`
 
-<div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/6frz31ykmi?videoFoam=true" title="Wistia video player" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
-<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+[![Paradigmas - intro](https://embedwistia-a.akamaihd.net/deliveries/96a1ed02f6e5165d6d7d76ad22b7c9b359630123.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/6frz31ykmi?wvideo=6frz31ykmi)
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de

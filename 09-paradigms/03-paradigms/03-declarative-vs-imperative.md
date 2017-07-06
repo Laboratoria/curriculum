@@ -2,7 +2,7 @@
 
 `video: 12min`
 
-https://laboratoria.wistia.com/medias/ty5mr7p77t
+[![Paradigmas - Declarativo vs Imperativo](https://embedwistia-a.akamaihd.net/deliveries/9e9d7f42e688950f919c2ea4b08fbe4a6f6b93ea.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/ty5mr7p77t?wvideo=ty5mr7p77t)
 
 Hemos mencionado que los primeros lenguajes de programación eran imperativos, y
 que se centraban en el "cómo" más que en el "qué". Como contrapartida, el estilo

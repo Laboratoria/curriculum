@@ -2,7 +2,7 @@
 
 `video: 6min`
 
-https://laboratoria.wistia.com/medias/ph5zkst0fv
+[![Paradigmas - Modularidad](https://embedwistia-a.akamaihd.net/deliveries/b1347a276a6b6796df7f2a7f7b9e20df06cd4ae8.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/ph5zkst0fv?wvideo=ph5zkst0fv)
 
 Una de las consecuencias de estos cambios es el concepto de "modularidad". Esto
 va a permitir que empecemos a escribir programas estructurados en módulos
