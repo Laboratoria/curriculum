@@ -1,6 +1,7 @@
 # Programación por procedimientos
 
-`video: 6min`
+* Formato: `video`
+* Duración: `6min`
 
 [![Paradigmas - Programación por Procedimientos](https://embedwistia-a.akamaihd.net/deliveries/4e3484d4a5311cad9a043dc69d9243ed023538e5.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/el19ibmhpj?wvideo=el19ibmhpj)
 

@@ -1,6 +1,7 @@
 # Closures
 
-`lectura: 3min`
+* Formato: `lectura`
+* Duración: `3min`
 
 Para poder entender las funciones _factory_ y el mecanismo de composición de
 objetos que vamos ver más adelante, es esencial sentirse cómoda con el concepto

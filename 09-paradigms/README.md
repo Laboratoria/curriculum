@@ -148,7 +148,7 @@ herencia.
 |-------|------------|----------|------------
 |   1   | video      |   10min  | [`this` y `bind`](04-proto/01-this-and-bind)
 |   1   | video      |   10min  | [`Object.create`](04-proto/02-object-create.md)
-|   2   | video      |   10min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
+|   2   | video      |   12min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
 |   4   | code       |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
 
 ### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario.md)

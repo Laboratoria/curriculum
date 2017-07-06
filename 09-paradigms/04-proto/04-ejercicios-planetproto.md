@@ -1,6 +1,7 @@
 # Ejercicios [planetproto](https://github.com/sporto/planetproto)
 
-`code: 60min`
+* Formato: `workshopper`
+* Duración: `60min`
 
 ## Requisitos
 

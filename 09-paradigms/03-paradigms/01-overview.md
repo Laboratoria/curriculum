@@ -1,6 +1,7 @@
 # ¿Qué son los paradigmas de programación?
 
-`video: 4min`
+* Formato: `video`
+* Duración: `4min`
 
 [![Paradigmas - intro](https://embedwistia-a.akamaihd.net/deliveries/96a1ed02f6e5165d6d7d76ad22b7c9b359630123.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/6frz31ykmi?wvideo=6frz31ykmi)
 

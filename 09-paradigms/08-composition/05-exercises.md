@@ -1,5 +1,8 @@
 # Ejercicios
 
+* Formato: `workshopper`
+* Duración: `60min`
+
 ## Requisitos
 
 * Es fundamental tener instalado y configurado `git` y `npm`

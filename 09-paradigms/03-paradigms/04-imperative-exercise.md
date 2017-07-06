@@ -1,5 +1,8 @@
 # Ejercicio imperativo
 
+* Formato: `workshopper`
+* Duración: `5min`
+
 ## Requisitos
 
 * Es fundamental tener instalado y configurado `git` y `npm`
