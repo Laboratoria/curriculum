@@ -1,6 +1,6 @@
 # Demos de proyecto juego 2d (OOP)
 
-* Formato: `workshop` (self-paced)
+* Formato: `workshop`
 * Duración: `60min`
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
@@ -15,14 +15,6 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 * Es fundamental haber enviado pull request con el trabajo realizado en el
   workshop anterior.
-
-***
-
-## Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | workshop   |   60min  | Demos
 
 ***
 
