@@ -2,6 +2,8 @@
 
 `video: 10min`
 
+https://laboratoria.wistia.com/medias/y3ka2dold6
+
 En JavaScript todo objeto tiene un "prototipo", aunque no lo especifiquemos.
 Cuando creamos un objeto literal, el prototipo del objeto por defecto es
 `Object.prototype`.

@@ -128,11 +128,11 @@ procedimientos, orientado a objetos (OOP), funcional (FP), ...
 |   4   | video   |    5min  | [Ejercicio Imperativo](03-paradigms/04-imperative-exercise.md)
 |   5   | video   |    6min  | [Por procedimientos](03-paradigms/05-procedural.md)
 |   6   | video   |    6min  | [Modularidad](03-paradigms/06-modules.md)
-|   6   | code    |    8min  | [Ejercicio por procedimientos](03-paradigms/07-procedural-exercise.md)
-|   7   | video   |   12min  | [Orientado a objetos](03-paradigms/08-oop.md)
-|   8   | code    |   10min  | [Ejercicio OOP](03-paradigms/09-oop-exercise.md)
-|   9   | lectura |   10min  | [Funcional](03-paradigms/10-fp.md)
-|  10   | code    |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
+|   7   | code    |    8min  | [Ejercicio por procedimientos](03-paradigms/07-procedural-exercise.md)
+|   8   | video   |   12min  | [Orientado a objetos](03-paradigms/08-oop.md)
+|   9   | code    |   10min  | [Ejercicio OOP](03-paradigms/09-oop-exercise.md)
+|  10   | lectura |   10min  | [Funcional](03-paradigms/10-fp.md)
+|  11   | code    |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
 
 ### Lesson 2: [OOP y herencia prototipal](04-proto)
 

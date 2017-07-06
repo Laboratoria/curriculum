@@ -2,6 +2,8 @@
 
 `video: 10min`
 
+https://laboratoria.wistia.com/medias/6p1jbpi4qk
+
 Hasta ahora nos hemos concetrado en el concepto de prototipo y cómo crear
 objetos con un prototipo determinado. También hemos mencionado el concepto
 de _cadena de prototipos_ y cómo JavaScript "resuleve" (busca) las propiedades

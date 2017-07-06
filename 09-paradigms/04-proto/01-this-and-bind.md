@@ -2,6 +2,8 @@
 
 `video: 10min`
 
+https://laboratoria.wistia.com/medias/wuv699tbbx
+
 Entender el concepto de `this` es fundamental para entender el modelo de
 objetos de JavaScript.
 
