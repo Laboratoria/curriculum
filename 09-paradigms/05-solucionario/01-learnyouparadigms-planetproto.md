@@ -20,4 +20,4 @@ En este workshop revisaremos los ejercicios de `planetproto` y
 
 ***
 
-[Continuar](06-game-oop.md)
+[Continuar](../06-game-oop/01-hacking.md)

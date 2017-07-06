@@ -1,6 +1,6 @@
 # Presentación del curso
 
-* Formato: `lectura` (en el futuro será video)
+* Formato: `lectura` (en el futuro será video?)
 * Duración: `15min`
 
 ## Objetivos de la lección
@@ -86,4 +86,4 @@ Ver [calendario para LIM20171](lim-ec-js-2017-1.md).
 
 ***
 
-[Continuar](02-env/01-git%2Bgithub.md)
+[Continuar](../02-env/01-git%2Bgithub.md)

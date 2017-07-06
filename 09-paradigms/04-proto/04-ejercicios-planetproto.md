@@ -12,4 +12,4 @@
 
 ***
 
-[Continuar](../05-solucionario.md)
+[Continuar](../05-solucionario/01-learnyouparadigms-planetproto.md)

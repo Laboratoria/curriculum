@@ -80,19 +80,13 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Lesson 0: [Presentación del curso](01-intro.md)
+### Lesson 0: [Presentación del curso](01-intro/01-welcome.md)
 
-20min (presencial)
+15min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | lectura    |   15min  | [Presentación del curso](01-intro.md)
 
 ### Workshop 1: [Entorno y metodología de trabajo](02-env)
 
@@ -151,36 +145,24 @@ herencia.
 |   2   | video      |   12min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
 |   4   | code       |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
 
-### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario.md)
+### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario/01-learnyouparadigms-planetproto.md)
 
 1h (presencial)
 
 Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
-en particular y herencia prototipal, en esta lección nos concentraremos en hacer
-ejercicios todos juntos con la ayuda del profe y los TAs.
+en particular, y herencia prototipal, en esta lección solucionaremos los
+ejercicios de `planetproto` y `learnyouparadigms` todos juntos con la ayuda de
+los instructores.
 
-#### Lesson plan
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   60min  | Herencia prototipal (planetproto)
-
-### Workshop 3: [Proyecto (implementación OOP)](06-game-oop.md)
+### Workshop 3: [Proyecto (implementación OOP)](06-game-oop/01-hacking.md)
 
 3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
-mapas. La implementación será usando herencia prototipal.
+tendrás que extender el video juego añadiendo 2 ó más personajes. La
+implementación será usando herencia prototipal.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   2h     | Hacking...
-|   2   | review     |   1h     | Pull requests, code review
-
-### Workshop 4: [Demos de proyectos OOP](07-game-oop-demo.md)
+### Workshop 4: [Demos de proyectos OOP](07-game-oop-demo/01-demo.md)
 
 1h (presencial)
 
@@ -204,35 +186,22 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 |   4   | lectura    |   10min  | [Composition over inheritance](08-composition/04-composition-over-inheritance.md)
 |   5   | code       |   60min  | [Ejercicios](08-composition/05-exercises.md)
 
-### Workshop 5: [Ejercicios guiados, ayudantías](09-solucionario.md)
+### Workshop 5: [Ejercicios guiados, ayudantías](09-solucionario/01-coi.md)
 
 1h (presencial)
 
-En esta lección nos concentraremos en hacer ejercicios todos juntos con la ayuda
-del profe y los TAs.
+En esta lección nos concentraremos en solucionar los ejercicios de
+`Laboratoria/coi` todos juntos con la ayuda de los instructores.
 
-#### Lesson plan
+### Workshop 6: [Proyecto (implementación FP)](10-game-fp/01-hacking.md)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   60min  | Solucionario ejercicios `Laboratoria/coi`
-
-### Workshop 6: [Proyecto (implementación FP)](10-game-fp.md)
-
-3h (self-paced)
+3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
-mapas. La implementación será usando el estilo funcional (composición).
+tendrás que extender el video juego añadiendo 2 ó más personajes. La
+implementación será usando el estilo funcional (composición).
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   2h     | Hacking...
-|   2   | review     |   1h     | Pull requests, code review
-
-### Workshop 7: [Demos de proyectos FP](11-game-fp-demo.md)
+### Workshop 7: [Demos de proyectos FP](11-game-fp-demo/01-demo.md)
 
 1h (presencial)
 

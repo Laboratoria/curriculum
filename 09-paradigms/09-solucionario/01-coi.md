@@ -5,4 +5,4 @@
 
 ***
 
-[Continuar](10-game-fp.md)
+[Continuar](../10-game-fp/01-hacking.md)

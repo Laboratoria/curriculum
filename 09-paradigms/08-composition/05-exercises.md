@@ -12,4 +12,4 @@
 
 ***
 
-[Continuar](../09-solucionario.md)
+[Continuar](../09-solucionario/01-coi.md)

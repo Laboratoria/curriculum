@@ -18,4 +18,4 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ***
 
-[Continuar](08-composition/01-closures.md)
+[Continuar](../08-composition/01-closures.md)

@@ -20,4 +20,4 @@ En este workshop implementarás personajes para un video juego.
 
 ***
 
-[Continuar](07-game-oop-demo.md)
+[Continuar](../07-game-oop-demo/01-demo.md)
