@@ -1,7 +1,9 @@
 # Ejercicio imperativo
 
-* Formato: `workshopper`
+* Formato: `code`
 * Duración: `5min`
+
+***
 
 ## Requisitos
 

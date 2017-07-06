@@ -3,6 +3,8 @@
 * Formato: `lectura`
 * Duración: `5min`
 
+***
+
 Llegado a este punto, probablemente te estés preguntando cómo podemos acceder
 ahora a `text` y `createdAt`. En nuestro caso, estas propiedades no necesitan
 ser "privadas", así que vamos a "exponerlas". Para ello, en vez de exponerlas

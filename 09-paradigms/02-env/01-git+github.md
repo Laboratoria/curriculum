@@ -3,8 +3,6 @@
 * Formato: `workshop`
 * Duración: `20min`
 
-Durante esta sesión nos aseguraremos, acceso al repo, su propio fork, ...
-
 ## Objetivos del workshop
 
 * Que todas tengan git y node instalado
@@ -12,5 +10,7 @@ Durante esta sesión nos aseguraremos, acceso al repo, su propio fork, ...
 * Que todas tengan acceso a los repos necesarios para el curso
 
 ***
+
+Durante esta sesión nos aseguraremos, acceso al repo, su propio fork, ...
 
 [Continuar](02-node%2Bnpm.md)

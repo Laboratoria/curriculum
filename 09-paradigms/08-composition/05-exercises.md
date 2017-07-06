@@ -1,7 +1,9 @@
 # Ejercicios
 
-* Formato: `workshopper`
+* Formato: `code`
 * Duración: `60min`
+
+***
 
 ## Requisitos
 

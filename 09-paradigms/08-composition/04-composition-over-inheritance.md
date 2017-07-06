@@ -3,6 +3,8 @@
 * Formato: `lectura`
 * Duración: `10min`
 
+***
+
 Por lo general, a la hora de "diseñar" programas tratamos de favorecer la
 composición con respecto a la herencia. El motivo principal es la flexibilidad
 de no estar amarrado a una jerarquía rígida de herencia, que además debe existir

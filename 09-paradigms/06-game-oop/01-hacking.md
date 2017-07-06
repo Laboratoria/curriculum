@@ -3,13 +3,15 @@
 * Formato: `workshop`
 * Duración: `3h`
 
-En este workshop implementarás personajes para un video juego.
-
 ## Objetivos de la lección
 
 * Añadir dos personajes cada equipo
 * Trabajar haciendo "pair programming"
 * Enviar PR de por lo menos un personaje
+
+***
+
+En este workshop implementarás personajes para un video juego.
 
 ## Requisitos
 

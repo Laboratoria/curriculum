@@ -1,6 +1,6 @@
 # Ejercicio por procedimientos
 
-* Formato: `workshopper`
+* Formato: `code`
 * Duración: `10min`
 
 ***

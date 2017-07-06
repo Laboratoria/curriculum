@@ -1,6 +1,6 @@
 # Ejercicio OOP
 
-* Formato: `workshopper`
+* Formato: `code`
 * Duración: `10min`
 
 ***
