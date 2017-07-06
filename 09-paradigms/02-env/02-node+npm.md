@@ -1,7 +1,7 @@
 # Entorno: Node.js + npm
 
 * Formato: `workshop`
-* Duración: `15min`
+* Duración: `20min`
 
 Durante esta sesión...
 
