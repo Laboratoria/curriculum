@@ -68,6 +68,8 @@ https://public.tableau.com/profile/mari.plaza#!/vizhome/Laboratoria-EvolucinPene
 |3|	Video|	4 min|	Metadatos, Fuentes y Diccionario de una fuente de datos. |
 |4|	Video|	7 min|	Agregaciones y dimensiones dentro de una fuente de datos. |
 |5|	Video|	4 min|	Teoría de colores para uso en visualizaciones|
+|6|	Video|	6 min|	Herramientas disponibles para creación de visualizaciones|
+
 
 #### Lección 3:  (Presencial) Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
 
@@ -102,6 +104,8 @@ Datas adicionales:
 #### Lección 5: (Presencial) Gráficos Tradicionales
 
 Cada tópico cubre el video de Tableau en Español, la teoría de cada tipo de gráfico y la práctica con la data de Internet y de manera opcional más práctica con la data escogida por ellas. 
+
+Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no tenga que ver directamente en el computador. 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
@@ -138,9 +142,9 @@ Cada tópico cubre el video de Tableau en Español, la teoría de cada tipo de g
 |2|     code|    30 min|   Trabajo en parejas para revisar los tableros de cada una|
 |3|     code|    30 min|   Exploración de la data y contar una historia|
 
-### Semana 4: (Presencial) Aprendiendo a comunicar lo que las visualizaciones nos dicen
+### Semana 4: Aprendiendo a comunicar lo que las visualizaciones nos dicen
 
-#### Lección 9: Presentación de la historia a una audiencia
+#### Lección 9: (Presencial) Presentación de la historia a una audiencia
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
 |1|     code|    30 min|   Revisión de la historia y feedback antes de la presentación|
