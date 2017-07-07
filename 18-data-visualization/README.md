@@ -37,31 +37,29 @@ Tags:
 
 ## Detalles logísticos
 
-* Self-paced: 11 hrs
-* Presencial: 5 hrs
-* Total horas: 16
+* Self-paced: 4-6 hrs
+* Presencial: 12 hrs
+* Total horas: 16-18 hrs
 
 ## Producto
 
 Las alumnas deberás desarrollar el siguiente data dashboard como producto final:
 
-https://public.tableau.com/profile/publish/Laboratoria-CursodeVisualizacin-DatadeComerciodePasesLatinoamricanos/PerfilComercialporPas#!/publish-confirm
-
-(Aun por actualizar con la nueva data)
+https://public.tableau.com/profile/mari.plaza#!/vizhome/Laboratoria-EvolucinPenetracindeInternet-CursoVisualizacin/Introduccin
 
 ## Syllabus
 
 ### Semana 1: Setup e Introducción a la visualizacion de Datos: 
 
-#### Lección 1:  Conceptos base e introducción a cómo analizar un problema de datos. 
+#### Lección 1:  (Presencial) Conceptos base e introducción a cómo analizar un problema de datos. 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|	Video|  xmin|	¿Cómo se aprende en Laboratoria?| 
+|1|	Video|  10min|	¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos?| 
 |2|	Video|	5min|	Introducción a la metodología de análisis de problemas|
 |3|	Video|	5min|	Cómo formular la pregunta que guía el análisis|
  
-#### Lección 2:  Conceptos Introductorios sobre datos. 
+#### Lección 2:  (Presencial) Conceptos Introductorios sobre datos. 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
@@ -71,13 +69,13 @@ https://public.tableau.com/profile/publish/Laboratoria-CursodeVisualizacin-Datad
 |4|	Video|	7 min|	Agregaciones y dimensiones dentro de una fuente de datos. |
 |5|	Video|	4 min|	Teoría de colores para uso en visualizaciones|
 
-#### Lección 3:  Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
+#### Lección 3:  (Presencial) Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
 |1|	workshop|	15 min	|Instalacion de Tableau Public. |
-|2|	workshop|	30 min	|Exploración de Data Ejemplo|
-|3|	workshop|	45 min	|Exploración de Datas adicionales|
+|2|	workshop|	45 min	|Exploración de Data Ejemplo a través de juegos dinámicos|
+|3|	workshop|	30 min	|Exploración de Datas adicionales a través de Tableau y juegos|
 
 Datas adicionales: 
 1. Data de Música
@@ -88,7 +86,7 @@ Datas adicionales:
 
 ### Semana 2: Introducción a visualizaciones
 
-#### Lección 4: Introducción a tipo de visualizaciones
+#### Lección 4: (Online) Introducción a tipo de visualizaciones
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
@@ -101,28 +99,22 @@ Datas adicionales:
 |7|Video|	10 min	|Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)|
 
 
-#### Lección 5: Gráficos Tradicionales
+#### Lección 5: (Presencial) Gráficos Tradicionales
+
+Cada tópico cubre el video de Tableau en Español, la teoría de cada tipo de gráfico y la práctica con la data de Internet y de manera opcional más práctica con la data escogida por ellas. 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|	Video| 5 min|	Gráfico de Columnas.|
-|2|	Video|	5 min|	Gráfico de pie. |
-|3|	Video|	5 min|	Gráfico de Burbujas (Bubble)|
-|4| Video|	6 min|	Gráfico de dispersión (Scatter) |
-
-
-#### Lección 6: Gráficos para manejo de Tiempo
-
-|Orden|	Tipo|	Duración|	Descripción|
-|---|---|---|---|
-|1|	Video| 8 min|	Series de Tiempo.|
-|2|	Video|	4 min|	Líneas de Tiempo (Timeline). |
-|3|	Video|	4 min|	Calendarios|
+|1|	Video y Code| 15 min|	Gráfico de Columnas|
+|2|	Video y Code|	15 min|	Gráfico de pie. |
+|3|	Video y Code|	15 min|	Gráfico de Burbujas (Bubble)|
+|4| Video y Code|	20 min|	Gráfico de dispersión (Scatter) |
+|5|	Video y Code| 25 min|	Series de Tiempo.|
 
 
 ### Semana 3: Visualizaciones avanzadas e interactividad: 
 
-#### Lección 7: Visualizaciones Geográficas y Avanzadas: 
+#### Lección 6: (Online) Visualizaciones Geográficas y Avanzadas: 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
@@ -131,7 +123,7 @@ Datas adicionales:
 |3|	Video|	4 min|	Visualizaciones de Área|
 |4| Video|	8 min|	Chartmotion|
 
-#### Lección 8: Interconexión e interactividad entre visualizaciones, 
+#### Lección 7: (Online) Interconexión e interactividad entre visualizaciones, 
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
@@ -139,17 +131,20 @@ Datas adicionales:
 |2|	Video|	4 min|	Creación de un tablero de información.|
 |3| Video| 5 min| Cómo comunicar una historia usando el tablero de información interactivo. |
 
-#### Lección 9: Aplicando el conocimiento en los trabajos particulares
+#### Lección 8: (Presencial) Aplicando el conocimiento en los trabajos particulares
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|     code|    90 min|   Trabajo en parejas para revisar los tableros de cada una|
+|1|     clase|    30 min|   Revisión de los conceptos online y aclarar dudas del tablero de Internet|
+|2|     code|    30 min|   Trabajo en parejas para revisar los tableros de cada una|
+|3|     code|    30 min|   Exploración de la data y contar una historia|
 
-### Semana 4: Aprendiendo a comunicar lo que las visualizaciones nos dicen
+### Semana 4: (Presencial) Aprendiendo a comunicar lo que las visualizaciones nos dicen
 
-#### Lección 10: Presentación de la historia a una audiencia
+#### Lección 9: Presentación de la historia a una audiencia
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|     code|   90 min|    Presentación de la historia usando los tableros dinámicos|
+|1|     code|    30 min|   Revisión de la historia y feedback antes de la presentación|
+|2|     code|   90 min|    Presentación de la historia usando los tableros dinámicos|
 
 ## Autor(es) / Colaboradores
 
