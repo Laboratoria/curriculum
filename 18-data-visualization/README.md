@@ -66,18 +66,18 @@ https://public.tableau.com/profile/mari.plaza#!/vizhome/Laboratoria-EvolucinPene
 |1|	Video| 6 min|	Fuentes y tipos de datos.|
 |2|	Video|	6 min|	Conceptos introductorios de Limpieza y preparación de la Data. |
 |3|	Video|	4 min|	Metadatos, Fuentes y Diccionario de una fuente de datos. |
-|4|	Video|	7 min|	Agregaciones y dimensiones dentro de una fuente de datos. |
-|5|	Video|	4 min|	Teoría de colores para uso en visualizaciones|
-|6|	Video|	6 min|	Herramientas disponibles para creación de visualizaciones|
-
+|4|	Video|	6 min|	Herramientas disponibles para creación de visualizaciones|
+|5|    Video|	5 min|	Teoría de colores para uso en visualizaciones|
+|6|	Juego|	35 min|	Agregaciones y dimensiones dentro de una fuente de datos. |
+|7|	Juego|	10 min|	Agregaciones - El caso del promedio ponderado|
 
 #### Lección 3:  (Presencial) Setup y conocimiento de los datos Instalación de tecnologías a utilizar.
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|	workshop|	15 min	|Instalacion de Tableau Public. |
-|2|	workshop|	45 min	|Exploración de Data Ejemplo a través de juegos dinámicos|
-|3|	workshop|	30 min	|Exploración de Datas adicionales a través de Tableau y juegos|
+|1|	workshop|	15 min	|Instalación de Tableau Public. |
+|2|	Juego|	30 min	|Exploración de Data Ejemplo a través de juegos dinámicos|
+|3|	workshop|	15 min	|Exploración de Datas adicionales a través de Tableau y juegos|
 
 Datas adicionales: 
 1. Data de Música
