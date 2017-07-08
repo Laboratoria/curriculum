@@ -1,0 +1,1 @@
+﻿|2|	Video|	6 min|	Conceptos introductorios de Limpieza y preparación de la Data. |

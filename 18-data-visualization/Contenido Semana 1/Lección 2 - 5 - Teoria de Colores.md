@@ -1,0 +1,1 @@
+﻿|5|    Juego|	10 min|	Teoría de colores para uso en visualizaciones|
