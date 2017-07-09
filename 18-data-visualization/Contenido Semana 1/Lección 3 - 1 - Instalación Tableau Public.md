@@ -1,1 +1,0 @@
-﻿|1|	workshop|	15 min	|Instalación de Tableau Public. |
