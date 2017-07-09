@@ -75,9 +75,9 @@ https://public.tableau.com/profile/mari.plaza#!/vizhome/Laboratoria-EvolucinPene
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|	workshop|	15 min	|Instalación de Tableau Public. |
-|2|	Juego|	30 min	|Exploración de Data Ejemplo a través de juegos dinámicos|
-|3|	workshop|	15 min	|Exploración de Datas adicionales a través de Tableau y juegos|
+|1|	Juego|	30 min	|Exploración de Data Ejemplo a través de juegos dinámicos|
+|2|	workshop|	10 min	|Instalación de Tableau Public. |
+|3|	workshop|	20 min	|Exploración de Datas adicionales a través de Tableau y juegos|
 
 Datas adicionales: 
 1. Data de Música
