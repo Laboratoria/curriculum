@@ -1,1 +1,0 @@
-﻿|1|	Video| 6 min|	Fuentes y tipos de datos.|
