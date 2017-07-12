@@ -1,6 +1,10 @@
 # Growth Mindset
+
 ## Objetivos de aprendizaje
+
 - Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptar una mentalidad de crecimiento antes de empezar este curso
+
+***
 
 ## Sobre Growth Mindset
 
@@ -28,13 +32,16 @@ Mira este video sobre Growth mindset:
 
 
 ## Desarrollando Growth Mindset
+
 Verás que tu mentalidad puede variar, pues aunque quisiéramos tener siempre una mentalidad de crecimiento, la realidad es que tenemos que trabajar día a día y en cada situación desafiante para mantenerla. Lo importante es poder reconocer y detectar cuándo estamos teniendo elementos de una mentalidad fija, para luego reflexionar y encontrar estrategias para cambiar.
 La siguiente imagen resume algunas de las diferencias entre ambas mentalidades, y te ayudará a identificar cómo mejorar:
 
 ![Image Growth Mindset](https://infoes.examtime.com/files/2015/10/Mentalidad-Fija-vs-Mentalidad-de-Crecimiento.jpg)
 
 ## Growth Mindset en Laboratoria
+
 Antes de pasar al siguiente módulo queremos darte algunos consejos para tu proceso de aprendizaje:
+
 1. El aprendizaje es mejor y perdura más cuando necesitas esforzarte más. Los aprendizajes fáciles se recuerdan hoy, pero no mañana. Cuando el aprendizaje es más difícil, es más fuerte y se queda en tu memoria más tiempo.
 2. Tratar de resolver un problema antes de que te muestren cómo hacerlo, te permitirá luego aprender y entender mejor la solución que te enseñen.
 3. Cometer errores y corregirlos es lo que te permitirá construir los puentes para avanzar en el proceso de aprendizaje.
@@ -45,4 +52,6 @@ Y para ello, tú tendrás que proponerte lo siguiente:
 
 > Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender. Soy consciente que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
 
-**[Sí, me propongo y me comprometo (click para continuar)’](02-why-learn-to-code.md)**
+***
+
+[Sí, me propongo y me comprometo (click para continuar)’](02-why-learn-to-code.md)
