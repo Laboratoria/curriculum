@@ -10,13 +10,13 @@
 
 Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en _**aprender a aprender**_.
 
-¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no solo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
+¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no sólo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
 
 La mayoría de personas creen que la inteligencia es una capacidad mental con la que nacemos, que es estática y que no podemos cambiar. Esta creencia ocasiona que pensemos que nuestra inteligencia tiene un límite, y que hay cosas que simplemente no podremos aprender.
 
 Sin embargo, diversas investigaciones sobre el cerebro y el aprendizaje han demostrado que cada vez que aprendemos algo nuevo nuestro cerebro cambia y crece. En otras palabras, nosotras mismas tenemos el control para desarrollar y expandir nuestra inteligencia.
 
-Hace 30 años, Carol Dweck, una psicóloga estadounidense, se planteó investigar y comparar cómo estas distintas creencias podían causar que las personas obtuvieran diferentes resultados al enfrentarse a un reto de aprendizaje. Después de varias investigaciones, ella acuñó los términos Fixed mindset y Growth mindset, es decir mentalidad fija o mentalidad de crecimiento, para describir a ambos tipos de creencias.
+Hace 30 años, Carol Dweck, una psicóloga estadounidense, se planteó investigar y comparar cómo estas distintas creencias podían causar que las personas obtuvieran diferentes resultados al enfrentarse a un reto de aprendizaje. Después de varias investigaciones, ella acuñó los términos Fixed mindset y Growth mindset, es decir, mentalidad fija o mentalidad de crecimiento, para describir a ambos tipos de creencias.
 
 A través de sus estudios en diferentes escuelas de Estados Unidos, ella descubrió que cuando los estudiantes creen que pueden lograr que su inteligencia se desarrolle, entonces están dispuestos a esforzarse más, porque entienden que el logro que alcanzarán será mejor y más grande.
 
@@ -54,4 +54,4 @@ Y para ello, tú tendrás que proponerte lo siguiente:
 
 ***
 
-[Sí, me propongo y me comprometo (click para continuar)’](02-why-learn-to-code.md)
+[Sí, me propongo y me comprometo (click para continuar)](02-why-learn-to-code.md)

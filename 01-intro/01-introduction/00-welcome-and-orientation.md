@@ -15,7 +15,7 @@ No te asustes, porque no estás sola, nosotros queremos acompañarte en este pro
 
 <!--
 ## Descargar y cuentas
-Para completar este curso, necesitarás desacargar y crear cuentas de algunos servicios web. Antes de empezar, es necesario que:
+Para completar este curso, necesitarás descargar y crear cuentas de algunos servicios web. Antes de empezar, es necesario que:
 
   1. Tengas una cuenta de Google (Gmail). Si no tienes, puedes crea una aquí: https://accounts.google.com/SignUp?hl=es
   2. Tengas el navegador web Google Chrome. Si no lo tienes, puedes descargarlo aquí: https://www.google.com/chrome/browser/desktop/index.html
@@ -117,7 +117,7 @@ Este pre-work consta de 2 módulos principales:
 
 ### Módulo 1: Introducción
 
-Queremos motivarte a aprender a programar, y por ello te brindaremos más información sobre cómo, a través del código, podrás transformar tu futuro. Además, te daremos algunos consejos para aprender a aprender. Después de eso,¡te enseñaremos a crear tu primera página web!
+Queremos motivarte a aprender a programar, y por ello te brindaremos más información sobre cómo, a través del código, podrás transformar tu futuro. Además, te daremos algunos consejos para aprender a aprender. Después de eso, ¡te enseñaremos a crear tu primera página web!
 
 | # | Tipo | Tópico
 | - | ----- | -----
