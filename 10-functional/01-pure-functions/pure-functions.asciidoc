@@ -4,20 +4,24 @@
 == Introducción
 
 Las funciones puras tienen aplicaciones en muchos ámbitos, entre ellos la
-programación funcional. Además, facilita la concurrencia, y como veremos en
-subsiguientes etapas serán muy empleadas en aplicaciones basadas en React+Redux.
+programación funcional. También facilita la concurrencia, y como veremos en
+siguientes etapas serán muy empleadas en aplicaciones basadas en React+Redux.
 
-Como ya hemos mencionado en el pasado, una función es básicamente un proceso que
+Anteriormente mencionamos que una función es básicamente un proceso que
 toma una entrada o argumentos, y produce una salida o valor de retorno. También
 hemos visto que las funciones se emplean con ciertos propósitos:
 
-Mapping:: Transforma una serie de argumentos o entrada en un valor de retorno.
-Un ejemplo de esto sería hacer _flattening_ de un objeto muy anidado.
-Procedures:: Una función puede ser llamada para realizar una serie de pasos
+Manipulación de datos:: Transforma una serie de argumentos o entrada en un valor
+de retorno. Un ejemplo de esto sería hacer _flattening_ footnote:[Algunas veces
+necesitamos aplanar árboles u objetos muy anidados que son resultado de una
+consulta o _query_, un patrón común es convertirlos en arreglos o _arrays_ para
+luego poder aplicar operaciones como `filter()` o `map()` sobre ellos.] de un
+objeto muy anidado.
+Procedimientos:: Una función puede ser llamada para realizar una serie de pasos
 (receta). *La secuencia es conocida como procedimiento* (primero haz esto, luego
 haz aquello), el estilo de programación bajo este estilo se denomina
 *programación imperativa*.
-I/O:: Algunas funciones existen para comunicarse con otras partes o
+Entrada/Salida:: Algunas funciones existen para comunicarse con otras partes o
 subsistemas, por ejemplo: la pantalla, almacenamiento, registro de operaciones
 en disco, operaciones a través de la red.
 
@@ -120,6 +124,9 @@ Una implementación inicial puede ser la siguiente:
 ----
 include::concat.js[]
 ----
+NOTE: Ten en cuenta que esta implementación es a modo de ejemplo, en realidad
+podríamos usar https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/concat[Array.prototype.concat()]
+directamente.
 
 Comprobemos nuestro trabajo:
 
