@@ -1,0 +1,21 @@
+$ jest concat.test.js
+ FAIL  ./concat.test.js
+  ● should not mutate external context
+
+    expect(received).toEqual(expected)
+
+    Expected value to equal:
+      [1, [2], 3]
+    Received:
+      [1, [2], 3, [4], 5, [6, 7], 8]
+
+  ...
+
+  ✓ should concatenate the array on the right with the array on the left (4ms)
+  ✕ should not mutate external context (6ms)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        1.011s
+Ran all test suites matching "concat.test.js".

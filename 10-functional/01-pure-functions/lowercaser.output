@@ -1,0 +1,10 @@
+$ jest lowercaser.test.js
+
+PASS  ./lowercaser.test.js
+   ✓ Should take an input string and returns it lowercased (15ms)
+
+   Test Suites: 1 passed, 1 total
+   Tests:       1 passed, 1 total
+   Snapshots:   0 total
+   Time:        0.859s, estimated 1s
+   Ran all test suites matching "lowercaser.test.js".

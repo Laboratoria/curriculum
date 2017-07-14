@@ -1,0 +1,10 @@
+$ jest concat.test.js
+
+ PASS  ./concat.test.js
+   ✓ should concatenate the array on the right with the array on the left (3ms)
+
+   Test Suites: 1 passed, 1 total
+   Tests:       1 passed, 1 total
+   Snapshots:   0 total
+   Time:        0.67s, estimated 1s
+   Ran all test suites matching "concat.test.js".
