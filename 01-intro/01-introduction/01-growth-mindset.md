@@ -8,7 +8,7 @@
 
 ## Sobre Growth Mindset
 
-Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en _**aprender a aprender**_.
+Laboratoria es un programa increíble, que te enseña todo lo que necesitas para iniciar tu carrera en el sector digital en un periodo muy corto de tiempo. Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en **aprender a aprender**.
 
 ¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este módulo, esperamos que no sólo entiendas este concepto, sino que adoptes una mentalidad de crecimiento que te permita enfrentar los retos de aprender algo nuevo, y tener la confianza de saber que podrás superarlos.
 
@@ -24,7 +24,7 @@ Actualmente, los últimos avances en neurociencias han mostrado que el cerebro e
 
 Gracias a estos nuevos descubrimientos científicos, muchos investigadores han comenzando a entender la conexión entre los tipos de mentalidades y las posibilidades de alcanzar logros. Los estudios de Carol Dweck han mostrado que si piensas que tu cerebro puede crecer, entonces tu comportamiento es distinto a si piensas que naciste con una inteligencia fija. Por ejemplo, una estudiante con una mentalidad fija, estará orientada a mostrar un desempeño perfecto, por lo que preferirá realizar solo actividades que sabe que puede lograr, para así verse siempre inteligente. En cambio, una estudiante con una mentalidad de crecimiento, se sentirá mucho más cómoda enfrentando retos que no necesariamente sabe cómo lograr, porque sabe que estos desafíos le permitirán aprender más.
 
-_**Tener una mentalidad de crecimiento significa que entiendes que puedes desarrollar e incrementar tu inteligencia y todas tus habilidades, y que no tienes miedo a los retos. Significa que sabes que la mejor manera de aprender se logra con esfuerzo, y por ello estás dispuesta a cometer errores en el proceso.**_
+**Tener una mentalidad de crecimiento significa que entiendes que puedes desarrollar e incrementar tu inteligencia y todas tus habilidades, y que no tienes miedo a los retos. Significa que sabes que la mejor manera de aprender se logra con esfuerzo, y por ello estás dispuesta a cometer errores en el proceso.**
 
 Mira este video sobre Growth mindset:
 

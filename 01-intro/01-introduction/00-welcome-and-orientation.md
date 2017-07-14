@@ -1,6 +1,6 @@
 # Bienvenida y orientación
 
-¡Hola! Antes que nada, ¡¡queremos felicitarte por haber pasado exitosamente el examen!! Ahora, te damos la bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso `01. Introducción a la programación (con JavaScript)` de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.
+¡Hola! Antes que nada, ¡¡queremos felicitarte por haber pasado exitosamente el examen!! Ahora, te damos la bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso **01. Introducción a la programación (con JavaScript)** de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas y mejores oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
@@ -33,9 +33,9 @@ Te invitamos a unirte al grupo de facebook de la sede a la que estás postulando
 
 En Laboratoria creemos mucho en la investigación individual y también en el apoyo en grupo. Lo importante es que individualmente entiendas lo que vas haciendo, así te apoyes en tus compañeras o amigas. Además, recuerda que la mejor manera de aprender es enseñar! No dejes de compartir tus conocimientos con tus compañeras.
 
-* Lima: https://facebook.com/groups/LaboratoriaLima20172/?ref=group_cover
-* Ciudad de México: https://facebook.com/groups/LaboratoriaMX20172/?ref=group_cover
-* Santiago de Chile: https://facebook.com/groups/LaboratoriaCHILE20172/?ref=group_cover
+* [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
+* [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
+* [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
 
 ### 2. Horas de consulta
 
@@ -46,14 +46,10 @@ Las horas de consulta por sede son las siguientes:
   - Viernes 14 de julio de 6pm a 8pm
   - Viernes 21 de julio de 6pm a 8pm
   - Miércoles 26 de julio de 6pm a 8pm
-
-
 * México:
   - Viernes 14 de julio de 5pm a 7pm
   - Miércoles 19 de julio de 5pm a 7pm
   - Miércoles 26 de julio de 5pm a 7pm
-
-
 * Santiago de Chile:
   - Jueves 13 de julio de 6pm a 8pm
   - Jueves 20 de julio de 6pm a 8pm
