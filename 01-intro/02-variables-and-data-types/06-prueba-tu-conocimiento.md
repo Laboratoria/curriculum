@@ -27,7 +27,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSdFRVScEauJomZj2EbzMVyDRyXWRykpOlq0kMk4
 ## Retos de código
 
 _Nota: para hacer esto tendrás que crearte una cuenta en un servicio llamado
-Replit. Guarda muy bien tu Replit username que lo necesitarás más adelante._
+Replit. Asegúrate de que usas el mismo correo a la hora de crear tu cuenta de
+Replit que el que estás usando para tu aplicación a Laboratoria. Si no, no
+sabremos cuales son tus ejercicios!_
 
 https://repl.it/student_embed/classroom/22703/ec98bd8b7da4fcc54df199d4e5ddac11
 
