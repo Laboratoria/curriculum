@@ -77,12 +77,12 @@ Ahora que ha quedado demostrado el _"súper poder del auto-aprendizaje"_, lee en
 
 Al final de estas lecturas, debes saber muy bien cómo funcionan:
 
-- charAt()
-- indexOf()
-- toUpperCase()
-- toLowerCase()
-- slice()
-- parseInt()
+- `charAt()`
+- `indexOf()`
+- `toUpperCase()`
+- `toLowerCase()`
+- `slice()`
+- `parseInt()`
 
 ## Otros recursos de auto-aprendizaje
 
@@ -92,7 +92,7 @@ Si aún tienes dudas de estos conceptos, podrías explorar otras formas de auto-
 2. Realiza una consulta en uno de los grupos de Facebook [(ver bienvenida)](https://github.com/Laboratoria/curricula-js/blob/intro-js/01-intro/01-introduction/00-welcome-and-orientation.md)
 3. Consulta con una amiga que sepa de programación :)
 
-_<h4>NOTA: Es importante **NO** avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.</h4>_
+**NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar.**
 
 ***
 

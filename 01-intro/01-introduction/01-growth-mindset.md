@@ -54,4 +54,4 @@ Y para ello, tú tendrás que proponerte lo siguiente:
 
 ***
 
-[Sí, me propongo y me comprometo (click para continuar)](02-why-learn-to-code.md)
+[Sí, me propongo y me comprometo](02-why-learn-to-code.md)

@@ -33,6 +33,7 @@ Un documento HTML simple se ve así (no te asustes si no entiendes todo lo que d
   </body>
 </html>
 ```
+
 Al abrir este mismo documento HTML en un navegador (como Chrome), se ve lo siguiente:
 
 ![Vista en Chrome](img-my-first-website.png)
@@ -115,7 +116,7 @@ Para incluir JavaScript en un documento HTML puedes utilizar el elemento `script
 Muchas veces tu código JavaScript es tan extenso que no quieres que esté ubicado en el mismo documento HTML. Para eso, la solución es crear un nuevo documento, esta vez de formato JavaScript - utilizando la extensión `.js` - y "linkear" ambos documentos a través del mismo elemento `script`, de la siguiente manera:
 
 ```html
-  <script src="nombre-del-documento.js"></script>
+<script src="nombre-del-documento.js"></script>
 ```
 
 El mismo elemento `script` tiene un "atributo" llamado `src` (de source, que significa fuente en inglés), al cual se le puede asignar la ruta de tu documento JavaScript.
