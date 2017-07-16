@@ -2,18 +2,19 @@
 
 En este curso exploraremos el paradigma funcional en JavaScript así como varios
 patrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de
-los nuevos features de ES2015.
+las nuevas características de ES2015.
 
-La programación funcional es un paradigma de programación de suma relevancia
-hoy en día, ya que se presta a resolver problemas de paralelización, asincronía
-y programación reactiva entre otros. La programación funcional (Functional
-Programming - FP) no es realmente un paradigma nuevo, existe desde hace medio
-siglo, pero recientemente, y en particular en el mundo de JavaScript, se ha
-convertido en tanto una moda como una necesidad. Poco a poco, desde la
-proliferación de librerías como underscore y lodash, después la adición de
-`map()`, `reduce()` y compañía, y ahora con frameworks como React y Redux,
-conocer el paradigma funcional y estilo declarativo se han convertido en una
-necesidad para cualquier desarrollador de JavaScript.
+La programación funcional es un paradigma de programación de suma relevancia hoy
+en día, ya que se presta a resolver problemas de paralelización, asincronía y
+programación reactiva entre otros. La programación funcional (_Functional
+Programming_ o FP por sus siglas en inglés) no es realmente un paradigma nuevo,
+existe desde hace medio siglo, pero recientemente, y en particular en el mundo
+de JavaScript, se ha convertido en tanto una moda como una necesidad. Poco a
+poco, desde la proliferación de librerías como [underscore][] y [lodash][],
+después la adición de `map()`, `filter()`, `reduce()` y compañía, y ahora con
+_frameworks_ como [React][] y [Redux][], conocer el paradigma funcional y estilo
+declarativo se han convertido en una necesidad para cualquier desarrollador de
+JavaScript.
 
 Familiarizarnos con la programción funcional en JavaScript y ES2015 nos
 permitirá más adelante desenvolvernos con naturalidad en React.
@@ -22,7 +23,7 @@ permitirá más adelante desenvolvernos con naturalidad en React.
 
 ## Público objetivo
 
-Este curso está dirigido a desarrolladoras tanto front-end como back-end.
+Este curso está dirigido a desarrolladoras tanto _front-end_ como _back-end_.
 JavaScript es un lenguaje de naturaleza funcional. En este curso aprenderás
 sobre los principios de la programación funcional y cómo se reflejan en
 JavaScript moderno.
@@ -39,17 +40,17 @@ siguientes conocimientos previos:
 ## Aprenderás
 
 * ES2015
-* Recursión
-* High Order Functions
 * Funciones puras
 * Inmutabilidad
+* Recursión
+* _High Order Functions_
 * Composición de funciones
 * Composición de objetos
 * Refactorización
-* Automated tests
+* Automatización de pruebas unitarias
 * Trabajo en equipo
-* Peer-review
-* Github issues, branches, pull requests, ...
+* Revisión en pares o _Peer-review_
+* Github issues, branches, pull requests, entre otros.
 
 ## Detalles logísticos
 
@@ -60,9 +61,9 @@ siguientes conocimientos previos:
 ## Producto
 
 * Refactorizar juego usado en lección 9 usando principios de programación
-  funcional, ES6 y añadiendo test suite.
+  funcional, ES6 y añadiendo un conjunto de pruebas.
 * El "proyecto" está basado en iterar una aplicación existente y llevar a cabo
-  su siguiente release usando metodología agile.
+  su siguiente release usando metodología ágil.
 
 ***
 
@@ -142,7 +143,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 2h (presencial)
 
-### Lesson 8: [Asicronía](#)
+### Lesson 8: [Asincronía](#)
 
 30min (self-paced)
 
@@ -254,3 +255,8 @@ Videos:
 Otros recursos:
 
 * [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
+
+[underscore]: http://underscorejs.org/
+[lodash]: https://lodash.com/
+[React]: https://facebook.github.io/react/
+[Redux]: http://redux.js.org/
