@@ -92,6 +92,86 @@ include::lowercaser.output[]
 
 Parece que todo funciona como se espera. Continuemos.
 
+== Dada la misma entrada, devuelve siempre la misma salida
+
+Con nuestra función `lowerCaser()`, puede reemplazar la llamada de la función
+por el resultado, y el código tendrá el mismo significado 
+`lowerCaser('LOREM IPSUM')` siempre será lo mismo que `lorem ipsum` en su
+programa, sin importar el contexto, cuantas veces lo llame o cuando lo llame.
+
+Pero no se puede decir lo mismo de todas las funciones. Algunas funciones se
+basan en información distinta de los argumentos que se transmiten para producir
+resultados. Considere este ejemplo:
+
+[[math-random-listing]]
+[source,javascript]
+----
+Math.random() // => 0.4011148700956255
+Math.random() // => 0.8533405303023756
+Math.random() // => 0.3550692005082965
+----
+
+A pesar que no pasamos ningún argumento en ninguna de las llamadas a la
+función, todos produjeron resultados diferentes, lo que significa que
+`Math.random()` *no es una función pura*. `Math.random()` produce un nuevo
+número aleatorio entre 0 y 1 cada vez que lo ejecutas, entonces es obvio que no
+se podría simplemente reemplazarlo por `0.4011148700956255` sin cambiar el
+significado del programa.
+
+Eso produciría el mismo resultado cada vez que se ejecute el programa. Cuando le
+pedimos a la computadora un número aleatorio, por lo general significa que
+queremos un resultado diferente al que obtuvimos la última vez. ¿Cuál es el
+punto de un par de dados con los mismos números impresos en todas las caras? A
+veces tenemos que preguntarle a la computadora por la hora actual. No vamos a
+entrar en detalles de cómo funcionan las funciones de tiempo. Por ahora,
+simplemente copia este código:
+
+[source,javascript]
+----
+const time = () => new Date().toLocaleTimeString()
+time() // => "5:15:45 PM"
+----
+
+¿Qué sucedería si reemplazo la llamada de la función `time()` con la hora
+actual? Siempre diría que es la misma hora: la hora con la cual la llamada a la
+función se reemplazó. En otras palabras, sólo podría producir la salida correcta
+una vez al día, y sólo si se ejecuta el programa en el momento exacto en que la
+hora se reemplazó por la función.
+
+Entonces, claramente, `time()` no es como la función `lowerCaser()` .
+
+Una función sólo es pura si, dada la misma entrada, siempre producirá la misma
+salida. Tal vez recuerdes esta regla de la clase de álgebra: los mismos valores
+de entrada se asignarán siempre al mismo valor de salida. Sin embargo, muchos
+valores de entrada se pueden asignar al mismo valor de salida. Por ejemplo, la
+siguiente función es pura:
+
+[source,javascript]
+----
+const highpass = (cutoff, value) => value >= cutoff;
+----
+
+Los mismos valores de entrada se asignarán siempre al mismo valor de salida:
+
+[source,javascript]
+----
+highpass(5, 5) // => true
+highpass(5, 5) // => true
+highpass(5, 5) // => true
+----
+
+Muchos valores de entrada tal vez se pueden asignar al mismo valor de salida:
+
+[source,javascript]
+----
+highpass(5, 123) // true
+highpass(5, 6)   // true
+highpass(5, 18)  // true
+highpass(5, 1)   // false
+highpass(5, 3)   // false
+highpass(5, 4)   // false
+----
+
 == Efectos colaterales
 
 En este punto cabe aclarar que las funciones puras no producen *efectos
