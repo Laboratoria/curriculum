@@ -273,6 +273,20 @@ Ahora al ejecutar las pruebas obtenemos lo siguiente:
 include::concat12.output[]
 ----
 
+¿Recuerdas que antes habíamos mencionado que podíamos haber usado
+`Array.prototype.concat` directamente?, pues veamos una simplificación del
+código:
+
+[[array-prototype-concat]]
+[source,javascript]]
+.concat.js
+----
+include:concat2.js[]
+----
+
+Si ejecutas de nuevo las pruebas unitarias verás que cumplimos con todas las
+condiciones.
+
 == Beneficios
 
 Una vez analizadas las funciones puras podemos mencionar los siguientes
