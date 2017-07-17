@@ -95,7 +95,7 @@ Parece que todo funciona como se espera. Continuemos.
 == Dada la misma entrada, devuelve siempre la misma salida
 
 Con nuestra función `lowerCaser()`, puede reemplazar la llamada de la función
-por el resultado, y el código tendrá el mismo significado 
+por el resultado, y el código tendrá el mismo significado
 `lowerCaser('LOREM IPSUM')` siempre será lo mismo que `lorem ipsum` en su
 programa, sin importar el contexto, cuantas veces lo llame o cuando lo llame.
 
@@ -281,7 +281,7 @@ código:
 [source,javascript]]
 .concat.js
 ----
-include:concat2.js[]
+include::concat2.js[]
 ----
 
 Si ejecutas de nuevo las pruebas unitarias verás que cumplimos con todas las
