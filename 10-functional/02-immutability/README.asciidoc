@@ -1,0 +1,39 @@
+= Inmutabilidad
+:source-highlighter: highlightjs
+
+== Introducción
+
+Pocos tipos de datos en JavaScript son inmutables por omisión. Las cadenas de
+caracteres o _strings_ son un ejemplo de un tipo de datos que no puede ser
+cambiado.
+
+[source,javascript]
+.strings.test.js
+----
+include::strings.test.js[]
+----
+
+Si ejecutamos las pruebas anteriores veremos que el valor original de la
+cadena (`immutability`) no es modificado tras la operación ejecutada:
+
+[source,console]
+----
+include::strings.output[]
+----
+
+== Inmutabilidad y su relación con la recursividad
+
+TBD
+
+== Object.freeze() y clone
+
+TBD
+
+== Políticas para controlar el cambio
+
+TBD
+
+== Referencias
+
+[bibliography]
+- [[[mdn]]] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze[Object.freeze()]
