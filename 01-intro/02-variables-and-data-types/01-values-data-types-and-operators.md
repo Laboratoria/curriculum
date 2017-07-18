@@ -7,19 +7,27 @@
 - Aprender cómo combinar y transformar valores con operadores en JavaScript
 
 ***
-
+<!-- links_blank
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io).
-
+-->
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el
+capítulo 1 de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>,de Marijn
+Haverbeke, 2014. Traducción en <a href="http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html" target="_blank">Español</a> disponible gracias a <a href="http://hectorip.github.io" target="_blank">hectorip</a>.
 ***
 
 ## Vivimos en un mundo de Data
-
+<!-- links_blank
 En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
-
+-->
+<!-- links_blank
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como [predecir si una mujer está embarazada, según su historial de compra en un hipermercado](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4).
+-->
+En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que <a href="https://techcrunch.com/2010/08/04/schmidt-data/" target="_blank">cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003</a>. Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
+
+La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como <a href="http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4" target="_blank">predecir si una mujer está embarazada, según su historial de compra en un hipermercado</a>.
 
 ## Tipos de datos
 
