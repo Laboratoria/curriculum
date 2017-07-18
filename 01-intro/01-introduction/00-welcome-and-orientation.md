@@ -30,9 +30,14 @@ Video de Michelle explicando las descargas.
 
 Únete al grupo de Facebook correspondiente a la sede a la que estás postulando. Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con el apoyo del staff de profesores de Laboratoria.
 
+<!-- links_blank
 * [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
 * [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
 * [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
+-->
+* <a href="https://facebook.com/groups/LaboratoriaLima20172/" target="_blank">Lima</a>
+* <a href="https://facebook.com/groups/LaboratoriaMX20172/" target="_blank">Ciudad de México</a>
+* <a href="https://facebook.com/groups/LaboratoriaCHILE20172/" target="_blank">Santiago de Chile</a>
 
 ### 2. Horas de consulta
 
