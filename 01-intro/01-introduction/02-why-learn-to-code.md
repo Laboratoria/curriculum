@@ -7,8 +7,10 @@
 - Conocer algunas historias de egresadas de Laboratoria.
 
 ***
-
+<!-- links_blank
 _El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015_
+-->
+_El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015_
 
 ***
 
@@ -60,7 +62,7 @@ Otra razón que hace interesante estudiar JavaScript en este momento es su posic
 
 ## Historia de JavaScript
 
-JavaScript fue creado (¡en solo 10 días!) por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich), en 1995, para crear interactividad y dinamismo en Netscape Navigator, uno de los primeros navegadores web. Desde entonces, JavaScript ha sido adoptado por la mayoría de los navegadores modernos (piensa en Chrome, Safari, etc.). Y por muchos años JavaScript fue utilizado únicamente dentro del navegador. Sin embargo, hoy en día se utiliza JavaScript también _fuera_ del navegador para crear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi infinitas - lo cual lo hace un excelente lenguaje de programación que aprender.
+JavaScript fue creado (¡en solo 10 días!) por <!-- links_blank [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich)--><a href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Brendan Eich</a>, en 1995, para crear interactividad y dinamismo en Netscape Navigator, uno de los primeros navegadores web. Desde entonces, JavaScript ha sido adoptado por la mayoría de los navegadores modernos (piensa en Chrome, Safari, etc.). Y por muchos años JavaScript fue utilizado únicamente dentro del navegador. Sin embargo, hoy en día se utiliza JavaScript también _fuera_ del navegador para crear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi infinitas - lo cual lo hace un excelente lenguaje de programación que aprender.
 
 ## Escribiendo JavaScript en la web
 
