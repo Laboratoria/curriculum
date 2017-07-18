@@ -26,7 +26,12 @@ Gracias a estos nuevos descubrimientos científicos, muchos investigadores han c
 
 **Tener una mentalidad de crecimiento significa que entiendes que puedes desarrollar e incrementar tu inteligencia y todas tus habilidades, y que no tienes miedo a los retos. Significa que sabes que la mejor manera de aprender se logra con esfuerzo, y por ello estás dispuesta a cometer errores en el proceso.**
 
-Mira este video sobre Growth mindset (10 min):
+Mira este video sobre Growth mindset (10 min)
+
+Instrucciones para ponerle subtítulos en español al video:
+* Dar click a la tuerca de configuración/settings
+* Click en subtítulos/subtitles
+* Seleccionar español/spanish
 
 [![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
 
