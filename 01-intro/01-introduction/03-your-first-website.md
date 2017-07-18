@@ -8,9 +8,10 @@
 - Tener un primer acercamiento al mundo del código, creando tu primera página web
 
 ***
-
+<!-- links_blank
 _El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 5 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015; y de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke, 2014._
-
+-->
+_El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 5 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015; y de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>, de Marijn Haverbeke, 2014._
 ***
 
 ## HTML: HyperText Markup Language
@@ -44,15 +45,19 @@ El navegador "lee" el archivo HTML (el texto y las etiquetas que están adentro)
 
 Como ya lo dijimos, _**la mejor manera de aprender es haciendo**_. Por eso, es hora de que tú misma crees una web y aprendas HTML.
 
+Michelle te explica por qué necesitarás un editor de texto para los ejercicios:
+
+[![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+
 En el siguiente video, Michelle te guiará a través de los siguientes pasos para que crees tu primera web:
 
-1. Descarga Atom, un editor de texto: https://atom.io/
+1. <!--links_blank Descarga Atom, un editor de texto: https://atom.io/ -->Descarga Atom, un editor de texto: <a href="https://atom.io/" target="_blank">Descargar</a>
 2. Crea un documento HTML llamado `index.html`
 3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un párrafo)
 4. Guarda el documento HTML
 5. Abre el documento HTML en un navegador como Chrome
 
-Aquí el video de Michelle:
+Aquí el video:
 
 [![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
