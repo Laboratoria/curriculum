@@ -2,9 +2,9 @@
 
 ## Objetivos de aprendizaje
 
-- Entender qué es la programación y por qué aprender a programar
-- Entender qué es JavaScript y por qué aprenderlo
-- Conocer algunas historias de egresadas de Laboratoria
+- Entender qué es la programación y por qué aprender a programar.
+- Entender qué es JavaScript y por qué aprenderlo.
+- Conocer algunas historias de egresadas de Laboratoria.
 
 ***
 
@@ -16,7 +16,7 @@ _El texto a continuación es una traducción al español, con ciertos ajustes, d
 
 Las computadoras son máquinas increíblemente poderosas, capaces de realizar hazañas increíbles, como jugar ajedrez competitivo, servir miles de páginas web o hacer millones de cálculos complejos en menos de unos segundos. Recientemente, las computadoras se están utilizando para crear automóviles autónomos (que se manejan solos), mundos enteros de realidad virtual y robots con inteligencia artificial.
 
-Pero en el fondo, las computadoras son realmente bastante tontas. Las computadoras sólo pueden hacer _exactamente_ lo que nosotros, los humanos, les digamos. Les decimos cómo comportarse usando `programas de computación`, que son simplemente un conjunto de instrucciones para que las computadoras sigan. Sin programas, ¡las computadoras no pueden hacer nada! La programación es, por lo tanto, el arte de crear un conjunto de instrucciones que indican a una computadora cómo realizar una tarea.
+Pero en el fondo, las computadoras son realmente bastante tontas. Las computadoras sólo pueden hacer _exactamente_ lo que nosotros, los humanos, les digamos. Les decimos cómo comportarse usando `programas de computación`, que son simplemente un conjunto de instrucciones para que las computadoras sigan. Sin programas, ¡las computadoras no pueden hacer nada! La programación es, por lo tanto, el arte de crear un conjunto de instrucciones que le indican a una computadora cómo realizar una tarea.
 
 ## ¿Por qué aprender a programar?
 
@@ -52,7 +52,7 @@ Puede que no hayas oído hablar de JavaScript antes, pero ciertamente lo has usa
 
 ## ¿Por qué JavaScript?
 
-JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web. Un navegador web es lo que utilizas para navegar por internet. Por ejemplo, lo que utilizas para abrir Facebook o Google o Wikipedia en tu computadora. Los navegadores más populares son: Google Chrome, Safari, Mozilla Firefox e Internet Explorer. Cada navegador web viene con un _intérprete_ JavaScript que entiende cómo leer programas JavaScript.
+JavaScript no es el único lenguaje de programación que existe - de hecho, hay literalmente cientos de lenguajes de programación. Pero hay muchas razones para aprender JavaScript. Por un lado, es mucho más fácil (y más divertido) de aprender que muchos otros lenguajes de programación. Pero tal vez lo mejor de todo es que para escribir y ejecutar programas JavaScript, lo único que se necesita es un navegador web. Un navegador web es lo que utilizas para navegar por internet. Por ejemplo, lo que utilizas para abrir Facebook o Google o Wikipedia en tu computadora. Los navegadores más populares son: Google Chrome, Safari, Mozilla Firefox e Internet Explorer. Cada navegador web viene con un _intérprete_ JavaScript que entiende cómo leer programas JavaScript.
 
 Otra razón que hace interesante estudiar JavaScript en este momento es su posición como uno de los lenguages de programación más populares. Según GitHub, una red de trabajo colaborativo para programadores, JavaScript es el lenguaje más popular dentro de esta plataforma:
 
@@ -64,7 +64,7 @@ JavaScript fue creado (¡en solo 10 días!) por [Brendan Eich](https://en.wikipe
 
 ## Escribiendo JavaScript en la web
 
-Seguramente te estás preguntando cómo es eso de tener un _intérprete_ JavaScript en el navegador. Pues, _**la mejor forma de aprender es haciendo**_: abre tu navegador Chrome y sigue los pasos que presenta Michelle en el siguiente video. Michelle te mostrará cómo escribir JavaScript y cómo hacer cosas chéveres desde tu computadora, únicamente utilizando el navegador.
+Seguramente te estás preguntando cómo es eso de tener un _intérprete_ JavaScript en el navegador. Pues, _**la mejor forma de aprender es haciendo**_: abre tu navegador Chrome y sigue los pasos que presenta Michelle en el siguiente video. Michelle te mostrará cómo escribir JavaScript y cómo hacer cosas geniales desde tu computadora, únicamente utilizando el navegador.
 
 [![JS EN EL NAVEGADOR](http://img.youtube.com/vi/_guTQcHaUQo/0.jpg)](http://www.youtube.com/watch?v=_guTQcHaUQo)
 
