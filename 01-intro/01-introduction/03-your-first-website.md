@@ -2,10 +2,10 @@
 
 ## Objetivos
 
-- Entender la función del HTML para crear la estructura básica de una página web
-- Conocer los principales elementos y etiquetas HTML
-- Aprender a darle dinamismo a una web utilizando JavaScript
-- Tener un primer acercamiento al mundo del código, creando tu primera página web
+- Entender la función del HTML para crear la estructura básica de una página web.
+- Conocer los principales elementos y etiquetas HTML.
+- Aprender a darle dinamismo a una web utilizando JavaScript.
+- Tener un primer acercamiento al mundo del código, creando tu primera página web.
 
 ***
 <!-- links_blank
@@ -47,7 +47,7 @@ Como ya lo dijimos, _**la mejor manera de aprender es haciendo**_. Por eso, es h
 
 Michelle te explica por qué necesitarás un editor de texto para los ejercicios:
 
-[![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![Editor de texto intro](https://img.youtube.com/vi/wQKn1fh3pAM/0.jpg)](https://www.youtube.com/watch?v=wQKn1fh3pAM)
 
 En el siguiente video, Michelle te guiará a través de los siguientes pasos para que crees tu primera web:
 
