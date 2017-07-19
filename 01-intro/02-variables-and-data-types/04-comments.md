@@ -22,7 +22,7 @@ Se visualizan así:
 */
 ```
 
-La computadora ignora los comentarios por completo. Los comentarios en JavaScript empiezan con `//`. Todo lo que sigue a las barras diagonales (en la misma línea) son ignoradas por el intérprete de JavaScript. Los comentarios de múltiples líneas empiezan con `/*` y cierran con `*/`. Todo lo que está entre medio es ignorado por el programa.
+La computadora ignora los comentarios por completo. Los comentarios en JavaScript empiezan con `//`. Todo lo que sigue a las barras diagonales (en la misma línea) es ignorado por el intérprete de JavaScript. Los comentarios de múltiples líneas empiezan con `/*` y cierran con `*/`. Todo lo que está entre eso es ignorado por el programa.
 
 De tal manera, los comentarios no tienen efecto alguno sobre cómo un programa se ejecuta. Solo están allí para proporcionar contexto. Es una **buena práctica** incluir comentarios en el código para mejorar su legibilidad.
 
