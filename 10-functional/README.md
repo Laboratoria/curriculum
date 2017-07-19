@@ -43,7 +43,7 @@ siguientes conocimientos previos:
 * Funciones puras
 * Inmutabilidad
 * Recursión
-* _High Order Functions_
+* _Higher Order Functions_
 * Composición de funciones
 * Composición de objetos
 * Refactorización
