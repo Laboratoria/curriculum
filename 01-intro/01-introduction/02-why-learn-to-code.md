@@ -10,7 +10,7 @@
 <!-- links_blank
 _El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015_
 -->
-_El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015_
+El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 1 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015.
 
 ***
 
