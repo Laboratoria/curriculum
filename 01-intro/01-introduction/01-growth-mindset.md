@@ -44,7 +44,7 @@ La siguiente imagen resume algunas de las diferencias entre ambas mentalidades, 
 <!--
 Estoy poniendo la ig en drive pq no sé cuál es el repo correcto
 -->
-![Image Growth Mindset](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/growth%20mindset.png)
+![Image Growth Mindset](https://raw.githubusercontent.com/Laboratoria/curricula-js/intro-js/01-intro/01-introduction/growth%20mindset.png)
 
 ## Growth Mindset en Laboratoria
 
