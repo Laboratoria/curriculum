@@ -22,7 +22,7 @@ cuestionarios y retos son de carácter **INDIVIDUAL**.
 
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
-https://docs.google.com/forms/d/e/1FAIpQLSdFRVScEauJomZj2EbzMVyDRyXWRykpOlq0kMk4c2bJX99YGQ/viewform?usp=sf_link
+https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
 
 ## Retos de código
 
@@ -38,7 +38,7 @@ https://repl.it/student_embed/classroom/22703/ec98bd8b7da4fcc54df199d4e5ddac11
 
 ## Auto-evaluación (anónima)
 
-https://docs.google.com/forms/d/e/1FAIpQLSfcxeyp1T18PJjMGcHDlN2Y1iOSZQlaSa0AkId37Xvak5B1IA/viewform?usp=sf_link
+https://docs.google.com/forms/d/e/1FAIpQLSe4bgUbyHX08JViGZO9Zf5PQ7sP2wIanfwLC8RtGzGbzTbCBA/viewform?usp=sf_link
 
 <!-- Esto es irrelevante, ya dijimos que use su mail de postulación y con eso ya sabemos sus datos
 ## Encuesta de datos personales
