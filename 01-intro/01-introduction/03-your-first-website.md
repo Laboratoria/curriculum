@@ -11,7 +11,7 @@
 <!-- links_blank
 _El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 5 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015; y de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke, 2014._
 -->
-_El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 5 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015; y de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>, de Marijn Haverbeke, 2014._
+El texto a continuación es una traducción al español, con ciertos ajustes, del capítulo 5 de <a href="http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf" target="_blank">JavaScript for kids</a>, Nick Morgan, 2015; y de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>, de Marijn Haverbeke, 2014.
 ***
 
 ## HTML: HyperText Markup Language
