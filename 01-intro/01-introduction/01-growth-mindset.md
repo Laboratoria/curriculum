@@ -4,6 +4,7 @@
 
 - Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptarla antes de empezar este curso.
 
+***
 
 ## Sobre Growth Mindset
 
