@@ -22,10 +22,10 @@ Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (
 Seguramente uno de los resultados es de **La Red de Desarrolladores de Mozilla (MDN)**. Ésta fuente es una de las fuentes más confiables para investigar sobre JavaScript. De hecho, el creador de JavaScript, <a href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Brendan Eich</a>, es uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como dice directamente la web de <a href="https://developer.mozilla.org/es/docs/MDN/About" target="_blank">MDN</a>:
 > MDN es una plataforma de aprendizaje para las tecnologías Web y el software con el que funciona la Web, incluyendo:
 
->1. Estándares Web como CSS, HTML, y JavaScript
->2. Desarrollo de aplicaciones para Web Abierta
->3. Desarrollo de complementos para Firefox
->4. Desarrollo de Firefox OS
+>1. Estándares Web como CSS, HTML, y JavaScript.
+>2. Desarrollo de aplicaciones para Web Abierta.
+>3. Desarrollo de complementos para Firefox.
+>4. Desarrollo de Firefox OS.
 <!-- links_blank
 Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length) que te ofrece MDN. Quizás no entiendas absolutamente todo (especialmente todo lo referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece bastante claro cómo es el tema de obtener la longitud de un `string`:
 -->
@@ -40,7 +40,8 @@ console.log("Mozilla tiene " + x.length + " caracteres.");
 console.log("La cadena vacia tiene una longitud de " + empty.length);
 /* "La cadena vacia tiene una longitud de 0" */
 ```
-**Nota:** `console.log()` Es un comando que muestra un mensaje en la consola para facilitar la depuración del código Javascript. La ventaja de usarlo en comparación con, por ejemplo, la función `alert()`, es que `console.log()` no detiene la ejecución del código hasta que el usuario acepta el mensaje de alerta como sí sucede con `alert()`.
+
+Nota: `console.log()` Es un comando que muestra un mensaje en la consola para facilitar la depuración del código Javascript. La ventaja de usarlo en comparación con, por ejemplo, la función `alert()`, es que `console.log()` no detiene la ejecución del código hasta que el usuario acepta el mensaje de alerta como sí sucede con `alert()`.
 
 Después de leer la documentación debería quedar claro que para conocer la longitud de strings, lo que debemos es colocarle un _.length_ al final, así:
 
