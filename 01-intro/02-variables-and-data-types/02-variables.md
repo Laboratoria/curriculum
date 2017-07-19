@@ -2,8 +2,8 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender qué son _variables_ y su utilidad
-- Conocer las buenas prácticas de nombramiento de variables
+- Aprender qué son _variables_ y su utilidad.
+- Conocer las buenas prácticas de nombramiento de variables.
 
 ***
 
