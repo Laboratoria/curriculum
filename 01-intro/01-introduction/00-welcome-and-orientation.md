@@ -50,13 +50,13 @@ Las horas de consulta por sede son las siguientes:
   - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
   
 * México:
-  - Miércoles 19 de julio de 5pm a 7pm
-  - Miércoles 26 de julio de 5pm a 7pm
+  - Miércoles 19 de julio de 5pm a 7pm.
+  - Miércoles 26 de julio de 5pm a 7pm.
   
 * Santiago de Chile:
-  - Jueves 20 de julio de 4pm a 6pm
-  - Jueves 27 de julio de 4pm a 6pm
-  - Martes 1 de agosto de 4pm a 6pm
+  - Jueves 20 de julio de 4pm a 6pm.
+  - Jueves 27 de julio de 4pm a 6pm.
+  - Martes 1 de agosto de 4pm a 6pm.
 
 ### 3. Correo
 
@@ -98,16 +98,16 @@ El propósito de este curso es darte una idea de qué se trata el mundo del desa
 
 ### Aprenderás
 
-- Entender qué es la programación y por qué aprender a programar
-- Entender qué es JavaScript y por qué aprenderlo
-- Tener un primer acercamiento al mundo del código, creando tu primera página web
-- A darle dinamismo a tu web utilizando JavaScript
-- Algunos conceptos básicos de programación como: variables, tipos datos y operadores
+- Entender qué es la programación y por qué aprender a programar.
+- Entender qué es JavaScript y por qué aprenderlo.
+- Tener un primer acercamiento al mundo del código, creando tu primera página web.
+- A darle dinamismo a tu web utilizando JavaScript.
+- Algunos conceptos básicos de programación como: variables, tipos datos y operadores.
 
 ### Duración
 
 * Total: 15-20 horas.
-* Modalidad: Self-paced (a tu propio ritmo - online)
+* Modalidad: Self-paced (a tu propio ritmo - online).
 
 ### Requerimientos previos
 
