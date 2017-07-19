@@ -27,22 +27,22 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 1. Edad en segundos
 
-[![Solution Age in Seconds](https://i.ytimg.com/vi/1IZT_7EfRMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
+[![Solution Age in Seconds](https://i.ytimg.com/vi/1IZT_7EfRMw/0.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
 
 
 #### 2. Convertidor de temperatura
 
-[![Solution Temperature converter](https://i.ytimg.com/vi/Ix6VLiBcABw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ix6VLiBcABw)
+[![Solution Temperature converter](https://i.ytimg.com/vi/Ix6VLiBcABw/0.jpg)](https://www.youtube.com/watch?v=Ix6VLiBcABw)
 
 
 #### 3. Ganancias y pérdidas
 
-[![Solution Earnings and loses](https://i.ytimg.com/vi/2WtBw8eC0us/maxresdefault.jpg)](https://www.youtube.com/watch?v=2WtBw8eC0us)
+[![Solution Earnings and loses](https://i.ytimg.com/vi/2WtBw8eC0us/0.jpg)](https://www.youtube.com/watch?v=2WtBw8eC0us)
 
 
 #### 4. Iniciales
 
-[![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
+[![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/0.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
 
 
 ## Último paso de esta lección
