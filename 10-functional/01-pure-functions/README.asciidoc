@@ -69,7 +69,7 @@ $ yarn add --dev jest
 Para correr las pruebas haremos:
 
 [source,console]
-$ yarn run jest fichero.test.js
+$ yarn run jest -- fichero.test.js
 ====
 
 Ahora, pasemos a implementar lo especificado en nuestros casos de pruebas:

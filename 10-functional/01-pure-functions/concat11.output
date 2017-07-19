@@ -1,4 +1,4 @@
-$ jest concat.test.js
+$ yarn run jest -- concat.test.js
  FAIL  ./concat.test.js
   ● should not mutate external context
 

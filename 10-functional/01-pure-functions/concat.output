@@ -1,4 +1,4 @@
-$ jest concat.test.js
+$ yarn run jest -- concat.test.js
 
  PASS  ./concat.test.js
    ✓ should concatenate the array on the right with the array on the left (3ms)

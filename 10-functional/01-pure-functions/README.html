@@ -428,7 +428,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="paragraph">
 <p>Las funciones puras tienen aplicaciones en muchos ámbitos, entre ellos la
-programación funcional. También facilita la concurrencia, y como veremos en
+programación funcional. También facilitan la concurrencia, y como veremos en
 siguientes etapas serán muy empleadas en aplicaciones basadas en React+Redux.</p>
 </div>
 <div class="paragraph">
@@ -464,19 +464,19 @@ en disco, operaciones a través de la red.</p>
 claro que significa una <em>función pura</em>.</p>
 </div>
 <div class="paragraph lead">
-<p>En <strong>programación funcional</strong>, el comportamiento de las funciones dependen de una
+<p>En <strong>programación funcional</strong>, el comportamiento de las funciones depende de una
 y solo una cosa: los argumentos pasados explícitamente a la función. Esto quiere
-decir que si usted proporciona los mismos datos como argumentos o entrada, la
+decir que si proporcionas los mismos datos como argumentos o entrada, la
 función siempre debe producir el mismo valor de retorno. A esta propiedad se le
 conoce como <strong>transparencia referencial</strong>.</p>
 </div>
 <div class="paragraph">
 <p>Lo mencionado en el párrafo anterior, hace que en las funciones puras sea más
 fácil apreciar todas las circunstancias que pueden presentarse, incluyendo
-aquellos escenarios que conllevan a un error. Escribir funciones que solo
+aquellos escenarios que resultan en errores. Escribir funciones que solo
 dependen de sus argumentos para definir su comportamiento también facilita
-replicar <em>bugs</em> o poner en práctica <em>Test-Driven Development</em> o TDD por sus
-siglas en inglés.</p>
+replicar <em>bugs</em> o poner en práctica <em>Test-Driven Development</em> (TDD por sus
+siglas en inglés).</p>
 </div>
 <div class="paragraph">
 <p>Comencemos desarrollando nuestros casos de pruebas:</p>
@@ -522,7 +522,7 @@ por medio de <code>npm</code> al ejecutar el siguiente comando:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest fichero.test.js</code></pre>
+<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- fichero.test.js</code></pre>
 </div>
 </div>
 </td>
@@ -546,7 +546,7 @@ por medio de la ejecución de las pruebas:</p>
 </div>
 <div id="lowercaser-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ jest lowercaser.test.js
+<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- lowercaser.test.js
 
 PASS  ./lowercaser.test.js
    ✓ Should take an input string and returns it lowercased (15ms)
@@ -596,7 +596,7 @@ significado del programa.</p>
 <p>Eso produciría el mismo resultado cada vez que se ejecute el programa. Cuando le
 pedimos a la computadora un número aleatorio, por lo general significa que
 queremos un resultado diferente al que obtuvimos la última vez. ¿Cuál es el
-punto de un par de dados con los mismos números impresos en todas las caras? A
+sentido de un par de dados con los mismos números impresos en todas las caras? A
 veces tenemos que preguntarle a la computadora por la hora actual. No vamos a
 entrar en detalles de cómo funcionan las funciones de tiempo. Por ahora,
 simplemente copia este código:</p>
@@ -610,15 +610,15 @@ time() // =&gt; "5:15:45 PM"</code></pre>
 <div class="paragraph">
 <p>¿Qué sucedería si reemplazo la llamada de la función <code>time()</code> con la hora
 actual? Siempre diría que es la misma hora: la hora con la cual la llamada a la
-función se reemplazó. En otras palabras, sólo podría producir la salida correcta
-una vez al día, y sólo si se ejecuta el programa en el momento exacto en que la
+función se reemplazó. En otras palabras, solo podría producir la salida correcta
+una vez al día, y solo si se ejecuta el programa en el momento exacto en que la
 hora se reemplazó por la función.</p>
 </div>
 <div class="paragraph">
 <p>Entonces, claramente, <code>time()</code> no es como la función <code>lowerCaser()</code> .</p>
 </div>
 <div class="paragraph">
-<p>Una función sólo es pura si, dada la misma entrada, siempre producirá la misma
+<p>Una función solo es pura si, dada la misma entrada, siempre producirá la misma
 salida. Tal vez recuerdes esta regla de la clase de álgebra: los mismos valores
 de entrada se asignarán siempre al mismo valor de salida. Sin embargo, muchos
 valores de entrada se pueden asignar al mismo valor de salida. Por ejemplo, la
@@ -728,7 +728,7 @@ directamente.
 </div>
 <div id="concat-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ jest concat.test.js
+<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
 
  PASS  ./concat.test.js
    ✓ should concatenate the array on the right with the array on the left (3ms)
@@ -774,7 +774,7 @@ test('should not mutate external context', () =&gt; {
 </div>
 <div id="concat-bad-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ jest concat.test.js
+<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
  FAIL  ./concat.test.js
   ● should not mutate external context
 
@@ -844,7 +844,7 @@ module.exports = concat</code></pre>
 </div>
 <div id="concat-good-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ jest concat.test.js
+<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
  PASS  ./concat.test.js
   ✓ should concatenate the array on the right with the array on the left (5ms)
   ✓ should not mutate external context (1ms)
@@ -941,10 +941,10 @@ comunes en otros lenguajes:</p>
 <dd>
 <p>Cambio de los datos <em>in-situ</em> en vez de retornar un valor.</p>
 </dd>
-<dt class="hdlist1">Estado</dt>
+<dt class="hdlist1">Estado compartido</dt>
 <dd>
-<p>Contexto extra que no se provee como argumento a la función, por
-ejemplo, variables globales.</p>
+<p>Contexto extra que no se provee como argumento a la función,
+por ejemplo, variables globales.</p>
 </dd>
 </dl>
 </div>
@@ -955,9 +955,9 @@ comportamiento de dichas funciones, entre otra serie de beneficios.</p>
 </div>
 <div class="paragraph">
 <p>Una vez dicho todo esto, existen ocasiones donde el uso de funciones puras no es
-posible, especialmente en funciones que emplean <em>side-effects</em> para llevar su
-cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema, lo
-veremos en una siguiente lección.</p>
+posible, especialmente en funciones que emplean <em>side-effects</em> para llevar a
+cabo su cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema,
+lo veremos en una siguiente lección.</p>
 </div>
 </div>
 </div>
@@ -985,7 +985,7 @@ veremos en una siguiente lección.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-07-17 00:08:08 CDT
+Last updated 2017-07-19 17:36:44 CDT
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
