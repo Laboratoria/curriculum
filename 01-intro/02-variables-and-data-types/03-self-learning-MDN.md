@@ -2,8 +2,8 @@
 
 ## Objetivos de Aprendizaje
 
-- Conocer la documentación MDN y la importancia del auto-aprendizaje
-- Aprender a manipular `strings` y `numbers` en JavaScript
+- Conocer la documentación MDN y la importancia del auto-aprendizaje.
+- Aprender a manipular `strings` y `numbers` en JavaScript.
 
 ***
 
@@ -40,6 +40,7 @@ console.log("Mozilla tiene " + x.length + " caracteres.");
 console.log("La cadena vacia tiene una longitud de " + empty.length);
 /* "La cadena vacia tiene una longitud de 0" */
 ```
+**Nota:** `console.log()` Es un comando que muestra un mensaje en la consola para facilitar la depuración del código Javascript. La ventaja de usarlo en comparación con, por ejemplo, la función `alert()`, es que `console.log()` no detiene la ejecución del código hasta que el usuario acepta el mensaje de alerta como sí sucede con `alert()`.
 
 Después de leer la documentación debería quedar claro que para conocer la longitud de strings, lo que debemos es colocarle un _.length_ al final, así:
 
