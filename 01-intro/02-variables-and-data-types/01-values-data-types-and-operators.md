@@ -2,9 +2,9 @@
 
 ## Objetivos de Aprendizaje
 
-- Entender qué se entiende por _values_ (valores) en JavaScript
-- Conocer los diferentes _data types_ (tipos de datos) en JavaScript
-- Aprender cómo combinar y transformar valores con operadores en JavaScript
+- Entender qué se entiende por _values_ (valores) en JavaScript.
+- Conocer los diferentes _data types_ (tipos de datos) en JavaScript.
+- Aprender cómo combinar y transformar valores con operadores en JavaScript.
 
 ***
 <!-- links_blank
@@ -35,11 +35,11 @@ Las computadoras son un gran recurso para trabajar con grandes cantidades de dat
 
 Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en "pedazos" que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _**values**_ (valores en español). Cada _value_ tiene un _data type_ (tipo de dato) que determina su rol. En JavaScript existen cinco (5) tipos de datos primitivos:
 
-1. `numbers` (números)
-2. `strings` (cadenas)
-3. `booleans` (booleanos)
-4. `undefined` (indefinido)
-5. `null` (nulo)
+1. `numbers` (números).
+2. `strings` (cadenas).
+3. `booleans` (booleanos).
+4. `undefined` (indefinido).
+5. `null` (nulo).
 
 La data y los tipos de datos forman las bases de cualquier lenguaje de programación. Nos permiten organizar información y determinar cómo correr el programa. En esta lección aprenderás a definir y manipular estos tipos de datos.
 
