@@ -49,11 +49,11 @@ Las horas de consulta por sede son las siguientes:
   - Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.
   - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
   
-* México:
-  - Miércoles 19 de julio de 5pm a 7pm.
+* México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:
+  - Lunes 24 de julio de 5pm a 7pm.
   - Miércoles 26 de julio de 5pm a 7pm.
   
-* Santiago de Chile:
+* Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:
   - Jueves 20 de julio de 4pm a 6pm.
   - Jueves 27 de julio de 4pm a 6pm.
   - Martes 1 de agosto de 4pm a 6pm.
