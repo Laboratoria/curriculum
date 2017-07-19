@@ -292,7 +292,7 @@ condiciones.
 Una vez analizadas las funciones puras podemos mencionar los siguientes
 beneficios:
 
-- [x] Toman ciertos argumentos como entrada y genera un valor de retorno que
+- [x] Toman ciertos argumentos como entrada y generan un valor de retorno que
 exclusivamente depende de los argumentos dados.
 - [x] Representan bloques de código reusable dentro de un programa.
 - [x] Promueven buenas prácticas de desarrollo como https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY] (_Don't Repeat Yourself_)
