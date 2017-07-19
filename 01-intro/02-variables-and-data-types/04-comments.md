@@ -2,7 +2,7 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender qué son los _comentarios_ y su utilidad
+- Aprender qué son los _comentarios_ y su utilidad.
 
 ***
 
