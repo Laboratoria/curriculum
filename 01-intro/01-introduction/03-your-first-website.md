@@ -128,7 +128,7 @@ El mismo elemento `script` tiene un "atributo" llamado `src` (de source, que sig
 
 ## Añádele interacción a tu web
 
-¡Ahora te toca a tí! Continúa con Michelle siguiendo los pasos para agregarle interacción a tu página web:
+¡Ahora te toca a to! Continúa con Michelle siguiendo los pasos para agregarle interacción a tu página web:
 
 Los pasos a seguir son:
 
