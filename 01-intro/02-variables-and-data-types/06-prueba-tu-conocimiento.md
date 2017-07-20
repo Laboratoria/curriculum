@@ -53,7 +53,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSe4bgUbyHX08JViGZO9Zf5PQ7sP2wIanfwLC8Rt
 https://docs.google.com/forms/d/e/1FAIpQLSeiBtuwD4HkeEZvTJdN7q7l5B3KmrHLZSLVGKC-oQXjjeaj5w/viewform?usp=sf_link
 -->
 
-**IMPORTANTE: Si estás tomando este curso como parte del proceso de postulación
-para Laboratoria, tu desempeño en los cuestionarios y retos de código será
-tomados en consideración en el proceso de admisión.**
+**IMPORTANTE. Si estás tomando este curso como parte del proceso de postulación**
+para Laboratoria:
+- Tu desempeño en los cuestionarios y retos de código será
+tomado en consideración en el proceso de admisión.
+- Ten paciencia mientras revisamos tus respuestas y tu reto de código en Replit, este proceso nos puede tomar un par de días.
 
