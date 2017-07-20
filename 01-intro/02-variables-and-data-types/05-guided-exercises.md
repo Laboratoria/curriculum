@@ -47,7 +47,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ## Último paso de esta lección
 
-Felicidades, has completado el material de la lección `04-variables-and-data-types`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
+Felicidades, has completado el material de la lección `Variables y tipos de datos`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
 
 ***
 
