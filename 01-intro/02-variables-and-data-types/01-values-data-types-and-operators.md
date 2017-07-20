@@ -11,11 +11,11 @@
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io).
+disponible gracias a [hectorip](https://github.com/hectorip).
 -->
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 1 de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>,de Marijn
-Haverbeke, 2014. Traducción en <a href="http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html" target="_blank">Español</a> disponible gracias a <a href="http://hectorip.github.io" target="_blank">hectorip</a>.
+Haverbeke, 2014. Traducción en <a href="http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html" target="_blank">Español</a> disponible gracias a <a href="https://github.com/hectorip" target="_blank">hectorip</a>.
 ***
 
 ## Vivimos en un mundo de Data
