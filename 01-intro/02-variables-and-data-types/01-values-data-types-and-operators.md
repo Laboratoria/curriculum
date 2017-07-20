@@ -236,7 +236,11 @@ Los `strings` pueden ser comparados de la misma manera.
 // returns > true
 ```
 
+<!-- Links_blank
 La manera en que los `strings` son ordenadas es más o menos alfabéticamente: las letras mayúsculas son siempre "menores" que las minúsculas, así que "Z" < "a" es _true_, y los caracteres no alfabéticos (!, -, y así por el estilo) son también incluidos en el ordenamiento.La comparación real está basada en el estándar [Unicode](https://unicode-table.com/en/#control-character).
+-->
+La manera en que los `strings` son ordenadas es más o menos alfabéticamente: las letras mayúsculas son siempre "menores" que las minúsculas, así que "Z" < "a" es _true_, y los caracteres no alfabéticos (!, -, y así por el estilo) son también incluidos en el ordenamiento.La comparación real está basada en el estándar <a href="https://unicode-table.com/en/#control-character" target="_blank">Eloquent Unicode</a>.
+
 
 ```js
 "Zeyla" < "ana"
