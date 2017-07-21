@@ -130,15 +130,14 @@ Durante este curso, se buscará que todos los temas sean involucrados en la prá
 decir, HTML, CSS, JS y Git será usado en todos los proyectos en proporciones significativas
 con la finalidad de que se encuentren en constante práctica.
 
-* **Portfolio site**: El entregable final del curso será un website estático.
-Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor. Este portafolio evolucionará durante el transcurso del bootcamp
-y al final se convertirá en tu portafolio real, necesario para el proceso de inserción
-laboral.
+* **Data Dashboard**: El entregable final del curso será una web app en la que deberán
+diseñar la experiencia del producto que consiste en mostrar el progreso de un listado de
+estudiantes, manipulando data almacenada en un arreglo de objetos y agregando funcionalidad
+que requiere algoritmos básicos como un filtro de búsqueda y ordenamiento.
 
 Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
-`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `dom`, `eventos`, `git`,
-`unix shell`, `github-pages`, `ux`, `design-thinking`, `lean`, `design-sprint`, `discovery`,
+`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `basic algorithms`, `dom`,
+`eventos`, `git`, `unix shell`, `github-pages`, `ux`, `design-thinking`, `discovery`,
 `research`.
 
 ##### [03. Web Development: Getting Deeper](#)
@@ -149,12 +148,13 @@ Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
 DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
 
 Tags: `scrum`, `tdd`, `unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`,
-`data-attributes`, `jquery`, `git-workflow`, `synthetiz-and-define`, `sketch`.
+`data-attributes`, `jquery`, `git-workflow`, `xhr`, `api`, `json`, `synthetize-and-define`,
+`sketch`, `d3`.
 
-* **Portfolio v2**: El entregable final del curso será un website aun estático pero
-con herramientas que hacen un producto con mayor calidad, agregando herramientas usadas
-en el mercado como CSS Frameworks y JS libraries, además de usar metodologías
-de trabajo colaborativo y enfocado a pruebas.
+* **Data Dashboard v2**: El entregable final del curso será la versión 2 del primer producto,
+esto consiste en desarrollar el UI haciendo uso de librerías y frameworks que hagan el flujo
+más cercano al campo laboral, además, contiene retos técnicos como conectarse a APIs y
+visualización de datos.
 
 
 #### Front-End Development
