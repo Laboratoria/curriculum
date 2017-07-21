@@ -46,9 +46,9 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudian medio tiempo, **no** 
-dominan el idioma ingles y dedican tiempo todos los días, mientras que los 
-_cursos_ de _educación continua_ están dirigidos a un público que trabaja, y por 
+el _bootcamp_ tendrán en cuenta que las alumnas estudian medio tiempo, **no**
+dominan el idioma ingles y dedican tiempo todos los días, mientras que los
+_cursos_ de _educación continua_ están dirigidos a un público que trabaja, y por
 lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h por semana).
 
 Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
@@ -89,11 +89,11 @@ Tags: `javascript`, `html`, `css`, `http`, `url`, `variables`, `tipos de datos`,
 
 Durante este curso se harán productos como:
 
-* **Cajero automático**: crea un programa que un cajero automático pueda 
-utilizar para determinar el número mínimo de billetes a entregar dado un 
+* **Cajero automático**: crea un programa que un cajero automático pueda
+utilizar para determinar el número mínimo de billetes a entregar dado un
 monto solicitado.
 
-* **¿Es una tarjeta de crédito falsa?**: crea un programa que confirme si 
+* **¿Es una tarjeta de crédito falsa?**: crea un programa que confirme si
 una tarjeta de crédito es válida según el algoritmo de Luhn.
 
 * **Posts encriptados** en Facebook: crea y despliega una web que publica
@@ -104,11 +104,10 @@ regresando a tu web.
 
 ### Bootcamp
 
-El **Bootcamp** tiene una duración de X meses, a tiempo parcial. Las chicas
-postularán una vez completado el curso de "Introducción a la programación". 
-Una vez dentro, llevarán durante X semanas una serie de temas a la que denominamos 
-**Common Core**, a partir de ahí podrán especializarse en 4 perfiles (`tracks`): `UI Developer`, 
-`UX Designer`, `Front-End Developer` y `Back-End Developer`.
+El **Bootcamp** tiene una duración de 6 meses, a tiempo parcial. Las chicas
+postularán cuando hayan completado el curso de "Introducción a la programación".
+Una vez dentro, llevarán durante 9 semanas una serie de temas a la que denominamos
+**Common Core**, a partir de ahí podrán especializarse en 3 perfiles (`tracks`): `Front-End Developer`, `Maquetadora Web` y `UX Designer`.
 
 #### Common Core
 
@@ -120,26 +119,26 @@ pero si lo necesario para poder entender en que track especializarse.
 
 _Autor: ???_
 
-En este primer curso se construirá un sitio estático desde cero, empezando por entender 
-los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán 
-temas como HTML semántico, arquitectura de información, estilos (CSS), agregando interactividad 
-con JavaScript a través del DOM y eventos, control de versionamiento de código con git, 
-subiendo proyectos a Github y haciendo deployment a GitHub Pages, todo esto acompañado 
+En este primer curso se construirá un sitio estático desde cero, empezando por entender
+los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán
+temas como HTML semántico, arquitectura de información, estilos (CSS), agregando interactividad
+con JavaScript a través del DOM y eventos, control de versionamiento de código con git,
+subiendo proyectos a Github y haciendo deployment a GitHub Pages, todo esto acompañado
 de talleres de UX que nos provean de una visión de creación productos eficientes.
 
-Durante este curso, se buscará que todos los temas sean involucrados en la práctica, es 
-decir, HTML, CSS, JS y Git será usado en todos los proyectos en proporciones significativas 
+Durante este curso, se buscará que todos los temas sean involucrados en la práctica, es
+decir, HTML, CSS, JS y Git será usado en todos los proyectos en proporciones significativas
 con la finalidad de que se encuentren en constante práctica.
 
 * **Portfolio site**: El entregable final del curso será un website estático.
 Cada alumna podrá sugerir el tema y scope de su proyecto, con la supervisión de
-un instructor. Este portafolio evolucionará durante el transcurso del bootcamp 
+un instructor. Este portafolio evolucionará durante el transcurso del bootcamp
 y al final se convertirá en tu portafolio real, necesario para el proceso de inserción
 laboral.
 
 Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
-`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `dom`, `eventos`, `git`, 
-`unix shell`, `github-pages`, `ux`, `design-thinking`, `lean`, `design-sprint`, `discovery`, 
+`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `dom`, `eventos`, `git`,
+`unix shell`, `github-pages`, `ux`, `design-thinking`, `lean`, `design-sprint`, `discovery`,
 `research`.
 
 ##### [03. Web Development: Getting Deeper](#)
@@ -150,24 +149,25 @@ Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
 DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
 
 Tags: `scrum`, `tdd`, `unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`,
-`data-attributes`, `jquery`, `git-workflow`, `synthetiz-and-define`, `sketch`. 
+`data-attributes`, `jquery`, `git-workflow`, `synthetiz-and-define`, `sketch`.
 
-* **Portfolio v2**: El entregable final del curso será un website aun estático pero 
-con herramientas que hacen un producto con mayor calidad, agregando herramientas usadas 
-en el mercado como CSS Frameworks y JS libraries, además de usar metodologías 
+* **Portfolio v2**: El entregable final del curso será un website aun estático pero
+con herramientas que hacen un producto con mayor calidad, agregando herramientas usadas
+en el mercado como CSS Frameworks y JS libraries, además de usar metodologías
 de trabajo colaborativo y enfocado a pruebas.
 
-#### JS Core
 
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación 
-y JavaScript de tal manera que puedan especializarse en `Front-End Development` o `Back-End 
+#### Front-End Development
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación
+y JavaScript de tal manera que puedan especializarse en `Front-End Development` o `Back-End
 Development`.
 
 ##### [04. JS Deep Dive](#)
 
 _Autor: ???_
 
-Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`, 
+Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`,
 `objetos` y `funciones` en profundidad.
 
 * **Calculadora**: en este curso construirás una calculadora que permita sumar,
@@ -199,12 +199,12 @@ Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 
 _Autor: ???_
 
-La ciencia de la computación consiste en el estudio de sistemas computacionales 
-sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y 
-aplicación, dicho esto, en este curso se verán temas como algoritmos, notación 
-asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web. 
+La ciencia de la computación consiste en el estudio de sistemas computacionales
+sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y
+aplicación, dicho esto, en este curso se verán temas como algoritmos, notación
+asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web.
 
-* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git 
+* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
 que permita la navegación a través del historial de cambios.
 
 Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
@@ -214,26 +214,22 @@ Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
 
 _Autor: ???_
 
-En este curso se verán temas de `network` para entender qué es lo que sucede 
-por detrás de la web (arquitectura cliente-servidor), para luego profundizar en 
+En este curso se verán temas de `network` para entender qué es lo que sucede
+por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
-* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a 
+* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a
 través de un API y que luego puedan ser consumidas en una aplicación cliente que
 haga el proceso de búsqueda y reserva.
 
-Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`, 
+Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
 `microservices`.
-
-
-#### Front-End Development
-
 
 ##### [08. JS Next Steps](#)
 
 _Autor: ???_
 
-Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,  
+Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
 `web-rtc`, `progressive-web-apps`.
 
 ##### [09. Functional JavaScript](10-functional)
@@ -255,7 +251,7 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 
 _Autor: ???_
 
-Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`, 
+Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`,
 `task-runner`.
 
 
@@ -265,7 +261,30 @@ _Autor: ???_
 
 Tags: `react`, `angular`, `vue`, `typescript`, `flow`.
 
-#### Back-End Development
+#### UX Design
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño
+de experiencia de usuario.
+
+#### Maquetadoción Web
+
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo
+y diseño de interfaces sin necesidad de profundizar tanto en la lógica de programación.
+
+#### Capstone Project
+
+En este último paso, se dará un espacio para que los diversos tracks se junten y desarrollen
+productos juntos, enlazando todos los skills aprendidos e integrándolos.
+
+***
+
+### Educación Continua
+
+El programa de **Educación Continua** en principio se ofrece a egresadas de
+nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
+quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
+desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
+carreras como developers.
 
 ##### [08. NodeJS](#)
 
@@ -285,31 +304,6 @@ Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 _Autor: ???_
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
-
-#### UX Design
-
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño 
-de experiencia de usuario.
-
-#### UI Developer
-
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo 
-de interfaces sin necesidad de profundizar tanto en la lógica de programación.
-
-#### Capstone Project
-
-En este último paso, se dará un espacio para que los diversos tracks se junten y desarrollen 
-productos juntos, enlazando todos los skills aprendidos e integrándolos.
-
-***
-
-### Educación Continua
-
-El programa de **Educación Continua** en principio se ofrece a egresadas de
-nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
-quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
-desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
-carreras como developers.
 
 #### [11. React](11-react)
 
@@ -391,7 +385,7 @@ con servidores y sistemas operativos "Unix-like" (GNU/Linux, BSD, MacOS,
 Android, ...).
 
 En este curso aprenderás a escribir shell scripts además de construir un
-programa con `Node.js` para ser usado desde la lína de comando. 
+programa con `Node.js` para ser usado desde la lína de comando.
 
 Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
