@@ -175,7 +175,8 @@ restar, multiplicar, dividir y calcular potencias. La calculadora se
 implementará como una web app escrita puramente en vanilla JS dentro del
 navegador.
 
-Tags: `tipos de datos`, `operadores`, `funciones`, `objetos`, `execution context`, `es6`, ...
+Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `hoisting`, `execution context`, `iife`, `closure`, `apply`, `call`,
+`bind`, `this`, `regexp`.
 
 ##### [05. Programming Paradigms](09-paradigms)
 
@@ -193,7 +194,7 @@ constructor ya implementado, mientras que en la segunda semana tendrán que
 refactorizar el código de la primera semana usando el paradigma funcional.
 
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
-`composition`
+`composition`.
 
 ##### [06. Computer Science](#)
 
@@ -207,32 +208,10 @@ asintótica, estructura de datos, patrones de diseño aplicados al desarrollo we
 * **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
 que permita la navegación a través del historial de cambios.
 
-Tags: `searching`, `sorting`, `stacks`, `queues`, `graphs`, `binary-trees`,
-`solid`, `mvc`, `singleton`.
+Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
+`graphs`, `binary-trees`, `solid`, `mvc`, `singleton`.
 
-##### [07. Internet Deep Dive](#)
-
-_Autor: ???_
-
-En este curso se verán temas de `network` para entender qué es lo que sucede
-por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
-temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
-
-* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a
-través de un API y que luego puedan ser consumidas en una aplicación cliente que
-haga el proceso de búsqueda y reserva.
-
-Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
-`microservices`.
-
-##### [08. JS Next Steps](#)
-
-_Autor: ???_
-
-Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
-`web-rtc`, `progressive-web-apps`.
-
-##### [09. Functional JavaScript](10-functional)
+##### [07. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
@@ -245,7 +224,30 @@ anterior. La versión refactorizada debe usar los principios de FP e incluir
 tests exhaustivos.
 
 Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
-`testing`, `jest`
+`testing`, `jest`.
+
+##### [08. JS Modern Browsers](#)
+
+_Autor: ???_
+
+Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
+`web-rtc`, `progressive-web-apps`.
+
+##### [09. Internet Deep Dive](#)
+
+_Autor: ???_
+
+En este curso se verán temas de `network` para entender qué es lo que sucede
+por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
+temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
+
+* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a
+través de un API y que luego puedan ser consumidas en una aplicación cliente que
+haga el proceso de búsqueda y reserva.
+
+Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
+`microservices`, `broadcasting`, `cloud computing`, `saas-pass-iaas`, `deployment`.
+
 
 ##### [10. Build Tools](#)
 
@@ -259,7 +261,15 @@ Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testi
 
 _Autor: ???_
 
-Tags: `react`, `angular`, `vue`, `typescript`, `flow`.
+Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
+`virtual dom`.
+
+##### [12. Back-End Integration](#)
+
+_Autor: ???_
+
+Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
+`ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
 
 #### UX Design
 
@@ -285,25 +295,6 @@ nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
 quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
-
-##### [08. NodeJS](#)
-
-_Autor: ???_
-
-Tags: `http`, `file-system`, `express`, `api-development`, `deployment`.
-
-
-##### [09. Databases](#)
-
-_Autor: ???_
-
-Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
-
-##### [10. ME*N Stack](#)
-
-_Autor: ???_
-
-Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
 #### [11. React](11-react)
 
@@ -391,19 +382,38 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-#### [17. Micro services?](#)
+##### [17. NodeJS](#)
+
+_Autor: ???_
+
+Tags: `http`, `file-system`, `express`, `api-development`, `deployment`.
+
+
+##### [18. Databases](#)
+
+_Autor: ???_
+
+Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
+
+##### [19. ME*N Stack](#)
+
+_Autor: ???_
+
+Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
+
+#### [20. Micro services?](#)
 
 _Autor: ???_
 
 Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
 
-#### [18. Análisis y visualización de datos](#)
+#### [21. Análisis y visualización de datos](#)
 
 _Autor: ???_
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-#### [19. WebOps/DevOps](#)
+#### [22. WebOps/DevOps](#)
 
 _Autor: ???_
 
@@ -412,13 +422,13 @@ Application deployment, management, maintenance, configuration and repair.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `repair`, `debugging`, ...
 
-#### [20. Algoritmos](#)
+#### [23. Algoritmos](#)
 
 _Autor: ???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### [21. Estructuras de datos](#)
+#### [24. Estructuras de datos](#)
 
 _Autor: ???_
 
