@@ -1,6 +1,6 @@
 # Funciones
 - Formato: `lectura`
-- Duración: `15min`
+- Duración: `30min`
 
 ## Objetivos de Aprendizaje
 

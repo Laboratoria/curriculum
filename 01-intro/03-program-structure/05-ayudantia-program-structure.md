@@ -4,59 +4,45 @@
 
 ## Objetivos de Aprendizaje
 
-- Solidificar el concepto de control de flujo resolviendo ejercicios prácticos
-- Entender cómo aplicar los conceptos de estructuras condicionales, repetitivas y funciones para la resolución de problemas
+- Practicar codeando junto a tu equipo de profes, resolviendo problemas de estructuras condicionales, repetitivas y funciones
+- ¡Aclarar todas las dudas que tengas!
+- Practicar, practicar y practicar
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas más complejos.
+A continuación tienes más problemas de práctica. Estos problemas serán resueltos, paso a paso, por tu equipo de profes en una sesión presencial (`workshop`) que llamamos **ayudantía**. Este es el momento de aclarar cualquier duda que tengas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle a estos problemas. Después de haberlo intentado, compara tu soluciones con las de Michelle.  
+Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante el resto de la clase y así ayduar al resto de tus compañeras :)
 
-1. Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
+#### 1. Funciones matemáticas
 
-2. Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es `ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`, elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`. En el caso raro que ninguna de esas opciones esté disponible, te irías por una `hamburguesa`. Escribe una función, que de acuerdo a la disponibilida de los platos en el menú, decida qué ordenar.
+Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
 
-5. Crea una función que imprima todos los caracteres de un `string`, cada uno en una línea separada, en mayúscula.
+#### 2. Ordenando comida
 
-6. Crea una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
+Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es `ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`, elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`. En el caso raro que ninguna de esas opciones esté disponible, te irías por una `hamburguesa`. Escribe una función, que de acuerdo a la disponibilida de los platos en el menú, decida qué ordenar.
 
-7. Crea una función que cuente el número de espacios de un `string`.
+#### 3. Edades y etapas
 
-8. Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola.
+Crea una web que pida, por medio de un `prompt()`, la edad de una persona, en años. Dependiendo del número brindado, la web debe dar un mensaje que clasifica a la persona en: `toddler`, `preschooler`, `gradeschooler`, `teenager`, `young adult` and `adult`, según el criterio de esta [página](https://www.healthychildren.org/English/ages-stages/Pages/default.aspx).
 
-9. Crea una función que determine si una alumna de Laboratoria se le dá recomendación de empleabilidad.
+Si la persona ingresa un dato que **no** es un número entero (por ejemplo: un `string`, un número decimal, un cero, o un campo vacío), la web debe dar un mensaje de error. Revisa este [link](https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer) que tiene un par de tips interesantes relacionados a este proyecto.
 
-9. Crea una función que encripte los mensajes utilizando el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) usando un desplazamiento de seis espacios hacia la derecha. Por ejemplo: si el texto orginal es `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`, el texto cifrado es `GHIJKLMNÑOPQRSTUVWXYZABCDEF`.
+#### 4. Contando caracteres y espacios
 
-10. Crea un programa que cree un `string` que represente una cuadrícula de 8x8, usando el salto de línea como separador. En cada posición de la cuadrícula está o un espacio o un carácter "#". Los caracteres deberían formar un tablero de ajedrez.
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga el número de caracteres y de espacios que componen el `string` ingresado. En la consola, debe aparecer cada caracter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
 
-Pasar este `string` a console.log debería mostrar algo como esto:
+Arma tu archivo JavaScript para que tenga 3 funciones:
 
-```js
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
-```
-Cuando tengas un programa que genere este patrón, define una variable tamano = 8 y cambia el programa de tal manera que trabaje para cualquier tamaño, produciendo una cuadrícula del ancho y alto dado.
+  - Una función que imprima todos los caracteres de un `string`, cada uno en una línea separada, en mayúscula.
+  - Una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
+  - Una función que cuente el número de espacios de un `string`
 
+#### 5. isEven - isOdd
 
-## Solucionarios
-
-A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
-
-#### 1. -----
-
-[![-----]()
-
-#### 2. -----
+Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola. Si el usuario no ingresa un dato válido, debe dar un mensaje de error.
 
 
 ## Último paso de esta lección
@@ -65,4 +51,4 @@ Felicidades, has completado el material de la lección `03-program-structure`. P
 
 ***
 
-[Continuar a prueba tu conocimiento](05-prueba-tu-conocimiento-program-structure.md)
+[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento-program-structure.md)
