@@ -117,7 +117,7 @@ pero si lo necesario para poder entender en que track especializarse.
 
 ##### [02. Web Development: Getting Started](#)
 
-_Autor: ???_
+_Autor: Iván Medina_
 
 En este primer curso se construirá un sitio estático desde cero, empezando por entender
 los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán
@@ -136,20 +136,22 @@ estudiantes, manipulando data almacenada en un arreglo de objetos y agregando fu
 que requiere algoritmos básicos como un filtro de búsqueda y ordenamiento.
 
 Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
-`layout`, `grid-system`, `js`, `es6`, `problem solving (logic)`, `basic algorithms`, `dom`,
-`eventos`, `git`, `unix shell`, `github-pages`, `ux`, `design-thinking`, `discovery`,
-`research`.
+`layout`, `grid-system`, `es6`, `problem solving (logic)`, `dom`,
+`eventos`, `git`, `unix shell`, `github-pages`, `ux`, `design-thinking`, `ux-discovery`,
+`ux-research`.
 
 ##### [03. Web Development: Getting Deeper](#)
+
+_Autor: Iván Medina_
 
 Debido a que los perfiles son afines, el siguiente paso es ver herramientas que se
 usan en el desarrollo web de manera profesional. Aquí se verán temas como: Agile (Scrum),
 Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
 DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
 
-Tags: `scrum`, `tdd`, `unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`,
-`data-attributes`, `jquery`, `git-workflow`, `xhr`, `api`, `json`, `synthetize-and-define`,
-`sketch`, `d3`.
+Tags: `algorithms`, `big-o`, `time complexity`, `searching`, `sorting`, `scrum`, `tdd`,
+`unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`, `data-attributes`,
+`jquery`, `git-workflow`, `xhr`, `api`, `json`, `synthetize-and-define`, `sketch`, `d3`.
 
 * **Data Dashboard v2**: El entregable final del curso será la versión 2 del primer producto,
 esto consiste en desarrollar el UI haciendo uso de librerías y frameworks que hagan el flujo
@@ -165,20 +167,48 @@ Development`.
 
 ##### [04. JS Deep Dive](#)
 
-_Autor: ???_
+_Autor: Belén Recabal_
 
-Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`,
-`objetos` y `funciones` en profundidad.
+Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`, `objetos` y `funciones` en profundidad.
 
-* **Calculadora**: en este curso construirás una calculadora que permita sumar,
+* **Carrito de compras**: en este curso construirás una calculadora que permita sumar,
 restar, multiplicar, dividir y calcular potencias. La calculadora se
 implementará como una web app escrita puramente en vanilla JS dentro del
 navegador.
 
-Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `hoisting`, `execution context`, `iife`, `closure`, `apply`, `call`,
-`bind`, `this`, `regexp`.
+Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
+`call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`.
 
-##### [05. Programming Paradigms](09-paradigms)
+##### [05. JS Browser APIs](#)
+
+_Autor: Iván Medina_
+
+Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
+`web-rtc`, `progressive-web-apps`.
+
+##### [06. Internet Deep Dive](#)
+
+_Autor: Iván Medina_
+
+En este curso se verán temas de `network` para entender qué es lo que sucede
+por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
+temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
+
+* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a
+través de un API y que luego puedan ser consumidas en una aplicación cliente que
+haga el proceso de búsqueda y reserva.
+
+Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
+`microservices`, `broadcasting`, `cloud computing`, `saas-pass-iaas`, `deployment`.
+
+##### [07. Back-End Integration](#)
+
+_Autor: Iván Medina_
+
+Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
+`ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
+
+##### [08. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -196,22 +226,7 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`.
 
-##### [06. Computer Science](#)
-
-_Autor: ???_
-
-La ciencia de la computación consiste en el estudio de sistemas computacionales
-sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y
-aplicación, dicho esto, en este curso se verán temas como algoritmos, notación
-asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web.
-
-* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
-que permita la navegación a través del historial de cambios.
-
-Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
-`graphs`, `binary-trees`, `solid`, `mvc`, `singleton`.
-
-##### [07. Functional JavaScript](10-functional)
+##### [09. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
@@ -225,28 +240,6 @@ tests exhaustivos.
 
 Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 `testing`, `jest`.
-
-##### [08. JS Modern Browsers](#)
-
-_Autor: ???_
-
-Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
-`web-rtc`, `progressive-web-apps`.
-
-##### [09. Internet Deep Dive](#)
-
-_Autor: ???_
-
-En este curso se verán temas de `network` para entender qué es lo que sucede
-por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
-temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
-
-* ** AirBnB **: Construcción de un que permita registrar lugares de hospedaje a
-través de un API y que luego puedan ser consumidas en una aplicación cliente que
-haga el proceso de búsqueda y reserva.
-
-Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
-`microservices`, `broadcasting`, `cloud computing`, `saas-pass-iaas`, `deployment`.
 
 
 ##### [10. Build Tools](#)
@@ -264,12 +257,20 @@ _Autor: ???_
 Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 `virtual dom`.
 
-##### [12. Back-End Integration](#)
+##### [12. Advanced Data Structures](#)
 
 _Autor: ???_
 
-Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
-`ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
+La ciencia de la computación consiste en el estudio de sistemas computacionales
+sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y
+aplicación, dicho esto, en este curso se verán temas como algoritmos, notación
+asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web.
+
+* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
+que permita la navegación a través del historial de cambios.
+
+Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
+`graphs`, `binary-trees`, `solid`, `mvc`, `singleton`.
 
 #### UX Design
 
