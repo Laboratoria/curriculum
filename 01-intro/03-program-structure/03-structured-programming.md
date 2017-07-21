@@ -1,4 +1,6 @@
 # Programación estructurada
+- Formato: `lectura`
+- Duración: `5min`
 
 ## Objetivos de Aprendizaje
 

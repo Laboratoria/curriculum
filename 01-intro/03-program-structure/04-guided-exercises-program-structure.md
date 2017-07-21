@@ -1,37 +1,46 @@
 # Ejercicios Guiados - Programación Estructurada
+- Formato: `video`
+- Duración: `45min`
 
 ## Objetivos de Aprendizaje
 
-- Solidificar el concepto de control de flujo resolviendo ejercicios prácticos
-- Entender cómo aplicar los conceptos de estructuras condicionales, repetitivas y funciones para la resolución de problemas
+- Entender, a través de casos prácticos, cómo aplicar los conceptos de estructuras condicionales, repetitivas y funciones para la resolución de problemas
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas más complejos.
+Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle a estos problemas. Después de haberlo intentado, compara tu soluciones con las de Michelle.  
+A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle. Después de haberlo intentado, compara tu soluciones con las de Michelle.   
 
-1. Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
+#### 1. Edades y etapas
 
-2. Crea una función para que, de acuerdo a la edad brindada por un `prompt()`, clasifique a la persona entre: baby, toddler, preschooler, gradeschooler, teenager, young adult and adult, según el criterio de esta [página](https://www.healthychildren.org/English/ages-stages/Pages/default.aspx)
+Crea una web que pida, por medio de un `prompt()`, la edad de una persona. Dependiendo del número brindado, la web debe dar un mensaje que clasifica a la persona en: `baby`, `toddler`, `preschooler`, `gradeschooler`, `teenager`, `young adult` and `adult`, según el criterio de esta [página](https://www.healthychildren.org/English/ages-stages/Pages/default.aspx).
 
-3. Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es `ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`, elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`. En el caso raro que ninguna de esas opciones esté disponible, te irías por una `hamburguesa`. Escribe una función, que de acuerdo a la disponibilida de los platos en el menú, decida qué ordenar.
+Si la persona ingresa un dato que **no** es un número entero (por ejemplo: un `string`, un número decimal o un campo vacío), la web debe dar un mensaje de error. Revisa este [link](https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer) que tiene un par de tips interesantes relacionados a este proyecto.
 
-5. Crea una función que imprima todos los caracteres de un `string`, cada uno en una línea separada, en mayúscula.
+#### 2. Contando caracteres y espacios
 
-6. Crea una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga el número de caracteres y de espacios que componen el string. En la consola, debe aparecer cada caracter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
 
-7. Crea una función que cuente el número de espacios de un `string`.
+Arma tu archivo JavaScript para que tenga 3 funciones:
 
-8. Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola.
+  - Una función que imprima todos los caracteres de un `string`, cada uno en una línea separada, en mayúscula.
+  - Una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
+  - Una función que cuente el número de espacios de un `string`
 
-9. Crea una función que determine si una alumna de Laboratoria se le dá recomendación de empleabilidad.
+#### 3. Cifrado César
 
-9. Crea una función que encripte los mensajes utilizando el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) usando un desplazamiento de seis espacios hacia la derecha. Por ejemplo: si el texto orginal es `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`, el texto cifrado es `GHIJKLMNÑOPQRSTUVWXYZABCDEF`.
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario y devuelva el mismo mensaje encriptado según el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) con con el parámetro de desplazamiento de **seis espacios hacia la derecha**
 
-10. Crea un programa que cree un `string` que represente una cuadrícula de 8x8, usando el salto de línea como separador. En cada posición de la cuadrícula está o un espacio o un carácter "#". Los caracteres deberían formar un tablero de ajedrez.
+Por ejemplo:
+- Texto orginal: `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`
+- Texto cifrado: `GHIJKLMNÑOPQRSTUVWXYZABCDEF`.
+
+#### 4. Chessboard
+
+Crea un programa que cree un `string` que represente una cuadrícula de 8x8, usando el salto de línea como separador. En cada posición de la cuadrícula está o un espacio o un carácter "#". Los caracteres deberían formar un tablero de ajedrez.
 
 Pasar este `string` a console.log debería mostrar algo como esto:
 

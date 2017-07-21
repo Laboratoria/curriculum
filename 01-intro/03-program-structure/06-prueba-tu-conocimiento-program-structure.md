@@ -1,4 +1,6 @@
 # Prueba tu conocimiento: Programación Estructurada
+- Formato: `code`
+- Duración: `120min`
 
 ## Objetivos
 

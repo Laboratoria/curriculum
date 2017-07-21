@@ -1,4 +1,6 @@
 # Control de Flujo
+- Formato: `lectura`
+- Duración: `15min`
 
 ## Objetivos de Aprendizaje
 
