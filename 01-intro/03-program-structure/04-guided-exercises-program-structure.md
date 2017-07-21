@@ -11,7 +11,7 @@
 
 Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas más complejos.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta, creando tus archivos HTML y JS, utilizando tu editor de texto. Más abajo encontrarás las soluciones de Michelle a estos problemas. Después de haberlo intentado, compara tu soluciones con las de Michelle.  
+A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle a estos problemas. Después de haberlo intentado, compara tu soluciones con las de Michelle.  
 
 1. Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
 
