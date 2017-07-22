@@ -99,6 +99,7 @@ Datas adicionales:
 |5|Video|	4 min	|Visualizaciones Avanzadas|
 |6|Video|	7 min	|Visualizaciones Estadísticas (Introducción a Pareto, box e histograma pero no serán cubiertas en este curso) |
 |7|Video|	10 min	|Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)|
+|8|Video|	10 min	|Preparación de Tableau para la clase presencial|
 
 
 #### Lección 5: (Presencial) Gráficos Tradicionales
@@ -109,11 +110,11 @@ Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no ten
 
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
-|1|	Video y Code| 15 min|	Gráfico de Columnas|
-|2|	Video y Code|	15 min|	Gráfico de pie. |
-|3|	Video y Code|	15 min|	Gráfico de Burbujas (Bubble)|
-|4| Video y Code|	20 min|	Gráfico de dispersión (Scatter) |
-|5|	Video y Code| 25 min|	Series de Tiempo.|
+|1|	Video y Code| 20 min|	Gráfico de Columnas|
+|2|	Video y Code| 30 min|	Series de Tiempo.|
+|3|	Video y Code|	20 min|	Gráfico de pie. |
+|4|	Video y Code|	20 min|	Gráfico de Burbujas (Bubble)|
+|5| Video y Code|	30 min|	Gráfico de dispersión (Scatter) |
 
 
 ### Semana 3: Visualizaciones avanzadas e interactividad: 
@@ -123,8 +124,8 @@ Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no ten
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
 |1|	Video| 7 min|	Introducción a las coordenadas geográficas.|
-|2|	Video|	4 min|	Visualizaciones con punto. |
-|3|	Video|	4 min|	Visualizaciones de Área|
+|2|	Video|	4 min|	Visualizaciones de Mapa con punto. |
+|3|	Video|	4 min|	Visualizaciones de Mapa con Área|
 |4| Video|	8 min|	Chartmotion|
 
 #### Lección 7: (Online) Interconexión e interactividad entre visualizaciones, 
@@ -139,7 +140,7 @@ Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no ten
 |Orden|	Tipo|	Duración|	Descripción|
 |---|---|---|---|
 |1|     clase|    30 min|   Revisión de los conceptos online y aclarar dudas del tablero de Internet|
-|2|     code|    30 min|   Trabajo en parejas para revisar los tableros de cada una|
+|2|     code|    60 min|   Trabajo en parejas para revisar los tableros de cada una|
 |3|     code|    30 min|   Exploración de la data y contar una historia|
 
 ### Semana 4: Aprendiendo a comunicar lo que las visualizaciones nos dicen
