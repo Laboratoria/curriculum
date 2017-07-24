@@ -15,9 +15,9 @@ Por debajo `React` usa una estructura llamada `Virtual DOM` que se encarga de gr
 Piensa en el `Virtual DOM` como un espejo del estado actual del `DOM`.
 
 Cada vez que sucede una acción, `React` se encarga de tres cosas:
-1 - propaga los efectos colaterales de esas acciones en el `Virtual DOM`
-2 - análiza las diferencias (`diff`) para ver qué sub-árboles han cambiado en relación a la "versión anterior"
-3 - y por último realiza una "reconciliación", donde actualiza el `DOM` con el resultado del `diff`
+1. propaga los efectos colaterales de esas acciones en el `Virtual DOM`
+2. análiza las diferencias (`diff`) para ver qué sub-árboles han cambiado en relación a la "versión anterior"
+3. y por último realiza una "reconciliación", donde actualiza el `DOM` con el resultado del `diff`
 
 Esto quiere decir que cuando hay un cambio en el `Virtual DOM`, solo los sub-árboles modificados son reemplazados en el `DOM`. Entonces, si por ejemplo tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para "reconciación", el texto queda inalterado.
 
