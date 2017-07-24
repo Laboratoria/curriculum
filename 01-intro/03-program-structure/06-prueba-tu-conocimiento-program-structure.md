@@ -21,16 +21,14 @@ cuestionarios y retos son de carácter **INDIVIDUAL**.
 ## Retos
 
 1. Crea una función que imprima los números que son potencia de 3 menores a 10,000 (ej. 3, 9, 27, etc.)
-
-3. Crea una función que cuente el número de vocales de un `string` (countVowels)
-4. Crea una función que capitalice la primera y última letra de un `string` (capitalizeFirstandLastLetter)
-5. Crea una función que determine si un número es primo (isPrime)
-6. Crea una función que determine si un número es mayor a otro (isGreaterThan)
-8. Crea una función que determine si dos número son pares (areBothEven)
-9. Crea una función que determine si una persona puede manejar (16 años) y votar (18 años) (isOldEnoughToDriveAndVote)
-
-
-10. Escribe un bucle que haga siete llamadas a console.log para producir el siguiente triángulo:
+2. Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola.
+3. Crea una función que cuente el número de vocales de un `string`
+4. Crea una función que capitalice la primera y última letra de un `string`
+5. Crea una función que determine si un número es primo
+6. Crea una función que determine si un número es mayor a otro
+7. Crea una función que determine si dos número son pares
+8. Crea una función que determine si una persona puede manejar (16 años o más) y votar (18 años o más)
+9. Crea una función que, por medio de console.log, logre producir una pirámide de `#` del tamaño brindado por medio de un `prompt()`:
 
 ```js
 #
@@ -41,4 +39,6 @@ cuestionarios y retos son de carácter **INDIVIDUAL**.
 ######
 #######
 ```
- (piramidConsole)
+10. Crea una función que pida una frase al usuario y devuelva el mismo mensaje encriptado según el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) con con el parámetro de desplazamiento de **trece (13) espacios hacia la derecha**
+
+Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.

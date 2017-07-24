@@ -25,6 +25,8 @@ disponible gracias a [hectorip](http://hectorip.github.io).
 ## Funciones y control de flujo
 
 #### _Creando una función_
+
+
 #### _Llamando una función_
 #### _Pasando argumentos a una función_
 #### _Utilizando llamados de una función como valores_

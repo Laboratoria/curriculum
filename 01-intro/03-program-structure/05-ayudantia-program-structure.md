@@ -32,18 +32,13 @@ Si la persona ingresa un dato que **no** es un número entero (por ejemplo: un `
 
 #### 4. Contando caracteres y espacios
 
-Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga el número de caracteres y de espacios que componen el `string` ingresado. En la consola, debe aparecer cada caracter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga: el número de caracteres y de espacios que componen el `string` ingresado. En la consola, debe aparecer cada caracter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
 
 Arma tu archivo JavaScript para que tenga 3 funciones:
 
   - Una función que imprima todos los caracteres de un `string`, cada uno en una línea separada, en mayúscula.
   - Una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
   - Una función que cuente el número de espacios de un `string`
-
-#### 5. isEven - isOdd
-
-Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola. Si el usuario no ingresa un dato válido, debe dar un mensaje de error.
-
 
 ## Último paso de esta lección
 
