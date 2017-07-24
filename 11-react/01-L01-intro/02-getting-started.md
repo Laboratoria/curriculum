@@ -1,8 +1,8 @@
 # Getting Started
 
-Veamos como podemos comenzar a usar react inmediatamente en nuestro html existente
+Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html existente
 
-Este es nuestro html base:
+En este ejemplo este será nuestro html base:
 
 ```
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del `DO
 </body>
 ```
 
-Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar `React`, necesitamos importarlo en nuestra pagina. Para ello puedes bajarte localmente una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) y referenciar localmente los scripts, o como haremos nosotros, puedes linkear directamente a los archivos publicados en [unpkg](https://unpkg.com).
+Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) y referenciar localmente los scripts, o como haremos nosotros, puedes linkear directamente a los archivos publicados en [unpkg](https://unpkg.com), [unpkg](https://unpkg.com).
 
 ```
 <head>
@@ -51,7 +51,7 @@ Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar
 </head>
 ```
 
-Ahora a crear nuestro primer componente.
+¡Ahora a crear nuestro primer componente!
 
 Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes son las *"piezas"* para contruir nuestras interfaces y los declaramos a través de ***funciones***.
 
@@ -62,13 +62,13 @@ Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
   
   </div>
   <script>
-    var div = React.DOM.div
-    var h2 = React.DOM.h2
+    const div = React.DOM.div
+    const h2 = React.DOM.h2
     
     function Cabecera() {
-      var titulo = 'Hola Mundo';
+      const titulo = 'Hola Mundo';
 
-      var elemento = div(null,
+      const elemento = div(null,
         h2(null, titulo),
       )
       
@@ -85,21 +85,21 @@ Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
 
 Veamos qué está sucediendo aquí:
 
-Cada tag del DOM tiene un componente que lo representa en el mundo React
+Cada tag del DOM tiene un componente que lo representa en el mundo React.
 
 ```
-var div = React.DOM.div
-var h2 = React.DOM.h2
+const div = React.DOM.div
+const h2 = React.DOM.h2
 ```
 
-Los componentes son funciones. Nuestro primer componente será la "Cabecera" de la pagina
+Los componentes los definimos como funciones puras. Nuestro primer componente será la "Cabecera" de la pagina.
 
 ```
 function Cabecera() {
-  var titulo = 'Hola Mundo';
+  const titulo = 'Hola Mundo';
 
   // Creamos un elemento `div` "the React way"
-  var elemento = div(null,
+  const elemento = div(null,
     h2(null, titulo),
   )
   
@@ -108,14 +108,14 @@ function Cabecera() {
 }
 ```
 
-Esto es analogo al siguiente codigo html:
+Esto es análogo al siguiente codigo html:
 ```
 <div>
   <h2>Hola Mundo</h2>
 </div>
 ```
 
-Y por ultimo para que el usuario pueda verlo, insertamos el resultado en el DOM
+Y por último para que el usuario pueda verlo, insertamos el resultado en el DOM
 
 ```
 ReactDOM.render(
@@ -124,9 +124,9 @@ ReactDOM.render(
 );
 ```
 
-Veras que nuestro componente es una funcion sin parametros. Uno de los mayores beneficios que otorga el enfoque de componentes como funciones, es que a traves de los parametros que nosotros le pasemos a nuestra funcion, podemos modificar dinamicamente el comportamiento del componente, permitiendonos reutilizarlo.
+Verás que nuestro componente es una función sin parámetros. Uno de los mayores beneficios que otorga el enfoque de componentes como funciones, es que a través de los parametros que nosotros le pasemos a nuestra función, podemos modificar dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
 
-En el mundo `React` a los parametros de los componentes los denominamos ***propiedades*** (`props`)
+En el mundo `React` a los parámetros de los componentes los denominamos ***propiedades*** (`props`)
 
 ```
 <body>
@@ -140,13 +140,13 @@ En el mundo `React` a los parametros de los componentes los denominamos ***propi
   </div>
 
   <script>
-    var div = React.DOM.div
-    var h2 = React.DOM.h2
+    const div = React.DOM.div
+    const h2 = React.DOM.h2
     
     function Cabecera(props) {
-      var titulo = 'Hola ' + props.saludo;
+      const titulo = 'Hola ' + props.saludo;
 
-      var elemento = div(null,
+      const elemento = div(null,
         h2(null, titulo),
       )
       
@@ -166,14 +166,16 @@ En el mundo `React` a los parametros de los componentes los denominamos ***propi
 </body>
 ```
 
-Ahora nuestra funcion recibe un parametro `props` que es un Objecto JSON. Cada llave de `props`, es una propiedad de nuestro componente.
+Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada llave de `props`, es una propiedad de nuestro componente.
+
+Asi como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen ***propiedades***
 
 ```
 function Cabecera(props) {
   // usamos la propiedad "saludo"
-  var titulo = 'Hola ' + props.saludo;
+  const titulo = 'Hola ' + props.saludo;
 
-  var elemento = div(null,
+  const elemento = div(null,
     h2(null, titulo),
   )
   
@@ -197,7 +199,7 @@ ReactDOM.render(
 
 ## Ejercicios
 
-Y por último te dejamos 2 ejemplos mas entrenidos para que analices como funcionan. Al final de la leccion veremos cuanto has entendido de ellos.
+Y por último te dejamos 2 ejemplos mas entrenidos para que analices como funcionan. Al final de la lecciónn veremos cuánto has entendido de ellos.
 
 Recuerda de utilizar los recursos recomendados:
 - [Documentacion oficial](https://facebook.github.io/react/) (en ingles)
@@ -214,15 +216,15 @@ Recuerda de utilizar los recursos recomendados:
   </div>
 
   <script>
-    var div = React.DOM.div
-    var h2 = React.DOM.h2
-    var p = React.DOM.p
-    var a = React.DOM.a
-    var b = React.DOM.b
-    var br = React.DOM.br
+    const div = React.DOM.div
+    const h2 = React.DOM.h2
+    const p = React.DOM.p
+    const a = React.DOM.a
+    const b = React.DOM.b
+    const br = React.DOM.br
 
     function Cabecera(props) {
-      var titulo = 'Saludo';
+      const titulo = 'Saludo';
 
       return div(null,
         h2(null, titulo),
@@ -253,17 +255,17 @@ Recuerda de utilizar los recursos recomendados:
   </div>
 
   <script>
-    var div = React.DOM.div
-    var h2 = React.DOM.h2
-    var p = React.DOM.p
+    const div = React.DOM.div
+    const h2 = React.DOM.h2
+    const p = React.DOM.p
     
     function Timer(props) {
-      var transcurrido = Math.round(props.transcurrido  / 100);
-      var segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
-      var mensaje = 'React ha estado corriendo por ' + segundos + ' segundos.';
+      const transcurrido = Math.round(props.transcurrido  / 100);
+      const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
+      const mensaje = 'React ha estado corriendo por ' + segundos + ' segundos.';
 
-      var borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
-      var containerStyle = {
+      const borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
+      const containerStyle = {
         border: '3px solid ' + borderColor,
         padding: 10
       }
@@ -274,7 +276,7 @@ Recuerda de utilizar los recursos recomendados:
       )
     }
 
-    var start = new Date().getTime();
+    const start = new Date().getTime();
     setInterval(function() {
       ReactDOM.render(
         Timer({ transcurrido: new Date().getTime() - start }),
