@@ -46,6 +46,46 @@ Participar en el proyecto involucra lo siguiente:
 * Presentar el trabajo final con una demo ante jurado
 
 ***
+## Syllabus
+### Lección 00: [Presentación del curso](00-growth-mindset)
+Antes de empezar con este curso te presentaremos una breve introducción a todo lo que veremos, empezaremos con un repaso de lo visto en bootcamp
+Es importante refrescar tu mente y código 
+
+
+### Lección xx: [Types and operators](02-types-and-operators)
+Veremos y profundizaremos lo que ya traes, veremos: Types, diferencias entre types static and dynamic typing
+Primitive types
+Operators: Precedence and Associativity
+
+### Lección xx: [Javascript fundations](02-js-fundations)
+Veremos y profundizaremos como funciona por detrás JS , veremos desde dónde se forman muchos de lo que hemos usado sin saber cómo está funcionando realmente en JS,sabremos lo importante que son los algoritmos de ordenamiento
+Sorting
+Search
+Recursividad
+
+
+### Lección xx: [Context and Lexical Environments](01-contex-lexical-enviroments)
+
+Mucha de la magia del código ocurre detrás de las escenas cuando el código se compila e interpreta.
+Execution context es el concepto abstracto del entorno en el que se está evaluando el código actual.
+En la documentación de ES5, el contexto de ejecución "contiene cualquier estado que sea necesario para rastrear el progreso de ejecución de su código asociado".
+Normalmente, este "entorno" es: (1) el entorno global predeterminado o (2) el entorno de la función, el código dentro de una función. 
+Veremos:
+Execute Context
+Lexical Environment
+Execution Stack
+Scope Chain
+
+### Lección xx: [Objetos y funciones](03-objects-and-functions)
+Veremos: Functions Statements and Function Expressions
+By value and by reference
+IIFEs
+Objects as functions
+OOP
+Prototype
+this, apply(), call(), bind()
+Patrones de diseño (MVC)
+Closures
 
 ## Autor(es) / Colaboradores
 
