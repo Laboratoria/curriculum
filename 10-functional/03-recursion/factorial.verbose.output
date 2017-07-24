@@ -1,0 +1,22 @@
+$ yarn run jest -- factorial.test.js
+
+FAIL  ./factorial.test.js
+
+  ● Should not accept negative values
+
+    RangeError: Maximum call stack size exceeded
+
+      at factorial (factorial.js:1:108)
+      at factorial (factorial.js:9:14)
+      ...
+      at factorial (factorial.js:9:14)
+
+
+  ✓ Should calculate the factorial of the given number (3ms)
+  ✕ Should not accept negative values (3ms)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.685s, estimated 1s
+Ran all test suites matching "factorial.test.js".

@@ -1,0 +1,270 @@
+= Recursividad en JavaScript
+:source-highlighter: highlightjs
+:stem:
+
+== Introducción
+
+La recursividad es un concepto de programación. No es un concepto exclusivo de
+JavaScript, se utiliza en muchos lenguajes de programación. Tampoco es un
+tipo de datos, una función, un objeto o un método. No está restringido por una
+sola llamada de sentencia como las estructuras de control `if` o `while`.
+
+La definición de libro de texto para recursividad es: el llamado que hace una
+función sobre sí misma. Pero, ¿Qué significa esto realmente?
+
+La recursividad es uno de los conceptos de programación más simples pero
+difíciles de entender. Una vez que empieces a trabajar con ella y tratar de
+entender realmente cómo funciona, tal vez te sientas mareada y confundida, por
+eso trataremos de explicarlo de forma sencilla. Ayudará mucho si ya entiendes
+los conceptos de función y estructuras de control.
+
+A lo largo de esta lección veremos que la recursión es importante para la
+programación funcional por las siguientes razones:
+
+* Las soluciones recursivas envuelven el uso de abstracciones simples aplicadas
+a subconjuntos de un problema común.
+* La recursión puede ocultar la mutación del estado.
+* La recursión es una manera de implementar _lazyness_ y estructuras muy largas
+o infinitas.
+
+== Factorial
+
+Este es el ejemplo clásico para entender la recursividad: **factoriales.**
+
+Si te acuerdas de la clase de matemáticas, cuando se calcula el factorial de un
+número `n` es igual a `n` multiplicado por el stem:[fact\o\rial(n - 1)] para cada
+entero positivo.
+
+[stem]
+.n!
+++++
+n! = n * (n - 1) * (n - 2) cdots 3 * 2 * 1
+++++
+
+[stem]
+++++
+n! = n * [(n - 1) * (n - 2) cdots 3 * 2 * 1] = n * (n - 1)!
+++++
+
+Así que el factorial de 5 es igual a 5 * 4 * 3 * 2 * 1, lo que nos da como
+resultado 120.
+
+[stem]
+.factorial(5)
+++++
+5! = 5 * 4 * 3 * 2 * 1 = 120
+++++
+
+En la programación, los factoriales son un ejemplo perfecto de un caso en el que
+se debe utilizar una función recursiva. ¿Por qué? Porque estamos haciendo lo
+mismo (multiplicación) una y otra vez a un valor particular (un entero positivo)
+hasta que obtenemos el resultado deseado.
+
+En principo desarrollemos, como ya hemos viniendo haciendo, el caso de prueba:
+
+[source,javascript]
+.factorial.test.js
+----
+include::factorial.test.js[]
+----
+
+Una primera implementación que cumple caso de pruebas especificado es la
+siguiente:
+
+[source,javascript]
+.factorial.js
+----
+include::factorial.js[]
+----
+
+Demostremos que nuestra implementación cumple con el caso de prueba:
+
+[source,console]
+----
+include::factorial.output[]
+----
+
+=== Tarea
+
+Intenta utilizar la misma función `factorial()` pero en este caso para el
+entero 10.
+
+== Caso base, caso recursivo
+
+Hay características claves de la recursión que deben incluirse en tu código para
+que funcione correctamente.
+
+El primer caso a estudiar es el *caso base*: es sólo una línea de código o
+sentencia, normalmente dentro de una cláusula condicional como `if` que detiene
+la recursión. Si no se tiene un caso base, la recursión continuará infinitamente
+y tu programa se bloqueará (lo cual no es bueno).
+
+El segundo es el *caso recursivo*: ésta es la afirmación donde la recursión
+realmente sucede: es donde la función recursiva se llama a sí misma.
+
+Vamos a explorar ambos casos con más detalle.
+
+Mira bien el código del ejemplo a continuación, ¿crees que tiene lógica?, ¿no?
+No importa que no lo comprendas del todo por ahora, iremos explicando sección
+por sección.
+
+Como ejercicio puedes llamar la función `factorial()` usando cualquier número
+entero positivo.
+
+[source,javascript]
+.factorial.js
+----
+include::factorial.verbose.js[]
+----
+
+== Condición de terminación
+
+Otra característica útil (y a menudo necesaria) de una función recursiva es la
+*condición de terminación*.
+
+Esta es una declaración específica que detendrá explícitamente la recursión. El
+caso base es una forma de condición de terminación, aunque para nuestros fines
+usaremos la condición de terminación para describir una sentencia que cancelará
+la recursión en el caso de una entrada incorrecta u otro error potencial.
+
+Para poner esto en práctica, mira la función factorial. ¿Qué pasaría si la
+llamáramos usando un entero negativo? Dado que la recursión sólo se detendrá
+cuando n es igual a 0, y eso nunca sucedería con un entero negativo, nuestro
+programa se bloquearía.
+
+Agreguemos un caso de prueba para demostrar lo indicado en el párrafo anterior:
+
+[source,javascript]
+.factorial.test.js
+----
+include::factorial.verbose.test.js[]
+----
+
+Si ejecutamos nuestras pruebas obtendremos lo siguiente:
+
+[source,console]
+----
+include::factorial.verbose.output[]
+----
+
+*¡Ouch!*, nuestro programa está fallando.
+
+Para evitar que esto suceda, utilizaremos una condición de terminación para
+asegurarnos que el valor pasado a la función sea válido y no bloquee nuestro
+programa. Como programadora, debes estar constantemente pensando en cómo estar
+preparada para cualquier tipo de situación y asegurarte de que tu código puede
+manejarla correctamente.
+
+[source,javascript]
+.factorial.js
+----
+include::factorial.good.js[]
+----
+
+Ejecutemos ahora nuestras pruebas:
+
+[source,console]
+----
+include::factorial.good.output[]
+----
+
+Todo parece indicar que la condición de terminación nos ha servido para solventar
+el error antes presentado.
+
+=== Tarea
+
+Puedes intentar describir un nuevo escenario de prueba para ver qué sucede
+cuando se pasa un valor no válido a la función `factorial()`. Al encontrar una
+falla, puedes intentar mejorar la implementación de la función `factorial()`.
+
+== Argumentos en la recursión
+
+Cuando empieces a construir tu caso recursivo (el código que se repetirá), una
+de las reglas es asegurarse que los argumentos que utiliza para la recursión
+llevará a un caso base.
+
+Si el valor que le pasamos a la llamada de la función recursiva es el mismo que
+el valor inicial, es probable que nuestro código entre en un bucle infinito, e
+inevitablemente se bloqueará.
+
+Por lo tanto, la pregunta que debes hacerte es: ¿el caso recursivo modifica los
+argumentos de tal manera que cada recursión lo acerca más al caso base?
+
+[source,javascript]
+.factorial.js
+----
+const factorial = n => {
+  // Condición de terminación para prevenir la recursión infinita
+  if (n < 0) {
+    throw new Error('Cannot compute the factorial of a negative integer')
+  }
+
+  // Caso base
+  if (n === 0) {
+    return 1
+  }
+  
+  // ¿Qué está mal? ¿Por qué no funciona la recursión?
+  return n * factorial(n)
+}
+
+factorial(6)
+----
+
+=== Tarea
+
+Ejecuta el código del ejemplo anterior.
+
+Hmm... algo está mal.
+
+Observa atentamente la última línea de definición de la función factorial y
+cámbiala para que el factorial funcione correctamente.
+
+Utiliza los casos de pruebas antes mostrados para ver que todo funcione
+correctamente.
+
+== Ahora es tu turno
+
+Ahora que hemos cubierto lo esencial, trata de reconstruir la función
+`factorial()` en la que hemos estado trabajando, pero esta vez escríbelo todo
+desde cero. Para ayudarte, aquí hay cinco preguntas que puedes utilizar siempre
+que vayas a incluir la recursión en tu código:
+
+* ¿Cuáles son los casos básicos?
+* ¿Cuál es el caso recursivo?, ¿hay más de un caso recursivo?
+* ¿He incluido alguna otra condición de terminación necesaria?
+* ¿Las declaraciones de la función conducen al caso base?
+* ¿Se construye la recursión en el caso base hasta que el resultado deseado es
+devuelto por la función?
+
+=== Plantilla
+
+Define el caso base. Dado que un factorial significa multiplicar un entero por
+cada entero entre él mismo y uno, el caso base es uno.
+
+Define el caso recursivo. ¿Qué acciones deben realizarse una y otra vez para
+lograr el resultado deseado?
+
+Escribe cualquier condición de terminación para evitar que la función acepte
+argumentos que puedan dar  error.
+
+[source,javascript]
+.factorial.js
+----
+const factorial = n => {
+  // Aquí va tu código.
+}
+----
+
+== Otros ejercicios que puedes hacer
+
+* Implementa la función `myLength`, la cual toma un _array_ como entrada y
+retorna la longitud de dicho _array_ o número de elementos. Ejemplo:
+`myLength([1, 2, 3]) = 3`
+*  Crea una función `cycle` que toma un número entero positivo y un _array_ como
+argumentos y crea un nuevo _array_ que contendrá los elementos del _array_ de
+entrada multiplicados tantas veces como indica el número entero positivo pasado
+como primer argumento. Ejemplo: `cycle(2, [1, 2, 3]) = [1, 2, 3, 1, 2, 3]`
+
+== Referencias
+Code Academy: https://www.codecademy.com/en/courses/javascript-lesson-205[Recursión in JavaScript]
