@@ -3,9 +3,25 @@
 
 == Introducción
 
-Pocos tipos de datos en JavaScript son inmutables por omisión. Las cadenas de
-caracteres o _strings_ son un ejemplo de un tipo de datos que no puede ser
-cambiado.
+La inmutabilidad es un principio fundamental en la programacion funcional, y
+también tiene ventajas que ofrecer a otros paradigmas como el orientado a
+objetos. En esta lección mostraremos qué es la inmutabilidad, cómo podemos
+aprovechar este concepto en JavaScript, y por qué es tan útil.
+
+== ¿Qué es la inmutabilidad?
+
+La definición de mutabilidad indica que algo está sujeto a cambios o
+modificaciones. En programación, cuando decimos que un objeto es mutable se
+refiere a que es permitido modificar el estado de dicho objeto a lo largo del
+tiempo. Un valor *inmutable* indica exactamente lo opuesto, después que dicho
+valor es creado, no puede ser cambiado o alterado nunca.
+
+Esto parece ser un poco extraño, pero recordemos que muchos valores que usamos
+todo el tiempo en realidad son inmutables.
+
+Ten en cuenta que pocos tipos de datos en JavaScript son inmutables por omisión.
+Las cadenas de caracteres o _strings_ son un ejemplo de un tipo de datos que no
+puede ser cambiado.
 
 [source,javascript]
 .strings.test.js
@@ -20,6 +36,17 @@ cadena (`immutability`) no es modificado tras la operación ejecutada:
 ----
 include::strings.output[]
 ----
+
+De hecho, ningún método sobre cadenas de caracteres pueden cambiar la cadena
+sobre la que operan, todos ellos retornan nuevas cadenas de caracteres. La razón
+tras esto radica en que las cadenas de caracteres son inmutables. Por lo tanto,
+su valor no puede cambiar, nosotros solo podemos crear nuevos _strings_.
+
+Las cadenas de caracteres no son los únicos valores inmutables dentro de
+JavaScript. Los números también son inmutables. ¿Te puedes imaginar un entorno
+en donde al evaluar la expresión 2 + 3 cambie automáticamente el significado del
+número 2?, suena absurdo, ¿verdad?. Sin embargo, solemos modificar nuestros
+objetos y arreglos todo el tiempo!
 
 == Inmutabilidad y su relación con la recursividad
 
@@ -36,4 +63,5 @@ TBD
 == Referencias
 
 [bibliography]
-- [[[mdn]]] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze[Object.freeze()]
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze[Object.freeze()]
+- https://www.sitepoint.com/immutability-javascript/[Inmutability in JavaScript]
