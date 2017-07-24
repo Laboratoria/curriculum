@@ -1,17 +1,26 @@
-What is React?
+# ¿Qué es `React`?
 
-React is a UI library developed at Facebook to facilitate the creation of interactive, stateful & reusable UI components. It is used at Facebook in production, and Instagram.com is written entirely in React.
+`React` es una librería (no un *framework*, una ***librería***) open source desarrollada por Facebook para crear interfaces de usuario, a través de componentes dinámicos y reusables.
 
-One of it's unique selling points is that not only does it perform on the client side, but it can also be rendered server side, and they can work together inter-operably.
+Uno de los principales beneficios de `React` es que nos permite crear ***single page apps*** de una manera ordenada, más simple y mantenible.
 
-It also uses a concept called the Virtual DOM that selectively renders subtrees of nodes based upon state changes. It does the least amount of DOM manipulation possible in order to keep your components up to date.
+`React` es uno de los principales actores en el movimiento de la programación funcional dentro del mundo JavaScript. Es decir que en `React` preferimos la composición por sobre la herencia y nos alineamos con los principios de inmutabilidad.
 
-How does the Virtual DOM work?
+`React` se usa comunmente en aplicaciones main stream, por compañias como Netflix, PayPal, AirBnB, Apple, Uber, y, por supuesto, Instagram y Facebook.
 
-Imagine you had an object that you modeled around a person. It had every relevant property a person could possibly have, and mirrored the persons current state. This is basically what React does with the DOM.
+Por debajo `React` usa una estructura llamada `Virtual DOM` que se encarga de granularmente renderizar los nodos, dependiendo de los cambios de estado de la aplicación, realizando la menor cantidad posible de modificaciones al `DOM`, para mantener la interfaz actualizada.
 
-Now think about if you took that object and made some changes. Added a mustache, some sweet biceps and Steve Buscemi eyes. In React-land, when we apply these changes, two things take place. First, React runs a "diffing" algorithm, which identifies what has changed. The second step is reconciliation, where it updates the DOM with the results of diff.
+# ¿Cómo funciona el `Virtual DOM`?
 
-The way React works, rather than taking the real person and rebuilding them from the ground up, it would only change the face and the arms. This means that if you had text in an input and a render took place, as long as the input's parent node wasn't scheduled for reconciliation, the text would stay undisturbed.
+Piensa en el `Virtual DOM` como un espejo del estado actual del `DOM`.
 
-Because React is using a fake DOM and not a real one, it also opens up a fun new possibility. We can render that fake DOM on the server, and boom, server side React views.
+Cada vez que sucede una acción, `React` se encarga de tres cosas:
+1 - propaga los efectos colaterales de esas acciones en el `Virtual DOM`
+2 - análiza las diferencias (`diff`) para ver qué sub-árboles han cambiado en relación a la "versión anterior"
+3 - y por último realiza una "reconciliación", donde actualiza el `DOM` con el resultado del `diff`
+
+Esto quiere decir que cuando hay un cambio en el `Virtual DOM`, solo los sub-árboles modificados son reemplazados en el `DOM`. Entonces, si por ejemplo tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para "reconciación", el texto queda inalterado.
+
+# Recursos recomendados
+- [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
+- [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
