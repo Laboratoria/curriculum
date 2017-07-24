@@ -15,7 +15,8 @@
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script>
       const DOM = React.DOM
-
+      
+      // HEADER
       function Header(props) {
         return DOM.header(null,
           DOM.h1(null, props.titulo),
@@ -23,6 +24,7 @@
         )
       }
       
+      // MAIN SECTION
       function Article(props) {
         return DOM.article(null,
           DOM.h3(null, props.titulo),
@@ -47,6 +49,7 @@
         )
       }
       
+      // ASIDE
       function AsideLink(props) {
         return DOM.li(null,
           DOM.a({ href: props.href }, props.texto)
@@ -69,6 +72,7 @@
         )
       }
       
+      // Integramos todo en un PAGE
       function Page(props) {
         return DOM.div(null,
           Header({
@@ -95,7 +99,7 @@
           { titulo: 'Titulo 2', descripcion: 'Descripcion 2'},
           { titulo: 'Titulo 3', descripcion: 'Descripcion 3'}
         ],
-        asideTitulo: 'Aside',
+        asideTitulo: 'Links',
         asideLinks: [
           { href: '#', texto: 'Link 1'},
           { href: '#', texto: 'Link 2'},
