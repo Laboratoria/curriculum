@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React: Getting Started</title>
+    <link rel="stylesheet" href="../shared/css/base.css" />
+  </head>
+  <body>
+    <h1>Getting Started</h1>
+    <h2>Descripción</h2>
+    <p>
+      Cómo integrar react a páginas estáticas existentes
+    </p>
+    <div id="cabecera">
+      <p>
+        Si ves esto React <strong>no</strong> está funcionando.
+      </p>
+    </div>
+    <div id="timer">
+      <p>
+        Si ves esto React <strong>no</strong> está funcionando.
+      </p>
+    </div>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script>
+      var div = React.DOM.div
+      var h2 = React.DOM.h2
+      var p = React.DOM.p
+      var a = React.DOM.a
+      var b = React.DOM.b
+      var br = React.DOM.br
+
+      function Cabecera(props) {
+        var titulo = 'Saludo';
+
+        return div(null,
+          h2(null, titulo),
+          p(null,
+            "Hola ", b(null, props.saludo), ".", br(null),
+            "Un link? ", br(null),
+            a( {href:"http://laboratoria.la"}, "Laboratoria"), "!"
+          )
+        )
+      }
+      
+      ReactDOM.render(
+        Titulo({ nombre: 'Mundo' }),
+        document.getElementById('cabecera')
+      );
+      
+      function Timer(props) {
+        var transcurrido = Math.round(props.transcurrido  / 100);
+        var segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
+        var mensaje =
+          'React ha estado corriendo por ' + segundos + ' segundos.';
+        var borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
+        var containerStyle = {
+          border: '3px solid '+borderColor,
+          padding: 10
+        }
+          
+        // Creamos un elemento `p` the React way
+        return div({ style: containerStyle },
+          h2(null, "Timer"),
+          p(null, mensaje)
+        )
+      }
+
+      var start = new Date().getTime();
+      setInterval(function() {
+        ReactDOM.render(
+          Timer({ transcurrido: new Date().getTime() - start }),
+          document.getElementById('timer')
+        );
+      }, 50);
+    </script>
+  </body>
+</html>
