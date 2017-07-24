@@ -66,7 +66,7 @@ Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
     var h2 = React.DOM.h2
     
     function Cabecera() {
-      var titulo = 'Funciones como componentes';
+      var titulo = 'Hola Mundo';
 
       var elemento = div(null,
         h2(null, titulo),
@@ -197,13 +197,13 @@ ReactDOM.render(
 
 ## Ejercicios
 
-Y por último te dejamos 2 ejemplos mas entrenido para que analices como funcionan. Al final de la leccion veremos cuanto has entendido de ellos.
+Y por último te dejamos 2 ejemplos mas entrenidos para que analices como funcionan. Al final de la leccion veremos cuanto has entendido de ellos.
 
 Recuerda de utilizar los recursos recomendados:
 - [Documentacion oficial](https://facebook.github.io/react/) (en ingles)
 - [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
 
-### [L01.1] Emulando tags anidados
+### [L01.1] Elementos nativos anidados
 
 ```
 <body>
@@ -260,15 +260,14 @@ Recuerda de utilizar los recursos recomendados:
     function Timer(props) {
       var transcurrido = Math.round(props.transcurrido  / 100);
       var segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
-      var mensaje =
-        'React ha estado corriendo por ' + segundos + ' segundos.';
+      var mensaje = 'React ha estado corriendo por ' + segundos + ' segundos.';
+
       var borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
       var containerStyle = {
-        border: '3px solid '+borderColor,
+        border: '3px solid ' + borderColor,
         padding: 10
       }
-        
-      // Creamos un elemento `p` the React way
+
       return div({ style: containerStyle },
         h2(null, "Timer"),
         p(null, mensaje)
