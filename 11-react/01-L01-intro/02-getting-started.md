@@ -4,7 +4,7 @@ Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html 
 
 En este ejemplo este será nuestro html base:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,7 +26,7 @@ En este ejemplo este será nuestro html base:
 
 Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del `DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor (`container`). Generalmente utilizamos un elemento `div` con un `id` que nos permita identificarlo unívocamente.
 
-```
+```html
 <body>
   <h1>Getting Started</h1>
   <h2>Descripción</h2>
@@ -42,7 +42,7 @@ Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del `DO
 
 Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) y referenciar localmente los scripts, o como haremos nosotros, puedes linkear directamente a los archivos publicados en [unpkg](https://unpkg.com), [unpkg](https://unpkg.com).
 
-```
+```html
 <head>
   ...
   <link rel="stylesheet" href="../shared/css/base.css" />
@@ -55,7 +55,7 @@ Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar
 
 Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes son las *"piezas"* para contruir nuestras interfaces y los declaramos a través de ***funciones***.
 
-```
+```html
 <body>
   ...
   <div id="react-container">
@@ -79,7 +79,7 @@ Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
       Titulo(),
       document.getElementById('react-container')
     );
-  <script>
+  </script>
 </body>
 ```
 
@@ -87,14 +87,14 @@ Veamos qué está sucediendo aquí:
 
 Cada tag del DOM tiene un componente que lo representa en el mundo React.
 
-```
+```javascript
 const div = React.DOM.div
 const h2 = React.DOM.h2
 ```
 
 Los componentes los definimos como funciones puras. Nuestro primer componente será la "Cabecera" de la pagina.
 
-```
+```javascript
 function Cabecera() {
   const titulo = 'Hola Mundo';
 
@@ -109,7 +109,7 @@ function Cabecera() {
 ```
 
 Esto es análogo al siguiente codigo html:
-```
+```html
 <div>
   <h2>Hola Mundo</h2>
 </div>
@@ -117,7 +117,7 @@ Esto es análogo al siguiente codigo html:
 
 Y por último para que el usuario pueda verlo, insertamos el resultado en el DOM
 
-```
+```javascript
 ReactDOM.render(
   Titulo(),
   document.getElementById('react-container')
@@ -128,7 +128,7 @@ Verás que nuestro componente es una función sin parámetros. Uno de los mayore
 
 En el mundo `React` a los parámetros de los componentes los denominamos ***propiedades*** (`props`)
 
-```
+```html
 <body>
   ...
   <!-- ahora tendremos 2 contenedores -->
@@ -162,7 +162,7 @@ En el mundo `React` a los parámetros de los componentes los denominamos ***prop
       Titulo({ saludo: 'Amigx' }),
       document.getElementById('cabecera-2')
     );
-  <script>
+  </script>
 </body>
 ```
 
@@ -170,7 +170,7 @@ Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada 
 
 Asi como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen ***propiedades***
 
-```
+```javascript
 function Cabecera(props) {
   // usamos la propiedad "saludo"
   const titulo = 'Hola ' + props.saludo;
@@ -185,7 +185,7 @@ function Cabecera(props) {
 
 Una vez que nuestro componente esta parametrizado, podemos reutilizarlo modificando el valor de `saludo`
 
-```
+```javascript
 ReactDOM.render(
   Titulo({ saludo: 'Mundo' }),
   document.getElementById('cabecera-1')
@@ -202,12 +202,12 @@ ReactDOM.render(
 Y por último te dejamos 2 ejemplos mas entrenidos para que analices como funcionan. Al final de la lecciónn veremos cuánto has entendido de ellos.
 
 Recuerda de utilizar los recursos recomendados:
-- [Documentacion oficial](https://facebook.github.io/react/) (en ingles)
+- [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
 - [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
 
 ### [L01.1] Elementos nativos anidados
 
-```
+```html
 <body>
   <div id="cabecera">
     <p>
@@ -246,7 +246,7 @@ Recuerda de utilizar los recursos recomendados:
 
 ### [L01.2] Renderizado dinámico con atributos
 
-```
+```html
 <body>
   <div id="timer">
     <p>
