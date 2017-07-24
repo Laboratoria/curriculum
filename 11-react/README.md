@@ -93,7 +93,7 @@ Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el cu
 
 ### Lesson 1: [Intro a React](01-L01-intro/index.md)
 
-50min (self-paced)
+60min (self-paced)
 
 En esta primera lección veremos qué hace exactamente React. Veremos cómo integrarlo en tiempo cero en una página web existente y cómo construir interfaces con el.
 
@@ -106,7 +106,7 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 |   1   | texto  |    5min  | Conceptos básicos de React
 |   2   | texto  |   20min  | Instalación y uso
 |   3   | code   |   20min  | Ejercicio: Nuestra primera interfaz
-|   4   | qa     |    5min  | Re-cap
+|   4   | qa     |   15min  | Re-cap
 
 
 ### Lesson 2: [JSX, Babel y React](02-L02-jsx-babel/index.md)
