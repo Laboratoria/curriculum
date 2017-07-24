@@ -24,15 +24,15 @@
     <script src="https://unpkg.com/react@15/dist/react.js"></script>
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script>
-      var div = React.DOM.div
-      var h2 = React.DOM.h2
-      var p = React.DOM.p
-      var a = React.DOM.a
-      var b = React.DOM.b
-      var br = React.DOM.br
+      const div = React.DOM.div
+      const h2 = React.DOM.h2
+      const p = React.DOM.p
+      const a = React.DOM.a
+      const b = React.DOM.b
+      const br = React.DOM.br
 
       function Cabecera(props) {
-        var titulo = 'Saludo';
+        const titulo = 'Saludo';
 
         return div(null,
           h2(null, titulo),
@@ -45,29 +45,29 @@
       }
       
       ReactDOM.render(
-        Titulo({ nombre: 'Mundo' }),
+        Cabecera({ nombre: 'Mundo' }),
         document.getElementById('cabecera')
       );
       
       function Timer(props) {
-        var transcurrido = Math.round(props.transcurrido  / 100);
-        var segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
-        var mensaje =
+        const transcurrido = Math.round(props.transcurrido  / 100);
+        const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
+        const mensaje =
           'React ha estado corriendo por ' + segundos + ' segundos.';
-        var borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
-        var containerStyle = {
+        const borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
+        const containerStyle = {
           border: '3px solid '+borderColor,
           padding: 10
         }
           
-        // Creamos un elemento `p` the React way
+        // Creamos un elemento `div` the React way
         return div({ style: containerStyle },
           h2(null, "Timer"),
           p(null, mensaje)
         )
       }
 
-      var start = new Date().getTime();
+      const start = new Date().getTime();
       setInterval(function() {
         ReactDOM.render(
           Timer({ transcurrido: new Date().getTime() - start }),
