@@ -124,7 +124,7 @@ En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué e
 |   1   | texto  |   10min  | JSX
 |   2   | texto  |   10min  | Webpack y Babel
 |   3   | code   |   10min  | Ejercicio: npm scripts de desarrollo
-|   4   | qa     |    5min  | Re-cap
+|   4   | qa     |   10min  | Re-cap
 
 
 ### Lesson 3: [Componentes (`stateless`) y `props`](03-L03-stateless/index.md)
@@ -310,6 +310,8 @@ Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos d
 * https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react
 * https://www.codeschool.com/courses/powering-up-with-react
 * https://reactforbeginners.com/
+* https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
+* https://frontendmasters.com/courses/react/
 
 
 ## Lecturas complementarias
