@@ -4,7 +4,6 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender qué se entiende por paradigmas de programación
 - Entender el concepto del paradigma de `programación estructurada`
 
 ## Paradigma de Programación Estructurada

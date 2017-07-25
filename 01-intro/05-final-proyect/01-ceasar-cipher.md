@@ -1,4 +1,6 @@
 ## Cifrado César
+- Formato: `code`
+- Duración: `120min`
 
 #### Qué es un algoritmo?
 

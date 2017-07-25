@@ -39,6 +39,5 @@ cuestionarios y retos son de carácter **INDIVIDUAL**.
 ######
 #######
 ```
-10. Crea una función que pida una frase al usuario y devuelva el mismo mensaje encriptado según el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) con con el parámetro de desplazamiento de **trece (13) espacios hacia la derecha**
 
 Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
