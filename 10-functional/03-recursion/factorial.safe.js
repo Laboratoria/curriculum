@@ -1,8 +1,11 @@
 'use strict'
+
+const isFunction = require('lodash.isfunction')
+
 const trampoline = (fn, ...args) => {
   let result = fn.apply(fn, args)
 
-  while (result && typeof(result) === 'function') {
+  while (isFunction(result)) {
     result = result()
   }
 

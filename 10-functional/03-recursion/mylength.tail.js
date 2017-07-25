@@ -1,4 +1,4 @@
-const myLength = (array, acc=0) => {
+const myLength = (array, acc = 0) => {
   const [head, ...tail] = array
 
   if (!head) {
