@@ -211,7 +211,7 @@ framework Back End que puede estar realizado en cualquier lenguaje, pero que sig
 patrón muy similar.
 
 * **Fiverr**: El entregable final de este curso es replicar la experiencia del
-sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_ 
+sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_
 teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente de la
 implementación del Front End.
 
@@ -255,6 +255,18 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 ##### [09. Build Tools](#)
 
 _Autor: ???_
+
+Hasta el momento las tecnologías usadas para desarrollar nuestros productos han
+sido basadas en HTML, CSS y JS, lo cual está bien, sin embargo, cuando el producto
+comienza a crecer, la administración de dependencias, archivos, pruebas y tareas
+que hacemos se vuelve extensa, debido a ello comenzamos a usar herramientas que
+nos ayuden a llevar este proceso más sencillo y óptimo a la vez.
+
+* **Kickstarter**: El entregable de este curso será la réplica del flujo del sitio
+_[Kickstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
+en el cual debido a la cantidad de vistas y dependencias involucradas en este
+proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
+rápido y eficiente. 
 
 Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`,
 `task-runner`.
