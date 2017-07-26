@@ -191,7 +191,7 @@ por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
 * **AIRDNA**: El entregable final de este curso es el desarrollo de un sitio como
-[AIRDNA](https://www.airdna.co/investment-explorer) que muestre datos estadísticos
+_[AIRDNA](https://www.airdna.co/investment-explorer)_ que muestre datos estadísticos
 en base a ubicaciones integrando el API de Google Maps y personalizando tanto el
 mapa como marcadores.
 
@@ -203,6 +203,17 @@ Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
 ##### [06. Back-End Integration](#)
 
 _Autor: Iván Medina_
+
+El desarrollo Front End es un mundo muy amplio tal como lo es el desarrollo Back End,
+y trabajar estos en conjunto es algo aun muy común en el desarrollo de software, por
+lo cual veremos como implementar lo que ya conocemos hasta el momento dentro de un
+framework Back End que puede estar realizado en cualquier lenguaje, pero que sigue un
+patrón muy similar.
+
+* **Fiverr**: El entregable final de este curso es replicar la experiencia del
+sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_ 
+teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente de la
+implementación del Front End.
 
 Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
 `ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
