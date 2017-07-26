@@ -25,4 +25,4 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
 https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
 
 ***
-[Continuar](011-closing-program-structure.md)
+[Continuar](11-closing-program-structure.md)

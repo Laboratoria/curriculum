@@ -39,10 +39,6 @@ Arma tu archivo JavaScript para que tenga 3 funciones:
   - Una función que cuente el número de caracteres de un `string` (¡sin utilizar `.length`!)
   - Una función que cuente el número de espacios de un `string`
 
-## Último paso de esta lección
-
-Felicidades, has completado el material de la lección `03-program-structure`. Para finalizar debes continuar a la sección de _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que validarán tu aprendizaje.
-
 ***
 
 [Continuar a prueba tu conocimiento](08-code-challenges-program-structure.md)
