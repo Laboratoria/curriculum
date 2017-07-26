@@ -1,11 +1,10 @@
-# Ayudantía - Programación Estructurada
+# Workshop
 - Formato: `workshop`
 - Duración: `90min`
 
-## Objetivos de Aprendizaje
+## Objetivos
 
 - Practicar codeando junto a tu equipo de profes, resolviendo problemas de estructuras condicionales, repetitivas y funciones
-- ¡Aclarar todas las dudas que tengas!
 - Practicar, practicar y practicar
 
 ***
@@ -46,4 +45,4 @@ Felicidades, has completado el material de la lección `03-program-structure`. P
 
 ***
 
-[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento-program-structure.md)
+[Continuar a prueba tu conocimiento](08-code-challenges-program-structure.md)

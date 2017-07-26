@@ -2,7 +2,7 @@
 - Formato: `lectura`
 - Duración: `30min`
 
-## Objetivos de Aprendizaje
+## Objetivos
 
 - Aprender cuáles son las estructuras básicas del control de flujo de un programa
 - Entender qué son `estructuras condicionales` y cómo afectan el flujo del programa

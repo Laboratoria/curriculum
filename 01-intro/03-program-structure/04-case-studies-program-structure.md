@@ -1,8 +1,8 @@
-# Ejercicios Guiados - Programación Estructurada
+# Casos de estudio: aplicando conceptos para resolver problemas
 - Formato: `video`
 - Duración: `50min`
 
-## Objetivos de Aprendizaje
+## Objetivos
 
 - Entender, a través de casos prácticos, cómo aplicar los conceptos de estructuras condicionales, repetitivas y funciones para la resolución de problemas
 
@@ -54,9 +54,6 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 [![-----]()
 
-#### 3. -----
-
-[![-----]()
 ***
 
-[Continuar](05-ayudantia-program-structure.md)
+[Continuar](05-quiz-1-program-structure.md)

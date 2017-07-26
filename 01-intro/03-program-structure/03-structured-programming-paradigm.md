@@ -2,7 +2,7 @@
 - Formato: `lectura`
 - Duración: `10min`
 
-## Objetivos de Aprendizaje
+## Objetivos
 
 - Entender el concepto del paradigma de `programación estructurada`
 
@@ -27,3 +27,5 @@ Este paradigma llevado a JavaScript se podría ver de la siguiente manera:
 4. Segmentación: `funciones`
 
 Así que ahora es tiempo de codear teniendo este paradigma en mente :).
+
+[Continuar](04-case-studies-program-structure.md)

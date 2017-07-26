@@ -2,7 +2,7 @@
 - Formato: `lectura`
 - Duración: `30min`
 
-## Objetivos de Aprendizaje
+## Objetivos
 
 - Conocer el concepto de _Don't Repeat Yourself (DRY)_
 - Entender qué son las funciones y cómo afectan el control de flujo de un programa

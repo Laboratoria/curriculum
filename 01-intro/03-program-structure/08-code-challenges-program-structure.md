@@ -1,4 +1,4 @@
-# Prueba tu conocimiento: Programación Estructurada
+# Retos de Código
 - Formato: `code`
 - Duración: `120min`
 
@@ -41,3 +41,6 @@ cuestionarios y retos son de carácter **INDIVIDUAL**.
 ```
 
 Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
+
+***
+[Continuar](09-solutions-code-challenges-program-structure.md)
