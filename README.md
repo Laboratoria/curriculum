@@ -169,24 +169,20 @@ Development`.
 
 _Autor: Belén Recabal_
 
-Este curso incluye un poco más de teoría de lo habitual. Cubriremos `tipos de datos`, `operadores`, `objetos` y `funciones` en profundidad.
+Este curso incluye un poco más de teoría de lo habitual, entender las particularidades
+de JavaScript como lenguaje de programación, esto permitirá que nos preocupemos por el
+performance de nuestras aplicaciones escribiendo un mejor código sacando provecho del
+lenguaje.
 
-* **Carrito de compras**: en este curso construirás una calculadora que permita sumar,
-restar, multiplicar, dividir y calcular potencias. La calculadora se
-implementará como una web app escrita puramente en vanilla JS dentro del
-navegador.
+* **Pinterest**: El entregable final de este curso será una réplica del sitio de búsqueda
+_[Pinterest](http://pinterest.com/)_, la particularidad viene en que este producto se
+realizará usando un `UI Library` que se creará durante el transcurso del curso, además
+se tendrá en cuenta el performance y manejo de memoria de la aplicación.
 
 Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
-`call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`.
+`call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`, `compiler`, `performance`, `memory-management`.
 
-##### [05. JS Browser APIs](#)
-
-_Autor: Iván Medina_
-
-Tags: `browser-apis`, `geolocation`, `web-storage`, `web-sockets`, `web-workers`,
-`web-rtc`, `progressive-web-apps`.
-
-##### [06. Internet Deep Dive](#)
+##### [05. Internet Deep Dive](#)
 
 _Autor: Iván Medina_
 
@@ -198,17 +194,19 @@ temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 través de un API y que luego puedan ser consumidas en una aplicación cliente que
 haga el proceso de búsqueda y reserva.
 
-Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `rest`, `auth`, `xhr`,
-`microservices`, `broadcasting`, `cloud computing`, `saas-pass-iaas`, `deployment`.
+Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
+`geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
+`auth`, `xhr`, `microservices`, `broadcasting`, `progressive-web-apps`,
+`cloud computing`, `saas-pass-iaas`, `deployment`.
 
-##### [07. Back-End Integration](#)
+##### [06. Back-End Integration](#)
 
 _Autor: Iván Medina_
 
 Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
 `ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
 
-##### [08. Programming Paradigms](09-paradigms)
+##### [07. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -226,7 +224,7 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`.
 
-##### [09. Functional JavaScript](10-functional)
+##### [08. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
@@ -242,7 +240,7 @@ Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 `testing`, `jest`.
 
 
-##### [10. Build Tools](#)
+##### [09. Build Tools](#)
 
 _Autor: ???_
 
@@ -250,14 +248,14 @@ Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testi
 `task-runner`.
 
 
-##### [11. Front-End Frameworks](#)
+##### [10. Front-End Frameworks](#)
 
 _Autor: ???_
 
 Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 `virtual dom`.
 
-##### [12. Advanced Data Structures](#)
+##### [11. Advanced Data Structures](#)
 
 _Autor: ???_
 
