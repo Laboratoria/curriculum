@@ -24,5 +24,10 @@
 | 10 | quiz | 45min | [Quiz 2](10-quiz-2-program-structure.md)
 | 11 | clase presencial | 30min | [Closing](11-closing-program-structure.md)
 
+## Evaluación
+- ...
+
+## Cronograma sugerido
+- ...
 
 *****
