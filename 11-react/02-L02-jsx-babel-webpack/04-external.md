@@ -12,7 +12,7 @@ En esta lectura veremos cómo separar nuestro código `html` de nuestro código 
 
 ## Setup
 
-Para poder referenciar archivos externos desde nuestra aplicación, ya no alcanza con cargar el archivo estáticamente, sino que necesitamos configurar un servidor local para servir los archivos en cuestión.
+Para poder referenciar archivos externos a procesar desde nuestra aplicación, ya no nos alcanza con cargar el archivo estáticamente, sino que necesitamos configurar un servidor local para servir los archivos en cuestión.
 
 Para esto lo primero que vamos a hacer es convertir a nuestro proyecto en una aplicación de `node`.
 
