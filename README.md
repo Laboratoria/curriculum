@@ -117,7 +117,7 @@ pero si lo necesario para poder entender en que track especializarse.
 
 ##### [02. Web Development: Getting Started](#)
 
-_Autor: Iván Medina_
+_Autor: Iván Medina & ???_
 
 En este primer curso se construirá un sitio estático desde cero, empezando por entender
 los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán
@@ -136,15 +136,14 @@ estudiantes, manipulando data almacenada en un arreglo de objetos y agregando fu
 que requiere algoritmos básicos como un filtro de búsqueda y ordenamiento.
 
 Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
-`layout`, `grid-system`, `es6`, `problem solving (logic)`, `dom`,
-`eventos`, `git`, `unix shell`, `github-pages`, `ux`, `design-thinking`, `ux-discovery`,
-`ux-research`.
+`layout`, `grid-system`, `problem solving (logic)`, `dom`,`eventos`, `git`, `unix shell`,
+`github-pages`, `ux`, `design-thinking`, `ux-discovery`, `ux-research`.
 
 Tiempo estimado: _4 semanas_.
 
 ##### [03. Web Development: Getting Deeper](#)
 
-_Autor: Iván Medina_
+_Autor: Iván Medina & ???_
 
 Debido a que los perfiles son afines, el siguiente paso es ver herramientas que se
 usan en el desarrollo web de manera profesional. Aquí se verán temas como: Agile (Scrum),
@@ -166,27 +165,26 @@ Tiempo estimado: _4 semanas_.
 #### Front-End Development
 
 En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación
-y JavaScript de tal manera que puedan especializarse en `Front-End Development` o `Back-End
-Development`.
+y JavaScript de tal manera que puedan especializarse en `Front-End Development`.
 
 ##### [04. JS Deep Dive](#)
 
-_Autor: Belén Recabal_
+_Autor: Belén Recabal & Iván Medina_
 
 Este curso incluye un poco más de teoría de lo habitual, entender las particularidades
 de JavaScript como lenguaje de programación, esto permitirá que nos preocupemos por el
 performance de nuestras aplicaciones escribiendo un mejor código sacando provecho del
 lenguaje.
 
-* **Pinterest**: El entregable final de este curso será una réplica del sitio de búsqueda
-_[Pinterest](http://pinterest.com/)_, la particularidad viene en que este producto se
-realizará usando un `UI Library` que se creará durante el transcurso del curso, además
-se tendrá en cuenta el performance y manejo de memoria de la aplicación.
+* **UI Library**: El entregable final de este curso será construir una librería para
+desarrollo de interfaces, teniendo en cuenta el performance y manejo de memoria, que se
+usará para desarrollar una réplica de _[Pinterest](http://pinterest.com/)_.
 
-Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
+Tags: `es6`, `primitive-vs-reference`, `bitwise operators`, `function statement`,
+`function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
 `call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`, `compiler`, `performance`, `memory-management`.
 
-Tiempo estimado: _2 semanas_.
+Tiempo estimado: _3 semanas_.
 
 ##### [05. Internet Deep Dive](#)
 
@@ -196,7 +194,7 @@ En este curso se verán temas de `network` para entender qué es lo que sucede
 por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
-* **AIRDNA**: El entregable final de este curso es el desarrollo de un sitio como
+* **AIRDNA clone**: El entregable final de este curso es el desarrollo de un sitio como
 _[AIRDNA](https://www.airdna.co/investment-explorer)_ que muestre datos estadísticos
 en base a ubicaciones integrando el API de Google Maps y personalizando tanto el
 mapa como marcadores.
@@ -204,7 +202,7 @@ mapa como marcadores.
 Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
 `geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
 `auth`, `xhr`, `microservices`, `broadcasting`, `progressive-web-apps`,
-`cloud computing`, `saas-pass-iaas`, `deployment`.
+`firebase`, `cloud computing`, `saas-pass-iaas`, `deployment`.
 
 Tiempo estimado: _3 semanas_.
 
@@ -218,17 +216,16 @@ lo cual veremos como implementar lo que ya conocemos hasta el momento dentro de 
 framework Back End que puede estar realizado en cualquier lenguaje, pero que sigue un
 patrón muy similar.
 
-* **Fiverr**: El entregable final de este curso es replicar la experiencia del
+* **Fiverr clone**: El entregable final de este curso es replicar la experiencia del
 sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_
 teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente de la
 implementación del Front End.
 
-Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
-`ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
+Tags: `mv* backend architecture`, `monolithic`, `database`, `orm`, `routing`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [07. Programming Paradigms](09-paradigms)
+##### [07. JS Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -243,29 +240,18 @@ semana tu equipo tendrá que extender el juego _heredando_ del prototipo de un
 constructor ya implementado, mientras que en la segunda semana tendrán que
 refactorizar el código de la primera semana usando el paradigma funcional.
 
-Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
-`composition`.
-
-Tiempo estimado: _2 semanas_.
-
-##### [08. Functional JavaScript](10-functional)
-
-_Autor: L. Montero_
-
-En este curso te familiarizarás con los principios de la programación funcional,
-tan de moda en el mundo de JavaScript.
-
 * **Refactorizar video juego 2d**: como ejemplo de programación funcional
 tendrás que refactorizar el juego con el que se ha estado trabajando en el curso
 anterior. La versión refactorizada debe usar los principios de FP e incluir
 tests exhaustivos.
 
-Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
+Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
+`composition`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 `testing`, `jest`.
 
-Tiempo estimado: _2 semanas_.
+Tiempo estimado: _3 semanas_.
 
-##### [09. Build Tools](#)
+##### [08. Build Tools](#)
 
 _Autor: ???_
 
@@ -275,8 +261,8 @@ comienza a crecer, la administración de dependencias, archivos, pruebas y tarea
 que hacemos se vuelve extensa, debido a ello comenzamos a usar herramientas que
 nos ayuden a llevar este proceso más sencillo y óptimo a la vez.
 
-* **Kickstarter**: El entregable de este curso será la réplica del flujo del sitio
-_[Kickstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
+* **Kickstarter clone**: El entregable de este curso será la réplica del flujo del sitio
+_[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
 en el cual debido a la cantidad de vistas y dependencias involucradas en este
 proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
 rápido y eficiente.
@@ -286,7 +272,7 @@ Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testi
 
 Tiempo estimado: _2 semanas_.
 
-##### [10. Front-End Frameworks](#)
+##### [09. Hackathon: Front-End Frameworks - Self-learning Experience](#)
 
 _Autor: ???_
 
@@ -295,35 +281,21 @@ sin embargo, hay soluciones que ya han sido probadas en el desarrollo de diverso
 proyectos que nos dan una estructura y flujo definido, de tal manera que implementarlo
 nos permite despreocuparnos de algunos detalles, a esto se conoce como Framework, y
 como todo en tecnología, no hay solo una alternativa, sino, una gama de diversas
-opciones que nos permiten llegar a la mejor solución.
+opciones que nos permiten llegar a la mejor solución. Como curso final del track de
+`Front End Development`, se verán 2 conceptos fundamentales: `Data Binding` y
+`Virtual DOM`, con esto durante una semana se llevará a cabo una hackathon en la
+cual el reto será desarrollar un producto (debajo se muestra un ejemplo de complejidad)
+usando alguna librería y/o framework moderno de JS.
 
-* **Slack**: El entregable de este curso será desarrollar una aplicación de mensajería
-como _[Slack](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
+* **Slack clone**: El entregable de este curso será desarrollar una aplicación de mensajería
+como _[Slack clone](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
 en la que se haga uso del  framewrok de preferencia y además combine todo lo visto a
 lo largo del bootcamp.
 
 Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 `virtual dom`.
 
-Tiempo estimado: _2 semanas_.
-
-##### [11. Advanced Data Structures](#)
-
-_Autor: ???_
-
-La ciencia de la computación consiste en el estudio de sistemas computacionales
-sobretodo relacionado con software, esto incluye su teoría, diseño, desarrollo y
-aplicación, dicho esto, en este curso se verán estructura de datos más avanzadas
-que las ya vistas (arreglo y objetos) con el objetivo de entender dónde se aplican
-y bajo que condiciones.
-
-* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
-que permita la navegación a través del historial de cambios.
-
-Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
-`graphs`, `binary-trees`.
-
-Tiempo estimado: _2 semanas_.
+Tiempo estimado: _1 semana_.
 
 #### UX Design
 
@@ -349,6 +321,39 @@ nuestro Bootcamp. Tiene una duración de 18 meses durante los cuales se les
 quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
+
+##### [09. Programming Paradigms](09-paradigms)
+
+_Autor: L. Montero_
+
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
+de pensar en cómo se organiza un programa basado en una serie de principios, los
+cuales resultan en estilos muy distintos y lenguages muy diversos.
+
+* **Extender video juego 2d**: En este curso formarás parte de un equipo
+responsable de extender la funcionalidad de un juego 2d. **Tu equipo tendrá que
+dividir tareas, trabajar en parejas y hacer code reviews**. Durante la primera
+semana tu equipo tendrá que extender el juego _heredando_ del prototipo de un
+constructor ya implementado, mientras que en la segunda semana tendrán que
+refactorizar el código de la primera semana usando el paradigma funcional.
+
+Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
+`composition`.
+
+##### [10. Functional JavaScript](10-functional)
+
+_Autor: L. Montero_
+
+En este curso te familiarizarás con los principios de la programación funcional,
+tan de moda en el mundo de JavaScript.
+
+* **Refactorizar video juego 2d**: como ejemplo de programación funcional
+tendrás que refactorizar el juego con el que se ha estado trabajando en el curso
+anterior. La versión refactorizada debe usar los principios de FP e incluir
+tests exhaustivos.
+
+Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
+`testing`, `jest`.
 
 #### [11. React](11-react)
 
@@ -482,11 +487,22 @@ _Autor: ???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### [24. Estructuras de datos](#)
+
+##### [24. Estructuras de datos](#)
 
 _Autor: ???_
 
-Tags: `cs`, `arrays`, `objects`, `stacks`, `sets`, `queues`, `graphs`, `trees`
+La ciencia de la computación consiste en el estudio de sistemas computacionales
+sobretodo relacionado con software, esto incluye su teoría, diseño, desarrollo y
+aplicación, dicho esto, en este curso se verán estructura de datos más avanzadas
+que las ya vistas (arreglo y objetos) con el objetivo de entender dónde se aplican
+y bajo que condiciones.
+
+* **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
+que permita la navegación a través del historial de cambios.
+
+Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
+`graphs`, `binary-trees`.
 
 #### ...
 
