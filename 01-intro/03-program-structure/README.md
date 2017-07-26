@@ -11,7 +11,7 @@
 ## Lesson Plan
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | clase presencial | 30min | [Opening](00-opening-program-structure.md)
+| 00 | self-learning | 30min | [Opening](00-opening-program-structure.md)
 | 01 | self-learning | 30min | [Control de Flujo](01-control-flow.md)
 | 02 | self-learning | 30min | [Funciones](02-functions.md)
 | 03 | self-learning | 10min | [Paradigma de programación estructurada](03-structured-programming-paradigm.md)
@@ -22,7 +22,8 @@
 | 08 | code | 180min | [Retos de código](08-code-challenges-program-structure.md)
 | 09 | workshop | 120min | [Solucionario retos de código](09-solutions-code-challenges-program-structure.md)
 | 10 | quiz | 45min | [Quiz 2](10-quiz-2-program-structure.md)
-| 11 | clase presencial | 30min | [Closing](11-closing-program-structure.md)
+| 11 | survey | 10min | [Auto-evaluación](11-self-assessment-program-structure.md)
+| 12 | clase presencial | 30min | [Closing](11-closing-program-structure.md)
 
 ## Evaluación
 - ...
