@@ -10,7 +10,7 @@ En este curso continuarás con el video juego que construimos en el curso
 anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
 funcionalidad como "high scores", ...
 
-***Tags***: `react`, componentes, `ui`, `stateless`, `HOCs`, `babel`, `webpack`, encapsulamiento, modularización, `jsx`
+***Tags***: `react`, componentes, `ui`, `stateless`, `HOCs`, `babel`, encapsulamiento, modularización, `jsx`
 
 ## Público objetivo
 
@@ -32,8 +32,8 @@ También debes haber completado el curso [10-funcional](#).
   - One-way data binding
   - Learn once, write anywhere
 * Componentes `stateless` (sin estado)
-* **ES2015**: Utiliza las últimas especificaciones y extensiones de javascript (es2015) de manera "universal", a través de la transpilación y el uso de polyfills. Herramientas: `yarn`, `webpack`, `babel`.
-* **JSX**: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces. Herramientas: `webpack`, `react`.
+* **ES2015**: Utiliza las últimas especificaciones y extensiones de javascript (es2015) de manera "universal", a través de la transpilación y el uso de polyfills. Herramientas: `yarn`, `FIXME: nodemon`, `babel`.
+* **JSX**: Un lenguaje que extiende a javascript, permitiendo la inclusión de estructuras declarativas para construir interfaces.
 * Definición de propiedades (`props`) para los componentes y sus tipos.
 * Manejo de `state` global
 * Componentes `statefull`:
@@ -71,7 +71,7 @@ Convertir video juego del curso [10-funcional](#) en una single app con las sigu
 * ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
 
 Y además deberá contar con los siguientes requermientos técnicos:
-- Estar desarrollada íntegramente en es6 y react, y empaquetada con webpack
+- Estar desarrollada íntegramente en es6 y react, y empaquetada de manera automatizada con `babel` o `webpack`
 - Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr, empaquetar y desplegar la aplicación respectivamente.
 - Haber administrado y documentado todo el proceso de creación de la aplicación en github.
 - Al día de la demo, la aplicación deberá estar publicada en una URL accesible universalmente.
@@ -109,25 +109,29 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 |   4   | qa     |   15min  | Re-cap
 
 
-### Lesson 2: [JSX, Babel y React](02-L02-jsx-babel/index.md)
+### Lesson 2: [JSX, Babel y Webpack](02-L02-jsx-babel-webpack/index.md)
 
-35min (self-paced)
+70min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
-En esta lección aprenderemos qué es JSX, qué beneficios introduce, por qué es una pieza fundamental de React y cómo se integra con `babel` y `webpack` (un transpilador y una herramienta de empaquetado, respectivamente). Además construiremos nuestros primeros componentes e instalaremos algunas herramientas que nos permitan debuggear nuestro código.
+En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué es una pieza fundamental de `React` y qué es y qué papel juega `babel` en todo esto. Además construiremos nuestros primeros componentes "de verdad" e instalaremos algunas herramientas que nos permitan debuggear y estructurar mejor nuestro código.
 
 #### Lesson plan
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |   10min  | JSX
-|   2   | texto  |   10min  | Webpack y Babel
-|   3   | code   |   10min  | Ejercicio: npm scripts de desarrollo
-|   4   | qa     |   10min  | Re-cap
+| Orden |      Tipo       | Duración | Descripción
+|-------|-----------------|----------|------------
+|   1   | lectura         |    5min  | Intro
+|   2   | lectura + code  |   10min  | JSX
+|   3   | lectura + code  |   10min  | Babel
+|   4   | lectura + code  |    5min  | JSX Externo
+|   5   | lectura + code  |   10min  | Precompile
+|   6   | lectura + code  |   15min  | Webpack
+|   7   | lectura + code  |   10min  | Modularización
+|   8   | lectura         |    5min  | Re-cap
 
 
-### Lesson 3: [Componentes (`stateless`) y `props`](03-L03-stateless/index.md)
+### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
 
 1h (self-paced)
 
