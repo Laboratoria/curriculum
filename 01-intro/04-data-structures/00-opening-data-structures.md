@@ -1,17 +1,17 @@
-# Introducción Program Structure (opening)
+# Introducción Data Structures (opening)
 - Formato: `lectura`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-- Cuáles son las estructuras básicas del control de flujo de un programa: `estructuras condicionales`,  `estructuras repetitivas` y `funciones`
-- A utilizar estos conceptos para resolver problemas más complejos y crear productos sencillos en la web
+- Dos estructuras de datos elementales de la programación en JavaScript: `arreglos` y `objetos`
+- A utilizar estos conceptos para resolver problemas aún más complejos y crear productos más elaborados en la web
 
 ## ¿Por qué aprender esto?
 
 A continuación una entrevista a [_"industry expert name"_] y [_"egresada de Laboratoria name"_], quienes nos cuentan sobre la importancia de este tema, respondiendo las siguientes preguntas:
-  - ¿Por qué es importante saber de `estructuras condicionales`, `estructuras repetitivas` y `funciones`?
+  - ¿Por qué es importante saber de `arreglos` y `objetos`?
   - ¿Cuándo vemos aplicaciones de estos conceptos en el mundo real?
   - ¿Esto es algo que deben saber solo programadores?
   - ¿Qué _tips_ tienes para alguien que recién empieza a aprender estos temas?
@@ -30,4 +30,4 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 ***
 
-[Continuar](01-control-flow.md)
+[Continuar](01-arrays.md)

@@ -15,7 +15,7 @@ disponible gracias a [hectorip](http://hectorip.github.io).
 
 ***
 
-## Por qué necesitamos `arrays`?
+## ¿Por qué necesitamos `arrays`?
 
 ## Creando `arrays`
 
