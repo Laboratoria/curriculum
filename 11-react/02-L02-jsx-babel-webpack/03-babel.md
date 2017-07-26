@@ -102,7 +102,18 @@ Veamos algunos ejemplos:
   var referenciaFija = "Este string no se puede modificar";
   ```
 
-> Si quieres saber más de [babel](http://babeljs.io/), visita su [documentación](https://babeljs.io/docs/setup/). Para conocer todos los *features* soportados, chequea la siguiente [lista de plugins](https://babeljs.io/docs/plugins/).
+### Presets
+
+Para agrupar los diferentes features que queremos que `babel` entienda, usamos los *presets*. Los presets nos permiten especificar que version de `ECMAScript` queremos utilizar.
+
+Aquí una pequeña lista de presets populares:
+- [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
+- [es2015](http://babeljs.io/docs/plugins/preset-2015/) (este usaremos nosotros)
+- [es2016](http://babeljs.io/docs/plugins/preset-2016/)
+- [es2017](http://babeljs.io/docs/plugins/preset-2017/)
+- [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
+
+> Si quieres saber más de [babel](http://babeljs.io/), visita su [documentación](https://babeljs.io/docs/setup/). Para conocer todos los *features* soportados, chequea las [lista de plugins y presets](https://babeljs.io/docs/plugins/).
 
 ## Usando `Babel` en nuestro ejemplo
 
