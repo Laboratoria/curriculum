@@ -296,9 +296,10 @@ Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 _Autor: ???_
 
 La ciencia de la computación consiste en el estudio de sistemas computacionales
-sobretodo relacionado con software, esto incluye su teoría, diseño desarrollo y
-aplicación, dicho esto, en este curso se verán temas como algoritmos, notación
-asintótica, estructura de datos, patrones de diseño aplicados al desarrollo web.
+sobretodo relacionado con software, esto incluye su teoría, diseño, desarrollo y
+aplicación, dicho esto, en este curso se verán estructura de datos más avanzadas
+que las ya vistas (arreglo y objetos) con el objetivo de entender dónde se aplican
+y bajo que condiciones.
 
 * **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
 que permita la navegación a través del historial de cambios.
