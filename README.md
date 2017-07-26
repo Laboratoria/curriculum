@@ -190,9 +190,10 @@ En este curso se verán temas de `network` para entender qué es lo que sucede
 por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
-* **AirBnB**: Construcción de un que permita registrar lugares de hospedaje a
-través de un API y que luego puedan ser consumidas en una aplicación cliente que
-haga el proceso de búsqueda y reserva.
+* **AIRDNA**: El entregable final de este curso es el desarrollo de un sitio como
+[AIRDNA](https://www.airdna.co/investment-explorer) que muestre datos estadísticos
+en base a ubicaciones integrando el API de Google Maps y personalizando tanto el
+mapa como marcadores.
 
 Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
 `geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
