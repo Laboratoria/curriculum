@@ -8,16 +8,6 @@
 
 ***
 
-## Reglas
-
-- Para completar esta sección puedes utilizar todo el material que tengas a tu
-disposición. Es decir, puedes regresar a las lecturas, revisar tus apuntes,
-inclusive puedes buscar en Google.
-- Lo que **NO** puedes hacer es tener asistencia de otra persona. Todos los
-cuestionarios y retos son de carácter **INDIVIDUAL**.
-
-***
-
 ## Retos
 
 1. Crea una función que imprima los números que son potencia de 3 menores a 10,000 (ej. 3, 9, 27, etc.)
