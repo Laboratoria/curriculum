@@ -266,7 +266,7 @@ nos ayuden a llevar este proceso más sencillo y óptimo a la vez.
 _[Kickstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
 en el cual debido a la cantidad de vistas y dependencias involucradas en este
 proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
-rápido y eficiente. 
+rápido y eficiente.
 
 Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`,
 `task-runner`.
@@ -275,6 +275,18 @@ Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testi
 ##### [10. Front-End Frameworks](#)
 
 _Autor: ???_
+
+El desarrollo de productos con JavaScript involucra muchos conceptos y mucho código,
+sin embargo, hay soluciones que ya han sido probadas en el desarrollo de diversos
+proyectos que nos dan una estructura y flujo definido, de tal manera que implementarlo
+nos permite despreocuparnos de algunos detalles, a esto se conoce como Framework, y
+como todo en tecnología, no hay solo una alternativa, sino, una gama de diversas
+opciones que nos permiten llegar a la mejor solución.
+
+* **Slack**: El entregable de este curso será desarrollar una aplicación de mensajería
+como _[Slack](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
+en la que se haga uso del  framewrok de preferencia y además combine todo lo visto a
+lo largo del bootcamp.
 
 Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 `virtual dom`.
