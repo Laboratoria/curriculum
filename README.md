@@ -140,6 +140,8 @@ Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `
 `eventos`, `git`, `unix shell`, `github-pages`, `ux`, `design-thinking`, `ux-discovery`,
 `ux-research`.
 
+Tiempo estimado: _4 semanas_.
+
 ##### [03. Web Development: Getting Deeper](#)
 
 _Autor: Iván Medina_
@@ -157,6 +159,8 @@ Tags: `algorithms`, `big-o`, `time complexity`, `searching`, `sorting`, `scrum`,
 esto consiste en desarrollar el UI haciendo uso de librerías y frameworks que hagan el flujo
 más cercano al campo laboral, además, contiene retos técnicos como conectarse a APIs y
 visualización de datos.
+
+Tiempo estimado: _4 semanas_.
 
 
 #### Front-End Development
@@ -182,6 +186,8 @@ se tendrá en cuenta el performance y manejo de memoria de la aplicación.
 Tags: `primitive-vs-reference`, `bitwise operators`, `function statement`, `function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
 `call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`, `compiler`, `performance`, `memory-management`.
 
+Tiempo estimado: _2 semanas_.
+
 ##### [05. Internet Deep Dive](#)
 
 _Autor: Iván Medina_
@@ -199,6 +205,8 @@ Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
 `geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
 `auth`, `xhr`, `microservices`, `broadcasting`, `progressive-web-apps`,
 `cloud computing`, `saas-pass-iaas`, `deployment`.
+
+Tiempo estimado: _3 semanas_.
 
 ##### [06. Back-End Integration](#)
 
@@ -218,6 +226,8 @@ implementación del Front End.
 Tags: `mv* backend architecture`, `monolithic`, `php`, `laravel`, `python`, `django`,
 `ruby`, `ruby-on-rails`, `nodejs`, `sails`, `elixir`, `phoenix`.
 
+Tiempo estimado: _3 semanas_.
+
 ##### [07. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
@@ -236,6 +246,8 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`.
 
+Tiempo estimado: _2 semanas_.
+
 ##### [08. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
@@ -251,6 +263,7 @@ tests exhaustivos.
 Tags: `fp`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
 `testing`, `jest`.
 
+Tiempo estimado: _2 semanas_.
 
 ##### [09. Build Tools](#)
 
@@ -271,6 +284,7 @@ rápido y eficiente.
 Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`,
 `task-runner`.
 
+Tiempo estimado: _2 semanas_.
 
 ##### [10. Front-End Frameworks](#)
 
@@ -291,6 +305,8 @@ lo largo del bootcamp.
 Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
 `virtual dom`.
 
+Tiempo estimado: _2 semanas_.
+
 ##### [11. Advanced Data Structures](#)
 
 _Autor: ???_
@@ -305,7 +321,9 @@ y bajo que condiciones.
 que permita la navegación a través del historial de cambios.
 
 Tags: `time complexity`, `big-o`, `searching`, `sorting`, `stacks`, `queues`,
-`graphs`, `binary-trees`, `solid`, `mvc`, `singleton`.
+`graphs`, `binary-trees`.
+
+Tiempo estimado: _2 semanas_.
 
 #### UX Design
 
