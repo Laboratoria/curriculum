@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "babel page.js --presets react --watch --out-dir=build"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
