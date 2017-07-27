@@ -17,7 +17,7 @@ Tomemonos un segundo para analizar qué hace y cómo está funcionando `babel`
   
 Si te pones a pensar, te darás cuenta que este proceso es poco eficiente, ya que cada vez que se carga la página, `babel` vuelve a transpilar el script, a pesar de que nada cambia entre dos cargas consecutivas de la página.
 
-En esta lectura vamos configurar nuestra aplicación para re-transpilar nuestro código sólo cuando haya un cambio y que nuestra página `html` sólo se encargue de importar un archivo con código es5
+En esta lectura vamos configurar nuestra aplicación para re-transpilar nuestro código sólo cuando haya un cambio y que nuestra página `html` sólo se encargue de importar el archivo generado por `babel`
 
 
 ## Setup
@@ -51,10 +51,10 @@ por
 
 5. Ejecuta `yarn start` y visita tu aplicación
 
-Ahora cada vez que tu realices un cambio en el código de page, debes ejecutar `yarn build` para que la última versión se vea reflejada en tun página.
+Ahora cada vez que tu realices un cambio en el código de page, debes ejecutar `yarn build` para que la última versión se vea reflejada en tu página.
 
 ## Ejercicio
 
-Investiga sobre el parámetro `--watch` de `babel` y úsalo para no tener que ejecutar `yarn build` cada vez que realizas un cambio y poder deshacernos de la dependencia `node-static`.
+Investiga sobre el parámetro `--watch` de `babel-cli` y úsalo para no tener que ejecutar `yarn build` cada vez que realizas un cambio y poder deshacernos de la dependencia `node-static`.
 
 > En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que nuestra experiencia de desarrollo sea mas disfrutable.

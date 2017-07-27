@@ -6,15 +6,15 @@
 Si miras hacia atrás verás las diferentes transformaciones que hemos ido aplicando a nuestro código. La anterior y las dos lecturas que siguen, ya no se enfocan en el código como tal, sino en la estructura de nuestra aplicación y el proceso de desarrollo.
 
 Si te pones a analizar, verás que tenemos una aplicación fragmentada:
-- por un lado tenemos un archivo `js` super moderno, transpilado y empaquetado con todo lo que necesita con `babel`
+- por un lado tenemos un archivo `js` super moderno, transpilado y empaquetado por `babel`, con todo lo que necesita
 - y por el otro tenemos nuestro `html` recontra vieja escuela, que se encarga de importar el estilo por un lado, el código empaquetado por el otro, las dependencias de react y además definir el `container` para los componentes de `React`.
 
 
 ## ¿Qué es `Webpack` y para qué sirve?
 
-`Webpack` es un empaquetador (`bundler`) de modulos y archivos (`assets`) para aplicaciones JavaScript modernas. Cuando `webpack` procesa tu aplicación crea un grafo de dependencias donde esta incluído cada modulo usado, así como todos los archivos estáticos referenciados, y crea un único archivo por tipo, con todo lo necesario para ejecutar tu aplicación.
+`Webpack` es un empaquetador (`bundler`) de modulos y archivos (`assets`) para aplicaciones JavaScript modernas. Cuando `webpack` procesa tu aplicación crea un grafo de dependencias donde esta incluído cada módulo usado, así como todos los archivos estáticos referenciados, y crea un único archivo por tipo, con todo lo necesario para ejecutar tu aplicación.
 
-![webpack]()
+![webpack](https://github.com/Laboratoria/curricula-js/raw/11-react-intro/11-react/02-L02-jsx-babel-webpack/static/images/webpack.jpg)
 
 De esta manera proporciona una sola vía para importar y transformar todos los recursos de nuestra aplicación, independientemente de si es código `js`, una hoja de estilos, `html`, web fonts, data o imagenes.
 
@@ -30,7 +30,7 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
   Los `loaders` nos permiten interpretar e incorporar diferentes tipos de archivos a nuestro *`bundle`*, como por ejemplo estilos en `css`, `sass` o `less`, imágenes de cualquier tipo (`jpg`, `png`, `svg`...), `html`, data en cualquier formato (`csv`, `json`, `yml`...) etc.
 
 - ## Plugins
-  Permiten extender la funcionalidad de `webpack` procesando el resultado del proceso de empaquetado en casi cualquier forma imaginable antes de generar el `output`.
+  Permiten extender la funcionalidad de `webpack` procesando el resultado del empaquetado en casi cualquier forma imaginable, antes de generar el `output`.
   
 > Al igual que `babel` y `es6`, `webpack` es una herramienta que va mucho más allá de `React`. Si quieres saber más de `webpack`, visita su [página oficial](https://webpack.js.org), que contiene toda la información necesaria para entender y dominar esta herramienta tan útil y versátil.
 
@@ -46,7 +46,7 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
   yarn add react react-dom
   ```
 
-2. Luego, instalamos `babel` y sus `presets` como dependencias de desarrollo.
+2. Luego, instalamos `babel` y sus `presets` como dependencias de desarrollo (sumadas a las que ya teníamos anteriormente)
   ```
   yarn add -D babel-core babel-preset-es2015 babel-preset-react-boilerplate
   ``` 
@@ -104,7 +104,8 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
   );
   */
   
-  // exportamos una propiedad con el nombre "defaultPageProps"
+  // exportamos las propiedades dinámicas por defecto de la página
+  // con el nombre "defaultPageProps"
   export const defaultPageProps = pageProps
   
   // exportamos por defecto el componente `Page`
@@ -241,5 +242,6 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
 
 ## Ejercicio
 
-Esto si que ha sido una travesía, lo has conseguido. Ahora chequea en tu navegador a través de los `devtools`, qué forma tiene tu `DOM`, como se han inyectado los estilos y cuál es al forma de tu `bundle`.
+Esto si que ha sido una travesía, lo has conseguido. Ahora chequea en tu navegador a través de los `devtools` (`ctrl + shift + i`), qué forma tiene tu `DOM`, como se han inyectado los estilos y cuál es al forma de tu `bundle`.
 
+> En la próxima y última lección veremos con organizar tu código de una manera más ordenada

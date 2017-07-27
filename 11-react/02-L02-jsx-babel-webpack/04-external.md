@@ -5,7 +5,9 @@
 
 Imagínate una aplicación realmente compleja, con cientos de componentes, hojas de estilos e imágenes. Así son las aplicaciones en el mundo real, con miles de líneas de código.
 
-La estrucutra de nuestra aplicación hasta ahora consta de un solo archivo `html`, que contiene todo nuestro código. Como te imaginarás, a medida que la complejidad de nuestra aplicación crece, tener todo nuestro código junto en un solo archivo, deja de ser una alternativa válida y mantenible.
+La estrucutra de nuestra aplicación hasta ahora consta de un solo archivo `html`, que contiene todo nuestro código. 
+
+Como te imaginarás, a medida que la complejidad de nuestra aplicación crece, tener todo nuestro código junto en un solo archivo, deja de ser una alternativa válida y mantenible.
 
 En esta lectura veremos cómo separar nuestro código `html` de nuestro código `javascript`.
 
@@ -16,7 +18,7 @@ Para poder referenciar archivos externos a procesar desde nuestra aplicación, y
 
 Para esto lo primero que vamos a hacer es convertir a nuestro proyecto en una aplicación de `node`.
 
-Para eso, desde el root de aplicación, ejecutar el siguiente comando:
+Para eso, desde el root de aplicación, ejecutamos el siguiente comando:
 ```
 yarn init
 ```
@@ -59,4 +61,4 @@ Ahora que ya tienes tu aplicación configurada, extrae todo el código de tu tag
 <script type="text/babel" src="page.js" ></script>
 ```
 
-En la próxima lectura vamos a ver cómo se utiliza `babel` en el "mundo real".
+> En la próxima lectura vamos a ver cómo se utiliza `babel` en el "mundo real".

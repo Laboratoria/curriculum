@@ -104,7 +104,7 @@ Veamos algunos ejemplos:
 
 ### Presets
 
-Para agrupar los diferentes features que queremos que `babel` entienda, usamos los *presets*. Los presets nos permiten especificar que version de `ECMAScript` queremos utilizar.
+Para agrupar los diferentes features que queremos que `babel` entienda, usamos los *presets*. Los presets nos permiten especificar qué versión de `ECMAScript` queremos utilizar.
 
 Aquí una pequeña lista de presets populares:
 - [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
@@ -117,9 +117,9 @@ Aquí una pequeña lista de presets populares:
 
 ## Usando `Babel` en nuestro ejemplo
 
-Ya tienes todos tus componentes declarados en `JSX`, ahora veremos algunas características de ES6 que nos serán bien útiles en `React`.
+Ya tienes todos tus componentes declarados en `JSX`, ahora veremos algunas características de `ES6` que nos serán bien útiles en `React`.
 
-La primera herramienta que usaremos, son las funciones flecha (*arrow functions*), esta sintaxis nos permite escribir nuestras funciones de una manera mas concisa.
+La primera herramienta que usaremos, son las funciones flecha (*arrow functions*), esta mejora sintáctica nos permite escribir nuestras funciones de una manera mas concisa.
 
 Entonces, por ejemplo, la siguiente función:
 ```javascript
@@ -187,10 +187,10 @@ const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion'}
 <Header {...headerProps} />
 
 // Esta última opción es particularmente útil cuando no sabemos a priori
-// que estructura tiene `headerProps`
+// qué estructura tiene `headerProps`
 ```
 
-Ten en cuenta que **ambas expresiones** son **equivalentes**.
+> Ten en cuenta que **ambas expresiones** son **equivalentes**.
 
 ## Ejercicio
 

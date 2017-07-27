@@ -2,7 +2,7 @@
 
 ## ¿Qué es y para qué sirve?
 
-`JSX` es una extensión al lenguage JavaScript, para agregar estructuras sintácticas que nos permitan trabajar mas facilmente y de una manera más natural con el código de `React`.
+`JSX` es una extensión al lenguage JavaScript, que agrega estructuras sintácticas que nos permiten trabajar mas facilmente y de una manera más natural con el código de `React`.
 
 Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural como escribir `HTML`.
 
@@ -59,14 +59,14 @@ Muchos mas elegante, ¿verdad?
 
 ## Migrando a `JSX`
 
-Nuestro primer paso será configurar nuestra página, para que comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para que babel entienda que es su menester procesarlo.
+Nuestro primer paso será configurar nuestra página, para que comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para que `babel` entienda que es su responsabilidad procesarlo.
 
 Entoces, necesitamos agregar la siguiente dependencia
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
 ```
 
-Y anotar nuestro type `script`, como tipo `babel`
+Y anotar nuestro tag `script`, como type `text/babel`
 ```html
 <script type="text/babel">
   // aqui el codigo de tus componentes
@@ -116,7 +116,7 @@ const children = props.articles.map(function(a) {
 })
 ```
 
-> Para entender más a detalle las posibilidades de `JSX` por favor tómate 5 minutos para revisar la [documentación de `React`](https://facebook.github.io/react/docs/introducing-jsx.html) sobre el tema.
+> Para entender más a detalle las posibilidades de `JSX`, tómate 5 minutos para revisar la [documentación de `React`](https://facebook.github.io/react/docs/introducing-jsx.html) sobre el tema.
 
 ## Ejercicio
 

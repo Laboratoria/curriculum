@@ -15,7 +15,6 @@ Analicemos un segundo la estructura de nuestra aplicación:
 └── yarn.lock
 ```
 
-
 ¿No hay algo que te hace ruido? ¿No te parece algo desordenado que los archivos de configuración y el código fuente, estén todos revueltos?
 
 ## Ejercicio
