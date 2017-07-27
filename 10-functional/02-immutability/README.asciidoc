@@ -1,5 +1,10 @@
 = Inmutabilidad
-:source-highlighter: highlightjs
+:toc:
+:numbered:
+:source-highlighter: coderay
+:coderay-linenums-mode: inline
+:stem:
+:icons: font
 
 == Introducción
 
@@ -23,7 +28,7 @@ Ten en cuenta que pocos tipos de datos en JavaScript son inmutables por omisión
 Las cadenas de caracteres o _strings_ son un ejemplo de un tipo de datos que no
 puede ser cambiado.
 
-[source,javascript]
+[source,javascript,linenums]
 .strings.test.js
 ----
 include::strings.test.js[]

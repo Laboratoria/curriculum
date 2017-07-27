@@ -1,5 +1,10 @@
 = Funciones puras
-:source-highlighter: highlightjs
+:toc:
+:numbered:
+:source-highlighter: coderay
+:coderay-linenums-mode: inline
+:stem:
+:icons: font
 
 == Introducción
 
@@ -45,7 +50,7 @@ siglas en inglés).
 Comencemos desarrollando nuestros casos de pruebas:
 
 [[lowercaser-test-listing]]
-[source,js]
+[source,javascript,linenums]
 .lowercaser.test.js
 ----
 include::lowercaser.test.js[]
@@ -75,7 +80,7 @@ $ yarn run jest -- fichero.test.js
 Ahora, pasemos a implementar lo especificado en nuestros casos de pruebas:
 
 [[lowercaser-listing]]
-[source,js]
+[source,javascript,linenums]
 .lowercaser.js
 ----
 include::lowercaser.js[]
@@ -190,7 +195,7 @@ Supongamos que deseamos crear una función que concatene dos _arrays_ que pueden
 contener elementos anidados, tratemos de emular el siguiente comportamiento:
 
 [[concat-test-listing]]
-[source,js]
+[source,javascript,linenums]
 .concat.test.js
 ----
 include::concat.test.js[lines=1..9]
@@ -199,7 +204,7 @@ include::concat.test.js[lines=1..9]
 Una implementación inicial puede ser la siguiente:
 
 [[concat-listing]]
-[source,js]
+[source,javascript,linenums]
 .concat.js
 ----
 include::concat.js[]
@@ -221,7 +226,7 @@ agreguemos un caso de prueba para comprobar que no estamos alterando el contexto
 externo:
 
 [[concat-complete-test-listing]]
-[source,js]
+[source,javascript,linenums]
 .concat.test.js
 ----
 include::concat.test.js[]
@@ -259,7 +264,7 @@ disgustados.
 Veamos ahora como podemos corregir esta situación:
 
 [[concat-fix-listing]]
-[source,js]
+[source,javascript,linenums]
 .concat.js
 ----
 include::concat1.js[]
@@ -278,7 +283,7 @@ include::concat12.output[]
 código:
 
 [[array-prototype-concat]]
-[source,javascript]]
+[source,javascript,linenums]
 .concat.js
 ----
 include::concat2.js[]

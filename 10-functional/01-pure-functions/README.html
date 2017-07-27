@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5">
+<meta name="generator" content="Asciidoctor 1.5.6.1">
 <title>Funciones puras</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -89,13 +89,12 @@ strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
 ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.no-bullet{list-style:none}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -131,7 +130,11 @@ strong strong{font-weight:400}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
-.menuseq,.menu{color:rgba(0,0,0,.8)}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
 b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
 b.button:before{content:"[";padding:0 3px 0 2px}
 b.button:after{content:"]";padding:0 2px 0 3px}
@@ -198,7 +201,7 @@ table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
 table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon img{max-width:initial}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
@@ -254,13 +257,13 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
-table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
-table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
-table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
-table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
-table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
-table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px 0}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
 table.frame-all{border-width:1px}
 table.frame-sides{border-width:0 1px}
 table.frame-topbot{border-width:1px 0}
@@ -281,10 +284,12 @@ ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
 ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
-ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
 ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
 ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
 ul.inline>li>*{display:block}
@@ -301,7 +306,8 @@ ol.lowergreek{list-style-type:lower-greek}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:first-of-type{padding:.4em .75em 0 .75em;line-height:1;vertical-align:top}
+.colist>table tr>td:first-of-type img{max-width:initial}
 .colist>table tr>td:last-of-type{padding:.25em 0}
 .thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
 .imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
@@ -364,6 +370,7 @@ div.unbreakable{page-break-inside:avoid}
 .yellow{color:#bfbf00}
 .yellow-background{background-color:#fafa00}
 span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
 .admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
 .admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
@@ -417,14 +424,117 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}
+</style>
 </head>
 <body class="article">
 <div id="header">
 <h1>Funciones puras</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_introducción">1. Introducción</a></li>
+<li><a href="#_dada_la_misma_entrada_devuelve_siempre_la_misma_salida">2. Dada la misma entrada, devuelve siempre la misma salida</a></li>
+<li><a href="#_efectos_colaterales">3. Efectos colaterales</a></li>
+<li><a href="#_beneficios">4. Beneficios</a></li>
+<li><a href="#_resumen">5. Resumen</a></li>
+<li><a href="#_referencias">6. Referencias</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_introducción">Introducción</h2>
+<h2 id="_introducción">1. Introducción</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Las funciones puras tienen aplicaciones en muchos ámbitos, entre ellos la
@@ -484,18 +594,18 @@ siglas en inglés).</p>
 <div id="lowercaser-test-listing" class="listingblock">
 <div class="title">lowercaser.test.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const lowerCaser = require('./lowercaser')
-
-test('Should take an input string and returns it lowercased', () =&gt; {
-  expect(lowerCaser('LOREM IPSUM')).toBe('lorem ipsum')
-})</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers">1</span>const lowerCaser = require(<span class="string"><span class="delimiter">'</span><span class="content">./lowercaser</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">2</span>
+<span class="line-numbers">3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should take an input string and returns it lowercased</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers">4</span>  expect(lowerCaser(<span class="string"><span class="delimiter">'</span><span class="content">LOREM IPSUM</span><span class="delimiter">'</span></span>)).toBe(<span class="string"><span class="delimiter">'</span><span class="content">lorem ipsum</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">5</span>})</code></pre>
 </div>
 </div>
 <div class="admonitionblock note">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
 <div class="title">Nota</div>
@@ -506,7 +616,7 @@ por medio de <code>npm</code> al ejecutar el siguiente comando:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ npm install --save-dev jest</code></pre>
+<pre class="CodeRay highlight"><code data-lang="console">$ npm install --save-dev jest</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -514,7 +624,7 @@ por medio de <code>npm</code> al ejecutar el siguiente comando:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn add --dev jest</code></pre>
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn add --dev jest</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -522,7 +632,7 @@ por medio de <code>npm</code> al ejecutar el siguiente comando:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- fichero.test.js</code></pre>
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- fichero.test.js</code></pre>
 </div>
 </div>
 </td>
@@ -535,9 +645,9 @@ por medio de <code>npm</code> al ejecutar el siguiente comando:</p>
 <div id="lowercaser-listing" class="listingblock">
 <div class="title">lowercaser.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const lowerCaser = input =&gt; input.toString().toLowerCase()
-
-module.exports = lowerCaser</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers">1</span>const lowerCaser = input =&gt; input.toString().toLowerCase()
+<span class="line-numbers">2</span>
+<span class="line-numbers">3</span>module.exports = lowerCaser</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -546,7 +656,7 @@ por medio de la ejecución de las pruebas:</p>
 </div>
 <div id="lowercaser-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- lowercaser.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- lowercaser.test.js
 
 PASS  ./lowercaser.test.js
    ✓ Should take an input string and returns it lowercased (15ms)
@@ -555,7 +665,7 @@ PASS  ./lowercaser.test.js
    Tests:       1 passed, 1 total
    Snapshots:   0 total
    Time:        0.859s, estimated 1s
-   Ran all test suites matching "lowercaser.test.js".</code></pre>
+   Ran all test suites matching &quot;lowercaser.test.js&quot;.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -564,7 +674,7 @@ PASS  ./lowercaser.test.js
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dada_la_misma_entrada_devuelve_siempre_la_misma_salida">Dada la misma entrada, devuelve siempre la misma salida</h2>
+<h2 id="_dada_la_misma_entrada_devuelve_siempre_la_misma_salida">2. Dada la misma entrada, devuelve siempre la misma salida</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Con nuestra función <code>lowerCaser()</code>, puede reemplazar la llamada de la función
@@ -579,9 +689,9 @@ resultados. Considere este ejemplo:</p>
 </div>
 <div id="math-random-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">Math.random() // =&gt; 0.4011148700956255
-Math.random() // =&gt; 0.8533405303023756
-Math.random() // =&gt; 0.3550692005082965</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript">Math.random() <span class="comment">// =&gt; 0.4011148700956255</span>
+Math.random() <span class="comment">// =&gt; 0.8533405303023756</span>
+Math.random() <span class="comment">// =&gt; 0.3550692005082965</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -603,8 +713,8 @@ simplemente copia este código:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const time = () =&gt; new Date().toLocaleTimeString()
-time() // =&gt; "5:15:45 PM"</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript">const time = () =&gt; <span class="keyword">new</span> Date().toLocaleTimeString()
+time() <span class="comment">// =&gt; &quot;5:15:45 PM&quot;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -626,7 +736,7 @@ siguiente función es pura:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const highpass = (cutoff, value) =&gt; value &gt;= cutoff;</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript">const highpass = (cutoff, value) =&gt; value &gt;= cutoff;</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -634,9 +744,9 @@ siguiente función es pura:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">highpass(5, 5) // =&gt; true
-highpass(5, 5) // =&gt; true
-highpass(5, 5) // =&gt; true</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript">highpass(<span class="integer">5</span>, <span class="integer">5</span>) <span class="comment">// =&gt; true</span>
+highpass(<span class="integer">5</span>, <span class="integer">5</span>) <span class="comment">// =&gt; true</span>
+highpass(<span class="integer">5</span>, <span class="integer">5</span>) <span class="comment">// =&gt; true</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -644,18 +754,18 @@ highpass(5, 5) // =&gt; true</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">highpass(5, 123) // true
-highpass(5, 6)   // true
-highpass(5, 18)  // true
-highpass(5, 1)   // false
-highpass(5, 3)   // false
-highpass(5, 4)   // false</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript">highpass(<span class="integer">5</span>, <span class="integer">123</span>) <span class="comment">// true</span>
+highpass(<span class="integer">5</span>, <span class="integer">6</span>)   <span class="comment">// true</span>
+highpass(<span class="integer">5</span>, <span class="integer">18</span>)  <span class="comment">// true</span>
+highpass(<span class="integer">5</span>, <span class="integer">1</span>)   <span class="comment">// false</span>
+highpass(<span class="integer">5</span>, <span class="integer">3</span>)   <span class="comment">// false</span>
+highpass(<span class="integer">5</span>, <span class="integer">4</span>)   <span class="comment">// false</span></code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_efectos_colaterales">Efectos colaterales</h2>
+<h2 id="_efectos_colaterales">3. Efectos colaterales</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>En este punto cabe aclarar que las funciones puras no producen <strong>efectos
@@ -679,15 +789,15 @@ contener elementos anidados, tratemos de emular el siguiente comportamiento:</p>
 <div id="concat-test-listing" class="listingblock">
 <div class="title">concat.test.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const concat = require('./concat')
-
-test('should concatenate the array on the right with the array on the left', () =&gt; {
-  const left = [1, [2], 3]
-  const right = [[4], 5, [6, 7], 8]
-  const expected = [1, [2], 3, [4], 5, [6, 7], 8]
-
-  expect(concat(left, right)).toEqual(expected)
-})</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const concat = require(<span class="string"><span class="delimiter">'</span><span class="content">./concat</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">should concatenate the array on the right with the array on the left</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 4</span>  const left = [<span class="integer">1</span>, [<span class="integer">2</span>], <span class="integer">3</span>]
+<span class="line-numbers"> 5</span>  const right = [[<span class="integer">4</span>], <span class="integer">5</span>, [<span class="integer">6</span>, <span class="integer">7</span>], <span class="integer">8</span>]
+<span class="line-numbers"> 6</span>  const expected = [<span class="integer">1</span>, [<span class="integer">2</span>], <span class="integer">3</span>, [<span class="integer">4</span>], <span class="integer">5</span>, [<span class="integer">6</span>, <span class="integer">7</span>], <span class="integer">8</span>]
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  expect(concat(left, right)).toEqual(expected)
+<span class="line-numbers"> 9</span>})</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -696,24 +806,24 @@ test('should concatenate the array on the right with the array on the left', () 
 <div id="concat-listing" class="listingblock">
 <div class="title">concat.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const concat = (left, right) =&gt; {
-  const result = left
-
-  right.map(item =&gt; {
-    result.push(item)
-  })
-
-  return result
-}
-
-module.exports = concat</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const concat = (left, right) =&gt; {
+<span class="line-numbers"> 2</span>  const result = left
+<span class="line-numbers"> 3</span>
+<span class="line-numbers"> 4</span>  right.map(item =&gt; {
+<span class="line-numbers"> 5</span>    result.push(item)
+<span class="line-numbers"> 6</span>  })
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  <span class="keyword">return</span> result
+<span class="line-numbers"> 9</span>}
+<span class="line-numbers">10</span>
+<span class="line-numbers">11</span>module.exports = concat</code></pre>
 </div>
 </div>
 <div class="admonitionblock note">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
 Ten en cuenta que esta implementación es a modo de ejemplo, en realidad
@@ -728,7 +838,7 @@ directamente.
 </div>
 <div id="concat-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- concat.test.js
 
  PASS  ./concat.test.js
    ✓ should concatenate the array on the right with the array on the left (3ms)
@@ -737,7 +847,7 @@ directamente.
    Tests:       1 passed, 1 total
    Snapshots:   0 total
    Time:        0.67s, estimated 1s
-   Ran all test suites matching "concat.test.js".</code></pre>
+   Ran all test suites matching &quot;concat.test.js&quot;.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -748,25 +858,25 @@ externo:</p>
 <div id="concat-complete-test-listing" class="listingblock">
 <div class="title">concat.test.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const concat = require('./concat')
-
-test('should concatenate the array on the right with the array on the left', () =&gt; {
-  const left = [1, [2], 3]
-  const right = [[4], 5, [6, 7], 8]
-  const expected = [1, [2], 3, [4], 5, [6, 7], 8]
-
-  expect(concat(left, right)).toEqual(expected)
-})
-
-test('should not mutate external context', () =&gt; {
-  const left = [1, [2], 3]
-  const right = [[4], 5, [6, 7], 8]
-  const backup = Object.assign([], left)
-
-  concat(left, right)
-
-  expect(left).toEqual(backup)
-})</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const concat = require(<span class="string"><span class="delimiter">'</span><span class="content">./concat</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">should concatenate the array on the right with the array on the left</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 4</span>  const left = [<span class="integer">1</span>, [<span class="integer">2</span>], <span class="integer">3</span>]
+<span class="line-numbers"> 5</span>  const right = [[<span class="integer">4</span>], <span class="integer">5</span>, [<span class="integer">6</span>, <span class="integer">7</span>], <span class="integer">8</span>]
+<span class="line-numbers"> 6</span>  const expected = [<span class="integer">1</span>, [<span class="integer">2</span>], <span class="integer">3</span>, [<span class="integer">4</span>], <span class="integer">5</span>, [<span class="integer">6</span>, <span class="integer">7</span>], <span class="integer">8</span>]
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  expect(concat(left, right)).toEqual(expected)
+<span class="line-numbers"> 9</span>})
+<span class="line-numbers">10</span>
+<span class="line-numbers">11</span>test(<span class="string"><span class="delimiter">'</span><span class="content">should not mutate external context</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers">12</span>  const left = [<span class="integer">1</span>, [<span class="integer">2</span>], <span class="integer">3</span>]
+<span class="line-numbers">13</span>  const right = [[<span class="integer">4</span>], <span class="integer">5</span>, [<span class="integer">6</span>, <span class="integer">7</span>], <span class="integer">8</span>]
+<span class="line-numbers">14</span>  const backup = Object.assign([], left)
+<span class="line-numbers">15</span>
+<span class="line-numbers">16</span>  concat(left, right)
+<span class="line-numbers">17</span>
+<span class="line-numbers">18</span>  expect(left).toEqual(backup)
+<span class="line-numbers">19</span>})</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -774,7 +884,7 @@ test('should not mutate external context', () =&gt; {
 </div>
 <div id="concat-bad-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- concat.test.js
  FAIL  ./concat.test.js
   ● should not mutate external context
 
@@ -794,7 +904,7 @@ Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
 Time:        1.011s
-Ran all test suites matching "concat.test.js".</code></pre>
+Ran all test suites matching &quot;concat.test.js&quot;.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -826,17 +936,17 @@ disgustados.</p>
 <div id="concat-fix-listing" class="listingblock">
 <div class="title">concat.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-js" data-lang="js">const concat = (left, right) =&gt; {
-  const result = Object.assign([], left)
-
-  right.map(item =&gt; {
-    result.push(item)
-  })
-
-  return result
-}
-
-module.exports = concat</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const concat = (left, right) =&gt; {
+<span class="line-numbers"> 2</span>  const result = Object.assign([], left)
+<span class="line-numbers"> 3</span>
+<span class="line-numbers"> 4</span>  right.map(item =&gt; {
+<span class="line-numbers"> 5</span>    result.push(item)
+<span class="line-numbers"> 6</span>  })
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  <span class="keyword">return</span> result
+<span class="line-numbers"> 9</span>}
+<span class="line-numbers">10</span>
+<span class="line-numbers">11</span>module.exports = concat</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -844,7 +954,7 @@ module.exports = concat</code></pre>
 </div>
 <div id="concat-good-output-listing" class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- concat.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- concat.test.js
  PASS  ./concat.test.js
   ✓ should concatenate the array on the right with the array on the left (5ms)
   ✓ should not mutate external context (1ms)
@@ -853,7 +963,7 @@ Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
 Time:        0.977s
-Ran all test suites matching "concat.test.js".</code></pre>
+Ran all test suites matching &quot;concat.test.js&quot;.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -864,11 +974,11 @@ código:</p>
 <div id="array-prototype-concat" class="listingblock">
 <div class="title">concat.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript]" data-lang="javascript]">const concat = (left, right) =&gt; {
-  return left.concat(right)
-}
-
-module.exports = concat</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers">1</span>const concat = (left, right) =&gt; {
+<span class="line-numbers">2</span>  <span class="keyword">return</span> left.concat(right)
+<span class="line-numbers">3</span>}
+<span class="line-numbers">4</span>
+<span class="line-numbers">5</span>module.exports = concat</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -878,7 +988,7 @@ condiciones.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_beneficios">Beneficios</h2>
+<h2 id="_beneficios">4. Beneficios</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Una vez analizadas las funciones puras podemos mencionar los siguientes
@@ -887,36 +997,36 @@ beneficios:</p>
 <div class="ulist checklist">
 <ul class="checklist">
 <li>
-<p>&#10003; Toman ciertos argumentos como entrada y generan un valor de retorno que
+<p><i class="fa fa-check-square-o"></i> Toman ciertos argumentos como entrada y generan un valor de retorno que
 exclusivamente depende de los argumentos dados.</p>
 </li>
 <li>
-<p>&#10003; Representan bloques de código reusable dentro de un programa.</p>
+<p><i class="fa fa-check-square-o"></i> Representan bloques de código reusable dentro de un programa.</p>
 </li>
 <li>
-<p>&#10003; Promueven buenas prácticas de desarrollo como <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> (<em>Don&#8217;t Repeat Yourself</em>)
+<p><i class="fa fa-check-square-o"></i> Promueven buenas prácticas de desarrollo como <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> (<em>Don&#8217;t Repeat Yourself</em>)
 y <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> (<em>Keep It Simple, Stupid</em>).</p>
 </li>
 <li>
-<p>&#10003; Al no depender del contexto externo, son inmunes a toda clase de errores o
+<p><i class="fa fa-check-square-o"></i> Al no depender del contexto externo, son inmunes a toda clase de errores o
 <em>bugs</em> que tienen que ver con el estado mutable compartido.</p>
 </li>
 <li>
-<p>&#10003; Su naturaleza independiente las hace excelentes candidatos para
+<p><i class="fa fa-check-square-o"></i> Su naturaleza independiente las hace excelentes candidatos para
 procesamiento concurrente a lo largo de muchos CPUs e incluso para la
 computación distribuida, lo cual las hace esenciales para la ejecución de tareas
 de cálculo científico y de uso intensivo de recursos.</p>
 </li>
 <li>
-<p>&#10003; Su aislamiento facilita la refactorización y reorganización del código,
+<p><i class="fa fa-check-square-o"></i> Su aislamiento facilita la refactorización y reorganización del código,
 haciendo tú código más adaptable y flexible a futuros cambios.</p>
 </li>
 <li>
-<p>&#10003; Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
+<p><i class="fa fa-check-square-o"></i> Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
 puras.</p>
 </li>
 <li>
-<p>&#10003; Las funciones puras representan la base de la programación funcional.</p>
+<p><i class="fa fa-check-square-o"></i> Las funciones puras representan la base de la programación funcional.</p>
 </li>
 </ul>
 </div>
@@ -929,7 +1039,7 @@ sobre otras opciones.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_resumen">Resumen</h2>
+<h2 id="_resumen">5. Resumen</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>En la programación funcional, las programadoras tienden a evitar dos hábitos
@@ -962,7 +1072,7 @@ lo veremos en una siguiente lección.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_referencias">Referencias</h2>
+<h2 id="_referencias">6. Referencias</h2>
 <div class="sectionbody">
 <div class="ulist bibliography">
 <ul class="bibliography">
@@ -985,11 +1095,24 @@ lo veremos en una siguiente lección.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-07-19 17:39:24 CDT
+Last updated 2017-07-26 23:28:44 CDT
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.0/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>
