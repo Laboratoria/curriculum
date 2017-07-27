@@ -55,6 +55,6 @@ Ahora cada vez que tu realices un cambio en el código de page, debes ejecutar `
 
 ## Ejercicio
 
-Investiga sobre el parámetro `--watch` de `babel` y úsalo para no tener que ejecutar `yarn build` y poder deshacernos de la dependencia `node-static`
+Investiga sobre el parámetro `--watch` de `babel` y úsalo para no tener que ejecutar `yarn build` cada vez que realizas un cambio y poder deshacernos de la dependencia `node-static`.
 
-En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que nuestra experiencia de desarrollo sea mas disfrutable.
+> En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que nuestra experiencia de desarrollo sea mas disfrutable.

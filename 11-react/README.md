@@ -226,7 +226,7 @@ Durante esta sesión realizaremos nuestra primera revisión del código. Identif
 
 Repensaremos los problemas pendientes y pasados con los nuevos conceptos que hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una aplicación verdaderamente profesional.
 
-### Lesson 6: [run, build y deploy scripts](08-L06-build-tools/index.md)
+### Lesson 6: [build y deploy scripts](08-L06-build-tools/index.md)
 
 30min (self-paced)
 
