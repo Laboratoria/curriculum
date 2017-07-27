@@ -19,15 +19,17 @@ función sobre sí misma. Pero, ¿Qué significa esto realmente?
 La recursividad es uno de los conceptos de programación más simples pero
 difíciles de entender. Una vez que empieces a trabajar con ella y tratar de
 entender realmente cómo funciona, tal vez te sientas mareada y confundida, por
-eso trataremos de explicarlo de forma sencilla. Ayudará mucho si ya entiendes
-los conceptos de función y estructuras de control.
+eso trataremos de explicarlo de forma sencilla.
 
 A lo largo de esta lección veremos que la recursión es importante para la
 programación funcional por las siguientes razones:
 
 * Las soluciones recursivas envuelven el uso de abstracciones simples aplicadas
 a subconjuntos de un problema común.
-* La recursión puede ocultar la mutación del estado.
+* La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
+la mutación de estado en las lecciones de
+link:../01-pure-functions/README.html[Funciones puras] e
+link:../02-immutability/README.html[Inmutabilidad].
 * La recursión es una manera de implementar _lazyness_ y estructuras muy largas
 o infinitas.
 
@@ -35,9 +37,8 @@ o infinitas.
 
 Este es el ejemplo clásico para entender la recursividad: **factoriales.**
 
-Si te acuerdas de la clase de matemáticas, cuando se calcula el factorial de un
-número `n` es igual a `n` multiplicado por el stem:[fact\o\rial(n - 1)] para cada
-entero positivo.
+Cuando se calcula el factorial de un número `n` es igual a `n` multiplicado por
+el stem:[fact\o\rial(n - 1)] para cada entero positivo.
 
 [stem]
 .n!
@@ -90,8 +91,7 @@ include::factorial.output[]
 
 === Tarea
 
-Intenta utilizar la misma función `factorial()` pero en este caso para el
-entero 10.
+Utiliza la misma función `factorial()` pero en este caso para el entero 10.
 
 == Caso base, caso recursivo
 
@@ -108,18 +108,18 @@ realmente sucede: es donde la función recursiva se llama a sí misma.
 
 Vamos a explorar ambos casos con más detalle.
 
-Mira bien el código del ejemplo a continuación, ¿crees que tiene lógica?, ¿no?
-No importa que no lo comprendas del todo por ahora, iremos explicando sección
-por sección.
-
-Como ejercicio puedes llamar la función `factorial()` usando cualquier número
-entero positivo.
+Mira bien el código del ejemplo a continuación:
 
 [source,javascript,linenums]
 .factorial.js
 ----
 include::factorial.verbose.js[]
 ----
+
+¿crees que tiene lógica?
+
+Como ejercicio puedes llamar la función `factorial()` usando cualquier número
+entero positivo.
 
 == Condición de terminación
 
@@ -207,7 +207,7 @@ const factorial = n => {
   if (n === 0) {
     return 1
   }
-  
+
   return n * factorial(n) // <1>
 }
 
@@ -300,7 +300,7 @@ console.log("Bye") // <4>
 navegador), esta función toma el control, hace su trabajo, devuelve el control
 a la línea 2.
 <3> Entonces llega al final de la función `greet`, así que el control se vuelve
-al lugar de la llamada, en la línea 4. 
+al lugar de la llamada, en la línea 4.
 <4> La línea siguiente llama a `console.log` de nuevo (línea 5).
 
 Veamos otra representación de lo mencionado previamente, mostraremos un esquema
@@ -443,7 +443,7 @@ mejoras significativas en el rendimiento.
 Si tú código fuese a producción con este implementación, se utilizarían otras
 técnicas como http://benalman.com/news/2010/11/immediately-invoked-function-expression/[IIFEs]
 entre otras para encapsular y prevenir la creación de un nuevo _closure_ cada
-vez que llamamos a `factorial`.  
+vez que llamamos a `factorial`.
 ====
 
 Si probamos la función `factorial` haciendo uso de _tail-call optimisation_ con
