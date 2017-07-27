@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5">
+<meta name="generator" content="Asciidoctor 1.5.6.1">
 <title>Recursividad en JavaScript</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -89,13 +89,12 @@ strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
 ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.no-bullet{list-style:none}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -131,7 +130,11 @@ strong strong{font-weight:400}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
-.menuseq,.menu{color:rgba(0,0,0,.8)}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
 b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
 b.button:before{content:"[";padding:0 3px 0 2px}
 b.button:after{content:"]";padding:0 2px 0 3px}
@@ -198,7 +201,7 @@ table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
 table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon img{max-width:initial}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
@@ -254,13 +257,13 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
-table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
-table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
-table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
-table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
-table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
-table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px 0}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
 table.frame-all{border-width:1px}
 table.frame-sides{border-width:0 1px}
 table.frame-topbot{border-width:1px 0}
@@ -281,10 +284,12 @@ ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
 ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
-ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
 ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
 ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
 ul.inline>li>*{display:block}
@@ -301,7 +306,8 @@ ol.lowergreek{list-style-type:lower-greek}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:first-of-type{padding:.4em .75em 0 .75em;line-height:1;vertical-align:top}
+.colist>table tr>td:first-of-type img{max-width:initial}
 .colist>table tr>td:last-of-type{padding:.25em 0}
 .thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
 .imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
@@ -364,6 +370,7 @@ div.unbreakable{page-break-inside:avoid}
 .yellow{color:#bfbf00}
 .yellow-background{background-color:#fafa00}
 span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
 .admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
 .admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
@@ -417,14 +424,143 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}
+</style>
 </head>
 <body class="article">
 <div id="header">
 <h1>Recursividad en JavaScript</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_introducción">1. Introducción</a></li>
+<li><a href="#_factorial">2. Factorial</a>
+<ul class="sectlevel2">
+<li><a href="#_tarea">2.1. Tarea</a></li>
+</ul>
+</li>
+<li><a href="#_caso_base_caso_recursivo">3. Caso base, caso recursivo</a></li>
+<li><a href="#_condición_de_terminación">4. Condición de terminación</a>
+<ul class="sectlevel2">
+<li><a href="#_tarea_2">4.1. Tarea</a></li>
+</ul>
+</li>
+<li><a href="#_argumentos_en_la_recursión">5. Argumentos en la recursión</a>
+<ul class="sectlevel2">
+<li><a href="#_tarea_3">5.1. Tarea</a></li>
+</ul>
+</li>
+<li><a href="#_ahora_es_tu_turno">6. Ahora es tu turno</a>
+<ul class="sectlevel2">
+<li><a href="#_plantilla">6.1. Plantilla</a></li>
+</ul>
+</li>
+<li><a href="#_pila_de_llamadas_call_stack">7. Pila de llamadas (Call Stack)</a></li>
+<li><a href="#_tail_call_optimisation">8. Tail-call Optimisation</a>
+<ul class="sectlevel2">
+<li><a href="#_tarea_4">8.1. Tarea</a></li>
+<li><a href="#_estrategia_para_la_optimización_de_llamadas_de_cola">8.2. Estrategia para la optimización de llamadas de cola</a></li>
+</ul>
+</li>
+<li><a href="#_trampolining">9. Trampolining</a></li>
+<li><a href="#_otros_ejercicios_que_puedes_hacer">10. Otros ejercicios que puedes hacer</a></li>
+<li><a href="#_referencias">11. Referencias</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_introducción">Introducción</h2>
+<h2 id="_introducción">1. Introducción</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>La recursividad es un concepto de programación. No es un concepto exclusivo de
@@ -465,7 +601,7 @@ o infinitas.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_factorial">Factorial</h2>
+<h2 id="_factorial">2. Factorial</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Este es el ejemplo clásico para entender la recursividad: <strong>factoriales.</strong></p>
@@ -508,11 +644,11 @@ hasta que obtenemos el resultado deseado.</p>
 <div class="listingblock">
 <div class="title">factorial.test.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = require('./factorial')
-
-test('Should calculate the factorial of the given number', () =&gt; {
-  expect(factorial(5)).toBe(120)
-})</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers">1</span>const factorial = require(<span class="string"><span class="delimiter">'</span><span class="content">./factorial</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">2</span>
+<span class="line-numbers">3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should calculate the factorial of the given number</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers">4</span>  expect(factorial(<span class="integer">5</span>)).toBe(<span class="integer">120</span>)
+<span class="line-numbers">5</span>})</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -522,16 +658,16 @@ siguiente:</p>
 <div class="listingblock">
 <div class="title">factorial.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = n =&gt; {
-  if (n === 0) {
-    return 1
-  }
-
-  // ¡Aquí está la recursión!
-  return n * factorial(n - 1)
-}
-
-module.exports = factorial</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = n =&gt; {
+<span class="line-numbers"> 2</span>  <span class="keyword">if</span> (n === <span class="integer">0</span>) {
+<span class="line-numbers"> 3</span>    <span class="keyword">return</span> <span class="integer">1</span>
+<span class="line-numbers"> 4</span>  }
+<span class="line-numbers"> 5</span>
+<span class="line-numbers"> 6</span>  <span class="comment">// ¡Aquí está la recursión!</span>
+<span class="line-numbers"> 7</span>  <span class="keyword">return</span> n * factorial(n - <span class="integer">1</span>)
+<span class="line-numbers"> 8</span>}
+<span class="line-numbers"> 9</span>
+<span class="line-numbers">10</span>module.exports = factorial</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -539,7 +675,7 @@ module.exports = factorial</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- factorial.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- factorial.test.js
 
 PASS  ./factorial.test.js
 
@@ -549,12 +685,12 @@ Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
 Time:        0.638s, estimated 1s
-Ran all test suites matching "factorial.test.js".
+Ran all test suites matching &quot;factorial.test.js&quot;.
 Done in 1.12s.</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_tarea">Tarea</h3>
+<h3 id="_tarea">2.1. Tarea</h3>
 <div class="paragraph">
 <p>Intenta utilizar la misma función <code>factorial()</code> pero en este caso para el
 entero 10.</p>
@@ -563,7 +699,7 @@ entero 10.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_caso_base_caso_recursivo">Caso base, caso recursivo</h2>
+<h2 id="_caso_base_caso_recursivo">3. Caso base, caso recursivo</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Hay características claves de la recursión que deben incluirse en tu código para
@@ -594,25 +730,25 @@ entero positivo.</p>
 <div class="listingblock">
 <div class="title">factorial.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = n =&gt; {
-  // Este es nuestro caso base - cuando n es igual a 0, se detiene la recursión
-  // Devolvemos 1 pues es el elemento neutro de la multiplicación
-  if (n === 0) {
-    return 1
-  }
-
-  // Este es nuestro caso recursivo
-  // Correrá para todas las condiciones de n excepto cuando n es igual a 0
-  return n * factorial(n - 1)
-}
-
-module.exports = factorial</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = n =&gt; {
+<span class="line-numbers"> 2</span>  <span class="comment">// Este es nuestro caso base - cuando n es igual a 0, se detiene la recursión</span>
+<span class="line-numbers"> 3</span>  <span class="comment">// Devolvemos 1 pues es el elemento neutro de la multiplicación</span>
+<span class="line-numbers"> 4</span>  <span class="keyword">if</span> (n === <span class="integer">0</span>) {
+<span class="line-numbers"> 5</span>    <span class="keyword">return</span> <span class="integer">1</span>
+<span class="line-numbers"> 6</span>  }
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  <span class="comment">// Este es nuestro caso recursivo</span>
+<span class="line-numbers"> 9</span>  <span class="comment">// Correrá para todas las condiciones de n excepto cuando n es igual a 0</span>
+<span class="line-numbers">10</span>  <span class="keyword">return</span> n * factorial(n - <span class="integer">1</span>)
+<span class="line-numbers">11</span>}
+<span class="line-numbers">12</span>
+<span class="line-numbers">13</span>module.exports = factorial</code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_condición_de_terminación">Condición de terminación</h2>
+<h2 id="_condición_de_terminación">4. Condición de terminación</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Otra característica útil (y a menudo necesaria) de una función recursiva es la
@@ -636,17 +772,17 @@ programa se bloquearía.</p>
 <div class="listingblock">
 <div class="title">factorial.test.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = require('./factorial.verbose')
-
-test('Should calculate the factorial of the given number', () =&gt; {
-  expect(factorial(5)).toBe(120)
-})
-
-test('Should not accept negative values', () =&gt; {
-  expect(() =&gt; {
-    factorial(-1)
-  }).toThrow('Cannot compute the factorial of a negative integer')
-})</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = require(<span class="string"><span class="delimiter">'</span><span class="content">./factorial.verbose</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should calculate the factorial of the given number</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 4</span>  expect(factorial(<span class="integer">5</span>)).toBe(<span class="integer">120</span>)
+<span class="line-numbers"> 5</span>})
+<span class="line-numbers"> 6</span>
+<span class="line-numbers"> 7</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should not accept negative values</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 8</span>  expect(() =&gt; {
+<span class="line-numbers"> 9</span>    factorial(-<span class="integer">1</span>)
+<span class="line-numbers">10</span>  }).toThrow(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">11</span>})</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -654,7 +790,7 @@ test('Should not accept negative values', () =&gt; {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- factorial.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- factorial.test.js
 
 FAIL  ./factorial.test.js
 
@@ -675,7 +811,7 @@ Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
 Time:        0.685s, estimated 1s
-Ran all test suites matching "factorial.test.js".</code></pre>
+Ran all test suites matching &quot;factorial.test.js&quot;.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -691,22 +827,22 @@ manejarla correctamente.</p>
 <div class="listingblock">
 <div class="title">factorial.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = n =&gt; {
-  if (n &lt; 0) {
-    // Condición de terminación para prevenir recursividad infinita
-    throw new Error('Cannot compute the factorial of a negative integer')
-  }
-
-  // Caso base
-  if (n === 0) {
-    return 1
-  }
-
-  // Caso recursivo
-  return n * factorial(n - 1)
-}
-
-module.exports = factorial</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = n =&gt; {
+<span class="line-numbers"> 2</span>  <span class="keyword">if</span> (n &lt; <span class="integer">0</span>) {
+<span class="line-numbers"> 3</span>    <span class="comment">// Condición de terminación para prevenir recursividad infinita</span>
+<span class="line-numbers"> 4</span>    <span class="keyword">throw</span> <span class="keyword">new</span> Error(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 5</span>  }
+<span class="line-numbers"> 6</span>
+<span class="line-numbers"> 7</span>  <span class="comment">// Caso base</span>
+<span class="line-numbers"> 8</span>  <span class="keyword">if</span> (n === <span class="integer">0</span>) {
+<span class="line-numbers"> 9</span>    <span class="keyword">return</span> <span class="integer">1</span>
+<span class="line-numbers">10</span>  }
+<span class="line-numbers">11</span>
+<span class="line-numbers">12</span>  <span class="comment">// Caso recursivo</span>
+<span class="line-numbers">13</span>  <span class="keyword">return</span> n * factorial(n - <span class="integer">1</span>)
+<span class="line-numbers">14</span>}
+<span class="line-numbers">15</span>
+<span class="line-numbers">16</span>module.exports = factorial</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -714,7 +850,7 @@ module.exports = factorial</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-console" data-lang="console">$ yarn run jest -- factorial.test.js
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- factorial.test.js
 
  PASS  ./factorial.test.js
 
@@ -725,7 +861,7 @@ Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
 Time:        0.674s, estimated 1s
-Ran all test suites matching "factorial.test.js".
+Ran all test suites matching &quot;factorial.test.js&quot;.
 Done in 1.29s.</code></pre>
 </div>
 </div>
@@ -734,7 +870,7 @@ Done in 1.29s.</code></pre>
 el error antes presentado.</p>
 </div>
 <div class="sect2">
-<h3 id="_tarea_2">Tarea</h3>
+<h3 id="_tarea_2">4.1. Tarea</h3>
 <div class="paragraph">
 <p>Puedes intentar describir un nuevo escenario de prueba para ver qué sucede
 cuando se pasa un valor no válido a la función <code>factorial()</code>. Al encontrar una
@@ -744,7 +880,7 @@ falla, puedes intentar mejorar la implementación de la función <code>factorial
 </div>
 </div>
 <div class="sect1">
-<h2 id="_argumentos_en_la_recursión">Argumentos en la recursión</h2>
+<h2 id="_argumentos_en_la_recursión">5. Argumentos en la recursión</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Cuando empieces a construir tu caso recursivo (el código que se repetirá), una
@@ -763,26 +899,33 @@ argumentos de tal manera que cada recursión lo acerca más al caso base?</p>
 <div class="listingblock">
 <div class="title">factorial.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = n =&gt; {
-  // Condición de terminación para prevenir la recursión infinita
-  if (n &lt; 0) {
-    throw new Error('Cannot compute the factorial of a negative integer')
-  }
-
-  // Caso base
-  if (n === 0) {
-    return 1
-  }
-
-  // ¿Qué está mal? ¿Por qué no funciona la recursión?
-  return n * factorial(n)
-}
-
-factorial(6)</code></pre>
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = n =&gt; {
+<span class="line-numbers"> 2</span>  <span class="comment">// Condición de terminación para prevenir la recursión infinita</span>
+<span class="line-numbers"> 3</span>  <span class="keyword">if</span> (n &lt; <span class="integer">0</span>) {
+<span class="line-numbers"> 4</span>    <span class="keyword">throw</span> <span class="keyword">new</span> Error(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 5</span>  }
+<span class="line-numbers"> 6</span>
+<span class="line-numbers"> 7</span>  <span class="comment">// Caso base</span>
+<span class="line-numbers"> 8</span>  <span class="keyword">if</span> (n === <span class="integer">0</span>) {
+<span class="line-numbers"> 9</span>    <span class="keyword">return</span> <span class="integer">1</span>
+<span class="line-numbers">10</span>  }
+<span class="line-numbers">11</span>
+<span class="line-numbers">12</span>  <span class="keyword">return</span> n * factorial(n) <i class="conum" data-value="1"></i><b>(1)</b>
+<span class="line-numbers">13</span>}
+<span class="line-numbers">14</span>
+<span class="line-numbers">15</span>factorial(<span class="integer">6</span>)</code></pre>
 </div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>¿Qué está mal? ¿Por qué no funciona la recursión?</td>
+</tr>
+</table>
 </div>
 <div class="sect2">
-<h3 id="_tarea_3">Tarea</h3>
+<h3 id="_tarea_3">5.1. Tarea</h3>
 <div class="paragraph">
 <p>Ejecuta el código del ejemplo anterior.</p>
 </div>
@@ -801,7 +944,7 @@ correctamente.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ahora_es_tu_turno">Ahora es tu turno</h2>
+<h2 id="_ahora_es_tu_turno">6. Ahora es tu turno</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Ahora que hemos cubierto lo esencial, trata de reconstruir la función
@@ -830,7 +973,7 @@ devuelto por la función?</p>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_plantilla">Plantilla</h3>
+<h3 id="_plantilla">6.1. Plantilla</h3>
 <div class="paragraph">
 <p>Define el caso base. Dado que un factorial significa multiplicar un entero por
 cada entero entre él mismo y uno, el caso base es uno.</p>
@@ -846,16 +989,589 @@ argumentos que puedan dar  error.</p>
 <div class="listingblock">
 <div class="title">factorial.js</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-javascript" data-lang="javascript">const factorial = n =&gt; {
-  // Aquí va tu código.
+<pre class="CodeRay highlight"><code data-lang="javascript">const factorial = n =&gt; {
+  <span class="comment">// Aquí va tu código.</span>
 }</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>Llegados a este punto, imagina por un momento que completaste la tarea y
+compartiste tus resultados con tus amigas, una compañera mientras hacia revisión
+de tú código encontró un comportamiento extraño, su caso de prueba fue el
+siguiente:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="console">&gt; factorial(32768)
+RangeError: Maximum call stack size exceeded</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Por si no lo recuerdas, este error ya lo habíamos visto antes, cuando intentamos
+calcular el <code>factorial(-1)</code> y no teníamos la <strong>condición de terminación</strong>
+apropiada.</p>
+</div>
+<div class="paragraph">
+<p>Ahora bien, para poder resolver este problema, primero debemos dejar claro un
+concepto que no habíamos explicado anteriormente, definamos entonces qué es la
+pila de llamadas o <em>Call Stack</em>.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_otros_ejercicios_que_puedes_hacer">Otros ejercicios que puedes hacer</h2>
+<h2 id="_pila_de_llamadas_call_stack">7. Pila de llamadas (Call Stack)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Sería útil examinar más de cerca la forma en que se maneja el control a través
+de las funciones. Aquí está un programa simple que hace algunas llamadas a
+funciones:</p>
+</div>
+<div class="listingblock">
+<div class="title">greet</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers">1</span><span class="keyword">function</span> <span class="function">greet</span>(who) {
+<span class="line-numbers">2</span>  console.log(<span class="string"><span class="delimiter">&quot;</span><span class="content">Hello </span><span class="delimiter">&quot;</span></span> + who) <i class="conum" data-value="2"></i><b>(2)</b>
+<span class="line-numbers">3</span>} <i class="conum" data-value="3"></i><b>(3)</b>
+<span class="line-numbers">4</span>greet(<span class="string"><span class="delimiter">&quot;</span><span class="content">Harry</span><span class="delimiter">&quot;</span></span>) <i class="conum" data-value="1"></i><b>(1)</b>
+<span class="line-numbers">5</span>console.log(<span class="string"><span class="delimiter">&quot;</span><span class="content">Bye</span><span class="delimiter">&quot;</span></span>) <i class="conum" data-value="4"></i><b>(4)</b></code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>La llamada a <code>greet</code> hace que el control salte al inicio de esa función
+(línea 2).</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Se hace una llamada a <code>console.log</code> (una función predeterminada del
+navegador), esta función toma el control, hace su trabajo, devuelve el control
+a la línea 2.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>Entonces llega al final de la función <code>greet</code>, así que el control se vuelve
+al lugar de la llamada, en la línea 4.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="4"></i><b>4</b></td>
+<td>La línea siguiente llama a <code>console.log</code> de nuevo (línea 5).</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Veamos otra representación de lo mencionado previamente, mostraremos un esquema
+de cómo fluye el control en la función:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>top
+    greet
+        console.log
+    greet
+top
+    console.log
+top</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Como la función debe saltar de nuevo al lugar de la llamada original cuando
+llega la final de la función, la computadora debe recordar el contexto o entorno
+desde el cual se hizo la llamada a la función. Por ejemplo en un caso,
+<code>console.log</code> tiene que volver a saltar a la función <code>greet</code>. En otro caso, debe
+saltar al final del programa.</p>
+</div>
+<div class="paragraph">
+<p>El lugar donde la computadora almacena este contexto es la pila de llamadas o
+<em>call stack</em>. Cada vez que se hace una llamada a una función, el contexto actual
+se pone encima de esta pila de llamadas. Cuando la función se devuelve, elimina
+el contexto superior de la pila y lo utiliza para continuar con la ejecución de
+la función.</p>
+</div>
+<div class="paragraph">
+<p>El almacenamiento de  esta pila requiere espacio en la memoria de la
+computadora. Cuando la pila crece demasiado, la computadora fallará y mostrará
+un mensaje como "No hay espacio en la pila" o "Hay demasiada recursión". El
+código siguiente ilustra esto haciendo una pregunta realmente difícil a la
+computadora, esto causa llamadas infinitas hacia adelante y hacia atrás entre
+dos funciones. Como la computadora no tiene una pila infinita, se queda sin
+espacio, y sucede que "explotamos la pila".</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="keyword">function</span> <span class="function">chicken</span>() {
+  <span class="keyword">return</span> egg()
+}
+<span class="keyword">function</span> <span class="function">egg</span>() {
+  <span class="keyword">return</span> chicken()
+}
+console.log(chicken() + <span class="string"><span class="delimiter">&quot;</span><span class="content"> came first.</span><span class="delimiter">&quot;</span></span>)
+<span class="comment">// → ??</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Esto es precisamente lo que está pasando con nuestra función <code>factorial</code>, a
+partir de ciertos enteros positivos nuestra pila de llamadas crece demasido y
+obtenemos el error: <em>Maximum call stack size exceeded</em>. Veamos entonces si
+podemos solventar dicho error.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tail_call_optimisation">8. Tail-call Optimisation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La optimización de llamadas de cola o <em>tail-call optimisation</em> es una
+característica del compilador que reemplaza las invocaciones de funciones
+recursivas con una estructura de control o bucle. La eliminación de las
+invocaciones de funciones elimina tanto el tamaño de la pila como el tiempo
+necesario para configurar los marcos de la pila de funciones. Tanto el tiempo
+como el espacio se guardan.</p>
+</div>
+<div class="paragraph">
+<p>La programadora debe escribir métodos de una manera que facilite la
+optimización de llamadas de cola. Esto significa que la última función invocada
+debe ser la invocación de la función recursiva. Si revisamos con detenimiento
+nuestra función <code>factorial</code> podremos apreciar que nuestra llamada recursiva es
+como sigue:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="keyword">return</span> n * factorial(n - <span class="integer">1</span>)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Cabe preguntarnos si <strong>la última función invocada debe ser la función recursiva</strong>,
+en nuestra implementación actual en realidad es la multiplicación lo que se
+invoca de último. Sin embargo, podemos mejorar la implementación tal como sigue:</p>
+</div>
+<div class="listingblock">
+<div class="title">factorial.js</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span><span class="string"><span class="delimiter">'</span><span class="content">use strict</span><span class="delimiter">'</span></span>
+<span class="line-numbers"> 2</span>const factorial = (n, acc = <span class="integer">1</span>) =&gt; {
+<span class="line-numbers"> 3</span>  <span class="keyword">if</span> (n &lt; <span class="integer">0</span>) {
+<span class="line-numbers"> 4</span>    <span class="comment">// Condición de terminación para prevenir recursividad infinita</span>
+<span class="line-numbers"> 5</span>    <span class="keyword">throw</span> <span class="keyword">new</span> Error(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 6</span>  }
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  <span class="comment">// Caso base</span>
+<span class="line-numbers"> 9</span>  <span class="keyword">if</span> (n === <span class="integer">0</span>) {
+<span class="line-numbers">10</span>    <span class="keyword">return</span> acc
+<span class="line-numbers">11</span>  }
+<span class="line-numbers">12</span>
+<span class="line-numbers">13</span>  <span class="comment">// Caso recursivo</span>
+<span class="line-numbers">14</span>  <span class="keyword">return</span> factorial(n - <span class="integer">1</span>, n * acc)
+<span class="line-numbers">15</span>}
+<span class="line-numbers">16</span>
+<span class="line-numbers">17</span>module.exports = factorial</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Esta implementación del <code>factorial</code> ahora si hace <em>tail-call recursion</em> y por
+ende está optimizada, nota que la última función llamada es <code>factorial</code> y no la
+multiplicación (caso previo). De este modo, el compilador es capaz de invocar
+<code>factorial</code>  en un bucle hasta que se devuelva un resultado distinto a este en
+la repetición.</p>
+</div>
+<div class="paragraph">
+<p>Nota que hemos agregado un parámetro adicional a <code>factorial</code> este parametro es
+<code>acc</code>. Este es el acumulador, <code>acc</code> es el valor de función acumulado hasta este
+punto. Hagamos una simulación escrita del método recurrente para ver cómo se
+acumula el resultado factorial:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>factorial(5)
+factorial(5, 1)
+factorial(4, 5)
+factorial(3, 20)
+factorial(2, 60)
+factorial(1, 120)
+factorial(0, 120)
+120</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Todas las funciones recursivas deben tener un caso base que termine la
+recursión. Anteriormente el caso base para la función <code>factorial</code> es cuando n =
+0, en cuyo caso se devuelve 1. Con esta nueva implementación, el caso base de
+<code>factorial</code> es también cuando n = 0, pero en lugar de retornar 1, se devuelve el
+valor acumulado o <code>acc</code>.</p>
+</div>
+<div class="sect2">
+<h3 id="_tarea_4">8.1. Tarea</h3>
+<div class="paragraph">
+<p>Nuestra nueva implementación de <code>factorial</code> igualmente tiene un problema, si
+bien hacemos uso de una característica de ES2015, la cual es la definición de
+paramétros por omisión de una función, un usuario podría invocar nuestra nueva
+función <code>factorial</code> de la siguiente manera: <code>factorial(5, 2)</code>, ¿qué crees que
+pasaría en dicho caso?, trata de hacer una simulación escrita antes de ejecutar
+código, ¿el resultado es correcto?</p>
+</div>
+<div class="paragraph">
+<p>Un modo de corregir la nueva implementación es siguiendo la siguientes consejos:</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_estrategia_para_la_optimización_de_llamadas_de_cola">8.2. Estrategia para la optimización de llamadas de cola</h3>
+<div class="paragraph">
+<p>Utiliza esta estrategia para crear funciones recursivas optimizadas:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Crear una función recursiva interna que tenga un parámetro acumulador
+adicional</p>
+</li>
+<li>
+<p>El caso base de la función recursiva interna será devolver el
+acumulador</p>
+</li>
+<li>
+<p>La invocación recursiva proporciona un valor actualizado para el acumulador</p>
+</li>
+<li>
+<p>La función externa delega a la función recursiva interna usando los valores
+iniciales apropiados</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Sigue estas estrategias y tus funciones recursivas serán óptimas, proporcionando
+mejoras significativas en el rendimiento.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="title">Nota</div>
+<div class="paragraph">
+<p>Si tú código fuese a producción con este implementación, se utilizarían otras
+técnicas como <a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">IIFEs</a>
+entre otras para encapsular y prevenir la creación de un nuevo <em>closure</em> cada
+vez que llamamos a <code>factorial</code>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Si probamos la función <code>factorial</code> haciendo uso de <em>tail-call optimisation</em> con
+números enteros positivos pequeños observamos que todo funciona de igual manera,
+pero, en esta ocasión debemos actualizar nuestro caso de pruebas para incluir
+el ejemplo que nos dio nuestra amiga:</p>
+</div>
+<div class="listingblock">
+<div class="title">factorial.test.js</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span>const factorial = require(<span class="string"><span class="delimiter">'</span><span class="content">./factorial.tail</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should calculate the factorial of the given number</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 4</span>  expect(factorial(<span class="integer">5</span>)).toBe(<span class="integer">120</span>)
+<span class="line-numbers"> 5</span>})
+<span class="line-numbers"> 6</span>
+<span class="line-numbers"> 7</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should not accept negative values</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers"> 8</span>  expect(() =&gt; {
+<span class="line-numbers"> 9</span>    factorial(-<span class="integer">1</span>)
+<span class="line-numbers">10</span>  }).toThrow(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">11</span>})
+<span class="line-numbers">12</span>
+<span class="line-numbers">13</span>test(<span class="string"><span class="delimiter">'</span><span class="content">Should avoid too much recursion</span><span class="delimiter">'</span></span>, () =&gt; {
+<span class="line-numbers">14</span>  expect(() =&gt; {
+<span class="line-numbers">15</span>    factorial(<span class="integer">32768</span>)
+<span class="line-numbers">16</span>  }).not.toThrowError(<span class="regexp"><span class="delimiter">/</span><span class="content">stack size exceeded</span><span class="delimiter">/</span></span>)
+<span class="line-numbers">17</span>})</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Si ejecutamos nuestras pruebas obtendremos un resultado similar al siguiente:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- factorial.test.js
+
+ FAIL  ./factorial.tail.test.js
+  ● Should avoid too much recursion
+
+    expect(function).not.toThrowError(regexp)
+
+    Expected the function not to throw an error matching:
+      /stack size exceeded/
+    Instead, it threw:
+      RangeError: Maximum call stack size exceeded
+
+  ✓ Should calculate the factorial of the given number (5ms)
+  ✓ Should not accept negative values (1ms)
+  ✕ Should avoid too much recursion (10ms)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.656s, estimated 1s
+Ran all test suites matching &quot;factorial.test.js&quot;.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>(o_O)</strong></p>
+</div>
+<div class="paragraph">
+<p>¡Un momento!, ¿qué ha pasado?, ¿por qué sigue fallando?.</p>
+</div>
+<div class="paragraph">
+<p>Pues resulta que es importante mencionar que esto funcionará si tu sistema
+proporciona optimizaciones de llamadas de cola. Ya que JavaScript no lo hace en
+la mayoría de sus implementaciones, tal como se indica
+<a href="https://babeljs.io/learn-es2015/#ecmascript-2015-features-tail-calls">acá</a></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="title">Nota</div>
+<div class="paragraph">
+<p>Al momento de la publicación de esta lección, la única implementación de
+JavaScript conocida por el autor que soporta tail-call optimisation es
+<a href="https://github.com/Kinoma/kinomajs">KinomaJS</a>, la cual ofrece un <em>runtime</em>
+optimizado para el desarrollo de aplicaciones que funcionen en dispositivos IoT
+y ofrecen compatibilidad con ES6, de hecho,
+<a href="http://kinoma.com/develop/documentation/js6/">acá</a> puedes ver los resultados de
+sus pruebas.</p>
+</div>
+<div class="paragraph">
+<p>Si bien no es necesario para los objetivos de este curso, puedes intentar
+descargar el código de KinomaJS pues es <em>Open Source</em>, construirla y correr la
+<em>suite</em> de pruebas que ofrecen y corroborar por tu cuenta.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Ahora que sabemos que la mayoría de las implementaciones de JavaScript no
+implementan todavía la <em>tail-call optimisation</em> es necesario ver si existen
+otras alternativas con las cuales podamos solventar el error antes visto.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_trampolining">9. Trampolining</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="title">factorial.js</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span><span class="string"><span class="delimiter">'</span><span class="content">use strict</span><span class="delimiter">'</span></span>
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>const isFunction = require(<span class="string"><span class="delimiter">'</span><span class="content">lodash.isfunction</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 4</span>
+<span class="line-numbers"> 5</span>const trampoline = (fn, ...args) =&gt; {
+<span class="line-numbers"> 6</span>  let result = fn.apply(fn, args)
+<span class="line-numbers"> 7</span>
+<span class="line-numbers"> 8</span>  <span class="keyword">while</span> (isFunction(result)) {
+<span class="line-numbers"> 9</span>    result = result()
+<span class="line-numbers">10</span>  }
+<span class="line-numbers">11</span>
+<span class="line-numbers">12</span>  <span class="keyword">return</span> result
+<span class="line-numbers">13</span>}
+<span class="line-numbers">14</span>
+<span class="line-numbers">15</span>const factorial = n =&gt; {
+<span class="line-numbers">16</span>  <span class="keyword">if</span> (n &lt; <span class="integer">0</span>) {
+<span class="line-numbers">17</span>    <span class="keyword">throw</span> <span class="keyword">new</span> Error(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">18</span>  }
+<span class="line-numbers">19</span>
+<span class="line-numbers">20</span>  const fun = (n, acc = <span class="integer">1</span>) =&gt; {
+<span class="line-numbers">21</span>    <span class="keyword">return</span> n ? () =&gt; fun(n - <span class="integer">1</span>, n * acc) : acc
+<span class="line-numbers">22</span>  }
+<span class="line-numbers">23</span>
+<span class="line-numbers">24</span>  <span class="keyword">return</span> trampoline(fun(n))
+<span class="line-numbers">25</span>}
+<span class="line-numbers">26</span>
+<span class="line-numbers">27</span>module.exports = factorial</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Tras este ultimo cambio ejecutemos nuestras pruebas.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn run jest -- factorial.test.js
+
+ PASS  ./factorial.safe.test.js
+  ✓ Should calculate the factorial of the given number (3ms)
+  ✓ Should not accept negative values (1ms)
+  ✓ Should avoid too much recursion (7ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        0.648s, estimated 1s
+Ran all test suites matching &quot;factorial.test.js&quot;.
+Done in 1.15s.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Con esto ya hemos evitado saturar el <em>stack</em>. Sin embargo, el resultado es el
+siguiente:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&gt; factorial(32768)
+Infinity</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>(o_O)</strong></p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+<div class="title">Advertencia</div>
+<div class="paragraph">
+<p>Este error se debe a otra limitación en JavaScript, esta vez relacionada con el
+manejo de enteros largos. Si bien la reparación de este último <em>bug</em> está fuera
+del alcance de la lección actual, igual se mostrará su resolución para completar
+el recorrido.</p>
+</div>
+<div class="paragraph">
+<p>Esta limitación puede ser arreglada haciendo uso de
+<a href="https://github.com/peterolson/BigInteger.js">BigInteger.js</a>. Ejecutemos entonces</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="console">$ yarn add --dev big-integer</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>y ajustemos de nuevo nuestra implementación.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">factorial.js</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="javascript"><span class="line-numbers"> 1</span><span class="string"><span class="delimiter">'</span><span class="content">use strict</span><span class="delimiter">'</span></span>
+<span class="line-numbers"> 2</span>
+<span class="line-numbers"> 3</span>const isFunction = require(<span class="string"><span class="delimiter">'</span><span class="content">lodash.isfunction</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 4</span>const bigInt = require(<span class="string"><span class="delimiter">'</span><span class="content">big-integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers"> 5</span>
+<span class="line-numbers"> 6</span>const trampoline = (fn, ...args) =&gt; {
+<span class="line-numbers"> 7</span>  let result = fn.apply(fn, args)
+<span class="line-numbers"> 8</span>
+<span class="line-numbers"> 9</span>  <span class="keyword">while</span> (isFunction(result)) {
+<span class="line-numbers">10</span>    result = result()
+<span class="line-numbers">11</span>  }
+<span class="line-numbers">12</span>
+<span class="line-numbers">13</span>  <span class="keyword">return</span> result
+<span class="line-numbers">14</span>}
+<span class="line-numbers">15</span>
+<span class="line-numbers">16</span>const factorial = n =&gt; {
+<span class="line-numbers">17</span>  <span class="keyword">if</span> (n &lt; <span class="integer">0</span>) {
+<span class="line-numbers">18</span>    <span class="keyword">throw</span> <span class="keyword">new</span> Error(<span class="string"><span class="delimiter">'</span><span class="content">Cannot compute the factorial of a negative integer</span><span class="delimiter">'</span></span>)
+<span class="line-numbers">19</span>  }
+<span class="line-numbers">20</span>
+<span class="line-numbers">21</span>  const fun = (n, acc = bigInt.one) =&gt; {
+<span class="line-numbers">22</span>    <span class="keyword">return</span> n.greater(<span class="integer">0</span>) ? () =&gt; fun(n.minus(<span class="integer">1</span>), acc.multiply(n)) : acc
+<span class="line-numbers">23</span>  }
+<span class="line-numbers">24</span>
+<span class="line-numbers">25</span>  <span class="keyword">return</span> trampoline(fun(bigInt(n)))
+<span class="line-numbers">26</span>}
+<span class="line-numbers">27</span>
+<span class="line-numbers">28</span>module.exports = factorial</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ahora podremos obtener una representación que nos funciona para números grandes:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&gt; factorial(5)
+{ [Number: 120] value: 120, sign: false, isSmall: true }
+&gt; factorial(5) == 120
+true
+&gt; factorial(180)
+{ [Number: Infinity]
+  value:
+   [ 0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9603200,
+     3198603,
+     3278187,
+     2302693,
+     9233864,
+     7538181,
+     4141796,
+     3001782,
+     1142564,
+     4664891,
+     6331964,
+     5603584,
+     809209,
+     5744504,
+     8568581,
+     5064353,
+     1980647,
+     6535588,
+     972945,
+     3196673,
+     6095985,
+     1495273,
+     3218633,
+     6710321,
+     7399609,
+     9410103,
+     7356315,
+     2097309,
+     8013811,
+     9809411,
+     953395,
+     6004486,
+     4353351,
+     7777940,
+     4079886,
+     9175403,
+     8466838,
+     5133689,
+     2996569,
+     2499134,
+     89606,
+     2 ],
+  sign: false,
+  isSmall: false }</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Y dichos números grandes (<code>isSmall: false</code>) los podemos transformar a cadenas
+de caracteres de la siguiente manera:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&gt; fact(180).toString()
+'200896062499134299656951336898466838917540340798867777940435335160044860953395980941180138112097309735631594101037399609671032132186331495273609598531966730972945653558819806475064353856858157445040809209560358463319644664891114256430017824141796753818192338642302693327818731986039603200000000000000000000000000000000000000000000'</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_otros_ejercicios_que_puedes_hacer">10. Otros ejercicios que puedes hacer</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -875,22 +1591,35 @@ como primer argumento. Ejemplo: <code>cycle(2, [1, 2, 3]) = [1, 2, 3, 1, 2, 3]</
 </div>
 </div>
 <div class="sect1">
-<h2 id="_referencias">Referencias</h2>
+<h2 id="_referencias">11. Referencias</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Code Academy: <a href="https://www.codecademy.com/en/courses/javascript-lesson-205">Recursión in JavaScript</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.codecademy.com/en/courses/javascript-lesson-205">Recursion in JavaScript</a> por Code Academy</p>
+</li>
+<li>
+<p><a href="http://eloquentjavascript.net/03_functions.html#h_D2Yui+mx6D">The Call Stack</a> de Marijn Haverbeke</p>
+</li>
+<li>
+<p><a href="http://shop.oreilly.com/product/0636920028857.do">Functional Javascript</a> de Michael Fogus</p>
+</li>
+<li>
+<p><a href="https://taylodl.wordpress.com/2013/06/07/functional-javascript-tail-call-optimization-and-trampolines/">Functional JavaScript – Tail Call Optimization and Trampolines</a></p>
+</li>
+<li>
+<p><a href="http://raganwald.com/2013/03/28/trampolines-in-javascript.html">Trampolines in JavaScript</a></p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-07-24 00:22:05 CDT
+Last updated 2017-07-27 01:25:17 CDT
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   messageStyle: "none",
