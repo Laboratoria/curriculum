@@ -495,9 +495,137 @@ otras alternativas con las cuales podamos solventar el error antes visto.
 
 == Trampolining
 
-////
-TODO: Introducción y definición
-////
+¿Cómo podemos optimizar las funciones de JavaScript recursivas sin la
+optimización de llamadas de cola? Una opción es volver a escribir su función
+recursiva en forma de bucle.
+
+Función factorial escrita usando estructura de datos de control:
+
+[source,javascript,linenums]
+----
+const factorial = n => {
+  let acc = 1
+  for (let i = n; i > 0; i--) {
+    acc *= i
+  }
+  return acc
+}
+----
+
+Así se implementa la optimización de llamadas de cola manualmente. La desventaja
+es la pérdida de elegancia y la expresividad de la implementación recursiva.
+
+Otra opción es usar un trampolín.
+
+Las trampolines son ubicaciones de memoria que mantienen direcciones apuntando a
+rutinas de servicio de interrupción, como por ejemplo rutinas de E/S. Al correr
+el código la ejecución salta al trampolín y luego salta inmediatamente hacia
+afuera, o rebota, de ahí el término trampolín.
+
+Un solo trampolín es suficiente para expresar todas las transferencias de
+control de un programa; Un programa expresado de esta manera podemos decir que
+está escrito al estilo trampolín. Las funciones de trampolín se pueden utilizar
+para implementar llamadas de función recursivas de cola en lenguajes de
+programación orientados al uso de pilas.
+
+Pero es más fácil de lo que parece en la teoría, como veremos a continuación.
+
+=== Un simple trampolín
+
+Veamos una implementación simple de trampolín:
+
+[source,javascript,linenums]
+----
+const trampoline = f => {
+  while (f && f instanceof Function) {
+    f = f.apply(f.context, f.args)
+  }
+  return f
+}
+----
+
+El trampolín toma una función y ejecuta repetidamente el valor de retorno hasta
+que se devuelve un resultado distinto al de una función. Uno se siente tentado a
+usar el trampolín de la siguiente manera:
+
+[source,javascript,linenums]
+----
+const factorial = (n) => {
+  const recur = (n, acc) => n ? recur(n - 1, n * acc) : acc
+
+  return trampoline(recur(n, 1));
+}
+----
+
+Pero esto no produce la optimización deseada. ¿Por qué? Supongamos que se invoca
+la función factorial con n = 5. ¿Qué valor se le pasa al trampolín?
+
+----
+recur(5, 1)
+----
+
+Es una expresión de función que devuelve el valor 120. El trampolín se invoca
+con el valor 120. Esto es esencialmente la misma aplicación de la llamada de
+cola optimizada del factorial, excepto que la optimización de la llamada de la
+cola no está disponible en el entorno de JavaScript. ¿Qué salió mal?
+
+Teníamos la intención de invocar un trampolín con una función de referencia, no
+con un resultado de la función. Mientras que lo siguiente funciona
+
+----
+return trampoline(Function() { recur(n, 1) })
+----
+
+Es difícil de manejar. Necesitamos un medio para obtener una referencia a la
+invocación de la función, completa con todos los parámetros, por lo que podemos
+invocar la función en un momento posterior. Aunque no estaba destinado para este
+propósito, la función _Function.bind_ se ajusta bien a nuestra intención, y por
+lo tanto, mejora nuestra implementación de Factorial:
+
+Mejor pero no del todo óptima
+
+----
+const factorial = n => {
+  const recur = (n, acc) => n ? recur(n - 1, n * acc) : acc
+
+  return trampoline(recur.bind(null, n, 1))
+}
+----
+
+Ahora invocamos el trampolín con la expresión:
+
+----
+recur.bind(null, n, 1))
+----
+
+La función _bind_ es una función que cuando se invoca devuelve el valor de la
+función que está haciendo la llamada, en este caso _recur_, utilizando el
+contexto de llamada especificado (el puntero _this_, que en este caso es nulo,
+ya que no llamamos a nuestra función dentro de una instancia del objeto), Y la
+lista de parámetros. El resultado de _recur (n, 1)_ se devuelve cuando se invoca
+la función _bind_. ¡Esto es exactamente lo que pretendíamos pasar al trampolín,
+una función!
+
+Sin embargo, esta implementación aún no está optimizada. Para ver esto
+supongamos que invocamos _factorial_ con el valor n = 5. Cuando el trampolín
+invoca la función _bind_ devolviendo la invocación de _recur(5, 1)_ ¿qué
+resultado se devuelve? No es una función, sino que es el resultado de la
+recurrencia (4, 5), que es 120. Sólo tenemos un rebote.
+
+Esto se arregla fácilmente:
+
+Implementación optimizada de factorial:
+
+----
+const factorial = n => {
+  const recur = (n, acc) => n ? recur.bind(null, n - 1, n * acc) : acc
+
+  return trampoline(recur.bind(null, n, 1));
+}
+----
+
+Ahora el trampolín proporcionará el efecto deseado y continuará haciendo un
+bucle hasta que vuelva a devolver el valor acumulado.
 
 [source,javascript,linenums]
 .factorial.js
