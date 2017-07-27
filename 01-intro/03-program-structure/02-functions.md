@@ -8,7 +8,7 @@
 - Entender qué son las funciones y cómo afectan el control de flujo de un programa
 - Conocer la estructura de las funciones en JavaScript
 - Entender cómo pasarle argumentos a una función
-- Entender el conepto de `return` en las funciones
+- Entender el conepto de `return` de las funciones
 
 ***
 
@@ -20,10 +20,10 @@ disponible gracias a [hectorip](http://hectorip.github.io).
 ***
 
 ## DRY
-En la programación existe un concepto que dice: Don't Repeat Yourself, conocido como DRY. En español esto significa no te repitas. Si estás copiando y pegando pedazos de código, o si tienes sentencias de código repetidas multiples veces, significa que hay una mejor manera de hacerlo. Ya viste este concepto con bucles; en lugar de tener un mismo bloque de código repetido, puedes sustituirlo por una estructura repetitiva. Con funciones puedes hacer algo similar para no repetirte. Veamos qué son las `funciones` y cómo usarlas.
+En la programación existe un concepto que escucharás más de una vez. Dice así: _"Don't Repeat Yourself"_, y es comunmete conocido como `DRY`. En español esto significa: _"no te repitas"_. Si estás copiando y pegando pedazos de código, o si tienes sentencias de código similares a lo largo de tu código, significa que te estás repitiendo; lo cual debes evitar. Ya hemos visto este concepto antes con las `estructuras repetitivas` (bucles); en lugar de tener un mismo bloque de código repetido, puedes sustituirlo por un `for` o un `while`. Con funciones puedes alcanzar ser "DRY" también. Veamos qué son las `funciones` y cómo usarlas.
 
 ## ¿Qué es una función?
-Una función es una forma de agrupar código para que pueda ser reutilizado. Las funciones nos permiten ejecutar la misma pieza de código en varios lugares de un programa sin tener que copiar y pegar el código repetidamente. Dicho de otra manera, una función es un pedazo de programa envuelto en un valor. Ese valor puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que ejecute el código que tiene dentro.
+Una función es una forma de agrupar código para que pueda ser reutilizado. Las funciones nos permiten ejecutar la misma pieza de código en varios lugares de un programa sin tener que copiar y pegar el código repetidamente. Dicho de otra manera, una función es un **pedazo de programa envuelto en un valor**. Ese valor puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que ejecute el código que tiene dentro.
 
 A lo largo de este curso hemos venido utilizando funciones, solo que las venimos llamando _"comandos"_. Los comandos como `alert()`, `prompt()` y `console.log()` son realmente funciones.
 
@@ -110,25 +110,10 @@ A continuación Michelle te explica funciones con un ejemplo del libro JavaScrip
 
 ## Saliendo de una función con `return`
 
-Cuando el intérprete JavaScript se topa con un `return` dentro de una función, inmediatamente salta fuera de la función actual y pasa el valor retornado a la código que llamó la función. Es decir, cualquier sentencia que coloquemos **después** del `return` en una función, **no** será ejecutada.
+Cuando el intérprete JavaScript se topa con un `return` dentro de una función, inmediatamente salta fuera de la función actual y pasa el valor retornado al código que la llamó. Es decir, cualquier sentencia que coloquemos **después** del `return` en una función, **no** será ejecutada.
 
-One common way to use
-return is to leave a function early
-if any of the arguments to the
-function are invalid; that is, if
-they’re not the kind of arguments
-the function needs in order to run
-properly. For example, the following
-function returns a string
-telling you the fifth character of
-your name. If the name passed
-to the function has fewer than
-five characters, the function uses
-return to leave the function immediately.
-This means the return
-statement at the end, which tells
-you the fifth letter of your name,
-is never executed.
+Una forma común de utilizar `return` es para salir de la función de manera temprana si alguno de los argumentos brindados no son válidos; es decir, si no son el tipo de argumentos que la función necesita para funcionar correctamente. Por ejemplo, la siguiente función devuelve una cadena que indica el quinto carácter de tu nombre. Si el nombre pasado a la función tiene menos de cinco caracteres, la función utiliza `return` para dejar la función inmediatamente. Esto significa que la declaración de devolución al final, que te dice la quinta letra de tu nombre, nunca se ejecuta.
+
 ```js
 var fifthLetter = function (name) {
   if (name.length < 5) {
@@ -137,20 +122,10 @@ var fifthLetter = function (name) {
   return "The fifth letter of your name is " + name[4] + ".";
 };
 ```
+
 ## Utilizando múltiples `return` en lugar de `if... else`
-We can use multiple return keywords
-inside different if statements in a
-function body to have a function
-return a different value depending
-on the input. For example, say you’re
-writing a game that awards players
-medals based on their score. A score
-of 3 or below is a bronze medal, scores
-between 3 and 7 are silver, and anything
-above 7 is gold. You could use a
-function like medalForScore to evaluate
-a score and return the right kind of
-medal, as shown here:
+
+Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo de una función para que la función devuelva un valor diferente, dependiendo del argumento brindado. Por ejemplo, digamos que estás escribiendo un juego que otorga medallas a los jugadores basándose en su puntuación. Una puntuación de 3 o menos es una medalla de bronce, las puntuaciones entre 3 y 7 son de plata, y cualquier cosa por encima de 7 es de oro. Podrías utilizar una función como `medalForScore` para evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
 
 ```js
 var medalForScore = function (score) {
@@ -164,12 +139,8 @@ var medalForScore = function (score) {
 };
 ```
 
-Although we’re checking multiple conditions, we don’t need to
-use chained if...else statements. We use if...else statements to
-ensure that only one of the options is executed. When each of the
-options has its own return statement, this also ensures that only
-one of the options will be executed (because functions can return
-only once).
+Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones --- porque, recuerda, las funciones sólo pueden devolver una vez.
+
 
 ***
 

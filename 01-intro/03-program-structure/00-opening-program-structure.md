@@ -26,7 +26,18 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 - [ ] ...
 - [ ] ...
-- [ ] ...
+- [ ] Explica, con una analogía y en tus propias palabras, qué es un `function` (una función), un `array` y un `object`
+- [ ] ¿Por qué son importantes las funciones en la programación?
+- [ ] ¿Qué se entiende por `DRY`?
+- [ ] ¿Qué significa "llamar" a una función?
+- [ ] ¿Cuál es la diferencia entre un parámetro y un argumento de una función?
+- [ ] ¿Qué significa el valor de `return` de una función?
+- [ ] ¿Qué sucede cuando una función tiene varios valores de `return`?
+- [ ]
+
+
+
+
 
 ***
 
