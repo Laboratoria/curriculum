@@ -15,7 +15,7 @@
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io).
+disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
 
 ***
 
@@ -140,7 +140,6 @@ var medalForScore = function (score) {
 ```
 
 Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones --- porque, recuerda, las funciones sólo pueden devolver una vez.
-
 
 ***
 
