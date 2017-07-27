@@ -126,9 +126,8 @@ En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué
 |   3   | lectura + code  |   10min  | Babel
 |   4   | lectura + code  |    5min  | JSX Externo
 |   5   | lectura + code  |   10min  | Precompile
-|   6   | lectura + code  |   15min  | Webpack
+|   6   | lectura + code  |   20min  | Webpack
 |   7   | lectura + code  |   10min  | Modularización
-|   8   | lectura         |    5min  | Re-cap
 
 
 ### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
