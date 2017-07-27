@@ -51,7 +51,7 @@ Michelle te explica por qué necesitarás un editor de texto para los ejercicios
 
 En el siguiente video, Michelle te guiará a través de los siguientes pasos para que crees tu primera web:
 
-1. <!--links_blank Descarga Atom, un editor de texto: https://atom.io/ -->Descarga Atom, un editor de texto: <a href="https://atom.io/" target="_blank">Descargar</a>
+1. <!--links_blank Descarga Atom, un editor de texto: https://atom.io/ -->Descarga Atom, un editor de texto: <a href="https://atom.io/" target="_blank">Descargar</a>. Si tienes problemas descargando Atom, puedes descargar otro editor de texto llamado Sublime Text, hay versión para Mac y Windows. Ten en cuenta que las explicaciones que te dará Michelle, estarán en Atom pero tú podrás hacer lo mismo en Sublime Text. <a href="https://www.sublimetext.com/3" target="_blank">Descarga Sublime aquí</a>
 2. Crea un documento HTML llamado `index.html`
 3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un párrafo)
 4. Guarda el documento HTML
