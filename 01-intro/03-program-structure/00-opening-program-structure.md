@@ -41,9 +41,6 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Por qué podemos resolver problemas más complejos sabiendo `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un ejemplo
 
 
-
-
-
 ***
 
 [Continuar](01-control-flow.md)
