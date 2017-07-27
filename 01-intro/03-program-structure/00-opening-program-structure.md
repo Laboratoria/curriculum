@@ -38,6 +38,9 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Cuál es la diferencia entre un parámetro y un argumento de una función?
 - [ ] ¿Qué significa el valor de `return` de una función?
 - [ ] ¿Qué sucede cuando una función tiene varios valores de `return`?
+- [ ] ¿Por qué podemos resolver problemas más complejos sabiendo `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un ejemplo
+
+
 
 
 
