@@ -345,6 +345,9 @@ Como, hemos visto, si dejaras afuera esa sentencia `break` o accidentalmente esc
 
 La palabra clave `continue` es similar a break en que influencia el progreso del bucle. Cuando se encuentra `continue` en el cuerpo de un bucle, el control sale del curpo del bucle inmediatamente y continúa en la próxima iteración del bucle.
 
+A continuación Michelle te ayuda explica, con un ejemplo, las aplocaciones de `break` y `continue` dentro de un `for`:
+[![ejemplo de break y continue](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+
 ***
 
 [Continuar](02-functions.md)
