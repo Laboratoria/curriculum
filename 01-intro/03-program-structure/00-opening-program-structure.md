@@ -22,7 +22,7 @@ A continuación una entrevista a [_"industry expert name"_] y [_"egresada de Lab
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los conceptos más importantes de lo que vamos a aprender y de los temas centrales que debemos prestar particular atención.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de responder al terminar esta unidad. Utiliza estas preguntas como guía para orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida que avanzas para validar que estás avanzando en la dirección correcta. Que te sirva como una especie de "checklist" que vas marcando a medida que vas progresando.
+A continuación te presentamos una serie de preguntas que debes ser capaz de responder al terminar esta unidad. Utiliza estas preguntas como guía para orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida que avanzas para validar que estás avanzando en la dirección correcta. Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - [ ] ¿Por qué quisiéramos modificar el control de flujo de un programa?
 - [ ] ¿Cuáles son las formas de modificar el flujo de un programa? Dibuja una representación de cada una
@@ -39,7 +39,6 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Qué significa el valor de `return` de una función?
 - [ ] ¿Qué sucede cuando una función tiene varios valores de `return`?
 - [ ] ¿Por qué podemos resolver problemas más complejos sabiendo `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un ejemplo
-
 
 ***
 
