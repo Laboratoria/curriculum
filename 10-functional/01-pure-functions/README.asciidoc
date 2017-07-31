@@ -183,11 +183,21 @@ En este punto cabe aclarar que las funciones puras no producen *efectos
 colaterales* o _side-effects_, pues el propósito de vida de una función pura es
 únicamente calcular el valor de retorno, solo eso y nada más.
 
-Cabe aclarar que en este contexto, consideramos a un *efecto colateral* como
-algo que sucede como resultado de llamar a una función y que *no es* el valor de
-retorno de dicha función. En la programación funcional, los efectos
-colaterales se usan con moderación. Ten en cuenta que la mutación de variables
-es un tipo de efecto colateral.
+[.lead]
+En las ciencias de la computación, una función o expresión se dice que tiene
+efectos colaterales si modifica algún estado fuera de su ámbito (_scope_), o si
+tiene interacciones observables con la función que la invocó, o si modifica el
+mundo exterior aparte de retornar el valor esperado. Por ejemplo, una función
+particular podría modificar una variable global (estado fuera de su ámbito),
+modificar uno de los argumentos mutables (interactuar con la función la invocó),
+levantar una excepción, escribir datos a un fichero o llamar a otra función que
+si tiene efectos colaterales. Ten en cuenta que ante la presencia de funciones
+con efectos colaterales, el comportamiento de un programa podría depender de su
+historia, esto quiere decir que el orden de evaluación importa. Por lo tanto, la
+comprensión y análisis de una función con efectos colaterales requiere
+conocimientos acerca de su contexto y su posible historia, lo cual hace más
+difícil la corrección de errores. En la programación funcional, los efectos
+colaterales se usan con moderación.
 
 Veamos un ejemplo de efecto colateral y como podemos evitarlo.
 
@@ -342,3 +352,4 @@ lo veremos en una siguiente lección.
 [bibliography]
 - [[[lisp]]] Conrad Barski. 2010. Land of Lisp: Learn to Program in Lisp, One Game at a Time! (1st ed.). No Starch Press, San Francisco, CA, USA. Page 301.
 - [[[eliot]]] https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976[Master the JavaScript Interview: What is a Pure Function?]. En Medium. Consultado el 11 de Julio de 2017
+- https://en.wikipedia.org/wiki/Side_effect_(computer_science)[Side effect (computer science)]
