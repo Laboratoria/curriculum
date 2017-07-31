@@ -202,7 +202,7 @@ mapa como marcadores.
 Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
 `geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
 `auth`, `xhr`, `microservices`, `broadcasting`, `progressive-web-apps`,
-`firebase`, `cloud computing`, `saas-pass-iaas`, `deployment`.
+`firebase`, `cloud computing`, `saas-paas-iaas`, `deployment`.
 
 Tiempo estimado: _3 semanas_.
 
