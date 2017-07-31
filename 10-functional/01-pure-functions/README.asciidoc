@@ -25,7 +25,14 @@ objeto muy anidado.
 Procedimientos:: Una función puede ser llamada para realizar una serie de pasos
 (receta). *La secuencia es conocida como procedimiento* (primero haz esto, luego
 haz aquello), el estilo de programación bajo este estilo se denomina
-*programación imperativa*.
+*programación por procedimientos*, la cual está enmarcada en la *programación
+imperativa*, donde se usan sentencias que modifican o mutan el estado del
+programa, de la misma forma en la que mandatos imperativos expresan comandos en
+nuestro lenguaje natural, un programa imperativo consiste en comandos que la
+computadora debe realizar. La programación imperativa se enfoca en describir
+_cómo_ un programa opera, mientras que en la programación funcional nos
+enfocamos en _qué_ debe realizar un programa sin especificar _cómo_ dicho
+programa debe alcanzar el resultado.
 Entrada/Salida:: Algunas funciones existen para comunicarse con otras partes o
 subsistemas, por ejemplo: la pantalla, almacenamiento, registro de operaciones
 en disco, operaciones a través de la red.
@@ -353,3 +360,4 @@ lo veremos en una siguiente lección.
 - [[[lisp]]] Conrad Barski. 2010. Land of Lisp: Learn to Program in Lisp, One Game at a Time! (1st ed.). No Starch Press, San Francisco, CA, USA. Page 301.
 - [[[eliot]]] https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976[Master the JavaScript Interview: What is a Pure Function?]. En Medium. Consultado el 11 de Julio de 2017
 - https://en.wikipedia.org/wiki/Side_effect_(computer_science)[Side effect (computer science)]
+- https://en.wikipedia.org/wiki/Imperative_programming[Imperative Programming]
