@@ -9,6 +9,7 @@
 - ¡Aclarar todas las dudas que tengas!
 
 ## Slides
+- [Slides de la clase](link)
 
 ***
 [Continuar](07-guided-exercises-workshop-program-structure.md)

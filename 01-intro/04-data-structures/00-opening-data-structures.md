@@ -5,13 +5,13 @@
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-- Dos estructuras de datos elementales de la programación en JavaScript: `arreglos` y `objetos`
+- Dos estructuras de datos elementales de la programación en JavaScript: `arrays` y `objects`
 - A utilizar estos conceptos para resolver problemas aún más complejos y crear productos más elaborados en la web
 
 ## ¿Por qué aprender esto?
 
 A continuación una entrevista a [_"industry expert name"_] y [_"egresada de Laboratoria name"_], quienes nos cuentan sobre la importancia de este tema, respondiendo las siguientes preguntas:
-  - ¿Por qué es importante saber de `arreglos` y `objetos`?
+  - ¿Por qué es importante saber de `arrays` y `objects`?
   - ¿Cuándo vemos aplicaciones de estos conceptos en el mundo real?
   - ¿Esto es algo que deben saber solo programadores?
   - ¿Qué _tips_ tienes para alguien que recién empieza a aprender estos temas?

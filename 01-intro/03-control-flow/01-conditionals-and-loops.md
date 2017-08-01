@@ -1,10 +1,10 @@
-# Control de Flujo
+# Estructuras condicionales y repetitivas
 - Formato: `lectura`
 - Duración: `30min`
 
 ## Objetivos
 
-- Aprender cuáles son las estructuras básicas del control de flujo de un programa
+- Entender qué es el control de flujo de un programa
 - Entender qué son `estructuras condicionales` y cómo afectan el flujo del programa
 - Entender qué son `estructuras repetitivas` y cómo afectan el flujo del programa
 

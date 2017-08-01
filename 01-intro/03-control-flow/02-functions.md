@@ -80,6 +80,11 @@ console.log("El cuadrado de 12 es " + square(12));
 
 Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`. Éste se concatena con el texto `"El cuadrado de 12 es "` para formar `"El cuadrado de 12 es 144"`; lo cual, a su vez, se pasa como argumento a la función `console.log` para que lo imprima en la consola.
 
+## Funciones y control de flujo
+Las funciones también afectan el control de flujo de nuestro programa. [FALTA EXPANDIR]. Una representanción gráfica del flujo de control con funciones sería:
+
+![Flujo con funciones](http://eloquentjavascript.net/img/controlflow-straight.svg)
+
 ## Múltiples parámetros
 
 Una función puede tener varios parámetros o puede no tener ninguno. En el siguiente ejemplo `makeNoise` no tiene parámetros, mientras que `power` tiene dos:
@@ -119,7 +124,7 @@ var fifthLetter = function (name) {
   if (name.length < 5) {
   return;
   }
-  return "The fifth letter of your name is " + name[4] + ".";
+  return "La quinta letra de tu nombre es " + name[4] + ".";
 };
 ```
 
@@ -139,7 +144,7 @@ var medalForScore = function (score) {
 };
 ```
 
-Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones --- porque, recuerda, las funciones sólo pueden devolver una vez.
+Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones --- porque, recuerda, **las funciones sólo pueden devolver una vez**.
 
 ***
 
