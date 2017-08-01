@@ -1,8 +1,10 @@
 # Referencias
 
-En el flow estándar de `React`, las `props` son la única forma que tienen los componentes padre, de interactuar con sus `children`. Para modificar un nodo hijo, lo re-renderizas con nuevas `props`. Sin embargo, hay ciertas situaciones en las que necesitas poder modificar un nodo hijo de manera imperativa. El nodo a modificar puede ser tanto una instancia de un componente definido como clase, como un elemento del DOM.
+En el flow estándar de `React`, las `props` son la única forma que tienen los componentes padre, de interactuar con sus `children`. Si quieres modificar un nodo hijo, lo re-renderizas con nuevas `props` y listo.
 
-### Cuándo usar Refs
+Sin embargo, hay ciertas situaciones en las que necesitas poder modificar un nodo hijo de manera imperativa. El nodo a modificar puede ser tanto una instancia de un componente definido como clase, como un elemento del DOM.
+
+### Cuándo usar referencias
 
 Hay un par de casos de uso válidos para usar refs:
 
@@ -12,13 +14,13 @@ Hay un par de casos de uso válidos para usar refs:
 
 > Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
 
-Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos `abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
+> Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos `abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
 
 ### Agregar una referencia a un elemento del DOM
 
 `React` soporta un atributo especial que puede ser asignado a cualquier componente. El atributo `ref` recibe una función callback, la cual se ejecutará inmediatamente después de que el componente se monte o desmonte.
 
-Cual el atributo `ref` es usado en un elemento HTML, la función callback recibe el elemento DOM como argumento attribute is used on an HTML element, the `ref` callback receives the underlying DOM element as its argument.:
+Cuando el atributo `ref` es usado en un elemento HTML, la función callback recibe el elemento DOM como argumento:
 
 ```javascript
 class CustomTextInput extends React.Component {
@@ -56,7 +58,7 @@ class CustomTextInput extends React.Component {
 
 ### Agregando una referencia a un componente `statefull`
 
-Cuando usamos `ref` en un componente declarado con una clase, el callback recibe como argumento, la instancia montada del componente montada. Por ejemplo, si queremos hacer autofocus en el componente `CustomTextInput`, podemos renderizarlo desde un componente padre, que ejecute el método `CustomTextInput.focus()` cuando se monte:
+Cuando usamos `ref` en un componente declarado con una clase, el callback recibe como argumento la instancia montada del componente. Por ejemplo, si queremos hacer autofocus en el componente `CustomTextInput`, podemos renderizarlo dentro de un componente padre, que ejecute el método `CustomTextInput.focus()` cuando se monte:
 
 ```javascript
 class AutoFocusTextInput extends React.Component {
@@ -75,4 +77,4 @@ class AutoFocusTextInput extends React.Component {
 
 > Ten en cuenta que esto **solo funciona** si `CustomTextInput` está declarado como clase
 
-> **Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen instancias**. Si necesitas usar `ref` con un componente `stateles`, conviértelo en `statefull`
+> **Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen instancias**. Si necesitas usar `ref` con un componente `stateless`, deber convertirlo en `statefull`.
