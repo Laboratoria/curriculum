@@ -217,7 +217,7 @@ Realiza esta comparación en tu consola:
 3 > 2
 // returns > true
 
-2 < 3
+2 > 3
 // returns > false
 
 typeof (3 > 2)
