@@ -111,7 +111,7 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 
 ### Lesson 2: [JSX, Babel y Webpack](02-L02-jsx-babel-webpack/index.md)
 
-70min (self-paced)
+60min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
@@ -119,40 +119,35 @@ En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué
 
 #### Lesson plan
 
-| Orden |      Tipo       | Duración | Descripción
-|-------|-----------------|----------|------------
-|   1   | lectura         |    5min  | Intro
-|   2   | lectura + code  |   10min  | JSX
-|   3   | lectura + code  |   10min  | Babel
-|   4   | lectura + code  |    5min  | JSX Externo
-|   5   | lectura + code  |   10min  | Precompile
-|   6   | lectura + code  |   15min  | Webpack
-|   7   | lectura + code  |   10min  | Modularización
-|   8   | lectura         |    5min  | Re-cap
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto         |    5min  | Intro
+|   2   | texto + code  |   10min  | JSX
+|   3   | texto + code  |   10min  | Babel
+|   4   | texto + code  |    5min  | JSX Externo
+|   5   | texto + code  |   10min  | Precompile
+|   6   | texto + code  |   15min  | Webpack
+|   7   | texto + code  |   10min  | Modularización
 
 
 ### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
 
-1h (self-paced)
+50min (self-paced)
 
-En esta lección vamos a aprender al detalle qué es, cómo se declara y cómo se usa un Componente. Veremos en qué se convierte nuestro código jsx una vez empaquetado, para entender mejor la relación entre react, js y jsx.
+Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido como especificar nuestras `props` en la signatura misma de nuestros componentes. En esta lección nos vamos a enfocar la especificación de sus tipos, opcionalidad y valores por defectos.
 
-Luego veremos cómo podemos pasarle parámetros a los componentes a través de sus `props`.
+Luego analizaremos la propiedad especial `children` y como manipularla con `.map` y `.filter`.
 
-Revisaremos todas las herramientas que nos da React para definir, especificar y validar estas props, y por qué es tan importante hacerlo.
 
 #### Lesson plan
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Componentes stateless: Creando interfaces con funciones.
-|   2   | texto  |   10min  | One-direction dataflow y props
-|   3   | code   |   10min  | Ejercicio: Composición de componentes stateless
-|   4   | texto  |    5min  | Props: propTypes y defaultProps
-|   5   | code   |   10min  | Ejercicio: propTypes y defaultProps
-|   6   | texto  |   5min   | `children` property
-|   7   | code   |   10min  | Ejercicio: usando .map y .filter
-|   8   | qa     |    5min  | Re-cap
+|   1   | texto  |   10min  | Props: `propTypes` y `defaultProps`
+|   2   | code   |   10min  | Ejercicio: `propTypes` y `defaultProps`
+|   3   | texto  |   10min  | `children` property y `React.Children` utils
+|   4   | code   |   10min  | Ejercicio: usando `children` 
+|   5   | qa     |   10min  | Re-cap
 
 
 ### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](04-W01-kickstart/index.md)
@@ -182,10 +177,9 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
+|   2   | texto  |   10min  | One-direction dataflow, props y state
 |   1   | texto  |    7min  | Higher order components (HOC)
 |   2   | code   |    8min  | Ejercicio: Higher order components (HOC)
-|   3   | texto  |    7min  | Data injection y middlewares
-|   4   | code   |    8min  | Ejercicio: Data injection y middlewares
 |   5   | texto  |    7min  | `function` props (aka actions)
 |   6   | code   |    8min  | Ejercicio: Actions
 |   3   | code   |   10min  | Ejercicio de integración
@@ -320,11 +314,12 @@ Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos d
 
 ## Lecturas complementarias
 
+* [React resources](https://x-team.com/react-resources/)
 * [React - página oficial](https://facebook.github.io/react/)
 * [React patterns](http://reactpatterns.com)
 * [Functional React - Get your App outta my Component](https://medium.com/@adamterlson/functional-react-series-part-1-get-your-app-outta-my-component-92656ae13e25?ref=mybridge.co)
 * [React in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
-* [Everything can be a component](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component) https://hackernoon.com/understanding-state-and-props-in-react-94bc09232b9c
+* [Everything can be a component](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component)
 * [30 days of react](https://github.com/fullstackreact/30-days-of-react)
 * [Awesome React](https://github.com/enaqx/awesome-react)
 * [Recursos para aprender React en español](https://github.com/jlobos/react-espanol)
