@@ -2,9 +2,7 @@
 
 Hay ocasiones en las que el uso de un estado global y compartido, no es la forma ideal de expresar el estado de nuestro componente, ya sea porque es demasiado complicado, porque no queremos contaminar el estado global con estados internos de muy bajo nivel, u otros motivos.
 
-Tomemos el siguiente ejemplo (TODO link a ejemplo base)
-
-Si chequeas el código de `main.js` verás que para mantener la continuidad de la actualización tenemos que usar `ReactDOM.render()` para cambiar el `output`:
+Tomemos el siguiente ejemplo:
 
 ```javascript
 function Reloj({ fecha }) {
@@ -28,9 +26,11 @@ setInterval(tick, 1000);
 
 [Try it on CodePen.](http://codepen.io/gaearon/pen/gwoJZk?editors=0010)
 
-En esta sección veremos como hacer de `Reloj` un componente reusable y encapsulado, pero en lugar de usar el enfoque funcional, vamos a utilizar el enfoque orientado a objetos que provee `React`: `Reloj` se encargará de configurar su propio timer y actualizarse por si sólo cada segundo.
+> Fíjate que para mantener la continuidad de la actualización tenemos que usar `ReactDOM.render()` para cambiar el `output` cada vez.
 
-Lo que necesitamos es escribir una única vez el siguiente código
+En esta sección veremos cómo hacer de `Reloj` un componente reusable y encapsulado, pero en lugar de usar el enfoque funcional, vamos a utilizar el enfoque ***orientado a objetos*** que provee `React`: `Reloj` se encargará de configurar su propio timer y actualizarse por si sólo cada segundo.
+
+Nuestro objetivo es escribir una única vez el siguiente código
 
 ```javascript
 ReactDOM.render(
@@ -38,26 +38,24 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-y que `Reloj` se encargue el mismo de actualizarse cada un segundo.
+y que `Reloj` se encargue el mismo de todo lo necesario para seguir funcionando.
 
-Para implementar esto, necesitamos agregar un estado (`state`) al componente `Reloj`.
-
-El `state` local es similar a las `props`, con la diferencia de que es privado y completamente controlado por el componente.
+Para implementar esto, necesitamos agregar un **estado local** (`state`) al componente `Reloj`. El `state` local es similar a las `props`, con la diferencia de que es privado y completamente controlado por el componente.
 
 Los componentes definidos como `class` tienen algunos `features` adicionales, no presentes en los componentes `stateless` . El `state` local es uno de ellos.
 
 
 ## Conviertiendo una función en clase
 
-Para convertir un componente `stateless` como `Reloj` en una clase, sogue estos 4 pasos:
+Para convertir un componente `stateless` como `Reloj` en una clase, sigue estos 4 pasos:
 
-1. Crea un [clase de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes)) (`class`) y has que extienda de `React.Component`.
+1. Crea una [clase de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) (`class`) y has que extienda de `React.Component`.
 
 2. Crean un método en tu clase, llamado `render()`.
 
-3. Mueve el cuerpo de tu antigua funcion como cuerpot de tu método `render()`.
+3. Mueve el cuerpo de tu antigua funcion al cuerpo de tu método `render()`.
 
-4. Tus `props` que antes recibias como parámetros, ahora están accesibles a través `this.props` dentro de `render()`.
+4. Tus `props` que antes recibias como parámetro, ahora están accesibles a través `this.props` dentro de `render()`.
 
 ```js
 class Reloj extends React.Component {
@@ -83,60 +81,60 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
 
 1. Reemplazamos la asignación desde `this.props` a `this.state`
 
-```js
-class Reloj extends React.Component {
-  render() {
-    const { fecha } = this.state
-    return (
-      <div>
-        <h1>Hola Mundo!</h1>
-        <h2>Son las {fecha.toLocaleTimeString()}.</h2>
-      </div>
-    );
+  ```js
+  class Reloj extends React.Component {
+    render() {
+      const { fecha } = this.state
+      return (
+        <div>
+          <h1>Hola Mundo!</h1>
+          <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+        </div>
+      );
+    }
   }
-}
-```
+  ```
 
 2. Agregamos un [constructor](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Constructor) que asigne el valor inicial de `this.state`:
 
-```js
-class Reloj extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { fecha: new Date() };
+  ```js
+  class Reloj extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = { fecha: new Date() };
+    }
+
+    render() {
+      const { fecha } = this.state
+      return (
+        <div>
+          <h1>Hola Mundo!</h1>
+          <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+        </div>
+      );
+    }
   }
+  ```
 
-  render() {
-    const { fecha } = this.state
-    return (
-      <div>
-        <h1>Hola Mundo!</h1>
-        <h2>Son las {fecha.toLocaleTimeString()}.</h2>
-      </div>
-    );
-  }
-}
-```
+  Nota como pasamos las `props` al constructor de `React.Component`:
 
-Nota caomo pasamos las `props` al constructor de `React.Component`:
+  ```js
+    constructor(props) {
+      super(props);
+      this.state = { fecha: new Date() };
+    }
+  ```
 
-```js
-  constructor(props) {
-    super(props);
-    this.state = { fecha: new Date() };
-  }
-```
-
-> Los componentes `statefull` **siempre** deverían invocar al constructor de la superclase con `props` como parámetro.
+  > Los componentes `statefull` **siempre** deverían invocar al constructor de la superclase con `props` como parámetro.
 
 3. Quita la propiedad `fecha` del elemento `<Reloj />`:
 
-```js
-ReactDOM.render(
-  <Reloj />,
-  document.getElementById('root')
-);
-```
+  ```js
+  ReactDOM.render(
+    <Reloj />,
+    document.getElementById('root')
+  );
+  ```
 
 The result looks like this:
 
@@ -175,7 +173,7 @@ Entonces, nosotros queremos [configurar un timer](https://developer.mozilla.org/
 
 Y de manera análoga, queremos [limpiar el  timer](https://developer.mozilla.org/es-ES/docs/Web/API/WindowTimers/clearInterval) cuando el DOM producido por `Reloj` es removido. Esto se llama *desmontar* (`unmount`) un componente.
 
-Definimos métodos espciales dentro de nuestra clase para ejecutar instruciones cada vez que el componente se monta o desmonta:
+Definimos métodos espciales dentro de nuestra clase para ejecutar instruciones cada vez que el componente se *monta* o *desmonta*:
 
 ```js
 class Reloj extends React.Component {
@@ -216,7 +214,7 @@ El hook `componentDidMount()` se ejecuta después de que el output del component
   }
 ```
 
-Fíjate que guardamos el ID del creado directamente como una propiedad de `this`.
+Fíjate que guardamos el ID del timer creado, directamente como una propiedad de `this`.
 
 Mientras que `this.props` es setteado por React y `this.state` tiene un significado especial, como en cualquier clase, eres libre de agregar manualmente campos adicionales a tu clase si necesitas guardar alguna información, siempre y cuando su valor no esté relacionado con el output de tu `render()`.
 
@@ -354,7 +352,7 @@ Que podemos modificar granularmente
   }
 ```
 
-Cuando se ejecuta `this.setState({ comments })`, `this.state.posts` que intacto, mientras que `this.state.comments` es completamente reemplazado.
+Cuando se ejecuta `this.setState({ comments })`, `this.state.posts` queda intacto, mientras que `this.state.comments` es completamente reemplazado.
 
 ## Encapsulamiento
 
@@ -379,14 +377,14 @@ ReactDOM.render(
 
 [Try it on CodePen.](http://codepen.io/gaearon/pen/vXdGmd?editors=0010)
 
-Como puede ver cada `Reloj` inicia su propio timer y se actualiza de manera independiente.
+Como puedes ver cada `Reloj` inicia su propio timer y se actualiza de manera independiente.
 
-> En `React` si un componente es `statefull` o `stateless` se considera un detalle de implementación del componente y puede cambiar con el tiempo. Esto quiere decir que puedes usar componentes `stateless` dentro de componentes `stateful` y vice-versa.
+> En `React` si un componente es `statefull` o `stateless` se considera un detalle de implementación del componente y esta condición puede cambiar con el tiempo. Esto quiere decir que puedes usar componentes `stateless` dentro de componentes `stateful` y vice-versa.
 
-> Sólo debes utilizar el estado local de un componente cuando **puedas asegurar** que no necesitarás compartir esa información con el "exterior"}
+> Sólo debes utilizar el estado local de un componente cuando **puedas asegurar** que no necesitarás compartir esa información con el "exterior"
 
 <br />
 
 > Chequea todos los *hooks* disponibles en la [documentación de `React`](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
 
-> [Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/04-L04-oop/static/lifecycle.jpg)
+> ![Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/04-L04-oop/static/lifecycle.jpg)
