@@ -1,4 +1,4 @@
-# Introducción Program Structure (opening)
+# Introducción: Control Flow (opening)
 - Formato: `lectura`
 - Duración: `30min`
 

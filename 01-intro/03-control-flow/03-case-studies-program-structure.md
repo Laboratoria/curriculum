@@ -1,4 +1,4 @@
-# Casos de estudio: aplicando conceptos para resolver problemas
+# Control de flujo aplicado
 - Formato: `video`
 - Duración: `50min`
 

@@ -1,4 +1,4 @@
-# Closing: Program Structure
+# Closing: Control FLow
 - Formato: `clase presencial`
 - Duración: `30min`
 
