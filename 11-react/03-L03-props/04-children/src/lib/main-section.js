@@ -37,7 +37,7 @@ const MainSection = ({ titulo, articles }) => {
 
 MainSection.propTypes = {
   titulo: PropTypes.string.isRequired,
-  articles: PropTypes.arrayOf(PropsTypes.shape({
+  articles: PropTypes.arrayOf(PropTypes.shape({
     titulo: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired
   })).isRequired

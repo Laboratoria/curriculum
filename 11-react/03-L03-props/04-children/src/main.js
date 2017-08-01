@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
 import Page from './lib/page';
+import Header from './lib/header';
+import MainSection from './lib/main-section';
+import Aside from './lib/aside';
+
 require("./styles.css");
 
 const render = (Component, props = {}) => {
