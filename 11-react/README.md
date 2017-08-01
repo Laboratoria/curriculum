@@ -188,7 +188,7 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 
 ### Lesson 5: [React OOP: ciclo de vida, estado interno y refs](06-L05-oop/index.md)
 
-50 min (self-paced)
+45 min (self-paced)
 
 React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
 
@@ -202,7 +202,7 @@ Y por último veremos casos en los que a dos componentes no les alcanza con comp
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
 |   1   | texto  |   15min  | Ciclo de vida y estado local
-|   2   | texto  |   15min  | `refs`
+|   2   | texto  |   10min  | `refs`
 |   3   | code   |   20min  | Ejercicio: cuenta regresiva
 
 
