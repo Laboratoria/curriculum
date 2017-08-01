@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](05-quiz-1-program-structure.md)
+[Continuar](04-quiz-1-control-flow.md)

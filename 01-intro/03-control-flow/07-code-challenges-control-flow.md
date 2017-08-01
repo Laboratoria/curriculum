@@ -33,4 +33,4 @@
 Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
 
 ***
-[Continuar](09-solutions-code-challenges-program-structure.md)
+[Continuar](08-solutions-code-challenges-control-flow.md)

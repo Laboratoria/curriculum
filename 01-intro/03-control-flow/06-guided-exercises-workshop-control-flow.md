@@ -41,4 +41,4 @@ Arma tu archivo JavaScript para que tenga 3 funciones:
 
 ***
 
-[Continuar](08-code-challenges-program-structure.md)
+[Continuar](07-code-challenges-control-flow.md)

@@ -42,4 +42,4 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 ***
 
-[Continuar](01-control-flow.md)
+[Continuar](01-conditionals-and-loops.md)

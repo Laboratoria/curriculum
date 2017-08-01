@@ -148,4 +148,4 @@ Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencia
 
 ***
 
-[Continuar](03-structured-programming-paradigm.md)
+[Continuar](03-applied-control-flow.md)
