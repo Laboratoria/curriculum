@@ -36,7 +36,7 @@ const  Aside = ({ links, titulo }) => {
 }
 
 Aside.propTypes = {
-  links: PropTypes.arrayOf(PropsTypes.shape({
+  links: PropTypes.arrayOf(PropTypes.shape({
     href: PropTypes.string.isRequired,
     texto: PropTypes.string.isRequired
   })).isRequired,

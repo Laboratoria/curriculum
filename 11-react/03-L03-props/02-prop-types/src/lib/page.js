@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import Header from './header'
 import MainSection from './main-section'
@@ -25,12 +26,12 @@ Page.propsTypes = {
   headerTitulo: PropTypes.string.isRequired,
   headerDescripcion: PropTypes.string,
   mainSectionTitulo: PropTypes.string.isRequired,
-  mainSectionArticles: PropTypes.arrayOf(PropsTypes.shape({
+  mainSectionArticles: PropTypes.arrayOf(PropTypes.shape({
     titulo: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired
   })).isRequired,
   asideTitulo: PropTypes.string.isRequired,
-  asideLinksPropTypes.arrayOf(PropsTypes.shape({
+  asideLinks: PropTypes.arrayOf(PropTypes.shape({
     href: PropTypes.string.isRequired,
     texto: PropTypes.string.isRequired
   })).isRequired
