@@ -230,10 +230,8 @@ Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y `github
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Software life cycle: dev, build, deploy
-|   2   | texto  |    5min  | Npm as a task runner
-|   3   | texto  |    5min  | Github pages
-|   5   | code   |   15min  | Ejercicio: Crear scripts de start, build y deploy
+|   1   | texto  |    5min  | Software life cycle: desarrollo, empaquetado y depliegue
+|   5   | code   |   15min  | Hands-on: Crear scripts `build` y `deploy`
 
 
 ### Workshop 3: [Meetup](09-W03-meetup/index.md)
