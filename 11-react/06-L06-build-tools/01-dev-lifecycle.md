@@ -1,12 +1,10 @@
 # Ciclo de desarrollo de software
 
-Una versión simplificada del ciclo de desarrollo de software lo podemos establecer como:
+Si simplificamos al mínimo el proceso de desarrollo de software, podríamos establecer 3 etapas básicas:
 
 - ### Desarrollo
 
-  Durante esta etapa es en la que creamos el producto que tenemos en mente. Para ese fin, es importante contar con herramientas que nos permitan **reconocer rápidamente un error** e **identificar dónde ocurre** para poder corregirlo.
-  
-  Por eso es muy práctico contar con herramientas que nos permitan obtener feedback de nuestros cambios tan rápido como sea posible.
+  Durante esta etapa es en la que creamos el producto que tenemos en mente. Para ese fin, es importante contar con herramientas que nos permitan **reconocer rápidamente un error** e **identificar dónde ocurre** para poder corregirlo, que nos permitan obtener feedback de nuestros cambios tan rápido como sea posible.
   
   Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
   
@@ -15,26 +13,31 @@ Una versión simplificada del ciclo de desarrollo de software lo podemos estable
   2. refresque el contenido cada vez que realizamos un cambio.
 
   
-  > Esto no sólo nos avisa cuando el contenido esta disponible (en lugar de presionar F5 hasta que la página esté disponible), además ahorra el paso extra de refrescar manualmente el navegador para comprobar un cambio, y como si todo lo anterior fuera poco, ni siquiera refresca realmente la página, sino que sólo altera el dom. Todo esto se resume en un experiencia de desarrollo (DX) mas fluída.
+  > `webpack`
+  - nos avisa cuando el contenido esta disponible (en lugar de presionar F5 hasta que la página esté disponible)
+  - ahorra el paso extra de refrescar manualmente el navegador para comprobar un cambio
+  - modifica el dom con los cambios sin ni siquiera refrescar la página.
+  
+  > Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de desarrollo (DX) mucho mas fluída.
   
 - ### Empaquetado
 
   Durante la etapa de desarrollo cuando ejecutamos nuestra aplicación nosotros necesitamos de mucha información y mucha de ella es agregada exclusivamente con esos fines.
   
-  Pero cuando nosotros queremos empaquetar nuestra aplicación para publicarla al mundo, necesitamos que sea tan pequeña como sea posible y que se ejecute lo más rápido posible.
+  Pero cuando nosotros queremos empaquetar nuestra aplicación para publicarla al mundo, necesitamos que sea tan **pequeña** como sea posible y que se ejecute lo más **rápido** posible.
   
-  En este escenario, decimos que nuestra aplicación debe estar **optimizada** para entorno de *producción*.
+  En este escenario, decimos que nuestra aplicación debe estar **optimizada** para un entorno de *producción*.
   
   Estos procesos de *empaquetado* (`bundling`) puede tener infinidad de pasos, algunos comunes:
   
   - concatenar, *minificar* y *uglifycar* todo el codigo de un mismo tipo en un solo archivo
   - optimizar imágenes, audio y video
   - crear sprites o versiones *retina* y *standard* para las iḿágenes de fondo
-  - e infinidad de cosas mas.
+  - ... infinidad de cosas mas.
   
 - ### Despliegue (`deployment`)
 
-  Pero nada de todo lo que hemos realizado hasta aquí tiene sentido si no se lo podemos mostrar al mundo (o por lo menos a nuestrxs amigxs).
+  Pero nada de todo lo que hemos realizado hasta aquí tiene sentido, si no se lo podemos mostrar al mundo (o por lo menos a nuestrxs amigxs).
   
   Una vez que tenemos nuestro *bundle* tenemos que decidir dónde lo publicamos. Existen *millones de alternativas*, para *millones de tecnologías*, **tanto de pago como gratuitas**.
   
