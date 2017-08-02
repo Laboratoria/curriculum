@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack --config webpack.prod.config.js --progress --profile --colors"
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
