@@ -6,6 +6,8 @@
 
 Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural como escribir `HTML`.
 
+## Migrando a JSX
+
 Por ejemplo, si tomamos el siguiente código de la lección anterior:
 
 ```javascript
@@ -27,7 +29,6 @@ ReactDOM.render(
   document.getElementById('cabecera')
 );
 ```
-
 
 Con `JSX` lo expresaríamos de la siguiente manera:
 
@@ -55,9 +56,27 @@ ReactDOM.render(
 
 Muchos mas elegante, ¿verdad?
 
+## Expresiones
+
+Fíjate como injectamos [expresiones `javascript`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) dentro de nuestros tags, usando llaves (`{}`), en este caso `titulo`
+```javascript
+const titulo = 'Saludo';
+
+return (
+  // ...
+    <h2>{titulo}</h2>
+  // ...
+)  
+```
+
+Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`, `formatDate(new Date())`
+
+## Renderizado condicional
+
+
 ¡Ahora vamos a usarlo!
 
-## Migrando a `JSX`
+## Ejercicio: Migrar a `JSX`
 
 Nuestro primer paso será configurar nuestra página, para que comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para que `babel` entienda que es su responsabilidad procesarlo.
 
