@@ -387,4 +387,4 @@ Como puedes ver cada `Reloj` inicia su propio timer y se actualiza de manera ind
 
 > Chequea todos los *hooks* disponibles en la [documentación de `React`](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
 
-> ![Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/04-L04-oop/static/lifecycle.jpg)
+> ![Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/L04-oop/static/lifecycle.jpg)

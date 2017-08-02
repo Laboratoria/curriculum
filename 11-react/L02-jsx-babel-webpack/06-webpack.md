@@ -14,7 +14,7 @@ Si te pones a analizar, verás que tenemos una aplicación fragmentada:
 
 `Webpack` es un empaquetador (`bundler`) de modulos y archivos (`assets`) para aplicaciones JavaScript modernas. Cuando `webpack` procesa tu aplicación crea un grafo de dependencias donde esta incluído cada módulo usado, así como todos los archivos estáticos referenciados, y crea un único archivo por tipo, con todo lo necesario para ejecutar tu aplicación.
 
-![webpack](https://github.com/Laboratoria/curricula-js/raw/11-react-intro/11-react/02-L02-jsx-babel-webpack/static/images/webpack.jpg)
+![webpack](https://github.com/Laboratoria/curricula-js/raw/11-react-intro/11-react/L02-jsx-babel-webpack/static/images/webpack.jpg)
 
 De esta manera proporciona una sola vía para importar y transformar todos los recursos de nuestra aplicación, independientemente de si es código `js`, una hoja de estilos, `html`, web fonts, data o imagenes.
 
