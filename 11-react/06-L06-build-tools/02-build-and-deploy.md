@@ -108,6 +108,6 @@
   }
   ```
 
-Ejecuta `yarn deploy` y chequea los resultados.
+Ejecuta `yarn deploy` y chequea los resultados en github.
 
 > El proceso de desarrollo es un ciclo constante de desarrollo, prueba, empaquetado y despliegue. Encapsular estos pasos con scripts para `start`, `build` y `deploy`, no sólo contribute a nuestra DX, sino que además permite automatizar los procesos de `empaquetado` y `despliegue` para llegar a lo que se llama en la industria como ***[delivery continuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.
