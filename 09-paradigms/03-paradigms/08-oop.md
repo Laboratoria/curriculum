@@ -63,7 +63,7 @@ console.log(note);
 
 En la consola deberías de ver algo así:
 
-```
+```text
 Note {
   text: 'comprar arroz',
   createdAt: 2017-06-14T22:39:51.987Z,

@@ -98,7 +98,7 @@ console.log(new ImageNote('http://foo.com/bar.png'));
 
 En la consola deberías ver algo así:
 
-```
+```text
 Note {
   url: 'http://foo.com/bar.png',
   text: 'an image note',
@@ -136,7 +136,7 @@ console.log(new ImageNote('http://foo.com/bar.png'));
 
 En la consola deberías ver algo así:
 
-```
+```text
 ImageNote {
   url: 'http://foo.com/bar.png',
   text: 'an image note',

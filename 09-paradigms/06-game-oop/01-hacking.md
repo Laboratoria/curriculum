@@ -52,7 +52,9 @@ Dentro de la carpeta `game-oop` hay un `README.md` con las instrucciones
 específicas de cómo crear los personajes.
 
 Al final del workshop tendrás que hacer commit de tus cambios, push a tu fork y
-finalmente un PR del branch `<tu-usuario-de-github>-game-oop` en tu fork a `<tu-usuario-de-github>-game-oop` en el repo alojado en la cuenta de Laboratoria.
+finalmente un PR del branch `<tu-usuario-de-github>-game-oop` en tu fork a
+`<tu-usuario-de-github>-game-oop` en el repo alojado en la cuenta de
+Laboratoria.
 
 ***
 

@@ -21,7 +21,7 @@ el año 1949, y que sigue vivo a día de hoy, eso sí, para cosas muy específic
 que nos son necesariamente lo que vemos los desarrolladores web, pero que sirve
 para este ejemplo ;-)
 
-```
+```assembly_x86
 section .text             ;section declaration
 
                           ;we must export the entry point to the ELF linker or
@@ -50,7 +50,7 @@ msg db    "Hello, world!",0xa    ;our dear string
 len equ   $ - msg                ;length of our dear string
 ```
 
-http://www.tldp.org/HOWTO/Assembly-HOWTO/hello.html
+[Fuente: Assembly-HOWTO](http://www.tldp.org/HOWTO/Assembly-HOWTO/hello.html)
 
 El snippet de arriba es un "hello world" escrito en `Assembly` (una versión
 moderna, pero muy parecido a lo que hubieras visto en los años 50). Lo único que
