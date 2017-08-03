@@ -1,4 +1,3 @@
-
 # Desestructuración de arrays y objetos
 
 ## Desestructuración de Arrays
@@ -25,7 +24,8 @@ let ichi, ni, san;
 [ichi, ni, san] = ["uno", "dos", "tres"];
 ```
 
-Yendo un poco más allá, podemos utilizar funciones para devolver un conjunto de valores y asignarlos de forma desestructurada:
+Yendo un poco más allá, podemos utilizar funciones para devolver un conjunto de
+valores y asignarlos de forma desestructurada:
 
 ```javascript
 function users(){
@@ -33,27 +33,18 @@ function users(){
 }
 ```
 
-De este modo podemos devolver cualquier número de valores de forma arbitraria. Hasta aquí ninguna novedad, pero si utilizamos la asignación desestructurada:
+De este modo podemos devolver cualquier número de valores de forma arbitraria.
+Hasta aquí ninguna novedad, pero si utilizamos la asignación desestructurada:
 
 ```javascript
 let [joan, carlos, david, dani] = users();
 console.log(joan, carlos, david, dani); // joan carlos david dani
 ```
 
-La asignación de variables se realiza en orden, el primer valor se asigna a la primera variable, el segundo a la segunda... y así.
+La asignación de variables se realiza en orden, el primer valor se asigna a la
+primera variable, el segundo a la segunda... y así.
 
-
-
-
-
-
-
-
-
-
-
-
-
+***
 
 * next() Iteration
 * Iterator Loop
