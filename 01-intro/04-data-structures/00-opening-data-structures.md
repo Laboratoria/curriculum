@@ -26,7 +26,8 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 - [ ] ...
 - [ ] ...
-- [ ] ...
+- [ ] ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
+- [ ] ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos más complejos?
 
 ***
 

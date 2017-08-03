@@ -25,4 +25,4 @@ Enunciado: Crea una función que invierta el orden de los elementos de un array
 
 4. Crea dos funciones que busquen un elemento en un array: linear search and binary search
 
-5. Enunciado: escribe una función llamada areArraysSame que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes. 
+5. Enunciado: escribe una función llamada areArraysSame que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
