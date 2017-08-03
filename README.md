@@ -106,8 +106,9 @@ regresando a tu web.
 
 El **Bootcamp** tiene una duración de 6 meses, a tiempo parcial. Las chicas
 postularán cuando hayan completado el curso de "Introducción a la programación".
-Una vez dentro, llevarán durante 9 semanas una serie de temas a la que denominamos
-**Common Core**, a partir de ahí podrán especializarse en 3 perfiles (`tracks`): `Front-End Developer`, `Maquetadora Web` y `UX Designer`.
+Una vez dentro, llevarán durante 9 semanas una serie de temas a la que
+denominamos **Common Core**, a partir de ahí podrán especializarse en 3 perfiles
+(`tracks`): `Front-End Developer`, `Maquetadora Web` y `UX Designer`.
 
 #### Common Core
 
@@ -125,15 +126,17 @@ verán temas de maquetación (HTML y CSS), lógica (JS), herramientas de flujo d
 trabajo (Git), además de interacción con el DOM para agregar dinamismo a través
 de eventos.
 
-* **Data Dashboard**: El entregable final del curso será una web app en la que deberán
-diseñar la experiencia del producto que consiste en mostrar el progreso de un listado de
-estudiantes, manipulando data almacenada en un arreglo de objetos y agregando funcionalidad
-que requiere algoritmos básicos como un filtro de búsqueda y ordenamiento.
+* **Data Dashboard**: El entregable final del curso será una web app en la que
+deberán diseñar la experiencia del producto que consiste en mostrar el progreso
+de un listado de estudiantes, manipulando data almacenada en un arreglo de
+objetos y agregando funcionalidad que requiere algoritmos básicos como un filtro
+de búsqueda y ordenamiento.
 
 Main tags: `html`, `css`, `ux`, `git`, `js`, `logic`, `dom`, `eventos`.
 
-Secondary tags: `semantic markup`, `box model`, `selectors`, `display`, `positioning`, `layout`, `grid-system`, `problem solving`, `dom`,
-`eventos`, `git`, `unix shell`, `github-pages`, `flows`, `sketching`.
+Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
+`positioning`, `layout`, `grid-system`, `problem solving`, `dom`, `eventos`,
+`git`, `unix shell`, `github-pages`, `flows`, `sketching`.
 
 Tiempo estimado: _4 semanas_.
 
@@ -152,28 +155,30 @@ retos técnicos como conectarse a APIs y visualización de datos.
 
 Main Tags: `basic-algorithms`, `scrum`, `mobile-first`, `bootstrap`, `jquery`, `ux`.
 
-Secondary tags: `big-o`, `time-complexity`, `sorting`, `searching`, `git-workflow`, `google-charts/d3`, `api`, `json`, `usability`, `information-architecture`.
+Secondary tags: `big-o`, `time-complexity`, `sorting`, `searching`,
+`git-workflow`, `google-charts/d3`, `api`, `json`, `usability`,
+`information-architecture`.
 
 Tiempo estimado: _4 semanas_.
 
-
 #### Front-End Development
 
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación
-y JavaScript de tal manera que puedan especializarse en `Front-End Development`.
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con
+la programación y JavaScript de tal manera que puedan especializarse en
+`Front-End Development`.
 
 ##### [04. Really get to know JavaScript by building your own library](#)
 
 _Autor: Belén Recabal & Iván Medina_
 
-Este curso incluye un poco más de teoría de lo habitual, entender las particularidades
-de JavaScript como lenguaje de programación, esto permitirá que nos preocupemos por el
-performance de nuestras aplicaciones escribiendo un mejor código sacando provecho del
-lenguaje.
+Este curso incluye un poco más de teoría de lo habitual, entender las
+particularidades de JavaScript como lenguaje de programación, esto permitirá que
+nos preocupemos por el performance de nuestras aplicaciones escribiendo un mejor
+código sacando provecho del lenguaje.
 
-* **UI Library**: El entregable final de este curso será construir una librería para
-desarrollo de interfaces, teniendo en cuenta el performance y manejo de memoria, que se
-usará para desarrollar una réplica de _[Pinterest](http://pinterest.com/)_.
+* **UI Library**: El entregable final de este curso será construir una librería
+para desarrollo de interfaces, teniendo en cuenta el performance y manejo de
+memoria, que se usará para desarrollar una réplica de _[Pinterest](http://pinterest.com/)_.
 
 Main tags: `values`, `types`, `operators`, `variables`, `control-flow`,
 `functions`, `objects`, `arrays`, `linter`.
@@ -193,10 +198,10 @@ En este curso se verán temas de `network` para entender qué es lo que sucede
 por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
-* **AIRDNA clone**: El entregable final de este curso es el desarrollo de un sitio como
-_[AIRDNA](https://www.airdna.co/investment-explorer)_ que muestre datos estadísticos
-en base a ubicaciones integrando el API de Google Maps y personalizando tanto el
-mapa como marcadores.
+* **AIRDNA clone**: El entregable final de este curso es el desarrollo de un
+sitio como _[AIRDNA](https://www.airdna.co/investment-explorer)_ que muestre
+datos estadísticos en base a ubicaciones integrando el API de Google Maps y
+personalizando tanto el mapa como marcadores.
 
 Main tags: `http`, `browser-apis`, `api`, `json`, `rest`, `xhr`, `firebase`,
 `deployment`.
@@ -214,16 +219,16 @@ _Autor: Iván Medina_
 En este curso vas a salir de JS, y vas a entender como integrar tu front-end
 con un back-end y aprovecharemos Ruby como lenguaje de programación aprovechando
 la sencillez de su framework Rails que integra a Sass como pre-procesador de CSS
-El desarrollo Front End es un mundo muy amplio tal como lo es el desarrollo Back End,
-y trabajar estos en conjunto es algo aun muy común en el desarrollo de software, por
-lo cual veremos como implementar lo que ya conocemos hasta el momento dentro de un
-framework Back End que puede estar realizado en cualquier lenguaje, pero que sigue un
-patrón muy similar.
+El desarrollo Front End es un mundo muy amplio tal como lo es el desarrollo
+Back End, y trabajar estos en conjunto es algo aun muy común en el desarrollo de
+software, por lo cual veremos como implementar lo que ya conocemos hasta el
+momento dentro de un framework Back End que puede estar realizado en cualquier
+lenguaje, pero que sigue un patrón muy similar.
 
-* **Fiverr clone**: El entregable final de este curso es replicar la experiencia del
-sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_
-teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente de la
-implementación del Front End.
+* **Fiverr clone**: El entregable final de este curso es replicar la experiencia
+del sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_
+teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente
+de la implementación del Front End.
 
 Main tags: `sass`, `rails`, `mv* back-end architecture`, `database`, `routing`.
 
@@ -270,8 +275,8 @@ una forma de pensar y construir interfaces, y no está ilimitado a una sóla
 plataforma; a través de la abstracción de los renderers podemos escribir
 interfaces nativas para web, mobile, desktop, tv, ...
 
-* **Slack clone**: El entregable de este curso será desarrollar una aplicación de mensajería
-como _[Slack clone](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
+* **Slack clone**: El entregable de este curso será desarrollar una aplicación
+de mensajería como _[Slack clone](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
 en la que se haga uso de React para la creación de componentes y además combine
 todo lo visto a lo largo del bootcamp.
 
@@ -288,16 +293,17 @@ _Autor: ???_
 El desarrollo de productos con JavaScript involucra muchos conceptos y mucho código,
 sin embargo, hay soluciones que ya han sido probadas en el desarrollo de diversos
 proyectos que nos dan una estructura y flujo definido, de tal manera que implementarlo
-nos permite despreocuparnos de algunos detalles, a esto se conoce como Framework, y
-como todo en tecnología, no hay solo una alternativa, sino, una gama de diversas
-opciones que nos permiten llegar a la mejor solución. Como curso final del track de
-`Front End Development`, se verán 2 conceptos fundamentales: `Data Binding` y
-`Virtual DOM`, con esto durante una semana se llevará a cabo una hackathon en la
-cual el reto será desarrollar un producto (debajo se muestra un ejemplo de complejidad)
-usando alguna librería y/o framework moderno de JS.
+nos permite despreocuparnos de algunos detalles, a esto se conoce como
+Framework, y como todo en tecnología, no hay solo una alternativa, sino, una
+gama de diversas opciones que nos permiten llegar a la mejor solución. Como
+curso final del track de `Front End Development`, se verán 2 conceptos
+fundamentales: `Data Binding` y `Virtual DOM`, con esto durante una semana se
+llevará a cabo una hackathon en la cual el reto será desarrollar un producto
+(debajo se muestra un ejemplo de complejidad) usando alguna librería y/o
+framework moderno de JS.
 
-* **Kickstarter clone**: El entregable de este curso será la réplica del flujo del sitio
-_[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
+* **Kickstarter clone**: El entregable de este curso será la réplica del flujo
+del sitio _[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
 en el cual debido a la cantidad de vistas y dependencias involucradas en este
 proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
 rápido y eficiente.
@@ -308,18 +314,20 @@ Tiempo estimado: _2 semanas_.
 
 #### UX Design
 
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el diseño
-de experiencia de usuario.
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con
+el diseño de experiencia de usuario.
 
 #### Maquetadoción Web
 
-En este track se encontrarán las estudiantes que sientan una mayor afinidad con el desarrollo
-y diseño de interfaces sin necesidad de profundizar tanto en la lógica de programación.
+En este track se encontrarán las estudiantes que sientan una mayor afinidad con
+el desarrollo y diseño de interfaces sin necesidad de profundizar tanto en la
+lógica de programación.
 
 #### Capstone Project
 
-En este último paso, se dará un espacio para que los diversos tracks se junten y desarrollen
-productos juntos, enlazando todos los skills aprendidos e integrándolos.
+En este último paso, se dará un espacio para que los diversos tracks se junten y
+desarrollen productos juntos, enlazando todos los skills aprendidos e
+integrándolos.
 
 ***
 
@@ -331,7 +339,7 @@ quiere ofrecer una selección de cursos que las ayude a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
 
-##### [09. Programming Paradigms](09-paradigms)
+#### [09. Programming Paradigms](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -349,7 +357,7 @@ refactorizar el código de la primera semana usando el paradigma funcional.
 Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
 `composition`.
 
-##### [10. Functional JavaScript](10-functional)
+#### [10. Functional JavaScript](10-functional)
 
 _Autor: L. Montero_
 
@@ -456,7 +464,6 @@ _Autor: ???_
 
 Tags: `http`, `file-system`, `express`, `api-development`, `deployment`.
 
-
 ##### [18. Databases](#)
 
 _Autor: ???_
@@ -495,7 +502,6 @@ Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 _Autor: ???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
-
 
 ##### [24. Estructuras de datos](#)
 
