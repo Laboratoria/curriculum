@@ -61,7 +61,7 @@ Por ahora sólo hay un _curso_ en la _fase_ `prep`. La idea es que son cursos
 dirigidos a gente que nunca ha tenido contacto con la programación, o
 principiantes que quieran iniciarse en el viaje del Full Stack JS.
 
-#### [00. Cursos/tutoriales de terceros](#)
+#### 00. Cursos/tutoriales de terceros
 
 Recomendamos a todas las interesadas que descarguen y sigan los siguientes
 cursos interactivos creados por la comunidad [nodeschool](http://nodeschool.io).
@@ -112,7 +112,7 @@ En este espacio, las estudiantes experimentarán un poco de los diversos tracks 
 la intención de descubrir su afinidad, no se verán todos los temas a profundidad,
 pero si lo necesario para poder entender en que track especializarse.
 
-##### [02. Building an Static and Dynamic Site](#)
+##### 02. Building a static site and making it dynamic
 
 Autor: _Iván Medina & ???_
 
@@ -136,7 +136,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 
 Tiempo estimado: _4 semanas_.
 
-##### [03. How to optimize your workflow through common Libraries/Frameworks](#)
+##### 03. Optimizing your workflow with common libraries and frameworks
 
 Autor: _Iván Medina & ???_
 
@@ -149,7 +149,8 @@ y frameworks que permitan optimizar el flujo del desarrollo.
   y frameworks que hagan el flujo más cercano al campo laboral, además, contiene
   retos técnicos como conectarse a APIs y visualización de datos.
 
-Main Tags: `basic-algorithms`, `scrum`, `mobile-first`, `bootstrap`, `jquery`, `ux`.
+Main Tags: `basic-algorithms`, `scrum`, `mobile-first`, `bootstrap`, `jquery`,
+`ux`.
 
 Secondary tags: `big-o`, `time-complexity`, `sorting`, `searching`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `usability`,
@@ -163,7 +164,7 @@ En este track se encontrarán las estudiantes que sientan una mayor afinidad con
 la programación y JavaScript de tal manera que puedan especializarse en
 `Front-End Development`.
 
-##### [04. Really get to know JavaScript by building your own library](#)
+##### 04. Really get to know JavaScript by building your own library
 
 Autor: _Belén Recabal & Iván Medina_
 
@@ -187,7 +188,7 @@ Secondary Tags: `es6`, `primitive-vs-reference`, `bitwise-operators`,
 
 Tiempo estimado: _3 semanas_.
 
-##### [05. Building a Multi User Single Page App using Remote Data](#)
+##### 05. Building a multi-user Single Page App (SPA) using remote data
 
 Autor: _Iván Medina_
 
@@ -209,7 +210,7 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 
 Tiempo estimado: _3 semanas_.
 
-##### [06. What every Front-End Developer needs to know about Back-End](#)
+##### 06. What every Front-End Developer needs to know about the Back-End
 
 Autor: _Iván Medina_
 
@@ -233,7 +234,7 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [07. Programming Paradigms in the real world](09-paradigms)
+##### 07. Programming Paradigms in the real world
 
 Autor: _L. Montero_
 
@@ -261,7 +262,7 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 
 Tiempo estimado: _3 semanas_.
 
-##### [08. React](#)
+##### 08. React
 
 Autor: _M. Crowe_
 
@@ -283,7 +284,7 @@ Secondary Tags: `es6`, `fp`, `components`, `virtual-dom`.
 
 Tiempo estimado: _2 semanas_.
 
-##### [09. Hackathon: Front-End Frameworks - Self-learning Experience](#)
+##### 09. Hackathon: Front-End Frameworks - Self-learning Experience
 
 Autor: _???_
 
@@ -386,7 +387,7 @@ interfaces nativas para web, mobile, desktop, tv, ...
 
 Tags: `react`, `jsx`, `webpack`, `babel`, `jest`
 
-#### [12. Redux](#)
+#### [12. Redux](12-redux)
 
 Autor: _M. Crowe / L. Montero_
 
@@ -456,37 +457,38 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-#### [17. NodeJS](#)
+#### 17. NodeJS
 
 Autor: _???_
 
-Tags: `http`, `file-system`, `express`, `api-development`, `deployment`.
+Tags: `npm`, `http`, `fs`, `path`, `streams`, `express`, `api-development`,
+`deployment`.
 
-#### [18. Databases](#)
+#### 18. Databases
 
 Autor: _???_
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-#### [19. ME*N Stack](#)
+#### 19. ME*N Stack
 
 Autor: _???_
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-#### [20. Micro services?](#)
+#### 20. Micro services?
 
 Autor: _???_
 
 Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
 
-#### [21. Análisis y visualización de datos](#)
+#### 21. Análisis y visualización de datos
 
 Autor: _???_
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-#### [22. WebOps/DevOps](#)
+#### 22. WebOps/DevOps
 
 Autor: _???_
 
@@ -495,13 +497,13 @@ Application deployment, management, maintenance, configuration and repair.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `repair`, `debugging`, ...
 
-#### [23. Algoritmos](#)
+#### 23. Algoritmos
 
 Autor: _???_
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### [24. Estructuras de datos](#)
+#### 24. Estructuras de datos
 
 Autor: _???_
 
@@ -530,14 +532,7 @@ Pero **POR FAVOR** no olvides leer detalladamente la
 
 Todos los materiales de este repo son (c) 2017 [Laboratoria](http;//laboratoria.la/).
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-  <img
-    alt="Creative Commons License"
-    style="border-width:0"
-    src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-  />
-</a>
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-Este trabajo está publicado bajo la licencia
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative
-commons Attribution-ShareAlike 4.0</a>.
+Este trabajo está publicado bajo la licencia [Creative commons
+Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
