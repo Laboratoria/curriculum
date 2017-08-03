@@ -11,6 +11,12 @@
 
 ***
 
-Durante esta sesión nos aseguraremos, acceso al repo, su propio fork, ...
+Durante esta sesión nos aseguraremos de que todxs tengan las herramientas
+necesarias para hacer el curso, `git` en particular, acceso al repo, su propio
+fork, ...
+
+Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
+problemas de instalación y resolver dudas con respecto a configuraciones y
+workflow.
 
 [Continuar](02-node%2Bnpm.md)

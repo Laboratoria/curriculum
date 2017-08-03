@@ -14,7 +14,7 @@
 
 ## Qué vamos a aprender?
 
-Cómo indica el nombre del curso, vamos a hablar de _Paradigmas de programación_,
+Como indica el nombre del curso, vamos a hablar de _Paradigmas de programación_,
 que son formas diferentes de pensar en cómo se organiza un programa.
 
 ### 1. Paradigmas en general
@@ -86,21 +86,20 @@ Al finalizar el curso, tu rama debería quedar con las siguientes carpetas:
 ├── coi
 ├── game-fp
 ├── game-oop
-├── paradigmas
+├── paradigms
 └── planetproto
 ```
 
 * `coi`: cada ejercicio de `Laboratoria/coi` será un archivo
 * `game-fp`: código fuente del juego con personajes usando factories
 * `game-oop`: código fuente del juego con personajes usando constructores/prototipos
-* `paradigmas`: cada ejercicio de `Laboratoria/learnyouparadigms` será un archivo
+* `paradigms`: cada ejercicio de `Laboratoria/learnyouparadigms` será un archivo
 * `planetproto`: cada ejercicio de `planetproto` será un archivo
 
 ## Evaluación
 
-* Ejercicios (30% => 3.3% x 3)
-* Proyectos (50% => 25% x 2)
-* Demos (20% => 10% x 2)
+* Ejercicios (40% => 13.3% x 3)
+* Proyectos/Demos (60% => 30% x 2)
 
 ***
 
