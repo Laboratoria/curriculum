@@ -168,7 +168,7 @@ Tiempo estimado: _4 semanas_.
 En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación
 y JavaScript de tal manera que puedan especializarse en `Front-End Development`.
 
-##### [04. Will you get to know JavaScript by building your own library](#)
+##### [04. Really get to know JavaScript by building your own library](#)
 
 _Autor: Belén Recabal & Iván Medina_
 
