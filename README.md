@@ -119,16 +119,11 @@ pero si lo necesario para poder entender en que track especializarse.
 
 _Autor: Iván Medina & ???_
 
-En este primer curso se construirá un sitio dinámico desde cero, empezando por entender
-los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán
-temas como HTML semántico, arquitectura de información, estilos (CSS), agregando interactividad
-con JavaScript a través del DOM y eventos, control de versionamiento de código con git,
-subiendo proyectos a Github y haciendo deployment a GitHub Pages, todo esto acompañado
-de talleres de UX que nos provean de una visión de creación productos eficientes.
-
-Durante este curso, se buscará que todos los temas sean involucrados en la práctica, es
-decir, HTML, CSS, JS y Git será usado en todos los proyectos en proporciones significativas
-con la finalidad de que se encuentren en constante práctica.
+En este primer curso se construirá un sitio dinámico desde cero pasando por las
+diversas fases del desarrollo de un producto web. A lo largo de este curso, se
+verán temas de maquetación (HTML y CSS), lógica (JS), herramientas de flujo de
+trabajo (Git), además de interacción con el DOM para agregar dinamismo a través
+de eventos.
 
 * **Data Dashboard**: El entregable final del curso será una web app en la que deberán
 diseñar la experiencia del producto que consiste en mostrar el progreso de un listado de
@@ -146,15 +141,14 @@ Tiempo estimado: _4 semanas_.
 
 _Autor: Iván Medina & ???_
 
-Debido a que los perfiles son afines, el siguiente paso es ver herramientas que se
-usan en el desarrollo web de manera profesional. Aquí se verán temas como: Agile (Scrum),
-Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
-DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
+En este curso se realizará la versión 2 del primer producto mejorando su
+visualización a través de diversos dispositivos y haciendo uso de librerías
+y frameworks que permitan optimizar el flujo del desarrollo.
 
-* **Data Dashboard v2**: El entregable final del curso será la versión 2 del primer producto,
-esto consiste en desarrollar el UI haciendo uso de librerías y frameworks que hagan el flujo
-más cercano al campo laboral, además, contiene retos técnicos como conectarse a APIs y
-visualización de datos.
+* **Data Dashboard v2**: El entregable final del curso será la versión 2 del
+primer producto, esto consiste en desarrollar el UI haciendo uso de librerías y
+frameworks que hagan el flujo más cercano al campo laboral, además, contiene
+retos técnicos como conectarse a APIs y visualización de datos.
 
 Main Tags: `basic-algorithms`, `scrum`, `mobile-first`, `bootstrap`, `jquery`, `ux`.
 
