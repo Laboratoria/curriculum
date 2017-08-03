@@ -1,0 +1,10 @@
+$ yarn run jest -- concat.test.js
+ PASS  ./concat.test.js
+  ✓ should concatenate the array on the right with the array on the left (5ms)
+  ✓ should not mutate external context (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.977s
+Ran all test suites matching "concat.test.js".

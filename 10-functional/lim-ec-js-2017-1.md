@@ -8,7 +8,7 @@
 * Lesson 2: [Funciones puras e inmutabilidad](#) 30min (self-paced)
 * Lesson 3: [Inmutabilidad](#) 30min (self-paced)
 * Lesson 4: [Recursión](#) 30min (self-paced)
-* Lesson 5: [HOF](#) 30min (self-paced)
+* Lesson 5: [Higher Order Functions (HOF)](#) 30min (self-paced)
 
 #### Sábado
 
@@ -24,7 +24,7 @@
 
 #### Sábado
 
-* Lesson 8: [Asicronía](#) 30min (self-paced)
+* Lesson 8: [Asincronía](#) 30min (self-paced)
 * Lesson 9: [Currying](#) 30min (self-paced)
 
 ### Week 3
