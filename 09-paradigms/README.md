@@ -33,6 +33,23 @@ _heredando_ del prototipo de un constructor ya implementado, mientras que en la
 segunda semana tendrán que refactorizar el código de la primera semana usando
 el paradigma funcional.
 
+## Público objetivo
+
+Este curso está pensado para alumnas que ya se han familiarizado con la
+programación en JavaScript y quieren llevar su conocimiento sobre el lenguage
+a otro nivel, entendiendo diferentes formas de "pensar" en cómo se estructura
+un programa.
+
+## Requerimientos previos
+
+Se asume que las alumnas ya han trabajado con variables, valores (tipos de
+datos), arreglos, objetos y funciones así como estructuras de control de flujo
+(bucles, condicionales, ...).
+
+Durante este curso se hará uso de algunas características de **ES2015**, así que
+un mínimo de familiaridad con `const`, `let`, _arrow-functions_,
+_deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
+
 ## Aprenderás
 
 * Qué son los **paradigmas de programación**
