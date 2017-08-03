@@ -115,11 +115,11 @@ En este espacio, las estudiantes experimentarán un poco de los diversos tracks 
 la intención de descubrir su afinidad, no se verán todos los temas a profundidad,
 pero si lo necesario para poder entender en que track especializarse.
 
-##### [02. Web Development: Getting Started](#)
+##### [02. Building an Static and Dynamic Site](#)
 
 _Autor: Iván Medina & ???_
 
-En este primer curso se construirá un sitio estático desde cero, empezando por entender
+En este primer curso se construirá un sitio dinámico desde cero, empezando por entender
 los diversos roles que intervienen en el desarrollo de un producto web. Luego, se verán
 temas como HTML semántico, arquitectura de información, estilos (CSS), agregando interactividad
 con JavaScript a través del DOM y eventos, control de versionamiento de código con git,
@@ -135,13 +135,14 @@ diseñar la experiencia del producto que consiste en mostrar el progreso de un l
 estudiantes, manipulando data almacenada en un arreglo de objetos y agregando funcionalidad
 que requiere algoritmos básicos como un filtro de búsqueda y ordenamiento.
 
-Tags: `html5`, `semantic markup`, `css3`, `box model`, `selectors`, `display`, `positioning`,
-`layout`, `grid-system`, `problem solving (logic)`, `dom`,`eventos`, `git`, `unix shell`,
-`github-pages`, `ux`, `design-thinking`, `ux-discovery`, `ux-research`.
+Main tags: `html`, `css`, `ux`, `git`, `js`, `logic`, `dom`, `eventos`.
+
+Secondary tags: `semantic markup`, `box model`, `selectors`, `display`, `positioning`, `layout`, `grid-system`, `problem solving`, `dom`,
+`eventos`, `git`, `unix shell`, `github-pages`, `flows`, `sketching`.
 
 Tiempo estimado: _4 semanas_.
 
-##### [03. Web Development: Getting Deeper](#)
+##### [03. How to optimize your workflow through common Libraries/Frameworks](#)
 
 _Autor: Iván Medina & ???_
 
@@ -150,14 +151,14 @@ usan en el desarrollo web de manera profesional. Aquí se verán temas como: Agi
 Test Driven Development, Progressive Enhancement (Mobile First), CSS Frameworks,
 DOM JavaScript libraries (e.g. jQuery), Git Workflow para equipos.
 
-Tags: `algorithms`, `big-o`, `time complexity`, `searching`, `sorting`, `scrum`, `tdd`,
-`unit-testing`, `mocha`, `media-queries`, `bootstrap`, `flexbox`, `data-attributes`,
-`jquery`, `git-workflow`, `xhr`, `api`, `json`, `synthetize-and-define`, `sketch`, `d3`.
-
 * **Data Dashboard v2**: El entregable final del curso será la versión 2 del primer producto,
 esto consiste en desarrollar el UI haciendo uso de librerías y frameworks que hagan el flujo
 más cercano al campo laboral, además, contiene retos técnicos como conectarse a APIs y
 visualización de datos.
+
+Main Tags: `basic-algorithms`, `scrum`, `mobile-first`, `bootstrap`, `jquery`, `ux`.
+
+Secondary tags: `big-o`, `time-complexity`, `sorting`, `searching`, `git-workflow`, `google-charts/d3`, `api`, `json`, `usability`, `information-architecture`.
 
 Tiempo estimado: _4 semanas_.
 
@@ -167,7 +168,7 @@ Tiempo estimado: _4 semanas_.
 En este track se encontrarán las estudiantes que sientan una mayor afinidad con la programación
 y JavaScript de tal manera que puedan especializarse en `Front-End Development`.
 
-##### [04. JS Deep Dive](#)
+##### [04. Will you get to know JavaScript by building your own library](#)
 
 _Autor: Belén Recabal & Iván Medina_
 
@@ -180,13 +181,17 @@ lenguaje.
 desarrollo de interfaces, teniendo en cuenta el performance y manejo de memoria, que se
 usará para desarrollar una réplica de _[Pinterest](http://pinterest.com/)_.
 
-Tags: `es6`, `primitive-vs-reference`, `bitwise operators`, `function statement`,
-`function expression`, `callbacks`, `hoisting`, `execution context`, `iife`, `closure`, `apply`,
-`call`, `bind`, `this`, `scope`, `regexp`, `mutability`, `prototype`, `compiler`, `performance`, `memory-management`.
+Main tags: `values`, `types`, `operators`, `variables`, `control-flow`,
+`functions`, `objects`, `arrays`, `linter`.
+
+Secondary Tags: `es6`, `primitive-vs-reference`, `bitwise-operators`,
+`function-statement`, `function-expression`, `callbacks`, `hoisting`,
+`execution-context`, `iife`, `closure`, `apply`, `call`, `bind`,
+`this`, `scope`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [05. Internet Deep Dive](#)
+##### [05. Building a Multi User Single Page App using Remote Data](#)
 
 _Autor: Iván Medina_
 
@@ -199,17 +204,22 @@ _[AIRDNA](https://www.airdna.co/investment-explorer)_ que muestre datos estadís
 en base a ubicaciones integrando el API de Google Maps y personalizando tanto el
 mapa como marcadores.
 
-Tags: `http`, `tcp-ip`, `dns`, `networking`, `json`, `api`, `browser-apis`,
-`geolocation`, `web-storage`, `web-sockets`, `web-workers`, `web-rtc`, `rest`,
-`auth`, `xhr`, `microservices`, `broadcasting`, `progressive-web-apps`,
-`firebase`, `cloud computing`, `saas-paas-iaas`, `deployment`.
+Main tags: `http`, `browser-apis`, `api`, `json`, `rest`, `xhr`, `firebase`,
+`deployment`.
+
+Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
+`web-sockets`, `web-workers`, `web-rtc`, `auth`, `microservices`, `broadcasting`,
+`progressive-web-apps`, `cloud computing`, `saas-paas-iaas`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [06. Back-End Integration](#)
+##### [06. What every Front-End Developer needs to know about Back-End](#)
 
 _Autor: Iván Medina_
 
+En este curso vas a salir de JS, y vas a entender como integrar tu front-end
+con un back-end y aprovecharemos Ruby como lenguaje de programación aprovechando
+la sencillez de su framework Rails que integra a Sass como pre-procesador de CSS
 El desarrollo Front End es un mundo muy amplio tal como lo es el desarrollo Back End,
 y trabajar estos en conjunto es algo aun muy común en el desarrollo de software, por
 lo cual veremos como implementar lo que ya conocemos hasta el momento dentro de un
@@ -221,11 +231,13 @@ sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb28
 teniendo un Back End que se encarga del enrutamiento y la data, pero pendiente de la
 implementación del Front End.
 
-Tags: `mv* backend architecture`, `monolithic`, `database`, `orm`, `routing`.
+Main tags: `sass`, `rails`, `mv* back-end architecture`, `database`, `routing`.
+
+Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [07. JS Programming Paradigms](09-paradigms)
+##### [07. Programming Paradigms in the real world](09-paradigms)
 
 _Autor: L. Montero_
 
@@ -245,30 +257,33 @@ tendrás que refactorizar el juego con el que se ha estado trabajando en el curs
 anterior. La versión refactorizada debe usar los principios de FP e incluir
 tests exhaustivos.
 
-Tags: `oop`, `fp`, `constructors`, `prototype`, `inheritance`, `factories`,
-`composition`, `hof`, `pure functions`, `immutability`, `side effects`, `es6`,
-`testing`, `jest`.
+Main Tags: `oop`, `fp`, `bundlers`, `prototype`, `inheritance`, `composition`,
+`immutability`, `testing`, `task-runner`.
+
+Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
+`side effects`, `jest`, `gulp`.
 
 Tiempo estimado: _3 semanas_.
 
-##### [08. Build Tools](#)
+##### [08. React](#)
 
-_Autor: ???_
+_Autor: M. Crowe_
 
-Hasta el momento las tecnologías usadas para desarrollar nuestros productos han
-sido basadas en HTML, CSS y JS, lo cual está bien, sin embargo, cuando el producto
-comienza a crecer, la administración de dependencias, archivos, pruebas y tareas
-que hacemos se vuelve extensa, debido a ello comenzamos a usar herramientas que
-nos ayuden a llevar este proceso más sencillo y óptimo a la vez.
+**React** es una tecnología realmente revolucionaria, que no sólo nos permite
+encapsular nuestro código en lindos componentes, si no que representa un cambio
+de paradigma que va mucho más allá del navegador o incluso la web. **React** es
+una forma de pensar y construir interfaces, y no está ilimitado a una sóla
+plataforma; a través de la abstracción de los renderers podemos escribir
+interfaces nativas para web, mobile, desktop, tv, ...
 
-* **Kickstarter clone**: El entregable de este curso será la réplica del flujo del sitio
-_[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
-en el cual debido a la cantidad de vistas y dependencias involucradas en este
-proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
-rápido y eficiente.
+* **Slack clone**: El entregable de este curso será desarrollar una aplicación de mensajería
+como _[Slack clone](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
+en la que se haga uso de React para la creación de componentes y además combine
+todo lo visto a lo largo del bootcamp.
 
-Tags: `package-manager`, `babel`, `bundlers`, `pre-processors`, `linter`, `testing`,
-`task-runner`.
+Main Tags: `react`, `jsx`, `webpack`, `babel`, `jest`.
+
+Secondary Tags: `es6`, `fp`, `components`, `virtual-dom`.
 
 Tiempo estimado: _2 semanas_.
 
@@ -287,15 +302,15 @@ opciones que nos permiten llegar a la mejor solución. Como curso final del trac
 cual el reto será desarrollar un producto (debajo se muestra un ejemplo de complejidad)
 usando alguna librería y/o framework moderno de JS.
 
-* **Slack clone**: El entregable de este curso será desarrollar una aplicación de mensajería
-como _[Slack clone](http://embed.wistia.com/deliveries/3adeb0732ada4a32af209d5f4326cb45609ba9f9/file.mp4)_
-en la que se haga uso del  framewrok de preferencia y además combine todo lo visto a
-lo largo del bootcamp.
+* **Kickstarter clone**: El entregable de este curso será la réplica del flujo del sitio
+_[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
+en el cual debido a la cantidad de vistas y dependencias involucradas en este
+proyecto, notaremos la necesidad de usar herramientas que hagan nuestro flujo más
+rápido y eficiente.
 
-Tags: `react`, `redux`, `angular`, `vue`, `typescript`, `flow`, `data binding`,
-`virtual dom`.
+Tags: `angular`, `vue`, `typescript`, `api`, `real-time`.
 
-Tiempo estimado: _1 semana_.
+Tiempo estimado: _2 semanas_.
 
 #### UX Design
 
