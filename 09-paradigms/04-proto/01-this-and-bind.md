@@ -34,7 +34,7 @@ talk();
 
 Cuando ejecutámos nustro código ahora veremos algo así:
 
-```
+```text
 { console: [Getter],
   DTRACE_NET_SERVER_CONNECTION: [Function],
   DTRACE_NET_STREAM_END: [Function],

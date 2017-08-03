@@ -10,6 +10,8 @@
 
 ***
 
-Durante esta sesión...
+Durante esta sesión los instructorxs harán una demostración (usando proyector)
+en la que instalarán el workshopper de `Laboratoria/learnyouparadigms` y
+resolverán los dos primeros ejercicios con la participación de las alumnas.
 
 [Continuar](../03-paradigms/01-overview.md)

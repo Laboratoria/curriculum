@@ -35,7 +35,7 @@ console.log(note.toJSON());
 
 En la consola deberías de ver algo así:
 
-```
+```text
 { text: 'comprar arroz',
   createdAt: 2017-07-01T07:06:24.345Z,
   completed: false }
@@ -69,7 +69,7 @@ console.log(arr); // [1, 2, 3] NO MODIFICADO!
 
 ***
 
-### Referencias
+## Referencias
 
 Otros recursos:
 
