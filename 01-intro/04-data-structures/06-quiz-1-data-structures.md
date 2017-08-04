@@ -1,4 +1,4 @@
-# Quiz #2
+# Quiz #1
 - Formato: `quiz`
 - Duración: `10min`
 
@@ -15,4 +15,4 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
 https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
 
 ***
-[Continuar](11-closing-program-structure.md)
+[Continuar](07-lecture-data-structures.md)

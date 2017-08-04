@@ -28,6 +28,11 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ...
 - [ ] ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
 - [ ] ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos más complejos?
+- [ ] ¿Cómo se accede a las propiedades de un valor en JavaScript?
+- [ ] ¿Cuál es la diferencia entre una propiedad y un método de un valor?
+- [ ] ¿Al hacer `myArray[i]` estamos accediendo a una propiedad? ¿Por qué?
+- [ ] ¿Por qué se dice que los métodos se "llaman"?
+
 
 ***
 

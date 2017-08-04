@@ -8,7 +8,11 @@
 - Revisar y consolidar los conceptos aprendidos por medio de una clase con tu equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
-## Slides
+## Agenda
+| Tema | Duración | Descripción
+|  ---- | -------- | ------
+| AAAA | 30min | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 ***
-[Continuar](07-guided-exercises-workshop-program-structure.md)
+[Continuar](08-guided-exercises-workshop-data-structures.md)
