@@ -1,4 +1,4 @@
-# Closing: Program Structure
+# Closing: Data Strcutures
 - Formato: `clase presencial`
 - Duración: `30min`
 
