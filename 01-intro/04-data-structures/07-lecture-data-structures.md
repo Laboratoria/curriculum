@@ -27,7 +27,7 @@
   - `lastIndexOf()`
   - `trim()`
 
-5. Revisemos los [ejercicios guiados](08-guided-exercises-workshop-data-structures)
+5. Revisemos los [ejercicios guiados](08-guided-exercises-workshop-data-structures.md)
  que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
 
 ***
