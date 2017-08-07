@@ -1,5 +1,6 @@
 # Trabajando con `arrays` y `objects`
-- Formato: `lectura`
+- Formato: `self-learning`
+- Tipo: `lectura`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje

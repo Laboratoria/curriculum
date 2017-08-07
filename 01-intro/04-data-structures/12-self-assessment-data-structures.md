@@ -1,6 +1,7 @@
 # Auto-evaluación
-- Formato: `survey`
-- Duración: `10min`
+- Formato: `self-learning`
+- Tipo: `quiz`
+- Duración: `30min`
 
 ## Objetivos
 

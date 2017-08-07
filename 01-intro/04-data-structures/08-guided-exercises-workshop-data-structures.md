@@ -1,6 +1,7 @@
-# Workshop
-- Formato: `workshop`
-- Duración: `90min`
+# Clase Práctica
+- Formato: `guided-learning`
+- Tipo: `clase presencial`
+- Duración: `120min`
 
 ## Objetivos
 
@@ -36,7 +37,16 @@ Escribe una función que tome un `array` como parámetro y retorne otro `array` 
 #### 5. Comparison
 Escribe una función llamada `areArraysSame` que tome dos `arrays` como argumentos. Debe devolver verdadero si los dos `arrays` son iguales (es decir, tienen los mismos números, en el mismo orden) y `false` si son diferentes.
 
-#### 6. array to object
+#### 6. Cajero automático
+Crea un programa que un cajero automático pueda utilizar para determinar el número **mínimo** de billetes a entregar dado un monto solicitado. El cajero cuenta empieza con:
+* 100 billetes de 100
+* 50 billetes de 20
+* 200 billetes de 20
+* 300 billetes de 10
+* 500 billetes de 5
+* 800 billetes de 1
+
+#### 7. Array to Object
 Escribe una función que tome un array 2D y devuelva un objeto con cada par de elementos en el `array` como un par _key-value_.
 
 Por ejemplo:
@@ -54,6 +64,8 @@ Por ejemplo:
 ```
 
 También escribe una función que haga lo contrario. Transforme los pares _key-value_ de un `object` en un `array 2D`.
+
+#### _Nota: Todos los retos deben validar los inputs antes de correr el programa._
 
 ***
 

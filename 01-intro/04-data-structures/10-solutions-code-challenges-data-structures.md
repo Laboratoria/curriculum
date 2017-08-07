@@ -1,6 +1,6 @@
 # Solucionario Retos de Código
-
-- Formato: `clase presencial`
+- Formato: `guided-learning`
+- Tipo: `clase presencial`
 - Duración: `120min`
 
 ## Objetivos

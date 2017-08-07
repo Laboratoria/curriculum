@@ -1,6 +1,7 @@
 # Introducción Estructuras de Datos (opening)
-- Formato: `lectura`
-- Duración: `30min`
+- Formato: `self-learning`
+- Tipo: `lectura`
+- Duración: `10min`
 
 ## Objetivos de Aprendizaje
 

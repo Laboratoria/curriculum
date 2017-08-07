@@ -1,6 +1,7 @@
 # Quiz #2
-- Formato: `quiz`
-- Duración: `10min`
+- Formato: `guided-learning`
+- Tipo: `quiz`
+- Duración: `30min`
 
 ## Objetivos
 

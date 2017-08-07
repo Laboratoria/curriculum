@@ -1,6 +1,7 @@
 # Casos de estudio: aplicando conceptos para resolver problemas
-- Formato: `video`
-- Duración: `50min`
+- Formato: `self-learning`
+- Tipo: `lectura`
+- Duración: `60min`
 
 ## Objetivos
 

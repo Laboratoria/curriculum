@@ -1,6 +1,6 @@
 # Revisión de Conceptos
-
-- Formato: `clase presencial`
+- Formato: `guided-learning`
+- Tipo: `clase presencial`
 - Duración: `120min`
 
 ## Objetivos

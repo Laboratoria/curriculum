@@ -41,15 +41,13 @@ curso. Está diseñado para principiantes.
 En este curso pondrás en práctica los conceptos al desarrollar tres (3)
 productos digitales:
 
-1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
+1. **Tarjeta de crédito válida**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-2. **¿Es una tarjeta de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
-
-3. **Ceasar Cipher**: crearás un programa que encripta mensajes según la [técnica de cifrado césar](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+2. **Ceasar Cipher**: crearás un programa que encripta mensajes según la [técnica de cifrado césar](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
 
-### Módulo 01: [Introducción](01-introduction)
+### [01: Introducción](01-introduction)
 
 30min
 
@@ -65,7 +63,7 @@ tu primera página web.
 | 03 | lectura | Xmin | [Tu primera página web](01-introduction/03-your-first-website.md)
 | 04 | quiz | Xmin | [Prueba tu conocimiento](01-introduction/04-prueba-tu-conocimiento.md)
 
-### Módulo 02: [Variables y Tipos de Datos](02-variables-and-data-types)
+### [02: Variables y Tipos de Datos](02-variables-and-data-types)
 
 30min
 
@@ -82,7 +80,7 @@ JavaScript.
 | 05 | video | Xmin | [Practicando con ejercicios de variables y tipos de datos](02-variables-and-data-types/05-guided-exercises.md)
 | 06 | quiz | Xmin | [Prueba tu conocimiento](02-variables-and-data-types/06-prueba-tu-conocimiento.md)
 
-### Módulo 03: [Control de Flujo](03-control-flow)
+### [03: Control de Flujo](03-control-flow)
 
 13hrs
 
@@ -104,7 +102,7 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 | 10 | survey | 10min | [Auto-evaluación](10-self-assessment-control-flow.md)
 | 11 | clases | 30min | [Closing](11-closing-control-flow.md)
 
-### Módulo 04: [Estructuras de Datos](04-data-structures)
+### [04: Estructuras de Datos](04-data-structures)
 
 13hrs
 
@@ -129,7 +127,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 13 | clases | 60min | [Closing](13-closing-data-structures.md)
 
 
-### Módulo 05: [Proyectos Finales](16-final-projects)
+### [05: Proyectos Finales](16-final-projects)
 
 16hrs
 
@@ -148,10 +146,10 @@ en práctica creando productos divertidos.
 
 * * *
 
-## Evaluación
-* Quizzes 1: 15%
-* Quizzes 2: 20%
-* Retos de código: 25%
+## Evaluación técnica
+* Quizzes 1: 10%
+* Quizzes 2: 15%
+* Retos de código: 35%
 * Proyectos finales: 40%
 
 ## Contributors

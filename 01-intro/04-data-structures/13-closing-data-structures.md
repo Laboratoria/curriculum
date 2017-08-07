@@ -1,6 +1,7 @@
 # Closing: Data Strcutures
-- Formato: `clase presencial`
-- Duración: `30min`
+- Formato: `guided-learning`
+- Tipo: `clase presencial`
+- Duración: `90min`
 
 ## Puntos de discusión
 - Repasemos qué hemos aprendido hasta ahora
