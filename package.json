@@ -1,0 +1,24 @@
+{
+  "name": "curricula-js",
+  "version": "1.0.0",
+  "description": "Malla curricular Full Stack JavaScript @Laboratoria",
+  "scripts": {
+    "test": "mdlint ."
+  },
+  "repository": "Laboratoria/curricula-js",
+  "keywords": [
+    "javascript",
+    "laboratoria",
+    "bootcamp",
+    "curricula",
+    "fullstack"
+  ],
+  "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/curricula-js/issues"
+  },
+  "devDependencies": {
+    "mdlint": "Laboratoria/mdlint"
+  }
+}
