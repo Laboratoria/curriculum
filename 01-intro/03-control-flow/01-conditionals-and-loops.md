@@ -169,7 +169,7 @@ Puedes poner cualquier cantidad de etiquetas `case` dentro del bloque `switch`. 
 En algunos casos, como en el caso de "soleado" en el ejemplo, esto puede ser usado para compartir código entre casos (recomienda salir a la calle tanto para clima soleado como para nublado). Pero cuidado: es fácil olvidar el break, lo cuál causará que el programa ejecute código que no quieres que se ejecute.
 
 A continuación Michelle te ayuda a entender este caso un poco mejor:
-[![ejemplo de Switch](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![ejemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com//watch?v=Aa0JhU6KZXs)
 
 ### 3. Flujo repetitivo: Bucles
 

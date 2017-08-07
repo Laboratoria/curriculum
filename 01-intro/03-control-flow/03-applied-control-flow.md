@@ -48,7 +48,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 1. -----
 
-[![-----]()
+[![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://www.youtube.com//watch?v=jmKiCMKM33A)
 
 #### 2. -----
 
