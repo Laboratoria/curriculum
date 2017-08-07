@@ -7,7 +7,4 @@
 - Respondamos las preguntas del opening
 - Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
 
-## Material
-- [Slides de la clase](link)
-
 ***

@@ -30,10 +30,13 @@ Crea una funcion que busquen un elemento en un `array`, devolviendo su posición
 #### 3. Sort
 Crea una funcion que ordene un `array` de números, de menor a mayor. Tip: utiliza el algoritmo de [`selection sort`](https://en.wikipedia.org/wiki/Selection_sort)
 
-#### 4. Comparison
+#### 4. Remove Duplicates
+Escribe una función que tome un `array` como parámetro y retorne otro `array` pero sin elementos duplicados.
+
+#### 5. Comparison
 Escribe una función llamada `areArraysSame` que tome dos `arrays` como argumentos. Debe devolver verdadero si los dos `arrays` son iguales (es decir, tienen los mismos números, en el mismo orden) y `false` si son diferentes.
 
-#### 5. array to object
+#### 6. array to object
 Escribe una función que tome un array 2D y devuelva un objeto con cada par de elementos en el `array` como un par _key-value_.
 
 Por ejemplo:

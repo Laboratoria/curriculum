@@ -46,11 +46,11 @@ Cuando tengas un programa que genere este patrón, define una variable `size` = 
 
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
 
-#### 1. -----
+#### 1. FizzBuzz: Solucionario
 
 [![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://www.youtube.com//watch?v=jmKiCMKM33A)
 
-#### 2. -----
+#### 2. Tablero de Ajedrez: Solucionario
 
 [![-----]()
 

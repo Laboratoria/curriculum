@@ -22,10 +22,6 @@ Imagina que estás jugando un juego con algunos amigas y quieres ir registrando 
 
 Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de la jugadora en el `object` socres. También escribe una función que imprima en la consola el total de los puntos.
 
-#### 3. Remove Duplicates
-Escribe una función que tome un `array` como parámetro y retorne otro `array` pero sin elementos duplicados.
-
-
 ## Solucionarios
 
 A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios anteriores.  
