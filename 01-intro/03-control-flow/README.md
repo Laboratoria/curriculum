@@ -24,10 +24,4 @@
 | 10 | survey | 10min | [Auto-evaluación](10-self-assessment-control-flow.md)
 | 11 | clases | 30min | [Closing](11-closing-control-flow.md)
 
-## Evaluación
-- ...
-
-## Cronograma sugerido
-- ...
-
 *****

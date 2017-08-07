@@ -26,10 +26,4 @@
 | 12 | survey | 10min | [Auto-evaluación](12-self-assessment-data-structures.md)
 | 13 | clases | 60min | [Closing](13-closing-data-structures.md)
 
-## Evaluación
-- ...
-
-## Cronograma sugerido
-- ...
-
 *****
