@@ -22,7 +22,7 @@ en el mundo tech.
 ## Aprenderás
 
 * Cómo crear tu primera web en HTML y darle interacción con JavaScript
-* Conceptos básicos de programación como: `variables`, `tipos dato`s, `estructuras de
+* Conceptos básicos de programación como: `variables`, `tipos datos`, `estructuras de
   datos`, `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`
 * La sintaxis básica de JavaScript como lenguaje de programación
 
@@ -43,7 +43,7 @@ productos digitales:
 
 1. **Tarjeta de crédito válida**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-2. **Ceasar Cipher**: crearás un programa que encripta mensajes según la [técnica de cifrado césar](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+2. **Ceasar Cipher**: crearás un programa que encripta mensajes según la [técnica de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
 
