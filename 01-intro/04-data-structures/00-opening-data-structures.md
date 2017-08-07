@@ -32,10 +32,8 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Por qué se dice que los métodos se "llaman"?
 - [ ] ¿Qué se entiende por un `array 2D`?
 - [ ] Haz un dibujo de la manera de organizar data de estudiantes como un `array` de `objects`
-
-
-
-
+- [ ] ¿Qué son los _keys_ de un `object`?
+- [ ] ¿Cómo podemos acceder a la lista de _keys_ de un `object`?
 
 ***
 
