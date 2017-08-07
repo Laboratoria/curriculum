@@ -2,8 +2,9 @@
 
 ## Duración:
 - Self-learning: `9 hrs`
+- Clases: `5 hrs`
 - Workshop: `2 hrs`
-- TOTAL: `11 hrs`
+- TOTAL: `16 hrs`
 
 ## Lesson Plan
 | # | Tipo | Duración | Tópico
