@@ -1,26 +1,38 @@
-# 08. JS Deep Dive
+# 08. Really get to know JavaScript by building your own library
 
-JS Deep Dive, es un curso teoríco-práctico que profundiza no solo el
-conocimiento del lenguaje de programación JavaScript, sino todo lo necesario
-para entenderlo correctamente. Entender como funciona Javascript por dentro,
-curiosear con la teoria de compiladores y entender conceptos de Computer Science
-asociados. Finalmente este curso tiene como propósito consolidar tus
-conocimientos y aumentar tu habilidad para detección de errores, entenderás
-partes que incluso desarrolladores experimentados desconocen y/o ignoran.
+En este curso construirás tu propia librería usando JavaScript, lo cual nos
+permitirá explorar las particularidades del lenguaje y entender como funciona
+por dentro, haciendo incapié en temas de performance, uso de memoria y
+optimización.
+
+El entregable final de este curso será construir una librería para desarrollo de
+interfaces, teniendo en cuenta el performance y manejo de memoria, que se usará
+para desarrollar una réplica de Pinterest.
+
+Main tags: `types`, `operators`, `functions`, `objects`, `scope`, `closure`,
+`execution-context`, `linter`.
+
+Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
+`function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
+`apply`, `call`, `bind`, `this`.
 
 ## Público objetivo
 
-Apto para todo público
+Este curso asume que ya te has familiarizado con la programación en JavaScript y
+quieres llevar tu conocimiento sobre el lenguage a otro nivel, entendiendo
+sutilezas del lenguage e implicaciones de performance.
 
 ## Requerimientos previos
 
-Haber usado JavaScript
+Experiencia básica usando JavaScript para manipular el DOM y familiaridad con
+`git` y `GitHub`.
 
 ## Aprenderás
 
-* Qué es JavaScript y ECMAScript
-* Una breve introducción a compiladores
-* Cosas buenas y malas del diseño del lenguaje
+* Qué es JavaScript/ECMAScript
+* Implicaciones de **performance** y uso de **memoria**
+* **Buenas prácticas** en el uso de JavaScript
+* Manejo de **errores**
 * A escribir código siguiendo una **guía de estilos**
 * A construir un **UI Library**
 * A **trabajar sobre una base de código existente**
@@ -40,7 +52,7 @@ El producto en el que trabajaras es una pequeña librería para desarrollo de
 interfaces (UI Library), teniendo en cuenta el performance y consumo de memoria,
 además de buscar que pueda ser reusable para cualquier proyecto y mantenible a
 lo largo del tiempo. Este producto tendrá una aplicación visual en la creación
-de la réplica de _[Pinterest](http://pinterest.com/)_.
+de una réplica de _[Pinterest](http://pinterest.com/)_.
 
 Participar en el proyecto involucra lo siguiente:
 
