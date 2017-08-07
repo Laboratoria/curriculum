@@ -12,6 +12,4 @@
 | 02 | self-learning | 30min | [Valid Credit Card](02-valid-credit-card.md)
 | 03 | self-learning | 30min | [Javascrpting](03-javascripting.md)
 | 04 | workshop | 4 hrs |  [Solucionarios](03-solutions-final-projects.md)
-| 05 | survey | 10min | [Feedback form](12-feedback-intro-js.md)
-
 *****

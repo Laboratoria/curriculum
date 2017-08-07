@@ -10,3 +10,6 @@ Si quieres solidificar tus conocimientos y asegurarte de que dominas por complet
   JavaScript by adventuring around in the terminal.
 
 Esta asignación es **opcional**.
+
+***
+[Continuar](04-solutions-final-projects.md)

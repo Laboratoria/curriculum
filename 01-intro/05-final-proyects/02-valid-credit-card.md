@@ -21,3 +21,6 @@ Tal como sucede en el mundo real, cuando te enfrentas a desarrollar un producto 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn y te da tips para completar este proyecto:
 
 [![Tips valid credit card](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+
+***
+[Continuar](03-javascripting.md)

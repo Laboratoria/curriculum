@@ -59,3 +59,4 @@ A continuación un video de Michelle que te da tips y te ayuda a enfrentar este 
 [![tips ceasar cipher](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
 ***
+[Continuar](02-valid-credit-card.md)
