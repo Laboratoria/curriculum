@@ -14,7 +14,7 @@ extensiones que proponen las nuevas versiones de `ECMAScript`, **hoy**.
 
 > En este curso sólo exploraremos las características de `ES6`, que son
 especialmente útiles para el desarrollo en `React`, pero `ECMAScript` es
-muchísimo mas que eso. Aquí te dejamos unos recursos por si quieres profundizar
+muchísimo más que eso. Aquí te dejamos unos recursos por si quieres profundizar
 en el tema:
 - [es6-features.org](http://es6-features.org)
 - [Exploring ES6](http://exploringjs.com/es6/index.html)
@@ -183,7 +183,7 @@ const Header = (props) => (
 Las *funciones flecha* otorgan principalmente 3 beneficios:
 
 1. Definen una **sintaxis concisa**
-2. Tienen **resultados implícitos**
+2. Tienen **retorno implícito** cuando el cuerpo de la función es solo una expresión
 3. **No efectúan un `re-bind` de `this`**, cuando son usadas dentro de otra función
 
 > Para conocer más al detalle los beneficios y características de las *funciones

@@ -3,7 +3,7 @@
 ## ¿Qué es y para qué sirve?
 
 `JSX` es una extensión al lenguage JavaScript, que agrega estructuras
-sintácticas que nos permiten trabajar mas facilmente y de una manera más natural
+sintácticas que nos permiten trabajar más fácilmente y de una manera más natural
 con el código de `React`.
 
 Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural
@@ -55,7 +55,7 @@ ReactDOM.render(
 );
 ```
 
-Muchos mas elegante, ¿verdad?
+Mucho más elegante, ¿verdad?
 
 ¡Ahora vamos a usarlo!
 

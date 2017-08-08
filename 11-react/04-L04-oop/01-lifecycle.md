@@ -196,7 +196,7 @@ Y de manera análoga, queremos [limpiar el  timer](https://developer.mozilla.org
 cuando el DOM producido por `Reloj` es removido. Esto se llama *desmontar*
 (`unmount`) un componente.
 
-Definimos métodos espciales dentro de nuestra clase para ejecutar instruciones
+Definimos métodos especiales dentro de nuestra clase para ejecutar instruciones
 cada vez que el componente se *monta* o *desmonta*:
 
 ```js
@@ -393,8 +393,8 @@ intacto, mientras que `this.state.comments` es completamente reemplazado.
 
 ## Encapsulamiento
 
-Por último, para demostrar cuán verdaderamente encampsulado es nuestro `Reloj`,
-te proponemos el siguiente exprimento: crea un componente `App` que renderice 3
+Por último, para demostrar cuán verdaderamente encapsulado es nuestro `Reloj`,
+te proponemos el siguiente experimento: crea un componente `App` que renderice 3
 `<Reloj>`es:
 
 ```js

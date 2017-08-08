@@ -1,7 +1,7 @@
 # Getting Started
 
 Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html
-existente
+existente.
 
 En este ejemplo este será nuestro html base:
 
@@ -62,7 +62,7 @@ directamente a los archivos publicados en [unpkg](https://unpkg.com).
 
 ¡Ahora a crear nuestro primer componente!
 
-Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
+Así como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
 son las *"piezas"* para contruir nuestras interfaces y los declaramos a través
 de ***funciones***.
 
@@ -87,7 +87,7 @@ de ***funciones***.
     }
 
     ReactDOM.render(
-      Titulo(),
+      Cabecera(),
       document.getElementById('react-container')
     );
   </script>
@@ -132,7 +132,7 @@ Y por último para que el usuario pueda verlo, insertamos el resultado en el DOM
 
 ```javascript
 ReactDOM.render(
-  Titulo(),
+  Cabecera(),
   document.getElementById('react-container')
 );
 ```
@@ -171,12 +171,12 @@ En el mundo `React` a los parámetros de los componentes los denominamos
     }
 
     ReactDOM.render(
-      Titulo({ saludo: 'Mundo' }),
+      Cabecera({ saludo: 'Mundo' }),
       document.getElementById('cabecera-1')
     );
 
     ReactDOM.render(
-      Titulo({ saludo: 'Amigx' }),
+      Cabecera({ saludo: 'Amigx' }),
       document.getElementById('cabecera-2')
     );
   </script>
@@ -186,7 +186,7 @@ En el mundo `React` a los parámetros de los componentes los denominamos
 Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada
 llave de `props`, es una propiedad de nuestro componente.
 
-Asi como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen
+Así como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen
 ***propiedades***
 
 ```javascript
@@ -207,22 +207,22 @@ modificando el valor de `saludo`
 
 ```javascript
 ReactDOM.render(
-  Titulo({ saludo: 'Mundo' }),
+  Cabecera({ saludo: 'Mundo' }),
   document.getElementById('cabecera-1')
 );
 
 ReactDOM.render(
-  Titulo({ saludo: 'Amigx' }),
+  Cabecera({ saludo: 'Amigx' }),
   document.getElementById('cabecera-2')
 );
 ```
 
 ## Ejercicios
 
-Y por último te dejamos 2 ejemplos mas entrenidos para que analices como
+Y por último te dejamos 2 ejemplos más entrenidos para que analices cómo
 funcionan. Al final de la lecciónn veremos cuánto has entendido de ellos.
 
-Recuerda de utilizar los recursos recomendados:
+Recuerda utilizar los recursos recomendados:
 
 - [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
 - [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
@@ -259,7 +259,7 @@ Recuerda de utilizar los recursos recomendados:
     }
 
     ReactDOM.render(
-      Titulo({ nombre: 'Mundo' }),
+      Cabecera({ nombre: 'Mundo' }),
       document.getElementById('cabecera')
     );
   </script>

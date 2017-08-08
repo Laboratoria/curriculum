@@ -17,13 +17,15 @@ establecer 3 etapas básicas:
 
   2. refresque el contenido cada vez que realizamos un cambio.
 
-
   > `webpack`
-  - nos avisa cuando el contenido esta disponible (en lugar de presionar F5 hasta que la página esté disponible)
-  - ahorra el paso extra de refrescar manualmente el navegador para comprobar un cambio
+  - nos avisa cuando el contenido esta disponible (en lugar de presionar F5
+    hasta que la página esté disponible)
+  - ahorra el paso extra de refrescar manualmente el navegador para comprobar un
+    cambio
   - modifica el dom con los cambios sin ni siquiera refrescar la página.
 
-  > Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de desarrollo (DX) mucho mas fluída.
+  > Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de
+    desarrollo (DX) mucho mas fluída.
 
 - ### Empaquetado
 

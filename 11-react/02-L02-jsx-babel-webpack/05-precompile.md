@@ -83,4 +83,4 @@ ejecutar `yarn build` cada vez que realizas un cambio y poder deshacernos de la
 dependencia `node-static`.
 
 > En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que
-nuestra experiencia de desarrollo sea mas disfrutable.
+nuestra experiencia de desarrollo sea más disfrutable.

@@ -4,8 +4,9 @@
 
 Si hacemos una analógica entre `React` y `html`, podemos decir que las `props`
 de `React` es el mecanísmo análogo que usamos en `html` para definir los
-atributos de los tags. Pero ahora bien, ¿qué sucede con el `body` del mundo
-`html`? Para ello existe la propiedad especial `children`.
+atributos de los tags. Pero ahora bien, ¿qué sucede con las etiquetas anidadas
+dentro de otras etiquetas que teníamos en `HTML`? Para ello existe la propiedad
+especial `children`.
 
 `React` tiene un modelo de composición muy poderoso, que nos permite anidar
 `componentes`, como si anidáramos tags `html`. La composición es el método
@@ -17,7 +18,7 @@ componentes: enviarles nuevas `props` o modificarlas, decidir cuál de ellos
 queremos renderizar y cuáles no y, en general, clonarlos y modificarlos como nos
 de la gana.
 
-## Composición por sobre Herencia
+## Composición sobre Herencia
 
 Si hablamos de reutilización de código a través de composición, un caso muy
 común son por ejemplo un *Sidebar* o un *Diálogo* que representan *cajas*
@@ -125,7 +126,7 @@ importante es que entiendas que **cualquier cosa** puede ir dentro de `children`
 
 Esta afirmación de que <i>**cualquier cosa** puede ir dentro de `children`</i>,
 hace que `children` sea una estructura de datos *"opaca"*. Como puede recibir
-cualquier cosa, uno nunca puede asumir nada en la relación a la forma que tendrá.
+cualquier cosa, uno nunca puede asumir nada en relación a la forma que tendrá.
 
 Para poder trabajar con la propiedad `children`, `React` provee un grupo de
 funciones de ayuda para poder hacerlo de una manera "estándar",

@@ -13,7 +13,7 @@ instancia de un componente definido como clase, como un elemento del DOM.
 Hay un par de casos de uso válidos para usar refs:
 
 * Manejar el foco, la selección de texto, o la reproducción de contenido multimedia.
-* Disparar de animaciones imperativas.
+* Disparar animaciones imperativas.
 * Integrarnos con librerías externas.
 
 > Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.

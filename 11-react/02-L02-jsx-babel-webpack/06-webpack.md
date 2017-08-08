@@ -19,9 +19,9 @@ Si te pones a analizar, verás que tenemos una aplicación fragmentada:
 
 ## ¿Qué es `Webpack` y para qué sirve?
 
-`Webpack` es un empaquetador (`bundler`) de modulos y archivos (`assets`) para
+`Webpack` es un empaquetador (`bundler`) de módulos y archivos (`assets`) para
 aplicaciones JavaScript modernas. Cuando `webpack` procesa tu aplicación crea un
-grafo de dependencias donde esta incluído cada módulo usado, así como todos los
+grafo de dependencias donde está incluído cada módulo usado, así como todos los
 archivos estáticos referenciados, y crea un único archivo por tipo, con todo lo
 necesario para ejecutar tu aplicación.
 
@@ -29,7 +29,7 @@ necesario para ejecutar tu aplicación.
 
 De esta manera proporciona una sola vía para importar y transformar todos los
 recursos de nuestra aplicación, independientemente de si es código `js`, una
-hoja de estilos, `html`, web fonts, data o imagenes.
+hoja de estilos, `html`, web fonts, data o imágenes.
 
 `Webpack` es extremadamente configurable, pero para el alcance de esta lección,
 solo vamos a hacer incapié en sus 4 conceptos principales:
@@ -277,9 +277,9 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
 
 ## Ejercicio
 
-Esto si que ha sido una travesía, lo has conseguido. Ahora chequea en tu
+Esto sí que ha sido una travesía, lo has conseguido. Ahora chequea en tu
 navegador a través de los `devtools` (`ctrl + shift + i`), qué forma tiene tu
-`DOM`, como se han inyectado los estilos y cuál es al forma de tu `bundle`.
+`DOM`, cómo se han inyectado los estilos y cuál es la forma de tu `bundle`.
 
 > En la próxima y última lección veremos con organizar tu código de una manera
 más ordenada.
