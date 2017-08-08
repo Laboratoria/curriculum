@@ -88,7 +88,7 @@ Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el cu
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   15min  | 
+|   1   | charla     |   15min  |
 
 
 ### Lesson 1: [Intro a React](01-L01-intro/index.md)
@@ -146,7 +146,7 @@ Luego analizaremos la propiedad especial `children` y como manipularla con `.map
 |   1   | texto  |   10min  | Props: `propTypes` y `defaultProps`
 |   2   | code   |   10min  | Ejercicio: `propTypes` y `defaultProps`
 |   3   | texto  |   10min  | `children` property y `React.Children` utils
-|   4   | code   |   10min  | Ejercicio: usando `children` 
+|   4   | code   |   10min  | Ejercicio: usando `children`
 |   5   | qa     |   10min  | Re-cap
 
 
@@ -323,5 +323,3 @@ Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos d
 * [30 days of react](https://github.com/fullstackreact/30-days-of-react)
 * [Awesome React](https://github.com/enaqx/awesome-react)
 * [Recursos para aprender React en español](https://github.com/jlobos/react-espanol)
-
-
