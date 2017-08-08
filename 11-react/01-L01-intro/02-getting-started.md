@@ -1,6 +1,7 @@
 # Getting Started
 
-Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html existente
+Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html
+existente
 
 En este ejemplo este será nuestro html base:
 
@@ -21,10 +22,14 @@ En este ejemplo este será nuestro html base:
       Cómo integrar react a páginas estáticas existentes
     </p>
   </body>
-</html>  
+</html>
 ```
 
-Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del `DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor (`container`). Generalmente utilizamos un elemento `div` con un `id` que nos permita identificarlo unívocamente.
+Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del
+`DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada
+cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor
+(`container`). Generalmente utilizamos un elemento `div` con un `id` que nos
+permita identificarlo unívocamente.
 
 ```html
 <body>
@@ -40,7 +45,11 @@ Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del `DO
 </body>
 ```
 
-Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) y referenciar localmente los scripts, o como haremos nosotros, puedes linkear directamente a los archivos publicados en [unpkg](https://unpkg.com), [unpkg](https://unpkg.com).
+Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar
+`React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
+una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1)
+y referenciar localmente los scripts, o como haremos nosotros, puedes linkear
+directamente a los archivos publicados en [unpkg](https://unpkg.com).
 
 ```html
 <head>
@@ -53,28 +62,30 @@ Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar
 
 ¡Ahora a crear nuestro primer componente!
 
-Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes son las *"piezas"* para contruir nuestras interfaces y los declaramos a través de ***funciones***.
+Asi como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
+son las *"piezas"* para contruir nuestras interfaces y los declaramos a través
+de ***funciones***.
 
 ```html
 <body>
   ...
   <div id="react-container">
-  
+
   </div>
   <script>
     const div = React.DOM.div
     const h2 = React.DOM.h2
-    
+
     function Cabecera() {
       const titulo = 'Hola Mundo';
 
       const elemento = div(null,
         h2(null, titulo),
       )
-      
+
       return elemento
     }
-    
+
     ReactDOM.render(
       Titulo(),
       document.getElementById('react-container')
@@ -92,7 +103,8 @@ const div = React.DOM.div
 const h2 = React.DOM.h2
 ```
 
-Los componentes los definimos como funciones puras. Nuestro primer componente será la "Cabecera" de la pagina.
+Los componentes los definimos como funciones puras. Nuestro primer componente
+será la "Cabecera" de la pagina.
 
 ```javascript
 function Cabecera() {
@@ -102,13 +114,14 @@ function Cabecera() {
   const elemento = div(null,
     h2(null, titulo),
   )
-  
+
   // y ese es el resultado de nuestra funcion / componente
   return elemento
 }
 ```
 
 Esto es análogo al siguiente codigo html:
+
 ```html
 <div>
   <h2>Hola Mundo</h2>
@@ -124,40 +137,44 @@ ReactDOM.render(
 );
 ```
 
-Verás que nuestro componente es una función sin parámetros. Uno de los mayores beneficios que otorga el enfoque de componentes como funciones, es que a través de los parametros que nosotros le pasemos a nuestra función, podemos modificar dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
+Verás que nuestro componente es una función sin parámetros. Uno de los mayores
+beneficios que otorga el enfoque de componentes como funciones, es que a través
+de los parametros que nosotros le pasemos a nuestra función, podemos modificar
+dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
 
-En el mundo `React` a los parámetros de los componentes los denominamos ***propiedades*** (`props`)
+En el mundo `React` a los parámetros de los componentes los denominamos
+***propiedades*** (`props`)
 
 ```html
 <body>
   ...
   <!-- ahora tendremos 2 contenedores -->
   <div id="cabecera-1">
-  
+
   </div>
   <div id="cabecera-2">
-  
+
   </div>
 
   <script>
     const div = React.DOM.div
     const h2 = React.DOM.h2
-    
+
     function Cabecera(props) {
       const titulo = 'Hola ' + props.saludo;
 
       const elemento = div(null,
         h2(null, titulo),
       )
-      
+
       return elemento
     }
-    
+
     ReactDOM.render(
       Titulo({ saludo: 'Mundo' }),
       document.getElementById('cabecera-1')
     );
-    
+
     ReactDOM.render(
       Titulo({ saludo: 'Amigx' }),
       document.getElementById('cabecera-2')
@@ -166,9 +183,11 @@ En el mundo `React` a los parámetros de los componentes los denominamos ***prop
 </body>
 ```
 
-Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada llave de `props`, es una propiedad de nuestro componente.
+Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada
+llave de `props`, es una propiedad de nuestro componente.
 
-Asi como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen ***propiedades***
+Asi como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen
+***propiedades***
 
 ```javascript
 function Cabecera(props) {
@@ -178,12 +197,13 @@ function Cabecera(props) {
   const elemento = div(null,
     h2(null, titulo),
   )
-  
+
   return elemento
 }
 ```
 
-Una vez que nuestro componente esta parametrizado, podemos reutilizarlo modificando el valor de `saludo`
+Una vez que nuestro componente esta parametrizado, podemos reutilizarlo
+modificando el valor de `saludo`
 
 ```javascript
 ReactDOM.render(
@@ -199,9 +219,11 @@ ReactDOM.render(
 
 ## Ejercicios
 
-Y por último te dejamos 2 ejemplos mas entrenidos para que analices como funcionan. Al final de la lecciónn veremos cuánto has entendido de ellos.
+Y por último te dejamos 2 ejemplos mas entrenidos para que analices como
+funcionan. Al final de la lecciónn veremos cuánto has entendido de ellos.
 
 Recuerda de utilizar los recursos recomendados:
+
 - [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
 - [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
 
@@ -235,7 +257,7 @@ Recuerda de utilizar los recursos recomendados:
         )
       )
     }
-    
+
     ReactDOM.render(
       Titulo({ nombre: 'Mundo' }),
       document.getElementById('cabecera')
@@ -258,7 +280,7 @@ Recuerda de utilizar los recursos recomendados:
     const div = React.DOM.div
     const h2 = React.DOM.h2
     const p = React.DOM.p
-    
+
     function Timer(props) {
       const transcurrido = Math.round(props.transcurrido  / 100);
       const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );

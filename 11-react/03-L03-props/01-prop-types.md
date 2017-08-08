@@ -1,9 +1,13 @@
 # `PropTypes`
 
 ## Intro
-En la lección anterior vimos como, a través de los beneficios de `ES6`, podíamos definir de una manera descriptiva los nombres de las propiedades que recibe nuestro componente.
+En la lección anterior vimos como, a través de los beneficios de `ES6`, podíamos
+definir de una manera descriptiva los nombres de las propiedades que recibe
+nuestro componente.
 
-En esta lección veremos como ir más allá y definir además el tipo de esas `props`, así como si son requeridas u opcionales. Para esto utilizaremos el paquete [`prop-types`](https://github.com/facebook/prop-types).
+En esta lección veremos como ir más allá y definir además el tipo de esas
+`props`, así como si son requeridas u opcionales. Para esto utilizaremos el
+paquete [`prop-types`](https://github.com/facebook/prop-types).
 
 ## Uso
 
@@ -12,7 +16,8 @@ Lo primero que debemos hacer, es instalar la dependencia a `prop-types`:
 yarn add prop-types
 ```
 
-Instalada la dependencia, tomemos como ejemplo el siguiente componente de la lección anterior.
+Instalada la dependencia, tomemos como ejemplo el siguiente componente de la
+lección anterior.
 
 ```javascript
 const Header = ({ titulo, descripcion }) => {
@@ -25,7 +30,9 @@ const Header = ({ titulo, descripcion }) => {
 }
 ```
 
-Queremos establecer que la propiedad `titulo` es obligatoria y la `descripcion` es opcional y que ambas propiedades son de tipo `String`. Ahora veamos cómo expresamos eso con `prop-types`
+Queremos establecer que la propiedad `titulo` es obligatoria y la `descripcion`
+es opcional y que ambas propiedades son de tipo `String`. Ahora veamos cómo
+expresamos eso con `prop-types`
 
 ```javascript
 // primero y antes que nada, importamos la dependencia
@@ -62,7 +69,8 @@ Header.defaultProps = {
 
 ```
 
-Y bien, ¿qué tipo de estructuras podemos definir con `PropTypes`? En sentido estricto, la que necesites. Veamos más ejemplos.
+Y bien, ¿qué tipo de estructuras podemos definir con `PropTypes`? En sentido
+estricto, la que necesites. Veamos más ejemplos.
 
 ```javascript
 const unBooleano = true
@@ -98,24 +106,28 @@ Componente.propTypes = {
 }
 ```
 
-> Ten en cuenta que `PropTypes` es solamente un mecanismo de control no intrusivo, es decir que no interfiere en la ejecución de tu aplicación, sólo notifica `error`s y `warnign`s por consola.
+> Ten en cuenta que `PropTypes` es solamente un mecanismo de control no
+intrusivo, es decir que no interfiere en la ejecución de tu aplicación, sólo
+notifica `error`s y `warnign`s por consola.
 
-> Por ejemplo, si a la propiedad `unBooleano` que hemos definido como requerida, no le pasas un valor tu aplicación seguirá ejecutándose, aunque ahora en la consola de tu navegador encontrarás un mensaje como el siguiente:
+> Por ejemplo, si a la propiedad `unBooleano` que hemos definido como requerida,
+no le pasas un valor tu aplicación seguirá ejecutándose, aunque ahora en la
+consola de tu navegador encontrarás un mensaje como el siguiente:
 
 > ```
 Warning: Failed prop type: The prop `unBooleano` is marked as required in `Componente`, but its value is `undefined`.
 ```
 
-> Y si por ejemplo le pasas un número en lugar de un booleano, el mensaje será el siguiente:
+> Y si por ejemplo le pasas un número en lugar de un booleano, el mensaje será
+el siguiente:
 
 > ```
 Warning: Failed prop type: Invalid prop `unBooleano` of type `number` supplied to `Componente`, expected `boolean`
 ```
 
-> Chequea la lista completa de tipos chequeables con `PropTypes` en la documentación [oficial de `React`](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
-
+> Chequea la lista completa de tipos chequeables con `PropTypes` en la
+documentación [oficial de `React`](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
 
 ## Ejercicio
 
 Define los `propTypes` para los componentes declarados en tu aplicación de ejemplo..
-

@@ -15,7 +15,8 @@ Analicemos un segundo la estructura de nuestra aplicación:
 └── yarn.lock
 ```
 
-¿No hay algo que te hace ruido? ¿No te parece algo desordenado que los archivos de configuración y el código fuente, estén todos revueltos?
+¿No hay algo que te hace ruido? ¿No te parece algo desordenado que los archivos
+de configuración y el código fuente, estén todos revueltos?
 
 ## Ejercicio
 
@@ -44,8 +45,7 @@ Configura dentro de `webpack` a la carpeta `src` como tu root
 ```javascript
 const config = {
   context: resolve(__dirname, 'src'),
-  
+
   // ... el resto de la configuracion
 }
 ```
-

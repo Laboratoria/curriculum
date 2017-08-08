@@ -1,8 +1,10 @@
 # Intro
 
-En esta lección veremos cómo se usa `React` profesionalmente, en conjunto con `jsx`, `babel` y `webpack`.
+En esta lección veremos cómo se usa `React` profesionalmente, en conjunto con
+`jsx`, `babel` y `webpack`.
 
-Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo el resultado del ejercicio de la lección anterior.
+Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo
+el resultado del ejercicio de la lección anterior.
 
 ```html
 <!DOCTYPE html>
@@ -22,7 +24,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script>
       const DOM = React.DOM
-      
+
       // HEADER
       function Header(props) {
         return DOM.header(null,
@@ -30,7 +32,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           DOM.p(null, props.descripcion)
         )
       }
-      
+
       // MAIN SECTION
       function Article(props) {
         return DOM.article(null,
@@ -39,7 +41,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           DOM.hr(null)
         )
       }
-      
+
       function MainSection(props) {
         const style = {
           width: '70%',
@@ -55,14 +57,14 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           articles
         )
       }
-      
+
       // ASIDE
       function AsideLink(props) {
         return DOM.li(null,
           DOM.a({ href: props.href }, props.texto)
         )
       }
-      
+
       function Aside(props) {
         const style = {
           width: '25%',
@@ -78,7 +80,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           DOM.ul(null, links)
         )
       }
-      
+
       // Integramos todo en un PAGE
       function Page(props) {
         return DOM.div(null,
@@ -96,7 +98,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           })
         )
       }
-      
+
       const page = Page({
         headerTitulo: 'Getting Started',
         headerDescripcion: 'Descripcion',
@@ -115,7 +117,7 @@ Para comenzar con esta serie de lecturas / ejercicios, vamos a usar como insumo 
           { href: '#', texto: 'Link 5'}
         ]
       })
-      
+
       ReactDOM.render(
         page,
         document.getElementById('react-container')
