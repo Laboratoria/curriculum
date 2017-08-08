@@ -186,9 +186,9 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 |   5   | qa     |    5min  | Re-cap
 
 
-### Lesson 5: [React OOP: ciclo de vida, estado interno y referencias](06-L05-oop/index.md)
+### Lesson 5: [React OOP: ciclo de vida, estado interno y refs](06-L05-oop/index.md)
 
-1h (self-paced)
+45 min (self-paced)
 
 React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
 
@@ -201,13 +201,9 @@ Y por último veremos casos en los que a dos componentes no les alcanza con comp
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Componentes modelados como objetos
-|   2   | code   |    5min  | Ejercicio: Componentes modelados como objetos
-|   3   | texto  |    7min  | Local mutable state
-|   4   | code   |    8min  | Ejercicio: Local mutable state
-|   5   | texto  |   10min  | Ciclo de vida de un componente
-|   6   | code   |   15min  | Ejercicio de integración: file upload component with progress bar
-|   7   | qa     |    5min  | Re-cap
+|   1   | texto  |   15min  | Ciclo de vida y estado local
+|   2   | texto  |   10min  | `refs`
+|   3   | code   |   20min  | Ejercicio: cuenta regresiva
 
 
 ### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](07-W02-code-review/index.md)
