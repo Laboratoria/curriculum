@@ -1,10 +1,10 @@
-# 01. Creando un sitio web estático y dándole interacción con JavaScript
+# 01. Creando un sitio web interactivo con JavaScript
 
 Este curso ....
 
 ## Público Objetivo
 
-Este curso está dirigido a personas sin conocimientos previos de programación que tienen el interés de aventurarse al mundo del desarrollo web. Es parte del core que todo profesional del mundo digital debe saber.
+Este curso está dirigido a estudiantes de Laboratoria que ingresan al bootcamp. Es parte del core que todo profesional del mundo digital debe saber.
 
 ## Propósito General
 
@@ -50,7 +50,7 @@ En este curso pondrás en práctica los conceptos al desarrollar los siguientes 
 
 ## Syllabus
 
-### [01: Aprendiendo programación con JavaScript]()
+### [01: Programando con JavaScript]()
 
 30 hrs
 
@@ -74,33 +74,54 @@ En este curso pondrás en práctica los conceptos al desarrollar los siguientes 
 | 15 | survey | 10min | [Auto-evaluación]()
 | 16 | clases | 30min | [Closing]()
 
-### [02: Aprendiendo maquetado webs con HTML & CSS]()
+### [02: Maquetado webs con HTML & CSS]()
 
 24hrs
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | [Opening]()
-| 01 | clases | 30min | []()
-| 02 | clases | 60min | []()
-| 03 | clases | 60min | []()
-| 04 | self-learning | 30min | [HTML Tags]()
-| 05 | self-learning | 30min | [CSS Properties]()
+| 01 | self-learning | 30min | [How the web works]()
+| 04 | self-learning | 30min | [HTML]()
+| 05 | self-learning | 30min | [CSS]()
+| 05 | self-learning | 30min | [Selectors and properties]()
+| 05 | self-learning | 30min | [Box Model]()
+| 05 | self-learning | 30min | [Display Types]()
+| 05 | self-learning | 30min | [Positioning]()
+| 05 | self-learning | 30min | [Flexbox]()
+| 05 | self-learning | 30min | [CSS Animation]()
 | 06 | self-learning | 30min | [Visual Design]()
 | 07 | self-learning | 30min | [Usability]()
-| 08 | self-learning | 30min | []()
-| 09 | self-learning | 30min | [Video de casos prácticos]()
 | 10 | quiz | 30min | [Quiz 1]()
 | 11 | clases | 120min | [Revisión de conceptos]()
 | 12 | clases | 120min |  [Ejercicios guiados]()
-| 13 | code | 8hrs | [Retos de código]()
-| 14 | clases | 120min | [Solucionario retos de código]()
+| 13 | code | 8hrs | [Retos]()
+| 14 | clases | 120min | [Solucionario retos]()
 | 15 | quiz | 30min | [Quiz 2]()
 | 16 | survey | 10min | [Auto-evaluación]()
 | 17 | clases | 30min | [Closing]()
 
+### [03: Creando interacción con JavaScript]()
 
-### [03: Intro a User Experience Design]()
+30 hrs
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | self-learning | 30min | [Opening]()
+| 01 | self-learning | 60min | [Document Object Model]()
+| 02 | self-learning | 60min | [Browser Object Model]()
+| 03 | self-learning | 30min | [Seleccionando, modificando y creando elementos y nodos]()
+| 04 | self-learning | 30min | [Eventos]()
+| 09 | quiz | 30min | [Quiz 1]()
+| 10 | clases | 120min | [Revisión de conceptos]()
+| 11 | clases | 120min |  [Ejercicios guiados]()
+| 12 | code | 8hrs | [Retos de código]()
+| 13 | clases | 120min | [Solucionario retos de código]()
+| 14 | quiz | 30min | [Quiz 2]()
+| 15 | survey | 10min | [Auto-evaluación]()
+| 16 | clases | 30min | [Closing]()
+
+### [04: Intro a User Experience Design]()
 
 24hrs
 
@@ -128,14 +149,13 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | self-learning | 3 hrs | [Ceasar Cipher](01-ceasar-cipher.md)
-| 02 | self-learning | 3 hrs | [Valid Credit Card](02-valid-credit-card.md)
+| 01 | self-learning | 3 hrs | [Ceasar Cipher]()
+| 02 | self-learning | 3 hrs | [Valid Credit Card]()
+| 02 | self-learning | 3 hrs | [Data Dashboard]()
 | 03 | clases | 3 hrs | Peer (code) Review
-| 04 | workshop | 2 hrs |  [Solucionarios](03-solutions-final-projects-intro-js.md)
+| 04 | workshop | 2 hrs |  [Solucionarios]()
 | 05 | clases | 2 hrs |  Retrospectiva
 | 06 | survey | 10 min |  Feedback form
-
-
 
 * * *
 
