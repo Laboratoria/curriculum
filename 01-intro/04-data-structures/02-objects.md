@@ -213,6 +213,8 @@ A continuación Michelle nos explica los conceptos principales de `objects` con 
 
 [![ejemplo de crear y modificar un object](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
+Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_object_initializers
+
 ***
 
 [Continuar](03-working-with-arrays-and-objects.md)
