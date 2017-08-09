@@ -5,7 +5,7 @@
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de estructuras condicionales, repetitivas y funciones para la resolución de problemas
+- Entender, a través de casos prácticos, cómo aplicar los conceptos de `funciones`, `arrays` y `objetos` para la resolución de problemas
 
 ***
 

@@ -16,6 +16,25 @@
 3. Revisemos los [ejercicios guiados](06-guided-exercises-workshop-control-flow.md)
  que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
 
+ 1. Entendamos bien el concepto de un `array` y un `object`
 
+ 2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `array`
+
+ 3. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `object`
+
+ 4. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo funcionan:
+   - `push()`
+   - `shift()`
+   - `unshift()`
+   - `pop()`
+   - `concat()`
+   - `indexOf()`
+   - `join()`
+   - `slice()`
+   - `lastIndexOf()`
+   - `trim()`
+
+ 5. Revisemos los [ejercicios guiados](08-guided-exercises-workshop-data-structures.md)
+  que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
 ***
 [Continuar](06-guided-exercises-workshop-control-flow.md)

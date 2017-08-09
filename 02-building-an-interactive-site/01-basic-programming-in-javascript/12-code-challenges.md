@@ -32,5 +32,7 @@
 
 Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
 
+[Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
+
 ***
 [Continuar](08-solutions-code-challenges-control-flow.md)

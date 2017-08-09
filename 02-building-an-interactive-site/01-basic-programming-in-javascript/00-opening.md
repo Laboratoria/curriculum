@@ -1,12 +1,16 @@
-# Introducción: Control Flow (opening)
+# Opening
 - Formato: `lectura`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-- Cuáles son las estructuras básicas del control de flujo de un programa: `estructuras condicionales`,  `estructuras repetitivas` y `funciones`
-- A utilizar estos conceptos para resolver problemas más complejos y crear productos sencillos en la web
+* Cuáles son las estructuras básicas del control de flujo de un programa: `estructuras condicionales`,  `estructuras repetitivas` y `funciones`
+* Dos estructuras de datos elementales de la programación en JavaScript: `arrays` y `objects`
+* A utilizar estos conceptos para resolver problemas aún más complejos y crear productos más elaborados en la web
+* A utilizar estos conceptos para resolver problemas más complejos y crear productos sencillos en la web
+* A correr programas utilizando la interfaz de línea de comandos (CLI)
+* A utilizar un sistema de control de versiones (Git)
 
 ## ¿Por qué aprender esto?
 
@@ -39,6 +43,16 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Qué significa el valor de `return` de una función?
 - [ ] ¿Qué sucede cuando una función tiene varios valores de `return`?
 - [ ] ¿Por qué podemos resolver problemas más complejos sabiendo `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un ejemplo
+- [ ] ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
+- [ ] ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos más complejos?
+- [ ] ¿Cómo se accede a las propiedades de un valor en JavaScript?
+- [ ] ¿Cuál es la diferencia entre una propiedad y un método de un valor?
+- [ ] ¿Al hacer `myArray[i]` estamos accediendo a una propiedad? ¿Por qué?
+- [ ] ¿Por qué se dice que los métodos se "llaman"?
+- [ ] ¿Qué se entiende por un `array 2D`?
+- [ ] Haz un dibujo de la manera de organizar data de estudiantes como un `array` de `objects`
+- [ ] ¿Qué son los _keys_ de un `object`?
+- [ ] ¿Cómo podemos acceder a la lista de _keys_ de un `object`?
 
 ***
 

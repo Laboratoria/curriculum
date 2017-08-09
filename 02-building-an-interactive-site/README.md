@@ -20,7 +20,6 @@ El propósito de este curso es que tengas un conocimiento básico y práctico de
 * Conceptos básicos de programación, como `funciones` y `estructuras de datos`
 * A correr programas utilizando la interfaz de línea de comandos (CLI)
 * A utilizar un sistema de control de versiones (Git)
-*
 
 ##### Main Tags:
 `html tags`, `css properties`, `css selectors`, `events`, `arrays`, `objects`, `cli`, `git`, `github`, `ux design`.
@@ -30,7 +29,12 @@ El propósito de este curso es que tengas un conocimiento básico y práctico de
 
 ## Duración
 
-* Total: 120 hrs
+* Self-learning: `2.5 hrs`
+* Clases: `2.5 hrs`
+* Workshop: `4 hrs`
+* Code: `3 hrs`
+* Quiz/Surveys: `1 hrs`
+* TOTAL: `13 hrs`
 
 ## Requerimientos previos
 
@@ -57,11 +61,11 @@ En este curso pondrás en práctica los conceptos al desarrollar los siguientes 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | [Opening]()
-| 01 | clases | 60min | [Comand Line Interface]()
+| 01 | clases | 60min | [Command Line Interface]()
 | 02 | clases | 60min | [Control de versiones - git]()
-| 03 | self-learning | 30min | [Funciones](02-functions.md)
-| 04 | self-learning | 30min | [Arrays](01-arrays.md)
-| 05 | self-learning | 30min | [Objects](02-objects.md)
+| 03 | self-learning | 30min | [Funciones](03-functions.md)
+| 04 | self-learning | 30min | [Arrays](04-arrays.md)
+| 05 | self-learning | 30min | [Objects](05-objects.md)
 | 06 | self-learning | 30min | [Properties & Methods]()
 | 07 | self-learning | 30min | [Combining arrays with objects]()
 | 08 | self-learning | 30min | [Video de casos prácticos]()
