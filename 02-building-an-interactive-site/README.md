@@ -87,13 +87,11 @@ En este curso pondrás en práctica los conceptos al desarrollar los siguientes 
 | 00 | clases | 30min | [Opening]()
 | 01 | self-learning | 30min | [How the web works]()
 | 04 | self-learning | 30min | [HTML]()
-| 05 | self-learning | 30min | [CSS]()
-| 05 | self-learning | 30min | [Selectors and properties]()
+| 05 | self-learning | 30min | [Intro a CSS]()
 | 05 | self-learning | 30min | [Box Model]()
-| 05 | self-learning | 30min | [Display Types]()
-| 05 | self-learning | 30min | [Positioning]()
-| 05 | self-learning | 30min | [Flexbox]()
-| 05 | self-learning | 30min | [CSS Animation]()
+| 05 | self-learning | 30min | [CSS Layouts]()
+| 05 | self-learning | 30min | [Styling texts and boxes]()
+| 05 | self-learning | 30min | [CSS Transitions]()
 | 06 | self-learning | 30min | [Visual Design]()
 | 07 | self-learning | 30min | [Usability]()
 | 10 | quiz | 30min | [Quiz 1]()
@@ -176,6 +174,6 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 ## Libros de consulta
 
+* [HTML & CSS design and build websites]( ), de Jon Duckett, 2011.
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
-* Libro de HTML y CSS
