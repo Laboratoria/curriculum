@@ -1,5 +1,10 @@
 # Funciones puras
 
+* Formato: `artículo`
+* Duración: `30min`
+
+***
+
 Las funciones puras tienen aplicaciones en muchos ámbitos, entre ellos la
 programación funcional. También facilitan la concurrencia, y como veremos en
 siguientes etapas serán muy empleadas en aplicaciones basadas en React+Redux.
