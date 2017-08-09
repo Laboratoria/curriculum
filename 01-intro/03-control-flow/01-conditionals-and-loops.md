@@ -320,7 +320,8 @@ for (initial setup; condition; increment){
 ```
 El _initial setup_ (por ejemplo: var counter = 0) se ejecuta antes de que se inicie el bucle. Generalmente se usa para crear una variable que rastrea el número de veces que se ha ejecutado el bucle. La _condition_ (counter < 10) se comprueba antes de cada ejecución del cuerpo de bucle. Si la condición es verdadera, el cuerpo es ejecutado; si es falsa, el bucle se detiene. En este caso, el bucle se detendrá una vez que counter ya no sea inferior a 10. El _increment_ (counter = counter + 1) se ejecuta después de cada ejecución del cuerpo de bucle. Generalmente se utiliza para actualizar la variable de bucle. En nuestro ejemplo, lo usamos para agregar 1 a counter cada vez que se ejecuta el bucle.
 
-A continuación Michelle te ayuda a entender el flujo de un bucle `for` que imprime el texto "Hola mundo!" un número de veces en la consola:
+A continuación Alexandra, otra profe estrella de Laboratoria, te ayuda a entender el flujo de un bucle `for` que imprime el texto "Hola mundo!":
+
 [![bucle for](https://img.youtube.com/vi/lKwx1RAxTfo/0.jpg)](https://www.youtube.com/watch?v=lKwx1RAxTfo)
 
 #### _Forzando la salida de un bucle_
@@ -350,4 +351,4 @@ A continuación Michelle te ayuda explica, con un ejemplo, las aplocaciones de `
 
 ***
 
-[Continuar](02-functions.md)
+[Continuar](02-applied-conditionals-and-loops.md)

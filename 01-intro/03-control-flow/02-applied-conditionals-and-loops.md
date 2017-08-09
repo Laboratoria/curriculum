@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](04-quiz-1-control-flow.md)
+[Continuar](03-code-challenges.md)
