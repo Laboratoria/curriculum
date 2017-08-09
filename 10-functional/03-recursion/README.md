@@ -5,18 +5,11 @@
 
 ***
 
-La recursividad es un concepto de programación. No es un concepto exclusivo de
-JavaScript, se utiliza en muchos lenguajes de programación. Tampoco es un tipo
-de datos, una función, un objeto o un método. No está restringido por una sola
-llamada de sentencia como las estructuras de control `if` o `while`.
-
-La definición de libro de texto para recursividad es: el llamado que hace una
-función sobre sí misma. Pero, ¿Qué significa esto realmente?
-
-La recursividad es uno de los conceptos de programación más simples pero
-difíciles de entender. Una vez que empieces a trabajar con ella y tratar de
-entender realmente cómo funciona, tal vez te sientas mareada y confundida, por
-eso trataremos de explicarlo de forma sencilla.
+La recursividad es uno de los conceptos de programación más simples pero a su
+vez uno de los difíciles de dominar. La definición teórica para recursividad es:
+"la capacidad de una función de invocarse a sí misma". Ten en cuenta que la
+recursión no es un concepto exclusivo de JavaScript, lo podemos encontrar en
+casi todos los lenguajes de programación.
 
 A lo largo de esta lección veremos que la recursión es importante para la
 programación funcional por las siguientes razones:
