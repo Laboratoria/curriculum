@@ -1,5 +1,10 @@
 # Recursividad en JavaScript
 
+* Formato: `artículo`
+* Duración: `50min`
+
+***
+
 La recursividad es un concepto de programación. No es un concepto exclusivo de
 JavaScript, se utiliza en muchos lenguajes de programación. Tampoco es un tipo
 de datos, una función, un objeto o un método. No está restringido por una sola
