@@ -137,7 +137,7 @@ var movie = {
   "other awards": ["best sound", ]
 }
 
-console.log(movie.lenght);
+console.log(movie.length);
 // → undefined
 
 ```

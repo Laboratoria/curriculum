@@ -1,38 +1,71 @@
-# Retos de Código
+# Retos
 - Formato: `code`
-- Duración: `120min`
+- Duración: `6hrs`
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!
+- A continuación te presentamos una serie de retos que debes completar para poner tus conocimientos a prueba.
 
 ***
 
-## Retos
+## 1. Cifrado César
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario y devuelva el mismo mensaje encriptado según el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) con con el parámetro de desplazamiento de **seis (6) espacios hacia la derecha**
 
-1. Crea una función que imprima los números que son potencia de 3 menores a 10,000 (ej. 3, 9, 27, etc.)
-2. Crea una función que compruebe si un número es par o impar, escribiendo el mensaje en la consola.
-3. Crea una función que cuente el número de vocales de un `string`
-4. Crea una función que capitalice la primera y última letra de un `string`
-5. Crea una función que determine si un número es primo
-6. Crea una función que determine si un número es mayor a otro
-7. Crea una función que determine si dos número son pares
-8. Crea una función que determine si una persona puede manejar (16 años o más) y votar (18 años o más)
-9. Crea una función que, por medio de console.log, logre producir una pirámide de `#` del tamaño brindado por medio de un `prompt()`:
+Por ejemplo:
+- Texto orginal: `Laboratoria`
+- Texto cifrado: ` `.
+
+### Tips para Cifrado César
+A continuación un video de Michelle que te lleva a través de la fórmula matemática del Cifrado César y un par de cosas más que debes saber para resolver este reto. Escúchala con detenimiento y sigue sus consejos! :)
+
+[![tips ceasar cipher](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+
+Aquí te presentamos información que cubrió Michelle en su video para que la tengas a mano:
+
+#### Tabla ASCII/Unicode
 
 ```js
-#
-##
-###
-####
-#####
-######
-#######
+
+A  B  C  D  E  F  G  H  I  J  K  ...
+|  |  |  |  |  |  |  |  |  |  |
+65 66 67 68 69 70 71 72 73 74 75 ...
+
 ```
 
-Para todas las funciones, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
+#### Accediendo a los Unicode: `charCodeAt()` & `fromCharCode()`:
 
-[Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
+```js
+console.log("ABC".charCodeAt(0));
+// → 65
+
+console.log("ABC".charCodeAt(1));
+// → 66
+
+console.log("ABC".charCodeAt(2));
+// → 67
+
+console.log(String.fromCharCode(65, 66, 67));
+// → ABC
+```
+
+
+## 2. Tarjeta de crédito válida
+
+Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de crédito y confirme su validez, según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+
+### Tips para tarjeta de crédito válida
+
+A continuación un video de Michelle que te lleva a través del algoritmo de Luhn y te da tips para completar este proyecto:
+
+[![tips credit crad](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+
+## 3. Replit
+Completa los ejercicios de programación básica del salón de clases de:
+* [Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
+
+## 4. Javascripting
+Completa el turorial de JavaScript de la comunidad de nodejs:
+* [javascripting](https://github.com/workshopper/javascripting)
 
 ***
 [Continuar](08-solutions-code-challenges-control-flow.md)

@@ -21,7 +21,7 @@ Crea una función que invierta el orden de los elementos de un `array`. Completa
 #### 2. Scorekeeper
 Imagina que estás jugando un juego con algunos amigas y quieres ir registrando el puntaje de cada una. Crea un `object` llamado `scores` donde los _keys_ o propiedades son los nombres de tus amigas, y los valores serán los puntajes (todos empiezan con 0).
 
-Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de la jugadora en el `object` socres. También escribe una función que imprima en la consola el total de los puntos.
+Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de la jugadora en el `object` scores. También escribe una función que imprima en la consola el total de los puntos.
 
 ## Solucionarios
 

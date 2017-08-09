@@ -1,4 +1,4 @@
-# Funciones
+# Introducción a Funciones
 - Formato: `lectura`
 - Duración: `30min`
 
