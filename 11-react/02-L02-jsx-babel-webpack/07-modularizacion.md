@@ -4,7 +4,7 @@
 
 Analicemos un segundo la estructura de nuestra aplicación:
 
-```
+```text
 ├── .babelrc
 ├── index.html
 ├── main.js
@@ -22,7 +22,7 @@ de configuración y el código fuente, estén todos revueltos?
 
 Modifica tu aplicación para que quede con la siguiente estructura:
 
-```
+```text
 ├── src
 │   ├── lib
 │   │   ├── aside.js
@@ -38,8 +38,8 @@ Modifica tu aplicación para que quede con la siguiente estructura:
 └── yarn.lock
 ```
 
-
 ### Ayuda
+
 Configura dentro de `webpack` a la carpeta `src` como tu root
 
 ```javascript

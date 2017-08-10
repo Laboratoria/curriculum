@@ -12,12 +12,19 @@ nos da como resultado código `ES5` standard que podemos ejecutar en cualquier
 entorno JavaScript. Esto nos permite comenzar a utilizar todos los beneficios y
 extensiones que proponen las nuevas versiones de `ECMAScript`, **hoy**.
 
-> En este curso sólo exploraremos las características de `ES6`, que son
+***
+
+**NOTA:**
+
+En este curso sólo exploraremos las características de `ES6`, que son
 especialmente útiles para el desarrollo en `React`, pero `ECMAScript` es
 muchísimo más que eso. Aquí te dejamos unos recursos por si quieres profundizar
 en el tema:
+
 - [es6-features.org](http://es6-features.org)
 - [Exploring ES6](http://exploringjs.com/es6/index.html)
+
+***
 
 Veamos algunos ejemplos:
 
@@ -143,7 +150,7 @@ Aquí una pequeña lista de presets populares:
 - [es2017](http://babeljs.io/docs/plugins/preset-2017/)
 - [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
 
-> Si quieres saber más de [babel](http://babeljs.io/), visita su
+Si quieres saber más de [babel](http://babeljs.io/), visita su
 [documentación](https://babeljs.io/docs/setup/). Para conocer todos los
 *features* soportados, chequea las [lista de plugins y presets](https://babeljs.io/docs/plugins/).
 
@@ -186,10 +193,17 @@ Las *funciones flecha* otorgan principalmente 3 beneficios:
 2. Tienen **retorno implícito** cuando el cuerpo de la función es solo una expresión
 3. **No efectúan un `re-bind` de `this`**, cuando son usadas dentro de otra función
 
-> Para conocer más al detalle los beneficios y características de las *funciones
+***
+
+**NOTA:**
+
+Para conocer más al detalle los beneficios y características de las *funciones
 flecha*, te recomendamos los siguientes recursos:
+
 - [*Funciones Flecha* en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
 - [*JavaScript Arrow Functions Introduction* por Wes Bos](http://wesbos.com/arrow-functions/)
+
+***
 
 Luego, para detallar en la cabecera de nuestros componentes, cuáles son las
 `props` que espera, usaremos parámetros nombrados (*named parameters*).
@@ -235,12 +249,12 @@ const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion'}
 // qué estructura tiene `headerProps`
 ```
 
-> Ten en cuenta que **ambas expresiones** son **equivalentes**.
+Ten en cuenta que **ambas expresiones** son **equivalentes**.
 
 ## Ejercicio
 
 Continua con la conversión de todos tus componentes usando los características
 de ES6 que acabamos de ver.
 
-> En la próxima lectura vamos a extraer nuestro código `React` fuera de nuestro
+En la próxima lectura vamos a extraer nuestro código `React` fuera de nuestro
 archivo `html`, y así comenzar a modularizar nuestra aplicación.

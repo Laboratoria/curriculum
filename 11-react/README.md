@@ -40,7 +40,7 @@ siguientes conocimientos previos:
 * Javascript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
 
-También debes haber completado el curso [10-funcional](#).
+También debes haber completado el curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional).
 
 ## Aprenderás
 
@@ -68,6 +68,7 @@ También debes haber completado el curso [10-funcional](#).
 * Total horas: z
 
 ## Formato del curso
+
 En este curso proponemos una especia de "simulacro" de la vida real. Un enfoque
 orientado al producto, desarrollando nuestro proyecto como se hace hoy por hoy
 en los equipos de trabajo profesionales.
@@ -85,6 +86,7 @@ dedicando muchas horas a desarrollar un producto del que podamos sentirnos
 orgullosxs.
 
 ### Evaluación
+
 En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
 por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
 tu desempeño personal.
@@ -96,8 +98,8 @@ equipo técnico y el resto de los equipos.
 
 Tu desempeño personal estará determinado por tu participación dentro de las
 sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-  creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
-    contestando preguntas), etc.
+creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
+contestando preguntas), etc.
 
 Todos los equipos deberán exponer sus resultados durante el día de la demo,
 independientemente del estado de completitud del producto. Aquellos equipos que
@@ -105,8 +107,8 @@ no hayan completado sus productos, tendrán un período de gracia para hacerlo.
 
 ## Producto
 
-Convertir video juego del curso [10-funcional](#) en una single app con las
-siguientes extensiones:
+Convertir video juego del curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional)
+en una single app con las siguientes extensiones:
 
 * Texto de introducción al juego
 * High-scores
@@ -114,13 +116,13 @@ siguientes extensiones:
 
 Y además deberá contar con los siguientes requermientos técnicos:
 
-- Estar desarrollada íntegramente en es6 y react, y empaquetada de manera
+* Estar desarrollada íntegramente en es6 y react, y empaquetada de manera
   automatizada con `babel` o `webpack`
-- Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
+* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
   empaquetar y desplegar la aplicación respectivamente.
-- Haber administrado y documentado todo el proceso de creación de la aplicación
+* Haber administrado y documentado todo el proceso de creación de la aplicación
   en github.
-- Al día de la demo, la aplicación deberá estar publicada en una URL accesible
+* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
   universalmente.
 
 ## Syllabus
@@ -138,7 +140,6 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
 |   1   | charla     |   15min  |
-
 
 ### Lesson 1: [Intro a React](01-L01-intro/index.md)
 
@@ -158,7 +159,6 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 |   2   | texto  |   20min  | Instalación y uso
 |   3   | code   |   20min  | Ejercicio: Nuestra primera interfaz
 |   4   | qa     |   15min  | Re-cap
-
 
 ### Lesson 2: [JSX, Babel y Webpack](02-L02-jsx-babel-webpack/index.md)
 
@@ -186,7 +186,6 @@ nuestro código.
 |   6   | texto + code  |   15min  | Webpack
 |   7   | texto + code  |   10min  | Modularización
 
-
 ### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
 
 50min (self-paced)
@@ -199,7 +198,6 @@ y valores por defectos.
 Luego analizaremos la propiedad especial `children` y como manipularla con
 `.map` y `.filter`.
 
-
 #### Lesson plan
 
 | Orden |  Tipo  | Duración | Descripción
@@ -209,7 +207,6 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 |   3   | texto  |   10min  | `children` property y `React.Children` utils
 |   4   | code   |   10min  | Ejercicio: usando `children`
 |   5   | qa     |   10min  | Re-cap
-
 
 ### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](04-W01-kickstart/index.md)
 
@@ -257,7 +254,6 @@ y disparando cambios de manera homogénea a través de acciones.
 |   6   | code   |    8min  | Ejercicio: Actions
 |   3   | code   |   10min  | Ejercicio de integración
 |   5   | qa     |    5min  | Re-cap
-
 
 ### Lesson 5: [React OOP: ciclo de vida, estado interno y refs](06-L05-oop/index.md)
 
@@ -330,7 +326,6 @@ Pueden ser problemas que tengan en el trabajo, en proyectos personales o mera
 curiosidad. Contaremos con algunos hackers senior que les darán sus impresiones
 y recomendaciones.
 
-
 ### Workshop 4: [Proyecto React: Revisión de código y QA](10-W04-code-review/index.md)
 
 1 (presencial)
@@ -341,7 +336,6 @@ código, veremos si hemos cumplido o no con lo planeado, y por qué.
 Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
 las tareas que mayor efecto tengan en nuestro producto final.
 
-
 ### Workshop 5 [Tips para que tu demo sea un éxito](11-W05-demo-trainning/index.md)
 
 30min (presencial)
@@ -351,7 +345,6 @@ ayudas para no cometer errores comunes a la hora de hacer una presentación.
 
 Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una
 presentación atractiva.
-
 
 ### Workshop 6: [Proyecto React: Revisión de código y QA](12-W06-code-review/index.md)
 
@@ -403,7 +396,6 @@ dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
 * https://reactforbeginners.com/
 * https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
 * https://frontendmasters.com/courses/react/
-
 
 ## Lecturas complementarias
 

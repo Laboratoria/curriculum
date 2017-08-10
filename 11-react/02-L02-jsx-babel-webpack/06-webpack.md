@@ -1,6 +1,5 @@
 # `Webpack`
 
-
 ## Intro
 
 Si miras hacia atrás verás las diferentes transformaciones que hemos ido
@@ -52,13 +51,19 @@ solo vamos a hacer incapié en sus 4 conceptos principales:
   Permiten extender la funcionalidad de `webpack` procesando el resultado del
   empaquetado en casi cualquier forma imaginable, antes de generar el `output`.
 
-> Al igual que `babel` y `es6`, `webpack` es una herramienta que va mucho más
+***
+
+**PRO TIP**:
+
+Al igual que `babel` y `es6`, `webpack` es una herramienta que va mucho más
 allá de `React`. Si quieres saber más de `webpack`, visita su
 [página oficial](https://webpack.js.org), que contiene toda la información
 necesaria para entender y dominar esta herramienta tan útil y versátil.
 
-> Si quieres saber todo lo que puedes hacer con `webpack`, chequea la lista de
+Si quieres saber todo lo que puedes hacer con `webpack`, chequea la lista de
 [`loaders`](https://webpack.js.org/loaders/) y [`plugins`](https://webpack.js.org/plugins/)
+
+***
 
 ## Setup
 
@@ -68,22 +73,30 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
 1. Lo primero que vamos a hacer es instalar las dependencias a `React` como
    `node` manda.
 
-   ```
+   ```sh
    yarn add react react-dom
    ```
 
 2. Luego, instalamos `babel` y sus `presets` como dependencias de desarrollo
    (sumadas a las que ya teníamos anteriormente)
 
-   ```
+   ```sh
    yarn add -D babel-core babel-preset-es2015 babel-preset-react-boilerplate
    ```
 
 3. Instalamos `webpack`, sus `plugins`, `loaders` y utils, también como
    dependencias de desarrollo
 
-   ```
-   yarn add -D webpack babel-loader style-loader css-loader html-webpack-plugin open-browser-webpack-plugin webpack-dev-server react-hot-loader@3.0.0-beta.6
+   ```sh
+   yarn add -D \
+     webpack \
+     babel-loader \
+     style-loader \
+     css-loader \
+     html-webpack-plugin \
+     open-browser-webpack-plugin \
+     webpack-dev-server \
+     react-hot-loader@3.0.0-beta.6
    ```
 
 4. Para decirle a `babel` cuáles `presets` utilizar, creamos un archivo
@@ -118,9 +131,10 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
   ```
 
 6. Modificamos `page.js` para que
-   - importe a `React` en el scope
-   - ya *no* se encargue de inyectar el resultado en el DOM
-   - se convierta en un módulo independiente, que exporte `Page` y `defaultPageProps`
+
+   * importe a `React` en el scope
+   * ya *no* se encargue de inyectar el resultado en el DOM
+   * se convierta en un módulo independiente, que exporte `Page` y `defaultPageProps`
 
    ```javascript
    // page.js
@@ -236,7 +250,7 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
            loaders: [
              'babel-loader', // los procesamos con el loader de `babel`
            ],
-           exclude: /node_modules/, // todos los archivos dentro de node_modules los ignoramos
+           exclude: /node_modules/, // ignoramos archivos dentro de node_modules
          },
 
          // luego
@@ -244,7 +258,7 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
            test: /\.css$/, // todos los archivos `csss`
            use: [
              { loader: "style-loader" }, // primero creamos un tag `style`
-             { loader: "css-loader" } // y le injetamos el contenido del archivo como `css`
+             { loader: "css-loader" } // y le injetamos el `css`
            ]
          }
        ]
@@ -281,5 +295,5 @@ Esto sí que ha sido una travesía, lo has conseguido. Ahora chequea en tu
 navegador a través de los `devtools` (`ctrl + shift + i`), qué forma tiene tu
 `DOM`, cómo se han inyectado los estilos y cuál es la forma de tu `bundle`.
 
-> En la próxima y última lección veremos con organizar tu código de una manera
+En la próxima y última lección veremos con organizar tu código de una manera
 más ordenada.

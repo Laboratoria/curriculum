@@ -20,7 +20,7 @@ granularmente renderizar los nodos, dependiendo de los cambios de estado de la
 aplicación, realizando la menor cantidad posible de modificaciones al `DOM`,
 para mantener la interfaz actualizada.
 
-# ¿Cómo funciona el `Virtual DOM`?
+## ¿Cómo funciona el `Virtual DOM`?
 
 Piensa en el `Virtual DOM` como un espejo del estado actual del `DOM`.
 
@@ -38,7 +38,7 @@ tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el
 `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para
 "reconciación", el texto queda inalterado.
 
-# Recursos recomendados
+## Recursos recomendados
 
 - [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
 - [Recursos de `React` en español](https://github.com/jlobos/react-espanol)

@@ -40,7 +40,7 @@ de importar el archivo generado por `babel`
 2. Luego, convertimos a `babel` en una dependencia de nuestra aplicación a
    través de `package.json`
 
-   ```
+   ```sh
    yarn add -D babel-cli babel-preset-react
    ```
 
@@ -54,7 +54,7 @@ de importar el archivo generado por `babel`
 
    Todo lo anterior lo expresamos con el siguiente comando:
 
-   ```
+   ```sh
    babel page.js --presets react --out-dir=build
    ```
 
@@ -82,5 +82,5 @@ Investiga sobre el parámetro `--watch` de `babel-cli` y úsalo para no tener qu
 ejecutar `yarn build` cada vez que realizas un cambio y poder deshacernos de la
 dependencia `node-static`.
 
-> En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que
+En la próxima lectura vamos a ver cómo podemos utilizar `webpack`, para que
 nuestra experiencia de desarrollo sea más disfrutable.

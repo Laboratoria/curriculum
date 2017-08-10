@@ -29,7 +29,7 @@ setInterval(tick, 1000);
 
 [Try it on CodePen.](http://codepen.io/gaearon/pen/gwoJZk?editors=0010)
 
-> Fíjate que para mantener la continuidad de la actualización tenemos que usar
+NOTA: Fíjate que para mantener la continuidad de la actualización tenemos que usar
 `ReactDOM.render()` para cambiar el `output` cada vez.
 
 En esta sección veremos cómo hacer de `Reloj` un componente reusable y
@@ -45,6 +45,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
 y que `Reloj` se encargue el mismo de todo lo necesario para seguir funcionando.
 
 Para implementar esto, necesitamos agregar un **estado local** (`state`) al
@@ -54,14 +55,13 @@ de que es privado y completamente controlado por el componente.
 Los componentes definidos como `class` tienen algunos `features` adicionales, no
 presentes en los componentes `stateless` . El `state` local es uno de ellos.
 
-
 ## Conviertiendo una función en clase
 
 Para convertir un componente `stateless` como `Reloj` en una clase, sigue estos
 4 pasos:
 
-1. Crea una [clase de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) (`class`)
-   y has que extienda de `React.Component`.
+1. Crea una [clase de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes)
+   (`class`) y has que extienda de `React.Component`.
 
 2. Crean un método en tu clase, llamado `render()`.
 
@@ -96,64 +96,64 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
 
 1. Reemplazamos la asignación desde `this.props` a `this.state`
 
-  ```js
-  class Reloj extends React.Component {
-    render() {
-      const { fecha } = this.state
-      return (
-        <div>
-          <h1>Hola Mundo!</h1>
-          <h2>Son las {fecha.toLocaleTimeString()}.</h2>
-        </div>
-      );
-    }
-  }
-  ```
+   ```js
+   class Reloj extends React.Component {
+     render() {
+       const { fecha } = this.state
+       return (
+         <div>
+           <h1>Hola Mundo!</h1>
+           <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+         </div>
+       );
+     }
+   }
+   ```
 
 2. Agregamos un [constructor](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Constructor)
    que asigne el valor inicial de `this.state`:
 
-  ```js
-  class Reloj extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = { fecha: new Date() };
-    }
+   ```js
+   class Reloj extends React.Component {
+     constructor(props) {
+       super(props);
+       this.state = { fecha: new Date() };
+     }
 
-    render() {
-      const { fecha } = this.state
-      return (
-        <div>
-          <h1>Hola Mundo!</h1>
-          <h2>Son las {fecha.toLocaleTimeString()}.</h2>
-        </div>
-      );
-    }
-  }
-  ```
+     render() {
+       const { fecha } = this.state
+       return (
+         <div>
+           <h1>Hola Mundo!</h1>
+           <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+         </div>
+       );
+     }
+   }
+   ```
 
-  Nota como pasamos las `props` al constructor de `React.Component`:
+   Nota como pasamos las `props` al constructor de `React.Component`:
 
-  ```js
-    constructor(props) {
-      super(props);
-      this.state = { fecha: new Date() };
-    }
-  ```
+   ```js
+     constructor(props) {
+       super(props);
+       this.state = { fecha: new Date() };
+     }
+   ```
 
-  > Los componentes `statefull` **siempre** deverían invocar al constructor de
-  la superclase con `props` como parámetro.
+   NOTA: Los componentes `statefull` **siempre** deverían invocar al constructor
+   de la superclase con `props` como parámetro.
 
 3. Quita la propiedad `fecha` del elemento `<Reloj />`:
 
-  ```js
-  ReactDOM.render(
-    <Reloj />,
-    document.getElementById('root')
-  );
-  ```
+   ```js
+   ReactDOM.render(
+     <Reloj />,
+     document.getElementById('root')
+   );
+   ```
 
-The result looks like this:
+El resultado debería verse así:
 
 ```js
 class Reloj extends React.Component {
@@ -178,7 +178,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/KgQpJd?editors=0010)
+[Pruébalo en CodePen.](http://codepen.io/gaearon/pen/KgQpJd?editors=0010)
 
 Ahora, vamos a hacer que `Reloj` configure su propio timer y se actualice por si
 mismo cada segundo.
@@ -248,7 +248,7 @@ significado especial, como en cualquier clase, eres libre de agregar manualmente
 campos adicionales a tu clase si necesitas guardar alguna información, siempre y
 cuando su valor no esté relacionado con el output de tu `render()`.
 
-> Si no lo estás usando en el `render()`, no debería estar en el `state`.
+Si no lo estás usando en el `render()`, no debería estar en el `state`.
 
 Y ahora limpiamos el timer en `componentWillUnmount()`:
 
@@ -321,7 +321,7 @@ this.state.saludo = 'Hello'
 this.setState({ saludo: 'Hello' })
 ```
 
-> El único lugar en donde podrías asignar `this.state` directamente es en el constructor.
+El único lugar en donde podrías asignar `this.state` directamente es en el constructor.
 
 ### Las modificaciones al `state` pueden ser asíncronas
 
@@ -419,17 +419,15 @@ ReactDOM.render(
 Como puedes ver cada `Reloj` inicia su propio timer y se actualiza de manera
 independiente.
 
-> En `React` si un componente es `statefull` o `stateless` se considera un
+En `React` si un componente es `statefull` o `stateless` se considera un
 detalle de implementación del componente y esta condición puede cambiar con el
 tiempo. Esto quiere decir que puedes usar componentes `stateless` dentro de
 componentes `stateful` y vice-versa.
 
-> Sólo debes utilizar el estado local de un componente cuando
+Sólo debes utilizar el estado local de un componente cuando
 **puedas asegurar** que no necesitarás compartir esa información con el
-"exterior"
+"exterior".
 
-<br />
+Chequea todos los *hooks* disponibles en la [documentación de `React`](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
 
-> Chequea todos los *hooks* disponibles en la [documentación de `React`](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
-
-> ![Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/04-L04-oop/static/lifecycle.jpg)
+![Component lifecycle](https://github.com/Laboratoria/curricula-js/raw/react-L05/11-react/04-L04-oop/static/lifecycle.jpg)

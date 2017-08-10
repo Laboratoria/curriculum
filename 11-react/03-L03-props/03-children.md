@@ -45,13 +45,16 @@ const ConBorde = ({ color, children }) => (
 ```
 
 Entonces el siguiente elemento `jsx`
+
 ```javascript
   <ConBorde color="blue">
     <h1>Bienvenido</h1>
     <p>Gracias por la visita</p>
   </ConBorde>
 ```
+
 produce el siguiente `DOM`
+
 ```html
 <div style="border: solid 3px blue">
   <h1>Bienvenido</h1>
@@ -85,7 +88,7 @@ const App = () => (
 )
 ```
 
-> Elementos `React` como `<Contacts />` y `<Chat />` son solo objetos, por lo
+Elementos `React` como `<Contacts />` y `<Chat />` son solo objetos, por lo
 tanto puedes pasarlos como una propiedad, al igual que cualquier otro tipo de
 datos.
 
@@ -156,10 +159,11 @@ const IgnorarPrimerHijo = ({ children }) => (
 </IgnorarPrimerHijo>
 ```
 
-> Fijate que en este caso nosotros podríamos haber usado directamente
+Fijate que en este caso nosotros podríamos haber usado directamente
 `children.map` ya que hemos recibido un array de nodos, pero si en lugar de eso
 hubiéramos recibido una función, el componente hubiera lanzado un error.
-```
+
+```text
 TypeError: children.map is not a function
 ```
 
@@ -170,7 +174,8 @@ nuestro componente, se puede convertir en un problema. Al igual que en el caso
 anterior, con solo llamar a `children.length` no alcanza para garantizar que no
 haya error o el resultado sea el indicado.
 
-> Por ejemplo si pasamos como `children` el string *"Hello World!"*, `children.length` devuelve 12!
+Por ejemplo si pasamos como `children` el string *"Hello World!"*,
+`children.length` devuelve 12!
 
 Por eso es que existe `React.Children.count`:
 
@@ -262,14 +267,12 @@ Esta función devuelve el único hijo presente en `children`. Si hay más de uno
 lanza un **error** que **bloquea** el ciclo de **renderizado**, una
 advetertencia imposible de ignorar.
 
-
 ## Resumen
 
 Los `children` hacen que `React` se sienta como un auténtico lenguaje de markup
 y no como un montón de entidades sueltas escritas en `jsx`. Usar las funciones
 de `React.Children` nos permite tomar completo control sobre nuestro componente,
 permitiéndonos crear APIs más declarativas y menos propensas a errores.
-
 
 ## Ejercicio
 

@@ -27,7 +27,7 @@ aplicación de `node`.
 
 Para eso, desde el root de aplicación, ejecutamos el siguiente comando:
 
-```
+```sh
 yarn init
 ```
 
@@ -43,7 +43,7 @@ al paquete.
 
 Entonces, primero instalamos la dependencia con `yarn`.
 
-```
+```sh
 yarn add node-static
 ```
 
@@ -60,14 +60,15 @@ Y luego abrimos el archivo `package.json` y agregamos la siguiente propiedad:
 Y por último para levantar tu servidor, solo tienes que ejecutar el siguiente
 comando:
 
-```
+```sh
 yarn start
 ```
 
 ... y visitar la siguiente url: [127.0.0.1:8080](http://127.0.0.1:8080/)
 
-> Aquí unos recursos para entender más sobre el archivo [`package.json`](https://docs.npmjs.com/files/package.json)
-y los [`npm scripts`](https://docs.npmjs.com/misc/scripts).
+Aquí unos recursos para entender más sobre el archivo
+[`package.json`](https://docs.npmjs.com/files/package.json) y los
+[`npm scripts`](https://docs.npmjs.com/misc/scripts).
 
 ## Ejercicio
 
@@ -79,4 +80,4 @@ harías con cualquier `js` externo:
 <script type="text/babel" src="page.js" ></script>
 ```
 
-> En la próxima lectura vamos a ver cómo se utiliza `babel` en el "mundo real".
+En la próxima lectura vamos a ver cómo se utiliza `babel` en el "mundo real".

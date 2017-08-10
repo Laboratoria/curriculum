@@ -8,7 +8,7 @@ Sin embargo, hay ciertas situaciones en las que necesitas poder modificar un
 nodo hijo de manera imperativa. El nodo a modificar puede ser tanto una
 instancia de un componente definido como clase, como un elemento del DOM.
 
-### Cuándo usar referencias
+## Cuándo usar referencias
 
 Hay un par de casos de uso válidos para usar refs:
 
@@ -16,12 +16,18 @@ Hay un par de casos de uso válidos para usar refs:
 * Disparar animaciones imperativas.
 * Integrarnos con librerías externas.
 
-> Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
+***
 
-> Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos
+**NOTA**
+
+Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
+
+Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos
 `abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
 
-### Agregar una referencia a un elemento del DOM
+***
+
+## Agregar una referencia a un elemento del DOM
 
 `React` soporta un atributo especial que puede ser asignado a cualquier
 componente. El atributo `ref` recibe una función callback, la cual se ejecutará
@@ -64,8 +70,7 @@ class CustomTextInput extends React.Component {
 `React` se encargará de ejecutar el callback con el elemento DOM correspondiente
 cuando el componente se monte, y lo reemplazará por `null` cuando se desmonte.
 
-
-### Agregando una referencia a un componente `statefull`
+## Agregando una referencia a un componente `statefull`
 
 Cuando usamos `ref` en un componente declarado con una clase, el callback recibe
 como argumento la instancia montada del componente. Por ejemplo, si queremos
@@ -88,9 +93,15 @@ class AutoFocusTextInput extends React.Component {
 }
 ```
 
-> Ten en cuenta que esto **solo funciona** si `CustomTextInput` está declarado
+***
+
+**NOTA**:
+
+Ten en cuenta que esto **solo funciona** si `CustomTextInput` está declarado
 como clase
 
-> **Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen
+**Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen
 instancias**. Si necesitas usar `ref` con un componente `stateless`, deber
 convertirlo en `statefull`.
+
+***
