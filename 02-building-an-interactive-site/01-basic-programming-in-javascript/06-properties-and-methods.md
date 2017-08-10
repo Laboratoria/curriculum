@@ -1,6 +1,6 @@
 # Trabajando con `arrays` y `objects`
-- Formato: `self-learning`
 - Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -163,4 +163,4 @@ console.log(Object.keys(movie));
 
 ***
 
-[Continuar](04-combining-arrays-with-objects.md)
+[Continuar](07-combining-arrays-with-objects.md)

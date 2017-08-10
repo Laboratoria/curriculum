@@ -1,6 +1,6 @@
 # Objetos en JavaScript
-- Formato: `self-learning`
 - Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -215,4 +215,4 @@ A continuación Michelle nos explica los conceptos principales de `objects` con 
 
 ***
 
-[Continuar](03-working-with-arrays-and-objects.md)
+[Continuar](06-properties-and-methods.md)

@@ -1,6 +1,6 @@
 # Combinando `arrays` con `objects`
-- Formato: `self-learning`
 - Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -67,4 +67,4 @@ A continuación Michelle te explica cómo utilizar `funciones`, `estructuras rep
 
 ***
 
-[Continuar](05-applied-data-structures.md)
+[Continuar](08-applied-data-structures.md)

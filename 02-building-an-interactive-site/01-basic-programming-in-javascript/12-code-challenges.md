@@ -1,6 +1,7 @@
 # Retos
-- Formato: `code`
-- Duración: `6hrs`
+- Tipo: `code`
+- Formato: self-learning`
+- Duración: `8hrs`
 
 ## Objetivos
 
@@ -15,45 +16,13 @@ Por ejemplo:
 - Texto original:   `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`
 - Texto codificado: `GHIJKLMNÑOPQRSTUVWXYZABCDEF`
 
-### Tips para Cifrado César
 A continuación un video de Michelle que te lleva a través de la fórmula matemática del Cifrado César y un par de cosas más que debes saber para resolver este reto. Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips ceasar cipher](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
-Aquí te presentamos información que cubrió Michelle en su video para que la tengas a mano:
-
-#### Tabla ASCII/Unicode
-
-```js
-
-A  B  C  D  E  F  G  H  I  J  K  ...
-|  |  |  |  |  |  |  |  |  |  |
-65 66 67 68 69 70 71 72 73 74 75 ...
-
-```
-
-#### Accediendo a los Unicode: `charCodeAt()` & `fromCharCode()`:
-
-```js
-console.log("ABC".charCodeAt(0));
-// → 65
-
-console.log("ABC".charCodeAt(1));
-// → 66
-
-console.log("ABC".charCodeAt(2));
-// → 67
-
-console.log(String.fromCharCode(65, 66, 67));
-// → ABC
-```
-
-
 ## 2. Tarjeta de crédito válida
 
 Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de crédito y confirme su validez, según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
-
-### Tips para tarjeta de crédito válida
 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn y te da tips para completar este proyecto:
 
@@ -68,4 +37,4 @@ Completa el turorial de JavaScript de la comunidad de nodejs:
 * [javascripting](https://github.com/workshopper/javascripting)
 
 ***
-[Continuar](08-solutions-code-challenges-control-flow.md)
+[Continuar](13-solutions-code-challenges.md)

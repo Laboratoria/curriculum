@@ -1,6 +1,6 @@
-# Revisión de Conceptos
-
-- Formato: `clase presencial`
+# Clase de Conceptos
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
 - Duración: `120min`
 
 ## Objetivos
@@ -9,12 +9,6 @@
 - ¡Aclarar todas las dudas que tengas!
 
 ## Agenda
-1. Entendamos bien los conceptos de: `estructuras condicionales`, `estructuras repetitivas` y `funciones`. Usemos dibujos y diagramas para representar cada una.
-
-2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo funcionan los conceptos anteriores.
-
-3. Revisemos los [ejercicios guiados](06-guided-exercises-workshop-control-flow.md)
- que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
 
  1. Entendamos bien el concepto de un `array` y un `object`
 
@@ -34,7 +28,7 @@
    - `lastIndexOf()`
    - `trim()`
 
- 5. Revisemos los [ejercicios guiados](08-guided-exercises-workshop-data-structures.md)
-  que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
+ 5. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
+
 ***
-[Continuar](06-guided-exercises-workshop-control-flow.md)
+[Continuar](11-guided-exercises.md)

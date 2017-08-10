@@ -1,6 +1,6 @@
 # Solucionario Retos de Código
-
-- Formato: `clase presencial`
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
 - Duración: `120min`
 
 ## Objetivos
@@ -15,4 +15,4 @@
 2. Resolver dudas de los ejercicios de Replit y del tutorial de javascripting.
 
 ***
-[Continuar](09-quiz-2-control-flow.md)
+[Continuar](14-quiz-2.md)

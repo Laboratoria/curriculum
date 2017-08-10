@@ -1,5 +1,6 @@
 # Opening
-- Formato: `lectura`
+- Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -42,4 +43,4 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 ***
 
-[Continuar](01-conditionals-and-loops.md)
+[Continuar](01-command-line.md)

@@ -17,7 +17,7 @@ El propósito de este curso es que tengas un conocimiento básico y práctico de
 * Qué es UX design y por qué es una pieza clave del desarrollo de producto digital
 * A crear una página web estática utilizando las etiquetas principales `HTML` y darle estilo con `CSS`
 * Qué es el Document Object Model (DOM) y el Browser Object Model (BOM), y cómo utilizar JavaScript para manipular el `HTML` y `CSS` de tu web
-* Conceptos básicos de programación, como `funciones` y `estructuras de datos`
+* Conceptos básicos de programación en JavaScript, como `arrays` y `objects`
 * A correr programas utilizando la interfaz de línea de comandos (CLI)
 * A utilizar un sistema de control de versiones (Git)
 
@@ -63,20 +63,19 @@ En este curso pondrás en práctica los conceptos al desarrollar los siguientes 
 | 00 | clases | 30min | [Opening]()
 | 01 | clases | 60min | [Command Line Interface]()
 | 02 | clases | 60min | [Control de versiones - git]()
-| 03 | self-learning | 30min | [Funciones](03-functions.md)
-| 04 | self-learning | 30min | [Arrays](04-arrays.md)
-| 05 | self-learning | 30min | [Objects](05-objects.md)
-| 06 | self-learning | 30min | [Properties & Methods]()
-| 07 | self-learning | 30min | [Combining arrays with objects]()
-| 08 | self-learning | 30min | [Video de casos prácticos]()
-| 09 | quiz | 30min | [Quiz 1]()
-| 10 | clases | 120min | [Revisión de conceptos]()
-| 11 | clases | 120min |  [Ejercicios guiados]()
-| 12 | code | 8hrs | [Retos de código]()
-| 13 | clases | 120min | [Solucionario retos de código]()
-| 14 | quiz | 30min | [Quiz 2]()
-| 15 | survey | 10min | [Auto-evaluación]()
-| 16 | clases | 30min | [Closing]()
+| 03 | self-learning | 30min | [Arrays](04-arrays.md)
+| 04 | self-learning | 30min | [Objects](05-objects.md)
+| 05 | self-learning | 30min | [Properties & Methods]()
+| 06 | self-learning | 30min | [Combining arrays with objects]()
+| 07 | self-learning | 30min | [Video de casos prácticos]()
+| 08 | quiz | 30min | [Quiz 1]()
+| 09 | clases | 120min | [Revisión de conceptos]()
+| 19 | clases | 120min |  [Ejercicios guiados]()
+| 11 | code | 8hrs | [Retos de código]()
+| 12 | clases | 120min | [Solucionario retos de código]()
+| 13 | quiz | 30min | [Quiz 2]()
+| 14 | survey | 10min | [Auto-evaluación]()
+| 15 | clases | 30min | [Closing]()
 
 ### [02: Maquetado webs con HTML & CSS]()
 
@@ -169,11 +168,13 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 ## Contributors
 
-* Rodulfo Prieto (autor)
+* Rodulfo Prieto
+* Elizabeth Portilla
+* Alexander Ocsa
 * Iván Medina
 
 ## Libros de consulta
 
-* [HTML & CSS design and build websites]( ), de Jon Duckett, 2011.
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
+* [HTML & CSS design and build websites]( ), de Jon Duckett, 2011.

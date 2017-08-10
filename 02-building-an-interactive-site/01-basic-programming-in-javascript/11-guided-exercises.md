@@ -1,6 +1,6 @@
 # Clase Práctica
-- Formato: `guided-learning`
 - Tipo: `clase presencial`
+- Formato: `guided-learning`
 - Duración: `120min`
 
 ## Objetivos
@@ -10,13 +10,11 @@
 
 ## Enunciados
 A continuación tienes más problemas de práctica. Estos problemas serán resueltos, paso a paso, por tu equipo de profes en una sesión presencial (`workshop`).
+
 Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante el resto de la clase y así ayduar al resto de tus compañeras :)
 
 #### 1. Sum
-Crea una función `range` que tome dos argumentos: `start` (principio) y `end` (fin) y que devuelva un `array` que contenga los números desde el `start` hasta el `end` (incluyéndolo).
-A continuación, escribe una función `sum` que tome una `array` de números y devuelva la suma de estos números.
-Confirma que al ejecutar `console.log(sum(range(1,10)))` se imprime el resultado 55.
-Ahora modifique su función de rango para tomar un tercer argumento opcional que indique el valor de "step" utilizado para construir el `array`. Si no se da ningún step, los elementos del array suben por incrementos de uno, correspondientes al comportamiento anterior. La llamada  `range(1, 10, 2)` debe devolver `[1, 3, 5, 7, 9]`. Asegúrate que también funciona con valores de step negativos, de modo que `range(5, 2, -1)` produce `[5, 4, 3, 2]`.
+Crea una función `range` que tome dos argumentos: `start` (principio) y `end` (fin) y que devuelva un `array` que contenga los números desde el `start` hasta el `end` (incluyéndolo). A continuación, escribe una función `sum` que tome una `array` de números y devuelva la suma de estos números. Confirma que al ejecutar `console.log(sum(range(1,10)))` se imprime el resultado 55. Ahora modifica la función de rango para tomar un tercer argumento opcional que indique el valor de "step" utilizado para construir el `array`. Si no se da ningún step, los elementos del array suben por incrementos de uno, correspondientes al comportamiento anterior. La llamada  `range(1, 10, 2)` debe devolver `[1, 3, 5, 7, 9]`. Asegúrate que también funciona con valores de step negativos, de modo que `range(5, 2, -1)` produce `[5, 4, 3, 2]`.
 
 #### 2. Scorekeeper
 Imagina que estás jugando un juego con algunos amigas y quieres ir registrando el puntaje de cada una. Crea un `object` llamado `scores` donde los _keys_ o propiedades son los nombres de tus amigas, y los valores serán los puntajes (todos empiezan con 0).
@@ -44,4 +42,4 @@ Crea un programa que un cajero automático pueda utilizar para determinar el nú
 #### _Nota: Todos los retos deben validar los inputs antes de correr el programa._
 
 ***
-[Continuar](09-code-challenges-data-structures.md)
+[Continuar](12-code-challenges.md)

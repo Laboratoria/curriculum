@@ -1,6 +1,7 @@
 # Closing: Control FLow
-- Formato: `clase presencial`
-- Duración: `30min`
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
+- Duración: `120min`
 
 ## Puntos de discusión
 - Repasemos qué hemos aprendido hasta ahora

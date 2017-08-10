@@ -1,6 +1,7 @@
 # Quiz #1
-- Formato: `quiz`
-- Duración: `10min`
+- Tipo: `quiz`
+- Formato: `self-learning`
+- Duración: `30min`
 
 ## Objetivos
 
@@ -15,4 +16,4 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
 https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
 
 ***
-[Continuar](05-lecture-control-flow.md)
+[Continuar](10-lecture.md)

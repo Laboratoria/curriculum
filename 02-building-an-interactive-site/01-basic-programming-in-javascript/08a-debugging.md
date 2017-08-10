@@ -1,7 +1,7 @@
 # Keep Calm and Debug in JS
-- Formato: `self-learning`
 - Tipo: `lectura`
-- Duración: `60min`
+- Formato: `self-learning`
+- Duración: `30min`
 
 ## Objetivos
 
@@ -182,3 +182,7 @@ console.log(resultado);
 /*** HINT: Son 2 cambios para que quede correctamente ***/
 
 ```
+
+***
+
+[Continuar](09-quiz-1.md)

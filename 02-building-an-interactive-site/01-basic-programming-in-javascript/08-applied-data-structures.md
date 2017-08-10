@@ -1,7 +1,7 @@
-# Casos de estudio: aplicando conceptos para resolver problemas
-- Formato: `self-learning`
+# Video - casos prácticos
 - Tipo: `lectura`
-- Duración: `60min`
+- Formato: `self-learning`
+- Duración: `30min`
 
 ## Objetivos
 
@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](06-quiz-1-data-structures.md)
+[Continuar](08-applied-data-structures.md)

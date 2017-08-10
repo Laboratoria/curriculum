@@ -1,6 +1,6 @@
 # Arreglos
-- Formato: `self-learning`
 - Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -166,4 +166,4 @@ A continuación Michelle nos explica los conceptos principales de `arrays` con u
 
 ***
 
-[Continuar](02-objects.md)
+[Continuar](05-objects.md)

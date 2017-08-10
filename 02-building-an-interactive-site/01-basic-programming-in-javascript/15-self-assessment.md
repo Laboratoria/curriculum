@@ -1,10 +1,11 @@
 # Auto-evaluación
-- Formato: `survey`
-- Duración: `10min`
+- Tipo: `survey`
+- Formato: `self-learning`
+- Duración: `5min`
 
 ## Objetivos
 
-- Ahora que hemos revisado todo el material de la unidad, tómate unos minutos para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes
+- Ahora que hemos revisado todo el material de la unidad, tómate unos minutos para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes.
 
 ***
 
@@ -13,4 +14,4 @@ https://docs.google.com/a/laboratoria.la/forms/d/1_SQCHH_1zstgBHgMPYvow2fXWnUu8j
 
 ***
 
-[Continuar](11-closing-control-flow.md)
+[Continuar](16-closing.md)
