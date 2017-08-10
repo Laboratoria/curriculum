@@ -12,8 +12,8 @@
 Crea una web que pida, por medio de un `prompt()`, una frase al usuario y devuelva el mismo mensaje encriptado según el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) con con el parámetro de desplazamiento de **seis (6) espacios hacia la derecha**
 
 Por ejemplo:
-- Texto orginal: `Laboratoria`
-- Texto cifrado: ` `.
+- Texto original:   `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`
+- Texto codificado: `GHIJKLMNÑOPQRSTUVWXYZABCDEF`
 
 ### Tips para Cifrado César
 A continuación un video de Michelle que te lleva a través de la fórmula matemática del Cifrado César y un par de cosas más que debes saber para resolver este reto. Escúchala con detenimiento y sigue sus consejos! :)
