@@ -98,10 +98,10 @@ class AutoFocusTextInput extends React.Component {
 **NOTA**:
 
 Ten en cuenta que esto **solo funciona** si `CustomTextInput` está declarado
-como clase
+como clase.
 
 **Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen
-instancias**. Si necesitas usar `ref` con un componente `stateless`, deber
+instancias**. Si necesitas usar `ref` con un componente `stateless`, debes
 convertirlo en `statefull`.
 
 ***
