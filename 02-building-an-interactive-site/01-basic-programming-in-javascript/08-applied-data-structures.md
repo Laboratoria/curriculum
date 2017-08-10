@@ -1,7 +1,7 @@
-# Video - casos prácticos
+# Casos prácticos (videos)
 - Tipo: `lectura`
 - Formato: `self-learning`
-- Duración: `30min`
+- Duración: `60min`
 
 ## Objetivos
 
@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](08-applied-data-structures.md)
+[Continuar](08a-debugging.md)

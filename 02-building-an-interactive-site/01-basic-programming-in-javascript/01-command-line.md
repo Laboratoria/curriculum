@@ -12,4 +12,4 @@ En esta unidad aprenderemos:
 
 ***
 
-[Continuar](01-git.md)
+[Continuar](02-git.md)
