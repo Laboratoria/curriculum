@@ -9,6 +9,8 @@ En esta unidad aprenderemos:
 * ...
 * ...
 
+Referencia:
+https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md
 
 ***
 
