@@ -18,10 +18,25 @@ A continuación tendrás varios problemas que debemos resolver. Intenta resolver
 #### 1. Reverse
 Crea una función que invierta el orden de los elementos de un `array`. Completa este reto de dos maneras: en una, el `array` invertido es un _nuevo_ `array`; en la segunda, modifica el mismo `array` que se proporciona como argumento.
 
-#### 2. Scorekeeper
-Imagina que estás jugando un juego con algunos amigas y quieres ir registrando el puntaje de cada una. Crea un `object` llamado `scores` donde los _keys_ o propiedades son los nombres de tus amigas, y los valores serán los puntajes (todos empiezan con 0).
+#### 2. Search
+Crea una funcion que busquen un elemento en un `array`, devolviendo su posición (index) e imprima el valor en la consola. Tip: utiliza el algoritmo de [`linear search`](https://en.wikipedia.org/wiki/Linear_search)
 
-Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de la jugadora en el `object` scores. También escribe una función que imprima en la consola el total de los puntos.
+#### 3. Array to Object
+Escribe una función que tome un array 2D y devuelva un objeto con cada par de elementos en el `array` como un par _key-value_.
+Por ejemplo:
+- Input
+```js
+[['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]
+```
+- Output
+```js
+{
+  make : 'Ford'
+  model : 'Mustang',
+  year : 1964
+}
+```
+También escribe una función que haga lo contrario. Transforme los pares _key-value_ de un `object` en un `array 2D`.
 
 ## Solucionarios
 
@@ -32,6 +47,10 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 [![-----]()
 
 #### 2. -----
+
+[![-----]()
+
+#### 3. -----
 
 [![-----]()
 
