@@ -1,5 +1,6 @@
 # Opening
-- Formato: `lectura`
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje

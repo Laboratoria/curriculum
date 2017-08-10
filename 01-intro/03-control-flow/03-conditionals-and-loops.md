@@ -1,5 +1,6 @@
 # Estructuras condicionales y repetitivas
-- Formato: `lectura`
+- Tipo: `lectura`
+- Formato: `self-learning`
 - Duración: `30min`
 
 ## Objetivos

@@ -1,6 +1,7 @@
-# Control de flujo aplicado
-- Formato: `video`
-- Duración: `50min`
+# Casos prácticos (videos)
+- Tipo: `lectura`
+- Formato: `self-learning`
+- Duración: `60min`
 
 ## Objetivos
 

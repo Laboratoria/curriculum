@@ -1,5 +1,6 @@
 # Closing: Programación básica en Javascript
-- Formato: `clase presencial`
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
 - Duración: `30min`
 
 ## Puntos de discusión

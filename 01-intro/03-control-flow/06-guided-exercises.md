@@ -1,6 +1,7 @@
-# Workshop
-- Formato: `workshop`
-- Duración: `90min`
+# Clase Práctica: Ejercicios Guiados
+- Tipo: `lectura`
+- Formato: `guided-learning`
+- Duración: `30min`
 
 ## Objetivos
 
@@ -11,7 +12,7 @@
 
 ## Enunciados
 
-A continuación tienes más problemas de práctica. Estos problemas serán resueltos, paso a paso, por tu equipo de profes en una sesión presencial (`workshop`).
+A continuación tienes más problemas de práctica. Estos problemas serán resueltos, paso a paso, por tu equipo de profes en una clase presencial.
 
 Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante el resto de la clase y así ayduar al resto de tus compañeras :)
 
