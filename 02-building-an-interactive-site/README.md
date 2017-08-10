@@ -170,8 +170,9 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 
 * Rodulfo Prieto
 * Elizabeth Portilla
-* Alexander Ocsa
-* Iván Medina
+* Emmanuel Orozco
+* Lalo Gonzalez
+* Michelle Seguil
 
 ## Libros de consulta
 
