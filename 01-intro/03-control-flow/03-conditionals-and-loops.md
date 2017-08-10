@@ -134,9 +134,9 @@ El diagrama de flujo para este programa es algo así:
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 
-Veamos otro ejemplo de la aplicación de la sentencia `if...else`. Esta vez, con otro video de Michelle :)
+Veamos otro ejemplo de la aplicación de la sentencia `if...else`. Esta vez, con un video de otra profesora estrella de Laboratoria, Alexandra :)
 
-[![ejercicio guiado if...else JS for Kids pg 94](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![ejercicio guiado if...else JS for Kids pg 94](https://img.youtube.com/vi/-rNwUIEQJnc/0.jpg)](https://www.youtube.com/watch?v=-rNwUIEQJnc)
 
 #### _Utilizando Switch_
 Es común ver código así:
@@ -320,7 +320,7 @@ for (initial setup; condition; increment){
 ```
 El _initial setup_ (por ejemplo: var counter = 0) se ejecuta antes de que se inicie el bucle. Generalmente se usa para crear una variable que rastrea el número de veces que se ha ejecutado el bucle. La _condition_ (counter < 10) se comprueba antes de cada ejecución del cuerpo de bucle. Si la condición es verdadera, el cuerpo es ejecutado; si es falsa, el bucle se detiene. En este caso, el bucle se detendrá una vez que counter ya no sea inferior a 10. El _increment_ (counter = counter + 1) se ejecuta después de cada ejecución del cuerpo de bucle. Generalmente se utiliza para actualizar la variable de bucle. En nuestro ejemplo, lo usamos para agregar 1 a counter cada vez que se ejecuta el bucle.
 
-A continuación Alexandra, otra profe estrella de Laboratoria, te ayuda a entender el flujo de un bucle `for` que imprime el texto "Hola mundo!":
+A continuación Alexandra te ayuda a entender el flujo de un bucle `for` que imprime el texto "Hola mundo!" varias veces:
 
 [![bucle for](https://img.youtube.com/vi/lKwx1RAxTfo/0.jpg)](https://www.youtube.com/watch?v=lKwx1RAxTfo)
 
