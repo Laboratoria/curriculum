@@ -35,4 +35,4 @@ Para todos los programas, si el usuario no ingresa un dato válido, debe dar un 
 
 
 ***
-[Continuar](10-closing.md)
+[Continuar](10-solutions-code-challenges.md)
