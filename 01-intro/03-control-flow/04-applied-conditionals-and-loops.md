@@ -57,4 +57,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](03-code-challenges.md)
+[Continuar](05-functions.md)

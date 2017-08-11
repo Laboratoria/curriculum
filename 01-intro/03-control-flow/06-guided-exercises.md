@@ -42,4 +42,4 @@ Arma tu archivo JavaScript para que tenga 3 funciones:
 
 ***
 
-[Continuar](07-code-challenges-control-flow.md)
+[Continuar](07-code-challenges.md)

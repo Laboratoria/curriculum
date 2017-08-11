@@ -352,4 +352,4 @@ A continuación Michelle te ayuda explica, con un ejemplo, las aplicaciones de `
 
 ***
 
-[Continuar](02-applied-conditionals-and-loops.md)
+[Continuar](04-applied-conditionals-and-loops.md)

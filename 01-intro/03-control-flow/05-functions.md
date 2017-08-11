@@ -151,4 +151,4 @@ Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencia
 
 ***
 
-[Continuar](03-applied-control-flow.md)
+[Continuar](06-guided-exercises.md)
