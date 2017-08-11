@@ -81,28 +81,23 @@ console.log("El cuadrado de 12 es " + square(12));
 
 Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`. Éste se concatena con el texto `"El cuadrado de 12 es "` para formar `"El cuadrado de 12 es 144"`; lo cual, a su vez, se pasa como argumento a la función `console.log` para que lo imprima en la consola.
 
-## Funciones y control de flujo
-Las funciones también afectan el control de flujo de nuestro programa. [FALTA EXPANDIR]. Una representanción gráfica del flujo de control con funciones sería:
-
-![Flujo con funciones](http://eloquentjavascript.net/img/controlflow-straight.svg)
-
 ## Múltiples parámetros
 
 Una función puede tener varios parámetros o puede no tener ninguno. En el siguiente ejemplo `makeNoise` no tiene parámetros, mientras que `power` tiene dos:
 
 ```js
 var makeNoise = function() {
- console.log("Pling!");
+  console.log("Pling!");
 };
 
 makeNoise();
 // → Pling!
 
 var power = function(base, exponent) {
- var result = 1;
- for (var count = 0; count < exponent; count++)
-   result *= base;
- return result;
+  var result = 1;
+  for (var count = 0; count < exponent; count++)
+  result *= base;
+  return result;
 };
 
 console.log(power(2, 10));
@@ -123,11 +118,18 @@ Una forma común de utilizar `return` es para salir de la función de manera tem
 ```js
 var fifthLetter = function (name) {
   if (name.length < 5) {
-  return;
+    return;
   }
   return "La quinta letra de tu nombre es " + name[4] + ".";
 };
 ```
+
+## Funciones y control de flujo
+
+Las funciones también afectan el control de flujo de nuestro programa. Con funciones podemos crear estructuras repetitivas (con algo que se llama `recursividad`) y estructuras condicionales (con, por ejemplo, múltiples valores de `return`). De hecho, las funciones son tan versátiles para armar la estructura de un programa que existe todo un _"paradigma de programación"_ basado en funciones. Es decir, existe toda una manera de pensar en la programación basada en funciones. Esto se llama el **paradigma de programación funcional**. Más adelante estudiaremos a mayor profundidad funciones y el paradigma de programación funcional. Por ahora, lo importante es entender que las funciones son una forma de agrupar código para que pueda ser reutilizado.
+
+Veamos un ejemplo de crear una estructura condicional con funciones:
+
 
 ## Utilizando múltiples `return` en lugar de `if... else`
 
