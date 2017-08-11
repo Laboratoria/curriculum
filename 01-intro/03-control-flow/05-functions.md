@@ -107,7 +107,7 @@ console.log(power(2, 10));
 
 A continuación Michelle te explica funciones con un ejemplo del libro JavaScript for Kids.
 
-[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://www.youtube.com/watch?v=Y0NgsjdumS8)
 
 ## Saliendo de una función con `return`
 
