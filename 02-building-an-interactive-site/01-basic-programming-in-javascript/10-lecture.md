@@ -28,7 +28,7 @@
    - `lastIndexOf()`
    - `trim()`
 
- 5. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intenten resolverlos por su cuenta primero. Veamos un par de tips :)
+ 5. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
 
 ***
 [Continuar](11-guided-exercises.md)

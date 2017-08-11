@@ -151,4 +151,4 @@ Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencia
 
 ***
 
-[Continuar](06-guided-exercises.md)
+[Continuar](06-quiz-1.md)
