@@ -1,5 +1,5 @@
 # Repaso de conceptos: Intro JS
-- Tipo: `calse presencial`
+- Tipo: `clase presencial`
 - Formato: `guided-learning`
 - Duración: `120min`
 

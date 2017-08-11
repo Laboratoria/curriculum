@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](09-quiz1.md)
+[Continuar](09-quiz-1.md)
