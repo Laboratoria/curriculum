@@ -53,7 +53,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 2. Tablero de Ajedrez: Solucionario
 
-[![-----]()
+[![Tablero](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://www.youtube.com//watch?v=ckaXH2IhUrw)
 
 ***
 
