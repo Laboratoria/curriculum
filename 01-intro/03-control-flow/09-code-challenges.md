@@ -11,6 +11,10 @@
 
 ## Retos
 
+Completa los ejercicios de programación básica del salón de clases de:
+* [Replit intro-js]( )
+
+<!--
 1. Crea un programa que imprima los números que son potencia de 3 menores a 10,000 (ej. 3, 9, 27, etc.)
 2. Crea un programa que compruebe si un número es par o impar, escribiendo el mensaje en la consola.
 3. Crea un programa que cuente el número de vocales de un `string`
@@ -32,7 +36,7 @@
 ```
 
 Para todos los programas, si el usuario no ingresa un dato válido, debe dar un mensaje de error.
-
+-->
 
 ***
 [Continuar](10-solutions-code-challenges.md)

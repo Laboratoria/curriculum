@@ -12,6 +12,5 @@
 
 * Resolver los retos, evaluar las diferentes maneras de alcanzar el resultado y discutir cuál es la más óptima
 
-
 ***
 [Continuar](11-quiz-2.md)
