@@ -56,4 +56,4 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 ***
 
-[Continuar](08a-debugging.md)
+[Continuar](09-quiz1.md)

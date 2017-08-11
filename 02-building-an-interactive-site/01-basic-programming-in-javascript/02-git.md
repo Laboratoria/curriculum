@@ -18,4 +18,4 @@ https://git-scm.com/book/en/v2
 https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro
 ***
 
-[Continuar](04-arrays.md)
+[Continuar](03-recap-intro.md)

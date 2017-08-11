@@ -18,8 +18,9 @@
   * `do`
   * `if...else`
   * `switch`
-  * `functions`
+  * `function`
   * `return`
+
 
  2. Revisemos los [ejercicios guiados](08-guided-exercises.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
 
