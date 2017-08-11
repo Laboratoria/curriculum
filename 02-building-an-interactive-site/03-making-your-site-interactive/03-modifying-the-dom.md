@@ -23,7 +23,8 @@ En esta unidad aprenderemos:
 
 ***
 
-[Continuar]( )
+http://eloquentjavascript.net/13_dom.html
+
 
 ## Modificando contenido
 
@@ -36,3 +37,7 @@ En esta unidad aprenderemos:
 
 ## DOM Animation
 https://www.w3schools.com/js/js_htmldom_animate.asp
+
+***
+
+[Continuar]( )

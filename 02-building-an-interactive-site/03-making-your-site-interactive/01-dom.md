@@ -15,6 +15,8 @@ En esta unidad aprenderemos:
   - `parentNode`
   - `childNodes`
   - `previousSibling`
+  - `previousElementSibling`
+  - `nextElementSibling`
   - `nextSibling`
   - `getElementsByTagName`
   - `.getElementsByClassName`
@@ -27,6 +29,8 @@ En esta unidad aprenderemos:
 https://docs.google.com/presentation/d/1t5jwKi-9TuPaUKpgiEz33Whb25OaRUnbukZpkVUlAeI/edit
 
 https://docs.google.com/a/laboratoria.la/presentation/d/1Vjvl1_xGInCz9j90C_e9_y0yNMqp2pdabhjrJa3aaPw/edit?usp=drive_web
+
+http://eloquentjavascript.net/13_dom.html
 
 ## ¿Qué es el DOM?
 https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Document_Object_Model
@@ -46,4 +50,5 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Document_Obje
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 
+***
 [Continuar]( )
