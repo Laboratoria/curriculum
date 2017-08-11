@@ -6,8 +6,10 @@
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-* Cuáles son las estructuras básicas del control de flujo de un programa: `estructuras condicionales`,  `estructuras repetitivas` y `funciones`
-
+* Qué es el control de flujo de un programa y cuáles son las estructuras básicas de control de flujo
+* Cómo funcionan y para qué sirven las `estructuras condicionales`
+* Cómo funcionan y para qué sirven las `estructuras repetitivas`
+* Qué son las `funciones`, cómo se utilizan y por qué son cruciales para la programación
 
 ## Guia de preguntas y conceptos clave:
 
@@ -21,7 +23,7 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Cuál es la diferencia entre un `while` y un `do`?
 - [ ] ¿Cuáles son las 3 partes (sentencias) esenciales de un `for`? Dame un ejemplo
 - [ ] ¿Para qué utilizamos `break` y `continue` en un `for`? Dame un ejemplo
-- [ ] Explica, con una analogía y en tus propias palabras, qué es un `function` (una función). Dibuja el concepto de una función
+- [ ] Explica, con una analogía y en tus propias palabras, qué es una función. Dibuja el concepto de una función
 - [ ] ¿Por qué son importantes las funciones en la programación?
 - [ ] ¿Qué se entiende por `DRY`?
 - [ ] ¿Qué significa "llamar" a una función?
