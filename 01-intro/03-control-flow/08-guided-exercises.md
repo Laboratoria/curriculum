@@ -1,7 +1,7 @@
 # Clase Práctica: Ejercicios Guiados
-- Tipo: `lectura`
+- Tipo: `clase presencial`
 - Formato: `guided-learning`
-- Duración: `30min`
+- Duración: `120min`
 
 ## Objetivos
 

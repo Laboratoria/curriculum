@@ -1,7 +1,7 @@
 # Retos de Código
 - Tipo: `code`
 - Formato: `self-learning`
-- Duración: `2hrs`
+- Duración: `120min`
 
 ## Objetivos
 
