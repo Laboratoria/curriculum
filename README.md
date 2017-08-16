@@ -31,8 +31,8 @@ como de la comunidad en general. Queremos hacer una malla abierta.
 
 Como guía en el proceso de diseño de la malla estamos usando un "mapa" de
 _conceptos_, _tecnologías_ y _herramientas_ que queremos cubrir en la currícula.
-Este mapa es un mapa vivo, se basa en feedback de empleadores, profes y alumnas.
-Si tienes alguna sugerencia o comentario no dudes en
+Este mapa es un mapa vivo, se basa en feedback de empleadores, instructores y
+alumnas. Si tienes alguna sugerencia o comentario no dudes en
 [abrir un issue](https://github.com/Laboratoria/curricula-js/issues) ;-)
 
 ![mapa de topicos](https://user-images.githubusercontent.com/110297/27301108-c25bf836-54f7-11e7-9ce0-3346ff435926.png)
@@ -44,37 +44,40 @@ como unidad atómica. Estos _autores_ podrán ser personal de Laboratoria así
 como profesionales y expertos de la industria.
 
 Cada curso tendrá una duración de aprox. 4 semanas. Los _cursos_ diseñados para
-el _bootcamp_ tendrán en cuenta que las alumnas estudian medio tiempo, **no**
-dominan el idioma ingles y dedican tiempo todos los días, mientras que los
-_cursos_ de _educación continua_ están dirigidos a un público que trabaja, y por
-lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h por semana).
+el **bootcamp** tendrán en cuenta que las alumnas estudian a medio tiempo
+(dedican tiempo todos los días) y **no** dominan el idioma inglés. Por otro
+lado, los _cursos_ de **educación continua** están dirigidos a un público que
+trabaja, y por lo tanto tiene mucho menos disponibilidad de tiempo (aprox. 7h
+por semana).
 
-Los _cursos_ se dividen en 3 _fases_: _prep_ (curso online de 1 mes), _bootcamp_
-(cursos blended part-time, 6 meses) y _educación continua_ (cursos blended 7
-horas por semana, 18 meses).
+Los _cursos_ se dividen en 3 _fases_:
+
+* [**Prep**](#prep): cursos online / proceso de selección
+* [**Bootcamp**](#bootcamp): cursos blended part-time, 6 meses
+* [**Educación continua**](#educación-continua): cursos blended 7 horas por
+  semana, 18 meses
 
 ***
 
 ### Prep
 
-Por ahora sólo hay un _curso_ en la _fase_ `prep`. La idea es que son cursos
-dirigidos a gente que nunca ha tenido contacto con la programación, o
-principiantes que quieran iniciarse en el viaje del Full Stack JS.
+Cursos dirigidos a gente que nunca ha tenido contacto con la programación, o
+principiantes que quieran iniciarse en el viaje del **Full Stack JavaScript**.
 
 #### 00. Cursos/tutoriales de terceros
 
 Recomendamos a todas las interesadas que descarguen y sigan los siguientes
-cursos interactivos creados por la comunidad [nodeschool](http://nodeschool.io).
-Estos cursos te darán una oportunidad de familiarizarte no sólo con JavaScript,
-HTML y git, que son conocimientos esenciales, si no que lo harás en el entorno
-de la línea de comando (tu nuevo mejor amigo).
+cursos interactivos creados por la comunidad de [nodeschool](http://nodeschool.io).
+Estos cursos te darán una oportunidad de familiarizarte no sólo con
+**JavaScript**, **HTML** y **Git**, que son conocimientos esenciales, si no que
+lo harás en el entorno de la línea de comando (tu nuevo mejor amigo).
 
-* [javascripting](https://github.com/workshopper/javascripting): Learn
-  JavaScript by adventuring around in the terminal.
-* [learnyouhtml](https://github.com/denysdovhan/learnyouhtml): Learn how to
-  create your first web-page.
-* [git-it](https://github.com/jlord/git-it-electron): Git-it is a (Mac, Windows,
-  Linux) Desktop App for Learning Git and GitHub.
+* [javascripting](https://github.com/workshopper/javascripting): Aprende
+  **JavaScript** aventurándote en el terminal.
+* [learnyouhtml](https://github.com/denysdovhan/learnyouhtml): Aprende cómo
+  crear tu primera **página web**.
+* [git-it](https://github.com/jlord/git-it-electron): Git-it es una aplicación
+  de escritorio (Mac, Windows, Linux) que te ayuda a aprender **Git y GitHub**.
 
 #### [01. Introducción a la programación en JS](01-intro)
 
@@ -101,16 +104,18 @@ Durante este curso se harán productos como:
 ### Bootcamp
 
 El **Bootcamp** tiene una duración de 6 meses, a tiempo parcial. Las chicas
-postularán cuando hayan completado el curso de "Introducción a la programación".
-Una vez dentro, llevarán durante 9 semanas una serie de temas a la que
-denominamos **Common Core**, a partir de ahí podrán especializarse en 3 perfiles
-(`tracks`): `Front-End Developer`, `Maquetadora Web` y `UX Designer`.
+postularán cuando hayan completado el curso de
+[Introducción a la programación](01-intro). Una vez dentro, llevarán durante 9
+semanas una serie de temas a la que denominamos **Common Core**, a partir de ahí
+podrán especializarse en 3 perfiles (`tracks`): `Front-End Developer`,
+`Maquetadora Web` y `UX Designer`.
 
 #### Common Core
 
-En este espacio, las estudiantes experimentarán un poco de los diversos tracks con
-la intención de descubrir su afinidad, no se verán todos los temas a profundidad,
-pero si lo necesario para poder entender en que track especializarse.
+En este espacio, las estudiantes experimentarán un poco de los diversos tracks
+con la intención de descubrir su afinidad, no se verán todos los temas en
+profundidad, pero sí lo necesario para poder entender en qué track
+especializarse.
 
 ##### 02. Building a static site and making it dynamic
 
@@ -118,9 +123,9 @@ Autor: _Iván Medina & ???_
 
 En este primer curso se construirá un sitio dinámico desde cero pasando por las
 diversas fases del desarrollo de un producto web. A lo largo de este curso, se
-verán temas de maquetación (HTML y CSS), lógica (JS), herramientas de flujo de
-trabajo (Git), además de interacción con el DOM para agregar dinamismo a través
-de eventos.
+verán temas de maquetación (`HTML` y `CSS`), lógica (`JS`), herramientas de
+flujo de trabajo (`git`), además de interacción con el `DOM` para agregar
+dinamismo a través de eventos.
 
 * **Data Dashboard**: El entregable final del curso será una web app en la que
   deberán diseñar la experiencia del producto que consiste en mostrar el
@@ -140,9 +145,10 @@ Tiempo estimado: _4 semanas_.
 
 Autor: _Iván Medina & ???_
 
-En este curso se realizará la versión 2 del primer producto mejorando su
-visualización a través de diversos dispositivos y haciendo uso de librerías
-y frameworks que permitan optimizar el flujo del desarrollo.
+En este curso se realizará la segunda versión del producto construido en el
+curso anterior, mejorando su visualización a través de diversos dispositivos
+(`responsive`) y haciendo uso de librerías y frameworks que permitan optimizar
+el flujo del desarrollo.
 
 * **Data Dashboard v2**: El entregable final del curso será la versión 2 del
   primer producto, esto consiste en desarrollar el UI haciendo uso de librerías
@@ -168,23 +174,22 @@ la programación y JavaScript de tal manera que puedan especializarse en
 
 Autor: _Belén Recabal & Iván Medina_
 
-Este curso incluye un poco más de teoría de lo habitual, entender las
-particularidades de JavaScript como lenguaje de programación, esto permitirá que
-nos preocupemos por el performance de nuestras aplicaciones escribiendo un mejor
-código sacando provecho del lenguaje.
+En este curso construirás tu propia librería usando JavaScript, lo cual nos
+permitirá explorar las particularidades del lenguaje y entender como funciona
+por dentro, haciendo incapié en temas de performance, uso de memoria y
+optimización.
 
 * **UI Library**: El entregable final de este curso será construir una librería
   para desarrollo de interfaces, teniendo en cuenta el performance y manejo de
   memoria, que se usará para desarrollar una réplica de
   _[Pinterest](http://pinterest.com/)_.
 
-Main tags: `values`, `types`, `operators`, `variables`, `control-flow`,
-`functions`, `objects`, `arrays`, `linter`.
+Main tags: `types`, `operators`, `functions`, `objects`, `scope`, `closure`,
+`execution-context`, `linter`.
 
-Secondary Tags: `es6`, `primitive-vs-reference`, `bitwise-operators`,
-`function-statement`, `function-expression`, `callbacks`, `hoisting`,
-`execution-context`, `iife`, `closure`, `apply`, `call`, `bind`,
-`this`, `scope`.
+Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
+`function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
+`apply`, `call`, `bind`, `this`.
 
 Tiempo estimado: _3 semanas_.
 
@@ -193,7 +198,7 @@ Tiempo estimado: _3 semanas_.
 Autor: _Iván Medina_
 
 En este curso se verán temas de `network` para entender qué es lo que sucede
-por detrás de la web (arquitectura cliente-servidor), para luego profundizar en
+por detrás de la web (arquitectura cliente-servidor). Profundizaremos en
 temas de diseño de APIs para luego poder consumirlos o desarrollarlos.
 
 * **AIRDNA clone**: El entregable final de este curso es el desarrollo de un
@@ -214,14 +219,16 @@ Tiempo estimado: _3 semanas_.
 
 Autor: _Iván Medina_
 
-En este curso vas a salir de JS, y vas a entender como integrar tu front-end
-con un back-end y aprovecharemos Ruby como lenguaje de programación aprovechando
-la sencillez de su framework Rails que integra a Sass como pre-procesador de CSS
+En este curso vas a salir de JavaScript, y vas a entender como integrar tu
+front-end con un back-end. Usaremos `Ruby` como lenguaje de programación
+aprovechando la sencillez de su framework `Ruby on Rails` que integra a `Sass`
+como _pre-procesador_ de CSS.
+
 El desarrollo Front End es un mundo muy amplio tal como lo es el desarrollo
-Back End, y trabajar estos en conjunto es algo aun muy común en el desarrollo de
-software, por lo cual veremos como implementar lo que ya conocemos hasta el
-momento dentro de un framework Back End que puede estar realizado en cualquier
-lenguaje, pero que sigue un patrón muy similar.
+Back End, y trabajar éstos en conjunto es algo aún muy común en el desarrollo de
+software. Veremos cómo implementar lo que ya conocemos hasta el momento dentro
+de un framework Back End que podría estar realizado en cualquier lenguaje, pero
+que sigue un patrón muy similar.
 
 * **Fiverr clone**: El entregable final de este curso es replicar la experiencia
   del sitio de _[Fiverr](http://embed.wistia.com/deliveries/0677cb185a93d97d366095fb2886dadbe1a70ec2/file.mp4)_
