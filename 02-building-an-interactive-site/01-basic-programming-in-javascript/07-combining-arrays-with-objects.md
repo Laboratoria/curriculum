@@ -63,7 +63,7 @@ A continuación Michelle te explica cómo utilizar `funciones`, `estructuras rep
 2. Los puntos totales de la clase
 3. Los nombres de las estudiantes que han llevado el curso de **"JS avanzado"**
 
-[![video](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![video](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)
 
 ***
 

@@ -211,7 +211,7 @@ console.log(student);
 
 A continuación Michelle nos explica los conceptos principales de `objects` con un ejemplo
 
-[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/fkOIbw6Bk6g/0.jpg)](https://www.youtube.com/watch?v=fkOIbw6Bk6g)
 
 ***
 
