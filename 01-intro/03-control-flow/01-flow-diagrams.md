@@ -6,22 +6,20 @@
 ## Objetivos de Aprendizaje
 
 * Representar gráficamente las distintas etapas de un proceso y sus iteraciones, facilitando la comprensión de su funcionamiento.
-* Útil para analizar el proceso actual, proponer ideas, representar los controles, etc.
-
+* Conocer la utilidad  de los diagramas de flujo para analizar el proceso, proponer ideas, representar los controles, etc.
 
 El texto a continuación se basa en la representación gráfica del algoritmo o proceso.
-Útil para la disciplina de programación, con la utilización de simbolos con significado definido que representan los pasos de algoritmo , representando el flujo de ejecución.
+Es útil para la disciplina de programación, con la utilización de simbolos con significado definido que representan los pasos de algoritmo , representando el flujo de ejecución.
 ***
 
+### ¿Qué es diagrama del flujo?
+Un diagrama de flujo o diagrama de actividades es una **representación gráfica de un proceso**.  Cada paso del proceso es representado por un símbolo diferente que contiene una breve descripción de la etapa de un proceso.
 
-### Qué es diagrama del flujo?
-Un diagrama de flujo o diagrama de actividades es una **representación gráfica de un proceso. **Cada paso del proceso es representado por un símbolo diferente que contiene una breve descripción de la etapa de un proceso.
-
-[Es la representacón gráfica de un algoritmo;] **Los símbolos gráficos del flujo del proceso están unidos entre si** con flechas que indican la dirección de flujo del proceso.
+**Los símbolos gráficos del flujo del proceso están unidos entre si** con flechas que indican la dirección de flujo del proceso.
 
 ### Caracterisiticas del Diagrama de Flujo
-* Un diagrama de flujo siempre tiene un único punto de inicio y un único punto de termino.
 
+* Un diagrama de flujo siempre tiene un único punto de inicio y un único punto de termino.
 * Realizaciones previas a la realización de un diagama de flujo:
  1. Definir lo que se espera obtener del diagrama de flujo.
  2. Identificar quién lo empleará y cómo.
@@ -32,8 +30,8 @@ Un diagrama de flujo o diagrama de actividades es una **representación gráfica
 
 ### Beneficios del Diagrama de Flujo
 
-* Facilita la **obtención de una visión**transparente del proceso, mejorando su comprensión.
-* Permiten **definir los límites de un proceso.** Aveces estos límites no son tan evidentes, no estando definidos los distintos proveedores y clientes (internos y externos) involucrados.
+* Facilita la **obtención de una visión** transparente del proceso, mejorando su comprensión.
+* Permiten **definir los límites de un proceso**. A veces estos límites no son tan evidentes, no estando definidos los distintos proveedores y clientes (internos y externos) involucrados.
 * Facilita de identación de los clientes, es más sencillo determinar sus necesidades y ajustar el proceso hacia la satisfacción de sus necesidades y expectativas.
 * Ayuda a **establecer el valor agregado** de cada una de las actividades que componen el proceso.
 
@@ -62,21 +60,21 @@ Un diagrama de flujo o diagrama de actividades es una **representación gráfica
 
 * #### Decisión
 
-![INNERhtml](images/d.png "innerHTML")  | Expresa una Condición
+![INNERhtml](images/d.png "innerHTML")  | Expresa una condición
 -- | --
 
 
 
 * #### Entrada
 
-![INNERhtml](images/entrada.png "innerHTML")  | Expresa lectura Cuando el ususario introduce Datos.
+![INNERhtml](images/entrada.png "innerHTML")  | Expresa lectura cuando el ususario introduce datos.
 -- | --
 
 
 
 * #### Proceso
 
-![INNERhtml](images/proceso.png "innerHTML") | Representa una actividad llevada a cabo en el Proceso
+![INNERhtml](images/proceso.png "innerHTML") | Representa una actividad llevada a cabo en el proceso
 -- | --
 
 * #### Salida

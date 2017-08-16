@@ -12,7 +12,9 @@
 ## Retos
 
 Completa los ejercicios de programación básica del salón de clases de:
-* [Replit intro-js]( )
+
+Accede a Replit desde aquí:
+https://repl.it/student_embed/classroom/22703/ec98bd8b7da4fcc54df199d4e5ddac11
 
 <!--
 1. Crea un programa que imprima los números que son potencia de 3 menores a 10,000 (ej. 3, 9, 27, etc.)

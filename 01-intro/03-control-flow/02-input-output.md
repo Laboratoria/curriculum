@@ -1,4 +1,4 @@
-# Inpout - Output
+# Input - Output
 - Tipo: `lectura`
 - Formato: `self-learning`
 - Duración: `30min`
@@ -8,7 +8,6 @@
 
 * Introducir datos y obtener resultados en la computadora para su procesamiento.
 * Crear controles interactivos para formularios basados en la web para aceptar datos del ususario y obtener la salida de los conocimientos adquiridos.
-
 
 
 ##  Input
@@ -23,11 +22,11 @@
 
 * Puedes usarlo de tres formas:
 
- 1. prompt(). Muestra el cuadro de diálogo, con el **input** para poder poner los datos.
- 2. prompt("texto"). Muestra el cuadro de diálogo con el texto indicado para darle contexto al usuario.
- 3. prompt("texto","default"). Muestra el cuadro de diálogo con el texto indicado para darle contexto al usuario. Además ingresara en el input la respuesta por defecto.
+ 1. `prompt()`. Muestra el cuadro de diálogo, con el **input** para poder poner los datos.
+ 2. `prompt("texto")`. Muestra el cuadro de diálogo con el texto indicado para darle contexto al usuario.
+ 3. `prompt("texto","default")`. Muestra el cuadro de diálogo con el texto indicado para darle contexto al usuario. Además ingresara en el input la respuesta por defecto.
 
- Con prompt() puedes solicitar data al usuario. Por ejemplo "¿En donde estudiar?"
+ Con `prompt()` puedes solicitar data al usuario. Por ejemplo "¿En donde estudiar?"
 
  ![Con titulo](images/input.png "titulo")
 
@@ -52,7 +51,7 @@ Los output son forma de exponer datos. Javascript no tiene método imprimir, ni 
 
 ### Window.alert()
 
-El método alert() muestra un cuadro de alerta con un mensaje especificado y un botón **OK.**
+El método `alert()` muestra un cuadro de alerta con un mensaje especificado y un botón **OK.**
 
 Un cuadro de alerta se utiliza a menudo si desea asegurarse de que la información llega a través del usuario. Este cuadro de alerta aleja el foco de la ventana actual y obliga al navegador a leer el mensaje.
 
@@ -99,27 +98,6 @@ Por ejemplo, en nuestro caso vamos a indicar un "Hola mundo" y una pequeña oper
 
 ![INNERhtml](images/consolelog.png "innerHTML")
 
+
 ***
-## Comentarios en Js
-Los comentarios JavaScript se pueden utilizar para explicar el código JavaScript y para hacerlo más legible, también podemos utilizarlo para evitar la ejecución, al probar el código alternativo.
-Los comentarios en JS puede ser de más de una línea, usando la sintaxis:
-
-                       /* comentario de una o vrias líneas */
-
-Por ejemplo en la consola:
-
-![INNERhtml](images/coment.png "innerHTML")
-
-![INNERhtml](images/comentario.png "innerHTML")
-
-Tambien existen los comentarios de una sóla línea, estos comentarios afectan desde su posición hasta el final de línea. La sintaxis es como sigue:
-
-                       // comentario de una línea
-
-Por ejemplo.
-
-![INNERhtml](images/doblelinea.png "innerHTML")
-***
- 
-
 [Continuar](03-conditionals-and-loops.md)
