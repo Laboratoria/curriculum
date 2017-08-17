@@ -119,16 +119,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 |   1   | video        |   10min  | ...
 |   2   | code         |   20min  | ...
 
-### Lesson 6: [Aplicación parcial, bind, call](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 7: [Ejercicios guiados](#)
+### Lesson 6: [Ejercicios guiados](#)
 
 1h (presencial)
 
@@ -143,7 +134,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 2h (presencial)
 
-### Lesson 8: [Asincronía](#)
+### Lesson 7: [Asincronía](#)
 
 30min (self-paced)
 
@@ -152,7 +143,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 |   1   | video        |   10min  | ...
 |   2   | code         |   20min  | ...
 
-### Lesson 9: [Currying](#)
+### Lesson 8: [Currying](#)
 
 30min (self-paced)
 
@@ -164,24 +155,6 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 ### Workshop 2: [Hacking: refactoring](#)
 
 3h (presencial)
-
-### Lesson 10: [Espías](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 11: [Testing](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
 
 ### Workshop 4: [Hacking: refactoring y testing](#)
 
