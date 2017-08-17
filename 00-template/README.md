@@ -84,7 +84,7 @@ Opcionalmente una tabla con la descripción de las _partes_ que componen la
 _unidad_. Algo como esto:
 
 | # | Tipo | Formato | Duración | Tópico
-| - | ---- | -------- | ------
+| - | ---- | ------- | -------- | ------
 | 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
 | 01 | lectura | ritmo-propio | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
 | 02 | code | ritmo-propio | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
@@ -110,7 +110,7 @@ una tabla con la descripción de las _partes_ que componen la _unidad_. Algo com
 esto:
 
 | # | Tipo | Formato | Duración | Tópico
-| - | ---- | -------- | ------
+| - | ---- | ------- | -------- | ------
 | 00 | lectura | ritmo-propio | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
 | 01 | lectura | ritmo-propio | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
 | 02 | code | ritmo-propio | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
