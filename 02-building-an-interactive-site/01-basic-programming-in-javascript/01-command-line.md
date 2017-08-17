@@ -6,7 +6,7 @@
 ## Objetivos de Aprendizaje
 
 * Aprender los conceptos básicos sobre la Línea de Comando.
-* Aprender y ejecutar los comandos más utilizados, dependiendo del Sistema Operativo que se utiliza.
+* Aprender y ejecutar los comandos más utilizados, dependiendo del Sistema Operativo que se tiene.
 
 ***
 
