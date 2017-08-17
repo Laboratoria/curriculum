@@ -1,5 +1,7 @@
 # Full Stack JavaScript
 
+[![Build Status](https://travis-ci.org/Laboratoria/curricula-js.svg?branch=master)](https://travis-ci.org/Laboratoria/curricula-js)
+
 Este repositorio es el lugar donde vamos a ir continuamente _diseñando_ nuestro
 programa de formación en **JavaScript**.
 
