@@ -5,14 +5,14 @@
 
 ## Objetivos de Aprendizaje
 
-En esta unidad aprenderemos:
-* ...
-* ...
+* Aprender los conceptos básicos sobre la Línea de Comando.
+* Aprender y ejecutar los comandos más utilizados, dependiendo del Sistema Operativo que se utiliza.
 
 ***
 
 Referencia:
-https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el siguiente artículo https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md.<br>
+Traducción en Español disponible gracias a Laboratoria.
 
 ***
 
@@ -78,13 +78,13 @@ Ahora, se le llama __directorio de trabajo__ a la habitación en la que estoy ac
 Para ello, usaremos el comando `pwd` que significa 'print working directory' - en español, 'mostrar directorio de trabajo'.
 
 Si usas Mac o Linux, escribe el comando `pwd` y oprime Enter:
-```
+```bash
 $ pwd
 /Users/LABORATORIA 0018le
 ```
 
 Si usas Windows, el comando a usar es `cd` y oprime Enter:
-```
+```bash
 > cd
 C:\Users\LABORATORIA 0018le
 ```
@@ -99,7 +99,7 @@ Recuerda que cuando abrimos un nuevo terminal, el directorio de inicio es el dir
 Debemos saber que hay alrededor de la habitación en la que estoy - el directorio de trabajo - para esto vamos a utilizar los siguientes comandos dependiendo de nuestro SO:
 
 Si usas Mac o Linux, escribe el comando `ls` y oprime Enter:
-```
+```bash
 $ ls
 Applications
 Desktop
@@ -108,7 +108,7 @@ Music
 ...
 ```
 Si usas Windows, el comando a usar es `dir` y oprime Enter:
-```
+```bash
 > dir
 Directory of C:\Users\LABORATORIA 0018le
 05/08/2017 07:28 a. m. <DIR> Applications
@@ -122,18 +122,18 @@ Podemos movernos desde la habitación en la que estamos. Para ello, usaremos el 
 
 Por ejemplo queremos ir a la carpeta Music
 En este caso sea Mac, Linux o Windows, el comando a usar es el mismo, escribe `cd` y oprime Enter:
-```
+```bash
 $ cd Music
 /Users/LABORATORIA 0018le/Music
 ```
 
-```
+```bash
 > cd Music
 C:\Users\LABORATORIA 0018le\Music>
 ```
 
 Podemos ir al directorio raíz: `cd /`. Un camino que comienza desde la entrada, el directorio raíz, se llama un camino absoluto . Ahora mira a tu alrededor. ¿Qué ves?
-```
+```bash
 > cd /
 C:\>
 ```
@@ -153,11 +153,11 @@ Imaginemos que queremos crear un directorio para nuestra música favorita, recue
 En este caso sea Mac, Linux o Windows, el comando a usar es el mismo:  `mkdir`.<br>
 Escribe el comando + el nombre de directorio, `mkdir favorite` y oprime Enter:
 
-```
+```bash
 $ mkdir favorite
 ```
 
-```
+```bash
 > mkdir favorite
 ```
 
@@ -165,7 +165,7 @@ Este comando creará una carpeta con el nombre 'favorite' dentro del directorio 
 - Para comprobar que si está ahí podemos revisar nuestra carpeta 'Music'.
 - O bien ejecutando los comandos respectivos: En Mac o Linux con `ls` o en Windows con `dir`.
 
-```
+```bash
 > dir
 Directory of C:\Users\LABORATORIA 0018le\Music
 14/08/2017 07:28 a. m. <DIR> .
@@ -179,7 +179,7 @@ Directory of C:\Users\LABORATORIA 0018le\Music
 Ingresamos a 'favorite' con `cd favorite`, veamos que tenemos alrededor.<br>
 Ejecutamos los comandos respectivos: En Mac o Linux con `ls` o en Windows con `dir`.
 
-```
+```bash
 > dir
 Directory of C:\Users\LABORATORIA 0018le\Music\favorite
 14/08/2017 07:28 a. m. <DIR> .
@@ -194,7 +194,7 @@ __IMPORTANTE__: Recordemos que estuvimos usando el editor de textos __Atom__, si
 Ahora bien, quiero tener una lista de mis canciones favoritas. Hagamos un archivo que las enumere.<br>
 Para ello vamos a escribir `atom songs`, este comando va a abrir el nuevo archivo `songs` en el editor __Atom__. Agregamos algunas canciones, asegúrate de que éstas tengan el mismo formato: <nombre_cantante>:<título_canción>.
 De preferencia, copia y pega la sección a continuación para que todos tengamos lo mismo y guarda el archivo.
-```
+```console
 Soda Stereo:De música ligera
 Maná: Eres mi religión
 Café Tacuba:Eres
@@ -208,8 +208,9 @@ Soda Stereo:Persiana americana
 ```
 
 Ahora intenta de nuevo `ls` o `dir`. ¿Ves que el archivo `songs` existe? Así es. 
-```
+```bash
 > dir
+
 Directory of C:\Users\LABORATORIA 0018le\Music\favorite
 14/08/2017 07:28 a. m. <DIR>     .
 14/08/2017 07:28 a. m. <DIR>     ..
@@ -219,8 +220,9 @@ Directory of C:\Users\LABORATORIA 0018le\Music\favorite
 Podemos ver el contenido del archivo de la siguiente manera:
 - Si usas Mac o Linux, escribe el comando `cat` y oprime Enter.
 - Si usas Windows, el comando a usar es `type` y oprime Enter.
-```
+```bash
 > type songs
+
 Soda Stereo:De m├║sica ligera
 Man├í: Eres mi religi├│n
 Caf├® Tacuba:Eres
@@ -237,11 +239,11 @@ Hagamos otro archivo más pequeño, que será nuestro detalle, solo escribe una 
 El comando `echo` sólo hace salidas de lo que le damos como argumentos. Ahora queremos poner esa línea en un archivo llamado `details`.
 
 El uso del ángulo de cierre `>` de esta manera, se denomina redirección. Cada comando que ejecutamos tiene una entrada, una salida, una salida de error y argumentos/operandos. Estamos diciendo: "Ejecutar `echo` con esta cadena como un operando, y tomar la salida y ponerlo en un nuevo archivo llamado `details`.
-```
+```bash
 echo "Este archivo contiene canciones de Rock en español" > details
 ```
 Ahora comprueba, con los comandos respectivos, si el archivo existe y el contenido del mismo:
-```
+```bash
 > dir
 Directory of C:\Users\LABORATORIA 0018le\Music\favorite
 ...
@@ -260,8 +262,9 @@ Echemos un vistazo a nuestras canciones ¡Observa que la lista de canciones no e
 El carácter `|` se llama 'conducto'(pipe). Tomamos la salida `cat` y la enviamos a través de un conducto a `sort` de la siguiente manera:
 - Si usas Mac o Linux, escribe `cat songs | sort > sorted_songs`.
 - Si usas Windows, entonces `type songs | sort > sorted_songs`.
-```
+```bash
 > type songs | sort > sorted_songs
+
 Caf├® Tacuba:Eres
 Enanitos Verdes:Lamento boliviano
 Hombres G:Devu├®lveme a mi chica
@@ -279,7 +282,7 @@ Hay docenas de herramientas poderosas que podemos aprovechar utilizando los cond
 Para Mac o Linux, se utiliza el comando `grep + texto _a_buscar`; en Windows  el comando sería `find + "texto _a_buscar"`, es necesario que el texto que se tiene que buscar en find vaya entre comillas dobles.
 
 Si usas Mac o Linux, escribe `cat songs | grep chica` y oprime Enter:
-```
+```bash
 $ cat songs | grep chica
 Hombres G:Devu├®lveme a mi chica
 ```
@@ -295,7 +298,7 @@ Ahora que tenemos nuestras canciones ordenadas, ya no necesitamos nuestra lista 
 - Si usas Mac o Linux, escribe `mv sorted_songs songs`.
 - Si usas Windows, entonces `move sorted_songs songs`.
 
-```
+```bash
 > move sorted_songs songs
 ¿Sobrescribir C:\Users\LABORATORIA 0018le\Music\favorite\songs? (Sí/No/Todo): si
 Se han movido         1 archivos.
@@ -306,7 +309,7 @@ Si lo que deseamos es copiar un archivo, usaremos el comando `cp` que significa 
 - Si usas Windows, entonces `copy details second_details`.
 
 Para nuestro ejemplo, se va a generar un archivo duplicado de `details`.
-```
+```bash
 > copy details second_details
        1 archivo(s) copiado(s).
 ```
@@ -324,7 +327,7 @@ Al interactuar con el terminal como lo hicimos hoy, hemos estado usando un lengu
 El hecho de que interactuemos con la computadora mediante la programación nos da poder. En lugar de luchar por hablar de la diferencia entre dos menús en un programa gráfico, podemos comunicar con precisión los comandos de shell que tienen un efecto predecible.
 
 ## Detalle de comandos
-A continuación te detallo una lista con algunos comandos:
+A continuación veremos una lista con los comandos usados en esta Lección:
 
 | Comando (Mac OS / Linux) | Comando (Windows) | Descripción                            |
 | ------------------------ | ----------------- | -------------------------------------- |
@@ -341,8 +344,7 @@ A continuación te detallo una lista con algunos comandos:
 | rm                       | del               | Elimina directorios/archivos           |
 | exit                     | exit              | Cierra la ventana                      |
 
-Estos son solo algunos de los comandos que puedes ejecutar en la línea de comandos.
-
+Nos vemos...
 
 ***
 [Continuar](02-git.md)
