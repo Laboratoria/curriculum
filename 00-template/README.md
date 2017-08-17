@@ -12,7 +12,8 @@ Requerimientos de la intro:
 * Dónde encaja dentro del mundo profesional y en la historia del software
 * Por qué es relevante aprender esto
 * Abstract del curso
-* Tags
+
+Tags: `foo`, `bar`, `baz`
 
 ## Público objetivo
 
@@ -41,9 +42,12 @@ extraído del curso de [paradigmas de programación](https://github.com/Laborato
 
 ## Detalles logísticos
 
-Cuántas horas `self-paced` y cuántas horas `presenciales` estimas?
+[TODO: Esto debería de ser autocomputado en base a contenido de unidades]
 
-* Self-paced: x hrs
+Cuántas horas a `ritmo-propio` (self-paced) y cuántas horas `presenciales`
+estimas?
+
+* Ritmo propio: x hrs
 * Presencial: y hrs
 * Total horas: z
 
@@ -53,34 +57,94 @@ Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
 desarrollar durante el curso, junto con la metodología de trabajo propuesta
 así como entregables y método de evaluación.
 
+## Guía de preguntas y conceptos clave
+
+[TODO]
+
 ## Syllabus
 
-### Unidad 01: [Introducción](01-introduction)
+NOTA: Este es un ejemplo de syllabus que sirve de ejemplo para ilustrar las
+convenciones de vocabulario, estructura de archivos, nombre de carpetas y
+archivos, ... Cada curso es diferente, así que la cantidad de unidades, su
+tamaño y formato pueden variar considerablemente, siempre que se mantenga una
+misma terminología y formato básico. Ante la duda no dudes en preguntar ;-)
 
-Xmin (self-paced)
+### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
 
-Un párrafo que describa lo que va a ocurrir durante la lección... seguido de una
-tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
+Duración estimada: Xmin
+
+NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
+necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
+mismo) ni el tiempo que de hecho le lleve a cada una.
+
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
+
+Opcionalmente una tabla con la descripción de las _partes_ que componen la
+_unidad_. Algo como esto:
+
+| # | Tipo | Formato | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
+| 01 | lectura | ritmo-propio | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
+| 02 | code | ritmo-propio | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
+| 03 | quiz | ritmo-propio | 15min | [Cuestionario](01-lorem-ipsum/03-some-quizz.md)
+| 04 | seminario | guiado | 60min | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
+| 05 | taller | guiado | 60min | [Solucionario](01-lorem-ipsum/05-solucionario.md)
+| 06 | quiz | ritmo-propio | 15min | [Requizz](01-lorem-ipsum/06-requizz.md)
+| 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
+
+### Unidad 02: [Taller de implementación 1 - Proyecto](#)
+
+Duración estimada: 3h
+
+En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
+blah blah blah...
+
+### Unidad 03: [Otra unidad](#)
+
+Duración estimada: 1h
+
+Un párrafo que describa lo que va a ocurrir durante esta unidad... seguido de
+una tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
 esto:
 
-| # | Tipo | Duración | Tópico
+| # | Tipo | Formato | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | Xmin | [Bienvenida y orientación](01-introduction/00-welcome-and-orientation.md)
-| 01 | lectura | Xmin | [Growth Mindset](01-introduction/01-growth-mindset.md)
-| 02 | lectura | Xmin | [¿Qué es la programación y porqué aprender a programar?](01-introduction/02-why-learn-to-code.md)
-| 03 | lectura | Xmin | [Tu primera página web](01-introduction/03-your-first-website.md)
-| 04 | quiz | Xmin | [Prueba tu conocimiento](01-introduction/04-prueba-tu-conocimiento.md)
+| 00 | lectura | ritmo-propio | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
+| 01 | lectura | ritmo-propio | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
+| 02 | code | ritmo-propio | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
+| 03 | quiz | ritmo-propio | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quizz.md)
+| 04 | lección | guiado | Xmin | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
+| 05 | taller | guiado | Xmin | [Solucionario](01-lorem-ipsum/05-solucionario.md)
+| 06 | quiz | ritmo-propio | Xmin | [Requizz](01-lorem-ipsum/06-requizz.md)
+| 07 | lectura | ritmo-propio | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
 
-...
+### Unidad 04: [Taller de implementación 2 - Proyecto](#)
+
+Duración estimada: 3h
+
+En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
+blah blah blah...
+
+### Unidad 05: [Demos de proyectos](#)
+
+Duración estimada: 1h
+
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ***
+
+## Evaluación
+
+[TODO]
 
 ## Autor(es) / Colaboradores
 
 * Tu nombre
 * Otros colaboradores?
 
-## Libros (mínimo 3)
+## Libros
 
 Cada curso debe de estar acompañado de una lista detallada de libros
 relacionados con los temas tratados en el curso.
