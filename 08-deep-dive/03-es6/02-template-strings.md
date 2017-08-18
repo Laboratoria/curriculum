@@ -94,5 +94,6 @@ Esto tiene una ventaja añadida: la de poder hacer sustituciones no solo por un 
 let myAge = `Mi edad es ${person.age + 3} años`;
 ```
 
+***
 
-[Continuar](../03-destructuring.md)
+[Continuar](03-destructuring.md)

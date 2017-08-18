@@ -155,5 +155,6 @@ USER.age = 'veinte'; // modifying a property type also works
 console.log(USER);
 ```
 
+***
 
-[Continuar](../02-template-strings.md)
+[Continuar](02-template-strings.md)
