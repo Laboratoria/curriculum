@@ -1,5 +1,18 @@
 # Introduccion ES6- Syntax
 
+* Formato: `lectura` 
+* Duración: `20 min`
+
+Durante esta sesión nos aseguraremos ,
+que todas entiendan las diferencias entre var, let, const
+
+### Objetivos de la lección
+
+* Comprender la nueva sintaxis y funcionalidad de ES6
+
+
+***
+
 * Introduccion ES6
 
 ## Block-Scoped Declarations
@@ -144,16 +157,5 @@ USER.age = 'veinte'; // modifying a property type also works
 console.log(USER);
 ```
 
-***
 
-* let Declarations
-* const Declarations
-* lock-scoped Functions
-* Spread/Rest (ES6 introduces a new ... operator that's typically referred to as
-  the spread or rest operator, depending on where/how it's used. Let's take a
-  look:)
-* Arrow Functions
-* Default Parameter Values
-* Default Value Expressions
-* Destructuring
-* Object Property Assignment Pattern
+[Continuar](../02-template-strings.md)
