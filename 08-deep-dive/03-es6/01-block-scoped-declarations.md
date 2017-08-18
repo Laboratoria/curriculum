@@ -13,8 +13,6 @@ que todas entiendan las diferencias entre var, let, const
 
 ***
 
-* Introduccion ES6
-
 ## Block-Scoped Declarations
 
 Las declaraciones a nivel de bloque son aquellas que declaran variables
