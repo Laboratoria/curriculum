@@ -21,6 +21,11 @@ Crea una función que invierta el orden de los elementos de un `array`. Completa
 #### 2. Search
 Crea una funcion que busquen un elemento en un `array`, devolviendo su posición (index) e imprima el valor en la consola. Tip: utiliza el algoritmo de [`linear search`](https://en.wikipedia.org/wiki/Linear_search)
 
+A continuación un video de Ruth que te lleva a través del algoritmo Linear Search y te da tips para completar este proyecto:
+
+[![Algoritmo Linear Search](https://preview.ibb.co/e2z8SF/linear.jpg)](https://youtu.be/9bSxvExfFhc)
+
+
 #### 3. Array to Object
 Escribe una función que tome un array 2D y devuelva un objeto con cada par de elementos en el `array` como un par _key-value_.
 Por ejemplo:
@@ -46,9 +51,25 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 [![-----]()
 
-#### 2. -----
+#### 2. A continuación, Ruth te explica cómo resolvió el ejercicio Search en el siguiente video
 
-[![-----]()
+[![Ejercicio Search](https://preview.ibb.co/iFbcMa/search.jpg)](https://youtu.be/-d_YkeOgBN8)
+
+El resultado final es:
+```javascript
+function search(array, element) {
+  for ( var i = 0; i < array.length; i++) {
+	if (element === array[i]) {
+      return i;
+    }
+  }
+	
+  return 'No se ha encontrado tu número';
+}
+
+var arrayExample = [1, 13, 4, 8];
+console.log(search(arrayExample, 7));
+```
 
 #### 3. -----
 
