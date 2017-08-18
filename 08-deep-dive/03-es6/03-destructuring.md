@@ -76,4 +76,4 @@ Después de correr este código a vale 1 y b vale 3. El valor 2 es ignorado. Pue
 
 ***
 
-[Continuar](04-arrow-function-lexical-scope.md)
+[Continuar](04-arrow-functions-lexical-scope.md)
