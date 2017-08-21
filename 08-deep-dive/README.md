@@ -137,14 +137,14 @@ importantes para mejorar el performance en el uso de esta librería además de
 consideraciones para el encapsulamiento de código a través de la creación de
 `plugins`.
 
-### Lección 08: [Manejo de Memoria](#)
+### Lección 11: [Manejo de Memoria](#)
 
 Todos los programas que desarrollamos se ejecutan en la memoria RAM, y en muchas
 ocasiones no tomamos en cuenta que tan eficiente escribimos código, una manera
 de medirlo es teniendo en cuenta el consumo de memoria, en esta lección veremos
 como manejarlo y optimizarlo.
 
-### Lección 09: [Performance](#)
+### Lección 12: [Performance](#)
 
 Cuando ya tenemos un código funcionando, creemos que nuestro trabajo ha
 terminado, sin embargo, algo que deberíamos tener en cuenta siempre es optimizar
