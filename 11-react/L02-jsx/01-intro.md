@@ -134,11 +134,3 @@ const children = props.articles.map(function(a) {
   return <Article titulo={a.titulo} descripcion={a.descripcion} />
 })
 ```
-
-> Para entender más a detalle las posibilidades de `JSX`, tómate 5 minutos para revisar la [documentación de `React`](https://facebook.github.io/react/docs/introducing-jsx.html) sobre el tema.
-
-## Ejercicio
-
-Continua con la conversión de todos tus componentes a `JSX`.
-
-> En la próxima lectura veremos algunas características de ES6 que, sumadas a `JSX`, nos permitirán desarrollar nuestra aplicaciones, de una manera mucho mas "natural".
