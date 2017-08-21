@@ -52,6 +52,8 @@ Dependiendo de la versión que tenemos, podemos realizar lo siguiente:
 o <br>
 >`Ir a Buscar → Escribir 'Command Prompt'`
 
+![pasos-windows](https://preview.ibb.co/gJG3XQ/wind_init.gif)
+
 Tu __terminal__ se verá así:
 ```
 C:\Users\LABORATORIA 0018le>

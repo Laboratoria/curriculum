@@ -53,13 +53,13 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 2. A continuación, Ruth te explica cómo resolvió el ejercicio Search en el siguiente video
 
-[![Ejercicio Search](https://preview.ibb.co/iFbcMa/search.jpg)](https://youtu.be/-d_YkeOgBN8)
+[![Ejercicio Search](https://preview.ibb.co/iFbcMa/search.jpg)](https://youtu.be/iDdTKx4wuVQ)
 
 El resultado final es:
 ```javascript
 function search(array, element) {
-  for ( var i = 0; i < array.length; i++) {
-	if (element === array[i]) {
+  for (var i = 0; i < array.length; i++) {
+    if (element === array[i]) {
       return i;
     }
   }
