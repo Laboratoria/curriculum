@@ -1,13 +1,11 @@
 # 08. Really get to know JavaScript by building your own library
 
-En este curso construirás tu propia librería usando JavaScript, lo cual nos
-permitirá explorar las particularidades del lenguaje y entender como funciona
-por dentro, haciendo incapié en temas de performance, uso de memoria y
-optimización.
-
-El entregable final de este curso será construir una librería para desarrollo de
-interfaces, teniendo en cuenta el performance y manejo de memoria, que se usará
-para desarrollar una réplica de Pinterest.
+Programar en JavaScript te hace ver cool, conocer las particularidades del
+lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
+una profundización en el lenguaje. Verás temas que probablemente ya conozcas
+pero desde una perspectiva de performance y buenas prácticas conociendo ciertas
+peculiaridades de JavaScript que lo hace distinto a los demás lenguajes de
+programación.
 
 Main tags: `types`, `operators`, `functions`, `objects`, `scope`, `closure`,
 `execution-context`, `linter`.
@@ -113,14 +111,38 @@ aun cuando se piensa en construir un producto que se espera sea reusable y
 mantenible. En esta lección veremos cómo manejar errores en las diversas partes
 de nuestro código.
 
-### Lección 08: [Manejo de Memoria](#)
+### Lección 08: [Document Objet Model (DOM)](#)
+
+Cuando el navegador obtiene el HTML de una página, construye un modelo de la
+estructura del documento y lo usa para dibujar la página en la pantalla. Esta
+representación del documento es accedido a través de JavaScript y hace posible
+agregar interactividad a nuestros sitios web, aun así, es necesario tener en
+cuenta el performance del navegador.
+
+### Lección 09: [Manejo de Eventos](#)
+
+Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
+aplicaciones web, estas alteraciones se realizan luego de cierta interacción
+por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
+entender aspectos importantes del comportamiento de eventos y como manejarlos.
+
+### Lección 10: [jQuery](#)
+
+jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
+entre otras funcionalidades, en esta lección no veremos la sintaxis de las
+propiedades y métodos que esta librería nos brinda, sino, veremos aspectos
+importantes para mejorar el performance en el uso de esta librería además de
+consideraciones para el encapsulamiento de código a través de la creación de
+`plugins`.
+
+### Lección 11: [Manejo de Memoria](#)
 
 Todos los programas que desarrollamos se ejecutan en la memoria RAM, y en muchas
 ocasiones no tomamos en cuenta que tan eficiente escribimos código, una manera
 de medirlo es teniendo en cuenta el consumo de memoria, en esta lección veremos
 como manejarlo y optimizarlo.
 
-### Lección 09: [Performance](#)
+### Lección 12: [Performance](#)
 
 Cuando ya tenemos un código funcionando, creemos que nuestro trabajo ha
 terminado, sin embargo, algo que deberíamos tener en cuenta siempre es optimizar
