@@ -14,7 +14,8 @@
 Completa los ejercicios de programación básica del salón de clases de:
 
 Accede a Replit desde aquí:
-https://repl.it/student/classrooms/25461?lite=true
+https://repl.it/student_embed/classroom/25461/d9c48979f5f81797447b76fa7836d1a3
+
 
 
 <!--
