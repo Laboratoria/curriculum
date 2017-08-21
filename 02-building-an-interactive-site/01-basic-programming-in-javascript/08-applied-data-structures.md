@@ -23,7 +23,7 @@ Crea una funcion que busquen un elemento en un `array`, devolviendo su posición
 
 A continuación un video de Ruth que te lleva a través del algoritmo Linear Search y te da tips para completar este proyecto:
 
-[![Algoritmo Linear Search](https://preview.ibb.co/e2z8SF/linear.jpg)](https://youtu.be/9bSxvExfFhc)
+[![Algoritmo Linear Search](https://preview.ibb.co/hC8ZNQ/tip.jpg)](https://youtu.be/9bSxvExfFhc)
 
 
 #### 3. Array to Object
@@ -53,7 +53,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 2. A continuación, Ruth te explica cómo resolvió el ejercicio Search en el siguiente video
 
-[![Ejercicio Search](https://preview.ibb.co/iFbcMa/search.jpg)](https://youtu.be/iDdTKx4wuVQ)
+[![Ejercicio Search](https://preview.ibb.co/ckTXbk/ejericio.jpg)](https://youtu.be/iDdTKx4wuVQ)
 
 El resultado final es:
 ```javascript

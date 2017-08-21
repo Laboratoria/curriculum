@@ -52,7 +52,7 @@ Dependiendo de la versión que tenemos, podemos realizar lo siguiente:
 o <br>
 >`Ir a Buscar → Escribir 'Command Prompt'`
 
-![pasos-windows](https://preview.ibb.co/gJG3XQ/wind_init.gif)
+![pasos-windows](http://fotos.subefotos.com/86c89b6f972a734601017af4ecd04b5co.gif)
 
 Tu __terminal__ se verá así:
 ```
@@ -90,6 +90,7 @@ Si usas Windows, el comando a usar es `cd` y oprime Enter:
 > cd
 C:\Users\LABORATORIA 0018le
 ```
+![cd-windows](http://fotos.subefotos.com/6aba3d06ec0cec649c5b78d7e418833eo.gif)
 
 Por lo tanto:
 
@@ -119,6 +120,9 @@ Directory of C:\Users\LABORATORIA 0018le
 05/08/2017 07:28 a. m. <DIR> Music
 ...
 ```
+
+![dir-windows](http://fotos.subefotos.com/4dd55e7c72dd68a3754f45d21daf5369o.gif)
+
 #### A movernos
 Podemos movernos desde la habitación en la que estamos. Para ello, usaremos el comando `cd` que significa 'change directory' - en español, 'directorio de cambios'.
 
@@ -162,6 +166,9 @@ $ mkdir favorite
 ```bash
 > mkdir favorite
 ```
+
+![mkdir-windows](http://fotos.subefotos.com/bfed8859419c16c4c5d5937701315ca9o.gif)
+
 
 Este comando creará una carpeta con el nombre 'favorite' dentro del directorio 'Music'.
 - Para comprobar que si está ahí podemos revisar nuestra carpeta 'Music'.
@@ -236,6 +243,9 @@ Los Fabulosos Cadillacs:Matador
 Man├í:Rayando el sol
 Soda Stereo:Persiana americana`
 ```
+
+![type-windows](http://fotos.subefotos.com/a9271855e2317110bc6d0fd8e087676eo.gif)
+
 Hagamos otro archivo más pequeño, que será nuestro detalle, solo escribe una descripción.
 
 El comando `echo` sólo hace salidas de lo que le damos como argumentos. Ahora queremos poner esa línea en un archivo llamado `details`.
