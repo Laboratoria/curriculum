@@ -26,17 +26,18 @@ También te compartimos más información de lo que Michelle te ha explicado en 
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 
-> Hacker edition: si te sientes con ganas de hacer este ejercicio con un nivel de dificultad mayor, logra que tu programa:
+> Hacker edition: si te sientes con ganas de hacer este ejercicio con un mayor nivel de dificultad, logra que tu programa:
 1. Funcione con letras mayúsculas y minúsculas
-2. Pueda cifrar y decifrar. La fórmula para decifrar es muy similar: `(x - n) % 26`
+2. Pueda cifrar y decifrar. La fórmula para decifrar es: `(x - n) % 26`
 
 ## 2. Tarjeta de crédito válida
 
-Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de crédito y confirme su validez, según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de crédito y confirme su validez, según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn). Lee este blog que explica [cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn y te da tips para completar este proyecto:
 
-[![tips credit card](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+
 
 ## 3. Replit
 Completa los ejercicios de programación básica del salón de clases de:

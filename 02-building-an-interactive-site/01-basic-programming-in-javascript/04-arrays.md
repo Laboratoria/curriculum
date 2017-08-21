@@ -162,7 +162,7 @@ Cuando escribimos `console.log(questions[3][1])` le estamos diciendo a JavaScrip
 
 A continuación Michelle nos explica los conceptos principales de `arrays` con un ejemplo
 
-[![ejemplo array dinosaurios pg 44 JS for Kids](https://img.youtube.com/vi/3c6zJOsOOS0/0.jpg)](https://www.youtube.com/watch?v=3c6zJOsOOS0)
+[![ejemplo array dinosaurios pg 44 JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
 
 ***
 
