@@ -1,8 +1,8 @@
-# Listas y keys
+# JSX: Listas y keys
 
-Primero recordemos como como manipular listas en JavaScript
+Primero recordemos cómo manipular listas en JavaScript
 
-Dado el código de abajo, usamos la función [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map) para tomar un array de números y duplicarlos. Asignamos el nuevo array resultado del `map()` a la variable `doubled` y lo loggeamos:
+Dado el código de abajo, usamos la función [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map) para tomar un array de números y duplicarlos. Asignamos el nuevo array resultado del `map()` a la variable `doubled` y lo imprimimos:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -90,7 +90,7 @@ ReactDOM.render(
 
 ## Keys
 
-Las ***"keys"*** ayudan a React a identificar cuáles items han cambiado, se han agregado o quitado. Las keys deben indicarse dentro de los elementos de un array, para establecerles así una identidad estable:
+Las ***"keys"*** ayudan a React a identificar cuáles elementos de una lista han cambiado, se han agregado o quitado. Las keys deben indicarse dentro de los elementos de un array, para asignarles así una identidad estable:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -101,7 +101,7 @@ const listItems = numbers.map((number) =>
 );
 ```
 
-La mejor manera de elegir un key, es usando un string que represente unívocamente a un item dentro del array. En general utilizaremos los IDs de la misma data como keys:
+La mejor manera de elegir un key, es usando un string que represente unívocamente a cada ítem dentro del array. En general utilizaremos los IDs de la misma data como keys:
 
 ```javascript
 const todoItems = todos.map((todo) =>
@@ -111,7 +111,7 @@ const todoItems = todos.map((todo) =>
 );
 ```
 
-Cuando no tienes un ID estable, puedes utilizar el índice del elemento dentro del array como último recurso:
+Como último recurso, cuando no tienes un ID estable, puedes utilizar el índice del elemento dentro del array:
 
 ```javascript
 const todoItems = todos.map((todo, index) =>
@@ -122,7 +122,7 @@ const todoItems = todos.map((todo, index) =>
 );
 ```
 
-El uso de índices como keys es no recomendado, ya que puede ser muy lento, además puede ser inconsistente en escenarios donde el orden de los elementos puede cambiar. Si quieres saber chequea [la explicación al detalle de por qué los keys son necesarios](https://facebook.github.io/react/docs/reconciliation.html#recursing-on-children) if you're interested.
+El uso de índices como keys es **no** recomendado, ya que puede ser muy lento, además de ser inconsistente en escenarios donde el orden de los elementos puede cambiar. Si quieres saber más, chequea [la explicación al detalle de por qué los keys son necesarios](https://facebook.github.io/react/docs/reconciliation.html#recursing-on-children).
 
 ### Extrayendo componentes con keys
 
@@ -194,7 +194,7 @@ ReactDOM.render(
 
 [Try it on CodePen.](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
 
-Como regla general considera que los elementos dentro de un `map()` necesitan keys.
+Como regla general considera que los elementos dentro de un `map()` siempre necesitan keys.
 
 
 ## Ejercicio

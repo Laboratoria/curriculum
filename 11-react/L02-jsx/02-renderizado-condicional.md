@@ -1,8 +1,8 @@
-## Renderizado condicional
+## JSX: Renderizado condicional
 
-En React, puedes distintos componenteas para encapsular el comportamiento que necesites. Luego, puedes renderizar sólo algunos de esos componentes, dependiendo del estado de tu aplicación.
+En React, puedes distintos componentes para encapsular el comportamiento que necesites. Luego, puedes renderizar sólo algunos de esos componentes, dependiendo del estado de tu aplicación.
 
-> El *renderizado coindicional* funciona de la misma manera que funcionan las condiciones en JavaScript. Usa operadores como [`if`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) o el [operador condicional](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) para crear elementos que representen el estado actual, y deja que React actualice la interfaz de usuario.
+> El *renderizado coindicional* funciona de la misma manera que funcionan las condiciones en JavaScript. Usa operadores como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) o el [operador condicional](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator) para crear elementos que representen el estado actual, y deja que React actualice la interfaz de usuario.
 
 Considera los siguientes componentes:
 
@@ -40,7 +40,7 @@ Este ejemplo renderiza diferentes mensajes, dependiendo del valor de la prop `is
 
 ### Elementos como variables
 
-Al igual que en Javascript, puedes usar variables para guardar una referencia tus elementos. Esto puede ayudarte a renderizar condicionalmente una parte del componente, mientras que el resto se mantiene igual.
+Al igual que en Javascript, puedes usar variables para guardar una referencia a tus elementos. Esto puede ayudarte a renderizar condicionalmente una parte del componente, mientras que el resto se mantiene igual.
 
 Considera estos dos componente que representan botones de *Login* y *Logout*
 
@@ -65,12 +65,12 @@ function LogoutButton(props) {
 En el ejemplo de abajo, vamos a crear un componente que renderice `<LoginButton />` o `<LogoutButton />` según corresponda. Además renderizará un `<Greeting />` del ejemplo anterior:
 
 ```js
-function LoginControl = ({ isLoggedIn }) => {
+function LoginControl = ({ isLoggedIn, handleLogoutClick, handleLoginClick}) => {
   let button = null; // aqui guardaremos nuestro elemento
   if (isLoggedIn) {
-    button = <LogoutButton onClick={this.handleLogoutClick} />;
+    button = <LogoutButton onClick={handleLogoutClick} />;
   } else {
-    button = <LoginButton onClick={this.handleLoginClick} />;
+    button = <LoginButton onClick={handleLoginClick} />;
   }
 
   return (
@@ -89,7 +89,7 @@ ReactDOM.render(
 
 ### Operadores booleanos
 
-Como ya vimos antes, puedes incrustar cualquier tipo de expresiones ej JSX, sólo con colocarlas dentro de llaves. Esto tambien aplica para el operador `&&`. Puede ser muy útil para incluir un elemento condicionalmente:
+Como ya vimos antes, puedes incrustar cualquier tipo de expresiones js en JSX, sólo con colocarlas dentro de llaves `{}`. Esto tambien aplica para el operador `&&`, el cual puede ser muy útil para incluir un elemento condicionalmente:
 
 ```js
 function Mailbox(props) {
@@ -117,11 +117,11 @@ ReactDOM.render(
 
 Esto funciona porque en JavaScript los operadores booleanos son *lazy*: `true && expression` siempre evalua a `expression`, y `false && expression` siempre evalua a `false`.
 
-Entonces, si la condicion es `true`, el elemento a la derecha del `&&` aparece en el output. Si es`false`, React lo va a ignorar.
+Entonces, si la condición es `true`, el elemento a la derecha del `&&` aparece en el output. En cambio si es`false`, React lo ignora.
 
 ### Operador condicional ternario
 
-Otro método para renderizar condicionalmente elementos con una expresión, es usando el operador ternario  [`condition ? true : false`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator).
+Otro método para renderizar condicionalmente elementos con una expresión, es usando el operador ternario [`condition ? true : false`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator).
 
 En el ejemplo de abajo, lo utilizamos para renderizar condicionalmente sólo una palabra.
 
