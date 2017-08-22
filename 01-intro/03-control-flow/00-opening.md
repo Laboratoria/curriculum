@@ -35,4 +35,4 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 
 ***
 
-[Continuar](01-flow-diagrams.md)
+[Continuar](03-conditionals-and-loops.md)
