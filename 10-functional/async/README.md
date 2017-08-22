@@ -7,7 +7,7 @@
 
 En JavaScript a menudo necesitamos lidiar con el comportamiento asincrónico,
 que puede ser confuso para los programadores que sólo tienen experiencia con
-código síncrono. A continuación se explicará qué código asíncrono, algunas de
+código síncrono. A continuación se explicará qué es código asíncrono, algunas de
 las dificultades de usar código asíncrono, y maneras de manejar estas
 dificultades.
 
@@ -32,7 +32,7 @@ por L2), donde L1 programa alguna tarea que se ejecutará en el futuro, pero L2
 se ejecuta antes de que se complete esa tarea programada por L1.
 
 Imagina que estás sentada comiendo en un restaurante. Otras personas ordenan su
-comida. Tu También puedes pedir tu comida. No tienes que esperar a que las
+comida. Tú También puedes pedir tu comida. No tienes que esperar a que las
 otras personas reciban su comida y terminen de comer antes de que tomen tu
 orden. Del mismo modo, otras personas no tienen que esperar para obtener su
 comida y terminar de comer antes de que puedas ordenar tu comida. Todo el mundo
@@ -117,9 +117,9 @@ antes que `data = response`, por lo que el código anterior siempre imprimirá
 
 El código asíncrono necesita ser estructurado de una manera diferente que el
 código síncrono, y la forma más básica de hacerlo es con las funciones de
-devolución de llamada o _callback_.
+devolución de llamada, más comunmente conocidas como _callbacks_ (en inglés).
 
-## Funciones de respuesta a llamada o _callback_
+## _Callbacks_
 
 Supongamos que llamas a una amiga y le pides alguna información, por ejemplo,
 la dirección postal de un amigo mutuo que has perdido. Tu amiga no tiene esta
@@ -133,11 +133,8 @@ para proceder:
   la información. Mientras tanto, tu puedes concentrar toda tu atención en
   otras tareas que necesitas hacer, como por ejemplo diseñar un algoritmo.
 
-En JavaScript, podemos crear una función de respuesta de llamada a la que le
-pasamos una función asíncrona, que se llamará una vez que la tarea se haya
-completado.
-
-Es decir, en lugar de
+En JavaScript, podemos crear funciones asíncronas que reciben otras funciones
+como argumentos, que se llamarán una vez que la tarea se haya completado.
 
 ```javascript
 const data = getData()
@@ -150,7 +147,7 @@ getData(data => {
 })
 ```
 
-Por supuesto, ¿cómo sabe `getData` que estamos pasando en una función? ¿Cómo se
+Por supuesto, ¿cómo sabe `getData` que estamos pasando una función? ¿Cómo se
 llama y cómo se carga el parámetro `data`? En este momento, nada de esto está
 sucediendo; Tenemos que cambiar la función `getData`, así que sabrá que una
 función de respuesta de llamada es su parámetro.
@@ -186,7 +183,7 @@ uso de respuestas de llamada a través de eventos (por ejemplo,
 
 ## Problemas comunes del código asíncrono
 
-## Evitar el uso de código asíncrono
+### Puede resultar confuso al principio
 
 Algunas personas deciden que tratar con código asíncrono es demasiado
 complicado para trabajar, por lo que intentan hacer que todo sea sincrónico.
@@ -203,12 +200,12 @@ const pause = duration => {
 Del mismo modo, al realizar una llamada _ AJAX_, es posible establecer una
 opción para que la llamada sea síncrona en lugar de asíncrona (aunque esta
 opción pierde lentamente el soporte del navegador). También hay alternativas
-sincronas a muchas funciones asíncronas en Node.js.
+síncronas a muchas funciones asíncronas en Node.js.
 
 Tratar de evitar código asíncrono y reemplazarlo con código síncrono es casi
 siempre una mala idea  porque _JavaScript_ sólo tiene un solo hilo (excepto
 cuando se utiliza _Web Workers_). Esto significa que la página web no
-responderá mientras se ejecuta el _script_. Si utilizas la función de
+responderá mientras se ejecuta el _script_. Si utilizas la función
 sincrónica `pause` o una llamada _AJAX_ síncrona, el usuario no podrá hacer
 nada mientras estén en ejecución.
 
@@ -217,7 +214,7 @@ servidor no podrá responder a ninguna solicitud mientras espera que se
 completen las funciones síncronas, lo que significa que cada usuario que haga
 una solicitud al servidor tendrá que esperar para obtener una respuesta.
 
-## Problemas de alcance con _callbacks_ dentro de lazos
+### Problemas de alcance con _callbacks_ dentro de lazos
 
 Cuando se crea una devolución de llamada o _callback_ dentro de un bucle `for`,
 puedes encontrarte con algún comportamiento inesperado. Piensa en lo que
@@ -249,13 +246,13 @@ Pero el resultado que realmente muestra es el siguiente:
 4 second(s) elapsed.
 ```
 
-El problema es que `console.log (i + "second (s) elapsed")` Está en la
+El problema es que `console.log (i + "second (s) elapsed")` está en la
 devolución de llamada de una función asíncrona. En el momento en que se
 ejecuta, el bucle `for` se habrá terminado y la variable `i` será igual a 4.
 
 Hay varias soluciones a este problema, pero la más común es envolver la llamada
-a `setTimeout` en un cierre, lo que creará un nuevo ámbito con una `i` diferente
-en cada iteración:
+a `setTimeout` en un _closure_, lo que creará un nuevo ámbito con una `i`
+diferente en cada iteración:
 
 ```javascript
 for(var i = 1; i <= 3; i++) {
@@ -279,7 +276,7 @@ for(let i = 1; i <= 3; i++) {
 }
 ```
 
-## Infierno de _callback_
+### Infierno de _callback_
 
 A veces se tiene una serie de tareas en las que cada paso depende de los
 resultados del paso anterior. Esto es  muy sencillo de tratar usando código
@@ -296,10 +293,11 @@ console.log(output);
 ```
 
 Cuando intentas hacer eso usando código asíncrono, es fácil caer en el llamado
-infierno de _callback_, que es un problema común en el que se tienes funciones
-_callback_ profundamente anidadas unas dentro de otras.  Son particularmente
-susceptibles a este fenómeno el código Node.js y las aplicaciones de
-_front-end_ con un montón de llamadas AJAX, podrían terminar viéndose así:
+infierno de _callback_, que es un problema común en el que se termina con
+funciones _callback_ profundamente anidadas unas dentro de otras. Son
+particularmente susceptibles a este fenómeno el código Node.js y las
+aplicaciones de _front-end_ con un montón de llamadas AJAX. Podrían terminar
+viéndose así:
 
 ```javascript
 readFile(fileName, text => {
@@ -321,7 +319,7 @@ profundamente anidadas como esta, normalmente es una buena idea organizar el
 código de forma diferente. Existen varias estrategias diferentes para
 refactorizar devoluciones de llamada profundamente anidadas.
 
-## Divide el código en distintas funciones con nombres apropiados
+#### Divide el código en distintas funciones con nombres apropiados
 
 Le puedes dar nombres a las funciones de devolución de llamada para que puedas
 hacer referencia a ellas por nombre. Esto ayuda a que el código sea más
@@ -347,7 +345,7 @@ const evaluateFinish = output => {
 readFile(fileName, readFinish)
 ```
 
-## Crear una función para ejecutar una tubería de tareas
+#### Crear una función para ejecutar una serie de tareas
 
 Esta solución no es tan flexible como la anterior, pero si se tiene una tubería
 de tareas compuesta de funciones asíncronas, se puede crear una función de
@@ -374,9 +372,9 @@ performTasks(fileName,
 
 ### Bibliotecas Async
 
-Si está utilizando un montón de funciones asíncronas, puede valer la pena
+Si estás utilizando un montón de funciones asíncronas, puede valer la pena
 utilizar una biblioteca de funciones asíncronas, en lugar de tener que crear
-sus propias funciones de utilidad. Async.js es una biblioteca popular que tiene
+tus propias funciones de utilidad. Async.js es una biblioteca popular que tiene
 muchas herramientas útiles para tratar el código asíncrono.
 
 ### Promises
@@ -419,8 +417,8 @@ callback es una función con dos argumentos: `resolve` y `reject`. Llamaremos a
 `reject`.
 
 Una vez que tenemos una función que devuelve un objeto _promise_, podemos usar
-el método `.then` en ella para especificar lo que debe suceder una vez que se
-llama a `resolve` o `reject`.
+el método `.then` en este objeto para especificar lo que debe suceder una vez
+que se llama a `resolve` o `reject`.
 
 ```javascript
 const getData = options =>
