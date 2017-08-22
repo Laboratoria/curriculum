@@ -1,27 +1,18 @@
 # Aplicando _curry_ en JavaScript funcional
 
-Aplicación parcial o _Currying_,  es una de las técnicas funcionales que puede
-ser confusa incluso para personas familiarizadas con formas más tradicionales de
-escribir código en JavaScript. Cuando esta técnica se aplica correctamente,
-puede hacer que JavaScript sea más legible.
-
-Una de las ventajas más promovidas del JavaScript funcional es un código más
-corto, que va al grano con el menor número de líneas de código posible, y con
-menor repetición. Esto puede venir a expensas de la legibilidad. Hasta que estés
-más familiarizada con la forma en que funciona la programación funcional, el
-código escrito de esta manera puede ser más difícil de leer y entender.
-
-_Currying_ es un concepto muy simple, y se usa para resolver problemas
-familiares a la hora de manejar los argumentos de una función, mientras abre
-una gama de opciones para la desarrolladora.
+La técnica de definir funciones atadas a múltiples parámetros como una serie de
+funciones anidadas que solo esperan un parámetro fue popularizada por el
+matemático [Haskell Curry][], aunque inicialmente observada por [Frege][] en
+1893, a dicha cadena de funciones anidadas se les llama funciones curry o
+_curried functions_.
 
 ## ¿Qué es _currying_?
 
-En pocas palabras, _currying_ es una forma de construir funciones que permite
-que éstas se apliquen sin proveer todos los argumentos. Esto significa que
-puedes pasar todos los argumentos que una función espera y obtener un resultado,
-o pasar un subconjunto de esos argumentos y obtener de vuelta una función que
-está esperando el resto de los argumentos. Eso es todo.
+En pocas palabras, _currying_ es una técnica que traduce la evaluación de una
+función que toma múltiples argumentos en una evaluación de una secuencia de
+funciones, cada una de funciones de la secuencia espera un único argumento.
+_Currying_ está relacionado con el concepto de [aplicación
+parcial][partial-application], pero no es lo mismo.
 
 El _currying_ es elemental en la mayoría de los lenguajes de programación
 funcional, por ejemplo Haskell o Scala. A pesar que JavaScript ofrece soporte
@@ -139,19 +130,67 @@ mantener las funciones devueltas anidadas, y llamarlas con nuevas funciones que
 requieran varios conjuntos de paréntesis, cada uno conteniendo su propio
 argumento aislado. Se puede poner difícil y enredado.
 
-Para abordar ese problema, un enfoque es crear una función de _curry_  que
-tomará el nombre de una función existente que fue escrita sin todas las
-devoluciones anidadas. Una funcion usando _curry_ tendría que sacar la lista de
-argumentos para la función existente, y usarlos para devolver una versión
-_curry_ de la función original:
+Antes de abordar la implementación de nuestra función _curry_, consideremos por
+ejemplo que para toda función `f(x, y)`, existe una función `f'` tal que
+`f'(x)` es una función que puede ser aplicada a `y` que obtenga
+`(f'(x))(y) = f(x, y)`.
+
+La función `f'` del ejemplo anterior es llamada forma _curried_ de la función.
+Desde una perspectiva de programación funcional, _currying_ puede ser descrita
+por la función: `curry : ((a, b) -> c) -> (a -> b -> c)`
+
+Ahora bien, un enfoque es crear una **función de orden superior** (_Higher
+Order Function_ en inglés) que tome como argumento una función existente que
+fue escrita sin todas las devoluciones anidadas (_uncurried form_). Nuestra
+función de orden superior debe retornar otra función que espera un solo
+argumento,...
+
+```javascript
+const curryIt = f => x => {
+  // ...
+}
+```
+
+Luego que se suministra dicho argumento se procede a verificar si el número de
+argumentos esperados (`Function.length`) por la función _uncurried_ es igual o
+menor a 1, de ser así ejecuta dicha función, esta condición particular también
+nos servirá como condición de parada en nuestra llamada recursiva.
+
+```javascript
+const curryIt = f => x => {
+  if (f.length <= 1) {
+    f(x)
+  } else {
+    // ...
+  }
+}
+```
+
+En cambio, si el número de parámetros esperados es mayor a 1 debemos recurrir a
+la recursión y aplicar de nuevo nuestra función de orden superior, en este
+último caso pasaremos como argumento una nueva función equivalente, por medio
+de `Function.prototype.bind()`, a la función _uncurried_ excepto por su
+parámetro inicial. Algo similar a los siguiente:
+
+```javascript
+// función uncurried
+const greet = (greeting, name) => `${greeting}, ${name}`
+// función equivalente a excepción del argumento inicial
+const greetWithGreeting = greet.bind(null, 'Hello') // [Function: bound greet]
+greetWithGreeting('Heidi')
+// => 'Hello, Heidi'
+```
+
+Sin mayor preámbulo veamos el resultado final de nuestra función `curryIt`:
 
 ```javascript
 const curryIt = f => x => f.length <= 1 ? f(x) : curryIt(f.bind(null, x))
 ```
 
-Para usar esto, le pasamos el nombre de una función que toma cualquier número de
-argumentos, junto con tantos de los argumentos como queremos pre-poblar. Lo que
-recuperamos es una función que está a la espera de los argumentos restantes:
+Para usar esto, le pasamos una referencia a una función que toma cualquier
+número de argumentos, junto con tantos de los argumentos como queremos
+pre-poblar. Lo que recuperamos es una función que está a la espera de los
+argumentos restantes:
 
 ```javascript
 const greeter = (greeting, separator, emphasis, name) =>
@@ -177,7 +216,7 @@ original que usa _curry_:
 
 ## Siendo serios sobre _curry_
 
-Nuestra pequeña función _currying_ no puede manejar todos los casos de borde,
+Nuestra pequeña función `curryIt` no puede manejar todos los casos de borde,
 como los parámetros faltantes u opcionales, pero hace un trabajo razonable
 siempre y cuando permanezcamos estrictos sobre la sintaxis para pasar
 argumentos.
@@ -221,6 +260,13 @@ nombrar y manejar los argumentos de la función.
 ## Referencias
 
 * [A Beginner’s Guide to Currying in Functional JavaScript][currying]
+* [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+* [Function.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length)
+* [Frequently Asked Questions for comp.lang.functional](http://www.cs.nott.ac.uk/~pszgmh/faq.html#currying)
+* [Currying - Part 6 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=iZLP4qOwY8I) por Mattias P Johansson
 
 [Ramda]: http://ramdajs.com/
 [currying]: https://www.sitepoint.com/currying-in-functional-javascript/
+[partial-application]: https://en.wikipedia.org/wiki/Partial_application
+[Haskell Curry]: https://en.wikipedia.org/wiki/Haskell_Curry
+[Frege]: https://en.wikipedia.org/wiki/Gottlob_Frege
