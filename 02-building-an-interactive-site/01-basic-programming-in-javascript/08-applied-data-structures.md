@@ -44,7 +44,8 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 1. -----
 
-[![-----]()
+[![ejemplo de break y continue](http://img.youtube.com/vi/bmTO0fbtSuA/0.jpg)](https://youtu.be/bmTO0fbtSuA)
+
 
 #### 2. -----
 
