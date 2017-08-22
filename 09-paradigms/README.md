@@ -33,6 +33,23 @@ _heredando_ del prototipo de un constructor ya implementado, mientras que en la
 segunda semana tendrán que refactorizar el código de la primera semana usando
 el paradigma funcional.
 
+## Público objetivo
+
+Este curso está pensado para alumnas que ya se han familiarizado con la
+programación en JavaScript y quieren llevar su conocimiento sobre el lenguage
+a otro nivel, entendiendo diferentes formas de "pensar" en cómo se estructura
+un programa.
+
+## Requerimientos previos
+
+Se asume que las alumnas ya han trabajado con variables, valores (tipos de
+datos), arreglos, objetos y funciones así como estructuras de control de flujo
+(bucles, condicionales, ...).
+
+Durante este curso se hará uso de algunas características de **ES2015**, así que
+un mínimo de familiaridad con `const`, `let`, _arrow-functions_,
+_deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
+
 ## Aprenderás
 
 * Qué son los **paradigmas de programación**
@@ -80,7 +97,7 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso](01-intro.md)
+### Lesson 0: [Presentación del curso](01-intro/01-welcome.md)
 
 15min (presencial)
 
@@ -88,13 +105,7 @@ Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará 
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   15min  | xxx
-
-### Lesson 2: [Entorno y metodología de trabajo](02-env.md)
+### Workshop 1: [Entorno y metodología de trabajo](02-env)
 
 1h (presencial)
 
@@ -105,38 +116,38 @@ acceso al repo, su propio fork, ...
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | workshop   |   15min  | Entorno: Git + GitHub
-|   2   | workshop   |   15min  | Identificar tareas, dividir trabajo
-|   3   | workshop   |   15min  | Entorno: Node.js + npm
-|   4   | workshop   |   15min  | Ejemplo: Workshopper (paradigms)
+|   1   | workshop   |   20min  | [Entorno: Git + GitHub](02-env/01-git+github.md)
+|   2   | workshop   |   20min  | [Entorno: Node.js + npm](02-env/02-node+npm.md)
+|   3   | workshop   |   20min  | [Ejemplo: Workshopper (paradigms)](02-env/03-workshopper.md)
 
-### Lesson 3: [Introducción a Paradigmas de Programación](03-paradigms.md)
+### Lesson 1: [Introducción a Paradigmas de Programación](03-paradigms)
 
-1h (self-paced)
+1.5h (self-paced)
 
 En esta lección aprenderás las características y diferencias entre los
-paradigmas más relevantes para JavaScript: imperativo, por procedimientos,
-orientado a eventos, orientado a objetos (OOP) y funcional (FP).
+paradigmas más relevantes para **JavaScript**, que es un lenguaje
+multi-paradigma y nos permite programar en varios estilos: imperativo, por
+procedimientos, orientado a objetos (OOP), funcional (FP), ...
 
 #### Lesson plan
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | video  |    3min  | ¿Qué son los paradigmas de programación?
-|   2   | video  |    3min  | Historia
-|   3   | video  |    4min  | Declarativo vs Imperativo
-|   4   | video  |    5min  | Ejercicio Imperativo
-|   5   | video  |    5min  | Por procedimientos
-|   6   | code   |    8min  | Ejercicio por procedimientos
-|   7   | video  |    5min  | Orientado a objetos
-|   8   | code   |   10min  | Ejercicio OOP
-|   9   | video  |    5min  | Funcional
-|  10   | code   |   10min  | Ejercicio funcional
-|  11   | qa     |    5min  | Re-cap
+| Orden |  Tipo   | Duración | Descripción
+|-------|---------|----------|------------
+|   1   | video   |    4min  | [¿Qué son los paradigmas de programación?](03-paradigms/01-overview.md)
+|   2   | video   |    3min  | [Historia](03-paradigms/02-history.md)
+|   3   | video   |   12min  | [Declarativo vs Imperativo](03-paradigms/03-declarative-vs-imperative.md)
+|   4   | code    |    5min  | [Ejercicio Imperativo](03-paradigms/04-imperative-exercise.md)
+|   5   | video   |    6min  | [Por procedimientos](03-paradigms/05-procedural.md)
+|   6   | video   |    6min  | [Modularidad](03-paradigms/06-modules.md)
+|   7   | code    |   10min  | [Ejercicio por procedimientos](03-paradigms/07-procedural-exercise.md)
+|   8   | video   |   12min  | [Orientado a objetos](03-paradigms/08-oop.md)
+|   9   | code    |   10min  | [Ejercicio OOP](03-paradigms/09-oop-exercise.md)
+|  10   | lectura |   10min  | [Funcional](03-paradigms/10-fp.md)
+|  11   | code    |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
 
-### Lesson 4: [OOP y herencia prototipal](#)
+### Lesson 2: [OOP y herencia prototipal](04-proto)
 
-1h (self-paced)
+1.5h (self-paced)
 
 Después de haber completado la introducción a paradigmas, te introdicirás en los
 detalles de cómo usar contructores y prototipos para crear jerarquías de
@@ -146,65 +157,37 @@ herencia.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | Propiedades de instancia vs prototipo
-|   2   | code       |   10min  | Ejercicios de instancia vs prototipo
-|   3   | video      |   10min  | Herencia prototipal
-|   4   | code       |   10min  | Ejercicios de herencia prototipal
-|   5   | quiz       |   10min  | Prueba tu conocimiento
+|   1   | video      |   10min  | [`this` y `bind`](04-proto/01-this-and-bind)
+|   1   | video      |   10min  | [`Object.create`](04-proto/02-object-create.md)
+|   2   | video      |   12min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
+|   4   | code       |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
 
-### Lesson 5: [Ejercicios guiados, ayudantías, charlas](#)
+### Workshop 2: [Solucionario y ejercicios guiados](05-solucionario/01-learnyouparadigms-planetproto.md)
 
 1h (presencial)
 
 Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
-en particular y herencia prototipal, en esta lección nos concentraremos en hacer
-ejercicios todos juntos con la ayuda del profe y los TAs.
+en particular, y herencia prototipal, en esta lección solucionaremos los
+ejercicios de `planetproto` y `learnyouparadigms` todos juntos con la ayuda de
+los instructores.
 
-#### Lesson plan
+### Workshop 3: [Proyecto (implementación OOP)](06-game-oop/01-hacking.md)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   15min  | Herencia prototipal
-|   2   | challenge    |   45min  | Ejercicios de herencia prototipal
-
-### Lesson 6: [Proyecto (implementación OOP)](#)
-
-2h (presencial)
+3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
-mapas. La implementación será usando herencia prototipal.
+tendrás que extender el video juego añadiendo 2 ó más personajes. La
+implementación será usando herencia prototipal.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   2h     | Hacking...
-
-### Lesson 7: [Proyecto (implementación OOP)](#)
-
-2h (self-paced)
-
-En la primera mitad de esta sesión continuarás codeando los personajes y mapas
-en versión OOP (usando herencia prototipal) con el objetivo de preparar un
-_pull request_ que revisaremos durante la segunda hora.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   1h     | Hacking...
-|   2   | review     |   1h     | Pull requests, code review
-
-### Lesson 8: [Demos de proyectos OOP](05-oop-demos)
+### Workshop 4: [Demos de proyectos OOP](07-game-oop-demo/01-demo.md)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Lesson 9: [Object factories and composition](06-composition)
+### Lesson 3: [Object factories and composition](08-composition)
 
-1h (self-paced)
+1.5h (self-paced)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
@@ -214,64 +197,32 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | video      |   10min  | Introducción a la programación funcional
-|   2   | video      |   10min  | Estado compartido y cómo evitarlo
-|   3   | video      |   10min  | Composition over inheritance
-|   4   | code       |   10min  | Ejercicios de composición
-|   5   | quiz       |   10min  | Prueba tu conocimiento
+|   1   | lectura    |    3min  | [Closures](08-composition/01-closures.md)
+|   2   | lectura    |    5min  | [Factories](08-composition/02-factories.md)
+|   3   | lectura    |    5min  | [Object.assign](08-composition/03-object-assign.md)
+|   4   | lectura    |   10min  | [Composition over inheritance](08-composition/04-composition-over-inheritance.md)
+|   5   | code       |   60min  | [Ejercicios](08-composition/05-exercises.md)
 
-### Lesson 10: [Ejercicios guiados, ayudantías](02-guided-exercises)
+### Workshop 5: [Ejercicios guiados, ayudantías](09-solucionario/01-coi.md)
 
 1h (presencial)
 
-En esta lección nos concentraremos en hacer ejercicios todos juntos con la ayuda
-del profe y los TAs.
+En esta lección nos concentraremos en solucionar los ejercicios de
+`Laboratoria/coi` todos juntos con la ayuda de los instructores.
 
-#### Lesson plan
+### Workshop 6: [Proyecto (implementación FP)](10-game-fp/01-hacking.md)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   15min  | Slocucionario
-|   2   | challenge    |   45min  | Ejercicios de composición
-
-### Lesson 11: [Proyecto (implementación FP)](07-fp-project)
-
-2h (self-paced)
+3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes y 2 ó mas
-mapas. La implementación será usando el estilo funcional (composición).
+tendrás que extender el video juego añadiendo 2 ó más personajes. La
+implementación será usando el estilo funcional (composición).
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   2h     | Hacking...
-
-### Lesson 12: [Proyecto (implementación FP)](07-fp-project)
-
-2h (presencial)
-
-En la primera mitad de esta sesión continuarás codeando los personajes y mapas
-en versión funcional (usando composición) con el objetivo de preparar un
-_pull request_ que revisaremos durante la segunda hora.
-
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | code       |   1h     | Hacking...
-|   2   | review     |   1h     | Pull requests, code review
-
-### Lesson 13: [Demos de proyectos FP](08-fp-demos)
+### Workshop 7: [Demos de proyectos FP](11-game-fp-demo/01-demo.md)
 
 1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
-
-### Lesson 14: [Examen](#)
-
-1h (presencial)
 
 ***
 
@@ -279,7 +230,6 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 * Lupo Montero (autor)
 * Mariano Crowe (technical review)
-* Otros colaboradores?
 
 ## Libros
 
@@ -366,6 +316,9 @@ Otros recursos:
 * [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [MDN - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [MDN - Function.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+* [MDN - Function.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [MDN - Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [MDN - Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-
+* [MDN - Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
