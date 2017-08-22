@@ -1,4 +1,4 @@
-# Opening
+  # Opening
 - Tipo: `lectura`
 - Formato: `self-learning`
 - Duración: `30min`
