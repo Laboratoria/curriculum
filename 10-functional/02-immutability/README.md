@@ -5,7 +5,7 @@
 
 ***
 
-La inmutabilidad es un principio fundamental en la programacion funcional, y
+La inmutabilidad es un principio fundamental en la programación funcional, y
 también tiene ventajas que ofrecer a otros paradigmas como el orientado a
 objetos. En esta lección mostraremos qué es la inmutabilidad, cómo podemos
 aprovechar este concepto en JavaScript, y por qué es tan útil.
@@ -14,7 +14,7 @@ aprovechar este concepto en JavaScript, y por qué es tan útil.
 
 La definición de mutabilidad indica que algo está sujeto a cambios o
 modificaciones. En programación, cuando decimos que un objeto es mutable se
-refiere a que es permitido modificar el estado de dicho objeto a lo largo del
+refiere a que está permitido modificar el estado de dicho objeto a lo largo del
 tiempo. Un valor **inmutable** indica exactamente lo opuesto, después que dicho
 valor es creado, no puede ser cambiado o alterado nunca.
 
@@ -52,8 +52,8 @@ PASS  ./strings.test.js
   ✨  Done in 1.56s.
 ```
 
-De hecho, ningún método sobre cadenas de caracteres pueden cambiar la cadena
-sobre la que operan, todos ellos retornan nuevas cadenas de caracteres. La razón
+De hecho, ningún método sobre cadenas de caracteres puede cambiar la cadena
+sobre la que opera, todos ellos retornan nuevas cadenas de caracteres. La razón
 tras esto radica en que las cadenas de caracteres son inmutables. Por lo tanto,
 su valor no puede cambiar, nosotros solo podemos crear nuevos *strings*.
 
@@ -92,7 +92,7 @@ summ(range(11))
 
 El problema es que la función anterior modifica el estado de dos variables
 locales. Sin embargo, en lenguajes funcionales tradicionales, las variables
-locales no son _variables_ en si, son inmutables. En este caso, la única vía
+locales no son _variables_ en sí, son inmutables. En este caso, la única vía
 para modificar el valor de una variable local es por medio del _call stack_, y
 esto es lo que precisamente logramos con la recursión. Veamos una
 reimplementación de la función previa usando recursividad:
@@ -131,7 +131,7 @@ JavaScrit son mutables, a menos que sean congelados.
 Versiones recientes de JavaScript proveen el método `Object#freeze`, que dado un
 objeto o _array_, causará que las siguientes mutaciones fallen. En el caso de
 estar usando el modo estricto, la falla generará una excepción `TypeError`, de
-lo contrario, cualquier mutación fallará sileciosamente.
+lo contrario, cualquier mutación fallará silenciosamente.
 
 El método `freeze` funciona como sigue a continuación:
 
@@ -151,7 +151,7 @@ a[1] = 108
 a // => [1, 42, 3]
 ```
 
-Esto es, la mutación que se intento hacer sobre el _array_ no tuvo efecto.
+Esto es, la mutación que se intentó hacer sobre el _array_ no tuvo efecto.
 También podemos hacer uso del método `Object#isFrozen` para verificar si el
 _array_ está congelado:
 
@@ -170,7 +170,7 @@ En el primer punto podríamos argumentar que otras compañeras de trabajo podrí
 asumir por ejemplo que el objeto o _array_ es mutable, cuando no es así. También
 podríamos considerar que una biblioteca que uses explota la mutabilidad de los
 objetos o _arrays_. Por lo tanto, congelar objetos y pasarlos a otras APIs
-aleatorias podría ser causa de problemas.
+arbitrarias podría ser causa de problemas.
 
 Ahora bien, el otro argumento en contra de `Object#freeze` es una operación
 _shallow_. Esto es, `freeze` solo aplicará en el nivel superior de la estructura
@@ -306,7 +306,7 @@ const firstOrder = Map({name: 'Julia', details: 'espresso macchiato'})
 const newOrder = firstOrder.set('details': 'doppio')
 
 firstOrder.get('details') // => 'espresso macchiato'
-map2.get('details') // => 'doppio'
+newOrder.get('details') // => 'doppio'
 ```
 
 ## Acerca del rendimiento
@@ -331,12 +331,15 @@ de operaciones que realizan.
 
 ### Seguimiento de cambios
 
-Las operaciones a nivel de DOM, o determinar que componentes de la vista deben
+Las operaciones a nivel de DOM, o determinar qué componentes de la vista deben
 ser actualizados dado ciertos cambios en el modelo, suelen ser costosas por lo
 que minimizar el número de operaciones necesarias para la actualizar la UI
 siempre es bienvenido.
 
-Al usar estructuras de datos que cumplan con las siguientes condiciones:
+Una manera eficiente de reducir el número de operaciones necesarias para
+actualizar la UI es utilizar estructuras de datos que cumplan con las siguientes
+condiciones:
+
 
 * Inmutables: Una vez creadas, una colección no puede ser alterada en ningún
   otro momento.
@@ -349,7 +352,7 @@ Al usar estructuras de datos que cumplan con las siguientes condiciones:
 
 La inmutabilidad hace que el seguimiento de cambios sea barato. Un cambio
 siempre resultará en un nuevo objeto, por lo que solo es necesario verificar si
-la referencia al objeto ha cambiado. Por ejemplo, in este ejemplo de código
+la referencia al objeto ha cambiado. Por ejemplo, en este ejemplo de código
 regular JavaScript:
 
 ```javascript
