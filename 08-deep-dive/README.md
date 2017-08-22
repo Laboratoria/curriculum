@@ -68,6 +68,8 @@ Participar en el proyecto involucra lo siguiente:
 
 ### Lección 01: [Presentación del curso](#)
 
+15min (presencial)
+
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
