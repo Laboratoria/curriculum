@@ -13,7 +13,8 @@
 
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
-https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
+Completa el re-quiz en el siguiente link:
+https://goo.gl/forms/XnelN1HfgoI3J6E32
 
 ***
 [Continuar](12-self-assessment.md)

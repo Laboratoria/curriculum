@@ -13,6 +13,8 @@
 
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
+Completa el quiz en el siguiente link:
+https://goo.gl/forms/fMFcOMUoR25alsPE2
 
 ***
 [Continuar](07-lecture.md)
