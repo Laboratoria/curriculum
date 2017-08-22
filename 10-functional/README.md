@@ -1,4 +1,4 @@
-# 10. Functional JavaScript
+# Functional JavaScript
 
 En este curso exploraremos el paradigma funcional en JavaScript así como varios
 patrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de
@@ -45,18 +45,10 @@ siguientes conocimientos previos:
 * Recursión
 * _Higher Order Functions_
 * Composición de funciones
-* Composición de objetos
 * Refactorización
-* Automatización de pruebas unitarias
 * Trabajo en equipo
 * Revisión en pares o _Peer-review_
 * Github issues, branches, pull requests, entre otros.
-
-## Detalles logísticos
-
-* Self-paced: 5 hrs (aprox.)
-* Presencial: 10 hrs (aprox.)
-* Total horas: 15 (apox.)
 
 ## Producto
 
@@ -69,88 +61,55 @@ siguientes conocimientos previos:
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso](#)
+### Unidad 01: [Funciones puras](01-pure-functions)
 
-15min (presencial)
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 30min    | ...
 
-Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
-presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
-metodología de aprendizaje, requisitos previos y metodología de evaluación.
+### Unidad 02: [Inmutabilidad](02-immutability)
 
-#### Lesson plan
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 30min    | ...
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   15min  | xxx
+### Unidad 03: [Recursión](03-recursion)
 
-### Lesson 2: [Funciones puras](#)
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 50min    | ...
 
-30min (self-paced)
+### Unidad 04: [Higher Order Functions](04-hof)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 30min    | ...
 
-### Lesson 3: [Inmutabilidad](#)
+### Unidad 05: [Aplicación parcial](05-partial-application)
 
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 4: [Recursión](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 5: [HOF](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 10min    | ...
 
 ### Lesson 6: [Ejercicios guiados](#)
 
 1h (presencial)
 
-#### Lesson plan
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   30min  | ...
-|   2   | challenge    |   30min  | ...
-
 ### Workshop 1: [Hacking: reemplazando iteración con recursión y HOF](#)
 
 2h (presencial)
 
-### Lesson 7: [Asincronía](#)
+### Lesson 7: [Asincronía](06-async)
 
-30min (self-paced)
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 30min    | ...
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+### Lesson 8: [Currying](07-currying)
 
-### Lesson 8: [Currying](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+|  # |  Tipo   | Formato    | Duración | Descripción
+|----|---------|------------|----------|------------
+| 01 | lectura | self-paced | 30min    | ...
 
 ### Workshop 2: [Hacking: refactoring](#)
 
@@ -170,17 +129,13 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### [Examen](#)
-
-30min (presencial)
-
 ***
 
 ## Autor(es) / Colaboradores
 
-* Lupo Montero (autor)
-* Mariano Crowe (technical review)
-* ...
+* Milton Mazzarri (autor)
+* Lupo Montero (coordinador)
+* Ana Rangel (colaboradora)
 
 ## Libros
 
