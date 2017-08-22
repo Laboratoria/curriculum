@@ -133,21 +133,17 @@ argumento aislado. Se puede poner difícil y enredado.
 Antes de abordar la implementación de nuestra función _curry_, consideremos por
 ejemplo que para toda función `f(x, y)`, existe una función `f'` tal que
 `f'(x)` es una función que puede ser aplicada a `y` que obtenga
-`(f'(x))(y) = f(x, y)`. Esto corresponde al hecho conocido que un _set_
-`(AxB -> C)` y `(A -> (B -> C))` son isomorfos, donde `x` es el [producto
-cartesiano][cartesian product] y `->` es la [función espacio][function space].
-En programación funcional, la aplicación de la función es denotada por
-juxtaposición, y se asume asociada a la izquierda, eso quiere decir que la
-función anterior la podemos convertir en `f' x y = f(x, y)`
+`(f'(x))(y) = f(x, y)`.
 
 La función `f'` del ejemplo anterior es llamada forma _curried_ de la función.
 Desde una perspectiva de programación funcional, _currying_ puede ser descrita
 por la función: `curry : ((a, b) -> c) -> (a -> b -> c)`
 
-Para abordar este problema, un enfoque es crear una **función de orden
-superior** que tome como argumento una función existente que fue escrita sin
-todas las devoluciones anidadas (_uncurried form_). Nuestra función de orden
-superior debe retornar otra función que espera un solo argumento,...
+Ahora bien, un enfoque es crear una **función de orden superior** (_Higher
+Order Function_ en inglés) que tome como argumento una función existente que
+fue escrita sin todas las devoluciones anidadas (_uncurried form_). Nuestra
+función de orden superior debe retornar otra función que espera un solo
+argumento,...
 
 ```javascript
 const curryIt = f => x => {
@@ -274,5 +270,3 @@ nombrar y manejar los argumentos de la función.
 [partial-application]: https://en.wikipedia.org/wiki/Partial_application
 [Haskell Curry]: https://en.wikipedia.org/wiki/Haskell_Curry
 [Frege]: https://en.wikipedia.org/wiki/Gottlob_Frege
-[cartesian product]: https://en.wikipedia.org/wiki/Cartesian_product
-[function space]: https://en.wikipedia.org/wiki/Function_space
