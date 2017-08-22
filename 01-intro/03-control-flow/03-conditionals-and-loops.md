@@ -200,7 +200,7 @@ Eso funciona, pero la idea de escribir un programa es trabajar menos, no más. S
 
 El bucle más sencillo es el bucle `while` (que significa "mientras" en español). Un bucle `while` ejecuta repetidamente una serie de sentencias hasta que una condición particular deja de ser verdadera. Al escribir un bucle `while`, estás diciendo: _"Sigue haciendo esto mientras esta condición sea verdadera. Detente cuando la condición se vuelva falsa."_
 
-Como muestra el ejemplo a continuación, una sentencia que comienza con el keyword `while` crea un bucle. Después de `while` viene una expresión en paréntesis que representa la condición y después un conjunto de sentencias (muy parecido al caso del `if`). Sin embargo, a diferencia del `if`, el bucle ejecuta la sentencia mientras la condición produzca un valor que sea `true`. Por eso es muy importante que eel conjunto de sentencias incluya algo que "cambia" para que la condición eventualmente sea falsa. De lo contrario, terminarás con un ciclo infinito que nunca se detendrá, y eso usualmente es malo.
+Como muestra el ejemplo a continuación, una sentencia que comienza con el keyword `while` crea un bucle. Después de `while` viene una expresión en paréntesis que representa la condición y después un conjunto de sentencias (muy parecido al caso del `if`). Sin embargo, a diferencia del `if`, el bucle ejecuta la sentencia mientras la condición produzca un valor que sea `true`. Por eso es muy importante que el conjunto de sentencias incluya algo que "cambia" para que la condición eventualmente sea falsa. De lo contrario, terminarás con un ciclo infinito que nunca se detendrá, y eso usualmente es malo.
 
 ```js
 
@@ -289,8 +289,9 @@ Muchos bucles siguen el patrón de los ejemplos previos del `while`. Primero, un
 Debido a que este patrón es tan común, JavaScript y otros lenguajes similares proveen una versión un poco más corta y más completa: el bucle `for`.
 
 ```js
-for (var number = 0; number <= 12; number = number + 2)
+for (var number = 0; number <= 12; number = number + 2){
   console.log(number);
+}
 // → 0
 // → 2
 //   … etc.
