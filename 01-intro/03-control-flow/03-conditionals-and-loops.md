@@ -142,10 +142,18 @@ Veamos otro ejemplo de la aplicación de la sentencia `if...else`. Esta vez, con
 #### _Utilizando Switch_
 Es común ver código así:
 ```js
-if (variable == "valor1") accion1();
-else if (variable == "valor2") accion2();
-else if (variable == "valor3") accion3();
-else accionDefault();
+if (variable == "valor1") {
+  accion1();
+}  
+else if (variable == "valor2") {
+  accion2();
+}
+else if (variable == "valor3") {
+  accion3();
+}
+else {
+  accionDefault();
+}
 ```
 
 Existe una estructura llamada `switch` que está hecha para "despachar" de un modo más directo. Desafortunadamente, la sintaxis que JavaScript usa para esto (que es heredada de la línea de lenguajes de programación de C/Java) es un poco incómoda; una cadena de sentencias `if` a menudo luce mejor. Aquí hay un ejemplo:
@@ -200,7 +208,7 @@ Eso funciona, pero la idea de escribir un programa es trabajar menos, no más. S
 
 El bucle más sencillo es el bucle `while` (que significa "mientras" en español). Un bucle `while` ejecuta repetidamente una serie de sentencias hasta que una condición particular deja de ser verdadera. Al escribir un bucle `while`, estás diciendo: _"Sigue haciendo esto mientras esta condición sea verdadera. Detente cuando la condición se vuelva falsa."_
 
-Como muestra el ejemplo a continuación, una sentencia que comienza con el keyword `while` crea un bucle. Después de `while` viene una expresión en paréntesis que representa la condición y después un conjunto de sentencias (muy parecido al caso del `if`). Sin embargo, a diferencia del `if`, el bucle ejecuta la sentencia mientras la condición produzca un valor que sea `true`. Por eso es muy importante que el conjunto de sentencias incluya algo que "cambia" para que la condición eventualmente sea falsa. De lo contrario, terminarás con un ciclo infinito que nunca se detendrá, y eso usualmente es malo.
+Como muestra el ejemplo a continuación, una sentencia que comienza con el keyword `while` crea un bucle. Después de `while` viene una expresión en paréntesis que representa la condición y después un conjunto de sentencias (muy parecido al caso del `if`). Sin embargo, a diferencia del `if`, el bucle ejecuta la sentencia mientras la condición produzca un valor que sea `true`. Por eso es muy importante que el conjunto de sentencias incluya algo que _"cambia"_ para que la condición eventualmente sea falsa. De lo contrario, terminarás con un ciclo infinito que nunca se detendrá, y eso usualmente es malo.
 
 ```js
 
@@ -277,10 +285,11 @@ El bucle `do` es una estructura de control similar al bucle `while`. Se diferenc
 do {
   var yourName = prompt("¿Quién eres?");
 } while (!yourName);
+
 console.log('tu nombre es ' + yourName);
 ```
 
-Este programa te obligará a introducir un nombre. Preguntará una y otra vez hasta que obtenga algo que no sea una cadena vacía. Aplicar el operador ! convierte un valor a `Boolean` negándolo y todas las cadenas excepto `""` se convierten a `true`. Esto significa qie el bucle continúa corriendo hasta que des un nombre que no sea una cadena vacía.
+Este programa te obligará a introducir un nombre. Preguntará una y otra vez hasta que obtenga algo que no sea una cadena vacía. Aplicar el operador `!` convierte un valor a `Boolean` negándolo y todas las cadenas excepto `""` se convierten a `true`. Esto significa que el bucle continúa corriendo hasta que des un nombre que no sea una cadena vacía.
 
 #### _Bucles `for`_
 
@@ -296,7 +305,7 @@ for (var number = 0; number <= 12; number = number + 2){
 // → 2
 //   … etc.
 ```
-Este programa es exactamente equivalente a el ejemplo previo de impresión de números pares. El único cambio es que todas las sentencias que están relacionadas con el "estado" del bucle están agrupadas.
+Este programa es exactamente equivalente al ejemplo previo de impresión de números pares. El único cambio es que todas las sentencias que están relacionadas con el "estado" del bucle están agrupadas.
 
 Los paréntesis después del keyword `for` tienen que contener dos punto y coma (`;`). La parte que está antes del primer punto y coma _inicializa_ el bucle, normalmente al definir una variable. La segunda parte es la expresión que _verifica_ si el bucle tiene que continuar. La parte final _actualiza_ el estado del bucle antes de cada iteración. En la mayoría de los casos, esto es más corto y claro que una construcción con `while`.
 
