@@ -1,4 +1,4 @@
-# 08. Really get to know JavaScript by building your own library
+# 08. JS Deep Dive
 
 Programar en JavaScript te hace ver cool, conocer las particularidades del
 lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
@@ -110,7 +110,7 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 
 | Orden | Tipo    | Duración | Descripción
 |-------|---------|----------|-------------
-|   1   | lectura |   Xmin   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-datatypes.md)
+|   1   | lectura |   Xmin   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-data-types.md)
 |   2   | lectura |   Xmin   | [Control de Flujo](04-foundations/01-control-flow.md)
 |   2   | lectura |   Xmin   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
 
