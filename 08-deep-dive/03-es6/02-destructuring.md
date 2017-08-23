@@ -1,6 +1,6 @@
 # Desestructuración de arrays y objetos
 
-* Formato: `lectura` 
+* Formato: `lectura`
 * Duración: `20 min`
 
 Durante esta sesión nos aseguraremos ,
@@ -76,4 +76,4 @@ Después de correr este código a vale 1 y b vale 3. El valor 2 es ignorado. Pue
 
 ***
 
-[Continuar](04-arrow-functions-lexical-scope.md)
+[Continuar](03-arrow-functions-lexical-scope.md)

@@ -1,10 +1,10 @@
 # Template string
 
-* Formato: `lectura` 
+* Formato: `lectura`
 * Duración: `10 min`
 
 Durante esta sesión nos aseguraremos,
-que comprendas de manera general las ventajas que nos 
+que comprendas de manera general las ventajas que nos
 entrega `ES6` al trabajar con strings.
 
 
@@ -92,4 +92,4 @@ let myAge = `Mi edad es ${person.age + 3} años`;
 
 ***
 
-[Continuar](03-destructuring.md)
+[Continuar](02-destructuring.md)

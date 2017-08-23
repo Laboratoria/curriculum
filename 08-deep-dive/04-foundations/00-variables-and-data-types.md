@@ -1,6 +1,6 @@
 # Variables, Tipos de datos y Operadores
 
-* Formato: `lectura` 
+* Formato: `lectura`
 * Duración: `15 min`
 
 
@@ -150,10 +150,10 @@ Si son de diferente tipo
 * En otros casos, devuelve false.
 
 ```javascript
-null == undefined // true 
-10 == '10'        // true 
-true == 1         // true 
-[10] == 10        // true 
+null == undefined // true
+10 == '10'        // true
+true == 1         // true
+[10] == 10        // true
 [] == []          // false
 ```
 
@@ -207,7 +207,7 @@ Usualmente se utiliza para números, pero también sirve para textos.
  * En otros casos es false
 
 ```javascript
-[10] < 9    // false, caso 1 
+[10] < 9    // false, caso 1
 "a" < "b"   // true, caso 2
 10 >= 10    // true, caso 3
 ```
@@ -215,4 +215,4 @@ Usualmente se utiliza para números, pero también sirve para textos.
 
 ***
 
-[Continuar](02-Control_de_flujo.md)
+[Continuar](01-control-flow.md)
