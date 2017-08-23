@@ -66,16 +66,28 @@ Participar en el proyecto involucra lo siguiente:
 
 ## Syllabus
 
-### Lección 01: [Presentación del curso](#)
+### Lección 01: [Presentación del curso](01-intro/00-welcome.md)
+
+15min (presencial)
+
+15min (presencial)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
-### Lección 02: [Entorno y metodología de trabajo](#)
+### Lección 02: [Entorno y metodología de trabajo](02-env)
+
+1h (presencial)
 
 Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
 acceso al repo, su propio fork, ...
+
+#### Lesson plan
+
+| Orden | Tipo     | Duración | Descripción
+|-------|----------|----------|-------------
+|   1   | workshop |   20min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
 
 ### Lección 03: [ECMAScript 6](#)
 
