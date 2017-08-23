@@ -228,3 +228,8 @@ con todo!
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
 * [HTML & CSS design and build websites]( ), de Jon Duckett, 2011.
+* [The Practitioner’s Guide to User Experience Design](https://www.amazon.com/Practitioners-Guide-User-Experience-Design/dp/1455548588/ref=sr_1_1?ie=UTF8&qid=1500431556&sr=8-1&keywords=practitioners+guide+to+user+experience),  Luke Miller, 2015
+* [The Elements of User Experience: User-Centered Design for the Web and Beyond](https://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684/ref=sr_1_1?ie=UTF8&qid=1500431528&sr=8-1&keywords=elements+of+user+experience), Jesse James Garrett, 2011
+* [LEAN UX](https://www.amazon.com/Lean-UX-Designing-Great-Products/dp/1491953608/ref=sr_1_1?ie=UTF8&qid=1500431693&sr=8-1&keywords=lean+ux), Jeff Gothelf & Josh Seiden, 2013
+* [About Face: The Essentials of Interaction Design](https://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/1118766571/ref=sr_1_2?ie=UTF8&qid=1500431746&sr=8-2&keywords=about+face), Alan Cooper, 2014
+* [Sprint](http://www.thesprintbook.com/), Jake Knapp / John Zeratsky / Braden Kowitz , 2016
