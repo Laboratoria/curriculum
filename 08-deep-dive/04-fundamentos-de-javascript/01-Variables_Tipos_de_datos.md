@@ -212,6 +212,7 @@ Usualmente se utiliza para números, pero también sirve para textos.
 10 >= 10    // true, caso 3
 ```
 
+
 ***
 
 [Continuar](02-Control_de_flujo.md)
