@@ -5,16 +5,12 @@
 
 Durante esta sesión nos aseguraremos,
 que comprendas de manera general las ventajas que nos 
-entrega Es6 al trabajar con strings.
-
-### Objetivos de la lección
-
-* Comprender la nueva sintaxis y funcionalidad de ES6
+entrega `ES6` al trabajar con strings.
 
 
 ***
 
-# Template String (Plantillas de cadenas de texto)
+## Template String (Plantillas de cadenas de texto)
 
 Con ECMAScript 6 se ha tratado de dar respuesta a algunas de las necesidades más
 básicas de los programadores a la hora de trabajar con strings, introduciendo la

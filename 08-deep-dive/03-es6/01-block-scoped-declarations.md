@@ -1,14 +1,13 @@
-# Introduccion ES6- Syntax
+# Introduccion a ES6
 
 * Formato: `lectura` 
 * Duración: `20 min`
 
-Durante esta sesión nos aseguraremos ,
-que todas entiendan las diferencias entre var, let, const
+Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre `var`, `let`, `const`
 
-### Objetivos de la lección
+***
 
-* Comprender la nueva sintaxis y funcionalidad de ES6
+Con `ES6` se han incorporado al lenguaje varias novedades como nuevas palabras reservadas para definir variables y constantes, símbolos, interpolación de variables en cadenas, desestructuración, forma abreviada para declarar funciones, nueva sintaxis más sencilla para definir clases, objetos de tipo Map y Set, Promises como alternativa a callbacks, el protocolo Iterator y generadores, además de algunas otras cosas que si como yo no habías dedicado tiempo a aprender mejor JavaScript aún te resulten novedosas.
 
 
 ***

@@ -15,7 +15,7 @@ que todas entiendan lo útil que es trabajar con destructuring assignment
 
 ## Desestructuración de Arrays
 
-La sintaxis de destructuring assignment es una expresión de JavaScript que hace posible la extracción de datos de arreglos u objetos usando una sintaxis que equivale a la construcción de arreglos y objetos literales.
+La sintaxis de _destructuring assignment_ es una expresión de JavaScript que hace posible la extracción de datos de arreglos u objetos usando una sintaxis que equivale a la construcción de arreglos y objetos literales.
 
 Algo particularmente útil que puedes hacer con destructuring assignment es leer una estructura completa en una sola sentencia, aunque también varias cosas interesantes que puedes hacer, como se muestra en los siguientes ejemplos:
 

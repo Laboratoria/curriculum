@@ -40,7 +40,7 @@ presentes:
   estricto como no estricto, a diferencia de las funciones clásicas, que no lo
   permiten tan solo en modo estricto.
 
-## Sintaxis de arrow functions
+## Sintaxis
 
 El ejemplo más simple de *arrow function* es el siguiente, aunque veremos en los ejemplos siguientes que existen diversas variaciones.
 
