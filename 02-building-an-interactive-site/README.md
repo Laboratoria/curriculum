@@ -10,14 +10,6 @@ aprenderás a:
  3. Darle interactividad a tu producto a través de la programación con
  `JavaScript`
 
-Main Tags:
- `html`, `css properties`, `css selectors`, `arrays`, `objects`, `dom`, `bom`,
- `events`, `ux design`.
-
-Secondary Tags:
- `http`, `url`, `display`, `box model`, `positioning`, `layout`, `sketching`,
- `cli`, `git`, `github`.
-
 ## Público Objetivo
 
 Este curso está dirigido a estudiantes que ingresan a Laboratoria. Es el primer
@@ -51,10 +43,18 @@ utilizar `js` para manipular el `html` y `css` de tu producto
 * A familiarizarte con la interfaz de línea de comandos (CLI)
 * A utilizar un sistema de control de versiones (Git)
 
+Main Tags:
+ `html`, `css properties`, `css selectors`, `arrays`, `objects`, `dom`, `bom`,
+ `events`, `ux design`.
+
+Secondary Tags:
+ `http`, `url`, `display`, `box model`, `positioning`, `layout`, `sketching`,
+ `cli`, `git`, `github`.
+
 ## Duración
 
-* Lectura: `... hrs`
-* Seminario: `... hrs`
+* Lecturas: `... hrs`
+* Clases: `... hrs`
 * Taller: `... hrs`
 * Code: `... hrs`
 * Quiz: `... hrs`
@@ -91,19 +91,19 @@ de Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | Apertura
-| 01 | self-learning | 30min | Command Line Interface
-| 02 | self-learning | 30min | Control de versiones - git
+| 01 | lectura | 30min | Command Line Interface
+| 02 | lectura | 30min | Control de versiones - git
 | 03 | clases | 60min | Repaso Intro JS
-| 04 | self-learning | 30min | Arreglos
-| 05 | self-learning | 30min | Objetos
-| 06 | self-learning | 30min | Propiedades y métodos
-| 07 | self-learning | 30min | Combinando arreglos con objetos
-| 08 | self-learning | 30min | Casos prácticos
+| 04 | lectura | 30min | Arreglos
+| 05 | lectura | 30min | Objetos
+| 06 | lectura | 30min | Propiedades y métodos
+| 07 | lectura | 30min | Combinando arreglos con objetos
+| 08 | lectura | 30min | Casos prácticos
 | 09 | quiz | 30min | Quiz
 | 10 | clases | 120min | Revisión de conceptos
-| 11 | clases | 120min |  Ejercicios guiados
+| 11 | taller | 120min |  Ejercicios guiados
 | 12 | code | 8hrs | Retos de código
-| 13 | clases | 120min | Solucionario retos de código
+| 13 | taller | 120min | Solucionario retos de código
 | 14 | quiz | 30min | Re-quiz
 | 15 | survey | 10min | Auto-evaluación
 | 16 | clases | 30min | Cierre
@@ -115,21 +115,21 @@ de Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | Apertura
-| 01 | self-learning | 30min | Cómo funciona la web
-| 02 | self-learning | 30min | HTML
-| 03 | self-learning | 30min | Intro a CSS
-| 04 | self-learning | 30min | Box Model
-| 05 | self-learning | 30min | Layouts
-| 06 | self-learning | 30min | Estilos para cajas y textos
-| 07 | self-learning | 30min | Transitions
-| 08 | self-learning | 30min | Diseño Visual
-| 09 | self-learning | 30min | Usabilidad
-| 08 | self-learning | 30min | Casos prácticos
+| 01 | lectura | 30min | Cómo funciona la web
+| 02 | lectura | 30min | HTML
+| 03 | lectura | 30min | Intro a CSS
+| 04 | lectura | 30min | Box Model
+| 05 | lectura | 30min | Layouts
+| 06 | lectura | 30min | Estilos para cajas y textos
+| 07 | lectura | 30min | Transitions
+| 08 | lectura | 30min | Diseño Visual
+| 09 | lectura | 30min | Usabilidad
+| 08 | lectura | 30min | Casos prácticos
 | 10 | quiz | 30min | Quiz
 | 11 | clases | 120min | Revisión de conceptos
-| 12 | clases | 120min |  Ejercicios guiados
+| 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
-| 14 | clases | 120min | Solucionario retos de código
+| 14 | taller | 120min | Solucionario retos de código
 | 15 | quiz | 30min | Re-quiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
@@ -141,16 +141,16 @@ de Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | Apertura
-| 01 | self-learning | 60min | Document Object Model
-| 02 | self-learning | 60min | Browser Object Model
-| 03 | self-learning | 30min | Seleccionando, modificando y creando elementos y nodos
-| 04 | self-learning | 30min | Eventos
-| 08 | self-learning | 30min | Casos prácticos
+| 01 | lectura | 30min | Document Object Model
+| 02 | lectura | 30min | Browser Object Model
+| 03 | lectura | 30min | Seleccionando, modificando y creando elementos y nodos
+| 04 | lectura | 30min | Eventos
+| 08 | lectura | 30min | Casos prácticos
 | 10 | quiz | 30min | Quiz
 | 11 | clases | 120min | Revisión de conceptos
-| 12 | clases | 120min |  Ejercicios guiados
+| 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
-| 14 | clases | 120min | Solucionario retos de código
+| 14 | taller | 120min | Solucionario retos de código
 | 15 | quiz | 30min | Re-quiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
@@ -162,38 +162,35 @@ de Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | clases | 30min | Apertura
-| 04 | self-learning | 30min | UX Design vs. UI Design
-| 04 | self-learning | 30min | Systems Thinking
-| 04 | self-learning | 30min | Navegation
-| 04 | self-learning | 30min | Sketching
+| 04 | lectura | 30min | UX Design vs. UI Design
+| 04 | lectura | 30min | Systems Thinking
+| 04 | lectura | 30min | Navegation
+| 04 | lectura | 30min | Sketching
 | 10 | quiz | 30min | Quiz
 | 11 | clases | 120min | Revisión de conceptos
-| 12 | clases | 120min |  Ejercicios guiados
+| 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
-| 14 | clases | 120min | Solucionario retos de código
+| 14 | taller | 120min | Solucionario retos de código
 | 15 | quiz | 30min | Re-quiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
 
 ### [05: Data Dashboard](05-data-dashboard)
 
-21hrs
-
-Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos en práctica creando productos divertidos.
+35hrs
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | self-learning | 3 hrs | [Data Dashboard]()
-| 02 | clases | 3 hrs | Peer (code) Review
-| 03 | workshop | 2 hrs |  [Solucionarios]()
-| 04 | clases | 2 hrs |  Retrospectiva
-| 05 | survey | 10 min |  Feedback form
+| 01 | lectura | 25 hrs | Data Dashboard
+| 02 | taller | 5 hrs | Code Review (Peer + Teacher)
+| 03 | taller | 2 hrs |  Solucionarios
+| 04 | taller | 3 hrs |  Retrospectiva
 
 * * *
 
 ## Evaluación técnica
-* Quizzes 1: 5%
-* Quizzes 2: 15%
+* Quizzes: 5%
+* Re-quizzes: 15%
 * Retos de código: 55%
 * Data Dashboard: 25%
 
