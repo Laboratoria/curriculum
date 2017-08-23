@@ -70,8 +70,6 @@ Participar en el proyecto involucra lo siguiente:
 
 15min (presencial)
 
-15min (presencial)
-
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
@@ -95,12 +93,27 @@ JavaScript es el lenguaje de programación, pero la especificación (estándar) 
 lenguaje es ECMAScript, en esta lección veremos las nuevas características de JS
 a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Block Scoped Declarations](#)
+|   2   |      |   Xmin   | [Template Strings](#)
+|   3   |      |   Xmin   | [Destructuring](#)
+|   4   |      |   Xmin   | [Arrow Functions](#)
+
+
 ### Lección 04: [Fundamentos de JavaScript](#)
 
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
 `tipos de datos`, `operadores`, `objetos preconstruidos`, etc.
+
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Variables, Tipos de Datos y Operadores](#)
+|   2   |      |   Xmin   | [Control de Flujo](#)
+|   2   |      |   Xmin   | [Objetos Pre-construidos](#)
+
 
 ### Lección 05: [Funciones](#)
 
@@ -110,11 +123,21 @@ importantes como asignar funciones a una variable, pasar como parámetro de otra
 función, cambiar el scope de variables, asignar como valor de una propiedad de
 un objeto, etc.
 
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Scope](#)
+|   2   |      |   Xmin   | [Funciones](#)
+
 ### Lección 06: [Estructura de Datos](#)
 
 En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
 estructura de datos que veremos como sacar provecho de ellas.
+
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Objetos](#)
+|   2   |      |   Xmin   | [Arreglos](#)
 
 ### Lección 07: [Manejo de Excepciones](#)
 
@@ -122,6 +145,11 @@ El manejo de errores es importante dentro de todo desarrollo de software, y mas
 aun cuando se piensa en construir un producto que se espera sea reusable y
 mantenible. En esta lección veremos cómo manejar errores en las diversas partes
 de nuestro código.
+
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Modo Estricto](#)
+|   2   |      |   Xmin   | [try...catch](#)
 
 ### Lección 08: [Document Objet Model (DOM)](#)
 
@@ -131,12 +159,24 @@ representación del documento es accedido a través de JavaScript y hace posible
 agregar interactividad a nuestros sitios web, aun así, es necesario tener en
 cuenta el performance del navegador.
 
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Recorrido del DOM](#)
+|   2   |      |   Xmin   | [Manipulación del DOM](#)
+|   3   |      |   Xmin   | [Redibujo del navegador](#)
+
 ### Lección 09: [Manejo de Eventos](#)
 
 Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
 aplicaciones web, estas alteraciones se realizan luego de cierta interacción
 por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
 entender aspectos importantes del comportamiento de eventos y como manejarlos.
+
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Manejador de Eventos](#)
+|   2   |      |   Xmin   | [Bubbling vs. Capturing](#)
+|   3   |      |   Xmin   | [this vs. event.target](#)
 
 ### Lección 10: [jQuery](#)
 
@@ -147,26 +187,20 @@ importantes para mejorar el performance en el uso de esta librería además de
 consideraciones para el encapsulamiento de código a través de la creación de
 `plugins`.
 
-### Lección 11: [Manejo de Memoria](#)
+| Orden | Tipo | Duración | Descripción
+|-------|------|----------|-------------
+|   1   |      |   Xmin   | [Selectores](#)
+|   2   |      |   Xmin   | [Manejo del DOM](#)
+|   3   |      |   Xmin   | [CSS](#)
+|   4   |      |   Xmin   | [Creación de Plugin](#)
 
-Todos los programas que desarrollamos se ejecutan en la memoria RAM, y en muchas
-ocasiones no tomamos en cuenta que tan eficiente escribimos código, una manera
-de medirlo es teniendo en cuenta el consumo de memoria, en esta lección veremos
-como manejarlo y optimizarlo.
-
-### Lección 12: [Performance](#)
-
-Cuando ya tenemos un código funcionando, creemos que nuestro trabajo ha
-terminado, sin embargo, algo que deberíamos tener en cuenta siempre es optimizar
-nuestro código para que nuestro producto funcione de la mejor manera haciendo
-uso de la menor cantidad de recursos del navegador.
 
 ## Autor(es) / Colaboradores
 
 * Belén Recabal
 * Iván Medina
 
-## Libros (mínimo 3)
+## Libros
 
 * [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do),
   Douglas Crockford, O'Reilly Media
