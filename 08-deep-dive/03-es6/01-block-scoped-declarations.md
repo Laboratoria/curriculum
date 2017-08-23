@@ -1,6 +1,16 @@
-# Introduccion ES6- Syntax
+# Introduccion a ES6
 
-* Introduccion ES6
+* Formato: `lectura` 
+* Duración: `20 min`
+
+Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre `var`, `let`, `const`
+
+***
+
+Con `ES6` se han incorporado al lenguaje varias novedades como nuevas palabras reservadas para definir variables y constantes, símbolos, interpolación de variables en cadenas, desestructuración, forma abreviada para declarar funciones, nueva sintaxis más sencilla para definir clases, objetos de tipo Map y Set, Promises como alternativa a callbacks, el protocolo Iterator y generadores, además de algunas otras cosas que si como yo no habías dedicado tiempo a aprender mejor JavaScript aún te resulten novedosas.
+
+
+***
 
 ## Block-Scoped Declarations
 
@@ -146,14 +156,4 @@ console.log(USER);
 
 ***
 
-* let Declarations
-* const Declarations
-* lock-scoped Functions
-* Spread/Rest (ES6 introduces a new ... operator that's typically referred to as
-  the spread or rest operator, depending on where/how it's used. Let's take a
-  look:)
-* Arrow Functions
-* Default Parameter Values
-* Default Value Expressions
-* Destructuring
-* Object Property Assignment Pattern
+[Continuar](02-template-strings.md)

@@ -1,6 +1,23 @@
 # Desestructuración de arrays y objetos
 
+* Formato: `lectura` 
+* Duración: `20 min`
+
+Durante esta sesión nos aseguraremos ,
+que todas entiendan lo útil que es trabajar con destructuring assignment
+
+### Objetivos de la lección
+
+* Comprender la nueva sintaxis y funcionalidad de ES6
+
+
+***
+
 ## Desestructuración de Arrays
+
+La sintaxis de _destructuring assignment_ es una expresión de JavaScript que hace posible la extracción de datos de arreglos u objetos usando una sintaxis que equivale a la construcción de arreglos y objetos literales.
+
+Algo particularmente útil que puedes hacer con destructuring assignment es leer una estructura completa en una sola sentencia, aunque también varias cosas interesantes que puedes hacer, como se muestra en los siguientes ejemplos:
 
 ```javascript
 const numbers = ["1", "2", "3"];
@@ -44,10 +61,19 @@ console.log(joan, carlos, david, dani); // joan carlos david dani
 La asignación de variables se realiza en orden, el primer valor se asigna a la
 primera variable, el segundo a la segunda... y así.
 
+Puedes ignorar los valores de retorno en los que no estás interesado:
+
+```javascript
+function f() {
+  return [1, 2, 3];
+}
+
+let [a, , b] = f();
+console.log("A es " + a + " B es " + b);
+```
+
+Después de correr este código a vale 1 y b vale 3. El valor 2 es ignorado. Puedes ignorar cualquiera de los valores retornados (o incluso todos)
+
 ***
 
-* next() Iteration
-* Iterator Loop
-* Custom Iterators
-* Iterator Consumption
-* Generators
+[Continuar](04-arrow-functions-lexical-scope.md)
