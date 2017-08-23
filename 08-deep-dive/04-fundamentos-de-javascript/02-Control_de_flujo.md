@@ -3,8 +3,8 @@
 * Formato: `lectura` 
 * Duración: `15 min`
 
-
 ***
+
 
 Javascript soporta un conjunto compacto de sentencias específicamente para el manejo de flujo, que pueden ser utilizadas para incorporar mayor interactividad a tus aplicaciones.
 La guía de referencia de Javascript contiene detalles exhaustivos sobre las sentencias mencionadas en este capítulo. El punto y coma (;) se utiliza para separar sentencias de código Javascript.
