@@ -67,4 +67,4 @@ A continuación Michelle te explica cómo utilizar `funciones`, `estructuras rep
 
 ***
 
-[Continuar](08-applied-data-structures.md)
+[Continuar](08-practical-cases.md)
