@@ -1,6 +1,6 @@
 # Control de Flujo
 
-* Formato: `lectura` 
+* Formato: `lectura`
 * Duración: `15 min`
 
 ***
@@ -9,11 +9,11 @@
 Javascript soporta un conjunto compacto de sentencias específicamente para el manejo de flujo, que pueden ser utilizadas para incorporar mayor interactividad a tus aplicaciones.
 La guía de referencia de Javascript contiene detalles exhaustivos sobre las sentencias mencionadas en este capítulo. El punto y coma (;) se utiliza para separar sentencias de código Javascript.
 
-En Javascript cualquier expresión es también una sentencia. 
+En Javascript cualquier expresión es también una sentencia.
 Una sentencia condicional es un conjunto de comandos que se ejecutan si una condición es verdadera. JavaScript soporta dos sentencias condicionales: if...else y switch
 
 A través de toda la formación que a este minuto has recibido, ya sabes cuáles son las sentencias condicionales, a demás conoces los bucles o loops , que pertenecen a toda el área de control de flujo en Javascript, en ésta parte me gustaría más contarte a cerca de las sentencias de manejo de excepciones.
-Prácticamente cualquier objeto puede ser lanzado en JavaScript. Sin embargo, no todos los objetos lanzados son creados igual. Mientras que es bastante común lanzar números o strings como errores, frecuentemente es más efectivo utilizar uno de los tipos de excepciones específicamente creados para este proposito:  
+Prácticamente cualquier objeto puede ser lanzado en JavaScript. Sin embargo, no todos los objetos lanzados son creados igual. Mientras que es bastante común lanzar números o strings como errores, frecuentemente es más efectivo utilizar uno de los tipos de excepciones específicamente creados para este proposito:
 
 ##Sentencia throw
 
@@ -23,7 +23,7 @@ Utiliza la sentencia throw  para lanzar una excepción. Cuando lanzas un excepci
 throw expresión;
 ```
 
-Puedes lanzar cualquier expresión, no solo expresiones de un tipo especifico. En el siguente código lanzamos varias excepciones de varios tipos: 
+Puedes lanzar cualquier expresión, no solo expresiones de un tipo especifico. En el siguente código lanzamos varias excepciones de varios tipos:
 
 ```javascript
 throw "Error2";   // Tipo string
@@ -41,7 +41,7 @@ function UserException (aviso){
   this.nombre="UserException";
 }
 
-// Make the exception convert to a pretty string when used as a string 
+// Make the exception convert to a pretty string when used as a string
 // (e.g. by the error console)
 UserException.prototype.toString = function () {
   return this.nombre + ': "' + this.aviso + '"';
@@ -114,4 +114,4 @@ Hablaremos más de ello en los siguientes cursos.
 
 ***
 
-[Continuar](02-Objetos_preconstruidos.md)
+[Continuar](02-built-in-objects.md)
