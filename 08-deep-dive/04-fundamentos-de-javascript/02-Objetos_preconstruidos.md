@@ -6,6 +6,7 @@
 
 ***
 
+
 El tipo de datos fundamental de JavaScript es el objeto. Un objeto es un dato complejo, una colección no ordenada de propiedades cada una formada por un nombre y un valor. Este valor es un tipo de dato primitivo o un objeto.
 
 En JavaScript todo lo que no es un string, un número, true, false, null o undefined es un objeto. Incluso los strings, números y booleanos se comportan como objetos inmutuables (no podemos modificar sus propiedades).
