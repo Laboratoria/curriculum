@@ -7,7 +7,7 @@ aprenderás a:
  conceptos y técnicas de `ux design`
  2. Maquetar un sitio web para presentar información (texto,
  imágenes, links, etc.) en la web, utilizando `html` y `css`
- 3. Darle interactividad a tu producto a través de la programación con
+ 3. Darle interactividad a tu producto web a través de la programación con
  `JavaScript`
 
 ## Público Objetivo
@@ -18,8 +18,8 @@ profesional del mundo digital debe saber.
 
 ## Requerimientos previos
 
-Para llevar este curso debes haber completado el pre-work y la pre-admisión de
-Laboratoria. Se asume que las alumnas ya han trabajado con variables,
+Para llevar este curso debes haber completado el `pre-work` y la `pre-admisión`
+de Laboratoria. Se asume que las alumnas ya han trabajado con variables,
 valores (tipos de datos), funciones y estructuras de control de flujo: bucles
 y condicionales.
 
@@ -66,27 +66,31 @@ Con este curso desarrollarás tus primeros productos digitales. Pondrás en
 práctica los conocimientos aprendidos para crear los siguientes productos web:
 
 1. **Portafolio**: crearás tu página web personal para mostrar tu información
-personal y profesional en un portal digital
+profesional a través de un portal digital
 
 2. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
-tarjeta de crédito es válida.
+tarjeta de crédito es válida según el
+[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 
 3. **Ceasar Cipher**: crearás un programa que encripte mensajes según la
 [técnica de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
-4. **Juego Laberinto**: ¡crearás tu primer juego animado! El jugador podrá
-mover al personaje principal utilizando las flechas del teclado para encontrar
+4. **Juego Laberinto**: ¡crearás tu primer juego animado! El jugador debe
+mover al personaje principal utilizando las flechas del teclado y encontrar
 la salida en un laberinto.
 
-5. **Data Dashboard**: tu producto final será crear una web interactiva, de
-complejidad media, que muestre los datos y el perfil de una estudiante
-de Laboratoria.
+5. **Data Dashboard**: tu producto final será diseñar y crear una web
+interactiva, de complejidad media, que muestre los datos y el perfil de una
+estudiante de Laboratoria.
 
 ## Syllabus
 
 ### [01: Programación básica con JavaScript](01-basic-programming-in-javascript)
 
 35 hrs
+
+Retomamos lo aprendido en el curso anterior (Intro JS) y seguimos profundizando
+en aprender a programar con JavaScript.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -104,13 +108,17 @@ de Laboratoria.
 | 11 | taller | 120min |  Ejercicios guiados
 | 12 | code | 8hrs | Retos de código
 | 13 | taller | 120min | Solucionario retos de código
-| 14 | quiz | 30min | Re-quiz
+| 14 | quiz | 30min | Requiz
 | 15 | survey | 10min | Auto-evaluación
 | 16 | clases | 30min | Cierre
 
 ### [02: Maquetado web con HTML & CSS](02-html-and-css)
 
 35hrs
+
+Ahora necesitamos aprender a crear las maquetas de nuestros productos digitales.
+Aquí veremos cómo crear la estructura de un sitio web y a darle estilos.
+Serán páginas web estáticas, sin interacción con el usuario.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -130,13 +138,16 @@ de Laboratoria.
 | 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
 | 14 | taller | 120min | Solucionario retos de código
-| 15 | quiz | 30min | Re-quiz
+| 15 | quiz | 30min | Requiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
 
 ### [03: Creando interacción con JavaScript](03-making-your-site-interactive)
 
 35 hrs
+
+Es el momento de mezclar la programación con el maquetado para hacer que
+nuestros productos web estáticos se vuelvan interactivos usando JavaScript.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -151,13 +162,17 @@ de Laboratoria.
 | 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
 | 14 | taller | 120min | Solucionario retos de código
-| 15 | quiz | 30min | Re-quiz
+| 15 | quiz | 30min | Requiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
 
 ### [04: Intro a User Experience Design](04-ux-design)
 
 14hrs
+
+Todo producto web necesita ser diseñado pensando en el usuario. Antes de
+empezar a crear tu producto final, es importante que conozcas las técnicas de
+user experience design para que tu producto sea algo que la gente quiera usar.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -171,7 +186,7 @@ de Laboratoria.
 | 12 | taller | 120min |  Ejercicios guiados
 | 13 | code | 8hrs | Retos de código
 | 14 | taller | 120min | Solucionario retos de código
-| 15 | quiz | 30min | Re-quiz
+| 15 | quiz | 30min | Requiz
 | 16 | survey | 10min | Auto-evaluación
 | 17 | clases | 30min | Cierre
 
@@ -179,20 +194,26 @@ de Laboratoria.
 
 35hrs
 
+El reto final de este curso es crear una web interactiva, de complejidad media,
+que muestre los datos y el perfil de una estudiante de Laboratoria. Debes hacer
+el UX de tu web, el maquetado y programar su interacción con JavaScript. ¡Vamos
+con todo!
+
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 25 hrs | Data Dashboard
-| 02 | taller | 5 hrs | Code Review (Peer + Teacher)
-| 03 | taller | 2 hrs |  Solucionarios
-| 04 | taller | 3 hrs |  Retrospectiva
+| 01 | lectura | 1 hr | Organizando mis tareas
+| 02 | code | 24 hrs | Data Dashboard
+| 03 | taller | 5 hrs | Code Review (Peer + Teacher)
+| 04 | taller | 2 hrs |  Solucionarios
+| 05 | taller | 3 hrs |  Retrospectiva
 
 * * *
 
 ## Evaluación técnica
 * Quizzes: 5%
-* Re-quizzes: 15%
+* Requizzes: 15%
 * Retos de código: 55%
-* Data Dashboard: 25%
+* Producto final (Data Dashboard): 25%
 
 ## Contributors
 
