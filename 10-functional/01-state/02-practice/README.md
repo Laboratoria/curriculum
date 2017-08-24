@@ -1,6 +1,6 @@
 # Ejercicios de funciones puras
 
-* Formato: `code`
+* Formato: `practice`
 * Duración: `10min`
 
 ***

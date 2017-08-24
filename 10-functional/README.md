@@ -63,6 +63,10 @@ siguientes conocimientos previos:
 
 ### Unidad 01: [Evitando el estado compartido y cambiante](01-state)
 
+En esta unidad veremos dos de los principios fundamentales de la programación
+funcional: cómo evitar el estado compartido usando _funciones puras_ y el
+concepto de _inmutabilidad_. La duración estimada de esta unidad es de _3h_.
+
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
 | 00 | seminario | guiado     | 15min    | Apertura
@@ -86,6 +90,11 @@ siguientes conocimientos previos:
 | 08 | seminario | guiado     | 15min    | Cierre
 
 ### Unidad 02: [Higher Order Functions](02-hof)
+
+Las _funciones de orden superior_ (_Higher Order Functions_ en inglés), no son
+más que funciones que reciben otras funciones como argumentos o que retornan una
+función. En esta unidad veremos este tipo de funciones en acción, incluyendo
+usos más avanzados como _aplicación parcial_ y _currying_.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -112,6 +121,12 @@ siguientes conocimientos previos:
 | 08 | seminario | guiado     | 15min    | Cierre
 
 ### Unidad 03: [Control de flujo](03-recursion)
+
+Como paradigma declarativo, la programación funcional se caracteriza, entre
+otras cosas, por expresar "repetición" usando recursión en vez de iteración. En
+esta unidad veremos cómo reemplazar iteración con recursión o higher order
+functions, así como las ventajas que ofrece el enfoque funcional para manejar
+asincronía, que es una característica fundamental de JavaScript.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------

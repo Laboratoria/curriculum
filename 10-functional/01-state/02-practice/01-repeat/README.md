@@ -1,3 +1,9 @@
+# Repite una operación `n` número de veces
+
+* Environment: `js`
+
+***
+
 Una función de orden superior (higher-order function) es una función que cumple
 por lo menos una de estas condiciones:
 
