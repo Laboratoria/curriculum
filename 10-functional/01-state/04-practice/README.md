@@ -1,4 +1,4 @@
-# Ejercicios de funciones puras
+# Ejercicios de inmutabilidad
 
 * Tipo: `practice`
 * Formato: `self-paced`

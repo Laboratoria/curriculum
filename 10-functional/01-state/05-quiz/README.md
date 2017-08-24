@@ -1,6 +1,6 @@
-# Ejercicios de funciones puras
+# Cuestionario
 
-* Tipo: `practice`
+* Tipo: `quiz`
 * Formato: `self-paced`
 * Duración: `10min`
 

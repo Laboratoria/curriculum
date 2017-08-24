@@ -1,6 +1,7 @@
 # Funciones puras
 
-* Formato: `artículo`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `30min`
 
 ***
