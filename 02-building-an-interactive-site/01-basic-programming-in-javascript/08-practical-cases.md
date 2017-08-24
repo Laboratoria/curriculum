@@ -19,7 +19,7 @@ A continuación tendrás varios problemas que debemos resolver. Intenta resolver
 Crea una función que invierta el orden de los elementos de un `array`. Completa este reto de dos maneras: en una, el `array` invertido es un _nuevo_ `array`; en la segunda, modifica el mismo `array` que se proporciona como argumento.
 
 #### 2. Search
-Crea una funcion que busquen un elemento en un `array`, devolviendo su posición (index) e imprima el valor en la consola. Tip: utiliza el algoritmo de [`linear search`](https://en.wikipedia.org/wiki/Linear_search)
+Crea una funcion que busque un elemento en un `array`, devolviendo su posición (index) e imprima el valor en la consola. Tip: utiliza el `algoritmo` de [`linear search`](https://en.wikipedia.org/wiki/Linear_search). Con este ejercicio introducimos el concepto de `algoritmo`. Para entender qué es un algoritmo, revisa el siguiente [video sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM)
 
 #### 3. Array to Object
 Escribe una función que tome un array 2D y devuelva un objeto con cada par de elementos en el `array` como un par _key-value_.

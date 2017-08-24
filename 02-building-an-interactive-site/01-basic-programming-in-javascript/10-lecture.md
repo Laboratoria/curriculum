@@ -12,7 +12,7 @@
 
  1. Entendamos bien el concepto de un `array` y un `object`
 
- 2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `array`
+ 2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `array` (incluído arrays 2D)
 
  3. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `object`
 
@@ -27,8 +27,15 @@
    - `slice()`
    - `lastIndexOf()`
    - `trim()`
+   - `reverse()`
+   - `Object.keys`
 
- 5. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
+ 4. Rapasemos qué es un `algoritmo`. Revisar los conceptos clave del [video sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM). Hacer dinámica de seguir
+ instrucciones para preparar un sandwich de jamón y queso.
+
+ 5. Repasemos, por medio de un ejemplo, el workflow de git y los comandos esenciales: `init`, `add`, `commit`, `push`, `pull`, `merge`
+
+ 6. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
 
 ***
 [Continuar](11-guided-exercises.md)

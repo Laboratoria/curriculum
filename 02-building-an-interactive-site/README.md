@@ -40,8 +40,8 @@ y darle estilo con `css`
 * Qué es el Document Object Model (DOM) y el Browser Object Model (BOM), y cómo
 utilizar `js` para manipular el `html` y `css` de tu producto
 * Conceptos básicos de programación en `js`, como: `arrays` y `objects`
-* A familiarizarte con la interfaz de línea de comandos (CLI)
-* A utilizar un sistema de control de versiones (Git)
+* A familiarizarte con la interfaz de línea de comandos (`cli`)
+* A utilizar un sistema de control de versiones (`git`)
 
 Main Tags:
  `html`, `css properties`, `css selectors`, `arrays`, `objects`, `dom`, `bom`,
@@ -73,7 +73,7 @@ tarjeta de crédito es válida según el
 [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 
 3. **Ceasar Cipher**: crearás un programa que encripte mensajes según la
-[técnica de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+[algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 4. **Juego Laberinto**: ¡crearás tu primer juego animado! El jugador debe
 mover al personaje principal utilizando las flechas del teclado y encontrar

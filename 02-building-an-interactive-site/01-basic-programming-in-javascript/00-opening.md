@@ -1,7 +1,7 @@
 # Opening
 - Tipo: `lectura`
 - Formato: `self-learning`
-- Duración: `30min`
+- Duración: `10min`
 
 ## Objetivos de Aprendizaje
 
