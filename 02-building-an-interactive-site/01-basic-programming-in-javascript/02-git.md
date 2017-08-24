@@ -45,7 +45,14 @@ Lo que hace `Git` es tomar una 'imagen' del estado de todos sus archivos en ese 
 
 GitHub es una 'nube' en la que podrás alojar tus proyectos utilizando el `Sistema de Control de Versiones: Git`. Nuestro código se almacenará de forma pública, aunque también se puede almacenar de forma privada, esta opción aparece si es que tenemos una cuenta pagada.
 
-## Cómo crear una cuenta en Github
+Pero `Github` no solo sirve para 'subir' nuestro código, él también contribuirá al desarrollo colaborativo del proyecto brindándonos herramientas que nos ayudarán:
+
+- Un `sistema de seguimiento de problemas` que permiten a los miembros de tu equipo detallar un problema con tu software o una sugerencia que deseen hacer.
+- Una `herramienta de revisión de código`, donde se pueden añadir anotaciones en cualquier punto de un fichero y debatir sobre determinados cambios realizados en un commit específico.
+- Un `visor de ramas` donde se pueden comparar los progresos realizados en las distintas ramas de nuestro repositorio.
+
+## ¿Cómo crear una cuenta en Github?
+
 Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 
 1. Debemos de dirigirnos a la página oficial de `Github`: https://github.com/
@@ -114,5 +121,7 @@ Estos datos los podemos configurar por medio de los comandos:
 
 Los datos que llenes las líneas anteriores deben de ser los mismo con los que creaste tu cuenta de `Github`, porque como te comentaba, con ellos se registrarán los `commits` que hagas.
 
-## ¿Cuál es la diferencia entre Git y Github ?
+## ¿Cuál es la diferencia entre Git y Github?
+
+
 [Continuar](03-recap-intro.md)
