@@ -39,7 +39,11 @@ Lo que hace `Git` es tomar una 'imagen' del estado de todos sus archivos en ese 
 
 ## ¿Qué es Github?
 
+>En resumen, se podría decir que `Github` es como Dropbox pero para **developers**.  
 
+`Github` es la 'red social' de los developers, una gran cantidad de developers suben sus proyectos aquí porque te permite crear `repositorios` que tendrán siempre un copia de tu código y que podrás acceder mediante `git`.
+
+GitHub es una 'nube' en la que podrás alojar tus proyectos utilizando el `Sistema de Control de Versiones: Git`. Nuestro código se almacenará de forma pública, aunque también se puede almacenar de forma privada, esta opción aparece si es que tenemos una cuenta pagada.
 
 ## Cómo crear una cuenta en Github
 Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
@@ -88,16 +92,27 @@ Ahora instalaremos `Git`:
   !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
 
 
-Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.
+Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.  
 
-1. Lo primero que debemos de hacer es establecer nuestro **username** y **dirección de correo** debido a que `Git` utilizará estos datos para la confirmación de cambios (o como los conoceremos más adelante: `commits`), podemos configurar estos datos por medio del comando `git config`, este, nos permite obtener y establecer variables de configuración, que controlan el aspecto y funcionamiento de `Git` como por ejemplo, si ejecuto el comando `git config --list` en mi terminal me devuelve esto:
+Lo primero que debemos de hacer es establecer nuestro **username** y **dirección de correo** debido a que `Git` utilizará estos datos para la confirmación de cambios (o como los conoceremos más adelante: `commits`), podemos configurar estos datos por medio del comando `git config`, este, nos permite obtener y establecer variables de configuración, que controlan el aspecto y funcionamiento de `Git` como por ejemplo, si ejecuto el comando `git config --list` en mi terminal me devuelve esto:
+
 ```js
   user.name = michellesegv
   user.email = michelle@laboratoria.la
-  core.editor = brackets
-```
-Que vienen a ser los datos que ya he configurado.
+```  
+Que vienen a ser los datos que ya he configurado.  
 
-  A
+Estos datos los podemos configurar por medio de los comandos:  
 
+- Para configurar nuestro username debemos escribir la siguiente línea con nuestros datos y luego presionaremos la tecla 'enter':
+
+  >$ git config --global user.name "Tu username"  
+
+- Para configurar nuestro correo debemos escribir la siguiente línea con nuestros datos y luego presionaremos la tecla 'enter':
+
+  >$ git config --global user.email tucorreo@gmail.com
+
+Los datos que llenes las líneas anteriores deben de ser los mismo con los que creaste tu cuenta de `Github`, porque como te comentaba, con ellos se registrarán los `commits` que hagas.
+
+## ¿Cuál es la diferencia entre Git y Github ?
 [Continuar](03-recap-intro.md)
