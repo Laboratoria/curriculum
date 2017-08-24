@@ -24,9 +24,22 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 
 ## ¿Qué es Git?
 
-`Git` es un sistema de control de versiones
+`Git` es un sistema de control de versiones.
 
-## Control de versiones
+> **¿Qué es el `Sistema de Control de Versiones`?**  
+El `Sistema de Control de Versiones (VCS en inglés)` es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante necesitamos una versión podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:
+![''](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
+Gracias al VCS podemos evitar que eso nos suceda con nuestros proyectos o archivos, el VCS permite revertir los archivos a un estado anterior, revertir todo el proyecto a un estado anterior, comparar cambios que se hayan hecho, ver quién introdujo un problema y cuándo, y muchas cosas más.  Usando un VCS el perder algún archivo no es un problema, debido a que lo podemos recuperar fácilmente.
+
+`Git` es un `Sistema de Control de Versiones` que nos ayudará a guardar y diferenciar todos los cambios que haremos durante el desarrollo de un proyecto, ya sea en uno o más archivos.
+
+
+Lo que hace `Git` es tomar una 'imagen' del estado de todos sus archivos en ese momento y almacena una referencia a esa 'imagen'. Para ser eficiente, si los archivos no han cambiado, Git no almacena el archivo de nuevo, sólo un enlace al archivo idéntico anterior que ya ha almacenado. Git piensa en sus datos más como un flujo de 'imágenes'.  
+![''](http://fotos.subefotos.com/f7fc159919687104bb23335ea9d52555o.png)
+
+## ¿Qué es Github?
+
+
 
 ## Cómo crear una cuenta en Github
 Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
