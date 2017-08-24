@@ -27,7 +27,7 @@ imaginemos una función que salude a alguien por su nombre. Todos sabemos cómo
 crear una función simple de saludo que toma un nombre y un saludo, y registra el
 saludo con el nombre:
 
-```javascript
+```js
 const greet = (greeting, name) => `${greeting}, ${name}`
 
 test('Should say Hello', () => {
@@ -43,7 +43,7 @@ saludar.
 
 ## Nuestro primer _curry_
 
-```javascript
+```js
 const greetCurried = greeting => name => `${greeting}, ${name}`
 ```
 
@@ -51,7 +51,7 @@ Este pequeño ajuste a la forma en que escribimos la función anterior nos permi
 crear una nueva función para cualquier tipo de saludo, y pasar a esa nueva
 función el nombre de la persona que queremos saludar:
 
-```javascript
+```js
 test('Should allow to reuse functions', () => {
   const greetHello = greetCurried('Hello')
 
@@ -64,7 +64,7 @@ También podemos llamar a la función en modo _curry_ original directamente,
 simplemente pasando cada uno de los parámetros en un conjunto separado de
 paréntesis, uno después del otro:
 
-```javascript
+```js
 test('Should work with all the parameters', () => {
   expect(greetCurried('Hi there')('Howard')).toBe('Hi there, Howard')
 })
@@ -76,7 +76,7 @@ Lo bueno es que ahora que hemos aprendido a modificar nuestra función
 tradicional para usar este enfoque para manejar los argumentos, podemos hacerlo
 con tantos argumentos como queramos:
 
-```javascript
+```js
 const greetDeeplyCurried = greeting =>
   separator =>
     emphasis =>
@@ -89,7 +89,7 @@ lejos que vaya el anidamiento, podemos crear nuevas funciones personalizadas
 para saludar a tantas personas como escojamos de tantas maneras como nos
 convenga:
 
-```javascript
+```js
 test('Should allow nested calls', () => {
   const greetAwkwardly = greetDeeplyCurried('Hello')('...')('?')
 
@@ -103,7 +103,7 @@ personalizadas de nuestra función _curry_ original, creando nuevas funciones qu
 son capaces de tomar el número apropiado de parámetros adicionales, cada uno se
 pasa por separado en su propio conjunto de paréntesis:
 
-```javascript
+```js
 test('Other variations', () => {
   const sayHello = greetDeeplyCurried('Hello')(', ')
 
@@ -113,7 +113,7 @@ test('Other variations', () => {
 
 Y se pueden definir variaciones subordinadas:
 
-```javascript
+```js
   const askHello = sayHello('?')
 
   expect(askHello('Heidi')).toBe('Hello, Heidi?')
@@ -145,7 +145,7 @@ fue escrita sin todas las devoluciones anidadas (_uncurried form_). Nuestra
 función de orden superior debe retornar otra función que espera un solo
 argumento,...
 
-```javascript
+```js
 const curryIt = f => x => {
   // ...
 }
@@ -156,7 +156,7 @@ argumentos esperados (`Function.length`) por la función _uncurried_ es igual o
 menor a 1, de ser así ejecuta dicha función, esta condición particular también
 nos servirá como condición de parada en nuestra llamada recursiva.
 
-```javascript
+```js
 const curryIt = f => x => {
   if (f.length <= 1) {
     f(x)
@@ -172,7 +172,7 @@ la recursión y aplicar de nuevo nuestra función de orden superior, en este
 de `Function.prototype.bind()`, a la función _uncurried_ excepto por su
 parámetro inicial. Algo similar a los siguiente:
 
-```javascript
+```js
 // función uncurried
 const greet = (greeting, name) => `${greeting}, ${name}`
 // función equivalente a excepción del argumento inicial
@@ -183,7 +183,7 @@ greetWithGreeting('Heidi')
 
 Sin mayor preámbulo veamos el resultado final de nuestra función `curryIt`:
 
-```javascript
+```js
 const curryIt = f => x => f.length <= 1 ? f(x) : curryIt(f.bind(null, x))
 ```
 
@@ -192,7 +192,7 @@ número de argumentos, junto con tantos de los argumentos como queremos
 pre-poblar. Lo que recuperamos es una función que está a la espera de los
 argumentos restantes:
 
-```javascript
+```js
 const greeter = (greeting, separator, emphasis, name) =>
   `${greeting}${separator}${name}${emphasis}`
 
@@ -207,7 +207,7 @@ Y al igual que antes, no estamos limitados en términos del número de argumento
 que queremos utilizar al construir funciones derivadas de nuestra función
 original que usa _curry_:
 
-```javascript
+```js
   const greetGoodbye = curryIt(greeter)('Goodbye')(', ')
 
   expect(greetGoodbye('.')('Joe')).toBe('Goodbye, Joe.')
@@ -263,7 +263,8 @@ nombrar y manejar los argumentos de la función.
 * [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 * [Function.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length)
 * [Frequently Asked Questions for comp.lang.functional](http://www.cs.nott.ac.uk/~pszgmh/faq.html#currying)
-* [Currying - Part 6 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=iZLP4qOwY8I) por Mattias P Johansson
+* [Currying - Part 6 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=iZLP4qOwY8I)
+  por Mattias P Johansson
 
 [Ramda]: http://ramdajs.com/
 [currying]: https://www.sitepoint.com/currying-in-functional-javascript/

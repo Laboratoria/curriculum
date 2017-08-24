@@ -16,7 +16,7 @@ esperados.
 Quizá la mejor manera para explicar este concepto es verlo directamente en
 acción, imagina la siguiente función:
 
-```javascript
+```js
 const greetPart = greeting => name => `${greeting}, ${name}`
 
 const greetHello = greetPart('Hello')
@@ -38,7 +38,7 @@ ejecución, dado el número remanente de parámetros.
 
 Una función que parcialmente aplica su primer argumento puede ser la siguiente:
 
-```javascript
+```js
 const greet = (greeting, name) => `${greeting}, ${name}`
 
 const partial1 = (fun, arg1) =>
@@ -58,7 +58,7 @@ De nuevo hemos logrado recrear la operación de la función `greetHello` al
 componer una función a partir de otra dado un argumento previo de
 "configuración", de igual manera pudimos haber hecho lo siguiente:
 
-```javascript
+```js
 const partial2 = (fun, arg1, arg2) =>
   (...args) => {
     const params = Array.prototype.concat(arg1, arg2, args)
@@ -76,7 +76,7 @@ estrategia de composición. Afortunadamente, la implementación de la función
 `partial` no es significativamente más compleja que `partial1` y `partial2`. De
 hecho, aplicaremos la misma base:
 
-```javascript
+```js
 const partial = (fun, ...args) =>
   (...newArgs) => {
     const params = Array.prototype.concat(args, newArgs)
@@ -97,7 +97,7 @@ llamada final.
 Es importante hacer mencionar que podemos realizar aplicación parcial de manera
 sucinta por medio de `bind`, por ejemplo:
 
-```javascript
+```js
 const greeter = (greeting, separator, emphasis, name) =>
   `${greeting}${separator}${name}${emphasis}`
 const greetHello = greeter.bind(null, 'Hello', ', ', '.')
@@ -110,7 +110,7 @@ parcialmente aplicando espera un número fijo de argumentos, el hecho que pueda
 aceptar cualquier cantidad de argumentos a veces puede causar confusión, fijate
 en el siguiente ejemplo:
 
-```javascript
+```js
 greeter.bind(null, 'Hello', ', ', '.', 'Heidi', 'how', 'are', 'you', '?')()
 // => 'Hello, Heidi.'
 ```

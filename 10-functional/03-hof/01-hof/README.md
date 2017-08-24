@@ -35,7 +35,7 @@ grande (generalmente de un número) en una lista o una matriz.
 De hecho, el mismo [Lodash](https://lodash.com) o [Ramda](http://ramdajs.com/)
 tiene una función que realiza esta misma tarea:
 
-```javascript
+```js
 > const _ = require('lodash')
 > _.max([1, 2, 3, 4, 5]);
 5
@@ -53,7 +53,7 @@ Este segundo argumento es, como habrás adivinado, una función que se utiliza
 para generar un valor numérico del objeto que se le suministra. Por
 ejemplo:
 
-```javascript
+```js
 > const people = [{name: "Fred", age: 65}, {name: "Lucy", age: 36}]
 > _.max(people, p => p.age)
 { name: 'Fred', age: 65 }
@@ -69,7 +69,7 @@ Sin embargo, podemos crear una nueva función, `finder`, que tome dos funciones:
 una que construya el valor comparable y la otra que compare dos valores y
 retorne el "mejor" valor de los dos. La implementación de `finder` es:
 
-```javascript
+```js
 const finder = (valueFun, bestFun, coll) =>
   _.reduce(coll, (best, current) => {
     const bestValue = valueFun(best)
@@ -81,7 +81,7 @@ const finder = (valueFun, bestFun, coll) =>
 Ahora, usando la función `finder`, la operación `_.max` se puede
 simular de la siguiente forma:
 
-```javascript
+```js
 > finder(_.identity, Math.max, [1, 2, 3, 4, 5])
 5
 ```
@@ -94,7 +94,7 @@ funciones.
 En cualquier caso, ahora podemos usar `finder` para usar diferentes tipos de
 funciones que mejor se acoplan a cada caso:
 
-```javascript
+```js
 > const plucker = field => obj => obj && obj[field]
 > finder(plucker('age'), Math.max, people)
 { name: 'Fred', age: 65 }
@@ -109,7 +109,7 @@ alguna lógica para aportar máxima flexibilidad. Observa una similitud en la
 implementación de `finder` y la lógica de comparación para la función de primera
 clase de _best-value_:
 
-```javascript
+```js
 // en finder
 return (bestValue === bestFun(bestValue, currentValue)) ? best : current
 
@@ -123,12 +123,12 @@ implementación de `finder` puede ser ajustada haciendo dos
 suposiciones:
 
 * La función _best-value_ devuelve `true` si el primer argumento es "mejor" que
-el segundo argumento
+  el segundo argumento
 * Que la función _best-value_ sabe cómo "descubrir" sus argumentos
 
 Teniendo en cuenta estas suposiciones, se logra la siguiente implementación:
 
-```javascript
+```js
 const best = (fun, coll) => _.reduce(coll, (x, y) => fun(x, y) ? x : y)
 > best((x, y) => x > y, [1, 2, 3, 4, 5])
 5
@@ -150,14 +150,14 @@ superior que devuelven (y a veces también toman) funciones y cierres/closures.
 Para empezar, definamos `repeatedly`, una función que repite un cálculo
 computacional dado por otra función cierto número de veces.
 
-```javascript
+```js
 const repeatedly = (times, fun) => _.map(_.range(times), fun)
 ```
 
 Utilicemos una función que ignore sus argumentos y en su lugar
 devuelve una constante y con ella alimentemos a `repeatedly`:
 
-```javascript
+```js
 > repeatedly(3, () => "Odelay!")
 ["delay!", "Odelay!", "Odelay!"]
 ```
@@ -167,7 +167,7 @@ patrón de diseño para la programación funcional y a menudo se llama simplemen
 `k`. Sin embargo, en aras de la claridad, lo llamaremos `always`; Se implementa
 de la siguiente manera:
 
-```javascript
+```js
 const always = value => () => value
 ```
 
@@ -175,7 +175,7 @@ La operación `always` es útil para ilustrar algunos puntos sobre
 closures/cierres. Primero, un cierre captura un solo valor (o referencia) y
 devuelve repetidamente el mismo valor:
 
-```javascript
+```js
 > let f = always(function(){})
 > f() === f()
 true
@@ -191,7 +191,7 @@ una forma rápida de garantizar que se generan valores únicos. Teniendo esto en
 mente, una segunda nota importante acerca de los cierres es que cada nuevo
 cierre captura un valor diferente que todos los demás:
 
-```javascript
+```js
 let g = always(function(){})
 
 f() === g()
@@ -204,7 +204,7 @@ confusión.
 Seguimos adelante con la explicación, conectar a `always` como un reemplazo
 para la función anónima que usamos previamente es un poco más sucinto:
 
-```javascript
+```js
 repeatedly(3, always("Odelay!"))
 //=> ["Odelay!", "Odelay!", "Odelay!"]
 ```
@@ -217,7 +217,7 @@ Sin embargo, antes de seguir adelante, mostraremos la implementación de otra
 función-retorna-función, `invoker`, que toma un método y devuelve una función que
 invocará ese método en cualquier objeto dado. Observalo a continuación:
 
-```javascript
+```js
 // Helpers
 const existy = x => x != null
 const truthy = x => (x !== false) && existy(x)
@@ -248,7 +248,7 @@ Sin embargo, en lugar de devolver una constante, `invoker` realiza alguna
 acción especializada basada en el valor de la llamada original. El uso del
 `invoker` es el siguiente:
 
-```javascript
+```js
 const rev = invoker('reverse', Array.prototype.reverse)
 
 _.map([[1,2,3]], rev)

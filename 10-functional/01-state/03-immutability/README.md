@@ -27,7 +27,7 @@ puede ser cambiado.
 
 **strings.test.js.**
 
-```javascript
+```js
 test('should not change the value of the original string', () => {
   const lesson = 'immutability'
 
@@ -39,7 +39,7 @@ test('should not change the value of the original string', () => {
 Si ejecutamos las pruebas anteriores veremos que el valor original de la cadena
 (`immutability`) no es modificado tras la operación ejecutada:
 
-```console
+```sh
 $ yarn run jest strings.test.js
 PASS  ./strings.test.js
 ✓ should not change the value of the original string (5ms)
@@ -72,7 +72,7 @@ funcional.
 En algunos lenguajes funcionales no puedes escribir la siguiente función
 haciendo uso de mutación local:
 
-```javascript
+```js
 const range = require('lodash.range')
 
 const summ = array => {
@@ -97,7 +97,7 @@ para modificar el valor de una variable local es por medio del _call stack_, y
 esto es lo que precisamente logramos con la recursión. Veamos una
 reimplementación de la función previa usando recursividad:
 
-```javascript
+```js
 const range = require('lodash.range')
 const isEmpty = require('lodash.isempty')
 
@@ -135,7 +135,7 @@ lo contrario, cualquier mutación fallará silenciosamente.
 
 El método `freeze` funciona como sigue a continuación:
 
-```javascript
+```js
 let a = [1, 2, 3]
 a[1] = 42
 a // => [1, 42, 3]
@@ -146,7 +146,7 @@ Object.freeze(a)
 Un _array_ normal es mutable por omisión, pero después de llamar a
 `Object#freeze`, lo que ocurre es lo siguiente:
 
-```javascript
+```js
 a[1] = 108
 a // => [1, 42, 3]
 ```
@@ -155,7 +155,7 @@ Esto es, la mutación que se intentó hacer sobre el _array_ no tuvo efecto.
 También podemos hacer uso del método `Object#isFrozen` para verificar si el
 _array_ está congelado:
 
-```javascript
+```js
 Object.isFrozen(a)
 // => true
 ```
@@ -176,7 +176,7 @@ Ahora bien, el otro argumento en contra de `Object#freeze` es una operación
 _shallow_. Esto es, `freeze` solo aplicará en el nivel superior de la estructura
 de datos y no recorrerá niveles anidados. Por ejemplo:
 
-```javascript
+```js
 let x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
 
 Object.freeze(x)
@@ -189,7 +189,7 @@ x
 El intento de modificación del _array_ falla. Sin embargo, realizar una mutación
 de una porción anidada dentro de dicho arreglo es posible:
 
-```javascript
+```js
 x[1]['c']['d'] = 100000
 x
 // => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: 100000 } } ]
@@ -198,7 +198,7 @@ x
 Para aplicar un congelamiento profundo sobre un objecto, tendremos que usar
 recursión para recorrer la estructura de datos:
 
-```javascript
+```js
 const _ = require('lodash')
 
 const deepFreeze = obj => {
@@ -217,7 +217,7 @@ const deepFreeze = obj => {
 
 Ahora, podemos usar `deepFreeze` y esperar el comportamiento adecuado:
 
-```javascript
+```js
 const x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
 deepFreeze(x)
 x[0] = null
@@ -243,21 +243,21 @@ opciones se ven reducidas a las siguientes:
 
 Ya esto lo hemos mencionado, pero vale la pena ahondar en ello:
 
-```javascript
+```js
 let initial = ['hello']
 let greeting = initial.push('world')
 ```
 
 Podríamos asumir que el resultado sería el siguiente:
 
-```javascript
+```js
 initial = ['hello']
 greeting = ['hello', 'world']
 ```
 
 Parece lógico, ¿no?, pues resulta que en realidad el resultado es el siguiente:
 
-```javascript
+```js
 initial = ['hello', 'world']
 greeting = 2
 ```
@@ -271,7 +271,7 @@ Ahora imagina por un momento que tenemos un tipo de dato denominado
 `ImmutableArray` y tiene un comportamiento similar a las cadenas de caracteres
 y números:
 
-```javascript
+```js
 const initial = new ImmutableArray(['hello'])
 const greeting = initial.push('world')
 
@@ -284,7 +284,7 @@ establecimiento de nuevas propiedades sobre el objeto o mapa en realidad no
 establece el valor _in situ_, en vez de ello devuelve un nuevo objeto con los
 cambios deseados:
 
-```javascript
+```js
 const firstOrder = new ImmutableMap({name: 'Julia', details: 'espresso macchiato'})
 const newOrder = firstOrder.set('details': 'doppio')
 
@@ -300,7 +300,7 @@ Si quisieramos incluir este tipo de estructuras de datos en nuestras
 aplicaciones al menos por ahora debemos recurrir a bibliotecas externas, por
 ejemplo, haciendo uso de [immutable.js][] tendríamos lo siguiente:
 
-```javascript
+```js
 const Map = require('immutable')
 const firstOrder = Map({name: 'Julia', details: 'espresso macchiato'})
 const newOrder = firstOrder.set('details': 'doppio')
@@ -340,7 +340,6 @@ Una manera eficiente de reducir el número de operaciones necesarias para
 actualizar la UI es utilizar estructuras de datos que cumplan con las siguientes
 condiciones:
 
-
 * Inmutables: Una vez creadas, una colección no puede ser alterada en ningún
   otro momento.
 * Persistente: Nuevas colecciones pueden ser creadas a partir de previas, (ej.
@@ -355,7 +354,7 @@ siempre resultará en un nuevo objeto, por lo que solo es necesario verificar si
 la referencia al objeto ha cambiado. Por ejemplo, en este ejemplo de código
 regular JavaScript:
 
-```javascript
+```js
 const x = { foo: 'bar' };
 const y = x;
 y.foo = 'baz';
@@ -366,7 +365,7 @@ Sin embargo, `y` fue editada, dado que es una referencia al mismo objeto `x`,
 esta comparación retorna `true`. Podemos escribir código similar con
 immutable.js:
 
-```javascript
+```js
 const SomeRecord = Immutable.Record({ foo: null });
 const x = new SomeRecord({ foo: 'bar' });
 const y = x.set('foo', 'baz');
@@ -384,7 +383,8 @@ nuevo valor se ha almacenado en `y` y es diferente al original almacenado en
 
 * [Object.freeze()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 * [Immutability in JavaScript](https://www.sitepoint.com/immutability-javascript/)
-* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) de Michael Fogus
+* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) de
+  Michael Fogus
 * [React: Optimizing Performance](https://facebook.github.io/react/docs/optimizing-performance.html)
 
 [push]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push

@@ -14,17 +14,16 @@ casi todos los lenguajes de programación.
 A lo largo de esta lección veremos que la recursión es importante para la
 programación funcional por las siguientes razones:
 
-- Las soluciones recursivas envuelven el uso de abstracciones simples aplicadas
+* Las soluciones recursivas envuelven el uso de abstracciones simples aplicadas
   a subconjuntos de un problema común.
-- La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
+* La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
   la mutación de estado en las lecciones de [Funciones
   puras](../01-pure-functions/README.html) e
   [Inmutabilidad](../02-immutability/README.html).
-- La recursión es una manera de implementar *lazyness* y estructuras muy largas
+* La recursión es una manera de implementar *lazyness* y estructuras muy largas
   o infinitas.
 
-Factorial
-=========
+## Factorial
 
 Este es el ejemplo clásico para entender la recursividad: **factoriales.**
 
@@ -34,7 +33,7 @@ el para cada entero positivo.
     n! = n * (n - 1) * (n - 2) ... 3 * 2 * 1
     n! = n * [(n - 1) * (n - 2) ... 3 * 2 * 1] = n * (n - 1)!
 
-Así que el factorial de 5 es igual a 5 \* 4 \* 3 \* 2 \* 1, lo que nos da como
+Así que el factorial de 5 es igual a `5 * 4 * 3 * 2 * 1`, lo que nos da como
 resultado 120.
 
     5! = 5 * 4 * 3 * 2 * 1 = 120
@@ -48,7 +47,7 @@ En principo desarrollemos, como ya hemos viniendo haciendo, el caso de prueba:
 
 **factorial.test.js.**
 
-``` javascript
+```js
 const factorial = require('./factorial')
 
 test('Should calculate the factorial of the given number', () => {
@@ -61,7 +60,7 @@ siguiente:
 
 **factorial.js.**
 
-``` javascript
+```js
 const factorial = n => {
   if (n === 0) {
     return 1
@@ -76,7 +75,7 @@ module.exports = factorial
 
 Demostremos que nuestra implementación cumple con el caso de prueba:
 
-``` console
+```sh
 $ yarn run jest -- factorial.test.js
 
 PASS  ./factorial.test.js
@@ -91,13 +90,11 @@ Ran all test suites matching "factorial.test.js".
 Done in 1.12s.
 ```
 
-Tarea
------
+### Tarea
 
 Utiliza la misma función `factorial()` pero en este caso para el entero 10.
 
-Caso base, caso recursivo
-=========================
+## Caso base, caso recursivo
 
 Hay características claves de la recursión que deben incluirse en tu código para
 que funcione correctamente.
@@ -116,7 +113,7 @@ Mira bien el código del ejemplo a continuación:
 
 **factorial.js.**
 
-``` javascript
+```js
 const factorial = n => {
   // Este es nuestro caso base - cuando n es igual a 0, se detiene la recursión
   // Devolvemos 1 pues es el elemento neutro de la multiplicación
@@ -137,8 +134,7 @@ module.exports = factorial
 Como ejercicio puedes llamar la función `factorial()` usando cualquier número
 entero positivo.
 
-Condición de terminación
-========================
+## Condición de terminación
 
 Otra característica útil (y a menudo necesaria) de una función recursiva es la
 **condición de terminación**.
@@ -157,7 +153,7 @@ Agreguemos un caso de prueba para demostrar lo indicado en el párrafo anterior:
 
 **factorial.test.js.**
 
-``` javascript
+```js
 const factorial = require('./factorial.verbose')
 
 test('Should calculate the factorial of the given number', () => {
@@ -173,7 +169,7 @@ test('Should not accept negative values', () => {
 
 Si ejecutamos nuestras pruebas obtendremos lo siguiente:
 
-``` console
+```sh
 $ yarn run jest -- factorial.test.js
 
 FAIL  ./factorial.test.js
@@ -208,7 +204,7 @@ manejarla correctamente.
 
 **factorial.js.**
 
-``` javascript
+```js
 const factorial = n => {
   if (n < 0) {
     // Condición de terminación para prevenir recursividad infinita
@@ -229,7 +225,7 @@ module.exports = factorial
 
 Ejecutemos ahora nuestras pruebas:
 
-``` console
+```sh
 $ yarn run jest -- factorial.test.js
 
  PASS  ./factorial.test.js
@@ -248,15 +244,13 @@ Done in 1.29s.
 Todo parece indicar que la condición de terminación nos ha servido para
 solventar el error antes presentado.
 
-Tarea
------
+### Tarea
 
 Puedes intentar describir un nuevo escenario de prueba para ver qué sucede
 cuando se pasa un valor no válido a la función `factorial()`. Al encontrar una
 falla, puedes intentar mejorar la implementación de la función `factorial()`.
 
-Argumentos en la recursión
-==========================
+## Argumentos en la recursión
 
 Cuando empieces a construir tu caso recursivo (el código que se repetirá), una
 de las reglas es asegurarse que los argumentos que utiliza para la recursión
@@ -271,7 +265,7 @@ argumentos de tal manera que cada recursión lo acerca más al caso base?
 
 **factorial.js.**
 
-``` javascript
+```js
 const factorial = n => {
   // Condición de terminación para prevenir la recursión infinita
   if (n < 0) {
@@ -289,10 +283,9 @@ const factorial = n => {
 factorial(6)
 ```
 
--   ¿Qué está mal? ¿Por qué no funciona la recursión?
+* ¿Qué está mal? ¿Por qué no funciona la recursión?
 
-Tarea
------
+### Tarea
 
 Ejecuta el código del ejemplo anterior.
 
@@ -304,23 +297,21 @@ cámbiala para que el factorial funcione correctamente.
 Utiliza los casos de pruebas antes mostrados para ver que todo funcione
 correctamente.
 
-Ahora es tu turno
-=================
+## Ahora es tu turno
 
 Ahora que hemos cubierto lo esencial, trata de reconstruir la función
 `factorial()` en la que hemos estado trabajando, pero esta vez escríbelo todo
 desde cero. Para ayudarte, aquí hay cinco preguntas que puedes utilizar siempre
 que vayas a incluir la recursión en tu código:
 
-- ¿Cuáles son los casos básicos?
-- ¿Cuál es el caso recursivo?, ¿hay más de un caso recursivo?
-- ¿He incluido alguna otra condición de terminación necesaria?
-- ¿Las declaraciones de la función conducen al caso base?
-- ¿Se construye la recursión en el caso base hasta que el resultado deseado es
+* ¿Cuáles son los casos básicos?
+* ¿Cuál es el caso recursivo?, ¿hay más de un caso recursivo?
+* ¿He incluido alguna otra condición de terminación necesaria?
+* ¿Las declaraciones de la función conducen al caso base?
+* ¿Se construye la recursión en el caso base hasta que el resultado deseado es
   devuelto por la función?
 
-Plantilla
----------
+### Plantilla
 
 Define el caso base. Dado que un factorial significa multiplicar un entero por
 cada entero entre él mismo y uno, el caso base es uno.
@@ -333,7 +324,7 @@ argumentos que puedan dar error.
 
 **factorial.js.**
 
-``` javascript
+```js
 const factorial = n => {
   // Aquí va tu código.
 }
@@ -344,7 +335,7 @@ compartiste tus resultados con tus amigas, una compañera mientras hacia revisi�
 de tú código encontró un comportamiento extraño, su caso de prueba fue el
 siguiente:
 
-``` console
+```sh
 > factorial(32768)
 RangeError: Maximum call stack size exceeded
 ```
@@ -357,8 +348,7 @@ Ahora bien, para poder resolver este problema, primero debemos dejar claro un
 concepto que no habíamos explicado anteriormente, definamos entonces qué es la
 pila de llamadas o *Call Stack*.
 
-Pila de llamadas (Call Stack)
-=============================
+## Pila de llamadas (Call Stack)
 
 Sería útil examinar más de cerca la forma en que se maneja el control a través
 de las funciones. Aquí está un programa simple que hace algunas llamadas a
@@ -366,7 +356,7 @@ funciones:
 
 **greet.**
 
-``` javascript
+```js
 function greet(who) {
   console.log("Hello " + who)
 }
@@ -374,14 +364,14 @@ greet("Harry")
 console.log("Bye")
 ```
 
-- La llamada a `greet` hace que el control salte al inicio de esa función (línea
+* La llamada a `greet` hace que el control salte al inicio de esa función (línea
   2).
-- Se hace una llamada a `console.log` (una función predeterminada del
+* Se hace una llamada a `console.log` (una función predeterminada del
   navegador), esta función toma el control, hace su trabajo, devuelve el control
   a la línea 2.
-- Entonces llega al final de la función `greet`, así que el control se vuelve al
+* Entonces llega al final de la función `greet`, así que el control se vuelve al
   lugar de la llamada, en la línea 4.
-- La línea siguiente llama a `console.log` de nuevo (línea 5).
+* La línea siguiente llama a `console.log` de nuevo (línea 5).
 
 Veamos otra representación de lo mencionado previamente, mostraremos un esquema
 de cómo fluye el control en la función:
@@ -414,7 +404,7 @@ esto causa llamadas infinitas hacia adelante y hacia atrás entre dos funciones.
 Como la computadora no tiene una pila infinita, se queda sin espacio, y sucede
 que "explotamos la pila".
 
-``` javascript
+```js
 function chicken() {
   return egg()
 }
@@ -430,8 +420,7 @@ partir de ciertos enteros positivos nuestra pila de llamadas crece demasido y
 obtenemos el error: *Maximum call stack size exceeded*. Veamos entonces si
 podemos solventar dicho error.
 
-Tail-call Optimization
-======================
+## Tail-call Optimization
 
 La optimización de llamadas de cola o *tail-call optimization* es una
 característica del compilador que reemplaza las invocaciones de funciones
@@ -446,7 +435,7 @@ invocación de la función recursiva. Si revisamos con detenimiento nuestra
 función `factorial` podremos apreciar que nuestra llamada recursiva es como
 sigue:
 
-``` javascript
+```js
 return n * factorial(n - 1)
 ```
 
@@ -457,7 +446,7 @@ como sigue:
 
 **factorial.js.**
 
-``` javascript
+```js
 'use strict'
 const factorial = (n, acc = 1) => {
   if (n < 0) {
@@ -503,8 +492,7 @@ recursión. Anteriormente el caso base para la función `factorial` es cuando n 
 `factorial` es también cuando n = 0, pero en lugar de retornar 1, se devuelve el
 valor acumulado o `acc`.
 
-Tarea
------
+### Tarea
 
 Nuestra nueva implementación de `factorial` igualmente tiene un problema, si
 bien hacemos uso de una característica de ES2015, la cual es la definición de
@@ -515,16 +503,15 @@ código, ¿el resultado es correcto?
 
 Un modo de corregir la nueva implementación es siguiendo la siguientes consejos:
 
-Estrategia para la optimización de llamadas de cola
----------------------------------------------------
+### Estrategia para la optimización de llamadas de cola
 
 Utiliza esta estrategia para crear funciones recursivas optimizadas:
 
-- Crear una función recursiva interna que tenga un parámetro acumulador
+* Crear una función recursiva interna que tenga un parámetro acumulador
   adicional
-- El caso base de la función recursiva interna será devolver el acumulador
-- La invocación recursiva proporciona un valor actualizado para el acumulador
-- La función externa delega a la función recursiva interna usando los valores
+* El caso base de la función recursiva interna será devolver el acumulador
+* La invocación recursiva proporciona un valor actualizado para el acumulador
+* La función externa delega a la función recursiva interna usando los valores
   iniciales apropiados
 
 Sigue estas estrategias y tus funciones recursivas serán óptimas, proporcionando
@@ -545,7 +532,7 @@ ejemplo que nos dio nuestra amiga:
 
 **factorial.test.js.**
 
-``` javascript
+```js
 const factorial = require('./factorial.tail')
 
 test('Should calculate the factorial of the given number', () => {
@@ -567,7 +554,7 @@ test('Should avoid too much recursion', () => {
 
 Si ejecutamos nuestras pruebas obtendremos un resultado similar al siguiente:
 
-``` console
+```sh
 $ yarn run jest -- factorial.test.js
 
  FAIL  ./factorial.tail.test.js
@@ -618,8 +605,7 @@ Ahora que sabemos que la mayoría de las implementaciones de JavaScript no
 implementan todavía la *tail-call optimization* es necesario ver si existen
 otras alternativas con las cuales podamos solventar el error antes visto.
 
-Trampolining
-============
+## Trampolining
 
 ¿Cómo podemos optimizar las funciones de JavaScript recursivas sin la
 optimización de llamadas de cola? Una opción es volver a escribir su función
@@ -627,7 +613,7 @@ recursiva en forma de bucle.
 
 Función factorial escrita usando estructura de datos de control:
 
-``` javascript
+```js
 const factorial = n => {
   let acc = 1
   for (let i = n; i > 0; i--) {
@@ -655,12 +641,11 @@ programación orientados al uso de pilas.
 
 Pero es más fácil de lo que parece en la teoría, como veremos a continuación.
 
-Un simple trampolín
--------------------
+### Un simple trampolín
 
 Veamos una implementación simple de trampolín:
 
-``` javascript
+```js
 const trampoline = f => {
   while (f && f instanceof Function) {
     f = f.apply(f.context, f.args)
@@ -673,7 +658,7 @@ El trampolín toma una función y ejecuta repetidamente el valor de retorno hast
 que se devuelve un resultado distinto al de una función. Uno se siente tentado a
 usar el trampolín de la siguiente manera:
 
-``` javascript
+```js
 const factorial = (n) => {
   const recur = (n, acc) => n ? recur(n - 1, n * acc) : acc
 
@@ -684,7 +669,7 @@ const factorial = (n) => {
 Pero esto no produce la optimización deseada. ¿Por qué? Supongamos que se invoca
 la función factorial con n = 5. ¿Qué valor se le pasa al trampolín?
 
-```javascript
+```js
 recur(5, 1)
 ```
 
@@ -696,7 +681,7 @@ cola no está disponible en el entorno de JavaScript. ¿Qué salió mal?
 Teníamos la intención de invocar un trampolín con una función de referencia, no
 con un resultado de la función. Mientras que lo siguiente funciona
 
-```javascript
+```js
 return trampoline(Function() { recur(n, 1) })
 ```
 
@@ -708,7 +693,7 @@ lo tanto, mejora nuestra implementación de Factorial:
 
 Mejor pero no del todo óptima
 
-```javascript
+```js
 const factorial = n => {
   const recur = (n, acc) => n ? recur(n - 1, n * acc) : acc
 
@@ -718,7 +703,7 @@ const factorial = n => {
 
 Ahora invocamos el trampolín con la expresión:
 
-```javascript
+```js
 recur.bind(null, n, 1))
 ```
 
@@ -740,19 +725,20 @@ Esto se arregla fácilmente:
 
 Implementación optimizada de factorial:
 
-```javascript
+```js
 const factorial = n => {
   const recur = (n, acc) => n ? recur.bind(null, n - 1, n * acc) : acc
 
   return trampoline(recur.bind(null, n, 1));
 }
 ```
+
 Ahora el trampolín proporcionará el efecto deseado y continuará haciendo un
 bucle hasta que vuelva a devolver el valor acumulado.
 
 **factorial.js.**
 
-``` javascript
+```js
 'use strict'
 
 const isFunction = require('lodash.isfunction')
@@ -784,7 +770,7 @@ module.exports = factorial
 
 Tras este ultimo cambio ejecutemos nuestras pruebas.
 
-``` console
+```sh
 $ yarn run jest -- factorial.test.js
 
  PASS  ./factorial.safe.test.js
@@ -803,7 +789,7 @@ Done in 1.15s.
 Con esto ya hemos evitado saturar el *stack*. Sin embargo, el resultado es el
 siguiente:
 
-```console
+```sh
 > factorial(32768)
 Infinity
 ```
@@ -821,15 +807,15 @@ Infinity
 > [BigInteger.js](https://github.com/peterolson/BigInteger.js). Ejecutemos
 > entonces
 >
-> ``` console
-> $ yarn add --dev big-integer
+> ```sh
+> yarn add --dev big-integer
 > ```
 >
 > y ajustemos de nuevo nuestra implementación.
 
 **factorial.js.**
 
-``` javascript
+```js
 'use strict'
 
 const isFunction = require('lodash.isfunction')
@@ -862,7 +848,7 @@ module.exports = factorial
 
 Ahora podremos obtener una representación que nos funciona para números grandes:
 
-```console
+```sh
 > factorial(5)
 { [Number: 120] value: 120, sign: false, isSmall: true }
 > factorial(5) == 120
@@ -925,30 +911,29 @@ true
 Y dichos números grandes (`isSmall: false`) los podemos transformar a cadenas de
 caracteres de la siguiente manera:
 
-```console
+```sh
 > fact(180).toString()
 '200896062499134299656951336898466838917540340798867777940435335160044860953395980941180138112097309735631594101037399609671032132186331495273609598531966730972945653558819806475064353856858157445040809209560358463319644664891114256430017824141796753818192338642302693327818731986039603200000000000000000000000000000000000000000000'
 ```
 
-Otros ejercicios que puedes hacer
-=================================
+## Otros ejercicios que puedes hacer
 
-- Implementa la función `myLength`, la cual toma un *array* como entrada y
+* Implementa la función `myLength`, la cual toma un *array* como entrada y
   retorna la longitud de dicho *array* o número de elementos. Ejemplo:
   `myLength([1, 2, 3]) = 3`
-- Crea una función `cycle` que toma un número entero positivo y un *array* como
+* Crea una función `cycle` que toma un número entero positivo y un *array* como
   argumentos y crea un nuevo *array* que contendrá los elementos del *array* de
   entrada multiplicados tantas veces como indica el número entero positivo
   pasado como primer argumento. Ejemplo: `cycle(2, [1, 2, 3]) = [1, 2, 3, 1, 2,
   3]`
 
-Referencias
-===========
+## Referencias
 
-- [Recursion in JavaScript](https://www.codecademy.com/en/courses/javascript-lesson-205) por Code Academy
-- [The Call Stack](http://eloquentjavascript.net/03_functions.html#h_D2Yui+mx6D) de Marijn Haverbeke
-- [Functional Javascript](http://shop.oreilly.com/product/0636920028857.do) de Michael Fogus
-- [Functional JavaScript – Tail Call Optimization and Trampolines](https://taylodl.wordpress.com/2013/06/07/functional-javascript-tail-call-optimization-and-trampolines/)
-- [Trampolines in JavaScript](http://raganwald.com/2013/03/28/trampolines-in-javascript.html)
-
-
+* [Recursion in JavaScript](https://www.codecademy.com/en/courses/javascript-lesson-205)
+  por Code Academy
+* [The Call Stack](http://eloquentjavascript.net/03_functions.html#h_D2Yui+mx6D)
+  de Marijn Haverbeke
+* [Functional Javascript](http://shop.oreilly.com/product/0636920028857.do) de
+  Michael Fogus
+* [Functional JavaScript – Tail Call Optimization and Trampolines](https://taylodl.wordpress.com/2013/06/07/functional-javascript-tail-call-optimization-and-trampolines/)
+* [Trampolines in JavaScript](http://raganwald.com/2013/03/28/trampolines-in-javascript.html)

@@ -57,7 +57,7 @@ tendría múltiples trabajadores.
 La función `setTimeout` es probablemente la manera más sencilla de programar de
 forma asíncrona el código para que se ejecute en el futuro:
 
-```javascript
+```js
 // Diga "Hola."
 console.log("Hola.")
 // Diga "Adiós" en dos segundos contando desde este momento.
@@ -71,7 +71,7 @@ console.log("¡Hola de nuevo!")
 Si sólo está familiarizado con el código síncrono, puede esperar que el código
 anterior se comporte de la siguiente manera:
 
-```console
+```text
 Diga “Hola".
 No haga nada durante dos segundos.
 Diga ¡Adiós!"
@@ -81,7 +81,7 @@ Diga "¡Hola de nuevo!"
 Pero `setTimeout` no interrumpe la ejecución del código. Sólo programa algo que
 suceda en el futuro, y luego sigue inmediatamente a la siguiente línea.
 
-```console
+```sh
 Diga “Hola".
 Diga "¡Hola de nuevo!"
 No haga nada durante dos segundos.
@@ -95,7 +95,7 @@ es un problema común para los personas que están aprendiendo a programar y que
 están lidiando con el tema de las solicitudes AJAX en JavaScript. A menudo
 escriben código jQuery que se parece a algo como esto:
 
-```javascript
+```js
 const getData = () => {
   let data
   $.get("example.php", response => {
@@ -136,7 +136,7 @@ para proceder:
 En JavaScript, podemos crear funciones asíncronas que reciben otras funciones
 como argumentos, que se llamarán una vez que la tarea se haya completado.
 
-```javascript
+```js
 const data = getData()
 console.log("The data is: " + data)
 
@@ -152,7 +152,7 @@ llama y cómo se carga el parámetro `data`? En este momento, nada de esto está
 sucediendo; Tenemos que cambiar la función `getData`, así que sabrá que una
 función de respuesta de llamada es su parámetro.
 
-```javascript
+```js
 const getData = callback => {
   $.get("example.php", response => {
     callback(response)
@@ -169,7 +169,7 @@ Dado que `$.get` ya acepta una respuesta de llamada, no necesitamos crear
 manualmente otro en `getData`, podemos pasar directamente la respuesta de
 llamada que nos dieron:
 
-```javascript
+```js
 const getData = callback => {
  $.get("example.php", callback)
 }
@@ -190,24 +190,24 @@ complicado para trabajar, por lo que intentan hacer que todo sea sincrónico.
 Por ejemplo, en lugar de usar `setTimeout`, podría crear una función síncrona
 para no hacer nada durante un período de tiempo determinado:
 
-```javascript
+```js
 const pause = duration => {
   const start = new Date().getTime()
   while(new Date().getTime() - start < duration) {}
 }
 ```
 
-Del mismo modo, al realizar una llamada _ AJAX_, es posible establecer una
-opción para que la llamada sea síncrona en lugar de asíncrona (aunque esta
-opción pierde lentamente el soporte del navegador). También hay alternativas
-síncronas a muchas funciones asíncronas en Node.js.
+Del mismo modo, al realizar una llamada _AJAX_, es posible establecer una opción
+para que la llamada sea síncrona en lugar de asíncrona (aunque esta opción
+pierde lentamente el soporte del navegador). También hay alternativas síncronas
+a muchas funciones asíncronas en Node.js.
 
 Tratar de evitar código asíncrono y reemplazarlo con código síncrono es casi
 siempre una mala idea  porque _JavaScript_ sólo tiene un solo hilo (excepto
-cuando se utiliza _Web Workers_). Esto significa que la página web no
-responderá mientras se ejecuta el _script_. Si utilizas la función
-sincrónica `pause` o una llamada _AJAX_ síncrona, el usuario no podrá hacer
-nada mientras estén en ejecución.
+cuando se utiliza _Web Workers_). Esto significa que la página web no responderá
+mientras se ejecuta el _script_. Si utilizas la función sincrónica `pause` o una
+llamada _AJAX_ síncrona, el usuario no podrá hacer nada mientras estén en
+ejecución.
 
 El problema es aún peor cuando se utiliza _JavaScript_ en el servidor: el
 servidor no podrá responder a ninguna solicitud mientras espera que se
@@ -221,7 +221,7 @@ puedes encontrarte con algún comportamiento inesperado. Piensa en lo que
 esperarías que el código escrito a continuación hiciera, y luego intenta
 ejecutarlo en la consola _JavaScript_ de tu navegador.
 
-```javascript
+```js
 for(var i = 1; i <= 3; i++) {
   setTimeout(() => {
     console.log(i + " second(s) elapsed")
@@ -254,7 +254,7 @@ Hay varias soluciones a este problema, pero la más común es envolver la llamad
 a `setTimeout` en un _closure_, lo que creará un nuevo ámbito con una `i`
 diferente en cada iteración:
 
-```javascript
+```js
 for(var i = 1; i <= 3; i++) {
   (i => {
     setTimeout(() => {
@@ -268,7 +268,7 @@ Pero como estamos utilizando ECMAScript 2015, entonces una solución
 más elegante es usar `let` en lugar de `var`, ya que permite crear un nuevo
 ámbito para `i` en cada iteración:
 
-```javascript
+```js
 for(let i = 1; i <= 3; i++) {
   setTimeout(() => {
     console.log(i + " second(s) elapsed")
@@ -282,7 +282,7 @@ A veces se tiene una serie de tareas en las que cada paso depende de los
 resultados del paso anterior. Esto es  muy sencillo de tratar usando código
 síncrono:
 
-```javascript
+```js
 const text = readFile(fileName)
 const tokens = tokenize(text)
 const parseTree = parse(tokens)
@@ -299,7 +299,7 @@ particularmente susceptibles a este fenómeno el código Node.js y las
 aplicaciones de _front-end_ con un montón de llamadas AJAX. Podrían terminar
 viéndose así:
 
-```javascript
+```js
 readFile(fileName, text => {
   tokenize(text, tokens => {
     parse(tokens, parseTree => {
@@ -326,7 +326,7 @@ hacer referencia a ellas por nombre. Esto ayuda a que el código sea más
 superficial, y también divide el código de manera natural en pequeñas secciones
 lógicas.
 
-```javascript
+```js
 const readFinish = text => {
   tokenize(text, tokenizeFinish)
 }
@@ -351,7 +351,7 @@ Esta solución no es tan flexible como la anterior, pero si se tiene una tuberí
 de tareas compuesta de funciones asíncronas, se puede crear una función de
 utilidad que tome una matriz de tareas y las ejecute una tras otra.
 
-```javascript
+```js
 const performTasks = (input, tasks) => {
   if (tasks.length === 1) {
     return tasks[0](input)
@@ -392,7 +392,7 @@ objeto que representa un valor que está destinado a existir en el futuro.
 Por ejemplo, supongamos que comenzamos con una función `getData` que hace una
 solicitud AJAX y usa un _callback_ de la manera habitual:
 
-```javascript
+```js
 const getData = (options, callback) => {
   $.get("example.php", options, response => {
     callback(null, JSON.parse(response))
@@ -420,7 +420,7 @@ Una vez que tenemos una función que devuelve un objeto _promise_, podemos usar
 el método `.then` en este objeto para especificar lo que debe suceder una vez
 que se llama a `resolve` o `reject`.
 
-```javascript
+```js
 const getData = options =>
   new Promise((resolve, reject) => { // crear un nuevo objeto promise
     $.get("example.php", options, response => {
@@ -443,7 +443,7 @@ las cosas de manera mas conveniente dado el tamaño de la función. La ventaja e
 más clara cuando reescribimos nuestro ejemplo de infierno _callback_ usando
 _promises_:
 
-```javascript
+```js
 readFile("fileName")
 .then(text => tokenize(text))
 .then(tokens => parse(tokens))

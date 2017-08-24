@@ -51,7 +51,7 @@ Comencemos desarrollando nuestros casos de pruebas:
 
 **lowercaser.test.js.**
 
-``` javascript
+```js
 const lowerCaser = require('./lowercaser')
 
 test('Should take an input string and returns it lowercased', () => {
@@ -65,27 +65,27 @@ test('Should take an input string and returns it lowercased', () => {
 > pruebas unitarias. Puedes instalar **Jest** por medio de `npm` al ejecutar el
 > siguiente comando:
 >
-> ``` console
-> $ npm install --save-dev jest
+> ```sh
+> npm install --save-dev jest
 > ```
 >
 > O también puedes usar `yarn` al ejecutar:
 >
-> ``` console
-> $ yarn add --dev jest
+> ```sh
+> yarn add --dev jest
 > ```
 >
 > Para correr las pruebas haremos:
 >
-> ``` console
-> $ yarn run jest -- fichero.test.js
+> ```sh
+> yarn run jest -- fichero.test.js
 > ```
 
 Ahora, pasemos a implementar lo especificado en nuestros casos de pruebas:
 
 **lowercaser.js.**
 
-``` javascript
+```js
 const lowerCaser = input => input.toString().toLowerCase()
 
 module.exports = lowerCaser
@@ -94,7 +94,7 @@ module.exports = lowerCaser
 Una vez completada nuestra implementación inicial, corroboremos nuestro trabajo
 por medio de la ejecución de las pruebas:
 
-``` console
+```sh
 $ yarn run jest -- lowercaser.test.js
 
 PASS  ./lowercaser.test.js
@@ -120,7 +120,7 @@ Pero no se puede decir lo mismo de todas las funciones. Algunas funciones se
 basan en información distinta de los argumentos que se transmiten para producir
 resultados. Considere este ejemplo:
 
-``` javascript
+```js
 Math.random() // => 0.4011148700956255
 Math.random() // => 0.8533405303023756
 Math.random() // => 0.3550692005082965
@@ -141,7 +141,7 @@ veces tenemos que preguntarle a la computadora por la hora actual. No vamos a
 entrar en detalles de cómo funcionan las funciones de tiempo. Por ahora,
 simplemente copia este código:
 
-``` javascript
+```js
 const time = () => new Date().toLocaleTimeString()
 time() // => "5:15:45 PM"
 ```
@@ -160,13 +160,13 @@ de entrada se asignarán siempre al mismo valor de salida. Sin embargo, muchos
 valores de entrada se pueden asignar al mismo valor de salida. Por ejemplo, la
 siguiente función es pura:
 
-``` javascript
+```js
 const highpass = (cutoff, value) => value >= cutoff;
 ```
 
 Los mismos valores de entrada se asignarán siempre al mismo valor de salida:
 
-``` javascript
+```js
 highpass(5, 5) // => true
 highpass(5, 5) // => true
 highpass(5, 5) // => true
@@ -174,7 +174,7 @@ highpass(5, 5) // => true
 
 Muchos valores de entrada tal vez se pueden asignar al mismo valor de salida:
 
-``` javascript
+```js
 highpass(5, 123) // true
 highpass(5, 6)   // true
 highpass(5, 18)  // true
@@ -211,10 +211,10 @@ contener elementos anidados, tratemos de emular el siguiente comportamiento:
 
 **concat.test.js.**
 
-``` javascript
+```js
 const concat = require('./concat')
 
-test('should concatenate the array on the right with the array on the left', () => {
+test('should concatenate array on the right with array on the left', () => {
   const left = [1, [2], 3]
   const right = [[4], 5, [6, 7], 8]
   const expected = [1, [2], 3, [4], 5, [6, 7], 8]
@@ -227,7 +227,7 @@ Una implementación inicial puede ser la siguiente:
 
 **concat.js.**
 
-``` javascript
+```js
 const concat = (left, right) => {
   const result = left
 
@@ -248,7 +248,7 @@ module.exports = concat
 
 Comprobemos nuestro trabajo:
 
-``` console
+```sh
 $ yarn run jest -- concat.test.js
 
  PASS  ./concat.test.js
@@ -267,10 +267,10 @@ externo:
 
 **concat.test.js.**
 
-``` javascript
+```js
 const concat = require('./concat')
 
-test('should concatenate the array on the right with the array on the left', () => {
+test('should concatenate array on the right with array on the left', () => {
   const left = [1, [2], 3]
   const right = [[4], 5, [6, 7], 8]
   const expected = [1, [2], 3, [4], 5, [6, 7], 8]
@@ -291,7 +291,7 @@ test('should not mutate external context', () => {
 
 Al ejecutar las pruebas obtenemos lo siguiente:
 
-``` console
+```sh
 $ yarn run jest -- concat.test.js
  FAIL  ./concat.test.js
   ● should not mutate external context
@@ -340,7 +340,7 @@ Veamos ahora como podemos corregir esta situación:
 
 **concat.js.**
 
-``` javascript
+```js
 const concat = (left, right) => {
   const result = Object.assign([], left)
 
@@ -356,7 +356,7 @@ module.exports = concat
 
 Ahora al ejecutar las pruebas obtenemos lo siguiente:
 
-``` console
+```sh
 $ yarn run jest -- concat.test.js
  PASS  ./concat.test.js
   ✓ should concatenate the array on the right with the array on the left (5ms)
@@ -375,7 +375,7 @@ código:
 
 **concat.js.**
 
-``` javascript
+```js
 const concat = (left, right) => {
   return left.concat(right)
 }
@@ -391,22 +391,22 @@ condiciones.
 Una vez analizadas las funciones puras podemos mencionar los siguientes
 beneficios:
 
-- Toman ciertos argumentos como entrada y generan un valor de retorno que
+* Toman ciertos argumentos como entrada y generan un valor de retorno que
   exclusivamente depende de los argumentos dados.
-- Representan bloques de código reusable dentro de un programa.
-- Promueven buenas prácticas de desarrollo como [DRY][]
+* Representan bloques de código reusable dentro de un programa.
+* Promueven buenas prácticas de desarrollo como [DRY][]
   (*Don’t Repeat Yourself*) y [KISS][] (*Keep It Simple, Stupid*).
-- Al no depender del contexto externo, son inmunes a toda clase de errores o
+* Al no depender del contexto externo, son inmunes a toda clase de errores o
   *bugs* que tienen que ver con el estado mutable compartido.
-- Su naturaleza independiente las hace excelentes candidatos para procesamiento
+* Su naturaleza independiente las hace excelentes candidatos para procesamiento
   concurrente a lo largo de muchos CPUs e incluso para la computación
   distribuida, lo cual las hace esenciales para la ejecución de tareas de
   cálculo científico y de uso intensivo de recursos.
-- Su aislamiento facilita la refactorización y reorganización del código,
+* Su aislamiento facilita la refactorización y reorganización del código,
   haciendo tú código más adaptable y flexible a futuros cambios.
-- Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
+* Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
   puras.
-- Las funciones puras representan la base de la programación funcional.
+* Las funciones puras representan la base de la programación funcional.
 
 Por las razones antes mencionadas, recomendamos favorecer la implementación de
 funciones puras. Por lo tanto, siempre que sea práctico implementar los
@@ -441,11 +441,11 @@ lo veremos en una siguiente lección.
 * [Imperative Programming](https://en.wikipedia.org/wiki/Imperative_programming)
 
 #### Notas al pie
+
 1. Algunas veces necesitamos aplanar árboles u objetos muy anidados que son
    resultado de una consulta o *query*, un patrón común es convertirlos en
    arreglos o *arrays* para luego poder aplicar operaciones como `filter()` o
    `map()` sobre ellos.
-
 
 [Jest]: https://facebook.github.io/jest/
 [concat]: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/concat

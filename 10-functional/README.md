@@ -90,7 +90,7 @@ esta unidad es de _2h_.
 |----|-----------|------------|----------|------------
 | 00 | seminario | guiado     | 15min    | Apertura
 | 01 | taller    | self-paced | 90min    | Implementación por pares
-| 08 | seminario | guiado     | 15min    | Cierre
+| 02 | seminario | guiado     | 15min    | Cierre
 
 ### Unidad 03: [Higher Order Functions](03-hof)
 
@@ -121,7 +121,7 @@ La duración estimada de esta unidad es de _2h_.
 |----|-----------|------------|----------|------------
 | 00 | seminario | guiado     | 15min    | Apertura
 | 01 | taller    | self-paced | 90min    | Implementación por pares
-| 08 | seminario | guiado     | 15min    | Cierre
+| 02 | seminario | guiado     | 15min    | Cierre
 
 ### Unidad 05: [Control de flujo](03-flow-control)
 
@@ -143,7 +143,7 @@ asincronía, que es una característica fundamental de JavaScript.
 | 07 | quiz      | self-paced | 10min    | Cuestionario
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 06: [Hacking: reemplazando iteración con recursión](#)
+### Unidad 06: [Hacking: reemplazando iteración con recursión](06-workshop)
 
 La duración estimada de esta unidad es de _2h_.
 
@@ -151,9 +151,9 @@ La duración estimada de esta unidad es de _2h_.
 |----|-----------|------------|----------|------------
 | 00 | seminario | guiado     | 15min    | Apertura
 | 01 | taller    | self-paced | 90min    | Implementación por pares
-| 08 | seminario | guiado     | 15min    | Cierre
+| 02 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 07: [Code review + Demos de proyectos](#)
+### Unidad 07: [Code review + Demos de proyectos](07-demos)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo. La duración
 estimada de esta unidad es de _2h_.
@@ -174,7 +174,9 @@ estimada de esta unidad es de _2h_.
 
 Cursos similares que sirven como referencia:
 
-* [Introduction to Functional Programming - How to Think Functionally in (Almost) Any Language](http://shop.oreilly.com/product/0636920052463.do), Barry Burd, November 2016, O'Reilly Media
+* [Introduction to Functional Programming](http://shop.oreilly.com/product/0636920052463.do),
+  How to Think Functionally in (Almost) Any Language, Barry Burd, November 2016,
+  O'Reilly Media
 
 ## Referencias
 
@@ -204,14 +206,19 @@ Blog posts:
 
 Videos:
 
-* [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), Anjana Vakil, JSUnconf 2016
-* [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo), Stefanie Schirmer, JSConf EU 2015
-* [Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html), James Coglan, JSConf EU 2014
-* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep 13 2012
+* [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  Anjana Vakil, JSUnconf 2016
+* [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo),
+  Stefanie Schirmer, JSConf EU 2015
+* [Practical functional programming: pick two](http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html),
+  James Coglan, JSConf EU 2014
+* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep
+  13 2012
 
 Otros recursos:
 
-* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
+* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon),
+  @hemanth en GitHub.
 
 [underscore]: http://underscorejs.org/
 [lodash]: https://lodash.com/
