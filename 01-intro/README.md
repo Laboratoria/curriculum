@@ -26,122 +26,37 @@ En este curso pondrás en práctica los conceptos al desarrollar tres (3) produc
 
 1. **Cajero automático**: crearás un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
 
-2. **¿Es una tarjeto de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+2. **¿Es una tarjeta de crédito falsa?**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 3. **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 
 ## Syllabus
-### Lección 00: [Growth Mindset](00-growth-mindset)
-**_10min (self-paced)_**
 
-Antes de partir es importante que revises lo que la ciencia nos dice sobre el proceso de aprendizaje exitoso y cómo estos hallazgos dictan la metodología de enseñanza de Laboratoria.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Growth Mindset vs. Fixed Mindset
-| 02 | video | Aprendiendo a aprender
-| 03 | video | Cómo se aprende en Laboratoria  
-| 04 | lectura | Compromiso
-
-### Lección 01: [Sobre la programación y la web](01-web-development-process)
-**_35min (self-paced)_**
-
-Empieza por entender qué es la programación y cómo puedes _"hablarle"_ a las máquinas. Seguidamente, pasa a entender qué es la web y cómo funcionan sus 5 componentes principales: HTML, CSS, JavaScript, HTTP y las URLs.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video |¿Qué es la programación y porqué aprender a programar?
-| 02 | video | Hablándole a la máquina: lenguajes de bajo y alto nivel
-| 03 | video | ¿Qué es JavaScript y por qué aprenderlo?
-| 04 | video | ¿Cómo funciona la web?
-| 05 | video | HTML, CSS & JavaScript
-| 06 | video | HTTP & URLs
-| 07 | video | Escribiendo JavaScript en la consola
-| 08 | quiz | Prueba tu conocimiento
-
-### Lección 02: [Crea tu primera página web](02-your-first-website)
+### Lección 01: [Introducción](01-introduction)
 **_30min (self-paced)_**
-
-Utiliza lo que has aprendido para crear tu primera página web.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Descarga un editor de texto
-| 02 | video | Crea el HTML y CSS de tu primera web
-| 03 | video | Agrega interactividad con JS usando `alert()` y `document.write()`
-| 04 | video | Utilizando `console.log` y el Chrome developer tools
-| 05 | reto | Debugging un programa: encuentra el error y arreglalo
-| 06 | quiz | Prueba tu conocimiento
-
-### Lección 03: [Tu ambiente de desarrollo: Git & CLI](03-your-first-website)
-**_30min (self-paced)_**
-
-Antes de avanzar es importante setear tu ambiente de trabajo. Para eso necesitarás descargar un par de programas y aprender a usarlos.
+Tu primer acercamiento al mundo de la tecnología. Después de una breve bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás tu primera página web.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | video | ¿Qué es `Node.js`? + descarga Node.js
-| 02 | video | ¿Qué es la línea de comandos?
-| 03 | video | JavaScript en la línea de comandos
-| 04 | video | `Git` & `GitHub`
-
-### Lección 04: [Tipos de Datos y Variables](04-variables-and-data-types)
-**_30min (self-paced)_**
-
-Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | lectura | Valores y tipos de datos
-| 02a | lectura | ¿Qué son variables?
-| 02b | video | Recibe información del usuario utilizando `prompt()` y guarda los datos en variables
-| 02c | lectura | Nombrando variables
-| 03 | reto | Crea nuevas variables y modifica su valor
+| 00 | lectura | Bienvenida y orientación
+| 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
+| 02 | lectura | Growth Mindset
+| 03 | lectura | Tu primera página web
 | 04 | quiz | Prueba tu conocimiento
 
-### Lección 05: [Strings & Numbers](05-strings-and-numbers)
-**_40min (self-paced)_**
-
-Aprende dos de los tipos de datos más importantes: `strings` y `numbers`.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Strings
-| 02 | video | MDN documentation: propiedades y métodos de stings en JS: `length`, `indexof()` y `toUpperCase()`
-| 03 | video | Dado un string, imprime el número de caracteres
-| 04 | reto | Dada un string, imprime en mayúscula
-| 05 | video | Numbers y operadores aritméticos
-| 06 | video | Dado un número de días, devuelve la cantidad de minutos
-| 07 | video | Métodos comunes `toString()`, `toFixed()` y `parseInt()`
-| 08 | reto | Dada una temperatura en °C, devuelve el valor en °F
-| 09 | quiz | Prueba tu conocimiento
-
-### Lección 06: [Otros tipos de datos y operadores](06-other-data-types)
+### Lección 02: [Variables y Tipos de Datos](02-variables-and-data-types)
 **_30min (self-paced)_**
 
-Continúa aprendiendo otros tipos de datos clave para la creación de programas.
+Aprende a utilizar variables para almacenar información que cambia durante el transcurso del programa y los diferentes tipo de datos de los valores en JavaScript.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
-| 01 | video | Booleans
-| 02 | video | Operadores relacionales, de igualdad e identidad, de lógica y de comparación
-| 03 | video | Undefined values: undefined y null
-| 04 | video | Unary operators: typeof
-| 05 | video | Type coercion
+| 01 | lectura | Valores, tipos de datos y operadores
+| 02 | lectura | Variables
+| 03 | lectura | Manipulando `strings` y `numbers`
+| 04 | lectura | Comentarios en JavaScript
+| 05 | video | Practicando con ejercicios de variables y tipos de datos
 | 06 | quiz | Prueba tu conocimiento
-
-### Lección 07: [Ejercicios guiados](07-instructor-led-projects-strings-numbers)
-**_45min (self-paced)_**
-
-Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
-
-| # | Tipo | Tópico           
-| - | ----- | -----
-| 01 | video | Revisar conceptos aprendidos
-| 02 | video | Enunciado: Crea un programa que pide los ingresos, los costos y el % de impuestos y calcula el profit después de impuestos. Debe imprimir en la web el resultado con el símbolo $ adelante y con 2 decimales
-| 03 | video | Solucionario
-| 04 | video | Enunciado: Crea un programa que pide el nombre y apellido (2 prompts) y devuelve, en la web, un mensaje que dice el número de caracteres y las iniciales en mayúscula, cada uno en una línea separada.
-| 05 | video | Solucionario
 
 ### Lección 08: [Estructuras Condicionales](08-conditional-structures)
 **_30min (self-paced)_**
@@ -152,8 +67,8 @@ Explora una de las formas más comunes de controlar el flujo de tu programa, y p
 | - | ----- | -----
 | 01 | video | Repaso semana 1
 | 02 | video | Introducción a estructuras condicionales
-| 03 | video | `If… else` & `else if`
-| 04 | reto | Completa el siguiente código para que de acuerdo a la edad clasifique entre: baby, toddler, kid, teenager and adult.
+| 03 | video | `if… else` & `else if`
+| 04 | reto | Completa el siguiente código para que, de acuerdo a la edad, clasifique entre: baby, toddler, kid, teenager and adult.
 | 05 | video | `switch`
 | 06 | quiz | Prueba tu conocimiento
 
@@ -176,7 +91,7 @@ Aprende a optimizar tu código con el uso de ciclos y sigue el principio de DRY:
 ### Lección 10: [Creando código reusable con Funciones](10-loops)
 **_50min (self-paced)_**
 
-Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y por lo tanto retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso a entender el mundo de oportunidades que te ofrecen las funciones.
+Funciones es un tema que todo desarrollador en JavaScript debe conocer a profundidad y, por lo tanto, retornarás a este concepto en muchas ocasiones. Con esta lección darás tu primer paso para entender el mundo de oportunidades que te ofrecen las funciones.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -201,13 +116,13 @@ Repasa y consolida los conceptos aprendidos con un ejercicios práctico guiado.
 | 01 | video | Revisar conceptos aprendidos
 | 02 | video | Enunciado: crea dos funciones, `add` y `multiply`. Cada uno debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * 9824 + 777
 | 03 | video | Solucionario
-| 04 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
+| 04 | video | Enunciado: crea una función que encripte los mensajes utilizando el [Cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
 | 05 | video | Solucionario
 
 ### Lección 12: [Problem Sets](12-problem-sets-functions)
 **_3-6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve los siguiente problemas en [`Repl.it`](https://repl.it):
 1. getStringLength
 2. countSpaces
 3. countVowels
@@ -237,7 +152,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 04 | video | Propiedades y métodos comunes de arreglos: `.length`; `.push()`; `.shift()`; `.unshift()`; `.pop()`; `.concat()`; `.indexOf()`; `.join()`; `.slice()`; `.lastIndexOf()`; `.trim()`
 | 05 | quiz | Prueba tu conocimiento
 | 06 | reto | Varios retos pequeños de manipulación de arreglos
-| 07 | video | ¿Qué son objetos en JS y por qué son importantes ?
+| 07 | video | ¿Qué son objetos en JS y por qué son importantes?
 | 08 | video | Creando, accesando y modificando objetos
 | 09 | quiz | Prueba tu conocimiento
 | 10 | reto | Varios retos pequeños de manipulación de objetos
@@ -247,7 +162,7 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 ### Lección 14: [Ejercicios guiados ](14-instructor-led-projects-objects-and-arrays)
 **_45min (self-paced)_**
 
-Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos guiados.
+Repasa y consolida los conceptos aprendidos con algunos ejercicios prácticos guiados.
 
 | # | Tipo | Tópico           
 | - | ----- | -----
@@ -260,11 +175,13 @@ Repasa y consolida los conceptos aprendidos con un par de ejercicios prácticos 
 | 07 | video | Solucionario
 | 08 | video | Enunciado: Crea dos funciones que busquen un elemento en un array: linear search and binary search
 | 09 | video | Solucionario
+| 10 | video | Enunciado: escribe una función llamada `areArraysSame` que toma dos arrays como argumentos. Debe devolver verdadero si los dos arrays son iguales (es decir, tienen los mismos números, en el mismo orden) y false si son diferentes.
+| 11 | video | Solucionario
 
 ### Lección 15: [Problem Sets](15-problem-sets-objects-and-arrays)
 **_3-6hrs (self-paced)_**
 
-Resuelve los siguiente problemas en Replit:
+Resuelve los siguiente problemas en [`Repl.it`](https://repl.it):
 1. arrayToObject
 2. objectToArray
 3. personalGreeting
@@ -291,7 +208,7 @@ Ahora que ya dominas los conceptos base de la programación, es hora de ponerlos
 | 01 | video | Tips sobre cómo crear tus productos
 | 02 | video | Cómo enviar tu trabajo
 | 03 | video | **Cajero automático**: crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado.
-| 04 | video | **¿Es una tarjeto de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
+| 04 | video | **¿Es una tarjeta de crédito falsa?**: crea un programa que confirme si una tarjeta de crédito es válida según el algoritmo de Luhn.
 | 05 | video | **Post encriptados en Facebook**: aplicación web que publica mensajes codificados (encriptados) en Facebook, que tus amigos solo pueden decifrar a través de tu aplicación web.
 | 06 | video | Aprende a desplegar tus productos en la web con `Heroku`
 | 07 | video | Cierre
@@ -305,6 +222,11 @@ Si quieres solidificar tus conocimientos y asegurarte de que dominas por complet
 | - | ----- | -----
 | 01 | video | Tutorial workshoppers javascripting
 | 02 | video | Cómo enviar tu trabajo
+
+### BONUS Lesson!!! (17): [Javascripting de Node](18-how-the-web-works)
+**_30min_**
+- ¿Cómo funciona la web?
+- HTTP & URLs
 
 * * *
 ## Contributors
