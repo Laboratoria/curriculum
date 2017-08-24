@@ -32,7 +32,7 @@ console.log("Qué nombre tan largo tienes!");
 // returns > Hola Michelle
 //           Qué nombre tan largo tienes!
 ```
-Una representación trivial esquemática de un flujo de control recto sería:
+Una representación trivial esquemática de un flujo de control recto sería:a
 
 ![Flujo recto](http://eloquentjavascript.net/img/controlflow-straight.svg)
 
