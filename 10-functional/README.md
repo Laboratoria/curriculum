@@ -61,63 +61,79 @@ siguientes conocimientos previos:
 
 ## Syllabus
 
-### Unidad 01: [Funciones puras](01-pure-functions)
+### Unidad 01: [Evitando el estado compartido y cambiante](01-state)
 
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 30min    | ...
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 30min    | Funciones puras
+| 02 | practice  | self-paced | 10min    | Ejercicios de funciones puras
+| 03 | lectura   | self-paced | 30min    | Inmutabilidad
+| 04 | practice  | self-paced | 10min    | Ejercicios de inmutabilidad
+| 05 | quiz      | self-paced | 10min    | Cuestionario
+| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 02: [Inmutabilidad](02-immutability)
-
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 30min    | ...
-
-### Unidad 03: [Recursión](03-recursion)
-
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 50min    | ...
-
-### Unidad 04: [Higher Order Functions](04-hof)
-
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 30min    | ...
-
-### Unidad 05: [Aplicación parcial](05-partial-application)
-
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 10min    | ...
-
-### Lesson 6: [Ejercicios guiados](#)
-
-1h (presencial)
-
-### Workshop 1: [Hacking: reemplazando iteración con recursión y HOF](#)
+### Workshop 1: [Hacking: refactoring](#)
 
 2h (presencial)
 
-### Lesson 7: [Asincronía](06-async)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 08 | seminario | guiado     | 15min    | Cierre
 
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 30min    | ...
+### Unidad 02: [Higher Order Functions](02-hof)
 
-### Lesson 8: [Currying](07-currying)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 30min    | Higher Order Functions
+| 02 | practice  | self-paced | 10min    | Ejercicios de HOF
+| 03 | lectura   | self-paced | 10min    | Aplicación parcial
+| 04 | practice  | self-paced | 10min    | Ejercicios de aplicación parcial
+| 05 | lectura   | self-paced | 30min    | Currying
+| 06 | practice  | self-paced | 10min    | Ejercicios de currying
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 09 | quiz      | self-paced | 10min    | Cuestionario
+| 10 | seminario | guiado     | 15min    | Cierre
 
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced | 30min    | ...
+### Workshop 4: [Hacking: refactoring](#)
 
-### Workshop 2: [Hacking: refactoring](#)
+2h (presencial)
 
-3h (presencial)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 08 | seminario | guiado     | 15min    | Cierre
 
-### Workshop 4: [Hacking: refactoring y testing](#)
+### Unidad 03: [Control de flujo](03-recursion)
 
-1h (presencial)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 50min    | Recursión
+| 02 | practice  | self-paced | 10min    | Ejercicios de recursión
+| 03 | lectura   | self-paced | 30min    | Asincronía
+| 04 | practice  | self-paced | 10min    | Ejercicios de asincronía
+| 05 | quiz      | self-paced | 10min    | Cuestionario
+| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 15min    | Cierre
+
+### Workshop 3: [Hacking: reemplazando iteración con recursión](#)
+
+2h (presencial)
+
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 08 | seminario | guiado     | 15min    | Cierre
 
 ### Workshop 5: [Code review](#)
 
