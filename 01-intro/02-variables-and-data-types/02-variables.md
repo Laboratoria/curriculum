@@ -1,26 +1,33 @@
 # Variables
+
 ## Objetivos de Aprendizaje
+
 - Aprender qué son _variables_ y su utilidad
 - Conocer las buenas prácticas de nombramiento de variables
 
 ***
-_El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html) disponible gracias a [hectorip](http://hectorip.github.io)_
+
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el
+capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
+Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
+disponible gracias a [hectorip](http://hectorip.github.io).
+
 ***
 
 ## Variables
+
 Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y transformar `numbers`, `strings` y `booleans`. Pero, ¿qué podemos hacer con esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se pierden. Sigue en tu consola el siguiente ejemplo:
 
-```JavaScript
+```js
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + 19 + ' años';
 // returns > "Hola, mi nombre es Michelle y tengo 19 años"
-
 ```
 
 Si quisiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha perdido.
 
 Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada `variable`. Se utiliza así:
 
-```JavaScript
+```js
 var age = 19;
 // returns > undefined
 ```
@@ -31,7 +38,7 @@ La declaración anterior crea una variable llamada age (o edad en español) y se
 
 Después de que una variable se ha definido, su nombre puede ser usado como una expresión. El valor de esa expresión es el valor que la variable alberga actualmente. Sigamos con el ejemplo anterior:
 
-```JavaScript
+```js
 var age = 19;
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
 // returns > "Hola, mi nombre es Michelle y tengo 19 años"
@@ -39,7 +46,7 @@ var age = 19;
 
 La consola nos ayuda a saber el valor de una variable. Si escribimos el nombre de una variable que ha sido declarada en la consola, nos devuelve su valor. Si esa variable no ha sido declarada, la consola retorna un error. Y si la variabla ha sido declarada, pero no le hemos asignado valor, la consola devuleve undefined.
 
-```JavaScript
+```js
 age
 // returns > Uncaught ReferenceError: age is not defined
 //           at <anonymous>:1:1
@@ -51,12 +58,11 @@ age
 var weight;
 weight
 // returns > undefined
-
 ```
 
 Cuando una variable apunta a un valor, eso no quiere decir que está ligada a ese valor para siempre. De hecho, se llaman variables porque su valor puede variar. El operador `=` se puede utilizar en cualquier momento en variables existentes para desconectarlas de su valor actual y apuntarlas a uno nuevo.
 
-```JavaScript
+```js
 var age = 19;
 // returns > undefined
 age = 20;
@@ -64,12 +70,14 @@ age = 20;
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
 // returns > "Hola, mi nombre es Michelle y tengo 20 años"
 ```
-Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_ `var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.  
+
+Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_ `var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.
 
 Muchas veces se explica el concepto de variables con la analogía de una caja: las variables son como "caja" en las que puedes meter algún valor que luego pudes cambiar por otro. Sin embargo, una analogía más fiel es pensar en variables como **tentáculos**. Las variables en realidad no es que "contengan" los valores (como una caja); más bien los agarra (como un tentáculo). De hecho, dos variables pueden referirse a un mismo valor. Un programa puede acceder sólo a los valores que todavía mantiene "agarrados". Cuando necesitas recordar algo, creas un tentáculo nuevo para "agarrarlo" o cambias unos de tus tentáculos existentes para agarrar lo nuevo.
 
 
 ## Nombrando Variables
+
 En JavaScript, existen ciertas reglas para nombrar variables. Los nombres de variables:
 
 1. **No** pueden incluir espacios
@@ -100,9 +108,10 @@ Veamos algunos ejemplos:
 | altura | en español | height
 
 ## Incrementar y Disminuir
+
 Como programadora, muchas veces tendrás que incrementar o disminuir el valor de una variable numérica por un cierto valor. Por ejemplo, puede que tengas la variable `score` que registra el puntaje en un juego de fútbol. Cada vez que alguien anote un gol, la variable `score` debe aumentar en 1. Esto lo puedes hacer de la siguiente manera:
 
-```JavaScript
+```js
 var score = 0;
 score = score + 1;
 score;
@@ -111,7 +120,7 @@ score;
 
 Esto mismo se puede escribir de una manera más sencilla:
 
-```JavaScript
+```js
 var score = 0;
 score++;
 score;
@@ -120,8 +129,7 @@ score;
 
 Lo mismo podemos hacer para disminuir el valor de una variable. Por ejemplo, en un video juego puede que tengas una variable llamada `lifePoints` que registra los "puntos de vida" de un jugador. El jugador parte con 100 puntos y cada vez que un enemigo lo golpea, pierde 25 puntos. Cada vez que toma una bebida regenera 10 puntos.
 
-
-```JavaScript
+```js
 var lifePoints = 100;
 lifePoints = lifePoints - 25;
 lifePoints
@@ -130,12 +138,11 @@ lifePoints
 lifePoints = lifePoints + 10;
 lifePoints
 // returns > 85
-
 ```
 
 Esto se puede escribir de una manera reducida, así:
 
-```JavaScript
+```js
 var lifePoints = 100;
 lifePoints -= 25;
 lifePoints
@@ -144,12 +151,11 @@ lifePoints
 lifePoints += 10;
 lifePoints
 // returns > 85
-
 ```
 
 Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también `*=` y `/=`:
 
-```JavaScript
+```js
 var balloons = 100;
 balloons *= 2;
 balloons
@@ -161,5 +167,6 @@ balloons
 // returns > 25
 ```
 
-##
-**[Continuar](03-self-learning-MDN.md)**
+***
+
+[Continuar](03-self-learning-MDN.md)
