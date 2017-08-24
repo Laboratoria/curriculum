@@ -64,8 +64,8 @@ siguientes conocimientos previos:
 ### Unidad 01: [Evitando el estado compartido y cambiante](01-state)
 
 En esta unidad veremos dos de los principios fundamentales de la programación
-funcional: cómo evitar el estado compartido usando _funciones puras_ y el
-concepto de _inmutabilidad_. La duración estimada de esta unidad es de _3h_.
+funcional: cómo evitar el estado compartido usando **funciones puras** y el
+concepto de **inmutabilidad**. La duración estimada de esta unidad es de _3h_.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -79,9 +79,12 @@ concepto de _inmutabilidad_. La duración estimada de esta unidad es de _3h_.
 | 07 | quiz      | self-paced | 10min    | Cuestionario
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Workshop 1: [Hacking: refactoring](#)
+### Unidad 02: [Hacking: refactoring](02-workshop)
 
-2h (presencial)
+Esta unidad es básicamente una sesión de programación por pares. La tarea a
+realizar será refactorizar varias funciones de un videojuego existente haciendo
+uso de **funciones puras** y **estructuras inmutables**. La duración estimada de
+esta unidad es de _2h_.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -89,12 +92,12 @@ concepto de _inmutabilidad_. La duración estimada de esta unidad es de _3h_.
 | 01 | taller    | self-paced | 90min    | Implementación por pares
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 02: [Higher Order Functions](02-hof)
+### Unidad 03: [Higher Order Functions](03-hof)
 
-Las _funciones de orden superior_ (_Higher Order Functions_ en inglés), no son
+Las **funciones de orden superior** (_Higher Order Functions_ en inglés), no son
 más que funciones que reciben otras funciones como argumentos o que retornan una
 función. En esta unidad veremos este tipo de funciones en acción, incluyendo
-usos más avanzados como _aplicación parcial_ y _currying_.
+usos más avanzados como **aplicación parcial** y **currying**.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -110,9 +113,9 @@ usos más avanzados como _aplicación parcial_ y _currying_.
 | 09 | quiz      | self-paced | 10min    | Cuestionario
 | 10 | seminario | guiado     | 15min    | Cierre
 
-### Workshop 4: [Hacking: refactoring](#)
+### Unidad 04: [Hacking: refactoring](04-workshop)
 
-2h (presencial)
+La duración estimada de esta unidad es de _2h_.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -120,7 +123,7 @@ usos más avanzados como _aplicación parcial_ y _currying_.
 | 01 | taller    | self-paced | 90min    | Implementación por pares
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 03: [Control de flujo](03-recursion)
+### Unidad 05: [Control de flujo](03-flow-control)
 
 Como paradigma declarativo, la programación funcional se caracteriza, entre
 otras cosas, por expresar "repetición" usando recursión en vez de iteración. En
@@ -140,9 +143,9 @@ asincronía, que es una característica fundamental de JavaScript.
 | 07 | quiz      | self-paced | 10min    | Cuestionario
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Workshop 3: [Hacking: reemplazando iteración con recursión](#)
+### Unidad 06: [Hacking: reemplazando iteración con recursión](#)
 
-2h (presencial)
+La duración estimada de esta unidad es de _2h_.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -150,15 +153,10 @@ asincronía, que es una característica fundamental de JavaScript.
 | 01 | taller    | self-paced | 90min    | Implementación por pares
 | 08 | seminario | guiado     | 15min    | Cierre
 
-### Workshop 5: [Code review](#)
+### Unidad 07: [Code review + Demos de proyectos](#)
 
-1h (presencial)
-
-### Workshop 6: [Demos de proyectos FP](#)
-
-1h (presencial)
-
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo. La duración
+estimada de esta unidad es de _2h_.
 
 ***
 
