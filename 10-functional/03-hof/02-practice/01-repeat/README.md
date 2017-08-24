@@ -30,7 +30,7 @@ ejecutada con los argumentos pasados (si hubiere).
 En este ejercicio vamos a demostrar que las funciones pueden ser pasadas como
 valores. Te vamos a pasar una función como argumento.
 
-# Tarea
+## Tarea
 
 Implementa una función que reciba una función como primer argumento, y un número
 `num` como segundo argumento. La función debe ejecutar la función `num` veces.
@@ -45,8 +45,8 @@ incluirán un boilerplate.
 
 ## Recursos
 
-* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype
+* [MDN - Functions and function scope](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope)
+* [MDN - Function.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)
 
 ## Pistas
 
@@ -54,14 +54,3 @@ incluirán un boilerplate.
 * No pasa nada si usas un loop. Bonus para quien implemente usando recursión.
 * No te despistes si ves output. Esto viene de la función que te estamos pasando.
 * No tienes que usar console.log para nada.
-
-## Boilerplate
-
-```js
-function repeat(operation, num) {
-  // TÚ SOLUCIÓN AQUÍ
-}
-
-// No borres la línea de abajo
-module.exports = repeat
-```

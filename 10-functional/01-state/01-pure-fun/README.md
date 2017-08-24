@@ -431,7 +431,7 @@ posible, especialmente en funciones que emplean *side-effects* para llevar a
 cabo su cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema,
 lo veremos en una siguiente lección.
 
-### Referencias
+## Referencias
 
 * Conrad Barski. 2010. Land of Lisp: Learn to Program in Lisp, One Game at a
   Time! (1st ed.). No Starch Press, San Francisco, CA, USA. Page 301.
@@ -440,7 +440,7 @@ lo veremos en una siguiente lección.
 * [Side effect (computer science)](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
 * [Imperative Programming](https://en.wikipedia.org/wiki/Imperative_programming)
 
-#### Notas al pie
+## Notas al pie
 
 1. Algunas veces necesitamos aplanar árboles u objetos muy anidados que son
    resultado de una consulta o *query*, un patrón común es convertirlos en
