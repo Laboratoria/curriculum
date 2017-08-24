@@ -35,7 +35,7 @@ String: Cadenas de texto.
 Array: Listas de variables.
 Sin embargo nos faltan por ver algunas clases de objetos, los cuales aunque menos importantes desde el punto de vista de la programación debemos tenerlos en cuenta.
 
-##El objeto Boolean
+## El objeto Boolean
 
 El objeto o clase de objetos Boolean incluye las variables booleanas o lógicas que sólo pueden tomar los valores true y false.
 Para construir un objeto de clase Boolean basta con asignar un valor booleano a una variable, pero también podemos crearlo por el método general:
@@ -47,14 +47,14 @@ booleano = new Boolean()
 Dependiendo del valor del parámetro que le pasemos dentro del paréntesis el valor devuelto será true o false. Si pasamos directamente los valores true o false, nos devolverá esos valores. Si no pasamos ningún valor o pasamos como valor el número 0 o una cadena de texto vacía, devolverá false, en los demás casos devolverá true.
 El objeto Boolean no tiene propiedades y métodos propios, sino los heredados del objeto Object, el cual veremos más adelante.
 
-##El objeto Function
+## El objeto Function
 
 Las funciones también se consideran objetos en Javascript, y forman la clase Function. Aunque la forma más habitual de declararlas es la que hemos visto: function miFuncion(); también lo podemos hacer mediante la forma general de construir objetos:
 miFunción = new Function() { ... }
 Tal como ocurre en la forma habitual de declararlas, dentro del paréntesis escribiremos, si hace falta, los parámetros que necesite la función.
 No tiene propiedades ni métodos propios, sino los heredados del objeto Object que veremos más adelante.
 
-##El objeto RegExp
+## El objeto RegExp
 
 Esta clase de objetos contienen unos elementos que no hemos visto hasta ahora: las expresiones regulares. Estas sirven para comprobar si una cadena de texto sigue un determinado patrón, o si contiene unos caracteres determinados. Se emplea, por ejemplo para comprobar en un formulario si el texto pasado por el usuario es un e-mail, o un número de teléfono, etc.
 Estas expresiones van encerradas entre las barras inclinadas / .../, y tienen su propia sintaxis. por ejemplo la siguiente expresión comprueba si el el texto pasado es una dirección de página web:
@@ -71,7 +71,7 @@ cadena.search(regexp): Comprueba si la cadena se ajusta al patrón, en tal caso 
 cadena.replace(regexp,remplazar): Reemplaza el trozo de cadena que se ajusta a la expresión regular por la cadena que se pasa como segundo argumento (remplazar).
 cadena.split(regexp): Devuelve un array en el que la cadena se ha separado según las coincidencias con la expresión regular.
 
-##El objeto Object
+## El objeto Object
 
 Como se ha apuntado anteriormente, el objeto Object es el que esta en un nivel superior en la jerarquía, y del que derivan todos los demás objetos de javascript.
 Permite por lo tanto crear nuevas clases de objetos. En los temas posteriores veremos más detenidamente este objeto y cómo crear nuevos objetos.

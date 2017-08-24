@@ -15,7 +15,7 @@ Una sentencia condicional es un conjunto de comandos que se ejecutan si una cond
 A través de toda la formación que a este minuto has recibido, ya sabes cuáles son las sentencias condicionales, a demás conoces los bucles o loops , que pertenecen a toda el área de control de flujo en Javascript, en ésta parte me gustaría más contarte a cerca de las sentencias de manejo de excepciones.
 Prácticamente cualquier objeto puede ser lanzado en JavaScript. Sin embargo, no todos los objetos lanzados son creados igual. Mientras que es bastante común lanzar números o strings como errores, frecuentemente es más efectivo utilizar uno de los tipos de excepciones específicamente creados para este proposito:
 
-##Sentencia throw
+## Sentencia throw
 
 Utiliza la sentencia throw  para lanzar una excepción. Cuando lanzas un excepción, se especifica la expresión que contiene el valor para ser lanzado:
 
@@ -52,7 +52,7 @@ throw new UserException("Value too high");
 ```
 
 
-##try...catch
+## try...catch
 
 La sentencia try...catch marca un bloque de instrucciones a intentar que pueden causar alguna excepción, y declarar una o más respuestas en caso de que una excepción sea arrojada. Si una excepción es arrojada, la sentencia try...catch se encarga de atraparla.
 
@@ -82,7 +82,7 @@ catch (e) {
 }
 ```
 
-##El bloque catch
+## El bloque catch
 
 Un bloque catch es usado para manejar todas las excepciones que pueden ser generadas en el bloque try.
 

@@ -8,7 +8,7 @@
 
 Una de las características más particulares de JavaScript, es el comportamiento de los tipos de datos, porque conociendo su comportamiento nos permite entender como se comportan nuestros datos durante la ejecución.
 
-##¿Que es un tipo?
+## ¿Que es un tipo?
 
 Básicamente los tipos definen el comportamiento que van a tener los datos.
 “Un tipo es un conjunto integrado de características intrínsecas que identifican el comportamiento de un valor particular y lo distingue de otros valores, tanto para el engine y el desarrollador”
@@ -30,23 +30,23 @@ Para chequear valores mayores o menores que +/-Infinity, puedes usar las constan
 El tipo número sólo tiene un valor entero que cuenta con dos representaciones: 0 es representado como -0 y +0. ("0" es un alias +0). Esto casi no tiene ningún impacto. Por ejemplo +0 === -0 es true. Sin embargo, es posible notar esto cuando se divide por cero.
 
 
-* boolean
+## boolean
 
 Boolean representa una entidad lógica y puede tener dos valores: true, y false.
 
-* null
+## null
 
 El tipo Null tiene exactamente un valor: null.
 
-* undefined
+## undefined
 
 Una variable a la cual no se le haya asignado valor tiene entonces el valor undefined. Consultar undefined y Undefined para más detalles.
 
-* object
+## object
 
 En JavaScript los objetos pueden ser vistos como una colección de propiedades. Con la sintáxis literal de objetos, un limitado grupo de propiedades son inicializadas; luego pueden ser agregadas o eliminadas otras propiedades. Los valores de las propiedades pueden ser de cualquier tipo, incluyendo otros objetos lo cual permite construir estructuras de datos complejas. Las propiedades se identifican usando claves. Una clave es un valor String o Symbol.
 
-* symbol
+## symbol
 
 El Symbol es un nuevo tipo en JavaScript introducido en la versión ECMAScript Edition 6. Un Symbol es un valor primitivo único e inmutable y puede ser usado como la clave de una propiedad de un Object (ver debajo). En algunos lenguajes de programación, los Symbols son llamados átomos. Se pueden comparar con enumeraciones de nombres (enum) en C. Para más detalles consultar Symbol y el objeto envoltura Symbol en JavaScript.
 
@@ -54,7 +54,7 @@ Antes de continuar, es preciso decir que en JavaScript, las variables no tienen 
 
 Estos tipos se dividen en dos:
 
-##Primitivos
+## Primitivos
 
 string, number, boolean, null, undefined
 Entendamos el comportamiento de estos.
@@ -68,9 +68,9 @@ El nombre de la variable se instancia en su scope, y este nombre hace referencia
 Ahora, si asignamos esta variable a otra, el valor se copia, a otra posición en memoria, y cada variable apunta a una ubicación distinta.
 Este comportamiento, hace que si nosotros declaramos un valor primitivo dentro de una variable con const, será inmutable, ya que este no podrá ser reasignado.
 
-##Por referencia
+## Por referencia
 
-###object
+### object
 
 Los objetos definen subtipos, los cuales son: String, Number, Boolean, Object, Function, Array , Date, RegExp, Error
 Cuando definimos un objeto:
@@ -135,9 +135,9 @@ Si valueOf(..) se puede usar, es llamado y devuelve un valor primitivo.
 Si .toString(..) se puede usar, es llamado y devuelve un valor primitivo.
 En otros casos devuelve un error.
 
-###Nota: El mecanismo que normalmente se utiliza es toString().
+### Nota: El mecanismo que normalmente se utiliza es toString().
 
-##Algoritmo de ==
+## Algoritmo de ==
 
 Cuando se evalúan dos valores con este, se sigue la siguiente secuencia para determinar el resultado:
 Si son del mismo tipo, entonces, se prueban con ===
@@ -157,7 +157,7 @@ true == 1         // true
 [] == []          // false
 ```
 
-##Algoritmo de ===
+## Algoritmo de ===
 
 Esta igualdad es más estricta con sus resultados, utilizando secuencia para determinar el resultado.
 
@@ -185,9 +185,9 @@ Si cualquiera de los valores es boolean, utiliza ===
 Si no tienes claro si los valores son convertidos por coerción, usa ===
 En otros casos podrías usar con seguridad ==
 
-###Nota: Por convención y una buena práctica la comunidad promueve el uso de ===
+### Nota: Por convención y una buena práctica la comunidad promueve el uso de ===
 
-##Desigualdades
+## Desigualdades
 
 Siempre el resultado de evaluar una desigualdad es un booleano.
 Los siguiente operadores son utilizados para comparar desigualdades.
