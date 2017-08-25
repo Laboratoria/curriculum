@@ -88,10 +88,10 @@ Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el cu
 
 | Orden |  Tipo      | Duración | Descripción
 |-------|------------|----------|------------
-|   1   | charla     |   15min  | 
+|   1   | charla     |   15min  |
 
 
-### Lesson 1: [Intro a React](01-L01-intro/index.md)
+### Lesson 1: [Intro a React](L01-intro/index.md)
 
 60min (self-paced)
 
@@ -109,53 +109,73 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 |   4   | qa     |   15min  | Re-cap
 
 
-### Lesson 2: [JSX, Babel y Webpack](02-L02-jsx-babel-webpack/index.md)
+### Lesson 2: [JSX](L02-jsx/index.md)
 
-70min (self-paced)
+40min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es muy engorroso. Es por eso que React usa JSX como su `templating language` por defecto.
 
-En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué es una pieza fundamental de `React` y qué es y qué papel juega `babel` en todo esto. Además construiremos nuestros primeros componentes "de verdad" e instalaremos algunas herramientas que nos permitan debuggear y estructurar mejor nuestro código.
+En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué es una pieza fundamental de `React`. Además construiremos nuestros primeros componentes "de verdad".
 
 #### Lesson plan
 
-| Orden |      Tipo       | Duración | Descripción
-|-------|-----------------|----------|------------
-|   1   | lectura         |    5min  | Intro
-|   2   | lectura + code  |   10min  | JSX
-|   3   | lectura + code  |   10min  | Babel
-|   4   | lectura + code  |    5min  | JSX Externo
-|   5   | lectura + code  |   10min  | Precompile
-|   6   | lectura + code  |   15min  | Webpack
-|   7   | lectura + code  |   10min  | Modularización
-|   8   | lectura         |    5min  | Re-cap
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto         |    5min  | Intro
+|   2   | texto + code  |   10min  | Basics and expressions
+|   3   | texto + code  |   10min  | Renderizado condicional
+|   4   | texto + code  |   10min  | Listas y `key`s
+
+### Lesson 3: [Babel](L03-babel/index.md)
+
+30min (self-paced)
+
+...
+
+#### Lesson plan
+
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto + code  |   10min  | Babel basics
+|   2   | texto + code  |    5min  | JSX Externo
+|   3   | texto + code  |   10min  | Precompile
 
 
-### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
+### Lesson 4: [Webpack](L04-webpack/index.md)
 
-1h (self-paced)
+30min (self-paced)
 
-En esta lección vamos a aprender al detalle qué es, cómo se declara y cómo se usa un Componente. Veremos en qué se convierte nuestro código jsx una vez empaquetado, para entender mejor la relación entre react, js y jsx.
+...
 
-Luego veremos cómo podemos pasarle parámetros a los componentes a través de sus `props`.
+#### Lesson plan
 
-Revisaremos todas las herramientas que nos da React para definir, especificar y validar estas props, y por qué es tan importante hacerlo.
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto + code  |   15min  | Webpack config
+|   2   | texto + code  |   10min  | Modularización
+
+
+### Lesson 5: [Componentes (`stateless`) y sus `props`](L05-props/index.md)
+
+50min (self-paced)
+
+Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido como especificar nuestras `props` en la signatura misma de nuestros componentes. En esta lección nos vamos a enfocar la especificación de sus tipos, opcionalidad y valores por defectos.
+
+Luego analizaremos la propiedad especial `children` y como manipularla con `.map` y `.filter`.
+
 
 #### Lesson plan
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Componentes stateless: Creando interfaces con funciones.
-|   2   | texto  |   10min  | One-direction dataflow y props
-|   3   | code   |   10min  | Ejercicio: Composición de componentes stateless
-|   4   | texto  |    5min  | Props: propTypes y defaultProps
-|   5   | code   |   10min  | Ejercicio: propTypes y defaultProps
-|   6   | texto  |   5min   | `children` property
-|   7   | code   |   10min  | Ejercicio: usando .map y .filter
-|   8   | qa     |    5min  | Re-cap
+|   1   | texto  |   10min  | Props: `propTypes` y `defaultProps`
+|   2   | code   |   10min  | Ejercicio: `propTypes` y `defaultProps`
+|   3   | texto  |   10min  | `children` property y `React.Children` utils
+|   4   | code   |   10min  | Ejercicio: usando `children`
+|   5   | qa     |   10min  | Re-cap
 
 
-### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](04-W01-kickstart/index.md)
+### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](W01-kickstart/index.md)
 
 2h (presencial)
 
@@ -168,7 +188,7 @@ Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo qu
 A partir de ahora comienza a contar el reloj.
 
 
-### Lesson 4: [HOCs y estado global](05-L04-hoc/index.md)
+### Lesson 6: [HOCs y estado global](L06-hocs-global-state/index.md)
 
 1h (self-paced)
 
@@ -182,19 +202,18 @@ Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
+|   2   | texto  |   10min  | One-direction dataflow, props y state
 |   1   | texto  |    7min  | Higher order components (HOC)
 |   2   | code   |    8min  | Ejercicio: Higher order components (HOC)
-|   3   | texto  |    7min  | Data injection y middlewares
-|   4   | code   |    8min  | Ejercicio: Data injection y middlewares
 |   5   | texto  |    7min  | `function` props (aka actions)
 |   6   | code   |    8min  | Ejercicio: Actions
 |   3   | code   |   10min  | Ejercicio de integración
 |   5   | qa     |    5min  | Re-cap
 
 
-### Lesson 5: [React OOP: ciclo de vida, estado interno y referencias](06-L05-oop/index.md)
+### Lesson 7: [React OOP: ciclo de vida, estado interno y refs](L07-oop/index.md)
 
-1h (self-paced)
+45 min (self-paced)
 
 React define sólo 9 métodos muy simples para controlar el ciclo de vida de los componentes. En esta lección nos empaparemos de la compacta documentación de React.
 
@@ -207,16 +226,12 @@ Y por último veremos casos en los que a dos componentes no les alcanza con comp
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Componentes modelados como objetos
-|   2   | code   |    5min  | Ejercicio: Componentes modelados como objetos
-|   3   | texto  |    7min  | Local mutable state
-|   4   | code   |    8min  | Ejercicio: Local mutable state
-|   5   | texto  |   10min  | Ciclo de vida de un componente
-|   6   | code   |   15min  | Ejercicio de integración: file upload component with progress bar
-|   7   | qa     |    5min  | Re-cap
+|   1   | texto  |   15min  | Ciclo de vida y estado local
+|   2   | texto  |   10min  | `refs`
+|   3   | code   |   20min  | Ejercicio: cuenta regresiva
 
 
-### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](07-W02-code-review/index.md)
+### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](W02-code-review/index.md)
 
 2h (presencial)
 
@@ -226,7 +241,7 @@ Durante esta sesión realizaremos nuestra primera revisión del código. Identif
 
 Repensaremos los problemas pendientes y pasados con los nuevos conceptos que hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una aplicación verdaderamente profesional.
 
-### Lesson 6: [build y deploy scripts](08-L06-build-tools/index.md)
+### Lesson 8: [build y deploy scripts](L08-build-tools/index.md)
 
 30min (self-paced)
 
@@ -240,13 +255,11 @@ Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y `github
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   1   | texto  |    5min  | Software life cycle: dev, build, deploy
-|   2   | texto  |    5min  | Npm as a task runner
-|   3   | texto  |    5min  | Github pages
-|   5   | code   |   15min  | Ejercicio: Crear scripts de start, build y deploy
+|   1   | texto  |    5min  | Software life cycle: desarrollo, empaquetado y depliegue
+|   5   | code   |   15min  | Hands-on: Crear scripts `build` y `deploy`
 
 
-### Workshop 3: [Meetup](09-W03-meetup/index.md)
+### Workshop 3: [Meetup](W03-meetup/index.md)
 
 1.5h (presencial)
 
@@ -255,7 +268,7 @@ Para distendernos un poco del proyecto, y abrir un poco la cancha, haremos una s
 Pueden ser problemas que tengan en el trabajo, en proyectos personales o mera curiosidad. Contaremos con algunos hackers senior que les darán sus impresiones y recomendaciones.
 
 
-### Workshop 4: [Proyecto React: Revisión de código y QA](10-W04-code-review/index.md)
+### Workshop 4: [Proyecto React: Revisión de código y QA](W04-code-review/index.md)
 
 1 (presencial)
 
@@ -264,7 +277,7 @@ Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del c
 Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos las tareas que mayor efecto tengan en nuestro producto final.
 
 
-### Workshop 5 [Tips para que tu demo sea un éxito](11-W05-demo-trainning/index.md)
+### Workshop 5 [Tips para que tu demo sea un éxito](W05-demo-trainning/index.md)
 
 30min (presencial)
 
@@ -273,7 +286,7 @@ Estés o no acostumbradx a hablar en público, siempre es bueno contar con algun
 Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una presentación atractiva.
 
 
-### Workshop 6: [Proyecto React: Revisión de código y QA](12-W06-code-review/index.md)
+### Workshop 6: [Proyecto React: Revisión de código y QA](W06-code-review/index.md)
 
 1 (presencial)
 
@@ -282,7 +295,7 @@ Durante estas sesión realizaremos nuestra útlima revisión de código, donde y
 Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo técnico, y resolver dudas de último minuto.
 
 
-### [Día de la demo](13-demo-day/index.md)
+### [Día de la demo](ZZ-demo-day/index.md)
 
 2h (presencial)
 
@@ -320,13 +333,12 @@ Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos d
 
 ## Lecturas complementarias
 
+* [React resources](https://x-team.com/react-resources/)
 * [React - página oficial](https://facebook.github.io/react/)
 * [React patterns](http://reactpatterns.com)
 * [Functional React - Get your App outta my Component](https://medium.com/@adamterlson/functional-react-series-part-1-get-your-app-outta-my-component-92656ae13e25?ref=mybridge.co)
 * [React in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
-* [Everything can be a component](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component) https://hackernoon.com/understanding-state-and-props-in-react-94bc09232b9c
+* [Everything can be a component](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component)
 * [30 days of react](https://github.com/fullstackreact/30-days-of-react)
 * [Awesome React](https://github.com/enaqx/awesome-react)
 * [Recursos para aprender React en español](https://github.com/jlobos/react-espanol)
-
-
