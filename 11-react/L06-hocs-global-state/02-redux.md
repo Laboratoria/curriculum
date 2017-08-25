@@ -199,6 +199,4 @@ const reducer = combineReducers({ visibilityFilter, todos })
 const store = createStore(reducer)
 ```
 
-Y eso es todo! Ahora ya tienes un panorama completo de qué se trata Redux.
-
-Entonces ahora vamos a integrarlo con React!
+Y eso es todo! Ahora ya tienes un panorama completo de qué se trata Redux. Si quieres convertirte en un auténtico redux ninja chequea la documentación oficial, algunos proyectos interesantes que extienden Redux con otros casos de uso (sagas, thunks, offline)
