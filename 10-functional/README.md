@@ -184,6 +184,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ## Libros
 
+* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) de Michael Fogus
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 ## Benchmarks
@@ -220,6 +221,7 @@ Blog posts:
 
 Videos:
 
+* [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84), Mattias Petter Johansson.
 * [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), Anjana Vakil, JSUnconf 2016
 * [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo), Stefanie Schirmer, JSConf EU 2015
 * [Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html), James Coglan, JSConf EU 2014

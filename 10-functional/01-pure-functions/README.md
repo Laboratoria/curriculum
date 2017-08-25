@@ -439,13 +439,18 @@ lo veremos en una siguiente lección.
   Consultado el 11 de Julio de 2017
 * [Side effect (computer science)](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
 * [Imperative Programming](https://en.wikipedia.org/wiki/Imperative_programming)
+* [String.prototype.toLowerCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+* [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+* [Date.prototype.toLocaleDateString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
+* [Array.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+* [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
 #### Notas al pie
+
 1. Algunas veces necesitamos aplanar árboles u objetos muy anidados que son
    resultado de una consulta o *query*, un patrón común es convertirlos en
    arreglos o *arrays* para luego poder aplicar operaciones como `filter()` o
    `map()` sobre ellos.
-
 
 [Jest]: https://facebook.github.io/jest/
 [concat]: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/concat

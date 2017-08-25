@@ -98,7 +98,7 @@ escriben código jQuery que se parece a algo como esto:
 ```javascript
 const getData = () => {
   let data
-  $.get("example.php", response => {
+  $.get("/api/example", response => {
     data = response
   })
 
@@ -154,7 +154,7 @@ función de respuesta de llamada es su parámetro.
 
 ```javascript
 const getData = callback => {
-  $.get("example.php", response => {
+  $.get("/api/example", response => {
     callback(response)
   })
 }
@@ -171,7 +171,7 @@ llamada que nos dieron:
 
 ```javascript
 const getData = callback => {
- $.get("example.php", callback)
+ $.get("/api/example", callback)
 }
 ```
 
@@ -394,7 +394,7 @@ solicitud AJAX y usa un _callback_ de la manera habitual:
 
 ```javascript
 const getData = (options, callback) => {
-  $.get("example.php", options, response => {
+  $.get("/api/example", options, response => {
     callback(null, JSON.parse(response))
   }, () => {
     callback(new Error("AJAX request failed!"))
@@ -423,7 +423,7 @@ que se llama a `resolve` o `reject`.
 ```javascript
 const getData = options =>
   new Promise((resolve, reject) => { // crear un nuevo objeto promise
-    $.get("example.php", options, response => {
+    $.get("/api/example", options, response => {
       resolve(JSON.parse(response)) // en caso que todo salga como planeamos
     }, () => {
       reject(new Error("AJAX request failed!")) // en caso que algo salga mal
@@ -463,3 +463,8 @@ asíncrono.
 ## Referencias
 
 * [Introduction to asynchronous JavaScript](https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript)
+* [WindowOrWorkerGlobalScope.setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+* [WindowOrWorkerGlobalScope.setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
+* [Async](http://caolan.github.io/async/)
+* [Q](https://github.com/kriskowal/q)
+* [when.js](https://github.com/cujojs/when)

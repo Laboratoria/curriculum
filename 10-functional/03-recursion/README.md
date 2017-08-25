@@ -18,8 +18,8 @@ programación funcional por las siguientes razones:
   a subconjuntos de un problema común.
 - La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
   la mutación de estado en las lecciones de [Funciones
-  puras](../01-pure-functions/README.html) e
-  [Inmutabilidad](../02-immutability/README.html).
+  puras](../01-pure-functions/README.md) e
+  [Inmutabilidad](../02-immutability/README.md).
 - La recursión es una manera de implementar *lazyness* y estructuras muy largas
   o infinitas.
 
@@ -950,5 +950,4 @@ Referencias
 - [Functional Javascript](http://shop.oreilly.com/product/0636920028857.do) de Michael Fogus
 - [Functional JavaScript – Tail Call Optimization and Trampolines](https://taylodl.wordpress.com/2013/06/07/functional-javascript-tail-call-optimization-and-trampolines/)
 - [Trampolines in JavaScript](http://raganwald.com/2013/03/28/trampolines-in-javascript.html)
-
 
