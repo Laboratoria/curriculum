@@ -26,20 +26,20 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 
 `Git` es un sistema de control de versiones.
 
-> **¿Qué es el `Sistema de Control de Versiones`?**  
+> **¿Qué es el `Sistema de Control de Versiones`?**
 El `Sistema de Control de Versiones (VCS en inglés)` es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante necesitamos una versión podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:
-![''](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
+![''](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
 Gracias al VCS podemos evitar que eso nos suceda con nuestros proyectos o archivos, el VCS permite revertir los archivos a un estado anterior, revertir todo el proyecto a un estado anterior, comparar cambios que se hayan hecho, ver quién introdujo un problema y cuándo, y muchas cosas más.  Usando un VCS el perder algún archivo no es un problema, debido a que lo podemos recuperar fácilmente.
 
 `Git` es un `Sistema de Control de Versiones` que nos ayudará a guardar y diferenciar todos los cambios que haremos durante el desarrollo de un proyecto, ya sea en uno o más archivos.
 
 
-Lo que hace `Git` es tomar una 'imagen' del estado de todos sus archivos en ese momento y almacena una referencia a esa 'imagen'. Para ser eficiente, si los archivos no han cambiado, Git no almacena el archivo de nuevo, sólo un enlace al archivo idéntico anterior que ya ha almacenado. Git piensa en sus datos más como un flujo de 'imágenes'.  
-![''](http://fotos.subefotos.com/f7fc159919687104bb23335ea9d52555o.png)
+Lo que hace `Git` es tomar una 'imagen' del estado de todos sus archivos en ese momento y almacena una referencia a esa 'imagen'. Para ser eficiente, si los archivos no han cambiado, Git no almacena el archivo de nuevo, sólo un enlace al archivo idéntico anterior que ya ha almacenado. Git piensa en sus datos más como un flujo de 'imágenes'.
+!['Funcionamiento de Git'](http://fotos.subefotos.com/f7fc159919687104bb23335ea9d52555o.png)
 
 ## ¿Qué es Github?
 
->En resumen, se podría decir que `Github` es como Dropbox pero para **developers**.  
+>En resumen, se podría decir que `Github` es como Dropbox pero para **developers**.
 
 `Github` es la 'red social' de los developers, una gran cantidad de developers suben sus proyectos aquí porque te permite crear `repositorios` que tendrán siempre un copia de tu código y que podrás acceder mediante `git`.
 
@@ -47,9 +47,9 @@ GitHub es una 'nube' en la que podrás alojar tus proyectos utilizando el `Siste
 
 Pero `Github` no solo sirve para 'subir' nuestro código, él también contribuirá al desarrollo colaborativo del proyecto brindándonos herramientas que nos ayudarán:
 
-- Un `sistema de seguimiento de problemas` que permiten a los miembros de tu equipo detallar un problema con tu software o una sugerencia que deseen hacer.
-- Una `herramienta de revisión de código`, donde se pueden añadir anotaciones en cualquier punto de un fichero y debatir sobre determinados cambios realizados en un commit específico.
-- Un `visor de ramas` donde se pueden comparar los progresos realizados en las distintas ramas de nuestro repositorio.
+- Un `sistema de seguimiento de problemas` que permiten a los miembros de tu equipo detallar un problema o una sugerencia que deseen hacer del proyecto.
+- Una `herramienta de revisión de código`, donde se pueden añadir anotaciones en cualquier punto del proyecto (`issues`) y debatir sobre un cambio en específico por mrfio de los `commits`.
+- Un `visor de ramas` donde se pueden comparar el progreso de tu proyecto en las distintas ramas de nuestro repositorio.
 
 ## ¿Cómo crear una cuenta en Github?
 
@@ -77,7 +77,7 @@ Primero debemos descargar `Git` en nuestro equipo, elige la opción en base al s
 
 Ahora instalaremos `Git`:
 
-1. Hacemos clic en el botón **Run**  
+1. Hacemos clic en el botón **Run**
   !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
 2. Ahora en **Next >**
   !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
@@ -99,21 +99,21 @@ Ahora instalaremos `Git`:
   !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
 
 
-Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.  
+Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.
 
 Lo primero que debemos de hacer es establecer nuestro **username** y **dirección de correo** debido a que `Git` utilizará estos datos para la confirmación de cambios (o como los conoceremos más adelante: `commits`), podemos configurar estos datos por medio del comando `git config`, este, nos permite obtener y establecer variables de configuración, que controlan el aspecto y funcionamiento de `Git` como por ejemplo, si ejecuto el comando `git config --list` en mi terminal me devuelve esto:
 
 ```js
   user.name = michellesegv
   user.email = michelle@laboratoria.la
-```  
-Que vienen a ser los datos que ya he configurado.  
+```
+Que vienen a ser los datos que ya he configurado.
 
-Estos datos los podemos configurar por medio de los comandos:  
+Estos datos los podemos configurar por medio de los comandos:
 
 - Para configurar nuestro username debemos escribir la siguiente línea con nuestros datos y luego presionaremos la tecla 'enter':
 
-  >$ git config --global user.name "Tu username"  
+  >$ git config --global user.name "Tu username"
 
 - Para configurar nuestro correo debemos escribir la siguiente línea con nuestros datos y luego presionaremos la tecla 'enter':
 
@@ -123,5 +123,16 @@ Los datos que llenes las líneas anteriores deben de ser los mismo con los que c
 
 ## ¿Cuál es la diferencia entre Git y Github?
 
+>Git y Github se complementan pero no son iguales.
+
+Ahora que ya tenemos las definiciones de cada uno podemos decir que no son iguales. `Git` es un `Sistema de Control de Versiones` que nos ayudará en cuanto a la parte local de nuestro proyecto, gracias a él podremos tener un repositorio con commits localmente. Mientras que `Github` nos servirá para almacenar ese repositorio en un lado que no solo será visible, ní accedible por mí, además de las herramientas que nos brinda para poder hacer un trabajo en equipo más organizado.
+
+`Github` utiliza a `Git` como `Sistema de Control de Versiones`. Gracias a `Git` podremos guardar localmente por medio de `commits` los diferentes avances(estados) de nuestro proyecto y gracias a `Github` podremos subir esos avances a la `nube` y comenzar un trabajo colaborativo o solo tener almacenado nuestro proyecto en la `nube` para poder avanzarlo en 'cualquier parte del mundo' sin depender de la computadora donde se encuentre localmente mi proyecto o tener que estar guardándolo en un `USB` para copiarlo a otra computadora.
+
+**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de trabajar con github y git**
+local, remoto, working directory, staging area y branches
+
+## Comandos que debemos de aprender
+`init`, `add`, `commit`, `push`, `pull`, `merge`
 
 [Continuar](03-recap-intro.md)
