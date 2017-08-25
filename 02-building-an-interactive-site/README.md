@@ -94,7 +94,7 @@ en aprender a programar con JavaScript.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | clases | 30min | Apertura
+| 00 | clases | 10min | Apertura
 | 01 | lectura | 30min | Command Line Interface
 | 02 | lectura | 30min | Control de versiones - git
 | 03 | clases | 60min | Repaso Intro JS
@@ -212,8 +212,8 @@ con todo!
 ## Evaluación técnica
 * Quizzes: 5%
 * Requizzes: 15%
-* Retos de código: 55%
-* Producto final (Data Dashboard): 25%
+* Retos de código: 45%
+* Producto final (Data Dashboard): 35%
 
 ## Contributors
 
