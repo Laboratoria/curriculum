@@ -478,6 +478,42 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
         Se verá como: 
         ![<p></p>](html-p.png)
 
+    - __pre__:
+         a veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. E ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
+
+        ```html
+        <strong>Invictus</strong>
+        <pre>
+        Fuera de la noche que me cubre,
+        Negra como el abismo de polo a polo,
+        Agradezco a cualquier dios que pudiera existir
+        Por mi alma inconquistable.
+        En las feroces garras de las circunstancias
+        Ni me he lamentado ni he dado gritos.
+        Bajo los golpes del azar
+        Mi cabeza sangra, pero no se inclina.
+        Más allá de este lugar de ira y lágrimas
+        Es inminente el Horror de la sombra,
+        Y sin embargo la amenaza de los años
+        Me encuentra y me encontrará sin miedo.
+        No importa cuán estrecha sea la puerta,
+        Cuán cargada de castigos la sentencia.
+        <em>Soy el amo de mi destino:
+        Soy el capitán de mi alma.<em>
+        </pre>
+        <em>William Ernest Henley</em>
+        ```
+        
+        Cuando lo veamos en nuestra página web, se verá así:
+        ![<p></p>](html-pre.png)
+
+    - __strong__ 
+        
+        Usamos `strong` para dar importancia a tun texto. Puedes usarlo dentro de un párrafo. 
+
+    - __em__
+        Al igual que `strong` ayuda a dar importancia a un texto, aunque su estilo es diferente y más suave. Vienen de _"emphasis"_, o énfasis en español. 
+
     - __span__
 
         Aloja un pedazo de texto al que luego puedes estilar como prefieres específicamente. 
@@ -492,12 +528,166 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
         ```
         Se verá como: 
         ![<p><mark></mark></p>](html-p-mark.png)
-s
 
-* Listas
-* Links
-* Imagenes
-* Tablas
+    - __abbr__
+       
+        Define abreviaciones o acrónimos. La ventaja de usar `abbr` es que al dejar el cursor, se mostrará el título adecuado de dicha abreviatura. 
+
+        ```html
+        <p>En esta lectura veremos todo sobre <abbr title="HiperText Markup Language">HTML</abbr>para construir tu página web</p>
+        ```
+        Notarás en la imagen cómo es que se ve, con un pequeño tooltip, el texto sin abreviar. 
+
+        ![<abbr></abbr>](html-abbr.png)    
+
+    - __Citas__
+
+        Para citas, podemos usar dos etiquetas, la primera es `q` que nos dará la posibilidad de introducir citas en el mismo párrafo. Para citas más complejas que merecen su propio párrafo y descripción de la fuente, tenemos `blockquote`. Hay momentos en que sólo queremos nobrar el título del trabajo que inspira esas líneas, en ese caso usamos `cite`. 
+
+        Veamoslo con un pequeño ejemplo:
+
+        ```html
+        <blockquote>
+            <p>(...)Se necesita mucha confianza para admitir que necesitas ayuda. Como Q le había dicho Picard después de que Picard pidiera ayuda, <q>fue una admisión difícil, otro hombre habría sido humillado al decir esas palabras, otro hombre habría muerto antes que pedir ayuda</q>. ¿Cuántos de nosotros hemos estado en proyectos condenados porque el líder del proyecto era demasiado orgulloso o demasiado ciego para pedir ayuda?(...)</p>               
+            <footer>Es parte del artículo <cite>Five Leadership Lessons From Jean-Luc Picard</cite> por <em>Alex Knapp</em> de <strong>Forbes<strong></footer>    
+        </blockquote>
+        ```
+
+        En este ejemplo estamos citando una parte de un artículo, como es una parte completa del artículo, estamos incluyendolo en `blockquote`. Notarás que dentro del artículo se hace referencia a la una frase de Picard. Para citar dicha frase estamos usando `q` que nos permite seguir con el párrafo sin interrumpir el flujo del contenido. 
+        Hay algo extra. El uso de `footer` nos permite separar semánticamente la referencia del contenido de la cita. Podríamos usar otra etiqueta, pero `footer` es la que hace más sentido semántico. Por último, indicamos el trabajo, en este caso, artículo de donde obtuvimos esta cita, y enfatizamos el autor y la fuente. 
+
+        El resultado, será parecido al que sigue: 
+
+        ![Ejemplo de citas](html-quotations.png) 
+    
+    - __address__
+
+        Que por lo general se usa para poner información de contacto. Funcina como un bloque y puedes poner variada información dentro de él. 
+
+    Hay algunas otras que puedes revisar en la documentación de MDN. 
+        
+
+* __Listas__
+
+    Tenemos dos tipos de listas, las listas ordenadas y las no ordendas. 
+    Las listas se componen del un elemento `<ul></ul>` para listas no ordenadas u `<ol></ol>` para listas ordendas. Este elemento anidará a los elementos de la lista que se limitan con la etiqueta `<li><li>`.
+
+    ```html
+    <!-- listas ordenadas -->
+    <ul>
+        <li>Lima</li>
+        <li>Arequipa</li>
+        <li>Santiago de Chile</li>
+        <li>Ciudad de Mexico</li>
+        <li>Guadalajara</li>
+    </ul>
+    <!-- listas ordenadas -->
+    <ol>
+        <li>Lima</li>
+        <li>Arequipa</li>
+        <li>Santiago de Chile</li>
+        <li>Ciudad de Mexico</li>
+        <li>Guadalajara</li>
+    </ol>
+    ```
+
+    Que se verán así: 
+    ![Ejemplo de listas](html-lists.png) 
+
+    - __ol__
+    
+        En el caso de la _lista ordenada_ `ol`, puedes especificar el tipo de numeración escogiendo entre los diferentes valores del atributo `type`. Dependiendo de cada valor la numeración varía. Por defecto el valor es `type="1"`, por eso ves los números por defecto.
+
+        ![Ejemplo de listas ordenadas](html-ol-lists.png) 
+
+
+    - __ul__
+
+        En el caso de las listas _no ordenadas_ `ul`, podemos cambiar el símbolo a través de una propiedad que veremos en CSS llamada `list-style-type`. 
+
+        ![Ejemplo de listas ordenadas](html-ul-lists.png) 
+
+
+    - Listas de definiciones
+
+        Estas listas son especificas para usar en terminos y sus definiciones
+
+        ```html
+        <dl>
+            <dt>Rock</dt>
+            <dd>[...]</dd>
+            <dt>Pop</dt>
+            <dd>[...]</dd>
+            <dt>Musica electrónica</dt>
+            <dd>[...]</dd>
+            <dt>Rap</dt>
+            <dd>[...]</dd>
+            <dt>Reggae</dt>
+            <dd>[...]</dd>
+        </dl>
+        ``` 
+
+        Por ejemplo se verá: 
+        ![Ejemplo de listas ordenadas](html-dd.png) 
+
+* __Links__
+
+    Para crear un hipervínculos usamos la etiqueta `<a></a>`. 
+
+    Un link típico se ve como:
+
+    ```html
+        <a href="http://laboratoria.la" target="_blank">Laboratoria</a>
+    ```
+
+    Notarás 2 atributes. 
+    
+    `href` nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
+
+    `target` nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
+
+    - `_blank`: Abre el documento en una nueva ventana o tab. 
+    - `_self`: este es el valor por defecto y abre el documento en el tab o ventana actual.
+    - `_parent`: Abre el link en un fragmento padre (Probablemente no tengas que usarlo).
+    - `_top`: Abre el link en todo el cuerpo de la ventana(Probablemente no tengas que usarlo). 
+    - `framename`: Abre el link en el frame con el nombre indicado, ya no se usa. Se usaba en el tiempo en que usabamos `frameset` para hacer estructuras en la página web. 
+
+    Los vínculos tienen estados, hablamos de un link: 
+    - _no visitado_: en este caso el link se verá en fuente azul y con subrayado. 
+    - _visitado_: cuando la página que vincula al link ya ha sido visitada antes. 
+    - _activo_: un link esta activo desde el momento que empezamos el tap o click hasta que soltamos la pantalla o el mouse. Por lo general esta representado con letras y subrayado rojo. 
+
+    ![Ejemplo de link](html-link.png) 
+
+* __Imágenes__
+
+    Para incluir imágenes como contenido usamos la etiqueta `<img>`. Esta es una etiqueta vacía. Tiene varios atributos con los que puedes manipular cómo llamar a la imagen, dimensiones entre otros. 
+
+    Los principales atributes de `img` son: 
+
+    - __src__: este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
+
+    - __alt___: aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
+
+    Por ejemplo si quiero incluir una imagen: 
+
+    ```html
+        <img src="space-pug-apo.png" alt="Apo, Space Brothers">
+    ```
+
+    En caso la imagen no existiera,en el navegador Chrome, solo mostrará el texto alternativo:
+
+    ![Ejemplo de IMG roto](html-img-alt.png) 
+
+    Pero si la imagen existe, si se mostrará: 
+
+    ![Ejemplo de IMG](html-img.png)     
+
+    Puedes poner imágenes como contenido de etiquetas `a`, `p`, o dentro de otras etiquetas. 
+
+
+* __Tablas__
+
 * Formularios
 * Extra markup
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
