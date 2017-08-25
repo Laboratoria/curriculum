@@ -578,9 +578,7 @@ Time:        0.656s, estimated 1s
 Ran all test suites matching "factorial.test.js".
 ```
 
-**(o\_O)**
-
-¡Un momento!, ¿qué ha pasado?, ¿por qué sigue fallando?.
+**(o\_O)** ¡Un momento!, ¿qué ha pasado?, ¿por qué sigue fallando?.
 
 Pues resulta que es importante mencionar que esto funcionará si tu sistema
 proporciona optimizaciones de llamadas de cola. Ya que JavaScript no lo hace en
@@ -794,9 +792,7 @@ siguiente:
 Infinity
 ```
 
-**(o\_O)**
-
-> **Advertencia**
+> **(o\_O) Advertencia**
 >
 > Este error se debe a otra limitación en JavaScript, esta vez relacionada con el
 > manejo de enteros largos. Si bien la reparación de este último *bug* está fuera

@@ -1,7 +1,8 @@
 # Inmutabilitidad
 
-* Formato: `artículo`
-* Duración: 30min
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `30min`
 
 ***
 
