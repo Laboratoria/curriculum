@@ -196,7 +196,7 @@ Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero re
 
 En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos, un conjunto de herramientas **único**: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
 
-Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones.
+Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones con `redux`.
 
 #### Lesson plan
 
