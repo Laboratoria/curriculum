@@ -6,20 +6,37 @@
 
 Un día aparece un bug en una tienda online en la que estás trabjando. Alguien
 del equipo ha añadido una nueva funcionalidad para poder aplicar descuentos a
-clientes frecuentes. Para ello, se ha implementado una función (`applyDiscount`)
-que recibe un arreglo de objetos (el `cart`), cada uno con un precio, y un
-porcentaje de descuento. La función retorna un arreglo de objetos con los
-precios modificados de acuerdo al descuento.
+clientes frecuentes. Para ello, se ha implementado una función
+(`applyDiscount(cart, discount)`) que recibe un arreglo de objetos (el `cart`),
+cada uno con un precio, y un porcentaje de descuento. La función retorna un
+arreglo de objetos con los precios modificados de acuerdo al descuento.
 
-Ahora, el problema es que esta función a veces se usa para calcular lo que
-ahorrarías con un descuento, como "preview", pero para sorpresa de todxs, la
-función parece estar mutando el cart original en vez de crear un arreglo nuevo,
-y además los objetos dentro del arreglo también han sido mutados.
+Por ejemplo:
+
+```js
+const myCart = [
+  { price: 1 },
+  { price: 2 },
+  { price: 3 }
+];
+
+const cartWithDiscount = applyDiscount(myCart, .3);
+console.log(myCart, cartWithDiscount);
+```
+
+Ahora, después de investigar un rato descubrimos dos problemas:
+
+1. La función parece estar mutando los objetos dentro del arreglo en vez de
+   crear objetos nuevos!
+2. La función parece estar ignorando el descuento que le indicamos en el
+   argumento `discount` y siempre aplica un 20%!
+
+El código en cuestión es este:
 
 ```js
 const discount = .2;
 
-// Broken: returns new array but mutates same object references.
+// Broken: returns new array but mutates objects.
 const applyDiscount = (cart) => {
   if (!cart.length) {
     return [];
@@ -33,17 +50,15 @@ const applyDiscount = (cart) => {
 module.exports = applyDiscount;
 ```
 
+En resumen, tal y como está ahora, la función no es _pura_ ya que tiene efectos
+colaterales (modifica el arreglo `cart`) y hace uso de una variable fuera de su
+scope (`discount`) en vez de un _argumento_.
+
 ## Tarea
 
-## Ejemplo
+Refactoriza la función `applyDiscount()` para convertirla en una función pura.
+Para ello tendrás que:
 
-```js
-const myCart = [
-  { price: 1 },
-  { price: 2 },
-  { price: 3 }
-];
-
-const cartWithDiscount = applyDiscount(myCart);
-console.log(myCart, cartWithDiscount);
-```
+* Evitar mutar los objetos del arreglo que recibe como argumento.
+* Usar el argumento `discount` que recibe la función durante la invocación en
+  vez de la variable `discount` declarada fuera de la función.

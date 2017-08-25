@@ -123,7 +123,7 @@ La duración estimada de esta unidad es de _2h_.
 | 01 | taller    | self-paced | 90min    | Implementación por pares
 | 02 | seminario | guiado     | 15min    | Cierre
 
-### Unidad 05: [Control de flujo](03-flow-control)
+### Unidad 05: [Control de flujo](05-flow-control)
 
 Como paradigma declarativo, la programación funcional se caracteriza, entre
 otras cosas, por expresar "repetición" usando recursión en vez de iteración. En
