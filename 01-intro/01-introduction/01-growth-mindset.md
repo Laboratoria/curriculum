@@ -2,7 +2,7 @@
 
 ## Objetivos de aprendizaje
 
-- Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptar una mentalidad de crecimiento antes de empezar este curso
+- Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptarla antes de empezar este curso.
 
 ***
 
@@ -26,7 +26,12 @@ Gracias a estos nuevos descubrimientos científicos, muchos investigadores han c
 
 **Tener una mentalidad de crecimiento significa que entiendes que puedes desarrollar e incrementar tu inteligencia y todas tus habilidades, y que no tienes miedo a los retos. Significa que sabes que la mejor manera de aprender se logra con esfuerzo, y por ello estás dispuesta a cometer errores en el proceso.**
 
-Mira este video sobre Growth mindset:
+Mira este video sobre Growth mindset (10 min)
+
+Instrucciones para ponerle subtítulos en español al video:
+* Dar click a la tuerca de configuración/settings
+* Click en subtítulos/subtitles
+* Seleccionar español/spanish
 
 [![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
 
@@ -36,7 +41,10 @@ Mira este video sobre Growth mindset:
 Verás que tu mentalidad puede variar, pues aunque quisiéramos tener siempre una mentalidad de crecimiento, la realidad es que tenemos que trabajar día a día y en cada situación desafiante para mantenerla. Lo importante es poder reconocer y detectar cuándo estamos teniendo elementos de una mentalidad fija, para luego reflexionar y encontrar estrategias para cambiar.
 La siguiente imagen resume algunas de las diferencias entre ambas mentalidades, y te ayudará a identificar cómo mejorar:
 
-![Image Growth Mindset](https://infoes.examtime.com/files/2015/10/Mentalidad-Fija-vs-Mentalidad-de-Crecimiento.jpg)
+<!--
+Estoy poniendo la ig en drive pq no sé cuál es el repo correcto
+-->
+![Image Growth Mindset](https://raw.githubusercontent.com/Laboratoria/curricula-js/intro-js/01-intro/01-introduction/growth%20mindset.png)
 
 ## Growth Mindset en Laboratoria
 
@@ -46,11 +54,11 @@ Antes de pasar al siguiente módulo queremos darte algunos consejos para tu proc
 2. Tratar de resolver un problema antes de que te muestren cómo hacerlo, te permitirá luego aprender y entender mejor la solución que te enseñen.
 3. Cometer errores y corregirlos es lo que te permitirá construir los puentes para avanzar en el proceso de aprendizaje.
 
-Con todos estos conocimientos que has adquirido y con tu nueva mentalidad, te proponemos aceptar este reto: aprender a programar para transformar tu futuro.
+Con todos estos conocimientos que has adquirido y con tu nueva mentalidad, te proponemos aceptar este reto: Aprender a programar para transformar tu futuro.
 
 Y para ello, tú tendrás que proponerte lo siguiente:
 
-> Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender. Soy consciente que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
+> Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente que soy capaz de desarrollar mi inteligencia a través de aprendizajes que requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me mantendré persistente ante los obstáculos, pues sé que con práctica podré superarlos. Sé que los retrocesos o los errores que cometa no significan una falla, sino que son las oportunidades en las que más podré aprender. Soy consciente de que por momentos tendré dudas sobre mi capacidad para aprender, sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque tengo una mentalidad de crecimiento.
 
 ***
 
