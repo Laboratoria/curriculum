@@ -44,7 +44,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 1. -----
 
-[![ejemplo de break y continue](http://img.youtube.com/vi/bmTO0fbtSuA/0.jpg)](https://youtu.be/bmTO0fbtSuA)
+[![ejemplo de reverse - primera solución](http://img.youtube.com/vi/noIItRqduOY/0.jpg)](https://youtu.be/noIItRqduOY)
 
 
 #### 2. -----
