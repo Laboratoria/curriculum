@@ -22,7 +22,7 @@ const  Aside = ({ links, titulo }) => {
   }
 
   const children = links.map(props => {
-    return <AsideLink {...props} />
+    return <AsideLink key={props.texto} {...props} />
   })
   
   return (

@@ -1,22 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
 
-import Page from './lib/page';
-import Header from './lib/header';
-import MainSection from './lib/main-section';
-import Aside from './lib/aside';
-
-require("./styles.css");
-
-const render = (Component, props = {}) => {
-  ReactDOM.render(
-    <AppContainer>
-      <Component {...props} />
-    </AppContainer>,
-    document.getElementById('container'),
-  );
-};
+import Page from './Page';
+import Header from './Header';
+import MainSection from './MainSection';
+import Aside from './Aside';
 
 const Main = () => {
   const headerTitulo = 'Getting Started'
@@ -45,11 +32,4 @@ const Main = () => {
   )
 }
 
-render(Main);
-
-if (module.hot) {
-  module.hot.accept('./lib/page', () => {
-    const newApp = require('./lib/page').default;
-    render(newApp);
-  });
-}
+export default Main
