@@ -21,41 +21,48 @@ yarn add -D redux-devtools
 
 Y desde tu navegador instala la [extensión](http://extension.remotedev.io/).
 
-Y luego dentro de `main.js` reemplazamos
-```
-import MainSection from './lib/main-section';
-```
-por
-```
-import FilterableProductTable from './lib/FilterableProductTable';
-```
-
-y reemplazamos la definición de `Main` para que se vea así:
+Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente presentacional:
 
 ```js
-/* ... */
-const Main = () => {
-  const asideTitulo = 'Links'
-  const asideLinks = [
-    { href: '#', texto: 'Link 1'},
-    { href: '#', texto: 'Link 2'},
-    { href: '#', texto: 'Link 3'},
-    { href: '#', texto: 'Link 4'},
-    { href: '#', texto: 'Link 5'}
-  ]
+// lib/components/Main.js
+
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import Page from './Page';
+import Header from './Header';
+// Nos quitamos de encima el `MainSection`
+// y ahora importamos nuestro nuevo componente
+import FilterableProductTable from '../FilterableProductTable/components';
+import Aside from './Aside';
+
+// toda los datos que Main necesita, ahora los recibimos como props
+const Main = ({ products, asideTitulo, asideLinks }) => {
+  // TODO: Hack para que renderice. Quitar luego de setear Redux.
+  products = []
+  asideLinks = []
 
   return (
     <Page>
-      <FilterableProductTable />
+      <FilterableProductTable products={products} />
       <Aside titulo={asideTitulo} links={asideLinks} />
     </Page>
   )
 }
-/* ... */
 
+Main.propTypes = {
+  products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
+  asideTitulo: PropTypes.string.isRequired,
+  asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
+}
+
+export default Main
 ```
 
-y creamos un archivo `lib/FilterableProductTable.js` con el siguiente contenido
+`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo `lib/FilterableProductTable/components/index.js` con el siguiente contenido.
+
+> Más adelante entederás por qué elegimos esta estructura de carpetas.
+
 ```js
 import React from 'react'
 
@@ -93,9 +100,11 @@ y por últimos limpiamos un poco nuestro `index.html`
 </html>
 ```
 
+A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu consola de props no indicadas) y esto es porque `Main` está esperando props que todavia no le estamos proveyendo. Con esta base comenzamos nuestra implementación.
+
 ## Implementación
 
-Entonces vamos a simular el flujo habitual en la vida real.
+Entonces vamos a simular un flujo habitual de tareas de la vida real.
 
 ## Paso 0: Comienza con un Mock
 
@@ -157,60 +166,434 @@ Al final de este proceso tendras una librería de componentes reusables que rend
 <p data-height="600" data-theme-id="0" data-slug-hash="vXpAgj" data-default-tab="js" data-user="lacker" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/merunga/pen/NvLbjX">Thinking In React: Step 2</a> on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
+```js
+// lib/FilterableProductTable/components/index.js
+import React from 'react'
+
+import SearchBar from './SearchBar'
+import ProductTable from './ProductTable'
+
+const FilterableProductTable = ({ products }) => {
+  const style = {
+    width: '70%',
+    float: 'left'
+  }
+
+  return (
+    <div style={style}>
+      <SearchBar />
+      <ProductTable products={products} />
+    </div>
+  );
+}
+
+export default FilterableProductTable
+```
+
+```js
+// lib/FilterableProductTable/components/SearchBar.js
+import React from 'react'
+
+const SearchBar = () => {
+  return (
+    <form>
+      <input type="text" placeholder="Search..." />
+      <p>
+        <input type="checkbox" />
+        {' '}
+        Only show products in stock
+      </p>
+    </form>
+  );
+}
+
+export default SearchBar
+```
+
+```js
+// lib/FilterableProductTable/components/ProductTable.js
+import React from 'react'
+
+const ProductCategoryRow = ({ category }) => {
+  return (
+    <tr><th colSpan="2">{category}</th></tr>
+  );
+}
+
+const ProductRow = ({ product }) => {
+  const name = product.stocked ?
+    product.name :
+    <span style={{color: 'red'}}>
+      {product.name}
+    </span>;
+  return (
+    <tr>
+      <td>{name}</td>
+      <td>{product.price}</td>
+    </tr>
+  );
+}
+
+const ProductTable = ({ products }) => {
+  const rows = [];
+  let lastCategory = null;
+  products.forEach(product => {
+    if (product.category !== lastCategory) {
+      rows.push(<ProductCategoryRow category={product.category} key={product.category} />);
+    }
+    rows.push(<ProductRow product={product} key={product.name} />);
+    lastCategory = product.category;
+  });
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>{rows}</tbody>
+    </table>
+  );
+}
+
+export default ProductTable
+```
+
+Y ahora que tenemos un `FilterableProductTable` mas interesante, vamos a crear un poco de data ficticia para ver cómo se ver
+
+```js
+// lib/components/Main.js
+/* ... */
+const Main = ({ products, asideTitulo, asideLinks }) => {
+  asideTitulo = 'Links'
+  asideLinks = [
+    { href: '#', texto: 'Link 1'},
+    { href: '#', texto: 'Link 2'},
+    { href: '#', texto: 'Link 3'},
+    { href: '#', texto: 'Link 4'},
+    { href: '#', texto: 'Link 5'}
+  ]
+  
+  // Definimos estaticamente los productos
+  products = [
+    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+    {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+    {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+    {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+    {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+    {category: 'Electronics', price: '$1666699.99', stocked: true, name: 'Nexus 7'}
+  ];
+
+  return (
+    <Page>
+      <FilterableProductTable products={products} />
+      <Aside titulo={asideTitulo} links={asideLinks} />
+    </Page>
+  )
+}
+/* ... */
+```
+
+## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI (**Single source of truth**)
 
 Piensa en cuál es el mínimo conjunto de datos mutables que necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*. Identifica la representación absolutamente mínima del `state` de tu aplicación y toda la información derivada la calculas bajo demanda. Por ejemplo si en nuestro ejemplo quisieramos mostrar la suma total de items disponibles, sólo nos alcanza con tener la lista de productos e iterarla para contabilizar la disponibilidad, sin necesidad de tener otra propiedad en nuestro `state` para guardar el calculo.
 
-Piensa en todas las piezas de informaci[on que tiene nuestra aplicación:
+Piensa en todas las piezas de información que tiene nuestra aplicación:
 
-  * La lista de productos original
+  * La lista original de productos
   * El texto de búsqueda que ingresa el usuario
   * El valor del checkbox
   * La lista filtrada de productos
   
-<p data-height="600" data-theme-id="0" data-slug-hash="ORzEkG" data-default-tab="js" data-user="lacker" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/lacker/pen/ORzEkG/">Thinking In React: Step 4</a> by Kevin Lacker (<a href="http://codepen.io/lacker">@lacker</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+Ahora hacemos la integración de React con Redux para comenzar con este estado global.
 
-## Paso 4: Identify Where Your State Should Live
+> No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas luego desarrollar tus propios actions y reducers
 
-<p data-height="600" data-theme-id="0" data-slug-hash="ORzEkG" data-default-tab="js" data-user="lacker" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/lacker/pen/ORzEkG/">Thinking In React: Step 4</a> by Kevin Lacker (<a href="http://codepen.io/lacker">@lacker</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+Aquí es donde entra en acción Redux. 
 
-OK, so we've identified what the minimal set of app state is. Next, we need to identify which component mutates, or *owns*, this state.
+Primero creamos un nuevo archivo `lib/store.js` que contendrá la configuración de nuestro Redux store
 
-Remember: React is all about one-way data flow down the component hierarchy. It may not be immediately clear which component should own what state. **This is often the most challenging part for newcomers to understand,** so follow these steps to figure it out:
+```js
+// lib/store.js
 
-For each piece of state in your application:
+import { createStore, combineReducers } from 'redux';
 
-  * Identify every component that renders something based on that state.
-  * Find a common owner component (a single component above all the components that need the state in the hierarchy).
-  * Either the common owner or another component higher up in the hierarchy should own the state.
-  * If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
+import AppReducer from './reducer'
 
-Let's run through this strategy for our application:
+const rootReducer = combineReducers({
+  // aquí puedes ir agregando entradas de tu store
+  AppReducer
+});
 
-  * `ProductTable` needs to filter the product list based on state and `SearchBar` needs to display the search text and checked state.
-  * The common owner component is `FilterableProductTable`.
-  * It conceptually makes sense for the filter text and checked value to live in `FilterableProductTable`
+const store = createStore(
+  rootReducer,
+  // inyectamos la capacidad de usar Redux Dev Tools
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
-Cool, so we've decided that our state lives in `FilterableProductTable`. First, add an instance property `this.state = {filterText: '', inStockOnly: false}` to `FilterableProductTable`'s `constructor` to reflect the initial state of your application. Then, pass `filterText` and `inStockOnly` to `ProductTable` and `SearchBar` as a prop. Finally, use these props to filter the rows in `ProductTable` and set the values of the form fields in `SearchBar`.
+export default store
+```
 
-You can start seeing how your application will behave: set `filterText` to `"ball"` and refresh your app. You'll see that the data table is updated correctly.
+y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de nuestra aplicación, como lo definimos más arriba.
 
-## Step 5: Add Inverse Data Flow
+```js
+// lib/reducer.js
 
-<p data-height="600" data-theme-id="0" data-slug-hash="qRqmjd" data-default-tab="js,result" data-user="rohan10" data-embed-version="2" data-pen-title="Thinking In React: Step 5" class="codepen">See the Pen <a href="http://codepen.io/rohan10/pen/qRqmjd">Thinking In React: Step 5</a> on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+// Supongamos que estos son los productos que recibimos de nuestra API JSON
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'}
+];
 
-So far, we've built an app that renders correctly as a function of props and state flowing down the hierarchy. Now it's time to support data flowing the other way: the form components deep in the hierarchy need to update the state in `FilterableProductTable`.
+const INIT_STATE = {
+  // La lista original de productos
+  originalProducts: PRODUCTS,
+  // El texto de búsqueda que ingresa el usuario
+  filterText: '',
+  // El valor del checkbox
+  inStockOnly: false,
+  // La lista filtrada de productos
+  filteredProducts: PRODUCTS,
+  
+  // y heredamos las propiedades para la barra lateral
+  asideTitulo: 'Links',
+  asideLinks: [
+   { href: '#', texto: 'Link 1'},
+   { href: '#', texto: 'Link 2'},
+   { href: '#', texto: 'Link 3'},
+   { href: '#', texto: 'Link 4'},
+   { href: '#', texto: 'Link 5'}
+  ]
+}
 
-React makes this data flow explicit to make it easy to understand how your program works, but it does require a little more typing than traditional two-way data binding.
+// nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor inicial
+export default (state = INIT_STATE, action) => {
+  switch(action.type) {
+      
+  default:
+    return state
+  }
+}
+```
 
-If you try to type or check the box in the current version of the example, you'll see that React ignores your input. This is intentional, as we've set the `value` prop of the `input` to always be equal to the `state` passed in from `FilterableProductTable`.
+y modificamos el `index.js` para que haga el setup inicial del store.
 
-Let's think about what we want to happen. We want to make sure that whenever the user changes the form, we update the state to reflect the user input. Since components should only update their own state, `FilterableProductTable` will pass callbacks to `SearchBar` that will fire whenever the state should be updated. We can use the `onChange` event on the inputs to be notified of it. The callbacks passed by `FilterableProductTable` will call `setState()`, and the app will be updated.
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { AppContainer } from 'react-hot-loader';
 
-Though this sounds complex, it's really just a few lines of code. And it's really explicit how your data is flowing throughout the app.
+// El componente Provider que expone `react-redux`
+import { Provider } from 'react-redux';
+// El que acabamos de crear
+import store from './lib/store'
+
+import Main from './lib/components/Main';
+
+require("./styles.css");
+
+const render = (Component, props = {}) => {
+  ReactDOM.render(
+    <AppContainer>
+      <Provider store={store}> {/* <---- wrapping con el store */}
+        <Component {...props} />
+      </Provider>
+    </AppContainer>,
+    document.getElementById('container'),
+  );
+};
+
+render(Main);
+
+if (module.hot) {
+  module.hot.accept('./lib/components/Main', () => {
+    const newApp = require('./lib/components/Main').default;
+    render(newApp);
+  });
+}
+```
+
+Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con la info indicada en INIT_STATE
+![State en Redux Dev Tools](redux-dev-tools.jpg)
+
+Luego, quitemos el hack que colocamos en `lib/components/Main.js` e inyectemos la magia de Redux a nuestros componentes.
+
+Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro HOC a la altura de la carpeta `components` que se encargará de setear la data que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
+
+```js
+// lib/Main.js
+
+// te acuerdas que hablamos de `connect` al comienzo de la lección?
+// Finalmente esta aquí!!!
+import { connect } from 'react-redux'
+// Y el componente puramente presentacional de Main, ya sin hack
+import MainComponent from './components/Main'
+
+const MainWithRedux = connect(
+  // `connect` recibe dos parámetros. El primero de ellos es
+  // `mapStateToProps` que justamente lo que haces es mapear valores del state
+  // a props que recibirá `MainComponent`
+  function mapStateToProps(state) {
+    // buscamos los 3 valores que nos interesan
+    const {
+      filteredProducts,
+      asideTitulo,
+      asideLinks
+    } = state.AppReducer
+
+    // y devolvemos las nuevas props
+    return {
+      // fijate q los productos filtrados en el state se llaman `filteredProducts`
+      // pero que la props del componente `Main` se llama `products`
+      products: filteredProducts,
+      asideTitulo,
+      asideLinks
+    }
+  }
+)(MainComponent)
+
+export default MainWithRedux
+```
+
+Y lo segundo es indicar en `index.js` que ya no queremos usar `lib/components/Main`, sino su versión mejorada `lib/Main`.
+
+> Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate cómo eso se refleja en tu interfaz!
+
+## Paso 4: Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
+
+Hasta ahora, tenemos una aplicación que configura su store de Redux, toma esos valores y los pasa a la interfaz para renderizarlo. Ahora necesitamos conseguir que la información fluya en la otra dirección: de los componentes al state. Como había definido al comienzo, en el mundo de Redux, la única forma de conseguirlo es a través de actions.
+
+Asi como en nuestro state inicial, definimos los "sustantivos" de nuestra aplicación, las actions son nuestros "verbos".
+
+Entonces, ¿cuáles son las acciones que un usuario puede realizar en nuestra aplicación?
+- escribir en el input
+- seleccionar o limpiar el checkbox
+
+Tomemos como ejemplo la acción de "escribir en el input" y veamos como la definimos en Redux.
+
+Lo primero que vamos a necesitar, es una archivo `lib/actions.js` donde definiremos nuestros `action types` y `action creators` (funciones que devuelven acciones).
+
+```js
+export const actionTypes = {
+  FILTER_TEXT_CHANGED: 'FILTER_TEXT_CHANGED',
+  IN_STOCK_ONLY_CHANGED: 'IN_STOCK_ONLY_CHANGED'
+}
+
+export const filterTextChanged = text => ({
+  type: actionTypes.FILTER_TEXT_CHANGED,
+  text
+})
+
+export const inStockOnlyChanged = value => ({
+  type: actionTypes.IN_STOCK_ONLY_CHANGED,
+  value
+})
+```
+
+Y luego necesitamos dotar a `SearchBar` de la capacidad para disparar estas acciones. Para eso, vamos a crear un nuevo HOC `SearchBarWithRedux`.
+
+```js
+// lib/FilterableProductTable/SearchBar
+import { connect } from 'react-redux'
+import SearchBarComponent from './components/SearchBar'
+import { filterTextChanged, inStockOnlyChanged } from '../actions'
+
+const SearchBarWithRedux = connect(
+  function mapStateToProps(state) {
+    // buscamos los valores que nos interesan para el SearchBar
+    // fíjate que el SearchBar no tiene por qué saber nada de los productos
+    const {
+      filterText,
+      inStockOnly
+    } = state.AppReducer
+
+    // y devolvemos las nuevas props
+    return {
+      filterText,
+      inStockOnly
+    }
+  },
+  // El segundo parámetro de `connect` es `mapDispatchToProps`.
+  // El el mundo Redux al llamar a un `action creator` lo único que obtenemos
+  // es un objeto que expresa que es lo que ha sucedido, pero no dispara la acción.
+  // Para esto necesitas llamas a la función `dispatch` del store.
+  // Esto es lo que hace `mapDispatchToProps` mapea llamadas a `dispatch` para tus `action creators`
+  function mapDispatchToProps(dispatch) {
+    return {
+      setFilterText(newFilterText) {
+        dispatch(filterTextChanged(newFilterText))
+      },
+      setInStockOnly(newValue) {
+        dispatch(inStockOnlyChanged(newValue))
+      }
+    }
+  }
+)(SearchBarComponent)
+
+export default SearchBarWithRedux
+```
+
+Modificamos `FilterableProductTable` para que en lugar de usar el componente `SearchBar` utilice el contenedor `SearchBarWithRedux`.
+
+Y ahora si, hacemos que nuestro componente `SearchBar` entienda todas estas nuevas capacidades:
+```js
+// lib/components/SearchBar
+import React from 'react'
+
+const SearchBar = ({
+  // Los datos que necesita nuestro SearchBar
+  filterText, inStockOnly,
+  // Las acciones que puede realizar
+  setFilterText, setInStockOnly
+}) => {
+  return (
+    <form>
+      <input
+        type="text" placeholder="Search..."
+        value={filterText}
+        onChange={evt => {
+          setFilterText(evt.target.value)
+        }}
+        />
+      <p>
+        <input
+          type="checkbox"
+          checked={inStockOnly}
+          onChange={evt => {
+            setInStockOnly(evt.target.value === 'on' ? true : false)
+          }}
+          />
+        {' '}
+        Only show products in stock
+      </p>
+    </form>
+  );
+}
+
+SearchBar.propTypes = {
+  filterText: PropTypes.string.isRequired,
+  inStockOnly: PropTypes.bool.isRequired,
+  setFilterText: PropTypes.func.isRequired,
+  setInStockOnly: PropTypes.func.isRequired
+}
+// Cuando los componentes son "controlados" por un contenedor, el valor por defecto
+// de las props, es determinado por el state, es por eso
+// que suele ser buena práctica establecer todas tus props como required
+
+export default SearchBar
+```
+
+> Ve a tu navegador y usa el checkbox y escribe en el input. Fijate que en tu interfaz nada cambia, pero si ves dentro de Redux Dev Tools, verás cómo las acciones se van disparando
+
+## Paso 5: Determina cómo reacciona tu state a las actions disparadas (**Changes are made with pure functions**)
+
+Ya tenemos a las acciones disparandose, ahora analicemos cómo queremos que el state se modifique ante cada una de ellas. Como lo establece nuestro principio de **Changes are made with pure functions**, vamos a modificar nuestro reducer
+
 
 ## And That's It
 
