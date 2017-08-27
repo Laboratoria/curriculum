@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
-import Page, { defaultPageProps } from './lib/page';
+import Page, { defaultPageProps } from './Page';
 require("./styles.css");
 
 const render = (Component, props = {}) => {
@@ -17,8 +17,8 @@ const render = (Component, props = {}) => {
 render(Page, defaultPageProps);
 
 if (module.hot) {
-  module.hot.accept('./lib/page', () => {
-    const newApp = require('./lib/page').default;
+  module.hot.accept('./Page', () => {
+    const newApp = require('./Page').default;
     render(newApp);
   });
 }

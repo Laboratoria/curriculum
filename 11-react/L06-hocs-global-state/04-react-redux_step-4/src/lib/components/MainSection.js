@@ -24,7 +24,7 @@ const MainSection = ({ titulo, articles }) => {
   }
   
   const children = articles.map(props => {
-    return <Article {...props} />
+    return <Article key={props.titulo} {...props} />
   })
 
   return (

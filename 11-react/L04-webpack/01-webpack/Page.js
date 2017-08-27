@@ -28,7 +28,7 @@ const MainSection = ({ titulo, articles }) => {
   }
   
   const children = articles.map(props => {
-    return <Article {...props} />
+    return <Article key={props.titulo} {...props} />
   })
 
   return (
@@ -55,7 +55,7 @@ const  Aside = ({ links, titulo }) => {
   }
 
   const children = links.map(props => {
-    return <AsideLink {...props} />
+    return <AsideLink key={props.texto} {...props} />
   })
   
   return (
