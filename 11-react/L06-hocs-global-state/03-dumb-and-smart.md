@@ -20,7 +20,7 @@ Con la práctica en React, notarás que es mucho más fácil reusar y diseñar t
 - No tienen dependencias con el resto de la aplicación
 - No especifican cómo se obtiene la información que usan ni cómo se modifica, sólo la usan.
 - Todo lo que saben y pueden hacer lo hacen a través de sus `props`
-- Predomina el código JSX
+- Predomina el código **JSX**
 
 ## Componentes contenedores
 
@@ -32,12 +32,13 @@ Con la práctica en React, notarás que es mucho más fácil reusar y diseñar t
 - Usa actions de Redux para injectar callbacks a los eventos de los componentes presentacionales
 - Son stateful al conectarse al `state` de Redux
 - Y en nuestro caso, se generan usando la función `connect` de Redux
+- Predomina el código **JavaScript**
 
 ## Beneficios de este enfoque
 
-- Mejor separación de intereses (separation of concerns): Tienes un mejor entendimiento de tu aplicación y tu interfaz desarrollando de esta manera.
-- Mayor reusabilidad: Puedes reutilizar tus componentes presentacionales con diferentes data sources y crear así nuevos componentes que a su vez pueden ser reutilizados.
-- Los componentes presentacionales son la "cara" de tu aplicación. Puedes extraerlos todos en una sólo pantalla, y así los diseñadores puede modificar la plantilla sin alterar la lógica de tu aplicación.
+- **Mejor separación de intereses (separation of concerns):** Tienes un mejor entendimiento de tu aplicación y tu interfaz desarrollando de esta manera.
+- **Mayor reusabilidad:** Puedes reutilizar tus componentes presentacionales con diferentes data sources y crear así nuevos componentes que a su vez pueden ser reutilizados...
+- **Los componentes presentacionales son la "cara" de tu aplicación.** Puedes extraerlos todos en una sólo pantalla, y así los diseñadores puede modificar la plantilla sin alterar la lógica de tu aplicación.
 - Te fuerza a extraer componetes puramente de *layout* como los Sidebar, Header o Footer y usar `children`, en lugar de duplicar ese markup en diferentes contenedores.
 
 > Es importante que recuerdes que los componentes no tienen la obligación de retornar markup, sólo una función que siga las reglas de React.

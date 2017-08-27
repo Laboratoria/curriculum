@@ -25,9 +25,9 @@ Como Redux es una librería, puede manejar el estado de cualquier tipo de aplica
 
 > El patrón de diseño de "UI manager" + "State manager" es muy popular actualmente en la comunidad de javascript, porque ha demostrado que es una forma consistente de organizar nuestras aplicaciones.
 >
-> Hoy por hoy hay infinidad de librerías para elegin y por ejemplo podríamos cambiar React por otra librería para UI como [Vue]() o [Polymer](). Y de la misma manera con Redux, podríamos usar [mobx]() o [cerebral]()
+> Hoy por hoy hay infinidad de librerías para elegir y por ejemplo podríamos cambiar React por otra librería para UI como [Vue](https://github.com/vuejs/vue) o [Polymer](https://github.com/Polymer/polymer). Y de la misma manera con Redux, podríamos usar [mobx](https://github.com/mobxjs/mobx) o [cerebral](https://github.com/cerebral/cerebral)
 
-Redux está fuertemente inspirado en [Flux](http://facebook.github.io/flux/), que podemos decir es su predecesor, pero simplificando el enfoque de Flux usando usando conceptos de Elm](https://github.com/evancz/elm-architecture-tutorial/). Sepas o no que son Flux y Elm, comenzar con Redux solo toma unos minutos.
+Redux está fuertemente inspirado en [Flux](http://facebook.github.io/flux/), que podemos decir es su predecesor, pero simplificando el enfoque orignal usando conceptos de Elm](https://github.com/evancz/elm-architecture-tutorial/). Sepas o no que son Flux y Elm, comenzar con Redux solo toma unos minutos.
 
 > ## Referencias complementarias
 > - Learn Redux from its creator:**  
@@ -44,13 +44,16 @@ Imagina que tienes una aplicación que lleva tracking de tus tareas pendientes: 
 
 ```js
 {
-  todos: [{
-    text: 'Eat food',
-    completed: true
-  }, {
-    text: 'Exercise',
-    completed: false
-  }],
+  todos: [
+    {
+      text: 'Eat food',
+      completed: true
+    },
+    {
+      text: 'Exercise',
+      completed: false
+    }
+  ],
   visibilityFilter: 'SHOW_COMPLETED'
 }
 ```
@@ -65,11 +68,13 @@ Entonces, para cambiar algún valor del `state`, la única forma de hacerlo es d
 { type: 'SET_VISIBILITY_FILTER', filter: 'SHOW_ALL' }
 ```
 
+> Por convención todas las actions necesitan de un `type` de tipo string. Este es el identificador de tu action y dos actions que conceptualmente puedan ser distintas, pero tienen un mismo valor de type, son consideradas el mismo tipo. Usa tipos claros, que expresen claramente cual es su intención y que sean dificiles de repetir, inclusive si tienen muchos caracteres
+
 Forzando que todos los cambios deban ser descritos como una acción, nos permite tener una idea clara de qué es lo que esta sucediendo en nuestra aplicación. Si algo cambia, sabemos exactamente por qué cambió. Las actions van dejando rastro de cada cosa que ha sucedido.
 
-Y por último, para relacionar el estado con las actions, escribimos funciones puras que llamaremos ***reducers***. De nuevo, ninguna magia, un reducer es una función que recibe el state y una action como parámetros y retorna el nuevo state de la aplicación.
+Y por último, para relacionar el estado con las actions, escribimos funciones puras que llamaremos ***reducers***. De nuevo, ninguna magia, un reducer es una función que recibe el state y una action como parámetros y retorna el nuevo state de la aplicación. Cada vez que sucede un action, **todos** los reducers de tu store se ejecutan con el action como parametro.
 
-Sería bien complicado escribir una sola función para manejar todo el estado de una aplicación grande, es por eso que escribimos funciones mas pequeñas para las direntes partes del state:
+Sería bien complicado escribir una sola función para manejar todo el estado de una aplicación grande, es por eso que escribimos funciones mas pequeñas para las diferentes partes del state:
 
 ```js
 function visibilityFilter(state = 'SHOW_ALL', action) {
@@ -108,13 +113,13 @@ function todoApp(state = {}, action) {
 }
 ```
 
-Y esto es basicamente Redux. Fíjate que para hacer esto no hemos usado ni una sola función de Redux. Redux provee algunas utilities que facilitan trabajar con este patrón, pero la idea principal es que puedas describir como va evolucionando el state de tu aplicación en respuesta a los actions. Alrededor del 90% de tu código será Javascript Vanilla, sin usar ninguna funcionalidad de Redux.
+Y esto es basicamente Redux. Fíjate que para hacer esto no hemos usado ni una sola función de la librería. Redux provee algunas utilities que facilitan trabajar con este patrón, pero la idea principal es que puedas describir como va evolucionando el state de tu aplicación en respuesta a los actions. Alrededor del 90% de tu código será Javascript Vanilla, sin usar ninguna funcionalidad de Redux.
 
-### Las tres leyes de Redux
+### Los tres principios de Redux
 
 ### Una sóla fuente de información (Single source of truth)
 
-**El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu apliación es guardado en un objeto dentro de un único [store](http://redux.js.org/docs/Glossary.html#store).**
+**El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu aplicación es guardado en un objeto dentro de un único [store](http://redux.js.org/docs/Glossary.html#store).**
 
 ```js
 console.log(store.getState())
@@ -140,7 +145,7 @@ console.log(store.getState())
 
 **La única forma de cambiar el state, es disparando un [action](http://redux.js.org/docs/Glossary.html#action), un objeto describiendo qué es lo que sucedió.**
 
-Esto garantiza que ni las vistas ni las llamadas a servicios externos puedas realizar cambios en el state directamente. En lugar de eso, expresan su intención de cambiar el state a través de un action. Como todo los cambios están centralizados, y suceden en un orden estricto, no tenemos que preocuparnos por casos raros.
+Esto garantiza que ni las vistas ni las llamadas a servicios externos puedas realizar cambios en el state directamente. En lugar de eso, expresan su intención de cambiar el state a través de un action. Como todo los cambios están centralizados, y suceden en un orden estricto, no tenemos que preocuparnos por casos raros o dificiles de reproducir.
 
 ```js
 store.dispatch({
@@ -154,11 +159,11 @@ store.dispatch({
 })
 ```
 
-### Los cabios de state, se realizan a través de funciones puras (Changes are made with pure functions)
+### Los cambios de state, se realizan a través de funciones puras (Changes are made with pure functions)
 
 **Para detallar la manera en la que cambia el state en respuesta a los actions, usas un [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**
 
-Los reducers son sólo funciones puras que toman el state anterior y un action, y retornan el nuevo state. Tanto el state anterior como el action recibido, deben ser inmutables, por eso recuerda **siempre retornar nuevos objetos**, en lugar de realizar cambios al state original.
+Los reducers son sólo funciones puras que toman el state anterior y el action que se acaba de disparar, y retornan el nuevo state. Tanto el state anterior como el action recibido, deben ser inmutables, por eso recuerda **siempre retornar nuevos objetos**, en lugar de realizar cambios al state original.
 
 ```js
 function visibilityFilter(state = 'SHOW_ALL', action) {
@@ -199,4 +204,5 @@ const reducer = combineReducers({ visibilityFilter, todos })
 const store = createStore(reducer)
 ```
 
-Y eso es todo! Ahora ya tienes un panorama completo de qué se trata Redux. Si quieres convertirte en un auténtico redux ninja chequea la documentación oficial, algunos proyectos interesantes que extienden Redux con otros casos de uso (sagas, thunks, offline)
+Y eso es todo! Ahora ya tienes un panorama completo de qué se trata Redux. Si quieres convertirte en un auténtico redux ninja chequea la documentación oficial, algunos proyectos interesantes que extienden Redux con otros casos de uso como sagas, thunks o redux offline)
+
