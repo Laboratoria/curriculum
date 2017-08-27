@@ -685,10 +685,82 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
 
     Puedes poner imágenes como contenido de etiquetas `a`, `p`, o dentro de otras etiquetas. 
 
+    Otro atributo de `img` que cada vez se usa más es `srcset`. A través de este atributo, indicamos una serie de imagenes para aplicarse a diferentes resoluciones de pantalla, pero verás más de esto cuando veamos web responsive. Puedes ver otros atributos en la [documentación de MDN de img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
+
 
 * __Tablas__
 
-* Formularios
+    Lo ideal es usarlas para lo que fueron creadas, tabular información. Las tablas son estructuras en sí mismas. 
+
+    Iniciamos una etiqueta principal: `<table></table>`. Dentro de esta etiqueta enc
+
+    Hay varias etiquetas que anidar: 
+
+    `<tr>` nos permite definir las files que tendra nuestra tabla.
+
+    `<th>` definiremos una celda de cabecera. 
+
+    `<td>` crea una celda. 
+
+    Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta tabla:
+
+    ```html
+        <table>
+            <tr><th>Programa</th><th>Fecha de Inicio</th><th>Fecha de Fin</th><th>No. de Misiones tripuladas</th><th>Notas</th></tr>
+            <tr><td>Mercury program</td><td>1959</td><td>1963</td><td>6</td><td>Primera misión estadounidense tripulada</tr>
+            <tr><td>Gemini program</td><td>1963</td><td>1966</td><td>10</td><td>Program used to practice space rendezvous and EVAs</tr>
+            <tr><td>Apollo program</td><td>1961</td><td>1972</td><td>11[a]</td><td>Llevar el primer hombre a la luna</tr>
+            <tr><td>Skylab</td><td>1973</td><td>1974</td><td>3</td><td>Las misiones tripuladas solo se dieron en 1973 y 1974; primera estación espacial americana</tr>
+            <tr><td>Apollo-Soyuz</td><td>1975</td><td>1975</td><td>1</td><td>Junto a la unión soviética</tr>
+            <tr><td>Shuttle-Mir Program</td><td>1995</td><td>1998</td><td>9[b]</td><td>Partnership con Rusia</tr>
+            <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
+            <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
+            <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
+        </table>
+    ```
+
+    ![Ejemplo de tabla](html-table.png)    
+
+
+    Cuando tenemos tablas más complejas, podemos usar `thead` (zona de cabecera), `tbody`(zona de contenido), `tfoot`(zona de pie), para agrupar celdas y filas en la tabla. Además los atributos `colspan` y   `rowspan` para indicar cuandas columnas o filas, respectivamente va a ocupar una celda, úsalo si van a usar más de 1. 
+
+    Por ejemplo, si hacemos un poco más compleja la tabla anterior.
+
+    ```html
+        <table border="1">
+            <caption>Programas espaciales de NASA</caption>
+            <thead>
+                <tr><th rowspan="2">Programa</th><th colspan="2">Fechas</th><th rowspan="2">No. de Misiones tripuladas</th><th rowspan="2">Notas</th></tr>
+                <tr><th>Inicio</th><th>Fin</th></tr>    
+            </thead>
+            <tbody> 
+                <tr><td>Mercury program</td><td>1959</td><td>1963</td><td>6</td><td>Primera misión estadounidense tripulada</tr>
+                <tr><td>Gemini program</td><td>1963</td><td>1966</td><td>10</td><td>Program used to practice space rendezvous and EVAs</tr>
+                <tr><td>Apollo program</td><td>1961</td><td>1972</td><td>11[a]</td><td>Llevar el primer hombre a la luna</tr>
+                <tr><td>Skylab</td><td>1973</td><td>1974</td><td>3</td><td>Las misiones tripuladas solo se dieron en 1973 y 1974; primera estación espacial americana</tr>
+                <tr><td>Apollo-Soyuz</td><td>1975</td><td>1975</td><td>1</td><td>Junto a la unión soviética</tr>
+                <tr><td>Shuttle-Mir Program</td><td>1995</td><td>1998</td><td>9[b]</td><td>Partnership con Rusia</tr>
+                <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
+                <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
+                <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="5">Continuará</td></tr>
+            </tfoot>
+        </table>
+    ```
+
+    Notarás que en `thead` hemos anidado las filas `tr` que contienen cabeceras. Hemos agregado un `tbody` para agrupar la información. Además un `tfoot` con un pequeño mensaje. También tendré un `caption` que nos permite decir en algunas palabras qué información se mostrará en la tabla.
+
+    Por último, se verá como sigue: 
+
+    ![Ejemplo de tabla compleja](html-table-complex.png)  
+
+    
+* __Formularios__
+
+    
+
 * Extra markup
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
 
