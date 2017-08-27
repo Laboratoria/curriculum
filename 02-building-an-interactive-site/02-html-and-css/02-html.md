@@ -462,7 +462,9 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
             <h6>H6</h6>
         ```
         Estós títulos se van a renderizar como: 
+
         ![Jerarquía de los Headlings](herarchy-headlings.png)
+        
         Donde H1 es el título de mayor jerarquía, y H6 el de menor jerarquía.
 
     - __Párrafos__
@@ -479,7 +481,7 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
         ![<p></p>](html-p.png)
 
     - __pre__:
-         a veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. E ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
+         a veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. En ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
 
         ```html
         <strong>Invictus</strong>
@@ -759,7 +761,7 @@ Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esenci
     
 * __Formularios__
 
-    
+
 
 * Extra markup
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
