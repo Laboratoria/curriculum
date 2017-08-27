@@ -130,7 +130,7 @@ if (module.hot) {
 ```
 
 Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con la info indicada en INIT_STATE
-![State en Redux Dev Tools](redux-dev-tools.jpg)
+![State en Redux Dev Tools](https://github.com/merunga/curricula-js/raw/master/11-react/L06-hocs-global-state/static/redux-dev-tools.jpg)
 
 Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e inyectemos la magia de Redux a nuestros componentes.
 
