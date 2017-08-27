@@ -8,7 +8,7 @@ sources:
 
 ## Paso 5: Determina cómo reacciona tu state a las actions disparadas (**Changes are made with pure functions**)
 
-Ya tenemos a las acciones disparandose, ahora analicemos cómo queremos que el state se modifique ante cada una de ellas. Como lo establece nuestro principio de **Changes are made with pure functions**, vamos a modificar nuestro reducer.
+Ya tenemos a las acciones disparándose, ahora analicemos cómo queremos que el state se modifique ante cada una de ellas. Como lo establece nuestro principio de **Changes are made with pure functions**, vamos a modificar nuestro reducer.
 
 ```js
 // lib/reducer.js
@@ -26,6 +26,7 @@ const PRODUCTS = [
   {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'}
 ];
 
+// El state inicial
 const INIT_STATE = {
   originalProducts: PRODUCTS,
   filterText: '',
@@ -41,6 +42,7 @@ const INIT_STATE = {
   ]
 }
 
+// nuestro reducer
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
     // Si el action es `FILTER_TEXT_CHANGED`
@@ -123,5 +125,3 @@ Si lo piensas, en realidad, React y Redux no son más que un montón de funcione
 > - Y por último considera cómo evoluciona tu state: qué propiedades de tu state reccionan a qué actions
 >
 > Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y claro, resumido solamente a escribir bloques de markup o lógica muy simple.
-
-

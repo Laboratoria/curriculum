@@ -8,13 +8,13 @@ sources:
 
 ## Step 2: Construye una versión estática en React
 
-Ahora que ya tenemos los componentes es hora de comenzar a implementar la aplicación. El paso más simple es comenzar con una versión que recibe usa el `state` real pero sin interactividad. Es mejor separar estos procesos porque la construcción de la versión estática es mas que nada tipear pero no pensar, en cambio agregar interacciones require más de pensar que de tipear. Veremos por qué.
+Ahora que ya tenemos los componentes es hora de comenzar a implementar la aplicación. El paso más simple es comenzar con una versión estática, sin interactividad. Es mejor separar estos procesos porque la construcción de la versión estática es mas que nada tipear pero no pensar, en cambio agregar interacciones require más de pensar que de tipear. Veremos por qué.
 
-Para construir una versión estática que renderice nuestro `state`, querrás contruir componentes que reusen otros componentes pasando información entre unos y otros usando sus `props`.
+Para construir una versión estática querrás contruir componentes que reusen otros componentes pasando información entre unos y otros usando sus `props`.
 
-Puedes construir tu aplicación top-down o bottom-up. Esto quiere decir que puedes comenzar con los componentes más arriba en la jerarquía (i.e. comenzar con `FilterableProductTable`) o con los que están mas abajo (`ProductRow`). En ejemplos simples es generalmente más simple comenzar de arriba hacia abajo, y en proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test a medida que vas subiendo escalones.
+Puedes construir tu aplicación top-down o bottom-up. Esto quiere decir que puedes comenzar con los componentes más arriba en la jerarquía (i.e. comenzar con `FilterableProductTable`) o con los que están mas abajo (`ProductRow`). En casos simples es generalmente más rápido comenzar de arriba hacia abajo, y en proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test a medida que vas subiendo escalones.
 
-Al final de este proceso tendras una librería de componentes reusables que renderizan tus datos. El componente más arriba en la jerarquía (`FilterableProductTable`) recibirá la data como una prop. Si realizas un cambio en el JSON de productos, estos cambios se verán inmediatamente reflejados en tun interfaz. Esta es la maravilla del **one-way data flow**.
+Al final de este proceso tendras una librería de componentes reusables que renderizan tus datos. El componente más arriba en la jerarquía (`FilterableProductTable`) recibirá la data como una prop. Si realizas un cambio en el JSON de productos, estos cambios se verán inmediatamente reflejados en tu interfaz. Esta es la maravilla del **one-way data flow**.
 
 <p data-height="600" data-theme-id="0" data-slug-hash="vXpAgj" data-default-tab="js" data-user="lacker" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/merunga/pen/NvLbjX">Thinking In React: Step 2</a> on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
@@ -113,7 +113,9 @@ const ProductTable = ({ products }) => {
 export default ProductTable
 ```
 
-Y ahora que tenemos un `FilterableProductTable` mas interesante, vamos a crear un poco de data ficticia para ver cómo se ver
+> Tu tienes como tarea indicar los prop-types correspondientes
+
+Y ahora que tenemos un `FilterableProductTable` mas interesante, vamos a crear un poco de data ficticia para ver cómo se muestra:
 
 ```js
 // lib/components/Main.js

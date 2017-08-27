@@ -8,7 +8,7 @@ sources:
 
 ## Paso 4: Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
 
-Hasta ahora, tenemos una aplicación que configura su store de Redux, toma esos valores y los pasa a la interfaz para renderizarlo. Ahora necesitamos conseguir que la información fluya en la otra dirección: de los componentes al state. Como había definido al comienzo, en el mundo de Redux, la única forma de conseguirlo es a través de actions.
+Hasta ahora, tenemos una aplicación que configura su store de Redux, toma esos valores y los pasa a la interfaz para renderizarlo. Ahora necesitamos conseguir que la información fluya en la otra dirección: de los componentes al state. Como habíamos definido al comienzo, en el mundo de Redux, la única forma de conseguirlo es a través de actions.
 
 Asi como en nuestro state inicial, definimos los "sustantivos" de nuestra aplicación, las actions son nuestros "verbos".
 
@@ -16,7 +16,7 @@ Entonces, ¿cuáles son las acciones que un usuario puede realizar en nuestra ap
 - escribir en el input
 - seleccionar o limpiar el checkbox
 
-Tomemos como ejemplo la acción de "escribir en el input" y veamos como la definimos en Redux.
+Tomemos estas acciones y veamos como las definimos en Redux.
 
 Lo primero que vamos a necesitar, es una archivo `lib/actions.js` donde definiremos nuestros `action types` y `action creators` (funciones que devuelven acciones).
 
@@ -39,7 +39,7 @@ export const inStockOnlyChanged = value => ({
 
 Y luego necesitamos dotar a `SearchBar` de la capacidad para disparar estas acciones. Para eso, vamos a crear un nuevo HOC `SearchBarWithRedux`.
 
-Nosotros podríamos crear un container que englobea todo el `FilterableProductTable`, pero hemos elegido hacerlo en `SearchBar` porque es el mínimo componente que recibe interacciones del usuario. A qué nivel tu defines tus contenedores es totalmente arbitrario y suele ser uno de los puntos más complicados si eres nuevx con HOCs y Redux. Como regla general considera cuál es el mínimo componente que es "dueño" del contexto.
+> Nosotros podríamos crear un container que englobea todo el `FilterableProductTable`, pero hemos elegido hacerlo en `SearchBar` porque es el mínimo componente que recibe interacciones del usuario. A qué nivel tu defines tus contenedores es totalmente arbitrario y suele ser uno de los puntos más complicados si eres nuevx con HOCs y Redux. Como regla general considera cuál es el mínimo componente que es "dueño" del contexto.
 
 ```js
 // lib/FilterableProductTable/SearchBar
@@ -65,7 +65,7 @@ const SearchBarWithRedux = connect(
   // El segundo parámetro de `connect` es `mapDispatchToProps`.
   // El el mundo Redux al llamar a un `action creator` lo único que obtenemos
   // es un objeto que expresa que es lo que ha sucedido, pero no dispara la acción.
-  // Para esto necesitas llamas a la función `dispatch` del store.
+  // Para esto necesitas llamar a la función `dispatch` del store.
   // Esto es lo que hace `mapDispatchToProps` mapea llamadas a `dispatch` para tus `action creators`
   function mapDispatchToProps(dispatch) {
     return {

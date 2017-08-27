@@ -127,11 +127,11 @@ Y nuestra API JSON nos devuelve data con la siguiente estructura:
 
 ## Paso 1: Divide la interfaz (UI) en una jerarquía de componentes
 
-Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los componentes y (y sub componentes) y los nombras. Si trabajas con unx diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu diseñadorx es buenx con la semántica, entonces los nombres de los Layers de Photoshop pueden ser buenos nombres para tus componentens de React!
+Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los componentes (y sub componentes) y les das nombres. Si trabajas con unx diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu diseñadorx es buenx con la semántica, entonces los nombres de los Layers de Photoshop pueden ser buenos nombres para tus componentes de React!
 
-Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos criterios que utilizas para decidir si debes crear una nueva función u objecto. De de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle), que en React sería que un componente debe idealmente hacer una sola cosa. Si comienza a crecer es hora de decomponerlos en componentes mas pequeños.
+Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos criterios que utilizas para decidir si debes crear una nueva función u objecto. Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle), que en React sería que un componente debe idealmente hacer una sola cosa. Si comienza a crecer es hora de decomponerlos en componentes mas pequeños.
 
-Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás que cuando has modelado correctamente tu `state`, tu UI (y con ella la estructura de tus componentes) se amoldará si problemas. Esto es porque tu UI y tu `state` suelen adherirse a la misma *arquitectura de la información*, lo que implica que en general separar tu UI de tu data es trivial: divide tus componentes de tal manera que representen exactamente una porción de tu data.
+Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás que cuando has modelado correctamente tu `state`, tu UI (y con ella la estructura de tus componentes) se amoldará si problemas. Esto es porque tu UI y tu `state` suelen adherirse a la misma *arquitectura de la información*, lo que implica que en general separar tu UI de tu data es trivial: divide tus componentes de tal manera que representen exactamente una porción de la información.
 
 ![Component diagram](https://facebook.github.io/react/img/blog/thinking-in-react-components.png)
 
