@@ -95,9 +95,8 @@ Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de Github creada.
 
 **¿Cómo creamos un repositorio remoto en Github?**
-
 1. Debemos de tener nuestra sesión iniciada en Github  
-![''](http://fotos.subefotos.com/67bc6cf6637b0de74d857fa22032183ao.png)  
+![''](http://fotos.subefotos.com/e7cee71ac9b78b202899d5a3231126d2o.png)  
 2. Buscaremos el botón 'New Repository' y haremos clic en él  
 ![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
 3. Ahora tendremos que poner los datos de nuestro repositorio  
