@@ -75,8 +75,8 @@ A continuación te damos una lista de métodos de los `arrays` que debes investi
 - `indexOf()`
 - `join()`
 - `slice()`
+- `splice()`
 - `lastIndexOf()`
-- `trim()`
 
 Recuerda que para tu investigación te recomendamos la información que ofrece la [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). También puedes buscar en Google e ir experimentando con la consola tú misma viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un `array` cualquiera y vayas probando lo que aprendes para garantizar que entienes cómo funcionan las cosas.
 

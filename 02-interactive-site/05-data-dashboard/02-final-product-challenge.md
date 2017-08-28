@@ -1,4 +1,3 @@
-Gracias a @gian
 # Producto Final: Data Dashboard
 - Tipo: `code`
 - Formato: `self-learning`
