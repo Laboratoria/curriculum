@@ -225,7 +225,7 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   Creamos una rama por medio del comando:
   >git branch nombre-rama  
   
-  Con este comando habremos creado una rama, pero aún nos situaremos en la rama en la que estemos antes de crearla, para cambiar de rama debemos de ejecutar el comando:
+  Con este comando habremos creado una rama, si queremos situarnos dentro de ella debemos de ejecutar:
   >git checkout nombre-rama
   
   También tenemos un comando con el que podemos crear la rama y a la vez situarnos en ella:
