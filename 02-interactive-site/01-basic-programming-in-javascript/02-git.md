@@ -101,7 +101,7 @@ Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 2. Buscaremos el botón 'New Repository' y haremos clic en él  
 ![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
 3. Ahora tendremos que poner los datos de nuestro repositorio  
-![''](http://fotos.subefotos.com/953fd9b9fdb4d82b2cc82d902031c1fdo.png)  
+![''](http://fotos.subefotos.com/73251f8b118b175be8f2819853b1cf29o.png)  
 4. Debemos especificar un nombre y quién es el 'Owner'(propietario)
 ![''](http://fotos.subefotos.com/d1aa966e46220e9e59a44370e795094eo.png)  
 5. Seleccionamos la opción 'Public'
