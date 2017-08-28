@@ -135,7 +135,7 @@ Si valueOf(..) se puede usar, es llamado y devuelve un valor primitivo.
 Si .toString(..) se puede usar, es llamado y devuelve un valor primitivo.
 En otros casos devuelve un error.
 
-### Nota: El mecanismo que normalmente se utiliza es toString().
+##### Nota: El mecanismo que normalmente se utiliza es toString().
 
 ## Algoritmo de ==
 
@@ -185,7 +185,7 @@ Si cualquiera de los valores es boolean, utiliza ===
 Si no tienes claro si los valores son convertidos por coerción, usa ===
 En otros casos podrías usar con seguridad ==
 
-### Nota: Por convención y una buena práctica la comunidad promueve el uso de ===
+##### Nota: Por convención y una buena práctica la comunidad promueve el uso de ===
 
 ## Desigualdades
 
