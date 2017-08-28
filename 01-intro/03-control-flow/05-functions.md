@@ -9,7 +9,7 @@
 - Entender qué son las funciones y cómo afectan el control de flujo de un programa
 - Conocer la estructura de las funciones en JavaScript
 - Entender cómo pasarle argumentos a una función
-- Entender el conepto de `return` de las funciones
+- Entender el concepto de `return` de las funciones
 
 ***
 
@@ -75,11 +75,11 @@ var square = function(num) {
   return num * num;
 };
 
-console.log("El cuadrado de 12 es " + square(12));
+console.log('El cuadrado de 12 es ' + square(12));
 // → El cuadrado de 12 es 144
 ```
 
-Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`. Éste se concatena con el texto `"El cuadrado de 12 es "` para formar `"El cuadrado de 12 es 144"`; lo cual, a su vez, se pasa como argumento a la función `console.log` para que lo imprima en la consola.
+Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`. Éste se concatena con el texto `'El cuadrado de 12 es '` para formar `'El cuadrado de 12 es 144'`; lo cual, a su vez, se pasa como argumento a la función `console.log` para que lo imprima en la consola.
 
 ## Múltiples parámetros
 
@@ -87,7 +87,7 @@ Una función puede tener varios parámetros o puede no tener ninguno. En el sigu
 
 ```js
 var makeNoise = function() {
-  console.log("Pling!");
+  console.log('Pling!');
 };
 
 makeNoise();
@@ -120,7 +120,7 @@ var fifthLetter = function (name) {
   if (name.length < 5) {
     return;
   }
-  return "La quinta letra de tu nombre es " + name[4] + ".";
+  return 'La quinta letra de tu nombre es ' + name[4] + '.';
 };
 ```
 
@@ -138,12 +138,12 @@ Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo d
 ```js
 var medalForScore = function (score) {
  if (score < 3) {
- return "Bronze";
+ return 'Bronze';
  }
  if (score < 7) {
- return "Silver";
+ return 'Silver';
  }
- return "Gold";
+ return 'Gold';
 };
 ```
 

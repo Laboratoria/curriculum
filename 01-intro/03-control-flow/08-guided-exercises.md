@@ -22,7 +22,7 @@ Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La f
 
 #### 2. Ordenando comida
 
-Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es `ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`, elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`. En el caso raro que ninguna de esas opciones esté disponible, te irías por una `hamburguesa`. Escribe una función, que de acuerdo a la disponibilida de los platos en el menú, decida qué ordenar.
+Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es `ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`, elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`. En el caso raro que ninguna de esas opciones esté disponible, te irías por una `hamburguesa`. Escribe una función, que de acuerdo a la disponibilidad de los platos en el menú, decidas qué ordenar.
 
 #### 3. Edades y etapas
 
@@ -32,7 +32,7 @@ Si la persona ingresa un dato que **no** es un número entero (por ejemplo: un `
 
 #### 4. Contando caracteres y espacios
 
-Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga: el número de caracteres y de espacios que componen el `string` ingresado. En la consola, debe aparecer cada caracter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
+Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web debe presentar un mensaje que diga: el número de caracteres y de espacios que componen el `string` ingresado. En la consola, debe aparecer cada carácter impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo vacío, la web debe dar un mensaje de error.
 
 Arma tu archivo JavaScript para que tenga 3 funciones:
 
