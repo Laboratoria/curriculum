@@ -1,16 +1,21 @@
-# Repaso de conceptos: Intro JS
+# Repaso de conceptos: Intro JS + Git + CLI
 - Tipo: `clase presencial`
 - Formato: `guided-learning`
-- Duración: `120min`
+- Duración: `180min`
 
 ## Objetivos de Aprendizaje
 
-En esta unidad haremos un repaso del curso `Intro a la programación con Javascript`, asegurando que sabemos:
+En esta unidad haremos un repaso del curso `Intro a la programación con
+Javascript`, asegurando que sabemos:
 * Cuáles son los `tipos de datos` primitivos en Javascript
 * Utilizar `variables`
-* Cómo modificar el control de flujo de un programa: `estructuras condicionales` y `estructuras repetitivas`
+* Cómo modificar el control de flujo de un programa:
+`estructuras condicionales` y `estructuras repetitivas`
 * Utilizar `funciones`
 
+Además repasaremos conceptos clave del flujo de trabajo de una developer:
+* Utilización de la línea de comandos
+* Control de versiones con `git` y `GitHub`
 
 ## Agenda
 
@@ -38,6 +43,13 @@ En esta unidad haremos un repaso del curso `Intro a la programación con Javascr
   * `switch`
   * `function`
   * `return`
+
+3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos, repasemos el funcionamiento de:
+  * La línea de comando
+  * Flujo básico de trabajo con git (`git init`, `git remote add origin` ...)
+  * Creación y manipulación de ramas en `git`
+
+4. Asegurar que 100% de las alumnas tenga bien configurado su ambiente de trabajo
 
 ***
 
