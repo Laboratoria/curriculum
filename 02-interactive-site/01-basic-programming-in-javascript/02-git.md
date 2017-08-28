@@ -94,6 +94,25 @@ Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de Github creada.
 
+**¿Cómo creamos un repositorio remoto en Github?**
+
+1. Debemos de tener nuestra sesión iniciada en Github  
+![''](http://fotos.subefotos.com/67bc6cf6637b0de74d857fa22032183ao.png)  
+2. Buscaremos el botón 'New Repository' y haremos clic en él  
+![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
+3. Ahora tendremos que poner los datos de nuestro repositorio  
+![''](http://fotos.subefotos.com/953fd9b9fdb4d82b2cc82d902031c1fdo.png)  
+4. Debemos especificar un nombre y quién es el 'Owner'(propietario)
+![''](http://fotos.subefotos.com/d1aa966e46220e9e59a44370e795094eo.png)  
+5. Seleccionamos la opción 'Public'
+![''](http://fotos.subefotos.com/c88509f397acc44e08ab09353e7c6e8do.png)  
+6. Hacemos clic en el botón final 'Create repository'
+![''](http://fotos.subefotos.com/726b2b68fbfae016cee6029b0b5df9e8o.png)  
+
+Ahora, Michelle te ayudará a crear tu primer repositorio remoto en Github:  
+[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
+
+
 ## Instalando y configurando Git
 
 Primero debemos descargar `Git` en nuestro equipo, elige la opción en función al sistema operativo que tengas instalado en tu equipo:
@@ -211,5 +230,8 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
 
 Entonces nuestro flujo para subir nuestros avances al proyecto sería así:
 ![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)
+
+En el siguiente video Michelle te guiará en cómo subir un repositorio local a un repositorio remoto:  
+[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 
 [Continuar](03-recap-intro.md)
