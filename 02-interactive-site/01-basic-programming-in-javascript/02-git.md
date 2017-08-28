@@ -95,26 +95,41 @@ Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de Github creada.
 
 **¿Cómo creamos un repositorio remoto en Github?**
+
 1. Debemos de tener nuestra sesión iniciada en Github  
-![''](http://fotos.subefotos.com/e7cee71ac9b78b202899d5a3231126d2o.png)  
+
+  ![''](http://fotos.subefotos.com/e7cee71ac9b78b202899d5a3231126d2o.png)  
+
 2. Buscaremos el botón 'New Repository' y haremos clic en él  
-![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
+
+  ![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
+
 3. Ahora tendremos que poner los datos de nuestro repositorio  
-![''](http://fotos.subefotos.com/73251f8b118b175be8f2819853b1cf29o.png)  
-4. Debemos especificar un nombre y quién es el 'Owner'(propietario)
-![''](http://fotos.subefotos.com/d1aa966e46220e9e59a44370e795094eo.png)  
-5. Seleccionamos la opción 'Public'
-![''](http://fotos.subefotos.com/c88509f397acc44e08ab09353e7c6e8do.png)  
-6. Hacemos clic en el botón final 'Create repository'
-![''](http://fotos.subefotos.com/726b2b68fbfae016cee6029b0b5df9e8o.png)  
+
+  ![''](http://fotos.subefotos.com/73251f8b118b175be8f2819853b1cf29o.png)  
+
+4. Debemos especificar un nombre y quién es el 'Owner'(propietario)  
+
+  ![''](http://fotos.subefotos.com/d1aa966e46220e9e59a44370e795094eo.png)  
+
+5. Seleccionamos la opción 'Public'  
+
+  ![''](http://fotos.subefotos.com/c88509f397acc44e08ab09353e7c6e8do.png)  
+
+6. Y por último, hacemos clic en el botón final 'Create repository' 
+
+  ![''](http://fotos.subefotos.com/726b2b68fbfae016cee6029b0b5df9e8o.png)  
+
 
 Con estos pasos ya habremos creado nuestro repositorio remoto y ahora nos aparecerá la siguiente pantalla:  
+
 ![''](http://fotos.subefotos.com/fc40e19acd737e044b8dd2fbaf114ad4o.png)
+
 En donde encontrarmos la url, con la cuál vincularemos nuestro repositorio remoto con nuestro repositorio local.
 
 Ahora, Michelle te ayudará a crear tu primer repositorio remoto en Github:  
-[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 
+[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 
 ## Instalando y configurando Git
 
@@ -127,26 +142,45 @@ Primero debemos descargar `Git` en nuestro equipo, elige la opción en función 
 Cuando haya terminado la descarga de nuestro programa comenzaremos con la instalación haciendo doble clic en el archivo que se acaba de descargar y luego nos aparecerán las siguientes pantallas:
 
 1. Hacemos clic en el botón **Run**  
+
   !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)  
 2. Ahora en **Next >**  
-  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)  
-3. Nos parecerá la siguiente pantalla, aquí, seleccionaremos las siguientes opciones y hacemos clic en **Next >**  
-  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)  
-4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows Command Prompt** y hacemos clic en **Next >**  
-  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)  
-5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)  
-  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)  
-6. Elegimos la primera opción y seguimos  
-  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)  
-7. Nos aseguramos de escoger la opción **Use MinTTY**  
-  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)  
-8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**  
-  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)  
-9. Ahora comenzará a instalarse  
-  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)  
-10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish** 
-  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)  
 
+  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)  
+
+3. Nos parecerá la siguiente pantalla, aquí, seleccionaremos las siguientes opciones y hacemos clic en **Next >**  
+
+  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)  
+
+4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows Command Prompt** y hacemos clic en **Next >**  
+
+  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)  
+
+5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)  
+
+  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)  
+
+6. Elegimos la primera opción y seguimos  
+
+  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)  
+
+7. Nos aseguramos de escoger la opción **Use MinTTY**  
+
+  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)  
+
+8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**  
+
+  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)  
+
+9. Ahora comenzará a instalarse  
+
+  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)  
+
+10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish** 
+  
+  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)  
+  
+---
 Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.
 
 Lo primero que debemos de hacer es establecer nuestro **username** y **dirección de correo** debido a que `Git` utilizará estos datos para la confirmación de cambios (o como los conoceremos más adelante: `commits`), podemos configurar estos datos por medio del comando `git config`, este, nos permite obtener y establecer variables de configuración que controlan el aspecto y funcionamiento de `Git`, como por ejemplo si ejecuto el comando `git config --list` en mi terminal me devuelve esto:
