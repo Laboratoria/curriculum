@@ -265,10 +265,12 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   También tenemos un comando con el que podemos crear la rama y a la vez situarnos en ella:
   >git checkout -b nombre-rama
 
-Entonces nuestro flujo para subir nuestros avances al proyecto sería así:
+Entonces nuestro flujo para subir nuestros avances al proyecto sería así:  
+
 ![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)
 
-En el siguiente video Michelle te guiará en cómo subir un repositorio local a un repositorio remoto:  
+En el siguiente video Michelle te guiará en cómo subir un repositorio local a un repositorio remoto:    
+
 [![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 
 [Continuar](03-recap-intro.md)
