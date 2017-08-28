@@ -29,13 +29,13 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 
 > **¿Qué es el `Sistema de Control de Versiones`?**
 El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:  
-![''](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
-Gracias al VCS podemos hacer que eso no suceda debido a que permite:
-- Revertir los archivos a un estado anterior.
-- Revertir todo el proyecto a un estado anterior.
-- Comparar los cambios que se hayan hecho a lo largo del proyecto.
-- Ver quién introdujo un cambio o actualizó el archivo y cuándo.
-- Y lo más importante, asegura que los archivos no se pierdan.
+!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+  Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+  - Revertir los archivos a un estado anterior.
+  - Revertir todo el proyecto a un estado anterior.
+  - Comparar los cambios que se hayan hecho a lo largo del proyecto.
+  - Ver quién introdujo un cambio o actualizó el archivo y cuándo.
+  - Y lo más importante, asegura que los archivos no se pierdan.
 
 Ahora bien, `Git` es un `Sistema de Control de Versiones` que nos ayudará a guardar y diferenciar todos los cambios que haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
 
@@ -45,8 +45,6 @@ almacena el archivo de nuevo, sólo un enlace al archivo idéntico anterior que 
 Tanto la colección de archivos como sus versiones completas serán guardadas en un `repositorio`.
 
 En resúmen, Git piensa en tus archivos como un flujo de 'imágenes' por eso a cada cambio que vayamos realizando le tomará una foto en el instante que le indiquemos y todo eso lo almacenará en un `repositorio`.
-
-!['Funcionamiento de Git'](http://fotos.subefotos.com/f7fc159919687104bb23335ea9d52555o.png)
 
 **Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de trabajar con Git**  
 
@@ -69,14 +67,20 @@ Pero `Github` no solo sirve para 'subir' nuestro código, él también contribui
 
 - Un `visor de versiones` donde se puede comparar el progreso del proyecto en las distintas versiones.
 
->En resumen, se podría decir que `Github` es como Dropbox pero para **developers**.
+**En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
 
 
 ## ¿Cuál es la diferencia entre Git y Github?
 
->Git y Github se complementan pero no son iguales.
+Git y Github se complementan pero no son iguales.
 
 `Github` utiliza a `Git` como `Sistema de Control de Versiones`. Gracias a `Git` podremos guardar localmente los diferentes avances(estados) de nuestro proyecto y gracias a `Github` podremos subir esos avances a la `nube` y comenzar un trabajo colaborativo o trabajar en nuestros proyectos personales sin depender de la computadora donde se encuentre el proyecto o tener que estar guardándolo en un usb para copiarlo a otra computadora.
+
+## ¿Por qué es importante Git y Github?
+
+La programación se da, en su mayoría de veces, en equipos. Varias empresas tiene un equipo que se complementa para cada uno de sus proyectos, ante esta situación te preguntarás: ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajar cada uno por su lado y al momento de tener que unir las partes tener que ver detalladamente si se repiten o no. Esto sería algo para nada eficiente porque no se podría trabajar al mismo tiempo en algo en específico, se tendría que depender del avance de otro para que nosotros podamos avanzar.
+
+Para estos casos existen herramientas como Git y Github, los cuáles nos ayudan al momento de un trabajo colaborativo. Github es el lugar perfecto para trabajar conjuntamente en un proyecto con uno o varios compañeros, podrás crear un proyecto y añadir como colaboradores a los miembros de tu equipo; además, podrás traer a tu repositorio local los cambios que tus compañeros hayan subido al repositorio remoto y podrás ver automáticamente lo que acaba de añadir tu compañero. 
 
 ## ¿Cómo crear una cuenta en Github?
 
@@ -94,45 +98,21 @@ Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de Github creada.
 
-**¿Cómo creamos un repositorio remoto en Github?**
+Ahora Michelle, siguiendo los pasos anteriores, creará su cuenta en github.
 
-1. Debemos de tener nuestra sesión iniciada en Github  
+[![creando cuenta de github](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
 
-  ![''](http://fotos.subefotos.com/e7cee71ac9b78b202899d5a3231126d2o.png)  
+## ¿Cómo creamos un repositorio remoto en Github?
 
-2. Buscaremos el botón 'New Repository' y haremos clic en él  
+Sigue los pasos de Michelle para crear un repositorio en Github
 
-  ![''](http://fotos.subefotos.com/7bc60c5ea654a7623a6e079aa4e2ad78o.png)  
+[![Cceando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
-3. Ahora tendremos que poner los datos de nuestro repositorio  
+Por último tenemos la pantalla donde encontrarmos la url, con la cuál (más adelante) vincularemos nuestro repositorio remoto con nuestro repositorio local.
 
-  ![''](http://fotos.subefotos.com/73251f8b118b175be8f2819853b1cf29o.png)  
+## ¿Cómo instalamos y configuramos Git?
 
-4. Debemos especificar un nombre y quién es el 'Owner'(propietario)  
-
-  ![''](http://fotos.subefotos.com/d1aa966e46220e9e59a44370e795094eo.png)  
-
-5. Seleccionamos la opción 'Public'  
-
-  ![''](http://fotos.subefotos.com/c88509f397acc44e08ab09353e7c6e8do.png)  
-
-6. Y por último, hacemos clic en el botón final 'Create repository' 
-
-  ![''](http://fotos.subefotos.com/726b2b68fbfae016cee6029b0b5df9e8o.png)  
-
-
-Con estos pasos ya habremos creado nuestro repositorio remoto y ahora nos aparecerá la siguiente pantalla:  
-
-![''](http://fotos.subefotos.com/fc40e19acd737e044b8dd2fbaf114ad4o.png)
-
-En donde encontrarmos la url, con la cuál vincularemos nuestro repositorio remoto con nuestro repositorio local.
-
-Ahora, Michelle te ayudará a crear tu primer repositorio remoto en Github:  
-
-[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
-
-## Instalando y configurando Git
-
+Acabamos de 
 Primero debemos descargar `Git` en nuestro equipo, elige la opción en función al sistema operativo que tengas instalado en tu equipo:
 
   - [Windows](https://git-scm.com/download/win)
@@ -206,7 +186,13 @@ Primero debemos de acceder a nuestra terminal `git bash` (debemos buscarla entre
 
 Los datos con los que llenes las líneas anteriores deben de ser los mismo con los que creaste tu cuenta de `Github`, porque como te comentaba con ellos se registrarán los `commits` que hagas en `Git` y que luego pasarán al historial de nuestro proyecto en `Github`.
 
-## Comandos de Git
+## ¿Cómo usar Git y Github?
+
+En el anterior video hemos visto cómo podemos hacer con Git y Github maravillas. Hemos creado un proyecto y lo trabajamos colaborativamente sin necesidad de tener que depender del otro miembro para poder avanzar. 
+
+Con Github y Git, tan solo con que un colaborador suba sus cambios al repositorio remoto y nosotros haciendo un `pull` tendríamos los últimos avances del proyecto.
+
+Aquí tienes la lista de los comandos más comunes que usarás:
 
 - `init`: Esto le dice a Git que debe empezar a llevar el control de versiones de todos los cambios que se realicen en un proyecto. Se inicia al momento de ejecutar el siguiente comando en la consola de Git(`git bash`).
   >git init
@@ -237,7 +223,8 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   > git remote add origin https://github.com/MichelleSV/prueba.git
   
 - `push`: Por medio de `push` enviaremos nuestra 'nueva versión' a la nube.
-  >git push nombre-remoto nombre-rama
+  >git push nombre-remoto nombre-rama  
+  
   En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto y en **nombre-rama** pondremos el nombre de la rama a la cual queremos que se envíen los cambios. Como hemos leído antes, por defecto, los repositorios traen una rama llamada `master` y si queremos subir a esa rama nuestros cambios sería así la línea que debemos ejecutar:
   >git push origin master
   
@@ -255,7 +242,7 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   >git merge prueba
   Y así estaremos fusionando la rama 'master' con la rama 'prueba'
   
-- `branch`: Una `branch` o rama es una copia paralela que creamos de nuestro código. Por defecto todos los repositorio traen un rama base llamada `master`, podemos trabajar en esa rama todo el tiempo, pero si queremos hacer cambios sin que afecten a nuestra versión 'original' podemos crear otras ramas.
+<!--- `branch`: Una `branch` o rama es una copia paralela que creamos de nuestro código. Por defecto todos los repositorio traen un rama base llamada `master`, podemos trabajar en esa rama todo el tiempo, pero si queremos hacer cambios sin que afecten a nuestra versión 'original' podemos crear otras ramas.
   Creamos una rama por medio del comando:
   >git branch nombre-rama  
   
@@ -263,14 +250,11 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   >git checkout nombre-rama
   
   También tenemos un comando con el que podemos crear la rama y a la vez situarnos en ella:
-  >git checkout -b nombre-rama
+  >git checkout -b nombre-rama-->
 
-Entonces nuestro flujo para subir nuestros avances al proyecto sería así:  
+<!--falta pull en el flujo y status, no poner branch-->
+<!--Entonces nuestro flujo para subir nuestros avances al proyecto sería así:  
 
-![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)
-
-En el siguiente video Michelle te guiará en cómo subir un repositorio local a un repositorio remoto:    
-
-[![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
+![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)-->
 
 [Continuar](03-recap-intro.md)
