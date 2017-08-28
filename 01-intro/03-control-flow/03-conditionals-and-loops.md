@@ -18,7 +18,15 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 6 de
 ***
 
 ## Control de Flujo
-La razón por la cual creamos programas de computación es para **resolver problemas**. Un programa, hemos visto, es simplemente un conjunto de "instrucciones" que las computadoras siguen. Ese conjunto de instrucciones resuleven un problema. Hasta ahora hemos aprendido a obtener, representar, manipular y almacenar data en `variables`. Con esto, hemos podido crear programas que resuleven problemas muy sencillos. Esto es el caso, por ejempo, del programa que hicimos para transformar la temperatura en Celsius (°C) a Farenheit (°F). Sin embargo, para crear programas más complejos, es necesario expandir nuestro conocimiento sobre el _control de flujo de un programa_ y las estructuras que existen para modificar este flujo.
+La razón por la cual creamos programas de computación es para **resolver problemas con ayuda de las computadoras**. Un programa, como hemos visto, es simplemente un conjunto de "instrucciones" que las computadoras siguen. Ese conjunto de instrucciones resuelven un problema. 
+
+Ahora bien, a la manera en cómo la computadora lee, interpreta y sigue dichas instrucciones, se le conoce como el flujo de un programa.
+
+Hasta ahora hemos aprendido a obtener, representar, manipular y almacenar data en `variables`. Con esto, hemos podido crear programas que resuelven problemas muy sencillos. Esto es el caso, por ejemplo, del programa que hicimos para transformar la temperatura en Celsius (°C) a Farenheit (°F).
+
+Sin embargo, para crear programas que le digan a la computadora cómo hacer tareas más complejas, es necesario expandir nuestro conocimiento sobre la manera en cómo podemos controlar el flujo de un programa a través de __estructuras de control de flujo__.
+
+Por lo tanto, entendamos el control de flujo de un programa, como la forma en que le voy a indicar a la computadora, a través de instrucciones, el camino que debe seguir para resolver un problema según las alternativas que yo le indique. 
 
 Para utilizar la terminología correcta de JavaScript, de ahora en adelante, sustituiremos la palabra "instrucciones" por la palabra "sentencias". Una sentencia JavaScript es el equivalente a una oración en un leguaje humano. Entendemos, por lo tanto, que un programa en JavaScript es una lista de "sentencias JavaScript"; es decir, un conjunto de oraciones que le dicen al computador qué hacer.
 
