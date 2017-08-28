@@ -55,7 +55,7 @@ En resúmen, Git piensa en tus archivos como un flujo de 'imágenes' por eso a c
   - working directory: Que es nuestro directorio de trabajo.
   - staging area: Es el área de preparación, y se define como un espacio de memoria en la computadora en donde se guardarán temporalmente los cambios que realizaremos en el archivo de trabajo.
   
-- Repositorio remoto: Git nos permite sincronizar nuetro repositorio local con un repositorio remoto.
+- Repositorio remoto: Git nos permite sincronizar nuetro repositorio local con un repositorio remoto o repositorio en la 'nube'.
 
 ## ¿Qué es Github?
 
@@ -200,6 +200,14 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
   Y así estaremos fusionando la rama 'master' con la rama 'prueba'
   
 - `branch`: Una `branch` o rama es una copia paralela que creamos de nuestro código. Por defecto todos los repositorio traen un rama base llamada `master`, podemos trabajar en esa rama todo el tiempo, pero si queremos hacer cambios sin que afecten a nuestra versión 'original' podemos crear otras ramas.
+  Creamos una rama por medio del comando:
+  >git branch nombre-rama  
+  
+  Con este comando habremos creado una rama, pero aún nos situaremos en la rama en la que estemos antes de crearla, para cambiar de rama debemos de ejecutar el comando:
+  >git checkout nombre-rama
+  
+  También tenemos un comando con el que podemos crear la rama y a la vez situarnos en ella:
+  >git checkout -b nombre-rama
 
 Entonces nuestro flujo para subir nuestros avances al proyecto sería así:
 ![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)
