@@ -138,16 +138,17 @@ Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo d
 ```js
 var medalForScore = function (score) {
  if (score < 3) {
- return "Bronze";
+  return 'Bronze';
  }
  if (score < 7) {
- return "Silver";
+  return 'Silver';
  }
- return "Gold";
+ 
+ return 'Gold';
 };
 ```
 
-Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones --- porque, recuerda, **las funciones sólo pueden devolver una vez**.
+Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias `if ... else` encadenadas. Utilizamos las sentencias `if ... else` para garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada una de las opciones tiene su propia sentencia de `return`,  garantizamos que se ejecute sólo una de las opciones porque, recuerda, **las funciones sólo pueden devolver una vez**.
 
 ***
 
