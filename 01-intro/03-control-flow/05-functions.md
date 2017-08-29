@@ -13,8 +13,8 @@
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+El texto a continuación se basa en gran medida, con ciertos ajustes, en los
+capítulos 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
 
@@ -113,7 +113,7 @@ A continuación Michelle te explica funciones con un ejemplo del libro JavaScrip
 
 Cuando el intérprete JavaScript se topa con un `return` dentro de una función, inmediatamente salta fuera de la función actual y pasa el valor retornado al código que la llamó. Es decir, cualquier sentencia que coloquemos **después** del `return` en una función, **no** será ejecutada.
 
-Una forma común de utilizar `return` es para salir de la función de manera temprana si alguno de los argumentos brindados no son válidos; es decir, si no son el tipo de argumentos que la función necesita para funcionar correctamente. Por ejemplo, la siguiente función devuelve una cadena que indica el quinto carácter de tu nombre. Si el nombre pasado a la función tiene menos de cinco caracteres, la función utiliza `return` para dejar la función inmediatamente. Esto significa que la declaración de devolución al final, que te dice la quinta letra de tu nombre, nunca se ejecuta.
+Una forma común de utilizar `return` es para salir de la función de manera temprana si alguno de los argumentos brindados no son válidos; es decir, si no son el tipo de argumentos que la función necesita para funcionar correctamente. Por ejemplo, la siguiente función devuelve una cadena que indica el quinto caracter de tu nombre. Si el nombre pasado a la función tiene menos de cinco caracteres, la función utiliza `return` para dejar la función inmediatamente. Esto significa que la declaración de devolución al final, que te dice la quinta letra de tu nombre, nunca se ejecuta.
 
 ```js
 var fifthLetter = function (name) {

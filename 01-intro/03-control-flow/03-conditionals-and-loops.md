@@ -237,7 +237,7 @@ En este caso, como queremos imprimir los números pares del 1 al 12, creamos una
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará si quieres detener el script después de unos cuantos segundos. Si eso falla, tendrás que cerrar la pestaña en la que estás trabajando, o, en otros nevagadores, cerrar el navegador entero para recuperarte.
 
-Vamos algunas variantes de este mismo problema para asegurarnos que entendemos bien cómo funciona el ciclo `while`:
+Vemos algunas variantes de este mismo problema para asegurarnos que entendemos bien cómo funciona el ciclo `while`:
 
 - ¿Cómo hacemos para imprimir los números **pares** del 1 al 100?: Modificamos la condición para que el bucle corra mientras `number` sea <= 100.
 
@@ -279,7 +279,7 @@ while (number <= 12) {
 //   … etcetera hasta 12
 ```
 #### Bucles `do`
-El bucle `do` es una estructura de control similar al bucle `while`. Se diferencia en sólo un punto: un bucle `do` siempre ejecuta su cuerpo **por lo menos una vez** y empieza a verificar si debería parar sólo después de la primera ejecución. Para reflejar esto, la condición aprece después del cuerpo del bucle. Veamos un ejemplo:
+El bucle `do` es una estructura de control similar al bucle `while`. Se diferencia en sólo un punto: un bucle `do` siempre ejecuta su cuerpo **por lo menos una vez** y empieza a verificar si debería parar sólo después de la primera ejecución. Para reflejar esto, la condición aparece después del cuerpo del bucle. Veamos un ejemplo:
 
 ``` js
 do {
@@ -307,7 +307,7 @@ for (var number = 0; number <= 12; number = number + 2){
 ```
 Este programa es exactamente equivalente al ejemplo previo de impresión de números pares. El único cambio es que todas las sentencias que están relacionadas con el "estado" del bucle están agrupadas.
 
-Los paréntesis después del keyword `for` tienen que contener dos punto y coma (`;`). La parte que está antes del primer punto y coma _inicializa_ el bucle, normalmente al definir una variable. La segunda parte es la expresión que _verifica_ si el bucle tiene que continuar. La parte final _actualiza_ el estado del bucle antes de cada iteración. En la mayoría de los casos, esto es más corto y claro que una construcción con `while`.
+Los paréntesis después del keyword `for` tienen que contener dos puntos y coma (`;`). La parte que está antes del primer punto y coma _inicializa_ el bucle, normalmente al definir una variable. La segunda parte es la expresión que _verifica_ si el bucle tiene que continuar. La parte final _actualiza_ el estado del bucle antes de cada iteración. En la mayoría de los casos, esto es más corto y claro que una construcción con `while`.
 
 Aquí está un código que calcula 2^10 (2 exponencial 10), usando el bucle `for`:
 
