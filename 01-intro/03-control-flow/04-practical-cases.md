@@ -40,7 +40,7 @@ Pasar ese `string` a console.log debería mostrar algo como esto:
 # # # #
 ```
 
-Cuando tengas un programa que genere este patrón, define una variable `size` = 8 y cambia el programa de tal manera que trabaje para cualquier tamaño, que sea proporcionado por un `prompt()` produciendo una cuadrícula del ancho y alto dado.
+Cuando tengas un programa que genere este patrón, define una variable `size = 8` y cambia el programa de tal manera que trabaje para cualquier tamaño que sea proporcionado por un `prompt()`, produciendo una cuadrícula del ancho y alto dado.
 
 
 ## Solucionarios
@@ -53,7 +53,7 @@ A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios 
 
 #### 2. Tablero de Ajedrez: Solucionario
 
-[![Tablero](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://www.youtube.com//watch?v=ckaXH2IhUrw)
+[![Tablero Ajedrez Solution](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://www.youtube.com//watch?v=ckaXH2IhUrw)
 
 ***
 
