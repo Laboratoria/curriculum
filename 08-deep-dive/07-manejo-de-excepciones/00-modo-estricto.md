@@ -7,7 +7,7 @@
 ***
 
 El modo estricto realiza cambios en la semántica normal de javascript. Un aspecto importante es que el modo estricto elimina errores silenciosos, lo que obligó a escribir un código mejor y no cometer errores.
-La directiva use strict es una directiva que no supone una instrucción de código, sino que indica el modo en que el navegador debe ejecutar el código JavaScript. Podríamos hablar de dos modos de ejecución JavaScript: <<normal mode>>, que es el que hemos estudiado hasta ahora, y el <<strict mode>>, que vamos a explicar.
+La directiva use strict es una directiva que no supone una instrucción de código, sino que indica el modo en que el navegador debe ejecutar el código JavaScript. Podríamos hablar de dos modos de ejecución JavaScript: `normal mode`, que es el que hemos estudiado hasta ahora, y el `strict mode`, que vamos a explicar.
 Invocando el modo estricto
 Para invocar el modo estricto, sólo tienes que escribir “use strict”; en tu archivo javascript, por ejemplo.
 'use strict';
