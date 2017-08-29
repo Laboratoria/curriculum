@@ -30,12 +30,12 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 > **¿Qué es el `Sistema de Control de Versiones`?**
 El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:  
 !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
-  Gracias al VCS podemos hacer que eso no suceda debido a que permite:
-    - Revertir los archivos a un estado anterior.
-    - Revertir todo el proyecto a un estado anterior.
-    - Comparar los cambios que se hayan hecho a lo largo del proyecto.
-    - Ver quién introdujo un cambio o actualizó el archivo y cuándo.
-    - Y lo más importante, asegura que los archivos no se pierdan.
+  Gracias al VCS podemos hacer que eso no suceda debido a que permite:  
+    - Revertir los archivos a un estado anterior.  
+    - Revertir todo el proyecto a un estado anterior.  
+    - Comparar los cambios que se hayan hecho a lo largo del proyecto.  
+    - Ver quién introdujo un cambio o actualizó el archivo y cuándo.  
+    - Y lo más importante, asegura que los archivos no se pierdan.  
 
 Ahora bien, `Git` es un `Sistema de Control de Versiones` que nos ayudará a guardar y diferenciar todos los cambios que haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
 
@@ -89,13 +89,9 @@ Para estos casos existen herramientas como Git y Github, los cuáles nos ayudan 
 Para crear tu cuenta de Github debemos de seguir los siguientes pasos:
 
 1. Debemos de dirigirnos a la página oficial de `Github`: https://github.com/
-
 2. Ya en la página, haremos clic en **Sign up**
-
 3. Ahora deberás escribir un **username**, este, podrá ser uno que ya tengas. Por ejemplo, si tienes un **username** que creaste para un juego online podrías usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será visible para todo el mundo y puede que te lo pidan en algún momento para añadirte como colaborador de un proyecto, así que ten cuidado con lo que pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y haz clic en **Create an account**.
-
 4. En la siguiente pantalla asegúrate de marcar la opción **Unlimited public repositories for free**, esta, es la versión 'free' de Github; luego haz clic en **continue**.
-
 5. En el paso 3 del registro puedes completarlo con tus datos y hacer clic en **Submit**, o solo hacer clic en **Skip this step**.
 
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de Github creada.
