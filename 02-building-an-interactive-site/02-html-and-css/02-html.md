@@ -677,9 +677,11 @@ Un link típico se ve como:
 
 Notarás 2 atributes. 
 
-`href` nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
+##### `href` 
+Nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
 
-`target` nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
+##### `target` 
+Nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
 
 ##### `_blank`:
 Abre el documento en una nueva ventana o tab. 
@@ -1058,7 +1060,7 @@ Los archivos html inicialmente tenían varias restricciones. Conforme los navega
 
 Para mantener el orden, y un estilo adecuado en el código, usamos una __guía de estilos__ que mantiene varios estándares de la industría de desarrollo de software. 
 
- #### Tipo de documento
+ ### Tipo de documento
  Definiremos el DOCTYPE en la primera línea de nuestro archivo HTML. 
 
 ![<!DOCTYPE html>](tag-doctype.png)
@@ -1078,16 +1080,16 @@ o el de HTML 1.0 que se ve un poco así con algunas variaciones:
 ```
 
 
-#### Idioma
+### Idioma
 Recuerda definir el idioma que usarás en tu web. Esto ayuda a la __accesibilidad__ y a la optimización para resultados de búsqueda (__seo__).
 
 ![<html lang="es">](tag-html.png)
 
- #### Nombre de los elementos en minúscula
+ ### Nombre de los elementos en minúscula
 HTML __no__ es __case sensitive__ con el nombre de sus elementos. ___Case Sensitive___ significa que no va a diferenciar entre mayúsculas y minúsculas. 
 
 ---
-__Case sensitive__:
+#### Case sensitive:
 
 Sensible a si las letras son mayúsculas o minúsculas. Si un elemento es case sensitive tendremos por ejemplo que: 
 
@@ -1115,7 +1117,7 @@ Ambos casos mostrará una imagen. Para mantener un estándar adecuado, escribe l
  <img src="logo.png"> <<--- así SI
 ```
  
- #### Nombre de atributos en minúscula
+ ### Nombre de atributos en minúscula
 
 Del mismo modo que con el nombre de las etiquetas, HTML tampoco es case sensitive con el nombre de los atributos de HTML. Pero de igual manera, para mantener un estándar adecuado, escribe los atributos en _minúsculas_.
 
@@ -1126,7 +1128,7 @@ Del mismo modo que con el nombre de las etiquetas, HTML tampoco es case sensitiv
  <img src="logo.png"> <<--- así SI
 ```
 
-#### Comillas simples vs Comillas dobles
+### Comillas simples vs Comillas dobles
 
 En HTML podemos usar comillas dobles (double quotes) `" "` o comillas simples (single quotes) `' '` para definir atributos de los elementos. Por estándar, para HTML usaremos las comillas dobles. 
 ```html
@@ -1135,7 +1137,7 @@ En HTML podemos usar comillas dobles (double quotes) `" "` o comillas simples (s
  <img src="logo.png"> <<--- así SI
 ```
 
-#### Espacios en blanco
+### Espacios en blanco
 
 No dejes espacios en blanco entre atributo y su valor.
 
