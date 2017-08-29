@@ -1108,7 +1108,7 @@ Los elementos inline son:
 - `<input>`
 - `<label>`
 - `<select>`
-- `<textarea>
+- `<textarea>`
 
 Los elementos inline, pueden contener otros inline sin generar un salto de línea. 
 
@@ -1382,9 +1382,17 @@ No dejes espacios en blanco entre atributo y su valor.
 ```
 ### Caracteres especiales
 
+Incluye caracteres especiales como el de Copyright, Marca Registrada entre otros usando el markup de HTML para los mismos en vez de escribirlos directamente o pergarlos de algún lado. 
+Esto debido a que no interrumpen el Markup Language y lo hacen un HTML válido si otros programas lo quieren interpretar. 
+
+Por ejemplo usa en tu HTML: 
+- `&copy;` para ©
+- `&reg;` para ®
+- `&#8482;` para ™
+
+Existen otros que puedes encontrar en la [web de ASCII](http://www.ascii.cl/htmlcodes.htm).
 
 ## Debugging HTML
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML
 
 Nos referimos a _debugging_ a la forma de encontrar, identificar y reparar errores. En HTML, estos errores tienden a ser: 
 
@@ -1483,8 +1491,11 @@ Notarás que el validator ya no nos da más errores, aunque sabes que los tags n
 ***
 
 
-
-
-
-* Extra markup
+Sources: 
+https://html.spec.whatwg.org
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
+https://www.w3schools.com/html/html_forms.asp
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Inline_vs._block-level_elements_a_demonstration
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML
