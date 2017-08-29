@@ -31,6 +31,7 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:  
 !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
     Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+    
     - Revertir los archivos a un estado anterior.
     - Revertir todo el proyecto a un estado anterior.
     - Comparar los cambios que se hayan hecho a lo largo del proyecto.
