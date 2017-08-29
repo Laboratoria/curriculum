@@ -5,15 +5,15 @@
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de `estructuras condicionales` y `estructuras repetitivas` para la resolución de problemas
+- Entender, a través de casos prácticos, cómo aplicar los conceptos de `estructuras condicionales` y `estructuras repetitivas` para la resolución de enunciados. (La palabra problemas, cuando se trata de algo nuevo, de por sí ya es un problema)
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas.
+Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos. Recuerda que para comunicarnos con el computador a través del lenguaje JavaScript es fundamental entender los conceptos y luego practicarlos siempre.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle. Después de haberlo intentado, compara tus soluciones con las de Michelle.   
+A continuación tendrás dos ejercicios. Primero intenta resolverlos por tu cuenta. Después de haberlo intentado, compara tus soluciones con las de Michelle.   
 
 #### 1. FizzBuzz
 
@@ -21,7 +21,7 @@ Escribe un programa que use `console.log` para imprimir todos los números del 1
 - Para números divisibles por 3, imprime "Fizz" en vez del número
 - Para números divisibles por 5 (pero no por 3), imprime "Buzz".
 
-Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz" para los números que sean divisibles tanto por 3 como por 5 (y que siga imprimiendo "Fizz" o "Buzz" para números divisibles por sólo uno de ellos).
+Cuando tengas esto funcionando, modifica tu programa para imprimir "FizzBuzz" para los números que sean divisibles tanto por 3 como por 5 (y que siga imprimiendo "Fizz" o "Buzz" para números divisibles por sólo uno de ellos).
 
 #### 2. Tablero de Ajedrez
 
