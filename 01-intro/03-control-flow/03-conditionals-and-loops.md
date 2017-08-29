@@ -41,7 +41,7 @@ Ejecutar sentencias en línea recta no es la única opción que tenemos. Una alt
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
 
-La ejecución condicional se escribe con el keyword `if` en JavaScript. La instrucción `if` es la más simple de las estructuras de control de JavaScript. Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera. Un condicional dice: _'Si algo es verdad, haz esto'_. Por ejemplo, si hiciste tu tarea, recibes un helado, pero si no hiciste tu tarea, no recibes el helado.
+La ejecución condicional se escribe con el keyword `if` en JavaScript. La instrucción `if` es la más simple de las estructuras de control de JavaScript. Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera. Un condicional dice: _"Si algo es verdad, haz esto"_. Por ejemplo, si hiciste tu tarea, recibes un helado, pero si no hiciste tu tarea, no recibes el helado.
 
 Como muestra el ejemplo a continuación, una sentencia `if` tiene 2 partes principales: la condición y el cuerpo. La condición debe ser un valor `Boolean` que va entre paréntesis. El cuerpo consiste en una o más sentencias JavaScript que se ejecutarán si, y solo si, la condición es verdadera (`Boolean` igual a `true`).
 
@@ -99,7 +99,7 @@ if (name.length > 7) {
 // returns > Hola Michelle
 //           Tu nombre no es muy largo
 ```
-Como ves, el resultado de este caso es similar al anterior, solo que si `name` **no** tiene una logitud mayor a 7, existe un 'mensaje alternativo' que se ejecuta.
+Como ves, el resultado de este caso es similar al anterior, solo que si `name` **no** tiene una logitud mayor a 7, existe un "mensaje alternativo" que se ejecuta.
 
 Como muestra el ejemplo a continuación, las sentencias `if ... else` son similares a las sentencias `if`, pero incluyen 2 cuerpos. Si la condición es `true`, se ejecutan las sentencias del primer cuerpo; de lo contrario, se ejecutan las sentencias del segundo cuerpo.
 
@@ -173,7 +173,7 @@ switch (prompt('¿Cómo está el clima?')) {
     break;
 }
 ```
-Puedes poner cualquier cantidad de etiquetas `case` dentro del bloque `switch`. El programa saltará a la etiqueta que corresponda al valor que se le dio al `switch` o al default si no se encuentra valor que corresponda. Se empiezan a ejecutar las sentencias desde ahí, incluso si están bajo otra etiqueta, hasta que se llegue a una sentencia `break` (que en español significa 'detener').
+Puedes poner cualquier cantidad de etiquetas `case` dentro del bloque `switch`. El programa saltará a la etiqueta que corresponda al valor que se le dio al `switch` o al default si no se encuentra valor que corresponda. Se empiezan a ejecutar las sentencias desde ahí, incluso si están bajo otra etiqueta, hasta que se llegue a una sentencia `break` (que en español significa "detener").
 
 En algunos casos, como en el caso de 'soleado' en el ejemplo, esto puede ser usado para compartir código entre casos (recomienda salir a la calle tanto para clima soleado como para nublado). Pero cuidado: es fácil olvidar el break, lo cuál causará que el programa ejecute código que no quieres que se ejecute.
 
@@ -214,7 +214,7 @@ Como muestra el ejemplo a continuación, una sentencia que comienza con el keywo
 
 while (condición) {
   Conjunto de sentencias, donde
-  se incluye algo que 'cambia' para
+  se incluye algo que "cambia" para
   que la condición eventualmente sea FALSA
 }
 
@@ -237,7 +237,7 @@ En este caso, como queremos imprimir los números pares del 1 al 12, creamos una
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará si quieres detener el script después de unos cuantos segundos. Si eso falla, tendrás que cerrar la pestaña en la que estás trabajando, o, en otros nevagadores, cerrar el navegador entero para recuperarte.
 
-Vemos algunas variantes de este mismo problema para asegurarnos que entendemos bien cómo funciona el ciclo `while`:
+Veamos algunas variantes de este mismo problema para asegurarnos que entendemos bien cómo funciona el ciclo `while`:
 
 - ¿Cómo hacemos para imprimir los números **pares** del 1 al 100?: Modificamos la condición para que el bucle corra mientras `number` sea <= 100.
 
