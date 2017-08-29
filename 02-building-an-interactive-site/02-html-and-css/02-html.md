@@ -376,32 +376,32 @@ Solo para aclarar. Puedes ver dónde aparece el contenido de la etiqueta `title`
 ### `<link href="[direccion url de tu hoja de estilos]" rel="stylesheet">`
 También encontraras, por lo general, la etiqueta `link` que genera un vínculo entre la página y otros recursos. Puedes revisar la [documentacion de link que tiene disponible MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link). Por lo general lo usamos para _stylesheets_ (hojas de estilos). Hay algunos atributos que sería importante que conozcas:
     
-#### __href___: 
+#### `href`
 Indica la dirección url donde se encuentra el recurso que vamos vincular.
 
-#### __rel___: 
+#### `rel`
 Este atributo indica que tipo de relación tiene el recurso que estamos vinculando respecto a nuestra página. Para hojas de estilos usamos el valor _`stylesheet`_, pero existen otros valores como _copyright_, _lincense_, _help_, _author_, entre otros. 
 
-#### __type___: 
+#### `type`
 Nos ayuda a especificar el tipo de archivo que que vincularemos. Para el caso de hojas de estilos este valor muchas veces se omite, pero el oficial es usar: _`text/css`_. Para otro tipo de recursos, [necesitarás otros types](http://www.iana.org/assignments/media-types/media-types.xhtml).
 
-#### __media__: 
+#### `media` 
 Este atributo nos permite decirle al navegador para que tipos de medios físicos estará disponible el recurso. Tú, yo, viendo esto en una computadora desktop en un navegador, o en un celular, estaríamos usando un media conocido como _`screen`_, pero hay otros media, como _`print`_ que usamos para indicar que este será usado para impresiones (pdf o impresoras). También otro bastante usado es el _`speech`_ para lectores para personas con discapacidad visual. También [puedes unir este atributo a otros con los que especificar más el medio](https://www.w3schools.com/tags/att_link_media.asp) al que dirijes el recurso. 
 
 ### `<meta>` 
 Es una etiqueta vacía. En sus atributos recibe información sobre la información de la página web. Hay variada información que puedes incluir con esta etiqueta y no es raro que la encuentres varias veces en el `head` con diferentes datos. Algunos de los datos esenciales-más importantes que indicar son: 
-#### __charset__: 
+#### `charset__: 
 Indica el sistema de caracteres que usaremos en la web. Por lo general usamos en esta atributo el valor `utf-8` que es el estándar de caracteres más usado ya que incluye letras, número, tildes, letras del alfabeto frances, español, ruso entre otros. En tu HTML tendras este meta: `<meta charset="utf-8">`
-#### __name__ y  __content__: 
+#### `name` y  `content`: 
 Usamos estos dos atributos juntos especificar diferentas datos que son útiles para guardar, búsquedas desde buscadores como Google o Bing, además de apoyo para vistas en redes sociales.
         
-         _`name`_ nos ayuda a identificar la información que vamos a poner, por ejemplo si vamos a poner el autor de la página tendremos `name="author"` y con _`content`_ indicaremos la información que corresponde al autor, por ejemplo: `content="Laboratoria"`. El meta sería: `<meta name="author" content="Laboratoria">`. 
+_`name`_ nos ayuda a identificar la información que vamos a poner, por ejemplo si vamos a poner el autor de la página tendremos `name="author"` y con _`content`_ indicaremos la información que corresponde al autor, por ejemplo: `content="Laboratoria"`. El meta sería: `<meta name="author" content="Laboratoria">`. 
 
-        Otros valores que puedes usar en  que puedes usar en `name` incluyen _description_ (descripción de la páginas para los buscadores), _generator_ (indicar con que producto, tecnologias se generó esta página), _keyworkds_ (palabras clave que responden al contenido de la página). 
+Otros valores que puedes usar en  que puedes usar en `name` incluyen _description_ (descripción de la páginas para los buscadores), _generator_ (indicar con que producto, tecnologias se generó esta página), _keyworkds_ (palabras clave que responden al contenido de la página). 
 
-        Existen otros valores de `name` que si bien no son oficiales, son bastante usados: _viewport_ (puede modificar cómo se verá la web, usualmente usado para dispositivos móviles), _creator_ (similar a autor, pero asociado al creador de la página), _robots_, _googlebot_ , _slurp_. Estos tres últimos están relacionados a información que queremos darle a los robots que actualizan los índices de los buscadores. 
+Existen otros valores de `name` que si bien no son oficiales, son bastante usados: _viewport_ (puede modificar cómo se verá la web, usualmente usado para dispositivos móviles), _creator_ (similar a autor, pero asociado al creador de la página), _robots_, _googlebot_ , _slurp_. Estos tres últimos están relacionados a información que queremos darle a los robots que actualizan los índices de los buscadores. 
 
-#### __property__ y __content__: 
+#### `property` y `content`: 
 Similar al dúo `name` y `content`, por lo general usamos este dúo dinámico para dar información, por lo general, asociada a diferentes redes sociales. Un ejemplo es el caso de qué información queremos que se muestre en __Facebook__ si usaremos:
 
 ```html
@@ -442,34 +442,33 @@ Las etiquetas de estructura nos ayudan a definir los grandes contenedores en don
 
 Aparte de las ya conocidas `head`y `body`, veamos otras etiquetas que nos apoyarán en generar estructura en el contenido dentro de `body`. 
 
-#### __div__: 
+#### `div`: 
 Define una división de la página web. Es uno de los  más usados para definir contenedores para estructura. 
 
 Si bien las siguientes etiquetas funcionan como un `div`, la semántica juega un papel importante y deberías usarlas cuando creas que es necesario. 
 
-#### __header__: 
+#### `header`: 
 Significado de que lo que va dentro de este contenedor es parte de la _cabecera_ de nuestra página web. 
 
-#### __section__: 
+#### `section`: 
 Nos ayuda a definir secciones de nuestra página web para las que luegos especificar a que se van a especializar. 
 
-#### __aside__: 
+#### `aside`: 
 Define una sección lateral en la que por lo general va navegación o datos extra sobre el propio contenido.
 
-#### __main__: 
+#### `main`: 
 Este contenedor tendra el contenido principal de la página web.
 
-#### __article__: 
+#### `article`: 
 Esta sección define contenido que será actualizado regularmente. La característica principal de `article` es que el contenido que irá aquí debe hacer sentido por si mismo, sin necesidad de las otras secciones. Puede haber uno o varios `article` dentro de algún `section`, pero también puede ser a la inversa.
 
-#### __footer__: 
+#### `footer`: 
 Footer se refiere al pie de la página web, por lo general en esta sección irán algunos links importantes, el copyright, y/o incluso datos de contacto. 
 
-#### __nav__: 
+#### `nav`: 
 Por lo general esta etiqueta esta anidada en algunas de las estructuras de `header`, `aside` o `footer`. Nos indica que el contenido que tiene ayuda a la navegación de la página, conteniendo vínculos por ejemplo.
 
-##### __address__
-
+#### `address`
 Que por lo general se usa para poner información de contacto. Funcina como un bloque y puedes poner variada información dentro de él. 
 
   
@@ -478,11 +477,11 @@ Que por lo general se usa para poner información de contacto. Funcina como un b
 
 Podríamos usar todas las etiquetas de estructura, pero lo que da forma y esencia a una página web es el contenido que tiene. 
 
-#### __Textos__
+#### Textos
     
 Para el caso de textos tenemos varias etiquetas.
     
-##### __Headlings o Cabeceras__
+##### Headlings o Cabeceras
 
 Estas etiquetas dan un sentido jerárquito a los títulos y subtítulos. Las etiquetas son:
 
@@ -500,7 +499,7 @@ Estós títulos se van a renderizar como:
 
 Donde H1 es el título de mayor jerarquía, y H6 el de menor jerarquía.
 
-##### __Párrafos__
+##### Párrafos
       
 Los párrafos los definimos con la etiqueta `<p></p>`. Como tal, define un bloque te texto.
 
@@ -513,7 +512,7 @@ Por ejemplo, este párrafo:
 Se verá como: 
 ![<p></p>](html-p.png)
 
-##### __pre__:
+##### `pre`:
 A veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. En ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
 
 ```html
@@ -543,19 +542,19 @@ Cuando lo veamos en nuestra página web, se verá así:
 
 ![<p></p>](html-pre.png)
 
-##### __strong__ 
+##### `strong` 
         
 Usamos `strong` para dar importancia a tun texto. Puedes usarlo dentro de un párrafo. 
 
-##### __em__
+##### `em`
 Al igual que `strong` ayuda a dar importancia a un texto, aunque su estilo es diferente y más suave. Vienen de _"emphasis"_, o énfasis en español. 
 
-##### __span__
+##### `span`
 
 Aloja un pedazo de texto al que luego puedes estilar como prefieres específicamente. 
 `<span>Palabra</span>`
 
-##### __mark__
+##### `mark`
 
 Funciona como un resaltador en la web. Dando un color restaltante a lo que indicamos entre sus etiquetas. 
 
@@ -566,7 +565,7 @@ Se verá como:
 
 ![<p><mark></mark></p>](html-p-mark.png)
 
-##### __abbr__
+##### `abbr`
        
 Define abreviaciones o acrónimos. La ventaja de usar `abbr` es que al dejar el cursor, se mostrará el título adecuado de dicha abreviatura. 
 
@@ -579,7 +578,7 @@ Notarás en la imagen cómo es que se ve, con un pequeño tooltip, el texto sin 
 
 Hay algunas otras que puedes revisar en la documentación de MDN.    
 
-#### __Citas__
+#### Citas
 
 Para citas, podemos usar dos etiquetas, la primera es `q` que nos dará la posibilidad de introducir citas en el mismo párrafo. Para citas más complejas que merecen su propio párrafo y descripción de la fuente, tenemos `blockquote`. Hay momentos en que sólo queremos nobrar el título del trabajo que inspira esas líneas, en ese caso usamos `cite`. 
 
@@ -601,7 +600,7 @@ El resultado, será parecido al que sigue:
     
 
 
-### __Listas__
+#### Listas
 
 Tenemos dos tipos de listas, las listas ordenadas y las no ordendas. 
 Las listas se componen del un elemento `<ul></ul>` para listas no ordenadas u `<ol></ol>` para listas ordendas. Este elemento anidará a los elementos de la lista que se limitan con la etiqueta `<li><li>`.
@@ -629,21 +628,21 @@ Que se verán así:
 
 ![Ejemplo de listas](html-lists.png) 
 
-#### __ol__
+##### `ol`
     
 En el caso de la _lista ordenada_ `ol`, puedes especificar el tipo de numeración escogiendo entre los diferentes valores del atributo `type`. Dependiendo de cada valor la numeración varía. Por defecto el valor es `type="1"`, por eso ves los números por defecto.
 
 ![Ejemplo de listas ordenadas](html-ol-lists.png) 
 
 
-#### __ul__
+##### `ul`
 
 En el caso de las listas _no ordenadas_ `ul`, podemos cambiar el símbolo a través de una propiedad que veremos en CSS llamada `list-style-type`. 
 
 ![Ejemplo de listas ordenadas](html-ul-lists.png) 
 
 
-#### __Listas de definiciones__
+##### Listas de definiciones
 
 Estas listas son especificas para usar en terminos y sus definiciones
 
@@ -666,7 +665,7 @@ Por ejemplo se verá:
 
 ![Ejemplo de listas ordenadas](html-dd.png) 
 
-### __Links__
+#### Links
 
 Para crear un hipervínculos usamos la etiqueta `<a></a>`. 
 
@@ -682,37 +681,39 @@ Notarás 2 atributes.
 
 `target` nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
 
-#### `_blank`:
+##### `_blank`:
 Abre el documento en una nueva ventana o tab. 
-#### `_self`:
+##### `_self`:
 este es el valor por defecto y abre el documento en el tab o ventana actual.
-#### `_parent`:
+##### `_parent`:
 Abre el link en un fragmento padre (Probablemente no tengas que usarlo).
-#### `_top`:
+##### `_top`:
 Abre el link en todo el cuerpo de la ventana(Probablemente no tengas que usarlo). 
-#### `framename`:
+##### `framename`:
 Abre el link en el frame con el nombre indicado, ya no se usa. Se usaba en el tiempo en que usabamos `frameset` para hacer estructuras en la página web. 
 
 Los vínculos tienen estados, hablamos de un link:
 
-#### _no visitado_:
+##### _no visitado_:
 En este caso el link se verá en fuente azul y con subrayado. 
-#### _visitado_:
+##### _visitado_:
 Cuando la página que vincula al link ya ha sido visitada antes. 
-#### _activo_:
+##### _activo_:
 Un link esta activo desde el momento que empezamos el tap o click hasta que soltamos la pantalla o el mouse. Por lo general esta representado con letras y subrayado rojo. 
 
 ![Ejemplo de link](html-link.png) 
 
-### __Imágenes__
+#### Imágenes
 
 Para incluir imágenes como contenido usamos la etiqueta `<img>`. Esta es una etiqueta vacía. Tiene varios atributos con los que puedes manipular cómo llamar a la imagen, dimensiones entre otros. 
 
 Los principales atributes de `img` son: 
 
-#### __src__: este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
+##### `src`: 
+Este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
 
-#### __alt___: aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
+##### `alt`_: 
+Aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
 
 Por ejemplo si quiero incluir una imagen: 
 
@@ -733,7 +734,7 @@ Puedes poner imágenes como contenido de etiquetas `a`, `p`, o dentro de otras e
 Otro atributo de `img` que cada vez se usa más es `srcset`. A través de este atributo, indicamos una serie de imagenes para aplicarse a diferentes resoluciones de pantalla, pero verás más de esto cuando veamos web responsive. Puedes ver otros atributos en la [documentación de MDN de img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
 
 
-### __Tablas__
+#### Tablas
 
 Lo ideal es usarlas para lo que fueron creadas, tabular información. Las tablas son estructuras en sí mismas. 
 
@@ -741,13 +742,13 @@ Iniciamos una etiqueta principal: `<table></table>`. Dentro de esta etiqueta enc
 
 Hay varias etiquetas que anidar: 
 
-#### `<tr>` 
+##### `<tr>` 
 Nos permite definir las files que tendra nuestra tabla.
 
-#### `<th>` 
+##### `<th>` 
 Definiremos una celda de cabecera. 
 
-#### `<td>` 
+##### `<td>` 
 Crea una celda. 
 
 Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta tabla:
@@ -804,216 +805,245 @@ Por último, se verá como sigue:
 
 ![Ejemplo de tabla compleja](html-table-complex.png)  
 
+### Formularios
 
-* __Formularios__
 
+Los formularios nos ayudan a interactuar y obtener información de los usuarios. De hecho haz llenado algún formulario antes, desde el formulario de admisión, pasando por tu regisro y login de redes sociales, y hasta el registro y login de tu correo electrónico. 
 
-    Los formularios nos ayudan a interactuar y obtener información de los usuarios. De hecho haz llenado algún formulario antes, desde el formulario de admisión, pasando por tu regisro y login de redes sociales, y hasta el registro y login de tu correo electrónico. 
+Los formualarios tienen un marqueje especial con sus propias etiquetas. La principal es `<form></form>` que nos ayuda a definir el formulario.
 
-    Los formualarios tienen un marqueje especial con sus propias etiquetas. La principal es `<form></form>` que nos ayuda a definir el formulario.
+La principal etiqueta para obtener información del usario es la etiquta `<input>`. Esta es una etiqueta vacía que indica que se mostrará un campo donde el usuario podrá ingresar información. Como se usa para introducir diferentes tipos de información, un atributo que no podemos evitar poenr es el tipo de input que será nuestro elemento: 
 
-    La principal etiqueta para obtener información del usario es la etiquta `<input>`. Esta es una etiqueta vacía que indica que se mostrará un campo donde el usuario podrá ingresar información. Como se usa para introducir diferentes tipos de información, un atributo que no podemos evitar poenr es el tipo de input que será nuestro elemento: 
+Todos navegadores soportan `type` con valores `text` para texto, `password` para texto encubierto, `submit` para el botón de enviar, `reset` para tener un botón que limpie los datos del formulario, 
 
-    Todos navegadores soportan `type` con valores `text` para texto, `password` para texto encubierto, `submit` para el botón de enviar, `reset` para tener un botón que limpie los datos del formulario, 
+Un formulario básico tendrá:
+```html
+<form action="login">
+    <label for="field1" >Nombre</label><input name="field1"type="text"><br>
+    <label for="field2" >Contraseña</label><input name="field2"type="password"><br>
+    <label for="field7" ></label><input name="field7"type="submit"><br>
+    <label for="field8" ></label><input name="field8"type="reset"><br>
+</form>
+```
+En este caso he puesto unos `br` solo para darle salto de línea a los elementos. 
 
-    Un formulario básico tendrá:
-    ```html
-    <form action="login">
-        <label for="field1" >Nombre</label><input name="field1"type="text"><br>
-        <label for="field2" >Contraseña</label><input name="field2"type="password"><br>
-        <label for="field7" ></label><input name="field7"type="submit"><br>
-        <label for="field8" ></label><input name="field8"type="reset"><br>
+Que se verá un poco como sigue: 
+
+![Ejemplo de formulario de login](html-form-login.png) 
+
+Si ejecutas ese formulario, verás que al dar click en `submit` el formulario intentará enviar la información. El botón `reset` limpiará los campos. Cuando llenes algunos datos en el formulario, verás como en el caso de `type="password` los caracteres se ocultan. 
+
+![Ejemplo de formulario de login con datos](html-form-login-c.png) 
+
+Hay otra cosa que notarás, la etiqueta `<label>`. Esta etiqueta nos ayudará  a darle más información al usuario al indicarle que datos se esperan. Con el atributo `for` podemos asociar un `label` al campo al que se refiere, en este caso un `input`. 
+
+#### `input`
+Hay más tipos de inputs. Algunos requieren un tratamiento extra a través de otras etiquetas o asociando a través de atributos.
+
+##### `input type="radio"`
+ El input tipo radio, se refiere a Radio Button. Están diseñados para que el usuario elija 1 opción entre varias.
+
+```html
+<form action="update">
+        <p>Elija su nivel de instrucción</p>
+        <input type="radio" id="instruction-level-1" name="instruction-level" value="undegraduate">
+        <label for="instruction-level-1">Undegraduate</label>
+        <input type="radio" id="instruction-level-2" name="instruction-level" value="graduate">
+        <label for="instruction-level-2">Graduate</label>            
+        <input type="radio" id="instruction-level-3" name="instruction-level" value="master">
+        <label for="instruction-level-3">Master</label>
+        <input type="radio" id="instruction-level-4" name="instruction-level" value="doctor">
+        <label for="instruction-level-4">Doctor</label>
+        <br>
+        <button type="submit">Enviar</button>
     </form>
-    ```
-    En este caso he puesto unos `br` solo para darle salto de línea a los elementos. 
+```
 
-    Que se verá un poco como sigue: 
+![Ejemplo de formulario con radiobutton](html-form-radiobtn.png) 
 
-    ![Ejemplo de formulario de login](html-form-login.png) 
+Si pruebas el código anterior, notarás que sólo puedo seleccionar una de las opciones a la vez. La forma en que se asocian todos los radio button para indicar que corresponden a seleccionar un sólo valor es gracias al atributo `name`. 
 
-    Si ejecutas ese formulario, verás que al dar click en `submit` el formulario intentará enviar la información. El botón `reset` limpiará los campos. Cuando llenes algunos datos en el formulario, verás como en el caso de `type="password` los caracteres se ocultan. 
+##### `input type="checkbox"`
+El input tipo checkbox esta diseñado para darte varias opciones y que puedas seleccionar más de una. 
 
-    ![Ejemplo de formulario de login con datos](html-form-login-c.png) 
+```html
+    <form action="update">
+        <p>Elige tus géneros de películas favoritos</p>
+        <input type="checkbox" id="favorite-genre-1" name="favorite-genre" value="romance">
+        <label for="favorite-genre-1">Romance</label>
+        <input type="checkbox" id="favorite-genre-2" name="favorite-genre" value="comedy">
+        <label for="favorite-genre-2">Comedy</label>
+        <input type="checkbox" id="favorite-genre-3" name="favorite-genre" value="horror">
+        <label for="favorite-genre-3">Horror</label>
+        <input type="checkbox" id="favorite-genre-4" name="favorite-genre" value="thriller">
+        <label for="favorite-genre-4">Thriller</label>
+        <input type="checkbox" id="favorite-genre-5" name="favorite-genre" value="sciencefi">
+        <label for="favorite-genre-4">Science Fiction</label>
+        <input type="checkbox" id="favorite-genre-6" name="favorite-genre" value="action">
+        <label for="favorite-genre-4">Action</label>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+```
 
-    Hay otra cosa que notarás, la etiqueta `<label>`. Esta etiqueta nos ayudará  a darle más información al usuario al indicarle que datos se esperan. Con el atributo `for` podemos asociar un `label` al campo al que se refiere, en este caso un `input`. 
+![Ejemplo de formulario con checkbox](html-form-checkbox.png) 
 
+Otros tipos de input son: 
 
-    - __input__:
-    Hay más tipos de inputs. Algunos requieren un tratamiento extra a través de otras etiquetas o asociando a través de atributos.
+##### `input type="file"`
+Que nos sirve para que el usuario seleccione archivos en su computador. Por ejemplo, su código se verá cómo: 
 
-        - __input type="radio"__: el input tipo radio, se refiere a Radio Button. Están diseñados para que el usuario elija 1 opción entre varias.
+```html
+    <form action="update">
+        <input type="file" name="archivo" id="file-field">
+        <button type="submit">Enviar</button>
+    </form>
+```
 
-            ```html
-            <form action="update">
-                    <p>Elija su nivel de instrucción</p>
-                    <input type="radio" id="instruction-level-1" name="instruction-level" value="undegraduate">
-                    <label for="instruction-level-1">Undegraduate</label>
-                    <input type="radio" id="instruction-level-2" name="instruction-level" value="graduate">
-                    <label for="instruction-level-2">Graduate</label>            
-                    <input type="radio" id="instruction-level-3" name="instruction-level" value="master">
-                    <label for="instruction-level-3">Master</label>
-                    <input type="radio" id="instruction-level-4" name="instruction-level" value="doctor">
-                    <label for="instruction-level-4">Doctor</label>
-                    <br>
-                    <button type="submit">Enviar</button>
-                </form>
-            ```
+Y en funcionalidad lo veremos comportarse cómo:
 
-            ![Ejemplo de formulario con radiobutton](html-form-radiobtn.png) 
-
-            Si pruebas el código anterior, notarás que sólo puedo seleccionar una de las opciones a la vez. La forma en que se asocian todos los radio button para indicar que corresponden a seleccionar un sólo valor es gracias al atributo `name`. 
-
-        - __input type="checkbox"__: el input tipo checkbox esta diseñado para darte varias opciones y que puedas seleccionar más de una. 
-
-            ```html
-                <form action="update">
-                    <p>Elige tus géneros de películas favoritos</p>
-                    <input type="checkbox" id="favorite-genre-1" name="favorite-genre" value="romance">
-                    <label for="favorite-genre-1">Romance</label>
-                    <input type="checkbox" id="favorite-genre-2" name="favorite-genre" value="comedy">
-                    <label for="favorite-genre-2">Comedy</label>
-                    <input type="checkbox" id="favorite-genre-3" name="favorite-genre" value="horror">
-                    <label for="favorite-genre-3">Horror</label>
-                    <input type="checkbox" id="favorite-genre-4" name="favorite-genre" value="thriller">
-                    <label for="favorite-genre-4">Thriller</label>
-                    <input type="checkbox" id="favorite-genre-5" name="favorite-genre" value="sciencefi">
-                    <label for="favorite-genre-4">Science Fiction</label>
-                    <input type="checkbox" id="favorite-genre-6" name="favorite-genre" value="action">
-                    <label for="favorite-genre-4">Action</label>
-                    <br>
-                    <button type="submit">Enviar</button>
-                </form>
-            ```
-
-            ![Ejemplo de formulario con checkbox](html-form-checkbox.png) 
-
-        Otros tipos de input son: 
-
-        - __input type="file"__: que nos sirve para que el usuario seleccione archivos en su computador. Por ejemplo, su código se verá cómo: 
-
-            ```html
-                <form action="update">
-                    <input type="file" name="archivo" id="file-field">
-                    <button type="submit">Enviar</button>
-                </form>
-            ```
-
-            Y en funcionalidad lo veremos comportarse cómo:
-
-            ![Ejemplo de input file](html-form-file.gif) 
+![Ejemplo de input file](html-form-file.gif) 
 
 
-            Puedes restringir que tipos de archivos puede subir el archivo usando el atributo `accept` y en el mismo indicar que extensiones de archivos acepta. Puedes ver más en la [documentación de MDN sobre el input file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file).
+Puedes restringir que tipos de archivos puede subir el archivo usando el atributo `accept` y en el mismo indicar que extensiones de archivos acepta. Puedes ver más en la [documentación de MDN sobre el input file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file).
             
 
-        - __input type="hidden"__: en el caso de hidden, este campo no lo podrá ver usuario, pero el valor que pongas aquí igualmente viajará con los demás datos que ponga el usuario. 
+##### `input type="hidden"`
+En el caso de hidden, este campo no lo podrá ver usuario, pero el valor que pongas aquí igualmente viajará con los demás datos que ponga el usuario. 
 
-        - __input type="image"__: en realidad sirve para crear un botón funciona igual que el `submit`. El detalle es que este botón nos permite costumizarlo usando una imagen que le indicamos en el atributo `src`. Además debes ponerle dimensiones, ya sea con HTML con los atributos `height` y `width`, o con CSS.
+##### `input type="image"`
+En realidad sirve para crear un botón funciona igual que el `submit`. El detalle es que este botón nos permite costumizarlo usando una imagen que le indicamos en el atributo `src`. Además debes ponerle dimensiones, ya sea con HTML con los atributos `height` y `width`, o con CSS.
 
-        Existen otros input types que se establecieron gracias a HTML5.
+Existen otros input types que se establecieron gracias a HTML5.
 
-        - __input type="color"__:despliega un elemento de seleccion, de manera que puedas elegir un color. Recibe un texto que represente un colo. 
-        - __input type="date"__: este control es para ingresar la fecha, Año, mes y día, sin hora. 
-        - __input type="datetime-local"__: para ingresar la fecha y hora, sin indicar la zona horaria. 
-        - __input type="email"__: para ingresar y validar correos electrónicos.
-        - __input type="month"__: un control para ingresar un mes y año, sin zona horaria.
-        - __input type="month"__: un control paa  ingresar números.
-        - __input type="tel"__: para ingresar y validar números de teléfono. 
-        - __input type="range"__: te ayuda a ingresar números de teléfono en el caso en que el número exacto no es tan importante. 
-        - __input type="week"__: sólo esta soportado por Chrome por el memento, pero te permite elegir una seman, sin zona horaria. 
-        - __input type="month"__: al igual que `week` sólo esta soportado con Chrome y tiene como característica que te permite elegir un mes en algún año. 
-        - __input type="search"__: usualmente se comporta sólo como `text` y se le pone a formularios de búsqueda.
-        - __input type="number"__: permite seleccionar o ingresar un número. 
+##### `input type="color"`
+Despliega un elemento de seleccion, de manera que puedas elegir un color. Recibe un texto que represente un colo. 
 
-        Puedes revisar la documentación sobre [input en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+##### `input type="date"`
+Este control es para ingresar la fecha, Año, mes y día, sin hora. 
 
-    - __select__
+##### `input type="datetime-local"`
+Para ingresar la fecha y hora, sin indicar la zona horaria. 
 
-        Los `select` son otros elementos que nos ayudan a ofrecerle oopciones a los usuarios. En este caso le presentas una lista de opciones de las que puede elegir. 
+##### `input type="email"`
+Para ingresar y validar correos electrónicos.
 
-        ```html
-            <form action="">
-                <p>Selectiona tu Persona de Macbeth</p>
-                <select name="" id="">
-                    <option value="macbeth-1">Duncan – King of Scotland</option>
-                    <option value="macbeth-2">Malcolm – Duncan's elder son</option>
-                    <option value="macbeth-3">Donalbain – Duncan's younger son</option>
-                    <option value="macbeth-4">Macbeth – a general in the army of King Duncan; originally Thane of Glamis, then Thane of Cawdor, and later King of Scotland</option>
-                    <option value="macbeth-5">Lady Macbeth – Macbeth's wife, and later Queen of Scotland</option>
-                    <!-- ... más opciones -->
-                </select>
-            </form>
-        ```
+##### `input type="month"`
+Un control para ingresar un mes y año, sin zona horaria.
 
-        Se verá cómo: 
+##### `input type="month"`
+Un control paa  ingresar números.
 
-        ![Ejemplo de select](html-select-first.gif) 
+##### `input type="tel"`
+Para ingresar y validar números de teléfono. 
 
-        También puedes agregar un elemento `option` sin valor `value` al inicio para que sea el primero el verse antes de seleccionar nada. 
+##### `input type="range"`
+Te ayuda a ingresar números de teléfono en el caso en que el número exacto no es tan importante. 
 
-        ![Ejemplo de select](html-select-second.gif) 
+##### `input type="week"`
+Sólo esta soportado por Chrome por el memento, pero te permite elegir una seman, sin zona horaria. 
+
+##### `input type="month"`
+Al igual que `week` sólo esta soportado con Chrome y tiene como característica que te permite elegir un mes en algún año. 
+
+##### `input type="search"`
+Usualmente se comporta sólo como `text` y se le pone a formularios de búsqueda.
+
+##### `input type="number"`
+Permite seleccionar o ingresar un número. 
+
+Puedes revisar la documentación sobre [input en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+#### `select`
+
+Los `select` son otros elementos que nos ayudan a ofrecerle oopciones a los usuarios. En este caso le presentas una lista de opciones de las que puede elegir. 
+
+```html
+    <form action="">
+        <p>Selectiona tu Persona de Macbeth</p>
+        <select name="" id="">
+            <option value="macbeth-1">Duncan – King of Scotland</option>
+            <option value="macbeth-2">Malcolm – Duncan's elder son</option>
+            <option value="macbeth-3">Donalbain – Duncan's younger son</option>
+            <option value="macbeth-4">Macbeth – a general in the army of King Duncan; originally Thane of Glamis, then Thane of Cawdor, and later King of Scotland</option>
+            <option value="macbeth-5">Lady Macbeth – Macbeth's wife, and later Queen of Scotland</option>
+            <!-- ... más opciones -->
+        </select>
+    </form>
+```
+
+Se verá cómo: 
+
+![Ejemplo de select](html-select-first.gif) 
+
+También puedes agregar un elemento `option` sin valor `value` al inicio para que sea el primero el verse antes de seleccionar nada. 
+
+![Ejemplo de select](html-select-second.gif) 
 
 
-        También anidar varios `option` en un `optgroup` que te permite agruparlos de alguna manera que haga sentido con la información. 
+También anidar varios `option` en un `optgroup` que te permite agruparlos de alguna manera que haga sentido con la información. 
 
-        ![Ejemplo de select](html-select-third.gif) 
+![Ejemplo de select](html-select-third.gif) 
 
-        El detalle especial con respecto a `select` es que sólo puedes escoger los valores que te ofrece, ninguno más o menos. Puedes decirle que se puede elegir más de una opción de la lista, pero nada más. 
+El detalle especial con respecto a `select` es que sólo puedes escoger los valores que te ofrece, ninguno más o menos. Puedes decirle que se puede elegir más de una opción de la lista, pero nada más. 
 
-    - __datalist__: Incluído en HTML5. Este campo se compone de dos partes. Un `input`, y la lista de opciones. Si bien el usuario puede elegir alguna de las opciones, la que hace diferente `datalist` de `select` es que en caso se requiera, el usuario puede ingresar otro valor, diferente a los disponibles. 
+#### `datalist`
+Incluído en HTML5. Este campo se compone de dos partes. Un `input`, y la lista de opciones. Si bien el usuario puede elegir alguna de las opciones, la que hace diferente `datalist` de `select` es que en caso se requiera, el usuario puede ingresar otro valor, diferente a los disponibles. 
 
-        Por ejemplo para código: 
+Por ejemplo para código: 
 
-        ```html
-            <input list="personajes" name="personaje">
-            <datalist name="" id="personajes">
-                <option value="Duncan – King of Scotland">
-                <option value="Malcolm – Duncan's elder son">
-                <option value="Donalbain – Duncan's younger son">        
-                <option value="Third Apparition – crowned child">
-                <option value="Attendants, Messengers, Servants, Soldiers">
-                <!-- Aquí hay muchas más opciones -->
-            </datalist>
-        ```
+```html
+    <input list="personajes" name="personaje">
+    <datalist name="" id="personajes">
+        <option value="Duncan – King of Scotland">
+        <option value="Malcolm – Duncan's elder son">
+        <option value="Donalbain – Duncan's younger son">        
+        <option value="Third Apparition – crowned child">
+        <option value="Attendants, Messengers, Servants, Soldiers">
+        <!-- Aquí hay muchas más opciones -->
+    </datalist>
+```
 
-        Que funcionando se verá como: 
+Que funcionando se verá como: 
 
-        ![Ejemplo de datalist](html-form-datalist.gif) 
-        
-        Puedes ver más de [Datalist en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
+![Ejemplo de datalist](html-form-datalist.gif) 
 
-    - __Textarea__: es un input en que puedes ingresar gran cantidad de caracteres. Por lo general se recomienda si el texto que va a ingresar el usuario podría tener varías líneas. En código:
+Puedes ver más de [Datalist en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
 
-        ```html
-            <label for="texto">Tell me about Spacce</label><br>
-            <textarea rows="6" cols="80" name="texto"></textarea>
-        ``` 
+#### `textarea`
+Es un input en que puedes ingresar gran cantidad de caracteres. Por lo general se recomienda si el texto que va a ingresar el usuario podría tener varías líneas. En código:
 
-        ![Ejemplo de textarea](html-form-textarea.gif) 
+```html
+    <label for="texto">Tell me about Spacce</label><br>
+    <textarea rows="6" cols="80" name="texto"></textarea>
+``` 
 
-        Puedes ver más de [Textarea en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea), incluyendo las propiedades de `rows` y `cols`, que indican al navegador el tamaño con el que deberá aparecer como mínimo. 
+![Ejemplo de textarea](html-form-textarea.gif) 
+
+Puedes ver más de [Textarea en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea), incluyendo las propiedades de `rows` y `cols`, que indican al navegador el tamaño con el que deberá aparecer como mínimo. 
 
     
-    - __Fieldset__: Si bien no es una forma de agregar información, nos ayuda a indicarle a un usuario que algunos campos están relacionados. 
+#### `fieldset`: 
+Si bien no es una forma de agregar información, nos ayuda a indicarle a un usuario que algunos campos están relacionados. 
 
-        ```html
-            <form action="">
-                <fieldset>
-                    <legend>Datos Personales</legend>
-                    <label for="name">Nombres:</label><input type="text" name="name" id="name" placeholder="ej. John">
-                    <br>
-                    <label for="lastname">Apellidos:</label><input type="text" name="lastname" id="lastname" placeholder="ej. Doe">
-                    <br>
-                    <label for="phone">Teléfono:</label><input type="tel" name="phone" id="phone" placeholder="ej. +5190000000">
-                </fieldset>
-            </form>
-        ```
+```html
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="name">Nombres:</label><input type="text" name="name" id="name" placeholder="ej. John">
+            <br>
+            <label for="lastname">Apellidos:</label><input type="text" name="lastname" id="lastname" placeholder="ej. Doe">
+            <br>
+            <label for="phone">Teléfono:</label><input type="tel" name="phone" id="phone" placeholder="ej. +5190000000">
+        </fieldset>
+    </form>
+```
 
-        Que se mostrará  como: 
+Que se mostrará  como: 
 
-        ![Ejemplo de textarea](html-form-fieldset.png) 
+![Ejemplo de textarea](html-form-fieldset.png) 
 
-        Recuerda usar la etiqueta `legend` junto a `fieldset`. `legend` te permite darle un título que describa al grupo de campos que tienes agrupados por el `fieldset`. 
+Recuerda usar la etiqueta `legend` junto a `fieldset`. `legend` te permite darle un título que describa al grupo de campos que tienes agrupados por el `fieldset`. 
 
 ### HTML5
 
