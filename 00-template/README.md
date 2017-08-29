@@ -53,6 +53,26 @@ Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
 desarrollar durante el curso, junto con la metodología de trabajo propuesta
 así como entregables y método de evaluación.
 
+## Syllabus
+
+### Unidad 01: [Introducción](01-introduction)
+
+Xmin (self-paced)
+
+Un párrafo que describa lo que va a ocurrir durante la lección... seguido de una
+tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
+esto:
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | Xmin | [Bienvenida y orientación](01-introduction/00-welcome-and-orientation.md)
+| 01 | lectura | Xmin | [Growth Mindset](01-introduction/01-growth-mindset.md)
+| 02 | lectura | Xmin | [¿Qué es la programación y porqué aprender a programar?](01-introduction/02-why-learn-to-code.md)
+| 03 | lectura | Xmin | [Tu primera página web](01-introduction/03-your-first-website.md)
+| 04 | quiz | Xmin | [Prueba tu conocimiento](01-introduction/04-prueba-tu-conocimiento.md)
+
+...
+
 ***
 
 ## Autor(es) / Colaboradores
