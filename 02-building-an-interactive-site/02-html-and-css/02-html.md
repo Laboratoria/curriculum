@@ -26,7 +26,7 @@ En la unidad de Introducción vimos como hacer tu primera web. Recapitulemos un 
 Recordemos que _Hipertext Markup Language_ o _HTML_ es un lenguaje de marcado.  __No es un lenguaje de programación__. Digamos que es un lenguaje donde indicas qué es cada cosa a través de etiquetas. A través de este lenguaje le decimos al navegador cómo estructurar el contenido de la página web en pequeños bloques de elementos html. Dependiendo de la _etiqueta_ que usemos, el elemento html se verá un poco diferente.
 
 ## Anatomía de un elemento HTML
-***
+
 
 Como vimos anteriormente, una etiqueta esta formada principalmente por: 
 ![<p>Code that transforms</p>](tag-structure.png)
@@ -88,7 +88,7 @@ El __ul__ o _lista no ordenada_ (unordered list) tendrá internamente varios ele
 
 
 ## Comentarios en HTML
-***
+
 
 Para definir un comentario recordemos que usamos las etiquetas `<!--` para arbri el comentario y `-->` para cerrar el comentario. 
 
@@ -104,7 +104,7 @@ Para definir un comentario recordemos que usamos las etiquetas `<!--` para arbri
 
 
 ## Estructura HTML 
-***
+
 
 Las etiquetas actuan como contenedores de la información que esté entre sus etiquetas de apertura y cierre. 
 
@@ -118,7 +118,7 @@ Si definimos como contenedores, tendremos que :
   </head>
   <body>
     <h1>Hola Mundo!</h1>
-    <p>Bienvenidos a mi primera página web</>
+    <p>Bienvenidos a mi primera página web</p>
   </body>
 </html>
 ```
@@ -766,9 +766,11 @@ Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta t
         <tr><td>Shuttle-Mir Program</td><td>1995</td><td>1998</td><td>9[b]</td><td>Partnership con Rusia</tr>
         <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
         <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
-        <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
+        <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td></tr>
     </table>
 ```
+Si intentas el código anterior, puede que no veas ningún borde, porque esto requiere que uses el atributo `border="1"` para que se vea. De igual manera no es recomendable ya que puedes manejar los borders y colores de mejor manera usando CSS. 
+En mi caso se ve como sigue: 
 
 ![Ejemplo de tabla](html-table.png)    
 
@@ -778,7 +780,7 @@ Cuando tenemos tablas más complejas, podemos usar `thead` (zona de cabecera), `
 Por ejemplo, si hacemos un poco más compleja la tabla anterior.
 
 ```html
-    <table border="1">
+    <table>
         <caption>Programas espaciales de NASA</caption>
         <thead>
             <tr><th rowspan="2">Programa</th><th colspan="2">Fechas</th><th rowspan="2">No. de Misiones tripuladas</th><th rowspan="2">Notas</th></tr>
@@ -802,6 +804,8 @@ Por ejemplo, si hacemos un poco más compleja la tabla anterior.
 ```
 
 Notarás que en `thead` hemos anidado las filas `tr` que contienen cabeceras. Hemos agregado un `tbody` para agrupar la información. Además un `tfoot` con un pequeño mensaje. También tendré un `caption` que nos permite decir en algunas palabras qué información se mostrará en la tabla.
+
+Si intentas el código anterior, puede que no veas ningún borde, porque esto requiere que uses el atributo `border="1"` para que se vea. De igual manera no es recomendable ya que puedes manejar los borders y colores de mejor manera usando CSS.
 
 Por último, se verá como sigue: 
 
@@ -996,7 +1000,7 @@ Por ejemplo para código:
 
 ```html
     <input list="personajes" name="personaje">
-    <datalist name="" id="personajes">
+    <datalist id="personajes">
         <option value="Duncan – King of Scotland">
         <option value="Malcolm – Duncan's elder son">
         <option value="Donalbain – Duncan's younger son">        
@@ -1049,10 +1053,240 @@ Recuerda usar la etiqueta `legend` junto a `fieldset`. `legend` te permite darle
 
 ### HTML5
 
-### Block vs in-line
+## Block vs in-line
 
-### Enlazando HTML con JavaScript
---- colocar un ejercicio guiado o algo para que practiquen JS.
+Notarás que en varios de los ejemplos tuve que agregar un elemento `br` para indicar una nueva línea, esto debido a que algunos elementos suelen usar sólo el espacio que requieren para su contenido y no necesitan más epacio, por lo que otro elemento de similares características puede seguir al costado del primero, si el espacio le alcanzara. A estos elementos se les denomina __`inline`__.
+
+Por ejemplo, si en los elementos de `fieldset` retiramos todos los `br`, tendríamos las siguientes características. 
+
+```html
+        <form action="#">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="name">Nombres:</label><input type="text" name="name" id="name" placeholder="ej. John">
+                <label for="lastname">Apellidos:</label><input type="text" name="lastname" id="lastname" placeholder="ej. Doe">
+                <label for="phone">Teléfono:</label><input type="tel" name="phone" id="phone" placeholder="ej. +5190000000">
+            </fieldset>
+        </form>
+```
+
+Por lo que al mostrarse se verá como: 
+
+![Ejemplo de fieldset inline](html-inline-fieldset.png) 
+
+Notarás, como mencionaba, que los elementos tratan de acomodarse uno al costadao del otro tan pronto tengan espacio.
+
+Los elementos inline son:
+- `<a>`
+- `<b>`
+- `<big>`
+- `<i>`
+- `<small>`
+- `<tt>`
+- `<abbr>`
+- `<acronym>`
+- `<cite>`
+- `<code>`
+- `<dfn>`
+- `<em>`
+- `<kbd>`
+- `<strong>`
+- `<samp>`
+- `<time>`
+- `<var>`
+- `<bdo>`
+- `<br>`
+- `<img>`
+- `<map>`
+- `<object>`
+- `<q>`
+- `<script>`
+- `<span>`
+- `<sub>`
+- `<sup>`
+- `<button>`
+- `<input>`
+- `<label>`
+- `<select>`
+- `<textarea>
+
+Los elementos inline, pueden contener otros inline sin generar un salto de línea. 
+
+Pero, hay otros elementos que son solo ser declarador generan una nueva línea, y si visualizamos el html como una caja que puede contener otras cajas, los visualizaremos como cajas que tiene todo el ancho y largo de la caja, no dejando que otros elementos intenten ocupar las líneas que él ya ocupa. Hablamos de los elementos tipo `block`. 
+
+Entre las etiquetas que tienen comportamiento de bloque, tenemos :
+
+
+- `<address>`
+    Información de contacto.
+
+- `<article>` 
+    Propio de HTML5. Contenido del artículo.
+
+- `<aside>` HTML5
+   Propio de HTML5. Contenido de costado, o al lado.
+
+- `<blockquote>`
+    Cita larga ("bloque").
+
+- `<canvas>` 
+    Propio de HTML5. Sirve para dibujar.
+
+- `<dd>`
+    Describe un termino en una lista de descripciones.
+
+- `<div>`
+    División del documento
+
+- `<dl>`
+    Lista de descripciones.
+
+- `<dt>`
+    Lista de términos.
+
+- `<fieldset>`
+    Agrupa elementos. 
+
+- `<figcaption>` 
+    Propio de HTML5. Le da una descripción al elemento `figure`.
+
+- `<figure>` 
+    Propio de HTML5. Agrupa contenido de medio como imágenes, con su respectivo `figcaption`.
+
+- `<footer>` 
+    Propio de HTML5. Pie de sección o página.
+
+- `<form>`
+    Formulario
+
+- `<h1>`, `<h2>`, `<h3>`,`<h4>`, `<h5>`,`<h6>`
+    Cabeceras de nivel 1-6.
+
+- `<header>` 
+    Propio de HTML5. Cabecera de sección o página.
+
+- `<hgroup>` HTML5
+    Propio de HTML5. Agrupa información de cabecera.
+
+- `<hr>`
+    Línea horizontal
+
+- `<li>`
+    Item de una lista.
+
+- `<main>`
+    Contiene el contenido centras y único para este documento.
+- `<nav>`
+    Contienen línks de navegación.
+
+- `<noscript>`
+    Contenido a usar si script como JavaScript están deshabilitados
+
+- `<ol>`
+    Lista ordenada.
+
+- `<output>` HTML5
+    Propio de HTML5. Para output.
+
+- `<p>`
+    Párrafo.
+
+- `<pre>`
+    Texto Preformateado.
+
+- `<section>` HTML5
+    Propio de HTML5. Sección de una página web.
+
+- `<table>`
+    Tabla.
+
+- `<tfoot>`
+    Pie de Table.
+
+- `<ul>`
+    Lista no ordenada.
+
+- `<video>`
+    Propio de HTML5. Cargar y mostrar video.
+
+Los elementos de bloque o `block` por lo general pueden contener otros bloques y elementos inline. 
+
+
+## Enlazando HTML con JavaScript
+
+Para enlazar nuestro HTML con JavaScript, usamos la etiqueta `<script><script>`. Tenemos dos forms de usarla. 
+
+1. Incluir el JavaScript directamente dentro del script.
+
+    ```html
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <title>Mi primera página</title>
+        </head>
+        <body>
+            <script type="text/javascript">
+            alert("Hola");
+            </script>
+            <h1>Hola Mundo!</h1>
+            <p>Bienvenidos a mi primera página web</p>
+            <p>Esta página tiene varios elementos</p>
+            <ul>
+            <li>body</li>
+            <li>head</li>
+            <li>h1</li>
+            <li>p</li>
+            </ul>
+        </body>
+        </html>
+    ```
+
+    Al ejecutar este código obtendremos: 
+
+    ![Ejemplo de script en html](html-script-inline.gif) 
+
+
+    Sin embargo esta no es la mejor manera, ya que vamos a mantener demasiadas cosas, aparte del HTML, tendremos que preocuparnos de lo que pase en `script` y esto puede extenderse mucho, haciendo molesta y complicada la lectura dl código.
+
+2. La segunda forma es trayendo el código, a través de un __source__ o fuente indicada en el atributo `src` de nuestro script.
+
+    En nuestro archivo HTML tendremos
+
+    ```html
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <title>Mi primera página</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+            <h1>Hola Mundo!</h1>
+            <p>Bienvenidos a mi primera página web</p>
+            <p>Esta página tiene varios elementos</p>
+            <ul>
+            <li>body</li>
+            <li>head</li>
+            <li>h1</li>
+            <li>p</li>
+            </ul>
+            <script type="text/javascript" src="js/app.js"></script>
+        </body>
+        </html>
+    ```
+
+    y en nuestro nuevo archivo __app.js__ al que referenciamos con la etiqueta script antes de finalizar el documento, tendremos:
+
+    ```js
+        alert("Hola");
+    ```
+
+    Al ejecutar. Se verá más o menos: 
+
+    ![Ejemplo de script en html usando src](html-script-src.gif) 
+
+    Se ve casi igual, porque nuestro ejemplo es bastante pequeño, pero verás como hace gran diferencia en el momento de escribir código
+
+    Esta forma nos ayuda a tener mayor independencia de código. Notarás que pse el `script` justo antes de terminar el `body`. Esto de manera que al momento de cargar y ejecutar el archivo app.js, todos los elementos HTML, y hayan sido cargados y existan en nuestra aplicación web.
 
 ## Guía de estilos
 
@@ -1149,9 +1383,103 @@ No dejes espacios en blanco entre atributo y su valor.
 ### Caracteres especiales
 
 
-### Debugging HTML
+## Debugging HTML
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML
 
+Nos referimos a _debugging_ a la forma de encontrar, identificar y reparar errores. En HTML, estos errores tienden a ser: 
+
+### Errores de Syntaxis. 
+Son errores que se refieren al mal uso del lenguaje. De repente escribir mal alguna etiqueta, o no cerrarla adecuadamente. 
+
+### Errores de Lógica
+Si bien las etiquetas pueden estar bien escritas, y cerradas, la estructura que tienen no es la adecuada o no apoyan a cumplir la función para la que fueron creadas. 
+
+Para validar, y conocer nuestros errores en HTML de syntaxis, no basta con abrir el documento en un navegador, puesto que los navegador corren el HTML de manera _permisiva_, es decir, si se encuentran errores, el navegador, de acuerdo al contexto, cerrará en donde pueda las etiquetas, e interpretará las etiquetas que no conoce como `div` o algún bloque similar. 
+
+Pero entonces, para conocer si nuestro HTML esta bien, y poder escribir código de calidad, es importante aplicar las buenas prácticas y validar el documento a través de otras herramientas. Podemos usar el [__HTML Validator de _W3C___](https://validator.w3.org/#validate_by_input). Si ingresas al link, notarás que está en el tab _validate input_. Esto es para que ingresemos un código que quizá este mal escrito. 
+
+![HTML Validator](html-validator.png)
+
+Supongamos que ingreso el siguiente código: 
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Mi primera página</title>
+  </head>
+  <body>
+    <h1>Hola Mundo!</h1>
+    <p>Bienvenidos a mi primera página web
+    <p>Esta página tiene varios elementos
+    <ul>
+     <li>body
+     <li>head
+     <li>h1
+     <li>p
+    <ul>
+  </body>
+  <br>
+</html>
+```
+Este código ya contiene un error, que es que _no se ha cerrado la etiqueta `p`, ni el `ul`, ni sus `li`_, además hay un <br> después del `body`. 
+
+Si pegamos este código en el validator y seleccionamos _Check_ tendremos un resultado como: 
+
+![HTML Errores](html-errors.png)
+
+1. [Error] End tag for `body` seen, but there were unclosed elements.
+    Este se refiere a que si bien se cierra la etiqueta body, hay varias etiquetas que no han cerrado como deberían. 
+
+2. y 3. [Error]  Unclosed element `ul`.
+    Este error se refiere a que no se cerró la etiqueta `ul`. Y esto es porque en la línea 15, en lugar de escribir `</ul>` escribimos sólo `<ul>`
+
+4. [Error] Stray start tag `br`. 
+    Se refiere al hecho de poner un `br` fuera del contexto de `body`.
+
+Supongamos que corregimos primero estos 4 errores y probamos nuestro código. 
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Mi primera página</title>
+  </head>
+  <body>
+    <h1>Hola Mundo!</h1>
+    <p>Bienvenidos a mi primera página web
+    <p>Esta página tiene varios elementos
+    <ul>
+     <li>body
+     <li>head
+     <li>h1
+     <li>p
+    </ul>
+  </body>
+</html>
+```
+
+Notarás que el validator ya no nos da más errores, aunque sabes que los tags no están cerrados adecuadamente. Esto es porque el anidado esta relativamente claro y el navegador podría interpretar donde cerrar las etiquetas. Aún así, recuerda cerrarlas adecuadamente. El código final quedaría como: 
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Mi primera página</title>
+  </head>
+  <body>
+    <h1>Hola Mundo!</h1>
+    <p>Bienvenidos a mi primera página web</p>
+    <p>Esta página tiene varios elementos</p>
+    <ul>
+     <li>body</li>
+     <li>head</li>
+     <li>h1</li>
+     <li>p</li>
+    </ul>
+  </body>
+</html>
+```
 ***
 
 
