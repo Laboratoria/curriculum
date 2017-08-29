@@ -13,7 +13,7 @@
 
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
-https://docs.google.com/forms/d/e/1FAIpQLSfhPq6wD-NEOrMIC51wnMxLUAh27nOVRZJW014cspXUxpAVXw/viewform?usp=sf_link
+https://docs.google.com/forms/u/1/d/1Zdo5BjsBwG3ZlEoLwlA9izodgJPCWsFtkTLMT6QfcQs/viewform?usp=sf_link
 
 ***
 [Continuar](10-lecture.md)
