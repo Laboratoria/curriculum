@@ -30,8 +30,7 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 > **¿Qué es el `Sistema de Control de Versiones`?**
 El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:  
 !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
-    Gracias al VCS podemos hacer que eso no suceda debido a que permite:
-    
+  Gracias al VCS podemos hacer que eso no suceda debido a que permite:
     - Revertir los archivos a un estado anterior.
     - Revertir todo el proyecto a un estado anterior.
     - Comparar los cambios que se hayan hecho a lo largo del proyecto.
@@ -63,9 +62,7 @@ En resúmen, Git piensa en tus archivos como un flujo de 'imágenes' por eso a c
 Pero `Github` no solo sirve para 'subir' nuestro código, él también contribuirá al desarrollo colaborativo del proyecto brindándonos herramientas como por ejemplo:
 
 - Un `sistema de seguimiento de problemas` que permite a los miembros de un equipo detallar un problema o una sugerencia que deseen hacer del proyecto.
-
 - Una `herramienta de revisión de código`, donde se pueden añadir anotaciones en cualquier punto del proyecto y debatir sobre un cambio en específico.
-
 - Un `visor de versiones` donde se puede comparar el progreso del proyecto en las distintas versiones.
 
 **En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
@@ -81,7 +78,7 @@ Git y Github se complementan pero no son iguales.
 
 La programación se da, en su mayoría de veces, en equipos. Varias empresas tiene un equipo que se complementa para cada proyecto. Ante esta situación te preguntarás: 
 
-- ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajan cada uno por su lado y al momento de tener que unir las partes tienen que ver detalladamente si se repiten o no alguna parte.
+>¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajan cada uno por su lado y al momento de tener que unir las partes tienen que ver detalladamente si se repiten o no alguna parte.
 
 Esto sería algo para nada eficiente, porque no se podría trabajar al mismo tiempo en algo en específico y se tendría que depender del avance de otro para que nosotros podamos avanzar.
 
