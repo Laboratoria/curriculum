@@ -1469,7 +1469,7 @@ Supongamos que corregimos primero estos 4 errores y probamos nuestro código.
 </html>
 ```
 
-Notarás que el validator ya no nos da más errores, aunque sabes que los tags no están cerrados adecuadamente. Esto es porque el anidado esta relativamente claro y el navegador podría interpretar donde cerrar las etiquetas. Aún así, recuerda cerrarlas adecuadamente. El código final quedaría como: 
+Notarás que el validador ya no nos da más errores, aunque sabes que los tags no están cerrados adecuadamente. Esto es porque el anidado esta relativamente claro y el navegador podría interpretar donde cerrar las etiquetas. Aún así, recuerda cerrarlas adecuadamente. El código final quedaría como: 
 
 ```html
 <!DOCTYPE html>
