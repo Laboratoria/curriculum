@@ -20,30 +20,24 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de
 
 ***
 
-## DRY (Don't Repeat Yourself)
-
+## DRY
 En la programación existe un concepto que escucharás más de una vez. Dice así: _"Don't Repeat Yourself"_, y es comunmente conocido como `DRY`. En español significa _"no te repitas"_. Si estás copiando y pegando pedazos de código, o si tienes sentencias de código similares a lo largo de tu programa, significa que te estás repitiendo. Ya hemos visto este concepto en práctica con el uso de `estructuras repetitivas` (bucles): en lugar de tener un mismo bloque de código repetido, puedes sustituirlo por un `for` o un `while`. Con las funciones puedes alcanzar el mismo objetivo. Veamos qué son las `funciones`, cómo usarlas y por qué son importantes.
 
 ## ¿Qué es una función?
-
-Una función es una forma de agrupar código para que pueda ser reutilizado. Las funciones nos permiten ejecutar la misma pieza de código en varios lugares de un programa sin tener que copiar y pegar el código repetidamente. 
-
-Dicho de otra manera, una función es un **pedazo de programa envuelto en un valor**. Ese valor puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que ejecute el código que tiene dentro.
+Una función es una forma de agrupar código para que pueda ser reutilizado. Las funciones nos permiten ejecutar la misma pieza de código en varios lugares de un programa sin tener que copiar y pegar el código repetidamente. Dicho de otra manera, una función es un **pedazo de programa envuelto en un valor**. Ese valor puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que ejecute el código que tiene dentro.
 
 A lo largo de este curso hemos venido utilizando funciones, solo que las venimos llamando _"comandos"_. Los comandos como `alert()`, `prompt()` y `console.log()` son realmente funciones.
 
 ## Funciones en JavaScript
-
 Las funciones son el pan de cada día en la programación con JavaScript.
 
-La aplicación más obvia de las funciones, a modo de analogía , es la de definir un nuevo vocabulario, es decir, crear nuevas palabras en un lenguaje humano común (como el español o el inglés) es típicamente algo de mal gusto. Sin embargo, en la programación es indispensable.
+La aplicación más obvia de las funciones es la de definir un nuevo vocabulario. Crear nuevas palabras en un lenguaje humano común (como el español o el inglés) es típicamente algo de mal gusto. Sin embargo, en la programación es indispensable.
 
 Un adulto promedio tiene unas 20,000 palabras en su vocabulario. Pocos lenguajes de programación tienen 20,000 comandos incorporados. Y el vocabulario que _sí_ está disponible tiende a ser definido de forma más precisa, y por ende menos flexible, que en un lenguaje humano. En consecuencia, usualmente _tenemos_ que añadir algo de nuestro propio vocabulario para evitar repetirnos demasiado.
 
 Agrupando fragmentos de código en una función con un **nombre fácil de entender** (dado que será parte del vocabulario que estás construyendo) podemos estructurar mejor nuestro código. Esto porque nos enfocamos en organizar las funciones, en lugar de cada línea de código que las componen. Al dividir nuestro código en piezas más pequeñas - y por ende - más manejables, podemos tener una mirada más completa de lo que estamos haciendo. Nos permite elevarnos a un nivel superior de abstracción. Como dicen el refrán: podemos visualizar el bosque completo, viendo más allá de los árboles.
 
 ## Definiendo una función
-
 La definición de una función es simplemente una definición regular de una variable, pero donde el valor dado a la variable es una función. Por ejemplo, el siguiente código define la variable `square` para referirse a la _función_ que produce el cuadrado de un número dado:
 
 ```js
@@ -70,7 +64,6 @@ square(12);
 ```
 
 ## El valor de retorno
-
 Así como los argumentos son los valores de "entrada" (input) que utiliza una función al ser llamada, el valor de retorno es el valor de salida (output) que devuelve la función (el `144` del ejemplo anterior), y que puede ser utilizado en cualquier lugar del programa. Si una función no especifica el valor de retorno, entonces, la función retorna  `undefined`.
 
 El valor de retorno se especifica con el _keyword_ `return`. En el ejemplo anterior, se especifica que el valor de retorno es el parámetro multiplicado por sí mismo; es decir, el parámetro al cuadrado. El keyword `return` sin una expresión después de él, también hará que la función devuelva `undefined`.
