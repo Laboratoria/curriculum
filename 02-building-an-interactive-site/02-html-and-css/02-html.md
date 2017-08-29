@@ -373,21 +373,27 @@ Solo para aclarar. Puedes ver dónde aparece el contenido de la etiqueta `title`
 
 ![Mi primera página web - contenedores](test-html-browser-parts.png)
 
-- `<link href="[direccion url de tu hoja de estilos]" rel="stylesheet">`
+### `<link href="[direccion url de tu hoja de estilos]" rel="stylesheet">`
 También encontraras, por lo general, la etiqueta `link` que genera un vínculo entre la página y otros recursos. Puedes revisar la [documentacion de link que tiene disponible MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link). Por lo general lo usamos para _stylesheets_ (hojas de estilos). Hay algunos atributos que sería importante que conozcas:
     
-    - ___href___: indica la dirección url donde se encuentra el recurso que vamos vincular.
+#### __href___: 
+Indica la dirección url donde se encuentra el recurso que vamos vincular.
 
-    - ___rel___: este atributo indica que tipo de relación tiene el recurso que estamos vinculando respecto a nuestra página. Para hojas de estilos usamos el valor _`stylesheet`_, pero existen otros valores como _copyright_, _lincense_, _help_, _author_, entre otros. 
+#### __rel___: 
+Este atributo indica que tipo de relación tiene el recurso que estamos vinculando respecto a nuestra página. Para hojas de estilos usamos el valor _`stylesheet`_, pero existen otros valores como _copyright_, _lincense_, _help_, _author_, entre otros. 
 
-     - ___type___: nos ayuda a especificar el tipo de archivo que que vincularemos. Para el caso de hojas de estilos este valor muchas veces se omite, pero el oficial es usar: _`text/css`_. Para otro tipo de recursos, [necesitarás otros types](http://www.iana.org/assignments/media-types/media-types.xhtml).
+#### __type___: 
+Nos ayuda a especificar el tipo de archivo que que vincularemos. Para el caso de hojas de estilos este valor muchas veces se omite, pero el oficial es usar: _`text/css`_. Para otro tipo de recursos, [necesitarás otros types](http://www.iana.org/assignments/media-types/media-types.xhtml).
 
-     - __media__: este atributo nos permite decirle al navegador para que tipos de medios físicos estará disponible el recurso. Tú, yo, viendo esto en una computadora desktop en un navegador, o en un celular, estaríamos usando un media conocido como _`screen`_, pero hay otros media, como _`print`_ que usamos para indicar que este será usado para impresiones (pdf o impresoras). También otro bastante usado es el _`speech`_ para lectores para personas con discapacidad visual. También [puedes unir este atributo a otros con los que especificar más el medio](https://www.w3schools.com/tags/att_link_media.asp) al que dirijes el recurso. 
+#### __media__: 
+Este atributo nos permite decirle al navegador para que tipos de medios físicos estará disponible el recurso. Tú, yo, viendo esto en una computadora desktop en un navegador, o en un celular, estaríamos usando un media conocido como _`screen`_, pero hay otros media, como _`print`_ que usamos para indicar que este será usado para impresiones (pdf o impresoras). También otro bastante usado es el _`speech`_ para lectores para personas con discapacidad visual. También [puedes unir este atributo a otros con los que especificar más el medio](https://www.w3schools.com/tags/att_link_media.asp) al que dirijes el recurso. 
 
 ### `<meta>` 
 Es una etiqueta vacía. En sus atributos recibe información sobre la información de la página web. Hay variada información que puedes incluir con esta etiqueta y no es raro que la encuentres varias veces en el `head` con diferentes datos. Algunos de los datos esenciales-más importantes que indicar son: 
-    - __charset__: indica el sistema de caracteres que usaremos en la web. Por lo general usamos en esta atributo el valor `utf-8` que es el estándar de caracteres más usado ya que incluye letras, número, tildes, letras del alfabeto frances, español, ruso entre otros. En tu HTML tendras este meta: `<meta charset="utf-8">`
-    - __name__ y  __content__: usamos estos dos atributos juntos especificar diferentas datos que son útiles para guardar, búsquedas desde buscadores como Google o Bing, además de apoyo para vistas en redes sociales.
+#### __charset__: 
+Indica el sistema de caracteres que usaremos en la web. Por lo general usamos en esta atributo el valor `utf-8` que es el estándar de caracteres más usado ya que incluye letras, número, tildes, letras del alfabeto frances, español, ruso entre otros. En tu HTML tendras este meta: `<meta charset="utf-8">`
+#### __name__ y  __content__: 
+Usamos estos dos atributos juntos especificar diferentas datos que son útiles para guardar, búsquedas desde buscadores como Google o Bing, además de apoyo para vistas en redes sociales.
         
          _`name`_ nos ayuda a identificar la información que vamos a poner, por ejemplo si vamos a poner el autor de la página tendremos `name="author"` y con _`content`_ indicaremos la información que corresponde al autor, por ejemplo: `content="Laboratoria"`. El meta sería: `<meta name="author" content="Laboratoria">`. 
 
@@ -395,29 +401,30 @@ Es una etiqueta vacía. En sus atributos recibe información sobre la informaci�
 
         Existen otros valores de `name` que si bien no son oficiales, son bastante usados: _viewport_ (puede modificar cómo se verá la web, usualmente usado para dispositivos móviles), _creator_ (similar a autor, pero asociado al creador de la página), _robots_, _googlebot_ , _slurp_. Estos tres últimos están relacionados a información que queremos darle a los robots que actualizan los índices de los buscadores. 
 
-    - __property__ y __content__: similar al dúo `name` y `content`, por lo general usamos este dúo dinámico para dar información, por lo general, asociada a diferentes redes sociales. Un ejemplo es el caso de qué información queremos que se muestre en __Facebook__ si usaremos:
+#### __property__ y __content__: 
+Similar al dúo `name` y `content`, por lo general usamos este dúo dinámico para dar información, por lo general, asociada a diferentes redes sociales. Un ejemplo es el caso de qué información queremos que se muestre en __Facebook__ si usaremos:
 
-        ```html
-        <!-- 
-            <meta property="og:image" content="http://[URL DE LA IMAGEN QUE QUEREMOS MOSTRAR]">
-          
-            <meta property="og:description" content="[Descripción que aparecerá en la pubicación]">
-          
-            <meta property="og:title" content="[Título que tomaría la publicación]">
+```html
+<!-- 
+    <meta property="og:image" content="http://[URL DE LA IMAGEN QUE QUEREMOS MOSTRAR]">
+    
+    <meta property="og:description" content="[Descripción que aparecerá en la pubicación]">
+    
+    <meta property="og:title" content="[Título que tomaría la publicación]">
 
-        -->
-            <meta property="og:url" content="http://laboratoria.la">
-            <meta property="og:title" content="Laboratoria">
-            <meta property="og:description" content="Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector. ">
-        ``` 
+-->
+    <meta property="og:url" content="http://laboratoria.la">
+    <meta property="og:title" content="Laboratoria">
+    <meta property="og:description" content="Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector. ">
+``` 
 
-        Cuando compartamos la página que tiene este código, en Facebook, obtendremos algo como lo que sigue:
+Cuando compartamos la página que tiene este código, en Facebook, obtendremos algo como lo que sigue:
 
-        ![Facebook Laboratoria](og-facebook-laboratoria.png)
+![Facebook Laboratoria](og-facebook-laboratoria.png)
 
-        Twitter tiene también su propio estándar para propiedades que usará en caso de publicación. 
+Twitter tiene también su propio estándar para propiedades que usará en caso de publicación. 
 
-    Como ves, la etiqueta meta especificará bastante información sobre tu página web. Puedes ver más en la [documentación de la etiqueta `meta`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta).
+Como ves, la etiqueta meta especificará bastante información sobre tu página web. Puedes ver más en la [documentación de la etiqueta `meta`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta).
 
 ### `script` 
 Es otra etiqueta que verás y por lo regular la usamos para vincular archivos de JavaScript. Pero eso lo veremos más adelante. 
@@ -426,7 +433,6 @@ Tal y cómo vimos, `head` entonces sera en contenedor de variada información so
 
 
 ## Principales etiquetas
-***
 
 De hecho existen montones de etiquetas que puedes usar, y podemos dividirlas entre etiquetas que definen estructura y etiquetas que definen contenido. 
 
@@ -478,129 +484,129 @@ Para el caso de textos tenemos varias etiquetas.
     
 ##### __Headlings o Cabeceras__
 
-        Estas etiquetas dan un sentido jerárquito a los títulos y subtítulos. Las etiquetas son:
+Estas etiquetas dan un sentido jerárquito a los títulos y subtítulos. Las etiquetas son:
 
-        ```html
-            <h1>H1</h1>
-            <h2>H2</h2>
-            <h3>H3</h3>
-            <h4>H4</h4>
-            <h5>H5</h5>
-            <h6>H6</h6>
-        ```
-        Estós títulos se van a renderizar como: 
+```html
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+```
+Estós títulos se van a renderizar como: 
 
-        ![Jerarquía de los Headlings](herarchy-headlings.png)
-        
-        Donde H1 es el título de mayor jerarquía, y H6 el de menor jerarquía.
+![Jerarquía de los Headlings](herarchy-headlings.png)
+
+Donde H1 es el título de mayor jerarquía, y H6 el de menor jerarquía.
 
 ##### __Párrafos__
       
-        Los párrafos los definimos con la etiqueta `<p></p>`. Como tal, define un bloque te texto.
+Los párrafos los definimos con la etiqueta `<p></p>`. Como tal, define un bloque te texto.
 
-        Por ejemplo, este párrafo:
+Por ejemplo, este párrafo:
 
-        ```html
-        <p>Space, the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before!<p>
-        ```
+```html
+<p>Space, the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before!<p>
+```
 
-        Se verá como: 
-        ![<p></p>](html-p.png)
+Se verá como: 
+![<p></p>](html-p.png)
 
 ##### __pre__:
-         a veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. En ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
+A veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. En ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
 
-        ```html
-        <strong>Invictus</strong>
-        <pre>
-        Fuera de la noche que me cubre,
-        Negra como el abismo de polo a polo,
-        Agradezco a cualquier dios que pudiera existir
-        Por mi alma inconquistable.
-        En las feroces garras de las circunstancias
-        Ni me he lamentado ni he dado gritos.
-        Bajo los golpes del azar
-        Mi cabeza sangra, pero no se inclina.
-        Más allá de este lugar de ira y lágrimas
-        Es inminente el Horror de la sombra,
-        Y sin embargo la amenaza de los años
-        Me encuentra y me encontrará sin miedo.
-        No importa cuán estrecha sea la puerta,
-        Cuán cargada de castigos la sentencia.
-        <em>Soy el amo de mi destino:
-        Soy el capitán de mi alma.<em>
-        </pre>
-        <em>William Ernest Henley</em>
-        ```
-        
-        Cuando lo veamos en nuestra página web, se verá así:
+```html
+    <strong>Invictus</strong>
+    <pre>
+    Fuera de la noche que me cubre,
+    Negra como el abismo de polo a polo,
+    Agradezco a cualquier dios que pudiera existir
+    Por mi alma inconquistable.
+    En las feroces garras de las circunstancias
+    Ni me he lamentado ni he dado gritos.
+    Bajo los golpes del azar
+    Mi cabeza sangra, pero no se inclina.
+    Más allá de este lugar de ira y lágrimas
+    Es inminente el Horror de la sombra,
+    Y sin embargo la amenaza de los años
+    Me encuentra y me encontrará sin miedo.
+    No importa cuán estrecha sea la puerta,
+    Cuán cargada de castigos la sentencia.
+    <em>Soy el amo de mi destino:
+    Soy el capitán de mi alma.<em>
+    </pre>
+    <em>William Ernest Henley</em>
+```
 
-        ![<p></p>](html-pre.png)
+Cuando lo veamos en nuestra página web, se verá así:
+
+![<p></p>](html-pre.png)
 
 ##### __strong__ 
         
-        Usamos `strong` para dar importancia a tun texto. Puedes usarlo dentro de un párrafo. 
+Usamos `strong` para dar importancia a tun texto. Puedes usarlo dentro de un párrafo. 
 
 ##### __em__
-        Al igual que `strong` ayuda a dar importancia a un texto, aunque su estilo es diferente y más suave. Vienen de _"emphasis"_, o énfasis en español. 
+Al igual que `strong` ayuda a dar importancia a un texto, aunque su estilo es diferente y más suave. Vienen de _"emphasis"_, o énfasis en español. 
 
 ##### __span__
 
-        Aloja un pedazo de texto al que luego puedes estilar como prefieres específicamente. 
-        `<span>Palabra</span>`
+Aloja un pedazo de texto al que luego puedes estilar como prefieres específicamente. 
+`<span>Palabra</span>`
 
 ##### __mark__
 
-        Funciona como un resaltador en la web. Dando un color restaltante a lo que indicamos entre sus etiquetas. 
+Funciona como un resaltador en la web. Dando un color restaltante a lo que indicamos entre sus etiquetas. 
 
-        ```html
-        <p>Space, the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: <mark>to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before!</mark><p>
-        ```
-        Se verá como: 
+```html
+    <p>Space, the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: <mark>to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before!</mark><p>
+```
+Se verá como: 
 
-        ![<p><mark></mark></p>](html-p-mark.png)
+![<p><mark></mark></p>](html-p-mark.png)
 
 ##### __abbr__
        
-        Define abreviaciones o acrónimos. La ventaja de usar `abbr` es que al dejar el cursor, se mostrará el título adecuado de dicha abreviatura. 
+Define abreviaciones o acrónimos. La ventaja de usar `abbr` es que al dejar el cursor, se mostrará el título adecuado de dicha abreviatura. 
 
-        ```html
-        <p>En esta lectura veremos todo sobre <abbr title="HiperText Markup Language">HTML</abbr>para construir tu página web</p>
-        ```
-        Notarás en la imagen cómo es que se ve, con un pequeño tooltip, el texto sin abreviar. 
+```html
+    <p>En esta lectura veremos todo sobre <abbr title="HiperText Markup Language">HTML</abbr>para construir tu página web</p>
+```
+Notarás en la imagen cómo es que se ve, con un pequeño tooltip, el texto sin abreviar. 
 
-        ![<abbr></abbr>](html-abbr.png) 
-          Hay algunas otras que puedes revisar en la documentación de MDN.    
+![<abbr></abbr>](html-abbr.png) 
+
+Hay algunas otras que puedes revisar en la documentación de MDN.    
 
 #### __Citas__
 
-        Para citas, podemos usar dos etiquetas, la primera es `q` que nos dará la posibilidad de introducir citas en el mismo párrafo. Para citas más complejas que merecen su propio párrafo y descripción de la fuente, tenemos `blockquote`. Hay momentos en que sólo queremos nobrar el título del trabajo que inspira esas líneas, en ese caso usamos `cite`. 
+Para citas, podemos usar dos etiquetas, la primera es `q` que nos dará la posibilidad de introducir citas en el mismo párrafo. Para citas más complejas que merecen su propio párrafo y descripción de la fuente, tenemos `blockquote`. Hay momentos en que sólo queremos nobrar el título del trabajo que inspira esas líneas, en ese caso usamos `cite`. 
 
-        Veamoslo con un pequeño ejemplo:
+Veamoslo con un pequeño ejemplo:
 
-        ```html
-        <blockquote>
-            <p>(...)Se necesita mucha confianza para admitir que necesitas ayuda. Como Q le había dicho Picard después de que Picard pidiera ayuda, <q>fue una admisión difícil, otro hombre habría sido humillado al decir esas palabras, otro hombre habría muerto antes que pedir ayuda</q>. ¿Cuántos de nosotros hemos estado en proyectos condenados porque el líder del proyecto era demasiado orgulloso o demasiado ciego para pedir ayuda?(...)</p>               
-            <footer>Es parte del artículo <cite>Five Leadership Lessons From Jean-Luc Picard</cite> por <em>Alex Knapp</em> de <strong>Forbes<strong></footer>    
-        </blockquote>
-        ```
+```html
+<blockquote>
+    <p>(...)Se necesita mucha confianza para admitir que necesitas ayuda. Como Q le había dicho Picard después de que Picard pidiera ayuda, <q>fue una admisión difícil, otro hombre habría sido humillado al decir esas palabras, otro hombre habría muerto antes que pedir ayuda</q>. ¿Cuántos de nosotros hemos estado en proyectos condenados porque el líder del proyecto era demasiado orgulloso o demasiado ciego para pedir ayuda?(...)</p>       
+    <footer>Es parte del artículo <cite>Five Leadership Lessons From Jean-Luc Picard</cite> por <em>Alex Knapp</em> de <strong>Forbes<strong></footer>    
+</blockquote>
+```
 
-        En este ejemplo estamos citando una parte de un artículo, como es una parte completa del artículo, estamos incluyendolo en `blockquote`. Notarás que dentro del artículo se hace referencia a la una frase de Picard. Para citar dicha frase estamos usando `q` que nos permite seguir con el párrafo sin interrumpir el flujo del contenido. 
-        Hay algo extra. El uso de `footer` nos permite separar semánticamente la referencia del contenido de la cita. Podríamos usar otra etiqueta, pero `footer` es la que hace más sentido semántico. Por último, indicamos el trabajo, en este caso, artículo de donde obtuvimos esta cita, y enfatizamos el autor y la fuente. 
+En este ejemplo estamos citando una parte de un artículo, como es una parte completa del artículo, estamos incluyendolo en `blockquote`. Notarás que dentro del artículo se hace referencia a la una frase de Picard. Para citar dicha frase estamos usando `q` que nos permite seguir con el párrafo sin interrumpir el flujo del contenido. 
+Hay algo extra. El uso de `footer` nos permite separar semánticamente la referencia del contenido de la cita. Podríamos usar otra etiqueta, pero `footer` es la que hace más sentido semántico. Por último, indicamos el trabajo, en este caso, artículo de donde obtuvimos esta cita, y enfatizamos el autor y la fuente. 
 
-        El resultado, será parecido al que sigue: 
+El resultado, será parecido al que sigue: 
 
-        ![Ejemplo de citas](html-quotations.png) 
+![Ejemplo de citas](html-quotations.png) 
     
 
-        
 
-* __Listas__
+### __Listas__
 
-    Tenemos dos tipos de listas, las listas ordenadas y las no ordendas. 
-    Las listas se componen del un elemento `<ul></ul>` para listas no ordenadas u `<ol></ol>` para listas ordendas. Este elemento anidará a los elementos de la lista que se limitan con la etiqueta `<li><li>`.
+Tenemos dos tipos de listas, las listas ordenadas y las no ordendas. 
+Las listas se componen del un elemento `<ul></ul>` para listas no ordenadas u `<ol></ol>` para listas ordendas. Este elemento anidará a los elementos de la lista que se limitan con la etiqueta `<li><li>`.
 
-    ```html
+```html
     <!-- listas ordenadas -->
     <ul>
         <li>Lima</li>
@@ -617,126 +623,165 @@ Para el caso de textos tenemos varias etiquetas.
         <li>Ciudad de Mexico</li>
         <li>Guadalajara</li>
     </ol>
-    ```
+```
 
-    Que se verán así: 
+Que se verán así: 
 
-    ![Ejemplo de listas](html-lists.png) 
+![Ejemplo de listas](html-lists.png) 
 
-    - __ol__
+#### __ol__
     
-        En el caso de la _lista ordenada_ `ol`, puedes especificar el tipo de numeración escogiendo entre los diferentes valores del atributo `type`. Dependiendo de cada valor la numeración varía. Por defecto el valor es `type="1"`, por eso ves los números por defecto.
+En el caso de la _lista ordenada_ `ol`, puedes especificar el tipo de numeración escogiendo entre los diferentes valores del atributo `type`. Dependiendo de cada valor la numeración varía. Por defecto el valor es `type="1"`, por eso ves los números por defecto.
 
-        ![Ejemplo de listas ordenadas](html-ol-lists.png) 
-
-
-    - __ul__
-
-        En el caso de las listas _no ordenadas_ `ul`, podemos cambiar el símbolo a través de una propiedad que veremos en CSS llamada `list-style-type`. 
-
-        ![Ejemplo de listas ordenadas](html-ul-lists.png) 
+![Ejemplo de listas ordenadas](html-ol-lists.png) 
 
 
-    - Listas de definiciones
+#### __ul__
 
-        Estas listas son especificas para usar en terminos y sus definiciones
+En el caso de las listas _no ordenadas_ `ul`, podemos cambiar el símbolo a través de una propiedad que veremos en CSS llamada `list-style-type`. 
 
-        ```html
-        <dl>
-            <dt>Rock</dt>
-            <dd>[...]</dd>
-            <dt>Pop</dt>
-            <dd>[...]</dd>
-            <dt>Musica electrónica</dt>
-            <dd>[...]</dd>
-            <dt>Rap</dt>
-            <dd>[...]</dd>
-            <dt>Reggae</dt>
-            <dd>[...]</dd>
-        </dl>
-        ``` 
-
-        Por ejemplo se verá: 
-
-        ![Ejemplo de listas ordenadas](html-dd.png) 
-
-* __Links__
-
-    Para crear un hipervínculos usamos la etiqueta `<a></a>`. 
-
-    Un link típico se ve como:
-
-    ```html
-        <a href="http://laboratoria.la" target="_blank">Laboratoria</a>
-    ```
-
-    Notarás 2 atributes. 
-    
-    `href` nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
-
-    `target` nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
-
-    - `_blank`: Abre el documento en una nueva ventana o tab. 
-    - `_self`: este es el valor por defecto y abre el documento en el tab o ventana actual.
-    - `_parent`: Abre el link en un fragmento padre (Probablemente no tengas que usarlo).
-    - `_top`: Abre el link en todo el cuerpo de la ventana(Probablemente no tengas que usarlo). 
-    - `framename`: Abre el link en el frame con el nombre indicado, ya no se usa. Se usaba en el tiempo en que usabamos `frameset` para hacer estructuras en la página web. 
-
-    Los vínculos tienen estados, hablamos de un link: 
-    - _no visitado_: en este caso el link se verá en fuente azul y con subrayado. 
-    - _visitado_: cuando la página que vincula al link ya ha sido visitada antes. 
-    - _activo_: un link esta activo desde el momento que empezamos el tap o click hasta que soltamos la pantalla o el mouse. Por lo general esta representado con letras y subrayado rojo. 
-
-    ![Ejemplo de link](html-link.png) 
-
-* __Imágenes__
-
-    Para incluir imágenes como contenido usamos la etiqueta `<img>`. Esta es una etiqueta vacía. Tiene varios atributos con los que puedes manipular cómo llamar a la imagen, dimensiones entre otros. 
-
-    Los principales atributes de `img` son: 
-
-    - __src__: este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
-
-    - __alt___: aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
-
-    Por ejemplo si quiero incluir una imagen: 
-
-    ```html
-        <img src="space-pug-apo.png" alt="Apo, Space Brothers">
-    ```
-
-    En caso la imagen no existiera,en el navegador Chrome, solo mostrará el texto alternativo:
-
-    ![Ejemplo de IMG roto](html-img-alt.png) 
-
-    Pero si la imagen existe, si se mostrará: 
-
-    ![Ejemplo de IMG](html-img.png)     
-
-    Puedes poner imágenes como contenido de etiquetas `a`, `p`, o dentro de otras etiquetas. 
-
-    Otro atributo de `img` que cada vez se usa más es `srcset`. A través de este atributo, indicamos una serie de imagenes para aplicarse a diferentes resoluciones de pantalla, pero verás más de esto cuando veamos web responsive. Puedes ver otros atributos en la [documentación de MDN de img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
+![Ejemplo de listas ordenadas](html-ul-lists.png) 
 
 
-* __Tablas__
+#### __Listas de definiciones__
 
-    Lo ideal es usarlas para lo que fueron creadas, tabular información. Las tablas son estructuras en sí mismas. 
+Estas listas son especificas para usar en terminos y sus definiciones
 
-    Iniciamos una etiqueta principal: `<table></table>`. Dentro de esta etiqueta enc
+```html
+<dl>
+    <dt>Rock</dt>
+    <dd>[...]</dd>
+    <dt>Pop</dt>
+    <dd>[...]</dd>
+    <dt>Musica electrónica</dt>
+    <dd>[...]</dd>
+    <dt>Rap</dt>
+    <dd>[...]</dd>
+    <dt>Reggae</dt>
+    <dd>[...]</dd>
+</dl>
+``` 
 
-    Hay varias etiquetas que anidar: 
+Por ejemplo se verá: 
 
-    `<tr>` nos permite definir las files que tendra nuestra tabla.
+![Ejemplo de listas ordenadas](html-dd.png) 
 
-    `<th>` definiremos una celda de cabecera. 
+### __Links__
 
-    `<td>` crea una celda. 
+Para crear un hipervínculos usamos la etiqueta `<a></a>`. 
 
-    Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta tabla:
+Un link típico se ve como:
 
-    ```html
-        <table>
-            <tr><th>Programa</th><th>Fecha de Inicio</th><th>Fecha de Fin</th><th>No. de Misiones tripuladas</th><th>Notas</th></tr>
+```html
+    <a href="http://laboratoria.la" target="_blank">Laboratoria</a>
+```
+
+Notarás 2 atributes. 
+
+`href` nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
+
+`target` nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
+
+#### `_blank`:
+Abre el documento en una nueva ventana o tab. 
+#### `_self`:
+este es el valor por defecto y abre el documento en el tab o ventana actual.
+#### `_parent`:
+Abre el link en un fragmento padre (Probablemente no tengas que usarlo).
+#### `_top`:
+Abre el link en todo el cuerpo de la ventana(Probablemente no tengas que usarlo). 
+#### `framename`:
+Abre el link en el frame con el nombre indicado, ya no se usa. Se usaba en el tiempo en que usabamos `frameset` para hacer estructuras en la página web. 
+
+Los vínculos tienen estados, hablamos de un link:
+
+#### _no visitado_:
+En este caso el link se verá en fuente azul y con subrayado. 
+#### _visitado_:
+Cuando la página que vincula al link ya ha sido visitada antes. 
+#### _activo_:
+Un link esta activo desde el momento que empezamos el tap o click hasta que soltamos la pantalla o el mouse. Por lo general esta representado con letras y subrayado rojo. 
+
+![Ejemplo de link](html-link.png) 
+
+### __Imágenes__
+
+Para incluir imágenes como contenido usamos la etiqueta `<img>`. Esta es una etiqueta vacía. Tiene varios atributos con los que puedes manipular cómo llamar a la imagen, dimensiones entre otros. 
+
+Los principales atributes de `img` son: 
+
+#### __src__: este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
+
+#### __alt___: aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
+
+Por ejemplo si quiero incluir una imagen: 
+
+```html
+    <img src="space-pug-apo.png" alt="Apo, Space Brothers">
+```
+
+En caso la imagen no existiera,en el navegador Chrome, solo mostrará el texto alternativo:
+
+![Ejemplo de IMG roto](html-img-alt.png) 
+
+Pero si la imagen existe, si se mostrará: 
+
+![Ejemplo de IMG](html-img.png)     
+
+Puedes poner imágenes como contenido de etiquetas `a`, `p`, o dentro de otras etiquetas. 
+
+Otro atributo de `img` que cada vez se usa más es `srcset`. A través de este atributo, indicamos una serie de imagenes para aplicarse a diferentes resoluciones de pantalla, pero verás más de esto cuando veamos web responsive. Puedes ver otros atributos en la [documentación de MDN de img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
+
+
+### __Tablas__
+
+Lo ideal es usarlas para lo que fueron creadas, tabular información. Las tablas son estructuras en sí mismas. 
+
+Iniciamos una etiqueta principal: `<table></table>`. Dentro de esta etiqueta enc
+
+Hay varias etiquetas que anidar: 
+
+#### `<tr>` 
+Nos permite definir las files que tendra nuestra tabla.
+
+#### `<th>` 
+Definiremos una celda de cabecera. 
+
+#### `<td>` 
+Crea una celda. 
+
+Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta tabla:
+
+```html
+    <table>
+        <tr><th>Programa</th><th>Fecha de Inicio</th><th>Fecha de Fin</th><th>No. de Misiones tripuladas</th><th>Notas</th></tr>
+        <tr><td>Mercury program</td><td>1959</td><td>1963</td><td>6</td><td>Primera misión estadounidense tripulada</tr>
+        <tr><td>Gemini program</td><td>1963</td><td>1966</td><td>10</td><td>Program used to practice space rendezvous and EVAs</tr>
+        <tr><td>Apollo program</td><td>1961</td><td>1972</td><td>11[a]</td><td>Llevar el primer hombre a la luna</tr>
+        <tr><td>Skylab</td><td>1973</td><td>1974</td><td>3</td><td>Las misiones tripuladas solo se dieron en 1973 y 1974; primera estación espacial americana</tr>
+        <tr><td>Apollo-Soyuz</td><td>1975</td><td>1975</td><td>1</td><td>Junto a la unión soviética</tr>
+        <tr><td>Shuttle-Mir Program</td><td>1995</td><td>1998</td><td>9[b]</td><td>Partnership con Rusia</tr>
+        <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
+        <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
+        <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
+    </table>
+```
+
+![Ejemplo de tabla](html-table.png)    
+
+
+Cuando tenemos tablas más complejas, podemos usar `thead` (zona de cabecera), `tbody`(zona de contenido), `tfoot`(zona de pie), para agrupar celdas y filas en la tabla. Además los atributos `colspan` y   `rowspan` para indicar cuandas columnas o filas, respectivamente va a ocupar una celda, úsalo si van a usar más de 1. 
+
+Por ejemplo, si hacemos un poco más compleja la tabla anterior.
+
+```html
+    <table border="1">
+        <caption>Programas espaciales de NASA</caption>
+        <thead>
+            <tr><th rowspan="2">Programa</th><th colspan="2">Fechas</th><th rowspan="2">No. de Misiones tripuladas</th><th rowspan="2">Notas</th></tr>
+            <tr><th>Inicio</th><th>Fin</th></tr>    
+        </thead>
+        <tbody> 
             <tr><td>Mercury program</td><td>1959</td><td>1963</td><td>6</td><td>Primera misión estadounidense tripulada</tr>
             <tr><td>Gemini program</td><td>1963</td><td>1966</td><td>10</td><td>Program used to practice space rendezvous and EVAs</tr>
             <tr><td>Apollo program</td><td>1961</td><td>1972</td><td>11[a]</td><td>Llevar el primer hombre a la luna</tr>
@@ -746,47 +791,20 @@ Para el caso de textos tenemos varias etiquetas.
             <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
             <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
             <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
-        </table>
-    ```
+        </tbody>
+        <tfoot>
+            <tr><td colspan="5">Continuará</td></tr>
+        </tfoot>
+    </table>
+```
 
-    ![Ejemplo de tabla](html-table.png)    
+Notarás que en `thead` hemos anidado las filas `tr` que contienen cabeceras. Hemos agregado un `tbody` para agrupar la información. Además un `tfoot` con un pequeño mensaje. También tendré un `caption` que nos permite decir en algunas palabras qué información se mostrará en la tabla.
+
+Por último, se verá como sigue: 
+
+![Ejemplo de tabla compleja](html-table-complex.png)  
 
 
-    Cuando tenemos tablas más complejas, podemos usar `thead` (zona de cabecera), `tbody`(zona de contenido), `tfoot`(zona de pie), para agrupar celdas y filas en la tabla. Además los atributos `colspan` y   `rowspan` para indicar cuandas columnas o filas, respectivamente va a ocupar una celda, úsalo si van a usar más de 1. 
-
-    Por ejemplo, si hacemos un poco más compleja la tabla anterior.
-
-    ```html
-        <table border="1">
-            <caption>Programas espaciales de NASA</caption>
-            <thead>
-                <tr><th rowspan="2">Programa</th><th colspan="2">Fechas</th><th rowspan="2">No. de Misiones tripuladas</th><th rowspan="2">Notas</th></tr>
-                <tr><th>Inicio</th><th>Fin</th></tr>    
-            </thead>
-            <tbody> 
-                <tr><td>Mercury program</td><td>1959</td><td>1963</td><td>6</td><td>Primera misión estadounidense tripulada</tr>
-                <tr><td>Gemini program</td><td>1963</td><td>1966</td><td>10</td><td>Program used to practice space rendezvous and EVAs</tr>
-                <tr><td>Apollo program</td><td>1961</td><td>1972</td><td>11[a]</td><td>Llevar el primer hombre a la luna</tr>
-                <tr><td>Skylab</td><td>1973</td><td>1974</td><td>3</td><td>Las misiones tripuladas solo se dieron en 1973 y 1974; primera estación espacial americana</tr>
-                <tr><td>Apollo-Soyuz</td><td>1975</td><td>1975</td><td>1</td><td>Junto a la unión soviética</tr>
-                <tr><td>Shuttle-Mir Program</td><td>1995</td><td>1998</td><td>9[b]</td><td>Partnership con Rusia</tr>
-                <tr><td>Project Constellation</td><td>2003</td><td>2010[4]</td><td>0</td><td>Programa cancelado. Buscaba llevar humanos a la Luna de nuevo, a Marte y más allá</tr>
-                <tr><td>Space Shuttle</td><td>1981</td><td>2011</td><td>135</td><td>Primera misión donde se reusó cohetes</tr>
-                <tr><td>International Space Station</td><td>1998</td><td>Ongoing</td><td>44</td><td>Junto a Rusia, Canada, Estación Espacial Europea, y JAXA(Agencia espacial Japonesa). Cooperan la agencia espacial italiana ASI y brasileña AEB.</td><tr>
-            </tbody>
-            <tfoot>
-                <tr><td colspan="5">Continuará</td></tr>
-            </tfoot>
-        </table>
-    ```
-
-    Notarás que en `thead` hemos anidado las filas `tr` que contienen cabeceras. Hemos agregado un `tbody` para agrupar la información. Además un `tfoot` con un pequeño mensaje. También tendré un `caption` que nos permite decir en algunas palabras qué información se mostrará en la tabla.
-
-    Por último, se verá como sigue: 
-
-    ![Ejemplo de tabla compleja](html-table-complex.png)  
-
-    
 * __Formularios__
 
 
