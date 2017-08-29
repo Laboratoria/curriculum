@@ -434,7 +434,7 @@ Tal y cómo vimos, `head` entonces sera en contenedor de variada información so
 
 ## Principales etiquetas
 
-De hecho existen montones de etiquetas que puedes usar, y podemos dividirlas entre etiquetas que definen estructura y etiquetas que definen contenido. 
+De hecho existen montones de etiquetas que puedes usar, y podemos dividirlas entre etiquetas que definen estructura y etiquetas que definen contenido.  
 
 ### Etiquetas de estructuras
 
@@ -512,7 +512,7 @@ Por ejemplo, este párrafo:
 Se verá como: 
 ![<p></p>](html-p.png)
 
-##### `pre`:
+###### `pre`:
 A veces el formato del párrafo, en el que texto sigue su flujo, no es conveniente para lo que necesitamos. En ese caso podemos usar `pre` que estila tal y como lo dejaste en el código. 
 
 ```html
@@ -542,19 +542,19 @@ Cuando lo veamos en nuestra página web, se verá así:
 
 ![<p></p>](html-pre.png)
 
-##### `strong` 
+###### `strong` 
         
 Usamos `strong` para dar importancia a tun texto. Puedes usarlo dentro de un párrafo. 
 
-##### `em`
+###### `em`
 Al igual que `strong` ayuda a dar importancia a un texto, aunque su estilo es diferente y más suave. Vienen de _"emphasis"_, o énfasis en español. 
 
-##### `span`
+###### `span`
 
 Aloja un pedazo de texto al que luego puedes estilar como prefieres específicamente. 
 `<span>Palabra</span>`
 
-##### `mark`
+###### `mark`
 
 Funciona como un resaltador en la web. Dando un color restaltante a lo que indicamos entre sus etiquetas. 
 
@@ -565,7 +565,7 @@ Se verá como:
 
 ![<p><mark></mark></p>](html-p-mark.png)
 
-##### `abbr`
+###### `abbr`
        
 Define abreviaciones o acrónimos. La ventaja de usar `abbr` es que al dejar el cursor, se mostrará el título adecuado de dicha abreviatura. 
 
@@ -578,7 +578,7 @@ Notarás en la imagen cómo es que se ve, con un pequeño tooltip, el texto sin 
 
 Hay algunas otras que puedes revisar en la documentación de MDN.    
 
-#### Citas
+##### Citas
 
 Para citas, podemos usar dos etiquetas, la primera es `q` que nos dará la posibilidad de introducir citas en el mismo párrafo. Para citas más complejas que merecen su propio párrafo y descripción de la fuente, tenemos `blockquote`. Hay momentos en que sólo queremos nobrar el título del trabajo que inspira esas líneas, en ese caso usamos `cite`. 
 
@@ -600,7 +600,7 @@ El resultado, será parecido al que sigue:
     
 
 
-#### Listas
+##### Listas
 
 Tenemos dos tipos de listas, las listas ordenadas y las no ordendas. 
 Las listas se componen del un elemento `<ul></ul>` para listas no ordenadas u `<ol></ol>` para listas ordendas. Este elemento anidará a los elementos de la lista que se limitan con la etiqueta `<li><li>`.
@@ -628,21 +628,21 @@ Que se verán así:
 
 ![Ejemplo de listas](html-lists.png) 
 
-##### `ol`
+###### `ol`
     
 En el caso de la _lista ordenada_ `ol`, puedes especificar el tipo de numeración escogiendo entre los diferentes valores del atributo `type`. Dependiendo de cada valor la numeración varía. Por defecto el valor es `type="1"`, por eso ves los números por defecto.
 
 ![Ejemplo de listas ordenadas](html-ol-lists.png) 
 
 
-##### `ul`
+###### `ul`
 
 En el caso de las listas _no ordenadas_ `ul`, podemos cambiar el símbolo a través de una propiedad que veremos en CSS llamada `list-style-type`. 
 
 ![Ejemplo de listas ordenadas](html-ul-lists.png) 
 
 
-##### Listas de definiciones
+###### Listas de definiciones
 
 Estas listas son especificas para usar en terminos y sus definiciones
 
@@ -677,30 +677,30 @@ Un link típico se ve como:
 
 Notarás 2 atributes. 
 
-##### `href` 
+###### `href` 
 Nos dice que recurso, página, vinculará ese link. Aquí puedes poner links externos, como el del ejemplo, o puedes poner links a otras páginas de tu sitio, por ejemplo si quieres ir al admin de tu propio sitio web `href="/admin"` creará un link que te lleve a esa dirección. 
 
-##### `target` 
+###### `target` 
 Nos permite decirle al navegador, cómo o donde abrirá el link que hemos creado. Tiene varios valores determinados: 
 
-##### `_blank`:
+###### `_blank`:
 Abre el documento en una nueva ventana o tab. 
-##### `_self`:
+###### `_self`:
 este es el valor por defecto y abre el documento en el tab o ventana actual.
-##### `_parent`:
+###### `_parent`:
 Abre el link en un fragmento padre (Probablemente no tengas que usarlo).
-##### `_top`:
+###### `_top`:
 Abre el link en todo el cuerpo de la ventana(Probablemente no tengas que usarlo). 
-##### `framename`:
+###### `framename`:
 Abre el link en el frame con el nombre indicado, ya no se usa. Se usaba en el tiempo en que usabamos `frameset` para hacer estructuras en la página web. 
 
 Los vínculos tienen estados, hablamos de un link:
 
-##### _no visitado_:
+###### _no visitado_:
 En este caso el link se verá en fuente azul y con subrayado. 
-##### _visitado_:
+###### _visitado_:
 Cuando la página que vincula al link ya ha sido visitada antes. 
-##### _activo_:
+###### _activo_:
 Un link esta activo desde el momento que empezamos el tap o click hasta que soltamos la pantalla o el mouse. Por lo general esta representado con letras y subrayado rojo. 
 
 ![Ejemplo de link](html-link.png) 
@@ -711,10 +711,10 @@ Para incluir imágenes como contenido usamos la etiqueta `<img>`. Esta es una et
 
 Los principales atributes de `img` son: 
 
-##### `src`: 
+###### `src`: 
 Este atributo nos permite especificar la fuente o la dirección en donde se encuentra la imagen que vamos a mostrar. Soporta varias extensiones. 
 
-##### `alt`_: 
+###### `alt`_: 
 Aquí especificamos el texto alternativo que se mostrará en caso el navegador no pueda cargar la imagen desde la fuente que indcamos. 
 
 Por ejemplo si quiero incluir una imagen: 
@@ -744,13 +744,13 @@ Iniciamos una etiqueta principal: `<table></table>`. Dentro de esta etiqueta enc
 
 Hay varias etiquetas que anidar: 
 
-##### `<tr>` 
+###### `<tr>` 
 Nos permite definir las files que tendra nuestra tabla.
 
-##### `<th>` 
+###### `<th>` 
 Definiremos una celda de cabecera. 
 
-##### `<td>` 
+###### `<td>` 
 Crea una celda. 
 
 Con estas etiquetas ya podemos crear varias formas de tablas. Por ejemplo esta tabla:
@@ -807,7 +807,7 @@ Por último, se verá como sigue:
 
 ![Ejemplo de tabla compleja](html-table-complex.png)  
 
-### Formularios
+#### Formularios
 
 
 Los formularios nos ayudan a interactuar y obtener información de los usuarios. De hecho haz llenado algún formulario antes, desde el formulario de admisión, pasando por tu regisro y login de redes sociales, y hasta el registro y login de tu correo electrónico. 
@@ -839,10 +839,10 @@ Si ejecutas ese formulario, verás que al dar click en `submit` el formulario in
 
 Hay otra cosa que notarás, la etiqueta `<label>`. Esta etiqueta nos ayudará  a darle más información al usuario al indicarle que datos se esperan. Con el atributo `for` podemos asociar un `label` al campo al que se refiere, en este caso un `input`. 
 
-#### `input`
+##### `input`
 Hay más tipos de inputs. Algunos requieren un tratamiento extra a través de otras etiquetas o asociando a través de atributos.
 
-##### `input type="radio"`
+###### `input type="radio"`
  El input tipo radio, se refiere a Radio Button. Están diseñados para que el usuario elija 1 opción entre varias.
 
 ```html
@@ -865,7 +865,7 @@ Hay más tipos de inputs. Algunos requieren un tratamiento extra a través de ot
 
 Si pruebas el código anterior, notarás que sólo puedo seleccionar una de las opciones a la vez. La forma en que se asocian todos los radio button para indicar que corresponden a seleccionar un sólo valor es gracias al atributo `name`. 
 
-##### `input type="checkbox"`
+###### `input type="checkbox"`
 El input tipo checkbox esta diseñado para darte varias opciones y que puedas seleccionar más de una. 
 
 ```html
@@ -892,7 +892,7 @@ El input tipo checkbox esta diseñado para darte varias opciones y que puedas se
 
 Otros tipos de input son: 
 
-##### `input type="file"`
+###### `input type="file"`
 Que nos sirve para que el usuario seleccione archivos en su computador. Por ejemplo, su código se verá cómo: 
 
 ```html
@@ -910,53 +910,53 @@ Y en funcionalidad lo veremos comportarse cómo:
 Puedes restringir que tipos de archivos puede subir el archivo usando el atributo `accept` y en el mismo indicar que extensiones de archivos acepta. Puedes ver más en la [documentación de MDN sobre el input file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file).
             
 
-##### `input type="hidden"`
+###### `input type="hidden"`
 En el caso de hidden, este campo no lo podrá ver usuario, pero el valor que pongas aquí igualmente viajará con los demás datos que ponga el usuario. 
 
-##### `input type="image"`
+###### `input type="image"`
 En realidad sirve para crear un botón funciona igual que el `submit`. El detalle es que este botón nos permite costumizarlo usando una imagen que le indicamos en el atributo `src`. Además debes ponerle dimensiones, ya sea con HTML con los atributos `height` y `width`, o con CSS.
 
 Existen otros input types que se establecieron gracias a HTML5.
 
-##### `input type="color"`
+###### `input type="color"`
 Despliega un elemento de seleccion, de manera que puedas elegir un color. Recibe un texto que represente un colo. 
 
-##### `input type="date"`
+###### `input type="date"`
 Este control es para ingresar la fecha, Año, mes y día, sin hora. 
 
-##### `input type="datetime-local"`
+###### `input type="datetime-local"`
 Para ingresar la fecha y hora, sin indicar la zona horaria. 
 
-##### `input type="email"`
+###### `input type="email"`
 Para ingresar y validar correos electrónicos.
 
-##### `input type="month"`
+###### `input type="month"`
 Un control para ingresar un mes y año, sin zona horaria.
 
-##### `input type="month"`
+###### `input type="month"`
 Un control paa  ingresar números.
 
-##### `input type="tel"`
+###### `input type="tel"`
 Para ingresar y validar números de teléfono. 
 
-##### `input type="range"`
+###### `input type="range"`
 Te ayuda a ingresar números de teléfono en el caso en que el número exacto no es tan importante. 
 
-##### `input type="week"`
+###### `input type="week"`
 Sólo esta soportado por Chrome por el memento, pero te permite elegir una seman, sin zona horaria. 
 
-##### `input type="month"`
+###### `input type="month"`
 Al igual que `week` sólo esta soportado con Chrome y tiene como característica que te permite elegir un mes en algún año. 
 
-##### `input type="search"`
+###### `input type="search"`
 Usualmente se comporta sólo como `text` y se le pone a formularios de búsqueda.
 
-##### `input type="number"`
+###### `input type="number"`
 Permite seleccionar o ingresar un número. 
 
 Puedes revisar la documentación sobre [input en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
-#### `select`
+##### `select`
 
 Los `select` son otros elementos que nos ayudan a ofrecerle oopciones a los usuarios. En este caso le presentas una lista de opciones de las que puede elegir. 
 
@@ -989,7 +989,7 @@ También anidar varios `option` en un `optgroup` que te permite agruparlos de al
 
 El detalle especial con respecto a `select` es que sólo puedes escoger los valores que te ofrece, ninguno más o menos. Puedes decirle que se puede elegir más de una opción de la lista, pero nada más. 
 
-#### `datalist`
+##### `datalist`
 Incluído en HTML5. Este campo se compone de dos partes. Un `input`, y la lista de opciones. Si bien el usuario puede elegir alguna de las opciones, la que hace diferente `datalist` de `select` es que en caso se requiera, el usuario puede ingresar otro valor, diferente a los disponibles. 
 
 Por ejemplo para código: 
@@ -1012,7 +1012,7 @@ Que funcionando se verá como:
 
 Puedes ver más de [Datalist en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
 
-#### `textarea`
+##### `textarea`
 Es un input en que puedes ingresar gran cantidad de caracteres. Por lo general se recomienda si el texto que va a ingresar el usuario podría tener varías líneas. En código:
 
 ```html
@@ -1025,7 +1025,7 @@ Es un input en que puedes ingresar gran cantidad de caracteres. Por lo general s
 Puedes ver más de [Textarea en MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea), incluyendo las propiedades de `rows` y `cols`, que indican al navegador el tamaño con el que deberá aparecer como mínimo. 
 
     
-#### `fieldset`: 
+##### `fieldset`: 
 Si bien no es una forma de agregar información, nos ayuda a indicarle a un usuario que algunos campos están relacionados. 
 
 ```html
