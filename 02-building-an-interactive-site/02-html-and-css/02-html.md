@@ -5,8 +5,10 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender las principales etiquetas `html`
-- A
+- Profundizar el entendimiento de Qué es HTML. 
+- Entender y usar etiquetas de Estructura de manera adecuada. 
+- Entender y usar adecuadamente etiquetas HTML para el contenido de su página web. 
+- Crear un formulario sólo con HTML. 
 
 ***
 
