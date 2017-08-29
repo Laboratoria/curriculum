@@ -30,12 +30,12 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, de las sig
 > **¿Qué es el `Sistema de Control de Versiones`?**
 El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si algunas vez has elaborado un proyecto para una tarea ¿No te ha pasado algo así?:  
 !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
-  Gracias al VCS podemos hacer que eso no suceda debido a que permite:
-  - Revertir los archivos a un estado anterior.
-  - Revertir todo el proyecto a un estado anterior.
-  - Comparar los cambios que se hayan hecho a lo largo del proyecto.
-  - Ver quién introdujo un cambio o actualizó el archivo y cuándo.
-  - Y lo más importante, asegura que los archivos no se pierdan.
+    Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+    - Revertir los archivos a un estado anterior.
+    - Revertir todo el proyecto a un estado anterior.
+    - Comparar los cambios que se hayan hecho a lo largo del proyecto.
+    - Ver quién introdujo un cambio o actualizó el archivo y cuándo.
+    - Y lo más importante, asegura que los archivos no se pierdan.
 
 Ahora bien, `Git` es un `Sistema de Control de Versiones` que nos ayudará a guardar y diferenciar todos los cambios que haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
 
@@ -78,7 +78,11 @@ Git y Github se complementan pero no son iguales.
 
 ## ¿Por qué es importante Git y Github?
 
-La programación se da, en su mayoría de veces, en equipos. Varias empresas tiene un equipo que se complementa para cada uno de sus proyectos, ante esta situación te preguntarás: ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajar cada uno por su lado y al momento de tener que unir las partes tener que ver detalladamente si se repiten o no. Esto sería algo para nada eficiente porque no se podría trabajar al mismo tiempo en algo en específico, se tendría que depender del avance de otro para que nosotros podamos avanzar.
+La programación se da, en su mayoría de veces, en equipos. Varias empresas tiene un equipo que se complementa para cada proyecto. Ante esta situación te preguntarás: 
+
+- ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajan cada uno por su lado y al momento de tener que unir las partes tienen que ver detalladamente si se repiten o no alguna parte.
+
+Esto sería algo para nada eficiente, porque no se podría trabajar al mismo tiempo en algo en específico y se tendría que depender del avance de otro para que nosotros podamos avanzar.
 
 Para estos casos existen herramientas como Git y Github, los cuáles nos ayudan al momento de un trabajo colaborativo. Github es el lugar perfecto para trabajar conjuntamente en un proyecto con uno o varios compañeros, podrás crear un proyecto y añadir como colaboradores a los miembros de tu equipo; además, podrás traer a tu repositorio local los cambios que tus compañeros hayan subido al repositorio remoto y podrás ver automáticamente lo que acaba de añadir tu compañero. 
 
@@ -223,26 +227,29 @@ Aquí tienes la lista de los comandos más comunes que usarás:
   > git remote add origin https://github.com/MichelleSV/prueba.git
   
 - `push`: Por medio de `push` enviaremos nuestra 'nueva versión' a la nube.
-  >git push nombre-remoto nombre-rama  
+  >git push nombre-remoto master
   
-  En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto y en **nombre-rama** pondremos el nombre de la rama a la cual queremos que se envíen los cambios. Como hemos leído antes, por defecto, los repositorios traen una rama llamada `master` y si queremos subir a esa rama nuestros cambios sería así la línea que debemos ejecutar:
+  En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto y seguido pondremos **master**, entonces el comando a ejecutar sería:
   >git push origin master
   
+- `status`: Con `status` podremos ver qué archivos se han modificado, qué archivos no y qué archivos no están siendo rastreados por Git. El comando para ver el 'estado' de nuestro repositorio local es:
+  >git status
+
+- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que tengamos registrado en el repositorio remoto.
+  >git pull nombre-remoto master
   
-- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que tengamos registrado.
-  >git pull nombre-remoto nombre-rama
-  
-  Si queremos traer los cambios que están en nuestra rama 'master' debemos de ejecutar la siguiente línea:
+  En nuestro caso, el comando sería:
   >git pull origin master
   
   
-- `merge`: Sirve para fusionar otra rama a la rama en la que te encuentres.
+<!---
+ - `merge`: Sirve para fusionar otra rama a la rama en la que te encuentres.
   >git merge nombre-rama
   Por ejemplo, si nos encontramos en la rama 'master' y queremos fusionarla con la otra rama que hemos creado 'prueba', debemos de ejecutar la siguiente línea:
   >git merge prueba
   Y así estaremos fusionando la rama 'master' con la rama 'prueba'
   
-<!--- `branch`: Una `branch` o rama es una copia paralela que creamos de nuestro código. Por defecto todos los repositorio traen un rama base llamada `master`, podemos trabajar en esa rama todo el tiempo, pero si queremos hacer cambios sin que afecten a nuestra versión 'original' podemos crear otras ramas.
+ `branch`: Una `branch` o rama es una copia paralela que creamos de nuestro código. Por defecto todos los repositorio traen un rama base llamada `master`, podemos trabajar en esa rama todo el tiempo, pero si queremos hacer cambios sin que afecten a nuestra versión 'original' podemos crear otras ramas.
   Creamos una rama por medio del comando:
   >git branch nombre-rama  
   
@@ -251,8 +258,6 @@ Aquí tienes la lista de los comandos más comunes que usarás:
   
   También tenemos un comando con el que podemos crear la rama y a la vez situarnos en ella:
   >git checkout -b nombre-rama-->
-
-<!--falta pull en el flujo y status, no poner branch-->
 <!--Entonces nuestro flujo para subir nuestros avances al proyecto sería así:  
 
 ![''](http://fotos.subefotos.com/72e11e898411906c2bd72b74cbe92813o.png)-->
