@@ -18,11 +18,27 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 6 de
 ***
 
 ## Control de Flujo
-La razón por la cual creamos programas de computación es para **resolver problemas**. Un programa, hemos visto, es simplemente un conjunto de "instrucciones" que las computadoras siguen. Ese conjunto de instrucciones resuleven un problema. Hasta ahora hemos aprendido a obtener, representar, manipular y almacenar data en `variables`. Con esto, hemos podido crear programas que resuleven problemas muy sencillos. Esto es el caso, por ejempo, del programa que hicimos para transformar la temperatura en Celsius (°C) a Farenheit (°F). Sin embargo, para crear programas más complejos, es necesario expandir nuestro conocimiento sobre el _control de flujo de un programa_ y las estructuras que existen para modificar este flujo.
 
-Para utilizar la terminología correcta de JavaScript, de ahora en adelante, sustituiremos la palabra "instrucciones" por la palabra "sentencias". Una sentencia JavaScript es el equivalente a una oración en un leguaje humano. Entendemos, por lo tanto, que un programa en JavaScript es una lista de "sentencias JavaScript"; es decir, un conjunto de oraciones que le dicen al computador qué hacer.
+La razón por la cual creamos programas de computación es para **resolver problemas con ayuda de las computadoras**. Un programa, como hemos visto, es simplemente un conjunto de "instrucciones" que las computadoras siguen. Ese conjunto de instrucciones resuelven un problema. 
+
+Ahora bien, a la manera en cómo el computador lee, interpreta y sigue dichas instrucciones, se le conoce como el flujo de un programa.
+
+Hasta ahora hemos aprendido a obtener, representar, manipular y almacenar data en `variables`. Con esto, hemos podido crear programas que resuelven problemas muy sencillos. Esto es el caso, por ejemplo, del programa que hicimos para transformar la temperatura en Celsius (°C) a Farenheit (°F).
+
+Sin embargo, para crear programas que le digan al computador cómo hacer tareas más complejas, es necesario expandir nuestro conocimiento sobre la manera en cómo podemos controlar el flujo de un programa a través de __estructuras de control de flujo__.
+
+Por lo tanto, entendamos el control de flujo de un programa, como la forma en que le voy a indicar al computador, a través de instrucciones, el camino que debe seguir para resolver un problema según las alternativas que yo le indique. 
+
+## Dando instrucciones a la computadora a través de JavaScript
+
+ Debido a que a lo largo del bootcamp, vamos aprender el lenguaje de programación JavaScript para indicarle al computador, a través de instrucciones,que resuelva un problema, de ahora en adelante,sustituiremos la palabra "instrucciones" por la palabra "sentencias".
+
+ Las sentencias JavaScript es el equivalente a una oración en un leguaje humano. Por lo tanto, podemos indicar que,un programa en JavaScript es una lista de "sentencias JavaScript"; es decir, un conjunto de oraciones que le dicen al computador qué hacer. A continuación veamos las diversas formas que tenemos de decirle al computador qué camino debe seguir con las distintas estructuras de control de flujo.
+
+
 
 ### 1. Flujo en línea recta
+
 Cuando un programa contiene más de una sentencia, éstas son ejecutadas de arriba hacia abajo, una por una. Por ejemplo, el siguiente programa tiene tres sentencias: la primera le declara una variable llamada `name` con el valor del string "Michelle"; la segunda, imprime en la consola un mensaje personalizado de saludo "Hola Michelle"; y la tercera, imprime en la consola un mensaje que dice "Qué nombre tan largo tienes!".
 
 ```js
@@ -37,13 +53,15 @@ Una representación trivial esquemática de un flujo de control recto sería:
 ![Flujo recto](http://eloquentjavascript.net/img/controlflow-straight.svg)
 
 ### 2. Flujo condicional
-Ejecutar sentencias en línea recta no es la única opción que tenemos. Una alternativa es la _ejecución condicional_, en donde escogemos entre dos rutas diferentes basados en un valor `Boolean`, así:
+
+Ejecutar sentencias en línea recta no es la única opción que tenemos. Una alternativa es la _ejecución condicional_, en donde escogemos entre dos rutas diferentes basados en un valor `Boolean` , así:
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
 
-La ejecución condicional se escribe con el keyword `if` en JavaScript. La instrucción `if` es la más simple de las estructuras de control de JavaScript. Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera. Un condicional dice: _"Si algo es verdad, haz esto"_. Por ejemplo, si hiciste tu tarea, recibes un helado, pero si no hiciste tu tarea, no recibes el helado.
+La ejecución condicional se escribe con el keyword `if` en JavaScript. La instrucción `if` es la más simple de las estructuras de control de JavaScript. Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera.
+Un condicional dice: _"Si algo es verdad, haz esto"_. Por ejemplo, si hiciste tu tarea, recibes un helado, pero si no hiciste tu tarea, no recibes el helado.
 
-Como muestra el ejemplo a continuación, una sentencia `if` tiene 2 partes principales: la condición y el cuerpo. La condición debe ser un valor `Boolean` que va entre paréntesis. El cuerpo consiste en una o más sentencias JavaScript que se ejecutarán si, y solo si, la condición es verdadera (`Boolean` igual a `true`).
+Como muestra el ejemplo a continuación, una sentencia `if` tiene 2 partes principales: la condición y el cuerpo. La condición debe ser un valor `Boolean` que va entre paréntesis. El cuerpo consiste en una o más sentencias JavaScript que se ejecutarán si, y solo si, la condición es verdadera siempre (`Boolean` igual a `true`).
 
 ```js
 
@@ -53,7 +71,7 @@ if (condición) {
 
 ```
 
-Cuando necesitamos ejecutar múltiples sentencias, podemos encerrarlas en llaves ({ y }). Las llaves agrupan las sentencias, haciéndolos valer por una sola. Una secuencia de sentencias encerradas en llaves es llamada un **bloque** (de código). Muchos programadores de JavaScript encierran cada cuerpo de un `if` (y en los bucles, como verás más adelante), en llaves. Lo hacen en nombre de la consistencia y para evitar tener que añadir o quitar las llaves cuando el número de sentencias en el cuerpo cambie. Otros, valoran la brevedad y en el caso del `if` no utilizan las llaves. En este curso, siempre usaremos las llaves para ayudarnos a organizar nuestro código.
+Cuando necesitamos ejecutar múltiples sentencias, podemos encerrarlas en llaves ({ y }). Las llaves agrupan las sentencias, haciéndolos valer por una sola. Una secuencia de sentencias encerradas en llaves es llamada un **bloque** (de código). Muchos programadores de JavaScript encierran cada cuerpo de un `if` (y en los bucles, como verás más adelante), en llaves. Lo hacen primordialmente, para evitar tener que añadir o quitar las llaves cuando el número de sentencias en el cuerpo cambie. Otros, valoran la brevedad y en el caso del `if` no utilizan las llaves. En este curso, siempre usaremos las llaves para ayudarnos a organizar nuestro código.
 
 
 Volvamos al ejemplo anterior y agreguemos una condición antes de la sentencia que imprime el segundo mensaje:
@@ -80,7 +98,7 @@ if (name.length > 7) {
 }
 // returns > Hola Ana
 ```
-En esta ocasión, la condición **no** es `true` (es `false`) porque la longitud del nombre es 3, lo cual **no** es mayor a 7. Por lo tanto, el cuerpo del `if` **no** se ejecuta. De tal manera, únicamente se ejecuta el primer mensaje "Hola Ana".
+En esta ocasión, la condición **no** es `true` (es `false`) porque la longitud del nombre es 3, y  **no** cumple con la sentencia que sea mayor a 7. Por lo tanto, el cuerpo del `if` **no** se ejecuta. Y únicamente se ejecuta el primer mensaje "Hola Ana".
 
 #### _Sentencia `if... else`_
 A menudo no sólo tendrás código que se ejecute cuando una condición sea verdadera, sino también que maneje el otro caso. Este camino alternativo es representado por la segunda flecha en el diagrama de flujo. La palabra clave `else` puede ser usada, junto con `if`, para crear dos rutas de ejecución separadas y alternativas.
@@ -156,7 +174,7 @@ else {
 }
 ```
 
-Existe una estructura llamada `switch` que está hecha para "despachar" de un modo más directo. Desafortunadamente, la sintaxis que JavaScript usa para esto (que es heredada de la línea de lenguajes de programación de C/Java) es un poco incómoda; una cadena de sentencias `if` a menudo luce mejor. Aquí hay un ejemplo:
+Existe una estructura llamada `switch` que está hecha para "despachar" de un modo más directo. Esto quiere decir, evita tener que crear multitud de condiciones if..else y en ocasiones nos resultará muy útil para desarrollar sentencias más eficientes y claras. 
 
 ```js
 switch (prompt("¿Cómo está el clima?")) {
@@ -182,7 +200,7 @@ A continuación Michelle te ayuda a entender este caso un poco mejor:
 
 ### 3. Flujo repetitivo: Bucles
 
-Otra forma de modificar el flujo de un programa es estructuras repetitivas, también llamadas bucles ("loops" en inglés). Tal como hemos visto, los condicionales permiten ejecutar un conjunto de sentencias una vez si una condición _**es**_ verdadera. Los bucles, permiten ejecutar un código varias veces, dependiendo de si una condición _**sigue siendo**_ verdadera.
+Otra forma de modificar el flujo de un programa es a través de estructuras repetitivas, también llamados bucles ("loops" en inglés). Hast el momento hemos visto, que los condicionales permiten ejecutar un conjunto de sentencias una vez si una condición o sentencia _**es**_ verdadera. Los bucles, sin embargo, permiten ejecutar un código varias veces, dependiendo de si una condición _**sigue siendo**_ verdadera.
 
 Piensa en un programa que imprima todos los números pares del 1 al 12. Una manera de escribirlo sería como sigue:
 
@@ -206,7 +224,7 @@ Eso funciona, pero la idea de escribir un programa es trabajar menos, no más. S
 
 #### Bucles `while`
 
-El bucle más sencillo es el bucle `while` (que significa "mientras" en español). Un bucle `while` ejecuta repetidamente una serie de sentencias hasta que una condición particular deja de ser verdadera. Al escribir un bucle `while`, estás diciendo: _"Sigue haciendo esto mientras esta condición sea verdadera. Detente cuando la condición se vuelva falsa."_
+El bucle más sencillo es el bucle `while` (que significa "mientras" en español). Un bucle `while` ejecuta repetidamente una serie de sentencias hasta que una condición particular deje de ser verdadera. Al escribir un bucle `while`, estás diciendo: _"Sigue haciendo esto mientras esta condición sea verdadera. Detente cuando la condición se vuelva falsa."_
 
 Como muestra el ejemplo a continuación, una sentencia que comienza con el keyword `while` crea un bucle. Después de `while` viene una expresión en paréntesis que representa la condición y después un conjunto de sentencias (muy parecido al caso del `if`). Sin embargo, a diferencia del `if`, el bucle ejecuta la sentencia mientras la condición produzca un valor que sea `true`. Por eso es muy importante que el conjunto de sentencias incluya algo que _"cambia"_ para que la condición eventualmente sea falsa. De lo contrario, terminarás con un ciclo infinito que nunca se detendrá, y eso usualmente es malo.
 
@@ -233,7 +251,7 @@ while (number <= 12) {
 //   … etcetera hasta 12
 ```
 
-En este caso, como queremos imprimier los números pares del 1 al 12, creamos una variable `number`, la inicializamos con el valor 0, y la utilizamos en la condición. Queremos que el bloque dentro del `while` corra mientras el valor de `number` sea igual o menor a 12. El cuerpo del `while` incluye dos sentencias: la primera, imprime el número (con console.log), y la segunda incrementa `number` en 2 (porque queremos imprimir los pares únicamente). La variable `number` demuestra la forma en que una variable puede dar seguimiento al progreso de un programa. Cada vez que el bucle se repite, `number` se incrementa en 2. Entonces, al principio de cada repetición, el valor de la variable `number` es comparado con el número 12 para decidir si el programa ha hecho todo el trabajo que tenía que hacer. Es importante que entendamos que si no modificamos el valor de `number` con la segunda sentencia, la condición (number <=12) siempre será `true` y tendremos un ciclo infinito que nunca se detenrá. Esto puede causar que tu computadora tenga problemas y se congele.
+En este caso, como queremos imprimir los números pares del 1 al 12, creamos una variable `number`, la inicializamos con el valor 0, y la utilizamos en la condición. Queremos que las sentencias que se encuentran  dentro del bloque `while` las ejecute el computador mientras el valor de `number` sea igual o menor a 12. El cuerpo del `while` incluye dos sentencias: la primera, imprime el número (con console.log), y la segunda incrementa `number` en 2 (porque queremos imprimir los pares únicamente). La variable `number` demuestra la forma en que una variable puede dar seguimiento al progreso de un programa. Cada vez que el bucle se repite, `number` se incrementa en 2. Entonces, al principio de cada repetición, el valor de la variable `number` es comparado con el número 12 para decidir si el programa ha hecho todo el trabajo que tenía que hacer. Es importante que entendamos que si no modificamos el valor de `number` con la segunda sentencia, la condición (number <=12) siempre será `true` y tendremos un ciclo infinito que nunca se detendrá. Esto puede causar que tu computadora tenga problemas y se congele o `cuelgue`.
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará si quieres detener el script después de unos cuantos segundos. Si eso falla, tendrás que cerrar la pestaña en la que estás trabajando, o, en otros nevagadores, cerrar el navegador entero para recuperarte.
 
@@ -337,7 +355,7 @@ A continuación Alexandra te ayuda a entender el flujo de un bucle `for` que imp
 
 #### _Forzando la salida de un bucle_
 
-Hacer que la condición del bucle produzca false no es la única forma de que un bucle termine. Podemos utilizar la sentencia especial `break` que utilza `switch`. `break` tiene el efecto de salir inmediatamente del bucle que la esté encerrando.
+Hacer que la condición del bucle produzca false no es la única forma de que un bucle termine. Podemos utilizar la sentencia especial `break` que utiliza `switch` debido a que tiene el efecto de salir inmediatamente del bucle que la esté encerrando.
 
 El siguiente programa ilustra el uso de la sentencia `break` para salir de un bucle. Queremos hacer un programa que encuentre el primer número que es más grande o igual que 20 y divisible por 7.
 
