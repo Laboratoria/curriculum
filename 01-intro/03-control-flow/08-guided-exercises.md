@@ -14,11 +14,12 @@
 
 A continuación tienes más problemas de práctica. Estos problemas serán resueltos, paso a paso, por tu equipo de profes en una clase presencial.
 
-Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante el resto de la clase y así ayduar al resto de tus compañeras :)
+Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante el resto de la clase y así ayudar al resto de tus compañeras :)
 
 #### 1. Funciones matemáticas
 
-Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos. Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
+Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La función `add` debe sumar sus argumentos y devolver el resultado. La funcion `multiply` debe multiplicar sus argumentos.  
+Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
 
 #### 2. Ordenando comida
 
