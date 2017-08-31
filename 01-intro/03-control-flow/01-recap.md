@@ -32,4 +32,4 @@ Javascript`, asegurando que sabemos:
 
 ***
 
-[Continuar](01-opening.md)
+[Continuar](02-opening.md)
