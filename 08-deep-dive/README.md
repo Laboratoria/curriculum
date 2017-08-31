@@ -130,10 +130,10 @@ importantes como asignar funciones a una variable, pasar como parámetro de otra
 función, cambiar el scope de variables, asignar como valor de una propiedad de
 un objeto, etc.
 
-| Orden | Tipo | Duración | Descripción
-|-------|------|----------|-------------
-|   1   |      |   15min   | [Scope](#)
-|   2   |      |   15min   | [Funciones](#)
+| Orden | Tipo  | Duración  | Descripción
+|-------|------ |---------- |-------------
+|   1   |lectura|   15min   | [Scope](#)
+|   2   |lectura|   15min   | [Funciones](#)
 
 ### Lección 06: [Estructura de Datos](#)
 
@@ -143,10 +143,10 @@ En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
 estructura de datos que veremos como sacar provecho de ellas.
 
-| Orden | Tipo | Duración | Descripción
-|-------|------|----------|-------------
-|   1   |      |   20min   | [Objetos](#)
-|   2   |      |   15min   | [Arreglos](#)
+| Orden | Tipo   | Duración  | Descripción
+|-------|------- |---------- |-------------
+|   1   |lectura |   20min   | [Objetos](#)
+|   2   |lecture |   15min   | [Arreglos](#)
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
