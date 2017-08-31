@@ -106,6 +106,7 @@ Sigue los pasos de Michelle para crear un repositorio en Github
 
 [![Cceando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
+
 Por último tenemos la pantalla donde encontrarmos la url, con la cuál (más adelante) vincularemos nuestro repositorio remoto con nuestro repositorio local.
 
 ## ¿Cómo instalamos y configuramos Git?
@@ -184,6 +185,10 @@ Primero debemos de acceder a nuestra terminal `git bash` (debemos buscarla entre
 
 Los datos con los que llenes las líneas anteriores deben de ser los mismo con los que creaste tu cuenta de `Github`, porque como te comentaba con ellos se registrarán los `commits` que hagas en `Git` y que luego pasarán al historial de nuestro proyecto en `Github`.
 
+Ahora veamos cómo Michelle configura su entorno de Git y sube su primer repositorio local a un repositorio remoto:
+
+[![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
+
 ## ¿Cómo usar Git y Github?
 
 En el anterior video hemos visto cómo podemos hacer con Git y Github maravillas. Hemos creado un proyecto y lo trabajamos colaborativamente sin necesidad de tener que depender del otro miembro para poder avanzar. 
@@ -220,10 +225,10 @@ Aquí tienes la lista de los comandos más comunes que usarás:
   Por ejemplo, si ya he creado el repositorio 'prueba' en Github tendría que ejecutar la siguiente línea:
   > git remote add origin https://github.com/MichelleSV/prueba.git
   
-- `push`: Por medio de `push` enviaremos nuestra 'nueva versión' a la nube.
+- `push`: Por medio de `push` enviaremos nuestra 'nueva versión' a la nube. 
   >git push nombre-remoto master
-  
-  En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto y seguido pondremos **master**, entonces el comando a ejecutar sería:
+    
+  En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto (**origin**) y seguido pondremos **master**, más adelante conoceremos el trabajo en 'ramas' que tiene Github. Las **ramas** son una copia paralela que creamos de nuestro código. Por defecto, los repositorios traen una 'rama' llamada **master** y ahora trabajaremos solo en ella así que subiremos nuestros cambios a ella especificando **master**, entonces el comando a ejecutar sería:
   >git push origin master
   
 - `status`: Con `status` podremos ver qué archivos se han modificado, qué archivos no y qué archivos no están siendo rastreados por Git. El comando para ver el 'estado' de nuestro repositorio local es:
