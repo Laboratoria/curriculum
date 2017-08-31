@@ -1,4 +1,4 @@
-# Apertura
+# Cierre
 
 * Tipo: `seminario`
 * Formato: `guiado`

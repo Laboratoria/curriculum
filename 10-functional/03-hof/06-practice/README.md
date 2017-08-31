@@ -1,9 +1,7 @@
-# Cuestionario
+# Ejercicios de currying
 
-* Tipo: `quiz`
+* Tipo: `practice`
 * Formato: `self-paced`
 * Duración: `10min`
 
 ***
-
-[WIP]
