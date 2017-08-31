@@ -1,4 +1,4 @@
-# Tarea
+# With bind
 
 **Usa Function#bind** para implementar una función "logger" que nos permita
 separar mensajes en diferentes ámbitos (namespaces).
@@ -41,4 +41,4 @@ module.exports = function(namespace) {
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+* [Function.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)

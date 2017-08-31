@@ -1,4 +1,7 @@
-Este es un ejemplo de implementación usando `curry3`, el cual tiene capacidad de manejar hasta tres argumentos:
+# curryN
+
+Este es un ejemplo de implementación usando `curry3`, el cual tiene capacidad de
+manejar hasta tres argumentos:
 
 ```js
 function curry3(fun){
@@ -30,14 +33,16 @@ var curryA = curryB(3)
 console.log(curryA(2)) // => 1
 ```
 
-# Tarea
+## Tarea
 
-En este reto, vamos a implementar la función 'curry' para un número arbitrario de argumentos.
+En este reto, vamos a implementar la función 'curry' para un número arbitrario
+de argumentos.
 
 `curryN` recibe dos parámetros:
 
 * fn: la función que queremos para _curry_.
-* n: número opcional de argumentos para _curry_. Si no se suministra, entonces `curryN` debe usar la aridad de `fn` como el valor para `n`.
+* n: número opcional de argumentos para _curry_. Si no se suministra, entonces
+  `curryN` debe usar la aridad de `fn` como el valor para `n`.
 
 ## Ejemplo
 
@@ -61,7 +66,8 @@ console.log(curryN(add3)(1)(2)(3)) // => 6
 
 ## Pista
 
-* Se puede detectar el número esperado de argumentos de una función (su aridad) revisando la propiedad .length de la función.
+* Se puede detectar el número esperado de argumentos de una función (su aridad)
+  revisando la propiedad .length de la función.
 
 ## Plantilla
 

@@ -1,10 +1,13 @@
 # Tarea
 
-Implementar una función recursiva que devuelva todas las dependencias únicas y subdependencias de un módulo ordenadas alfabéticamente. Las dependencias deben imprimirse como dependencia@versión, p. 'Inflection@1.2.6'.
+Implementar una función recursiva que devuelva todas las dependencias únicas y
+subdependencias de un módulo ordenadas alfabéticamente. Las dependencias deben
+imprimirse como dependencia@versión, p. 'Inflection@1.2.6'.
 
-Se permiten múltiples versiones del mismo módulo, pero los módulos duplicados de la misma versión deben eliminarse
+Se permiten múltiples versiones del mismo módulo, pero los módulos duplicados de
+la misma versión deben eliminarse
 
-## Argumentos:
+## Argumentos
 
 * tree: un árbol de dependencias. Vea a continuación un ejemplo de la estructura.
 
@@ -29,11 +32,11 @@ var loremIpsum = {
   }
 }
 
-getDependencies(loremIpsum) // => [ 'inflection@1.2.6', 'optimist@0.3.7', 'wordwrap@0.0.2' ]
-
+getDependencies(loremIpsum)
+// => ['inflection@1.2.6', 'optimist@0.3.7', 'wordwrap@0.0.2']
 ```
 
-## Condiciones:
+## Condiciones
 
 * No usar ninguna estructura enlazada como for/while.
 
@@ -49,9 +52,8 @@ function getDependencies(tree) {
 }
 
 module.exports = getDependencies
-
 ```
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+* [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)

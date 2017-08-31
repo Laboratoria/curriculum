@@ -1,3 +1,5 @@
+# Without bind
+
 La aplicación parcial nos permite crear nuevas funciones a partir de funciones
 existentes, a la vez que fijamos algunos argumentos. Despues de fijar los
 argumentos para ser parcialmente aplicados, tenemos una nueva función lista para
@@ -45,7 +47,7 @@ addTen(0) // => 10
 Los ejemplos de arriba son lo mismo que invocar `add(10, y)`, donde `y` lo
 proporciona la llamada a la función apropiadamente llamada `addTen`.
 
-# Tarea
+## Tarea
 
 Usa aplicación parcial para crear una función que fije el primer argumento de
 `console.log`. Por ejemplo, implementa una función `logger` que añada un
@@ -96,8 +98,8 @@ module.exports = logger
 
 ## Recursos
 
-* https://en.wikipedia.org/wiki/Partial_application
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+* [Wikipedia - Partial application](https://en.wikipedia.org/wiki/Partial_application)
+* [MDN - Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 
 ## Pistas
 

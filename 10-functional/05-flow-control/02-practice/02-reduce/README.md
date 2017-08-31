@@ -1,3 +1,5 @@
+# reduce
+
 La recursión es un concepto fundamental en programación, que nos puede llevar a
 soluciones elegantes y eficientes a problemas algorítmicos. De hecho, la
 recursión es tan poderosa, que toda lógica iterativa puede ser expresada usando
@@ -23,7 +25,7 @@ toUpperArray(['hello', 'world']) // => ['HELLO', 'WORLD']
 El objetivo de este ejercicio es que te familiarices con la recursión a través
 de la implementación de una interfaz conocida usando una función recursiva.
 
-# Tarea
+## Tarea
 
 Implementa `Array#reduce` usando recursión.
 
@@ -64,8 +66,8 @@ reduce([1,2,3], function(prev, curr, index, arr) {
 
 ## Recursos
 
-* https://en.wikipedia.org/wiki/Recursion
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+* [Wikipedia - Recursion](https://en.wikipedia.org/wiki/Recursion)
+* [MDN - Array.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 ## Boilerplate
 
