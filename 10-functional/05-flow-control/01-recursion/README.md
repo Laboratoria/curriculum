@@ -18,9 +18,9 @@ programación funcional por las siguientes razones:
   a subconjuntos de un problema común.
 * La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
   la mutación de estado en las lecciones de [Funciones
-  puras](../01-pure-functions/README.html) e
-  [Inmutabilidad](../02-immutability/README.html).
-* La recursión es una manera de implementar *lazyness* y estructuras muy largas
+  puras](../01-pure-functions/README.md) e
+  [Inmutabilidad](../02-immutability/README.md).
+- La recursión es una manera de implementar *lazyness* y estructuras muy largas
   o infinitas.
 
 ## Factorial
@@ -923,7 +923,7 @@ caracteres de la siguiente manera:
   pasado como primer argumento. Ejemplo: `cycle(2, [1, 2, 3]) = [1, 2, 3, 1, 2,
   3]`
 
-## Referencias
+# Referencias
 
 * [Recursion in JavaScript](https://www.codecademy.com/en/courses/javascript-lesson-205)
   por Code Academy

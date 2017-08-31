@@ -117,3 +117,11 @@ greeter.bind(null, 'Hello', ', ', '.', 'Heidi', 'how', 'are', 'you', '?')()
 
 Nuestra función `greeter` espera 4 argumentos, en este caso el resto de los
 argumentos pasados simplemente son ignorados.
+
+## Referencias
+
+* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) de
+  Michael Fogus
+* [Array.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+* [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+* [Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
