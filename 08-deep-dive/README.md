@@ -146,7 +146,7 @@ estructura de datos que veremos como sacar provecho de ellas.
 | Orden | Tipo   | Duración  | Descripción
 |-------|------- |---------- |-------------
 |   1   |lectura |   20min   | [Objetos](#)
-|   2   |lecture |   15min   | [Arreglos](#)
+|   2   |lectura |   15min   | [Arreglos](#)
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
@@ -159,8 +159,8 @@ de nuestro código.
 
 | Orden | Tipo  | Duración  | Descripción
 |-------|------ |-----------|-------------
-|   1   |lecture|   10min   | [Modo Estricto](07-manejo-de-excepciones/00-modo-estricto.md)
-|   2   |lecture|   10min   | [try...catch](07-manejo-de-excepciones/01-try-catch.md)
+|   1   |lectura|   10min   | [Modo Estricto](07-manejo-de-excepciones/00-modo-estricto.md)
+|   2   |lectura|   10min   | [try...catch](07-manejo-de-excepciones/01-try-catch.md)
 
 ### Lección 08: [Document Objet Model (DOM)](#)
 
