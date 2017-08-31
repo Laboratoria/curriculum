@@ -17,11 +17,11 @@ You Don’t Know JS: Types & Grammar
 ¿Cuales tipos existen?
 La especificación del lenguaje define los tipos:
 
-* string
+## string
 
 El tipo String de Javascript es usado para representar datos textuales o cadenas de caracteres. Es un conjunto de "elementos", de valores enteros sin signo de 16 bits. Cada elemento ocupa una posición en el String. El primer elemento está en el índice 0, el próximo está en el índice 1, y así sucesivamente. La longitud de un String es el número de elementos en ella.
 
-* number
+## number
 
 De acuerdo al standard ECMAScript, sólo existe un tipo numérico: el valor de doble precisión de 64-bits IEEE 754 (un número entre -(253 -1) y 253 -1). No existe un tipo específico para los números enteros. Adicionalmente a ser capaz de representar números de coma flotante, el tipo número tiene tres valores simbólicos: +Infinity, -Infinity, and NaN(Not A Number o No Es Un Número).
 

@@ -18,7 +18,7 @@ Existen algunos objetos especiales con un comportamiento que estudiaremos son  l
 Estos Objetos representas básicamente funcionalidades ampliadas o incorporadas al propio lenguaje que nos permitirán manejar, entre otras cosas, estructuras de datos y nuevas utilidades, a continuación veremos algunas de ellas.
 
 
-En realidad, más que de objetos deberíamos hablar de clases de objetos, ya que un objeto en sí sería por ejemplo una fecha, y la clase de objeto a la que pertenece sería la clase Date.
+En realidad, más que de objetos deberíamos hablar de clases de objetos, ya que un objeto en sí sería por ejemplo una fecha, y la clase de objeto a la que pertenece sería la clase `Date`.
 Para crear un nuevo objeto de una clase ya definida, la forma habitual es escribir:
 
 ```javascript
