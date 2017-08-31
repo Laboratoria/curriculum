@@ -89,6 +89,8 @@ acceso al repo, su propio fork, ...
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
+30min (presencial)
+
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
 lenguaje es ECMAScript, en esta lección veremos las nuevas características de JS
 a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
@@ -103,6 +105,9 @@ a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
 
+1.0h (self-paced)
+
+
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
@@ -110,12 +115,14 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 
 | Orden | Tipo    | Duración | Descripción
 |-------|---------|----------|-------------
-|   1   | lectura |   Xmin   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-data-types.md)
-|   2   | lectura |   Xmin   | [Control de Flujo](04-foundations/01-control-flow.md)
-|   2   | lectura |   Xmin   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
+|   1   | lectura |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-data-types.md)
+|   2   | lectura |   15min   | [Control de Flujo](04-foundations/01-control-flow.md)
+|   2   | lectura |   10min   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
 
 
-### Lección 05: [Funciones](#)
+### Lección 05: [Funciones](05-functions)
+
+1hr (presencial)
 
 Veremos a profundidad el tema de funciones, aprovechando que JavaScript tiene
 una orientación por la programación funcional desde su diseño, características
@@ -123,33 +130,37 @@ importantes como asignar funciones a una variable, pasar como parámetro de otra
 función, cambiar el scope de variables, asignar como valor de una propiedad de
 un objeto, etc.
 
-| Orden | Tipo | Duración | Descripción
-|-------|------|----------|-------------
-|   1   |      |   Xmin   | [Scope](#)
-|   2   |      |   Xmin   | [Funciones](#)
+| Orden | Tipo  | Duración  | Descripción
+|-------|------ |---------- |-------------
+|   1   |lectura|   15min   | [Scope](#)
+|   2   |lectura|   15min   | [Funciones](#)
 
 ### Lección 06: [Estructura de Datos](#)
+
+1hr (presencial)
 
 En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
 estructura de datos que veremos como sacar provecho de ellas.
 
-| Orden | Tipo | Duración | Descripción
-|-------|------|----------|-------------
-|   1   |      |   Xmin   | [Objetos](#)
-|   2   |      |   Xmin   | [Arreglos](#)
+| Orden | Tipo   | Duración  | Descripción
+|-------|------- |---------- |-------------
+|   1   |lectura |   20min   | [Objetos](#)
+|   2   |lectura |   15min   | [Arreglos](#)
 
-### Lección 07: [Manejo de Excepciones](#)
+### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
+
+30min (self-paced)
 
 El manejo de errores es importante dentro de todo desarrollo de software, y mas
 aun cuando se piensa en construir un producto que se espera sea reusable y
 mantenible. En esta lección veremos cómo manejar errores en las diversas partes
 de nuestro código.
 
-| Orden | Tipo | Duración | Descripción
-|-------|------|----------|-------------
-|   1   |      |   Xmin   | [Modo Estricto](#)
-|   2   |      |   Xmin   | [try...catch](#)
+| Orden | Tipo  | Duración  | Descripción
+|-------|------ |-----------|-------------
+|   1   |lectura|   10min   | [Modo Estricto](07-manejo-de-excepciones/00-modo-estricto.md)
+|   2   |lectura|   10min   | [try...catch](07-manejo-de-excepciones/01-try-catch.md)
 
 ### Lección 08: [Document Objet Model (DOM)](#)
 

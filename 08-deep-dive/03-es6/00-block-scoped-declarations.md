@@ -156,4 +156,4 @@ console.log(USER);
 
 ***
 
-[Continuar](02-template-strings.md)
+[Continuar](01-template-strings.md)
