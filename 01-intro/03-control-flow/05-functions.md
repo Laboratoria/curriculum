@@ -133,14 +133,14 @@ Veamos un ejemplo de crear una estructura condicional con funciones:
 
 ## Utilizando múltiples `return` en lugar de `if... else`
 
-Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo de una función para que la función devuelva un valor diferente, dependiendo del argumento brindado. Por ejemplo, digamos que estás escribiendo un juego que otorga medallas a los jugadores basándose en su puntuación. Una puntuación de 3 o menos es una medalla de bronce, las puntuaciones entre 3 y 7 son de plata, y cualquier cosa por encima de 7 es de oro. Podrías utilizar una función como `medalForScore` para evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
+Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo de una función para que la función devuelva un valor diferente, dependiendo del argumento brindado. Por ejemplo, digamos que estás escribiendo un juego que otorga medallas a los jugadores basándose en su puntuación. Una puntuación menor a 3 es una medalla de bronce, una puntuación de 7 o más es oro, y lo que está en el medio es plata. Podrías utilizar una función como `medalForScore` para evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
 
 ```js
 var medalForScore = function (score) {
  if (score < 3) {
  return "Bronze";
  }
- if (score <= 7) {
+ if (score < 7) {
  return "Silver";
  }
  return "Gold";
