@@ -1,4 +1,4 @@
-## 01. Repaso de conceptos: Intro JS
+## Repaso de conceptos: Intro JS
 - Tipo: `clase presencial`
 - Formato: `guided-learning`
 - Duración: `100min`
@@ -12,11 +12,11 @@ Javascript`, asegurando que sabemos:
 
 ## Agenda
 
-1. Entendamos bien los conceptos clave dibujando en la pizarra:
+1. Entender bien los conceptos clave dibujando en la pizarra:
   * Variables (tentáculos)
   * Tipos de datos
 
-2. Por medio de ejemplos en la consola repasemos el funcionamiento de:
+2. Por medio de ejemplos en la consola repasar el funcionamiento de:
   * `var`
   * `prompt()`
   * `alert()`
@@ -27,7 +27,7 @@ Javascript`, asegurando que sabemos:
   * `slice()`
   * `parseInt()`
 
-3. Hacer quiz y analizar resultados
+3. Resolver el quiz y analizar resultados
   * https://goo.gl/forms/1L5WzwV5MXNqcOmG3
 
 ***
