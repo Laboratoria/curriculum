@@ -6,8 +6,8 @@
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-* Aprende a manipular los nodos del DOM.
-* ..
+* Como a manipular los nodos del DOM.
+* Como Crear, Añadir y Eliminar Nodos al DOM.
 * Saber usar:
   - `.innerHTML`
   - `.textContent`
@@ -27,34 +27,145 @@ http://eloquentjavascript.net/13_dom.html
 
 
 ## Modificando contenido
+  En la publicación anterior vimos qué es el DOM y cómo seleccionar nodos utilizando JavaScript. En esta ocasión vamos a utilizar el DOM para modificar el documento – html – utilizando JavaScript.
 
-En este link vamos a ver como Modificar elementos del DOM, Como por ejemplo: el contenido e un <p> el tema lo trata hasta el minuto 6:20. y vemos los metodos `.innerHTML` y `.textContent`
+  Los siguientes atributos  innerHTML, textContent funcionan como métodos para obtener y establecer el valor de una propiedad específico.
+
+#### textContent
+Al utilizar textContent sobre un nodo se va a mostrar el contenido en texto que exista en el nodo y en los hijos del mismo. Si hay etiquetas de html son ignoradas.
+Si se le asigna un valor, va a reemplazar todo el contenido del nodo por la cadena de texto que se le asigne. Si la cadena de texto contiene etiquetas HTML, estas se van a escapar y se van a visualizar como texto. Los cambios realizados no van a ser permanentes, el documento va a regresar a su estado original una vez que se cargue el sitio.
+![alt text](http://blog.eamexicano.com/wp-content/uploads/2014/02/textcontent.png)
+
+#### innerHTML
+
+Funciona de manera similar a textContent pero, además de mostrar el texto que exista en el nodo seleccionado y en los hijos, se van a mostrar las etiquetas de HTML que pudieran existir.
+Si se le asigna un valor, se va a reemplazar el contenido del nodo incluyendo a sus hijos por la cadena de texto que se le asigne. A diferencia de textContent, si dentro de la cadena de texto asignada existen etiquetas de html se van a visualizar en el navegador. Los cambios realizados no van a ser permanentes, el documento va a regresar a su estado original una vez que se cargue el sitio.
+
+![alt text](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
+
+En el siguiente video vemos de forma practica, como utilizar innerHTML y textContent
   - https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16
 
+## Creación de nodos
+El DOM nos ofrece una serie de métodos para añadir nodos al árbol de un documento, pero los más básicos son createElement, que crea un elemento, y createTextNode, que crea un nodo de texto.
 
-## Crear, añadir y eliminar nodos y elementos
-  * En el siguiente link vemos teoricamente la creación y eliminación de nodos del DOM; y se puede leer para que sirven los metodos `document.createTextNode()`, `document.createElement()`, `.appendChild` y `.removeChild`
-    - http://dis.um.es/~lopezquesada/documentos/IES_1314/IAW/curso/UT7/libroswebjavascript/www.librosweb.es/javascript/capitulo5/creacion_y_eliminacion_de_nodos.html
+#### createElement
+Teniendo en cuenta que por medio del DOM podemos crear un documento prácticamente de la nada1, no es de extrañar que proporcione un método para crear un elemento concreto.
+Hay que recordar que el DOM es la interfaz que conecta el documento HTML con JavaScript. Es por eso que, al utilizar createElement, el nodo no va a ser visible en el navegador hasta que lo añidamos en el documento.
+* Sintaxis
+    `document.createElement('elemento_a_crear');`
 
-  * En el link siguiente, vamos a ver  y afianzar los metodos  `document.createTextNode()`, `document.createElement()`
-    - http://www.codexexempla.org/curso/curso_4_3_c.php
-  * Así como en el siguiente, veremos los metodos `.appendChild` - `.removeChild` - `.replaceChild` - `insertBefore`
-    - http://www.codexexempla.org/curso/curso_4_3_d.php
+Así, crear un nuevo párrafo es tan simple como document.createElement('p') —nota: atención a las comillas—. Eso sí, el elemento no será visible, no es más que una especie de fantasma que existe en el documento, pero hasta que no se le asigne una posición en el árbol no se mostrará al usuario. Cómo incluirlo en el árbol lo veremos en la secion de `añadir nodos al DOM`
+
+#### createElement
+
+Al igual que podemos crear un elemento, podemos crear un texto con el que poblarlo por medio de createTextNode.
+* Sintaxis:
+
+    `document.createTextNode('el_texto_que_desee');`
+
+Igual que para el elemento creado arriba con el metodo _createElement_, el texto a crear por medio de este método debe ir entrecomillado. Y de la misma manera también, el texto existe, pero en ninguna parte. Si quisieramos, por ejemplo, crear un nuevo párrafo en un documento con el texto «Menos que Macbeth, pero más grande», tendríamos que crear primero el elemento p, luego el nodo de texto, y por último convertir el nodo de texto en el hijo del párrafo por medio de appendChild, método que veremos en la seccion `añadir nodos al DOM`. Algo así:
+
+    ```javascript
+    var parrafo = document.createElement('p');
+    var texto = document.createTextNode('Menos que Macbeth, pero más grande');
+    parrafo.appendChild(texto);
+    ```
+Con ello nuestra variable parrafo contendría un elemento p con su texto correspondiente, listo para ser incluido en el árbol del documento.
+
+## Añadir nodos al DOM
+Acabamos de ver cómo crear elementos y nodos de texto, pero también hemos visto que estos nodos creados se mantienen en el _limbo_ del documento hasta que los incluimos en el árbol del mismo.
+
+Para trabajar incorporando, modificando o eliminando nodos, contamos con los métodos que vamos a ver a continuación.
+
+#### appendChild
+Por medio de este método podemos incluir a un nodo un nuevo hijo, de esta manera:
+* Sintaxis
+
+    `elemento_padre.appendChild(nuevo_nodo);`
+
+__El nuevo nodo se incluye inmediatamente después de los hijos ya existentes —si hay alguno— y el nodo padre cuenta con una nueva rama.__
+
+    ```javascript
+    // Crear nodo de tipo Element
+    var parrafo = document.createElement("p");
+
+    // Crear nodo de tipo Text
+    var contenido = document.createTextNode("Hola Mundo!");
+
+    // Añadir el nodo Text como hijo del nodo Element
+    parrafo.appendChild(contenido);
+
+    // Añadir el nodo Element como hijo de la pagina
+    document.body.appendChild(parrafo);
+    ```
+#### insertBefore
+Nos permite elegir un nodo del documento e incluir otro antes que él.
+
+    `elemento_padre.insertBefore(nuevo_nodo,nodo_de_referencia);`
+
+Si tuviéramos un fragmento de un documento como éste:
+
+    ```
+        <div id="padre">
+            <p>primer párrafo.</p>
+            <p>segundo párrafo.</p>
+        </div>
+    ```            
+    y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
+
+    ```javascript
+        // Creamos el nuevo párrafo con su hijo texto
+        var nuevoParrafo = document.createElement('p')
+        var textoNuevoParrafo = document.createTextNode('Nuevo párrafo.')
+        nuevoParrafo.appendChild(textoNuevoParrafo);
+
+        // Guardamos en una variable el padre y en otra variable el segundo párrafo
+        var padre = document.getElementById('padre');
+        var segundoParrafo = padre.getElementsByTagName('p')[1];
+
+        // Y ahora lo insertamos
+        padre.insertBefore(nuevoParrafo, segundoParrafo);
+    ```
+
+## Eliminar nodos del DOM
+
+
+
 
 AHORA VAMOS A PRACTICAR UN POCO:
 En los siguientes videos vamos a poner en practica la parte teorica ya que utiliza los metodos  como crear, añadir y eliminar los nodos del DOM por medio de Javascript y así poder crear páginas dinámicas,te sugiero que lo vayas haciendo el ejercicio y si es necesario pauses los videos.
 
 
-  * En este video  dura 8:18; en el minuto 2:25 empieza a utilizar los metodos `.createElement`  `createTextNode`
-    - https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14
-  * en el siguiete video agrega los nodos creados al DOM
-    - https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
+* En este video  dura 8:18; en el minuto 2:25 empieza a utilizar los metodos `.createElement`  `createTextNode`
+- https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14
+* en el siguiete video agrega los nodos creados al DOM
+- https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
+
+### Referencias:
+- http://blog.eamexicano.com/dom/manipular-nodos/
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://www.codexexempla.org/curso/curso_4_3_d.php
 
 
 ## Modificando atributos
 
+####Atributos
+
+Además de modificar el contenido del nodo o el nodo, también podemos modificar los atributos del nodo.
+Conocer el valor o valores que tienen y asignar valores distintos.
+
+Los atributos con los que podemos trabajar directamente son los que utilizan la interfaz HTMLElement.
+
+
 ## Añadiendo estilos por Javascript
 "unlike most other attributes, the style property itself is an object."
+
+style
+
+Esta propiedad se utiliza para mostrar o para establecer el estilo del nodo sobre el que se esté utilizando.
+
 
 ## DOM Animation
 https://www.w3schools.com/js/js_htmldom_animate.asp
