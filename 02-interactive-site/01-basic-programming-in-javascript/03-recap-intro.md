@@ -22,7 +22,7 @@ Además repasaremos conceptos clave del flujo de trabajo de una developer:
 1. Entendamos bien los conceptos clave dibujando en la pizarra:
   * Variables (tentáculos)
   * Tipos de datos
-  * Diagramas flujo
+  * Estructuras repetitivas y condicionales
   * Funciones
   * Input / Output
 
@@ -44,12 +44,14 @@ Además repasaremos conceptos clave del flujo de trabajo de una developer:
   * `function`
   * `return`
 
-3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos, repasemos el funcionamiento de:
+3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos,
+repasemos el funcionamiento de:
   * La línea de comando
   * Flujo básico de trabajo con git (`git init`, `git remote add origin` ...)
   * Creación y manipulación de ramas en `git`
 
-4. Asegurar que 100% de las alumnas tenga bien configurado su ambiente de trabajo
+4. Asegurar que 100% de las alumnas tenga bien configurado su ambiente de
+trabajo
 
 ***
 
