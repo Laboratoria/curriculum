@@ -22,22 +22,31 @@ con las de Michelle.
 
 #### 1. Reserva de puestos aerolínea
 
-###### Todo agregar screen shots o gift de la solución.
-
 Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo sistema. Escribirás una aplicación para asignar asientos en cada vuelo del __único__ avión de la aerolínea (capacidad: 10 asientos).
+
+![GitHub Logo](https://image.ibb.co/eMz26v/avion_2.jpg)
 
 Tu aplicación debe mostrar las siguientes alternativas:
 
-Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico. Si el usuario escribe 1, tu aplicación debe asignarle un asiento en la sección de primera clase (asientos 1 a 4). Si el usuario escribe 2, tu aplicación debe asignarle un asiento en la sección económica (asientos 5 a 10).
+Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico. 
+
+![GitHub Logo](https://image.ibb.co/mh9PKF/avion_3.jpg)
+
+Si el usuario escribe 1, tu aplicación debe asignarle un asiento en la sección de primera clase (asientos 1 a 4). Si el usuario escribe 2, tu aplicación debe asignarle un asiento en la sección económica (asientos 5 a 10).
 
 Tu aplicación deberá entonces imprimir un pase de abordar, indicando el número de asiento de la persona y si se encuentra en la sección de primera clase o clase económica.
 
-#### Todo crear diagrama de distribución de asientos
-#### Todo crear diagrama de la aplicación
+![GitHub Logo](https://image.ibb.co/d8gtDa/avion_4.jpg)
+
 
 ### Tips para la solución
 
 A continuación, encontrarás tips que podrían ayudarte con la solución, ¡mucha suerte!
+
+#### [Tip. | Diagrama de flujo]
+
+![GitHub Logo](https://image.ibb.co/bQ86Ya/untitled_8.jpg)
+
 
 #### [Tip. | Representación usando Arrays]
 
@@ -45,9 +54,13 @@ Usa un arreglo unidimensional del tipo booleano para representar la tabla de asi
 
 Tu aplicación nunca deberá asignar un asiento que ya haya sido asignado. Cuando esté llena la sección económica o primera clase, tu programa deberá preguntar a la persona si acepta ser colocada en la sección de primera clase (y viceversa).
 
+![GitHub Logo](https://image.ibb.co/nH4rzF/avion_6.jpg)
+
 Si la persona acepta, haga la asignación de asiento apropiada.
 
 Si no, debe imprimir el mensaje “El proximo vuelo sale en 3 horas”.
+
+![GitHub Logo](https://image.ibb.co/d2Hpmv/avion_7.jpg)
 
 
 #### 2. Buscaminas
@@ -95,3 +108,4 @@ ejercicios anteriores.
 ***
 
 [Continuar]()
+ 
