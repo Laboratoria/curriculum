@@ -76,7 +76,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 ### Lección 02: [Entorno y metodología de trabajo](02-env)
 
-1h (presencial)
+45min (presencial)
 
 Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
 acceso al repo, su propio fork, ...
@@ -85,7 +85,8 @@ acceso al repo, su propio fork, ...
 
 | Orden | Tipo     | Duración | Descripción
 |-------|----------|----------|-------------
-|   1   | workshop |   20min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
+|   1   | workshop |   30min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
+|   2   | workshop |   15min  | [Entorno: Node.js + npm](02-env/00-node+npm.com)
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
