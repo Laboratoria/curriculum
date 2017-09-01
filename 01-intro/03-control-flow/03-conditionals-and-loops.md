@@ -96,7 +96,7 @@ if (name.length > 7) {
   console.log("Tu nombre no es muy largo");
 }
 
-// returns > Hola Michelle
+// returns > Hola Ana
 //           Tu nombre no es muy largo
 ```
 Como ves, el resultado de este caso es similar al anterior, solo que si `name` **no** tiene una logitud mayor a 7, existe un "mensaje alternativo" que se ejecuta.
