@@ -1,5 +1,5 @@
 * [Inicio](README.md)
-* [Bienvenida](/01-intro/01-introduction/00-welcome-and-orientation.md)
-* [Control de Flujos](/01-intro/03-control-flow/00-opening.md)
+* [Bienvenida](/01-intro/03-control-flow/02-opening.md)
 * [Estructuras condicionales y repetitivas](/01-intro/03-control-flow/03-conditionals-and-loops.md)
+* [Casos prácticos (videos)](/01-intro/03-control-flow/04-practical-cases.md)
 * [Quiz](/01-intro/03-control-flow/06-quiz-1.md)
