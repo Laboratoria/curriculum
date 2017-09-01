@@ -50,12 +50,14 @@ La sintaxis es muy sencilla:
 ... Además de agregar el *listener* al evento también se puede eliminar usando el método __removeEventListener__, el cual funciona casi de la misma manera. La sintaxis es d ela siguiente manera:
 
 ```javascript
-  elemento_que_escucha.removeEventListener('evento', funcion_a_ejecutar);
+  elemento_que_escucha.removeEventListener('evento', funcion_a_eliminar);
 ```
-Para que el método funcione correctamente es obligatorio mandar como parámetro el callback (función) que se utilizó para agregar el evento
+Para que el método funcione correctamente es obligatorio mandar como parámetro el callback (función) utilizado con addEventListener.
 
 ### Flujo de eventos (Propagation)
+Cuando un evento se ejecuta pasa por diferentes fases: *Capture phase*, *Target phase* y *Bubbling phase*.
 
+[flow-event]: DOM-event-flow.PNG
 
 ## Funciones como parámetros
 
