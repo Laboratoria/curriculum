@@ -6,20 +6,19 @@
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
-* ¿Qué es un evento y para qué nos sirve?
-* ¿Cómo usarlos?
-⋅⋅* Manejo y flujo de eventos (propagación).
-* Tipos
+1. ¿Qué es un evento y para qué nos sirve?
+2.¿Cómo usarlos?
+* Manejo y flujo de eventos (propagación).
+3. Tipos
 
 ***
 
 Referencia:
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
-
-http://eloquentjavascript.net/14_event.html
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+* http://eloquentjavascript.net/14_event.html
 
 ## ¿Qué es un evento?
- ⋅⋅⋅Es cuando el usuario realiza una acción permitiéndole interactuar con el programa. A cada evento se le asocia un manejador (conocido como eventHandlers o eventListener) el cual, se ejecutará cuando ocurra el evento.
+Es cuando el usuario realiza una acción permitiéndole interactuar con el programa. A cada evento se le asocia un manejador (conocido como eventHandlers o eventListener) el cual, se ejecutará cuando ocurra el evento.
 
 ###### Referencia: https://www.youtube.com/watch?v=gyICdb1iwII
 
@@ -35,8 +34,7 @@ La sintaxis es muy sencilla:
 ```
 ###### Referencia: http://www.codexexempla.org/curso/curso_4_3_e.php
 
-⋅⋅⋅Existen diferentes formas de asociar un evento a elementos del DOM, para saber más sobre ello revisa el siguiente link (apartir del punto 6.2) http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html
-
+⋅⋅⋅Existen diferentes formas de asociar un evento a elementos del DOM, para saber más sobre ello revisa el siguiente [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html) (apartir del punto 6.2).
 
 ### Manejo de eventos
 
@@ -52,10 +50,10 @@ Para que el método funcione correctamente es obligatorio mandar como parámetro
 
 ![flow-event](DOM-event-flow.PNG)
 
-Revisa este video(https://youtu.be/lgkqf6hldEk?t=15m5s) para que veas en práctica este flujo.
+Revisa este [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontraras un ejemplo práctico del flujo que siguen los eventos.
 
 ## Tipo de eventos
-⋅⋅⋅Cuando el usuario interactua con el navegador se pueden desencadenar múltiples tipos de eventos, algunos de los más comunes son:
+Cuando el usuario interactua con el navegador se pueden desencadenar múltiples tipos de eventos, algunos de los más comunes son:
 
 * Eventos del ratón(mouseEvent)
 * Eventos del teclado(keyboardEvent)
@@ -64,10 +62,10 @@ Revisa este video(https://youtu.be/lgkqf6hldEk?t=15m5s) para que veas en prácti
 
 ###### Referencia: https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types
 
-Para mayor información sobre todos los eventos visita este link(https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom).
+Para mayor información sobre todos los eventos visita este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom).
 
 ### Key Events
-⋅⋅⋅Estos son algunos de los eventos más utilizados:
+Estos son algunos de los eventos más utilizados:
 
 - keyup/keydown
 - mouse click
