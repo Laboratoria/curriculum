@@ -1,5 +1,5 @@
 # Opening
-- Tipo: `clase presencial`
+- Tipo: `self-paced`
 - Formato: `guided-learning`
 - Duración: `10min`
 
