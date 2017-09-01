@@ -1,4 +1,4 @@
-* [Inicio](README.md)
+* [Repaso](README.md)
 * [Bienvenida](/01-intro/03-control-flow/02-opening.md)
 * [Estructuras condicionales y repetitivas](/01-intro/03-control-flow/03-conditionals-and-loops.md)
 * [Casos prácticos (videos)](/01-intro/03-control-flow/04-practical-cases.md)
