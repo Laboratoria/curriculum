@@ -1,4 +1,4 @@
-# 08. JS Deep Dive
+# JS Deep Dive
 
 Programar en JavaScript te hace ver cool, conocer las particularidades del
 lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
