@@ -63,7 +63,7 @@ Si tuviéramos un fragmento de un documento como éste:
     <p>segundo párrafo.</p>
 </div>
 ```            
-    y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
+y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
 
 ```javascript
 // Creamos el nuevo párrafo con su hijo texto
@@ -81,9 +81,9 @@ padre.insertBefore(nuevoParrafo, segundoParrafo);
 #### replaceChild
 Este método se utiliza para reemplazar un nodo secundario por otro. Toma como argumentos dos nodos: un nuevo nodo y el nodo a ser reemplazado. El nodo reemplazado debe ser un elemento secundario del elemento al que se llama el método.
 
-* Sintaxis es:
+* Sintaxis:
 
-    `elemento_padre.replaceChild(nuevo_nodo,nodo_a_reemplazar);`
+  `elemento_padre.replaceChild(nuevo_nodo,nodo_a_reemplazar);`
 
 Con el mismo marcado que para el ejemplo de insertBefore, si quisiéramos sustituir el segundo párrafo por el que creamos, lo haríamos así:
 
@@ -155,9 +155,9 @@ Dado que podemos incluir nuevos hijos en un nodo, tiene sentido que podamos elim
 Para quitar un nodo del documento tenemos que seleccionar padre del nodo, y desde ahí, remover el nodo deseado.
 Si no conocemos el padre del nodo podemos seleccionar directamente el nodo, obtener el padre – con parent – , para después utilizar removeChild y eliminarlo.
 
-La sintaxis es:
+* Sintaxis:
 
-    `elemento_padre.removeChild(nodo_a_eliminar);`
+  `elemento_padre.removeChild(nodo_a_eliminar);`
 
 ```javascript
 var contenedor = document.getElementById('contenedor');
@@ -172,11 +172,6 @@ removeChild para eliminar el nodo seleccionado.
 var parrafo = document.getElementById('parrafo');
 parrafo.parentNode.removeChild(parrafo);
 ```
-
-
-
-
-
 ### AHORA VAMOS A PRACTICAR UN POCO:
 En los siguientes videos vamos a poner en practica la parte teorica ya que utiliza los metodos  como crear, añadir y eliminar los nodos del DOM por medio de Javascript y así poder crear páginas dinámicas,te sugiero que lo vayas haciendo el ejercicio y si es necesario pauses los videos.
 
@@ -185,16 +180,9 @@ En los siguientes videos vamos a poner en practica la parte teorica ya que utili
 * en el siguiete video agrega los nodos creados al DOM
 - https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
 
-Muchos de los conceptos fueron tomados de las siguientes referencias:
-- http://blog.eamexicano.com/dom/manipular-nodos/
-- http://www.codexexempla.org/curso/curso_4_3_c.php
-- http://www.codexexempla.org/curso/curso_4_3_c.php
-- http://www.codexexempla.org/curso/curso_4_3_d.php
-
-
 ## Modificando atributos
 
-####Atributos
+#### Atributos
 
 Además de modificar el contenido del nodo o el nodo, también podemos modificar los atributos del nodo.
 Conocer el valor o valores que tienen y asignar valores distintos.
@@ -205,13 +193,13 @@ Los atributos con los que podemos trabajar directamente son los que utilizan la 
 ## Añadiendo estilos por Javascript
 "unlike most other attributes, the style property itself is an object."
 
-####style
+#### Style
 
 Esta propiedad se utiliza para mostrar o para establecer el estilo del nodo sobre el que se esté utilizando.
 
 * Sintaxis
 
-  `_element_.style._property_ = value`
+  `element.style.property = value`
 
 Tomar en cuenta que las propiedades de CSS que están separadas por un guión (font-family, font-size, border-bottom) tienen que ser escritas con notación camelCase (fontFamily, fontSize, borderBottom).
 
@@ -225,7 +213,74 @@ parrafo.style.fontFamily = "helvetica"
 
 
 ## DOM Animation
-https://www.w3schools.com/js/js_htmldom_animate.asp
+Las animaciones de JavaScript se realizan mediante la programación de cambios graduales en el estilo de un elemento.
+
+Los cambios son llamados por un temporizador. Cuando el intervalo del temporizador es pequeño, la animación parece continua.
+
+Para demostrar cómo crear animaciones HTML con JavaScript, utilizaremos una página web sencilla.
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>My First JavaScript Animation</h2>
+        <div id="animate">My animation will go here</div>
+    </body>
+</html>
+```
+Todas las animaciones deben ser relativas a un elemento de contenedor.
+
+```html
+<div id ="container">
+    <div id ="animate">My animation will go here</div>
+</div>
+```
+El elemento contenedor debe crearse con style = "position: relative".
+El elemento de animación debe crearse con style = "position: absolute".
+
+Mas adelante veremos este tema con detalle.
+```css
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+}
+```
+y como lo mencionamos anteriormente las animaciones en javascript son cambios graduales con la funcion de setInterval podemos hacer dichos cambios y la funcion frame realiza los cambios en los estilos
+
+```javascript
+function myMove() {
+    var elem = document.getElementById("animate");
+    var pos = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (pos == 350) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
+    }
+}
+```
+Podemos ver este ejercicio en el siguiente [link](https://codepen.io/Si7v4n4/pen/OjdZer)
+
+```
+Muchos de los conceptos fueron tomados de las siguientes referencias:
+- http://blog.eamexicano.com/dom/manipular-nodos/
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://www.codexexempla.org/curso/curso_4_3_d.php
+- https://www.w3schools.com/js/js_htmldom_animate.asp
+```
 
 ***
 
