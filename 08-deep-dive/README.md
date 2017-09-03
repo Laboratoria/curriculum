@@ -90,24 +90,24 @@ acceso al repo, su propio fork, ...
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
-30min (presencial)
+45min (presencial)
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
-lenguaje es ECMAScript, en esta lección veremos las nuevas características de JS
-a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
+lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
+de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 | Orden | Tipo    | Duración | Descripción
 |-------|---------|----------|-------------
-|   1   | lectura |   Xmin   | [Block Scoped Declarations](03-es6/00-block-scoped-declarations.md)
-|   2   | lectura |   Xmin   | [Template Strings](03-es6/01-template-strings.md)
-|   3   | lectura |   Xmin   | [Destructuring](03-es6/02-destructuring.md)
-|   4   | lectura |   Xmin   | [Arrow Functions](03-es6/03-arrow-functions-lexical-scope.md)
-
+|   1   |  lectura  |   5min   | [Block Scoped Declarations](03-es6/00-block-scoped-declarations.md)
+|   2   |  lectura  |   5min   | [Template Strings](03-es6/01-template-strings.md)
+|   3   |  workshop |   10min  | [Ejercicio](#)
+|   4   |  lectura  |   5min   | [Destructuring](03-es6/02-destructuring.md)
+|   5   |  lectura  |   5min   | [Arrow Functions](03-es6/03-arrow-functions.md)
+|   6   |  workshop |   10min  | [Ejercicio](#)
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
 
 1.0h (self-paced)
-
 
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
@@ -119,7 +119,6 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   1   | lectura |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-data-types.md)
 |   2   | lectura |   15min   | [Control de Flujo](04-foundations/01-control-flow.md)
 |   2   | lectura |   10min   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
-
 
 ### Lección 05: [Funciones](05-functions)
 
@@ -205,7 +204,6 @@ consideraciones para el encapsulamiento de código a través de la creación de
 |   2   |      |   Xmin   | [Manejo del DOM](#)
 |   3   |      |   Xmin   | [CSS](#)
 |   4   |      |   Xmin   | [Creación de Plugin](#)
-
 
 ## Autor(es) / Colaboradores
 

@@ -1,27 +1,20 @@
-# Arrow functions and Lexical Scope
+# Arrow Functions y Lexical Scope
 
-* Formato: `lectura` 
+* Formato: `lectura`
 * Duración: `25 min`
 
-Durante esta sesión nos aseguraremos ,
-que que comprendas la utilidad y funcionamiento de 
-las arrow function (funciones flecha).
-
-### Objetivos de la lección
-
-* Comprender la nueva sintaxis y funcionalidad de ES6
-
+Durante esta sesión nos aseguraremos, de que comprendas la utilidad y
+funcionamiento de las arrow function (funciones flecha).
 
 ***
 
 ## Diferencias entre arrow functions y funciones clásicas
 
-Una de las novedades más interesantes de ECMAScript 6 son las denominadas
-**funciones flecha**, o *arrow functions*. Las funciones flecha son, como su
+Una de las novedades más interesantes de ES6 son las denominadas **funciones
+flecha**, o *arrow functions*. Las funciones flecha son, como su
 nombre indica, definidas mediante una nueva sintaxis que utiliza una "flecha"
-(`=>`) Las funciones flecha se comportan de forma sensiblemente distinta a las
-funciones tradicionales de JavaScript en una serie de detalles que cabe tener
-presentes:
+(`=>`). Las funciones flecha se comportan de forma sensiblemente distinta a las
+funciones tradicionales de JavaScript, a continuación alguna de sus diferencias:
 
 * **No pueden llamarse con `new`**: Al no tener un método constructor, no pueden
   ser utilizadas como constructores. Las funciones flecha lanzarán un error
@@ -42,7 +35,8 @@ presentes:
 
 ## Sintaxis
 
-El ejemplo más simple de *arrow function* es el siguiente, aunque veremos en los ejemplos siguientes que existen diversas variaciones.
+El ejemplo más simple de *arrow function* es el siguiente, aunque veremos en
+los ejemplos siguientes que existen diversas variaciones.
 
 ```javascript
 // ES6
@@ -64,7 +58,8 @@ En ambos casos, la ejecución de la función daría la siguiente salida:
 console.log(echo('Hola Mundo!')); // Hola Mundo!
 ```
 
-Como con cualquier función, podemos pasar tantos argumentos como queramos a la función:
+Como con cualquier función, podemos pasar tantos argumentos como queramos a la
+función:
 
 ```javascript
 const sum = (a, b) => a + b;
@@ -78,7 +73,8 @@ const greet = () => 'Hola, forastero!';
 console.log(greet()); // Hola, forastero!
 ```
 
-Si queremos realizar operaciones más complicadas, podemos hacerlo con corchetes y definiendo un valor de retorno:
+Si queremos realizar operaciones más complicadas, podemos hacerlo con llaves y
+definiendo un valor de retorno:
 
 ```javascript
 const resize = ({x, y}, ratio) => {
@@ -88,9 +84,12 @@ const resize = ({x, y}, ratio) => {
   };
 };
 
-console.log(resize({x: 5, y: 15}, 100));
+console.log(resize({x: 5, y: 15}, 100)); // { x: 500, y: 1500 }
 ```
- Una función flecha no crea un nuevo contexto Una de las mayores fuentes de errores en JavaScript venía dada por la creación de distintos contextos en una función dependiendo de quien las esté ejecutando. Tomemos el siguiente ejemplo:
+
+Una función flecha no crea un nuevo contexto. Una de las mayores fuentes de
+errores en JavaScript venía dada por la creación de distintos contextos en una
+función dependiendo de quien las esté ejecutando. Tomemos el siguiente ejemplo:
 
 ```javascript
 const randomWinner = function(drivers) {
@@ -105,7 +104,6 @@ const F1Race = {
     'Button',
     'Massa'
   ],
-
   init: function() {
     console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
     setTimeout((function() {
@@ -117,16 +115,27 @@ const F1Race = {
 F1Race.init();
 ```
 
-F1Race es un objeto que lanza una carrera de Formula 1 mediante su función init(). Al cabo de un segundo, se ejecutará la función randomWinner(), que a partir de un array de conductores, seleccionará uno al azar.
+`F1Race` es un objeto que lanza una carrera de Fórmula 1 mediante su función
+`init()`. Al cabo de un segundo, se ejecutará la función `randomWinner()`, que a
+partir de un array de conductores, seleccionará uno al azar.
 
-Cuando ejecutamos la función init(), el programa escribe por consola lo siguiente:
+Cuando ejecutamos la función `init()`, el programa escribe por consola lo
+siguiente:
 
-Los siguientes pilotos van a comenzar la carrera: [ 'Alonso', 'Vettel', 'Button', 'Massa' ]
-Esto es posible ya que la función init tiene como contexto el propio objeto F1Race. Sin embargo, la función da error tras un segundo, mientras intenta calcular el ganador de forma aleatoria. ¿Cómo es posible?
+```javascript
+Los siguientes pilotos van a comenzar la carrera: [ 'Alonso', 'Vettel', 'Button', 'Massa']
+```
 
-El motivo es que la función de callback que se le pasa a setTimeout crea un nuevo contexto, en el que no existe el array drivers.
+Esto es posible ya que la función `init` tiene como contexto el propio objeto
+`F1Race`. Sin embargo, la función da error tras un segundo, mientras intenta
+calcular el ganador de forma aleatoria. ¿Cómo es posible?
 
-En ECMAScript 5 podíamos solucionar este problema utilizando bind(this) para asignar el contexto de la función de callback al del objeto que la contiene, de la siguiente forma:
+El motivo es que la función de callback que se le pasa a `setTimeout` crea un
+nuevo contexto, en el que no existe el array drivers.
+
+En ES5 podíamos solucionar este problema utilizando `bind(this)` para asignar
+el contexto de la función de callback al del objeto que la contiene, de la
+siguiente forma:
 
 ```javascript
 init: function() {
@@ -137,7 +146,9 @@ init: function() {
 }
 ```
 
-Con ECMAScript 2015, podemos solucionar este contratiempo utilizando arrow functions de una forma mucho más elegante, ya que al no crear un nuevo contexto, this siempre vendrá determinado por la función que lo contiene:
+Con ES2015, podemos solucionar este contratiempo utilizando arrow functions de
+una forma mucho más elegante, ya que al no crear un nuevo contexto, `this`
+siempre vendrá determinado por la función que lo contiene:
 
 ```javascript
 init: function() {
@@ -147,3 +158,5 @@ init: function() {
 ```
 
 ***
+
+[Continuar](../04-foundations/01-variables-and-data-types.md)
