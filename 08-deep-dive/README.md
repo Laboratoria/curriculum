@@ -98,12 +98,13 @@ de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 | Orden | Tipo    | Duración | Descripción
 |-------|---------|----------|-------------
-|   1   |  lectura  |   5min   | [Block Scoped Declarations](03-es6/00-block-scoped-declarations.md)
-|   2   |  lectura  |   5min   | [Template Strings](03-es6/01-template-strings.md)
-|   3   |  workshop |   10min  | [Ejercicio](#)
-|   4   |  lectura  |   5min   | [Destructuring](03-es6/02-destructuring.md)
-|   5   |  lectura  |   5min   | [Arrow Functions](03-es6/03-arrow-functions.md)
-|   6   |  workshop |   10min  | [Ejercicio](#)
+|   1   |  lectura  |   5min   | [ECMAScript 2015](03-es6/00-overview.md)
+|   2   |  lectura  |   5min   | [Block Scoped Declarations](03-es6/01-block-scoped-declarations.md)
+|   3   |  lectura  |   5min   | [Template Strings](03-es6/02-template-strings.md)
+|   4   |  workshop |   10min  | [Ejercicio](#)
+|   5   |  lectura  |   5min   | [Destructuring](03-es6/03-destructuring.md)
+|   6   |  lectura  |   5min   | [Arrow Functions](03-es6/04-arrow-functions.md)
+|   7   |  workshop |   10min  | [Ejercicio](#)
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
 

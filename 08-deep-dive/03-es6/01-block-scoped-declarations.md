@@ -169,4 +169,4 @@ USER = 'Caro Covarrubias';
 
 ***
 
-[Continuar](01-template-strings.md)
+[Continuar](02-template-strings.md)

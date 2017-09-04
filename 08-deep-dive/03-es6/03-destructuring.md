@@ -76,4 +76,4 @@ Puedes ignorar cualquiera de los valores retornados (o incluso todos).
 
 ***
 
-[Continuar](03-arrow-functions.md)
+[Continuar](04-arrow-functions.md)

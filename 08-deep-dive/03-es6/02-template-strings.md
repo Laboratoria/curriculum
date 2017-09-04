@@ -91,4 +91,4 @@ let myAge = `Mi edad es ${person.age + 3} años`;
 
 ***
 
-[Continuar](02-destructuring.md)
+[Continuar](03-destructuring.md)
