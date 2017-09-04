@@ -1,7 +1,7 @@
 # ECMAScript 2015
 
 * Formato: `lectura`
-* Duración: `X min`
+* Duración: `3 min`
 
 ***
 

@@ -1,7 +1,7 @@
 # Template Strings
 
 * Formato: `lectura`
-* Duración: `10 min`
+* Duración: `5 min`
 
 Durante esta sesión nos aseguraremos, que comprendas de manera general las
 ventajas que nos entrega `ES6` al trabajar con strings.

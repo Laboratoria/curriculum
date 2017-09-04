@@ -1,7 +1,7 @@
 # Introducción a ES6
 
 * Formato: `lectura`
-* Duración: `20 min`
+* Duración: `5 min`
 
 Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre
 `var`, `let`, `const`.
