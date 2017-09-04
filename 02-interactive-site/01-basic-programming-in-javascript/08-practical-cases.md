@@ -13,7 +13,7 @@
 
 Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Michelle. Después de haberlo intentado, compara tus soluciones con las de Michelle.   
+A continuación tendrás varios problemas que debemos resolver. Intenta resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de Lourdes, otra profe estrella de Laboratoria. Después de haberlo intentado, compara tus soluciones con las de Lourdes.   
 
 #### 1. Reverse
 Crea una función que invierta el orden de los elementos de un `array`. Completa este reto de dos maneras: en una, el `array` invertido es un _nuevo_ `array`; en la segunda, modifica el mismo `array` que se proporciona como argumento. Investiga sobre el método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse). ¿Qué puedes concluir?
@@ -42,20 +42,20 @@ También escribe una función que haga lo contrario. Transforme los pares _key-v
 
 ## Solucionarios
 
-A continuación, Lulu (otra profe estrella en Laboratoria) te explica cómo
+A continuación, Lourdes te explica cómo
 resolvió cada uno de los ejercicios anteriores.  
 
-#### 1. -----
+#### 1. Reverse
 
-[![-----]()
+[![Solution Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
 
-#### 2. -----
+#### 2. Search
 
-[![-----]()
+[![Solution Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
 
-#### 3. -----
+#### 3. Array to Object
 
-[![-----]()
+[![Solution ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE)
 
 ***
 
