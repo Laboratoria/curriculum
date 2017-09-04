@@ -96,14 +96,14 @@ JavaScript es el lenguaje de programación, pero la especificación (estándar) 
 lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
 de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
-| Orden | Tipo    | Duración | Descripción
-|-------|---------|----------|-------------
+| Orden | Tipo      | Duración | Descripción
+|-------|-----------|----------|-------------
 |   1   |  lectura  |   3min   | [ECMAScript 2015](03-es6/00-overview.md)
-|   2   |  lectura  |   7min   | [Block Scoped Declarations](03-es6/01-block-scoped-declarations.md)
+|   2   |  lectura  |   5min   | [Block Scoped Declarations](03-es6/01-block-scoped-declarations.md)
 |   3   |  lectura  |   5min   | [Template Strings](03-es6/02-template-strings.md)
 |   4   |  workshop |   10min  | [Ejercicios](03-es6/03-exercises.md)
 |   5   |  lectura  |   5min   | [Destructuring](03-es6/04-destructuring.md)
-|   6   |  lectura  |   10min   | [Arrow Functions](03-es6/05-arrow-functions.md)
+|   6   |  lectura  |   7min   | [Arrow Functions](03-es6/05-arrow-functions.md)
 |   7   |  workshop |   10min  | [Ejercicios](03-es6/06-exercises.md)
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
