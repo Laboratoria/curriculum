@@ -159,4 +159,4 @@ init: function() {
 
 ***
 
-[Continuar](../04-foundations/01-variables-and-data-types.md)
+[Continuar](06-exercises.md)
