@@ -42,7 +42,7 @@ También escribe una función que haga lo contrario. Transforme los pares _key-v
 
 ## Solucionarios
 
-A continuación, Lulu (otra profe estrella en Laboratoria) te explica cómo
+A continuación, Lourdes te explica cómo
 resolvió cada uno de los ejercicios anteriores.  
 
 #### 1. Reverse
