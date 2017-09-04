@@ -44,7 +44,7 @@ interpretación.
 
 ### 5. Otros
 
-* A **trabjar siguiendo una guía de estilos**
+* A **trabajar siguiendo una guía de estilos**
 * A **trabajar sobre una base de código existente**
 * A **implementar un plugin de jQuery** para manipular el DOM.
 
@@ -54,18 +54,18 @@ Este curso se compone de `workshops` presenciales, `lecturas/videos` y
 `ejercicios` en el siguiente orden:
 
 1. Empezaremos por un [workshop](../02-env) con el objetivo de que todas las
- 	 alumnas tengan las herramientas necesarias y el entorno de desarrollo listo.
+   alumnas tengan las herramientas necesarias y el entorno de desarrollo listo.
 2. Después comienza el contenido específico del curso, donde nos concentraremos
-	 en las particularidades del lenguaje en temas que probablemente ya conocemos
-	 como fundamentos de programación, funciones y estructura de datos, para los
-	 cuales usaremos contenido en formato de `lecturas` y `ejercicios`.
+   en las particularidades del lenguaje en temas que probablemente ya conocemos
+   como fundamentos de programación, funciones y estructura de datos, para los
+   cuales usaremos contenido en formato de `lecturas` y `ejercicios`.
 3. Llegados a este punto introduciremos una lección de manejo de errores para
-	 controlar mejor el flujo de las aplicaciones que construyamos.
+   controlar mejor el flujo de las aplicaciones que construyamos.
 4. Workshop presencial sobre temas del DOM y eventos donde los conceptos que se
-	 vieron en lecciones anteriores se aplicarán de una manera más visual.
+   vieron en lecciones anteriores se aplicarán de una manera más visual.
 5. Por último, veremos ciertas buenas prácticas de organización de código con
-	 jQuery para escribir un código mantenible para nuestra extensión de la
-	 librería aplicada al producto del curso.
+   jQuery para escribir un código mantenible para nuestra extensión de la
+   librería aplicada al producto del curso.
 
 ## Entregables
 
