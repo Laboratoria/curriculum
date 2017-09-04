@@ -49,6 +49,18 @@ Si se le asigna un valor, se va a reemplazar el contenido del nodo incluyendo a 
 En el siguiente video vemos de forma practica, como utilizar innerHTML y textContent
   - https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16
 
+#### value
+La propiedad value establece o devuelve el valor del atributo value de un campo de texto.
+
+* Sintaxis
+  - Devuelve la propiedad value:
+    `elementoNodo.value`
+  - Establezca la propiedad value:
+    `elementoNodo.value = text`
+
+>Nota: Valor devuelto:	Una cadena, que representa el valor del campo de texto.
+
+Veremos un ejemplo mas claro en el siguiente [link](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0)
 
 #### insertBefore
 Nos permite elegir un nodo del documento e incluir otro antes que él.
@@ -189,6 +201,70 @@ Conocer el valor o valores que tienen y asignar valores distintos.
 
 Los atributos con los que podemos trabajar directamente son los que utilizan la interfaz HTMLElement.
 
+![alt atributte](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos.png)
+
+```javascript
+var parrafo = document.getElementById("parrafo")
+/*
+Para obtener el valor asignado utilizamos el nodo seguido del atributo que queremos obtener
+*/
+parrafo.id
+/*
+Para asignar valor o valores además del nombre del atributo se le asigna el o los valores
+*/
+parrafo.className = "test ejemplo"
+/*
+Se utiliza className para hacer referencia al atributo class. En javascript class es una palabra reservada que todavía no está en uso.
+*/
+```
+Los atributos `data` permiten almacenar datos en las etiquetas sin modificar la presentación del documento. Para poder trabajar con estos atributos desde el DOM se utiliza dataset.Con dataset podemos definir y asignar un valor al atributo data. Para obtener el valor asignado al atributo se utiliza el nombre del atributo.
+![alt atribute](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos-data.png)
+```javascript
+/*Definir el atributo data-nombre para el nodo del párrafo
+Asignar el valor "Ejercicio" a ese atributo
+*/
+parrafo.dataset.nombre = "Ejercicio"
+
+//Obtener el valor almacenado en el nodo data-nombre
+
+parrafo.dataset.nombre
+```
+Quedando el nodo de la siguiente manera:
+```html
+<p id="parrafo" class="test ejemplo" data-nombre="Ejercicio">
+  Nuevo contenido
+</p>
+```
+Habrá ocasiones en que necesitamos trabajar con atributos que no son parte de la interfaz HTMLElement.
+
+Para esos casos existen dos métodos setAttribute y getAttribute.
+#### setAttribute(‘atributo’, ‘valor’)
+Crea un atributo y establece un valor.
+#### getAttribute(‘atributo’)
+Obtiene el valor del atributo.
+```html
+<img id='imagen' src="http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png" alt="DOM - innerHTML" width="100%"  />
+```
+```javascript
+var mi_imagen = document.getElementById('imagen')
+//Devuelve el tamaño de la imagen en px
+
+mi_imagen.width
+mi_imagen.height
+
+//Devuelve el tamaño de la imagen como está especificado  en la etiqueta
+
+mi_imagen.getAttribute('width')
+mi_imagen.getAttribute('height')
+/*
+Si queremos asignar un tamaño a la imagen que no sea en px tenemos que utilizar setAttribute
+*/
+mi_imagen.width = "50%"
+mi_imagen.height = "auto"
+
+mi_imagen.setAttribute('width', '50%')
+mi_imagen.setAttribute('height', 'auto')
+```
 
 ## Añadiendo estilos por Javascript
 "unlike most other attributes, the style property itself is an object."
@@ -278,6 +354,7 @@ Muchos de los conceptos fueron tomados de las siguientes referencias:
 - http://blog.eamexicano.com/dom/manipular-nodos/
 - http://www.codexexempla.org/curso/curso_4_3_c.php
 - http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://blog.eamexicano.com/dom/modificar-estilo-contenido/
 - http://www.codexexempla.org/curso/curso_4_3_d.php
 - https://www.w3schools.com/js/js_htmldom_animate.asp
 ```
