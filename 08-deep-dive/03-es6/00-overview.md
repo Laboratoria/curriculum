@@ -5,6 +5,8 @@
 
 ***
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZ2R6KoUS2hLSKwzhcCGS9ozBycLnp8SFHpbfiStQ9AvodyeCae4WcCa0w_MaYyUj5JUTzrU54EHEe/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Terminología
 
 Estos son algunos términos que son usados frecuentemente cuando se habla de
