@@ -49,6 +49,18 @@ Si se le asigna un valor, se va a reemplazar el contenido del nodo incluyendo a 
 En el siguiente video vemos de forma practica, como utilizar innerHTML y textContent
   - https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16
 
+#### value
+La propiedad value establece o devuelve el valor del atributo value de un campo de texto.
+
+* Sintaxis
+  - Devuelve la propiedad value:
+    `elementoNodo.value`
+  - Establezca la propiedad value:
+    `elementoNodo.value = text`
+
+>Nota: Valor devuelto:	Una cadena, que representa el valor del campo de texto.
+
+Veremos un ejemplo mas claro en el siguiente [link](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0)
 
 #### insertBefore
 Nos permite elegir un nodo del documento e incluir otro antes que él.
@@ -63,7 +75,7 @@ Si tuviéramos un fragmento de un documento como éste:
     <p>segundo párrafo.</p>
 </div>
 ```            
-    y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
+y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
 
 ```javascript
 // Creamos el nuevo párrafo con su hijo texto
@@ -81,9 +93,9 @@ padre.insertBefore(nuevoParrafo, segundoParrafo);
 #### replaceChild
 Este método se utiliza para reemplazar un nodo secundario por otro. Toma como argumentos dos nodos: un nuevo nodo y el nodo a ser reemplazado. El nodo reemplazado debe ser un elemento secundario del elemento al que se llama el método.
 
-* Sintaxis es:
+* Sintaxis:
 
-    `elemento_padre.replaceChild(nuevo_nodo,nodo_a_reemplazar);`
+  `elemento_padre.replaceChild(nuevo_nodo,nodo_a_reemplazar);`
 
 Con el mismo marcado que para el ejemplo de insertBefore, si quisiéramos sustituir el segundo párrafo por el que creamos, lo haríamos así:
 
@@ -155,9 +167,9 @@ Dado que podemos incluir nuevos hijos en un nodo, tiene sentido que podamos elim
 Para quitar un nodo del documento tenemos que seleccionar padre del nodo, y desde ahí, remover el nodo deseado.
 Si no conocemos el padre del nodo podemos seleccionar directamente el nodo, obtener el padre – con parent – , para después utilizar removeChild y eliminarlo.
 
-La sintaxis es:
+* Sintaxis:
 
-    `elemento_padre.removeChild(nodo_a_eliminar);`
+  `elemento_padre.removeChild(nodo_a_eliminar);`
 
 ```javascript
 var contenedor = document.getElementById('contenedor');
@@ -172,11 +184,6 @@ removeChild para eliminar el nodo seleccionado.
 var parrafo = document.getElementById('parrafo');
 parrafo.parentNode.removeChild(parrafo);
 ```
-
-
-
-
-
 ### AHORA VAMOS A PRACTICAR UN POCO:
 En los siguientes videos vamos a poner en practica la parte teorica ya que utiliza los metodos  como crear, añadir y eliminar los nodos del DOM por medio de Javascript y así poder crear páginas dinámicas,te sugiero que lo vayas haciendo el ejercicio y si es necesario pauses los videos.
 
@@ -185,33 +192,90 @@ En los siguientes videos vamos a poner en practica la parte teorica ya que utili
 * en el siguiete video agrega los nodos creados al DOM
 - https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
 
-Muchos de los conceptos fueron tomados de las siguientes referencias:
-- http://blog.eamexicano.com/dom/manipular-nodos/
-- http://www.codexexempla.org/curso/curso_4_3_c.php
-- http://www.codexexempla.org/curso/curso_4_3_c.php
-- http://www.codexexempla.org/curso/curso_4_3_d.php
-
-
 ## Modificando atributos
 
-####Atributos
+#### Atributos
 
 Además de modificar el contenido del nodo o el nodo, también podemos modificar los atributos del nodo.
 Conocer el valor o valores que tienen y asignar valores distintos.
 
 Los atributos con los que podemos trabajar directamente son los que utilizan la interfaz HTMLElement.
 
+![alt atributte](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos.png)
+
+```javascript
+var parrafo = document.getElementById("parrafo")
+/*
+Para obtener el valor asignado utilizamos el nodo seguido del atributo que queremos obtener
+*/
+parrafo.id
+/*
+Para asignar valor o valores además del nombre del atributo se le asigna el o los valores
+*/
+parrafo.className = "test ejemplo"
+/*
+Se utiliza className para hacer referencia al atributo class. En javascript class es una palabra reservada que todavía no está en uso.
+*/
+```
+Los atributos `data` permiten almacenar datos en las etiquetas sin modificar la presentación del documento. Para poder trabajar con estos atributos desde el DOM se utiliza dataset.Con dataset podemos definir y asignar un valor al atributo data. Para obtener el valor asignado al atributo se utiliza el nombre del atributo.
+![alt atribute](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos-data.png)
+```javascript
+/*Definir el atributo data-nombre para el nodo del párrafo
+Asignar el valor "Ejercicio" a ese atributo
+*/
+parrafo.dataset.nombre = "Ejercicio"
+
+//Obtener el valor almacenado en el nodo data-nombre
+
+parrafo.dataset.nombre
+```
+Quedando el nodo de la siguiente manera:
+```html
+<p id="parrafo" class="test ejemplo" data-nombre="Ejercicio">
+  Nuevo contenido
+</p>
+```
+Habrá ocasiones en que necesitamos trabajar con atributos que no son parte de la interfaz HTMLElement.
+
+Para esos casos existen dos métodos setAttribute y getAttribute.
+#### setAttribute(‘atributo’, ‘valor’)
+Crea un atributo y establece un valor.
+#### getAttribute(‘atributo’)
+Obtiene el valor del atributo.
+```html
+<img id='imagen' src="http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png" alt="DOM - innerHTML" width="100%"  />
+```
+```javascript
+var mi_imagen = document.getElementById('imagen')
+//Devuelve el tamaño de la imagen en px
+
+mi_imagen.width
+mi_imagen.height
+
+//Devuelve el tamaño de la imagen como está especificado  en la etiqueta
+
+mi_imagen.getAttribute('width')
+mi_imagen.getAttribute('height')
+/*
+Si queremos asignar un tamaño a la imagen que no sea en px tenemos que utilizar setAttribute
+*/
+mi_imagen.width = "50%"
+mi_imagen.height = "auto"
+
+mi_imagen.setAttribute('width', '50%')
+mi_imagen.setAttribute('height', 'auto')
+```
 
 ## Añadiendo estilos por Javascript
 "unlike most other attributes, the style property itself is an object."
 
-####style
+#### Style
 
 Esta propiedad se utiliza para mostrar o para establecer el estilo del nodo sobre el que se esté utilizando.
 
 * Sintaxis
 
-  `_element_.style._property_ = value`
+  `element.style.property = value`
 
 Tomar en cuenta que las propiedades de CSS que están separadas por un guión (font-family, font-size, border-bottom) tienen que ser escritas con notación camelCase (fontFamily, fontSize, borderBottom).
 
@@ -225,7 +289,75 @@ parrafo.style.fontFamily = "helvetica"
 
 
 ## DOM Animation
-https://www.w3schools.com/js/js_htmldom_animate.asp
+Las animaciones de JavaScript se realizan mediante la programación de cambios graduales en el estilo de un elemento.
+
+Los cambios son llamados por un temporizador. Cuando el intervalo del temporizador es pequeño, la animación parece continua.
+
+Para demostrar cómo crear animaciones HTML con JavaScript, utilizaremos una página web sencilla.
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>My First JavaScript Animation</h2>
+        <div id="animate">My animation will go here</div>
+    </body>
+</html>
+```
+Todas las animaciones deben ser relativas a un elemento de contenedor.
+
+```html
+<div id ="container">
+    <div id ="animate">My animation will go here</div>
+</div>
+```
+El elemento contenedor debe crearse con style = "position: relative".
+El elemento de animación debe crearse con style = "position: absolute".
+
+Mas adelante veremos este tema con detalle.
+```css
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+}
+```
+y como lo mencionamos anteriormente las animaciones en javascript son cambios graduales con la funcion de setInterval podemos hacer dichos cambios y la funcion frame realiza los cambios en los estilos
+
+```javascript
+function myMove() {
+    var elem = document.getElementById("animate");
+    var pos = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (pos == 350) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
+    }
+}
+```
+Podemos ver este ejercicio en el siguiente [link](https://codepen.io/Si7v4n4/pen/OjdZer)
+
+```
+Muchos de los conceptos fueron tomados de las siguientes referencias:
+- http://blog.eamexicano.com/dom/manipular-nodos/
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://www.codexexempla.org/curso/curso_4_3_c.php
+- http://blog.eamexicano.com/dom/modificar-estilo-contenido/
+- http://www.codexexempla.org/curso/curso_4_3_d.php
+- https://www.w3schools.com/js/js_htmldom_animate.asp
+```
 
 ***
 
