@@ -3,8 +3,9 @@
 * Formato: `lectura`
 * Duración: `15 min`
 
-
 ***
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSbWwYIRzaqWmIQS0UbPqSjM3QBoOsTejEjqPrGevZ1Kr-fWSTkojxYy9vNwwiqf4tcRpO6r-WVAfHk/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Una de las características más particulares de JavaScript, es el comportamiento de los tipos de datos, porque conociendo su comportamiento nos permite entender como se comportan nuestros datos durante la ejecución.
 
