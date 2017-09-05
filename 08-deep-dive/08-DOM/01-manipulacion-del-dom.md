@@ -5,8 +5,6 @@
 
 ***
 
-
-
 ***
 
 [Continuar](02-built-in-objects.md)
