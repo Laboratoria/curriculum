@@ -1,7 +1,10 @@
 {
   "default": true,
+	"line_length": { "code_blocks": false },
   "ul-style": { "style": "sublist" },
   "ol-prefix": { "style": "ordered" },
   "no-duplicate-header": false,
+	"no-empty-links": false,
+	"no-inline-html": false,
   "no-trailing-punctuation": { "punctuation": ".,;:!" }
 }

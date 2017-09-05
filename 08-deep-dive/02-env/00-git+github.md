@@ -11,7 +11,9 @@
 
 ***
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTf3ugFgxfs9htTF8wXbEXc2v0BfoHbnQS7wZCBg41b_Hg5pQhuXQQWum4Q7CZVaeWFMeK0XSR_NgHl/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://goo.gl/vRo1i5" frameborder="0" width="684" height="430"
+allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 
 Durante esta sesión nos aseguraremos de que todxs tengan las herramientas
 necesarias para hacer el curso, `git` en particular, acceso al repo, así como

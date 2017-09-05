@@ -3,10 +3,7 @@
 * Formato: `lectura`
 * Duración: `15 min`
 
-
 ***
-
-
 
 ***
 
