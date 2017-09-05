@@ -20,4 +20,4 @@ usando npm.
 Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
 problemas de instalación y resolver dudas con respecto a npm.
 
-[Continuar](../03-es6/00-block-scoped-declarations.md)
+[Continuar](../03-es6/00-overview.md)
