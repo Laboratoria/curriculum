@@ -23,13 +23,14 @@ desea:
 * [Ejercicios de sintaxis](http://tddbin.com/#?kata=es6/language/arrow-functions/basics)
 * [Function binding](http://tddbin.com/#?kata=es6/language/arrow-functions/binding)
 
-## [Mix](https://github.com/ivandevp/jsdd-lim2017-e01/)
+## [Code challenges](https://github.com/Laboratoria/ec-js-deep-dive-exercises/tree/es6)
 
 Desarrollar los siguientes ejercicios:
 
+* Saludo
+* Cuadrado de pares
 * Inventario
-* Parámetros por defecto
 
 ***
 
-[Continuar](../04-foundations/01-variables-and-data-types.md)
+[Continuar](../04-foundations/00-variables-and-data-types.md)

@@ -23,7 +23,7 @@ desea:
 * [Ejercicios básicos](http://tddbin.com/#?kata=es6/language/template-strings/basics)
 * [Ejercicios multilínea](http://tddbin.com/#?kata=es6/language/template-strings/multiline)
 
-## [Mix](https://github.com/ivandevp/jsdd-lim2017-e01/)
+## [Code Challenges](https://github.com/Laboratoria/ec-js-deep-dive-exercises/tree/es6)
 
 Desarrollar los siguientes ejercicios:
 
