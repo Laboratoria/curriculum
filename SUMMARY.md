@@ -39,4 +39,4 @@
   * [Manejo del DOM]()
   * [CSS]()
   * [Creación de Plugin]()
-* [SELF ASSESSMENT](08-deep-dive/09-selfassessment/00-selassessment.md)
+* [SELF ASSESSMENT](08-deep-dive/09-selfassessment/00-selfassessment.md)
