@@ -24,23 +24,35 @@ La `línea de comando` es una aplicación que nos permite ver, manejar y manipul
 Por lo tanto, nos da un control que es rápido y automatizado de las computadoras.
 
 ### Accediendo a la línea de comando
-Para abrir nuestra `línea de comando` debemos buscar entre nuestras aplicaciones 'Símbolo de sistema' o 'cmd'. Al abrir la aplicación nos aparecerá una nueva ventana con un fondo negro y letras.
+Para abrir nuestra `línea de comando` debemos buscar entre nuestras aplicaciones 'Símbolo de sistema' o 'cmd'. Al abrir la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:
 
-![](https://drive.google.com/a/laboratoria.la/file/d/0B6QwL6rGulDtOU5NdEdfdzYyR28/view?usp=sharing)
+![](https://fotos.subefotos.com/102247deb1ee817e820fcc1dbbeec4f8o.png)
 
 ### Comandos
 Ya estamos dentro de la famosa 'pantalla negra', ahora veamos qué asombrosas cosas podemos hacer.
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
 
-* `cd`
+>¿Cómo ejecutamos un comando?
+  1. Debemos de escribir el comando
+  2. Presionando la tecla 'enter' estaremos ejecutando un comando
 
-	1. `cd` :
-	2. `cd file` :
+- `cd`: Este comando nos ayudará si queremos navegar entre nuestros archivos, con él, podremos saber en dónde nos encontramos, acceder a otra carpeta o volver a una carpeta anterior.  
+  Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos recorrela. Ahora me encuentro en mi cuarto, pero que pasa si quiero ir al **baño**.  
+  
+  ![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)  
+  
+  Mi cuarto es el n° 3 y si quiero ir al baño, primero, debo de entrar al clóset que es el n° 2 y luego entrar al naño, que es el n°1.  
+  Algo similar pasa en la navegación por las carpetas vía terminal, supongamos que me encuentro en mi **ciber casa** y quiero ir de mi **ciber cuarto**(disco local C) a mi "ciber baño"(carpeta "imágenes"), primero debería de entrar al "ciber-clóset"
+	1. `cd` : Al ejecutar el comando `cd` se nos mostrará la ruta 
+	2. `cd nombre-archivo` :
 	3. `cd..` :
 
-* `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.
-* `mkdir` : Crea una nueva carpeta
-* `touch` :
+- `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.
+![](https://fotos.subefotos.com/28e9741a1b482c7a3043518f068bef77o.png)
+
+
+- `mkdir nombre-carpeta` : Si ejecutamos el comando ''
+* `touch nombre-archivo` :
 
 <!--
 Para cualquier comando que discutamos aquí, el comando man, abreviado para manual , dará una (esperamos) explicación detallada de ese comando. A veces esa explicación será demasiado detallada para usted. Cuando te pierdes en una página de manual y quieres entenderlo, empieza de nuevo desde el principio de la página de manual y sigue repitiendo. Esperamos que usted llegará más lejos en la página cada vez que lo lea.
