@@ -1,5 +1,9 @@
 # loadUsers
 
+* Environment: `js`
+
+***
+
 ¡Este código está dañado!
 
 Un desarrollador que trabaja en Java ha hecho _commit_ de este terrible código a

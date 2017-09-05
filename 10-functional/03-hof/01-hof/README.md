@@ -1,6 +1,7 @@
-﻿# Funciones de orden superior
+# Funciones de orden superior (Higher Order Functions)
 
-* Formato: `artículo`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: 30min
 
 ***

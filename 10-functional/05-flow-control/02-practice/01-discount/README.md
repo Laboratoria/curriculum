@@ -1,6 +1,8 @@
 # Reemplaza iteración con recursión
 
-...
+* Environment: `js`
+
+***
 
 ## Tarea
 

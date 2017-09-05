@@ -1,5 +1,9 @@
 # Without bind
 
+* Environment: `js`
+
+***
+
 La aplicación parcial nos permite crear nuevas funciones a partir de funciones
 existentes, a la vez que fijamos algunos argumentos. Despues de fijar los
 argumentos para ser parcialmente aplicados, tenemos una nueva función lista para

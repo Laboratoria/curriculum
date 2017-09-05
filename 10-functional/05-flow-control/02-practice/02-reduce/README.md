@@ -1,5 +1,9 @@
 # reduce
 
+* Environment: `js`
+
+***
+
 La recursión es un concepto fundamental en programación, que nos puede llevar a
 soluciones elegantes y eficientes a problemas algorítmicos. De hecho, la
 recursión es tan poderosa, que toda lógica iterativa puede ser expresada usando

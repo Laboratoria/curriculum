@@ -1,6 +1,7 @@
 # Aplicación parcial
 
-* Formato: `artículo`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: 10min
 
 ***

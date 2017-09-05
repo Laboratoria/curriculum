@@ -1,6 +1,7 @@
 # Recursividad en JavaScript
 
-* Formato: `artículo`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `50min`
 
 ***

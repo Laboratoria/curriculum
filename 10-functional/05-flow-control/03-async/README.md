@@ -1,6 +1,7 @@
-﻿# Asincronía en JavaScript
+# Asincronía en JavaScript
 
-* Formato: `artículo`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: 30min
 
 ***

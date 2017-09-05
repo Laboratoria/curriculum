@@ -1,4 +1,10 @@
-# Tarea
+# getDependencies
+
+* Environment: `js`
+
+***
+
+## Tarea
 
 Implementar una función recursiva que devuelva todas las dependencias únicas y
 subdependencias de un módulo ordenadas alfabéticamente. Las dependencias deben
