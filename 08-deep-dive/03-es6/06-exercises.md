@@ -33,4 +33,4 @@ Desarrollar los siguientes ejercicios:
 
 ***
 
-[Continuar](../04-foundations/01-variables-and-data-types.md)
+[Continuar](../04-foundations/00-variables-and-data-types.md)
