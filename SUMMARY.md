@@ -1,12 +1,10 @@
-Con este se construye el menu lateral
-
 * [BIENVENIDA](README.md)
 * [PRESENTACIÓN DEL CURSO](08-deep-dive/01-intro/00-welcome.md)
 * [ENTORNO Y METODOLOGÍA DE TRABAJO]()
 	* [Git + GitHub](08-deep-dive/02-env/00-git+github.md)
 	* [Node.js + npm](08-deep-dive/02-env/01-node+npm.md)
 * [ECMASCRIPT 6]()
-	* [ECMAScript](08-deep-dive/03-es6/00-overview.md)
+	* [Introducción](08-deep-dive/03-es6/00-overview.md)
   * [Block scoped declarations](08-deep-dive/03-es6/01-block-scoped-declarations.md)
   * [Template strings](08-deep-dive/03-es6/02-template-strings.md)
   * [Ejercicios](08-deep-dive/03-es6/03-exercises.md)
@@ -25,7 +23,7 @@ Con este se construye el menu lateral
   * [Arreglos]()
 * [MANEJO DE EXCEPCIONES]()
   * [Modo Estricto]()
-  * [Try... Catch]()
+  * [try...catch]()
 * [DOCUMENT OBJECT MODEL (DOM)]()
   * [Recorrido del DOM]()
   * [Manipulación del DOM]()
