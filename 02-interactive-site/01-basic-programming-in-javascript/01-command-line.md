@@ -43,20 +43,20 @@ Ya estamos dentro de la famosa 'pantalla negra', ahora veamos qué asombrosas co
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
 
 >¿Cómo ejecutamos un comando?
-  1. Debemos de escribir el comando
-  2. Presionando la tecla 'enter' estaremos ejecutando un comando
+    1. Debemos de escribir el comando
+    2. Presionando la tecla 'enter' estaremos ejecutando un comando
 
 - `cd`: Este comando nos ayudará a navegar por nuestros **directorios**(también llamados **carpetas**), entre nuestros archivos. Con él, podremos saber en dónde nos encontramos, acceder a otra carpeta o volver a una carpeta anterior.  
   Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos recorrela. Ahora me encuentro en mi cuarto, pero ¿que pasa si quiero ir al **baño**?.  
   
   ![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)  
   
-  Mi cuarto(n° 3) y si quiero ir al baño, primero, debo de entrar al clóset(n° 2) y luego entrar al baño(n°1). No puedo llegar al baño sin pasar por el clóset.
-  Algo similar pasa en la navegación por las carpetas vía terminal, supongamos que me encuentro en mi **ciber casa**(mi equipo) y quiero ir de mi **ciber cuarto**(disco local C) a mi "ciber baño"(carpeta "Saved Pictures"), primero debería de entrar al "ciber-clóset"(carpeta "Pictures") y luego entramos a la carpeta buscada.  
+  Estoy en mi cuarto (n° 3) y si quiero ir al baño, primero, debo de entrar al clóset (n° 2) y luego entrar al baño (n°1). No puedo llegar al baño sin pasar por el clóset.
+  Algo similar pasa en la navegación por las carpetas vía terminal, supongamos que me encuentro en mi **ciber casa** (mi equipo) y quiero ir de mi **ciber cuarto** (disco local C) a mi "ciber baño" (carpeta "Saved Pictures"), primero debería de entrar al "ciber-clóset"(carpeta "Pictures") y luego entramos a la carpeta buscada.  
   Ahora veamos qué podemos hacer con `cd`:
      1. `cd` : Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
      2. `cd nombre-carpeta` : Si luego de cd indicamos el nombre de una carpeta, al ejecutarlo, estaremos ingresando dentro de ella.
-     3. `cd..` : si ponemos dos puntos(`..`) junto a `cd`, estaremos saliendo de la carpeta en donde nos encontramos y volveremos una hacia atrás.
+     3. `cd..` : si ponemos dos puntos (`..`) junto a `cd`, estaremos saliendo de la carpeta en donde nos encontramos y volveremos una hacia atrás.
 
 - `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
   Por ejemplo, si ejecuto el comando `dir` en "C:\Users\MICHELLE SEGUIL" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
