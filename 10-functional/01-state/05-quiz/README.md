@@ -18,6 +18,7 @@
    efectos secundarios
 4. una función que no hace uso de `this`
 
+<solution style="display:none;">3</solution>
 
 ### Dada la siguiente función `processData()`, dirías que es pura?
 
@@ -38,6 +39,8 @@ const processData = () => {
 1. Sí
 2. No
 
+<solution style="display:none;">2</solution>
+
 ### Efectos secundarios
 
 Se dice que una función tiene efectos secundarios cuando:
@@ -48,3 +51,5 @@ Se dice que una función tiene efectos secundarios cuando:
 2. Cambia estado fuera de su scope
 3. Programa tareas para que se ejecuten en el futuro
 4. Retorna funciones
+
+<solution style="display:none;">2</solution>
