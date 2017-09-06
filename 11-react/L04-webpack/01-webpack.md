@@ -89,6 +89,8 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
   - ya *no* se encargue de inyectar el resultado en el DOM
   - se convierta en un módulo independiente, que exporte `Page` y `defaultPageProps`
   
+  en React, por convención los archivos donde viven los componentes, se llaman de la misma manera que los componentes que contienen. Entonces vamos a renombrar `page.js` por `Page.js`
+  
   ```javascript
   // page.js
   import React from 'react'
@@ -112,7 +114,7 @@ De esta manera proporciona una sola vía para importar y transformar todos los r
   export default Page
   ```
   
-7. Creamos un archivo `main.js` que configuraremos como `entry` de `webpack`. El será el encargado de renderizar `Page` e inyectar el resultado en el `DOM`
+7. Creamos un archivo `index.js` que configuraremos como `entry` de `webpack`. El será el encargado de renderizar `Page` e inyectar el resultado en el `DOM`
 
   ```javascript
   // main.js

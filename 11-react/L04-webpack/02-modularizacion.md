@@ -7,9 +7,9 @@ Analicemos un segundo la estructura de nuestra aplicación:
 ```
 ├── .babelrc
 ├── index.html
-├── main.js
+├── index.js
 ├── package.json
-├── page.js
+├── Page.js
 ├── styles.css
 ├── webpack.config.js
 └── yarn.lock
@@ -24,12 +24,13 @@ Modifica tu aplicación para que quede con la siguiente estructura:
 ```
 ├── src
 │   ├── lib
-│   │   ├── aside.js
-│   │   ├── header.js
-│   │   ├── main-section.js
-│   │   └── page.js
+│   │   └──components
+│   │      ├── Aside.js
+│   │      ├── Header.js
+│   │      ├── MainSection.js
+│   │      └── Page.js
 │   ├── index.html
-│   ├── main.js
+│   ├── index.js
 │   └── styles.css
 ├── .babelrc
 ├── package.json
