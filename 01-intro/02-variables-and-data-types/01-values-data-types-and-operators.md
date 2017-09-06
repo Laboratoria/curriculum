@@ -2,24 +2,32 @@
 
 ## Objetivos de Aprendizaje
 
-- Entender qué se entiende por _values_ (valores) en JavaScript
-- Conocer los diferentes _data types_ (tipos de datos) en JavaScript
-- Aprender cómo combinar y transformar valores con operadores en JavaScript
+- Entender qué se entiende por _values_ (valores) en JavaScript.
+- Conocer los diferentes _data types_ (tipos de datos) en JavaScript.
+- Aprender cómo combinar y transformar valores con operadores en JavaScript.
 
 ***
-
+<!-- links_blank
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io).
-
+disponible gracias a [hectorip](https://github.com/hectorip).
+-->
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el
+capítulo 1 de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>,de Marijn
+Haverbeke, 2014. Traducción en <a href="http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html" target="_blank">Español</a> disponible gracias a <a href="https://github.com/hectorip" target="_blank">hectorip</a>.
 ***
 
 ## Vivimos en un mundo de Data
-
+<!-- links_blank
 En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que ["cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003"](https://techcrunch.com/2010/08/04/schmidt-data/). Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
-
+-->
+<!-- links_blank
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como [predecir si una mujer está embarazada, según su historial de compra en un hipermercado](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4).
+-->
+En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que <a href="https://techcrunch.com/2010/08/04/schmidt-data/" target="_blank">cada dos días creamos tanta data como lo hicimos desde los inicios de la civilización hasta el 2003</a>. Las compras que haces son data, tus notas en el colegio son data, tu perfil de Facebook está minado de data. Tus búsquedas en Google, las señales de GPS de tu celular, los videos que miras y subes a YouTube, las imágenes que ves en Instagram, los registros del clima, los corrreos electrónicos ... todo eso es data!
+
+La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que nos rodea. La data es información, la información es conocimiento, y el conocimiento se traduce en mejores decisiones. Desde decisiones simples, como elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones complejas, como <a href="http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4" target="_blank">predecir si una mujer está embarazada, según su historial de compra en un hipermercado</a>.
 
 ## Tipos de datos
 
@@ -27,11 +35,11 @@ Las computadoras son un gran recurso para trabajar con grandes cantidades de dat
 
 Las computadoras manejan billones de bits. Para hacer más fácil el manejo de grandes cantidades de bits, los podemos dividir en "pedazos" que representan piezas de información. En un entorno JavaScript, estos pedazos son llamados _**values**_ (valores en español). Cada _value_ tiene un _data type_ (tipo de dato) que determina su rol. En JavaScript existen cinco (5) tipos de datos primitivos:
 
-1. `numbers` (números)
-2. `strings` (cadenas)
-3. `booleans` (booleanos)
-4. `undefined` (indefinido)
-5. `null` (nulo)
+1. `numbers` (números).
+2. `strings` (cadenas).
+3. `booleans` (booleanos).
+4. `undefined` (indefinido).
+5. `null` (nulo).
 
 La data y los tipos de datos forman las bases de cualquier lenguaje de programación. Nos permiten organizar información y determinar cómo correr el programa. En esta lección aprenderás a definir y manipular estos tipos de datos.
 
@@ -209,7 +217,7 @@ Realiza esta comparación en tu consola:
 3 > 2
 // returns > true
 
-2 < 3
+2 > 3
 // returns > false
 
 typeof (3 > 2)
@@ -228,7 +236,11 @@ Los `strings` pueden ser comparados de la misma manera.
 // returns > true
 ```
 
+<!-- Links_blank
 La manera en que los `strings` son ordenadas es más o menos alfabéticamente: las letras mayúsculas son siempre "menores" que las minúsculas, así que "Z" < "a" es _true_, y los caracteres no alfabéticos (!, -, y así por el estilo) son también incluidos en el ordenamiento.La comparación real está basada en el estándar [Unicode](https://unicode-table.com/en/#control-character).
+-->
+La manera en que los `strings` son ordenadas es más o menos alfabéticamente: las letras mayúsculas son siempre "menores" que las minúsculas, así que "Z" < "a" es _true_, y los caracteres no alfabéticos (!, -, y así por el estilo) son también incluidos en el ordenamiento.La comparación real está basada en el estándar <a href="https://unicode-table.com/en/#control-character" target="_blank">Eloquent Unicode</a>.
+
 
 ```js
 "Zeyla" < "ana"
