@@ -21,8 +21,10 @@ Imagina que estás jugando un juego con algunos amigas y quieres ir registrando 
 
 Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de la jugadora en el `object` scores. También escribe una función que imprima en la consola el total de los puntos.
 
-#### 3. Sort
-Crea una funcion que ordene un `array` de números, de menor a mayor. Tip: utiliza el algoritmo de [`selection sort`](https://en.wikipedia.org/wiki/Selection_sort). Revisar otros algoritmos de sorting (por ejemplo: [`insertion sort`](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) y [`bubble sort`](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)) 
+#### 3. Sort (+ Binary Search)
+Crea una funcion que ordene un `array` de números, de menor a mayor. Tip: utiliza el algoritmo de [`selection sort`](https://en.wikipedia.org/wiki/Selection_sort). Revisar otros algoritmos de sorting (por ejemplo: [`insertion sort`](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) y [`bubble sort`](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif))
+
+Ahora que ya sabes ordenar un `array`, escribe una función que realice una búsqueda de un elemento en un arreglo utilizando el algoritmo de `Binary Search` (recuerda que Lourdes explicó el concepto de Binary Search en la sección de [casos prácticos](08-practical-cases.md)).  
 
 #### 4. Remove Duplicates
 Escribe una función que tome un `array` como parámetro y retorne otro `array` pero sin elementos duplicados.

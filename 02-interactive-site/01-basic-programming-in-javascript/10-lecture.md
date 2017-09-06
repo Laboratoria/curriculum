@@ -25,8 +25,8 @@
    - `indexOf()`
    - `join()`
    - `slice()`
+   - `splice()`
    - `lastIndexOf()`
-   - `trim()`
    - `reverse()`
    - `Object.keys`
 
