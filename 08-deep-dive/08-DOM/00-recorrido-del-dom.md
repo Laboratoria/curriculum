@@ -1,7 +1,7 @@
 # Recorrido del DOM
 
 * Formato: `lectura`
-* Duración: `15 min`
+* Duración: `15min`
 
 
 ***
