@@ -6,7 +6,7 @@ const config = {
   devtool: 'cheap-module-source-map',
 
   entry: [
-    './main.js'
+    './index.js'
   ],
 
   context: resolve(__dirname, 'src'),

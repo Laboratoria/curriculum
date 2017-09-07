@@ -43,12 +43,12 @@
           )
         )
       }
-      
+
       ReactDOM.render(
         Cabecera({ nombre: 'Mundo' }),
         document.getElementById('cabecera')
       );
-      
+
       function Timer(props) {
         const transcurrido = Math.round(props.transcurrido  / 100);
         const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
@@ -59,7 +59,7 @@
           border: '3px solid '+borderColor,
           padding: 10
         }
-          
+
         // Creamos un elemento `div` the React way
         return div({ style: containerStyle },
           h2(null, "Timer"),

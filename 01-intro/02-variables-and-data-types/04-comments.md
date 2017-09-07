@@ -1,8 +1,8 @@
-# Commentarios
+# Comentarios
 
 ## Objetivos de Aprendizaje
 
-- Aprender qué son los _comentarios_ y su utilidad
+- Aprender qué son los _comentarios_ y su utilidad.
 
 ***
 
@@ -22,7 +22,7 @@ Se visualizan así:
 */
 ```
 
-La computadora ignora los comentarios por completo. Los comentarios en JavaScript empiezan con `//`. Todo lo que sigue a las barras diagonales (en la misma línea) son ignoradas por el intérprete de JavaScript. Los comentarios de múltiples líneas empiezan con `/*` y cierran con `*/`. Todo lo que está entre medio es ignorado por el programa.
+La computadora ignora los comentarios por completo. Los comentarios en JavaScript empiezan con `//`. Todo lo que sigue a las barras diagonales (en la misma línea) es ignorado por el intérprete de JavaScript. Los comentarios de múltiples líneas empiezan con `/*` y cierran con `*/`. Todo lo que está entre eso es ignorado por el programa.
 
 De tal manera, los comentarios no tienen efecto alguno sobre cómo un programa se ejecuta. Solo están allí para proporcionar contexto. Es una **buena práctica** incluir comentarios en el código para mejorar su legibilidad.
 
@@ -39,7 +39,7 @@ console.log(/* tu código aquí */);
 
 La idea es que borres el comentario y utilices ese espacio para escribir tu código. No te preocupes por borrar los comentarios. Eso sí, **no** borres otras partes del programa. Si lo haces, es muy probable que no te funcione muy bien.
 
-Ahora sí, continúa con los ejercicios y quizzes de esta lección. Mucha suerte!
+Ahora sí, continúa con los ejercicios y quizzes de esta lección. ¡Mucha suerte!
 
 ***
 
