@@ -8,9 +8,9 @@ source:
 
 Ya tenemos una aplicación estática modelada con componentes de React, muy modernos y mantenibles, pero carecemos de algo fundamental que cualquier aplicación moderna necesita: interacción y memoria.
 
-En esta lección veremos una forma de inyectar esa capacidad a nuestros componentes con Redux, permitiéndonos mantener a estos componentes independientes y reutilizables.
+En esta lección veremos una forma de inyectar esa capacidad a nuestros componentes con Redux, permitiéndonos mantener estos componentes independientes y reutilizables.
 
-Para llegar hasta Redux, comenzaremos con qué son los HOC, veremos algunos casos de uso para entender el abanico infinito de posibilidades que brindan. Luego tendremos una introducción a Redux y sus principios básicos y veremos cómo usa el concepto de HOCs para escuchar eventos de los componentes, distribuirles los datos que necesitan y orquestrar el estado global de nuestra aplicación. Por último realizaremos un proceso completo de diseño e implementación de un componente más complejo, utilizando React y Redux.
+Para llegar hasta Redux, comenzaremos con qué son los HOC, veremos algunos casos de uso para entender el abanico infinito de posibilidades que brindan. Luego tendremos una introducción a Redux y sus principios básicos, y veremos cómo usa el concepto de HOCs para escuchar eventos de los componentes, distribuirles los datos que necesitan y orquestar el estado global de nuestra aplicación. Por último realizaremos un proceso completo de diseño e implementación de un componente más complejo, utilizando React y Redux.
 
 # Higher-order Components (HOCs)
 
@@ -29,9 +29,9 @@ En esta lectura veremos por qué son tan utiles los HOCs y qué formas pueden to
 
 ## Usando HOCs para funcionalidades transversales (Cross-Cutting Concerns)
 
-> En las primeras versiones de React, se recomendaba el uso de Mixins y quizás hoy por hoy, todavía encuentres información sobre ellos. Hoy por hoy el uso de Mixins está **des-recomendado**. [Mas info](/react/blog/2016/07/13/mixins-considered-harmful.html)
+> En las primeras versiones de React, se recomendaba el uso de Mixins y quizás todavía encuentres información sobre ellos. Hoy por hoy el uso de Mixins está **des-recomendado**. [Mas info](/react/blog/2016/07/13/mixins-considered-harmful.html)
 
-Los componentes son la unidad básica de reutilización de código en Rect, Sin embargo, verás que hay situaciones en las que la naturaleza expresiva de React, no resuelve muy bien el problema.
+Los componentes son la unidad básica de reutilización de código en React. Sin embargo, verás que hay situaciones en las que la naturaleza expresiva de React, no resuelve muy bien el problema.
 
 Por ejemplo, supongamos que tenemos un componente `CommentList` que se subscribre a una fuente externade datos y renderiza una lista de comentarios para un usuario específico:
 
@@ -121,7 +121,7 @@ const state = {
 
 // Y esta función que recibe un componente
 function withData(WrappedComponent, selectData) {
-  // ... y retorna otro 
+  // ... y retorna otro
   return props => {
     const data = selectData(state.user)
     return (
@@ -133,9 +133,9 @@ function withData(WrappedComponent, selectData) {
 
 Nota que un HOC no moodifica la interfaz del componente, ni tampoco usa herencia para copiar su comportamiento. En lugar de eso un HOC *compone* el componente original, *envolviéndolo (wrapping)* con un componente contenedor. Un HOC es una ***función pura sin efectos colaterales***.
 
-Y listo! El componente interno recibe todo lo que necesita a través del contenedor, y así ni el contenedor se preocupa en cómo se usa la data, ni el componente interno se preocupa de cómo se consigue esta data. Completa separación de intereses (separation of concerns)
+Y listo! El componente interno recibe todo lo que necesita a través del contenedor, y así ni el contenedor se preocupa en cómo se usa la data, ni el componente interno se preocupa de cómo se consigue esta data. Completa separación de intereses (separation of concerns).
 
-Como `withData` es una función común y corriente, puedes dotar de la interfaz que más te convenga. Por ejemplo, en lugar de que la prop siempre se llame data, puedes hacer que el nombre de la prop sea configurable. O podrías recibir el usuario en lugar de obtenerlo de un state global. Todo esto y más es posible, porque el HOC está en completo control de de la forma del contenedor y de cómo y con qué parámetros renderizar al componente interno.
+Como `withData` es una función común y corriente, puedes dotarla de la interfaz que más te convenga. Por ejemplo, en lugar de que la prop siempre se llame data, puedes hacer que el nombre de la prop sea configurable. O podrías recibir el usuario en lugar de obtenerlo de un state global. Todo esto y más es posible, porque el HOC está en completo control de de la forma del contenedor y de cómo y con qué parámetros renderizar al componente interno.
 
 Como con los componentes regulares, el *"contrato"* entre `withData` y el componente interno se basa enteramente en las props. Esto hace fácil cambiar un HOC por otro, siempre y cuando provea las mismas props al componente interno. Esto puede ser muy útil por ejemplo, si cambiamos la forma en la que obtenemos o guardamos nuestro usuario, o parámetros futuros que se agreguen a la API de nuestro data source.
 
@@ -152,7 +152,7 @@ function(props) {
   // Filtramos una prop extra que es específica de este HOC y no debería
   // ser traspasada
   const { extraProp, ...passThroughProps } = props;
-  
+
   // Injectamos las props necesarias. Usualmente una valor del state global
   // o event listeners
   const injectedProp = someStateOrInstanceMethod(extraProp);
@@ -201,7 +201,7 @@ const enhance = connect(commentListSelector, commentListActions);
 const ConnectedComment = enhance(CommentList);
 ```
 
-En otras palabras, `connect` es una higher-order function que revuelve un higher-order component!
+En otras palabras, `connect` es una higher-order function que devuelve un higher-order component!
 
 Esta forma puede parecer confusa o innecesaria, pero tiene una capacidad muy útil. Los HOCs con un sólo argumento como los devueltos por `connect` tienen la siguiente signatura `Component => Component`. Las funciones donde el tipo de su entrada es el mismo que el de su salida son muy fácil de componer.
 
@@ -285,7 +285,7 @@ En estas situaciones, puedes copiar el método en el componente contenedor, ante
 ```js
 function enhance(WrappedComponent) {
   class Enhance extends React.Component {/*...*/}
-  // Debemos copiar el método explícitamente 
+  // Debemos copiar el método explícitamente
   Enhance.staticMethod = WrappedComponent.staticMethod;
   return Enhance;
 }
