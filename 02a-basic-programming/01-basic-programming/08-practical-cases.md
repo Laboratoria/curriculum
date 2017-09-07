@@ -47,15 +47,18 @@ resolvió cada uno de los ejercicios anteriores.
 
 #### 1. Reverse
 
-[![Solution Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
+[![Solution Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)]
+(https://www.youtube.com/watch?v=BgcnOdIrUdo)
 
 #### 2. Search
 
-[![Solution Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
+[![Solution Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)]
+(https://www.youtube.com/watch?v=JjcDSIShTm0)
 
 #### 3. Array to Object
 
-[![Solution ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE)
+[![Solution ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)]
+(https://www.youtube.com/watch?v=41ZJrHO6BsE)
 
 ***
 

@@ -1,6 +1,9 @@
 # 01. Programación básica
 
-En este curso aprenderás
+En este curso aprenderás mejores formas de estructurar y manipular la data de
+tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
+`objetos`. Además, aprenderás a utilizar dos programas esenciales para una
+developer: la línea de comandos y el controlador de versiones.
 
 ## Público Objetivo
 
@@ -16,19 +19,22 @@ y condicionales.
 
 ## Propósito General
 
-El propósito de este curso es que .
+El propósito de este curso es que profundices más en conceptos de la
+programación y así logres crear programas más complejos.
 
 ## Aprenderás:
 
-* Conceptos básicos de programación en `js`, como: `arrays` y `objects`
+* A utilizar estrcuturas de datos básicas: `arrays` y `objects`
 * Qué es y cómo utilizar la interfaz de línea de comandos (`cli`)
 * Qué es y cómo utilizar un sistema de control de versiones (`git`)
+* A utilizar estos conceptos para resolver problemas aún más complejos y crear
+programas más elaborados
 
 Main Tags:
  `arrays`, `objects`, `cli`, `git`, `github`.
 
 Secondary Tags:
-`algorithms`, `ascii`, `searching`, `sorting`.
+`algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
 
 ## Duración
 
@@ -41,15 +47,15 @@ Secondary Tags:
 
 ## Productos a desarrollar
 
-Con este curso desarrollarás tus primeros productos digitales. Pondrás en
-práctica los conocimientos aprendidos para crear los siguientes productos web:
+Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
+vida cotidiana:
 
 1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
 tarjeta de crédito es válida según el
 [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 
-2. **Ceasar Cipher**: crearás un programa que encripte mensajes según la
-[algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+2. **Ceasar Cipher**: crearás un programa que encripte y decifre mensajes según
+el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
 
@@ -63,19 +69,16 @@ Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | seminario | 30min | Apertura
-| 01 | seminario | 30min | Sobre Laboratoria
-| 02 | seminario | 60min | ¿Cómo se aprende en Laboratoria?
-| 03 | seminario | 120min | Sprint Demo
-| 04 | seminario | 30min | Definición de Squads
-| 05 | seminario | 30min | Sprint Kick-off
-| 06 | seminario | 60min | Cierre
+| 01 | seminario | 3hrs | Sobre Laboratoria
+| 02 | seminario | 3hrs | Sprint Demo
+| 03 | seminario | 60min | Cierre
 
 ### [02: Programación básica con JavaScript](02-basic-programming)
 
 35 hrs
 
-Retomamos lo aprendido en el curso anterior (Intro JS) y seguimos profundizando
-en aprender a programar con JavaScript.
+Retomar lo aprendido en el curso anterior (Intro JS) y seguir profundizando
+en conceptos básicos de la programación en `JavaScript`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -98,7 +101,6 @@ en aprender a programar con JavaScript.
 | 16 | cuestionario | 10min | Auto-evaluación
 | 17 | taller | 3 hrs |  Retrospectiva
 | 18 | seminario | 30min | Cierre
-
 
 * * *
 
