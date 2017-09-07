@@ -82,7 +82,7 @@ Git y Github se complementan pero no son iguales.
 
 La programación se da, en su mayoría de veces, en equipos. Varias empresas tiene un equipo que se complementa para cada proyecto. Ante esta situación te preguntarás: 
 
->¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar o trabajan cada uno por su lado y al momento de tener que unir las partes tienen que ver detalladamente si se repiten o no alguna parte.
+>¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen todo en un usb y se lo turnan para poder trabajar, o trabajan cada uno por su lado y al momento de tener que unir las partes tienen que ver detalladamente si se repiten o no alguna parte.
 
 Esto sería algo para nada eficiente, porque no se podría trabajar al mismo tiempo en algo en específico y se tendría que depender del avance de otro para que nosotros podamos avanzar.
 
@@ -164,10 +164,9 @@ Cuando haya terminado la descarga de nuestro programa comenzaremos con la instal
 ## ¿Qué es Git bash?
 Cuando terminemos de instalar `Git`, en nuestras nuevas aplicaciones encontraremos una que se llama `Git Bash`.  
 
-Git bash incluye algunos comandos de bash y puedes ejecutar archivos `.sh` desde ahí, sirve para lo mismo que la cmd de Windows, pero utilizando los comandos de una shell de BASH (usada en Linux y OS X)
-Git bash es un shell donde "git" es un comando conocido
+En el sistema operativo Windows, debido a que el Command Prompt (o consola de Windows) no es muy amigable y no soporta comandos UNIX, Git nos proporciona una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar comandos como si estuviéramos en Linux o Mac OS X.
 
-El nombre "bash" es un acrónimo de Bourne Again Shell, Git bash es una herramienta de línea de comandos.
+Git bash es un shell donde "git" es un comando conocido. El nombre "bash" es un acrónimo de Bourne Again Shell, Git bash es una herramienta de línea de comandos.  
 
 Aquí puedes encontrar más información: [Bash (shell Unix)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
@@ -201,45 +200,49 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
 
 ## ¿Cómo usar Git y Github?
 
-INTRO...
+Hemos leído las ventajas que nos pueden brindar Git y Github, con ellos podremos subir un repositorio local a uno remoto, trabajar con versiones, trabajar colaborativamente, etc. Ahora hagamos la 'magia' de subir nuestro `repositorio local` a uno `remoto` y trabajar colaborativamente.
 
-A continuación tienes una lista de los comandos más comunes que usarás Y MAS ABAJO UN VDEO....
+A continuación tienes la lista de los comandos más comunes que utilizarás trabajando con Git y Github, estos los deberás ejecutar en la ya conocida terminal `Git Bash`. Más abajo habrá un video de Michelle utilizándolos.
 
-- `init`: Este comando le indica a Git que se comenzrá a hacer seguimiento de la carpeta actual. Se inicia al momento de ejecutar el siguiente comando en la consola de Git(`git bash`).
+- `init`: Este comando le indica a Git que comenzará a hacer seguimiento de la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El comando para iniciar el seguimiento de la carpeta sería:
   >git init
   
-  Al ejecutar esta línea, git, creará una carpeta oculta llamada `.git` en el working directory (raíz del proyecto).
+  Al ejecutar esta línea, git, creará una carpeta oculta llamada `.git` en el working directory, en la raíz del proyecto.
   
 
-- `add`: Gracias a `add` añadiremos los cambios a la versión actualizada.
+- `add`: Con este comando estaremos indicando qué archivos queremos que pasen de nuesto working directory al staging area. Es decir que los archivos ya han sido modificados y están **preparados**  para la nueva versión del proyecto. 
   
-  Por ejemplo, si quieremos añadir nuestro archivo `HTML` llamado 'index.html' debemos de ejecutar la siguiente línea:
+  Por ejemplo, si quieremos añadir a nuestro staging area el archivo `HTML` llamado 'index.html' debemos de ejecutar la siguiente línea:
   >git add index.html
   
-  Si queremos que todos los archivos de donde me encuentro se añadan, ejecutamos la siguiente línea:
+  Si queremos que todos los archivos de donde me encuentro se añadan al staging area (definir que ya están preparados), ejecutamos la siguiente línea:
   >git add .
 
 
-- `commit`: Con `commit` 'encerraremos' un conjunto de cambios para crear una nueva versión de nuestro proyecto.
+- `commit`: Con `commit` **confirmaremos** los archivos que declaramos como preparados con el comando anterior (`add`) .Con los archivos confirmados se creará una nueva versión del proyecto.  
+  La estructura del comando es la siguiente:
   >git commit -m 'añadiendo un comentario'
 
-  El texto que va dentro de las comillas ('') puede ser cualquiera, te recomiendo que escribas un resumen de lo que estás subiendo en ese momento para que haya una una mejor organizacion. Por ejemplo:
-  >git commit -m 'Enlazando archivo js'
+  El texto que va dentro de las comillas ('') puede ser cualquiera, te recomiendo que escribas un resumen de lo que estás subiendo en ese momento para que tengas una mejor organizacion, además, un buen comentario te servirá si quieres volver a una funcionalidad en especial sin tener que leer todo el código y solo guiarte por el comentario de tu commit. Por ejemplo:
+  >git commit -m 'Creando estructura HTML'
   
-- `remote`: Con `remote` vincularemos nuestro repositorio local con nuestro repositorio en la 'nube'(Github) por medio de la url. Debemos de ejecutar el siguiente comando:
+- `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro repositorio que se encuentra en la 'nube' por medio de la **url**.
+  Este paso no se debe de hacer cada vez que creemos una nueva versión, solo cuando queramos especificar el repositorio remoto que tendremos.
+  Entonces, para enlazar nuestro repositorio local con nuestro repositorio remoto debemos de ejecutar el siguiente comando:
   >git remote add nombre-remoto url
   
-  Normalmente como **nombre** se usa `origin` y **url** es la ruta de tu repositorio de Github.
-  Por ejemplo, si ya he creado el repositorio 'prueba' en Github tendría que ejecutar la siguiente línea:
+  Normalmente, la mayoría de los developers, como **nombre-remoto** utiliza `origin` y **url** es la "ruta" (url) de nuestro repositorio en Github.
+  Por ejemplo, hace un momento he creado el repositorio 'prueba' en Github y si quiero vincular mi repositorio local con ese repositorio remoto tendría que ejecutar la siguiente línea de comando:
   > git remote add origin https://github.com/MichelleSV/prueba.git
   
-- `push`: Por medio de `push` enviaremos nuestra 'nueva versión' a la nube. 
+- `push`: Por medio de `push` **enviaremos** nuestra nueva versión que confirmamos en el `commit` a nuestro repositorio remoto. El comando es el siguiente:
   >git push nombre-remoto master
     
-  En **nombre-remoto** pondremos el mismo nombre que le hemos asignado al momento de añadir la url de nuestro proyecto (**origin**) y seguido pondremos **master**, más adelante conoceremos el trabajo en 'ramas' que tiene Github. Las **ramas** son una copia paralela que creamos de nuestro código. Por defecto, los repositorios traen una 'rama' llamada **master** y ahora trabajaremos solo en ella así que subiremos nuestros cambios a ella especificando **master**, entonces el comando a ejecutar sería:
+  En **nombre-remoto** pondremos el mismo nombre-remoto que le hemos asignado al momento de añadir la url de nuestro proyecto (en nuestro caso sería **origin**) y seguido pondremos **master**, más adelante conoceremos el trabajo en 'ramas' que tiene Github. Las **ramas** son una copia paralela que podemos crear de nuestro código. Por defecto, los repositorios traen una 'rama' llamada **master** y ahora trabajaremos solo en ella, así que subiremos nuestros cambios a ella especificando **master** como el nombre de la rama a la que queremos subir nuestra versión, entonces el comando a ejecutar sería:
   >git push origin master
   
-- `status`: Con `status` podremos ver qué archivos se han modificado, qué archivos no y qué archivos no están siendo rastreados por Git. El comando para ver el 'estado' de nuestro repositorio local es:
+- `status`: Con `status` conoceremos el estado de los archivos de nuestro repositorio local.
+  Es decir, nos dirá si existe un archivo que se ha modificado y no se ha actualizado en el repositorio remoto o si hay un archivo que todavía no se "sube" y nos informará si se encuentra en nuestro working directoy o staging area. Este comando nos resultará muy útil para determinar qué archivos debemos declararlos como "preparados" (por medio del comando `add`) y luego "confirmarlos" en la nueva versión (por medio del comando `commit`) que subiremos a nuestro repositorio remoto. El comando para ver el estado de nuestro repositorio local es:
   >git status
 
 - `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que tengamos registrado en el repositorio remoto.
@@ -251,7 +254,5 @@ A continuación tienes una lista de los comandos más comunes que usarás Y MAS 
 Ahora veamos cómo Michelle utiliza Git y Github para manejar el control de versiones de sus proyectos y colaborar con otras profesoras de Laboratoria.
 
 [![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
-
-En el anterior video hemos visto cómo podemos hacer con Git y Github maravillas. Hemos creado un proyecto y lo trabajamos colaborativamente sin necesidad de tener que depender del otro miembro para poder avanzar. 
 
 [Continuar](03-recap-intro.md)
