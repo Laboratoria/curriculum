@@ -40,11 +40,26 @@ extraído del curso de [paradigmas de programación](https://github.com/Laborato
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
   **branches**, **forks** y **pull requests**
 
+## Detalles logísticos
+
+[TODO: Esto debería de ser autocomputado en base a contenido de unidades]
+
+Cuántas horas a `ritmo-propio` (self-paced) y cuántas horas `presenciales`
+estimas?
+
+* Ritmo propio: x hrs
+* Presencial: y hrs
+* Total horas: z
+
 ## Producto
 
 Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
 desarrollar durante el curso, junto con la metodología de trabajo propuesta
 así como entregables y método de evaluación.
+
+## Guía de preguntas y conceptos clave
+
+[TODO]
 
 ## Syllabus
 

@@ -58,7 +58,3 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 * [ ] ¿Qué sucede cuando una función tiene varios valores de `return`?
 * [ ] ¿Por qué podemos resolver problemas más complejos sabiendo `estructuras
   condicionales`,  `estructuras repetitivas` y `funciones`? Dame un ejemplo
-
-***
-
-[Continuar](01-self-learning-1/README.md)
