@@ -76,7 +76,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 ### Lección 02: [Entorno y metodología de trabajo](02-env)
 
-1h (presencial)
+45min (presencial)
 
 Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
 acceso al repo, su propio fork, ...
@@ -85,10 +85,12 @@ acceso al repo, su propio fork, ...
 
 | Orden | Tipo     | Duración | Descripción
 |-------|----------|----------|-------------
-|   1   | workshop |   20min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
+|   1   | workshop |   30min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
+|   2   | workshop |   15min  | [Entorno: Node.js + npm](02-env/00-node+npm.com)
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
+<<<<<<< HEAD
 30min (presencial)
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
@@ -101,13 +103,32 @@ a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 |   2   | lectura |   Xmin   | [Template Strings](03-es6/01-template-strings.md)
 |   3   | lectura |   Xmin   | [Destructuring](03-es6/02-destructuring.md)
 |   4   | lectura |   Xmin   | [Arrow Functions](03-es6/03-arrow-functions-lexical-scope.md)
+=======
+45min (presencial)
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 
+JavaScript es el lenguaje de programación, pero la especificación (estándar) del
+lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
+de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
+
+| Orden | Tipo      | Duración | Descripción
+|-------|-----------|----------|-------------
+|   1   |  lectura  |   3min   | [ECMAScript 2015](03-es6/00-overview.md)
+|   2   |  lectura  |   5min   | [Block Scoped Declarations](03-es6/01-block-scoped-declarations.md)
+|   3   |  lectura  |   5min   | [Template Strings](03-es6/02-template-strings.md)
+|   4   |  workshop |   10min  | [Ejercicios](03-es6/03-exercises.md)
+|   5   |  lectura  |   5min   | [Destructuring](03-es6/04-destructuring.md)
+|   6   |  lectura  |   7min   | [Arrow Functions](03-es6/05-arrow-functions.md)
+|   7   |  workshop |   10min  | [Ejercicios](03-es6/06-exercises.md)
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
 
 1.0h (self-paced)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
@@ -119,9 +140,13 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   2   | lectura |   15min   | [Control de Flujo](04-foundations/01-control-flow.md)
 |   2   | lectura |   10min   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
 
-
 ### Lección 05: [Funciones](05-functions)
 
+<<<<<<< HEAD
+### Lección 05: [Funciones](05-functions)
+
+=======
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 1hr (presencial)
 
 Veremos a profundidad el tema de funciones, aprovechando que JavaScript tiene
@@ -147,9 +172,15 @@ estructura de datos que veremos como sacar provecho de ellas.
 |-------|------- |---------- |-------------
 |   1   |lectura |   20min   | [Objetos](#)
 |   2   |lectura |   15min   | [Arreglos](#)
+<<<<<<< HEAD
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
+=======
+
+### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
+
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 30min (self-paced)
 
 El manejo de errores es importante dentro de todo desarrollo de software, y mas
@@ -204,7 +235,6 @@ consideraciones para el encapsulamiento de código a través de la creación de
 |   2   |      |   Xmin   | [Manejo del DOM](#)
 |   3   |      |   Xmin   | [CSS](#)
 |   4   |      |   Xmin   | [Creación de Plugin](#)
-
 
 ## Autor(es) / Colaboradores
 
