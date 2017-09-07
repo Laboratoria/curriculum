@@ -2,9 +2,12 @@
 
 ## ¿Qué es y para qué sirve?
 
-`JSX` es una extensión al lenguage JavaScript, que agrega estructuras sintácticas que nos permiten trabajar mas facilmente y de una manera más natural con el código de `React`.
+`JSX` es una extensión al lenguage JavaScript, que agrega estructuras
+sintácticas que nos permiten trabajar más fácilmente y de una manera más natural
+con el código de `React`.
 
-Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural como escribir `HTML`.
+Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural
+como escribir `HTML`.
 
 ## Migrando a JSX
 
@@ -54,7 +57,7 @@ ReactDOM.render(
 );
 ```
 
-Muchos mas elegante, ¿verdad?
+Mucho más elegante, ¿verdad?
 
 ## Expresiones
 
@@ -66,7 +69,7 @@ return (
   // ...
     <h2>{titulo}</h2>
   // ...
-)  
+)
 ```
 
 Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`, `formatDate(new Date())`
@@ -78,25 +81,35 @@ Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`, `formatDat
 
 ## Ejercicio: Migrar a `JSX`
 
-Nuestro primer paso será configurar nuestra página, para que comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para que `babel` entienda que es su responsabilidad procesarlo.
+Nuestro primer paso será configurar nuestra página, para que comience a entender
+`JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir
+una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y
+crearemos nuestro `script`, con una anotación especial, para que `babel`
+entienda que es su responsabilidad procesarlo.
 
 Entoces, necesitamos agregar la siguiente dependencia
+
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
 ```
 
 Y anotar nuestro tag `script`, como type `text/babel`
+
 ```html
 <script type="text/babel">
   // aqui el codigo de tus componentes
 </script>
 ```
 
-Si refrescas tu página, nada debería haber cambiado, ya que todo el código ES5 es compatible con ES6.
+Si refrescas tu página, nada debería haber cambiado, ya que todo el código ES5
+es compatible con ES6.
 
-Terminada la configuración, ahora nuestra tarea será deshacernos de todas las referencias a `React.DOM` y las llamadas directas a nuestros componentes, reemplazando todas ellas por código `JSX`.
+Terminada la configuración, ahora nuestra tarea será deshacernos de todas las
+referencias a `React.DOM` y las llamadas directas a nuestros componentes,
+reemplazando todas ellas por código `JSX`.
 
 Entonces, por ejemplo, el siguiente código
+
 ```javascript
 function Header(props) {
   return DOM.header(null,
