@@ -164,11 +164,7 @@ Cuando haya terminado la descarga de nuestro programa comenzaremos con la instal
 ## ¿Qué es Git bash?
 Cuando terminemos de instalar `Git`, en nuestras nuevas aplicaciones encontraremos una que se llama `Git Bash`.  
 
-En el sistema operativo Windows, debido a que el Command Prompt (o consola de Windows) no es muy amigable y no soporta comandos UNIX, Git nos proporciona una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar comandos como si estuviéramos en Linux o Mac OS X.
-
-Git bash es un shell donde "git" es un comando conocido. El nombre "bash" es un acrónimo de Bourne Again Shell, Git bash es una herramienta de línea de comandos.  
-
-Aquí puedes encontrar más información: [Bash (shell Unix)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+En el sistema operativo Windows, debido a que el Command Prompt (o terminal de Windows) no es muy amigable y no soporta comandos UNIX, Git nos proporciona una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar comandos como si estuviéramos en Linux o Mac OS X. Por lo tanto, Git Bash será la "línea de comando" que utilizaremos cuando trabajemos con Git.
 
 ## ¿Cómo configuramos Git?
 Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro entorno de `Git`.
@@ -183,7 +179,7 @@ Lo primero que debemos de hacer es establecer nuestro **username** y **direcció
 
 Ahora nosotras vamos configurar nuestro entorno de `Git`:
 
-Primero debemos de acceder a nuestra terminal `git bash` (debemos buscarla entre nuestras aplicaciones y abrirla) y por medio de los siguientes comandos la personalizaremos:
+Primero debemos de acceder a nuestra terminal `Git Bash` (debemos buscarla entre nuestras aplicaciones y abrirla) y por medio de los siguientes comandos la personalizaremos:
 
 
 - Para configurar nuestro **user name** debemos escribir la siguiente línea que debe de tener nuestros datos, y luego presionaremos la tecla 'enter':
@@ -200,9 +196,9 @@ Los datos con los que llenes las líneas anteriores deben de ser los mismo con l
 
 ## ¿Cómo usar Git y Github?
 
-Hemos leído las ventajas que nos pueden brindar Git y Github, con ellos podremos subir un repositorio local a uno remoto, trabajar con versiones, trabajar colaborativamente, etc. Ahora hagamos la 'magia' de subir nuestro `repositorio local` a uno `remoto` y trabajar colaborativamente.
+Hemos leído las ventajas que nos pueden brindar Git y Github, con ellos podremos subir un repositorio local a uno remoto, trabajar con versiones y colaborativamente, etc. Ahora hagamos la 'magia' de trabajar con Git y Github, vamos a subir nuestro `repositorio local` a uno `remoto` y trabajar colaborativamente.
 
-A continuación tienes la lista de los comandos más comunes que utilizarás trabajando con Git y Github, estos los deberás ejecutar en la ya conocida terminal `Git Bash`. Más abajo habrá un video de Michelle utilizándolos.
+A continuación tienes la lista de los comandos más comunes que utilizarás trabajando con Git y Github, estos los deberás ejecutar en la ya conocida terminal `Git Bash`. Si te sigue pareciendo muy 'teórico' no te preocupes, más abajo habrá un video de Michelle utilizándolos.
 
 - `init`: Este comando le indica a Git que comenzará a hacer seguimiento de la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El comando para iniciar el seguimiento de la carpeta sería:
   >git init
@@ -245,10 +241,10 @@ A continuación tienes la lista de los comandos más comunes que utilizarás tra
   Es decir, nos dirá si existe un archivo que se ha modificado y no se ha actualizado en el repositorio remoto o si hay un archivo que todavía no se "sube" y nos informará si se encuentra en nuestro working directoy o staging area. Este comando nos resultará muy útil para determinar qué archivos debemos declararlos como "preparados" (por medio del comando `add`) y luego "confirmarlos" en la nueva versión (por medio del comando `commit`) que subiremos a nuestro repositorio remoto. El comando para ver el estado de nuestro repositorio local es:
   >git status
 
-- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que tengamos registrado en el repositorio remoto.
+- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que tengamos registrado en el repositorio remoto. Este comando nos servirá mucho al momento de trabajar colaborativamente  porque podremos tener los avances que nuestros colaboradores han subido al repositorio remotro a nuestro repositorio local y mantenerlo actualizado. El comando para es el siguiente:
   >git pull nombre-remoto master
   
-  En nuestro caso, el comando sería:
+  En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como **origin** y la rama en la que estamos trabajando se llama **master**, el comando sería:
   >git pull origin master
   
 Ahora veamos cómo Michelle utiliza Git y Github para manejar el control de versiones de sus proyectos y colaborar con otras profesoras de Laboratoria.
