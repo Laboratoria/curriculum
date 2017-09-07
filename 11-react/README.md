@@ -190,25 +190,28 @@ A partir de ahora comienza a contar el reloj.
 
 ### Lesson 6: [HOCs y estado global](L06-hocs-global-state/index.md)
 
-1h (self-paced)
+1.5h (self-paced)
 
 Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero realmente no ofrece ningún valor diferencial en relación a otras que hacen algo parecido.
 
 En esta lección vamos a sumergirnos en lo que realmente hace a React y sus amigos, un conjunto de herramientas **único**: un nuevo patrón de diseño de aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de todo un ecosistema de herramientas.
 
-Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una sola dirección, extrayendo el estado de nuestros componentes a un estado global y disparando cambios de manera homogénea a través de acciones.
+Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una sola dirección, separando nuestros componentes en dos categorías, definiendo el estado de nuestros componentes con un estado global y disparando cambios de manera homogénea a través de acciones con `redux`.
+
+Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas de diseño e implementación de una librería de componentes con React y Redux.
 
 #### Lesson plan
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   2   | texto  |   10min  | One-direction dataflow, props y state
-|   1   | texto  |    7min  | Higher order components (HOC)
-|   2   | code   |    8min  | Ejercicio: Higher order components (HOC)
-|   5   | texto  |    7min  | `function` props (aka actions)
-|   6   | code   |    8min  | Ejercicio: Actions
-|   3   | code   |   10min  | Ejercicio de integración
-|   5   | qa     |    5min  | Re-cap
+|   1   | texto  |   10min  | Higher-order components (HOC)
+|   2   | texto  |   10min  | Redux
+|   3   | texto  |   10min  | Componentes presentacionales vs Componentes contenedores
+|   4   | texto  |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
+|   5   | texto  |   10min  | Ejercicio: Paso 2 - Versión estática
+|   6   | texto  |   10min  | Ejercicio: Paso 3 - Diseño del `state`
+|   7   | texto  |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
+|   8   | texto  |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
 
 
 ### Lesson 7: [React OOP: ciclo de vida, estado interno y refs](L07-oop/index.md)
@@ -259,16 +262,7 @@ Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y `github
 |   5   | code   |   15min  | Hands-on: Crear scripts `build` y `deploy`
 
 
-### Workshop 3: [Meetup](W03-meetup/index.md)
-
-1.5h (presencial)
-
-Para distendernos un poco del proyecto, y abrir un poco la cancha, haremos una sesión de preguntas y respuestas abiertas, donde lxs alumnxs podrán hacer preguntas sobre tecnología, pero en un ámbito general, no restringido a lo que estamos aprendiendo.
-
-Pueden ser problemas que tengan en el trabajo, en proyectos personales o mera curiosidad. Contaremos con algunos hackers senior que les darán sus impresiones y recomendaciones.
-
-
-### Workshop 4: [Proyecto React: Revisión de código y QA](W04-code-review/index.md)
+### Workshop 3: [Proyecto React: Revisión de código y QA](W03-code-review/index.md)
 
 1 (presencial)
 
@@ -277,7 +271,7 @@ Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del c
 Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos las tareas que mayor efecto tengan en nuestro producto final.
 
 
-### Workshop 5 [Tips para que tu demo sea un éxito](W05-demo-trainning/index.md)
+### Workshop 4: [Tips para que tu demo sea un éxito](W04-demo-trainning/index.md)
 
 30min (presencial)
 
@@ -286,7 +280,7 @@ Estés o no acostumbradx a hablar en público, siempre es bueno contar con algun
 Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una presentación atractiva.
 
 
-### Workshop 6: [Proyecto React: Revisión de código y QA](W06-code-review/index.md)
+### Workshop 5: [Proyecto React: Revisión de código y QA](W05-code-review/index.md)
 
 1 (presencial)
 

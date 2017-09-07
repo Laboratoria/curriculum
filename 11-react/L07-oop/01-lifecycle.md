@@ -24,7 +24,7 @@ function tick() {
 setInterval(tick, 1000);
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/gwoJZk?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/QMVPyb?editors=0010)
 
 > Fíjate que para mantener la continuidad de la actualización tenemos que usar `ReactDOM.render()` para cambiar el `output` cada vez.
 
@@ -71,7 +71,7 @@ class Reloj extends React.Component {
 }
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/zKRGpo?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/xLaeEY?editors=0010)
 
 `Reloj` ahora esta definido como class en lugar de como función. Esto nos permitirá usar funcionalidades adicionales como el estado local y los *hooks* para las diferentes fases del ciclo de vida del componente.
 
@@ -136,7 +136,7 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
   );
   ```
 
-The result looks like this:
+El resultado tiene la siguiente forma:
 
 ```js
 class Reloj extends React.Component {
@@ -146,6 +146,7 @@ class Reloj extends React.Component {
   }
 
   render() {
+    const { fecha } = this.state
     return (
       <div>
         <h1>Hola Mundo!</h1>
@@ -161,7 +162,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/KgQpJd?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/vJzMLQ?editors=0010)
 
 Ahora, vamos a hacer que `Reloj` configure su propio timer y se actualice por si mismo cada segundo.
 
@@ -260,7 +261,7 @@ class Reloj extends React.Component {
     return (
       <div>
         <h1>Hola Mundo!</h1>
-        <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+        <h2>Son las {this.state.fecha.toLocaleTimeString()}.</h2>
       </div>
     );
   }
@@ -272,7 +273,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/amqdNA?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/prOBNE?editors=0010)
 
 ## Recomendaciones para usar `state` correctamente
 
@@ -375,7 +376,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](http://codepen.io/gaearon/pen/vXdGmd?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/brxJgN?editors=0010)
 
 Como puedes ver cada `Reloj` inicia su propio timer y se actualiza de manera independiente.
 
