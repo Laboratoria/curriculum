@@ -35,6 +35,9 @@ visto que las funciones se emplean con ciertos propósitos:
 Una vez vistas las diversas aplicaciones de las funciones procedamos a dejar
 claro que significa una *función pura*.
 
+> Toda función que dados los mismos inputs siempre retorna lo mismo, y sin
+> efectos secundarios, es una _función pura_.
+
 En **programación funcional**, el comportamiento de las funciones depende de una
 y solo una cosa: los argumentos pasados explícitamente a la función. Esto quiere
 decir que si proporcionas los mismos datos como argumentos o entrada, la función
@@ -60,27 +63,31 @@ test('Should take an input string and returns it lowercased', () => {
 })
 ```
 
-> **Nota**
->
-> A lo largo del curso usaremos [Jest][] como *framework* para la ejecución de
-> pruebas unitarias. Puedes instalar **Jest** por medio de `npm` al ejecutar el
-> siguiente comando:
->
-> ```sh
-> npm install --save-dev jest
-> ```
->
-> O también puedes usar `yarn` al ejecutar:
->
-> ```sh
-> yarn add --dev jest
-> ```
->
-> Para correr las pruebas haremos:
->
-> ```sh
-> yarn run jest -- fichero.test.js
-> ```
+***
+
+NOTA:
+
+A lo largo del curso usaremos [Jest][] como *framework* para la ejecución de
+pruebas unitarias. Puedes instalar **Jest** por medio de `npm` al ejecutar el
+siguiente comando:
+
+```sh
+npm install --save-dev jest
+```
+
+O también puedes usar `yarn` al ejecutar:
+
+```sh
+yarn add --dev jest
+```
+
+Para correr las pruebas haremos:
+
+```sh
+yarn run jest -- fichero.test.js
+```
+
+***
 
 Ahora, pasemos a implementar lo especificado en nuestros casos de pruebas:
 
@@ -112,14 +119,14 @@ Parece que todo funciona como se espera. Continuemos.
 
 ## Dada la misma entrada, devuelve siempre la misma salida
 
-Con nuestra función `lowerCaser()`, puede reemplazar la llamada de la función
+Con nuestra función `lowerCaser()`, podemos reemplazar la llamada de la función
 por el resultado, y el código tendrá el mismo significado `lowerCaser('LOREM
 IPSUM')` siempre será lo mismo que `lorem ipsum` en su programa, sin importar el
-contexto, cuantas veces lo llame o cuando lo llame.
+contexto, cuántas veces lo llame o cuándo lo llame.
 
 Pero no se puede decir lo mismo de todas las funciones. Algunas funciones se
 basan en información distinta de los argumentos que se transmiten para producir
-resultados. Considere este ejemplo:
+resultados. Considera este ejemplo:
 
 ```js
 Math.random() // => 0.4011148700956255
@@ -127,12 +134,12 @@ Math.random() // => 0.8533405303023756
 Math.random() // => 0.3550692005082965
 ```
 
-A pesar que no pasamos ningún argumento en ninguna de las llamadas a la función,
-todos produjeron resultados diferentes, lo que significa que `Math.random()`
-**no es una función pura**. `Math.random()` produce un nuevo número aleatorio
-entre 0 y 1 cada vez que lo ejecutas, entonces es obvio que no se podría
-simplemente reemplazarlo por `0.4011148700956255` sin cambiar el significado del
-programa.
+A pesar de que no pasamos ningún argumento en ninguna de las llamadas a la
+función, todos produjeron resultados diferentes, lo que significa que
+`Math.random()` **no es una función pura**. `Math.random()` produce un nuevo
+número aleatorio entre 0 y 1 cada vez que lo ejecutas, entonces es obvio que no
+se podría simplemente reemplazarlo por `0.4011148700956255` sin cambiar el
+significado del programa.
 
 Eso produciría el mismo resultado cada vez que se ejecute el programa. Cuando le
 pedimos a la computadora un número aleatorio, por lo general significa que
@@ -153,7 +160,7 @@ función se reemplazó. En otras palabras, solo podría producir la salida corre
 una vez al día, y solo si se ejecuta el programa en el momento exacto en que la
 hora se reemplazó por la función.
 
-Entonces, claramente, `time()` no es como la función `lowerCaser()` .
+Entonces, claramente, `time()` no es como la función `lowerCaser()`.
 
 Una función solo es pura si, dada la misma entrada, siempre producirá la misma
 salida. Tal vez recuerdes esta regla de la clase de álgebra: los mismos valores
@@ -205,7 +212,7 @@ conocimientos acerca de su contexto y su posible historia, lo cual hace más
 difícil la corrección de errores. En la programación funcional, los efectos
 colaterales se usan con moderación.
 
-Veamos un ejemplo de efecto colateral y como podemos evitarlo.
+Veamos un ejemplo de efecto colateral y cómo podemos evitarlo.
 
 Supongamos que deseamos crear una función que concatene dos *arrays* que pueden
 contener elementos anidados, tratemos de emular el siguiente comportamiento:
@@ -316,9 +323,8 @@ Time:        1.011s
 Ran all test suites matching "concat.test.js".
 ```
 
-**Ouch!**, con esto se demuestra que nuestra **función no es pura** por ahora
-pues estamos alterando el contexto externo, lo cual es un tipo de efecto
-colateral.
+**Ouch!**, con esto se demuestra que nuestra **función no es pura**, pues
+estamos alterando el contexto externo, lo cual es un tipo de efecto colateral.
 
 El comportamiento anterior sucede porque los objetos o arreglos pasados a las
 funciones como argumento se pasan por referencia, no por copia, lo que significa
@@ -334,10 +340,10 @@ asumiendo que su estado es el original (antes de llamar a nuestra función
 preocuparnos por el impacto que tendrá dicho cambio en la lógica del programa si
 cambiamos el orden en que se han llamado las funciones. Refactorizar el código
 podría resultar en errores apareciendo aquí y allá, lo que podría arruinar la
-logica general de nuestra aplicación, y como resultado muchos clientes
+lógica general de nuestra aplicación, y como resultado muchos clientes
 disgustados.
 
-Veamos ahora como podemos corregir esta situación:
+Veamos ahora cómo podemos corregir esta situación:
 
 **concat.js.**
 
@@ -387,10 +393,27 @@ module.exports = concat
 Si ejecutas de nuevo las pruebas unitarias verás que cumplimos con todas las
 condiciones.
 
+***
+
+NOTA: Es común usar métodos como `Array#slice`, `Array#map` o `Array#filter`
+además de `Array#concat` para crear copias de arreglos. En **ES6** también
+tenemos el _spread operator_ que nos permite copiar las propiedades enumerables
+de un arreglo u objeto de esta forma:
+
+```js
+const array = [1, 2, 3];
+const arrayCopy = [...a]; // `b` es un nuevo arreglo con los elementos de `a`.
+
+const obj = { foo: 'bar' };
+const objCopy = {...obj};
+```
+
+***
+
 ## Beneficios
 
-Una vez analizadas las funciones puras podemos mencionar los siguientes
-beneficios:
+Una vez analizadas las funciones puras, volvamos a repasar los beneficios que
+ofrecen, tal como vimos en la apertura de esta unidad:
 
 * Toman ciertos argumentos como entrada y generan un valor de retorno que
   exclusivamente depende de los argumentos dados.
@@ -413,24 +436,6 @@ Por las razones antes mencionadas, recomendamos favorecer la implementación de
 funciones puras. Por lo tanto, siempre que sea práctico implementar los
 requerimientos de un programa usando funciones puras, debes darle preferencia
 sobre otras opciones.
-
-## Resumen
-
-En la programación funcional, las programadoras tienden a evitar dos hábitos
-comunes en otros lenguajes:
-
-* *Mutación:* Cambio de los datos *in-situ* en vez de retornar un valor.
-* *Estado compartido:* Contexto extra que no se provee como argumento a la
-  función, por ejemplo, variables globales.
-
-Al no depender del estado ni de las mutaciones, el comportamiento de cada
-función está contenido. Por lo tanto, es más sencillo realizar pruebas del
-comportamiento de dichas funciones, entre otra serie de beneficios.
-
-Una vez dicho todo esto, existen ocasiones donde el uso de funciones puras no es
-posible, especialmente en funciones que emplean *side-effects* para llevar a
-cabo su cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema,
-lo veremos en una siguiente lección.
 
 ## Referencias
 

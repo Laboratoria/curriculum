@@ -17,15 +17,35 @@
 
 En esta unidad veremos dos de los principios fundamentales de la programación
 funcional: cómo evitar el estado compartido usando **funciones puras** y el
-concepto de **inmutabilidad**. La duración estimada de esta unidad es de 3h.
+concepto de **inmutabilidad**. Ambos conceptos son esenciales en el paradigma
+funcional y su uso presenta un montón de beneficios, a veces sutiles, pero muy
+importantes.
+
+* Representan bloques de código reusable dentro de un programa.
+* Promueven buenas prácticas de desarrollo como [DRY][]
+  (*Don’t Repeat Yourself*) y [KISS][] (*Keep It Simple, Stupid*).
+* Al no depender del contexto externo, son inmunes a toda clase de errores o
+  *bugs* que tienen que ver con el estado mutable compartido.
+* Su naturaleza independiente las hace excelentes candidatos para procesamiento
+  concurrente a lo largo de muchos CPUs e incluso para la computación
+  distribuida, lo cual las hace esenciales para la ejecución de tareas de
+  cálculo científico y de uso intensivo de recursos.
+* Su aislamiento facilita la refactorización y reorganización del código,
+  haciendo tú código más adaptable y flexible a futuros cambios.
+* Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
+  puras.
+* Las funciones puras representan la base de la programación funcional.
 
 ## Entregables y evaluación
 
-* **Ejercicios** (no cuentan para la nota)
-* **Cuestionarios** (no cuentan para la nota)
-* **Code review** (20%)
-* **Proyecto** (30%)
-* **Demo** (50%)
+* **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
+  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
+  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
+  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
+  será calificada.
+* **Cuestionarios**: Al igual que los ejercicios, a lo largo de la unidad
+  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
+  para la nota final.
 
 ## Hoja de ruta
 
@@ -36,16 +56,19 @@ concepto de **inmutabilidad**. La duración estimada de esta unidad es de 3h.
 
 ### Semana 2
 
+* Pre-tarea: Lectura _Higher Order Functions_ (Unidad 03)
 * Sesión 3: presencial 3h => Higher Order Functions
 * Sesión 4: self-paced 2h => Refactorizar ???
 
 ### Semana 3
 
+* Pre-tarea: Lectura _Recursividad_ (Unidad 05)
 * Sesión 5: presencial 3h => Control de flujo (recursión y asincronía)
 * Sesión 6: self-paced 2h => Refactorizar ???
 
 ### Semana 4
 
+* Pre-tarea: Implementación, refactoring, pull request
 * Sesión 7: presencial 3h => Code review + Demos de proyectos
 * Sesión 8: self-paced 2h => Retrospectiva
 

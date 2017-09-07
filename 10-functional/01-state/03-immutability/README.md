@@ -14,17 +14,17 @@ aprovechar este concepto en JavaScript, y por qué es tan útil.
 ## ¿Qué es la inmutabilidad?
 
 La definición de mutabilidad indica que algo está sujeto a cambios o
-modificaciones. En programación, cuando decimos que un objeto es mutable se
-refiere a que está permitido modificar el estado de dicho objeto a lo largo del
-tiempo. Un valor **inmutable** indica exactamente lo opuesto, después que dicho
-valor es creado, no puede ser cambiado o alterado nunca.
+modificaciones. En programación, cuando decimos que un objeto es mutable nos
+referimos a que está permitido modificar el estado de dicho objeto a lo largo
+del tiempo. Un valor **inmutable** indica exactamente lo opuesto, después que
+dicho valor es creado, no puede ser cambiado o alterado nunca.
 
 Esto parece ser un poco extraño, pero recordemos que muchos valores que usamos
 todo el tiempo en realidad son inmutables.
 
-Ten en cuenta que pocos tipos de datos en JavaScript son inmutables por omisión.
-Las cadenas de caracteres o *strings* son un ejemplo de un tipo de dato que no
-puede ser cambiado.
+Algunos tipos de datos en JavaScript son inmutables por omisión. Las cadenas de
+caracteres o *strings* son un ejemplo de un tipo de dato que no puede ser
+cambiado.
 
 **strings.test.js.**
 
@@ -66,9 +66,8 @@ objetos y arreglos todo el tiempo!
 
 ## Inmutabilidad y su relación con la recursividad
 
-En una siguiente lección hablaremos con mayor detalle sobre recursividad. Sin
-embargo, vale acotar que es un patrón que se suele ver en la programación
-funcional.
+Más adelante hablaremos con mayor detalle sobre recursividad. Sin embargo, vale
+acotar que es un patrón que se suele ver en la programación funcional.
 
 En algunos lenguajes funcionales no puedes escribir la siguiente función
 haciendo uso de mutación local:
@@ -116,129 +115,9 @@ summRec(range(11))
 
 Cuando usamos recursividad, el cambio de estado es modelado por medio de los
 argumentos pasados en la función recursiva. JavaScript permite el manejo del
-estado de manera recursiva, pero tiene ciertos límites que veremos en la
-siguiente lección. Lo importante es hacer notar que existe cierta relación entre
-la recursividad y la inmutabilidad de las variables locales.
-
-## Object.freeze() y clone
-
-Dado que JavaScript pasa _arrays_ y objetos por referencia, nada en realidad es
-inmutable en estos casos. También, dado que los campos o propiedades de los
-objetos en JavaScrit son siempre visibles, no hay una manera sencilla de
-hacerlos inmutables. Existen maneras de ocultar datos usando encapsulación para
-evitar cambios accidentales, pero en líneas generales, todos los objetos en
-JavaScrit son mutables, a menos que sean congelados.
-
-Versiones recientes de JavaScript proveen el método `Object#freeze`, que dado un
-objeto o _array_, causará que las siguientes mutaciones fallen. En el caso de
-estar usando el modo estricto, la falla generará una excepción `TypeError`, de
-lo contrario, cualquier mutación fallará silenciosamente.
-
-El método `freeze` funciona como sigue a continuación:
-
-```js
-let a = [1, 2, 3]
-a[1] = 42
-a // => [1, 42, 3]
-
-Object.freeze(a)
-```
-
-Un _array_ normal es mutable por omisión, pero después de llamar a
-`Object#freeze`, lo que ocurre es lo siguiente:
-
-```js
-a[1] = 108
-a // => [1, 42, 3]
-```
-
-Esto es, la mutación que se intentó hacer sobre el _array_ no tuvo efecto.
-También podemos hacer uso del método `Object#isFrozen` para verificar si el
-_array_ está congelado:
-
-```js
-Object.isFrozen(a)
-// => true
-```
-
-Existen dos problemas al usar `Object#freeze` para asegurar inmutabilidad.
-
-* A menos que tengas completo control de la base de código del proyecto, algunos
-  errores podrían ocurrir.
-* El método `Object#freeze` es _shallow_.
-
-En el primer punto podríamos argumentar que otras compañeras de trabajo podrían
-asumir por ejemplo que el objeto o _array_ es mutable, cuando no es así. También
-podríamos considerar que una biblioteca que uses explota la mutabilidad de los
-objetos o _arrays_. Por lo tanto, congelar objetos y pasarlos a otras APIs
-arbitrarias podría ser causa de problemas.
-
-Ahora bien, el otro argumento en contra de `Object#freeze` es una operación
-_shallow_. Esto es, `freeze` solo aplicará en el nivel superior de la estructura
-de datos y no recorrerá niveles anidados. Por ejemplo:
-
-```js
-let x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
-
-Object.freeze(x)
-
-x[0] = ''
-x
-// => [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
-```
-
-El intento de modificación del _array_ falla. Sin embargo, realizar una mutación
-de una porción anidada dentro de dicho arreglo es posible:
-
-```js
-x[1]['c']['d'] = 100000
-x
-// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: 100000 } } ]
-```
-
-Para aplicar un congelamiento profundo sobre un objecto, tendremos que usar
-recursión para recorrer la estructura de datos:
-
-```js
-const _ = require('lodash')
-
-const deepFreeze = obj => {
-  if (!Object.isFrozen(obj)) {
-    Object.freeze(obj)
-  }
-
-  for (const key in obj) {
-    if (!obj.hasOwnProperty(key) || !_.isObject(obj[key])) {
-      continue
-    }
-    deepFreeze(obj[key])
-  }
-}
-```
-
-Ahora, podemos usar `deepFreeze` y esperar el comportamiento adecuado:
-
-```js
-const x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
-deepFreeze(x)
-x[0] = null
-x
-// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: [] } } ]
-x[1]['c']['d'] = 100000
-x
-// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: [] } } ]
-```
-
-Sin embargo, es necesario considerar de nuevo que el congelamiento de objetos
-puede generar errores al interactuar con APIs terceras. Por lo que nuestras
-opciones se ven reducidas a las siguientes:
-
-* Usar `_.clone` si conoces de antemano que un _shallow_ copy es apropiado
-* Crear `deepClone` (similar a la función `deepFreeze`) para hacer copias de
-  estructuras de datos anidadas
-* Construir tú código basado en funciones puras
-* Usar bibliotecas externas que te permitan manejar estructuras de datos
-  inmutables
+estado de manera recursiva, pero tiene ciertos límites que veremos más adelante.
+Lo importante es hacer notar que existe cierta relación entre la recursividad y
+la inmutabilidad de las variables locales.
 
 ## En JavaScript, los tipos de datos mutables abundan
 
@@ -310,7 +189,131 @@ firstOrder.get('details') // => 'espresso macchiato'
 newOrder.get('details') // => 'doppio'
 ```
 
-## Acerca del rendimiento
+***
+
+## Lecturas complementarias
+
+### Object.freeze() y clone
+
+Dado que JavaScript pasa _arrays_ y objetos por referencia, nada en realidad es
+inmutable en estos casos. También, dado que los campos o propiedades de los
+objetos en JavaScrit son siempre visibles, no hay una manera sencilla de
+hacerlos inmutables. Existen maneras de ocultar datos usando encapsulación para
+evitar cambios accidentales, pero en líneas generales, todos los objetos en
+JavaScrit son mutables, a menos que sean congelados.
+
+Versiones recientes de JavaScript proveen el método `Object#freeze`, que dado un
+objeto o _array_, causará que las siguientes mutaciones fallen. En el caso de
+estar usando el modo estricto, la falla generará una excepción `TypeError`, de
+lo contrario, cualquier mutación fallará silenciosamente.
+
+El método `freeze` funciona como sigue a continuación:
+
+```js
+let a = [1, 2, 3]
+a[1] = 42
+a // => [1, 42, 3]
+
+Object.freeze(a)
+```
+
+Un _array_ normal es mutable por omisión, pero después de llamar a
+`Object#freeze`, lo que ocurre es lo siguiente:
+
+```js
+a[1] = 108
+a // => [1, 42, 3]
+```
+
+Esto es, la mutación que se intentó hacer sobre el _array_ no tuvo efecto.
+También podemos hacer uso del método `Object#isFrozen` para verificar si el
+_array_ está congelado:
+
+```js
+Object.isFrozen(a)
+// => true
+```
+
+Existen dos problemas al usar `Object#freeze` para asegurar inmutabilidad.
+
+* A menos que tengas completo control de la base de código del proyecto, algunos
+  errores podrían ocurrir.
+* El método `Object#freeze` es _shallow_.
+
+En el primer punto podríamos argumentar que otras compañeras de trabajo podrían
+asumir por ejemplo que el objeto o _array_ es mutable, cuando no es así. También
+podríamos considerar que una biblioteca que uses explota la mutabilidad de los
+objetos o _arrays_. Por lo tanto, congelar objetos y pasarlos a otras APIs
+arbitrarias podría ser causa de problemas.
+
+Ahora bien, el otro argumento en contra de `Object#freeze` es que es una
+operación _shallow_. Esto es, `freeze` solo aplicará en el nivel superior de la
+estructura de datos y no recorrerá niveles anidados. Por ejemplo:
+
+```js
+let x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
+
+Object.freeze(x)
+
+x[0] = ''
+x
+// => [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
+```
+
+El intento de modificación del _array_ falla. Sin embargo, realizar una mutación
+de una porción anidada dentro de dicho arreglo es posible:
+
+```js
+x[1]['c']['d'] = 100000
+x
+// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: 100000 } } ]
+```
+
+Para aplicar un congelamiento profundo sobre un objecto, tendremos que usar
+recursión para recorrer la estructura de datos:
+
+```js
+const _ = require('lodash')
+
+const deepFreeze = obj => {
+  if (!Object.isFrozen(obj)) {
+    Object.freeze(obj)
+  }
+
+  for (const key in obj) {
+    if (!obj.hasOwnProperty(key) || !_.isObject(obj[key])) {
+      continue
+    }
+    deepFreeze(obj[key])
+  }
+}
+```
+
+Ahora, podemos usar `deepFreeze` y esperar el comportamiento adecuado:
+
+```js
+const x = [{a: [1, 2, 3], b: 42}, {c: {d: []}}]
+deepFreeze(x)
+x[0] = null
+x
+// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: [] } } ]
+x[1]['c']['d'] = 100000
+x
+// => [ { a: [ 1, 2, 3 ], b: 42 }, { c: { d: [] } } ]
+```
+
+Sin embargo, es necesario considerar de nuevo que el congelamiento de objetos
+puede generar errores al interactuar con APIs terceras. Por lo que nuestras
+opciones se ven reducidas a las siguientes:
+
+* Usar `_.clone` si conoces de antemano que un _shallow_ copy es apropiado
+* Crear `deepClone` (similar a la función `deepFreeze`) para hacer copias de
+  estructuras de datos anidadas
+* Construir tú código basado en funciones puras
+* Usar bibliotecas externas que te permitan manejar estructuras de datos
+  inmutables
+
+### Acerca del rendimiento
 
 Puedes pensar que al usar estructuras de datos inmutables estás afectando
 sobremanera el rendimiento de tú aplicación y puede que tengas razón. Siempre
@@ -380,7 +383,7 @@ En este caso, dado que una referencia se retorna al realizar una mutación sobre
 nuevo valor se ha almacenado en `y` y es diferente al original almacenado en
 `x`. Esto puede implicar un incremento significativo en el rendimiento.
 
-### Referencias
+## Referencias
 
 * [Object.freeze()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 * [Immutability in JavaScript](https://www.sitepoint.com/immutability-javascript/)

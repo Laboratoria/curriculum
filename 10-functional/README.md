@@ -160,6 +160,26 @@ estimada de esta unidad es de _2h_.
 
 ***
 
+## Entregables y evaluación
+
+* **Ejercicios**: Durante el curso completarás varios ejercicios en el LMS.
+  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
+  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
+  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
+  será calificada.
+* **Cuestionarios**: Al igual que los ejercicios, a lo largo del curso
+  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
+  para la nota final.
+* **Proyecto**: Antes de la sesión de _code review_ y las demos, cada alumna
+  debe entregar (via pull request) el código de su proyecto. El proyecto incluye
+  refactorizar varios módulos de una base de código existente.
+* **Code review**: **(50%)** La última semana del curso tendrás una sesión de
+  _code review_ con uno de lxs instructorxs. En esta sesión se revisará el
+  código del proyecto así como uno o dos ejercicios realizados durante el curso.
+* **Demo**: **(50%)** El curso cerrará con una demo en la que tendrás que
+  presentar al resto de la clase el trabajo realizado y lo aprendido en el
+  proyecto.
+
 ## Autor(es) / Colaboradores
 
 * Milton Mazzarri (autor)
