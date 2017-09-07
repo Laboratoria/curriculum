@@ -1,7 +1,7 @@
 # Título
 
 * Tipo: `lectura`
-* Formato: `ritmo-propio`
+* Formato: `self-paced`
 * Duración: `30min`
 
 ## Objetivos de Aprendizaje

@@ -40,26 +40,11 @@ extraído del curso de [paradigmas de programación](https://github.com/Laborato
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
   **branches**, **forks** y **pull requests**
 
-## Detalles logísticos
-
-[TODO: Esto debería de ser autocomputado en base a contenido de unidades]
-
-Cuántas horas a `ritmo-propio` (self-paced) y cuántas horas `presenciales`
-estimas?
-
-* Ritmo propio: x hrs
-* Presencial: y hrs
-* Total horas: z
-
 ## Producto
 
 Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
 desarrollar durante el curso, junto con la metodología de trabajo propuesta
 así como entregables y método de evaluación.
-
-## Guía de preguntas y conceptos clave
-
-[TODO]
 
 ## Syllabus
 
@@ -86,12 +71,12 @@ _unidad_. Algo como esto:
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
 | 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | ritmo-propio | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | code | ritmo-propio | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | ritmo-propio | 15min | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
+| 01 | lectura | self-paced | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
+| 02 | práctica | self-paced | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
+| 03 | quiz | self-paced | 15min | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
 | 04 | seminario | guiado | 60min | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
 | 05 | taller | guiado | 60min | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | ritmo-propio | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
+| 06 | quiz | self-paced | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
 | 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
 
 ### Unidad 02: [Taller de implementación 1 - Proyecto](#)
@@ -111,14 +96,14 @@ esto:
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | ritmo-propio | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | ritmo-propio | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | code | ritmo-propio | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | ritmo-propio | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
+| 00 | lectura | self-paced | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
+| 01 | lectura | self-paced | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
+| 02 | práctica | self-paced | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
+| 03 | quiz | self-paced | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
 | 04 | seminario | guiado | Xmin | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
 | 05 | seminario | guiado | Xmin | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | ritmo-propio | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | lectura | ritmo-propio | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
+| 06 | quiz | self-paced | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
+| 07 | lectura | self-paced | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
 
 ### Unidad 04: [Taller de implementación 2 - Proyecto](#)
 
