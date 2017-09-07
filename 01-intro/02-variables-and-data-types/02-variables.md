@@ -2,15 +2,18 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender qué son _variables_ y su utilidad
-- Conocer las buenas prácticas de nombramiento de variables
+- Aprender qué son _variables_ y su utilidad.
+- Conocer las buenas prácticas de nombramiento de variables.
 
 ***
 
+<!-- links_blank
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
+capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io).
+-->
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 2 de <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>,de Marijn Haverbeke, 2014. Traducción en <a href="http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html" target="_blank">Español</a> disponible gracias a <a href="http://hectorip.github.io" target="_blank">hectorip</a>.
 
 ***
 

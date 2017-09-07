@@ -1,17 +1,16 @@
 # Bienvenida y orientación
 
-¡Hola! Antes que nada, ¡¡queremos felicitarte por haber pasado exitosamente el examen!! Ahora, te damos la bienvenida al siguiente paso del proceso de selección: el pre-trabajo. Esta etapa consiste en realizar el curso **01. Introducción a la programación (con JavaScript)** de Laboratoria, que es el punto de inicio ideal para cualquiera que quiera aprender a programar con nosotros durante el Bootcamp.
+Hola y bienvenida a la tercera etapa del proceso de selección: el pre-trabajo. Debes sentirte muy orgullosa de estar dispuesta a invertir tu tiempo y esfuerzo para completar una de las etapas más importantes del proceso. Esta etapa consiste en realizar el curso **01. Introducción a la programación (con JavaScript)** de Laboratoria, que es el punto de inicio ideal para aprender a programar. Aquí empezamos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
-En un mundo que rápidamente se está digitalizando, aprender a programar abre nuevas y mejores oportunidades. Con este curso darás tus primeros pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
+Este curso es un paso fundamental del proceso de selección, pues nos permitirá comprobar tu interés por la tecnología, así como tu compromiso para pertenecer al programa. Además, analizaremos tu capacidad para aprender de manera individual e independiente.
 
-Este curso es un paso fundamental del proceso de selección, pues nos permitirá comprobar tu interés por la tecnología, así como también tu compromiso y perseverancia para pertenecer al programa. Además, analizaremos tu capacidad para aprender de manera individual e independiente.
-La duración aproximada del curso es de 20-30 horas, podrás avanzar a tu propio ritmo. Por ello, te recomendamos organizarte con tiempo para que vayas haciéndolo poco a poco. Tendrás hasta el **29 de julio** para terminar.
+La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu propio ritmo, pero te recomendamos organizarte con tiempo para que vayas haciéndolo poco a poco. Tendrás hasta el **jueves 3 de agosto** para terminar.
 
-Para pasar a la siguiente fase del proceso de selección es necesario que completes todo el pre-trabajo. Las postulantes que demuestren un mayor compromiso y potencial para aprender pasarán al periodo de pre-admisión, donde continuaremos con el curso de modo presencial, para que así puedan demostrarnos todo lo que ya dominan y pueden hacer!
+Para pasar a la siguiente etapa del proceso de selección es necesario que completes todo el pre-trabajo. Las postulantes que demuestren el mayor compromiso y potencial para aprender, serán invitadas a iniciar el periodo de pre-admisión, donde continuaremos con este curso de modo presencial. Será una buena oportunidad para demostrar todo lo que ya dominan y saben hacer.
 
 ## Acompañamiento y puntos de apoyo
 
-No te asustes, porque no estás sola, nosotros queremos acompañarte en este proceso y por ello te brindamos tres (3) opciones a través de las cuales podremos apoyarte durante el curso:
+Recuerda que no estás sola en este proceso. Nosotros te estaremos acompañando a cada paso a través de varios canales de apoyo a lo largo del curso:
 
 <!--
 ## Descargar y cuentas
@@ -29,44 +28,51 @@ Video de Michelle explicando las descargas.
 
 ### 1. Grupo de Facebook
 
-Te invitamos a unirte al grupo de facebook de la sede a la que estás postulando, donde podrás preguntar y resolver dudas en conjunto con las demás postulantes y con el staff de profesores de Laboratoria.
+Únete al grupo de Facebook correspondiente a la sede a la que estás postulando. Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con el apoyo del staff de profesores de Laboratoria.
 
-En Laboratoria creemos mucho en la investigación individual y también en el apoyo en grupo. Lo importante es que individualmente entiendas lo que vas haciendo, así te apoyes en tus compañeras o amigas. Además, recuerda que la mejor manera de aprender es enseñar! No dejes de compartir tus conocimientos con tus compañeras.
-
+<!-- links_blank
 * [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
 * [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
 * [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
+-->
+* <a href="https://facebook.com/groups/LaboratoriaLima20172/" target="_blank">Lima</a>
+* <a href="https://facebook.com/groups/LaboratoriaMX20172/" target="_blank">Ciudad de México</a>
+* <a href="https://facebook.com/groups/LaboratoriaCHILE20172/" target="_blank">Santiago de Chile</a>
 
 ### 2. Horas de consulta
 
-Queremos que sepas que puedes contar con nosotros, pues nuestro principal objetivo es que aprendas. Te invitamos a las horas de consulta presenciales en Laboratoria, donde podrás recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te preocupes, pues transmitiremos estas sesiones por Facebook live y luego subiremos los videos a los grupos.
+Cada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te preocupes, vamos a transmitir estas sesiones por Facebook Live para que puedas verlas en línea. Luego también subiremos los videos a los grupos para que puedas volver a verlos cuantas veces necesites.
+
 Las horas de consulta por sede son las siguientes:
 
 * Lima:
-  - Viernes 14 de julio de 6pm a 8pm
-  - Viernes 21 de julio de 6pm a 8pm
-  - Miércoles 26 de julio de 6pm a 8pm
-* México:
-  - Viernes 14 de julio de 5pm a 7pm
-  - Miércoles 19 de julio de 5pm a 7pm
-  - Miércoles 26 de julio de 5pm a 7pm
-* Santiago de Chile:
-  - Jueves 13 de julio de 6pm a 8pm
-  - Jueves 20 de julio de 6pm a 8pm
-  - Jueves 27 de julio de 6pm a 8pm
+  - Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.
+  - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
+  
+* México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:
+  - Lunes 24 de julio de 5pm a 7pm.
+  - Miércoles 26 de julio de 5pm a 7pm.
+  
+* Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:
+  - Jueves 20 de julio de 4pm a 6pm.
+  - Jueves 27 de julio de 4pm a 6pm.
+  - Martes 1 de agosto de 4pm a 6pm.
 
-### 3. Punto principal de contacto
+### 3. Correo
 
-Creemos que con el grupo de facebook y las horas de consulta, estarás muy bien acompañada por nuestros profesores y por todas las postulantes, y que por ambos canales lograrás resolver todas tus dudas.
+Si no logras resolver tus dudas a través de Facebook o de las horas de consulta, también tendrás la opción de escribirle directamente a nuestro staff de profesores para resolver dudas puntuales. Trata de utilizar esta opción como último recurso ya que mientras más correos recibamos, más nos tardaremos en responderlos.
 
-De todas maneras, te brindamos puntos principales de contacto por sede, para que puedas realizar consultas excepcionales e importantes que no puedas solucionar por los otros medios.
+Los contactos para cada sede, son los siguientes: 
 
 * Lima:
   - Michelle Seguil, michelle@laboratoria.la
-* México:
+  - Arabela Rojas, arabela@laboratoria.la
+  
+* Ciudad de México:
   - Jonathan Parra, jonathan@laboratoria.la
   -	Adoración Cid, adoracion@laboratoria.la
   - Grissel Rocha, grissel@laboratoria.la
+  
 * Santiago de Chile:
   - Allison Guzmán: allison@laboratoria.la
   - Belén Recabal: belen@laboratoria.la
@@ -92,16 +98,16 @@ El propósito de este curso es darte una idea de qué se trata el mundo del desa
 
 ### Aprenderás
 
-- Entender qué es la programación y por qué aprender a programar
-- Entender qué es JavaScript y por qué aprenderlo
-- Tener un primer acercamiento al mundo del código, creando tu primera página web
-- A darle dinamismo a tu web utilizando JavaScript
-- Algunos conceptos básicos de programación como: variables, tipos datos y operadores
+- Entender qué es la programación y por qué aprender a programar.
+- Entender qué es JavaScript y por qué aprenderlo.
+- Tener un primer acercamiento al mundo del código, creando tu primera página web.
+- A darle dinamismo a tu web utilizando JavaScript.
+- Algunos conceptos básicos de programación como: variables, tipos datos y operadores.
 
 ### Duración
 
-* Total: 20-30 horas.
-* Modalidad: Self-paced (a tu propio ritmo - online)
+* Total: 15-20 horas.
+* Modalidad: Self-paced (a tu propio ritmo - online).
 
 ### Requerimientos previos
 
@@ -117,11 +123,11 @@ Queremos motivarte a aprender a programar, y por ello te brindaremos más inform
 
 | # | Tipo | Tópico
 | - | ----- | -----
-| 00 | lectura | Bienvenida y orientación
-| 01 | lectura | ¿Qué es la programación y porqué aprender a programar?
-| 02 | lectura | Growth Mindset
-| 03 | lectura | Tu primera página web
-| 04 | quiz | Prueba tu conocimiento
+| 00 | Lectura | Bienvenida y orientación
+| 01 | Lectura | Growth Mindset
+| 02 | Lectura | ¿Qué es la programación y porqué aprender a programar?
+| 03 | Lectura | Tu primer sitio web
+| 04 | Quiz | Prueba tu conocimiento
 
 ### Módulo 2: Variables y tipos de datos
 
@@ -129,12 +135,12 @@ El segundo módulo entrará a más detalle en algunos conceptos base de la progr
 
 | # | Tipo | Tópico
 | - | ----- | -----
-| 01 | lectura | Valores, tipos de datos y operadores
-| 02 | lectura | Variables
-| 03 | lectura | Manipulando `strings` y `numbers`
-| 04 | lectura | Comentarios en JavaScript
-| 05 | video | Practicando con ejercicios de variables y tipos de datos
-| 06 | quiz | Prueba tu conocimiento
+| 01 | Lectura | Valores, tipos de datos y operadores
+| 02 | Lectura | Variables
+| 03 | Lectura | Manipulando `strings` y `numbers`
+| 04 | Lectura | Comentarios en JavaScript
+| 05 | Video | Practicando con ejercicios de variables y tipos de datos
+| 06 | Quiz | Prueba tu conocimiento
 
 ***
 

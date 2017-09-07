@@ -141,7 +141,7 @@ metodología de aprendizaje, requisitos previos y metodología de evaluación.
 |-------|------------|----------|------------
 |   1   | charla     |   15min  |
 
-### Lesson 1: [Intro a React](01-L01-intro/index.md)
+### Lesson 1: [Intro a React](L01-intro/index.md)
 
 60min (self-paced)
 
@@ -160,33 +160,56 @@ Analizaremos su "propuesta", estructura y herramientas básicas.
 |   3   | code   |   20min  | Ejercicio: Nuestra primera interfaz
 |   4   | qa     |   15min  | Re-cap
 
-### Lesson 2: [JSX, Babel y Webpack](02-L02-jsx-babel-webpack/index.md)
+### Lesson 2: [JSX](L02-jsx/index.md)
 
-60min (self-paced)
+40min (self-paced)
 
 React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es
 muy engorroso. Es por eso que React usa JSX como su `templating language` por
 defecto.
 
 En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué es
-una pieza fundamental de `React` y qué es y qué papel juega `babel` en todo
-esto. Además construiremos nuestros primeros componentes "de verdad" e
-instalaremos algunas herramientas que nos permitan debuggear y estructurar mejor
-nuestro código.
+una pieza fundamental de `React`. Además construiremos nuestros primeros
+componentes "de verdad".
 
 #### Lesson plan
 
 | Orden |     Tipo      | Duración | Descripción
 |-------|---------------|----------|------------
 |   1   | texto         |    5min  | Intro
-|   2   | texto + code  |   10min  | JSX
-|   3   | texto + code  |   10min  | Babel
-|   4   | texto + code  |    5min  | JSX Externo
-|   5   | texto + code  |   10min  | Precompile
-|   6   | texto + code  |   15min  | Webpack
-|   7   | texto + code  |   10min  | Modularización
+|   2   | texto + code  |   10min  | Basics and expressions
+|   3   | texto + code  |   10min  | Renderizado condicional
+|   4   | texto + code  |   10min  | Listas y `key`s
 
-### Lesson 3: [Componentes (`stateless`) y sus `props`](03-L03-props/index.md)
+### Lesson 3: [Babel](L03-babel/index.md)
+
+30min (self-paced)
+
+...
+
+#### Lesson plan
+
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto + code  |   10min  | Babel basics
+|   2   | texto + code  |    5min  | JSX Externo
+|   3   | texto + code  |   10min  | Precompile
+
+
+### Lesson 4: [Webpack](L04-webpack/index.md)
+
+30min (self-paced)
+
+...
+
+#### Lesson plan
+
+| Orden |     Tipo      | Duración | Descripción
+|-------|---------------|----------|------------
+|   1   | texto + code  |   15min  | Webpack config
+|   2   | texto + code  |   10min  | Modularización
+
+### Lesson 5: [Componentes (`stateless`) y sus `props`](L05-props/index.md)
 
 50min (self-paced)
 
@@ -208,7 +231,7 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 |   4   | code   |   10min  | Ejercicio: usando `children`
 |   5   | qa     |   10min  | Re-cap
 
-### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](04-W01-kickstart/index.md)
+### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](#)
 
 2h (presencial)
 
@@ -226,9 +249,9 @@ solicitudes de recomendaciones.
 
 A partir de ahora comienza a contar el reloj.
 
-### Lesson 4: [HOCs y estado global](05-L04-hoc/index.md)
+### Lesson 6: [HOCs y estado global](L06-hocs-global-state/index.md)
 
-1h (self-paced)
+1.5h (self-paced)
 
 Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero
 realmente no ofrece ningún valor diferencial en relación a otras que hacen algo
@@ -240,22 +263,27 @@ aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento d
 todo un ecosistema de herramientas.
 
 Veremos cómo diseñar nuestras aplicaciones orientadas al flujo de datos en una
-sola dirección, extrayendo el estado de nuestros componentes a un estado global
-y disparando cambios de manera homogénea a través de acciones.
+sola dirección, separando nuestros componentes en dos categorías, definiendo el
+estado de nuestros componentes con un estado global y disparando cambios de
+manera homogénea a través de acciones con `redux`.
+
+Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas
+de diseño e implementación de una librería de componentes con React y Redux.
 
 #### Lesson plan
 
 | Orden |  Tipo  | Duración | Descripción
 |-------|--------|----------|------------
-|   2   | texto  |   10min  | One-direction dataflow, props y state
-|   1   | texto  |    7min  | Higher order components (HOC)
-|   2   | code   |    8min  | Ejercicio: Higher order components (HOC)
-|   5   | texto  |    7min  | `function` props (aka actions)
-|   6   | code   |    8min  | Ejercicio: Actions
-|   3   | code   |   10min  | Ejercicio de integración
-|   5   | qa     |    5min  | Re-cap
+|   1   | texto  |   10min  | Higher-order components (HOC)
+|   2   | texto  |   10min  | Redux
+|   3   | texto  |   10min  | Componentes presentacionales vs Componentes contenedores
+|   4   | texto  |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
+|   5   | texto  |   10min  | Ejercicio: Paso 2 - Versión estática
+|   6   | texto  |   10min  | Ejercicio: Paso 3 - Diseño del `state`
+|   7   | texto  |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
+|   8   | texto  |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
 
-### Lesson 5: [React OOP: ciclo de vida, estado interno y refs](06-L05-oop/index.md)
+### Lesson 7: [React OOP: ciclo de vida, estado interno y refs](L07-oop/index.md)
 
 45 min (self-paced)
 
@@ -277,7 +305,7 @@ compartir un estado, sino que necesitan una referencia explícita de uno a otro.
 |   2   | texto  |   10min  | `refs`
 |   3   | code   |   20min  | Ejercicio: cuenta regresiva
 
-### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](07-W02-code-review/index.md)
+### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](#)
 
 2h (presencial)
 
@@ -292,7 +320,7 @@ Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
 hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
 aplicación verdaderamente profesional.
 
-### Lesson 6: [build y deploy scripts](08-L06-build-tools/index.md)
+### Lesson 8: [build y deploy scripts](L08-build-tools/index.md)
 
 30min (self-paced)
 
@@ -313,20 +341,7 @@ Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y
 |   1   | texto  |    5min  | Software life cycle: desarrollo, empaquetado y depliegue
 |   5   | code   |   15min  | Hands-on: Crear scripts `build` y `deploy`
 
-### Workshop 3: [Meetup](09-W03-meetup/index.md)
-
-1.5h (presencial)
-
-Para distendernos un poco del proyecto, y abrir un poco la cancha, haremos una
-sesión de preguntas y respuestas abiertas, donde lxs alumnxs podrán hacer
-preguntas sobre tecnología, pero en un ámbito general, no restringido a lo que
-estamos aprendiendo.
-
-Pueden ser problemas que tengan en el trabajo, en proyectos personales o mera
-curiosidad. Contaremos con algunos hackers senior que les darán sus impresiones
-y recomendaciones.
-
-### Workshop 4: [Proyecto React: Revisión de código y QA](10-W04-code-review/index.md)
+### Workshop 3: [Proyecto React: Revisión de código y QA](#)
 
 1 (presencial)
 
@@ -336,7 +351,7 @@ código, veremos si hemos cumplido o no con lo planeado, y por qué.
 Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
 las tareas que mayor efecto tengan en nuestro producto final.
 
-### Workshop 5 [Tips para que tu demo sea un éxito](11-W05-demo-trainning/index.md)
+### Workshop 4: [Tips para que tu demo sea un éxito](#)
 
 30min (presencial)
 
@@ -346,7 +361,7 @@ ayudas para no cometer errores comunes a la hora de hacer una presentación.
 Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una
 presentación atractiva.
 
-### Workshop 6: [Proyecto React: Revisión de código y QA](12-W06-code-review/index.md)
+### Workshop 5: [Proyecto React: Revisión de código y QA](#)
 
 1 (presencial)
 
@@ -357,7 +372,7 @@ detalles, enfocado en tu demo.
 Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo
 técnico, y resolver dudas de último minuto.
 
-### [Día de la demo](13-demo-day/index.md)
+### [Día de la demo](#)
 
 2h (presencial)
 
