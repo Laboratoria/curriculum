@@ -37,7 +37,7 @@ Secondary Tags:
 `algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
 
 ## Duración
-38 hrs
+45-50 hrs.
 
 ## Productos a desarrollar
 
@@ -62,10 +62,10 @@ Laboratoria.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | seminario | 30min | Apertura
+| 00 | lectura | 30min | Opening
 | 01 | seminario | 60min | Sobre Laboratoria
 | 02 | seminario | 90min | Cómo se aprende en Laboratoria
-| 03 | seminario | 3hrs | Sprint Demo
+| 03 | taller | 3hrs | Sprint Demo
 | 04 | seminario | 30min | Sprint 1 Kick-off
 
 ### [02: Programación básica con JavaScript](01-basic-programming)
@@ -77,9 +77,9 @@ en conceptos básicos de la programación con `JavaScript`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | seminario | 15min | Apertura
+| 00 | lectura | 15min | Apertura
 | 01 | lectura | 60min | Command Line Interface
-| 02 | lectura | 60min | Control de versiones - git
+| 02 | lectura | 60min | Control de versiones
 | 03 | seminario | 120min | Repaso
 | 04 | lectura | 60min | Arreglos
 | 05 | lectura | 60min | Objetos
@@ -96,7 +96,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 16 | cuestionario | 15min | Auto-evaluación
 | 17 | seminario | 30min | Cierre
 
-### [03: Producto Finales](02-final-products)
+### [03: Productos Finales](02-final-products)
 
 15 hrs
 
@@ -115,9 +115,9 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 
 ## Evaluación técnica
 * Quizzes: 5%
-* Requizzes: 15%
+* Requizzes: 20%
 * Retos de código: 45%
-* Productos finales: 35%
+* Productos finales: 30%
 
 ## Contributors
 
