@@ -37,13 +37,7 @@ Secondary Tags:
 `algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
 
 ## Duración
-
-* Lecturas: `... hrs`
-* Clases: `... hrs`
-* Taller: `... hrs`
-* Code: `... hrs`
-* Quiz: `... hrs`
-* TOTAL: `... hrs`
+38 hrs
 
 ## Productos a desarrollar
 
@@ -61,7 +55,7 @@ el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sa
 
 ### [01: Bienvenida](01-welcome)
 
-6 hrs
+7 hrs
 
 Darle la bienvenida a la nueva promoción y conocer cómo se aprende en
 Laboratoria.
@@ -69,39 +63,54 @@ Laboratoria.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | seminario | 30min | Apertura
-| 01 | seminario | 3hrs | Sobre Laboratoria
-| 02 | seminario | 3hrs | Sprint Demo
-| 03 | seminario | 60min | Cierre
+| 01 | seminario | 60min | Sobre Laboratoria
+| 02 | seminario | 90min | Cómo se aprende en Laboratoria
+| 03 | seminario | 3hrs | Sprint Demo
+| 04 | seminario | 30min | Sprint 1 Kick-off
 
 ### [02: Programación básica con JavaScript](02-basic-programming)
 
-35 hrs
+25 hrs
 
 Retomar lo aprendido en el curso anterior (Intro JS) y seguir profundizando
-en conceptos básicos de la programación en `JavaScript`.
+en conceptos básicos de la programación con `JavaScript`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | seminario | 10min | Apertura
-| 01 | lectura | 30min | Command Line Interface
-| 02 | lectura | 30min | Control de versiones - git
-| 03 | seminario | 60min | Repaso
-| 04 | lectura | 30min | Arreglos
-| 05 | lectura | 30min | Objetos
-| 06 | lectura | 30min | Propiedades y métodos
-| 07 | lectura | 30min | Combinando arreglos con objetos
-| 08 | lectura | 30min | Casos prácticos
+| 01 | lectura | 60min | Command Line Interface
+| 02 | lectura | 60min | Control de versiones - git
+| 03 | seminario | 120min | Repaso
+| 04 | lectura | 60min | Arreglos
+| 05 | lectura | 60min | Objetos
+| 06 | lectura | 60min | Propiedades y métodos
+| 07 | lectura | 60min | Combinando arreglos con objetos
+| 08 | lectura | 60min | Casos prácticos
 | 09 | cuestionario | 30min | Quiz
 | 10 | seminario | 120min | Revisión de conceptos
-| 11 | taller | 120min |  Ejercicios guiados
-| 12 | práctica | 8hrs | Retos de código
-| 13 | taller | 5 hrs | Code Review (Peer + Teacher)
+| 11 | taller | 120min | Taller HSE
+| 12 | taller | 120min |  Ejercicios guiados
+| 13 | práctica | 4hrs | Retos de código
 | 14 | seminario | 120min | Solucionario retos de código
 | 15 | cuestionario | 30min | Requiz
 | 16 | cuestionario | 10min | Auto-evaluación
-| 17 | taller | 3 hrs |  Retrospectiva
-| 18 | seminario | 30min | Cierre
+| 17 | seminario | 30min | Cierre
 
+### [03: Producto Finales](03-final-products)
+
+15 hrs
+
+Aplicar lo aprendido creando dos programas que tienen una aplicación en nuestra
+vida cotidiana: tarjeta de crédito válida y cifrado césar.
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 01 | práctica | 4hrs | Tarjeta de crédito válida & Cifrado César
+| 02 | taller | 3 hrs | Demo + Code Review (Peer + Teacher)
+| 03 | taller | 2 hrs | Taller HSE
+| 04 | seminario | 3hrs | Solucionario
+| 05 | cuestionario | 15min | End-of-sprint & team-work survey
+| 06 | taller | 3 hrs |  Sprint awards & Retrospective
 * * *
 
 ## Evaluación técnica

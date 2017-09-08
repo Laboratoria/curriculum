@@ -1,6 +1,6 @@
 # Solucionario Retos de Código
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
+- Tipo: `seminario`
+- Formato: `guiado`
 - Duración: `120min`
 
 ## Objetivos
@@ -11,15 +11,6 @@ las ventajas y desventajas de cada solución propuesta
 
 ## Agenda
 
-1. Por medio de ejemplos nos aseguramos que entendemos cómo funcionan:
-  - `charCodeAt()`
-  - `String.fromCharCode()`
-  - `ASCII` y `Unicode`
-
-2. Resolver los retos Ceasar Cipher y Tarjeta de Crédito Válida. Evaluar las
-diferentes maneras de alcanzar el resultado y discutir cuál es la más óptima
-
-3. Resolver dudas de los ejercicios de Replit y del tutorial de javascripting.
-
+* Resolver los retos, evaluar las diferentes maneras de alcanzar el resultado y discutir cuál es la más óptima
 ***
 [Continuar](14-quiz-2.md)
