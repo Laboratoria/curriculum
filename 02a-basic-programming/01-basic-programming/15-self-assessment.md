@@ -1,7 +1,7 @@
 # Auto-evaluación
-- Tipo: `survey`
-- Formato: `self-learning`
-- Duración: `5min`
+- Tipo: `cuestionario`
+- Formato: `self-paced`
+- Duración: `15min`
 
 ## Objetivos
 
@@ -10,7 +10,7 @@
 ***
 
 ## Auto-evaluación
-https://goo.gl/forms/ubNGMMzjLAL88iG83
+* https://goo.gl/forms/ubNGMMzjLAL88iG83
 
 ***
 

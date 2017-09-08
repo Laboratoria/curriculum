@@ -1,6 +1,6 @@
 # Quiz #2: _requizzing_
-- Tipo: `quiz`
-- Formato: `guided-learning`
+- Tipo: `cuestionario`
+- Formato: `guiado`
 - Duración: `30min`
 
 ## Objetivos

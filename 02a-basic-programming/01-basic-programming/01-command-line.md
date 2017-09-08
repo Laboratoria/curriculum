@@ -1,7 +1,6 @@
 # Command Line
-
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ## Objetivos de Aprendizaje
@@ -28,13 +27,11 @@ La línea de comando o también conocida como:
   - Simbolo de Sistema
   - cmd
   - Git Bash, etc.
-  
-Es una de las herramientas que más nos acompañará en nuestro camino del código
-será la `línea de comando`. 
 
-Ahora conoceremos y aprenderemos cómo usar a esa famosa pantalla negra que los
-'hackers' usan, pero tranquila, no vamos a 'hackear' nada, ni haremos nada
-ilegal.
+Una de las herramientas que más nos acompañará en nuestro camino del código
+será la `línea de comando`. En esta lección conoceremos y aprenderemos cómo
+usar esa famosa pantalla negra que los 'hackers' usan; pero tranquila, no
+vamos a 'hackear' nada, ni haremos nada ilegal :)
 
 Puede parecer un poco aterrador al principio pero solo es una pantalla que
 espera a que le des órdenes.
@@ -94,7 +91,7 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
   cuarto** (disco local C) a mi "ciber baño" (carpeta "Saved Pictures"),
   primero debería de entrar al "ciber-clóset"(carpeta "Pictures") y luego
   entramos a la carpeta buscada.
-  
+
   Ahora veamos qué podemos hacer con `cd`:
      1. `cd` : Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
      2. `cd nombre-carpeta` : Si luego de cd indicamos el nombre de una carpeta
@@ -102,7 +99,7 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
      3. `cd..` : si ponemos dos puntos (`..`) junto a `cd`, estaremos saliendo
      de la carpeta en donde nos encontramos y volveremos una hacia atrás.
   En la siguiente imagen puedes observar
-     
+
 
 - `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
   Por ejemplo, si ejecuto el comando `dir` en "C:\Users\MICHELLE SEGUIL" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
@@ -116,7 +113,7 @@ carpeta.
 
 - `mkdir` : Si ejecutamos el comando `mkdir` estaremos creando un nuevo
   directorio, entonces después de la palabra `mkdir` debemos especificar el
-  nombre de la nueva carpeta. 
+  nombre de la nueva carpeta.
   >mkdir nombre-carpeta
 
   Por ejemplo, si quiero crear la carpeta "js" desde la terminarl, el comando
