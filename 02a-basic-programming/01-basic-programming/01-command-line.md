@@ -16,10 +16,21 @@ En esta unidad aprenderemos:
 Referencia:
 [https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md)
 
+>La siguiente lectura fue escrita tomando en cuenta que el sistema operativo de
+  la computadora en la que se está trabajando es **Windows**
+
 ## La línea de comando
 
-Una de las herramientas que más nos acompañará en nuestro camino del código
-será la `línea de comando`.
+La línea de comando o también conocida como:
+  - Terminal
+  - Consola
+  - Command Prompt
+  - Simbolo de Sistema
+  - cmd
+  - Git Bash, etc.
+  
+Es una de las herramientas que más nos acompañará en nuestro camino del código
+será la `línea de comando`. 
 
 Ahora conoceremos y aprenderemos cómo usar a esa famosa pantalla negra que los
 'hackers' usan, pero tranquila, no vamos a 'hackear' nada, ni haremos nada
@@ -41,17 +52,17 @@ computadoras.
 
 Presionamos la tecla "windows" + r:
 
-![](http://pad3.whstatic.com/images_en/thumb/f/f0/Open-the-Command-Prompt-in-Windows-Step-4-Version-5.jpg/v4-900px-Open-the-Command-Prompt-in-Windows-Step-4-Version-5.jpg)
+![teclas](https://fotos.subefotos.com/a6a1b60bf468d78e96b6b5c06b61e2d9o.png)
 
-Y nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
+Ahora   nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
 escribiremos **cmd.exe**
 
-![](http://pad2.whstatic.com/images_en/thumb/6/68/Open-the-Command-Prompt-in-Windows-Step-5-Version-5.jpg/v4-728px-Open-the-Command-Prompt-in-Windows-Step-5-Version-5.jpg.webp)
+![run](https://fotos.subefotos.com/cea26152bf305a4ad536c7107fdc2f41o.png)
 
 Hacemos clic en el botón **OK** y estaremos abriendo nuestra terminal. Al abrir
 la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:
 
-![poner img]()
+![línea de comando](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
 
 ### Comandos
 
@@ -90,11 +101,13 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
      , al ejecutarlo, estaremos ingresando dentro de ella.
      3. `cd..` : si ponemos dos puntos (`..`) junto a `cd`, estaremos saliendo
      de la carpeta en donde nos encontramos y volveremos una hacia atrás.
+  En la siguiente imagen puedes observar
+     
 
 - `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
   Por ejemplo, si ejecuto el comando `dir` en "C:\Users\MICHELLE SEGUIL" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
 
-![](https://fotos.subefotos.com/28e9741a1b482c7a3043518f068bef77o.png)
+    ![dir](https://fotos.subefotos.com/952cc99911a69bc648cd82b5cc63937bo.png)
 
 Ahora veamos unos comandos para crear carpetas y archivos. Para estos comandos
 es muy importante en qué parte del directorio nos encontramos porque en la
@@ -127,6 +140,9 @@ carpeta.
     Ahora, si queremos crear un archivo html vacío el comando sería el
     siguiente:
     >echo > index.html
+
+Ahora veamos cómo Michelle navega entres sus archivos o directorios, crea
+carpetas y archivos desde la terminal.
 
 [![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)  
 
