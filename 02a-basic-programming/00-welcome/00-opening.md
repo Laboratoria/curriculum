@@ -1,5 +1,5 @@
 # Opening
-- Tipo: `seminario`
+- Tipo: `lectura`
 - Formato: `guiado`
 - Duración: `30min`
 

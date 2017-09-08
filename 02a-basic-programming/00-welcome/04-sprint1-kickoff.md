@@ -27,4 +27,4 @@ con JavaScript` (README.md file)
 
 ***
 
-[Continuar](04-sprint1-kickoff.md)
+[Continuar](../01-basic-programming/00-opening.md)

@@ -26,3 +26,5 @@
 - [ ] ¿Qué es un algoritmo? Explica un par de algoritmos que conozcas
 
 ***
+
+[Continuar](../02-final-products/01-final-products.md)

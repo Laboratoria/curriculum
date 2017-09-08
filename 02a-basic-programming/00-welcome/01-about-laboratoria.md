@@ -25,4 +25,4 @@
 
 ***
 
-[Continuar](02-sprint-demo.md)
+[Continuar](02-learning-at-laboratoria.md)
