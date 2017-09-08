@@ -53,7 +53,7 @@ el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sa
 
 ## Syllabus
 
-### [01: Bienvenida](01-welcome)
+### [01: Bienvenida](00-welcome)
 
 7 hrs
 
@@ -68,7 +68,7 @@ Laboratoria.
 | 03 | seminario | 3hrs | Sprint Demo
 | 04 | seminario | 30min | Sprint 1 Kick-off
 
-### [02: Programación básica con JavaScript](02-basic-programming)
+### [02: Programación básica con JavaScript](01-basic-programming)
 
 25 hrs
 
@@ -96,7 +96,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 16 | cuestionario | 15min | Auto-evaluación
 | 17 | seminario | 30min | Cierre
 
-### [03: Producto Finales](03-final-products)
+### [03: Producto Finales](02-final-products)
 
 15 hrs
 
