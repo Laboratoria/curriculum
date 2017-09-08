@@ -1,7 +1,6 @@
 # Git
-
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ## Objetivos de Aprendizaje
@@ -14,7 +13,7 @@
 - Entender los conceptos básicos: local, remoto, working directory, staging
   area y branches
 - Saber utilizar los comandos esenciales: `init`, `status`, `add`, `commit`,
-  `push`, `pull`y `merge`
+  `push` y `pull`
 
 ***
 

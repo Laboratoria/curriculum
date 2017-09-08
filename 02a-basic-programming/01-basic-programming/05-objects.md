@@ -1,7 +1,7 @@
 # Objetos en JavaScript
 - Tipo: `lectura`
-- Formato: `self-learning`
-- Duración: `30min`
+- Formato: `self-paced`
+- Duración: `60min`
 
 ## Objetivos de Aprendizaje
 

@@ -1,6 +1,6 @@
 # Quiz #1
-- Tipo: `quiz`
-- Formato: `guided-learning`
+- Tipo: `cuestionario`
+- Formato: `guiado`
 - Duración: `30min`
 
 ## Objetivos

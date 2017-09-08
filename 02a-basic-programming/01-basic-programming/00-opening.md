@@ -1,7 +1,7 @@
-# Opening
+# Opening: Programación Básica
 - Tipo: `lectura`
-- Formato: `self-learning`
-- Duración: `10min`
+- Formato: `self-paced`
+- Duración: `15min`
 
 ## Objetivos de Aprendizaje
 

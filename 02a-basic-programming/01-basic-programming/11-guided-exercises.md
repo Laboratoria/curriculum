@@ -1,6 +1,6 @@
 # Clase Práctica
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
+- Tipo: `taller`
+- Formato: `guiado`
 - Duración: `120min`
 
 ## Objetivos

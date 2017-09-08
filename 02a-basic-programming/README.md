@@ -77,7 +77,7 @@ en conceptos básicos de la programación con `JavaScript`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | seminario | 10min | Apertura
+| 00 | seminario | 15min | Apertura
 | 01 | lectura | 60min | Command Line Interface
 | 02 | lectura | 60min | Control de versiones - git
 | 03 | seminario | 120min | Repaso
@@ -85,7 +85,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 05 | lectura | 60min | Objetos
 | 06 | lectura | 60min | Propiedades y métodos
 | 07 | lectura | 60min | Combinando arreglos con objetos
-| 08 | lectura | 60min | Casos prácticos
+| 08 | lectura | 120min | Casos prácticos
 | 09 | cuestionario | 30min | Quiz
 | 10 | seminario | 120min | Revisión de conceptos
 | 11 | taller | 120min | Taller HSE
@@ -93,7 +93,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 13 | práctica | 4hrs | Retos de código
 | 14 | seminario | 120min | Solucionario retos de código
 | 15 | cuestionario | 30min | Requiz
-| 16 | cuestionario | 10min | Auto-evaluación
+| 16 | cuestionario | 15min | Auto-evaluación
 | 17 | seminario | 30min | Cierre
 
 ### [03: Producto Finales](03-final-products)

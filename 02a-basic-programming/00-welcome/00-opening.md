@@ -1,4 +1,4 @@
-# Opening
+# Opening: Bienvenida a Laboratoria
 - Tipo: `lectura`
 - Formato: `guiado`
 - Duración: `30min`
@@ -8,7 +8,7 @@
 En esta unidad aprenderemos:
 * Sobre Laboratoria y su equipo
 * Cómo se aprende en Laboratoria
-* Vivir la experiencia del **salón de clases ágil** con el `Sprint Demo`
+* La experiencia de aprendizaje del **salón de clases ágil** con el `Sprint Demo`
 
 ## ¿Por qué?
 

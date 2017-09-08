@@ -24,4 +24,4 @@
 * [El salón de clases ágil](https://medium.com/@RodulfoPrieto/the-agile-classroom-embracing-an-agile-mindset-in-education-ae0f19e801f3)
 ***
 
-[Continuar](02-sprint-demo.md)
+[Continuar](03-sprint-demo.md)
