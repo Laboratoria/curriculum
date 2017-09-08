@@ -1,4 +1,4 @@
-# Closing:
+# Closing: Programación Básica
 - Tipo: `clase presencial`
 - Formato: `guided-learning`
 - Duración: `60min`

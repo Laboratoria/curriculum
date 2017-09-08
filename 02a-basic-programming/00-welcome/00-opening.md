@@ -1,4 +1,4 @@
-# Opening: Bienvenida a Laboratoria
+# Bienvenida a Laboratoria
 - Tipo: `lectura`
 - Formato: `guiado`
 - Duración: `30min`

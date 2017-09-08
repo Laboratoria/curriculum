@@ -7,8 +7,6 @@
 
 - Darle feedback a tus compañeras y al equipo de Laboratoria
 
-***
-
 ## Encuestas
 Responde los cuestionarios a continuación:
 

@@ -36,8 +36,8 @@ También te compartimos más información de lo que Michelle te ha explicado en 
 
 > Hacker edition: si te sientes con ganas de hacer este ejercicio con un mayor
 nivel de dificultad, logra que tu programa:
-1. Funcione con letras mayúsculas y minúsculas
-2. Pueda cifrar y decifrar. La fórmula para decifrar es: `(x - n) % 26`
+>  1. Funcione con letras mayúsculas y minúsculas
+>  2. Pueda cifrar y decifrar. La fórmula para decifrar es: `(x - n) % 26`
 
 ## 2. Tarjeta de crédito válida
 

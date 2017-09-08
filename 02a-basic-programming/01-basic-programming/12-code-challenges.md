@@ -10,11 +10,11 @@ poner tus conocimientos a prueba.
 
 ***
 
-## 3. Replit
+## 1. Replit
 Completa los ejercicios de programación básica del salón de clases de:
 * [Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
 
-## 4. Javascripting (opcional)
+## 2. Javascripting (opcional)
 Completa el turorial de JavaScript de la comunidad de nodejs:
 * [javascripting](https://github.com/workshopper/javascripting)
 

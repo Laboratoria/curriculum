@@ -14,7 +14,7 @@
 
  1. Qué es el `salón de clases ágil`
 
- 2. Interiorizar la mentalidad de crecimiento (`growth mindset`)
+ 2. Interiorizar la mentalidad de crecimiento: `growth mindset`
 
  3. Tips para guiar el `auto-aprendizaje`
 
