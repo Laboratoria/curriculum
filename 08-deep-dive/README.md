@@ -90,7 +90,7 @@ acceso al repo, su propio fork, ...
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
-<<<<<<< HEAD
+
 30min (presencial)
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
@@ -103,9 +103,9 @@ a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 |   2   | lectura |   Xmin   | [Template Strings](03-es6/01-template-strings.md)
 |   3   | lectura |   Xmin   | [Destructuring](03-es6/02-destructuring.md)
 |   4   | lectura |   Xmin   | [Arrow Functions](03-es6/03-arrow-functions-lexical-scope.md)
-=======
+
 45min (presencial)
->>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
+
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
 lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
@@ -125,10 +125,7 @@ de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 1.0h (self-paced)
 
-<<<<<<< HEAD
 
-=======
->>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
@@ -142,11 +139,9 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 
 ### Lección 05: [Funciones](05-functions)
 
-<<<<<<< HEAD
+
 ### Lección 05: [Funciones](05-functions)
 
-=======
->>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 1hr (presencial)
 
 Veremos a profundidad el tema de funciones, aprovechando que JavaScript tiene
@@ -172,15 +167,14 @@ estructura de datos que veremos como sacar provecho de ellas.
 |-------|------- |---------- |-------------
 |   1   |lectura |   20min   | [Objetos](#)
 |   2   |lectura |   15min   | [Arreglos](#)
-<<<<<<< HEAD
+
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
-=======
+
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
->>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 30min (self-paced)
 
 El manejo de errores es importante dentro de todo desarrollo de software, y mas
