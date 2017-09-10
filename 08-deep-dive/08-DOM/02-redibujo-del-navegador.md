@@ -41,7 +41,6 @@ function AgregarElementos(){
 
 AgregarElementos();
 ```
-
 La función anterior simula una carga de párrafos a un div cada 2 segundos, 5 veces. A simple vista la función es llamada, limpia el `div` y agrega 100 párrafos nuevos. El problema es que no se están liberando los objetos de memoria, como parece y cada vez que ejecuto la función, se agregan 100 más.
 
 ```javascript
@@ -73,7 +72,7 @@ De esta manera, justo antes de agregar los 100 nuevos párrafos limpio el dom ut
 ## Es útil entender cuándo se activan los re-flow:
 
 1. Adición, eliminación o cambio de elementos DOM visibles
-La primera es obvia; el uso de JavaScript para cambiar el DOM provocará un re-flow.
+La primera es obvia, el uso de JavaScript para cambiar el DOM provocará un re-flow.
 
 2. Adición, eliminación o cambio de estilos CSS
 Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los elementos de la misma rama DOM ya los que la rodean.
