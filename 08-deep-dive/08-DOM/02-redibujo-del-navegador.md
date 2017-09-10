@@ -1,7 +1,7 @@
 # Redibujo del navegador
 
 * Formato: `lectura` 
-* Duración: ` 15 min`
+* Duración: `15 min`
 
 ***
 
@@ -82,7 +82,7 @@ Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede altera
 Cada marco de la animación causará un reflujo.
 
 4. Uso de `offsetWidth` y `offsetHeight`
-Curiosamente, leer la propiedad ``offsetWidth` y `offsetHeight` de un elemento puede desencadenar un reflow inicial para calcular las cifras.
+Curiosamente, leer la propiedad `offsetWidth` y `offsetHeight` de un elemento puede desencadenar un reflow inicial para calcular las cifras.
 
 5. Acciones de usuario
 Finalmente, el usuario puede activar los re-flow activando un efecto `hover`, ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las dimensiones de fuente, cambiando hojas de estilo o fuentes.
