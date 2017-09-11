@@ -1,14 +1,19 @@
-# Introduccion a ES6
+# Introducción a ES6
 
-* Formato: `lectura` 
-* Duración: `20 min`
+* Formato: `lectura`
+* Duración: `5 min`
 
-Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre `var`, `let`, `const`
+Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre
+`var`, `let`, `const`.
 
 ***
 
-Con `ES6` se han incorporado al lenguaje varias novedades como nuevas palabras reservadas para definir variables y constantes, símbolos, interpolación de variables en cadenas, desestructuración, forma abreviada para declarar funciones, nueva sintaxis más sencilla para definir clases, objetos de tipo Map y Set, Promises como alternativa a callbacks, el protocolo Iterator y generadores, además de algunas otras cosas que si como yo no habías dedicado tiempo a aprender mejor JavaScript aún te resulten novedosas.
-
+Con `ES6` se han incorporado al lenguaje varias novedades como nuevas palabras
+reservadas para definir variables y constantes, símbolos, interpolación de
+variables en cadenas, desestructuración, forma abreviada para declarar
+funciones, nueva sintaxis más sencilla para definir clases, objetos de tipo Map
+y Set, Promises como alternativa a callbacks, el protocolo Iterator y
+generadores, además de algunas otras cosas que te pueden resultar novedosas.
 
 ***
 
@@ -146,12 +151,20 @@ const USER = {
   age: 20
 };
 
-USER.name = 'Joan'; // works, as we are modifying a property, but the object
-                    // remains intact
-USER.age = 'veinte'; // modifying a property type also works
-// USER = 'Caro Covarrubias'; // fails, since the const type can't be modified
+/**
+ * La siguiente sentencia:
+ * Funciona, ya que estamos modificando una propiedad
+ * pero el objeto queda intacto
+ **/
+USER.name = 'Joan';
+
+USER.age = 'veinte'; // modificar el tipo de una propiedad también funciona
 
 console.log(USER);
+
+// Falla, ya que el tipo de dato de una constante no puede ser modificado
+USER = 'Caro Covarrubias';
+
 ```
 
 ***
