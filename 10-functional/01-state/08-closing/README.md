@@ -26,7 +26,7 @@ posible, especialmente en funciones que emplean *side-effects* para llevar a
 cabo su cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema,
 lo veremos en una siguiente lección.
 
-### Respondamos juntxs las preguntas del opening
+### Respondamos juntxs las preguntas de la apertura
 
 * Cómo evitar que nuestras funciones tengan efectos colaterales?
 * Por qué es beneficioso evitar el estado compartido?
