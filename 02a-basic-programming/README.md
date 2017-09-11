@@ -109,8 +109,9 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 | 02 | taller | 3 hrs | Demo + Code Review (Peer + Teacher)
 | 03 | taller | 2 hrs | Taller HSE
 | 04 | seminario | 3hrs | Solucionario
-| 05 | cuestionario | 15min | End-of-sprint & team-work survey
-| 06 | taller | 3 hrs |  Sprint awards & Retrospective
+| 05 | taller | 90min | Retrospectiva
+| 05 | cuestionario | 30min | End-of-sprint & team-work survey
+| 06 | seminario | 1 hrs |  Sprint awards
 * * *
 
 ## Evaluación técnica
