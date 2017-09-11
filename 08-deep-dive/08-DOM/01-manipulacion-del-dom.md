@@ -157,17 +157,17 @@ etiqueta `<p>`.
 Por este motivo, crear y añadir a la página un nuevo elemento XHTML sencillo
 consta de cuatro pasos diferentes:
 
-1. Creación de un nodo de tipo Element que represente al elemento
+1 Creación de un nodo de tipo Element que represente al elemento
 
-2. Creación de un nodo de tipo Text que represente el contenido del elemento
+2 Creación de un nodo de tipo Text que represente el contenido del elemento
 
-3. Añadir el nodo Text como nodo hijo del nodo Element
+3 Añadir el nodo Text como nodo hijo del nodo Element
 
-4. Añadir el nodo Element a la página, en forma de nodo hijo del nodo
+4 Añadir el nodo Element a la página, en forma de nodo hijo del nodo
 
 Correspondiente al lugar en el que se quiere insertar el elemento.
 
-5. De este modo, si se quiere añadir un párrafo simple al final de una página
+5 De este modo, si se quiere añadir un párrafo simple al final de una página
 
 XHTML, es necesario incluir el siguiente código JavaScript.
 
@@ -185,17 +185,17 @@ document.body.appendChild(parrafo);
 El proceso de creación de nuevos nodos puede llegar a ser tedioso, ya que
 implica la utilización de tres funciones DOM:
 
-1. `createElement(etiqueta)`
+1 `createElement(etiqueta)`
 
 Crea un nodo de tipo Element que representa al elemento XHTML cuya etiqueta
 se pasa como parámetro.
 
-2. `createTextNode(contenido)`
+2 `createTextNode(contenido)`
 
 Crea un nodo de tipo Text que almacena el contenido textual de los elementos
 XHTML.
 
-3. `nodoPadre.appendChild(nodoHijo)`
+3 `nodoPadre.appendChild(nodoHijo)`
 
 Añade un nodo como hijo de otro nodo.
 Se debe utilizar al menos dos veces.

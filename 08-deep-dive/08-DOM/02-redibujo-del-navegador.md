@@ -14,11 +14,11 @@ de la maquina del cliente.
 
 El problema con la web no es `javascript`, sino el DOM:
 
-1. Cada vez que modificamos el DOM resultando en un lindo efecto visual, el
+1 Cada vez que modificamos el DOM resultando en un lindo efecto visual, el
 
 explorador realiza lo que se llama “re-flow”, re-dibujar el DOM.
 
-2. Cada explorador maneja la memoria a su gusto, el DOM es peso en memoria que
+2 Cada explorador maneja la memoria a su gusto, el DOM es peso en memoria que
 
 no siempre se libera como lo esperamos, o ni siquiera pensamos en lo que va a
 pesar después de que ejecute nuestra maravillosa función JS.
@@ -95,27 +95,27 @@ utilizando el `remove()` de jQuery y así también la memoria.
 
 ## Es útil entender cuándo se activan los re-flow
 
-1. Adición, eliminación o cambio de elementos DOM visibles.
+1 Adición, eliminación o cambio de elementos DOM visibles.
 
 La primera es obvia, el uso de JavaScript para cambiar el DOM provocará un
 re-flow.
 
-2. Adición, eliminación o cambio de estilos CSS.
+2 Adición, eliminación o cambio de estilos CSS.
 
 Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede
 alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los
 elementos de la misma rama DOM ya los que la rodean.
 
-3. Animaciones y transiciones CSS3.
+3 Animaciones y transiciones CSS3.
 
 Cada marco de la animación causará un reflujo.
 
-4. Uso de `offsetWidth` y `offsetHeight`.
+4 Uso de `offsetWidth` y `offsetHeight`.
 
 Curiosamente, leer la propiedad `offsetWidth` y `offsetHeight` de un elemento
 puede desencadenar un reflow inicial para calcular las cifras.
 
-5. Acciones de usuario
+5 Acciones de usuario
 
 Finalmente, el usuario puede activar los re-flow activando un efecto `hover`,
 ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las
