@@ -123,7 +123,6 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
 |   5   | workshop |   20min   | [Ejercicios](04-foundations/04-built-in-objects.md)
 
-
 ### Lección 05: [Funciones](05-functions)
 
 1hr (presencial)

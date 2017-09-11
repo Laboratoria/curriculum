@@ -78,7 +78,6 @@ normales (_lowerCamelCase_).
 
 ## Terminología: "Parámetro" vs. "Argumento"
 
-
 Los términos `parámetro` y `argumento` son a menudo usados para referirse a lo
 mismo ya que se logra enteder a lo que se refiere. Sin embargo, a continuación
 se muestra una regla para diferenciarlos:
