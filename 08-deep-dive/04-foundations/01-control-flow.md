@@ -34,17 +34,17 @@ en un argumento de `break` o `continue`. Aquí un ejemplo de `break`:
 
 ```javascript
 const findEvenNumber = arr => {
-	loop: { // label
-		for (let i = 0, l = arr.length; i < l; i++) {
-			let element = arr[i];
-			if (element % 2 === 0) {
-				console.log(`Found: ${element}`);
-				break loop;
-			}
-		}
-		console.log('No even number found.');
-	}
-	console.log('DONE');
+  loop: { // label
+    for (let i = 0, l = arr.length; i < l; i++) {
+      let element = arr[i];
+      if (element % 2 === 0) {
+        console.log(`Found: ${element}`);
+        break loop;
+      }
+    }
+    console.log('No even number found.');
+  }
+  console.log('DONE');
 };
 ```
 
@@ -54,7 +54,7 @@ Un ciclo while:
 
 ```javascript
 while (condition) {
-	// statement
+  // statement
 }
 ```
 
@@ -74,7 +74,7 @@ const arr = ['a', 'b', 'c'];
 >>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 
 while (arr.length > 0) {
-	console.log(arr.shift());
+  console.log(arr.shift());
 }
 
 
@@ -95,7 +95,7 @@ Un ciclo do-while:
 
 ```javascript
 do {
-	// statements
+  // statements
 } while (condition);
 ```
 
@@ -104,7 +104,7 @@ do {
 const pattern = /^[0-9]+$/;
 let line;
 do {
-	line = prompt('Enter a number:');
+  line = prompt('Enter a number:');
 } while(!pattern.test(line));
 ```
 
@@ -114,7 +114,7 @@ En un ciclo for:
 
 ```javascript
 for ([init]; [condition]; [post_iteration]) {
-	// statements
+  // statements
 }
 ```
 
@@ -127,7 +127,7 @@ variables, pero el scope de dicha variable solo será dentro del cliclo.
 const arr = ['a', 'b', 'c'];
 
 for (let i = 0, l = arr.length; i < l; i++) {
-	console.log(arr[i]);
+  console.log(arr[i]);
 }
 
 /*
