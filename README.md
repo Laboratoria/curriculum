@@ -108,18 +108,20 @@ de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 ### Lección 04: [Fundamentos de JavaScript](04-foundations)
 
-1.0h (self-paced)
+1hr (self-paced)
 
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
 `tipos de datos`, `operadores`, `objetos preconstruidos`, etc.
 
-| Orden | Tipo    | Duración | Descripción
-|-------|---------|----------|-------------
-|   1   | lectura |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/00-variables-and-data-types.md)
-|   2   | lectura |   15min   | [Control de Flujo](04-foundations/01-control-flow.md)
-|   2   | lectura |   10min   | [Objetos Pre-construidos](04-foundations/02-built-in-objects.md)
+| Orden | Tipo     | Duración  | Descripción
+|-------|----------|-----------|------------
+|   1   | lectura  |   20min   | [Fundamentos](04-foundations/00-overview.md)
+|   2   | lectura  |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/01-variables-and-data-types.md)
+|   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
+|   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
+|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-built-in-objects.md)
 
 ### Lección 05: [Funciones](05-functions)
 
@@ -131,23 +133,29 @@ importantes como asignar funciones a una variable, pasar como parámetro de otra
 función, cambiar el scope de variables, asignar como valor de una propiedad de
 un objeto, etc.
 
-| Orden | Tipo  | Duración  | Descripción
-|-------|------ |---------- |-------------
-|   1   |lectura|   15min   | [Scope](#)
-|   2   |lectura|   15min   | [Funciones](#)
+| Orden | Tipo     | Duración  | Descripción
+|-------|----------|-----------|-------------
+|   1   | lectura  |   15min   | [Intro](05-functions/00-overview.md)
+|   2   | lectura  |   15min   | [Funciones](05-functions/01-functions.md)
+|   3   | workshop |   15min   | [Ejercicios](05-functions/02-exercises.md)
+|   4   | lectura  |   15min   | [Scope](05-functions/03-scope.md)
+|   5   | workshop |   15min   | [Ejercicios](05-functions/04-exercises.md)
 
-### Lección 06: [Estructura de Datos](#)
+### Lección 06: [Estructura de Datos](06-data-structures)
 
-1hr (presencial)
+40min (presencial)
 
 En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
 estructura de datos que veremos como sacar provecho de ellas.
 
-| Orden | Tipo   | Duración  | Descripción
-|-------|------- |---------- |-------------
-|   1   |lectura |   20min   | [Objetos](#)
-|   2   |lectura |   15min   | [Arreglos](#)
+| Orden | Tipo     | Duración  | Descripción
+|-------|----------|-----------|-------------
+|   1   | lectura  |   20min   | [Estructura de Datos](06-data-structures/00-overview.md)
+|   2   | lectura  |   20min   | [Objetos](06-data-structures/01-objects.md)
+|   3   | workshop |   20min   | [Ejercicios](06-data-structures/02-exercises.md)
+|   4   | lectura  |   15min   | [Arreglos](06-data-structures/03-arrays.md)
+|   5   | workshop |   20min   | [Ejercicios](06-data-structures/04-exercises.md)
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
