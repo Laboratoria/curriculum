@@ -1,4 +1,4 @@
-# 01. Creando un sitio web interactivo con JavaScript
+# Creando un sitio web interactivo con JavaScript
 
 En este curso aprenderás todo lo necesario para poder crear un producto web
 interactivo - uno que responda a las acciones del usuario. Para esto
@@ -12,7 +12,7 @@ aprenderás a:
 
 ## Público Objetivo
 
-Este curso está dirigido a estudiantes de Laboratoria. Es el **segundo** curso
+Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso
 que se toma como parte del bootcamp.
 
 ## Requerimientos previos
@@ -52,7 +52,7 @@ Con este curso desarrollarás tus primeros productos digitales. Pondrás en
 práctica los conocimientos aprendidos para crear los siguientes productos web:
 
 1. **Portafolio**: crearás tu página web personal para mostrar tu información
-profesional a través de un portal digital
+profesional a través de la web
 
 2. **Juego Laberinto**: ¡crearás tu primer juego animado! El jugador debe
 mover al personaje principal utilizando las flechas del teclado y encontrar
@@ -150,8 +150,8 @@ con todo!
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 1 hr | Organizando mis tareas
-| 02 | lectura | 30min | Box Model & Layouting
+| 01 | lectura | 60 min | Organizando mis tareas
+| 02 | lectura | 60 min | Box Model & Layouting
 | 03 | práctica | 24 hrs | Data Dashboard
 | 04 | taller | 5 hrs | Code Review (Peer + Teacher)
 | 05 | taller | 2 hrs |  Solucionarios
