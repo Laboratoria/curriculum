@@ -137,14 +137,14 @@ un objeto, etc.
 | Orden | Tipo     | Duración  | Descripción
 |-------|----------|-----------|-------------
 |   1   | lectura  |   15min   | [Intro](05-functions/00-overview.md)
-|   2   | lectura  |   15min   | [Scope](05-functions/01-scope.md)
+|   2   | lectura  |   15min   | [Funciones](05-functions/01-functions.md)
 |   3   | workshop |   15min   | [Ejercicios](05-functions/02-exercises.md)
-|   4   | lectura  |   15min   | [Funciones](05-functions/03-functions.md)
+|   4   | lectura  |   15min   | [Scope](05-functions/03-scope.md)
 |   5   | workshop |   15min   | [Ejercicios](05-functions/04-exercises.md)
 
 ### Lección 06: [Estructura de Datos](06-data-structures)
 
-1hr (presencial)
+40min (presencial)
 
 En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
@@ -154,9 +154,9 @@ estructura de datos que veremos como sacar provecho de ellas.
 |-------|----------|-----------|-------------
 |   1   | lectura  |   20min   | [Estructura de Datos](06-data-structures/00-overview.md)
 |   2   | lectura  |   20min   | [Objetos](06-data-structures/01-objects.md)
-|   3   | workshop |   20min   | [Objetos](06-data-structures/02-exercises.md)
+|   3   | workshop |   20min   | [Ejercicios](06-data-structures/02-exercises.md)
 |   4   | lectura  |   15min   | [Arreglos](06-data-structures/03-arrays.md)
-|   5   | workshop |   20min   | [Objetos](06-data-structures/04-exercises.md)
+|   5   | workshop |   20min   | [Ejercicios](06-data-structures/04-exercises.md)
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
