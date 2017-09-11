@@ -3,6 +3,23 @@
 * Formato: `lectura`
 * Duración: `15 min`
 
+<
+
+***
+
+Javascript soporta un conjunto compacto de sentencias específicamente para el manejo de flujo, que pueden ser utilizadas para incorporar mayor interactividad a tus aplicaciones.
+La guía de referencia de Javascript contiene detalles exhaustivos sobre las sentencias mencionadas en este capítulo. El punto y coma (;) se utiliza para separar sentencias de código Javascript.
+
+En Javascript cualquier expresión es también una sentencia.
+Una sentencia condicional es un conjunto de comandos que se ejecutan si una condición es verdadera. JavaScript soporta dos sentencias condicionales: if...else y switch
+
+A través de toda la formación que a este minuto has recibido, ya sabes cuáles son las sentencias condicionales, además conoces los bucles o loops , que pertenecen a toda el área de control de flujo en Javascript, en ésta parte me gustaría más contarte a cerca de las sentencias de manejo de excepciones.
+Prácticamente cualquier objeto puede ser lanzado en JavaScript. Sin embargo, no todos los objetos lanzados son creados igual. Mientras que es bastante común lanzar números o strings como errores, frecuentemente es más efectivo utilizar uno de los tipos de excepciones específicamente creados para este proposito:
+
+## Sentencia throw
+
+Utiliza la sentencia throw  para lanzar una excepción. Cuando lanzas un excepción, se especifica la expresión que contiene el valor para ser lanzado:
+
 ***
 
 Javascript soporta un conjunto compacto de sentencias específicamente para el
@@ -31,9 +48,13 @@ uno de los tipos de excepciones específicamente creados para este proposito:
 Utiliza la sentencia throw  para lanzar una excepción. Cuando lanzas un
 excepción, se especifica la expresión que contiene el valor para ser lanzado:
 
+
 ```javascript
 throw expresión;
 ```
+
+
+Puedes lanzar cualquier expresión, no solo expresiones de un tipo especifico. En el siguente código lanzamos varias excepciones de varios tipos:
 
 Puedes lanzar cualquier expresión, no solo expresiones de un tipo especifico. En
 el siguente código lanzamos varias excepciones de varios tipos:
@@ -45,10 +66,14 @@ throw true;       // Tipo booleano
 throw {toString: function() { return "¡Soy un objeto!"; } };
 ```
 
+
+Puedes especificar un objeto cuando lanzas una excepción. A continuación, puedes hacer referencia a las propiedades del objeto en un bloque catch. En el siguiente ejemplo se crea un objeto myUserException del tipo UserException y lo usa en la sentencia throw.
+
 Puedes especificar un objeto cuando lanzas una excepción. A continuación, puedes
 hacer referencia a las propiedades del objeto en un bloque catch. En el
 siguiente ejemplo se crea un objeto myUserException del tipo UserException y lo
 usa en la sentencia throw.
+
 
 ```javascript
 // Crear un tipo de objeto UserException
@@ -66,6 +91,17 @@ UserException.prototype.toString = function () {
 // Create an instance of the object type and throw it
 throw new UserException("Value too high");
 ```
+
+
+
+## try...catch
+
+La sentencia try...catch marca un bloque de instrucciones a intentar que pueden causar alguna excepción, y declarar una o más respuestas en caso de que una excepción sea arrojada. Si una excepción es arrojada, la sentencia try...catch se encarga de atraparla.
+
+La sentencia try...catch consiste en un bloque try, el cuál contiene una o más instrucciones, y ninguno o varios bloques catch, conteniendo sentencias que especifican que hacer si una excepción es arrojada en un bloque try. Se desea que las instrucciones dentro del bloque try se ejecuten con éxito, de caso contrario caerán en el bloque catch para ser controladas. Si ninguna instrucción dentro del bloque try (o en una función llamada dentro del bloque try) arroja una excepción, el control pasa inmediatamente al bloque catch. Si ninguna excepción es arrojada en el bloque try, el bloque catch es ignorado. Por último se ejecuta el bloque finally luego de que los bloques try y catch hayan sido ejecutados pero antes de las instrucciones que se encuentren luego de la sentencia try...catch.
+
+El siguiente ejemplo usa la sentencia try...catch. El ejemplo llama a una función que retorna el nombre de un mes desde un arreglo basado en un valor pasado como argumento a la función. Si el valor no corresponde con el número de un mes (entre 1 y 12), una excepción es arrojada con el valor "InvalidMonthNo" y las instrucciones en el bloque catch le asignarán a la variable monthName el valor de unknown.
+
 
 ## try...catch
 
@@ -93,6 +129,7 @@ un mes (entre 1 y 12), una excepción es arrojada con el valor "InvalidMonthNo"
 y las instrucciones en el bloque catch le asignarán a la variable monthName el
 valor de unknown.
 
+
 ```javascript
 function getMonthName (mo) {
   mo = mo-1; // Ajusta el indice del arreglo para el arreglo de meses (1=Jan, 12=Dec)
@@ -116,6 +153,14 @@ catch (e) {
 
 ## El bloque catch
 
+
+Un bloque catch es usado para manejar todas las excepciones que pueden ser generadas en el bloque try.
+
+
+El bloque catch especifica un identificar (catchID en la sintaxis anterior) que mantiene el valor especificado por la sentencia thrown; puedes usar este identificador para obtener información acerca de la excepción que fue arrojada. JavaScript crea este identificador cuando ha entrado en el bloque catch; el identificador dura mientras dure el bloque catch; después de que el bloque catch termine su ejecución, el identificador ya no está disponible.
+
+Por ejemplo, el siguiente código arroja una excepción. Cuando la excepción ocurre, el control es transferido al bloque catch.
+
 Un bloque catch es usado para manejar todas las excepciones que pueden ser
 generadas en el bloque try.
 
@@ -129,6 +174,7 @@ termine su ejecución, el identificador ya no está disponible.
 Por ejemplo, el siguiente código arroja una excepción. Cuando la excepción
 ocurre, el control es transferido al bloque catch.
 
+
 ```javascript
 try {
   throw "myException" // genera una excepción
@@ -139,8 +185,12 @@ catch (e) {
 }
 ```
 
+
+A partir de ECMAScript 6, Javascript gana soporte para los objetos Promise que le permiten controlar el flujo de operaciones diferidas y asíncronas.
+
 A partir de ECMAScript 6, Javascript gana soporte para los objetos Promise que
 le permiten controlar el flujo de operaciones diferidas y asíncronas.
+
 
 Una Promise puede estar ubicada en estos estados:
 
@@ -149,6 +199,10 @@ fulfilled: operación exitosa.
 rejected: operación fallida o rechazada.
 settled: la Promise ha sido exitosa o rechazada, pero no está pendiente.
 Hablaremos más de ello en los siguientes cursos.
+
+
+
+
 
 ***
 

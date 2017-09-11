@@ -11,9 +11,14 @@
 
 Los siguientes mecanismos pueden ser usados con ciclos:
 
+A través de toda la formación que a este minuto has recibido, ya sabes cuáles son las sentencias condicionales, además conoces los bucles o loops , que pertenecen a toda el área de control de flujo en Javascript, en ésta parte me gustaría más contarte a cerca de las sentencias de manejo de excepciones.
+Prácticamente cualquier objeto puede ser lanzado en JavaScript. Sin embargo, no todos los objetos lanzados son creados igual. Mientras que es bastante común lanzar números o strings como errores, frecuentemente es más efectivo utilizar uno de los tipos de excepciones específicamente creados para este proposito:
+
+
 #### `break [label]`
 
 Sale de un ciclo.
+
 
 #### `continue [label]`
 
@@ -66,10 +71,12 @@ mostramos en la consola:
 
 ```javascript
 const arr = ['a', 'b', 'c'];
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 
 while (arr.length > 0) {
   console.log(arr.shift());
 }
+
 
 /*
  *
@@ -81,6 +88,7 @@ while (arr.length > 0) {
  */
 ```
 
+
 ### do-while
 
 Un ciclo do-while:
@@ -91,8 +99,6 @@ do {
 } while (condition);
 ```
 
-Ejecuta los `statements` al menos una vez y luego tantas veces como se cumpla la
-condición. Por ejemplo:
 
 ```javascript
 const pattern = /^[0-9]+$/;

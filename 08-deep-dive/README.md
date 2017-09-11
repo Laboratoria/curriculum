@@ -90,7 +90,22 @@ acceso al repo, su propio fork, ...
 
 ### Lección 03: [ECMAScript 6](03-es6)
 
+
+30min (presencial)
+
+JavaScript es el lenguaje de programación, pero la especificación (estándar) del
+lenguaje es ECMAScript, en esta lección veremos las nuevas características de JS
+a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
+
+| Orden | Tipo    | Duración | Descripción
+|-------|---------|----------|-------------
+|   1   | lectura |   Xmin   | [Block Scoped Declarations](03-es6/00-block-scoped-declarations.md)
+|   2   | lectura |   Xmin   | [Template Strings](03-es6/01-template-strings.md)
+|   3   | lectura |   Xmin   | [Destructuring](03-es6/02-destructuring.md)
+|   4   | lectura |   Xmin   | [Arrow Functions](03-es6/03-arrow-functions-lexical-scope.md)
+
 45min (presencial)
+
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
 lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
@@ -110,6 +125,7 @@ de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 
 1hr (self-paced)
 
+
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
 esta manera veremos un poco de compiladores y profundización en los temas como
@@ -122,6 +138,9 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
 |   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
 |   5   | workshop |   20min   | [Ejercicios](04-foundations/04-built-in-objects.md)
+
+### Lección 05: [Funciones](05-functions)
+
 
 ### Lección 05: [Funciones](05-functions)
 
@@ -156,6 +175,11 @@ estructura de datos que veremos como sacar provecho de ellas.
 |   3   | workshop |   20min   | [Ejercicios](06-data-structures/02-exercises.md)
 |   4   | lectura  |   15min   | [Arreglos](06-data-structures/03-arrays.md)
 |   5   | workshop |   20min   | [Ejercicios](06-data-structures/04-exercises.md)
+
+
+### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
+
+
 
 ### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 

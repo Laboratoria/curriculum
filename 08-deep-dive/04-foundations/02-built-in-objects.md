@@ -34,8 +34,13 @@ En realidad, más que de objetos deberíamos hablar de clases de objetos, ya que
 un objeto en sí sería por ejemplo una fecha, y la clase de objeto a la que
 pertenece sería la clase `Date`.
 
+
+En realidad, más que de objetos deberíamos hablar de clases de objetos, ya que un objeto en sí sería por ejemplo una fecha, y la clase de objeto a la que pertenece sería la clase `Date`.
+Para crear un nuevo objeto de una clase ya definida, la forma habitual es escribir:
+
 Para crear un nuevo objeto de una clase ya definida, la forma habitual es
 escribir:
+
 
 ```javascript
 let nuevoObjeto = new ClaseObjeto();
@@ -55,11 +60,15 @@ de varias maneras.
 
 Algunas clases de objetos son:
 
+
+## El objeto Boolean
+
 * `Number`: Números.
 * `Math`: Operaciones con números.
 * `Date`: Fechas.
 * `String`: Cadenas de texto.
 * `Array`: Colecciones de elementos.
+
 
 Sin embargo nos faltan por ver algunas clases de objetos, los cuales aunque
 menos importantes desde el punto de vista de la programación debemos tenerlos en
@@ -83,15 +92,22 @@ valor el número 0 o una cadena de texto vacía, devolverá false, en los demás
 casos devolverá true. El objeto Boolean no tiene propiedades y métodos propios,
 sino los heredados del objeto `Object`, el cual veremos más adelante.
 
+
+## El objeto Function
+
 ## El objeto `Function`
+
 
 Las funciones también se consideran objetos en JavaScript, y se forman a partir
 de la clase `Function`. Aunque la forma más habitual de declararlas es la que
 hemos visto:
 
+## El objeto RegExp
+
 ```javascript
 function miFuncion() { }
 ```
+
 
 También lo podemos hacer mediante la forma general de construir objetos:
 
@@ -111,9 +127,13 @@ determinado patrón, o si contiene unos caracteres determinados. Se emplea, por
 ejemplo para comprobar en un formulario si el texto pasado por el usuario es un
 e-mail, o un número de teléfono, etc.
 
+
+## El objeto Object
+
 Estas expresiones van encerradas entre las barras inclinadas `/.../` y tienen
 su propia sintaxis. Por ejemplo la siguiente expresión comprueba si el el texto
 pasado es una dirección de página web:
+>>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 
 ```javascript
 const patron = /^http[s]?://\w[\.\w]+$/i;
