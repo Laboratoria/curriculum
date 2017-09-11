@@ -24,7 +24,7 @@ tipo de propiedad más común.
 ### Accesors (o propiedades de acceso)
 
 Son métodos especiales que su invocación luce como propiedades de lectura y
-escritura. Las propiedades normales son lugares de almacenamiento para valores 
+escritura. Las propiedades normales son lugares de almacenamiento para valores
 de propiedades; los `accesors` te permiten operar sobre los valores de esas
 propiedades. También puede ser _propiedades virtuales_ si se desea.
 
