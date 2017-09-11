@@ -13,8 +13,7 @@ Una de las características más particulares de JavaScript, es el comportamient
 de los tipos de datos, porque conociendo su comportamiento nos permite entender
 como se comportan nuestros datos durante la ejecución.
 
-## ¿Que es un tipo?
-
+## ¿Qué es un tipo?
 
 Básicamente los tipos definen el comportamiento que van a tener los datos.
 
@@ -26,10 +25,7 @@ valores, tanto para el motor (intérprete del lenguaje) y el desarrollador.
 
 La especificación del lenguaje define los tipos:
 
-
-## string
-
-
+#### string
 
 El tipo `string` de Javascript es usado para representar datos textuales o
 cadenas de caracteres. Es un conjunto de "elementos", de valores enteros sin
@@ -37,9 +33,7 @@ signo de 16 bits. Cada elemento ocupa una posición en el `string`. El primer
 elemento está en el índice 0, el próximo está en el índice 1, y así
 sucesivamente. La longitud de un `string` es el número de elementos en ella.
 
-
-## number
-
+#### number
 
 De acuerdo al standard ECMAScript, sólo existe un tipo numérico: el valor de
 _doble precisión_ de 64-bits IEEE 754 (un número entre -(253 -1) y 253 -1). No
@@ -59,21 +53,21 @@ es representado como -0 y +0. ("0" es un alias +0). Esto casi no tiene ningún
 impacto. Por ejemplo +0 === -0 es true. Sin embargo, es posible notar esto
 cuando se divide por cero.
 
-## boolean
+#### boolean
 
 Boolean representa una entidad lógica y puede tener dos valores: `true`, y
 `false`.
 
-## null
+#### null
 
 El tipo `null` tiene exactamente un valor: `null`.
 
-## undefined
+#### undefined
 
 Una variable a la cual no se le haya asignado valor tiene entonces el valor
 `undefined`.
 
-## object
+#### object
 
 En JavaScript los objetos pueden ser vistos como una colección de propiedades.
 Con la sintaxis literal de objetos, un limitado grupo de propiedades son
@@ -83,7 +77,7 @@ objetos lo cual permite construir estructuras de datos complejas. Las
 propiedades se identifican usando claves. Una clave es un valor `string` o
 `symbol`.
 
-## symbol
+#### symbol
 
 El `symbol` es un nuevo tipo en JavaScript introducido en la versión de `ES6`.
 Un `symbol` es un valor primitivo único e inmutable y puede ser usado como la
@@ -91,17 +85,15 @@ clave de una propiedad de un objeto. En algunos lenguajes de programación, los
 symbols son llamados átomos. Se pueden comparar con enumeraciones de nombres
 (`enum`) en C.
 
-
 Antes de continuar, es preciso decir que en JavaScript, las variables no tienen
 tipos, Los valores son quienes los tienen. Las variables pueden almacenar
 cualquier tipo de valor.
 
 ### Primitive vs. Reference
 
-## Primitivos
+#### Primitivos
 
 `string`, `number`, `boolean`, `null`, `undefined`.
-
 
 Entendamos el comportamiento de estos. Cuando definimos un valor primitivo:
 
@@ -112,17 +104,11 @@ let variable = 'hola'; // string
 El nombre de la variable se instancia en su scope, y este nombre hace referencia
 a la ubicación en memoria, donde está almacenado el valor.
 
-
-## Por referencia
-
-### object
-
 Ahora, si asignamos esta variable a otra, el valor se copia, a otra posición en
 memoria, y cada variable apunta a una ubicación distinta.
 
 Este comportamiento, hace que si nosotros declaramos un valor primitivo dentro
 de una variable con const, será inmutable, ya que este no podrá ser reasignado.
->>>>>>> e56650d53cc10d9025ae29fb70547825f7ef0f9c
 
 #### Por referencia
 
@@ -214,17 +200,11 @@ primitivos, es cuando se les compara a estos con un valor primitivo.
 
 El mecanismo que se sigue para realizar esta conversión es:
 
-
-##### Nota: El mecanismo que normalmente se utiliza es toString().
-
-## Algoritmo de ==
-
 * Si `.valueOf()` se puede usar, es llamado y devuelve un valor primitivo.
 * Si `.toString()` se puede usar, es llamado y devuelve un valor primitivo.
 * En otros casos devuelve un error.
 
-
-
+> Nota: El mecanismo que normalmente se utiliza es `.toString()`.
 
 ### Diferencia entre `==` y `===`
 
@@ -253,7 +233,6 @@ true == 1         // true
 
 #### Algoritmo de `===`
 
-
 Esta igualdad es más estricta con sus resultados, utilizando la siguiente
 secuencia para determinar el resultado:
 
@@ -278,18 +257,12 @@ true == 1           // false
 
 Podrías tener lo siguiente en cuenta para saber cuál operador utilizar:
 
-
-##### Nota: Por convención y una buena práctica la comunidad promueve el uso de ===
-
-## Desigualdades
-
 * Si cualquiera de los valores es boolean, utiliza `===`.
 * Si no tienes claro si los valores son convertidos por coerción, usa `===`.
 * En otros casos podrías usar con seguridad `==`.
 
 > Nota: Por convención y una buena práctica la comunidad promueve el uso de
 `===`.
-
 
 ### Desigualdades
 
