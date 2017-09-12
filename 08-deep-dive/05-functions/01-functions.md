@@ -142,7 +142,7 @@ expressions_ (funciones como expresión con nombre) permiten a la función poder
 referirse a si misma, su utilidad se ve reflejada cuando se desea aplicar
 recursividad por ejemplo:
 
-```
+```javascript
 var factorial = function fact(number) {
   if (number <= 1) {
     return 1;
