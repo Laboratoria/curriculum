@@ -94,7 +94,7 @@ Nos dice:
 
 > Existen dos importantes categorías de elementos en HTML: elementos a nivel de
 bloque y elementos en línea.
-
+>
 > * Los elementos a nivel de bloque forman un bloque visible en una página —
 aparecerán en una nueva línea de cualquier contenido que haya venido antes,
 y cualquier contenido que venga después también aparecerá en una nueva línea.
@@ -103,13 +103,13 @@ página que representan por ejemplo párrafos, listas, menús de navegación,
 pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro
 de un elemento en en línea, pero podría estar anidado dentro de otro elemento
 a nivel de bloque.
-
+>
 > * Los elementos en línea son aquellos que están contenidos dentro de
 elementos a nivel de bloque y rodean solo pequeñas partes del contenido
 del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento
 en línea  no causará que una nueva línea aparezca en el documento:
 normalmente aparecen dentro de un párrefo o texto, por ejemplo elementos de
-énfasis como <em> o <strong>.
+énfasis como `<em>` o `<strong>`.
 
 Veamos un ejemplo:
 
