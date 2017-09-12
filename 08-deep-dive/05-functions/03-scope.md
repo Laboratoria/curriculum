@@ -71,3 +71,7 @@ console.log(x); // global
 
 Dentro de la función `f`, la variable `x` es sombreada por la variable local
 `x`.
+
+***
+
+[Continuar](04-exercises.md)
