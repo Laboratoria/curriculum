@@ -116,8 +116,8 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 
 ## Evaluación técnica
 * Quizzes: 5%
-* Requizzes: 20%
-* Retos de código: 45%
+* Requizzes: 10%
+* Retos de código: 55%
 * Productos finales: 30%
 
 ## Contributors

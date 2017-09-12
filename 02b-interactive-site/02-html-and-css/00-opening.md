@@ -1,6 +1,7 @@
 # Opening: HTML & CSS
-- Formato: `lectura`
-- Duración: `30min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `15min`
 
 ## Objetivos de Aprendizaje
 
@@ -26,23 +27,23 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-
-- [ ] Pensando en la analogía de construir un edificio, ¿qué representa el
-`html` y qué representa el `css`?
 - [ ] ¿Cuál es la estructura básica (etiquetas principales) de un archivo
-`html`?
+`html`? Haz un dibujo
 - [ ] ¿Cómo vinculamos nuestro `html` con nuestro `js` y con nuestro `css`?
-- [ ] ¿Qué significa que `css` es en "cascada"? Haz un dibujo
+¿Qué convenciones debemos seguir al hacer esto? ¿Por qué?
+- [ ] ¿Qué significa que `css` es en "cascada"? ¿Por qué es útil? Haz un dibujo
 - [ ] ¿Cómo funciona la herencia en `css`? Haz un dibujo
-- [ ] ¿Qué es un atributo de elemento `html`? Dame un ejemplo
+- [ ] ¿Qué es un atributo de un elemento `html`? Dame un ejemplo
 - [ ] ¿Por qué se dice que el `html` es anidado? Haz un dibujo
 - [ ] ¿Qué significa crear `html` semantico? ¿Por qué es importante?
-- [ ] ¿Qué se entiende por "meta data"? ¿Para qué funciona? ¿Quién la usa?
+- [ ] ¿Qué se entiende por "meta data"? ¿Para qué sirve? ¿Quién la usa?
 - [ ] Dame un par de ejemplos de buenas prácticas de código html
-
-
-
+- [ ] ¿Qué significa que un elemeno `html` se comporte como `block`? ¿Y como
+`inline`? Dame un par de ejemplos
+- [ ] Pensando en la analogía de construir un edificio, ¿qué representa el
+`html` y qué representa el `css`?
+- [ ]
 
 ***
 
-[Continuar](01-.md)
+[Continuar](02-html.md)

@@ -1,46 +1,160 @@
 # HTML
-- Formato: `self-learning`
 - Tipo: `lectura`
-- Duración: `30min`
+- Formato: `self-paced`
+- Duración: `60min`
 
 ## Objetivos de Aprendizaje
 
-- Profundizar el entendimiento de Qué es HTML.
-- Entender y usar etiquetas de Estructura de manera adecuada.
-- Entender y usar adecuadamente etiquetas HTML para el contenido de su página web.
-- Crear un formulario sólo con HTML.
-
-***
-
-link a slides de lab: https://docs.google.com/presentation/d/1xA1tofzNZKya0IOBpFRjrfeMKBsy0cjgdHNcztSwKgQ/edit#slide=id.g1cea969e01_0_65
-
-materaial previo:
-https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md
-
-referencia:
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
-
+- Profundizar el entendimiento de qué es HTML.
+- Entender el concepto de anidamiento HTML
+- Conocer los elementos y etiqetas HTML más comunes
+- Block vs inline
+- Atributos
+- Metadata
 
 ## ¿Qué es HTML?
 
-En la unidad de Introducción vimos como hacer tu primera web. Recapitulemos un poco en lo que vimos.
+En el curso de `Introducción a la Programación` creaste tu primer website.
+Aprendiste a crear un archivo HTML y a vincularlo con tu archivo JavaScript.
+En esta lección profundizaremos en conocer más sobre HTML.
 
-Recordemos que _Hipertext Markup Language_ o _HTML_ es un lenguaje de marcado.  __No es un lenguaje de programación__. Digamos que es un lenguaje donde indicas qué es cada cosa a través de etiquetas. A través de este lenguaje le decimos al navegador cómo estructurar el contenido de la página web en pequeños bloques de elementos html. Dependiendo de la _etiqueta_ que usemos, el elemento html se verá un poco diferente.
+Revisando directamente la documentación del [Mozzilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
+tenemos lo siguiente:
+> HTML (HyperText Markup Language) no es un lenguaje de programación, es un
+lenguaje de marcado, usado para decirle a tu navegador cómo estructurar las
+páginas que visitas. Puede ser tan complejo o tan simple como desee el
+desarollador web.
+
+> HTML consiste en una serie de elementos, que puedes utilizar para encerrar,
+envolver, o marcar partes diferentes del contenido para hacer que aparezcan de
+una cierta manera, o actuen de determinada forma. Las etiquetas que envuelven
+un trozo de contenido pueden hacer que dicho contenido enlace con otra página,
+ponga una palabra en cursiva, etcétera.
 
 ## Anatomía de un elemento HTML
 
+Recordemos que salvo algunas excepciones (por ejemplo `<!DOCTYPE html>`), los
+elementos html comienzan con una `etiqueta de apertura (o inicio)` y terminan
+con una `etiqueta de cierre (o fin)`. Por ejemplo, el elemento `p` comienza
+con la etiqueta de inicio `<p>` y termina con la etiqueta de cierre `</p>`. El
+texto que se encuentra entre las etiquetas de apertura y de cierre es el
+ _contenido_ del elemento.
 
-Como vimos anteriormente, una etiqueta esta formada principalmente por:
-![<p>Code that transforms</p>](tag-structure.png)
+![Ejemplo etiqueta](img-tag-sample.png)
 
-En este ejemplo estamos definiendo un elemento __párrafo__ con la etiqueta ___p___. Este pequeño párrafo tiene un contenido de texto que es ___Code that transforms___.
+## Anidamiento HTML
 
+Un elemento puede contener en su contenido otros elementos o etiquetas HTML.
+Esto se llama _anidamiento_.
+
+Recordemos la estructura básica de un documento html que hemos venido usando
+en la mayoría de nuestros ejercicios y agreguemos un par de elementos
+adicionales:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML anidado</title>
+  </head>
+  <body>
+    <h1>Laboratoria</h1>
+    <p>Código <em>que</em> <strong>transforma</strong></p>
+  </body>
+</html>
+```
+
+Fíjate cómo ciertos elementos "anidan" otros. Es decir, algunos
+elementos están "contenidos" dentro de otros. Por ejemplo, el elemento `body`
+(que tiene como objetivo contener todo el cóntenido de la página web) tiene dos
+elementos anidados (o hijos) que son el título `h1` y el párrafo `p`. A su
+vez, el párrafo `p` contienen dos elementos adicionales (otros hijos), que son
+`em` y `strong`.
+
+Podemos visualizar este concepto de _anidamiento_ html de la siguiente manera:
+
+![Anidamiento html](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
+
+En este ejemplo vemos elementos que ya deberían ser familiares para ti. Ya
+conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`,
+`h1` y `p` (si necesitas un repaso de esto, te sugerimos leer de nuevo la
+lección de [crea tu primer website](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md) del curso introducción a la programación). Un par de elementos
+adicionales que hemos añandido son: `em` que hace que su
+contenido se visualice como texto en _cursiva_ y `strong` que hace que su
+contenido se visualice como texto en _negrita_.
+
+Al abrir este documento en el navegador tendremos lo siguiente:
+
+![HTML nested](img-nested-html.png)
+
+### Elementos bloque vs. en línea
+
+Regresemos a la lectura de HTML del [Mozzilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar).
+Nos dice:
+
+> Existen dos importantes categorías de elementos en HTML: elementos a nivel de
+bloque y elementos en línea.
+
+> * Los elementos a nivel de bloque forman un bloque visible en una página —
+aparecerán en una nueva línea de cualquier contenido que haya venido antes,
+y cualquier contenido que venga después también aparecerá en una nueva línea.
+Los elementos a nivel de bloque tienden a ser elementos estructurales en la
+página que representan por ejemplo párrafos, listas, menús de navegación,
+pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro
+de un elemento en en línea, pero podría estar anidado dentro de otro elemento
+a nivel de bloque.
+
+> * Los elementos en línea son aquellos que están contenidos dentro de
+elementos a nivel de bloque y rodean solo pequeñas partes del contenido
+del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento
+en línea  no causará que una nueva línea aparezca en el documento:
+normalmente aparecen dentro de un párrefo o texto, por ejemplo elementos de
+énfasis como <em> o <strong>.
+
+Veamos un ejemplo:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML anidado</title>
+  </head>
+  <body>
+    <em>primero</em><strong>segundo</strong><em>tercero</em>
+    <p>cuarto</p><p>quinto</p><p>sexto</p>
+  </body>
+</html>
+```
+
+Al visualizar el documento anterior en el navegador tendremos:
+
+![Block vs in line](img-block-inline.png)
+
+Tanto `em` como `strong` son elementos en línea. Por lo tanto, los tres primeros elementos se sitúan en la misma línea uno tras otros sin espacio entre ellos. Por otro lado, `p` es un elemento a nivel de bloque, así que cada elemento aparece en una nueva línea, con espacio sobre y debajo de cada `p`.
+
+### Elementos HTML
+
+Tienes a tu disposición múltiples elementos HTML para construir páginas web.
+Investiga por tu cuenta (con tu amigo Google) y aprende cómo agerar a tu web:
+1. Una imagen
+2. Un link
+3. Una tabla
+4. Una lista
+5. Encabezados para títulos y subtítulos (tip: headings)
+6. Una línea divisoria (tip: horizontal rule)
+7. Una cita
+8. Resaltar un texto (tip: mark)
 
 ### Atributos
 
-Un elemento HTML además puede tener varios atributos que lo modifican, especializan, identifican o demás.
+Un elemento HTML además puede tener varios atributos que lo modifican,
+especializan, identifican o demás.
 
-![<p lang="es-us">Code that transforms</p>](tag-structure-attributes.png)
+En tu investigación seguro te topaste con [el elemento `<a>`:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a):
+
+```html
+<a href="http://laboratoria.la/" target="_blank">Ir a Laboratoria</a>
+```
 
 Los atributos nos dan información adicional sobre el contenido de una elemento. En algunos casos agregan características y/o comportamiento a tu elemento HTML. Los atributos aparencen en la apertura de una etiqueta de un elemento de html y consiste de dos partes, un nombre y un valor separados por un signo de `=`.
 
@@ -49,44 +163,15 @@ Los atributos nos dan información adicional sobre el contenido de una elemento.
 
 Algunas etiquetas no tienen directamente contenido, sino que, en algunos casos reciben un fuente de la que obtendrán contenido. Por ejemplo el elemento __imagen__ que creamos con la etiqueta __img__.
 
-![<br>](tag-img.png)
 
 Ese es el caso de la etiqueta __br__
 
 En otros casos crean un comportamiento en si mismas. Es el caso de la etiqueta __br__ que define un salto de línea en el contenido:
 
-![<br>](tag-br-closing.png)
+
 
 Más adelante vamos a aprender más sobre las versiones de HTML, pero te voy adelantando que en HTML5 ya no es necesario que pongas el __/__ de cierre, por ejemplo el __br__ quedaría como:
 
-![<br>](tag-br.png)
-
-
-### Anidado de etiquetas
-
-Como recordarás, una etiqueta puede contener en su _contenido_ otras etiquetas o elementos HTML
-
-Por ejemplo, cuando vimos nuestra primera página web:
-
-```html
-<body>
-    <h1>Hola Mundo</h1>
-</body>
-```
-
-Aquí el elemento __body__ que tiene como objetivo contener el cóntenido de la página web, tiene un elemento anidado o hijo que es el título __h1__.
-
-Por ejemplo, si definimos una lista no ordenada de frutas:
-```html
-<ul>
-    <li>fresa</li>
-    <li>melón</li>
-    <li>naranja</li>
-    <li>kiwi</li>
-<ul>
-```
-
-El __ul__ o _lista no ordenada_ (unordered list) tendrá internamente varios elementos __li__ de la lista. Cada uno de ellos con su propio contenido.  
 
 
 ## Comentarios en HTML
@@ -141,6 +226,18 @@ Antes del elemento `<body>`, por lo general verás un elemento `<head>`. `<head>
 
 Veremos un poco más de `head` y otras etiquetas HTML que es importante que conozcas para poder estructurar tu página web.
 
+
+Por ejemplo, si definimos una lista no ordenada de frutas:
+```html
+<ul>
+    <li>fresa</li>
+    <li>melón</li>
+    <li>naranja</li>
+    <li>kiwi</li>
+<ul>
+```
+
+El __ul__ o _lista no ordenada_ (unordered list) tendrá internamente varios elementos __li__ de la lista. Cada uno de ellos con su propio contenido.  
 
 ### Un poco de historia
 ***
