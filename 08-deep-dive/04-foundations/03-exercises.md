@@ -51,6 +51,28 @@ Resultado:
 true
 ```
 
+## [4. Objetos preconstruidos](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundationsfoundations/03-objects.js)
+
+Escribe, a partir de una expresión regular, una funcion que permita validar los
+elementos de un arreglo que son números soportados por Javascript y entregue
+como salida un arreglo con los que sí son números. Por ejemplo, son números
+aquellos que tienen un sígno menor antes del número (-10), o aquellos que tienen
+un punto decimal después de un número (1.1).
+
+```markdown
+Datos de entrada:
+
+['3', '.4', '.', '3+3']
+
+Resultado:
+
+['3', '.4']
+```
+
+> **Hint:** Revisa sintaxis de [expresiones regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+así como [RegExr](https://regexr.com/) para ayudarte a construir la expresión
+regular.
+
 ***
 
 [Continuar](../05-functions/00-overview.md)
