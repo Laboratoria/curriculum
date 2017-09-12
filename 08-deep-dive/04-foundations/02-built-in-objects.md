@@ -159,4 +159,4 @@ explicaremos más detenidamente.
 
 ***
 
-[Continuar](../05-functions/00-overview.md)
+[Continuar](../03-exercises.md)
