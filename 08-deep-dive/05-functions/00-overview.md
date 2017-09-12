@@ -5,6 +5,10 @@
 
 ***
 
+<iframe src="https://goo.gl/hsqvjb" frameborder="0" width="684" height="430"
+allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+
 Las funciones son bloques de construcción de aplicaciones que engloban múltiples
 sentencias de código. Son particularmente importantes en JavaScript porque
 soporta características como `first-class functions`, `functions as objects`,
