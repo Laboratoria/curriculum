@@ -121,7 +121,7 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   2   | lectura  |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/01-variables-and-data-types.md)
 |   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
 |   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
-|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-built-in-objects.md)
+|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-exercises.md)
 
 ### Lección 05: [Funciones](05-functions)
 
