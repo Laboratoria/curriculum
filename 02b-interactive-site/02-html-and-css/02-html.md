@@ -10,7 +10,7 @@
 - Entender el concepto de anidamiento HTML
 - Conocer las diferencias en el comportamiento bloque y en línea de elementos
 HTML
-- Conocer qué son y para qué sirve los atributos de elementos HTML
+- Conocer qué son y para qué sirven los atributos de elementos HTML
 
 ## ¿Qué es HTML?
 
@@ -156,7 +156,7 @@ Para cada elemento anterior entiende si se comporta como `inline` o como
 
 ## Atributos
 
-En tu investigación seguro te topaste con [el elemento `<a>` para agregar un link a tu web:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) y habrás
+En tu investigación seguro te topaste con [el elemento `a` para agregar un link a tu web:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) y habrás
 notado que en la etiqueta de apertura aparece una serie de información:
 
 ```html
@@ -195,24 +195,29 @@ permite darle estilos a tu elemento. Por ejemplo, si queremos que el contenido
 dentro de un elemento `p` sea de color rojo, hacemos:
 
 ```html
-  <p style="color:red">cuarto</p>
+  <p style="color: red">Código <em>que</em> <strong>transforma</strong></p>
 ```
+
+Al visualizar el documento anterior en el navegador tendremos:
+
+![Style Example](img-style.png)
+
 
 En la próxima lección sobre `css` profundizaremos en el concepto de darle
 estilos a tus elementos html.
 
 ## Etiquetas vacías
 
-En tu investigación seguro también te topaste con [el elemento `<img>` para agregar una imagen a tu web:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) y habrás
-notado que no tiene una etiqueta de cierre y por lo tanto no tienen "contenido":
+En tu investigación seguro también te topaste con [el elemento `<img>` para agregar una imagen a tu web](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) y habrás
+notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene "contenido":
 
 ```html
 <img src="http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg">
 ```
 
-Algunas etiquetas no tienen directamente contenido, sino que reciben una fuente
-de la cual obtener el contenido. Es lo que sucede con
-la etiqueta `img`. El atributo `src` brinda la ruta del contenido. En este caso,
+Algunas etiquetas no tienen directamente contenido; más bien reciben una _fuente_
+de la cual obtener el contenido. Esto es lo que sucede con
+el elemento `img`. El atributo `src` brinda la ruta del contenido. En este caso,
 al ir a la ruta http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg encontraremos
 la foto de Mariana con Mark y Barack :)
 
@@ -237,7 +242,7 @@ arbrir el comentario y `-->` para cerrarlo.
 
 Ahora que tienes una idea de los elementos `html` más comunes, su
 comportamiento (inline vs block) y sus atributos principales, Michelle te
-explicará cómo construir una réplica de la página de Grace Hopper de wikipedia:
+explicará cómo construir una réplica de la página de [Grace Hopper de wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper):
 
 [![Grace Hopper](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
 ***
