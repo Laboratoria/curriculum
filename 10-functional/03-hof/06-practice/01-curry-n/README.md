@@ -8,10 +8,10 @@ Este es un ejemplo de implementación usando `curry3`, el cual tiene capacidad d
 manejar hasta tres argumentos:
 
 ```js
-function curry3(fun){
-  return function(one){
-    return function(two){
-      return function (three){
+function curry3(fun) {
+  return function(one) {
+    return function(two) {
+      return function (three) {
         return fun(one, two, three)
       }
     }
@@ -44,7 +44,7 @@ de argumentos.
 
 `curryN` recibe dos parámetros:
 
-* fn: la función que queremos para _curry_.
+* fn: la función a la que le queremos añadir _curry_.
 * n: número opcional de argumentos para _curry_. Si no se suministra, entonces
   `curryN` debe usar la aridad de `fn` como el valor para `n`.
 
@@ -72,13 +72,3 @@ console.log(curryN(add3)(1)(2)(3)) // => 6
 
 * Se puede detectar el número esperado de argumentos de una función (su aridad)
   revisando la propiedad .length de la función.
-
-## Plantilla
-
-```js
-function curryN(fn, n) {
-  // La solución vá aquí,
-}
-
-module.exports = curryN
-```

@@ -2,7 +2,7 @@
 
 
 const Assert = require('chai').assert;
-const Submission = require('../solution/parse-items');
+const Submission = require('../solution/parseItems');
 
 
 describe('parseItems()', () => {

@@ -3,8 +3,7 @@
 
 const Assert = require('chai').assert;
 const Sinon = require('sinon');
-const Submission = require('../solution/logger');
-
+const Submission = require('../solution/boundLogger');
 
 
 describe('with bind', () => {

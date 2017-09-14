@@ -6,7 +6,6 @@ const Sinon = require('sinon');
 const Submission = require('../solution/logger');
 
 
-
 describe('logger()', () => {
 
   it('debería exportar una función', () => {

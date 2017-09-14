@@ -20,7 +20,7 @@ argumentos que le pasen.
 ## Ejemplo
 
 ```js
-const { log, logger } = require('./tu-modulo');
+const { logger } = require('./tu-modulo');
 
 const info = logger('INFO:')
 info('this is an info message')
