@@ -52,5 +52,4 @@ incluirán un boilerplate.
 
 * No lo des demasiadas vueltas, el código debe ser muy simple.
 * No pasa nada si usas un loop. Bonus para quien implemente usando recursión.
-* No te despistes si ves output. Esto viene de la función que te estamos pasando.
 * No tienes que usar console.log para nada.

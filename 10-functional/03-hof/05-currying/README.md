@@ -1,4 +1,4 @@
-# Aplicando _curry_ en JavaScript funcional
+# Aplicando curry en JavaScript funcional
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -19,6 +19,12 @@ función que toma múltiples argumentos en una evaluación de una secuencia de
 funciones, cada una de funciones de la secuencia espera un único argumento.
 _Currying_ está relacionado con el concepto de [aplicación
 parcial][partial-application], pero no es lo mismo.
+
+Una función curry es una que retorna progresivamente una función más específica
+por cada uno de los argumentos dados hasta que ya no sean necesarios más
+parámetros. Una función parcialmente aplicada, por otra parte, es una función
+que es "parcialmente" ejecutada y está lista para su inmediata ejecución una vez
+dado el resto de los parámetros esperados.
 
 El _currying_ es elemental en la mayoría de los lenguajes de programación
 funcional, por ejemplo Haskell o Scala. A pesar que JavaScript ofrece soporte
