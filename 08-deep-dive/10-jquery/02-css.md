@@ -43,7 +43,7 @@ desea mostrar.
 
 ## Trabajar con clases
 
-````javascript
+```javascript
 var $h1 = $('h1');
 $h1.addClass('big');
 $h1.removeClass('big');
