@@ -20,5 +20,3 @@
 ## Guía de preguntas y conceptos clave
 
 [WIP]
-
-Como referencia ver https://github.com/Laboratoria/curricula-js/blob/02-interactive-site/02-interactive-site/01-basic-programming-in-javascript/00-opening.md
