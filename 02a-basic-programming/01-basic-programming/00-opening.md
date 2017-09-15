@@ -23,14 +23,14 @@ arreglos y objetos. Haciendo uso de estas estructuras de datos podremos crear
 programas y productos digitales de mayor complejidad.
 
 En esta unidad también aprenderemos a utilizar dos programas esenciales para
-cualquier desarrollador. El primero es un controlador de versiones (git) que
+cualquier desarrollador. El primero es un controlador de versiones (Git) que
 permite llevar el control del progreso de tu código y mantener un respaldo de
 tu trabajo. El segundo es la línea de comandos (CLI), la interfaz por la cual un
-desarrollador accede a todo el poder de su computador. Sabiendo usar la CLI
-podrás instalar programas, usar git, correr cualquier programa, y muchas cosas
+desarrollador accede a todo el poder de su computador. Sabiendo usar la `CLI`
+podrás instalar programas, usar `Git`, correr cualquier programa, y muchas cosas
 más. ¿Estás lista? ¡Vamos!
 
-## Guia de preguntas y conceptos clave:
+## Guía de preguntas y conceptos clave:
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales

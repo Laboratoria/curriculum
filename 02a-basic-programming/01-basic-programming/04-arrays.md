@@ -6,18 +6,18 @@
 ## Objetivos de Aprendizaje
 
 - Aprender qué son `arrays` y para qué sirven
-- Aprender a crear, acceder y modificar la información de un `arrays`
+- Aprender a crear, acceder y modificar la información de un `array`
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
+disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 
 ***
 
 ## Agrupando y manipulando data
-Como hemos visto, gran parte de la programación consiste en agrupar y manipular data. Esto nos permite transformar datos en información y utilizar esa información para resolver problemas. Hasta ahora hemos podido agrupar y manipular data haciendo uso de tipos de datos simples como: `numbers`, `booleans` y `strings`. Sobre ellos hemos creado una serie de programas sencillos. También hemos aprendido a modificar el control de flujo de estos programas, por medio de `estructuras repetitivas`, `estructuras condicionales` y `funciones`, lo cual nos ha permitido crear productos un poco más complejos. Sin embargo, nuestros programas han estado seriamente limitados debido a operan únicamente con **tipos de datos simples**. Para resolver problemas más complejos necesitamos poder agrupar y manipular data de una manera más interesante. Afortunadamente, un entorno JavaScript nos permite lograr esto brindándonos `arrays` y `objects`.
+Como hemos visto, gran parte de la programación consiste en agrupar y manipular data. Esto nos permite transformar datos en información y utilizar esa información para resolver problemas. Hasta ahora hemos podido agrupar y manipular data haciendo uso de tipos de datos simples como: `numbers`, `booleans` y `strings`. Sobre ellos hemos creado una serie de programas sencillos. También hemos aprendido a modificar el control de flujo de estos programas, por medio de `estructuras repetitivas`, `estructuras condicionales` y `funciones`, lo cual nos ha permitido crear productos un poco más complejos. Sin embargo, nuestros programas han estado seriamente limitados debido a que operan únicamente con **tipos de datos simples**. Para resolver problemas más complejos necesitamos poder agrupar y manipular data de una manera más interesante. Afortunadamente, un entorno JavaScript nos permite lograr esto brindándonos `arrays` y `objects`.
 
 ## ¿Por qué necesitamos `arrays`?
 Digamos, por poner un ejemplo, que queremos representar una colección de números: `2, 3, 5, 7 y 11`.
@@ -47,7 +47,7 @@ Afortunadamente, Javascript proporciona un tipo de dato específico para almacen
 var listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
-Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como cuando vamos al mercado y tenemos nuestra "lista de compras". Podríamos tener una hoja de papel para cada artículo que queremos comprar. Por ejemplo, podríamos tener una hoja de papel que dice "huevos", otra hoja que dice "pan", y otra hoja que dice "naranjas". Sin embargo, la mayoría de la gente escribía la lista completa de cosas a comprar en **una sola hoja de papel**.
+Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como cuando vamos al mercado y tenemos nuestra "lista de compras". Podríamos tener una hoja de papel para cada artículo que queremos comprar. Por ejemplo, podríamos tener una hoja de papel que dice "huevos", otra hoja que dice "pan", y otra hoja que dice "naranjas". Sin embargo, la mayoría de la gente escribe la lista completa de cosas a comprar en **una sola hoja de papel**.
 
 ## Accediendo información de un `array`
 
@@ -62,7 +62,7 @@ console.log(listOfNumbers[1 - 1]);
 // → 2
 ```
 
-El _index_ es el número que corresponde a (o que coincide con) el punto del `array` donde se almacena el valor. Al igual que con los `strings`, el primer elemento de una `array` está en el `index 0`, el segundo está en el `index 1`, el tercero en el `index 2`, y así sucesivamente. Es por eso que pedir index ` 1 - 1 ` (es decir, 0) del array anterior devuelve el número `2`.
+El _index_ es el número que corresponde a (o que coincide con) el punto del `array` donde se almacena el valor. Al igual que con los `strings`, el primer elemento de un `array` está en el `index 0`, el segundo está en el `index 1`, el tercero en el `index 2`, y así sucesivamente. Es por eso que pedir index ` 1 - 1 ` (es decir, 0) del array anterior devuelve el número `2`.
 
 ```js
                      INDEX
@@ -119,7 +119,7 @@ console.log(listOfNumbers);
 
 ## Mezclando tipos de datos en `arrays`
 
-Los elementos de un `array` no tienen que ser todos del mismo tipo de dato. Podemos, por ejemplo, tener un `array` que contenta un `number` (el número 3), un `string` ("dinosaurios") y otro `number` (el número 3627.5):
+Los elementos de un `array` no tienen que ser todos del mismo tipo de dato. Podemos, por ejemplo, tener un `array` que contenga un `number` (el número 3), un `string` ("dinosaurios") y otro `number` (el número 3627.5):
 
 ```js
 
@@ -132,7 +132,7 @@ console.log(mixedArray[2]);
 // → 3627.5
 ```
 
-Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente llama arrays de 2 dimensiones) Por ejemplo, para organizar la data de preguntas y respuesta de un quiz, podemos utilizar un `array` en el que cada elemento es, as vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
+Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente llama arrays de 2 dimensiones). Por ejemplo, para organizar la data de preguntas y respuesta de un quiz, podemos utilizar un `array` en el que cada elemento es, a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 ```js
 var questions = [
@@ -160,7 +160,7 @@ console.log(questions[3][1]);
 Cuando escribimos `console.log(questions[3][1])` le estamos diciendo a JavaScript que busque el `index 3` del array `questions` (lo cual es, a su vez, un array:`["¿Cuál es la moneda de México?", "Peso"]`), y que dentro de ese array busque el `index 1` (lo cual es el `string` `"Peso"`) e imprima el resultado en la consola.
 
 
-A continuación Michelle nos explica los conceptos principales de `arrays` con un ejemplo
+A continuación Michelle nos explica los conceptos principales de `arrays` con un ejemplo:
 
 [![ejemplo array dinosaurios pg 44 JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
 

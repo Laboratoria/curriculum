@@ -6,7 +6,7 @@
 ## Objetivos
 
 - Conocer qué es Laboratoria y cuál es su propósito
-- Conocer el equipo que está detrás de Laboratoria en tu sede
+- Conocer al equipo que está detrás de Laboratoria en tu sede
 
 ## Agenda
 

@@ -12,11 +12,11 @@
 
  1. Entendamos bien el concepto de un `array` y un `object`
 
- 2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `array` (incluído arrays 2D)
+ 2. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo acceder y manipular data dentro de un `array` (incluido arrays 2D)
 
- 3. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo accesar y manipular data dentro de un `object`
+ 3. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo acceder y manipular data dentro de un `object`
 
- 4. Por medio de ejemplos en la consola nos aseguramos que entendemos cómo funcionan:
+ 4. Por medio de ejemplos en la consola nos aseguramos de que entendemos cómo funcionan:
    - `push()`
    - `shift()`
    - `unshift()`
