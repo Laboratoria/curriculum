@@ -24,7 +24,7 @@ Por ejemplo:
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este reto. Escúchala con detenimiento y sigue sus consejos! :)
+resolver este reto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
@@ -37,12 +37,12 @@ También te compartimos más información de lo que Michelle te ha explicado en 
 > Hacker edition: si te sientes con ganas de hacer este ejercicio con un mayor
 nivel de dificultad, logra que tu programa:
 >  1. Funcione con letras mayúsculas y minúsculas
->  2. Pueda cifrar y decifrar. La fórmula para decifrar es: `(x - n) % 26`
+>  2. Pueda cifrar y descifrar. La fórmula para descifrar es: `(x - n) % 26`
 
 ## 2. Tarjeta de crédito válida
 
 Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de
-crédito y confirme su validez, según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn). Lee este blog que explica [cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+crédito y confirme su validez según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn). Lee este blog que explica [cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 A continuación un video de Michelle que te lleva a través del algoritmo de
 Luhn y te da tips para completar este proyecto:

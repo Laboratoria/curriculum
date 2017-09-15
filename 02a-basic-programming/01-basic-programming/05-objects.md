@@ -13,7 +13,7 @@
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
+disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 ***
 
 ## ¿Qué es un `object` en JavaScript?
@@ -175,7 +175,7 @@ console.log(movie.stars[2]);
 // → Lea Thompson
 
 ```
-Fíjate que hemos usado `movie.stars` y `movie["stars"]` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero consistente.
+Fíjate que hemos usado `movie.stars` y `movie["stars"]` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero de manera consistente.
 
 
 ## Definiendo o cambiando los elementos de un `object`

@@ -5,7 +5,7 @@
 
 ## Objetivos
 
-- Obtener feedback de tus compañeras sobre la limpieza y oden de tu código
+- Obtener feedback de tus compañeras sobre la limpieza y orden de tu código
 
 ## Agenda
 

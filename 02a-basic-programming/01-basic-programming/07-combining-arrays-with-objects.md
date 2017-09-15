@@ -9,7 +9,7 @@
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en 4 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
+El texto a continuación se basa en gran medida, con ciertos ajustes, en 4 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 
 ***
 
