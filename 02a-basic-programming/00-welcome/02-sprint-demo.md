@@ -28,4 +28,4 @@
 
 ***
 
-[Continuar](04-sprint1-kickoff.md)
+[Continuar](03-learning-at-laboratoria.md)

@@ -27,4 +27,4 @@ mentalidad de crecimiento (growth mindset)
 
 ***
 
-[Continuar](03-sprint-demo.md)
+[Continuar](04-sprint1-kickoff.md)
