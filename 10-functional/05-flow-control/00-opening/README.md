@@ -15,8 +15,18 @@
 
 ## ¿Por qué aprender esto?
 
-[WIP]
+Como desarrolladora de JavaScript, dominar la recursividad es fundamental para
+resolver ciertos problemas así como para visualizar el comportamiento de las
+funciones. Para ser una buena programadora debes interiorizar la recursión como
+segunda naturaleza.
+
+En la programación funcional, que es de estilo declarativo, intentamos evitar
+sentencias imperativas como bucles, usando recursividad como alternativa.
 
 ## Guía de preguntas y conceptos clave
 
-[WIP]
+La recursividad, así como muchos otros conceptos de la programación funcional
+pueden ser engañosamente simples. La definición en sí es corta, pero
+acostumbrarse al concepto e interiorizarlo lleva un tiempo.
+
+* ...
