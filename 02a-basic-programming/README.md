@@ -48,7 +48,7 @@ vida cotidiana:
 tarjeta de crédito es válida según el
 [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 
-2. **Ceasar Cipher**: crearás un programa que encripte y decifre mensajes según
+2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
 el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
@@ -65,7 +65,7 @@ Laboratoria.
 | 00 | lectura | 30min | Opening
 | 01 | seminario | 60min | Sobre Laboratoria
 | 02 | seminario | 90min | Cómo se aprende en Laboratoria
-| 03 | taller | 3hrs | Sprint Demo
+| 03 | taller | 2hrs | Sprint Demo
 | 04 | seminario | 30min | Sprint 1 Kick-off
 
 ### [02: Programación básica con JavaScript](01-basic-programming)

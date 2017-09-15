@@ -7,12 +7,12 @@
 
 #### 1. Repasemos qué hemos aprendido hasta ahora
 
-#### 2. Conversemos sobre el sentimiento de la clase (resultado del la
+#### 2. Conversemos sobre el sentimiento de la clase (resultado de la
   `auto-evaluación`)
 
 #### 3. Respondamos las preguntas del opening:
-- [ ] ¿Por qué es importante usar `git` y por qué ayuda al trabajo colaborativo?
-- [ ] ¿Cómo funciona `git`? Explica los comandos principales
+- [ ] ¿Por qué es importante usar `Git` y por qué ayuda al trabajo colaborativo?
+- [ ] ¿Cómo funciona `Git`? Explica los comandos principales
 - [ ] ¿Qué se hace con la `interfaz de línea de comandos`? ¿Para qué sirve?
 - [ ] ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
 - [ ] ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos más complejos?

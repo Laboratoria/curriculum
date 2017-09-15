@@ -16,7 +16,7 @@ las ventajas y desventajas de cada solución propuesta
   - `String.fromCharCode()`
   - `ASCII` y `Unicode`
 
-2. Resolver los retos Cifrado César y Tarjeta de Crédito válida. Evaluar las
+2. Resolver los retos Cifrado César y Tarjeta de Crédito Válida. Evaluar las
 diferentes maneras de alcanzar el resultado y discutir cuál es la más óptima
 
 ***

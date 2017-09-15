@@ -5,9 +5,9 @@
 
 ## Objetivos
 
-- Conocer los principios que guian en aprendizaje en Laboratoria
+- Conocer los principios que guían el aprendizaje en Laboratoria
 - Entender qué es y cómo funciona el **salón de clases ágil**
-- Continuar la conversación alrededor de `Growth Mindset`
+- Continuar la conversación alrededor del `Growth Mindset`
 - Conocer algunas estrategias de auto-aprendizaje
 
 ## Agenda

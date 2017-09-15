@@ -12,12 +12,12 @@
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 y 4 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015;
+disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 y 4 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 
 ***
 
 ## Propiedades y métodos
-A lo largo de este curso hemos visto una serie de comandos un tanto extraños que nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al colocar `.length` al final de un `string` nos devuelve la cantidad caracteres del `string`. También hemos visto que al colocar `.toUpperCase()` al final de un `string` nos devuelve el mismo `string` pero todo en mayúscula.
+A lo largo de este curso hemos visto una serie de comandos un tanto extraños que nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al colocar `.length` al final de un `string` nos devuelve la cantidad de caracteres del `string`. También hemos visto que al colocar `.toUpperCase()` al final de un `string` nos devuelve el mismo `string` pero todo en mayúscula.
 
 Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Por ejemplo, `lenght` es una propiedad que nos dice la longitud del valor asociado, mientras que `toUpperCase()` es un método que hace la acción de transformar a mayúscula el valor asociado.
 
@@ -57,7 +57,7 @@ console.log(myArray);
 
 El acto de correr un método se conoce como "llamar" al método. Esto es porque, en el fondo, **los métodos son propiedades que continenen funciones** - y las funciones se "llaman" o "invocan". Tiene sentido, ¿cierto? Las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
-Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que despues de correr el código `myArray.push("último elemento");` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
+Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que después de correr el código `myArray.push("último elemento");` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
 
 ### Otros métodos de los `arrays`
 
@@ -78,7 +78,7 @@ A continuación te damos una lista de métodos de los `arrays` que debes investi
 - `splice()`
 - `lastIndexOf()`
 
-Recuerda que para tu investigación te recomendamos la información que ofrece la [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). También puedes buscar en Google e ir experimentando con la consola tú misma viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un `array` cualquiera y vayas probando lo que aprendes para garantizar que entienes cómo funcionan las cosas.
+Recuerda que para tu investigación te recomendamos la información que ofrece la [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). También puedes buscar en Google e ir experimentando con la consola tú misma viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un `array` cualquiera y vayas probando lo que aprendes para garantizar que entiendes como funcionan las cosas.
 
 Recuerda también que puedes explorar otras formas de auto-aprendizaje:
 
@@ -91,7 +91,7 @@ _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos 
 
 ## Propiedades y métodos de los `objects`
 
-Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro el ejemplo con el object `movie`:
+Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
 
 ```js
   var movie = {
@@ -123,7 +123,7 @@ Con `movie["title"]` o `movie.title` estamos accediendo a la **propiedad** llama
 A los `objects` que nosotros creamos (como el object `movie` del ejemplo) también podemos crearle **métodos**. Esto lo logramos incluyendo una `función` como propiedad. Pero, de momento, no te preocupes por esto. Lo veremos más adelante. Por ahora lo importante es saber es que, así como los `strings` y `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
 ### ¿La longitud de un `object`?
-La propiedad `length` que podemos usar para calcular la longitud de un `string` o de un `array`, no es una propiedad válida para los `objects` que nosotros creamos. Es decir, si nuestro object `movie` que hemos venido usando tratamos de aplicar la propiedad `length` el resultado es `undefined`.
+La propiedad `length` que podemos usar para calcular la longitud de un `string` o de un `array`, no es una propiedad válida para los `objects` que nosotros creamos. Es decir, si a nuestro object `movie` que hemos venido usando tratamos de aplicar la propiedad `length` el resultado es `undefined`.
 
 ```js
 var movie = {
