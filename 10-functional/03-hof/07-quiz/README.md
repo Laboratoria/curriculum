@@ -37,15 +37,31 @@ Cuál sería el resultado de invocar `foo('ana')(['ale', 'mafe', 'ana'])`?
 
 <solution style="display:none;">3</solution>
 
-### Blah blah blah
+### Aplicación parcial
 
-Se dice que una función tiene efectos secundarios cuando:
+Cuando usamos la técnica de aplicación parcial partimos de una función que
+recibe varios argumentos, y creamos una nueva función que simplemente invoca a
+la primera pero con un número de argumentos ya fijados, para no tener que
+especificarlos más tarde. Al aplicar parcialmente...
 
 #### Opciones
 
-1. Invoca a otras funciones durante su ejecución
-2. Cambia estado fuera de su scope
-3. Programa tareas para que se ejecuten en el futuro
-4. Retorna funciones
+1. solo podemos aplicar parcialmente un argumento
+2. fijamos todos los argumentos de una función
+3. fijamos los primeros argumentos (uno o más)
+4. fijamos los últimos argumentos
 
-<solution style="display:none;">1</solution>
+<solution style="display:none;">3</solution>
+
+### Currying
+
+A diferencia de la aplicación parcial, cuando aplicamos currying...
+
+#### Opciones
+
+1. fijamos todos los argumentos en una sola invocación
+2. fijamos un argumento por función
+3. el compilador hace ejercicio
+4. hacemos uso de higher order functions
+
+<solution style="display:none;">2</solution>

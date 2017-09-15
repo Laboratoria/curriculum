@@ -20,28 +20,35 @@ enviadas como argumento y devueltas como valor de retorno.
 
 <solution style="display:none;">1</solution>
 
-### Dada la siguiente función ...
+### Currying
 
-```js
-//...
-```
-
-#### Opciones
-
-1. Sí
-2. No
-
-<solution style="display:none;">1</solution>
-
-### Blah blah blah
-
-Se dice que una función tiene efectos secundarios cuando:
+Cuando aplicamos currying, partimos de una función que recibe varios argumentos
+y la "convertimos" en...
 
 #### Opciones
 
-1. Invoca a otras funciones durante su ejecución
-2. Cambia estado fuera de su scope
-3. Programa tareas para que se ejecuten en el futuro
-4. Retorna funciones
+1. un objeto multidimensional
+2. una secuencia de funciones, cada una esperando un solo argumento
+3. una función pura
+4. una función sin argumentos de entrada
 
-<solution style="display:none;">1</solution>
+<solution style="display:none;">2</solution>
+
+### Funciones como valores de primera clase
+
+En JavaScript, las funciones son valores o ciudadanas de primera y esto permite
+que tengamos higher order functions. Marca todas las características propias
+de los valores de primera clase:
+
+#### Opciones
+
+1. Podemos asignarlas a identificadores (variables)
+2. No podemos asignarlas a identificadores (variables)
+3. Podemos asignarlas a propiedades de objetos
+4. No podemos asignarlas a propiedades de objetos
+5. Podemos pasarlas como argumentos
+6. No podemos pasarlas como argumentos
+7. Podemos usarlas como valor de retorno
+8. No podemos usarlas como valor de retorno
+
+<solution style="display:none;">1,3,5,7</solution>
