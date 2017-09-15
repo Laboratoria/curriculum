@@ -6,7 +6,7 @@
 ## Objetivos
 
 - Conocer el plan de estudios del Bootcamp
-- Conocer los principios que guian en aprendizaje en Laboratoria: el
+- Conocer los principios que guían el aprendizaje en Laboratoria: el
 salón de clases ágil
 - Conocer el sistema de evaluación en Laboratoria
 - Continuar la conversación alrededor de `Growth Mindset`
