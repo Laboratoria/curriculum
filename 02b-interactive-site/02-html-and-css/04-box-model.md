@@ -13,9 +13,9 @@ https://docs.google.com/presentation/d/1cujtTHz0QVEZClm8WNTNsNUlMXeD0fVOJg0ybvBK
 
 ### El modelo de la caja
 
-### Alto y Ancho
-
 ### Margin, Border & Padding
+
+### Alto y Ancho
 
 ### Box sizing
 
