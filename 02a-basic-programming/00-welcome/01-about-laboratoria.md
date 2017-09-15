@@ -5,24 +5,20 @@
 
 ## Objetivos
 
-- Conocer qué es Laboratoria y cuál es su propósito
 - Conocer el equipo que está detrás de Laboratoria en tu sede
+- Conocer a tus compañeras de la 7ma promoción de Laboratoria
 
 ## Agenda
 
- 1. ¿Cuál es el propósito de Laboratoria?
-
- 2. ¿Qué voy a aprender? (plan de estudios)
-
- 3. El Capitán: nuestro Learning Management System
-
- 4. ¿Cómo me van a evaluar?
-
- 5. Presentación del equipo de Laboratoria en tu sede
+1. Presentación del team Laboratoria en tu sede
+2. Presentaciones personales de todas las alumnas
+3. Normas de convivencia
 
 ## Material
-* [Presentación primer día de clases en Laboratoria (regional)](https://docs.google.com/a/laboratoria.la/presentation/d/1jCYbMtzwq2x3oJ1ZVcvjRIofaJIxgdvAzVYHDfHfITg/edit?usp=sharing)
+* [Presentación primer día de clases - Lima](https://docs.google.com/presentation/d/1ap1wnPhHYHzyHIq2R64NyOGVzSwhVKxGBiHTCI7sU8E/edit#slide=id.g25358e699e_0_0","Presentación primer día de clases - Lima)
+* [Presentación primer día de clases - Santiago de Chile](https://docs.google.com/presentation/d/1T9M6C37B4qHBhmwpOYa2XzvXY7aGlPnHDuYU2yx1HVA/edit#slide=id.g2691fab262_0_75","Presentación primer día de clases - Santiago de Chile)
+* [Presentación primer día de clases - México DF](https://docs.google.com/presentation/d/1765Gjxz9PGziALsqRsXMT949y0fi2zf3bn48b9qR0-Q/edit#slide=id.g2620c69699_0_178","Presentación primer día de clases - México DF)
 
 ***
 
-[Continuar](02-learning-at-laboratoria.md)
+[Continuar](02-sprint-demo.md)

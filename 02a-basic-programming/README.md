@@ -55,18 +55,18 @@ el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sa
 
 ### [01: Bienvenida](00-welcome)
 
-7 hrs
+4.5 hrs
 
-Darle la bienvenida a la nueva promoción y conocer cómo se aprende en
-Laboratoria.
+Darle la bienvenida a la nueva promoción, conocer cómo se aprende en
+Laboratoria y empezar las clases.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 30min | Opening
-| 01 | seminario | 60min | Sobre Laboratoria
-| 02 | seminario | 90min | Cómo se aprende en Laboratoria
-| 03 | taller | 3hrs | Sprint Demo
-| 04 | seminario | 30min | Sprint 1 Kick-off
+| 00 | lectura | 10min | Opening
+| 01 | seminario | 40min | Presentación Laboratoria
+| 02 | taller | 120min | Sprint Demo
+| 03 | seminario | 60min | Cómo se aprende en Laboratoria
+| 04 | seminario | 60min | Sprint 1 Kick-off
 
 ### [02: Programación básica con JavaScript](01-basic-programming)
 
