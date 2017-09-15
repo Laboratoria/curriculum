@@ -160,7 +160,8 @@ En tu investigación seguro te topaste con [el elemento `a` para agregar un link
 notado que en la etiqueta de apertura aparece una serie de información:
 
 ```html
-<a href="http://laboratoria.la/" target="_blank" title="Página de inicio de Laboratoria">Ir a Laboratoria</a>
+<a href="http://laboratoria.la/" target="_blank" title="Página de inicio de
+Laboratoria">Ir a Laboratoria</a>
 ```
 
 Esa información son **atributos**. Los atributos nos dan información adicional
