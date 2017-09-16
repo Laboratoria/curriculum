@@ -24,6 +24,10 @@
 
 ## Material
  * [Presentación Sprint Demo](https://docs.google.com/presentation/d/1ouNfkPABulrt1PSIzeUXevVJRmHammBhbmtbRxWdGfg/edit#slide=id.g2535e51d6d_0_85)
+ * Autoevaluación Sprint Demo
+  - [Lima](https://docs.google.com/forms/d/e/1FAIpQLSc1-gZDdm_gsXhFxEyK8Yn296ozUgDsorNivJTC6vu_5KA-5g/viewform)
+  - Santiago de Chile
+  - [Ciudad de México](https://docs.google.com/forms/d/1YS7Gj2ni0CLtCf-BDU-14v-H6E-1IEJwHPIFUuUAJJI/edit)
 
 ***
 
