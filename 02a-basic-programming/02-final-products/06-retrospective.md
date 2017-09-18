@@ -1,7 +1,7 @@
 # Retrospectiva
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `3hrs`
+- Duración: `2hrs`
 
 ## Objetivo
 
