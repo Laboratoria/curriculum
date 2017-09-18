@@ -15,7 +15,7 @@ Javascript`, asegurando que sabemos:
 
 Además repasaremos conceptos clave del flujo de trabajo de una developer:
 * Utilización de la línea de comandos
-* Control de versiones con `git` y `GitHub`
+* Control de versiones con `Git` y `GitHub`
 
 ## Agenda
 
@@ -47,7 +47,7 @@ Además repasaremos conceptos clave del flujo de trabajo de una developer:
 3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos,
 repasemos el funcionamiento de:
   * La línea de comando
-  * Flujo básico de trabajo con git y GitHub (`init`, `status`, `add`, `commit`,
+  * Flujo básico de trabajo con Git y GitHub (`init`, `status`, `add`, `commit`,
     `push` y `pull`)
 
 4. Asegurar que las alumnas tienen bien configurado su ambiente de

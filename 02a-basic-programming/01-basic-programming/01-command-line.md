@@ -9,7 +9,7 @@ En esta unidad aprenderemos:
 
 - ¿Qué es la `línea de comando`?
 - Entender la finalidad de la `línea de comando`
-- Aprender  navegar por nuestro `directorio`
+- Aprender a navegar por nuestro `directorio`
 - Crear archivos o carpetas desde la terminal
 
 Referencia:
@@ -20,18 +20,18 @@ Referencia:
 
 ## La línea de comando
 
-La línea de comando o también conocida como:
+La línea de comando es también conocida como:
   - Terminal
   - Consola
   - Command Prompt
-  - Simbolo de Sistema
+  - Símbolo de Sistema
   - cmd
   - Git Bash, etc.
 
 Una de las herramientas que más nos acompañará en nuestro camino del código
 será la `línea de comando`. En esta lección conoceremos y aprenderemos cómo
-usar esa famosa pantalla negra que los 'hackers' usan; pero tranquila, no
-vamos a 'hackear' nada, ni haremos nada ilegal :)
+usar esa famosa pantalla negra que los "hackers" usan; pero tranquila, no
+vamos a "hackear" nada, ni haremos nada ilegal :)
 
 Puede parecer un poco aterrador al principio pero solo es una pantalla que
 espera a que le des órdenes.
@@ -40,7 +40,7 @@ espera a que le des órdenes.
 
 La `línea de comando` es una aplicación que nos permite ver, manejar y
 manipular archivos de nuestra computadora por medio de `comandos`. Es como el
-Explorador de Windows o Finder en Mac, pero sin la 'interfaz'.
+Explorador de Windows o Finder en Mac, pero sin la "interfaz".
 
 Por lo tanto, nos da un control que es rápido y automatizado de las
 computadoras.
@@ -63,22 +63,22 @@ la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así
 
 ### Comandos
 
-Ya estamos dentro de la famosa 'pantalla negra', ahora veamos qué asombrosas
+Ya estamos dentro de la famosa "pantalla negra", ahora veamos qué asombrosas
 cosas podemos hacer.
 
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
 
->¿Cómo ejecutamos un comando?
-    1. Debemos de escribir el comando
+>¿Cómo ejecutamos un comando?<br>
+    1. Debemos de escribir el comando<br>
     2. Presionando la tecla 'enter' estaremos ejecutando un comando
 
-- `cd`: Este comando nos ayudará a navegar por nuestros **directorios**(también
+- `cd`: este comando nos ayudará a navegar por nuestros **directorios** (también
   llamados **carpetas**), entre nuestros archivos. Con él, podremos saber en
   dónde nos encontramos, acceder a otra carpeta o volver a una carpeta anterior
   .
 
   Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
-  recorrela. Ahora me encuentro en mi cuarto, pero ¿que pasa si quiero ir al
+  recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
   **baño**?.
 
   ![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)  
@@ -93,15 +93,14 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
   entramos a la carpeta buscada.
 
   Ahora veamos qué podemos hacer con `cd`:
-     1. `cd` : Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
-     2. `cd nombre-carpeta` : Si luego de cd indicamos el nombre de una carpeta
-     , al ejecutarlo, estaremos ingresando dentro de ella.
+     1. `cd` : al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
+     2. `cd nombre-carpeta` : si luego de cd indicamos el nombre de una carpeta, al ejecutarlo, estaremos ingresando dentro de ella.
      3. `cd..` : si ponemos dos puntos (`..`) junto a `cd`, estaremos saliendo
      de la carpeta en donde nos encontramos y volveremos una hacia atrás.
   En la siguiente imagen puedes observar
 
 
-- `dir` : Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
+- `dir` : muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
   Por ejemplo, si ejecuto el comando `dir` en "C:\Users\MICHELLE SEGUIL" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
 
     ![dir](https://fotos.subefotos.com/952cc99911a69bc648cd82b5cc63937bo.png)
@@ -111,20 +110,20 @@ es muy importante en qué parte del directorio nos encontramos porque en la
 ubicación en la que los ejecutemos es donde se creará el nuevo archivo o
 carpeta.
 
-- `mkdir` : Si ejecutamos el comando `mkdir` estaremos creando un nuevo
+- `mkdir` : si ejecutamos el comando `mkdir` estaremos creando un nuevo
   directorio, entonces después de la palabra `mkdir` debemos especificar el
   nombre de la nueva carpeta.
   >mkdir nombre-carpeta
 
-  Por ejemplo, si quiero crear la carpeta "js" desde la terminarl, el comando
+  Por ejemplo, si quiero crear la carpeta "js" desde la terminal, el comando
   sería así:
     >mkdir js
 
-- `echo`: Con `echo` estaremos creando un nuevo archivo. Su estructura es así:
+- `echo`: con `echo` estaremos creando un nuevo archivo. Su estructura es así:
   1. Comando:`echo`
   2. Texto con el que se creará: `texto`
   3. Símbolo `>`
-  4. Por último, indicaremos el nombre del archivo con su respectiva extendión
+  4. Por último, indicaremos el nombre del archivo con su respectiva extensión
     `nombre-archivo.extension`
 
     Entonces nuestro comando sería así:

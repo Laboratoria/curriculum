@@ -22,7 +22,7 @@ que te apoyarán en esta nueva aventura y etapa de tu vida :)
 que nosotros llamamos el **salón de clases ágil**. El modelo
 educativo de Laboratoria es radicalmente distinto al tradicional. Con el
 `Sprint Demo` vivirás la experiencia de aprender en Laboratoria y aclararemos
-expectativas para que puedas arrancar con bien pie :)
+expectativas para que puedas arrancar con buen pie :)
 
 3. Conocerás a tus compañeras de estudio y será el comienzo de una linda amistad
 
