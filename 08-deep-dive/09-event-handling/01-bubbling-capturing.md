@@ -30,9 +30,9 @@ html>`.
 
 En el event flow, cada evento lanzado en el DOM empieza en el contexto global
 (es decir, `window`), pasa por el `nodo raíz` del `document` y sigue un
-camino a través de una serie de nodos hijos (`Capturing phase`) que le permita
-llegar al elemento que lanza dicho evento (`Target phase`).
-En la `target phase`, el evento es lanzado. Luego, empieza la `bubbling phase
+camino a través de una serie de nodos hijos (Capturing phase) que le permita
+llegar al elemento que lanza dicho evento (Target phase).
+En la `target phase`, el evento es lanzado. Luego, empieza la `bubbling phase`
 siguiendo el mismo camino de la `capturing phase`, pero en sentido inverso,
 hasta llegar al contexto global (`window`).
 
