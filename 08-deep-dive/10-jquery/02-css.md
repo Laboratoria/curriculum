@@ -5,13 +5,13 @@
 
 ***
 
-jQuery incluye una manera útil de obtener y establecer propiedades CSS a los
+jQuery incluye una manera útil de obtener y establecer propiedades `CSS` a los
 elementos.
-Las propiedades CSS que incluyen como separador un guión del medio, en
+Las propiedades `CSS` que incluyen como separador un guión del medio, en
 JavaScript deben ser transformadas a su estilo CamelCase. Por ejemplo, cuando
 se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser
 expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se
-pasa el nombre de la propiedad CSS al método `$.fn.css` en este caso, los dos
+pasa el nombre de la propiedad `CSS` al método `$.fn.css` en este caso, los dos
 formatos (en CamelCase o con el guión del medio) funcionarán.
 
 ## Obtener propiedades CSS
