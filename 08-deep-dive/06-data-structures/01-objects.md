@@ -35,3 +35,7 @@ son directamente accesibles desde JavaScript, pero existen formas indirectas de
 hacerlo. La especificación escribe las llaves de las propiedades internas entre
 corchetes (`[]`). Por ejemplo, `[[Prototype]]` almacena el prototipo de un
 objeto y se puede leer a través del método `Object.getPrototypeOf()`.
+
+***
+
+[Continuar](02-exercises.md)

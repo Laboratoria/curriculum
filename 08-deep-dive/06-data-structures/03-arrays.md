@@ -48,3 +48,7 @@ arreglo:
 > arr;
 [ 'a', 'b', 'd' ];
 ```
+
+***
+
+[Continuar](04-exercises.md)
