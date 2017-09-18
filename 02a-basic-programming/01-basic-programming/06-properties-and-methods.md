@@ -163,7 +163,7 @@ console.log(Object.keys(movie));
 ```
 ## Inspeccionando `arrays` y `objects`
 
-Para desplegar en consola la información contenida en un `array` de 2 dimensiones o un `objet` se nos ofrece el metodo `.table()` de `console`.
+Para desplegar en consola la información contenida en un `array` de 2 dimensiones o un `object` se nos ofrece el metodo `.table()` de `console`.
 
 ```js
 var questions = [
