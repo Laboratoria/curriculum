@@ -8,3 +8,7 @@
 <iframe src="https://goo.gl/tCHcoS" frameborder="0" width="684" height="430"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
+
+***
+
+[Continuar](01-objects.md)

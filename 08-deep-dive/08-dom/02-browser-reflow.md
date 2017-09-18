@@ -128,3 +128,5 @@ utilizar para mejorar el rendimiento, como el caso que vimos de ejemplo
 anteriormente.
 
 ***
+
+[Continuar](03-exercises.md)

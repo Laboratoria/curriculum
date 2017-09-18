@@ -141,3 +141,5 @@ capturar el elemento que dispara el evento usando `this` (como en `ES5`) por
 eso se recomienda usar `e.target`
 
 ***
+
+[Continuar](03-exercises.md)

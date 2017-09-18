@@ -121,7 +121,7 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 |   2   | lectura  |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/01-variables-and-data-types.md)
 |   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
 |   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
-|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-built-in-objects.md)
+|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-exercises.md)
 
 ### Lección 05: [Funciones](05-functions)
 
@@ -137,9 +137,8 @@ un objeto, etc.
 |-------|----------|-----------|-------------
 |   1   | lectura  |   15min   | [Intro](05-functions/00-overview.md)
 |   2   | lectura  |   15min   | [Funciones](05-functions/01-functions.md)
-|   3   | workshop |   15min   | [Ejercicios](05-functions/02-exercises.md)
-|   4   | lectura  |   15min   | [Scope](05-functions/03-scope.md)
-|   5   | workshop |   15min   | [Ejercicios](05-functions/04-exercises.md)
+|   3   | lectura  |   15min   | [Scope](05-functions/02-scope.md)
+|   4   | workshop |   15min   | [Ejercicios](05-functions/03-exercises.md)
 
 ### Lección 06: [Estructura de Datos](06-data-structures)
 
@@ -171,7 +170,7 @@ de nuestro código.
 |   1   |lectura|   10min   | [Modo Estricto](07-manejo-de-excepciones/00-modo-estricto.md)
 |   2   |lectura|   10min   | [try...catch](07-manejo-de-excepciones/01-try-catch.md)
 
-### Lección 08: [Document Objet Model (DOM)](#)
+### Lección 08: [Document Objet Model (DOM)](08-dom)
 
 Cuando el navegador obtiene el HTML de una página, construye un modelo de la
 estructura del documento y lo usa para dibujar la página en la pantalla. Esta
@@ -181,11 +180,12 @@ cuenta el performance del navegador.
 
 | Orden | Tipo | Duración | Descripción
 |-------|------|----------|-------------
-|   1   |      |   Xmin   | [Recorrido del DOM](#)
-|   2   |      |   Xmin   | [Manipulación del DOM](#)
-|   3   |      |   Xmin   | [Redibujo del navegador](#)
+|   1   | lectura  |   10min   | [Recorrido del DOM](08-dom/00-dom-traversing.md)
+|   2   | lectura  |   10min   | [Manipulación del DOM](08-dom/01-dom-manipulation.md)
+|   3   | lectura  |   10min   | [Redibujo del navegador](08-dom/02-browser-reflow.md)
+|   4   | workshop |   10min   | [Ejercicios](08-dom/03-exercises.md)
 
-### Lección 09: [Manejo de Eventos](#)
+### Lección 09: [Manejo de Eventos](09-event-handling)
 
 Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
 aplicaciones web, estas alteraciones se realizan luego de cierta interacción
@@ -194,11 +194,12 @@ entender aspectos importantes del comportamiento de eventos y como manejarlos.
 
 | Orden | Tipo | Duración | Descripción
 |-------|------|----------|-------------
-|   1   |      |   Xmin   | [Manejador de Eventos](#)
-|   2   |      |   Xmin   | [Bubbling vs. Capturing](#)
-|   3   |      |   Xmin   | [this vs. event.target](#)
+|   1   | lectura  |   10min   | [Manejador de Eventos](09-event-handling/00-events-handling.md)
+|   2   | lectura  |   10min   | [Bubbling vs. Capturing](09-event-handling/01-bubbling-capturing.md)
+|   3   | lectura  |   10min   | [this vs. event.target](09-event-handling/02-this-eventtarget.md)
+|   4   | workshop |   10min   | [Ejercicios](09-event-handling/03-exercises.md)
 
-### Lección 10: [jQuery](#)
+### Lección 10: [jQuery](10-jquery)
 
 jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
 entre otras funcionalidades, en esta lección no veremos la sintaxis de las
@@ -209,10 +210,11 @@ consideraciones para el encapsulamiento de código a través de la creación de
 
 | Orden | Tipo | Duración | Descripción
 |-------|------|----------|-------------
-|   1   |      |   Xmin   | [Selectores](#)
-|   2   |      |   Xmin   | [Manejo del DOM](#)
-|   3   |      |   Xmin   | [CSS](#)
-|   4   |      |   Xmin   | [Creación de Plugin](#)
+|   1   | lectura  |   10min   | [Selectores](10-jquery/00-selectors.md)
+|   2   | lectura  |   10min   | [Manejo del DOM](10-jquery/01-dom.md)
+|   3   | lectura  |   10min   | [CSS](10-jquery/02-css.md)
+|   4   | lectura  |   10min   | [Creación de Plugin](10-jquery/03-plugin-creation.md)
+|   5   | workshop |   10min   | [Ejercicios](10-jquery/04-exercises.md)
 
 ## Autor(es) / Colaboradores
 
