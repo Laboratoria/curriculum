@@ -53,7 +53,7 @@ se muestra otro mensaje:
 
 ```html
 <div onclick="console.log('Has pinchado con el ratón');" onmouseover="console.log('Acabas de pasar el ratón por encima');">
-    <--Puedes pinchar sobre este elemento o simplemente pasar el ratón por encima-->
+Puedes pinchar sobre este elemento o simplemente pasar el ratón por encima
 </div>
 ```
 
