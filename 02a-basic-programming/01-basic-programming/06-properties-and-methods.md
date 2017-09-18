@@ -7,6 +7,7 @@
 
 - Aprender qué son propiedades y métodos en JavaScript
 - Aprender los principales propiedades y métodos de `arrays` y `objects`
+- Aprender a inspeccionar la información de `arrays` y `objects` usando `console.table(args);`
 
 ***
 
@@ -160,6 +161,37 @@ console.log(Object.keys(movie));
 // → (8) ["title", "director", "stars", "year of release", "plot", "oscar", "tags", "other awards"]
 
 ```
+## Inspeccionando `arrays` y `objects`
+
+Para desplegar en consola la información contenida en un `array` de 2 dimensiones o un `objet` se nos ofrece el metodo `.table()` de `console`.
+
+```js
+var questions = [
+  ["¿En cuántos países opera Laboratoria?", 3],
+  ["¿Cuál es la capital de Perú?", "Lima"],
+  ["¿Cuál es baile típico Chileno?", "Cueca"],
+  ["¿Cuál es la moneda de México?", "Peso"]
+  ];
+console.log(questions);
+// → (4) [Array(2), Array(2), Array(2), Array(2)]
+
+console.table(questions);
+```
+![example array print](https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png)
+
+```js
+  var weblogs = [
+    {nombre: "Genbeta", visitas: 2000, color: "Azul"},
+    {nombre: "Xataka", visitas: 32000, color: "Verde"},
+    {nombre: "Applesfera", visitas: 12000, color: "Gris"}
+  ];
+   
+console.log(weblogs);
+// (3) [{…}, {…}, {…}]
+
+console.table(Weblogs);
+```
+![example object print](https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png)
 
 ***
 
