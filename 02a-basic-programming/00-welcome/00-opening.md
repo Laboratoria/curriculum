@@ -1,7 +1,7 @@
 # Bienvenida a Laboratoria
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `30min`
+- Duración: `10min`
 
 ## Objetivos de Aprendizaje
 

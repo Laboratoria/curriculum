@@ -21,7 +21,6 @@ bonificaciones y premios
 
 ## Material
  * [Presentación Sprint 1 Kick-off](https://docs.google.com/presentation/d/1623UM9tYNGVNYN_62jwgdIkP07okvI5Rb9hyZX8yXvc/edit#slide=id.g1b73c42c66_0_112)
- * [`Sprint 1: Programación Básica con JavaScript`](#)
 
 ***
 
