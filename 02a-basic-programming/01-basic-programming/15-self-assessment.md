@@ -10,7 +10,9 @@
 ***
 
 ## Auto-evaluación
-* https://goo.gl/forms/ubNGMMzjLAL88iG83
+- [Lima](https://docs.google.com/forms/d/e/1FAIpQLSd6Aj_uTOsxTR1JWKJnKjOC58SxwLiyACSOz8gIhXoGH4bejw/viewform)
+- Santiago de Chile
+- [México DF](https://docs.google.com/forms/d/e/1FAIpQLSfDR9xHnfg_SWEYnXLuYrtbRCQDCFOI2pf9ogKqqJLJ1y8vKA/viewform)
 
 ***
 

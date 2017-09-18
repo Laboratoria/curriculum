@@ -1,7 +1,7 @@
 # Sobre Laboratoria
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `60min`
+- Duración: `40min`
 
 ## Objetivos
 
