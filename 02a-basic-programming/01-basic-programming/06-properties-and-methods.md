@@ -172,6 +172,7 @@ var questions = [
   ["¿Cuál es baile típico Chileno?", "Cueca"],
   ["¿Cuál es la moneda de México?", "Peso"]
   ];
+  
 console.log(questions);
 // → (4) [Array(2), Array(2), Array(2), Array(2)]
 
