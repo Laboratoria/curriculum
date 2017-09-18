@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Malla curricular Full Stack JavaScript @Laboratoria",
   "scripts": {
-    "test": "mdlint ."
+    "pretest": "mdlint . || true",
+    "test": "course-parser */README.md --validate"
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [
