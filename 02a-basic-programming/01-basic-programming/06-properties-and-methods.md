@@ -167,12 +167,12 @@ Para desplegar en consola la información contenida en un `array` de 2 dimension
 
 ```js
 var questions = [
-  ["¿En cuántos países opera Laboratoria?", 3],
-  ["¿Cuál es la capital de Perú?", "Lima"],
-  ["¿Cuál es baile típico Chileno?", "Cueca"],
-  ["¿Cuál es la moneda de México?", "Peso"]
+  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿Cuál es la capital de Perú?', 'Lima'],
+  ['¿Cuál es baile típico Chileno?', 'Cueca'],
+  ['¿Cuál es la moneda de México?', 'Peso']
   ];
-  
+
 console.log(questions);
 // → (4) [Array(2), Array(2), Array(2), Array(2)]
 
@@ -182,9 +182,9 @@ console.table(questions);
 
 ```js
   var weblogs = [
-    {nombre: "Genbeta", visitas: 2000, color: "Azul"},
-    {nombre: "Xataka", visitas: 32000, color: "Verde"},
-    {nombre: "Applesfera", visitas: 12000, color: "Gris"}
+    {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
+    {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
+    {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
   ];
    
 console.log(weblogs);
