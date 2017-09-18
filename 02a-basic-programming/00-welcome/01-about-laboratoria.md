@@ -5,7 +5,7 @@
 
 ## Objetivos
 
-- Conocer el equipo que está detrás de Laboratoria en tu sede
+- Conocer al equipo que está detrás de Laboratoria en tu sede
 - Conocer a tus compañeras de la 7ma promoción de Laboratoria
 
 ## Agenda
