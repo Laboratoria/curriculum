@@ -1,7 +1,8 @@
 # Intro a CSS
-- Formato: `self-learning`
+
 - Tipo: `lectura`
-- Duración: `30min`
+- Formato: `self-paced`
+- Duración: `60min`
 
 ## Objetivos de Aprendizaje
 
