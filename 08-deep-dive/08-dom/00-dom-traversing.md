@@ -87,4 +87,4 @@ Los otros tipos de nodos existentes que no se van a considerar son
 
 ***
 
-[Continuar](01-manipulacion-del-dom.md)
+[Continuar](01-dom-manipulation.md)
