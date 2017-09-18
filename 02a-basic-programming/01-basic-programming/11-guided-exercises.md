@@ -41,6 +41,16 @@ Crea un programa que un cajero automático pueda utilizar para determinar el nú
 * 500 billetes de 5
 * 800 billetes de 1
 
+#### 7. Reserva de asientos en aerolínea.
+Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo sistema usando `promt` y `alert` solamente. Escribirás una aplicación para asignar asientos en cada vuelo del único avión de la aerolínea (capacidad: 10 asientos). 
+
+Tu aplicación debe mostrar las siguientes alternativas: Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico.
+
+Si el usuario escribe 1, tu aplicación debe asignarle un asiento en la sección de primera clase (asientos 1 a 4). Si el usuario escribe 2, tu aplicación debe asignarle un asiento en la sección económica (asientos 5 a 10).
+
+Tu aplicación deberá entonces imprimir un pase de abordar, indicando el número de asiento de la persona y si se encuentra en la sección de primera clase o clase económica.
+
+
 #### _Nota: Todos los retos deben validar los inputs antes de correr el programa._
 
 ***
