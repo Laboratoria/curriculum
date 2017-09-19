@@ -5,13 +5,8 @@
 
 ## Objetivos
 
-<<<<<<< HEAD
-- Conocer qué es Laboratoria y cuál es su propósito
-- Conocer al equipo que está detrás de Laboratoria en tu sede
-=======
 - Conocer al equipo que está detrás de Laboratoria en tu sede
 - Conocer a tus compañeras de la 7ma promoción de Laboratoria
->>>>>>> e93f516fb6fa75d92c9216bbe1400f18d3baa28b
 
 ## Agenda
 
