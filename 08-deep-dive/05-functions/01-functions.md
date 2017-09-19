@@ -252,4 +252,4 @@ welcome = function welcome() {
 
 ***
 
-[Continuar](02-exercises.md)
+[Continuar](02-scope.md)

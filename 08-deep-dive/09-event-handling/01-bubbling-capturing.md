@@ -59,4 +59,4 @@ al mismo evento y elemento.
 
 ***
 
-[Continuar](02-redibujo-del-navegador.md)
+[Continuar](02-this-eventtarget.md)

@@ -12,6 +12,9 @@
 
 ***
 
+<iframe width="684" height="430" src="https://goo.gl/LBQK4M" frameborder="0"
+allowfullscreen></iframe>
+
 ## ¿Qué vamos a aprender?
 
 Como indica el nombre del curso, vamos a `profundizar` en conceptos peculiares

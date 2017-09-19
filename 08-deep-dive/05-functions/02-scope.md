@@ -74,4 +74,4 @@ Dentro de la función `f`, la variable `x` es sombreada por la variable local
 
 ***
 
-[Continuar](04-exercises.md)
+[Continuar](03-exercises.md)

@@ -71,4 +71,4 @@ considerados elementos visibles.
 
 ***
 
-[Continuar](01-manejo-dom.md)
+[Continuar](01-dom.md)

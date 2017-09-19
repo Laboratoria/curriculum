@@ -152,4 +152,4 @@ Hablaremos más de ello en los siguientes cursos.
 
 ***
 
-[Continuar](01-control-flow.md)
+[Continuar](../08-dom/00-dom-traversing.md)

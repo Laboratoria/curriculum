@@ -229,4 +229,4 @@ hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
 
 ***
 
-[Continuar](02-redibujo-del-navegador.md)
+[Continuar](02-browser-reflow.md)
