@@ -41,6 +41,50 @@ Crea un programa que un cajero automático pueda utilizar para determinar el nú
 * 500 billetes de 5
 * 800 billetes de 1
 
+#### 7. Reserva de asientos en aerolínea.
+
+Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo sistema usando solamente `prompt` y `alert`. Escribirás una aplicación para asignar asientos en cada vuelo del único avión de la aerolínea (capacidad: 10 asientos). 
+
+Tu aplicación debe mostrar  un `menu principal` las siguientes alternativas: 
+
+* Por favor escribir 1 para `reservar asiento`
+* Por favor escribir 2 para `liberar asiento`
+* Por favor escribir 3 para `buscar por DNI`
+* Por favor escribir 4 para `listar todos los pasajeros` 
+* Por favor escribir -1 para `salir del sistema` 
+
+Si el usuario escribe 1, tu aplicación debe pedirle que escoja uno de los asientos libres, luego deberá pedir información personal (`nombre y apellidos` y `DNI`). Luego deberá retornar al `menú principal`.
+
+Si el usuario escribe 2, tu aplicación debe pedirle que escoja el asiento reservado que quiere liberar, luego debe pedir una configuración (SI/NO) mostrando la información asociada al asiento (`nombre y apellidos`, `DNI`). Luego debe retornar al `menú principal`.
+
+Si el usuario escribe 3, tu aplicación debe pedirle que ingresar el DNI, luego debe mostrar la información asociada al pasajero (`nombre y apellidos`, `asiento`) con `DNI` buscado. Luego debe retornar al `menú principal`.
+
+Si el usuario escribe 4, tu aplicación debe mostrar la lista de pasajeros e informacion relajada (`nombre y apellidos`, `DNI`, `asiento`) registrados en el sistema. Luego debe retornar al `menú principal`.
+
+
+Si el usuario escribe -1, tu aplicación debe   salir del sistema.
+
+
+##### Tips para la solución
+
+[Tip 1. | Los asientos]
+
+Para imprimir (via `promnt o alert`) la lista de asientos puede usar el siguiente tip:
+
+```js
+var str =   "1[ ] 3[ ] 5[ ] 7[ ] 9[ ]" + 
+            "2[ ] 4[ ] 6[ ] 8[ ] 10[ ]"; 
+
+alert (str); // todos los asientos estan libres
+
+var str =   "1[ ] 3[*] 5[ ] 7[ ] 9[ ]" + 
+            "2[*] 4[ ] 6[ ] 8[ ] 10[ ]"; 
+
+alert (str); // el asiento 2 y 3 estan reservados. 
+
+```
+
+
 #### _Nota: Todos los retos deben validar los inputs antes de correr el programa._
 
 ***
