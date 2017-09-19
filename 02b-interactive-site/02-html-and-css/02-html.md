@@ -246,6 +246,15 @@ comportamiento (inline vs block) y sus atributos principales, Michelle te
 explicará cómo construir una réplica de la página de [Grace Hopper de wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper):
 
 [![Grace Hopper](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
+
+## Los elementos `div` y `span`
+
+...@chamo completar.
+
+## Evitando el `divitis` y la `spanitis`
+
+...@Ruth
+
 ***
 
 [Continuar](03-css.md)
