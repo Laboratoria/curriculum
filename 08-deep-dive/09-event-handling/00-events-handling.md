@@ -5,6 +5,10 @@
 
 ***
 
+<iframe src="https://goo.gl/wBwVRr" frameborder="0" width="684" height="430"
+allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+
 Un evento de JavaScript por sí mismo carece de utilidad. Para que los eventos
 resulten útiles, se deben asociar funciones o código JavaScript a cada evento.
 De esta forma, cuando se produce un evento se ejecuta el código indicado, por
