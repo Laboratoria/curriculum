@@ -28,12 +28,12 @@ Mientras que los `arrays` se utilizan sobre todo para representar listas de cosa
 ```js
 
 var favoriteMovies = [
-  "The Big Fish",
-  "The Lord of the Rings",
-  "The Empire Strikes Back",
-  "The Artist",
-  "The Godfather",
-  "Back to the Future"
+  'The Big Fish',
+  'The Lord of the Rings',
+  'The Empire Strikes Back',
+  'The Artist',
+  'The Godfather',
+  'Back to the Future'
   ];
 
 ```
@@ -41,16 +41,16 @@ var favoriteMovies = [
 ¿Pero qué sucede si quisiéramos almacenar diferentes piezas de información sobre una **misma** película? Aquí es donde entra la utilidad de un `object`.
 
 ## Creando Objetos
-Almacenemos diferentes piezas de información de la película `"Back to the Future"` en un solo lugar, por medio de un `object`:
+Almacenemos diferentes piezas de información de la película `'Back to the Future'` en un solo lugar, por medio de un `object`:
 
 ```js
   var movie = {
-    title: "Back to the Future",
-    director: "Robert Zemeckis",
-    stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-    plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    title: 'Back to the Future',
+    director: 'Robert Zemeckis',
+    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
     oscar: 1,
-    tags: ["Adventure", "Comedy", "Sci-Fi"]
+    tags: ['Adventure', 'Comedy', 'Sci-Fi']
   }
 
 ```
@@ -70,25 +70,25 @@ Como hemos visto, los _keys_ son `strings`. Como muestra el ejemplo anterior, no
 
 ```js
   var person = {
-    "age": 18,
-    "name": "Michelle",
-    "friends": ["Alexandra","Ana"]
+    'age': 18,
+    'name': 'Michelle',
+    'friends': ['Alexandra','Ana']
   }
 
 ```
 
-Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de nombramiento de variables. Por ejemplo, no deben tener espacios. Pero si colocamos los _keys_ entre comillas, entonces sí podemos usar el nombre que querramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la película ("year of release"), haríamos:
+Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de nombramiento de variables. Por ejemplo, no deben tener espacios. Pero si colocamos los _keys_ entre comillas, entonces sí podemos usar el nombre que querramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la película ('year of release'), haríamos:
 
 ```js
   var movie = {
-    title: "Back to the Future",
-    director: "Robert Zemeckis",
-    stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-    "year of release": 1984,
-    plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    title: 'Back to the Future',
+    director: 'Robert Zemeckis',
+    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+    'year of release': 1984,
+    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
     oscar: 1,
-    tags: ["Adventure", "Comedy", "Sci-Fi"],
-    "other awards": ["best sound", ]
+    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+    'other awards': ['best sound', ]
   }
 
 ```
@@ -105,23 +105,23 @@ Veamos algunos ejemplos para aclarar cuándo se usa una o la otra:
 
 ```js
   var movie = {
-    title: "Back to the Future",
-    director: "Robert Zemeckis",
-    stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-    "year of release": 1984,
-    plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    title: 'Back to the Future',
+    director: 'Robert Zemeckis',
+    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+    'year of release': 1984,
+    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
     oscar: 1,
-    tags: ["Adventure", "Comedy", "Sci-Fi"],
-    "other awards": ["best sound", ]
+    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+    'other awards': ['best sound', ]
   }
 
-  console.log(movie["title"]);
+  console.log(movie['title']);
   // → Back to the Future
 
   console.log(movie[title]);
   // → Uncaught ReferenceError: title is not defined
 
-  console.log(movie."title");
+  console.log(movie.'title');
   // → Uncaught SyntaxError: Unexpected string
 
   console.log(movie.title);
@@ -138,44 +138,44 @@ Analicemos los dos errores:
 
 ```js
 var movie = {
-  title: "Back to the Future",
-  director: "Robert Zemeckis",
-  stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-  "year of release": 1984,
-  plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
-  tags: ["Adventure", "Comedy", "Sci-Fi"],
-  "other awards": ["best sound", ]
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
 }
 
-console.log(movie["producer"]);
+console.log(movie['producer']);
 // → undefined
 
 ```
 
-¿Y cómo hacemos para obtener uno de los actores (stars) de la película? Para esto tenemos que entrar a la _key_ `"stars"` del object `movie`, que nos va a devolver un `array` y luego acceder a uno de los elementos del `array` a través de los corchetes `[]` y el _index_. Veamos un ejemplo:
+¿Y cómo hacemos para obtener uno de los actores (stars) de la película? Para esto tenemos que entrar a la _key_ `'stars'` del object `movie`, que nos va a devolver un `array` y luego acceder a uno de los elementos del `array` a través de los corchetes `[]` y el _index_. Veamos un ejemplo:
 
 ```js
 var movie = {
-  title: "Back to the Future",
-  director: "Robert Zemeckis",
-  stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-  "year of release": 1984,
-  plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
-  tags: ["Adventure", "Comedy", "Sci-Fi"],
-  "other awards": ["best sound", ]
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
 }
 
 console.log(movie.stars[0]);
 // → Michael J. Fox
-console.log(movie["stars"][1]);
+console.log(movie['stars'][1]);
 // → Christopher Lloyd
 console.log(movie.stars[2]);
 // → Lea Thompson
 
 ```
-Fíjate que hemos usado `movie.stars` y `movie["stars"]` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero de manera consistente.
+Fíjate que hemos usado `movie.stars` y `movie['stars']` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero de manera consistente.
 
 
 ## Definiendo o cambiando los elementos de un `object`
@@ -189,23 +189,23 @@ Veamos un ejemplo que empieza con un `object` vacío y se le va añadiendo y mod
 var student = {};
 
 // añadiendo elementos al object con corchetes y comillas
-student["name"] = "Carolina";
-student["points"] = 2500;
+student['name'] = 'Carolina';
+student['points'] = 2500;
 
 // añadiendo elementos al object con dot notation
-student.courses = ["Intro a JS", "Intro a UX"];
+student.courses = ['Intro a JS', 'Intro a UX'];
 student.isActive = true;
 
 // imprimiendo el object
 console.log(student);
-// → Object {name: "Carolina", points: 2500, courses: Array(2), isActive: true}
+// → Object {name: 'Carolina', points: 2500, courses: Array(2), isActive: true}
 
 // actualizando los puntos
-student["points"] = 3500;
+student['points'] = 3500;
 
 // imprimiendo el object nuevamente
 console.log(student);
-// → Object {name: "Carolina", points: 3500, courses: Array(2), isActive: true}
+// → Object {name: 'Carolina', points: 3500, courses: Array(2), isActive: true}
 
 ```
 

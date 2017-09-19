@@ -36,7 +36,7 @@ Esta lista es bien extraña y engorrosa. Implica tener una variable para cada el
 Otra opción -más creativa- sería utilizar un `string`. Después de todo, los strings pueden ser de cualquier longitud, así que podemos poner mucha información en ellos. Podríamos usar un `string` con los números intercalados por un espacio, así:
 
 ```js
-var listOfNumbers = "2 3 5 7 11";
+var listOfNumbers = '2 3 5 7 11';
 ```
 
 Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de extraer cada elemento del `string` (contando los espacios entre ellos) y además, tendríamos que convertirlos de vuelta a `number` para acceder y manipular cada número de manera individual.
@@ -123,7 +123,7 @@ Los elementos de un `array` no tienen que ser todos del mismo tipo de dato. Pode
 
 ```js
 
-var mixedArray = [3, "hola mundo", 3627.5];
+var mixedArray = [3, 'hola mundo', 3627.5];
 console.log(mixedArray[0]);
 // → 3
 console.log(mixedArray[1]);
@@ -136,28 +136,28 @@ Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente 
 
 ```js
 var questions = [
-  ["¿En cuántos países opera Laboratoria?", 3],
-  ["¿Cuál es la capital de Perú?", "Lima"],
-  ["¿Cuál es baile típico Chileno?", "Cueca"],
-  ["¿Cuál es la moneda de México?", "Peso"]
+  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿Cuál es la capital de Perú?', 'Lima'],
+  ['¿Cuál es baile típico Chileno?', 'Cueca'],
+  ['¿Cuál es la moneda de México?', 'Peso']
   ];
 
 ```
 
-Para acceder a elementos individuales de los arrays internos simplemente se añade un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtener la respuesta a la pregunta "¿Cuál es la moneda de México?" haríamos:
+Para acceder a elementos individuales de los arrays internos simplemente se añade un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtener la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
 
 ```js
 var questions = [
-  ["¿En cuántos países opera Laboratoria?", 3],
-  ["¿Cuál es la capital de Perú?", "Lima"],
-  ["¿Cuál es baile típico Chileno?", "Cueca"],
-  ["¿Cuál es la moneda de México?", "Peso"]
+  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿Cuál es la capital de Perú?', 'Lima'],
+  ['¿Cuál es baile típico Chileno?', 'Cueca'],
+  ['¿Cuál es la moneda de México?', 'Peso']
   ];
 console.log(questions[3][1]);
 // → Peso
 ```
 
-Cuando escribimos `console.log(questions[3][1])` le estamos diciendo a JavaScript que busque el `index 3` del array `questions` (lo cual es, a su vez, un array:`["¿Cuál es la moneda de México?", "Peso"]`), y que dentro de ese array busque el `index 1` (lo cual es el `string` `"Peso"`) e imprima el resultado en la consola.
+Cuando escribimos `console.log(questions[3][1])` le estamos diciendo a JavaScript que busque el `index 3` del array `questions` (lo cual es, a su vez, un array:`['¿Cuál es la moneda de México?', 'Peso']`), y que dentro de ese array busque el `index 1` (lo cual es el `string` `'Peso'`) e imprima el resultado en la consola.
 
 
 A continuación Michelle nos explica los conceptos principales de `arrays` con un ejemplo:

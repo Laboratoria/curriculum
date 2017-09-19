@@ -1,7 +1,7 @@
 # Clase Práctica
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `120min`
+- Duración: `5hrs`
 
 ## Objetivos
 - Practicar codeando junto a tu equipo de profes, resolviendo problemas de estructuras condicionales, repetitivas y funciones
