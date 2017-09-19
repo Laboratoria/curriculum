@@ -265,6 +265,8 @@ HTML. Se utiliza para agrupar elementos de **bloque**. Frecuentemente se utiliza
 a menudo como un contenedor para otros elementos HTML. Un `div` es un bloque, lo
 que significa que tiene un salto de línea antes y después.
 
+Una de las
+
 ```html
 <!DOCTYPE html>
 <html>
