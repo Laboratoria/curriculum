@@ -249,7 +249,52 @@ explicará cómo construir una réplica de la página de [Grace Hopper de wikipe
 
 ## Los elementos `div` y `span`
 
-...@chamo completar.
+Muchas veces al crear nuestra estructura HTML vamos a querer "agrupar"
+elementos para dividir nuestra web en secciones o partes lógicas. Por ejemplo,
+si en el _footer_ (o pié de página) de nuestra web queremos mostrar los íconos
+de nuestras redes sociales junto a links de contacto, es útil agrupar todos
+los íconos en una sección y los links en otra. De tal manera, el _footer_ se
+compondría de un _grupo_ de íconos y un _grupo_ de links.
+
+Para realizar estas agrupaciones, podemos utilizar los elementos `div` y
+`span`. Los elementos `div` y `span` son como "contenedores" vacíos que
+llenamos de otros elementos y contenido.
+
+* El elemento `div` define una división o una sección en un documento
+HTML. Se utiliza para agrupar elementos de **bloque**. Frecuentemente se utiliza
+a menudo como un contenedor para otros elementos HTML. Un `div` es un bloque, lo
+que significa que tiene un salto de línea antes y después.
+
+Una de las
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <div style="background-color:green; color:white">
+      <h2>Ciudad de México</h2>
+      <p>La Ciudad de México, anteriormente conocida como el Distrito Federal, es una de las 32 entidades federativas de México, así como la capital de los <span style ="color:yellow">Estados Unidos Mexicanos</span>.
+      </p>
+    </div>
+    <div style="background-color:red; color:white">
+      <h2>Lima</h2>
+      <p>Lima es la capital de la <span style ="color:yellow">República del Perú</span> y de la provincia homónima. Se sitúa en la costa central del país, a orillas del océano Pacífico, conformando una extensa y populosa área urbana conocida como Lima Metropolitana, flanqueada por el desierto costero y extendida sobre los valles de los ríos Chillón, Rímac y Lurín.
+      </p>
+    </div>
+    <div style="background-color:blue; color:white">
+      <h2>Santiago</h2>
+      <p>Santiago, llamada también Santiago de Chile, es la capital de <span style ="color:yellow">Chile</span> y de la región Metropolitana de Santiago. Es el principal núcleo urbano del país y su área metropolitana se conoce también con el nombre de Gran Santiago.
+      </p>
+    </div>
+  </body>
+</html>
+```
+
+
+* El elemento `span` se utiliza como un contenedor para algún texto. Es de
+tipo **inline**; es decir, aparece entre líneas, como parte de un párrafo.
+
+
 
 ## Evitando el `divitis` y la `spanitis`
 
