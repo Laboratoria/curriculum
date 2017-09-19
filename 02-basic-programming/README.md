@@ -25,13 +25,13 @@ programación y así logres crear programas más complejos.
 ## Aprenderás:
 
 * A utilizar estrcuturas de datos básicas: `arrays` y `objects`
-* Qué es y cómo utilizar la interfaz de línea de comandos (`cli`)
-* Qué es y cómo utilizar un sistema de control de versiones (`git`)
+* Qué es y cómo utilizar la interfaz de línea de comandos (`CLI`)
+* Qué es y cómo utilizar un sistema de control de versiones (`Git`)
 * A utilizar estos conceptos para resolver problemas aún más complejos y crear
 programas más elaborados
 
 Main Tags:
- `arrays`, `objects`, `cli`, `git`, `github`.
+ `arrays`, `objects`, `CLI`, `Git`, `Github`.
 
 Secondary Tags:
 `algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`

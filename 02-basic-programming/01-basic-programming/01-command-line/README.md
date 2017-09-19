@@ -39,7 +39,7 @@ vamos a "hackear" nada, ni haremos nada ilegal :)
 Puede parecer un poco aterrador al principio pero solo es una pantalla que
 espera a que le des órdenes.
 
-### ¿Para qué sirve la línea de comando?
+## ¿Para qué sirve la línea de comando?
 
 La `línea de comando` es una aplicación que nos permite ver, manejar y
 manipular archivos de nuestra computadora por medio de `comandos`. Es como el
@@ -48,7 +48,7 @@ Explorador de Windows o Finder en Mac, pero sin la "interfaz".
 Por lo tanto, nos da un control que es rápido y automatizado de las
 computadoras.
 
-### Accediendo a la línea de comando
+## Accediendo a la línea de comando
 
 Presionamos la tecla "windows" + r:
 
@@ -64,7 +64,7 @@ la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así
 
 ![línea de comando](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
 
-### Comandos
+## Comandos
 
 Ya estamos dentro de la famosa "pantalla negra", ahora veamos qué asombrosas
 cosas podemos hacer.
@@ -73,16 +73,15 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
 
 >¿Cómo ejecutamos un comando?<br>
     1. Debemos de escribir el comando<br>
-    2. Presionando la tecla 'enter' estaremos ejecutando un comando
+    2. Presionando la tecla **enter** estaremos ejecutando un comando
 
 - `cd`: este comando nos ayudará a navegar por nuestros **directorios** (también
   llamados **carpetas**), entre nuestros archivos. Con él, podremos saber en
-  dónde nos encontramos, acceder a otra carpeta o volver a una carpeta anterior
-  .
+  dónde nos encontramos, acceder a otra carpeta o volver a una carpeta anterior.
 
   Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
   recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
-  **baño**?.
+  **baño**?
 
   ![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)  
 
@@ -103,8 +102,8 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
   En la siguiente imagen puedes observar
 
 
-- `dir` : muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
-  Por ejemplo, si ejecuto el comando `dir` en "C:\Users\MICHELLE SEGUIL" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
+- `dir`: muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
+  Por ejemplo, si ejecuto el comando `dir` en "C:\Users\LABORATORIA D0005" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
 
     ![dir](https://fotos.subefotos.com/952cc99911a69bc648cd82b5cc63937bo.png)
 
@@ -113,7 +112,7 @@ es muy importante en qué parte del directorio nos encontramos porque en la
 ubicación en la que los ejecutemos es donde se creará el nuevo archivo o
 carpeta.
 
-- `mkdir` : si ejecutamos el comando `mkdir` estaremos creando un nuevo
+- `mkdir`: si ejecutamos el comando `mkdir` estaremos creando un nuevo
   directorio, entonces después de la palabra `mkdir` debemos especificar el
   nombre de la nueva carpeta.
   >mkdir nombre-carpeta
@@ -127,10 +126,10 @@ carpeta.
   2. Texto con el que se creará: `texto`
   3. Símbolo `>`
   4. Por último, indicaremos el nombre del archivo con su respectiva extensión
-    `nombre-archivo.extension`
+    `nombre-archivo.extensión`
 
     Entonces nuestro comando sería así:
-    >echo texto > nombre-archivo.extension
+    >echo texto > nombre-archivo.extensión
 
     Por ejemplo, si queremos crear un archivo de texto que tenga el mensaje
     "hola" el comando sería este:
@@ -139,6 +138,19 @@ carpeta.
     Ahora, si queremos crear un archivo html vacío el comando sería el
     siguiente:
     >echo > index.html
+    
+### Detalle de comandos
+A continuación veremos una lista de los comandos usados en esta lección:
+
+| Comando (Windows)                       | Descripción                                           |
+| --------------------------------------- | ----------------------------------------------------- |
+| `cd`                                    | Muestra la ruta en la que estamos                     |
+| `cd nombre-carpeta`                     | Ingresa a la carpeta indicada                         |
+| `cd..`                                  | Regresa una carpeta hacia atrás                       |
+| `dir`                                   | Enlista los directorios/archivos                      |
+| `mkdir nombre-carpeta`                  | Crea un nuevo directorio/carpeta                      |
+| `echo texto > nombre-archivo.extensión` | Crea un nuevo archivo con texto incluído              |
+| `echo > nombre-archivo.extensión`       | Crea un nuevo archivo vacío                           |
 
 Ahora veamos cómo Michelle navega entres sus archivos o directorios, crea
 carpetas y archivos desde la terminal.

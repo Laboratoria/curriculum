@@ -28,24 +28,24 @@ Veamos:
 ```js
 
 var michelle = {
-  name: "Michelle",
+  name: 'Michelle',
   points: 2000,
   isActive: true,
-  courses: ["Intro JS", "JS avanzado", "JS master"]
+  courses: ['Intro JS', 'JS avanzado', 'JS master']
 }
 
 var alexandra = {
-  name: "Alexandra",
+  name: 'Alexandra',
   points: 4100,
   isActive: true,
-  courses: ["Intro JS", "Intro UX", "UX master"]
+  courses: ['Intro JS', 'Intro UX', 'UX master']
 }
 
 var andrea = {
-  name: "Andrea",
+  name: 'Andrea',
   points: 800,
   isActive: false,
-  courses: ["Intro JS", "JS avanzado"]
+  courses: ['Intro JS', 'JS avanzado']
 }
 
 var students = [michelle, alexandra, andrea];
@@ -64,6 +64,6 @@ A continuación Michelle te explica cómo utilizar `funciones`, `estructuras rep
 
 1. Los nombres de todas las estudiantes **activas**
 2. Los puntos totales de la clase
-3. Los nombres de las estudiantes que han llevado el curso de **"JS avanzado"**
+3. Los nombres de las estudiantes que han llevado el curso de **'JS avanzado'**
 
 [![video](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)

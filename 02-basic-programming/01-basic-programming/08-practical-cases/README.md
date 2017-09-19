@@ -36,7 +36,7 @@ Por ejemplo:
 - Output
 ```js
 {
-  make : 'Ford'
+  make : 'Ford',
   model : 'Mustang',
   year : 1964
 }

@@ -37,7 +37,7 @@ Ya hemos visto una manera de acceder a las propiedades de un `array`. Cuando acc
 Al igual que los `strings`, los `arrays` en JavaScript vienen con una propiedad `length` que nos devuelve la longitud del `array`, es decir, el número de elementos que componene el array. Veamos un ejemplo:
 
 ```js
-var myArray = [300, "hola mundo", [100, "HOLA MUNDO"]];
+var myArray = [300, 'hola mundo', [100, 'HOLA MUNDO']];
 
 console.log(myArray.length);
 // → 3
@@ -48,20 +48,20 @@ console.log(myArray.length);
 Para añadir un elemento al final de un `array` JavaScript cuenta con el **método** `push`. Recordemos que es un método porque **hace** algo con el valor asociado - en este caso, agrega un elemento al final del array. Veamos un ejemplo:
 
 ```js
-var myArray = [300, "hola mundo", [100, "HOLA MUNDO"]];
+var myArray = [300, 'hola mundo', [100, 'HOLA MUNDO']];
 console.log(myArray.length);
 // → 3
 
-myArray.push("último elemento");
+myArray.push('último elemento');
 // → 4
 
 console.log(myArray);
-// → (4) [300, "hola mundo", Array(2), "último elemento"]
+// → (4) [300, 'hola mundo', Array(2), 'último elemento']
 ```
 
 El acto de correr un método se conoce como "llamar" al método. Esto es porque, en el fondo, **los métodos son propiedades que continenen funciones** - y las funciones se "llaman" o "invocan". Tiene sentido, ¿cierto? Las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
-Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que después de correr el código `myArray.push("último elemento");` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
+Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que después de correr el código `myArray.push('último elemento');` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
 
 ### Otros métodos de los `arrays`
 
@@ -99,46 +99,46 @@ Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades
 
 ```js
   var movie = {
-    title: "Back to the Future",
-    director: "Robert Zemeckis",
-    stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-    "year of release": 1984,
-    plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    title: 'Back to the Future',
+    director: 'Robert Zemeckis',
+    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+    'year of release': 1984,
+    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
     oscar: 1,
-    tags: ["Adventure", "Comedy", "Sci-Fi"],
-    "other awards": ["best sound", ]
+    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+    'other awards': ['best sound', ]
   }
 
-  console.log(movie["title"]);
+  console.log(movie['title']);
   // → Back to the Future
 
   console.log(movie[title]);
   // → Uncaught ReferenceError: title is not defined
 
-  console.log(movie."title");
+  console.log(movie.'title');
   // → Uncaught SyntaxError: Unexpected string
 
   console.log(movie.title);
   // → Back to the Future
 ```
 
-Con `movie["title"]` o `movie.title` estamos accediendo a la **propiedad** llamada "title" del object `movie`.
+Con `movie['title']` o `movie.title` estamos accediendo a la **propiedad** llamada 'title' del object `movie`.
 
-A los `objects` que nosotros creamos (como el object `movie` del ejemplo) también podemos crearle **métodos**. Esto lo logramos incluyendo una `función` como propiedad. Pero, de momento, no te preocupes por esto. Lo veremos más adelante. Por ahora lo importante es saber es que, así como los `strings` y `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
+A los `objects` que nosotros creamos (como el object `movie` del ejemplo) también podemos crearle **métodos**. Esto lo logramos incluyendo una `función` como propiedad. Pero, de momento, no te preocupes por esto. Lo veremos más adelante. Por ahora lo importante es saber que, así como los `strings` y `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
 ### ¿La longitud de un `object`?
 La propiedad `length` que podemos usar para calcular la longitud de un `string` o de un `array`, no es una propiedad válida para los `objects` que nosotros creamos. Es decir, si a nuestro object `movie` que hemos venido usando tratamos de aplicar la propiedad `length` el resultado es `undefined`.
 
 ```js
 var movie = {
-  title: "Back to the Future",
-  director: "Robert Zemeckis",
-  stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-  "year of release": 1984,
-  plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
-  tags: ["Adventure", "Comedy", "Sci-Fi"],
-  "other awards": ["best sound", ]
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
 }
 
 console.log(movie.length);
@@ -150,18 +150,18 @@ Lo que sí podemos hacer es acceder a la lista de _keys_ de un `object`. Esto lo
 
 ```js
 var movie = {
-  title: "Back to the Future",
-  director: "Robert Zemeckis",
-  stars: [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-  "year of release": 1984,
-  plot: "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
-  tags: ["Adventure", "Comedy", "Sci-Fi"],
-  "other awards": ["best sound", ]
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
 }
 
 console.log(Object.keys(movie));
-// → (8) ["title", "director", "stars", "year of release", "plot", "oscar", "tags", "other awards"]
+// → (8) ['title', 'director', 'stars', 'year of release', 'plot', 'oscar', 'tags', 'other awards']
 
 ```
 ## Inspeccionando `arrays` y `objects`
@@ -193,6 +193,6 @@ console.table(questions);
 console.log(weblogs);
 // (3) [{…}, {…}, {…}]
 
-console.table(Weblogs);
+console.table(weblogs);
 ```
 ![example object print](https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png)
