@@ -1,4 +1,4 @@
-# Taller HSE: Introducción al programa de Desarrollo Personal de Laboratoria
+# Taller HSE: Desarrollo Personal
 
 - Tipo: `taller`
 - Formato: `guiado`
