@@ -102,7 +102,7 @@ Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
   En la siguiente imagen puedes observar
 
 
-- `dir` : muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
+- `dir`: muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos ejecutado el comando.  
   Por ejemplo, si ejecuto el comando `dir` en "C:\Users\LABORATORIA D0005" me aparecerá la lista de los archivos o carpetas que se encuentran en ese directorio. Esta lista estará conformada por una primera columna en donde estará su fecha de modificación, luego nos dirá si es un directorio o no(`<DIR>`) y por último estará en nombre del archivo o carpeta.  
 
     ![dir](https://fotos.subefotos.com/952cc99911a69bc648cd82b5cc63937bo.png)
@@ -112,7 +112,7 @@ es muy importante en qué parte del directorio nos encontramos porque en la
 ubicación en la que los ejecutemos es donde se creará el nuevo archivo o
 carpeta.
 
-- `mkdir` : si ejecutamos el comando `mkdir` estaremos creando un nuevo
+- `mkdir`: si ejecutamos el comando `mkdir` estaremos creando un nuevo
   directorio, entonces después de la palabra `mkdir` debemos especificar el
   nombre de la nueva carpeta.
   >mkdir nombre-carpeta
