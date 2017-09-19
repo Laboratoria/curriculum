@@ -1,4 +1,4 @@
-# Box Model
+# Box Model & Display
 - Formato: `self-learning`
 - Tipo: `lectura`
 - Duración: `30min`
