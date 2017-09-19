@@ -1,4 +1,4 @@
-# Repaso de conceptos: Intro JS + Git + CLI
+# Repaso: JS, Git & CLI
 
 - Tipo: `seminario`
 - Formato: `guiado`
