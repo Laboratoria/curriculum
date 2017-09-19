@@ -1,6 +1,6 @@
 # Retos de código
 
-- Tipo: `práctica`
+- Tipo: `practice`
 - Formato: `self-paced`
 - Duración: `4h`
 

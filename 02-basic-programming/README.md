@@ -1,4 +1,4 @@
-# 01. Programación básica
+# Programación básica
 
 En este curso aprenderás mejores formas de estructurar y manipular la data de
 tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
@@ -53,7 +53,7 @@ el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sa
 
 ## Syllabus
 
-### [01: Bienvenida](00-welcome)
+### Unidad 01: [Bienvenida](00-welcome)
 
 4.5 hrs
 
@@ -68,7 +68,7 @@ Laboratoria y empezar las clases.
 | 03 | seminario | 60min | Cómo se aprende en Laboratoria
 | 04 | seminario | 60min | Sprint 1 Kick-off
 
-### [02: Programación básica con JavaScript](01-basic-programming)
+### Unidad 02: [Programación básica con JavaScript](01-basic-programming)
 
 25 hrs
 
@@ -96,7 +96,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 16 | cuestionario | 15min | Auto-evaluación
 | 17 | seminario | 30min | Cierre
 
-### [03: Productos Finales](02-final-products)
+### Unidad 03: [Productos Finales](02-final-products)
 
 15 hrs
 
