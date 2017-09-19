@@ -1,7 +1,8 @@
 # Intro a CSS
-- Formato: `self-learning`
+
 - Tipo: `lectura`
-- Duración: `30min`
+- Formato: `self-paced`
+- Duración: `60min`
 
 ## Objetivos de Aprendizaje
 
@@ -15,17 +16,22 @@ https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGz
 
 ### ¿Qué es CSS y cómo funciona?
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS
+  - style no es lo correcto
+  - tampoco en el head
+  - stylesheet externo es lo ideal
 
 ### Sintaxis CSS
  - property value pairs
 
 ### Selectores
+- universal
+- etiquetas
+- desendientes
+- id
+- class
 
-### Reglas de cascada (!important)
+### Reglas de cascada y especificidad
 
 ### Herencia
-
-### Reglas para especificidad
-
 
 ***

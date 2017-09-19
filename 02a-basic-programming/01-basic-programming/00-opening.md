@@ -42,8 +42,8 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-- [ ] ¿Por qué es importante usar `git` y para qué sirve?
-- [ ] ¿Cómo funciona `git`? Explica los comandos principales
+- [ ] ¿Por qué es importante usar `Git` y para qué sirve?
+- [ ] ¿Cómo funciona `Git`? Explica los comandos principales
 - [ ] ¿Qué se hace con la `interfaz de línea de comandos`? ¿Para qué sirve?
 - [ ] ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
 - [ ] ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos más complejos?
