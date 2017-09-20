@@ -241,8 +241,7 @@ var movie = {
 
 <solution style="display:none;">1</solution>
 
-### 17) Por medio de ________ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, 
-mientras que ________ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
+### 17) Por medio de ________ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que ________ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
 
 #### Opciones
 1. `add` - `update`
@@ -252,8 +251,7 @@ mientras que ________ sirve para actualizar nuestro repositorio local al _últim
 
 <solution style="display:none;">3</solution>
 
-### 18) ¿Cuáles de los siguientes enunciados son comandos de `Git`? 
-Puedes seleccionar una o más opciones.
+### 18) ¿Cuáles de los siguientes enunciados son comandos de `Git`? Puedes seleccionar una o más opciones.
 
 #### Opciones
 1. `git update nombre-rama`
