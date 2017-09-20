@@ -11,10 +11,7 @@
 * Aprender la sintaxis CSS
 * Aprender qué son selectores y cuáles son los selectores más utilizados
 * Entender cómo funcionan las reglas de cascada y herencia de CSS
-<<<<<<< HEAD
 * Aprender los valores usuales de CSS y sus unidades
-=======
->>>>>>> b8749f900f8c0231db4deea5e6494cbb3aa6f3ce
 
 ***
 <!-- link a slides de lab:
@@ -288,6 +285,18 @@ CSS es de ...
 * ¿Cómo le damos opacidad al color?
 * ¿Cuándo se utilizan valores sin unidades?
 * ¿Cuáles son las recomendaciones generales para el uso de unidades?
+
+## Comentarios en CSS
+
+Así como es buena práctica comentar tu código html y tu código js, es buena práctica comentar tu CSS. Los comentarios en CSS se hacen de la siguiente manera:
+
+* El comienzo se indica mediante los caracteres `/*` * El final del comentario se indica mediante `*/`
+
+Veamos un ejemplo:
+
+```css
+/* Comentario en CSS */
+```
 
 ## Continuando la página de Grace Hopper de wikipedia
 
