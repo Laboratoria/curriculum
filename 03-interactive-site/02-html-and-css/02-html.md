@@ -4,6 +4,8 @@
 - Formato: `self-paced`
 - Duración: `60min`
 
+***
+
 ## Objetivos de Aprendizaje
 
 - Conocer los elementos HTML más comunes
@@ -11,6 +13,7 @@
 - Conocer las diferencias en el comportamiento bloque y en línea de elementos
 HTML
 - Conocer qué son y para qué sirven los atributos de elementos HTML
+- Conocer elementos HTML semánticos
 
 ## ¿Qué es HTML?
 
@@ -189,20 +192,54 @@ página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio
 de Laboratoria". Esto aparecera como información cuando se pase el ratón
 por encima del link.
 
+## Atributo style
+
 Existen muchos atributos comunes a todos los elementos html y existen atributos
 específicos que son asociados a un elemento en particular. Un atributo que
 aplica a casi todos los elementos html es el atributo `style` lo cual
 permite darle estilos a tu elemento. Por ejemplo, si queremos que el contenido
-dentro de un elemento `p` sea de color rojo, hacemos:
+dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde negro, hacemos:
 
 ```html
-  <p style="color: red">Código <em>que</em> <strong>transforma</strong></p>
+  <p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
 ```
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Style Example](img-style.png)
+![Style Example](img-style-attribute.png)
 
+Un atributo de estilo puede contener una o más declaraciones. Cada declaración
+está compuesta por una
+**propiedad** (como el color) seguida de dos puntos y un **valor**
+(como rojo). Cuando tenemos más de una declaración, cada una debe estar
+separada por punto y coma (`;`). Por ejemplo: `"color:red; background-color:
+yellow;"`.
+
+Hay un montón de aspectos que pueden ser influenciados por el estilo. Por
+ejemplo, la propiedad `display` controla si un elemento se muestra como un
+bloque o en línea, o inclusive no mostrarlo:
+
+```html
+<p>
+  Un texto se puede mostrar <strong>en línea</strong>,
+  <strong style="display: block">como bloque</strong>, y
+  <strong style="display: none">no visualizarse</strong>.
+</p>
+```
+La vista en el navegador de esto sería:
+
+![Style Example](img-display.png)
+
+
+El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
+es de tipo inline. El texto _"como bloque"_ terminará en su propia línea, ya que
+los elementos de tipo bloque no se muestran en línea con el texto que los
+rodea. Recuerda que cuando un elemento es de tipo bloque aparecerá en una
+nueva línea de cualquier contenido que haya venido antes,
+y cualquier contenido que venga después también aparecerá en una nueva
+línea. El texto _"no visualizarse"_ no se muestra porque al asignar el valor de
+`none` para `display` impide que un elemento aparezca en la pantalla. Esta es
+una forma de ocultar elementos.
 
 En la próxima lección sobre `css` profundizaremos en el concepto de darle
 estilos a tus elementos html.
@@ -210,7 +247,8 @@ estilos a tus elementos html.
 ## Etiquetas vacías
 
 En tu investigación seguro también te topaste con [el elemento `<img>` para agregar una imagen a tu web](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) y habrás
-notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene "contenido":
+notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene
+"contenido":
 
 ```html
 <img src="http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg">
@@ -245,16 +283,16 @@ Ahora que tienes una idea de los elementos `html` más comunes, su
 comportamiento (inline vs block) y sus atributos principales, Michelle te
 explicará cómo construir una réplica de la página de [Grace Hopper de wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper):
 
-[![Grace Hopper](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
+[![Grace Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
 
 ## Los elementos `div` y `span`
 
-Muchas veces al crear nuestra estructura HTML vamos a querer "agrupar"
+Muchas veces al crear nuestra estructura HTML se vuelve necesario "agrupar"
 elementos para dividir nuestra web en secciones o partes lógicas. Por ejemplo,
 si en el _footer_ (o pié de página) de nuestra web queremos mostrar los íconos
 de nuestras redes sociales junto a links de contacto, es útil agrupar todos
-los íconos en una sección y los links en otra. De tal manera, el _footer_ se
-compondría de un _grupo_ de íconos y un _grupo_ de links.
+los íconos en una sección y los links en otra sección, y que ambos grupos estén
+contenidos dentro del _footer_.
 
 Para realizar estas agrupaciones, podemos utilizar los elementos `div` y
 `span`. Los elementos `div` y `span` son como "contenedores" vacíos que
@@ -262,44 +300,87 @@ llenamos de otros elementos y contenido.
 
 * El elemento `div` define una división o una sección en un documento
 HTML. Se utiliza para agrupar elementos de **bloque**. Frecuentemente se utiliza
-a menudo como un contenedor para otros elementos HTML. Un `div` es un bloque, lo
+como un contenedor para otros elementos. Un `div` es un bloque, lo
 que significa que tiene un salto de línea antes y después.
 
-Una de las
+* El elemento `span` se utiliza como un contenedor para textos. Es de
+tipo **inline**; es decir, aparece entre líneas, como parte de un párrafo.
+
+Veamos un ejemplo:
 
 ```html
 <!DOCTYPE html>
 <html>
   <body>
-    <div style="background-color:green; color:white">
+    <div style="background-color: green; color: white">
       <h2>Ciudad de México</h2>
-      <p>La Ciudad de México, anteriormente conocida como el Distrito Federal, es una de las 32 entidades federativas de México, así como la capital de los <span style ="color:yellow">Estados Unidos Mexicanos</span>.
+      <p>La Ciudad de México, anteriormente conocida como el Distrito Federal,
+        es una de las 32 entidades federativas de México, así como la capital
+        de los <span style ="color: yellow">Estados Unidos Mexicanos</span>.
       </p>
     </div>
-    <div style="background-color:red; color:white">
+    <div style="background-color: red; color: white">
       <h2>Lima</h2>
-      <p>Lima es la capital de la <span style ="color:yellow">República del Perú</span> y de la provincia homónima. Se sitúa en la costa central del país, a orillas del océano Pacífico, conformando una extensa y populosa área urbana conocida como Lima Metropolitana, flanqueada por el desierto costero y extendida sobre los valles de los ríos Chillón, Rímac y Lurín.
+      <p>Lima es la capital de la <span style ="color: yellow">República del
+        Perú</span> y de la provincia homónima. Se sitúa en la costa central
+        del país, a orillas del océano Pacífico, conformando una extensa y
+        populosa área urbana conocida como Lima Metropolitana, flanqueada por
+        el desierto costero y extendida sobre los valles de los ríos Chillón,
+        Rímac y Lurín.
       </p>
     </div>
-    <div style="background-color:blue; color:white">
+    <div style="background-color: blue; color: white">
       <h2>Santiago</h2>
-      <p>Santiago, llamada también Santiago de Chile, es la capital de <span style ="color:yellow">Chile</span> y de la región Metropolitana de Santiago. Es el principal núcleo urbano del país y su área metropolitana se conoce también con el nombre de Gran Santiago.
+      <p>Santiago, llamada también Santiago de Chile, es la capital de
+        <span style ="color: yellow">Chile</span> y de la región Metropolitana
+        de Santiago. Es el principal núcleo urbano del país y su área
+        metropolitana se conoce también con el nombre de Gran Santiago.
       </p>
     </div>
   </body>
 </html>
 ```
 
+Al visualizar el ejemplo anterior en el navegador tenemos:
 
-* El elemento `span` se utiliza como un contenedor para algún texto. Es de
-tipo **inline**; es decir, aparece entre líneas, como parte de un párrafo.
+![Div and Span](img-div-and-span.png)
 
+Fíjate cómo hemos agrupado todo lo relacionado a un país en un `div`. Esto es
+útil porque crea secciones que siguen un orden lógico. Pero, más importante
+aún, tener estas secciones separadas permite darle estilos diferentes a cada
+sección: el color de fondo y el color de la fuente varían para cada
+país. Lo mismo sucede las palabras que mostramos en amarillo. Gracias a `span`
+podemos hacer que ciertos pedazos de texto tengan un estilo diferente.
 
+## HTML semántico
 
-## Evitando el `divitis` y la `spanitis`
+Como hemos visto, los `div` son un excelente recurso para agrupar contenido de
+forma lógica y con ello poder darle estilos particulares a ciertas secciones.
+Por muchos años se ha desarrollado usando a los `div` como único recurso para
+agrupar contenido. Sin embargo, muchas web tienden a tener una estructura
+similar y a contener elementos comunes. Por ejemplo, casi todos los productos
+en la web tienen una cabecera, un menú de navegación, un contenido principal,
+contenido secundario, un footer, etc.
 
-...@Ruth
+Revisando la documentación del MDN sobre
+[estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura) podemos extraer:
 
-***
+> En nuestro código HTML, podemos crear secciones de contenido basadas en su
+funcionalidad — usando elementos que representen las diferentes secciones del
+contenido descritas anteriormente sin ambigüedad, de forma que las tecnologías
+de ayuda y los lectores de pantalla puedan reconocer esos elementos y asistir
+en tareas como "encontrar el menú de navegación", o "encontrar el contenido
+principal".
+>
 
-[Continuar](03-css.md)
+Para implementar estas secciones semánticas, HTML dispone de etiqutas adecuadas
+que podemos usar para representar estas secciones. Revisa el link anterior e
+investiga el uso de los siguientes elementos semánticos:
+
+* `<header>`
+* `<nav>`
+* `<main>`
+* `<aside>`
+* `<article>`
+* `<section>`
+* `<footer>`
