@@ -30,12 +30,12 @@ importa el valor que retorna.
 
 ## Argumentos
 
-* userIds: un arreglo numérico de ID de usuarios.
-* load: una función usada para cargar los objetos usuario. La función espera un
+* `userIds`: un arreglo numérico de ID de usuarios.
+* `load`: una función usada para cargar los objetos usuario. La función espera un
   ID numérico y una llamada _callback_. La llamada _callback_ se invoca con el
   resultado de cargar los usuarios con el ID especificado (un objeto ID de
   usuario o devuelve una respuesta nula _null_).
-* done: una función que espera un arreglo con objetos usuario (como fue
+* `done`: una función que espera un arreglo con objetos usuario (como fue
   recuperado desde `load`).
 
 ## Condiciones
@@ -52,17 +52,3 @@ importa el valor que retorna.
 * No se necesita usar _sort_ para mantener el orden.
 * Usar `console.log` va afectar la verificación. Solo se usa `console.log`
   cuando se use `functional-javascript run`.
-
-## Plantilla
-
-```js
-function loadUsers(userIds, load, done) {
-  var users = []
-  for (var i = 0; i < userIds.length; i++) {
-    users.push(load(userIds[i]))
-  }
-  return users
-}
-
-module.exports = loadUsers
-```
