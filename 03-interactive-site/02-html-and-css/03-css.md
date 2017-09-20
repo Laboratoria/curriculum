@@ -11,12 +11,40 @@
 * Aprender la sintaxis CSS
 * Aprender qué son selectores y cuáles son los selectores más utilizados
 * Entender cómo funcionan las reglas de cascada y herencia de CSS
+<<<<<<< HEAD
 * Aprender los valores usuales de CSS y sus unidades
+=======
+>>>>>>> b8749f900f8c0231db4deea5e6494cbb3aa6f3ce
 
 ***
 <!-- link a slides de lab:
 https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web -->
 
+## ¿Qué es CSS y cómo funciona?
+<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
+
+CSS significa _Cascading Style Sheets_
+(en español: hojas de estilo en cascada). Es un lenguaje usado para definir y
+crear la presentación de un documento escrito en HTML.
+
+<<<<<<< HEAD
+CSS describe cómo los elementos en la estructura del documento deben ser
+presentados en la pantalla. Con CSS damos estilo y diseño a las páginas web.
+Cambiamos colores, tamaños, espacios, agregamos animaciones, etc.
+
+Existen tres opciones para incluir CSS en un documento HTML:
+
+## CSS Inline
+
+Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
+style. Por ejemplo:
+
+```html
+<h1 style="color: blue; background-color: yellow; border: 1px solid black;">
+  ¡Hola Mundo!</h1>
+```
+
+=======
 ## ¿Qué es CSS y cómo funciona?
 <!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
 
@@ -40,6 +68,7 @@ style. Por ejemplo:
   ¡Hola Mundo!</h1>
 ```
 
+>>>>>>> b8749f900f8c0231db4deea5e6494cbb3aa6f3ce
 En el navegador, el titular anterior se vería así:
 
 ![Inline Style](img-inline-style.png)
