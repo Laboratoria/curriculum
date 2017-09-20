@@ -65,7 +65,7 @@ la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así
 
 ### Mac OS X
 
-Aplicaciones → Servicios → Terminal
+Launchpad → Terminal
 
 ### Linux
 
@@ -84,7 +84,7 @@ Ahora tenfremos una pantalla negra que está esperando nuestras órdenes.
   
   <br>
   Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
-  aparecer **tu nombre de usuario**.
+  aparecer tu nombre de usuario.
 
 - Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
   símbolo `$`
@@ -170,7 +170,8 @@ ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
 ```text
 cd Pictures
 ```
-Si ahora vemos cuál es nuestra ubicación, nos saldrá que nos encontramos en la carpeta "Fotos"
+Si ahora vemos cuál es nuestra ubicación, nos saldrá que nos encontramos en la
+carpeta "Fotos"
 
 **Windows**
 ```text
@@ -346,7 +347,7 @@ A continuación veremos una lista de los comandos usados en esta lección:
 | cd ..                       | cd ..                        | Regresa una carpeta hacia atrás     |
 | dir                         | ls                           | Enlista los directorios/archivos    |
 | mkdir nombre-carpeta        | mkdir nombre-carpeta         | Crea un nuevo directorio/carpeta    |
-| touch nombre-archivo.ext    | echo > nombre-archivo.ext    | Crea un nuevo archivo               |
+| echo > nombre-archivo.ext   | touch nombre-archivo.ext     | Crea un nuevo archivo               |
 | exit                        | exit                         | Cierra la línea de comandos         |
 
 Ahora veamos cómo Michelle navega entres sus archivos o directorios, crea
