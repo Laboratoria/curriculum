@@ -22,7 +22,6 @@ describe('applyDiscount()', () => {
   });
 
   it('debería usar recursión', () => {
-    const cart = [{ price: 1 }, { price: 2 }, { price: 3 }];
     const fnBody = Function.prototype.toString.call(Submission);
     // strip comments from source code
     const strippedFnBody = fnBody.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '$1');
@@ -30,7 +29,6 @@ describe('applyDiscount()', () => {
   });
 
   it('no debería usar for o while', () => {
-    const cart = [{ price: 1 }, { price: 2 }, { price: 3 }];
     const fnBody = Function.prototype.toString.call(Submission);
     // strip comments from source code
     const strippedFnBody = fnBody.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '$1');

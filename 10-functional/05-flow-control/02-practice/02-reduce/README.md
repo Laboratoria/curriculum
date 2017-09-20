@@ -33,10 +33,8 @@ de la implementación de una interfaz conocida usando una función recursiva.
 
 Implementa `Array#reduce` usando recursión.
 
-Para comprobar que tu implementación funciona correctamente, la usaremos para
-ejecutar la solución del ejercicio anterior de `basic_reduce`. Tu función
-`reduce` recibirá un arreglo de palabras, una función, y un valor inicial que
-returnará un objeto con la cuenta de apariciones de cada palabra.
+Tu función `reduce` recibirá un arreglo de palabras, una función, y un valor
+inicial al que iremos sumando la cuenta de apariciones de cada palabra.
 
 Por simplicidad, tu implementación de `reduce` **no necesita imitar el
 comportamiento de un reduce sin valor inicial**. Puedes asumir que el valor
@@ -44,11 +42,11 @@ siempre se incluye en la invocación.
 
 ## Argumentos
 
-* arr: El Array que queremos reducir
-* fn: Function para usar en cada paso de la reducción. Igual que `Array#reduce`,
-  esta función debe recibir `previousValue`, `currentValue`, `index` y el
-  `array` sobre el que estamos iterando.
-* init: Valor inicial de la reducción. A diferencia de `Array#reduce`, este
+* `arr`: El Array que queremos reducir
+* `fn`: Function para usar en cada paso de la reducción. Igual que
+  `Array#reduce`, esta función debe recibir `previousValue`, `currentValue`,
+  `index` y el `array` sobre el que estamos iterando.
+* `init`: Valor inicial de la reducción. A diferencia de `Array#reduce`, este
   valor es obligatorio (puedes asumir que siempre se incluye).
 
 ## Ejemplo
@@ -72,13 +70,3 @@ reduce([1,2,3], function(prev, curr, index, arr) {
 
 * [Wikipedia - Recursion](https://en.wikipedia.org/wiki/Recursion)
 * [MDN - Array.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-
-## Boilerplate
-
-```js
-function reduce(arr, fn, initial) {
-  // TU SOLUCIÓN AQUÍ
-}
-
-module.exports = reduce
-```
