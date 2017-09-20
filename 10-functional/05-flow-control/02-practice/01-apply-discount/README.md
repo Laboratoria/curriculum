@@ -34,4 +34,5 @@ const myCart = [
 
 const cartWithDiscount = applyDiscount(myCart, .3);
 console.log(myCart, cartWithDiscount);
+// => [ { price: 0.7 }, { price: 1.4 }, { price: 2.0999999999999996 } ]
 ```
