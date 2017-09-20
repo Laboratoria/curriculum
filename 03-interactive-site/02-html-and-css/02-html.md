@@ -13,7 +13,7 @@
 - Conocer las diferencias en el comportamiento bloque y en línea de elementos
 HTML
 - Conocer qué son y para qué sirven los atributos de elementos HTML
-- Conocer elementos HTML semánticos 
+- Conocer elementos HTML semánticos
 
 ## ¿Qué es HTML?
 
@@ -192,20 +192,54 @@ página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio
 de Laboratoria". Esto aparecera como información cuando se pase el ratón
 por encima del link.
 
+## Atributo style
+
 Existen muchos atributos comunes a todos los elementos html y existen atributos
 específicos que son asociados a un elemento en particular. Un atributo que
 aplica a casi todos los elementos html es el atributo `style` lo cual
 permite darle estilos a tu elemento. Por ejemplo, si queremos que el contenido
-dentro de un elemento `p` sea de color rojo, hacemos:
+dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde negro, hacemos:
 
 ```html
-  <p style="color: red">Código <em>que</em> <strong>transforma</strong></p>
+  <p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
 ```
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Style Example](img-style.png)
+![Style Example](img-style-attribute.png)
 
+Un atributo de estilo puede contener una o más declaraciones. Cada declaración
+está compuesta por una
+**propiedad** (como el color) seguida de dos puntos y un **valor**
+(como rojo). Cuando tenemos más de una declaración, cada una debe estar
+separada por punto y coma (`;`). Por ejemplo: `"color:red; background-color:
+yellow;"`.
+
+Hay un montón de aspectos que pueden ser influenciados por el estilo. Por
+ejemplo, la propiedad `display` controla si un elemento se muestra como un
+bloque o en línea, o inclusive no mostrarlo:
+
+```html
+<p>
+  Un texto se puede mostrar <strong>en línea</strong>,
+  <strong style="display: block">como bloque</strong>, y
+  <strong style="display: none">no visualizarse</strong>.
+</p>
+```
+La vista en el navegador de esto sería:
+
+![Style Example](img-display.png)
+
+
+El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
+es de tipo inline. El texto _"como bloque"_ terminará en su propia línea, ya que
+los elementos de tipo bloque no se muestran en línea con el texto que los
+rodea. Recuerda que cuando un elemento es de tipo bloque aparecerá en una
+nueva línea de cualquier contenido que haya venido antes,
+y cualquier contenido que venga después también aparecerá en una nueva
+línea. El texto _"no visualizarse"_ no se muestra porque al asignar el valor de
+`none` para `display` impide que un elemento aparezca en la pantalla. Esta es
+una forma de ocultar elementos.
 
 En la próxima lección sobre `css` profundizaremos en el concepto de darle
 estilos a tus elementos html.
@@ -278,16 +312,16 @@ Veamos un ejemplo:
 <!DOCTYPE html>
 <html>
   <body>
-    <div style="background-color:green; color:white">
+    <div style="background-color: green; color: white">
       <h2>Ciudad de México</h2>
       <p>La Ciudad de México, anteriormente conocida como el Distrito Federal,
         es una de las 32 entidades federativas de México, así como la capital
-        de los <span style ="color:yellow">Estados Unidos Mexicanos</span>.
+        de los <span style ="color: yellow">Estados Unidos Mexicanos</span>.
       </p>
     </div>
-    <div style="background-color:red; color:white">
+    <div style="background-color: red; color: white">
       <h2>Lima</h2>
-      <p>Lima es la capital de la <span style ="color:yellow">República del
+      <p>Lima es la capital de la <span style ="color: yellow">República del
         Perú</span> y de la provincia homónima. Se sitúa en la costa central
         del país, a orillas del océano Pacífico, conformando una extensa y
         populosa área urbana conocida como Lima Metropolitana, flanqueada por
@@ -295,10 +329,10 @@ Veamos un ejemplo:
         Rímac y Lurín.
       </p>
     </div>
-    <div style="background-color:blue; color:white">
+    <div style="background-color: blue; color: white">
       <h2>Santiago</h2>
       <p>Santiago, llamada también Santiago de Chile, es la capital de
-        <span style ="color:yellow">Chile</span> y de la región Metropolitana
+        <span style ="color: yellow">Chile</span> y de la región Metropolitana
         de Santiago. Es el principal núcleo urbano del país y su área
         metropolitana se conoce también con el nombre de Gran Santiago.
       </p>
@@ -341,7 +375,7 @@ principal".
 
 Para implementar estas secciones semánticas, HTML dispone de etiqutas adecuadas
 que podemos usar para representar estas secciones. Revisa el link anterior e
-investiga el uso de:
+investiga el uso de los siguientes elementos semánticos:
 
 * `<header>`
 * `<nav>`
