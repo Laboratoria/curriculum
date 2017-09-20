@@ -46,20 +46,6 @@ getDependencies(loremIpsum)
 
 * No usar ninguna estructura enlazada como for/while.
 
-## Plantilla
-
-```js
-
-function getDependencies(tree) {
-  // LA SOLUCIóN VA AQUí
-  // Nota: sea libre de agregar argumentos adicionales
-  // a esta función para usarla con llamadas recursivas.
-  // o no! Hay muchas maneras de hacer funcionar la recursividad.
-}
-
-module.exports = getDependencies
-```
-
 ## Recursos
 
 * [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
