@@ -11,12 +11,11 @@
 * Aprender la sintaxis CSS
 * Aprender qué son selectores y cuáles son los selectores más utilizados
 * Entender cómo funcionan las reglas de cascada y herencia de CSS
+* Aprender los valores usuales de CSS y sus unidades
 
 ***
-
-link a slides de lab:
-https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web
-
+<!-- link a slides de lab:
+https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web -->
 
 ## ¿Qué es CSS y cómo funciona?
 <!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
@@ -231,3 +230,41 @@ determinan el mecanismo de cascada. En particular, responde lo siguiente:
 sea estrictamente necesario?
 6. ¿Todos los estilos en CSS se heredan? ¿Por qué?
 7. ¿Qué es y para qué sirve `inherit`?
+
+## Valores y unidades
+
+Existen una gran variedad de valores CSS,los cuales se pueden expresar con
+diferentes unidades. Por ejemplo: la altura, el ancho y el margen de un
+elemento pueden ser definidos en milímetros, centímetros, pulgadas
+o pixeles. El color podemos definirlo con palabras clave (como `red`), con
+valores, o con el modelo RGB.
+
+Haz tu investigación de los siguientes recursos y aprende las múltiples formas
+de representar los valores en CSS:
+
+* [Valores y unidades - MDN ](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
+* [Unidades y medidas - Librosweb](http://librosweb.es/libro/css/capitulo_3/unidades_de_medida.html)
+* [Colores - Librosweb](http://librosweb.es/libro/css/capitulo_3/colores.html)
+
+Al finalizar esta lectura, debes saber responder las siguientes preguntas:
+
+* Dame un ejemplo de una undidad absoluta y una relativa
+* ¿Para qué sirve `line-height`?
+* ¿Para qué sirven valores en procentajes? Dame un ejemplo
+* El tamaño de fuente por defecto que los navegadores usan antes de aplicar
+CSS es de ...
+* ¿Qué unidad es `#ff0000`? ¿Qué color representa?
+* ¿RGB es una función?
+* ¿Qué color representa `rgb(0,0,255)`?
+* ¿Cómo le damos opacidad al color?
+* ¿Cuándo se utilizan valores sin unidades?
+* ¿Cuáles son las recomendaciones generales para el uso de unidades?
+
+## Continuando la página de Grace Hopper de wikipedia
+
+Ahora que ya conoces más a profundidad sobre CSS puedes seguir a Michelle en
+el siguiente video donde termina de desarrollar la página de Garce Hopper,
+utilizando una estructura semántica y todas las bondades de CSS para
+representar el diseño lo más fiel posible.
+
+[![Grace Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
