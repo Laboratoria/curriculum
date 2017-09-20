@@ -31,9 +31,9 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, en las sig
 
 `Git` es un `Sistema de Control de Versiones`.
 
-> **¿Qué es el `Sistema de Control de Versiones`?**
-El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha pasado algo así?:  
-!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
+> **¿Qué es el `Sistema de Control de Versiones`?**  
+  El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha pasado algo así?:  
+  !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
   Gracias al VCS podemos hacer que eso no suceda debido a que permite:  
     - Revertir los archivos a un estado anterior.  
     - Revertir todo el proyecto a un estado anterior.  
@@ -168,7 +168,7 @@ Si nos encontramos en Linux o Mac OS X no será necesario hacer la
 instalación de Git porque ya viene instalado, pero si nuestro sistema operativo
 es **Windows** debemos descargar e instalar `Git` en nuestro equipo.
 
-  - [Instala Git](https://git-scm.com/download/win)
+  - [Descarga Git](https://git-scm.com/download/win)
 
 Cuando haya terminado la descarga de nuestro programa comenzaremos con la
 instalación haciendo doble clic en el archivo que se acaba de descargar y luego
