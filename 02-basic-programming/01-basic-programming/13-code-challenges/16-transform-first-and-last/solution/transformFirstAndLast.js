@@ -6,6 +6,7 @@ function transformFirstAndLast(array) {
   return obj;
 }
 
-// var array = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
+module.exports = transformFirstAndLast;
 
+// var array = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
 // transformFirstAndLast(array);
