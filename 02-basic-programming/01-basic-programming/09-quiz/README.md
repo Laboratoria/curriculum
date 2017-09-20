@@ -54,7 +54,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 <solution style="display:none;">1,4</solution>
 
-### 5) Las propiedades generalmente _____________ algo sobre el valor asociado y los métodos usualmente ___________ algo sobre el valor asociado.
+### 5) Las propiedades generalmente _\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado y los métodos usualmente _\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado.
 
 #### Opciones
 1. nos muestran - conservan
@@ -64,7 +64,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 <solution style="display:none;">3</solution>
 
-### 6) `toUpperCase()` es ____________ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `lenght` es ____________ que nos dice la _longitud_ del valor asociado.
+### 6) `toUpperCase()` es _\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `lenght` es _\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado.
 
 #### Opciones
 1. un object - un array
@@ -221,7 +221,7 @@ var movie = {
 
 <solution style="display:none;">1</solution>
 
-### 15) `Git` es un _________________________.
+### 15) `Git` es un _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 #### Opciones
 1. Sistema de código en línea
@@ -241,7 +241,7 @@ var movie = {
 
 <solution style="display:none;">1</solution>
 
-### 17) Por medio de ________ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que ________ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
+### 17) Por medio de _\_\_\_\_\_\_\_\_\_\_\_\_ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que _\_\_\_\_\_\_\_\_\_\_\_\_ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
 
 #### Opciones
 1. `add` - `update`
@@ -442,8 +442,8 @@ listOfNumbers.lastIndexOf(12);
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 for (var i = 0; i < array.length; i++) {
-  var item = array.______();
-  array._______(i, 0, item);
+  var item = array._________();
+  array._________(i, 0, item);
 }
 
 console.log(array);
@@ -518,7 +518,7 @@ console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 
 <solution style="display:none;">2</solution>
 
-### 33) Los algoritmos nos permiten comunicar _______________ sin explicar el por qué.
+### 33) Los algoritmos nos permiten comunicar _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
 
 #### Opciones
 1. diferentes funciones
