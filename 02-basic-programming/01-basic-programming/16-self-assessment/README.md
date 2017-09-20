@@ -12,5 +12,5 @@
 
 ## Auto-evaluación
 - [Lima](https://docs.google.com/forms/d/e/1FAIpQLSd6Aj_uTOsxTR1JWKJnKjOC58SxwLiyACSOz8gIhXoGH4bejw/viewform)
-- Santiago de Chile
+- [Santiago de Chile](https://docs.google.com/forms/d/e/1FAIpQLScdnN4HvOH5lEfoMPuiqN1hmnkScvwmcEMnUHJgjFUYVGNkng/viewform)
 - [México DF](https://docs.google.com/forms/d/e/1FAIpQLSfDR9xHnfg_SWEYnXLuYrtbRCQDCFOI2pf9ogKqqJLJ1y8vKA/viewform)
