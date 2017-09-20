@@ -73,7 +73,7 @@ Actividades → Terminal
 
 ## Prompt
 
-Ahora tenfremos una pantalla negra que está esperando nuestras órdenes.
+Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
 - Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
   con el símbolo `>`
@@ -94,8 +94,7 @@ Ahora tenfremos una pantalla negra que está esperando nuestras órdenes.
   ```
   
   <br>
-  En tu computadora, "Laboratoria" o "Michelle" serán reemplazados por los datos
-  de ella.
+  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
 
 - Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
   computadora y terminará con el símbolo `$`
