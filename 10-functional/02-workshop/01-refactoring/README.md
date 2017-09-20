@@ -29,6 +29,8 @@ argumentos en vez de `this`.
 El repositorio ya incluye una serie de tests unitarios que `Loader` debe pasar
 para cumplir con todos los requisitos.
 
+Puedes instalar las dependencias y correr los tests con los siguientes comandos:
+
 ```sh
 npm install
 npm test
