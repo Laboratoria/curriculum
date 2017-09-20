@@ -8,7 +8,7 @@
 
 Implementar una función recursiva que devuelva todas las dependencias únicas y
 subdependencias de un módulo ordenadas alfabéticamente. Las dependencias deben
-imprimirse como dependencia@versión, p. 'Inflection@1.2.6'.
+imprimirse como dependencia@versión, por ejemplo: `inflection@1.2.6`.
 
 Se permiten múltiples versiones del mismo módulo, pero los módulos duplicados de
 la misma versión deben eliminarse
@@ -20,7 +20,7 @@ la misma versión deben eliminarse
 ## Ejemplo
 
 ```js
-var loremIpsum = {
+const loremIpsum = {
   "name": "lorem-ipsum",
   "version": "0.1.1",
   "dependencies": {
@@ -36,15 +36,17 @@ var loremIpsum = {
       "version": "1.2.6"
     }
   }
-}
+};
 
-getDependencies(loremIpsum)
+getDependencies(loremIpsum);
 // => ['inflection@1.2.6', 'optimist@0.3.7', 'wordwrap@0.0.2']
 ```
 
 ## Condiciones
 
-* No usar ninguna estructura enlazada como for/while.
+* No usar bucles for o while
+* Usa `Object.keys()` para obtener un array con las propiedades enumerables de
+  un objeto
 
 ## Recursos
 
