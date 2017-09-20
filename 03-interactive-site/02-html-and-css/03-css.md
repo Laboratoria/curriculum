@@ -24,48 +24,21 @@ CSS significa _Cascading Style Sheets_
 (en español: hojas de estilo en cascada). Es un lenguaje usado para definir y
 crear la presentación de un documento escrito en HTML.
 
-<<<<<<< HEAD
 CSS describe cómo los elementos en la estructura del documento deben ser
 presentados en la pantalla. Con CSS damos estilo y diseño a las páginas web.
 Cambiamos colores, tamaños, espacios, agregamos animaciones, etc.
 
 Existen tres opciones para incluir CSS en un documento HTML:
 
-## CSS Inline
+### 1. CSS Inline
 
 Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
 style. Por ejemplo:
 
 ```html
-<h1 style="color: blue; background-color: yellow; border: 1px solid black;">
-  ¡Hola Mundo!</h1>
+<h1 style="color: blue; background-color: yellow; border: 1px solid black;">¡Hola Mundo!</h1>
 ```
 
-=======
-## ¿Qué es CSS y cómo funciona?
-<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
-
-CSS significa _Cascading Style Sheets_
-(en español: hojas de estilo en cascada). Es un lenguaje usado para definir y
-crear la presentación de un documento escrito en HTML.
-
-CSS describe cómo los elementos en la estructura del documento deben ser
-presentados en la pantalla. Con CSS damos estilo y diseño a las páginas web.
-Cambiamos colores, tamaños, espacios, agregamos animaciones, etc.
-
-Existen tres opciones para incluir CSS en un documento HTML:
-
-## CSS Inline
-
-Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
-style. Por ejemplo:
-
-```html
-<h1 style="color: blue; background-color: yellow; border: 1px solid black;">
-  ¡Hola Mundo!</h1>
-```
-
->>>>>>> b8749f900f8c0231db4deea5e6494cbb3aa6f3ce
 En el navegador, el titular anterior se vería así:
 
 ![Inline Style](img-inline-style.png)
@@ -79,7 +52,7 @@ haciendo el CSS difícil de leer y de entender. Manteniendo los distintos tipos
 de código separados y puros, facilitará la tarea a aquellos que vayan a
 trabajar posteriormente en el código.
 
-## CSS en el head
+### 2. CSS en el head
 
 Otra opción es colocar los estilos dentro de un elemento html `<style>` que
 colocamos en el `head`. Por ejemplo, para representar
@@ -108,7 +81,7 @@ Este método continúa siendo ineficiente. ¿Qué pasa si tenemos estilos simila
 en otras páginas de mi sitio web? Tendría que repetir los estilos en cada
 página. Y recordemos que no nos gusta repetirnos: DRY! :)
 
-## CSS stylesheet externo
+### 3. CSS stylesheet externo
 
 La manera ideal de agregar estilos a tu producto web es tener un archivo CSS
 separado de tu archivo HTML. Todos los estilos se incluyen en este
@@ -118,7 +91,7 @@ etiqueta html `<link>`.
 En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
 dos archivos:
 
-### 1. Archivo `index.html`
+#### Archivo `index.html`
 
 ```html
 <!DOCTYPE html>
@@ -134,7 +107,8 @@ dos archivos:
 
 ```
 
-### 2. Archivo `style.css`
+#### Archivo `style.css`
+
 ```css
 h1 {
   color: blue;
