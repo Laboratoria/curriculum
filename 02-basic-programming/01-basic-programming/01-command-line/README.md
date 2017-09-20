@@ -170,7 +170,7 @@ ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
 cd Pictures
 ```
 Si ahora vemos cuál es nuestra ubicación, nos saldrá que nos encontramos en la
-carpeta "Fotos"
+carpeta "Pictures"
 
 **Windows**
 ```text
