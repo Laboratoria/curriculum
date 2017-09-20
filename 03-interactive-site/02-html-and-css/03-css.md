@@ -6,7 +6,11 @@
 
 ## Objetivos de Aprendizaje
 
-- Aprender ...
+* Entender qué es CSS y cómo funciona
+* Conocer las diferentes maneras de agregarle estilo a tu web
+* Aprender la sintaxis CSS
+* Aprender qué son selectores y cuáles son los selectores más utilizados
+* Entender cómo funcionan las reglas de cascada y herencia de CSS
 
 ***
 
@@ -33,7 +37,8 @@ Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
 style. Por ejemplo:
 
 ```html
-<h1 style="color: blue; background-color: yellow; border: 1px solid black;">¡Hola Mundo!</h1>
+<h1 style="color: blue; background-color: yellow; border: 1px solid black;">
+  ¡Hola Mundo!</h1>
 ```
 
 En el navegador, el titular anterior se vería así:
@@ -49,10 +54,10 @@ haciendo el CSS difícil de leer y de entender. Manteniendo los distintos tipos
 de código separados y puros, facilitará la tarea a aquellos que vayan a
 trabajar posteriormente en el código.
 
-### CSS en el head
+## CSS en el head
 
-En este caso, ubicamos los estilos dentro de un elemento `<style>` que
-colocamos en el `head` del documento HTML. Por ejemplo, para representar
+Otra opción es colocar los estilos dentro de un elemento html `<style>` que
+colocamos en el `head`. Por ejemplo, para representar
 los mismos estilos del `h1` anterior tendríamos lo siguiente:
 
 ```html
@@ -78,17 +83,17 @@ Este método continúa siendo ineficiente. ¿Qué pasa si tenemos estilos simila
 en otras páginas de mi sitio web? Tendría que repetir los estilos en cada
 página. Y recordemos que no nos gusta repetirnos: DRY! :)
 
-### CSS stylesheet externo
+## CSS stylesheet externo
 
 La manera ideal de agregar estilos a tu producto web es tener un archivo CSS
 separado de tu archivo HTML. Todos los estilos se incluyen en este
 archivo de tipo CSS externo, que las páginas HTML enlazan mediante la
-etiqueta `<link>`.
+etiqueta html `<link>`.
 
 En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
 dos archivos:
 
-#### 1. Archivo `index.html`
+### 1. Archivo `index.html`
 
 ```html
 <!DOCTYPE html>
@@ -104,7 +109,7 @@ dos archivos:
 
 ```
 
-#### 2. Archivo `style.css`
+### 2. Archivo `style.css`
 ```css
 h1 {
   color: blue;
@@ -144,7 +149,7 @@ selectores forman **Reglas CSS**.
 Por ejemplo:
 
 ```
-           regla CSS
+           regla css
 _________________________________
 selector        
 |                    
@@ -159,17 +164,70 @@ p { color: red; font-size: 15px; }
          bloque de declaración
 ```
 
+La convención para representar el ejemplo anterior es la siguiente
+(fíjate que es mucho más fácil de leer):
 
+```css
+p {
+  color: red;
+  font-size: 15px;
+}
+
+```
+
+En resumen, el bloque de declaración indica qué hay que hacer y el selector
+indica a quién hay que aplicárselo. Por lo tanto, los selectores son
+imprescindibles para aplicar de forma correcta los estilos CSS en una
+página. A un mismo elemento HTML se le pueden aplicar varias reglas CSS y
+cada regla CSS puede aplicarse a un número ilimitado de elementos.
 
 ## Selectores
-- universal
-- etiquetas
-- desendientes
-- id
-- class
 
-### Reglas de cascada y especificidad
+Existen múltiples selectores. Lee la siguiente documentación:
 
-### Herencia
+* [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
+* [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
 
-***
+Al finalizar tu investigación debes saber qué es y cómo usar:
+* Selector universal
+* Selector de elementos (de tipo)
+* Selectores de clases
+* Selectores ID
+* Selector descendiente
+* Selector hijo
+* Selectores de atributo
+
+## Reglas de cascada y herencia
+
+Como hemos visto, diferentes reglas CSS pueden aplicarse a un número ilimitado
+de elementos. Esto puede generar estilos que entran en conflicto:
+declaraciones con estilos diferentes afectando el mismo elemento.
+Afortunadamente. CSS cuenta con un mecanismo conocido como la **cascada**
+que gobierna cómo interactúan los estilos y qué estilos tienen preferencia
+cuando existe un conflicto. De hecho, este mecanismo de cascada es la razón
+por la cual CSS tiene su nombre: _Cascading Style Sheets_
+(en español: hojas de estilo en cascada).
+
+Otra característica de CSS es la **herencia** de estilos. La herencia es el
+proceso por el cual algunas declaraciones de CSS aplicadas a un elemento pasan
+de forma automática a los elementos que se encuentran anidados
+(sus descendientes).
+
+Lee los siguientes artículos para entender los conceptos de cascada y herencia
+en CSS:
+
+* [Cascada y Herencia - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia)
+* [Herencia - Librosweb](http://librosweb.es/libro/css/capitulo_2/herencia.html)
+* [Colisiones de estilos - Librosweb](http://librosweb.es/libro/css/capitulo_2/colisiones_de_estilos.html)
+
+Al terminar tu investigación, debes ser capaz de entender los 3 factores que
+determinan el mecanismo de cascada. En particular, responde lo siguiente:
+
+1. ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
+2. ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
+3. ¿Se aplica el estilo con mayor o menor especificidad?
+4. ¿Cómo se calcula la especificidad?
+5. ¿Qué significa `!important`? ¿Por qué **NO** no debemos usarlo a menos que
+sea estrictamente necesario?
+6. ¿Todos los estilos en CSS se heredan? ¿Por qué?
+7. ¿Qué es y para qué sirve `inherit`?
