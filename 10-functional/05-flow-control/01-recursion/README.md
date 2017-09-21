@@ -7,20 +7,18 @@
 ***
 
 La recursividad es uno de los conceptos de programación más simples pero a su
-vez uno de los difíciles de dominar. La definición teórica para recursividad es:
-"la capacidad de una función de invocarse a sí misma". Ten en cuenta que la
+vez uno de los más difíciles de dominar. La definición teórica para recursividad
+es: "la capacidad de una función de invocarse a sí misma". Ten en cuenta que la
 recursión no es un concepto exclusivo de JavaScript, lo podemos encontrar en
 casi todos los lenguajes de programación.
 
 A lo largo de esta lección veremos que la recursión es importante para la
 programación funcional por las siguientes razones:
 
-* Las soluciones recursivas envuelven el uso de abstracciones simples aplicadas
+* Las soluciones recursivas involucran el uso de abstracciones simples aplicadas
   a subconjuntos de un problema común.
 * La recursión puede ocultar la mutación del estado. Recuerda que hablamos sobre
-  la mutación de estado en las lecciones de [Funciones
-  puras](../01-pure-functions/README.md) e
-  [Inmutabilidad](../02-immutability/README.md).
+  la mutación de estado en las lecciones de Funciones puras e Inmutabilidad.
 * La recursión es una manera de implementar *lazyness* y estructuras muy largas
   o infinitas.
 
@@ -28,16 +26,13 @@ programación funcional por las siguientes razones:
 
 Este es el ejemplo clásico para entender la recursividad: **factoriales.**
 
-Cuando se calcula el factorial de un número `n` es igual a `n` multiplicado por
-el para cada entero positivo.
+El factorial de un número entero `n` es igual al producto de todos los números
+enteros positivos desde `1` hasta `n`. Así que el factorial de 5 es igual a
+`5 * 4 * 3 * 2 * 1`, lo que nos da como resultado 120.
 
-    n! = n * (n - 1) * (n - 2) ... 3 * 2 * 1
-    n! = n * [(n - 1) * (n - 2) ... 3 * 2 * 1] = n * (n - 1)!
-
-Así que el factorial de 5 es igual a `5 * 4 * 3 * 2 * 1`, lo que nos da como
-resultado 120.
-
-    5! = 5 * 4 * 3 * 2 * 1 = 120
+```text
+5! = 5 * 4 * 3 * 2 * 1 = 120
+```
 
 En la programación, los factoriales son un ejemplo perfecto de un caso en el que
 se debe utilizar una función recursiva. ¿Por qué? Porque estamos haciendo lo
@@ -91,10 +86,6 @@ Ran all test suites matching "factorial.test.js".
 Done in 1.12s.
 ```
 
-### Tarea
-
-Utiliza la misma función `factorial()` pero en este caso para el entero 10.
-
 ## Caso base, caso recursivo
 
 Hay características claves de la recursión que deben incluirse en tu código para
@@ -105,12 +96,11 @@ sentencia, normalmente dentro de una cláusula condicional como `if` que detiene
 la recursión. Si no se tiene un caso base, la recursión continuará infinitamente
 y tu programa se bloqueará (lo cual no es bueno).
 
-El segundo es el **caso recursivo**: ésta es la afirmación donde la recursión
-realmente sucede: es donde la función recursiva se llama a sí misma.
+El segundo es el **caso recursivo**: ésta es el lugar donde realmente sucede la
+recursión: es donde la función recursiva se llama a sí misma.
 
-Vamos a explorar ambos casos con más detalle.
-
-Mira bien el código del ejemplo a continuación:
+Vamos a explorar ambos casos con más detalle. Mira bien el código del ejemplo a
+continuación:
 
 **factorial.js.**
 
@@ -129,11 +119,6 @@ const factorial = n => {
 
 module.exports = factorial
 ```
-
-¿crees que tiene lógica?
-
-Como ejercicio puedes llamar la función `factorial()` usando cualquier número
-entero positivo.
 
 ## Condición de terminación
 
@@ -198,7 +183,7 @@ Ran all test suites matching "factorial.test.js".
 **¡Ouch!**, nuestro programa está fallando.
 
 Para evitar que esto suceda, utilizaremos una condición de terminación para
-asegurarnos que el valor pasado a la función sea válido y no bloquee nuestro
+asegurarnos de que el valor pasado a la función sea válido y no bloquee nuestro
 programa. Como programadora, debes estar constantemente pensando en cómo estar
 preparada para cualquier tipo de situación y asegurarte de que tu código puede
 manejarla correctamente.
@@ -245,17 +230,11 @@ Done in 1.29s.
 Todo parece indicar que la condición de terminación nos ha servido para
 solventar el error antes presentado.
 
-### Tarea
-
-Puedes intentar describir un nuevo escenario de prueba para ver qué sucede
-cuando se pasa un valor no válido a la función `factorial()`. Al encontrar una
-falla, puedes intentar mejorar la implementación de la función `factorial()`.
-
 ## Argumentos en la recursión
 
 Cuando empieces a construir tu caso recursivo (el código que se repetirá), una
-de las reglas es asegurarse que los argumentos que utiliza para la recursión
-llevará a un caso base.
+de las reglas es asegurarse de que los argumentos que usamos para la recursión
+nos lleven a un caso base.
 
 Si el valor que le pasamos a la llamada de la función recursiva es el mismo que
 el valor inicial, es probable que nuestro código entre en un bucle infinito, e
@@ -284,26 +263,12 @@ const factorial = n => {
 factorial(6)
 ```
 
-* ¿Qué está mal? ¿Por qué no funciona la recursión?
-
-### Tarea
-
-Ejecuta el código del ejemplo anterior.
-
-Hmm…​ algo está mal.
-
-Observa atentamente la última línea de definición de la función factorial y
-cámbiala para que el factorial funcione correctamente.
-
-Utiliza los casos de pruebas antes mostrados para ver que todo funcione
-correctamente.
+¿Qué está mal? ¿Por qué no funciona la recursión?
 
 ## Ahora es tu turno
 
-Ahora que hemos cubierto lo esencial, trata de reconstruir la función
-`factorial()` en la que hemos estado trabajando, pero esta vez escríbelo todo
-desde cero. Para ayudarte, aquí hay cinco preguntas que puedes utilizar siempre
-que vayas a incluir la recursión en tu código:
+A la hora de plantear una función recursiva, hay cinco preguntas que puedes
+utilizar como guía:
 
 * ¿Cuáles son los casos básicos?
 * ¿Cuál es el caso recursivo?, ¿hay más de un caso recursivo?
@@ -312,28 +277,10 @@ que vayas a incluir la recursión en tu código:
 * ¿Se construye la recursión en el caso base hasta que el resultado deseado es
   devuelto por la función?
 
-### Plantilla
+## Pila de llamadas (Call Stack)
 
-Define el caso base. Dado que un factorial significa multiplicar un entero por
-cada entero entre él mismo y uno, el caso base es uno.
-
-Define el caso recursivo. ¿Qué acciones deben realizarse una y otra vez para
-lograr el resultado deseado?
-
-Escribe cualquier condición de terminación para evitar que la función acepte
-argumentos que puedan dar error.
-
-**factorial.js.**
-
-```js
-const factorial = n => {
-  // Aquí va tu código.
-}
-```
-
-Llegados a este punto, imagina por un momento que completaste la tarea y
-compartiste tus resultados con tus amigas, una compañera mientras hacia revisión
-de tú código encontró un comportamiento extraño, su caso de prueba fue el
+Imagina por un momento que una compañera mientras hacia revisión de la función
+`factorial()` encontró un comportamiento extraño, su caso de prueba fue el
 siguiente:
 
 ```sh
@@ -348,8 +295,6 @@ apropiada.
 Ahora bien, para poder resolver este problema, primero debemos dejar claro un
 concepto que no habíamos explicado anteriormente, definamos entonces qué es la
 pila de llamadas o *Call Stack*.
-
-## Pila de llamadas (Call Stack)
 
 Sería útil examinar más de cerca la forma en que se maneja el control a través
 de las funciones. Aquí está un programa simple que hace algunas llamadas a
@@ -386,8 +331,8 @@ de cómo fluye el control en la función:
     top
 
 Como la función debe saltar de nuevo al lugar de la llamada original cuando
-llega la final de la función, la computadora debe recordar el contexto o entorno
-desde el cual se hizo la llamada a la función. Por ejemplo en un caso,
+llega al final de la función, la computadora debe recordar el contexto o entorno
+desde el cual se hizo la llamada a la función. Por ejemplo, en un caso,
 `console.log` tiene que volver a saltar a la función `greet`. En otro caso, debe
 saltar al final del programa.
 
@@ -421,7 +366,11 @@ partir de ciertos enteros positivos nuestra pila de llamadas crece demasido y
 obtenemos el error: *Maximum call stack size exceeded*. Veamos entonces si
 podemos solventar dicho error.
 
-## Tail-call Optimization
+***
+
+## Lecturas complementarias
+
+### Tail-call Optimization
 
 La optimización de llamadas de cola o *tail-call optimization* es una
 característica del compilador que reemplaza las invocaciones de funciones
@@ -430,9 +379,9 @@ invocaciones de funciones elimina tanto el tamaño de la pila como el tiempo
 necesario para configurar los marcos de la pila de funciones. Tanto el tiempo
 como el espacio se guardan.
 
-La programadora debe escribir métodos de una manera que facilite la optimización
-de llamadas de cola. Esto significa que la última función invocada debe ser la
-invocación de la función recursiva. Si revisamos con detenimiento nuestra
+Una programadora debe escribir funciones de una manera que facilite la
+_optimización de llamadas de cola_. Esto significa que la última función
+invocada debe ser la función recursiva. Si revisamos con detenimiento nuestra
 función `factorial` podremos apreciar que nuestra llamada recursiva es como
 sigue:
 
@@ -440,9 +389,9 @@ sigue:
 return n * factorial(n - 1)
 ```
 
-Cabe preguntarnos si **la última función invocada debe ser la función recursiva**,
-en nuestra implementación actual en realidad es la multiplicación
-lo que se invoca de último. Sin embargo, podemos mejorar la implementación tal
+Cabe preguntarnos si **la última función invocada debe ser la función
+recursiva**, en nuestra implementación actual en realidad es la multiplicación
+lo último que se invoca. Sin embargo, podemos mejorar la implementación tal
 como sigue:
 
 **factorial.js.**
@@ -474,9 +423,9 @@ multiplicación (caso previo). De este modo, el compilador es capaz de invocar
 repetición.
 
 Nota que hemos agregado un parámetro adicional a `factorial` este parametro es
-`acc`. Este es el acumulador, `acc` es el valor de función acumulado hasta este
-punto. Hagamos una simulación escrita del método recurrente para ver cómo se
-acumula el resultado factorial:
+`acc`. Este es el acumulador, `acc` es el valor acumulado hasta este punto.
+Hagamos una simulación escrita del método recurrente para ver cómo se acumula el
+resultado factorial:
 
     factorial(5)
     factorial(5, 1)
@@ -488,12 +437,12 @@ acumula el resultado factorial:
     120
 
 Todas las funciones recursivas deben tener un caso base que termine la
-recursión. Anteriormente el caso base para la función `factorial` es cuando n =
-0, en cuyo caso se devuelve 1. Con esta nueva implementación, el caso base de
-`factorial` es también cuando n = 0, pero en lugar de retornar 1, se devuelve el
-valor acumulado o `acc`.
+recursión. Anteriormente el caso base para la función `factorial` era cuando
+`n = 0`, en cuyo caso se devuelve `1`. Con esta nueva implementación, el caso
+base de `factorial` sigue siendo cuando `n = 0`, pero en lugar de retornar `1`,
+se devuelve el valor acumulado (`acc`).
 
-### Tarea
+#### Tarea
 
 Nuestra nueva implementación de `factorial` igualmente tiene un problema, si
 bien hacemos uso de una característica de ES2015, la cual es la definición de
@@ -504,7 +453,7 @@ código, ¿el resultado es correcto?
 
 Un modo de corregir la nueva implementación es siguiendo la siguientes consejos:
 
-### Estrategia para la optimización de llamadas de cola
+#### Estrategia para la optimización de llamadas de cola
 
 Utiliza esta estrategia para crear funciones recursivas optimizadas:
 
@@ -520,7 +469,7 @@ mejoras significativas en el rendimiento.
 
 > **Nota**
 >
-> Si tú código fuese a producción con este implementación, se utilizarían otras
+> Si tú código fuese a producción con esta implementación, se utilizarían otras
 > técnicas como
 > [IIFEs](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
 > entre otras para encapsular y prevenir la creación de un nuevo *closure* cada
@@ -588,7 +537,7 @@ la mayoría de sus implementaciones, tal como se indica
 
 > **Nota**
 >
-> Al momento de la publicación de esta lección, la única implementación de
+> Al momento de la publicación de esta lectura, la única implementación de
 > JavaScript conocida por el autor que soporta tail-call optimization es
 > [KinomaJS](https://github.com/Kinoma/kinomajs), la cual ofrece un *runtime*
 > optimizado para el desarrollo de aplicaciones que funcionen en dispositivos IoT
@@ -604,10 +553,10 @@ Ahora que sabemos que la mayoría de las implementaciones de JavaScript no
 implementan todavía la *tail-call optimization* es necesario ver si existen
 otras alternativas con las cuales podamos solventar el error antes visto.
 
-## Trampolining
+### Trampolining
 
 ¿Cómo podemos optimizar las funciones de JavaScript recursivas sin la
-optimización de llamadas de cola? Una opción es volver a escribir su función
+optimización de llamadas de cola? Una opción es volver a escribir tu función
 recursiva en forma de bucle.
 
 Función factorial escrita usando estructura de datos de control:
@@ -640,7 +589,7 @@ programación orientados al uso de pilas.
 
 Pero es más fácil de lo que parece en la teoría, como veremos a continuación.
 
-### Un simple trampolín
+#### Un simple trampolín
 
 Veamos una implementación simple de trampolín:
 
@@ -660,13 +609,12 @@ usar el trampolín de la siguiente manera:
 ```js
 const factorial = (n) => {
   const recur = (n, acc) => n ? recur(n - 1, n * acc) : acc
-
   return trampoline(recur(n, 1));
 }
 ```
 
 Pero esto no produce la optimización deseada. ¿Por qué? Supongamos que se invoca
-la función factorial con n = 5. ¿Qué valor se le pasa al trampolín?
+la función factorial con `n = 5`. ¿Qué valor se le pasa al trampolín?
 
 ```js
 recur(5, 1)
@@ -681,7 +629,7 @@ Teníamos la intención de invocar un trampolín con una función de referencia,
 con un resultado de la función. Mientras que lo siguiente funciona
 
 ```js
-return trampoline(Function() { recur(n, 1) })
+return trampoline(function() { recur(n, 1) })
 ```
 
 Es difícil de manejar. Necesitamos un medio para obtener una referencia a la

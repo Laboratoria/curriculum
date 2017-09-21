@@ -12,7 +12,12 @@
 
 ### Respondamos juntxs las preguntas de la apertura
 
-...
+* ¿Cuáles son los casos básicos?
+* ¿Cuál es el caso recursivo?, ¿hay más de un caso recursivo?
+* ¿He incluido alguna otra condición de terminación necesaria?
+* ¿Las declaraciones de la función conducen al caso base?
+* ¿Se construye la recursión en el caso base hasta que el resultado deseado es
+  devuelto por la función?
 
 ### Auto-evaluación
 

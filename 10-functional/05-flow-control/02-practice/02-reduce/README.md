@@ -4,12 +4,6 @@
 
 ***
 
-La recursión es un concepto fundamental en programación, que nos puede llevar a
-soluciones elegantes y eficientes a problemas algorítmicos. De hecho, la
-recursión es tan poderosa, que toda lógica iterativa puede ser expresada usando
-funciones recursivas. A la hora de iterar estructuras de datos anidadas, la
-recursión se convierte en una herramienta indispensable.
-
 Una función recursiva es una función que se llama a sí misma. Por ejemplo, esta
 función recursiva recibe un Array de palabras, y retorna un arreglo con las
 mismas palabras, pero todas en mayúsculas.

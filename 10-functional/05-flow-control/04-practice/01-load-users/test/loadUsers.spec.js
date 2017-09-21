@@ -22,7 +22,7 @@ describe('loadUsers()', () => {
   it('debería mantener el orden de userIds en los resultados', (done) => {
     let count = 0;
     const load = (id, cb) =>
-      setTimeout(() => cb({ id: id, name: 'Lorem ipsum' }), 100 / ++count);
+      setTimeout(() => cb && cb({ id: id, name: 'Lorem ipsum' }), 100 / ++count);
 
     Submission([1, 2, 3], load, (users) => {
       Assert.deepEqual(users, [
@@ -36,7 +36,7 @@ describe('loadUsers()', () => {
 
   it('debería cargar los usuarios en paralelo', (done) => {
     const load = (id, cb) =>
-      setTimeout(() => cb({ id: id, name: 'Lorem ipsum' }), 100);
+      setTimeout(() => cb && cb({ id: id, name: 'Lorem ipsum' }), 100);
 
     const start = Date.now();
     Submission([3, 2, 1], load, (users) => {
@@ -47,7 +47,7 @@ describe('loadUsers()', () => {
 
   it('debería invocar load para cada id de usario y callback con usuarios', (done) => {
     const load = (id, cb) =>
-      setTimeout(() => cb({ id: id, name: 'Lorem ipsum' }), 100);
+      setTimeout(() => cb && cb({ id: id, name: 'Lorem ipsum' }), 100);
 
     Submission([1, 2, 3], load, (users) => {
       Assert.deepEqual(users, [
