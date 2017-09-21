@@ -54,7 +54,7 @@ Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts (Sug
 
 ### 8. Applove
 
-Sigue los pasos de tu profe para crear una réplica de la  web [Applove](https://ruthsalvador.github.io/AppLove-II/)
+Sigue los pasos de tu profe para crear una réplica de la  web [Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png)
 
 Para completar este ejercicios hemos creado un [repositorio _boilerplate_](https://github.com/Laboratoria/AppLove) (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
 
