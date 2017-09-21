@@ -1,7 +1,10 @@
 # Opening: HTML & CSS
+
 - Tipo: `lectura`
 - Formato: `self-paced`
 - Duración: `15min`
+
+***
 
 ## Objetivos de Aprendizaje
 
@@ -46,6 +49,7 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 `html` y qué representa el `css`?
 - [ ] ¿Para qué sirve el atributo style de los elementos `html`? ¿Cuál es la
 forma correcta de usarlo?
+- [ ] ¿Qué es un selector? ¿Qué es un pseudo-selector?
 
 ***
 
