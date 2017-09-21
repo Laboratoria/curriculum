@@ -1,49 +1,32 @@
-# Casos prácticos (videos)
+# Caso práctico (video)
+
 - Tipo: `lectura`
-- Formato: `self-learning`
-- Duración: `60min`
+- Formato: `self-paced`
+- Duración: `1h`
+
+***
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo crear estructuras en la web con
+- Entender, a través de un caso práctico, cómo crear estructuras en la web con
 `html` y a darle estilos con `css`
 
-***
-
-## Enunciados
+## Enunciado
 
 Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
-para resolver problemas.
+para resolver problemas reales.
 
-A continuación tendrás varios planteamientos que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones
-de Michelle. Después de haberlo intentado, compara tus soluciones con las
-de Michelle.   
+Imagina que estás creando tu primera web interactiva y quieres hacerle un menú
+de navegación. Tu equipo de diseño te ha pasado estos demos para que repliques:
 
-#### 1. ?????
+### 1. Menú Vertical
+![Demo Menu vertical](https://fotos.subefotos.com/3b523ebdaaa3e207adb555eaa26b8351o.gif)
 
-#### 2. ?????
+### 2. Menú Horizontal
+![Demo Menu horizontal](https://fotos.subefotos.com/9da8149c853131e7e7282a30c9dc37e6o.gif)
 
+## Solucionario
 
-#### 3. ?????
+A continuación, Lulu te explica cómo resolvió este reto:
 
-## Solucionarios
-
-A continuación, Michelle te explica cómo resolvió cada uno de los
-ejercicios anteriores.  
-
-#### 1. ?????
-
-[![-----]()
-
-#### 2. ?????
-
-[![-----]()
-
-#### 3. ?????
-
-[![-----]()
-
-***
-
-[Continuar]()
+[![Solucionario Menu](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)

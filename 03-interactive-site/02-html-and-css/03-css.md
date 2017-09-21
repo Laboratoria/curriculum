@@ -4,6 +4,8 @@
 - Formato: `self-paced`
 - Duración: `3h`
 
+***
+
 ## Objetivos de Aprendizaje
 
 * Entender qué es CSS y cómo funciona
@@ -13,7 +15,7 @@
 * Entender cómo funcionan las reglas de cascada y herencia de CSS
 * Aprender los valores usuales de CSS y sus unidades
 
-***
+
 <!-- link a slides de lab:
 https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web -->
 
@@ -188,6 +190,7 @@ Existen múltiples selectores. Lee la siguiente documentación para que aprendas
 * [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
 * [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
 * [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
+* [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
 
 Al finalizar tu investigación debes saber qué es y cómo usar:
 * Selector universal
@@ -197,6 +200,7 @@ Al finalizar tu investigación debes saber qué es y cómo usar:
 * Selector descendiente
 * Selector hijo
 * Selectores de atributo
+* Pseudo selectores
 
 ## Reglas de cascada y herencia
 
@@ -224,14 +228,14 @@ en CSS:
 Al terminar tu investigación, debes ser capaz de entender los 3 factores que
 determinan el mecanismo de cascada. En particular, responde lo siguiente:
 
-1. ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
-2. ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
-3. ¿Se aplica el estilo con mayor o menor especificidad?
-4. ¿Cómo se calcula la especificidad?
-5. ¿Qué significa `!important`? ¿Por qué **NO** no debemos usarlo a menos que
+* ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
+* ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
+* ¿Se aplica el estilo con mayor o menor especificidad?
+* ¿Cómo se calcula la especificidad?
+* ¿Qué significa `!important`? ¿Por qué **NO** no debemos usarlo a menos que
 sea estrictamente necesario?
-6. ¿Todos los estilos en CSS se heredan? ¿Por qué?
-7. ¿Qué es y para qué sirve `inherit`?
+* ¿Todos los estilos en CSS se heredan? ¿Por qué?
+* ¿Qué es y para qué sirve `inherit`?
 
 ## Valores y unidades
 

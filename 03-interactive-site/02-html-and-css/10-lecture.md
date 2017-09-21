@@ -1,7 +1,10 @@
 # Clase de Conceptos
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
-- Duración: `120min`
+
+- Tipo: `seminario`
+- Formato: `guiado`
+- Duración: `3h`
+
+***
 
 ## Objetivos
 
@@ -11,21 +14,22 @@ con tu equipo de profesores
 
 ## Agenda
 
- 1. Entendamos bien el concepto de ....
+### 1. Repaso de conceptos generales
 
- 2. Por medio de ejemplos entendemos cómo agregar a una web:
-   1. Encabezados para títulos y subtítulos (tip: headings)
-   2. Un link
-   3. Una tabla
-   4. Una lista
-   5. Una imagen
-   6. Una línea divisoria
-   7. Una cita
-   8. Resaltar un texto
+Asegurar que entendemos bien los siguientes conceptos:
+  * Anidamiento HTML y herencia en CSS
+  * Mecanismo de cascada en CSS
+  * Creando estructura con `div` y HTML semántico
+  * Atributos de elementos HTML
+  * Mantener el CSS separado de HTML
+  * Valores y unidades
+  * Selectores y pseudo-selectores
 
- 3. Revisemos los [ejercicios guiados](11-guided-exercises.md) que
- resolveremos en la próxima clase para que intentes resolverlos por tu
- cuenta primero. Veamos un par de tips :)
+### 2. Repasar los ejemplos de las lecturas de MDN
 
-***
-[Continuar]()
+Revisemos los ejemplos de código de la documentación de MDN
+(ejemplos en codepen) y modifiquemos algunos para asegurar que entendemos
+bien lo que leemos. _Elegir los tópicos a repasar en función de
+los resultados del quiz_
+
+### 3. Revisemos los [ejercicios guiados](11-guided-exercises.md)
