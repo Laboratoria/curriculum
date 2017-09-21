@@ -7,7 +7,7 @@
 ## Objetivos de la lección
 
 * Revisar ejercicios de la unidad
-* Aclarar dudas con respecto a funciones puras e immutabilidad
+* Aclarar dudas con respecto a recursividad y asincronía
 
 ***
 
@@ -16,5 +16,4 @@ instructorxs harán ejercicios guiados y respondán sus preguntas.
 
 ## Requisitos
 
-* Haber completado ejercicios de higher order functions, aplicación parcial y
-  currying.
+* Haber completado ejercicios de recursividad y asincronía.

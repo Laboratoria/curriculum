@@ -6,12 +6,6 @@
 
 ***
 
-En JavaScript a menudo necesitamos lidiar con el comportamiento asincrónico,
-que puede ser confuso para los programadores que sólo tienen experiencia con
-código síncrono. A continuación se explicará qué es código asíncrono, algunas de
-las dificultades de usar código asíncrono, y maneras de manejar estas
-dificultades.
-
 ## ¿Cuál es la diferencia entre código síncrono y asíncrono?
 
 ## Código síncrono
@@ -24,7 +18,7 @@ Puedes imaginar que estuvieses en una fila de gente que espera para comprar
 boletos de tren. No puedes comenzar a comprar un boleto de tren hasta que todas
 las personas delante de tí hayan terminado de comprar sus boletos. Del mismo
 modo, la gente detrás de tí no puede comenzar a comprar sus boletos hasta que
-hayan comprado el suyo.
+hayas comprado el tuyo.
 
 ## Código asíncrono
 
@@ -37,14 +31,14 @@ comida. Tú También puedes pedir tu comida. No tienes que esperar a que las
 otras personas reciban su comida y terminen de comer antes de que tomen tu
 orden. Del mismo modo, otras personas no tienen que esperar para obtener su
 comida y terminar de comer antes de que puedas ordenar tu comida. Todo el mundo
-obtendrá su comida tan pronto como en el restaurant hayan terminado de cocinar.
+obtendrá su comida en cuanto esté lista.
 
-La secuencia en la que las personas reciben sus alimentos a menudo se
-correlaciona con la secuencia en la que ordenaron el alimento, pero estas
-secuencias no siempre tienen que ser idénticas. Por ejemplo, si tu pides un
-bistec, y luego yo pido un vaso de agua, probablemente recibiré mi pedido
-primero, ya que normalmente no toma tanto tiempo servir un vaso de agua en
-comparación con preparar y servir un filete.
+La secuencia en la que las personas reciben su pedido a menudo se correlaciona
+con la secuencia en la que hicieron su orden, pero estas secuencias no siempre
+tienen que ser idénticas. Por ejemplo, si tu pides un bistec, y luego yo pido un
+vaso de agua, probablemente recibiré mi pedido primero, ya que normalmente no
+toma tanto tiempo servir un vaso de agua en comparación con preparar y servir un
+filete.
 
 Ten en cuenta que asíncrono no significa lo mismo que concurrente o multihilo.
 JavaScript puede tener código asíncrono, pero generalmente es de subproceso
@@ -79,14 +73,14 @@ Diga ¡Adiós!"
 Diga "¡Hola de nuevo!"
 ```
 
-Pero `setTimeout` no interrumpe la ejecución del código. Sólo programa algo que
-suceda en el futuro, y luego sigue inmediatamente a la siguiente línea.
+Pero `setTimeout` no interrumpe la ejecución del código. Sólo programa algo para
+que suceda en el futuro, y luego sigue inmediatamente a la siguiente línea. Así
+que el resultado del código anterior sería:
 
-```sh
-Diga “Hola".
-Diga "¡Hola de nuevo!"
-No haga nada durante dos segundos.
-Diga ¡Adiós!"
+```js
+'Hola'
+'¡Hola de nuevo!'
+'¡Adiós!' // 2 segundos después
 ```
 
 ## Obtener datos de solicitudes AJAX
@@ -136,13 +130,9 @@ para proceder:
 
 En JavaScript, podemos crear funciones asíncronas que reciben otras funciones
 como argumentos, que se llamarán una vez que la tarea se haya completado.
+Siguiendo nuestro ejemplo, podemos pasarle una funcion _callback_ a `getData`:
 
 ```js
-const data = getData()
-console.log("The data is: " + data)
-
-Le pasaremos una funcion _callback_ a `getData`:
-
 getData(data => {
   console.log(`The data is: ${data}`)
 })
@@ -150,8 +140,8 @@ getData(data => {
 
 Por supuesto, ¿cómo sabe `getData` que estamos pasando una función? ¿Cómo se
 llama y cómo se carga el parámetro `data`? En este momento, nada de esto está
-sucediendo; Tenemos que cambiar la función `getData`, así que sabrá que una
-función de respuesta de llamada es su parámetro.
+sucediendo. Tenemos que cambiar la función `getData` para que acepte un callback
+como argumento.
 
 ```js
 const getData = callback => {
@@ -178,9 +168,9 @@ const getData = callback => {
 
 Las funciones de respuesta de llamada se usan con mucha frecuencia en
 _JavaScript_ y, si has pasado algún tiempo escribiendo código en _JavaScript_,
-es muy probable que las hayas utilizado. Casi todas las aplicaciones web harán
-uso de respuestas de llamada a través de eventos (por ejemplo,
-`window.onclick`), `setTimeout` y `setInterval`, o solicitudes AJAX.
+es muy probable que las hayas utilizado. Toda aplicación web hará uso de
+respuestas de llamada a través de eventos (por ejemplo, `window.onclick`,
+`setTimeout` y `setInterval`, o solicitudes AJAX).
 
 ## Problemas comunes del código asíncrono
 
@@ -194,7 +184,7 @@ para no hacer nada durante un período de tiempo determinado:
 ```js
 const pause = duration => {
   const start = new Date().getTime()
-  while(new Date().getTime() - start < duration) {}
+  while (new Date().getTime() - start < duration) {}
 }
 ```
 
@@ -204,8 +194,8 @@ pierde lentamente el soporte del navegador). También hay alternativas síncrona
 a muchas funciones asíncronas en Node.js.
 
 Tratar de evitar código asíncrono y reemplazarlo con código síncrono es casi
-siempre una mala idea  porque _JavaScript_ sólo tiene un solo hilo (excepto
-cuando se utiliza _Web Workers_). Esto significa que la página web no responderá
+siempre una mala idea porque _JavaScript_ sólo tiene un solo hilo (excepto
+cuando se utilizan _Web Workers_). Esto significa que la página web no responderá
 mientras se ejecuta el _script_. Si utilizas la función sincrónica `pause` o una
 llamada _AJAX_ síncrona, el usuario no podrá hacer nada mientras estén en
 ejecución.
@@ -223,14 +213,14 @@ esperarías que el código escrito a continuación hiciera, y luego intenta
 ejecutarlo en la consola _JavaScript_ de tu navegador.
 
 ```js
-for(var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 3; i++) {
   setTimeout(() => {
     console.log(i + " second(s) elapsed")
   }, i * 1000)
 }
 ```
 
-Es probable que el código anterior está diseñado con la intención mostrar los
+Es probable que el código anterior está diseñado con la intención de mostrar los
 mensajes siguientes, con un segundo de retardo entre cada mensaje:
 
 ```console
@@ -280,7 +270,7 @@ for(let i = 1; i <= 3; i++) {
 ### Infierno de _callback_
 
 A veces se tiene una serie de tareas en las que cada paso depende de los
-resultados del paso anterior. Esto es  muy sencillo de tratar usando código
+resultados del paso anterior. Esto es muy sencillo de tratar usando código
 síncrono:
 
 ```js
@@ -348,9 +338,9 @@ readFile(fileName, readFinish)
 
 #### Crear una función para ejecutar una serie de tareas
 
-Esta solución no es tan flexible como la anterior, pero si se tiene una tubería
-de tareas compuesta de funciones asíncronas, se puede crear una función de
-utilidad que tome una matriz de tareas y las ejecute una tras otra.
+Esta solución no es tan flexible como la anterior, pero si se tiene una
+secuencia de tareas compuesta de funciones asíncronas, se puede crear una
+función de utilidad que tome una matriz de tareas y las ejecute una tras otra.
 
 ```js
 const performTasks = (input, tasks) => {
@@ -359,7 +349,8 @@ const performTasks = (input, tasks) => {
   }
 
   tasks[0](input, output => {
-    performTasks(output, tasks.slice(1)) // Ejecuta las tareas en el arreglo 'tasks[]'
+    // Ejecuta las tareas en el arreglo 'tasks[]'
+    performTasks(output, tasks.slice(1))
   })
 }
 
@@ -371,23 +362,24 @@ performTasks(fileName,
 
 ## Herramientas para el manejo de código asíncrono
 
-### Bibliotecas Async
+### Librerías Async
 
 Si estás utilizando un montón de funciones asíncronas, puede valer la pena
-utilizar una biblioteca de funciones asíncronas, en lugar de tener que crear
-tus propias funciones de utilidad. Async.js es una biblioteca popular que tiene
-muchas herramientas útiles para tratar el código asíncrono.
+utilizar una librería o biblioteca de funciones asíncronas, en lugar de tener
+que crear tus propias funciones de utilidad.
+[Async.js](https://github.com/caolan/async) es una biblioteca popular
+que tiene muchas herramientas útiles para tratar el código asíncrono.
 
 ### Promises
 
 Las promesas o _promises_ son una forma popular de deshacerse del infierno de
 _callback_. Originalmente se trataba de un tipo de constructo introducido por
-bibliotecas _JavaScript_ como `Q` y `when.js`, pero estos tipos de bibliotecas
+librerías _JavaScript_ como `Q` y `when.js`, pero estos tipos de librerías
 se volvieron lo suficientemente populares como para que _promises_ se
 proporcionan de forma nativa en ECMAScript 2015.
 
-La idea es que en lugar de usar funciones que acepten una  entrada y un
-_callback_, hacemos una función que devuelve un objeto _promises_, es decir, un
+La idea es que en lugar de usar funciones que acepten una entrada y un
+_callback_, hacemos una función que devuelve un objeto _promise_, es decir, un
 objeto que representa un valor que está destinado a existir en el futuro.
 
 Por ejemplo, supongamos que comenzamos con una función `getData` que hace una
@@ -406,13 +398,13 @@ getData({name: "John"}, (err, data) => {
   if (err) {
     console.log(`Error! ${err}`)
   } else {
-  console.log(data)
+    console.log(data)
   }
 })
 ```
 
 Podemos cambiar la función `getData` para que devuelva un _promise_. Podemos
-crear un objeto _promise_ con la nueva funcion Promise (callback), donde
+crear un objeto _promise_ con la nueva funcion `Promise(callback)`, donde
 callback es una función con dos argumentos: `resolve` y `reject`. Llamaremos a
 `resolve` si conseguimos obtener los datos. Si algo sale mal, llamaremos a
 `reject`.
@@ -424,18 +416,18 @@ que se llama a `resolve` o `reject`.
 ```js
 const getData = options =>
   new Promise((resolve, reject) => { // crear un nuevo objeto promise
-    $.get("/api/example", options, response => {
+    $.get('/api/example', options, response => {
       resolve(JSON.parse(response)) // en caso que todo salga como planeamos
     }, () => {
-      reject(new Error("AJAX request failed!")) // en caso que algo salga mal
+      reject(new Error('AJAX request failed!')) // en caso que algo salga mal
     })
   })
 
 // uso
-getData({name: "John"}).then(data => {
+getData({name: 'John'}).then(data => {
   console.log(data)
 }, err => {
-  console.log("Error! " + err)
+  console.log('Error! ' + err)
 }
 ```
 
@@ -445,14 +437,13 @@ más clara cuando reescribimos nuestro ejemplo de infierno _callback_ usando
 _promises_:
 
 ```js
-readFile("fileName")
-.then(text => tokenize(text))
-.then(tokens => parse(tokens))
-.then(parseTree => optimize(parseTree))
-.then(optimizedTree => evaluate(optimizedTree))
-.then(output => {
-  console.log(output)
-})
+readFile('fileName')
+  .then(text => tokenize(text))
+  .then(tokens => parse(tokens))
+  .then(parseTree => optimize(parseTree))
+  .then(optimizedTree => evaluate(optimizedTree))
+  .then(output => console.log(output))
+  .catch(err => console.error(err))
 ```
 
 ## Conclusión
