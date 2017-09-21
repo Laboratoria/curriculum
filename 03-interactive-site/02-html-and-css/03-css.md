@@ -2,12 +2,12 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `3h`
 
 ## Objetivos de Aprendizaje
 
 * Entender qué es CSS y cómo funciona
-* Conocer las diferentes maneras de agregarle estilo a tu web
+* Conocer las diferentes maneras de agregarle estilos a tu web
 * Aprender la sintaxis CSS
 * Aprender qué son selectores y cuáles son los selectores más utilizados
 * Entender cómo funcionan las reglas de cascada y herencia de CSS
@@ -22,11 +22,10 @@ https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGz
 
 CSS significa _Cascading Style Sheets_
 (en español: hojas de estilo en cascada). Es un lenguaje usado para definir y
-crear la presentación de un documento escrito en HTML.
-
-CSS describe cómo los elementos en la estructura del documento deben ser
-presentados en la pantalla. Con CSS damos estilo y diseño a las páginas web.
-Cambiamos colores, tamaños, espacios, agregamos animaciones, etc.
+crear la presentación de un documento escrito en HTML. CSS describe cómo los
+elementos en la estructura del documento deben ser presentados en la
+pantalla. Con CSS damos estilo y diseño a las páginas web. Cambiamos colores,
+tamaños, espacios, agregamos animaciones, etc.
 
 Existen tres opciones para incluir CSS en un documento HTML:
 
@@ -43,14 +42,15 @@ En el navegador, el titular anterior se vería así:
 
 ![Inline Style](img-inline-style.png)
 
-Esta forma de agregar CSS se llama CSS Inline, pero no es muy recomendada. Lo
-hemos hecho hasta ahora por simplificar, pero no lo seguiremos haciendo. Su
-mantenimiento es verdaderamente complicado (podríamos que tener que
-actualizar la misma información muchas veces en cada documento), además de
-mezclar la información de estilo con la información estructural del HTML,
-haciendo el CSS difícil de leer y de entender. Manteniendo los distintos tipos
-de código separados y puros, facilitará la tarea a aquellos que vayan a
-trabajar posteriormente en el código.
+Esta forma de agregar CSS se llama CSS Inline, pero no es muy recomendada. Su
+mantenimiento es complicado, ya que podríamos tener que
+actualizar la misma información muchas veces a lo largo del documento. Además,
+estamos mezclando la información de estilo con la información estructural del
+HTML, haciendo el CSS difícil de leer y de entender. Manteniendo los distintos
+tipos de código separados y puros facilitará la tarea a aquellos que vayan a
+trabajar posteriormente en el código. Recuerda que siempre debes pensar en
+organizar tu código de una manera que facilita a otros entender lo que estás
+haciendo.
 
 ### 2. CSS en el head
 
@@ -115,6 +115,7 @@ h1 {
   background-color: yellow;
   border: 1px solid black;
 }
+
 ```
 
 La etiqueta `<link>` cuenta con el atributo `rel` para indicar la relación del
@@ -145,12 +146,10 @@ aplicar cierto estilo. Por ejemplo, un selector puede ser un titular, un
 párrafo, una imagen, etc. Los bloques de declaraciones CSS emparejados con
 selectores forman **Reglas CSS**.
 
-Por ejemplo:
+Por ejemplo, una regla css sería:
 
-```
-           regla css
-_________________________________
-selector        
+```css
+selector    
 |                    
 p { color: red; font-size: 15px; }
       |     |       |       |
@@ -161,10 +160,11 @@ p { color: red; font-size: 15px; }
       ___________________________
                   |
          bloque de declaración
+/**/
 ```
 
 La convención para representar el ejemplo anterior es la siguiente
-(fíjate que es mucho más fácil de leer):
+(es más fácil de leer cuando colocamos las declaraciones una debajo de la otra):
 
 ```css
 p {
@@ -182,10 +182,11 @@ cada regla CSS puede aplicarse a un número ilimitado de elementos.
 
 ## Selectores
 
-Existen múltiples selectores. Lee la siguiente documentación:
+Existen múltiples selectores. Lee la siguiente documentación para que aprendas más sobre selectores:
 
 * [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
 * [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
+* [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
 
 Al finalizar tu investigación debes saber qué es y cómo usar:
 * Selector universal
