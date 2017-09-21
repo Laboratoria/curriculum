@@ -160,7 +160,8 @@ p { color: red; font-size: 15px; }
       ___________________________
                   |
          bloque de declaración
-/**/
+
+/* ejemplo de una regla css*/
 ```
 
 La convención para representar el ejemplo anterior es la siguiente
