@@ -47,7 +47,6 @@ poder desenvolverse en el lenguaje.
 
 * Pre-tarea: Implementación, refactoring, pull request
 * Sesión 7: presencial 3h => Code review + Demos de proyectos
-* Sesión 8: self-paced 2h => Retrospectiva
 
 ## Guía de preguntas y conceptos clave
 
