@@ -2,7 +2,7 @@ const Assert = require('chai').assert;
 const listAllValues = require('../solution/listAllValues');
 
 describe("listAllValues()", function () {
-  it("deberia regresar [1, 2, 3, false, false], para { a: 1, b: 2, c: 3, d: false, e: false }", function () {
+  it("debería regresar [1, 2, 3, false, false], para { a: 1, b: 2, c: 3, d: false, e: false }", function () {
     var obj = {
       a: 1,
       b: 2,
@@ -15,7 +15,7 @@ describe("listAllValues()", function () {
     Assert.deepEqual(listAllValues(obj), hasil);
   });
 
-  it("deberia regresar ['a', 11, true, 1], para { a: 'a', number: 11, hungry: true, grammyWins: 1 }", function () {
+  it("debería regresar ['a', 11, true, 1], para { a: 'a', number: 11, hungry: true, grammyWins: 1 }", function () {
     var obj = {
       a: 'a',
       number: 11,
@@ -27,7 +27,7 @@ describe("listAllValues()", function () {
     Assert.deepEqual(listAllValues(obj), hasil);
   });
 
-  it("deberia regresar ['yes'], para { tez: 'yes' }", function () {
+  it("debería regresar ['yes'], para { tez: 'yes' }", function () {
     var obj = {
       tez: 'yes'
     };
