@@ -2,7 +2,7 @@ const Assert = require('chai').assert;
 const getSumOfAllElementsAtProperty = require('../solution/getSumOfAllElementsAtProperty');
 
 describe("getSumOfAllElementsAtProperty()", function () {
-  it("deberia regresar 0, para { key: Badddlyyyy } y 'key'", function () {
+  it("debería regresar 0, para { key: Badddlyyyy } y 'key'", function () {
     var obj = {
       koy: "Badddlyyyy"
     };
@@ -11,7 +11,7 @@ describe("getSumOfAllElementsAtProperty()", function () {
     Assert.deepEqual(output, 0);
   });
 
-  it("deberia regresar 0, para { koy: 'nope' } y 'key'", function () {
+  it("debería regresar 0, para { koy: 'nope' } y 'key'", function () {
     var obj = {
       koy: []
     };
@@ -20,7 +20,7 @@ describe("getSumOfAllElementsAtProperty()", function () {
     Assert.deepEqual(output, 0);
   });
 
-  it("deberia regresar 0, para { key: [] } y 'key'", function () {
+  it("debería regresar 0, para { key: [] } y 'key'", function () {
     var obj = {
       key: []
     };
@@ -29,7 +29,7 @@ describe("getSumOfAllElementsAtProperty()", function () {
     Assert.deepEqual(output, 0);
   });
 
-  it("deberia regresar 35, para { key: [10, 11, 15, -1] } y 'key'", function () {
+  it("debería regresar 35, para { key: [10, 11, 15, -1] } y 'key'", function () {
     var obj = {
       key: [10, 11, 15, -1]
     };
@@ -38,7 +38,7 @@ describe("getSumOfAllElementsAtProperty()", function () {
     Assert.deepEqual(output, 35);
   });
 
-  it("deberia regresar 13, para { key: [4, 1, 8] } y 'key'", function () {
+  it("debería regresar 13, para { key: [4, 1, 8] } y 'key'", function () {
     var obj = {
       key: [4, 1, 8]
     };

@@ -2,7 +2,7 @@ const Assert = require('chai').assert;
 const addObjectProperty = require('../solution/addObjectProperty');
 
 describe("addObjectProperty()", function () {
-  it("deberia regresar { name : 'Fadel', role : 'Aaaahhhh' }, para { name : 'Medina', role : 'Euuuuhhh' }, 'bawahan' y { name : 'Fadel', role : 'Aaaahhhh' }", function () {
+  it("debería regresar { name : 'Fadel', role : 'Aaaahhhh' }, para { name : 'Medina', role : 'Euuuuhhh' }, 'bawahan' y { name : 'Fadel', role : 'Aaaahhhh' }", function () {
     var person1 = { name: 'Medina', role: 'Euuuuhhh' };
     var person2 = { name: 'Fadel', role: 'Aaaahhhh' };
 
