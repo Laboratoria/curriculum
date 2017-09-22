@@ -2,7 +2,7 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `5hrs`
+- Duración: `5h`
 
 ***
 
@@ -26,7 +26,7 @@ Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantida
 #### 3. Sort (+ Binary Search)
 Crea una función que ordene un `array` de números, de menor a mayor. Tip: utiliza el algoritmo de [`selection sort`](https://en.wikipedia.org/wiki/Selection_sort). Revisar otros algoritmos de sorting (por ejemplo: [`insertion sort`](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) y [`bubble sort`](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif))
 
-Ahora que ya sabes ordenar un `array`, escribe una función que realice una búsqueda de un elemento en un arreglo utilizando el algoritmo de `Binary Search` (recuerda que Lourdes explicó el concepto de Binary Search en la sección de [casos prácticos](08-practical-cases.md)).  
+Ahora que ya sabes ordenar un `array`, escribe una función que realice una búsqueda de un elemento en un arreglo utilizando el algoritmo de `Binary Search` (recuerda que Lourdes explicó el concepto de Binary Search en la sección de [casos prácticos](08-practical-cases.md)).
 
 #### 4. Remove Duplicates
 Escribe una función que tome un `array` como parámetro y retorne otro `array` pero sin elementos duplicados.
