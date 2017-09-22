@@ -1,4 +1,4 @@
-# Box Model
+# Box Model & Display
 - Formato: `self-learning`
 - Tipo: `lectura`
 - Duración: `30min`
@@ -24,7 +24,7 @@ El modelo de caja CSS es esencialmente una caja rectangular que rodea cada eleme
 
 Como ejemplo tenemos la siguiente imagen, la cual muestra tres cajas rectangulares que se crean de las tres etiquetas HTML usadas: `<p>` `<strong>` y nuevamente `<p>`.
 
-![box model](https://fotos.subefotos.com/bf683e9aa7e08dcc951b9b9e529ae627o.gif)
+  ![box model](https://fotos.subefotos.com/bf683e9aa7e08dcc951b9b9e529ae627o.gif)
 
 ### Elementos que componen el modelo de cajas
 Las partes que componen cada caja consisten en el **contenido real**, el **relleno**, los **bordes** y los **márgenes**; podemos ver la imagen de abajo que ilustra el modelo de caja:
@@ -45,14 +45,14 @@ CSS define 4 propiedades para controlar los elementos de la caja (a excepción d
 - __Bottom__: lado inferior
 - __Left__: lado izquierdo
 
-![box model](https://fotos.subefotos.com/46cd99b85adea7f3106700cd9ffa473fo.png)
+  ![box model](https://fotos.subefotos.com/46cd99b85adea7f3106700cd9ffa473fo.png)
 
 ## Padding, Border & Margin
 
 ### Padding
 Es el **relleno**, es decir, el espacio libre opcional entre el _contenido_ y el _borde_.
 
-![padding](https://fotos.subefotos.com/179d7bd111acebc38e6b29ed62a5522eo.png)
+ ![padding](https://fotos.subefotos.com/179d7bd111acebc38e6b29ed62a5522eo.png)
 
 Su valor se puede definir en: **unidades de medida**, **porcentaje** o el valor `inherit` (especifica que el _padding_ debe ser heredado del elemento padre).
 
@@ -65,8 +65,8 @@ CSS define cuatro propiedades para controlar cada uno de los espacios de relleno
 También podemos usar la propiedad de tipo "shorthand" llamada `padding` para establecer los cuatro rellenos de un elemento de forma simultánea.
 Esto significa que admite entre uno y cuatro valores, con el siguiente significado:
 
-- Si solo se indica **un valor**: 
-  >**Todos** los rellenos tienen ese valor.
+- Si solo se indica **un valor**:
+  - **Todos** los rellenos tienen ese valor
   ```CSS
   div {
     padding: 2em;
@@ -74,20 +74,23 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
 
   /* Todos los rellenos valen 2em */
   ```
+  
 - Si se indican **dos valores**:
-  >El **primero** se asigna al relleno **superior e inferior**.
-   El **segundo** se asigna al **derecho e izquierdo**.
+  - El **primero** se asigna al relleno **superior e inferior**
+  - El **segundo** se asigna al **derecho e izquierdo**
   ```CSS
   div {
     padding: 1em 2em;
-  }     
+  }
+ 
   /* Superior e inferior = 1em, 
      Izquierdo y derecho = 2em */
   ```
+  
 - Si se indican **tres valores**:
-  >El **primero** se asigna al relleno **superior**.
-   El **segundo** valor se asigna al **derecho e izquierdo**.
-   El **tercero** se asigna al relleno **inferior**.
+  - El **primero** se asigna al relleno **superior**
+  - El **segundo** valor se asigna al **derecho e izquierdo**
+  - El **tercero** se asigna al relleno **inferior**
   ```CSS
   div {
     padding: 1em 2em 3em;
@@ -96,8 +99,9 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
   /* Superior = 1em, Derecho = 2em, 
      Inferior = 3em, Izquierdo = 2em */
   ```
+  
 - Si se indican los **cuatro valores**:
-  >Se asignarán los rellenos en **orden horario**, de la siguiente forma: superior, derecho, inferior e izquierdo.
+  - Se asignarán los rellenos en **orden horario**, de la siguiente forma: superior, derecho, inferior e izquierdo.
   ```CSS
   div {
     padding: 1em 2em 3em 4em;
@@ -132,7 +136,7 @@ Establece el **color** de cada uno de los cuatro bordes de los elementos.
 
 Los valores que puede tomar son: [**valores de color**](http://librosweb.es/referencia/css/colores.html), `transparent` o `inherit`.
 
-#### Propiedad `border`
+#### Propiedad shorthand "border"
 CSS define la propiedad de tipo "shorthand" global para establecer el valor de todos los atributos de todos los bordes de forma directa: `border`.
 
 Su valor se puede definir en: **anchura de borde + estilo de borde + color de borde**, o `inherit`(especifica que el borde debe ser heredado del elemento padre).
@@ -176,6 +180,7 @@ Esto significa que admite entre uno y cuatro valores, al igual que la propiedad 
 div {
   margin: 5em 4em 3em 2em;
 }
+
 /* Superior = 5em, Derecho = 4em, 
    Inferior = 3em, Izquierdo = 2em */
 ```
@@ -227,20 +232,21 @@ Además le indicamos si deseamos incluir el relleno, el borde y/o el margen.
 
 ### Valores
 
-__`content-box`__
+#### Valor "content-box"
 
-Las propiedades _width_ y _height_ incluyen sólo el contenido. No incluyen el _padding_, _border_ o _margin_. Es el valor por defecto.
+Para el valor `content-box` las propiedades _width_ y _height_ incluyen sólo el contenido, no incluyen el _padding_, _border_ o _margin_. Este es el valor por defecto.
 
 ```CSS
 div {
   box-sizing: content-box;
 }
 ```
+
 ![content-box](https://fotos.subefotos.com/9958eea0026f6d90ae1cd9be0f47f2ebo.png)
 
-__`border-box`__
+#### Valor "border-box"
 
-Las propiedades _width_ y _height_ incluyen el _padding_ y el _border_, pero no el _margin_.
+Para el valor `border-box` las propiedades _width_ y _height_ incluyen el _padding_ y el _border_, pero no el _margin_.
 
 ```CSS
 div {
@@ -249,18 +255,17 @@ div {
 ```
 ![border-box](https://fotos.subefotos.com/76410b4ea4bbcbccdfb0c4f4946229f8o.png)
 
-> También podemos utilizar el valor `inherit`, que es el valor que hereda esta propiedad de su elemento padre.
+>También podemos utilizar el valor `inherit`, que es el valor que hereda esta propiedad de su elemento padre.
 
-## Display Types
+## Display 
 
 ### ¿Qué es la propiedad display?
 Establece el tipo de caja generada por un elemento.
-
 ![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
 
 ### Valores
 
-#### Display: inline
+#### Valor "inline"
 La propiedad `display: inline` hace que el elemento tenga como naturaleza posicionarse en línea, es decir que un elemento se coloque al lado del otro y por lo tanto sólo ocupa el espacio necesario para mostrar sus contenidos:
 
 ![inline](https://fotos.subefotos.com/46ddc8db6addcac25aaf5d1b79275232o.png)
@@ -273,7 +278,7 @@ Sus características son:
 - Si se utiliza la propiedad floating se convertirán en `block`
 - Se les puede aplicar la propiedad `vertical-align`
 
-#### Display: block
+#### Valor "block"
 La propiedad `display: block` hace que el elemento tenga como naturaleza posicionarse en bloques, por lo que siempre empiezan en una nueva línea y ocupan todo el espacio disponible en la línea, aunque sus contenidos no ocupen todo el sitio:
 
 ![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
@@ -285,31 +290,28 @@ Sus características son:
 - Por defecto hace un salto de línea
 - Ignoran la propiedad `vertical-align`
 
-#### display: inline-block
+#### Valor "inline-block"
 La propiedad `display: inline-block` mezcla lo mejor de ambos mundos haciendo que los elementos se posicionen de forma inline pero que mantenga su naturaleza de bloque, es decir, pueden alinearse:
 
 ![inline-block](https://fotos.subefotos.com/7892f0763915a586528d36559d76a451o.png)
 
-#### Display: none
-La propiedad `display: none` hace que el elemento no se muestre en pantalla, es una buena forma de hacer que un elemento se oculte.
+#### Valor "none"
+La propiedad `display: none` quita el elemento para que este no se muestre en pantalla.
 
-##### ¿Cuál la diferencia entre `display: none` y `visibility: hidden`?
-Ambos atributos permiten "ocultar" un elemento en el navegador. Sin embargo, existe una diferencia muy importante: 
+##### ¿Cuál la diferencia entre "display: none" y "visibility: hidden"?
+Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, existe una diferencia muy importante: 
 
-- `display: none` quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
-- `visibility: hidden` oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
+- `display: none`: quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
 
-![diferencia](https://fotos.subefotos.com/d2251fd319147108089f44158377e427o.png)
+  ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
 
-#### Resumen de características `display`
+- `visibility: hidden`: oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
 
-|                                                   | inline | block | inline-block |
-| ------------------------------------------------- | :----: | :---: | :----------: |
-| Respeta márgenes izquierdo y derecho              | si     | si    | si           |
-| Respeta márgenes arriba y abajo                   | no     | si    | si           |
-| Se le puede asignar ancho y altura                | no     | si    | si           |
-| Permite que otros elementos se coloquen a su lado | si     | no    | si           |
+  ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
 
+#### Resumen de características Display
+
+![tabla](https://fotos.subefotos.com/2f98e72e47be9d3131f0b82e732c518fo.png)
 
 >[Aprender más sobre `display`.](http://librosweb.es/referencia/css/display.html)
 
