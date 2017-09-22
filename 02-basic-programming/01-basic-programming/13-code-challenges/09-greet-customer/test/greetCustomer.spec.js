@@ -3,7 +3,7 @@ const Assert = require('chai').assert;
 const greetCustomer = require('../solution/greetCustomer');
 
 describe("greetCustomer()", function () {
-  it("Prueba: ('Howard') => Welcome back, Howard! So glad to see you again!", function () {
+  it("deberia regresar 'Welcome back, Howard! So glad to see you again!', para  ('Howard')", function () {
 		
 	var pair = greetCustomer('Howard');
 	var hasil = "Welcome back, Howard! So glad to see you again!";
@@ -13,7 +13,7 @@ describe("greetCustomer()", function () {
 
   });
 
-  it("Prueba: ('Joe') => Welcome back, Joe! We're glad you liked us the first time!", function () {
+  it("deberia regresar'Welcome back, Joe! We're glad you liked us the first time!', para ('Joe')", function () {
 
 
 	var pair = greetCustomer('Joe');
@@ -24,8 +24,7 @@ describe("greetCustomer()", function () {
   });
   
 
-  it("Prueba: ('Kemal') => Welcome! Is this your first time?", function () {
-
+  it("deberia regresar  'Welcome! Is this your first time?', para  ('Kemal')", function () {
 
 	var pair = greetCustomer('Kemal');
 	var hasil = "Welcome! Is this your first time?";

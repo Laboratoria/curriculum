@@ -21,4 +21,4 @@ function filterOddElements(firstName) {
   return greeting;
 }
 
-module.exports = convertDoubleSpaceToSingle;
+module.exports = filterOddElements;

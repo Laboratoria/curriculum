@@ -1,5 +1,5 @@
-function computeAverageLengthOfWords(word1, word2) {
+function addArrayProperty(word1, word2) {
   // your code here
 }
 
-module.exports = computeAverageLengthOfWords;
+module.exports = addArrayProperty;

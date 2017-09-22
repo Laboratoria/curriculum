@@ -21,4 +21,4 @@ function greetCustomer(firstName) {
   return greeting;
 }
 
-module.exports = convertDoubleSpaceToSingle;
+module.exports = greetCustomer;
