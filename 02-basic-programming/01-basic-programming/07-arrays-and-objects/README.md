@@ -16,7 +16,7 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, en 4 de [J
 
 ***
 
-## Combinando `arrays` con `objects`
+## Combinando arrays con objects
 Ya hemos visto el caso de tener un `array` como valor de una propiedad **dentro** de un `object` (por ejemplo, un `array` de los protagonistas de un `object` movie), pero otra combinación bastante común para agrupar data es tener un `array` **de** `objects`.Veamos un ejemplo:
 
 Imaginemos que tenemos data de 3 estudiantes de Laboratoria y queremos estructurarla en nuestro programa. Para cada estudiante, tenemos cierta data: su nombre, sus puntos, los cursos que ha completado y si la estudiante ha abandonado o sigue cursando el programa.

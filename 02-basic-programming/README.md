@@ -44,12 +44,12 @@ Secondary Tags:
 Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
 vida cotidiana:
 
-1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
+1. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
+el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+
+2. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
 tarjeta de crédito es válida según el
 [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
-
-2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
-el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
 
@@ -118,7 +118,9 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 * Quizzes: 5%
 * Requizzes: 10%
 * Retos de código: 55%
-* Productos finales: 30%
+* Productos finales: 
+   - Caesar Cipher: 20%
+   - Tarjeta de crédito válida: 10%
 
 ## Contributors
 
