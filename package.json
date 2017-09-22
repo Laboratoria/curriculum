@@ -20,6 +20,11 @@
     "url": "https://github.com/Laboratoria/curricula-js/issues"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^1.0.0",
     "mdlint": "Laboratoria/mdlint"
+  },
+  "dependencies": {
+    "mocha": "^3.5.3"
   }
 }
