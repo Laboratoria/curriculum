@@ -8,10 +8,10 @@
 
 ## Objetivos
 
-- Es hora de poner a prueba lo que has aprendido para crear dos programas que
+- Es hora de poner a prueba lo que has aprendido: deberás crear dos programas que
 tienen una aplicación en nuestra vida cotidiana. El primero es un programa
 que se utiliza para encriptar mensajes, y el segundo es un programa que
-valida si un número de tarjeta de crédito es válida.
+verifica si un número de tarjeta de crédito es válida.
 
 ## Entregables
 
@@ -20,7 +20,19 @@ contenga:
 1. Archivo `README.md` que explique el **pseudocódigo** de tu solución y su
 **diagrama de flujo**
 2. Archivo `app.js` con el **código** de tu solución
+3. Archivo `index.html` vinculado con tu `app.js`
 
+## Criterios de evaluación
+
+Se tomarán en cuenta las siguientes consideraciones a la hora de evaluar tu solución:
+
+1. Nombramiento de variables
+2. Indentación
+3. Validación de input: el usuario no debe poder ingresar un campo vacío o de tipo que no corresponda
+4. Estructura de tus archivos
+5. Archivo `README.md` correctamente redactado
+6. Uso de comentarios para hacer tu código más legible
+7. Que el programa cumpla con el propósito requerido
 
 ## 1. Cifrado César
 Crea una web que pida, por medio de un `prompt()`, una frase al usuario y
@@ -44,15 +56,22 @@ También te compartimos más información de lo que Michelle te ha explicado en 
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 
-> Hacker edition: si te sientes con ganas de hacer este ejercicio con un mayor
-nivel de dificultad, logra que tu programa:
->  1. Funcione con letras mayúsculas y minúsculas
->  2. Pueda cifrar y descifrar. La fórmula para descifrar es: `(x - n) % 26`
+>Consideraciones Específicas
+  >1. Tu programa debe ser capaz de cifrar y descifrar tanto letras mayúsculas como minúsculas. La fórmula para 
+descifrar es: `(x - n) % 26`
+  >2. Tu código debe estar compuesto por 2 funciones con los siguientes nombres: `cipher` y `decipher`
+  >3. El usuario no debe poder ingresar un campo vacío o que contenga números
+
 
 ## 2. Tarjeta de crédito válida
 
 Crea una web que pida, por medio de un `prompt()`, el número de una tarjeta de
 crédito y confirme su validez según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn). Lee este blog que explica [cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
+Consideraciones Específicas
+  >2. Tu código debe estar compuesto por 1 función: `isValidCard`
+  >3. El usuario no debe poder ingresar un campo vacío o que contenga números
+
 
 A continuación un video de Michelle que te lleva a través del algoritmo de
 Luhn y te da tips para completar este proyecto:

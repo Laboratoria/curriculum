@@ -15,9 +15,6 @@ En esta unidad aprenderemos:
 - Aprender a navegar por nuestro `directorio`
 - Crear archivos o carpetas desde la terminal
 
-Referencia:
-[https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md)
-
 ## La línea de comandos
 
 La línea de comandos es también conocida como:

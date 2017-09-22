@@ -1,6 +1,6 @@
 # Bonus retos de código
 
-- Tipo: `lecture`
+- Tipo: `lectura`
 - Formato: `self-paced`
 - Duración: `4h`
 
@@ -8,12 +8,12 @@
 
 ## Objetivos
 
-- Ahora que has completado los retos de código, pon tus conocimientos a prueba desarrollando lo siguiente:
+- Si ya completaste todos los retos de código de la lección anterior y quieres seguir practicando, completa los desafíos a continuación (haciéndolo podrías ganarte la insignia de proactividad) :
 
-## 1. Replit
+## 1. Replit (Bonus opcional)
 Completa los ejercicios de programación básica del salón de clases de:
 * [Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
 
-## 2. Javascripting (opcional)
+## 2. Javascripting  (Bonus opcional)
 Completa el tutorial de JavaScript de la comunidad de nodejs:
 * [javascripting](https://github.com/workshopper/javascripting)
