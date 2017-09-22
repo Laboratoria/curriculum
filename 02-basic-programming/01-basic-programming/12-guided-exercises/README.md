@@ -43,6 +43,43 @@ Crea un programa que un cajero automático pueda utilizar para determinar el nú
 * 500 billetes de 5
 * 800 billetes de 1
 
+Veamos un caso de uso:
+
+Si el usuario solicita 250 dólares, la salida debe verse así:
+```js
+Monto solicitado 250 dólares.
+Se entregan 3 billetes:
+
+100: 2
+50: 1
+
+En el cajero quedan: 
+
+100: 98
+50: 49
+20: 200
+10: 300
+5: 500
+1: 800
+```
+
+El cajero recuerda cuánto dinero le queda para las siguientes transacciones.Por ejemplo, sí el usuario desea retirar 150 dólares adicionales, la salida debe verse así:
+```js
+Monto solicitado 150 dólares, se entregan 2 billetes:
+
+100: 1
+50: 1
+
+En el cajero quedan: 
+
+100: 97
+50: 48
+20: 200
+10: 300
+5: 500
+1: 800
+```
+
 #### 7. Reserva de asientos en aerolínea.
 
 Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo sistema usando solamente `prompt` y `alert`. Escribirás una aplicación para asignar asientos en cada vuelo del único avión de la aerolínea (capacidad: 10 asientos).
