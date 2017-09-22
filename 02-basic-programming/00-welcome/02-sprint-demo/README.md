@@ -16,8 +16,8 @@
 ## Agenda
 
 1. Conociendo a mi squad (equipo de trabajo)
-2. Opening: estableciendo el objetivo
-3. Self Learning: aprendiendo por mi cuenta sobre agile
+2. Apertura: estableciendo el objetivo
+3. Autoaprendizaje: aprendiendo por mi cuenta sobre agile
 4. Quiz: ¡probando mi conocimiento!
 5. Seminario: revisando conceptos
 6. Taller: ¡manos a la obra!

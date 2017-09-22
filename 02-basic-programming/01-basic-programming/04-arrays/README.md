@@ -113,7 +113,7 @@ listOfNumbers[2] = 5;
 listOfNumbers[3] = 7;
 listOfNumbers[4] = 11;
 
-//imprime el arreglo en la consola
+// imprime el arreglo en la consola
 
 console.log(listOfNumbers);
 // → [2, 3, 5, 7, 11]
@@ -135,7 +135,7 @@ console.log(mixedArray[2]);
 // → 3627.5
 ```
 
-Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente llama arrays de 2 dimensiones). Por ejemplo, para organizar la data de preguntas y respuesta de un quiz, podemos utilizar un `array` en el que cada elemento es, a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
+Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente llama arrays de 2 dimensiones). Por ejemplo, para organizar la data de preguntas y respuestas de un quiz, podemos utilizar un `array` en el que cada elemento es, a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 ```js
 var questions = [
@@ -143,7 +143,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 
 ```
 
@@ -155,7 +155,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 console.log(questions[3][1]);
 // → Peso
 ```

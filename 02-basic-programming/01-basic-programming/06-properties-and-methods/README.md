@@ -23,7 +23,7 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 y 
 ## Propiedades y métodos
 A lo largo de este curso hemos visto una serie de comandos un tanto extraños que nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al colocar `.length` al final de un `string` nos devuelve la cantidad de caracteres del `string`. También hemos visto que al colocar `.toUpperCase()` al final de un `string` nos devuelve el mismo `string` pero todo en mayúscula.
 
-Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Por ejemplo, `lenght` es una propiedad que nos dice la longitud del valor asociado, mientras que `toUpperCase()` es un método que hace la acción de transformar a mayúscula el valor asociado.
+Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Por ejemplo, `length` es una propiedad que nos dice la longitud del valor asociado, mientras que `toUpperCase()` es un método que hace la acción de transformar a mayúscula el valor asociado.
 
 Lo interesante de las propiedades y los métodos es que no son únicamente para los `strings`, que es lo que hemos usado hasta ahora. Podemos acceder a las propiedades y utilizar métodos en los `arrays` y los `objects` también. De hecho, casi todos los valores en JavaScript tienen propiedades o métodos. Las excepciones son solo `null` y `undefined`.
 
@@ -67,7 +67,7 @@ Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que co
 
 JavaScript nos brinda varios métodos para manipular `arrays`. Con ellos podemos añadir elementos al principio del `array`, remover elementos del `array`, concatenar `arrays`, unir más de un `array` y muchas cosas más.
 
-Como es costumbre en este curso, debes acostumbrarte a "aprender a aprender". Recordemos que en el mundo de la tecnología, el **auto-aprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
+Como es costumbre en este curso, debes acostumbrarte a "aprender a aprender". Recordemos que en el mundo de la tecnología, el **autoaprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
 
 A continuación te damos una lista de métodos de los `arrays` que debes investigar por tu cuenta y aprender a utilizar.
 
@@ -84,7 +84,7 @@ A continuación te damos una lista de métodos de los `arrays` que debes investi
 
 Recuerda que para tu investigación te recomendamos la información que ofrece la [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). También puedes buscar en Google e ir experimentando con la consola tú misma viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un `array` cualquiera y vayas probando lo que aprendes para garantizar que entiendes como funcionan las cosas.
 
-Recuerda también que puedes explorar otras formas de auto-aprendizaje:
+Recuerda también que puedes explorar otras formas de autoaprendizaje:
 
 * Busca otros recursos en la web. Uno muy bueno es stackoverflow. En español suele haber menos contenido de calidad, así que quizás tengas que apoyarte con el traductor de Google.
 * Consulta con una compañera de clases
@@ -95,31 +95,31 @@ _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos 
 
 ## Propiedades y métodos de los objects
 
-Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
+Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear el par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
 
 ```js
-  var movie = {
-    title: 'Back to the Future',
-    director: 'Robert Zemeckis',
-    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-    'year of release': 1984,
-    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-    oscar: 1,
-    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-    'other awards': ['best sound', ]
-  }
+var movie = {
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  oscar: 1,
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
+};
 
-  console.log(movie['title']);
-  // → Back to the Future
+console.log(movie['title']);
+// → Back to the Future
 
-  console.log(movie[title]);
-  // → Uncaught ReferenceError: title is not defined
+console.log(movie[title]);
+// → Uncaught ReferenceError: title is not defined
 
-  console.log(movie.'title');
-  // → Uncaught SyntaxError: Unexpected string
+console.log(movie.'title');
+// → Uncaught SyntaxError: Unexpected string
 
-  console.log(movie.title);
-  // → Back to the Future
+console.log(movie.title);
+// → Back to the Future
 ```
 
 Con `movie['title']` o `movie.title` estamos accediendo a la **propiedad** llamada 'title' del object `movie`.
@@ -157,8 +157,8 @@ var movie = {
   plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
-}
+  'other awards': ['best sound']
+};
 
 console.log(Object.keys(movie));
 // → (8) ['title', 'director', 'stars', 'year of release', 'plot', 'oscar', 'tags', 'other awards']
@@ -174,7 +174,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 
 console.log(questions);
 // → (4) [Array(2), Array(2), Array(2), Array(2)]
@@ -184,11 +184,11 @@ console.table(questions);
 ![example array print](https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png)
 
 ```js
-  var weblogs = [
-    {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
-    {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
-    {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
-  ];
+var weblogs = [
+  {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
+  {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
+  {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
+];
 
 console.log(weblogs);
 // (3) [{…}, {…}, {…}]

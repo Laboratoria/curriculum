@@ -38,7 +38,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 #### Opciones
 1. Los _Keys_ de los Objects son equivalente a sus propiedades
-2. Podemos calcular su longitud con la propiedad `lenght`
+2. Podemos calcular su longitud con la propiedad `length`
 3. No es necesario colocar los _Keys_ entre comillas
 4. Podemos incluir una función como propiedad
 
@@ -64,7 +64,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 <solution style="display:none;">3</solution>
 
-### 6) `toUpperCase()` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `lenght` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado.
+### 6) `toUpperCase()` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `length` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado.
 
 #### Opciones
 1. un object - un array
@@ -116,7 +116,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 ```
 
 ¿Cómo obtengo el dato `Lima`?
@@ -137,7 +137,7 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-  }
+};
 ```
 
 ¿Cómo accedo a la propiedad `director`?
@@ -156,11 +156,11 @@ var movie = {
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson' ],
   oscar: 1,
   other awards: 'best sound',
   tags: []
-  }
+}
 ```
 
 #### Opciones
@@ -179,9 +179,9 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-  }
-  
-  console.log(movie.stars[2]);
+};
+
+console.log(movie.stars[2]);
 ```
 
 #### Opciones
@@ -200,7 +200,7 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-  }
+};
 ```
 
 ¿cómo podemos acceder a la lista de _keys_ del Objeto `movie`?
@@ -486,7 +486,7 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 ```js
 function objectToArray(object) {
 
-  var items    = Object.keys(object);
+  var items = Object.keys(object);
   var newArray = [];
 
   for (var i = 0; i < items.length; i++) {

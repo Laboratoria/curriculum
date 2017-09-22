@@ -36,6 +36,6 @@
  4. Repasemos qué es un `algoritmo`. Revisar los conceptos clave del [video sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM). Hacer dinámica de seguir
  instrucciones para preparar un sandwich de jamón y queso.
 
- 5. Repasemos, por medio de un ejemplo, el workflow de git y los comandos esenciales: `init`, `add`, `commit`, `push`, `pull`, `merge`
+ 5. Repasemos, por medio de un ejemplo, el workflow de git y los comandos esenciales: `init`, `add`, `commit`, `push`, `pull`, `status`
 
- 6. Revisemos los [ejercicios guiados](11-guided-exercises.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
+ 6. Revisemos los [ejercicios guiados](12-guided-exercises) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)

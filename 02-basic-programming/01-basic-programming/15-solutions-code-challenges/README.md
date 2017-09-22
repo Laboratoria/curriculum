@@ -11,7 +11,7 @@
 - Revisar las soluciones de todos los retos
 - Entender que existe más de una forma de resolver los problemas y analizar
 las ventajas y desventajas de cada solución propuesta
-- Aprender qué es y para qué sirve el pseudo-código
+- Aprender qué es y para qué sirve el pseudocódigo
 - Aprender a crear diagramas de flujo
 - Aprender a crear un archivo README.md para un repositorio
 - Aprender a utilizar Markdown

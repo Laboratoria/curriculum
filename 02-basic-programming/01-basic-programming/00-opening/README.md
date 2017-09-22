@@ -30,7 +30,7 @@ cualquier desarrollador. El primero es un controlador de versiones (Git) que
 permite llevar el control del progreso de tu código y mantener un respaldo de
 tu trabajo. El segundo es la línea de comandos (CLI), la interfaz por la cual un
 desarrollador accede a todo el poder de su computador. Sabiendo usar la `CLI`
-podrás instalar programas, usar `Git`, correr cualquier programa, y muchas cosas
+_podrás instalar programas_, usar `Git`, correr cualquier programa, y muchas cosas
 más. ¿Estás lista? ¡Vamos!
 
 ## Guía de preguntas y conceptos clave:

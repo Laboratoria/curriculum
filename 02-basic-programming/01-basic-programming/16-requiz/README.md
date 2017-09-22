@@ -43,7 +43,7 @@ var mixedArray = [3, hola mundo, 627.5];
 1. Las propiedades deben estar siempre entre comillas
 2. No debemos incluir un array como propiedad
 3. Podemos incluir una función como propiedad
-4. Los _Keys_ de los Objects son equivalente a sus propiedades
+4. Los _keys_ de los Objects son equivalente a sus propiedades
 
 <solution style="display:none;">3,4</solution>
 
@@ -65,7 +65,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">1</solution>
 
-### 6) ¿Cuál de los siguientes enunciados NO es un método? 
+### 6) ¿Cuál de los siguientes enunciados NO es un método?
 
 #### Opciones
 1. `push`
@@ -117,7 +117,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 ```
 
 ¿Cómo obtengo el dato `Peso`?
@@ -138,9 +138,9 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-  }
+};
 
-  console.log(movie.tags[1]);
+console.log(movie.tags[1]);
 ```
 
 #### Opciones
@@ -161,7 +161,7 @@ var movie = {
   oscar: 1,
   'other awards': 'best sound',
   tags: []
-  }
+};
 ```
 
 #### Opciones
@@ -175,7 +175,7 @@ var movie = {
 ### 12) De los siguientes enunciados ¿cuál pertenece a `Github`? Puedes seleccionar una o más opciones.
 
 #### Opciones
-1. Un visor de ramas
+1. Un visor de versiones
 2. Un Sistema de Control de Versiones
 3. Una herramienta de revisión de código
 4. Una red donde podemos mantener nuestras cuentas unificadas
@@ -197,7 +197,7 @@ var movie = {
 #### Opciones
 1. `commit` - `add`
 2. `add` - `commit`
-3. `confirm` - `adding` 
+3. `confirm` - `adding`
 4. `adding` - `confirm`
 
 <solution style="display:none;">2</solution>
@@ -230,7 +230,7 @@ console.log('Elemento eliminado: ' + removed);
 
 <solution style="display:none;">3</solution>
 
-### 17) En el siguiente ejemplo, ¿qué método debo usar para obtener el resultado solicitado?
+### 17) En el siguiente ejemplo, ¿cuáles de los siguientes métodos podrías usar para obtener el resultado solicitado? Puedes elegir más de una opción.
 
 ```js
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -246,7 +246,7 @@ console.log(courses.length);
 3. `shift()`
 4. `unshift()`
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">2, 4</solution>
 
 ### 18) En el siguiente ejemplo, ¿qué métodos debo usar para obtener el resultado solicitado?
 
@@ -272,11 +272,11 @@ console.log(listOfNumbers.length);
 ### 19) ¿Cuál sería el resultado en el siguiente código?
 
 ```js
-var coder1 = 'Michelle, ' ;
+var coder1 = 'Michelle, ';
 var coder2 = 'Lourdes, ';
 var coder3 = 'Ruth.';
 
-var allCoders = coder1.concat(coder2,coder3);
+var allCoders = coder1.concat(coder2, coder3);
 
 console.log(allCoders);
 ```
@@ -325,8 +325,8 @@ coders.join();
 
 ```js
 var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
-  coders.pop();
-  coders.slice(____,____);
+coders.pop();
+coders.slice(____,____);
 
 // → ['lourdes', 'ruth']
 ```
