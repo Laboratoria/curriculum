@@ -19,7 +19,7 @@ Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-Ja
 disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 ***
 
-## ¿Qué es un `object` en JavaScript?
+## ¿Qué es un object en JavaScript?
 Los `objects` en JavaScript son muy similares a los `arrays`, pero con dos importantes diferencias:
 
 1. Como hemos visto, para acceder a información dentro de un `array` utilizamos un número correspondiente al _index_; es decir, la posición en la que se ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de números para acceder a los diferentes elementos. Estos `strings` se denominan _keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados valores. Juntas, estas piezas de información se llaman _pares key-value_.
@@ -98,7 +98,7 @@ Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de nombr
 
 Es importante resaltar que aunque los _keys_ son siempre `strings`, los _values_ pueden ser cualquier valor JavaScript - inclusive pueden ser una variable que contiene, o mejor dicho "agarra" (con sus tentáculos) un valor.
 
-## Accediendo información de un `object`
+## Accediendo información de un object
 Podemos acceder a los valores de un `object` de dos maneras:
 
 1. La primera es usando los corchetes `[]`, tal como lo hacemos para los `arrays`. La única diferencia es que, en lugar de usar el _index_ (un `number`), utilizamos el _key_ (un `string`), siempre entre comillas.
@@ -181,7 +181,7 @@ console.log(movie.stars[2]);
 Fíjate que hemos usado `movie.stars` y `movie['stars']` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero de manera consistente.
 
 
-## Definiendo o cambiando los elementos de un `object`
+## Definiendo o cambiando los elementos de un object
 
 Al igual que con los `arrays`, podemos añadir o cambiar los elementos de un `object` utilizando los corchetes y _keys_ o `dot notation`.
 

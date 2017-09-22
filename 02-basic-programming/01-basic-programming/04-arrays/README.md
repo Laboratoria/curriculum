@@ -22,7 +22,7 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de
 ## Agrupando y manipulando data
 Como hemos visto, gran parte de la programación consiste en agrupar y manipular data. Esto nos permite transformar datos en información y utilizar esa información para resolver problemas. Hasta ahora hemos podido agrupar y manipular data haciendo uso de tipos de datos simples como: `numbers`, `booleans` y `strings`. Sobre ellos hemos creado una serie de programas sencillos. También hemos aprendido a modificar el control de flujo de estos programas, por medio de `estructuras repetitivas`, `estructuras condicionales` y `funciones`, lo cual nos ha permitido crear productos un poco más complejos. Sin embargo, nuestros programas han estado seriamente limitados debido a que operan únicamente con **tipos de datos simples**. Para resolver problemas más complejos necesitamos poder agrupar y manipular data de una manera más interesante. Afortunadamente, un entorno JavaScript nos permite lograr esto brindándonos `arrays` y `objects`.
 
-## ¿Por qué necesitamos `arrays`?
+## ¿Por qué necesitamos arrays?
 Digamos, por poner un ejemplo, que queremos representar una colección de números: `2, 3, 5, 7 y 11`.
 
 Una opción para representar esto sería:
@@ -52,7 +52,7 @@ var listOfNumbers = [2, 3, 5, 7, 11];
 
 Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como cuando vamos al mercado y tenemos nuestra "lista de compras". Podríamos tener una hoja de papel para cada artículo que queremos comprar. Por ejemplo, podríamos tener una hoja de papel que dice "huevos", otra hoja que dice "pan", y otra hoja que dice "naranjas". Sin embargo, la mayoría de la gente escribe la lista completa de cosas a comprar en **una sola hoja de papel**.
 
-## Accediendo información de un `array`
+## Accediendo información de un array
 
 Para obtener un elemento dentro de un `array`, se utiliza la notación con corchetes, con el _index_ (índice en español) del elemento que se desea. Veamos un ejemplo:
 
@@ -77,7 +77,7 @@ var listOfNumbers = [2, 3, 5, 7, 11];
 
 Si no tienes antecedentes en programación, acostumbrarte a esta convención puede tomarte algún tiempo. Pero el conteo con base cero tiene una larga tradición en tecnología y mientras la convención se siga de manera consistente (que se ha hecho en Javascript), funciona bien.
 
-## Definiendo o cambiando los elementos de un `array`
+## Definiendo o cambiando los elementos de un array
 Podemos utilizar los _indexes_ entre corchetes para establecer, cambiar o incluso agregar elementos a un `array`. Por ejemplo, para reemplazar el primer elemento del array `listOfNumbers` por el número 1, podríamos hacer lo siguiente:
 
 ```js
@@ -120,7 +120,7 @@ console.log(listOfNumbers);
 
 ```
 
-## Mezclando tipos de datos en `arrays`
+## Mezclando tipos de datos en arrays
 
 Los elementos de un `array` no tienen que ser todos del mismo tipo de dato. Podemos, por ejemplo, tener un `array` que contenga un `number` (el número 3), un `string` ("dinosaurios") y otro `number` (el número 3627.5):
 

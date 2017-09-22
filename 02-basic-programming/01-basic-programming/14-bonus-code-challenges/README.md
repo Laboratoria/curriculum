@@ -1,6 +1,6 @@
-# Retos de código
+# Bonus retos de código
 
-- Tipo: `practice`
+- Tipo: `lecture`
 - Formato: `self-paced`
 - Duración: `4h`
 
@@ -8,8 +8,7 @@
 
 ## Objetivos
 
-- A continuación te presentamos una serie de retos que debes completar para
-poner tus conocimientos a prueba.
+- Ahora que has completado los retos de código, debes completar lo siguiente para poner tus conocimientos a prueba.
 
 ## 1. Replit
 Completa los ejercicios de programación básica del salón de clases de:
