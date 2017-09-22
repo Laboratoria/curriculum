@@ -43,14 +43,18 @@ Crea un programa que un cajero automático pueda utilizar para determinar el nú
 * 500 billetes de 5
 * 800 billetes de 1
 
+Veamos un caso de uso:
+
+Si el usuario solicita 250 dólares, la salida debe verse así:
 ```js
-Entregando 250 soles:
+Monto solicitado 250 dólares.
+Se entregan 3 billetes:
+
 100: 2
 50: 1
 
-
 En el cajero quedan: 
-Monto - Cantidad 
+
 100: 98
 50: 49
 20: 200
@@ -58,15 +62,16 @@ Monto - Cantidad
 5: 500
 1: 800
 ```
-__Nota:__ *se debe tomar en cuenta que el cajero recuerda cuanto dinero le queda para las siguientes transacciones.*
+
+El cajero recuerda cuánto dinero le queda para las siguientes transacciones.Por ejemplo, sí el usuario desea retirar 150 dólares adicionales, la salida debe verse así:
 ```js
-Entregando 150 soles:
+Monto solicitado 150 dólares, se entregan 2 billetes:
+
 100: 1
 50: 1
 
-
 En el cajero quedan: 
-Monto - Cantidad 
+
 100: 97
 50: 48
 20: 200
