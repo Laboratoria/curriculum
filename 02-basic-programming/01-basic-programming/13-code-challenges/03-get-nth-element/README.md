@@ -1,10 +1,11 @@
 # getNthElement
 
 
- Escriba una función llamada "getNthElement".
+Escriba una función llamada `getNthElement`.
 
-Dada una matriz y un entero,"getNthElement" devuelve el elemento al entero dado, dentro de la matriz dada.
-Notas: * Si el array tiene una longitud de 0, debería devolver' indefinido'.
+Dada una matriz y un entero, `getNthElement` devuelve el elemento al entero dado, dentro de la matriz dada.
+Notas:
+* Si el array tiene una longitud de 0, debería devolver `undefined`.
 
 Ejemplo de entrada:
 

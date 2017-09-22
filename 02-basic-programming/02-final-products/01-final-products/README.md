@@ -38,7 +38,7 @@ Se tomarán en cuenta las siguientes consideraciones a la hora de evaluar tu sol
 Crea una web que pida, por medio de un `prompt()`, una frase al usuario y
 devuelva el mismo mensaje encriptado según el
 [algoritmo de Cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-con el parámetro de desplazamiento de ** 33 espacios hacia la derecha**
+con el parámetro de desplazamiento de **33 espacios hacia la derecha**
 
 Por ejemplo:
 - Texto original:   `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
@@ -57,7 +57,7 @@ También te compartimos más información de lo que Michelle te ha explicado en 
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 
 >Consideraciones Específicas
-  >1. Tu programa debe ser capaz de cifrar y descifrar tanto letras mayúsculas como minúsculas. La fórmula para 
+  >1. Tu programa debe ser capaz de cifrar y descifrar tanto letras mayúsculas como minúsculas. La fórmula para
 descifrar es: `(x - n) % 26`
   >2. Tu código debe estar compuesto por 2 funciones con los siguientes nombres: `cipher` y `decipher`
   >3. El usuario no debe poder ingresar un campo vacío o que contenga números
@@ -70,7 +70,7 @@ crédito y confirme su validez según el [algoritmo de Luhn](https://es.wikipedi
 
 Consideraciones Específicas
   >1. Tu código debe estar compuesto por 1 función: `isValidCard`
-  >2. El usuario no debe poder ingresar un campo vacío o que contenga números
+  >2. El usuario no debe poder ingresar un campo vacío
 
 
 A continuación un video de Michelle que te lleva a través del algoritmo de

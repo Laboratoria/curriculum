@@ -58,15 +58,13 @@ a cada cambio que vayamos realizando le tomará una foto en el instante que le
 indiquemos y todo eso lo almacenará en un `repositorio local`.
 
 **Ahora conozcamos algunas palabras claves que de seguro escucharás al momento
-de trabajar con Git**  
+de trabajar con Git:**  
 
 - Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia a los archivos y a sus versiones que se encuentran en nuestro equipo.
   Aquí encontraremos dos partes muy importantes.
-  - working directory: Que es nuestro directorio de trabajo.
+  - working directory: Es nuestro directorio de trabajo.
   - staging area: Es el espacio en donde se encuentran los archivos a los que `Git` les debe de hacer seguimiento y que en algún momento se convertirán en una nueva versión del proyecto.
-  <!--Es el área de preparación, y se define como un espacio de memoria en la computadora en donde se guardarán temporalmente los cambios que realizaremos en el archivo de trabajo.-->
 
- <!-- diff,ventana de conflicto,stash-->
 - Repositorio remoto: `Git` nos permite sincronizar nuestro repositorio local
   con un repositorio remoto o repositorio en la "nube".
 
@@ -89,7 +87,6 @@ ejemplo:
   las distintas versiones.
 
 **En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
-
 
 ## ¿Cuál es la diferencia entre Git y Github?
 
@@ -130,7 +127,7 @@ añadir tu compañero.
 Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
 
 1. Debemos de dirigirnos a la página oficial de `Github`: https://github.com/
-2. Ya en la página, haremos clic en **Sign up**
+2. Ya en la página, haremos clic en **Sign up**.
 3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
   ejemplo, si tienes un **username** que creaste para un juego online podrías
   usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
@@ -226,7 +223,7 @@ comandos como si estuviéramos en Linux o Mac OS X.
 >Por lo tanto, `Git Bash` será la "línea de comandos" que utilizaremos cuando
   trabajemos con `Git` en Windows, en cambio, si nos encontramos en Linux o Mac
   OS X utilizaremos nuestra terminal.
-  
+
 ## ¿Cómo configuramos Git?
 
 Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro
@@ -249,20 +246,21 @@ aspecto y funcionamiento de `Git`, como por ejemplo si ejecuto el comando
   user.name = michellesegv
   user.email = michelle@laboratoria.la
 ```
+
 (Que vienen a ser los datos que ya he configurado)
 
 Ahora nosotras vamos configurar nuestro entorno de `Git`:
 
 - Para configurar nuestro **username** debemos escribir la siguiente línea que
   debe de tener nuestros datos, y luego presionaremos la tecla "enter":
-  
+
   ```text
   git config --global user.name Tu-username
   ```
 
 - Para configurar nuestro **correo electrónico** debemos escribir la siguiente
   línea con nuestros datos y luego presionaremos la tecla "enter":
-  
+
   ```text
   git config --global user.email tucorreo@gmail.com
   ```
@@ -289,6 +287,7 @@ abajo habrá un video de Michelle utilizándolos.
 - `init`: Este comando le indica a `Git` que comenzará a hacer seguimiento de
   la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El
   comando para iniciar el seguimiento de la carpeta sería:
+
   ```text
   $ git init
   ```
@@ -304,6 +303,7 @@ abajo habrá un video de Michelle utilizándolos.
 
   Por ejemplo, si quieremos añadir a nuestro _staging area_ el archivo `HTML`
   llamado **index.html** debemos de ejecutar la siguiente línea:
+
   ```text
   $ git add index.html
   ```
@@ -311,6 +311,7 @@ abajo habrá un video de Michelle utilizándolos.
   Si queremos que todos los archivos del directorio actual se añadan al
   _staging area_ (definir que ya están preparados), ejecutamos la siguiente
   línea:
+
   ```text
   $ git add .
   ```
@@ -319,15 +320,17 @@ abajo habrá un video de Michelle utilizándolos.
   preparados con el comando anterior (`add`) .Con los archivos confirmados se
   creará una nueva versión del proyecto.  
   La estructura del comando es la siguiente:
+
   ```text
   $ git commit -m 'añadiendo un comentario'
   ```
-  
+
   El texto que va dentro de las comillas ('') puede ser cualquiera, te
   recomiendo que escribas un resumen de lo que estás subiendo en ese momento
   para que tengas una mejor organizacion, además, un buen comentario te servirá
   si quieres volver a una funcionalidad en especial sin tener que leer todo el
   código y solo guiarte por el comentario de tu commit. Por ejemplo:
+
   ```text
   $ git commit -m 'Creando estructura HTML'
   ```
@@ -338,6 +341,7 @@ abajo habrá un video de Michelle utilizándolos.
   cuando queramos especificar el repositorio remoto que tendremos.
   Entonces, para enlazar nuestro repositorio local con nuestro repositorio
   remoto debemos de ejecutar el siguiente comando:
+
   ```text
   $ git remote add nombre-remoto url
   ```
@@ -347,6 +351,7 @@ abajo habrá un video de Michelle utilizándolos.
   Por ejemplo, hace un momento he creado el repositorio "prueba" en `Github` y
   si quiero vincular mi repositorio local con ese repositorio remoto tendría
   que ejecutar la siguiente línea de comando:
+
   ```text
   $ git remote add origin https://github.com/michellesegv/prueba.git
   ```
@@ -354,6 +359,7 @@ abajo habrá un video de Michelle utilizándolos.
 - `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
   confirmamos en el `commit` a nuestro repositorio remoto. El comando es el
   siguiente:
+
   ```text
   $ git push nombre-remoto master
   ```
@@ -367,6 +373,7 @@ abajo habrá un video de Michelle utilizándolos.
   subiremos nuestros cambios a ella especificando **master** como el nombre de
   la rama a la que queremos subir nuestra versión, entonces el comando a
   ejecutar sería:
+
   ```text
   $ git push origin master
   ```
@@ -381,6 +388,7 @@ abajo habrá un video de Michelle utilizándolos.
   "confirmarlos" en la nueva versión (por medio del comando `commit`) que
   subiremos a nuestro repositorio remoto. El comando para ver el estado de
   nuestro repositorio local es:
+
   ```text
   $ git status
   ```
@@ -390,6 +398,7 @@ abajo habrá un video de Michelle utilizándolos.
   al momento de trabajar colaborativamente  porque podremos tener los avances
   que nuestros colaboradores han subido al repositorio remotro a nuestro
   repositorio local y mantenerlo actualizado. El comando es el siguiente:
+
   ```text
   $ git pull nombre-remoto master
   ```
@@ -397,10 +406,11 @@ abajo habrá un video de Michelle utilizándolos.
   En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como
   **origin** y la rama en la que estamos trabajando se llama **master**, el
   comando sería:
+  
   ```text
   $ git pull origin master
   ```
-  
+
 ### Detalle de comandos
 A continuación veremos una lista de los comandos de `Git` usados en esta lección:
 
