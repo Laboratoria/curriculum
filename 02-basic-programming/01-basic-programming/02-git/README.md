@@ -31,7 +31,7 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, en las sig
 
 `Git` es un `Sistema de Control de Versiones`.
 
-> **¿Qué es el `Sistema de Control de Versiones`?**  
+> **¿Qué es el Sistema de Control de Versiones?**  
   El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha pasado algo así?:  
   !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
   Gracias al VCS podemos hacer que eso no suceda debido a que permite:  
@@ -402,21 +402,9 @@ abajo habrá un video de Michelle utilizándolos.
   ```
   
 ### Detalle de comandos
-A continuación veremos una lista de los comandos de `Git` usados en esta
-lección:
+A continuación veremos una lista de los comandos de `Git` usados en esta lección:
 
-| Comando                                             | Descripción                                                                                          |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| `git config --global user.name Tu-username`         | Configura el nombre de usuario                                                                       |
-| `git config --global user.email tucorreo@gmail.com` | Configura el correo electrónico                                                                      |
-| `git init`                                          | Inicia el seguimiento a una carpeta indicada                                                         |
-| `git add archivo.extensión`                         | Indica el archivo que pasarán del _working directory_ al _staging area_                              |
-| `git add .`                                         | Indica que todos los archivos pasarán del _working directory_ al _staging area_                      |
-| `git commit -m 'añadiendo un comentario'`           | Confirma los archivos **preparados** anteriormente con `git add`                                     |
-| `git remote add nombre-remoto url`                  | Vincula el repositorio local con el repositorio que se encuentra en la "nube" por medio de la **url**|
-| `git push nombre-remoto master`                     | Envía la nueva versión a la rama _master_ del repositorio remoto                                     |
-| `git status`                                        | Indica el estado de los archivos del repositorio local                                               |
-| `git pull nombre-remoto master`                     | Actualiza el repositorio local al último `commit` que se tenga registrado en el repositorio remoto   |
+![comandos-git](https://fotos.subefotos.com/f209b041b3f12e56d3e44984a92d1f44o.png)
 
 Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de versiones de sus proyectos y colaborar con otras profesoras de Laboratoria.
 

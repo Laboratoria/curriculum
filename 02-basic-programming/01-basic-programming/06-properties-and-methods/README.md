@@ -29,11 +29,11 @@ Lo interesante de las propiedades y los métodos es que no son únicamente para 
 
 Las dos maneras comunes de acceder a propiedades o métodos en Javascript son con un punto (`.`) y con corchetes (`[]`). Ambas `valor.x` y `valor[x]` acceden a una propiedad en valor, pero no necesariamente la misma propiedad. La diferencia radica en cómo se interpreta `x`. Cuando usamos un punto, la parte después del punto debe ser un nombre de variable válido y nombra de manera directa a la propiedad o el método. Cuando usamos corchetes, la expresión dentro de los corchetes es _**evaluada**_ para obtener el nombre de la propiedad. Mientras que `valor.x` busca la propiedad del valor llamada “x”, `valor[x]` intenta _evaluar_ la expresión x y usa el resultado como el nombre de la propiedad.
 
-## Propiedades y métodos de los `arrays`
+## Propiedades y métodos de los arrays
 
 Ya hemos visto una manera de acceder a las propiedades de un `array`. Cuando accedemos a los elementos de un `array` (utilizando los corchetes `[]` y el _index_) estamos realmente accediendo a sus propiedades. Esto porque **los elementos de un array se almacenan en propiedades**. Entonces, cuando hacemos `myArray[0]` le estamos realmente diciendo a JavaScript que nos devuelva el valor almacenado en la propiedad `0` del array, que está definido como el primer valor de la "primera casilla" del `array`.
 
-### Encontrando la longitud de un `array`
+### Encontrando la longitud de un array
 Al igual que los `strings`, los `arrays` en JavaScript vienen con una propiedad `length` que nos devuelve la longitud del `array`, es decir, el número de elementos que componene el array. Veamos un ejemplo:
 
 ```js
@@ -44,7 +44,7 @@ console.log(myArray.length);
 
 ```
 
-### Añadiendo elementos a un `array`
+### Añadiendo elementos a un array
 Para añadir un elemento al final de un `array` JavaScript cuenta con el **método** `push`. Recordemos que es un método porque **hace** algo con el valor asociado - en este caso, agrega un elemento al final del array. Veamos un ejemplo:
 
 ```js
@@ -63,7 +63,7 @@ El acto de correr un método se conoce como "llamar" al método. Esto es porque,
 
 Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que después de correr el código `myArray.push('último elemento');` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
 
-### Otros métodos de los `arrays`
+### Otros métodos de los arrays
 
 JavaScript nos brinda varios métodos para manipular `arrays`. Con ellos podemos añadir elementos al principio del `array`, remover elementos del `array`, concatenar `arrays`, unir más de un `array` y muchas cosas más.
 
@@ -93,7 +93,7 @@ Recuerda también que puedes explorar otras formas de auto-aprendizaje:
 _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar._
 ***
 
-## Propiedades y métodos de los `objects`
+## Propiedades y métodos de los objects
 
 Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
 
@@ -126,7 +126,7 @@ Con `movie['title']` o `movie.title` estamos accediendo a la **propiedad** llama
 
 A los `objects` que nosotros creamos (como el object `movie` del ejemplo) también podemos crearle **métodos**. Esto lo logramos incluyendo una `función` como propiedad. Pero, de momento, no te preocupes por esto. Lo veremos más adelante. Por ahora lo importante es saber que, así como los `strings` y `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
-### ¿La longitud de un `object`?
+### ¿La longitud de un object?
 La propiedad `length` que podemos usar para calcular la longitud de un `string` o de un `array`, no es una propiedad válida para los `objects` que nosotros creamos. Es decir, si a nuestro object `movie` que hemos venido usando tratamos de aplicar la propiedad `length` el resultado es `undefined`.
 
 ```js
@@ -164,7 +164,7 @@ console.log(Object.keys(movie));
 // → (8) ['title', 'director', 'stars', 'year of release', 'plot', 'oscar', 'tags', 'other awards']
 
 ```
-## Inspeccionando `arrays` y `objects`
+## Inspeccionando arrays y objects
 
 Para desplegar en consola la información contenida en un `array` de 2 dimensiones o un `object` se nos ofrece el metodo `.table()` de `console`.
 

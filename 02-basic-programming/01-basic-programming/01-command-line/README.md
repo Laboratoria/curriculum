@@ -15,9 +15,6 @@ En esta unidad aprenderemos:
 - Aprender a navegar por nuestro `directorio`
 - Crear archivos o carpetas desde la terminal
 
-Referencia:
-[https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md)
-
 ## La línea de comandos
 
 La línea de comandos es también conocida como:
@@ -108,8 +105,8 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra". 
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella.
 
->¿Cómo ejecutamos un comando?<br>
-    1. Debemos de escribir el comando<br>
+>¿Cómo ejecutamos un comando?
+    1. Debemos de escribir el comando
     2. Presionando la tecla **enter** estaremos ejecutando un comando
 
 ### Navegando en nuestro directorio
@@ -345,15 +342,7 @@ $ touch index.html
 
 A continuación veremos una lista de los comandos usados en esta lección:
 
-| Comando (Windows)           | Comando (Mac OS X / Linux)   | Descripción                         |
-| --------------------------- | ---------------------------- | ----------------------------------- |
-| cd                          | pwd                          | Muestra la ruta en la que estamos   |
-| cd nombre-carpeta           | cd nombre-carpeta            | Ingresa a la carpeta indicada       |
-| cd ..                       | cd ..                        | Regresa una carpeta hacia atrás     |
-| dir                         | ls                           | Enlista los directorios/archivos    |
-| mkdir nombre-carpeta        | mkdir nombre-carpeta         | Crea un nuevo directorio/carpeta    |
-| echo > nombre-archivo.ext   | touch nombre-archivo.ext     | Crea un nuevo archivo               |
-| exit                        | exit                         | Cierra la línea de comandos         |
+![comandos-cli](https://fotos.subefotos.com/e6a2257e5c80534c28d721c34390b20bo.png)
 
 Ahora veamos cómo Michelle navega entres sus archivos o directorios, crea
 carpetas y archivos desde la terminal.
