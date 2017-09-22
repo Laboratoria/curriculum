@@ -1,6 +1,6 @@
-# Quiz #2: _requizzing_
+# Quiz #2: requizzing
 
-- Tipo: `cuestionario`
+- Tipo: `quiz`
 - Formato: `guiado`
 - Duración: `30min`
 
@@ -37,7 +37,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 3) ¿Cuál de los siguientes enunciados sobre Objects **SÍ** es correcto? Puedes seleccionar una o más opciones.
+### 3) ¿Cuál de los siguientes enunciados sobre Objects SÍ es correcto? Puedes seleccionar una o más opciones.
 
 #### Opciones
 1. Las propiedades deben estar siempre entre comillas
@@ -65,7 +65,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">1</solution>
 
-### 6) ¿Cuál de los siguientes enunciados **NO** es un método? 
+### 6) ¿Cuál de los siguientes enunciados NO es un método? 
 
 #### Opciones
 1. `push`
@@ -75,7 +75,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 7) En el siguiente código: 
+### 7) En el siguiente código:
 
 ```js
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -92,7 +92,7 @@ var listOfNumbers = [1, 2, 3, 4, 5, 6];
 
 <solution style="display:none;">5</solution>
 
-### 8) En el siguiente código: 
+### 8) En el siguiente código:
 
 ```js
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -139,7 +139,7 @@ var movie = {
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
   }
-  
+
   console.log(movie.tags[1]);
 ```
 

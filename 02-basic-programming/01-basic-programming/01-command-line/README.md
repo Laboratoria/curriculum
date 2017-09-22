@@ -47,14 +47,14 @@ computadoras.
 
 ## Accediendo a la línea de comandos
 
-### Windows
+**Windows**
 
 Presionamos la tecla "windows" + r:
 
 ![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
 
-Ahora   nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
-escribiremos **cmd.exe**
+Ahora   nos aparecerá una pequeña pantalla en la parte inferior izquierda en
+la que escribiremos **cmd.exe**
 
 ![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
 
@@ -63,11 +63,11 @@ la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así
 
 ![línea de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
 
-### Mac OS X
+**Mac OS X**
 
 Launchpad → Terminal
 
-### Linux
+**Linux**
 
 Actividades → Terminal
 
@@ -106,40 +106,17 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 ## Comandos
 
 Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra". 
-Te dejaré una lista de comandos que puedes ejecutar dentro de ella:
+Te dejaré una lista de comandos que puedes ejecutar dentro de ella.
 
 >¿Cómo ejecutamos un comando?<br>
     1. Debemos de escribir el comando<br>
     2. Presionando la tecla **enter** estaremos ejecutando un comando
 
-### Obteniendo nuestra ubicación
+### Navegando en nuestro directorio
 
-Saber en qué parte de nuestra "ciber casa" nos encontramos es muy importante,
-ya sea en el caso de que queramos crear una nueva carpeta, un archivo, o
-simplemente saber en qué parte de nuestro equipo nos encontramos.
-
-#### Windows
-
-```text
-> cd
-  C:\Users\Michelle
-```
-
-Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
-
-#### Mac OS X y Linux
-
-```text
-$ pwd
-  /home/Michelle
-```
-
-### Navegando en nuestro directorio: `cd`
-
-Este comando nos ayudará a navegar por nuestros **directorios** (también
-llamados **carpetas**), entre nuestros archivos. Con él, podremos saber en
-dónde nos encontramos, acceder a otra carpeta o volver a una carpeta
-anterior.
+El comando `cd` nos ayudará a navegar por nuestros **directorios** (también
+llamados **carpetas**) y entre nuestros archivos. Con él, podremos acceder a 
+otra carpeta o volver a una carpeta anterior.
 
 Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
 recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
@@ -156,15 +133,44 @@ cuarto** (disco local C) a mi "ciber baño" (carpeta "Saved Pictures"),
 primero debería de entrar al "ciber-clóset" (carpeta "Pictures") y luego
 entramos a la carpeta buscada.
 
-#### Windows, Mac OS X y Linux
+Ahora navegemos nosotras en muestra terminal.
+
+#### Obteniendo nuestra ubicación
+
+Primero vamos a saber en qué parte de nuestra "ciber casa" nos encontramos.
+Saber en qué parte de nuestro directio nos encontramos es muy importante,
+sobretodo en el caso de que queramos crear una nueva carpeta, un archivo, o
+simplemente saber en qué parte de nuestro equipo nos encontramos.
+
+**Windows**
+
+Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
+
+```text
+> cd
+  C:\Users\Michelle
+```
+
+**Mac OS X y Linux**
+
+Al ejecutar el comando `pwd` se nos mostrará la ruta en la que estamos.
+
+```text
+$ pwd
+  /home/Michelle
+```
+
+#### Navegando 
+
+Si escribimos `cd` y luego indicamos el nombre de una carpeta que exista en
+nuestro directorio, al ejecutarlo, estaremos ingresando dentro de ella. 
+
+**Windows, Mac OS X y Linux**
 
 ```text
 cd nombre-carpeta
 ```
-
-Si escribimos `cd` y luego indicamos el nombre de una carpeta que exista en
-nuestro directorio, al ejecutarlo, estaremos ingresando dentro de ella. Por
-ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
+Por ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
 
 ```text
 cd Pictures
@@ -214,7 +220,7 @@ Ya no estaremos dentro de la carpeta "Pictures"
 
 ### Listar los archivos y los directorios
 
-#### Windows: `dir`
+**Windows: `dir`**
 
 Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos
 ejecutado el comando.  
@@ -249,7 +255,7 @@ no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
              15 Dir(s)  223,511,490,560 bytes free
 ```
   
-#### Mac OS X y Linux : `ls`
+**Mac OS X y Linux : `ls`**
 
 Al ejecutar `ls` se nos mostrarán los nombres de las carpetas y los archivos
 que existan en el directorio que nos encontremos.
@@ -267,7 +273,7 @@ Para este comando es muy importante en qué parte del directorio nos encontramos
 porque en la ubicación en la que lo ejecutemos es donde se creará la nueva 
 carpeta.
 
-#### Windows, Mac OS X y Linux
+**Windows, Mac OS X y Linux**
 
 ```text
 mkdir nombre-carpeta
@@ -291,7 +297,7 @@ Al ejecutar este comando es muy importante en qué parte de nuestro equipo nos
 encontramos, porque en la ubicación en la que lo ejecutemos es en donde se
 creará el nuevo archivo.
 
-#### Windows: `echo`
+**Windows: `echo`**
 
 Con `echo` estaremos creando un nuevo archivo. Su estructura es así:
 1. Comando: `echo`
@@ -320,7 +326,7 @@ siguiente:
 > echo > index.html
 ```
 
-#### Mac OS X y Linux
+**Mac OS X y Linux**
 
 Si ejecutamos `touch` seguido del nombre del nuevo archivo con su respectiva
 extensión, estaremos creando un nuevo archivo.
