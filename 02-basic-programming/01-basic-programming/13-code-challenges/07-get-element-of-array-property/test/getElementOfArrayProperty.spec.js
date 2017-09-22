@@ -3,7 +3,7 @@ const Assert = require('chai').assert;
 const getElementOfArrayProperty = require('../solution/getElementOfArrayProperty');
 
 describe("getElementOfArrayProperty()", function () {
-  it("deberia regresar undefined, para ({yey: [1, 3, 5, 7]}, 'key', 1)", function () {
+  it("debería regresar undefined, para ({yey: [1, 3, 5, 7]}, 'key', 1)", function () {
 	
 	var obj = {
 	 yey: [1, 3, 5, 7]
@@ -14,7 +14,7 @@ describe("getElementOfArrayProperty()", function () {
 
   });
 
-  it("deberia regresar undefined, para  ({key: 'eyoooo'}, 'key', 1)", function () {
+  it("debería regresar undefined, para  ({key: 'eyoooo'}, 'key', 1)", function () {
 
 
 	var obj = {
@@ -26,7 +26,7 @@ describe("getElementOfArrayProperty()", function () {
   });
   
 
-  it("deberia regresar undefined, para ({key: ['Kemal', 'Mahmud']}, 'key', 2)", function () {
+  it("debería regresar undefined, para ({key: ['Kemal', 'Mahmud']}, 'key', 2)", function () {
 
 
 	var obj = {
@@ -37,7 +37,7 @@ describe("getElementOfArrayProperty()", function () {
 
   });
 
-  it("deberia regresar 3, para ({key: [1, 2, 3, 4, 5]}, 'key', 2)", function () {
+  it("debería regresar 3, para ({key: [1, 2, 3, 4, 5]}, 'key', 2)", function () {
 
 
 	var obj = {
