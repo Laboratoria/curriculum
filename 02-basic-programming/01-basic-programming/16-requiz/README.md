@@ -55,7 +55,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">1</solution>
 
-### 5) Los métodos son _\_\_\_\_\_\_\_\_\_\_\_\_ que contienen _\_\_\_\_\_\_\_\_\_\_\_\_.
+### 5) Los métodos son \_\_\_\_\_\_\_\_\_\_\_\_\_ que contienen \_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 #### Opciones
 1. propiedades - funciones
@@ -192,7 +192,7 @@ var movie = {
 
 <solution style="display:none;">4</solution>
 
-### 14) Por medio de _\_\_\_\_\_\_\_\_\_\_\_\_  estaremos indicando qué archivos queremos que pasen de nuestro _working directory_ al _staging area_, mientras que con _\_\_\_\_\_\_\_\_\_\_\_\_ confirmaremos los archivos que declaramos como preparados con el comando anterior.
+### 14) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_  estaremos indicando qué archivos queremos que pasen de nuestro _working directory_ al _staging area_, mientras que con \_\_\_\_\_\_\_\_\_\_\_\_\_ confirmaremos los archivos que declaramos como preparados con el comando anterior.
 
 #### Opciones
 1. `commit` - `add`
@@ -410,7 +410,7 @@ console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 
 <solution style="display:none;">2, 5</solution>
 
-### 27) Los algoritmos nos permiten comunicar _\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
+### 27) Los algoritmos nos permiten comunicar \_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
 
 #### Opciones
 1. diferentes funciones
