@@ -8,12 +8,12 @@
 
 ## Objetivos
 
-- Ahora que has completado los retos de código, debes completar lo siguiente para poner tus conocimientos a prueba.
+- Ahora que has completado los retos de código, pon tus conocimientos a prueba desarrollando lo siguiente:
 
 ## 1. Replit
 Completa los ejercicios de programación básica del salón de clases de:
 * [Replit 04-data-structures](https://repl.it/classroom/invite/HJk9VaQ)
 
 ## 2. Javascripting (opcional)
-Completa el turorial de JavaScript de la comunidad de nodejs:
+Completa el tutorial de JavaScript de la comunidad de nodejs:
 * [javascripting](https://github.com/workshopper/javascripting)
