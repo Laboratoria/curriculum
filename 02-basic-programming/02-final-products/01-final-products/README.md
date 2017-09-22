@@ -13,6 +13,15 @@ tienen una aplicación en nuestra vida cotidiana. El primero es un programa
 que se utiliza para encriptar mensajes, y el segundo es un programa que
 valida si un número de tarjeta de crédito es válida.
 
+## Entregables
+
+Para cada producto debes entregar **un repositorio de GitHub** que
+contenga:
+1. Archivo `README.md` que explique el **pseudocódigo** de tu solución y su
+**diagrama de flujo**
+2. Archivo `app.js` con el **código** de tu solución
+
+
 ## 1. Cifrado César
 Crea una web que pida, por medio de un `prompt()`, una frase al usuario y
 devuelva el mismo mensaje encriptado según el
