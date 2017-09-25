@@ -141,12 +141,12 @@ cambiar esta característica (por ejemplo qué fuente, qué ancho o qué color u
 
 El par formado por una propiedad y un valor se denomina **declaración** CSS.
 Varias declaraciones juntas forman un **bloque de declaraciones**. Para
-definir a qué el elemento de la página web se debe aplicar el estilo
+definir a qué elemento de la página web se debe aplicar el estilo
 que especifica el bloque de declaración utilizamos un **selector**. El
 selector le indica al navegador a qué elemento (o elementos) de una web debe
-aplicar cierto estilo. Por ejemplo, un selector puede ser un titular, un
+aplicar cierto estilo. Por ejemplo, un selector puede ser un título, un
 párrafo, una imagen, etc. Los bloques de declaraciones CSS emparejados con
-selectores forman **Reglas CSS**.
+selectores forman **reglas CSS**.
 
 Por ejemplo, una regla css sería:
 
@@ -192,6 +192,9 @@ Existen múltiples selectores. Lee la siguiente documentación para que aprendas
 * [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
 * [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
 
+Además, puedes hacer [este juego](https://laboratoria.github.io/css-diner) para
+poner en práctica los selectores aprendidos y algunos otros nuevos.
+
 Al finalizar tu investigación debes saber qué es y cómo usar:
 * Selector universal
 * Selector de elementos (de tipo)
@@ -232,7 +235,7 @@ determinan el mecanismo de cascada. En particular, responde lo siguiente:
 * ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
 * ¿Se aplica el estilo con mayor o menor especificidad?
 * ¿Cómo se calcula la especificidad?
-* ¿Qué significa `!important`? ¿Por qué **NO** no debemos usarlo a menos que
+* ¿Qué significa `!important`? ¿Por qué **NO** debemos usarlo a menos que
 sea estrictamente necesario?
 * ¿Todos los estilos en CSS se heredan? ¿Por qué?
 * ¿Qué es y para qué sirve `inherit`?
