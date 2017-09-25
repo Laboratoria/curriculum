@@ -1,6 +1,7 @@
 # Quiz #2: _requizzing_
+
 - Tipo: `quiz`
-- Formato: `guided-learning`
+- Formato: `guiado`
 - Duración: `30min`
 
 ## Objetivos
@@ -15,6 +16,4 @@ entendimiento pleno de los conceptos.
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar
 tus respuestas._
 
-
 ***
-[Continuar](15-self-assessment.md)
