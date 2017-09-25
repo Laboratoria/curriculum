@@ -47,13 +47,16 @@ como profesionales y expertos de la industria.
 
 Los _cursos_ se dividen en 3 _fases_:
 
-* [**Prep**](#prep): cursos online, de 20 a 30 horas, que se toman **antes** de ingresar, como parte del
-proceso de selección
+* [**Prep**](#prep): cursos online, de 20 a 30 horas, que se toman **antes**
+de ingresar a Laboratoria como parte del proceso de selección
 
-* [**Bootcamp**](#bootcamp): cursos de 2 a 5 semanas, a tiempo parcial, que requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) + 10 horas remoto (2hrs/día)
+* [**Bootcamp**](#bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
+requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día)
++ 10 horas remoto (2hrs/día)
 
-* [**Educación continua**](#educación-continua): cursos de 4 semanas, blended, que requieren de 4
-horas de estudio por semana: 3 horas presenciales (1 sesión de 3hrs por semana) + 1 hora remoto
+* [**Educación continua**](#educación-continua): cursos de 4 semanas, blended,
+que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
+(1 sesión de 3hrs cada semana) + 1 hora/semana remoto
 
 ***
 
@@ -86,27 +89,31 @@ nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primero
 pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
 fundamentos de `JavaScript`, el lenguaje de programación más popular de la Web.
 
-Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops` y `funciones`
+Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops`
+y `funciones`
 
 ***
 
 ## II. Bootcamp
-El **bootcamp** es un programa de 24 semanas y consiste en una serie de cursos de 2-4 semanas de duración cada uno.
+El **bootcamp** es un programa de 24 semanas y consiste en una serie de cursos
+de 2 a 4 semanas de duración cada uno. Los _cursos_ diseñados para el
+**bootcamp** tendrán en cuenta que las alumnas estudian a medio tiempo,
+dedicando 35 horas por semana (5hrs/día de forma presencial más 2hrs/día
+de estudio remoto) y **no** dominan el idioma inglés. El bootcamp empieza con
+una serie común de cursos para todas las alumnas, que forman parte del
+`Common Core`, y luego continúa en uno de dos tracks de especialización:
+`Front-End Developer` y `UX Designer`.
 
-Los _cursos_ diseñados para el **bootcamp** tendrán en cuenta que las alumnas
-estudian a medio tiempo, dedicando 35 horas por semana (5hrs/día de forma presencial, más 2hrs/día
-de estudio remoto) y **no** dominan el idioma inglés.
-
-El bootcamp empieza con una serie común para todas las alumnas, que llamamos el **common core**, y luego continúa en uno de dos tracks de especialización: `Front-End Developer` y
-`UX Designer`.
-
-### [02. Programación básica con JavaScript](02-basic-programming)
+### [02. Programación básica con JavaScript: JS Deep Dive](02-basic-programming)
 
 - Track: _Common Core_
 - Autor: _R. Prieto_
 - Tiempo estimado: _2 a 3 semanas_
 
-En este curso aprenderás mejores formas de estructurar y manipular la data de tu programa haciendo uso de estructuras de datos básicas: `arreglos` y `objetos`. Además, aprenderás a utilizar dos programas esenciales para una developer: la línea de comandos y el controlador de versiones.
+En este curso aprenderás mejores formas de estructurar y manipular la data de
+tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
+`objetos`. Además, aprenderás a utilizar dos programas esenciales para una
+developer: la línea de comandos y el controlador de versiones.
 
 Main Tags:
  `arrays`, `objects`, `CLI`, `Git`, `Github`.
@@ -154,10 +161,13 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 - Autor: _Iván Medina & Lalo Gonzalez_
 - Tiempo estimado: _3 a 4 semanas_
 
-En este curso crearás una **red social**. Para ello deberás aprender a desarrollar una interfaz que se pueda visualizar correctamente en varios dispositivos (`responsive`) y deberás hacer uso de librerías y frameworks que permitan optimizar
-el flujo del desarrollo.
+En este curso crearás una **red social**. Para ello deberás aprender a
+desarrollar una interfaz que se pueda visualizar correctamente en varios
+dispositivos (`responsive`) y deberás hacer uso de librerías y frameworks que
+permitan optimizar el flujo del desarrollo.
 
-Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`, `grid-system`, `web layouting`, `responsive`, `usability`.
+Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`,
+`grid-system`, `web layouting`, `responsive`, `usability`.
 
 Secondary tags: `big-o`, `time-complexity`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `information-architecture`.
@@ -204,8 +214,8 @@ Main tags: `http`, `browser-apis`, `api`, `json`, `rest`, `xhr`, `firebase`,
 `deployment`.
 
 Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
-`web-sockets`, `web-workers`, `web-rtc`, `auth`, `microservices`, `broadcasting`,
-`progressive-web-apps`, `cloud computing`, `saas-paas-iaas`.
+`web-sockets`, `web-workers`, `web-rtc`, `auth`, `microservices`,
+`broadcasting`, `progressive-web-apps`, `cloud computing`, `saas-paas-iaas`.
 
 ### [07. Lo que todo Front-End debe saber del Back-End]()
 
@@ -239,11 +249,19 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 - Autor: _L. Montero_
 - Tiempo estimado: _3 semanas_
 
-Los **Paradigmas de Programación** (_Programming Paradigms_) son formas diferentes
-de pensar en cómo se organiza un programa basado en una serie de principios, los
-cuales resultan en estilos muy distintos y lenguages muy diversos.
+Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
+diferentes de pensar en cómo se organiza un programa basado en una serie de
+principios, los cuales resultan en estilos muy distintos y lenguages muy
+diversos.
 
-En este curso formarás parte de un equipo responsable de extender la funcionalidad de un juego de dos dimensiones escrito en JavaScript. Tu equipo tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code reviews. Todo el flujo de trabajo será a través de un repositorio alojado en GitHub. Durante la primera semana tu equipo tendrá que extender el juego heredando del prototipo de un constructor ya implementado, mientras que en la segunda semana tendrán que refactorizar el código de la primera semana usando el paradigma funcional.
+En este curso formarás parte de un equipo responsable de extender la
+funcionalidad de un juego de dos dimensiones escrito en JavaScript. Tu equipo
+tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code
+reviews. Todo el flujo de trabajo será a través de un repositorio alojado en
+GitHub. Durante la primera semana tu equipo tendrá que extender el juego
+heredando del prototipo de un constructor ya implementado, mientras que en la
+segunda semana tendrán que refactorizar el código de la primera semana usando
+el paradigma funcional.
 
 * **Extender video juego 2d**: En este curso formarás parte de un equipo
   responsable de extender la funcionalidad de un juego 2d. **Tu equipo tendrá
@@ -286,23 +304,23 @@ Main Tags: `react`, `jsx`, `webpack`, `babel`, `jest`.
 
 Secondary Tags: `es6`, `fp`, `components`, `virtual-dom`.
 
-### [10. Hackathon: Auto-aprendizaje Front-End Frameworks]
+### 10. Hackathon: Auto-aprendizaje Front-End Frameworks
 
 - Track: _Front-End Development_
 - Autor: _???_
 - Tiempo estimado: _1 a 2 semanas_
 
-El desarrollo de productos con JavaScript involucra muchos conceptos y mucho código,
-sin embargo, hay soluciones que ya han sido probadas en el desarrollo de diversos
-proyectos que nos dan una estructura y flujo definido, de tal manera que implementarlo
-nos permite despreocuparnos de algunos detalles, a esto se conoce como
-Framework, y como todo en tecnología, no hay solo una alternativa, sino, una
-gama de diversas opciones que nos permiten llegar a la mejor solución. Como
-curso final del track de `Front End Development`, se verán 2 conceptos
-fundamentales: `Data Binding` y `Virtual DOM`, con esto durante una semana se
-llevará a cabo una hackathon en la cual el reto será desarrollar un producto
-(debajo se muestra un ejemplo de complejidad) usando alguna librería y/o
-framework moderno de JS.
+El desarrollo de productos con JavaScript involucra muchos conceptos y mucho
+código, sin embargo, hay soluciones que ya han sido probadas en el desarrollo
+de diversos proyectos que nos dan una estructura y flujo definido, de tal
+manera que implementarlo nos permite despreocuparnos de algunos detalles, a
+esto se conoce como Framework, y como todo en tecnología, no hay solo una
+alternativa, sino, una gama de diversas opciones que nos permiten llegar a la
+mejor solución. Como curso final del track de `Front End Development`, se
+verán 2 conceptos fundamentales: `Data Binding` y `Virtual DOM`, con esto
+durante una semana se llevará a cabo una hackathon en la cual el reto será
+desarrollar un producto (debajo se muestra un ejemplo de complejidad) usando
+alguna librería y/o framework moderno de JS.
 
 * **Kickstarter clone**: El entregable de este curso será la réplica del flujo
   del sitio _[Punchstarter](http://embed.wistia.com/deliveries/0c6b0cd041525381d97cd13d43357ec1ddc48520/file.mp4)_
@@ -325,19 +343,24 @@ crear algo nuevo. ¡Eres libre para crear lo que quieras!
 
 ## III. Educación Continua
 
-Los _cursos_ de **educación continua** están dirigidos a un público que trabaja, y
-por lo tanto tiene mucho menos disponibilidad de tiempo. Los cursos de
-educación continua se diseñan pensando en la modalidad `4x4`: 4 semanas de
-duración, dedicando 4hrs/semana: 3hrs/semana presenciales + 1hr/semana de estudio remoto).
+Los _cursos_ de **educación continua** están dirigidos a un público que
+trabaja, y por lo tanto tiene mucho menos disponibilidad de tiempo. Los cursos
+de educación continua se diseñan pensando en la modalidad `4x4`: 4 semanas de
+duración, dedicando 4hrs/semana: 3hrs/semana presenciales + 1hr/semana de
+estudio remoto.
 
-El programa de **Educación Continua** ofrece una selección de cursos que ayude a las egresadas del bootcamp a seguir creciendo como
+El programa de **Educación Continua** ofrece una selección de cursos que ayude
+a las egresadas del bootcamp a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
 carreras como developers.
 
-Como parte de Educación Continua también ofrecemos algunos cursos del Bootcamp para aquellas personas que quieran repasar el contenido nuevamente para consolidar conceptos, o para aquellas personas de otros tracks (e.g. UX Design) que quieran aprender más de JavaScript.
+Como parte de Educación Continua también ofrecemos algunos cursos del Bootcamp
+para aquellas personas que quieran repasar el contenido nuevamente para
+consolidar conceptos, o para aquellas personas de otros tracks
+(e.g. UX Design) que quieran aprender más de JavaScript.
 
-Los cursos que se dictan en el Bootcmap y se vuelven a abrir en Educación Continua son:
-
+Los cursos que se dictan en el Bootcmap y se vuelven a abrir en Educación
+Continua son:
 
 * [Crea tu propia librería usando JavaScript / JS Deep Dive](09-paradigms)
 * [Programming Paradigms](09-paradigms)
@@ -469,8 +492,8 @@ Autor: TBD (_help needed_)
 La ciencia de la computación consiste en el estudio de sistemas computacionales
 sobretodo relacionado con software, esto incluye su teoría, diseño, desarrollo y
 aplicación, dicho esto, en este curso se verán estructura de datos más avanzadas
-que las ya vistas (arreglo y objetos) con el objetivo de entender dónde se aplican
-y bajo que condiciones.
+que las ya vistas (arreglo y objetos) con el objetivo de entender dónde se
+aplican y bajo que condiciones.
 
 * **SCM like Git**: Construcción de un `Source Code Manager` al estilo de git
   que permita la navegación a través del historial de cambios.
