@@ -46,4 +46,4 @@ Adicionalmente el autor Golden Krishna en su libro [The best interface is not in
 
 ***
 
-[Continuar]()
+[Continuar](04-navegacion.md)

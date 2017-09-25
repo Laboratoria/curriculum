@@ -32,4 +32,4 @@ Luego de ver el video, intenta responder las siguientes preguntas:
 
 *** 
 
-[Continuar]()
+[Continuar](02-ux-design.md)
