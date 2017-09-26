@@ -51,18 +51,18 @@ de selección del DOM puedo utilizar?**
 
 **5) Para acceder a elementos de mi página web que tienen la misma etiqueta HTML,
  ¿Qué método/métodos del DOM puedo utilizar?**
-    1. .getElementsByTagName()
-    2. .getElementsByClassName();
-    3. .getElementById();
-    5. .querySelector();
+  1. .getElementsByTagName()
+  2. .getElementsByClassName();
+  3. .getElementById();
+  5. .querySelector();
 
 <solution style="display:none;">1</solution>
 
 **6) Selecciona los objetos del BOM**
-    1. Location
-    2. Screen
-    3. HTMLtags
-    4. Navigator
+  1. Location
+  2. Screen
+  3. HTMLtags
+  4. Navigator
 
 <solution style="display:none;">1,2,4</solution>
 
