@@ -47,14 +47,14 @@ como profesionales y expertos de la industria.
 
 Los _cursos_ se dividen en 3 _fases_:
 
-* [**Prep**](#prep): cursos online, de 20 a 30 horas, que se toman **antes**
+* [**Prep**](#i-prep): cursos online, de 20 a 30 horas, que se toman **antes**
 de ingresar a Laboratoria como parte del proceso de selección
 
-* [**Bootcamp**](#bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
-requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día)
-+ 10 horas remoto (2hrs/día)
+* [**Bootcamp**](ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
+requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
+10 horas remoto (2hrs/día)
 
-* [**Educación continua**](#educación-continua): cursos de 4 semanas, blended,
+* [**Educación continua**](iii-educación-continua): cursos de 4 semanas, blended,
 que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
 (1 sesión de 3hrs cada semana) + 1 hora/semana remoto
 
@@ -89,8 +89,8 @@ nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primero
 pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
 fundamentos de `JavaScript`, el lenguaje de programación más popular de la Web.
 
-Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops`
-y `funciones`
+Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops`,
+`funciones`
 
 ***
 
@@ -104,7 +104,7 @@ una serie común de cursos para todas las alumnas, que forman parte del
 `Common Core`, y luego continúa en uno de dos tracks de especialización:
 `Front-End Developer` y `UX Designer`.
 
-### [02. Programación básica con JavaScript: JS Deep Dive](02-basic-programming)
+### [02. Programación básica con JavaScript](02-basic-programming)
 
 - Track: _Common Core_
 - Autor: _R. Prieto_
@@ -172,7 +172,7 @@ Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`,
 Secondary tags: `big-o`, `time-complexity`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `information-architecture`.
 
-### [05. Crea tu propia librería usando JavaScript]()
+### [05. Crea tu propia librería usando JavaScript: JS Deep Dive]()
 
 - Track: _Front-End Development_
 - Autor: _Belén Recabal & Iván Medina_
