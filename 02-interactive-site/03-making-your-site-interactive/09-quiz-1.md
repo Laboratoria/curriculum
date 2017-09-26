@@ -20,17 +20,17 @@
 <solution style="display:none;">3</solution>
 
 **2) En la siguiente imagen:**
-***
-    ![snnipet1_Código_HolaMundo.](03-quiz1.png)
-***
+
+![snnipet1_Código_HolaMundo.](03-quiz1.png)
+
 **El texto "¡Hola Mundo! ¡La programación es muy cool :3 !" entre las etiquetas
  h1, corresponde a un nodo tipo ______.**
-    1. Condicional.
-    2. Texto.
-    3. Elemento.
-    4. Atributo.
+  1. Condicional.
+  2. Texto.
+  3. Elemento.
+  4. Atributo.
 
-    <solution style="display:none;">2</solution>
+<solution style="display:none;">2</solution>
 
 **3) El DOM permite A lxs programadorxs:**
     1. Entrar a los elementos de una página html y modificar sus propiedades.
