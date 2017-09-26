@@ -317,11 +317,11 @@ La propiedad `display: none` quita el elemento para que este no se muestre en pa
 ##### ¿Cuál la diferencia entre "display: none" y "visibility: hidden"?
 Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, existe una diferencia muy importante:
 
-- `display: none`: quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
+- `display: none` quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
 
   ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
 
-- `visibility: hidden`: oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
+- `visibility: hidden` oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
 
   ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
 
