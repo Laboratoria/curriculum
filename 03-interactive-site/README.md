@@ -28,23 +28,23 @@ El propósito de este curso es aplicar lo que sabes de la programación a
 productos que viven en la web. En este curso crearás productos web con `html` y
 `css` y le darás interacción por medio de la programación con `JavaScript`.
 
-## Aprenderás:
+## Aprenderás
 
 * A crear una página web estática utilizando las etiquetas principales `html`
-y darle estilo con `css`
+y a darle estilo con `css`
 * Qué es el Document Object Model (DOM) y el Browser Object Model (BOM), y cómo
-utilizar `js` para manipular el `html` y `css` de tu producto
-* Qué es `ux design` y por qué es una pieza clave del desarrollo de un
+utilizar `JavaScript` para manipular el `html` y `css` de tu producto
+* Qué es `ux design` y por qué es una pieza clave para el desarrollo de un
 producto digital
 
 Main Tags:
  `html`, `css properties`, `css selectors`, `dom`, `bom`, `events`, `ux design`.
 
 Secondary Tags:
- `display`, `box model`, `positioning`, `layout`, `sketching`
+ `display`, `box model`, `positioning`, `layout`, `sketching`.
 
 ## Duración
-85 hrs aprox.
+125 hrs aprox.
 
 ## Productos a desarrollar
 
@@ -52,7 +52,7 @@ Con este curso desarrollarás tus primeros productos digitales. Pondrás en
 práctica los conocimientos aprendidos para crear los siguientes productos web:
 
 1. **Portafolio**: crearás tu página web personal para mostrar tu información
-profesional a través de la web
+profesional a través de la web.
 
 2. **Juego Laberinto**: ¡crearás tu primer juego animado! El jugador debe
 mover al personaje principal utilizando las flechas del teclado y encontrar
@@ -66,7 +66,7 @@ estudiante de Laboratoria.
 
 ### [01: Maquetado web con HTML & CSS](02-html-and-css)
 
-20hrs
+55hrs
 
 Para crear un producto web interactivo, primero debemos aprender a maquetar.
 En esta unidad veremos cómo crear la estructura de un sitio web con `html` y
@@ -75,22 +75,25 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 30min | Apertura
-| 02 | lectura | 30min | HTML
-| 03 | lectura | 30min | Intro a CSS
-| 04 | lectura | 30min | Casos prácticos
-| 05 | cuestionario | 30min | Quiz
-| 06 | seminario | 120min | Revisión de conceptos
-| 07 | taller | 120min |  Ejercicios guiados
-| 08 | práctica | 8hrs | Retos de código (portafolio)
-| 09 | seminario | 120min | Solucionario retos de código
-| 10 | cuestionario | 30min | Requiz
-| 11 | cuestionario | 10min | Auto-evaluación
-| 12 | seminario | 30min | Cierre
+| 00 | lectura | 15min | Apertura
+| 01 | lectura | 4h | HTML
+| 02 | lectura | 4h | CSS
+| 03 | lectura | 1h | Box Model y Display
+| 04 | lectura | 1h | Positioning y Floats
+| 05 | lectura | 1h | Tipografía e íconos
+| 06 | lectura | 1h | Casos prácticos
+| 07 | cuestionario | 30min | Quiz
+| 08 | seminario | 3h | Revisión de conceptos
+| 09 | taller | 9h |  Ejercicios guiados
+| 10 | práctica | 24h | Retos de código (portafolio)
+| 11 | seminario | 6h | Solucionario retos de código
+| 12 | cuestionario | 30min | Requiz
+| 13 | cuestionario | 10min | Auto-evaluación
+| 14 | seminario | 30min | Cierre
 
 ### [03: Creando interacción con JavaScript](03-making-your-site-interactive)
 
-15 hrs
+35 hrs
 
 Es el momento de mezclar la programación con el maquetado para hacer que
 nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
@@ -141,7 +144,7 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 
 ### [05: Data Dashboard](05-data-dashboard)
 
-35hrs
+20hrs
 
 El reto final de este curso es crear una web interactiva, de complejidad media,
 que muestre los datos y el perfil de una estudiante de Laboratoria. Debes hacer
@@ -150,29 +153,36 @@ con todo!
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 60 min | Organizando mis tareas
-| 02 | lectura | 60 min | Box Model & Layouting
-| 03 | práctica | 24 hrs | Data Dashboard
-| 04 | taller | 5 hrs | Code Review (Peer + Teacher)
-| 05 | taller | 2 hrs |  Solucionarios
-| 06 | taller | 3 hrs |  Retrospectiva
+| 01 | lectura | 1h | Organizando mis tareas
+| 02 | práctica | 14h | Data Dashboard
+| 03 | taller | 2h | Code Review (Peer + Teacher)
+| 04 | taller | 2h |  Solucionarios
+| 05 | taller | 1h |  Retrospectiva
 
-* * *
+***
 
 ## Evaluación técnica
 * Quizzes: 5%
-* Requizzes: 15%
-* Retos: 50%
+* Requizzes: 10%
+* Retos
+  * Twitter: 5%
+  * Lyft: 5%
+  * Freelacer: 5%
+  * Laberinto: 10%
+  * Trello: 10%
+  * Twitter interactivo: 10%
+  * Reto UX: 10%
 * Producto final (Data Dashboard): 30%
 
-## Contributors
+## Contribuidores
 
-* Elizabeth Portilla
-* Emmanuel Orozco
 * Lalo Gonzalez
 * Michelle Seguil
 * Lourdez Vilchez
 * Ruth Salvador
+* Emmanuel Orozco
+* Elizabeth Portilla
+* Ivan Medina
 * Rodulfo Prieto
 
 ## Libros de consulta

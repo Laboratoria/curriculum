@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `2h`
+- Duración: `4h`
 
 ***
 
@@ -21,7 +21,7 @@ En el curso de `Introducción a la Programación` creaste tu primer website.
 Aprendiste a crear un archivo HTML y a vincularlo con tu archivo JavaScript.
 En esta lección profundizaremos más en HTML.
 
-Revisando directamente la documentación del [Mozzilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
+Revisando directamente la documentación del [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
 tenemos lo siguiente:
 
 > HTML (HyperText Markup Language) no es un lenguaje de programación, es un
@@ -92,7 +92,7 @@ Al abrir este documento en el navegador tendremos lo siguiente:
 
 ## Elementos bloque vs. en línea
 
-Regresemos a la lectura de HTML del [Mozzilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar).
+Regresemos a la lectura de HTML del [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar).
 Nos dice:
 
 > Existen dos importantes categorías de elementos en HTML: elementos a nivel de
@@ -104,7 +104,7 @@ y cualquier contenido que venga después también aparecerá en una nueva línea
 Los elementos a nivel de bloque tienden a ser elementos estructurales en la
 página que representan por ejemplo párrafos, listas, menús de navegación,
 pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro
-de un elemento en en línea, pero podría estar anidado dentro de otro elemento
+de un elemento en línea, pero podría estar anidado dentro de otro elemento
 a nivel de bloque.
 >
 > * Los elementos en línea son aquellos que están contenidos dentro de
@@ -177,8 +177,8 @@ En el caso del ejemplo anterior, podemos visualizar tres
 atributos: el atributo `href`, el atributo `target` y el atributo `title`.
 
 * El atributo `href` especifica la dirección web que quieres que el enlace
-apuente; es decir, donde el navegador navega cuando se le hace clic. En este
-ejemplo vemos que apunta a la página de inicio de laboratoria:
+apunte; es decir, donde el navegador navega cuando se le hace clic. En este
+ejemplo vemos que apunta a la página de inicio de Laboratoria:
 http://laboratoria.la/
 
 * El atributo `target` especifica el contexto de navegación que será usado
@@ -273,7 +273,7 @@ Para definir un comentario en un archivo html, usamos las etiquetas `<!--` para
 arbrir el comentario y `-->` para cerrarlo.
 
 ```html
-    <!-- Esto es un comentario. No se verá en la web, pero sí en mi código. -->
+<!-- Esto es un comentario. No se verá en la web, pero sí en mi código. -->
 ```
 
 ## Replicando la página de Grace Hopper de wikipedia

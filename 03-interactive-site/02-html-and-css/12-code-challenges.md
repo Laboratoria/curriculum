@@ -20,14 +20,9 @@ tu remoto y publicar tu resultado final en `gh-pages`.
 
 ## 1. Twitter
 * [Intrucciones Reto Twitter]()
-* [Repositorio boilerplate Twitter]()
 
 ## 2. Lyft
 * [Intrucciones Reto Lyft]()
-* [Repositorio boilerplate Lyft]()
 
 ## 3. Freelancer
 * [Intrucciones Reto Freelancer]()
-* [Repositorio boilerplate Freelancer]()
-
-## Criterio de evaluación

@@ -18,7 +18,7 @@ Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
 
 ### 1. Banderas Display
 
-Replica las siguientes vistasponiendo en práctica tus conocimientos de `display`. Debes utilizar únicamente `display`, no puedes utilizar `positioning` ni `floats`
+Replica las siguientes vistas poniendo en práctica tus conocimientos de `display`. Debes utilizar únicamente `display`, no puedes utilizar `positioning` ni `floats`
 
 ![Vistas Banderas]()
 
@@ -36,7 +36,7 @@ Replica las siguiente imagenes poniendo en práctica tus conocimientos de `posit
 
 ### 4. CSS Positioning 101, por [Noah Stokes](https://alistapart.com/author/nstokes)
 
-Replica todas los ejemplos de layouts (`Examples A - J`) del siguiente artículo: [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
+Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo: [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
 ### 5. Nuestras coders
 Replica el siguiente esquema
@@ -45,7 +45,7 @@ Replica el siguiente esquema
 
 ### 6. Pinterest (maquetado)
 
-Crea una réplica de [Pinterest](https://laboratoria.github.io/pinterestify/) con las imáges que más te gusten :)
+Crea una réplica de [Pinterest](https://laboratoria.github.io/pinterestify/) con las imágenes que más te gusten :)
 
 ### 7. Tipografías e íconos
 Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts (Sugerencia Google Fonts). Puedes utilizar las tipografías iconográficas de tu preferencia.
@@ -64,8 +64,8 @@ Debes clonar este repositorio _boilerplate_, crear un repositiorio remoto en Git
 2. Obten el URL del repositorio _boilerplate_ haciendo clic en el botón verde "clone or download"
 3. En tu línea de comandos, clona el repositorio _boilerplate_ y vincúlalo con tu repositorio remoto. Para hacer esto debes usar los comandos `git clone`, `git remote add` y `git push` que se muestran a continuación:
 
-```js
-~ git clone <URL del repositorio _boilerplate_ de Laboratoria>
-~ git remote add origin <URL del repositorio remoto que creaste en GitHub>
-~ git push origin master
+```bash
+$ git clone <URL del repositorio _boilerplate_ de Laboratoria>
+$ git remote add origin <URL del repositorio remoto que creaste en GitHub>
+$ git push origin master
 ```

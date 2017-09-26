@@ -1,6 +1,7 @@
 # Quiz #1
+
 - Tipo: `quiz`
-- Formato: `guided-learning`
+- Formato: `guiado`
 - Duración: `30min`
 
 ## Objetivos
@@ -15,6 +16,4 @@ que realmente estás aprendiendo. ¡Mucho éxito!
 
 _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
-
 ***
-[Continuar](10-lecture.md)
