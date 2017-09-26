@@ -50,11 +50,11 @@ Los _cursos_ se dividen en 3 _fases_:
 * [**Prep**](#i-prep): cursos online, de 20 a 30 horas, que se toman **antes**
 de ingresar a Laboratoria como parte del proceso de selección
 
-* [**Bootcamp**](ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
+* [**Bootcamp**](#ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
 requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
 10 horas remoto (2hrs/día)
 
-* [**Educación continua**](iii-educación-continua): cursos de 4 semanas, blended,
+* [**Educación continua**](#iii-educación-continua): cursos de 4 semanas, blended,
 que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
 (1 sesión de 3hrs cada semana) + 1 hora/semana remoto
 
