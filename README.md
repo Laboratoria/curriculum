@@ -104,7 +104,7 @@ una serie común de cursos para todas las alumnas, que forman parte del
 `Common Core`, y luego continúa en uno de dos tracks de especialización:
 `Front-End Developer` y `UX Designer`.
 
-### [02. Programación básica con JavaScript](02-basic-programming)
+### 02. Programación básica con JavaScript
 
 - Track: _Common Core_
 - Autor: _R. Prieto_
@@ -131,7 +131,7 @@ tarjeta de crédito es válida según el
 2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
 el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
-### [03. Creando tu primer sitio web interactivo](03-interactive-site)
+### 03. Creando tu primer sitio web interactivo
 
 - Track: _Common Core_
 - Autor: _Iván Medina & Lalo Gonzalez_
@@ -155,7 +155,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 `positioning`, `problem solving`, `dom`, `eventos`,
 `git`, `unix shell`, `github-pages`, `flows`, `sketching`.
 
-### [04. Crea tu propia red social]()
+### 04. Crea tu propia red social
 
 - Track: _Common Core_
 - Autor: _Iván Medina & Lalo Gonzalez_
@@ -172,7 +172,7 @@ Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`,
 Secondary tags: `big-o`, `time-complexity`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `information-architecture`.
 
-### [05. Crea tu propia librería usando JavaScript: JS Deep Dive]()
+### 05. Crea tu propia librería usando JavaScript: JS Deep Dive
 
 - Track: _Front-End Development_
 - Autor: _Belén Recabal & Iván Medina_
@@ -195,7 +195,7 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 `function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
 `apply`, `call`, `bind`, `this`.
 
-### [06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota]()
+### 06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota
 
 - Track: _Front-End Development_
 - Autor: _Iván Medina_
@@ -217,7 +217,7 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 `web-sockets`, `web-workers`, `web-rtc`, `auth`, `microservices`,
 `broadcasting`, `progressive-web-apps`, `cloud computing`, `saas-paas-iaas`.
 
-### [07. Lo que todo Front-End debe saber del Back-End]()
+### 07. Lo que todo Front-End debe saber del Back-End
 
 - Track: _Front-End Development_
 - Autor: _Iván Medina_
@@ -243,7 +243,7 @@ Main tags: `sass`, `rails`, `mv* back-end architecture`, `database`, `routing`.
 
 Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 
-### [08. Paradigmas de la programación y Functional JavaScript]()
+### [08. Paradigmas de la programación y Functional JavaScript](09-paradigms)
 
 - Track: _Front-End Development_
 - Autor: _L. Montero_
@@ -282,7 +282,7 @@ Main Tags: `oop`, `fp`, `bundlers`, `prototype`, `inheritance`, `composition`,
 Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 `side effects`, `jest`, `gulp`.
 
-### [09. Introducción a React]()
+### [09. Introducción a React](11-react)
 
 - Track: _Front-End Development_
 - Autor: _M. Crowe_
