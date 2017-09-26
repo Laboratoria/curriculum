@@ -15,7 +15,7 @@
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script>
       const DOM = React.DOM
-      
+
       // HEADER
       function Header(props) {
         return DOM.header(null,
@@ -23,7 +23,7 @@
           DOM.p(null, props.descripcion)
         )
       }
-      
+
       // MAIN SECTION
       function Article(props) {
         return DOM.article(null,
@@ -32,7 +32,7 @@
           DOM.hr(null)
         )
       }
-      
+
       function MainSection(props) {
         const style = {
           width: '70%',
@@ -48,14 +48,14 @@
           articles
         )
       }
-      
+
       // ASIDE
       function AsideLink(props) {
         return DOM.li(null,
           DOM.a({ href: props.href }, props.texto)
         )
       }
-      
+
       function Aside(props) {
         const style = {
           width: '25%',
@@ -71,7 +71,7 @@
           DOM.ul(null, links)
         )
       }
-      
+
       // Integramos todo en un PAGE
       function Page(props) {
         return DOM.div(null,
@@ -89,7 +89,7 @@
           })
         )
       }
-      
+
       const page = Page({
         headerTitulo: 'Getting Started',
         headerDescripcion: 'Descripcion',
@@ -108,7 +108,7 @@
           { href: '#', texto: 'Link 5'}
         ]
       })
-      
+
       ReactDOM.render(
         page,
         document.getElementById('react-container')
