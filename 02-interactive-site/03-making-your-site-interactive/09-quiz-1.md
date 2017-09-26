@@ -11,12 +11,11 @@
 
 ## Preguntas
 ***
-**1) Completa el siguiente enunciado:
-    "Las etiquetas HTML siempre serán nodos de tipo _______."**
-    1. Texto.
-    2. Comentario.
-    3. Elemento.
-    4. Atributo.
+**1) Completa el siguiente enunciado: "Las etiquetas HTML siempre serán nodos de tipo _______.**
+  1. Texto.
+  2. Comentario.
+  3. Elemento.
+  4. Atributo.
 
 <solution style="display:none;">3</solution>
 
