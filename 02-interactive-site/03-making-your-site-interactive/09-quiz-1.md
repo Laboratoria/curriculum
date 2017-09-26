@@ -33,11 +33,10 @@
 <solution style="display:none;">2</solution>
 
 **3) El DOM permite A lxs programadorxs:**
-    1. Entrar a los elementos de una página html y modificar sus propiedades.
-    2. Acceder a los elementos del navegador y modificarlos.
-    3. Dominar el mundo de la programación.
-    4. Crear bucles y condicionales.
-
+  1. Entrar a los elementos de una página html y modificar sus propiedades.
+  2. Acceder a los elementos del navegador y modificarlos.
+  3. Dominar el mundo de la programación.
+  4. Crear bucles y condicionales.
 
 <solution style="display:none;">1</solution>
 
