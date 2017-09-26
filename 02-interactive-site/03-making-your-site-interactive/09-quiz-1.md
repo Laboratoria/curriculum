@@ -13,16 +13,17 @@
 ***
 **1) Completa el siguiente enunciado:
     "Las etiquetas HTML siempre serán nodos de tipo _______."**
-
     1. Texto.
     2. Comentario.
     3. Elemento.
     4. Atributo.
 
 <solution style="display:none;">3</solution>
-**2) En la siguiente imagen:**
-![snnipet1_Código_HolaMundo.](03-quiz1.png)
 
+**2) En la siguiente imagen:**
+***
+    ![snnipet1_Código_HolaMundo.](03-quiz1.png)
+***
 **El texto "¡Hola Mundo! ¡La programación es muy cool :3 !" entre las etiquetas
  h1, corresponde a un nodo tipo ______.**
     1. Condicional.
@@ -30,8 +31,7 @@
     3. Elemento.
     4. Atributo.
 
-
-  <solution style="display:none;">2</solution>
+    <solution style="display:none;">2</solution>
 
 **3) El DOM permite A lxs programadorxs:**
     1. Entrar a los elementos de una página html y modificar sus propiedades.
@@ -42,19 +42,18 @@
 
 <solution style="display:none;">1</solution>
 
-**4)Cuando quiero acceder u obtener un elemento único de mi página web, ¿Qué método/métodos
+**4) ¿Cuando quiero acceder u obtener un elemento único de mi página web, ¿Qué método/métodos
 de selección del DOM puedo utilizar?**
-
     1. .getElementByTagName()
     2. .getElementsByClassName();
     3. .getElementById();
     4. .querySelector();
 
+
 <solution style="display:none;">3</solution>
 
 **5) Para acceder a elementos de mi página web que tienen la misma etiqueta HTML,
  ¿Qué método/métodos del DOM puedo utilizar?**
-
     1. .getElementsByTagName()
     2. .getElementsByClassName();
     3. .getElementById();
@@ -63,7 +62,6 @@ de selección del DOM puedo utilizar?**
 <solution style="display:none;">1</solution>
 
 **6) Selecciona los objetos del BOM**
-
     1. Location
     2. Screen
     3. HTMLtags
@@ -94,6 +92,7 @@ de selección del DOM puedo utilizar?**
   4. .actionListener('_____');
 
 <solution style="display:none;">1</solution>
+
 **10) ¿Qué son los eventos?**
   1. Acciones que realiza el navegador cuando algo no anda bien.
   2. Acciones que se desencadenan a partir de la interacción del usuario con
