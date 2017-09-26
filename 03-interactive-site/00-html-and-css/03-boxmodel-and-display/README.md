@@ -68,33 +68,14 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
 
 - Si solo se indica **un valor**:
   - **Todos** los rellenos tienen ese valor
-<<<<<<< HEAD
-  ```CSS
-=======
 
   ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
   div {
     padding: 2em;
   }
 
   /* Todos los rellenos valen 2em */
   ```
-<<<<<<< HEAD
-  
-- Si se indican **dos valores**:
-  - El **primero** se asigna al relleno **superior e inferior**
-  - El **segundo** se asigna al **derecho e izquierdo**
-  ```CSS
-  div {
-    padding: 1em 2em;
-  }
- 
-  /* Superior e inferior = 1em, 
-     Izquierdo y derecho = 2em */
-  ```
-  
-=======
 
 - Si se indican **dos valores**:
   - El **primero** se asigna al relleno **superior e inferior**
@@ -111,30 +92,16 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
    */
   ```
 
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 - Si se indican **tres valores**:
   - El **primero** se asigna al relleno **superior**
   - El **segundo** valor se asigna al **derecho e izquierdo**
   - El **tercero** se asigna al relleno **inferior**
-<<<<<<< HEAD
-  ```CSS
-=======
 
   ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
   div {
     padding: 1em 2em 3em;
   }
 
-<<<<<<< HEAD
-  /* Superior = 1em, Derecho = 2em, 
-     Inferior = 3em, Izquierdo = 2em */
-  ```
-  
-- Si se indican los **cuatro valores**:
-  - Se asignarán los rellenos en **orden horario**, de la siguiente forma: superior, derecho, inferior e izquierdo.
-  ```CSS
-=======
   /*
    * Superior = 1em, Derecho = 2em,
    * Inferior = 3em, Izquierdo = 2em
@@ -145,20 +112,14 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
   - Se asignarán los rellenos en **orden horario**, de la siguiente forma: superior, derecho, inferior e izquierdo.
 
   ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
   div {
     padding: 1em 2em 3em 4em;
   }
 
-<<<<<<< HEAD
-  /* Superior = 1em, Derecho = 2em, 
-     Inferior = 3em, Izquierdo = 4em */
-=======
   /*
    * Superior = 1em, Derecho = 2em,
    * Inferior = 3em, Izquierdo = 4em
    */
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
   ```
 
 ### Border
@@ -191,26 +152,17 @@ CSS define la propiedad de tipo "shorthand" global para establecer el valor de t
 
 Su valor se puede definir en: **anchura de borde + estilo de borde + color de borde**, o `inherit`(especifica que el borde debe ser heredado del elemento padre).
 Veamos el siguiente ejemplo:
-<<<<<<< HEAD
-```CSS
-=======
 
 ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 div {
   border: 1px solid blue;
 }
 ```
 >De esta forma, con la propiedad `border` hemos asignado el **ancho**, **estilo** y **color** de borde para todos los cuatro lados de la caja del elemento `div`.
 
-<<<<<<< HEAD
-También, tenemos la posibilidad de asignar los valores(ancho, estilo y color) para un lado en especial de la siguiente manera:
-```CSS
-=======
 También, tenemos la posibilidad de asignar los valores (ancho, estilo y color) para un lado en especial de la siguiente manera:
 
 ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 div {
   border-top: 1px solid blue;
   border-right: 1px solid blue;
@@ -237,26 +189,11 @@ CSS define cuatro propiedades para controlar cada uno de los espacios de margen 
 También podemos usar la propiedad de tipo "shorthand" llamada `margin` para establecer los cuatro márgenes de un elemento de forma simultánea.
 Esto significa que admite entre uno y cuatro valores, al igual que la propiedad `padding`, la cual vimos anteriomente.
 
-<<<<<<< HEAD
-```CSS
-=======
 ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 div {
   margin: 5em 4em 3em 2em;
 }
 
-<<<<<<< HEAD
-/* Superior = 5em, Derecho = 4em, 
-   Inferior = 3em, Izquierdo = 2em */
-```
-### Otras propiedades
-
-##### Background image (___imagen de fondo___)
-Es la imagen que se muestra por detrás del _contenido_ y el espacio de _relleno_.
-
-##### Background color (___color de fondo___)
-=======
 /*
  * Superior = 5em, Derecho = 4em,
  * Inferior = 3em, Izquierdo = 2em
@@ -269,7 +206,6 @@ Es la imagen que se muestra por detrás del _contenido_ y el espacio de _relleno
 Es la imagen que se muestra por detrás del _contenido_ y el espacio de _relleno_.
 
 ##### Background color (_color de fondo_)
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 Es el color que se muestra por detrás del _contenido_ y el espacio de _relleno_.
 
 >Padding y Margin son transparentes, el espacio ocupado por el relleno se muestra la imagen o el color de fondo (si están definidos) y en el espacio ocupado por el margen se muestra la imagen o el color de fondo de su elemento padre (si están definidos).
@@ -278,35 +214,21 @@ Es el color que se muestra por detrás del _contenido_ y el espacio de _relleno_
 
 ## Anchura y Altura
 
-<<<<<<< HEAD
-### Width (___ancho___)
-=======
 ### Width (_ancho_)
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 Controla el ancho de la caja o de un elemento.
 
 ![width](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
 
 Su valor se puede definir en: **Unidades de medida**, **porcentaje**, `auto` o `inherit`. Siendo como valor inicial `auto` .
-<<<<<<< HEAD
-La propiedad **width** no admite valores negativos y los valores en porcentaje se calculan a partir de la anchura de su elemento padre. 
-
-```CSS
-=======
 La propiedad **width** no admite valores negativos y los valores en porcentaje se calculan a partir de la anchura de su elemento padre.
 
 ```css
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 div {
   width: 200px;
 }
 ```
 
-<<<<<<< HEAD
-### Height (___alto___)
-=======
 ### Height (_alto_)
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 Controla la altura de la caja o de un elemento.
 
 ![height](https://fotos.subefotos.com/4395164aa663621f860b4d12c2d8fcd5o.png)
@@ -351,11 +273,7 @@ div {
 
 >También podemos utilizar el valor `inherit`, que es el valor que hereda esta propiedad de su elemento padre.
 
-<<<<<<< HEAD
-## Display 
-=======
 ## Display
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 
 ### ¿Qué es la propiedad display?
 Establece el tipo de caja generada por un elemento.
@@ -367,11 +285,7 @@ Establece el tipo de caja generada por un elemento.
 La propiedad `display: inline` hace que el elemento tenga como naturaleza posicionarse en línea, es decir que un elemento se coloque al lado del otro y por lo tanto sólo ocupa el espacio necesario para mostrar sus contenidos:
 
 ![inline](https://fotos.subefotos.com/46ddc8db6addcac25aaf5d1b79275232o.png)
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 Sus características son:
 - Se ajusta al flujo del texto
 - No salta a la siguiente línea
@@ -401,17 +315,13 @@ La propiedad `display: inline-block` mezcla lo mejor de ambos mundos haciendo qu
 La propiedad `display: none` quita el elemento para que este no se muestre en pantalla.
 
 ##### ¿Cuál la diferencia entre "display: none" y "visibility: hidden"?
-<<<<<<< HEAD
-Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, existe una diferencia muy importante: 
-=======
 Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, existe una diferencia muy importante:
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
 
-- `display: none`: quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
+- `display: none` quita el elemento definitivamente del espacio que ocupaba y es reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
 
   ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
 
-- `visibility: hidden`: oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
+- `visibility: hidden` oculta el elemento, pero sigue conservando el espacio que ocupaba, mientras que los elementos adyacentes conservan su ubicación.
 
   ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
 
@@ -420,7 +330,3 @@ Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, ex
 ![tabla](https://fotos.subefotos.com/2f98e72e47be9d3131f0b82e732c518fo.png)
 
 >[Aprender más sobre `display`.](http://librosweb.es/referencia/css/display.html)
-<<<<<<< HEAD
-
-=======
->>>>>>> 79746eea79576457f8744d4b736fcf724026dd00
