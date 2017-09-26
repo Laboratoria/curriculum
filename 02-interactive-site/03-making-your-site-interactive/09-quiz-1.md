@@ -42,11 +42,10 @@
 
 **4) ¿Cuando quiero acceder u obtener un elemento único de mi página web, ¿Qué método/métodos
 de selección del DOM puedo utilizar?**
-    1. .getElementByTagName()
-    2. .getElementsByClassName();
-    3. .getElementById();
-    4. .querySelector();
-
+  1. .getElementByTagName()
+  2. .getElementsByClassName();
+  3. .getElementById();
+  4. .querySelector();
 
 <solution style="display:none;">3</solution>
 
