@@ -1,4 +1,4 @@
-# Positioning and Floats
+# Positioning & Floats
 - Formato: `self-learning`
 - Tipo: `lectura`
 - Duración: `30min`
