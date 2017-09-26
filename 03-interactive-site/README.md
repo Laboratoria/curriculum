@@ -64,7 +64,7 @@ estudiante de Laboratoria.
 
 ## Syllabus
 
-### [01: Maquetado web con HTML & CSS](02-html-and-css)
+### [01: Maquetado web con HTML & CSS](00-html-and-css)
 
 55hrs
 
@@ -91,7 +91,7 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 13 | cuestionario | 10min | Auto-evaluación
 | 14 | seminario | 30min | Cierre
 
-### [03: Creando interacción con JavaScript](03-making-your-site-interactive)
+### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
 
 35 hrs
 
@@ -115,7 +115,7 @@ nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
 | 12 | cuestionario | 10min | Auto-evaluación
 | 13 | seminario | 30min | Cierre
 
-### [04: Intro a User Experience Design](04-ux-design)
+### [04: Intro a User Experience Design](02-ux-design)
 
 15hrs
 
@@ -142,7 +142,7 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 | 14 | cuestionario | 10min | Auto-evaluación
 | 15 | seminario | 30min | Cierre
 
-### [05: Data Dashboard](05-data-dashboard)
+### [05: Data Dashboard](03-data-dashboard)
 
 20hrs
 
