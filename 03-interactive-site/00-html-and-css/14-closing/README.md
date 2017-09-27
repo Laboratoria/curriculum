@@ -1,6 +1,7 @@
-# Closing:
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
+# Closing: HTML & CSS
+
+- Tipo: `seminario`
+- Formato: `guiado`
 - Duración: `120min`
 
 ## Agenda

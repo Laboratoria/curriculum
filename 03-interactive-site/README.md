@@ -28,7 +28,7 @@ El propósito de este curso es aplicar lo que sabes de la programación a
 productos que viven en la web. En este curso crearás productos web con `html` y
 `css` y le darás interacción por medio de la programación con `JavaScript`.
 
-## Aprenderás:
+## Aprenderás
 
 * A crear una página web estática utilizando las etiquetas principales `html`
 y a darle estilo con `css`
@@ -64,7 +64,7 @@ estudiante de Laboratoria.
 
 ## Syllabus
 
-### [01: Maquetado web con HTML & CSS](02-html-and-css)
+### [01: Maquetado web con HTML & CSS](00-html-and-css)
 
 55hrs
 
@@ -75,6 +75,7 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
+<<<<<<< HEAD
 | 01 | lectura | 15min | Apertura
 | 02 | lectura | 4h | HTML
 | 03 | lectura | 4h | CSS
@@ -92,6 +93,25 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 16 | seminario | 30min | Cierre
 
 ### [03: Creando interacción con JavaScript](03-making-your-site-interactive)
+=======
+| 00 | lectura | 15min | Apertura
+| 01 | lectura | 4h | HTML
+| 02 | lectura | 4h | CSS
+| 03 | lectura | 1h | Box Model y Display
+| 04 | lectura | 1h | Positioning y Floats
+| 05 | lectura | 1h | Tipografía e íconos
+| 06 | lectura | 1h | Casos prácticos
+| 07 | cuestionario | 30min | Quiz
+| 08 | seminario | 3h | Revisión de conceptos
+| 09 | taller | 9h |  Ejercicios guiados
+| 10 | práctica | 24h | Retos de código (portafolio)
+| 11 | seminario | 6h | Solucionario retos de código
+| 12 | cuestionario | 30min | Requiz
+| 13 | cuestionario | 10min | Auto-evaluación
+| 14 | seminario | 30min | Cierre
+
+### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
+>>>>>>> ab73b99d13faf0827da5f25c87bb1cf56003a5cb
 
 35 hrs
 
@@ -115,7 +135,7 @@ nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
 | 12 | cuestionario | 10min | Auto-evaluación
 | 13 | seminario | 30min | Cierre
 
-### [04: Intro a User Experience Design](04-ux-design)
+### [04: Intro a User Experience Design](02-ux-design)
 
 15hrs
 
@@ -142,7 +162,7 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 | 14 | cuestionario | 10min | Auto-evaluación
 | 15 | seminario | 30min | Cierre
 
-### [05: Data Dashboard](05-data-dashboard)
+### [05: Data Dashboard](03-data-dashboard)
 
 20hrs
 
@@ -159,7 +179,7 @@ con todo!
 | 04 | taller | 2h |  Solucionarios
 | 05 | taller | 1h |  Retrospectiva
 
-* * *
+***
 
 ## Evaluación técnica
 * Quizzes: 5%
@@ -174,7 +194,7 @@ con todo!
   * Reto UX: 10%
 * Producto final (Data Dashboard): 30%
 
-## Contributors
+## Contribuidores
 
 * Lalo Gonzalez
 * Michelle Seguil
