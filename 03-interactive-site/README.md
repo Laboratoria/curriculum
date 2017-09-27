@@ -66,7 +66,7 @@ estudiante de Laboratoria.
 
 ### [01: Maquetado web con HTML & CSS](00-html-and-css)
 
-55hrs
+50-60 hrs
 
 Para crear un producto web interactivo, primero debemos aprender a maquetar.
 En esta unidad veremos cómo crear la estructura de un sitio web con `html` y
@@ -75,53 +75,23 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-<<<<<<< HEAD
 | 01 | lectura | 15min | Apertura
 | 02 | lectura | 4h | HTML
 | 03 | lectura | 4h | CSS
 | 05 | lectura | 1h | Box Model y Display
-<<<<<<< HEAD
-| 06 | lectura | 2h | Positioning y Floats
-| 07 | lectura | 1h | Tipografía e íconos
-| 08 | lectura | 1h | Casos prácticos
-| 09 | cuestionario | 30min | Quiz
-| 10 | seminario | 4h | Revisión de conceptos
-| 11 | taller | 9h |  Ejercicios guiados
-| 12 | práctica | 24h | Retos de código
-=======
-| 06 | lectura | 1h | Positioning y Floats
-| 07 | lectura | 1h | Tipografía e íconos
-| 08 | lectura | 1h | Casos prácticos
-| 09 | cuestionario | 30min | Quiz
-| 10 | seminario | 3h | Revisión de conceptos
-| 11 | taller | 9h |  Ejercicios guiados
-| 12 | práctica | 24h | Retos de código (portafolio)
->>>>>>> 441a522e53ff2f34843e1ca740c01ea526fe8c19
-| 13 | seminario | 6h | Solucionario retos de código
-| 14 | cuestionario | 30min | Requiz
-| 15 | cuestionario | 10min | Auto-evaluación
-| 16 | seminario | 30min | Cierre
-
-### [03: Creando interacción con JavaScript](03-making-your-site-interactive)
-=======
-| 00 | lectura | 15min | Apertura
-| 01 | lectura | 4h | HTML
-| 02 | lectura | 4h | CSS
-| 03 | lectura | 1h | Box Model y Display
-| 04 | lectura | 1h | Positioning y Floats
+| 04 | lectura | 2h | Positioning y Floats
 | 05 | lectura | 1h | Tipografía e íconos
 | 06 | lectura | 1h | Casos prácticos
 | 07 | cuestionario | 30min | Quiz
-| 08 | seminario | 3h | Revisión de conceptos
+| 08 | seminario | 4h | Revisión de conceptos
 | 09 | taller | 9h |  Ejercicios guiados
-| 10 | práctica | 24h | Retos de código (portafolio)
+| 10 | práctica | 24h | Retos de código
 | 11 | seminario | 6h | Solucionario retos de código
 | 12 | cuestionario | 30min | Requiz
 | 13 | cuestionario | 10min | Auto-evaluación
 | 14 | seminario | 30min | Cierre
 
 ### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
->>>>>>> ab73b99d13faf0827da5f25c87bb1cf56003a5cb
 
 35 hrs
 
