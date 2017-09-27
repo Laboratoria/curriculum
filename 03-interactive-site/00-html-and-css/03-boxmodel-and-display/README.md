@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `1h`
 
 ## Objetivos de Aprendizaje
 
@@ -21,7 +21,12 @@ Es hora de conocer uno de los fundamentos más importantes del CSS: `box model` 
 ![box model](https://fotos.subefotos.com/e1001df7d218a9a8a8670d88628f0cc5o.png)
 
 ### ¿Qué es el modelo de cajas?
-El modelo de caja CSS es esencialmente una caja rectangular que rodea cada elemento HTML. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja, la cual encierra los contenidos de ese elemento.
+
+Volviendo a nuestra fuente MDN, en el capítulo tutorial del [modelo de la caja](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas) explica lo siguiente:
+
+> El modelo de cajas es la base del diseño web — cada elemento se representa como una caja rectangular, con su contenido, padding (espacio interior), borde y margen construidos uno sobre otro como las capas de una cebolla. El navegador, para interpretar el diseño de una página, procesa los estilos que se aplicarán a cada caja, el tamaño de las capas de la cebolla y la ubicación de unas cajas con respecto a otras. Antes de comprender cómo crear diseños CSS, debemos entender el modelo de cajas — que es lo que veremos en este artículo.
+
+Dicho de otra manera, el modelo de caja CSS es esencialmente una caja rectangular que rodea cada elemento HTML. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja, la cual encierra los contenidos de ese elemento.
 
 Como ejemplo tenemos la siguiente imagen, la cual muestra tres cajas rectangulares que se crean de las tres etiquetas HTML usadas: `<p>` `<strong>` y nuevamente `<p>`.
 
@@ -329,4 +334,9 @@ Ambos atributos permiten "esconder" un elemento en el navegador. Sin embargo, ex
 
 ![tabla](https://fotos.subefotos.com/2f98e72e47be9d3131f0b82e732c518fo.png)
 
->[Aprender más sobre `display`.](http://librosweb.es/referencia/css/display.html)
+## Lecturas complementarias
+
+Continúa leyendo y aprendiendo sobre el modelo de la caja con los siguientes recursos:
+* [Modelo de la caja - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas)
+* [Modelo de la Caja - Libros Web](http://librosweb.es/libro/css/capitulo_4.html)
+* [Display - Libros Web](http://librosweb.es/referencia/css/display.html)
