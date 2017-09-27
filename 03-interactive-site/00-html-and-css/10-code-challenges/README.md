@@ -19,10 +19,10 @@ _boilerplate_, crear un repositiorio remoto en `GitHub`, vincular tu local con
 tu remoto y publicar tu resultado final en `gh-pages`.
 
 ## 1. Twitter
-* [Intrucciones Reto Twitter]()
+* [Intrucciones Reto Twitter](https://github.com/Laboratoria-education/twitter)
 
 ## 2. Lyft
-* [Intrucciones Reto Lyft]()
+* [Intrucciones Reto Lyft](https://github.com/Laboratoria-education/lyft)
 
 ## 3. Freelancer
-* [Intrucciones Reto Freelancer]()
+* [Intrucciones Reto Freelancer](https://github.com/Laboratoria-education/freelancer)
