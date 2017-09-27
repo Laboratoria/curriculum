@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `1h`
+- Duración: `2h`
 
 ***
 
@@ -29,4 +29,8 @@ de navegación. Tu equipo de diseño te ha pasado estos demos para que repliques
 
 A continuación, Lulu te explica cómo resolvió este reto:
 
-[![Solucionario Menu](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
+### 1. Solución Menú Vertical
+[![Vertical](https://img.youtube.com/vi/tk6DAx5Crn4/0.jpg)](https://www.youtube.com/watch?v=tk6DAx5Crn4)
+
+### 2. Solución Menú Horizontal
+[![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
