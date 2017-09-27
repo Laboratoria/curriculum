@@ -5,10 +5,10 @@
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!
+-_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
 
 
-## Preguntas
+## Preguntas.
 
 ### 1) Completa el siguiente enunciado: "Las etiquetas HTML siempre serán nodos de tipo _______.
 #### Opciones
