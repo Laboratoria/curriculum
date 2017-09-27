@@ -80,6 +80,7 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 02 | lectura | 4h | HTML
 | 03 | lectura | 4h | CSS
 | 05 | lectura | 1h | Box Model y Display
+<<<<<<< HEAD
 | 06 | lectura | 2h | Positioning y Floats
 | 07 | lectura | 1h | Tipografía e íconos
 | 08 | lectura | 1h | Casos prácticos
@@ -87,6 +88,15 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 10 | seminario | 4h | Revisión de conceptos
 | 11 | taller | 9h |  Ejercicios guiados
 | 12 | práctica | 24h | Retos de código
+=======
+| 06 | lectura | 1h | Positioning y Floats
+| 07 | lectura | 1h | Tipografía e íconos
+| 08 | lectura | 1h | Casos prácticos
+| 09 | cuestionario | 30min | Quiz
+| 10 | seminario | 3h | Revisión de conceptos
+| 11 | taller | 9h |  Ejercicios guiados
+| 12 | práctica | 24h | Retos de código (portafolio)
+>>>>>>> 441a522e53ff2f34843e1ca740c01ea526fe8c19
 | 13 | seminario | 6h | Solucionario retos de código
 | 14 | cuestionario | 30min | Requiz
 | 15 | cuestionario | 10min | Auto-evaluación
