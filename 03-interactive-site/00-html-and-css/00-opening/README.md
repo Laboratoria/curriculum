@@ -50,3 +50,5 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - [ ] ¿Para qué sirve el atributo style de los elementos `html`? ¿Cuál es la
 forma correcta de usarlo?
 - [ ] ¿Qué es un selector? ¿Qué es un pseudo-selector?
+- [ ] ¿Qué es colapso de margen? Explícalo con un ejemplo y un dibujo
+- ¿Cómo es el flujo normal de un documento?
