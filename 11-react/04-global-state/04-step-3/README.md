@@ -1,10 +1,10 @@
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
-
 # React + Redux = Awesome!!!
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 ## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI (**Single source of truth**)
 
@@ -16,12 +16,12 @@ Piensa en todas las piezas de información que tiene nuestra aplicación:
   * El texto de búsqueda que ingresa el usuario
   * El valor del checkbox
   * La lista filtrada de productos
-  
+
 Ahora hacemos la integración de React con Redux para comenzar con este estado global.
 
 > No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas luego desarrollar tus propios actions y reducers
 
-Aquí es donde entra en acción Redux. 
+Aquí es donde entra en acción Redux.
 
 Primero (3.1) creamos un nuevo archivo `lib/store.js` que contendrá la configuración de nuestro Redux store
 
@@ -70,7 +70,7 @@ const INIT_STATE = {
   inStockOnly: false,
   // La lista filtrada de productos
   filteredProducts: PRODUCTS,
-  
+
   // y heredamos las propiedades para la barra lateral
   asideTitulo: 'Links',
   asideLinks: [
@@ -85,7 +85,7 @@ const INIT_STATE = {
 // nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor inicial
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
-      
+
   default:
     return state
   }
@@ -174,3 +174,9 @@ export default MainWithRedux
 Y lo segundo es indicar en `index.js` que ya no queremos usar `lib/components/Main`, sino su versión mejorada `lib/Main`.
 
 > Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate cómo eso se refleja en tu interfaz!
+
+---
+sources:
+  - https://facebook.github.io/react/docs/thinking-in-react.html
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+---

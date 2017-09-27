@@ -1,5 +1,11 @@
 # Babel: caso de uso real
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## Intro
 
 Tomemonos un segundo para analizar qué hace y cómo está funcionando `babel`

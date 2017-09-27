@@ -1,5 +1,11 @@
 # Ejercicio
 
+* Tipo: `práctica`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 Vamos a crear un componente `CuentaRegresiva` que esté compuesto por un
 componente `BarraDeProgreso` que exponga un método `setProgreso(progreso)` y
 muestre una barra de diferente longitud, dependiendo del porcentaje, que indice

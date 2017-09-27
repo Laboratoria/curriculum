@@ -174,15 +174,15 @@ y valores por defectos.
 Luego analizaremos la propiedad especial `children` y como manipularla con
 `.map` y `.filter`.
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |   10min  | Props: `propTypes` y `defaultProps`
-|   2   | code   |   10min  | Ejercicio: `propTypes` y `defaultProps`
-|   3   | texto  |   10min  | `children` property y `React.Children` utils
-|   4   | code   |   10min  | Ejercicio: usando `children`
-|   5   | qa     |   10min  | Re-cap
-|   6   | texto  |   10min  | Higher-order components (HOC)
-|   7   | texto  |   10min  | Componentes presentacionales vs Componentes contenedores
+| Orden |  Tipo     | Duración | Descripción
+|-------|-----------|----------|------------
+|   1   | lectura   |   10min  | Props: `propTypes` y `defaultProps`
+|   2   | práctica  |   10min  | Ejercicio: `propTypes` y `defaultProps`
+|   3   | lectura   |   10min  | `children` property y `React.Children` utils
+|   4   | práctica  |   10min  | Ejercicio: usando `children`
+|   5   | seminario |   10min  | Re-cap
+|   6   | lectura   |   10min  | Higher-order components (HOC)
+|   7   | lectura   |   10min  | Componentes presentacionales vs contenedores
 
 ### Unidad 04: [Estado global](04-global-state)
 

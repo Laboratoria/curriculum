@@ -1,5 +1,11 @@
 # Children (componentes hijos)
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## Intro
 
 Si hacemos una analógica entre `React` y `html`, podemos decir que las `props`

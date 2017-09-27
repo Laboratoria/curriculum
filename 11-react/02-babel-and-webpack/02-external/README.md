@@ -1,4 +1,10 @@
-# Extrayendo el código `js` a su propio archivo
+# Extrayendo el código js a su propio archivo
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
 
 ## Intro
 

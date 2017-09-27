@@ -1,10 +1,10 @@
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
-
 # React + Redux = Awesome!!!
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 ## Paso 4: Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
 
@@ -134,3 +134,9 @@ export default SearchBar
 ```
 
 > Ve a tu navegador y usa el checkbox y escribe en el input. Fijate que en tu interfaz nada cambia, pero si ves dentro de Redux Dev Tools, verás cómo las acciones se van disparando
+
+---
+sources:
+  - https://facebook.github.io/react/docs/thinking-in-react.html
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+---

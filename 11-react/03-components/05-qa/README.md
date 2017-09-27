@@ -1,5 +1,11 @@
 # QA
 
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `10min`
+
+***
+
 ## `PropTypes`
 
 Define los `PropTypes` para los siguientes tipos de `props`

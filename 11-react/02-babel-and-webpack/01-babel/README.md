@@ -1,5 +1,11 @@
 # Babel y ES6
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## ¿Qué es `Babel` y para qué sirve?
 
 `Babel` es un ***transpilador***. Un *transpilador* es un tipo de compilador que

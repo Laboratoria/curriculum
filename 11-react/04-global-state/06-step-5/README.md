@@ -1,10 +1,10 @@
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
-
 # React + Redux = Awesome!!!
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 ## Paso 5: Determina cómo reacciona tu state a las actions disparadas (**Changes are made with pure functions**)
 
@@ -62,7 +62,7 @@ export default (state = INIT_STATE, action) => {
       }
       break;
   }
-  
+
   // Y que sucede con los `filteredProducts`?
   // `filteredProducts` se actualiza cuando cualquiera de las dos acciones
   // es ejecutada
@@ -85,11 +85,11 @@ export default (state = INIT_STATE, action) => {
           action.value :
           // si no usamos el `inStockOnly` del `state`
           state.inStockOnly
-      
+
       // el producto `p` va a la lista de `filteredProducts` si:
       return (
         // el checkbox esta prendido y `p.stocked === true`
-        // si el checkbox esta apagado siempre true 
+        // si el checkbox esta apagado siempre true
         (inStockOnly ? p.stocked : true) &&
         // y el `p.name` matchea `filterText` case insensitive
         p.name.match(new RegExp(filterText, 'ig'))
@@ -101,7 +101,7 @@ export default (state = INIT_STATE, action) => {
       filteredProducts
     }
   }
-  
+
   // Siempre, siempre, siempre, un reducer debe retornar un `state`.
   // En el caso que no reaccione al `action` actual, debe explícitamente
   // devolver el `state` anterior
@@ -125,3 +125,9 @@ Si lo piensas, en realidad, React y Redux no son más que un montón de funcione
 > - Y por último considera cómo evoluciona tu state: qué propiedades de tu state reccionan a qué actions
 >
 > Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y claro, resumido solamente a escribir bloques de markup o lógica muy simple.
+
+---
+sources:
+  - https://facebook.github.io/react/docs/thinking-in-react.html
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+---

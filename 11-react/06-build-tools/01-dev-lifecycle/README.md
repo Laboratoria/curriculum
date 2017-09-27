@@ -1,5 +1,11 @@
 # Ciclo de desarrollo de software
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
+
 Si simplificamos al mínimo el proceso de desarrollo de software, podríamos
 establecer 3 etapas básicas: **Desarrollo**, **empaquetado** y **despliegue**.
 

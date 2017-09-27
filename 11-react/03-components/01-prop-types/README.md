@@ -1,5 +1,11 @@
 # PropTypes
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## Intro
 
 En la lección anterior vimos como, a través de los beneficios de `ES6`, podíamos

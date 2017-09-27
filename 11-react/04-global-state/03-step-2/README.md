@@ -1,10 +1,10 @@
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
-
 # React + Redux = Awesome!!!
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 ## Step 2: Construye una versión estática en React
 
@@ -129,7 +129,7 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
     { href: '#', texto: 'Link 4'},
     { href: '#', texto: 'Link 5'}
   ]
-  
+
   // Definimos estaticamente los productos
   products = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -149,3 +149,9 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
 }
 /* ... */
 ```
+
+---
+sources:
+  - https://facebook.github.io/react/docs/thinking-in-react.html
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+---

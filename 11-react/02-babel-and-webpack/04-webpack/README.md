@@ -1,5 +1,11 @@
 # Webpack
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
+
+***
+
 ## Intro
 
 Si miras hacia atrás verás las diferentes transformaciones que hemos ido

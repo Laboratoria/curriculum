@@ -1,5 +1,11 @@
 # Modularización
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## Intro
 
 Analicemos un segundo la estructura de nuestra aplicación:

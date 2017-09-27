@@ -1,5 +1,11 @@
 # Estado local y ciclo de vida
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
+
+***
+
 Hay ocasiones en las que el uso de un estado global y compartido, no es la forma
 ideal de expresar el estado de nuestro componente, ya sea porque es demasiado
 complicado, porque no queremos contaminar el estado global con estados internos

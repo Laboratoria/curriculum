@@ -1,10 +1,10 @@
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
-
 # React + Redux = Awesome!!!
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 En esta lectura vamos a hacer el proceso completo de diseñar una aplicación usando React y Redux.
 
@@ -152,3 +152,9 @@ Ahora que hemos identificado cuáles son nuestro componentes, vamos a ordenarlos
     * `ProductTable`
       * `ProductCategoryRow`
       * `ProductRow`
+
+---
+sources:
+  - https://facebook.github.io/react/docs/thinking-in-react.html
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+---

@@ -1,10 +1,10 @@
 # Componentes presentacionales vs. Componentes contenedores
 
----
-sources:
-  - http://redux.js.org/docs/basics/UsageWithReact.html
-  - https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
----
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
 
 La forma en la que se integran React y Redux, adopta la idea de la **separación
 entre componentes meramente presentacionales y componentes contenedores**.
@@ -108,3 +108,9 @@ componentes anidados, y recibe una gran cantidad de props para sólo traspasarla
 a sus múltiples children), introduce un nuevo container en algún punto del sub
 árbol para reducir la complejidad como se explica en el
 [FAQ de Redux](http://redux.js.org/docs/faq/ReactRedux.html#react-multiple-components).
+
+---
+sources:
+  - http://redux.js.org/docs/basics/UsageWithReact.html
+  - https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
+---

@@ -1,6 +1,12 @@
-# `build` & `deploy`
+# Build & deploy
 
-## `build`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
+## build
 
 1 - asi como creamos un `webpack.config.js` para nuestro entorno de
 *desarrollo*, crearemos nuestro `webpack.config.prod.js` para nuestro entorno
@@ -95,7 +101,7 @@ de ejecutar `webpack` con la configuración del punto anterior.
 
 ¿Qué hacen esos parámetros de `progress`, `profile` y `colors`?
 
-## `deploy`
+## deploy
 
 3 - instalaremos un [módulo](https://github.com/tschaub/gh-pages) que nos
 permite desplegar fácilmente a `gh-pages` (`yarn add -D gh-pages`). Gihub

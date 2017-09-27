@@ -1,5 +1,11 @@
 # Referencias
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 En el flow estándar de `React`, las `props` son la única forma que tienen los
 componentes padre, de interactuar con sus `children`. Si quieres modificar un
 nodo hijo, lo re-renderizas con nuevas `props` y listo.

@@ -1,10 +1,16 @@
+# Intro
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ---
 source:
   - https://facebook.github.io/react/docs/higher-order-components.html
   - https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
 ---
-
-# Intro
 
 Ya tenemos una aplicación estática modelada con componentes de React, muy
 modernos y mantenibles, pero carecemos de algo fundamental que cualquier
