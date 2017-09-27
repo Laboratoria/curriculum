@@ -10,7 +10,6 @@
 
 #### 2. Conversemos sobre el sentimiento de la clase (`auto-evaluación`)
 
-#### 3. Respondamos las preguntas del opening:
-- [ ]
+#### 3. Respondamos las preguntas del opening
 
 ***
