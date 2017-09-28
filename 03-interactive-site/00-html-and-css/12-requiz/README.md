@@ -25,36 +25,36 @@ entendimiento pleno de los conceptos.
 ### 2) Anatomia de un elemento HTML
 
 #### Opciones
-1. Etiqueta de inicio y etiqueta de cierre
-2. Loops
-3. Condicionales
-4. Doctype
-5. Atributos
-6. Contenido
+1. Loops
+2. Etiqueta de inicio
+3. Doctype
+4. Contenido u otras etiquetas
+5. Etiqueta de cierre
+6. Condicionales
 
-<solution style="display:none;">1,5,6</solution>
+<solution style="display:none;">1,4,5</solution>
 
-### 3) ¿Cuáles son las etiquetas que no necesitan cierre?
+### 3) ¿Cuáles son las etiquetas que necesitan cierre?
 
 #### Opciones
-1. em
-2. img
+1. table
+2. ol
 3. hr
-4. p
-5. input
+4. br
+5. a
 
 <solution style="display:none;">1,2,5</solution>
 
 ### 4) Ejemplo correcto de anidación
 
 #### Opciones
-1. `<p>Soy una<strong>excelente</p><em>coder</em></strong>`
+1. `<body><h3>hola!!</h3>Soy una<strong>excelente</strong><em>coder</em></p></body>`
 2. `</p>Soy una</strong>excelente<strong></em>coder<em><p>`
 3. `<p>Soy una<strong>excelente</strong><em>coder</em></p>`
 
 <solution style="display:none;">3</solution>
 
-### 5) Son caracteristicas de un elemento en bloque
+### 5) Son caracteristicas de un elemento en linea
 
 #### Opciones
 1. No comienzan con la nueva línea.
@@ -64,7 +64,7 @@ entendimiento pleno de los conceptos.
 5. Pueden contener elementos en línea y otros elementos en bloque
 6. Pueden contener únicamente los datos y otros elementos en línea.
 
-<solution style="display:none;">2,3,5</solution>
+<solution style="display:none;">1,4,6</solution>
 
 ### 6) ¿Cuál es la diferencia entre display:inline-block y display:inline?
 
@@ -76,16 +76,14 @@ entendimiento pleno de los conceptos.
 
 <solution style="display:none;">1</solution>
 
-### 7) ¿Cuál es la sintaxis correcta para la etiqueta img?
+### 7) ¿Cuál es la sintaxis correcta para la etiqueta `<a>`?
 
 #### Opciones
-1. `<image src="foto.jpg"></image>`
-2. `<image href="foto.jpg">`
-3. `<img href="foto.jpg">`
-4. `<img src="foto.jpg">`
-5. `<img src="foto.jpg"></img>`
+1. `<a href="http://laboratoria.la/">Ir a Laboratoria</a>`
+2. `<a src="http://laboratoria.la/">Ir a Laboratoria</a>`
+3. `<a href="http://laboratoria.la/">`
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">1</solution>
 
 ### 8) Dado este CSS ¿qué color tendrán los `<h3>`?
 ![style h3](styleh3.png)
@@ -95,46 +93,44 @@ entendimiento pleno de los conceptos.
 2. blue
 3. yellow
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">1</solution>
 
-### 9) ¿Qué orden prevalece para asignar un estilo?
-
-#### Opciones
-1. Especificidad, orden de código e importancia
-2. Importancia, especificidad y orden de código
-3. Orden de codigo, importancia y especificidad
-
-<solution style="display:none">2</solution>
-
-### 10) Según el siguiente código, ¿Cuál seria el resultado en el navegador?
-![cascada](especificidad.png)
+### 9) ¿Para qué sirve line-height?
 
 #### Opciones
-1. ![cascada](esp-option1.png)
-2. ![cascada](esp-option2.png)
-3. ![cascada](esp-option3.png)
-4. ![cascada](esp-option4.png)
+1. Establece la altura de cada línea de texto
+2. Establece el color de texto
+3. Establece el groson del texto
 
 <solution style="display:none">1</solution>
+
+### 10) ¿Cuál es la sintaxis de css?
+
+#### Opciones
+1. `{p = color: red; font-size: 15px; }`
+2. `p { color: red, font-size: 15px, }`
+3. `p { color: red; font-size: 15px; }`
+
+<solution style="display:none">3</solution>
 
 ### 11) Según el siguiente código, ¿Cuál seria el resultado en el navegador?
 ![cascada](positioning.png)
 
 #### Opciones
-1. ![cascada](post-option1.png)
-2. ![cascada](post-option2.png)
-3. ![cascada](post-option3.png)
-4. ![cascada](post-option4.png)
+1. ![cascada](pos-option1.png)
+2. ![cascada](pos-option2.png)
+3. ![cascada](pos-option3.png)
+4. ![cascada](pos-option4.png)
 
 <solution style="display:none">3</solution>
 
-### 12) Selecciona las propiedades que corresponde a las tipografias
+### 12) Son propiedades que corresponde a la tipografia
 
 #### Opciones
-1. font-size
+1. font
 2. font-color
 3. font-family
 4. font-weight
 5. float
 
-<solution style="display:none">1,3,4</solution>
+<solution style="display:none">3,4</solution>

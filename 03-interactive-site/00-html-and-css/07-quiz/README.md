@@ -99,7 +99,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 2. blue
 3. yellow
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">2</solution>
 
 ### 9) ¿Qué orden prevalece para asignar un estilo?
 
