@@ -19,10 +19,10 @@ con tu equipo de profesores
 Asegurar que entendemos bien los siguientes conceptos:
   * Anidamiento HTML y herencia en CSS
   * Mecanismo de cascada en CSS
-  * Creando estructura con `div` y HTML semántico
+  * Creando estructura con `div`s y HTML semántico
   * Atributos de elementos HTML
-  * Valores y unidades
   * Selectores y pseudo-selectores
+  * Valores y unidades
   * Modelo de la caja y display
   * Positioning y floats
 
@@ -33,4 +33,4 @@ Revisemos los ejemplos de código de la documentación de MDN
 bien lo que leemos. _Elegir los tópicos a repasar en función de
 los resultados del quiz_
 
-### 3. Revisemos los [ejercicios guiados](09-guided-exercises)
+### 3. Revisemos los [ejercicios guiados](../09-guided-exercises)
