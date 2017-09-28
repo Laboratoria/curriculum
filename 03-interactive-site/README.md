@@ -84,11 +84,11 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 06 | lectura | 1h | Casos prácticos
 | 07 | cuestionario | 30min | Quiz
 | 08 | seminario | 4h | Revisión de conceptos
-| 09 | taller | 9h |  Ejercicios guiados
+| 09 | taller | 12h |  Ejercicios guiados
 | 10 | práctica | 24h | Retos de código
 | 11 | seminario | 6h | Solucionario retos de código
 | 12 | cuestionario | 30min | Requiz
-| 13 | cuestionario | 10min | Auto-evaluación
+| 13 | cuestionario | 15min | Auto-evaluación
 | 14 | seminario | 30min | Cierre
 
 ### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
