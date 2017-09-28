@@ -19,6 +19,7 @@
 ### 1) ¿Qué es HTML?
 
 #### Opciones
+
 1. Lenguaje de programación
 2. Lenguaje de marcado
 3. Hoja de estilo
@@ -39,6 +40,7 @@
 ### 3) ¿Cuáles son las etiquetas que no necesitan cierre?
 
 #### Opciones
+
 1. em
 2. div
 3. img
@@ -49,6 +51,7 @@
 ### 4) Ejemplo correcto de anidación:
 
 #### Opciones
+
 1. `<p>Soy una <strong>excelente</p> <em>coder</em></strong>`
 2. `</p>Soy una </strong>excelente<strong> </em>coder<em><p>`
 3. `<p>Soy una <strong>excelente</strong> <em>coder</em></p>`
@@ -58,6 +61,7 @@
 ### 5) Son características de un elemento en bloque
 
 #### Opciones
+
 1. No comienzan con la nueva línea.
 2. No debería estar anidado dentro de un elemento en línea
 3. Comienzan en una nueva línea
@@ -84,6 +88,7 @@ ul {
 ### 7) ¿Cuál es la diferencia entre `display: inline-block` y `display: inline`?
 
 #### Opciones
+
 1. A un elemento inline no se le puede determinar dimensiones, mientras que a
    uno inline-block sí
 2. A un elemento inline-block no se le puede determinar dimensiones, mientras
@@ -96,6 +101,7 @@ ul {
 ### 8) ¿Cuál es la sintaxis correcta para la etiqueta `img`?
 
 #### Opciones
+
 1. `<image src="foto.jpg" alt="Foto"></image>`
 2. `<image href="foto.jpg" alt="Foto">`
 3. `<img href="foto.jpg" alt="Foto">`
@@ -139,6 +145,7 @@ h2 {
 ```
 
 #### Opciones
+
 1. red
 2. blue
 3. yellow
@@ -148,6 +155,7 @@ h2 {
 ### 12) ¿Qué orden prevalece para asignar un estilo?
 
 #### Opciones
+
 1. Especificidad, orden del código e importancia
 2. Importancia, especificidad y orden del código
 3. Orden del codigo, importancia y especificidad
@@ -158,6 +166,7 @@ h2 {
 ![cascada](especificidad.png)
 
 #### Opciones
+
 1. ![cascada](esp-option1.png)
 2. ![cascada](esp-option2.png)
 3. ![cascada](esp-option3.png)
@@ -196,10 +205,42 @@ ul li {
 
 <solution style="display:none;">2</solution>
 
-### 15) Según el siguiente código, ¿cuál seria el resultado en el navegador?
+### 15) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+
+**HTML:**
+
+```html
+<ul class="programming-languages" id="awesome">
+  <li><span>Python</span></li>
+  <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
+</ul>
+```
+
+**CSS:**
+
+```css
+ul.programming-languages li .highlight {
+  color: red;
+}
+
+ul.programming-languages li .highlight:nth-of-type(odd) {
+  color: blue;
+}
+```
+
+#### Opciones
+
+1. Rojo
+2. Negro
+3. Azul
+
+<solution style="display:none;">3</solution>
+
+### 16) Según el siguiente código, ¿cuál seria el resultado en el navegador?
 ![cascada](positioning.png)
 
 #### Opciones
+
 1. ![cascada](post-option1.png)
 2. ![cascada](post-option2.png)
 3. ![cascada](post-option3.png)
@@ -207,17 +248,43 @@ ul li {
 
 <solution style="display:none">3</solution>
 
-### 16) ¿Qué sucede con los elementos en línea cuando se vuelve flotante?
+### 17) Tomando en cuenta el siguiente código, ¿qué pasará con la posición de `#example`?
+
+**HTML:**
+
+```html
+<p id="example">Hello!</p>
+```
+
+**CSS:**
+
+```css
+#example {
+  margin-bottom: 5px;
+}
+```
 
 #### Opciones
+
+1. Se moverá `5px` hacia abajo
+2. Todos los elementos siguientes empezarán `5px` más abajo
+3. Ninguno
+
+<solution style="display:none;">2</solution>
+
+### 18) ¿Qué sucede con los elementos en línea cuando se vuelve flotante?
+
+#### Opciones
+
 1. Se mantiene como elemento en línea
 2. Se vuelve un elemento en bloque
 
 <solution style="display:none">2</solution>
 
-### 17) Selecciona las propiedades que corresponde a las tipografías
+### 19) Selecciona las propiedades que corresponde a las tipografías
 
 #### Opciones
+
 1. font-size
 2. font-color
 3. font-family
