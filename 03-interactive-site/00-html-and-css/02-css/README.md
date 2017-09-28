@@ -288,4 +288,4 @@ el siguiente video donde termina de desarrollar la página de Garce Hopper,
 utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
-[![Grace Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
+[![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](hhttps://www.youtube.com/watch?v=RBeCotNZUq4)
