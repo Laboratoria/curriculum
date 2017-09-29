@@ -151,8 +151,8 @@ selectores forman **reglas CSS**.
 Por ejemplo, una regla css sería:
 
 ```css
-selector    
-|                    
+selector
+|
 p { color: red; font-size: 15px; }
       |     |       |       |
       prop  valor  prop    valor
@@ -163,7 +163,7 @@ p { color: red; font-size: 15px; }
                   |
          bloque de declaración
 
-/* ejemplo de una regla css*/
+/* ejemplo de una regla css */
 ```
 
 La convención para representar el ejemplo anterior es la siguiente
@@ -288,4 +288,5 @@ el siguiente video donde termina de desarrollar la página de Garce Hopper,
 utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
-[![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](hhttps://www.youtube.com/watch?v=RBeCotNZUq4)
+[![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+
