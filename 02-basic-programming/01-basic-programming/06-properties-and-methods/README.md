@@ -23,17 +23,17 @@ disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 y 
 ## Propiedades y métodos
 A lo largo de este curso hemos visto una serie de comandos un tanto extraños que nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al colocar `.length` al final de un `string` nos devuelve la cantidad de caracteres del `string`. También hemos visto que al colocar `.toUpperCase()` al final de un `string` nos devuelve el mismo `string` pero todo en mayúscula.
 
-Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Por ejemplo, `lenght` es una propiedad que nos dice la longitud del valor asociado, mientras que `toUpperCase()` es un método que hace la acción de transformar a mayúscula el valor asociado.
+Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Por ejemplo, `length` es una propiedad que nos dice la longitud del valor asociado, mientras que `toUpperCase()` es un método que hace la acción de transformar a mayúscula el valor asociado.
 
 Lo interesante de las propiedades y los métodos es que no son únicamente para los `strings`, que es lo que hemos usado hasta ahora. Podemos acceder a las propiedades y utilizar métodos en los `arrays` y los `objects` también. De hecho, casi todos los valores en JavaScript tienen propiedades o métodos. Las excepciones son solo `null` y `undefined`.
 
 Las dos maneras comunes de acceder a propiedades o métodos en Javascript son con un punto (`.`) y con corchetes (`[]`). Ambas `valor.x` y `valor[x]` acceden a una propiedad en valor, pero no necesariamente la misma propiedad. La diferencia radica en cómo se interpreta `x`. Cuando usamos un punto, la parte después del punto debe ser un nombre de variable válido y nombra de manera directa a la propiedad o el método. Cuando usamos corchetes, la expresión dentro de los corchetes es _**evaluada**_ para obtener el nombre de la propiedad. Mientras que `valor.x` busca la propiedad del valor llamada “x”, `valor[x]` intenta _evaluar_ la expresión x y usa el resultado como el nombre de la propiedad.
 
-## Propiedades y métodos de los `arrays`
+## Propiedades y métodos de los arrays
 
 Ya hemos visto una manera de acceder a las propiedades de un `array`. Cuando accedemos a los elementos de un `array` (utilizando los corchetes `[]` y el _index_) estamos realmente accediendo a sus propiedades. Esto porque **los elementos de un array se almacenan en propiedades**. Entonces, cuando hacemos `myArray[0]` le estamos realmente diciendo a JavaScript que nos devuelva el valor almacenado en la propiedad `0` del array, que está definido como el primer valor de la "primera casilla" del `array`.
 
-### Encontrando la longitud de un `array`
+### Encontrando la longitud de un array
 Al igual que los `strings`, los `arrays` en JavaScript vienen con una propiedad `length` que nos devuelve la longitud del `array`, es decir, el número de elementos que componene el array. Veamos un ejemplo:
 
 ```js
@@ -44,7 +44,7 @@ console.log(myArray.length);
 
 ```
 
-### Añadiendo elementos a un `array`
+### Añadiendo elementos a un array
 Para añadir un elemento al final de un `array` JavaScript cuenta con el **método** `push`. Recordemos que es un método porque **hace** algo con el valor asociado - en este caso, agrega un elemento al final del array. Veamos un ejemplo:
 
 ```js
@@ -63,11 +63,11 @@ El acto de correr un método se conoce como "llamar" al método. Esto es porque,
 
 Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que colocamos entre paréntesis (en el ejemplo anterior, el `string` "último elemento") es añadido al `array`. Segundo, la nueva longitud se retorna. Por eso es que después de correr el código `myArray.push('último elemento');` se imprime el número `4` en la consola - porque el array ahora tiene una longitud de `4`.
 
-### Otros métodos de los `arrays`
+### Otros métodos de los arrays
 
 JavaScript nos brinda varios métodos para manipular `arrays`. Con ellos podemos añadir elementos al principio del `array`, remover elementos del `array`, concatenar `arrays`, unir más de un `array` y muchas cosas más.
 
-Como es costumbre en este curso, debes acostumbrarte a "aprender a aprender". Recordemos que en el mundo de la tecnología, el **auto-aprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
+Como es costumbre en este curso, debes acostumbrarte a "aprender a aprender". Recordemos que en el mundo de la tecnología, el **autoaprendizaje** es esencial. Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes aprender por tu cuenta para mantenerte al día. Por eso, es importante que, desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control de tu desarrollo profesional.
 
 A continuación te damos una lista de métodos de los `arrays` que debes investigar por tu cuenta y aprender a utilizar.
 
@@ -84,7 +84,7 @@ A continuación te damos una lista de métodos de los `arrays` que debes investi
 
 Recuerda que para tu investigación te recomendamos la información que ofrece la [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). También puedes buscar en Google e ir experimentando con la consola tú misma viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un `array` cualquiera y vayas probando lo que aprendes para garantizar que entiendes como funcionan las cosas.
 
-Recuerda también que puedes explorar otras formas de auto-aprendizaje:
+Recuerda también que puedes explorar otras formas de autoaprendizaje:
 
 * Busca otros recursos en la web. Uno muy bueno es stackoverflow. En español suele haber menos contenido de calidad, así que quizás tengas que apoyarte con el traductor de Google.
 * Consulta con una compañera de clases
@@ -93,40 +93,40 @@ Recuerda también que puedes explorar otras formas de auto-aprendizaje:
 _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos anteriores. Lo que continúa de este curso se construye sobre estos conceptos, así que tómate el tiempo para aprender bien antes de avanzar._
 ***
 
-## Propiedades y métodos de los `objects`
+## Propiedades y métodos de los objects
 
-Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
+Ya hemos visto que los _keys_ de los `objects` son equivalente a sus propiedades. Y hemos visto cómo acceder a estas propiedades. Precisamente al crear el par _key-value_ de un objeto le estamos creando una propiedad que almacena el valor brindado. Recordemos nuestro ejemplo con el object `movie`:
 
 ```js
-  var movie = {
-    title: 'Back to the Future',
-    director: 'Robert Zemeckis',
-    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-    'year of release': 1984,
-    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-    oscar: 1,
-    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-    'other awards': ['best sound', ]
-  }
+var movie = {
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  oscar: 1,
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
+};
 
-  console.log(movie['title']);
-  // → Back to the Future
+console.log(movie['title']);
+// → Back to the Future
 
-  console.log(movie[title]);
-  // → Uncaught ReferenceError: title is not defined
+console.log(movie[title]);
+// → Uncaught ReferenceError: title is not defined
 
-  console.log(movie.'title');
-  // → Uncaught SyntaxError: Unexpected string
+console.log(movie.'title');
+// → Uncaught SyntaxError: Unexpected string
 
-  console.log(movie.title);
-  // → Back to the Future
+console.log(movie.title);
+// → Back to the Future
 ```
 
 Con `movie['title']` o `movie.title` estamos accediendo a la **propiedad** llamada 'title' del object `movie`.
 
 A los `objects` que nosotros creamos (como el object `movie` del ejemplo) también podemos crearle **métodos**. Esto lo logramos incluyendo una `función` como propiedad. Pero, de momento, no te preocupes por esto. Lo veremos más adelante. Por ahora lo importante es saber que, así como los `strings` y `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que contienen funciones.  
 
-### ¿La longitud de un `object`?
+### ¿La longitud de un object?
 La propiedad `length` que podemos usar para calcular la longitud de un `string` o de un `array`, no es una propiedad válida para los `objects` que nosotros creamos. Es decir, si a nuestro object `movie` que hemos venido usando tratamos de aplicar la propiedad `length` el resultado es `undefined`.
 
 ```js
@@ -157,14 +157,14 @@ var movie = {
   plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
-}
+  'other awards': ['best sound']
+};
 
 console.log(Object.keys(movie));
 // → (8) ['title', 'director', 'stars', 'year of release', 'plot', 'oscar', 'tags', 'other awards']
 
 ```
-## Inspeccionando `arrays` y `objects`
+## Inspeccionando arrays y objects
 
 Para desplegar en consola la información contenida en un `array` de 2 dimensiones o un `object` se nos ofrece el metodo `.table()` de `console`.
 
@@ -174,7 +174,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-  ];
+];
 
 console.log(questions);
 // → (4) [Array(2), Array(2), Array(2), Array(2)]
@@ -184,11 +184,11 @@ console.table(questions);
 ![example array print](https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png)
 
 ```js
-  var weblogs = [
-    {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
-    {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
-    {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
-  ];
+var weblogs = [
+  {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
+  {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
+  {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
+];
 
 console.log(weblogs);
 // (3) [{…}, {…}, {…}]
