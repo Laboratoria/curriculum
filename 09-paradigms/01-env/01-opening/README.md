@@ -1,4 +1,4 @@
-# Presentación del curso
+# Apertura
 
 * Formato: `lectura`
 * Duración: `15min`
