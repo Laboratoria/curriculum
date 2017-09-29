@@ -14,18 +14,14 @@ poner tus conocimientos a prueba.
 ## Estructura de trabajo
 
 Para cada reto hemos creado un repositorio _boilerplate_ (plantilla inicial)
-con todos los recursos que necesitas. Debes clonar este repositorio
-_boilerplate_, crear un repositiorio remoto en `GitHub`, vincular tu local con
-tu remoto y publicar tu resultado final en `gh-pages`.
+con todos los recursos que necesitas. En las instrucciones del reto encontrarás
+los pasos para usar este boilerplate.
 
-## 1. Twitter
-* [Intrucciones Reto Twitter](https://github.com/Laboratoria-education/twitter)
+## 1. Freelancer
+* [Intrucciones Reto Freelancer](https://github.com/Laboratoria-education/freelancer)
 
 ## 2. Lyft
 * [Intrucciones Reto Lyft](https://github.com/Laboratoria-education/lyft)
 
-## 3. Freelancer
-* [Intrucciones Reto Freelancer](https://github.com/Laboratoria-education/freelancer)
-
-## 4. Workshopper (opcional)
+## 3. Workshopper (opcional)
 * [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
