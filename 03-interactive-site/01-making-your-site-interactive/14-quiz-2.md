@@ -8,7 +8,7 @@
 - Tomar un segundo quiz para asegurarnos que terminamos la unidad con un entendimiento pleno de los conceptos.
 
 ***
-## Preguntas.
+## Preguntas
 
 ### 1) El nodo Document, es padre de los objetos o nodos:
 #### Opciones
@@ -32,21 +32,34 @@
 
 ### 3) Para el siguiente elemento.
 ```html
-  <p id=parrafo>Hola, soy un parrafo sensual</p>
+    <p id="parrafo">Hola, soy un parrafo sensual</p>
 ```
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
 #### Opciones
-  1. ![Opción 1](parrafoOpcion1Requiz.png) parrafo.style.background = "red"
-  2. ![Opción 2](parrafoOpcion2Requiz.png) parrafo.style.backgroundColor='red';
-  3. ![Opción 3](parrafoOpcion3Requiz.png) parrafo.backgroundColor = 'red';
+  1.
+  ```javascript
+        var parrafo = document.getElementById('parrparrafo');
+        parrafo.style.background='red';
+  ```
+  2.
+  ```javascript
+        var parrafo = document.getElementById('parrparrafo');
+        parrafo.style.backgroundColor='red';
+  ```
+  3.
+  ```javascript
+        var parrafo = document.getElementById('parrparrafo');
+        parrafo.backgroundColor='red';
+  ```
 
 <solution style="display:none;">2</solution>
 
+
+### 4) document.getElementsByClassName(".unaClaseSensual"), me regresa un:
 ```javascript
     var elementosSensuales = document.getElementsByClassName('.unaClaseSensual');
     console.log(elementosSensuales);
 ```
-### 4) document.getElementsByClassName(".unaClaseSensual"), me regresa un:
 #### Opciones
   1. Arreglo de nodos HTML con la clase 'unaClaseSensual';
   2. Arreglo con el valor de texto contenido dentro de todos los elementos con clase 'unaClaseSensual';
@@ -92,8 +105,15 @@
 
 <solution style="display:none;">1</solution>
 
-![Pregunta 9 imagen](requizPregunta9Imagen.png)
 ### 9) ¿Qué método utilizamos para agregar a 'listaDeCompras', un nuevo elemento llamado 'elementoLista'?
+```html
+  <ul id="listaDeCompras">
+    <li>Leche Deslactosada</li>
+    <li>Arequipe</li>
+    <li>Harina para Hotcakes</li>
+    <li>Moras</li>
+  </ul>
+```
 #### Opciones
   1. document.createTextNode(elementoLista);
   2. listaDeCompras.appendChild(elementoLista);
@@ -103,11 +123,10 @@
 
 ### 10) ¿Qué evento se desencadena al seleccionar el texto de un input o textarea ?
 #### Opciones
+
   1. onclick
   2. onselect
   3. onmouseover
   4. ondblclick
 
 <solution style="display:none;">2</solution>
-
-[Continuar]( )
