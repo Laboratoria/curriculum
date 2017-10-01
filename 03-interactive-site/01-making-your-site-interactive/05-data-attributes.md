@@ -1,0 +1,42 @@
+# Atributos data
+- Tipo: `lectura`
+- Formato: `self-learning`
+- Duración: `30min`
+
+## Objetivos de Aprendizaje
+
+En esta unidad aprenderemos:
+* ¿Qué son los atributos data y para qué me sirven?
+* ¿Cómo se usan?
+
+***
+
+Referencia:
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+* https://www.w3schools.com/tags/att_global_data.asp
+
+## ¿Qué son los atributos data?
+Son atributos personalizados que nos permiten añadir datos a nuestros elementos HTML, que no necesariamente son visibles pero que nos ayudan mucho al momento de dar información adicional de dichos elementos.
+
+## ¿Cómo se usan?
+Usarlos es muy fácil, ya que su sintaxis e interacción es sencilla.
+
+### Sintaxis:
+Se compone de un prefijo `data-` acompañado del nombre (*en minúsculas*) que consideremos más apropiado para el valor que va a guardar:
+```html
+<elemento id="ejemplo" data-nombre="valor" data-otro-nombre="otro valor">
+```  
+
+### Interacción con JavaScript:
+Para poder acceder a estos atributos hacemos uso del método `dataset`.
+```javascript
+  var ejemplo = document.getElementById("ejemplo");
+  var valor = ejemplo.dataset.nombre;
+  var otroValor = ejemplo.dataset.otroNombre;
+```
+En este [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos encontrar más información detallada acerca de esto que acabamos de leer.
+
+***
+
+## Y ahora ¿Qué sigue?
+Ya que tenemos una noción de qué son y el cómo se usan los atributos data, que te parece si vemos el siguiente video en el que se muestra un ejercicio haciendo uso de estos.
