@@ -104,5 +104,3 @@
   3. Fechas importantes para el navegador.
 
 <solution style="display:none;">2</solution>
-
-[Continuar]( )
