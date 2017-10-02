@@ -1,14 +1,14 @@
-# Quiz #1
+#Quiz #1
 - Tipo: `quiz`
-- Formato: `guided-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos
 
--_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
+-_Nota: En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!._
 
 
-## Preguntas.
+## Preguntas
 
 ### 1) Completa el siguiente enunciado: "Las etiquetas HTML siempre serán nodos de tipo _______.
 #### Opciones
@@ -101,8 +101,6 @@
   1. Acciones que realiza el navegador cuando algo no anda bien.
   2. Acciones que se desencadenan a partir de la interacción del usuario con
   un elemento de la página web.
-  3. fechas importantes para el navegador.
+  3. Fechas importantes para el navegador.
 
 <solution style="display:none;">2</solution>
-
-[Continuar]( )
