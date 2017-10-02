@@ -63,7 +63,7 @@ span {
 }
 ```
 
-![Inline Style](img-normal-flow.png)
+![Basic Document Flow](https://github.com/Laboratoria/curricula-js/blob/441a522e53ff2f34843e1ca740c01ea526fe8c19/03-interactive-site/00-html-and-css/04-positioning-and-floats/img-normal-flow.png?raw=true)
 
 ## 2. Positioning
 
