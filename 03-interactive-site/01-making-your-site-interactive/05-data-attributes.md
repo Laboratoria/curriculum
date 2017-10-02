@@ -1,5 +1,5 @@
-###Data Attributes
+# Data Attributes
    
-    * Tipo: lectura
-    * Formato: self-paced
-    * Duración: 4h
+* Tipo: lectura
+* Formato: self-paced
+* Duración: 4h
