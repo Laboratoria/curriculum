@@ -101,7 +101,7 @@
   1. Acciones que realiza el navegador cuando algo no anda bien.
   2. Acciones que se desencadenan a partir de la interacción del usuario con
   un elemento de la página web.
-  3. fechas importantes para el navegador.
+  3. Fechas importantes para el navegador.
 
 <solution style="display:none;">2</solution>
 

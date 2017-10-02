@@ -32,24 +32,24 @@
 
 ### 3) Para el siguiente elemento.
 ```html
-    <p id="parrafo">Hola, soy un parrafo sensual</p>
+    <p id="paragraph">Hola, soy un párrafo sensual</p>
 ```
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
 #### Opciones
   1.
   ```javascript
-        var parrafo = document.getElementById('parrparrafo');
-        parrafo.style.background='red';
+        var paragraph = document.getElementById('paragraph');
+        paragraph.style.background='red';
   ```
   2.
   ```javascript
-        var parrafo = document.getElementById('parrparrafo');
-        parrafo.style.backgroundColor='red';
+        var paragraph = document.getElementById('paragraph');
+        paragraph.style.backgroundColor='red';
   ```
   3.
   ```javascript
-        var parrafo = document.getElementById('parrparrafo');
-        parrafo.backgroundColor='red';
+        var paragraph = document.getElementById('paragraph');
+        paragraph.backgroundColor='red';
   ```
 
 <solution style="display:none;">2</solution>
