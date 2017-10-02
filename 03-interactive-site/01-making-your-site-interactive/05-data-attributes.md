@@ -26,5 +26,9 @@ Ahora que sabemos su significado y como es su sintaxis, entendamos bien que es u
 Alguna vez has usado clases para guardar información con el proposito de que tu JavaScript sea más simple? Si si te tengo una nueva noticia para eso HTML5 agrego los data attributes, a lo mejor esto no dice nada que te parece si lo vemos con un ejemplo de que podamos aplicar en la vida real?
 
 antes 
-> kdsfkjds
-> dfkjsldk
+
+    * 
+     kfsdjfkl
+     asfds
+     sdfsd
+    *
