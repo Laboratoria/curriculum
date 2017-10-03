@@ -40,3 +40,7 @@ En este [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos 
 
 ## Y ahora ¿Qué sigue?
 Ya que tenemos una noción de qué son y el cómo se usan los atributos data, que te parece si vemos el siguiente video en el que se muestra un ejercicio haciendo uso de estos.
+
+[![Atributos Data](https://img.youtube.com/vi/fnn6mqN1S8Q.jpg)](https://www.youtube.com/watch?v=fnn6mqN1S8Q)
+
+_Codea! Modifica, Juega, Rompe y Arregla el código_
