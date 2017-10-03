@@ -2,7 +2,7 @@
    
 * Tipo: lectura
 * Formato: self-paced
-* Duración: 4h
+* Duración: 3.5h
 
 ## Objetivos de Aprendizaje
 
@@ -58,3 +58,6 @@ Pero esto no tiene mucho sentido ya que las clases se usan para poder modificar 
     
 ¿No es mucho más sencillo ahora poder poner información a nuestros elementos para poder usar después en nuestro JS?
 
+Aqui les dejo un video haciendo el ejercicio de arriba y manipulandolo un poco en el js y css
+
+[![verVideo]](https://youtu.be/cKlua9dbFYk)
