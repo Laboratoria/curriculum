@@ -2,7 +2,7 @@
 
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `3h`
+- Duración: `4h`
 
 ***
 
@@ -19,11 +19,12 @@ con tu equipo de profesores
 Asegurar que entendemos bien los siguientes conceptos:
   * Anidamiento HTML y herencia en CSS
   * Mecanismo de cascada en CSS
-  * Creando estructura con `div` y HTML semántico
+  * Creando estructura con `div`s y HTML semántico
   * Atributos de elementos HTML
-  * Mantener el CSS separado de HTML
-  * Valores y unidades
   * Selectores y pseudo-selectores
+  * Valores y unidades
+  * Modelo de la caja y display
+  * Positioning y floats
 
 ### 2. Repasar los ejemplos de las lecturas de MDN
 

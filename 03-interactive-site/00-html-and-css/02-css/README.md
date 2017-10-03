@@ -42,7 +42,7 @@ style. Por ejemplo:
 
 En el navegador, el titular anterior se vería así:
 
-![Inline Style](img-inline-style.png)
+![Inline Style](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/02-css/img-inline-style.png?raw=true)
 
 Esta forma de agregar CSS se llama CSS Inline, pero no es muy recomendada. Su
 mantenimiento es complicado, ya que podríamos tener que
@@ -151,8 +151,8 @@ selectores forman **reglas CSS**.
 Por ejemplo, una regla css sería:
 
 ```css
-selector    
-|                    
+selector
+|
 p { color: red; font-size: 15px; }
       |     |       |       |
       prop  valor  prop    valor
@@ -163,7 +163,7 @@ p { color: red; font-size: 15px; }
                   |
          bloque de declaración
 
-/* ejemplo de una regla css*/
+/* ejemplo de una regla css */
 ```
 
 La convención para representar el ejemplo anterior es la siguiente
@@ -288,4 +288,4 @@ el siguiente video donde termina de desarrollar la página de Garce Hopper,
 utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
-[![Grace Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
+[![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)

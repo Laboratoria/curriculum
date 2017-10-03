@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `1h`
 
 ## Objetivos de Aprendizaje
 

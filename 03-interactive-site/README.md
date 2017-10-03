@@ -64,9 +64,9 @@ estudiante de Laboratoria.
 
 ## Syllabus
 
-### [01: Maquetado web con HTML & CSS](00-html-and-css)
+### Unidad 01: [Maquetado web con HTML & CSS](00-html-and-css)
 
-55hrs
+50-60 hrs
 
 Para crear un producto web interactivo, primero debemos aprender a maquetar.
 En esta unidad veremos cómo crear la estructura de un sitio web con `html` y
@@ -75,23 +75,23 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 15min | Apertura
-| 01 | lectura | 4h | HTML
-| 02 | lectura | 4h | CSS
-| 03 | lectura | 1h | Box Model y Display
-| 04 | lectura | 1h | Positioning y Floats
+| 01 | lectura | 15min | Apertura
+| 02 | lectura | 4h | HTML
+| 03 | lectura | 4h | CSS
+| 05 | lectura | 1h | Box Model y Display
+| 04 | lectura | 2h | Positioning y Floats
 | 05 | lectura | 1h | Tipografía e íconos
 | 06 | lectura | 1h | Casos prácticos
 | 07 | cuestionario | 30min | Quiz
-| 08 | seminario | 3h | Revisión de conceptos
-| 09 | taller | 9h |  Ejercicios guiados
-| 10 | práctica | 24h | Retos de código (portafolio)
+| 08 | seminario | 4h | Revisión de conceptos
+| 09 | taller | 12h |  Ejercicios guiados
+| 10 | práctica | 24h | Retos de código
 | 11 | seminario | 6h | Solucionario retos de código
 | 12 | cuestionario | 30min | Requiz
-| 13 | cuestionario | 10min | Auto-evaluación
+| 13 | cuestionario | 15min | Auto-evaluación
 | 14 | seminario | 30min | Cierre
 
-### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
+### Unidad 02: [Creando interacción con JavaScript](01-making-your-site-interactive)
 
 35 hrs
 
@@ -115,7 +115,7 @@ nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
 | 12 | cuestionario | 10min | Auto-evaluación
 | 13 | seminario | 30min | Cierre
 
-### [04: Intro a User Experience Design](02-ux-design)
+### Unidad 03: [Intro a User Experience Design](02-ux-design)
 
 15hrs
 
@@ -142,7 +142,7 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 | 14 | cuestionario | 10min | Auto-evaluación
 | 15 | seminario | 30min | Cierre
 
-### [05: Data Dashboard](03-data-dashboard)
+### Unidad 04: [Data Dashboard](03-data-dashboard)
 
 20hrs
 
