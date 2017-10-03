@@ -19,16 +19,20 @@ Son una de las nuevas caracteristicas de HTML5, los Data Attributes nos permiten
 
 Una nueva ventaja de los data attributes es que son personalizables. Tal vez ahorita no entiendas mucho pero primero entendamos la sintaxis para despues poder ver un ejemplo y que nos quede mas claro.
 
-![Screenshot](img-data-attributes/sitaxis-data-attributes.gif)
+![sintaxis](img-data-attributes/sitaxis-data-attributes.gif)
 
-prefijo y data personalizable = ' STRING '
+Se usa un prefijo data- más el nombre del atributo que nosotros querramos.
 
+A parte del prefijo data- la sintaxis válida debería contener sólo letras, guiones(-), puntos(.), dos puntos (:), o guión bajo (_) y *NO* debería tener mayúsculas.
 
-A parte del prefijo data- la sintaxis válida debería contener sólo letras, guiones(-), puntos(.), dos puntos (:), o guión bajo (_). No debería tener mayúsculas.
+Luego de tener nuestro prefijo y atributo definido es igual que como hemos visto se ponen atributos a un elemento: 
+
+![valor-data](img-data-attributes/valor-data-attribute.gif)
+
 
 Hay dos cosas que se debe mantener en cuenta:
-La información guardada en estos data attribute deberá ser de tipo string.
-Solo se debe usar cuando no haya otros elementos apropiados. Un elemento no apropiado sería data-class, puedes usar números  pero estos aparecerán en string y después convertirlos en js.
+ * La información guardada en estos data attribute deberá ser de tipo string.
+ * Solo se debe usar cuando no haya otros elementos apropiados. Un elemento no apropiado sería data-class, puedes usar números  pero estos aparecerán en string y después convertirlos en js.
 
 ----
 
