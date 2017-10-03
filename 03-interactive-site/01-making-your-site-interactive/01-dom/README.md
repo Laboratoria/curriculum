@@ -29,9 +29,7 @@ En esta unidad aprenderemos:
 
 ## ¿Qué es el DOM?
 
-#### ToDo agregar intro con objetivos de lectura e instrucciones
-
-#### Todo agregar introduccion a libros web.
+En la siguiente lectura podemos ver que es el DOM, es parte de LibrosWeb, un pionero en creación de contenido educativo para desarrollo web.
 
 http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html
 
@@ -244,19 +242,15 @@ Los nodos del DOM poseen propiedades básicas las cuales son:
 
 ## Seleccionando elementos del DOM
 
-#### To Do agregar objetivos e instrucciones
+En la siguiente lectura vemos como selecciónar nodos y que es un nodo en el DOM.
 http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html
 
-- selecting elements by ID
-- selecting elements by tag
-- selecting elements by clase
-- selecting elements by CSS queries
 
-https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+## Recapitulando
+Para terminar, Lulu nos ha grabado un video para reforzar los conceptos de DOM.
 
-### Todo agregar video DOM manupulación - by TA
-### Primero se hace código - code review -> grabar
-###Conseguir último ejercicio - NO code review
+  [![Repaso DOM](https://img.youtube.com/vi/gJXl5vqzRi0/0.jpg)](https://www.youtube.com/watch?v=gJXl5vqzRi0)
+
 
 ***
 [Continuar]( )
