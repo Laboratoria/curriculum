@@ -12,3 +12,6 @@
 para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes.
 
 ## Auto-evaluación
+- [Lima]()
+- [Santiago de Chile]()
+- [México DF]()
