@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### En una función recursiva, una condición de terminación es...
+### En una función recursiva, una condición de terminación es
 
 #### Options
 
@@ -19,7 +19,7 @@
 
 <solution style="display:none;">2</solution>
 
-### Argumentos de la recursión...
+### Argumentos de la recursión
 
 En una función recursiva, los argumentos con los que la función se invoca a sí
 misma en el caso recursivo...
@@ -33,7 +33,7 @@ misma en el caso recursivo...
 
 <solution style="display:none;">4</solution>
 
-### El call stack o pila de llamadas...
+### El call stack o pila de llamadas
 
 #### Options
 

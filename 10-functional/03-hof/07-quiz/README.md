@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### Una función de orden superior es ...
+### Una función de orden superior es
 
 #### Opciones
 
@@ -19,7 +19,7 @@
 
 <solution style="display:none;">1,4</solution>
 
-### Dada la siguiente función ...
+### Dada la siguiente función
 
 ```js
 const foo = bar => baz => baz.filter(item => item === bar).shift();
