@@ -163,14 +163,14 @@ h2 {
 <solution style="display:none">2</solution>
 
 ### 13) Según el siguiente código, ¿cuál seria el resultado en el navegador?
-![cascada](especificidad.png)
+![Especificidad - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/especificidad.png?raw=true)
 
 #### Opciones
 
-1. ![cascada](esp-option1.png)
-2. ![cascada](esp-option2.png)
-3. ![cascada](esp-option3.png)
-4. ![cascada](esp-option4.png)
+1. ![Especificidad - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option1.png?raw=true)
+2. ![Especificidad - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option2.png?raw=true)
+3. ![Especificidad - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option3.png?raw=true)
+4. ![Especificidad - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option4.png?raw=true)
 
 <solution style="display:none">1</solution>
 
@@ -237,14 +237,14 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 <solution style="display:none;">3</solution>
 
 ### 16) Según el siguiente código, ¿cuál seria el resultado en el navegador?
-![cascada](positioning.png)
+![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
 
 #### Opciones
 
-1. ![cascada](post-option1.png)
-2. ![cascada](post-option2.png)
-3. ![cascada](post-option3.png)
-4. ![cascada](post-option4.png)
+1. ![Positioning - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option1.png?raw=true)
+2. ![Positioning - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option2.png?raw=true)
+3. ![Positioning - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option3.png?raw=true)
+4. ![Positioning - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option4.png?raw=true)
 
 <solution style="display:none">3</solution>
 

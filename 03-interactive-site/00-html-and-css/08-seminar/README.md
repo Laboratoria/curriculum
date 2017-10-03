@@ -33,4 +33,4 @@ Revisemos los ejemplos de código de la documentación de MDN
 bien lo que leemos. _Elegir los tópicos a repasar en función de
 los resultados del quiz_
 
-### 3. Revisemos los [ejercicios guiados](../09-guided-exercises)
+### 3. Revisemos los [ejercicios guiados](09-guided-exercises)
