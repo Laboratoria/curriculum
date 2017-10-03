@@ -42,7 +42,7 @@ style. Por ejemplo:
 
 En el navegador, el titular anterior se vería así:
 
-![Inline Style](img-inline-style.png)
+![Inline Style](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/02-css/img-inline-style.png?raw=true)
 
 Esta forma de agregar CSS se llama CSS Inline, pero no es muy recomendada. Su
 mantenimiento es complicado, ya que podríamos tener que
