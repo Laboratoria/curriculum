@@ -151,7 +151,7 @@ herencia.
 | 03 | lectura  | self-paced |   12min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
 | 04 | práctica | self-paced |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
 
-### Unidad 04: [Solucionario y ejercicios guiados](04-solucionario/01-learnyouparadigms-planetproto.md)
+### Unidad 04: [Solucionario y ejercicios guiados](04-solucionario)
 
 1h (presencial)
 
@@ -160,7 +160,7 @@ en particular, y herencia prototipal, en esta lección solucionaremos los
 ejercicios de `planetproto` y `learnyouparadigms` todos juntos con la ayuda de
 los instructores.
 
-### Unidad 05: [Proyecto (implementación OOP)](05-game-oop/01-hacking.md)
+### Unidad 05: [Proyecto (implementación OOP)](05-game-oop)
 
 3h (presencial)
 
@@ -168,7 +168,7 @@ En esta sesión te dedicarás a hackear :construction:! Junto con una compañera
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando herencia prototipal.
 
-### Unidad 06: [Demos de proyectos OOP](06-game-oop-demo/01-demo.md)
+### Unidad 06: [Demos de proyectos OOP](06-game-oop-demo)
 
 1h (presencial)
 
@@ -190,14 +190,14 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 | 04 | lectura  | self-paced |   10min  | [Composition over inheritance](08-composition/04-composition-over-inheritance.md)
 | 05 | práctica | self-paced |   60min  | [Ejercicios](08-composition/05-exercises.md)
 
-### Unidad 08: [Ejercicios guiados, ayudantías](08-solucionario/01-coi.md)
+### Unidad 08: [Ejercicios guiados, ayudantías](08-solucionario)
 
 1h (presencial)
 
 En esta lección nos concentraremos en solucionar los ejercicios de
 `Laboratoria/coi` todos juntos con la ayuda de los instructores.
 
-### Unidad 09: [Proyecto (implementación FP)](09-game-fp/01-hacking.md)
+### Unidad 09: [Proyecto (implementación FP)](09-game-fp)
 
 3h (presencial)
 
@@ -205,7 +205,7 @@ En esta sesión te dedicarás a hackear :construction:! Junto con una compañera
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando el estilo funcional (composición).
 
-### Unidad 10: [Demos de proyectos FP](10-game-fp-demo/01-demo.md)
+### Unidad 10: [Demos de proyectos FP](10-game-fp-demo)
 
 1h (presencial)
 

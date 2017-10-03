@@ -1,6 +1,7 @@
 # Apertura
 
-* Formato: `lectura`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `15min`
 
 ## Objetivos de la lección
@@ -100,7 +101,3 @@ Al finalizar el curso, tu rama debería quedar con las siguientes carpetas:
 
 * Ejercicios (40% => 13.3% x 3)
 * Proyectos/Demos (60% => 30% x 2)
-
-***
-
-[Continuar](../02-env/01-git%2Bgithub.md)
