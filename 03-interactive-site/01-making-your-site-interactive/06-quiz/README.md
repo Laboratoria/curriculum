@@ -21,18 +21,12 @@
 <solution style="display:none;">3</solution>
 
 ### 2) En la siguiente imagen:
-    ```
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hola mundo</title>
-            </head>
-            <body>
-                <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
-            </body>
-        </html>
-    ```
+```html
+        <body>
+            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
+        </body>
+
+```
 ### El texto `¡Hola Mundo! ¡La programación es muy cool :3 !` entre las etiquetas h1, corresponde a un nodo tipo ______
 #### Opciones
   1. Condicional
