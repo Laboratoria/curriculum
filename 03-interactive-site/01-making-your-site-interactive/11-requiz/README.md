@@ -1,13 +1,13 @@
 # Quiz #2: _requizzing_
 - Tipo: `quiz`
-- Formato: `guided-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un entendimiento pleno de los conceptos.
+-_Nota: En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!._
 
-***
+
 ## Preguntas
 
 ### 1) El nodo Document, es padre de los objetos o nodos:
