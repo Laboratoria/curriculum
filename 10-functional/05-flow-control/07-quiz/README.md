@@ -44,7 +44,9 @@ misma en el caso recursivo...
 
 <solution style="display:none;">2,4</solution>
 
-### Dada el siguiente código, cual sería el output en la consola?
+### Orden de ejecución
+
+Dado el siguiente código, cual sería el orden del output en la consola?
 
 ```js
 setTimeout(() => console.log('pong'), 1000);
@@ -55,29 +57,9 @@ console.log('boop');
 
 #### Options
 
-1. ```text
-   pong
-   ping
-   boop
-   beep
-   ```
-2. ```text
-   ping
-   pong
-   beep
-   boop
-  ```
-3. ```text
-   ping
-   boop
-   beep
-   pong
-   ```
-4. ```text
-   ping
-   boop
-   pong
-   beep
-  ```
+1. `pong ping boop beep`
+2. `ping pong beep boop`
+3. `ping boop beep pong`
+4. `ping boop pong beep`
 
 <solution style="display:none;">3</solution>
