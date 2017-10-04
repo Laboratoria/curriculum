@@ -21,7 +21,7 @@
 <solution style="display:none;">3</solution>
 
 ### 2) En la siguiente imagen:
-    ```HTML
+    ```
         <!DOCTYPE html>
         <html>
             <head>

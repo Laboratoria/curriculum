@@ -13,7 +13,7 @@
 ### 1) El nodo Document, es padre de los objetos o nodos:
 #### Opciones
 
-  1. Nodos ´meta´ dentro de Head.
+  1. Nodos `meta` dentro de Head.
   2. Nodos script dentro del Body.
   3. Los nodos Head y Body.
   4. No es padre de ningún nodo.
