@@ -13,10 +13,10 @@ Veamos un ejemplo:
 
 ```js
 const grace = {
-	userId: 'xxx',
-	name: 'Grace Hopper',
-	country: 'us',
-	date: new Date()
+  userId: 'xxx',
+  name: 'Grace Hopper',
+  country: 'us',
+  date: new Date()
 };
 
 serializeUser(grace);
@@ -31,9 +31,9 @@ La implementación actual luce así:
 
 ```js
 const serializeUser = user => {
-	user.name = (user.name.length > 10) ? `${user.name.slice(0, 7)}...` : user.name;
-	user.date = user.date.toJSON();
-	return JSON.stringify(user);
+  user.name = (user.name.length > 10) ? `${user.name.slice(0, 7)}...` : user.name;
+  user.date = user.date.toJSON();
+  return JSON.stringify(user);
 };
 
 module.exports = serializeUser;

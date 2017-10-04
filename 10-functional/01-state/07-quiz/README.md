@@ -38,7 +38,7 @@ const b = foo(a);
 
 <solution style="display:none;">1</solution>
 
-### La siguiente función modifica...
+### Dado el siguiente código, cuáles serán los valores de a, b y c?
 
 ```js
 const foo = arr => arr.sort();

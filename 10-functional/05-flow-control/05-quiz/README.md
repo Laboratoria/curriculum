@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### En una función recursiva, el caso base es...
+### En una función recursiva, el caso base es
 
 #### Opciones
 
@@ -19,7 +19,7 @@
 
 <solution style="display:none;">2,3</solution>
 
-### En una función recursiva, el caso recursivo es...
+### En una función recursiva, el caso recursivo es
 
 #### Opciones
 
@@ -30,7 +30,7 @@
 
 <solution style="display:none;">2,4</solution>
 
-### Cada vez que invocamos una función...
+### Cada vez que invocamos una función
 
 #### Opciones
 
@@ -41,7 +41,7 @@
 
 <solution style="display:none;">1,4</solution>
 
-### Una función asíncrona...
+### Una función asíncrona
 
 #### Opciones
 
