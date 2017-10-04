@@ -38,6 +38,9 @@ Nótese que `Map` tendrá que dejar de heredar de `EventEmitter` a través de
 herencia prototipal, y en vez hacer uso de un objeto de tipo `EventEmitter` que
 nos permita proporcionar la funcionalidad necesaria.
 
+También debes refactorizar los mapas en `src/maps/` para asegurarte de que usan
+la nueva versión de `Map` correctamente.
+
 El repositorio ya incluye una serie de tests unitarios que `Map` debe pasar
 para cumplir con todos los requisitos.
 

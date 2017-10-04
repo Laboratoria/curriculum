@@ -48,15 +48,13 @@ como profesionales y expertos de la industria.
 Los _cursos_ se dividen en 3 _fases_:
 
 * [**Prep**](#i-prep): cursos online, de 20 a 30 horas, que se toman **antes**
-de ingresar a Laboratoria como parte del proceso de selección
-
+  de ingresar a Laboratoria como parte del proceso de selección
 * [**Bootcamp**](#ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
-requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
-10 horas remoto (2hrs/día)
-
+  requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
+  10 horas remoto (2hrs/día)
 * [**Educación continua**](#iii-educación-continua): cursos de 4 semanas, blended,
-que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
-(1 sesión de 3hrs cada semana) + 1 hora/semana remoto
+  que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
+  (1 sesión de 3hrs cada semana) + 1 hora/semana remoto
 
 ***
 
@@ -95,6 +93,7 @@ Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops`,
 ***
 
 ## II. Bootcamp
+
 El **bootcamp** es un programa de 24 semanas y consiste en una serie de cursos
 de 2 a 4 semanas de duración cada uno. Los _cursos_ diseñados para el
 **bootcamp** tendrán en cuenta que las alumnas estudian a medio tiempo,
@@ -106,36 +105,34 @@ una serie común de cursos para todas las alumnas, que forman parte del
 
 ### 02. Programación básica con JavaScript
 
-- Track: _Common Core_
-- Autor: _R. Prieto_
-- Tiempo estimado: _2 a 3 semanas_
+* Track: _Common Core_
+* Autor: _R. Prieto_
+* Tiempo estimado: _2 a 3 semanas_
 
 En este curso aprenderás mejores formas de estructurar y manipular la data de
 tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
 `objetos`. Además, aprenderás a utilizar dos programas esenciales para una
 developer: la línea de comandos y el controlador de versiones.
 
-Main Tags:
- `arrays`, `objects`, `CLI`, `Git`, `Github`.
+Main Tags: `arrays`, `objects`, `CLI`, `Git`, `Github`.
 
-Secondary Tags:
-`algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
+Secondary Tags: `algorithms`, `ascii`, `searching`, `sorting`, `properties`,
+`methods`
 
 Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
 vida cotidiana:
 
 1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
-tarjeta de crédito es válida según el
-[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
-
+   tarjeta de crédito es válida según el
+   [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
-el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+   el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ### 03. Creando tu primer sitio web interactivo
 
-- Track: _Common Core_
-- Autor: _Iván Medina & Lalo Gonzalez_
-- Tiempo estimado: _3 a 4 semanas_
+* Track: _Common Core_
+* Autor: _Iván Medina & Lalo Gonzalez_
+* Tiempo estimado: _3 a 4 semanas_
 
 En este curso se construirá un sitio dinámico desde cero pasando por las
 diversas fases del desarrollo de un producto web. A lo largo de este curso, se
@@ -157,9 +154,9 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 
 ### 04. Crea tu propia red social
 
-- Track: _Common Core_
-- Autor: _Iván Medina & Lalo Gonzalez_
-- Tiempo estimado: _3 a 4 semanas_
+* Track: _Common Core_
+* Autor: _Iván Medina & Lalo Gonzalez_
+* Tiempo estimado: _3 a 4 semanas_
 
 En este curso crearás una **red social**. Para ello deberás aprender a
 desarrollar una interfaz que se pueda visualizar correctamente en varios
@@ -174,9 +171,9 @@ Secondary tags: `big-o`, `time-complexity`,
 
 ### 05. Crea tu propia librería usando JavaScript: JS Deep Dive
 
-- Track: _Front-End Development_
-- Autor: _Belén Recabal & Iván Medina_
-- Tiempo estimado: _3 semanas_
+* Track: _Front-End Development_
+* Autor: _Belén Recabal & Iván Medina_
+* Tiempo estimado: _3 semanas_
 
 En este curso construirás tu propia librería usando JavaScript, lo cual nos
 permitirá explorar las particularidades del lenguaje y entender como funciona
@@ -197,9 +194,9 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 
 ### 06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota
 
-- Track: _Front-End Development_
-- Autor: _Iván Medina_
-- Tiempo estimado: _3 semanas_
+* Track: _Front-End Development_
+* Autor: _Iván Medina_
+* Tiempo estimado: _3 semanas_
 
 En este curso se verán temas de `network` para entender qué es lo que sucede
 por detrás de la web (arquitectura cliente-servidor). Profundizaremos en
@@ -219,9 +216,9 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 
 ### 07. Lo que todo Front-End debe saber del Back-End
 
-- Track: _Front-End Development_
-- Autor: _Iván Medina_
-- Tiempo estimado: _3 semanas_
+* Track: _Front-End Development_
+* Autor: _Iván Medina_
+* Tiempo estimado: _3 semanas_
 
 En este curso vas a salir de JavaScript, y vas a entender como integrar tu
 front-end con un back-end. Usaremos `Ruby` como lenguaje de programación
@@ -245,9 +242,9 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 
 ### [08. Paradigmas de la programación y Functional JavaScript](09-paradigms)
 
-- Track: _Front-End Development_
-- Autor: _L. Montero_
-- Tiempo estimado: _3 semanas_
+* Track: _Front-End Development_
+* Autor: _L. Montero_
+* Tiempo estimado: _3 semanas_
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de
@@ -284,9 +281,9 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 
 ### [09. Introducción a React](11-react)
 
-- Track: _Front-End Development_
-- Autor: _M. Crowe_
-- Tiempo estimado: _1 a 2 semanas_
+* Track: _Front-End Development_
+* Autor: _M. Crowe_
+* Tiempo estimado: _1 a 2 semanas_
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 encapsular nuestro código en lindos componentes, si no que representa un cambio
@@ -306,9 +303,9 @@ Secondary Tags: `es6`, `fp`, `components`, `virtual-dom`.
 
 ### 10. Hackathon: Auto-aprendizaje Front-End Frameworks
 
-- Track: _Front-End Development_
-- Autor: _???_
-- Tiempo estimado: _1 a 2 semanas_
+* Track: _Front-End Development_
+* Autor: _???_
+* Tiempo estimado: _1 a 2 semanas_
 
 El desarrollo de productos con JavaScript involucra muchos conceptos y mucho
 código, sin embargo, hay soluciones que ya han sido probadas en el desarrollo
@@ -332,9 +329,9 @@ Tags: `angular`, `vue`, `typescript`, `api`, `real-time`.
 
 ### 11. Capstone Project
 
-- Track: _Front-End Development_
-- Autor: _???_
-- Tiempo estimado: _1 a 2 semanas_
+* Track: _Front-End Development_
+* Autor: _???_
+* Tiempo estimado: _1 a 2 semanas_
 
 Ahora que ya eres una Front-End Developer crack, dedica un par de semanas para
 crear algo nuevo. ¡Eres libre para crear lo que quieras!
@@ -369,7 +366,7 @@ Continua son:
 
 Los cursos que se dictan únicamente en Educación Continua son:
 
-#### [12. Redux](12-redux)
+### [12. Redux](12-redux)
 
 Autor: _M. Crowe / L. Montero_
 
@@ -377,7 +374,7 @@ TBD (_help needed_)
 
 Tags: `react router`, `redux`, `raduim`, ...
 
-#### [13. The Web Stack](13-web-stack)
+### [13. The Web Stack](13-web-stack)
 
 Autor: TBD (_help needed_)
 
@@ -392,7 +389,7 @@ aprendido y cómo encajan las diferentes piezas del web stack en el producto.
 
 Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `server`, `client`, ...
 
-#### [14. Building HTTP servers with Node.js](14-nodejs)
+### [14. Building HTTP servers with Node.js](14-nodejs)
 
 Autor: TBD (_help needed_)
 
@@ -406,7 +403,7 @@ algunos endpoints dinámicos que sirvan data en formato JSON.
 
 Tags: `node`, `npm`, `yarn`, `http-server`, `filesystem`, `static-server`, ...
 
-#### [15. Modelando y persistiendo data con NoSQL](15-nosql)
+### [15. Modelando y persistiendo data con NoSQL](15-nosql)
 
 Autor: TBD (_help needed_)
 
@@ -422,7 +419,7 @@ sincronizar.
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
 
-#### [16. Command Line Foo](16-cli)
+### [16. Command Line Foo](16-cli)
 
 Autor: TBD (_help needed_)
 
@@ -439,38 +436,38 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-#### 17. NodeJS
+### 17. NodeJS
 
 Autor: TBD (_help needed_)
 
 Tags: `npm`, `http`, `fs`, `path`, `streams`, `express`, `api-development`,
 `deployment`.
 
-#### 18. Databases
+### 18. Databases
 
 Autor: TBD (_help needed_)
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-#### 19. ME*N Stack
+### 19. ME*N Stack
 
 Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-#### 20. Micro services?
+### 20. Micro services?
 
 Autor: TBD (_help needed_)
 
 Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
 
-#### 21. Análisis y visualización de datos
+### 21. Análisis y visualización de datos
 
 Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-#### 22. WebOps/DevOps
+### 22. WebOps/DevOps
 
 Autor: TBD (_help needed_)
 
@@ -479,13 +476,13 @@ Application deployment, management, maintenance, configuration and repair.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `repair`, `debugging`, ...
 
-#### 23. Algoritmos
+### 23. Algoritmos
 
 Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-#### 24. Estructuras de datos
+### 24. Estructuras de datos
 
 Autor: TBD (_help needed_)
 

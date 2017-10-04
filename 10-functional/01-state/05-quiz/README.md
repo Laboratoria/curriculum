@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### Una función pura es...
+### Una función pura es
 
 #### Opciones
 
