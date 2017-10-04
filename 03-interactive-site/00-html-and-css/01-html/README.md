@@ -31,7 +31,7 @@ desarollador web.
 >
 > HTML consiste en una serie de elementos, que puedes utilizar para encerrar,
 envolver, o marcar partes diferentes del contenido para hacer que aparezcan de
-una cierta manera, o actuen de determinada forma. Las etiquetas que envuelven
+una cierta manera, o actúen de determinada forma. Las etiquetas que envuelven
 un trozo de contenido pueden hacer que dicho contenido enlace con otra página,
 ponga una palabra en cursiva, etcétera.
 
