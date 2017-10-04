@@ -10,13 +10,13 @@
 
 Define los `PropTypes` para los siguientes tipos de `props`
 
-- Cualquier tipo
-- `String` o `boolean`
-- Una fecha
-- Un elemento `JSX`
-- Alguno de estos tres valores: `'manzanas'`, `'naranjas'`, `'plátanos'` o la
+* Cualquier tipo
+* `String` o `boolean`
+* Una fecha
+* Un elemento `JSX`
+* Alguno de estos tres valores: `'manzanas'`, `'naranjas'`, `'plátanos'` o la
   siguiente forma `{ otro: '[cualquier otra fruta]' }`
-- una lista de `items` con identificadores únicos:
+* una lista de `items` con identificadores únicos:
   ```js
   // valor valido
   const items = [

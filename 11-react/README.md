@@ -205,7 +205,7 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 |----|-----------|------------|----------|------------
 | 01 | lectura   | self-paced |   10min  | Props: `propTypes` y `defaultProps`
 | 02 | práctica  | self-paced |   10min  | Ejercicio: `propTypes` y `defaultProps`
-| 03 | lectura   | self-paced |   10min  | `children` property y `React.Children` utils
+| 03 | lectura   | self-paced |   10min  | `children` y `React.Children`
 | 04 | práctica  | self-paced |   10min  | Ejercicio: usando `children`
 | 05 | seminario | guiado     |   10min  | Re-cap
 | 06 | lectura   | self-paced |   10min  | Higher-order components (HOC)
@@ -304,7 +304,7 @@ es de 30min.
 
 |  # |  Tipo    | Formato    | Duración | Descripción
 |----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |    5min  | Software life cycle: desarrollo, empaquetado y depliegue
+| 01 | lectura  | self-paced |    5min  | Desarrollo, empaquetado y depliegue
 | 02 | práctica | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
 
 ### Unidad 12: [Día de la demo](12-demos)
@@ -338,15 +338,15 @@ dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
 
 ## Benchmarks
 
-* https://reacttraining.com/online/react-fundamentals
-* https://thinkster.io/tutorials/getting-started-with-react
-* https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
-* https://github.com/arkency/reactjs_koans
-* https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react
-* https://www.codeschool.com/courses/powering-up-with-react
-* https://reactforbeginners.com/
-* https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
-* https://frontendmasters.com/courses/react/
+* [React fundamentals - reacttraining.com](https://reacttraining.com/online/react-fundamentals)
+* [Getting started with React - thinkster.io](https://thinkster.io/tutorials/getting-started-with-react)
+* [React JS Tutorials Playlist - LearnCode.academy en YouTube](https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+* [arkency/reactjs_koans - GitHub](https://github.com/arkency/reactjs_koans)
+* [What people are saying about React - @mikechau on GiHub](https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react)
+* [Powering up with React - codeschool.com](https://www.codeschool.com/courses/powering-up-with-react)
+* [reactforbeginners.com](https://reactforbeginners.com/)
+* [Learn React.js Basics - lynda.com](https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html)
+* [React - frontendmasters.com](https://frontendmasters.com/courses/react/)
 
 ## Lecturas complementarias
 

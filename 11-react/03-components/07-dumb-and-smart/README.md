@@ -20,49 +20,48 @@ refieren exáctamente a lo mismo, pero la idea central es la misma.
 
 ¿Qué características tiene un componente presentacional?
 
-- Se ocupan de cómo **se ven** las cosas
-- Suelen componerse usando otros componentes (presentacionales o contenedores) y
+* Se ocupan de cómo **se ven** las cosas
+* Suelen componerse usando otros componentes (presentacionales o contenedores) y
   generalmente contiene markup y estilos.
-- Suelen hacer uso de la prop `children`
-- No tienen dependencias con el resto de la aplicación
-- No especifican cómo se obtiene la información que usan ni cómo se modifica,
+* Suelen hacer uso de la prop `children`
+* No tienen dependencias con el resto de la aplicación
+* No especifican cómo se obtiene la información que usan ni cómo se modifica,
   sólo la usan.
-- Todo lo que saben y pueden hacer lo hacen a través de sus `props`
-- Predomina el código **JSX**
+* Todo lo que saben y pueden hacer lo hacen a través de sus `props`
+* Predomina el código **JSX**
 
 ## Componentes contenedores
 
 ¿Y cómo puedo reconocer a un componente contenedor?
 
-- Se ocupan de cómo **funcionan** las cosas
-- Suelen componerse usando otros componentes (presentacionales o contenedores),
+* Se ocupan de cómo **funcionan** las cosas
+* Suelen componerse usando otros componentes (presentacionales o contenedores),
   pero generalmente no contienen markup (exceptuando quizás divs para wrapping)
   y nunca nunca contienen estilos.
-- Proveen la data y el comportamiento a componentes presentacionales o a otros
+* Proveen la data y el comportamiento a componentes presentacionales o a otros
   contenedores.
-- Usa actions de Redux para injectar callbacks a los eventos de los componentes
+* Usa actions de Redux para injectar callbacks a los eventos de los componentes
   presentacionales
-- Son stateful al conectarse al `state` de Redux
-- Y en nuestro caso, se generan usando la función `connect` de Redux
-- Predomina el código **JavaScript**
+* Son stateful al conectarse al `state` de Redux
+* Y en nuestro caso, se generan usando la función `connect` de Redux
+* Predomina el código **JavaScript**
 
 ## Beneficios de este enfoque
 
-- **Mejor separación de intereses (separation of concerns):** Tienes un mejor
+* **Mejor separación de intereses (separation of concerns):** Tienes un mejor
   entendimiento de tu aplicación y tu interfaz desarrollando de esta manera.
-- **Mayor reusabilidad:** Puedes reutilizar tus componentes presentacionales con
+* **Mayor reusabilidad:** Puedes reutilizar tus componentes presentacionales con
   diferentes data sources y crear así nuevos componentes que a su vez pueden ser
   reutilizados...
-- **Los componentes presentacionales son la "cara" de tu aplicación.** Puedes
+* **Los componentes presentacionales son la "cara" de tu aplicación.** Puedes
   extraerlos todos en una sólo pantalla, y así los diseñadores puede modificar
   la plantilla sin alterar la lógica de tu aplicación.
-- Te fuerza a extraer componetes puramente de *layout* como los Sidebar, Header
+* Te fuerza a extraer componetes puramente de *layout* como los Sidebar, Header
   o Footer y usar `children`, en lugar de duplicar ese markup en diferentes
   contenedores.
 
 Es importante que recuerdes que los componentes no tienen la obligación de
 retornar markup, sólo una función que siga las reglas de React.
-
 
 ## Componentes presentacionales vs. Componentes contenedores
 
@@ -109,8 +108,9 @@ a sus múltiples children), introduce un nuevo container en algún punto del sub
 árbol para reducir la complejidad como se explica en el
 [FAQ de Redux](http://redux.js.org/docs/faq/ReactRedux.html#react-multiple-components).
 
----
-sources:
-  - http://redux.js.org/docs/basics/UsageWithReact.html
-  - https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
----
+***
+
+Fuentes:
+
+* [Documentación oficial de Redux - Usage with React](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Smart and dump components - @dan_abramov en Medium](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)

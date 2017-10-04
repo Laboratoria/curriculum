@@ -27,14 +27,14 @@ especialmente útiles para el desarrollo en `React`, pero `ECMAScript` es
 muchísimo más que eso. Aquí te dejamos unos recursos por si quieres profundizar
 en el tema:
 
-- [es6-features.org](http://es6-features.org)
-- [Exploring ES6](http://exploringjs.com/es6/index.html)
+* [es6-features.org](http://es6-features.org)
+* [Exploring ES6](http://exploringjs.com/es6/index.html)
 
 ***
 
 Veamos algunos ejemplos:
 
-- Funciones "flecha" (arrow functions)
+* Funciones "flecha" (arrow functions)
 
   input:
 
@@ -50,7 +50,7 @@ Veamos algunos ejemplos:
   });
   ```
 
-- Asignación "desestructurada" (destructuring):
+* Asignación "desestructurada" (destructuring):
 
   input:
 
@@ -66,7 +66,7 @@ Veamos algunos ejemplos:
     b = _ref[2];
   ```
 
-- Operador de propagación (spread operator):
+* Operador de propagación (spread operator):
 
   input:
 
@@ -82,7 +82,7 @@ Veamos algunos ejemplos:
   foo([].concat(x));
   ```
 
-- Definiciones abreviadas de Objetos (shorthand properties):
+* Definiciones abreviadas de Objetos (shorthand properties):
 
   input:
 
@@ -106,7 +106,7 @@ Veamos algunos ejemplos:
   };
   ```
 
-- Interpolación de `Strings`:
+* Interpolación de `Strings`:
 
   input:
 
@@ -126,7 +126,7 @@ Veamos algunos ejemplos:
   "Hello " + nombre + ", vamos pa' " + lugar + "?";
   ```
 
-- Declaración de variables con `let` y `const`:
+* Declaración de variables con `let` y `const`:
 
   input:
 
@@ -150,11 +150,11 @@ queremos utilizar.
 
 Aquí una pequeña lista de presets populares:
 
-- [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
-- [es2015](http://babeljs.io/docs/plugins/preset-2015/) (este usaremos nosotros)
-- [es2016](http://babeljs.io/docs/plugins/preset-2016/)
-- [es2017](http://babeljs.io/docs/plugins/preset-2017/)
-- [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
+* [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
+* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (este usaremos nosotros)
+* [es2016](http://babeljs.io/docs/plugins/preset-2016/)
+* [es2017](http://babeljs.io/docs/plugins/preset-2017/)
+* [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
 
 Si quieres saber más de [babel](http://babeljs.io/), visita su
 [documentación](https://babeljs.io/docs/setup/). Para conocer todos los
@@ -206,8 +206,8 @@ Las *funciones flecha* otorgan principalmente 3 beneficios:
 Para conocer más al detalle los beneficios y características de las *funciones
 flecha*, te recomendamos los siguientes recursos:
 
-- [*Funciones Flecha* en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
-- [*JavaScript Arrow Functions Introduction* por Wes Bos](http://wesbos.com/arrow-functions/)
+* [*Funciones Flecha* en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
+* [*JavaScript Arrow Functions Introduction* por Wes Bos](http://wesbos.com/arrow-functions/)
 
 ***
 

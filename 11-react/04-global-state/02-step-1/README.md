@@ -1,4 +1,4 @@
-# React + Redux = Awesome!!!
+# React + Redux = Awesome
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,22 +6,26 @@
 
 ***
 
-En esta lectura vamos a hacer el proceso completo de diseñar una aplicación usando React y Redux.
+En esta lectura vamos a hacer el proceso completo de diseñar una aplicación
+usando React y Redux.
 
-Usaremos como base nuestro proyecto de las lecciones anteriores, pero reemplazaremos el `MainSection` por un nuevo componente `FilterableProductTable` que nos muestre una tabla filtrable de productos.
+Usaremos como base nuestro proyecto de las lecciones anteriores, pero
+reemplazaremos el `MainSection` por un nuevo componente `FilterableProductTable`
+que nos muestre una tabla filtrable de productos.
 
 ## Setup
 
 Antes que nada vamos a instalar nuestras nuevas dependencias.
 
-```
+```sh
 yarn add redux react-redux
 yarn add -D redux-devtools
 ```
 
 Y desde tu navegador instala la [extensión](http://extension.remotedev.io/).
 
-Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente presentacional:
+Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente
+presentacional:
 
 ```js
 // lib/components/Main.js
@@ -59,7 +63,8 @@ Main.propTypes = {
 export default Main
 ```
 
-`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo `lib/FilterableProductTable/components/index.js` con el siguiente contenido.
+`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo
+`lib/FilterableProductTable/components/index.js` con el siguiente contenido.
 
 > Más adelante entederás por qué elegimos esta estructura de carpetas.
 
@@ -100,7 +105,10 @@ y por últimos limpiamos un poco nuestro `index.html`
 </html>
 ```
 
-A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu consola de props no indicadas) y esto es porque `Main` está esperando props que todavia no le estamos proveyendo. Con esta base comenzamos nuestra implementación.
+A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu
+consola de props no indicadas) y esto es porque `Main` está esperando props que
+todavia no le estamos proveyendo. Con esta base comenzamos nuestra
+implementación.
 
 ## Implementación
 
@@ -114,7 +122,7 @@ Imagina que ya tenemos un mock de nuestrx diseñadorx que se ve asi:
 
 Y nuestra API JSON nos devuelve data con la siguiente estructura:
 
-```
+```js
 [
   {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
   {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
@@ -127,34 +135,59 @@ Y nuestra API JSON nos devuelve data con la siguiente estructura:
 
 ## Paso 1: Divide la interfaz (UI) en una jerarquía de componentes
 
-Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los componentes (y sub componentes) y les das nombres. Si trabajas con unx diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu diseñadorx es buenx con la semántica, entonces los nombres de los Layers de Photoshop pueden ser buenos nombres para tus componentes de React!
+Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los
+componentes (y sub componentes) y les das nombres. Si trabajas con unx
+diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu
+diseñadorx es buenx con la semántica, entonces los nombres de los Layers de
+Photoshop pueden ser buenos nombres para tus componentes de React!
 
-Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos criterios que utilizas para decidir si debes crear una nueva función u objecto. Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle), que en React sería que un componente debe idealmente hacer una sola cosa. Si comienza a crecer es hora de decomponerlos en componentes mas pequeños.
+Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos
+criterios que utilizas para decidir si debes crear una nueva función u objecto.
+Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle),
+que en React sería que un componente debe idealmente hacer una sola cosa. Si
+comienza a crecer es hora de decomponerlos en componentes mas pequeños.
 
-Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás que cuando has modelado correctamente tu `state`, tu UI (y con ella la estructura de tus componentes) se amoldará si problemas. Esto es porque tu UI y tu `state` suelen adherirse a la misma *arquitectura de la información*, lo que implica que en general separar tu UI de tu data es trivial: divide tus componentes de tal manera que representen exactamente una porción de la información.
+Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás
+que cuando has modelado correctamente tu `state`, tu UI (y con ella la
+estructura de tus componentes) se amoldará si problemas. Esto es porque tu UI y
+tu `state` suelen adherirse a la misma *arquitectura de la información*, lo que
+implica que en general separar tu UI de tu data es trivial: divide tus
+componentes de tal manera que representen exactamente una porción de la
+información.
 
 ![Component diagram](https://facebook.github.io/react/img/blog/thinking-in-react-components.png)
 
 Aquí verás que tenemos 5 componentes:
 
-  1. **`FilterableProductTable` (naranja):** contiene el bloque completo
-  2. **`SearchBar` (azul):** recibe el *input del usuario*
-  3. **`ProductTable` (verde):** muestra y filtra la *colección* según el *input del usuario*
-  4. **`ProductCategoryRow` (turquesa):** muestra la cabecera para cada *categoría*
-  5. **`ProductRow` (rojo):** muestra una fila para cada *producto*
+1. **`FilterableProductTable` (naranja):** contiene el bloque completo
+2. **`SearchBar` (azul):** recibe el *input del usuario*
+3. **`ProductTable` (verde):** muestra y filtra la *colección* según el *input
+   del usuario*
+4. **`ProductCategoryRow` (turquesa):** muestra la cabecera para cada
+   *categoría*
+5. **`ProductRow` (rojo):** muestra una fila para cada *producto*
 
-Si observas a `ProductTable`, verás que la cabecera de la tabla (que tiene los labels "Name" y "Price") no están en su propio componente. Esto es según la preferencia de cada uno. En este ejemplo, los dejamos como parte de `ProductTable` porque es parte de la lógica de renderizado de la *colección*, que es responsabilidad de `ProductTable`. Sin embargo si con el tiempo este header crece y se complejiza (por ejemplo para permitir ordenamiento), probablemente tenga sentido crearle su propio componente `ProductTableHeader`.
+Si observas a `ProductTable`, verás que la cabecera de la tabla (que tiene los
+labels "Name" y "Price") no están en su propio componente. Esto es según la
+preferencia de cada uno. En este ejemplo, los dejamos como parte de
+`ProductTable` porque es parte de la lógica de renderizado de la *colección*,
+que es responsabilidad de `ProductTable`. Sin embargo si con el tiempo este
+header crece y se complejiza (por ejemplo para permitir ordenamiento),
+probablemente tenga sentido crearle su propio componente `ProductTableHeader`.
 
-Ahora que hemos identificado cuáles son nuestro componentes, vamos a ordenarlos en una jerarquía. Esto es simple, si un componente aparece dentro de otro componente en el mock, entonces debería aparecer como hijo en la jerarquía:
+Ahora que hemos identificado cuáles son nuestro componentes, vamos a ordenarlos
+en una jerarquía. Esto es simple, si un componente aparece dentro de otro
+componente en el mock, entonces debería aparecer como hijo en la jerarquía:
 
-  * `FilterableProductTable`
-    * `SearchBar`
-    * `ProductTable`
-      * `ProductCategoryRow`
-      * `ProductRow`
+* `FilterableProductTable`
+  - `SearchBar`
+  - `ProductTable`
+    * `ProductCategoryRow`
+    * `ProductRow`
 
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
+***
+
+Fuentes:
+
+* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

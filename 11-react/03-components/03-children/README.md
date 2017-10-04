@@ -133,7 +133,7 @@ importante es que entiendas que **cualquier cosa** puede ir dentro de `children`
 
 ## Manipulando `children`
 
-Esta afirmación de que <i>**cualquier cosa** puede ir dentro de `children`</i>,
+Esta afirmación de que "**cualquier cosa** puede ir dentro de `children`",
 hace que `children` sea una estructura de datos *"opaca"*. Como puede recibir
 cualquier cosa, uno nunca puede asumir nada en relación a la forma que tendrá.
 

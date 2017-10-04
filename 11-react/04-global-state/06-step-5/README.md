@@ -1,4 +1,4 @@
-# React + Redux = Awesome!!!
+# React + Redux = Awesome
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,9 +6,11 @@
 
 ***
 
-## Paso 5: Determina cómo reacciona tu state a las actions disparadas (**Changes are made with pure functions**)
+## Paso 5: Determina cómo reacciona tu state a las actions disparadas
 
-Ya tenemos a las acciones disparándose, ahora analicemos cómo queremos que el state se modifique ante cada una de ellas. Como lo establece nuestro principio de **Changes are made with pure functions**, vamos a modificar nuestro reducer.
+Ya tenemos a las acciones disparándose, ahora analicemos cómo queremos que el
+state se modifique ante cada una de ellas. Como lo establece nuestro principio
+de **Changes are made with pure functions**, vamos a modificar nuestro reducer.
 
 ```js
 // lib/reducer.js
@@ -112,22 +114,34 @@ export default (state = INIT_STATE, action) => {
 
 ## Wrap up
 
-Esta lección ha sido intensa, con varios conceptos nuevos y mágicamente útiles. Mientras vas agarrando práctica en Redux, intenta de realizar conscientemente los pasos que hemos visto en esta lección.
+Esta lección ha sido intensa, con varios conceptos nuevos y mágicamente útiles.
+Mientras vas agarrando práctica en Redux, intenta de realizar conscientemente
+los pasos que hemos visto en esta lección.
 
-Si lo piensas, en realidad, React y Redux no son más que un montón de funciones y objetos JSON que organizados de una manera específica, te permiten realizar tareas muy complejas de la misma manera que realizas las simples. El secreto radica en el diseño de tus componentes.
+Si lo piensas, en realidad, React y Redux no son más que un montón de funciones
+y objetos JSON que organizados de una manera específica, te permiten realizar
+tareas muy complejas de la misma manera que realizas las simples. El secreto
+radica en el diseño de tus componentes.
 
-> Pasas muchas horas al día en el transporte público? Usa ese tiempo para diseñar tu aplicación en papel y lapiz!!!
-> Antes de comenzar a picar como unx locx, detente un segundo para diseñar tu aplicación:
+> Pasas muchas horas al día en el transporte público? Usa ese tiempo para
+> diseñar tu aplicación en papel y lapiz!!!
+>
+> Antes de comenzar a picar como unx locx, detente un segundo para diseñar tu
+> aplicación:
+>
 > - Define la jerarquía de tus componentes
 > - Define sus interfaces con sus props y prop-types
 > - Diseña la forma y partes de tu state
 > - Piensa en las actions que pueden suceder en tu app
-> - Y por último considera cómo evoluciona tu state: qué propiedades de tu state reccionan a qué actions
+> - Y por último considera cómo evoluciona tu state: qué propiedades de tu state
+> - reccionan a qué actions
 >
-> Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y claro, resumido solamente a escribir bloques de markup o lógica muy simple.
+> Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y
+> claro, resumido solamente a escribir bloques de markup o lógica muy simple.
 
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
+***
+
+Fuentes:
+
+* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

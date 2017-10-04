@@ -1,4 +1,4 @@
-# React + Redux = Awesome!!!
+# React + Redux = Awesome
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,24 +6,33 @@
 
 ***
 
-## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI (**Single source of truth**)
+## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
 
-Piensa en cuál es el mínimo conjunto de datos mutables que necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*. Identifica la representación absolutamente mínima del `state` de tu aplicación y toda la información derivada la calculas bajo demanda. Por ejemplo si en nuestro ejemplo quisieramos mostrar la suma total de items disponibles, sólo nos alcanza con tener la lista de productos e iterarla para contabilizar la disponibilidad, sin necesidad de tener otra propiedad en nuestro `state` para guardar el calculo.
+Piensa en cuál es el mínimo conjunto de datos mutables que necesita tu
+aplicación. La clave aquí es DRY: *Don't Repeat Yourself*. Identifica la
+representación absolutamente mínima del `state` de tu aplicación y toda la
+información derivada la calculas bajo demanda. Por ejemplo si en nuestro ejemplo
+quisieramos mostrar la suma total de items disponibles, sólo nos alcanza con
+tener la lista de productos e iterarla para contabilizar la disponibilidad, sin
+necesidad de tener otra propiedad en nuestro `state` para guardar el calculo.
 
 Piensa en todas las piezas de información que tiene nuestra aplicación:
 
-  * La lista original de productos
-  * El texto de búsqueda que ingresa el usuario
-  * El valor del checkbox
-  * La lista filtrada de productos
+* La lista original de productos
+* El texto de búsqueda que ingresa el usuario
+* El valor del checkbox
+* La lista filtrada de productos
 
-Ahora hacemos la integración de React con Redux para comenzar con este estado global.
+Ahora hacemos la integración de React con Redux para comenzar con este estado
+global.
 
-> No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas luego desarrollar tus propios actions y reducers
+> No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas
+> luego desarrollar tus propios actions y reducers
 
 Aquí es donde entra en acción Redux.
 
-Primero (3.1) creamos un nuevo archivo `lib/store.js` que contendrá la configuración de nuestro Redux store
+Primero (3.1) creamos un nuevo archivo `lib/store.js` que contendrá la
+configuración de nuestro Redux store
 
 ```js
 // lib/store.js
@@ -46,7 +55,8 @@ const store = createStore(
 export default store
 ```
 
-y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de nuestra aplicación, como lo definimos más arriba.
+y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de
+nuestra aplicación, como lo definimos más arriba.
 
 ```js
 // lib/reducer.js
@@ -82,7 +92,8 @@ const INIT_STATE = {
   ]
 }
 
-// nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor inicial
+// nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor
+// inicial
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
 
@@ -129,12 +140,17 @@ if (module.hot) {
 }
 ```
 
-Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con la info indicada en INIT_STATE
+Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con
+la info indicada en INIT_STATE
+
 ![State en Redux Dev Tools](https://github.com/merunga/curricula-js/raw/master/11-react/L06-hocs-global-state/static/redux-dev-tools.jpg)
 
-Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e inyectemos la magia de Redux a nuestros componentes.
+Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e
+inyectemos la magia de Redux a nuestros componentes.
 
-Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro HOC a la altura de la carpeta `components` que se encargará de setear la data que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
+Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro
+HOC a la altura de la carpeta `components` que se encargará de setear la data
+que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
 
 ```js
 // lib/Main.js
@@ -171,12 +187,15 @@ const MainWithRedux = connect(
 export default MainWithRedux
 ```
 
-Y lo segundo es indicar en `index.js` que ya no queremos usar `lib/components/Main`, sino su versión mejorada `lib/Main`.
+Y lo segundo es indicar en `index.js` que ya no queremos usar
+`lib/components/Main`, sino su versión mejorada `lib/Main`.
 
-> Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate cómo eso se refleja en tu interfaz!
+> Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate
+> cómo eso se refleja en tu interfaz!
 
----
-sources:
-  - https://facebook.github.io/react/docs/thinking-in-react.html
-  - http://redux.js.org/docs/basics/UsageWithReact.html
----
+***
+
+Fuentes:
+
+* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

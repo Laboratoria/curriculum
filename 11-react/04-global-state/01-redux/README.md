@@ -145,7 +145,9 @@ Redux.
 
 ### Una sóla fuente de información (Single source of truth)
 
-**El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu aplicación es guardado en un objeto dentro de un único [store](http://redux.js.org/docs/Glossary.html#store).**
+**El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu aplicación
+es guardado en un objeto dentro de un único
+[store](http://redux.js.org/docs/Glossary.html#store).**
 
 ```js
 console.log(store.getState())
@@ -191,7 +193,9 @@ store.dispatch({
 })
 ```
 
-### Los cambios de state, se realizan a través de funciones puras (Changes are made with pure functions)
+### Los cambios de state, se realizan a través de funciones puras
+
+_Changes are made with pure functions_
 
 **Para detallar la manera en la que cambia el state en respuesta a los actions,
 usas un [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**
@@ -248,18 +252,23 @@ uso como sagas, thunks o redux offline)
 ## Referencias complementarias
 
 * Learn Redux from its creator:
-  - [Part 1: Getting Started with Redux](https://egghead.io/series/getting-started-with-redux) (30 free videos)
-  - [Part 2: Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) (27 free videos)
+  - [Part 1: Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
+    (30 free videos)
+  - [Part 2: Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+    (27 free videos)
 * [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
 
----
-sources:
-  - https://github.com/reactjs/redux/blob/master/README.md
-  - http://redux.js.org/docs/introduction/CoreConcepts.html
-  - http://redux.js.org/docs/introduction/ThreePrinciples.html
-refs:
-  - http://redux.js.org/
-  - https://egghead.io/courses/getting-started-with-redux
-  - https://scotch.io/bar-talk/getting-started-with-redux-an-intro
-  - https://www.codementor.io/mz026/getting-started-with-react-redux-an-intro-8r6kurcxf
----
+***
+
+Fuentes:
+
+* https://github.com/reactjs/redux/blob/master/README.md
+* http://redux.js.org/docs/introduction/CoreConcepts.html
+* http://redux.js.org/docs/introduction/ThreePrinciples.html
+
+Referencias:
+
+* http://redux.js.org/
+* https://egghead.io/courses/getting-started-with-redux
+* https://scotch.io/bar-talk/getting-started-with-redux-an-intro
+* https://www.codementor.io/mz026/getting-started-with-react-redux-an-intro-8r6kurcxf

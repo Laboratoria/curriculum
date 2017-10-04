@@ -11,23 +11,18 @@
 Tomemonos un segundo para analizar qué hace y cómo está funcionando `babel`
 
 1. Primero importamos la versión para navegadores de `babel`:
-
    ```html
    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
    ```
-
-  Esto carga un versión de babel que se encarga de "escuchar" por cualquier tag
-  `script` que esté marcado como `text/babel`. Ten en cuenta que estos tags no
-  serán procesados por tu navegador, ya que su tipo no está configurado como uno
-  de los "entendibles" por defecto.
-
+   Esto carga un versión de babel que se encarga de "escuchar" por cualquier tag
+   `script` que esté marcado como `text/babel`. Ten en cuenta que estos tags no
+   serán procesados por tu navegador, ya que su tipo no está configurado como uno
+   de los "entendibles" por defecto.
 2. Luego cargamos un archivo externo procesándolo con la versión de `babel`
    importada en el punto anterior
-
    ```html
    <script type="text/babel" src="page.js" ></script>
    ```
-
    Cuando el parser encuentra un tag `script` marcado como `text/babel` lo
    relega al `babel`, quien se encarga de transpilarlo y ejecutarlo.
 

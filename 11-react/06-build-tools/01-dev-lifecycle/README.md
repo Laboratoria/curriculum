@@ -29,11 +29,11 @@ Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
 
 `webpack`
 
-- nos avisa cuando el contenido esta disponible (en lugar de presionar F5
+* nos avisa cuando el contenido esta disponible (en lugar de presionar F5
   hasta que la página esté disponible)
-- ahorra el paso extra de refrescar manualmente el navegador para comprobar un
+* ahorra el paso extra de refrescar manualmente el navegador para comprobar un
   cambio
-- modifica el dom con los cambios sin ni siquiera refrescar la página.
+* modifica el dom con los cambios sin ni siquiera refrescar la página.
 
 Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de
 desarrollo (DX) mucho mas fluída.
@@ -56,11 +56,11 @@ para un entorno de *producción*.
 Estos procesos de *empaquetado* (`bundling`) puede tener infinidad de pasos,
 algunos comunes:
 
-- concatenar, *minificar* y *uglifycar* todo el codigo de un mismo tipo en un
+* concatenar, *minificar* y *uglifycar* todo el codigo de un mismo tipo en un
   solo archivo
-- optimizar imágenes, audio y video
-- crear sprites o versiones *retina* y *standard* para las iḿágenes de fondo
-- ... infinidad de cosas mas.
+* optimizar imágenes, audio y video
+* crear sprites o versiones *retina* y *standard* para las iḿágenes de fondo
+* ... infinidad de cosas mas.
 
 ## Despliegue (`deployment`)
 

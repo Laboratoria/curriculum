@@ -6,12 +6,6 @@
 
 ***
 
----
-source:
-  - https://facebook.github.io/react/docs/higher-order-components.html
-  - https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
----
-
 Ya tenemos una aplicación estática modelada con componentes de React, muy
 modernos y mantenibles, pero carecemos de algo fundamental que cualquier
 aplicación moderna necesita: interacción y memoria.
@@ -28,7 +22,7 @@ datos que necesitan y orquestar el estado global de nuestra aplicación. Por
 último realizaremos un proceso completo de diseño e implementación de un
 componente más complejo, utilizando React y Redux.
 
-# Higher-order Components (HOCs)
+## Higher-order Components (HOCs)
 
 Los Higher-order Components, o Componentes de grado superior o HOCs son una
 técnica avanzada en React para reusar la lógica de nuestra UI. Los HOCs no son
@@ -50,8 +44,7 @@ en componentes.
 En esta lectura veremos por qué son tan utiles los HOCs y qué formas pueden
 tomar.
 
-
-## Usando HOCs para funcionalidades transversales (Cross-Cutting Concerns)
+### Usando HOCs para funcionalidades transversales (Cross-Cutting Concerns)
 
 > En las primeras versiones de React, se recomendaba el uso de Mixins y quizás
 todavía encuentres información sobre ellos. Hoy por hoy el uso de Mixins está
@@ -100,9 +93,9 @@ const BlogPostList = ({ user }) => {
 `DataSource` y renderizan distintos outputs, pero la mayoría de su
 implementación es la misma:
 
-- recoger un `user`
-- llamar al metodo que corresponda de `DataSource` con `user`
-- renderizar una lista como corresponda
+* recoger un `user`
+* llamar al metodo que corresponda de `DataSource` con `user`
+* renderizar una lista como corresponda
 
 Te podrás imaginar que en una aplicación grande, este patrón ser repite una y
 otra y otra vez. Entonces lo que queremos es una abtracción que nos permita
@@ -111,8 +104,8 @@ Aquí es donde los HOCs muestran su real valor.
 
 Ya sabemos que `CommentList` y `BlogPostlist` se diferencian por:
 
-- `DataSource.getComments` vs `DataSource.getPosts`
-- `<TextBlock text={post} />` vs `<Comment comment={comment} />`
+* `DataSource.getComments` vs `DataSource.getPosts`
+* `<TextBlock text={post} />` vs `<Comment comment={comment} />`
 
 Entonces reescribamos nuestros componentes para que sólo se ocupen de la lógica
 de renderizado y escribamos una nueva función `withData` que nos permita hacer
@@ -200,7 +193,7 @@ nuestro data source.
 A continuación veremos algunas buenas prácticas y puntos a tener en cuenta, te
 ahorrarán horas de debugging.
 
-## Convención: Traspasar todas las props recibidas al componente interno
+### Convención: Traspasar todas las props recibidas al componente interno
 
 Los HOCs agregar funcionalidades a los componentes y no deberían alterar
 drásticamente su comportamiento. Se espera que el componente devuelto por un HOC
@@ -233,8 +226,7 @@ function(props) {
 Esta convención ayuda a asegurar que los HOCs sean tan flexibles y reutilizables
 como sea posible.
 
-
-## Convención: Maximizando la capacidad de composición
+### Convención: Maximizando la capacidad de composición
 
 No todos los HOCs son iguales, a veces reciben un único argumento, el componente
 interno:
@@ -294,7 +286,7 @@ El utilitario `compose` es provisto por varias librerías incluyendo lodash
 [Redux](http://Redux.js.org/docs/api/compose.html), y
 [Ramda](http://ramdajs.com/docs/#compose).
 
-## Convención: Extrae el "Display Name" para mejor debuggeo
+### Convención: Extrae el "Display Name" para mejor debuggeo
 
 Los componentes contenedores creados por los HOCs se muestran en
 [React Developer Tools](https://github.com/facebook/react-devtools) como
@@ -317,12 +309,12 @@ function getDisplayName(WrappedComponent) {
 }
 ```
 
-## A tener en cuenta
+### A tener en cuenta
 
 Los HOCs vienen con algunos temas a tener en cuenta que no son obvios si eres
 nuevo en React.
 
-### No uses HOCs dentro del cuerpo de un componente
+#### No uses HOCs dentro del cuerpo de un componente
 
 El algoritmo de reconciliaci[on de React, usa la identidad de los componentes
 para determinar si debe actualizar un sub árbol del DOM o debe botarlo y montar
@@ -352,7 +344,7 @@ consistente a través de todos los renders, que es lo que generalmente deseas.
 En casos raros cuando necsitas aplicar un HOC dinámicamente, necesitas hacerlo
 utilizando componentes OOP que veremos en la próxima lección.
 
-### Los métodos estáticos se deben copiar "a mano"
+#### Los métodos estáticos se deben copiar "a mano"
 
 A veces es útil definir métodos estáticos en un componente de React.
 
@@ -414,7 +406,7 @@ export { someFunction };
 import MyComponent, { someFunction } from './MyComponent.js';
 ```
 
-# Resumen
+## Resumen
 
 En esta lectura hemos podido apreciar la gran versatilidad que tienen los HOCs:
 Esta posibilidad de componer diferentes funcionalidades a través de "capas",
@@ -422,3 +414,10 @@ como las de una cebolla.
 
 En la próxima lectura nos enfocaremos en un escenario particular que hace un uso
 intensivo de los HOCs: Redux
+
+***
+
+Fuentes:
+
+* [Higher Order Components - Documentación oficial de React](https://facebook.github.io/react/docs/higher-order-components.html)
+* [React Higher Order Components in depth - @franleplant en Medium](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e)
