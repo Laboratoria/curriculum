@@ -1,7 +1,7 @@
 # Retos
 - Tipo: `code`
 - Formato: self-learning`
-- Duración: `8hrs`
+- Duración: `480min`
 
 ## Objetivos
 
@@ -75,7 +75,7 @@ Además es importante identificar propiedades asociadas a estos objetos así com
 ```js
 
 var maze = {
-    matrix: undefined, // representa el mapa del laberinto  
+    matrix: undefined, // representa el mapa del laberinto
     startX: undefined,  // posición x inicial del laberinto
     startY: undefined,  // posición y inicial del laberinto
     endX: undefined,  // posición x que representa la salida

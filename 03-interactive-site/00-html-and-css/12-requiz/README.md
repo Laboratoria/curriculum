@@ -47,7 +47,7 @@ entendimiento pleno de los conceptos.
 
 ### 4) ¿Cuál es el valor de la propiedad `position` por defecto de los elementos?
 
-### Opciones
+#### Opciones
 
 1. fixed
 2. absolute
@@ -228,6 +228,14 @@ ul#awesome #must-use {
 }
 ```
 
+#### Opciones
+
+1. Rojo
+2. Negro
+3. Azul
+
+<solution style="display:none;">3</solution>
+
 ### 13) ¿Para qué sirve line-height?
 
 #### Opciones
@@ -242,21 +250,18 @@ ul#awesome #must-use {
 
 #### Opciones
 
-1.
-   ```css
-  { p = color: red;
-    font-size: 15px;
-  }
-  ```
-2.
-   ```css
+1. ```css
+   { p = color: red;
+     font-size: 15px;
+   }
+   ```
+2. ```css
    p {
      color: red,
      font-size: 15px,
    }
    ```
-3.
-   ```css
+3. ```css
    p {
      color: red;
      font-size: 15px;
@@ -267,7 +272,7 @@ ul#awesome #must-use {
 
 ### 15) ¿Cuáles son las propiedades para posicionar elementos?
 
-### Opciones
+#### Opciones
 
 1. top, left, right, bottom, center
 2. head, body, right, middle, side
@@ -277,14 +282,14 @@ ul#awesome #must-use {
 <solution style="display:none">1</solution>
 
 ### 16) Según el siguiente código, ¿Cuál seria el resultado en el navegador?
-![cascada](positioning.png)
+![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/positioning.png?raw=true)
 
 #### Opciones
 
-1. ![cascada](pos-option1.png)
-2. ![cascada](pos-option2.png)
-3. ![cascada](pos-option3.png)
-4. ![cascada](pos-option4.png)
+1. ![Positioning - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option1.png?raw=true)
+2. ![Positioning - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option2.png?raw=true)
+3. ![Position - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option3.png?raw=true)
+4. ![Position - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option4.png?raw=true)
 
 <solution style="display:none">3</solution>
 
@@ -314,7 +319,7 @@ ul#awesome #must-use {
 
 ### 18) ¿Qué propiedad usas para hacer el contenido permanezca debajo de los elementos flotantes?
 
-### Opciones
+#### Opciones
 
 1. hide
 2. position
@@ -323,14 +328,14 @@ ul#awesome #must-use {
 
 <solution style="display:none">3</solution>
 
-### 19) ¿Qué regla CSS te permite agregar una fuente externa? 
+### 19) ¿Qué regla CSS te permite agregar una fuente externa?
 
 #### Opciones
 
-1. @font-face
-2. font-color
-3. font-family
-4. font-weight
-5. float
+1. `@font-face`
+2. `font-color`
+3. `font-family`
+4. `font-weight`
+5. `float`
 
 <solution style="display:none">1</solution>
