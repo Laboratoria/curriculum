@@ -150,10 +150,15 @@ function WarningBanner(props) {
 
   return (
     <div className="warning">
-      Warning!
+      {props.warn}
     </div>
   );
 }
+
+ReactDOM.render(
+  <WarningBanner warn="cuidado!" />,
+  document.getElementById('root')
+);
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/Xjoqwm?editors=0010)
+[Try it on CodePen.](https://codepen.io/merunga/pen/QMVPbb?editors=0010)
