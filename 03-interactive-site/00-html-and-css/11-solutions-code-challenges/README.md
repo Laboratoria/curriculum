@@ -21,6 +21,6 @@
   * Estructura y organización de carpetas y archivos
   * Semántica
   * Clases reutilizables (uso correcto de anidado y herencia)
-  * No posicionar elementos _"a la mala/fuerza"_ hard-coding distancias
+  * No posicionar elementos _"a la mala/fuerza"_ (hard-coding)
   * Uso correcto de selectores
   * Uso de comentarios
