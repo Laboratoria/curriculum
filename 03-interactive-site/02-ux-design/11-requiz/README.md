@@ -17,5 +17,3 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
 [Link]()
 
 ***
-
-[Continuar]( )

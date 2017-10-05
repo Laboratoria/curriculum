@@ -41,8 +41,3 @@ Haz un sketch del dashboard de Laboratoria.
 * Ten en cuenta los elementos de navegación en tus sketches.
 * Utiliza títulos y textos reales.
 
-
-
-
-***
-[Continuar]( )

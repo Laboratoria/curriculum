@@ -29,7 +29,3 @@ Luego de ver el video, intenta responder las siguientes preguntas:
 * ¿Qué hace un Product Manager?
 * ¿Qué hace un Growth Hacker?
 
-
-*** 
-
-[Continuar](02-ux-design.md)

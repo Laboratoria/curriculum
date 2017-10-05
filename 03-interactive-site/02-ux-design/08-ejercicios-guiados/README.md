@@ -66,6 +66,3 @@ Entre estudiantes, profesores y staff de Laboratoria tenemos muchos libros que q
 <!--
 	La idea de este ejercicio es practicar entre todos el sketching de productos. No hay una solución perfecta, lo que buscamos es generar ideas bajo una premisa y buscar que vayan practicando el sketching, sin dejar de lado los conceptos ya aprendidos como navegación.
 -->
-
-***
-[Continuar]( )

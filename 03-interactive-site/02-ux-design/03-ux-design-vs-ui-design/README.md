@@ -42,8 +42,3 @@ Adicionalmente el autor Golden Krishna en su libro [The best interface is not in
 **UX**
 
 > Gente, felicidad, resolución de problemas, entender necesidades, amor, eficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez, personalidad, alegría, satisfacción, gratificación, exaltación, euforia, conveniencia,  eficacia, etc. etc. etc.
-
-
-***
-
-[Continuar](04-navegacion.md)

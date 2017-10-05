@@ -33,6 +33,3 @@ Para entender un poco más sobre el proceso de UX Design mira este video:
 
 [![](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://youtu.be/SBIvPTSy1QM)
 
-***
-
-[Continuar](03-ux-design-vs-ui-design.md)

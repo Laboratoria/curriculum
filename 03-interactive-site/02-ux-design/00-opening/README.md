@@ -48,7 +48,3 @@ A continuación te presentamos una serie de preguntas que debes ser capaz de res
 - [ ] ¿Qué tipos de navegación existen?
 - [ ] ¿Por qué son importantes los sketches?
 
-
-***
-
-[Continuar](01-el-equipo-de-desarrollo.md)

@@ -63,7 +63,3 @@ Veamos los siguientes videos y discutamos: https://youtu.be/9wQkLthhHKA  y https
  5. Revisemos los [ejercicios guiados](07-ejercicios-guiados.md) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
 
  <!-- Dejar claro que pueden traer sus propuestas. Y que su creatividad basada en la teoría y su curiosidad son valoradas.-->
-
-***
-
-[Continuar]( )

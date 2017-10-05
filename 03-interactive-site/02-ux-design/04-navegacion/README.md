@@ -140,6 +140,3 @@ Ahora, lee el [capítulo 6 - Señales en la calle y migas de pan ](https://drive
 
 * [No me hagas pensar](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515), Steve Krug, 2011.
 
-***
-
-[Continuar]()	
