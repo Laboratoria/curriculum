@@ -1,4 +1,5 @@
-# Quiz #1
+# Quiz #2
+
 - Tipo: `quiz`
 - Formato: `guided-learning`
 - Duración: `30min`
@@ -17,4 +18,4 @@ _Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
 
 ***
 
-[Continuar](07-lecture.md)
+[Continuar]( )

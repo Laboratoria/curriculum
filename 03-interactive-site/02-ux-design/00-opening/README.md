@@ -14,6 +14,16 @@ En esta unidad aprenderás:
 
 ## ¿Por qué aprender esto?
 
+Porque aprender sobre esto, nos permitirá crear mejores productos digitales. Porque: 
+
+- Al saber el rol que tiene cada uno dentro del desarrollo del producto podremos trabajar mejor en equipo.
+- Conocer la diferencia y la relación entre UX y UI facilitará nuestro trabajo, y nos permitirá comunicarnos y enfocarnos mejor. 
+- Saber cómo es que la navegación ayuda a las personas a cumplir sus tareas dentro de producto digital, nos permitirá crear productos más enfocados en resolver problemas y más fáciles de usar.
+- Externalizar nuestras ideas a través de sketches nos permitirá construir un mejor entendimiento entre el equipo y nos permitirá planear mejor nuestros productos.
+
+
+
+<!--
 A continuación una entrevista a [_"industry expert name"_] y [_"egresada de Laboratoria name"_], quienes nos cuentan sobre la importancia de este tema, respondiendo las siguientes preguntas:
  
   - ¿Cómo describes UX y UI a un niño de 5 años?
@@ -23,6 +33,8 @@ A continuación una entrevista a [_"industry expert name"_] y [_"egresada de Lab
   - ¿Qué _tips_ tienes para alguien que recién empieza a aprender sobre User Experience para la web?
 
 ![](http://via.placeholder.com/450x350)
+-->
+
 
 ## Guia de preguntas y conceptos clave:
 

@@ -45,4 +45,4 @@ Haz un sketch del dashboard de Laboratoria.
 
 
 ***
-[Continuar](10-solutions-challenge.md)
+[Continuar]( )

@@ -66,4 +66,4 @@ Veamos los siguientes videos y discutamos: https://youtu.be/9wQkLthhHKA  y https
 
 ***
 
-[Continuar](08-ejercicios-guiados.md)
+[Continuar]( )
