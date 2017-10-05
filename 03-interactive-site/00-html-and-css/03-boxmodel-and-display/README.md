@@ -35,7 +35,7 @@ Como ejemplo tenemos la siguiente imagen, la cual muestra tres cajas rectangular
 ### Elementos que componen el modelo de cajas
 Las partes que componen cada caja consisten en el **contenido real**, el **relleno**, los **bordes** y los **márgenes**; podemos ver la imagen de abajo que ilustra el modelo de caja:
 
-![box model](https://ibb.co/n4GBow)
+![box model](http://image.ibb.co/cQZxTw/modelo_De_Caja.png)
 
 Explicación de cada parte que compone cada caja:
 
@@ -130,7 +130,7 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
 ### Border
 Es la **línea** que encierra el _contenido_ y el _padding_. Es aplicable a todos los elementos.
 
-![border](https://ibb.co/d3NUab)
+![border](http://image.ibb.co/nKwpab/border_Anchos.png)
 
 Para cada borde se puede establecer su anchura o grosor, su color y su estilo, por lo que en total CSS define distintas propiedades relacionadas con los bordes.
 
@@ -181,7 +181,7 @@ div {
 ### Margin (___margen___)
 Es la **separación opcional** existente entre la caja y el resto de las cajas adyacentes.
 
-![margin](https://ibb.co/gjZmMG)
+![margin](http://image.ibb.co/hH9LgG/margin.png)
 
 Su valor se puede definir en: **Unidades de medida**, **porcentaje** o `inherit` (especifica que el margin debe ser heredado del elemento padre).
 
@@ -274,7 +274,7 @@ div {
   box-sizing: border-box;
 }
 ```
-![border-box](https://ibb.co/jLqRMG)
+![border-box](http://image.ibb.co/nAbcTw/border_box.png)
 
 >También podemos utilizar el valor `inherit`, que es el valor que hereda esta propiedad de su elemento padre.
 
