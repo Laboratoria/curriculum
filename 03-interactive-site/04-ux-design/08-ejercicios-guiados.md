@@ -61,7 +61,7 @@ ante el resto de la clase y así ayduar al resto de tus compañeras :)
  
 ## 3. Creemos un sketch para la biblioteca de Laboratoria. 
 
-Entre estudaintes, profesores y staff de Laboratoria tenemos muchos libros que queremos compartir y queremos imaginarnos cómo sería la biblioteca de Laboratoria. En esta biblioteca cada uno podrá subir sus libros y podrá conversar con los que quieran pedir prestado el libro para coordinar en cómo entregarlo. Además, el dueño de los libros podrá tener un record de a quién le presto x o y libro.  
+Entre estudiantes, profesores y staff de Laboratoria tenemos muchos libros que queremos compartir y queremos imaginarnos cómo sería la biblioteca de Laboratoria. En esta biblioteca cada uno podrá subir sus libros y podrá conversar con los que quieran pedir prestado el libro para coordinar en cómo entregarlo. Además, el dueño de los libros podrá tener un record de a quién le presto x o y libro.  
 
 <!--
 	La idea de este ejercicio es practicar entre todos el sketching de productos. No hay una solución perfecta, lo que buscamos es generar ideas bajo una premisa y buscar que vayan practicando el sketching, sin dejar de lado los conceptos ya aprendidos como navegación.
