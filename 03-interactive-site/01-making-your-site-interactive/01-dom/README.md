@@ -251,6 +251,11 @@ Para terminar, Lulu nos ha grabado un video para reforzar los conceptos de DOM.
 
   [![Repaso DOM](https://img.youtube.com/vi/gJXl5vqzRi0/0.jpg)](https://www.youtube.com/watch?v=gJXl5vqzRi0)
 
+También tenemos el link de la documentación oficial de Mozilla de que es el DOM
+https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F
+
+Otro link de como acceder a elementos del DOM con JS de la documentación oficial:
+https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F
 
 ***
 [Continuar]( )

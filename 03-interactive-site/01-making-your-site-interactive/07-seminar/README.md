@@ -46,7 +46,9 @@
    - onSubmit
    - onMouseOver
 
- 5. Revisemos los [ejercicios guiados]( ) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
+ 3. Revisar documentaciones oficiales de DOM y eventos (y perderle el miedo :-))
+
+ 4. Revisemos los [ejercicios guiados]( ) que resolveremos en la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos un par de tips :)
 
 ***
 [Continuar]( )
