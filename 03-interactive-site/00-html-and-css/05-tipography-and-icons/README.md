@@ -18,10 +18,13 @@
 
 Es hora de aprender a alterar la fuente (tipografía) de nuestra página web,
 conocer las que el navegador nos trae por defecto y sobretodo ver cómo podemos
-agregar fuentes externas como las de _Google Fonts_. Todo eso podrás encontrar
-en el siguiente artículo:
+agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer el siguiente artículo:
 
 https://lenguajecss.com/p/css/propiedades/fuentes-y-tipografias
+
+Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agregar fuentes externas desde Google Fonts en el siguiente video:
+
+[![modificando-tipografía-desde-Google-Fonts](http://img.youtube.com/vi/Qk4lSk3dSV0/0.jpg)](http://www.youtube.com/watch?v=Qk4lSk3dSV0)
 
 ## Íconos
 

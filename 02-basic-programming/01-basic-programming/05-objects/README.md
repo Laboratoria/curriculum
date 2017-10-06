@@ -19,10 +19,10 @@ Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-Ja
 disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 ***
 
-## ¿Qué es un `object` en JavaScript?
+## ¿Qué es un object en JavaScript?
 Los `objects` en JavaScript son muy similares a los `arrays`, pero con dos importantes diferencias:
 
-1. Como hemos visto, para acceder a información dentro de un `array` utilizamos un número correspondiente al _index_; es decir, la posición en la que se ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de números para acceder a los diferentes elementos. Estos `strings` se denominan _keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados valores. Juntas, estas piezas de información se llaman _pares key-value_.
+1. Como hemos visto, para acceder a información dentro de un `array` utilizamos un número correspondiente al _index_; es decir, la posición en la que se ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de números para acceder a los diferentes elementos. Estos `strings` se denominan _keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados _valores_. Juntas, estas piezas de información se llaman _pares key-value_.
 
 2. Dado que en los `arrays` se requiere del _index_ para acceder a la información, es importante mantener un determinado orden de los valores. En el caso de los `objects` los _pares key-value_ de información pueden estar en cualquier orden.
 
@@ -37,7 +37,7 @@ var favoriteMovies = [
   'The Artist',
   'The Godfather',
   'Back to the Future'
-  ];
+];
 
 ```
 
@@ -47,14 +47,14 @@ var favoriteMovies = [
 Almacenemos diferentes piezas de información de la película `'Back to the Future'` en un solo lugar, por medio de un `object`:
 
 ```js
-  var movie = {
-    title: 'Back to the Future',
-    director: 'Robert Zemeckis',
-    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-    oscar: 1,
-    tags: ['Adventure', 'Comedy', 'Sci-Fi']
-  }
+var movie = {
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  oscar: 1,
+  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+};
 
 ```
 
@@ -72,33 +72,33 @@ Cuando se crea un `object`, el _key_ va antes de los dos puntos `:`, y el _value
 Como hemos visto, los _keys_ son `strings`. Como muestra el ejemplo anterior, no es necesario colocar los _keys_ entre comillas. Esto es porque Javascript sabe que los _keys_ son `strings`. Sin embargo, es también válido colocar los _keys_ entre comillas. Por ejemplo, el objeto a continuación también es válido:
 
 ```js
-  var person = {
-    'age': 18,
-    'name': 'Michelle',
-    'friends': ['Alexandra','Ana']
-  }
+var person = {
+  'age': 18,
+  'name': 'Michelle',
+  'friends': ['Alexandra','Ana']
+};
 
 ```
 
-Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de nombramiento de variables. Por ejemplo, no deben tener espacios. Pero si colocamos los _keys_ entre comillas, entonces sí podemos usar el nombre que querramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la película ('year of release'), haríamos:
+Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de nombramiento de variables. Por ejemplo, no deben tener espacios. Pero si colocamos los _keys_ entre comillas, entonces sí podemos usar el nombre que queramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la película ('year of release'), haríamos:
 
 ```js
-  var movie = {
-    title: 'Back to the Future',
-    director: 'Robert Zemeckis',
-    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-    'year of release': 1984,
-    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-    oscar: 1,
-    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-    'other awards': ['best sound', ]
-  }
+var movie = {
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  oscar: 1,
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
+};
 
 ```
 
 Es importante resaltar que aunque los _keys_ son siempre `strings`, los _values_ pueden ser cualquier valor JavaScript - inclusive pueden ser una variable que contiene, o mejor dicho "agarra" (con sus tentáculos) un valor.
 
-## Accediendo información de un `object`
+## Accediendo información de un object
 Podemos acceder a los valores de un `object` de dos maneras:
 
 1. La primera es usando los corchetes `[]`, tal como lo hacemos para los `arrays`. La única diferencia es que, en lugar de usar el _index_ (un `number`), utilizamos el _key_ (un `string`), siempre entre comillas.
@@ -107,28 +107,28 @@ Podemos acceder a los valores de un `object` de dos maneras:
 Veamos algunos ejemplos para aclarar cuándo se usa una o la otra:
 
 ```js
-  var movie = {
-    title: 'Back to the Future',
-    director: 'Robert Zemeckis',
-    stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-    'year of release': 1984,
-    plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-    oscar: 1,
-    tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-    'other awards': ['best sound', ]
-  }
+var movie = {
+  title: 'Back to the Future',
+  director: 'Robert Zemeckis',
+  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  'year of release': 1984,
+  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  oscar: 1,
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
+  'other awards': ['best sound', ]
+};
 
-  console.log(movie['title']);
-  // → Back to the Future
+console.log(movie['title']);
+// → Back to the Future
 
-  console.log(movie[title]);
-  // → Uncaught ReferenceError: title is not defined
+console.log(movie[title]);
+// → Uncaught ReferenceError: title is not defined
 
-  console.log(movie.'title');
-  // → Uncaught SyntaxError: Unexpected string
+console.log(movie.'title');
+// → Uncaught SyntaxError: Unexpected string
 
-  console.log(movie.title);
-  // → Back to the Future
+console.log(movie.title);
+// → Back to the Future
 ```
 
 Analicemos los dos errores:
@@ -149,7 +149,7 @@ var movie = {
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
   'other awards': ['best sound', ]
-}
+};
 
 console.log(movie['producer']);
 // → undefined
@@ -168,7 +168,7 @@ var movie = {
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
   'other awards': ['best sound', ]
-}
+};
 
 console.log(movie.stars[0]);
 // → Michael J. Fox
@@ -181,7 +181,7 @@ console.log(movie.stars[2]);
 Fíjate que hemos usado `movie.stars` y `movie['stars']` para hacer énfasis de que ambas maneras funcionan, como parte de la experiencia educativa. Pero cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el ejemplo. Cuando escribamos programas, sean los retos de código, nuestros ejercicios de clase o en proyectos personales, lo correcto es escoger una opción y ser consistente a lo largo del código. Recomendamos, en particular, `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede con las comillas de los `strings`, se pueden usar simples o dobles, pero de manera consistente.
 
 
-## Definiendo o cambiando los elementos de un `object`
+## Definiendo o cambiando los elementos de un object
 
 Al igual que con los `arrays`, podemos añadir o cambiar los elementos de un `object` utilizando los corchetes y _keys_ o `dot notation`.
 
@@ -212,6 +212,6 @@ console.log(student);
 
 ```
 
-A continuación Michelle nos explica los conceptos principales de `objects` con un ejemplo
+A continuación Michelle nos explica los conceptos principales de `objects` con un ejemplo:
 
 [![ejemplo de crear y modificar un object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
