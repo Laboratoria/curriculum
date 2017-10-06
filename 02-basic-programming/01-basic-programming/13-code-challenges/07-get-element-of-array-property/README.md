@@ -1,8 +1,8 @@
 # getElementOfArrayProperty
 
-Escriba una función llamada "getElementOfArrayProperty".
+Escriba una función llamada `getElementOfArrayProperty`.
 
-Dado un objeto, una clave y un índice numérico,"getElementOfArrayProperty" devuelve el valor del elemento en el índice dado del arreglo localizado dentro del objeto dado en la clave dada.
+Dado un objeto, una clave y un índice numérico, `getElementOfArrayProperty` devuelve el valor del elemento en el índice dado del arreglo localizado dentro del objeto dado en la clave dada.
 
 Notas:
 * Si el arreglo está vacío, debería devolver `undefined`.
@@ -16,6 +16,6 @@ Ejemplo de entrada:
 var obj = {
  key: ['Jamil', 'Albrey']
 };
-var output = getElementOfArrayProperty(obj, 'key', 0); 
+var output = getElementOfArrayProperty(obj, 'key', 0);
 console.log(output); // --> 'Jamil'
 ```

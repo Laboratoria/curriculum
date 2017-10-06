@@ -1,6 +1,6 @@
 # listAllValues
 
-Escribe una función llamada "listAllValues" que devuelve un array de todos los valores del objeto de entrada.
+Escribe una función llamada `listAllValues` que devuelve un array de todos los valores del objeto de entrada.
 
 Ejemplo de entrada:
 ```js
@@ -12,11 +12,10 @@ Ejemplo de entrada:
 ```
 Valor de retorno de la función (salida):
 ```js
-['Krysten', 33, falso]
+['Krysten', 33, false]
 ```
 Tenga en cuenta que la entrada puede tener un número diferente de claves y valores que la muestra dada.
-P.ej.
-también debe manejar una entrada como:
+Por ejemplo, también debe manejar una entrada como:
 ```js
 {
   a: 'a',
