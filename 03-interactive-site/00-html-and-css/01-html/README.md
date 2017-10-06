@@ -31,7 +31,7 @@ desarollador web.
 >
 > HTML consiste en una serie de elementos, que puedes utilizar para encerrar,
 envolver, o marcar partes diferentes del contenido para hacer que aparezcan de
-una cierta manera, o actuen de determinada forma. Las etiquetas que envuelven
+una cierta manera, o actúen de determinada forma. Las etiquetas que envuelven
 un trozo de contenido pueden hacer que dicho contenido enlace con otra página,
 ponga una palabra en cursiva, etcétera.
 
@@ -44,7 +44,7 @@ con la etiqueta de inicio `<p>` y termina con la etiqueta de cierre `</p>`. El
 texto que se encuentra entre las etiquetas de apertura y de cierre es el
  _contenido_ del elemento.
 
-![Ejemplo etiqueta](img-tag-sample.png)
+![Ejemplo etiqueta](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-tag-sample.png?raw=true)
 
 ## Anidamiento HTML
 
@@ -88,7 +88,7 @@ contenido se visualice como texto en _negrita_.
 
 Al abrir este documento en el navegador tendremos lo siguiente:
 
-![HTML nested](img-nested-html.png)
+![HTML nested](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-nested-html.png?raw=true)
 
 ## Elementos bloque vs. en línea
 
@@ -111,7 +111,7 @@ a nivel de bloque.
 elementos a nivel de bloque y rodean solo pequeñas partes del contenido
 del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento
 en línea  no causará que una nueva línea aparezca en el documento:
-normalmente aparecen dentro de un párrefo o texto, por ejemplo elementos de
+normalmente aparecen dentro de un párrafo o texto, por ejemplo elementos de
 énfasis como `em` o `strong`.
 
 Veamos un ejemplo:
@@ -131,7 +131,7 @@ Veamos un ejemplo:
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Block vs in line](img-block-inline.png)
+![Block vs in line](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
 
 Tanto `em` como `strong` son elementos en línea. Por lo tanto, los tres
 primeros elementos se sitúan en la misma línea uno tras otros sin espacio
@@ -167,7 +167,7 @@ notado que en la etiqueta de apertura aparece una serie de información:
 ```
 
 Esa información son **atributos**. Los atributos nos dan información adicional
-sobre el contenido de un elemento la cual no queremos que aparezca en el
+sobre el contenido de un elemento que no queremos que aparezca en el
 contenido actual. En algunos casos agregan características
 y/o comportamiento a tu elemento HTML. Los atributos aparencen en la
 **etiqueta de apertura** del elemento y consisten de dos partes: un nombre
@@ -188,7 +188,7 @@ omite este atributo.
 
 * El atributo `title` especifica información extra sobre el enlace, como qué
 página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio
-de Laboratoria". Esto aparecera como información cuando se pase el ratón
+de Laboratoria". Esto aparecera como información cuando se pase el mouse
 por encima del link.
 
 ## Atributo style
@@ -205,7 +205,7 @@ dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde 
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Style Example](img-style-attribute.png)
+![Style Example](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-style-attribute.png?raw=true)
 
 Un atributo de estilo puede contener una o más declaraciones. Cada declaración
 está compuesta por una
@@ -227,7 +227,7 @@ bloque o en línea, o inclusive no mostrarlo:
 ```
 La vista en el navegador de esto sería:
 
-![Style Example](img-display.png)
+![Style Example](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-display.png?raw=true)
 
 
 El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
@@ -288,7 +288,7 @@ explicará cómo construir una réplica de la página de [Grace Hopper de wikipe
 
 Muchas veces al crear nuestra estructura HTML se vuelve necesario "agrupar"
 elementos para dividir nuestra web en secciones o partes lógicas. Por ejemplo,
-si en el _footer_ (o pié de página) de nuestra web queremos mostrar los íconos
+si en el _footer_ (o pie de página) de nuestra web queremos mostrar los íconos
 de nuestras redes sociales junto a links de contacto, es útil agrupar todos
 los íconos en una sección y los links en otra sección, y que ambos grupos estén
 contenidos dentro del _footer_.
@@ -342,13 +342,13 @@ Veamos un ejemplo:
 
 Al visualizar el ejemplo anterior en el navegador tenemos:
 
-![Div and Span](img-div-and-span.png)
+![Div and Span](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-div-and-span.png?raw=true)
 
 Fíjate cómo hemos agrupado todo lo relacionado a un país en un `div`. Esto es
 útil porque crea secciones que siguen un orden lógico. Pero, más importante
 aún, tener estas secciones separadas permite darle estilos diferentes a cada
 sección: el color de fondo y el color de la fuente varían para cada
-país. Lo mismo sucede las palabras que mostramos en amarillo. Gracias a `span`
+país. Lo mismo sucede con las palabras que mostramos en amarillo. Gracias a `span`
 podemos hacer que ciertos pedazos de texto tengan un estilo diferente.
 
 ## HTML semántico
@@ -372,7 +372,7 @@ en tareas como "encontrar el menú de navegación", o "encontrar el contenido
 principal".
 >
 
-Para implementar estas secciones semánticas, HTML dispone de etiqutas adecuadas
+Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuadas
 que podemos usar para representar estas secciones. Revisa el link anterior e
 investiga el uso de los siguientes elementos semánticos:
 

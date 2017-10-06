@@ -47,16 +47,16 @@ Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo
 ### 5. Nuestras coders
 Replica el siguiente esquema
 
-![Nuestras coders](img-nuestras-coders.png)
+![Nuestras coders](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-nuestras-coders.png?raw=true)
 
 ### 6. Pinterest (maquetado)
 
 Crea una réplica de [Pinterest](https://laboratoria.github.io/pinterestify/) con las imágenes que más te gusten :)
 
 ### 7. Tipografías e íconos
-Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts (Sugerencia Google Fonts). Puedes utilizar las tipografías iconográficas de tu preferencia.
+Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts (sugerencia: Google Fonts). Puedes utilizar las tipografías iconográficas de tu preferencia.
 
-![Tipografías e íconos](img-tipo.png)
+![Tipografías e íconos](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
 
 ### 8. Applove
 

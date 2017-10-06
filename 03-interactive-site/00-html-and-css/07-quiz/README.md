@@ -62,7 +62,7 @@
 
 #### Opciones
 
-1. No comienzan con la nueva línea.
+1. No comienzan con la nueva línea
 2. No debería estar anidado dentro de un elemento en línea
 3. Comienzan en una nueva línea
 4. Pueden comenzar en cualquier parte de una línea
@@ -94,7 +94,7 @@ ul {
 2. A un elemento inline-block no se le puede determinar dimensiones, mientras
    que a uno inline sí
 3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block si
+4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
 
 <solution style="display:none;">1</solution>
 
@@ -114,7 +114,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -123,7 +123,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -158,19 +158,19 @@ h2 {
 
 1. Especificidad, orden del código e importancia
 2. Importancia, especificidad y orden del código
-3. Orden del codigo, importancia y especificidad
+3. Orden del código, importancia y especificidad
 
 <solution style="display:none">2</solution>
 
-### 13) Según el siguiente código, ¿cuál seria el resultado en el navegador?
-![cascada](especificidad.png)
+### 13) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+![Especificidad - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/especificidad.png?raw=true)
 
 #### Opciones
 
-1. ![cascada](esp-option1.png)
-2. ![cascada](esp-option2.png)
-3. ![cascada](esp-option3.png)
-4. ![cascada](esp-option4.png)
+1. ![Especificidad - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option1.png?raw=true)
+2. ![Especificidad - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option2.png?raw=true)
+3. ![Especificidad - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option3.png?raw=true)
+4. ![Especificidad - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option4.png?raw=true)
 
 <solution style="display:none">1</solution>
 
@@ -236,15 +236,15 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none;">3</solution>
 
-### 16) Según el siguiente código, ¿cuál seria el resultado en el navegador?
-![cascada](positioning.png)
+### 16) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
 
 #### Opciones
 
-1. ![cascada](post-option1.png)
-2. ![cascada](post-option2.png)
-3. ![cascada](post-option3.png)
-4. ![cascada](post-option4.png)
+1. ![Positioning - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option1.png?raw=true)
+2. ![Positioning - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option2.png?raw=true)
+3. ![Positioning - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option3.png?raw=true)
+4. ![Positioning - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option4.png?raw=true)
 
 <solution style="display:none">3</solution>
 
@@ -281,7 +281,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none">2</solution>
 
-### 19) Selecciona las propiedades que corresponde a las tipografías
+### 19) Selecciona las propiedades que corresponden a las tipografías
 
 #### Opciones
 

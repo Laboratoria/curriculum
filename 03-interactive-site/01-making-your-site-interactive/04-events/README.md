@@ -138,6 +138,9 @@ Estos son algunos de los eventos más utilizados:
 
 [Aquí](https://codepen.io/Inti_Developer/pen/EvGMKG) podrás encontrar un ejemplo sobre la interacción con los eventos.
 
+Finalmente, te adjuntamos el link de la documentación oficial explicanto todo acerca de eventos:
+https://developer.mozilla.org/es/docs/Web/Reference/Events
+
 > Guía de uso:
 > 1. Nota como el fondo es de color blanco
 > 2. Ahora haz click en el botón *Hacer magia :)*

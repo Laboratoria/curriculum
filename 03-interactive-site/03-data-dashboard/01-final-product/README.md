@@ -1,7 +1,7 @@
 # Producto Final: Data Dashboard
 - Tipo: `code`
 - Formato: `self-learning`
-- Duración: `24hrs`
+- Duración: `1440min`
 
 ## Objetivos
 
@@ -44,10 +44,10 @@ Los siguientes criterios serán considerados para evaluar tu trabajo:
 | Criterio                 | Peso | Evaluador
 | ------------------------ | ---- | ---------
 | Tablero de organización de tareas        |  20% | Training Manager
-| Diseño UX                |  20% | Profe UX  
-| Interfaz Front-End       |  20% | Profe JS  
-| Limpieza de código (indentación, declaración de variables, consistencia, nombres de funciones, etc.)   |  20% | Profe JS  
-| Entrevista técnica: deberás explicar cómo funciona tu código y por qué has decidido estructurar tu trabajo de la manera en que lo hiciste |  20% | Profe JS  
+| Diseño UX                |  20% | Profe UX
+| Interfaz Front-End       |  20% | Profe JS
+| Limpieza de código (indentación, declaración de variables, consistencia, nombres de funciones, etc.)   |  20% | Profe JS
+| Entrevista técnica: deberás explicar cómo funciona tu código y por qué has decidido estructurar tu trabajo de la manera en que lo hiciste |  20% | Profe JS
 
 ***
 [Continuar](13-solutions-code-challenges.md)
