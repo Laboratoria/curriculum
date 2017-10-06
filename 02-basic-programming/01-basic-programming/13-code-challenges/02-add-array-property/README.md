@@ -10,7 +10,9 @@ Ejemplo de entrada:
 
 ```js
 var myObj = {};
+var myStr = 'myProperty';
 var myArray = [1, 3];
-addArrayProperty(myObj, 'myProperty', myArray);
+
+addArrayProperty(myObj, myStr, myArray);
 console.log(myObj.myProperty); // --> [1, 3]
 ```
