@@ -39,7 +39,7 @@
   1. ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.background='red';
-    ```
+     ```
   2. ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.backgroundColor='red';
