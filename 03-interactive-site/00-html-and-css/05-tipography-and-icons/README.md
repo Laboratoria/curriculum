@@ -22,13 +22,9 @@ agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer e
 
 https://lenguajecss.com/p/css/propiedades/fuentes-y-tipografias
 
-Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agregar fuentes externas desde Google Fonts en el siguiente video: 
+Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agregar fuentes externas desde Google Fonts en el siguiente video:
 
-<a href="https://youtu.be/Qk4lSk3dSV0
-" target="_blank">
-<img src="http://img.youtube.com/vi/Qk4lSk3dSV0/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
-</a>
+[![modificando-tipografía-desde-Google-Fonts](http://img.youtube.com/vi/Qk4lSk3dSV0/0.jpg)](http://www.youtube.com/watch?v=Qk4lSk3dSV0)
 
 ## Íconos
 
