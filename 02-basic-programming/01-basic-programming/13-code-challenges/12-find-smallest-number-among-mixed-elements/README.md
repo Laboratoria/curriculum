@@ -2,7 +2,7 @@
 
 Escriba una función llamada "findSmallestNumberAmongMixedElements".
 
-Dada una matriz de elementos mixtos, "findSmallestNumberAmongMixedElements" devuelve el número más pequeño dentro del arreglo dado.
+Dado un arreglo de elementos mixtos, "findSmallestNumberAmongMixedElements" devuelve el número más pequeño dentro del arreglo dado.
 
 Notas:
 * Si el arreglo está vacío, debería devolver 0.
