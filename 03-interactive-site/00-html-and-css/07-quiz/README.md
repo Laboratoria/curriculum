@@ -27,15 +27,16 @@
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Qué hace `doctype`?
+### 2) ¿A qué se refiere el 'Anidamiento HTML'?
 
 #### Opciones
 
-1. Inicia el documento HTML
+1. Al inicio del documento HTML
 2. Indica al navegador que el documento es HTML5
 3. Agrega una línea para que el `html` aparezca en la segunda línea
+4. Que un elemento puede contener a otros elementos o etiquetas HTML
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">4</solution>
 
 ### 3) ¿Cuáles son las etiquetas que no necesitan cierre?
 
@@ -46,7 +47,7 @@
 3. img
 4. p
 
-<solution style="display:none;">1,3</solution>
+<solution style="display:none;">3</solution>
 
 ### 4) Ejemplo correcto de anidación:
 
@@ -58,19 +59,18 @@
 
 <solution style="display:none;">3</solution>
 
-### 5) Son características de un elemento en bloque
+### 5) ¿Cuáles son las características de un elemento en bloque?
 
 #### Opciones
 
 1. No comienzan con la nueva línea.
-2. No debería estar anidado dentro de un elemento en línea
-3. Comienzan en una nueva línea
-4. Pueden comenzar en cualquier parte de una línea
-5. Pueden contener elementos en línea y otros elementos en bloque
+2. Comienzan en una nueva línea
+3. Pueden comenzar en cualquier parte de una línea
+4. Pueden contener elementos en línea y otros elementos en bloque
 
-<solution style="display:none;">2,3,5</solution>
+<solution style="display:none;">2,4</solution>
 
-### 6) Las propiedades CSS son `case-sensitive` (toma en cuenta las minúsculas y mayúsculas)
+### 6) Las propiedades CSS son `case-sensitive` (toman en cuenta las minúsculas y mayúsculas)
 
 ```css
 ul {
@@ -236,7 +236,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none;">3</solution>
 
-### 16) Según el siguiente código, ¿cuál seria el resultado en el navegador?
+### 16) Según el siguiente código, ¿cuál sería el resultado en el navegador?
 ![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
 
 #### Opciones

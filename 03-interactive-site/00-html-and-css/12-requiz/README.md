@@ -274,10 +274,10 @@ ul#awesome #must-use {
 
 #### Opciones
 
-1. top, left, right, bottom, center
-2. head, body, right, middle, side
-3. up, down, left, right, middle
-4. inside, outside, forward, backward, center
+1. top, left, right, bottom
+2. head, body, right, middle
+3. up, down, left, right
+4. inside, outside, forward, backward
 
 <solution style="display:none">1</solution>
 
@@ -315,7 +315,7 @@ ul#awesome #must-use {
 2. Todos los elementos anteriores se moverán `5px` a la derecha
 3. Ninguno
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">1</solution>
 
 ### 18) ¿Qué propiedad usas para hacer el contenido permanezca debajo de los elementos flotantes?
 
