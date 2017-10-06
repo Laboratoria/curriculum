@@ -165,14 +165,13 @@ con todo!
 * Quizzes: 5%
 * Requizzes: 10%
 * Retos
-  * Twitter: 5%
   * Lyft: 5%
   * Freelacer: 5%
   * Laberinto: 10%
   * Trello: 10%
   * Twitter interactivo: 10%
   * Reto UX: 10%
-* Producto final (Data Dashboard): 30%
+* Producto final (Data Dashboard): 35%
 
 ## Contribuidores
 
