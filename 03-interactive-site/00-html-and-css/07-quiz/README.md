@@ -62,7 +62,7 @@
 
 #### Opciones
 
-1. No comienzan con la nueva línea.
+1. No comienzan con la nueva línea
 2. No debería estar anidado dentro de un elemento en línea
 3. Comienzan en una nueva línea
 4. Pueden comenzar en cualquier parte de una línea
@@ -94,7 +94,7 @@ ul {
 2. A un elemento inline-block no se le puede determinar dimensiones, mientras
    que a uno inline sí
 3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block si
+4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
 
 <solution style="display:none;">1</solution>
 
@@ -114,7 +114,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -123,7 +123,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -158,11 +158,11 @@ h2 {
 
 1. Especificidad, orden del código e importancia
 2. Importancia, especificidad y orden del código
-3. Orden del codigo, importancia y especificidad
+3. Orden del código, importancia y especificidad
 
 <solution style="display:none">2</solution>
 
-### 13) Según el siguiente código, ¿cuál seria el resultado en el navegador?
+### 13) Según el siguiente código, ¿cuál sería el resultado en el navegador?
 ![Especificidad - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/especificidad.png?raw=true)
 
 #### Opciones
@@ -236,7 +236,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none;">3</solution>
 
-### 16) Según el siguiente código, ¿cuál seria el resultado en el navegador?
+### 16) Según el siguiente código, ¿cuál sería el resultado en el navegador?
 ![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
 
 #### Opciones
@@ -281,7 +281,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none">2</solution>
 
-### 19) Selecciona las propiedades que corresponde a las tipografías
+### 19) Selecciona las propiedades que corresponden a las tipografías
 
 #### Opciones
 

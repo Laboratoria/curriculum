@@ -224,7 +224,7 @@ Controla el ancho de la caja o de un elemento.
 
 ![width](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
 
-Su valor se puede definir en: **Unidades de medida**, **porcentaje**, `auto` o `inherit`. Siendo como valor inicial `auto` .
+Su valor se puede definir en: **unidades de medida**, **porcentaje**, `auto` o `inherit`. Siendo como valor inicial `auto` .
 La propiedad **width** no admite valores negativos y los valores en porcentaje se calculan a partir de la anchura de su elemento padre.
 
 ```css
@@ -305,9 +305,9 @@ La propiedad `display: block` hace que el elemento tenga como naturaleza posicio
 ![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
 
 Sus características son:
-- Si no hay ancho definido se expanden hasta llenar el espacio de su contenedor padre
+- Si no hay ancho definido, se expanden hasta llenar el espacio de su contenedor padre
 - Pueden tener márgenes y rellenos
-- Si no se define altura crecerán hasta contener a sus hijos
+- Si no se define altura, crecerán hasta contener a sus hijos
 - Por defecto hace un salto de línea
 - Ignoran la propiedad `vertical-align`
 

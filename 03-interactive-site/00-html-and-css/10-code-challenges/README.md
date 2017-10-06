@@ -18,10 +18,10 @@ con todos los recursos que necesitas. En las instrucciones del reto encontrarás
 los pasos para usar este boilerplate.
 
 ## 1. Freelancer
-* [Intrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
+* [Instrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
 
 ## 2. Lyft
-* [Intrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
+* [Instrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
 
 ## 3. Workshopper (opcional)
 * [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)

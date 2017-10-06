@@ -17,8 +17,7 @@
 ## Tipografías
 
 Es hora de aprender a alterar la fuente (tipografía) de nuestra página web,
-conocer las que el navegador nos trae por defecto y sobretodo ver cómo podemos
-agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer el siguiente artículo:
+conocer las que el navegador nos trae por defecto y sobretodo ver cómo podemos agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer el siguiente artículo:
 
 https://lenguajecss.com/p/css/propiedades/fuentes-y-tipografias
 
@@ -50,7 +49,7 @@ la única opción, puedes encontrar más como:
 
 En ciertas ocasiones, quieres agregar muchas imágenes relacionadas (por ejemplo,
 un menú con banderas de diferentes países); sin embargo, ¿te has puesto a pensar
-qué tedioso sería estar agregando cada imagen de la bandera de cada país?. Para
+qué tedioso sería estar agregando cada imagen de la bandera de cada país? Para
 esto, hay una técnica llamada `CSS sprites` que te permitirá manejar de una
 manera más eficiente este tipo de casos. A continuación puedes conocer un poco
 más del tema en el siguiente enlace:
