@@ -22,8 +22,9 @@ en el mundo tech.
 ## Aprenderás
 
 * Cómo crear tu primera web en HTML y darle interacción con JavaScript
-* Conceptos básicos de programación como: `variables`, `tipos datos`, `estructuras de
-  datos`, `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`
+* Conceptos básicos de programación como: `variables`, `tipos datos`,
+  `estructuras de datos`, `operadores`, `declaraciones condicionales`, `ciclos`
+  y `funciones`
 * La sintaxis básica de JavaScript como lenguaje de programación
 
 ## Duración
@@ -41,9 +42,12 @@ curso. Está diseñado para principiantes.
 En este curso pondrás en práctica los conceptos al desarrollar tres (3)
 productos digitales:
 
-1. **Tarjeta de crédito válida**: crearás un programa que confirme si una tarjeta de crédito es válida según el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+1. **Tarjeta de crédito válida**: crearás un programa que confirme si una
+   tarjeta de crédito es válida según el
+   [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-2. **Ceasar Cipher**: crearás un programa que encripta mensajes según la [técnica de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+2. **Ceasar Cipher**: crearás un programa que encripta mensajes según la
+   [técnica de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
 ## Syllabus
 
@@ -106,7 +110,8 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 
 13hrs
 
-Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras de datos más complejas. Llegó la hora de conocer a los `objects` y los `arrays`.
+Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
+de datos más complejas. Llegó la hora de conocer a los `objects` y los `arrays`.
 ¡Con ellos vas a poder crear programas más interesantes!
 
 | # | Tipo | Duración | Tópico
@@ -126,7 +131,6 @@ Los `numbers` y `strings` son los ladrillos con los que se contruyen estructuras
 | 12 | survey | 10min | [Auto-evaluación](12-self-assessment-data-structures.md)
 | 13 | clases | 60min | [Closing](13-closing-data-structures.md)
 
-
 ### [05: Proyectos Finales](16-final-projects)
 
 16hrs
@@ -144,9 +148,10 @@ en práctica creando productos divertidos.
 | 05 | clases | 2 hrs |  Retrospectiva
 | 06 | survey | 10 min |  Feedback form
 
-* * *
+***
 
 ## Evaluación técnica
+
 * Quizzes 1: 10%
 * Quizzes 2: 15%
 * Retos de código: 35%
