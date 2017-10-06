@@ -56,14 +56,14 @@ entendimiento pleno de los conceptos.
 
 <solution style="display:none">3</solution>
 
-### 5) Son caracteristicas de un elemento en línea
+### 5) Son características de un elemento en línea
 
 #### Opciones
 
 1. No comienzan con una nueva línea
 2. Comienzan en una nueva línea
 3. Pueden estar dentro de un elemento en bloque
-5. Respetan las propiedade `margin-top` y `margin-bottom`
+5. Respetan las propiedades `margin-top` y `margin-bottom`
 
 <solution style="display:none;">1,3</solution>
 
@@ -74,7 +74,7 @@ entendimiento pleno de los conceptos.
 1. A un elemento inline no se le puede determinar dimensiones, mientras que a uno inline-block sí
 2. A un elemento inline-block no se le puede determinar dimensiones, mientras que a uno inline sí
 3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block si
+4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
 
 <solution style="display:none;">1</solution>
 
@@ -88,7 +88,7 @@ entendimiento pleno de los conceptos.
 
 <solution style="display:none;">1</solution>
 
-### 8) Dado los siguientes estilos CSS, ¿qué color tendrán los `<h3>`?
+### 8) Dados los siguientes estilos CSS, ¿qué color tendrán los `<h3>`?
 
 ```css
 h3 {
@@ -242,7 +242,7 @@ ul#awesome #must-use {
 
 1. Establece la altura de cada línea de texto
 2. Establece el color de texto
-3. Establece el groson del texto
+3. Establece el grosor del texto
 
 <solution style="display:none">1</solution>
 
@@ -336,7 +336,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none;">1</solution>
 
-### 18) ¿Qué propiedad usas para hacer el contenido permanezca debajo de los elementos flotantes?
+### 18) ¿Qué propiedad usas para hacer que el contenido permanezca debajo de los elementos flotantes?
 
 #### Opciones
 

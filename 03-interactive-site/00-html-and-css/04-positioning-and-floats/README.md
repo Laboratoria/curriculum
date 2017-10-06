@@ -17,7 +17,7 @@
 >A continuación, la traducción a Español del artículo [MDN - Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning):
 
 
-Positioning es un tema bastante complejo, por lo que antes de sumergirnos en el código vamos a repasar un par de cosas sobre el flujo documento que hemos visto hasta ahora.
+Positioning es un tema bastante complejo, por lo que antes de sumergirnos en el código vamos a repasar un par de cosas sobre el flujo del documento que hemos visto hasta ahora.
 
 En primer lugar, hemos visto que los elementos individuales son como "cajas" que se presentan tomando su contenido y añadiéndoles relleno, borde y margen a su alrededor - el modelo de la caja que vimos en la lección anterior.
 
@@ -27,7 +27,7 @@ Eso explica los elementos individuales, pero ¿cómo interactúan los elementos 
 
 Los elementos en línea se comportan de manera diferente: no aparecen en líneas nuevas; en su lugar, se sientan en la misma línea que el otro y cualquier contenido de texto adyacente (o envuelto), siempre y cuando haya espacio para que lo hagan dentro del ancho del elemento de nivel de bloque padre. Si no hay espacio, entonces el texto o los elementos que se desbordan se moverán hacia abajo hasta una nueva línea.
 
-Si dos elementos adyacentes tienen margen aplicado y los dos márgenes tocan, el más grande de los dos permanece, y el más pequeño desaparece - esto se llama _colapso de margen_.
+Si dos elementos adyacentes tienen margen aplicado y los dos márgenes se tocan, el más grande de los dos permanece, y el más pequeño desaparece - esto se llama _colapso de margen_.
 
 Veamos un ejemplo:
 
@@ -67,7 +67,7 @@ span {
 
 ## 2. Positioning
 
-El propósito de positioning es permitirnos sobrescribir el comportamiento normal del flujo del documento descrito anteriormente, para producir efectos interesantes. ¿Qué pasa si quieres alterar ligeramente la posición de algunas cajas dentro de un diseño para dar una sensación ligeramente peculiar y angustiada? El posicionamiento es su herramienta. O si deseas crear una interfaz de usuario que donde un elemento flota sobre la parte superior de otras partes de la página y/o siempre se sienta en el mismo lugar dentro de la ventana del navegador sin importar cuánto se despliegue la página? El posicionamiento hace posible este trabajo de estructura (layout).
+El propósito de positioning es permitirnos sobrescribir el comportamiento normal del flujo del documento descrito anteriormente, para producir efectos interesantes. ¿Qué pasa si quieres alterar ligeramente la posición de algunas cajas dentro de un diseño para dar una sensación ligeramente peculiar y angustiada? El posicionamiento es tu herramienta. ¿O si deseas crear una interfaz de usuario donde un elemento flota sobre la parte superior de otras partes de la página y/o siempre se sienta en el mismo lugar dentro de la ventana del navegador sin importar cuánto se despliegue la página? El posicionamiento hace posible este trabajo de estructura (layout).
 
 La propiedad `position` de CSS es de las más utilizadas cuando queremos definir la ubicación de un elemento dentro de nuestro documento. Ésta especifica el _tipo de posicionamiento_ que tendrá el elemento al que afectaremos. Cabe destacar que todo esto varía según las características que tenga el valor de `position` que pongamos. Es decir, usaremos un valor distinto según cómo queramos posicionar dicho elemento.
 
@@ -82,7 +82,7 @@ Es el posicionamiento normal o estático, el cual es aplicado por el navegador d
 
 ### Relative
 
-Esto es muy similar al posicionamiento estático, excepto que una vez que el elemento posicionado ha tomado su lugar en el flujo de disposición normal, podemos modificar su posición final (incluso haciendo que se superponga otros elementos en la página) por medio de las propiedades: `top`, `bottom`, `left` y `right`.
+Esto es muy similar al posicionamiento estático, excepto que una vez que el elemento posicionado ha tomado su lugar en el flujo de disposición normal, podemos modificar su posición final (incluso haciendo que se superponga a otros elementos en la página) por medio de las propiedades: `top`, `bottom`, `left` y `right`.
 
 Lee más de position relative aquí:
 * [Libros Web - Posicionamiento Relativo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_relativo.html)
@@ -115,7 +115,7 @@ Float es una propiedad de posicionamiento en CSS, es decir, el cómo se ubican l
 
 imagen -->
 
-Los elementos flotantes siguen siendo parte del flujo del documento. Esto es claramente distinto a los elementos que utilizan posicionamiento absoluto. Los elementos de página con posición absoluta se quitan del flujo de la página web. Los elementos de página con posición absoluta no afectarán la posición de otros elementos y otros elementos no los afectarán, ya se toquen o no.
+Los elementos flotantes siguen siendo parte del flujo del documento. Esto es claramente distinto a los elementos que utilizan posicionamiento absoluto. Los elementos de página con posición absoluta se quitan del flujo de la página web. Los elementos de página con posición absoluta no afectarán la posición de otros elementos y otros elementos no los afectarán, se toquen o no.
 
 Lee sobre floats aquí:
 http://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html

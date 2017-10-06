@@ -94,7 +94,7 @@ ul {
 2. A un elemento inline-block no se le puede determinar dimensiones, mientras
    que a uno inline sí
 3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block si
+4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
 
 <solution style="display:none;">1</solution>
 
@@ -114,7 +114,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -123,7 +123,7 @@ ul {
 
 #### Opciones
 
-1. Si
+1. Sí
 2. No
 
 <solution style="display:none;">2</solution>
@@ -158,7 +158,7 @@ h2 {
 
 1. Especificidad, orden del código e importancia
 2. Importancia, especificidad y orden del código
-3. Orden del codigo, importancia y especificidad
+3. Orden del código, importancia y especificidad
 
 <solution style="display:none">2</solution>
 
@@ -281,7 +281,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none">2</solution>
 
-### 19) Selecciona las propiedades que corresponde a las tipografías
+### 19) Selecciona las propiedades que corresponden a las tipografías
 
 #### Opciones
 
