@@ -274,24 +274,43 @@ ul#awesome #must-use {
 
 #### Opciones
 
-1. top, left, right, bottom, center
-2. head, body, right, middle, side
-3. up, down, left, right, middle
-4. inside, outside, forward, backward, center
+1. top, left, right, bottom
+2. head, body, right, middle
+3. up, down, left, right
+4. inside, outside, forward, backward
 
 <solution style="display:none">1</solution>
 
-### 16) Según el siguiente código, ¿Cuál seria el resultado en el navegador?
-![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/positioning.png?raw=true)
+### 16) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+
+**HTML:**
+
+```html
+<ul class="programming-languages" id="awesome">
+  <li><span>Python</span></li>
+  <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
+</ul>
+```
+
+**CSS:**
+
+```css
+ul.programming-languages li .highlight {
+  color: red;
+}
+
+ul.programming-languages li .highlight:nth-of-type(odd) {
+  color: yellow;
+}
+```
 
 #### Opciones
 
-1. ![Positioning - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option1.png?raw=true)
-2. ![Positioning - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option2.png?raw=true)
-3. ![Position - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option3.png?raw=true)
-4. ![Position - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/12-requiz/pos-option4.png?raw=true)
+1. Rojo
+2. Negro
+3. Amarillo
 
-<solution style="display:none">3</solution>
+<solution style="display:none;">3</solution>
 
 ### 17) Tomando en cuenta el siguiente código, ¿qué pasará con la posición de `#example`?
 
@@ -315,7 +334,7 @@ ul#awesome #must-use {
 2. Todos los elementos anteriores se moverán `5px` a la derecha
 3. Ninguno
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">1</solution>
 
 ### 18) ¿Qué propiedad usas para hacer que el contenido permanezca debajo de los elementos flotantes?
 
