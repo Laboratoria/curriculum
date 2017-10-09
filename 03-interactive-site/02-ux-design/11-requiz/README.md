@@ -73,82 +73,83 @@
 ### 6) ¿Cuáles son los perfiles típicos en la etapa de `desarrollo` de un producto digital?
 #### Opciones
 
-  1. 
-  2. 
+  1. Product Manager y Back-end Developer
+  2. Product Manager y Growth Hacker
   3. Front-end Developer y Back-end Developer
-  4. 
+  4. Growth Hacker e inversionista
  
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">3</solution>
 
 
-### 7)
+### 7) Del website de `Spotify`, qué tipo de navegación es la que está señalada en rojo
+![Spotify navegación](https://lh4.googleusercontent.com/_xRGmmD8EJRMhJPzE0CmPK-hu3BPrvvttPDDjgGTAcMhAPkzP0QEhNWgGp6Px6G3H3VcDQJhTddG4oalw__kpRPfSVYHJPgMhyKkLyBisEW9Plxe9XM61tubh2hMnTQX6Y5X5gQmefk )
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Local
+  2. Global
+  3. Facetada
+  4. Suplementaria
  
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">2</solution>
 
 
-### 8)
+### 8) Los siguientes términos: `resolución de problemas`, `entender necesidades`, están más relacionados con:
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. UI
+  2. Productos digitales
+  3. Front-end developers
+  4. UX
  
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">4</solution>
 
 
-### 9)
+### 9) Con qué términos completarías los espacios en blanco: `___ es lo qué te hace sentir una marca o producto al momento de interactuar con él, mientras que ____ es una capa visual de colores, texturas, formas y elementos.`
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. UX - UI
+  2. UI - UX
  
+<solution style="display:none;">1</solution>
 
-<solution style="display:none;"></solution>
 
-
-### 10)
+### 10) Son actividades que realiza un UI Designer:
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Pruebas (de usabilidad, con usuarios)
+  2. Diseño de elementos (botones, formularios)
+  3. Diseño visual (iconos, imágenes)
+  4. Investigación (con stakeholders, etnográfica, entrevistas 1 a 1…)
+  5. Guías de estilo (paletas de color, fonts)
  
+<solution style="display:none;">2,3,5</solution>
 
-<solution style="display:none;"></solution>
 
-
-### 11)
+### 11) En esta búsqueda en `Youtube`, qué tipo de navegación es la que está señalada en rojo
+![Youtube navegación](https://lh3.googleusercontent.com/K_m6buhGG2DAr2GuQiq-vEL-dsHsBMfRYdrGSW6QXbl4eDDZIBW_ygvI6H_2h3yh4OPBWQXofy5uo5Pt-4Yt3554Q6fL3I2PHk3BTsgK2frCrhMo23llJdkeBZSjtxoM7PL4uZgErLw)
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Local
+  2. Suplementaria
+  3. Filtrada
+  4. Global
  
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">3</solution>
 
 
-### 12)
+### 12) ¿Cuáles son los 2 conceptos claves para entender User Experience Design?
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
- 
+  1. Generar mayores ingresos para la compañía
+  2. Ofrecer una experiencia amigable para los usuarios
+  3. Responsive design
+  4. Tener mejores productos digitales
+  5. Resolver necesidades de los usuarios
 
-<solution style="display:none;"></solution>
+<solution style="display:none;">2,5</solution>
+
+

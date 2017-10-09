@@ -75,9 +75,7 @@
 <solution style="display:none;">3</solution>
 
 ### 7) ¿Qué tipo de navegación es esta que señalamos en Buzzfeed?
-
 ![](https://lh4.googleusercontent.com/g9vSNX42gP5zHrE3jdAsmzDmARyqYNBt-7jkLMIWBoDxv4HYA3c_RXXnhq9qMd7EcM8HTt2W7IxZxRgctU6LTgKKpudZBqsr-xAmgoSKjEITiX0Z71vN5TFdqOJe257rzFMWpbBDojw )
-
 #### Opciones
 
   1. Contextual
@@ -89,7 +87,6 @@
 
 
 ### 8) ¿Por qué son importantes los sketches?
-
 #### Opciones
 
   1. Son una forma de expresar y “materializar” nuestras ideas
@@ -100,49 +97,47 @@
 <solution style="display:none;">4</solution> 
 
 
-### 9) 
-
+### 9) En Github, ¿qué tipo de navegación es la que está marcada en rojo?
+![Github navegación](https://lh5.googleusercontent.com/TrippBjrECkQUKevMEIivhnOMV8KAfYiEaDg8lZ4KEtHiP3oWJsl7H2ILwCOinN0KHt_PihzUifgkasg3ZaQUU7dvwhQfWA7grv7LJkQFfacnmMeV2dcJ-RPpfF3BGk4Y6pmRGuzl5U )
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global
+  2. Suplementaria
+  3. Filtrada
+  4. Local
 
-<solution style="display:none;"></solution> 
+<solution style="display:none;">4</solution> 
 
 
-### 10) 
-
+### 10) Los siguientes términos: `botones`, `ventanas`, `esquinas redondeadas`, `checkboxes`, están más relacionados con:
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. UX
+  2. Front-end developer
+  3. UI
+  4. Web development
 
-<solution style="display:none;"></solution> 
+<solution style="display:none;">3</solution> 
 
 
-### 11) 
-
+### 11) Con qué términos completarías los espacios en blanco: `Una buena _______  nos permite dar una buena ________. `
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
+  1. UI - UX
+  2. Investigación - presentación
+  3. Aplicación móvil - experiencia
+  4. UX - UI
 
-<solution style="display:none;"></solution> 
+<solution style="display:none;">1</solution> 
 
 
-### 12) 
-
+### 12) Son actividades que realiza un UX Designer:
 #### Opciones
 
-  1. 
-  2. 
-  3. 
-  4. 
-
-<solution style="display:none;"></solution> 
+  1. Pruebas (de usabilidad, con usuarios)
+  2. Diseño de elementos (botones, formularios)
+  3. Diseño visual (iconos, imágenes)
+  4. Investigación (con stakeholders, etnográfica, entrevistas 1 a 1…)
+  5. Guías de estilo (paletas de color, fonts)
+ 
+<solution style="display:none;">1,4</solution>
