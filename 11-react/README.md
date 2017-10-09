@@ -85,7 +85,7 @@ En este curso no tendremos exámenes, tu puntaje final será conformado en un 60
 por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
 tu desempeño personal.
 
-Para determinar el puntaje de tu equipo / producto contaremos con sesiones
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
 períodicas de revisión de código durante todo el proceso y luego con el
 desempeño del producto durante el dia de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
@@ -101,23 +101,24 @@ no hayan completado sus productos, tendrán un período de gracia para hacerlo.
 
 ## Producto
 
-Convertir video juego del curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional)
-en una single app con las siguientes extensiones:
+Durante este curso construirás un "Single page app" con las siguientes
+características:
 
-* Texto de introducción al juego
-* High-scores
-* ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
-
-Y además deberá contar con los siguientes requermientos técnicos:
-
-* Estar desarrollada íntegramente en es6 y react, y empaquetada de manera
-  automatizada con `babel` o `webpack`
+* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
+  con `babel` o `webpack`
+* Utilizando `React` y `Redux`
+* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
+  no atomicos (JSON) y 3 actions
 * Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
   empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Github pages
 * Haber administrado y documentado todo el proceso de creación de la aplicación
   en github.
 * Al día de la demo, la aplicación deberá estar publicada en una URL accesible
   universalmente.
+* No es necesario implementar rutas
+* No es necesario implementar persistencia
+* No es necesario implementar conexiones remotas
 
 ## Syllabus
 
