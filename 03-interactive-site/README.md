@@ -66,7 +66,7 @@ estudiante de Laboratoria.
 
 ### Unidad 01: [Maquetado web con HTML & CSS](00-html-and-css)
 
-50-60 hrs
+60-70 hrs
 
 Para crear un producto web interactivo, primero debemos aprender a maquetar.
 En esta unidad veremos cómo crear la estructura de un sitio web con `html` y
@@ -78,18 +78,22 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 01 | lectura | 15min | Apertura
 | 02 | lectura | 4h | HTML
 | 03 | lectura | 4h | CSS
-| 05 | lectura | 1h | Box Model y Display
-| 04 | lectura | 2h | Positioning y Floats
-| 05 | lectura | 1h | Tipografía e íconos
-| 06 | lectura | 1h | Casos prácticos
-| 07 | cuestionario | 30min | Quiz
-| 08 | seminario | 4h | Revisión de conceptos
-| 09 | taller | 12h |  Ejercicios guiados
-| 10 | práctica | 24h | Retos de código
-| 11 | seminario | 6h | Solucionario retos de código
-| 12 | cuestionario | 30min | Requiz
-| 13 | cuestionario | 15min | Auto-evaluación
-| 14 | seminario | 30min | Cierre
+| 04 | lectura | 1h | Box Model y Display
+| 05 | lectura | 2h | Revisión de conceptos
+| 06 | taller | 2h | Ejercicios guiados
+| 07 | lectura | 2h | Positioning y Floats
+| 08 | lectura | 1h | Tipografía e íconos
+| 09 | lectura | 2h | Revisión de conceptos
+| 10 | taller | 4h | Ejercicios guiados
+| 11 | lectura | 1h | Casos prácticos
+| 12 | cuestionario | 30min | Quiz
+| 13 | seminario | 4h | Revisión de conceptos
+| 14 | taller | 8h |  Ejercicios guiados
+| 15 | práctica | 24h | Retos de código
+| 16 | seminario | 6h | Solucionario retos de código
+| 17 | cuestionario | 30min | Requiz
+| 18 | cuestionario | 15min | Auto-evaluación
+| 19 | seminario | 30min | Cierre
 
 ### Unidad 02: [Creando interacción con JavaScript](01-making-your-site-interactive)
 
