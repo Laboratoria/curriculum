@@ -133,10 +133,11 @@ por defecto.
 
 En esta unidad también introduciremos `JSX`, qué beneficios introduce, por qué
 es una pieza fundamental de `React`. Además construiremos nuestros primeros
-componentes "de verdad". La duración estimada de esta unidad es de 100min.
+componentes "de verdad".
 
 |  # | Tipo      | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
 | 01 | lectura   | self-paced |    5min  | Conceptos básicos de React
 | 02 | lectura   | self-paced |   20min  | Instalación y uso
 | 03 | práctica  | self-paced |   20min  | Ejercicio: Nuestra primera interfaz
@@ -144,6 +145,7 @@ componentes "de verdad". La duración estimada de esta unidad es de 100min.
 | 05 | lectura   | self-paced |   10min  | JSX Basics and expressions
 | 06 | lectura   | self-paced |   10min  | Renderizado condicional
 | 07 | lectura   | self-paced |   10min  | Listas y `key`s
+| 08 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 02: [Proyecto React: Kickstart, QA y Hackeo](02-workshop)
 
@@ -159,24 +161,24 @@ Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo qu
 nuestro equipo estará a tu disposición para que los bombardees a preguntas y
 solicitudes de recomendaciones.
 
-A partir de ahora comienza a contar el reloj. La duración estimada de esta
-unidad es de 2h.
+A partir de ahora comienza a contar el reloj.
 
 ### Unidad 03: [Babel y Webpack](03-babel-and-webpack)
 
 Ahora que ya has tenido la oportunidad de ver lo básico de `React` en acción,
 en esta unidad veremos `Babel` y `Webpack`, que son dos herramientas muy
 comunmente usadas junto con `React`. `Babel` nos permite transpilar nuestro
-código y `Webpack` empaquetar nuestra aplicación. La duración estimada de esta
-unidad es de 60min.
+código y `Webpack` empaquetar nuestra aplicación.
 
-|  # | Tipo    | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced |   10min  | Babel basics
-| 02 | lectura | self-paced |    5min  | JSX Externo
-| 03 | lectura | self-paced |   10min  | Precompile
-| 04 | lectura | self-paced |   15min  | Webpack config
-| 05 | lectura | self-paced |   10min  | Modularización
+|  # | Tipo      | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Babel basics
+| 02 | lectura   | self-paced |    5min  | JSX Externo
+| 03 | lectura   | self-paced |   10min  | Precompile
+| 04 | lectura   | self-paced |   15min  | Webpack config
+| 05 | lectura   | self-paced |   10min  | Modularización
+| 06 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 04: [Proyecto React: Revisión de código, Hackeo y QA](04-workshop)
 
@@ -189,8 +191,7 @@ hacer todas las preguntas que tengamos al equipo técnico.
 
 Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
 hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
-aplicación verdaderamente profesional. La duración estimada de esta unidad es de
-2h.
+aplicación verdaderamente profesional.
 
 ### Unidad 05: [Componentes](05-components)
 
@@ -200,10 +201,11 @@ En esta lección nos vamos a enfocar la especificación de sus tipos, opcionalid
 y valores por defectos.
 
 Luego analizaremos la propiedad especial `children` y como manipularla con
-`.map` y `.filter`. La duración estimada de esta unidad es de 70min.
+`.map` y `.filter`.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
 | 01 | lectura   | self-paced |   10min  | Props: `propTypes` y `defaultProps`
 | 02 | práctica  | self-paced |   10min  | Ejercicio: `propTypes` y `defaultProps`
 | 03 | lectura   | self-paced |   10min  | `children` y `React.Children`
@@ -211,6 +213,7 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 | 05 | seminario | guiado     |   10min  | Re-cap
 | 06 | lectura   | self-paced |   10min  | Higher-order components (HOC)
 | 07 | lectura   | self-paced |   10min  | Componentes presentacionales vs contenedores
+| 08 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 06: [Proyecto React: Revisión de código y QA](06-workshop)
 
@@ -218,8 +221,7 @@ Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
 código, veremos si hemos cumplido o no con lo planeado, y por qué.
 
 Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
-las tareas que mayor efecto tengan en nuestro producto final. La duración
-estimada de esta unidad es de 60min.
+las tareas que mayor efecto tengan en nuestro producto final.
 
 ### Unidad 07: [Estado global](07-global-state)
 
@@ -238,17 +240,18 @@ estado de nuestros componentes con un estado global y disparando cambios de
 manera homogénea a través de acciones con `redux`.
 
 Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas
-de diseño e implementación de una librería de componentes con React y Redux. La
-duración estimada de esta unidad es de 60min.
+de diseño e implementación de una librería de componentes con React y Redux.
 
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced |   10min  | Redux
-| 02 | lectura | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
-| 03 | lectura | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
-| 04 | lectura | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
-| 05 | lectura | self-paced |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
-| 06 | lectura | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Redux
+| 02 | lectura   | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
+| 03 | lectura   | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
+| 04 | lectura   | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
+| 05 | lectura   | self-paced |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
+| 06 | lectura   | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
+| 07 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 08: [Tips para que tu demo sea un éxito](08-workshop)
 
@@ -271,17 +274,16 @@ estado propio y encapsulado.
 
 Y por último veremos casos en los que a dos componentes no les alcanza con
 compartir un estado, sino que necesitan una referencia explícita de uno a otro.
-La duración estimada de esta unidad es de 45min.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |   15min  | Ciclo de vida y estado local
-| 02 | lectura  | self-paced |   10min  | `refs`
-| 03 | práctica | self-paced |   20min  | Ejercicio: cuenta regresiva
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   15min  | Ciclo de vida y estado local
+| 02 | lectura   | self-paced |   10min  | `refs`
+| 03 | práctica  | self-paced |   20min  | Ejercicio: cuenta regresiva
+| 04 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 10: [Proyecto React: Revisión de código y QA](10-workshop)
-
-1 (presencial)
 
 Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
 deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
@@ -300,17 +302,16 @@ Intentaremos entender qué son las `tasks` (tareas), qué hacen exactamente esta
 desarrollo a la publicación.
 
 Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y
-`github pages` para publicar nuestro código. La duración estimada de esta unidad
-es de 30min.
+`github pages` para publicar nuestro código.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |    5min  | Desarrollo, empaquetado y depliegue
-| 02 | práctica | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |    5min  | Desarrollo, empaquetado y depliegue
+| 02 | práctica  | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
+| 03 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 12: [Día de la demo](12-demos)
-
-2h (presencial)
 
 Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos
 para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para
