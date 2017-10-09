@@ -104,8 +104,7 @@ presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, 
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
 Durante esta sesión también nos aseguraremos que todas tienen git y node
-instalado, acceso al repo, su propio fork, ... La duración estimada de está
-unidad es de 1h.
+instalado, acceso al repo, su propio fork, ...
 
 |  # |  Tipo     | Formato | Duración | Descripción
 |----|-----------|---------|----------|------------
@@ -119,8 +118,7 @@ unidad es de 1h.
 En esta lección aprenderás las características y diferencias entre los
 paradigmas más relevantes para **JavaScript**, que es un lenguaje
 multi-paradigma y nos permite programar en varios estilos: imperativo, por
-procedimientos, orientado a objetos (OOP), funcional (FP), ... La duración
-estimada de está unidad es de 1.5h.
+procedimientos, orientado a objetos (OOP), funcional (FP), ...
 
 |  # |  Tipo    | Formato    | Duración | Descripción
 |----|----------|------------|----------|------------
@@ -138,8 +136,6 @@ estimada de está unidad es de 1.5h.
 
 ### Unidad 03: [OOP y herencia prototipal](03-proto)
 
-1.5h (self-paced)
-
 Después de haber completado la introducción a paradigmas, te introdicirás en los
 detalles de cómo usar contructores y prototipos para crear jerarquías de
 herencia.
@@ -153,8 +149,6 @@ herencia.
 
 ### Unidad 04: [Solucionario y ejercicios guiados](04-solucionario)
 
-1h (presencial)
-
 Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
 en particular, y herencia prototipal, en esta lección solucionaremos los
 ejercicios de `planetproto` y `learnyouparadigms` todos juntos con la ayuda de
@@ -162,21 +156,15 @@ los instructores.
 
 ### Unidad 05: [Proyecto (implementación OOP)](05-game-oop)
 
-3h (presencial)
-
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando herencia prototipal.
 
 ### Unidad 06: [Demos de proyectos OOP](06-game-oop-demo)
 
-1h (presencial)
-
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ### Unidad 07: [Object factories and composition](07-composition)
-
-1.5h (self-paced)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
@@ -192,22 +180,16 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 ### Unidad 08: [Ejercicios guiados, ayudantías](08-solucionario)
 
-1h (presencial)
-
 En esta lección nos concentraremos en solucionar los ejercicios de
 `Laboratoria/coi` todos juntos con la ayuda de los instructores.
 
 ### Unidad 09: [Proyecto (implementación FP)](09-game-fp)
-
-3h (presencial)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando el estilo funcional (composición).
 
 ### Unidad 10: [Demos de proyectos FP](10-game-fp-demo)
-
-1h (presencial)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
