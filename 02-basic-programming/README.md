@@ -22,9 +22,9 @@ y condicionales.
 El propósito de este curso es que profundices más en conceptos de la
 programación y así logres crear programas más complejos.
 
-## Aprenderás:
+## Aprenderás
 
-* A utilizar estrcuturas de datos básicas: `arrays` y `objects`
+* A utilizar estructuras de datos básicas: `arrays` y `objects`
 * Qué es y cómo utilizar la interfaz de línea de comandos (`CLI`)
 * Qué es y cómo utilizar un sistema de control de versiones (`Git`)
 * A utilizar estos conceptos para resolver problemas aún más complejos y crear
@@ -44,12 +44,12 @@ Secondary Tags:
 Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
 vida cotidiana:
 
-1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
-tarjeta de crédito es válida según el
-[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
-
-2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
+1. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
 el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+
+2. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
+tarjeta de crédito es válida según el
+[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 ## Syllabus
 
@@ -62,10 +62,10 @@ Laboratoria y empezar las clases.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 10min | Opening
+| 00 | lectura | 10min | Apertura
 | 01 | seminario | 40min | Presentación Laboratoria
 | 02 | taller | 120min | Sprint Demo
-| 03 | seminario | 60min | Cómo se aprende en Laboratoria
+| 03 | seminario | 60min | ¿Cómo se aprende en Laboratoria?
 | 04 | seminario | 60min | Sprint 1 Kick-off
 
 ### Unidad 02: [Programación básica con JavaScript](01-basic-programming)
@@ -78,7 +78,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | lectura | 15min | Apertura
-| 01 | lectura | 60min | Command Line Interface
+| 01 | lectura | 60min | Línea de Comandos
 | 02 | lectura | 60min | Control de versiones
 | 03 | seminario | 120min | Repaso
 | 04 | lectura | 60min | Arreglos
@@ -118,9 +118,11 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 * Quizzes: 5%
 * Requizzes: 10%
 * Retos de código: 55%
-* Productos finales: 30%
+* Productos finales: 
+   - Caesar Cipher: 20%
+   - Tarjeta de crédito válida: 10%
 
-## Contributors
+## Contribuidores
 
 * Rodulfo Prieto
 * Michelle Seguil
