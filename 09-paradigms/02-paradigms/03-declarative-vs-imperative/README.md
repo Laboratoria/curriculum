@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `12min`
+* Duración: `15min`
 
 ***
 

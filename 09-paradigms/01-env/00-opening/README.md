@@ -1,7 +1,7 @@
 # Apertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
+* Tipo: `seminario`
+* Formato: `guiado`
 * Duración: `15min`
 
 ## Objetivos de la lección
@@ -45,30 +45,25 @@ que son formas diferentes de pensar en cómo se organiza un programa.
 
 ## Estrategia de aprendizaje
 
-Este curso se compone de `workshops` presenciales, `lecturas/videos` y
+Este curso se compone de `talleres` presenciales, `lecturas/videos` y
 `ejercicios` en el siguiente orden:
 
-1. Empezaremos por un [workshop](../#workshop-1-entorno-y-metodología-de-trabajo)
-   con el objetivo de que todas las alumnas tengan las herramientas necesarias y
-   el entorno de desarrollo listo.
+1. Empezaremos por un workshop con el objetivo de que todas las alumnas tengan
+   las herramientas necesarias y el entorno de desarrollo listo.
 2. Después comienza el contenido específico de paradigmas, donde nos
    concentraremos en los paradigmas en general, sus diferencias, su historia...
-   con una serie de [lecturas y videos](../03-paradigms/01-overview.md)
-   intercalados con ejercicios (`Laboratoria/learnyouparadigms`).
+   con una serie de lecturas y videos intercalados con ejercicios.
 3. Continuaremos con el formato de lecturas y videos para adentrarnos en la
-   programación orientada a objetos, acompañados del workshopper
-   [planetproto](https://github.com/sporto/planetproto).
-4. Llegados a este punto haremos un workshop presencial para hacer solucionarios
-   de `learnyouparadigms` y `planetproto`, y responder a tus preguntas.
+   programación orientada a objetos, acompañados de ejercicios.
+4. Llegados a este punto haremos una clase presencial para hacer solucionarios
+   de los ejercicios hechos hasta este punto, y responder a tus preguntas.
 5. Workshop presencial para extender juego añadiendo personajes usando herencia
    prototipal. El trabajo se hará en parejas, se entregará via pull request y se
    presentará una demo al final.
 6. Regresamos a las lecturas para introducirnos en el estilo funcional, y en
    particular el concepto de composoción como alternativa a las jerarquías de
-   herencia. Las lecturas estarán acompañadas de los ejercicios del workshopper
-   `Laboratoria/coi`.
-7. Workshop presencial para hacer solucionario de `Laboratoria/coi` y responder
-   a tus preguntas.
+   herencia. Las lecturas estarán acompañadas de ejercicios.
+7. Workshop presencial para hacer solucionarios y responder a tus preguntas.
 8. Workshop presencial para extender juego añadiendo personajes usando factories
    y composición de objetos. El trabajo se hará en parejas, se entregará via
    pull request y se presentará una demo al final.
@@ -84,18 +79,12 @@ Al finalizar el curso, tu rama debería quedar con las siguientes carpetas:
 
 ```text
 .
-├── coi
 ├── game-fp
-├── game-oop
-├── paradigms
-└── planetproto
+└── game-oop
 ```
 
-* `coi`: cada ejercicio de `Laboratoria/coi` será un archivo
 * `game-fp`: código fuente del juego con personajes usando factories
 * `game-oop`: código fuente del juego con personajes usando constructores/prototipos
-* `paradigms`: cada ejercicio de `Laboratoria/learnyouparadigms` será un archivo
-* `planetproto`: cada ejercicio de `planetproto` será un archivo
 
 ## Evaluación
 

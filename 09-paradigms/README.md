@@ -108,10 +108,9 @@ instalado, acceso al repo, su propio fork, ...
 
 |  # |  Tipo     | Formato | Duración | Descripción
 |----|-----------|---------|----------|------------
-| 01 | seminario | guiado  |   15min  | Bienvenida
-| 01 | taller    | guiado  |   20min  | [Entorno: Git + GitHub](02-env/01-git+github.md)
-| 02 | taller    | guiado  |   20min  | [Entorno: Node.js + npm](02-env/02-node+npm.md)
-| 03 | taller    | guiado  |   20min  | [Ejemplo: Workshopper (paradigms)](02-env/03-workshopper.md)
+| 00 | seminario | guiado  |   15min  | [Bienvenida](02-env/00-opening)
+| 01 | taller    | guiado  |   20min  | [Entorno: Git + GitHub](02-env/01-git+github)
+| 02 | taller    | guiado  |   20min  | [Entorno: Node.js + npm](02-env/02-node+npm)
 
 ### Unidad 02: [Introducción a Paradigmas de Programación](02-paradigms)
 
@@ -120,19 +119,22 @@ paradigmas más relevantes para **JavaScript**, que es un lenguaje
 multi-paradigma y nos permite programar en varios estilos: imperativo, por
 procedimientos, orientado a objetos (OOP), funcional (FP), ...
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |    4min  | [¿Qué son los paradigmas de programación?](03-paradigms/01-overview.md)
-| 02 | lectura  | self-paced |    3min  | [Historia](03-paradigms/02-history.md)
-| 03 | lectura  | self-paced |   12min  | [Declarativo vs Imperativo](03-paradigms/03-declarative-vs-imperative.md)
-| 04 | práctica | self-paced |    5min  | [Ejercicio Imperativo](03-paradigms/04-imperative-exercise.md)
-| 05 | lectura  | self-paced |    6min  | [Por procedimientos](03-paradigms/05-procedural.md)
-| 06 | lectura  | self-paced |    6min  | [Modularidad](03-paradigms/06-modules.md)
-| 07 | práctica | self-paced |   10min  | [Ejercicio por procedimientos](03-paradigms/07-procedural-exercise.md)
-| 08 | lectura  | self-paced |   12min  | [Orientado a objetos](03-paradigms/08-oop.md)
-| 09 | práctica | self-paced |   10min  | [Ejercicio OOP](03-paradigms/09-oop-exercise.md)
-| 10 | lectura  | self-paced |   10min  | [Funcional](03-paradigms/10-fp.md)
-| 11 | práctica | self-paced |   10min  | [Ejercicio funcional](03-paradigms/11-fp-exercise.md)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | [Apertura](02-paradigms/00-opening)
+| 01 | lectura   | self-paced |    5min  | [¿Qué son los paradigmas de programación?](02-paradigms/01-overview)
+| 02 | lectura   | self-paced |    4min  | [Historia](02-paradigms/02-history)
+| 03 | lectura   | self-paced |   15min  | [Declarativo vs Imperativo](02-paradigms/03-declarative-vs-imperative)
+| 04 | práctica  | self-paced |    5min  | [Ejercicio Imperativo](02-paradigms/04-imperative-exercise)
+| 05 | lectura   | self-paced |    6min  | [Por procedimientos](02-paradigms/05-procedural)
+| 06 | lectura   | self-paced |    6min  | [Modularidad](02-paradigms/06-modules)
+| 07 | práctica  | self-paced |   10min  | [Ejercicio por procedimientos](02-paradigms/07-procedural-exercise)
+| 08 | lectura   | self-paced |   12min  | [Orientado a objetos](02-paradigms/08-oop)
+| 09 | práctica  | self-paced |   10min  | [Ejercicio OOP](02-paradigms/09-oop-exercise)
+| 10 | lectura   | self-paced |   10min  | [Funcional](02-paradigms/10-fp)
+| 11 | práctica  | self-paced |   10min  | [Ejercicio funcional](02-paradigms/11-fp-exercise)
+| 12 | seminario | guiado     |   15min  | [Solucionario](03-proto/12-seminar)
+| 13 | seminario | guiado     |   15min  | [Cierre](02-paradigms/13-closing)
 
 ### Unidad 03: [OOP y herencia prototipal](03-proto)
 
@@ -140,56 +142,50 @@ Después de haber completado la introducción a paradigmas, te introdicirás en 
 detalles de cómo usar contructores y prototipos para crear jerarquías de
 herencia.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |   10min  | [`this` y `bind`](04-proto/01-this-and-bind)
-| 02 | lectura  | self-paced |   10min  | [`Object.create`](04-proto/02-object-create.md)
-| 03 | lectura  | self-paced |   12min  | [Herencia prototipal](04-proto/03-prototypal-inheritance.md)
-| 04 | práctica | self-paced |   60min  | [Ejercicios planetproto](04-proto/04-ejercicios-planetproto.md)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | [Apertura](03-proto/00-opening)
+| 01 | lectura   | self-paced |   10min  | [`this` y `bind`](03-proto/01-this-and-bind)
+| 02 | lectura   | self-paced |   10min  | [`Object.create`](03-proto/02-object-create)
+| 03 | lectura   | self-paced |   12min  | [Herencia prototipal](03-proto/03-prototypal-inheritance)
+| 04 | práctica  | self-paced |   60min  | [Ejercicios planetproto](03-proto/04-ejercicios-planetproto)
+| 05 | seminario | guiado     |   15min  | [Solucionario](03-proto/05-seminar)
+| 06 | seminario | guiado     |   15min  | [Cierre](03-proto/06-closing)
 
-### Unidad 04: [Solucionario y ejercicios guiados](04-solucionario)
-
-Ahora que ya has tenido un primer acercamiento a los paradigmas en general, OOP
-en particular, y herencia prototipal, en esta lección solucionaremos los
-ejercicios de `planetproto` y `learnyouparadigms` todos juntos con la ayuda de
-los instructores.
-
-### Unidad 05: [Proyecto (implementación OOP)](05-game-oop)
+### Unidad 04: [Proyecto (implementación OOP)](04-game-oop)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando herencia prototipal.
 
-### Unidad 06: [Demos de proyectos OOP](06-game-oop-demo)
+### Unidad 06: [Demos de proyectos OOP](05-game-oop-demo)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Unidad 07: [Object factories and composition](07-composition)
+### Unidad 07: [Object factories and composition](06-composition)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
 orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |    3min  | [Closures](08-composition/01-closures.md)
-| 02 | lectura  | self-paced |    5min  | [Factories](08-composition/02-factories.md)
-| 03 | lectura  | self-paced |    5min  | [Object.assign](08-composition/03-object-assign.md)
-| 04 | lectura  | self-paced |   10min  | [Composition over inheritance](08-composition/04-composition-over-inheritance.md)
-| 05 | práctica | self-paced |   60min  | [Ejercicios](08-composition/05-exercises.md)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | [Apertura](06-composition/00-opening)
+| 01 | lectura   | self-paced |    3min  | [Closures](06-composition/01-closures)
+| 02 | lectura   | self-paced |    5min  | [Factories](06-composition/02-factories)
+| 03 | lectura   | self-paced |    5min  | [Object.assign](06-composition/03-object-assign)
+| 04 | lectura   | self-paced |   10min  | [Composition over inheritance](06-composition/04-composition-over-inheritance)
+| 05 | práctica  | self-paced |   60min  | [Ejercicios](06-composition/05-exercises)
+| 06 | seminario | guiado     |   15min  | [Solucionario](06-composition/06-seminar)
+| 07 | seminario | guiado     |   15min  | [Cierre](06-composition/07-closing)
 
-### Unidad 08: [Ejercicios guiados, ayudantías](08-solucionario)
-
-En esta lección nos concentraremos en solucionar los ejercicios de
-`Laboratoria/coi` todos juntos con la ayuda de los instructores.
-
-### Unidad 09: [Proyecto (implementación FP)](09-game-fp)
+### Unidad 09: [Proyecto (implementación FP)](07-game-fp)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando el estilo funcional (composición).
 
-### Unidad 10: [Demos de proyectos FP](10-game-fp-demo)
+### Unidad 10: [Demos de proyectos FP](08-game-fp-demo)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 

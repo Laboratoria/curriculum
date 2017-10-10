@@ -11,9 +11,8 @@
 
 ***
 
-Durante esta sesión nos aseguraremos de que todxs tengan `node` y `npm`, que
-puedan instalar los _workshoppers_ y que se familiaricen con `node` en el
-terminal.
+Durante esta sesión nos aseguraremos de que todxs tengan `node` y `npm`, y que
+se familiaricen con `node` en el terminal.
 
 Lxs instructorxs harán ejemplos en vivo de instalación/desintalación de módulos
 usando `npm`.
