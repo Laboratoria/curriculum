@@ -192,9 +192,6 @@ Existen múltiples selectores. Lee la siguiente documentación para que aprendas
 * [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
 * [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
 
-Además, puedes hacer [este juego](https://laboratoria.github.io/css-diner) para
-poner en práctica los selectores aprendidos y algunos otros nuevos.
-
 Al finalizar tu investigación debes saber qué es y cómo usar:
 * Selector universal
 * Selector de elementos (de tipo)

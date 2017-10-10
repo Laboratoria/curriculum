@@ -67,7 +67,8 @@ pueden ser eliminados de forma temporal o permanente del equipo administrador.
 
 ## Atribución
 
-Este Código de Conducta es una adaptación del [Contributor Covenant][homepage], versión 1.4, disponible en [http://contributor-covenant.org/version/1/4/es/][version]
+Este Código de Conducta es una adaptación del [Contributor Covenant][homepage],
+versión 1.4, disponible en [http://contributor-covenant.org/version/1/4/es/][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/es/

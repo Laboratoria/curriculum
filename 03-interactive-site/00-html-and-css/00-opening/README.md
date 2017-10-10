@@ -39,10 +39,10 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué significa que `css` es en "cascada"? ¿Por qué es útil? Haz un dibujo
 - ¿Cómo funciona la herencia en `css`? Haz un dibujo
 - ¿Por qué se dice que el `html` es anidado? Haz un dibujo
-- ¿Qué significa crear `html` semantico? ¿Por qué es importante?
+- ¿Qué significa crear `html` semántico? ¿Por qué es importante?
 <!-- - [ ] ¿Qué se entiende por "meta data"? ¿Para qué sirve? ¿Quién la usa? -->
 - Dame un par de ejemplos de buenas prácticas de código html
-- ¿Qué significa que un elemeno `html` se comporte como `block`? ¿Y como
+- ¿Qué significa que un elemento `html` se comporte como `block`? ¿Y como
 `inline`? Dame un par de ejemplos
 - ¿Qué es un atributo de un elemento `html`? Dame un ejemplo
 - Pensando en la analogía de construir un edificio, ¿qué representa el

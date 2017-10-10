@@ -79,14 +79,14 @@ _unidad_. Algo como esto:
 | 06 | quiz | self-paced | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
 | 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
 
-### Unidad 02: [Taller de implementación 1 - Proyecto](#)
+### Unidad 02: [Taller de implementación 1 - Proyecto](02-workshop)
 
 Duración estimada: 3h
 
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...
 
-### Unidad 03: [Otra unidad](#)
+### Unidad 03: [Otra unidad](03-another-unit)
 
 Duración estimada: 1h
 
@@ -105,14 +105,14 @@ esto:
 | 06 | quiz | self-paced | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
 | 07 | lectura | self-paced | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
 
-### Unidad 04: [Taller de implementación 2 - Proyecto](#)
+### Unidad 04: [Taller de implementación 2 - Proyecto](04-workshop)
 
 Duración estimada: 3h
 
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...
 
-### Unidad 05: [Demos de proyectos](#)
+### Unidad 05: [Demos de proyectos](05-demos)
 
 Duración estimada: 1h
 
