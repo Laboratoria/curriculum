@@ -158,11 +158,11 @@ En esta sesión te dedicarás a hackear :construction:! Junto con una compañera
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando herencia prototipal.
 
-### Unidad 06: [Demos de proyectos OOP](05-game-oop-demo)
+### Unidad 05: [Demos de proyectos OOP](05-game-oop-demo)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### Unidad 07: [Object factories and composition](06-composition)
+### Unidad 06: [Object factories and composition](06-composition)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
@@ -179,13 +179,13 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 | 06 | seminario | guiado     |   15min  | [Solucionario](06-composition/06-seminar)
 | 07 | seminario | guiado     |   15min  | [Cierre](06-composition/07-closing)
 
-### Unidad 09: [Proyecto (implementación FP)](07-game-fp)
+### Unidad 07: [Proyecto (implementación FP)](07-game-fp)
 
 En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando el estilo funcional (composición).
 
-### Unidad 10: [Demos de proyectos FP](08-game-fp-demo)
+### Unidad 08: [Demos de proyectos FP](08-game-fp-demo)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
