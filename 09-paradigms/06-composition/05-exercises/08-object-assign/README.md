@@ -1,7 +1,7 @@
-# Ejercicios
+# Object.assign()
 
 * Tipo: `practice`
 * Formato: `self-paced`
-* Duración: `60min`
+* Duración: `10min`
 
 ***

@@ -1,7 +1,7 @@
-# Ejercicios
+# Object factories
 
 * Tipo: `practice`
 * Formato: `self-paced`
-* Duración: `60min`
+* Duración: `10min`
 
 ***
