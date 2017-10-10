@@ -35,7 +35,7 @@ Como ejemplo tenemos la siguiente imagen, la cual muestra tres cajas rectangular
 ### Elementos que componen el modelo de cajas
 Las partes que componen cada caja consisten en el **contenido real**, el **relleno**, los **bordes** y los **márgenes**; podemos ver la imagen de abajo que ilustra el modelo de caja:
 
-![box model](https://fotos.subefotos.com/762c6fcabb7977fa1f5b05b1a1a806c3o.png)
+![box model](http://image.ibb.co/cQZxTw/modelo_De_Caja.png)
 
 Explicación de cada parte que compone cada caja:
 
@@ -130,7 +130,7 @@ Esto significa que admite entre uno y cuatro valores, con el siguiente significa
 ### Border
 Es la **línea** que encierra el _contenido_ y el _padding_. Es aplicable a todos los elementos.
 
-![border](https://fotos.subefotos.com/7a532d95476ec81efd2ff8705c7f775co.png)
+![border](http://image.ibb.co/nKwpab/border_Anchos.png)
 
 Para cada borde se puede establecer su anchura o grosor, su color y su estilo, por lo que en total CSS define distintas propiedades relacionadas con los bordes.
 
@@ -181,7 +181,7 @@ div {
 ### Margin (___margen___)
 Es la **separación opcional** existente entre la caja y el resto de las cajas adyacentes.
 
-![margin](https://fotos.subefotos.com/05e996961899e2d4d2f67337e609614co.png)
+![margin](http://image.ibb.co/hH9LgG/margin.png)
 
 Su valor se puede definir en: **Unidades de medida**, **porcentaje** o `inherit` (especifica que el margin debe ser heredado del elemento padre).
 
@@ -224,7 +224,7 @@ Controla el ancho de la caja o de un elemento.
 
 ![width](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
 
-Su valor se puede definir en: **Unidades de medida**, **porcentaje**, `auto` o `inherit`. Siendo como valor inicial `auto` .
+Su valor se puede definir en: **unidades de medida**, **porcentaje**, `auto` o `inherit`. Siendo como valor inicial `auto` .
 La propiedad **width** no admite valores negativos y los valores en porcentaje se calculan a partir de la anchura de su elemento padre.
 
 ```css
@@ -274,7 +274,7 @@ div {
   box-sizing: border-box;
 }
 ```
-![border-box](https://fotos.subefotos.com/76410b4ea4bbcbccdfb0c4f4946229f8o.png)
+![border-box](http://image.ibb.co/nAbcTw/border_box.png)
 
 >También podemos utilizar el valor `inherit`, que es el valor que hereda esta propiedad de su elemento padre.
 
@@ -305,9 +305,9 @@ La propiedad `display: block` hace que el elemento tenga como naturaleza posicio
 ![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
 
 Sus características son:
-- Si no hay ancho definido se expanden hasta llenar el espacio de su contenedor padre
+- Si no hay ancho definido, se expanden hasta llenar el espacio de su contenedor padre
 - Pueden tener márgenes y rellenos
-- Si no se define altura crecerán hasta contener a sus hijos
+- Si no se define altura, crecerán hasta contener a sus hijos
 - Por defecto hace un salto de línea
 - Ignoran la propiedad `vertical-align`
 

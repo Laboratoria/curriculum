@@ -49,7 +49,7 @@ Además repasaremos conceptos clave del flujo de trabajo de una developer:
 
 3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos,
 repasemos el funcionamiento de:
-  * La línea de comando
+  * La línea de comandos
   * Flujo básico de trabajo con Git y GitHub (`init`, `status`, `add`, `commit`,
     `push` y `pull`)
 

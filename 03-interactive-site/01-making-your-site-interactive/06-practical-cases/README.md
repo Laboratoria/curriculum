@@ -28,7 +28,7 @@ Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema
 
 Tu aplicación debe mostrar las siguientes alternativas:
 
-Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico. 
+Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico.
 
 ![GitHub Logo](https://image.ibb.co/mh9PKF/avion_3.jpg)
 
@@ -91,21 +91,34 @@ Se muestra una tabla donde se encuentran celdas vacías, con número o con minas
 - Preguntar el nivel de dificultad deseada (fácil, nivel, difícil, y significa el número de bombas que tendrá)
 - Llenar de manera automática todo (bombas, celdas vacías y números)
 
+#### 3. Crear un menu de hamburgesa.
+
+Un menu de hamburgesa nos permite tener escondido el menu y únicamente mostrar un boton (3 lineas horizontales) que cuando lo apretamos (o hacemos click), se muestra en la pantalla todas las opciones del menu.
+
+Algo asi:
+
+[[https://camo.githubusercontent.com/04f67efc665600ca896479c50b3a13b99fee648e/687474703a2f2f692e696d6775722e636f6d2f7370537548485a2e676966]]
+
+Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos", únicamente enfocarse en funcionalidad)
 
 ## Solucionarios
 
-A continuación, Michelle te explica cómo resolvió cada uno de los
+A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de los
 ejercicios anteriores.  
 
-#### 1. -----
+#### 1. Aerolinea
 
-[![-----]()
+[![Solución aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
-#### 2. -----
+#### 2. Buscaminas
 
-[![-----]()
+[![Solución Buscaminas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
+
+#### 2. Menú de Hamburgesa
+
+[![Solución Menu Hamburgesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+
 
 ***
 
 [Continuar]()
- 
