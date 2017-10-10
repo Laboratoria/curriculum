@@ -2,11 +2,11 @@
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de
-principios, los cuales resultan en estilos muy distintos y lenguages muy
+principios, los cuales resultan en estilos muy distintos y lenguajes muy
 diversos.
 
 **JavaScript** es un leguage _híbrido_, por decirlo de alguna forma, y contiene
-elementos propios de lenguages funcionales (por ejemplo funciones como objetos
+elementos propios de lenguajes funcionales (por ejemplo funciones como objetos
 de primera clase, lambdas, ...) pero no estamos limitados al paradigma
 funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
 programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
@@ -18,7 +18,7 @@ JavaScript.
 
 Históricamente, el paradigma orientado a objetos (OOP) ha sido el predominante,
 pero recientemente, y en particular en la comunidad de JavaScript, hay un
-resurgir del paradigma funcional y sus bondades. **JavaScript es un lenguage de
+resurgir del paradigma funcional y sus bondades. **JavaScript es un lenguaje de
 corazón funcional**, así que conocer el paradigma, y cómo se compara a la
 programación orientada a objetos, no sólo te hará una mejor coder, si no que
 podrás entender cómo se pueden enfrentar los mismos problemas con enfoques
@@ -36,7 +36,7 @@ el paradigma funcional.
 ## Público objetivo
 
 Este curso está pensado para alumnas que ya se han familiarizado con la
-programación en JavaScript y quieren llevar su conocimiento sobre el lenguage
+programación en JavaScript y quieren llevar su conocimiento sobre el lenguaje
 a otro nivel, entendiendo diferentes formas de "pensar" en cómo se estructura
 un programa.
 
