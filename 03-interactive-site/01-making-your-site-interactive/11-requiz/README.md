@@ -7,6 +7,7 @@
 
 - Tomar un segundo quiz para asegurarnos que terminamos la unidad con un entendimiento pleno de los conceptos.
 
+***
 
 ## Preguntas
 
