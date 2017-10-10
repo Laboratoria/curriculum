@@ -82,8 +82,11 @@ Por supuesto, no es estrictamente necesario que hagas un diagrama de flujo. Podr
 
 #### 2. Creando animación en el DOM?
 
+Necesitamos generar 12 cuadros blancos en filas de 3. Uno de esos cuadros será de un color diferente. Necesitamos mover ese cuadro a través de los cuadros blancos usando las flechas del teclado.
 
-#### _Nota: Todos los retos deben validar los inputs antes de correr el programa._
+En el siguiente video explicamos mas el ejercicio:
+
+[![Animación DOM](https://img.youtube.com/vi/LtfSKzCjCC4/0.jpg)](https://www.youtube.com/watch?v=LtfSKzCjCC4)
 
 ***
 [Continuar]( )
