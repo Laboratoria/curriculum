@@ -34,6 +34,15 @@ Se tomarán en cuenta las siguientes consideraciones a la hora de evaluar tu sol
 6. Uso de comentarios para hacer tu código más legible
 7. Que el programa cumpla con el propósito requerido
 
+## Entregables
+
+Para cada producto debes entregar **un repositorio de GitHub** que
+contenga:
+1. Archivo `README.md` que explique el **pseudocódigo** de tu solución y su
+**diagrama de flujo**
+2. Archivo `app.js` con el **código** de tu solución
+
+
 ## 1. Cifrado César
 Crea una web que pida, por medio de un `prompt()`, una frase al usuario y
 devuelva el mismo mensaje encriptado según el
