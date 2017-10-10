@@ -9,7 +9,7 @@
 ## Objetivos
 
 - A continuación te presentamos una serie de retos que debes completar para
-poner tus conocimientos a prueba.
+  poner tus conocimientos a prueba.
 
 ## Estructura de trabajo
 
@@ -18,10 +18,13 @@ con todos los recursos que necesitas. En las instrucciones del reto encontrarás
 los pasos para usar este boilerplate.
 
 ## 1. Freelancer
-* [Instrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
+
+- [Instrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
 
 ## 2. Lyft
-* [Instrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
+
+- [Instrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
 
 ## 3. Workshopper (opcional)
-* [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
+
+- [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
