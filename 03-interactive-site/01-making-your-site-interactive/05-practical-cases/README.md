@@ -132,7 +132,6 @@ ejercicios anteriores.
 #### 2. Buscaminas
 
 [![Solución Buscaminas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
-<<<<<<< HEAD
 
 #### 3. Menú de Hamburgesa
 
@@ -146,12 +145,6 @@ ejercicios anteriores.
 #### 5. Menú dropdown
 
 [![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
-=======
-
-#### 2. Menú de Hamburgesa
-
-[![Solución Menu Hamburgesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
->>>>>>> upstream/03-interactive
 
 
 ***
