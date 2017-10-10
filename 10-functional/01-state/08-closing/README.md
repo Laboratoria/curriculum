@@ -6,7 +6,11 @@
 
 ***
 
+<<<<<<< HEAD
 ### Resumen
+=======
+## Resumen
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 Llegamos al final de la unidad ;-)
 
@@ -26,7 +30,11 @@ posible, especialmente en funciones que emplean *side-effects* para llevar a
 cabo su cometido, por ejemplo el uso de promesas en JavaScript. Pero este tema,
 lo veremos en una siguiente lección.
 
+<<<<<<< HEAD
 ### Respondamos juntxs las preguntas de la apertura
+=======
+## Respondamos juntxs las preguntas de la apertura
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 * Cómo evitar que nuestras funciones tengan efectos colaterales?
 * Por qué es beneficioso evitar el estado compartido?
@@ -41,7 +49,11 @@ lo veremos en una siguiente lección.
   propiedades y así _clonar_ objetos?
 * Cómo usar el _spread operator_ (`...`) para copiar objetos y arreglos?
 
+<<<<<<< HEAD
 ### Auto-evaluación
+=======
+## Auto-evaluación
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
 Este cuestionario no es calificado.

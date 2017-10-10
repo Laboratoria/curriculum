@@ -8,7 +8,11 @@
 
 ## Preguntas
 
+<<<<<<< HEAD
 ### En una función recursiva, el caso base es...
+=======
+### En una función recursiva, el caso base es
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 #### Opciones
 
@@ -19,7 +23,11 @@
 
 <solution style="display:none;">2,3</solution>
 
+<<<<<<< HEAD
 ### En una función recursiva, el caso recursivo es...
+=======
+### En una función recursiva, el caso recursivo es
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 #### Opciones
 
@@ -30,7 +38,11 @@
 
 <solution style="display:none;">2,4</solution>
 
+<<<<<<< HEAD
 ### Cada vez que invocamos una función...
+=======
+### Cada vez que invocamos una función
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 #### Opciones
 
@@ -41,7 +53,11 @@
 
 <solution style="display:none;">1,4</solution>
 
+<<<<<<< HEAD
 ### Una función asíncrona...
+=======
+### Una función asíncrona
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 #### Opciones
 

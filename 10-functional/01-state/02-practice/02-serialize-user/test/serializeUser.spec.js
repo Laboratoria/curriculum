@@ -28,6 +28,7 @@ describe('serializeUser()', () => {
       country: 'us',
       date: new Date()
     };
+    Submission(grace);
     Assert.equal(grace.name, 'Grace Hopper');
     Assert.ok(grace.date instanceof Date);
   });

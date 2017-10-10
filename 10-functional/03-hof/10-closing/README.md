@@ -6,7 +6,11 @@
 
 ***
 
+<<<<<<< HEAD
 ### Resumen
+=======
+## Resumen
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 En esta unidad hemos hablado de funciones de orden superior, las cuales son
 funciones de primera clase que también realizan una o ambas de las siguientes
@@ -26,7 +30,11 @@ devolvió un closure/cierre, una técnica que verás una y otra vez en JavaScrip
 Además, las funciones que devuelven funciones permiten crear funciones
 potentes.
 
+<<<<<<< HEAD
 ### Respondamos juntxs las preguntas de la apertura
+=======
+## Respondamos juntxs las preguntas de la apertura
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 * Qué significa que las funciones son de primera clase en JavaScript?
 * Qué es una función de orden superior
@@ -34,7 +42,11 @@ potentes.
 * Qué es la técnica de la aplicación parcial
 * Qué es el _currying_ en programación funcional
 
+<<<<<<< HEAD
 ### Auto-evaluación
+=======
+## Auto-evaluación
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
 Este cuestionario no es calificado.
