@@ -17,7 +17,7 @@ claim(robby.motors, 4);
 claim(robby.friendly, true);
 
 module.exports = {
-  machine: machine,
-  robot:   robot,
-  robby:   robby
+  machine,
+  robot,
+  robby,
 };
