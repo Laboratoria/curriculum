@@ -54,7 +54,8 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es `box-sizing` y para qué se usa?
 - Dibuja el modelo de la caja y explícalo
 - ¿Cómo es el flujo normal de un documento? ¿Cómo cambiamos ese flujo?
-- ¿Para qué funciona `positioning`? ¿En qué se asemeja a `float`? ¿En qué se diferencia?
+- ¿Para qué funciona `positioning`? ¿En qué se asemeja a `float`? ¿En qué se
+  diferencia?
 - ¿Qué tiene que ver `clear` y `clearfix` con `float`?
 - ¿Por qué `clearfix` se considera un "hack"? ¿Para qué sirve? ¿Cómo se usa?
 - ¿Qué es colapso de margen? Explícalo con un ejemplo y un dibujo
