@@ -9,7 +9,7 @@
 ## Objetivos
 
 - Revisar y consolidar los conceptos aprendidos por medio de una clase
-con tu equipo de profesores
+  con tu equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
 ## Agenda
@@ -17,9 +17,10 @@ con tu equipo de profesores
 ### 1. Repaso de conceptos generales
 
 Asegurar que entendemos bien los siguientes conceptos:
-  * Positioning
-  * Floats
-  * Tipografía e íconos
+
+- Positioning
+- Floats
+- Tipografía e íconos
 
 ### 2. Repasar los ejemplos de las lecturas de MDN
 
