@@ -8,7 +8,7 @@ Notas:
 * Si el arreglo está vacío, debería devolver `undefined`.
 * Si el índice dado está fuera de rango del arreglo ubicado en la clave dada, debería devolver `undefined`.
 * Si la propiedad en la clave dada no es un arreglo, debería devolver `undefined`.
-* Si no hay ninguna propiedad en la clave, debería devolverse `undefined`. 
+* Si no hay ninguna propiedad en la clave, debería devolverse `undefined`.
 
 Ejemplo de entrada:
 
