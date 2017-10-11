@@ -162,18 +162,40 @@ h2 {
 
 <solution style="display:none">2</solution>
 
-### 13) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+### 13) Según el siguiente código, ¿cuál será el color del elemento `.phrase`?
 
-![Especificidad - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/especificidad.png?raw=true)
+**HTML:**
+
+```html
+<p id="quote">
+  <strong class="subject">Laboratoria</strong>
+  <em class="phrase">código que transforma</em>
+</p>
+```
+
+**CSS:**
+
+```css
+#quote {
+  color: #FAB541;
+}
+
+.phrase {
+  color: blue;
+}
+
+#quote .phrase {
+  color: initial;
+}
+```
 
 #### Opciones
 
-1. ![Especificidad - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option1.png?raw=true)
-2. ![Especificidad - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option2.png?raw=true)
-3. ![Especificidad - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option3.png?raw=true)
-4. ![Especificidad - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/esp-option4.png?raw=true)
+1. `#FAB541`
+2. Azul
+3. Por defecto del navegador (negro)
 
-<solution style="display:none">1</solution>
+<solution style="display:none">3</solution>
 
 ### 14) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
 
@@ -237,18 +259,118 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 <solution style="display:none;">3</solution>
 
-### 16) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+### 16) Teniendo en cuenta el `HTML` y el resultado, ¿cuál sería el `CSS` necesario para lograrlo?
 
-![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
+**HTML:**
+
+```html
+<div class="container">
+  <div class="box red"></div>
+  <div class="box blue"></div>
+</div>
+```
+
+**RESULTADO:**
+
+![Positioning - Pregunta](positioning.png)
 
 #### Opciones
 
-1. ![Positioning - Opción 1](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option1.png?raw=true)
-2. ![Positioning - Opción 2](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option2.png?raw=true)
-3. ![Positioning - Opción 3](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option3.png?raw=true)
-4. ![Positioning - Opción 4](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/post-option4.png?raw=true)
+1. ```css
+   .container {
+     position: relative;
+     width: 600px;
+     height: 400px;
+     background-color: rgba(100, 100, 100, .5);
+   }
 
-<solution style="display:none">3</solution>
+   .box {
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+   }
+
+   .red {
+     position: absolute;
+     background-color: rgba(250, 50, 50, .5);
+     left: 200px;
+   }
+
+   .blue {
+     background-color: rgba(50, 50, 250, .5);
+   }
+   ```
+2. ```css
+   .container {
+     position: fixed;
+     width: 600px;
+     height: 400px;
+     background-color: rgba(100, 100, 100, .5);
+   }
+
+   .box {
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+   }
+
+   .red {
+     background-color: rgba(250, 50, 50, .5);
+     left: 200px;
+   }
+
+   .blue {
+     background-color: rgba(50, 50, 250, .5);
+   }
+   ```
+3. ```css
+   .container {
+     width: 600px;
+     height: 400px;
+     background-color: rgba(100, 100, 100, .5);
+   }
+
+   .box {
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+   }
+
+   .red {
+     position: absolute;
+     background-color: rgba(250, 50, 50, .5);
+     left: 200px;
+   }
+
+   .blue {
+     background-color: rgba(50, 50, 250, .5);
+   }
+   ```
+4. ```css
+   .container {
+     width: 600px;
+     height: 400px;
+     background-color: rgba(100, 100, 100, .5);
+   }
+
+   .box {
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+   }
+
+   .red {
+     position: relative;
+     background-color: rgba(250, 50, 50, .5);
+     left: 200px;
+   }
+
+   .blue {
+     background-color: rgba(50, 50, 250, .5);
+   }
+   ```
+
+<solution style="display:none">1</solution>
 
 ### 17) Tomando en cuenta el siguiente código, ¿qué pasará con la posición de `#example`?
 
