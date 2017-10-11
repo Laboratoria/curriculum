@@ -7,12 +7,19 @@
 ***
 
 ## Objetivos
+
 - Practicar codeando junto a tu equipo de profes, resolviendo ejercicios de
-`html` y `css`
+  `html` y `css`
 - Practicar, practicar y practicar
 
 ## Enunciados
-A continuación tienes algunos ejercicios de práctica que serán resueltos, paso a paso, por tu equipo de profes en una sesión presencial (`taller`). Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución ante la clase y así ayudar al resto de tus compañeras :)
+
+A continuación tienes algunos ejercicios de práctica que serán resueltos, paso a
+paso, por tu equipo de profes en una sesión presencial (`taller`). Te sugerimos
+que intentes resolver los ejercicios por tu cuenta (o en equipo) **antes** de la
+sesión presencial. Así, ya vienes con dudas específicas y estarás familiarizada
+con los retos. Quizás, puedas tú presentar tu solución ante la clase y así
+ayudar al resto de tus compañeras :)
 
 Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
 
@@ -30,9 +37,13 @@ Replica las siguiente imagenes poniendo en práctica tus conocimientos de `posit
 
 ### 3. CSS Positioning 101, por [Noah Stokes](https://alistapart.com/author/nstokes)
 
-Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo: [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
+Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo:
+[CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
 ### 4. Tipografías e íconos
-Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts (sugerencia: Google Fonts). Puedes utilizar las tipografías iconográficas de tu preferencia.
+
+Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts
+(sugerencia: Google Fonts). Puedes utilizar las tipografías iconográficas de tu
+preferencia.
 
 ![Tipografías e íconos](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
