@@ -8,6 +8,8 @@
 
 - En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!
 
+***
+
 ## Preguntas
 
 ### 1) ¿Por qué los UX Designers investigan sobre la competencia?
@@ -17,7 +19,7 @@
   2. Porque tienen recursos ilimitados
   3. Porque es parte del proceso
   4. Porque quieren saber cómo diferenciarse de ellos
- 
+
 
 <solution style="display:none;">4</solution>
 
@@ -28,7 +30,7 @@
   2. Entender cuáles son sus problemas y cuáles son sus necesidades
   3. Minimizar las posibilidades de lanzar un producto no exitoso
   4. Ver si su producto es exitoso
- 
+
 
 <solution style="display:none;">2</solution>
 
@@ -40,7 +42,7 @@
   2. Growth Hacker y Diseñador UX
   3. UX Designer y UI Designer
   4. UI Designer y Front-end Developer
- 
+
 
 <solution style="display:none;">3</solution>
 
@@ -53,7 +55,7 @@
   3. Una web
   4. Una aplicación móvil
   5. Todas las anteriores
- 
+
 
 <solution style="display:none;">5</solution>
 
@@ -65,7 +67,7 @@
   2. UI
   3. UX
   4. Front-end
- 
+
 
 <solution style="display:none;">2</solution>
 
@@ -77,7 +79,7 @@
   2. Product Manager y Growth Hacker
   3. Front-end Developer y Back-end Developer
   4. Growth Hacker e inversionista
- 
+
 
 <solution style="display:none;">3</solution>
 
@@ -90,7 +92,7 @@
   2. Global
   3. Facetada
   4. Suplementaria
- 
+
 
 <solution style="display:none;">2</solution>
 
@@ -102,7 +104,7 @@
   2. Productos digitales
   3. Front-end developers
   4. UX
- 
+
 
 <solution style="display:none;">4</solution>
 
@@ -112,7 +114,7 @@
 
   1. UX - UI
   2. UI - UX
- 
+
 <solution style="display:none;">1</solution>
 
 
@@ -124,7 +126,7 @@
   3. Diseño visual (iconos, imágenes)
   4. Investigación (con stakeholders, etnográfica, entrevistas 1 a 1…)
   5. Guías de estilo (paletas de color, fonts)
- 
+
 <solution style="display:none;">2,3,5</solution>
 
 
@@ -136,7 +138,7 @@
   2. Suplementaria
   3. Filtrada
   4. Global
- 
+
 
 <solution style="display:none;">3</solution>
 
@@ -151,5 +153,3 @@
   5. Resolver necesidades de los usuarios
 
 <solution style="display:none;">2,5</solution>
-
-
