@@ -80,11 +80,13 @@ https://public.tableau.com/profile/mari.plaza#!/vizhome/Laboratoria-EvolucinPene
 |3|	workshop|	20 min	|Exploración de Datas adicionales a través de Tableau y juegos|
 
 Datas adicionales: 
-1. Data de Música
-2. Data de Ordenes en detalle
-3. Correlación entre fertilidad y nivel educativo femenino: https://www.eea.europa.eu/data-and-maps/figures/correlation-between-fertility-and-female-education
-4. 
-5. 
+1. Indicadores de Género
+2. Detalle de transacciones en una tienda
+3. Relación entre fertilidad y nivel educativo femenino en el mundo
+4. Medallas Olímpicas desde 1896 a 2014
+5. Rango de Películas de Rotten Tomatoes
+6. Comercio exterior de 12 países Americanos entre 1993 hasta 2013
+7. Resultados de los partidos de la Premier League de las temporadas 10/11 hasta la temporada 16/17
 
 ### Semana 2: Introducción a visualizaciones
 
@@ -157,25 +159,24 @@ Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no ten
 * @CaroLaboratoria
 * @arcuellar88
 
-## Libros (mínimo 3)
+## Libro referencial
 
-> Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
+> Este curso se construyó en base a recursos disponibles en Internet, y la experiencia en el área de Ciencia de Datos de @mariplaza. Este libro complementa todo lo que aprenderás en el curso: 
+
 * Functional Art - https://www.amazon.com/gp/product/0321834739/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321834739&linkCode=as2&tag=thefunart03-20&tag=donations09-20
 
 
 ## Benchmarks
 
-> Incluir una lista de cursos similares que sirvan como referencia.
+> Estos cursos pueden complementar lo que aprenderas en el curso: 
+
 https://www.coursera.org/learn/analytics-tableau
 https://www.edx.org/course/data-analysis-visualization-dashboard-delftx-ex102x-1
 
 
 ## Lecturas complementarias
 
-
-> Incluir una lista de _capítulos de libros_, _blog posts_, _videos_, y otros
-recursos como links a wikipedia, documentación, ...
+> Estos blogs dan una visión muy interesante y complementaria sobre la importancia de las visualizaciones:
 
 https://www.autodeskresearch.com/publications/samestats
 http://www.thefunctionalart.com/
