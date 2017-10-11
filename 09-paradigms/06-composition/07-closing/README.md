@@ -5,3 +5,7 @@
 * Duración: `10min`
 
 ***
+
+## Resumen
+
+## Respondamos juntxs las preguntas de la apertura
