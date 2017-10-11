@@ -18,11 +18,13 @@
 
 Es hora de aprender a alterar la fuente (tipografía) de nuestra página web,
 conocer las que el navegador nos trae por defecto y sobretodo ver cómo podemos
-agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer el siguiente artículo:
+agregar fuentes externas como las de _Google Fonts_. Para comenzar puedes leer
+el siguiente artículo:
 
-https://lenguajecss.com/p/css/propiedades/fuentes-y-tipografias
+<https://lenguajecss.com/p/css/propiedades/fuentes-y-tipografias>
 
-Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agregar fuentes externas desde Google Fonts en el siguiente video:
+Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agregar
+fuentes externas desde Google Fonts en el siguiente video:
 
 [![modificando-tipografía-desde-Google-Fonts](http://img.youtube.com/vi/Qk4lSk3dSV0/0.jpg)](http://www.youtube.com/watch?v=Qk4lSk3dSV0)
 
@@ -31,7 +33,7 @@ Ahora que ya sabes más sobre el tema, puedes ver los pasos a seguir para agrega
 ¿No te ha llamado la atención agregar íconos a tu sitio web? En el siguiente
 enlace aprende cómo agregar íconos como fuentes usando IcoMoon.
 
-http://www.falconmasters.com/tutoriales/como-utilizar-iconos-sitio-web-css/
+<http://www.falconmasters.com/tutoriales/como-utilizar-iconos-sitio-web-css/>
 
 Si te gustó la idea de añadir íconos, debes de tener en cuenta que IcoMoon no es
 la única opción, puedes encontrar más como:
@@ -51,7 +53,7 @@ esto, hay una técnica llamada `CSS sprites` que te permitirá manejar de una
 manera más eficiente este tipo de casos. A continuación puedes conocer un poco
 más del tema en el siguiente enlace:
 
-http://www.pensandoenweb.es/usar-css-sprites-para-crear-un-boton/
+<http://www.pensandoenweb.es/usar-css-sprites-para-crear-un-boton/>
 
 ## Referencias
 
