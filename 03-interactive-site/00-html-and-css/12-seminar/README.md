@@ -9,7 +9,7 @@
 ## Objetivos
 
 - Revisar y consolidar los conceptos aprendidos por medio de una clase
-con tu equipo de profesores
+  con tu equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
 ## Agenda
@@ -17,15 +17,16 @@ con tu equipo de profesores
 ### 1. Repaso de conceptos generales
 
 Asegurar que entendemos bien los siguientes conceptos:
-  * Anidamiento HTML y herencia en CSS
-  * Mecanismo de cascada en CSS
-  * Creando estructura con `div`s y HTML semántico
-  * Atributos de elementos HTML
-  * Selectores y pseudo-selectores
-  * Valores y unidades
-  * Modelo de la caja y display
-  * Positioning y floats
-  * Tipografía e íconos
+
+- Anidamiento HTML y herencia en CSS
+- Mecanismo de cascada en CSS
+- Creando estructura con `div`s y HTML semántico
+- Atributos de elementos HTML
+- Selectores y pseudo-selectores
+- Valores y unidades
+- Modelo de la caja y display
+- Positioning y floats
+- Tipografía e íconos
 
 ### 2. Repasar los ejemplos de las lecturas de MDN
 
