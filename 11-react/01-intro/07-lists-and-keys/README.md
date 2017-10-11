@@ -6,7 +6,7 @@
 
 ***
 
-Primero recordemos cómo manipular listas en JavaScript
+Primero recordemos cómo manipular listas en JavaScript.
 
 Dado el código de abajo, usamos la función [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
 para tomar un array de números y duplicarlos. Asignamos el nuevo array resultado
@@ -77,8 +77,8 @@ ReactDOM.render(
 
 Cuando ejecutes este código, verás que aparecerá una advertencia en la consola,
 diciendo que deberías proveer un *key* para los items de tu lista. Un "key" es
-un atributo especial que necesitas incluir cuando creas lista de elementos. En
-la próxima sección, veremos por qué es importante hacerlo.
+un atributo especial que necesitas incluir cuando creas una lista de elementos.
+En la próxima sección, veremos por qué es importante hacerlo.
 
 Entonces, asignemos un `key` a los items de nuestra lista dentro de
 `numbers.map()` y asi deshacernos del mensaje.
