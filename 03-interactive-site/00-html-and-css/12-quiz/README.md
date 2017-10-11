@@ -49,7 +49,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 4) Ejemplo correcto de anidación:
+### 4) Ejemplo correcto de anidación
 
 #### Opciones
 
@@ -163,6 +163,7 @@ h2 {
 <solution style="display:none">2</solution>
 
 ### 13) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+
 ![Especificidad - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/especificidad.png?raw=true)
 
 #### Opciones
@@ -237,6 +238,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 <solution style="display:none;">3</solution>
 
 ### 16) Según el siguiente código, ¿cuál sería el resultado en el navegador?
+
 ![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/dd5e64037c731b6a89d1f13b36bfaefe89062649/03-interactive-site/00-html-and-css/07-quiz/positioning.png?raw=true)
 
 #### Opciones

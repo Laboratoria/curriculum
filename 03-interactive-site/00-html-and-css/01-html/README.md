@@ -11,7 +11,7 @@
 - Conocer los elementos HTML más comunes
 - Entender el concepto de anidamiento HTML
 - Conocer las diferencias en el comportamiento bloque y en línea de elementos
-HTML
+  HTML
 - Conocer qué son y para qué sirven los atributos de elementos HTML
 - Conocer elementos HTML semánticos
 
@@ -81,7 +81,8 @@ Podemos visualizar este concepto de _anidamiento_ html de la siguiente manera:
 En este ejemplo vemos elementos que ya deberían ser familiares para ti. Ya
 conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`,
 `h1` y `p` (si necesitas un repaso de esto, te sugerimos leer de nuevo la
-lección de [crea tu primer website](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md) del curso `Introducción a la Programación`). Un par de elementos
+lección de [crea tu primer website](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md)
+del curso `Introducción a la Programación`). Un par de elementos
 adicionales que hemos añandido son: `em` que hace que su
 contenido se visualice como texto en _cursiva_ y `strong` que hace que su
 contenido se visualice como texto en _negrita_.
@@ -96,23 +97,23 @@ Regresemos a la lectura de HTML del [Mozilla Developer Network](https://develope
 Nos dice:
 
 > Existen dos importantes categorías de elementos en HTML: elementos a nivel de
-bloque y elementos en línea.
+> bloque y elementos en línea.
 >
-> * Los elementos a nivel de bloque forman un bloque visible en una página —
-aparecerán en una nueva línea de cualquier contenido que haya venido antes,
-y cualquier contenido que venga después también aparecerá en una nueva línea.
-Los elementos a nivel de bloque tienden a ser elementos estructurales en la
-página que representan por ejemplo párrafos, listas, menús de navegación,
-pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro
-de un elemento en línea, pero podría estar anidado dentro de otro elemento
-a nivel de bloque.
+> **Los elementos a nivel de bloque** forman un bloque visible en una página —
+> aparecerán en una nueva línea de cualquier contenido que haya venido antes,
+> y cualquier contenido que venga después también aparecerá en una nueva línea.
+> Los elementos a nivel de bloque tienden a ser elementos estructurales en la
+> página que representan por ejemplo párrafos, listas, menús de navegación,
+> pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro
+> de un elemento en línea, pero podría estar anidado dentro de otro elemento
+> a nivel de bloque.
 >
-> * Los elementos en línea son aquellos que están contenidos dentro de
-elementos a nivel de bloque y rodean solo pequeñas partes del contenido
-del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento
-en línea  no causará que una nueva línea aparezca en el documento:
-normalmente aparecen dentro de un párrafo o texto, por ejemplo elementos de
-énfasis como `em` o `strong`.
+> **Los elementos en línea** son aquellos que están contenidos dentro de
+> elementos a nivel de bloque y rodean solo pequeñas partes del contenido
+> del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento
+> en línea no causará que una nueva línea aparezca en el documento:
+> normalmente aparecen dentro de un párrafo o texto, por ejemplo elementos de
+> énfasis como `em` o `strong`.
 
 Veamos un ejemplo:
 
@@ -159,8 +160,9 @@ Para cada elemento anterior entiende si se comporta como `inline` o como
 
 ## Atributos
 
-En tu investigación seguro te topaste con [el elemento `a` para agregar un link a tu web:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) y habrás
-notado que en la etiqueta de apertura aparece una serie de información:
+En tu investigación seguro te topaste con
+[el elemento `a` para agregar un link a tu web:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a)
+y habrás notado que en la etiqueta de apertura aparece una serie de información:
 
 ```html
 <a href="http://laboratoria.la/" target="_blank" title="Página de inicio de Laboratoria">Ir a Laboratoria</a>
@@ -176,20 +178,20 @@ y un valor, separados por un signo de igual (`=`).
 En el caso del ejemplo anterior, podemos visualizar tres
 atributos: el atributo `href`, el atributo `target` y el atributo `title`.
 
-* El atributo `href` especifica la dirección web que quieres que el enlace
-apunte; es decir, donde el navegador navega cuando se le hace clic. En este
-ejemplo vemos que apunta a la página de inicio de Laboratoria:
-http://laboratoria.la/
+- El atributo `href` especifica la dirección web que quieres que el enlace
+  apunte; es decir, donde el navegador navega cuando se le hace clic. En este
+  ejemplo vemos que apunta a la página de inicio de Laboratoria:
+  <http://laboratoria.la/>
 
-* El atributo `target` especifica el contexto de navegación que será usado
-para mostrar el enlace. Por ejemplo, `target="_blank"` mostrará el enlace en
-una nueva pestaña. Si quieres mostrar el enlace en la pestaña actual solo
-omite este atributo.
+- El atributo `target` especifica el contexto de navegación que será usado
+  para mostrar el enlace. Por ejemplo, `target="_blank"` mostrará el enlace en
+  una nueva pestaña. Si quieres mostrar el enlace en la pestaña actual solo
+  omite este atributo.
 
-* El atributo `title` especifica información extra sobre el enlace, como qué
-página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio
-de Laboratoria". Esto aparecera como información cuando se pase el mouse
-por encima del link.
+- El atributo `title` especifica información extra sobre el enlace, como qué
+  página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio
+  de Laboratoria". Esto aparecera como información cuando se pase el mouse
+  por encima del link.
 
 ## Atributo style
 
@@ -197,10 +199,11 @@ Existen muchos atributos comunes a todos los elementos html y existen atributos
 específicos que son asociados a un elemento en particular. Un atributo que
 aplica a casi todos los elementos html es el atributo `style` lo cual
 permite darle estilos a tu elemento. Por ejemplo, si queremos que el contenido
-dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde negro, hacemos:
+dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde
+negro, hacemos:
 
 ```html
-  <p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
+<p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
 ```
 
 Al visualizar el documento anterior en el navegador tendremos:
@@ -225,12 +228,13 @@ bloque o en línea, o inclusive no mostrarlo:
   <strong style="display: none">no visualizarse</strong>.
 </p>
 ```
+
 La vista en el navegador de esto sería:
 
 ![Style Example](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-display.png?raw=true)
 
-
-El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
+El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto
+anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
 es de tipo inline. El texto _"como bloque"_ terminará en su propia línea, ya que
 los elementos de tipo bloque no se muestran en línea con el texto que los
 rodea. Recuerda que cuando un elemento es de tipo bloque aparecerá en una
@@ -245,8 +249,9 @@ estilos a tus elementos html.
 
 ## Etiquetas vacías
 
-En tu investigación seguro también te topaste con [el elemento `<img>` para agregar una imagen a tu web](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) y habrás
-notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene
+En tu investigación seguro también te topaste con
+[el elemento `<img>` para agregar una imagen a tu web](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img)
+y habrás notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene
 "contenido":
 
 ```html
@@ -256,7 +261,7 @@ notado que no tiene una etiqueta de cierre y, por lo tanto, no tiene
 Algunas etiquetas no tienen directamente contenido; más bien reciben una _fuente_
 de la cual obtener el contenido. Esto es lo que sucede con
 el elemento `img`. El atributo `src` brinda la ruta del contenido. En este caso,
-al ir a la ruta http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg encontraremos
+al ir a la ruta <http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg> encontraremos
 la foto de Mariana con Mark y Barack :)
 
 ![Foto Mari](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
@@ -297,13 +302,13 @@ Para realizar estas agrupaciones, podemos utilizar los elementos `div` y
 `span`. Los elementos `div` y `span` son como "contenedores" vacíos que
 llenamos de otros elementos y contenido.
 
-* El elemento `div` define una división o una sección en un documento
-HTML. Se utiliza para agrupar elementos de **bloque**. Frecuentemente se utiliza
-como un contenedor para otros elementos. Un `div` es un bloque, lo
-que significa que tiene un salto de línea antes y después.
+- El elemento `div` define una división o una sección en un documento
+  HTML. Se utiliza para agrupar elementos de **bloque**. Frecuentemente se
+  utiliza como un contenedor para otros elementos. Un `div` es un bloque, lo
+  que significa que tiene un salto de línea antes y después.
 
-* El elemento `span` se utiliza como un contenedor para textos. Es de
-tipo **inline**; es decir, aparece entre líneas, como parte de un párrafo.
+- El elemento `span` se utiliza como un contenedor para textos. Es de
+  tipo **inline**; es decir, aparece entre líneas, como parte de un párrafo.
 
 Veamos un ejemplo:
 
@@ -362,7 +367,8 @@ en la web tienen una cabecera, un menú de navegación, un contenido principal,
 contenido secundario, un footer, etc.
 
 Revisando la documentación del MDN sobre
-[estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura) podemos extraer:
+[estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura)
+podemos extraer:
 
 > En nuestro código HTML, podemos crear secciones de contenido basadas en su
 funcionalidad — usando elementos que representen las diferentes secciones del
@@ -376,10 +382,10 @@ Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuada
 que podemos usar para representar estas secciones. Revisa el link anterior e
 investiga el uso de los siguientes elementos semánticos:
 
-* `<header>`
-* `<nav>`
-* `<main>`
-* `<aside>`
-* `<article>`
-* `<section>`
-* `<footer>`
+- `<header>`
+- `<nav>`
+- `<main>`
+- `<aside>`
+- `<article>`
+- `<section>`
+- `<footer>`
