@@ -64,12 +64,6 @@ _deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
   **branches**, **forks** y **pull requests**
 
-## Detalles logísticos
-
-* Self-paced: 7 horas
-* Presencial: 11 horas
-* Total: 18 horas
-
 ## Producto
 
 El _producto_ en el que trabajarás es un
@@ -97,7 +91,31 @@ El juego está inspirado en el ejemplo de
 
 ## Syllabus
 
-### Unidad 01: [Entorno y metodología de trabajo](01-env)
+### Unidad 01: [Introducción a Paradigmas de Programación](01-paradigms)
+
+En esta lección aprenderás las características y diferencias entre los
+paradigmas más relevantes para **JavaScript**, que es un lenguaje
+multi-paradigma y nos permite programar en varios estilos: imperativo, por
+procedimientos, orientado a objetos (OOP), funcional (FP), ...
+
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   10min  | [Apertura](01-paradigms/00-opening)
+| 01 | lectura   | self-paced |    5min  | [¿Qué son los paradigmas de programación?](01-paradigms/01-overview)
+| 02 | lectura   | self-paced |    5min  | [Historia](01-paradigms/02-history)
+| 03 | lectura   | self-paced |   15min  | [Declarativo vs Imperativo](01-paradigms/03-declarative-vs-imperative)
+| 04 | práctica  | self-paced |    5min  | [Ejercicio Imperativo](01-paradigms/04-imperative-exercise)
+| 05 | lectura   | self-paced |    6min  | [Por procedimientos](01-paradigms/05-procedural)
+| 06 | lectura   | self-paced |    6min  | [Modularidad](01-paradigms/06-modules)
+| 07 | práctica  | self-paced |   10min  | [Ejercicio por procedimientos](01-paradigms/07-procedural-exercise)
+| 08 | lectura   | self-paced |   12min  | [Orientado a objetos](01-paradigms/08-oop)
+| 09 | práctica  | self-paced |   10min  | [Ejercicio OOP](01-paradigms/09-oop-exercise)
+| 10 | lectura   | self-paced |   10min  | [Funcional](01-paradigms/10-fp)
+| 11 | práctica  | self-paced |   10min  | [Ejercicio funcional](01-paradigms/11-fp-exercise)
+| 12 | seminario | guiado     |   45min  | [Solucionario](01-paradigms/12-seminar)
+| 13 | seminario | guiado     |   10min  | [Cierre](01-paradigms/13-closing)
+
+### Unidad 02: [Entorno y metodología de trabajo](02-workshop)
 
 Antes de empezar con la teoría o la práctica, en esta unidad se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
@@ -108,33 +126,11 @@ instalado, acceso al repo, su propio fork, ...
 
 |  # |  Tipo     | Formato | Duración | Descripción
 |----|-----------|---------|----------|------------
-| 00 | seminario | guiado  |   15min  | [Bienvenida](02-env/00-opening)
-| 01 | taller    | guiado  |   20min  | [Entorno: Git + GitHub](02-env/01-git+github)
-| 02 | taller    | guiado  |   20min  | [Entorno: Node.js + npm](02-env/02-node+npm)
-
-### Unidad 02: [Introducción a Paradigmas de Programación](02-paradigms)
-
-En esta lección aprenderás las características y diferencias entre los
-paradigmas más relevantes para **JavaScript**, que es un lenguaje
-multi-paradigma y nos permite programar en varios estilos: imperativo, por
-procedimientos, orientado a objetos (OOP), funcional (FP), ...
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | seminario | guiado     |   15min  | [Apertura](02-paradigms/00-opening)
-| 01 | lectura   | self-paced |    5min  | [¿Qué son los paradigmas de programación?](02-paradigms/01-overview)
-| 02 | lectura   | self-paced |    4min  | [Historia](02-paradigms/02-history)
-| 03 | lectura   | self-paced |   15min  | [Declarativo vs Imperativo](02-paradigms/03-declarative-vs-imperative)
-| 04 | práctica  | self-paced |    5min  | [Ejercicio Imperativo](02-paradigms/04-imperative-exercise)
-| 05 | lectura   | self-paced |    6min  | [Por procedimientos](02-paradigms/05-procedural)
-| 06 | lectura   | self-paced |    6min  | [Modularidad](02-paradigms/06-modules)
-| 07 | práctica  | self-paced |   10min  | [Ejercicio por procedimientos](02-paradigms/07-procedural-exercise)
-| 08 | lectura   | self-paced |   12min  | [Orientado a objetos](02-paradigms/08-oop)
-| 09 | práctica  | self-paced |   10min  | [Ejercicio OOP](02-paradigms/09-oop-exercise)
-| 10 | lectura   | self-paced |   10min  | [Funcional](02-paradigms/10-fp)
-| 11 | práctica  | self-paced |   10min  | [Ejercicio funcional](02-paradigms/11-fp-exercise)
-| 12 | seminario | guiado     |   15min  | [Solucionario](03-proto/12-seminar)
-| 13 | seminario | guiado     |   15min  | [Cierre](02-paradigms/13-closing)
+| 00 | seminario | guiado  |   10min  | [Apertura](02-workshop/00-opening)
+| 01 | taller    | guiado  |   10min  | [Entorno: Git + GitHub](02-workshop/01-git+github)
+| 02 | taller    | guiado  |   10min  | [Entorno: Node.js + npm](02-workshop/02-node+npm)
+| 02 | taller    | guiado  |    5min  | [Creación de equipos](02-workshop/03-teams)
+| 02 | taller    | guiado  |   15min  | [Tareas y división de trabajo](02-workshop/04-tasks)
 
 ### Unidad 03: [OOP y herencia prototipal](03-proto)
 

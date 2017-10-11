@@ -2,16 +2,13 @@
 
 * Tipo: `seminario`
 * Formato: `guiado`
-* Duración: `15min`
-
-## Objetivos de la lección
-
-* Hacer un resumen de lo que vamos a aprender en este curso
-* Explicar la estrategia de aprendizaje: workshops, videos/lecturas, producto
-* Explicar los entregables que se esperan de las alumnas
-* Explicar cómo se va a evaluar el curso
+* Duración: `10min`
 
 ***
+
+## ¿Por qué aprender esto?
+
+## Guía de preguntas y conceptos clave
 
 ## Qué vamos a aprender?
 

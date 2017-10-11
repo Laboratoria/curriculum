@@ -2,7 +2,7 @@
 
 * Tipo: `taller`
 * Formato: `guiado`
-* Duración: `20min`
+* Duración: `10min`
 
 ## Objetivos del workshop
 
