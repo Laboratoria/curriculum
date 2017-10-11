@@ -7,6 +7,8 @@
 
 - En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!
 
+***
+
 ## Preguntas
 
 ### 1) ¿Qué es UX?
@@ -16,7 +18,7 @@
   2. Son todas las experiencias que vive/experimenta una persona al usar un producto
   3. Es un rol dentro del equipo de desarrollo de productos digitales
   4. Es el resultado de un proceso de diseño
- 
+
 
 <solution style="display:none;">2</solution>
 
@@ -69,7 +71,7 @@
 #### Opciones
 
   1. Buscando un elemento desconocido
-  2. Explorando 
+  2. Explorando
   3. Buscando un elemento conocido
 
 <solution style="display:none;">3</solution>
@@ -79,9 +81,9 @@
 #### Opciones
 
   1. Contextual
-  2. Filtrada 
+  2. Filtrada
   3. Facetada
-  4. Suplementaria 
+  4. Suplementaria
 
 <solution style="display:none;">1</solution>  
 
@@ -94,7 +96,7 @@
   3. Son económicos solo se necesita papel y lápiz
   4. Todas las anteriores
 
-<solution style="display:none;">4</solution> 
+<solution style="display:none;">4</solution>
 
 
 ### 9) En Github, ¿qué tipo de navegación es la que está marcada en rojo?
@@ -106,7 +108,7 @@
   3. Filtrada
   4. Local
 
-<solution style="display:none;">4</solution> 
+<solution style="display:none;">4</solution>
 
 
 ### 10) Los siguientes términos: `botones`, `ventanas`, `esquinas redondeadas`, `checkboxes`, están más relacionados con:
@@ -117,7 +119,7 @@
   3. UI
   4. Web development
 
-<solution style="display:none;">3</solution> 
+<solution style="display:none;">3</solution>
 
 
 ### 11) Con qué términos completarías los espacios en blanco: `Una buena _______  nos permite dar una buena ________. `
@@ -128,7 +130,7 @@
   3. Aplicación móvil - experiencia
   4. UX - UI
 
-<solution style="display:none;">1</solution> 
+<solution style="display:none;">1</solution>
 
 
 ### 12) Son actividades que realiza un UX Designer:
@@ -139,5 +141,5 @@
   3. Diseño visual (iconos, imágenes)
   4. Investigación (con stakeholders, etnográfica, entrevistas 1 a 1…)
   5. Guías de estilo (paletas de color, fonts)
- 
+
 <solution style="display:none;">1,4</solution>
