@@ -1,4 +1,4 @@
-# Tareas y división de trabajo
+# Code review
 
 * Tipo: `taller`
 * Formato: `guiado`

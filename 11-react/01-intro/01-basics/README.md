@@ -18,7 +18,7 @@ funcional dentro del mundo JavaScript. Es decir que en `React` preferimos la
 composición por sobre la herencia y nos alineamos con los principios de
 inmutabilidad.
 
-`React` se usa comunmente en aplicaciones main stream, por compañias como
+`React` se usa comunmente en aplicaciones main stream, por compañías como
 Netflix, PayPal, AirBnB, Apple, Uber, y, por supuesto, Instagram y Facebook.
 
 Por debajo `React` usa una estructura llamada `Virtual DOM` que se encarga de

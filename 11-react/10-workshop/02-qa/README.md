@@ -1,4 +1,4 @@
-# Tareas y división de trabajo
+# QA
 
 * Tipo: `taller`
 * Formato: `guiado`

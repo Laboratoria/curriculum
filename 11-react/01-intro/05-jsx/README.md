@@ -83,7 +83,7 @@ return (
 Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`,
 `formatDate(new Date())`
 
-## Ejercicio: Migrar a `JSX`
+## Ejercicio: Migrar a JSX
 
 Nuestro primer paso será configurar nuestra página, para que comience a entender
 `JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir

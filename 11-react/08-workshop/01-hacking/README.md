@@ -2,6 +2,6 @@
 
 * Tipo: `taller`
 * Formato: `guiado`
-* Duración: `60min`
+* Duración: `100min`
 
 ***

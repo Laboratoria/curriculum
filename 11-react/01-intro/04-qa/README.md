@@ -6,7 +6,7 @@
 
 ***
 
-* ¿Que diferencia hay entre una *libreria* y un *framework*?
+* ¿Que diferencia hay entre una *librería* y un *framework*?
 
 * ¿Para que sirve `React`?
 
