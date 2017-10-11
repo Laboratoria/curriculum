@@ -2,7 +2,7 @@
 
 * Tipo: `seminario`
 * Formato: `guiado`
-* Duración: `10min`
+* Duración: `5min`
 
 ***
 
@@ -20,5 +20,3 @@
 * ¿Cómo manejar listas/colecciones en `React`?
 * ¿Qué es el `key` en los componentes renderizados dentro de un `map` y por qué
   es importante?
-
-## Auto-evaluación
