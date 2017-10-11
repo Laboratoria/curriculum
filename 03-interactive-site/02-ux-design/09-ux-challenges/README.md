@@ -1,7 +1,7 @@
 # Retos
 - Tipo: `design`
 - Formato: `self-learning`
-- Duración: `8hrs`
+- Duración: `8h`
 
 ## Objetivos
 
@@ -14,12 +14,12 @@ poner tus conocimientos a prueba.
 
 
 ## 2. Identifica los elementos de navegación en los siguientes sites:
- 
+
  * [Breather](http://breather.com/)
  * [Github](https://github.com)
  * [Medium](http://medium.com)
- 
-## 3. Crea un sketch para la herramienta del dashboard de Laboratoria. 
+
+## 3. Crea un sketch para la herramienta del dashboard de Laboratoria.
 
 **El dashboard** es una herramienta utilizada por profesores, training managers, directores y gerentes de Laboratoria para ver rápidamente qué está pasando en el salón de clases de Laboratoria. En el dashboard, los usuarios mencionados pueden ver rápidamente estadísticas y datos en tiempo real como:
 
@@ -34,10 +34,9 @@ Además, dado que Laboratoria tiene muchas generaciones, regularmente 2 generaci
 
 Un ejemplo de dashboard en otro contexto es este: ![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg)
 
-**Recuerda** que este sketch, es parte del [producto final](https://github.com/Laboratoria/curricula-js/blob/01-intro/02-interactive-site/05-data-dashboard/02-final-product-challenge.md) de esta unidad. 
+**Recuerda** que este sketch, es parte del [producto final](https://github.com/Laboratoria/curricula-js/blob/01-intro/02-interactive-site/05-data-dashboard/02-final-product-challenge.md) de esta unidad.
 
 Haz un sketch del dashboard de Laboratoria.
 
 * Ten en cuenta los elementos de navegación en tus sketches.
 * Utiliza títulos y textos reales.
-
