@@ -60,6 +60,6 @@ console.log(notes.toString());
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
-* https://css-tricks.com/understanding-javascript-constructors/
+* [Operators: instanceof - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+* [Array#unshift - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+* [Understanding JavaScript Constructors - CSS Tricks](https://css-tricks.com/understanding-javascript-constructors/)

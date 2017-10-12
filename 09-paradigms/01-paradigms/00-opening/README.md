@@ -8,80 +8,44 @@
 
 ## ¿Por qué aprender esto?
 
-## Guía de preguntas y conceptos clave
-
-## Qué vamos a aprender?
-
 Como indica el nombre del curso, vamos a hablar de _Paradigmas de programación_,
 que son formas diferentes de pensar en cómo se organiza un programa.
 
-### 1. Paradigmas en general
+Como desarrollador **Full Stack JS** es esencial entender los distintos
+paradigmas de programación y cómo se traducen al mundo real en proyectos de
+JavaScript.
 
-* Qué son los **paradigmas de programación**
-* Qué son **PP**, **FP** y **OOP**, y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
+Históricamente, el paradigma orientado a objetos (OOP) ha sido el predominante,
+pero recientemente, y en particular en la comunidad de JavaScript, hay un
+resurgir del paradigma funcional y sus bondades. **JavaScript es un lenguaje de
+corazón funcional**, así que conocer el paradigma, y cómo se compara a la
+programación orientada a objetos, no sólo te hará una mejor coder, si no que
+podrás entender cómo se pueden enfrentar los mismos problemas con enfoques
+distintos, e identificar y adaptarse a bases de código existentes.
 
-### 2. Programación Orientada a Objetos (OOP)
+## Guía de preguntas y conceptos clave
 
-* Las diferencias entre **constructores** y **factories**
-* Cómo implementar **herencia prototipal**
-* `Object.create`
+Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
+conceptos más importantes de lo que vamos a aprender y de los temas centrales
+que debemos prestar particular atención.
 
-### 3. Programación Funcional (FP)
+A continuación te presentamos una serie de preguntas que debes ser capaz de
+responder al terminar esta unidad. Utiliza estas preguntas como guía para
+orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
+que avanzas para validar que estás avanzando en la dirección correcta. Que te
+sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-* Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa a la _herencia_
-* `Object.assign`
-
-### 4. Otros
-
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
-
-## Estrategia de aprendizaje
-
-Este curso se compone de `talleres` presenciales, `lecturas/videos` y
-`ejercicios` en el siguiente orden:
-
-1. Empezaremos por un workshop con el objetivo de que todas las alumnas tengan
-   las herramientas necesarias y el entorno de desarrollo listo.
-2. Después comienza el contenido específico de paradigmas, donde nos
-   concentraremos en los paradigmas en general, sus diferencias, su historia...
-   con una serie de lecturas y videos intercalados con ejercicios.
-3. Continuaremos con el formato de lecturas y videos para adentrarnos en la
-   programación orientada a objetos, acompañados de ejercicios.
-4. Llegados a este punto haremos una clase presencial para hacer solucionarios
-   de los ejercicios hechos hasta este punto, y responder a tus preguntas.
-5. Workshop presencial para extender juego añadiendo personajes usando herencia
-   prototipal. El trabajo se hará en parejas, se entregará via pull request y se
-   presentará una demo al final.
-6. Regresamos a las lecturas para introducirnos en el estilo funcional, y en
-   particular el concepto de composoción como alternativa a las jerarquías de
-   herencia. Las lecturas estarán acompañadas de ejercicios.
-7. Workshop presencial para hacer solucionarios y responder a tus preguntas.
-8. Workshop presencial para extender juego añadiendo personajes usando factories
-   y composición de objetos. El trabajo se hará en parejas, se entregará via
-   pull request y se presentará una demo al final.
+* Qué son los **paradigmas de programación**?
+* Qué son **PP**, **FP** y **OOP**, y cómo se comparan?
+* Diferencias entre el estilo **imperativo vs declarativo**
 
 ## Entregables
 
-Todos los entregables del curso se manejarán en el repositorio de tu cohort. El
-remoto orígen estará alojado en GitHub (`Laboratoria/<cohort-id>`). Lxs
-instructorxs te crearán una rama con tu nombre de usuario en GitHub, además de
-una rama para cada set de ejercicios o workshop de implementación.
-
-Al finalizar el curso, tu rama debería quedar con las siguientes carpetas:
-
-```text
-.
-├── game-fp
-└── game-oop
-```
-
-* `game-fp`: código fuente del juego con personajes usando factories
-* `game-oop`: código fuente del juego con personajes usando constructores/prototipos
+* **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
+  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
+  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
+  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
+  será calificada.
 
 ## Evaluación
 

@@ -54,7 +54,7 @@ _deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
 
 * Qué son los **paradigmas de programación**
 * Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
+* A entender las diferencias entre el estilo **imperativo vs declarativo**
 * Las diferencias entre **constructores** y **factories**
 * Cómo implementar **herencia prototipal**
 * Los principios básicos de la **programación funcional**
@@ -67,8 +67,8 @@ _deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
 ## Producto
 
 El _producto_ en el que trabajarás es un
-[videojuego de ejemplo](https://laboratoria.github.io/game-oop/), con una
-[base de código](https://github.com/Laboratoria/game-oop) existente y que
+[videojuego de ejemplo](https://laboratoria.github.io/game/), con una
+[base de código](https://github.com/Laboratoria/game) existente y que
 funciona. La idea es que un jefe ficticio le ha pedido a tu equipo que añada
 una serie de _personajes_ y _niveles_ nuevos.
 

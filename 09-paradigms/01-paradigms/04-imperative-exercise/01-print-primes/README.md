@@ -41,5 +41,5 @@ comprobar si un número es primo o no, y así sólo imprimir los primos.
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+* [Arithmetic Operators: Remainder - MDN](https://goo.gl/zn7cTu)
+* [Statements: for - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)

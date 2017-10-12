@@ -28,10 +28,11 @@ console.log(zippy.kind); //=> 'alien'
 
 ## Conclusiones
 
-* Los objetos delegan la resolución/búsqueda (lookup) de propiedades a su prototipo
+* Los objetos delegan la resolución/búsqueda (lookup) de propiedades a su
+  prototipo
 * Un prototipo puede ser compartido entre varios objetos
 
-# Desafío
+## Desafío
 
 El 'boilerplate' contiene las instrucciones y los lugares donde añadir tu código
 debidamente señalados.

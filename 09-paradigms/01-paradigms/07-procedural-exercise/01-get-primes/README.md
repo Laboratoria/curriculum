@@ -43,5 +43,5 @@ Ya hemos envuelto el código en una función con el nombre `getPrimes`.
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
-* https://nodejs.org/api/modules.html#modules_the_module_object
+* [Functions - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+* [The module object - Node.js Docs](https://nodejs.org/api/modules.html#modules_the_module_object)
