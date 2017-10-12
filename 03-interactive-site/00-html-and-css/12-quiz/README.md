@@ -272,7 +272,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **RESULTADO:**
 
-![Positioning - Pregunta](positioning.png)
+![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/fd8b393634106b9b966c5e7d2637afe951b8a81e/03-interactive-site/00-html-and-css/12-quiz/positioning.png?raw=true)
 
 #### Opciones
 
