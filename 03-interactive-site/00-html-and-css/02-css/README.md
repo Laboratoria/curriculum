@@ -8,18 +8,20 @@
 
 ## Objetivos de Aprendizaje
 
-* Entender qué es CSS y cómo funciona
-* Conocer las diferentes maneras de agregarle estilos a tu web
-* Aprender la sintaxis CSS
-* Aprender qué son selectores y cuáles son los selectores más utilizados
-* Entender cómo funcionan las reglas de cascada y herencia de CSS
-* Aprender los valores usuales de CSS y sus unidades
-
+- Entender qué es CSS y cómo funciona
+- Conocer las diferentes maneras de agregarle estilos a tu web
+- Aprender la sintaxis CSS
+- Aprender qué son selectores y cuáles son los selectores más utilizados
+- Entender cómo funcionan las reglas de cascada y herencia de CSS
+- Aprender los valores usuales de CSS y sus unidades
 
 <!-- link a slides de lab:
-https://docs.google.com/a/laboratoria.la/presentation/d/1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web -->
+https://docs.google.com/a/laboratoria.la/presentation/d/
+1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web
+-->
 
 ## ¿Qué es CSS y cómo funciona?
+
 <!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
 
 CSS significa _Cascading Style Sheets_
@@ -37,7 +39,9 @@ Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
 style. Por ejemplo:
 
 ```html
-<h1 style="color: blue; background-color: yellow; border: 1px solid black;">¡Hola Mundo!</h1>
+<h1 style="color: blue;
+background-color: yellow;
+border: 1px solid black;">¡Hola Mundo!</h1>
 ```
 
 En el navegador, el titular anterior se vería así:
@@ -133,11 +137,12 @@ ambiente, simplemente le ponemos el nombre del archivo: `style.css`.
 Como hemos visto en la lección anterior, para especificar el estilo hacemos
 uso de los pares `propiedades-valores`:
 
-* Propiedades: son identificadores que indican a las personas qué
-característica de estilo (ancho, color de fondo, fuente) queremos cambiar.
+- Propiedades: son identificadores que indican
+  a las personas qué característica de estilo (ancho, color de fondo, fuente)
+  queremos cambiar.
 
-* Valores: a cada propiedad se le da un valor, que indica cómo queremos
-cambiar esta característica (por ejemplo qué fuente, qué ancho o qué color usar)
+- Valores: a cada propiedad se le da un valor, que indica cómo queremos cambiar
+  ésta característica (por ejemplo qué fuente, qué ancho o qué color usar).
 
 El par formado por una propiedad y un valor se denomina **declaración** CSS.
 Varias declaraciones juntas forman un **bloque de declaraciones**. Para
@@ -185,22 +190,24 @@ cada regla CSS puede aplicarse a un número ilimitado de elementos.
 
 ## Selectores
 
-Existen múltiples selectores. Lee la siguiente documentación para que aprendas más sobre selectores:
+Existen múltiples selectores. Lee la siguiente documentación para que aprendas
+más sobre selectores:
 
-* [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
-* [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
-* [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
-* [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
+- [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
+- [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
+- [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
+- [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
 
 Al finalizar tu investigación debes saber qué es y cómo usar:
-* Selector universal
-* Selector de elementos (de tipo)
-* Selectores de clases
-* Selectores ID
-* Selector descendiente
-* Selector hijo
-* Selectores de atributo
-* Pseudo selectores
+
+- Selector universal
+- Selector de elementos (de tipo)
+- Selectores de clases
+- Selectores ID
+- Selector descendiente
+- Selector hijo
+- Selectores de atributo
+- Pseudo selectores
 
 ## Reglas de cascada y herencia
 
@@ -221,21 +228,21 @@ de forma automática a los elementos que se encuentran anidados
 Lee los siguientes artículos para entender los conceptos de cascada y herencia
 en CSS:
 
-* [Cascada y Herencia - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia)
-* [Herencia - Librosweb](http://librosweb.es/libro/css/capitulo_2/herencia.html)
-* [Colisiones de estilos - Librosweb](http://librosweb.es/libro/css/capitulo_2/colisiones_de_estilos.html)
+- [Cascada y Herencia - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia)
+- [Herencia - Librosweb](http://librosweb.es/libro/css/capitulo_2/herencia.html)
+- [Colisiones de estilos - Librosweb](http://librosweb.es/libro/css/capitulo_2/colisiones_de_estilos.html)
 
 Al terminar tu investigación, debes ser capaz de entender los 3 factores que
 determinan el mecanismo de cascada. En particular, responde lo siguiente:
 
-* ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
-* ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
-* ¿Se aplica el estilo con mayor o menor especificidad?
-* ¿Cómo se calcula la especificidad?
-* ¿Qué significa `!important`? ¿Por qué **NO** debemos usarlo a menos que
-sea estrictamente necesario?
-* ¿Todos los estilos en CSS se heredan? ¿Por qué?
-* ¿Qué es y para qué sirve `inherit`?
+- ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
+- ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
+- ¿Se aplica el estilo con mayor o menor especificidad?
+- ¿Cómo se calcula la especificidad?
+- ¿Qué significa `!important`? ¿Por qué **NO** debemos usarlo a menos que
+  sea estrictamente necesario?
+- ¿Todos los estilos en CSS se heredan? ¿Por qué?
+- ¿Qué es y para qué sirve `inherit`?
 
 ## Valores y unidades
 
@@ -248,29 +255,31 @@ valores, o con el modelo RGB.
 Haz tu investigación de los siguientes recursos y aprende las múltiples formas
 de representar los valores en CSS:
 
-* [Valores y unidades - MDN ](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
-* [Unidades y medidas - Librosweb](http://librosweb.es/libro/css/capitulo_3/unidades_de_medida.html)
-* [Colores - Librosweb](http://librosweb.es/libro/css/capitulo_3/colores.html)
+- [Valores y unidades - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
+- [Unidades y medidas - Librosweb](http://librosweb.es/libro/css/capitulo_3/unidades_de_medida.html)
+- [Colores - Librosweb](http://librosweb.es/libro/css/capitulo_3/colores.html)
 
 Al finalizar esta lectura, debes saber responder las siguientes preguntas:
 
-* Dame un ejemplo de una undidad absoluta y una relativa
-* ¿Para qué sirve `line-height`?
-* ¿Para qué sirven valores en procentajes? Dame un ejemplo
-* El tamaño de fuente por defecto que los navegadores usan antes de aplicar
-CSS es de ...
-* ¿Qué unidad es `#ff0000`? ¿Qué color representa?
-* ¿RGB es una función?
-* ¿Qué color representa `rgb(0,0,255)`?
-* ¿Cómo le damos opacidad al color?
-* ¿Cuándo se utilizan valores sin unidades?
-* ¿Cuáles son las recomendaciones generales para el uso de unidades?
+- Dame un ejemplo de una undidad absoluta y una relativa
+- ¿Para qué sirve `line-height`?
+- ¿Para qué sirven valores en procentajes? Dame un ejemplo
+- El tamaño de fuente por defecto que los navegadores usan antes de aplicar
+  CSS es de ...
+- ¿Qué unidad es `#ff0000`? ¿Qué color representa?
+- ¿RGB es una función?
+- ¿Qué color representa `rgb(0,0,255)`?
+- ¿Cómo le damos opacidad al color?
+- ¿Cuándo se utilizan valores sin unidades?
+- ¿Cuáles son las recomendaciones generales para el uso de unidades?
 
 ## Comentarios en CSS
 
-Así como es buena práctica comentar tu código html y tu código js, es buena práctica comentar tu CSS. Los comentarios en CSS se hacen de la siguiente manera:
+Así como es buena práctica comentar tu código html y tu código js, es buena
+práctica comentar tu CSS. Los comentarios en CSS se hacen de la siguiente manera:
 
-* El comienzo se indica mediante los caracteres `/*` * El final del comentario se indica mediante `*/`
+- El comienzo se indica mediante los caracteres `/*` * El final del comentario
+  se indica mediante `*/`
 
 Veamos un ejemplo:
 
