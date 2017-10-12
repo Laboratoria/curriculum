@@ -429,7 +429,7 @@ existe una diferencia muy importante:
 
 #### Resumen de características Display
 
-![tabla](https://fotos.subefotos.com/2f98e72e47be9d3131f0b82e732c518fo.png)
+![Resumen Display](https://fotos.subefotos.com/5bddcb7ef810c7290e982d0ad17e4941o.png)
 
 ## Lecturas complementarias
 
