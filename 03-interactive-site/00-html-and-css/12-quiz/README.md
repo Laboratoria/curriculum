@@ -276,99 +276,10 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 #### Opciones
 
-1. ```css
-   .container {
-     position: relative;
-     width: 600px;
-     height: 400px;
-     background-color: rgba(100, 100, 100, .5);
-   }
-
-   .box {
-     width: 200px;
-     height: 200px;
-     border: 1px solid black;
-   }
-
-   .red {
-     position: absolute;
-     background-color: rgba(250, 50, 50, .5);
-     left: 200px;
-   }
-
-   .blue {
-     background-color: rgba(50, 50, 250, .5);
-   }
-   ```
-2. ```css
-   .container {
-     position: fixed;
-     width: 600px;
-     height: 400px;
-     background-color: rgba(100, 100, 100, .5);
-   }
-
-   .box {
-     width: 200px;
-     height: 200px;
-     border: 1px solid black;
-   }
-
-   .red {
-     background-color: rgba(250, 50, 50, .5);
-     left: 200px;
-   }
-
-   .blue {
-     background-color: rgba(50, 50, 250, .5);
-   }
-   ```
-3. ```css
-   .container {
-     width: 600px;
-     height: 400px;
-     background-color: rgba(100, 100, 100, .5);
-   }
-
-   .box {
-     width: 200px;
-     height: 200px;
-     border: 1px solid black;
-   }
-
-   .red {
-     position: absolute;
-     background-color: rgba(250, 50, 50, .5);
-     left: 200px;
-   }
-
-   .blue {
-     background-color: rgba(50, 50, 250, .5);
-   }
-   ```
-4. ```css
-   .container {
-     width: 600px;
-     height: 400px;
-     background-color: rgba(100, 100, 100, .5);
-   }
-
-   .box {
-     width: 200px;
-     height: 200px;
-     border: 1px solid black;
-   }
-
-   .red {
-     position: relative;
-     background-color: rgba(250, 50, 50, .5);
-     left: 200px;
-   }
-
-   .blue {
-     background-color: rgba(50, 50, 250, .5);
-   }
-   ```
+1. `.container` con `position: relative;` y `.red` con `position: absolute` y `left: 200px;`
+2. `.container` con `position: fixed;` y `.red` con `left: 200px;`
+3. `.red` con `position: absolute;` y `left: 200px;`
+4. `.red` con `position: relative;` y `left: 200px;`
 
 <solution style="display:none">1</solution>
 
