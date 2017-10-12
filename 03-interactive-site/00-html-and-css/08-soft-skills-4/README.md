@@ -28,3 +28,8 @@
 - Presentación sobre mindfullness
 - Acercamiento a diferentes técnicas de meditación
 - Cierre y reflexión final
+
+## Material
+
+- [Taller IV. Organización, planificación y mindfullness](https://docs.google.com/presentation/d/1M8hXnxLlzBwenINyqKZUqUDBqQ3x42bzh_gZAuT7aa8/edit?usp=sharing)
+- [Video de mindfullness](https://www.youtube.com/watch?v=w6T02g5hnT4&feature=youtu.be)
