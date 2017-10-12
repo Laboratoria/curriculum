@@ -276,7 +276,8 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 #### Opciones
 
-1. `.container` con `position: relative;` y `.red` con `position: absolute;` y `left: 200px;`
+1. `.container` con `position: relative;` y `.red` con `position: absolute;` y
+   `left: 200px;`
 2. `.container` con `position: fixed;` y `.red` con `left: 200px;`
 3. `.red` con `position: absolute;` y `left: 200px;`
 4. `.red` con `position: relative;` y `left: 200px;`
