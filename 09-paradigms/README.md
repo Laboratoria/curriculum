@@ -108,7 +108,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), ...
 | 05 | lectura   | self-paced |    6min  | [Por procedimientos](01-paradigms/05-procedural)
 | 06 | lectura   | self-paced |    6min  | [Modularidad](01-paradigms/06-modules)
 | 07 | práctica  | self-paced |   10min  | [Ejercicio por procedimientos](01-paradigms/07-procedural-exercise)
-| 08 | lectura   | self-paced |   12min  | [Orientado a objetos](01-paradigms/08-oop)
+| 08 | lectura   | self-paced |   15min  | [Orientado a objetos](01-paradigms/08-oop)
 | 09 | práctica  | self-paced |   10min  | [Ejercicio OOP](01-paradigms/09-oop-exercise)
 | 10 | lectura   | self-paced |   10min  | [Funcional](01-paradigms/10-fp)
 | 11 | práctica  | self-paced |   10min  | [Ejercicio funcional](01-paradigms/11-fp-exercise)

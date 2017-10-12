@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `12min`
+* Duración: `15min`
 
 ***
 
@@ -137,9 +137,37 @@ es la "herencia", donde un objeto "hereda" una serie de propiedades y métodos
 de otro objeto o clase (en herencia prototipal heredamos directamente de un
 objeto en vez de una clase).
 
-En la próxima lección de este curso exploraremos los detalles de cómo
-implementar jerarquías de herencia usando prototipos. Por el momento nos
-quedamos con estos conceptos.
+En la próxima unidad de este curso exploraremos los detalles de cómo implementar
+jerarquías de herencia usando prototipos. Por el momento nos quedamos con estos
+conceptos.
+
+Ahora que hemos visto qué es la programación orientada a objetos en el contexto
+de JavaScript, concluyamos con una lista de características que definen a OOP de
+forma más general, por el propio Alan Kay, creador del término OOP y Smalltalk:
+
+> Traducido al español:
+>
+> * Todo es un objeto
+> * Los objetos se comunican enviando y recibiendo mensajes (en términos de objetos)
+> * Los objetos deben tener su propia memoria (en términos de objetos)
+> * Todo objeto es una instancia de una clase (que debe ser un objeto)
+> * La clase tiene el comportamiento compartido para las instancias (como objetos
+>   en un programa)
+> * Para evaluar un programa, se pasa el control al primer objeto y el resto se
+>   trata como su mensaje.
+>
+> Original en inglés:
+>
+> * Everything Is An Object
+> * Objects communicate by sending and receiving messages (in terms of objects).
+> * Objects have their own memory (in terms of objects).
+> * Every object is an instance of a class (which must be an object).
+> * The class holds the shared behavior for its instances (in the form of objects
+>   in a program list)
+> * To eval a program list, control is passed to the first object and the
+>   remainder is treated as its message.
+>
+> Fuente [Alan Kays Definition Of Object Oriented](http://wiki.c2.com/?AlanKaysDefinitionOfObjectOriented)
 
 ***
 
@@ -152,5 +180,6 @@ Blog posts:
 
 Otros recursos:
 
+* [Alan Kays Definition Of Object Oriented](http://wiki.c2.com/?AlanKaysDefinitionOfObjectOriented)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [MDN - instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
