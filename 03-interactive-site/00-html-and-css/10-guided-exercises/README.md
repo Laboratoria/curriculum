@@ -44,7 +44,7 @@ Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo
 
 Replica la siguiente imagen poniendo en práctica tus conocimientos de `float`:
 
-![css float](https://fotos.subefotos.com/4ce91671cf96c27f3d394d5371f30bc3o.png)
+![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
 
 ### 5. Tipografías e íconos
 
