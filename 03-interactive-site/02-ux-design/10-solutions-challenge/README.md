@@ -10,6 +10,4 @@
 
 ## Agenda
 
-* Resolver los retos, evaluar las diferentes maneras de alcanzar las soluciones.
-
-
+- Resolver los retos, evaluar las diferentes maneras de alcanzar las soluciones.
