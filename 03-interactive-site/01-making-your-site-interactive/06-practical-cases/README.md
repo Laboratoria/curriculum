@@ -97,9 +97,28 @@ Un menu de hamburgesa nos permite tener escondido el menu y únicamente mostrar 
 
 Algo asi:
 
-[[https://camo.githubusercontent.com/04f67efc665600ca896479c50b3a13b99fee648e/687474703a2f2f692e696d6775722e636f6d2f7370537548485a2e676966]]
+![Hamburger Menu](http://i.imgur.com/JKJ8V9v.gif)
 
 Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos", únicamente enfocarse en funcionalidad)
+
+#### 4. Crear tabs
+
+Las tabs nos sirven para agrupar contenido similar usando solo un espacio.
+
+Algo asi:
+
+![Tabs Menu](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
+
+Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos", únicamente enfocarse en funcionalidad)
+
+#### 5. Crear un menu drop down
+
+El menu drop down nos ayuda a ahorrar espacio en un menu, ya que agrupa elementos similares.
+
+Algo asi:
+
+![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
+
 
 ## Solucionarios
 
@@ -114,9 +133,18 @@ ejercicios anteriores.
 
 [![Solución Buscaminas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
 
-#### 2. Menú de Hamburgesa
+#### 3. Menú de Hamburgesa
 
 [![Solución Menu Hamburgesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+
+#### 4. Tabs
+
+[![Solución Menu Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+
+
+#### 5. Menú dropdown
+
+[![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
 
 
 ***
