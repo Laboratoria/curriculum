@@ -1,7 +1,7 @@
 # Sketching
 
-- Formato: `guiado`
 - Tipo: `taller`
+- Formato: `guiado`
 - Duración: `15min`
 
 ## Objetivos de Aprendizaje

@@ -1,7 +1,7 @@
 # Navegación
 
-- Formato: `self-learning`
 - Tipo: `lectura`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje

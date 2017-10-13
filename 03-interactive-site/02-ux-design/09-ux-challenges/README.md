@@ -1,7 +1,7 @@
 # Retos
 
-- Tipo: `design`
-- Formato: `self-learning`
+- Tipo: `práctica`
+- Formato: `self-paced`
 - Duración: `8h`
 
 ## Objetivos

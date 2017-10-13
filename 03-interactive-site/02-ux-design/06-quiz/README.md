@@ -1,7 +1,7 @@
 # Quiz #1
 
 - Tipo: `quiz`
-- Formato: `guided-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos

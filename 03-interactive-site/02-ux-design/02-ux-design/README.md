@@ -1,7 +1,7 @@
 # UX Design
 
-- Formato: `self-learning`
-- Tipo: `video`
+- Tipo: `lectura`
+- Formato: `self-paced`
 - Duración: `15min`
 
 ## Objetivos de Aprendizaje

@@ -1,7 +1,7 @@
 # El equipo de desarrollo
 
-- Tipo: `video`
-- Formato: `self-learning`
+- Tipo: `lectura`
+- Formato: `self-paced`
 - Duración: `15min`
 
 ## Objetivos de Aprendizaje

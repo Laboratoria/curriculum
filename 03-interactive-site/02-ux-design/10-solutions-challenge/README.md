@@ -1,7 +1,7 @@
 # Solucionario Retos UX
 
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
+- Tipo: `seminario`
+- Formato: `guiado`
 - Duración: `120min`
 
 ## Objetivos
