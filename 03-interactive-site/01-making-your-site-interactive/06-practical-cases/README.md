@@ -173,5 +173,3 @@ los ejercicios anteriores.
 #### 5. Menú dropdown
 
 [![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
-
-***
