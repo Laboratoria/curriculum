@@ -18,7 +18,7 @@ En este workshop implementarás personajes para un video juego.
 
 * Es fundamental tener instalado y configurado `git` y `npm`
 * Cuenta en [GitHub](https://github.com/)
-* Haber completado las lecciones 01-05
+* Haber completado las unidades 01-03
 * Fork propio del repo de tu cohort (carpeta `game-oop`)
 
 Para comenzar, asegúrate de que tienes tu propio _fork_ del repo de tu cohort y
@@ -43,7 +43,7 @@ git merge upstream/master
 git push origin master
 ```
 
-Crea un nuevo branch para este workshop:
+Crea un nuevo branch para este workshop si todavía no lo has hecho:
 
 ```sh
 git checkout -b <tu-usuario-de-github>-game-oop

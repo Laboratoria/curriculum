@@ -127,10 +127,9 @@ instalado, acceso al repo, su propio fork, ...
 |  # |  Tipo     | Formato | Duración | Descripción
 |----|-----------|---------|----------|------------
 | 00 | seminario | guiado  |   10min  | [Apertura](02-workshop/00-opening)
-| 01 | taller    | guiado  |   10min  | [Entorno: Git + GitHub](02-workshop/01-git+github)
-| 02 | taller    | guiado  |   10min  | [Entorno: Node.js + npm](02-workshop/02-node+npm)
-| 02 | taller    | guiado  |    5min  | [Creación de equipos](02-workshop/03-teams)
-| 02 | taller    | guiado  |   15min  | [Tareas y división de trabajo](02-workshop/04-tasks)
+| 01 | taller    | guiado  |   15min  | [Entorno: Git + GitHub](02-workshop/01-git+github)
+| 02 | taller    | guiado  |   15min  | [Creación de equipos](02-workshop/02-teams)
+| 03 | taller    | guiado  |   15min  | [Tareas y división de trabajo](02-workshop/03-tasks)
 
 ### Unidad 03: [OOP y herencia prototipal](03-proto)
 

@@ -4,22 +4,14 @@
 * Formato: `guiado`
 * Duración: `10min`
 
-## Objetivos de aprendizaje
-
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
-
 ***
 
 ## Objetivos de la unidad
 
 El _producto_ en el que trabajarás es un
-[videojuego de ejemplo](https://laboratoria.github.io/game/), con una
-[base de código](https://github.com/Laboratoria/game) existente y que
-funciona. La idea es que un jefe ficticio le ha pedido a tu equipo que añada
-una serie de _personajes_ y _niveles_ nuevos.
+[videojuego de ejemplo](https://laboratoria.github.io/game/), con una base de
+código existente y que funciona. La idea es que un jefe ficticio le ha pedido a
+tu equipo que añada una serie de _personajes_ y _niveles_ (mapas) nuevos.
 
 Participar en el proyecto involucra lo siguiente:
 
@@ -35,19 +27,12 @@ Participar en el proyecto involucra lo siguiente:
 
 ## Entregables
 
-Todos los entregables del curso se manejarán en el repositorio de tu cohort. El
+Los entregables de los proyectos se manejarán en el repositorio de tu cohort. El
 remoto orígen estará alojado en GitHub (`Laboratoria/<cohort-id>`). Lxs
 instructorxs te crearán una rama con tu nombre de usuario en GitHub, además de
-una rama para cada set de ejercicios o workshop de implementación.
+una rama para cada workshop de implementación.
 
-Al finalizar el curso, tu rama debería quedar con las siguientes carpetas:
-
-```text
-.
-├── game-fp
-└── game-oop
-```
-
-* `game-fp`: código fuente del juego con personajes usando factories
-* `game-oop`: código fuente del juego con personajes usando
-  constructores/prototipos
+Al finalizar el curso, deberías quedar con dos ramas propias además de `master`,
+una para la implementación OOP (`<github-username>-game-oop`) y otra para la
+implementación funcional (`<github-username>-game-fp`). Ambas ramas deben de ser
+creadas desde `master`.

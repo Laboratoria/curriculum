@@ -23,6 +23,9 @@ programación orientada a objetos, no sólo te hará una mejor coder, si no que
 podrás entender cómo se pueden enfrentar los mismos problemas con enfoques
 distintos, e identificar y adaptarse a bases de código existentes.
 
+En este curso nos concentraremos en los paradigmas más relevantes para
+JavaScript y cómo se materializan en este contexto.
+
 ## Guía de preguntas y conceptos clave
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
@@ -36,18 +39,23 @@ que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 * Qué son los **paradigmas de programación**?
-* Qué son **PP**, **FP** y **OOP**, y cómo se comparan?
-* Diferencias entre el estilo **imperativo vs declarativo**
+* Qué es el estilo **imperativo**
+* Qué es el estilo **declarativo**
+* Qué paradigmas encajan dentro del estilo **imperativo** y cuales en el
+  **declarativo**
+* Qué es la **programación por procedimientos**?
+* Qué es la **programación orientada a objetos**?
+* Qué es la **programación funcional**?
+* Cómo se aplican los diferentes paradigmas al mundo de JavaScript?
+* Cómo se comparan los diferentes paradigmas (diferencias, similitudes, ...)?
+* Cómo programar en los diferentes estilos
 
 ## Entregables
 
 * **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
-  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
-  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
-  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
-  será calificada.
+  Estos ejercicios incluyen tests automatizados con feedback immediato.
 
 ## Evaluación
 
-* Ejercicios (40% => 13.3% x 3)
-* Proyectos/Demos (60% => 30% x 2)
+* Ejercicios LMS: 40%
+* Proyectos/Demos: 60%
