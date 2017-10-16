@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `5min`
+* Duración: `4min`
 
 ***
 
@@ -18,11 +18,8 @@ funcional dentro del mundo JavaScript. Es decir que en `React` preferimos la
 composición por sobre la herencia y nos alineamos con los principios de
 inmutabilidad.
 
-`React` se usa comunmente en aplicaciones main stream, por compañías como
-Netflix, PayPal, AirBnB, Apple, Uber, y, por supuesto, Instagram y Facebook.
-
-Por debajo `React` usa una estructura llamada `Virtual DOM` que se encarga de
-granularmente renderizar los nodos, dependiendo de los cambios de estado de la
+Por debajo, `React` usa una estructura llamada `Virtual DOM` que se encarga de
+renderizar granularmente los nodos, dependiendo de los cambios de estado de la
 aplicación, realizando la menor cantidad posible de modificaciones al `DOM`,
 para mantener la interfaz actualizada.
 
@@ -42,7 +39,7 @@ Esto quiere decir que cuando hay un cambio en el `Virtual DOM`, solo los
 sub-árboles modificados son reemplazados en el `DOM`. Entonces, si por ejemplo
 tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el
 `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para
-"reconciación", el texto queda inalterado.
+"reconciliación", el texto queda inalterado.
 
 ## Recursos recomendados
 

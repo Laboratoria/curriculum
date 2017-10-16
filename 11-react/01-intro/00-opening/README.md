@@ -19,8 +19,8 @@
 web y representa un cambio de paradigma que va mucho más allá del navegador o
 incluso la web.
 
-Como desarrolladora web hoy en día es esencial conocer el `React` y su
-ecosistema, tanto para desarrollo de aplicaciones web, nativas, desktop, ...
+Hoy por hoy, como desarrolladora es esencial conocer `React` y su ecosistema,
+tanto para desarrollo de aplicaciones web, nativas, desktop, ...
 
 Añadiendo al "hype" de `React`, cabe mencionar que compañías como
 Netflix, PayPal, AirBnB, Apple, Instagram o Facebook usan `React` en sus
@@ -37,7 +37,7 @@ creciente en el desarrollo de interfaces, de una manera **ordenada**,
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+a los que debemos prestar particular atención.
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
@@ -47,9 +47,11 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 * ¿Que diferencia hay entre una *librería* y un *framework*?
 * ¿Qué es `React` y para qué sirve?
-* ¿Qué es `JSX`
 * ¿Qué es el `Virtual DOM`?
+* ¿Cómo añadimos React a una página web?
 * ¿Qué es `react-dom` y qué son los diferentes renderers?
+* ¿Cómo decide React qué nodos actualizar del DOM?
+* ¿Qué es `JSX`?
 * ¿Qué es una expresión?
 * ¿Cómo funciona el renderizado condicional?
 * ¿Cómo manejar listas/colecciones en `React`?

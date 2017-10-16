@@ -12,7 +12,7 @@
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+a los que debemos prestar particular atención.
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
