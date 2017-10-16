@@ -107,8 +107,17 @@ En el siguiente video explicamos un poco más el ejercicio:
 
 ### 3. Freelancer v2
 
-El enunciado va aquí...
+¿Recuerdas el reto de código de [Freelancer](https://github.com/Laboratoria-learning/freelancer)?
+Ahora, nos enfocaremos en replicar la funcionalidad de la sección de `Portfolio`
+que es el modal al dar click sobre cada una de las imágenes. Debe quedar como
+en la siguiente imagen:
+
+![Freelancer Portfolio](https://media.giphy.com/media/xT9IgDSValpayTy8QE/giphy.gif)
 
 ### 4. Nuestras Coders v2
 
-El enunciado va aquí...
+¿Recuerdas el ejercicio guíado de [Nuestras Coders](https://lms.laboratoria.la/cohorts/test/courses/interactive-site/00-html-and-css/14-guided-exercises)
+Ahora agregaremos un filtro para seleccionar a las coders dependiendo de su sede.
+Al final, deberá quedarte algo así:
+
+![Nuestras Coders](https://media.giphy.com/media/xT9IgwHr6d1LObJt16/giphy.gif)
