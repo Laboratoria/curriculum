@@ -2,7 +2,7 @@
 
 - Tipo: `práctica`
 - Formato: self-paced`
-- Duración: `480min`
+- Duración: `20h`
 
 ## Objetivos
 
