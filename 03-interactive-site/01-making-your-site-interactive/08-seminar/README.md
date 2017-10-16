@@ -1,8 +1,10 @@
 # Clase de Conceptos
 
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
+- Tipo: `seminario`
+- Formato: `guiado`
 - Duración: `120min`
+
+***
 
 ## Objetivos
 
@@ -85,5 +87,3 @@
 
 - Revisemos los ejercicios guiados que resolveremos en la próxima clase para
    que intentes resolverlos por tu cuenta primero.
-
-***

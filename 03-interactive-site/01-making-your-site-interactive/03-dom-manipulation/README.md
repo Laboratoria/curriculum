@@ -1,7 +1,7 @@
 # Modificando el DOM
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -474,5 +474,3 @@ Muchos de los conceptos fueron tomados de las siguientes referencias:
 - [http://www.codexexempla.org/curso/curso_4_3_d.php](http://www.codexexempla.org/curso/curso_4_3_d.php)
 - [https://www.w3schools.com/js/js_htmldom_animate.asp](https://www.w3schools.com/js/js_htmldom_animate.asp)
 - [https://developer.mozilla.org/es/docs/Referencia_DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Importancia_de_los_tipos_de_datos#Interfaces_esenciales_en_el_DOM)
-
-***
