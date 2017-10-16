@@ -104,3 +104,11 @@ cuadros blancos usando las flechas del teclado.
 En el siguiente video explicamos un poco más el ejercicio:
 
 [![Animación DOM](https://img.youtube.com/vi/LtfSKzCjCC4/0.jpg)](https://www.youtube.com/watch?v=LtfSKzCjCC4)
+
+### 3. Freelancer v2
+
+El enunciado va aquí...
+
+### 4. Nuestras Coders v2
+
+El enunciado va aquí...
