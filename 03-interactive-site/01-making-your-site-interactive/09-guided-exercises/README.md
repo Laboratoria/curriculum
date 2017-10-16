@@ -121,3 +121,19 @@ Ahora agregaremos un filtro para seleccionar a las coders dependiendo de su sede
 Al final, deberá quedarte algo así:
 
 ![Nuestras Coders](https://media.giphy.com/media/xT9IgwHr6d1LObJt16/giphy.gif)
+
+### 5. Captcha
+
+En la vida diaria usamos servicios que generan el **CAPTCHA**. 
+El más usado es el de Google, puedes encontrar su documentación [aquí](https://developers.google.com/recaptcha/docs/display?authuser=1).
+Estos CAPTCHA tienen como objetivo final poder identificar si eres o no un humano y van cambiando conforme avanza la tecnología.
+
+Inicialmente consistía en un conjunto de imágenes que el usuario debía determinar el contenido de las mismas e indicarlo al sistema. Hoy en día evalúan tu comportamiento en el navegador, y de tener dudas te pide evaluar un conjunto de imágenes mucho más grande.
+
+Armaremos un Captcha (tal cual se muestra en el diseño de abajo), este comprobará que el usuario escriba lo mismo que el Captcha que le proporcionaremos. El valor ingresado se evaluará al momento de que el usuario haga clic en el símbolo **✓** y se generará otro código cuando el usuario haga clic en el símbolo **↻**.
+
+Dato: Genera los números y letras de manera random
+
+- [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+![Captcha](https://fotos.subefotos.com/299269b4ed8aac7e0a445f0c76355612o.gif)
