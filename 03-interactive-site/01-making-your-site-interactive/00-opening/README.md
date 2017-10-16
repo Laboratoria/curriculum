@@ -1,8 +1,10 @@
-# Opening
+# Opening: Haciendo tu sitio web interactivo
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
+
+***
 
 ## Objetivos de Aprendizaje
 
@@ -10,7 +12,7 @@ En ésta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve manipularlo?
 - ¿Qué es el BOM y para qué nos sirve manipularlo?
-- ¿Qué es un evento? y ¿Cuál es su utilidad? en Javascript.
+- ¿Qué es un evento y cuál es su utilidad?
 
 ## ¿Por qué aprender esto?
 

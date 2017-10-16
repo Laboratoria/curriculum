@@ -1,8 +1,10 @@
 # Browser Object Model (BOM)
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
+
+***
 
 ## Objetivos de Aprendizaje
 
