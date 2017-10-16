@@ -1,7 +1,7 @@
 # Auto-evaluación
 
-- Tipo: `survey`
-- Formato: `self-learning`
+- Tipo: `cuestionario`
+- Formato: `self-paced`
 - Duración: `5min`
 
 ## Objetivos
@@ -12,3 +12,7 @@
 ***
 
 ## Auto-evaluación
+
+- [Lima](#)
+- [Santiago de Chile](#)
+- [México DF](#)
