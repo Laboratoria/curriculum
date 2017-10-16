@@ -64,9 +64,9 @@ estudiante de Laboratoria.
 
 ## Syllabus
 
-### [01: Maquetado web con HTML & CSS](00-html-and-css)
+### Unidad 01: [Maquetado web con HTML & CSS](00-html-and-css)
 
-50-60 hrs
+60-70 hrs
 
 Para crear un producto web interactivo, primero debemos aprender a maquetar.
 En esta unidad veremos cómo crear la estructura de un sitio web con `html` y
@@ -78,20 +78,24 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 | 01 | lectura | 15min | Apertura
 | 02 | lectura | 4h | HTML
 | 03 | lectura | 4h | CSS
-| 05 | lectura | 1h | Box Model y Display
-| 04 | lectura | 2h | Positioning y Floats
-| 05 | lectura | 1h | Tipografía e íconos
-| 06 | lectura | 1h | Casos prácticos
-| 07 | cuestionario | 30min | Quiz
-| 08 | seminario | 4h | Revisión de conceptos
-| 09 | taller | 12h |  Ejercicios guiados
-| 10 | práctica | 24h | Retos de código
-| 11 | seminario | 6h | Solucionario retos de código
-| 12 | cuestionario | 30min | Requiz
-| 13 | cuestionario | 15min | Auto-evaluación
-| 14 | seminario | 30min | Cierre
+| 04 | lectura | 1h | Box Model y Display
+| 05 | lectura | 2h | Revisión de conceptos
+| 06 | taller | 2h | Ejercicios guiados
+| 07 | lectura | 2h | Positioning y Floats
+| 08 | lectura | 1h | Tipografía e íconos
+| 09 | lectura | 2h | Revisión de conceptos
+| 10 | taller | 4h | Ejercicios guiados
+| 11 | lectura | 1h | Casos prácticos
+| 12 | cuestionario | 30min | Quiz
+| 13 | seminario | 4h | Revisión de conceptos
+| 14 | taller | 8h |  Ejercicios guiados
+| 15 | práctica | 24h | Retos de código
+| 16 | seminario | 6h | Solucionario retos de código
+| 17 | cuestionario | 30min | Requiz
+| 18 | cuestionario | 15min | Auto-evaluación
+| 19 | seminario | 30min | Cierre
 
-### [03: Creando interacción con JavaScript](01-making-your-site-interactive)
+### Unidad 02: [Creando interacción con JavaScript](01-making-your-site-interactive)
 
 35 hrs
 
@@ -115,7 +119,7 @@ nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
 | 12 | cuestionario | 10min | Auto-evaluación
 | 13 | seminario | 30min | Cierre
 
-### [04: Intro a User Experience Design](02-ux-design)
+### Unidad 03: [Intro a User Experience Design](02-ux-design)
 
 15hrs
 
@@ -129,20 +133,18 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 | 01 | lectura | 30min | El equipo de desarrollo
 | 02 | lectura | 30min | UX Design
 | 03 | lectura | 30min | UX Design vs. UI Design
-| 04 | lectura | 30min | Usabilidad
-| 05 | lectura | 30min | Diseño Visual
-| 06 | lectura | 30min | Navigation
-| 07 | lectura | 30min | Sketching
-| 08 | cuestionario | 30min | Quiz
-| 09 | seminario | 120min | Revisión de conceptos
-| 10 | taller | 120min |  Ejercicios guiados
-| 11 | práctica | 8hrs | Retos de UXD
-| 12 | taller | 120min | Solucionario retos de UXD
-| 13 | cuestionario | 30min | Requiz
-| 14 | cuestionario | 10min | Auto-evaluación
-| 15 | seminario | 30min | Cierre
+| 04 | lectura | 30min | Navigation
+| 05 | lectura | 30min | Sketching
+| 06 | cuestionario | 30min | Quiz
+| 07 | seminario | 120min | Revisión de conceptos
+| 08 | taller | 120min |  Ejercicios guiados
+| 09 | práctica | 8hrs | Retos de UXD
+| 10 | taller | 120min | Solucionario retos de UXD
+| 11 | cuestionario | 30min | Requiz
+| 12 | cuestionario | 10min | Auto-evaluación
+| 13 | seminario | 30min | Cierre
 
-### [05: Data Dashboard](03-data-dashboard)
+### Unidad 04: [Data Dashboard](03-data-dashboard)
 
 20hrs
 
@@ -165,14 +167,13 @@ con todo!
 * Quizzes: 5%
 * Requizzes: 10%
 * Retos
-  * Twitter: 5%
   * Lyft: 5%
   * Freelacer: 5%
   * Laberinto: 10%
   * Trello: 10%
   * Twitter interactivo: 10%
   * Reto UX: 10%
-* Producto final (Data Dashboard): 30%
+* Producto final (Data Dashboard): 35%
 
 ## Contribuidores
 

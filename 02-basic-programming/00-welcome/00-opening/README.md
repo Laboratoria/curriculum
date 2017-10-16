@@ -1,6 +1,6 @@
 # Bienvenida a Laboratoria
 
-- Tipo: `seminario`
+- Tipo: `lectura`
 - Formato: `guiado`
 - Duración: `10min`
 

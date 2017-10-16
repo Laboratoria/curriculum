@@ -2,7 +2,7 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `5hrs`
+- Duración: `5h`
 
 ***
 
@@ -26,7 +26,7 @@ Escribe una función que toma dos argumentos, el nombre de tu amiga y la cantida
 #### 3. Sort (+ Binary Search)
 Crea una función que ordene un `array` de números, de menor a mayor. Tip: utiliza el algoritmo de [`selection sort`](https://en.wikipedia.org/wiki/Selection_sort). Revisar otros algoritmos de sorting (por ejemplo: [`insertion sort`](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) y [`bubble sort`](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif))
 
-Ahora que ya sabes ordenar un `array`, escribe una función que realice una búsqueda de un elemento en un arreglo utilizando el algoritmo de `Binary Search` (recuerda que Lourdes explicó el concepto de Binary Search en la sección de [casos prácticos](08-practical-cases.md)).  
+Ahora que ya sabes ordenar un `array`, escribe una función que realice una búsqueda de un elemento en un arreglo utilizando el algoritmo de `Binary Search` (recuerda que Lourdes explicó el concepto de Binary Search en la sección de [casos prácticos](08-practical-cases)).
 
 #### 4. Remove Duplicates
 Escribe una función que tome un `array` como parámetro y retorne otro `array` pero sin elementos duplicados.
@@ -37,11 +37,48 @@ Escribe una función llamada `areArraysSame` que tome dos `arrays` como argument
 #### 6. Cajero automático
 Crea un programa que un cajero automático pueda utilizar para determinar el número **mínimo** de billetes a entregar dado un monto solicitado. El cajero empieza con:
 * 100 billetes de 100
-* 50 billetes de 20
+* 50 billetes de 50
 * 200 billetes de 20
 * 300 billetes de 10
 * 500 billetes de 5
 * 800 billetes de 1
+
+Veamos un caso de uso:
+
+Si el usuario solicita 250 dólares, la salida debe verse así:
+```js
+Monto solicitado 250 dólares.
+Se entregan 3 billetes:
+
+100: 2
+50: 1
+
+En el cajero quedan: 
+
+100: 98
+50: 49
+20: 200
+10: 300
+5: 500
+1: 800
+```
+
+El cajero recuerda cuánto dinero le queda para las siguientes transacciones.Por ejemplo, sí el usuario desea retirar 150 dólares adicionales, la salida debe verse así:
+```js
+Monto solicitado 150 dólares, se entregan 2 billetes:
+
+100: 1
+50: 1
+
+En el cajero quedan: 
+
+100: 97
+50: 48
+20: 200
+10: 300
+5: 500
+1: 800
+```
 
 #### 7. Reserva de asientos en aerolínea.
 
@@ -51,20 +88,20 @@ Tu aplicación debe mostrar  un `menu principal` las siguientes alternativas:
 
 * Por favor escribir 1 para `reservar asiento`
 * Por favor escribir 2 para `liberar asiento`
-* Por favor escribir 3 para `buscar por DNI`
+* Por favor escribir 3 para `buscar por documento de identificación`
 * Por favor escribir 4 para `listar todos los pasajeros`
 * Por favor escribir -1 para `salir del sistema`
 
-Si el usuario escribe 1, tu aplicación debe pedirle que escoja uno de los asientos libres, luego deberá pedir información personal (`nombre y apellidos` y `DNI`). Luego deberá retornar al `menú principal`.
+Si el usuario escribe 1, tu aplicación debe pedirle que escoja uno de los asientos libres, luego deberá pedir información personal (`nombre y apellidos` y `documento de identificación`). Luego deberá retornar al `menú principal`.
 
-Si el usuario escribe 2, tu aplicación debe pedirle que escoja el asiento reservado que quiere liberar, luego debe pedir una configuración (SI/NO) mostrando la información asociada al asiento (`nombre y apellidos`, `DNI`). Luego debe retornar al `menú principal`.
+Si el usuario escribe 2, tu aplicación debe pedirle que escoja el asiento reservado que quiere liberar, luego debe pedir una configuración (SI/NO) mostrando la información asociada al asiento (`nombre y apellidos`, `documento de identificación`). Luego debe retornar al `menú principal`.
 
-Si el usuario escribe 3, tu aplicación debe pedirle que ingresar el DNI, luego debe mostrar la información asociada al pasajero (`nombre y apellidos`, `asiento`) con `DNI` buscado. Luego debe retornar al `menú principal`.
+Si el usuario escribe 3, tu aplicación debe pedirle que ingresar el documento de identificación, luego debe mostrar la información asociada al pasajero (`nombre y apellidos`, `asiento`) con `documento de identificación` buscado. Luego debe retornar al `menú principal`.
 
-Si el usuario escribe 4, tu aplicación debe mostrar la lista de pasajeros e informacion relajada (`nombre y apellidos`, `DNI`, `asiento`) registrados en el sistema. Luego debe retornar al `menú principal`.
+Si el usuario escribe 4, tu aplicación debe mostrar la lista de pasajeros e información relacionada (`nombre y apellidos`, `documento de identificación`, `asiento`) registrados en el sistema. Luego debe retornar al `menú principal`.
 
 
-Si el usuario escribe -1, tu aplicación debe   salir del sistema.
+Si el usuario escribe -1, tu aplicación debe salir del sistema.
 
 
 ##### Tips para la solución
@@ -74,15 +111,15 @@ Si el usuario escribe -1, tu aplicación debe   salir del sistema.
 Para imprimir (via `promnt o alert`) la lista de asientos puede usar el siguiente tip:
 
 ```js
-var str =   "1[ ] 3[ ] 5[ ] 7[ ] 9[ ]" +
-            "2[ ] 4[ ] 6[ ] 8[ ] 10[ ]";
+var str = "1[ ] 3[ ] 5[ ] 7[ ] 9[ ]" +
+          "2[ ] 4[ ] 6[ ] 8[ ] 10[ ]";
 
-alert (str); // todos los asientos estan libres
+alert(str); // todos los asientos están libres
 
-var str =   "1[ ] 3[*] 5[ ] 7[ ] 9[ ]" +
-            "2[*] 4[ ] 6[ ] 8[ ] 10[ ]";
+var str = "1[ ] 3[*] 5[ ] 7[ ] 9[ ]" +
+          "2[*] 4[ ] 6[ ] 8[ ] 10[ ]";
 
-alert (str); // el asiento 2 y 3 estan reservados.
+alert(str); // el asiento 2 y 3 estan reservados.
 
 ```
 
