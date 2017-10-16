@@ -60,27 +60,22 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 * **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
   Estos ejercicios incluyen tests automatizados con la intención de dar feedback
-  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
-  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
-  será calificada.
-* **Cuestionarios**: Al igual que los ejercicios, a lo largo de la unidad
-  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
-  para la nota final.
+  immediato, pero los ejercicios en sí no serán calificados.
 
 ## Hoja de ruta
 
 ### Semana 1
 
 * **Sesión 1: presencial 3h**
-  - Unidad 1: Intro a _React y JSX_ (1.8h)
-  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (2.1h)
+  - Unidad 1: Intro a _React y JSX_ (1.7h)
+  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (1.3h)
 * Sesión 2: webinar 1h
-  - Unidad 3: _Babel y Webpack_ (1.2h)
+  - Unidad 3: _Babel y Webpack_ (1h)
 
 ### Semana 2
 
 * Pre-tarea
-  - Lecturas y ejercicios de PropTypes y children en Unidad 4: _Componentes_ (40min)
+  - Lecturas y ejercicios de PropTypes y children en Unidad 4: _Componentes_ (60min)
 * Sesión 3: presencial 3h
   - Solucionario de Unidad 4: _Componentes_ (45h)
   - Unidad 5: _Proyecto_: Revisión de código, Hackeo y QA (2h)
