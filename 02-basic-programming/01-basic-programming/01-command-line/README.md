@@ -15,11 +15,13 @@ En esta unidad aprenderemos:
 - Aprender a navegar por nuestro `directorio`
 - Crear archivos o carpetas desde la terminal
 
-Referencia:
-[https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md)
-
 ## La línea de comandos
 
+<<<<<<< HEAD
+## La línea de comandos
+
+=======
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 La línea de comandos es también conocida como:
   - Terminal
   - Consola
@@ -53,8 +55,13 @@ Presionamos la tecla "windows" + r:
 
 ![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
 
+<<<<<<< HEAD
 Ahora   nos aparecerá una pequeña pantalla en la parte inferior izquierda en
 la que escribiremos **cmd.exe**
+=======
+Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
+escribiremos **cmd.exe**
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 ![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
 
@@ -77,6 +84,7 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
 - Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
   con el símbolo `>`
+<<<<<<< HEAD
   
   ```text
    C: \Users\Michelle >
@@ -106,12 +114,102 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 ## Comandos
 
 Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra". 
+=======
+
+  ```text
+   C: \Users\Michelle >
+  ```
+
+  Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
+  aparecer tu nombre de usuario.
+
+- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
+  símbolo `$`
+
+  ```text
+  [Laboratoria@Michelle ~] $
+  ```
+
+  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
+
+- Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
+  computadora y terminará con el símbolo `$`
+
+  ```text
+  Laboratoria-MacBook-Air:~ Michelle$
+  ```
+
+## Comandos
+
+Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra".
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella.
 
->¿Cómo ejecutamos un comando?<br>
+> ¿Cómo ejecutamos un comando?<br>
     1. Debemos de escribir el comando<br>
-    2. Presionando la tecla **enter** estaremos ejecutando un comando
+    2. Presionando la tecla **enter** estaremos ejecutando el comando
 
+### Navegando en nuestro directorio
+
+El comando `cd` nos ayudará a navegar por nuestros **directorios** (también
+llamados **carpetas**) y entre nuestros archivos. Con él, podremos acceder a
+otra carpeta o volver a una carpeta anterior.
+
+Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
+recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
+**baño**?
+
+![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)  
+
+Estoy en mi cuarto (n° 3) y si quiero ir al baño, primero, debo de entrar al
+clóset (n° 2) y luego entrar al baño (n°1). No puedo llegar al baño sin pasar
+por el clóset.
+Algo similar pasa en la navegación por las carpetas vía terminal, supongamos
+que me encuentro en mi **ciber casa** (mi equipo) y quiero ir de mi **ciber
+cuarto** (disco local C) a mi "ciber baño" (carpeta "Saved Pictures"),
+primero debería de entrar al "ciber-clóset" (carpeta "Pictures") y luego
+entramos a la carpeta buscada.
+
+Ahora navegemos nosotras en muestra terminal.
+
+#### Obteniendo nuestra ubicación
+
+Primero vamos a saber en qué parte de nuestra "ciber casa" nos encontramos.
+Saber en qué parte de nuestro directio nos encontramos es muy importante,
+sobretodo en el caso de que queramos crear una nueva carpeta, un archivo, o
+simplemente saber en qué parte de nuestro equipo nos encontramos.
+
+**Windows**
+
+Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
+
+```text
+> cd
+  C:\Users\Michelle
+```
+
+**Mac OS X y Linux**
+
+Al ejecutar el comando `pwd` se nos mostrará la ruta en la que estamos.
+
+```text
+$ pwd
+  /home/Michelle
+```
+
+#### Navegando
+
+Si escribimos `cd` y luego indicamos el nombre de una carpeta que exista en
+nuestro directorio, al ejecutarlo, estaremos ingresando dentro de ella.
+
+**Windows, Mac OS X y Linux**
+
+```text
+cd nombre-carpeta
+```
+Por ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
+
+<<<<<<< HEAD
 ### Navegando en nuestro directorio
 
 El comando `cd` nos ayudará a navegar por nuestros **directorios** (también
@@ -200,6 +298,40 @@ en donde nos encontramos y volveremos una hacia atrás.
 ```text
 cd ..
 ```
+=======
+```text
+cd Pictures
+```
+
+Si ahora vemos cuál es nuestra ubicación, nos saldrá que nos encontramos en la
+carpeta "Pictures"
+
+**Windows**
+
+```text
+> cd
+  C:\Users\Michelle\Pictures
+```
+
+**Mac OS X y Linux**
+
+```text
+$ pwd
+  /home/Michelle/Pictures
+```
+
+Ahora ya sabemos cómo podemos ingresar en la carpeta que queramos, pero ¿Qué
+pasa si queremos **salir** de la carpeta en la que nos encontramos? Para
+estos casos existe `cd ..`.
+
+Si ponemos dos puntos (`..`) después de `cd`, estaremos saliendo de la carpeta
+en donde nos encontramos y volveremos una hacia atrás.
+
+```text
+cd ..
+```
+
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 Si ahora vemos cuál es nuestra ubicación.
 
 **Windows**
@@ -216,9 +348,15 @@ $ pwd
   /home/Michelle
 ```
 
+<<<<<<< HEAD
 Ya no estaremos dentro de la carpeta "Pictures"
 
 ### Listar los archivos y los directorios
+=======
+Ya no estaremos dentro de la carpeta "Pictures".
+
+### Listar los archivos y directorios
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 **Windows: `dir`**
 
@@ -230,7 +368,11 @@ aparecerá la lista de los archivos o carpetas que se encuentran en ese
 directorio. Esta lista estará conformada por una primera columna en donde
 estará su fecha de modificación, luego nos dirá si es un directorio o
 no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```text
 > dir
   Directory of C:\Users\Michelle
@@ -254,13 +396,21 @@ no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
               2 File(s)            315 bytes
              15 Dir(s)  223,511,490,560 bytes free
 ```
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 **Mac OS X y Linux : `ls`**
 
 Al ejecutar `ls` se nos mostrarán los nombres de las carpetas y los archivos
 que existan en el directorio que nos encontremos.
 
+<<<<<<< HEAD
 ```text 
+=======
+```text
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 $ ls
   Desktop  Documents  Downloads  Music  Pictures
   Public    Templates  Videos
@@ -268,9 +418,15 @@ $ ls
 
 ### Creando directorios
 
+<<<<<<< HEAD
 Ahora veamos un comando que nos permitirá crea un nuevo directorio (carpeta).
 Para este comando es muy importante en qué parte del directorio nos encontramos
 porque en la ubicación en la que lo ejecutemos es donde se creará la nueva 
+=======
+Ahora veamos un comando que nos permitirá crear un nuevo directorio (carpeta).
+Para este comando es muy importante en qué parte del directorio nos encontramos
+porque en la ubicación en la que lo ejecutemos es donde se creará la nueva
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 carpeta.
 
 **Windows, Mac OS X y Linux**
@@ -300,6 +456,10 @@ creará el nuevo archivo.
 **Windows: `echo`**
 
 Con `echo` estaremos creando un nuevo archivo. Su estructura es así:
+<<<<<<< HEAD
+=======
+
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 1. Comando: `echo`
 2. Texto con el que se creará: `texto`
 3. Símbolo `>`
@@ -345,6 +505,7 @@ $ touch index.html
 
 A continuación veremos una lista de los comandos usados en esta lección:
 
+<<<<<<< HEAD
 | Comando (Windows)           | Comando (Mac OS X / Linux)   | Descripción                         |
 | --------------------------- | ---------------------------- | ----------------------------------- |
 | cd                          | pwd                          | Muestra la ruta en la que estamos   |
@@ -359,3 +520,11 @@ Ahora veamos cómo Michelle navega entres sus archivos o directorios, crea
 carpetas y archivos desde la terminal.
 
 [![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)
+=======
+![comandos-cli](https://fotos.subefotos.com/e6a2257e5c80534c28d721c34390b20bo.png)
+
+Ahora veamos cómo Michelle navega entre sus archivos o directorios, crea
+carpetas y archivos desde la terminal.
+
+[![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)
+>>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
