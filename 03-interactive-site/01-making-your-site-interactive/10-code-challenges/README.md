@@ -142,8 +142,93 @@ function exitMaze(player); // Algoritmo de búsqueda para encontrar un camino de
 
 ## 2. Twitter
 
-Enunciado va aquí...
+En este reto, vamos a replicar el newsfeed de Twitter, para ello vamos a seguir
+un flujo de versiones que te guiarán como enfocarte de una manera más eficiente
+:)
+
+El diseño lo puedes adaptar como mejor te parezca, _pero no tardes mucho
+definiendo los colores o fuentes por último puedes replicar el diseño de la
+[página oficial](https://twitter.com)_ :). Aquí un ejemplo:
+
+![Ejemplo Twitter DOM](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
+
+### Versión 0.0.1
+
+1. Diseñar un formulario que permita ingresar un texto y un botón para "twittear".
+2. Agregar un evento de click al botón o de submit al formulario.
+3. En el evento, obtener el texto.
+4. Agregar el texto al HTML.
+
+### Versión 0.0.2
+
+1. No ingresar texto vacío (deshabilitar el botón de "twittear").
+2. Contar la cantidad de caracteres de forma regresiva.
+
+### Versión 0.0.3
+
+1. Si pasa los 140 caracteres, deshabilitar el botón.
+2. Si pasa los 120 caracteres, mostrar el contador con OTRO color.
+3. Si pasa los 130 caracteres, mostrar el contador con OTRO color.
+4. si pasa los 140 caracteres, mostrar el contador en negativo.
+
+### Versión 0.0.4
+
+1. Al presionar enter(`/n`) que crezca el textarea de acuerdo al tamaño del
+   texto.
+
+### Versión 0.0.5 (Extra)
+
+1. Si la cantidad de caracteres ingresados (sin dar un enter), supera al tamaño
+   del textarea por defecto, debe de agregarse una línea más para que no
+   aparezca el scroll. (Si en caso aplica)
+
+### Versión 0.0.6 (Extra)
+
+1. Agregar la hora en que se publicó el tweet. En el formato de 24 horas: `hh:mm`.
+
+> Nota: Para dar formato a la fecha y hora, puedes crear tu propia función o
+> usar una librería como [`moment.js`](https://momentjs.com/).
 
 ## 3. Trello
 
-Enunciado va aquí...
+En este reto, vamos a replicar el tablero de Trello, para ello vamos a seguir
+un flujo de versiones que te guiarán en dónde enfocarte desde un inicio.
+
+Al igual que en el reto anterior, puedes usar tu propio estilo o seguir la del
+[sitio original](https://trello.com). A continuación puedes ver como debe quedar:
+
+![Ejemplo - Clon de Trello](https://media.giphy.com/media/l1J9Ai0amYnS22ChW/giphy.gif)
+
+### Versión 0.0.1
+
+- Se mostrará el texto "Añadir una lista ...".
+- Al hacer click se debe ocultar el texto y mostrar un formulario.
+- El formulario está conformado por un input y un botón para que pueda
+  añadir tareas a tu lista.
+
+### Versión 0.0.2
+
+- Al dar click en el boton de "Guardar", se mostrará un nuevo cuadro donde
+  estará el nombre de la lista agregada.
+- Mostrar un texto de "Añadir una tarea" dentro de la lista.
+
+### Versión 0.0.3
+
+- Al dar click en "Añadir una tarea", deberá mostrar un formulario con un
+  textarea y un botón que diga "Añadir".
+
+### Versión 0.0.4
+
+- Poner _focus_ al input al dar click en "Agregar nueva tarea".
+- Al dar click en el botón de "Añadir", deberá aparecer el texto de la tarea
+  debajo del título de la lista.
+
+### Versión 0.0.5
+
+- Mostrar el formulario nuevamente debajo de la última tarea añadida.
+
+### Versión 0.0.6 (Extra)
+
+- Poder agregar múltiples listas con tarjetas. Para esto, el formulario de
+  "Añadir una lista" debe de aparecer a la derecha de la lista anteriormente
+  creada.
