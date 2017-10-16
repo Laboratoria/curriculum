@@ -294,5 +294,3 @@ de la documentación oficial de Mozilla de qué es el DOM
 
 Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
 de cómo acceder a elementos del DOM con JS de la documentación oficial.
-
-***
