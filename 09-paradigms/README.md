@@ -82,7 +82,6 @@ Participar en el proyecto involucra lo siguiente:
 * Implementar nuevos personajes y mapas usando **composición**
 * Enviar **pull requests**
 * Hacer **code review** y **merges**
-* Presentar el trabajo final al resto del grupo con una **demo**
 
 El juego está inspirado en el ejemplo de
 [js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
@@ -153,9 +152,10 @@ En esta sesión te dedicarás a hackear :construction:! Junto con una compañera
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando herencia prototipal.
 
-### Unidad 05: [Demos de proyectos OOP](05-game-oop-demo)
+### Unidad 05: [Hacking (proyecto libre)](05-hacking)
 
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+Esta sesión la dedicaremos a _hacking_ libre. Tus instructorxs propondrán retos
+y ejemplos para ver todxs juntxs.
 
 ### Unidad 06: [Object factories and composition](06-composition)
 
@@ -180,9 +180,10 @@ En esta sesión te dedicarás a hackear :construction:! Junto con una compañera
 tendrás que extender el video juego añadiendo 2 ó más personajes. La
 implementación será usando el estilo funcional (composición).
 
-### Unidad 08: [Demos de proyectos FP](08-game-fp-demo)
+### Unidad 08: [Hacking (proyecto libre)](08-hacking)
 
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+Esta sesión la dedicaremos a _hacking_ libre. Tus instructorxs propondrán retos
+y ejemplos para ver todxs juntxs.
 
 ***
 
