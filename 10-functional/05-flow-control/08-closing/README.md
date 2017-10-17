@@ -6,7 +6,7 @@
 
 ***
 
-### Resumen
+## Resumen
 
 La recursividad, así como muchos otros conceptos de la programación funcional
 pueden ser engañosamente simples. La definición en sí es corta, pero
@@ -16,7 +16,7 @@ En este unidad hemos hablado de recursión y asincronía como formas de contrala
 el flujo de un programa usando funciones. Ambos conceptos son fundamentales
 para cualquier desarrolladora JavaSript.
 
-### Repasemos juntxs las preguntas y conceptos clave de la apertura
+## Repasemos juntxs las preguntas y conceptos clave de la apertura
 
 * Toda iteración puede reemplazarse con recursión y viceversa
 * La recursividad nos permite explorar estructuras con un nivel indeterminado de
@@ -36,7 +36,7 @@ para cualquier desarrolladora JavaSript.
 * Gracias a la asincronía podemos diseñar procesos que ejecuten tareas en
   paralelo, en series o una combinación de ambos.
 
-### Auto-evaluación
+## Auto-evaluación
 
 Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
 Este cuestionario no es calificado.
