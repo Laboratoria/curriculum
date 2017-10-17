@@ -1,17 +1,20 @@
 # Quiz #2: _requizzing_
+
 - Tipo: `quiz`
 - Formato: `guiado`
 - Duración: `30min`
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un entendimiento pleno de los conceptos.
+- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
+  entendimiento pleno de los conceptos.
 
 ***
 
 ## Preguntas
 
-### 1) El nodo `document`, es `padre` de los objetos o nodos:
+### 1) El nodo `document`, es `padre` de los objetos o nodos
+
 #### Opciones
 
   1. Nodos `meta` dentro de `head`
@@ -22,6 +25,7 @@
 <solution style="display:none;">3</solution>
 
 ### 2) Propiedades de los nodos del DOM
+
 #### Opciones
   1. `nodeName`
   2. `nodeClass`
@@ -32,38 +36,43 @@
 <solution style="display:none;">1,3,4</solution>
 
 ### 3) Para el siguiente elemento.
+
 ```html
     <p id="paragraph">Hola, soy un párrafo sensual</p>
 ```
+
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
+
 #### Opciones
-  1. ```javascript
+  1.
+   ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.background='red';
-     ```
-  2. ```javascript
+   ```
+  2.
+  ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.backgroundColor='red';
-     ```
-  3. ```javascript
+   ```
+  3.
+  ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.backgroundColor='red';
-     ```
+   ```
 
 <solution style="display:none;">2</solution>
 
-
-### 4) `document.getElementsByClassName('unaClase')`, me regresa un:
+### 4) `document.getElementsByClassName('unaClase')`, me regresa un
 ```javascript
     var elementos = document.getElementsByClassName('unaClase');
     console.log(elementos);
 ```
 #### Opciones
   1. Arreglo de nodos HTML con la clase `unaClase`;
-  2. Arreglo con el valor de texto contenido dentro de todos los elementos con clase `unaClase`;
+  2. Arreglo con el valor de texto contenido dentro de todos los elementos
+     con clase `unaClase`;
   3. Todos los caracteres del string `unaClase`;
   4. Me regresa solo el primer Elemento con clase `unaClase`;
-
 
 <solution style="display:none;">1</solution>
 
@@ -85,16 +94,19 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) ¿Porque es importante el objeto screen ?
+### 7) ¿Por qué es importante el objeto screen ?
+
 #### Opciones
   1. Conocer resoluciones más utilizadas
   2. Para identificar a un elemento del DOM
   3. Adaptar los diseños a las resoluciones más utilizadas
-  4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación del document
+  4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
+     del document
 
 <solution style="display:none;">1,3</solution>
 
-### 8) ¿Cómo puedo obtener la URL de la página anterior a la que estoy en este momento ?
+### 8) ¿Cómo puedo obtener la URL de la página anterior a la que estoy en este momento?
+
 #### Opciones
   1. `document.referrer`
   2. `document.URL`
@@ -126,5 +138,38 @@
   2. onselect
   3. onmouseover
   4. ondblclick
+
+<solution style="display:none;">2</solution>
+
+### 11) Para almacenar datos en las etiquetas HTML sin modificar la presentación del documento, usamos
+
+#### Opciones
+
+  1. Atributos data
+  2. Etiquetas semánticas
+  3. Variables
+  4. Datos-HTML
+
+<solution style="display:none;">1</solution>
+
+### 12) Sintaxis de los atributos data
+
+#### Opciones
+
+  1. var data = "valor"
+  2. data-nombreAsignado="valor"
+  3. data="valor"
+  4. nombreAsignado-Datos(valor)
+
+<solution style="display:none;">2</solution>
+
+### 13) Sintaxis de los atributos data
+
+#### Opciones
+
+  1. var data = "valor"
+  2. data-nombreAsignado="valor"
+  3. data="valor"
+  4. nombreAsignado-Datos(valor)
 
 <solution style="display:none;">2</solution>
