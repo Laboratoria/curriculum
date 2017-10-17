@@ -1,0 +1,5 @@
+# Object composition
+
+* Environment: `js`
+
+***
