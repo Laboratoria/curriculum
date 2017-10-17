@@ -21,6 +21,6 @@ Dentro de cada _milestone_ se crearán y asignarán dos _issues_ por cada alumna
 * Crear personaje
 * Crear un nuevo mapa (nivel)
 
-Una iniciado el curso, no dudes en añadir issues con preguntas o sugerencias
+Una vez iniciado el curso, no dudes en añadir issues con preguntas o sugerencias
 tanto para tu equipo como para la clase en general incluyendo a lxs
 instructorxs.
