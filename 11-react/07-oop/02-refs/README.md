@@ -22,16 +22,12 @@ Hay un par de casos de uso válidos para usar refs:
 * Disparar animaciones imperativas.
 * Integrarnos con librerías externas.
 
-***
-
-**NOTA**
-
-Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
-
-Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos
-`abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
-
-***
+> NOTA:
+>
+> Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
+>
+> Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos
+> `abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
 
 ## Agregar una referencia a un elemento del DOM
 

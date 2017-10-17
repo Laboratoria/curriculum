@@ -19,10 +19,10 @@ otros componentes pasando información entre unos y otros usando sus `props`.
 
 Puedes construir tu aplicación top-down o bottom-up. Esto quiere decir que
 puedes comenzar con los componentes más arriba en la jerarquía (i.e. comenzar
-  con `FilterableProductTable`) o con los que están mas abajo (`ProductRow`). En
-  casos simples es generalmente más rápido comenzar de arriba hacia abajo, y en
-  proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test
-  a medida que vas subiendo escalones.
+con `FilterableProductTable`) o con los que están mas abajo (`ProductRow`). En
+casos simples es generalmente más rápido comenzar de arriba hacia abajo, y en
+proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test a
+medida que vas subiendo escalones.
 
 Al final de este proceso tendras una librería de componentes reusables que
 renderizan tus datos. El componente más arriba en la jerarquía
@@ -30,11 +30,7 @@ renderizan tus datos. El componente más arriba en la jerarquía
 cambio en el JSON de productos, estos cambios se verán inmediatamente reflejados
 en tu interfaz. Esta es la maravilla del **one-way data flow**.
 
-<p data-height="600" data-theme-id="0" data-slug-hash="vXpAgj"
-data-default-tab="js" data-user="lacker" data-embed-version="2" class="codepen">
-See the Pen <a href="https://codepen.io/merunga/pen/NvLbjX">Thinking In React:
-Step 2</a> on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+[Pruébalo en CodePen](https://codepen.io/merunga/pen/NvLbjX)
 
 ```js
 // lib/FilterableProductTable/components/index.js

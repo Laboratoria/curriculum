@@ -195,7 +195,7 @@ store.dispatch({
 
 ### Los cambios de state, se realizan a través de funciones puras
 
-_Changes are made with pure functions_
+> Changes are made with pure functions
 
 **Para detallar la manera en la que cambia el state en respuesta a los actions,
 usas un [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**

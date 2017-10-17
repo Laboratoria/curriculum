@@ -136,32 +136,26 @@ componentes "de verdad".
 
 |  # | Tipo      | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     |   10min  | Apertura
-| 01 | lectura   | self-paced |    5min  | Conceptos básicos de React
-| 02 | lectura   | self-paced |   20min  | Instalación y uso
-| 03 | práctica  | self-paced |   20min  | Ejercicio: Nuestra primera interfaz
-| 04 | seminario | guiado     |   15min  | Re-cap
-| 05 | lectura   | self-paced |   10min  | JSX Basics and expressions
+| 00 | seminario | guiado     |    5min  | Apertura
+| 01 | lectura   | self-paced |    4min  | ¿Qué es React?
+| 02 | lectura   | self-paced |   12min  | Instalación y uso
+| 03 | práctica  | self-paced |   10min  | Ejercicio: Nuestra primera interfaz
+| 04 | lectura   | self-paced |    4min  | JSX Basics and expressions
+| 05 | práctica  | self-paced |   10min  | Ejercicio: Migrar a JSX
 | 06 | lectura   | self-paced |   10min  | Renderizado condicional
 | 07 | lectura   | self-paced |   10min  | Listas y `key`s
-| 08 | seminario | guiado     |   10min  | Cierre
+| 08 | práctica  | self-paced |   10min  | Ejercicio: ???
+| 09 | seminario | guiado     |   40min  | Re-cap
+| 10 | seminario | guiado     |    5min  | Cierre
 
-
-### Unidad 02: [Proyecto: Kickstart, QA y Hackeo](02-workshop)
+### Unidad 02: [Proyecto: Kickstart](02-workshop)
 
 Es hora de convertir a tu proyecto en un proyecto React!
 
-Durante la primera hora de esta sesión te encargarás de identificar las tareas
-que tú y tu equipo deben realizar para cumplir con el objetivo del curso. Unas
-vez identificadas estas tareas, las organizarán en el tiempo de duración del
-curso y se las distribuirán de manera equitativa, según un criterio que ustedes
-establezcan y acuerden usar.
-
-Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo que
-nuestro equipo estará a tu disposición para que los bombardees a preguntas y
-solicitudes de recomendaciones.
-
-A partir de ahora comienza a contar el reloj.
+En este primer taller del proyecto nos centraremos en definir el alcance del
+proyecto, organizar los equipos, decidir qué productos construir, e identificar
+las tareas que tú y tu equipo deben realizar para cumplir con el objetivo del
+curso.
 
 ### Unidad 03: [Babel y Webpack](03-babel-and-webpack)
 
@@ -241,8 +235,8 @@ de diseño e implementación de una librería de componentes con React y Redux.
 | 02 | lectura   | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
 | 03 | lectura   | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
 | 04 | lectura   | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
-| 05 | lectura   | self-paced |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
-| 06 | lectura   | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
+| 05 | lectura   | self-paced |   10min  | Ejercicio: Paso 4 - Definición de `actions`
+| 06 | lectura   | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de `reducers`
 | 07 | seminario | guiado     |   10min  | Cierre
 
 ### Unidad 07: [React OOP: ciclo de vida, estado interno y refs](07-oop)
