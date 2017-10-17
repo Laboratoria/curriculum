@@ -38,11 +38,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 #### Opciones
 1. Los _Keys_ de los Objects son equivalente a sus propiedades
-<<<<<<< HEAD
-2. Podemos calcular su longitud con la propiedad `lenght`
-=======
 2. Podemos calcular su longitud con la propiedad `length`
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 3. No es necesario colocar los _Keys_ entre comillas
 4. Podemos incluir una función como propiedad
 
@@ -58,11 +54,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 <solution style="display:none;">1,4</solution>
 
-<<<<<<< HEAD
-### 5) Las propiedades generalmente _\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado y los métodos usualmente _\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado.
-=======
 ### 5) Las propiedades generalmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado y los métodos usualmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado.
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 #### Opciones
 1. nos muestran - conservan
@@ -72,11 +64,7 @@ realmente estás aprendiendo. ¡Mucho éxito!
 
 <solution style="display:none;">3</solution>
 
-<<<<<<< HEAD
-### 6) `toUpperCase()` es _\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `lenght` es _\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado.
-=======
 ### 6) `toUpperCase()` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúscula_ el valor asociado, mientras que `length` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado.
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 #### Opciones
 1. un object - un array
@@ -128,11 +116,7 @@ var questions = [
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso']
-<<<<<<< HEAD
-  ];
-=======
 ];
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```
 
 ¿Cómo obtengo el dato `Lima`?
@@ -153,11 +137,7 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-<<<<<<< HEAD
-  }
-=======
 };
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```
 
 ¿Cómo accedo a la propiedad `director`?
@@ -176,19 +156,11 @@ var movie = {
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-<<<<<<< HEAD
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  oscar: 1,
-  other awards: 'best sound',
-  tags: []
-  }
-=======
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson' ],
   oscar: 1,
   other awards: 'best sound',
   tags: []
 }
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```
 
 #### Opciones
@@ -207,15 +179,9 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-<<<<<<< HEAD
-  }
-  
-  console.log(movie.stars[2]);
-=======
 };
 
 console.log(movie.stars[2]);
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```
 
 #### Opciones
@@ -234,11 +200,7 @@ var movie = {
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
-<<<<<<< HEAD
-  }
-=======
 };
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 ```
 
 ¿cómo podemos acceder a la lista de _keys_ del Objeto `movie`?
@@ -259,11 +221,7 @@ var movie = {
 
 <solution style="display:none;">1</solution>
 
-<<<<<<< HEAD
-### 15) `Git` es un _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-=======
 ### 15) `Git` es un \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 #### Opciones
 1. Sistema de código en línea
@@ -283,11 +241,7 @@ var movie = {
 
 <solution style="display:none;">1</solution>
 
-<<<<<<< HEAD
-### 17) Por medio de _\_\_\_\_\_\_\_\_\_\_\_\_ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que _\_\_\_\_\_\_\_\_\_\_\_\_ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
-=======
 ### 17) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que \_\_\_\_\_\_\_\_\_\_\_\_\_ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto.
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 #### Opciones
 1. `add` - `update`
@@ -532,11 +486,7 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 ```js
 function objectToArray(object) {
 
-<<<<<<< HEAD
-  var items    = Object.keys(object);
-=======
   var items = Object.keys(object);
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
   var newArray = [];
 
   for (var i = 0; i < items.length; i++) {
@@ -568,11 +518,7 @@ console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 
 <solution style="display:none;">2</solution>
 
-<<<<<<< HEAD
-### 33) Los algoritmos nos permiten comunicar _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
-=======
 ### 33) Los algoritmos nos permiten comunicar \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
->>>>>>> eea199e78469cff33fe330813116e076e0f5ace0
 
 #### Opciones
 1. diferentes funciones
