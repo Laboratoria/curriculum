@@ -1,7 +1,7 @@
 # Eventos
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -171,5 +171,3 @@ ejemplo sobre la interacción con los eventos.
 
 Finalmente, te adjuntamos el [link](https://developer.mozilla.org/es/docs/Web/Reference/Events)
 de la documentación oficial explicando todo acerca de eventos:
-
-***
