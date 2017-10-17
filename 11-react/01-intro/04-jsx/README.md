@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `10min`
+* Duración: `4min`
 
 ***
 
@@ -17,7 +17,8 @@ como escribir `HTML`.
 
 ## Migrando a JSX
 
-Por ejemplo, si tomamos el siguiente código de la lección anterior:
+Continuando con el ejemplo con el que empezamos esta unidad, nuestra primera
+implementación del componente `Cabecera` era algo así:
 
 ```js
 function Cabecera(props) {
@@ -41,7 +42,7 @@ ReactDOM.render(
 
 Con `JSX` lo expresaríamos de la siguiente manera:
 
-```js
+```jsx
 function Cabecera(props) {
   const titulo = 'Saludo';
 
@@ -67,10 +68,10 @@ Mucho más elegante, ¿verdad?
 
 ## Expresiones
 
-Fíjate como injectamos [expresiones `javascript`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
+Fíjate como injectamos [expresiones JavasScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
 dentro de nuestros tags, usando llaves (`{}`), en este caso `titulo`:
 
-```js
+```jsx
 const titulo = 'Saludo';
 
 return (
@@ -80,74 +81,6 @@ return (
 )
 ```
 
+Una expresión es básicamente cualquier unidad de código que resuelva a un valor.
 Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`,
-`formatDate(new Date())`
-
-## Ejercicio: Migrar a JSX
-
-Nuestro primer paso será configurar nuestra página, para que comience a entender
-`JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir
-una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y
-crearemos nuestro `script`, con una anotación especial, para que `babel`
-entienda que es su responsabilidad procesarlo.
-
-Entoces, necesitamos agregar la siguiente dependencia
-
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
-```
-
-Y anotar nuestro tag `script`, como type `text/babel`
-
-```html
-<script type="text/babel">
-  // aqui el codigo de tus componentes
-</script>
-```
-
-Si refrescas tu página, nada debería haber cambiado, ya que todo el código ES5
-es compatible con ES6.
-
-Terminada la configuración, ahora nuestra tarea será deshacernos de todas las
-referencias a `React.DOM` y las llamadas directas a nuestros componentes,
-reemplazando todas ellas por código `JSX`.
-
-Entonces, por ejemplo, el siguiente código
-
-```js
-function Header(props) {
-  return DOM.header(null,
-    DOM.h1(null, props.titulo),
-    DOM.p(null, props.descripcion)
-  )
-}
-```
-
-se convierte en
-
-```js
-function Header(props) {
-  return (
-    <header>
-      <h1>{props.titulo}</h1>
-      <p>{props.descripcion}</p>
-    </header>
-  )
-}
-```
-
-y
-
-```js
-const articles = props.articles.map(function(it) {
-  return Article(it)
-})
-```
-
-se convierte en
-
-```js
-const children = props.articles.map(function(a) {
-  return <Article titulo={a.titulo} descripcion={a.descripcion} />
-})
-```
+`formatDate(new Date())`.

@@ -69,8 +69,8 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 ### Semana 1
 
 * **Sesión 1: presencial 3h**
-  - Unidad 1: Intro a _React y JSX_ (1.7h)
-  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (1.3h)
+  - Unidad 1: Intro a _React y JSX_ (2h)
+  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (1.1h)
 * Sesión 2: webinar 1h
   - Unidad 3: _Babel y Webpack_ (1h)
 
@@ -82,7 +82,7 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   - Solucionario de Unidad 4: _Componentes_ (45h)
   - Unidad 5: _Proyecto_: Revisión de código, Hackeo y QA (2h)
 * Sesión 4: webinar 1h
-  - Unidad 6: _Estado global_ (1.3h)
+  - Unidad 6: _Estado global_ (1.2h)
 
 ### Semana 3
 
@@ -92,7 +92,7 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   - Solucionario de Unidad 7: _React OOP_: ciclo de vida, estado interno y refs (1h)
   - Unidad 8: _Proyecto_: Revisión de código y QA (2h)
 * Sesión 6: webinar 1h
-  - Unidad 9: _build y deploy_ scripts (35min)
+  - Unidad 9: _build y deploy_ scripts (40min)
 
 ### Semana 4
 

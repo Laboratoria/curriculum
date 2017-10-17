@@ -2,11 +2,12 @@
 
 * Tipo: `práctica`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `10min`
 
 ***
 
-Convierte la siguiente pagina HTML a una pagina que utilize integramente React.
+Convierte la siguiente página HTML a una pagina que utilice integramente
+`React` y `ReactDOM`.
 
 ```html
 <!DOCTYPE html>

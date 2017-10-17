@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `12min`
 
 ***
 
@@ -38,7 +38,7 @@ En este ejemplo, éste será nuestro `html` base:
 > de arriba. Según vayamos avanzando modifica el código y ejecútalo para ver los
 > resultados en tu navegador.
 
-Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del
+Como vimos anteriormente, `React` tiene su propia **"copia inteligente"** del
 `DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada
 cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor
 (`container`). Generalmente utilizamos un elemento `div` con un `id` que nos
@@ -58,7 +58,7 @@ permita identificarlo unívocamente.
 </body>
 ```
 
-Como con cualquier otra librería (por ejemplo `jquery`), antes de poder utilizar
+Como con cualquier otra librería (por ejemplo `jQuery`), antes de poder utilizar
 `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
 una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1)
 y referenciar localmente los scripts; o, como haremos nosotros en este ejemplo,
@@ -232,17 +232,15 @@ ReactDOM.render(
 );
 ```
 
-## Ejercicios
+## Ejemplos
 
 Y por último te dejamos 2 ejemplos más entrenidos para que analices cómo
-funcionan. Al final de la lección veremos cuánto has entendido de ellos.
+funcionan. Copia o escribe el código de cada ejemplo en tu editor favorito,
+ejecútalo, juega y añade `console.log`s para ver qué está ocurriendo. Toma nota
+de tus preguntas para compartirlas con el resto de la clase más adelante en
+el solucionario de esta unidad.
 
-Recuerda utilizar los recursos recomendados:
-
-* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
-* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
-
-### [L01.1] Elementos nativos anidados
+### Elementos nativos anidados
 
 ```html
 <body>
@@ -281,7 +279,7 @@ Recuerda utilizar los recursos recomendados:
 </body>
 ```
 
-### [L01.2] Renderizado dinámico con atributos
+### Renderizado dinámico con atributos
 
 ```html
 <body>
@@ -323,3 +321,8 @@ Recuerda utilizar los recursos recomendados:
   </script>
 </body>
 ```
+
+## Referencias
+
+* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
+* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
