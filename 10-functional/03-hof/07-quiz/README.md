@@ -8,11 +8,7 @@
 
 ## Preguntas
 
-<<<<<<< HEAD
-### Una función de orden superior es ...
-=======
 ### Una función de orden superior es
->>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 #### Opciones
 
@@ -23,11 +19,7 @@
 
 <solution style="display:none;">1,4</solution>
 
-<<<<<<< HEAD
-### Dada la siguiente función ...
-=======
 ### Dada la siguiente función
->>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
 
 ```js
 const foo = bar => baz => baz.filter(item => item === bar).shift();
