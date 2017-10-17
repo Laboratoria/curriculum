@@ -163,13 +163,35 @@
 
 <solution style="display:none;">2</solution>
 
-### 13) Sintaxis de los atributos data
+### 13) El método addEventListener nos sirve para
 
 #### Opciones
 
-  1. var data = "valor"
-  2. data-nombreAsignado="valor"
-  3. data="valor"
-  4. nombreAsignado-Datos(valor)
+  1. Crear un elemento
+  2. Crear una clase desde el DOM
+  3. Crear un evento
+  4. Crear un nodo texto
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">3</solution>
+
+### 14) ¿Cuántos métodos define el BOM para manipular la ventana?
+
+#### Opciones
+
+  1. 1
+  2. 2
+  3. 3
+  4. 4
+
+<solution style="display:none;">4</solution>
+
+### 15) Selecciona los objetos del BOM
+
+#### Opciones
+
+  1. Location
+  2. Screen
+  3. HTMLtags
+  4. Navigator
+
+<solution style="display:none;">1,2,4</solution>
