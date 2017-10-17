@@ -1,8 +1,10 @@
 # Browser Object Model (BOM)
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
+
+***
 
 ## Objetivos de Aprendizaje
 
@@ -42,5 +44,3 @@ Algunas de esas propiedades a modificar por el BOM son las siguientes:
 - El objeto [Navigator](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_navigator.html)
 
 - El objeto [screen](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_screen.html)
-
-***

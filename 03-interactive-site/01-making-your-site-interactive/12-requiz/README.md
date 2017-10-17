@@ -17,25 +17,26 @@
 
 #### Opciones
 
-  1. Nodos `meta` dentro de `head`
-  2. Nodos script dentro de `body`
-  3. Los nodos `head` y `body`
-  4. No es padre de ningún nodo
+1. Nodos `meta` dentro de `head`
+2. Nodos script dentro de `body`
+3. Los nodos `head` y `body`
+4. No es padre de ningún nodo
 
 <solution style="display:none;">3</solution>
 
 ### 2) Propiedades de los nodos del DOM
 
 #### Opciones
-  1. `nodeName`
-  2. `nodeClass`
-  3. `nodeType`
-  4. `nodeValue`
-  5. `nodeID`
+
+1. `nodeName`
+2. `nodeClass`
+3. `nodeType`
+4. `nodeValue`
+5. `nodeID`
 
 <solution style="display:none;">1,3,4</solution>
 
-### 3) Para el siguiente elemento.
+### 3) Para el siguiente elemento
 
 ```html
     <p id="paragraph">Hola, soy un párrafo sensual</p>
@@ -59,14 +60,15 @@
         var paragraph = document.getElementById('paragraph');
         paragraph.backgroundColor='red';
    ```
-
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
+
 ```javascript
-    var elementos = document.getElementsByClassName('unaClase');
-    console.log(elementos);
+var elementos = document.getElementsByClassName('unaClase');
+console.log(elementos);
 ```
+
 #### Opciones
   1. Arreglo de nodos HTML con la clase `unaClase`;
   2. Arreglo con el valor de texto contenido dentro de todos los elementos
@@ -77,20 +79,24 @@
 <solution style="display:none;">1</solution>
 
 ### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
+
 #### Opciones
-  1. `.querySelector();`
-  2. `.getElementsByClassName();`
-  3. `.lastChild();`
-  4. `.getElementsByTagName();`
+
+1. `.querySelector();`
+2. `.getElementsByClassName();`
+3. `.lastChild();`
+4. `.getElementsByTagName();`
 
 <solution style="display:none;">4</solution>
 
-### 6) ¿Qué función utilizamos para crear animaciones con JS ?
+### 6) ¿Qué función utilizamos para crear animaciones con JS?
+
 #### Opciones
-  1. `location.href`
-  2. `setTimeout();`
-  3. `setInterval();`
-  4. `confirm();`
+
+1. `location.href`
+2. `setTimeout();`
+3. `setInterval();`
+4. `confirm();`
 
 <solution style="display:none;">3</solution>
 
@@ -108,14 +114,16 @@
 ### 8) ¿Cómo puedo obtener la URL de la página anterior a la que estoy en este momento?
 
 #### Opciones
-  1. `document.referrer`
-  2. `document.URL`
-  3. `document.title`
-  4. `document.lastModified`
+
+1. `document.referrer`
+2. `document.URL`
+3. `document.title`
+4. `document.lastModified`
 
 <solution style="display:none;">1</solution>
 
 ### 9) ¿Qué método utilizamos para agregar a `listaDeCompras`, un nuevo elemento llamado `elementoLista`?
+
 ```html
   <ul id="listaDeCompras">
     <li>Leche Deslactosada</li>
@@ -124,20 +132,23 @@
     <li>Moras</li>
   </ul>
 ```
+
 #### Opciones
-  1. document.createTextNode(elementoLista);
-  2. listaDeCompras.appendChild(elementoLista);
-  3. listaDeCompras.getElementByName('elementoLista');
+
+1. document.createTextNode(elementoLista);
+2. listaDeCompras.appendChild(elementoLista);
+3. listaDeCompras.getElementByName('elementoLista');
 
 <solution style="display:none;">2</solution>
 
-### 10) ¿Qué evento se desencadena al seleccionar el texto de un input o textarea ?
+### 10) ¿Qué evento se desencadena al seleccionar el texto de un input o textarea?
+
 #### Opciones
 
-  1. onclick
-  2. onselect
-  3. onmouseover
-  4. ondblclick
+1. onclick
+2. onselect
+3. onmouseover
+4. ondblclick
 
 <solution style="display:none;">2</solution>
 

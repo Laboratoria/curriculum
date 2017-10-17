@@ -1,7 +1,7 @@
 # Casos prácticos (videos)
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ## Objetivos
@@ -149,6 +149,14 @@ Algo asi:
 
 ![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
 
+#### 6. Mini Zoo
+
+Esta página permite elegir efectos como **sepia**, **blanco y negro** e **invertir colores** que deseamos que obtengan nuestras imágenes.
+Deberás replicarla usando DOM y CSS.
+
+Veamos como debe quedar la página...
+![Mini Zoo](https://fotos.subefotos.com/33a270779462a9ffe98ae8c2b528087co.gif)
+
 ## Solucionarios
 
 A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
@@ -174,4 +182,6 @@ los ejercicios anteriores.
 
 [![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
 
-***
+#### 6. Mini Zoo
+
+<https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>

@@ -1,7 +1,7 @@
 # Document Object Model (DOM)
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos de Aprendizaje
@@ -9,10 +9,15 @@
 En ésta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve?
-- Pedir elementos del DOM usando selectores (getElementById, getElementsByClassName,etc)
+- Pedir elementos del DOM usando selectores (getElementById,
+  getElementsByClassName, etc)
 - Recorrer elementos del DOM usando padres o hijos (firstChild, parentNode, etc)
 - Saber usar:
   * `document.getElementById()`
+  * `document.getElementsByTagName()`
+  * `document.getElementsByClassName()`
+  * `document.querySelector()`
+  * `document.querySelectorAll()`
   * `firstChild`
   * `lastChild`
   * `parentNode`
@@ -21,10 +26,6 @@ En ésta unidad aprenderemos:
   * `previousElementSibling`
   * `nextElementSibling`
   * `nextSibling`
-  * `getElementsByTagName`
-  * `.getElementsByClassName`
-  * `querySelector()`
-  * `querySelectorAll()`
   * `childNodes`
 
 ***
@@ -45,40 +46,36 @@ tienen __propiedades y métodos__. Dichos objetos se organizan en una estructura
 de árbol, donde el propio documento HTML es la raíz del árbol de todos los
 nodos.
 
-  Pagina Web (1)| Árbol de Nodos DOM (2)
+Página Web (1)| Árbol de Nodos DOM (2)
 -- | --
-![Imagen x][x] | ![Imagen y][y]  |
+![Página web][x] | ![DOM][y]  |
 
- [x]:https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png
+[x]:https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png
 
- [y]:https://preview.ibb.co/drvdxQ/representaciondom.png
+[y]:https://preview.ibb.co/drvdxQ/representaciondom.png
 
 En el esquema anterior (2) , cada rectángulo representa un nodo (objeto) DOM, y
 las flechas indican las relaciones familiares (padre - hijos - hermanos) entre
-nodos.
-
-Si, los nodos tienen relaciones familiares.
-
-Así como tú tienes hermanos, padre o hijos, __los nodos del DOM
-también tienen una relación familiar__.
+nodos. Sí, los nodos tienen relaciones familiares. Así como tú tienes hermanos,
+padre o hijos, **los nodos del DOM también tienen una relación familiar**.
 
 ### Relación Padres e hijos
 
-#### Analizemos esta imagen
+#### Analicemos esta imagen
 
-![alt text](https://www.w3schools.com/js/pic_htmltree.gif)
+![DOM Tree](https://www.w3schools.com/js/pic_htmltree.gif)
 
 - La raíz del árbol de nodos de cualquier página web siempre es la misma:
-  ___Un nodo llamado document___ que es el objeto `padre` de los objetos
+  **Un nodo llamado document** que es el objeto `padre` de los objetos
   restantes.
 
-- El nodo ___html___ es el `padre` de los objetos o nodos ___head y body___
-  (pero __hijo__ del nodo __document__ ).
+- El nodo **html** es el `padre` de los objetos o nodos **head** y **body**
+  (pero **hijo** del nodo **document**).
 
-- El objeto o nodo ___body___ es el `padre` de el __a__ y el __h1__, por lo
-  tanto estas etiquetas son `hijos` del  nodo ___body___.
+- El objeto o nodo **body** es el `padre` de el **a** y el **h1**, por lo
+  tanto estas etiquetas son `hijos` del  nodo **body**.
 
-- El nodo de texto ___"My header"___ es `hijo` del nodo ___h1___.
+- El nodo de texto **My header** es `hijo` del nodo **h1**.
 
 #### Relación hermanos
 
@@ -87,29 +84,29 @@ Analizando la misma imagen de arriba.
 - Los nodos `hermanos` hacen referencia a los nodos que tiene el mismo padre, es
   decir, son nodos del mismo nivel en el árbol del DOM.
 
-- Los objetos o nodos ___head y body___ son `hermanos`, cuyo padre es el objeto
-  o nodo ___html___.
+- Los objetos o nodos **head** y **body** son `hermanos`, cuyo padre es el objeto
+  o nodo **html**.
 
-- el nodo de texto ___My link___ y el nodo ___attribute___ son nodos `hermanos`
-  , cuyo padre es el objeto o nodo ___a___
+- El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`,
+  cuyo padre es el objeto o nodo **a**.
 
 ### Los 2 tipos de nodos mas usados
 
 Como podrás notar, la transformación de la página web en un árbol DOM genera
-dos tipos de nodos : el primero es ___`"nodo de tipo elemento"`___ y
-corresponde a una etiqueta HTML y el segundo es ___`"nodo de tipo texto"`___
-que contiene el texto encerrado por una etiqueta HTML.
+dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una
+etiqueta HTML y el segundo es `nodo de tipo texto` que contiene el texto
+encerrado por una etiqueta HTML.
 
 Así, la siguiente etiqueta HTML:
 
 ```html
-<title>Pagina Sencilla</title>
+<title>Página Sencilla</title>
 ```
 
-genera los siguientes nodos:
+Genera los siguientes nodos:
 
-- ___`nodo de tipo elemento`___ por la `etiqueta title`
-- ___`nodo de tipo texto`___ por el texto `"Página Sencilla"`
+- `Nodo de tipo elemento` por la etiqueta `title`.
+- `Nodo de tipo texto` por el texto `"Página Sencilla"`
 
 Por lo tanto se tiene 1 nodo de tipo elemento y 1 nodo de tipo texto
 
@@ -123,12 +120,12 @@ De la misma manera, la etiqueta HTML:
 
 genera los siguientes nodos:
 
-- ___`nodo de tipo elemento`___ correspondiente a la etiqueta `p`.
-- ___`nodo de tipo texto`___  por el contenido textual `"Esta página es"`
-- como el contenido de la etiqueta p incluye en su interior una `etiqueta
-  strong`, esta se trasnforma en un ___`nodo de tipo elemento`___ .
-- finalmente, el contenido textual se convierte en un ___`nodo de tipo texto`___
-  por el texto `"muy sencilla"`
+- `Nodo de tipo elemento` correspondiente a la etiqueta `p`.
+- `Nodo de tipo texto`  por el contenido textual `"Esta página es"`.
+- Como el contenido de la etiqueta p incluye en su interior una `etiqueta
+  strong`, esta se trasnforma en un `nodo de tipo elemento`.
+- Finalmente, el contenido textual se convierte en un `nodo de tipo texto`
+  por el texto `"muy sencilla"`.
 
 Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
 
@@ -152,18 +149,18 @@ indicados a continuación:
 
 | Nombre del Nodo | Significado  | Tipo de Nodo |
 | :------- | :------: | -----: |
-| ELEMENT_NODE | Nodo del tipo [Element]  | 1   |
-| ATTRIBUTE_NODE   | Nodo del tipo [Attr]     | 2 |
-| TEXT_NODE | Nodo del tipo [Text]  | 3 |
-| CDATA_SECTION_NODE   | Nodo del tipo CDATASection  | 4 |
-| ENTITY_REFERENCE_NODE   | Nodo del tipo EntityReference    | 5 |
-| ENTITY_NODE  | Nodo del tipo Entity   | 6 |
-| PROCESSING_INSTRUCTION_NODE   | Nodo del tipo ProcessingInstruction   | 7 |
-| COMMENT_NODE   | Nodo del tipo [Comment]     | 8 |
-| DOCUMENT_NODE   | Nodo del tipo [Document]    | 9 |
-| DOCUMENT_TYPE_NODE  | Nodo del tipo DocumentType    | 10 |
-| DOCUMENT_FRAGMENT_NODE   | Nodo del tipo DocumentFragment     | 11 |
-| NOTATION_NODE   |  Nodo del tipo Notation   | 12 |
+| ELEMENT_NODE | Nodo del tipo `Element`  | 1   |
+| ATTRIBUTE_NODE   | Nodo del tipo `Attr`     | 2 |
+| TEXT_NODE | Nodo del tipo `Text`  | 3 |
+| CDATA_SECTION_NODE   | Nodo del tipo `CDATASection`  | 4 |
+| ENTITY_REFERENCE_NODE   | Nodo del tipo `EntityReference`    | 5 |
+| ENTITY_NODE  | Nodo del tipo `Entity`   | 6 |
+| PROCESSING_INSTRUCTION_NODE   | Nodo del tipo `ProcessingInstruction`   | 7 |
+| COMMENT_NODE   | Nodo del tipo `Comment`     | 8 |
+| DOCUMENT_NODE   | Nodo del tipo `Document`    | 9 |
+| DOCUMENT_TYPE_NODE  | Nodo del tipo `DocumentType`    | 10 |
+| DOCUMENT_FRAGMENT_NODE   | Nodo del tipo `DocumentFragment`     | 11 |
+| NOTATION_NODE   |  Nodo del tipo `Notation`   | 12 |
 
 de dicha lista, nos concentraremos en los cinco nodos más habituales con los
 cuales podremos manipular las páginas Web a través del DOM.
@@ -294,5 +291,3 @@ de la documentación oficial de Mozilla de qué es el DOM
 
 Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
 de cómo acceder a elementos del DOM con JS de la documentación oficial.
-
-***
