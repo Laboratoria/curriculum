@@ -14,7 +14,7 @@ claim(vehicle.motors, __);
 // -> Asigna `4` a `robot.motors`.
 __
 
-// -> Qué son `machine.motors`, `robot.motors` y `vehicle.motors` ahora?
+// -> ¿Qué son `machine.motors`, `robot.motors` y `vehicle.motors` ahora?
 claim(machine.motors, __);
 claim(robot.motors, __);
 claim(vehicle.motors, __);
