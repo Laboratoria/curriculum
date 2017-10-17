@@ -1,0 +1,5 @@
+# Functions.prototype
+
+* Environment: `js`
+
+***
