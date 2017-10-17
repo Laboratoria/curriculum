@@ -40,7 +40,13 @@ Replica las siguiente imagenes poniendo en práctica tus conocimientos de `posit
 Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo:
 [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
-### 4. Tipografías e íconos
+### 4. El tríptico
+
+Replica la siguiente imagen poniendo en práctica tus conocimientos de `float`:
+
+![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
+
+### 5. Tipografías e íconos
 
 Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts
 (sugerencia: Google Fonts). Puedes utilizar las tipografías iconográficas de tu
