@@ -1,4 +1,4 @@
-# Quiz #2
+# Quiz #2: _requizzing_
 
 - Tipo: `quiz`
 - Formato: `guiado`
@@ -13,7 +13,7 @@
 
 ## Preguntas
 
-### 1) El nodo `document`, es `padre` de los objetos o nodos:
+### 1) El nodo `document`, es `padre` de los objetos o nodos
 
 #### Opciones
 
@@ -45,23 +45,24 @@
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
 
 #### Opciones
-
-1. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.background='red';
+  1.
+   ```javascript
+        var paragraph = document.getElementById('paragraph');
+        paragraph.style.background='red';
    ```
-2. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.backgroundColor='red';
+  2.
+  ```javascript
+        var paragraph = document.getElementById('paragraph');
+        paragraph.style.backgroundColor='red';
    ```
-3. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.backgroundColor='red';
+  3.
+  ```javascript
+        var paragraph = document.getElementById('paragraph');
+        paragraph.backgroundColor='red';
    ```
-
 <solution style="display:none;">2</solution>
 
-### 4) `document.getElementsByClassName('unaClase')`, me regresa un:
+### 4) `document.getElementsByClassName('unaClase')`, me regresa un
 
 ```javascript
 var elementos = document.getElementsByClassName('unaClase');
@@ -69,11 +70,11 @@ console.log(elementos);
 ```
 
 #### Opciones
-
-1. Arreglo de nodos HTML con la clase `unaClase`;
-2. Arreglo con el valor de texto contenido dentro de todos los elementos con clase `unaClase`;
-3. Todos los caracteres del string `unaClase`;
-4. Me regresa solo el primer Elemento con clase `unaClase`;
+  1. Arreglo de nodos HTML con la clase `unaClase`;
+  2. Arreglo con el valor de texto contenido dentro de todos los elementos
+     con clase `unaClase`;
+  3. Todos los caracteres del string `unaClase`;
+  4. Me regresa solo el primer Elemento con clase `unaClase`;
 
 <solution style="display:none;">1</solution>
 
@@ -99,15 +100,14 @@ console.log(elementos);
 
 <solution style="display:none;">3</solution>
 
-### 7) ¿Porque es importante el objeto screen?
+### 7) ¿Por qué es importante el objeto screen ?
 
 #### Opciones
-
-1. Conocer resoluciones más utilizadas
-2. Para identificar a un elemento del DOM
-3. Adaptar los diseños a las resoluciones más utilizadas
-4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación del
-   `document`
+  1. Conocer resoluciones más utilizadas
+  2. Para identificar a un elemento del DOM
+  3. Adaptar los diseños a las resoluciones más utilizadas
+  4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
+     del document
 
 <solution style="display:none;">1,3</solution>
 
@@ -151,3 +151,58 @@ console.log(elementos);
 4. ondblclick
 
 <solution style="display:none;">2</solution>
+
+### 11) Para almacenar datos en las etiquetas HTML sin modificar la presentación del documento, usamos
+
+#### Opciones
+
+  1. Atributos data
+  2. Etiquetas semánticas
+  3. Variables
+  4. Datos-HTML
+
+<solution style="display:none;">1</solution>
+
+### 12) Sintaxis de los atributos data
+
+#### Opciones
+
+  1. var data = "valor"
+  2. data-nombreAsignado="valor"
+  3. data="valor"
+  4. nombreAsignado-Datos(valor)
+
+<solution style="display:none;">2</solution>
+
+### 13) El método addEventListener nos sirve para
+
+#### Opciones
+
+  1. Crear un elemento
+  2. Crear una clase desde el DOM
+  3. Crear un evento
+  4. Crear un nodo texto
+
+<solution style="display:none;">3</solution>
+
+### 14) ¿Cuántos métodos define el BOM para manipular la ventana?
+
+#### Opciones
+
+  1. 1
+  2. 2
+  3. 3
+  4. 4
+
+<solution style="display:none;">4</solution>
+
+### 15) Selecciona los objetos del BOM
+
+#### Opciones
+
+  1. Location
+  2. Screen
+  3. HTMLtags
+  4. Navigator
+
+<solution style="display:none;">1,2,4</solution>
