@@ -1,9 +1,5 @@
-const machine = {
-  motors: null
-};
-
+const machine = { motors: null };
 const vehicle = {};
-
 const robot = {};
 
 // -> Let's make machine the prototype of robot and vehicle
@@ -23,5 +19,5 @@ claim(vehicle.motors, null);
 module.exports = {
   machine,
   vehicle,
-  robot
+  robot,
 };
