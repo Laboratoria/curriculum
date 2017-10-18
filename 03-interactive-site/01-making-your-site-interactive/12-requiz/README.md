@@ -45,21 +45,23 @@
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
 
 #### Opciones
-  1.
-   ```javascript
-        var paragraph = document.getElementById('paragraph');
-        paragraph.style.background='red';
-   ```
-  2.
-  ```javascript
-        var paragraph = document.getElementById('paragraph');
-        paragraph.style.backgroundColor='red';
-   ```
-  3.
-  ```javascript
-        var paragraph = document.getElementById('paragraph');
-        paragraph.backgroundColor='red';
-   ```
+
+1.
+ ```javascript
+      var paragraph = document.getElementById('paragraph');
+      paragraph.style.background='red';
+ ```
+2.
+```javascript
+      var paragraph = document.getElementById('paragraph');
+      paragraph.style.backgroundColor='red';
+ ```
+3.
+```javascript
+      var paragraph = document.getElementById('paragraph');
+      paragraph.backgroundColor='red';
+ ```
+
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
@@ -71,11 +73,11 @@ console.log(elementos);
 
 #### Opciones
 
-  1. Arreglo de nodos HTML con la clase `unaClase`;
-  2. Arreglo con el valor de texto contenido dentro de todos los elementos
-     con clase `unaClase`;
-  3. Todos los caracteres del string `unaClase`;
-  4. Me regresa solo el primer Elemento con clase `unaClase`;
+1. Arreglo de nodos HTML con la clase `unaClase`;
+2. Arreglo con el valor de texto contenido dentro de todos los elementos
+   con clase `unaClase`;
+3. Todos los caracteres del string `unaClase`;
+4. Me regresa solo el primer Elemento con clase `unaClase`;
 
 <solution style="display:none;">1</solution>
 
@@ -105,11 +107,11 @@ console.log(elementos);
 
 #### Opciones
 
-  1. Conocer resoluciones más utilizadas
-  2. Para identificar a un elemento del DOM
-  3. Adaptar los diseños a las resoluciones más utilizadas
-  4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
-     del document
+1. Conocer resoluciones más utilizadas
+2. Para identificar a un elemento del DOM
+3. Adaptar los diseños a las resoluciones más utilizadas
+4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
+   del document
 
 <solution style="display:none;">1,3</solution>
 
@@ -191,10 +193,10 @@ console.log(elementos);
 
 #### Opciones
 
-  1. 1
-  2. 2
-  3. 3
-  4. 4
+1. 1
+2. 2
+3. 3
+4. 4
 
 <solution style="display:none;">4</solution>
 
@@ -202,9 +204,9 @@ console.log(elementos);
 
 #### Opciones
 
-  1. Location
-  2. Screen
-  3. HTMLtags
-  4. Navigator
+1. Location
+2. Screen
+3. HTMLtags
+4. Navigator
 
 <solution style="display:none;">1,2,4</solution>
