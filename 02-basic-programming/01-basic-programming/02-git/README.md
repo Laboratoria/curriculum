@@ -20,10 +20,11 @@
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en las siguientes páginas:
+El texto a continuación se basa en gran medida, con ciertos ajustes, en las
+siguientes páginas:
 
-- https://git-scm.com/book/en/v2
-- https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro
+- [Pro Git book](https://git-scm.com/book/en/v2)
+- [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
 
 ***
 
@@ -31,15 +32,23 @@ El texto a continuación se basa en gran medida, con ciertos ajustes, en las sig
 
 `Git` es un `Sistema de Control de Versiones`.
 
-> **¿Qué es el Sistema de Control de Versiones?**  
-  El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante, necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha pasado algo así?:  
-  !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)  
-  Gracias al VCS podemos hacer que eso no suceda debido a que permite:  
-    - Revertir los archivos a un estado anterior.  
-    - Revertir todo el proyecto a un estado anterior.  
-    - Comparar los cambios que se hayan hecho a lo largo del proyecto.  
-    - Ver quién introdujo un cambio o actualizó el archivo y cuándo.  
-    - Y lo más importante, asegura que los archivos no se pierdan.  
+> **¿Qué es el Sistema de Control de Versiones?**
+
+El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que
+registrará los cambios de uno, dos o varios archivos todo el tiempo para que
+si más adelante,necesitamos una versión, podamos recuperarla fácilmente.
+Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha
+pasado algo así?:
+
+!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+
+Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+
+- Revertir los archivos a un estado anterior.
+- Revertir todo el proyecto a un estado anterior.
+- Comparar los cambios que se hayan hecho a lo largo del proyecto.
+- Ver quién introdujo un cambio o actualizó el archivo y cuándo.
+- Y lo más importante, asegura que los archivos no se pierdan.
 
 Ahora bien, `Git` nos ayudará a guardar y diferenciar todos los cambios que
 haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
@@ -57,10 +66,11 @@ En resumen, `Git` piensa en tus archivos como un flujo de "imágenes". Por eso,
 a cada cambio que vayamos realizando le tomará una foto en el instante que le
 indiquemos y todo eso lo almacenará en un `repositorio local`.
 
-**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento
-de trabajar con Git:**  
+**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de
+ trabajar con Git**
 
-- Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia a los archivos y a sus versiones que se encuentran en nuestro equipo.
+- Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
+  a los archivos y a sus versiones que se encuentran en nuestro equipo.
   Aquí encontraremos dos partes muy importantes.
   - working directory: Es nuestro directorio de trabajo.
   - staging area: Es el espacio en donde se encuentran los archivos a los que `Git` les debe de hacer seguimiento y que en algún momento se convertirán en una nueva versión del proyecto.
@@ -144,13 +154,13 @@ Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
 ¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de `Github`
 creada.
 
-Ahora Michelle, siguiendo los pasos anteriores, creará su cuenta en `Github`.  
+Ahora Michelle, siguiendo los pasos anteriores, creará su cuenta en `Github`.
 
-[![creando cuenta de github](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)  
+[![creando cuenta de github](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
 
 ## ¿Cómo creamos un repositorio remoto en Github?
 
-Sigue los pasos de Michelle para crear un repositorio en `Github`:  
+Sigue los pasos de Michelle para crear un repositorio en `Github`:
 
 [![Creando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
@@ -171,49 +181,49 @@ Cuando haya terminado la descarga de nuestro programa comenzaremos con la
 instalación haciendo doble clic en el archivo que se acaba de descargar y luego
 nos aparecerán las siguientes pantallas:
 
-1. Hacemos clic en el botón **Run**  
+1. Hacemos clic en el botón **Run**
 
-  !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)  
-2. Ahora en **Next >**  
+  !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
+2. Ahora en **Next >**
 
-  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)  
+  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
 
-3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones y hacemos clic en **Next >**  
+3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones y hacemos clic en **Next >**
 
-  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)  
+  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
 
-4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows Command Prompt** y hacemos clic en **Next >**  
+4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows Command Prompt** y hacemos clic en **Next >**
 
-  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)  
+  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
 
-5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)  
+5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)
 
-  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)  
+  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
 
-6. Elegimos la primera opción y seguimos  
+6. Elegimos la primera opción y seguimos
 
-  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)  
+  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
 
-7. Nos aseguramos de escoger la opción **Use MinTTY**  
+7. Nos aseguramos de escoger la opción **Use MinTTY**
 
-  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)  
+  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
 
-8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**  
+8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**
 
-  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)  
+  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
 
-9. Ahora comenzará a instalarse  
+9. Ahora comenzará a instalarse
 
-  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)  
+  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
 
 10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish**
 
-  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)  
+  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
 
 ### ¿Qué es Git Bash?
 
 Cuando terminemos de instalar `Git`, en nuestras nuevas aplicaciones
-encontraremos una que se llama `Git Bash`.  
+encontraremos una que se llama `Git Bash`.
 
 En el sistema operativo Windows, debido a que el Command Prompt (o terminal de
 Windows) no es muy amigable y no soporta comandos UNIX, `Git` nos proporciona
@@ -318,7 +328,7 @@ abajo habrá un video de Michelle utilizándolos.
 
 - `commit`: Con `commit` **confirmaremos** los archivos que declaramos como
   preparados con el comando anterior (`add`) .Con los archivos confirmados se
-  creará una nueva versión del proyecto.  
+  creará una nueva versión del proyecto.
   La estructura del comando es la siguiente:
 
   ```text
@@ -406,7 +416,7 @@ abajo habrá un video de Michelle utilizándolos.
   En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como
   **origin** y la rama en la que estamos trabajando se llama **master**, el
   comando sería:
-  
+
   ```text
   $ git pull origin master
   ```

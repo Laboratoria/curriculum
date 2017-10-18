@@ -12,7 +12,6 @@ Qué conocimientos previos se necesitan?
 
 ## Aprenderás
 
-
 ## Detalles logísticos
 
 * Self-paced: x hrs

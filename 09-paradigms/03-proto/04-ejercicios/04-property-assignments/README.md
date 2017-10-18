@@ -27,7 +27,7 @@ Las propiedades nuevas o actualizadas son asignadas al objeto, no a su
 prototipo. Ten en cuenta que la propiedad `kind` ahora existe tanto en `alien`
 como en `zippy`.
 
-# Desafío
+## Desafío
 
-El 'boilerplate' con las instrucciones y los lugares donde añadir tu código
+El 'boilerplate' tiene las instrucciones y los lugares donde añadir tu código
 debidamente señalados.
