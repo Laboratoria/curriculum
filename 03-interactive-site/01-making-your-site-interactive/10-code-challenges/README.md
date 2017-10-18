@@ -91,7 +91,7 @@ imagen anterior nos daremos cuenta que los objetos presentes son los siguientes:
 Además es importante identificar propiedades asociadas a estos objetos así como
 las  principales funciones  presentes. A continuación presentamos la interfaz
 del código de estos objetos y funciones.
-}
+
 ```js
 var maze = {
     matrix: undefined, // representa el mapa del laberinto
