@@ -61,7 +61,6 @@
       var paragraph = document.getElementById('paragraph');
       paragraph.backgroundColor='red';
  ```
-
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
@@ -84,7 +83,6 @@ console.log(elementos);
 ### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
 
 #### Opciones
-
 1. `.querySelector();`
 2. `.getElementsByClassName();`
 3. `.lastChild();`
@@ -95,7 +93,6 @@ console.log(elementos);
 ### 6) ¿Qué función utilizamos para crear animaciones con JS?
 
 #### Opciones
-
 1. `location.href`
 2. `setTimeout();`
 3. `setInterval();`
@@ -160,10 +157,10 @@ console.log(elementos);
 
 #### Opciones
 
-  1. Atributos data
-  2. Etiquetas semánticas
-  3. Variables
-  4. Datos-HTML
+1. Atributos data
+2. Etiquetas semánticas
+3. Variables
+4. Datos-HTML
 
 <solution style="display:none;">1</solution>
 
@@ -171,10 +168,10 @@ console.log(elementos);
 
 #### Opciones
 
-  1. var data = "valor"
-  2. data-nombreAsignado="valor"
-  3. data="valor"
-  4. nombreAsignado-Datos(valor)
+1. var data = "valor"
+2. data-nombreAsignado="valor"
+3. data="valor"
+4. nombreAsignado-Datos(valor)
 
 <solution style="display:none;">2</solution>
 
@@ -182,10 +179,10 @@ console.log(elementos);
 
 #### Opciones
 
-  1. Crear un elemento
-  2. Crear una clase desde el DOM
-  3. Crear un evento
-  4. Crear un nodo texto
+1. Crear un elemento
+2. Crear una clase desde el DOM
+3. Crear un evento
+4. Crear un nodo texto
 
 <solution style="display:none;">3</solution>
 
