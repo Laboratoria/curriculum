@@ -9,9 +9,9 @@
 ## Objetivos
 
 - Conocer el outline del `Sprint 1: Programación Básica con JavaScript`
-  Objetivos del curso y temas a aprender
-  ¿Por qué vamos a aprender esto?
-  Productos a desarrollar
+  * Objetivos del curso y temas a aprender
+  * ¿Por qué vamos a aprender esto?
+  * Productos a desarrollar
 - Conocer el gamification: puntos técnicos y de habilidades socio-emocionales
   de este sprint
 - Conocer los alcances e incentivos del curso: duración, unidades a completar,
