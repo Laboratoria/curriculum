@@ -38,7 +38,7 @@ const listItems = numbers.map((number) =>
 );
 ```
 
-Luego incluimos toda el array `listItems` dentro de un elemento `<ul>` y lo
+Luego incluimos todo el array `listItems` dentro de un elemento `<ul>` y lo
 renderizamos en el DOM:
 
 ```js
@@ -48,7 +48,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
 
 ## Componente Lista Básico
 
@@ -103,7 +103,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
 
 ## Keys
 
@@ -219,7 +219,11 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
 
 Como regla general considera que los elementos dentro de un `map()` siempre
 necesitan keys.
+
+> Más adelante en el curso veremos algunas características de ES6 que, sumadas a
+`JSX`, nos permitirán desarrollar nuestra aplicaciones, de una manera mucho mas
+"natural".

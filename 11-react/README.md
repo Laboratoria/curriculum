@@ -144,9 +144,8 @@ componentes "de verdad".
 | 05 | práctica  | self-paced |   10min  | Ejercicio: Migrar a JSX
 | 06 | lectura   | self-paced |   10min  | Renderizado condicional
 | 07 | lectura   | self-paced |   10min  | Listas y `key`s
-| 08 | práctica  | self-paced |   10min  | Ejercicio: ???
-| 09 | seminario | guiado     |   40min  | Re-cap
-| 10 | seminario | guiado     |    5min  | Cierre
+| 08 | seminario | guiado     |   40min  | Re-cap
+| 09 | seminario | guiado     |    5min  | Cierre
 
 ### Unidad 02: [Proyecto: Kickstart](02-workshop)
 
