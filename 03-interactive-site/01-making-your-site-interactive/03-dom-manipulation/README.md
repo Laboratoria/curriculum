@@ -465,19 +465,29 @@ function myMove() {
 
 Podemos ver este ejercicio en el siguiente [link](https://codepen.io/Si7v4n4/pen/OjdZer)
 
-###Detalle de javascript para animaciones
-Con DOM y Javascript tenemos varias formas de ejecutar código o programar su ejecución, ahora veremos con más detalles las funciones que nos permiten esto. Hay que recordar que incluso las funciones podemos guardarlas como variables, así como también podemos pasarlas como parámetros de otras funciones.
+### Detalle de javascript para animaciones
+Con DOM y Javascript tenemos varias formas de ejecutar código o programar su
+ejecución, ahora veremos con más detalles las funciones que nos permiten esto.
+Hay que recordar que incluso las funciones podemos guardarlas como variables,
+así como también podemos pasarlas como parámetros de otras funciones.
 
-####setInterval
-Nos permite ejecutar una función cada cierto tiempo, como si fuera un metrónomo. El tiempo se mide en milisegundos (1 segundo = 1000 milisegundos) y es el segundo parámetro de setInterval, donde el primero es la función que queremos que se ejecute en cada momento.
+#### setInterval
+Nos permite ejecutar una función cada cierto tiempo, como si fuera un 
+metrónomo. El tiempo se mide en milisegundos (1 segundo = 1000 milisegundos) y
+es el segundo parámetro de setInterval, donde el primero es la función que 
+queremos que se ejecute en cada momento.
 
 ```javascript
     setInterval(miFuncion, 500);
 ```
 
-En general usaremos tiempos más bajos, comunmente se usa 15ms o 16ms ya que así estaremos dividiendo 1 segundo entre 60, que es lo más utilizado en videojuegos y nos dará aproximadamente 60 cuadros (o frames) por segundo.
+En general usaremos tiempos más bajos, comunmente se usa 15ms o 16ms ya que así
+estaremos dividiendo 1 segundo entre 60, que es lo más utilizado en videojuegos
+y nos dará aproximadamente 60 cuadros (o frames) por segundo.
 
-El problema con setInterval es que quedará andando hasta la infinidad, para resolver esto necesitamos usar otra función llamada clearInterval, para ello guardaremos como variable nuestro setInterval : 
+El problema con setInterval es que quedará andando hasta la infinidad, para 
+resolver esto necesitamos usar otra función llamada clearInterval, para ello 
+guardaremos como variable nuestro setInterval : 
 
 ```javascript
     var miIntervalo = setInterval(miFuncion, 500);
@@ -487,8 +497,10 @@ El problema con setInterval es que quedará andando hasta la infinidad, para res
     clearInterval(miIntervalo);
 ```
 
-####setTimeout
-A diferencia de setInterval, esta función solo ejecutará UNA y solo una vez la función que le demos como parámetro. El tiempo que le ingresamos también es medido en milisegundos.
+#### setTimeout
+A diferencia de setInterval, esta función solo ejecutará UNA y solo una vez la
+función que le demos como parámetro. El tiempo que le ingresamos también es 
+medido en milisegundos.
 
 ```javascript
     setTimeout(miFuncion, 500);
@@ -504,7 +516,9 @@ Al igual que setInterval, también puedes cancelar la ejecución de setTimeout :
     clearTimeout(miTimeout);
 ```
 
-Puedes combinar a través de varias funciones y combinación de setTimeout y setInterval animaciones que se ejecutan una o varias veces y controlar su acción.
+Puedes combinar a través de varias funciones y combinación de setTimeout y
+setInterval animaciones que se ejecutan una o varias veces y controlar su 
+acción.
 
 Muchos de los conceptos fueron tomados de las siguientes referencias:
 
@@ -515,7 +529,5 @@ Muchos de los conceptos fueron tomados de las siguientes referencias:
 - [http://www.codexexempla.org/curso/curso_4_3_d.php](http://www.codexexempla.org/curso/curso_4_3_d.php)
 - [https://www.w3schools.com/js/js_htmldom_animate.asp](https://www.w3schools.com/js/js_htmldom_animate.asp)
 - [https://developer.mozilla.org/es/docs/Referencia_DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Importancia_de_los_tipos_de_datos#Interfaces_esenciales_en_el_DOM)
-- [https://www.w3schools.com/jsref/met_win_setinterval.asp]
-(https://www.w3schools.com/jsref/met_win_setinterval.asp)
-- [https://www.w3schools.com/jsref/met_win_settimeout.asp]
-(https://www.w3schools.com/jsref/met_win_settimeout.asp)
+- [https://www.w3schools.com/jsref/met_win_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+- [https://www.w3schools.com/jsref/met_win_settimeout.asp](https://www.w3schools.com/jsref/met_win_settimeout.asp)
