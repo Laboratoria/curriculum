@@ -15,12 +15,12 @@
 ***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+capítulo 4 de [Eloquent JavaScript](<http://eloquentjavascript.net/>),de Marijn
 Haverbeke, 2014. Traducción en [Español]
-(http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3 y 4
-de [JavaScript for kids]
-(http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+(<http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html>)
+disponible gracias a [hectorip](<http://hectorip.github.io>), y del capítulo 3
+y 4 de [JavaScript for kids]
+(<http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf>),
 Nick Morgan, 2015.
 
 ***
@@ -105,7 +105,7 @@ en el fondo, **los métodos son propiedades que continenen funciones** - y las
 funciones se "llaman" o "invocan". Tiene sentido, ¿cierto? Las propiedades nos
 _**dicen**_ algo sobre el valor asociado y los métodos usualmente _**hacen**_
 algo sobre el valor asociado. Los métodos logran _**hacerlo**_ gracias a que
-contienen funciones.  
+contienen funciones.
 
 Cuando llamamos el método `push` dos cosas suceden. Primero, el elemento que
 colocamos entre paréntesis (en el ejemplo anterior, el `string` "último
@@ -142,7 +142,7 @@ investigar por tu cuenta y aprender a utilizar.
 - `lastIndexOf()`
 
 Recuerda que para tu investigación te recomendamos la información que ofrece la
-[MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+[MDN sobre arrays](<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>).
 También puedes buscar en Google e ir experimentando con la consola tú misma
 viendo cómo se comporta cada método. Te sugiero que abras la consola, crees un
 `array` cualquiera y vayas probando lo que aprendes para garantizar que
@@ -150,11 +150,12 @@ entiendes como funcionan las cosas.
 
 Recuerda también que puedes explorar otras formas de autoaprendizaje:
 
-* Busca otros recursos en la web. Uno muy bueno es stackoverflow. En español
-suele haber menos contenido de calidad, así que quizás tengas que apoyarte con
-el traductor de Google.
-* Consulta con una compañera de clases
-* Consulta con una amiga (o amigo) que sepa de programación :)
+- Busca otros recursos en la web. Uno muy bueno es stackoverflow. En español
+  suele haber menos contenido de calidad, así que quizás tengas que apoyarte con
+  el traductor de Google.
+- Consulta con una compañera de clases
+- Consulta con una amiga (o amigo) que sepa de programación :)
+
 ***
 _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos
 anteriores. Lo que continúa de este curso se construye sobre estos conceptos,
@@ -203,7 +204,7 @@ adelante. Por ahora lo importante es saber que, así como los `strings` y
 `arrays` tienen tanto **propiedades** como **métodos**, lo mismo sucede con los
 `objects`. Y recuerda: las propiedades nos _**dicen**_ algo sobre el valor
 asociado y los métodos usualmente _**hacen**_ algo sobre el valor asociado. Los
-métodos logran _**hacerlo**_ gracias a que contienen funciones.  
+métodos logran _**hacerlo**_ gracias a que contienen funciones.
 
 ### ¿La longitud de un object?
 
@@ -266,8 +267,10 @@ console.log(questions);
 // → (4) [Array(2), Array(2), Array(2), Array(2)]
 
 console.table(questions);
+
 ```
-![example array print](https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png)
+
+![example array print](<https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png>)
 
 ```jsn
 var weblogs = [
@@ -281,4 +284,5 @@ console.log(weblogs);
 
 console.table(weblogs);
 ```
-![example object print](https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png)
+
+![example object print](<https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png>)
