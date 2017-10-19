@@ -86,17 +86,19 @@ tu desempeño personal.
 
 Para determinar el puntaje de tu equipo/producto contaremos con sesiones
 períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el dia de la demo, donde será evaluado por el
+desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
 Tu desempeño personal estará determinado por tu participación dentro de las
 sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
-contestando preguntas), etc.
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
 
 Todos los equipos deberán exponer sus resultados durante el día de la demo,
 independientemente del estado de completitud del producto. Aquellos equipos que
 no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Producto
 
