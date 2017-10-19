@@ -182,6 +182,7 @@ Cuando haya terminado la descarga de nuestro programa comenzaremos con la
 instalación haciendo doble clic en el archivo que se acaba de descargar y luego
 nos aparecerán las siguientes pantallas:
 git
+
 1. Hacemos clic en el botón **Run**
 
   !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
