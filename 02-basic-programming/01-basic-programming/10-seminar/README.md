@@ -39,12 +39,12 @@
    + `Object.keys`
 
 5. Repasemos qué es un `algoritmo`. Revisar los conceptos clave del [video
-  sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM). Hacer
-  dinámica de seguir instrucciones para preparar un sandwich de jamón y queso.
+   sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM). Hacer
+   dinámica de seguir instrucciones para preparar un sandwich de jamón y queso.
 
 6. Repasemos, por medio de un ejemplo, el workflow de git y los comandos
-  esenciales: `init`, `add`, `commit`, `push`, `pull`, `status`
+   esenciales: `init`, `add`, `commit`, `push`, `pull`, `status`
 
 7. Revisemos los [ejercicios guiados](12-guided-exercises) que resolveremos en
-  la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos
-  un par de tips :)
+   la próxima clase para que intentes resolverlos por tu cuenta primero. Veamos
+   un par de tips :)
