@@ -1,0 +1,5 @@
+# Object.assign()
+
+* Environment: `js`
+
+***

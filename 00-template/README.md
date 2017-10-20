@@ -56,8 +56,6 @@ básico. Ante la duda no dudes en preguntar ;-)
 
 ### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
 
-Duración estimada: Xmin
-
 NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
 necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
 mismo) ni el tiempo que de hecho le lleve a cada una.
@@ -80,15 +78,16 @@ _unidad_. Algo como esto:
 | 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
 
 ### Unidad 02: [Taller de implementación 1 - Proyecto](02-workshop)
+<<<<<<< HEAD
 
 Duración estimada: 3h
+=======
+>>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
 
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...
 
 ### Unidad 03: [Otra unidad](03-another-unit)
-
-Duración estimada: 1h
 
 Un párrafo que describa lo que va a ocurrir durante esta unidad... seguido de
 una tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
@@ -107,14 +106,10 @@ esto:
 
 ### Unidad 04: [Taller de implementación 2 - Proyecto](04-workshop)
 
-Duración estimada: 3h
-
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...
 
 ### Unidad 05: [Demos de proyectos](05-demos)
-
-Duración estimada: 1h
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 

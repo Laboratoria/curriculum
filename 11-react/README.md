@@ -17,12 +17,11 @@ tecnología** para desarrollar interfaces, no importa si es una página web
 estática, una single-page app, una aplicación de escritorio o una aplicación
 móvil.
 
-En este curso continuarás con el video juego que construimos en el curso
-anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
-funcionalidad como "high scores", ...
+En este curso continuarás construirás un Single Page App (SPA), usando React,
+JSX, Babel, Webpack y Redux.
 
-***Tags***: `react`, componentes, `ui`, `stateless`, `HOCs`, `babel`,
-encapsulamiento, modularización, `jsx`
+***Tags***: `react`, `components`, `ui`, `stateless`, `HOCs`, `babel`,
+`encapsulamiento`, `modularización`, `jsx`, `webpack`, `redux`
 
 ## Público objetivo
 
@@ -37,10 +36,10 @@ Para poder llevar adelante este curso sin frustración, es recomendable los
 siguientes conocimientos previos:
 
 * Manejo de línea de comandos (\*nix) y git
-* Javascript functional: es5, inmutabilidad, node y npm
+* JavaScript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
 
-También debes haber completado el curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional).
+También debes haber completado el curso **JavaScript Funcional**.
 
 ## Aprenderás
 
@@ -85,39 +84,42 @@ En este curso no tendremos exámenes, tu puntaje final será conformado en un 60
 por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
 tu desempeño personal.
 
-Para determinar el puntaje de tu equipo / producto contaremos con sesiones
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
 períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el dia de la demo, donde será evaluado por el
+desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
 Tu desempeño personal estará determinado por tu participación dentro de las
 sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
-contestando preguntas), etc.
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
 
 Todos los equipos deberán exponer sus resultados durante el día de la demo,
 independientemente del estado de completitud del producto. Aquellos equipos que
 no hayan completado sus productos, tendrán un período de gracia para hacerlo.
 
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
+
 ## Producto
 
-Convertir video juego del curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional)
-en una single app con las siguientes extensiones:
+Durante este curso construirás un "Single page app" con las siguientes
+características:
 
-* Texto de introducción al juego
-* High-scores
-* ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
-
-Y además deberá contar con los siguientes requermientos técnicos:
-
-* Estar desarrollada íntegramente en es6 y react, y empaquetada de manera
-  automatizada con `babel` o `webpack`
+* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
+  con `babel` o `webpack`
+* Utilizando `React` y `Redux`
+* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
+  no atomicos (JSON) y 3 actions
 * Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
   empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Github pages
 * Haber administrado y documentado todo el proceso de creación de la aplicación
   en github.
 * Al día de la demo, la aplicación deberá estar publicada en una URL accesible
   universalmente.
+* No es necesario implementar rutas
+* No es necesario implementar persistencia
+* No es necesario implementar conexiones remotas
 
 ## Syllabus
 
@@ -132,66 +134,48 @@ por defecto.
 
 En esta unidad también introduciremos `JSX`, qué beneficios introduce, por qué
 es una pieza fundamental de `React`. Además construiremos nuestros primeros
-componentes "de verdad". La duración estimada de esta unidad es de 100min.
+componentes "de verdad".
 
 |  # | Tipo      | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 01 | lectura   | self-paced |    5min  | Conceptos básicos de React
-| 02 | lectura   | self-paced |   20min  | Instalación y uso
-| 03 | práctica  | self-paced |   20min  | Ejercicio: Nuestra primera interfaz
-| 04 | seminario | guiado     |   15min  | Re-cap
-| 05 | lectura   | self-paced |   10min  | JSX Basics and expressions
+| 00 | seminario | guiado     |    5min  | Apertura
+| 01 | lectura   | self-paced |    4min  | ¿Qué es React?
+| 02 | lectura   | self-paced |   12min  | Instalación y uso
+| 03 | práctica  | self-paced |   10min  | Ejercicio: Nuestra primera interfaz
+| 04 | lectura   | self-paced |    4min  | JSX Basics and expressions
+| 05 | práctica  | self-paced |   10min  | Ejercicio: Migrar a JSX
 | 06 | lectura   | self-paced |   10min  | Renderizado condicional
 | 07 | lectura   | self-paced |   10min  | Listas y `key`s
+| 08 | seminario | guiado     |   40min  | Re-cap
+| 09 | seminario | guiado     |    5min  | Cierre
 
-### Unidad 02: [Proyecto React: Kickstart, QA y Hackeo](02-workshop)
+### Unidad 02: [Proyecto: Kickstart](02-workshop)
 
 Es hora de convertir a tu proyecto en un proyecto React!
 
-Durante la primera hora de esta sesión te encargarás de identificar las tareas
-que tú y tu equipo deben realizar para cumplir con el objetivo del curso. Unas
-vez identificadas estas tareas, las organizarán en el tiempo de duración del
-curso y se las distribuirán de manera equitativa, según un criterio que ustedes
-establezcan y acuerden usar.
-
-Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo que
-nuestro equipo estará a tu disposición para que los bombardees a preguntas y
-solicitudes de recomendaciones.
-
-A partir de ahora comienza a contar el reloj. La duración estimada de esta
-unidad es de 2h.
+En este primer taller del proyecto nos centraremos en definir el alcance del
+proyecto, organizar los equipos, decidir qué productos construir, e identificar
+las tareas que tú y tu equipo deben realizar para cumplir con el objetivo del
+curso.
 
 ### Unidad 03: [Babel y Webpack](03-babel-and-webpack)
 
 Ahora que ya has tenido la oportunidad de ver lo básico de `React` en acción,
 en esta unidad veremos `Babel` y `Webpack`, que son dos herramientas muy
 comunmente usadas junto con `React`. `Babel` nos permite transpilar nuestro
-código y `Webpack` empaquetar nuestra aplicación. La duración estimada de esta
-unidad es de 60min.
+código y `Webpack` empaquetar nuestra aplicación.
 
-|  # | Tipo    | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced |   10min  | Babel basics
-| 02 | lectura | self-paced |    5min  | JSX Externo
-| 03 | lectura | self-paced |   10min  | Precompile
-| 04 | lectura | self-paced |   15min  | Webpack config
-| 05 | lectura | self-paced |   10min  | Modularización
+|  # | Tipo      | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   10min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Babel basics
+| 02 | lectura   | self-paced |    5min  | JSX Externo
+| 03 | lectura   | self-paced |   10min  | Precompile
+| 04 | lectura   | self-paced |   15min  | Webpack config
+| 05 | lectura   | self-paced |   10min  | Modularización
+| 06 | seminario | guiado     |   10min  | Cierre
 
-### Unidad 04: [Proyecto React: Revisión de código, Hackeo y QA](04-workshop)
-
-A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar
-y enfocarte en tu producto.
-
-Durante esta sesión realizaremos nuestra primera revisión del código.
-Identificaremos los retos a resolver durante la siguiente semana y podremos
-hacer todas las preguntas que tengamos al equipo técnico.
-
-Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
-hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
-aplicación verdaderamente profesional. La duración estimada de esta unidad es de
-2h.
-
-### Unidad 05: [Componentes](05-components)
+### Unidad 04: [Componentes](04-components)
 
 Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido
 como especificar nuestras `props` en la signatura misma de nuestros componentes.
@@ -203,6 +187,7 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
 | 01 | lectura   | self-paced |   10min  | Props: `propTypes` y `defaultProps`
 | 02 | práctica  | self-paced |   10min  | Ejercicio: `propTypes` y `defaultProps`
 | 03 | lectura   | self-paced |   10min  | `children` y `React.Children`
@@ -210,17 +195,22 @@ Luego analizaremos la propiedad especial `children` y como manipularla con
 | 05 | seminario | guiado     |   10min  | Re-cap
 | 06 | lectura   | self-paced |   10min  | Higher-order components (HOC)
 | 07 | lectura   | self-paced |   10min  | Componentes presentacionales vs contenedores
+| 08 | seminario | guiado     |   10min  | Cierre
 
-### Unidad 06: [Proyecto React: Revisión de código y QA](06-workshop)
+### Unidad 05: [Proyecto: Revisión de código, Hackeo y QA](05-workshop)
 
-Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
-código, veremos si hemos cumplido o no con lo planeado, y por qué.
+A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar
+y enfocarte en tu producto.
 
-Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
-las tareas que mayor efecto tengan en nuestro producto final. La duración
-estimada de esta unidad es de 60min.
+Durante esta sesión realizaremos nuestra primera revisión del código.
+Identificaremos los retos a resolver durante la siguiente semana y podremos
+hacer todas las preguntas que tengamos al equipo técnico.
 
-### Unidad 07: [Estado global](07-global-state)
+Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
+hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
+aplicación verdaderamente profesional.
+
+### Unidad 06: [Estado global](06-global-state)
 
 Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero
 realmente no ofrece ningún valor diferencial en relación a otras que hacen algo
@@ -240,26 +230,18 @@ Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas
 de diseño e implementación de una librería de componentes con React y Redux. La
 duración estimada de esta unidad es de 60min.
 
-|  # |  Tipo   | Formato    | Duración | Descripción
-|----|---------|------------|----------|------------
-| 01 | lectura | self-paced |   10min  | Redux
-| 02 | lectura | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
-| 03 | lectura | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
-| 04 | lectura | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
-| 05 | lectura | self-paced |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
-| 06 | lectura | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Redux
+| 02 | lectura   | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
+| 03 | lectura   | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
+| 04 | lectura   | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
+| 05 | lectura   | self-paced |   10min  | Ejercicio: Paso 4 - Definición de `actions`
+| 06 | lectura   | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de `reducers`
+| 07 | seminario | guiado     |   10min  | Cierre
 
-### Unidad 08: [Tips para que tu demo sea un éxito](08-workshop)
-
-30min (presencial)
-
-Estés o no acostumbradx a hablar en público, siempre es bueno contar con algunas
-ayudas para no cometer errores comunes a la hora de hacer una presentación.
-
-Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una
-presentación atractiva.
-
-### Unidad 09: [React OOP: ciclo de vida, estado interno y refs](09-oop)
+### Unidad 07: [React OOP: ciclo de vida, estado interno y refs](07-oop)
 
 `React` define sólo 9 métodos muy simples para controlar el ciclo de vida de los
 componentes. En esta lección nos empaparemos de la compacta documentación de
@@ -272,24 +254,23 @@ Y por último veremos casos en los que a dos componentes no les alcanza con
 compartir un estado, sino que necesitan una referencia explícita de uno a otro.
 La duración estimada de esta unidad es de 45min.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |   15min  | Ciclo de vida y estado local
-| 02 | lectura  | self-paced |   10min  | `refs`
-| 03 | práctica | self-paced |   20min  | Ejercicio: cuenta regresiva
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   15min  | Ciclo de vida y estado local
+| 02 | lectura   | self-paced |   10min  | `refs`
+| 03 | práctica  | self-paced |   20min  | Ejercicio: cuenta regresiva
+| 04 | seminario | guiado     |   10min  | Cierre
 
-### Unidad 10: [Proyecto React: Revisión de código y QA](10-workshop)
+### Unidad 08: [Proyecto: Revisión de código y QA](08-workshop)
 
-1 (presencial)
+Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
+código, veremos si hemos cumplido o no con lo planeado, y por qué.
 
-Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
-deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
-detalles, enfocado en tu demo.
+Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
+las tareas que mayor efecto tengan en nuestro producto final.
 
-Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo
-técnico, y resolver dudas de último minuto.
-
-### Unidad 11: [build y deploy scripts](11-build-tools)
+### Unidad 09: [build y deploy scripts](09-build-tools)
 
 Durante esta sesión revisaremos unas estrategias sencillas para hacer que tu día
 a día desarrollando tu proyecto, sea un poco más placentero.
@@ -299,17 +280,33 @@ Intentaremos entender qué son las `tasks` (tareas), qué hacen exactamente esta
 desarrollo a la publicación.
 
 Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y
-`github pages` para publicar nuestro código. La duración estimada de esta unidad
-es de 30min.
+`github pages` para publicar nuestro código.
 
-|  # |  Tipo    | Formato    | Duración | Descripción
-|----|----------|------------|----------|------------
-| 01 | lectura  | self-paced |    5min  | Desarrollo, empaquetado y depliegue
-| 02 | práctica | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   10min  | Apertura
+| 01 | lectura   | self-paced |    5min  | Desarrollo, empaquetado y depliegue
+| 02 | práctica  | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
+| 03 | seminario | guiado     |   10min  | Cierre
 
-### Unidad 12: [Día de la demo](12-demos)
+### Unidad 10: [Proyecto: Revisión de código, QA y Tips para demos](10-workshop)
 
-2h (presencial)
+Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
+deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
+detalles, enfocado en tu demo.
+
+Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo
+técnico, y resolver dudas de último minuto.
+
+|  # |  Tipo     | Formato | Duración | Descripción
+|----|-----------|---------|----------|------------
+| 00 | seminario | guiado  |   10min  | Apertura
+| 01 | taller    | guiado  |   45min  | Revisión de código
+| 02 | taller    | guiado  |   45min  | QA
+| 03 | seminario | guiado  |   30min  | Tips para que tu demo sea un éxito
+| 04 | seminario | guiado  |   10min  | Cierre
+
+### Unidad 11: [Día de la demo](11-demos)
 
 Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos
 para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para
