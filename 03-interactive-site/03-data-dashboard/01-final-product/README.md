@@ -2,7 +2,7 @@
 
 - Tipo: `practice`
 - Formato: `self-paced`
-- Duración: `1440min`
+- Duración: `24h`
 
 ## Objetivos
 
@@ -28,19 +28,24 @@ continuación:
 2. Crea un tablero de organización de tareas y obtén feedback de tu `Training
    Manager`
 3. Desarrolla el producto en base a [este diseño](https://marvelapp.com/104ejifg/screen/33742285)
-4. Despliega tu repositorio a GH Pages explicando en que consiste el reto en tu
+4. Despliega tu repositorio a GH Pages explicando en qué consiste el reto en tu
    archivo `README.md`
 
 ## Entregables
 
 1. Tablero de organización de tareas
 2. Repositorio del producto funcional desplegado en GH Pages
+3. Entrevista técnica
 
-## Tips
+## Hacker Edition
 
-A continuación un video de Michelle con algunos tips de ayuda para construir
-este producto. Uno de ellos, muy importante, es una breve introducción a
-[Google Charts](https://developers.google.com/chart/interactive/docs/).
+¿Terminaste el desarrollo del producto? ¿Te gustaría hacer que las imágenes de
+las gráficas, sean reales en base a la data que tienes? Te invitamos a que lo
+hagas real :) Esto te otorgará 15% extra sobre tu evaluación ;)
+
+Pero no te preocupes, no estás sola. A continuación un video de Michelle con
+algunos tips de ayuda para construir este producto. Uno de ellos, muy importante,
+es una breve introducción a [Google Charts](https://developers.google.com/chart/interactive/docs/).
 
 [![Tips Data Dashboard](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
 
@@ -59,6 +64,7 @@ Los siguientes criterios serán considerados para evaluar tu trabajo:
 | Funcionalidad del producto | 25% | Profe JS
 | Limpieza de código (1) | 15% | Profe JS
 | Entrevista técnica (2) | 25% | Profe JS
+| Hacker Edition | 25% | Profe JS
 
 - (1) Consiste en tomar en cuenta buenas prácticas en tu código como indentación,
   declaración de variables, consistencia, nombres de funciones, etc.
