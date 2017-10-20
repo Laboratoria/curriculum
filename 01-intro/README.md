@@ -81,19 +81,19 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 
 | # | Tipo | Tópico
 | - | ---- | ------
-| 00 | lectura | [Recap](03-control-flow/01-recap.md)
-| 01 | lectura | [Apertura](03-control-flow/02-opening.md)
-| 02 | lectura | [Estructuras condicionales y repetitivas](03-control-flow/03-conditionals-and-loops.md)
-| 02 | lectura | [Casos Prácticos](03-control-flow/04-practical-cases.md)
-| 03 | lectura | [Funciones](03-control-flow/05-functions.md)
-| 05 | cuestionario | [Quiz 1](03-control-flow/06-quiz-1.md)
-| 06 | seminario | [Revisión de conceptos](03-control-flow/07-lecture.md)
-| 07 | taller | [Ejercicios guiados](03-control-flow/08-guided-exercises.md)
-| 08 | práctica | [Retos de código](03-control-flow/09-code-challenges.md)
-| 09 | taller | [Solucionario retos de código](03-control-flow/10-solutions-code-challenges.md)
-| 10 | cuestionario | [Requiz](03-control-flow/11-quiz-2.md)
-| 11 | cuestionario | [Auto-evaluación](03-control-flow/12-self-assessment.md)
-| 12 | seminario | [Cierre](03-control-flow/13-closing.md)
+| 01 | lectura | [Recap](03-control-flow/01-recap.md)
+| 02 | lectura | [Apertura](03-control-flow/02-opening.md)
+| 03 | lectura | [Estructuras condicionales y repetitivas](03-control-flow/03-conditionals-and-loops.md)
+| 04 | lectura | [Casos Prácticos](03-control-flow/04-practical-cases.md)
+| 05 | lectura | [Funciones](03-control-flow/05-functions.md)
+| 06 | cuestionario | [Quiz 1](03-control-flow/06-quiz-1.md)
+| 07 | seminario | [Revisión de conceptos](03-control-flow/07-lecture.md)
+| 08 | taller | [Ejercicios guiados](03-control-flow/08-guided-exercises.md)
+| 09 | práctica | [Retos de código](03-control-flow/09-code-challenges.md)
+| 10 | taller | [Solucionario retos de código](03-control-flow/10-solutions-code-challenges.md)
+| 11 | cuestionario | [Requiz](03-control-flow/11-quiz-2.md)
+| 12 | cuestionario | [Auto-evaluación](03-control-flow/12-self-assessment.md)
+| 13 | seminario | [Cierre](03-control-flow/13-closing.md)
 
 ***
 

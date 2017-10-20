@@ -1,7 +1,7 @@
 # Quiz 2: requizzing
 
-- Tipo: `quiz`
-- Formato: `guided-learning`
+- Tipo: `cuestionario`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos
