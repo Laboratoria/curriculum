@@ -1,7 +1,7 @@
 # Repaso de conceptos: Intro JS
 
-* Tipo: `clase presencial`
-* Formato: `guided-learning`
+* Tipo: `seminario`
+* Formato: `guiado`
 * Duración: `100min`
 
 ## Objetivos de Aprendizaje
