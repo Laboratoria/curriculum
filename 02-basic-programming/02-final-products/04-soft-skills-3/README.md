@@ -4,7 +4,7 @@
 - Formato: `guiado`
 - Duración: `180min`
 
--**
+***
 
 ## Objetivos
 
