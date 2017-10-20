@@ -45,21 +45,28 @@
 ### ¿Cómo puedo cambiar el color de fondo de párrafo?
 
 #### Opciones
-  1.
+
+1.
+
    ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.background='red';
    ```
-  2.
+
+2.
+
   ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.backgroundColor='red';
-   ```
-  3.
+  ```
+
+3.
+
   ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.backgroundColor='red';
-   ```
+  ```
+
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
@@ -70,6 +77,7 @@ console.log(elementos);
 ```
 
 #### Opciones
+
   1. Arreglo de nodos HTML con la clase `unaClase`;
   2. Arreglo con el valor de texto contenido dentro de todos los elementos
      con clase `unaClase`;
@@ -78,7 +86,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
+### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo
 
 #### Opciones
 
@@ -103,6 +111,7 @@ console.log(elementos);
 ### 7) ¿Por qué es importante el objeto screen ?
 
 #### Opciones
+
   1. Conocer resoluciones más utilizadas
   2. Para identificar a un elemento del DOM
   3. Adaptar los diseños a las resoluciones más utilizadas

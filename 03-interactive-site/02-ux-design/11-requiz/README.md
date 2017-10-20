@@ -25,7 +25,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 2) Los UX Designers están constantemente conversando y observando a los usuarios para...
+### 2) Los UX Designers están constantemente conversando y observando a los usuarios para
 
 #### Opciones
 
@@ -59,7 +59,7 @@
 
 <solution style="display:none;">5</solution>
 
-### 5) Tener una mentalidad artística y concimientos técnicos sobre los componentes de los productos digitales son características de un  ___________ designer.
+### 5) Tener una mentalidad artística y concimientos técnicos sobre los componentes de los productos digitales son características de un  ___________ designer
 
 #### Opciones
 
@@ -94,7 +94,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) Los siguientes términos: `resolución de problemas`, `entender necesidades`, están más relacionados con:
+### 8) Los siguientes términos: `resolución de problemas`, `entender necesidades`, están más relacionados con
 
 #### Opciones
 
@@ -114,7 +114,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) Son actividades que realiza un UI Designer:
+### 10) Son actividades que realiza un UI Designer
 
 #### Opciones
 

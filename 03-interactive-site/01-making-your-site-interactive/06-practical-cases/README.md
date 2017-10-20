@@ -151,7 +151,8 @@ Algo asi:
 
 #### 6. Mini Zoo
 
-Esta página permite elegir efectos como **sepia**, **blanco y negro** e **invertir colores** que deseamos que obtengan nuestras imágenes.
+Esta página permite elegir efectos como **sepia**, **blanco y negro** e
+**invertir colores** que deseamos que obtengan nuestras imágenes.
 Deberás replicarla usando DOM y CSS.
 
 Veamos como debe quedar la página...
