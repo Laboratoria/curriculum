@@ -23,77 +23,27 @@ Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
 estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
 ante el resto de la clase y así ayudar al resto de tus compañeras.
 
-### 1. Ahorcado
+### 1. Tic Tac Toe
 
-Crea una página web que implemente el juego del Ahorcado. El ahorcado es un
-divertido juego de adivinanzas para dos jugadores (Computador vs Jugador).
-> Jugador 1 -> El computador que verifica la presencia de la letra /
-Jugador 2 -> El que trata de adivinar las letras
+Crea una página web que implemente el juego Tic Tac Toe (también conocido como
+gato, michi, tres en línea, etc). Este es un divertido juego entre dos jugadores
+**X** y **O**, quienes marcan los espacios de un tablero 3x3 alternadamente,
+el ganador es quien primero consigue tener una línea horizontal, vertical o
+diagonal de 3 espacios consecutivos con su elemento.
+Para esto deberás crear el tablero directamente en el archivo html y la
+funcionalidad se desarrollará mediante uso del DOM.
 
-El jugador 1 piensa en una palabra y el jugador 2 trata de adivinar la
-palabra.
+Para desarrollar el juego debemos tener en cuenta ciertos puntos:
 
-- Si el jugador 2 sugiere una letra que aparece en la palabra, el jugador 1
-  la escribe en todas sus posiciones correctas.
-- Si la letra sugerida no aparece en la palabra, el jugador 1 dibuja un
-  elemento de la figura del hombre ahorcado como una marca de conteo,
-  descotando 1 a 1 de tus 14 intentos.
+1. Debes contar con un botón **RESET** para limpiar el tablero y comenzar a
+   jugar desde cero.
+2. Bajo el tablero deberás indicar, al finalizar, que elemento fue el ganador
+   o si se produjo un empate.
+3. Deben poder participar ambos jugadores, por ejemplo: el primer click
+   corresponde al elemento **X** y el siguiente click automáticamente
+   corresponde al elemento **O**, pudiendo así alternarse ambos turnos.
 
-El juego termina cuando:
-
-1. El jugador adivinador completa la palabra, o adivina la palabra completa
-   correctamente
-2. El otro jugador (el computador) completa de dibujar al ahorcado.
-
-![Screen Shot 2017-08-22 at 10.17.30 A](http://4.bp.blogspot.com/-f3eI_WIPxfI/UbPA6edeD-I/AAAAAAAAAuY/nqA-jy2qPFo/s1600/ahorcado.jpg
-)
-
-### Tips para la solución
-
-A continuación, encontrarás tips que podrían ayudarte con la solución, mucha
-suerte!
-
-#### [Tip 1. | Arte ASCII ]
-
-Los gráficos para el Ahorcado son caracteres del teclado impresos en la
-pantalla. Este tipo de gráficos se llama arte ASCII (se pronuncia “asqui”)
-y fue una especie de precursor a emojii.
-
-```js
-var figure = [
-   '+------------+      ',
-   '|            |      ',
-   '|           / \\    ',
-   '|           \\ /    ',
-   '|            |      ',
-   '|           /|\\    ',
-   '|          / | \\   ',
-   '|         /  |  \\  ',
-   '|            |      ',
-   '|           / \\    ',
-   '|          /   \\   ',
-   '|         /     \\  ',
-   '+------------------+',
-   '|//////////////////|'
-];
-```
-
-#### [Tip 2. | Flujo del programa ]
-
-Este juego es un poquito más complicado de lo que parece, de modo que tómate
-un momento para pensar cómo implementarlo. Primero necesitarás crear un
-diagrama de flujo  para ayudar a visualizar lo que este programa hará.
-
-Un diagrama de flujo es un diagrama que muestra una serie de pasos como
-recuadros conectados por flechas. Cada recuadro representa un paso, y las
-flechas muestran qué pasos llevan a qué otros pasos.
-
-Por supuesto, no es estrictamente necesario que hagas un diagrama de flujo.
-Podrías simplemente comenzar escribiendo código. Pero a menudo una vez que
-comiences a programar pensarás en cosas que son necesarias agregar o cambiar.
-Podrías terminar teniendo que borrar una gran parte de tu código, lo que
-sería un desperdicio de esfuerzo. Para evitar esto, siempre es mejor planear
-cómo el programa va a funcionar antes de comenzar a escribirlo.
+![Tic Tac Toe](https://d30y9cdsu7xlg0.cloudfront.net/png/25029-200.png)
 
 ### 2. Creando animación en el DOM?
 
@@ -121,3 +71,27 @@ Ahora agregaremos un filtro para seleccionar a las coders dependiendo de su sede
 Al final, deberá quedarte algo así:
 
 ![Nuestras Coders](https://media.giphy.com/media/xT9IgwHr6d1LObJt16/giphy.gif)
+
+### 5. Captcha
+
+En la vida diaria usamos servicios que generan el **CAPTCHA**. 
+El más usado es el de Google, puedes encontrar su documentación [aquí](https://developers.google.com/recaptcha/docs/display?authuser=1).
+Estos CAPTCHA tienen como objetivo final poder identificar si eres o no un
+humano y van cambiando conforme avanza la tecnología.
+
+Inicialmente consistía en un conjunto de imágenes que el usuario debía
+determinar el contenido de las mismas e indicarlo al sistema. Hoy en día
+evalúan tu comportamiento en el navegador, y de tener dudas te pide evaluar un
+conjunto de imágenes mucho más grande.
+
+Armaremos un Captcha (tal cual se muestra en el diseño de abajo), este
+comprobará que el usuario escriba lo mismo que el Captcha que le
+proporcionaremos. El valor ingresado se evaluará al momento de que el usuario
+haga clic en el símbolo **✓** y se generará otro código cuando el usuario haga
+clic en el símbolo **↻**.
+
+Dato: Genera los números y letras de manera random
+
+- [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+![Captcha](https://fotos.subefotos.com/299269b4ed8aac7e0a445f0c76355612o.gif)
