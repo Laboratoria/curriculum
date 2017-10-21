@@ -12,66 +12,114 @@ en la cual la temática la defines tú. Para esto aprenderás a:
 3. Hacer el proceso de desarrollo más rápido y reutilizar código existente en la
    web mediante frameworks de CSS y librerías de JavaScript
 
-Tags: `grid-system`, `web-layouting`, `mobile-first`, `bootstrap`, `jquery`,
-`ux-research`,  `usability`, `firebase`.
-
 ## Público objetivo
 
-Para quién es este curso?
+Este curso está dirigido a estudiantes de Laboratoria. Es el tercer curso
+que se toma como parte del bootcamp.
 
 ## Requerimientos previos
 
-Qué conocimientos previos se necesitan?
+Para llevar este curso debes haber completado los cursos de `programación básica
+con JavaScript` y `haciendo tu sitio web interactivo` de Laboratoria. Se asume
+que las alumnas tienen conocimientos de HTML, CSS, JavaScript y el DOM.
 
 ## Aprenderás
 
-* create-react-app
-* react
-* react-dom
-* redux
-* react-redux
-* redux-thunk
-* redux-saga
-* redux-observable
-* rxjs
-* reselect
-* jest
-* enzyme
+- Cómo estructurar los elementos que tienes en tu página web
+- Hacer tu web adaptable a la pantalla de dispositivos móviles
+- Usar librerías y frameworks existentes para un desarrollo más rápido
 
 ## Producto
 
-Durante este curso construirás un "Single page app" con las siguientes
+Durante este curso construirás una red social con las siguientes
 características:
 
-* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
-  con `babel` o `webpack`
-* Utilizando `React` y `Redux`
-* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
-  no atómicos (JSON) y 3 actions
-* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
-  empaquetar y desplegar la aplicación respectivamente.
-* Despeglado en Github pages
-* Haber administrado y documentado todo el proceso de creación de la aplicación
-  en GitHub.
-* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
-  universalmente.
-* No es necesario implementar rutas
-* No es necesario implementar persistencia
-* No es necesario implementar conexiones remotas
+* Adaptable a la pantalla de un móvil
+* Poder autenticarte a través de Facebook o Google
+* Publicar contenido
+* Comentar en las publicaciones
+* Dar like en las publicaciones
 
 ## Syllabus
 
-### Unidad 01: Web Layouts
+### Unidad 01: La web desde un móvil
 
-* The Single Immutable State Tree
-* Describing State Changes with Actions
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | 30min | Opening
+| 01 | lectura | 15min | Responsive Web Design
+| 02 | lectura | 15min | Layout & Grid System
+| 03 | lectura | 30min | Media Queries
+| 11 | quiz | 30min | Quiz #1
+| 08 | taller | 2h | Clase Práctica
+| 09 | práctica | 8h | Retos
+| 10 | seminario | 2h | Solucionario
+| 11 | quiz | 30min | Quiz #2
+| 12 | cuestionario | 5min | Auto-evaluación
+| 13 | seminario | 2h | Closing
 
-### Unidad 02: Mejora de Usabilidad
+### Unidad 01: No reinventes la rueda
 
-* Creación de equipos
-* Selección de producto
-* Brainstorming, storyboarding
-* Identificación y división de tareas
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | 30min | Opening
+| 01 | lectura | 15min | ¿Qué es un Framework?
+| 02 | lectura | 15min | Materialize
+| 03 | lectura | 30min | ¿Y Bootstrap?
+| 04 | lectura | 30min | ¿Componentes con jQuery?
+| 05 | quiz | 30min | Quiz #1
+| 06 | taller | 2h | Clase Práctica
+| 07 | práctica | 8h | Retos
+| 08 | seminario | 2h | Solucionario
+| 09 | quiz | 30min | Quiz #2
+| 10 | cuestionario | 5min | Auto-evaluación
+| 11 | seminario | 2h | Closing
+
+### Unidad 02: Agiliza tu desarrollo
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | 30min | Opening
+| 01 | lectura | 15min | ¿Qué es una librería?
+| 02 | lectura | 15min | Selectores
+| 03 | lectura | 30min | DOM
+| 04 | quiz | 30min | Quiz #1
+| 05 | seminario | 2h | Clase de Conceptos
+| 06 | taller | 2h | Clase Práctica
+| 07 | práctica | 8h | Retos
+| 08 | seminario | 2h | Solucionario Retos UX
+| 09 | quiz | 30min | Quiz #2
+| 10 | cuestionario | 5min | Auto-evaluación
+| 11 | seminario | 2h | Closing
+
+### Unidad 03: Mejora la usabilidad
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | 30min | Opening
+| 01 | lectura | 15min | Usabilidad
+| 02 | lectura | 15min | Visual Design 101
+| 03 | lectura | 30min | Widgets & Plugins
+| 04 | lectura | 30min | Optimización de experiencia de Usuario
+| 05 | lectura | 30min | Intro a Firebase
+| 06 | quiz | 30min | Quiz #1
+| 07 | seminario | 2h | Clase de Conceptos
+| 08 | taller | 2h | Clase Práctica
+| 09 | práctica | 8h | Retos
+| 10 | seminario | 2h | Solucionario Retos UX
+| 11 | quiz | 30min | Quiz #2
+| 12 | cuestionario | 5min | Auto-evaluación
+| 13 | seminario | 2h | Closing
+
+### Unidad 04: Crea tu propia red social
+
+| # | Tipo | Duración | Tópico
+| - | ---- | -------- | ------
+| 00 | lectura | 30min | Organizando las tareas en equipo
+| 01 | práctica | 30min | Red Social X
+| 02 | taller | 30min | Code Review (Team + Teacher)
+| 03 | taller | 30min | Demo
+| 04 | taller | 2h | Retrospectiva
 
 ## Autor(es) / Colaboradores
 
@@ -82,14 +130,12 @@ características:
 
 ## Libros
 
-Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
+...
 
 ## Benchmarks
 
-* [Getting Started with Redux - egghead.io](https://egghead.io/courses/getting-started-with-redux)
+...
 
 ## Lecturas complementarias
 
-Incluir una lista de capítulos de libros, blog posts, videos, y otros recursos
-como links a wikipedia, documentación, ...
+...
