@@ -45,10 +45,6 @@ vida cotidiana:
    tarjeta de crédito es válida según el
    [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-2. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
-tarjeta de crédito es válida según el
-[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
-
 ## Syllabus
 
 ### Unidad 01: [Bienvenida](00-welcome)

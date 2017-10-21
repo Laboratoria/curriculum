@@ -99,17 +99,7 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
   Laboratoria-MacBook-Air:~ Michelle$
   ```
 
-**Mac OS X**
-
-Launchpad → Terminal
-
-**Linux**
-
-Actividades → Terminal
-
-## Prompt
-
-Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
+## Comandos
 
 Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra".
 Te dejaré una lista de comandos que puedes ejecutar dentro de ella.

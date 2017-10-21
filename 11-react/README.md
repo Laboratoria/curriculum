@@ -183,7 +183,7 @@ En esta lección nos vamos a enfocar la especificación de sus tipos, opcionalid
 y valores por defectos.
 
 Luego analizaremos la propiedad especial `children` y como manipularla con
-`.map` y `.filter`. La duración estimada de esta unidad es de 70min.
+`.map` y `.filter`.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -227,8 +227,7 @@ estado de nuestros componentes con un estado global y disparando cambios de
 manera homogénea a través de acciones con `redux`.
 
 Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas
-de diseño e implementación de una librería de componentes con React y Redux. La
-duración estimada de esta unidad es de 60min.
+de diseño e implementación de una librería de componentes con React y Redux.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -252,7 +251,6 @@ estado propio y encapsulado.
 
 Y por último veremos casos en los que a dos componentes no les alcanza con
 compartir un estado, sino que necesitan una referencia explícita de uno a otro.
-La duración estimada de esta unidad es de 45min.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
