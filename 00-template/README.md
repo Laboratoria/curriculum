@@ -78,11 +78,6 @@ _unidad_. Algo como esto:
 | 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
 
 ### Unidad 02: [Taller de implementación 1 - Proyecto](02-workshop)
-<<<<<<< HEAD
-
-Duración estimada: 3h
-=======
->>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
 
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...

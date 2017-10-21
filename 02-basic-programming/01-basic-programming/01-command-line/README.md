@@ -221,11 +221,7 @@ Si ahora vemos cuál es nuestra ubicación.
   C:\Users\Michelle
 ```
 
-<<<<<<< HEAD
-**Mac OS X y Linux**
-=======
 ### Mac OS X y Linux
->>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
 
 ```text
 $ pwd
@@ -236,17 +232,10 @@ Ya no estaremos dentro de la carpeta "Pictures".
 
 ### Listar los archivos y directorios
 
-<<<<<<< HEAD
-**Windows: `dir`**
-
-Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos
-ejecutado el comando.
-=======
 ### Windows: `dir`
 
 Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos
 ejecutado el comando.
->>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
 
 Por ejemplo, si ejecuto el comando `dir` en "C:\Users\Michelle" me
 aparecerá la lista de los archivos o carpetas que se encuentran en ese
@@ -257,7 +246,6 @@ no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
 ```text
 > dir
   Directory of C:\Users\Michelle
-<<<<<<< HEAD
   19/09/2017  10:40 a. m.    <DIR>          .
   19/09/2017  10:40 a. m.    <DIR>          ..
   12/09/2017  10:13 p. m.               288 .bash_history
@@ -275,34 +263,11 @@ no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
   30/06/2017  08:29 p. m.    <DIR>          Saved Games
   30/06/2017  08:32 p. m.    <DIR>          Searches
   30/06/2017  08:29 p. m.    <DIR>          Videos
-=======
-  19/09/2017  10:40 a. m.    <DIR>          .
-  19/09/2017  10:40 a. m.    <DIR>          ..
-  12/09/2017  10:13 p. m.               288 .bash_history
-  12/09/2017  08:01 p. m.                27 .gitconfig
-  19/09/2017  10:40 a. m.    <DIR>          .vscode
-  30/06/2017  08:29 p. m.    <DIR>          Contacts
-  06/09/2017  09:46 p. m.    <DIR>          Desktop
-  19/09/2017  10:51 a. m.    <DIR>          Documents
-  20/09/2017  11:55 a. m.    <DIR>          Downloads
-  30/06/2017  08:29 p. m.    <DIR>          Favorites
-  12/09/2017  07:02 p. m.    <DIR>          Links
-  30/06/2017  08:29 p. m.    <DIR>          Music
-  12/09/2017  07:02 p. m.    <DIR>          OneDrive
-  20/09/2017  11:55 a. m.    <DIR>          Pictures
-  30/06/2017  08:29 p. m.    <DIR>          Saved Games
-  30/06/2017  08:32 p. m.    <DIR>          Searches
-  30/06/2017  08:29 p. m.    <DIR>          Videos
->>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
               2 File(s)            315 bytes
              15 Dir(s)  223,511,490,560 bytes free
 ```
 
-<<<<<<< HEAD
-**Mac OS X y Linux : `ls`**
-=======
 ### Mac OS X y Linux : `ls`
->>>>>>> bc289b4673abf9d2cf339530fb0f65e1122ac9b4
 
 Al ejecutar `ls` se nos mostrarán los nombres de las carpetas y los archivos
 que existan en el directorio que nos encontremos.
