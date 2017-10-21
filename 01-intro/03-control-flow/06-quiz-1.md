@@ -1,20 +1,23 @@
-# Quiz #1
-- Tipo: `quiz`
-- Formato: `guided-learning`
+# Quiz 1
+
+- Tipo: `cuestionario`
+- Formato: `self-paced`
 - Duración: `30min`
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus conocimientos a prueba. Es una oportunidad para que te calibres y valides que realmente estás aprendiendo. ¡Mucho éxito!
+- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
+  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
+  realmente estás aprendiendo. ¡Mucho éxito!
 
 ***
 
 ## Quiz de conceptos
 
-_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus respuestas._
+_Nota: este quiz sólo puede ser completado una vez y **no** podrás cambiar tus
+respuestas._
 
-Completa el quiz en el siguiente link:
-https://goo.gl/forms/fMFcOMUoR25alsPE2
+Completa el siguiente [quiz](https://goo.gl/forms/fMFcOMUoR25alsPE2)
 
 ***
 [Continuar](07-lecture.md)

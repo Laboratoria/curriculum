@@ -2,7 +2,7 @@
 
 Escriba una función llamada "findShortestWordAmongMixedElements".
 
-Dado un array,"findShortestWordAmongMixedElements" devuelve la cadena más corta dentro del array dado.
+Dado un array, "findShortestWordAmongMixedElements" devuelve la cadena más corta dentro del array dado.
 
 Notas:
 * Si hay vínculos, debería devolver el primer elemento que aparezca en el array dado.
