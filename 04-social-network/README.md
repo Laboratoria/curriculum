@@ -58,7 +58,7 @@ características:
 | 12 | cuestionario | 5min | Auto-evaluación
 | 13 | seminario | 2h | Closing
 
-### Unidad 01: No reinventes la rueda
+### Unidad 02: No reinventes la rueda
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -75,7 +75,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-### Unidad 02: Agiliza tu desarrollo
+### Unidad 03: Agiliza tu desarrollo
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -92,7 +92,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-### Unidad 03: Mejora la usabilidad
+### Unidad 04: Mejora la usabilidad
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -111,7 +111,7 @@ características:
 | 12 | cuestionario | 5min | Auto-evaluación
 | 13 | seminario | 2h | Closing
 
-### Unidad 04: Crea tu propia red social
+### Unidad 05: Crea tu propia red social
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
