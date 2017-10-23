@@ -26,37 +26,37 @@ Además repasaremos conceptos clave del flujo de trabajo de una developer:
 
 1. Entendamos bien los conceptos clave dibujando en la pizarra:
 
-- Variables (tentáculos)
-- Tipos de datos
-- Estructuras repetitivas y condicionales
-- Funciones
-- Input / Output
+   * Variables (tentáculos)
+   * Tipos de datos
+   * Estructuras repetitivas y condicionales
+   * Funciones
+   * Input / Output
 
 2. Por medio de ejemplos en la consola repasemos el funcionamiento de:
 
-- `var`
-- `prompt()`
-- `alert()`
-- `charAt()`
-- `indexOf()`
-- `toUpperCase()`
-- `toLowerCase()`
-- `slice()`
-- `parseInt()`
-- `for`
-- `while`
-- `do`
-- `if...else`
-- `switch`
-- `function`
-- `return`
+   * `var`
+   * `prompt()`
+   * `alert()`
+   * `charAt()`
+   * `indexOf()`
+   * `toUpperCase()`
+   * `toLowerCase()`
+   * `slice()`
+   * `parseInt()`
+   * `for`
+   * `while`
+   * `do`
+   * `if...else`
+   * `switch`
+   * `function`
+   * `return`
 
 3. Entendamos bien el flujo de trabajo de una developer. Por medio de ejemplos,
    repasemos el funcionamiento de:
 
-- La línea de comandos
-- Flujo básico de trabajo con Git y GitHub (`init`, `status`, `add`, `commit`,
-  `push` y `pull`)
+   * La línea de comandos
+   * Flujo básico de trabajo con Git y GitHub (`init`, `status`, `add`, `commit`,
+    `push` y `pull`)
 
 4. Asegurar que las alumnas tienen bien configurado su ambiente de
    trabajo
