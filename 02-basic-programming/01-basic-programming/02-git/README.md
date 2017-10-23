@@ -138,7 +138,7 @@ añadir tu compañero.
 
 Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
 
-1. Debemos de dirigirnos a la página oficial de `Github`: <https://github.com/>
+1. Debemos de dirigirnos a la [página oficial de Github](https://github.com)
 2. Ya en la página, haremos clic en **Sign up**.
 3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
    ejemplo, si tienes un **username** que creaste para un juego online podrías
@@ -181,7 +181,6 @@ es **Windows** debemos descargar e instalar `Git` en nuestro equipo.
 Cuando haya terminado la descarga de nuestro programa comenzaremos con la
 instalación haciendo doble clic en el archivo que se acaba de descargar y luego
 nos aparecerán las siguientes pantallas:
-git
 
 1. Hacemos clic en el botón **Run**
 
