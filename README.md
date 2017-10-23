@@ -366,15 +366,70 @@ Continua son:
 
 Los cursos que se dictan únicamente en Educación Continua son:
 
-### [12. Redux](12-redux)
+### [12. Manejo de estado avanzado con React y Redux](12-redux)
 
-Autor: _M. Crowe / L. Montero_
+Autor: _L. Montero_
 
-TBD (_help needed_)
+[:construction: Este curso está en desarrollo :construction:]
 
-Tags: `react router`, `redux`, `raduim`, ...
+El manejo de estado en una aplicación es crítico, y desgraciadamente muchas
+veces se hace de forma desordenada y sin mucha consistencia. `Redux` nos ofrece
+un contenedor de estado que nos ayudará a manejar el estado de forma más
+consistente y predecible.
 
-### [13. The Web Stack](13-web-stack)
+Durante este curso construirás un _Single Page App_ (SPA) con las siguientes
+características:
+
+* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
+  con `babel` y `webpack`
+* Utilizando `react` y `redux`
+* Con por lo menos 6 componentes que especifiquen todas sus props usando
+  `prop-types`
+* Por lo menos 1 componente _conectado_ al store de `redux`
+* 3 reducers y por lo menos 3 acciones que desencadenen asíncronía (usando
+  `thunk`, `saga` u `observable`).
+* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
+  empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Github pages
+* Haber administrado y documentado todo el proceso de creación de la aplicación
+  en GitHub.
+* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
+  universalmente.
+* No es necesario implementar rutas
+* No es necesario implementar persistencia
+
+Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
+`redux-observable`, `rxjs`, `jest`, `enzyme`
+
+### 13. Construye una aplicación serverless usando Firebase
+
+Autor: TBD (_help needed_)
+
+En este curso construirás una aplicación
+
+Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
+`auth`
+
+### 14. WebOps/DevOps
+
+Autor: TBD (_help needed_)
+
+Application deployment, management, maintenance, configuration and repair.
+
+En este curso construirás una aplicación usando Node.js y MongoDB.
+
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`aws`, `nodejs`, `mongodb`
+
+## 15. Construye un chatbot en la nube
+
+Tags: `bot`, `azure`
+
+## 16. Angular
+
+Tags: `angular`
+
+### [17. The Web Stack](17-web-stack)
 
 Autor: TBD (_help needed_)
 
@@ -389,7 +444,7 @@ aprendido y cómo encajan las diferentes piezas del web stack en el producto.
 
 Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `server`, `client`, ...
 
-### [14. Building HTTP servers with Node.js](14-nodejs)
+### 18. Building HTTP servers with Node.js
 
 Autor: TBD (_help needed_)
 
@@ -403,7 +458,7 @@ algunos endpoints dinámicos que sirvan data en formato JSON.
 
 Tags: `node`, `npm`, `yarn`, `http-server`, `filesystem`, `static-server`, ...
 
-### [15. Modelando y persistiendo data con NoSQL](15-nosql)
+### [19. Modelando y persistiendo data con NoSQL](19-nosql)
 
 Autor: TBD (_help needed_)
 
@@ -419,7 +474,7 @@ sincronizar.
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
 
-### [16. Command Line Foo](16-cli)
+### [20. Command Line Foo](20-cli)
 
 Autor: TBD (_help needed_)
 
@@ -436,53 +491,37 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 17. NodeJS
-
-Autor: TBD (_help needed_)
-
-Tags: `npm`, `http`, `fs`, `path`, `streams`, `express`, `api-development`,
-`deployment`.
-
-### 18. Databases
+### 22. Databases
 
 Autor: TBD (_help needed_)
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-### 19. ME*N Stack
+### 23. ME*N Stack
 
 Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 20. Micro services?
+### 24. Micro services?
 
 Autor: TBD (_help needed_)
 
 Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
 
-### 21. Análisis y visualización de datos
+### 25. Análisis y visualización de datos
 
 Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 22. WebOps/DevOps
-
-Autor: TBD (_help needed_)
-
-Application deployment, management, maintenance, configuration and repair.
-
-Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
-`repair`, `debugging`, ...
-
-### 23. Algoritmos
+### 26. Algoritmos
 
 Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 24. Estructuras de datos
+### 27. Estructuras de datos
 
 Autor: TBD (_help needed_)
 
