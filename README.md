@@ -368,7 +368,7 @@ Los cursos que se dictan únicamente en Educación Continua son:
 
 ### [12. Manejo de estado avanzado con React y Redux](12-redux)
 
-Autor: _L. Montero_
+Autor: [Lupo Montero](https://github.com/lupomontero)
 
 [:construction: Este curso está en desarrollo :construction:]
 
@@ -405,48 +405,29 @@ Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
 
 Autor: TBD (_help needed_)
 
-En este curso construirás una aplicación
+En este curso construirás una aplicación usando Firebase como backend. Tu
+aplicación tendrá las siguientes características:
+
+* Usar autenticación con Firebase
+* Leer y escribir data de la base de datos a tiempo real de Firebase
+* Desplegar por lo menos dos funciones cloud
+* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
+  empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Firebase hosting
+* Haber administrado y documentado todo el proceso de creación de la aplicación
+  en GitHub.
+* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
+  universalmente.
 
 Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
 `auth`
 
-### 14. WebOps/DevOps
+### 14. Despliega aplicaciones Node.js como contenedores en AWS
 
 Autor: TBD (_help needed_)
 
-Application deployment, management, maintenance, configuration and repair.
-
-En este curso construirás una aplicación usando Node.js y MongoDB.
-
-Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
-`aws`, `nodejs`, `mongodb`
-
-## 15. Construye un chatbot en la nube
-
-Tags: `bot`, `azure`
-
-## 16. Angular
-
-Tags: `angular`
-
-### [17. The Web Stack](17-web-stack)
-
-Autor: TBD (_help needed_)
-
-La web es un ecosistema de estándares, protocolos, lenguajes y software. Pocas
-veces nos paramos a pensar en todas las piezas que componen este ecosistema
-vivo, desde el modelo TCP/IP o sistemas operativos, hasta HTML/CSS/JS, pasando
-por DNS, HTTP (servidores, clientes, proxys), URLs, dominios, ...
-
-Al final del curso habrás construido y desplegado una aplicación usando un
-dominio de verdad (?) y presentarás una demo donde explicarás la experiencia, lo
-aprendido y cómo encajan las diferentes piezas del web stack en el producto.
-
-Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `server`, `client`, ...
-
-### 18. Building HTTP servers with Node.js
-
-Autor: TBD (_help needed_)
+En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
+empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
 
 Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
 Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
@@ -456,7 +437,38 @@ permite llevar nuestro conocimiento de JavaScript más allá del navegador.
 En este curso construirás un servidor web que sirva contenido estático además de
 algunos endpoints dinámicos que sirvan data en formato JSON.
 
-Tags: `node`, `npm`, `yarn`, `http-server`, `filesystem`, `static-server`, ...
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`aws`, `nodejs`, `mongodb`, `docker`, `containers`
+
+### 15. Crea un chatbot en la nube y despliégalo en Azure
+
+Autor: TBD (_help needed_)
+
+En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
+Azure.
+
+Tags: `bot`, `azure`
+
+### 16. Construye un juego multijugador con Angular y Firebase
+
+Autor: [Aldo Román](https://github.com/aldo-roman)
+
+Este curso presenta los fundamentos para comprender y utilizar
+[Angular](https://angular.io) como plataforma de desarrollo web.
+
+Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
+
+>  Es una técnica usada por los surrealistas en 1925, (...) en el cual los jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte de la escritura, y después la pasan al siguiente jugador para otra colaboración.
+>
+>  Los teóricos y asiduos al juego (...) sostenían que la creación, en especial la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo posible automática.
+
+El juego consiste en escribir un texto de manera colaborativa.
+Cada jugador escribe un texto corto sin poder ver los textos de los demás jugadores.
+Luego de que todos los jugadores han participado, se unen los textos uno tras otro y se lee el resultado completo.
+
+El backend estará hospedado en [Firebase](https://firebase.google.com/).
+
+Tags: `angular`, `typescript`, `firebase`
 
 ### [19. Modelando y persistiendo data con NoSQL](19-nosql)
 
@@ -491,37 +503,41 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 22. Databases
+### 21. SQL Databases
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-### 23. ME*N Stack
+### 22. ME*N Stack
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 24. Micro services?
+### 24. Análisis y visualización de datos
 
-Autor: TBD (_help needed_)
-
-Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
-
-### 25. Análisis y visualización de datos
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 26. Algoritmos
+### 25. Algoritmos
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 27. Estructuras de datos
+### 26. Estructuras de datos
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
