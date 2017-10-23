@@ -50,13 +50,13 @@ características:
 | 01 | lectura | 15min | Responsive Web Design
 | 02 | lectura | 15min | Layout & Grid System
 | 03 | lectura | 30min | Media Queries
-| 11 | quiz | 30min | Quiz #1
-| 08 | taller | 2h | Clase Práctica
-| 09 | práctica | 8h | Retos
-| 10 | seminario | 2h | Solucionario
-| 11 | quiz | 30min | Quiz #2
-| 12 | cuestionario | 5min | Auto-evaluación
-| 13 | seminario | 2h | Closing
+| 04 | quiz | 30min | Quiz #1
+| 05 | taller | 2h | Clase Práctica
+| 06 | práctica | 8h | Retos
+| 07 | seminario | 2h | Solucionario
+| 08 | quiz | 30min | Quiz #2
+| 09 | cuestionario | 5min | Auto-evaluación
+| 10 | seminario | 2h | Closing
 
 ### Unidad 02: No reinventes la rueda
 
