@@ -28,8 +28,8 @@ compara tus soluciones con las de Lourdes.
 Crea una función que invierta el orden de los elementos de un `array`. Completa
 este reto de dos maneras: en una, el `array` invertido es un _nuevo_ `array`;
 en la segunda, modifica el mismo `array` que se proporciona como argumento.
-Investiga sobre el método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-. ¿Qué puedes concluir?
+Investiga sobre el método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse).
+¿Qué puedes concluir?
 
 ### 2. Search
 
@@ -40,13 +40,13 @@ introducimos el concepto de `algoritmo`. Para entender qué es un algoritmo,
 revisa los siguientes videos:
 
 - [Magic Markers: ¿Qué es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
-- [Kahn Academy: ¿Qué es un algoritmo y por qué debería importarte?](https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
+- [Kahn Academy: ¿Qué es un algoritmo y por qué debería importarte?]
+  (<https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms>)
 
 ### 3. Array to Object
 
 Escribe una función que tome un array 2D y devuelva un objeto con cada par de
-elementos en el `array` como un par _key-value_.
-Por ejemplo:
+elementos en el `array` como un par _key-value_. Por ejemplo:
 
 - Input
 
