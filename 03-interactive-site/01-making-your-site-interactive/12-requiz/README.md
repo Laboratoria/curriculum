@@ -46,26 +46,23 @@
 
 #### Opciones
 
-1.
-
+1. a
    ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.background='red';
    ```
 
-2.
-
-  ```javascript
+2. b
+   ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.style.backgroundColor='red';
-  ```
+   ```
 
-3.
-
-  ```javascript
+3. c
+   ```javascript
         var paragraph = document.getElementById('paragraph');
         paragraph.backgroundColor='red';
-  ```
+   ```
 
 <solution style="display:none;">2</solution>
 
