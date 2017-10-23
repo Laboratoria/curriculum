@@ -103,7 +103,7 @@ una serie común de cursos para todas las alumnas, que forman parte del
 `Common Core`, y luego continúa en uno de dos tracks de especialización:
 `Front-End Developer` y `UX Designer`.
 
-### 02. Programación básica con JavaScript
+### [02. Programación básica con JavaScript](02-basic-programming)
 
 * Track: _Common Core_
 * Autor: _R. Prieto_
@@ -128,7 +128,7 @@ vida cotidiana:
 2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
    el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
-### 03. Creando tu primer sitio web interactivo
+### [03. Creando tu primer sitio web interactivo](03-interactive-site)
 
 * Track: _Common Core_
 * Autor: _Iván Medina & Lalo Gonzalez_
@@ -152,7 +152,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 `positioning`, `problem solving`, `dom`, `eventos`,
 `git`, `unix shell`, `github-pages`, `flows`, `sketching`.
 
-### 04. Crea tu propia red social
+### [04. Crea tu propia red social](04-social-network)
 
 * Track: _Common Core_
 * Autor: _Iván Medina & Lalo Gonzalez_
@@ -169,7 +169,7 @@ Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`,
 Secondary tags: `big-o`, `time-complexity`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `information-architecture`.
 
-### 05. Crea tu propia librería usando JavaScript: JS Deep Dive
+### [05. Crea tu propia librería usando JavaScript: JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 
 * Track: _Front-End Development_
 * Autor: _Belén Recabal & Iván Medina_
@@ -192,7 +192,7 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 `function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
 `apply`, `call`, `bind`, `this`.
 
-### 06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota
+### [06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota](06-spa)
 
 * Track: _Front-End Development_
 * Autor: _Iván Medina_
@@ -359,7 +359,7 @@ consolidar conceptos, o para aquellas personas de otros tracks
 Los cursos que se dictan en el Bootcmap y se vuelven a abrir en Educación
 Continua son:
 
-* [Crea tu propia librería usando JavaScript / JS Deep Dive](09-paradigms)
+* [Crea tu propia librería usando JavaScript / JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 * [Programming Paradigms](09-paradigms)
 * [Functional JavaScript](10-functional)
 * [Introducción a React](11-react)
