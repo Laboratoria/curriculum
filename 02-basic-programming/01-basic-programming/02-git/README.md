@@ -72,10 +72,10 @@ indiquemos y todo eso lo almacenará en un `repositorio local`.
 - Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
   a los archivos y a sus versiones que se encuentran en nuestro equipo.
   Aquí encontraremos dos partes muy importantes.
-  working directory: Es nuestro directorio de trabajo.
-  staging area: Es el espacio en donde se encuentran los archivos a los que `Git`
-  les debe de hacer seguimiento y que en algún momento se convertirán en una nueva
-  versión del proyecto.
+  * working directory: Es nuestro directorio de trabajo.
+  * staging area: Es el espacio en donde se encuentran los archivos a los que `Git`
+    les debe de hacer seguimiento y que en algún momento se convertirán en una nueva
+    versión del proyecto.
 
 - Repositorio remoto: `Git` nos permite sincronizar nuestro repositorio local
   con un repositorio remoto o repositorio en la "nube".
@@ -141,12 +141,12 @@ Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
 1. Debemos de dirigirnos a la página oficial de `Github`: <https://github.com/>
 2. Ya en la página, haremos clic en **Sign up**.
 3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
-  ejemplo, si tienes un **username** que creaste para un juego online podrías
-  usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
-  visible para todo el mundo y puede que te lo pidan en algún momento para
-  añadirte como colaborador de un proyecto, así que ten cuidado con lo que
-  pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
-  haz clic en **Create an account**.
+   ejemplo, si tienes un **username** que creaste para un juego online podrías
+   usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
+   visible para todo el mundo y puede que te lo pidan en algún momento para
+   añadirte como colaborador de un proyecto, así que ten cuidado con lo que
+   pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
+   haz clic en **Create an account**.
 4. En la siguiente pantalla asegúrate de marcar la opción **Unlimited public
   repositories for free**, esta es la versión "free" de `Github`; luego haz
   clic en **continue**.
