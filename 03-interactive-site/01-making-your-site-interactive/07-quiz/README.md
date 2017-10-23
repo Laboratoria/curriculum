@@ -163,29 +163,29 @@
 
 #### Opciones
 
-1.
-  ```javascript
+1. a
+   ```javascript
       var text = document.getElementById("text");
       var autor = autor.dataset;
-  ```
+   ```
 
-2.
-  ```javascript
+2. b
+   ```javascript
       var text = document.getElementById("text");
       var autor = dataset.text.autor;
-  ```
+   ```
 
-3.
-  ```javascript
+3. c
+   ```javascript
       var text = document.getElementById("text");
       var autor = text.dataset.autor;
-  ```
+   ```
 
-4.
-  ```javascript
+4. d
+   ```javascript
       var text = document.getElementById("text");
       var text.dataset = autor;
-  ```
+   ```
 
 <solution style="display:none;">3</solution>
 
@@ -226,29 +226,29 @@
 
 #### Opciones
 
-1.
-  ```javascript
+1. a
+   ```javascript
     var boton = document.getElementById('boton');
     boton.createEventListener(click, funcion_a_ejecutar);
-  ```
+   ```
 
-2.
-  ```javascript
+2. b
+   ```javascript
     var boton = document.getElementById('boton');
     boton.addEventListener = 'click' + 'funcion_a_ejecutar';
-  ```
+   ```
 
-3.
-  ```javascript
+3. c
+   ```javascript
     var boton = document.getElementById('boton');
     boton.addEventListener('click', funcion_a_ejecutar);
-  ```
+   ```
 
-4.
-  ```javascript
+4. d
+   ```javascript
     var boton = document.getElementById('boton');
     boton = document.addEventListener('click', funcion_a_ejecutar);
-  ```
+   ```
 
 <solution style="display:none;">3</solution>
 
