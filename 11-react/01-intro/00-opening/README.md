@@ -60,9 +60,25 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 ## Entregables y evaluación
 
-* **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
-  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
-  immediato, pero los ejercicios en sí no serán calificados.
+En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
+por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
+tu desempeño personal.
+
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
+períodicas de revisión de código durante todo el proceso y luego con el
+desempeño del producto durante el día de la demo, donde será evaluado por el
+equipo técnico y el resto de los equipos.
+
+Tu desempeño personal estará determinado por tu participación dentro de las
+sesiones presenciales, tu actividad en github (escribiendo código, comentando,
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
+
+Todos los equipos deberán exponer sus resultados durante el día de la demo,
+independientemente del estado de completitud del producto. Aquellos equipos que
+no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Hoja de ruta
 
@@ -70,7 +86,7 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 * **Sesión 1: presencial 3h**
   - Unidad 1: Intro a _React y JSX_ (2h)
-  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (1.1h)
+  - Unidad 2: _Proyecto_: Kickstart, QA y Hackeo (1h)
 * Sesión 2: webinar 1h
   - Unidad 3: _Babel y Webpack_ (1h)
 
@@ -79,10 +95,10 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 * Pre-tarea
   - Lecturas y ejercicios de PropTypes y children en Unidad 4: _Componentes_ (60min)
 * Sesión 3: presencial 3h
-  - Solucionario de Unidad 4: _Componentes_ (45h)
+  - Solucionario de Unidad 4: _Componentes_ (1h)
   - Unidad 5: _Proyecto_: Revisión de código, Hackeo y QA (2h)
 * Sesión 4: webinar 1h
-  - Unidad 6: _Estado global_ (1.2h)
+  - Unidad 6: _Estado global_ (1h)
 
 ### Semana 3
 
@@ -92,7 +108,7 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   - Solucionario de Unidad 7: _React OOP_: ciclo de vida, estado interno y refs (1h)
   - Unidad 8: _Proyecto_: Revisión de código y QA (2h)
 * Sesión 6: webinar 1h
-  - Unidad 9: _build y deploy_ scripts (40min)
+  - Unidad 9: _build y deploy_ scripts (1min)
 
 ### Semana 4
 

@@ -6,19 +6,50 @@
 
 ***
 
-Nuestro primer paso será configurar nuestra página, para que comience a entender
-`JSX`. Hay varias formas de hacer esto, pero nosotros lo que haremos es incluir
-una dependencia a un script de `babel`, que entre otras cosas entiende `JSX` y
-crearemos nuestro `script`, con una anotación especial, para que `babel`
-entienda que es su responsabilidad procesarlo.
+Vamos a continuar con el ejercicio anterior, donde contruimos una interfaz
+usando React y ReactDOM a partir de un HTML. En este ejemplo, la _data_ que
+estamos representando en nuestra interfaz se podría organizar de la siguiente
+manera:
 
-Entoces, necesitamos agregar la siguiente dependencia
+```js
+const data = {
+  headerTitulo: 'Getting Started',
+  headerDescripcion: 'Descripcion',
+  mainSectionTitulo: 'Main Section',
+  articles: [
+    { titulo: 'Titulo 1', descripcion: 'Descripcion 1'},
+    { titulo: 'Titulo 2', descripcion: 'Descripcion 2'},
+    { titulo: 'Titulo 3', descripcion: 'Descripcion 3'}
+  ],
+  asideTitulo: 'Links',
+  links: [
+    { href: '#', texto: 'Link 1'},
+    { href: '#', texto: 'Link 2'},
+    { href: '#', texto: 'Link 3'},
+    { href: '#', texto: 'Link 4'},
+    { href: '#', texto: 'Link 5'}
+  ],
+};
+```
+
+El reto ahora es re-escribir la misma página que en el ejercicio anterior,
+usando este objeto de datos como punto de partida, y esta vez haciendo uso
+de JSX en vez de usar `React.DOM.div` y compañía.
+
+Continuando el ejercicio anterior, ahora nos toca configurar la página, para que
+comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que
+haremos es incluir una dependencia a un script de `babel`, que entre otras cosas
+entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para
+que `babel` entienda que es su responsabilidad procesarlo.
+
+Entoces, necesitamos agregar la siguiente dependencia:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
 ```
 
-Y anotar nuestro tag `script`, como type `text/babel`
+Y anotar nuestro tag `script` donde vamos a implementar nuestro código, como
+type `text/babel`:
 
 ```html
 <script type="text/babel">
@@ -46,7 +77,7 @@ function Header(props) {
 
 se convierte en
 
-```jsx
+```js
 function Header(props) {
   return (
     <header>

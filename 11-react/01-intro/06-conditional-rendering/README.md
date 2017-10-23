@@ -47,7 +47,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
 
 Este ejemplo renderiza diferentes mensajes, dependiendo del valor de la prop
 `isLoggedIn`.
@@ -133,7 +133,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
 
 Esto funciona porque en JavaScript los operadores booleanos son *lazy*:
 `true && expression` siempre evalúa a `expression`, y `false && expression`
@@ -190,4 +190,4 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/merunga/pen/QMVPbb?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/merunga/pen/QMVPbb?editors=0010)

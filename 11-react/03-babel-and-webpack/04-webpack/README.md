@@ -30,7 +30,7 @@ grafo de dependencias donde está incluído cada módulo usado, así como todos 
 archivos estáticos referenciados, y crea un único archivo por tipo, con todo lo
 necesario para ejecutar tu aplicación.
 
-![webpack](https://github.com/Laboratoria/curricula-js/raw/11-react-intro/11-react/L02-jsx-babel-webpack/static/images/webpack.jpg)
+![webpack](https://raw.githubusercontent.com/Laboratoria/curricula-js/11-react/11-react/03-babel-and-webpack/static/images/webpack.jpg)
 
 De esta manera proporciona una sola vía para importar y transformar todos los
 recursos de nuestra aplicación, independientemente de si es código `js`, una

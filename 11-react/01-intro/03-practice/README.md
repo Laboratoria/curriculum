@@ -7,7 +7,8 @@
 ***
 
 Convierte la siguiente página HTML a una pagina que utilice integramente
-`React` y `ReactDOM`.
+`React` y `ReactDOM`. Este ejercicio lo puedes realizar en tu editor favorito o
+un entorno web como JS Bin o CodePen.
 
 ```html
 <!DOCTYPE html>

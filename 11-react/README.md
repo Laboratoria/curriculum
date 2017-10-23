@@ -86,17 +86,19 @@ tu desempeño personal.
 
 Para determinar el puntaje de tu equipo/producto contaremos con sesiones
 períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el dia de la demo, donde será evaluado por el
+desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
 Tu desempeño personal estará determinado por tu participación dentro de las
 sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
-contestando preguntas), etc.
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
 
 Todos los equipos deberán exponer sus resultados durante el día de la demo,
 independientemente del estado de completitud del producto. Aquellos equipos que
 no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Producto
 
@@ -144,9 +146,8 @@ componentes "de verdad".
 | 05 | práctica  | self-paced |   10min  | Ejercicio: Migrar a JSX
 | 06 | lectura   | self-paced |   10min  | Renderizado condicional
 | 07 | lectura   | self-paced |   10min  | Listas y `key`s
-| 08 | práctica  | self-paced |   10min  | Ejercicio: ???
-| 09 | seminario | guiado     |   40min  | Re-cap
-| 10 | seminario | guiado     |    5min  | Cierre
+| 08 | seminario | guiado     |   40min  | Re-cap
+| 09 | seminario | guiado     |    5min  | Cierre
 
 ### Unidad 02: [Proyecto: Kickstart](02-workshop)
 
