@@ -94,6 +94,8 @@ separado de tu archivo HTML. Todos los estilos se incluyen en este
 archivo de tipo CSS externo, que las páginas HTML enlazan mediante la
 etiqueta html `<link>`.
 
+Cabe mencionar que este link externo puede ser un archivo que esta en tu computadora o un link de un archivo externo de internet.
+
 En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
 dos archivos:
 
@@ -104,7 +106,10 @@ dos archivos:
 <html>
   <head>
     <title>Entendiendo CSS</title>
+    <!--Link a archivo que esta en la misma computadora-->
     <link rel="stylesheet" href="style.css">
+    <!--Link a archivo que esta en internet -->
+    <link href="http://laboratoria.la/app/assets/css/animate.css" rel="stylesheet">
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -135,7 +140,7 @@ ambiente, simplemente le ponemos el nombre del archivo: `style.css`.
 ## Sintaxis CSS
 
 Como hemos visto en la lección anterior, para especificar el estilo hacemos
-uso de los pares `propiedades-valores`:
+uso de los pares `propiedades : valores`
 
 - Propiedades: son identificadores que indican
   a las personas qué característica de estilo (ancho, color de fondo, fuente)
@@ -295,4 +300,3 @@ utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
-

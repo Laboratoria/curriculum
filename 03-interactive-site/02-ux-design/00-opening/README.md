@@ -59,6 +59,8 @@ que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Qué roles conforman el equipo de desarrollo de un producto digital?
+- ¿Por qué es importante aprender UX?
+- ¿Por qué los usuarios no consumen productos?
 - ¿Cuál es el rol de un UX Designer y cuál el de un UI Designer?
 - ¿Cómo encuentran los usuarios cosas en la web?
 - ¿Qué tipos de navegación existen?

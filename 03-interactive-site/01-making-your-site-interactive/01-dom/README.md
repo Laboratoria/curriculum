@@ -284,7 +284,9 @@ vemos como seleccionar nodos y que es un nodo en el DOM.
 
 Para terminar, Lulú nos ha grabado un video para reforzar los conceptos de DOM.
 
-  [![Repaso DOM](https://img.youtube.com/vi/gJXl5vqzRi0/0.jpg)](https://www.youtube.com/watch?v=gJXl5vqzRi0)
+  [![Repaso DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+
+    [![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
 También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
 de la documentación oficial de Mozilla de qué es el DOM
