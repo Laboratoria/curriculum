@@ -159,7 +159,7 @@ Veamos como debe quedar la página...
 
 ## Solucionarios
 
-A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
+A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
 los ejercicios anteriores.
 
 ### 1. Aerolínea
