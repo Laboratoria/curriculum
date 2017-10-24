@@ -17,9 +17,11 @@ Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
 para resolver problemas.
 
 A continuación tendrás varios problemas que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones
-de Michelle. Después de haberlo intentado, compara tus soluciones
-con las de Michelle.
+resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
+
+Después de haberlo intentado, compara tus soluciones con los videos de abajo.
+
+*NO* antes.
 
 ### 1. Reserva de puestos aerolínea
 
