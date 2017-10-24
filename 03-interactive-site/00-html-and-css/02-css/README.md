@@ -110,6 +110,8 @@ dos archivos:
     <link rel="stylesheet" href="style.css">
     <!--Link a archivo que esta en internet -->
     <link href="http://laboratoria.la/app/assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -140,7 +142,7 @@ ambiente, simplemente le ponemos el nombre del archivo: `style.css`.
 ## Sintaxis CSS
 
 Como hemos visto en la lección anterior, para especificar el estilo hacemos
-uso de los pares `propiedades : valores`
+uso de los pares `propiedades : valores`.
 
 - Propiedades: son identificadores que indican
   a las personas qué característica de estilo (ancho, color de fondo, fuente)
@@ -300,3 +302,4 @@ utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+

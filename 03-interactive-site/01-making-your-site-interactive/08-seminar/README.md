@@ -87,5 +87,6 @@
 
 - Revisemos los ejercicios guiados que resolveremos en la próxima clase para
    que intentes resolverlos por tu cuenta primero.
-
+   
 - Revisar el opening y responder preguntas
+
