@@ -6,7 +6,7 @@
 
 ***
 
-Primero recordemos cómo manipular listas en JavaScript
+Primero recordemos cómo manipular listas en JavaScript.
 
 Dado el código de abajo, usamos la función [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
 para tomar un array de números y duplicarlos. Asignamos el nuevo array resultado
@@ -38,7 +38,7 @@ const listItems = numbers.map((number) =>
 );
 ```
 
-Luego incluimos toda el array `listItems` dentro de un elemento `<ul>` y lo
+Luego incluimos todo el array `listItems` dentro de un elemento `<ul>` y lo
 renderizamos en el DOM:
 
 ```js
@@ -48,7 +48,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
 
 ## Componente Lista Básico
 
@@ -77,8 +77,8 @@ ReactDOM.render(
 
 Cuando ejecutes este código, verás que aparecerá una advertencia en la consola,
 diciendo que deberías proveer un *key* para los items de tu lista. Un "key" es
-un atributo especial que necesitas incluir cuando creas lista de elementos. En
-la próxima sección, veremos por qué es importante hacerlo.
+un atributo especial que necesitas incluir cuando creas una lista de elementos.
+En la próxima sección, veremos por qué es importante hacerlo.
 
 Entonces, asignemos un `key` a los items de nuestra lista dentro de
 `numbers.map()` y asi deshacernos del mensaje.
@@ -103,7 +103,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
 
 ## Keys
 
@@ -219,16 +219,11 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
 
 Como regla general considera que los elementos dentro de un `map()` siempre
 necesitan keys.
 
-## Ejercicio
-
-Ahora ya sabes todo lo que necesitas para sacarle el jugo a JSX. Continua con la
-conversión de todos tus componentes a `JSX`.
-
-> En la próxima lectura veremos algunas características de ES6 que, sumadas a
+> Más adelante en el curso veremos algunas características de ES6 que, sumadas a
 `JSX`, nos permitirán desarrollar nuestra aplicaciones, de una manera mucho mas
 "natural".
