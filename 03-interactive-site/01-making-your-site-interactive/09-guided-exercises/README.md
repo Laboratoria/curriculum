@@ -74,7 +74,7 @@ Al final, deberá quedarte algo así:
 
 ### 5. Captcha
 
-En la vida diaria usamos servicios que generan el **CAPTCHA**. 
+En la vida diaria usamos servicios que generan el **CAPTCHA**.
 El más usado es el de Google, puedes encontrar su documentación [aquí](https://developers.google.com/recaptcha/docs/display?authuser=1).
 Estos CAPTCHA tienen como objetivo final poder identificar si eres o no un
 humano y van cambiando conforme avanza la tecnología.

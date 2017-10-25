@@ -28,10 +28,9 @@
 ### 2) En la siguiente imagen
 
 ```html
-        <body>
-            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
-        </body>
-
+      <body>
+        <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
+      </body>
 ```
 
 ### El texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______
@@ -116,41 +115,41 @@
 
 #### Opciones
 
-  1.
-  ```html
-      <ul>
-        <li data-lista="frutas">Manzana</li>
-        <li data-lista="frutas">Peras</li>
-        <li data-lista="frutas">Fresas</li>
-      </ul>
-  ```
+1. a
+   ```html
+        <ul>
+          <li data-lista="frutas">Manzana</li>
+          <li data-lista="frutas">Peras</li>
+          <li data-lista="frutas">Fresas</li>
+        </ul>
+   ```
 
-  2.
-  ```html
-      <ul>
-        <li data="frutas">Manzana</li>
-        <li data="frutas">Peras</li>
-        <li data="frutas">Fresas</li>
-      </ul>
-  ```
+2. b
+   ```html
+        <ul>
+          <li data="frutas">Manzana</li>
+          <li data="frutas">Peras</li>
+          <li data="frutas">Fresas</li>
+        </ul>
+   ```
 
-  3.
-  ```html
-      <ul>
-        <li data-lista-frutas>Manzana</li>
-        <li data-lista-frutas>Peras</li>
-        <li data-lista-frutas>Fresas</li>
-      </ul>
-  ```
+3. c
+   ```html
+        <ul>
+          <li data-lista-frutas>Manzana</li>
+          <li data-lista-frutas>Peras</li>
+          <li data-lista-frutas>Fresas</li>
+        </ul>
+   ```
 
-  4.
-  ```html
-      <ul>
-        <li data-lista(frutas)>Manzana</li>
-        <li data-lista(frutas)>Peras</li>
-        <li data-lista(frutas)>Fresas</li>
-      </ul>
-  ```
+4. d
+   ```html
+        <ul>
+          <li data-lista(frutas)>Manzana</li>
+          <li data-lista(frutas)>Peras</li>
+          <li data-lista(frutas)>Fresas</li>
+        </ul>
+   ```
 
 <solution style="display:none;">1</solution>
 
@@ -164,27 +163,29 @@
 
 #### Opciones
 
-  1.
-  ```javascript
+1. a
+   ```javascript
       var text = document.getElementById("text");
       var autor = autor.dataset;
-  ```
+   ```
 
-  2.
-  ```javascript
+2. b
+   ```javascript
       var text = document.getElementById("text");
       var autor = dataset.text.autor;
-  ```
-  3.
-  ```javascript
+   ```
+
+3. c
+   ```javascript
       var text = document.getElementById("text");
       var autor = text.dataset.autor;
-  ```
-  4.
-  ```javascript
+   ```
+
+4. d
+   ```javascript
       var text = document.getElementById("text");
       var text.dataset = autor;
-  ```
+   ```
 
 <solution style="display:none;">3</solution>
 
@@ -225,27 +226,29 @@
 
 #### Opciones
 
-  1.
-  ```javascript
+1. a
+   ```javascript
     var boton = document.getElementById('boton');
     boton.createEventListener(click, funcion_a_ejecutar);
-  ```
+   ```
 
-  2.
-  ```javascript
+2. b
+   ```javascript
     var boton = document.getElementById('boton');
     boton.addEventListener = 'click' + 'funcion_a_ejecutar';
-  ```
-  3.
-  ```javascript
+   ```
+
+3. c
+   ```javascript
     var boton = document.getElementById('boton');
     boton.addEventListener('click', funcion_a_ejecutar);
-  ```
-  4.
-  ```javascript
+   ```
+
+4. d
+   ```javascript
     var boton = document.getElementById('boton');
     boton = document.addEventListener('click', funcion_a_ejecutar);
-  ```
+   ```
 
 <solution style="display:none;">3</solution>
 

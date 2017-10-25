@@ -13,8 +13,8 @@ aprenderás a:
 
 ## Público Objetivo
 
-Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso
-que se toma como parte del bootcamp.
+Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso que se
+toma como parte del bootcamp.
 
 ## Requerimientos previos
 
@@ -103,8 +103,8 @@ sin interacción con el usuario. Más adelante le daremos interacción con `js`.
 
 30-35 hrs
 
-Es el momento de mezclar la programación con el maquetado para hacer que
-nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
+Es el momento de mezclar la programación con el maquetado para hacer que nuestros
+productos web estáticos se vuelvan interactivos usando `JavaScript`.
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
