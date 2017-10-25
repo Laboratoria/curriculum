@@ -1,7 +1,7 @@
 // -> Creamos un objeto llamado `machine`
 const machine = {};
 
-// -> Usa Object.create para creae otro objeto llamado `robot` con `machine`
+// -> Usa Object.create para crear otro objeto llamado `robot` con `machine`
 //    como prototipo
 __
 

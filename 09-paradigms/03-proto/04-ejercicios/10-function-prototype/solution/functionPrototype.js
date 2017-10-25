@@ -11,13 +11,13 @@ Robot.prototype.capabilities = [];
 var robby = new Robot();
 var cranky = new Robot();
 
-// -> Haz claim del resultado de robby.parts
+// -> ¿Cúal es el resultado de robby.parts?
 claim(robby.parts, []);
-// -> Haz claim del resultado de cranky.parts
+// -> ¿Cúal es el resultado de cranky.parts?
 claim(cranky.parts, []);
-// -> Haz claim del resultado de robby.capabilities
+// -> ¿Cúal es el resultado de robby.capabilities?
 claim(robby.capabilities, []);
-// -> Haz claim del resultado de cranky.capabilities
+// -> ¿Cúal es el resultado de cranky.capabilities?
 claim(cranky.capabilities, []);
 
 // -> Añade 'core' a robby.parts, cranky.parts debería tener todavía un arreglo vacío
@@ -27,13 +27,13 @@ claim(cranky.capabilities, []);
 robby.parts.push('core');
 robby.capabilities.push('fly');
 
-// -> Haz claim del resultado de robby.parts
+// -> ¿Cúal es el resultado de robby.parts?
 claim(robby.parts, ['core']);
-// -> Haz claim del resultado de cranky.parts
+// -> ¿Cúal es el resultado de cranky.parts?
 claim(cranky.parts, []);
-// -> Haz claim del resultado de robby.capabilities
+// -> ¿Cúal es el resultado de robby.capabilities?
 claim(robby.capabilities, ['fly']);
-// -> Haz claim del resultado de cranky.capabilities
+// -> ¿Cúal es el resultado de cranky.capabilities?
 claim(cranky.capabilities, ['fly']);
 
 // ------------------------------------------------

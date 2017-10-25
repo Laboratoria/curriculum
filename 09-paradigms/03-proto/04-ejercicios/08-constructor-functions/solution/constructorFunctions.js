@@ -9,10 +9,10 @@ function Robot() {
 
 const robby = new Robot();
 
-// -> Cuál es el resultado de `(robby instanceof Robot)`?
+// -> ¿Cuál es el resultado de `(robby instanceof Robot)`?
 claim(robby instanceof Robot, true);
 
-// -> Qué es `robby.motors`?
+// -> ¿Qué valor tiene `robby.motors`?
 claim(robby.motors, 2);
 
 // ------------------------------------------------

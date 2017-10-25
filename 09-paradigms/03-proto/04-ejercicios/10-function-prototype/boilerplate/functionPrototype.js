@@ -5,13 +5,13 @@
 
 __
 
-// -> Haz claim del resultado de robby.parts
+// -> ¿Cúal es el resultado de robby.parts?
 claim(robby.parts, __);
-// -> Haz claim del resultado de cranky.parts
+// -> ¿Cúal es el resultado de cranky.parts?
 claim(cranky.parts, __);
-// -> Haz claim del resultado de robby.capabilities
+// -> ¿Cúal es el resultado de robby.capabilities?
 claim(robby.capabilities, __);
-// -> Haz claim del resultado de cranky.capabilities
+// -> ¿Cúal es el resultado de cranky.capabilities?
 claim(cranky.capabilities, __);
 
 // -> Añade 'core' a robby.parts, cranky.parts debería tener todavía un arreglo vacío
@@ -21,13 +21,13 @@ claim(cranky.capabilities, __);
 
 __
 
-// -> Haz claim del resultado de robby.parts
+// -> ¿Cúal es el resultado de robby.parts?
 claim(robby.parts, __);
-// -> Haz claim del resultado de cranky.parts
+// -> ¿Cúal es el resultado de cranky.parts?
 claim(cranky.parts, __);
-// -> Haz claim del resultado de robby.capabilities
+// -> ¿Cúal es el resultado de robby.capabilities?
 claim(robby.capabilities, __);
-// -> Haz claim del resultado de cranky.capabilities
+// -> ¿Cúal es el resultado de cranky.capabilities?
 claim(cranky.capabilities, __);
 
 
