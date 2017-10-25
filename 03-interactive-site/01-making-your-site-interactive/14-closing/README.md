@@ -1,3 +1,9 @@
+# Closing
+
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
+- Duración: `120min`
+
 # Closing: Haciendo tu sitio web interactivo
 
 - Tipo: `seminario`
@@ -30,7 +36,7 @@
 - ¿En qué se relaciona el DOM con el BOM?
 - ¿Cuales son algunos usos comunes del BOM?
 
-#### Modifying the DOM
+#### Modificando el DOM
 
 - ¿Se pueden crear nuevos nodos usando el DOM?
 - ¿Qué es un nodo?

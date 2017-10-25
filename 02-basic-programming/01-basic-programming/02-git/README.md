@@ -23,8 +23,8 @@
 El texto a continuación se basa en gran medida, con ciertos ajustes, en las
 siguientes páginas:
 
-- <https://git-scm.com/book/en/v2>
-- <https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro>
+- [Pro Git book](https://git-scm.com/book/en/v2)
+- [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
 
 ***
 
@@ -33,12 +33,17 @@ siguientes páginas:
 `Git` es un `Sistema de Control de Versiones`.
 
 > **¿Qué es el Sistema de Control de Versiones?**
-> El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que registrará
-> los cambios de uno, dos o varios archivos todo el tiempo para que si más adelante,
-> necesitamos una versión, podamos recuperarla fácilmente. Por ejemplo, si alguna
-> vez has elaborado un proyecto para una tarea ¿no te ha pasado algo así?:
-> !['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
-> Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+
+El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que
+registrará los cambios de uno, dos o varios archivos todo el tiempo para que
+si más adelante,necesitamos una versión, podamos recuperarla fácilmente.
+Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha
+pasado algo así?:
+
+!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+
+Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+
 - Revertir los archivos a un estado anterior.
 - Revertir todo el proyecto a un estado anterior.
 - Comparar los cambios que se hayan hecho a lo largo del proyecto.
@@ -61,8 +66,8 @@ En resumen, `Git` piensa en tus archivos como un flujo de "imágenes". Por eso,
 a cada cambio que vayamos realizando le tomará una foto en el instante que le
 indiquemos y todo eso lo almacenará en un `repositorio local`.
 
-**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento
-de trabajar con Git:**
+**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de
+ trabajar con Git**
 
 - Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
   a los archivos y a sus versiones que se encuentran en nuestro equipo.

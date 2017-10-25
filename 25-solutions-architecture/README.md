@@ -31,20 +31,20 @@ Ninguno.
 
 Concretamente, aprenderás:
 
-- Sobre el equipo de trabajo y los roles: Product Manager, Project Manager,
-Arquitecto de Soluciones, Developers, UX Designers, etc.
-- La diferencia entre `producto` y `proyecto`
-- Las bases de `Lean Product Management`
-- ¿Qué es la cadena de valor [(chain pain)](http://university.connectwise.com/content/documents/cw_wp_painchain.pdf)
- y por qué nos ayuda a entender el problema?
-- ¿Cuáles son y cómo identificar los key players: Sponsor, Decision Maker,
-End User?
-- A crear y utilizar el marco de trabajo `FODA`
-- A establecer empatía tanto con el usuario final como con tu cliente
-- A correr estudios sencillos de viabilidad económica
-- A crear propuestas de solución: Pitch de la solución, Diagramas de Proceso,
-Bosquejo de Pantallas.
-- A valorar el puente entre el team técnico y el team funcional
+* Sobre el equipo de trabajo y los roles: Product Manager, Project Manager,
+  Arquitecto de Soluciones, Developers, UX Designers, etc.
+* La diferencia entre `producto` y `proyecto`
+* Las bases de `Lean Product Management`
+* ¿Qué es la cadena de valor [(chain pain)](http://university.connectwise.com/content/documents/cw_wp_painchain.pdf)
+  y por qué nos ayuda a entender el problema?
+* ¿Cuáles son y cómo identificar los key players: Sponsor, Decision Maker,
+  End User?
+* A crear y utilizar el marco de trabajo `FODA`
+* A establecer empatía tanto con el usuario final como con tu cliente
+* A correr estudios sencillos de viabilidad económica
+* A crear propuestas de solución: Pitch de la solución, Diagramas de Proceso,
+  Bosquejo de Pantallas.
+* A valorar el puente entre el team técnico y el team funcional
 
 ## Producto
 
