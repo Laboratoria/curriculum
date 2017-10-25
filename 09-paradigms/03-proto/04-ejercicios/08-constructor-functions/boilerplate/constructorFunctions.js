@@ -1,7 +1,7 @@
 // -> Define un constructor 'Robot'
 // -> Dentro de la función `Robot` asigna una propiedad 'motors' en 'this',
 //    y dale el valor `2` a `motors`
-// -> Creaan una instancia de `Robot` llamada `robby`
+// -> Crear una instancia de `Robot` llamada `robby`
 
 __
 

@@ -5,9 +5,9 @@
 ***
 
 Los __Constructores__ son probablemente la manera más común de implementar
-cadenas de prototipos. La popularidad de los constructores se debe a que éste
-era manera en la que originalmente se construían "tipos". Algunos motores están
-altamente optimizados para usar constructores.
+cadenas de prototipos. La popularidad de los constructores se debe a que estos
+eran la manera en la que originalmente se construían "tipos".
+Algunos motores están altamente optimizados para usar constructores.
 
 En JavaScript puedes crear un objeto de esta manera:
 

@@ -2,7 +2,7 @@
 // -> Define un método llamado `new` en `Robot`
 // -> Cuando llamamos a `Robot.new()` debe retornar un objeto nuevo con Robot
 //    como prototipo
-//    Por ejemplo: var robby = Robot.new();
+//    Por ejemplo: const robby = Robot.new();
 //    `Robot` debe ser el prototipo de `robby`
 
 __

@@ -3,13 +3,13 @@ const machine = {}
 const robot = Object.create(machine);
 const robby = Object.create(robot);
 
-// -> What is the result of `machine.isPrototypeOf(robby)`?
+// -> ¿Cuál es el resultado de `machine.isPrototypeOf(robby)`?
 claim(machine.isPrototypeOf(robby), true);
 
-// -> What is the result of `robot.isPrototypeOf(robby)`?
+// -> ¿Cuál es el resultado de `robot.isPrototypeOf(robby)`?
 claim(robot.isPrototypeOf(robby), true);
 
-// -> Which object is the direct prototype of robby?
+// -> ¿Qué objeto es el prototipo directo de `robby`?
 claim(Object.getPrototypeOf(robby), robot);
 
 // ------------------------------------------------

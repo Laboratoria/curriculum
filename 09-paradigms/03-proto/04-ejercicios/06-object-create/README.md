@@ -6,7 +6,7 @@
 
 Como comentamos anteriormente, `__proto__` no es una manera estándar de asignar
 prototipos. La siguiente manera más sencilla es usando `Object.create()`,
-disponible en ES5, y para navegadores antiguos podemos usar
+disponible en ES5, para navegadores antiguos podemos usar
 [es5-shim](https://github.com/kriskowal/es5-shim).
 
 ```js

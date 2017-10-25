@@ -9,13 +9,13 @@ __
 //    como prototipo
 __
 
-// -> Cuál es el resultado de `machine.isPrototypeOf(robby)`?
+// -> ¿Cuál es el resultado de `machine.isPrototypeOf(robby)`?
 claim(machine.isPrototypeOf(robby), __);
 
-// -> Cuál es el resultado de `robot.isPrototypeOf(robby)`?
+// -> ¿Cuál es el resultado de `robot.isPrototypeOf(robby)`?
 claim(robot.isPrototypeOf(robby), __);
 
-// -> Qué objeto es el prototipo directo de `robby`?
+// -> ¿Qué objeto es el prototipo directo de `robby`?
 claim(Object.getPrototypeOf(robby), __);
 
 
