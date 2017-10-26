@@ -6,9 +6,9 @@
 
 ## Objetivos de Aprendizaje
 
-En ésta unidad aprenderemos:
+En ésta unidad aprenderemos a profundidad:
 
-- ¿Qué son los atributos data y para qué me sirven?
+- ¿Qué son los atributos data y para qué sirven?
 - ¿Cómo se usan?
 
 ***

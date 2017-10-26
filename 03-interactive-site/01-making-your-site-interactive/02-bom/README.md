@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-En ésta unidad aprenderemos:
+En ésta lectura aprenderemos:
 
 - ¿Para qué usamos el BOM?
 - ¿Qué elementos podemos modificar en el BOM?
