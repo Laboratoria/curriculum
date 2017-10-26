@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `90min`
+- Duración: `30min`
 
 ## Objetivos de Aprendizaje
 
@@ -19,7 +19,7 @@ En esta unidad aprenderemos:
 
 Es cuando el usuario realiza una acción permitiéndole interactuar con el
 programa. A cada evento se le asocia un manejador (*conocido como eventHandlers
-  o eventListener*) el cual, se ejecutará cuando ocurra el evento.
+o eventListener*) el cual, se ejecutará cuando ocurra el evento.
 
 Aquí hay un [video](https://www.youtube.com/watch?v=gyICdb1iwII) de referencia.
 
@@ -31,24 +31,24 @@ Para poder hacer uso de la magia de los eventos es necesario saber primero como
 La sintaxis es muy sencilla:
 
 ```javascript
-  elemento_que_escucha.addEventListener('evento', funcion_a_ejecutar);
+  elemento-que-escucha.addEventListener('evento', funcion-a-ejecutar);
 ```
 
 Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
 referencia.
 
 Existen diferentes formas de asociar un evento a elementos del DOM, para saber
-más sobre ello visita éste otro [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
+más sobre ello visita éste [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
 (a partir del punto 6.2).
 
 ### Manejo de eventos
 
 Además de agregar el *listener* al evento también se puede eliminar usando el
 método __removeEventListener__, el cual funciona casi de la misma manera. La
-sintaxis es la siguiente:
+sintaxis es de la siguiente manera:
 
 ```javascript
-  elemento_que_escucha.removeEventListener('evento', funcion_a_eliminar);
+  elemento-que-escucha.removeEventListener('evento', funcion-a-eliminar);
 ```
 
 Para que el método funcione correctamente es obligatorio mandar como parámetro
@@ -65,34 +65,35 @@ necesita información adicional sobre éste.
  ejemplo.
 
 ```javascript
-function holaMundo(event){
-  var evento = window.event || event;
+function helloWorld(event){
+  var objectEvent = window.event || event;
   alert('Hola Mundo.');
 }
 
-var boton = document.getElementById('boton');
-boton.addEventListener('click', holaMundo, false);
+var button = document.getElementById('button');
+button.addEventListener('click', helloWorld, false);
 ```
 
 En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene
-por defecto, para ello existe __preventDefault__:
+por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
 
-> Este es el código para un formulario muy sencillo.
+> Este es el código para un formulario muy sencillo
 > Hay un input para ingresar el nombre y otro para ingresar el apellido.
-> Por último, hay un input de tipo *submit* (botón enviar).
+> Por último, hay un input de tipo *submit* (botón submit)
+> ![](https://fotos.subefotos.com/a67120b81aed0a8a0d8f2ef44db9378ao.png)
 
 ```html
 <form>
   <div>
-    <label for="fname">First name: </label>
-    <input id="fname" type="text">
+    <label for="first-name">First name: </label>
+    <input id="first-name" type="text">
   </div>
   <div>
-    <label for="lname">Last name: </label>
-    <input id="lname" type="text">
+    <label for="last-name">Last name: </label>
+    <input id="last-name" type="text">
   </div>
   <div>
-     <input id="submit" type="submit">
+    <input id="submit" type="submit">
   </div>
 </form>
 <p></p>
@@ -100,26 +101,26 @@ por defecto, para ello existe __preventDefault__:
 
 > Ahora veámos la funcionalidad del JS:
 > En la primera parte se guardan en variables los elementos del formulario.
-> Después tenemos la función que detona el evento submit.
-> Esta función comprueba si los campos están vacios.
-> Si la condición se cumple se ejecuta la función *preventDefault* para el
-*eventObject* (e),
+> después tenemos la función que detona el evento submit.
+> Esta función comprueba si los campos están vacios,
+> si la condición se cumple se ejecuta la función *preventDefault* para el
+*objectEvent* (e),
 > impidiendo que el formulario se envíe automáticamente (acción que tiene por
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
 
  ```javascript
- var form = document.querySelector('form');
- var fname = document.getElementById('fname');
- var lname = document.getElementById('lname');
- var submit = document.getElementById('submit');
- var para = document.querySelector('p');
+var form = document.querySelector('form');
+var firstName = document.getElementById('first-name');
+var lastName = document.getElementById('last-name');
+var submit = document.getElementById('submit');
+var warning = document.querySelector('p');
 
- form.onsubmit = function(e) {
-   if (fname.value === '' || lname.value === '') {
-     e.preventDefault();
-     para.textContent = 'You need to fill in both names!';
-   }
- }
+form.onsubmit = function(e) {
+  if (firstName.value === '' || lastName.value === '') {
+    e.preventDefault();
+    warning.textContent = 'You need to fill in both names!';
+  }
+}
   ```
 
 ### Flujo de eventos (Propagation)
@@ -139,11 +140,11 @@ tipos de eventos, algunos de los más comunes son:
 
 - Eventos del ratón (mouseEvent)
 - Eventos del teclado (keyboardEvent)
-- Eventos del formulario
+- Eventos del formularios
 - Eventos de la ventana
 
 Para mayor información sobre todos los eventos visita éste [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
-y también este otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+y también éste otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Key Events
 
@@ -170,4 +171,4 @@ ejemplo sobre la interacción con los eventos.
   diviertete ;)
 
 Finalmente, te adjuntamos el [link](https://developer.mozilla.org/es/docs/Web/Reference/Events)
-de la documentación oficial explicando todo acerca de eventos:
+de la documentación oficial explicando todo acerca de eventos.
