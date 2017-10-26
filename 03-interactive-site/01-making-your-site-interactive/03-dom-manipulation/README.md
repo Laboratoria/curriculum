@@ -369,8 +369,6 @@ mi_imagen.setAttribute('height', 'auto')
 
 ## Añadiendo estilos por Javascript
 
-"unlike most other attributes, the style property itself is an object."
-
 ### Style
 
 Esta propiedad se utiliza para mostrar o para establecer el estilo del nodo

@@ -198,7 +198,9 @@ más sobre selectores:
 - [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
 - [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
 
-Al finalizar tu investigación debes saber qué es y cómo usar:
+Ahora pon en práctica tu conocimiento, diviertete con este juego ;) [CSS Diner](http://flukeout.github.io/) en donde podrás aprender y practicar sobre los selectores.
+
+Al finalizar debes saber qué es y cómo usar:
 
 - Selector universal
 - Selector de elementos (de tipo)
@@ -295,4 +297,3 @@ utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
-

@@ -257,7 +257,7 @@ siempre'
   del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
   Elemento HTML.
 
-## 3.2 Propiedades de los nodos
+## Propiedades de los nodos
 
 Los nodos del DOM poseen propiedades básicas las cuales son:
 
@@ -270,10 +270,6 @@ comentarios, `9` para el nodo tipo document, etc.
 - ___nodeValue___ , es el texto contenido dentro de un nodo de texto. Esta
 propiedad solo se utiliza para los nodos tipo texto `8` y nodos tipo
 comentarios `9`.
-
-- Nodos
-- Nodos vs. elementos
-- Padres, hijos, hermanos, etc.
 
 ## Seleccionando elementos del DOM
 
