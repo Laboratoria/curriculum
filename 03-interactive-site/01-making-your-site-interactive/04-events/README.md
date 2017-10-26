@@ -19,7 +19,7 @@ En esta unidad aprenderemos:
 
 Es cuando el usuario realiza una acción permitiéndole interactuar con el
 programa. A cada evento se le asocia un manejador (*conocido como eventHandlers
-  o eventListener*) el cual, se ejecutará cuando ocurra el evento.
+o eventListener*) el cual, se ejecutará cuando ocurra el evento.
 
 Aquí hay un [video](https://www.youtube.com/watch?v=gyICdb1iwII) de referencia.
 
@@ -31,7 +31,7 @@ Para poder hacer uso de la magia de los eventos es necesario saber primero como
 La sintaxis es muy sencilla:
 
 ```javascript
-  elemento_que_escucha.addEventListener('evento', funcion_a_ejecutar);
+  elementoQueEscucha.addEventListener('evento', funcionAEjecutar);
 ```
 
 Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
@@ -48,7 +48,7 @@ método __removeEventListener__, el cual funciona casi de la misma manera. La
 sintaxis es la siguiente:
 
 ```javascript
-  elemento_que_escucha.removeEventListener('evento', funcion_a_eliminar);
+  elementoQueEscucha.removeEventListener('evento', funcionAEliminar);
 ```
 
 Para que el método funcione correctamente es obligatorio mandar como parámetro
@@ -65,13 +65,13 @@ necesita información adicional sobre éste.
  ejemplo.
 
 ```javascript
-function holaMundo(event){
-  var evento = window.event || event;
+function helloWorld(event){
+  var objectEvent = window.event || event;
   alert('Hola Mundo.');
 }
 
-var boton = document.getElementById('boton');
-boton.addEventListener('click', holaMundo, false);
+var button = document.getElementById('button');
+button.addEventListener('click', helloWorld, false);
 ```
 
 En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene
@@ -79,20 +79,21 @@ por defecto, para ello existe __preventDefault__:
 
 > Este es el código para un formulario muy sencillo.
 > Hay un input para ingresar el nombre y otro para ingresar el apellido.
-> Por último, hay un input de tipo *submit* (botón enviar).
+> Por último, hay un input de tipo *submit* (botón submit).
+> ![](https://fotos.subefotos.com/a67120b81aed0a8a0d8f2ef44db9378ao.png)
 
 ```html
 <form>
   <div>
-    <label for="fname">First name: </label>
-    <input id="fname" type="text">
+    <label for="first-name">First name: </label>
+    <input id="first-name" type="text">
   </div>
   <div>
-    <label for="lname">Last name: </label>
-    <input id="lname" type="text">
+    <label for="last-name">Last name: </label>
+    <input id="last-name" type="text">
   </div>
   <div>
-     <input id="submit" type="submit">
+    <input id="submit" type="submit">
   </div>
 </form>
 <p></p>
@@ -103,23 +104,23 @@ por defecto, para ello existe __preventDefault__:
 > Después tenemos la función que detona el evento submit.
 > Esta función comprueba si los campos están vacios.
 > Si la condición se cumple se ejecuta la función *preventDefault* para el
-*eventObject* (e),
+*objectEvent* (e),
 > impidiendo que el formulario se envíe automáticamente (acción que tiene por
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
 
  ```javascript
- var form = document.querySelector('form');
- var fname = document.getElementById('fname');
- var lname = document.getElementById('lname');
- var submit = document.getElementById('submit');
- var para = document.querySelector('p');
+var form = document.querySelector('form');
+var firstName = document.getElementById('first-name');
+var lastName = document.getElementById('last-name');
+var submit = document.getElementById('submit');
+var warning = document.querySelector('p');
 
- form.onsubmit = function(e) {
-   if (fname.value === '' || lname.value === '') {
-     e.preventDefault();
-     para.textContent = 'You need to fill in both names!';
-   }
- }
+form.onsubmit = function(e) {
+  if (firstName.value === '' || lastName.value === '') {
+    e.preventDefault();
+    warning.textContent = 'You need to fill in both names!';
+  }
+}
   ```
 
 ### Flujo de eventos (Propagation)
@@ -159,7 +160,7 @@ Estos son algunos de los eventos más utilizados:
 - setting timers
 - debouncing
 
-[Aquí](https://codepen.io/Inti_Developer/pen/EvGMKG) podrás encontrar un
+[Aquí](https://codepen.io/michellesegv/pen/OOLXZV) podrás encontrar un
 ejemplo sobre la interacción con los eventos.
 
 > Guía de uso:
@@ -170,4 +171,4 @@ ejemplo sobre la interacción con los eventos.
   diviertete ;)
 
 Finalmente, te adjuntamos el [link](https://developer.mozilla.org/es/docs/Web/Reference/Events)
-de la documentación oficial explicando todo acerca de eventos:
+de la documentación oficial explicando todo acerca de eventos.
