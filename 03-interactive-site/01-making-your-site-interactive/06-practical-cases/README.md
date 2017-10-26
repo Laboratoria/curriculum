@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `6h`
 
 ## Objetivos
 
@@ -107,7 +107,7 @@ sin minas (vacía o de número), el juego continúa.
 - Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
   más celdas) y mostrar mensaje: “Esto ha explotado”
 - Al dar click en una celda con un número, mostrar el número que tiene.
-- Crear un botón Re iniciar que comience de nuevo el juego.
+- Crear un botón Reiniciar que comience de nuevo el juego.
 
 ##### Puntos extras
 

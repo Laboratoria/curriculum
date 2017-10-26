@@ -88,7 +88,7 @@ Analizando la misma imagen de arriba.
   o nodo **html**.
 
 - El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`,
-  cuyo padre es el objeto o nodo **a**.
+  cuyo padre es el objeto o nodo **a**. (En la imagen parece que **attribute** es hermano del nodo **a** pero **a** es padre de **attribute**.)
 
 ### Los 2 tipos de nodos mas usados
 
@@ -162,7 +162,7 @@ indicados a continuación:
 | DOCUMENT_FRAGMENT_NODE   | Nodo del tipo `DocumentFragment`     | 11 |
 | NOTATION_NODE   |  Nodo del tipo `Notation`   | 12 |
 
-de dicha lista, nos concentraremos en los cinco nodos más habituales con los
+De dicha lista, nos concentraremos en los cinco nodos más habituales con los
 cuales podremos manipular las páginas Web a través del DOM.
 
 Veamos a continuación más específicamente sus características.
@@ -257,7 +257,7 @@ siempre'
   del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
   Elemento HTML.
 
-## 3.2 Propiedades de los nodos
+## Propiedades de los nodos
 
 Los nodos del DOM poseen propiedades básicas las cuales son:
 
@@ -271,9 +271,6 @@ comentarios, `9` para el nodo tipo document, etc.
 propiedad solo se utiliza para los nodos tipo texto `8` y nodos tipo
 comentarios `9`.
 
-- Nodos
-- Nodos vs. elementos
-- Padres, hijos, hermanos, etc.
 
 ## Seleccionando elementos del DOM
 
