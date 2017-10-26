@@ -271,7 +271,6 @@ comentarios, `9` para el nodo tipo document, etc.
 propiedad solo se utiliza para los nodos tipo texto `8` y nodos tipo
 comentarios `9`.
 
-
 ## Seleccionando elementos del DOM
 
 En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html)
