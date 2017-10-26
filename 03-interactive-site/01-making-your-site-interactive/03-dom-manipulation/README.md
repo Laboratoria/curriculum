@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `120min`
 
 ## Objetivos de Aprendizaje
 
@@ -167,7 +167,7 @@ asigne una posición en el árbol no se mostrará al usuario. Cómo incluirlo en
 #### createTextNode
 
 Al igual que podemos crear un elemento, podemos crear un texto con el cual
-poblarlo por medio de createTextNode.
+ocuparlo por medio de createTextNode.
 
 - Sintaxis:
 
@@ -176,18 +176,18 @@ poblarlo por medio de createTextNode.
 Igual que para el elemento creado arriba con el metodo _createElement_, el
 texto a crear por medio de este método debe ir entrecomillado. Y de la misma
 manera también, el texto existe, pero en ninguna parte. Si quisiéramos, por
-ejemplo, crear un nuevo párrafo en un documento con el texto «Menos que Macbeth,
-pero más grande», tendríamos que crear primero el elemento p, luego el nodo de
+ejemplo, crear un nuevo párrafo en un documento con el texto «Felicidades
+ coders», tendríamos que crear primero el elemento **p**, luego el nodo de
 texto, y por último convertir el nodo de texto en el hijo del párrafo por medio
-de appendChild, método que veremos en la seccion `añadir nodos al DOM`. Algo así:
+de appendChild, método que veremos en la seccion `añadir nodos al DOM`.
 
 ```javascript
 var parrafo = document.createElement('p');
-var texto = document.createTextNode('Menos que Macbeth, pero más grande');
+var texto = document.createTextNode('Felicidades coders');
 parrafo.appendChild(texto);
 ```
 
-Con ello nuestra variable parrafo contendría un elemento p con su texto
+Con ello nuestra variable parrafo contendría un elemento **p** con su texto
 correspondiente, listo para ser incluido en el árbol del documento.
 
 ## Añadir nodos al DOM
