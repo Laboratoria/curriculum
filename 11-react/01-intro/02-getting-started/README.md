@@ -2,14 +2,14 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `20min`
+* Duración: `12min`
 
 ***
 
-Veamos como podemos comenzar a usar react inmediatamente dentro de nuestro html
-existente.
+Veamos como podemos comenzar a usar `React` inmediatamente dentro de nuestro
+`html` existente.
 
-En este ejemplo este será nuestro html base:
+En este ejemplo, éste será nuestro `html` base:
 
 ```html
 <!DOCTYPE html>
@@ -31,7 +31,14 @@ En este ejemplo este será nuestro html base:
 </html>
 ```
 
-Como vimos anteriormente `React` tiene su propia **"copia inteligente"** del
+> NOTA:
+>
+> Para seguir esta lectura, abre tu editor de texto favorito (o algo tipo
+> [JS Bin](https://jsbin.com/) o [CodePen](https://codepen.io)) y copia el html
+> de arriba. Según vayamos avanzando modifica el código y ejecútalo para ver los
+> resultados en tu navegador.
+
+Como vimos anteriormente, `React` tiene su propia **"copia inteligente"** del
 `DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada
 cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor
 (`container`). Generalmente utilizamos un elemento `div` con un `id` que nos
@@ -51,11 +58,12 @@ permita identificarlo unívocamente.
 </body>
 ```
 
-Como con cualquier otra libreria (por ejemplo `jquery`), antes de poder utilizar
+Como con cualquier otra librería (por ejemplo `jQuery`), antes de poder utilizar
 `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
 una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1)
-y referenciar localmente los scripts, o como haremos nosotros, puedes linkear
-directamente a los archivos publicados en [unpkg](https://unpkg.com).
+y referenciar localmente los scripts; o, como haremos nosotros en este ejemplo,
+puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
+[unpkg](https://unpkg.com).
 
 ```html
 <head>
@@ -70,7 +78,7 @@ directamente a los archivos publicados en [unpkg](https://unpkg.com).
 
 Así como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
 son las *"piezas"* para contruir nuestras interfaces y los declaramos a través
-de ***funciones***.
+de ***funciones*** (o clases como veremos más adelante).
 
 ```html
 <body>
@@ -109,8 +117,8 @@ const div = React.DOM.div
 const h2 = React.DOM.h2
 ```
 
-Los componentes los definimos como funciones puras. Nuestro primer componente
-será la "Cabecera" de la pagina.
+Los componentes normalmente los definimos como funciones puras. Nuestro primer
+componente será la `Cabecera` de la página.
 
 ```js
 function Cabecera() {
@@ -134,7 +142,8 @@ Esto es análogo al siguiente codigo html:
 </div>
 ```
 
-Y por último para que el usuario pueda verlo, insertamos el resultado en el DOM
+Y por último, para que el usuario pueda verlo, insertamos el resultado en el
+DOM:
 
 ```js
 ReactDOM.render(
@@ -149,7 +158,7 @@ de los parametros que nosotros le pasemos a nuestra función, podemos modificar
 dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
 
 En el mundo `React` a los parámetros de los componentes los denominamos
-***propiedades*** (`props`)
+***propiedades*** (`props`).
 
 ```html
 <body>
@@ -189,11 +198,11 @@ En el mundo `React` a los parámetros de los componentes los denominamos
 </body>
 ```
 
-Ahora nuestra función recibe un parametro `props` que es un Objecto JSON. Cada
-llave de `props`, es una propiedad de nuestro componente.
+Ahora nuestra función recibe un parametro `props`, que es un objecto. Cada llave
+de `props`, es una propiedad de nuestro componente.
 
-Así como el `DOM` los tags tienen *atributos*, en `React` los componentes tienen
-***propiedades***
+Así como en el `DOM` los tags tienen *atributos*, en `React` los componentes
+tienen ***propiedades***:
 
 ```js
 function Cabecera(props) {
@@ -223,17 +232,15 @@ ReactDOM.render(
 );
 ```
 
-## Ejercicios
+## Ejemplos
 
 Y por último te dejamos 2 ejemplos más entrenidos para que analices cómo
-funcionan. Al final de la lección veremos cuánto has entendido de ellos.
+funcionan. Copia o escribe el código de cada ejemplo en tu editor favorito,
+ejecútalo, juega y añade `console.log`s para ver qué está ocurriendo. Toma nota
+de tus preguntas para compartirlas con el resto de la clase más adelante en
+el solucionario de esta unidad.
 
-Recuerda utilizar los recursos recomendados:
-
-* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
-* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
-
-### [L01.1] Elementos nativos anidados
+### Elementos nativos anidados
 
 ```html
 <body>
@@ -272,7 +279,7 @@ Recuerda utilizar los recursos recomendados:
 </body>
 ```
 
-### [L01.2] Renderizado dinámico con atributos
+### Renderizado dinámico con atributos
 
 ```html
 <body>
@@ -314,3 +321,8 @@ Recuerda utilizar los recursos recomendados:
   </script>
 </body>
 ```
+
+## Referencias
+
+* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
+* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)

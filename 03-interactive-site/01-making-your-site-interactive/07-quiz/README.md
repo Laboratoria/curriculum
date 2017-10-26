@@ -89,7 +89,18 @@
 
 <solution style="display:none;">1,2,4</solution>
 
-### 7) ¿Para qué puedo utilizar los atributos data?
+### 7) BOM define ______ métodos para manipular el tamaño y la posición de la ______
+
+#### Opciones
+
+  1. dos, ventana
+  2. cuatro, ventana
+  3. tres, etiqueta
+  4. dos, información
+
+<solution style="display:none;">2</solution>
+
+### 8) ¿Para qué puedo utilizar los atributos data?
 
 #### Opciones
 
@@ -101,7 +112,83 @@
 
 <solution style="display:none;">4</solution>
 
-### 8) ¿A través de qué método eliminas un nodo del DOM?
+### 9) ¿Cuál de las siguientes opciones es la correcta para hacer uso de los atributos data?
+
+#### Opciones
+
+  1.
+  ```html
+      <ul>
+        <li data-lista="frutas">Manzana</li>
+        <li data-lista="frutas">Peras</li>
+        <li data-lista="frutas">Fresas</li>
+      </ul>
+  ```
+
+  2.
+  ```html
+      <ul>
+        <li data="frutas">Manzana</li>
+        <li data="frutas">Peras</li>
+        <li data="frutas">Fresas</li>
+      </ul>
+  ```
+
+  3.
+  ```html
+      <ul>
+        <li data-lista-frutas>Manzana</li>
+        <li data-lista-frutas>Peras</li>
+        <li data-lista-frutas>Fresas</li>
+      </ul>
+  ```
+
+  4.
+  ```html
+      <ul>
+        <li data-lista(frutas)>Manzana</li>
+        <li data-lista(frutas)>Peras</li>
+        <li data-lista(frutas)>Fresas</li>
+      </ul>
+  ```
+
+<solution style="display:none;">1</solution>
+
+### 10)  Viendo el siguiente código, ¿Cómo accedemos a nuestros atributos data a través de js?
+
+```html
+<p id="text" data-autor="Gustavo Monet">
+  Aquí está nuestro texto
+</p>
+```
+
+#### Opciones
+
+  1.
+  ```javascript
+      var text = document.getElementById("text");
+      var autor = autor.dataset;
+  ```
+
+  2.
+  ```javascript
+      var text = document.getElementById("text");
+      var autor = dataset.text.autor;
+  ```
+  3.
+  ```javascript
+      var text = document.getElementById("text");
+      var autor = text.dataset.autor;
+  ```
+  4.
+  ```javascript
+      var text = document.getElementById("text");
+      var text.dataset = autor;
+  ```
+
+<solution style="display:none;">3</solution>
+
+### 11) ¿A través de qué método eliminas un nodo del DOM?
 
 #### Opciones
 
@@ -112,7 +199,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 9) ¿Con qué método creas un evento?
+### 12) ¿Con qué método creas un evento?
 
 #### Opciones
 
@@ -123,7 +210,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) ¿Qué son los eventos?
+### 13) ¿Qué son los eventos?
 
 #### Opciones
 
@@ -133,3 +220,42 @@
   3. Fechas importantes para el navegador.
 
 <solution style="display:none;">2</solution>
+
+### 14) ¿Cómo agregas un evento a un elemento?
+
+#### Opciones
+
+  1.
+  ```javascript
+    var boton = document.getElementById('boton');
+    boton.createEventListener(click, funcion_a_ejecutar);
+  ```
+
+  2.
+  ```javascript
+    var boton = document.getElementById('boton');
+    boton.addEventListener = 'click' + 'funcion_a_ejecutar';
+  ```
+  3.
+  ```javascript
+    var boton = document.getElementById('boton');
+    boton.addEventListener('click', funcion_a_ejecutar);
+  ```
+  4.
+  ```javascript
+    var boton = document.getElementById('boton');
+    boton = document.addEventListener('click', funcion_a_ejecutar);
+  ```
+
+<solution style="display:none;">3</solution>
+
+### 15) En ocasiones tenemos que usar e.preventDefault() para
+
+#### Opciones
+
+  1. Para prevenir cierto comportamiento que ya tienen los eventos.
+  2. Para que nuestro evento tenga un valor por default.
+  3. Para que el evento se ejecute en automático.
+  4. Para prevenir que se llame al evento.
+
+<solution style="display:none;">1</solution>
