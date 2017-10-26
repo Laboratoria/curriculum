@@ -94,7 +94,9 @@ separado de tu archivo HTML. Todos los estilos se incluyen en este
 archivo de tipo CSS externo, que las páginas HTML enlazan mediante la
 etiqueta html `<link>`.
 
-Cabe mencionar que este link externo puede ser un archivo que esta en tu computadora o un link de un archivo externo de internet.
+Cabe mencionar que este link externo puede ser un archivo
+que esta en tu computadora o un link de un archivo externo
+de internet. (una dirección HTTP)
 
 En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
 dos archivos:
@@ -108,8 +110,8 @@ dos archivos:
     <title>Entendiendo CSS</title>
     <!--Link a archivo que esta en la misma computadora-->
     <link rel="stylesheet" href="style.css">
-    <!--Link a archivo que esta en internet -->
-    <link href="http://laboratoria.la/app/assets/css/animate.css" rel="stylesheet">
+    <!--Link a archivo que esta en internet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -302,4 +304,3 @@ utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
-
