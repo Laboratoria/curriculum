@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `90min`
 
 ## Objetivos de Aprendizaje
 
@@ -38,14 +38,14 @@ Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
 referencia.
 
 Existen diferentes formas de asociar un evento a elementos del DOM, para saber
-más sobre ello visita éste [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
+más sobre ello visita éste otro [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
 (a partir del punto 6.2).
 
 ### Manejo de eventos
 
 Además de agregar el *listener* al evento también se puede eliminar usando el
 método __removeEventListener__, el cual funciona casi de la misma manera. La
-sintaxis es de la siguiente manera:
+sintaxis es la siguiente:
 
 ```javascript
   elemento-que-escucha.removeEventListener('evento', funcion-a-eliminar);
@@ -75,11 +75,11 @@ button.addEventListener('click', helloWorld, false);
 ```
 
 En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene
-por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
+por defecto, para ello existe __preventDefault__:
 
-> Este es el código para un formulario muy sencillo
+> Este es el código para un formulario muy sencillo.
 > Hay un input para ingresar el nombre y otro para ingresar el apellido.
-> Por último, hay un input de tipo *submit* (botón submit)
+> Por último, hay un input de tipo *submit* (botón submit).
 > ![](https://fotos.subefotos.com/a67120b81aed0a8a0d8f2ef44db9378ao.png)
 
 ```html
@@ -140,11 +140,11 @@ tipos de eventos, algunos de los más comunes son:
 
 - Eventos del ratón (mouseEvent)
 - Eventos del teclado (keyboardEvent)
-- Eventos del formularios
+- Eventos del formulario
 - Eventos de la ventana
 
 Para mayor información sobre todos los eventos visita éste [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
-y también éste otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+y también este otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Key Events
 
@@ -160,7 +160,7 @@ Estos son algunos de los eventos más utilizados:
 - setting timers
 - debouncing
 
-[Aquí](https://codepen.io/Inti_Developer/pen/EvGMKG) podrás encontrar un
+[Aquí](https://codepen.io/michellesegv/pen/OOLXZV) podrás encontrar un
 ejemplo sobre la interacción con los eventos.
 
 > Guía de uso:
