@@ -31,7 +31,7 @@ Para poder hacer uso de la magia de los eventos es necesario saber primero como
 La sintaxis es muy sencilla:
 
 ```javascript
-  elemento-que-escucha.addEventListener('evento', funcion-a-ejecutar);
+  elementoQueEscucha.addEventListener('evento', funcionAEjecutar);
 ```
 
 Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
@@ -48,7 +48,7 @@ método __removeEventListener__, el cual funciona casi de la misma manera. La
 sintaxis es la siguiente:
 
 ```javascript
-  elemento-que-escucha.removeEventListener('evento', funcion-a-eliminar);
+  elementoQueEscucha.removeEventListener('evento', funcionAEliminar);
 ```
 
 Para que el método funcione correctamente es obligatorio mandar como parámetro
