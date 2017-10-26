@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `90min`
 
 ## Objetivos de Aprendizaje
 
@@ -38,14 +38,14 @@ Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
 referencia.
 
 Existen diferentes formas de asociar un evento a elementos del DOM, para saber
-más sobre ello visita éste [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
+más sobre ello visita éste otro [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
 (a partir del punto 6.2).
 
 ### Manejo de eventos
 
 Además de agregar el *listener* al evento también se puede eliminar usando el
 método __removeEventListener__, el cual funciona casi de la misma manera. La
-sintaxis es de la siguiente manera:
+sintaxis es la siguiente:
 
 ```javascript
   elemento_que_escucha.removeEventListener('evento', funcion_a_eliminar);
@@ -75,11 +75,11 @@ boton.addEventListener('click', holaMundo, false);
 ```
 
 En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene
-por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
+por defecto, para ello existe __preventDefault__:
 
-> Este es el código para un formulario muy sencillo
-> Hay un input para ingresar el nombre y otro para ingresar el apellido
-> Por último, hay un input de tipo *submit* (botón enviar)
+> Este es el código para un formulario muy sencillo.
+> Hay un input para ingresar el nombre y otro para ingresar el apellido.
+> Por último, hay un input de tipo *submit* (botón enviar).
 
 ```html
 <form>
@@ -99,12 +99,12 @@ por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
 ```
 
 > Ahora veámos la funcionalidad del JS:
-> En la primera parte se guardan en variables los elementos del formulario
-> Después tenemos la función que detona el evento submit
-> Esta función comprueba si los campos están vacios
+> En la primera parte se guardan en variables los elementos del formulario.
+> Después tenemos la función que detona el evento submit.
+> Esta función comprueba si los campos están vacios.
 > Si la condición se cumple se ejecuta la función *preventDefault* para el
-*eventObject* (e)
-> Impidiendo que el formulario se envíe automáticamente (acción que tiene por
+*eventObject* (e),
+> impidiendo que el formulario se envíe automáticamente (acción que tiene por
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
 
  ```javascript
@@ -139,11 +139,11 @@ tipos de eventos, algunos de los más comunes son:
 
 - Eventos del ratón (mouseEvent)
 - Eventos del teclado (keyboardEvent)
-- Eventos del formularios
+- Eventos del formulario
 - Eventos de la ventana
 
 Para mayor información sobre todos los eventos visita éste [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
-y también éste otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+y también este otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Key Events
 
