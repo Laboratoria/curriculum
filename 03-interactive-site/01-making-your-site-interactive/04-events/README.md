@@ -101,9 +101,9 @@ por defecto, para ello existe __preventDefault__:
 
 > Ahora veámos la funcionalidad del JS:
 > En la primera parte se guardan en variables los elementos del formulario.
-> después tenemos la función que detona el evento submit.
-> Esta función comprueba si los campos están vacios,
-> si la condición se cumple se ejecuta la función *preventDefault* para el
+> Después tenemos la función que detona el evento submit.
+> Esta función comprueba si los campos están vacios.
+> Si la condición se cumple se ejecuta la función *preventDefault* para el
 *objectEvent* (e),
 > impidiendo que el formulario se envíe automáticamente (acción que tiene por
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
