@@ -1,4 +1,4 @@
-# Apertura
+# TDD
 
 * Tipo: `seminario`
 * Formato: `guiado`
@@ -9,3 +9,5 @@ no tiene sus propios objetivos de aprendizaje sino que cómo parte del contenido
 presenta los objetivos de aprendizaje de la unidad en general.
 
 ***
+
+[Contenido de TDD]

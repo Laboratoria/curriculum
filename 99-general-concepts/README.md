@@ -48,13 +48,7 @@ así como entregables y método de evaluación.
 
 ## Syllabus
 
-NOTA: Este es un ejemplo de syllabus que sirve para ilustrar las convenciones de
-vocabulario, estructura de archivos, nombre de carpetas/archivos, ... Cada curso
-es diferente, así que la cantidad de unidades, su tamaño y formato pueden variar
-considerablemente, siempre que se mantenga una misma terminología y formato
-básico. Ante la duda no dudes en preguntar ;-)
-
-### Unidad 01: [Depuración](01-lorem-ipsum)
+### Unidad 01: [Depuración](01-debugging)
 
 NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
 necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
@@ -68,36 +62,30 @@ _unidad_. Algo como esto:
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | 15min | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | 60min | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | taller | guiado | 60min | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
+| 00 | seminario | guiado | 30min | [Apertura](01-debugging/00-apertura.md)
+| 01 | lectura | self-paced | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-debugging/01-self-learning-1.md)
+| 02 | práctica | self-paced | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-debugging/02-self-learning-2.md)
+| 03 | quiz | self-paced | 15min | [Cuestionario](01-debugging/03-some-quiz.md)
+| 04 | seminario | guiado | 60min | [Ejercicios guiados](01-debugging/04-ejercicios-guiados.md)
+| 05 | taller | guiado | 60min | [Solucionario](01-debugging/05-solucionario.md)
+| 06 | quiz | self-paced | 15min | [Requiz](01-debugging/06-requiz.md)
+| 07 | seminario | guiado | 30min | [Cierre](01-debugging/07-cierre.md)
 
-### Unidad 02: [Test Driven Development](02-workshop)
+### Unidad 02: [Test Driven Development](02-tdd)
 
 En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
 blah blah blah...
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | Xmin | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | seminario | guiado | Xmin | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | lectura | self-paced | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
-
-***
-
-## Evaluación
-
-[TODO]
+| 00 | lectura | self-paced | Xmin | [Apertura](02-tdd/00-apertura.md)
+| 01 | lectura | self-paced | Xmin | [Lectura con videos](02-tdd/01-self-learning-1.md)
+| 02 | práctica | self-paced | Xmin | [Ejercicios](02-tdd/02-self-learning-2.md)
+| 03 | quiz | self-paced | Xmin | [Cuestionario](02-tdd/03-some-quiz.md)
+| 04 | seminario | guiado | Xmin | [Ejercicios guiados](02-tdd/04-ejercicios-guiados.md)
+| 05 | seminario | guiado | Xmin | [Solucionario](02-tdd/05-solucionario.md)
+| 06 | quiz | self-paced | Xmin | [Requiz](02-tdd/06-requiz.md)
+| 07 | lectura | self-paced | Xmin | [Cierre](02-tdd/07-cierre.md)
 
 ## Autor(es) / Colaboradores
 
