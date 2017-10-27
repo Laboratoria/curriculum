@@ -67,7 +67,7 @@ var data = [{foo: 'bar'} {bar: 'foo'}];
 A veces, en lugar de "Unexpected Token", verás algo como "Unexpected Identifier"
 o "Unexpected Number". Estos son errores similares, y también casi siempre
 significa que olvidaste agregar algo justo antes del
-token inesperado. Afortunadamente, Chrome DevTools dirá el número de la linea
+token inesperado. Afortunadamente, Chrome DevTools te dirá el número de la linea
 donde tengas el error, y repl.it no solo te dirá el número de la linea, sino
 también te dirá el número de la columna.
 
