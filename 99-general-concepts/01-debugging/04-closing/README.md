@@ -1,6 +1,6 @@
 # Cierre
 
-* Tipo: `seminario`
+* Tipo: `lectura`
 * Formato: `guiado`
 * Duración: `10min`
 
@@ -9,3 +9,5 @@ parte son siempre hacer un resumen de lo aprendido en la unidad y repasar la
 guía de preguntas y conceptos clave planteados en la _apertura_.
 
 ***
+
+[Contenido de cierre]
