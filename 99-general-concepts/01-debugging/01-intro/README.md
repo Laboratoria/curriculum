@@ -1,4 +1,4 @@
-# Título
+# ¿Qué es debugging?
 
 * Tipo: `lectura`
 * Formato: `self-paced`
