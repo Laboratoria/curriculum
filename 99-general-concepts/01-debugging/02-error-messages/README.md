@@ -72,7 +72,7 @@ token inesperado. Afortunadamente, Chrome DevTools dirá el número de la linea
 donde tengas el error, y repl.it no solo dirá el número de la linea, pero
 también dirá el número de la columna.
 
-![repl.it screenshot](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/99-general-concepts/01-debugging/02-error-messages/img-line-number.png?raw=true)
+![repl.it screenshot](img-line-number.png)
 
 ### TypeError: "x" is not a function
 
