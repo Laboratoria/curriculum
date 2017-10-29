@@ -1,7 +1,7 @@
 # Retos de Código
 
-* Tipo: `code`
-* Formato: `self-learning`
+* Tipo: `práctica`
+- Formato: `self-paced`
 * Duración: `120min`
 
 ## Objetivos
