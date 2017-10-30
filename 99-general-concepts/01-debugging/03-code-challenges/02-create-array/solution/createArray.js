@@ -6,7 +6,7 @@ function createArray() {
 /**
  * ¿Cuál fue el problema con el código?
  *
- * Al arreglo le faltaba una coma.
+ * Al arreglo le faltaban dos comas.
  */
 
 module.exports = createArray;
