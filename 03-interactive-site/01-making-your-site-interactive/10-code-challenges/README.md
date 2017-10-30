@@ -14,22 +14,22 @@
 ## 1. Laberinto
 
 Crea una página web que implemente el juego del Laberinto utilizando DOM y
-eventos. El juego del laberinto es un divertido Puzzle donde podrás darle a
+eventos. El juego del Laberinto es un divertido Puzzle donde podrás darle a
 cualquier jugador la capacidad de interactuar con el mapa hasta encontrar la
 salida.
 
-Recuerda que en laberinto el objetivo es ir de un lugar A hacia un lugar B
+Recuerda que en Laberinto el objetivo es ir de un lugar A hacia un lugar B
 únicamente por el camino correcto.
 
-> El laberinto tiene raíces tan profundas como el mito griego sobre Teseo, que
+> El Laberinto tiene raíces tan profundas como el mito griego sobre Teseo, que
 > fue enviado a un laberinto para matar al minotauro. Teseo usó una bola de hilo
 > para ayudarse a encontrar su camino de regreso, una vez que había terminado
 > con la bestia.
 
 ![GitHub set up-w800](http://photos1.blogger.com/blogger/6613/878/1600/laberinto04.jpg)
 
-El jugador para interactuar con Teseo tendrá que hacer uso de las flechas de su
-teclado para poder mover  y ayudar a Teseo  en su búsqueda de la salida.
+Para interactuar con Teseom el jugador tendrá que hacer uso de las flechas de su
+teclado para poder mover  y ayudar a Teseo en su búsqueda de la salida.
 
 ### Tips para la solución
 
@@ -131,23 +131,23 @@ function moveForward(player) ; //  mover una posición hacia adelante en la dire
 function exitMaze(player); // Algoritmo de búsqueda para encontrar un camino de salida para un laberinto cualquiera
 ```
 
-#### [Tip 4. | Preguntas guia]
+#### [Tip 4. | Preguntas guía]
 
 - ¿Cómo hacemos para detectar el teclado del usuario? En particular, ¿las flechas?
 - ¿Cómo hacemos para mover al personaje en el tablero?
-- ¿Como hacemos para limitar el movimiento del personaje en el tablero? (si hay
+- ¿Cómo hacemos para limitar el movimiento del personaje en el tablero? (si hay
   una pared, por ejemplo)
-- ¿Que significa pintar o renderizar?
+- ¿Qué significa pintar o renderizar?
 - ¿Cómo hacemos para renderizar el tablero?
 
 ## 2. Twitter
 
 En este reto, vamos a replicar el newsfeed de Twitter, para ello vamos a seguir
-un flujo de versiones que te guiarán como enfocarte de una manera más eficiente
+un flujo de versiones que te guiarán para enfocarte de una manera más eficiente
 :)
 
-El diseño lo puedes adaptar como mejor te parezca, _pero no tardes mucho
-definiendo los colores o fuentes por último puedes replicar el diseño de la
+Puedes adaptar el diseño como mejor te parezca, _pero no tardes mucho
+definiendo los colores o fuentes. Por último puedes replicar el diseño de la
 [página oficial](https://twitter.com)_ :). Aquí un ejemplo:
 
 ![Ejemplo Twitter DOM](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
@@ -169,7 +169,7 @@ definiendo los colores o fuentes por último puedes replicar el diseño de la
 1. Si pasa los 140 caracteres, deshabilitar el botón.
 2. Si pasa los 120 caracteres, mostrar el contador con OTRO color.
 3. Si pasa los 130 caracteres, mostrar el contador con OTRO color.
-4. si pasa los 140 caracteres, mostrar el contador en negativo.
+4. Si pasa los 140 caracteres, mostrar el contador en negativo.
 
 ### Versión 0.0.4
 
@@ -208,7 +208,7 @@ Al igual que en el reto anterior, puedes usar tu propio estilo o seguir la del
 
 ### Versión 0.0.2
 
-- Al dar click en el boton de "Guardar", se mostrará un nuevo cuadro donde
+- Al dar click en el botón de "Guardar", se mostrará un nuevo cuadro donde
   estará el nombre de la lista agregada.
 - Mostrar un texto de "Añadir una tarea" dentro de la lista.
 
@@ -230,5 +230,5 @@ Al igual que en el reto anterior, puedes usar tu propio estilo o seguir la del
 ### Versión 0.0.6 (Extra)
 
 - Poder agregar múltiples listas con tarjetas. Para esto, el formulario de
-  "Añadir una lista" debe de aparecer a la derecha de la lista anteriormente
+  "Añadir una lista" debe aparecer a la derecha de la lista anteriormente
   creada.
