@@ -1,13 +1,7 @@
-# Closing
-
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
-- Duración: `120min`
-
 # Closing: Haciendo tu sitio web interactivo
 
 - Tipo: `seminario`
-- Formato: `guiado`
+- Formato: `guided-learning`
 - Duración: `120min`
 
 ***
