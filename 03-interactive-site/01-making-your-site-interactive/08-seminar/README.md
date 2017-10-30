@@ -14,7 +14,7 @@
 
 ## Agenda
 
-- Entendamos bien el concepto de
+- Entendamos bien el concepto de:
 
   DOM
 
