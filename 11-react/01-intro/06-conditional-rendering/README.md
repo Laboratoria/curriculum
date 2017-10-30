@@ -6,9 +6,9 @@
 
 ***
 
-En React, puedes distintos componentes para encapsular el comportamiento que
-necesites. Luego, puedes renderizar sólo algunos de esos componentes,
-dependiendo del estado de tu aplicación.
+En React, puedes construir distintos componentes para encapsular el
+comportamiento que necesites. Luego, puedes renderizar sólo algunos de esos
+componentes, dependiendo del estado de tu aplicación.
 
 > El *renderizado coindicional* funciona de la misma manera que funcionan las
 condiciones en JavaScript. Usa operadores como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
@@ -47,7 +47,7 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
 
 Este ejemplo renderiza diferentes mensajes, dependiendo del valor de la prop
 `isLoggedIn`.
@@ -133,10 +133,10 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
 
 Esto funciona porque en JavaScript los operadores booleanos son *lazy*:
-`true && expression` siempre evalua a `expression`, y `false && expression`
+`true && expression` siempre evalúa a `expression`, y `false && expression`
 siempre evalua a `false`.
 
 Entonces, si la condición es `true`, el elemento a la derecha del `&&` aparece
@@ -190,4 +190,4 @@ ReactDOM.render(
 );
 ```
 
-[Try it on CodePen.](https://codepen.io/merunga/pen/QMVPbb?editors=0010)
+[Pruébalo en CodePen](https://codepen.io/merunga/pen/QMVPbb?editors=0010)

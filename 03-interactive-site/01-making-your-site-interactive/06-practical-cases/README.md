@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `6h`
 
 ## Objetivos
 
@@ -17,9 +17,11 @@ Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
 para resolver problemas.
 
 A continuación tendrás varios problemas que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones
-de Michelle. Después de haberlo intentado, compara tus soluciones
-con las de Michelle.
+resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
+
+Después de haberlo intentado, compara tus soluciones con los videos de abajo.
+
+*NO* antes.
 
 ### 1. Reserva de puestos aerolínea
 
@@ -105,7 +107,7 @@ sin minas (vacía o de número), el juego continúa.
 - Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
   más celdas) y mostrar mensaje: “Esto ha explotado”
 - Al dar click en una celda con un número, mostrar el número que tiene.
-- Crear un botón Re iniciar que comience de nuevo el juego.
+- Crear un botón Reiniciar que comience de nuevo el juego.
 
 ##### Puntos extras
 
@@ -159,7 +161,7 @@ Veamos como debe quedar la página...
 
 ## Solucionarios
 
-A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
+A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
 los ejercicios anteriores.
 
 ### 1. Aerolínea

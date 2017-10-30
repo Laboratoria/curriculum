@@ -25,11 +25,12 @@ de diseño.
 
 ### ¿Quiénes pueden sketchear?
 
-TODOS. Olvídate del temor.
+CUALQUIER PERSONA. Olvídate del temor.
 
 ## Agenda
 
 1. Miremos este video:
+
    [![Sketching](https://img.youtube.com/vi/L1pBhHjGKvI/0.jpg)](https://youtu.be/L1pBhHjGKvI?t=23m00s)
 2. Dibuja un círculo, un triángulo, un cuadrado y una línea.
 3. Haz un sketch replicando la pantalla del feed de Instagram.

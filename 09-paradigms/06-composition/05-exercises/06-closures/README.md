@@ -1,0 +1,5 @@
+# Closures
+
+* Environment: `js`
+
+***

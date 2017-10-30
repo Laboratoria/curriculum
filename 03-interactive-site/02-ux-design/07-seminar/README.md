@@ -92,3 +92,5 @@
    teoría y su curiosidad son valoradas.
 
    -->
+
+6. Revisar el Opening e ir respondiendo dudas.
