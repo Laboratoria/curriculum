@@ -87,7 +87,7 @@ if (numero = 0) {
  */
 
 // Función que espera 2 números como parámetros para devolver la suma de ambos
-var suma = function (num1, num2) {
+var suma = function(num1, num2) {
   return num1 + num2;
 };
 

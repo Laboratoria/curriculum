@@ -139,7 +139,7 @@ Para poner en práctica esta lectura, puedes depurar el siguiente código:
  * el error.
  */
 
-var reverse = function (text) {
+var reverse = function(text) {
     var reversedText = '';
     var textLength = text.length;
     for (var i = textLength; i > 0; i--) {
