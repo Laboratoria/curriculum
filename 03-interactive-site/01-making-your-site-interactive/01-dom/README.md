@@ -88,7 +88,8 @@ Analizando la misma imagen de arriba:
   o nodo **html**.
 
 - El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`,
-  cuyo padre es el objeto o nodo **a**. (En la imagen parece que **attribute** es hermano del nodo **a** pero **a** es padre de **attribute**.)
+  cuyo padre es el objeto o nodo **a**. (En la imagen parece que **attribute**
+  es hermano del nodo **a** pero **a** es padre de **attribute**.)
 
 ### Los 2 tipos de nodos más usados
 
