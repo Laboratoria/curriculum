@@ -56,6 +56,6 @@ Usualmente vamos a querer que los usuarios de nuestros productos (digitales o f√
 
 La experiencia al usar nuestros productos es directamente proporcional a su consumo.
 
-Al tener una mejor UX tenemos mas consumo.
+Al tener una mejor UX tenemos m√°s consumo.
 
 Y viceversa.
