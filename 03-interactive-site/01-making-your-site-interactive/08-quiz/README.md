@@ -116,41 +116,37 @@
 
 #### Opciones
 
-  1.
-  ```html
-      <ul>
-        <li data-lista="frutas">Manzana</li>
-        <li data-lista="frutas">Peras</li>
-        <li data-lista="frutas">Fresas</li>
-      </ul>
-  ```
+1. ```html
+    <ul>
+      <li data-lista="frutas">Manzana</li>
+      <li data-lista="frutas">Peras</li>
+      <li data-lista="frutas">Fresas</li>
+    </ul>
+   ```
 
-  2.
-  ```html
-      <ul>
-        <li data="frutas">Manzana</li>
-        <li data="frutas">Peras</li>
-        <li data="frutas">Fresas</li>
-      </ul>
-  ```
+2. ```html
+    <ul>
+      <li data="frutas">Manzana</li>
+      <li data="frutas">Peras</li>
+      <li data="frutas">Fresas</li>
+    </ul>
+   ```
 
-  3.
-  ```html
-      <ul>
-        <li data-lista-frutas>Manzana</li>
-        <li data-lista-frutas>Peras</li>
-        <li data-lista-frutas>Fresas</li>
-      </ul>
-  ```
+3. ```html
+    <ul>
+      <li data-lista-frutas>Manzana</li>
+      <li data-lista-frutas>Peras</li>
+      <li data-lista-frutas>Fresas</li>
+    </ul>
+   ```
 
-  4.
-  ```html
-      <ul>
-        <li data-lista(frutas)>Manzana</li>
-        <li data-lista(frutas)>Peras</li>
-        <li data-lista(frutas)>Fresas</li>
-      </ul>
-  ```
+4. ```html
+    <ul>
+      <li data-lista(frutas)>Manzana</li>
+      <li data-lista(frutas)>Peras</li>
+      <li data-lista(frutas)>Fresas</li>
+    </ul>
+   ```
 
 <solution style="display:none;">1</solution>
 
@@ -164,27 +160,23 @@
 
 #### Opciones
 
-  1.
-  ```javascript
-      var text = document.getElementById("text");
-      var autor = autor.dataset;
-  ```
+1. ```javascript
+    var text = document.getElementById("text");
+    var autor = autor.dataset;
+   ```
 
-  2.
-  ```javascript
-      var text = document.getElementById("text");
-      var autor = dataset.text.autor;
-  ```
-  3.
-  ```javascript
-      var text = document.getElementById("text");
-      var autor = text.dataset.autor;
-  ```
-  4.
-  ```javascript
-      var text = document.getElementById("text");
-      var text.dataset = autor;
-  ```
+2. ```javascript
+    var text = document.getElementById("text");
+    var autor = dataset.text.autor;
+   ```
+3. ```javascript
+    var text = document.getElementById("text");
+    var autor = text.dataset.autor;
+   ```
+4. ```javascript
+    var text = document.getElementById("text");
+    var text.dataset = autor;
+   ```
 
 <solution style="display:none;">3</solution>
 
@@ -225,27 +217,22 @@
 
 #### Opciones
 
-  1.
-  ```javascript
-    var boton = document.getElementById('boton');
-    boton.createEventListener(click, funcion_a_ejecutar);
-  ```
-
-  2.
-  ```javascript
-    var boton = document.getElementById('boton');
-    boton.addEventListener = 'click' + 'funcion_a_ejecutar';
-  ```
-  3.
-  ```javascript
-    var boton = document.getElementById('boton');
-    boton.addEventListener('click', funcion_a_ejecutar);
-  ```
-  4.
-  ```javascript
-    var boton = document.getElementById('boton');
-    boton = document.addEventListener('click', funcion_a_ejecutar);
-  ```
+1. ```javascript
+   var boton = document.getElementById('boton');
+   boton.createEventListener(click, funcion_a_ejecutar);
+   ```
+2. ```javascript
+   var boton = document.getElementById('boton');
+   boton.addEventListener = 'click' + 'funcion_a_ejecutar';
+   ```
+3. ```javascript
+   var boton = document.getElementById('boton');
+   boton.addEventListener('click', funcion_a_ejecutar);
+   ```
+4. ```javascript
+   var boton = document.getElementById('boton');
+   boton = document.addEventListener('click', funcion_a_ejecutar);
+   ```
 
 <solution style="display:none;">3</solution>
 

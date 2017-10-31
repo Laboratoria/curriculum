@@ -46,21 +46,19 @@
 
 #### Opciones
 
-1.
- ```javascript
+1. ```javascript
       var paragraph = document.getElementById('paragraph');
       paragraph.style.background='red';
- ```
-2.
-```javascript
+   ```
+2. ```javascript
       var paragraph = document.getElementById('paragraph');
       paragraph.style.backgroundColor='red';
- ```
-3.
-```javascript
+   ```
+3. ```javascript
       var paragraph = document.getElementById('paragraph');
       paragraph.backgroundColor='red';
- ```
+   ```
+
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
@@ -83,6 +81,7 @@ console.log(elementos);
 ### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
 
 #### Opciones
+
 1. `.querySelector();`
 2. `.getElementsByClassName();`
 3. `.lastChild();`
@@ -93,6 +92,7 @@ console.log(elementos);
 ### 6) ¿Qué función utilizamos para crear animaciones con JS?
 
 #### Opciones
+
 1. `location.href`
 2. `setTimeout();`
 3. `setInterval();`
