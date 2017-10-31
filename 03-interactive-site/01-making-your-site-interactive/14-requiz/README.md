@@ -104,9 +104,9 @@ console.log(elementos);
 
 #### Opciones
 
-1. Conocer resoluciones más utilizadas
+1. Para conocer resoluciones más utilizadas
 2. Para identificar a un elemento del DOM
-3. Adaptar los diseños a las resoluciones más utilizadas
+3. Para adaptar los diseños a las resoluciones más utilizadas
 4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
    del document
 
