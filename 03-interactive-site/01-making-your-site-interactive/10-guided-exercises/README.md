@@ -45,6 +45,7 @@ Para desarrollar el juego debemos tener en cuenta ciertos puntos:
 
 ![Tic Tac Toe](https://d30y9cdsu7xlg0.cloudfront.net/png/25029-200.png)
 
+
 ### 2. Creando animación en el DOM
 
 Necesitamos generar 12 cuadros blancos en filas de 3. Uno de esos cuadros
