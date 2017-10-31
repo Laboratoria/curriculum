@@ -1,7 +1,7 @@
 # Casos prácticos (videos)
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ## Objetivos
