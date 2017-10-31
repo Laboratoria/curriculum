@@ -14,18 +14,31 @@
 ## ¿Qué es sketching?
 
 Sketchear o dibujar es una actividad muy común e importante dentro del proceso
-de diseño.
+de diseño ya que nos permite identificar y establecer el flujo de un programa, así como la estructura de la información y los elementos gráficos necesarios para su buen desarrollo y funcionamiento.
 
 ### ¿Por qué?
 
-- Los sketches son una forma de expresar y “materializar” nuestras ideas.
+- Los sketches son una forma de expresar y “materializar” nuestras ideas
 - Fáciles para compartir y recibir feedback
 - Económicos (solo papel y lapicero)
 - Rápidos
+- Ayudan a establecer las rutas o flujo en una página
+- Permite visualizar inconsistencias en el programa
+- Ahorran tiempo y recursos a la hora de desarrollar un producto
 
 ### ¿Quiénes pueden sketchear?
 
 CUALQUIER PERSONA. Olvídate del temor.
+
+## Recursos básicos para hacer un buen sketch
+
+Tomando como base el círculo, cuadrado, triángulo, rectángulo y la línea, podemos comenzar a componer, todo depende de qué tan detallista quieres ser.
+Toma en cuenta que hay algunos estándares al momento de hacer un sketch, como, la forma de representar texto, una imagen, videos, entre otros.
+
+![](https://preview.ibb.co/kx4fsb/sketching.jpg)
+
+Mira el siguiente ejemplo:
+  ![](https://preview.ibb.co/eAkBFw/ex_sketch_2.jpg)
 
 ## Agenda
 
