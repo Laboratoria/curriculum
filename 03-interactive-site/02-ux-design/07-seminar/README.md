@@ -72,7 +72,7 @@
    -->
 
 4. Por medio de ejemplos veremos ocasiones en las sketchear y tener prototipos
-   en papel han sido importantes.
+   en papel han sido importantes
 
    <!--
 
@@ -93,4 +93,4 @@
 
    -->
 
-6. Revisar el Opening e ir respondiendo dudas.
+6. Revisar el Opening e ir respondiendo dudas
