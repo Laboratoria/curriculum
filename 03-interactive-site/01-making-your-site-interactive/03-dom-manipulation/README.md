@@ -262,7 +262,8 @@ de Javascript y así poder crear páginas dinámicas, te sugiero que vayas
 haciendo el ejercicio junto con el video y si es necesario puedes irlo pausando.
 
 - Este [video](https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
-  dura 8:18; en el minuto 2:25 empieza a utilizar los métodos `.createElement` y `createTextNode`
+  dura 8:18; en el minuto 2:25 empieza a utilizar los métodos `.createElement` y
+  `createTextNode`
 
 - Este otro [video](https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
   agrega los nodos creados al DOM
