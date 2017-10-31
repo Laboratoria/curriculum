@@ -47,15 +47,15 @@ En el siguiente ejemplo, tenemos un código que verifica si el número ingresado
 por un usuario es cero, positivo o negativo.
 
 ```javascript
-var number = prompt("Ingrese un número");
+var number = prompt('Ingrese un número');
 number = Number(numero);
 
 if (number === 0) {
-  alert("Cero");
+  alert('Cero');
 } else if (number > 0) {
-  alert("Positivo");
+  alert('Positivo');
 } else {
-  alert("Negativo");
+  alert('Negativo');
 }
 ```
 
@@ -115,14 +115,14 @@ ser depurada.
 A continuación una demostración usando el siguiente script:
 
 ```javascript
-var number = parseInt(prompt("Ingresa un número (del 1 al 10):"));
+var number = parseInt(prompt('Ingresa un número (del 1 al 10):'));
 var randomNumber = Math.floor(Math.random() * 10);
 
 debugger;
 if (randomNumber === number) {
-    console.log("Adivinaste!");
+    console.log('Adivinaste!');
 } else {
-    console.log("Perdiste! El número es " + randomNumber);
+    console.log('Perdiste! El número es ' + randomNumber);
 }
 ```
 
@@ -140,7 +140,7 @@ Para poner en práctica esta lectura, puedes depurar el siguiente código:
  */
 
 var reverse = function (text) {
-    var reversedText = "";
+    var reversedText = '';
     var textLength = text.length;
     for (var i = textLength; i > 0; i--) {
         reversedText += text.charAt(i);
@@ -148,7 +148,7 @@ var reverse = function (text) {
     return reversedText;
 };
 
-var result = reverse("Laboratoria");
+var result = reverse('Laboratoria');
 // Resultado actual: airotaroba
 // Resultado esperado: airotarobaL
 console.log(result);

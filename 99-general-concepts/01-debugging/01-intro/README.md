@@ -54,7 +54,7 @@ var número = 10;
  *
  */
 if (numero = 0) {
-  console.log("Cero");
+  console.log('Cero');
 } else if (numero > 0) {
   /*
    *
@@ -72,7 +72,7 @@ if (numero = 0) {
    * como un `typo`
    *
    */
-  console.lo("Negativo");
+  console.lo('Negativo');
 }
 ```
 
@@ -92,10 +92,10 @@ var suma = function (num1, num2) {
 };
 
 // Imaginemos que el número 1 es 6
-var num1 = prompt("Ingrese el número 1");
+var num1 = prompt('Ingrese el número 1');
 
 // Imaginemos que el número 2 es 4
-var num2 = prompt("Ingrese el número 2");
+var num2 = prompt('Ingrese el número 2');
 
 var resultado = suma(num1, num2);
 
