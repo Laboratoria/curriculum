@@ -16,8 +16,7 @@ En esta unidad aprenderás:
 
 ## ¿Por qué aprender esto?
 
-Porque aprender sobre esto, nos permitirá crear mejores productos digitales.
-Porque:
+Aprender sobre esto nos permitirá crear mejores productos digitales, porque:
 
 - Al saber el rol que tiene cada uno dentro del desarrollo del producto
   podremos trabajar mejor en equipo.
@@ -46,11 +45,11 @@ respondiendo las siguientes preguntas:
 ![](http://via.placeholder.com/450x350)
 -->
 
-## Guia de preguntas y conceptos clave
+## Guía de preguntas y conceptos clave
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+a los que debemos prestar particular atención.
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
