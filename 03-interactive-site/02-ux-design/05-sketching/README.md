@@ -18,7 +18,7 @@ de diseño.
 
 ### ¿Por qué?
 
-- Los sketches son una forma de expresar y “materializar” nuestras ideas.
+- Los sketches son una forma de expresar y “materializar” nuestras ideas
 - Fáciles para compartir y recibir feedback
 - Económicos (solo papel y lapicero)
 - Rápidos
