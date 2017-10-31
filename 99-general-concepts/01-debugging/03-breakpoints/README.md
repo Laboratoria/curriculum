@@ -1,13 +1,15 @@
 # ¿Cómo debuggear en JS?
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `30min`
+
+***
 
 ## Objetivos de Aprendizaje
 
-* Aprender a depurar a través del Dev Tools
-* Aprender a usar el `debugger statement`
+- Aprender a depurar a través del Dev Tools
+- Aprender a usar el `debugger statement`
 
 ***
 
