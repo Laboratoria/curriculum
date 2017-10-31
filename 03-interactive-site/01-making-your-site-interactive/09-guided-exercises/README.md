@@ -37,7 +37,7 @@ Para desarrollar el juego debemos tener en cuenta ciertos puntos:
 
 1. Debes contar con un botón **RESET** para limpiar el tablero y comenzar a
    jugar desde cero.
-2. Bajo el tablero deberás indicar, al finalizar, que elemento fue el ganador
+2. Bajo el tablero deberás indicar, al finalizar, qué elemento fue el ganador
    o si se produjo un empate.
 3. Deben poder participar ambos jugadores, por ejemplo: el primer click
    corresponde al elemento **X** y el siguiente click automáticamente
@@ -45,7 +45,7 @@ Para desarrollar el juego debemos tener en cuenta ciertos puntos:
 
 ![Tic Tac Toe](https://d30y9cdsu7xlg0.cloudfront.net/png/25029-200.png)
 
-### 2. Creando animación en el DOM?
+### 2. Creando animación en el DOM
 
 Necesitamos generar 12 cuadros blancos en filas de 3. Uno de esos cuadros
 será de un color diferente. Necesitamos mover ese cuadro a través de los
@@ -66,7 +66,7 @@ en la siguiente imagen:
 
 ### 4. Nuestras Coders v2
 
-¿Recuerdas el ejercicio guíado de [Nuestras Coders](https://lms.laboratoria.la/cohorts/test/courses/interactive-site/00-html-and-css/14-guided-exercises)
+¿Recuerdas el ejercicio guíado de [Nuestras Coders](https://lms.laboratoria.la/cohorts/test/courses/interactive-site/00-html-and-css/14-guided-exercises)?
 Ahora agregaremos un filtro para seleccionar a las coders dependiendo de su sede.
 Al final, deberá quedarte algo así:
 

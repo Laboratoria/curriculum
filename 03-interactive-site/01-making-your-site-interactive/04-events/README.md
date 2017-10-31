@@ -11,7 +11,7 @@ En esta unidad aprenderemos:
 1. ¿Qué es un evento y para qué nos sirve?
 2. ¿Cómo usarlos?
 3. Manejo y flujo de eventos (propagación).
-4. Tipos
+4. Tipos de eventos
 
 ***
 
@@ -19,13 +19,13 @@ En esta unidad aprenderemos:
 
 Es cuando el usuario realiza una acción permitiéndole interactuar con el
 programa. A cada evento se le asocia un manejador (*conocido como eventHandlers
-o eventListener*) el cual, se ejecutará cuando ocurra el evento.
+o eventListener*) el cual se ejecutará cuando ocurra el evento.
 
 Aquí hay un [video](https://www.youtube.com/watch?v=gyICdb1iwII) de referencia.
 
 ## ¿Cómo usar los eventos?
 
-Para poder hacer uso de la magia de los eventos es necesario saber primero como
+Para poder hacer uso de la magia de los eventos es necesario saber primero cómo
 "escucharlos", esto se puede lograr mediante el método __addEventListener__.
 
 La sintaxis es muy sencilla:
@@ -38,7 +38,7 @@ Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de
 referencia.
 
 Existen diferentes formas de asociar un evento a elementos del DOM, para saber
-más sobre ello visita éste otro [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
+más sobre ello visita este otro [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
 (a partir del punto 6.2).
 
 ### Manejo de eventos
@@ -60,7 +60,7 @@ necesita información adicional sobre éste.
 
  __objectEvent__ es el objeto que representa el evento que se ha producido. Se
  crea automáticamente cuando ocurre el evento y se destruye una vez se haya
- ejecutado su función manejadora. Éste objeto tiene un conjunto de propiedades
+ ejecutado su función manejadora. Este objeto tiene un conjunto de propiedades
  con información sobre el evento. En el siguiente código podrás encontrar un
  ejemplo.
 
@@ -75,12 +75,12 @@ button.addEventListener('click', helloWorld, false);
 ```
 
 En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene
-por defecto, para ello existe __preventDefault__:
+por defecto, para ello existe __preventDefault__.
 
 > Este es el código para un formulario muy sencillo.
 > Hay un input para ingresar el nombre y otro para ingresar el apellido.
 > Por último, hay un input de tipo *submit* (botón submit).
-> ![](https://fotos.subefotos.com/a67120b81aed0a8a0d8f2ef44db9378ao.png)
+> ![](https://fotos.subefotos.com/a67120b81aed0a8a0d8f2ef44db9378ao.png).
 
 ```html
 <form>
@@ -99,10 +99,10 @@ por defecto, para ello existe __preventDefault__:
 <p></p>
 ```
 
-> Ahora veámos la funcionalidad del JS:
+> Ahora veamos la funcionalidad del JS:
 > En la primera parte se guardan en variables los elementos del formulario.
 > Después tenemos la función que detona el evento submit.
-> Esta función comprueba si los campos están vacios.
+> Esta función comprueba si los campos están vacíos.
 > Si la condición se cumple se ejecuta la función *preventDefault* para el
 *objectEvent* (e),
 > impidiendo que el formulario se envíe automáticamente (acción que tiene por
@@ -130,20 +130,20 @@ phase* y *Bubbling phase*, como se muestra en la siguiente imagen.
 
 ![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
 
-Revisa éste [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontrarás
+Revisa este [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontrarás
 un ejemplo práctico del flujo que siguen los eventos.
 
-## Tipo de eventos
+## Tipos de eventos
 
 Cuando el usuario interactúa con el navegador se pueden desencadenar múltiples
 tipos de eventos, algunos de los más comunes son:
 
-- Eventos del ratón (mouseEvent)
+- Eventos del mouse (mouseEvent)
 - Eventos del teclado (keyboardEvent)
 - Eventos del formulario
 - Eventos de la ventana
 
-Para mayor información sobre todos los eventos visita éste [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
+Para mayor información sobre todos los eventos visita este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
 y también este otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Key Events

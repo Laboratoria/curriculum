@@ -56,7 +56,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 4) Cuando quiero acceder u obtener un elemento único de mi página web a través de su identificador ¿Qué método/métodos de selección del DOM puedo utilizar?
+### 4) Cuando quiero acceder u obtener un elemento único de mi página web a través de su identificador, ¿qué método/métodos de selección del DOM puedo utilizar?
 
 #### Opciones
 
@@ -67,7 +67,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 5) Para acceder a elementos de mi página web que tienen la misma etiqueta HTML, ¿Qué método/métodos del DOM puedo utilizar?
+### 5) Para acceder a elementos de mi página web que tienen la misma etiqueta HTML, ¿qué método/métodos del DOM puedo utilizar?
 
 #### Opciones
 
@@ -154,7 +154,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 10)  Viendo el siguiente código, ¿Cómo accedemos a nuestros atributos data a través de js?
+### 10)  Viendo el siguiente código, ¿cómo accedemos a nuestros atributos data a través de js?
 
 ```html
 <p id="text" data-autor="Gustavo Monet">

@@ -6,12 +6,12 @@
 
 ## Objetivos de Aprendizaje
 
-En ésta unidad aprenderemos:
+En esta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve?
 - Pedir elementos del DOM usando selectores (getElementById,
   getElementsByClassName, etc)
-- Recorrer elementos del DOM usando padres o hijos (firstChild, parentNode, etc)
+- Recorrer elementos del DOM usando padres o hijos (firstChild, parentNode, etc.)
 - Saber usar:
   * `document.getElementById()`
   * `document.getElementsByTagName()`
@@ -33,7 +33,7 @@ En ésta unidad aprenderemos:
 ## ¿Qué es el DOM?
 
 En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html)
-podemos ver que es el DOM, ésta información es extracto de LibrosWeb, un
+podemos ver qué es el DOM. Esta información es extracto de LibrosWeb, un
 pionero en creación de contenido educativo para desarrollo web.
 
 ## Navegando el DOM (DOM Tree)
@@ -59,27 +59,27 @@ las flechas indican las relaciones familiares (padre - hijos - hermanos) entre
 nodos. Sí, los nodos tienen relaciones familiares. Así como tú tienes hermanos,
 padre o hijos, **los nodos del DOM también tienen una relación familiar**.
 
-### Relación Padres e hijos
+### Relación padres e hijos
 
 #### Analicemos esta imagen
 
 ![DOM Tree](https://www.w3schools.com/js/pic_htmltree.gif)
 
 - La raíz del árbol de nodos de cualquier página web siempre es la misma:
-  **Un nodo llamado document** que es el objeto `padre` de los objetos
+  **un nodo llamado document** que es el objeto `padre` de los objetos
   restantes.
 
 - El nodo **html** es el `padre` de los objetos o nodos **head** y **body**
   (pero **hijo** del nodo **document**).
 
-- El objeto o nodo **body** es el `padre` de el **a** y el **h1**, por lo
+- El objeto o nodo **body** es el `padre` del **a** y el **h1**, por lo
   tanto estas etiquetas son `hijos` del  nodo **body**.
 
 - El nodo de texto **My header** es `hijo` del nodo **h1**.
 
 #### Relación hermanos
 
-Analizando la misma imagen de arriba.
+Analizando la misma imagen de arriba:
 
 - Los nodos `hermanos` hacen referencia a los nodos que tiene el mismo padre, es
   decir, son nodos del mismo nivel en el árbol del DOM.
@@ -90,7 +90,7 @@ Analizando la misma imagen de arriba.
 - El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`,
   cuyo padre es el objeto o nodo **a**. (En la imagen parece que **attribute** es hermano del nodo **a** pero **a** es padre de **attribute**.)
 
-### Los 2 tipos de nodos mas usados
+### Los 2 tipos de nodos más usados
 
 Como podrás notar, la transformación de la página web en un árbol DOM genera
 dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una
@@ -103,7 +103,7 @@ Así, la siguiente etiqueta HTML:
 <title>Página Sencilla</title>
 ```
 
-Genera los siguientes nodos:
+genera los siguientes nodos:
 
 - `Nodo de tipo elemento` por la etiqueta `title`.
 - `Nodo de tipo texto` por el texto `"Página Sencilla"`
@@ -121,7 +121,7 @@ De la misma manera, la etiqueta HTML:
 genera los siguientes nodos:
 
 - `Nodo de tipo elemento` correspondiente a la etiqueta `p`.
-- `Nodo de tipo texto`  por el contenido textual `"Esta página es"`.
+- `Nodo de tipo texto` por el contenido textual `"Esta página es"`.
 - Como el contenido de la etiqueta p incluye en su interior una `etiqueta
   strong`, esta se trasnforma en un `nodo de tipo elemento`.
 - Finalmente, el contenido textual se convierte en un `nodo de tipo texto`
@@ -167,7 +167,7 @@ cuales podremos manipular las páginas Web a través del DOM.
 
 Veamos a continuación más específicamente sus características.
 
-- Nodo Element : representa cada una de las etiquetas HTML. Pueden ser hijos de
+- Nodo Element: representa cada una de las etiquetas HTML. Pueden ser hijos de
   otro nodo de tipo elemento, y también tener hijos (nodos elementos o nodo de
   texto).
 
@@ -198,7 +198,7 @@ Nodo Element con hijo texto
 1 nodo Text --> hola mundo
 ```
 
-- Nodo Attr : se define un nodo de este tipo para representar cada uno de los
+- Nodo Attr: se define un nodo de este tipo para representar cada uno de los
   atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo
   Element y no pueden tener hijos.
 
@@ -209,7 +209,7 @@ Nodo Element con hijo texto
  2 nodo Attr --> src y alt
  ```
 
-- Nodo Text : nodo que contiene el texto encerrado por una etiqueta HTML. Estos
+- Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos
 nodos son siempre hijos de un nodo Element y no pueden tener hijos.
 
 ```html
@@ -229,7 +229,7 @@ siempre'
 
 ```
 
-- Nodo Comment : representa los comentarios incluidos en la pagina HTML.
+- Nodo Comment: representa los comentarios incluídos en la página HTML.
 
 ```html
 
@@ -253,21 +253,21 @@ siempre'
 
 ```
 
-- Nodo Document : representa al nodo raíz del que derivan todos los demás nodos
+- Nodo Document: representa al nodo raíz del que derivan todos los demás nodos
   del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
-  Elemento HTML.
+  elemento HTML.
 
 ## Propiedades de los nodos
 
-Los nodos del DOM poseen propiedades básicas las cuales son:
+Los nodos del DOM poseen propiedades básicas, que cuales son:
 
 - ___nodeName___, indica el nombre del nodo.
 
-- ___nodeType___ , es un número entero que describe el tipo de nodo: `1` para
+- ___nodeType___, es un número entero que describe el tipo de nodo: `1` para
 las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo
 comentarios, `9` para el nodo tipo document, etc.
 
-- ___nodeValue___ , es el texto contenido dentro de un nodo de texto. Esta
+- ___nodeValue___, es el texto contenido dentro de un nodo de texto. Esta
 propiedad solo se utiliza para los nodos tipo texto `8` y nodos tipo
 comentarios `9`.
 
@@ -275,7 +275,7 @@ comentarios `9`.
 ## Seleccionando elementos del DOM
 
 En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html)
-vemos como seleccionar nodos y que es un nodo en el DOM.
+vemos cómo seleccionar nodos y qué es un nodo en el DOM.
 
 ## Recapitulando
 
@@ -287,7 +287,7 @@ Para terminar, Lulú nos ha grabado un video para reforzar los conceptos de DOM.
 
 
 También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
-de la documentación oficial de Mozilla de qué es el DOM
+de la documentación oficial de Mozilla de qué es el DOM.
 
 Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
 de cómo acceder a elementos del DOM con JS de la documentación oficial.
