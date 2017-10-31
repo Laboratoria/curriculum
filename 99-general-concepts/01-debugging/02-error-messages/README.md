@@ -1,12 +1,14 @@
 # Mensajes de error
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `60min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `60min`
+
+***
 
 ## Objetivos de Aprendizaje
 
-* Conocer los tipos diferentes de mensajes de error y el vocabulario en esos
+- Conocer los tipos diferentes de mensajes de error y el vocabulario en esos
   mensajes para resolver problemas en el código.
 
 ***
