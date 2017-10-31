@@ -2,14 +2,14 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `120min`
 
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
 
-- Como manipular los nodos del DOM.
-- Como crear, añadir y eliminar Nodos al DOM.
+- Cómo manipular los nodos del DOM.
+- Cómo crear, añadir y eliminar Nodos al DOM.
 - Saber usar:
 
   * `.innerHTML`
@@ -31,22 +31,21 @@ En esta unidad aprenderemos:
 ## Modificando elementos y contenido del DOM
 
 En el tema anterior vimos qué es el DOM y cómo seleccionar nodos utilizando
-JavaScript. En ésta ocasión vamos a utilizar el DOM para modificar el
+JavaScript. En esta ocasión vamos a utilizar el DOM para modificar el
 documento – html – utilizando JavaScript.
 
 Los atributos `innerHTML` y `textContent` funcionan como métodos para obtener y
-establecer el valor de una propiedad específico.
+establecer el valor de una propiedad específica.
 
 ### textContent
 
-Al utilizar textContent sobre un nodo se va a mostrar el contenido en texto que
+Al utilizar textContent sobre un nodo, se va a mostrar el contenido en el texto que
 exista en el nodo y en los hijos del mismo.
-Si hay etiquetas de html son ignoradas.
+Si hay etiquetas de html, son ignoradas.
 Si se le asigna un valor, va a reemplazar todo el contenido del nodo por la
 cadena de texto que se le asigne.
 Si la cadena de texto contiene etiquetas HTML, éstas se van a escapar y se van
 a visualizar como texto.
-
 Los cambios realizados no van a ser permanentes, el documento va a regresar a
 su estado original una vez que se cargue el sitio.
 
@@ -59,9 +58,8 @@ exista en el nodo seleccionado y en los hijos, se van a mostrar las etiquetas
 de HTML que pudieran existir.
 Si se le asigna un valor, se va a reemplazar el contenido del nodo incluyendo
 a sus hijos por la cadena de texto que se le asigne. A diferencia de
-textContent, si dentro de la cadena de texto asignada existen etiquetas de html
+textContent, si dentro de la cadena de texto asignada existen etiquetas de html,
 se van a visualizar en el navegador.
-
 Los cambios realizados no van a ser
 permanentes, el documento va a regresar a su estado original una vez que se
 cargue el sitio.
@@ -69,7 +67,7 @@ cargue el sitio.
 ![alt text](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
 
 En el siguiente [video](https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16)
-vemos de forma práctica, como utilizar innerHTML y textContent
+vemos de forma práctica, cómo utilizar innerHTML y textContent.
 
 #### value
 
@@ -80,12 +78,12 @@ campo de texto.
 
   * Devuelve la propiedad value:
     `elementoNodo.value`
-  * Establezca la propiedad value:
+  * Establece la propiedad value:
     `elementoNodo.value = text`
 
 >Nota: Valor devuelto: Una cadena, que representa el valor del campo de texto.
 
-Veremos un ejemplo más claro en el siguiente [link](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0)
+Veremos un ejemplo más claro en el siguiente [link](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0).
 
 #### insertBefore
 
@@ -167,33 +165,33 @@ asigne una posición en el árbol no se mostrará al usuario. Cómo incluirlo en
 #### createTextNode
 
 Al igual que podemos crear un elemento, podemos crear un texto con el cual
-poblarlo por medio de createTextNode.
+ocuparlo por medio de createTextNode.
 
 - Sintaxis:
 
     `document.createTextNode('el_texto_que_desee');`
 
 Igual que para el elemento creado arriba con el metodo _createElement_, el
-texto a crear por medio de este método debe ir entrecomillado. Y de la misma
+texto a crear por medio de este método debe ir entre comillas. Y de la misma
 manera también, el texto existe, pero en ninguna parte. Si quisiéramos, por
-ejemplo, crear un nuevo párrafo en un documento con el texto «Menos que Macbeth,
-pero más grande», tendríamos que crear primero el elemento p, luego el nodo de
+ejemplo, crear un nuevo párrafo en un documento con el texto «Felicidades
+ coders», tendríamos que crear primero el elemento **p**, luego el nodo de
 texto, y por último convertir el nodo de texto en el hijo del párrafo por medio
-de appendChild, método que veremos en la seccion `añadir nodos al DOM`. Algo así:
+de appendChild, método que veremos en la seccion `añadir nodos al DOM`.
 
 ```javascript
 var parrafo = document.createElement('p');
-var texto = document.createTextNode('Menos que Macbeth, pero más grande');
+var texto = document.createTextNode('Felicidades coders');
 parrafo.appendChild(texto);
 ```
 
-Con ello nuestra variable parrafo contendría un elemento p con su texto
-correspondiente, listo para ser incluido en el árbol del documento.
+Con ello nuestra variable párrafo contendría un elemento **p** con su texto
+correspondiente, listo para ser incluído en el árbol del documento.
 
 ## Añadir nodos al DOM
 
 Acabamos de ver cómo crear elementos y nodos de texto, pero también hemos visto
-que éstos nodos creados se mantienen en el _limbo_ del documento hasta que los
+que estos nodos creados se mantienen en el _limbo_ del documento hasta que los
 incluimos en el árbol del mismo.
 
 Para trabajar incorporando, modificando o eliminando nodos, contamos con los
@@ -201,7 +199,7 @@ métodos que vamos a ver a continuación.
 
 ### appendChild
 
-Por medio de este método podemos incluir a un nodo un nuevo hijo, de esta manera:
+Por medio de este método podemos añadir a un nodo un nuevo hijo, de esta manera:
 
 - Sintaxis
 
@@ -231,7 +229,7 @@ eliminarlos. Para ello existe el método:
 
 ### removeChild
 
-Para quitar un nodo del documento tenemos que seleccionar padre del nodo, y
+Para quitar un nodo del documento tenemos que seleccionar el padre del nodo, y
 desde ahí, remover el nodo deseado.
 Si no conocemos el padre del nodo podemos seleccionar directamente el nodo,
 obtener el padre – con parent – , para después utilizar removeChild y
@@ -258,15 +256,16 @@ parrafo.parentNode.removeChild(parrafo);
 
 ### AHORA, VAMOS A PRACTICAR UN POCO
 
-En los siguientes videos vamos a poner en practica la parte teórica ya que
-utiliza los métodos como crear, añadir y eliminar los nodos del DOM por medio
+En los siguientes videos vamos a poner en práctica la parte teórica ya que
+utilizan los métodos como crear, añadir y eliminar los nodos del DOM por medio
 de Javascript y así poder crear páginas dinámicas, te sugiero que vayas
-haciendo el ejercicio junto con el video y si es necesario puedes irlos pausando.
+haciendo el ejercicio junto con el video y si es necesario puedes irlo pausando.
 
-- Éste [video](https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
-  dura 8:18; en el minuto 2:25 empieza a utilizar los métodos `.createElement`  `createTextNode`
+- Este [video](https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
+  dura 8:18; en el minuto 2:25 empieza a utilizar los métodos `.createElement` y
+  `createTextNode`
 
-- Éste otro [video](https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
+- Este otro [video](https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
   agrega los nodos creados al DOM
 
 ## Modificando atributos
@@ -274,8 +273,7 @@ haciendo el ejercicio junto con el video y si es necesario puedes irlos pausando
 ### Atributos
 
 Además de modificar el contenido del nodo o el nodo, también podemos modificar
-los atributos del nodo.
-Conocer el valor o valores que tienen y asignar valores distintos.
+los atributos del nodo, conocer el valor o valores que tienen y asignar valores distintos.
 
 Los atributos con los que podemos trabajar directamente son los que utilizan la
 interfaz HTMLElement.
@@ -319,7 +317,7 @@ parrafo.dataset.nombre = "Ejercicio"
 parrafo.dataset.nombre
 ```
 
-Quedando el nodo de la siguiente manera:
+El nodo queda de la siguiente manera:
 
 ```html
 <p id="parrafo" class="test ejemplo" data-nombre="Ejercicio">
@@ -328,9 +326,7 @@ Quedando el nodo de la siguiente manera:
 ```
 
 Habrá ocasiones en que necesitamos trabajar con atributos que no son parte de
-la interfaz HTMLElement.
-
-Para esos casos existen dos métodos setAttribute y getAttribute.
+la interfaz HTMLElement. Para esos casos existen dos métodos: setAttribute y getAttribute.
 
 #### setAttribute(‘atributo’, ‘valor’)
 
@@ -369,7 +365,7 @@ mi_imagen.setAttribute('height', 'auto')
 
 ## Añadiendo estilos por Javascript
 
-"unlike most other attributes, the style property itself is an object."
+"Unlike most other attributes, the style property itself is an object."
 
 ### Style
 
@@ -442,9 +438,9 @@ Más adelante veremos este tema con detalle.
 }
 ```
 
-y como lo mencionamos anteriormente las animaciones en javascript son cambios
-graduales que con la función de setInterval podemos hacer dichos cambios y la
-función frame realiza los cambios en los estilos
+Como lo mencionamos anteriormente, las animaciones en javascript son cambios
+graduales. Con la función de setInterval podemos hacer dichos cambios y la
+función frame realiza los cambios en los estilos.
 
 ```javascript
 function myMove() {
@@ -463,7 +459,65 @@ function myMove() {
 }
 ```
 
-Podemos ver este ejercicio en el siguiente [link](https://codepen.io/Si7v4n4/pen/OjdZer)
+Podemos ver este ejercicio en el siguiente [link](https://codepen.io/Si7v4n4/pen/OjdZer).
+
+### Detalle de javascript para animaciones
+
+Con DOM y Javascript tenemos varias formas de ejecutar código o programar su
+ejecución, ahora veremos con más detalles las funciones que nos permiten esto.
+Hay que recordar que incluso las funciones podemos guardarlas como variables,
+así como también podemos pasarlas como parámetros de otras funciones.
+
+#### setInterval
+
+Nos permite ejecutar una función cada cierto tiempo, como si fuera un
+metrónomo. El tiempo se mide en milisegundos (1 segundo = 1000 milisegundos) y
+es el segundo parámetro de setInterval, donde el primero es la función que
+queremos que se ejecute en cada momento.
+
+```javascript
+    setInterval(miFuncion, 500);
+```
+
+En general usaremos tiempos más bajos, comunmente se usa 15ms o 16ms ya que así
+estaremos dividiendo 1 segundo entre 60, que es lo más utilizado en videojuegos
+y nos dará aproximadamente 60 cuadros (o frames) por segundo.
+
+El problema con setInterval es que quedará andando hasta la eternidad. Para
+resolver esto necesitamos usar otra función llamada clearInterval, para ello
+guardaremos como variable nuestro setInterval :
+
+```javascript
+    var miIntervalo = setInterval(miFuncion, 500);
+
+    //Luego cuando queramos detener la animación o función :
+
+    clearInterval(miIntervalo);
+```
+
+#### setTimeout
+
+A diferencia de setInterval, esta función ejecutará una y solo una vez la
+función que le demos como parámetro. El tiempo que le ingresamos también es
+medido en milisegundos.
+
+```javascript
+    setTimeout(miFuncion, 500);
+```
+
+Al igual que setInterval, también puedes cancelar la ejecución de setTimeout :
+
+```javascript
+    var miTimeout = setTimeout(miFuncion, 500);
+
+    //Luego cuando queramos detener la ejecución programada :
+
+    clearTimeout(miTimeout);
+```
+
+Puedes combinar a través de varias funciones y combinación de setTimeout y
+setInterval animaciones que se ejecutan una o varias veces y controlar su
+acción.
 
 Muchos de los conceptos fueron tomados de las siguientes referencias:
 
@@ -474,3 +528,5 @@ Muchos de los conceptos fueron tomados de las siguientes referencias:
 - [http://www.codexexempla.org/curso/curso_4_3_d.php](http://www.codexexempla.org/curso/curso_4_3_d.php)
 - [https://www.w3schools.com/js/js_htmldom_animate.asp](https://www.w3schools.com/js/js_htmldom_animate.asp)
 - [https://developer.mozilla.org/es/docs/Referencia_DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Importancia_de_los_tipos_de_datos#Interfaces_esenciales_en_el_DOM)
+- [https://www.w3schools.com/jsref/met_win_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+- [https://www.w3schools.com/jsref/met_win_settimeout.asp](https://www.w3schools.com/jsref/met_win_settimeout.asp)

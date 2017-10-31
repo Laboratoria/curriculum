@@ -1,4 +1,4 @@
-function addArrayProperty(word1, word2) {
+function addArrayProperty(obj, key, arr) {
   // your code here
 }
 
