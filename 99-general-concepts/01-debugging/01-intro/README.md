@@ -1,14 +1,16 @@
 # ¿Qué es debugging?
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `30min`
+
+***
 
 ## Objetivos de Aprendizaje
 
-* Representar gráficamente las distintas etapas de un proceso y sus iteraciones,
+- Representar gráficamente las distintas etapas de un proceso y sus iteraciones,
   facilitando la comprensión de su funcionamiento.
-* Conocer la utilidad  de los diagramas de flujo para analizar el proceso,
+- Conocer la utilidad  de los diagramas de flujo para analizar el proceso,
   proponer ideas, representar los controles, etc.
 
 ***
@@ -52,7 +54,7 @@ var número = 10;
  *
  */
 if (numero = 0) {
-  console.log("Cero");
+  console.log('Cero');
 } else if (numero > 0) {
   /*
    *
@@ -70,7 +72,7 @@ if (numero = 0) {
    * como un `typo`
    *
    */
-  console.lo("Negativo");
+  console.lo('Negativo');
 }
 ```
 
@@ -85,15 +87,15 @@ if (numero = 0) {
  */
 
 // Función que espera 2 números como parámetros para devolver la suma de ambos
-var suma = function (num1, num2) {
+var suma = function(num1, num2) {
   return num1 + num2;
 };
 
 // Imaginemos que el número 1 es 6
-var num1 = prompt("Ingrese el número 1");
+var num1 = prompt('Ingrese el número 1');
 
 // Imaginemos que el número 2 es 4
-var num2 = prompt("Ingrese el número 2");
+var num2 = prompt('Ingrese el número 2');
 
 var resultado = suma(num1, num2);
 
