@@ -7,5 +7,5 @@ Ejemplo de entrada:
 
 ```javascript
 tellFortune('scientist', 'Boston');
-// --> 'In the year 2025, you will be a programmer and live in Lima.'
+// --> 'In the year 2025, you will be a scientist and live in Boston.'
 ```
