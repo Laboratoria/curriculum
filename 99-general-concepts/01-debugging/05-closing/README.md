@@ -8,7 +8,7 @@
 
 ## Agenda
 
-### 1. Responde a las preguntas del opening:
+### 1. Responde a las preguntas del opening
 
 - ¿Por qué es importante la depuración?
 - ¿Qué tipos de errores podemos encontrar en el desarrollo de software?
