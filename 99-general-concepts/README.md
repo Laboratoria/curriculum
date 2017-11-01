@@ -40,12 +40,12 @@ nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | slef-paced | 10min | [Apertura](01-debugging/00-apertura.md)
-| 01 | lectura | self-paced | 30min | [¿Qué es debugging?](01-debugging/01-self-learning-1.md)
-| 02 | lectura | self-paced | 60min | [Mensajes de Error](01-debugging/02-self-learning-2.md)
-| 03 | práctica | self-paced | 60min | [Retos de código](01-debugging/03-some-quiz.md)
-| 04 | lectura | slef-paced | 40min | [¿Cómo debuggear?](01-debugging/04-ejercicios-slef-paceds.md)
-| 05 | lectura | slef-paced | 10min | [Cierre](01-debugging/07-cierre.md)
+| 00 | lectura | self-paced | 10min | [Apertura](01-debugging/00-opening)
+| 01 | lectura | self-paced | 30min | [¿Qué es debugging?](01-debugging/01-intro)
+| 02 | lectura | self-paced | 60min | [Mensajes de Error](01-debugging/02-error-messages)
+| 03 | práctica | self-paced | 60min | [Retos de código](01-debugging/03-code-challenges)
+| 04 | lectura | self-paced | 40min | [¿Cómo debuggear?](01-debugging/04-breakpoints)
+| 05 | lectura | self-paced | 10min | [Cierre](01-debugging/05-closing)
 
 ## Autor(es) / Colaboradores
 
