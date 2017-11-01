@@ -58,6 +58,6 @@ físicos) estén felices cuando consumen lo que ofrecemos.
 
 La experiencia al usar nuestros productos es directamente proporcional a su consumo.
 
-Al tener una mejor UX tenemos mas consumo.
+Al tener una mejor UX tenemos más consumo.
 
 Y viceversa.

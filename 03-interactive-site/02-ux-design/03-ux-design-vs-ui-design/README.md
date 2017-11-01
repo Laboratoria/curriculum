@@ -46,15 +46,15 @@ términos distintos.
 > links, ventanas, esquinas redondeadas, sombreado, mensajes de error, alertas,
 > actualizaciones, checkboxes, campos de contraseña, campos de búsqueda,
 > entradas de texto, selectores de radio, áreas de texto, estados de hover,
-> estados de selección , estados presionados, información sobre herramientas,
-> anuncios de banner, vídeos incrustados, animaciones de desplazamiento,
+> estados de selección, estados presionados, información sobre herramientas,
+> anuncios de banner, videos incrustados, animaciones de desplazamiento,
 > desplazamiento, clics, iconografía, colores, listas, presentaciones de
 > diapositivas, texto alternativo, insignias, notificaciones, degradados,
-> ventanas emergentes, carruseles, OK / Cancelar, etc. etc
+> ventanas emergentes, carruseles, OK / Cancelar, etc., etc., etc.
 
 #### UX
 
 > Gente, felicidad, resolución de problemas, entender necesidades, amor,
 > eficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez,
 > personalidad, alegría, satisfacción, gratificación, exaltación, euforia,
-> conveniencia,  eficacia, etc. etc. etc.
+> conveniencia,  eficacia, etc., etc., etc.

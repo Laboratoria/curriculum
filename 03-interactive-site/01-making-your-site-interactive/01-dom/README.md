@@ -223,7 +223,7 @@ nodos son siempre hijos de un nodo Element y no pueden tener hijos.
   <li>Autoaprender y preguntar siempre</li>
 </ul>
 
-7 nodos Element --> etiquetas h1, h2, ul, li,
+6 nodos Element --> etiquetas h1, h2, ul, li,
 5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
 , 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
 siempre'
@@ -269,8 +269,8 @@ las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo
 comentarios, `9` para el nodo tipo document, etc.
 
 - ___nodeValue___, es el texto contenido dentro de un nodo de texto. Esta
-propiedad solo se utiliza para los nodos tipo texto `8` y nodos tipo
-comentarios `9`.
+propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo
+comentarios `8`.
 
 
 ## Seleccionando elementos del DOM
