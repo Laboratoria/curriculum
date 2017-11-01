@@ -1,12 +1,13 @@
-# ReferenceError: ___ not defined
+# tellFortune
 
+## ReferenceError: ___ not defined
 
 Corrige los errores en la función y explique cuál fue el problema en un
 comentario.
 
 Ejemplo de entrada:
 
-```js
-var tip = calculateTip(100);
-console.log(tip); // --> 15
+```javascript
+tellFortune('scientist', 'Boston');
+// --> 'In the year 2025, you will be a programmer and live in Lima.'
 ```

@@ -15,7 +15,7 @@ function whatToWear(season) {
 /**
  * ¿Cuál fue el problema con el código?
  *
- * ESCRIBA SU RESPUESTA AQUÍ.
+ * Usaba operador de asignación en vez de comparación.
  */
 
 module.exports = whatToWear;
