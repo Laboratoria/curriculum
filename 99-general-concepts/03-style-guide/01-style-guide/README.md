@@ -12,8 +12,6 @@
 
 ***
 
-...
-
 Una guía de estilo es una lista de reglas para formatear su código. Muchas
 empresas usan una guía de estilo para que toda su base de código parezca escrita
 por el mismo desarrollador, en lugar de que los desarrolladores diseñen el
