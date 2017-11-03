@@ -28,8 +28,8 @@ The last thing anyone wants is to submit broken code. Your reviewers will likely
 Additionally your reviewer will be analyzing the design of your code. They want to see that not only did it work, but it works in the most efficient and thoughtful way possible. Consider the following code that prints even numbers between 0 and 20:
 
 ```javascript
-for (i = 0; i <= 20; i++) {
-	if ((i % 2) == 0) {
+for (var i = 0; i <= 20; i++) {
+	if ((i % 2) === 0) {
 		console.log(i);
 	}
 }
