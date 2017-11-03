@@ -17,15 +17,15 @@
 
 By now you’ve noticed that at the end of every code challenge you’ve had to run tests against your code to verify that it works as expected. These are called unit tests. Each test programmatically ensures that your program works as intended by comparing actual outputs with expected values for static inputs.
 
-For example, consider a function that adds to numbers: `sum(a,b)`.
+For example, consider a function that adds to numbers: `sum(a, b)`.
 
 To test `sum(a,b)`, we can select any two numbers and assert that the ouptut equals their expected sum:
 
 ```javascript
-Assert.deepEqual(sum(2,3), 5);
+Assert.deepEqual(sum(2, 3), 5);
 ```
 
-If the result is false, meaning `sum(2,3)` equals something other than 5, we'll know we have some debugging to do!
+If the result is false, meaning `sum(2, 3)` equals something other than 5, we'll know we have some debugging to do!
 
 ## Validating Credentials
 
@@ -78,10 +78,12 @@ Let’s imagine a new requirement has been added to `areValidCredentials`. **Pas
 
 Since we're adding a new behavior to the code and each behavior should be tested independently, we'll need to add a new unit test for the new requirement. Our new test should isolate and verify only the number requirement, so the name and password should meet the previous character length requirements.
 
-	it("debería regresar false cuando la contraseña no tiene número", function () {
-		var output = areValidCredentials('Kemal', 'contraseña');
-		Assert.deepEqual( output, false);
-	});
+```javascript
+it("debería regresar false cuando la contraseña no tiene número", function() {
+	var output = areValidCredentials('Kemal', 'contraseña');
+	Assert.deepEqual( output, false);
+});
+```
 
 Now let’s consider our existing tests. Will they pass? Do they still isolate and verify the behaviors they claim to test?
 
@@ -89,32 +91,38 @@ Our original success case, `debería regresar true para credentials válidos`, w
 
 Our existing failure cases (nombre too short, password too short) will continue to fail- but do they still test the isolated behavior they intend to test? Without knowing how our new requirement will be implemented, we can’t be sure. To ensure they isolate and verify the intended behaviors, we need to add numbers to the passwords of both of these tests as well.
 
-Here’s are our updated unit tests:
+Here are our updated unit tests:
 
-	describe("areValidCredentials()", function () {
-		it("debería regresar true para credentials válidos", function () {
-			var output = areValidCredentials('Kemal', 'testtesttest1');
-			Assert.deepEqual(output, true);
-		});
-
-		it("debería regresar false cuando el nombre es tan corto", function () {
-			var output = areValidCredentials('K', 'mylongpassword1');
-			Assert.deepEqual(output, false);
-		});
-
-		it("debería regresar false cuando la contraseña es tan corta", function () {
-			var output = areValidCredentials('Kemal', 'aah1');
-			Assert.deepEqual(output, false);
-		});
-
-		it("debería regresar false cuando la contraseña no tiene numero", function () {
-			var output = areValidCredentials('Kemal', 'contraseña');
-			Assert.deepEqual(output, false);
-		});
+```javascript
+describe("areValidCredentials()", function() {
+	it("debería regresar true para credentials válidos", function() {
+		var output = areValidCredentials('Kemal', 'testtesttest1');
+		Assert.deepEqual(output, true);
 	});
+
+	it("debería regresar false cuando el nombre es tan corto", function() {
+		var output = areValidCredentials('K', 'mylongpassword1');
+		Assert.deepEqual(output, false);
+	});
+
+	it("debería regresar false cuando la contraseña es tan corta", function() {
+		var output = areValidCredentials('Kemal', 'aah1');
+		Assert.deepEqual(output, false);
+	});
+
+	it("debería regresar false cuando la contraseña no tiene numero", function() {
+		var output = areValidCredentials('Kemal', 'contraseña');
+		Assert.deepEqual(output, false);
+	});
+});
+```
 
 ## Test Driven Development
 
 With our unit tests updated, we can implement the new requirement to `areValidCredentials` with full confidence in our solution works when all our unit tests pass. What we’ve just done (writing tests to verify requirements before implementation) is called **Test Driven Development**. You've already been doing Test Driven Development through your code challenges.
 
 Imagine if we had implemented the new requirement before revising our tests. Would we have remembered to update the character length unit tests? Maybe or maybe not. The more complicated our code and unit tests become, the more things we'll have to remember and the more things we'll inevitably forget. Test Driven Development is a strategy to ensure our tests stay up-to-date and thorough.
+
+## Test Coverage
+
+**Test coverage** is the extent to which our tests verify our code. A program with behaviors a, b, c and d and tests verifying a, b, c and d has 100% test coverage. A program with behaviors a, b, c and d with tests verifying only a and b has 50% test coverage. When writing tests for our code, we always want to aim for 100% coverage.

@@ -4,7 +4,6 @@
 - Formato: `self-paced`
 - Duración: `15min`
 
-
 ***
 
 ## Objetivos de Aprendizaje
