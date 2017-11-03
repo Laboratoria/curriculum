@@ -33,7 +33,7 @@ todo momento y estudiado al ritmo de la estudiante.
 
 ## Syllabus
 
-### Unidad 01: [Depuración](01-debugging)
+### [Depuración](01-debugging)
 
 Corregir errores es parte del trabajo de todos los programadores, en esta unidad
 nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
@@ -47,10 +47,11 @@ nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
 | 04 | lectura | self-paced | 40min | [¿Cómo debuggear?](01-debugging/04-breakpoints)
 | 05 | lectura | self-paced | 10min | [Cierre](01-debugging/05-closing)
 
-### Unidad 02: [Pruebas](02-testing)
+### [Pruebas](02-testing)
 
-Corregir errores es parte del trabajo de todos los programadores, en esta unidad
-nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
+Las pruebas nos ayudan a identificar y resolver problemas en software antes de
+lanzar un entregable, asegurando que los usuarios finales puedan tener la mejor
+experiencia posible.
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
@@ -58,6 +59,20 @@ nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
 | 01 | lectura | self-paced | 30min | [Testing](02-testing/01-intro)
 | 02 | lectura | self-paced | 40min | [Unit Tests](02-testing/02-unit-tests)
 | 03 | lectura | self-paced | 10min | [Cierre](02-testing/03-closing)
+
+### [Guía de Estilos](03-style-guide)
+
+Escribir código que resuelva un problema es genial, usando una guía de estilo te
+ayudará a ser más consistente y tener un código aun mucho más legible.
+
+| # | Tipo | Formato | Duración | Tópico
+| - | ---- | ------- | -------- | ------
+| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
+| 01 | lectura | self-paced | 30min | [Guía de estilos](02-testing/01-style-guide)
+| 02 | lectura | self-paced | 40min | [Code review](02-testing/02-unit-tests)
+| 02 | lectura | self-paced | 40min | [Linter](02-testing/03-linter)
+| 04 | lectura | self-paced | 10min | [Cierre](02-testing/04-closing)
+
 
 ## Autor(es) / Colaboradores
 
