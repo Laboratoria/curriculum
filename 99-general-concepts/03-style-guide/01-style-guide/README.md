@@ -55,7 +55,7 @@ function cipher (word,offset)
       var newCode = (letterCode - ASCII_UPPERCASE_A + offset) %26+ASCII_UPPERCASE_A;
       output += String.fromCharCode(newCode);
     } else if(ASCII_LOWERCASE_A<=letterCode && letterCode<=ASCII_LOWERCASE_Z) {
-      var newCode = (letterCode - ASCII_UPPERCASE_A + offset) %26+ASCII_LOWERCASE_A;
+      var newCode = (letterCode - ASCII_LOWERCASE_A + offset) %26+ASCII_LOWERCASE_A;
       output += String.fromCharCode(newCode);
     }
     else
@@ -89,7 +89,7 @@ function cipher(word, offset) {
       output += String.fromCharCode(newCode);
     } else if (ASCII_LOWERCASE_A <= letterCode
       && letterCode <= ASCII_LOWERCASE_Z) {
-        var newCode = (letterCode - ASCII_UPPERCASE_A + offset) % 26 +
+        var newCode = (letterCode - ASCII_LOWERCASE_A + offset) % 26 +
           ASCII_LOWERCASE_A;
         output += String.fromCharCode(newCode);
     } else {
