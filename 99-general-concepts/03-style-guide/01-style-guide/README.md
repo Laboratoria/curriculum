@@ -55,7 +55,7 @@ function cipher (word,offset)
       var newCode = (letterCode - ASCII_UPPERCASE_A + offset) %26+ASCII_UPPERCASE_A;
       output += String.fromCharCode(newCode);
     } else if(ASCII_LOWERCASE_A<=letterCode && letterCode<=ASCII_LOWERCASE_Z) {
-      var newCode = (letterCode - ASCII_UPPERCASE_A + offset) %26+ASCII_UPPERCASE_A;
+      var newCode = (letterCode - ASCII_UPPERCASE_A + offset) %26+ASCII_LOWERCASE_A;
       output += String.fromCharCode(newCode);
     }
     else
@@ -64,6 +64,8 @@ function cipher (word,offset)
       return; // --> undefined
     }
   }
+
+  return output;
 }
 
 cipher ('Hola', 33)
@@ -88,13 +90,15 @@ function cipher(word, offset) {
     } else if (ASCII_LOWERCASE_A <= letterCode
       && letterCode <= ASCII_LOWERCASE_Z) {
         var newCode = (letterCode - ASCII_UPPERCASE_A + offset) % 26 +
-          ASCII_UPPERCASE_A;
+          ASCII_LOWERCASE_A;
         output += String.fromCharCode(newCode);
     } else {
       alert('Ingresar solo letras');
       return; // --> undefined
     }
   }
+
+  return output;
 }
 
 cipher('Hola', 33);
