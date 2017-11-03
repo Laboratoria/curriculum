@@ -15,7 +15,7 @@
 Una guía de estilo es una lista de reglas para formatear tu código. Muchas
 empresas usan una guía de estilo para que toda su base de código parezca escrita
 por el mismo desarrollador, en lugar de que los desarrolladores diseñen el
-código de acuerdo con sus propias preferencias. Esto hace que el código sea más
+código de acuerdo a sus propias preferencias. Esto hace que el código sea más
 fácil de leer para todos.
 
 ## La guía de estilos Laboratoria
@@ -30,8 +30,8 @@ debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el
 
 ### Código antes y después
 
-Aquí hay una muestra de código que no sigue la guía de estilo. Cópielo en tu
-editor e intente solucionarlo de acuerdo con la guía, y luego verifique tu
+Aquí hay una muestra de código que no sigue la guía de estilo. Cópialo en tu
+editor e intenta solucionarlo de acuerdo con la guía, y luego verifique tu
 trabajo a continuación.
 
 #### Ejemplo
@@ -113,6 +113,6 @@ Cuando trabajas como desarrollador profesional, es muy probable que se te pida
 que sigas una de estas dos guías, por lo que escribimos nuestra guía como un
 subconjunto de estas; es posible que debas aprender algunas reglas adicionales,
 pero no deberás romper muchos viejos hábitos para lograrlo. Una vez que te
-sientas cómodo usando la guía de estilo Laboratoria, tal vez quiera volver y
+sientas cómoda usando la guía de estilo Laboratoria, tal vez quieras volver y
 echar un vistazo a estas guías y comenzar a adoptar algunas de estas prácticas
 en tu código.
