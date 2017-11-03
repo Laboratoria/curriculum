@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `10min`
 
 ***
 
@@ -16,7 +16,10 @@ En esta unidad aprenderemos sobre testing:
 
 ## Por qué aprender `testing`
 
-Bugs are an inevitable part of programming- but bug reaching end users doesn't have to be! Testing helps us identify and resolve software problems before launch time, ensuring our users have the smoothest experience possible. Testing is a critical part of producing high quality products.
+Bugs are an inevitable part of programming- but bug reaching end users doesn't
+have to be! Testing helps us identify and resolve software problems before
+launch time, ensuring our users have the smoothest experience possible. Testing
+is a critical part of producing high quality products.
 
 ## Guía de preguntas y conceptos clave
 

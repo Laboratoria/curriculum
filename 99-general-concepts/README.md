@@ -47,6 +47,18 @@ nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
 | 04 | lectura | self-paced | 40min | [¿Cómo debuggear?](01-debugging/04-breakpoints)
 | 05 | lectura | self-paced | 10min | [Cierre](01-debugging/05-closing)
 
+### Unidad 02: [Pruebas](02-testing)
+
+Corregir errores es parte del trabajo de todos los programadores, en esta unidad
+nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
+
+| # | Tipo | Formato | Duración | Tópico
+| - | ---- | ------- | -------- | ------
+| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
+| 01 | lectura | self-paced | 30min | [Testing](02-testing/01-intro)
+| 02 | lectura | self-paced | 40min | [Unit Tests](02-testing/02-unit-tests)
+| 03 | lectura | self-paced | 10min | [Cierre](02-testing/03-closing)
+
 ## Autor(es) / Colaboradores
 
 * Nicole Stein
