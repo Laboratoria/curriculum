@@ -29,9 +29,9 @@ Additionally your reviewer will be analyzing the design of your code. They want 
 
 ```javascript
 for (var i = 0; i <= 20; i++) {
-	if ((i % 2) === 0) {
-		console.log(i);
-	}
+  if ((i % 2) === 0) {
+    console.log(i);
+  }
 }
 ```
 
@@ -39,7 +39,7 @@ While this code is correct, a reviewer might make the following suggestion:
 
 ```javascript
 for (i = 0; i <= 20; i = i + 2) {
-	console.log(i);
+  console.log(i);
 }
 ```
 
@@ -61,10 +61,10 @@ Consider the following example:
 ```javascript
 var classrooms = getClassrooms();
 for (var i = 0; i < classrooms.length; i++) {
-	classrooms[i].push({
-		"name": "Laura",
-		"grade": 99
-	});
+  classrooms[i].push({
+    'name': 'Laura',
+    'grade': 99
+  });
 }
 ```
 
@@ -74,11 +74,11 @@ A reviewer may find this unclear and suggest adding a comment, so you may make a
 var classrooms = getClassrooms();
 // Iterate over all classrooms
 for (var i = 0; i < classrooms.length; i++) {
-	// Add a sample student profile to each classroom
-	classrooms[i].push({
-		"name": "Laura",
-		"grade": 99
-	});
+  // Add a sample student profile to each classroom
+  classrooms[i].push({
+    'name': 'Laura',
+    'grade': 99
+  });
 }
 ```
 
@@ -87,11 +87,11 @@ But some readability suggestions may come in the form of code changes. Perhaps a
 ```javascript
 var classrooms = getClassroomsOfStudents();
 var sampleStudentProfile = {
-	"name": "Laura",
-	"grade": 99
+  'name': 'Laura',
+  'grade': 99
 };
 for (students in classrooms) {
-	students.push(sampleStudentProfile);
+  students.push(sampleStudentProfile);
 }
 ```
 

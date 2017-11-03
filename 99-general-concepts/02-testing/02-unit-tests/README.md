@@ -19,7 +19,7 @@ By now you’ve noticed that at the end of every code challenge you’ve had to 
 
 For example, consider a function that adds to numbers: `sum(a, b)`.
 
-To test `sum(a,b)`, we can select any two numbers and assert that the ouptut equals their expected sum:
+To test `sum(a, b)`, we can select any two numbers and assert that the ouptut equals their expected sum:
 
 ```javascript
 Assert.deepEqual(sum(2, 3), 5);
@@ -38,31 +38,31 @@ To explore unit tests further, let's analyize the `areValidCredentials` challeng
 Let's look at the unit tests associated with this challenge:
 
 ```javascript
-describe("areValidCredentials()", function () {
-  it("debería regresar true cuando las credenciales son válidas", function () {
-	var output = areValidCredentials('Kemal', 'testtesttest');
-	Assert.deepEqual(output, true);
+describe('areValidCredentials()', function() {
+  it('debería regresar true cuando las credenciales son válidas', function() {
+    var output = areValidCredentials('Kemal', 'testtesttest');
+    Assert.deepEqual(output, true);
   });
 
-  it("debería regresar false cuando el nombre es demasiado corto", function () {
-	var output = areValidCredentials('K', 'mylongpassword');
-	Assert.deepEqual(output, false);
+  it('debería regresar false cuando el nombre es demasiado corto', function() {
+    var output = areValidCredentials('K', 'mylongpassword');
+    Assert.deepEqual(output, false);
   });
-  
-  it("debería regresar false cuando la contraseña es demasiado corta", function () {
-	var output = areValidCredentials('Kemal', 'aah');
-	Assert.deepEqual(output, false);
+
+  it('debería regresar false cuando la contraseña es demasiado corta', function() {
+    var output = areValidCredentials('Kemal', 'aah');
+    Assert.deepEqual(output, false);
   });
 });
 ```
 
-Each function here begins with the word “it”, which in English means “eso”. The “it” of each test refers to `areValidCredentials()` as declared in the wrapping `describe` function:
+Each function here begins with the word 'it', which in English means 'eso'. The 'it' of each test refers to `areValidCredentials()` as declared in the wrapping `describe` function:
 
-`describe("areValidCredentials()", function(){...})`.
+`describe('areValidCredentials()', function() {...});`.
 
 You can see that each unit test is a function that reads like a sentence. For instance, this function...
 
-`it("debería regresar false cuando la contraseña es demasiado corta", function()) {....}`
+`it('debería regresar false cuando la contraseña es demasiado corta', function() {...});`
 
 ... declares this assertion statement...
 
@@ -79,9 +79,9 @@ Let’s imagine a new requirement has been added to `areValidCredentials`. **Pas
 Since we're adding a new behavior to the code and each behavior should be tested independently, we'll need to add a new unit test for the new requirement. Our new test should isolate and verify only the number requirement, so the name and password should meet the previous character length requirements.
 
 ```javascript
-it("debería regresar false cuando la contraseña no tiene número", function() {
-	var output = areValidCredentials('Kemal', 'contraseña');
-	Assert.deepEqual( output, false);
+it('debería regresar false cuando la contraseña no tiene número', function() {
+  var output = areValidCredentials('Kemal', 'contraseña');
+  Assert.deepEqual(output, false);
 });
 ```
 
@@ -94,26 +94,26 @@ Our existing failure cases (nombre too short, password too short) will continue 
 Here are our updated unit tests:
 
 ```javascript
-describe("areValidCredentials()", function() {
-	it("debería regresar true para credentials válidos", function() {
-		var output = areValidCredentials('Kemal', 'testtesttest1');
-		Assert.deepEqual(output, true);
-	});
+describe('areValidCredentials()', function() {
+  it('debería regresar true para credentials válidos', function() {
+    var output = areValidCredentials('Kemal', 'testtesttest1');
+    Assert.deepEqual(output, true);
+  });
 
-	it("debería regresar false cuando el nombre es tan corto", function() {
-		var output = areValidCredentials('K', 'mylongpassword1');
-		Assert.deepEqual(output, false);
-	});
+  it('debería regresar false cuando el nombre es tan corto', function() {
+    var output = areValidCredentials('K', 'mylongpassword1');
+    Assert.deepEqual(output, false);
+  });
 
-	it("debería regresar false cuando la contraseña es tan corta", function() {
-		var output = areValidCredentials('Kemal', 'aah1');
-		Assert.deepEqual(output, false);
-	});
+  it('debería regresar false cuando la contraseña es tan corta', function() {
+    var output = areValidCredentials('Kemal', 'aah1');
+    Assert.deepEqual(output, false);
+  });
 
-	it("debería regresar false cuando la contraseña no tiene numero", function() {
-		var output = areValidCredentials('Kemal', 'contraseña');
-		Assert.deepEqual(output, false);
-	});
+  it('debería regresar false cuando la contraseña no tiene numero', function() {
+    var output = areValidCredentials('Kemal', 'contraseña');
+    Assert.deepEqual(output, false);
+  });
 });
 ```
 
