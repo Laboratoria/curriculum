@@ -107,8 +107,8 @@ cipher('Hola', 33);
 Escribimos la guía de estilo Laboratoria para que sea una versión más simple de
 dos de las guías de estilo más populares:
 
-[Guía de estilos JavaScript de AirBnb](https://github.com/paolocarrasco/javascript-style-guide)
-[Guía de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
+* [Guía de estilos JavaScript de AirBnb](https://github.com/paolocarrasco/javascript-style-guide)
+* [Guía de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
 
 Cuando trabajas como desarrollador profesional, es muy probable que se te pida
 que sigas una de estas dos guías, por lo que escribimos nuestra guía como un
