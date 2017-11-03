@@ -12,7 +12,7 @@
 
 ***
 
-Una guía de estilo es una lista de reglas para formatear su código. Muchas
+Una guía de estilo es una lista de reglas para formatear tu código. Muchas
 empresas usan una guía de estilo para que toda su base de código parezca escrita
 por el mismo desarrollador, en lugar de que los desarrolladores diseñen el
 código de acuerdo con sus propias preferencias. Esto hace que el código sea más
@@ -20,19 +20,18 @@ fácil de leer para todos.
 
 ## La guía de estilos Laboratoria
 
-La guía de estilo JavaScript de Laboratoria se puede encontrar
-[aquí](https://github.com/Laboratoria/js-style-guide). Por favor léelo ahora.
+En Laboratoria, hemos preparado una guía de estilos para que la sigas a partir
+de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide). Por favor léelo ahora.
 
-Por favor, intente aplicar todas las reglas de la guía Laboratoria en su código
-a partir de ahora. No se preocupe - no necesita memorizarlos todos ahora - puede
-usar un linter (explicado en la siguiente sección) para ayudarlo. Pero debe
-revisar todo su código con la guía de estilo antes de enviarlo, y con el tiempo
-se acostumbrará a seguir estas reglas sin tener que pensar en ello.
+Por favor, intenta aplicar todas las reglas de la guía Laboratoria en su código
+a partir de ahora. No te preocupes - no necesitas memorizarlos todos ahora -
+puedes usar un linter (explicado en la siguiente sección) como ayuda. Pero
+debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el tiempo te acostumbrarás a seguir estas reglas sin tener que pensar en ello.
 
 ### Código antes y después
 
-Aquí hay una muestra de código que no sigue la guía de estilo. Cópielo en un
-editor e intente solucionarlo de acuerdo con la guía, y luego verifique su
+Aquí hay una muestra de código que no sigue la guía de estilo. Cópielo en tu
+editor e intente solucionarlo de acuerdo con la guía, y luego verifique tu
 trabajo a continuación.
 
 #### Ejemplo
@@ -113,7 +112,7 @@ dos de las guías de estilo más populares:
 Cuando trabajas como desarrollador profesional, es muy probable que se te pida
 que sigas una de estas dos guías, por lo que escribimos nuestra guía como un
 subconjunto de estas; es posible que debas aprender algunas reglas adicionales,
-pero no debes tiene que romper muchos viejos hábitos. Una vez que se sienta
-cómodo usando la guía de estilo Laboratoria, tal vez quiera volver y echar un
-vistazo a estas guías y comenzar a adoptar algunas de estas prácticas en su
-código.
+pero no deberás romper muchos viejos hábitos para lograrlo. Una vez que te
+sientas cómodo usando la guía de estilo Laboratoria, tal vez quiera volver y
+echar un vistazo a estas guías y comenzar a adoptar algunas de estas prácticas
+en tu código.
