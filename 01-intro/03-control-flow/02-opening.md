@@ -1,7 +1,7 @@
 # Opening
 
-* Tipo: `self-paced`
-* Formato: `guided-learning`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `10min`
 
 ## Objetivos de Aprendizaje

@@ -22,6 +22,7 @@
   y discutir cuál es la más óptima
 
 - Escoge 3 retos y para cada uno crea:
+
   1. El pseudocódigo de la solución
   2. El diagrama de flujo que lo representa
   3. Un archivo README.md que explique el pseudocódigo y el diagrama de flujo
