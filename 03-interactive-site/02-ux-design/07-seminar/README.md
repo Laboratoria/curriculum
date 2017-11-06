@@ -10,6 +10,8 @@
   equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
+***
+
 ## Agenda
 
 1. Conversemos sobre los roles en un equipo de desarrollo con el ejemplo de

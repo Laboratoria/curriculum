@@ -14,6 +14,8 @@ En esta unidad aprenderás:
   digitales
 - A externalizar tus ideas a través de sketches
 
+***
+
 ## ¿Por qué aprender esto?
 
 Aprender sobre esto nos permitirá crear mejores productos digitales, porque:
