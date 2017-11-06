@@ -15,9 +15,9 @@
 ## Agenda
 
 1. Por medio de ejemplos nos aseguramos que entendemos cómo funcionan:
-- `charCodeAt()`
-- `String.fromCharCode()`
-- `ASCII` y `Unicode`
+   * `charCodeAt()`
+   * `String.fromCharCode()`
+   * `ASCII` y `Unicode`
 
 2. Resolver los retos Cifrado César y Tarjeta de Crédito Válida. Evaluar las
    diferentes maneras de alcanzar el resultado y discutir cuál es la más óptima
