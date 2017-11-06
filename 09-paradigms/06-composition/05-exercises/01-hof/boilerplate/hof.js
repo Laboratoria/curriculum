@@ -1,0 +1,3 @@
+module.exports = function repeat(operation, num) {
+  //...
+};
