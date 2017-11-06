@@ -8,7 +8,7 @@
 
 ## Agenda
 
-### Responde a las preguntas del opening:
+### Responde a las preguntas del opening
 
 - ¿Por qué es importante testing?
 - ¿Qué tipos diferentes de testing podemos usar en el desarrollo de software?
