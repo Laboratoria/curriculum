@@ -1,10 +1,11 @@
 // Higher Order Functions
-exports.repeat = (operation, num) => {
-    //...
-  };
+// Hof
+// exports.repeat = (operation, num) => {
+//     //...
+// };
+// Map
+
+
+// Filter
   
-  // Map
-  
-  // Filter
-  
-  // Reduce
+// Reduce

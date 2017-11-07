@@ -1,5 +1,4 @@
-module.exports = inputWords => {
-    //...
-}
-  
-// module.exports = countWords;
+module.exports = function  countWords(inputWords)  {
+    //AQUI ESCRIBE TU CÓDIGO
+
+};

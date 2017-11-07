@@ -6,7 +6,7 @@ const Submission = require('../solution/reduce');
 
 describe('countWords()', () => {
     
-      it('debería retornar un objeto que contenga el número de veces que aparece cada string en el array', () => {
+      it('Debería retornar un objeto que contenga el número de veces que aparece cada string en el array', () => {
     
         const input = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian'];
         Assert.deepEqual(Submission(input), { Apple: 2, Banana: 1, Durian: 3 });
@@ -17,7 +17,7 @@ describe('countWords()', () => {
         Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
       });
     
-      it('debería invocar Array.prototype.reduce', () => {
+      it('Debería invocar Array.prototype.reduce', () => {
     
         const reduce = Array.prototype.reduce;
         let reduceCount = 0;
@@ -34,4 +34,4 @@ describe('countWords()', () => {
     
         Array.prototype.reduce = reduce;
       })
-    });
+});
