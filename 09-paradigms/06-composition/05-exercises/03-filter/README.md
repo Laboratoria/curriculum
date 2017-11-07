@@ -3,7 +3,8 @@
 * Environment: `js`
 
 ***
-# Tarea
+
+## Tarea
 
 Usa `Array#filter` para implementar una función llamada `getShortMessages`.
 
@@ -36,7 +37,7 @@ La función debe retornar un array con los mensajes (strings), *no objetos*.
 
 La función debe retornar algo parecido a:
 
-```
+```js
 [ 'Tempor quis esse consequat sunt ea eiusmod.',
   'Id culpa ad proident ad nulla laborum incididunt.',
   'Ullamco in ea et ad anim anim ullamco est.',
@@ -45,11 +46,5 @@ La función debe retornar algo parecido a:
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-
-***
-
-Una vez que estés lista, puedes verificar tu solución con el siguiente comando:
-
-`coi verify filter.js`
+* [Array.filter -MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* [Array.map -MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)

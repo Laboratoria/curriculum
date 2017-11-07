@@ -3,7 +3,8 @@
 * Environment: `js`
 
 ***
-# Tarea
+
+## Tarea
 
 Refactorizar el siguiente código reemplazando el bucle `for` con `Array#map`:
 
@@ -29,10 +30,4 @@ function doubleAll(numbers) {
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-
-***
-
-Una vez que estés lista, puedes verificar tu solución con el siguiente comando:
-
-`coi verify map.js`
+* [Array.map - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)

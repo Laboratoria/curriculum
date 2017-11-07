@@ -1,3 +1,9 @@
+'use strict';
+
+const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
+const Assert = globalScope.Assert = require('chai').assert;
+const Submission = require('../solution/reduce');
+
 describe('countWords()', () => {
     
       it('debería retornar un objeto que contenga el número de veces que aparece cada string en el array', () => {

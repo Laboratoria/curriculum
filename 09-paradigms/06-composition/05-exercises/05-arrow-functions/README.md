@@ -27,10 +27,4 @@ flecha.
 
 ## Recursos
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
-
-***
-
-Una vez que estés lista, puedes verificar tu solución con el siguiente comando:
-
-`coi verify arrow-functions.js`
+* [Arrow_functions - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)

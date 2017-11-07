@@ -1,5 +1,3 @@
-function getShortMessages(messages) {
-    // SOLUTION GOES HERE
-  }
-  
-  module.exports = getShortMessages;
+module.exports = function getShortMessages(messages) {
+  //...
+};

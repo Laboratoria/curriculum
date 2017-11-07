@@ -29,7 +29,7 @@ ejecutada con los argumentos pasados (si hubiere).
 En este ejercicio vamos a demostrar que las funciones pueden ser pasadas como
 valores. Te vamos a pasar una función como argumento.
 
-# Tarea
+## Tarea
 
 Implementa una función que reciba una función como primer argumento, y un número
 `num` como segundo argumento. La función debe ejecutar la función `num` veces.
@@ -51,5 +51,5 @@ incluirán un boilerplate.
 
 ## Recursos
 
-* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype
+* [Functions_and_function_scope  -MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope)
+* [Function.prototype - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)

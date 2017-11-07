@@ -1,3 +1,8 @@
+'use strict';
+
+const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
+const Assert = globalScope.Assert = require('chai').assert;
+const Submission = require('../solution/filter');
 
 describe('getShortMessages()', () => {
     
@@ -11,7 +16,7 @@ describe('getShortMessages()', () => {
         Assert.deepEqual(Submission([{
           message: 'Tempor quis esse consequat sunt ea eiusmod.'
         }, {
-          message: 'Id culpa ad proident ad nulla laborum incididunt. Blah blah'
+          message: 'Id culpgetShortMessages.speca ad proident ad nulla laborum incididunt. Blah blah'
         }, {
           message: 'Ullamco in ea et ad anim anim ullamco est.'
         }, {

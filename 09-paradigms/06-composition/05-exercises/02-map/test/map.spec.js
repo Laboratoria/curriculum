@@ -1,7 +1,13 @@
+'use strict';
+
+const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
+const Assert = globalScope.Assert = require('chai').assert;
+const Submission = require('../solution/map');
+
 describe('doubleAll()', () => {
     
-      it('debería retornar array con números multiplicados por 2', () => {
-    
+      it('Debería retornar array con números multiplicados por 2', () => {
+        
         Assert.deepEqual(Submission([1, 2, 3]), [2, 4, 6]);
       });
     
@@ -17,7 +23,7 @@ describe('doubleAll()', () => {
         Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
       });
     
-      it('debería invocar Array.prototype.map', () => {
+      it('Debería invocar Array.prototype.map', () => {
     
         const map = Array.prototype.map;
         let mapCount = 0;

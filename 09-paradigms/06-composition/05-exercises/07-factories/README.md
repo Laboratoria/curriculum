@@ -13,7 +13,8 @@ Implementa una función que se llame `createStore`. Esta función no recibe ning
 argumento y retorna un objeto con los siguientes métodos:
 
 * `get(key)`: retorna el valor guardado en la "llave" (`key`).
-* `set(key, value)`: guarda el valor (`value`) en la "llave" (`key`) del store y retorna el valor guardado.
+* `set(key, value)`: guarda el valor (`value`) en la "llave" (`key`) del store y
+    retorna el valor guardado.
 * `keys()`: retorna un array con las llaves que tiene el store.
 * `clear()`: borra todas las llaves/valores del store.
 
@@ -35,9 +36,3 @@ console.log(store.get('foo')); // => undefined
 
 Puedes usar `Object.keys()` para obtener un arreglo con las propiedades de un
 objeto.
-
-***
-
-Una vez que estés lista, puedes verificar tu solución con el siguiente comando:
-
-`coi verify factory.js`

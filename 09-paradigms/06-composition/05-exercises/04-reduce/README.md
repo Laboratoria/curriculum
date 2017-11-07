@@ -3,7 +3,8 @@
 * Environment: `js`
 
 ***
-# Tarea
+
+## Tarea
 
 Dado un `Array` de strings, usa `Array#reduce` para crear un objeto que contenga
 el número de veces que aparece cada string en el array. Retorna el object
@@ -30,11 +31,5 @@ console.log(countWords(inputWords))
 
 ## Recursos
 
-* https://en.wikipedia.org/wiki/Reduce_(higher-order_function)
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
-
-***
-
-Una vez que estés lista, puedes verificar tu solución con el siguiente comando:
-
-`coi verify reduce.js`
+* [Reduce - Wiki](https://en.wikipedia.org/wiki/Reduce_(higher-order_function))
+* [Array.reduce -MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
