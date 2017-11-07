@@ -1,0 +1,3 @@
+module.exports = function getShortMessages(messages) {
+  //...
+};
