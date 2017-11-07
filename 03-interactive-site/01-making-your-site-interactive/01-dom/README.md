@@ -12,21 +12,21 @@ En esta unidad aprenderemos:
 - Pedir elementos del DOM usando selectores (getElementById,
   getElementsByClassName, etc)
 - Recorrer elementos del DOM usando padres o hijos (firstChild, parentNode, etc.)
-- Saber usar:
+- Conocer las siguientes propiedades:
+  * `parentNode`
+  * `childNodes`
+  * `firstChild`
+  * `lastChild`
+  * `previousSibling`
+  * `previousElementSibling`
+  * `nextSibling`
+  * `nextElementSibling`
+- Conocer los siguientes métodos:
   * `document.getElementById()`
   * `document.getElementsByTagName()`
   * `document.getElementsByClassName()`
   * `document.querySelector()`
   * `document.querySelectorAll()`
-  * `firstChild`
-  * `lastChild`
-  * `parentNode`
-  * `childNodes`
-  * `previousSibling`
-  * `previousElementSibling`
-  * `nextElementSibling`
-  * `nextSibling`
-  * `childNodes`
 
 ***
 
@@ -172,87 +172,83 @@ Veamos a continuación más específicamente sus características.
   otro nodo de tipo elemento, y también tener hijos (nodos elementos o nodo de
   texto).
 
-```html
-Etiquetas HTML
+  ```html
+  Etiquetas HTML
 
-<html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
-<form></form> <a></a> <img/> <strong></strong>
-```
+  <html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
+  <form></form> <a></a> <img/> <strong></strong>
+  ```
 
-```html
-Nodo Element con hijos Element
+  ```html
+  Nodo Element con hijos Element
 
-<html>
-  <head></head>
-  <body></body>
-</html>
+  <html>
+    <head></head>
+    <body></body>
+  </html>
 
-3 nodo Element --> etiquetas html, head y body
-```
+  3 nodo Element --> etiquetas html, head y body
+  ```
 
-```html
-Nodo Element con hijo texto
+  ```html
+  Nodo Element con hijo texto
 
-<h1>Hola Mundo</h1>
+  <h1>Hola Mundo</h1>
 
-1 nodo Element --> etiqueta h1
-1 nodo Text --> hola mundo
-```
+  1 nodo Element --> etiqueta h1
+  1 nodo Text --> hola mundo
+  ```
 
 - Nodo Attr: se define un nodo de este tipo para representar cada uno de los
   atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo
   Element y no pueden tener hijos.
 
-```html
-  <img src="imagenes/icon1" alt="logo1" />
+  ```html
+  <img src="images/logo.png" alt="Logo Laboratoria" />
 
- 1 nodo Element --> etiqueta img
- 2 nodo Attr --> src y alt
- ```
+  1 nodo Element --> etiqueta img
+  2 nodo Attr --> src y alt
+  ```
 
 - Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos
-nodos son siempre hijos de un nodo Element y no pueden tener hijos.
+  nodos son siempre hijos de un nodo Element y no pueden tener hijos.
 
-```html
+  ```html
+  <h1>Seré una futura developer de Laboratoria</h1>
+  <h2>¿Qué debo hacer?</h2>
+  <ul>
+    <li>Mentalidad de crecimiento</li>
+    <li>Practicar mucho</li>
+    <li>Autoaprender y preguntar siempre</li>
+  </ul>
 
-<h1>Seré una futura developer de Laboratoria</h1>
-<h2>¿Qué debo hacer?</h2>
-<ul>
-  <li>Mentalidad de crecimiento</li>
-  <li>Practicar mucho</li>
-  <li>Autoaprender y preguntar siempre</li>
-</ul>
-
-6 nodos Element --> etiquetas h1, h2, ul, li,
-5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
-, 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
-siempre'
-
-```
+  6 nodos Element --> etiquetas h1, h2, ul, li,
+  5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
+  , 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
+  siempre'
+  ```
 
 - Nodo Comment: representa los comentarios incluídos en la página HTML.
 
-```html
+  ```html
+  <html>
+    <head>
+      <title>Página Sencilla</title>
+    </head>
+    <body>
+      <!-- Hola Esto es un comentario-->
+      <h1>Hola Mundo</h1>
+      <!--Por favor coloca una imagen-->
+      <img src="images/logo.png" alt="Logo Laboratoria"/>
+    </body>
+  </html>
 
-<html>
-  <head>
-    <title>Página Sencilla</title>
-  </head>
-  <body>
-    <!-- Hola Esto es un comentario-->
-    <h1>Hola Mundo</h1>
-    <!--Por favor coloca una imagen-->
-    <img src="imagenes/icon1" alt="icono"/>
-  </body>
-</html>
-
-6 nodos Element --> etiqueta html, head, title, body, h1, img
-2 nodos Text --> 'Página Sencilla', 'Hola Mundo'
-2 nodos Attr --> src y alt
-2 nodos Comment --> <!--Hola esto es un comentario--> <!--Por favor coloca una
-  imagen-->
-
-```
+  6 nodos Element --> etiqueta html, head, title, body, h1, img
+  2 nodos Text --> 'Página Sencilla', 'Hola Mundo'
+  2 nodos Attr --> src y alt
+  2 nodos Comment --> <!--Hola esto es un comentario--> <!--Por favor coloca una
+    imagen-->
+  ```
 
 - Nodo Document: representa al nodo raíz del que derivan todos los demás nodos
   del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
@@ -262,16 +258,15 @@ siempre'
 
 Los nodos del DOM poseen propiedades básicas, que cuales son:
 
-- ___nodeName___, indica el nombre del nodo.
+- **nodeName**, indica el nombre del nodo.
 
-- ___nodeType___, es un número entero que describe el tipo de nodo: `1` para
-las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo
-comentarios, `9` para el nodo tipo document, etc.
+- **nodeType**, es un número entero que describe el tipo de nodo: `1` para
+  las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo
+  comentarios, `9` para el nodo tipo document, etc.
 
-- ___nodeValue___, es el texto contenido dentro de un nodo de texto. Esta
-propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo
-comentarios `8`.
-
+- **nodeValue**, es el texto contenido dentro de un nodo de texto. Esta
+  propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo
+  comentarios `8`.
 
 ## Seleccionando elementos del DOM
 
@@ -280,12 +275,12 @@ vemos cómo seleccionar nodos y qué es un nodo en el DOM.
 
 ## Recapitulando
 
-Para terminar, Lulú nos ha grabado un video para reforzar los conceptos de DOM.
+Para terminar, mira el siguiente video de Lulú donde menciona los conceptos de
+DOM.
 
-  [![Repaso DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+[![Repaso DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
 
-  [![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
-
+[![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
 También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
 de la documentación oficial de Mozilla de qué es el DOM.
