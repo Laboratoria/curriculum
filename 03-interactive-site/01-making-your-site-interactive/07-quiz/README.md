@@ -28,10 +28,9 @@
 ### 2) En la siguiente imagen
 
 ```html
-        <body>
-            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
-        </body>
-
+      <body>
+        <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
+      </body>
 ```
 
 ### El texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______

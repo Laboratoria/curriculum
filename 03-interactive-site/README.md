@@ -13,8 +13,8 @@ aprenderás a:
 
 ## Público Objetivo
 
-Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso
-que se toma como parte del bootcamp.
+Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso que se
+toma como parte del bootcamp.
 
 ## Requerimientos previos
 
