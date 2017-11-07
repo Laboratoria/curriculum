@@ -21,10 +21,7 @@ fácil de leer para todos.
 ## La guía de estilos Laboratoria
 
 En Laboratoria, hemos preparado una guía de estilos para que la sigas a partir
-de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide). Por favor léelo ahora.
-
-Por favor, intenta aplicar todas las reglas de la guía Laboratoria en su código
-a partir de ahora. No te preocupes - no necesitas memorizarlos todos ahora -
+de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide). Por favor léelo ahora. No te preocupes - no necesitas memorizarlos todos ahora -
 puedes usar un linter (explicado en la siguiente sección) como ayuda. Pero
 debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el tiempo te acostumbrarás a seguir estas reglas sin tener que pensar en ello.
 
