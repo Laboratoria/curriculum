@@ -31,5 +31,5 @@ console.log(countWords(inputWords))
 
 ## Recursos
 
-* [Reduce - Wiki](https://en.wikipedia.org/wiki/Reduce_(higher-order_function))
-* [Array.reduce -MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+* [Reduce - Wikipedia](https://en.wikipedia.org/wiki/Reduce_(higher-order_function))
+* [Array.reduce - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
