@@ -2,17 +2,21 @@
 
 const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
 const Assert = globalScope.Assert = require('chai').assert;
-const Submission = require('../solution/clousures');
+const Submission = require('../solution/object-assign');
 
 describe('extend', () => {
     
-      it('debería exportar un objeto con un método "extend"', () => {
+      it('Debería exportar un objeto', () => {
     
         Assert.equal(typeof Submission, 'object');
+      });
+
+      it('Debería exportar el objeto con un método "extend"', () => {
+        
         Assert.equal(typeof Submission.extend, 'function');
       });
-    
-      it('debería crear un objeto nuevo con todas las propiedades de las fuentes', () => {
+
+      it('Debería crear un objeto nuevo con todas las propiedades de las fuentes', () => {
     
         const obj1 = { foo: true, bar: false };
         const obj2 = { baz: 1, bar: true };

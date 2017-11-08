@@ -1,6 +1,8 @@
-const createStore = () => {
-    let data = {};
-    return {};
-};
+module.exports = function createStore(){
     
-module.exports = createStore;
+    let data = {};
+  
+    return {
+        //AQUI TU CÓDIGO
+    };
+  };

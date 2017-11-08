@@ -1,11 +1,19 @@
-describe('murderDog()', () => {
+'use strict';
+
+const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
+const Assert = globalScope.Assert = require('chai').assert;
+const Submission = require('../solution/composition');
+
+describe('Object composition', ()=> {
+
+  describe('murderDog()', () => {
     
-      it('debería ser una función', () => {
+      it('Debería ser una función', () => {
     
         Assert.equal(typeof Submission.murderDog, 'function');
       });
     
-      it('debería retornar un objeto con bark, poop y kill', () => {
+      it('Debería retornar un objeto con bark, poop y kill', () => {
     
         const obj = Submission.murderDog();
         Assert.deepEqual(Object.keys(obj), ['bark', 'poop', 'kill']);
@@ -17,12 +25,12 @@ describe('murderDog()', () => {
 
 describe('murderRobot()', () => {
     
-      it('debería ser una función', () => {
+      it('Debería ser una función', () => {
     
         Assert.equal(typeof Submission.murderRobot, 'function');
       });
     
-      it('debería retornar un objeto con drive y kill', () => {
+      it('Debería retornar un objeto con drive y kill', () => {
     
         const obj = Submission.murderRobot();
         Assert.deepEqual(Object.keys(obj), ['drive', 'kill']);
@@ -33,12 +41,12 @@ describe('murderRobot()', () => {
 
 describe('murderRobotDog()', () => {
     
-      it('debería ser una función', () => {
+      it('Debería ser una función', () => {
     
         Assert.equal(typeof Submission.murderRobotDog, 'function');
       });
     
-      it('debería retornar un objeto con bark, drive y kill', () => {
+      it('Debería retornar un objeto con bark, drive y kill', () => {
     
         const obj = Submission.murderRobotDog();
         Assert.deepEqual(Object.keys(obj), ['bark', 'drive', 'kill']);
@@ -46,4 +54,5 @@ describe('murderRobotDog()', () => {
         Assert.equal(typeof obj.drive, 'function');
         Assert.equal(typeof obj.kill, 'function');
       });
+});
 });

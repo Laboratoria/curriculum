@@ -54,4 +54,4 @@ Siguiendo este patrón, implementa:
 * `murderRobot` (con lo mismo que `robot` pero además de `killer`)
 * `murderDog` (con todo lo que tiene `dog` además de `killer`)
 * `murderRobotDog`, que debe combinar la capacidad de ladrar (bark) con la
-  funcionalidad de `driver` y `killer`.
+    funcionalidad de `driver` y `killer`.

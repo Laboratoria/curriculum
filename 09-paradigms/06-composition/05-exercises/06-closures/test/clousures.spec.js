@@ -6,17 +6,17 @@ const Submission = require('../solution/clousures');
 
 describe('createLogger()', () => {
     
-    it('debería de ser una función', () => {
+    it('Debería de ser una función', () => {
     
       Assert.equal(typeof Submission, 'function');
     });
     
-    it('debería de retornar una función', () => {
+    it('Debería de retornar una función', () => {
     
       Assert.equal(typeof Submission(), 'function');
     });
     
-    it('debería de retornar una función que imprime a la consola con el namespace', () => {
+    it('Debería de retornar una función que imprime a la consola con el namespace', () => {
     
       const log = console.log;
       let called = 0;
