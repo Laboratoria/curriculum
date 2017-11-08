@@ -1,30 +1,30 @@
 'use strict';
 
-const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
-const Assert = globalScope.Assert = require('chai').assert;
+
+const Assert = require('chai').assert;
 const Submission = require('../solution/composition');
 
 describe('Object composition', ()=> {
 
   describe('murderDog()', () => {
     
-      it('Debería ser una función', () => {
-    
-        Assert.equal(typeof Submission.murderDog, 'function');
-      });
-    
-      it('Debería retornar un objeto con bark, poop y kill', () => {
-    
-        const obj = Submission.murderDog();
-        Assert.deepEqual(Object.keys(obj), ['bark', 'poop', 'kill']);
-        Assert.equal(typeof obj.bark, 'function');
-        Assert.equal(typeof obj.poop, 'function');
-        Assert.equal(typeof obj.kill, 'function');
-      });
-});
+    it('Debería ser una función', () => {
+  
+      Assert.equal(typeof Submission.murderDog, 'function');
+    });
+  
+    it('Debería retornar un objeto con bark, poop y kill', () => {
+  
+      const obj = Submission.murderDog();
+      Assert.deepEqual(Object.keys(obj), ['bark', 'poop', 'kill']);
+      Assert.equal(typeof obj.bark, 'function');
+      Assert.equal(typeof obj.poop, 'function');
+      Assert.equal(typeof obj.kill, 'function');
+    });
+  });
 
-describe('murderRobot()', () => {
-    
+  describe('murderRobot()', () => {
+      
       it('Debería ser una función', () => {
     
         Assert.equal(typeof Submission.murderRobot, 'function');
@@ -37,10 +37,10 @@ describe('murderRobot()', () => {
         Assert.equal(typeof obj.drive, 'function');
         Assert.equal(typeof obj.kill, 'function');
       });
-});
+  });
 
-describe('murderRobotDog()', () => {
-    
+  describe('murderRobotDog()', () => {
+      
       it('Debería ser una función', () => {
     
         Assert.equal(typeof Submission.murderRobotDog, 'function');
@@ -54,5 +54,6 @@ describe('murderRobotDog()', () => {
         Assert.equal(typeof obj.drive, 'function');
         Assert.equal(typeof obj.kill, 'function');
       });
-});
+  });
+
 });

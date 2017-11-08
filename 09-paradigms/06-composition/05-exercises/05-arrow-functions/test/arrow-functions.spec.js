@@ -1,8 +1,9 @@
 'use strict';
 
-const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
-const Assert = globalScope.Assert = require('chai').assert;
-const {getShortMessages ,repeat ,doubleAll ,countWords} = require('../solution/arrow-functions');
+
+const Assert = require('chai').assert;
+const { getShortMessages ,repeat ,doubleAll ,countWords } = require('../solution/arrow-functions');
+
 const message = () => {
 
   return Assert.deepEqual(getShortMessages([{
@@ -75,6 +76,7 @@ describe('Arrow functions', () => {
     
         Array.prototype.map = map;
     });
+
   });
 
   describe('repeat', () => {
@@ -163,7 +165,8 @@ describe('Arrow functions', () => {
       Assert.equal(reduceCount, 1);
     
       Array.prototype.reduce = reduce;
-    })
+    });
+    
   });
 
 });

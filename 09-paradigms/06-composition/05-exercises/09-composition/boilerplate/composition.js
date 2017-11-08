@@ -39,7 +39,7 @@ exports.murderRobot = name => {
 
 };
 
-exports.murderDog = name=> {
+exports.murderDog = name => {
   //AQUI TU CÓDIGO
 
 };
