@@ -82,14 +82,20 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ***
 
+## Agenda
+
+...
+
+***
+
 ## Evaluación
 
 [TODO]
 
-## Autor(es) / Colaboradores
+## Contribuidores
 
-* Tu nombre
-* Otros colaboradores?
+* [@xorxe](https://github.com/xorxe) (autor)
+* [@lupomontero](https://github.com/lupomontero) (coordinador)
 
 ## Libros
 
