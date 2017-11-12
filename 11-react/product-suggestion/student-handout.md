@@ -8,10 +8,12 @@ clientes.
 
 Tenemos 2 menús: uno para el desayuno, que es bien sencillo:
 
-| Cafe americano            |  5 |
-| Cafe con leche            |  7 |
-| Sandwich de jamón y queso | 10 |
-| Jugo natural              |  7 |
+ | Item                      |Precio|
+ |---------------------------|------|
+ | Cafe americano            |    5 |
+ | Cafe con leche            |    7 |
+ | Sandwich de jamón y queso |   10 |
+ | Jugo natural              |    7 |
 
 Y un menú para el resto del dia:
 
