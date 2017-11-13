@@ -113,7 +113,7 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
         No es necesario modificar el código generado por el CLI (pero... por qué no? :eyes:)</td>
   </tr>
   <tr>
-    <th rowspan="1">Ejercicio</td>
+    <th rowspan="1">Avance de producto</td>
     <td colspan="2">
     Crear el componente que muestra un texto final. El texto debe ser mostrado en lírica; es decir, como un poema, donde la contribución de cada jugador representa un verso.<br/>
     El componente debe mostrar los datos desde un arreglo de cadenas de texto.
@@ -139,7 +139,7 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
     <td>https://angular.io/guide/form-validation#custom-validators</td>
   </tr>
   <tr>
-    <th rowspan="1">Ejercicio</td>
+    <th rowspan="1">Avance de producto</td>
     <td colspan="2">Crear el componente que permite el ingreso de un texto individual. El componente debe hacer uso de formularios reactivos, validar los datos de entrada y añadir los datos ingresados al arreglo local.</td>
   </tr>
 </table>
@@ -162,7 +162,7 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
     <td>https://en.wikipedia.org/wiki/Cross-site_request_forgery</td>
   </tr>
   <tr>
-    <th rowspan="1">Ejercicio</td>
+    <th rowspan="1">Avance de producto</td>
     <td colspan="2">
       Crear un servicio que envíe cada contribución al backend como texto corto y recibe el texto completo cuando el juego ha terminado.<br/>
       Cuando el juego termina, se debe mostrar el texto completo en el componente creado anteriormente.
@@ -179,7 +179,7 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
     <td>https://angular.io/guide/router</td>
   </tr>
   <tr>
-    <th rowspan="1">Ejercicio</td>
+    <th rowspan="1">Avance de producto</td>
     <td colspan="2">
     Crear un servicio que reciba desde el backend una lista con todos los juegos terminados.<br/>
     Crear un componente que muestre dicha lista al usuario.<br/>
@@ -192,6 +192,5 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
 
 Para aprobar:
 1. Codificar y publicar todos los ejercicios dejados durante el curso.
-Los ejercicios son acumulativos.
-No existe examen o proyecto final. :dancer:
+Los ejercicios son acumulativos. :dancer:
 2. Todo el código debe contener Pruebas unitarias.
