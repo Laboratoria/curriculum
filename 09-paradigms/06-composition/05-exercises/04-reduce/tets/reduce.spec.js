@@ -1,9 +1,7 @@
 'use strict';
 
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/reduce');
-
 
 describe('countWords()', () => {
     
@@ -13,7 +11,7 @@ describe('countWords()', () => {
     Assert.deepEqual(Submission(input), { Apple: 2, Banana: 1, Durian: 3 });
   });
 
-  it('NO debería usar for o while', () => {
+  it('No debería usar for o while', () => {
 
     Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
   });

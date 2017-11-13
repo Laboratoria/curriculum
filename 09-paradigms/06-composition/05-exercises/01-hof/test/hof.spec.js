@@ -1,9 +1,7 @@
 'use strict';
 
-
 const Assert =  require('chai').assert;
 const Submission = require('../solution/hof');
-
 
 describe('repeat', () => {
 

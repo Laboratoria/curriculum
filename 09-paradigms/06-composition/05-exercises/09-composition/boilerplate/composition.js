@@ -35,16 +35,16 @@ const robot = name => {
 };
   
 exports.murderRobot = name => {
-  //AQUI TU CÓDIGO
+  //Escribe aquí tu código 
 
 };
 
 exports.murderDog = name => {
-  //AQUI TU CÓDIGO
+  //Escribe aquí tu código 
 
 };
 
 exports.murderRobotDog = name => {
-  //AQUI TU CÓDIGO
+  //Escribe aquí tu código 
   
 };

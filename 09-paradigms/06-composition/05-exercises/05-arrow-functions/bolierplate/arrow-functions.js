@@ -1,24 +1,31 @@
-// Higher Order Functions
+//TAREA
+//Implementa las funciones implementadas en los ejercicios anteriores
+//(`repeat`,`doubleAll`, `getShortMessages` y `countWords`), pero esta
+// vez usando funciones flecha, y haciendo uso de retorno implícito 
+//cuando sea posible.
 
 // Hof
 exports.repeat = (operation, num)=> {
-    //TU CÓDIGO AQUÍ
+//Escribe tu código aquí.
+
 };
   
 // Map
-exports.doubleAll = (numbers)=> {
-    //AQUI TU CÓDIGO
+exports.doubleAll = (numbers) => {
+//Escribe tu código aquí.
+
     
 };
 
 // Filter
 exports.getShortMessages =(messages) =>{
-    //AQUI TU CÓDIGO
+//Escribe tu código aquí.
+
 
 };
 
 // Reduce
-exports.countWords = (inputWords) => {
-    //AQUI  TU CÓDIGO
+exports.countWords = (arr) => {
+//Escribe tu código aquí.
 
 };

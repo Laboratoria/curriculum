@@ -1,4 +1,4 @@
+const createLogger = function (namespace){
 
-const createLogger = //... tu código acá
-
+};
 module.exports = createLogger;

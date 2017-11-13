@@ -23,7 +23,7 @@ const message = () => {
 
 describe('getShortMessages()', () => {
     
-  it('Debería retornar [] cuando input array es []', () => {
+  it('Debería retornar [ ] cuando input array es [ ]', () => {
 
     Assert.deepEqual(Submission([]), []);
   });
