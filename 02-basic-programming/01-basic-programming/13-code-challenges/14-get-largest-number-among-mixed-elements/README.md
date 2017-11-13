@@ -1,6 +1,6 @@
 # getLargestNumberAmongMixedElements
 
-Escriba una función llamada "getLargestNumberAmongMixedElements". 
+Escriba una función llamada "getLargestNumberAmongMixedElements".
 
 Dado cualquier arreglo, "getLargestNumberAmongMixedElements" devuelve el mayor número en el arreglo dado.
 
