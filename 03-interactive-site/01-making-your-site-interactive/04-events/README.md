@@ -17,9 +17,9 @@ En esta unidad aprenderemos:
 
 ## ¿Qué es un evento?
 
-Es cuando el usuario realiza una acción permitiéndole interactuar con el
-programa. A cada evento se le asocia un manejador (_conocido como event handlers
-o event listeners_) el cual se ejecutará cuando ocurra el evento.
+Es la acción producto de la interacción entre el usuario y un software (en este
+caso, nuestra web). A cada evento se le asocia un manejador (_conocido como
+event handlers o event listeners_) el cual se ejecutará cuando ocurra el evento.
 
 Aquí hay un video de referencia:
 
