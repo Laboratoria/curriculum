@@ -1,31 +1,24 @@
 'use strict';
 
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/map');
 
-
 describe('doubleAll()', () => {
-    
-  it('Debería retornar array con números multiplicados por 2', () => {
-    
+  it('debería retornar array con números multiplicados por 2', () => {
     Assert.deepEqual(Submission([1, 2, 3]), [2, 4, 6]);
   });
 
   it('NO debería modificar array de entrada', () => {
-
     const input = [1, 2, 3];
     Assert.deepEqual(Submission(input), [2, 4, 6]);
     Assert.deepEqual(input, [1, 2, 3]);
   });
 
   it('NO debería usar for o while', () => {
-
     Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
   });
 
-  it('Debería invocar Array.prototype.map', () => {
-
+  it('debería invocar Array.prototype.map', () => {
     const map = Array.prototype.map;
     let mapCount = 0;
     let operationCount = 0;
@@ -38,12 +31,10 @@ describe('doubleAll()', () => {
       });
     };
 
-
     Assert.deepEqual(Submission([1, 2, 3]), [2, 4, 6]);
     Assert.equal(mapCount, 1);
     Assert.equal(operationCount, 3);
 
     Array.prototype.map = map;
   });
-  
 });

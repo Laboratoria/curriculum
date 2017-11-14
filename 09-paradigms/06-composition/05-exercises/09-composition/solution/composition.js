@@ -1,5 +1,5 @@
 const pooper = state => ({
-    poop: () => console.log('💩')
+  poop: () => console.log('💩')
 });
   
 const barker = state => ({
@@ -20,7 +20,6 @@ const dog = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, pooper(state), barker(state));
 };
   
@@ -30,7 +29,6 @@ const robot = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, driver(state));
 };
 
@@ -40,7 +38,6 @@ exports.murderRobot = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, driver(state), killer(state));
 };
 
@@ -50,7 +47,6 @@ exports.murderDog = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, barker(state), pooper(state), killer(state));
 };
   
@@ -60,6 +56,5 @@ exports.murderRobotDog = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, barker(state), driver(state), killer(state));
 };

@@ -1,6 +1,5 @@
 'use strict';
 
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/filter');
 
@@ -22,24 +21,19 @@ const message = () => {
 
 
 describe('getShortMessages()', () => {
-    
-  it('Debería retornar [ ] cuando input array es [ ]', () => {
-
+  it('debería retornar [ ] cuando input array es [ ]', ( )  => {
     Assert.deepEqual(Submission([]), []);
   });
 
   it('Debería retornar arreglo de strings con mensajes de menos de 50 chars', () => {
-    
     message();
   });
 
   it('NO debería usar for o while', () => {
-
     Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
   });
 
   it('Debería invocar Array.prototype.filter' , () => {
-
     const filter = Array.prototype.filter;
     let filterCount = 0;
 
@@ -57,22 +51,17 @@ describe('getShortMessages()', () => {
   });
 
   it('Debería invocar Array.prototype.map', () => {
-    
-      const map = Array.prototype.map;
-      let mapCount = 0;
+    const map = Array.prototype.map;
+    let mapCount = 0;
   
-      Array.prototype.map = function (fn) {
-        mapCount++;
-        return map.call(this, function () {
-          return fn.apply(null, Array.prototype.slice.call(arguments));
-        });
-      };
-  
-      message();
-  
-      Assert.equal(mapCount, 1);
-  
-      Array.prototype.map = map;
+    Array.prototype.map = function (fn) {
+      mapCount++;
+      return map.call(this, function () {
+        return fn.apply(null, Array.prototype.slice.call(arguments));
+      });
+    };
+    message();
+    Assert.equal(mapCount, 1);
+    Array.prototype.map = map;
   });
-    
 });

@@ -20,7 +20,6 @@ const dog = name => {
     speed: 20,
     position: 0
   };
-
   return Object.assign({}, pooper(state), barker(state));
 };
 
@@ -30,7 +29,6 @@ const robot = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, driver(state));
 };
   

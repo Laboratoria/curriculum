@@ -4,19 +4,15 @@ const Assert =  require('chai').assert;
 const Submission = require('../solution/clousures');
 
 describe('createLogger()', () => {
-    
   it('Debería de ser una función', () => {
-  
     Assert.equal(typeof Submission, 'function');
   });
   
   it('Debería de retornar una función', () => {
-  
     Assert.equal(typeof Submission(), 'function');
   });
   
   it('Debería de retornar una función que imprime a la consola con el namespace', () => {
-  
     const log = console.log;
     let called = 0;
     let output = '';

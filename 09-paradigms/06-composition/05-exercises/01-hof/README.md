@@ -51,5 +51,5 @@ incluirán un boilerplate.
 
 ## Recursos
 
-* [Functions_and_function_scope  -MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope)
+* [Funciones y alcance de la función - MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions_and_function_scope)
 * [Function.prototype - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype)
