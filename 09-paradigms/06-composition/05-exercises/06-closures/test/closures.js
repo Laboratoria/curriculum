@@ -1,7 +1,7 @@
 'use strict';
 
 const Assert =  require('chai').assert;
-const Submission = require('../solution/clousures');
+const Submission = require('../solution/closures');
 
 describe('createLogger()', () => {
   it('Debería de ser una función', () => {
