@@ -1,6 +1,5 @@
 'use strict';
 
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/composition');
 
@@ -9,6 +8,7 @@ describe('Object composition', () => {
     it('Debería ser una función', () => {
       Assert.equal(typeof Submission.murderDog, 'function');
     });
+    
     it('Debería retornar un objeto con bark, poop y kill', () => {
       const obj = Submission.murderDog();
       Assert.deepEqual(Object.keys(obj), ['bark', 'poop', 'kill']);

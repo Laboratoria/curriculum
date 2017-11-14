@@ -1,9 +1,7 @@
 'use strict';
 
-
 const Assert =  require('chai').assert;
 const Submission = require('../solution/object-assign');
-
 
 describe('extend', () => {
   it('Debería exportar un objeto', () => {
