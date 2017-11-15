@@ -1,7 +1,7 @@
 'use strict';
 
 const Assert = require('chai').assert;
-const { getShortMessages, repeat, doubleAll, countWords } = require('../solution/arrow-functions');
+const { getShortMessages, repeat, doubleAll, countWords } = require('../solution/arrowFunctions');
 
 const message = (_ => {
   return Assert.deepEqual(getShortMessages([{
