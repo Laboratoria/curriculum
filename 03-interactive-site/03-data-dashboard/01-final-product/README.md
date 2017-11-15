@@ -2,7 +2,7 @@
 
 - Tipo: `practice`
 - Formato: `self-paced`
-- Duración: `24h`
+- Duración: `15h`
 
 ## Objetivos
 
@@ -10,63 +10,70 @@
 
 ***
 
-## El Reto
+## Sobre el cliente
 
-Como reto final de este curso deberás crear una web interactiva, de complejidad
-media, que muestre los datos y el perfil de una estudiante de Laboratoria.
+En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
+mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
+apoyarlas en su aprendizaje.
 
-En Laboratoria recolectamos una serie de datos de las estudiantes y el propósito
-de este producto (_el data dashboard_) es presentar una visualización de esta data
-que pueda ayudar a la toma de decisiones.
+## Requerimientos
 
-Tu reto será **desarrollar** este producto, siguiendo los pasos a
-continuación:
+Para el presente producto, tomaremos en cuenta las 4 sedes de Laboratoria hasta
+el momento y las diversas generaciones que han pasado por cada una de éstas.
 
-1. Haz un **fork** de [este repositorio boilerplate](https://github.com/Laboratoria-learning/data-dashboard)
-   y clónalo en tu máquina. Aquí tendrás un archivo que tiene la data y assets
-   necesarios para el desarrollo de este producto
-2. Crea un tablero de organización de tareas y obtén feedback de tu `Training
-   Manager`
-3. Desarrolla el producto en base a [este diseño](https://marvelapp.com/104ejifg/screen/33742285)
-4. Despliega tu repositorio a GH Pages explicando en qué consiste el reto en tu
-   archivo `README.md`
+La data entregada deberá ser procesada para poder mostrar los datos más
+relevantes que las TMs necesitan:
 
-## Entregables
+- El total de estudiantes presentes por sede y generación.
+- El porcentaje de deserción de estudiantes.
+- La cantidad de estudiantes que superan la meta de puntos en promedio de todos
+  los sprints cursados. La meta de puntos es 70% del total de puntos.
+- El porcentaje que representa el dato anterior en relación al total de
+  estudiantes.
+- El Net Promoter Score (NPS) promedio de los sprints cursados. El NPS se
+  calcula, en base a la encuesta que las estudiantes responden al respecto de
+  la recomendación que darían de Laboratoria, bajo la siguiente fórmula:
 
-1. Tablero de organización de tareas
-2. Repositorio del producto funcional desplegado en GH Pages
-3. Entrevista técnica
+  ```text
+  [Promoters] = [Respuestas 9 o 10] / [Total respuestas] * 100
+  [Passive] = [Respuestas 7 u 8] / [Total respuestas] * 100
+  [Detractors] = [Respuestas entre 1 y 6] / [Total respuestas] * 100
 
-## Hacker Edition
+  [NPS] = [Promoters] - [Detractors]
+  ```
+- La cantidad y el porcentaje que representa el total de estudiantes que superan
+  la meta de puntos técnicos en promedio y por sprint.
+- La cantidad y el porcentaje que representa el total de estudiantes que superan
+  la meta de puntos de HSE en promedio y por sprint.
+- El porcentaje de estudiantes satisfechas con la experiencia de Laboratoria.
+- La puntuación promedio de lxs profesorxs.
+- La puntuación promedio de lxs jedi masters.
 
-¿Terminaste el desarrollo del producto? ¿Te gustaría hacer que las imágenes de
-las gráficas, sean reales en base a la data que tienes? Te invitamos a que lo
-hagas real :) Esto te otorgará 15% extra sobre tu evaluación ;)
+Además de estos datos, las TMs requieren poder ver el listado de estudiantes
+por sede y generación, mostrando su nombre completo, foto y promedio de puntaje
+técnico y de HSE.
 
-Pero no te preocupes, no estás sola. A continuación un video de Michelle con
-algunos tips de ayuda para construir este producto. Uno de ellos, muy importante,
-es una breve introducción a [Google Charts](https://developers.google.com/chart/interactive/docs/).
+## Diseño
 
-[![Tips Data Dashboard](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
+El siguiente es un diseño que se planteó como una base para representar los
+datos que las TMs necesitan, sin embargo, no es obligatorio seguirlo, se aceptan
+propuestas que ayuden a la comprensión de los datos presentados.
 
-## Forma de trabajo
+[Propuesta de diseño](https://marvelapp.com/104ejifg/)
 
-Este producto debe ser realizado **individualmente**.
+## Adicionales
 
-## Criterios de evaluación
+En Laboratoria (y sobre todo las TMs) somos adictos a la representación gráfica
+de los datos y como muestra el diseño, sería ideal poder mostrar los datos
+procesados en un gráfico como el diseño propone u otra alternativa.
 
-Los siguientes criterios serán considerados para evaluar tu trabajo:
+> Nota: En la etapa de diseño de la experiencia del producto, nos dimos cuenta
+> que [Google Charts](https://developers.google.com/chart/interactive/docs/quick_start)
+> podría ser una opción para desarrollar estos gráficos, pero no es la única que
+> se puede usar :smiley:.
 
-| Criterio                 | Peso | Evaluador
-| ------------------------ | ---- | ---------
-| Tablero de organización de tareas | 20% | Training Manager
-| Interfaz Front-end | 15% | Profe JS
-| Funcionalidad del producto | 25% | Profe JS
-| Limpieza de código (1) | 15% | Profe JS
-| Entrevista técnica (2) | 25% | Profe JS
-| Hacker Edition | 25% | Profe JS
+Además, la proactividad (siempre de las TMs :joy:) hace que el siguiente
+requerimiento adicional sea muy útil:
 
-- (1) Consiste en tomar en cuenta buenas prácticas en tu código como indentación,
-  declaración de variables, consistencia, nombres de funciones, etc.
-- (2) Deberás explicar cómo funciona tu código y por qué has decidido estructurar
-  tu trabajo de la manera en que lo hiciste
+> Sería muy bueno poder tener un botón que permita indicar que una estudiante ha
+> salido del Bootcamp y alterar los totales afectados por este cambio.
