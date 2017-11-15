@@ -46,8 +46,8 @@ relevantes que las TMs necesitan:
 - La cantidad y el porcentaje que representa el total de estudiantes que superan
   la meta de puntos de HSE en promedio y por sprint.
 - El porcentaje de estudiantes satisfechas con la experiencia de Laboratoria.
-- La puntuación promedio de lxs profesorxs.
-- La puntuación promedio de lxs jedi masters.
+- La puntuación promedio de l@s profesores.
+- La puntuación promedio de l@s jedi masters.
 
 Además de estos datos, las TMs requieren poder ver el listado de estudiantes
 por sede y generación, mostrando su nombre completo, foto y promedio de puntaje
@@ -75,5 +75,5 @@ procesados en un gráfico como el diseño propone u otra alternativa.
 Además, la proactividad (siempre de las TMs :joy:) hace que el siguiente
 requerimiento adicional sea muy útil:
 
-> Sería muy bueno poder tener un botón que permita indicar que una estudiante ha
-> salido del Bootcamp y alterar los totales afectados por este cambio.
+> Tener un botón que permita indicar que una estudiante ha salido del Bootcamp y
+> alterar los totales afectados por este cambio.
