@@ -162,7 +162,92 @@ que cumplen la meta :scream: :gun:.
 
 #### ¿Te pareció complejo?
 
-Bienvenida al mundo de las TMs :sweat_smile:, trata de comunicarlo de la mejor
+Bienvenid@ al mundo de las TMs :sweat_smile:, trata de comunicarlo de la mejor
 manera posible a las estudiantes, este fue un ejemplo largo para detallar lo que
 se busca calcular y lo puedas tener súper claro al momento de transmitirlo
 :smiley: :muscle:.
+
+### ¿Qué significa el porcentaje de achievement?
+
+Es el porcentaje de estudiantes que cumplen la _meta_. Es decir, si son `120`
+estudiantes, y solo `80` cumplen la meta, el % de achievement sería `75%`
+:tada:.
+
+### ¿Tiene algún significado los colores?
+
+Sí, básicamente es un semáforo que mejora la visibilidad de los resultados.
+Están basados en el porcentaje de estudiantes que cumplen la meta:
+
+Color | Métrica
+----- | -------
+Rojo | < 70%
+Amarillo | 70% a 80%
+Verde | > 80%
+
+### ¿Qué es el Net Promoter Score?
+
+Es el indicador de estudiantes que recomendarían a Laboratoria y normalmente se
+usa sus siglas NPS.
+
+### ¿Cómo se calcula el NPS?
+
+Las estudiantes reciben una encuesta, donde se les pide indicar del 1 al 10,
+cuánto recomendarían a Laboratoria. Y en base a los resultados, se calcula
+bajo la siguiente fórmula (que se dio en las instrucciones para las estudiantes):
+
+```text
+[Promoters] = [Respuestas 9 o 10] / [Total respuestas] * 100
+[Passive] = [Respuestas 7 u 8] / [Total respuestas] * 100
+[Detractors] = [Respuestas entre 1 y 6] / [Total respuestas] * 100
+
+[NPS] = [Promoters] - [Detractors]
+```
+
+#### Entonces... ¿No se toma en cuenta las respuestas 7 y 8?
+
+No para el resultado final del NPS, pero si se toma en cuenta cuántas
+respondieron con esos valores.
+
+### ¿Qué son los porcentajes al lado de promoters, passive, detractors?
+
+Cada uno de esos valores es el porcentaje de estudiantes que terminan en cada
+una de dichas categorías (está en la fórmula del NPS :wink:).
+
+### ¿El color del % de NPS significa algo?
+
+Sí, es un semáforo igual, en base al resultado obtenido.
+
+[:pray: Ayuda si alguien sabe cuáles son los indicadores :pray:]
+
+### ¿Qué significa la sección de tech skills y soft skills?
+
+En unas preguntas anteriores, está la sección de `achievement` (puntos técnicos +
+HSE). En estas secciones, se saca el detalle de cada uno con los mismos
+indicadores (los colores siguen la misma lógica).
+
+- Meta puntos técnicos: **1260**
+- Meta puntos HSE: **840**
+
+La gran diferencia es que se puede filtrar por sprint o ver el acumulado de
+todos los sprints cursados.
+
+### ¿Qué es la satisfacción de estudiantes?
+
+En cada sprint, las estudiantes responden una encuesta en base a la satisfacción
+de estudiar en Laboratoria y sus expectativas. Los resultados posibles son:
+0 - No cumple, 1 - Cumple y 2 - Supera.
+
+### ¿Cómo se calcula la satisfacción de estudiantes?
+
+Se suma la cantidad de estudiantes que responden `1 - Cumple` y `2 - Supera`.
+
+### ¿Qué representa entonces el número **140** en el diseño propuesto?
+
+Primero, debería ser un porcentaje (digamos que fue un error intencional :joy:),
+por lo tanto, no basarse en el número.
+
+Lo que debería representar es el porcentaje de estudiantes que respondieron con
+los resultados expresados en el punto anterior, **PERO** solo del último sprint.
+
+Es decir, si hay 3 sprints, solo muestra el % de satisfacción de estudiantes del
+último sprint :smiley:.
