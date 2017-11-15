@@ -68,6 +68,53 @@ aquí un listado de las cosas que probablemente aprendan en la marcha:
   > un plugin de jQuery y logran poner un gráfico, no las limitemos a que no
   > debieron usarlo, veamos su iniciativa y curiosidad por seguir aprendiendo.
 
+## Flujo de trabajo
+
+El producto final está pensado para 15 horas presenciales (3 días de clase), por
+lo cual, debemos de medir el progreso de cada día para dar feedback y apoyar
+cuanto antes. A continuación, se detalla lo que _debería_ pasar cada uno de los
+días (esto no va a pasar :joy:), igual esto es lo que deberíamos estar
+preparados para reaccionar :muscle:.
+
+### Día 1: Entendimiento y planificación
+
+Cuando se les entregue las indicaciones, habrán muchas dudas, tal vez sientan
+incluso que no les quedó nada claro. **NO DESESPEREN**, para eso tenemos esta
+guía :smiley:. Tenemos que representar muy bien a los clientes, en lo cual, si
+no nos preguntan nada, entendemos que todo está claro. Entonces, analicemos la
+calidad de las preguntas, esto será subjetivo (pero... no hay de otra), algo
+que debemos de fomentar, es que planifiquen, dividan tareas y prioricen (debemos
+estar muy atentos a esto).
+
+Algunas estudiantes, se mandarán a codear directamente, no las detengamos, que
+se den cuenta por ellas mismas si eso funciona o no. Cada grupo es independiente,
+así que la manera de afrontar el reto será distinto.
+
+### Día 2: Avance con dudas
+
+Acá probablemente ya habrán odiado a Git y sino, su odio será más intenso al
+final. En este segundo día, debemos revisar sus avances, y darles feedback de
+priorización, nos odiarán por no haberle dicho nada antes (pero... es parte de
+nuestro trabajo :wink:). Siéntanse libres de pedirles un cambio en su avance
+que les permita cambiar su dinámica de trabajo (recuerden que son los clientes,
+tienen el poder :japanese_ogre:, eso sí, todo con moderación y sentido para el
+reto). Aquí unas ideas:
+
+- Las secciones que muestran resultados generales, se podría filtrar por sprint.
+- Marcar una estudiante que desertó y alterar todos los resultados.
+
+### Día 3: Desesperación total
+
+Uno de los errores muy comunes cuando empezamos un trabajo en equipo es pensar
+que el avance por separado es mejor. Aquí es donde odiarán a GIT si no han
+intentado juntar sus avances hasta el momento, además algo que se acostumbra
+dejar para el final es el `deployment` (Github Pages), si no hacen algo de lo
+anterior mencionado hasta 30 minutos antes de la entrega del producto,
+probablemente su producto no quede como ellas esperaban, no tendrán un link que
+compartir en su presentación. Esto generará estrés y frustación, debemos estar
+atent@s a esto y dar nuestro mensaje de que deben valorar el aprendizaje
+obtenido. Seamos súper estrictos con los tiempos.
+
 ## Preguntas esperadas
 
 ### ¿Cómo haré las gráficas?
@@ -251,3 +298,67 @@ los resultados expresados en el punto anterior, **PERO** solo del último sprint
 
 Es decir, si hay 3 sprints, solo muestra el % de satisfacción de estudiantes del
 último sprint :smiley:.
+
+### ¿Cómo se calcula el _teacher rating_?
+
+Cada sprint, las estudiantes califican a sus profesores bajo una puntuación
+entre 1 a 5. El promedio de la calificación de todos los profes es el teacher
+rating.
+
+### ¿Qué representa 4.2 de teacher rating?
+
+Es el promedio de la puntuación de todos los profes en el último sprint cursado.
+
+
+### ¿Cómo se calcula el _jedi master rating_?
+
+Cada sprint, las estudiantes califican a sus jedi masters bajo una puntuación
+entre 1 a 5. El promedio de la calificación de todos los jedis es el jedi master
+rating.
+
+### ¿Qué representa 50 de jedi master rating?
+
+Otra vez, digamos que es un error planificado :sweat_smile:, debería ser 5.0, y
+al igual que el teacher rating, representa el promedio de puntuación de todos
+los jedis del último sprint cursado.
+
+### ¿Importa el color del jedi master rating?
+
+Digamos, que solo tenemos una métrica por el momento, si supera 4.5 de rating
+debería ir en verde, cualquier otro caso, su color natural (negro).
+
+### ¿Si cambio de sede, debe cambiar los números calculados?
+
+Exactamente, los valores no son números que se ponen en el HTML, todo debería
+ser procesado en base a la data entregada en el boilerplate :scream:.
+
+### ¿Y qué hay con el tab de estudiantes?
+
+El tab de estudiantes, solo debería de mostrar la lista de estudiantes de la
+sede y generación seleccionada.
+
+### ¿Qué dato de las estudiantes se va a mostrar?
+
+Solo es necesario su nombre, foto (placeholder), promedio de puntaje técnico y
+de HSE acumulado.
+
+#### ¿Y los demás datos?
+
+La especialización de la estudiante, los tags de tecnología, el nivel de inglés
+y el link a ver el detalle de una estudiante, son componentes que no se
+necesitan para este dashboard.
+
+### ¿Qué funcionalidad debe tener el listado de estudiantes?
+
+Viendo el diseño, parece que hubieran un par: buscar una estudiante y filtrar
+por especialización (UX y JS). Solo se solicita que la funcionalidad de búsqueda
+funcione, la del filtro se puede quitar del diseño sin problemas.
+
+La búsqueda debería ser solo por nombre y/o apellido.
+
+### Ya no más por favor :pray:
+
+El tab de `Teachers` no es necesario (si se quita del diseño va bien), el menú
+no tiene utilidad en este momento (también puede ser quitado del diseño).
+
+Eso es todo! :tada::tada::tada:
