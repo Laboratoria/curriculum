@@ -160,11 +160,11 @@ con todo!
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 1h | Organizando mis tareas
-| 02 | práctica | 14h | Data Dashboard
-| 03 | taller | 2h | Code Review (Peer + Teacher)
-| 04 | taller | 2h |  Solucionarios
-| 05 | taller | 1h |  Retrospectiva
+| 00 | practice | 14h | Data Dashboard
+| 01 | taller | 2h | Code Review (Peer + Teacher)
+| 02 | seminario | 2h |  Solucionario
+| 03 | cuestionario | 2h |  Encuestas de cierre de sprint
+| 04 | taller | 1h |  Retrospectiva
 
 ***
 

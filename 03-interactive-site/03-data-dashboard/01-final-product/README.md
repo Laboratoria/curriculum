@@ -14,15 +14,15 @@
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
 mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
-apoyarlas en su aprendizaje.
+apoyarlas en su aprendizaje. Para revisar esta data, las TMs, normalmente,
+tienen que revisar muchos documentos de excel (Google Spreadsheets) que están
+localizados en distintas carpetas y ubicaciones. Muchas veces pierden tiempo
+localizando estos documentos y _ejecutando_ fórmulas para obtener los datos que
+revisan.
 
-## Requerimientos
-
-Para el presente producto, tomaremos en cuenta las 4 sedes de Laboratoria hasta
-el momento y las diversas generaciones que han pasado por cada una de éstas.
-
-La data entregada deberá ser procesada para poder mostrar los datos más
-relevantes que las TMs necesitan:
+Para poder optimizar su tiempo, las TMs han solicitado que construyamos una
+herramienta web donde puedan ver estos datos fácil y rápidamente. Y nos
+comentaron que estos son los datos que revisan normalmente:
 
 - El total de estudiantes presentes por sede y generación.
 - El porcentaje de deserción de estudiantes.
@@ -49,17 +49,27 @@ relevantes que las TMs necesitan:
 - La puntuación promedio de l@s profesores.
 - La puntuación promedio de l@s jedi masters.
 
-Además de estos datos, las TMs requieren poder ver el listado de estudiantes
-por sede y generación, mostrando su nombre completo, foto y promedio de puntaje
-técnico y de HSE.
+Con esa información y con la [base de datos que nos facilitaron](https://github.com/Laboratoria-learning/data-dashboard/blob/master/js/data.js)
+pudimos crear [este diseño](https://marvelapp.com/104ejifg/). Sin embargo,
+creemos que tú podrías proponer algún cambio a este diseño que pueda mejorar la
+experiencia de las TMs.
 
-## Diseño
+## ¿Qué se requiere?
 
-El siguiente es un diseño que se planteó como una base para representar los
-datos que las TMs necesitan, sin embargo, no es obligatorio seguirlo, se aceptan
-propuestas que ayuden a la comprensión de los datos presentados.
+- La definición del diseño
+- Implementación del data dashboard usando `html`, `css` y `js`.
 
-[Propuesta de diseño](https://marvelapp.com/104ejifg/)
+## ¿Cómo empezar?
+
+1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+   de [este repositorio](https://github.com/Laboratoria-learning/data-dashboard).
+
+2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
+   es `git clone` y su estructura normalmente se ve así:
+
+   ```bash
+   git clone https://github.com/<nombre-de-usuario>/data-dashboard.git
+   ```
 
 ## Adicionales
 
