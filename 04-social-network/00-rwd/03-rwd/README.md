@@ -32,4 +32,4 @@ Las ventajas de utilizar Responsive Web Design son:
  
  - Eficiencia en la actualización. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas. Cuando tenemos los portales independientes para Web y Mobile se debe realizar la actualización dos veces lo que crea la necesidad de mayor cantidad de recursos y posibilidad de error.
 
- Puedes conocer un poco más sobre Responsive Web Design aquí[link](https://www.youtube.com/watch?v=sDP8ICaz-QU)
+ Puedes conocer un poco más sobre Responsive Web Design aquí[link](https://www.youtube.com/watch?v=vr-YtKTlyh8)
