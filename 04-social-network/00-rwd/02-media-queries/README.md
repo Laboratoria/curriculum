@@ -29,6 +29,13 @@ Los media features más comunes son los referidos a las dimensiones de pantalla 
 
 ![Media Feature](media_feature.png)
 
+Los operadores lógicos son and, not, only y lista separada por comas y se encargan de unir nuestros media types a los media feature.
+
+El operador and es usado para combinar múltiples media features en un sólo Media Query, requiriendo que cada función devuelve true para que el Query también lo sea.
+
+
+
+
 ## ¿Cómo utilizo Grid System?
 
 Tenemos un esbozo muy sencillo de como podría ser nuestro sitio: 
