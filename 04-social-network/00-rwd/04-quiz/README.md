@@ -18,19 +18,18 @@
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4. 
+1. Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos
+2. Tecnica de diseño en que se realizan diferentes sitios para múltiples dispositivos
+3. Técnica de diseño en que se realizan estilos sólo para un dispositivo, por lo general para desktop
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">1</solution>
 
 ### 2) Los componentes de un grid son:
 
 #### Opciones
 
 1. Columns
-2. Cols
+2. Cals
 3. Setters
 4. Gutters
 5. Row
@@ -41,12 +40,12 @@
 
 #### Opciones
 
-1. Un programador
-2. Un front-end y un back-end developer
-3. Un equipo multidisciplinario
-4. Una egresada de Laboratoria
+1. Una técnica que utiliza la regla @media para incluir nuevo HTML, que se ejecutará en nuestro JS.
+2. Una técnica que utiliza la regla @media para incluir bloques CSS que se ejecutarán si las condiciones dadas son verdaderas
+3. Una técnica que utiliza la regla @media para incluir bloques CSS que se ejecutarán si las condiciones dadas son falsas
+4. Una técnica que utiliza la regla @media para incluir bloques JS que se ejecutarán si las condiciones dadas son verdaderas.
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">2</solution>
 
 ### 4) Las reglas @media son un tipo especial de regla CSS que permiten indicar:
 
@@ -59,27 +58,30 @@
 
 <solution style="display:none;">2,3</solution>
 
-### 5) 
+### 5) Los _____________ corresponden a la condición que debe cumplir el dispositivo y la cual debe ser verdadera para que se aplique el código contenido en nuestra media query.
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4. 
+1. Media Queries
+2. Media Type
+3. Media Feature 
+4. Operadores Lógicos
 
 <solution style="display:none;">3</solution>
 
-### 6) 
+### 6) Las Media Queries están conformadas por:
 
 
 #### Opciones
 
-1. 
-2. 
-3. 
+1. Media Features
+2. Media Query
+3. Media Type
+4. Media Operators
+5. Operadores Lógicos
+6. Operadores Query
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">1,3,5</solution>
 
 ### 7) 
 
