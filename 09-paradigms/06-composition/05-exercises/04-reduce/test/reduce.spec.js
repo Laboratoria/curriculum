@@ -1,9 +1,12 @@
 'use strict';
 
+
 const Assert = require('chai').assert;
 const Submission = require('../solution/reduce');
 
+
 describe('countWords()', () => {
+
   it('debería retornar un objeto que contenga el número de veces que aparece cada string en el array', () => {
     const input = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian'];
     Assert.deepEqual(Submission(input), { Apple: 2, Banana: 1, Durian: 3 });
@@ -28,5 +31,6 @@ describe('countWords()', () => {
     Assert.equal(reduceCount, 1);
 
     Array.prototype.reduce = reduce;
-  })
+  });
+
 });

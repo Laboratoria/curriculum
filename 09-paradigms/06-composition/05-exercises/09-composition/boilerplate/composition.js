@@ -1,7 +1,7 @@
 const pooper = state => ({
   poop: () => console.log('💩')
 });
-  
+
 const barker = state => ({
   bark: () => console.log('woof! my name is ' + state.name)
 });
@@ -13,7 +13,7 @@ const driver = state => ({
 const killer = state => ({
   kill: () => console.log('time to kill!')
 });
-  
+
 const dog = name => {
   const state = {
     name: name,
@@ -31,18 +31,18 @@ const robot = name => {
   };
   return Object.assign({}, driver(state));
 };
-  
+
 exports.murderRobot = name => {
-  //Escribe aquí tu código 
+  //Escribe aquí tu código
 
 };
 
 exports.murderDog = name => {
-  //Escribe aquí tu código 
+  //Escribe aquí tu código
 
 };
 
 exports.murderRobotDog = name => {
-  //Escribe aquí tu código 
-  
+  //Escribe aquí tu código
+
 };

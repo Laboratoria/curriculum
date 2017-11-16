@@ -1,9 +1,12 @@
 'use strict';
 
+
 const Assert =  require('chai').assert;
 const Submission = require('../solution/hof');
 
+
 describe('repeat', () => {
+
   it('debería exportar una función', () => {
     Assert.equal(typeof Submission, 'function');
   });
@@ -13,4 +16,5 @@ describe('repeat', () => {
     Submission(_ => count++, 3);
     Assert.equal(count, 3);
   });
+
 });

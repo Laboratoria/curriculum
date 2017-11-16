@@ -1,34 +1,30 @@
 'use strict';
 
+
 const Assert =  require('chai').assert;
+const Sinon = require('sinon');
 const Submission = require('../solution/closures');
 
+
 describe('createLogger()', () => {
-  it('Debería de ser una función', () => {
+
+  it('debería de ser una función', () => {
     Assert.equal(typeof Submission, 'function');
   });
-  
-  it('Debería de retornar una función', () => {
+
+  it('debería de retornar una función', () => {
     Assert.equal(typeof Submission(), 'function');
   });
-  
-  it('Debería de retornar una función que imprime a la consola con el namespace', () => {
-    const log = console.log;
-    let called = 0;
-    let output = '';
-  
-    console.log = (str) => {
-      called++;
-      output += str;
-    };
-  
+
+  it('debería de retornar una función que imprime a la consola con el namespace', () => {
+    const stub = Sinon.stub(console, 'log');
     const warn = Submission('warning');
     warn('houston, we have a problem');
-  
-    Assert.equal(called, 1);
-    Assert.equal(output, '[warning]: houston, we have a problem');
-  
-    console.log = log;
+
+    Assert.equal(stub.callCount, 1);
+    Assert.equal(stub.getCall(0).args[0], '[warning]: houston, we have a problem');
+
+    stub.restore();
   });
-    
+
 });

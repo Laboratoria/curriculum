@@ -3,5 +3,5 @@ module.exports = function repeat(operation, num) {
     return;
   }
   operation();
-  return repeat(operation, --num);
+  return repeat(operation, num - 1);
 };
