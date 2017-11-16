@@ -64,8 +64,8 @@ características:
 | - | ---- | -------- | ------
 | 00 | lectura | 30min | Opening
 | 01 | lectura | 15min | ¿Qué es un Framework?
-| 02 | lectura | 15min | Materialize
-| 03 | lectura | 30min | ¿Y Bootstrap?
+| 02 | lectura | 15min | Bootstrap
+| 03 | lectura | 30min | ¿Y Materialize?
 | 04 | lectura | 30min | ¿Componentes con jQuery?
 | 05 | quiz | 30min | Quiz #1
 | 06 | taller | 2h | Clase Práctica
