@@ -23,5 +23,6 @@
     "mdlint": "Laboratoria/mdlint",
     "mocha": "^4.0.1",
     "sinon": "^4.0.1"
-  }
+  },
+  "dependencies": {}
 }
