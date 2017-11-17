@@ -31,3 +31,4 @@ El ancho total de nuestro sitio equivaler a cierta cantidad de columnas, entonce
 
 ![Grid](https://cdn.tutsplus.com/webdesign/uploads/legacy/tuts/341_wf/wireframe-bare.png)
 
+Si quieres entender un poco más cómo funcionan las grids, lee el siguiente artículo [link](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e)
