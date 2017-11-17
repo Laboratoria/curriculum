@@ -1,3 +1,3 @@
-exports.extend = function (){
-    // Escribe aquí tu código.
+exports.extend = function () {
+  // Escribe aquí tu código.
 };

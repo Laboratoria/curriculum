@@ -1,7 +1,7 @@
 const pooper = state => ({
   poop: () => console.log('💩')
 });
-  
+
 const barker = state => ({
   bark: () => console.log('woof! my name is ' + state.name)
 });
@@ -13,7 +13,7 @@ const driver = state => ({
 const killer = state => ({
   kill: () => console.log('time to kill!')
 });
-  
+
 const dog = name => {
   const state = {
     name: name,
@@ -22,7 +22,7 @@ const dog = name => {
   };
   return Object.assign({}, pooper(state), barker(state));
 };
-  
+
 const robot = name => {
   const state = {
     name: name,
@@ -49,7 +49,7 @@ exports.murderDog = name => {
   };
   return Object.assign({}, barker(state), pooper(state), killer(state));
 };
-  
+
 exports.murderRobotDog = name => {
   const state = {
     name: name,
