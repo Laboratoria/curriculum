@@ -10,7 +10,7 @@
 
 ***
 
-## Sobre el cliente
+## Sobre el producto
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
 mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
@@ -56,8 +56,11 @@ experiencia de las TMs.
 
 ## ¿Qué se requiere?
 
+- Trabajar en parejas
+- Tener una planificación
 - La definición del diseño
-- Implementación del data dashboard usando `html`, `css` y `js`.
+- Implementación del data dashboard usando `html`, `css` y `js`
+- Desplegar el producto en Github Pages
 
 ## ¿Cómo empezar?
 
