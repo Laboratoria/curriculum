@@ -37,14 +37,26 @@ Los **operadores lógicos** son *and*, *not*,
 
 El operador *and* es usado para combinar múltiples media en un solo Media Query, requiriendo que cada función devuelve true para que el media query también lo sea. El operador *not* se utiliza para negar un media query completo y el operador *only* se usa para aplicar un estilo sólo si el query completo es correcto.
 
-## ¿Cómo utilizo los Media Queries?
+## Viewport
 
-Una vez que ya comprendemos como funcionan los media queries, debemos usarlos
+Un elemento que es muy importante y que debemos añadir siempre a nuestro sitio si queremos que sea responsive es la etiqueta meta viewport.
+
+La etiqueta viewport nos permite definir el ancho, alto y escala del área usada por el navegador para mostrar contenido. 
+
+Al fijar el ancho o alto del viewport, podemos usar un número fijo de píxeles o usar dos constantes, device-width y device-height respectivamente. Se considera una buena práctica configurar el viewport con algunas de estas dos constantes, en lugar de utilizar un ancho o alto fijo.
+
+La configuración más común de viewport es la siguiente:
+
+~~~
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+~~~
+
+Sus propiedades son las siguientes:
+- **width**: controla el ancho del área de visualización. Puede ser inicializado a un número concreto de pixels o con el valor especial device-width, que indica el ancho total del dispositivo, en píxeles en una escala del 100%.
+
+- **initial-scale**: controla el nivel de zoom inicial al cargarse la página. Las propiedades maximum-scale, minimum-scale, y user-scalable controlan cómo el usuario puede realizar zoom sobre la página.
 
 
-<p data-height="265" data-theme-id="0" data-slug-hash="wevWQV" data-default-tab="html,result" data-user="bosqueinvierno" data-embed-version="2" data-pen-title="Uso de Media Queries" class="codepen">See the Pen <a href="https://codepen.io/bosqueinvierno/pen/wevWQV/">Uso de Media Queries</a> by Ally G (<a href="https://codepen.io/bosqueinvierno">@bosqueinvierno</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+Puedes profundizar un poco más en Media Queries y Viewport [aquí](https://www.youtube.com/watch?v=VWL7I71pU2A) y [acá](http://www.bytpher.com/c/1/m/6-los-media-queries)
 
-
-![Media Queries Uso](https://zellwk.com/images/2016/designing-grids/layout.png)
 
