@@ -1,4 +1,4 @@
-# Media Queries
+# Media Queries y Viewport
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -28,7 +28,9 @@ Los **media types** corresponden a los distintos dispositivos donde se puede vis
 
 Los **media feature** corresponden a la condición que debe cumplir el dispositivo y la cual debe ser verdadera para que se aplique el código contenido en nuestra media query.
 
+
 Los media features más comunes son los referidos a las dimensiones de pantalla del dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con height y width), o lo que es más interesante, a partir de que ancho o alto se aplicarán (con min/max-width y min/max-height). 
+
 
 ![Media Feature](media_feature.png)
 
@@ -58,5 +60,4 @@ Sus propiedades son las siguientes:
 
 
 Puedes profundizar un poco más en Media Queries y Viewport [aquí](https://www.youtube.com/watch?v=VWL7I71pU2A) y [acá](http://www.bytpher.com/c/1/m/6-los-media-queries)
-
 
