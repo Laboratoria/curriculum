@@ -1,8 +1,9 @@
 'use strict';
 
-const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
-const Assert = globalScope.Assert = require('chai').assert;
+
+const Assert =  require('chai').assert;
 const Submission = require('../solution/hof');
+
 
 describe('repeat', () => {
 
@@ -11,7 +12,6 @@ describe('repeat', () => {
   });
 
   it('debería invocar la operación num veces', () => {
-
     let count = 0;
     Submission(_ => count++, 3);
     Assert.equal(count, 3);
