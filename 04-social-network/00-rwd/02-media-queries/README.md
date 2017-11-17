@@ -28,7 +28,9 @@ Los **media types** corresponden a los distintos dispositivos donde se puede vis
 
 Los **media feature** corresponden a la condición que debe cumplir el dispositivo y la cual debe ser verdadera para que se aplique el código contenido en nuestra media query.
 
+
 Los media features más comunes son los referidos a las dimensiones de pantalla del dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con height y width), o lo que es más interesante, a partir de que ancho o alto se aplicarán (con min/max-width y min/max-height). 
+
 
 ![Media Feature](media_feature.png)
 
@@ -44,7 +46,4 @@ Una vez que ya comprendemos como funcionan los media queries, debemos usarlos
 
 <p data-height="265" data-theme-id="0" data-slug-hash="wevWQV" data-default-tab="html,result" data-user="bosqueinvierno" data-embed-version="2" data-pen-title="Uso de Media Queries" class="codepen">See the Pen <a href="https://codepen.io/bosqueinvierno/pen/wevWQV/">Uso de Media Queries</a> by Ally G (<a href="https://codepen.io/bosqueinvierno">@bosqueinvierno</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-
-![Media Queries Uso](https://zellwk.com/images/2016/designing-grids/layout.png)
 
