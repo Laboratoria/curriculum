@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `20min`
+- Duración: `15min`
 
 ## Objetivos
 
@@ -71,7 +71,6 @@
 
 ### 6) Las Media Queries están conformadas por:
 
-
 #### Opciones
 
 1. Media Features
@@ -83,27 +82,30 @@
 
 <solution style="display:none;">1,3,5</solution>
 
-### 7) 
+### 7) ¿Para qué sirve el viewport?
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4. 
+1. Para definir el ancho y alto usado por el navegador
+2. Para definir el ancho y escala usado por el navegador
+3. Para definir el ancho, alto y escala usado por el navegador
+4. Para definir la cantidad de media queries a utilizar
+5. Para definir la cantidad de archivos css a utilizar
 
-<solution style="display:none;">1</solution>
+<solution style="display:none;">3</solution>
 
-### 8) 
+### 8) Los ___________ corresponden a los distintos dispositivos donde se puede visualizar nuestro sitio web.
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4. 
+1. Media Features
+2. Media Query
+3. Media Type
+4. Media Operators
+5. Operadores Lógicos
+6. Operadores Query 
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">3</solution>
 
 ### 9) 
 
