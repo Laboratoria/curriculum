@@ -1,4 +1,4 @@
-# Solucionario coi
+# Solucionario
 
 * Tipo: `seminario`
 * Formato: `guiado`
