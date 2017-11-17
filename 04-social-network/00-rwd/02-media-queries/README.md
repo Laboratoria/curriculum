@@ -35,11 +35,16 @@ Los media features más comunes son los referidos a las dimensiones de pantalla 
 Los **operadores lógicos** son *and*, *not*, 
 *only* y *lista separada por comas*(que funciona como el operador lógico or de Javascript) y se encargan de unir nuestros media types a los media feature.
 
-El operador *and* es usado para combinar múltiples media en un solo Media Query, requiriendo que cada función devuelve true para que el Query también lo sea. El operador *not* se utiliza para negar un Media Query completo y el operador *only* se usa para aplicar un estilo sólo si el Query completo es correcto.
+El operador *and* es usado para combinar múltiples media en un solo Media Query, requiriendo que cada función devuelve true para que el media query también lo sea. El operador *not* se utiliza para negar un media query completo y el operador *only* se usa para aplicar un estilo sólo si el query completo es correcto.
 
 ## ¿Cómo utilizo los Media Queries?
 
-T 
+Una vez que ya comprendemos como funcionan los media queries, debemos usarlos
+
+
+<p data-height="265" data-theme-id="0" data-slug-hash="wevWQV" data-default-tab="html,result" data-user="bosqueinvierno" data-embed-version="2" data-pen-title="Uso de Media Queries" class="codepen">See the Pen <a href="https://codepen.io/bosqueinvierno/pen/wevWQV/">Uso de Media Queries</a> by Ally G (<a href="https://codepen.io/bosqueinvierno">@bosqueinvierno</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ![Media Queries Uso](https://zellwk.com/images/2016/designing-grids/layout.png)
 
