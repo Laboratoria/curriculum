@@ -19,35 +19,38 @@ El grid system ayuda a alinear elementos de página basados ​​en columnas y 
 
 ![Grid](http://test.visitnorway.org/wp-content/uploads/sites/2/2013/02/Grid_3.png)
 
-Como mencionabamos, un grid consta generalmente de containers (contenedores), rows (filas), columnas (columns) y gutters.
+Como mencionabamos, un grid consta generalmente de containers (contenedores), rows (filas), columns (columnas) y gutters.
 
 ![Grid](https://mdn.mozillademos.org/files/13899/grid.png)
 
 ## Elementos del Grid System
 
-- Container
+Container
 
-![Container](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/container.png)
+: ![Container](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/container.png)
 
-El objetivo del container es establecer el ancho de toda la grid. El ancho del container generalmente es del 100%, pero es posible que desee establecer un ancho máximo para pantallas más grandes.
+: El objetivo del container es establecer el ancho de toda la grid. El ancho del container generalmente es del 100%, pero es posible que desee establecer un ancho máximo para pantallas más grandes.
 
-- Row
+Row
 
-![Row](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/row.png)
+: ![Row](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/row.png)
 
-El propósito del row es evitar que las columns dentro de él se desborden en otras rows.
+: El propósito del row es evitar que las columns dentro de él se desborden en otras rows.
 
-- Columns
 
-![Columns](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column.png)
+Columns
 
-El proposito de las columns es contener a los elementos que queremos mostrar en nuestro sitio web.
+: ![Columns](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column.png)
 
-- Gutters
+: El proposito de las columns es contener a los elementos que queremos mostrar en nuestro sitio web.
 
-![Gutters](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column-gutters.png)
+Gutters
 
-Los gutters son los entre las columns.
+: ![Gutters](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column-gutters.png)
+
+: Los gutters son los espacios entre las columns.
+
+- - -
 
 Si quieres entender un poco más cómo funcionan las grids, lee el siguiente [Con titulo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e "artículo")
 
