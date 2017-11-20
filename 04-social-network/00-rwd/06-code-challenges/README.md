@@ -29,10 +29,10 @@ En este reto, vamos a realizar una página a nuestro gusto.
 
 El diseño lo puedes realizar como mejor te parezca, pero debes mantener la estructura de la página y debes realizarlo con un grid (cualquiera pero que no sea un framework como Bootstrap o Materialize). La estructura de la página es la siguiente:
 
-![Imagen 1][1]  ![Imagen 2][2]
+![Imagen 4][4]  ![Imagen 5][5]
 
- [1]: desktop.png
- [2]: responsive.png
+ [4]: desktop.png
+ [5]: responsive.png
 
 
 
