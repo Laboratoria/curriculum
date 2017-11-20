@@ -14,9 +14,8 @@
 
 ## ¿Qué es Responsive Web Design?
 
-}
-Responsive Web Design se trata de una técnica de diseño
-y desarrollo web por el que se consigue que un único sitio se adapte perfectamente a todos los dispositivos desde ordenadores de escritorio a tablets, teléfonos móviles, etc. 
+Responsive Web Design se trata de una técnica de diseño y desarrollo web por el que se consigue que un único sitio se adapte perfectamente a todos los dispositivos desde ordenadores de escritorio a tablets, teléfonos móviles, etc. 
+
 ¿Cómo hace esto? Utilizando HTML y CSS para cambiar el tamaño, ocultar, reducir, ampliar o mover el contenido para que se vea bien en cualquier pantalla.
 
 ![Ejemplo Responsive Web Design](https://designmodo.com/wp-content/uploads/2011/10/4.jpg)
