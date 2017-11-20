@@ -107,47 +107,40 @@
 
 <solution style="display:none;">3</solution>
 
-### 9) 
+### 9) Teniendo el siguiente código, ¿qué sucederá?
+~~~
+@media screen and (max-width: 700px){
+	p{
+		color: blue;
+		font-size: 15px;
+	}
+}
+~~~
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4.
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más de 700px
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga menos de 700px
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga más de 700px
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga menos de 700px
 
 <solution style="display:none;">4</solution>
 
-### 10) 
+### 10) Teniendo el siguiente código, ¿qué sucederá?
+~~~
+@media (min-width: 650px), tv and (orientation: landscape){
+	img{
+		max-width: 80%;
+	}
+}
+~~~
 
 #### Opciones
 
-1. 
-2. 
-3. 
-4. 
+1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea verdadero
+2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and (orientation: landscape)** sea verdadero
+3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)** sea verdadero
+4. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea verdadero
+5. No sucede nada
 
-<solution style="display:none;">3</solution>
-
-### 11) 
-
-#### Opciones
-
-1. 
-2. 
-3. 
-4. 
-
-<solution style="display:none;">1</solution>
-
-### 12) 
-
-#### Opciones
-
-1. 
-2. 
-3. 
-4. 
-5. 
-
-<solution style="display:none;">1,4</solution>
+<solution style="display:none;">4</solution>
