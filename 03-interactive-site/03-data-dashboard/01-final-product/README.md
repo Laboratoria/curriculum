@@ -1,7 +1,8 @@
 # Producto Final: Data Dashboard
-- Tipo: `code`
-- Formato: `self-learning`
-- Duración: `1440min`
+
+- Tipo: `practice`
+- Formato: `self-paced`
+- Duración: `15h`
 
 ## Objetivos
 
@@ -9,45 +10,83 @@
 
 ***
 
-## El Reto
+## Sobre el producto
 
-Como reto final de este curso deberás diseñar y crear una web
-interactiva, de complejidad media, que muestre los datos y el perfil de una
-estudiante de Laboratoria.
+En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
+mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
+apoyarlas en su aprendizaje. Para revisar esta data, las TMs, normalmente,
+tienen que revisar muchos documentos de excel (Google Spreadsheets) que están
+localizados en distintas carpetas y ubicaciones. Muchas veces pierden tiempo
+localizando estos documentos y _ejecutando_ fórmulas para obtener los datos que
+necesitan.
 
-En Laboratoria recolectamos una serie de datos de las estudiantes y el propósito de este producto (el data dashboard) es presentar una visualización de esta data que pueda ayudar a la toma de decisiones.
+Para poder optimizar su tiempo, las TMs han solicitado que construyamos una
+herramienta web donde puedan ver estos datos fácil y rápidamente. Y nos
+comentaron que estos son los datos que revisan normalmente:
 
-Tu reto será **diseñar** y **desarrollar** este producto, siguiendo los pasos a continuación:
+- El total de estudiantes presentes por sede y generación.
+- El porcentaje de deserción de estudiantes.
+- La cantidad de estudiantes que superan la meta de puntos en promedio de todos
+  los sprints cursados. La meta de puntos es 70% del total de puntos en HSE y en tech.
+- El porcentaje que representa el dato anterior en relación al total de
+  estudiantes.
+- El Net Promoter Score (NPS) promedio de los sprints cursados. El NPS se
+  calcula en base a la encuesta que las estudiantes responden al respecto de
+  la recomendación que darían de Laboratoria, bajo la siguiente fórmula:
 
-1. Clona el [Repositorio XXX](). Aquí tendrás un archivo que tiene la data de las alumnas
-2. Crea un tablero de organización de tareas y obtén feedback de tu `Training Manager`
-3. Entrevista a tus `Profes` y a tu `Training Manager` para entender las necesidades de visualización de data que tiene Laboratoria. Pregúntales qué tipo de data es importante para ellos, cómo se imaginan las visualizaciones, qué data es más importante que otra, etc. Ten en consideración que este producto debe servir para visualizar data de los 3 países en los que opera Laboratoria.
-4. Desarrolla un sketch de tu producto y obtén feedback de tu `Profe UX`. Puedes buscar referencias de dashboards en la web, puedes consultar a quien quieras, tienes total libertad.
-5. Si tu diseño final cumple con las funcionalidades mínimas que debe tener el data dashboard, procederás a desarrollar (codear) tu diseño. De lo contrario, tu `Profe de UX` te dará el diseño que deberás codear.
+  ```text
+  [Promoters] = [Respuestas 9 o 10] / [Total respuestas] * 100
+  [Passive] = [Respuestas 7 u 8] / [Total respuestas] * 100
+  [Detractors] = [Respuestas entre 1 y 6] / [Total respuestas] * 100
 
-## Entregables
-1. Tablero de organización de tareas
-2. Diseño UX del producto (sketch)
-3. Initerfaz Front-End funcionando
+  [NPS] = [Promoters] - [Detractors]
+  ```
+- La cantidad y el porcentaje que representa el total de estudiantes que superan
+  la meta de puntos técnicos en promedio y por sprint.
+- La cantidad y el porcentaje que representa el total de estudiantes que superan
+  la meta de puntos de HSE en promedio y por sprint.
+- El porcentaje de estudiantes satisfechas con la experiencia de Laboratoria.
+- La puntuación promedio de l@s profesores.
+- La puntuación promedio de l@s jedi masters.
 
-## Tips
-A continuación un video de Michelle con algunos tips de ayuda para construir este producto. Uno de ellos, muy importante, es una breve introducción a [Google Charts](https://developers.google.com/chart/interactive/docs/).
+Con esa información y con la [base de datos que nos facilitaron](https://github.com/Laboratoria-learning/data-dashboard/blob/master/js/data.js)
+pudimos crear [este diseño](https://marvelapp.com/104ejifg/). Sin embargo,
+creemos que tú podrías proponer algún cambio a este diseño que pueda mejorar la
+experiencia de las TMs.
 
-[![Tips Data Dashboard](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
+## ¿Qué se requiere?
 
-## Forma de trabajo
-Este producto debe ser realizado en **parejas**.
+- Trabajar en parejas
+- Tener una planificación
+- La definición del diseño
+- Implementación del data dashboard usando `html`, `css` y `js`
+- Desplegar el producto en Github Pages
 
-## Criterios de evaluación
-Los siguientes criterios serán considerados para evaluar tu trabajo:
+## ¿Cómo empezar?
 
-| Criterio                 | Peso | Evaluador
-| ------------------------ | ---- | ---------
-| Tablero de organización de tareas        |  20% | Training Manager
-| Diseño UX                |  20% | Profe UX
-| Interfaz Front-End       |  20% | Profe JS
-| Limpieza de código (indentación, declaración de variables, consistencia, nombres de funciones, etc.)   |  20% | Profe JS
-| Entrevista técnica: deberás explicar cómo funciona tu código y por qué has decidido estructurar tu trabajo de la manera en que lo hiciste |  20% | Profe JS
+1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+   de [este repositorio](https://github.com/Laboratoria-learning/data-dashboard).
 
-***
-[Continuar](13-solutions-code-challenges.md)
+2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
+   es `git clone` y su estructura normalmente se ve así:
+
+   ```bash
+   git clone https://github.com/<nombre-de-usuario>/data-dashboard.git
+   ```
+
+## Adicionales
+
+En Laboratoria (y sobre todo las TMs) somos adictos a la representación gráfica
+de los datos y como muestra el diseño, sería ideal poder mostrar los datos
+procesados en un gráfico como el diseño propone u otra alternativa.
+
+> Nota: En la etapa de diseño de la experiencia del producto, nos dimos cuenta
+> que [Google Charts](https://developers.google.com/chart/interactive/docs/quick_start)
+> podría ser una opción para desarrollar estos gráficos, pero no es la única que
+> se puede usar :smiley:.
+
+Además, la proactividad (siempre de las TMs :joy:) hace que el siguiente
+requerimiento adicional sea muy útil:
+
+> Tener un botón que permita indicar que una estudiante ha salido del Bootcamp y
+> alterar los totales afectados por este cambio.

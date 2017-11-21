@@ -1,4 +1,4 @@
-# 11. React
+# React
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 crear interfaces a través de lindos componentes, sino que representa un cambio
@@ -17,12 +17,11 @@ tecnología** para desarrollar interfaces, no importa si es una página web
 estática, una single-page app, una aplicación de escritorio o una aplicación
 móvil.
 
-En este curso continuarás con el video juego que construimos en el curso
-anterior, pero esta vez lo re-escribiremos usando React, y añadiremos
-funcionalidad como "high scores", ...
+En este curso continuarás construirás un Single Page App (SPA), usando React,
+JSX, Babel, Webpack y Redux.
 
-***Tags***: `react`, componentes, `ui`, `stateless`, `HOCs`, `babel`,
-encapsulamiento, modularización, `jsx`
+***Tags***: `react`, `components`, `ui`, `stateless`, `HOCs`, `babel`,
+`encapsulamiento`, `modularización`, `jsx`, `webpack`, `redux`
 
 ## Público objetivo
 
@@ -37,10 +36,10 @@ Para poder llevar adelante este curso sin frustración, es recomendable los
 siguientes conocimientos previos:
 
 * Manejo de línea de comandos (\*nix) y git
-* Javascript functional: es5, inmutabilidad, node y npm
+* JavaScript functional: es5, inmutabilidad, node y npm
 * Desarrollo web standard: html y dom + css
 
-También debes haber completado el curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional).
+También debes haber completado el curso **JavaScript Funcional**.
 
 ## Aprenderás
 
@@ -61,12 +60,6 @@ También debes haber completado el curso [10-funcional](https://github.com/Labor
   - Manejo de `state` interno.
   - Referencias entre componentes (`refs`)
 
-## Detalles logísticos
-
-* Self-paced: x hrs
-* Presencial: y hrs
-* Total horas: z
-
 ## Formato del curso
 
 En este curso proponemos una especia de "simulacro" de la vida real. Un enfoque
@@ -85,133 +78,104 @@ tutorxs y los recursos online que ellxs nos recomienden, y principalmente,
 dedicando muchas horas a desarrollar un producto del que podamos sentirnos
 orgullosxs.
 
-### Evaluación
+## Evaluación
 
 En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
 por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
 tu desempeño personal.
 
-Para determinar el puntaje de tu equipo / producto contaremos con sesiones
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
 períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el dia de la demo, donde será evaluado por el
+desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
 Tu desempeño personal estará determinado por tu participación dentro de las
 sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack/discourse/so (haciendo y/o
-contestando preguntas), etc.
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
 
 Todos los equipos deberán exponer sus resultados durante el día de la demo,
 independientemente del estado de completitud del producto. Aquellos equipos que
 no hayan completado sus productos, tendrán un período de gracia para hacerlo.
 
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
+
 ## Producto
 
-Convertir video juego del curso [10-funcional](https://github.com/Laboratoria/curricula-js/tree/master/10-functional)
-en una single app con las siguientes extensiones:
+Durante este curso construirás un "Single page app" con las siguientes
+características:
 
-* Texto de introducción al juego
-* High-scores
-* ... (Depende de [#30](https://github.com/Laboratoria/curricula-js/issues/30))
-
-Y además deberá contar con los siguientes requermientos técnicos:
-
-* Estar desarrollada íntegramente en es6 y react, y empaquetada de manera
-  automatizada con `babel` o `webpack`
+* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
+  con `babel` o `webpack`
+* Utilizando `React` y `Redux`
+* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
+  no atomicos (JSON) y 3 actions
 * Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
   empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Github pages
 * Haber administrado y documentado todo el proceso de creación de la aplicación
   en github.
 * Al día de la demo, la aplicación deberá estar publicada en una URL accesible
   universalmente.
+* No es necesario implementar rutas
+* No es necesario implementar persistencia
+* No es necesario implementar conexiones remotas
 
 ## Syllabus
 
-### [Presentación del curso](00-presentacion/index.md)
+### Unidad 01: [Intro a React y JSX](01-intro)
 
-15min (presencial)
+En esta primera unidad veremos qué hace exactamente `React`, cómo integrarlo en
+tiempo cero en una página web existente y cómo construir interfaces con el.
 
-Antes de comenzar, en esta "pre-lección" se hará una presentación sobre el curso
-en sí, los objetivos de aprendizaje, el proyecto a entregar al fin del curso, la
-metodología de aprendizaje, requisitos previos y metodología de evaluación.
+React puede desarrollarse en ES5, pero por su naturaleza declarativa, esto es
+muy engorroso. Es por eso que `React` usa `JSX` como su `templating language`
+por defecto.
 
-#### Lesson plan
-
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   15min  |
-
-### Lesson 1: [Intro a React](L01-intro/index.md)
-
-60min (self-paced)
-
-En esta primera lección veremos qué hace exactamente React. Veremos cómo
-integrarlo en tiempo cero en una página web existente y cómo construir
-interfaces con el.
-
-Analizaremos su "propuesta", estructura y herramientas básicas.
-
-#### Lesson plan
-
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |    5min  | Conceptos básicos de React
-|   2   | texto  |   20min  | Instalación y uso
-|   3   | code   |   20min  | Ejercicio: Nuestra primera interfaz
-|   4   | qa     |   15min  | Re-cap
-
-### Lesson 2: [JSX](L02-jsx/index.md)
-
-40min (self-paced)
-
-React puede desarrollarse en es5, pero por su naturaleza declarativa, esto es
-muy engorroso. Es por eso que React usa JSX como su `templating language` por
-defecto.
-
-En esta lección aprenderemos qué es `JSX`, qué beneficios introduce, por qué es
-una pieza fundamental de `React`. Además construiremos nuestros primeros
+En esta unidad también introduciremos `JSX`, qué beneficios introduce, por qué
+es una pieza fundamental de `React`. Además construiremos nuestros primeros
 componentes "de verdad".
 
-#### Lesson plan
+|  # | Tipo      | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |    5min  | Apertura
+| 01 | lectura   | self-paced |    4min  | ¿Qué es React?
+| 02 | lectura   | self-paced |   12min  | Instalación y uso
+| 03 | práctica  | self-paced |   10min  | Ejercicio: Nuestra primera interfaz
+| 04 | lectura   | self-paced |    4min  | JSX Basics and expressions
+| 05 | práctica  | self-paced |   10min  | Ejercicio: Migrar a JSX
+| 06 | lectura   | self-paced |   10min  | Renderizado condicional
+| 07 | lectura   | self-paced |   10min  | Listas y `key`s
+| 08 | seminario | guiado     |   40min  | Re-cap
+| 09 | seminario | guiado     |    5min  | Cierre
 
-| Orden |     Tipo      | Duración | Descripción
-|-------|---------------|----------|------------
-|   1   | texto         |    5min  | Intro
-|   2   | texto + code  |   10min  | Basics and expressions
-|   3   | texto + code  |   10min  | Renderizado condicional
-|   4   | texto + code  |   10min  | Listas y `key`s
+### Unidad 02: [Proyecto: Kickstart](02-workshop)
 
-### Lesson 3: [Babel](L03-babel/index.md)
+Es hora de convertir a tu proyecto en un proyecto React!
 
-30min (self-paced)
+En este primer taller del proyecto nos centraremos en definir el alcance del
+proyecto, organizar los equipos, decidir qué productos construir, e identificar
+las tareas que tú y tu equipo deben realizar para cumplir con el objetivo del
+curso.
 
-...
+### Unidad 03: [Babel y Webpack](03-babel-and-webpack)
 
-#### Lesson plan
+Ahora que ya has tenido la oportunidad de ver lo básico de `React` en acción,
+en esta unidad veremos `Babel` y `Webpack`, que son dos herramientas muy
+comunmente usadas junto con `React`. `Babel` nos permite transpilar nuestro
+código y `Webpack` empaquetar nuestra aplicación.
 
-| Orden |     Tipo      | Duración | Descripción
-|-------|---------------|----------|------------
-|   1   | texto + code  |   10min  | Babel basics
-|   2   | texto + code  |    5min  | JSX Externo
-|   3   | texto + code  |   10min  | Precompile
+|  # | Tipo      | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   10min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Babel basics
+| 02 | lectura   | self-paced |    5min  | JSX Externo
+| 03 | lectura   | self-paced |   10min  | Precompile
+| 04 | lectura   | self-paced |   15min  | Webpack config
+| 05 | lectura   | self-paced |   10min  | Modularización
+| 06 | seminario | guiado     |   10min  | Cierre
 
-
-### Lesson 4: [Webpack](L04-webpack/index.md)
-
-30min (self-paced)
-
-...
-
-#### Lesson plan
-
-| Orden |     Tipo      | Duración | Descripción
-|-------|---------------|----------|------------
-|   1   | texto + code  |   15min  | Webpack config
-|   2   | texto + code  |   10min  | Modularización
-
-### Lesson 5: [Componentes (`stateless`) y sus `props`](L05-props/index.md)
-
-50min (self-paced)
+### Unidad 04: [Componentes](04-components)
 
 Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido
 como especificar nuestras `props` en la signatura misma de nuestros componentes.
@@ -221,37 +185,32 @@ y valores por defectos.
 Luego analizaremos la propiedad especial `children` y como manipularla con
 `.map` y `.filter`.
 
-#### Lesson plan
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Props: `propTypes` y `defaultProps`
+| 02 | práctica  | self-paced |   10min  | Ejercicio: `propTypes` y `defaultProps`
+| 03 | lectura   | self-paced |   10min  | `children` y `React.Children`
+| 04 | práctica  | self-paced |   10min  | Ejercicio: usando `children`
+| 05 | seminario | guiado     |   10min  | Re-cap
+| 06 | lectura   | self-paced |   10min  | Higher-order components (HOC)
+| 07 | lectura   | self-paced |   10min  | Componentes presentacionales vs contenedores
+| 08 | seminario | guiado     |   10min  | Cierre
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |   10min  | Props: `propTypes` y `defaultProps`
-|   2   | code   |   10min  | Ejercicio: `propTypes` y `defaultProps`
-|   3   | texto  |   10min  | `children` property y `React.Children` utils
-|   4   | code   |   10min  | Ejercicio: usando `children`
-|   5   | qa     |   10min  | Re-cap
+### Unidad 05: [Proyecto: Revisión de código, Hackeo y QA](05-workshop)
 
-### Workshop 1: [Proyecto React: Kickstart, QA y Hackeo](#)
+A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar
+y enfocarte en tu producto.
 
-2h (presencial)
+Durante esta sesión realizaremos nuestra primera revisión del código.
+Identificaremos los retos a resolver durante la siguiente semana y podremos
+hacer todas las preguntas que tengamos al equipo técnico.
 
-Es hora de convertir a tu proyecto en un proyecto React!
+Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
+hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
+aplicación verdaderamente profesional.
 
-Durante la primera hora de esta sesión te encargarás de identificar las tareas
-que tú y tu equipo deben realizar para cumplir con el objetivo del curso. Unas
-vez identificadas estas tareas, las organizarán en el tiempo de duración del
-curso y se las distribuirán de manera equitativa, según un criterio que ustedes
-establezcan y acuerden usar.
-
-Durante la segunda hora, deberían comenzar a programar. Aprovecha al máximo que
-nuestro equipo estará a tu disposición para que los bombardees a preguntas y
-solicitudes de recomendaciones.
-
-A partir de ahora comienza a contar el reloj.
-
-### Lesson 6: [HOCs y estado global](L06-hocs-global-state/index.md)
-
-1.5h (self-paced)
+### Unidad 06: [Estado global](06-global-state)
 
 Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero
 realmente no ofrece ningún valor diferencial en relación a otras que hacen algo
@@ -270,24 +229,20 @@ manera homogénea a través de acciones con `redux`.
 Luego haremos un ejemplo donde veremos desde el inicio al fin todas las etapas
 de diseño e implementación de una librería de componentes con React y Redux.
 
-#### Lesson plan
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   10min  | Redux
+| 02 | lectura   | self-paced |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
+| 03 | lectura   | self-paced |   10min  | Ejercicio: Paso 2 - Versión estática
+| 04 | lectura   | self-paced |   10min  | Ejercicio: Paso 3 - Diseño del `state`
+| 05 | lectura   | self-paced |   10min  | Ejercicio: Paso 4 - Definición de `actions`
+| 06 | lectura   | self-paced |   10min  | Ejercicio: Paso 5 - Desarrollo de `reducers`
+| 07 | seminario | guiado     |   10min  | Cierre
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |   10min  | Higher-order components (HOC)
-|   2   | texto  |   10min  | Redux
-|   3   | texto  |   10min  | Componentes presentacionales vs Componentes contenedores
-|   4   | texto  |   10min  | Ejercicio: Paso 1 - Jerarquía de componentes
-|   5   | texto  |   10min  | Ejercicio: Paso 2 - Versión estática
-|   6   | texto  |   10min  | Ejercicio: Paso 3 - Diseño del `state`
-|   7   | texto  |   10min  | Ejercicio: Paso 4 - Definición de tus `actions`
-|   8   | texto  |   10min  | Ejercicio: Paso 5 - Desarrollo de tus `reducers`
+### Unidad 07: [React OOP: ciclo de vida, estado interno y refs](07-oop)
 
-### Lesson 7: [React OOP: ciclo de vida, estado interno y refs](L07-oop/index.md)
-
-45 min (self-paced)
-
-React define sólo 9 métodos muy simples para controlar el ciclo de vida de los
+`React` define sólo 9 métodos muy simples para controlar el ciclo de vida de los
 componentes. En esta lección nos empaparemos de la compacta documentación de
 React.
 
@@ -297,32 +252,23 @@ estado propio y encapsulado.
 Y por último veremos casos en los que a dos componentes no les alcanza con
 compartir un estado, sino que necesitan una referencia explícita de uno a otro.
 
-#### Lesson plan
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   15min  | Apertura
+| 01 | lectura   | self-paced |   15min  | Ciclo de vida y estado local
+| 02 | lectura   | self-paced |   10min  | `refs`
+| 03 | práctica  | self-paced |   20min  | Ejercicio: cuenta regresiva
+| 04 | seminario | guiado     |   10min  | Cierre
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |   15min  | Ciclo de vida y estado local
-|   2   | texto  |   10min  | `refs`
-|   3   | code   |   20min  | Ejercicio: cuenta regresiva
+### Unidad 08: [Proyecto: Revisión de código y QA](08-workshop)
 
-### Workshop 2: [Proyecto React: Revisión de código, Hackeo y QA](#)
+Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
+código, veremos si hemos cumplido o no con lo planeado, y por qué.
 
-2h (presencial)
+Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
+las tareas que mayor efecto tengan en nuestro producto final.
 
-A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar
-y enfocarte en tu producto.
-
-Durante esta sesión realizaremos nuestra primera revisión del código.
-Identificaremos los retos a resolver durante la siguiente semana y podremos
-hacer todas las preguntas que tengamos al equipo técnico.
-
-Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
-hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
-aplicación verdaderamente profesional.
-
-### Lesson 8: [build y deploy scripts](L08-build-tools/index.md)
-
-30min (self-paced)
+### Unidad 09: [build y deploy scripts](09-build-tools)
 
 Durante esta sesión revisaremos unas estrategias sencillas para hacer que tu día
 a día desarrollando tu proyecto, sea un poco más placentero.
@@ -332,38 +278,16 @@ Intentaremos entender qué son las `tasks` (tareas), qué hacen exactamente esta
 desarrollo a la publicación.
 
 Nos enfocaremos en el uso de `npm scripts` para correr nuestras tareas y
-`github pages` para publicar nuestro código
+`github pages` para publicar nuestro código.
 
-#### Lesson plan
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     |   10min  | Apertura
+| 01 | lectura   | self-paced |    5min  | Desarrollo, empaquetado y depliegue
+| 02 | práctica  | self-paced |   15min  | Hands-on: Crear scripts `build` y `deploy`
+| 03 | seminario | guiado     |   10min  | Cierre
 
-| Orden |  Tipo  | Duración | Descripción
-|-------|--------|----------|------------
-|   1   | texto  |    5min  | Software life cycle: desarrollo, empaquetado y depliegue
-|   5   | code   |   15min  | Hands-on: Crear scripts `build` y `deploy`
-
-### Workshop 3: [Proyecto React: Revisión de código y QA](#)
-
-1 (presencial)
-
-Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
-código, veremos si hemos cumplido o no con lo planeado, y por qué.
-
-Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
-las tareas que mayor efecto tengan en nuestro producto final.
-
-### Workshop 4: [Tips para que tu demo sea un éxito](#)
-
-30min (presencial)
-
-Estés o no acostumbradx a hablar en público, siempre es bueno contar con algunas
-ayudas para no cometer errores comunes a la hora de hacer una presentación.
-
-Durante esta lección revisaremos un todo-list muy sencillo de cómo hacer una
-presentación atractiva.
-
-### Workshop 5: [Proyecto React: Revisión de código y QA](#)
-
-1 (presencial)
+### Unidad 10: [Proyecto: Revisión de código, QA y Tips para demos](10-workshop)
 
 Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
 deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
@@ -372,9 +296,15 @@ detalles, enfocado en tu demo.
 Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo
 técnico, y resolver dudas de último minuto.
 
-### [Día de la demo](#)
+|  # |  Tipo     | Formato | Duración | Descripción
+|----|-----------|---------|----------|------------
+| 00 | seminario | guiado  |   10min  | Apertura
+| 01 | taller    | guiado  |   45min  | Revisión de código
+| 02 | taller    | guiado  |   45min  | QA
+| 03 | seminario | guiado  |   30min  | Tips para que tu demo sea un éxito
+| 04 | seminario | guiado  |   10min  | Cierre
 
-2h (presencial)
+### Unidad 11: [Día de la demo](11-demos)
 
 Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos
 para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para
@@ -389,11 +319,12 @@ demos.
 Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos
 dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
 
+***
+
 ## Autor(es) / Colaboradores
 
 * Mariano Crowe (autor)
 * Lupo Montero (coordinador)
-* Otros colaboradores?
 
 ## Libros
 
@@ -402,15 +333,15 @@ dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
 
 ## Benchmarks
 
-* https://reacttraining.com/online/react-fundamentals
-* https://thinkster.io/tutorials/getting-started-with-react
-* https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
-* https://github.com/arkency/reactjs_koans
-* https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react
-* https://www.codeschool.com/courses/powering-up-with-react
-* https://reactforbeginners.com/
-* https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
-* https://frontendmasters.com/courses/react/
+* [React fundamentals - reacttraining.com](https://reacttraining.com/online/react-fundamentals)
+* [Getting started with React - thinkster.io](https://thinkster.io/tutorials/getting-started-with-react)
+* [React JS Tutorials Playlist - LearnCode.academy en YouTube](https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+* [arkency/reactjs_koans - GitHub](https://github.com/arkency/reactjs_koans)
+* [What people are saying about React - @mikechau on GiHub](https://github.com/mikechau/react-primer-draft#what-people-are-saying-about-react)
+* [Powering up with React - codeschool.com](https://www.codeschool.com/courses/powering-up-with-react)
+* [reactforbeginners.com](https://reactforbeginners.com/)
+* [Learn React.js Basics - lynda.com](https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html)
+* [React - frontendmasters.com](https://frontendmasters.com/courses/react/)
 
 ## Lecturas complementarias
 

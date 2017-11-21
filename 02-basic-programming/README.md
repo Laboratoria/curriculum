@@ -5,6 +5,14 @@ tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
 `objetos`. Además, aprenderás a utilizar dos programas esenciales para una
 developer: la línea de comandos y el controlador de versiones.
 
+El propósito de este curso es que profundices más en conceptos de la
+programación y así logres crear programas más complejos.
+
+Tags: `arrays`, `objects`, `CLI`, `Git`, `Github`
+
+Secondary tags: `algorithms`, `ascii`, `searching`, `sorting`, `properties`,
+`methods`
+
 ## Público Objetivo
 
 Este curso está dirigido a estudiantes que ingresan a Laboratoria. Es el primer
@@ -17,68 +25,50 @@ de Laboratoria. Se asume que las alumnas ya han trabajado con variables,
 valores (tipos de datos), funciones y estructuras de control de flujo: bucles
 y condicionales.
 
-## Propósito General
+## Aprenderás
 
-El propósito de este curso es que profundices más en conceptos de la
-programación y así logres crear programas más complejos.
-
-## Aprenderás:
-
-* A utilizar estrcuturas de datos básicas: `arrays` y `objects`
+* A utilizar estructuras de datos básicas: `arrays` y `objects`
 * Qué es y cómo utilizar la interfaz de línea de comandos (`CLI`)
 * Qué es y cómo utilizar un sistema de control de versiones (`Git`)
 * A utilizar estos conceptos para resolver problemas aún más complejos y crear
 programas más elaborados
-
-Main Tags:
- `arrays`, `objects`, `CLI`, `Git`, `Github`.
-
-Secondary Tags:
-`algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
-
-## Duración
-45-50 hrs.
 
 ## Productos a desarrollar
 
 Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
 vida cotidiana:
 
-1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
-tarjeta de crédito es válida según el
-[algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
+1. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
+   el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
-2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
-el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
+2. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
+   tarjeta de crédito es válida según el
+   [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 ## Syllabus
 
 ### Unidad 01: [Bienvenida](00-welcome)
 
-4.5 hrs
-
 Darle la bienvenida a la nueva promoción, conocer cómo se aprende en
 Laboratoria y empezar las clases.
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
-| 00 | lectura | 10min | Opening
+| #  | Tipo | Duración | Tópico
+| -- | ---- | -------- | ------
+| 00 | lectura | 10min | Apertura
 | 01 | seminario | 40min | Presentación Laboratoria
 | 02 | taller | 120min | Sprint Demo
-| 03 | seminario | 60min | Cómo se aprende en Laboratoria
+| 03 | seminario | 60min | ¿Cómo se aprende en Laboratoria?
 | 04 | seminario | 60min | Sprint 1 Kick-off
 
 ### Unidad 02: [Programación básica con JavaScript](01-basic-programming)
 
-25 hrs
-
 Retomar lo aprendido en el curso anterior (Intro JS) y seguir profundizando
 en conceptos básicos de la programación con `JavaScript`.
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
+| #  | Tipo | Duración | Tópico
+| -- | ---- | -------- | ------
 | 00 | lectura | 15min | Apertura
-| 01 | lectura | 60min | Command Line Interface
+| 01 | lectura | 60min | Línea de Comandos
 | 02 | lectura | 60min | Control de versiones
 | 03 | seminario | 120min | Repaso
 | 04 | lectura | 60min | Arreglos
@@ -98,13 +88,11 @@ en conceptos básicos de la programación con `JavaScript`.
 
 ### Unidad 03: [Productos Finales](02-final-products)
 
-15 hrs
-
 Aplicar lo aprendido creando dos programas que tienen una aplicación en nuestra
 vida cotidiana: tarjeta de crédito válida y cifrado césar.
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
+| #  | Tipo | Duración | Tópico
+| -- | ---- | -------- | ------
 | 01 | práctica | 4hrs | Tarjeta de crédito válida & Cifrado César
 | 02 | taller | 3 hrs | Demo + Code Review (Peer + Teacher)
 | 03 | taller | 2 hrs | Taller HSE
@@ -112,15 +100,19 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 | 05 | taller | 90min | Retrospectiva
 | 05 | cuestionario | 30min | End-of-sprint & team-work survey
 | 06 | seminario | 1 hrs |  Sprint awards
-* * *
+
+***
 
 ## Evaluación técnica
+
 * Quizzes: 5%
 * Requizzes: 10%
 * Retos de código: 55%
-* Productos finales: 30%
+* Productos finales:
+  - Caesar Cipher: 20%
+  - Tarjeta de crédito válida: 10%
 
-## Contributors
+## Contribuidores
 
 * Rodulfo Prieto
 * Michelle Seguil

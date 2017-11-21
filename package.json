@@ -21,7 +21,15 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mdlint": "Laboratoria/mdlint",
+<<<<<<< HEAD
     "mocha": "^3.5.3",
     "sinon": "^4.0.0"
   }
 }
+=======
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  },
+  "dependencies": {}
+}
+>>>>>>> 376a6037a4fdcd9428f4d54d5e7306da464c94b2

@@ -1,18 +1,19 @@
 # Auto-evaluación
 
-- Tipo: `survey`
-- Formato: `self-learning`
+- Tipo: `cuestionario`
+- Formato: `self-paced`
 - Duración: `5min`
 
 ## Objetivos
 
 - Ahora que hemos revisado todo el material de la unidad, tómate unos minutos
-para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes.
+  para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes.
 
 ***
 
 ## Auto-evaluación
 
-***
+- [Lima](https://goo.gl/forms/qwXDu27BYgFJgGSa2)
+- [Santiago de Chile](https://goo.gl/forms/AS1r1AzeYwvsK92b2)
+- [México DF](https://goo.gl/forms/abhhlwTdBF0ga4c32)
 
-[Continuar](13-closing.md)
