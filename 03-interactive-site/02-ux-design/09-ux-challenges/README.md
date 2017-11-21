@@ -13,6 +13,10 @@
 
 ## 1. Elige una web de tu preferencia y explica qué partes conforman el UX y qué partes el UI
 
+- [Pinterest](https://www.pinterest.com/)
+- [Youtube](https://www.youtube.com/)
+- [Laboratoria](http://laboratoria.la/)
+
 ## 2. Identifica los elementos de navegación en los siguientes sites
 
 - [Breather](http://breather.com/)
