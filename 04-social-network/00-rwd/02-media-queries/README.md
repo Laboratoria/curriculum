@@ -40,7 +40,7 @@ del dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (co
 height y width), o lo que es más interesante, a partir de que ancho o alto se
 aplicarán (con min/max-width y min/max-height).
 
-![Media Feature](media_feature.png)
+![Media Feature](https://github.com/Laboratoria/curricula-js/blob/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
 
 Los **operadores lógicos** son *and*, *not*,
 *only* y *lista separada por comas*(que funciona como el operador lógico or de
