@@ -18,9 +18,12 @@
 
 #### Opciones
 
-1. Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos
-2. Tecnica de diseño en que se realizan diferentes sitios para múltiples dispositivos
-3. Técnica de diseño en que se realizan estilos sólo para un dispositivo, por lo general para desktop
+1. Técnica de diseño que consigue que un único sitio se adapte perfectamente a
+   todos los dispositivos
+2. Tecnica de diseño en que se realizan diferentes sitios para múltiples
+   dispositivos
+3. Técnica de diseño en que se realizan estilos sólo para un dispositivo, por lo
+   general para desktop
 
 <solution style="display:none;">1</solution>
 
@@ -40,10 +43,14 @@
 
 #### Opciones
 
-1. Una técnica que utiliza la regla @media para incluir nuevo HTML, que se ejecutará en nuestro JS.
-2. Una técnica que utiliza la regla @media para incluir bloques CSS que se ejecutarán si las condiciones dadas son verdaderas
-3. Una técnica que utiliza la regla @media para incluir bloques CSS que se ejecutarán si las condiciones dadas son falsas
-4. Una técnica que utiliza la regla @media para incluir bloques JS que se ejecutarán si las condiciones dadas son verdaderas.
+1. Una técnica que utiliza la regla @media para incluir nuevo HTML, que se
+   ejecutará en nuestro JS.
+2. Una técnica que utiliza la regla @media para incluir bloques CSS que se
+   ejecutarán si las condiciones dadas son verdaderas
+3. Una técnica que utiliza la regla @media para incluir bloques CSS que se
+   ejecutarán si las condiciones dadas son falsas
+4. Una técnica que utiliza la regla @media para incluir bloques JS que se
+   ejecutarán si las condiciones dadas son verdaderas.
 
 <solution style="display:none;">2</solution>
 
@@ -51,9 +58,11 @@
 
 #### Opciones
 
-1. Que se pueden combinar múltiples queries 
-2. Las características que, de ser verdaderas, aplicarán los estilos incluidos en la regla
-3. El medio en que se aplican los estilos, incluyo el nombre del medio después de @media
+1. Que se pueden combinar múltiples queries
+2. Las características que, de ser verdaderas, aplicarán los estilos incluidos
+   en la regla
+3. El medio en que se aplican los estilos, incluyo el nombre del medio después
+   de @media
 4. Ninguna de las anteriores
 
 <solution style="display:none;">2,3</solution>
@@ -64,7 +73,7 @@
 
 1. Media Queries
 2. Media Type
-3. Media Feature 
+3. Media Feature
 4. Operadores Lógicos
 
 <solution style="display:none;">3</solution>
@@ -94,7 +103,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 8) Los ___________ corresponden a los distintos dispositivos donde se puede visualizar nuestro sitio web.
+### 8) Los ___________ corresponden a los distintos dispositivos donde se puede visualizar nuestro sitio web
 
 #### Opciones
 
@@ -103,46 +112,52 @@
 3. Media Type
 4. Media Operators
 5. Operadores Lógicos
-6. Operadores Query 
+6. Operadores Query
 
 <solution style="display:none;">3</solution>
 
 ### 9) Teniendo el siguiente código, ¿qué sucederá?
-~~~
 
+```css
 @media screen and (max-width: 700px){
-	p{
-		color: blue;
-		font-size: 15px;
-	}
+  p {
+    color: blue;
+    font-size: 15px;
+  }
 }
-~~~
+```
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más de 700px
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga más de 700px
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga menos de 700px
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más
+   de 700px
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
+   menos de 700px
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
+   más de 700px
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
+   menos de 700px
 
 <solution style="display:none;">4</solution>
 
 ### 10) Teniendo el siguiente código, ¿qué sucederá?
-~~~
+
+```css
 @media (min-width: 650px), tv and (orientation: landscape){
-	img{
-		max-width: 80%;
-	}
+  img {
+    max-width: 80%;
+  }
 }
-~~~
+```
 
 #### Opciones
 
 1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea verdadero
-2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and (orientation: landscape)** sea verdadero
-3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)** sea verdadero
+2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and
+   (orientation: landscape)** sea verdadero
+3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)**
+   sea verdadero
 4. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea verdadero
 5. No sucede nada
 
 <solution style="display:none;">4</solution>
-
