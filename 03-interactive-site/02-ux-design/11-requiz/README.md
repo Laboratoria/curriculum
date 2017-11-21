@@ -81,7 +81,11 @@
 
 <solution style="display:none;">3</solution>
 
+<<<<<<< HEAD
 ### 7) Del website de `Spotify`, ¿qué tipo de navegación es la que está señalada en rojo?
+=======
+### 7) Del website de `Spotify`, qué tipo de navegación es la que está señalada en rojo
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ![Spotify navegación](https://lh4.googleusercontent.com/_xRGmmD8EJRMhJPzE0CmPK-hu3BPrvvttPDDjgGTAcMhAPkzP0QEhNWgGp6Px6G3H3VcDQJhTddG4oalw__kpRPfSVYHJPgMhyKkLyBisEW9Plxe9XM61tubh2hMnTQX6Y5X5gQmefk )
 
@@ -105,7 +109,11 @@
 
 <solution style="display:none;">4</solution>
 
+<<<<<<< HEAD
 ### 9) Completa los espacios en blanco: `___ es lo qué te hace sentir una marca o producto al momento de interactuar con él, mientras que ____ es una capa visual de colores, texturas, formas y elementos.`
+=======
+### 9) Con qué términos completarías los espacios en blanco: `___ es lo qué te hace sentir una marca o producto al momento de interactuar con él, mientras que ____ es una capa visual de colores, texturas, formas y elementos.`
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 #### Opciones
 
@@ -126,7 +134,11 @@
 
 <solution style="display:none;">2,3,5</solution>
 
+<<<<<<< HEAD
 ### 11) En esta búsqueda en `Youtube`, ¿qué tipo de navegación es la que está señalada en rojo?
+=======
+### 11) En esta búsqueda en `Youtube`, qué tipo de navegación es la que está señalada en rojo
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ![Youtube navegación](https://lh3.googleusercontent.com/K_m6buhGG2DAr2GuQiq-vEL-dsHsBMfRYdrGSW6QXbl4eDDZIBW_ygvI6H_2h3yh4OPBWQXofy5uo5Pt-4Yt3554Q6fL3I2PHk3BTsgK2frCrhMo23llJdkeBZSjtxoM7PL4uZgErLw)
 
@@ -139,7 +151,11 @@
 
 <solution style="display:none;">3</solution>
 
+<<<<<<< HEAD
 ### 12) ¿Cuáles son los 2 conceptos clave para entender User Experience Design?
+=======
+### 12) ¿Cuáles son los 2 conceptos claves para entender User Experience Design?
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 #### Opciones
 

@@ -2,13 +2,21 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
+<<<<<<< HEAD
 - Duración: `20min`
+=======
+- Duración: `30min`
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ***
 
 ## Objetivos de Aprendizaje
 
+<<<<<<< HEAD
 En esta unidad aprenderemos:
+=======
+En ésta unidad aprenderemos:
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 - ¿Qué es el DOM y para qué nos sirve manipularlo?
 - ¿Qué es el BOM y para qué nos sirve manipularlo?
@@ -18,7 +26,11 @@ En esta unidad aprenderemos:
 
 Cuando estamos construyendo sitios web, llega un momento en donde necesitamos
 darle funcionalidad dinámica a nuestra página (que cambie conforme pasa el
+<<<<<<< HEAD
 tiempo). Puede ser alguna animación, el tamaño de un texto, la visibilidad de
+=======
+tiempo). Puede ser alguna animación, el tamaño de un texto, o la visibilidad de
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 una imagen, etc.
 
 El DOM, BOM y eventos nos permiten hacer esas manipulaciónes si sabemos
@@ -28,7 +40,11 @@ utilizarlos.
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
+<<<<<<< HEAD
 a los que debemos prestar particular atención.
+=======
+que debemos prestar particular atención.
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
@@ -70,10 +86,17 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es un evento?
 - ¿Cuáles son los eventos más utilizados en un navegador?
 - ¿Cómo detectamos un "click" del usuario?
+<<<<<<< HEAD
 - ¿Cómo detectamos una entrada de texto del usuario?
 - ¿Cómo detectamos el envío de un formulario?
 - ¿Podemos usar el evento submit a un input text?
 - ¿De que nos sirve la palabra reservada "event" o "e"?
+=======
+- ¿Cómo detectamos entrada de texto del usuario?
+- ¿Cómo detectamos el envío de un formulario?
+- ¿Podemos usar el evento submit a un input text?
+- ¿De que nos sirve la palabra reservada "event" ó "e"?
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 - ¿Cómo podemos almacenar o pasar información entre elementos HTML?
 - ¿Qué es event delegation?
 - ¿Qué es event propagation?

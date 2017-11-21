@@ -94,10 +94,13 @@ separado de tu archivo HTML. Todos los estilos se incluyen en este
 archivo de tipo CSS externo, que las páginas HTML enlazan mediante la
 etiqueta html `<link>`.
 
+<<<<<<< HEAD
 Cabe mencionar que este link externo puede ser un archivo
 que esta en tu computadora o un link de un archivo externo
 de internet. (una dirección HTTP)
 
+=======
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
 dos archivos:
 
@@ -108,12 +111,16 @@ dos archivos:
 <html>
   <head>
     <title>Entendiendo CSS</title>
+<<<<<<< HEAD
     <!--Link a archivo que esta en la misma computadora-->
     <link rel="stylesheet" href="style.css">
     <!--Link a archivo que esta en internet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
+=======
+    <link rel="stylesheet" href="style.css">
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -144,7 +151,11 @@ ambiente, simplemente le ponemos el nombre del archivo: `style.css`.
 ## Sintaxis CSS
 
 Como hemos visto en la lección anterior, para especificar el estilo hacemos
+<<<<<<< HEAD
 uso de los pares `propiedades : valores`.
+=======
+uso de los pares `propiedades-valores`:
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 - Propiedades: son identificadores que indican
   a las personas qué característica de estilo (ancho, color de fondo, fuente)
@@ -304,3 +315,7 @@ utilizando una estructura semántica y todas las bondades de CSS para
 representar el diseño lo más fiel posible.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d

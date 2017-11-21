@@ -10,8 +10,11 @@
   equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
+<<<<<<< HEAD
 ***
 
+=======
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 ## Agenda
 
 1. Conversemos sobre los roles en un equipo de desarrollo con el ejemplo de
@@ -48,12 +51,21 @@
 
    <!--
 
+<<<<<<< HEAD
    Aquí explicamos qué es UI y hacemos la relación directamente con GUI. Un poco
    de historia. Se empezó a usar GUI desde que Apple lanzó su primer computador.
    Ya que al tener un mouse y una forma de interactuar distinta a la pantalla
    negra + comandos, se empezó a referir a ella como Graphical User Interface.
    Un término que fue cambiando con el pasar de los años a solo UI. Sin embargo,
    eso puede traer mucha confusión ahora que estamos hablando de Voice UIs.
+=======
+   Aquí explicamos qué es UI y hacemos la relación directamente con GUI. Un poco de
+   historia. Se empezó a usar GUI desde que Apple lanzó su primer computador. Ya
+   que al tener un mouse y una forma de interactuar distinta a la pantalla negra +
+   comandos, se empezó a referir a ella como Graphical User Interface. Un término
+   que fue cambiando con el pasar de los años a solo UI. Sin embargo, eso puede
+   traer mucha confusión ahora que estamos hablando de Voice UIs.
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
     -->
 
@@ -68,13 +80,22 @@
    * Sabías en qué cine la verías
    * Sabías a qué hora la verías
 
+<<<<<<< HEAD
    Planeamos una visita al cine en ese momento y revisamos las distintas formas
    en las que encontramos cosas en la web dependiendo del contexto.
+=======
+   Planeamos una visita al cine en ese momento y revisamos las distintas formas en
+   las que encontramos cosas en la web dependiendo del contexto.
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
    -->
 
 4. Por medio de ejemplos veremos ocasiones en las sketchear y tener prototipos
+<<<<<<< HEAD
    en papel han sido importantes
+=======
+   en papel han sido importantes.
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
    <!--
 
@@ -94,5 +115,8 @@
    teoría y su curiosidad son valoradas.
 
    -->
+<<<<<<< HEAD
 
 6. Revisar el Opening e ir respondiendo dudas
+=======
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d

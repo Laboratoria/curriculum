@@ -14,11 +14,18 @@ En esta unidad aprenderás:
   digitales
 - A externalizar tus ideas a través de sketches
 
+<<<<<<< HEAD
 ***
 
 ## ¿Por qué aprender esto?
 
 Aprender sobre esto nos permitirá crear mejores productos digitales, porque:
+=======
+## ¿Por qué aprender esto?
+
+Porque aprender sobre esto, nos permitirá crear mejores productos digitales.
+Porque:
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 - Al saber el rol que tiene cada uno dentro del desarrollo del producto
   podremos trabajar mejor en equipo.
@@ -47,11 +54,19 @@ respondiendo las siguientes preguntas:
 ![](http://via.placeholder.com/450x350)
 -->
 
+<<<<<<< HEAD
 ## Guía de preguntas y conceptos clave
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
 a los que debemos prestar particular atención.
+=======
+## Guia de preguntas y conceptos clave
+
+Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
+conceptos más importantes de lo que vamos a aprender y de los temas centrales
+que debemos prestar particular atención.
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
@@ -60,8 +75,11 @@ que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Qué roles conforman el equipo de desarrollo de un producto digital?
+<<<<<<< HEAD
 - ¿Por qué es importante aprender UX?
 - ¿Por qué los usuarios no consumen productos?
+=======
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 - ¿Cuál es el rol de un UX Designer y cuál el de un UI Designer?
 - ¿Cómo encuentran los usuarios cosas en la web?
 - ¿Qué tipos de navegación existen?

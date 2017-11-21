@@ -16,7 +16,11 @@ En esta unidad aprenderemos:
 
 ## Etapas y roles en el desarrollo de productos digitales
 
+<<<<<<< HEAD
 Para poder entender cómo funciona un equipo de desarrollo de productos, mira el
+=======
+Para poder entender cómo funciona un equipo de desarrollo de productos. Mira el
+>>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 siguiente video:
 
 [![](https://lh5.googleusercontent.com/Nw1xRXhRhwllHgKL4m6xCFmPCubo7wgZ0bi7NSnRQk-FJm5AWPeJKbrF9yY3Uv8XJGbYcJhL6xDwBDkxYrf3fRjnp8__diJ8pJbnuTpD-KDTo4jXmu9QHkmjogOsOLfDpFN6AeIU9Hg)](https://youtu.be/ge4h5uJN6KI)
