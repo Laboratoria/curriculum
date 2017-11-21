@@ -13,7 +13,7 @@ En esta unidad aprenderemos:
 - A crear una página web utilizando el enfoque de diseño `Responsive Web Design`
 - A utilizar Grid System para estructurar de mejor manera nuestro sitio.
 
-## ¿Por qué aprender HTML y CSS?
+## ¿Por qué aprender Responsive Web Design?
 
 El reto que tenemos en este curso es aprender a crear productos web
 **interactivos**. La interacción en los productos web se crea por medio de la
