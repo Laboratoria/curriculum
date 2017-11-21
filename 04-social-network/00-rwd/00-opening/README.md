@@ -41,3 +41,5 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué son los Media Queries y para qué se utilizan?
 
 - ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
+
+- ¿Para qué sirve la etiqueta meta viewport?
