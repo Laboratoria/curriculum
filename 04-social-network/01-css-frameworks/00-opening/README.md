@@ -13,7 +13,7 @@ En esta unidad aprenderemos:
 - A crear una página web utilizando frameworks
 - A utilizar componentes de jquery.
 
-## ¿Por qué aprender HTML y CSS?
+## ¿Por qué aprender Frameworks?
 
 El reto que tenemos en este curso es aprender a crear productos web
 **interactivos**. La interacción en los productos web se crea por medio de la

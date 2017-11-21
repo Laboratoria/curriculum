@@ -21,6 +21,7 @@ Se define como un conjunto estandarizado de conceptos, prácticas y criterios qu
 ![Frameworks](https://cdn-images-1.medium.com/max/800/1*ILk5FtGR6HP4hZkfmC7yEg.jpeg)
 
 Algunas de las herramientas que podemos encontrar en los frameworks de CSS son:
+
 - “Resetear” los estilos por defecto que aplican los navegadores.
 
 - Manipular correctamente los textos, logrando así que todos los contenidos se vean exactamente igual en los distintos navegadores y que se adapten a estos.

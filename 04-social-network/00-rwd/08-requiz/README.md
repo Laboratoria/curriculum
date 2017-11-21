@@ -109,6 +109,7 @@
 
 ### 9) Teniendo el siguiente código, ¿qué sucederá?
 ~~~
+
 @media screen and (max-width: 700px){
 	p{
 		color: blue;
