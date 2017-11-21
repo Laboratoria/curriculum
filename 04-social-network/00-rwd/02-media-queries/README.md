@@ -81,5 +81,10 @@ Sus propiedades son las siguientes:
   Las propiedades maximum-scale, minimum-scale, y user-scalable controlan cómo
   el usuario puede realizar zoom sobre la página.
 
-Puedes profundizar un poco más en Media Queries y Viewport [aquí](https://www.youtube.com/watch?v=VWL7I71pU2A)
-y [acá](http://www.bytpher.com/c/1/m/6-los-media-queries).
+Puedes profundizar un poco más en Media Queries y Viewport en:
+
+- Video: Media Queries
+
+  [Media Queries](https://www.youtube.com/watch?v=VWL7I71pU2A)
+
+- [¿Cómo utilizamos los media queries?](http://www.bytpher.com/c/1/m/6-los-media-queries)
