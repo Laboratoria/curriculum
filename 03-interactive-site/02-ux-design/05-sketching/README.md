@@ -58,4 +58,4 @@ Mira el siguiente ejemplo:
 
 - [Mobile sketches template](https://drive.google.com/open?id=0B0NdG2VNCDPzRHRXdk96VDFFd2M)
 - [Desktop sketches template](https://drive.google.com/open?id=0B0NdG2VNCDPzaWRsQXNpSWtSQ1U)
->>>>>>> 376a6037a4fdcd9428f4d54d5e7306da464c94b2
+
