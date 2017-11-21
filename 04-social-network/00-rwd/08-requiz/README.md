@@ -109,7 +109,8 @@
 
 ### 9) Teniendo el siguiente código, ¿qué sucederá?
 ~~~
-@media all and (max-width: 700px){
+
+@media screen and (max-width: 700px){
 	p{
 		color: blue;
 		font-size: 15px;
@@ -121,8 +122,8 @@
 
 1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más de 700px
 2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando cualquier pantalla tenga más de 700px
-4. Los estilos del párrafo se ejecutarán cuando cualquier pantalla tenga menos de 700px
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga más de 700px
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga menos de 700px
 
 <solution style="display:none;">4</solution>
 
