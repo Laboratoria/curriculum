@@ -24,41 +24,41 @@ bajo esta narrativa, así que habrán muchas dudas :smiley:. Algo súper importa
 es que **LAS NOTAS NO IMPORTAN** para este producto (pero no significa que no
 revisaremos el progreso de las estudiantes).
 
-Es muy probable, que muchas (o tal vez todas) no puedan terminar el producto
+Es muy probable que muchas (o tal vez todas) no puedan terminar el producto
 completo (no interesa, estamos seguros que aprenderán mucho :muscle:). Hay
 ciertas cosas que ellas tendrán que darse cuenta que necesitan aprender y que
-no le hemos enseñado (aquí entra la parte autodidacta, así que mucho :eyes:),
-aquí un listado de las cosas que probablemente aprendan en la marcha:
+no les hemos enseñado (aquí entra la parte autodidacta, así que mucho :eyes:).
+Aquí un listado de las cosas que probablemente aprendan en la marcha:
 
 - El producto es en parejas, esto significa que deberán aprender a trabajar
   colaborativamente, esto significa sufrir con **Git** :sweat_smile:.
 
-  > Aquí l@s profes podrán apoyar en resolver dudas mas no sugerir, es decir,
+  > Aquí l@s profes podrán apoyar en resolver dudas mas no sugerir soluciones, es decir,
   > si las estudiantes optan por darse permisos en un único repositorio o
   > trabajar con Pull Requests, cualquiera es válido, solo apoyemos en dudas
   > basadas en la decisión que ellas mismas tomaron.
 
-- El diseño, como ya han visto, hay una propuesta en Marvel, la idea no es que
-  repliquen tal cual, pero tampoco que tomen mucho tiempo tratando de proponer
+- Sobre el diseño, como ya han visto, hay una propuesta en Marvel. La idea no es que
+  lo repliquen tal cual pero tampoco que tomen mucho tiempo tratando de proponer
   el mejor diseño posible y al final solo quede en eso, así que una revisión de
-  avance diaria no estaría nada mal.
+  avance diario no estaría nada mal.
 
   > En general, ellas no han visto temas de layouting ni responsive, por lo que
-  > es muy probable que usen margins y paddings para todo, en esto punto,
+  > es muy probable que usen margins y paddings para todo. En este punto,
   > digamos que es aceptable :wink:. Si agregan grids, flexbox u otra forma de
   > posicionar sus elementos, no es malo, siempre y cuando les quede claro que
   > pudieron haberlo realizado con lo que ellas ya han visto.
 
-- Representación de datos, en algunos casos será la primera vez que ellas
+- Representación de datos. En algunos casos será la primera vez que ellas
   tendrán todos los datos necesarios para procesar en una variable predefinida,
-  se complicarán iterándolos, tratando de sacar los datos que ellas necesitan.
-  Esto implica mucha lógica y por ende causará estrés, aconsejar que hagan un
+  por lo que se complicarán iterándolos y tratando de sacar los datos que ellas necesitan.
+  Esto implica mucha lógica y por ende causará estrés. Aconsejar que hagan un
   pseudocódigo no sería una mala idea.
 
   > Si las estudiantes deciden alterar la estructura de los datos otorgados,
   > está súper bien, siempre y cuando se mantenga el mismo resultado a mostrar.
 
-- Las gráficas, lo primero a tener en mente es que esto es un **ADICIONAL**,
+- Las gráficas. Lo primero a tener en mente es que esto es un **ADICIONAL**,
   pero si ellas deciden priorizar esto, no las detengamos, se darán cuenta que
   si bien es algo cool de programar, no agrega valor inicial al cliente y
   aprenderán a priorizar.
@@ -71,46 +71,46 @@ aquí un listado de las cosas que probablemente aprendan en la marcha:
 ## Flujo de trabajo
 
 El producto final está pensado para 15 horas presenciales (3 días de clase), por
-lo cual, debemos de medir el progreso de cada día para dar feedback y apoyar
+lo cual debemos de medir el progreso de cada día para dar feedback y apoyar
 cuanto antes. A continuación, se detalla lo que _debería_ pasar cada uno de los
-días (esto no va a pasar :joy:), igual esto es lo que deberíamos estar
-preparados para reaccionar :muscle:.
+días (esto no va a pasar :joy:), pero igual es para lo que deberíamos estar
+preparados :muscle:.
 
 ### Día 1: Entendimiento y planificación
 
-Cuando se les entregue las indicaciones, habrán muchas dudas, tal vez sientan
+Cuando se les entreguen las indicaciones, habrán muchas dudas en la clase y tal vez sientan
 incluso que no les quedó nada claro. **NO DESESPEREN**, para eso tenemos esta
-guía :smiley:. Tenemos que representar muy bien a los clientes, en lo cual, si
-no nos preguntan nada, entendemos que todo está claro. Entonces, analicemos la
-calidad de las preguntas, esto será subjetivo (pero... no hay de otra), algo
-que debemos de fomentar, es que planifiquen, dividan tareas y prioricen (debemos
+guía :smiley:. Tenemos que representar muy bien a los clientes, por lo cual, si
+no nos preguntan nada, asumimos que todo está claro. Entonces, analicemos la
+calidad de las preguntas, esto será subjetivo (pero... no hay de otra). Algo
+que debemos fomentar, es que planifiquen, dividan tareas y prioricen (debemos
 estar muy atentos a esto).
 
-Algunas estudiantes, se mandarán a codear directamente, no las detengamos, que
+Algunas estudiantes se mandarán a codear directamente, no las detengamos, que
 se den cuenta por ellas mismas si eso funciona o no. Cada grupo es independiente,
 así que la manera de afrontar el reto será distinto.
 
 ### Día 2: Avance con dudas
 
-Acá probablemente ya habrán odiado a Git y sino, su odio será más intenso al
-final. En este segundo día, debemos revisar sus avances, y darles feedback de
-priorización, nos odiarán por no haberle dicho nada antes (pero... es parte de
+Acá probablemente ya habrán odiado a Git y si no, su odio será más intenso al
+final. En este segundo día debemos revisar sus avances y darles feedback de
+priorización, nos odiarán por no haberles dicho nada antes (pero... es parte de
 nuestro trabajo :wink:). Siéntanse libres de pedirles un cambio en su avance
 que les permita cambiar su dinámica de trabajo (recuerden que son los clientes,
 tienen el poder :japanese_ogre:, eso sí, todo con moderación y sentido para el
 reto). Aquí unas ideas:
 
-- Las secciones que muestran resultados generales, se podría filtrar por sprint.
+- Las secciones que muestran resultados generales, se podrían filtrar por sprint.
 - Marcar una estudiante que desertó y alterar todos los resultados.
 
 ### Día 3: Desesperación total
 
-Uno de los errores muy comunes cuando empezamos un trabajo en equipo es pensar
+Uno de los errores más comunes cuando empezamos un trabajo en equipo es pensar
 que el avance por separado es mejor. Aquí es donde odiarán a GIT si no han
-intentado juntar sus avances hasta el momento, además algo que se acostumbra
+intentado juntar sus avances hasta el momento. Además algo que se acostumbra
 dejar para el final es el `deployment` (Github Pages), si no hacen algo de lo
-anterior mencionado hasta 30 minutos antes de la entrega del producto,
-probablemente su producto no quede como ellas esperaban, no tendrán un link que
+anterior hasta 30 minutos antes de la entrega del producto,
+probablemente su producto no quede como ellas esperaban, y no tendrán un link que
 compartir en su presentación. Esto generará estrés y frustación, debemos estar
 atent@s a esto y dar nuestro mensaje de que deben valorar el aprendizaje
 obtenido. Seamos súper estrictos con los tiempos.
@@ -194,14 +194,14 @@ La meta es 70% de puntos disponibles tanto para ambos puntajes.
 Hasta el momento, los puntajes técnicos disponibles por sprint es 1800 para
 puntos técnicos y 1200 para puntos de HSE.
 
-Esto quiere decir, que la meta es:
+Esto quiere decir que la meta es:
 
 - Meta puntos técnicos: **1260**
 - Meta puntos HSE: **840**
 
 #### Volviendo al ejemplo
 
-Si recordamos el puntaje obtenido por Ada, obtuvo `1266.67` en técnico (supera
+Si recordamos el puntaje obtenido por Ada, ella obtuvo `1266.67` en técnico (supera
 la meta) y `800` en HSE (no supera la meta).
 
 Por lo tanto, esta estudiante **NO** es contada para mostrar el total de estudiantes
@@ -209,7 +209,7 @@ que cumplen la meta :scream: :gun:.
 
 #### ¿Te pareció complejo?
 
-Bienvenid@ al mundo de las TMs :sweat_smile:, trata de comunicarlo de la mejor
+Bienvenid@ al mundo de las TMs :sweat_smile:. Trata de comunicarlo de la mejor
 manera posible a las estudiantes, este fue un ejemplo largo para detallar lo que
 se busca calcular y lo puedas tener súper claro al momento de transmitirlo
 :smiley: :muscle:.
@@ -220,7 +220,7 @@ Es el porcentaje de estudiantes que cumplen la _meta_. Es decir, si son `120`
 estudiantes, y solo `80` cumplen la meta, el % de achievement sería `75%`
 :tada:.
 
-### ¿Tiene algún significado los colores?
+### ¿Tienen algún significado los colores?
 
 Sí, básicamente es un semáforo que mejora la visibilidad de los resultados.
 Están basados en el porcentaje de estudiantes que cumplen la meta:
@@ -238,9 +238,9 @@ usa sus siglas NPS.
 
 ### ¿Cómo se calcula el NPS?
 
-Las estudiantes reciben una encuesta, donde se les pide indicar del 1 al 10,
-cuánto recomendarían a Laboratoria. Y en base a los resultados, se calcula
-bajo la siguiente fórmula (que se dio en las instrucciones para las estudiantes):
+Las estudiantes reciben una encuesta donde se les pide indicar del 1 al 10,
+cuánto recomendarían Laboratoria a otra persona. En base a los resultados, se calcula
+el NPS bajo la siguiente fórmula (que se dio en las instrucciones para las estudiantes):
 
 ```text
 [Promoters] = [Respuestas 9 o 10] / [Total respuestas] * 100
@@ -250,7 +250,7 @@ bajo la siguiente fórmula (que se dio en las instrucciones para las estudiantes
 [NPS] = [Promoters] - [Detractors]
 ```
 
-#### Entonces... ¿No se toma en cuenta las respuestas 7 y 8?
+#### Entonces... ¿no se toman en cuenta las respuestas 7 y 8?
 
 No para el resultado final del NPS, pero si se toma en cuenta cuántas
 respondieron con esos valores.
@@ -302,7 +302,7 @@ Es decir, si hay 3 sprints, solo muestra el % de satisfacción de estudiantes de
 ### ¿Cómo se calcula el _teacher rating_?
 
 Cada sprint, las estudiantes califican a sus profesores bajo una puntuación
-entre 1 a 5. El promedio de la calificación de todos los profes es el teacher
+del 1 al 5. El promedio de la calificación de todos los profes es el teacher
 rating.
 
 ### ¿Qué representa 4.2 de teacher rating?
@@ -313,7 +313,7 @@ Es el promedio de la puntuación de todos los profes en el último sprint cursad
 ### ¿Cómo se calcula el _jedi master rating_?
 
 Cada sprint, las estudiantes califican a sus jedi masters bajo una puntuación
-entre 1 a 5. El promedio de la calificación de todos los jedis es el jedi master
+del 1 al 5. El promedio de la calificación de todos los jedis es el jedi master
 rating.
 
 ### ¿Qué representa 50 de jedi master rating?
@@ -324,17 +324,17 @@ los jedis del último sprint cursado.
 
 ### ¿Importa el color del jedi master rating?
 
-Digamos, que solo tenemos una métrica por el momento, si supera 4.5 de rating
-debería ir en verde, cualquier otro caso, su color natural (negro).
+Si supera 4.5 de rating debería ir en verde, cualquier otro caso,
+su color natural (negro).
 
-### ¿Si cambio de sede, debe cambiar los números calculados?
+### ¿Si cambio de sede, deben cambiar los números calculados?
 
 Exactamente, los valores no son números que se ponen en el HTML, todo debería
 ser procesado en base a la data entregada en el boilerplate :scream:.
 
 ### ¿Y qué hay con el tab de estudiantes?
 
-El tab de estudiantes, solo debería de mostrar la lista de estudiantes de la
+El tab de estudiantes solo debería de mostrar la lista de estudiantes de la
 sede y generación seleccionada.
 
 ### ¿Qué dato de las estudiantes se va a mostrar?
@@ -350,7 +350,7 @@ necesitan para este dashboard.
 
 ### ¿Qué funcionalidad debe tener el listado de estudiantes?
 
-Viendo el diseño, parece que hubieran un par: buscar una estudiante y filtrar
+Viendo el diseño, parece que hay un par: buscar una estudiante y filtrar
 por especialización (UX y JS). Solo se solicita que la funcionalidad de búsqueda
 funcione, la del filtro se puede quitar del diseño sin problemas.
 

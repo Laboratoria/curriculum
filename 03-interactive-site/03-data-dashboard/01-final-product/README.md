@@ -18,7 +18,7 @@ apoyarlas en su aprendizaje. Para revisar esta data, las TMs, normalmente,
 tienen que revisar muchos documentos de excel (Google Spreadsheets) que están
 localizados en distintas carpetas y ubicaciones. Muchas veces pierden tiempo
 localizando estos documentos y _ejecutando_ fórmulas para obtener los datos que
-revisan.
+necesitan.
 
 Para poder optimizar su tiempo, las TMs han solicitado que construyamos una
 herramienta web donde puedan ver estos datos fácil y rápidamente. Y nos
@@ -27,11 +27,11 @@ comentaron que estos son los datos que revisan normalmente:
 - El total de estudiantes presentes por sede y generación.
 - El porcentaje de deserción de estudiantes.
 - La cantidad de estudiantes que superan la meta de puntos en promedio de todos
-  los sprints cursados. La meta de puntos es 70% del total de puntos.
+  los sprints cursados. La meta de puntos es 70% del total de puntos en HSE y en tech.
 - El porcentaje que representa el dato anterior en relación al total de
   estudiantes.
 - El Net Promoter Score (NPS) promedio de los sprints cursados. El NPS se
-  calcula, en base a la encuesta que las estudiantes responden al respecto de
+  calcula en base a la encuesta que las estudiantes responden al respecto de
   la recomendación que darían de Laboratoria, bajo la siguiente fórmula:
 
   ```text
