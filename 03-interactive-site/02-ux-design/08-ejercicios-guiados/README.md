@@ -22,11 +22,7 @@ Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
 estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
 ante el resto de la clase y así ayduar al resto de tus compañeras :)
 
-<<<<<<< HEAD
 ### 1. Miremos Netflix y expliquemos qué partes conforman el UX y qué partes el UI
-=======
-### 1. Miremos Netflix y expliquemos qué partes conforman el UX y que partes el UI
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 <!--
 
@@ -78,15 +74,9 @@ valora mucho la discusión y propuesta de las chicas.
 Entre estudiantes, profesores y staff de Laboratoria tenemos muchos libros que
 queremos compartir y queremos imaginarnos cómo sería la biblioteca de
 Laboratoria. En esta biblioteca cada uno podrá subir sus libros y podrá
-<<<<<<< HEAD
 conversar con los que quieran pedir prestado el libro para coordinar cómo
 entregarlo. Además, el dueño de los libros podrá tener un record de a quién le
 presto "x" o "y" libro.
-=======
-conversar con los que quieran pedir prestado el libro para coordinar en cómo
-entregarlo. Además, el dueño de los libros podrá tener un record de a quién le
-presto x o y libro.
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 <!--
 

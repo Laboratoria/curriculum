@@ -2,11 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-<<<<<<< HEAD
 - Duración: `6h`
-=======
-- Duración: `60min`
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ## Objetivos
 
@@ -20,28 +16,17 @@
 Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
 para resolver problemas.
 
-<<<<<<< HEAD
 A continuación tendrás varios problemas que debes resolver. Intenta
 resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
 
 Después de haberlo intentado, compara tus soluciones con los videos de abajo.
 
 *NO* antes.
-=======
-A continuación tendrás varios problemas que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones
-de Michelle. Después de haberlo intentado, compara tus soluciones
-con las de Michelle.
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ### 1. Reserva de puestos aerolínea
 
 Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema
-<<<<<<< HEAD
 de reservaciones automatizadas. Se te ha pedido que desarrolles el nuevo
-=======
-de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 sistema. Escribirás una aplicación para asignar asientos en cada vuelo del
 __único__ avión de la aerolínea (capacidad: 10 asientos).
 
@@ -109,22 +94,15 @@ sin minas (vacía o de número), el juego continúa.
 - ¿Cómo puedes diferenciar una bomba de un número o de una celda vacía en el
   HTML?
 - ¿Qué evento necesitas para captar el click del usuario?
-<<<<<<< HEAD
 - Una vez que el usuario haga click sobre la "celda", ¿qué tiene que pasar?
 - ¿Cómo podemos hacer que elementos aparezcan y desaparezcan en el HTML?
 - ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario? (pista:
-=======
-- Una vez que el usuario haga click sobre la "celda", ¿Qué tiene que pasar?
-- ¿Cómo podemos hacer que elementos aparezcan y desaparezcan en el HTML?
-- ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario?(pista:
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
   removeEventListener)
 
 #### Requerimientos
 
 - Mostrar una tabla de 4 x 4 (con bombas, celdas vacías y números en posición
   fija)
-<<<<<<< HEAD
 - Al dar clic en una celda vacía, cambiar de color de la celda.
 - Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
   más celdas) y mostrar mensaje: “Esto ha explotado”
@@ -132,15 +110,6 @@ sin minas (vacía o de número), el juego continúa.
 - Crear un botón Reiniciar que comience de nuevo el juego.
 
 ##### Puntos extra
-=======
-- Al dar clic en una celda vacía cambiar de color de la celda.
-- Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
-  más celdas) y mostrar mensaje: “Esto ha explotado”
-- Al dar click en una celda con un número, mostrar el número que tiene.
-- Crear un botón Re iniciar que comience de nuevo el juego.
-
-##### Puntos extras
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 - Al dar clic fuera de la tabla mostrar mensaje: “Sigue jugando”. (inner html o
   alert).
@@ -155,11 +124,7 @@ Un menú de hamburguesa nos permite tener escondido el menú y únicamente mostr
 un botón (3 líneas horizontales) que cuando lo apretamos (o hacemos click), se
 muestra en la pantalla todas las opciones del menú.
 
-<<<<<<< HEAD
 Algo así:
-=======
-Algo asi:
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ![Hamburger Menu](http://i.imgur.com/JKJ8V9v.gif)
 
@@ -170,11 +135,7 @@ Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
 
 Las tabs nos sirven para agrupar contenido similar usando solo un espacio.
 
-<<<<<<< HEAD
 Algo así:
-=======
-Algo asi:
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ![Tabs Menu](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
 
@@ -186,22 +147,14 @@ Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
 El menú drop down nos ayuda a ahorrar espacio en un menú, ya que agrupa
 elementos similares.
 
-<<<<<<< HEAD
 Algo así:
-=======
-Algo asi:
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
 
 #### 6. Mini Zoo
 
-<<<<<<< HEAD
 Esta página permite elegir efectos como **sepia**, **blanco y negro** e
 **invertir colores** que deseamos que obtengan nuestras imágenes.
-=======
-Esta página permite elegir efectos como **sepia**, **blanco y negro** e **invertir colores** que deseamos que obtengan nuestras imágenes.
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 Deberás replicarla usando DOM y CSS.
 
 Veamos como debe quedar la página...
@@ -209,13 +162,8 @@ Veamos como debe quedar la página...
 
 ## Solucionarios
 
-<<<<<<< HEAD
 A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron
 cada uno de los ejercicios anteriores.
-=======
-A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
-los ejercicios anteriores.
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 ### 1. Aerolínea
 

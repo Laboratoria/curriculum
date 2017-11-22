@@ -9,11 +9,8 @@
 - Entender qué es el UX Design
 - Comprender el doble diamante en el proceso de desarrollo
 
-<<<<<<< HEAD
 ***
 
-=======
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 ## ¿Qué es User Experience Design?
 
 Para empezar, es bueno saber qué entendemos por UX. Para ello mira este video,
@@ -51,7 +48,6 @@ metas de los usuarios. Pero, sin dejar de lado las metas de los negocios.
 Para entender un poco más sobre el proceso de UX Design mira este video:
 
 [![](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://youtu.be/SBIvPTSy1QM)
-<<<<<<< HEAD
 
 ## ¿Por qué estamos aprendiendo UX?
 
@@ -67,5 +63,3 @@ La experiencia al usar nuestros productos es directamente proporcional a su cons
 Al tener una mejor UX tenemos más consumo.
 
 Y viceversa.
-=======
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d

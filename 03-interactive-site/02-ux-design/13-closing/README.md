@@ -4,11 +4,8 @@
 - Formato: `guiado`
 - Duración: `120min`
 
-<<<<<<< HEAD
 ***
 
-=======
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 ## Agenda
 
 ### 1. Repasemos qué hemos aprendido hasta ahora

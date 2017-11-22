@@ -42,11 +42,7 @@ características:
 
 ## Syllabus
 
-<<<<<<< HEAD
 ### Unidad 01: La web desde un móvil
-=======
-### Unidad 01: [La web desde un móvil](00-rwd)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -62,23 +58,14 @@ características:
 | 09 | cuestionario | 5min | Auto-evaluación
 | 10 | seminario | 2h | Closing
 
-<<<<<<< HEAD
-### Unidad 02: No reinventes la rueda
-=======
 ### Unidad 02: [No reinventes la rueda](01-css-frameworks)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | lectura | 30min | Opening
 | 01 | lectura | 15min | ¿Qué es un Framework?
-<<<<<<< HEAD
-| 02 | lectura | 15min | Materialize
-| 03 | lectura | 30min | ¿Y Bootstrap?
-=======
 | 02 | lectura | 15min | Bootstrap
 | 03 | lectura | 30min | ¿Y Materialize?
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 | 04 | lectura | 30min | ¿Componentes con jQuery?
 | 05 | quiz | 30min | Quiz #1
 | 06 | taller | 2h | Clase Práctica
@@ -88,11 +75,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-<<<<<<< HEAD
-### Unidad 03: Agiliza tu desarrollo
-=======
 ### Unidad 03: [Agiliza tu desarrollo](02-jquery)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -109,11 +92,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-<<<<<<< HEAD
-### Unidad 04: Mejora la usabilidad
-=======
 ### Unidad 04: [Mejora la usabilidad](03-usability)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -131,11 +110,7 @@ características:
 | 11 | cuestionario | 5min | Auto-evaluación
 | 12 | seminario | 2h | Closing
 
-<<<<<<< HEAD
-### Bonus: Agrega Back-end a tus aplicaciones
-=======
 ### Bonus: [Agrega Back-end a tus aplicaciones](04-firebase-101)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -144,11 +119,7 @@ características:
 | 02 | lectura | 25min | Base de Datos
 | 03 | práctica | 1h | Retos guiados
 
-<<<<<<< HEAD
-### Unidad 05: Crea tu propia red social
-=======
 ### Unidad 05: [Crea tu propia red social](05-social-network)
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -158,14 +129,9 @@ características:
 | 03 | taller | 30min | Demo
 | 04 | taller | 2h | Retrospectiva
 
-<<<<<<< HEAD
-## Autor(es) / Colaboradores
-
-=======
 ## Autores / Colaboradores
 
 * Allison Guzmán
->>>>>>> c6232fc0a639688fc216c72d17e325a588abae9d
 * Steph Salazar
 * Lalo Gonzalez
 * Ivan Medina
