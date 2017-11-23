@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `30min`
 
 ***
 
@@ -19,7 +19,10 @@ El grid system ayuda a alinear elementos de página basados ​​en columnas y 
 
 ![Grid](http://test.visitnorway.org/wp-content/uploads/sites/2/2013/02/Grid_3.png)
 
-Como mencionabamos, un grid consta generalmente de containers (contenedores), rows (filas), columns (columnas) y gutters.
+
+Como mencionábamos, un grid consta generalmente de containers (contenedores),
+rows (filas), columns (columnas) y gutters.
+
 
 ![Grid](https://mdn.mozillademos.org/files/13899/grid.png)
 
@@ -31,8 +34,8 @@ Como mencionabamos, un grid consta generalmente de containers (contenedores), ro
 
 
 El objetivo del container es establecer el ancho de toda la grid. El ancho del
-container generalmente es del 100%, pero es posible que desee establecer un
-ancho máximo para pantallas más grandes.
+container generalmente es del 100%, pero también es posible que se desee
+establecer un ancho máximo para pantallas más grandes.
 
 
 - Row
