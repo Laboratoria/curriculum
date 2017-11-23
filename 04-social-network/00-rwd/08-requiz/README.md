@@ -73,7 +73,7 @@
 
 1. Media Queries
 2. Media Type
-3. Media Feature
+3. Media Feature 
 4. Operadores Lógicos
 
 <solution style="display:none;">3</solution>
@@ -103,7 +103,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 8) Los ___________ corresponden a los distintos dispositivos donde se puede visualizar nuestro sitio web
+### 8) Los ___________ corresponden a los distintos dispositivos donde se puede visualizar nuestro sitio web.
 
 #### Opciones
 
@@ -112,7 +112,7 @@
 3. Media Type
 4. Media Operators
 5. Operadores Lógicos
-6. Operadores Query
+6. Operadores Query 
 
 <solution style="display:none;">3</solution>
 
@@ -124,19 +124,14 @@
     color: blue;
     font-size: 15px;
   }
-}
 ```
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más
-   de 700px
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   más de 700px
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   menos de 700px
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más de 700px
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga menos de 700px
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga más de 700px
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga menos de 700px
 
 <solution style="display:none;">4</solution>
 
@@ -150,6 +145,7 @@
 }
 ```
 
+
 #### Opciones
 
 1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea verdadero
@@ -161,3 +157,4 @@
 5. No sucede nada
 
 <solution style="display:none;">4</solution>
+

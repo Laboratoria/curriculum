@@ -18,10 +18,11 @@ condiciones dadas al @media son verdaderas**.
 
 ![Sintaxis de un media query](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg)
 
-Los Media Queries están conformadas por **Media Types**, **Media Features** y el
-bloque de código a ejecutar si las condiciones entregadas en el media type y el
-media feature son verdaderas. Todo esto se conecta gracias a los **operadores lógicos**
-correspondientes.
+
+![Sintaxis de un media query](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg "Sintaxis de un media query")
+
+Los Media Queries están conformadas por 
+**Media Types**, **Media Features** y el bloque de código a ejecutar si las condiciones entregadas en el media type y el media feature son verdaderas. Todo esto se conecta gracias a los **operadores lógicos** correspondientes.
 
 ![Media Queries](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)
 
@@ -57,6 +58,7 @@ correcto.
 Un elemento que es muy importante y que debemos añadir siempre a nuestro sitio
 si queremos que sea responsive es la etiqueta meta viewport.
 
+
 La etiqueta viewport nos permite definir el ancho, alto y escala del área usada
 por el navegador para mostrar contenido.
 
@@ -64,6 +66,7 @@ Al fijar el ancho o alto del viewport, podemos usar un número fijo de píxeles 
 usar dos constantes, device-width y device-height respectivamente. Se considera
 una buena práctica configurar el viewport con algunas de estas dos constantes,
 en lugar de utilizar un ancho o alto fijo.
+
 
 La configuración más común de viewport es la siguiente:
 
