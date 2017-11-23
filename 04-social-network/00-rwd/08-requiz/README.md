@@ -51,7 +51,6 @@
    ejecutarán si las condiciones dadas son falsas
 4. Una técnica que utiliza la regla @media para incluir bloques JS que se
    ejecutarán si las condiciones dadas son verdaderas.
->>>>>>> ab0a8c404be4a745b1f0adcdfff4b76fa35b5fc5
 
 <solution style="display:none;">2</solution>
 
@@ -125,19 +124,14 @@
     color: blue;
     font-size: 15px;
   }
-}
 ```
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más
-   de 700px
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   más de 700px
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   menos de 700px
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga más de 700px
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga menos de 700px
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga más de 700px
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga menos de 700px
 
 <solution style="display:none;">4</solution>
 
