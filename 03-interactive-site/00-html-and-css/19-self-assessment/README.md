@@ -15,4 +15,4 @@
 
 - [Lima](https://goo.gl/forms/MdPiG2hIZvoFaFPJ3)
 - [Santiago de Chile](https://goo.gl/forms/IgGms0mgLfZUcYSl1)
-- [México DF](https://goo.gl/forms/AcMMoFnDvMpdK3q73)
+- [CDMX](https://goo.gl/forms/AcMMoFnDvMpdK3q73)

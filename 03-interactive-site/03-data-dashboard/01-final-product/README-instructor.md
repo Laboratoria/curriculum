@@ -324,7 +324,7 @@ los jedis del último sprint cursado.
 
 ### ¿Importa el color del jedi master rating?
 
-Si supera 4.5 de rating debería ir en verde, cualquier otro caso, 
+Si supera 4.5 de rating debería ir en verde, cualquier otro caso,
 su color natural (negro).
 
 ### ¿Si cambio de sede, deben cambiar los números calculados?
