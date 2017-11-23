@@ -8,8 +8,8 @@
 
 ## Objetivos de Aprendizaje
 
-- Conocer y entender la estructura de Grid System y cómo podemos crear nuestro sitio con él.
-
+- Conocer y entender la estructura de Grid System y cómo podemos crear nuestro
+  sitio con él.
 
 ## ¿Qué es Grid System?
 
@@ -29,21 +29,28 @@ Como mencionabamos, un grid consta generalmente de containers (contenedores), ro
 
 ![Container](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/container.png)
 
-El objetivo del container es establecer el ancho de toda la grid. El ancho del container generalmente es del 100%, pero es posible que desee establecer un ancho máximo para pantallas más grandes.
+
+El objetivo del container es establecer el ancho de toda la grid. El ancho del
+container generalmente es del 100%, pero es posible que desee establecer un
+ancho máximo para pantallas más grandes.
 
 
 - Row
 
 ![Row](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/row.png)
 
-El propósito del row es evitar que las columns dentro de él se desborden en otras rows.
+
+El propósito del row es evitar que las columns dentro de él se desborden en
+otras rows.
 
 
 - Columns
 
 ![Columns](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column.png)
 
-El proposito de las columns es contener a los elementos que queremos mostrar en nuestro sitio web.
+
+El proposito de las columns es contener a los elementos que queremos mostrar en
+nuestro sitio web.
 
 
 - Gutters
@@ -52,8 +59,8 @@ El proposito de las columns es contener a los elementos que queremos mostrar en 
 
 Los gutters son los espacios entre las columns.
 
+
 - - -
 
 Si quieres entender un poco más cómo funcionan las grids, lee el siguiente [artículo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e "artículo")
-
 

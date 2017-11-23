@@ -1,9 +1,3 @@
-# Closing
-
-- Tipo: `clase presencial`
-- Formato: `guided-learning`
-- Duración: `120min`
-
 # Closing: La web desde un móvil
 
 - Tipo: `seminario`
@@ -29,3 +23,4 @@
 - ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
 
 - ¿Para qué sirve la etiqueta meta viewport?
+
