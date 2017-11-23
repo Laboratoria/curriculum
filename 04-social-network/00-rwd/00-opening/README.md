@@ -10,19 +10,23 @@
 
 En ésta unidad aprenderemos:
 
-- A crear una página web utilizando el enfoque de diseño `Responsive Web Design`
-- A utilizar grid system, medias queries y distintos frameworks para
-  estructurar de mejor manera nuestro sitio.
+- A construir un layout basado en un sistema de grillas
+- A personalizar nuestro sitio web para diversos tamaños de pantallas
+- A entender la importancia del mercado móvil y cómo podemos abordarlo con la
+  técnica de `Responsive Design`
+- Diversos enfoques de diseño que podemos seguir al construir un sitio web
+  responsivo
 
 ## ¿Por qué aprender Responsive Web Design?
 
 En la actualidad existen una amplia variedad de dispositivos (smartphone,
 tablet, ordenador desktop, laptop...) con sus diferentes formatos de pantalla,
-situación que nos obliga a adaptar nuestros productos digitales a la estructura
-de cada uno de ellos.
+situación que nos obliga a adaptar nuestros productos digitales para que se
+adapten lo mejor posible tanto en interfaz de usuario como en el UX.
 
-El reto que tienes en este curso es aprender a crear productos web
-**responsivos** que se adapten y permitan mostrar la versión más optimizada para ese medio.
+El reto que tienes en esta unidad es aprender a crear productos web
+**responsivos** que se adapten y permitan mostrar la versión más agradable
+para distintos medios.
 
 ## Guía de preguntas y conceptos clave
 
@@ -36,12 +40,11 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-- ¿Qué es Responsive Web Design?
-
-- ¿Cuál es la ventaja de utilizar Responsive Web Design en nuestra página web?
-
-- ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
-
+- ¿Qué es layout?
+- ¿Cuál es la ventaja de usar un sistema de grillas?
 - ¿Qué son los Media Queries y para qué se utilizan?
-
+- ¿Qué son los breakpoints?
 - ¿Para qué sirve la etiqueta meta viewport?
+- ¿Qué es Responsive Web Design?
+- ¿Por qué es importante construir un sitio web responsivo?
+- ¿Cuál es la diferencia entre Progressive Enhancement y Graceful Degradation?
