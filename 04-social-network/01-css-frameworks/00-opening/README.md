@@ -10,17 +10,17 @@
 
 En esta unidad aprenderemos:
 
-- A crear una página web utilizando frameworks
-- A utilizar componentes de jquery.
+- Que son los frameworks y para qué los usamos.
 
-## ¿Por qué aprender Frameworks?
+- A crear una página web utilizando frameworks.
 
-El reto que tenemos en este curso es aprender a crear productos web
-**interactivos**. La interacción en los productos web se crea por medio de la
-programación con `JavaScript` (algo que aprendiste en el curso pasado), pero la
-estructura y el estilo de la web se crean con `html` y `css`. En esta unidad
-aprenderás a maquetar una web estática que luego convertirás en
-interactiva utilizando `JavaScript`.
+## ¿Por qué aprender a usar Frameworks?
+
+Usar frameworks nos hace personas más felices ya que nos evita escribir código
+repetitivo, nos ayuda a desarrollar más rápido y a utilizar buenas prácticas.
+
+El reto que tenemos en este curso es aprender "en qué, cuándo y cómo"
+hacer uso de los **frameworks**.
 
 ## Guía de preguntas y conceptos clave
 
@@ -37,4 +37,3 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es un Framework?
 
 - ¿Cuál es la diferencia entre Bootstrap y Materialize?
-
