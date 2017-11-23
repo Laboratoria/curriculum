@@ -8,7 +8,8 @@
 
 ## Objetivos de Aprendizaje
 
-- Conocer y entender el framework Bootstrap.
+- Conocer y entender lo que son los frameworks y cómo les sirven en su trabajo a la hora de crear un sitio web.
+
 
 
 ## ¿Qué es Bootstrap?

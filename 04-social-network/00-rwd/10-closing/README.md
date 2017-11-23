@@ -23,3 +23,4 @@
 - ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
 
 - ¿Para qué sirve la etiqueta meta viewport?
+
