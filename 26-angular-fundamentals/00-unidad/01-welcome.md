@@ -25,3 +25,5 @@ Previo a cada sesión presencial, se requerirá la lectura de este contenido
 y, en algunos casos, la codificación de ejercicios.
 
 Tags: `angular`, `typescript`, `web`
+
+* Link video de Introducción
