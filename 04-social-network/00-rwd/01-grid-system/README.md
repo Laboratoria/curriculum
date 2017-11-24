@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `40min`
 
 ***
 
@@ -69,7 +69,7 @@ rows (filas), columns (columnas) y gutters.
 
 ![Grid](https://mdn.mozillademos.org/files/13899/grid.png)
 
-## Elementos del Grid System
+### Elementos del Grid System
 
 - Container
 
@@ -90,7 +90,7 @@ otras rows.
 
 ![Columns](http://j4n.co/content/4-blog/10-Creating-your-own-css-grid-system/column.png)
 
-El proposito de las columns es contener a los elementos que queremos mostrar en
+El propósito de las columns es contener a los elementos que queremos mostrar en
 nuestro sitio web.
 
 - Gutters
@@ -99,6 +99,161 @@ nuestro sitio web.
 
 Los gutters son los espacios entre las columns.
 
-- - -
+### Concluyendo
 
-Si quieres entender un poco más cómo funcionan las grids, lee el siguiente .
+El sistema de grillas o cuadrículas tiene 3 elementos importantes: contenedor,
+fila y columna. Algo a tener en cuenta es que, si bien, la lectura hace
+referencia a un grid de 12 columnas, no es el único, podemos encontrar de 6, 9,
+16 o 24 columnas. El más utilizado es el de 12 y es el que seguiremos en esta
+unidad.
+
+## ¿Cómo construyo mi layout con un sistema de grillas?
+
+Para construir una web usando un sistema de grillas, primero imaginemos el
+layout, para este ejemplo, haremos algo simple:
+
+![12 columns grid layout](https://blog.keycdn.com/blog/wp-content/uploads/2017/02/fluid-grid.png)
+
+Una vez que sabemos lo que vamos a hacer, crearemos nuestros 3 elementos
+importantes en CSS:
+
+```css
+.container {
+  width: 100%
+}
+
+.row:after,
+.row:before {
+  content: "";
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+```
+
+¿No te quedó muy claro cómo crear el grid system? Aquí, la súper teacheer
+Allison creó un video con mucho amor para ti:
+
+[![Grid System by Allison](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+
+Luego, creas la estructura en el HTML de la siguiente manera:
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-1">1</div>
+    <div class="col-11">11</div>
+  </div>
+  <div class="row">
+    <div class="col-2">2</div>
+    <div class="col-10">10</div>
+  </div>
+</div>
+```
+
+Agregando un poco de estilos como tamaños, colores y bordes podemos obtener el
+resultado planteado para las 2 primeras filas del layout:
+
+<iframe height='265' scrolling='no' title='CSS: Grid System'
+src='//codepen.io/ivandevp/embed/ZaROvb/?height=265&theme-id=0&default-tab=css,result&embed-version=2'
+frameborder='no' allowtransparency='true' allowfullscreen='true'
+style='width: 100%;'>
+  See the Pen
+  <a href='https://codepen.io/ivandevp/pen/ZaROvb/'>CSS: Grid System</a> by Ivan
+  (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on
+  <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+¿Te gustó? Completa las filas restantes, puedes dar click en `Edit on CodePen` y
+te mandará a su página, para que puedas guardar tu trabajo en tu cuenta (créala
+si aun no la tienes, 100% recomendado), y una vez en el editor le das click en
+**Fork** (sí, igual que con tu súper nuevo amigo Github) y agrega/modifica lo
+que desees :).
+
+Aquí un último ejemplo de cómo harías un layout sin grillas:
+
+<iframe height='265' scrolling='no' title='CSS: Layout sin grid'
+src='//codepen.io/ivandevp/embed/wPXWXO/?height=265&theme-id=0&default-tab=css,result&embed-version=2'
+frameborder='no' allowtransparency='true' allowfullscreen='true'
+style='width: 100%;'>
+  See the Pen
+  <a href='https://codepen.io/ivandevp/pen/wPXWXO/'>CSS: Layout sin grid</a>
+  by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on
+  <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+Ahora, encuentra las ventajas de usar grillas:
+
+<iframe height='265' scrolling='no' title='CSS: Layout con grid' src='//codepen.io/ivandevp/embed/eeKzjZ/?height=265&theme-id=0&default-tab=css,result&embed-version=2'
+frameborder='no' allowtransparency='true' allowfullscreen='true'
+style='width: 100%;'>
+  See the Pen
+  <a href='https://codepen.io/ivandevp/pen/eeKzjZ/'>CSS: Layout con grid</a>
+  by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on
+  <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+## Reflexión
+
+En esta lectura, hemos visto qué es un layout, además de qué es un sistema de
+grillas. Practicamos implementando un grid system de 12 columnas, no es la única
+forma de crearlo, te recomendamos busques otra forma de crearlos y no olvides
+practicar, practicar, practicar * `Math.random() * +Infinity` (si no entendiste
+que fue esto último, googlealo es JS) :).
+
+Espero te haya gustado este tema, anda pensando en qué te va a servir durante
+esta unidad para crear tu propia red social!
+
+No olvides...
+
+![CSS is awesome](https://huangxuan.me/css-sucks-2015/attach/joke/css_is_awesome.png)
