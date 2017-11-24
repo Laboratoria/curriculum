@@ -5,8 +5,6 @@
 
 ## Pantillas y Data binding
 
-```
-<table>
   <tr>
     <th rowspan="4">Lecturas Obligatorias</td>
     <td>Angular CLI</td>
@@ -39,4 +37,4 @@
         No es necesario modificar el código generado por el CLI (pero... por qué no? :eyes:)</td>
   </tr>
 </table>
-```
+
