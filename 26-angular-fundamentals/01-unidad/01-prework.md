@@ -5,7 +5,7 @@
 
 ## Pantillas y Data binding
 
-```html
+```
 <table>
   <tr>
     <th rowspan="4">Lecturas Obligatorias</td>
