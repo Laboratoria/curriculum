@@ -118,64 +118,92 @@ Una vez que sabemos lo que vamos a hacer, crearemos nuestros 3 elementos
 importantes en CSS:
 
 ```css
+/** GRID SYSTEM **/
+
+/*
+ * Contenedor que ocupa el 95% de ancho
+ * y centra con margen automático
+ */
 .container {
-  width: 100%
+  width: 95%;
+  margin: 0 auto;
 }
 
+/*
+ * Clearfix para controlar
+ * las columnas flotantes
+ */
 .row:after,
 .row:before {
   content: "";
   clear: both;
 }
 
+/*
+ * Selector de clases que empiecen con
+ * 'col-' se ponen flotantes y padding
+ */
 [class*='col-'] {
   float: left;
+  padding: 10px;
 }
 
+/* Fórmula: (1 / 12) * 100 */
 .col-1 {
   width: 8.33%;
 }
 
+/* Fórmula: (2 / 12) * 100 */
 .col-2 {
   width: 16.66%;
 }
 
+/* Fórmula: (3 / 12) * 100 */
 .col-3 {
   width: 25%;
 }
 
+/* Fórmula: (4 / 12) * 100 */
 .col-4 {
   width: 33.33%;
 }
 
+/* Fórmula: (5 / 12) * 100 */
 .col-5 {
   width: 41.66%;
 }
 
+/* Fórmula: (6 / 12) * 100 */
 .col-6 {
   width: 50%;
 }
 
+/* Fórmula: (7 / 12) * 100 */
 .col-7 {
   width: 58.33%;
 }
 
+/* Fórmula: (8 / 12) * 100 */
 .col-8 {
   width: 66.66%;
 }
 
+/* Fórmula: (9 / 12) * 100 */
 .col-9 {
   width: 75%;
 }
 
+/* Fórmula: (10 / 12) * 100 */
 .col-10 {
   width: 83.33%;
 }
 
+/* Fórmula: (11 / 12) * 100 */
 .col-11 {
   width: 91.66%;
 }
 
+/* Fórmula: (12 / 12) * 100 */
 .col-12 {
   width: 100%;
 }
@@ -190,13 +218,22 @@ Luego, creas la estructura en el HTML de la siguiente manera:
 
 ```html
 <div class="container">
+  <h1>GRID SYSTEM</h1>
   <div class="row">
-    <div class="col-1">1</div>
-    <div class="col-11">11</div>
+    <div class="col-1">
+      <p class="column">ONE</p>
+    </div>
+    <div class="col-11">
+      <p class="column">ELEVEN</p>
+    </div>
   </div>
   <div class="row">
-    <div class="col-2">2</div>
-    <div class="col-10">10</div>
+    <div class="col-2">
+      <p class="column">TWO</p>
+    </div>
+    <div class="col-10">
+      <p class="column">TEN</p>
+    </div>
   </div>
 </div>
 ```
@@ -205,7 +242,7 @@ Agregando un poco de estilos como tamaños, colores y bordes podemos obtener el
 resultado planteado para las 2 primeras filas del layout:
 
 <iframe height='265' scrolling='no' title='CSS: Grid System'
-src='//codepen.io/ivandevp/embed/ZaROvb/?height=265&theme-id=0&default-tab=css,result&embed-version=2'
+src='//codepen.io/ivandevp/embed/ZaROvb/?height=265&theme-id=0&default-tab=result&embed-version=2'
 frameborder='no' allowtransparency='true' allowfullscreen='true'
 style='width: 100%;'>
   See the Pen
