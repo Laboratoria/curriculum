@@ -76,8 +76,8 @@ retornar markup, sólo una función que siga las reglas de React.
     <tbody>
         <tr>
           <th scope="row" style="text-align:right">Propósito</th>
-          <td>Como <b>se ven</b> las cosas  (markup, estilos)</td>
-          <td>Como <b>funcionan</b> las cosas (data fetching, state updates)</td>
+          <td>Como **se ven** las cosas  (markup, estilos)</td>
+          <td>Como **funcionan** las cosas (data fetching, state updates)</td>
         </tr>
         <tr>
           <th scope="row" style="text-align:right">Saben de Redux</th>

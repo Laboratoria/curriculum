@@ -15,12 +15,12 @@
 ## Agenda
 
 1. En tu squad, cada una de las coders debe explicar brevemente el código que
-desarrolló para el producto final y sus compañeras deben darle feedback
+   desarrolló para el producto final y sus compañeras deben darle feedback
 2. Luego de haber revisado todos los productos realizados, deben elegir entre
-todas el código que consideran que está mejor planteado o más avanzado
+   todas el código que consideran que está mejor planteado o más avanzado
 3. En el squad deben terminar de pulir el código elegido, hasta que tengan el
-código más completo y limpio que pueden construir
+   código más completo y limpio que pueden construir
 4. Finalmente, deben prepararse para exponer ese código ante la clase y sus
-profes. Solo una coder del squad va a ser elegida al azar para exponer, así
-que deben asegurarse de que todas estén bien preparadas para hacer una
-buena expo!
+   profes. Solo una coder del squad va a ser elegida al azar para exponer, así
+   que deben asegurarse de que todas estén bien preparadas para hacer una
+   buena expo!
