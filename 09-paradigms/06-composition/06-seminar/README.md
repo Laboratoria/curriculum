@@ -1,15 +1,15 @@
-# Solucionario coi
+# Solucionario
 
-* Tipo: `taller`
+* Tipo: `seminario`
 * Formato: `guiado`
 * Duración: `60min`
 
 ## Objetivos de la lección
 
-* Revisar ejercicios `Laboratoria/coi`
+* Revisar ejercicios de esta unidad
 * Aclarar dudas con respecto a factories y composición de objetos
 
 ***
 
-Durante este workshop lxs instructorxs resolverán los ejercicios del
-_workshopper_ de `coi` con la participación de las alumnas.
+Durante este workshop lxs instructorxs resolverán los ejercicios de esta unidad
+en LMS con la participación de las alumnas.

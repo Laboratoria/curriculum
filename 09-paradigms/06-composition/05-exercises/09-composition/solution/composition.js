@@ -1,17 +1,3 @@
-# Object composition
-
-* Environment: `js`
-
-***
-
-## Tarea
-
-Tómate el tiempo para considerar este snippet. Las funciones `pooper`, `barker`,
-`driver` y `killer` crean un objeto cada una. Después, creamos `dog`, `robot` y
-`murderRobot`, que simplemente "componen" los objetos creados por las funciones
-anteriores.
-
-```js
 const pooper = state => ({
   poop: () => console.log('💩')
 });
@@ -34,7 +20,6 @@ const dog = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, pooper(state), barker(state));
 };
 
@@ -44,14 +29,32 @@ const robot = name => {
     speed: 100,
     position: 0
   };
-
   return Object.assign({}, driver(state));
 };
-```
 
-Siguiendo este patrón, implementa:
+exports.murderRobot = name => {
+  const state = {
+    name: name,
+    speed: 100,
+    position: 0
+  };
+  return Object.assign({}, driver(state), killer(state));
+};
 
-* `murderRobot` (con lo mismo que `robot` pero además de `killer`)
-* `murderDog` (con todo lo que tiene `dog` además de `killer`)
-* `murderRobotDog`, que debe combinar la capacidad de ladrar (bark) con la
-  funcionalidad de `driver` y `killer`.
+exports.murderDog = name => {
+  const state = {
+    name: name,
+    speed: 100,
+    position: 0
+  };
+  return Object.assign({}, barker(state), pooper(state), killer(state));
+};
+
+exports.murderRobotDog = name => {
+  const state = {
+    name: name,
+    speed: 100,
+    position: 0
+  };
+  return Object.assign({}, barker(state), driver(state), killer(state));
+};
