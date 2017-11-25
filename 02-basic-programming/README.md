@@ -31,7 +31,7 @@ y condicionales.
 * Qué es y cómo utilizar la interfaz de línea de comandos (`CLI`)
 * Qué es y cómo utilizar un sistema de control de versiones (`Git`)
 * A utilizar estos conceptos para resolver problemas aún más complejos y crear
-programas más elaborados
+  programas más elaborados
 
 ## Productos a desarrollar
 
@@ -121,4 +121,5 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 ## Libros de consulta
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
+* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+  Nick Morgan, 2015
