@@ -223,10 +223,14 @@ var movie = {
 
 #### Opciones
 
-1. Para refactorizar nuestro código y utilizar los comandos para subirlo a `replit`
-2. Para ver, manejar y manipular archivos de nuestra computadora por medio de comandos
-3. Para crear nuevos comandos para `Git` y `Github`, y posteriormente darle el soporte adecuado
-4. Para que podamos transformar nuestros archivos en extensión `.git` con la ayuda de los comandos
+1. Para refactorizar nuestro código y utilizar los comandos para subirlo a
+   `replit`
+2. Para ver, manejar y manipular archivos de nuestra computadora por medio de
+   comandos
+3. Para crear nuevos comandos para `Git` y `Github`, y posteriormente darle el
+   soporte adecuado
+4. Para que podamos transformar nuestros archivos en extensión `.git` con la
+   ayuda de los comandos
 
 <solution style="display:none;">2</solution>
 
