@@ -62,9 +62,10 @@ deberán ser escritas en inglés. :blush:
 Cada sesión tendrá un ejercicio, que debe ser completado antes del final del curso.
 
 **Para cada ejercicio**:
- - [x] Codificar
- - [x] Publicar el código fuente
- - [x] Desplegar la aplicación en Firebase Hosting
+
+* [x] Codificar
+* [x] Publicar el código fuente
+* [x] Desplegar la aplicación en Firebase Hosting
 
 ## Detalles logísticos
 
@@ -76,13 +77,19 @@ Cada sesión tendrá un ejercicio, que debe ser completado antes del final del c
 
 Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
 
->  Es una técnica usada por los surrealistas en 1925, (...) en el cual los jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte de la escritura, y después la pasan al siguiente jugador para otra colaboración.
+> Es una técnica usada por los surrealistas en 1925, (...) en el cual los
+> jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte
+> de la escritura, y después la pasan al siguiente jugador para otra
+> colaboración.
 >
->  Los teóricos y asiduos al juego (...) sostenían que la creación, en especial la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo posible automática.
+> Los teóricos y asiduos al juego (...) sostenían que la creación, en especial
+> la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo
+> posible automática.
 
-El juego consiste en escribir un texto de manera colaborativa.
-Cada jugador escribe un texto corto sin poder ver los textos de los demás jugadores.
-Luego de que todos los jugadores han participado, se unen los textos uno tras otro y se lee el resultado completo.
+El juego consiste en escribir un texto de manera colaborativa. Cada jugador
+escribe un texto corto sin poder ver los textos de los demás jugadores. Luego de
+que todos los jugadores han participado, se unen los textos uno tras otro y se
+lee el resultado completo.
 
 El backend estará hospedado en [Firebase](https://firebase.google.com/).
 
@@ -91,7 +98,7 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
 Para aprobar:
 
 1. Codificar y publicar todos los ejercicios dejados durante el curso.
-Los ejercicios son acumulativos. :dancer:
+   Los ejercicios son acumulativos. :dancer:
 2. Todo el código debe contener Pruebas unitarias.
 
 ## Contribuidores

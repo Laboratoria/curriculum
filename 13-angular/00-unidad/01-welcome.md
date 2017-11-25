@@ -1,4 +1,4 @@
-# Presentacion del curso  
+# Presentacion del curso
 
 * Tipo: `lectura`
 * Formato: `self-paced`
