@@ -48,7 +48,7 @@ describe('objectCreate', () => {
 
   describe('robby', () => {
 
-    it.only('debería ser un objeto con machine como prototipo', () => {
+    it('debería ser un objeto con machine como prototipo', () => {
       Assert.equal(robby.__proto__.__proto__, machine);
     });
 
