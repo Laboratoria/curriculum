@@ -1,5 +1,11 @@
 # Presentacion del curso  
 
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
 ## Angular Fundamentals
 
 Este curso presenta los fundamentos para comprender y utilizar

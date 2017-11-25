@@ -1,9 +1,12 @@
 # Presentación del curso
 
-* Formato: `lectura`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `90min`
 
-## Pantillas y Data binding
+***
+
+## Plantillas y Data binding
 
 ### Lecturas Obligatorias
 
