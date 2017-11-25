@@ -72,8 +72,10 @@ indiquemos y todo eso lo almacenará en un `repositorio local`.
 - Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
   a los archivos y a sus versiones que se encuentran en nuestro equipo.
   Aquí encontraremos dos partes muy importantes.
-  - working directory: Es nuestro directorio de trabajo.
-  - staging area: Es el espacio en donde se encuentran los archivos a los que `Git` les debe de hacer seguimiento y que en algún momento se convertirán en una nueva versión del proyecto.
+  * working directory: Es nuestro directorio de trabajo.
+  * staging area: Es el espacio en donde se encuentran los archivos a los que `Git`
+    les debe de hacer seguimiento y que en algún momento se convertirán en una nueva
+    versión del proyecto.
 
 - Repositorio remoto: `Git` nos permite sincronizar nuestro repositorio local
   con un repositorio remoto o repositorio en la "nube".
@@ -115,10 +117,10 @@ La programación se da, en su mayoría de veces, en equipos. Varias empresas
 tienen un equipo que se complementa para cada proyecto. Ante esta situación
 te preguntarás:
 
->¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen
-  todo en un usb y se lo turnan para poder trabajar, o trabajan cada uno por su
-  lado y al momento de tener que unir las partes tienen que ver detalladamente
-  si se repiten o no alguna parte.
+> ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen
+> todo en un usb y se lo turnan para poder trabajar, o trabajan cada uno por su
+> lado y al momento de tener que unir las partes tienen que ver detalladamente
+> si se repiten o no alguna parte.
 
 Esto no sería para nada eficiente, porque no se podría trabajar al mismo tiempo
 en algo en específico y se tendría que depender del avance de otro para que
@@ -136,15 +138,15 @@ añadir tu compañero.
 
 Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
 
-1. Debemos de dirigirnos a la página oficial de `Github`: https://github.com/
+1. Debemos de dirigirnos a la [página oficial de Github](https://github.com)
 2. Ya en la página, haremos clic en **Sign up**.
 3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
-  ejemplo, si tienes un **username** que creaste para un juego online podrías
-  usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
-  visible para todo el mundo y puede que te lo pidan en algún momento para
-  añadirte como colaborador de un proyecto, así que ten cuidado con lo que
-  pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
-  haz clic en **Create an account**.
+   ejemplo, si tienes un **username** que creaste para un juego online podrías
+   usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
+   visible para todo el mundo y puede que te lo pidan en algún momento para
+   añadirte como colaborador de un proyecto, así que ten cuidado con lo que
+   pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
+   haz clic en **Create an account**.
 4. En la siguiente pantalla asegúrate de marcar la opción **Unlimited public
   repositories for free**, esta es la versión "free" de `Github`; luego haz
   clic en **continue**.
@@ -164,7 +166,6 @@ Sigue los pasos de Michelle para crear un repositorio en `Github`:
 
 [![Creando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
-
 Por último tenemos la pantalla donde encontrarmos la `url` de nuestro
 `repositorio remoto`, con la cual (más adelante) vincularemos nuestro
 repositorio remoto con nuestro repositorio local.
@@ -175,7 +176,7 @@ Si nos encontramos en Linux o Mac OS X no será necesario hacer la
 instalación de Git porque ya viene instalado, pero si nuestro sistema operativo
 es **Windows** debemos descargar e instalar `Git` en nuestro equipo.
 
-  - [Descarga Git](https://git-scm.com/download/win)
+- [Descarga Git](https://git-scm.com/download/win)
 
 Cuando haya terminado la descarga de nuestro programa comenzaremos con la
 instalación haciendo doble clic en el archivo que se acaba de descargar y luego
@@ -187,35 +188,29 @@ nos aparecerán las siguientes pantallas:
 2. Ahora en **Next >**
 
   !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
-
-3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones y hacemos clic en **Next >**
+3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones
+   y hacemos clic en **Next >**
 
   !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
-
-4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows Command Prompt** y hacemos clic en **Next >**
+4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows
+   Command Prompt** y hacemos clic en **Next >**
 
   ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
-
 5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)
 
   !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
-
 6. Elegimos la primera opción y seguimos
 
   !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
-
 7. Nos aseguramos de escoger la opción **Use MinTTY**
 
   !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
-
 8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**
 
   !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
-
 9. Ahora comenzará a instalarse
 
   !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
-
 10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish**
 
   !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
@@ -230,19 +225,19 @@ Windows) no es muy amigable y no soporta comandos UNIX, `Git` nos proporciona
 una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar
 comandos como si estuviéramos en Linux o Mac OS X.
 
->Por lo tanto, `Git Bash` será la "línea de comandos" que utilizaremos cuando
-  trabajemos con `Git` en Windows, en cambio, si nos encontramos en Linux o Mac
-  OS X utilizaremos nuestra terminal.
+> Por lo tanto, `Git Bash` será la "línea de comandos" que utilizaremos cuando
+> trabajemos con `Git` en Windows, en cambio, si nos encontramos en Linux o Mac
+> OS X utilizaremos nuestra terminal.
 
 ## ¿Cómo configuramos Git?
 
 Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro
 entorno de `Git`.
 
->Recuerda que si quieres ejecutar comandos de Git y te encuentras en Mac OS X o
-  Linux deberás ejecutarlos en **la línea de comandos**, en cambio, si tu
-  sistema operativo es Windows abriremos **Git Bash** para ejecutar los
-  comandos de Git.
+> Recuerda que si quieres ejecutar comandos de Git y te encuentras en Mac OS X o
+> Linux deberás ejecutarlos en **la línea de comandos**, en cambio, si tu
+> sistema operativo es Windows abriremos **Git Bash** para ejecutar los
+> comandos de Git.
 
 Lo primero que debemos de hacer es establecer nuestro **username** y
 **dirección de correo** debido a que `Git` utilizará estos datos para la
@@ -291,20 +286,19 @@ colaborativamente, etc. Ahora hagamos la "magia" de trabajar con `Git` y
 colaborativamente.
 
 A continuación tienes la lista de los comandos más comunes que utilizarás
-trabajando con `Git` y `Github`. Si te sigue pareciendo muy "teórico" no te preocupes, más
-abajo habrá un video de Michelle utilizándolos.
+trabajando con `Git` y `Github`. Si te sigue pareciendo muy "teórico" no te
+preocupes, más abajo habrá un video de Michelle utilizándolos.
 
 - `init`: Este comando le indica a `Git` que comenzará a hacer seguimiento de
   la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El
   comando para iniciar el seguimiento de la carpeta sería:
 
   ```text
-  $ git init
+  git init
   ```
 
   Al ejecutar esta línea, `Git` creará una carpeta oculta llamada `.git` en el
   working directory, en la raíz del proyecto.
-
 
 - `add`: Con este comando estaremos indicando qué archivos queremos que pasen
   de nuestro _working directory_ al _staging area_. Es decir que los archivos
@@ -315,7 +309,7 @@ abajo habrá un video de Michelle utilizándolos.
   llamado **index.html** debemos de ejecutar la siguiente línea:
 
   ```text
-  $ git add index.html
+  git add index.html
   ```
 
   Si queremos que todos los archivos del directorio actual se añadan al
@@ -323,7 +317,7 @@ abajo habrá un video de Michelle utilizándolos.
   línea:
 
   ```text
-  $ git add .
+  git add .
   ```
 
 - `commit`: Con `commit` **confirmaremos** los archivos que declaramos como
@@ -332,7 +326,7 @@ abajo habrá un video de Michelle utilizándolos.
   La estructura del comando es la siguiente:
 
   ```text
-  $ git commit -m 'añadiendo un comentario'
+  git commit -m 'añadiendo un comentario'
   ```
 
   El texto que va dentro de las comillas ('') puede ser cualquiera, te
@@ -342,7 +336,7 @@ abajo habrá un video de Michelle utilizándolos.
   código y solo guiarte por el comentario de tu commit. Por ejemplo:
 
   ```text
-  $ git commit -m 'Creando estructura HTML'
+  git commit -m 'Creando estructura HTML'
   ```
 
 - `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro
@@ -353,7 +347,7 @@ abajo habrá un video de Michelle utilizándolos.
   remoto debemos de ejecutar el siguiente comando:
 
   ```text
-  $ git remote add nombre-remoto url
+  git remote add nombre-remoto url
   ```
 
   Normalmente, la mayoría de los developers, como **nombre-remoto** utiliza
@@ -363,7 +357,7 @@ abajo habrá un video de Michelle utilizándolos.
   que ejecutar la siguiente línea de comando:
 
   ```text
-  $ git remote add origin https://github.com/michellesegv/prueba.git
+  git remote add origin https://github.com/michellesegv/prueba.git
   ```
 
 - `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
@@ -371,7 +365,7 @@ abajo habrá un video de Michelle utilizándolos.
   siguiente:
 
   ```text
-  $ git push nombre-remoto master
+  git push nombre-remoto master
   ```
 
   En **nombre-remoto** pondremos el mismo nombre-remoto que le hemos asignado
@@ -385,7 +379,7 @@ abajo habrá un video de Michelle utilizándolos.
   ejecutar sería:
 
   ```text
-  $ git push origin master
+  git push origin master
   ```
 
 - `status`: Con `status` conoceremos el estado de los archivos de nuestro
@@ -400,7 +394,7 @@ abajo habrá un video de Michelle utilizándolos.
   nuestro repositorio local es:
 
   ```text
-  $ git status
+  git status
   ```
 
 - `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que
@@ -410,7 +404,7 @@ abajo habrá un video de Michelle utilizándolos.
   repositorio local y mantenerlo actualizado. El comando es el siguiente:
 
   ```text
-  $ git pull nombre-remoto master
+  git pull nombre-remoto master
   ```
 
   En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como
@@ -418,14 +412,16 @@ abajo habrá un video de Michelle utilizándolos.
   comando sería:
 
   ```text
-  $ git pull origin master
+  git pull origin master
   ```
 
 ### Detalle de comandos
+
 A continuación veremos una lista de los comandos de `Git` usados en esta lección:
 
 ![comandos-git](https://fotos.subefotos.com/f209b041b3f12e56d3e44984a92d1f44o.png)
 
-Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de versiones de sus proyectos y colaborar con otras profesoras de Laboratoria.
+Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de versiones
+de sus proyectos y colaborar con otras profesoras de Laboratoria.
 
 [![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)

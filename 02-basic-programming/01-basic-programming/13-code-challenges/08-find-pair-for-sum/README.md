@@ -1,7 +1,7 @@
 # findPairForSum
 
-Dada una lista de números enteros no negativos y una suma objetivo, encuentre un par de números que sumen a la suma objetivo.
-
+Dada una lista de números enteros no negativos y una suma objetivo, encuentre un
+par de números que sumen a la suma objetivo.
 
 Ejemplo de entrada:
 

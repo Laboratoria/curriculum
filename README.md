@@ -401,7 +401,43 @@ características:
 Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
 `redux-observable`, `rxjs`, `jest`, `enzyme`
 
-### 13. Construye una aplicación serverless usando Firebase
+### 13. Construye un juego multijugador con Angular y Firebase
+
+Autor: [Aldo Román](https://github.com/aldo-roman)
+
+Este curso presenta los fundamentos para comprender y utilizar
+[Angular](https://angular.io) como plataforma de desarrollo web.
+
+Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
+
+> Es una técnica usada por los surrealistas en 1925, (...) en el cual los
+> jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte
+> de la escritura, y después la pasan al siguiente jugador para otra
+> colaboración.
+>
+> Los teóricos y asiduos al juego (...) sostenían que la creación, en especial
+> la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo
+> posible automática.
+
+El juego consiste en escribir un texto de manera colaborativa. Cada jugador
+escribe un texto corto sin poder ver los textos de los demás jugadores. Luego de
+que todos los jugadores han participado, se unen los textos uno tras otro y se
+lee el resultado completo.
+
+El backend estará hospedado en [Firebase](https://firebase.google.com/).
+
+Tags: `angular`, `typescript`, `firebase`
+
+### 14. Crea un chatbot en la nube y despliégalo en Azure
+
+Autor: TBD (_help needed_)
+
+En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
+Azure.
+
+Tags: `bot`, `azure`
+
+### 15. Construye una aplicación serverless usando Firebase
 
 Autor: TBD (_help needed_)
 
@@ -422,7 +458,7 @@ aplicación tendrá las siguientes características:
 Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
 `auth`
 
-### 14. Despliega aplicaciones Node.js como contenedores en AWS
+### 16. Despliega aplicaciones Node.js como contenedores en AWS
 
 Autor: TBD (_help needed_)
 
@@ -440,37 +476,7 @@ algunos endpoints dinámicos que sirvan data en formato JSON.
 Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
 `aws`, `nodejs`, `mongodb`, `docker`, `containers`
 
-### 15. Crea un chatbot en la nube y despliégalo en Azure
-
-Autor: TBD (_help needed_)
-
-En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure.
-
-Tags: `bot`, `azure`
-
-### 16. Construye un juego multijugador con Angular y Firebase
-
-Autor: [Aldo Román](https://github.com/aldo-roman)
-
-Este curso presenta los fundamentos para comprender y utilizar
-[Angular](https://angular.io) como plataforma de desarrollo web.
-
-Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
-
->  Es una técnica usada por los surrealistas en 1925, (...) en el cual los jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte de la escritura, y después la pasan al siguiente jugador para otra colaboración.
->
->  Los teóricos y asiduos al juego (...) sostenían que la creación, en especial la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo posible automática.
-
-El juego consiste en escribir un texto de manera colaborativa.
-Cada jugador escribe un texto corto sin poder ver los textos de los demás jugadores.
-Luego de que todos los jugadores han participado, se unen los textos uno tras otro y se lee el resultado completo.
-
-El backend estará hospedado en [Firebase](https://firebase.google.com/).
-
-Tags: `angular`, `typescript`, `firebase`
-
-### [19. Modelando y persistiendo data con NoSQL](19-nosql)
+### [17. Modelando y persistiendo data con NoSQL](17-nosql)
 
 Autor: TBD (_help needed_)
 
@@ -486,7 +492,13 @@ sincronizar.
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
 
-### [20. Command Line Foo](20-cli)
+### [18. The web stack](18-web-stack)
+
+Autor: TBD (_help needed_)
+
+TBD
+
+### [19. Command Line Foo](19-cli)
 
 Autor: TBD (_help needed_)
 
@@ -503,7 +515,7 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 21. SQL Databases
+### 19. SQL Databases
 
 [:bulb: Idea para curso :bulb:]
 
@@ -511,7 +523,7 @@ Autor: TBD (_help needed_)
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-### 22. ME*N Stack
+### 20. ME*N Stack
 
 [:bulb: Idea para curso :bulb:]
 
@@ -519,7 +531,7 @@ Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 24. Análisis y visualización de datos
+### 21. Análisis y visualización de datos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -527,7 +539,7 @@ Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 25. Algoritmos
+### 22. Algoritmos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -535,7 +547,7 @@ Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 26. Estructuras de datos
+### 23. Estructuras de datos
 
 [:bulb: Idea para curso :bulb:]
 

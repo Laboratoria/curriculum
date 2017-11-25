@@ -33,8 +33,8 @@ podríamos usar [mobx](https://github.com/mobxjs/mobx) o
 
 Redux está fuertemente inspirado en [Flux](http://facebook.github.io/flux/), que
 podemos decir es su predecesor, pero simplificando el enfoque orignal usando
-conceptos de Elm](https://github.com/evancz/elm-architecture-tutorial/). Sepas o
-no que son Flux y Elm, comenzar con Redux solo toma unos minutos.
+conceptos de [Elm](https://github.com/evancz/elm-architecture-tutorial/). Sepas
+o no que son Flux y Elm, comenzar con Redux solo toma unos minutos.
 
 ## Conceptos base
 
@@ -262,13 +262,13 @@ uso como sagas, thunks o redux offline)
 
 Fuentes:
 
-* https://github.com/reactjs/redux/blob/master/README.md
-* http://redux.js.org/docs/introduction/CoreConcepts.html
-* http://redux.js.org/docs/introduction/ThreePrinciples.html
+* [Redux - react community](https://github.com/reactjs/redux/blob/master/README.md)
+* [Redux Core Concepts - redux.js.org](http://redux.js.org/docs/introduction/CoreConcepts.html)
+* [Redux Three Principles - redux.js.org](http://redux.js.org/docs/introduction/ThreePrinciples.html)
 
 Referencias:
 
-* http://redux.js.org/
-* https://egghead.io/courses/getting-started-with-redux
-* https://scotch.io/bar-talk/getting-started-with-redux-an-intro
-* https://www.codementor.io/mz026/getting-started-with-react-redux-an-intro-8r6kurcxf
+* [Redux documentation - redux.js.org](http://redux.js.org/)
+* [Getting Started with Redux - scotch.io](https://scotch.io/bar-talk/getting-started-with-redux-an-intro)
+* [Getting Started with Redux - egghead.io](https://egghead.io/courses/getting-started-with-redux)
+* [Getting Started With React Redux - codementor.io](https://www.codementor.io/mz026/getting-started-with-react-redux-an-intro-8r6kurcxf)
