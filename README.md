@@ -80,7 +80,7 @@ lo harás en el entorno de la línea de comando (tu nuevo mejor amigo).
 
 ### [01. Introducción a la programación con JS](01-intro)
 
-Autor: _R. Prieto_
+Autor: [Rodulfo Prieto](https://github.com/chamodev)
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre
 nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
@@ -106,7 +106,7 @@ una serie común de cursos para todas las alumnas, que forman parte del
 ### [02. Programación básica con JavaScript](02-basic-programming)
 
 * Track: _Common Core_
-* Autor: _R. Prieto_
+* Autor: [Rodulfo Prieto](https://github.com/chamodev)
 * Tiempo estimado: _2 a 3 semanas_
 
 En este curso aprenderás mejores formas de estructurar y manipular la data de
@@ -131,7 +131,7 @@ vida cotidiana:
 ### [03. Creando tu primer sitio web interactivo](03-interactive-site)
 
 * Track: _Common Core_
-* Autor: _Iván Medina & Lalo Gonzalez_
+* Autor: [Iván Medina](https://github.com/ivandevp) & [Lalo Gonzalez](https://github.com/lalogf)
 * Tiempo estimado: _3 a 4 semanas_
 
 En este curso se construirá un sitio dinámico desde cero pasando por las
@@ -155,7 +155,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 ### [04. Crea tu propia red social](04-social-network)
 
 * Track: _Common Core_
-* Autor: _Iván Medina & Lalo Gonzalez_
+* Autor: [Iván Medina](https://github.com/ivandevp) & [Lalo Gonzalez](https://github.com/lalogf)
 * Tiempo estimado: _3 a 4 semanas_
 
 En este curso crearás una **red social**. Para ello deberás aprender a
@@ -172,7 +172,7 @@ Secondary tags: `big-o`, `time-complexity`,
 ### [05. Crea tu propia librería usando JavaScript: JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 
 * Track: _Front-End Development_
-* Autor: _Belén Recabal & Iván Medina_
+* Autor: [Belén Recabal](https://github.com/brecabal) & [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso construirás tu propia librería usando JavaScript, lo cual nos
@@ -195,7 +195,7 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 ### [06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota](06-spa)
 
 * Track: _Front-End Development_
-* Autor: _Iván Medina_
+* Autor: [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso se verán temas de `network` para entender qué es lo que sucede
@@ -217,7 +217,7 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 ### 07. Lo que todo Front-End debe saber del Back-End
 
 * Track: _Front-End Development_
-* Autor: _Iván Medina_
+* Autor: [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso vas a salir de JavaScript, y vas a entender como integrar tu
@@ -243,7 +243,7 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 ### [08. Paradigmas de la programación y Functional JavaScript](09-paradigms)
 
 * Track: _Front-End Development_
-* Autor: _L. Montero_
+* Autor: [Lupo Montero](https://github.com/lupomontero) & [Milton Mazzarri](https://github.com/milmazz)
 * Tiempo estimado: _3 semanas_
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
@@ -282,7 +282,7 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 ### [09. Introducción a React](11-react)
 
 * Track: _Front-End Development_
-* Autor: _M. Crowe_
+* Autor: [Mariano Crowe](https://github.com/merunga)
 * Tiempo estimado: _1 a 2 semanas_
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
