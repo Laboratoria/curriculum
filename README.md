@@ -368,7 +368,7 @@ Los cursos que se dictan únicamente en Educación Continua son:
 
 ### [12. Manejo de estado avanzado con React y Redux](12-redux)
 
-Autor: [Lupo Montero](https://github.com/lupomontero)
+Autores: [Rod Fuenzalida](https://github.com/rodrwan) & [Lupo Montero](https://github.com/lupomontero)
 
 [:construction: Este curso está en desarrollo :construction:]
 
@@ -430,14 +430,32 @@ Tags: `angular`, `typescript`, `firebase`
 
 ### 14. Crea un chatbot en la nube y despliégalo en Azure
 
-Autor: TBD (_help needed_)
+Autor: [Jorge Castañeda](https://github.com/jcastanedacano)
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
 Azure.
 
 Tags: `bot`, `azure`
 
-### 15. Construye una aplicación serverless usando Firebase
+### 15. Despliega aplicaciones Node.js como contenedores en AWS
+
+Autor: TBD (_help needed_)
+
+En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
+empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
+
+Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
+Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
+las principales herramientas con las que contamos en nuestro arsenal. Node nos
+permite llevar nuestro conocimiento de JavaScript más allá del navegador.
+
+En este curso construirás un servidor web que sirva contenido estático además de
+algunos endpoints dinámicos que sirvan data en formato JSON.
+
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`aws`, `nodejs`, `mongodb`, `docker`, `containers`
+
+### 16. Construye una aplicación serverless usando Firebase
 
 Autor: TBD (_help needed_)
 
@@ -458,24 +476,6 @@ aplicación tendrá las siguientes características:
 Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
 `auth`
 
-### 16. Despliega aplicaciones Node.js como contenedores en AWS
-
-Autor: TBD (_help needed_)
-
-En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
-empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
-
-Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
-Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
-las principales herramientas con las que contamos en nuestro arsenal. Node nos
-permite llevar nuestro conocimiento de JavaScript más allá del navegador.
-
-En este curso construirás un servidor web que sirva contenido estático además de
-algunos endpoints dinámicos que sirvan data en formato JSON.
-
-Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
-`aws`, `nodejs`, `mongodb`, `docker`, `containers`
-
 ### [17. Modelando y persistiendo data con NoSQL](17-nosql)
 
 Autor: TBD (_help needed_)
@@ -492,13 +492,21 @@ sincronizar.
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
 
-### [18. The web stack](18-web-stack)
+### 18. SQL Databases
+
+[:bulb: Idea para curso :bulb:]
+
+Autor: TBD (_help needed_)
+
+Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
+
+### [19. The web stack](19-web-stack)
 
 Autor: TBD (_help needed_)
 
 TBD
 
-### [19. Command Line Foo](19-cli)
+### [20. Command Line Foo](20-cli)
 
 Autor: TBD (_help needed_)
 
@@ -515,15 +523,7 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 19. SQL Databases
-
-[:bulb: Idea para curso :bulb:]
-
-Autor: TBD (_help needed_)
-
-Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
-
-### 20. ME*N Stack
+### 21. ME*N Stack
 
 [:bulb: Idea para curso :bulb:]
 
@@ -531,7 +531,7 @@ Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 21. Análisis y visualización de datos
+### 22. Análisis y visualización de datos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -539,7 +539,7 @@ Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 22. Algoritmos
+### 23. Algoritmos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -547,7 +547,7 @@ Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 23. Estructuras de datos
+### 24. Estructuras de datos
 
 [:bulb: Idea para curso :bulb:]
 
