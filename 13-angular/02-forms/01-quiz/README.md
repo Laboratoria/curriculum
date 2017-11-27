@@ -44,4 +44,4 @@
 3. myControl.pristine
 4. myControl.value
 
-<solution style="display:none;">1,4</solution>
+<solution style="display:none;">4</solution>

@@ -10,7 +10,7 @@
 
 ***
 
-Crear un servicio que envíe cada contribución al backend como texto corto y
-recibe el texto completo cuando el juego ha terminado.
-Cuando el juego termina, se debe mostrar el texto completo en el componente
-creado anteriormente.
+* Crear un servicio que envíe cada contribución al backend como texto corto y
+  recibe el texto completo cuando el juego ha terminado.
+* Cuando el juego termina, se debe mostrar el texto completo en el componente
+  creado anteriormente.

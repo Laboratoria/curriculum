@@ -1,11 +1,11 @@
-# Semana 04: Enrutamiento y navegación
+# Prework
 
-```html
-<table>
-  <tr>
-    <th rowspan="1">Lecturas Obligatorias</td>
-    <td>Enrutamiento y Navegación</td>
-    <td>https://angular.io/guide/router</td>
-  </tr>
-</table>
-```
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `90min`
+
+***
+
+## Lecturas obligatorias
+
+* [Enrutamiento y Navegación](https://angular.io/guide/router)
