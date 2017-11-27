@@ -2,13 +2,13 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `20min`
 
 ***
 
 ## Objetivos de Aprendizaje
 
-- Conocer y entender que es Materialize.
+- Conocer y manipular otros frameworks.
 
 ## Materialize y otros frameworks
 

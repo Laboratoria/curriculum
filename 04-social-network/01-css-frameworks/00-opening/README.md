@@ -37,3 +37,7 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es un Framework?
 
 - ¿Cuál es la diferencia entre Bootstrap y Materialize?
+
+- ¿Qué framework es el ideal?
+
+- ¿Qué ventajas tiene el usarlos en nuestros proyectos?
