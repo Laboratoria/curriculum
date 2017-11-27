@@ -1,10 +1,8 @@
-# Quiz #2
+# Quiz 2
 
 - Tipo: `quiz`
 - Formato: `self-paced`
 - Duración: `15min`
-
-***
 
 ## Objetivos
 
