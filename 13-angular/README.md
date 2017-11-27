@@ -90,10 +90,23 @@ El backend estará hospedado en [Firebase](https://firebase.google.com/).
 
 ## Syllabus
 
-### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
+### Unidad 01: [Plantillas y data binding](01-basics)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta primera unidad arrancamos con todo lo básico para comenzar con Angular.
+
+### Unidad 02: [Formularios](02-forms)
+
+Durante la segunda unidad nos concentraremos en "formularios", interacción con
+el usuario y validación de inputs.
+
+### Unidad 03: [HTTP y Firebase](03-http-firebase)
+
+Llegado a este punto es hora de conectar nuestra aplicación con un backend
+_serverless_ (Firebase en este caso).
+
+### Unidad 04: [Enrutamiento y navegación](04-routes)
+
+Finalmente veremos cómo añadir rutas y navegación en tu aplicación.
 
 ## Evaluación
 
@@ -105,4 +118,4 @@ Para aprobar:
 
 ## Contribuidores
 
-* ALdo Román (autor)
+* Aldo Román (autor)
