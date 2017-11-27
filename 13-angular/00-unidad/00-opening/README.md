@@ -1,7 +1,7 @@
 # Presentacion del curso
 
-* Tipo: `lectura`
-* Formato: `self-paced`
+* Tipo: `seminario`
+* Formato: `guiado`
 * Duración: `10min`
 
 ***
@@ -16,8 +16,8 @@ El curso se basa en una selección de los capítulos esenciales de la
 de plantillas, formularios, enrutamiento, consumo de servicios de red,
 pruebas, entre otros.
 
-Angular es una plataforma que facilita la construcción de aplicaciones
-web. Combina el uso de plantillas declarativas, inyección de dependencias,
+Angular es una plataforma que facilita la construcción de aplicaciones web.
+Combina el uso de plantillas declarativas, inyección de dependencias,
 herramientas end-to-end, entre otros. Es una tecnología elaborada y
 respaldada por Google, y en [amplia demanda laboral](https://www.linkedin.com/jobs/search/?keywords=angular).
 
@@ -32,4 +32,6 @@ y, en algunos casos, la codificación de ejercicios.
 
 Tags: `angular`, `typescript`, `web`
 
-* Link video de Introducción
+### Bienvenidxs a Angular
+
+[![Angular - intro](https://embed-ssl.wistia.com/deliveries/78eb6a4960fcb141fe00f08887d72aff899e8c35/file.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/xdiag2vows?wvideo=xdiag2vows)

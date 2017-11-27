@@ -22,7 +22,9 @@
 
 ### Videos
 
-* Contenido de videos.
+[![Angular - CLI](https://embed-ssl.wistia.com/deliveries/75a6ef33cf1682487a10e9a471214083b2f21119/file.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/xdiag2vows?wvideo=xdiag2vows)
+
+[![Angular - intro componentes](https://embed-ssl.wistia.com/deliveries/dcaed294db2ebf5d12aac24bae729319a8c653cd/file.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/exgyjhb1ky?wvideo=exgyjhb1ky)
 
 ### Antes de clase
 
