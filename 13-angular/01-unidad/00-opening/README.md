@@ -1,7 +1,7 @@
 # Presentacion del curso
 
-* Tipo: `seminario`
-* Formato: `guiado`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `10min`
 
 ***

@@ -1,4 +1,4 @@
-# 26. Angular Fundamentals
+# Angular Fundamentals
 
 Este curso presenta los fundamentos para comprender y utilizar
 [Angular](https://angular.io) como plataforma de desarrollo web.
@@ -26,7 +26,7 @@ Tags: `angular`, `typescript`, `web`
 
 ## Público objetivo
 
-Desarrolladoras y desarrolladores web con conocimientos de Javascript
+Desarrolladoras y desarrolladores web con conocimientos de JavaScript
 básicos o intermedios que deseen conocer un framework de aplicación inmediata
 y con capacidades end-to-end.
 
@@ -50,28 +50,23 @@ y con capacidades end-to-end.
 
 ## Metodología
 
-Deberás cubrir todas las Lecturas obligatorias **antes de la clase**.
-En algunos casos, esto incluirá publicar código fuente.
+Deberás cubrir todas las Lecturas obligatorias **antes de la clase**. En algunos
+casos, esto incluirá publicar código fuente.
 
-Durante las sesiones presenciales expandiremos el contenido de las
-Lecturas obligatorias, absolveremos dudas y haremos ejemplos juntos.
+Durante las sesiones presenciales expandiremos el contenido de las lecturas
+obligatorias, absolveremos dudas y haremos ejemplos juntos.
 
-Las lecturas, código fuente, mensajes de git, discusiones, entre otros
-deberán ser escritas en inglés. :blush:
+Las lecturas, código fuente, mensajes de git, discusiones, entre otros deberán
+ser escritas en inglés. :blush:
 
-Cada sesión tendrá un ejercicio, que debe ser completado antes del final del curso.
+Cada sesión tendrá un ejercicio, que debe ser completado antes del final del
+curso.
 
 **Para cada ejercicio**:
 
 * [x] Codificar
 * [x] Publicar el código fuente
 * [x] Desplegar la aplicación en Firebase Hosting
-
-## Detalles logísticos
-
-* Self-paced: 7 horas
-* Presencial: 12 horas
-* Total: 19 horas
 
 ## Producto
 
@@ -92,6 +87,13 @@ que todos los jugadores han participado, se unen los textos uno tras otro y se
 lee el resultado completo.
 
 El backend estará hospedado en [Firebase](https://firebase.google.com/).
+
+## Syllabus
+
+### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
+
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
 ## Evaluación
 
