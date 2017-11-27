@@ -38,7 +38,7 @@
 
 #### Opciones
 
-1. [variable]`
+1. [variable]
 2. {{variable}}
 3. ${variable}
 4. @variable
