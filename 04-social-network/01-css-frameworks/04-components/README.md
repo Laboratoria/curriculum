@@ -29,14 +29,17 @@ proyecto.
 ![Bootstrap](links-bootstrap.png)
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
-necesitemos, para este caso como ejemplo usaremos un **modal**. Antes ya lo
-hemos creado con css y javascript, esta vez haremos que la magia salga con
-ayuda de nuestro mejor amigo (Sí, el framework que ya decidiste probar...).
+necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
+es necesario mencionar que los modales podemos crearlos usando css y
+javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
+amigo (Sí, el framework que ya decidiste probar...).
 
 Como ya vimos(y practicamos) solo necesitamos ir a la página de nuestro
 framework, escoger el modal que más nos hace feliz y copiar el código
 necesario, para la funcionalidad copiaremos en nuestro archivo app.js las
 líneas que se nos dan ahí mismo.
+
+En nuestro archivo html:
 
 ```html
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
@@ -69,7 +72,7 @@ líneas que se nos dan ahí mismo.
 </div>
 ```
 
-Y en nuestro archivo app.js
+Y en nuestro archivo app.js:
 
 ```js
 $('#myModal').modal('show');
