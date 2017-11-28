@@ -34,7 +34,6 @@ Algunas de las herramientas que podemos encontrar en los frameworks de CSS son:
 
 - Crear layouts de manera sencilla asegurándonos que funcionará y visualizará correctamente en cualquier versión de cualquier navegador existente.
 
-
 ![componentes de frameworks](https://lh3.googleusercontent.com/-VklSSe3lPpE/WXeOFf__wqI/AAAAAAAAGbI/RnPVJQHJbDoc-NHkJYSGzE-jBtYXMjL2QCLcBGAs/s620/bootstrap-02.png)
 
 > Usar un framework es solo una buena idea si hace lo que quieres que tu sitio haga.

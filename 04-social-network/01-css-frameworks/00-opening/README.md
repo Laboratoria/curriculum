@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-En esta unidad aprenderemos:
+En esta lección aprenderemos:
 
 - Que son los frameworks y para qué los usamos.
 
