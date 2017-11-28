@@ -42,7 +42,7 @@ características:
 
 ## Syllabus
 
-### Unidad 01: La web desde un móvil
+### Unidad 01: [La web desde un móvil](00-rwd)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -58,14 +58,14 @@ características:
 | 09 | cuestionario | 5min | Auto-evaluación
 | 10 | seminario | 2h | Closing
 
-### Unidad 02: No reinventes la rueda
+### Unidad 02: [No reinventes la rueda](01-css-frameworks)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | lectura | 30min | Opening
 | 01 | lectura | 15min | ¿Qué es un Framework?
-| 02 | lectura | 15min | Materialize
-| 03 | lectura | 30min | ¿Y Bootstrap?
+| 02 | lectura | 15min | Bootstrap
+| 03 | lectura | 30min | ¿Y Materialize?
 | 04 | lectura | 30min | ¿Componentes con jQuery?
 | 05 | quiz | 30min | Quiz #1
 | 06 | taller | 2h | Clase Práctica
@@ -75,7 +75,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-### Unidad 03: Agiliza tu desarrollo
+### Unidad 03: [Agiliza tu desarrollo](02-jquery)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -92,7 +92,7 @@ características:
 | 10 | cuestionario | 5min | Auto-evaluación
 | 11 | seminario | 2h | Closing
 
-### Unidad 04: Mejora la usabilidad
+### Unidad 04: [Mejora la usabilidad](03-usability)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -110,7 +110,7 @@ características:
 | 11 | cuestionario | 5min | Auto-evaluación
 | 12 | seminario | 2h | Closing
 
-### Bonus: Agrega Back-end a tus aplicaciones
+### Bonus: [Agrega Back-end a tus aplicaciones](04-firebase-101)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -119,7 +119,7 @@ características:
 | 02 | lectura | 25min | Base de Datos
 | 03 | práctica | 1h | Retos guiados
 
-### Unidad 05: Crea tu propia red social
+### Unidad 05: [Crea tu propia red social](05-social-network)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -129,8 +129,9 @@ características:
 | 03 | taller | 30min | Demo
 | 04 | taller | 2h | Retrospectiva
 
-## Autor(es) / Colaboradores
+## Autores / Colaboradores
 
+* Allison Guzmán
 * Steph Salazar
 * Lalo Gonzalez
 * Ivan Medina
