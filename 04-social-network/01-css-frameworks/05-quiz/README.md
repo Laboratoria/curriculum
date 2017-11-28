@@ -84,7 +84,6 @@
 
 ### 7) Formas de agregar un Framework al área de tu trabajo
 
-
 #### Opciones
 
 1. vía remota agregando el `cdn`
@@ -96,17 +95,16 @@
 
 ### 8) Según el estandar, ¿cuál es el número de columnas que componen la distribución de una página?
 
-
 #### Opciones
 
 1. 11
-2. 10
-3. 12
+2. 12
+3. 10
 4. Según el diseño
 
+<solution style="display:none;">2</solution>
 
-### 8) Framework desarrollado por los de Google
-
+### 9) Framework desarrollado por los de Google
 
 #### Opciones
 
@@ -116,8 +114,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 8) Framework desarrollado inicialmente para Twitter
-
+### 10) Framework desarrollado inicialmente para Twitter
 
 #### Opciones
 

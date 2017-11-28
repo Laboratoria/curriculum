@@ -67,9 +67,7 @@
 
 <solution style="display:none;">4</solution>
 
-
 ### 6) Formas de agregar un Framework al área de tu trabajo
-
 
 #### Opciones
 
@@ -82,7 +80,6 @@
 
 ### 7) Según el estandar CSS, ¿cuál es el número de columnas que componen la distribución de una página?
 
-
 #### Opciones
 
 1. 11
@@ -90,9 +87,9 @@
 3. 12
 4. Según el diseño
 
+<solution style="display:none;">3</solution>
 
 ### 8) Framework CSS desarrollado por Google
-
 
 #### Opciones
 
@@ -115,7 +112,6 @@
 
 ### 10) Según Bootstrap, cuales son las clases para el sistema de grid
 
-
 #### Opciones
 
 1. container, row, col-xs-12, col-sm-12, col-md-12, col-lg-12
@@ -124,8 +120,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 11) Contenedor que respeta todo el ancho de la pantalla de nuestro dispositivo
-
+### 11) Contenedor que usa todo el ancho de la pantalla de nuestro dispositivo
 
 #### Opciones
 
@@ -135,9 +130,7 @@
 
 <solution style="display:none;">3</solution>
 
-
 ### 12) Dispositivos que se toman en cuenta en un framework
-
 
 #### Opciones
 
@@ -146,6 +139,5 @@
 3. Ipad
 4. Desktop
 5. Projector
-
 
 <solution style="display:none;">1,2,4</solution>
