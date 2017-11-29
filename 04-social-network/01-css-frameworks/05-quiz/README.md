@@ -53,7 +53,7 @@
 
 #### Opciones
 
-1. Mejora la compatibilidad del sitio en los dintintos navegadores por el `reset`
+1. Mejora la compatibilidad del sitio en los distintos navegadores por el `reset`
 2. Nos da mucho código complementario en cada acción
 3. Los estilos los controlas 100% desde el `html`
 
