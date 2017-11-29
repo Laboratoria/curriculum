@@ -16,7 +16,7 @@
 
 ### 1. Repaso de conceptos generales
 
-Asegurar que entendemos bien las siguientes cuestiones:
+Asegurar que entendemos bien los siguientes temas:
 
 - Frameworks css
 - Cómo lo incluyó en mi desarrollo
