@@ -24,14 +24,13 @@
 
 <solution style="display:none;">2</solution>
 
-### 2) Los formularios reactivos solo permiten 1 validador por campo :
+### 2) Los formularios reactivos solo permiten 1 validador por campo
 
 #### Opciones
 
 1. Si
 2. No
 3. Tal vez
-
 
 <solution style="display:none;">4</solution>
 
