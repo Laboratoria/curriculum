@@ -1,13 +1,16 @@
-# Por completar
+# Creación de producto
 
-```html
-<tr>
-  <th rowspan="1">Avance de producto</td>
-   <td colspan="2">
-    Crear el componente que muestra un texto final. El texto debe ser mostrado
-    en lírica; es decir, como un poema, donde la contribución de cada jugador
-    representa un verso.<br/>
-    El componente debe mostrar los datos desde un arreglo de cadenas de texto.
-  </td>
-</tr>
-```
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `45min`
+
+## Objetivos de la lección
+
+* Avance de producto
+
+***
+
+Crear el componente que muestra un texto final. El texto debe ser mostrado en
+lírica; es decir, como un poema, donde la contribución de cada jugador representa
+un verso.
+El componente debe mostrar los datos desde un arreglo de cadenas de texto.
