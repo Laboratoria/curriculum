@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `10min`
 
 ## Objetivos
 
