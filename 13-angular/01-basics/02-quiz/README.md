@@ -23,7 +23,7 @@
 3. Styles
 4. Ninguna
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">4</solution>
 
 ### 2) ¿Cuáles son las principales funciones de Angular CLI?
 
