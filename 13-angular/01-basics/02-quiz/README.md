@@ -14,25 +14,29 @@
 
 ## Preguntas
 
-### 1) ¿Qué es un componente?
+### 1) ¿Cuál de las siguientes no es parte de un componente?
 
 #### Opciones
 
-1. Verdadero
-2. Falso
+1. Template
+2. Class
+3. Styles
+4. Ninguna
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">3</solution>
 
 ### 2) ¿Cuáles son las principales funciones de Angular CLI?
 
 #### Opciones
 
-1. Para ya no usar strings
-2. Para iniciar tu programa
-3. Para ya no usar variables
-4. Para agrupar y manipular data
+1. Crear un proyecto
+2. Crear componentes, módulos, entre otros
+3. Generar los recursos para producción
+4. Actualizar las dependencias del proyecto
+5. Invocar la ejecución de pruebas
+6. Subir el código a un repositorio Git
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">1,2,3,5</solution>
 
 ### 3) ¿Cómo podemos acceder a los valores de un Object? Puedes seleccionar una o más opciones
 
@@ -43,15 +47,15 @@
 3. ${variable}
 4. @variable
 
-<solution style="display:none;">1,4</solution>
+<solution style="display:none;">2</solution>
 
 ### 4) ¿Qué es el eje principal el Flexbox?
 
 #### Opciones
 
-1. Los _Keys_ de los Objects son equivalente a sus propiedades
-2. Podemos calcular su longitud con la propiedad `length`
-3. No es necesario colocar los _Keys_ entre comillas
-4. Podemos incluir una función como propiedad
+1. El eje horizontal
+2. El orden en que se declaran los elementos
+3. La dirección en que se ubican los elementos
+4. El nombre del primer elemento
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">3</solution>
