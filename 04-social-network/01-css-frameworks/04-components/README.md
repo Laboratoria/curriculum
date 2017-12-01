@@ -26,7 +26,7 @@ Para esto también necesitamos *linkear* en nuestro proyecto el cdn de jQuery
 o la ruta de donde se encuentra, si es que descargamos jQuery en nuestro
 proyecto.
 
-![Bootstrap](links-bootstrap.png)
+![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
 necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
