@@ -28,7 +28,7 @@ Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
 Recrea la siguiente imagen haciendo uso de los elementos o componentes del
 framework Bootstrap
 
-![template](template-bootstrap.png)
+![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png)
 
 
 ### 2. Love Love Panda

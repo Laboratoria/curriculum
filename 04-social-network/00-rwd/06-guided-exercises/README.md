@@ -45,6 +45,6 @@ Puedes obtener las fotografías en el siguiente enlace: [Archivos](https://drive
 
 ---
 
-Puedes ver el siguiente video para saber como crear y utilizar un grid system:
+Puedes ver el siguiente video para saber cómo crear y utilizar un grid system:
 
 [Video](https://youtu.be/uUGHF0dM6GA "Video")
