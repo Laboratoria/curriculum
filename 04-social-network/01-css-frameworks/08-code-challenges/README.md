@@ -20,22 +20,22 @@ tu máquina.
 
 ### 1. La versión web
 
-![Lab-car-web](images/desktop.png)
+![Lab-car-web](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/desktop.png)
 
 ### 2. La versión movil
 Y obviamente no podemos dejar de lado la versión móvil, así que créala como segunda parte
 
-![Lab-car-movil](images/movil.png)
+![Lab-car-movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/movil.png)
 
 ### 3. Modales
 
 Como **extra** puedes añadir los modales necesarios en la versión web
 
 - Modal de Inicia Sesión
-![modal-sesion](images/modal-inicio-sesion.png)
+![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
 
 - Modal de Regístrate
-![modal-sesion](images/modal-registrate.png)
+![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
 
 - Y modal de Convierte en conductor
-![modal-conductor](images/modal-conductor.png)
+![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)
