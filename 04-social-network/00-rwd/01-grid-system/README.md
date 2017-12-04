@@ -13,7 +13,7 @@
 
 ## ¿Qué es Grid System?
 
-Una de las formas más sencillas de lograr un diseño organizado es aplicar un Grid System (sistema de cuadriculas). Es una técnica que se originó en el diseño gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a proporcionar una experiencia uniforme en múltiples dispositivos con diferentes tamaños de pantalla.
+Una de las formas más sencillas de lograr un diseño organizado es aplicar un Grid System (sistema de cuadrículas). Es una técnica que se originó en el diseño gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a proporcionar una experiencia uniforme en múltiples dispositivos con diferentes tamaños de pantalla.
 
 El grid system ayuda a alinear elementos de página basados ​​en columnas y filas secuenciadas. Utilizamos esta estructura basada en columnas para colocar texto, imágenes y funciones de manera consistente a lo largo del diseño. Cada elemento tiene su lugar que podemos ver al instante y reproducir en otro lugar. Imagina que las grid son como las cuadrículas que encontramos en los mapas. Las islas, pueblos y lagos aparecerán en una parte exacta de un mapa, en un conjunto de coordenadas Norte-Sur/Este-Oeste. Siempre aparecerán en el mismo lugar en otros mapas.
 
