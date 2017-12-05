@@ -73,12 +73,12 @@
 
 1. Adjuntando una hoja de estilos
 2. Comprando una licencia de Bootstrap
-3. vía remota agregando el `cdn` a nuestro `html`
+3. Vía remota agregando el `cdn` a nuestro `html`
 4. Descargando el Framework y enlazándolo
 
 <solution style="display:none;">3,4</solution>
 
-### 7) Según el estandar CSS, ¿cuál es el número de columnas que componen la distribución de una página?
+### 7) Según el estándar CSS, ¿cuál es el número de columnas que componen la distribución de una página?
 
 #### Opciones
 
@@ -109,7 +109,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) Según Bootstrap, cuales son las clases para el sistema de grid
+### 10) Según Bootstrap, ¿cuáles son las clases para el sistema de grid?
 
 #### Opciones
 
