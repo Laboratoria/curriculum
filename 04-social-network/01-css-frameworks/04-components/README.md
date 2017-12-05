@@ -13,7 +13,7 @@
 ## ¿Componentes con jQuery?
 
 En las lecturas anteriores ya vimos las maravillosas ventajas que nos ofrecen
-los frameworks de css... pero aun hay más, los frameworks no solo nos
+los frameworks de CSS... pero aun hay más, los frameworks no solo nos
 permiten maquetar y dar estilos más rápido, también tienen algunos
 componentes que ya cuentan con la funcionalidad. Esto se logra a través de
 **jQuery**.
@@ -22,7 +22,7 @@ jQuery es una biblioteca de javascript (que por el momento no nos vamos a
 enfocar en entender al 100%), que a través de nuestro framework nos da la
 facilidad de agregar nuestra funcionalidad con solo un par de líneas.
 
-Para esto también necesitamos *linkear* en nuestro proyecto el cdn de jQuery
+Para esto también necesitamos *linkear* en nuestro proyecto el CDN de jQuery
 o la ruta de donde se encuentra, si es que descargamos jQuery en nuestro
 proyecto.
 
@@ -30,13 +30,13 @@ proyecto.
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
 necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
-es necesario mencionar que los modales podemos crearlos usando css y
+es necesario mencionar que los modales podemos crearlos usando CSS y
 javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
-amigo (Sí, el framework que ya decidiste probar...).
+amigo (sí, el framework que ya decidiste probar...).
 
-Como ya vimos(y practicamos) solo necesitamos ir a la página de nuestro
+Como ya vimos (y practicamos) solo necesitamos ir a la página de nuestro
 framework, escoger el modal que más nos hace feliz y copiar el código
-necesario, para la funcionalidad copiaremos en nuestro archivo app.js las
+necesario. Para la funcionalidad copiaremos en nuestro archivo app.js las
 líneas que se nos dan ahí mismo.
 
 En nuestro archivo html:
