@@ -36,10 +36,8 @@
 3. Setters
 4. Gutters
 5. Row
-6. Container
-7. Flutters
 
-<solution style="display:none;">1,4,5,6</solution>
+<solution style="display:none;">1,4,5</solution>
 
 ### 3) ¿Qué son los Media Queries?
 
@@ -156,12 +154,12 @@
 
 1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea
    verdadero
-2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and
-   (orientation: landscape)** sea verdadero
+2. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea
+   verdadero
 3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)**
    sea verdadero
-4. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea
-   verdadero
+4. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and
+   (orientation: landscape)** sea verdadero
 5. No sucede nada
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">4</solution>
