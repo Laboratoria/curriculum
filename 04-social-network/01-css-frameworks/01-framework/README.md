@@ -30,7 +30,7 @@ Algunas de las herramientas que podemos encontrar en los frameworks de CSS son:
 
 - “Resetear” los estilos por defecto que aplican los navegadores.
 
-- Manipular correctamente los textos, logrando así que todos los contenidos se vean exactamente igual en los distintos navegadores y que se adapten a estos.
+- Manipular correctamente los textos, logrando así que todos los contenidos se vean exactamente igual en los distintos navegadores y que se adapten a éstos.
 
 - Crear layouts de manera sencilla asegurándonos que funcionará y visualizará correctamente en cualquier versión de cualquier navegador existente.
 
