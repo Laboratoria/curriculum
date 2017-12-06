@@ -8,13 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-<<<<<<< HEAD
-- Conocer y entender lo que son los frameworks y cómo les sirven en su trabajo a la hora de crear un sitio web.
-
-
-=======
 - Conocer y entender qué es Bootstrap.
->>>>>>> upstream/04-social-network
 
 ## ¿Qué es Bootstrap?
 

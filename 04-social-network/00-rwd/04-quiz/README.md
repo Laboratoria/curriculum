@@ -95,15 +95,6 @@
 
 #### Opciones
 
-1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea verdadero
-2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and (orientation: landscape)** sea verdadero
-3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)** sea verdadero
-4. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea verdadero
-5. No sucede nada
-
-<solution style="display:none;">4</solution>
-=======
-
 1. Para definir el ancho y alto usado por el navegador
 2. Para definir el ancho y escala usado por el navegador
 3. Para definir el ancho, alto y escala usado por el navegador
