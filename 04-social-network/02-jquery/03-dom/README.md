@@ -37,7 +37,7 @@ del DOM fácilmente.
 Vamos a entenderlos uno a uno... con su ejemplo.
 
 | Método | Descripción | Ejemplo |
-| :------: | ----------- | ------- |
+| ------ | ----------- | ------- |
 | .append() | Inserta contenido **al final** del elemento de destino que se especifica con el selector. | $('selector').append(contenido);|
 | .prepend() | Inserta contenido **al principio** del elemento especificado. | $('selector').prepend('contenido'); |
 | .before() | Inserta contenido (elementos nuevos o existentes en el DOM) **antes** del elemento de destino que se especifica con el selector. | $('selector').before(); |
