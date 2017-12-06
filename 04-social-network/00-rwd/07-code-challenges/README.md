@@ -6,8 +6,7 @@
 
 ## Objetivos
 
-- A continuación te presentamos el reto que debes completar para poner tus
-  conocimientos a prueba.
+- A continuación te presentamos el reto que debes completar para poner tus conocimientos a prueba.
 
 ***
 

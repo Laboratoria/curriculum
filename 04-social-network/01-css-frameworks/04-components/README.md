@@ -13,7 +13,7 @@
 ## ¿Componentes con jQuery?
 
 En las lecturas anteriores ya vimos las maravillosas ventajas que nos ofrecen
-los frameworks de CSS... pero aun hay más, los frameworks no solo nos
+los frameworks de CSS, pero aun hay más, los frameworks no solo nos
 permiten maquetar y dar estilos más rápido, también tienen algunos
 componentes que ya cuentan con la funcionalidad. Esto se logra a través de
 **jQuery**.
@@ -32,7 +32,7 @@ Ya hecho lo anterior podemos proceder a hacer uso del componente que
 necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
 es necesario mencionar que los modales podemos crearlos usando CSS y
 javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
-amigo (sí, el framework que ya decidiste probar...).
+amigo (sí, el framework que ya decidiste probar).
 
 Como ya vimos (y practicamos) solo necesitamos ir a la página de nuestro
 framework, escoger el modal que más nos hace feliz y copiar el código
@@ -80,11 +80,14 @@ $('#myModal').modal('show');
 
 Listo!!! Ya podemos probar nuestro modal.
 
-### Y si decidí usar otro framework...
+### ¿Si decidí usar otro framework?
 
-Pues no hay que temer, solo es cuestión de revisar la documentación del
-framework que estemos usando, aunque realmente los pasos a seguir son
-tremendamente parecidos o hasta los mismos.
+Pues no hay que temer, solo revisa la documentación del
+framework seleccionado y práctica mucho, los pasos a seguir son
+tremendamente parecidos y en algunas ocasiones, los mismos.
 
-Solo es cosa de que no dejemos de practicar, preguntar o investigar y
-practicar más.
+
+Solo recuerda: 
+* Investigar
+* Intentarlo
+* ¡¡Preguntar!!
