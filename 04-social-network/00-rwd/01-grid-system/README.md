@@ -15,7 +15,8 @@
 
 Una de las formas más sencillas de lograr un diseño organizado es aplicar un 
 Grid System (sistema de cuadriculas). Es una técnica que se originó en el diseño
-gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a proporcionar una experiencia uniforme en múltiples dispositivos con diferentes 
+gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a
+proporcionar una experiencia uniforme en múltiples dispositivos con diferentes
 tamaños de pantalla. 
 
 El grid system ayuda a alinear elementos de página basados ​​en columnas y filas secuenciadas. Utilizamos esta estructura basada en columnas para colocar texto,

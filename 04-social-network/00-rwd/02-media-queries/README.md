@@ -56,7 +56,6 @@ correcto.
 Un elemento que es muy importante y que debemos añadir siempre a nuestro sitio
 si queremos que sea responsive es la etiqueta meta viewport.
 
-
 La etiqueta viewport nos permite definir el ancho, alto y escala del área usada
 por el navegador para mostrar contenido.
 
@@ -64,7 +63,6 @@ Al fijar el ancho o alto del viewport, podemos usar un número fijo de píxeles 
 usar dos constantes, device-width y device-height respectivamente. Se considera
 una buena práctica configurar el viewport con algunas de estas dos constantes,
 en lugar de utilizar un ancho o alto fijo.
-
 
 La configuración más común de viewport es la siguiente:
 

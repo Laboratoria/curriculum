@@ -27,7 +27,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Los componentes de un grid son:
+### 2) Los componentes de un grid son
 
 #### Opciones
 
@@ -54,7 +54,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 4) Las reglas @media son un tipo especial de regla CSS que permiten indicar:
+### 4) Las reglas @media son un tipo especial de regla CSS que permiten indicar
 
 #### Opciones
 
@@ -78,7 +78,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) Las Media Queries están conformadas por:
+### 6) Las Media Queries están conformadas por
 
 #### Opciones
 
@@ -163,4 +163,3 @@
 5. No sucede nada
 
 <solution style="display:none;">4</solution>
-
