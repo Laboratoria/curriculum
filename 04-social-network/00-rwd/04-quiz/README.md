@@ -36,8 +36,10 @@
 3. Setters
 4. Gutters
 5. Row
+6. Container
+7. Container-fluid
 
-<solution style="display:none;">1,4,5</solution>
+<solution style="display:none;">1,4,5,6</solution>
 
 ### 3) ¿Qué son los Media Queries?
 
@@ -129,14 +131,14 @@
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   más de 700px
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   más de 700px
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   menos de 700px
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
+   más 
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
+   menos
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
+   más 
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
+   menos
 
 <solution style="display:none;">4</solution>
 
@@ -162,4 +164,4 @@
    verdadero
 5. No sucede nada
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">2</solution>
