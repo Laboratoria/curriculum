@@ -17,10 +17,12 @@
 
 #### Opciones
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un modelo metodológico preestablecido
+1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un 
+modelo metodológico preestablecido
 2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
 3. Hoja de estilo externa a nuestro proyecto
-4. Herramienta de organización que podemos usar en nuestros proyectos como si fuera un modelo pedagógico preestablecido
+4. Herramienta de organización que podemos usar en nuestros proyectos como si 
+fuera un modelo pedagógico preestablecido
 
 <solution style="display:none;">1</solution>
 

@@ -24,14 +24,14 @@ ayudar al resto de tus compañeras :)
 Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
 
 ### 1. Love Love Panda Desu
-Crea una página web para amantes de los pandas. Puedes obtener las imágenes en el siguiente enlace: [Archivos](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing)
+Crea una página web para amantes de los pandas. Puedes obtener las imágenes en el 
+siguiente enlace: [Archivos](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing)
 
-Versión 1: Crea tu página utilizando un grid system de tu elección (que no pertenezca a un framework como Bootstrap o Materialize).
+Versión 1: Crea tu página utilizando un grid system de tu elección (que no 
+pertenezca a un framework como Bootstrap o Materialize).
 Versión 2: Crea tu propia versión móvil de la página
 
 ![Love Love Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)
-
-
 
 ### 2. Rock Site
 
@@ -43,7 +43,7 @@ Puedes obtener las fotografías en el siguiente enlace: [Archivos](https://drive
 ![Rock Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
 
 
----
+***
 
 Puedes ver el siguiente video para saber cómo crear y utilizar un grid system:
 
