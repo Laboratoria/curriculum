@@ -19,7 +19,8 @@ gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a
 proporcionar una experiencia uniforme en múltiples dispositivos con diferentes
 tamaños de pantalla. 
 
-El grid system ayuda a alinear elementos de página basados ​​en columnas y filas secuenciadas. Utilizamos esta estructura basada en columnas para colocar texto,
+El grid system ayuda a alinear elementos de página basados ​​en columnas y filas
+secuenciadas. Utilizamos esta estructura basada en columnas para colocar texto,
 imágenes y funciones de manera consistente a lo largo del diseño. Cada elemento 
 tiene su lugar que podemos ver al instante y reproducir en otro lugar. Imagina 
 que las grid son como las cuadrículas que encontramos en los mapas. Las islas, 

@@ -23,15 +23,16 @@ menús, formularios, preloaders entre otros. Además posee un sistema de grillas
 que facilita el desarrollo para distintos tamaños y dispositivos e integra la
 fuente Roboto propuesta por Google en su estilo de diseño.
 
-[Materialize](http://materializecss.com) también posee cuatro tipos diferentes de columnas: **s, m, l y xl**  
+[Materialize](http://materializecss.com) también posee cuatro tipos diferentes
+de columnas: **s, m, l y xl**  
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
 **Foundation** es un framework responsive que incluye componentes de
 tipografía, formularios, botones, barras de navegación y otros, así como
-extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com) está mantenida por zurb.com y
-es un proyecto de código abierto. Foundation también posee un framework para
-email responsive.
+extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com) 
+está mantenida por zurb.com y es un proyecto de código abierto. 
+Foundation también posee un framework para email responsive.
 
 ### Y entonces ¿cuál ocupamos? ¿cuál es mejor?
 
