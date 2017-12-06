@@ -23,8 +23,7 @@ menús, formularios, preloaders entre otros. Además posee un sistema de grillas
 que facilita el desarrollo para distintos tamaños y dispositivos e integra la
 fuente Roboto propuesta por Google en su estilo de diseño.
 
-A diferencia de Bootstrap, que posee cuatro diferentes tipos de columnas,
-[Materialize](http://materializecss.com) solo cuenta con tres.
+[Materialize](http://materializecss.com) también posee cuatro tipos diferentes de columnas: **s, m, l y xl**  
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
