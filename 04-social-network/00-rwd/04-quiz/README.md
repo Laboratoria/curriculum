@@ -37,7 +37,7 @@
 4. Gutters
 5. Row
 6. Container
-7. Container-fluid
+7. Flutters
 
 <solution style="display:none;">1,4,5,6</solution>
 
