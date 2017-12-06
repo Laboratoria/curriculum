@@ -80,17 +80,18 @@ características:
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
 | 00 | lectura | 30min | Opening
-| 01 | lectura | 15min | ¿Qué es jQuery?
-| 02 | lectura | 15min | Selectores
-| 03 | lectura | 30min | DOM
-| 04 | quiz | 30min | Quiz #1
-| 05 | seminario | 2h | Clase de Conceptos
-| 06 | taller | 2h | Clase Práctica
-| 07 | práctica | 8h | Retos
-| 08 | seminario | 2h | Solucionario
-| 09 | quiz | 30min | Quiz #2
-| 10 | cuestionario | 5min | Auto-evaluación
-| 11 | seminario | 2h | Closing
+| 01 | lectura | 45min | ¿Qué es jQuery?
+| 02 | lectura | 45min | Selectores
+| 03 | lectura | 60min | DOM
+| 04 | lectura | 60min | Eventos
+| 05 | quiz | 30min | Quiz #1
+| 06 | seminario | 2h | Clase de Conceptos
+| 07 | taller | 8h | Clase Práctica
+| 08 | práctica | 8h | Retos
+| 09 | seminario | 2h | Solucionario
+| 10 | quiz | 30min | Quiz #2
+| 11 | cuestionario | 5min | Auto-evaluación
+| 12 | seminario | 2h | Closing
 
 ### Unidad 04: [Mejora la usabilidad](03-usability)
 

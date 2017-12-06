@@ -32,20 +32,20 @@ distintos media types que pueden ocuparse.
 
 ![Media Types](https://cdn-images-1.medium.com/max/800/1*5hk74pisbfEcsujBYEa1Mw.png)
 
-Los **media feature** corresponden a la condición que debe cumplir el
+Los **media features** corresponden a la condición que debe cumplir el
 dispositivo y la cual debe ser verdadera para que se aplique el código contenido
 en nuestra media query.
 
 Los media features más comunes son los referidos a las dimensiones de pantalla
 del dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con
-height y width), o lo que es más interesante, a partir de que ancho o alto se
+height y width), o lo que es más interesante, a partir de qué ancho o alto se
 aplicarán (con min/max-width y min/max-height).
 
 ![Media Feature](https://github.com/Laboratoria/curricula-js/blob/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
 
 Los **operadores lógicos** son *and*, *not*,
 *only* y *lista separada por comas*(que funciona como el operador lógico or de
-Javascript) y se encargan de unir nuestros media types a los media feature.
+Javascript) y se encargan de unir nuestros media types a los media features.
 
 El operador *and* es usado para combinar múltiples media en un solo Media Query,
 requiriendo que cada función devuelve true para que el media query también lo

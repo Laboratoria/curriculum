@@ -44,13 +44,13 @@
 #### Opciones
 
 1. Una técnica que utiliza la regla @media para incluir nuevo HTML, que se
-   ejecutará en nuestro JS.
+   ejecutará en nuestro JS
 2. Una técnica que utiliza la regla @media para incluir bloques CSS que se
    ejecutarán si las condiciones dadas son verdaderas
 3. Una técnica que utiliza la regla @media para incluir bloques CSS que se
    ejecutarán si las condiciones dadas son falsas
 4. Una técnica que utiliza la regla @media para incluir bloques JS que se
-   ejecutarán si las condiciones dadas son verdaderas.
+   ejecutarán si las condiciones dadas son verdaderas
 
 <solution style="display:none;">2</solution>
 
@@ -61,7 +61,7 @@
 1. Que se pueden combinar múltiples queries
 2. Las características que, de ser verdaderas, aplicarán los estilos incluidos
    en la regla
-3. El medio en que se aplican los estilos, incluyo el nombre del medio después
+3. El medio en que se aplican los estilos, incluido el nombre del medio después
    de @media
 4. Ninguna de las anteriores
 

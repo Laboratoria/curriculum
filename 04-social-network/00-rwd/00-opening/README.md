@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-En ésta unidad aprenderemos:
+En esta unidad aprenderemos:
 
 - A crear una página web utilizando el enfoque de diseño `Responsive Web Design`
 - A utilizar grid system, medias queries y distintos frameworks para
@@ -16,7 +16,7 @@ En ésta unidad aprenderemos:
 
 ## ¿Por qué aprender Responsive Web Design?
 
-En la actualidad existen una amplia variedad de dispositivos (smartphone,
+En la actualidad existe una amplia variedad de dispositivos (smartphone,
 tablet, ordenador desktop, laptop...) con sus diferentes formatos de pantalla,
 situación que nos obliga a adaptar nuestros productos digitales a la estructura
 de cada uno de ellos.
@@ -27,11 +27,11 @@ El reto que tienes en este curso es aprender a crear productos web
 ## Guía de preguntas y conceptos clave
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+conceptos más importantes que vamos a aprender y de los temas centrales
+a los que debemos prestar particular atención.
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza éstas preguntas como guía para
+responder al terminar esta unidad. Utiliza estas preguntas como guía para
 orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
