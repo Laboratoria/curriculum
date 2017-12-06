@@ -4,12 +4,6 @@
 - Formato: `self-paced`
 - Duración: `10min`
 
-## Objetivos
-
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
-
 ***
 
 ## Preguntas
@@ -22,7 +16,7 @@
 2. No
 3. Tal vez
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">1</solution>
 
 ### 2) Los formularios reactivos solo permiten 1 validador por campo
 
@@ -32,7 +26,7 @@
 2. No
 3. Tal vez
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">2</solution>
 
 ### 3) ¿Cuál es la propiedad que indica si el usuario ha cambiando el valor de un campo?
 
@@ -43,4 +37,4 @@
 3. myControl.pristine
 4. myControl.value
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">3</solution>
