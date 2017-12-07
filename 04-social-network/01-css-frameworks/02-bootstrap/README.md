@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-- Conocer y entender que es Bootstrap.
+- Conocer y entender qué es Bootstrap.
 
 ## ¿Qué es Bootstrap?
 

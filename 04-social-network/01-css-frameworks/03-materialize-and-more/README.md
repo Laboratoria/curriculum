@@ -19,23 +19,23 @@ son bastante populares y fuertes competidores de Bootstrap:
 
 **Materialize** es un framework de CSS basado en Material Design. Cuenta con
 una serie de herramientas y componentes predefinidos como modales, botones,
-menú, formularios, preloaders entre otros. Además posee un sistema de grillas
+menús, formularios, preloaders entre otros. Además posee un sistema de grillas
 que facilita el desarrollo para distintos tamaños y dispositivos e integra la
 fuente Roboto propuesta por Google en su estilo de diseño.
 
-A diferencia de Bootstrap, que posee cuatro diferentes tipos de columnas,
-[Materialize](http://materializecss.com) solo cuenta con tres.
+[Materialize](http://materializecss.com) también posee cuatro tipos diferentes
+de columnas: **s, m, l y xl**  
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
 **Foundation** es un framework responsive que incluye componentes de
 tipografía, formularios, botones, barras de navegación y otros, así como
-extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com) está mantenida por zurb.com y
-es un proyecto de código abierto. Fundation también posee un framework para
-email responsive.
+extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com)
+está mantenida por zurb.com y es un proyecto de código abierto.
+Foundation también posee un framework para email responsive.
 
 ### Y entonces ¿cuál ocupamos? ¿cuál es mejor?
 
-Aquí es a consideración de cada una y la única manera de saber cual nos
+Aquí es a consideración de cada una y la única manera de saber cuál nos
 funciona o gusta más es haciendo uso de ellos. Probar y variar, a prueba y
 error!

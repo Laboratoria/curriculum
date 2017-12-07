@@ -20,14 +20,16 @@
 
 #### Opciones
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un modelo metodológico preestablecido.
+1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un 
+modelo metodológico preestablecido
 2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
 3. Hoja de estilo externa a nuestro proyecto
-4. Herramienta de organización que podemos usar en nuestros proyectos como si fuera un modelo pedagógico preestablecido.
+4. Herramienta de organización que podemos usar en nuestros proyectos como si 
+fuera un modelo pedagógico preestablecido
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Porqué usamos Frameworks?
+### 2) ¿Por qué usamos Frameworks?
 
 #### Opciones
 
@@ -59,7 +61,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 5) ¿Cómo se adjunta el cdn?
+### 5) ¿Cómo se adjunta el CDN?
 
 #### Opciones
 
@@ -94,7 +96,8 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 8) Según el estandar, ¿cuál es el número de columnas que componen la distribución de una página?
+### 8) Según el estandar, ¿cuál es el número de columnas que componen la 
+distribución de una página?
 
 #### Opciones
 
@@ -105,12 +108,12 @@
 
 <solution style="display:none;">2</solution>
 
-### 9) Framework desarrollado por los de Google
+### 9) Framework desarrollado por Google
 
 #### Opciones
 
 1. Materialize
-2. Foundations
+2. Foundation
 3. Bootstrap
 
 <solution style="display:none;">1</solution>
@@ -120,7 +123,7 @@
 #### Opciones
 
 1. Materialize
-2. Foundations
+2. Foundation
 3. Bootstrap
 
 <solution style="display:none;">3</solution>
