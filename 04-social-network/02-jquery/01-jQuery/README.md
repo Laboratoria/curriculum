@@ -45,7 +45,7 @@ Para incluirlo en nuestro proyecto contamos con dos opciones:
   ```
 
 Debemos recordar enlazar nuestro jQuery antes que nuestros otros scripts,
-ya que muchos frameworks e incluso nuestro propio código dependerán de 
+ya que muchos frameworks e incluso nuestro propio código dependerán de
 esta librería.
 
 ### Ok, ya queremos usarlo
@@ -63,8 +63,8 @@ La sintaxis básica de jQuery es:
 
 - El signo $ nos indica que estamos trabajando con jQuery
 - El (“selector”) es el elemento HTML a encontrar y/o consultar
-- El evento() es la que acción que se realizará con el elemento. El paréntesis 
-que lleva puede ir vacío o con una función o parámetros, según lo que se 
+- El evento() es la que acción que se realizará con el elemento. El paréntesis
+que lleva puede ir vacío o con una función o parámetros, según lo que se
 esté utilizando.
 
 Ya que incluimos jQuery en nuestro proyecto y tenemos clara la sintaxis,
@@ -75,12 +75,12 @@ Así que en nuestro archivo js usamos:
 
 ```js
   $(document).ready(function() {
-      //código a ejecutar 
+      //código a ejecutar
   });
 ```
 
 - Tal como explicamos más arriba, al utilizar $(document) sabemos que estamos
-utilizando jQuery y además, especificamos que vamos a manipular el documento 
+utilizando jQuery y además, especificamos que vamos a manipular el documento
 HTML.
 
 **Nota:** document no es un elemento HTML, por eso no va entre comillas

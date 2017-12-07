@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-learning`
-- Duración: `30min`
+- Duración: `90min`
 
 ***
 

@@ -30,8 +30,8 @@ de columnas: **s, m, l y xl**
 
 **Foundation** es un framework responsive que incluye componentes de
 tipografía, formularios, botones, barras de navegación y otros, así como
-extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com) 
-está mantenida por zurb.com y es un proyecto de código abierto. 
+extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com)
+está mantenida por zurb.com y es un proyecto de código abierto.
 Foundation también posee un framework para email responsive.
 
 ### Y entonces ¿cuál ocupamos? ¿cuál es mejor?
