@@ -51,4 +51,4 @@ En esta ocasión revisaremos los 2 siguientes enlaces, no es necesario que los e
 [Inicia aquí](http://librosweb.es/libro/fundamentos_jquery/capitulo_5.html) y continua con este [siguiente](http://librosweb.es/libro/fundamentos_jquery/capitulo_5/el_objeto_del_evento.html)
 
 Y aquí tenemos una lista de todos los eventos que se pueden usar en JQuery, para ejecutar métodos y funciones.
-![lista-eventos](lista-eventos.png)
+![lista-eventos](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/04-events/lista-eventos.png?raw=true)
