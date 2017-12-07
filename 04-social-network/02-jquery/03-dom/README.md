@@ -27,7 +27,7 @@ Equivalentes a lo que en JavaScript son:
 
 La diferencia es que en jQuery son funciones y no propiedades.
 
-![Ejemplo-text-html-val](text-html-val.png)
+![Ejemplo-text-html-val](https://raw.githubusercontent.com/Laboratoria/curricula-js/30b2d37a0714ed52d2b1ce924951bf61f96916ef/04-social-network/02-jquery/03-dom/text-html-val.png)
 *(Ya sabemos que el html no debe llevar nuestro script ahí mismo pero
   esta imagen es solo para ejemplificar lo arriba mencionado)*
 
@@ -37,7 +37,7 @@ del DOM fácilmente.
 Vamos a entenderlos uno a uno... con su ejemplo.
 
 | Método | Descripción | Ejemplo |
-| :------: | ----------- | ------- |
+| ------ | ----------- | ------- |
 | .append() | Inserta contenido **al final** del elemento de destino que se especifica con el selector. | $('selector').append(contenido);|
 | .prepend() | Inserta contenido **al principio** del elemento especificado. | $('selector').prepend('contenido'); |
 | .before() | Inserta contenido (elementos nuevos o existentes en el DOM) **antes** del elemento de destino que se especifica con el selector. | $('selector').before(); |
