@@ -2,7 +2,11 @@
 
 * Tipo: `seminario`
 * Formato: `guiado`
+<<<<<<< HEAD
 * Duración: `45min`
+=======
+* Duración: `150min`
+>>>>>>> bc7acf9f35efee3241a4ee1f96f0e0af2bba899e
 
 ## Objetivos de la lección
 

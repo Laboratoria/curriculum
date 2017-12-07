@@ -2,7 +2,7 @@
 
 * Tipo: `seminario`
 * Formato: `guiado`
-* Duración: `45min`
+* Duración: `120min`
 
 ## Objetivos de la lección
 
