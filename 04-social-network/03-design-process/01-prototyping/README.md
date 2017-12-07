@@ -1,5 +1,11 @@
 # Rapid Prototyping
 
+- Tipo: `taller`
+- Formato: `guiado`
+- Duración: `2h`
+
+***
+
 \* Este ejercicio está basado en el [DP0 del dschool de Stanford](https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5899326a86e6c0878c6e63f1/1486434929824/crashcourseplaybookfinal3-1-120302015105-phpapp02.pdf) y en el [90 minute prototype de Hyperisland.](http://toolbox.hyperisland.com/90-minute-prototypes)
 
 ### 01: Intro
@@ -35,8 +41,8 @@ Tómate 4 minutos para intentar capturar lo que aprendiste de la entrevista. Int
 
 Responde estas preguntas.
 
-* **Metas y Deseos:** ¿qué está tratando de lograr tu partner al dar un regalo?
-* **Insights:** nuevos aprendizajes sobre los sentimientos y motivaciones de tu compañero. ¿Qué ves tú en la experiencia de tu compañero que él/ella no ha visto?
+- **Metas y Deseos:** ¿qué está tratando de lograr tu partner al dar un regalo?
+- **Insights:** nuevos aprendizajes sobre los sentimientos y motivaciones de tu compañero. ¿Qué ves tú en la experiencia de tu compañero que él/ella no ha visto?
 
 
 #### Define los problem statements
