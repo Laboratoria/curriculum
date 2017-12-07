@@ -47,7 +47,6 @@ describe('arraysAndObjects', () => {
   describe('machine', () => {
 
     it('debería tener una propiedad parts y capabilities', () => {
-      console.log(machine);
       Assert.ok(machine.hasOwnProperty('parts'));
       Assert.ok(machine.hasOwnProperty('capabilities'));
     });
