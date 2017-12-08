@@ -127,7 +127,7 @@
 1. Falta indicar el meta viewport en el head
 2. Falta el meta charset UTF8 en el head
 3. Falta agregar el script en el footer
-4. Falta hacer el website :P
+4. Falta hacer el website
 
 <solution style="display:none;">1</solution>
 
