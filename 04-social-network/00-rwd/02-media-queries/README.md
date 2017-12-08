@@ -21,7 +21,7 @@ condiciones dadas al @media son verdaderas**.
 
 ![Sintaxis de un media query](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg "Sintaxis de un media query")
 
-Los Media Queries están conformadas por 
+Los Media Queries están conformadas por
 **Media Types**, **Media Features** y el bloque de código a ejecutar si las condiciones entregadas en el media type y el media feature son verdaderas. Todo esto se conecta gracias a los **operadores lógicos** correspondientes.
 
 ![Media Queries](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)
@@ -91,3 +91,6 @@ Puedes profundizar un poco más en Media Queries y Viewport en:
   [Media Queries](https://www.youtube.com/watch?v=VWL7I71pU2A)
 
 - [¿Cómo utilizamos los media queries?](http://www.bytpher.com/c/1/m/6-los-media-queries)
+
+### Material adicional
+Además, en tu tiempo libre puedes leer un poco sobre Device Pixel Ratio o DPR cómo también se le conoce ;) [aquí la información](https://binaria.com/blog/device-pixel-ratio-consejos-para-desarrolladores/)
