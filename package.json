@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Malla curricular Full Stack JavaScript @Laboratoria",
   "scripts": {
-    "test": "mdlint ."
+    "pretest": "mdlint .",
+    "test": "mocha './!(node_modules)/**/*.spec.js'"
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [
@@ -19,6 +20,10 @@
     "url": "https://github.com/Laboratoria/curricula-js/issues"
   },
   "devDependencies": {
-    "mdlint": "Laboratoria/mdlint"
-  }
+    "chai": "^4.1.2",
+    "mdlint": "Laboratoria/mdlint",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  },
+  "dependencies": {}
 }
