@@ -15,7 +15,8 @@
 
 > Crea una web que a través de un input pueda filtrar los restaurantes 
 que se encuentran cerca de ti.
-El diseño es totalmente libre, con este ejercicio debes aplicar manejo del DOM con JQuery y eventos con Jquery. 
+El diseño es totalmente libre, con este ejercicio debes aplicar manejo del DOM 
+y eventos con Jquery. 
 ¡Mucha suerte!
 
 #### Flujo de la aplicación.
