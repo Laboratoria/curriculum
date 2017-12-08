@@ -38,3 +38,9 @@ email responsive.
 Aquí es a consideración de cada una y la única manera de saber cuál nos
 funciona o gusta más es haciendo uso de ellos. Probar y variar, a prueba y
 error!
+
+### Material adicional
+Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
+
+1. [Materialize](https://codigofacilito.com/cursos/materialize)
+2. [Foundation](https://www.youtube.com/watch?v=SYf8O1vdqWk&list=PLPiMTe_552ODTFnYc2jD3SqwRAvq2GTPw)

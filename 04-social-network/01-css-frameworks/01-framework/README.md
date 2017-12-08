@@ -24,7 +24,10 @@ desarrollar nuestros sitios de una manera más sencilla, rápida y responsive.
 
 ¿Por qué usamos frameworks? Porque a veces las estructuras con CSS pueden ser algo complicadas, es ahí cuando aparecen los frameworks. Eso no significa que son un sustituto para entender CSS o que ya no ocuparemos CSS en nuestros proyectos.
 
-![Frameworks](https://cdn-images-1.medium.com/max/800/1*ILk5FtGR6HP4hZkfmC7yEg.jpeg)
+Aquí te dejamos unos vídeos introductorios a algunos frameworks.
++ [Bootstrap](https://youtu.be/_2TLe8DyhEY)
++ [Materialize](https://youtu.be/Plk9vbu7a3c?t=18s)
+
 
 Algunas de las herramientas que podemos encontrar en los frameworks de CSS son:
 
