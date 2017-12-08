@@ -27,7 +27,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Los componentes de un grid son:
+### 2) Los componentes de un grid son
 
 #### Opciones
 
@@ -54,7 +54,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 4) Las reglas @media son un tipo especial de regla CSS que permiten indicar:
+### 4) Las reglas @media son un tipo especial de regla CSS que permiten indicar
 
 #### Opciones
 
@@ -78,7 +78,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) Las Media Queries están conformadas por:
+### 6) Las Media Queries están conformadas por
 
 #### Opciones
 
@@ -129,14 +129,14 @@
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   más de 700px
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
-   menos de 700px
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   más de 700px
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
-   menos de 700px
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
+   más 
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
+   menos
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
+   más 
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
+   menos
 
 <solution style="display:none;">4</solution>
 
@@ -154,12 +154,12 @@
 
 1. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px)** sea
    verdadero
-2. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and
-   (orientation: landscape)** sea verdadero
+2. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea
+   verdadero
 3. Los estilos de la imagen se ejecutarán cuando **tv and (orientation: landscape)**
    sea verdadero
-4. Los estilos de la imagen se ejecutarán cuando cualquiera de los media sea
-   verdadero
+4. Los estilos de la imagen se ejecutarán cuando **(min-width: 650px), tv and
+   (orientation: landscape)** sea verdadero
 5. No sucede nada
 
 <solution style="display:none;">4</solution>

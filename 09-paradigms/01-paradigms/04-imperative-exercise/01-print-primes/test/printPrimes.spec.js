@@ -8,21 +8,21 @@ const Submission = require('../solution/printPrimes');
 
 describe('printPrimes()', () => {
 
-  const spy = Sinon.spy(console, 'log');
+  const stub = Sinon.stub(console, 'log');
   Submission();
-  spy.restore();
+  stub.restore();
 
   it('debería exportar una función', () => {
     Assert.equal(typeof Submission, 'function');
   });
 
   it('debería invocar console.log 8 veces', () => {
-    Assert.equal(spy.callCount, 8);
+    Assert.equal(stub.callCount, 8);
   });
 
   [[2], [3], [5], [7], [11], [13], [17], [19]].forEach((args, idx) => {
     it(`invocación ${idx + 1} a console.log debería recibir "${args[0]}" como único argumento`, () => {
-      Assert.deepEqual(args, spy.getCall(idx).args);
+      Assert.deepEqual(args, stub.getCall(idx).args);
     });
   });
 
