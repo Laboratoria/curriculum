@@ -43,7 +43,7 @@ todo en el HTML para que funcione.
 Ahora sí, ya con Bootstrap en nuestro proyecto podemos empezar a probar un
 poco de todo lo que nos ofrece:
 
-Una grid, íconos, botones, barras de navegación, étc.
+Una grid, íconos, botones, barras de navegación, etc.
 
 ![Bootstrap](http://www.boss-development.biz/sites/default/files/bootstrap-02.png)
 
