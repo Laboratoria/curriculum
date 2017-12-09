@@ -29,8 +29,8 @@ proyecto.
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
-necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
-es necesario mencionar que los modales podemos crearlos usando CSS y
+necesitemos, para este caso como ejemplo usaremos un **modal** y un **Carousel** . Antes que nada
+es necesario mencionar que los modales como  los carruseles podemos crearlos usando CSS y
 javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
 amigo (sí, el framework que ya decidiste probar...).
 
@@ -79,6 +79,44 @@ $('#myModal').modal('show');
 ```
 
 Listo!!! Ya podemos probar nuestro modal.
+
+Ahora vamos a ha ver el codigo para crear lo nuestro Caruosel.
+
+``` html
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+```
+Y en nuestro archivo app.js:
+
+```js
+$('.carousel').carousel()
+```
+Y listo ya tenemos nuestro carrusel.
+
 
 ### Y si decidí usar otro framework...
 
