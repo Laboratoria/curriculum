@@ -11,14 +11,18 @@
 En esta unidad aprenderemos:
 
 - A usar jQuery en nuestros desarrollo
-- A entender el uso de los Selectores, manejo del DOM y Eventos a través de
+- A entender el uso de los selectores, manejo del DOM y eventos a través de
   jQuery
 
 ## ¿Por qué aprender esto?
 
-En la lección anterior, nuestro nuevo mejor amigo (el framework de css) nos presentó a jQuery aunque nunca nos dijo todas las maravillas que tiene esta biblioteca.
+En la lección anterior, nuestro nuevo mejor amigo (los frameworks de CSS) nos
+presentó a jQuery aunque nunca nos dijo todas las maravillas que tiene esta
+biblioteca (librería).
 
-jQuery nos hace mucho más fácil el desarrollo de la funcionalidad y la interacción, por lo tanto eso significa que ahorramos tiempo, líneas de código y hasta nos puede ayudar a evitar malas prácticas.
+jQuery nos hace mucho más fácil el desarrollo de la funcionalidad y la
+interacción, por lo tanto eso significa que ahorramos tiempo, líneas de código
+y hasta nos puede ayudar a evitar malas prácticas.
 
 ## Guía de preguntas y conceptos clave
 
@@ -34,6 +38,6 @@ constantemente a revisar estas preguntas para validar que vamos avanzando en la
 dirección correcta.
 
 - ¿Qué es jQuery?
-- ¿Qué son y cómo se ocupan los selectores de jQuery?
+- ¿Qué son y cómo se usan los selectores de jQuery?
 - ¿Se puede manejar el DOM con jQuery?
-- ¿Cómo podemos crear Eventos con jQuery?
+- ¿Cómo podemos crear eventos con jQuery?

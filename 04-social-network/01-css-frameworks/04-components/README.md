@@ -74,7 +74,7 @@ En nuestro archivo html:
 
 Y en nuestro archivo app.js:
 
-```js
+```javascript
 $('#myModal').modal('show');
 ```
 
@@ -87,7 +87,8 @@ framework seleccionado y practica mucho, los pasos a seguir son
 tremendamente parecidos y en algunas ocasiones, los mismos.
 
 
-Solo recuerda: 
+Solo recuerda:
+
 * Investigar
 * Intentarlo
 * ¡¡Preguntar!!
