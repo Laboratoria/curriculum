@@ -10,7 +10,8 @@
 
 - Revisar las soluciones de los retos que resolvimos
 - Entender que existe más de una forma de resolver los problemas y analizar las
-  ventajas y desventajas de cada solución propuesta
+ventajas y desventajas de cada solución propuesta
+
 
 ## Agenda
 
