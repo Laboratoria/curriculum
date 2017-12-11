@@ -22,7 +22,8 @@ situación que nos obliga a adaptar nuestros productos digitales a la estructura
 de cada uno de ellos.
 
 El reto que tienes en este curso es aprender a crear productos web
-**responsivos** que se adapten y permitan mostrar la versión más optimizada para ese medio.
+**responsivos** que se adapten y permitan mostrar la versión más optimizada
+para ese medio.
 
 ## Guía de preguntas y conceptos clave
 
