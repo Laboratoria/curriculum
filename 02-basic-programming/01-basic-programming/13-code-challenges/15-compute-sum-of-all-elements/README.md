@@ -2,7 +2,8 @@
 
 Escriba una función llamada `computeSumOfAllElements`.
 
-Dado un array de números, `computeSumOfAllElements` devuelve la suma de todos los elementos del array dado.
+Dado un array de números, `computeSumOfAllElements` devuelve la suma de todos
+los elementos del array dado.
 
 Ejemplo:
 

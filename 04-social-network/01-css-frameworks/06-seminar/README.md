@@ -19,7 +19,7 @@
 Asegurar que entendemos bien los siguientes temas:
 
 - Frameworks css
-- Cómo lo incluyó en mi desarrollo
+- Cómo lo incluyo en mi desarrollo
 - La funcionalidad en algunos componentes
 
 ### 2. Revisemos los [ejercicios guiados](07-guided-exercises)

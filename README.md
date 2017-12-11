@@ -80,7 +80,7 @@ lo harás en el entorno de la línea de comando (tu nuevo mejor amigo).
 
 ### [01. Introducción a la programación con JS](01-intro)
 
-Autor: _R. Prieto_
+Autor: [Rodulfo Prieto](https://github.com/chamodev)
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre
 nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
@@ -106,7 +106,7 @@ una serie común de cursos para todas las alumnas, que forman parte del
 ### [02. Programación básica con JavaScript](02-basic-programming)
 
 * Track: _Common Core_
-* Autor: _R. Prieto_
+* Autor: [Rodulfo Prieto](https://github.com/chamodev)
 * Tiempo estimado: _2 a 3 semanas_
 
 En este curso aprenderás mejores formas de estructurar y manipular la data de
@@ -131,7 +131,7 @@ vida cotidiana:
 ### [03. Creando tu primer sitio web interactivo](03-interactive-site)
 
 * Track: _Common Core_
-* Autor: _Iván Medina & Lalo Gonzalez_
+* Autor: [Iván Medina](https://github.com/ivandevp) & [Lalo Gonzalez](https://github.com/lalogf)
 * Tiempo estimado: _3 a 4 semanas_
 
 En este curso se construirá un sitio dinámico desde cero pasando por las
@@ -155,7 +155,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 ### [04. Crea tu propia red social](04-social-network)
 
 * Track: _Common Core_
-* Autor: _Iván Medina & Lalo Gonzalez_
+* Autor: [Iván Medina](https://github.com/ivandevp) & [Lalo Gonzalez](https://github.com/lalogf)
 * Tiempo estimado: _3 a 4 semanas_
 
 En este curso crearás una **red social**. Para ello deberás aprender a
@@ -172,7 +172,7 @@ Secondary tags: `big-o`, `time-complexity`,
 ### [05. Crea tu propia librería usando JavaScript: JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 
 * Track: _Front-End Development_
-* Autor: _Belén Recabal & Iván Medina_
+* Autor: [Belén Recabal](https://github.com/brecabal) & [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso construirás tu propia librería usando JavaScript, lo cual nos
@@ -195,7 +195,7 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 ### [06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota](06-spa)
 
 * Track: _Front-End Development_
-* Autor: _Iván Medina_
+* Autor: [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso se verán temas de `network` para entender qué es lo que sucede
@@ -217,7 +217,7 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 ### 07. Lo que todo Front-End debe saber del Back-End
 
 * Track: _Front-End Development_
-* Autor: _Iván Medina_
+* Autor: [Iván Medina](https://github.com/ivandevp)
 * Tiempo estimado: _3 semanas_
 
 En este curso vas a salir de JavaScript, y vas a entender como integrar tu
@@ -243,7 +243,7 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 ### [08. Paradigmas de la programación y Functional JavaScript](09-paradigms)
 
 * Track: _Front-End Development_
-* Autor: _L. Montero_
+* Autor: [Lupo Montero](https://github.com/lupomontero) & [Milton Mazzarri](https://github.com/milmazz)
 * Tiempo estimado: _3 semanas_
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
@@ -282,7 +282,7 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 ### [09. Introducción a React](11-react)
 
 * Track: _Front-End Development_
-* Autor: _M. Crowe_
+* Autor: [Mariano Crowe](https://github.com/merunga)
 * Tiempo estimado: _1 a 2 semanas_
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
@@ -368,7 +368,7 @@ Los cursos que se dictan únicamente en Educación Continua son:
 
 ### [12. Manejo de estado avanzado con React y Redux](12-redux)
 
-Autor: [Lupo Montero](https://github.com/lupomontero)
+Autores: [Rod Fuenzalida](https://github.com/rodrwan) & [Lupo Montero](https://github.com/lupomontero)
 
 [:construction: Este curso está en desarrollo :construction:]
 
@@ -401,7 +401,61 @@ características:
 Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
 `redux-observable`, `rxjs`, `jest`, `enzyme`
 
-### 13. Construye una aplicación serverless usando Firebase
+### 13. Construye un juego multijugador con Angular y Firebase
+
+Autor: [Aldo Román](https://github.com/aldo-roman)
+
+Este curso presenta los fundamentos para comprender y utilizar
+[Angular](https://angular.io) como plataforma de desarrollo web.
+
+Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
+
+> Es una técnica usada por los surrealistas en 1925, (...) en el cual los
+> jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte
+> de la escritura, y después la pasan al siguiente jugador para otra
+> colaboración.
+>
+> Los teóricos y asiduos al juego (...) sostenían que la creación, en especial
+> la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo
+> posible automática.
+
+El juego consiste en escribir un texto de manera colaborativa. Cada jugador
+escribe un texto corto sin poder ver los textos de los demás jugadores. Luego de
+que todos los jugadores han participado, se unen los textos uno tras otro y se
+lee el resultado completo.
+
+El backend estará hospedado en [Firebase](https://firebase.google.com/).
+
+Tags: `angular`, `typescript`, `firebase`
+
+### 14. Crea un chatbot en la nube y despliégalo en Azure
+
+Autor: [Jorge Castañeda](https://github.com/jcastanedacano)
+
+En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
+Azure.
+
+Tags: `bot`, `azure`
+
+### 15. Despliega aplicaciones Node.js como contenedores en AWS
+
+Autor: TBD (_help needed_)
+
+En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
+empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
+
+Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
+Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
+las principales herramientas con las que contamos en nuestro arsenal. Node nos
+permite llevar nuestro conocimiento de JavaScript más allá del navegador.
+
+En este curso construirás un servidor web que sirva contenido estático además de
+algunos endpoints dinámicos que sirvan data en formato JSON.
+
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`aws`, `nodejs`, `mongodb`, `docker`, `containers`
+
+### 16. Construye una aplicación serverless usando Firebase
 
 Autor: TBD (_help needed_)
 
@@ -422,55 +476,7 @@ aplicación tendrá las siguientes características:
 Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
 `auth`
 
-### 14. Despliega aplicaciones Node.js como contenedores en AWS
-
-Autor: TBD (_help needed_)
-
-En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
-empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
-
-Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
-Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
-las principales herramientas con las que contamos en nuestro arsenal. Node nos
-permite llevar nuestro conocimiento de JavaScript más allá del navegador.
-
-En este curso construirás un servidor web que sirva contenido estático además de
-algunos endpoints dinámicos que sirvan data en formato JSON.
-
-Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
-`aws`, `nodejs`, `mongodb`, `docker`, `containers`
-
-### 15. Crea un chatbot en la nube y despliégalo en Azure
-
-Autor: TBD (_help needed_)
-
-En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure.
-
-Tags: `bot`, `azure`
-
-### 16. Construye un juego multijugador con Angular y Firebase
-
-Autor: [Aldo Román](https://github.com/aldo-roman)
-
-Este curso presenta los fundamentos para comprender y utilizar
-[Angular](https://angular.io) como plataforma de desarrollo web.
-
-Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
-
->  Es una técnica usada por los surrealistas en 1925, (...) en el cual los jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte de la escritura, y después la pasan al siguiente jugador para otra colaboración.
->
->  Los teóricos y asiduos al juego (...) sostenían que la creación, en especial la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo posible automática.
-
-El juego consiste en escribir un texto de manera colaborativa.
-Cada jugador escribe un texto corto sin poder ver los textos de los demás jugadores.
-Luego de que todos los jugadores han participado, se unen los textos uno tras otro y se lee el resultado completo.
-
-El backend estará hospedado en [Firebase](https://firebase.google.com/).
-
-Tags: `angular`, `typescript`, `firebase`
-
-### [19. Modelando y persistiendo data con NoSQL](19-nosql)
+### [17. Modelando y persistiendo data con NoSQL](17-nosql)
 
 Autor: TBD (_help needed_)
 
@@ -485,6 +491,20 @@ sincronizar.
 
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
+
+### 18. SQL Databases
+
+[:bulb: Idea para curso :bulb:]
+
+Autor: TBD (_help needed_)
+
+Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
+
+### [19. The web stack](19-web-stack)
+
+Autor: TBD (_help needed_)
+
+TBD
 
 ### [20. Command Line Foo](20-cli)
 
@@ -503,15 +523,7 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 21. SQL Databases
-
-[:bulb: Idea para curso :bulb:]
-
-Autor: TBD (_help needed_)
-
-Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
-
-### 22. ME*N Stack
+### 21. ME*N Stack
 
 [:bulb: Idea para curso :bulb:]
 
@@ -519,7 +531,7 @@ Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 24. Análisis y visualización de datos
+### 22. Análisis y visualización de datos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -527,7 +539,7 @@ Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 25. Algoritmos
+### 23. Algoritmos
 
 [:bulb: Idea para curso :bulb:]
 
@@ -535,7 +547,7 @@ Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 26. Estructuras de datos
+### 24. Estructuras de datos
 
 [:bulb: Idea para curso :bulb:]
 
