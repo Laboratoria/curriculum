@@ -1,4 +1,12 @@
-# Introducción
+# Herramientas disponibles para creación de visualizaciones
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `6min`
+
+***
+
+## Introducción
 
 Existen muchas y diversas herramientas de visualización en el mercado. Y todas
 son capaces de generar casi la misma diversidad de gráficos. Lo que cambia son

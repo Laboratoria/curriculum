@@ -1,19 +1,27 @@
-# Introducción - Video Externo
+# ¿Qué es la ciencia de datos y cómo puedes ser tú una científicx de datos?
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
+## Introducción - Video Externo
 
 Primero se incluye el siguiente video para dar de manera introductoria al
 concepto de la Ciencia de Datos:
 
-https://www.youtube.com/watch?v=D6j3VS1L96o&index=29&list=WL
+[](https://www.youtube.com/watch?v=D6j3VS1L96o&index=29&list=WL)
 
-# Contenido del Video Interno
+## Contenido del Video Interno
 
-Hola soy Mari Plaza y soy una cientifica de datos.
+Hola soy Mari Plaza y soy una científica de datos.
 
 Dejame felicitarte por todos tus logros dentro de Laboratoria. Cuando comenzaste
 sabias poco o nada sobre la tecnología y ahora ya estas trabajando en ese campo.
 
 Hoy quiero hablarte un poco más de mi profesión: la Ciencia de Datos,  conocida
-también como la profesión del futuro porque nos enfocamos en usar el creciente
+también como la profesión¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos? del futuro porque nos enfocamos en usar el creciente
 volumen de datos para resolver problemas humanos.
 
 ¿Sabías que el 90% de los datos que existen en el mundo se han creado en los
@@ -26,8 +34,8 @@ prácticas en la vida del día a día, la Ciencia de Datos es una de las áreas 
 más aplicaciones prácticas genera y si quieres tú puedes ser parte de ella
 también.
 
-Tu ya disfrutas en el dia a dia de las aplicaciones prácticas que generan los
-Cientificos de Datos. Por ejemplo, las recomendaciones que te da Amazon vienen
+Tu ya disfrutas en el día a día de las aplicaciones prácticas que generan los
+Científicos de Datos. Por ejemplo, las recomendaciones que te da Amazon vienen
 de análisis de los datos de comportamiento de muchas personas para darte las que
 más valor te puedan dar. Asi mismo, el servicio de Uber que está a nivel
 mundial, confía sus precios y disponibilidad a algoritmos basados en la Ciencia
@@ -43,7 +51,7 @@ Con la ciencia de datos puedes analizar no sólo base de datos tradicionales,
 sino también textos, fotos, videos y audios, abriendo un sin fin de
 posibilidades para crear nuevas ideas.
 
-Los cientificos de datos nos encanta codear y nuestros programas favoritos para
+Los científicos de datos nos encanta codear y nuestros programas favoritos para
 hacerlo son OpenSource R y Python. Además usamos diversas fuentes de datos
 estructuradas o del tipo SQL y las no estructuradas conocidas como NonSQL. Pero
 no sólo debemos saber de código, también necesitamos entender el problema humano

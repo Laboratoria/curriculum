@@ -1,4 +1,10 @@
-# Juego de Agregaciones
+# Juego de agregaciones
+
+* Tipo: `taller`
+* Formato: `guiado`
+* Duración: `35min`
+
+***
 
 ## Objetivo del Juego
 

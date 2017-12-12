@@ -1,4 +1,12 @@
-# Introducción
+# Fuentes y tipos de datos
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `6min`
+
+***
+
+## Introducción
 
 Para poder crear visualizaciones necesitamos data con la que podamos trabajar.
 Afortunadamente hoy en día existen muchas fuentes de información que podrás usar
@@ -117,4 +125,4 @@ las redes sociales como Twitter, Facebook, Instagram poseen APIs para traer
 información limitada (y no asociada a usuarios).
 
 De hecho Github también posee un API que permite analizar la tendencia de los
-repositorios y los usuarios. 
+repositorios y los usuarios.

@@ -80,35 +80,28 @@ Las alumnas deberás desarrollar el siguiente data dashboard como producto final
 
 ## Syllabus
 
-### Unidad 01: [Setup e Introducción a la visualizacion de Datos](01-intro)
+### Unidad 01: [Setup e introducción a la visualización de datos](01-intro)
 
-#### Lección 1:  (Presencial) Conceptos base e introducción a cómo analizar un problema de datos
+En esta unidad veremos conceptos base, una introducción a cómo analizar un
+problema de datos y nos familiarizaremos con las tecnologías y herramientas a
+usar durante el curso.
 
-|Orden| Tipo | Duración|Descripción
-|-----|---|---|---
-| 1 |Video |  10min| ¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos?
-| 2 |Video | 5min| Introducción a la metodología de análisis de problemas
-| 3 |Video | 5min| Cómo formular la pregunta que guía el análisis
-
-#### Lección 2:  (Presencial) Conceptos Introductorios sobre datos
-
-|Orden| Tipo | Duración | Descripción
-|---|---|---|---
-|1| Video| 6 min| Fuentes y tipos de datos
-|2| Video| 6 min| Conceptos introductorios de Limpieza y preparación de la Data
-|3|	Video| 4 min| Metadatos, Fuentes y Diccionario de una fuente de datos
-|4|	Video| 6 min| Herramientas disponibles para creación de visualizaciones
-|5| Video| 5 min| Teoría de colores para uso en visualizaciones
-|6|	Juego| 35 min| Agregaciones y dimensiones dentro de una fuente de datos
-|7|	Juego| 10 min| Agregaciones - El caso del promedio ponderado
-
-#### Lección 3:  (Presencial) Setup y conocimiento de los datos Instalación de tecnologías a utilizar
-
-|Orden|	Tipo | Duración | Descripción
-|---|---|---|---
-|1| Juego| 30 min	|Exploración de Data Ejemplo a través de juegos dinámicos
-|2| workshop| 10 min |Instalación de Tableau Public
-|3| workshop| 20 min |Exploración de Datas adicionales a través de Tableau y juegos
+|  #  |  Tipo   | Formato    | Duración | Descripción
+|-----|---------|------------|----------|------------
+|  1  | lectura | self-paced | 10min    | ¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos?
+|  2  | lectura | self-paced | 5min     | Introducción a la metodología de análisis de problemas
+|  3  | lectura | self-paced | 5min     | Cómo formular la pregunta que guía el análisis
+|  4  | lectura | self-paced | 6min    | Fuentes y tipos de datos
+|  5  | lectura | self-paced | 6min    | Conceptos introductorios de Limpieza y preparación de la Data
+|  6  |	lectura | self-paced | 4min    | Metadatos, Fuentes y Diccionario de una fuente de datos
+|  7  |	lectura | self-paced | 6min    | Herramientas disponibles para creación de visualizaciones
+|  8  | lectura | self-paced | 5min    | Teoría de colores para uso en visualizaciones
+|  9  |	taller  | guiado     | 35min   | Juego: Agregaciones y dimensiones dentro de una fuente de datos
+| 10  |	lectura | self-paced | Xmin   | Juego: Agregaciones - El caso del promedio ponderado
+| 11  |	taller  | guiado     | 10min   | Juego: Agregaciones - El caso del promedio ponderado
+| 12  | taller  | guiado     | 30min	  | Juego: Exploración de Data Ejemplo a través de juegos dinámicos
+| 13  | taller  | guiado     | 10min   | Instalación de Tableau Public
+| 14  | taller  | guiado     | 20min   | Exploración de Datas adicionales a través de Tableau y juegos
 
 Datas adicionales:
 

@@ -1,4 +1,10 @@
-# Juego de Exploración del Tablero de Indicadores
+# Juego de exploración del tablero de indicadores
+
+* Tipo: `taller`
+* Formato: `guiado`
+* Duración: `30min`
+
+***
 
 ## Objetivo del Juego
 
@@ -26,7 +32,7 @@ Este es un juego que jugaremos en squads.
    su squad. Al encontrar la respuesta la anotarán en un post-it para regresar
    al tablero.
    Si es correcta el instructor o instructora dejará avanzar la ficha que
-   representa el equipo y entregará a tu representante la siguiente pregunta. 
+   representa el equipo y entregará a tu representante la siguiente pregunta.
 6. El equipo ganador será aquel que logre llegar al final del tablero de primero.
 
 ¿Estamos listas? ¡A jugar!

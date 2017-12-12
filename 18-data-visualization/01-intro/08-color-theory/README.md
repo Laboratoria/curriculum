@@ -1,4 +1,12 @@
-# Introducción
+# Teoría de colores para uso en visualizaciones
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
+
+## Introducción
 
 Los colores son elementos muy poderosos de toda visualización porque agregan
 belleza pero también información, al representar a través de su uso otras

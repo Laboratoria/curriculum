@@ -1,4 +1,12 @@
-# Introducción
+# Teoría de agregaciones
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
+
+***
+
+## Introducción
 
 En este archivo se resume el contenido teórico sobre los diferentes tipos de
 agregaciones que aprenderás durante el juego. Acá podrás encontrar las

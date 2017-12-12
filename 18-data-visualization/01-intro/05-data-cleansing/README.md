@@ -1,4 +1,12 @@
-# Introducción
+# Conceptos introductorios de limpieza y preparación de la data
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `6min`
+
+***
+
+## Introducción
 
 De acuerdo a la revista Forbes, en promedio la preparación de los datos
 corresponde al 80% del trabajo de los Científicos de Datos. En esta sesión

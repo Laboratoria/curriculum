@@ -1,4 +1,12 @@
-# Introducción
+# Juego: Agregaciones - El caso del promedio ponderado
+
+* Tipo: `taller`
+* Formato: `guiado`
+* Duración: `10min`
+
+***
+
+## Introducción
 
 Cómo vimos en el juego el promedio es lo que le tocaría a cada uno si
 distribuyéramos todo por igual, la mediana es el valor central y la moda el

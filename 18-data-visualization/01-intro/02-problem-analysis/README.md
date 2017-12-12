@@ -1,4 +1,12 @@
-# Introducción
+# Introducción a la metodología de análisis de problemas
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
+
+## Introducción
 
 Cuando hacemos un modelo de Ciencia de Datos siempre queremos resolver un
 problema, este problema es humano no tecnológico, así que debes poder expresar

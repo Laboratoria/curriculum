@@ -1,5 +1,11 @@
 # Exploración de las otras fuentes de datos disponibles
 
+* Tipo: `taller`
+* Formato: `guiado`
+* Duración: `20min`
+
+***
+
 ## Objetivo de las otras fuentes de datos.
 
 En este curso vamos a llevarte de la mano para construir el tablero de

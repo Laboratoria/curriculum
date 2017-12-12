@@ -1,4 +1,12 @@
-# Introducción
+# Metadatos y diccionario de una fuente de datos
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `4min`
+
+***
+
+## Introducción
 
 3	Video	4 min	Metadatos, Fuentes y Diccionario de una fuente de datos.
 

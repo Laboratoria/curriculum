@@ -1,4 +1,12 @@
-# Introducción
+# Cómo formular la pregunta que guía el análisis
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
+
+## Introducción
 
 En la metodología de Marco Lógico se usa el árbol de problemas para describir la
 situación y luego se toma ese árbol y se reescribe en positivo para obtener el
