@@ -134,7 +134,7 @@ tenga que ver directamente en el computador.
 |  5  | lectura | self-paced | 4min	| Visualizaciones Avanzadas
 |  6  | lectura | self-paced | 7min	| Visualizaciones Estadísticas (Introducción a Pareto, box e histograma pero no serán cubiertas en este curso)
 |  7  | lectura | self-paced | 10min	| Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)
-|  8  | lectura |	self-paced | 10min	| Preparación de Tableau para la clase presencial ?
+|  8  | lectura |	self-paced | 10min	| Preparación de Tableau para la clase presencial
 |  9  |	 taller |  guiado  | 20min|	Gráfico de Columnas
 |  10 |	 taller |  guiado  | 30min|	Series de Tiempo
 |  11 |	 taller |	 guiado  | 20min|	Gráfico de pie
@@ -143,35 +143,33 @@ tenga que ver directamente en el computador.
 
 ### Unidad 3: [Visualizaciones avanzadas e interactividad](03-intro-3)
 
-#### Lección 6: (Online) Visualizaciones Geográficas y Avanzadas
+En esta unidad veremos
+
+visualizaciones Geográficas y Avanzadas
+Interconexión e interactividad entre visualizaciones
+Aplicando el conocimiento en los trabajos particulares
 
 |  #  |  Tipo   | Formato  | Duración | Descripción
 |-----|---------|----------|----------|------------
-|  1  |	lectura | 7min |	Introducción a las coordenadas geográficas.|
-|  2  |	lectura | 4min |	Visualizaciones de Mapa con punto. |
-|  3  |	lectura | 4min |	Visualizaciones de Mapa con Área|
-|  4  | lectura | 8min |	Chartmotion|
-|  5  |	lectura | 7min|	Introducción a un tablero de información|
-|  6  |	lectura | 4min|	Creación de un tablero de información.|
-|  7  | lectura | 5min| Cómo comunicar una historia usando el tablero de información interactivo. |
-|  8  | seminario | 30 min| Revisión de los conceptos online y aclarar dudas del tablero de Internet|
-|  9  | taller | 60 min| Trabajo en parejas para revisar los tableros de cada una|
-|  10 | taller | 30 min| Exploración de la data y contar una historia|
-
-#### Lección 7: (Online) Interconexión e interactividad entre visualizaciones
-
-
-#### Lección 8: (Presencial) Aplicando el conocimiento en los trabajos particulares
-
+|  1  |	lectura | self-paced | 7min |	Introducción a las coordenadas geográficas.|
+|  2  |	lectura | self-paced | 4min |	Visualizaciones de Mapa con punto. |
+|  3  |	lectura | self-paced | 4min |	Visualizaciones de Mapa con Área|
+|  4  | lectura | self-paced | 8min |	Chartmotion|
+|  5  |	lectura | self-paced | 7min |	Introducción a un tablero de información|
+|  6  |	lectura | self-paced | 4min |	Creación de un tablero de información.|
+|  7  | lectura | self-paced |5min | Cómo comunicar una historia usando el tablero de información interactivo. |
+|  8  | seminario | guiado |30 min| Revisión de los conceptos online y aclarar dudas del tablero de Internet|
+|  9  | taller  | guiado | 60 min| Trabajo en parejas para revisar los tableros de cada una|
+|  10 | taller  | guiado | 30 min| Exploración de la data y contar una historia|
 
 ### Unidad 4: [Aprendiendo a comunicar lo que las visualizaciones nos dicen](04-intro-4)
 
-#### Lección 9: (Presencial) Presentación de la historia a una audiencia
+Presentación de la historia a una audiencia
 
-|Orden| Tipo| Duración| Descripción|
-|---|---|---|---|
-|1| code| 30 min| Revisión de la historia y feedback antes de la presentación|
-|2| code| 90 min| Presentación de la historia usando los tableros dinámicos|
+|  #  |  Tipo   | Formato  | Duración | Descripción
+|-----|---------|----------|----------|------------
+|  1  |  taller |  guiado  | 30min| Revisión de la historia y feedback antes de la presentación|
+|  2  |  taller |  guiado  | 90min| Presentación de la historia usando los tableros dinámicos|
 
 ## Autor(es) / Colaboradores
 

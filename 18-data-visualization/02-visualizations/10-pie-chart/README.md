@@ -1,4 +1,4 @@
-# Gráfico de pie
+# Gráfico de torta
 
 * Tipo: `taller`
 * Formato: `guiado`
@@ -11,17 +11,17 @@
 Felicidades por tu trabajo con el gráfico de columnas, ahora le toca el turno al
 gráfico de pie o de torta. Seguiremos la misma dinámica que con el de columnas.
 
-¡Manos a la Torta!
+¡Manos a la torta!
 
-## Gráfico de Torta - A construir con Lego
+## Gráfico de torta - A construir con Lego
 
-## Gráfico de Torta - ¿Cómo se hace en Tableau?
+## Gráfico de torta - ¿Cómo se hace en Tableau?
 
-## Gráfico de Torta - ¿Cómo se hace en nuestro ejemplo?
+## Gráfico de torta - ¿Cómo se hace en nuestro ejemplo?
 
-## Gráfico de Torta - Tu Turno
+## Gráfico de torta - Tu turno
 
-Explora tu data y decide si quieres construir algún gráfico de Torta. Juega con
+Explora tu data y decide si quieres construir algún gráfico de torta. Juega con
 ella, si no te gusta la visualización o no sirve para tu historia la puedes
 borrar después. Pero permítete jugar.
 

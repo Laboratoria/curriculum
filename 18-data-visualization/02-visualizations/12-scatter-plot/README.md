@@ -1,4 +1,4 @@
-# Gráfico de Dispersión
+# Gráfico de dispersión
 
 * Tipo: `taller`
 * Formato: `guiado`
@@ -15,13 +15,13 @@ crear el gráfico de movimiento o Motion Chart como el que vimos en el video.
 
 ¡A crear el gráfico de dispersión, pero sin dispersarse!
 
-## Gráfico de Dispersión - A construir con Lego
+## Gráfico de dispersión - A construir con Lego
 
-## Gráfico de Dispersión - ¿Cómo se hace en Tableau?
+## Gráfico de dispersión - ¿Cómo se hace en Tableau?
 
-## Gráfico de Dispersión - ¿Cómo se hace en nuestro ejemplo?
+## Gráfico de dispersión - ¿Cómo se hace en nuestro ejemplo?
 
-## Gráfico de Dispersión - Tu Turno
+## Gráfico de dispersión - Tu Turno
 
 Recuerda que este gráfico será la base de tu gráfico de movimiento, asi que
 explora que dimensiones quieres relacionar y que historia será interesante

@@ -1,4 +1,4 @@
-# Series de Tiempo
+# Series de tiempo
 
 * Tipo: `taller`
 * Formato: `guiado`
@@ -11,13 +11,13 @@
 Y por último el favorito de finanzas. Las series de tiempo. Felicidades ya estás
 casi lista con tus primeras visualizaciones.
 
-## Series de Tiempo - A construir con Lego
+## Series de tiempo - A construir con Lego
 
-## Series de Tiempo - ¿Cómo se hace en Tableau?
+## Series de tiempo - ¿Cómo se hace en Tableau?
 
-## Series de Tiempo - ¿Cómo se hace en nuestro ejemplo?
+## Series de tiempo - ¿Cómo se hace en nuestro ejemplo?
 
-## Series de Tiempo - Tu Turno
+## Series de tiempo - Tu Turno
 
 Ya este es el último gráfico de esta lección. ¡Felicidades! Ahora escoge la
 variable que quieras mostrar a través del tiempo y crear tu primera serie de

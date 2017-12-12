@@ -1,4 +1,4 @@
-# Tipo de visualizaciones
+# Tipos de visualizaciones
 
 * Tipo: `lectura`
 * Formato: `self-paced`
