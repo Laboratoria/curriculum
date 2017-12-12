@@ -31,7 +31,10 @@ Vamos a crear un carrusel de imágenes!
 
 ![carrusel-2](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/carrusel-2.png)
 
-El tema es totalmente libre, deben funcionar tanto las flechas de desplazamiento como sus botones indicadores y estos deben corresponder a cada imagen
+El tema es totalmente libre, deben funcionar tanto las flechas de desplazamiento como sus botones indicadores y estos deben corresponder a cada imagen.
+
+[Aquí](https://www.canva.com/design/DACpQdILjaY/Wmj5ueXGm1KML8EaWRI7tw/view?website)
+podemos ver el paso a paso de como resolverlo.
 
 ### 2. Agenda de contactos
 
