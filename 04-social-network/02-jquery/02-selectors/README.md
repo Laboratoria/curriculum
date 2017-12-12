@@ -39,7 +39,7 @@ Ejemplos:
   ```javascript
   $('.dogs');
   $('.cats');
-  $('.pink', '.blue', '.red');
+  $('.pink .blue .red');
   ```
 
 > **Nota:** Todos los selectores de jQuery comienzan con el signo de dólar y
