@@ -8,7 +8,7 @@
 
 ## Introducción
 
-3	Video	4 min	Metadatos, Fuentes y Diccionario de una fuente de datos.
+Incluir 3 Video 4 min Metadatos, Fuentes y Diccionario de una fuente de datos
 
 En esta sesión veremos qué son los metadatos y para qué sirven. Además
 explicaremos en detalle dos de los componentes que forman parte de los
@@ -21,7 +21,7 @@ de datos, que nos ayudan a comprenderlo mejor. Los metadatos tienen información
 entre otros, sobre el formato (texto, base de datos, json, xml entre otros), la
 fuente, el diccionario, la licencia de uso e información administrativa como la
 fecha de creación, actualización, las transformaciones, número de registros,
-etc. de los datos.     
+etc. de los datos.
 
 Dependiendo del tipo de datos los metadatos pueden tener otra información más
 específica. En el caso de las encuestas, por ejemplo, es importante saber la
@@ -30,11 +30,11 @@ realizadas.
 
 Los metadatos nos ayudan a responder las siguientes preguntas:
 
-- ¿Qué podemos hacer con los datos?,
-- ¿Cuáles análisis son válidos?
-- ¿Tenemos permiso de utilizar los datos?
-- ¿Los datos son confiables?
-- ¿Qué limitaciones tienen los datos?.
+* ¿Qué podemos hacer con los datos?
+* ¿Cuáles análisis son válidos?
+* ¿Tenemos permiso de utilizar los datos?
+* ¿Los datos son confiables?
+* ¿Qué limitaciones tienen los datos?
 
 En el caso de las encuestas, una de las preguntas principales es si los datos
 son representativos. Por ejemplo, si tenemos los datos de una encuesta sobre la

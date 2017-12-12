@@ -19,7 +19,7 @@ ganador será el primero en responder correctamente las 7 preguntas.
 
 Este es un juego que jugaremos en squads.
 
-## Dinámica del juego.
+## Dinámica del juego
 
 1. Tu instructor te mostrará una visión general del tablero de penetración de
    Internet.

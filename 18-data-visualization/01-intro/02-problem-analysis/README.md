@@ -61,19 +61,19 @@ consecuencias y las causas en post-it y moverlos de manera dinámica hasta que t
 y tu equipo lleguen a un acuerdo de que el árbol que construyeron es la mejor
 representación de lo que escucharon.
 
-### Puntos claves en la construcción del Árbol de Problemas.
+### Puntos claves en la construcción del Árbol de Problemas
 
-Tal como se referencia en http://www.jjponline.com/marcologico/problema.html,
+Tal como se referencia en [](http://www.jjponline.com/marcologico/problema.html),
 los puntos claves de la construcción del árbol son:
 
-- Un problema no es la ausencia de su solución, sino un estado existente
+* Un problema no es la ausencia de su solución, sino un estado existente
   negativo. Por ejemplo en vez de falta de respuesta, que implica una ausencia
   de solución, es mejor plantearlo como que el equipo está dañado.
-- La importancia de un problema no está determinada por su ubicación en el Árbol
-  de Problemas
-- Identificar problemas existentes (no los posibles, ficticios o futuros)
-- Formular el problema como un estado negativo
-- Escribir un solo problema por tarjeta
+* La importancia de un problema no está determinada por su ubicación en el arbol
+  de problemas
+* Identificar problemas existentes (no los posibles, ficticios o futuros)
+* Formular el problema como un estado negativo
+* Escribir un solo problema por tarjeta
 
 Aquí tienes un ejemplo de un árbol de problema para una empresa de transporte.
 
@@ -89,7 +89,6 @@ data que analizaran.
 
 Cerramos este video con el árbol de problemas que guió la construcción del
 tablero de penetración de Internet que estaremos construyendo durante el curso:
-
 
 Aunque suena muy negativo, lo importante es que los problemas te permiten
 identificar que pregunta tienes que responder para resolverlo y así lograr tu

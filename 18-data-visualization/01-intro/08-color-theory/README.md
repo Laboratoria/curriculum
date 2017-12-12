@@ -19,8 +19,8 @@ en tus visualizaciones.
 
 Con este propósito nos interesa entender 2 aspectos:
 
-- Psicología de los colores.
-- Dimensiones de los colores.
+* Psicología de los colores.
+* Dimensiones de los colores.
 
 ## Psicología del Color
 
@@ -36,19 +36,17 @@ se ven ellas mismas. Así pues Nintendo y Lego escogieron el rojo para
 posicionarse como juveniles, mientras que IBM usa el azul para transmitir
 confianza y Google usa varios colores para transmitir diversidad.
 
+## Dimensiones de los Colores
 
-## Dimensiones de los Colores:
+Los colores tienen 3 dimensiones
 
-Los colores tienen 3 dimensiones:
-
-- Matiz: es la característica que nos permite diferenciar un color de otro. Así
+* Matiz: es la característica que nos permite diferenciar un color de otro. Así
   conocemos los matices como azul, verde, amarillo, anaranjado, etc.
-- Valor, Tono o Luminosidad: se refiere a la cantidad de luz percibida en un
+* Valor, Tono o Luminosidad: se refiere a la cantidad de luz percibida en un
   color. Normalmente se define de la combinación de la matiz con una escala de
   negro a blanco.
-- Saturación o Intensidad: representa la viveza o palidez de un color.
+* Saturación o Intensidad: representa la viveza o palidez de un color.
   Normalmente se define de la combinación de la matiz con una escala de grises.
-
 
 El matiz de un color es considerado categórico porque se diferencia claramente
 del otro color, pero no implica por ello una escala de valoración en si misma.
@@ -57,7 +55,6 @@ Ninguno es mayor o menor que otro, sólo diferente.
 
 Mientras que el tono y la saturación son considerados ordenados, porque permiten
 establecer una escala que genera la percepción de mayor o menor.
-
 
 ## ¿Cómo escoger los colores para una visualización?
 
@@ -75,7 +72,7 @@ creando la visualización.
 
 Esto te dice mucho de como se ven ellos a ellos mismos. Aprovecha e incluye las
 palabras asociadas a la sicología de estos colores en tus presentaciones y
-visualizaciones.  
+visualizaciones.
 Si no estás trabajando para una organización sino analizando un tópico general
 como medio ambiente o salud, trata de escoger los colores que más se conectan
 con esos temas como el verde y el azul en estos casos.
@@ -98,17 +95,17 @@ que definen el orden.
 
 En el caso de estas variables en las que quieres representar una escala, se
 recomienda escoger uno o máximo 2 matices y variar las dimensiones de
-Luminosidad y Saturación para generar la escala que deseamos representar.  
+Luminosidad y Saturación para generar la escala que deseamos representar.
 
 Al final podrás escoger según sea el caso entre 3 escalas de colores:
 
-- Categórica: para representar categorías.
-- Secuencial Ordenada: para representar variables de mayor a menor.
-- Divergente: para representar variables que nos interesa se mantengan hacia un
+* Categórica: para representar categorías.
+* Secuencial Ordenada: para representar variables de mayor a menor.
+* Divergente: para representar variables que nos interesa se mantengan hacia un
   centro.
 
 La escogencia de colores es importante porque permitirá reforzar a través de la
 psicología y las percepciones el mensaje que quieres comunicar. Úsalos
 adecuadamente.
 
-Para más información te invitó a leer: https://es.wikipedia.org/wiki/Color
+Para más información te invitó a leer: [Color-Wiki](https://es.wikipedia.org/wiki/Color)

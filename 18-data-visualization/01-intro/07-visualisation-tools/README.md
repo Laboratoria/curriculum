@@ -25,7 +25,6 @@ Pero si consideramos una persona con experiencia estándar con una computadora,
 es probable que si no sabe programar herramientas como R o Python le tomen más
 tiempo de aprender que Tableau o SAS.
 
-
 ## Escogencia de la herramienta de visualización
 
 Con esto en mente, ¿cuál debes escoger? Bueno, da mas o menos igual siempre que

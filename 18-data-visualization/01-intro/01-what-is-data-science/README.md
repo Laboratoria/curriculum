@@ -21,7 +21,8 @@ Dejame felicitarte por todos tus logros dentro de Laboratoria. Cuando comenzaste
 sabias poco o nada sobre la tecnología y ahora ya estas trabajando en ese campo.
 
 Hoy quiero hablarte un poco más de mi profesión: la Ciencia de Datos,  conocida
-también como la profesión¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos? del futuro porque nos enfocamos en usar el creciente
+también como la profesión¿Qué es la Ciencia de Datos y cómo puedes ser tú una
+Científica de Datos? del futuro porque nos enfocamos en usar el creciente
 volumen de datos para resolver problemas humanos.
 
 ¿Sabías que el 90% de los datos que existen en el mundo se han creado en los

@@ -15,51 +15,49 @@ para crear tus proyectos de data.
 En esta lección te explicaremos que fuentes de data existen, de que tipo son,
 para que puedas inspirarte y crear muy pronto tus propias visualizaciones.
 
-## Categorización de las fuentes de data.
+## Categorización de las fuentes de data
 
 Hay muchas maneras de clasificar los tipos de data. En esta lección explicaremos
 4 formas de clasificar las fuentes de datos:
 
-- Por tipo de Acceso a las fuentes.
-- Por tamaño de la data
-- Por Nivel de Agregación
-- Por Uso de la Data
+* Por tipo de Acceso a las fuentes
+* Por tamaño de la data
+* Por Nivel de Agregación
+* Por Uso de la Data
 
-
-## Espectro de las fuentes de Data  
+## Espectro de las fuentes de Data
 
 ### Por tipo de Acceso
 
 Existen muchas fuentes de información y de acuerdo al Instituto de Data
 Abierta(ODI por sus siglas en inglés) hay 5 espectros de data:
 
-- Acceso Interno: que corresponde a toda la información que reside dentro de los
+* Acceso Interno: que corresponde a toda la información que reside dentro de los
   sistemas corporativos de las empresas.
   Las personas que usan esta data tienen acceso a ella bajo las condiciones que
   se establecen en el contrato laboral y las políticas internas de la empresa.
   Un ejemplo claro de está información son los reportes de venta de la empresa.
 
-- Acceso Específico: que corresponde a toda la información que reside dentro de
+* Acceso Específico: que corresponde a toda la información que reside dentro de
   los sistemas corporativos de una empresa, a los cuales los proveedores de
   ellos tienen acceso.
   Las personas que usan esta data tienen acceso a ella bajo contratos directos.
   Un ejemplo de está información se da entre las cadenas de ventas como Saga
   Falabella o Walmart y sus proveedores respecto a los niveles de inventario de
-  sus productos.  
+  sus productos.
 
-- Acceso Grupal: que corresponde a toda la información que reside dentro de una
+* Acceso Grupal: que corresponde a toda la información que reside dentro de una
   institución específica pero puede ser accedida mediante autenticación.
   Ejemplo de ello son los proveedores de datos o las revistas técnicas de
   medicinas.
 
-- Acceso Público: que corresponde a toda la información que posee una institución
+* Acceso Público: que corresponde a toda la información que posee una institución
   pero que puede ser accedida por todo el mundo según ciertas condiciones de
   usuario. El mejor ejemplo son las redes sociales.
 
-- Cualquier: que corresponde a toda la información pública y sin acceso
+* Cualquier: que corresponde a toda la información pública y sin acceso
   restringido. Ejemplo de esto son los horarios de autobus y varias de las datas
-  abiertas de organismos internacionales.  
-
+  abiertas de organismos internacionales.
 
 ### Por Tamaño de la Data
 
@@ -118,7 +116,6 @@ organismos internacionales.
 
 Cada vez que tengas una duda de que fuente de datos usar. Pregúntale a Google
 probablemente encontraras muchos datos para analizar.
-
 
 Existen varias fuentes de datos que pueden ser analizadas. De hecho muchas de
 las redes sociales como Twitter, Facebook, Instagram poseen APIs para traer

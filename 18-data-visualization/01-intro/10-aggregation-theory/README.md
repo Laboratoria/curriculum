@@ -46,11 +46,11 @@ Dificultad: Muy sencillo
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: min - Método
-- R: min - Función
-- Python: min – Función o Método
-- Tableau: Minimun - Función
-- Excel: MIN - Función
+* JavaScript: min - Método
+* R: min - Función
+* Python: min – Función o Método
+* Tableau: Minimun - Función
+* Excel: MIN - Función
 
 ## Máximo
 
@@ -62,18 +62,19 @@ En la práctica se usa para: Saber el mayor valor
 Dificultad: Muy sencillo
 
 ### Pasos para calcularlo
+
 1. Contar cuantas veces se repite cada valor. Esto definirá la frecuencia del
    valor.
 2. Ver cuál es el valor más grande que tiene al menos 1 como frecuencia.
 3. Ese valor representa el máximo de la población
 
 ### Comandos en diferentes tecnologías
-- JavaScript: max - Método
-- R: max - Función
-- Python: max – Función o Método
-- Tableau: Maximun - Función
-- Excel: MAX - Función
 
+* JavaScript: max - Método
+* R: max - Función
+* Python: max – Función o Método
+* Tableau: Maximun - Función
+* Excel: MAX - Función
 
 ## Rango
 
@@ -95,14 +96,13 @@ Dificultad: Muy sencillo
 4. El rango son todos los valores ubicados entre el mínimo y máximo de la
    población
 
-
 ### Comandos en diferentes tecnologías
 
-- JavaScript: min - Método / max - Método
-- R: min - Función / max - Función
-- Python: min – Función o Método / max – Función o Método
-- Tableau: Minimun - Función / Maximun - Función
-- Excel: MIN - Función / MAX - Función
+* JavaScript: min - Método / max - Método
+* R: min - Función / max - Función
+* Python: min – Función o Método / max – Función o Método
+* Tableau: Minimun - Función / Maximun - Función
+* Excel: MIN - Función / MAX - Función
 
 ## Suma
 
@@ -121,12 +121,11 @@ Dificultad: Muy sencillo
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: .reduce(add,0) - Método
-- R: sum - Función
-- Python: sum – Función o Método
-- Tableau: Sum - Función
-- Excel: SUMA - Función
-
+* JavaScript: .reduce(add,0) - Método
+* R: sum - Función
+* Python: sum – Función o Método
+* Tableau: Sum - Función
+* Excel: SUMA - Función
 
 ## Cuenta
 
@@ -146,11 +145,11 @@ Dificultad: Muy sencillo
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: length - Método
-- R: Dependiendo de la estructura:  length, nrow o ncol - Función
-- Python: count –Método
-- Tableau: Count - Función
-- Excel: CONTAR - Función
+* JavaScript: length - Método
+* R: Dependiendo de la estructura:  length, nrow o ncol - Función
+* Python: count –Método
+* Tableau: Count - Función
+* Excel: CONTAR - Función
 
 ## Media Aritmética
 
@@ -170,11 +169,11 @@ Dificultad: Intermedia
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: .reduce(add,0)/.length - Método
-- R: mean - Función
-- Python: mean en librería statistics – Función o Método
-- Tableau: Average - Función
-- Excel: PROMEDIO - Función
+* JavaScript: .reduce(add,0)/.length - Método
+* R: mean - Función
+* Python: mean en librería statistics – Función o Método
+* Tableau: Average - Función
+* Excel: PROMEDIO - Función
 
 ## Mediana
 
@@ -196,11 +195,11 @@ Dificultad: Intermedia
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: No existe directamente. Hay que hacer una función
-- R: median - Función
-- Python: median en librería statistics – Función o Método
-- Tableau: Median - Función
-- Excel: MEDIANA - Función
+* JavaScript: No existe directamente. Hay que hacer una función
+* R: median - Función
+* Python: median en librería statistics – Función o Método
+* Tableau: Median - Función
+* Excel: MEDIANA - Función
 
 ## Moda
 
@@ -217,8 +216,8 @@ Dificultad: Intermedia
 
 ### Comandos en diferentes tecnologías
 
-- JavaScript: No existe directamente. Hay que hacer una función
-- R: Mode en librería modeest - Función
-- Python: mode en librería statistics – Función o Método
-- Tableau: No existe directamente.
-- Excel: MODA - Función
+* JavaScript: No existe directamente. Hay que hacer una función
+* R: Mode en librería modeest - Función
+* Python: mode en librería statistics – Función o Método
+* Tableau: No existe directamente.
+* Excel: MODA - Función

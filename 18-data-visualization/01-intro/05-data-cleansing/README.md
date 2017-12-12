@@ -17,7 +17,6 @@ no son válidas.
 
 [](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#553c3036f637)
 
-
 ## Proceso de preparación de datos
 
 Desde la fuente de los datos hasta el análisis final existen varios pasos que el
@@ -73,13 +72,13 @@ Existe varios tipos de errores frecuentes en los datos.
     ocurre con frecuencia cuando llenamos un formulario y dejamos espacios vacíos
     o escribimos cualquier cosa en un campo con tal de terminar el formulario.
 
- 5. Violaciones de la integridad de los datos
+ 4. Violaciones de la integridad de los datos
     Un ejemplo de violación de la integridad es cuando tenemos dos campos en un
     registro cuyos valores se contradicen. Este es el caso si un registro tiene
     edad = "22" y fecha de nacimiento ="22/02/1980". Si la persona nació en 1980
     no puede tener 22 años.
 
- 6. Duplicados
+ 5. Duplicados
     La misma información está representada en varios registros. Si tenemos los
     de datos de la población total por país y un país, por ejemplo Perú sale dos
     veces, tenemos un duplicado. El problema con este duplicado es que si
@@ -103,7 +102,8 @@ datos, los archivos de texto y los sistemas de archivos distribuidos.
 Al igual que las técnicas para limpiar los datos, los detalles de estas formas
 de guardar los datos harán parte de otro curso.
 
- ## 4. Analizar
+## 4. Analizar
+
 Este paso es el tema central de este curso. Una de las principales herramientas
 de análisis de datos son las visualizaciones. Una vez los datos están copiados,
 limpios y ordenados podemos crear las gráficas para analizarlos.

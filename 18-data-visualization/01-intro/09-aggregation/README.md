@@ -24,13 +24,13 @@ Jugaremos en squads de 3 a 4 personas máximo.
 
 Cada squad recibirá los siguientes materiales:
 
-- 8 tarjetas donde se explican cada una de las agregaciones posibles, su
+* 8 tarjetas donde se explican cada una de las agregaciones posibles, su
   definición y cómo calcularla.
-- Un grupo de post-its y marcadores que serán usados para completar el tablero
+* Un grupo de post-its y marcadores que serán usados para completar el tablero
   de juego.
-- 1 tablero de juego que deberán ir completando con los post-its a medida que
+* 1 tablero de juego que deberán ir completando con los post-its a medida que
   analizan cada población o tablero de muestras
-- 1 tablero de muestras que es diferente para cada grupo. Este se irá rotando
+* 1 tablero de muestras que es diferente para cada grupo. Este se irá rotando
   entre los grupos.
 
 La misión de ustedes es completar correctamente el tablero de juego al analizar
@@ -43,6 +43,5 @@ Les recomendamos tomarse su tiempo para analizar lo que están haciendo,
 especialmente para la moda, la mediana y la media aritmética o promedio.
 
 Lean bien las tarjetas y como se calculan antes de completar el post-it.
-
 
 ¿Hay preguntas? Si está todo claro. Comenzamos. Suerte!
