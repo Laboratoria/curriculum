@@ -22,4 +22,4 @@ Asegurar que entendemos bien los siguientes conceptos:
 - Mecanismo de Media Queries
 - Creando estructuras con grids
 
-### 2. Revisemos los [ejercicios guiados](05-guided-exercises)
+### 2. Revisemos los [ejercicios guiados](06-guided-exercises)
