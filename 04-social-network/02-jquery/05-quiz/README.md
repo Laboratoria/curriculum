@@ -1,3 +1,5 @@
+# Quiz
+
 - Tipo: `quiz`
 - Formato: `self-paced`
 - Duración: `30min`
