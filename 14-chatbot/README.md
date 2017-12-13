@@ -3,10 +3,13 @@
 [:construction: Este curso está en desarrollo :construction:]
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure.
+Azure. Para ello, veremos el asistente en el Microsoft Bot Framework como una
+herramienta/portal de desarrollo y las API de Servicios Cognitivos para
+inteligencia, uniendo los dos en la creación de un bot inteligente de chat para
+plataformas conversacionales.
 
-Dos o tres párrafos explicando el curso en líneas generales. Introducción al
-tema central y su importancia para un desarrollador full stack.
+Se enfatizará el diseño reflexivo, así como la experiencia del usuario junto con
+las pruebas para crear las mejores experiencias de bot.
 
 Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
 temas principales, metodología y enfoque de la experiencia.
