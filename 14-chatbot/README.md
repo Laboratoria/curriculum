@@ -1,5 +1,7 @@
 # Crea un chatbot en la nube y despliégalo en Azure
 
+[:construction: Este curso está en desarrollo :construction:]
+
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
 Azure.
 
@@ -51,40 +53,91 @@ así como entregables y método de evaluación.
 
 ## Syllabus
 
-NOTA: Este es un ejemplo de syllabus que sirve para ilustrar las convenciones de
-vocabulario, estructura de archivos, nombre de carpetas/archivos, ... Cada curso
-es diferente, así que la cantidad de unidades, su tamaño y formato pueden variar
-considerablemente, siempre que se mantenga una misma terminología y formato
-básico. Ante la duda no dudes en preguntar ;-)
-
-### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
+### Unidad 01: Principios de diseño y tipos de bots
 
 Un párrafo que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-### Unidad 02: [Taller de implementación 1 - Proyecto](02-workshop)
+### Unidad 02: Microsoft Bot Framework
 
-En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
-blah blah blah...
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
-### Unidad 03: [Otra unidad](03-another-unit)
+### Unidad 03: Servicios cognitivos
 
-Un párrafo que describa lo que va a ocurrir durante esta unidad...
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
-### Unidad 04: [Taller de implementación 2 - Proyecto](04-workshop)
+### Unidad 04: Prueba de bots
 
-En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
-blah blah blah...
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
-### Unidad 05: [Demos de proyectos](05-demos)
+### Unidad 05: Vigilar la salud de los bots - Telemetría
 
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+Un párrafo que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
 ***
 
 ## Agenda
 
-...
+### Día 1: Presencial (3h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Bienvevida
+| 2 | 10min    | Presentación de retos
+| 3 | 10min    | Creación de equipos
+| 4 | 30min    | Taller: Selección/propuestas de retos
+| 5 | 30min    | Taller: Entorno de desarrollo y primeros pasos en Azure
+| 6 | 10min    | Break
+| 7 | 30min    | Seminario: Principios de diseño y tipos de bots
+| 8 | 30min    | Seminario: Introducción a Microsoft Bot Framework
+
+### Día 2: Webinar/Prework (1.5h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 60min    | Servicios cognitivos
+| 2 | 30min    | Q&A
+
+### Día 3: Presencial (3h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+| 2 | 160min   | Hacking
+
+### Día 4: Webinar (1.5h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 60min    | Prueba de bots
+| 2 | 30min    | Q&A
+
+### Día 5: Presencial (3h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+| 2 | 160min   | Hacking
+
+### Día 6: Webinar (1.5h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 60min    | Telemetría
+| 2 | 30min    | Q&A
+
+### Día 7: Presencial (3h)
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+| 2 | 90min    | Hacking
+| 2 | 10min    | Break
+| 2 | 60min    | Demos
 
 ***
 
@@ -99,8 +152,8 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ## Libros
 
-Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
+El curso puede estar acompañado de una lista detallada de libros relacionados
+con los temas tratados.
 
 ## Benchmarks
 
