@@ -94,7 +94,7 @@ Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ## Contribuidores
 
-* [@xorxe](https://github.com/xorxe) (autor)
+* [@jcastanedacano](https://github.com/jcastanedacano) (autor)
 * [@lupomontero](https://github.com/lupomontero) (coordinador)
 
 ## Libros
