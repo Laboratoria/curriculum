@@ -104,7 +104,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) ¿Cuál es la opción que nos da un evento jQuery?
+### 10) ¿Cuál de las siguientes opciones corresponde a un evento de jQuery?
 
 #### Opciones
 
