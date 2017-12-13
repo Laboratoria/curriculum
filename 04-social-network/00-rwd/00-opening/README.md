@@ -11,7 +11,7 @@
 En esta unidad aprenderemos:
 
 - A crear una página web utilizando el enfoque de diseño `Responsive Web Design`
-- A utilizar grid system, medias queries y distintos frameworks para
+- A utilizar grid system y medias queries para
   estructurar de mejor manera nuestro sitio.
 
 ## ¿Por qué aprender Responsive Web Design?

@@ -14,7 +14,7 @@
 
 ## Preguntas
 
-### 1) Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos. Es una definición que corresponde a...
+### 1) "Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos". Es una definición que corresponde a:
 
 #### Opciones
 
