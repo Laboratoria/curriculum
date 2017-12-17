@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `10min`
+- Duración: `30min`
 
 ***
 
@@ -20,10 +20,12 @@ condiciones dadas al @media son verdaderas**.
 
 ![Sintaxis de un media query](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg "Sintaxis de un media query")
 
+
 Los Media Queries están conformadas por **Media Types**, **Media Features**
 y el bloque de código a ejecutar si las condiciones entregadas en el media
-type y el media feature son verdaderas. Todo esto se conecta gracias a los 
+type y el media feature son verdaderas. Todo esto se conecta gracias a los
 **operadores lógicos** correspondientes.
+
 
 ![Media Queries](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)
 
@@ -37,9 +39,9 @@ Los **media features** corresponden a la condición que debe cumplir el
 dispositivo y la cual debe ser verdadera para que se aplique el código contenido
 en nuestra media query.
 
-Los media features más comunes son los referidos a las dimensiones de pantalla de 
-dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con height 
-y width), o lo que es más interesante, a partir de qué ancho o alto se aplicarán 
+Los media features más comunes son los referidos a las dimensiones de pantalla de
+dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con height
+y width), o lo que es más interesante, a partir de qué ancho o alto se aplicarán
 (con min/max-width y min/max-height).
 
 ![Media Feature](https://github.com/Laboratoria/curricula-js/blob/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
@@ -92,3 +94,8 @@ Puedes profundizar un poco más en Media Queries y Viewport en:
 
 - [¿Cómo utilizamos los media queries?](http://www.bytpher.com/c/1
 m/6-los-media-queries)
+
+### Material adicional
+
+Además, en tu tiempo libre puedes leer un poco sobre Device Pixel Ratio o
+DPR cómo también se le conoce ;). [Aquí la información](https://binaria.com/blog/device-pixel-ratio-consejos-para-desarrolladores/).

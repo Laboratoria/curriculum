@@ -14,7 +14,7 @@
 
 ## Preguntas
 
-### 1) Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos. Es una definición que corresponde a...
+### 1) "Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos". Es una definición que corresponde a:
 
 #### Opciones
 
@@ -127,7 +127,7 @@
 1. Falta indicar el meta viewport en el head
 2. Falta el meta charset UTF8 en el head
 3. Falta agregar el script en el footer
-4. Falta hacer el website :P
+4. Falta hacer el website
 
 <solution style="display:none;">1</solution>
 
