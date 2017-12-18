@@ -14,6 +14,4 @@
 
 ### 3. Respondamos las preguntas del opening
 
-- ¿Cuáles son las fases de un proceso de diseño?
-
 - ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?

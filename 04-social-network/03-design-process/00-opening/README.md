@@ -10,7 +10,7 @@
 
 En esta lección aprenderemos:
 
-- Cuáles son las fases de un proceso de diseño
+- Cómo usar el feedback de usuarios reales para dar forma a un producto o servicio
 - Cuál es el estado actual y cuáles son las tendencias en UX Design
 
 
@@ -29,8 +29,6 @@ responder al terminar esta unidad. Utiliza estas preguntas como guía para
 orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
-
-- ¿Cuáles son las fases de un proceso de diseño?
 
 - ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?
 
