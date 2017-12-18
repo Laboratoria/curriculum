@@ -6,6 +6,8 @@
 
 ***
 
+[![Análisis de problemas](https://embed-ssl.wistia.com/deliveries/9629feb0261791d675b02a05bbe001d8143efd7d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/3ct2htk247?wvideo=3ct2htk247)
+
 ## Introducción
 
 Cuando hacemos un modelo de Ciencia de Datos siempre queremos resolver un
@@ -63,7 +65,7 @@ representación de lo que escucharon.
 
 ### Puntos claves en la construcción del Árbol de Problemas
 
-Tal como se referencia en [](http://www.jjponline.com/marcologico/problema.html),
+Tal como se referencia en [Planificación de proyectos orientada a objetivos](http://www.jjponline.com/marcologico/problema.html),
 los puntos claves de la construcción del árbol son:
 
 * Un problema no es la ausencia de su solución, sino un estado existente

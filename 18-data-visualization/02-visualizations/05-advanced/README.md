@@ -5,6 +5,7 @@
 * Duración: `4min`
 
 ***
+[![Visualizaciones avanzadas](https://embed-ssl.wistia.com/deliveries/773a597519f74e9179ba9ffa316428be87075fe7.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/uxd4qhayuc?wvideo=uxd4qhayuc)
 
 ## Introducción
 
@@ -26,7 +27,7 @@ como ha evolucionado la humanidad.
 Te invitamos a disfrutar de este video y la historia contada por Hans para que
 entiendas el impacto que esta visualización puede causar:
 
-[](https://www.youtube.com/watch?v=V8lbiiTF2P0)
+[La alegría de las estadísticas](https://www.youtube.com/watch?v=V8lbiiTF2P0)
 
 Espero que hayas disfrutado el video, y además hayas visto lo que tu también
 puedes lograr cuando aprendas a combinar las habilidades de visualización que tu
@@ -62,4 +63,4 @@ El componente adicional en este caso es el tiempo.
 ## Más gráficos avanzados
 
 En la lección 4.7 mostraremos algunas visualizaciones adicionales para que
-tengas ideas que otros recursos puedes aprender
+tengas ideas que otros recursos puedes aprender.

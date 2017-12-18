@@ -111,7 +111,8 @@ Datas adicionales:
 4. Medallas Olímpicas desde 1896 a 2014
 5. Rango de Películas de Rotten Tomatoes
 6. Comercio exterior de 12 países Americanos entre 1993 hasta 2013
-7. Resultados de los partidos de la Premier League de las temporadas 10/11 hasta la temporada 16/17
+7. Resultados de los partidos de la Premier League de las temporadas 10/11 hasta
+   la temporada 16/17
 
 ### Unidad 2: [Introducción a visualizaciones](02-intro-2)
 
@@ -174,7 +175,7 @@ Presentación de la historia a una audiencia
 ## Autor(es) / Colaboradores
 
 * [María Inés Plaza Schwarck](https://github.com/MariPlaza)
-* Carolina Covarrubias
+* [Carolina Covarrubias](https://github.com/CaroLaboratoria)
 * [Alejandro Rodriguez Cuellar](https://github.com/arcuellar88)
 
 ## Libro referencial

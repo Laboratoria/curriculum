@@ -5,6 +5,7 @@
 * Duración: `10min`
 
 ***
+[![El caso del promedio ponderado](https://embed-ssl.wistia.com/deliveries/c0b91a043f5eb2aabe9f6b121bd0bbf7651330bb.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/1zt3i564qa?wvideo=1zt3i564qa)
 
 ## Introducción
 

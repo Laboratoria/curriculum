@@ -6,7 +6,7 @@
 
 ***
 
-## Objetivo de las otras fuentes de datos.
+## Objetivo de las otras fuentes de datos
 
 En este curso vamos a llevarte de la mano para construir el tablero de
 Penetración de Internet. Queremos llevarte paso a paso para que puedas estudiar
@@ -33,21 +33,20 @@ Ahora a conocer que fuentes de datos tenemos para tí.
 Hemos escogido diversos temas para que puedas seleccionar el que mejor se adapta
 a tus intereses y personalidad. Estos son los temas:
 
-1. Indicadores de Género
+1. Indicadores de género
 2. Detalle de transacciones en una tienda
 3. Relación entre fertilidad y nivel educativo femenino en el mundo
 4. Medallas Olímpicas desde 1896 a 2014
-5. Rango de Películas de Rotten Tomatoes
+5. Rango de películas de Rotten Tomatoes
 6. Comercio exterior de 12 países Americanos entre 1993 hasta 2013
 7. Resultados de los partidos de la Premier League de las temporadas 10/11 hasta
    la temporada 16/17
 
-
-### 1. Indicadores de Género
+### 1. Indicadores de género
 
 Si quieres saber más de la situación de las mujeres en el mundo, esta fuente de
 datos te permitirá conocer diferentes indicadores de género y su situación
-alrededor del mundo.  
+alrededor del mundo.
 
 Algunas preguntas que pudieras responder son: ¿Qué países se encuentran mejor en
 términos de indicadores de género? ¿Cómo han evolucionado los indicadores? ¿Qué
@@ -89,7 +88,7 @@ medallas? ¿Cuántas medallas ha ganado tu país? ¿Hay países que a pesar de n
 tener tantas medallas, se destaquen en una disciplina específica? ¿Han cambiado
 las tendencias de los resultados con el tiempo?
 
-### 5. Rango de Películas de Rotten Tomatoes
+### 5. Rango de películas de Rotten Tomatoes
 
 Si te gusta el cine, esta fuente de datos es la tuya. Aquí podrás ver el rango y
 la evaluación que han recibido las películas en diferentes categorías y ver si
@@ -116,7 +115,6 @@ economía? ¿De qué productos depende un país, tanto en importaciones como
 exportaciones? ¿Quienes son los principales países / socios comerciales? ¿Ha
 cambiado la tendencia con el tiempo?
 
-
 ### 7. Resultados de los partidos de la Premier League de las temporadas 10/11 hasta la temporada 16/17
 
 Si te gusta el futbol y en especial el futbol inglés, esta fuente de datos es
@@ -130,7 +128,6 @@ Algunas preguntas que pudieras responder son ¿Que equipos son el "dolor de
 cabeza" de los más grandes? ¿El árbitro impacta en el resultado? ¿El equipo que
 va ganando en el primer tiempo, gana generalmente el partido? ¿Quién tiene
 ventaja, el anfitrión o el visitante?
-
 
 ## Explora en detalle tus fuentes de datos
 

@@ -6,6 +6,8 @@
 
 ***
 
+[![Herramientas disponibles para creación de visualizaciones](https://embed-ssl.wistia.com/deliveries/4cf2f8fbe5082bec5ef265d2f6ec6239e1e831b4.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/twhf173f6j?wvideo=twhf173f6j)
+
 ## Introducción
 
 Existen muchas y diversas herramientas de visualización en el mercado. Y todas

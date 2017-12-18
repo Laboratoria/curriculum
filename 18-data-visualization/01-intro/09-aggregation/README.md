@@ -6,7 +6,7 @@
 
 ***
 
-## Objetivo del Juego
+## Objetivo del juego
 
 Este juego ha sido diseñado para enseñarte los diferentes tipos de agregaciones
 sin involucrar tecnología al principio. La idea es poder entender los conceptos
@@ -16,11 +16,11 @@ tecnología.
 Deberás rellenar un tablero basado en el análisis de 4 poblaciones diseñadas de
 manera específica para ilustrar los conceptos de agregaciones.
 
-## Preparación del Juego
+## Preparación del juego
 
 Jugaremos en squads de 3 a 4 personas máximo.
 
-## Explicación de la Dinámica
+## Explicación de la dinámica
 
 Cada squad recibirá los siguientes materiales:
 

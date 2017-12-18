@@ -6,6 +6,8 @@
 
 ***
 
+[![Visualizaciones de tiempo](https://embed-ssl.wistia.com/deliveries/e23227163ded1d7abcfb3605f2c94cad23cba949.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/zlm3iovgvx?wvideo=zlm3iovgvx)
+
 ## Introducción
 
 Estas visualizaciones están relacionadas con una dimensión temporal y el gráfico
@@ -19,7 +21,7 @@ desagrupar por partes de una fecha tales como año, trimestre, mes, semana, día
 hora, minuto y segundo, lo que te permitirá entender tendencias nuevas sobre tu
 data.
 
-## Series de Tiempo
+## Series de tiempo
 
 ### Cuando se usa
 
@@ -51,7 +53,7 @@ información en un mismo gráfico.
 * Es muy útil y muy común colocar comentarios a los puntos más relevantes para
   explicar tendencias.
 
-## Otras visualizaciones de Tiempo
+## Otras visualizaciones de tiempo
 
 Existen otras visualizaciones de tiempo cómo los calendarios, las líneas de
 tiempo o timelines, los gráficos de Gannt que permiten planificar tiempos de

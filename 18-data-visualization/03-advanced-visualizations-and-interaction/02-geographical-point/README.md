@@ -6,7 +6,7 @@
 
 ***
 
-# Introducción
+## Introducción
 
 Es más difícil  entender los conceptos que hay detrás de las coordenadas
 geográficas de un mapa, que hacerlo en Tableau. De hecho, la capacidad de

@@ -6,6 +6,8 @@
 
 ***
 
+[![Fuentes y tipos de datos](https://embed-ssl.wistia.com/deliveries/d9be7c444a3052c50cbd20c18262333be25ab70c.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/n1rb7rnv5v?wvideo=n1rb7rnv5v)
+
 ## Introducción
 
 Para poder crear visualizaciones necesitamos data con la que podamos trabajar.
@@ -25,9 +27,9 @@ Hay muchas maneras de clasificar los tipos de data. En esta lección explicaremo
 * Por Nivel de Agregación
 * Por Uso de la Data
 
-## Espectro de las fuentes de Data
+## Espectro de las fuentes de data
 
-### Por tipo de Acceso
+### Por tipo de acceso
 
 Existen muchas fuentes de información y de acuerdo al Instituto de Data
 Abierta(ODI por sus siglas en inglés) hay 5 espectros de data:
@@ -59,7 +61,7 @@ Abierta(ODI por sus siglas en inglés) hay 5 espectros de data:
   restringido. Ejemplo de esto son los horarios de autobus y varias de las datas
   abiertas de organismos internacionales.
 
-### Por Tamaño de la Data
+### Por Tamaño de la data
 
 El tamaño de la data se refiere al volumen o cantidad de registros que existen
 dentro de ella. Es importante porque procesar data puede tomar tiempo y para
@@ -71,15 +73,15 @@ de datos relacionales o SQL y las grandes necesitas de las nuevas tecnologías
 para analizarlas. Adicionalmente a medida que crece el volumen de la data, crece
 la velocidad en la que se genera y la diversidad de la misma.
 
-### Por Uso de la Data
+### Por Uso de la data
 
-Se refiere a que uso se le dará a la data y puede ser del tipo personal, comercial
-o gubernamental. Personal, si yo como persona voy a analizar esa información
-porque deseo entenderla, comercial cuando pienso analizarla para poder vender
-los resultados o tomar decisiones de negocio con ello y gubernamental cuando el
-gobierno usa la data para tomar decisiones de políticas públicas.
+Se refiere a que uso se le dará a la data y puede ser del tipo personal,
+comercial o gubernamental. Personal, si yo como persona voy a analizar esa
+información porque deseo entenderla, comercial cuando pienso analizarla para
+poder vender los resultados o tomar decisiones de negocio con ello y
+gubernamental cuando el gobierno usa la data para tomar decisiones de políticas públicas.
 
-### Por Nivel de Agregación
+### Por nivel de agregación
 
 El nivel de agregación va de la mayor cantidad de detalle (o granularidad) hasta
 el nivel de indicador o resumen por agrupación de dicha información.
@@ -99,7 +101,7 @@ de penetración de Internet por país y por año que usaremos en nuestro ejemplo
 
 Esta data tiene ya un nivel de agregación previo para facilitarnos el análisis.
 
-## Escogencia de la Fuente de Datos
+## Escogencia de la fuente de datos
 
 Para escoger que fuente de información deseamos usar, hay que entender el
 problema y formular la pregunta.

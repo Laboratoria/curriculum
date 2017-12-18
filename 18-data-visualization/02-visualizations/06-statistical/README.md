@@ -6,6 +6,8 @@
 
 ***
 
+[![Visualizaciones estadísticas](https://embed-ssl.wistia.com/deliveries/7ecd82ac740164f1cf0bad6cf8c15f4d5d1d5525.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/438txnbrv7?wvideo=438txnbrv7)
+
 ## Introducción
 
 Tal cómo recordaras, las visualizaciones estadísticas son todas aquellas que nos
@@ -18,8 +20,7 @@ bigotes.
 Un histograma es una representación gráfica de una variable en forma de barras,
 donde el tamaño de la barra representa la frecuencia de los valores.
 
-
-### Cuando se Usa
+### Cuando se usa
 
 Son ideales para entender como se distribuye la frecuencia de una población
 
@@ -35,13 +36,13 @@ aparecen en la población.
   entender.
 * Siempre estás usando la misma variable, así que mantén un sólo color.
 
-## Gráficos de Caja y Bigotes
+## Gráficos de caja y bigotes
 
 Es un gráfico que permite visualizar casi todas las agregaciones que estudiamos
-en la lección 2.6 al mismo tiempo.  
+en la lección 2.6 al mismo tiempo.
 Está compuesto por un rectángulo (la «caja») y dos brazos (los «bigotes»).
 
-### Cuando se Usa
+### Cuando se usa
 
 Son ideales para entender las agregaciones de una población y sobre la
 existencia de valores atípicos y la forma de la distribución de los datos.
@@ -55,7 +56,7 @@ diferencia de la población.
 La caja posee una línea central que representa la mediana o centro de la
 población tal y cómo lo aprendimos en el juego.
 Y el comienzo y final de la caja se definen con el 25% de la población y termina
-en el 75% de la misma.  
+en el 75% de la misma.
 Los colores son opcionales si se usan varias cajas para diferenciar una de otra.
 
 Los conceptos de cuando no se cumple el casi siempre de los bigotes y el
@@ -68,4 +69,4 @@ estudiados en más detalle en otro curso dedicado a la estadística.
   población según una división específica, por ejemplo continente en nuestro
   ejemplo de Penetración de Internet.
 * Se puede usar colores si se combina con la dimensión X, pero se recomienda que
-  cada cajita sea exclusivamente de un sólo color. 
+  cada cajita sea exclusivamente de un sólo color.

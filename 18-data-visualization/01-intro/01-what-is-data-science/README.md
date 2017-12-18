@@ -11,7 +11,7 @@
 Primero se incluye el siguiente video para dar de manera introductoria al
 concepto de la Ciencia de Datos:
 
-[](https://www.youtube.com/watch?v=D6j3VS1L96o&index=29&list=WL)
+[¿Qué es Científico de datos?](https://www.youtube.com/watch?v=D6j3VS1L96o&index=29&list=WL)
 
 ## Contenido del Video Interno
 

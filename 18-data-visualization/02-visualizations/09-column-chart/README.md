@@ -29,13 +29,17 @@ el ejemplo del tablero de penetración de Internet que guía nuestro curso y por
 
 ¡Manos a la obra!
 
-## Gráfico de Columnas - A construir con Lego
+## Gráfico de columnas - A construir con Lego
 
-### Datos, Instrucciones y Resultado
+[![Gráfico de Columnas](https://embed-ssl.wistia.com/deliveries/24c7310d9dcea87b60cf513d508e4edc9fef47af.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/7yo592pilh?wvideo=7yo592pilh)
 
-## Gráfico de Columnas - ¿Cómo se hace en nuestro ejemplo?
+### Datos, instrucciones y resultado
 
-## Gráfico de Columnas - Tu Turno
+## Gráfico de columnas - ¿Cómo se hace en nuestro ejemplo?
+
+[![Ejemplo paso a paso](https://embed-ssl.wistia.com/deliveries/9b18053ca2c7bfcfe3f31b29db5ab1b8ff250e6d.jpgs?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/jpsm7nit22?wvideo=jpsm7nit22)
+
+## Gráfico de columnas - Tu turno
 
 Explora tu data y construye un gráfico de columna que te ayude a describir la
 situación de manera sencilla. ¡A jugar con la data!

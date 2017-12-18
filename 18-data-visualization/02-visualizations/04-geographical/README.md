@@ -6,6 +6,8 @@
 
 ***
 
+[![Visualizaciones geográficas](https://embed-ssl.wistia.com/deliveries/870162709b69819490e0c99daa77ff2060e06ca9.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/6sy595ghxu?wvideo=6sy595ghxu)
+
 ## Introducción
 
 Se usan cuando nuestra información puede ser conectada con un punto geográfico.
@@ -53,9 +55,9 @@ Sobre este tema, hay muchos detalles que se pueden estudiar y que son importante
 si quieres trabajar como cientifica de datos en el futuro con data geográfica.
 En el futuro podremos organizar un curso sólo dedicado a este detalle. Mientras
 tanto si quieres leer más información, te invitamos a visitar:
-http://desktop.arcgis.com/es/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm
+[Qué son los sistemas de coordenadas geográficas](http://desktop.arcgis.com/es/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm)
 
-## Mapas de Punto
+## Mapas de punto
 
 ### Cuando se usa
 
@@ -80,7 +82,7 @@ punto para mostrar otras dimensiones de la data.
 * Si usaras una escala categórica o de secuencia dependerá de la variable que
   quieras representar.
 
-## Mapas de Área
+## Mapas de área
 
 ### Cuando se usa
 
@@ -104,7 +106,6 @@ queremos analizar.
   colocar y quitar capas de información para que la persona pueda entender
   fácilmente la historia.
 
-
 ## Variaciones
 
 Lo interesante de las dimensiones geográficas es que permiten combinar más
@@ -114,4 +115,4 @@ gráficos que aprendiste anteriormente para poder entender en una sola
 visualización más información sobre una serie de data.
 
 Sólo ten en cuenta que cuando combines esas ideas no se pierda el entendimiento,
-al final siempre te interesa que tu historia pueda ser entendida por todos. 
+al final siempre te interesa que tu historia pueda ser entendida por todos.

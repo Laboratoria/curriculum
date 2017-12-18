@@ -6,6 +6,8 @@
 
 ***
 
+[![Teoría de colores para uso en visualizaciones](https://embed-ssl.wistia.com/deliveries/55009030a662a18470bfda9ca5da04ca380444da.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/x8m398kqnc?wvideo=x8m398kqnc)
+
 ## Introducción
 
 Los colores son elementos muy poderosos de toda visualización porque agregan
@@ -22,7 +24,7 @@ Con este propósito nos interesa entender 2 aspectos:
 * Psicología de los colores.
 * Dimensiones de los colores.
 
-## Psicología del Color
+## Psicología del color
 
 Cada color está asociado con un sentimiento o acción. Estos sentimientos pueden
 tener connotaciones positivas y negativas. Así pues el rojo representa pasión
@@ -36,7 +38,7 @@ se ven ellas mismas. Así pues Nintendo y Lego escogieron el rojo para
 posicionarse como juveniles, mientras que IBM usa el azul para transmitir
 confianza y Google usa varios colores para transmitir diversidad.
 
-## Dimensiones de los Colores
+## Dimensiones de los colores
 
 Los colores tienen 3 dimensiones
 
@@ -108,4 +110,4 @@ La escogencia de colores es importante porque permitirá reforzar a través de l
 psicología y las percepciones el mensaje que quieres comunicar. Úsalos
 adecuadamente.
 
-Para más información te invitó a leer: [Color-Wiki](https://es.wikipedia.org/wiki/Color)
+Para más información te invitó a leer: [Color-Wikipedia](https://es.wikipedia.org/wiki/Color)

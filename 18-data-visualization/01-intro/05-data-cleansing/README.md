@@ -6,27 +6,35 @@
 
 ***
 
+[![Conceptos introductorios de limpieza y preparación de la data](https://embed-ssl.wistia.com/deliveries/0f0f054ef945cb82f21e46a281d61158fa3dae06.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/z146y6d8jw?wvideo=z146y6d8jw)
+
 ## Introducción
 
 De acuerdo a la revista Forbes, en promedio la preparación de los datos
-corresponde al 80% del trabajo de los Científicos de Datos. En esta sesión
+corresponde al 80% del trabajo de los científicos de Datos. En esta sesión
 explicaremos en qué consiste este proceso que aunque nos quita mucho tiempo es
 fundamental para el exito del análisis, ya que si no trabajamos en revisar y
 mejorar la calidad de los datos que utilizamos podemos llegar a conclusiones que
 no son válidas.
 
-[](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#553c3036f637)
+[Artículo de Forbes sobre limpieza de big data](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#553c3036f637)
 
 ## Proceso de preparación de datos
 
 Desde la fuente de los datos hasta el análisis final existen varios pasos que el
 Científico de Datos debe realizar. El proceso tradicional de análisis de datos
-consiste en 4 pasos: 1) Copiar, 2) Limpiar, 3) Guardar y 4) Analizar. Lo
-llamamos tradicional porque debido al incremento en el volumen y en la velocidad
-de generación de los datos (lo que se conoce como "Big Data"), no es posible
-guardarlos antes de analizarlos. En esta sesión vamos a enfocarnos en el proceso
-tradicional, el cual sigue siendo relevante ya que muchos de los conceptos
-actuales se basan de este.
+consiste en 4 pasos:
+
+1. Copiar
+2. Limpiar
+3. Guardar
+4. Analizar
+
+Lo llamamos tradicional porque debido al incremento en el volumen y en la
+velocidad de generación de los datos (lo que se conoce como "Big Data"), no es
+posible guardarlos antes de analizarlos. En esta sesión vamos a enfocarnos en el
+proceso tradicional, el cual sigue siendo relevante ya que muchos de los
+conceptos actuales se basan de este.
 
 ### 1. Copiar
 
@@ -102,7 +110,7 @@ datos, los archivos de texto y los sistemas de archivos distribuidos.
 Al igual que las técnicas para limpiar los datos, los detalles de estas formas
 de guardar los datos harán parte de otro curso.
 
-## 4. Analizar
+### 4. Analizar
 
 Este paso es el tema central de este curso. Una de las principales herramientas
 de análisis de datos son las visualizaciones. Una vez los datos están copiados,

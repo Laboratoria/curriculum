@@ -6,6 +6,8 @@
 
 ***
 
+[![Formulación de la pregunta](https://embed-ssl.wistia.com/deliveries/2e3a2fd4f7421c332bbdfa8aad5e60ed9c18f154.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/5tg9bawjfc?wvideo=5tg9bawjfc)
+
 ## Introducción
 
 En la metodología de Marco Lógico se usa el árbol de problemas para describir la
@@ -29,9 +31,9 @@ habíamos identificado anteriormente y se siguen los siguientes pasos:
 1. Volver a escribir el árbol de problemas pero esta vez de manera positiva.
 2. Examinar que la relación de medios fin resultante sea coherente y en caso de
    no serlo:
-   2.1. Modificar las frases existentes
-   2.2. Añadir nuevos objetivos
-   2.3. Eliminar los objetivos que sean innecesarios
+   - Modificar las frases existentes
+   - Añadir nuevos objetivos
+   - Eliminar los objetivos que sean innecesarios
 
 ## Conectando con la formulación de las preguntas
 

@@ -24,7 +24,7 @@ pero en esta lección estudiaremos en detalle las siguientes agregaciones:
  3. Rango
  4. Suma
  5. Cuenta
- 6. Media Aritmética
+ 6. Media aritmética
  7. Mediana
  8. Moda
 
@@ -151,7 +151,7 @@ Dificultad: Muy sencillo
 * Tableau: Count - Función
 * Excel: CONTAR - Función
 
-## Media Aritmética
+## Media aritmética
 
 ### Definición
 

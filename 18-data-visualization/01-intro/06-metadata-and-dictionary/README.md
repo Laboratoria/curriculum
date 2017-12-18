@@ -6,9 +6,11 @@
 
 ***
 
+[![Metadatos](https://embed-ssl.wistia.com/deliveries/a3d246f95402c89335ef538ca5ff1612d5c0319d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/gt29vbk6tu?wvideo=gt29vbk6tu)
+
 ## Introducción
 
-Incluir 3 Video 4 min Metadatos, Fuentes y Diccionario de una fuente de datos
+Incluir 3 Video 4 min metadatos, fuentes y diccionario de una fuente de datos
 
 En esta sesión veremos qué son los metadatos y para qué sirven. Además
 explicaremos en detalle dos de los componentes que forman parte de los
@@ -42,7 +44,7 @@ penetración de internet en Perú y en los metadatos vemos que solo se le pregun
 a personas que viven en Lima, no podemos utilizar estos datos para calcular la
 penetración de internet de Perú ya que la muestra no es representativa.
 
-## Elementos Relevantes de los Metadatos
+## Elementos relevantes de los metadatos
 
 Ahora vamos a entrar en detalle en dos partes importantes de los metadatos: la
 fuente y el diccionario.
@@ -88,4 +90,5 @@ el nombre de las columnas o agregar la descripción de la columna en la
 herramienta que estamos utilizando para que el usuario final entienda los
 gráficos.
 
-Puedes conseguir más información al respecto en la página de Tableau:[](https://www.tableau.com/es-es/learn/tutorials/on-demand/editing-metadata-and-saving-data-sources)
+Puedes conseguir más información al respecto en la página de Tableau:
+[Edición de metadatos y almacenamiento de fuentes de datos](https://www.tableau.com/es-es/learn/tutorials/on-demand/editing-metadata-and-saving-data-sources)
