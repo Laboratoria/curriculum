@@ -11,7 +11,7 @@
 
 ***
 
-## 1. Elige una web de tu preferencia y explica qué partes conforman el UX y que partes el UI
+## 1. Elige una web de tu preferencia y explica qué partes conforman el UX y qué partes el UI
 
 ## 2. Identifica los elementos de navegación en los siguientes sites
 
@@ -43,7 +43,7 @@ Un ejemplo de dashboard en otro contexto es este:
 
 ![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg)
 
-**Recuerda** que este sketch, es parte del [producto final](https://github.com/Laboratoria/curricula-js/blob/01-intro/02-interactive-site/05-data-dashboard/02-final-product-challenge.md)
+**Recuerda** que este sketch es parte del [producto final](https://github.com/Laboratoria/curricula-js/blob/01-intro/02-interactive-site/05-data-dashboard/02-final-product-challenge.md)
 de esta unidad.
 
 Haz un sketch del dashboard de Laboratoria.
