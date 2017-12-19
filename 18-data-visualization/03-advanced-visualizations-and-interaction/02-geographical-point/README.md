@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `4min`
+* Duración: `5min`
 
 ***
 
@@ -16,3 +16,5 @@ grandes ventajas de Tableau.
 
 A continuación te mostraremos como hacer el gráfico de punto de nuestro ejemplo
 de la penetración de Internet y luego será tu turno.
+
+[![Visualización de mapas por punto geográfico](https://embed-ssl.wistia.com/deliveries/9c1d419be0809401d3dfd210477cd37c901eeafe.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/1e4ol0jssc?wvideo=1e4ol0jssc)

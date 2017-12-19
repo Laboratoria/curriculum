@@ -2,15 +2,18 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `7min`
+* Duración: `15min`
 
 ***
 
+[![Introducción a las coordenadas geográficas](https://embed-ssl.wistia.com/deliveries/531217c0af0724426e076571f3a95055d44333c3.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/p9azakzo72?wvideo=p9azakzo72)
+
 ## Introducción
 
-Tal y como aprendimos en la lección 4.4. Todos los puntos geográficos de la
-tierra, poseen 2 referencias para poder ubicarlo en un mapa. Estas referencias
-se conocen como coordenadas geográficas y son la Latitud y Longitud.
+Tal y como aprendimos en la lección de Visualizaciones geográficas. Todos los
+puntos geográficos de la tierra, poseen 2 referencias para poder ubicarlo en un
+mapa. Estas referencias se conocen como coordenadas geográficas y son la Latitud
+y Longitud.
 
 ## Proyecciones cartográficas
 

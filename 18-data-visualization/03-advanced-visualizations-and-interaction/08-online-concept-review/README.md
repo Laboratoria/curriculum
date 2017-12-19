@@ -1,7 +1,7 @@
 # Revisión de conceptos online
 
 * Tipo: `seminario`
-* Formato: `self-paced`
+* Formato: `guiado`
 * Duración: `30min`
 
 ***

@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `4min`
+* Duración: `20min`
 
 ***
 
@@ -10,6 +10,8 @@
 
 Ya conoces que es un Tablero de Información, ahora aprenderás a través de
 nuestro ejemplo a crear un tablero con el uso de Tableau.
+
+[![Creación de un tablero de información](https://embed-ssl.wistia.com/deliveries/7a603ddcda0bd57fb2bda3badd3a66645cfd7849.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/bkufct9br3?wvideo=bkufct9br3)
 
 ## Diseño preliminar
 
@@ -42,3 +44,5 @@ creas necesario.
 
 A continuación mostraremos como hacer un tablero de información en Tableau con
 una versión de diseño simplificada y luego podrás probarlo por ti misma.
+
+[![Creación de un tablero de información paso a paso](https://embed-ssl.wistia.com/deliveries/45fa0613810a43e30837f3486f0c8b2f86e8a497.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/ndp177puyn?wvideo=ndp177puyn)

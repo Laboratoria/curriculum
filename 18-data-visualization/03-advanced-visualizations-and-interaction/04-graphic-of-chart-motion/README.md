@@ -25,3 +25,5 @@ Ahora te presentaremos un corto video de cómo hacerlo en Tableau y como te
 mencionamos también transformaremos los gráficos de burbuja y de torta, además
 del mapa en gráficos con movimiento y después será tu turno de hacerlo por tu
 cuenta.
+
+[![Gráfico de Chart Motion](https://embed-ssl.wistia.com/deliveries/81d79825545c0502614b97197b6c667ff1bc0761.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/3vu3gkzxe3?wvideo=3vu3gkzxe3)

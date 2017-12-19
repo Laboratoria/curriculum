@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `5min`
+* Duración: `10min`
 
 ***
 
@@ -10,7 +10,7 @@
 
 ## Introducción
 
-Cuando hacemos un modelo de Ciencia de Datos siempre queremos resolver un
+Cuando hacemos un modelo de ciencia de datos siempre queremos resolver un
 problema, este problema es humano no tecnológico, así que debes poder expresar
 lo que quieres resolver en palabras tan sencillas que hasta tu abuelita lo pueda
 entender.

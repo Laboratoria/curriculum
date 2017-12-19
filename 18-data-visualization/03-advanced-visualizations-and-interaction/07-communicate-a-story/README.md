@@ -2,9 +2,11 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `5min`
+* Duración: `20min`
 
 ***
+
+[![Cómo comunicar una historia usando el tablero de información](https://embed-ssl.wistia.com/deliveries/d2dea59d684d4ec6e21c9149063c7d0741f1f901.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/e99rd3sbtf?wvideo=e99rd3sbtf)
 
 ## Introducción
 
@@ -149,6 +151,8 @@ con ese enfoque.
    tu historia. Y luego a presentar!.
 
 ## Lista de chequeo
+
+[![Lista de chequeo](https://embed-ssl.wistia.com/deliveries/fe78a6d13fe4ccb6a22c9ef24e76b7f0d2258c96.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/4edn1nk8vr?wvideo=4edn1nk8vr)
 
 Si seguiste en detalle cada uno de los pasos que explicamos anteriormente ya
 debes tener tu historia lista, sin embargo te compartimos estas preguntas de

@@ -21,8 +21,10 @@ crear el gráfico de movimiento o Motion Chart como el que vimos en el video.
 
 ## Gráfico de dispersión - ¿Cómo se hace en nuestro ejemplo?
 
-[![Gráfico de dispersión paso a paso](https://embed-ssl.wistia.com/deliveries/9396d7a241f5259cb46e8c5e21ae53616cd1c9db.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/qrkhfd1evj?wvideo=qrkhfd1evj)
+En el siguiente video aprenderemos como hacer un gráfico de dispersión paso a
+paso.
 
+[![Gráfico de dispersión paso a paso](https://embed-ssl.wistia.com/deliveries/9396d7a241f5259cb46e8c5e21ae53616cd1c9db.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/qrkhfd1evj?wvideo=qrkhfd1evj)
 
 ## Gráfico de dispersión - Tu turno
 

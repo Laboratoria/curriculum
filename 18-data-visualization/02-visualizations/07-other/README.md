@@ -62,8 +62,8 @@ contenidos en él.
 ## Gráfico de agrupación de conceptos
 
 Permite agrupar varios conceptos que están relacionados entre sí. Te invitamos a
-visitar la página: [Open Knowledge Maps](https://openknowledgemaps.org/) para ver una excelente
-aplicación de esta visualización.
+visitar la página: [Open Knowledge Maps](https://openknowledgemaps.org/), para
+ver una excelente aplicación de esta visualización.
 
 ## Cierre
 

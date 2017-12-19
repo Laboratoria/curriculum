@@ -1,10 +1,12 @@
-# Introducción
+# Trabajo en pareja con los tableros de cada una
 
 * Tipo: `taller`
 * Formato: `guiado`
 * Duración: `60min`
 
 ***
+
+## Introducción
 
 En este espacio tendrás tiempo para trabajar con una compañera y revisar los
 siguientes puntos:

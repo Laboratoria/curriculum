@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `6min`
+* Duración: `15min`
 
 ***
 
@@ -79,7 +79,8 @@ Se refiere a que uso se le dará a la data y puede ser del tipo personal,
 comercial o gubernamental. Personal, si yo como persona voy a analizar esa
 información porque deseo entenderla, comercial cuando pienso analizarla para
 poder vender los resultados o tomar decisiones de negocio con ello y
-gubernamental cuando el gobierno usa la data para tomar decisiones de políticas públicas.
+gubernamental cuando el gobierno usa la data para tomar decisiones de políticas
+públicas.
 
 ### Por nivel de agregación
 

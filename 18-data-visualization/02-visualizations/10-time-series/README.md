@@ -17,8 +17,9 @@ casi lista con tus primeras visualizaciones.
 
 ## Series de tiempo - ¿Cómo se hace en nuestro ejemplo?
 
-[![Gráfico de tiempo paso a paso](https://embed-ssl.wistia.com/deliveries/dbed807737129e34517516fc0aa0fab050e6356b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/3um8bupj0t?wvideo=3um8bupj0t)
+En el siguiente video aprenderemos como hacer una series de tiempo paso a paso.
 
+[![Gráfico de tiempo paso a paso](https://embed-ssl.wistia.com/deliveries/dbed807737129e34517516fc0aa0fab050e6356b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/3um8bupj0t?wvideo=3um8bupj0t)
 
 ## Series de tiempo - Tu turno
 

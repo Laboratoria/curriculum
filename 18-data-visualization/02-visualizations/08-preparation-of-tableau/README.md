@@ -1,4 +1,4 @@
-# Preparación de Tableau
+# Preparación de archivo Tableau Public
 
 * Tipo: `taller`
 * Formato: `guiado`

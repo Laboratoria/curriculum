@@ -2,15 +2,13 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `4min`
+* Duración: `10min`
 
 ***
 
-[![Metadatos](https://embed-ssl.wistia.com/deliveries/a3d246f95402c89335ef538ca5ff1612d5c0319d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/gt29vbk6tu?wvideo=gt29vbk6tu)
-
 ## Introducción
 
-Incluir 3 Video 4 min metadatos, fuentes y diccionario de una fuente de datos
+[![Metadatos](https://embed-ssl.wistia.com/deliveries/a3d246f95402c89335ef538ca5ff1612d5c0319d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/gt29vbk6tu?wvideo=gt29vbk6tu)
 
 En esta sesión veremos qué son los metadatos y para qué sirven. Además
 explicaremos en detalle dos de los componentes que forman parte de los

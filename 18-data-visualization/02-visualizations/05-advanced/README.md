@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `4min`
+* Duración: `15min`
 
 ***
 [![Visualizaciones avanzadas](https://embed-ssl.wistia.com/deliveries/773a597519f74e9179ba9ffa316428be87075fe7.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/uxd4qhayuc?wvideo=uxd4qhayuc)
