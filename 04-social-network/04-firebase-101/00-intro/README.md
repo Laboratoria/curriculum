@@ -35,6 +35,28 @@ sus propias necesidades.
 
     ![new](images/new-project.png)
 
-    Al presionar el botón de **CREATE PROJECT**
+4. Hecho lo anterior seleccionamos la opción de `Add Firebase to your web app`
 
-4. Nos desplega otra pantalla
+  ![firebase-web](images/firebase-web.png)
+
+  y nos arrojará unas líneas de script que pegaremos en nuestro desarrollo.
+
+  ![scripts](images/scripts.png)
+
+5. El primer script lo pondremos en nuestro **HTML** por encima de cualquier
+   otro script:
+
+   ![script-html](images/script-html.png)
+
+   y el siguiente en nuestro archivo js:
+
+   ![script-js](images/script-js.png)
+
+6. Y ya con esto tenemos Firebase en nuestro proyecto!!! Si revisamos nuestros
+  archivos quedan de la siguiente manera:
+
+  ![html](images/html.png)
+
+  ![js](images/js.png)
+
+>*Esto mismo es lo que viene en la documentación de firebase, compáralo e inténtalo.*
