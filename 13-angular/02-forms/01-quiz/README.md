@@ -26,11 +26,7 @@
 2. No
 3. Tal vez
 
-<<<<<<< HEAD
-<solution style="display:none;">4</solution>
-=======
 <solution style="display:none;">2</solution>
->>>>>>> bc7acf9f35efee3241a4ee1f96f0e0af2bba899e
 
 ### 3) ¿Cuál es la propiedad que indica si el usuario ha cambiando el valor de un campo?
 
@@ -41,8 +37,4 @@
 3. myControl.pristine
 4. myControl.value
 
-<<<<<<< HEAD
-<solution style="display:none;">4</solution>
-=======
 <solution style="display:none;">3</solution>
->>>>>>> bc7acf9f35efee3241a4ee1f96f0e0af2bba899e
