@@ -40,7 +40,47 @@ todo en el HTML para que funcione.
 
 ![Bootstrap](https://cdn-images-1.medium.com/max/800/0*NuuR2bjpZck1wC6g.)
 
-Ahora sí, ya con Bootstrap en nuestro proyecto podemos empezar a probar un
+Hablando de CDN, necesitamos entender: __¿Qué es CDN?__
+
+Imagina que quieres usar el CSS de Bootstrap o de alguna otra librería.
+ Podríamos simplemente descargar el archivo .css o .js y agregarlo a nuestro HTML.
+ Pero, ¿que pasa si este archivo __NO__ esta en nuestra computadora si
+ no en algún lugar de internet?
+
+Cuando tenemos el archivo en algún lugar de internet, en realidad está __en otra computadora__ alrededor del mundo.
+
+¿Que pasará si esta computadora esta al otro lado del mundo? ¿En China? ¿Korea?
+
+¿Crees que la distancia en nuestra computadora (que va a usar el archivo)
+y la computadora que tiene el archivo, afecte la carga de la página?
+
+__Si__, lo afecta bastante.
+
+Esto es por que conectarse a una computadora al otro lado del mundo es
+ mas tardado que conectarse a la computadora que esta al lado de
+ nosotros.
+
+CDN significa __Content Delivery Network__ (Red de distribución de contenido).
+
+Imaginemos que la computadora que tiene el archivo de bootstrap.css esta originalmente en China.
+
+Usando CDN ya no te conectas a China.
+
+Te conectas a algún lugar mas cercano. Como Estados Unidos.
+
+Analiza la siguiente imagen:
+
+![cdn-example](http://ba-devlab.com/wp-content/uploads/2016/04/cdn.png)
+
+Si estas en Africa, no te conectas a Europa. __Te conectas a Africa.__
+
+Si estas en Australia, no te conectas a Europa. __Te conectas a Australia.__
+
+Esto hace que los archivos __tarden menos__ en cargar (y tu página también).
+
+Sigamos con Bootstrap.
+
+Ahora sí, ya que esta descargado en nuestro proyecto podemos empezar a probar un
 poco de todo lo que nos ofrece:
 
 Una grid, íconos, botones, barras de navegación, etc.
