@@ -62,17 +62,17 @@ En la siguiente vista tenemos un formulario donde nuestro usuario puede
 escoger el país y debe ingresar su número de teléfono.
 El botón de **NEXT** debe estar deshabilitado hasta que se ingrese
 un número de 10 dígitos.
-![registro](lyft/ingreso-numero.jpg)
+![registro](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/ingreso-numero.jpg?raw=true)
 
 Una vez ingresado el número de teléfono se habilita el botón y al dar *click*
 debe enviar una alerta con un código generado aleatoriamente (LAB-000) y
 redireccionar a la siguiente vista.
-![codigo](lyft/generacion-codigo.jpg)
+![codigo](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/generacion-codigo.jpg?raw=true)
 
 En esta vista se debe ingresar el código dado anteriormente y una
 vez hecho esto se habilita el botón que redirecciona a nuestro usuario a la
 vista donde ingresa sus datos. *(Puede tener la opción de enviar otro código.)*
-![verificacion](lyft/verificacion-numero.jpg)
+![verificacion](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/verificacion-numero.jpg?raw=true)
 
 Para ingresar sus datos necesitamos un formulario que le pida su nombre,
 apellido y correo electrónico. Deberá también tener un checkbox para que se
