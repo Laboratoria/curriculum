@@ -2,14 +2,16 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: ` `
+- Duración: `60min`
 
 ***
 
 ## ¿Qué es y como podemos usar la autenticación?
 
 La autenticación es una manera de identificar a los usuarios en nuestra
-app/desarrollo. En la lectura anterior vimos como integrar Firebase en nuestro proyecto, ahora vamos a ver que se necesita para integrar la autenticación y que nuestros usuarios puedan acceder de esta manera a  nuestra app.
+app/desarrollo. En la lectura anterior vimos como integrar Firebase en nuestro
+proyecto, ahora vamos a ver que se necesita para integrar la autenticación y que
+nuestros usuarios puedan acceder de esta manera a  nuestra app.
 
 Ya se mencionó que en la página de Firebase viene toda la info que necesitamos,
 solo es cosa de buscarla, pero para no perder tanto tiempo [aquí](https://firebase.google.com/docs/auth/?authuser=0)
@@ -23,4 +25,7 @@ encontrar las opciones que tenemos para que nuestros usuarios accedan:
 
 ![menu-lateral](images/menu-lateral.png)
 
-Ahora ya sólo debemos de seguir los pasos que ahí nos vienen. Muchas veces parece ser más rebuscado de lo que es pero si de todos modos ya te leíste su documentación y sigues sin dar con el *secreto* para que funcione, aquí tenemos una imagen del paso a paso
+Ahora ya sólo debemos de seguir los pasos que ahí nos vienen. Muchas veces
+parece ser más rebuscado de lo que es pero si de todos modos ya te leíste su
+documentación y sigues sin dar con el *secreto* para que funcione, aquí tenemos
+una imagen del paso a paso

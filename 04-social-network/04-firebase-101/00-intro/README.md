@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: ` `
+- Duración: `60min`
 
 ***
 
@@ -59,4 +59,5 @@ sus propias necesidades.
 
   ![js](images/js.png)
 
->*Esto mismo es lo que viene en la documentación de firebase, compáralo e inténtalo.*
+>*Esto mismo es lo que viene en la documentación de firebase, compáralo e
+  inténtalo.*

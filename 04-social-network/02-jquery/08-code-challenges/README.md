@@ -34,11 +34,6 @@ Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
 restaurantes que cumplan con la condición.
 ![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
 
-Agrega un evento **mouseover** a las imágenes, lo que pase con el efecto es
-decisión tuya *(Cambio de tamaño, muestra de texto, cambio de imagen,
-  información, etc)*.
-![mouseover imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/4.jpg?raw=true)
-
 Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
 este a través de un modal.
 ![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
