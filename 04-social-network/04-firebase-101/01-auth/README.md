@@ -28,4 +28,7 @@ encontrar las opciones que tenemos para que nuestros usuarios accedan:
 Ahora ya sólo debemos de seguir los pasos que ahí nos vienen. Muchas veces
 parece ser más rebuscado de lo que es pero si de todos modos ya te leíste su
 documentación y sigues sin dar con el *secreto* para que funcione, aquí tenemos
-una imagen del paso a paso
+un [vídeo](https://www.youtube.com/watch?v=o1odRuIOKPA) que nos explica un poco
+más el paso a paso para que triunfemos!
+
+Dura casi 24 minutos pero con que veas los primeros 18 minutos es suficiente.
