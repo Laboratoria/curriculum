@@ -1,15 +1,19 @@
-# PRODUCTO FINAL: RED SOCIAL X
+# Producto Final: Red Social X
 
 - Tipo: `practice`
 - Formato: `self-paced`
-- Duración: `900min`
+- Duración: `15h`
+
+## Objetivos
+
+- A continuación te presentamos el enunciado del reto final de este curso.
 
 ***
 
-## SOBRE EL PRODUCTO
+## Sobre el producto
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales
-han invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos
+Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han
+invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos
 vivir sin ellas. Dado este contexto, un emprendedor muy visionario nos ha
 encargado crear una red social. No nos da mucho detalle sobre qué tipo de red
 social quiere, él solo nos dice que creemos la que mejor podamos y que luego lo
@@ -21,8 +25,7 @@ Para él hay algunos puntos básicos que debe tener una red social:
 - Un newsfeed donde puedes ver las actualizaciones de todos tus contactos
 - Un lugar donde poder escribir posts
 - Un lugar para subir fotos
-- Capacidad para poder tener amigos o para poder seguir a personas/marcas
-  dentro de la red social
+- Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de la red social
 - Ser mobile friendly
 - Etc.
 
@@ -36,16 +39,16 @@ red social.
 
 Un ejemplo: a este emprendedor le presentaron un caso de una red social para
 químicos. En esta red social los químicos postean artículos sobre sus
-investigaciones y pueden encontrar el contenido de acuerdo a lo más popular,
-lo reciente o lo más comentado. Además, pueden comentar en los artículos de sus
+investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo
+reciente o lo más comentado. Además, pueden comentar en los artículos de sus
 colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
 
-## ¿QUÉ SE REQUIERE?
+## ¿Qué se requiere?
 
 - Trabajar en parejas
 - Tener una planificación
 - La definición del diseño
 - Diseño mobile friendly
 - Desplegar el producto en Github Pages
-- Opcional, si se desarrolla un login o se desea almacenar la información en
-  una base de datos, usar [Firebase](https://firebase.google.com).
+- Opcional, si se desarrolla un login o se desea almacenar la información en una
+  base de datos, usar [Firebase](https://firebase.google.com/).
