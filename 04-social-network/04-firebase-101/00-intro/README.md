@@ -8,6 +8,9 @@
 
 ## ¿Qué es Firebase?
 
+Para seguir aumentando nuestra lista de nuevos amigos digitales vamos a conocer
+Firebase.
+
 Según su propia definición, Firebase es un conjunto de herramientas orientadas
 a la creación de aplicaciones de alta calidad, al crecimiento de los usuarios
 y a ganar más dinero.
