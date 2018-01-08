@@ -12,10 +12,4 @@
 
 ***
 
-## ¿Por qué aprender esto?
-
-...
-
-## Guía de preguntas y conceptos clave
-
 ...

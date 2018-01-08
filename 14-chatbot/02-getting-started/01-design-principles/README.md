@@ -12,10 +12,14 @@
 
 ***
 
-## ¿Por qué aprender esto?
+## ¿Qué es un Bot y porque implementarlo en Azure?
 
 ...
 
-## Guía de preguntas y conceptos clave
+## Tipos de Bot
+
+...
+
+## ¿Qué utilidades le podemos dar a los bots?
 
 ...

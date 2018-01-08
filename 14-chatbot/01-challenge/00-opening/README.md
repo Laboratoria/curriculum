@@ -16,7 +16,8 @@
 ## Bienvevida
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure. Para ello, veremos el asistente en el Microsoft Bot Framework como una
+Azure. Para ello, veremos el asistente en el
+[Microsoft Bot Framework](https://dev.botframework.com/) como una
 herramienta/portal de desarrollo y las API de Servicios Cognitivos para
 inteligencia, uniendo los dos en la creación de un bot inteligente de chat para
 plataformas conversacionales.

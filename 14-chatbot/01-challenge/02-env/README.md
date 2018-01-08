@@ -5,3 +5,7 @@
 * Duración: `30min`
 
 ***
+
+## ¿Qué es Azure?
+
+...
