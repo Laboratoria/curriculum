@@ -21,7 +21,7 @@ Requerimientos de la intro:
 * Por qué es relevante aprender esto
 * Abstract del curso
 
-Tags: `bot`, `azure`
+Tags: `bot`, `chatbot`, `azure`
 
 ## Público objetivo
 
@@ -33,20 +33,20 @@ Qué conocimientos previos se necesitan?
 
 ## Aprenderás
 
-En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
-extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms):
-
-* Qué son los **paradigmas de programación**
-* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
-* Las diferencias entre **constructores** y **factories**
-* Cómo implementar **herencia prototipal**
-* Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
+* Buenas prácticas para construcción de diálogos, con el objetivo de proyectar
+  una mejor experiencia para el usuario.
+* La arquitectura básica para diferentes tipos de proyectos con Bot Framework.
+* Una visión amplia y practica sobre la metodología y utilización de componentes
+  para construcción de bots multiplataforma, además de la comprensión de eventos
+  y el ciclo de vida de una conversación.
+* La plataforma de Microsoft Cognitive Services de forma práctica, integrando
+  APIs de inteligencia artificial.
+* APIs de datos hospedados en Azure para consumo de información.
+* Fundamentos para crear sus propios bots conectados a los servicios en la nube
+  de Microsoft Azure.
+* Algunos servicios ofrecidos por Microsoft Azure que permiten incorporar de
+  manera simple funcionalidades que agreguen valor a sus bots.
+* El proceso de publicación de un bot.
 
 ## Producto
 
@@ -56,91 +56,49 @@ así como entregables y método de evaluación.
 
 ## Syllabus
 
-### Unidad 01: Principios de diseño y tipos de bots
+### Unidad 01: [Retos](01-challenge)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
+Esta unidad contiene la información sobre los retos de este curso.
+
+### Unidad 02: [Principios de diseño, tipos de bots y Microsoft Bot Framework](02-getting-started)
+
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-### Unidad 02: Microsoft Bot Framework
+### Unidad 03: [Servicios cognitivos](03-cognitive-services)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-### Unidad 03: Servicios cognitivos
+### Unidad 04: [Hacking](04-hacking)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-### Unidad 04: Prueba de bots
+### Unidad 05: [Prueba de bots](05-testing)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-### Unidad 05: Vigilar la salud de los bots - Telemetría
+### Unidad 06: [Hacking](06-hacking)
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
-***
+### Unidad 07: [Vigilar la salud de los bots - Telemetría](07-telemetry)
 
-## Agenda
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
-### Día 1: Presencial (3h)
+### Unidad 08: [Hacking](08-hacking)
 
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Bienvevida
-| 2 | 10min    | Presentación de retos
-| 3 | 10min    | Creación de equipos
-| 4 | 30min    | Taller: Selección/propuestas de retos
-| 5 | 30min    | Taller: Entorno de desarrollo y primeros pasos en Azure
-| 6 | 10min    | Break
-| 7 | 30min    | Seminario: Principios de diseño y tipos de bots
-| 8 | 30min    | Seminario: Introducción a Microsoft Bot Framework
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
-### Día 2: Webinar/Prework (1.5h)
+### Unidad 09: [Demos](09-demos)
 
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 60min    | Servicios cognitivos
-| 2 | 30min    | Q&A
-
-### Día 3: Presencial (3h)
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Daily
-| 2 | 160min   | Hacking
-
-### Día 4: Webinar (1.5h)
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 60min    | Prueba de bots
-| 2 | 30min    | Q&A
-
-### Día 5: Presencial (3h)
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Daily
-| 2 | 160min   | Hacking
-
-### Día 6: Webinar (1.5h)
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 60min    | Telemetría
-| 2 | 30min    | Q&A
-
-### Día 7: Presencial (3h)
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Daily
-| 2 | 90min    | Hacking
-| 2 | 10min    | Break
-| 2 | 60min    | Demos
+Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
+aprenderlo.
 
 ***
 
@@ -150,19 +108,13 @@ aprenderlo.
 
 ## Contribuidores
 
-* [@jcastanedacano](https://github.com/jcastanedacano) (autor)
+* [@cristianca-lagash](https://github.com/cristianca-lagash) (autor)
 * [@lupomontero](https://github.com/lupomontero) (coordinador)
-
-## Libros
-
-El curso puede estar acompañado de una lista detallada de libros relacionados
-con los temas tratados.
-
-## Benchmarks
-
-Incluir una lista de cursos similares que sirvan como referencia.
 
 ## Lecturas complementarias
 
-Incluir una lista de _capítulos de libros_, _blog posts_, _videos_, y otros
-recursos como links a wikipedia, documentación, ...
+* [Muestras de Bot para Nodejs Link](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples)
+* [Más enlaces de muestras de Bot](https://github.com/Microsoft/BotBuilder-Samples)
+* [La documentación de Microsoft Bot Framework Enlace](https://docs.microsoft.com/en-us/bot-framework)
+* [Completo documentación de LUIS Enlace](https://www.luis.ai/home)
+* [Muchos de los recursos de Bot Linkt](https://blogs.msdn.microsoft.com/smich/2016/09/30/microsoft-bot-framework-resources)
