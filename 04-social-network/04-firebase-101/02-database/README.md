@@ -18,9 +18,5 @@ información de forma organizada para que luego la podamos encontrar y utilizar
 fácilmente.
 
 Firebase también nos ofrece una base de datos ya lista para usarse desde que
-creamos nuestro proyecto en la consola. En está ocasión para saber como hacer
-uso de la base de datos nos apoyaremos de los siguientes videos/tutoriales.
-
-[Agregar Registro en base de datos](https://www.youtube.com/watch?v=_lrXlq2UOrs&t=184s)
-
-[Recuperar Informacion de Bases de Datos](https://www.youtube.com/watch?v=sfIgmzLBcik)
+creamos nuestro proyecto en la consola. En está ocasión, para saber como hacer
+uso de la base de datos nos apoyaremos del siguiente ejemplo:
