@@ -15,12 +15,7 @@
 ### 3. Respondamos las preguntas del opening
 
 - ¿Qué es Responsive Web Design?
-
 - ¿Cuál es la ventaja de utilizar Responsive Web Design en nuestra página web?
-
 - ¿Qué son los Media Queries y para qué se utilizan?
-
 - ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
-
 - ¿Para qué sirve la etiqueta meta viewport?
-

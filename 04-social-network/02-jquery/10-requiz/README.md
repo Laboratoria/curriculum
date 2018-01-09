@@ -54,7 +54,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 5) ¿Cuál selector me da todos los elementos <p>?
+### 5) ¿Qué selector le aplica una acción a todos los elementos <p>?
 
 #### Opciones
 
@@ -104,7 +104,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) ¿En qué opción todos los eventos son correctos?
+### 10) ¿Cuál de las siguientes opciones corresponde a un evento de jQuery?
 
 #### Opciones
 

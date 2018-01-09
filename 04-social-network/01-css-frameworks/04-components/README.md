@@ -13,7 +13,7 @@
 ## ¿Componentes con jQuery?
 
 En las lecturas anteriores ya vimos las maravillosas ventajas que nos ofrecen
-los frameworks de CSS... pero aun hay más, los frameworks no solo nos
+los frameworks de CSS, pero aun hay más, los frameworks no solo nos
 permiten maquetar y dar estilos más rápido, también tienen algunos
 componentes que ya cuentan con la funcionalidad. Esto se logra a través de
 **jQuery**.
@@ -29,10 +29,10 @@ proyecto.
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
-necesitemos, para este caso como ejemplo usaremos un **modal**. Antes que nada
-es necesario mencionar que los modales podemos crearlos usando CSS y
+necesitemos, para este caso como ejemplo usaremos un **modal** y un **Carousel** . Antes que nada
+es necesario mencionar que los modales como  los carruseles podemos crearlos usando CSS y
 javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
-amigo (sí, el framework que ya decidiste probar...).
+amigo (sí, el framework que ya decidiste probar).
 
 Como ya vimos (y practicamos) solo necesitamos ir a la página de nuestro
 framework, escoger el modal que más nos hace feliz y copiar el código
@@ -74,17 +74,58 @@ En nuestro archivo html:
 
 Y en nuestro archivo app.js:
 
-```js
+```javascript
 $('#myModal').modal('show');
 ```
 
 Listo!!! Ya podemos probar nuestro modal.
 
+Ahora vamos a ha ver el codigo para crear nuestro Caruosel.
+
+``` html
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+```
+Y en nuestro archivo app.js:
+
+```js
+$('.carousel').carousel()
+```
+Y listo ya tenemos nuestro carrusel.
+
+
 ### Y si decidí usar otro framework...
 
-Pues no hay que temer, solo es cuestión de revisar la documentación del
-framework que estemos usando, aunque realmente los pasos a seguir son
-tremendamente parecidos o hasta los mismos.
+Pues no hay que temer, solo revisa la documentación del
+framework seleccionado y practica mucho, los pasos a seguir son
+tremendamente parecidos y en algunas ocasiones, los mismos.
 
-Solo es cosa de que no dejemos de practicar, preguntar o investigar y
-practicar más.
+Solo recuerda:
+
+* Investigar
+* Intentarlo
+* ¡¡Preguntar!!

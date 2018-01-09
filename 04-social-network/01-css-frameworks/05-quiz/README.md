@@ -20,10 +20,12 @@
 
 #### Opciones
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un modelo metodológico preestablecido
+1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un 
+modelo metodológico preestablecido
 2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
 3. Hoja de estilo externa a nuestro proyecto
-4. Herramienta de organización que podemos usar en nuestros proyectos como si fuera un modelo pedagógico preestablecido
+4. Herramienta de organización que podemos usar en nuestros proyectos como si 
+fuera un modelo pedagógico preestablecido
 
 <solution style="display:none;">1</solution>
 
@@ -94,7 +96,8 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 8) Según el estandar, ¿cuál es el número de columnas que componen la distribución de una página?
+### 8) Según el estandar, ¿cuál es el número de columnas que componen la 
+distribución de una página?
 
 #### Opciones
 

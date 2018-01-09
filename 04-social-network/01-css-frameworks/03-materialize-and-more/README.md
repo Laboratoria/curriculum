@@ -23,24 +23,36 @@ menús, formularios, preloaders entre otros. Además posee un sistema de grillas
 que facilita el desarrollo para distintos tamaños y dispositivos e integra la
 fuente Roboto propuesta por Google en su estilo de diseño.
 
-[Materialize](http://materializecss.com) también posee cuatro tipos diferentes de columnas: **s, m, l y xl**  
+[Materialize](http://materializecss.com) también posee cuatro tipos diferentes
+de columnas: **s, m, l y xl**.
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
 **Foundation** es un framework responsive que incluye componentes de
 tipografía, formularios, botones, barras de navegación y otros, así como
-extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com) está mantenida por zurb.com y
-es un proyecto de código abierto. Foundation también posee un framework para
-email responsive.
+extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com)
+está mantenida por zurb.com y es un proyecto de código abierto.
+Foundation también posee un framework para email responsive.
 
-### Y entonces ¿cuál ocupamos? ¿cuál es mejor?
+### Y entonces, ¿cuál usamos?, ¿cuál es mejor?
 
 Aquí es a consideración de cada una y la única manera de saber cuál nos
 funciona o gusta más es haciendo uso de ellos. Probar y variar, a prueba y
 error!
 
 ### Material adicional
+<<<<<<< HEAD
 Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
 
 1. [Materialize](https://codigofacilito.com/cursos/materialize)
 2. [Foundation](https://www.youtube.com/watch?v=SYf8O1vdqWk&list=PLPiMTe_552ODTFnYc2jD3SqwRAvq2GTPw)
+=======
+
+Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te
+dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
+
+1. [Materialize](https://codigofacilito.com/cursos/materialize)
+2. Foundation
+
+   [![Foundation](https://img.youtube.com/vi/SYf8O1vdqWk/0.jpg)](https://www.youtube.com/watch?v=SYf8O1vdqWk)
+>>>>>>> ff9f1bd3cbab6f582385e0b50fca83971de3fe9f
