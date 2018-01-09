@@ -12,9 +12,6 @@
 
 ***
 
-<iframe width="684" height="430" src="https://goo.gl/LBQK4M" frameborder="0"
-allowfullscreen></iframe>
-
 ## ¿Qué vamos a aprender?
 
 Como indica el nombre del curso, vamos a `profundizar` en conceptos peculiares
@@ -82,7 +79,3 @@ además de lograr el resultado esperado.
 
 * Ejercicios (40% => 13.3% x 3)
 * Proyectos/Demos (60% => 30% x 2)
-
-***
-
-[Continuar](../02-env/00-git%2Bgithub.md)

@@ -1,18 +1,28 @@
-# 08. JS Deep Dive
+# JS Deep Dive: Crea tu propia librería usando JavaScript
 
-Programar en JavaScript te hace ver cool, conocer las particularidades del
+Programar en JavaScript te hace ver _cool_, conocer las particularidades del
 lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
 una profundización en el lenguaje. Verás temas que probablemente ya conozcas
 pero desde una perspectiva de performance y buenas prácticas conociendo ciertas
 peculiaridades de JavaScript que lo hace distinto a los demás lenguajes de
 programación.
 
+El objetivo práctico de este curso es que aprendas como crear tu propia librería
+(o biblioteca - _library_) en JavaScript. Como desarrolladorxs, estamos
+constantemente usando _módulos_ de terceros, ya sean librerías, frameworks o la
+_librería estándar_ (standard library) tanto del lenguaje en sí como el
+entorno/motor de ejecución (el navegador, node.js, ...).
+
+Diseñar tu propia librería es una experiencia fundamental para cualquier
+desarrollador ya que te obliga a pensar en la interfaz (API) de tus módulos,
+cómo serán usados por otras personas, ... y tener especial consideración en
+peculiaridades del lenguaje, convenciones y buenas prácticas.
+
+En este curso se presentarán una serie de retos que requieren la implementación
+de una o más librerías.
+
 Main tags: `types`, `operators`, `functions`, `objects`, `scope`, `closure`,
 `execution-context`, `linter`.
-
-Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
-`function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
-`apply`, `call`, `bind`, `this`.
 
 ## Público objetivo
 
@@ -27,70 +37,63 @@ Experiencia básica usando JavaScript para manipular el DOM y familiaridad con
 
 ## Aprenderás
 
-* Qué es JavaScript/ECMAScript
+* Un poco de **historia sobre JavaScript/ECMAScript**
+* A diseñar e implementar un **UI Library**
+* A diseñar enfocado en **tests**
 * Implicaciones de **performance** y uso de **memoria**
 * **Buenas prácticas** en el uso de JavaScript
 * Manejo de **errores**
 * A escribir código siguiendo una **guía de estilos**
-* A construir un **UI Library**
-* A **trabajar sobre una base de código existente**
+* A **documentar** tu código/librería
 * A trabajar haciendo **pair programming**
 * A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
   **branches**, **forks** y **pull requests**
 
-## Detalles logísticos
-
-* Self-paced: 7 hrs
-* Presencial: 11 hrs
-* Total horas: 18
-
 ## Producto
 
-El producto en el que trabajaras es una pequeña librería para desarrollo de
+El producto/reto en el que trabajaras es una pequeña librería para desarrollo de
 interfaces (UI Library), teniendo en cuenta el performance y consumo de memoria,
 además de buscar que pueda ser reusable para cualquier proyecto y mantenible a
-lo largo del tiempo. Este producto tendrá una aplicación visual en la creación
-de una réplica de _[Pinterest](http://pinterest.com/)_.
+lo largo del tiempo.
 
 Participar en el proyecto involucra lo siguiente:
 
 * Tener una cuenta en GitHub
-* Hacer un fork del repositorio
+* Formar un equipo de trabajo (en parejas)
+* Elegir/proponer un reto
+* Crear un repositorio en GitHub para alojar tu producto
 * Mapear y dividir el trabajo con tu equipo
 * Implementar las funcionalidades listadas en el repo del proyecto
 * Enviar pull requests
 * Hacer code review y merges
-* Presentar el trabajo final con una demo ante jurado
+* Presentar el trabajo final con una demo
 
 ***
 
 ## Syllabus
 
-### Lección 01: [Presentación del curso](01-intro/00-welcome.md)
-
-15min (presencial)
+### Unidad 01: [Presentación de retos](01-challenge)
 
 Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
 presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
 metodología de aprendizaje, requisitos previos y metodología de evaluación.
 
-### Lección 02: [Entorno y metodología de trabajo](02-env)
+### Unidad 04: [Fundamentos de JavaScript](04-foundations)
 
-45min (presencial)
+Si bien los fundamentos de JavaScript se vieron desde el primer curso de
+Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
+esta manera veremos un poco de compiladores y profundización en los temas como
+`tipos de datos`, `operadores`, `objetos preconstruidos`, etc.
 
-Durante esta sesión nos aseguraremos que todas tienen git y node instalado,
-acceso al repo, su propio fork, ...
+| Orden | Tipo     | Duración  | Descripción
+|-------|----------|-----------|------------
+|   1   | lectura  |   20min   | [Fundamentos](04-foundations/00-overview.md)
+|   2   | lectura  |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/01-variables-and-data-types.md)
+|   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
+|   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
+|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-exercises.md)
 
-#### Lesson plan
-
-| Orden | Tipo     | Duración | Descripción
-|-------|----------|----------|-------------
-|   1   | workshop |   30min  | [Entorno: Git + GitHub](02-env/00-git+github.com)
-|   2   | workshop |   15min  | [Entorno: Node.js + npm](02-env/00-node+npm.com)
-
-### Lección 03: [ECMAScript 6](03-es6)
-
-45min (presencial)
+### Unidad 03: [ECMAScript 6](03-es6)
 
 JavaScript es el lenguaje de programación, pero la especificación (estándar) del
 lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
@@ -106,26 +109,7 @@ de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
 |   6   |  lectura  |   7min   | [Arrow Functions](03-es6/05-arrow-functions.md)
 |   7   |  workshop |   10min  | [Ejercicios](03-es6/06-exercises.md)
 
-### Lección 04: [Fundamentos de JavaScript](04-foundations)
-
-1hr (self-paced)
-
-Si bien los fundamentos de JavaScript se vieron desde el primer curso de
-Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
-esta manera veremos un poco de compiladores y profundización en los temas como
-`tipos de datos`, `operadores`, `objetos preconstruidos`, etc.
-
-| Orden | Tipo     | Duración  | Descripción
-|-------|----------|-----------|------------
-|   1   | lectura  |   20min   | [Fundamentos](04-foundations/00-overview.md)
-|   2   | lectura  |   15min   | [Variables, Tipos de Datos y Operadores](04-foundations/01-variables-and-data-types.md)
-|   3   | lectura  |   15min   | [Control de Flujo](04-foundations/02-control-flow.md)
-|   4   | lectura  |   10min   | [Objetos Preconstruidos](04-foundations/03-built-in-objects.md)
-|   5   | workshop |   20min   | [Ejercicios](04-foundations/04-exercises.md)
-
-### Lección 05: [Funciones](05-functions)
-
-1hr (presencial)
+### Unidad 05: [Funciones](05-functions)
 
 Veremos a profundidad el tema de funciones, aprovechando que JavaScript tiene
 una orientación por la programación funcional desde su diseño, características
@@ -140,9 +124,7 @@ un objeto, etc.
 |   3   | lectura  |   15min   | [Scope](05-functions/02-scope.md)
 |   4   | workshop |   15min   | [Ejercicios](05-functions/03-exercises.md)
 
-### Lección 06: [Estructura de Datos](06-data-structures)
-
-40min (presencial)
+### Unidad 06: [Estructura de Datos](06-data-structures)
 
 En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
 profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
@@ -156,9 +138,7 @@ estructura de datos que veremos como sacar provecho de ellas.
 |   4   | lectura  |   15min   | [Arreglos](06-data-structures/03-arrays.md)
 |   5   | workshop |   20min   | [Ejercicios](06-data-structures/04-exercises.md)
 
-### Lección 07: [Manejo de Excepciones](07-manejo-de-excepciones)
-
-30min (self-paced)
+### Unidad 07: [Manejo de Excepciones](07-manejo-de-excepciones)
 
 El manejo de errores es importante dentro de todo desarrollo de software, y mas
 aun cuando se piensa en construir un producto que se espera sea reusable y
@@ -170,7 +150,7 @@ de nuestro código.
 |   1   |lectura|   10min   | [Modo Estricto](07-manejo-de-excepciones/00-modo-estricto.md)
 |   2   |lectura|   10min   | [try...catch](07-manejo-de-excepciones/01-try-catch.md)
 
-### Lección 08: [Document Objet Model (DOM)](08-dom)
+### Unidad 08: [Document Objet Model (DOM)](08-dom)
 
 Cuando el navegador obtiene el HTML de una página, construye un modelo de la
 estructura del documento y lo usa para dibujar la página en la pantalla. Esta
@@ -185,7 +165,7 @@ cuenta el performance del navegador.
 |   3   | lectura  |   10min   | [Redibujo del navegador](08-dom/02-browser-reflow.md)
 |   4   | workshop |   10min   | [Ejercicios](08-dom/03-exercises.md)
 
-### Lección 09: [Manejo de Eventos](09-event-handling)
+### Unidad 09: [Manejo de Eventos](09-event-handling)
 
 Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
 aplicaciones web, estas alteraciones se realizan luego de cierta interacción
@@ -199,7 +179,7 @@ entender aspectos importantes del comportamiento de eventos y como manejarlos.
 |   3   | lectura  |   10min   | [this vs. event.target](09-event-handling/02-this-eventtarget.md)
 |   4   | workshop |   10min   | [Ejercicios](09-event-handling/03-exercises.md)
 
-### Lección 10: [jQuery](10-jquery)
+### Unidad 10: [jQuery](10-jquery)
 
 jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
 entre otras funcionalidades, en esta lección no veremos la sintaxis de las
@@ -216,10 +196,76 @@ consideraciones para el encapsulamiento de código a través de la creación de
 |   4   | lectura  |   10min   | [Creación de Plugin](10-jquery/03-plugin-creation.md)
 |   5   | workshop |   10min   | [Ejercicios](10-jquery/04-exercises.md)
 
+***
+
+## Agenda
+
+### Semana 1
+
+#### Día 1
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 20min    | Bienvevida
+| 2 | 15min    | Presentación de retos
+| 3 | 15min    | Creación de equipos
+| 4 | 30min    | Taller: Selección/propuestas de retos
+| 5 | 30min    | Taller: Entorno de desarrollo y primeros pasos
+
+#### Día 2
+#### Día 3
+#### Día 4
+#### Día 5
+
+### Semana 2
+
+#### Día 6
+#### Día 7
+#### Día 8
+#### Día 9
+#### Día 10
+
+### Semana 3
+
+#### Día 11
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+
+#### Día 12
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+
+#### Día 13
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+
+#### Día 14
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+
+#### Día 15
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+| 2 | 90min    | Hacking
+| 2 | 10min    | Break
+| 2 | 60min    | Demos
+
+
 ## Autor(es) / Colaboradores
 
 * Belén Recabal
 * Iván Medina
+* Lupo Montero
 
 ## Libros
 
