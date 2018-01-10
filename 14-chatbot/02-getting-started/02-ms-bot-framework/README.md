@@ -82,11 +82,10 @@ Para configurar nuestro ambiente, realizaremos los siguientes pasos:
 3. Ir al menú ver->terminal Integrado y verificarán si node.js esta funcionando
    correctamente
 
-4. Instalaremos restify y botbuilder con los siguientes comandos:
+4. Instalaremos `restify` y `botbuilder` con el siguiente comando:
 
    ```sh
-   npm install restify -save
-   npm intall botbuilder -save
+   npm install --save restify botbuilder
    ```
 
 ## Construcción de bots simples
