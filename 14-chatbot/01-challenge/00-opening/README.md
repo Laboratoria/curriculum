@@ -22,6 +22,12 @@ herramienta/portal de desarrollo y las API de Servicios Cognitivos para
 inteligencia, uniendo los dos en la creación de un bot inteligente de chat para
 plataformas conversacionales.
 
+Para comenzar este curso necesitarás tener instalado en tu computador lo siguiente:
+
+* Node.js https://nodejs.org
+* Visual Studio Code https://code.visualstudio.com/download
+* Microsoft Bot Framwork Emulator https://docs.microsoft.com/en-us/bot-framework/bot-service-debug-emulator
+
 ...
 
 ## Entregables y evaluación
