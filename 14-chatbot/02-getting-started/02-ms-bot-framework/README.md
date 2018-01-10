@@ -38,10 +38,9 @@ encuentran todos los bots registrados por medio de bots Connector.
 
 Si quieres conocer más sobre Bot Framework ingresa a los siguientes enlaces:
 
-* https://dev.botframework.com/
-* https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart
-* https://channel9.msdn.com/Series/APAC-DevSquad-Showcase/Intro-to-Bot-Framework
-
+* [Microsoft Bot Framework](https://dev.botframework.com/)
+* [Create a bot with the Bot Builder SDK for Node.js - Bot Service | Microsoft Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart)
+* [Intro to Bot Framework | APAC DevSquad Showcase | Channel 9](https://channel9.msdn.com/Series/APAC-DevSquad-Showcase/Intro-to-Bot-Framework)
 
 ## Tecnologias con las cuales podemos diseñar Bot en Azure
 
@@ -69,8 +68,8 @@ Dentro de los servicios Cognitivos podemos encontrar:
   precompilados, evalúen los sentimientos y aprendan a reconocer lo que los
   usuarios desean.
 
-Si quieres conocer más detalles sobre los Servicios Cognitivos ingresa al
-siguiente enlace https://azure.microsoft.com/es-es/services/cognitive-services/
+Si quieres conocer más detalles sobre los Servicios Cognitivos ingresa a
+[este enlace](https://azure.microsoft.com/es-es/services/cognitive-services/).
 
 ## Configuración de ambiente para desarrollar nuestro primer bot
 

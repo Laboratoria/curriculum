@@ -35,7 +35,7 @@ evitandonos trabajos repetitivos
 * Game bots
 * Scraper bots
 
-Acá podrán ver una galeria de bot publicos https://bots.botframework.com/
+[Acá podrán ver una galeria de bot publicos](https://bots.botframework.com/)
 
 ## ¿Qué utilidades le podemos dar a los bots?
 

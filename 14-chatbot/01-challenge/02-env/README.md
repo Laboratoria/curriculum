@@ -29,5 +29,6 @@ Existen 3 Tipo de Nubes
 
 ## ¿Qué es Azure?
 
-* Azure es un conjunto de servicios en la nube que los desarrolladores y los profesionales de TI utilizan para crear, implementar y administrar aplicaciones a través de nuestra red global de centros de datos
-...
+Azure es un conjunto de servicios en la nube que los desarrolladores y los
+profesionales de TI utilizan para crear, implementar y administrar aplicaciones
+a través de nuestra red global de centros de datos.

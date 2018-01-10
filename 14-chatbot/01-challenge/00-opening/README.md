@@ -24,9 +24,9 @@ plataformas conversacionales.
 
 Para comenzar este curso necesitarás tener instalado en tu computador lo siguiente:
 
-* Node.js https://nodejs.org
-* Visual Studio Code https://code.visualstudio.com/download
-* Microsoft Bot Framwork Emulator https://docs.microsoft.com/en-us/bot-framework/bot-service-debug-emulator
+* [Node.js](https://nodejs.org)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Microsoft Bot Framwork Emulator](https://docs.microsoft.com/en-us/bot-framework/bot-service-debug-emulator)
 
 ...
 
