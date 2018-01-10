@@ -66,6 +66,7 @@ Esta unidad contiene la información sobre los retos de este curso.
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
+<!--
 ### Unidad 03: [Servicios cognitivos](03-cognitive-services)
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
@@ -100,6 +101,7 @@ aprenderlo.
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
+-->
 
 ***
 
