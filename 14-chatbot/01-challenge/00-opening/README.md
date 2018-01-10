@@ -54,22 +54,4 @@ Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Hoja de ruta
 
-### Semana 1
-
-* **Sesión 1: presencial 3h => Presentación de retos, principios de diseño, tipos
-  de bots y Microsoft Bot Framework**
-* Sesión 2: webinar 1.5h => Servicios cognitivos
-
-### Semana 2
-
-* Sesión 3: presencial 3h => Hacking
-* Sesión 4: webinar 1.5h => Prueba de bots
-
-### Semana 3
-
-* Sesión 5: presencial 3h => Hacking
-* Sesión 6: webinar 1.5h => Vigilar la salud de los bots - Telemetría
-
-### Semana 4
-
-* Sesión 7: presencial 3h => Hacking + Demos
+![kickoff chatbot con azure - sclene18](https://user-images.githubusercontent.com/110297/34795694-1f114566-f621-11e7-8d99-7edd1c30aa97.png)
