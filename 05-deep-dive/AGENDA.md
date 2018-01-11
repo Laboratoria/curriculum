@@ -1,9 +1,20 @@
 # Agenda
 
-Aprox. 15h de hackeo y estudio libre durante clases
-Aprox. 17h de contenido en LMS
-Aprox. total: 32h (de 50h disponibles en un total de 10 sesiones completas)
+Duración 3 semanas. Con la intención de dejar amplios márgenes, se ha calculado
+la agenda con los siguientes restricciones:
 
+* Semana 1: 3 días de 5 horas
+* Semana 2: 3 días de 5 horas
+* Semana 3: 3 días de 5 horas
+
+Por ahora lo más importante de la agenda es la intención del flujo del curso. En
+resumen se estaría dedicando más o menos estas horas a hacking y contenido:
+
+* Aprox. 15h de hackeo y estudio libre durante clases
+* Aprox. 17h de contenido en LMS
+* Aprox. total: 32h (de 50h disponibles en un total de 10 sesiones completas)
+
+***
 
 ## Semana 1
 
@@ -34,6 +45,8 @@ Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar, repasar
 | 2 | 75min    | Unidad 4: Paquetes y módulos
 
 Total estimado: 1h 30min (aprox. 3h libres para hacking, y estudio libre ...)
+
+***
 
 ## Semana 2
 
@@ -73,6 +86,8 @@ Total estimado: 2h 45min (aprox. 1.5h libres para hacking, y estudio libre ...)
 | 3 | 2.4h     | Unit 7: Manejo de errores
 
 Total estimado: 3h 45min (aprox. 1h libres para hacking, y estudio libre ...)
+
+***
 
 ## Semana 3
 
