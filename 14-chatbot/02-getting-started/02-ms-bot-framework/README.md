@@ -38,6 +38,7 @@ encuentran todos los bots registrados por medio de bots Connector.
 
 Si quieres conocer más sobre Bot Framework ingresa a los siguientes enlaces:
 
+* [Introducción a Bots - Microsoft Virtual Academy](https://mva.microsoft.com/es-es/training-courses/introduccin-a-bots-18179)
 * [Microsoft Bot Framework](https://dev.botframework.com/)
 * [Create a bot with the Bot Builder SDK for Node.js - Bot Service | Microsoft Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart)
 * [Intro to Bot Framework | APAC DevSquad Showcase | Channel 9](https://channel9.msdn.com/Series/APAC-DevSquad-Showcase/Intro-to-Bot-Framework)
@@ -141,3 +142,11 @@ bot.dialog('/', [
   }
 ]);
 ```
+
+## Lecturas complementarias
+
+* [Desarrollo de Bots con Microsoft Bot Framework y Node.js](https://mva.microsoft.com/es-es/training-courses/desarrollo-de-bots-con-microsoft-bot-framework-y-nodejs-17712)
+* [Developing Intelligent Bots from Zero to Hero](https://mva.microsoft.com/en-US/training-courses/developing-intelligent-bots-from-zero-to-hero-17797)
+* [Creating Bots in the Microsoft Bot Framework Using Node.js](https://mva.microsoft.com/en-US/training-courses/creating-bots-in-the-microsoft-bot-framework-using-nodejs-16759)
+* [Mastering Microsoft Cognitive Services, Part 4: LUIS and QnA Maker](https://mva.microsoft.com/en-US/training-courses/mastering-microsoft-cognitive-services-part-4-luis-and-qna-maker-18042)
+* [Microsoft Bot Framework: use Bot Framework para acceder a datos de la aplicación en cualquier momento y lugar](https://msdn.microsoft.com/es-es/magazine/mt790202.aspx)
