@@ -1,7 +1,7 @@
 # Apertura
 
-* Tipo: `seminar`
-* Formato: `guided`
+* Tipo: `seminario`
+* Formato: `guiado`
 * Duración: `15min`
 
 ## Objetivos del seminario

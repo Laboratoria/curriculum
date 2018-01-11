@@ -1,7 +1,7 @@
-# Entorno de desarrollo y primeros pasos en Azure
+# Introducción
 
-* Tipo: `workshop`
-* Formato: `guided`
+* Tipo: `seminario`
+* Formato: `guiado`
 * Duración: `30min`
 
 ***
