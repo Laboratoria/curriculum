@@ -22,7 +22,7 @@ personas, sino que también pueden comunicarse entre ellos para llevar a cabo
 tareas.
 
 Podemos resumir que un bot es una aplicación que realizá tareas automatizadas,
-evitandonos trabajos repetitivos
+evitándonos trabajos repetitivos.
 
 ## Tipos de Bot
 
@@ -35,8 +35,6 @@ evitandonos trabajos repetitivos
 * Game bots
 * Scraper bots
 
-[Acá podrán ver una galeria de bot publicos](https://bots.botframework.com/)
-
 ## ¿Qué utilidades le podemos dar a los bots?
 
 Los usos más habituales de los bots son:
@@ -45,3 +43,9 @@ Los usos más habituales de los bots son:
 * Solicitar reservas en restaurantes
 * Atención al cliente
 * Solicitud de asistencia médica
+
+## Lecturas complementarias
+
+* [Qué es un bot?](https://mva.microsoft.com/es-es/training-courses/introduccin-a-bots-18179)
+* [Distintos tipos de bots](https://azure.microsoft.com/es-mx/solutions/architecture/commerce-chatbot/)
+* [Galería de bots públicos](https://bots.botframework.com/)

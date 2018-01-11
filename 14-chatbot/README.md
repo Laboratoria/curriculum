@@ -111,7 +111,7 @@ aprenderlo.
 
 ## Contribuidores
 
-* [@cristianca-lagash](https://github.com/cristianca-lagash) (autor)
+* [@ccardensa](https://github.com/ccardensa) (autor)
 * [@lupomontero](https://github.com/lupomontero) (coordinador)
 
 ## Lecturas complementarias
