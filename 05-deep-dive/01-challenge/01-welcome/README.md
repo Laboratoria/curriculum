@@ -78,5 +78,22 @@ además de lograr el resultado esperado.
 
 ## Evaluación
 
-* Ejercicios (40% => 13.3% x 3)
-* Proyectos/Demos (60% => 30% x 2)
+En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
+por el puntaje de tu producto/reto y tu equipo y el 40% restante será
+determinado por tu desempeño personal.
+
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
+períodicas de revisión de código durante todo el proceso y luego con el
+desempeño del producto durante el día de la demo, donde será evaluado por el
+equipo técnico y el resto de los equipos.
+
+Tu desempeño personal estará determinado por tu participación dentro de las
+sesiones presenciales, tu actividad en github (escribiendo código, comentando,
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
+
+Todos los equipos deberán exponer sus resultados durante el día de la demo,
+independientemente del estado de completitud del producto. Aquellos equipos que
+no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
