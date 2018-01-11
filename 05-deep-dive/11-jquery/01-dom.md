@@ -46,13 +46,9 @@ seleccionado.
 
 También es muy sencillo crear nuevos elementos para nuestro sitio.
 
-```javascript
-var myNewElement = $('<p>Nuevo elemento</p>'); //creamos y guardamos el nuevo
-elemento en una variable
- `$('ul').append('<li>item de la lista</li>'); //creamos e insertamos el nuevo
- elemento en su nodo padre
+```js
+// creamos y guardamos el nuevo elemento en una variable
+var myNewElement = $('<p>Nuevo elemento</p>');
+// creamos e insertamos el nuevo elemento en su nodo padre
+$('ul').append('<li>item de la lista</li>');
 ```
-
-***
-
-[Continuar](02-css.md)

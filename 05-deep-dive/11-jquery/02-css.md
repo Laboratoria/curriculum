@@ -16,7 +16,7 @@ formatos (en CamelCase o con el guión del medio) funcionarán.
 
 ## Obtener propiedades CSS
 
-```javascript
+```js
 $('h1').css('fontSize'); // devuelve una cadena de caracteres como "19px"
 $('h1').css('font-size'); // también funciona
 Establecer propiedades CSS
@@ -43,7 +43,7 @@ desea mostrar.
 
 ## Trabajar con clases
 
-```javascript
+```js
 var $h1 = $('h1');
 $h1.addClass('big');
 $h1.removeClass('big');
@@ -65,7 +65,7 @@ para un completo detalle puede consultar api.jquery.com/category/dimensions.
 
 ## Métodos básicos sobre Dimensiones
 
-```javascript
+```js
 $('h1').width('50px');  // establece el ancho de todos los elementos H1
 $('h1').width();        // obtiene el ancho del primer elemento H1
 $('h1').height('50px'); // establece el alto de todos los elementos H1
@@ -74,7 +74,3 @@ $('h1').height();       // obtiene el alto del primer elemento H1
 // del primer elemento relativo al "offset" (posición) de su elemento padre
 $('h1').position();
 ```
-
-***
-
-[Continuar](03-plugin-creation.md)

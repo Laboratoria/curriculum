@@ -74,22 +74,35 @@ Participar en el proyecto involucra lo siguiente:
 
 ### Unidad 01: [Reto](01-challenge)
 
-Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
-presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
-metodología de aprendizaje, requisitos previos y metodología de evaluación.
+En esta unidad se hará una presentación sobre el curso en sí, los objetivos de
+aprendizaje, el proyecto, la metodología de aprendizaje, requisitos previos y
+metodología de evaluación.
+
+Arrancaremos el curso con la presentación de los retos, de los cuales cada
+equipo tendrá que elegir uno como proyecto para este curso.
 
 `challenges`, `teams`, `proposals`, ...
 
 ### Unidad 02: [Entorno de desarrollo](02-env)
 
-`sh`, `git`, `npm`, `editor`
+Una vez introducido el curso y los retos, nos concentraremos en el entorno de
+desarrollo, con una breve introducción/repaso de conceptos sobre `sh`, `git`,
+`npm` y tu `editor` de texto favorito.
 
 ### Unidad 03: [Unit Testing / Pruebas unitarias](03-testing)
 
+En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
+Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
+para escribir tus primeros tests y entender el valor tan grande que aportan.
+
 `mocha`, `assert`, `chai`, `karma`
 
-<!--
 ### Unidad 04: [Paquetes y módulos](04-packages)
+
+El objetivo final del curso son los retos, que implican desarrollar una librería
+de código. Pare ello es fundamental entender los conceptos de paquetería en
+JavaScript, desde sistemas de módulos hasta el repositorio de `npm`. Veremos la
+mecánica de dependencias para reuso de código.
 
 `package.json`, `require`, `module`, `exports`, `import`, `export`, ...
 
@@ -101,18 +114,39 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 `variables`, `valores`, `tipos de datos`, `control de flujo`, `funciones`,
 `scope`, `arreglos`, `objetos`, `strings`, `built-ins`, ...
 
+En esta unidad veremos tambien algunas nuevas características de ES6 a nivel de
+sintaxis para comenzar a utilizarlo a lo largo del curso.
+
 ### Unidad 06: [Asincronía: Callbacks, eventos y promesas](06-async)
 
-...
+JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
+sin bloque del proceso, gracias a sus higher order functions y la propia
+arquitectura de los motores de JavaScript.
+
+Todo lo que sea interacción con usuarios, acceso de red, acceso a disco duro,
+... serán siempre operaciones asíncronas, done el resultado de una invocación no
+retorna immediatamente, sino después de un tiempo.
+
+Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
+aplicaciones web, estas alteraciones se realizan luego de cierta interacción
+por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
+entender aspectos importantes del comportamiento de eventos y como manejarlos.
 
 ### Unidad 07: [Manejo de errores](07-errors)
 
-...
+El manejo de errores es importante dentro de todo desarrollo de software, y más
+aún cuando se piensa en construir un producto que se espera sea reusable y
+mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
+de nuestro código.
 
 ### Unidad 08: [Browser APIs](08-browser-apis)
 
-DOM, BOM, HTML5 APIs, ...
+En esta unidad nos enfocaremos en las APIs que nos ofrece el navegador para
+interactuar con el `DOM` así como algunos objetos globales como
+`window.navigator`, `window.console`, `window.location`, `window.history` y
+otras APIs introducidas por HTML5.
 
+<!--
 ### Unidad 09: [Code reviews](09-code-reviews)
 
 ...
@@ -120,52 +154,8 @@ DOM, BOM, HTML5 APIs, ...
 ### Unidad 10: [Hacking y Demos](10-demos)
 
 ...
--->
 
-<!--
-### Unidad 03: [ECMAScript 6](03-es6)
-
-JavaScript es el lenguaje de programación, pero la especificación (estándar) del
-lenguaje es ECMAScript, en esta lección veremos algunas nuevas características
-de JS a nivel de sintaxis para comenzar a utilizarlo a lo largo del curso.
-
-### Unidad 05: [Funciones](05-functions)
-
-Veremos a profundidad el tema de funciones, aprovechando que JavaScript tiene
-una orientación por la programación funcional desde su diseño, características
-importantes como asignar funciones a una variable, pasar como parámetro de otra
-función, cambiar el scope de variables, asignar como valor de una propiedad de
-un objeto, etc.
-
-### Unidad 06: [Estructura de Datos](06-data-structures)
-
-En ES5, las estructuras de datos por defecto eran Objetos y Arreglos, los cuales
-profundizaremos en esta lección, sin embargo, en ES6 se agregan ciertas
-estructura de datos que veremos como sacar provecho de ellas.
-
-### Unidad 07: [Manejo de Excepciones](07-manejo-de-excepciones)
-
-El manejo de errores es importante dentro de todo desarrollo de software, y mas
-aun cuando se piensa en construir un producto que se espera sea reusable y
-mantenible. En esta lección veremos cómo manejar errores en las diversas partes
-de nuestro código.
-
-### Unidad 08: [Document Objet Model (DOM)](08-dom)
-
-Cuando el navegador obtiene el HTML de una página, construye un modelo de la
-estructura del documento y lo usa para dibujar la página en la pantalla. Esta
-representación del documento es accedido a través de JavaScript y hace posible
-agregar interactividad a nuestros sitios web, aun así, es necesario tener en
-cuenta el performance del navegador.
-
-### Unidad 09: [Manejo de Eventos](09-event-handling)
-
-Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
-aplicaciones web, estas alteraciones se realizan luego de cierta interacción
-por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
-entender aspectos importantes del comportamiento de eventos y como manejarlos.
-
-### Unidad 10: [jQuery](10-jquery)
+### Unidad 11: [jQuery](11-jquery)
 
 jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
 entre otras funcionalidades, en esta lección no veremos la sintaxis de las

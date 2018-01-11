@@ -72,7 +72,3 @@ elemento es considerado visible si ocupa espacio en la pantalla, por lo que
 elementos con `visibility`: `hidden` u `opacity`: `0` en sus estilos son
 
 considerados elementos visibles.
-
-***
-
-[Continuar](01-dom.md)

@@ -18,9 +18,9 @@ prácticas que deberemos seguir a la hora de crear un plugin.
 Crear un método que se integre con jQuery es tan fácil como añadir una función
 al objeto jQuery.fn de la siguiente manera.
 
-```javascript
-jQuery.fn.nombreDelPlugin = function(args) {
-    //Código a ejecutar por el plugin
+```js
+jQuery.fn.nombreDelPlugin = function (args) {
+  // Código a ejecutar por el plugin
 }
 ```
 
@@ -29,12 +29,12 @@ incluimos la creación del plugin en una función de invocación inmediata (IIFE
 – Immediately Invoked Function Expression) en la que mapeemos el objeto jQuery
 a dicho símbolo.
 
-```javascript
-(function( $ ) {
-    $.fn.nombreDelPlugin = function(args) {
-    //Código a ejecutar por el plugin
-    }
-})( jQuery );
+```js
+(function ($) {
+  $.fn.nombreDelPlugin = function (args) {
+    // Código a ejecutar por el plugin
+  };
+})(jQuery);
 ```
 
 Sólo queda mencionar que en el ámbito inmediato de aplicación del plugin, la
@@ -48,16 +48,16 @@ tendremos acceso a los métodos de jQuery.
 Una vez que sabemos cómo se define el plugin es hora de escribir el código que
 se ejecutará cuando sea invocado.
 
-```javascript
-(function( $ ) {
-    $.fn.maxHeight = function(args) {
-        var max = 0;
-        this.each(function() {
-            max = Math.max( max, $(this).height() );
-        });
-        return max;
-
-})( jQuery );
+```js
+(function ($) {
+  $.fn.maxHeight = function (args) {
+    var max = 0;
+    this.each(function () {
+      max = Math.max(max, $(this).height());
+    });
+    return max;
+  };
+})(jQuery);
 ```
 
 Este plugin devuelve la altura del elemento más alto entre los elementos
@@ -65,7 +65,7 @@ coincidentes.
 Para invocarlo, la sintaxis es la misma que para cualquier otro método de
 jQuery.
 
-```javascript
+```js
 //Esto devolverá la altura del div más alto del documento.
 var tallest = $('div').maxHeight();
 ```
@@ -77,19 +77,19 @@ han sido llamados siempre que no necesiten devolver otro dato. Es aconsejable
 mantener este comportamiento en los plugins y hacer que devuelvan el objeto
 que los invoca.
 
-```javascript
-(function( $ ) {
-    $.fn.setBackgroundRed = function(args) {
-     this.css("background", "red");
-        return this;
-    }
-})( jQuery );
+```js
+(function ($) {
+  $.fn.setBackgroundRed = function (args) {
+    this.css("background", "red");
+    return this;
+  };
+})(jQuery);
 ```
 
 Este plugin podría ser encadenado de la siguiente manera, haciendo que el
 segundo método siguiere afectando al objeto original.
 
-```javascript
+```js
 $("div").setBackgroundRed().height(500);
 ```
 
@@ -102,19 +102,20 @@ configuración por defecto y extenderla ($.extend) con las opciones
 especificadas por el usuario, sobreescribiendo sólo las propiedades que hayan
 sido especificadas.
 
-```javascript
-(function( $ ) {
-    $.fn.customPlugin = function(options) {
-        var defaults = {
-            background : "red",
-            textColor : "black",
-            textSize : 16,
-            lineHeight: 22
-        };
-        var settings = $.extend(defaults, options);
-    }
-})( jQuery );
-$("div").customPlugin({textSize : 26, textColor : "white"});
+```js
+(function ($) {
+  $.fn.customPlugin = function (options) {
+    var defaults = {
+      background : "red",
+      textColor : "black",
+      textSize : 16,
+      lineHeight: 22
+    };
+    var settings = $.extend(defaults, options);
+  };
+})(jQuery);
+
+$("div").customPlugin({ textSize : 26, textColor : "white" });
 ```
 
 Como resultado de esta invocación, la configuración resultante en el plugin
@@ -122,10 +123,10 @@ sería la siguiente.
 
 ```css
 {
-    background : "red",
-    textColor : "white",
-    textSize : 26,
-    lineHeight: 22
+  background : "red",
+  textColor : "white",
+  textSize : 26,
+  lineHeight: 22
 }
 ```
 
@@ -136,14 +137,10 @@ posibilidades de que nuestro plugin sea sobreescrito por un plugin de terceros.
 Para ello es una buena idea usar prefijos o sufijos, como por ejemplo el
 nombre de nuestra empresa.
 
-```javascript
-(function( $ ) {
-    $.fn.companyNameCreateStuff = function(options) {
-
-    }
-})( jQuery );
+```js
+(function ($) {
+  $.fn.companyNameCreateStuff = function (options) {
+    // ...
+  };
+})(jQuery);
 ```
-
-***
-
-[Continuar](04-exercises.md)
