@@ -1,9 +1,10 @@
-# Entorno: Node.js + npm
+# Node.js + npm
 
-* Formato: `workshop`
-* Duración: `20min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
 
-## Objetivos del workshop
+## Objetivos de aprendizaje
 
 * Que todas tengan node (>= v8.0.0) y npm (>= v5.0.0) instalado
 * Familiarizarse con la ejecución de scripts usando node
@@ -19,5 +20,3 @@ usando npm.
 
 Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
 problemas de instalación y resolver dudas con respecto a npm.
-
-[Continuar](../03-es6/00-overview.md)

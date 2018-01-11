@@ -1,9 +1,10 @@
-# Entorno: Git + GitHub
+# Git + GitHub
 
-* Formato: `workshop`
-* Duración: `20min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
 
-## Objetivos del workshop
+## Objetivos de aprendizaje
 
 * Que todas tengan git instalado
 * Que todas tengan cuenta activa y configurada en GitHub
@@ -28,5 +29,3 @@ desarrollo del curso, llevaremos 2 sitios interactivos:
 Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
 problemas de instalación y resolver dudas con respecto a configuraciones y
 workflow.
-
-[Continuar](01-node%2Bnpm.md)

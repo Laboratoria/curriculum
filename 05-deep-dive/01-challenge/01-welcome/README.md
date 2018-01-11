@@ -1,7 +1,8 @@
 # Presentación del Curso
 
-* Formato: `lectura`
-* Duración: `15min`
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `20min`
 
 ## Objetivos de la lección
 

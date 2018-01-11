@@ -1,8 +1,8 @@
 # Retos
 
-* Tipo: `seminar`
-* Formato: `guided`
-* Duración: `50min`
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `30min`
 
 ***
 
