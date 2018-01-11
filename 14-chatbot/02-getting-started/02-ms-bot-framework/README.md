@@ -16,58 +16,59 @@
 
 Microsoft Bot Framework es un conjunto de herramientas para ayudarte a crear
 bots, este conjunto de herramientas se dividen principalmente en 3 grandes
-componentes Bot Builder SDK, Bot Connector y Bot Directory.
+componentes: **Bot Builder SDK**, **Bot Connector** y **Bot Directory**.
 
 Nuestros bots siempre estarán compuestos por una lógica que corresponderá al
-servicio que queramos ofrecer o la problemática que queramos solucionar, también
-contará con una lógica de conversación esta lógica de conversación se puede
-implementar con Bot Builder SDK.
+servicio que queramos ofrecer o la problemática que queramos solucionar. También
+contará con una lógica de conversación, la cual se puede implementar con _Bot
+Builder SDK_.
 
-Bot Builder SDK es una librería con la cual puedes desarrollar tus bot tanto en
-Node.js como con C#, el código que generamos estará incorporado en el proyecto
-del bot y se encargará de gestionar las conversaciones., también podemos agregar
-a LUIS (Languaje Understanding Inteligent Service), LUIS se encarga de
-enriquecer nuestros bots integrándole "Compresión del Lenguaje Natural".
+_Bot Builder SDK_ es una librería con la cual puedes desarrollar tus bots tanto en
+`Node.js` como con `C#`. El código que generamos estará incorporado en el
+proyecto del bot y se encargará de gestionar las conversaciones. También
+podemos agregar a `LUIS` (Languaje Understanding Intelligent Service), LUIS se
+encargá de enriquecer nuestros bots integrándole _"Comprensión de Lenguaje
+Natural"_.
 
-Otro componente es el Bot Connector, este componente es un servicio online que
+Otro componente es el _Bot Connector_, este componente es un servicio online que
 nos permite conectar a nuestro bot con alguno de los servicios más conocidos
-como Skype, Facebook Messenger, Slack, entro otros.
+como **Skype**, **Facebook Messenger** o **Slack** entre otros.
 
-El último componente es Bot Directory es un directorio publico donde se
-encuentran todos los bots registrados por medio de bots Connector.
+El último componente es _Bot Directory_, que es un directorio publico donde se
+encuentran todos los bots registrados por medio de _Bot Connector_.
 
-Si quieres conocer más sobre Bot Framework ingresa a los siguientes enlaces:
+Si quieres conocer más sobre _Bot Framework_ ingresa a los siguientes enlaces:
 
 * [Introducción a Bots - Microsoft Virtual Academy](https://mva.microsoft.com/es-es/training-courses/introduccin-a-bots-18179)
 * [Microsoft Bot Framework](https://dev.botframework.com/)
 * [Create a bot with the Bot Builder SDK for Node.js - Bot Service | Microsoft Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart)
 * [Intro to Bot Framework | APAC DevSquad Showcase | Channel 9](https://channel9.msdn.com/Series/APAC-DevSquad-Showcase/Intro-to-Bot-Framework)
 
-## Tecnologias con las cuales podemos diseñar Bot en Azure
+## Tecnologías con las cuales podemos diseñar un bot en Azure
 
-Bot Builder SDK nos permite desarrolar bots con Node.js y C#
+Bot Builder SDK nos permite desarrolar bots con Node.js y C#.
 
 ## Servicios Cognitivos
 
-Los Servicios Cognitivos nos permiten agregar inteligencia artificial a nuestros
-bots (Algoritmos  Inteligentes) la cual nos permite ver, oír, hablar, comprender
-e interpretar las necesidades de los usuarios con formas de comunicación
-naturales.
+Los **Servicios Cognitivos** nos permiten agregar inteligencia artificial a nuestros
+bots (Algoritmos  Inteligentes), la cual nos permite ver, oír, hablar,
+comprender e interpretar las necesidades de los usuarios con formas de
+comunicación naturales.
 
-Dentro de los servicios Cognitivos podemos encontrar:
+Dentro de los _Servicios Cognitivos_ podemos encontrar:
 
-* Visión: Algoritmos de procesamiento de imágenes para identificar, moderar y
-  poner una leyenda de forma inteligente a sus imágenes.
-* Conocimiento: Cree mapas de información y datos complejos para resolver tareas
-  como recomendaciones inteligentes y búsqueda semántica.
-* Voz: Convierta voz en texto, use la voz con fines de comprobación o agregue
-  reconocimiento del hablante a sus aplicaciones.
-* Búsqueda: Agregue Bing Search APIs a sus aplicaciones y aproveche la capacidad
-  de buscar en miles de millones de páginas web, imágenes, vídeos y noticias con
-  una sola llamada API.
-* Lenguaje: Permita que las aplicaciones procesen lenguaje natural con scripts
-  precompilados, evalúen los sentimientos y aprendan a reconocer lo que los
-  usuarios desean.
+* **Visión**: Algoritmos de procesamiento de imágenes para identificar, moderar
+  y poner una leyenda de forma inteligente a sus imágenes.
+* **Conocimiento**: Cree mapas de información y datos complejos para resolver
+  tareas como recomendaciones inteligentes y búsqueda semántica.
+* **Voz**: Convierta voz en texto, use la voz con fines de comprobación o
+  agregue reconocimiento del hablante a sus aplicaciones.
+* **Búsqueda**: Agregue Bing Search APIs a sus aplicaciones y aproveche la
+  capacidad de buscar en miles de millones de páginas web, imágenes, vídeos y
+  noticias con una sola llamada API.
+* **Lenguaje**: Permita que las aplicaciones procesen lenguaje natural con
+  scripts precompilados, evalúen los sentimientos y aprendan a reconocer lo que
+  los usuarios desean.
 
 Si quieres conocer más detalles sobre los Servicios Cognitivos ingresa a
 [este enlace](https://azure.microsoft.com/es-es/services/cognitive-services/).
@@ -76,14 +77,14 @@ Si quieres conocer más detalles sobre los Servicios Cognitivos ingresa a
 
 Para configurar nuestro ambiente, realizaremos los siguientes pasos:
 
-1. Instalarán Node.js
+1. Instalar `Node.js`.
 
-2. Abrir Visual Studio Code
+2. Abrir Visual Studio Code.
 
-3. Ir al menú ver->terminal Integrado y verificarán si node.js esta funcionando
-   correctamente
+3. Ir al menú Ver -> Terminal Integrado y verificar que Node.js está funcionando
+   correctamente.
 
-4. Instalaremos `restify` y `botbuilder` con el siguiente comando:
+4. Instalar `restify` y `botbuilder` con el siguiente comando:
 
    ```sh
    npm install --save restify botbuilder
@@ -99,39 +100,39 @@ var conector = new builder.ConsoleConnector().listen();
 var bot = new builder.UniversalBot(conector);
 
 bot.dialog('/', [
-    function(session){
-        session.send('Hola Laboratoria!');
-    }
-])
+  function (session) {
+    session.send('Hola Laboratoria!');
+  }
+]);
 ```
 
 ### Ejemplo 2: Bot Web
 
-Para este ejemplo debemos tener instalado nuestro emulador bot framework.
+Para este ejemplo debemos tener instalado nuestro emulador de bot framework.
 
 ```js
-//command: npm install botbuilder -save
+// command: npm install botbuilder -save
 var builder = require('botbuilder');
-//command: npm install restify -save
+// command: npm install restify -save
 var restify = require('restify');
 
-//Creamos el server para comunicarno con nuestro bot
+// Creamos el server para comunicarno con nuestro bot
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
   console.log('%s escuchando %s', server.name, server.url);
 });
 
-//Por ahora esto queda en blanco
+// Por ahora esto queda en blanco
 var conector = new builder.ChatConnector({
   appId: '',
   appPassword: ''
 });
 
 var bot = new builder.UniversalBot(conector);
-//Este será nuestro endpoint de nuetro bot
+// Este será nuestro endpoint de nuetro bot
 server.post('/api/mensajes', conector.listen());
 
-//acá es donde sucede la magia de nuestro bot
+// acá es donde sucede la magia de nuestro bot
 bot.dialog('/', [
   function (session) {
     builder.Prompts.text(session, '¿Cómo te llamas?');

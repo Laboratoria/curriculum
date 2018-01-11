@@ -48,4 +48,4 @@ Los usos más habituales de los bots son:
 
 * [Qué es un bot?](https://mva.microsoft.com/es-es/training-courses/introduccin-a-bots-18179)
 * [Distintos tipos de bots](https://azure.microsoft.com/es-mx/solutions/architecture/commerce-chatbot/)
-* [Galeria de bot publicos](https://bots.botframework.com/)
+* [Galería de bots públicos](https://bots.botframework.com/)

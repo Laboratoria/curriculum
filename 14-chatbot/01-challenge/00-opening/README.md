@@ -16,19 +16,18 @@
 ## Bienvevida
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure. Para ello, veremos el asistente en el
+[Azure](https://azure.microsoft.com/). Para ello, veremos el asistente en el
 [Microsoft Bot Framework](https://dev.botframework.com/) como una
 herramienta/portal de desarrollo y las API de Servicios Cognitivos para
 inteligencia, uniendo los dos en la creación de un bot inteligente de chat para
 plataformas conversacionales.
 
-Para comenzar este curso necesitarás tener instalado en tu computador lo siguiente:
+Para comenzar este curso necesitarás tener instalado en tu computadora lo
+siguiente:
 
 * [Node.js](https://nodejs.org)
 * [Visual Studio Code](https://code.visualstudio.com/download)
-* [Microsoft Bot Framwork Emulator](https://docs.microsoft.com/en-us/bot-framework/bot-service-debug-emulator)
-
-...
+* [Microsoft Bot Framework Emulator](https://docs.microsoft.com/en-us/bot-framework/bot-service-debug-emulator)
 
 ## Entregables y evaluación
 
