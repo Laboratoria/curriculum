@@ -73,7 +73,6 @@ ayudará a ser más consistente y tener un código aun mucho más legible.
 | 02 | lectura | self-paced | 40min | [Linter](02-testing/03-linter)
 | 04 | lectura | self-paced | 10min | [Cierre](02-testing/04-closing)
 
-
 ## Autor(es) / Colaboradores
 
 * Nicole Stein

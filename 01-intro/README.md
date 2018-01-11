@@ -1,4 +1,4 @@
-# 01. Introducción a la programación (con JavaScript)
+# Introducción a la programación (con JavaScript)
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre
 nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
@@ -23,7 +23,7 @@ en el mundo tech.
 
 * Cómo crear tu primera web en HTML y darle interacción con JavaScript
 * Conceptos básicos de programación como: `variables`, `tipos datos`,
-`operadores`, `declaraciones condicionales`, `ciclos` y `funciones`
+  `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`
 * La sintaxis básica de JavaScript como lenguaje de programación
 
 ## Duración
