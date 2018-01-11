@@ -16,3 +16,5 @@ estructura del documento y lo usa para dibujar la página en la pantalla. Esta
 representación del documento es accedido a través de JavaScript y hace posible
 agregar interactividad a nuestros sitios web, aun así, es necesario tener en
 cuenta el performance del navegador.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window
