@@ -12,7 +12,7 @@ describe('isVowel()', () => {
     }
   });
 
-  it('debería devolver false para letra a', () => {
+  it('debería devolver false para letra b', () => {
     if (isVowel('b') !== false) {
       console.error('✗ fail');
     } else {

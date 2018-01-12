@@ -14,7 +14,7 @@ describe('isVowel()', () => {
     assertEqual(isVowel('a'), true);
   });
 
-  it('debería devolver false para letra a', () => {
+  it('debería devolver false para letra b', () => {
     assertEqual(isVowel('b'), false);
   });
 

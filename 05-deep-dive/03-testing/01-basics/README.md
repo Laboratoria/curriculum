@@ -43,10 +43,11 @@ el código de esta lección lo puedes ejecutar con `node`.
 
 ***
 
-Ahora imaginemos que queremos una función que convierta todas las vocales de un
-string a mayúsculas (upper case). Antes de implementar la función podríamos
-plantear unos _tests_. Crea un archivo con el nombre `isVowel.spec.js` y escribe
-el siguiente código:
+Ahora imaginemos que queremos una función que dado un caracter, nos diga si es
+una vocal o no (debería retornar `true` para las vocales y `false` para
+cualquier otro caracter). Antes de implementar la función podríamos plantear
+unos _tests_. Crea un archivo con el nombre `isVowel.spec.js` y escribe el
+siguiente código:
 
 ```js
 // Archivo `isVowel.spec.js`:
@@ -60,7 +61,7 @@ if (isVowel('a') === true) {
   console.error('✗ fail');
 }
 
-console.log('debería devolver false para letra a');
+console.log('debería devolver false para letra b');
 if (isVowel('b') === false) {
   console.log('✓ ok');
 } else {
@@ -172,11 +173,15 @@ Ejecutemos los _tests_ una vez más:
 $ node ./isVowel.spec.js
 debería devolver true para letra a
 ✗ fail
-debería devolver false para letra a
+debería devolver false para letra b
 ✗ fail
 ```
 
-...
+Yay! Finalmente nuestro script de tests corre sin _errores_, pero vemos que la
+implementación de `isVowel()` todavía no pasa ninguno de los dos tests que
+escribimos.
+
+Ahora sí, implementamos la funcionalidad esperada en `isVowel()`:
 
 ```js
 // Archivo `isVowel.js`
@@ -188,12 +193,12 @@ const isVowel = function (char) {
 module.exports = isVowel;
 ```
 
-...
+Y volvemos a ejecutar los tests una vez más:
 
 ```sh
 $ node ./isVowel.spec.js
 debería devolver true para letra a
 ✓ ok
-debería devolver false para letra a
+debería devolver false para letra b
 ✓ ok
 ```
