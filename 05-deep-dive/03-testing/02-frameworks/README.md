@@ -160,10 +160,10 @@ $ mocha ./isVowel.spec.js
 
 ```
 
-Verás de que todavía no hemos especificado como hacer las comprobaciones, pero
+Verás de que todavía no hemos especificado cómo hacer las comprobaciones, pero
 hemos ido igualmente describiendo el comportamiento esperado, y más tarde
 podemos ir rellenando la implementación según avancemos. Esto es super útil
-tanto para _documentar_ el compartamiento de nuestro código, si no para ver el
+tanto para _documentar_ el compartamiento de nuestro código, como para ver el
 nivel de completitud de la implementación y qué casos tiene en cuenta (o no).
 
 En el snippet anterior invocamos `it()` con un string que nos permite describir

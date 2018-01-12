@@ -26,7 +26,7 @@ ojos y _comprobar_ qué es ese valor (de una forma visual). Estamos probando (o
 comprobando) que efectivamente la variable `a` tomó el valor `5`, que era
 exactamente lo que esperábamos.
 
-Este proceso nos perimite ir viendo qué está ocurriendo el código mientras lo
+Este proceso nos perimite ir viendo qué está ocurriendo en el código mientras lo
 escribimos. Usa `console.log`, y úsalo mucho. Pero obviamente tiene sus
 limitaciones. En este caso dependemos de que una persona ejecute el comando, vea
 el _output_ (salida) y en su cabeza haga la comprobación. Muy útil para uno
@@ -97,7 +97,7 @@ _leerlos_. El mensaje de error en sí dice que no se pudo encontrar el módulo
 [stack trace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/Stack),
 que nos muestra la pila de llamadas dónde ocurrió el error. En este caso podemos
 ver que se menciona nuestro script (`/Users/lupo/work/laboratoria/curricula-js/05-deep-dive/03-testing/01-basics/files/isVowel.spec.js:1:79`),
-y al final de la ruta al archivo vemos que aparecen so números separados por
+y al final de la ruta al archivo vemos que aparecen dos números separados por
 dos puntos (`:`). Estos números nos dicen en qué línea y qué columna (posición
 dentro de la línea) está el código en cuestión. La línea `1` contiene
 `require('./isVowel')`, que es la responsable del error.
@@ -117,7 +117,7 @@ const isVowel = function (char) {
 Si volvemos a ejecutar los tests, ahora el output mostrado en la consola debería
 verse algo así:
 
-```text
+```sh
 $ node ./isVowel.spec.js
 debería devolver true para letra a
 /Users/lupo/work/laboratoria/curricula-js/05-deep-dive/03-testing/01-basics/files/isVowel.spec.js:4
@@ -169,7 +169,7 @@ module.exports = isVowel;
 
 Ejecutemos los _tests_ una vez más:
 
-```text
+```sh
 $ node ./isVowel.spec.js
 debería devolver true para letra a
 ✗ fail

@@ -121,7 +121,7 @@ instalar ninguna dependencia. Si estás corriendo tus tests en Node.js, es muy
 común usar este módulo (`assert`), a menos de que la librería o framework que
 estés usando ya incluya su propio sistema de aserciones (por ejemplo `Jest`).
 
-Reemplazemos nuestra función `assertEqual` con el módulo `assert` de Node.js:
+Reemplacemos nuestra función `assertEqual` con el módulo `assert` de Node.js:
 
 ```js
 // Archivo `isVowel.spec.js`
