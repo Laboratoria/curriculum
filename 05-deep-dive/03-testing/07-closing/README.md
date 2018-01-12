@@ -6,4 +6,20 @@
 
 ***
 
+## Resumen
+
+Llegamos al final de la unidad ;-)
+
 ...
+
+## Respondamos juntxs las preguntas de la apertura
+
+* Qué es un test unitario?
+* Qué es un framework de testing
+* Cómo escribir tests usando `mocha` usando la interfaz BDD (`describe()`,
+  `it()`, ...).
+* Cómo usar la librería standard de Node.js para aserciones con el módulo
+  `assert`.
+* Cómo usar las aserciones de `chai`.
+* Cómo correr tests en un entorno de navegador de forma automatizada con
+  `karma`.
