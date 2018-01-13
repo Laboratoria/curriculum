@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `30min`
 
 ***
 
@@ -14,6 +14,20 @@ Hay un montón de frameworks y librerías buenísimas de testing para JavaScript
 [Mocha](https://mochajs.org/), [Jest](https://facebook.github.io/jest/),
 [Jasmine](https://jasmine.github.io/), [Tape](https://github.com/substack/tape),
 ... por mencionar algunas de las más populares.
+
+> Unit testing involves breaking your program into pieces, and subjecting each
+> piece to a series of tests.
+>
+> Usually tests are run as separate programs, but the method of testing varies,
+> depending on the language, and type of software (GUI, command-line, library).
+>
+> Most languages have unit testing frameworks, you should look into one for
+> yours.
+>
+> Tests are usually run periodically, often after every change to the source
+> code. The more often the better, because the sooner you will catch problems.
+>
+> Fuente: https://stackoverflow.com/a/652309/374331
 
 En este curso nos vamos a concentrar en **Mocha**, y en particular en la
 interfaz [BDD](https://mochajs.org/#bdd), que implementa una API para hacer

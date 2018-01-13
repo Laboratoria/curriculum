@@ -12,9 +12,10 @@ Testear tu código es importante para garantizar que funcione como un espera,
 pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
 a diseñar mejor nuestro código.
 
-En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
-Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
-para escribir tus primeros tests y entender el valor tan grande que aportan.
+En este curso pondremos especial énfasis en el diseño orientado a pruebas ([Test
+Driven Development - TDD](https://en.wikipedia.org/wiki/Test-driven_development)).
+En esta unidad podrás seguir los pasos necesarios para escribir tus primeros
+tests y entender el valor tan grande que aportan.
 
 A lo largo del curso usaremos tests no solo en el _proyecto final_ sino como
 herramienta para demostrar las diferentes características del lenguaje según
@@ -34,8 +35,8 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 * Qué es un test unitario?
 * Qué es un framework de testing
-* Cómo escribir tests usando `mocha` usando la interfaz BDD (`describe()`,
-  `it()`, ...).
+* Cómo escribir tests usando la interfaz BDD (`describe()`, `it()`, ...) de
+  `mocha`.
 * Cómo usar la librería standard de Node.js para aserciones con el módulo
   `assert`.
 * Cómo usar las aserciones de `chai`.

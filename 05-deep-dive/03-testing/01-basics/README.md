@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `20min`
 
 ***
 
@@ -202,3 +202,9 @@ debería devolver true para letra a
 debería devolver false para letra b
 ✓ ok
 ```
+
+***
+
+... pedacitos chiquitos que puedan ser probados de forma aislada...
+
+https://martinfowler.com/bliki/UnitTest.html
