@@ -12,6 +12,16 @@ Testear tu código es importante para garantizar que funcione como un espera,
 pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
 a diseñar mejor nuestro código.
 
+Escribimos tests para:
+
+1. Encontrar problemas en la implementación
+2. Para evitar que problemas/bugs lleguen a producción
+3. Para probar/demostrar que un programa no tiene fallas
+4. Para averiguar la fiabilidad de nuestro código
+5. Para asegurar que un _producto_ se comporte como esperamos
+6. Para detectar problemas pronto, lo que permite reducir el costo de
+   modificaciones
+
 En este curso pondremos especial énfasis en el diseño orientado a pruebas ([Test
 Driven Development - TDD](https://en.wikipedia.org/wiki/Test-driven_development)).
 En esta unidad podrás seguir los pasos necesarios para escribir tus primeros
@@ -33,8 +43,8 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-* Qué es un test unitario?
-* Qué es un framework de testing
+* Qué es un test?
+* Qué es un framework de testing?
 * Cómo escribir tests usando la interfaz BDD (`describe()`, `it()`, ...) de
   `mocha`.
 * Cómo usar la librería standard de Node.js para aserciones con el módulo

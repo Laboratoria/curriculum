@@ -81,8 +81,6 @@ metodología de evaluación.
 Arrancaremos el curso con la presentación de los retos, de los cuales cada
 equipo tendrá que elegir uno como proyecto para este curso.
 
-`challenges`, `teams`, `proposals`, ...
-
 ### Unidad 02: [Entorno de desarrollo](02-env)
 
 Una vez introducido el curso y los retos, nos concentraremos en el entorno de
@@ -106,7 +104,7 @@ En este curso pondremos especial énfasis en el diseño orientado a pruebas (Tes
 Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
 para escribir tus primeros tests y entender el valor tan grande que aportan.
 
-`mocha`, `assert`, `chai`, `karma`
+Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
 
 ### Unidad 05: [Paquetes y módulos](05-packages)
 
@@ -115,7 +113,7 @@ de código. Pare ello es fundamental entender los conceptos de paquetería en
 JavaScript, desde sistemas de módulos hasta el repositorio de `npm`. Veremos la
 mecánica de dependencias para reuso de código.
 
-`package.json`, `require`, `module`, `exports`, `import`, `export`, ...
+Esta unidad cubre: `package.json`, `require`, `module`, `exports`, `import`, `export`, ...
 
 ### Unidad 06: [Asincronía: Callbacks, eventos y promesas](06-async)
 
