@@ -115,10 +115,9 @@ características:
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 10min | Introducción a Firebase
+| 00 | lectura | 60min | Introducción a Firebase
 | 01 | lectura | 60min | Autenticación
-| 02 | lectura | 90min | Base de Datos
-| 03 | práctica | 1h | Retos guiados
+| 02 | lectura | 60min | Base de Datos
 
 ### Unidad 05: [Crea tu propia red social](05-social-network)
 
