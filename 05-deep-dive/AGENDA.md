@@ -33,6 +33,28 @@ Total estimado: 3h 30min (aprox. 1h libre para que investiguen y planeen reto)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
+| 2 | 2.5h     | Unidad 5: Fundamentos de JavaScript (parte 1)
+
+Total estimado: 2h 45min (aprox. 2h libres para hacking, y estudio libre ...)
+
+### Día 3
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
+| 2 | 2h       | Unidad 5: Fundamentos de JavaScript (parte 2)
+
+Total estimado: 2h 15min (aprox. 2h libres para hacking, y estudio libre ...)
+
+***
+
+## Semana 2
+
+### Día 4
+
+| # | Duración | Descripción
+|---|----------|------------
+| 1 | 15min    | Daily
 | 2 | 105min   | Unidad 3: Unit Testing / Pruebas unitarias
 
 Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar, repasar, ...)
@@ -45,28 +67,6 @@ Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar, repasar
 | 2 | 75min    | Unidad 4: Paquetes y módulos
 
 Total estimado: 1h 30min (aprox. 3h libres para hacking, y estudio libre ...)
-
-***
-
-## Semana 2
-
-### Día 4
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Daily
-| 2 | 2.5h     | Unidad 5: Fundamentos de JavaScript (parte 1)
-
-Total estimado: 2h 45min (aprox. 2h libres para hacking, y estudio libre ...)
-
-### Día 5
-
-| # | Duración | Descripción
-|---|----------|------------
-| 1 | 15min    | Daily
-| 2 | 2h       | Unidad 5: Fundamentos de JavaScript (parte 2)
-
-Total estimado: 2h 15min (aprox. 2h libres para hacking, y estudio libre ...)
 
 ### Día 6
 
