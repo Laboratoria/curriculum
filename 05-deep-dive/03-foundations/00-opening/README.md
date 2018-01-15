@@ -1,9 +1,13 @@
-# ECMAScript 2015
+# Apertura
 
-* Formato: `lectura`
-* Duración: `3 min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
+
+> TODO: Esta lectura tiene que ser revisada y adaptada a esta unidad después de
+> haber juntado foundations, es6, funcs y data structures en una sola unidad.
 
 <iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">

@@ -1,19 +1,82 @@
-# Introducción a ES6
+# Scope
 
-* Formato: `lectura`
-* Duración: `5 min`
-
-Durante esta sesión nos aseguraremos, que todas entiendan las diferencias entre
-`var`, `let`, `const`.
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
 
 ***
 
-Con `ES6` se han incorporado al lenguaje varias novedades como nuevas palabras
-reservadas para definir variables y constantes, símbolos, interpolación de
-variables en cadenas, desestructuración, forma abreviada para declarar
-funciones, nueva sintaxis más sencilla para definir clases, objetos de tipo Map
-y Set, Promises como alternativa a callbacks, el protocolo Iterator y
-generadores, además de algunas otras cosas que te pueden resultar novedosas.
+En esta lección, primero veremos cómo se comportan las variables en base al
+ámbito, luego veremos el entorno y que son los closures.
+
+## Background: El `scope`de una variable
+
+Para el resto de la lección, es necesario tener claro los siguientes conceptos:
+
+### El `scope` de una variable
+
+El `scope` de una variable son las ubicaciones desde donde puede ser accedida.
+Por ejemplo:
+
+```js
+function foo() {
+  var x;
+}
+```
+
+Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`.
+
+### Lexical scoping
+
+Las variables en `ES5` son _lexically scoped_ (de ámbito léxico), así que la
+estructura estática de un programa determina el ámbito de la variable (no es
+influenciada por dónde se invoca la función).
+
+### Nested Scopes (ámbitos anidados)
+
+Si el ámbito está anidado dentro del ámbito directo de una variable, la variable
+será accesible en todos los ámbitos:
+
+```js
+function foo(arg) {
+  function bar() {
+    console.log(`arg: ${arg}`);
+  }
+  bar();
+}
+
+console.log(foo('hello')); // arg: hello
+```
+
+El ámbito directo de `arg` es `foo`, pero es también accesible del ámbito
+anidado `bar`. Con respecto a la anidación, `foo` es el _outer scope_ (alcance o
+ámbito externo) y `bar` es el _inner scope_ (alcance o ámbito interno).
+
+### Shadowing (sombra)
+
+Si un scope declara una variable que tiene el mismo nombre que otra en un scope
+interno de una función, el acceso a la variable externa es bloqueado en el scope
+interno y todos los scopes anidados dentro de ella. Cambios a la variable
+interna no afecta a la variable externa, la cual es accesible nuevamente cuando
+el scope interno es dejado. Ejemplo:
+
+```js
+var x = 'global';
+function f() {
+  var x = 'local';
+  console.log(x); // local
+}
+f();
+console.log(x); // global
+```
+
+Dentro de la función `f`, la variable `x` es sombreada por la variable local
+`x`.
+
+***
+
+TODO: Explicar que a partir de ES6 ya tenemos _block scope_ con `let` y `const`,
+y no sólo _function scope_.
 
 ***
 
@@ -62,17 +125,17 @@ del bloque.
 Veamos algunos ejemplos:
 
 ```js
-if(x > y) {
-    let gamma = 12.7 + y;
-    i = gamma * x;
+if (x > y) {
+  let gamma = 12.7 + y;
+  i = gamma * x;
 }
 ```
 
 En el ejemplo anterior, `gamma` solo existe dentro del bloque del `if`.
 
 ```js
-for(let i = 0; i < students.length; i++){
-    console.log(students[i].name);
+for (let i = 0; i < students.length; i++) {
+  console.log(students[i].name);
 }
 ```
 
@@ -81,12 +144,12 @@ Podemos utilizar `let` para que la variable sea local al alcance del bucle
 función que contiene dicho bucle.
 
 ```js
-(function() {
-    if(true){
-        let x = 'hola mundo';
-    }
-    console.log(x);
-    // Da error, porque "x" ha sido definida dentro del "if"
+(function () {
+  if (true) {
+    let x = 'hola mundo';
+  }
+  console.log(x);
+  // Da error, porque "x" ha sido definida dentro del "if"
 })();
 ```
 
@@ -98,14 +161,14 @@ En el siguiente ejemplo la consola imprime `Hola Ale`, ya que la variable `x` en
 el bloque del `if` se mantiene dentro de su ámbito.
 
 ```js
-(function() {
-    let x = 'Hola Ale';
+(function () {
+  let x = 'Hola Ale';
 
-    if(true) {
-        let x = 'Hola Joan';
-    }
-    console.log(x);
-    // Imprime en consola Hola Ale
+  if (true) {
+    let x = 'Hola Joan';
+  }
+  console.log(x);
+  // Imprime en consola Hola Ale
 })();
 ```
 
@@ -122,10 +185,10 @@ modificado.
 Veamos un ejemplo:
 
 ```js
-(function(){
-    const HELLO = 'hello world';
-    HELLO = 'hola mundo';
-    // Dará ERROR, ya que es de sólo lectura
+(function () {
+  const HELLO = 'hello world';
+  HELLO = 'hola mundo';
+  // Dará ERROR, ya que es de sólo lectura
 })();
 ```
 
@@ -134,10 +197,10 @@ En este ejemplo vemos cómo desde el momento en que declaramos la constante
 modificarlo.
 
 ```js
-(function() {
-    const PI;
-    PI = 3.15;
-    // Dará ERROR, ya que ha de asignarse un valor en la declaración
+(function () {
+  const PI;
+  PI = 3.15;
+  // Dará ERROR, ya que ha de asignarse un valor en la declaración
 })();
 ```
 

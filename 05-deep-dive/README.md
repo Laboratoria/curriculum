@@ -89,24 +89,7 @@ Una vez introducido el curso y los retos, nos concentraremos en el entorno de
 desarrollo, con una breve introducción/repaso de conceptos sobre `sh`, `git`,
 `npm` y tu `editor` de texto favorito.
 
-### Unidad 03: [Unit Testing / Pruebas unitarias](03-testing)
-
-En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
-Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
-para escribir tus primeros tests y entender el valor tan grande que aportan.
-
-`mocha`, `assert`, `chai`, `karma`
-
-### Unidad 04: [Paquetes y módulos](04-packages)
-
-El objetivo final del curso son los retos, que implican desarrollar una librería
-de código. Pare ello es fundamental entender los conceptos de paquetería en
-JavaScript, desde sistemas de módulos hasta el repositorio de `npm`. Veremos la
-mecánica de dependencias para reuso de código.
-
-`package.json`, `require`, `module`, `exports`, `import`, `export`, ...
-
-### Unidad 05: [Fundamentos de JavaScript](05-foundations)
+### Unidad 03: [Fundamentos de JavaScript](03-foundations)
 
 Si bien los fundamentos de JavaScript se vieron desde el primer curso de
 Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
@@ -116,6 +99,23 @@ esta manera veremos un poco de compiladores y profundización en los temas como
 
 En esta unidad veremos tambien algunas nuevas características de ES6 a nivel de
 sintaxis para comenzar a utilizarlo a lo largo del curso.
+
+### Unidad 04: [Unit Testing / Pruebas unitarias](04-testing)
+
+En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
+Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
+para escribir tus primeros tests y entender el valor tan grande que aportan.
+
+`mocha`, `assert`, `chai`, `karma`
+
+### Unidad 05: [Paquetes y módulos](05-packages)
+
+El objetivo final del curso son los retos, que implican desarrollar una librería
+de código. Pare ello es fundamental entender los conceptos de paquetería en
+JavaScript, desde sistemas de módulos hasta el repositorio de `npm`. Veremos la
+mecánica de dependencias para reuso de código.
+
+`package.json`, `require`, `module`, `exports`, `import`, `export`, ...
 
 ### Unidad 06: [Asincronía: Callbacks, eventos y promesas](06-async)
 
