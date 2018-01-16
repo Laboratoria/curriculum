@@ -14,6 +14,6 @@ para reflexionar sobre lo que aprendiste y cuéntanos cómo te sientes.
 
 ## Auto-evaluación
 
-- [Santiago de Chile]()
-- [Lima]()
-- [México DF]()
+- [Lima](https://goo.gl/forms/kru1j4b3ncsbDgh12)
+- [Santiago de Chile](https://goo.gl/forms/medA1WicXiCx2h4x1)
+- [Ciudad de México](https://goo.gl/forms/VMZmtauSBPPekzzh2)
