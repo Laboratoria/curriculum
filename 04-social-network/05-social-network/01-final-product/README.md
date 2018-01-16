@@ -27,7 +27,6 @@ Para él hay algunos puntos básicos que debe tener una red social:
 - Un lugar para subir fotos
 - Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de la red social
 - Ser mobile friendly
-- Etc.
 
 Este emprendedor, además, sabe que los creadores de productos tienen que pensar
 siempre en los usuarios y espera que tengas en cuenta lo que necesitan los

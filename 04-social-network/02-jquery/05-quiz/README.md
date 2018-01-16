@@ -21,7 +21,7 @@
 #### Opciones
 
 1. Un lenguaje de programación
-2. Una libreria
+2. Una librería
 3. Un framework
 
 <solution style="display:none;">2</solution>
@@ -64,7 +64,7 @@
 2. $
 3. $()
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">3</solution>
 
 ### 6) ¿Cuál es la sintaxis general de jQuery?
 

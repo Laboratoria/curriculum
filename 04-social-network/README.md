@@ -93,7 +93,7 @@ características:
 | 11 | cuestionario | 5min | Auto-evaluación
 | 12 | seminario | 2h | Closing
 
-### Unidad 04: [Mejora la usabilidad](03-usability)
+### Unidad 04: [Mejora la usabilidad](03-design-process)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
@@ -115,10 +115,9 @@ características:
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 10min | Introducción a Firebase
-| 01 | lectura | 15min | Autenticación
-| 02 | lectura | 25min | Base de Datos
-| 03 | práctica | 1h | Retos guiados
+| 00 | lectura | 60min | Introducción a Firebase
+| 01 | lectura | 60min | Autenticación
+| 02 | lectura | 60min | Base de Datos
 
 ### Unidad 05: [Crea tu propia red social](05-social-network)
 

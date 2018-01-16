@@ -30,5 +30,6 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-- ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?
+- ¿Cuáles son las fases de un proceso de diseño?
 
+- ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?
