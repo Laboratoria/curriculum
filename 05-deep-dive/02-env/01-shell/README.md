@@ -24,27 +24,30 @@ Básicamente, la shell es el _intérprete_ que se encarga de ejecutar los comand
 que escribimos en el terminal (o emulador de terminal). Así como el motor de
 JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
 y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
-escribimos en la líneas de comando.
+escribimos en la línea de comando.
 
 ## Shells comunes: bash, zsh, ...
 
-La shell más común es problemente `bash` (Bourne Again SHell), pero no está de
-más mencionar que existen muchas shells distintas, que comparten gran parte de
-sus características, pero cada una con sus peculiaridades. Otras shells comunes
-son: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
+La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
+pero no está de más mencionar que existen muchas shells distintas, que comparten
+gran parte de sus características, pero cada una con sus peculiaridades. Otras
+shells comunes son: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
 
-Dentro de un emulador de terminal podemos ejecutar diferentes shells.
+Dentro de un emulador de terminal podemos ejecutar diferentes shells, así como
+configurar tu shell por defecto (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
 
 ## Interactuando con el sistema de archivos
 
 Cuando abrimos un emulador de terminal, normalmente nos encontramos (por
 defecto) en nuestra carpeta `HOME` (por ejemplo: `/home/<usuario>` en la mayoría
-de distribuciones de UNIX) y el terminal siempre _está_ en el agun lugar del
+de distribuciones de UNIX). El terminal siempre _está_ en el agun lugar del
 sistema de archivos. Esto quiere decir que los comandos que ejecutemos se
-ejecutan desde ese _lugar_ (la carpeta donde estemos).
+ejecutarán desde ese _lugar_ (la carpeta donde estemos).
 
 Para poder manejarse con facilidad en el terminal es importante familiarizarse
-con algunos comandos como:
+con algunos comandos. Te recomendamos abrir tu terminal y ejecutar los comandos
+detallados más abajo (las líneas que empiezan con `$` en los bloques de código).
+Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
 
 * `pwd`: muestra la ruta donde estamos actualmente (**P**rint **W**orking
   **D**irectory)
@@ -128,29 +131,41 @@ con algunos comandos como:
 Cada vez que apretamos la tecla _enter_ le estamos pidiendo al terminal que
 ejecute la línea que hayamos escrito hasta ese punto. Es importante entender
 que todo comando se ejecuta en un contexto (la carpeta desde la que ejecutamos,
-las variables de entorno, ...) y ...
+las variables de entorno, ...).
 
-## Entrada/Salida/Pipes
+## Entrada/Salida/Pipes/Redirección
 
 ## Procesos
 
 ## Variables de entorno
--->
 
 ## Comandos comunes
 
-Algunos comandos comunes que usaremeos a lo largo de este curso:
+Además de manejarnos en el sistema de archivos, como desarrolladorxs web, y
+usuarixs de la línea de comando, es recomendable familiarizarse con algunos
+comandos comunes (además de los programas que ya conocemos, como `git`, `node`,
+`npm`, ...). Acá algunos ejemplos de comandos útiles:
 
 * `which`: averigua si un ejecutable se encuentra en nuestro `PATH`. Muy útil
   para saber si un comando está disponible y dónde está ele ejecutable en el
   sistema de archivos.
-* `grep`
-* `ps`
+  ```sh
+  which node
+  /usr/local/bin/node
+  ```
+* `grep`: filtra texto, mostrándonos solamente aquellas líneas que contengan un
+  patrón de búsqueda.
 * `curl`
-* `tree`
-* `git`
-* `node`
-* `npm`
+* ...
+-->
+
+## Otros temas de interés
+
+En este curso no pretendemos profundizar en Bash o la shell de UNIX, pero si
+tienes curiosidad (o necesidad) de aprender un poco más te recomendamos leer
+sobre **entrada y salida** de comandos (**stdin**, **stdout**, **stderr**),
+**procesos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...),
+**variables de entorno**, ...
 
 ## Personalización
 
@@ -169,3 +184,4 @@ fuera del scope de este curso, pero te invitamos a que explores lo siguiente:
 * [Shell de Unix - Wikipedia](https://es.wikipedia.org/wiki/Shell_de_Unix)
 * [Emulador de terminal - Wikipedia](https://es.wikipedia.org/wiki/Emulador_de_terminal)
 * [Bash_(Unix_shell) - Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+* [Shell Builtin Commands - gnu.org](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)

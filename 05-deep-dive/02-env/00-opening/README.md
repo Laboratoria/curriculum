@@ -8,7 +8,10 @@
 
 En esta unidad veremos el entorno de desarrollo en que tendrás que desarrollar
 tu proyecto final de este curso (la librería). Veremos superficialmente temas
-de la UNIX shell, git, GitHub, Node.js, npm, babel y editores de texto.
+de la [shell de UNIX](https://es.wikipedia.org/wiki/Shell_de_Unix),
+[git](https://git-scm.com/), [GitHub](https://github.com/),
+[Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/),
+[babel](https://babeljs.io/) y editores de texto.
 
 ## ¿Por qué aprender esto?
 
@@ -31,8 +34,9 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-* Qué es la UNIX shell?
+* Qué es la shell de UNIX?
 * Cómo ejecutar comandos en el terminal
+* Como _navegar_ el sistema de archivo en el terminal
 * Qué es un _fork_ y como _forkear_ un repo en GitHub
 * Cómo clonar un repo remoto
 * Uso general de los comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
