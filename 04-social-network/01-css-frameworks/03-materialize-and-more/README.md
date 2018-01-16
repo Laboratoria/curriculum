@@ -41,6 +41,12 @@ funciona o gusta más es haciendo uso de ellos. Probar y variar, a prueba y
 error!
 
 ### Material adicional
+<<<<<<< HEAD
+Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
+
+1. [Materialize](https://codigofacilito.com/cursos/materialize)
+2. [Foundation](https://www.youtube.com/watch?v=SYf8O1vdqWk&list=PLPiMTe_552ODTFnYc2jD3SqwRAvq2GTPw)
+=======
 
 Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te
 dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
@@ -49,3 +55,4 @@ dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
 2. Foundation
 
    [![Foundation](https://img.youtube.com/vi/SYf8O1vdqWk/0.jpg)](https://www.youtube.com/watch?v=SYf8O1vdqWk)
+>>>>>>> ff9f1bd3cbab6f582385e0b50fca83971de3fe9f
