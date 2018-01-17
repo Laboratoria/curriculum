@@ -26,41 +26,41 @@ sus propias necesidades.
 1. Lo primero que vamos a hacer es ir a la pagina principal de
   [Firebase](https://firebase.google.com)
 
-  ![portada](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/portada.png?raw=true)
+  ![portada](https://raw.githubusercontent.com/AnaSalazar/curricula-js/bd355c1ac54857332544af3328d76e08f668012e/04-social-network/04-firebase-101/00-intro/images/portada.png)
 
 2. Nos dirigimos a nuestra consola
 
-  ![consola](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/consola.png?raw=true)
+  ![consola](https://raw.githubusercontent.com/AnaSalazar/curricula-js/bd355c1ac54857332544af3328d76e08f668012e/04-social-network/04-firebase-101/00-intro/images/consola.png)
 
 3. Creamos un nuevo proyecto
 
-    ![add](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/add-project.png?raw=true)
+    ![add](https://raw.githubusercontent.com/AnaSalazar/curricula-js/bd355c1ac54857332544af3328d76e08f668012e/04-social-network/04-firebase-101/00-intro/images/add-project.png)
 
-    ![new](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/new-project.png?raw=true)
+    ![new](https://raw.githubusercontent.com/AnaSalazar/curricula-js/bd355c1ac54857332544af3328d76e08f668012e/04-social-network/04-firebase-101/00-intro/images/new-project.png)
 
 4. Hecho lo anterior seleccionamos la opción de `Add Firebase to your web app`
 
-  ![firebase-web](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/firebase-web.png?raw=true)
+  ![firebase-web](https://raw.githubusercontent.com/AnaSalazar/curricula-js/bd355c1ac54857332544af3328d76e08f668012e/04-social-network/04-firebase-101/00-intro/images/firebase-web.png)
 
   y nos arrojará unas líneas de script que pegaremos en nuestro desarrollo.
 
-  ![scripts](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/scripts.png?raw=true)
+  ![scripts](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/scripts.png)
 
 5. El primer script lo pondremos en nuestro **HTML** por encima de cualquier
    otro script:
 
-   ![script-html](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/script-html.png?raw=true)
+   ![script-html](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/script-html.png)
 
    y el siguiente en nuestro archivo js:
 
-   ![script-js](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/script-js.png?raw=true)
+   ![script-js](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/script-js.png)
 
 6. Y ya con esto tenemos Firebase en nuestro proyecto!!! Si revisamos nuestros
   archivos quedan de la siguiente manera:
 
-  ![html](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/html.png?raw=true)
+  ![html](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/html.png)
 
-  ![js](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/00-intro/images/js.png?raw=true)
+  ![js](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/js.png)
 
 >*Esto mismo es lo que viene en la documentación de firebase, compáralo e
   inténtalo.*
