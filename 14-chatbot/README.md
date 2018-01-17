@@ -74,17 +74,17 @@ en el proceso así como tus compañeras. Los retos:
 
 Esta unidad contiene la información sobre los retos de este curso.
 
-### Unidad 02: [Principios de diseño, tipos de bots y Microsoft Bot Framework](02-getting-started)
+### Unidad 02: [Tipos de bots, Microsoft Bot Framework y flujo de trabajo](02-getting-started)
 
-Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta unidad veremos los componentes de Microsoft Bot Framework, los distintos tipos de bots, aplicaciones y flujo de trabajo donde consideramos diálogos, Prompt, tarjetas enriquecidas y un ejemplo del despliegue de un bot en  Azure.
 
-<!--
+
 ### Unidad 03: [Servicios cognitivos](03-cognitive-services)
 
-Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta unidad conoceremos a LUIS -Language Understanding Intelligent Service- un servicio basado en Machine Learning para crear una comprensión lingüística natural en aplicaciones, bots y dispositivos IoT. Cree rápidamente modelos personalizados preparados para la empresa que puedan mejorar constantemente.
 
+Además, conoceremos los servicios cognitivos como Visión, Voz, Búsqueda, Conocimiento entre otros servicios...
+<!--
 ### Unidad 04: [Hacking](04-hacking)
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
