@@ -85,7 +85,13 @@ Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
 
 ## Entregables
 
-TODO: definir entregables!!!
+Al completar este curso tendrás que presentar tu proyecto (librería) en una
+demo, así como enviar un mínimo de un pull request con la implementación del
+proyecto.
+
+Cada semana se harán _code reviews_ con tus instructorxs para hacer seguimiento
+de progreso, darte feedback sobre tu trabajo y asegurarnos de que nadie se queda
+descolgadx.
 
 ## Evaluación
 
