@@ -22,7 +22,8 @@ personas, sino que también pueden comunicarse entre ellos para llevar a cabo
 tareas.
 
 Podemos resumir que un bot es una aplicación que realizá tareas automatizadas,
-evitándonos trabajos repetitivos.
+evitándonos trabajos repetitivos y Azure nos puede apoyar en mantener nuestro
+bot siempre activo.
 
 ## Tipos de Bot
 
@@ -35,6 +36,8 @@ evitándonos trabajos repetitivos.
 * Game bots
 * Scraper bots
 
+En este taller veremos Chat Bots conectados a Facebook Messenger o Web Chat.
+
 ## ¿Qué utilidades le podemos dar a los bots?
 
 Los usos más habituales de los bots son:
@@ -43,6 +46,10 @@ Los usos más habituales de los bots son:
 * Solicitar reservas en restaurantes
 * Atención al cliente
 * Solicitud de asistencia médica
+
+Las utilidades son infinitas según nuestras necesidades, podemos implementar
+bots para automatizar montones de cosas. Como curiosidad, [acá pueden ver un
+caso curiosioso llevando al extremo la automatización](https://computerhoy.com/noticias/apps/este-programador-automatiza-asi-su-trabajo-base-scripts-37481)
 
 ## Lecturas complementarias
 

@@ -3,34 +3,40 @@
 [:construction: Este curso está en desarrollo :construction:]
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
-Azure. Para ello, veremos el asistente en el
+[Azure](https://azure.microsoft.com). Para ello, veremos el asistente en el
 [Microsoft Bot Framework](https://dev.botframework.com/) como una
-herramienta/portal de desarrollo y las API de Servicios Cognitivos para
+herramienta/portal de desarrollo, así como las API de Servicios Cognitivos para
 inteligencia, uniendo los dos en la creación de un bot inteligente de chat para
 plataformas conversacionales.
 
-Se enfatizará el diseño reflexivo, así como la experiencia del usuario junto con
-las pruebas para crear las mejores experiencias de bot.
+Los **chatbots**, la **nube**, el **análisis de lenguaje natural**, la
+**intelegencia artificial**, ... son temas cada vez más importantes, y
+accesibles desarrolladores web. Hoy en día, tener un conocimiento básico sobre
+estas tecnologías ya no es solamente _interesante_, sino una necesidad en
+nuestro _maletín de herramientas_ y _libro de recetas_.
 
-Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
-temas principales, metodología y enfoque de la experiencia.
-
-Requerimientos de la intro:
-
-* Cuál es el tema en un tweet
-* Dónde encaja dentro del mundo profesional y en la historia del software
-* Por qué es relevante aprender esto
-* Abstract del curso
+En este curso te enfrentarás a un _reto_ que implica desarrollar un bot usando
+una metodología que trata de parecerse al _mundo real_. A lo largo del curso,
+con el apoyo de tus instructorxs y compañerxs afrontarás un reto junto con una
+compañera. Tendrás que investigar por tu cuenta, explorar, planear, diseñar,
+hackear, ... y finalmente presentar tu trabajo al resto :tada:
 
 Tags: `bot`, `chatbot`, `azure`
 
 ## Público objetivo
 
-Para quién es este curso?
+Este curso está dirigido a personas con familiaridad previa con el desarrollo
+web, y JavaScript en particular, que quieren aprender a desarrollar bots
+conversacionales y explorar herramientas cloud (alojadas en Azure en este caso).
 
 ## Requerimientos previos
 
-Qué conocimientos previos se necesitan?
+Para poder llevar adelante este curso sin frustración, es recomendable los
+siguientes conocimientos previos:
+
+* Manejo de línea de comandos (\*nix) y git
+* Manejo básico de npm
+* Familiaridad con JavaScript
 
 ## Aprenderás
 
@@ -51,9 +57,16 @@ Qué conocimientos previos se necesitan?
 
 ## Producto
 
-Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
-desarrollar durante el curso, junto con la metodología de trabajo propuesta
-así como entregables y método de evaluación.
+Al inicio del curso se presentarán una serie de _retos_ que implican tener que
+implemetar un bot y desplegarlo en Azure. Cada equipo (de dos alumnxs) elegirá
+un _reto_ a desarrollar y será presentado al final del curso en
+una demo al resto de la clase. A lo largo del curso tus instructorxs te guiarán
+en el proceso así como tus compañeras. Los retos:
+
+* [Bot de preguntas frecuentes para Microsoft Filantropía](01-challenge/01-challenges#reto-1-microsoft-filantrop%C3%ADa)
+* [Bot para fidelizar amigos/contactos](01-challenge/01-challenges#reto-2-bot-para-fidelizar-amigoscontactos)
+* [Bot para apoyo de maestros sobre dudas de tareas](01-challenge/01-challenges#reto-3-bot-para-apoyo-de-maestros-sobre-dudas-de-tareas)
+* [Bot para consejos de belleza y combinacion de colores](01-challenge/01-challenges#reto-4-bot-para-consejos-de-belleza-y-combinacion-de-colores)
 
 ## Syllabus
 
@@ -61,16 +74,17 @@ así como entregables y método de evaluación.
 
 Esta unidad contiene la información sobre los retos de este curso.
 
-### Unidad 02: [Principios de diseño, tipos de bots y Microsoft Bot Framework](02-getting-started)
+### Unidad 02: [Tipos de bots, Microsoft Bot Framework y flujo de trabajo](02-getting-started)
 
-Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta unidad veremos los componentes de Microsoft Bot Framework, los distintos tipos de bots, aplicaciones y flujo de trabajo donde consideramos diálogos, Prompt, tarjetas enriquecidas y un ejemplo del despliegue de un bot en  Azure.
+
 
 ### Unidad 03: [Servicios cognitivos](03-cognitive-services)
 
-Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta unidad conoceremos a LUIS -Language Understanding Intelligent Service- un servicio basado en Machine Learning para crear una comprensión lingüística natural en aplicaciones, bots y dispositivos IoT. Cree rápidamente modelos personalizados preparados para la empresa que puedan mejorar constantemente.
 
+Además, conoceremos los servicios cognitivos como Visión, Voz, Búsqueda, Conocimiento entre otros servicios...
+<!--
 ### Unidad 04: [Hacking](04-hacking)
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
@@ -100,16 +114,35 @@ aprenderlo.
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
+-->
 
 ***
 
 ## Evaluación
 
-[TODO]
+En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
+por el puntaje de tu producto/reto y tu equipo y el 40% restante será
+determinado por tu desempeño personal.
+
+Para determinar el puntaje de tu equipo/producto contaremos con sesiones
+períodicas de revisión de código durante todo el proceso y luego con el
+desempeño del producto durante el día de la demo, donde será evaluado por el
+equipo técnico y el resto de los equipos.
+
+Tu desempeño personal estará determinado por tu participación dentro de las
+sesiones presenciales, tu actividad en github (escribiendo código, comentando,
+creando issues, ...), tu actividad en slack (haciendo y/o contestando
+preguntas), etc.
+
+Todos los equipos deberán exponer sus resultados durante el día de la demo,
+independientemente del estado de completitud del producto. Aquellos equipos que
+no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+
+Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Contribuidores
 
-* [@cristianca-lagash](https://github.com/cristianca-lagash) (autor)
+* [@ccardensa](https://github.com/ccardensa) (autor)
 * [@lupomontero](https://github.com/lupomontero) (coordinador)
 
 ## Lecturas complementarias

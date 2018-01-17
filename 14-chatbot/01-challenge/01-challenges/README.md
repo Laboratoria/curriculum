@@ -1,7 +1,7 @@
 # Retos
 
-* Tipo: `seminar`
-* Formato: `guided`
+* Tipo: `seminaro`
+* Formato: `guiado`
 * Duración: `50min`
 
 ***
@@ -47,10 +47,10 @@ de tecnología de Microsoft, desde sus productos tradicionales como Windows y
 Office hasta servicios avanzados en la nube que consideran Office 365, Dynamics
 365, Azure, PowerBI, EMS y Microsoft 365.
 
-Para facilitar la atención a las organizaciones Microsoft creó el portal
-www.microsoft.com/nonprofits donde describe los diferentes apoyos que puede
-brindar la compañía a las instituciones sin fines de lucro, los requisitos y el
-procedimiento para solicitar el apoyo.
+Para facilitar la atención a las organizaciones Microsoft creó
+[este portal](http://www.microsoft.com/nonprofits) donde describe los diferentes
+apoyos que puede brindar la compañía a las instituciones sin fines de lucro, los
+requisitos y el procedimiento para solicitar el apoyo.
 
 Si bien el portal cuenta con esta información constantemente las organizaciones
 requieren apoyo personalizado para atención a dudas sobre el tipo de productos
