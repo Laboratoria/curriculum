@@ -6,7 +6,7 @@
 
 ***
 
-## ¿Qué es y como podemos usar la autenticación?
+## ¿Qué es y cómo podemos usar la autenticación?
 
 La autenticación es una manera de identificar a los usuarios en nuestra
 app/desarrollo. En la lectura anterior vimos como integrar Firebase en nuestro
@@ -23,10 +23,11 @@ podemos ver los pasos necesarios para empezar.
 Observamos que del lado izquierdo tenemos un menú lateral, ahí podemos
 encontrar las opciones que tenemos para que nuestros usuarios accedan:
 
-![menu-lateral](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/04-firebase-101/01-auth/images/menu-lateral.png?raw=true)
+![menu-lateral](https://raw.githubusercontent.com/Laboratoria/curricula-js/4b5f150a38604e2f0854ec556edc48e53ef2b211/04-social-network/04-firebase-101/01-auth/images/menu-lateral.png)
 
 Ahora ya sólo debemos de seguir los pasos que ahí nos vienen. Muchas veces
 parece ser más rebuscado de lo que es pero si de todos modos ya te leíste su
 documentación y sigues sin dar con el *secreto* para que funcione, aquí tenemos
-un [vídeo](https://youtu.be/uRaeF7qtBXs) que nos explica un poco
-más el paso a paso para que triunfemos!
+un vídeo que nos explica un poco más el paso a paso para que triunfemos!
+
+[vídeo](https://youtu.be/uRaeF7qtBXs)
