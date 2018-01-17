@@ -22,7 +22,8 @@ personas, sino que también pueden comunicarse entre ellos para llevar a cabo
 tareas.
 
 Podemos resumir que un bot es una aplicación que realizá tareas automatizadas,
-evitándonos trabajos repetitivos y Azure nos puede apoyar en mantener nuestro bot siempre activo.
+evitándonos trabajos repetitivos y Azure nos puede apoyar en mantener nuestro
+bot siempre activo.
 
 ## Tipos de Bot
 
