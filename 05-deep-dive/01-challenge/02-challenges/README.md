@@ -83,6 +83,8 @@ validar el número de tarjeta de crédito (usando algoritmo de Luhn), fecha de
 vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la
 tarjeta.
 
+[Repo](https://github.com/Laboratoria-learning/card-validator)
+
 ### Reto 2: Cardify (muestra alt en vez de imagen en hover)
 
 Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
@@ -91,10 +93,6 @@ elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>
 con el texto del atributo `alt` de la imagen.
 
 [Repo](https://github.com/Laboratoria-learning/cardify)
-
-```js
-$('.gallery').cardify();
-```
 
 ### Reto 3: Extracer links de archivos markdown (Node.js)
 
@@ -128,3 +126,5 @@ console.log(links);
 //   { href: 'http://foo.com', text: 'foo' },
 // ]
 ```
+
+[Repo](https://github.com/Laboratoria-learning/extract-links-from-md)
