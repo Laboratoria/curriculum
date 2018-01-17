@@ -17,14 +17,15 @@ en el proceso así como tus compañeras.
 
 Todos los retos deben incluir por los menos los siguientes archivos:
 
+* `README.md` con descripción del módulo, instrucciones de instalación, uso y
+  documentación del API.
 * `index.js`: Librería debe exportar una función u objeto al entorno global
   (`window`) y hacer uso de _features_ de ES6 donde sea apropiado.
 * `index.html`: Página web de la librería con ejemplo funcionando.
-* `README.md` con descripción del módulo, instrucciones de instalación, uso y
-  documentación del API.
 * `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...)
-* `.eslintrc` con configuración para linter
+* `.eslintrc` con configuración para linter (ver [guía de estilo de
+  JavaScript](https://github.com/Laboratoria/js-style-guide))
 * `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
   incluirse en control de versiones (`git`).
 
