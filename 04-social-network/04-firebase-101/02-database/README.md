@@ -19,4 +19,6 @@ fácilmente.
 
 Firebase también nos ofrece una base de datos ya lista para usarse desde que
 creamos nuestro proyecto en la consola. En está ocasión, para saber como hacer
-uso de la base de datos nos apoyaremos del siguiente [vídeo](https://youtu.be/HI4TH-Z-szU)
+uso de la base de datos nos apoyaremos del siguiente vídeo.
+
+[vídeo](https://youtu.be/HI4TH-Z-szU)
