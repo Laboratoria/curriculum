@@ -1,4 +1,4 @@
-# Microsoft Bot Framework
+# Flujo de Trabajo
 
 * Tipo: `seminario`
 * Formato: `guiado`
@@ -11,8 +11,6 @@
 * Preguntas y conceptos clave de esta unidad
 
 ***
-
-## Flujo de Trabajo
 
 Le llamamos flujo de trabajo a la organización de nuestros diálogos o más bien
 conocido como flujo de conversación, el core de un flujo de trabajo es el
