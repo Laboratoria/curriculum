@@ -111,16 +111,15 @@ características:
 | 11 | cuestionario | 5min | Auto-evaluación
 | 12 | seminario | 2h | Closing
 
-### Bonus: [Agrega Back-end a tus aplicaciones](04-firebase-101)
+### Unidad 05: [Agrega Back-end a tus aplicaciones](04-firebase-101)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 10min | Introducción a Firebase
+| 00 | lectura | 60min | Introducción a Firebase
 | 01 | lectura | 60min | Autenticación
-| 02 | lectura | 90min | Base de Datos
-| 03 | práctica | 1h | Retos guiados
+| 02 | lectura | 60min | Base de Datos
 
-### Unidad 05: [Crea tu propia red social](05-social-network)
+### Unidad 06: [Crea tu propia red social](05-social-network)
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------

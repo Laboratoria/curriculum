@@ -74,7 +74,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) Si deseo seleccionar todos los elementos con id blue, ¿Cuál es el selector correcto?
+### 7) Si deseo seleccionar el elemento con id blue, ¿Cuál es el selector correcto?
 
 #### Opciones
 
