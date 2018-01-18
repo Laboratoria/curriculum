@@ -71,13 +71,13 @@ $('selector').evento();
 Ejemplos:
 
 ```js
-$ (this) .hide () - oculta el elemento actual.
+$(this).hide() - oculta el elemento actual.
 
-$ ("p"). hide () - oculta todos los elementos <p>.
+$("p").hide() - oculta todos los elementos <p>.
 
-$ (".test"). hide () - oculta todos los elementos con class = "test".
+$(".test").hide() - oculta todos los elementos con class = "test".
 
-$ ("#test"). hide () - oculta el elemento con id = "prueba".
+$("#test").hide() - oculta el elemento con id = "prueba".
 ```
 
 Ya que incluimos jQuery en nuestro proyecto y tenemos clara la sintaxis,
