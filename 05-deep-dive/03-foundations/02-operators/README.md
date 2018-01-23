@@ -54,8 +54,8 @@ secuencia para determinar el resultado:
 21 === "21"         // false
 undefined === null  // false
 NaN === NaN         // false
-[10] == 10          // false
-true == 1           // false
+[10] === 10          // false
+true === 1           // false
 [] === []           // false
 '10' === '10'       // true
 ```
