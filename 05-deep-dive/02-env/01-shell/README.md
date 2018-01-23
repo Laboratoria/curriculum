@@ -26,7 +26,7 @@ JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
 y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
 escribimos en la línea de comando.
 
-## Shells comunes: bash, zsh, ...
+## Shells comunes: bash, zsh, etc
 
 La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
 pero no está de más mencionar que existen muchas shells distintas, que comparten

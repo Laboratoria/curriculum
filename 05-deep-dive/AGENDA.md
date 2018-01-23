@@ -57,7 +57,8 @@ Total estimado: 2h 15min (aprox. 2h libres para hacking, y estudio libre ...)
 | 1 | 15min    | Daily
 | 2 | 105min   | Unidad 4: Unit Testing / Pruebas unitarias
 
-Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar, repasar, ...)
+Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar,
+repasar, ...)
 
 ### Día 3
 
@@ -74,7 +75,6 @@ Total estimado: 1h 30min (aprox. 3h libres para hacking, y estudio libre ...)
 |---|----------|------------
 | 1 | 15min    | Daily
 | 2 | 1h       | Taller: Code review (parte 1)
-
 
 Total estimado: 2h 45min (aprox. 1.5h libres para hacking, y estudio libre ...)
 
