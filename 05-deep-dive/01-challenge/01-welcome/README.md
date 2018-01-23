@@ -100,7 +100,7 @@ por el puntaje de tu producto/reto y tu equipo y el 40% restante será
 determinado por tu desempeño personal.
 
 Para determinar el puntaje de tu equipo/producto contaremos con sesiones
-períodicas de revisión de código durante todo el proceso y luego con el
+periódicas de revisión de código durante todo el proceso y luego con el
 desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
