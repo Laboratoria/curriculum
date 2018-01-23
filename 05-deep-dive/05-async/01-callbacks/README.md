@@ -47,3 +47,7 @@ que algo se está haciendo a través de un mensaje (o barra de progreso si es qu
 estamos en una página web). Para esto creamos una función, a la que comúnmente
 se le llama *callback*, que será la que se ejecute una vez que lleguen los datos
 del proceso lento.
+
+## Lecturas complementarias
+
+* [Callback function - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)

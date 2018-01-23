@@ -10,8 +10,6 @@
 
 Llegamos al final de la unidad ;-)
 
-...
-
 ## Respondamos juntxs las preguntas de la apertura
 
 * Qué es un test?
