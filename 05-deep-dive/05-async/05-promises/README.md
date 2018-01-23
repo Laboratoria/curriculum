@@ -6,44 +6,44 @@
 
 ***
 En los diferentes lenguajes y estilos de programación siempre ha habido un
-problema con el tiempo que toman las cosas en realizarse. En especial con las
-operaciones más lentas, como ir a buscar cosas al disco duro, buscar información
-en alguna API de internet, o incluso esperar a que el usuario haga algo. Un
-estilo que triunfó en el pasado es el `síncrono` :
+problema con el tiempo que toman las cosas en realizarse, quizá no en el sentido
+humano, pero si para una computadora que puede ejecutar varios miles de
+operaciones por segundo. En especial esto sucede con operaciones como ir a
+buscar cosas al disco duro, buscar información en alguna API de internet, o 
+incluso esperar a que el usuario haga algo. Un estilo que triunfó en el pasado
+es el `síncrono` :
 
 ```javascript
-var procesoLento = FabricaLenta.nuevoProcesoLento();
-var datos = procesoLento(); //Esto puede tomar un montón
-return datos;
+var fs = require('fs');
+var contents = fs.readFileSync('assets/ajson.json').toString();
+console.log(contents);
 ```
 
-En este estilo vemos que para retornar los datos debemos esperar a que el
-proceso lento termine, no muy bello desde el punto de vista del usuario de este
-programa, pero si desde el punto de vista del programador, que solo tiene que 
-ocuparse de que esto funcione y que con 3 lineas consigue obtener los datos, y 
-que cada linea se ejecuta después de la otra, por lo que es fácil seguir
-mentalmente el programa.
+En este estilo vemos que para imprimir el contenido del archivo, se debe esperar
+a que termine de leer por parte de readFileSync, no muy bello desde el punto de
+vista del usuario, pero si desde el punto de vista del programador, que solo
+tiene que ocuparse de que esto funcione y que con 3 lineas consigue obtener los 
+datos, y que cada linea se ejecuta después de la otra, por lo que es fácil 
+seguir mentalmente el programa.
 
 Con la llegada de Javascript, también se hizo popular un nuevo estilo de
 programación, llamado `asíncrono` :
 
 ```javascript
-var procesoLento = FabricaLenta.nuevoProcesoLento();
-procesoLento((datos)=>{
-    /*
-     * Código que usa los datos
-     */
+var fs = require('fs');
+fs.readFile('assets/ajson.json', function(err, buf) {
+  console.log(buf.toString());
 });
-mostrarRuedaDeEspera();
+console.log("Espera mientras leemos el archivo...")
 ```
 Con esta forma de programar no nos preocupamos de esperar los datos, podemos
 hacer otras cosas mientras tales como informar al usuario de nuestro programa
-que algo se está haciendo a través de una rueda de espera (o barra de progreso
-si se quiere). Pero mantenemos una función, a la que comúnmente se le llama
-*callback*, que será la que se ejecute una vez que lleguen los datos del proceso
-lento. Pero no todo es bello en este estilo y es fácil perder el hilo de lo que
-se está ejecutando en un momento determinado. Más aun si en la vida real 
-comienzan a existir *callbacks* para todo :
+que algo se está haciendo a través de un mensaje (o barra de progreso si es que 
+estamos en una página web). Para esto creamos una función, a la que comúnmente 
+se le llama *callback*, que será la que se ejecute una vez que lleguen los datos
+ del proceso lento. Pero no todo es bello en este estilo y es fácil perder el 
+hilo de lo que se está ejecutando en un momento determinado. Más aun si en la 
+vida real comienzan a existir *callbacks* para todo :
 
 ```javascript
 unProcesoLento(
@@ -71,10 +71,15 @@ están diseñadas para representar a esos datos que están, estarán en el futur
 de ellas : 
 
 ```javascript
-var procesoLento = FabricaLenta.nuevoProcesoLento();
-procesoLento.then(
-    (datos) => {
-        console.log("Datos del proceso lento > "+datos);
+const readFiles = require('read-files-promise');
+ 
+readFiles([
+  'path/to/file0',
+  'path/to/file1',
+], {encoding: 'utf8'})
+.then(
+    (buffers) => {
+        buffers;
     }
 ).catch(
     (error) => {
@@ -89,19 +94,26 @@ caso de falla, pero la principal es que las promesas pueden anidarse como lo
 veremos en el siguiente ejemplo :
 
 ```javascript
-var procesoLento = FabricaLenta.nuevoProcesoLento();
-procesoLento.then(
-    (datos) => {
-        console.log("Datos del proceso lento > "+datos);
-        return FabricaLenta.nuevoOtroProcesoLento(datos);
+const readFiles = require('read-files-promise');
+ 
+readFiles([
+  'path/to/file0'
+], {encoding: 'utf8'})
+.then(
+    (buffers) => {
+        buffers; //[ContenidoDeArchivo0]
+
+        return readFiles([
+            'path/to/file1'
+        ],{encoding: 'utf8'});
     }
 ).then(
-    (datosDelOtroProcesoLento) => {
-        console.log("Datos del otro proceso > "+datosDelOtroProcesoLento);
+    (buffers) => {
+        buffers; //[ContenidoDeArchivo1]
     }
 ).catch(
     (error) => {
-        console.log("Falló este proceso muy lento")
+        console.log("Fallamos al leer archivos")
     }
 );
 ```
@@ -124,10 +136,11 @@ una promesa cualquiera por dentro y analicemos las partes que la componen, para
 así entender cómo crearlas nosotros mismos.
 
 ```javascript
-var procesoLento = new Promise((resolve, reject) => {
-    var datos = {};
+let procesoLento = new Promise((resolve, reject) => {
+    let datos = {};
     //...
-    //muchas lineas de código lentísmo
+    //muchas lineas de código
+    //...
     if(error){
         //uh oh, las cosas no salieron tan bien
         reject(new Error("Fallamos, lo siento"));
@@ -144,14 +157,14 @@ que puede estar inmediatamente, en el futuro o simplemente no estar. Este objeto
 para ser creado recibe un *callback*, pero no como todos, sino que uno especial 
 que tiene dos parámetros que veremos a continuación.
 
-### Parámetro resolve
+#### Parámetro resolve
 
 El primer parámetro del *callback* la promesa es una función especial que 
 llamaremos cuando el trabajo lento que hacemos se termina. Con esto se da por 
 terminada la promesa y los datos que queramos retornar se ponen como parámetros 
 de `resolve`.
 
-### Parámetro reject
+#### Parámetro reject
 
 Nuestro trabajo lento puede fallar, es obvio que todo puede fallar (muchas 
 gracias Murphy), por esto tenemos que tener una forma de comunicar que nuestro
