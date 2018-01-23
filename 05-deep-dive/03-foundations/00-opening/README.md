@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `5min`
+* Duración: `15min`
 
 ***
 
@@ -11,7 +11,7 @@
 En esta unidad aprenderemos:
 
 * A utilizar el estándar más recientemente aceptado de JavaScript ES2015 || ES6.
-  Conocerás las ventajas de este estandar así como sus limitaciones y aprenderás
+* Conocerás las ventajas de este estandar así como sus limitaciones y aprenderás
   a lidiar con ellas para hacer cada vez un mejor desarrollo de productos.
 * Profundizarás en las particularidades de JavaScript, entenderás mejor los
   tipos de datos que has utilizado anteriormente.
@@ -27,11 +27,11 @@ En esta unidad aprenderemos:
 
 Hasta el día de hoy, muy probablemente has estado preguntandote
 
-> "¿Qué es eso cool de lo que todo el mundo habla, ES6?".
+> "¿Qué es eso de ES6 de lo que todo el mundo habla?".
 
-Con esta unidad ha llegado por fin la hora de conocerlo.
+Con esta unidad ha llegado por fin la hora de responder esta pregunta.
 
-Seguramente ya sabes, que ES5 es hasta ahora la versión con más navegadores
+Quizás ya sepas que ES5 ha sido hasta ahora la versión con más navegadores
 compatibles y eso la vuelve una excelente aliada.
 
 Pero es hora de buenas noticias, así como nos actualizamos de año, los
@@ -41,6 +41,9 @@ Este estandar del lenguaje, tiene un sin fin de características que te ayudará
 a escribir código más limpio y cool.
 
 ¿Estás lista?
+
+Las siguientes diapositivas exponen brevemente lo que abordaremos en esta
+unidad:
 
 <iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
