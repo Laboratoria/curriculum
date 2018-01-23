@@ -6,44 +6,41 @@
 
 ***
 
-> TODO: Esta lectura tiene que ser revisada y adaptada a esta unidad después de
-> haber juntado foundations, es6, funcs y data structures en una sola unidad.
+## Objetivos de aprendizaje
 
-#### OBJETIVOS DE APRENDIZAJE
 En esta unidad aprenderemos:
-* A utilizar el estándar más recientemente aceptado de JavaScript
-ES2015 || ES6.
-Conocerás las ventajas de este estandar así como sus limitaciones y 
-aprenderás a lidiar con ellas para hacer cada vez un mejor desarrollo
-de productos.
-* Profundizarás en las particularidades de JavaScript, entenderás mejor 
-los tipos de datos que has utilizado anteriormente.
-* Descubrirás que algunos conceptos como el scope de las funciones cambia
-con JS ES6.
-* Aprenderás a desarrollar mejores estructuras de datos, le sacarás todo el 
-jugo a los objetos y arreglos que ya conoces.
-  * Conocerás la destructuración de arreglos.
-  *  Conocerás una nueva cara de todos los tipos de dato que existen, 
-como objetos constructores. 
 
+* A utilizar el estándar más recientemente aceptado de JavaScript ES2015 || ES6.
+  Conocerás las ventajas de este estandar así como sus limitaciones y aprenderás
+  a lidiar con ellas para hacer cada vez un mejor desarrollo de productos.
+* Profundizarás en las particularidades de JavaScript, entenderás mejor los
+  tipos de datos que has utilizado anteriormente.
+* Descubrirás que algunos conceptos como el scope de las funciones cambia con JS
+  ES6.
+* Aprenderás a desarrollar mejores estructuras de datos, le sacarás todo el jugo
+  a los objetos y arreglos que ya conoces.
+* Conocerás la destructuración de arreglos.
+* Conocerás una nueva cara de todos los tipos de dato que existen, como objetos
+  constructores.
 
-## ES6: JavaScript con superpoderes.
+## ES6: JavaScript con superpoderes
+
 Hasta el día de hoy, muy probablemente has estado preguntandote
-"¿Qué es eso cool de lo que todo el mundo habla, ES6?".
 
-Con esta unidad ha llegado por fin la hora de conocerlo. 
+> "¿Qué es eso cool de lo que todo el mundo habla, ES6?".
 
-Seguramente ya sabes, que ES5 es hasta ahora la versión con más 
-navegadores compatibles y eso la vuelve una excelente aliada. 
+Con esta unidad ha llegado por fin la hora de conocerlo.
 
-Pero es hora de buenas noticias, así como nos actualizamos de año, 
-los navegadores también se actualizan y en este momento se están 
-migrando a ES6.
+Seguramente ya sabes, que ES5 es hasta ahora la versión con más navegadores
+compatibles y eso la vuelve una excelente aliada.
 
-Este estandar del lenguaje, tiene un sin fin de características 
-que te ayudarán a escribir código más limpio y cool.
+Pero es hora de buenas noticias, así como nos actualizamos de año, los
+navegadores también se actualizan y en este momento se están migrando a ES6.
 
-¿Estás lista? 
+Este estandar del lenguaje, tiene un sin fin de características que te ayudarán
+a escribir código más limpio y cool.
+
+¿Estás lista?
 
 <iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
