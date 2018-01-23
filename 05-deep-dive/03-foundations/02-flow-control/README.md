@@ -8,7 +8,7 @@
 
 ## Loops
 
-### Mecanismos que pueden ser usados con cliclos
+### Mecanismos que pueden ser usados con ciclos
 
 Los siguientes mecanismos pueden ser usados con ciclos:
 
