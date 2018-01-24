@@ -172,3 +172,16 @@ valor para el siguiente paso, lo haremos de la siguiente forma:
 cualquier paso de la cadena de then haya una falla**. Esto es muy importante,
 puesto que concentra todo el manejo de errores en solo una parte, aliviando a la
 programadora de tener que manejar errores en cada uno de los _callbacks_.
+
+## Estado de promesas
+
+Una promesa puede encontrarse en estos estados:
+
+* **pending**: Estado inicial, ni terminada exitosamente o rechazada.
+* **fulfilled**: operación exitosa.
+* **rejected**: operación fallida o rechazada.
+* **settled**: la Promise ha sido exitosa o rechazada, pero no está pendiente.
+
+## Lecturas complemenentarias
+
+* [Promises - Jake Archibald - Google Developers](https://developers.google.com/web/fundamentals/primers/promises)
