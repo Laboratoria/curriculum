@@ -76,33 +76,34 @@ Esta unidad contiene la información sobre los retos de este curso.
 
 ### Unidad 02: [Bot Framework y Principios de Diseño](02-getting-started)
 
-En esta unidad conoceremos el marco de trabajo Bot Framework y los principios de diseño que nos proporcionarán las herramientas que nos ayudarán a dar los primeros pasos con los Bot
-
+En esta unidad conoceremos el marco de trabajo Bot Framework y los principios
+de diseño que nos proporcionarán las herramientas que nos ayudarán a dar los
+primeros pasos con los bot.
 
 ### Unidad 03: [SDK Bot Builder para Node.js](03-cognitive-services)
 
-En esta unidad conoceremos el SDK para Node.js que nos permitirá crear nuestro primero Bot
-
+En esta unidad conoceremos el SDK para Node.js que nos permitirá crear nuestro
+primer bot.
 
 ### Unidad 04: [Bot Service y nuestro primer Bot en Azure](04-hacking)
 
-En esta unidad conoceremos el Bot Service de Azure que nos permitirá implementar nuestros primeros bot en la nube
-
+En esta unidad conoceremos el Bot Service de Azure que nos permitirá implementar
+nuestros primeros bots en la nube.
 
 ### Unidad 05: [Agregando Inteligencia a nuestros Bot](05-testing)
 
-En esta unidad conoceremos los Cognitive Services de Azure y agregaremos inteligencia a nuestro Bot con LUIS basado en Machine Learning
-
+En esta unidad conoceremos los Cognitive Services de Azure y agregaremos
+inteligencia a nuestro Bot con LUIS basado en Machine Learning.
 
 ### Unidad 06: [Telemetría de Apps con Application Insights](06-hacking)
 
-En esta unidad aprenderemos como implementar telemetría a nuestros Bot para vigiliar la salud tanto de los bot como de aplicaciones web
+En esta unidad aprenderemos como implementar telemetría a nuestros bots para
+vigiliar la salud tanto de los bots como de aplicaciones web.
 
 ### Unidad 06: [Hacking](06-hacking)
 
 Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
-
 
 ***
 
