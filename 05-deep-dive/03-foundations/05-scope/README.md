@@ -6,10 +6,7 @@
 
 ***
 
-En esta lección, primero veremos cómo se comportan las variables en base al
-ámbito, luego veremos el entorno y que son los closures.
-
-## Background: El `scope`de una variable
+## Background
 
 Para el resto de la lección, es necesario tener claro los siguientes conceptos:
 
@@ -24,7 +21,13 @@ function foo() {
 }
 ```
 
-Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`.
+Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`. Esta
+variable podrá ser accedida desde dentro del cuerpo de la función `foo`, pero no
+fuera de ella.
+
+Tradicionalmente, en JavaScript solo podíamos crear un nuevo scope o ámbito
+creando una nueva función. Más adelante en esta lectura veremos cómo `let` y
+`const` introducen el concepto de _block sope_ en ES6.
 
 ### Lexical scoping
 
@@ -72,11 +75,6 @@ console.log(x); // global
 
 Dentro de la función `f`, la variable `x` es sombreada por la variable local
 `x`.
-
-***
-
-TODO: Explicar que a partir de ES6 ya tenemos _block scope_ con `let` y `const`,
-y no sólo _function scope_.
 
 ***
 
