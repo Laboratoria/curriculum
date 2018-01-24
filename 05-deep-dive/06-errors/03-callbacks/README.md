@@ -71,14 +71,14 @@ try {
 }
 ```
 
-En este caso, si se da la condición del error (puedes cambiar `statusCode !==
-200` a `statusCode === 200` temporalmente para probar el error), veremos que la
-excepción NO es atrapada en el bloque `catch`, sino que termina la ejecución de
-nuestro programa sin que tengamos la oportunidad de manejar el error. Esto es
-porque la excepción se está arrojando desde un callback que se ejecuta en otro
-contexto, más adelante en el tiempo. Este `try...catch` solo atraparía errores
-que pudieran ocurrir en la parte síncrona de la función, antes de hacer el
-request.
+En este caso, si se da la condición del error (puedes cambiar
+`statusCode !== 200` a `statusCode === 200` temporalmente para probar el error),
+veremos que la excepción NO es atrapada en el bloque `catch`, sino que termina
+la ejecución de nuestro programa sin que tengamos la oportunidad de manejar el
+error. Esto es porque la excepción se está arrojando desde un callback que se
+ejecuta en otro contexto, más adelante en el tiempo. Este `try...catch` solo
+atraparía errores que pudieran ocurrir en la parte síncrona de la función, antes
+de hacer el request.
 
 Es por esto que las funciones asíncronas evitan arrojar errores con `throw` y
 siempre comunican errores a través de argumentos pasados a _callbacks_, ya sea

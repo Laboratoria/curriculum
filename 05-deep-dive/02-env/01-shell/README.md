@@ -57,7 +57,7 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   ```
 * `mkdir`: crea una carpeta (**M**a**K**e **DIR**ectory)
   ```sh
-  $ mkdir ejemplo
+  mkdir ejemplo
   ```
 * `cd`: cambia de directorio a una nueva ruta (**C**hange **D**irectory)
   ```sh
@@ -68,8 +68,8 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
 * `touch`: Crea un archivo en blanco si no existe o actualiza la fecha de
   modificación si existse.
   ```sh
-  $ touch README.md
-  $ touch index.js .gitignore
+  touch README.md
+  touch index.js .gitignore
   ```
 * `ls`: lista los archivos (y directorios/carpetas) en la carpeta actual
   (**L**i**S**t)
