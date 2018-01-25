@@ -84,7 +84,7 @@ La mayoría de las aplicaciones o sitios web exitosos tienen al menos una cosa e
 
 ## Las primeras impresiones importan
 
-La primera interacción entre el usuario y el bot es crítica para la experiencia del usuario. Al diseñar su bot, tenga en cuenta que hay más en ese primer mensaje que simplemente decir "hola". Cuando construyes una aplicación, diseñas la primera pantalla para proporcionar indicaciones de navegación importantes. Los usuarios deben entender intuitivamente cosas tales como dónde se encuentra el menú y cómo funciona, dónde buscar ayuda, cuál es la política de privacidad, etc. Cuando diseñas un bot, la primera interacción del usuario con el bot debería proporcionar el mismo tipo de información. En otras palabras, solo decir "hola" no será suficiente.
+La primera interacción entre el usuario y el bot es crítica para la experiencia del usuario. Al diseñar su bot, ten en cuenta que hay más en ese primer mensaje que simplemente decir "hola". Cuando construyes una aplicación, diseñas la primera pantalla para proporcionar indicaciones de navegación importantes. Los usuarios deben entender intuitivamente cosas tales como dónde se encuentra el menú y cómo funciona, dónde buscar ayuda, cuál es la política de privacidad, etc. Cuando diseñas un bot, la primera interacción del usuario con el bot debería proporcionar el mismo tipo de información. En otras palabras, solo decir "hola" no será suficiente.
 
 ## Diseñar y controlar el flujo de conversación
 
