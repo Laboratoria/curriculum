@@ -1,7 +1,7 @@
-# Demos
+# Hacking
 
 * Tipo: `taller`
 * Formato: `guiado`
-* Duración: `60min`
+* Duración: `160min`
 
 ***
