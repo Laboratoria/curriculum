@@ -53,4 +53,4 @@ Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 
 ## Hoja de ruta
 
-![kickoff chatbot con azure - sclene18](https://user-images.githubusercontent.com/110297/34795694-1f114566-f621-11e7-8d99-7edd1c30aa97.png)
+![kickoff chatbot con azure - sclene18](https://user-images.githubusercontent.com/110297/35365339-0df5a322-0142-11e8-831d-4c0f233aa2b9.png)
