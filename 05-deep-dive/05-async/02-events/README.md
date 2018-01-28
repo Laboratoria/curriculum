@@ -22,9 +22,7 @@ lenguaje muy flexible, existen varias formas diferentes de indicar los
 manejadores:
 
 * Manejadores como atributos de los elementos XHTML
-
 * Manejadores como funciones JavaScript externas
-
 * Manejadores "semánticos"
 
 ## Manejadores como Atributos de XHTML
@@ -49,7 +47,7 @@ instrucciones JavaScript que se ejecutan cuando se produce el evento. En este
 caso, el código JavaScript es muy sencillo
 
 ```js
-(console.log('Gracias por pinchar');)//ya que solamente se trata de mostrar un mensaje.
+(console.log('Gracias por pinchar');) // ya que solamente se trata de mostrar un mensaje.
 ```
 
 En este otro ejemplo, cuando el usuario pincha sobre el elemento `<div>` se
@@ -188,8 +186,8 @@ del elemento que ha provocado el evento.
 Por otra parte, el ejemplo anterior se complica por la forma en la que los
 distintos navegadores almacenan el valor de la propiedad borderColor. Mientras
 que Firefox almacena (en caso de que los cuatro bordes coincidan en color) el
-valor simple `black`, Internet Explorer lo almacena como `black` `black` `blac
-` `black` y Opera almacena su representación hexadecimal `#000000`.
+valor simple `black`, Internet Explorer lo almacena como `black` `black` `blac`
+`black` y Opera almacena su representación hexadecimal `#000000`.
 
 ## Manejadores de eventos semánticos
 
@@ -217,7 +215,7 @@ Se puede transformar en:
 function muestraMensaje() {
   console.log('Gracias por pinchar');
 }
-document.getElementById("pinchable").onclick = muestraMensaje;
+document.getElementById('pinchable').onclick = muestraMensaje;
 ```
 
 ```html
@@ -228,29 +226,23 @@ El código XHTML resultante es muy "limpio", ya que no se mezcla con el código
 JavaScript. La técnica de los manejadores semánticos consiste en:
 
 * Asignar un identificador único al elemento XHTML mediante el atributo id
-
 * Crear una función de JavaScript encargada de manejar el evento
-
 * Asignar la función a un evento concreto del elemento XHTML mediante DOM
-
 * Otra ventaja adicional de esta técnica es que las funciones externas pueden
-
-utilizar la variable this referida al elemento que original el evento.
-
+  utilizar la variable this referida al elemento que original el evento.
 * Asignar la función manejadora mediante DOM es un proceso que requiere una
-
-explicación detallada. En primer lugar, se obtiene la referencia del elemento
-al que se va a asignar el manejador:
+  explicación detallada. En primer lugar, se obtiene la referencia del elemento
+  al que se va a asignar el manejador:
 
 ```js
-document.getElementById("pinchable");
+document.getElementById('pinchable');
 ```
 
 A continuación, se asigna la función externa al evento deseado mediante una
 propiedad del elemento con el mismo nombre del evento:
 
 ```js
-document.getElementById("pinchable").onclick = ...
+document.getElementById('pinchable').onclick = ...
 ```
 
 Por último, se asigna la función externa. Como ya se ha comentado en capítulos
@@ -259,7 +251,7 @@ solamente el nombre de la función, es decir, prescindir de los paréntesis al
 asignar la función:
 
 ```js
-document.getElementById("pinchable").onclick = muestraMensaje;
+document.getElementById('pinchable').onclick = muestraMensaje;
 ```
 
 Si se añaden los paréntesis al final, en realidad se está invocando la función
@@ -275,8 +267,8 @@ Una de las formas más sencillas de asegurar que cierto código se va a ejecutar
 después de que la página se cargue por completo es utilizar el evento `onload`
 
 ```js
-window.onload = function() {
-  document.getElementById("pinchable").onclick = muestraMensaje;
+window.onload = function () {
+  document.getElementById('pinchable').onclick = muestraMensaje;
 }
 ```
 
@@ -287,7 +279,7 @@ se va a ejecutar después de que la página se haya cargado, sólo es necesario
 incluirlo en el interior de la siguiente construcción
 
 ```js
-window.onload = function() {
-...
+window.onload = function () {
+  // ...
 }
 ```

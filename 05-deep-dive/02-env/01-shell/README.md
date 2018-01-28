@@ -26,7 +26,7 @@ JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
 y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
 escribimos en la línea de comando.
 
-## Shells comunes: bash, zsh, ...
+## Shells comunes: bash, zsh, etc
 
 La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
 pero no está de más mencionar que existen muchas shells distintas, que comparten
@@ -57,7 +57,7 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   ```
 * `mkdir`: crea una carpeta (**M**a**K**e **DIR**ectory)
   ```sh
-  $ mkdir ejemplo
+  mkdir ejemplo
   ```
 * `cd`: cambia de directorio a una nueva ruta (**C**hange **D**irectory)
   ```sh
@@ -68,8 +68,8 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
 * `touch`: Crea un archivo en blanco si no existe o actualiza la fecha de
   modificación si existse.
   ```sh
-  $ touch README.md
-  $ touch index.js .gitignore
+  touch README.md
+  touch index.js .gitignore
   ```
 * `ls`: lista los archivos (y directorios/carpetas) en la carpeta actual
   (**L**i**S**t)

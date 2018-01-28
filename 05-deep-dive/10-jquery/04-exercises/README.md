@@ -1,7 +1,8 @@
 # Ejercicios
 
-* Formato: `workshop`
-* Duración: `10 min`
+* Tipo: `practice`
+* Formato: `self-paced`
+* Duración: `10min`
 
 ***
 

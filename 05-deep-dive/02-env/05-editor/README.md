@@ -19,7 +19,7 @@
 > plugin respectivo a nuestro IDE y agregar a nuestro proyecto un archivo
 > `.editorconfig` con todos los estilos de códigos que necesitemos.
 >
-> Fuente: https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo)
+> Fuente: [Qué es .editorconfig y cómo usarlo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo)
 
 Ejemplo de `.editorconfig`:
 

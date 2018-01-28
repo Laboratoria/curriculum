@@ -13,7 +13,7 @@ automática.
 
 Babel incluye una herramienta llamada `babel-cli` que podemos instalar así:
 
-```
+```sh
 npm install --global babel-cli
 ```
 

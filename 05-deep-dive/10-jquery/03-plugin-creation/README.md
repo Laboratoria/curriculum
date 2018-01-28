@@ -1,6 +1,7 @@
 # Creación de Plugin
 
-* Formato: `lectura`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `10min`
 
 ***

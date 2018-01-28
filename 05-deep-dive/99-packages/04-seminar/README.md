@@ -6,4 +6,5 @@
 
 ***
 
-...
+En este seminario revisaremos los temas vistos en esta unidad y responderemos
+sus preguntas.

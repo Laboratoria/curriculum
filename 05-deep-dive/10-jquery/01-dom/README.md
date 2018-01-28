@@ -1,7 +1,8 @@
 # Manejo del DOM
 
-* Formato: `lectura`
-* Duración: `15 min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `15min`
 
 ***
 

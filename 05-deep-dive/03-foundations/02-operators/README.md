@@ -11,9 +11,9 @@ igualdad (`==`, `!=`, `===`, `!==`). Al final de la lectura te dejamos como
 referencia el link a la documentación oficial de operadores y expresiones en MDN
 que recomendamos _leer_ (o por lo menos ojear).
 
-### Diferencia entre `==` y `===`
+## Diferencia entre `==` y `===`
 
-#### Algoritmo de `==`
+### Algoritmo de `==`
 
 Cuando se evalúan dos valores con este operador, se sigue la secuencia a
 continuación para determinar el resultado:
@@ -36,7 +36,7 @@ true == 1         // true
 [] == []          // false
 ```
 
-#### Algoritmo de `===`
+### Algoritmo de `===`
 
 Esta igualdad es más estricta con sus resultados, utilizando la siguiente
 secuencia para determinar el resultado:
@@ -54,8 +54,8 @@ secuencia para determinar el resultado:
 21 === "21"         // false
 undefined === null  // false
 NaN === NaN         // false
-[10] == 10          // false
-true == 1           // false
+[10] === 10          // false
+true === 1           // false
 [] === []           // false
 '10' === '10'       // true
 ```
@@ -69,7 +69,7 @@ Podrías tener lo siguiente en cuenta para saber cuál operador utilizar:
 > Nota: Por convención y una buena práctica la comunidad promueve el uso de
 `===`.
 
-### Desigualdades
+## Desigualdades
 
 Siempre el resultado de evaluar una desigualdad es un booleano. Los siguientes
 operadores son utilizados para comparar desigualdades:
