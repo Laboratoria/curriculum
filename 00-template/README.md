@@ -56,6 +56,10 @@ básico. Ante la duda no dudes en preguntar ;-)
 
 ### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
 
+NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
+necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
+mismo) ni el tiempo que de hecho le lleve a cada una.
+
 Un párrafo que describa lo que van a aprender y por qué es importante/útil
 aprenderlo.
 
