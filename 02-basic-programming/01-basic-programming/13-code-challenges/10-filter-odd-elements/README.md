@@ -2,8 +2,7 @@
 
 Escriba una función llamada "filterOddElements".
 
-Dado un array de números,"filterOddElements" devuelve un array que contiene sólo
-los números impares del array dado.
+Dado un array de números,"filterOddElements" devuelve un array que contiene sólo los números impares del array dado.
 
 Ejemplo:
 
