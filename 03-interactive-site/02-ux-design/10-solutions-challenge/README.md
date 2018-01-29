@@ -8,6 +8,8 @@
 
 - Revisar las soluciones de todos los retos
 
+***
+
 ## Agenda
 
 - Resolver los retos, evaluar las diferentes maneras de alcanzar las soluciones.

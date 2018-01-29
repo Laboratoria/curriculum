@@ -9,20 +9,19 @@
 ## Objetivos
 
 - Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
-  entendimiento pleno de los conceptos.
+entendimiento pleno de los conceptos.
 
 ***
 
 ## Preguntas
 
-### 1) En el siguiente ejemplo, el Array `mixedArray` presenta un error de syntaxis
+### 1) En el siguiente ejemplo, el Array `mixedArray` presenta un error de syntaxis.
 
 ```js
 var mixedArray = [3, hola mundo, 627.5];
 ```
 
 #### Opciones
-
 1. Verdadero
 2. Falso
 
@@ -31,7 +30,6 @@ var mixedArray = [3, hola mundo, 627.5];
 ### 2) ¿Para qué son útiles los Objects?
 
 #### Opciones
-
 1. Para dejar de usar arrays y variables
 2. Para poder utilizar repositorios en `Git`
 3. Para almacenar diferentes piezas de información sobre sí mismo
@@ -39,10 +37,9 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 3) ¿Cuál de los siguientes enunciados sobre Objects SÍ es correcto? Puedes seleccionar una o más opciones
+### 3) ¿Cuál de los siguientes enunciados sobre Objects SÍ es correcto? Puedes seleccionar una o más opciones.
 
 #### Opciones
-
 1. Las propiedades deben estar siempre entre comillas
 2. No debemos incluir un array como propiedad
 3. Podemos incluir una función como propiedad
@@ -53,16 +50,14 @@ var mixedArray = [3, hola mundo, 627.5];
 ### 4) Podemos acceder a los valores de un Object usando corchetes `[ ]` o usando punto `.`
 
 #### Opciones
-
 1. Verdadero
 2. Falso
 
 <solution style="display:none;">1</solution>
 
-### 5) Los métodos son \_\_\_\_\_\_\_\_\_\_\_\_\_ que contienen \_\_\_\_\_\_\_\_\_\_\_\_\_
+### 5) Los métodos son \_\_\_\_\_\_\_\_\_\_\_\_\_ que contienen \_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 #### Opciones
-
 1. propiedades - funciones
 2. funciones - propiedades
 3. elementos - objetos
@@ -73,7 +68,6 @@ var mixedArray = [3, hola mundo, 627.5];
 ### 6) ¿Cuál de los siguientes enunciados NO es un método?
 
 #### Opciones
-
 1. `push`
 2. `concat`
 3. `length`
@@ -81,7 +75,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 7) En el siguiente código
+### 7) En el siguiente código:
 
 ```js
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -90,7 +84,6 @@ var listOfNumbers = [1, 2, 3, 4, 5, 6];
 ¿Qué resultado obtengo al realizar `console.log(listOfNumbers[6])` ?
 
 #### Opciones
-
 1. `''`
 2. `4`
 3. `5`
@@ -99,7 +92,7 @@ var listOfNumbers = [1, 2, 3, 4, 5, 6];
 
 <solution style="display:none;">5</solution>
 
-### 8) En el siguiente código
+### 8) En el siguiente código:
 
 ```js
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -108,7 +101,6 @@ var listOfNumbers = [1, 2, 3, 4, 5, 6];
 Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
 
 #### Opciones
-
 1. `[1, 2, 'hola', 4, 5, 6]`
 2. `[1, 2, 3, 'hola', 5, 6]`
 3. `[1, 2, , 4, 5, 6]`
@@ -117,7 +109,7 @@ Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
 
 <solution style="display:none;">2</solution>
 
-### 9) En el siguiente código
+### 9) En el siguiente código:
 
 ```js
 var questions = [
@@ -131,7 +123,6 @@ var questions = [
 ¿Cómo obtengo el dato `Peso`?
 
 #### Opciones
-
 1. `console.log(questions[1][3])`
 2. `console.log(questions[2][4])`
 3. `console.log(questions[3][1])`
@@ -153,7 +144,6 @@ console.log(movie.tags[1]);
 ```
 
 #### Opciones
-
 1. Adventure
 2. Comedy
 3. Sci-Fi
@@ -175,7 +165,6 @@ var movie = {
 ```
 
 #### Opciones
-
 1. La propiedad `tags` no puede estar vacía
 2. Le sobran las comillas `' '` a la propiedad `other awards`
 3. En la propiedad `stars`, deben ir comas `,` en lugar de puntos y comas `;`
@@ -183,10 +172,9 @@ var movie = {
 
 <solution style="display:none;">3</solution>
 
-### 12) De los siguientes enunciados ¿cuál pertenece a `Github`? Puedes seleccionar una o más opciones
+### 12) De los siguientes enunciados ¿cuál pertenece a `Github`? Puedes seleccionar una o más opciones.
 
 #### Opciones
-
 1. Un visor de versiones
 2. Un Sistema de Control de Versiones
 3. Una herramienta de revisión de código
@@ -197,21 +185,16 @@ var movie = {
 ### 13) ¿Cuál es la diferencia entre `Git` y `Github`?
 
 #### Opciones
-
-1. `Git` solamente sirve como una red social  y `Github` almacena extensiones
-    de archivos
-2. `Github` almacena los archivos JavaScript mientras que `Git`, los archivos
-   `HTML` y `CSS`
-3. `Git` guarda los archivos en la nube y `Github` solamente sirve como una red
-   social
+1. `Git` solamente sirve como una red social  y `Github` almacena extensiones de archivos
+2. `Github` almacena los archivos JavaScript mientras que `Git`, los archivos `HTML` y `CSS`
+3. `Git` guarda los archivos en la nube y `Github` solamente sirve como una red social
 4. `Github` utiliza a `Git` como Sistema de Control de Versiones
 
 <solution style="display:none;">4</solution>
 
-### 14) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_  estaremos indicando qué archivos queremos que pasen de nuestro _working directory_ al _staging area_, mientras que con \_\_\_\_\_\_\_\_\_\_\_\_\_ confirmaremos los archivos que declaramos como preparados con el comando anterior
+### 14) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_  estaremos indicando qué archivos queremos que pasen de nuestro _working directory_ al _staging area_, mientras que con \_\_\_\_\_\_\_\_\_\_\_\_\_ confirmaremos los archivos que declaramos como preparados con el comando anterior.
 
 #### Opciones
-
 1. `commit` - `add`
 2. `add` - `commit`
 3. `confirm` - `adding`
@@ -222,15 +205,10 @@ var movie = {
 ### 15) ¿Para qué sirve la línea de comando?
 
 #### Opciones
-
-1. Para refactorizar nuestro código y utilizar los comandos para subirlo a
-   `replit`
-2. Para ver, manejar y manipular archivos de nuestra computadora por medio de
-   comandos
-3. Para crear nuevos comandos para `Git` y `Github`, y posteriormente darle el
-   soporte adecuado
-4. Para que podamos transformar nuestros archivos en extensión `.git` con la
-   ayuda de los comandos
+1. Para refactorizar nuestro código y utilizar los comandos para subirlo a `replit`
+2. Para ver, manejar y manipular archivos de nuestra computadora por medio de comandos
+3. Para crear nuevos comandos para `Git` y `Github`, y posteriormente darle el soporte adecuado
+4. Para que podamos transformar nuestros archivos en extensión `.git` con la ayuda de los comandos
 
 <solution style="display:none;">2</solution>
 
@@ -245,7 +223,6 @@ console.log('Elemento eliminado: ' + removed);
 ```
 
 #### Opciones
-
 1. `pop()`
 2. `push()`
 3. `shift()`
@@ -253,7 +230,7 @@ console.log('Elemento eliminado: ' + removed);
 
 <solution style="display:none;">3</solution>
 
-### 17) En el siguiente ejemplo, ¿cuáles de los siguientes métodos podrías usar para obtener el resultado solicitado? Puedes elegir más de una opción
+### 17) En el siguiente ejemplo, ¿cuáles de los siguientes métodos podrías usar para obtener el resultado solicitado? Puedes elegir más de una opción.
 
 ```js
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -264,7 +241,6 @@ console.log(courses.length);
 ```
 
 #### Opciones
-
 1. `pop()`
 2. `push()`
 3. `shift()`
@@ -286,7 +262,6 @@ console.log(listOfNumbers.length);
 ```
 
 #### Opciones
-
 1. `join` - `search`
 2. `push` - `pop`
 3. `shift` - `unshift`
@@ -307,7 +282,6 @@ console.log(allCoders);
 ```
 
 #### Opciones
-
 1. `Michelle, Lourdes, Ruth.`
 2. `[Michelle, Lourdes, Ruth.]`
 3. `['Michelle', 'Lourdes', 'Ruth'.]`
@@ -324,7 +298,6 @@ coders.indexOf('Lourdes');
 ```
 
 #### Opciones
-
 1. `0`
 2. `1`
 3. `2`
@@ -341,7 +314,6 @@ coders.join();
 ```
 
 #### Opciones
-
 1. `['Michelle,Lourdes,Ruth,Alejandra']`
 2. `['Michelle,Lourdes,Ruth']`
 3. `['Michelle', 'Lourdes', 'Ruth', 'Alejandra']`
@@ -349,7 +321,7 @@ coders.join();
 
 <solution style="display:none;">4</solution>
 
-### 22) En el siguiente ejemplo completa los espacios
+### 22) En el siguiente ejemplo completa los espacios:
 
 ```js
 var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
@@ -360,7 +332,6 @@ coders.slice(____,____);
 ```
 
 #### Opciones
-
 1. `1` - `3`
 2. `2` - `4`
 3. `1` - `2`
@@ -378,7 +349,6 @@ listOfNumbers.____________(2);
 ```
 
 #### Opciones
-
 1. `pop()`
 2. `indexOf()`
 3. `unshift()`
@@ -400,7 +370,6 @@ console.log(array);
 ```
 
 #### Opciones
-
 1. `[1, 2, 3, 4, 5]`
 2. `[6, 7, 8, 9, 10]`
 3. `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
@@ -423,7 +392,6 @@ console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 ```
 
 #### Opciones
-
 1. `2`
 2. `3`
 3. `4`
@@ -434,7 +402,6 @@ console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 ### 26) ¿Cuáles son los 2 criterios que hacen que un algoritmo sea bueno?
 
 #### Opciones
-
 1. Novedad
 2. Exactitud
 3. Antigüedad
@@ -443,10 +410,9 @@ console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 
 <solution style="display:none;">2, 5</solution>
 
-### 27) Los algoritmos nos permiten comunicar \_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué
+### 27) Los algoritmos nos permiten comunicar \_\_\_\_\_\_\_\_\_\_\_\_\_ sin explicar el por qué.
 
 #### Opciones
-
 1. diferentes funciones
 2. métodos abstractos
 3. tareas complejas
