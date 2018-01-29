@@ -2,11 +2,13 @@
 
 Escriba una función llamada "getLongestWordOfMixedElements".
 
-Dado un arreglo de tipos mixtos, "getLongestWordOfMixedElements" devuelve la cadena más larga del arreglo dado.
+Dado un arreglo de tipos mixtos, "getLongestWordOfMixedElements" devuelve la
+cadena más larga del arreglo dado.
 
 Notas:
-* Si el arreglo está vacío, debería devolver una cadena vacía ("").
-* Si el arreglo no contiene cadenas de texto, debería devolver una cadena vacía.
+
+- Si el arreglo está vacío, debería devolver una cadena vacía ("").
+- Si el arreglo no contiene cadenas de texto, debería devolver una cadena vacía.
 
 Ejemplo:
 
