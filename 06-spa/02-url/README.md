@@ -24,4 +24,5 @@ más que nada para que observes la imagen, ya que tiene muy marcadas las partes
 de una url.
 
 [Enlace de información](https://www.informatica-hoy.com.ar/aprender-informatica/Que-es-URL.php)
+
 [Enlace con la imagen](http://aprendeenlinea.udea.edu.co/boa/contenidos.php/0bab1260b480d2dad49ef2516f2fdb61/18/estilo/aHR0cDovL2FwcmVuZGVlbmxpbmVhLnVkZWEuZWR1LmNvL2VzdGlsb3MvYXp1bF9jb3Jwb3JhdGl2by5jc3M=/1/contenido/)

@@ -27,9 +27,11 @@ bien la imagen de lo que es un "Dialogo http" ya que Manu en su post nos
 explica más de este protocolo y nos muestra una imagen mucho más clara.
 
 [video](https://www.youtube.com/watch?v=iQkBZxBisO0)
+
 [Post](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-http-6c8c5e078303)
 
 Para seguir profundizando con este tema revisa este otro vídeo y enlace
 
 [video](https://www.youtube.com/watch?v=S975NVYbe2E)
+
 [Post](http://es.ccm.net/contents/264-el-protocolo-http)
