@@ -43,67 +43,68 @@ rentar es una gran opción económica, desarrollando las siguientes característ
 
 ## Syllabus
 
-### Unidad 01: El poder del navegador
+### Unidad 01: [¿Cómo funciona internet?](00-how-the-web-works)
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
-| 00 | lectura | 30min | Opening
-| 01 | lectura | 30min | ¿Qué es un API?
-| 02 | lectura | 30min | APIs del Navegador
-| 03 | lectura | 30min | Google Maps
-| 04 | quiz | 30min | Quiz #1
-| 05 | taller | 2h | Clase Práctica
-| 06 | práctica | 8h | Retos
-| 07 | seminario | 2h | Solucionario
-| 08 | quiz | 30min | Quiz #2
-| 09 | cuestionario | 5min | Auto-evaluación
-| 10 | seminario | 2h | Closing
+Esta unidad es una introducción a la web, el objetivo es tener claro algunos 
+conceptos sobre qué es la WWW (World Wide Web), qué es una  URL, HTTP y en 
+qué nos ayuda entender esto al momento de realizar una Web App.
 
-### Unidad 02: Comunicándose con el servidor
+Referencia: 
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
-| 00 | lectura | 30min | Opening
-| 01 | lectura | 15min | Internet y sus protocolos
-| 02 | lectura | 15min | Web Services vs APIs
-| 03 | lectura | 30min | Archivos de transferencia de datos
-| 04 | lectura | 30min | Peticiones Asíncronas
-| 05 | lectura | 30min | Autenticación
-| 06 | lectura | 30min | REST
-| 07 | quiz | 30min | Quiz #1
-| 08 | taller | 2h | Clase Práctica
-| 09 | práctica | 8h | Retos
-| 10 | seminario | 2h | Solucionario
-| 11 | quiz | 30min | Quiz #2
-| 12 | cuestionario | 5min | Auto-evaluación
-| 13 | seminario | 2h | Closing
+[![How the web works](https://img.youtube.com/vi/AkjMCbSvTto/0.jpg)](https://youtu.be/AkjMCbSvTto)
 
-### Unidad 03: Aplicación de una sola página
+### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
-| 00 | lectura | 30min | Opening
-| 01 | lectura | 15min | ¿Qué es una SPA?
-| 02 | lectura | 15min | Manejo de rutas
-| 03 | lectura | 30min | Plantillas
-| 04 | lectura | 30min | Deployment
-| 05 | quiz | 30min | Quiz #1
-| 06 | taller | 2h | Clase Práctica
-| 07 | práctica | 8h | Retos
-| 08 | seminario | 2h | Solucionario
-| 09 | quiz | 30min | Quiz #2
-| 10 | cuestionario | 5min | Auto-evaluación
-| 11 | seminario | 2h | Closing
+En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
+las APIs que vienen integradas y que pueden ser accedidas por medio de 
+JavaScript. Prestaremos especial atención en `Audio/Video`, `Web Storage`, 
+`Geolocation` y `DnD (Drag and Drop)`.
 
-### Unidad 04: Crea tu SPA
+Referencia:
 
-| # | Tipo | Duración | Tópico
-| - | ---- | -------- | ------
-| 00 | lectura | 30min | Organizando las tareas en equipo
-| 01 | práctica | 30min | Clon de AIRDNA
-| 02 | taller | 30min | Code Review (Team + Teacher)
-| 03 | taller | 30min | Demo
-| 04 | taller | 2h | Retrospectiva
+[![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0)
+
+### Unidad 03: [¿Qué significa traer datos de un servidor asíncronamente?](02-asynchronous-js-request)
+
+El objetivo de esta unidad es llevar a la práctica el ciclo request/response de 
+HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y 
+comunicándonos con el servidor a través de un API.
+
+Referencia:
+
+[![Asynchronous Requests](https://img.youtube.com/vi/P5JlebbqzTQ/0.jpg)](https://youtu.be/P5JlebbqzTQ)
+
+### Unidad 04: [A jugar con Web APIs!](03-working-with-apis)
+
+En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el 
+objetivo de experimentar la extracción de datos sin autenticación, con un token
+generado, enviando datos a través de cabeceras HTTP, identificar cuando son 
+RESTful y otros detalles que te darán superpoderes.
+
+Referencia:
+
+[![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
+
+### Unidad 05: [Mezclemos, practiquemos y aprendamos!](04-mixing-up)
+
+Esta unidad es completamente práctica, el objetivo es realizar la mayor cantidad
+de ejercicios posibles para poner en práctica todos los conceptos aprendidos
+en este curso.
+
+Referencia:
+
+[![Move Planner](https://img.youtube.com/vi/Ab04b8PpzCQ/0.jpg)](https://youtu.be/Ab04b8PpzCQ)
+
+### Unidad 06: [Producto Final](05-final-product)
+
+Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
+este curso, el único requisito será crear un Single Page Application haciendo 
+uso de un API distinto o adicional a los que hemos visto en clase y bajo el 
+contexto que desees.
+
+Referencia:
+
+[![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8)
 
 ## Autor(es) / Colaboradores
 
