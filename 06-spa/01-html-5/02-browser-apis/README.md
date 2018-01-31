@@ -1,4 +1,4 @@
-# API´s de HTML5
+# APIs de HTML5
 
 - Tipo: `lectura`
 - Formato: `self-paced`
