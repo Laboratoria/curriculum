@@ -86,23 +86,6 @@ En esta unidad veremos conceptos base, una introducción a cómo analizar un
 problema de datos y nos familiarizaremos con las tecnologías y herramientas a
 usar durante el curso.
 
-|  #  |  Tipo   | Formato    | Duración | Descripción
-|-----|---------|------------|----------|------------
-|  1  | lectura | self-paced | 10min    | ¿Qué es la Ciencia de Datos y cómo puedes ser tú una Científica de Datos?
-|  2  | lectura | self-paced | 10min     | Introducción a la metodología de análisis de problemas
-|  3  | lectura | self-paced | 15min     | Cómo formular la pregunta que guía el análisis
-|  4  | lectura | self-paced | 15min    | Fuentes y tipos de datos
-|  5  | lectura | self-paced | 15min    | Conceptos introductorios de Limpieza y preparación de la Data
-|  6  |	lectura | self-paced | 10min    | Metadatos, Fuentes y Diccionario de una fuente de datos
-|  7  |	lectura | self-paced | 10min    | Herramientas disponibles para creación de visualizaciones
-|  8  | lectura | self-paced | 15min    | Teoría de colores para uso en visualizaciones
-|  9  |	taller  | guiado     | 35min   | Juego: Agregaciones y dimensiones dentro de una fuente de datos
-| 10  |	lectura | self-paced | 10min   | Juego: Agregaciones - El caso del promedio ponderado
-| 11  |	taller  | guiado     | 10min   | Juego: Agregaciones - El caso del promedio ponderado
-| 12  | taller  | guiado     | 30min	 | Juego: Exploración de Data Ejemplo a través de juegos dinámicos
-| 13  | taller  | guiado     | 10min   | Instalación de Tableau Public
-| 14  | taller  | guiado     | 20min   | Exploración de Datas adicionales a través de Tableau y juegos
-
 Datos adicionales:
 
 1. Indicadores de Género
@@ -126,22 +109,6 @@ con la data escogida por ellas.
 Ver visualizaciones en el piso. Ejercicios relacionados en lo físico que no
 tenga que ver directamente en el computador.
 
-|  #  |  Tipo   | Formato    | Duración | Descripción
-|-----|---------|------------|----------|------------
-|  1  | lectura | self-paced | 10min	| Tipo de Visualizaciones
-|  2  | lectura | self-paced | 15min	| Visualizaciones Tradicionales
-|  3  | lectura | self-paced | 10min	| Visualizaciones de Tiempo
-|  4  | lectura | self-paced | 15min	| Visualizaciones Geográficas
-|  5  | lectura | self-paced | 10min	| Visualizaciones Avanzadas
-|  6  | lectura | self-paced | 7min	| Visualizaciones Estadísticas (Introducción a Pareto, box e histograma pero no serán cubiertas en este curso)
-|  7  | lectura | self-paced | 10min	| Otras visualizaciones Avanzadas (Introducción a los conceptos de visualizaciones de redes sociales, Heatmap, Gauge, Subburst, Mapa de Árbol, Radar, Cascada y Tunel, pero no serán cubiertos en detalle en este curso)
-|  8  | lectura |	self-paced | 10min	| Preparación de Tableau para la clase presencial
-|  9  |	 taller |  guiado  | 20min|	Gráfico de Columnas
-|  10 |	 taller |  guiado  | 30min|	Series de Tiempo
-|  11 |	 taller |	 guiado  | 20min|	Gráfico de pie
-|  12 |	 taller |	 guiado  | 20min|	Gráfico de Burbujas (Bubble)
-|  13 |  taller |	 guiado  | 30min|	Gráfico de dispersión (Scatter)
-
 ### Unidad 3: [Visualizaciones avanzadas e interactividad](03-advanced-visualizations-and-interaction)
 
 En esta unidad veremos una introducción a las coordenadas geográficas, así como
@@ -151,28 +118,10 @@ Realizaremos una  introducción de un tablero de información y como interactuar
 entre un gráfico u otro  lo cual te permitirá contar tu propia historia a través
 de tu propio criterio.
 
-|  #  |  Tipo   | Formato  | Duración | Descripción
-|-----|---------|----------|----------|------------
-|  1  | lectura | self-paced | 15min |	Introducción a las coordenadas geográficas
-|  2  | lectura | self-paced | 5min |	Visualizaciones de Mapa con punto
-|  3  | lectura | self-paced | 10min |	Visualizaciones de Mapa con Área
-|  4  | lectura | self-paced | 8min |	Chartmotion
-|  5  | lectura | self-paced | 10min |	Introducción a un tablero de información
-|  6  | lectura | self-paced | 20min |	Creación de un tablero de información
-|  7  | lectura | self-paced | 20min | Cómo comunicar una historia usando el tablero de información interactivo
-|  8  | seminario | guiado | 30 min| Revisión de los conceptos online y aclarar dudas del tablero de Internet
-|  9  | taller  | guiado | 60 min| Trabajo en parejas para revisar los tableros de cada una
-|  10 | taller  | guiado | 30 min| Exploración de la data y contar una historia
-
 ### Unidad 4: [Aprendiendo a comunicar lo que las visualizaciones nos dicen](04-presentations)
 
 En esta unidad realizarems las presentaciones de las demos usando los tableros a
 tus demás compañeras.
-
-|  #  |  Tipo   | Formato  | Duración | Descripción
-|-----|---------|----------|----------|------------
-|  1  |  taller |  guiado  | 30min| Revisión de la historia y feedback antes de la presentación|
-|  2  |  taller |  guiado  | 90min| Presentación de la historia usando los tableros dinámicos|
 
 ## Autor(es) / Colaboradores
 
