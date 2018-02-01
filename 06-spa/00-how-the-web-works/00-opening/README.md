@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `30min`
 
 ***
 
@@ -39,8 +39,8 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Por qué **HTML** es el documento principal de la web?
 
-- ¿Qué es **HTTP** y cual es su funcionamiento?
+- ¿Qué es **HTTP** y cuál es su funcionamiento?
 
-- ¿Qué es una **URL** y como esta formada?
+- ¿Qué es una **URL** y cómo está formada?
 
 - ¿Qué es SPA?
