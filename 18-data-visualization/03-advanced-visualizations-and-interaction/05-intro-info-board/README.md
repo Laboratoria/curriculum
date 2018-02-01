@@ -6,9 +6,9 @@
 
 ***
 
-[![Introducción a un tablero de información](https://embed-ssl.wistia.com/deliveries/6afcdfc26fd8e2aa7aadffa0e57457d4a8a14a37.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/gn8sto2ud1?wvideo=gn8sto2ud1)
-
 ## Introducción
+
+[![Introducción a un tablero de información](https://embed-ssl.wistia.com/deliveries/6afcdfc26fd8e2aa7aadffa0e57457d4a8a14a37.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/gn8sto2ud1?wvideo=gn8sto2ud1)
 
 Un tablero de información es el conjunto de gráficos e informaciones
 interactivas que le permiten a una persona entender de manera dinámica la

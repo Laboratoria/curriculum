@@ -6,9 +6,9 @@
 
 ***
 
-[![Cómo comunicar una historia usando el tablero de información](https://embed-ssl.wistia.com/deliveries/d2dea59d684d4ec6e21c9149063c7d0741f1f901.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/e99rd3sbtf?wvideo=e99rd3sbtf)
-
 ## Introducción
+
+[![Cómo comunicar una historia usando el tablero de información](https://embed-ssl.wistia.com/deliveries/d2dea59d684d4ec6e21c9149063c7d0741f1f901.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/e99rd3sbtf?wvideo=e99rd3sbtf)
 
 Hay una regla de oro que casi siempre se cumple. Mientras más corta es la
 presentación (es decir el tiempo que tienes para contar tu historia), más tiempo
