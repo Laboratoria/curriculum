@@ -85,25 +85,15 @@ primeros pasos con los bot.
 En esta unidad conoceremos el SDK para Node.js que nos permitirá crear nuestro
 primer bot.
 
-### Unidad 04: [Bot Service y nuestro primer Bot en Azure](04-bot-service)
-
-En esta unidad conoceremos el Bot Service de Azure que nos permitirá implementar
-nuestros primeros bots en la nube.
-
-### Unidad 05: [Agregando Inteligencia a nuestros Bot](05-cognitive-services)
+### Unidad 04: [Agregando Inteligencia a nuestros Bot](04-cognitive-services)
 
 En esta unidad conoceremos los Cognitive Services de Azure y agregaremos
 inteligencia a nuestro Bot con LUIS basado en Machine Learning.
 
-### Unidad 06: [Telemetría de Apps con Application Insights](06-telemetry)
+### Unidad 05: [Desplegando nuestro chatbot](05-deploy-chatbot)
 
-En esta unidad aprenderemos como implementar telemetría a nuestros bots para
-vigiliar la salud tanto de los bots como de aplicaciones web.
-
-### Unidad 06: [Hacking](07-hacking)
-
-Un párrafo corto que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+En esta unidad aprenderemos como desplegar nuestro bot en plataformas como 
+Facebook-messenger y Slack.
 
 ***
 

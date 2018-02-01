@@ -116,32 +116,32 @@ var builder = require('botbuilder');
 // command: npm install restify -save
 var restify = require('restify');
 
-// Creamos el server para comunicarno con nuestro bot
+var inMemoryStorage = new builder.MemoryBotStorage();
+
+// Setup Restify Server
 var server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
-  console.log('%s escuchando %s', server.name, server.url);
+server.listen(process.env.port || process.env.PORT || 3978, function() {
+	console.log('%s escuchando en  %s', server.name, server.url);
 });
 
-// Por ahora esto queda en blanco
-var conector = new builder.ChatConnector({
-  appId: '',
-  appPassword: ''
+// Create chat connector for communicating with the Bot Framework Service
+var connector = new builder.ChatConnector({
+	appId: process.env.MICROSOFT_APP_ID,
+	appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
-var bot = new builder.UniversalBot(conector);
-// Este será nuestro endpoint de nuetro bot
-server.post('/api/mensajes', conector.listen());
+// Listen for messages from users
+server.post('/api/messages', connector.listen());
 
-// acá es donde sucede la magia de nuestro bot
-bot.dialog('/', [
-  function (session) {
-    builder.Prompts.text(session, '¿Cómo te llamas?');
-  },
-  function (session, results) {
-    let msj = results.response;
-    session.send(`Hello ${msj}!`);
-  }
-]);
+// This bot ensures user's profile is up to date.
+var bot = new builder.UniversalBot(connector,  [
+	function(session) {
+		builder.Prompts.text(session, '¡Hola! ¿Cúal es tu nombre?');
+	},
+	function(session, results) {
+		session.endDialog(`Hola ${results.response}!`);
+	}
+]).set('storage', inMemoryStorage); // Register in-memory storage
 ```
 
 ## Lecturas complementarias
