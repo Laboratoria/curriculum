@@ -8,6 +8,20 @@
 
 ## ¿Porqué es importante HTML para la web?
 
-Ya saben usar HTML, solo es necesario entender la importancia de ...
+Nosotras ya aprendimos que es HTML y cómo funciona, lo que nos falta es saber
+que los documentos html son el corazón de la web.
 
-[![World Wide Web](https://img.youtube.com/vi/5Kjx-NOwcSc/0.jpg)](https://youtu.be/5Kjx-NOwcSc)
+La web está compuesta principalmente por estos documentos, que como sabemos
+están compuestos por texto que consiste en lo que puedes ver, por un marcado
+que determina como se ve el contenido o como esta organizado, por referencias a
+otros documentos como imágenes y/o vídeos y también pueden estar compuestos por
+enlaces a otras páginas.
+
+Ya vimos en las lecciones anteriores que el servidor nos regresa algo que
+mostrar en nuestro navegador cuando le pedimos algo y ese algo **casi siempre**
+es un documento HTML
+
+La web es un sistema de hipertexto razón específica de porque HTML es de
+vital importancia para la web
+
+[importanciaHTML](https://lh3.googleusercontent.com/XJr1bEuGDRDFzyQvhANCQW2zRcTAABiWpzGiJPwGTRWR0p9cLMJhgJYEtUADdjx9Nocula9o5Wo_AzqKpJFkkx_Z9j1amQoWgD4QYkNkhLk_9hep46A)
