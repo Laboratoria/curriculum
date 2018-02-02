@@ -21,7 +21,8 @@ Ya vimos en las lecciones anteriores que el servidor nos regresa algo que
 mostrar en nuestro navegador cuando le pedimos algo y ese algo **casi siempre**
 es un documento HTML
 
-La web es un sistema de hipertexto razón específica de porque HTML es de
-vital importancia para la web
+La web es un sistema de hipertexto, razón específica de porque HTML es de
+vital importancia para la web y con HTML5 la importancia es aun mayor por todas
+las novedades
 
 [importanciaHTML](https://lh3.googleusercontent.com/XJr1bEuGDRDFzyQvhANCQW2zRcTAABiWpzGiJPwGTRWR0p9cLMJhgJYEtUADdjx9Nocula9o5Wo_AzqKpJFkkx_Z9j1amQoWgD4QYkNkhLk_9hep46A)

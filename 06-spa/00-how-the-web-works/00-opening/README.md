@@ -29,6 +29,8 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
 medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
+- Internet !== web
+
 - ¿Qué es la web?
 
 - ¿Qué significa **www**?

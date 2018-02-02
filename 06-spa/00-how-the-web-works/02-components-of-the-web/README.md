@@ -16,6 +16,9 @@ si es muy importante que los tengamos presentes.
 3. Servidores
 4. HTTP
 
+En este [enlace](https://developer.mozilla.org/es/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+vamos a encontrar información y diferencias de los componentes.
+
 El siguiente vídeo está en inglés y no cuenta con subtítulos automáticos pero
 lo que explican es muy visual y nos ayudará a entender el rol de cada
 componente de los que mencionamos.
