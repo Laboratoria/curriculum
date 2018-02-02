@@ -1,4 +1,4 @@
-# HTPP:
+# HTTP
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -12,6 +12,38 @@ En esta unidad aprenderemos:
 
 - Que es **HTTP** y **HTTPS**
 - Como funciona y para que sirve
+
+## ¿Por qué es importante?
+
+> Técnicamente, la web es solo una pequeña parte del internet. Sin embargo, es la
+> única parte que las personas utilizan sin tener en cuenta que lo que usan es la
+> web.
+> 
+> La web es la plataforma que tú, la desarrolladora web, puedes usar para publicar
+> tus ideas al mundo. Es el lenguaje común entre los servidores y los cientes.
+> 
+> Cada vez que abres un navegador, cuando descargas una app, o cada vez que 
+> recibes un mensaje en WhatsApp o Facebook, estás usando la web.
+> 
+> En general, en todos esos momentos, un cliente se está comunicando con el 
+> servidor, y viceversa. ¿Pero qué significa esto realmente? ¿Qué sucede cuando
+> navegas en un website? ¿Cómo el smartphone sabe que te han enviado un mensaje? 
+> ¿Qué capacidades tiene la web? Y más importante aun, ¿cuáles son sus 
+> limitaciones?
+> 
+> Es importante entender qué es realmente la web, cómo puedes sacar ventaja de 
+> ella y cómo puedes evitar errores que pueden hacer que tu usuario experimente
+> y sufra problemas de seguridad. Para pensar como una ingeniera, necesitamos 
+> entender tanto la semántica que usa HTTP como su implementación dentro del 
+> navegador.
+
+Lo anterior, es parte de lo que puedes encontrar en el siguiente video que es
+parte de un [curso en inglés sobre `comunicación cliente-servidor` ofrecido 
+por Udacity](https://classroom.udacity.com/courses/ud897), así que prepara tus
+audífonos, activa la traducción automática a español si es necesario, y disfruta
+del siguiente video:
+
+[![HTTP](https://img.youtube.com/vi/HBmOROFs8WM/0.jpg)](https://youtu.be/HBmOROFs8WM)
 
 ## HTTP como estándar para comunicarnos
 
@@ -37,10 +69,6 @@ Para seguir profundizando con este tema revisa este otro vídeo y enlace
 [Post](http://es.ccm.net/contents/264-el-protocolo-http)
 
 ## Por validar
-
-Dejar claro un mensaje como este:
-
-[![HTTP](https://img.youtube.com/vi/HBmOROFs8WM/0.jpg)](https://youtu.be/HBmOROFs8WM)
 
 Entender HTTP como protocolo y por el momento entender que es un GET Request.
 
