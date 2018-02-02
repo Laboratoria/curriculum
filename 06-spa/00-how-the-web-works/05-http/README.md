@@ -13,7 +13,7 @@ En esta unidad aprenderemos:
 - Que es **HTTP** y **HTTPS**
 - Como funciona y para que sirve
 
-#R ¿Por qué es importante?
+## ¿Por qué es importante?
 
 > Técnicamente, la web es solo una pequeña parte del internet. Sin embargo, es la
 > única parte que las personas utilizan sin tener en cuenta que lo que usan es la
@@ -69,10 +69,6 @@ Para seguir profundizando con este tema revisa este otro vídeo y enlace
 [Post](http://es.ccm.net/contents/264-el-protocolo-http)
 
 ## Por validar
-
-Dejar claro un mensaje como este:
-
-[![HTTP](https://img.youtube.com/vi/HBmOROFs8WM/0.jpg)](https://youtu.be/HBmOROFs8WM)
 
 Entender HTTP como protocolo y por el momento entender que es un GET Request.
 
