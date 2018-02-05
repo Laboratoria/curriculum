@@ -40,6 +40,9 @@ Ejemplo:
 
 ![Video on hover](https://media.giphy.com/media/3o7WIKDFzrbuFJIm9G/giphy.gif)
 
+> Nota: No se ve el mouse, pero el GIF parece que se pausa debido a que el mouse 
+> se saca de la imagen.
+
 ## Más práctica para vol
 
 ### Arma tu pLaylist
