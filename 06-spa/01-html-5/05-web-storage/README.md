@@ -137,3 +137,8 @@ console.log(sessionStorage.getItem('loggedUser'));
 const loggedUser = JSON.parse(sessionStorage.getItem('loggedUser'));
 console.log(typeof loggedUser); // "object"
 ```
+
+> Para terminar, no olvides que lo almacenado en el localStorage persiste aun
+> cuando se cierra el navegador, así que si deseamos limpiar o eliminar lo que
+> tenemos almacenado, debemos de usar los métodos `.removeItem()` o `.clear()` 
+> dependiendo si queremos eliminar una clave específica o todas.
