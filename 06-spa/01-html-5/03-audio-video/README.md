@@ -71,6 +71,35 @@ recursos que te pueden ayudar a obtener esta información.
   DOM, y por lo tanto cuentan con métodos y eventos que podemos utilizar. Esto
   tenlo como referencia, no es necesario que te memorices todo esto ahora mismo.
 
+## ¿Y cómo interactúo con la API?
+
+Interactuamos a través de la interfaz `HTMLMediaElement`, ésta agrega las 
+propiedades y métodos necesarios para soportar capacidades básicas relacionados
+a elementos multimedia (audio y video).
+
+Ejemplo:
+
+<iframe height='265' scrolling='no' title='HTMLMediaElement JS' src='//codepen.io/ivandevp/embed/KQMWMy/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/KQMWMy/'>HTMLMediaElement JS</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+¿Cómo te imaginas que sería con el audio? ¿Básicamente lo mismo no? Esperamos lo
+intentes y veas el resultado.
+
+¿Y cómo sería con jQuery?
+
+<iframe height='265' scrolling='no' title='HTMLMediaElement jQuery' src='//codepen.io/ivandevp/embed/XZKMjx/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/XZKMjx/'>HTMLMediaElement jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+Si bien jQuery nos permite manipular el DOM con mayor facilidad, no provee 
+soporte para `HTMLMediaElement`s, y lo que nos queda por hacer es obtener el 
+elemento del DOM usando el método `.get` y debido a que es un único elemento 
+(por lo tanto, el primero), hacemos `$video.get(0)` para poder interactuar con 
+el API de video. Otro detalle interesante a notar es que, al estar esperando que 
+el DOM esté listo a través de `$(document).ready` no significa necesariamente 
+que el video haya cargado como tal, por eso, para obtener la duración, fue 
+necesario agregar un evento que nos indique que los datos del video se han 
+terminado de cargar (`video.onloadeddata`). 
+
 ## Recursos
 
 Si deseas hacer una aplicación con audio y/o video, pero no se te ocurre de 
