@@ -1,4 +1,4 @@
-# Jugando con Drag and Drop
+# Jugando con DnD
 
 - Tipo: `taller`
 - Formato: `guiado`
