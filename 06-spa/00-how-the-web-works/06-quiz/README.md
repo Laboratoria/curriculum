@@ -85,7 +85,7 @@
 4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
    en la web
 
-<solution style="display:none;">1</solution>
+<solution style="display:none;">2</solution>
 
 ### 7) Dado el protocolo `ftp`, el host `laboratoria.la`, y el path `/postula`, ¿cuál es la url?
 
@@ -205,7 +205,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 15) ¿Cuáles de estos `requests` es para contenido dinámico?
+### 16) ¿Cuáles de estos `requests` es para contenido dinámico?
 
 #### Opciones
 
