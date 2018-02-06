@@ -8,7 +8,9 @@
 
 ## Objetivos de Aprendizaje
 
-Entender qué es la geolocalización y cómo usar el API, como lectura adicional
+Entender qué es la geolocalización y cómo usar el API,
+
+como lectura adicional
 le podemos dar la guía de Google Maps y un ejemplo de cómo usarla de manera
 guiada (algunas ya lo saben usar), en la siguiente unidad profundizaremos en
 entender de qué trata.
