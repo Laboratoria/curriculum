@@ -185,7 +185,7 @@ inesperados sin saber porque sucede de esta manera.
 ```js
 let numero = '24';              // string
 let explicita = Number(numero); // number
-let implicita = num * 2;        // numero ahora se usa como number
+let implicita = numero * 2;        // numero ahora se usa como number
 ```
 
 Existen valores que son implícitamente convertidos a false, estos son:
