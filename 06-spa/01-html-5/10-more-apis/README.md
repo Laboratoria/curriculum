@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `40min`
 
 ***
 
@@ -139,7 +139,7 @@ encontrarás con el término de [WebRTC](https://webrtc.org/).
 Tranquila, le tendrás que dedicar tiempo, pero si te interesa estamos 100% 
 seguros de que podrás lograrlo :).
 
-### Referencias
+#### Referencias
 
 - [Introducción a los WebSockets: incorporación de sockets a la Web](https://www.html5rocks.com/es/tutorials/websockets/basics/)
 - [Real time chat with NodeJS, Socket.io and ExpressJS](https://code.tutsplus.com/tutorials/real-time-chat-with-nodejs-socketio-and-expressjs--net-31708)
