@@ -153,7 +153,8 @@ función que contiene dicho bucle.
 
 A diferencia de ECMAScript 5, en ESCMAScript 6 el bloque de una sentencia
 condicional también actúa como ámbito de bloque. En el ejemplo `console.log(x)`
-no tiene acceso a `let x = "hola mundo"`.
+no tiene acceso a `let x = "hola mundo"` y da error porque `x` ha sido
+definida dentro del bloque `if`.
 
 En el siguiente ejemplo la consola imprime `Hola Ale`, ya que la variable `x` en
 el bloque del `if` se mantiene dentro de su ámbito.
@@ -169,9 +170,7 @@ el bloque del `if` se mantiene dentro de su ámbito.
   // Imprime en consola Hola Ale
 })();
 ```
-
-En el ejemplo anterior, la sentencia `console.log` da error, porque `x` ha sido
-definida dentro del bloque `if`.
+ 
 
 ## Variables de solo lectura: `const`
 
