@@ -220,8 +220,12 @@ USER.name = 'Joan';
 
 USER.age = 'veinte'; // modificar el tipo de una propiedad también funciona
 
-console.log(USER);
+console.log(USER); // {name: 'Joan', surname: 'Covarrubias', age: 'veinte'}
 
-// Falla, ya que el tipo de dato de una constante no puede ser modificado
-USER = 'Caro Covarrubias';
+/**
+ * Si quisieramos cambiar el tipo de dato de la constante USER
+ * de un objeto a un string o cualquier otro tipo de dato distinto a un objeto,
+ * falla, ya que el tipo de dato de una constante no puede ser modificado
+ **/
+USER = 'Caro Covarrubias'; // Error, no esta permitido
 ```
