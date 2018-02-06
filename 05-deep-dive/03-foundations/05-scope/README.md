@@ -170,7 +170,6 @@ el bloque del `if` se mantiene dentro de su ámbito.
   // Imprime en consola Hola Ale
 })();
 ```
- 
 
 ## Variables de solo lectura: `const`
 
