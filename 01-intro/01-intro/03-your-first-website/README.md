@@ -1,8 +1,8 @@
 # Tu primer sitio web
 
 - Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `10min`
+- Formato: `self-paced`
+- Duración: `20min`
 
 ***
 
@@ -19,8 +19,6 @@ El texto a continuación es una traducción al español, con ciertos ajustes, de
 capítulo 5 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015; y de [Eloquent JavaScript](http://eloquentjavascript.net/),
 de Marijn Haverbeke, 2014.
-
-***
 
 ## HTML: HyperText Markup Language
 
@@ -69,7 +67,7 @@ hora de que tú misma crees una web y aprendas HTML.
 
 Michelle te explica por qué necesitarás un editor de texto para los ejercicios:
 
-[![Editor de texto intro](https://img.youtube.com/vi/wQKn1fh3pAM/0.jpg)](https://www.youtube.com/watch?v=wQKn1fh3pAM)
+[Editor de texto intro](https://www.youtube.com/watch?v=wQKn1fh3pAM)
 
 En el siguiente video, Michelle te guiará a través de los siguientes pasos para
 que crees tu primera web:
@@ -87,7 +85,7 @@ que crees tu primera web:
 
 Aquí el video:
 
-[![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[Mi primera Web HTML](https://www.youtube.com/watch?v=QP9FF9eoh-k)
 
 ## Etiquetas y elementos HTML
 
@@ -214,7 +212,3 @@ Aquí el video de Michelle:
 
 y deplegándola en [GitHub Pages](https://pages.github.com/)
 -->
-
-***
-
-[Continuar](04-prueba-tu-conocimiento.md)

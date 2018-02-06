@@ -1,8 +1,8 @@
 # Growth Mindset
 
-- Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `10min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `20min`
 
 ***
 
@@ -76,10 +76,10 @@ Mira este video sobre Growth mindset (10 min)
 Instrucciones para ponerle subtítulos en español al video:
 
 * Dar click a la tuerca de configuración/settings
-* Click en subtítulos/subtitles
+* Click en subtítulos/subtitle
 * Seleccionar español/spanish
 
-[![Video Growth Mindset](https://www.youtube.com/watch?v=pN34FNbOKXc)
+[Video Growth Mindset](https://www.youtube.com/watch?v=pN34FNbOKXc)
 
 ## Desarrollando Growth Mindset
 
@@ -124,6 +124,4 @@ Y para ello, tú tendrás que proponerte lo siguiente:
 > a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque
 > tengo una mentalidad de crecimiento.
 
-***
-
-[Sí, me propongo y me comprometo](../02-why-learn-to-code/README.md)
+**Sí, me propongo y me comprometo.**

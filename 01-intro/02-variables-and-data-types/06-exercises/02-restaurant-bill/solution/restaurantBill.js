@@ -11,5 +11,6 @@ var total /* tu código aquí */;
 
   return {
     // 4.  Imprime en la consola el monto que cada una debe pagar, con el símbolo $ adelante
-    console.log(/* tu código aquí */);
+    console.log(/*Aqui va tu código */)
+    };
 };

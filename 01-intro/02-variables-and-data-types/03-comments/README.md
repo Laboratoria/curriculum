@@ -1,9 +1,8 @@
 # Comentarios
 
-
 - Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `10min`
+- Formato: `self-paced`
+- Duración: `15min`
 
 ***
 
@@ -57,7 +56,3 @@ código. No te preocupes por borrar los comentarios. Eso sí, **no** borres otra
 partes del programa. Si lo haces, es muy probable que no te funcione muy bien.
 
 Ahora sí, continúa con los ejercicios y quizzes de esta lección. ¡Mucha suerte!
-
-***
-
-[Continuar](05-guided-exercises.md)

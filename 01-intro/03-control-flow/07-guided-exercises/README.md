@@ -2,15 +2,15 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `120min`
+- Duración: `30min`
+
+***
 
 ## Objetivos
 
 - Practicar codeando junto a tu equipo de profes, resolviendo problemas de
   estructuras condicionales, repetitivas y funciones
 - Practicar, practicar y practicar
-
-***
 
 ## Enunciados
 
@@ -66,7 +66,3 @@ Arma tu archivo JavaScript para que tenga 3 funciones:
 - Una función que cuente el número de caracteres de un `string` (¡sin utilizar
   `.length`!)
 - Una función que cuente el número de espacios de un `string`
-
-***
-
-[Continuar](09-code-challenges.md)

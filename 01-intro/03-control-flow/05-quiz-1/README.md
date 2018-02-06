@@ -1,16 +1,10 @@
 # Quiz 1
 
-- Tipo: `cuestionario`
+- Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `20min`
 
 ***
-
-## Objetivos
-
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
 
 ## Preguntas
 
@@ -23,9 +17,11 @@
 3. estructuras condicionales, estructuras repetitivas y funciones
 4. ninguna de las anteriores
 
-<solution style="display:none;">2,5</solution>
+<solution style="display:none;">3</solution>
 
 ### 2) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación? *
+
+![Flujo condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 
 #### Opciones
 
@@ -36,7 +32,7 @@
 5. if else
 6. if else "encadenado" (nested)
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">6</solution>
 
 ### 3) Son ejemplos de DRY: *
 
@@ -47,7 +43,7 @@
 3. solo funciones
 4. ninguna de las anteriores
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">1</solution>
 
 ### 4) ¿Cuál es el problema con el código a continuación ? *
 
@@ -56,6 +52,7 @@ while(3 > 2){
   console.log('Hello world');
 }
 ```
+
 #### Opciones
 
 1. Tiene un error de sintaxis
@@ -77,6 +74,7 @@ var showSum = function(){
 
 showSum();
 ```
+
 #### Opciones
 
 1. La función carece de parámetros y por lo tanto "num1" y "num2" no están definidos
@@ -95,6 +93,7 @@ var sum = _____(num1, num2){
 
 _______(2, 3);
 ```
+
 #### Opciones
 
 1. return - function - sum
@@ -119,6 +118,7 @@ var greet =function(name){
 
 console.log(greet('Laboratoria'));
 ```
+
 #### Opciones
 
 1. Hola Laboratoria :D
@@ -162,7 +162,7 @@ for(var number = 1; number <= 8; number = number * 2){
 3. 1, 2, 4, 8
 4. 0, 1, 2, 4, 8
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">3</solution>
 
 ### 10)  Al siguiente switch le faltan algunos "breaks", sin embargo ¿Cuál sería el resultado de ejecutar el código así como está? *
 
@@ -191,7 +191,7 @@ switch (weather) {
 3. Imprime 'Tipo de Clima desconocido.'
 4. Imprime 'Sal a la calle.' y 'Tipo de Clima desconocido.'
 
-<solution style="display:none;">1</solution
+<solution style="display:none;">4</solution
 
 ### 11) ¿Qué diferencia un bucle "do" de un "while"? *
 
@@ -202,7 +202,7 @@ switch (weather) {
 3. El "do" ejecuta una sola vez el cuerpo.
 4. No existe diferencias.
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">1</solution>
 
 ### 12) Cuál es el resultado de ... *
 
@@ -215,14 +215,16 @@ for(var i = 0; i <= 10; i++){
   }
 }
 ```
+
 #### Opciones
 
 1. Imprime los números enteros del 1 al 10 (inclusive)
 2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
 3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
+4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número
+   5 de nuevo
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">2</solution>
 
 ### 13) Cuál es el resultado de ... *
 
@@ -239,6 +241,7 @@ var medalForScore = function(score){
 
 console.log(medalForScore(7));
 ```
+
 #### Opciones
 
 1. Bronze
@@ -257,108 +260,12 @@ var square = function(num) {
 square(12);
 //->144
 ```
+
 #### Opciones
 
 1. num es un parámetro y 12 es el argumento
-num y 12 son parámetros
-num y 12 son argumentos
-num es un argumento y 12 es el parámetro
+2. num y 12 son parámetros
+3. num y 12 son argumentos
+4. num es un argumento y 12 es el parámetro
 
-<solution style="display:none;">3</solution>
-### 12) Cuál es el resultado de ... *
-
-```js
-for(var i = 0; i <= 10; i++){
-  if (i == 5) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-```
-#### Opciones
-
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
-
-<solution style="display:none;">3</solution>
-### 12) Cuál es el resultado de ... *
-
-```js
-for(var i = 0; i <= 10; i++){
-  if (i == 5) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-```
-#### Opciones
-
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
-
-<solution style="display:none;">3</solution>
-### 12) Cuál es el resultado de ... *
-
-```js
-for(var i = 0; i <= 10; i++){
-  if (i == 5) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-```
-#### Opciones
-
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
-
-<solution style="display:none;">3</solution>
-### 12) Cuál es el resultado de ... *
-
-```js
-for(var i = 0; i <= 10; i++){
-  if (i == 5) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-```
-#### Opciones
-
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
-
-<solution style="display:none;">3</solution>
-### 12) Cuál es el resultado de ... *
-
-```js
-for(var i = 0; i <= 10; i++){
-  if (i == 5) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-```
-#### Opciones
-
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número 5 de nuevo
-
-<solution style="display:none;">3</solution>b
-***
-[Continuar](07-lecture.md)
+<solution style="display:none;">1</solution>

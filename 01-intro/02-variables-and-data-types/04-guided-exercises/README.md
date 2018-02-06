@@ -1,8 +1,8 @@
 # Ejercicios Guiados - Variables y tipos de datos
 
-- Tipo: `lectura`
+- Tipo: `taller`
 - Formato: `guiado`
-- Duración: `10min`
+- Duración: `60min`
 
 ***
 
@@ -65,7 +65,3 @@ Felicidades, has completado el material de la lección
 `Variables y tipos de datos`. Para finalizar debes continuar a la sección de
 _"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que
 validarán tu aprendizaje.
-
-***
-
-[Continuar a prueba tu conocimiento](06-prueba-tu-conocimiento.md)

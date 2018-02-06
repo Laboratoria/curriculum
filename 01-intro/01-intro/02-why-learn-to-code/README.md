@@ -1,8 +1,8 @@
 # ¿Por qué aprender a programar?
 
 - Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `10min`
+- Formato: `self-paced`
+- Duración: `20min`
 
 ***
 
@@ -12,13 +12,9 @@
 - Entender qué es JavaScript y por qué aprenderlo.
 - Conocer algunas historias de egresadas de Laboratoria.
 
-***
-
 El texto a continuación es una traducción al español, con ciertos ajustes, del
 capítulo 1 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015.
-
-***
 
 ## ¿Qué es la programación?
 
@@ -151,7 +147,3 @@ tu computadora, únicamente utilizando el navegador.
 Última nota final sobre el contexto de JavaScript como lenguaje de programación:
 JavaScript _**no**_ es lo mismo que Java. Java es _otro_ lenguaje de
 programación. Mucha gente los confunde. Tú no :)
-
-***
-
-[Continuar](03-your-first-website.md)

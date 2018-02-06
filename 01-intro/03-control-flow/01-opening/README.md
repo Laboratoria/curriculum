@@ -2,7 +2,9 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `10min`
+* Duración: `20min`
+
+***
 
 ## Objetivos de Aprendizaje
 
@@ -47,7 +49,3 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 * ¿Por qué podemos resolver problemas más complejos sabiendo
   `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un
   ejemplo
-
-***
-
-[Continuar](03-conditionals-and-loops.md)

@@ -1,8 +1,8 @@
 # Casos prácticos (videos)
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `taller`
+- Formato: `guiado`
+- Duración: `30min`
 
 ***
 
@@ -66,12 +66,8 @@ anteriores.
 
 ### 1. FizzBuzz: Solucionario
 
-[FizzBuzz Solution](https://www.youtube.com//watch?v=jmKiCMKM33A)
+[![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://youtu.be/jmKiCMKM33A)
 
 ### 2. Tablero de Ajedrez: Solucionario
 
-[Tablero](https://www.youtube.com//watch?v=ckaXH2IhUrw)
-
-***
-
-[Continuar](05-functions.md)
+[![Tablero](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://youtu.be/ckaXH2IhUrw)

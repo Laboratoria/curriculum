@@ -2,7 +2,9 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `60min`
+
+***
 
 ## Objetivos
 
@@ -13,16 +15,12 @@
 - Entender cómo pasarle argumentos a una función
 - Entender el concepto de `return` de las funciones
 
-***
-
 El texto a continuación se basa en gran medida, con ciertos ajustes, en los
 capítulos 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de
 [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015;
-
-***
 
 ## DRY
 
@@ -173,7 +171,7 @@ console.log(power(2, 10));
 A continuación Michelle te explica funciones con un ejemplo del libro JavaScript
 for Kids.
 
-[ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://www.youtube.com/watch?v=Y0NgsjdumS8)
+[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://youtu.be/Y0NgsjdumS8)
 
 ## Saliendo de una función con `return`
 
@@ -243,7 +241,3 @@ garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada
 una de las opciones tiene su propia sentencia de `return`,  garantizamos que se
 ejecute sólo una de las opciones --- porque, recuerda, **las funciones sólo
 pueden devolver una vez**.
-
-***
-
-[Continuar](06-quiz-1.md)

@@ -2,7 +2,9 @@
 
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `120min`
+- Duración: `10min`
+
+***
 
 ## Objetivos
 
@@ -22,10 +24,6 @@
    * `switch`
    * `function`
    * `return`
-3. Revisemos los [ejercicios guiados](08-guided-exercises.md) que resolveremos
+3. Revisemos los **Retos de código** que resolveremos
    en la próxima clase para que intentes resolverlos por tu cuenta primero.
    Veamos un par de tips :)
-
-***
-
-[Continuar](08-guided-exercises.md)

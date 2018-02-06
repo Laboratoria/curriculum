@@ -1,25 +1,8 @@
-# Quiz #1
+# Quiz 1
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `30min`
-
-***
-
-## Objetivos
-
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
-
-## Reglas
-
-- Para completar esta sección puedes utilizar todo el material que tengas a tu
-    disposición. Es decir, puedes regresar a las lecturas, revisar tus apuntes,
-    inclusive puedes buscar en Google.
-- Lo que **NO** puedes hacer es tener asistencia de otra persona. Todos los
-    cuestionarios y retos son de carácter **INDIVIDUAL**.
-
+- Duración: `20min`
 
 ***
 
@@ -32,7 +15,7 @@
 1. Verdadero
 2. Falso
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">1</solution>
 
 ### 2) JavaScript es una versión moderna del lenguaje de programación Java
 
@@ -41,7 +24,7 @@
 1. Verdadero
 2. Falso
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">2</solution>
 
 ### 3) ¿Cuál de los siguientes NO es un navegador web?
 
@@ -52,9 +35,9 @@
 3. Safari
 4. JavaScript
 
-<solution style="display:none;">2</solution>
+<solution style="display:none;">4</solution>
 
-### 4) HTML es ...
+### 4) HTML es ...*
 
 #### Opciones
 
@@ -63,7 +46,7 @@
 3. Una herramienta de marketing para páginas web
 4. Un protocolo de envío de información por Internet
 
-<solution style="display:none;">1,4</solution>
+<solution style="display:none;">2</solution>
 
 ### 5) La función de <!DOCTYPE html> es
 
@@ -71,7 +54,8 @@
 
 1. Definir la apertura del código HTML
 2. Definir las líneas de código HTML que tendrá el documento
-3. Hacerle saber al navegador que interprete el documento como HTML moderno, en contraposición a varios dialectos que estaban en uso en el pasado.
+3. Hacerle saber al navegador que interprete el documento como HTML moderno, en
+   contraposición a varios dialectos que estaban en uso en el pasado.
 4. Guardar el archivo con extensión .html
 
 <solution style="display:none;">3</solution>
@@ -83,11 +67,12 @@
 1. El head contiene información sobre el documento, y el body también
 2. El head contiene información sobre los encabezados, y el body sobre los párrafos
 3. El head contiene el documento en sí y el body información sobre el documento
-4. El head contiene información sobre el documento, y el body contiene el documento en sí
+4. El head contiene información sobre el documento, y el body contiene el
+   documento en sí
 
 <solution style="display:none;">4</solution>
 
-### 7) El elemento title debe ir dentro del elemento ...
+### 7) El elemento title debe ir dentro del elemento ...*
 
 #### Opciones
 
@@ -96,7 +81,7 @@
 3. h1
 4. script
 
-<solution style="display:none;">4</solution>
+<solution style="display:none;">1</solution>
 
 ### 8) Para incluir JavaScript en una web HTML se utiliza el elemento
 
@@ -109,7 +94,11 @@
 
 <solution style="display:none;">4</solution>
 
-### 9) <script src="nombre-del-documento.js"></script> se utiliza para...
+### 9) El enlace se utiliza para...*
+
+```js
+<script src="nombre-del-documento.js"></script>
+```
 
 #### Opciones
 
@@ -127,6 +116,6 @@
 1. index.html y app.js
 2. mi-pagina-chevere.html y javascript.js
 3. index.js y app.html
-3. index.html y código-facil.js
+4. index.html y código-facil.js
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">1</solution>

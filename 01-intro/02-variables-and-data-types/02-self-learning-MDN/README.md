@@ -1,8 +1,8 @@
 # Auto-aprendizaje: manipulando strings y numbers
 
 - Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `60min`
+- Formato: `self-paced`
+- Duración: `30min`
 
 ***
 
@@ -131,7 +131,3 @@ auto-aprendizaje:
 **NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos
 anteriores. Lo que continúa de este curso se construye sobre estos conceptos,
 así que tómate el tiempo para aprender bien antes de avanzar.**
-
-***
-
-[Continuar](04-comments.md)

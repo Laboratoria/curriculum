@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `60min`
 
 ***
 
@@ -260,7 +260,7 @@ usado para compartir código entre casos (recomienda salir a la calle tanto para
 
 A continuación Michelle te ayuda a entender este caso un poco mejor:
 
-[![ejemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com//watch?v=Aa0JhU6KZXs)
+[![ejemplo de Switch](https://img.youtube.com/vi/-Aa0JhU6KZXs/0.jpg)](https://youtu.be/Aa0JhU6KZXs)
 
 ### 3. Flujo repetitivo: Bucles
 
@@ -528,8 +528,4 @@ bucle.
 
 A continuación Michelle te ayuda explica, con un ejemplo, las aplicaciones de
 `break` y `continue` dentro de un `for`:
-[ejemplo de break y continue](https://www.youtube.com/watch?v=C5rIORzHOgg)
-
-***
-
-[Continuar](04-practical-cases.md)
+[![ejemplo de break y continue](https://img.youtube.com/vi/C5rIORzHOgg/0.jpg)](https://www.youtube.com/watch?v=C5rIORzHOgg)

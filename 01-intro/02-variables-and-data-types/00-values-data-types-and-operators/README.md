@@ -1,7 +1,7 @@
 # Valores, tipos de datos y operadores
 
 - Tipo: `lectura`
-- Formato: `guiado`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ***
@@ -13,11 +13,9 @@
 - Aprender cómo combinar y transformar valores con operadores en JavaScript.
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+Unidad 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](https://github.com/hectorip).
-
-***
 
 ## Vivimos en un mundo de Data
 
@@ -484,7 +482,3 @@ false === 0
 "" === 0
 // returns > false
 ```
-
-***
-
-[Continuar](02-variables.md)
