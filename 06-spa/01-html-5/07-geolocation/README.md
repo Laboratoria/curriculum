@@ -2,22 +2,30 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `60min`
 
 ***
 
 ## Objetivos de Aprendizaje
 
-Entender qué es la geolocalización y cómo usar el API,
+Entender qué es la geolocalización y cómo usar el API
 
-como lectura adicional
-le podemos dar la guía de Google Maps y un ejemplo de cómo usarla de manera
-guiada (algunas ya lo saben usar), en la siguiente unidad profundizaremos en
-entender de qué trata.
+## Geolocalización
+
+Revisemos las siguientes diapositivas
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbFDCCktoR42Inmp5jjBt-OkwBMPS-CxOI4k4FgHvQKEOkLvht3qTZc5bYz4X8Vjt--a3NepBgu2A-/embed?start=false&loop=false&delayms=5000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Algo así tal vez: https://www.sitepoint.com/html5-geolocation/
+Ahora vamos a leer el siguiente **[enlace](https://devcode.la/tutoriales/api-geolocalizacion-html5/)**
+de DevCode que aparte de tener información importante cuenta con un ejemplo
+práctico para ir resolviendo.
 
-- https://docs.google.com/presentation/d/1UZsZHXeZ4oEaAGV9RLONdSzD_pESnkQrcqDc61V58Tw/edit#slide=id.g1598bd1bcd_0_0
-- https://www.youtube.com/watch?v=XX9Kmg3qLRk
+Para finalizar, veamos el siguiente vídeo, notarás que pone todo en su HTML
+pero tú eres una desarrolladora que ama las buenas prácticas y a la hora de
+poner manos a la obra en tu editor de texto, pondrás cada cosa en su archivo
+correspondiente.
+
+[video](https://www.youtube.com/watch?v=XX9Kmg3qLRk)
+
+Si ya realizando lo anterior quieres algo más, DevCode tiene un **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)**
+para obtener la geolocalización con Nodejs.
