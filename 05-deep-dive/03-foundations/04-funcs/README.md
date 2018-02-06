@@ -247,8 +247,7 @@ var add = function(x, y) {
 };
 ```
 
-En otras palabras, un _function declaration_ declara una nueva variable, crea
-una función de un objeto y asigna la función a la variable.
+En otras palabras, un _function declaration_ consiste de la palabra clave reservada _function_, una lista de parámetros para la función, encerrados en paréntesis y separados por comas, y la sentencia JavaScript que define la función, encerrada por llaves.
 
 ### Function Constructor
 
