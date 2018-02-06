@@ -14,7 +14,7 @@ Entender qué es la geolocalización y cómo usar el API
 
 Revisemos las siguientes diapositivas
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbFDCCktoR42Inmp5jjBt-OkwBMPS-CxOI4k4FgHvQKEOkLvht3qTZc5bYz4X8Vjt--a3NepBgu2A-/embed?start=false&loop=false&delayms=5000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbFDCCktoR42Inmp5jjBt-OkwBMPS-CxOI4k4FgHvQKEOkLvht3qTZc5bYz4X8Vjt--a3NepBgu2A-/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Ahora vamos a leer el siguiente **[enlace](https://devcode.la/tutoriales/api-geolocalizacion-html5/)**
 de DevCode que aparte de tener información importante cuenta con un ejemplo
