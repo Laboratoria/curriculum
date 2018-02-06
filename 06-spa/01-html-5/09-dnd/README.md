@@ -23,3 +23,7 @@ Y por último, revisa este **[enlace](http://www.desarrollolibre.net/blog/tema/4
 , ya que es una maravilla con los ejemplos que proporciona con todo y su explicación.
 
 No te preocupes si sientes que de repente es mucha información, recuerda que la mejor manera de entender lo que leímos es ponerlo en practica, así que abre tu editor de texto y replica o modifica los ejemplos que ya vimos.
+
+Y si sientes que puedes con algo más y necesitas otro reto, puedes entrar a
+este **[enlace](https://devcode.la/tutoriales/draggable-con-jquery-ui/)**
+de DevCode para practicar esto pero con jQuery-UI
