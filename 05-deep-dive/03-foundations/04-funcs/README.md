@@ -259,7 +259,7 @@ ejemplo, el siguiente código es equivalente a los ejemplos anteriores:
 var add = new Function('x', 'y', 'return x + y');
 ```
 
-Sin embargo, esta forma de definir una función es lenda y deja código en strings
+Sin embargo, esta forma de definir una función es lenta y deja código en strings
 (inaccesible a herramientas, por ejemplo, al depurar con _Dev Tools_). Por lo
 tanto es mejor usar un _function expression_ o un _function declaration_ si es
 posible.
