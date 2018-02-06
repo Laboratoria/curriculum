@@ -45,19 +45,19 @@ rentar es una gran opción económica, desarrollando las siguientes característ
 
 ### Unidad 01: [¿Cómo funciona internet?](00-how-the-web-works)
 
-Esta unidad es una introducción a la web, el objetivo es tener claro algunos 
-conceptos sobre qué es la WWW (World Wide Web), qué es una  URL, HTTP y en 
+Esta unidad es una introducción a la web, el objetivo es tener claro algunos
+conceptos sobre qué es la WWW (World Wide Web), qué es una  URL, HTTP y en
 qué nos ayuda entender esto al momento de realizar una Web App.
 
-Referencia: 
+Referencia:
 
 [![How the web works](https://img.youtube.com/vi/AkjMCbSvTto/0.jpg)](https://youtu.be/AkjMCbSvTto)
 
-### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
+<!-- ### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
 
 En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
-las APIs que vienen integradas y que pueden ser accedidas por medio de 
-JavaScript. Prestaremos especial atención en `Audio/Video`, `Web Storage`, 
+las APIs que vienen integradas y que pueden ser accedidas por medio de
+JavaScript. Prestaremos especial atención en `Audio/Video`, `Web Storage`,
 `Geolocation` y `DnD (Drag and Drop)`.
 
 Referencia:
@@ -66,8 +66,8 @@ Referencia:
 
 ### Unidad 03: [¿Qué significa traer datos de un servidor asíncronamente?](02-asynchronous-js-request)
 
-El objetivo de esta unidad es llevar a la práctica el ciclo request/response de 
-HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y 
+El objetivo de esta unidad es llevar a la práctica el ciclo request/response de
+HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y
 comunicándonos con el servidor a través de un API.
 
 Referencia:
@@ -76,9 +76,9 @@ Referencia:
 
 ### Unidad 04: [A jugar con Web APIs!](03-working-with-apis)
 
-En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el 
+En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el
 objetivo de experimentar la extracción de datos sin autenticación, con un token
-generado, enviando datos a través de cabeceras HTTP, identificar cuando son 
+generado, enviando datos a través de cabeceras HTTP, identificar cuando son
 RESTful y otros detalles que te darán superpoderes.
 
 Referencia:
@@ -98,13 +98,13 @@ Referencia:
 ### Unidad 06: [Producto Final](05-final-product)
 
 Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
-este curso, el único requisito será crear un Single Page Application haciendo 
-uso de un API distinto o adicional a los que hemos visto en clase y bajo el 
+este curso, el único requisito será crear un Single Page Application haciendo
+uso de un API distinto o adicional a los que hemos visto en clase y bajo el
 contexto que desees.
 
 Referencia:
 
-[![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8)
+[![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8) -->
 
 ## Autor(es) / Colaboradores
 
