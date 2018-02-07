@@ -30,7 +30,7 @@
 3. for
 4. if
 5. if else
-6. if else "encadenado" (nested)
+6. if else "anidado" (nested)
 
 <solution style="display:none;">6</solution>
 
@@ -48,7 +48,7 @@
 ### 4) ¿Cuál es el problema con el código a continuación ? *
 
 ```js
-while(3 > 2){
+while (3 > 2){
   console.log('Hello world');
 }
 ```
@@ -67,9 +67,9 @@ while(3 > 2){
 ```js
 var result = 0;
 
-var showSum = function(){
-  result = num1 + num2
-  alert('El resultado es ' + result )
+var showSum = function() {
+  result = num1 + num2;
+  alert('El resultado es ' + result);
 }
 
 showSum();
@@ -87,7 +87,7 @@ showSum();
 ### 6) Completa los espacios en blanco (ordenadamente). *
 
 ```js
-var sum = _____(num1, num2){
+var sum = _____(num1, num2) {
   ________ num1 + num2;
 }
 
@@ -108,10 +108,10 @@ _______(2, 3);
 ```js
 var emoji = ':D';
 
-var greet =function(name){
+var greet = function (name) {
   emoji = ':)';
-  var  myGreet = function(){
-    return 'Hola ' + name + '' + emoji;
+  var  myGreet = function() {
+    return 'Hola ' + name + ' ' + emoji;
   }
   return myGreet();
 }
@@ -132,6 +132,7 @@ console.log(greet('Laboratoria'));
 
 ```js
 var number = 0;
+
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -150,7 +151,7 @@ while (number <= 12) {
 ### 9) Cuál es el resultado de ... *
 
 ```js
-for(var number = 1; number <= 8; number = number * 2){
+for (var number = 1; number <= 8; number = number * 2) {
   console.log(number);
 }
 ```
@@ -207,7 +208,7 @@ switch (weather) {
 ### 12) Cuál es el resultado de ... *
 
 ```js
-for(var i = 0; i <= 10; i++){
+for (var i = 0; i <= 10; i++) {
   if (i == 5) {
     continue;
   } else {
@@ -229,7 +230,7 @@ for(var i = 0; i <= 10; i++){
 ### 13) Cuál es el resultado de ... *
 
 ```js
-var medalForScore = function(score){
+var medalForScore = function (score) {
   if (score < 3){
     return 'Bronze';
   }
@@ -254,7 +255,7 @@ console.log(medalForScore(7));
 ### 14) En el ejemplo a continuación... *
 
 ```js
-var square = function(num) {
+var square = function (num) {
   return num * num;
 };
 square(12);

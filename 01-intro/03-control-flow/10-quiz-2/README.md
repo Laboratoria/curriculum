@@ -18,14 +18,14 @@
 2. bucles en general
 3. if
 4. if else
-5. if else "encadenado" (nested)
+5. if else "anidado" (nested)
 
 <solution style="display:none;">2</solution>
 
 ### 2) Los comentarios en la programación ... *
 
 ```js
-do{
+do {
   console.log('Hello world');
 } while (2 > 3);
 ```
@@ -45,7 +45,7 @@ do{
 ```js
 var result = 0;
 
-var showSum = function(num1, num2){
+var showSum = function(num1, num2) {
   result = num1 + num2;
   alert('El resultado es ' + result);
 }
@@ -106,7 +106,7 @@ while (number <= 12) {
 ### 7) Cuál es el resultado de ... *
 
 ```js
-for(var number = 1; number < 8; number = number*3){
+for (var number = 1; number < 8; number = number * 3) {
   console.log(number);
 }
 ```
@@ -152,7 +152,7 @@ switch (weather) {
 ### 9) Cuál es el resultado de ... *
 
 ```js
-for(var i = 0; i <= 10; i++){
+for (var i = 0; i <= 10; i++) {
   if (i == 0) {
     continue;
   } else {
@@ -175,7 +175,7 @@ for(var i = 0; i <= 10; i++){
 ### 10)  Cuál es el resultado de ...*
 
 ```js
-var medalForScore = function(score){
+var medalForScore = function(score) {
   if (score < 3){
     return 'Bronze';
   }

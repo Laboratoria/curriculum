@@ -24,7 +24,7 @@ function coinConvert (dollar = 50) {
   soles = dollar * 3.25
   pesosMexicanos = dollar * 18
   pesosChilenos = dollar * 660
-  console.log(soles, pesosMexicanos, pesosChilenos) // --> [162.5, 900, 33000]
+  console.log(soles, pesosMexicanos, pesosChilenos); // --> [162.5, 900, 33000]
 }
 ```
 

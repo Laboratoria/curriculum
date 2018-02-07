@@ -13,5 +13,5 @@ module.exports = function coinConvert (usDollars) {
   // Añade el monto equivalente en pesos chilenos
   arr.push(/* tu código aquí */);
 
-  return arr ;
+  return arr;
 };

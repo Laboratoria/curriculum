@@ -102,12 +102,12 @@
 
 #### Opciones
 
-1. Asignarle el nombre el documento JavaScript
+1. Asignarle el nombre del documento JavaScript
 2. Escribir JavaScript directamente en el HTML
-3. Linkear el documento JavaScript con el documento HTML
+3. Linkear el documento JavaScript en el documento HTML
 4. Agregar CSS al documento HTML
 
-<solution style="display:none;">1</solution>
+<solution style="display:none;">3</solution>
 
 ### 10) Nombres comunes para tus archivos son... *
 
