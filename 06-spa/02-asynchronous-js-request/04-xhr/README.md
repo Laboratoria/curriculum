@@ -12,26 +12,37 @@
 
 ## Analogía
 
-Preparar un pastel.
+Una buena manera de entender XHR es usando la siguiente analogía:
 
-[![XHR analogy](https://img.youtube.com/vi/9-_O_0gfVHo/0.jpg)](https://youtu.be/9-_O_0gfVHo)
+> **Preparar un pastel!**
+> Para prepararlo necesitamos, harina, huevo, leche, mantequilla y un horno.
+> Encendemos el horno. Luego procedemos a mezclar los 4 ingredientes y ya
+> lista la mezcla la metemos al horno, aquí va a tardar un poco en lo que se
+> hornea pero mientras podemos ir preparando la cubierta del pastel.
+
+Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para hacer peticiones AJAX, es muy parecido a la parte de la preparación de la mezcla donde primero debemos "preparar" las configuraciones y luego mandar nuestra petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer otras peticiones o tareas.
+
+> Cuando el horno nos regresa el pastel horneado podemos continuar con
+> decorarlo
+
+Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que hayamos dispuesto para esta "tarea".
 
 ## XMLHTTPRequest
 
-Just like how the document is provided by the JavaScript engine, the JavaScript engine also provides a way for us to make asynchronous HTTP requests. We do that with an XMLHttpRequest object. We can create these objects with the provided XMLHttpRequest constructor function.
+Al igual que el entorno de JavaScript proporciona el documento, el entorno de JavaScript también nos proporciona una forma de realizar solicitudes HTTP asíncronas. Hacemos eso con un objeto XMLHttpRequest. Podemos crear estos objetos con la función de constructor XMLHttpRequest proporcionada.
+Confusamente, la función de constructor tiene "XML", pero no está limitado solo a documentos XML. Recuerde que el acrónimo "AJAX" solía representar "JavaScript y XML asíncronos". Dado que el formato de archivo principal que se utilizó originalmente para el intercambio asíncrono de datos eran archivos XML, es fácil ver por qué la función se llama XMLHttpRequest!
 
-One of the best ways to learn is to get your hands dirty and try things out! So go to Unsplash, open up the developer tools, and run the following on the console:
+XMLHttpRequests (comúnmente abreviado como XHR o xhr) se puede utilizar para solicitar cualquier tipo de archivo (por ejemplo, archivos de texto plano, HTML, JSON, de imagen, etc.) o datos de una API.
 
-const asyncRequestObject = new XMLHttpRequest();
-Confusingly, the constructor function has "XML" in it, but it's not limited to only XML documents. Remember that the "AJAX" acronym used to stand for "Asynchronous JavaScript and XML". Since the main file format that was originally used for asynchronous data exchange were XML files, it's easy to see why the function is called XMLHttpRequest!
-
-XMLHttpRequests (commonly abbreviated as XHR or xhr) can be used to request any file type (e.g. plain text files, HTML files, JSON files, image files, etc.) or data from an API.
-
-Note: We'll be digging into the XMLHttpRequest object. We'll look at how to create it, what methods and properties need to be used, and how to actually send asynchronous requests. For even more info on using the XHR object to make async requests, check out these links:
+Nota: profundizaremos en el objeto XMLHttpRequest. Veremos cómo crearlo, qué métodos y propiedades se deben usar y cómo enviar realmente solicitudes asincrónicas. Para obtener más información sobre el uso del objeto XHR para realizar solicitudes asíncronas, consulte estos enlaces:
 
 MDN's docs - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open
 WHATWG Spec - https://xhr.spec.whatwg.org/
 W3C Spec - https://www.w3.org/TR/XMLHttpRequest/
+
+¡Una de las mejores formas de aprender es ensuciarse las manos y probar cosas! Vaya a Unsplash, abra las herramientas de desarrollador y ejecute lo siguiente en la consola:
+
+const asyncRequestObject = new XMLHttpRequest ();
 
 ## XHR's object `.open()` method
 
@@ -107,12 +118,12 @@ As with onload, if onerror isn't set and an error occurs, that error will just f
 Here's the full code that we've built up that creates the XHR object, tells it what info to request, sets up handlers for a success or error, and then actually sends the request:
 
 ```javascript
-function handleSuccess () { 
-  console.log( this.responseText ); 
+function handleSuccess () {
+  console.log( this.responseText );
   // the HTML of https://unsplash.com/
 }
 
-function handleError () { 
+function handleError () {
   console.log( 'An error occurred \uD83D\uDE1E' );
 }
 
