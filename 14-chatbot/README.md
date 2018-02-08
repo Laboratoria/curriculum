@@ -80,7 +80,6 @@ En esta unidad conoceremos el marco de trabajo Bot Framework y los principios
 de diseño que nos proporcionarán las herramientas que nos ayudarán a dar los
 primeros pasos con los bot.
 
-<!--
 ### Unidad 03: [SDK Bot Builder para Node.js](03-bot-builder-sdk)
 
 En esta unidad conoceremos el SDK para Node.js que nos permitirá crear nuestro
@@ -91,10 +90,12 @@ primer bot.
 En esta unidad conoceremos los Cognitive Services de Azure y agregaremos
 inteligencia a nuestro Bot con LUIS basado en Machine Learning.
 
+<!--
 ### Unidad 05: [Desplegando nuestro chatbot](05-deploy-chatbot)
 
 En esta unidad aprenderemos como desplegar nuestro bot en plataformas como
 Facebook-messenger y Slack.
+-->
 
 ***
 
