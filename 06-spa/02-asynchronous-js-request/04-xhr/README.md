@@ -154,14 +154,10 @@ Los datos que devuelve están en un formato que es extremadamente difícil de
 analizar y consumir.
 
 Sería mucho más fácil (y útil) si pudiéramos obtener solo los datos que
-queremos en una estructura de datos mejor ordenada.
+queremos en una estructura de datos mejor ordenada, aquí entra **JSON**
 
-En lugar de solicitar la URL base para Unsplash, creemos una aplicación que
-extraiga una imagen de Unsplash's API y artículos relevantes del New York
-Times.
-
-Al realizar una solicitud desde una API que devuelve JSON, todo lo que tenemos que hacer es convertir esa respuesta JSON en un objeto JavaScript.
-Podemos hacer eso con `JSON.parse();` modifiquemos la función de carga para manejar una respuesta JSON:
+Al realizar una solicitud desde una API que devuelve un JSON, todo lo que tenemos que hacer es convertir esa respuesta JSON en un objeto JavaScript.
+Podemos hacer eso con `JSON.parse();`, modifiquemos la función de carga para manejar una respuesta JSON:
 
 ```javascript
 function handleSuccess () {
