@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `60min`
 
 ***
 
@@ -10,28 +10,58 @@
 
 - Entender qué significa AJAX
 
-[![AJAX](https://img.youtube.com/vi/7nufhg4DMuc/0.jpg)](https://youtu.be/7nufhg4DMuc)
+## Un poco de historia
 
-## A little history
+> JavaScript Asíncrono y XML (AJAX) no es una tecnología por sí misma,
+> es un término que describe un nuevo modo de utilizar conjuntamente varias
+> tecnologías existentes. Esto incluye: HTML o XHTML, CSS, JavaScript, DOM,
+> XML, XSLT, y el objeto XMLHttpRequest. Cuando estas tecnologías se combinan
+> en un modelo AJAX, es posible lograr aplicaciones web capaces de actualizarse
+> continuamente sin tener que volver a cargar la página completa. Esto crea
+> aplicaciones más rápidas y con mejor respuesta a las acciones del usuario.
 
-JavaScript frameworks and Single Page Apps are the way to build today, but let's review where we've come from.
+_Extracto de MDN WEB DOCS_
 
-In the traditional server-rendered web application, the client computer makes a request for a web page. The server creates and returns a page to the client. Finally, the client loads the new page and displays the information. If they interact with the page, say to add or remove something by submitting a form, they start the cycle all over again. The client will make another request, the server returns a totally new page, the client loads and presents it to the user again.
+>En la aplicación web tradicional, la computadora cliente realiza una solicitud
+>de una página web. El servidor crea y regresa la página para el cliente.
+>Finalmente, el cliente carga la nueva página y muestra la información.
+>Si interactúan con la página, digamos para agregar o eliminar algo o al enviar
+>un formulario, vuelve a comenzar el ciclo. El cliente hará otra solicitud,
+>el servidor regresa una página totalmente nueva, el cliente carga y se
+>lo presenta nuevamente al usuario.
 
-Up until the mid 2000s, this was basically the only way internet communication occurred. Information would reside on the server, and a client would request that data and refresh the page and display it. This cycle would repeat for each and every new page request.
+_Hasta mediados de la década de los 2000, esta era básicamente la única forma
+en que se producía la comunicación por Internet. La información residiría en
+el servidor, un cliente solicitaría esos datos, actualizaría la página y
+la mostraría. Este ciclo se repetiría para todas y cada una de las
+nuevas solicitudes._
 
-In the late 90s, the Microsoft Outlook team added the XMLHTTP component to Internet Explorer and built a web version of the Outlook mail client. This code was later picked up by other browsers as XMLHttpRequest. This allowed browsers to make HTTP requests from Javascript and update the current page in place without fetching an entire page from the server. Instead of the synchronous model of waiting for a whole page, the user interface could update asynchronously as the user kept working. Most of the data being exchanged used the XML format.
+A finales de los años 90, el equipo de Microsoft Outlook agregó el componente
+XMLHTTP a Internet Explorer y compiló la versión web del cliente de correo de
+Outlook. Este código fue recogido por otros navegadores como
+**XMLHttpRequest**. Esto permitió a los navegadores realizar solicitudes HTTP
+desde Javascript y actualizar la página actual sin recuperar una página
+completa del servidor. En lugar del modelo síncrono de espera para una página
+completa, la interfaz de usuario podría actualizarse de forma asíncrona a
+medida que el usuario siguiera trabajando.
 
 ## AJAX
 
-In 2005, Jesse James Garrett coined the term AJAX to mean “Asynchronous Javascript and XML”. This is essentially the technique of using XMLHTTPRequest to fetch data and then modify the current page.
+En 2005, Jesse James Garrett acuñó el término AJAX para significar
+"Javascript y XML asincrónicos". Esta es esencialmente la técnica de usar
+XMLHTTPRequest para recuperar datos y luego modificar la página actual.
 
-AJAX took the web world by storm, spreading far beyond Microsoft Outlook. State-of-the-art web applications like Flickr, GMail, and Google Maps rapidly adopted it. Instead of having to wait for data and have the entire page refresh, these new, near instantaneous applications were incredible.
+AJAX tomó el mundo de la web por asalto, extendiéndose mucho más allá de
+Microsoft Outlook. Las aplicaciones web de vanguardia como Flickr, GMail y
+Google Maps lo adoptaron rápidamente. En lugar de tener que esperar para
+obtener datos y actualizar la página completa, estas nuevas aplicaciones
+casi instantáneas fueron increíbles.
 
-## Browser Inconsistencies
+![Video AJAX](https://www.youtube.com/watch?v=_ybgWmSCAu8)
 
-Hold up, though. Ajax wasn't all ponies and rainbows. There were several different, incompatible browser implementations and developers were forced to code for one browser or write complex code for them all. Eventually, JavaScript libraries like jQuery and YUI emerged to reconcile the differences.
+En la lectura y vídeo anterior se menciona JSON y XML, vayamos a este
+[enlace](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
+para leer al respecto.
 
-AJAX apps were great, but difficult for individual developers to write; as browsers kept changing, and people demanded apps on more devices, the code then became more and more complex and confusing. This challenge led to the rise of standard Javascript frameworks and libraries. JavaScript libraries arose to hide the complex browser differences, JavaScript frameworks made developing complex, powerful applications manageable.
-
-[![AJAX Example](https://img.youtube.com/vi/9_d-Gs77KMg/0.jpg)](https://youtu.be/9_d-Gs77KMg)
+Y por último terminamos con esta [lectura](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72)
+que nos resume y explica con otras palabras que es AJAX.
