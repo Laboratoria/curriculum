@@ -57,10 +57,9 @@ Google Maps lo adoptaron rápidamente. En lugar de tener que esperar para
 obtener datos y actualizar la página completa, estas nuevas aplicaciones
 casi instantáneas fueron increíbles.
 
-![Video AJAX](https://www.youtube.com/watch?v=_ybgWmSCAu8)
+[Video AJAX](https://www.youtube.com/watch?v=_ybgWmSCAu8)
 
-En la lectura y vídeo anterior se menciona JSON y XML, vayamos a este
-[enlace](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
+En la lectura y vídeo anterior se menciona JSON y XML, vayamos a este [enlace](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
 para leer al respecto.
 
 Y por último terminamos con esta [lectura](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72)

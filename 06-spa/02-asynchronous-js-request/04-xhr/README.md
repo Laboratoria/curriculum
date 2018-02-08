@@ -29,31 +29,34 @@ Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que h
 
 ## XMLHTTPRequest
 
-Al igual que el entorno de JavaScript proporciona el documento, el entorno de JavaScript también nos proporciona una forma de realizar solicitudes HTTP asíncronas. Hacemos eso con un objeto XMLHttpRequest. Podemos crear estos objetos con la función de constructor XMLHttpRequest proporcionada.
-Confusamente, la función de constructor tiene "XML", pero no está limitado solo a documentos XML. Recuerde que el acrónimo "AJAX" solía representar "JavaScript y XML asíncronos". Dado que el formato de archivo principal que se utilizó originalmente para el intercambio asíncrono de datos eran archivos XML, es fácil ver por qué la función se llama XMLHttpRequest!
+El entorno de JavaScript nos proporciona una forma de realizar solicitudes
+HTTP asíncronas. Hacemos eso con un objeto XMLHttpRequest. Podemos crear estos
+objetos con la función de constructor XMLHttpRequest proporcionada.
 
-XMLHttpRequests (comúnmente abreviado como XHR o xhr) se puede utilizar para solicitar cualquier tipo de archivo (por ejemplo, archivos de texto plano, HTML, JSON, de imagen, etc.) o datos de una API.
+XMLHttpRequests (comúnmente abreviado como XHR o xhr) se puede utilizar para
+solicitar cualquier tipo de archivo (por ejemplo, archivos de texto plano,
+HTML, JSON, de imagen, etc.) o datos de una API.
 
-Nota: profundizaremos en el objeto XMLHttpRequest. Veremos cómo crearlo, qué métodos y propiedades se deben usar y cómo enviar realmente solicitudes asincrónicas. Para obtener más información sobre el uso del objeto XHR para realizar solicitudes asíncronas, consulte estos enlaces:
+Ahora profundizaremos en el objeto XMLHttpRequest. Veremos cómo crearlo, qué
+métodos y propiedades se deben usar y cómo enviar realmente solicitudes
+asíncronas.
 
-MDN's docs - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open
-WHATWG Spec - https://xhr.spec.whatwg.org/
-W3C Spec - https://www.w3.org/TR/XMLHttpRequest/
+[XMLHttpRequests](https://www.youtube.com/watch?v=nz9S3uZE_dM)
 
-¡Una de las mejores formas de aprender es ensuciarse las manos y probar cosas! Vaya a Unsplash, abra las herramientas de desarrollador y ejecute lo siguiente en la consola:
+### El objeto XHR y su método `.open()`
 
-const asyncRequestObject = new XMLHttpRequest ();
-
-## XHR's object `.open()` method
-
-So we've constructed an XHR object named asyncRequestObject. There are a number of methods that are available to us. One of the most important is the open method.
+Ya que hemos construido un objeto XHR llamado _asyncRequestObject_. Podemos acceder a sus métodos, uno de los más importantes es el método `.open()`
 
 asyncRequestObject.open();
-.open() takes a number of parameters, but the most important are its first two: the HTTP method URL to send the request
 
-If we want to asynchronously request the homepage from the popular high-res image site, Unsplash, we'd use a GET request and provide the URL:
+.open() toma una serie de parámetros, pero los más importantes son sus dos primeros: el método HTTP y la URL para enviar la solicitud.
+
+![sintax-open](sintax_open.png)
+
+Si queremos solicitar de manera asíncrona la página de inicio del popular sitio de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y proporcionaremos la URL:
 
 asyncRequestObject.open('GET', 'https://unsplash.com');
+
 A little rusty on your HTTP methods?
 The main two that you'll be using are:
 
@@ -64,6 +67,25 @@ For more info, check out our course on HTTP & Web Servers!
 Warning: For security reasons, you can only make requests for assets and data on the same domain as the site that will end up loading the data. For example, to asynchronously request data from google.com your browser needs to be on google.com. This is known as the same-origin policy. This might seem extremely limiting, and it is!
 
 The reason for this is because JavaScript has control over so much information on the page. It has access to all cookies and can determine passwords since it can track what keys are pressed. However, the web wouldn't be what it is today if all information was bordered off in its own silos. The way to circumvent the same-origin policy is with CORS (Cross-Origin Resource Sharing). CORS must a technology that is implemented on the server. Services that provide APIs use CORS to allow developers to circumvent the same-origin policy and access their information.
+
+Así que hemos construido un objeto XHR llamado asyncRequestObject. Hay una cantidad de métodos que están disponibles para nosotros. Uno de los más importantes es el método abierto.
+
+asyncRequestObject.open ();
+.open () toma una serie de parámetros, pero los más importantes son sus dos primeros: el método HTTP URL para enviar la solicitud
+
+Si queremos solicitar asincrónicamente la página de inicio del popular sitio de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y proporcionaremos la URL:
+
+asyncRequestObject.open ('GET', 'https://unsplash.com');
+¿Un poco oxidado en tus métodos HTTP?
+Los dos principales que usarás son:
+
+GET - para recuperar datos
+POST - para enviar datos
+Para obtener más información, ¡consulta nuestro curso sobre HTTP y servidores web!
+
+Advertencia: por motivos de seguridad, solo puede realizar solicitudes de activos y datos en el mismo dominio que el sitio que terminará cargando los datos. Por ejemplo, para solicitar datos de manera asincrónica desde google.com, su navegador debe estar en google.com. Esto se conoce como la misma política de origen. Esto puede parecer extremadamente limitante, ¡y lo es!
+
+La razón de esto es porque JavaScript tiene control sobre tanta información en la página. Tiene acceso a todas las cookies y puede determinar las contraseñas, ya que puede rastrear qué teclas se presionan. Sin embargo, la web no sería lo que es hoy si toda la información estuviera delimitada en sus propios silos. La forma de eludir la política del mismo origen es con CORS (Intercambio de recursos de origen cruzado). CORS debe tener una tecnología implementada en el servidor. Los servicios que proporcionan API utilizan CORS para permitir a los desarrolladores eludir la política del mismo origen y acceder a su información.
 
 ## XHR's object `.send()` method
 
@@ -150,3 +172,15 @@ function handleSuccess () {
 
 asyncRequestObject.onload = handleSuccess;
 ```
+
+
+<!-- Para obtener más información sobre el uso del objeto XHR para realizar
+solicitudes asíncronas, consulte estos enlaces:
+
+MDN's docs - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open
+WHATWG Spec - https://xhr.spec.whatwg.org/
+W3C Spec - https://www.w3.org/TR/XMLHttpRequest/ -->
+
+<!-- ¡Una de las mejores formas de aprender es ensuciarse las manos y probar cosas! Vaya a Unsplash, abra las herramientas de desarrollador y ejecute lo siguiente en la consola:
+
+const asyncRequestObject = new XMLHttpRequest (); -->
