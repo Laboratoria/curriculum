@@ -92,7 +92,7 @@ inteligencia a nuestro Bot con LUIS basado en Machine Learning.
 
 ### Unidad 05: [Desplegando nuestro chatbot](05-deploy-chatbot)
 
-En esta unidad aprenderemos como desplegar nuestro bot en plataformas como 
+En esta unidad aprenderemos como desplegar nuestro bot en plataformas como
 Facebook-messenger y Slack.
 
 ***
