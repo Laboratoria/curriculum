@@ -1,4 +1,4 @@
-# Preguntas y respuestas
+# Procesamiento de lenguaje natural con LUIS
 
 * Tipo: `seminario`
 * Formato: `guiado`
