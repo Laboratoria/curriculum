@@ -146,7 +146,7 @@ var bot = new builder.UniversalBot(connector,  [
 
 ## Configuración de nuestro  chatbot en Azure
 
-[![Chatbot en Azure](https://embed-ssl.wistia.com/deliveries/7a2c7276969d6431ef2b85ea0ef9f1aeb6cf5a3e/file.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/xdiag2vows?wvideo=622j8cnnbq)
+[![Chatbot en Azure](https://embed-ssl.wistia.com/deliveries/7a2c7276969d6431ef2b85ea0ef9f1aeb6cf5a3e/file.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/622j8cnnbq?wvideo=622j8cnnbq)
 
 ## Lecturas complementarias
 
