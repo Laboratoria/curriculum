@@ -91,7 +91,8 @@ restify Node.js.
 
 Los diálogo te ayudarán a organizar la lógica de conversación de tus bots y son
 fundamentales para diseñar el flujo de conversación, **es muy importante** que
-estudies la interacción de los dialogos, ya que estos serán el corazón de tu bot.
+estudies la interacción de los dialogos, ya que estos serán el corazón de tu
+bot.
 
 ## Messages
 
@@ -120,16 +121,17 @@ con las acciones.
 
 Puede usar el reconocedor de expresiones regulares integrado que proporciona el
 **SDK de Bot Builder**, llamar a un servicio externo como la API LUIS o
-implementar un reconocedor personalizado para determinar la intención del usuario.
+implementar un reconocedor personalizado para determinar la intención del
+usuario.
 
 ## Sistema de Almacenamiento
 
-Una clave para un buen diseño de bot es rastrear el contexto de una conversación,
-para que tu bot recuerde cosas como la última pregunta que hizo el usuario. Los
-Bots construidos usando **Bot Builder SDK** están diseñados para ser escalables,
-de modo que puedan escalarse fácilmente para ejecutarse en múltiples nodos. El
-Framework Bot proporciona un sistema de almacenamiento que almacena datos bot,
-de modo que el servicio web de bot puede escalarse.
+Una clave para un buen diseño de bot es rastrear el contexto de una
+conversación, para que tu bot recuerde cosas como la última pregunta que hizo el
+usuario. Los Bots construidos usando **Bot Builder SDK** están diseñados para
+ser escalables, de modo que puedan escalarse fácilmente para ejecutarse en
+múltiples nodos. El Framework Bot proporciona un sistema de almacenamiento que
+almacena datos bot, de modo que el servicio web de bot puede escalarse.
 
 Debido a eso, generalmente debe evitar el uso de variables globales o cierre de
 función. Hacerlo creará problemas cuando quieras escalar tu bot.
@@ -142,7 +144,7 @@ un LuisRecognizer que haga referencia a su modelo de lenguaje publicado y luego
 agregar controladores para realizar acciones en respuesta a los enunciados del
 usuario.
 
-## Lectura complementaria
+## Lecturas complementarias
 
 * [Introducción a Dialogos - Bot Builder SDK for Node.js](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-dialog-overview)
 * [Introducción a Prompt](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-dialog-prompt)

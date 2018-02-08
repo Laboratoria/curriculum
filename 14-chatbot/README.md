@@ -80,6 +80,7 @@ En esta unidad conoceremos el marco de trabajo Bot Framework y los principios
 de diseño que nos proporcionarán las herramientas que nos ayudarán a dar los
 primeros pasos con los bot.
 
+<!--
 ### Unidad 03: [SDK Bot Builder para Node.js](03-bot-builder-sdk)
 
 En esta unidad conoceremos el SDK para Node.js que nos permitirá crear nuestro

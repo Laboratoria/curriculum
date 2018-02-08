@@ -106,14 +106,11 @@ sentido. Por lo tanto, garantizar una gran experiencia de usuario debería ser s
 prioridad número uno al diseñar un bot. Algunas consideraciones clave incluyen:
 
 * ¿El bot soluciona fácilmente el problema del usuario con la cantidad mínima de
-   pasos?
-
+  pasos?
 * ¿El bot soluciona el problema del usuario mejor / más fácil / más rápido que
   cualquiera de las experiencias alternativas?
-
 * ¿Se ejecuta el bot en los dispositivos y plataformas que le interesan al
   usuario?
-
 * ¿Es el bot detectable? ¿Saben los usuarios, naturalmente, qué hacer cuando lo
   usan?
 
@@ -124,19 +121,20 @@ del usuario. Al diseñar su bot, ten en cuenta que hay más en ese primer mensaj
 que simplemente decir "hola". Cuando construyes una aplicación, diseñas la
 primera pantalla para proporcionar indicaciones de navegación importantes. Los
 usuarios deben entender intuitivamente cosas tales como dónde se encuentra el
-menú y cómo funciona, dónde buscar ayuda, cuál es la política de privacidad, etc.
-Cuando diseñas un bot, la primera interacción del usuario con el bot debería
-proporcionar el mismo tipo de información. En otras palabras, solo decir "hola"
-no será suficiente.
+menú y cómo funciona, dónde buscar ayuda, cuál es la política de privacidad,
+etc. Cuando diseñas un bot, la primera interacción del usuario con el bot
+debería proporcionar el mismo tipo de información. En otras palabras, solo decir
+"hola" no será suficiente.
 
 ## Diseñar y controlar el flujo de conversación
 
 En una aplicación tradicional, la interfaz de usuario (UI) es una serie de
 pantallas. Una sola aplicación o sitio web puede usar una o más pantallas según
 sea necesario para intercambiar información con el usuario. La mayoría de las
-aplicaciones comienzan con una pantalla principal donde los usuarios inicialmente
-aterrizan y proporcionan navegación que conduce a otras pantallas para diversas
-funciones, como iniciar un nuevo pedido, explorar productos o buscar ayuda.
+aplicaciones comienzan con una pantalla principal donde los usuarios
+inicialmente aterrizan y proporcionan navegación que conduce a otras pantallas
+para diversas funciones, como iniciar un nuevo pedido, explorar productos o
+buscar ayuda.
 
 Al igual que las aplicaciones y los sitios web, los bots tienen una IU, pero
 está formada por cuadros de diálogo, en lugar de pantallas. Los cuadros de
@@ -223,11 +221,11 @@ forzar al usuario a escribir "Hoteles". Esto es especialmente cierto en los
 dispositivos móviles, donde el clic es preferible a la escritura.
 
 Cuando diseñes un bot, no descartes automáticamente los elementos comunes de UI
-ya que no son **”lo suficientemente inteligentes"**. Como se vimos anteriormente,
-su bot debe estar diseñado para resolver el problema del usuario de la mejor
-manera / más rápida / más fácil posible. Evite la tentación de comenzar
-incorporando la comprensión del lenguaje natural, ya que a menudo es innecesario
-y solo introduce una complejidad injustificada.
+ya que no son **”lo suficientemente inteligentes"**. Como se vimos
+anteriormente, su bot debe estar diseñado para resolver el problema del usuario
+de la mejor manera / más rápida / más fácil posible. Evite la tentación de
+comenzar incorporando la comprensión del lenguaje natural, ya que a menudo es
+innecesario y solo introduce una complejidad injustificada.
 
 Avanza a la siguiente unidad, donde conoceremos los componentes de **Microsoft
 Bot Framework**
