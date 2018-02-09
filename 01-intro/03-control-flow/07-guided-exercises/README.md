@@ -2,15 +2,15 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `30min`
-
-***
+- Duración: `120min`
 
 ## Objetivos
 
 - Practicar codeando junto a tu equipo de profes, resolviendo problemas de
   estructuras condicionales, repetitivas y funciones
 - Practicar, practicar y practicar
+
+***
 
 ## Enunciados
 

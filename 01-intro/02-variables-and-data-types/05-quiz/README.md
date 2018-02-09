@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `30min`
 
 ***
 
@@ -46,7 +46,18 @@
 
 <solution style="display:none;">4</solution>
 
-### 4) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta: *
+### 4) La diferencia entre undefined y null ... *
+
+#### Opciones
+
+1. No existe, son lo mismo
+2. Es crucial para entender JavaScript
+3. undefined no tiene valor y null es un string vacio
+4. Es un accidente del diseño de JavaScript y no importa la mayoría del tiempo.
+
+<solution style="display:none;">4</solution>
+
+### 5) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta: *
 
 #### Opciones
 
@@ -57,7 +68,7 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 5) El resultado de "Hola" + "mundo" es: *
+### 6) El resultado de "Hola" + "mundo" es: *
 
 #### Opciones
 
@@ -68,7 +79,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) ¿Qué tipo de dato es "123"?
+### 7) ¿Qué tipo de dato es "123"?
 
 #### Opciones
 
@@ -79,7 +90,18 @@
 
 <solution style="display:none;">2</solution>
 
-### 7) El resultado de 10 == "diez" es: *
+### 8) ¿Qué tipo de dato es Infinity?
+
+#### Opciones
+
+1. Number
+2. String
+3. Boolean
+4. Undefined
+
+<solution style="display:none;">1</solution>
+
+### 9) El resultado de 10 == "diez" es: *
 
 #### Opciones
 
@@ -88,7 +110,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 8)  El resultado de 10 % 3 es: *
+### 10)  El resultado de 10 % 3 es: *
 
 #### Opciones
 
@@ -99,7 +121,7 @@
 
 <solution style="display:none;">1</solution
 
-### 9) El resultado de 'Me \"encanta\" JavaScript' es: *
+### 11) El resultado de 'Me \"encanta\" JavaScript' es: *
 
 #### Opciones
 
@@ -110,7 +132,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 10)  El resultado de **typeof NaN** es: *
+### 12)  El resultado de **typeof NaN** es: *
 
 #### Opciones
 
@@ -121,7 +143,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 11)  El resultado de 4 % 15 es: *
+### 13)  El resultado de 4 % 15 es: *
 
 #### Opciones
 
@@ -132,7 +154,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 12) El resultado de "diez" * 4 es
+### 14) El resultado de "diez" * 4 es
 
 #### Opciones
 
@@ -143,7 +165,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 13)  El resultado de "50" + 1 es: *
+### 15) El resultado de "50" + 1 es: *
 
 #### Opciones
 
@@ -154,7 +176,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 14)  El resultado de false == "" es: *
+### 16)El resultado de false == "" es: *
 
 #### Opciones
 
@@ -165,7 +187,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 15) El resultado de "" === NaN es: *
+### 17) El resultado de "" === NaN es: *
 
 #### Opciones
 
@@ -176,7 +198,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 16) El resultado de "a string".slice(1, 5) es: *
+### 18) El resultado de "a string".slice(1, 5) es: *
 
 #### Opciones
 
@@ -187,7 +209,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 17) El resultado de "My long string is long".slice(5) es: *
+### 19) El resultado de "My long string is long".slice(5) es: *
 
 #### Opciones
 
@@ -198,7 +220,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 18) El resultado de "Quiero seguir aprendiendo!!!".slice(0, -2) es: *
+### 20) El resultado de "Quiero seguir aprendiendo!!!".slice(0, -2) es: *
 
 #### Opciones
 
@@ -209,7 +231,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 19) El resultado de "cualquier string".charAt(100) es: *
+### 21) El resultado de "cualquier string".charAt(100) es: *
 
 #### Opciones
 
@@ -220,7 +242,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 20) El resultado de "Hola Mundo".indexOf(" ") es: *
+### 22) El resultado de "Hola Mundo".indexOf(" ") es: *
 
 #### Opciones
 
@@ -231,7 +253,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 21) El resultado de "Hola Mundo".indexOf("s") es: *
+### 23) El resultado de "Hola Mundo".indexOf("s") es: *
 
 #### Opciones
 
@@ -242,7 +264,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 22) El resultado de "alphabet".toUpperCase() es: *
+### 24) El resultado de "alphabet".toUpperCase() es: *
 
 #### Opciones
 
@@ -253,7 +275,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 23) El resultado de **typeof parseInt('543')** es: *
+### 25) El resultado de **typeof parseInt('543')** es: *
 
 #### Opciones
 

@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `20min`
+- Duración: `30min`
 
 ***
 
@@ -48,7 +48,7 @@
 ### 4) ¿Cuál es el problema con el código a continuación ? *
 
 ```js
-while (3 > 2){
+while (3 > 2) {
   console.log('Hello world');
 }
 ```

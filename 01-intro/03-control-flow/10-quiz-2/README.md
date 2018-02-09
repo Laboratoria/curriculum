@@ -99,7 +99,7 @@ while (number <= 12) {
 1. "Hola Mundo"
 2. "Hola mundo"
 3. "Holamundo"
-4. 'Holamundo'
+4. 'HolaMundo'
 
 <solution style="display:none;">3</solution>
 

@@ -1,16 +1,16 @@
 # Casos prácticos (videos)
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `30min`
-
-***
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `60min`
 
 ## Objetivos
 
 - Entender, a través de casos prácticos, cómo aplicar los conceptos de
   `estructuras condicionales` y `estructuras repetitivas` para la resolución de
   problemas
+
+***
 
 ## Enunciados
 
@@ -66,8 +66,8 @@ anteriores.
 
 ### 1. FizzBuzz: Solucionario
 
-[![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://youtu.be/jmKiCMKM33A)
+[![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://www.youtube.com/watch?v=jmKiCMKM33A)
 
 ### 2. Tablero de Ajedrez: Solucionario
 
-[![Tablero](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://youtu.be/ckaXH2IhUrw)
+[![Tablero](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://www.youtube.com/watch?v=ckaXH2IhUrw)

@@ -2,9 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
-
-***
+- Duración: `30min`
 
 ## Objetivos
 
@@ -14,6 +12,8 @@
 - Conocer la estructura de las funciones en JavaScript
 - Entender cómo pasarle argumentos a una función
 - Entender el concepto de `return` de las funciones
+
+***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en los
 capítulos 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
@@ -171,7 +171,7 @@ console.log(power(2, 10));
 A continuación Michelle te explica funciones con un ejemplo del libro JavaScript
 for Kids.
 
-[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://youtu.be/Y0NgsjdumS8)
+[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://www.youtube.com/watch?v=Y0NgsjdumS8)
 
 ## Saliendo de una función con `return`
 

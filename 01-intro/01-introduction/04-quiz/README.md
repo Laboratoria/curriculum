@@ -102,9 +102,9 @@
 
 #### Opciones
 
-1. Asignarle el nombre del documento JavaScript
+1. Asignarle el nombre al documento JavaScript
 2. Escribir JavaScript directamente en el HTML
-3. Linkear el documento JavaScript en el documento HTML
+3. Incluir el código desde un archivo externo
 4. Agregar CSS al documento HTML
 
 <solution style="display:none;">3</solution>

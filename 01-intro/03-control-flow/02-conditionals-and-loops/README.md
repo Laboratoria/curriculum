@@ -2,9 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
-
-***
+- Duración: `30min`
 
 ## Objetivos
 
@@ -13,6 +11,8 @@
   programa
 - Entender qué son `estructuras repetitivas` y cómo afectan el flujo del
   programa
+
+***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
@@ -255,12 +255,12 @@ que se llegue a una sentencia `break` (que en español significa "detener").
 
 En algunos casos, como en el caso de 'soleado' en el ejemplo, esto puede ser
 usado para compartir código entre casos (recomienda salir a la calle tanto para
-  clima soleado como para nublado). Pero cuidado: es fácil olvidar el break, lo
-  cuál causará que el programa ejecute código que no quieres que se ejecute.
+clima soleado como para nublado). Pero cuidado: es fácil olvidar el break, lo
+cuál causará que el programa ejecute código que no quieres que se ejecute.
 
 A continuación Michelle te ayuda a entender este caso un poco mejor:
 
-[![ejemplo de Switch](https://img.youtube.com/vi/-Aa0JhU6KZXs/0.jpg)](https://youtu.be/Aa0JhU6KZXs)
+[![ejemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com//watch?v=Aa0JhU6KZXs)
 
 ### 3. Flujo repetitivo: Bucles
 
@@ -347,7 +347,7 @@ en 2. Entonces, al principio de cada repetición, el valor de la variable
 el trabajo que tenía que hacer. Es importante que entendamos que si no
 modificamos el valor de `number` con la segunda sentencia, la condición (number
   <=12) siempre será `true` y tendremos un ciclo infinito que nunca se detendrá.
-  Esto puede causar que tu computadora tenga problemas y se congele.
+Esto puede causar que tu computadora tenga problemas y se congele.
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará
 si quieres detener el script después de unos cuantos segundos. Si eso falla,

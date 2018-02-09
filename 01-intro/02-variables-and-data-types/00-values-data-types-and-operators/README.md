@@ -4,16 +4,16 @@
 - Formato: `self-paced`
 - Duración: `60min`
 
-***
-
 ## Objetivos de Aprendizaje
 
 - Entender qué se entiende por _values_ (valores) en JavaScript.
 - Conocer los diferentes _data types_ (tipos de datos) en JavaScript.
 - Aprender cómo combinar y transformar valores con operadores en JavaScript.
 
+***
+
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-Unidad 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](https://github.com/hectorip).
 

@@ -45,7 +45,7 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidad 01: [Introducción](01-intro)
+### Unidad 01: [Introducción](01-introduction)
 
 Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
@@ -71,9 +71,9 @@ JavaScript.
 | 01 | lectura   | self-paced |   60min  | Variables
 | 02 | lectura   | self-paced |   30min  | Manipulando `strings` y `numbers`
 | 03 | lectura   | self-paced |   15min  | Comentarios en JavaScript
-| 04 |   taller  |   guiado   |   60min  | Ejercicios guiados
-| 05 |   quiz    | self-paced |   15min  | Prueba tu conocimiento
-| 06 |   taller  | self-paced |   30min  | Ejercicios
+| 04 | seminario |   guiado   |   60min  | Ejercicios guiados
+| 05 |   quiz    | self-paced |   30min  | Prueba tu conocimiento
+| 06 | practice  | self-paced |   30min  | Ejercicios
 
 ### Unidad 03: [Control de Flujo](03-control-flow)
 
@@ -82,19 +82,19 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 |  lectura  | self-paced |   10min  | Recap
-| 01 |  lectura  | self-paced |   20min  | Apertura
-| 02 |  lectura  | self-paced |   60min  | Estructuras condicionales y repetitivas
-| 03 |   taller  |   guiado   |   30min  | Casos Prácticos
-| 04 |  lectura  | self-paced |   60min  | Funciones
-| 05 |   quiz    | self-paced |   20min  | Quiz 1
-| 06 | seminario |   guiado   |   10min  | Revisión de conceptos
-| 07 |  taller   |   guiado   |   30min  | Ejercicios guiados
-| 08 |  practice | self-paced |   120min  | Retos de código
-| 09 | seminario |   guiado   |   60min  | Solucionario retos de código
-| 10 |   quiz    | self-paced |   10min  | Requiz
-| 11 | seminario | self-paced |   5min  | Auto-evaluación
-| 12 | seminario |    guiado  |   30min  | Cierre
+| 00 | seminario |    guiado  |  100min  | Recap
+| 01 |  lectura  | self-paced |   10min  | Apertura
+| 02 |  lectura  | self-paced |   30min  | Estructuras condicionales y repetitivas
+| 03 |  lectura  | self-paced |   60min  | Casos Prácticos
+| 04 |  lectura  | self-paced |   30min  | Funciones
+| 05 |   quiz    | self-paced |   30min  | Quiz 1
+| 06 | seminario |   guiado   |  120min  | Revisión de conceptos
+| 07 |  taller   |   guiado   |   120min  | Ejercicios guiados
+| 08 |  practice | self-paced |   120min | Retos de código
+| 09 | seminario |   guiado   |   120min | Solucionario retos de código
+| 10 |   quiz    | self-paced |   30min  | Requiz
+| 11 | seminario | self-paced |   5min   | Auto-evaluación
+| 12 | seminario |    guiado  |   120min | Cierre
 
 ***
 

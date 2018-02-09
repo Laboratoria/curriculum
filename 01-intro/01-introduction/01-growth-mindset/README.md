@@ -4,12 +4,12 @@
 * Formato: `self-paced`
 * Duración: `20min`
 
-***
-
 ## Objetivos de aprendizaje
 
 * Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptarla antes
   de empezar este curso.
+
+***
 
 ## Sobre Growth Mindset
 
@@ -76,10 +76,10 @@ Mira este video sobre Growth mindset (10 min)
 Instrucciones para ponerle subtítulos en español al video:
 
 * Dar click a la tuerca de configuración/settings
-* Click en subtítulos/subtitle
+* Click en subtítulos/subtitles
 * Seleccionar español/spanish
 
-[Video Growth Mindset](https://www.youtube.com/watch?v=pN34FNbOKXc)
+[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
 
 ## Desarrollando Growth Mindset
 
@@ -92,7 +92,7 @@ reflexionar y encontrar estrategias para cambiar.
 La siguiente imagen resume algunas de las diferencias entre ambas mentalidades,
 y te ayudará a identificar cómo mejorar:
 
-![Image Growth MindsetGrowth mindset](https://user-images.githubusercontent.com/25912510/35746484-ef89fb66-0814-11e8-9da8-0440d5b0375c.png)
+![Image Growth Mindset](https://user-images.githubusercontent.com/25912510/35746484-ef89fb66-0814-11e8-9da8-0440d5b0375c.png)
 
 ## Growth Mindset en Laboratoria
 

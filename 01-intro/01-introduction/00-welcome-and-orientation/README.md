@@ -1,8 +1,8 @@
 # Bienvenida y orientación
 
-- Tipo: `lectura`
-- Formato: `guiado`
-- Duración: `10min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
 
 ***
 
@@ -62,9 +62,9 @@ Video de Michelle explicando las descargas:
 Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con
 el apoyo del staff de profesores de Laboratoria.
 
-- [Lima](https://facebook.com/groups/LaboratoriaLima20181/)
-- [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20181/)
-- [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20181/)
+* [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
+* [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
+* [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
 
 ### 2. Horas de consulta
 
@@ -76,16 +76,16 @@ volver a verlos cuantas veces necesites.
 
 Las horas de consulta por sede son las siguientes:
 
-- Lima:
-  * Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.
-  * Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
-- México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:
-  * Lunes 24 de julio de 5pm a 7pm.
-  * Miércoles 26 de julio de 5pm a 7pm.
-- Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:
-  * Jueves 20 de julio de 4pm a 6pm.
-  * Jueves 27 de julio de 4pm a 6pm.
-  * Martes 1 de agosto de 4pm a 6pm.
+* Lima:
+  - Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.
+  - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
+* México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:
+  - Lunes 24 de julio de 5pm a 7pm.
+  - Miércoles 26 de julio de 5pm a 7pm.
+* Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:
+  - Jueves 20 de julio de 4pm a 6pm.
+  - Jueves 27 de julio de 4pm a 6pm.
+  - Martes 1 de agosto de 4pm a 6pm.
 
 ### 3. Correo
 
@@ -97,21 +97,19 @@ responderlos.
 
 Los contactos para cada sede, son los siguientes:
 
-- Lima:
-  * [Michelle Seguil](michelle@laboratoria.la)
-  * [Ruth Salvador](ruth.s@laboratoria.la)
-  * [Lourdes Vilchez](lourdes@laboratoria.la)
-  * [Gabriela Segura](gabriela.segura@laboratoria.la)
-- Ciudad de México:
-  * [Jonathan Parra](jonathan@laboratoria.la)
-  * [Adoración Cid](adoracion@laboratoria.la)
-  * [Grissel Rocha](grissel@laboratoria.la)
-- Santiago de Chile:
-  * [Allison Guzmán](allison@laboratoria.la)
-  * [Belén Recabal](belen@laboratoria.la)
-  * [Alexandra Neira](alexandra@laboratoria.la)
-  * [Nadia Tapia](nadia@laboratoria.la)
-  * [Marcia Millanao](marcia@laboratoria.la)
+* Lima:
+  - Michelle Seguil, michelle@laboratoria.la
+  - Arabela Rojas, arabela@laboratoria.la
+* Ciudad de México:
+  - Jonathan Parra, jonathan@laboratoria.la
+  - Adoración Cid, adoracion@laboratoria.la
+  - Grissel Rocha, grissel@laboratoria.la
+* Santiago de Chile:
+  - Allison Guzmán: allison@laboratoria.la
+  - Belén Recabal: belen@laboratoria.la
+  - Alexandra Neira; alexandra@laboratoria.la
+  - Nadia Tapia: nadia@laboratoria.la
+  - Marcia Millanao: marcia@laboratoria.la
 
 <!--
 ## Fechas importantes
@@ -140,18 +138,18 @@ en el mundo tech.
 
 ### Aprenderás
 
-- Entender qué es la programación y por qué aprender a programar.
-- Entender qué es JavaScript y por qué aprenderlo.
-- Tener un primer acercamiento al mundo del código, creando tu primera página
+* Entender qué es la programación y por qué aprender a programar.
+* Entender qué es JavaScript y por qué aprenderlo.
+* Tener un primer acercamiento al mundo del código, creando tu primera página
   web.
-- A darle dinamismo a tu web utilizando JavaScript.
-- Algunos conceptos básicos de programación como: variables, tipos datos y
+* A darle dinamismo a tu web utilizando JavaScript.
+* Algunos conceptos básicos de programación como: variables, tipos datos y
   operadores.
 
 ### Duración
 
-- Total: 15-20 horas.
-- Modalidad: Self-paced (a tu propio ritmo - online).
+* Total: 15-20 horas.
+* Modalidad: Self-paced (a tu propio ritmo - online).
 
 ### Requerimientos previos
 
@@ -160,40 +158,42 @@ curso. Está diseñado para principiantes.
 
 ## Syllabus
 
-Este pre-work consta de 2 unidades principales:
+Este pre-work consta de 2 módulos principales:
 
-### Unidad 1: Introducción
+### Módulo 1: Introducción
 
 Queremos motivarte a aprender a programar, y por ello te brindaremos más
 información sobre cómo, a través del código, podrás transformar tu futuro.
 Además, te daremos algunos consejos para aprender a aprender. Después de eso,
 ¡te enseñaremos a crear tu primera página web!
 
-- **Sesión 1**
-  * Unidad 1: Bienvenida y orientación
-- **Sesión 2**
-  * Unidad 1: Growth Mindset
-- **Sesión 3**
-  * Unidad 1: ¿Qué es la programación y porqué aprender a programar?
-- **Sesión 4**
-  * Unidad 1: Tu primer sitio web
-- **Sesión 5**
-  * Unidad 1: Prueba tu conocimiento
+* Sesión 1: lectura
+  - Unidad 1: Bienvenida y orientación
+* Sesión 2: lectura
+  - Unidad 1: Growth Mindset
+* Sesión 3: lectura
+  - Unidad 1: ¿Qué es la programación y porqué aprender a programar?
+* Sesión 4: lectura
+  - Unidad 1: Tu primer sitio web
+* Sesión 5: quiz
+  - Unidad 1: Prueba tu conocimiento
 
-### Unidad 2: Variables y tipos de datos
+### Módulo 2: Variables y tipos de datos
 
-El la segunda unidad se entrará a más detalle en algunos conceptos base de la
+El segundo módulo entrará a más detalle en algunos conceptos base de la
 programación, como lo son las variables, los tipos de datos y los operadores.
 
-- **Sesión 1**
-  * Unidad 2: Valores, tipos de datos y operadores
-- **Sesión 2**
-  * Unidad 2: Variables
-- **Sesión 3**
-  * Unidad 2: Manipulando `strings` y `numbers`
-- **Sesión 4**
-  * Unidad 2: Comentarios en JavaScript
-- **Sesión 5**
-  * Unidad 2: Practicando con ejercicios de variables y tipos de datos
-- **Sesión 6**
-  * Unidad 2: Prueba tu conocimiento
+* Sesión 1: lectura
+  - Unidad 2: Valores, tipos de datos y operadores
+* Sesión 2: lectura
+  - Unidad 2: Variables
+* Sesión 3: lectura
+  - Unidad 2: Manipulando `strings` y `numbers`
+* Sesión 4: lectura
+  - Unidad 2: Comentarios en JavaScript
+* Sesión 5: seminario
+  - Unidad 2: Practicando con ejercicios de variables y tipos de datos
+* Sesión 6: quiz
+  - Unidad 2: Prueba tu conocimiento
+* Sesión 7: practice
+  - Unidad 2: Ejercicios

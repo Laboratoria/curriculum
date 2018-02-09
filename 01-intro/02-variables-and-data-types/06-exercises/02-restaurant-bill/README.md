@@ -1,11 +1,5 @@
 # Cuenta de restaurante
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `15min`
-
-***
-
 Imagina que has salido a comer con tus cuatro mejores amigas.  La cuenta total
 del consumo es de 50 dólares, pero a eso debes agregarle el 10% de Impuesto al
 Valor Agregado (IVA). Quieres dividir la cuenta equitativamente entre las cinco.
@@ -25,7 +19,7 @@ Ejemplo:
 
 ```js
 var output = restaurantBill(50);
-console.log(output); // --> 11
+console.log(output); // --> $11
 ```
 
 ¡Mucha suerte!

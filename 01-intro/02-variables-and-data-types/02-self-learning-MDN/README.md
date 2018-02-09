@@ -4,12 +4,12 @@
 - Formato: `self-paced`
 - Duración: `30min`
 
-***
-
 ## Objetivos de Aprendizaje
 
 - Conocer la documentación MDN y la importancia del auto-aprendizaje.
 - Aprender a manipular `strings` y `numbers` en JavaScript.
+
+***
 
 ## Aprendiendo sobre `string.length`
 

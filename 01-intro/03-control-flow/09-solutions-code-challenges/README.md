@@ -2,15 +2,15 @@
 
 * Tipo: `seminario`
 * Formato: `guiado`
-* Duración: `60min`
-
-***
+* Duración: `120min`
 
 ## Objetivos
 
 * Revisar las soluciones de todos los retos
 * Entender que existe más de una forma de resolver los problemas y analizar las
   ventajas y desventajas de cada solución propuesta
+
+***
 
 ## Agenda
 

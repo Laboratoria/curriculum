@@ -2,7 +2,9 @@
 
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `30min`
+- Duración: `120min`
+
+***
 
 ## Agenda
 

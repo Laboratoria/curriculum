@@ -2,9 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `20min`
-
-***
+* Duración: `10min`
 
 ## Objetivos de Aprendizaje
 
@@ -16,6 +14,8 @@ En esta unidad aprenderemos:
 * Cómo funcionan y para qué sirven las `estructuras repetitivas`
 * Qué son las `funciones`, cómo se utilizan y por qué son cruciales para la
   programación
+
+***
 
 ## Guia de preguntas y conceptos clave
 

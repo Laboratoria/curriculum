@@ -1,10 +1,8 @@
 # Ejercicios Guiados - Variables y tipos de datos
 
-- Tipo: `taller`
+- Tipo: `seminario`
 - Formato: `guiado`
 - Duración: `60min`
-
-***
 
 ## Objetivos de Aprendizaje
 
@@ -12,6 +10,8 @@
   prácticos.
 - Darte una perspectiva de las cosas que puedes crear con lo que acabas de
   aprender.
+
+***
 
 ## Enunciados
 
@@ -45,19 +45,19 @@ anteriores.
 
 ### 1. Edad en segundos
 
-[Solution Age in Seconds](https://www.youtube.com/watch?v=1IZT_7EfRMw)
+[![Solution Age in Seconds](https://i.ytimg.com/vi/1IZT_7EfRMw/0.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
 
 ### 2. Convertidor de temperatura
 
-[Solution Temperature converter](https://www.youtube.com/watch?v=Ix6VLiBcABw)
+[![Solution Temperature converter](https://i.ytimg.com/vi/Ix6VLiBcABw/0.jpg)](https://www.youtube.com/watch?v=Ix6VLiBcABw)
 
 ### 3. Ganancias y pérdidas
 
-[Solution Earnings and loses](https://www.youtube.com/watch?v=2WtBw8eC0us)
+[![Solution Earnings and loses](https://i.ytimg.com/vi/2WtBw8eC0us/0.jpg)](https://www.youtube.com/watch?v=2WtBw8eC0us)
 
 ### 4. Iniciales
 
-[Solution Initials](https://www.youtube.com/watch?v=E5ozw3b6iM4)
+[![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/0.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
 
 ## Último paso de esta lección
 

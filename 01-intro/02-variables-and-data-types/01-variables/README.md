@@ -4,12 +4,12 @@
 - Formato: `self-paced`
 - Duración: `60min`
 
-***
-
 ## Objetivos de Aprendizaje
 
 - Aprender qué son _variables_ y su utilidad.
 - Conocer las buenas prácticas de nombramiento de variables.
+
+***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
@@ -147,7 +147,7 @@ Las sugerencias son:
 
 Veamos algunos ejemplos:
 
-| Mal nombre  | Problema | Mejor nombre
+| Mal nombre | Problema | Mejor nombre
 | ------------| -------- | ------------
 | age of fiends | Error: contiene espacios | ageOfFriends
 | null | Error: palabra clave (keyword) | empty

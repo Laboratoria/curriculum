@@ -4,13 +4,13 @@
 - Formato: `self-paced`
 - Duración: `20min`
 
-***
-
 ## Objetivos de aprendizaje
 
 - Entender qué es la programación y por qué aprender a programar.
 - Entender qué es JavaScript y por qué aprenderlo.
 - Conocer algunas historias de egresadas de Laboratoria.
+
+***
 
 El texto a continuación es una traducción al español, con ciertos ajustes, del
 capítulo 1 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
@@ -140,7 +140,7 @@ navegador Chrome y sigue los pasos que presenta Michelle en el siguiente video.
 Michelle te mostrará cómo escribir JavaScript y cómo hacer cosas geniales desde
 tu computadora, únicamente utilizando el navegador.
 
-[JS EN EL NAVEGADOR](http://www.youtube.com/watch?v=_guTQcHaUQo)
+[![JS EN EL NAVEGADOR](http://img.youtube.com/vi/_guTQcHaUQo/0.jpg)](http://www.youtube.com/watch?v=_guTQcHaUQo)
 
 ## JavaScript != Java
 

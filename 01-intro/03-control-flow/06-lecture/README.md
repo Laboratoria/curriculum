@@ -2,15 +2,15 @@
 
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `10min`
-
-***
+- Duración: `120min`
 
 ## Objetivos
 
 - Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
   equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
+
+***
 
 ## Agenda
 
