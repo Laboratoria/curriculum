@@ -15,17 +15,11 @@
 
 Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
 
-<!-- 
-### Perfil de usuario
+### Algo más que solo una noticia
 
-Implementa un login con Firebase, sea manual o con alguna red social, 
-redireccionálo a la página principal de tu sitio (puedes darle la temática que
-desees) y permite tener una edición de perfil, para esto los datos deben de 
-estar precargados con lo que almacenaste en el navegador. Ten en cuenta que
-debe funcionar para distintos usuarios, por lo que deberá estar existente 
-durante una sesión del usuario. ¿Deberás usar `localStorage` o `sessionStorage`?
+En el ejercicio demo, trabajamos con hacer peticiones al NY TIMES, pero nuestro
+ejercicio solo muestra una sola noticia de las muchas que nos manda en la
+respuesta.
 
-<iframe height='500' scrolling='no' title='Edit Profile with Angular ' src='//codepen.io/DonPage/embed/HCjem/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/DonPage/pen/HCjem/'>Edit Profile with Angular </a> by Don Page (<a href='https://codepen.io/DonPage'>@DonPage</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
--->
+En esta ocasión el reto es que logres que se visualicen por lo menos 5 de
+ellas.
