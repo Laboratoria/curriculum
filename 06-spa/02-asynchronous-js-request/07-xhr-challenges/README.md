@@ -23,3 +23,11 @@ respuesta.
 
 En esta ocasión el reto es que logres que se visualicen por lo menos 5 de
 ellas.
+
+  - Necesitas hacer más peticiones?
+  - Y si queremos agregar imágenes?
+  - Nos puede direccionar a cada nota de manera individual?
+  - Y si ahora nuestra petición fuera a otro periódico?
+  - Se puede tener diferentes peticiones a distintos sitios?
+
+![muestra](muestra.png)
