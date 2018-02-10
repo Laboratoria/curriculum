@@ -103,7 +103,7 @@ Vamos a probarlo:
    encendido
 5. Agrega el script anterior en la consola y ejecútalo
 
-![jQuery - ajax](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58ba105b_ud109-l2-swapi-request/ud109-l2-swapi-request.gif)
+![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
 Este `request` (petición o solicitud) está siendo realizada hacia un recurso en
 Github (información del usuario). El request puede ser revisado desde el panel 
@@ -131,7 +131,8 @@ $.ajax({
 }).done(handleResponse);
 ```
 
-![done method](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58ba1097_ud109-l2-swapi-request-with-done/ud109-l2-swapi-request-with-done.gif)
+![done method](https://media.giphy.com/media/xUOwGiAxN7tYlwAZyg/giphy.gif)
+
 La llamada asíncrona es realizada y controlada una vez que termina por el
 método `.done()`, en este caso, muestra el response en la consola.
 
@@ -140,10 +141,10 @@ a una llamada con el método `.ajax()` de jQuery. Esto es lo que tenemos
 actualmente:
 
 ```javascript
-const imgRequest = new XMLHttpRequest();
-imgRequest.onload = addUser;
-imgRequest.open('GET', `https://api.github.com/users/${searchedUser}`);
-imgRequest.send();
+const githubRequest = new XMLHttpRequest();
+githubRequest.onload = addUser;
+githubRequest.open('GET', `https://api.github.com/users/${searchedUser}`);
+githubRequest.send();
 ```
 
 Muchas de estas operaciones pueden ser manejadas internamente por jQuery, así 
