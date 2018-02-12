@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `40min`
 
 ***
 
@@ -21,9 +21,6 @@ dónde podemos ver cuáles existen. Para ello, te dejamos los siguientes recurso
 - [Public APIs - Github Repo](https://public.apis.zone/)
 - [API Directory](https://www.programmableweb.com/apis/directory)
 - [API List](https://apilist.fun/)
-
-> **Nota:** ¿Sabías que todos estos recursos los encontramos googleando 
-> `publci APIS`? Así que tu puedes encontrar aun más recursos ;).
 
 Para el objetivo de esta lectura, vamos a enfocarnos en un recurso que no hemos
 listado hace un momento: [Public APIs](https://github.com/toddmotto/public-apis).
@@ -69,3 +66,52 @@ de cómo se haría la petición en este caso:
 <iframe height='760' scrolling='no' title='BYReOj' src='//codepen.io/ivandevp/embed/BYReOj/?height=760&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/BYReOj/'>BYReOj</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+### Web APIs con `OAuth`
+
+OAuth es un protocolo de autorización que te permite obtener acceso limitado a
+aplicaciones de terceros para obtener datos y luego usar dichos datos para el
+registro o uso de un web service o API. Aquí dejamos un ejemplo para que veas 
+a qué nos referimos:
+
+<iframe height='265' scrolling='no' title='YeQwOe' src='//codepen.io/ivandevp/embed/YeQwOe/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/YeQwOe/'>YeQwOe</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+¿No notaste la diferencia? Si bien esta implementación es similar a las que
+usan un API Key como método de autenticación, para generar ese `key` que se puede
+ver en la URL del **GET Request**, se debe crear una aplicación en [Stack Apps](https://stackapps.com/)
+y para poder hacerlo, es necesario registrarse, al momento del registro ofrece
+una opción de realizarlo mediante Facebook. Cuando esto sucede, el usuario 
+garantiza que StackExchange puede obtener ciertos datos de su cuenta de Facebook
+y estos datos son usados para crear la cuenta y configurar la app que se cree
+en Stack Apps. Ese proceso es lo que OAUth permite realizar de manera 
+estandarizada. 
+
+Otro ejemplo, si pruebas acceder al API de Spotify, tu te puedes conectar a él 
+mediante Facebook y obtener acceso a hacer búsquedas de canciones, artistas, 
+playlists y demás.
+
+## Autenticación y Autorización
+
+Estos dos términos fueron mencionados a lo largo de esta lectura, es importante
+hacer mención que son 2 aspectos de seguridad que las APIs toman en cuenta al
+momento del diseño e implementación.
+
+La autenticación es el proceso de verificar que eres el usuario que indicas ser.
+Es decir, en un inicio de sesión, tu usuario y contraseña deben de coincidir con
+los datos que tiene almacenado el sistema, este es un ejemplo de autenticación.
+
+Mientas que la autorización, una vez comprobado que eres quien dices ser, 
+verifica si tienes acceso o permisos al recurso solicitado.
+
+Aquí te dejamos un par de videos (lo sabemos, está en inglés pero Google 
+Translate nos puede apoyar, no a la perfección pero seguro podrás entenderlo
+bajo el contexto adecuado).
+
+[![Authorization](https://img.youtube.com/vi/ATB23YVOSq4/0.jpg)](https://youtu.be/ATB23YVOSq4)
+
+[![Authorization](https://img.youtube.com/vi/lyHrVjx8MSw/0.jpg)](https://youtu.be/lyHrVjx8MSw)
+
+## Más recursos
+
+- [¿Qué es la autenticación basada en tokens?](https://carlosazaustre.es/que-es-la-autenticacion-con-token/)
+- [¿Qué es OAuth?](https://aplicacionesysistemas.com/que-es-oauth/)
