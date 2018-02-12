@@ -13,6 +13,15 @@
 
 ## Recordemos qué es un web API
 
+Ya hemos visto muchas veces que el acrónimo de API significa Application 
+Programming Interface (Interfaz de programación de aplicaciones) y que la 
+podemos encontrar en distintos lugares como el navegador, la computadora, la 
+web y demás. También hemos escuchado que nos da interoperabilidad entre diversos
+sistemas, en esta unidad nos enfocaremos no en la comunicación con un único
+dispositivo sino entre miles o millones de esto, ¿cómo?. A través de internet,
+por ello, nos enfocaremos en las **Web APIs**. Alista tu subtítulos cone el
+traductor automático y mira este video:
+
 [![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
 
 ## APIs de terceros
