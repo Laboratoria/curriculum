@@ -45,9 +45,9 @@ Para aclararnos vamos a revisar el siguiente vídeo, solo hasta el minuto 3:15.
 
 ## Ejemplo
 
-Aquí un ejemplo de CRUD para un alista de tareas:
+Aquí un ejemplo de CRUD para una lista de tareas:
 
-<iframe height='760' scrolling='no' title='Plain JS CRUD Frontend' src='//codepen.io/ianseabrook/embed/rxvByR/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ianseabrook/pen/rxvByR/'>Plain JS CRUD Frontend</a> by Ian Seabrook (<a href='https://codepen.io/ianseabrook'>@ianseabrook</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='760' scrolling='no' title='Plain JS CRUD Frontend' src='//codepen.io/ianseabrook/embed/rxvByR/?height=760&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ianseabrook/pen/rxvByR/'>Plain JS CRUD Frontend</a> by Ian Seabrook (<a href='https://codepen.io/ianseabrook'>@ianseabrook</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Si bien el ejercicio anterior pierde los cambios al recargar la página, ésta 
