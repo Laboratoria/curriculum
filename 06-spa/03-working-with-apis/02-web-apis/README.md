@@ -31,7 +31,7 @@ Este repositorio a diferencia de los demás, tiene una manera sintetizada de
 mostrar la autenticación que requiere un API (los demás recursos también 
 muestran este detalle pero no están a primera vista).
 
-![Different Web APIs Auth](web-apis.png)
+![Different Web APIs Auth](https://github.com/ivandevp/curricula-js/blob/378ca9e9ad8d178bf783ebbcea6383d9c44a783b/06-spa/03-working-with-apis/02-web-apis/web-apis.png?raw=true)
 
 En la imagen anterior, podemos visualizar el apartado de las APIs de Música, en
 la cual, la columna de `Auth` tiene valores distintos como: `NO`, `apiKey` u 
