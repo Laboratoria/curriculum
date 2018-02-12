@@ -34,7 +34,3 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es REST?
 - ¿Cómo identificar una RESTful API?
 - ¿Qué es un CRUD?
-
-## Referencia:
-
-[![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
