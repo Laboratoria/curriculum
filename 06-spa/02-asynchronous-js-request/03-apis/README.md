@@ -31,7 +31,11 @@ de manerasegura y confiable.
 
 > **Hay datos por ahí que solo esperan ser utilizados.**
 
+<<<<<<< HEAD
 ![ejemplosAPI](ejemplos-apis.png)
+=======
+![ejemplosAPI](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/03-apis/ejemplos-apis.png?raw=true)
+>>>>>>> ecbbb00edd44800c7b2f51c15dc469133655c4de
 
 [Google](https://developers.google.com/apis-explorer/#p/) cuenta con una
 cantidad enorme de APIs, podemos hacer uso de alguna de ellas o buscar que
