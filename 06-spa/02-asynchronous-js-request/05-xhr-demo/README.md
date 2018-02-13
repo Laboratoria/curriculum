@@ -2,11 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-<<<<<<< HEAD
-- Duración: `30min`
-=======
 - Duración: `120min`
->>>>>>> ecbbb00edd44800c7b2f51c15dc469133655c4de
 
 ***
 
@@ -14,23 +10,6 @@
 
 - Usar XHR para construir una aplicación
 
-<<<<<<< HEAD
-## Boilerplate inicial
-
-## Creación de cuentas
-
-## Demo de Request
-
-Referencia: https://classroom.udacity.com/courses/ud109/lessons/8cb1042e-3260-469c-9f78-8e2f092a4725/concepts/685ff9da-fbaa-400c-94ae-72ab42743137
-
-## Request Header
-
-Referencia: https://classroom.udacity.com/courses/ud109/lessons/8cb1042e-3260-469c-9f78-8e2f092a4725/concepts/9795d421-8e6c-4ab4-85ad-5b786aa36238
-
-## Demo final
-
-[![XHR analogy](https://img.youtube.com/vi/eumAZ9Wo9i0/0.jpg)](https://youtu.be/eumAZ9Wo9i0)
-=======
 ## ¿Por dónde empezamos?
 
 Lo primero y más importante es saber que queremos obtener.
@@ -118,4 +97,3 @@ y que con la respuesta podamos ocupar sus noticias.
 > Recuerda que en este ejemplo nuestro _html_ y el _li_ que creamos tienen
 > estilos, asi que no te preocupes si se ve diferente. Lo importante es que te
 > muestre en pantalla el elemento con los valores
->>>>>>> ecbbb00edd44800c7b2f51c15dc469133655c4de
