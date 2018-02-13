@@ -28,7 +28,7 @@ Si tú pensabas que LinkedIn solo servía para mantener actualizado tu CV,
 revisa las siguientes slides para que te sorprendas con todas las posibilidades
 que nos ofrece para crear diferentes productos.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSjQwnB8r8N5hFRhtE1wQ9a8GH13MDjhQhPYwmekE66Qtwrdlld582UwJr1EomzQxjLNKr3UpzwVkLp/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSjQwnB8r8N5hFRhtE1wQ9a8GH13MDjhQhPYwmekE66Qtwrdlld582UwJr1EomzQxjLNKr3UpzwVkLp/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Weather
 
