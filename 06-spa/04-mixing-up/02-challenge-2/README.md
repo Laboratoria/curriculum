@@ -10,7 +10,8 @@
 
 ¿Qué tan fan eres de los comics y personajes de Marvel?
 
-Con este reto haremos uso de su API y aprenderemos de paso a usar MD5
+Con este reto haremos uso del API de la editorial Marvel Comics, pero para
+poder ocuparla debemos aprender a usar MD5.
 
 Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú.
 
@@ -27,10 +28,6 @@ Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú.
 
 - Este blog de **desarrolloweb.com** tiene un [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html)
   de "Como hacer MD5 desde JavaScript"
-
-- En este [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/)
-  nos dan una guía de cómo usar el API, menciona que se ocupa con _Clojure_ pero
-  los pasos bases no son diferentes en JavaScript.
 
 **NOTAS:**
 
