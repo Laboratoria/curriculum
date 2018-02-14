@@ -1,4 +1,4 @@
-# Reto 8: ...
+# Tasty Food
 
 - Tipo: `taller`
 - Formato: `self-paced`
@@ -6,19 +6,25 @@
 
 ***
 
-Enunciado ...
+## ¿Qué haremos?
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+En este reto, usaremos el [API de Zomato](https://developers.zomato.com) que te
+permite obtener datos de restaurantes alrededor del mundo y con ciertos filtros.
+Así que mezclando nuestros poderes de Firebase y APIs, vamos a crear una lista
+de restaurantes preferidos de un usuario. A continuación te dejamos unos slides
+que te pueden dar mayor detalle de las cosas que puedes hacer:
 
-Recursos ...
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAhFiKGcQyWJl-6NiCbB2N_wXKoK_7FRs3tuR-KOIDNUSd7x8rVPqDEgbMyRwBSRP1lsolou6rBDY6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<!-- ## Guía / Boilerplate
+Recuerda, el diseño es una propuesta y puedes usar tu imaginación para mejorarlo
+o cambiarlo en base a tus sugerencias.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+¿Has escuchado de **Flexbox**? Algunos Frameworks de CSS lo usan (Bootstrap 4) 
+para manejar el layout de la web de una manera más sencilla. ¿Qué te parece si 
+para este reto lo usas sin la necesidad de un framework?
 
-Recomendaciones ...
+Aquí unos recursos para que puedas leerlo:
 
-<!-- ## No olvides
+- [Flexbox Froggy](https://laboratoria.github.io/flexboxfroggy/)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDi_npV8fTrCerm-kOSticVIJaEolupfePp89g4TjGGWIHueh1qSKLHRqwWN33f9L3BRcVzWiOAktO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
