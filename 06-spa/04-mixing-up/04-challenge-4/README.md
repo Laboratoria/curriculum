@@ -10,7 +10,7 @@ Enunciado
 
 Ahora que aprendiste sobre peticiones AJAX,te invitamos a utilizar `SOCKET IO` para implementar un chat.
 
-Así mismo deberás deployarlo en `HEROKU`
+Luego deberás implementarlo en `HEROKU`
 
 Recursos
 
@@ -18,6 +18,8 @@ Aqui encontrarás el material para la implementación [chat con socket io](https
 
 Aqui encontrarás el material para  [desplegar el proyecto en HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
 
+
 Recomendaciones
+
 Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
 y las buenas practicas!!
