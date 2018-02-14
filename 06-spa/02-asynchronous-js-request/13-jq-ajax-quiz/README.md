@@ -23,7 +23,7 @@ const movieRequest = new XMLHttpRequest();
 movieRequest.onload = addMovie;
 movieRequest.open('GET', `http://www.omdbapi.com/?apikey=[yourkey]&t=${movieTitle}`);
 movieRequest.send();
-``` 
+```
 
 #### Opciones
 

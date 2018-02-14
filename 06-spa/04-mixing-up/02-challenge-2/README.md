@@ -1,24 +1,44 @@
-# Reto 2: ...
+# Reto 2: Fan de Marvel
 
 - Tipo: `taller`
 - Formato: `self-paced`
-- Duración: `1h`
+- Duración: `2h`
 
 ***
 
-Enunciado ...
+## Enunciado
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+¿Qué tan fan eres de los comics y personajes de Marvel?
 
-Recursos ...
+Con este reto haremos uso de su API y aprenderemos de paso a usar MD5
 
-<!-- ## Guía / Boilerplate
+Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+- Debe estar desarrollada para Desktop
+- Debes subir tu ejercicio a `GitHub` y publicarlo en `gh-pages`
+- Redactar en tu README el _uso_, las _instrucciones_ o el _paso a paso_ de
+  como lograste usar MD5
 
-Recomendaciones ...
+### Recursos
 
-<!-- ## No olvides
+- Link de [Marvel developers](https://developer.marvel.com)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+- ¿[Qué es MD5](https://es.wikipedia.org/wiki/MD5)?
+
+- Este blog de **desarrolloweb.com** tiene un [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html)
+  de "Como hacer MD5 desde JavaScript"
+
+- En este [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/)
+  nos dan una guía de cómo usar el API, menciona que se ocupa con _Clojure_ pero
+  los pasos bases no son diferentes en JavaScript.
+
+**NOTAS:**
+
+- Divide el problema en problemas pequeños, dando solución uno por uno.
+
+- Lee cuantas veces necesites la documentación de Marvel y recuerda que
+  eres una desarrolladora que ya tiene la gran habilidad de preguntar a
+  San Google las dudas concretas que te surgen.
+
+> Consideración: Se podrá hacer uso de esta información (API de Marvel) siempre que
+> se vaya a utilizar en webs y aplicaciones para uso personal y no comercial.

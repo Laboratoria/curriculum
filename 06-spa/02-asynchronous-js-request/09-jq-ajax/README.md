@@ -18,11 +18,11 @@ Dejar que un experto prepare el pastel por ti.
 
 ## ¿Por qué jQuery?
 
-jQuery es una librería muy popular que ya has tenido la oportunidad de usar. El 
+jQuery es una librería muy popular que ya has tenido la oportunidad de usar. El
 uso que le has dado hasta este momento ha sido para manipular y recorrer el DOM
 a través de métodos que hacen nuestro código más corto.
 
-Ahora, usaremos esta ventaja de usar métodos más pequeños y dejar la 
+Ahora, usaremos esta ventaja de usar métodos más pequeños y dejar la
 responsabilidad a jQuery de ver la compatibilidad de navegadores por nosotros
 en la implementación de AJAX.
 
@@ -37,22 +37,22 @@ de jQuery. Hay 2 formas de usar este método:
 ```javascript
 $.ajax(<url-a-realizar-la-petición>, <un-objeto-configuración>);
 
-// or 
+// or
 
 $.ajax(<solo un objeto de configuración>);
 ```
 
 Fuente: [Documentación de jQuery](https://api.jquery.com/jQuery.ajax/)
 
-La manera más común de usar el método `.ajax()` es usando solo el objeto de 
+La manera más común de usar el método `.ajax()` es usando solo el objeto de
 configuración, esto en parte es debido a que es la forma más antigua que está
-disponible (versión 1.0, a ver si encuentras de donde obtuvimos este dato 
-mirando la documentación), además de que toda la configuración lo puedes poner 
+disponible (versión 1.0, a ver si encuentras de donde obtuvimos este dato
+mirando la documentación), además de que toda la configuración lo puedes poner
 en un solo objeto.
 
 > ### Qué es un objeto de configuración?
 
-> Es un objeto de JavaScript que se usa para configurar algo. 
+> Es un objeto de JavaScript que se usa para configurar algo.
 >
 > Por ejemplo:
 >
@@ -65,7 +65,7 @@ en un solo objeto.
 > };
 > ```
 >
-> El objeto de configuración puede ser pasado como parámetro de una función 
+> El objeto de configuración puede ser pasado como parámetro de una función
 > constructora. Imaginemos la función constructora `MakeCake`:
 >
 > ```javascript
@@ -74,7 +74,7 @@ en un solo objeto.
 >
 > De igual manera, el objeto de configuración puede ser pasado directamente:
 >
-> ```javascript
+ ```javascript
 > const myDeliciousCake = MakeCake({
 >    name: 'this is my name',
 >    colors: ['orange', 'blue'],
@@ -106,10 +106,10 @@ Vamos a probarlo:
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
 Este `request` (petición o solicitud) está siendo realizada hacia un recurso en
-Github (información del usuario). El request puede ser revisado desde el panel 
+Github (información del usuario). El request puede ser revisado desde el panel
 de redes (pestaña `Network` en el Dev Tools).
 
-Ya sabemos cómo realizar una petición con `.ajax()` pero aun no estamos 
+Ya sabemos cómo realizar una petición con `.ajax()` pero aun no estamos
 controlando la respuesta.
 
 ## Manipular los datos retornados
@@ -117,7 +117,7 @@ controlando la respuesta.
 Si recordamos cómo podemos lograr esto usando un objeto XHR, el `response` era
 controlado por una función. Para el método `.ajax()` es exactamente lo mismo,
 podemos encadenar a la ejecución de éste, el método `.done()`. Vamos a pasar una
-función como argumento al método `.done()` que se ejecutará una vez que la 
+función como argumento al método `.done()` que se ejecutará una vez que la
 llamada Ajax haya terminado:
 
 ```javascript
@@ -137,7 +137,7 @@ La llamada asíncrona es realizada y controlada una vez que termina por el
 método `.done()`, en este caso, muestra el response en la consola.
 
 Para ponernos a prueba, vamos a convertir esta petición asíncrona que usa `XHR`
-a una llamada con el método `.ajax()` de jQuery. Esto es lo que tenemos 
+a una llamada con el método `.ajax()` de jQuery. Esto es lo que tenemos
 actualmente:
 
 ```javascript
@@ -147,7 +147,7 @@ githubRequest.open('GET', `https://api.github.com/users/${searchedUser}`);
 githubRequest.send();
 ```
 
-Muchas de estas operaciones pueden ser manejadas internamente por jQuery, así 
+Muchas de estas operaciones pueden ser manejadas internamente por jQuery, así
 que el primer paso de la conversión sería así:
 
 ```javascript
@@ -159,8 +159,8 @@ $.ajax({
 Usando jQuery para peticiones asíncronas:
 
 - No tenemos la necesidad de crear un objeto XHR
-- En vez de especificar que el request es de método `GET`, jQuery lo da por 
-  defecto y solo tenemos que indicarle la URL del recurso que estamos 
+- En vez de especificar que el request es de método `GET`, jQuery lo da por
+  defecto y solo tenemos que indicarle la URL del recurso que estamos
   solicitando
 - En vez de configurar el evento `.onload`, usamos el método `.done()`
 
@@ -169,8 +169,8 @@ problemas con el response y cómo se está controlando.
 
 ## Limpiando el callback de success
 
-Ya hemos obtenido la respuesta en la consola, ahora vamos a ver cómo lo 
-agregamos a nuestra página a través de jQuery. Primero veamos cómo lo 
+Ya hemos obtenido la respuesta en la consola, ahora vamos a ver cómo lo
+agregamos a nuestra página a través de jQuery. Primero veamos cómo lo
 tendríamos usando el objeto XHR:
 
 ```javascript
@@ -190,8 +190,8 @@ function addUser() {
 }
 ```
 
-> **Nota:** En este ejemplo, el HTML que se está agregando es un card de 
-> Bootstrap 4, para fines de este ejemplo, el _markup_ puede tener otra 
+> **Nota:** En este ejemplo, el HTML que se está agregando es un card de
+> Bootstrap 4, para fines de este ejemplo, el _markup_ puede tener otra
 > estructura y diseño.
 
 Si usamos jQuery, podríamos cambiarlo de la siguiente manera:
@@ -221,13 +221,13 @@ El código que agrega el HTML (plantilla) al contenedor no ha cambiado :).
 
 ## ¿Y si ocurre un error, cómo lo controlarías?
 
-Entra a la documentación de jQuery y revisa qué método (así como `.done()`) 
-encadenarías a la petición AJAX para controlar un posible error. Una vez 
+Entra a la documentación de jQuery y revisa qué método (así como `.done()`)
+encadenarías a la petición AJAX para controlar un posible error. Una vez
 encontrado, puedes probarlo metiendo un error dentro de la URL por ejemplo.
 
 ## Código fuente de la demo
 
-El código visto en esta lectura lo puedes encontrar en el siguiente pen: 
+El código visto en esta lectura lo puedes encontrar en el siguiente pen:
 
 <iframe height='400' scrolling='no' title='AJAX con jQuery' src='//codepen.io/ivandevp/embed/vdxNMd/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/vdxNMd/'>AJAX con jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
