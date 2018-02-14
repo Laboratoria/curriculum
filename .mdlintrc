@@ -1,16 +1,9 @@
 {
   "default": true,
-  "line-length": {
-    "code_blocks": false,
-    "headers": false
-  },
-  "ul-style": {
-    "style": "sublist"
-  },
-  "ol-prefix": {
-    "style": "ordered"
-  },
+  "ul-style": { "style": "sublist" },
+  "ol-prefix": { "style": "ordered" },
   "no-duplicate-header": false,
+<<<<<<< HEAD
   "no-trailing-punctuation": {
     "punctuation": ".,;:!"
   },
@@ -19,4 +12,8 @@
       "sup", "solution", "table", "thead", "tbody", "tr", "th", "td", "iframe"
     ]
   }
+=======
+  "no-trailing-punctuation": { "punctuation": ".,;:!" },
+  "no-inline-html": { "allowed_elements": ["sup", "solution"] }
+>>>>>>> ecbbb00edd44800c7b2f51c15dc469133655c4de
 }

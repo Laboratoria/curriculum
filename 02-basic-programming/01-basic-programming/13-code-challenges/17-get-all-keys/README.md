@@ -1,10 +1,8 @@
 # getAllKeys
 
-Escribir una función llamada "getAllKeys" que devuelve un array de todas las
-claves del objeto de entrada.
+Escribir una función llamada "getAllKeys" que devuelve un array de todas las claves del objeto de entrada. 
 
 Ejemplo de entrada:
-
 ```js
 {
   name: 'Sam',
@@ -12,19 +10,15 @@ Ejemplo de entrada:
   hasPets: true
 }
 ```
-
 Valor de retorno de la función (salida):
-
 ```js
 ['name', 'age', 'hasPets']
 ```
 
-Tenga en cuenta que su función debe ser capaz de manejar cualquier objeto pasado
-en ella.
+Tenga en cuenta que su función debe ser capaz de manejar cualquier objeto pasado en ella.
 
 P.ej.
 también debe manejar una entrada como:
-
 ```js
 {
   a: 'a',
@@ -33,9 +27,7 @@ también debe manejar una entrada como:
   grammyWins: 1
 }
 ```
-
 Valor de retorno de la función (salida):
-
 ```js
 ['a', 'number', 'hungry', 'grammyWins']
 ```
