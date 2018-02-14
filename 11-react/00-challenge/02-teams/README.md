@@ -1,8 +1,8 @@
 # Creación de equipos
 
-* Tipo: `taller`
-* Formato: `guiado`
-* Duración: `15min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
