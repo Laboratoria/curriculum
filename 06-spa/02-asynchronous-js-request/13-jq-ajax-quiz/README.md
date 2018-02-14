@@ -29,7 +29,6 @@ movieRequest.send();
 
 1. ```javascript
    $.ajax({
-=======
      url: `http://www.omdbapi.com/?apikey=[yourkey]&t=${movieTitle}`
    })
    ```

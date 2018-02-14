@@ -18,7 +18,6 @@ Dejar que un experto prepare el pastel por ti.
 
 ## ¿Por qué jQuery?
 
-=======
 jQuery es una librería muy popular que ya has tenido la oportunidad de usar. El
 uso que le has dado hasta este momento ha sido para manipular y recorrer el DOM
 a través de métodos que hacen nuestro código más corto.

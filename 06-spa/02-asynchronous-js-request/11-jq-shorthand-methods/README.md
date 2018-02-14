@@ -63,9 +63,4 @@ métodos son _preconfigurados_ del método `.ajax()`.
 Y según la documentación de jQuery, es buena práctica el método `.ajax()` debido
 a la capacidad de configuración que le podemos dar.
 
-<<<<<<< HEAD
 Referencia: [Learn jQuery](https://learn.jquery.com/ajax/jquery-ajax-methods/)
->>>>>>> ecbbb00edd44800c7b2f51c15dc469133655c4de
-=======
-Referencia: [Learn jQuery](https://learn.jquery.com/ajax/jquery-ajax-methods/)
->>>>>>> ca76b8ce48803aa6bd9999b428a7ef830226659b
