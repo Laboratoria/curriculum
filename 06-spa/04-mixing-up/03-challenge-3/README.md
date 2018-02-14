@@ -1,4 +1,4 @@
-# Reto 3: Flash Bitácora
+# Flash Bitácora
 
 - Tipo: `taller`
 - Formato: `self-paced`
@@ -9,19 +9,20 @@
 ## Enunciado
 
 Vamos a crear una bitácora con la que podrás agregar mensajes, imágenes, audio,
-video, ubicaciones y fechas.
+video, ubicaciones y fechas. Te sugerimos lo siguiente para llevar a cabo este
+producto:
 
 - Usar **Materialize** como framework de css
-- Usaremos un FAB, Fixed Action Button que tendrá nuestras opciones.
-- Manejo del DOM, para crear de manera dinámica los elementos que serán
+- Usar un FAB, Fixed Action Button que tendrá nuestras opciones.
+- Manejar el DOM, para crear de manera dinámica los elementos que serán
   agregados a nuestra bitácora
 
-### Recursos
+## Recursos
 
 En esta app vamos a hacer uso de los siguientes APIs de HTML5:
 
-- [File](https://www.html5rocks.com/es/tutorials/file/dndfiles/)
-- [Geolocation](https://developer.mozilla.org/es/docs/WebAPI/Using_geolocation)
+- [File API](https://www.html5rocks.com/es/tutorials/file/dndfiles/)
+- [Geolocation API](https://developer.mozilla.org/es/docs/WebAPI/Using_geolocation)
 - [Audio y Vídeo](https://developer.mozilla.org/es/docs/Web/HTML/Usando_audio_y_video_con_HTML5)
 - [Date input](https://www.anerbarrena.com/date-input-html5-2829/)
 
@@ -31,4 +32,4 @@ En esta app vamos a hacer uso de los siguientes APIs de HTML5:
 
 ## Recomendaciones
 
-No te olvides de subir tu ejercicio a `GitHub` y publicarlo en `gh-pages`.
+No te olvides de subir tu ejercicio a `GitHub` y publicarlo en `Github Pages`.
