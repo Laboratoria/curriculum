@@ -1,4 +1,4 @@
-# Reto 4: ...
+# Reto 4: Implementa un chat con Socket IO
 
 - Tipo: `taller`
 - Formato: `self-paced`
@@ -6,19 +6,20 @@
 
 ***
 
-Enunciado ...
+Enunciado
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+Ahora que aprendiste sobre peticiones AJAX,te invitamos a utilizar `SOCKET IO` para implementar un chat.
 
-Recursos ...
+Luego deberás implementarlo en `HEROKU`
 
-<!-- ## Guía / Boilerplate
+Recursos
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+Aqui encontrarás el material para la implementación [chat con socket io](https://socket.io/)
 
-Recomendaciones ...
+Aqui encontrarás el material para  [desplegar el proyecto en HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
 
-<!-- ## No olvides
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+Recomendaciones
+
+Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
+y las buenas practicas!!
