@@ -53,7 +53,7 @@ Referencia:
 
 [![How the web works](https://img.youtube.com/vi/AkjMCbSvTto/0.jpg)](https://youtu.be/AkjMCbSvTto)
 
-<!-- ### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
+### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
 
 En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
 las APIs que vienen integradas y que pueden ser accedidas por medio de
@@ -104,7 +104,7 @@ contexto que desees.
 
 Referencia:
 
-[![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8) -->
+[![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8)
 
 ## Autor(es) / Colaboradores
 
