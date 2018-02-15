@@ -23,8 +23,10 @@ en el mundo tech.
 
 * Cómo crear tu primera web en HTML y darle interacción con JavaScript
 * Conceptos básicos de programación como: `variables`, `tipos datos`,
-  `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`
+  `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`.
 * La sintaxis básica de JavaScript como lenguaje de programación
+* Qué es `ux design` y por qué es una pieza clave para el desarrollo de un
+  producto digital
 
 ## Duración
 
@@ -75,7 +77,20 @@ JavaScript.
 | 05 |   quiz    | self-paced |   30min  | Prueba tu conocimiento
 | 06 | practice  | self-paced |   30min  | Ejercicios
 
-### Unidad 03: [Control de Flujo](03-control-flow)
+### Unidad 03: [UX Design](03-ux-design)
+
+Todo producto web necesita ser diseñado pensando en el usuario. Antes de empezar
+a crear tu producto final, es importante que conozcas las técnicas de user
+experience design para que tu producto sea algo que la gente quiera usar.
+
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 |  lectura  | self-paced |   15min  | El equipo de desarrollo
+| 01 |  lectura  | self-paced |   15min  | UX Design
+| 02 |  lectura  | self-paced |   30min  | UX vs UI
+| 03 |    quiz   | self-paced |   30min  | Prueba tu conocimiento
+
+### Unidad 04: [Control de Flujo](04-flow-control)
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y
 por lo tanto darle flexibilidad a lo que hace tu producto.
@@ -103,6 +118,7 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 * [Rodulfo Prieto](https://github.com/chamodev)
 * [Lupo Montero](https://github.com/lupomontero)
 * [Iván Medina](https://github.com/ivandevp)
+* [Lalo Gonzalez](https://github.com/lalogf)
 
 ## Libros de consulta
 

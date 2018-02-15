@@ -4,8 +4,6 @@
 * Formato: `guiado`
 * Duración: `100min`
 
-***
-
 ## Objetivos de Aprendizaje
 
 En esta lección haremos un repaso del curso `Intro a la programación con
@@ -13,6 +11,8 @@ Javascript`, asegurando que sabemos:
 
 * Cuáles son los `tipos de datos` primitivos en Javascript
 * Utilizar `variables`
+
+***
 
 ## Agenda
 
