@@ -1,24 +1,30 @@
-# Reto 5: ...
+# Schhedule builder
 
 - Tipo: `taller`
 - Formato: `self-paced`
-- Duración: `1h`
+- Duración: `3h`
 
 ***
 
-Enunciado ...
+## Enunciado
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+Crear una web app donde los usuarios podrán visualizar y hacer un registro a los 
+talleres y conferencias de un evento.
 
-Recursos ...
+## Recursos
 
-<!-- ## Guía / Boilerplate
+A continuación te explicamos cuales son los requerimientos de esta aplicación:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+<iframe src="https://drive.google.com/file/d/0B6GBtl-gO6LwWFpzY3Z3NVVZa0k/preview" width="760" height="749"></iframe>
 
-Recomendaciones ...
+Así mismo te pasamos la el Excel en donde se encuentra [la data para el reto](https://docs.google.com/spreadsheets/d/1hLTuPD5Fw7WruVMxbPS36-urZDwWR_Va1gJ_5Ttq87U/edit#gid=1596778419).
 
-<!-- ## No olvides
+> **Nota:** Este reto fue parte del Talent Fest en México de la generación 2017-1.
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+## Recomendaciones
+
+Antes de empezar a codear, debes decidir que herramientas vas a utilizar para 
+poder desarrollarlo y cumplir con los requerimientos.
+
+Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
+y las buenas prácticas!
