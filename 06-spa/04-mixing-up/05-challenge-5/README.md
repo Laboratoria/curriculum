@@ -1,4 +1,4 @@
-# Schhedule builder
+# Schedule builder
 
 - Tipo: `taller`
 - Formato: `self-paced`
