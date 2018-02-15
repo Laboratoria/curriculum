@@ -1,4 +1,4 @@
-# Reto 4: ...
+# Chat en tiempo real
 
 - Tipo: `taller`
 - Formato: `self-paced`
@@ -6,19 +6,30 @@
 
 ***
 
-Enunciado ...
+## Enunciado
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+Ahora que aprendiste sobre peticiones AJAX, te invitamos a utilizar a recordar
+una tecnología que realiza comunicaciones con el servidor de una manera más 
+constante: [Web Sockets](https://developer.mozilla.org/es/docs/WebSockets-840092-dup/Writing_WebSocket_client_applications) 
+para implementar un chat. 
 
-Recursos ...
+Dado que ya hemos subido mucho de nuestros proyectos a Github Pages, y teniendo
+en cuenta que este servicio solo puede hostear archivos estáticos y para este
+reto necesitamos hacer un poco de Node.js (back-end), así que usaremos [Heroku](https://www.heroku.com/).
 
-<!-- ## Guía / Boilerplate
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+## Recursos
 
-Recomendaciones ...
+- Para llevar a cabo este chat y no hacer la implementación desde cero, usaremos
+  una librería llamada [Socket.io](https://socket.io/)
+- [Tutorial de chat con Socket.io](https://socket.io/get-started/chat/)
+- Aqui encontrarás el material para [desplegar el proyecto en HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
 
-<!-- ## No olvides
+## Recomendaciones
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
+y las buenas prácticas en tu código!
+
+No te limites a solo hacer el chat, con los conocimientos que tienes hasta el 
+momento, estamos seguras que se te ocurren muchas ideas locas y que creemos que
+puedes hacerlas realidad.
