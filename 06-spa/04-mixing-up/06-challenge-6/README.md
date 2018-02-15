@@ -1,24 +1,29 @@
-# Reto 6: ...
+# Foro de Opinión
 
 - Tipo: `taller`
 - Formato: `self-paced`
-- Duración: `1h`
+- Duración: `2h`
 
 ***
 
-Enunciado ...
+## Enunciado
 
-<!-- _Que la fuerza te acompañe_ en este ejercicio, revisa las siguientes slides para
-que puedas crear esta fenómenal app para los amantes de Star Wars. -->
+Vamos a crear un foro donde podamos crear temas y responder a esos temas.
 
-Recursos ...
+Un tema tiene:
 
-<!-- ## Guía / Boilerplate
+- Un título
+- Un contador de número de respuestas
+- Un autor
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+Una respuesta tiene:
 
-Recomendaciones ...
+- Un topic_id (para saber de que tema es la respuesta)
+- El contenido de la respuesta
+- El autor
 
-<!-- ## No olvides
+## Recursos
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTyxtk13Odw3QHMQQFphnmql4t670H4Ih2tIT57-LSi9T0-HCCrh_y_HOhPazdhZt0gFSL8FfZLcyLQ/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+Debes subir tu ejercicio a `GitHub` y publicarlo en `gh-pages`.
