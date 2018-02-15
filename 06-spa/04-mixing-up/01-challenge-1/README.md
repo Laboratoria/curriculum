@@ -1,4 +1,4 @@
-# Trivia
+# Flash Bitácora
 
 - Tipo: `taller`
 - Formato: `self-paced`
@@ -8,29 +8,29 @@
 
 ## Enunciado
 
-Es momento de crear una App que nos de ratos de diversión!
+Vamos a crear una bitácora con la que podrás agregar mensajes, imágenes, audio,
+video, ubicaciones y fechas. Te sugerimos lo siguiente para llevar a cabo este
+producto:
 
-Esto podemos lograrlo con el API de Open Trivia DB.
+- Usar **Materialize** como framework de css
+- Usar un FAB, Fixed Action Button que tendrá nuestras opciones.
+- Manejar el DOM, para crear de manera dinámica los elementos que serán
+  agregados a nuestra bitácora
 
-- Tú escoges el diseño
-- Debe ser mobile first
-- Debes subir tu proyecto a `Github Pages`
-- Usar framework de CSS a tú elección
+## Recursos
 
-### Recursos
+En esta app vamos a hacer uso de los siguientes APIs de HTML5:
 
-- [API de Open Trivia DB](https://opentdb.com)
+- [File API](https://www.html5rocks.com/es/tutorials/file/dndfiles/)
+- [Geolocation API](https://developer.mozilla.org/es/docs/WebAPI/Using_geolocation)
+- [Audio y Vídeo](https://developer.mozilla.org/es/docs/Web/HTML/Usando_audio_y_video_con_HTML5)
+- [Date input](https://www.anerbarrena.com/date-input-html5-2829/)
 
-## Propuesta de diseño
+## Guía / propuesta de diseño
 
-![Trivia](https://camo.githubusercontent.com/2cdbe969008f2bb38e4e648d331ddf57a2799482/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f64617461746573742d63623862332e61707073706f742e636f6d2f6f2f696f6e69632d7472697669612d696d672532467472697669612e6a70673f616c743d6d6564696126746f6b656e3d36393234343336612d313630312d346537372d616639362d363766366631646133336437)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTd6LtXXXMQNePdO4nhkZ32QlugTiSggmv7WT9BMsWo1hTPZ22z7ImpsM4rMdOaLJr_CaFsld6MvKBR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 _Agradecemos a [@yoobi55](https://github.com/yoobi55) por prestarnos su diseño
 para usarlo de referencia._
 
-### Hacker Edition
-
-- Contar con Log In
-- El usuario puede decidir entre su tipo de juego:
-  * Verdadero/falso
-  * Opción múltiple
+No te olvides de subir tu ejercicio a `GitHub` y publicarlo en `Github Pages`.
