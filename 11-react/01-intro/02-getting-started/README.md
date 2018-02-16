@@ -77,7 +77,7 @@ puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
 ¡Ahora a crear nuestro primer componente!
 
 Así como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
-son las *"piezas"* para contruir nuestras interfaces y los declaramos a través
+son las *"piezas"* para construir nuestras interfaces y los declaramos a través
 de ***funciones*** (o clases como veremos más adelante).
 
 ```html
@@ -87,17 +87,17 @@ de ***funciones*** (o clases como veremos más adelante).
 
   </div>
   <script>
-    const div = React.DOM.div
-    const h2 = React.DOM.h2
+    const div = React.DOM.div;
+    const h2 = React.DOM.h2;
 
     function Cabecera() {
       const titulo = 'Hola Mundo';
 
       const elemento = div(null,
         h2(null, titulo),
-      )
+      );
 
-      return elemento
+      return elemento;
     }
 
     ReactDOM.render(
@@ -113,8 +113,8 @@ Veamos qué está sucediendo aquí:
 Cada tag del DOM tiene un componente que lo representa en el mundo React.
 
 ```js
-const div = React.DOM.div
-const h2 = React.DOM.h2
+const div = React.DOM.div;
+const h2 = React.DOM.h2;
 ```
 
 Los componentes normalmente los definimos como funciones puras. Nuestro primer
@@ -127,10 +127,10 @@ function Cabecera() {
   // Creamos un elemento `div` "the React way"
   const elemento = div(null,
     h2(null, titulo),
-  )
+  );
 
   // y ese es el resultado de nuestra funcion / componente
-  return elemento
+  return elemento;
 }
 ```
 
@@ -164,25 +164,21 @@ En el mundo `React` a los parámetros de los componentes los denominamos
 <body>
   ...
   <!-- ahora tendremos 2 contenedores -->
-  <div id="cabecera-1">
-
-  </div>
-  <div id="cabecera-2">
-
-  </div>
+  <div id="cabecera-1"></div>
+  <div id="cabecera-2"></div>
 
   <script>
-    const div = React.DOM.div
-    const h2 = React.DOM.h2
+    const div = React.DOM.div;
+    const h2 = React.DOM.h2;
 
     function Cabecera(props) {
       const titulo = 'Hola ' + props.saludo;
 
       const elemento = div(null,
         h2(null, titulo),
-      )
+      );
 
-      return elemento
+      return elemento;
     }
 
     ReactDOM.render(
@@ -211,14 +207,14 @@ function Cabecera(props) {
 
   const elemento = div(null,
     h2(null, titulo),
-  )
+  );
 
-  return elemento
+  return elemento;
 }
 ```
 
-Una vez que nuestro componente esta parametrizado, podemos reutilizarlo
-modificando el valor de `saludo`
+Una vez que nuestro componente está parametrizado, podemos reutilizarlo
+modificando el valor de `saludo`:
 
 ```js
 ReactDOM.render(
@@ -251,12 +247,12 @@ el solucionario de esta unidad.
   </div>
 
   <script>
-    const div = React.DOM.div
-    const h2 = React.DOM.h2
-    const p = React.DOM.p
-    const a = React.DOM.a
-    const b = React.DOM.b
-    const br = React.DOM.br
+    const div = React.DOM.div;
+    const h2 = React.DOM.h2;
+    const p = React.DOM.p;
+    const a = React.DOM.a;
+    const b = React.DOM.b;
+    const br = React.DOM.br;
 
     function Cabecera(props) {
       const titulo = 'Saludo';
@@ -268,7 +264,7 @@ el solucionario de esta unidad.
           "Un link? ", br(null),
           a({href:"http://laboratoria.la"}, "Laboratoria"), "!"
         )
-      )
+      );
     }
 
     ReactDOM.render(
@@ -290,29 +286,29 @@ el solucionario de esta unidad.
   </div>
 
   <script>
-    const div = React.DOM.div
-    const h2 = React.DOM.h2
-    const p = React.DOM.p
+    const div = React.DOM.div;
+    const h2 = React.DOM.h2;
+    const p = React.DOM.p;
 
     function Timer(props) {
       const transcurrido = Math.round(props.transcurrido  / 100);
       const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
       const mensaje = 'React ha estado corriendo por ' + segundos + ' segundos.';
 
-      const borderColor = transcurrido % 2 === 0 ? 'red' : 'blue'
+      const borderColor = transcurrido % 2 === 0 ? 'red' : 'blue';
       const containerStyle = {
         border: '3px solid ' + borderColor,
         padding: 10
-      }
+      };
 
       return div({ style: containerStyle },
         h2(null, "Timer"),
         p(null, mensaje)
-      )
+      );
     }
 
     const start = new Date().getTime();
-    setInterval(function() {
+    setInterval(function () {
       ReactDOM.render(
         Timer({ transcurrido: new Date().getTime() - start }),
         document.getElementById('timer')
