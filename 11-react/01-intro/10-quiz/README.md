@@ -85,7 +85,9 @@ ReactDOM.render(
 
 #### Opciones
 
-1. ```js
+1. 
+
+```js
 function Cabecera(props) {
   const titulo = 'Saludo';
 
@@ -106,7 +108,9 @@ function Cabecera(props) {
   document.getElementById('cabecera');
 ```
 
-2. ```js
+2. 
+
+```js
 function Cabecera() {
   const titulo = 'Saludo';
 
@@ -128,7 +132,9 @@ ReactDOM.render(
 );
 ```
 
-3. ```js
+3.
+
+ ```js
 function Cabecera(props) {
   const titulo = 'Saludo';
 
@@ -150,7 +156,9 @@ ReactDOM.render(
 );
 ```
 
-4. ```js
+4. 
+
+```js
 function Cabecera(props) {
   const titulo = 'Saludo';
 
