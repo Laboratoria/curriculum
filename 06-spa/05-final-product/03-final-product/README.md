@@ -30,7 +30,7 @@ Tu reto será **desarrollar** una app e-commerce, para ello utilizarás.
   Si gustas puedes ocupar la de [Mercado Libre](http://developers.mercadolibre.com/es/api-docs-es/)
 
 2. API que permita la compra por parte del usuario, que puede ser [Paypal](https://developer.paypal.com)
-  , [Stripe](https://stripe.com/docs/api) o cualquier otra que te encuentres
+  , [Stripe](https://stripe.com/docs/api) o cualquier otra que encuentres
   que sirva para lo mismo.
 
 3. Desarrolla el producto teniendo como **guía** visual a

@@ -10,9 +10,9 @@
 
 Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
 este curso, el único requisito será crear un Single Page Application haciendo 
-uso de un API distinto o adicional a los que hemos visto en clase y bajo el 
+uso de APIs distintos o adicionales a los que hemos visto en clase y bajo el 
 contexto que desees.
 
-Referencia:
+Ten en cuenta que si te lo propones, puedes crear productos como este:
 
 [![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8)
