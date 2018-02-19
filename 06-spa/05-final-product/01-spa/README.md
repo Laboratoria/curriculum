@@ -1,4 +1,4 @@
-# SPA
+# Single-page Application
 
 - Tipo: `lectura`
 - Formato: `self-paced`

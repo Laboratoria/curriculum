@@ -1,4 +1,4 @@
-# Solucionario Single Page Application
+# Solucionario e-Commerce
 
 - Tipo: `seminario`
 - Formato: `guiado`
@@ -21,10 +21,7 @@
   - APIs de terceros
   - Llamadas asíncronas
   - CRUD y REST
-  - Templating
-  - Routing (URLs)
-  - DOM & Event Handling (State)
-  - Design Pattern (MV*)
+  - SPA
 
 2. Resolver dudas de las partes más complejas del producto final en base a lo
    percibido en la clase
