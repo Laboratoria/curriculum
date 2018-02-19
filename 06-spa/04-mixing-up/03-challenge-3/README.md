@@ -19,8 +19,8 @@ que te pueden dar mayor detalle de las cosas que puedes hacer:
 Recuerda, el diseño es una propuesta y puedes usar tu imaginación para mejorarlo
 o cambiarlo en base a tus sugerencias.
 
-¿Has escuchado de **Flexbox**? Algunos Frameworks de CSS lo usan (Bootstrap 4) 
-para manejar el layout de la web de una manera más sencilla. ¿Qué te parece si 
+¿Has escuchado de **Flexbox**? Algunos Frameworks de CSS lo usan (Bootstrap 4)
+para manejar el layout de la web de una manera más sencilla. ¿Qué te parece si
 para este reto lo usas sin la necesidad de un framework?
 
 Aquí unos recursos para que puedas leerlo:
