@@ -10,7 +10,11 @@
 
 ***
 
-Crear el componente que muestra un texto final. El texto debe ser mostrado en
-lírica; es decir, como un poema, donde la contribución de cada jugador
-representa un verso. El componente debe mostrar los datos desde un arreglo de
-cadenas de texto.
+Como recordarán, el proyecto que haremos en este curso es el de "Cadaver 
+exquisito", que consiste en un juego donde cada jugador va agregando un verso al
+poema.
+En esta primera parte, crearás un componente que permita mostrar este poema 
+(ojalá de la forma más artística posible, como cuidar de que el texto esté 
+centrado y que tenga una fuente acorde). El poema estará guardado en un arreglo,
+el que pueden crear ustedes dentro de la aplicación, donde cada elemento de éste
+es un verso del poema.

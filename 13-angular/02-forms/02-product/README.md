@@ -10,7 +10,13 @@
 
 ***
 
-* Crear un servicio que envíe cada contribución al backend como texto corto y
-  recibe el texto completo cuando el juego ha terminado.
-* Cuando el juego termina, se debe mostrar el texto completo en el componente
-  creado anteriormente.
+En esta etapa del proyecto, ya tenemos un componente que muestra el poema que se
+está armando en el juego. Ahora necesitamos que los jugadores puedan agregar 
+nuevos versos. Por lo tanto : 
+
+* Crearás un formulario que le permita a un jugador agregar un nuevo verso al 
+poema.
+* El nuevo verso debe ser agregado al arreglo que previamente creaste.
+* El nuevo verso debe verse en el poema una vez que el jugador lo agregó por el
+formulario. (si todo se hizo bien esto debería ser automático al agregarlo al
+arreglo)
