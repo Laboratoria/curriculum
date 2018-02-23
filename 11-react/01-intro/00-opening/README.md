@@ -1,7 +1,7 @@
 # Apertura
 
-* Tipo: `seminario`
-* Formato: `guiado`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `5min`
 
 ## Objetivos del seminario
