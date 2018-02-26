@@ -60,15 +60,13 @@ componentes como un árbol análogo al DOM
 
 <solution style="display:none;">3</solution>
 
-### 5) ¿Cómo funciona el renderizado condicional?
+### 5) El renderizado condicional...
 
 #### Opciones
 
-1. Usa operadores como `if` o el operador condicional para crear elementos que
-representen el estado actual, y deja que React actualice la interfaz de
-usuario
-2. Usa operadores como `if` o el operador condicional para crear elementos que
-representen el estado actual, y actualiza la interfaz de usuario
+1. Usa sentencias como `if` u operadores condicionales para determinar qué
+   elementos incluir para representar el estado actual.
+2. Nos permite modificar el estado de otros componentes
 3. Usa operadores condicionales, y actualiza la interfaz del usuario sin React
 
 <solution style="display:none;">1</solution>
