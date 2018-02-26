@@ -11,7 +11,7 @@ comportamiento que necesites. Luego, puedes renderizar solo algunos de esos
 componentes, dependiendo del estado de tu aplicación.
 
 > El *renderizado coindicional* funciona de la misma manera que funcionan las
-condiciones en JavaScript. Usa operadores como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
+condiciones en JavaScript. Usa sentencias como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
 o el [operador condicional](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator)
 para crear elementos que representen el estado actual, y deja que React
 actualice la interfaz de usuario.
