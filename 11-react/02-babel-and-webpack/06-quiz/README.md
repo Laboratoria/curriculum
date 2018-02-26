@@ -53,21 +53,10 @@
 
 #### Opciones
 
-1.
-
-![1](https://fotos.subefotos.com/216377f132296cd8f9dd2a7e95fb20deo.png)
-
-2.
-
-![2](https://fotos.subefotos.com/c86d08e4801773710f0c53bfb69bb8e0o.png)
-
-3.
-
-![3](https://fotos.subefotos.com/174b3dfedec89e6cb670d8627303a1fco.png)
-
-4.
-
-![4](https://fotos.subefotos.com/77544caea01b0cad6f895954c01bde62o.png)
+1. <pre>`Hey name, tomemos un drink?`;</pre>
+2. <pre>`Hey ${name}, tomemos un ${drink}?`;</pre>
+3. <pre>`Hey ` + name + `, tomemos un ` + drink + `?`;</pre>
+4. <pre>`Hey {name}, tomemos un {drink}?`;</pre>
 
 <solution style="display:none;">2</solution>
 
