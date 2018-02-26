@@ -6,7 +6,7 @@
 
 ***
 
-Convierte la siguiente página HTML a una pagina que utilice integramente
+Convierte la siguiente página HTML a una página que utilice integramente
 `React` y `ReactDOM`. Este ejercicio lo puedes realizar en tu editor favorito o
 un entorno web como JS Bin o CodePen.
 

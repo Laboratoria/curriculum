@@ -16,7 +16,7 @@
 
 ## Preguntas
 
-### 1) ¿Qué es REACT?
+### 1) ¿Qué es React?
 
 #### Opciones
 
@@ -27,19 +27,19 @@
 
 <solution style="display:none;">4</solution>
 
-### 2) ¿Cómo funciona el 'VIRTUAL DOM'?
+### 2) ¿Qué es el 'Virtual DOM'?
 
 #### Opciones
 
 1. Una nueva implementación del DOM
 2. Una estructura de datos que react usa para representar la jerarquía de
 componentes como un árbol análogo al DOM
-3. Una referencia al DOm del navegador
-4. Es una acción especial de React que sólo se ejecuta cuando hay cambios
+3. Una referencia al DOM del navegador
+4. Una acción especial de React que sólo se ejecuta cuando hay cambios
 
 <solution style="display:none;">2</solution>
 
-### 3) ¿Cuáles son las etiquetas que no necesitan cierre?
+### 3) ¿Cuál de las siguientes etiquetas no necesita cierre?
 
 #### Opciones
 
@@ -55,20 +55,18 @@ componentes como un árbol análogo al DOM
 #### Opciones
 
 1. Un lenguaje de programación
-2. Una la versión anterior a Javascript 
+2. La versión anterior a JavaScript
 3. Una extensión al lenguage JavaScript
 
 <solution style="display:none;">3</solution>
 
-### 5) ¿Cómo funciona el renderizado condicional?
+### 5) El renderizado condicional...
 
 #### Opciones
 
-1. Usa operadores como `if` o el operador condicional para crear elementos que
-representen el estado actual, y deja que React actualice la interfaz de
-usuario
-2. Usa operadores como `if` o el operador condicional para crear elementos que
-representen el estado actual, y actualiza la interfaz de usuario 
+1. Usa sentencias como `if` u operadores condicionales para determinar qué
+   elementos incluir para representar el estado actual.
+2. Nos permite modificar el estado de otros componentes
 3. Usa operadores condicionales, y actualiza la interfaz del usuario sin React
 
 <solution style="display:none;">1</solution>

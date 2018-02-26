@@ -14,28 +14,26 @@ del `map()` a la variable `doubled` y lo imprimimos:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map((number) => number * 2);
+const doubled = numbers.map(number => number * 2);
 console.log(doubled);
 ```
 
 Esto imprime `[2, 4, 6, 8, 10]` en la consola.
 
-En React, transformar arrays en lista de elementos, es casi idéntico.
+En `React`, transformar arrays en lista de elementos, es casi idéntico.
 
 ## Renderizando múltiples componentes
 
 El valor de un array es una expresión válida de Javascript, por lo tanto podemos
 incluirlas en nuestro JSX usando llaves `{}`.
 
-En el código de abajo, iteramos a través del array `numbers` y devolvemos un
+En el código de abajo, iteramos sobre el array `numbers` y devolvemos un
 elemento `<li>` para cada item. Finalmente, asignamos el array de elementos
 resultante a `listItems`:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const listItems = numbers.map((number) =>
-  <li>{number}</li>
-);
+const listItems = numbers.map(number => (<li>{number}</li>));
 ```
 
 Luego incluimos todo el array `listItems` dentro de un elemento `<ul>` y lo
@@ -59,18 +57,14 @@ de números y devuelva una lista de viñetas.
 
 ```js
 function NumberList(props) {
-  const numbers = props.numbers;
-  const listItems = numbers.map((number) =>
-    <li>{number}</li>
-  );
+  const listItems = props.numbers.map(number => (<li>{number}</li>));
   return (
     <ul>{listItems}</ul>
   );
 }
 
-const numbers = [1, 2, 3, 4, 5];
 ReactDOM.render(
-  <NumberList numbers={numbers} />,
+  <NumberList numbers={[1, 2, 3, 4, 5]} />,
   document.getElementById('root')
 );
 ```
@@ -81,24 +75,22 @@ un atributo especial que necesitas incluir cuando creas una lista de elementos.
 En la próxima sección, veremos por qué es importante hacerlo.
 
 Entonces, asignemos un `key` a los items de nuestra lista dentro de
-`numbers.map()` y asi deshacernos del mensaje.
+`props.numbers.map()` y asi deshacernos del mensaje.
 
 ```js
 function NumberList(props) {
-  const numbers = props.numbers;
-  const listItems = numbers.map((number) =>
+  const listItems = props.numbers.map(number => (
     <li key={number.toString()}>
       {number}
     </li>
-  );
+  ));
   return (
     <ul>{listItems}</ul>
   );
 }
 
-const numbers = [1, 2, 3, 4, 5];
 ReactDOM.render(
-  <NumberList numbers={numbers} />,
+  <NumberList numbers={[1, 2, 3, 4, 5]} />,
   document.getElementById('root')
 );
 ```
@@ -113,7 +105,7 @@ elementos de un array, para asignarles así una identidad estable:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const listItems = numbers.map((number) =>
+const listItems = numbers.map(number =>
   <li key={number.toString()}>
     {number}
   </li>
@@ -125,7 +117,7 @@ unívocamente a cada ítem dentro del array. En general utilizaremos los IDs de 
 misma data como keys:
 
 ```js
-const todoItems = todos.map((todo) =>
+const todoItems = todos.map(todo =>
   <li key={todo.id}>
     {todo.text}
   </li>
@@ -183,9 +175,8 @@ function NumberList(props) {
   );
 }
 
-const numbers = [1, 2, 3, 4, 5];
 ReactDOM.render(
-  <NumberList numbers={numbers} />,
+  <NumberList numbers={[1, 2, 3, 4, 5]} />,
   document.getElementById('root')
 );
 ```
@@ -202,8 +193,7 @@ function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
     // Bien! Aquí es donde lo necesitamos
-    <ListItem key={number.toString()}
-              value={number} />
+    <ListItem key={number.toString()} value={number} />
   );
   return (
     <ul>
@@ -212,9 +202,8 @@ function NumberList(props) {
   );
 }
 
-const numbers = [1, 2, 3, 4, 5];
 ReactDOM.render(
-  <NumberList numbers={numbers} />,
+  <NumberList numbers={[1, 2, 3, 4, 5]} />,
   document.getElementById('root')
 );
 ```
