@@ -47,7 +47,7 @@ const ConBorde = ({ color, children }) => (
   <div style={{ border: `solid 3px ${color}`}}>
     {children}
   </div>
-)
+);
 ```
 
 Entonces el siguiente elemento `jsx`
@@ -84,14 +84,14 @@ const SplitPane = ({ left, right }) => (
     <div style={{ float: 'left '}}>{left}</div>
     <div style={{ float: 'right '}}>{right}</div>
   </div>
-)
+);
 
 const App = () => (
   <SplitPane
     left={<Contacts />}
     right={<Chat />}
     />
-)
+);
 ```
 
 Elementos `React` como `<Contacts />` y `<Chat />` son solo objetos, por lo
@@ -109,8 +109,8 @@ Aquí un ejemplo de un componente que ejecuta un función pasada como parámetro
 const Evaluador = ({ children }) => {
   // `children` es una función, simplemente la llamamos
   //             ↓
-  return children()
-}
+  return children();
+};
 
 /// y asi lo usaríamos
 <Evaluador>
@@ -129,7 +129,8 @@ de hacerlo, sería la siguiente:
 ```
 
 No esperamos que a esta altura tu puedas ser capaz de implementar algo así, lo
-importante es que entiendas que **cualquier cosa** puede ir dentro de `children`.
+importante es que entiendas que **cualquier cosa** puede ir dentro de
+`children`.
 
 ## Manipulando `children`
 
@@ -153,11 +154,13 @@ const IgnorarPrimerHijo = ({ children }) => (
   <div>
     {React.Children.map(children, (child, i) => {
       // Ignoramos el primer hijo
-      if (i < 1) return
-      return child
+      if (i < 1) {
+        return;
+      }
+      return child;
     })}
   </div>
-)
+);
 
 <IgnorarPrimerHijo>
   <h1>Primero</h1>
@@ -188,7 +191,7 @@ Por eso es que existe `React.Children.count`:
 ```js
 const ContadorDeHijos = ({ children }) => (
   <p>{React.Children.count(children)}</p>
-)
+);
 
 // Devuelve la candidad de `children` idenpendientemente el tipo
 
@@ -220,9 +223,9 @@ estrategia propia de arrays. Esto puede ser útil por ejemplo para ordenarlos:
 
 ```js
 const Ordenados = ({ children }) => {
-  const aOrdenar = React.Children.toArray(children)
-  return <p>{aOrdenar.sort().join(' ')}</p>
-}
+  const aOrdenar = React.Children.toArray(children);
+  return <p>{aOrdenar.sort().join(' ')}</p>;
+};
 
 <Sort>
   // Aquí usamos expresiones para garantizarnos
@@ -243,9 +246,7 @@ Analicemos el componente `<Evaluador />` de antes, que espera un sólo `children
 de tipo función.
 
 ```js
-const Evaluador = ({ children }) => {
-  return children()
-}
+const Evaluador = ({ children }) => children();
 ```
 
 Nosotros podemos definir a través de nuestro `propTypes` que esperamos que
@@ -264,9 +265,7 @@ nuestro componente es crítico que tenga uno y sólo un `children`, entonces
 usamos `React.Children.only`.
 
 ```js
-const Evaluador = ({ children }) => {
-  return React.Children.only(children)()
-}
+const Evaluador = ({ children }) => React.Children.only(children)();
 ```
 
 Esta función devuelve el único hijo presente en `children`. Si hay más de uno
@@ -279,9 +278,3 @@ Los `children` hacen que `React` se sienta como un auténtico lenguaje de markup
 y no como un montón de entidades sueltas escritas en `jsx`. Usar las funciones
 de `React.Children` nos permite tomar completo control sobre nuestro componente,
 permitiéndonos crear APIs más declarativas y menos propensas a errores.
-
-## Ejercicio
-
-Implementa en tu ejemplo la composción a través de `children` y
-`React.Children`, conviertiendo al componente `Page` en un componente
-contenedor.

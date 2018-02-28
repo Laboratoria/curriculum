@@ -6,15 +6,16 @@
 
 ***
 
-La forma en la que se integran React y Redux, adopta la idea de la **separación
-entre componentes meramente presentacionales y componentes contenedores**.
+La forma en la que se integran `React` y `Redux`, adopta la idea de la
+**separación entre componentes meramente presentacionales y componentes
+contenedores**.
 
-Con la práctica en React, notarás que es mucho más fácil reusar y diseñar tus
+Con la práctica en `React`, notarás que es mucho más fácil reusar y diseñar tus
 componentes si los clasificas en dos categorías. Formalmente estas categorías
 son los *Componentes presentacionales* y los *Componentes contendores*, pero
-también se los refieren como *Flacos y Gordos (Fat and Skinny), Tontos y Listos
-(Smart and Dumb), Stateless y Stateful, Componentes y Screens*, etc. No todos se
-refieren exáctamente a lo mismo, pero la idea central es la misma.
+también se habla de componentes *Flacos y Gordos (Fat and Skinny), Tontos y
+Listos (Smart and Dumb), Stateless y Stateful, Componentes y Screens*, etc. No
+todos se refieren exáctamente a lo mismo, pero la idea central es la misma.
 
 ## Componentes presentacionales
 
@@ -43,7 +44,7 @@ refieren exáctamente a lo mismo, pero la idea central es la misma.
 * Usa actions de Redux para injectar callbacks a los eventos de los componentes
   presentacionales
 * Son stateful al conectarse al `state` de Redux
-* Y en nuestro caso, se generan usando la función `connect` de Redux
+* Y en nuestro caso, se generan usando la función `connect()` de `Redux`
 * Predomina el código **JavaScript**
 
 ## Beneficios de este enfoque
@@ -54,52 +55,52 @@ refieren exáctamente a lo mismo, pero la idea central es la misma.
   diferentes data sources y crear así nuevos componentes que a su vez pueden ser
   reutilizados...
 * **Los componentes presentacionales son la "cara" de tu aplicación.** Puedes
-  extraerlos todos en una sólo pantalla, y así los diseñadores puede modificar
+  extraerlos todos en una sólo pantalla, y así los diseñadores pueden modificar
   la plantilla sin alterar la lógica de tu aplicación.
 * Te fuerza a extraer componetes puramente de *layout* como los Sidebar, Header
   o Footer y usar `children`, en lugar de duplicar ese markup en diferentes
   contenedores.
 
 Es importante que recuerdes que los componentes no tienen la obligación de
-retornar markup, sólo una función que siga las reglas de React.
+retornar markup, sólo una función que siga las reglas de `React`.
 
 ## Componentes presentacionales vs. Componentes contenedores
 
 <table>
-    <thead>
-        <tr>
-            <th></th>
-            <th scope="col" style="text-align:left">Presentacionales (components)</th>
-            <th scope="col" style="text-align:left">Contenedores (containers)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <th scope="row" style="text-align:right">Propósito</th>
-          <td>Como **se ven** las cosas  (markup, estilos)</td>
-          <td>Como **funcionan** las cosas (data fetching, state updates)</td>
-        </tr>
-        <tr>
-          <th scope="row" style="text-align:right">Saben de Redux</th>
-          <td>No</th>
-          <td>Si</th>
-        </tr>
-        <tr>
-          <th scope="row" style="text-align:right">Data sourcing</th>
-          <td>props</td>
-          <td>Redux state</td>
-        </tr>
-        <tr>
-          <th scope="row" style="text-align:right">Para modificar la data</th>
-          <td>Callbacks oftenidas a través de las props</td>
-          <td>Dispatch Redux actions</td>
-        </tr>
-        <tr>
-          <th scope="row" style="text-align:right">Definición</th>
-          <td>Desarrolladas "a mano"</td>
-          <td>Generadas con `react-redux`</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th></th>
+      <th scope="col" style="text-align:left">Presentacionales (components)</th>
+      <th scope="col" style="text-align:left">Contenedores (containers)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" style="text-align:right">Propósito</th>
+      <td>Como **se ven** las cosas  (markup, estilos)</td>
+      <td>Como **funcionan** las cosas (data fetching, state updates)</td>
+    </tr>
+    <tr>
+      <th scope="row" style="text-align:right">Saben de Redux</th>
+      <td>No</th>
+      <td>Si</th>
+    </tr>
+    <tr>
+      <th scope="row" style="text-align:right">Data sourcing</th>
+      <td>props</td>
+      <td>Redux state</td>
+    </tr>
+    <tr>
+      <th scope="row" style="text-align:right">Para modificar la data</th>
+      <td>Callbacks oftenidas a través de las props</td>
+      <td>Dispatch Redux actions</td>
+    </tr>
+    <tr>
+      <th scope="row" style="text-align:right">Definición</th>
+      <td>Desarrolladas "a mano"</td>
+      <td>Generadas con `react-redux`</td>
+    </tr>
+  </tbody>
 </table>
 
 Cuando un contenedor se vuelva muy complejo (por ejemplo si tiene muchos

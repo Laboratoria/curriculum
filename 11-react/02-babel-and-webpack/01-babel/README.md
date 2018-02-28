@@ -45,8 +45,8 @@ Veamos algunos ejemplos:
   output:
 
   ```js
-  [1, 2, 3].map(function(n) {
-    Math.pow(n, 2)
+  [1, 2, 3].map(function (n) {
+    return Math.pow(n, 2)
   });
   ```
 
@@ -90,7 +90,7 @@ Veamos algunos ejemplos:
   var obj = {
     shorthand,
     method() {
-      return "😀";
+      return '😀';
     }
   };
   ```
@@ -101,7 +101,7 @@ Veamos algunos ejemplos:
   var obj = {
     shorthand: shorthand,
     method: function method() {
-      return "😀";
+      return '😀';
     }
   };
   ```
@@ -111,8 +111,8 @@ Veamos algunos ejemplos:
   input:
 
   ```js
-  var nombre = "World";
-  var lugar = "Lima";
+  var nombre = 'World';
+  var lugar = 'Lima';
 
   `Hello ${nombre}, vamos pa' ${lugar}?`;
   ```
@@ -120,10 +120,10 @@ Veamos algunos ejemplos:
   output:
 
   ```js
-  var nombre = "World";
-  var lugar = "Lima";
+  var nombre = 'World';
+  var lugar = 'Lima';
 
-  "Hello " + nombre + ", vamos pa' " + lugar + "?";
+  'Hello ' + nombre + ', vamos pa\' ' + lugar + '?';
   ```
 
 * Declaración de variables con `let` y `const`:
@@ -131,15 +131,15 @@ Veamos algunos ejemplos:
   input:
 
   ```js
-  let referenciaVariable = "Este string se puede modificar";
-  const referenciaFija = "Este string no se puede modificar";
+  let referenciaVariable = 'Este string se puede modificar';
+  const referenciaFija = 'Este string no se puede modificar';
   ```
 
   output:
 
   ```js
-  var referenciaVariable = "Este string se puede modificar";
-  var referenciaFija = "Este string no se puede modificar";
+  var referenciaVariable = 'Este string se puede modificar';
+  var referenciaFija = 'Este string no se puede modificar';
   ```
 
 ### Presets
@@ -178,19 +178,19 @@ function Header(props) {
       <h1>{props.titulo}</h1>
       <p>{props.descripcion}</p>
     </header>
-  )
-}
+  );
+};
 ```
 
 se convierte en
 
 ```js
-const Header = (props) => (
+const Header = props => (
   <header>
     <h1>{props.titulo}</h1>
     <p>{props.descripcion}</p>
   </header>
-)
+);
 ```
 
 Las *funciones flecha* otorgan principalmente 3 beneficios:
@@ -221,7 +221,7 @@ const Header = ({ titulo, descripcion }) => (
     <h1>{titulo}</h1>
     <p>{descripcion}</p>
   </header>
-)
+);
 ```
 
 Hemos reemplazando la definición del parámetro `props`, por una definición de su
@@ -240,10 +240,10 @@ const Header = ({ titulo, descripcion }) => (
     <h1>{titulo}</h1>
     <p>{descripcion}</p>
   </header>
-)
+);
 
 // Estas son las props que queremos inyectar
-const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion'}
+const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion' };
 
 // La manera directa de inyectarle las propiedades al componente seria la sgte:
 <Header titulo={headerProps.titulo} descripcion={headerProps.descripcion} />

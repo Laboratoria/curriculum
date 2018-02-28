@@ -28,14 +28,12 @@ Instalada la dependencia, tomemos como ejemplo el siguiente componente de la
 unidad anterior.
 
 ```js
-const Header = ({ titulo, descripcion }) => {
-  return (
-    <header>
-      <h1>{titulo}</h1>
-      <p>{descripcion}</p>
-    </header>
-  )
-};
+const Header = ({ titulo, descripcion }) => (
+  <header>
+    <h1>{titulo}</h1>
+    <p>{descripcion}</p>
+  </header>
+);
 ```
 
 Queremos establecer que la propiedad `titulo` es obligatoria y la `descripcion`
@@ -44,20 +42,18 @@ expresamos eso con `prop-types`
 
 ```js
 // primero y antes que nada, importamos la dependencia
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-const Header = ({ titulo, descripcion }) => {
-  return (
-    <header>
-      <h1>{titulo}</h1>
-      {/*
-        Como `descripcion` es opcional, vamos a crear el nodo `<p>`
-        solamente cuando `descripcion` tenga un valor
-      */}
-      {descripcion && <p>{descripcion}</p>}
-    </header>
-  );
-};
+const Header = ({ titulo, descripcion }) => (
+  <header>
+    <h1>{titulo}</h1>
+    {/*
+      Como `descripcion` es opcional, vamos a crear el nodo `<p>`
+      solamente cuando `descripcion` tenga un valor
+    */}
+    {descripcion && <p>{descripcion}</p>}
+  </header>
+);
 
 // Y ahora realizamos la definición de los tipos
 
@@ -66,13 +62,13 @@ Header.propTypes = {
   titulo: PropTypes.string.isRequired,
   // `descripcion` tb es de tipo `string`
   // y es opcional (solo omitimos el `isRequired`)
-  descripcion: PropTypes.string
+  descripcion: PropTypes.string,
 };
 
 Header.defaultProps = {
   // Como `descripcion` es opcional, es una práctica recomendada establecerle
   // un valor por defecto, en nuestro caso "string vacio"
-  descripcion: ''
+  descripcion: '',
 };
 ```
 
@@ -83,13 +79,13 @@ estricto, la que necesites. Veamos más ejemplos.
 const unBooleano = true;
 const unObjeto = {
   texto: 'un texto',
-  numero: 8
+  numero: 8,
 };
 const unColorComoString = 'red';
 const unaFuncionQueDuplica = it => it * 2;
 const unArrayDeObjetos = [
   { otroTexto: 'otro texto', otroNumero: 3 },
-  { otroTexto: 'nuevo texto', otroNumero: 5 }
+  { otroTexto: 'nuevo texto', otroNumero: 5 },
 ];
 
 // ... definimos nuestro `Componente` ...
@@ -99,17 +95,17 @@ Componente.propTypes = {
   unObjeto: PropTypes.shape({
     // tb podemos definir si una propiedad interna es requerida o no
     texto: PropTypes.string.isRequired,
-    numero: PropTypes.number
+    numero: PropTypes.number,
   }),
   // de una lista de valores fijos
   unColorComoString: PropTypes.oneOf(['red', 'white', 'black']),
   unaFuncion: PropTypes.func,
   unArrayDeObjetos: PropTypes.arrayOf(
     PropTypes.shape({
-     otroTexto: PropTypes.string.isRequired,
-     otroNumero: PropTypes.number
-   })
-  )
+      otroTexto: PropTypes.string.isRequired,
+      otroNumero: PropTypes.number,
+    }),
+  ),
 };
 ```
 
@@ -136,8 +132,3 @@ to `Componente`, expected `boolean`
 
 Chequea la lista completa de tipos chequeables con `PropTypes` en la
 documentación [oficial de `React`](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
-
-## Ejercicio
-
-Define los `propTypes` y `defaultProps` para los componentes declarados en los
-ejercicios de las unidades anteriores así como tu proyecto final.

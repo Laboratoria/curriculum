@@ -6,42 +6,44 @@
 
 ***
 
-Ya tenemos una aplicación estática modelada con componentes de React, muy
+Ya tenemos una aplicación estática modelada con componentes de `React`, muy
 modernos y mantenibles, pero carecemos de algo fundamental que cualquier
 aplicación moderna necesita: interacción y memoria.
 
-En esta lección veremos una forma de inyectar esa capacidad a nuestros
-componentes con Redux, permitiéndonos mantener estos componentes independientes
-y reutilizables.
+Más adelante en este curso veremos una forma de inyectar esa capacidad a
+nuestros componentes con `Redux`, permitiéndonos mantener estos componentes
+independientes y reutilizables.
 
-Para llegar hasta Redux, comenzaremos con qué son los HOC, veremos algunos casos
-de uso para entender el abanico infinito de posibilidades que brindan. Luego
-tendremos una introducción a Redux y sus principios básicos, y veremos cómo usa
-el concepto de HOCs para escuchar eventos de los componentes, distribuirles los
-datos que necesitan y orquestar el estado global de nuestra aplicación. Por
-último realizaremos un proceso completo de diseño e implementación de un
-componente más complejo, utilizando React y Redux.
+Para llegar hasta `Redux`, comenzaremos con qué son los **HOC** (Higher-order
+Components), veremos algunos casos de uso para entender el abanico infinito de
+posibilidades que brindan. Luego, en la siguiente unidad, tendremos una
+introducción a `Redux` y sus principios básicos, y veremos cómo usa el concepto
+de _HOCs_ para escuchar eventos de los componentes, distribuirles los datos que
+necesitan y orquestar el estado global de nuestra aplicación. Por último
+realizaremos un proceso completo de diseño e implementación de un componente más
+complejo, utilizando `React` y `Redux`.
 
 ## Higher-order Components (HOCs)
 
-Los Higher-order Components, o Componentes de grado superior o HOCs son una
-técnica avanzada en React para reusar la lógica de nuestra UI. Los HOCs no son
-parte de la API de React, sino que son un patrón de diseño surgido dentro de la
-comunidad, inspirado en la naturaleza composicional de React.
+Los **Higher-order Components**, o _Componentes de grado superior_, o _HOCs_,
+son una técnica avanzada en `React` para reusar la lógica de nuestra UI. Los
+_HOCs_ no son parte de la API de `React`, sino que son un patrón de diseño
+surgido dentro de la comunidad, inspirado en la naturaleza composicional de
+`React`.
 
-En resumidas cuentas los HOCs son a los componentes, los que las Higher-order
-Functions son a las funciones: **un higher-order component es una función que
-toma como parámetro un componente y retorna como resultado un nuevo
-componente.**
+En resumidas cuentas los _HOCs_ son a los _componentes_, los que las
+_Higher-order Functions_ son a las _funciones_: **un higher-order component es
+una función que toma un componente como parámetro y retorna un nuevo
+componente como resultado.**
 
 ```js
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 ```
 
-Mientras que un componente transforma props en UI, un HOC transforma componentes
-en componentes.
+Mientras que un componente transforma `props` en UI (Virtual DOM), un _HOC_
+transforma componentes en componentes.
 
-En esta lectura veremos por qué son tan utiles los HOCs y qué formas pueden
+En esta lectura veremos por qué son tan útiles los _HOCs_ y qué formas pueden
 tomar.
 
 ### Usando HOCs para funcionalidades transversales (Cross-Cutting Concerns)
@@ -50,26 +52,26 @@ tomar.
 todavía encuentres información sobre ellos. Hoy por hoy el uso de Mixins está
 **des-recomendado**. [Mas info](/react/blog/2016/07/13/mixins-considered-harmful.html)
 
-Los componentes son la unidad básica de reutilización de código en React. Sin
-embargo, verás que hay situaciones en las que la naturaleza expresiva de React,
-no resuelve muy bien el problema.
+Los componentes son la unidad básica de reutilización de código en `React`. Sin
+embargo, verás que hay situaciones en las que la naturaleza expresiva de
+`React`, no resuelve muy bien el problema.
 
 Por ejemplo, supongamos que tenemos un componente `CommentList` que se
-subscribre a una fuente externade datos y renderiza una lista de comentarios
+subscribre a una fuente externa de datos y renderiza una lista de comentarios
 para un usuario específico:
 
 ```js
 const CommentList = ({ user }) => {
-  const comments = DataSource.getComments(user)
+  const comments = DataSource.getComments(user);
 
   return (
     <div>
-      {comments.map((comment) => (
+      {comments.map(comment => (
         <Comment comment={comment.text} key={comment.id} />
       ))}
     </div>
-  )
-}
+  );
+};
 ```
 
 Y luego, tenemos un componente que se subscribe a un blog, que también utiliza
@@ -81,12 +83,12 @@ const BlogPostList = ({ user }) => {
 
   return (
     <div>
-      {posts.map((post) => (
+      {posts.map(post => (
         <TextBlock text={post.text} key={post.id} />
       ))}
     </div>
-  )
-}
+  );
+};
 ```
 
 `CommentList` y `BlogPostList` no son idénticos: llaman a diferentes métodos de
@@ -114,28 +116,28 @@ lo siguiente:
 ```js
 const CommentList = ({ data }) => (
   <div>
-    {data.map((comment) => (
+    {data.map(comment => (
       <Comment comment={comment.text} key={comment.id} />
     ))}
   </div>
-)
+);
 
 const BlogPostList = ({ data }) => (
   <div>
-    {data.map((post) => (
+    {data.map(post => (
       <TextBlock text={post.text} key={post.id} />
     ))}
   </div>
-)
+);
 
 const CommentListWithData = withData(
   CommentList,
-  DataSource.getComments
+  DataSource.getComments,
 );
 
 const BlogPostListWithData = withData(
   BlogPostList,
-  DataSource.getBlogPost
+  DataSource.getBlogPost,
 );
 ```
 
@@ -151,30 +153,38 @@ datos actualizados.
 ```js
 // tenemos un estado global que guarda el usuario actual
 const state = {
-  user: 'USER_ID'
-}
+  user: 'USER_ID',
+};
 
 // Y esta función que recibe un componente
-function withData(WrappedComponent, selectData) {
+const withData = (WrappedComponent, selectData) => {
   // ... y retorna otro
   return props => {
     const data = selectData(state.user)
     return (
-      <WrappedComponent data={data} {...props} />;
-    )
-  }
-}
+      <WrappedComponent data={data} {...props} />
+    );
+  };
+};
 ```
 
-Nota que un HOC no moodifica la interfaz del componente, ni tampoco usa herencia
-para copiar su comportamiento. En lugar de eso un HOC *compone* el componente
-original, *envolviéndolo (wrapping)* con un componente contenedor. Un HOC es una
-***función pura sin efectos colaterales***.
+O usando retornos implícitos (un poco más conciso):
+
+```js
+const withData = (WrappedComponent, selectData) => props => (
+  <WrappedComponent data={selectData(state.user)} {...props} />
+);
+```
+
+Nota que un _HOC_ no moodifica la interfaz del componente, ni tampoco usa
+herencia para copiar su comportamiento. En lugar de eso un HOC *compone* el
+componente original, *envolviéndolo (wrapping)* con un componente contenedor. Un
+_HOC_ es una ***función pura sin efectos colaterales***.
 
 Y listo! El componente interno recibe todo lo que necesita a través del
 contenedor, y así ni el contenedor se preocupa en cómo se usa la data, ni el
 componente interno se preocupa de cómo se consigue esta data. Completa
-separación de intereses (separation of concerns).
+separación de intereses (_separation of concerns_).
 
 Como `withData` es una función común y corriente, puedes dotarla de la interfaz
 que más te convenga. Por ejemplo, en lugar de que la prop siempre se llame data,
@@ -185,17 +195,17 @@ con qué parámetros renderizar al componente interno.
 
 Como con los componentes regulares, el *"contrato"* entre `withData` y el
 componente interno se basa enteramente en las props. Esto hace fácil cambiar un
-HOC por otro, siempre y cuando provea las mismas props al componente interno.
+_HOC_ por otro, siempre y cuando provea las mismas props al componente interno.
 Esto puede ser muy útil por ejemplo, si cambiamos la forma en la que obtenemos o
 guardamos nuestro usuario, o parámetros futuros que se agreguen a la API de
-nuestro data source.
+nuestra fuente de datos.
 
 A continuación veremos algunas buenas prácticas y puntos a tener en cuenta, te
 ahorrarán horas de debugging.
 
 ### Convención: Traspasar todas las props recibidas al componente interno
 
-Los HOCs agregar funcionalidades a los componentes y no deberían alterar
+Los _HOCs_ agregar funcionalidades a los componentes y no deberían alterar
 drásticamente su comportamiento. Se espera que el componente devuelto por un HOC
 tenga una interfaz similar a la del componente interno.
 
@@ -204,7 +214,7 @@ con su funcionalidad. La mayoría de HOCs suelen retornar un componente de la
 siguiente forma:
 
 ```js
-function(props) {
+const HOC = (props) => {
   // Filtramos una prop extra que es específica de este HOC y no debería
   // ser traspasada
   const { extraProp, ...passThroughProps } = props;
@@ -220,7 +230,7 @@ function(props) {
       {...passThroughProps}
     />
   );
-}
+};
 ```
 
 Esta convención ayuda a asegurar que los HOCs sean tan flexibles y reutilizables
@@ -235,7 +245,7 @@ interno:
 const NavbarWithRouter = withRouter(Navbar);
 ```
 
-Otras veces aceptan parámetros adicionles, como por ejemplo en Relay donde es
+Otras veces aceptan parámetros adicionles, como por ejemplo en `Relay` donde es
 necesario un parámetros de configuración:
 
 ```js
@@ -259,26 +269,26 @@ const enhance = connect(commentListSelector, commentListActions);
 const ConnectedComment = enhance(CommentList);
 ```
 
-En otras palabras, `connect` es una higher-order function que devuelve un
-higher-order component!
+En otras palabras, `connect` es una _higher-order function_ que devuelve un
+_higher-order component_!
 
 Esta forma puede parecer confusa o innecesaria, pero tiene una capacidad muy
-útil. Los HOCs con un sólo argumento como los devueltos por `connect` tienen la
-siguiente signatura `Component => Component`. Las funciones donde el tipo de su
-entrada es el mismo que el de su salida son muy fácil de componer.
+útil. Los HOCs con un sólo argumento, como los devueltos por `connect`, tienen
+la siguiente signatura `Component => Component`. Las funciones donde el tipo de
+su entrada es el mismo que el de su salida son muy fáciles de componer.
 
 ```js
 // En lugar de encadenar las llamadas...
-const EnhancedComponent = connect(commentSelector)(withRouter(WrappedComponent))
+const EnhancedComponent = connect(commentSelector)(withRouter(WrappedComponent));
 
 // ... usamos una función utilitaria de composición donde
 // compose(f, g, h) es lo mismo que (...args) => f(g(h(...args)))
 const enhance = compose(
   // Ambos son HOCs con un único argumento
   connect(commentSelector),
-  withRouter
+  withRouter,
 )
-const EnhancedComponent = enhance(WrappedComponent)
+const EnhancedComponent = enhance(WrappedComponent);
 ```
 
 El utilitario `compose` es provisto por varias librerías incluyendo lodash
@@ -298,31 +308,30 @@ si tu HOC se llama `withData`, y el componente interno `CommentsList`, usa algo
 parecido a `WithData(CommentList)`:
 
 ```js
-function withData(WrappedComponent) {
-  const WithData = props => {/* ... */}
+const getDisplayName = WrappedComponent =>
+  WrappedComponent.displayName || WrappedComponent.name || 'Component';
+
+const withData = (WrappedComponent) => {
+  const WithData = props => {/* ... */};
   WithData.displayName = `WithData(${getDisplayName(WrappedComponent)})`;
   return WithData;
-}
-
-function getDisplayName(WrappedComponent) {
-  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
-}
+};
 ```
 
 ### A tener en cuenta
 
-Los HOCs vienen con algunos temas a tener en cuenta que no son obvios si eres
-nuevo en React.
+Los _HOCs_ vienen con algunos temas a tener en cuenta que no son obvios si eres
+nueva en `React`.
 
 #### No uses HOCs dentro del cuerpo de un componente
 
-El algoritmo de reconciliaci[on de React, usa la identidad de los componentes
+El algoritmo de reconciliaci[on de `React`, usa la identidad de los componentes
 para determinar si debe actualizar un sub árbol del DOM o debe botarlo y montar
 uno nuevo. Si el resultado del componente es identico (`===`) al componente del
-ciclo anterior de renderizado, React recursivamente actualiza el sub árbol
+ciclo anterior de renderizado, `React` recursivamente actualiza el sub árbol
 comparando nodo a nodo. Si no son iguales, el árbol se descarta completamente.
 
-Normalmente en React, esto es algo en lo que no deberías pensar, pero si es
+Normalmente en `React`, esto es algo en lo que no deberías pensar, pero si es
 importante cuando usas HOCs porque implica que no puedes aplicar un HOC a un
 componente dentro del cuerpo de otro componente:
 
@@ -337,41 +346,42 @@ render() {
 }
 ```
 
-En cambio, aplica los HOCs fuera de la definición de los componentes para que el
-componente contenedor sea creado una sola vez. Luego su idnetidad será
+En cambio, aplica los _HOCs_ fuera de la definición de los componentes para que
+el componente contenedor sea creado una sola vez. Luego su idnetidad será
 consistente a través de todos los renders, que es lo que generalmente deseas.
 
-En casos raros cuando necsitas aplicar un HOC dinámicamente, necesitas hacerlo
-utilizando componentes OOP que veremos en la próxima lección.
+En casos raros cuando necsitas aplicar un _HOC_ dinámicamente, necesitas hacerlo
+utilizando componentes OOP (usando clases) que veremos más adelante en este
+curso.
 
 #### Los métodos estáticos se deben copiar "a mano"
 
 A veces es útil definir métodos estáticos en un componente de React.
 
-Cuando aplicas un HOC a un componente, el componente original es "envuelto" por
-un componente contenedor. Esto implica que el nuevo componente no tiene ninguno
-de los métodos estáticos del componente original.
+Cuando aplicas un _HOC_ a un componente, el componente original es "envuelto"
+por un componente contenedor. Esto implica que el nuevo componente no tiene
+ninguno de los métodos estáticos del componente original.
 
 ```js
 // Definimos un método estático
-WrappedComponent.staticMethod = function() {/*...*/}
+WrappedComponent.staticMethod = () => {/*...*/};
 // Aplicamos el el HOC
 const EnhancedComponent = enhance(WrappedComponent);
 
 // El nuevo componente no tienen `staticMethod`
-typeof EnhancedComponent.staticMethod === 'undefined' // true
+typeof EnhancedComponent.staticMethod === 'undefined'; // true
 ```
 
 En estas situaciones, puedes copiar el método en el componente contenedor, antes
 de retornarlo:
 
 ```js
-function enhance(WrappedComponent) {
+const enhance = (WrappedComponent) => {
   class Enhance extends React.Component {/*...*/}
   // Debemos copiar el método explícitamente
   Enhance.staticMethod = WrappedComponent.staticMethod;
   return Enhance;
-}
+};
 ```
 
 El principal inconveniente con este enfoque, es que necesitas saber exactamente
@@ -382,11 +392,11 @@ relacionados con React:
 
 ```js
 import hoistNonReactStatic from 'hoist-non-react-statics';
-function enhance(WrappedComponent) {
+const enhance = (WrappedComponent) => {
   class Enhance extends React.Component {/*...*/}
   hoistNonReactStatic(Enhance, WrappedComponent);
   return Enhance;
-}
+};
 ```
 
 > Si quieres saber exactamente qué hace `hoist-non-react-statics`, chequea
@@ -408,12 +418,12 @@ import MyComponent, { someFunction } from './MyComponent.js';
 
 ## Resumen
 
-En esta lectura hemos podido apreciar la gran versatilidad que tienen los HOCs:
-Esta posibilidad de componer diferentes funcionalidades a través de "capas",
-como las de una cebolla.
+En esta lectura hemos podido apreciar la gran versatilidad que tienen los
+_HOCs_: la posibilidad de componer diferentes funcionalidades a través de
+"capas", como las de una cebolla.
 
 En la próxima lectura nos enfocaremos en un escenario particular que hace un uso
-intensivo de los HOCs: Redux
+intensivo de los HOCs: `Redux`.
 
 ***
 

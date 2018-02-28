@@ -8,10 +8,10 @@
 
 ## Por qué aprender esto?
 
-Los **componentes** son las piezas fundamentales con las que vamos a construir
-interfaces usando `React`. Desde el punto de vista de `React`, un interfaz no es
-más que una jerarquía (árbol) de componentes. Así como en `HTML` usamos
-etiquetas para construir interfaces, en `React` usamos _componentes_.
+Los **componentes** son la unidad básica de reutilización de código en `React`.
+Desde el punto de vista de `React`, un interfaz no es más que una jerarquía
+(árbol) de componentes. Así como en `HTML` usamos etiquetas para construir
+interfaces, en `React` usamos _componentes_.
 
 Es esencial entender bien el concepto de _componente_ en el universo de `React`,
 así como las técnicas y/o convenciones para hacer nuestros componentes más
@@ -47,6 +47,8 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   componente.
 * Qué es y cómo funciona la propiedad `children`.
 * Cómo manipular (filtrar, transformar, ...) los `children`
-* Cómo COMPOSICIÓN SOBRE HERENCIA
-* HIGHER-ORDER COMPONENTS
-* COMPONENTES PRESENTACIONALES vs CONTENEDORES
+* Cómo componer una interfaz anidando componentes
+* Qué son los Higher-order Components?
+* Cómo usar _HOCs_ para componer components
+* Cómo implementar _HOCs_
+* Diferencias entre componentes presentacionales vs contenedores
