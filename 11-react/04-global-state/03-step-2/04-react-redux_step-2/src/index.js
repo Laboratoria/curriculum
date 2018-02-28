@@ -4,7 +4,7 @@ import { AppContainer } from 'react-hot-loader';
 
 import Main from './lib/components/Main';
 
-require("./styles.css");
+require('./styles.css');
 
 const render = (Component, props = {}) => {
   ReactDOM.render(

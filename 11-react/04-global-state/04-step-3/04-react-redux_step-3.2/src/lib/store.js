@@ -1,17 +1,14 @@
 // React and Redux Const
-import {
-  createStore, combineReducers
-} from 'redux';
-
+import { createStore, combineReducers } from 'redux';
 import AppReducer from './reducer'
 
 const rootReducer = combineReducers({
-  AppReducer
+  AppReducer,
 });
 
 const store = createStore(
   rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
 
-export default store
+export default store;

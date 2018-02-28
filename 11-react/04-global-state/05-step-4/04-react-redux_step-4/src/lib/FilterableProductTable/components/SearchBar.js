@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const SearchBar = ({
   filterText, inStockOnly,
@@ -27,13 +27,13 @@ const SearchBar = ({
       </p>
     </form>
   );
-}
+};
 
 SearchBar.propTypes = {
   filterText: PropTypes.string.isRequired,
   inStockOnly: PropTypes.bool.isRequired,
   setFilterText: PropTypes.func.isRequired,
   setInStockOnly: PropTypes.func.isRequired
-}
+};
 
-export default SearchBar
+export default SearchBar;

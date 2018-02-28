@@ -16,7 +16,7 @@ class CuentaRegresiva extends React.Component {
     this.timerID = setInterval(
       () => this.tick(),
       500
-    )
+    );
   }
 
   componentWillUnmount() {
@@ -26,23 +26,23 @@ class CuentaRegresiva extends React.Component {
   }
 
   tick() {
-    const { duracion, inicio } = this.state
-    const ahora = +(new Date())
-    const transcurrido = (ahora - inicio) / 1000 // milisegundos a segundos
-    this.setState({ transcurrido })
-    
+    const { duracion, inicio } = this.state;
+    const ahora = +(new Date());
+    const transcurrido = (ahora - inicio) / 1000; // milisegundos a segundos
+    this.setState({ transcurrido });
+
     if (transcurrido >= duracion) {
       clearInterval(this.timerID);
-      this.barra.setProgreso(100)
-      this.timerID = null
+      this.barra.setProgreso(100);
+      this.timerID = null;
     } else {
-      const progreso = transcurrido * 100 / duracion
-      this.barra.setProgreso(progreso)
+      const progreso = transcurrido * 100 / duracion;
+      this.barra.setProgreso(progreso);
     }
   }
 
   render() {
-    const { transcurrido, duracion } = this.state
+    const { transcurrido, duracion } = this.state;
     return (
       <div>
         <h2>
@@ -53,4 +53,4 @@ class CuentaRegresiva extends React.Component {
   }
 }
 
-export default CuentaRegresiva
+export default CuentaRegresiva;

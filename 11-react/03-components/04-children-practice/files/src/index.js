@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
-import Main from './lib/components/Main'
+import Main from './lib/components/Main';
 
-require("./styles.css");
+require('./styles.css');
 
 const render = (Component, props = {}) => {
   ReactDOM.render(

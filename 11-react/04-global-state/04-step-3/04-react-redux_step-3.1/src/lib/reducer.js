@@ -21,12 +21,12 @@ const INIT_STATE = {
    { href: '#', texto: 'Link 4'},
    { href: '#', texto: 'Link 5'}
   ]
-}
+};
 
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
-      
+
   default:
     return state
   }
-}
+};

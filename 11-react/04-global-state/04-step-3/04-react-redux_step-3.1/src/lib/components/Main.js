@@ -14,8 +14,8 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
     { href: '#', texto: 'Link 3'},
     { href: '#', texto: 'Link 4'},
     { href: '#', texto: 'Link 5'}
-  ]
-  
+  ];
+
   // Definimos estaticamente los productos
   products = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -31,13 +31,13 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
       <FilterableProductTable products={products} />
       <Aside titulo={asideTitulo} links={asideLinks} />
     </Page>
-  )
-}
+  );
+};
 
 Main.propTypes = {
   products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   asideTitulo: PropTypes.string.isRequired,
   asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
-}
+};
 
-export default Main
+export default Main;

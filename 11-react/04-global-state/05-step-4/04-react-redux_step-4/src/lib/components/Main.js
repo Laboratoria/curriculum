@@ -12,13 +12,13 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
       <FilterableProductTable products={products} />
       <Aside titulo={asideTitulo} links={asideLinks} />
     </Page>
-  )
-}
+  );
+};
 
 Main.propTypes = {
   products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   asideTitulo: PropTypes.string.isRequired,
   asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
-}
+};
 
-export default Main
+export default Main;

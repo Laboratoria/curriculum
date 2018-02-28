@@ -1,4 +1,4 @@
-import { actionTypes } from './actions'
+import { actionTypes } from './actions';
 
 // Supongamos que estos son los productos que recibimos de nuestra API JSON
 const PRODUCTS = [
@@ -23,7 +23,7 @@ const INIT_STATE = {
    { href: '#', texto: 'Link 4'},
    { href: '#', texto: 'Link 5'}
   ]
-}
+};
 
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
@@ -44,7 +44,7 @@ export default (state = INIT_STATE, action) => {
       }
       break;
   }
-  
+
   // Y que sucede con los `filteredProducts`?
   // `filteredProducts` se actualiza cuando cualquiera de las dos acciones
   // es ejecutada
@@ -67,11 +67,11 @@ export default (state = INIT_STATE, action) => {
           action.value :
           // si no usamos el `inStockOnly` del `state`
           state.inStockOnly
-      
+
       // el producto `p` va a la lista de `filteredProducts` si:
       return (
         // el checkbox esta prendido y `p.stocked === true`
-        // si el checkbox esta apagado siempre true 
+        // si el checkbox esta apagado siempre true
         (inStockOnly ? p.stocked : true) &&
         // y el `p.name` matchea `filterText` case insensitive
         p.name.match(new RegExp(filterText, 'ig'))
@@ -81,11 +81,11 @@ export default (state = INIT_STATE, action) => {
     state = {
       ...state,
       filteredProducts
-    }
+    };
   }
-  
+
   // Siempre, siempre, siempre, un reducer debe devolver un `state`
   // en el caso que no reaccione al `action` actual, debe explícitamente
   // devolver el `state` anterior
-  return state
+  return state;
 }

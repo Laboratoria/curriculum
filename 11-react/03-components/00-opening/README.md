@@ -1,12 +1,35 @@
 # Apertura
 
-* Tipo: `seminario`
-* Formato: `guiado`
+* Tipo: `lectura`
+* Formato: `self-paced`
 * Duración: `5min`
 
 ***
 
 ## Por qué aprender esto?
+
+Los **componentes** son las piezas fundamentales con las que vamos a construir
+interfaces usando `React`. Desde el punto de vista de `React`, un interfaz no es
+más que una jerarquía (árbol) de componentes. Así como en `HTML` usamos
+etiquetas para construir interfaces, en `React` usamos _componentes_.
+
+Es esencial entender bien el concepto de _componente_ en el universo de `React`,
+así como las técnicas y/o convenciones para hacer nuestros componentes más
+declarativos y robustos, como validación de `props` de componentes usando
+`prop-types`, manejo de _hijos_ (children), composición, ...
+
+Gracias a los parámetros nombradors y al desestructuring (asignación
+desestructurada), ya hemos aprendido como especificar nuestras `props` en la
+signatura (firma) misma de nuestros componentes. En esta unidad veremos cómo
+especificar sus tipos, opcionalidad y valores por defecto.
+
+También analizaremos la propiedad especial children y como manipularla con
+`.map` y `.filter`.
+
+Más adelante en este unidad exploraremos el concepto de composición aplicado a
+componentes y Higher-Order Components, así como convenciones comunes como la
+distinción entre componentes tontos o stateless y componentes inteligentes o
+contenedores.
 
 ## Guía de preguntas y conceptos clave
 
@@ -19,3 +42,11 @@ responder al terminar esta unidad. Utiliza estas preguntas como guía para
 orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
+
+* Cómo usar `prop-types` para definir las propiedades que acepta/espera un
+  componente.
+* Qué es y cómo funciona la propiedad `children`.
+* Cómo manipular (filtrar, transformar, ...) los `children`
+* Cómo COMPOSICIÓN SOBRE HERENCIA
+* HIGHER-ORDER COMPONENTS
+* COMPONENTES PRESENTACIONALES vs CONTENEDORES

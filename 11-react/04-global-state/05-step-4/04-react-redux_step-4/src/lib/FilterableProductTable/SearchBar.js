@@ -1,19 +1,19 @@
 // lib/FilterableProductTable/SearchBar
-import { connect } from 'react-redux'
-import SearchBarComponent from './components/SearchBar'
-import { filterTextChanged, inStockOnlyChanged } from '../actions'
+import { connect } from 'react-redux';
+import SearchBarComponent from './components/SearchBar';
+import { filterTextChanged, inStockOnlyChanged } from '../actions';
 
 const SearchBarWithRedux = connect(
   function mapStateToProps(state) {
     const {
       filterText,
       inStockOnly
-    } = state.AppReducer
+    } = state.AppReducer;
 
     return {
       filterText,
       inStockOnly
-    }
+    };
   },
   function mapDispatchToProps(dispatch) {
     return {
@@ -25,6 +25,6 @@ const SearchBarWithRedux = connect(
       }
     }
   }
-)(SearchBarComponent)
+)(SearchBarComponent);
 
-export default SearchBarWithRedux
+export default SearchBarWithRedux;

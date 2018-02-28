@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import Header from './Header'
-import MainSection from './MainSection'
-import Aside from './Aside'
+import Header from './Header';
+import MainSection from './MainSection';
+import Aside from './Aside';
 
 const Page = ({
   headerTitulo,
@@ -18,8 +18,8 @@ const Page = ({
       <MainSection titulo={mainSectionTitulo} articles={mainSectionArticles} />
       <Aside titulo={asideTitulo} links={asideLinks} />
     </div>
-  )
-}
+  );
+};
 
 const pageProps = {
   headerTitulo: 'Getting Started',
@@ -38,7 +38,7 @@ const pageProps = {
     { href: '#', texto: 'Link 4'},
     { href: '#', texto: 'Link 5'}
   ]
-}
+};
 
-export const defaultPageProps = pageProps
-export default Page
+export const defaultPageProps = pageProps;
+export default Page;

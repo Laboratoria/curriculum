@@ -1,27 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-class CuentaRegresiva extends React.Component {
+class BarraDeProgreso extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { progreso: 0 }
+    this.state = { progreso: 0 };
   }
-  
+
   setProgreso(progreso) {
-    this.setState({ progreso })
+    this.setState({ progreso });
   }
 
   render() {
-    const { progreso } = this.state
+    const { progreso } = this.state;
     const backgroundColor = progreso <= 50 ?
       'green' :
       progreso <= 80 ?
         'yellow' :
-        'red'
+        'red';
     const style = {
       width: `${progreso}%`,
       backgroundColor,
       textAlign: 'center'
-    }
+    };
     return (
       <div>
         <div style={style}><h3>{progreso.toFixed(1)}%</h3></div>
@@ -30,4 +30,4 @@ class CuentaRegresiva extends React.Component {
   }
 }
 
-export default CuentaRegresiva
+export default BarraDeProgreso;

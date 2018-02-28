@@ -8,11 +8,11 @@
 
 ## Intro
 
-En la lección anterior vimos como, a través de los beneficios de `ES6`, podíamos
-definir de una manera descriptiva los nombres de las propiedades que recibe
-nuestro componente.
+En la unidad anterior vimos como, a través de los beneficios de la asignación
+desestructurada en `ES6`, podíamos definir de una manera descriptiva los nombres
+de las propiedades que recibe nuestro componente.
 
-En esta lección veremos como ir más allá y definir además el tipo de esas
+En esta unidad veremos como ir más allá y definir además el tipo de esas
 `props`, así como si son requeridas u opcionales. Para esto utilizaremos el
 paquete [`prop-types`](https://github.com/facebook/prop-types).
 
@@ -25,7 +25,7 @@ yarn add prop-types
 ```
 
 Instalada la dependencia, tomemos como ejemplo el siguiente componente de la
-lección anterior.
+unidad anterior.
 
 ```js
 const Header = ({ titulo, descripcion }) => {
@@ -35,7 +35,7 @@ const Header = ({ titulo, descripcion }) => {
       <p>{descripcion}</p>
     </header>
   )
-}
+};
 ```
 
 Queremos establecer que la propiedad `titulo` es obligatoria y la `descripcion`
@@ -56,8 +56,8 @@ const Header = ({ titulo, descripcion }) => {
       */}
       {descripcion && <p>{descripcion}</p>}
     </header>
-  )
-}
+  );
+};
 
 // Y ahora realizamos la definición de los tipos
 
@@ -67,30 +67,30 @@ Header.propTypes = {
   // `descripcion` tb es de tipo `string`
   // y es opcional (solo omitimos el `isRequired`)
   descripcion: PropTypes.string
-}
+};
 
 Header.defaultProps = {
   // Como `descripcion` es opcional, es una práctica recomendada establecerle
   // un valor por defecto, en nuestro caso "string vacio"
   descripcion: ''
-}
+};
 ```
 
 Y bien, ¿qué tipo de estructuras podemos definir con `PropTypes`? En sentido
 estricto, la que necesites. Veamos más ejemplos.
 
 ```js
-const unBooleano = true
+const unBooleano = true;
 const unObjeto = {
   texto: 'un texto',
   numero: 8
-}
-const unColorComoString = 'red'
-const unaFuncionQueDuplica = it => it*2
+};
+const unColorComoString = 'red';
+const unaFuncionQueDuplica = it => it * 2;
 const unArrayDeObjetos = [
   { otroTexto: 'otro texto', otroNumero: 3 },
   { otroTexto: 'nuevo texto', otroNumero: 5 }
-]
+];
 
 // ... definimos nuestro `Componente` ...
 
@@ -110,12 +110,12 @@ Componente.propTypes = {
      otroNumero: PropTypes.number
    })
   )
-}
+};
 ```
 
 Ten en cuenta que `PropTypes` es solamente un mecanismo de control no
 intrusivo, es decir que no interfiere en la ejecución de tu aplicación, sólo
-notifica `error`s y `warnign`s por consola.
+notifica `error`s y `warning`s por consola.
 
 Por ejemplo, si a la propiedad `unBooleano` que hemos definido como requerida,
 no le pasas un valor tu aplicación seguirá ejecutándose, aunque ahora en la
@@ -139,5 +139,5 @@ documentación [oficial de `React`](https://facebook.github.io/react/docs/typech
 
 ## Ejercicio
 
-Define los `propTypes` para los componentes declarados en tu aplicación de
-ejemplo.
+Define los `propTypes` y `defaultProps` para los componentes declarados en los
+ejercicios de las unidades anteriores así como tu proyecto final.

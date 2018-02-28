@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import store from './lib/store'
 import Main from './lib/Main';
 
-require("./styles.css");
+require('./styles.css');
 
 const render = (Component, props = {}) => {
   ReactDOM.render(

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
 import Page, { defaultPageProps } from './lib/components/Page';
-require("./styles.css");
+require('./styles.css');
 
 const render = (Component, props = {}) => {
   ReactDOM.render(

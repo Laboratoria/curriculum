@@ -1,5 +1,5 @@
-import { connect } from 'react-redux'
-import MainComponent from './components/Main'
+import { connect } from 'react-redux';
+import MainComponent from './components/Main';
 
 const MainWithRedux = connect(
   // `connect` recibe dos parámetros. El primero de ellos es
@@ -11,15 +11,15 @@ const MainWithRedux = connect(
       filteredProducts,
       asideTitulo,
       asideLinks
-    } = state.AppReducer
+    } = state.AppReducer;
 
     // y devolvemos las nuevas props
     return {
       products: filteredProducts,
       asideTitulo,
       asideLinks
-    }
+    };
   }
-)(MainComponent)
+)(MainComponent);
 
-export default MainWithRedux
+export default MainWithRedux;

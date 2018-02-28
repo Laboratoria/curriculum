@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 // HEADER
 const Header = ({ titulo, descripcion }) => {
@@ -8,16 +8,16 @@ const Header = ({ titulo, descripcion }) => {
       <h1>{titulo}</h1>
       {descripcion && <p>{descripcion}</p>}
     </header>
-  )
-}
+  );
+};
 
 Header.propTypes = {
   titulo: PropTypes.string.isRequired,
   descripcion: PropTypes.string
-}
+};
 
 Header.defaultProps = {
   descripcion: ''
-}
+};
 
-export default Header
+export default Header;

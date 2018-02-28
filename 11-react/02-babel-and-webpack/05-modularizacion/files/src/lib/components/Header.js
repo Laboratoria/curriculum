@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // HEADER
 const Header = ({ titulo, descripcion }) => {
@@ -7,7 +7,7 @@ const Header = ({ titulo, descripcion }) => {
       <h1>{titulo}</h1>
       <p>{descripcion}</p>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
 import CuentaRegresiva from './lib/cuenta-regresiva';
-require("./styles.css");
+require('./styles.css');
 
 const render = (Component, props = {}) => {
   ReactDOM.render(

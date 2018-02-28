@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SearchBar = () => {
   return (
@@ -11,6 +11,6 @@ const SearchBar = () => {
       </p>
     </form>
   );
-}
+};
 
 export default SearchBar

@@ -1,4 +1,4 @@
-# Intro
+# Higher-order Components
 
 * Tipo: `lectura`
 * Formato: `self-paced`

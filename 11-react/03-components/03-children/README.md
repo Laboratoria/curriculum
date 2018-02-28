@@ -8,14 +8,14 @@
 
 ## Intro
 
-Si hacemos una analógica entre `React` y `html`, podemos decir que las `props`
-de `React` es el mecanísmo análogo que usamos en `html` para definir los
+Si hacemos una analogía entre `React` y `HTML`, podemos decir que las `props`
+de `React` es el mecanísmo análogo que usamos en `HTML` para definir los
 atributos de los tags. Pero ahora bien, ¿qué sucede con las etiquetas anidadas
 dentro de otras etiquetas que teníamos en `HTML`? Para ello existe la propiedad
 especial `children`.
 
 `React` tiene un modelo de composición muy poderoso, que nos permite anidar
-`componentes`, como si anidáramos tags `html`. La composición es el método
+`componentes`, como si anidáramos tags `HTML`. La composición es el método
 indicado para reusar al máximo nuestros componentes.
 
 A diferencia de los `children` del `DOM` y como estamos trabajando en el mundo

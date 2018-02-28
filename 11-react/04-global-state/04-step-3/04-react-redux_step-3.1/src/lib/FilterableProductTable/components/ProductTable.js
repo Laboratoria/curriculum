@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const ProductCategoryRow = ({ category }) => {
   return (
     <tr><th colSpan="2">{category}</th></tr>
   );
-}
+};
 
 const ProductRow = ({ product }) => {
   const name = product.stocked ?
@@ -18,7 +18,7 @@ const ProductRow = ({ product }) => {
       <td>{product.price}</td>
     </tr>
   );
-}
+};
 
 const ProductTable = ({ products }) => {
   const rows = [];
@@ -41,6 +41,6 @@ const ProductTable = ({ products }) => {
       <tbody>{rows}</tbody>
     </table>
   );
-}
+};
 
-export default ProductTable
+export default ProductTable;

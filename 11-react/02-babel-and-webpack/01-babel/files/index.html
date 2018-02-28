@@ -16,7 +16,7 @@
       </p>
     </div>
     <hr />
-    
+
     <div id="container">
       <p>
         Si ves esto React <strong>no</strong> está funcionando.
@@ -26,7 +26,7 @@
     <script src="https://unpkg.com/react@15/dist/react.js"></script>
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
-    <script type="text/babel">      
+    <script type="text/babel">
       // HEADER
       const Header = ({ titulo, descripcion }) => {
         return (
@@ -34,9 +34,9 @@
             <h1>{titulo}</h1>
             <p>{descripcion}</p>
           </header>
-        )
-      }
-      
+        );
+      };
+
       // MAIN SECTION
       const Article = ({ titulo, descripcion }) => {
         return (
@@ -45,46 +45,46 @@
             <p>{descripcion}</p>
             <hr />
           </article>
-        )
-      }
-      
+        );
+      };
+
       const MainSection = ({ titulo, articles }) => {
         const style = {
           width: '70%',
           float: 'left'
-        }
-        
+        };
+
         const children = articles.map(props => {
-          return <Article key={props.titulo} {...props} />
-        })
+          return <Article key={props.titulo} {...props} />;
+        });
 
         return (
           <section style={style}>
             <h2>{titulo}</h2>
             {children}
           </section>
-        )
-      }
-      
+        );
+      };
+
       // ASIDE
       const AsideLink = ({ href, texto }) => {
         return (
           <li>
             <a href={href}>{texto}</a>
           </li>
-        )
-      }
-      
-      const  Aside = ({ links, titulo }) => {
+        );
+      };
+
+      const Aside = ({ links, titulo }) => {
         const style = {
           width: '25%',
           float: 'right'
-        }
+        };
 
         const children = links.map(props => {
-          return <AsideLink key={props.texto} {...props} />
-        })
-        
+          return <AsideLink key={props.texto} {...props} />;
+        });
+
         return (
           <section style={style}>
             <h4>{titulo}</h4>
@@ -92,9 +92,9 @@
               {children}
             </ul>
           </section>
-        )
-      }
-      
+        );
+      };
+
       // Integramos todo en un PAGE
       const Page = ({
         headerTitulo,
@@ -110,9 +110,9 @@
             <MainSection titulo={mainSectionTitulo} articles={mainSectionArticles} />
             <Aside titulo={asideTitulo} links={asideLinks} />
           </div>
-        )
-      }
-      
+        );
+      };
+
       const pageProps = {
         headerTitulo: 'Getting Started',
         headerDescripcion: 'Descripcion',
@@ -130,8 +130,8 @@
           { href: '#', texto: 'Link 4'},
           { href: '#', texto: 'Link 5'}
         ]
-      }
-      
+      };
+
       ReactDOM.render(
         <Page {...pageProps} />,
         document.getElementById('container')

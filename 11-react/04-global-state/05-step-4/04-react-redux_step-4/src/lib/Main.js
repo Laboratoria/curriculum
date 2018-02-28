@@ -1,5 +1,5 @@
-import { connect } from 'react-redux'
-import MainComponent from './components/Main'
+import { connect } from 'react-redux';
+import MainComponent from './components/Main';
 
 const MainWithRedux = connect(
   // `connect` recibe dos parámetros. El primero de ellos es
@@ -20,6 +20,6 @@ const MainWithRedux = connect(
       asideLinks
     }
   }
-)(MainComponent)
+)(MainComponent);
 
-export default MainWithRedux
+export default MainWithRedux;
