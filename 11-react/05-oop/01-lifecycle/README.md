@@ -2,7 +2,7 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `20min`
 
 ***
 
@@ -13,22 +13,20 @@ de muy bajo nivel, u otros motivos.
 
 Tomemos el siguiente ejemplo:
 
-```javascript
-function Reloj({ fecha }) {
-  return (
-    <div>
-      <h1>Hola Mundo!</h1>
-      <h2>Son las {fecha.toLocaleTimeString()}.</h2>
-    </div>
-  );
-}
+```js
+const Reloj = ({ fecha }) => (
+  <div>
+    <h1>Hola Mundo!</h1>
+    <h2>Son las {fecha.toLocaleTimeString()}.</h2>
+  </div>
+);
 
-function tick() {
+const tick = () => {
   ReactDOM.render(
     <Reloj fecha={new Date()} />,
-    document.getElementById('root')
+    document.getElementById('root'),
   );
-}
+};
 
 setInterval(tick, 1000);
 ```
@@ -43,23 +41,38 @@ encapsulado, pero en lugar de usar el enfoque funcional, vamos a utilizar el
 enfoque ***orientado a objetos*** que provee `React`: `Reloj` se encargará de
 configurar su propio timer y actualizarse por si sólo cada segundo.
 
-Nuestro objetivo es escribir una única vez el siguiente código
+***
 
-```javascript
+PRO TIP:
+
+Una de las principales diferencias entre el paradigma funcional y el orientado a
+objetos es el manejo de _estado_. Con esto nos referimos al _contexto_ de una
+función (o método). En programación funcional, siempre tratamos de que el
+_estado_ sea explícito y externo (normalmente a través de la aplicación de
+argumentos), mientras que en OOP el _estado_ se suele mantener en el contexto de
+un objeto generado a través de una clase (usando la pseudo-variable `this`).
+
+***
+
+Nuestro objetivo es escribir una única vez el siguiente código ...
+
+```js
 ReactDOM.render(
   <Reloj />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 ```
 
-y que `Reloj` se encargue el mismo de todo lo necesario para seguir funcionando.
+... y que `Reloj` se encargue él mismo de todo lo necesario para seguir
+funcionando.
 
 Para implementar esto, necesitamos agregar un **estado local** (`state`) al
 componente `Reloj`. El `state` local es similar a las `props`, con la diferencia
 de que es privado y completamente controlado por el componente.
 
 Los componentes definidos como `class` tienen algunos `features` adicionales, no
-presentes en los componentes `stateless` . El `state` local es uno de ellos.
+presentes en los componentes `stateless` (aquellos que declaramos como
+funciones). El `state` local es uno de ellos.
 
 ## Conviertiendo una función en clase
 
@@ -67,9 +80,9 @@ Para convertir un componente `stateless` como `Reloj` en una clase, sigue estos
 4 pasos:
 
 1. Crea una [clase de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes)
-   (`class`) y has que extienda de `React.Component`.
+   (`class`) y haz que extienda (herede de) `React.Component`.
 
-2. Crean un método en tu clase, llamado `render()`.
+2. Crea un método en tu clase, llamado `render()`.
 
 3. Mueve el cuerpo de tu antigua funcion al cuerpo de tu método `render()`.
 
@@ -79,7 +92,7 @@ Para convertir un componente `stateless` como `Reloj` en una clase, sigue estos
 ```js
 class Reloj extends React.Component {
   render() {
-    const { fecha } = this.props
+    const { fecha } = this.props;
     return (
       <div>
         <h1>Hola Mundo!</h1>
@@ -92,7 +105,7 @@ class Reloj extends React.Component {
 
 [Pruébalo en CodePen](https://codepen.io/merunga/pen/xLaeEY?editors=0010)
 
-`Reloj` ahora esta definido como class en lugar de como función. Esto nos
+`Reloj` ahora esta definido como `class` en lugar de como función. Esto nos
 permitirá usar funcionalidades adicionales como el estado local y los *hooks*
 para las diferentes fases del ciclo de vida del componente.
 
@@ -105,7 +118,7 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
    ```js
    class Reloj extends React.Component {
      render() {
-       const { fecha } = this.state
+       const { fecha } = this.state;
        return (
          <div>
            <h1>Hola Mundo!</h1>
@@ -127,7 +140,7 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
      }
 
      render() {
-       const { fecha } = this.state
+       const { fecha } = this.state;
        return (
          <div>
            <h1>Hola Mundo!</h1>
@@ -155,7 +168,7 @@ Ahora, moveremos la `fecha` de `props` al `state` en 3 pasos:
    ```js
    ReactDOM.render(
      <Reloj />,
-     document.getElementById('root')
+     document.getElementById('root'),
    );
    ```
 
@@ -169,7 +182,7 @@ class Reloj extends React.Component {
   }
 
   render() {
-    const { fecha } = this.state
+    const { fecha } = this.state;
     return (
       <div>
         <h1>Hola Mundo!</h1>
@@ -181,7 +194,7 @@ class Reloj extends React.Component {
 
 ReactDOM.render(
   <Reloj />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 ```
 
@@ -242,7 +255,7 @@ nuestro timer:
   componentDidMount() {
     this.timerID = setInterval(
       () => this.tick(),
-      1000
+      1000,
     );
   }
 ```
@@ -250,12 +263,15 @@ nuestro timer:
 Fíjate que guardamos el ID del timer creado, directamente como una propiedad de
 `this`.
 
-Mientras que `this.props` es setteado por React y `this.state` tiene un
-significado especial, como en cualquier clase, eres libre de agregar manualmente
-campos adicionales a tu clase si necesitas guardar alguna información, siempre y
-cuando su valor no esté relacionado con el output de tu `render()`.
+Mientras que `this.props` es asignado por `React`, `this.state` tiene un
+significado especial (es la referencia al estado de nuestro componente, y vamos
+a actualizar su valor usando métodos especiales para ello - `this.setState()`).
+Por otro lado, como en cualquier clase, eres libre de agregar manualmente campos
+adicionales a tu clase si necesitas guardar alguna información, siempre y cuando
+su valor no esté relacionado con el output de tu `render()`.
 
-Si no lo estás usando en el `render()`, no debería estar en el `state`.
+Como regla general, si no lo estás usando en el `render()`, no debería estar en
+el `state`.
 
 Y ahora limpiamos el timer en `componentWillUnmount()`:
 
@@ -280,7 +296,7 @@ class Reloj extends React.Component {
   componentDidMount() {
     this.timerID = setInterval(
       () => this.tick(),
-      1000
+      1000,
     );
   }
 
@@ -290,7 +306,7 @@ class Reloj extends React.Component {
 
   tick() {
     this.setState({
-      fecha: new Date()
+      fecha: new Date(),
     });
   }
 
@@ -306,7 +322,7 @@ class Reloj extends React.Component {
 
 ReactDOM.render(
   <Reloj />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 ```
 
@@ -320,12 +336,12 @@ Hay 3 cosas que debes saber de `setState()`.
 
 ```js
 // Mal
-this.state.saludo = 'Hello'
+this.state.saludo = 'Hello';
 ```
 
 ```js
 // Bien
-this.setState({ saludo: 'Hello' })
+this.setState({ saludo: 'Hello' });
 ```
 
 El único lugar en donde podrías asignar `this.state` directamente es en el constructor.
@@ -348,20 +364,21 @@ this.setState({
 ```
 
 En estas situaciones, utiliza una segunda forma de `setState()` que acepta una
-función en lugar de un objeto. Esta función recibirá un como primer argumento,
-el estado anterior y las `props` al ese momento como segundo argumento:
+función en lugar de un objeto. Esta función recibirá el estado anterior como
+primer argumento, y las `props` al momento de invocarse la función como segundo
+argumento:
 
 ```js
 // Bien
 this.setState((prevState, props) => ({
-  counter: prevState.counter + props.increment
+  counter: prevState.counter + props.increment,
 }));
 ```
 
 ### Las actualizaciones del `state` se "funden"
 
-Cada vez que tu llamas a `setState()`, `React` toma como base el estado actual
-y pisa las propiedades definidas en tu objeto.
+Cada vez que llamas a `setState()`, `React` toma como base el estado actual y
+pisa las propiedades definidas en tu objeto.
 
 Por ejemplo, tenemos un estado con dos propiedades independientes
 
@@ -370,7 +387,7 @@ Por ejemplo, tenemos un estado con dos propiedades independientes
     super(props);
     this.state = {
       posts: [],
-      comments: []
+      comments: [],
     };
   }
 ```
@@ -382,14 +399,14 @@ Que podemos modificar granularmente
     fetchPosts({ err, response }) => {
       // handle err
       this.setState({
-        posts: response.posts
+        posts: response.posts,
       });
     });
 
     fetchComments({ err, response }) => {
       // handle err
       this.setState({
-        comments: response.comments
+        comments: response.comments,
       });
     });
   }
@@ -417,7 +434,7 @@ function App() {
 
 ReactDOM.render(
   <App />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 ```
 

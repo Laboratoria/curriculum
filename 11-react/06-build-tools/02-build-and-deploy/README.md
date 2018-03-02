@@ -12,7 +12,7 @@
 *desarrollo*, crearemos nuestro `webpack.config.prod.js` para nuestro entorno
 de *producción*.
 
-```javascript
+```js
 const { resolve } = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -91,7 +91,7 @@ module.exports = config;
 2 - crearemos un `npm script` `build` dentro de `package.json` que se encargue
 de ejecutar `webpack` con la configuración del punto anterior.
 
-```javascript
+```js
 // package.json
 "scripts": {
   "start": "webpack-dev-server",
@@ -112,7 +112,7 @@ branch `gh-pages` de nuestro repo
 4 - crearemos un `npm script` `deploy` que primero ejecute `build` y luego
 publique el contenido de la  carpeta `dist`, usando el módulo `gh-pages`.
 
-```javascript
+```js
 // package.json
 "scripts": {
   "start": "webpack-dev-server",

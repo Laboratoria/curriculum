@@ -2,11 +2,11 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `10min`
+* Duración: `15min`
 
 ***
 
-En el flow estándar de `React`, las `props` son la única forma que tienen los
+En el flujo estándar de `React`, las `props` son la única forma que tienen los
 componentes padre, de interactuar con sus `children`. Si quieres modificar un
 nodo hijo, lo re-renderizas con nuevas `props` y listo.
 
@@ -14,11 +14,12 @@ Sin embargo, hay ciertas situaciones en las que necesitas poder modificar un
 nodo hijo de manera imperativa. El nodo a modificar puede ser tanto una
 instancia de un componente definido como clase, como un elemento del DOM.
 
-## Cuándo usar referencias
+## Cuándo usar referencias?
 
 Hay un par de casos de uso válidos para usar refs:
 
-* Manejar el foco, la selección de texto, o la reproducción de contenido multimedia.
+* Manejar el foco, la selección de texto, o la reproducción de contenido
+  multimedia.
 * Disparar animaciones imperativas.
 * Integrarnos con librerías externas.
 
@@ -32,13 +33,14 @@ Hay un par de casos de uso válidos para usar refs:
 ## Agregar una referencia a un elemento del DOM
 
 `React` soporta un atributo especial que puede ser asignado a cualquier
-componente. El atributo `ref` recibe una función callback, la cual se ejecutará
-inmediatamente después de que el componente se monte o desmonte.
+componente implementado como clase: `ref`. El atributo `ref` recibe una función
+callback, la cual se ejecutará inmediatamente después de que el componente se
+monte o desmonte.
 
 Cuando el atributo `ref` es usado en un elemento HTML, la función callback
 recibe el elemento DOM como argumento:
 
-```javascript
+```js
 class CustomTextInput extends React.Component {
   constructor(props) {
     super(props);
@@ -80,7 +82,7 @@ hacer autofocus en el componente `CustomTextInput`, podemos renderizarlo dentro
 de un componente padre, que ejecute el método `CustomTextInput.focus()` cuando
 se monte:
 
-```javascript
+```js
 class AutoFocusTextInput extends React.Component {
   componentDidMount() {
     this.textInput.focus();
@@ -105,5 +107,3 @@ como clase.
 **Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen
 instancias**. Si necesitas usar `ref` con un componente `stateless`, debes
 convertirlo en `statefull`.
-
-***
