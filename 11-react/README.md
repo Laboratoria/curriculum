@@ -155,7 +155,7 @@ código y `Webpack` empaquetar nuestra aplicación.
 
 Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido
 como especificar nuestras `props` en la signatura misma de nuestros componentes.
-En esta lección nos vamos a enfocar la especificación de sus tipos, opcionalidad
+En esta unidad nos vamos a enfocar la especificación de sus tipos, opcionalidad
 y valores por defectos.
 
 Luego analizaremos la propiedad especial `children` y como manipularla con
@@ -167,7 +167,7 @@ Hasta aquí podemos decir que React puede ser una muy buena herramienta, pero
 realmente no ofrece ningún valor diferencial en relación a otras que hacen algo
 parecido.
 
-En esta lección vamos a sumergirnos en lo que realmente hace a React y sus
+En esta unidad vamos a sumergirnos en lo que realmente hace a React y sus
 amigos, un conjunto de herramientas **único**: un nuevo patrón de diseño de
 aplicaciones, que ha desencadenado una auténtica revolución y el surgimiento de
 todo un ecosistema de herramientas.
@@ -183,7 +183,7 @@ de diseño e implementación de una librería de componentes con React y Redux.
 ### Unidad 06: [React OOP: ciclo de vida, estado interno y refs](05-oop)
 
 `React` define sólo 9 métodos muy simples para controlar el ciclo de vida de los
-componentes. En esta lección nos empaparemos de la compacta documentación de
+componentes. En esta unidad nos empaparemos de la compacta documentación de
 React.
 
 Luego analizaremos casos en los que necesitamos que los componentes tengan un
