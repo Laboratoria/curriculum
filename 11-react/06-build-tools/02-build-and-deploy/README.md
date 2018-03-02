@@ -6,9 +6,9 @@
 
 ***
 
-## build
+## Build
 
-1 - asi como creamos un `webpack.config.js` para nuestro entorno de
+1 - Así como creamos un `webpack.config.js` para nuestro entorno de
 *desarrollo*, crearemos nuestro `webpack.config.prod.js` para nuestro entorno
 de *producción*.
 
@@ -26,10 +26,8 @@ const config = {
   // el contexto se mantiene igual
   context: resolve(__dirname, 'src'),
 
-  // establecemos a que carpeta y
-  // con que nombre de archivo
-  // se creará nuestro `bundle`
-  // en nuestro caso `./dist/bundle.js`
+  // establecemos a qué carpeta y con qué nombre de archivo se creará nuestro
+  // `bundle`; en nuestro caso `./dist/bundle.js`
   output: {
     filename: 'bundle.js',
     path: resolve(__dirname, 'dist'), // `dist` de "distribution"
@@ -88,8 +86,8 @@ const config = {
 module.exports = config;
 ```
 
-2 - crearemos un `npm script` `build` dentro de `package.json` que se encargue
-de ejecutar `webpack` con la configuración del punto anterior.
+2 - Crearemos un `npm script` con el nombre `build` dentro de `package.json` que
+se encargue de ejecutar `webpack` con la configuración del punto anterior.
 
 ```js
 // package.json
@@ -99,18 +97,21 @@ de ejecutar `webpack` con la configuración del punto anterior.
 }
 ```
 
-¿Qué hacen esos parámetros de `progress`, `profile` y `colors`?
+¿Qué hacen esos parámetros de `progress`, `profile` y `colors`? Para no quedarte
+con dudas te recomendamos que eches un vistazo a la [documentación oficial de la
+herramienta de línea de comando (CLI) de `webpack`](https://webpack.js.org/api/cli/).
 
-## deploy
+## Deploy
 
-3 - instalaremos un [módulo](https://github.com/tschaub/gh-pages) que nos
+3 - Instalaremos un [módulo](https://github.com/tschaub/gh-pages) que nos
 permite desplegar fácilmente a `gh-pages` (`yarn add -D gh-pages`). Gihub
 pages publicará en una url de la siguiente forma
 `http://username.github.io/repo-name` el contenido que se encuentre en el
 branch `gh-pages` de nuestro repo
 
-4 - crearemos un `npm script` `deploy` que primero ejecute `build` y luego
-publique el contenido de la  carpeta `dist`, usando el módulo `gh-pages`.
+4 - Crearemos un `npm script` con el nombre `deploy` que primero ejecute `build`
+y luego publique el contenido de la  carpeta `dist`, usando el módulo
+`gh-pages`.
 
 ```js
 // package.json
@@ -132,5 +133,3 @@ empaquetado y despliegue. Encapsular estos pasos con scripts para `start`,
 `build` y `deploy`, no sólo contribute a nuestra DX, sino que además permite
 automatizar los procesos de `empaquetado` y `despliegue` para llegar a lo que se
 llama en la industria como ***[delivery continuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.
-
-***

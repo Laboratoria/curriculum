@@ -7,20 +7,19 @@
 ***
 
 Si simplificamos al mínimo el proceso de desarrollo de software, podríamos
-establecer 3 etapas básicas: **Desarrollo**, **empaquetado** y **despliegue**.
+establecer 3 etapas básicas: **desarrollo**, **empaquetado** y **despliegue**.
 
 ## Desarrollo
 
-Durante esta etapa es en la que creamos el producto que tenemos en mente. Para
-ese fin, es importante contar con herramientas que nos permitan **reconocer
-rápidamente un error** e **identificar dónde ocurre** para poder corregirlo,
-que nos permitan obtener feedback de nuestros cambios tan rápido como sea
-posible.
+Durante esta etapa creamos el producto que tenemos en mente (o iteramos sobre
+él). Para ese fin, es importante contar con herramientas que nos permitan
+**reconocer rápidamente un error** e **identificar dónde ocurre** para poder
+corregirlo, que nos permitan obtener feedback de nuestros cambios tan rápido
+como sea posible.
 
 Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
 
-1. abra un navegador cuando el código es "compilado" por primera vez
-
+1. abra un navegador cuando el código sea "compilado" por primera vez
 2. refresque el contenido cada vez que realizamos un cambio.
 
 ***
@@ -33,7 +32,7 @@ Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
   hasta que la página esté disponible)
 * ahorra el paso extra de refrescar manualmente el navegador para comprobar un
   cambio
-* modifica el dom con los cambios sin ni siquiera refrescar la página.
+* modifica el DOM con los cambios sin ni siquiera refrescar la página.
 
 Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de
 desarrollo (DX) mucho mas fluída.
@@ -42,13 +41,12 @@ desarrollo (DX) mucho mas fluída.
 
 ## Empaquetado
 
-Durante la etapa de desarrollo cuando ejecutamos nuestra aplicación nosotros
-necesitamos de mucha información y mucha de ella es agregada exclusivamente
-con esos fines.
+Durante la etapa de desarrollo cuando ejecutamos nuestra aplicación necesitamos
+mucha información, y mucha de ella es agregada exclusivamente con esos fines.
 
-Pero cuando nosotros queremos empaquetar nuestra aplicación para publicarla al
-mundo, necesitamos que sea tan **pequeña** como sea posible y que se ejecute
-lo más **rápido** posible.
+Pero cuando queremos empaquetar nuestra aplicación para publicarla al mundo,
+necesitamos que sea tan **pequeña** como sea posible y que se ejecute lo más
+**rápido** posible.
 
 En este escenario, decimos que nuestra aplicación debe estar **optimizada**
 para un entorno de *producción*.
@@ -60,7 +58,7 @@ algunos comunes:
   solo archivo
 * optimizar imágenes, audio y video
 * crear sprites o versiones *retina* y *standard* para las iḿágenes de fondo
-* ... infinidad de cosas mas.
+* ... infinidad de cosas mas
 
 ## Despliegue (`deployment`)
 
@@ -78,6 +76,6 @@ permite publicar contenido web asociado a tus proyectos.
 ***
 
 Ya contamos con la configuración para nuestro proceso de **desarrollo** en
-`webpack.config.js`, en el resto de las lecturas de esta lección, veremos cómo
+`webpack.config.js`, en el resto de las lecturas de esta unidad, veremos cómo
 usar `webpack`, `npm scripts` y `gh-pages` para **empaquetar** y **desplegar**
 nuestra aplicación.
