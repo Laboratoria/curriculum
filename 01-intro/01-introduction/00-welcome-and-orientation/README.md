@@ -101,16 +101,20 @@ Los contactos para cada sede, son los siguientes:
   - Michelle Seguil, michelle@laboratoria.la
   - Arabela Rojas, arabela@laboratoria.la
 * Ciudad de México:
-  - Jonathan Parra, jonathan@laboratoria.la
-  - Adoración Cid, adoracion@laboratoria.la
-  - Grissel Rocha, grissel@laboratoria.la
+  - Jonathan Parra: jonathan@laboratoria.la
+  - Karla Nava: karla.n@laboratoria.la
+  - Amalia Rivera: amalia@laboratoria.la
+  - Silvana Suárez: silvana@laboratoria.la
+  - Emmanuel Orozco: emmanuel@laboratoria.la
 * Santiago de Chile:
   - Allison Guzmán: allison@laboratoria.la
   - Belén Recabal: belen@laboratoria.la
-  - Alexandra Neira; alexandra@laboratoria.la
+  - Alexandra Neira: alexandra@laboratoria.la
   - Nadia Tapia: nadia@laboratoria.la
   - Marcia Millanao: marcia@laboratoria.la
-
+* Guadalajara:
+  - Ameli C. Gavante: ameli@laboratoria.la
+  - Yesenia Escárcega: yesenia@laboratoria.la
 <!--
 ## Fechas importantes
 
