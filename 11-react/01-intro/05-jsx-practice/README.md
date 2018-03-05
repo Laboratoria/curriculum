@@ -6,8 +6,8 @@
 
 ***
 
-Vamos a continuar con el ejercicio anterior, donde contruimos una interfaz
-usando React y ReactDOM a partir de un HTML. En este ejemplo, la _data_ que
+Vamos a continuar con el ejercicio anterior, donde construimos una interfaz
+usando `React` y `ReactDOM` a partir de un HTML. En este ejemplo, la _data_ que
 estamos representando en nuestra interfaz se podría organizar de la siguiente
 manera:
 
@@ -39,7 +39,7 @@ de JSX en vez de usar `React.DOM.div` y compañía.
 Continuando el ejercicio anterior, ahora nos toca configurar la página, para que
 comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que
 haremos es incluir una dependencia a un script de `babel`, que entre otras cosas
-entiende `JSX` y crearemos nuestro `script`, con una anotación especial, para
+entiende `JSX`, y crearemos nuestro `script`, con una anotación especial, para
 que `babel` entienda que es su responsabilidad procesarlo.
 
 Entoces, necesitamos agregar la siguiente dependencia:
@@ -71,7 +71,7 @@ function Header(props) {
   return DOM.header(null,
     DOM.h1(null, props.titulo),
     DOM.p(null, props.descripcion)
-  )
+  );
 }
 ```
 
@@ -91,15 +91,15 @@ function Header(props) {
 y
 
 ```js
-const articles = props.articles.map(function(it) {
-  return Article(it)
+const articles = props.articles.map(function (it) {
+  return Article(it);
 })
 ```
 
 se convierte en
 
 ```jsx
-const children = props.articles.map(function(a) {
+const children = props.articles.map(function (a) {
   return <Article titulo={a.titulo} descripcion={a.descripcion} />
 })
 ```
