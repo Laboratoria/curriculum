@@ -65,7 +65,7 @@ el apoyo del staff de profesores de Laboratoria.
 * [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
 * [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
 * [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
-
+* [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
 ### 2. Horas de consulta
 
 Cada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y
@@ -86,6 +86,7 @@ Las horas de consulta por sede son las siguientes:
   - Jueves 20 de julio de 4pm a 6pm.
   - Jueves 27 de julio de 4pm a 6pm.
   - Martes 1 de agosto de 4pm a 6pm.
+* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, Guadalajara, Jal. 
 
 ### 3. Correo
 
