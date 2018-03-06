@@ -21,7 +21,9 @@ individual e independiente.
 
 La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu
 propio ritmo, pero te recomendamos organizarte con tiempo para que vayas
-haciéndolo poco a poco. Tendrás hasta el **jueves 3 de agosto** para terminar.
+haciéndolo poco a poco. Recuerda que el equipo de Laboratoria estará
+recordandoles constantemente las fechas de cierre para tu pretrabajo,
+no olvides anotarla y tenerla presente.
 
 Para pasar a la siguiente etapa del proceso de selección es necesario que
 completes todo el pre-trabajo. Las postulantes que demuestren el mayor
@@ -66,7 +68,8 @@ el apoyo del staff de profesores de Laboratoria.
 * [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
 * [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
 * [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
-### 2. Horas de consulta
+
+<!-- ### 2. Horas de consulta
 
 Cada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y
 recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te
@@ -86,36 +89,39 @@ Las horas de consulta por sede son las siguientes:
   - Jueves 20 de julio de 4pm a 6pm.
   - Jueves 27 de julio de 4pm a 6pm.
   - Martes 1 de agosto de 4pm a 6pm.
-* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, Guadalajara, Jal. 
+* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, Guadalajara, Jal.  -->
 
 ### 3. Correo
 
-Si no logras resolver tus dudas a través de Facebook o de las horas de consulta,
-también tendrás la opción de escribirle directamente a nuestro staff de
-profesores para resolver dudas puntuales. Trata de utilizar esta opción como
+Si no has podido resolver tus dudas y necesitas  recibir la ayuda de nuestro
+equipo de formación,
+también tendrás la opción de escribirle al equipo de selección y entrenamiento 
+del bootcamp, a través de los datos de contacto señalados por sede.
+
+Trata de utilizar esta opción como
 último recurso ya que mientras más correos recibamos, más nos tardaremos en
 responderlos.
 
 Los contactos para cada sede, son los siguientes:
 
 * Lima:
-  - Michelle Seguil, michelle@laboratoria.la
-  - Arabela Rojas, arabela@laboratoria.la
+  <!-- - Michelle Seguil, michelle@laboratoria.la
+  - Arabela Rojas, arabela@laboratoria.la -->
 * Ciudad de México:
-  - Jonathan Parra: jonathan@laboratoria.la
+  <!-- - Jonathan Parra: jonathan@laboratoria.la
   - Karla Nava: karla.n@laboratoria.la
   - Amalia Rivera: amalia@laboratoria.la
   - Silvana Suárez: silvana@laboratoria.la
-  - Emmanuel Orozco: emmanuel@laboratoria.la
+  - Emmanuel Orozco: emmanuel@laboratoria.la -->
 * Santiago de Chile:
-  - Allison Guzmán: allison@laboratoria.la
+  <!-- - Allison Guzmán: allison@laboratoria.la
   - Belén Recabal: belen@laboratoria.la
   - Alexandra Neira: alexandra@laboratoria.la
   - Nadia Tapia: nadia@laboratoria.la
-  - Marcia Millanao: marcia@laboratoria.la
+  - Marcia Millanao: marcia@laboratoria.la -->
 * Guadalajara:
-  - Ameli C. Gavante: ameli@laboratoria.la
-  - Yesenia Escárcega: yesenia@laboratoria.la
+  <!-- - Ameli C. Gavante: ameli@laboratoria.la
+  - Yesenia Escárcega: yesenia@laboratoria.la -->
 <!--
 ## Fechas importantes
 
