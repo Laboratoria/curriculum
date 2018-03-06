@@ -21,9 +21,9 @@ individual e independiente.
 
 La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu
 propio ritmo, pero te recomendamos organizarte con tiempo para que vayas
-haciéndolo poco a poco. Recuerda que el equipo de Laboratoria estará
-recordandoles constantemente las fechas de cierre para tu pretrabajo,
-no olvides anotarla y tenerla presente.
+haciéndolo poco a poco. El equipo de Laboratoria estará recordándoles
+constantemente las fechas de cierre para el pretrabajo, no olvides anotarla y
+tenerla presente.
 
 Para pasar a la siguiente etapa del proceso de selección es necesario que
 completes todo el pre-trabajo. Las postulantes que demuestren el mayor
@@ -69,7 +69,8 @@ el apoyo del staff de profesores de Laboratoria.
 * [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
 * [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
 
-<!-- ### 2. Horas de consulta
+<!--
+### 2. Horas de consulta
 
 Cada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y
 recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te
@@ -89,14 +90,16 @@ Las horas de consulta por sede son las siguientes:
   - Jueves 20 de julio de 4pm a 6pm.
   - Jueves 27 de julio de 4pm a 6pm.
   - Martes 1 de agosto de 4pm a 6pm.
-* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, Guadalajara, Jal.  -->
+* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol,
+  Guadalajara, Jal.
+-->
 
 ### 2. Correo
 
 Si no has podido resolver tus dudas y necesitas  recibir la ayuda de nuestro
-equipo de formación,
-también tendrás la opción de escribirle al equipo de selección y entrenamiento 
-del bootcamp, a través de los datos de contacto señalados por sede.
+equipo de formación, también tendrás la opción de escribirle al equipo de
+selección y entrenamiento del bootcamp, a través de los datos de contacto
+señalados por sede.
 
 Trata de utilizar esta opción como
 último recurso ya que mientras más correos recibamos, más nos tardaremos en
@@ -122,16 +125,6 @@ Los contactos para cada sede, son los siguientes:
 * Guadalajara:
   <!-- - Ameli C. Gavante: ameli@laboratoria.la
   - Yesenia Escárcega: yesenia@laboratoria.la -->
-<!--
-## Fechas importantes
-
-Si estás tomando este curso como parte del proceso de admisión a Laboratoria,
-las fechas importantes son ....
-
-## Expectativas
-
-Nuestra expectativa con este curso es...
--->
 
 ## Sobre este curso
 
