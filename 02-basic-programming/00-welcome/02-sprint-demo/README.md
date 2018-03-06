@@ -34,4 +34,4 @@
 - [Lima](https://docs.google.com/forms/d/e/1FAIpQLSc1-gZDdm_gsXhFxEyK8Yn296ozUgDsorNivJTC6vu_5KA-5g/viewform)
 - [Santiago de Chile](https://docs.google.com/forms/d/e/1FAIpQLSf1_WAALcCtfvZfNkR-ZKb7PY8IZemFiwlYwi-gnLttakPCrg/viewform)
 - [Ciudad de México](https://docs.google.com/forms/d/e/1FAIpQLSdVj1JHH1z22iNKRnVH46QOlM6Iybu3b6dO2kyry_Wd4HRdEg/viewform)
-
+- [Guadalajara](https://docs.google.com/forms/d/e/1FAIpQLSc3t4BV81a3GDPZqPPguHWL81bOtISrKtaR3LhuMJ2T39gKwA/viewform)
