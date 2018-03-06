@@ -91,7 +91,7 @@ Las horas de consulta por sede son las siguientes:
   - Martes 1 de agosto de 4pm a 6pm.
 * Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, Guadalajara, Jal.  -->
 
-### 3. Correo
+### 2. Correo
 
 Si no has podido resolver tus dudas y necesitas  recibir la ayuda de nuestro
 equipo de formación,
