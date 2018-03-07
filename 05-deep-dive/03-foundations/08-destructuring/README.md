@@ -1,4 +1,4 @@
-# Desestructuración de arrays y objetos
+# Asignación desestructurada de arrays y objetos
 
 * Tipo: `lectura`
 * Formato: `self-paced`

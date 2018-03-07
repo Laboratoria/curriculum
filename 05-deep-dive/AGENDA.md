@@ -33,7 +33,7 @@ Total estimado: 3h 30min (aprox. 1h libre para que investiguen y planeen reto)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 2.5h     | Unidad 5: Fundamentos de JavaScript (parte 1)
+| 2 | 2.5h     | Unidad 3: Fundamentos de JavaScript (parte 1)
 
 Total estimado: 2h 45min (aprox. 2h libres para hacking, y estudio libre ...)
 
@@ -42,7 +42,7 @@ Total estimado: 2h 45min (aprox. 2h libres para hacking, y estudio libre ...)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 2h       | Unidad 5: Fundamentos de JavaScript (parte 2)
+| 2 | 2h       | Unidad 3: Fundamentos de JavaScript (parte 2)
 
 Total estimado: 2h 15min (aprox. 2h libres para hacking, y estudio libre ...)
 
@@ -55,16 +55,17 @@ Total estimado: 2h 15min (aprox. 2h libres para hacking, y estudio libre ...)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 105min   | Unidad 3: Unit Testing / Pruebas unitarias
+| 2 | 105min   | Unidad 4: Unit Testing / Pruebas unitarias
 
-Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar, repasar, ...)
+Total estimado: 2h (aprox. 2.5h libres para empezar a codear, preguntar,
+repasar, ...)
 
 ### Día 3
 
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 75min    | Unidad 4: Paquetes y módulos
+| 2 | 2.4h     | Unidad 5: Asincronía: Callbacks, eventos y promesas
 
 Total estimado: 1h 30min (aprox. 3h libres para hacking, y estudio libre ...)
 
@@ -73,7 +74,7 @@ Total estimado: 1h 30min (aprox. 3h libres para hacking, y estudio libre ...)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 2.4h     | Unit 6: Asincronía: Callbacks, eventos y promesas
+| 2 | 1h       | Taller: Code review (parte 1)
 
 Total estimado: 2h 45min (aprox. 1.5h libres para hacking, y estudio libre ...)
 
@@ -82,8 +83,7 @@ Total estimado: 2h 45min (aprox. 1.5h libres para hacking, y estudio libre ...)
 | # | Duración | Descripción
 |---|----------|------------
 | 1 | 15min    | Daily
-| 2 | 1h       | Taller: Code review (parte 1)
-| 3 | 2.4h     | Unit 7: Manejo de errores
+| 3 | 2.4h     | Unidad 7: Manejo de errores
 
 Total estimado: 3h 45min (aprox. 1h libres para hacking, y estudio libre ...)
 
@@ -97,7 +97,7 @@ Total estimado: 3h 45min (aprox. 1h libres para hacking, y estudio libre ...)
 |---|----------|------------
 | 1 | 15min    | Daily
 | 2 | 1h       | Taller: Code review (parte 2)
-| 3 | 1.8h     | Unit 8: Browser APIs
+| 3 | 1.8h     | Unidad 7: Browser APIs
 
 Total estimado: 3h (aprox. 1.5h libres para hacking, y estudio libre ...)
 

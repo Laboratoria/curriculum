@@ -27,7 +27,7 @@ Hay un montón de frameworks y librerías buenísimas de testing para JavaScript
 > Tests are usually run periodically, often after every change to the source
 > code. The more often the better, because the sooner you will catch problems.
 >
-> Fuente: https://stackoverflow.com/a/652309/374331
+> Fuente: [Stack Overflow](https://stackoverflow.com/a/652309/374331)
 
 En este curso nos vamos a concentrar en **Mocha**, y en particular en la
 interfaz [BDD](https://mochajs.org/#bdd), que implementa una API para hacer

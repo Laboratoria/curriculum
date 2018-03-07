@@ -15,66 +15,83 @@
 
 ## ¿Qué vamos a aprender?
 
-Como indica el nombre del curso, vamos a `profundizar` en conceptos peculiares
-de JavaScript, esto implica entender lo que sucede internamente en el lenguaje
-de programación al momento de pasar por su proceso de compilación e
-interpretación.
+Programar en JavaScript te hace ver _cool_, conocer las particularidades del
+lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
+una profundización en el lenguaje. Verás temas que probablemente ya conozcas
+pero desde una perspectiva de performance y buenas prácticas conociendo ciertas
+peculiaridades de JavaScript que lo hace distinto a los demás lenguajes de
+programación.
 
-### 1. Fundamentos de Programación
+El objetivo práctico de este curso es que aprendas como crear tu propia librería
+(o biblioteca - _library_) en JavaScript. Como desarrolladorxs, estamos
+constantemente usando _módulos_ de terceros, ya sean librerías, frameworks o la
+_librería estándar_ (standard library) tanto del lenguaje en sí como el
+entorno/motor de ejecución (el navegador, node.js, ...).
 
-* Tipos de datos primitivos y de referencia
-* Operadores bit a bit
-* Comparación estricta
-* Ámbito de variables por bloque
+Diseñar tu propia librería es una experiencia fundamental para cualquier
+desarrollador ya que te obliga a pensar en la interfaz (API) de tus módulos,
+cómo serán usados por otras personas, ... y tener especial consideración en
+peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-### 2. Manejo de Excepciones
+En este curso se presentarán una serie de retos que requieren la implementación
+de una o más librerías.
+
+### 1. Fundamentos de JavaScript
+
+* Varibles, valores, tipos de datos, tipos primitivos y referencias
+* Control de flujo
+* Operadores
+* Funciones
+* Scope/ámbito
+* Arreglos
+* Objetos
+* Strings
+* Built-ins (objetos pre-construidos)
+
+### 2. Pruebas / Testing
+
+En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
+Driven Development - TDD). Veremos los pasos necesarios para escribir tus
+primeros tests y entender el valor tan grande que aportan.
+
+Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
+
+### 3. Asincronía
+
+* Callbacks
+* Eventos
+* Bubbling vs Capturing
+* Promises
+
+### 4. Manejo de Excepciones
 
 * Modo estricto
-* Try...catch
+* try...catch
+* Manejo de errores en callbacks
+* Manejo de errores en promesas
 
-### 3. DOM y Eventos
+### 5. APIs del navegador
 
-* Manipulación y recorrido del DOM
+* DOM: Manipulación y recorrido
 * Redibujo del navegador
-* Bubbling vs Capturing
-
-### 4. jQuery
-
-* Conceptos de **organización de código**
-* Optimización de manipulación y recorrido del DOM
+* BOM
+* ...
 
 ### 5. Otros
 
 * A **trabajar siguiendo una guía de estilos**
 * A **trabajar sobre una base de código existente**
-* A **implementar un plugin de jQuery** para manipular el DOM.
-
-## Estrategia de aprendizaje
-
-Este curso se compone de `workshops` presenciales, `lecturas/videos` y
-`ejercicios` en el siguiente orden:
-
-1. Empezaremos por un [workshop](../02-env) con el objetivo de que todas las
-   alumnas tengan las herramientas necesarias y el entorno de desarrollo listo.
-2. Después comienza el contenido específico del curso, donde nos concentraremos
-   en las particularidades del lenguaje en temas que probablemente ya conocemos
-   como fundamentos de programación, funciones y estructura de datos, para los
-   cuales usaremos contenido en formato de `lecturas` y `ejercicios`.
-3. Llegados a este punto introduciremos una lección de manejo de errores para
-   controlar mejor el flujo de las aplicaciones que construyamos.
-4. Workshop presencial sobre temas del DOM y eventos donde los conceptos que se
-   vieron en lecciones anteriores se aplicarán de una manera más visual.
-5. Por último, veremos ciertas buenas prácticas de organización de código con
-   jQuery para escribir un código mantenible para nuestra extensión de la
-   librería aplicada al producto del curso.
+* A **implementar un plugins** para manipular el DOM.
 
 ## Entregables
 
-Todos los entregables del curso se manejarán en el repositorio de tu cohort. El
-remoto orígen estará alojado en GitHub (`Laboratoria/js-deep-dive-<cohort-id>`).
-Deberás mandar un Pull Request al repositorio original en el que se correrán
-pruebas automatizadas para validar que tu código esté sintácticamente correcto
-además de lograr el resultado esperado.
+Al completar este curso tendrás que presentar tu proyecto (librería) en una
+demo, así como enviar un mínimo de un pull request con la implementación del
+proyecto.
+
+Cada semana se harán _code reviews_ con tus instructorxs para hacer seguimiento
+de progreso, darte feedback sobre tu trabajo y asegurarnos de que nadie se queda
+descolgadx.
 
 ## Evaluación
 
@@ -83,7 +100,7 @@ por el puntaje de tu producto/reto y tu equipo y el 40% restante será
 determinado por tu desempeño personal.
 
 Para determinar el puntaje de tu equipo/producto contaremos con sesiones
-períodicas de revisión de código durante todo el proceso y luego con el
+periódicas de revisión de código durante todo el proceso y luego con el
 desempeño del producto durante el día de la demo, donde será evaluado por el
 equipo técnico y el resto de los equipos.
 
