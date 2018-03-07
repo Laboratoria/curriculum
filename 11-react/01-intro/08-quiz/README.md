@@ -33,7 +33,7 @@
 
 1. Una nueva implementación del DOM
 2. Una estructura de datos que react usa para representar la jerarquía de
-componentes como un árbol análogo al DOM
+   componentes como un árbol análogo al DOM
 3. Una referencia al DOM del navegador
 4. Una acción especial de React que sólo se ejecuta cuando hay cambios
 
@@ -60,7 +60,7 @@ componentes como un árbol análogo al DOM
 
 <solution style="display:none;">3</solution>
 
-### 5) El renderizado condicional...
+### 5) El renderizado condicional
 
 #### Opciones
 
