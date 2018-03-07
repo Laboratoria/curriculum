@@ -74,7 +74,7 @@ pero no queremos una app nativa. Necesitamos botones grandes para escoger los
 productos, y el estado actual del pedido siempre visible para poder confirmar
 con el cliente su pedido.
 
-*missing image*
+[missing image]
 
 ## Adicionales
 
