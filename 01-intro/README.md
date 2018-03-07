@@ -53,29 +53,11 @@ Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
 tu primera página web.
 
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 |  lectura  | Self-paced |   10min  | Bienvenida y orientación
-| 01 | lectura   | self-paced |   20min  | Growth Mindset
-| 02 | lectura   | self-paced |   20min  | ¿Qué es la programación y porqué aprender a programar?
-| 03 | lectura   | self-paced |   20min  | Tu primera página web
-| 04 |   quiz    | self-paced |   20min  | Prueba tu conocimiento
-
 ### Unidad 02: [Variables y Tipos de Datos](02-variables-and-data-types)
 
 Aprende a utilizar variables para almacenar información que cambia durante el
 transcurso del programa y los diferentes tipo de datos de los valores en
 JavaScript.
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | lectura   | self-paced |   60min  | Valores, tipos de datos y operadores
-| 01 | lectura   | self-paced |   60min  | Variables
-| 02 | lectura   | self-paced |   30min  | Manipulando `strings` y `numbers`
-| 03 | lectura   | self-paced |   15min  | Comentarios en JavaScript
-| 04 | seminario |   guiado   |   60min  | Ejercicios guiados
-| 05 |   quiz    | self-paced |   30min  | Prueba tu conocimiento
-| 06 | practice  | self-paced |   30min  | Ejercicios
 
 ### Unidad 03: [UX Design](03-ux-design)
 
@@ -83,33 +65,10 @@ Todo producto web necesita ser diseñado pensando en el usuario. Antes de empeza
 a crear tu producto final, es importante que conozcas las técnicas de user
 experience design para que tu producto sea algo que la gente quiera usar.
 
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 |  lectura  | self-paced |   15min  | El equipo de desarrollo
-| 01 |  lectura  | self-paced |   15min  | UX Design
-| 02 |  lectura  | self-paced |   30min  | UX vs UI
-| 03 |    quiz   | self-paced |   30min  | Prueba tu conocimiento
-
 ### Unidad 04: [Control de Flujo](04-flow-control)
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y
 por lo tanto darle flexibilidad a lo que hace tu producto.
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | seminario |    guiado  |  100min  | Recap
-| 01 |  lectura  | self-paced |   10min  | Apertura
-| 02 |  lectura  | self-paced |   30min  | Estructuras condicionales y repetitivas
-| 03 |  lectura  | self-paced |   60min  | Casos Prácticos
-| 04 |  lectura  | self-paced |   30min  | Funciones
-| 05 |   quiz    | self-paced |   30min  | Quiz 1
-| 06 | seminario |   guiado   |  120min  | Revisión de conceptos
-| 07 |  taller   |   guiado   |   120min  | Ejercicios guiados
-| 08 |  practice | self-paced |   120min | Retos de código
-| 09 | seminario |   guiado   |   120min | Solucionario retos de código
-| 10 |   quiz    | self-paced |   30min  | Requiz
-| 11 | seminario | self-paced |   5min   | Auto-evaluación
-| 12 | seminario |    guiado  |   120min | Cierre
 
 ***
 
