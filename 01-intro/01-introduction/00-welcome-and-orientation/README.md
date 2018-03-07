@@ -101,30 +101,19 @@ equipo de formación, también tendrás la opción de escribirle al equipo de
 selección y entrenamiento del bootcamp, a través de los datos de contacto
 señalados por sede.
 
-Trata de utilizar esta opción como
-último recurso ya que mientras más correos recibamos, más nos tardaremos en
-responderlos.
+Trata de utilizar esta opción como último recurso ya que mientras más correos
+recibamos, más nos tardaremos en responderlos.
 
 Los contactos para cada sede, son los siguientes:
 
 * Lima:
-  <!-- - Michelle Seguil, michelle@laboratoria.la
-  - Arabela Rojas, arabela@laboratoria.la -->
+  - Alejandra Ramírez: alejandra@laboratoria.la
 * Ciudad de México:
-  <!-- - Jonathan Parra: jonathan@laboratoria.la
-  - Karla Nava: karla.n@laboratoria.la
-  - Amalia Rivera: amalia@laboratoria.la
-  - Silvana Suárez: silvana@laboratoria.la
-  - Emmanuel Orozco: emmanuel@laboratoria.la -->
+  - Lucile Baratier: lucile@laboratoria.la
 * Santiago de Chile:
-  <!-- - Allison Guzmán: allison@laboratoria.la
-  - Belén Recabal: belen@laboratoria.la
-  - Alexandra Neira: alexandra@laboratoria.la
-  - Nadia Tapia: nadia@laboratoria.la
-  - Marcia Millanao: marcia@laboratoria.la -->
+  - Valentina Smith: valentina@laboratoria.la
 * Guadalajara:
-  <!-- - Ameli C. Gavante: ameli@laboratoria.la
-  - Yesenia Escárcega: yesenia@laboratoria.la -->
+  - Karla Rejas: karla@laboratoria.la
 
 ## Sobre este curso
 
