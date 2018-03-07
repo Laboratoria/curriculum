@@ -184,7 +184,7 @@ documento JavaScript.
 
 ## Añádele interacción a tu web
 
-¡Ahora te toca a to! Continúa con Michelle siguiendo los pasos para agregarle
+¡Ahora te toca a tí! Continúa con Michelle siguiendo los pasos para agregarle
 interacción a tu página web:
 
 Los pasos a seguir son:
