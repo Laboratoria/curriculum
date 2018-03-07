@@ -16,7 +16,16 @@
   },
   "no-inline-html": {
     "allowed_elements": [
-      "sup", "solution", "table", "thead", "tbody", "tr", "th", "td", "iframe"
+      "sup",
+      "solution",
+      "table",
+      "thead",
+      "tbody",
+      "tr",
+      "th",
+      "td",
+      "iframe",
+      "pre"
     ]
   }
 }
