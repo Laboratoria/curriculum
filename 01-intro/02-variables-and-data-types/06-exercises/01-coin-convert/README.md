@@ -1,7 +1,7 @@
 # coinConverter
 
-Escriba una función 'coinConverter' que convierte el valor de dólares a soles,
-pesos mexicano y pesos chilenos.
+Escribe una función con el nombre `coinConverter` que convierte el valor de
+dólares a soles peruanos, pesos mexicano y pesos chilenos.
 
 Utiliza las tasas de cambio siguientes:
 
@@ -14,7 +14,7 @@ pesosChilenos = dólares * 660
 Ejemplo:
 
 ```js
-function coinConvert (dollar = 50) {
+function coinConvert(dollar = 50) {
   soles = dollar * 3.25;
   pesosMexicanos = dollar * 18;
   pesosChilenos = dollar * 660;

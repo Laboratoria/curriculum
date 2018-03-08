@@ -38,7 +38,7 @@
 
 <solution style="display:none;">2,5</solution>
 
-### 3) Para crear un producto digital en el mundo de hoy requieres ...*
+### 3) Para crear un producto digital en el mundo de hoy requieres
 
 #### Opciones
 

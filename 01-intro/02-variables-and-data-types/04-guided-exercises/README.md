@@ -1,7 +1,7 @@
-# Ejercicios Guiados - Variables y tipos de datos
+# Ejercicios Guiados
 
-- Tipo: `seminario`
-- Formato: `guiado`
+- Tipo: `práctica`
+- Formato: `self-paced`
 - Duración: `60min`
 
 ## Objetivos de Aprendizaje
@@ -16,7 +16,7 @@
 ## Enunciados
 
 Ahora que ya conoces ciertos conceptos base de la programación, es hora de que
-veas en práctica las cosas que puedes crear.
+veas las cosas que puedes crear en la práctica.
 
 Los proyectos a crear son:
 
@@ -26,17 +26,17 @@ Los proyectos a crear son:
 2. **Convertidor de temperatura**: Crea una web que pida al usuario la
    temperatura en grados Celsius (°C), utilizando `prompt()`, y devuelva, en la
    consola, la temperatura en grados Farenheit (°F) utilizando `console.log()`.
-   La fórmula matemática para pasar de °C a °F es:
-   `T(°F) = ( T(°C) × 1.8 ) + 32`.
+   La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) + 32`.
 3. **Ganancias y pérdidas**: Crea un programa que pide los ingresos, los costos
    y el % de impuestos, y calcula la ganancia después de impuestos. Debe
    imprimir el resultado en la web con el símbolo $ adelante.
-
 4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El
    usuario debe ingresar dos palabras separadas por un espacio, por ejemplo:
    "Ana Martinez". El programa debe devolver las iniciales **en mayúsculas**.
    Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven las iniciales
    "AM". "Michelle Seguil" y "michelle seguil" devuelven "MS".
+
+***
 
 ## Solucionarios
 
@@ -58,10 +58,3 @@ anteriores.
 ### 4. Iniciales
 
 [![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/0.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
-
-## Último paso de esta lección
-
-Felicidades, has completado el material de la lección
-`Variables y tipos de datos`. Para finalizar debes continuar a la sección de
-_"prueba tu conocimiento"_, donde completarás algunos retos y cuestionarios que
-validarán tu aprendizaje.

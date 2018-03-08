@@ -225,13 +225,13 @@ evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
 
 ```js
 var medalForScore = function (score) {
- if (score < 3) {
- return 'Bronze';
- }
- if (score < 7) {
- return 'Silver';
- }
- return 'Gold';
+  if (score < 3) {
+    return 'Bronze';
+  }
+  if (score < 7) {
+    return 'Silver';
+  }
+  return 'Gold';
 };
 ```
 

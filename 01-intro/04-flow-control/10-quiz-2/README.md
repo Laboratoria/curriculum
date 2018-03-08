@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### 1) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación? *
+### 1) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación?
 
 ![Flujo bucle](http://eloquentjavascript.net/img/controlflow-loop.svg)
 
@@ -22,7 +22,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 2) Los comentarios en la programación ... *
+### 2) ¿Cuál es el problema con el siguiente código?
 
 ```js
 do {
@@ -40,7 +40,7 @@ do {
 
 <solution style="display:none;">5</solution>
 
-### 3) Encuentra el error en la siguiente función: *
+### 3) Encuentra el error en la siguiente función
 
 ```js
 var result = 0;
@@ -62,18 +62,19 @@ showSum(if, else);
 
 <solution style="display:none;">4</solution>
 
-### 4) La diferencia entre undefined y null ... *
+### 4) La diferencia entre undefined y null
 
 #### Opciones
 
 1. No existe, son lo mismo
-2. Es crucial para entender JavaScript
-3. undefined no tiene valor y null es un string vacio
-4. Es un accidente del diseño de JavaScript y no importa la mayoría del tiempo.
+2. No importa
+2. `undefined` no tiene valor y `null` es un string vacio
+4. `undefined` significa que no se ha _asignado_ un valor, mientras que `null`
+   significa que hemos _asignado_ el valor `null`
 
 <solution style="display:none;">4</solution>
 
-### 5) Cuál es el resultado de ... *
+### 5) Cuál es el resultado de
 
 ```js
 var number = 0;
@@ -92,7 +93,7 @@ while (number <= 12) {
 
 <solution style="display:none;">2</solution>
 
-### 6) El resultado de "Hola" + "mundo" es: *
+### 6) El resultado de "Hola" + "mundo" es
 
 #### Opciones
 
@@ -103,7 +104,7 @@ while (number <= 12) {
 
 <solution style="display:none;">3</solution>
 
-### 7) Cuál es el resultado de ... *
+### 7) Cuál es el resultado de
 
 ```js
 for (var number = 1; number < 8; number = number * 3) {
@@ -120,7 +121,7 @@ for (var number = 1; number < 8; number = number * 3) {
 
 <solution style="display:none;">4</solution>
 
-### 8) Al siguiente switch le faltan algunos "breaks". ¿Cuál sería el resultado de ejecutar el código así como está? *
+### 8) Al siguiente switch le faltan algunos "breaks". ¿Cuál sería el resultado de ejecutar el código así como está?
 
 ```js
 var weather = 'soleado';
@@ -149,7 +150,7 @@ switch (weather) {
 
 <solution style="display:none;">4</solution>
 
-### 9) Cuál es el resultado de ... *
+### 9) Cuál es el resultado de
 
 ```js
 for (var i = 0; i <= 10; i++) {
@@ -172,7 +173,7 @@ for (var i = 0; i <= 10; i++) {
 
 <solution style="display:none;">2</solution>
 
-### 10)  Cuál es el resultado de ...*
+### 10) Cuál es el resultado de
 
 ```js
 var medalForScore = function(score) {
@@ -195,9 +196,9 @@ console.log(medalForScore(3));
 3. Gold
 4. undefined
 
-<solution style="display:none;">2</solution
+<solution style="display:none;">2</solution>
 
-### 11) Una función puede retornar múltiples valores a la vez *
+### 11) Una función puede retornar múltiples valores a la vez
 
 #### Opciones
 
@@ -206,7 +207,7 @@ console.log(medalForScore(3));
 
 <solution style="display:none;">2</solution>
 
-### 12)  Los comandos como alert(), prompt() y console.log() son realmente funciones
+### 12) Los comandos como alert(), prompt() y console.log() son realmente funciones
 
 #### Opciones
 

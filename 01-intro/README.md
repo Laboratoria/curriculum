@@ -62,8 +62,9 @@ JavaScript.
 ### Unidad 03: [UX Design](03-ux-design)
 
 Todo producto web necesita ser diseñado pensando en el usuario. Antes de empezar
-a crear tu producto final, es importante que conozcas las técnicas de user
-experience design para que tu producto sea algo que la gente quiera usar.
+a crear tu producto final, es importante que conozcas las técnicas de _user
+experience design_ (diseño de experiencia de usuario) para que tu producto sea
+algo que la gente quiera usar.
 
 ### Unidad 04: [Control de Flujo](04-flow-control)
 
