@@ -8,20 +8,34 @@
 
 ## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
 
-Piensa en cuál es el mínimo conjunto de datos mutables que necesita tu
-aplicación. La clave aquí es DRY: *Don't Repeat Yourself*. Identifica la
-representación absolutamente mínima del `state` de tu aplicación y toda la
-información derivada la calculas bajo demanda. Por ejemplo si en nuestro ejemplo
-quisieramos mostrar la suma total de items disponibles, sólo nos alcanza con
-tener la lista de productos e iterarla para contabilizar la disponibilidad, sin
-necesidad de tener otra propiedad en nuestro `state` para guardar el calculo.
+Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes que
+necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
+Identifica la representación absolutamente mínima del `state` de tu aplicación y
+toda la información derivada la calculas bajo demanda. Por ejemplo si en nuestro
+ejemplo quisieramos mostrar la suma total de items disponibles, sólo nos alcanza
+con tener la lista de productos e iterarla para contabilizar la disponibilidad,
+sin necesidad de tener otra propiedad en nuestro `state` para guardar el
+cálculo.
 
-Piensa en todas las piezas de información que tiene nuestra aplicación:
+A veces uno pensaría que es ineficiente recomputar un valor cada vez que se
+necesita, pero el impacto en performance es mínimo en relación a la complejidad
+de mantener dos propiedades de nuestro estado sincronizadas a través del tiempo.
+Recuerda, identifica el *mínimo conjunto* de datos que necesita tu *aplicación*,
+y *solo eso*, ni una propiedad más en el `state`.
 
-* La lista original de productos
+Entonces, con eso en mente, piensa en el conjunto mínimo de piezas de
+información, que tiene que tener nuestra aplicación, para ser completamente
+funcional:
+
+* La lista de productos
 * El texto de búsqueda que ingresa el usuario
 * El valor del checkbox
-* La lista filtrada de productos
+
+> Uno podría decir que es necesario mantener dos
+copias de la lista: la original y la filtrada.
+Pero recuerda que el conjunto es el mínimoÑ la lista filtrada de productos
+se obtiene filtrando la lista original, segun el valor del checkbox, es decir
+que es una propiedad derivada de otras dos, por lo tanto no pertenece al `state`.
 
 Ahora hacemos la integración de React con Redux para comenzar con este estado
 global.
@@ -39,20 +53,20 @@ configuración de nuestro Redux store
 
 import { createStore, combineReducers } from 'redux';
 
-import AppReducer from './reducer'
+import AppReducer from './reducer';
 
 const rootReducer = combineReducers({
   // aquí puedes ir agregando entradas de tu store
-  AppReducer
+  AppReducer,
 });
 
 const store = createStore(
   rootReducer,
   // inyectamos la capacidad de usar Redux Dev Tools
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
 
-export default store
+export default store;
 ```
 
 y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de
@@ -68,18 +82,16 @@ const PRODUCTS = [
   {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
   {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
   {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
-  {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'}
+  {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'},
 ];
 
 const INIT_STATE = {
-  // La lista original de productos
-  originalProducts: PRODUCTS,
+  // La de productos
+  products: PRODUCTS,
   // El texto de búsqueda que ingresa el usuario
   filterText: '',
   // El valor del checkbox
   inStockOnly: false,
-  // La lista filtrada de productos
-  filteredProducts: PRODUCTS,
 
   // y heredamos las propiedades para la barra lateral
   asideTitulo: 'Links',
@@ -88,9 +100,9 @@ const INIT_STATE = {
    { href: '#', texto: 'Link 2'},
    { href: '#', texto: 'Link 3'},
    { href: '#', texto: 'Link 4'},
-   { href: '#', texto: 'Link 5'}
-  ]
-}
+   { href: '#', texto: 'Link 5'},
+ ],
+};
 
 // nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor
 // inicial
@@ -98,9 +110,9 @@ export default (state = INIT_STATE, action) => {
   switch(action.type) {
 
   default:
-    return state
+    return state;
   }
-}
+};
 ```
 
 y modificamos el `index.js` para que haga el setup inicial del store.
@@ -113,7 +125,7 @@ import { AppContainer } from 'react-hot-loader';
 // El componente Provider que expone `react-redux`
 import { Provider } from 'react-redux';
 // El que acabamos de crear
-import store from './lib/store'
+import store from './lib/store';
 
 import Main from './lib/components/Main';
 
@@ -143,7 +155,7 @@ if (module.hot) {
 Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con
 la info indicada en INIT_STATE
 
-![State en Redux Dev Tools](https://github.com/merunga/curricula-js/raw/master/11-react/L06-hocs-global-state/static/redux-dev-tools.jpg)
+![State en Redux Dev Tools](https://user-images.githubusercontent.com/110297/37154993-b3cfd14e-22af-11e8-9336-7ba13ab31815.png)
 
 Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e
 inyectemos la magia de Redux a nuestros componentes.
@@ -157,9 +169,9 @@ que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
 
 // te acuerdas que hablamos de `connect` al comienzo de la lección?
 // Finalmente esta aquí!!!
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 // Y el componente puramente presentacional de Main, ya sin hack
-import MainComponent from './components/Main'
+import MainComponent from './components/Main';
 
 const MainWithRedux = connect(
   // `connect` recibe dos parámetros. El primero de ellos es
@@ -170,8 +182,8 @@ const MainWithRedux = connect(
     const {
       filteredProducts,
       asideTitulo,
-      asideLinks
-    } = state.AppReducer
+      asideLinks,
+    } = state.AppReducer;
 
     // y devolvemos las nuevas props
     return {
@@ -179,12 +191,12 @@ const MainWithRedux = connect(
       // pero que la props del componente `Main` se llama `products`
       products: filteredProducts,
       asideTitulo,
-      asideLinks
-    }
+      asideLinks,
+    };
   }
-)(MainComponent)
+)(MainComponent);
 
-export default MainWithRedux
+export default MainWithRedux;
 ```
 
 Y lo segundo es indicar en `index.js` que ya no queremos usar
