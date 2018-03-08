@@ -139,11 +139,6 @@ en el mundo tech.
 * Algunos **conceptos básicos de programación** como: variables, tipos datos y
   operadores.
 
-### Duración
-
-* Total: 20-25 horas.
-* Modalidad: Self-paced (a tu propio ritmo - online).
-
 ### Requerimientos previos
 
 Ningún conocimiento previo de programación es necesario para completar este
