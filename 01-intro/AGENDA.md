@@ -52,8 +52,6 @@ Javascript`, asegurando que sabemos:
   equipo de profesores
 * ¡Aclarar todas las dudas que tengas!
 
-***
-
 ### Agenda
 
 1. Entendamos bien el concepto de un control de flujo. Dibujemos los diferentes
@@ -84,8 +82,6 @@ Javascript`, asegurando que sabemos:
 * Entender que existe más de una forma de resolver los problemas y analizar las
   ventajas y desventajas de cada solución propuesta
 
-***
-
 ### Agenda
 
 * Resolver los retos, evaluar las diferentes maneras de alcanzar el resultado y
@@ -98,8 +94,6 @@ Javascript`, asegurando que sabemos:
 * Tipo: `seminario`
 * Formato: `guiado`
 * Duración: `120min`
-
-***
 
 ### Agenda
 
