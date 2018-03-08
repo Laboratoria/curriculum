@@ -1,4 +1,4 @@
-module.exports = function coinConvert (usDollars) {
+module.exports = function coinConvert(usDollars) {
   var arr = [];
   var peruvianSoles /* tu código aquí */;
   var mexicanPesos /* tu código aquí */;

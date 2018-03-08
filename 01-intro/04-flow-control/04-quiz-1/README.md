@@ -19,7 +19,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 2) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación? *
+### 2) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación?
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 
@@ -34,7 +34,7 @@
 
 <solution style="display:none;">6</solution>
 
-### 3) Son ejemplos de DRY: *
+### 3) Son ejemplos de DRY
 
 #### Opciones
 
@@ -45,7 +45,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 4) ¿Cuál es el problema con el código a continuación ? *
+### 4) ¿Cuál es el problema con el código a continuación?
 
 ```js
 while (3 > 2) {
@@ -62,12 +62,12 @@ while (3 > 2) {
 
 <solution style="display:none;">4</solution>
 
-### 5) Encuentra el error en la siguiente función: *
+### 5) Encuentra el error en la siguiente función
 
 ```js
 var result = 0;
 
-var showSum = function() {
+var showSum = function () {
   result = num1 + num2;
   alert('El resultado es ' + result);
 }
@@ -84,7 +84,7 @@ showSum();
 
 <solution style="display:none;">1</solution>
 
-### 6) Completa los espacios en blanco (ordenadamente). *
+### 6) Completa los espacios en blanco (ordenadamente)
 
 ```js
 var sum = _____(num1, num2) {
@@ -103,14 +103,14 @@ _______(2, 3);
 
 <solution style="display:none;">3</solution>
 
-### 7) Cuál es el resultado de ... *
+### 7) Cuál es el resultado de
 
 ```js
 var emoji = ':D';
 
 var greet = function (name) {
   emoji = ':)';
-  var  myGreet = function() {
+  var myGreet = function () {
     return 'Hola ' + name + ' ' + emoji;
   }
   return myGreet();
@@ -128,7 +128,7 @@ console.log(greet('Laboratoria'));
 
 <solution style="display:none;">2</solution>
 
-### 8) Cuál es el resultado de ... *
+### 8) Cuál es el resultado de
 
 ```js
 var number = 0;
@@ -148,7 +148,7 @@ while (number <= 12) {
 
 <solution style="display:none;">4</solution>
 
-### 9) Cuál es el resultado de ... *
+### 9) Cuál es el resultado de
 
 ```js
 for (var number = 1; number <= 8; number = number * 2) {
@@ -165,7 +165,7 @@ for (var number = 1; number <= 8; number = number * 2) {
 
 <solution style="display:none;">3</solution>
 
-### 10)  Al siguiente switch le faltan algunos "breaks", sin embargo ¿Cuál sería el resultado de ejecutar el código así como está? *
+### 10) Al siguiente switch le faltan algunos "breaks", sin embargo ¿Cuál sería el resultado de ejecutar el código así como está?
 
 ```js
 var weather = 'nublado';
@@ -192,9 +192,9 @@ switch (weather) {
 3. Imprime 'Tipo de Clima desconocido.'
 4. Imprime 'Sal a la calle.' y 'Tipo de Clima desconocido.'
 
-<solution style="display:none;">4</solution
+<solution style="display:none;">4</solution>
 
-### 11) ¿Qué diferencia un bucle "do" de un "while"? *
+### 11) ¿Qué diferencia un bucle "do" de un "while"?
 
 #### Opciones
 
@@ -205,7 +205,7 @@ switch (weather) {
 
 <solution style="display:none;">1</solution>
 
-### 12) Cuál es el resultado de ... *
+### 12) Cuál es el resultado de
 
 ```js
 for (var i = 0; i <= 10; i++) {
@@ -227,7 +227,7 @@ for (var i = 0; i <= 10; i++) {
 
 <solution style="display:none;">2</solution>
 
-### 13) Cuál es el resultado de ... *
+### 13) Cuál es el resultado de
 
 ```js
 var medalForScore = function (score) {
@@ -252,7 +252,7 @@ console.log(medalForScore(7));
 
 <solution style="display:none;">3</solution>
 
-### 14) En el ejemplo a continuación... *
+### 14) En el ejemplo a continuación
 
 ```js
 var square = function (num) {

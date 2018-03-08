@@ -38,7 +38,7 @@
 
 <solution style="display:none;">2,5</solution>
 
-### 3) Para crear un producto digital en el mundo de hoy requieres ...*
+### 3) Para crear un producto digital en el mundo de hoy requieres
 
 #### Opciones
 
@@ -61,7 +61,7 @@
 
 <solution style="display:none;">1,3,4</solution>
 
-### 5) Facilidad para las relaciones sociales y para el análisis son características de un ___________ designer.
+### 5) Facilidad para las relaciones sociales y para el análisis son características de un ___________ designer
 
 #### Opciones
 
@@ -72,7 +72,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) Los siguientes términos: `botones`, `ventanas`, `esquinas redondeadas`, `checkboxes`, están más relacionados con:
+### 6) Los siguientes términos: `botones`, `ventanas`, `esquinas redondeadas`, `checkboxes`, están más relacionados con
 
 #### Opciones
 
@@ -94,7 +94,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 8) Son actividades que realiza un UX Designer:
+### 8) Son actividades que realiza un UX Designer
 
 #### Opciones
 

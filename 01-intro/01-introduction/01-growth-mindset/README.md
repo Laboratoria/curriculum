@@ -18,8 +18,8 @@ iniciar tu carrera en el sector digital en un periodo muy corto de tiempo.
 Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en
 **aprender a aprender**.
 
-¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar este
-módulo, esperamos que no sólo entiendas este concepto, sino que adoptes una
+¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar esta
+lectura, esperamos que no sólo entiendas este concepto, sino que adoptes una
 mentalidad de crecimiento que te permita enfrentar los retos de aprender algo
 nuevo, y tener la confianza de saber que podrás superarlos.
 
@@ -73,13 +73,7 @@ proceso.**
 
 Mira este video sobre Growth mindset (10 min)
 
-Instrucciones para ponerle subtítulos en español al video:
-
-* Dar click a la tuerca de configuración/settings
-* Click en subtítulos/subtitles
-* Seleccionar español/spanish
-
-[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
+[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc&cc_lang_pref=es&cc_load_policy=1)
 
 ## Desarrollando Growth Mindset
 
@@ -96,7 +90,7 @@ y te ayudará a identificar cómo mejorar:
 
 ## Growth Mindset en Laboratoria
 
-Antes de pasar al siguiente módulo queremos darte algunos consejos para tu
+Antes de pasar a la siguiente lectura queremos darte algunos consejos para tu
 proceso de aprendizaje:
 
 1. El aprendizaje es mejor y perdura más cuando necesitas esforzarte más. Los

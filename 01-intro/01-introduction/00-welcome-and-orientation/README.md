@@ -131,24 +131,20 @@ en el mundo tech.
 
 ### Aprenderás
 
-* Entender qué es la programación y por qué aprender a programar.
-* Entender qué es JavaScript y por qué aprenderlo.
-* Tener un primer acercamiento al mundo del código, creando tu primera página
-  web.
+* Entender **qué es la programación** y por qué aprender a programar.
+* Entender **qué es JavaScript** y por qué aprenderlo.
+* Tener un primer acercamiento al mundo del código, creando **tu primera página
+  web**.
 * A darle dinamismo a tu web utilizando JavaScript.
-* Algunos conceptos básicos de programación como: variables, tipos datos y
+* Algunos **conceptos básicos de programación** como: variables, tipos datos y
   operadores.
-
-### Duración
-
-* Total: 15-20 horas.
-* Modalidad: Self-paced (a tu propio ritmo - online).
 
 ### Requerimientos previos
 
 Ningún conocimiento previo de programación es necesario para completar este
 curso. Está diseñado para principiantes.
 
+<!--
 ## Syllabus
 
 Este pre-work consta de 2 módulos principales:
@@ -190,3 +186,4 @@ programación, como lo son las variables, los tipos de datos y los operadores.
   - Unidad 2: Prueba tu conocimiento
 * Sesión 7: practice
   - Unidad 2: Ejercicios
+-->

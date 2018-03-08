@@ -1,18 +1,12 @@
-# Closing: Programación básica en Javascript
+# Cierre
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+- Tipo: `read`
+- Formato: `self-paced`
+- Duración: `5min`
 
 ***
 
-## Agenda
-
-### 1. Repasemos qué hemos aprendido hasta ahora
-
-### 2. Conversemos sobre el sentimiento de la clase (`auto-evaluación`)
-
-### 3. Respondamos las preguntas del opening
+## Respondamos las preguntas del opening
 
 - ¿Por qué quisiéramos modificar el control de flujo de un programa?
 - ¿Cuáles son las formas de modificar el flujo de un programa? Dibuja una
