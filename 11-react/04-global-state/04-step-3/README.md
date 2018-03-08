@@ -8,26 +8,6 @@
 
 ## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
 
-<<<<<<< HEAD
-Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes
-que necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
-Identifica la representación absolutamente mínima del `state`
-de tu aplicación y toda la información derivada la calculas
-bajo demanda. Por ejemplo si en nuestro ejemplo
-quisieramos mostrar la suma total de items disponibles, sólo nos alcanza con
-tener la lista de productos e iterarla para contabilizar la disponibilidad, sin
-necesidad de tener otra propiedad en nuestro `state` para guardar el cálculo.
-
-A veces uno pensaría que es ineficiente recomputar un valor
-cada vez que se necesita, pero el impacto en performance es mínimo
-en relación a la complejidad de mantener dos
-propiedades de nuestro estado sincronizadas a través del tiempo. Recuerda,
-identifica el *mínimo conjunto* de datos que necesita tu *aplicación*,
-y *solo eso*, ni una propiedad más en el `state`.
-
-Entonces, con eso en mente, piensa en el conjunto mínimo de piezas de información,
-que tiene que tener nuestra aplicación, para ser completamente funcional:
-=======
 Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes que
 necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
 Identifica la representación absolutamente mínima del `state` de tu aplicación y
@@ -46,7 +26,6 @@ y *solo eso*, ni una propiedad más en el `state`.
 Entonces, con eso en mente, piensa en el conjunto mínimo de piezas de
 información, que tiene que tener nuestra aplicación, para ser completamente
 funcional:
->>>>>>> merunga-master
 
 * La lista de productos
 * El texto de búsqueda que ingresa el usuario
@@ -176,7 +155,7 @@ if (module.hot) {
 Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con
 la info indicada en INIT_STATE
 
-![State en Redux Dev Tools](https://github.com/merunga/curricula-js/raw/master/11-react/L06-hocs-global-state/static/redux-dev-tools.jpg)
+![State en Redux Dev Tools](https://user-images.githubusercontent.com/110297/37154993-b3cfd14e-22af-11e8-9336-7ba13ab31815.png)
 
 Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e
 inyectemos la magia de Redux a nuestros componentes.
