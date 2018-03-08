@@ -9,10 +9,10 @@ const PRODUCTS = [
 ];
 
 const INIT_STATE = {
-  originalProducts: PRODUCTS,
+  products: PRODUCTS,
   filterText: '',
   inStockOnly: false,
-  filteredProducts: PRODUCTS,
+
   asideTitulo: 'Links',
   asideLinks: [
    { href: '#', texto: 'Link 1'},
