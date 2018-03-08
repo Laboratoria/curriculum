@@ -7,15 +7,22 @@ const MainWithRedux = connect(
   // a props que recibirá `MainComponent`
   function mapStateToProps(state) {
     // buscamos los 3 valores que nos interesan
+    const products = state.AppReducer.products.filter(p => (
+      // el checkbox esta prendido y `p.stocked === true`
+      // si el checkbox esta apagado siempre true
+      (state.inStockOnly ? p.stocked : true) &&
+      // y el `p.name` matchea `filterText` case insensitive
+      p.name.match(new RegExp(state.filterText, 'ig'))
+    ))
+
     const {
-      filteredProducts,
       asideTitulo,
       asideLinks
     } = state.AppReducer;
 
     // y devolvemos las nuevas props
     return {
-      products: filteredProducts,
+      products,
       asideTitulo,
       asideLinks
     };

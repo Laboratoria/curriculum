@@ -6,9 +6,9 @@ import Header from './Header';
 import FilterableProductTable from '../FilterableProductTable/components';
 import Aside from './Aside';
 
-const Main = ({ products, asideTitulo, asideLinks }) => {
-  asideTitulo = 'Links'
-  asideLinks = [
+const Main = ({ }) => {
+  const asideTitulo = 'Links'
+  const asideLinks = [
     { href: '#', texto: 'Link 1'},
     { href: '#', texto: 'Link 2'},
     { href: '#', texto: 'Link 3'},
@@ -17,7 +17,7 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
   ];
 
   // Definimos estaticamente los productos
-  products = [
+  const products = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
     {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
     {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
@@ -32,12 +32,6 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
       <Aside titulo={asideTitulo} links={asideLinks} />
     </Page>
   );
-};
-
-Main.propTypes = {
-  products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  asideTitulo: PropTypes.string.isRequired,
-  asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
 };
 
 export default Main;
