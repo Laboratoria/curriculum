@@ -4,10 +4,11 @@ import PropTypes from 'prop-types'
 const Todo = ({ onClick, onXClick, completed, text }) => (
   <li
     style={{
-      textDecoration: completed ? 'line-through' : 'none'
+      textDecoration: completed ? 'line-through' : 'none',
+      marginBottom: 5
     }}
   >
-    <span onClick={onClick}>{text}</span>
+    <span onClick={onClick} style={{ width: 200, display: 'inline-grid' }}>{text}</span>
     <button
       onClick={e => {
         e.preventDefault()
