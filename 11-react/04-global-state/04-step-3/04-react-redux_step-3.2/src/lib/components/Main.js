@@ -6,11 +6,11 @@ import Header from './Header';
 import FilterableProductTable from '../FilterableProductTable/components';
 import Aside from './Aside';
 
-const Main = ({ products, asideLinks }) => {
+const Main = ({ products, asideTitulo, asideLinks }) => {
   return (
     <Page>
       <FilterableProductTable products={products} />
-      <Aside titulo={""} links={asideLinks} />
+      <Aside titulo={asideTitulo} links={asideLinks} />
     </Page>
   );
 };
