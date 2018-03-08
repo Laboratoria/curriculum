@@ -30,7 +30,7 @@ en el mundo tech.
 
 ## Duración
 
-* Total: 30 horas aprox.
+* Total: 20 horas aprox.
 * Modalidad: Self-paced (online)
 
 ## Requerimientos previos

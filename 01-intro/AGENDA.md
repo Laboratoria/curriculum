@@ -42,15 +42,15 @@ Javascript`, asegurando que sabemos:
 
 ## Clase de Conceptos
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `120min`
 
 ### Objetivos
 
-- Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
+* Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
   equipo de profesores
-- ¡Aclarar todas las dudas que tengas!
+* ¡Aclarar todas las dudas que tengas!
 
 ***
 
@@ -59,13 +59,13 @@ Javascript`, asegurando que sabemos:
 1. Entendamos bien el concepto de un control de flujo. Dibujemos los diferentes
    tipos de control de flujo.
 2. Por medio de ejemplos en la consola repasemos el funcionamiento de:
-   * `for`
-   * `while`
-   * `do`
-   * `if...else`
-   * `switch`
-   * `function`
-   * `return`
+   - `for`
+   - `while`
+   - `do`
+   - `if...else`
+   - `switch`
+   - `function`
+   - `return`
 3. Revisemos los **Retos de código** que resolveremos
    en la próxima clase para que intentes resolverlos por tu cuenta primero.
    Veamos un par de tips :)
@@ -95,9 +95,9 @@ Javascript`, asegurando que sabemos:
 
 ## Cierre
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `seminario`
+* Formato: `guiado`
+* Duración: `120min`
 
 ***
 
@@ -109,23 +109,23 @@ Javascript`, asegurando que sabemos:
 
 #### 3. Respondamos las preguntas del opening
 
-- ¿Por qué quisiéramos modificar el control de flujo de un programa?
-- ¿Cuáles son las formas de modificar el flujo de un programa? Dibuja una
+* ¿Por qué quisiéramos modificar el control de flujo de un programa?
+* ¿Cuáles son las formas de modificar el flujo de un programa? Dibuja una
   representación de cada una
-- ¿Qué significa `else` de una sentencia `if...else`? Dame un ejemplo
-- ¿Cuál es la diferencia entre un `while` y un `do`?
-- ¿Cuáles son las 3 partes (sentencias) esenciales de un `for`? Dame un ejemplo
-- ¿Para qué utilizamos `break` y `continue` en un `for`? Dame un ejemplo
-- Explica, con una analogía y en tus propias palabras, qué es un `function` (una
+* ¿Qué significa `else` de una sentencia `if...else`? Dame un ejemplo
+* ¿Cuál es la diferencia entre un `while` y un `do`?
+* ¿Cuáles son las 3 partes (sentencias) esenciales de un `for`? Dame un ejemplo
+* ¿Para qué utilizamos `break` y `continue` en un `for`? Dame un ejemplo
+* Explica, con una analogía y en tus propias palabras, qué es un `function` (una
   función). Dibuja el concepto de una función
-- ¿Por qué son importantes las funciones en la programación?
-- ¿Qué se entiende por `DRY`?
-- ¿Qué significa "llamar" a una función?
-- ¿Qué sería un "input" (entrada) para una función y qué sería el equivalente
+* ¿Por qué son importantes las funciones en la programación?
+* ¿Qué se entiende por `DRY`?
+* ¿Qué significa "llamar" a una función?
+* ¿Qué sería un "input" (entrada) para una función y qué sería el equivalente
   del "output" (salida)?
-- ¿Cuál es la diferencia entre un parámetro y un argumento de una función?
-- ¿Qué significa el valor de `return` de una función?
-- ¿Qué sucede cuando una función tiene varios valores de `return`?
-- ¿Por qué podemos resolver problemas más complejos sabiendo
+* ¿Cuál es la diferencia entre un parámetro y un argumento de una función?
+* ¿Qué significa el valor de `return` de una función?
+* ¿Qué sucede cuando una función tiene varios valores de `return`?
+* ¿Por qué podemos resolver problemas más complejos sabiendo
   `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un
   ejemplo

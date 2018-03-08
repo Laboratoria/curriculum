@@ -68,7 +68,7 @@ showSum(if, else);
 
 1. No existe, son lo mismo
 2. No importa
-2. `undefined` no tiene valor y `null` es un string vacio
+3. `undefined` no tiene valor y `null` es un string vacio
 4. `undefined` significa que no se ha _asignado_ un valor, mientras que `null`
    significa que hemos _asignado_ el valor `null`
 
