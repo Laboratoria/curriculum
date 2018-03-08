@@ -12,7 +12,7 @@
 ***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io).
 
@@ -26,7 +26,7 @@ pierden. Sigue en tu consola el siguiente ejemplo:
 
 ```js
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + 19 + ' años';
-// returns > "Hola, mi nombre es Michelle y tengo 19 años"
+// retorna: "Hola, mi nombre es Michelle y tengo 19 años"
 ```
 
 Si quisiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años
@@ -38,7 +38,7 @@ Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada
 
 ```js
 var age = 19;
-// returns > undefined
+// retorna: undefined
 ```
 
 La palabra clave (_keyword_) `var` indica que esta frase va a definir una
@@ -61,7 +61,7 @@ actualmente. Sigamos con el ejemplo anterior:
 ```js
 var age = 19;
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
-// returns > "Hola, mi nombre es Michelle y tengo 19 años"
+// retorna: "Hola, mi nombre es Michelle y tengo 19 años"
 ```
 
 La consola nos ayuda a saber el valor de una variable. Si escribimos el nombre
@@ -72,16 +72,16 @@ undefined.
 
 ```js
 age
-// returns > Uncaught ReferenceError: age is not defined
+// retorna: Uncaught ReferenceError: age is not defined
 //           at <anonymous>:1:1
 
 var age = 19;
 age
-// returns > 19
+// retorna: 19
 
 var weight;
 weight
-// returns > undefined
+// retorna: undefined
 ```
 
 Cuando una variable apunta a un valor, eso no quiere decir que está ligada a ese
@@ -91,11 +91,11 @@ para desconectarlas de su valor actual y apuntarlas a uno nuevo.
 
 ```js
 var age = 19;
-// returns > undefined
+// retorna: undefined
 age = 20;
-// returns > 20
+// retorna: 20
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
-// returns > "Hola, mi nombre es Michelle y tengo 20 años"
+// retorna: "Hola, mi nombre es Michelle y tengo 20 años"
 ```
 
 Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_
@@ -169,7 +169,7 @@ hacer de la siguiente manera:
 var score = 0;
 score = score + 1;
 score;
-// returns > 1
+// retorna: 1
 ```
 
 Esto mismo se puede escribir de una manera más sencilla:
@@ -178,7 +178,7 @@ Esto mismo se puede escribir de una manera más sencilla:
 var score = 0;
 score++;
 score;
-// returns > 1
+// retorna: 1
 ```
 
 Lo mismo podemos hacer para disminuir el valor de una variable. Por ejemplo, en
@@ -191,11 +191,11 @@ regenera 10 puntos.
 var lifePoints = 100;
 lifePoints = lifePoints - 25;
 lifePoints
-// returns > 75
+// retorna: 75
 
 lifePoints = lifePoints + 10;
 lifePoints
-// returns > 85
+// retorna: 85
 ```
 
 Esto se puede escribir de una manera reducida, así:
@@ -204,11 +204,11 @@ Esto se puede escribir de una manera reducida, así:
 var lifePoints = 100;
 lifePoints -= 25;
 lifePoints
-// returns > 75
+// retorna: 75
 
 lifePoints += 10;
 lifePoints
-// returns > 85
+// retorna: 85
 ```
 
 Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también
@@ -218,10 +218,10 @@ Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también
 var balloons = 100;
 balloons *= 2;
 balloons
-// returns > 200
+// retorna: 200
 
 var balloons = 100;
 balloons /= 4;
 balloons
-// returns > 25
+// retorna: 25
 ```

@@ -13,7 +13,7 @@
 ***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](https://github.com/hectorip).
 
@@ -29,17 +29,17 @@ Instagram, los registros del clima, los corrreos electrónicos ... todo eso es
 data!
 
 La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que
-nos rodea. La data es información, la información es conocimiento, y el
-conocimiento se traduce en mejores decisiones. Desde decisiones simples, como
-elegir un lugar para almorzar en base a los reviews de Yelp; hasta decisiones
-complejas, como predecir si una mujer está embarazada, según su historial de
-compra en un hipermercado ([fuente](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4)).
+nos rodea. La data es la base de la información, que a su vez es la base del
+conocimiento, y el conocimiento se traduce en mejores decisiones. Desde
+decisiones simples, como elegir un lugar para almorzar en base a los reviews de
+Yelp; hasta decisiones complejas, como predecir si una mujer está embarazada,
+según su historial de compra en un hipermercado ([fuente](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4)).
 
 ## Tipos de datos
 
 Las computadoras son un gran recurso para trabajar con grandes cantidades de
 datos. De hecho, en el mundo de las computadoras solo existen datos. Con las
-computadores podemos leer data, modificar data y crear nueva data. Toda la data
+computadoras podemos leer data, modificar data y crear nueva data. Toda la data
 es almacenada como secuencias largas de los famosos _bits_ - esas secuencias de
 unos y ceros que viste en Matrix.
 
@@ -50,14 +50,14 @@ _**values**_ (valores en español). Cada _value_ tiene un _data type_ (tipo de
 dato) que determina su rol. En JavaScript existen cinco (5) tipos de datos
 primitivos:
 
-1. `numbers` (números).
-2. `strings` (cadenas).
-3. `booleans` (booleanos).
+1. `number` (número).
+2. `string` (cadena).
+3. `boolean` (booleano).
 4. `undefined` (indefinido).
 5. `null` (nulo).
 
 La data y los tipos de datos forman las bases de cualquier lenguaje de
-programación. Nos permiten organizar información y determinar cómo correr el
+programación. Nos permiten organizar información y determinar cómo ejecutar el
 programa. En esta lección aprenderás a definir y manipular estos tipos de datos.
 
 ## 1. Numbers
@@ -65,19 +65,19 @@ programa. En esta lección aprenderás a definir y manipular estos tipos de dato
 Los _values_ de tipo `number` son, sin sorpresa alguna, valores numéricos. Es
 decir, pedazos de data que representan información numérica se representan con
 el tipo `number`. Esto incluye números positivos, negativos, enteros y
-decimales. Además,el tipo de datos `number` tiene tres valores simbólicos:
+decimales. Además, el tipo de datos `number` tiene tres valores simbólicos:
 +Infinity, -Infinity y NaN (no-un-número).
 
 Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click
 con el botón derecho del mouse -> inspect -> console) y escribe los siguientes
-números. Al hacerlo, la consola te lo regresa el número de vuelta.
+números. Al hacerlo, la consola te regresa el número de vuelta.
 
 ```js
 13
-// returns > 13
+// retorna: 13
 
 -9.81
-// returns > -9.81
+// retorna: -9.81
 ```
 
 También puedes hacer uso de la notación científica para números muy grandes o
@@ -86,21 +86,21 @@ número:
 
 ```js
 5e10
-// returns > 50000000000
+// retorna: 50000000000
 
 -2.998e8
-// returns > -299800000
+// retorna: -299800000
 ```
 
 ### Operadores Aritméticos
 
 Lo principal que se hace con los números es aritmética. Sigamos explorando el
-comportamiento del tipo de dato `numbers` en tu consola. Escribe el siguiente
+comportamiento del tipo de dato `number` en tu consola. Escribe el siguiente
 ejemplo en tu consola y confirma que tienes el mismo resultado:
 
 ```js
 100 + 4 * 11
-// returns > 144
+// retorna: 144
 ```
 
 Los símbolos `+` y `*` son llamados _operators_ (operadores). El primero
@@ -111,7 +111,7 @@ cambiar esto encerrando en paréntesis la suma.
 
 ```js
 (100 + 4) * 11
-// returns > 1144
+// retorna: 1144
 ```
 
 Para la resta existe el operador `-`, y la división se puede hacer con el
@@ -119,25 +119,25 @@ operador `/`. Veamos más ejemplos (recuerda hacerlos en tu consola también!):
 
 ```js
 12345 / 250
-// returns > 49.38
+// retorna: 49.38
 
 1234 + 57 * 3 - 31 / 4
-// returns > 1397.25
+// retorna: 1397.25
 
 100 / 0
-// returns > Infinity
+// retorna: Infinity
 
 100 / -0
-// returns > -Infinity
+// retorna: -Infinity
 
 1000 * Infinity
-// returns > Infinity
+// retorna: Infinity
 
 0/0
-// returns > NaN
+// retorna: NaN
 
 Infinity - Infinity
-// returns > NaN
+// retorna: NaN
 ```
 
 También existe un operador aritmético más, que podrías no reconocer
@@ -149,10 +149,10 @@ _módulo_, aunque técnicamente residuo es más preciso.
 
 ```js
 5 % 3
-// returns > 2
+// retorna: 2
 
 7 % 2
-// returns > 1
+// retorna: 1
 ```
 
 ## 2. Strings
@@ -165,13 +165,13 @@ Abre tu consola y escribe lo siguiente:
 
 ```js
 "Hola, mi nombre es Michelle"
-// returns > "Hola, mi nombre es Michelle"
+// retorna: "Hola, mi nombre es Michelle"
 
 'Soy desarrolladora web'
-// returns > "Soy desarrolladora web"
+// retorna: "Soy desarrolladora web"
 
 "123"
-// returns > "123"
+// retorna: "123"
 ```
 
 Tanto las comillas simples como las dobles pueden ser usadas para declarar
@@ -179,30 +179,42 @@ Tanto las comillas simples como las dobles pueden ser usadas para declarar
 cosa puede colocarse entre comillas, y JavaScript creará un _string value_ de
 esa cosa.
 
+***
+
+**Pro tip**:
+
+Podemos usar tanto comillas simples (`'`) como dobles (`"`) para delimitar
+nuestros strings, pero por convención, normalmente en cada proyecto se elige
+usar o una u otra y tratamos de ser consistentes. Esto ayuda a la _claridad_ y
+_mantenibilidad_ del código a largo plazo. En nuestro caso, vamos a elegir las
+comillas simples de aquí en adelante.
+
+***
+
 Existen un par de caracteres en los _data types_ `strings` que tienen un
 comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se
 encuentra dentro de un texto entre comillas, indica que el carácter siguiente
 tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el
-carácter _n_ sigue a una diagonal invertida, se interpreta como una nueva línea.
-Similarmente, una _t_ después de la diagonal invertida significa un tab. Escribe
-los siguientes textos en tu consola (recuerda siempre colocarlos entre comillas,
-sean simples o dobles).
+carácter `n` sigue a una diagonal invertida (backslash - `\`), se interpreta
+como una nueva línea. Similarmente, una `t` después de la diagonal invertida
+significa un tab. Escribe los siguientes textos en tu consola (recuerda siempre
+colocarlos entre comillas, sean simples o dobles).
 
 ```js
-"Esta es la primera línea \n Y esta la segunda"
-// returns > "Esta es la primera línea
+'Esta es la primera línea \n Y esta la segunda'
+// retorna: "Esta es la primera línea
 //            Y esta la segunda"
 
 'Mi lenguaje favorito es \t JavaScript'
-// retuns > "Mi lenguaje favorito es JavaScript"
+// retorna: "Mi lenguaje favorito es    JavaScript"
 ```
 
 Cuando una comilla es precedida por una diagonal invertida, la comilla no
 terminará la cadena sino que será parte de ella.
 
 ```js
-"Yo \"estudio\" en Laboratoria"
-// returns > "Yo "estudio" en Laboratoria"
+'Yo \'estudio\' en Laboratoria'
+// retorna: "Yo 'estudio' en Laboratoria"
 ```
 
 Existen, por supuesto, situaciones en las que querrás que una diagonal invertida
@@ -211,8 +223,8 @@ invertidas están juntas, se volverán una, y sólo eso quedará como resultado 
 el valor de la cadena.
 
 ```js
-"Un carácter de nueva línea es escrito \"\\n\"."
-// returns > "Un carácter de nueva línea es escrito "\n"."
+'Un carácter de nueva línea es escrito \'\\n\'.'
+// retorna: "Un carácter de nueva línea es escrito '\n'."
 ```
 
 Las cadenas de texto no pueden ser divididas numéricamente, multiplicadas, o
@@ -221,16 +233,16 @@ concatena; pega dos `strings`. La siguiente línea produce el `string`
 "concatenar":
 
 ```js
-"con" + "cat" + "e" + "nar"
-// returns > "concatenar"
+'con' + 'cat' + 'e' + 'nar'
+// retorna: "concatenar"
 ```
 
 Ten cuidado mezclando operaciones entre _numbers_ y _strings_. Por ejemplo,
 multiplicar un _number_ por un _string_ resulta en NaN.
 
 ```js
-"hola" * 3
-// returns > NaN
+'hola' * 3
+// retorna: NaN
 ```
 
 Hay más maneras de manipular `strings`, que veremos más adelante.
@@ -238,43 +250,44 @@ Hay más maneras de manipular `strings`, que veremos más adelante.
 ### Operadores Unarios
 
 No todos los operadores son símbolos. Algunos son escritos como palabras. Un
-ejemplo es el operador typeof, que produce una cadena de texto que representa el
-tipo del valor que le pasaste.
+ejemplo es el operador `typeof`, que produce una cadena de caracteres (_string_)
+que representa el tipo del valor que le pasaste.
 
 ```js
 typeof 4.5
-// returns > "number"
+// retorna: "number"
 
-typeof "hola"
-// returns > "string"
+typeof 'hola'
+// retorna: "string"
 
 typeof NaN
-// returns > "number"
+// retorna: "number"
 
 typeof Infinity
-// returns > "number"
+// retorna: "number"
 ```
 
 Fíjate que verificamos que _NaN_ e _Infinity_ son del tipo `number` (de valor
 simbólico), tal como lo mencionamos anteriormente.
 
-Los otros operadores que hemos visto operaban sobre dos valores, pero typeof
+Los otros operadores que hemos visto operaban sobre dos valores, pero `typeof`
 sólamente toma uno. Los operadores que usan dos valores son llamados operadores
 _binarios_, mientras que aquellos que sólo toman uno son llamados operadores
 _unarios_.
 
-El operador menos puede usar tanto como operador binario como operador unario.
+El operador menos (`-`) puede usarse tanto como operador binario como operador
+unario.
 
 ```js
 - (10 - 2)
-// returns > -8
+// retorna: -8
 ```
 
 ## 3. Booleans
 
 A menudo, necesitarás un valor que simplemente distinga entre dos posibilidades,
 como "sí" y "no" o "encendido" y "apagado". Para esto, JavaScript tiene un tipo
-de dato _boolean_, que tiene sólo dos valores: _true_ (verdadero) y _false_
+de dato _boolean_, que tiene solo dos valores: _true_ (verdadero) y _false_
 (falso).
 
 ### Operadores comparativos
@@ -283,20 +296,20 @@ Realiza esta comparación en tu consola:
 
 ```js
 3 > 2
-// returns > true
+// retorna: true
 
 2 > 3
-// returns > false
+// retorna: false
 
 typeof (3 > 2)
-// returns > "boolean"
+// retorna: "boolean"
 
 typeof (2 > 3)
-// returns > "boolean"
+// retorna: "boolean"
 ```
 
-Los signos > y < son los símbolos tradicionales para "es mayor que" y "es menor
-que", respectivamente. Estos son operadores binarios (porque opera sobre dos
+Los signos `>` y `<` son los símbolos tradicionales para "mayor que" y "menor
+que", respectivamente. Estos son operadores binarios (porque operan sobre dos
 valores). Aplicarlos resulta en un valor de tipo _boolean_ que indica si son
 ciertos.
 
@@ -304,38 +317,38 @@ Los `strings` pueden ser comparados de la misma manera.
 
 ```js
 "Aardvark" < "Zoroaster"
-// returns > true
+// retorna: true
 ```
 
 La manera en que los `strings` son ordenadas es más o menos alfabéticamente: las
-letras mayúsculas son siempre "menores" que las minúsculas, así que "Z" < "a" es
-_true_, y los caracteres no alfabéticos (!, -, y así por el estilo) son también
-incluidos en el ordenamiento.La comparación real está basada en el estándar
-[Unicode](https://unicode-table.com/en/#control-character).
+letras mayúsculas son siempre "menores" que las minúsculas, así que `'Z' < 'a'`
+es _true_, y los caracteres no alfabéticos (`!`, `-`, y así por el estilo) son
+también incluidos en el ordenamiento. La comparación real está basada en el
+estándar [Unicode](https://unicode-table.com/en/#control-character).
 
 ```js
-"Zeyla" < "ana"
-// returns > true
+'Zeyla' < 'ana'
+// retorna: true
 
-"Zeyla" < "!na"
-// returns > false
+'Zeyla' < '!na'
+// retorna: false
 ```
 
 Otros operadores similares son >= (mayor o igual que), <= (menor o igual que),
 == (igual que), y != (no es igual que).
 
 ```js
-"Itchy" == "Itchy"
-// returns > true
+'Itchy' == 'Itchy'
+// retorna: true
 
-"Itchy" != "Scratchy"
-// returns > true
+'Itchy' != 'Scratchy'
+// retorna: true
 
 5 == 5
-// returns > true
+// retorna: true
 
-10 != "diez"
-// returns > true
+10 != 'diez'
+// retorna: true
 ```
 
 Sólo existe un valor en JavaScript que no es igual a sí mismo, y este es NaN,
@@ -343,7 +356,7 @@ que significa "no es un número".
 
 ```js
 NaN == NaN
-// returns > false
+// retorna: false
 ```
 
 La intención de NaN es representar el resultado de un cálculo sin sentido y como
@@ -365,25 +378,25 @@ ejemplos:
 
 ```js
 true && true
-// returns > true
+// retorna: true
 
 true && false
-// returns > false
+// retorna: false
 
 false && false
-// returns > false
+// retorna: false
 
 true || true
-// returns > true
+// retorna: true
 
 true || false
-// returns > true
+// retorna: true
 
 !true
-// returns > false
+// retorna: false
 
 !false
-// returns > true
+// retorna: true
 
 ```
 
@@ -393,17 +406,17 @@ y dos puntos, como sigue:
 
 ```js
 true ? 1 : 2
-// returns > 1
+// retorna: 1
 
 false ? 1 : 2
-// returns > 2
+// retorna: 2
 ```
 
 Este es llamado el operador condicional (o algunas veces el operador tenario
-  dado que es el único operador de este tipo en el lenguaje). El valor a la
-  izquierda del signo de interrogación "escoge" cuál de los otros dos valores
-  resultará. Cuando es verdadero, el valor central es escogido, y cuando es
-  falso, el valor de la derecha se da como resultado.
+dado que es el único operador de este tipo en el lenguaje). El valor a la
+izquierda del signo de interrogación "escoge" cuál de los otros dos valores
+resultará. Cuando es verdadero, el valor central es escogido, y cuando es falso,
+el valor de la derecha se da como resultado.
 
 ## 4. Null y undefined
 
@@ -416,6 +429,17 @@ simplemente porque tienen que producir algún valor.
 La diferencia en el significado entre `undefined` y `null` es un accidente del
 diseño de JavaScript, y no importa la mayoría del tiempo.
 
+Entender la diferencia entre `undefined` y `null` (sí hay una diferencia
+semántica) es importante, y más sencillo de lo que parece. Ambos valores denotan
+la ausencia de un valor, pero en un caso podríamos decir que es _intencional_
+(`null`) y en el otro no (`undefined`).
+
+El valor `undefined` significa que no se ha _asignado_ un valor, a diferencia de
+`null`, que significa que hemos _asignado_ el valor `null`. Esto puede ser muy
+útil para diferenciar estados en operaciones asíncronas, ... es común que
+`undefined` signifique que la operación no ha completado aún, mientras que
+`null` significa que completó pero retornó un valor nulo.
+
 ### Conversión automática de tipo
 
 Cuando un operador es aplicado al tipo "incorrecto" de valor, JavaScript
@@ -425,19 +449,19 @@ llamado _coerción de tipo_. Mira estos ejemplos:
 
 ```js
 8 * null
-// returns > 0
+// retorna: 0
 
-"5" - 1
-// returns > 4
+'5' - 1
+// retorna: 4
 
-"5" + 1
-// returns > 51
+'5' + 1
+// retorna: 51
 
-"cinco" * 2
-// returns > NaN
+'cinco' * 2
+// retorna: NaN
 
 false == 0
-// returns > true
+// retorna: true
 ```
 
 El null en la primera expresión se vuelve 0, y el "5" en la segunda expresión se
@@ -463,10 +487,10 @@ expresiones retornan _true_:
 
 ```js
 false == 0
-// returns > true
+// retorna: true
 
-"" == 0
-// returns > true
+'' == 0
+// retorna: true
 ```
 
 Para casos en el que no quieres que ocurra ninguna conversión automática de
@@ -477,8 +501,8 @@ resutado contrario: _false_:
 
 ```js
 false === 0
-// returns > false
+// retorna: false
 
-"" === 0
-// returns > false
+'' === 0
+// retorna: false
 ```

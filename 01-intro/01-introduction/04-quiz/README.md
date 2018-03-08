@@ -1,4 +1,4 @@
-# Quiz 1
+# Quiz
 
 - Tipo: `quiz`
 - Formato: `self-paced`
@@ -60,7 +60,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) En cuanto a los elementos head y body ... *
+### 6) En cuanto a los elementos head y body
 
 #### Opciones
 
@@ -72,7 +72,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 7) El elemento title debe ir dentro del elemento ...*
+### 7) El elemento title debe ir dentro del elemento
 
 #### Opciones
 
@@ -94,7 +94,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 9) El enlace se utiliza para...*
+### 9) ¿Qué hace la siguiente etiqueta?
 
 ```js
 <script src="nombre-del-documento.js"></script>
@@ -109,7 +109,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) Nombres comunes para tus archivos son... *
+### 10) Nombres comunes para tus archivos son
 
 #### Opciones
 

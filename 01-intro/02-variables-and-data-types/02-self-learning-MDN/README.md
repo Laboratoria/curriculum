@@ -1,4 +1,4 @@
-# Auto-aprendizaje: manipulando strings y numbers
+# Manipulando strings y numbers
 
 - Tipo: `lectura`
 - Formato: `self-paced`
