@@ -1,4 +1,4 @@
-# Introducción a Funciones
+# Funciones
 
 - Tipo: `lectura`
 - Formato: `self-paced`

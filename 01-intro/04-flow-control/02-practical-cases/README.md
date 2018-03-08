@@ -1,4 +1,4 @@
-# Casos prácticos (videos)
+# Casos prácticos
 
 - Tipo: `lectura`
 - Formato: `self-paced`

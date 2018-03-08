@@ -1,7 +1,7 @@
-# Clase Práctica: Ejercicios Guiados
+# Ejercicios Guiados
 
-- Tipo: `taller`
-- Formato: `guiado`
+- Tipo: `práctica`
+- Formato: `self-paced`
 - Duración: `120min`
 
 ## Objetivos
