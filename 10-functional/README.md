@@ -1,19 +1,20 @@
-# 10. Functional JavaScript
+# Functional JavaScript
 
 En este curso exploraremos el paradigma funcional en JavaScript así como varios
 patrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de
-los nuevos features de ES2015.
+las nuevas características de ES2015.
 
-La programación funcional es un paradigma de programación de suma relevancia
-hoy en día, ya que se presta a resolver problemas de paralelización, asincronía
-y programación reactiva entre otros. La programación funcional (Functional
-Programming - FP) no es realmente un paradigma nuevo, existe desde hace medio
-siglo, pero recientemente, y en particular en el mundo de JavaScript, se ha
-convertido en tanto una moda como una necesidad. Poco a poco, desde la
-proliferación de librerías como underscore y lodash, después la adición de
-`map()`, `reduce()` y compañía, y ahora con frameworks como React y Redux,
-conocer el paradigma funcional y estilo declarativo se han convertido en una
-necesidad para cualquier desarrollador de JavaScript.
+La programación funcional es un paradigma de programación de suma relevancia hoy
+en día, ya que se presta a resolver problemas de paralelización, asincronía y
+programación reactiva entre otros. La programación funcional (_Functional
+Programming_ o FP por sus siglas en inglés) no es realmente un paradigma nuevo,
+existe desde hace medio siglo, pero recientemente, y en particular en el mundo
+de JavaScript, se ha convertido en tanto una moda como una necesidad. Poco a
+poco, desde la proliferación de librerías como [underscore][] y [lodash][],
+después la adición de `map()`, `filter()`, `reduce()` y compañía, y ahora con
+_frameworks_ como [React][] y [Redux][], conocer el paradigma funcional y estilo
+declarativo se han convertido en una necesidad para cualquier desarrollador de
+JavaScript.
 
 Familiarizarnos con la programción funcional en JavaScript y ES2015 nos
 permitirá más adelante desenvolvernos con naturalidad en React.
@@ -22,7 +23,7 @@ permitirá más adelante desenvolvernos con naturalidad en React.
 
 ## Público objetivo
 
-Este curso está dirigido a desarrolladoras tanto front-end como back-end.
+Este curso está dirigido a desarrolladoras tanto _front-end_ como _back-end_.
 JavaScript es un lenguaje de naturaleza funcional. En este curso aprenderás
 sobre los principios de la programación funcional y cómo se reflejan en
 JavaScript moderno.
@@ -39,184 +40,163 @@ siguientes conocimientos previos:
 ## Aprenderás
 
 * ES2015
-* Recursión
-* High Order Functions
 * Funciones puras
 * Inmutabilidad
+* Recursión
+* _Higher Order Functions_
 * Composición de funciones
-* Composición de objetos
 * Refactorización
-* Automated tests
 * Trabajo en equipo
-* Peer-review
-* Github issues, branches, pull requests, ...
-
-## Detalles logísticos
-
-* Self-paced: 5 hrs (aprox.)
-* Presencial: 10 hrs (aprox.)
-* Total horas: 15 (apox.)
+* Revisión en pares o _Peer-review_
+* Github issues, branches, pull requests, entre otros.
 
 ## Producto
 
 * Refactorizar juego usado en lección 9 usando principios de programación
-  funcional, ES6 y añadiendo test suite.
+  funcional, ES6 y añadiendo un conjunto de pruebas.
 * El "proyecto" está basado en iterar una aplicación existente y llevar a cabo
-  su siguiente release usando metodología agile.
+  su siguiente release usando metodología ágil.
 
 ***
 
 ## Syllabus
 
-### Lesson 1: [Presentación del curso](#)
+### Unidad 01: [Evitando el estado compartido y cambiante](01-state)
 
-15min (presencial)
+En esta unidad veremos dos de los principios fundamentales de la programación
+funcional: cómo evitar el estado compartido usando **funciones puras** y el
+concepto de **inmutabilidad**.
 
-Antes de empezar con la teoría o la práctica, en esta "pre-lección" se hará una
-presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
-metodología de aprendizaje, requisitos previos y metodología de evaluación.
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 30min    | Funciones puras
+| 02 | practice  | self-paced | 10min    | Ejercicios de funciones puras
+| 03 | lectura   | self-paced | 30min    | Inmutabilidad
+| 04 | practice  | self-paced | 10min    | Ejercicios de inmutabilidad
+| 05 | quiz      | self-paced | 10min    | Cuestionario
+| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 15min    | Cierre
 
-#### Lesson plan
+### Unidad 02: [Hacking: refactoring](02-workshop)
 
-| Orden |  Tipo      | Duración | Descripción
-|-------|------------|----------|------------
-|   1   | charla     |   15min  | xxx
+Esta unidad es básicamente una sesión de programación por pares. La tarea a
+realizar será refactorizar varias funciones de un videojuego existente haciendo
+uso de **funciones puras** y **estructuras inmutables**.
 
-### Lesson 2: [Funciones puras](#)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 02 | seminario | guiado     | 15min    | Cierre
 
-30min (self-paced)
+### Unidad 03: [Higher Order Functions](03-hof)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+Las **funciones de orden superior** (_Higher Order Functions_ en inglés), no son
+más que funciones que reciben otras funciones como argumentos o que retornan una
+función. En esta unidad veremos este tipo de funciones en acción, incluyendo
+usos más avanzados como **aplicación parcial** y **currying**.
 
-### Lesson 3: [Inmutabilidad](#)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 30min    | Higher Order Functions
+| 02 | practice  | self-paced | 10min    | Ejercicios de HOF
+| 03 | lectura   | self-paced | 10min    | Aplicación parcial
+| 04 | practice  | self-paced | 10min    | Ejercicios de aplicación parcial
+| 05 | lectura   | self-paced | 30min    | Currying
+| 06 | practice  | self-paced | 10min    | Ejercicios de currying
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 09 | quiz      | self-paced | 10min    | Cuestionario
+| 10 | seminario | guiado     | 15min    | Cierre
 
-30min (self-paced)
+### Unidad 04: [Hacking: refactoring](04-workshop)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+Taller de implementación por pares.
 
-### Lesson 4: [Recursión](#)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 02 | seminario | guiado     | 15min    | Cierre
 
-30min (self-paced)
+### Unidad 05: [Control de flujo](05-flow-control)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+Como paradigma declarativo, la programación funcional se caracteriza, entre
+otras cosas, por expresar "repetición" usando recursión en vez de iteración. En
+esta unidad veremos cómo reemplazar iteración con recursión o higher order
+functions, así como las ventajas que ofrece el enfoque funcional para manejar
+asincronía, que es una característica fundamental de JavaScript.
 
-### Lesson 5: [HOF](#)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | lectura   | self-paced | 50min    | Recursión
+| 02 | practice  | self-paced | 10min    | Ejercicios de recursión
+| 03 | lectura   | self-paced | 30min    | Asincronía
+| 04 | practice  | self-paced | 10min    | Ejercicios de asincronía
+| 05 | quiz      | self-paced | 10min    | Cuestionario
+| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
+| 07 | quiz      | self-paced | 10min    | Cuestionario
+| 08 | seminario | guiado     | 15min    | Cierre
 
-30min (self-paced)
+### Unidad 06: [Hacking: refactoring](06-workshop)
 
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
+Taller de implementación por pares.
 
-### Lesson 6: [Aplicación parcial, bind, call](#)
+|  # |  Tipo     | Formato    | Duración | Descripción
+|----|-----------|------------|----------|------------
+| 00 | seminario | guiado     | 15min    | Apertura
+| 01 | taller    | self-paced | 90min    | Implementación por pares
+| 02 | seminario | guiado     | 15min    | Cierre
 
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 7: [Ejercicios guiados](#)
-
-1h (presencial)
-
-#### Lesson plan
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | solucionario |   30min  | ...
-|   2   | challenge    |   30min  | ...
-
-### Workshop 1: [Hacking: reemplazando iteración con recursión y HOF](#)
-
-2h (presencial)
-
-### Lesson 8: [Asicronía](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 9: [Currying](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Workshop 2: [Hacking: refactoring](#)
-
-3h (presencial)
-
-### Lesson 10: [Espías](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Lesson 11: [Testing](#)
-
-30min (self-paced)
-
-| Orden |  Tipo        | Duración | Descripción
-|-------|--------------|----------|------------
-|   1   | video        |   10min  | ...
-|   2   | code         |   20min  | ...
-
-### Workshop 4: [Hacking: refactoring y testing](#)
-
-1h (presencial)
-
-### Workshop 5: [Code review](#)
-
-1h (presencial)
-
-### Workshop 6: [Demos de proyectos FP](#)
-
-1h (presencial)
+### Unidad 07: [Code review + Demos de proyectos](07-demos)
 
 Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
-### [Examen](#)
-
-30min (presencial)
-
 ***
+
+## Entregables y evaluación
+
+* **Ejercicios**: Durante el curso completarás varios ejercicios en el LMS.
+  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
+  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
+  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
+  será calificada.
+* **Cuestionarios**: Al igual que los ejercicios, a lo largo del curso
+  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
+  para la nota final.
+* **Proyecto**: Antes de la sesión de _code review_ y las demos, cada alumna
+  debe entregar (via pull request) el código de su proyecto. El proyecto incluye
+  refactorizar varios módulos de una base de código existente.
+* **Code review**: **(50%)** La última semana del curso tendrás una sesión de
+  _code review_ con uno de lxs instructorxs. En esta sesión se revisará el
+  código del proyecto así como uno o dos ejercicios realizados durante el curso.
+* **Demo**: **(50%)** El curso cerrará con una demo en la que tendrás que
+  presentar al resto de la clase el trabajo realizado y lo aprendido en el
+  proyecto.
 
 ## Autor(es) / Colaboradores
 
-* Lupo Montero (autor)
-* Mariano Crowe (technical review)
-* ...
+* Milton Mazzarri (autor)
+* Lupo Montero (coordinador)
+* Ana Rangel (colaboradora)
 
 ## Libros
 
+* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) de
+  Michael Fogus
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 ## Benchmarks
 
 Cursos similares que sirven como referencia:
 
-* [Introduction to Functional Programming - How to Think Functionally in (Almost) Any Language](http://shop.oreilly.com/product/0636920052463.do), Barry Burd, November 2016, O'Reilly Media
+* [Introduction to Functional Programming](http://shop.oreilly.com/product/0636920052463.do),
+  How to Think Functionally in (Almost) Any Language, Barry Burd, November 2016,
+  O'Reilly Media
 
 ## Referencias
 
@@ -246,11 +226,23 @@ Blog posts:
 
 Videos:
 
-* [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY), Anjana Vakil, JSUnconf 2016
-* [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo), Stefanie Schirmer, JSConf EU 2015
-* [Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html), James Coglan, JSConf EU 2014
-* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep 13 2012
+* [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84),
+  Mattias Petter Johansson.
+* [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY),
+  Anjana Vakil, JSUnconf 2016
+* [Functional programming and curry cooking in JS](https://www.youtube.com/watch?v=6Qx5ZAbfqjo),
+  Stefanie Schirmer, JSConf EU 2015
+* [Practical functional programming: pick two]( http://2014.jsconf.eu/speakers/james-coglan-practical-functional-programming-pick-two.html),
+  James Coglan, JSConf EU 2014
+* [Pure JavaScript](https://vimeo.com/49384334), Christian Johansen (@cjno), Sep
+  13 2012
 
 Otros recursos:
 
-* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon), @hemanth en GitHub.
+* [Glosario de términos de programación funcional](https://github.com/hemanth/functional-programming-jargon),
+  @hemanth en GitHub.
+
+[underscore]: http://underscorejs.org/
+[lodash]: https://lodash.com/
+[React]: https://facebook.github.io/react/
+[Redux]: http://redux.js.org/
