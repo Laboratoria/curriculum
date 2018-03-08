@@ -29,10 +29,10 @@ programas y productos digitales de mayor complejidad.
 En esta unidad también aprenderemos a utilizar dos programas esenciales para
 cualquier desarrollador. El primero es un controlador de versiones (Git) que
 permite llevar el control del progreso de tu código y mantener un respaldo de
-tu trabajo. El segundo es la línea de comandos (CLI), la interfaz por la cual un
-desarrollador accede a todo el poder de su computador. Sabiendo usar la `CLI`
-podrás instalar programas, usar `Git`, correr cualquier programa, y muchas cosas
-más. ¿Estás lista? ¡Vamos!
+tu trabajo. El segundo es la línea de comandos (CLI), la interfaz por la cual
+un desarrollador accede a todo el poder de su computador. Sabiendo usar la
+`CLI` podrás instalar programas, usar `Git`, correr cualquier programa, y
+muchas cosas más. ¿Estás lista? ¡Vamos!
 
 ## Guía de preguntas y conceptos clave
 
@@ -54,7 +54,8 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   más complejos?
 - ¿Cómo se accede a las _propiedades_ de un valor en JavaScript?
 - ¿Cuál es la diferencia entre una _propiedad_ y un _método_ de un valor?
-- Al hacer `myArray[i]` se dice que estamos accediendo a una propiedad... ¿Por qué?
+- Al hacer `myArray[i]` se dice que estamos accediendo a una propiedad...
+  ¿Por qué?
 - ¿Por qué se dice que los métodos se "llaman"?
 - ¿Qué se entiende por un `array 2D`?
 - Haz un dibujo de la manera de organizar data de estudiantes como

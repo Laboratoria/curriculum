@@ -55,7 +55,7 @@ Laboratoria y empezar las clases.
 | #  | Tipo | Duración | Tópico
 | -- | ---- | -------- | ------
 | 00 | lectura | 10min | Apertura
-| 01 | seminario | 40min | Presentación Laboratoria
+| 01 | seminario | 50min | Presentación Laboratoria
 | 02 | taller | 120min | Sprint Demo
 | 03 | seminario | 60min | ¿Cómo se aprende en Laboratoria?
 | 04 | seminario | 60min | Sprint 1 Kick-off
@@ -70,7 +70,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 00 | lectura | 15min | Apertura
 | 01 | lectura | 60min | Línea de Comandos
 | 02 | lectura | 60min | Control de versiones
-| 03 | seminario | 120min | Repaso
+| 03 | seminario | 180min | Repaso
 | 04 | lectura | 60min | Arreglos
 | 05 | lectura | 60min | Objetos
 | 06 | lectura | 60min | Propiedades y métodos
