@@ -11,10 +11,10 @@ const PRODUCTS = [
 ];
 
 const INIT_STATE = {
-  originalProducts: PRODUCTS,
+  products: PRODUCTS,
   filterText: '',
   inStockOnly: false,
-  filteredProducts: PRODUCTS,
+
   asideTitulo: 'Links',
   asideLinks: [
    { href: '#', texto: 'Link 1'},
@@ -43,45 +43,6 @@ export default (state = INIT_STATE, action) => {
         inStockOnly: action.value
       }
       break;
-  }
-
-  // Y que sucede con los `filteredProducts`?
-  // `filteredProducts` se actualiza cuando cualquiera de las dos acciones
-  // es ejecutada
-  if (
-    action.type === actionTypes.FILTER_TEXT_CHANGED ||
-    action.type === actionTypes.IN_STOCK_ONLY_CHANGED
-  ) {
-    const filteredProducts = state.originalProducts.filter(p => {
-      const filterText =
-        // si el action es `FILTER_TEXT_CHANGED`
-        (action.type === actionTypes.FILTER_TEXT_CHANGED ?
-          // usamos el `text` del action
-          action.text :
-          // si no usamos el `filterText` del `state`
-          state.filterText).trim()
-      const inStockOnly =
-        // si el action es `IN_STOCK_ONLY_CHANGED`
-        action.type === actionTypes.IN_STOCK_ONLY_CHANGED ?
-          // usamos el `value` del action
-          action.value :
-          // si no usamos el `inStockOnly` del `state`
-          state.inStockOnly
-
-      // el producto `p` va a la lista de `filteredProducts` si:
-      return (
-        // el checkbox esta prendido y `p.stocked === true`
-        // si el checkbox esta apagado siempre true
-        (inStockOnly ? p.stocked : true) &&
-        // y el `p.name` matchea `filterText` case insensitive
-        p.name.match(new RegExp(filterText, 'ig'))
-      )
-    })
-
-    state = {
-      ...state,
-      filteredProducts
-    };
   }
 
   // Siempre, siempre, siempre, un reducer debe devolver un `state`
