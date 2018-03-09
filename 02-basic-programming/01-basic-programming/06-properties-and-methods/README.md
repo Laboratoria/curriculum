@@ -2,15 +2,16 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `120min`
 
 ***
 
 ## Objetivos de Aprendizaje
 
 - Aprender qué son propiedades y métodos en JavaScript
-- Aprender los principales propiedades y métodos de `arrays` y `objects`
-- Aprender a inspeccionar la información de `arrays` y `objects` usando `console.table(args);`
+- Aprender principales propiedades y métodos de `arrays` y `objects`
+- Aprender a inspeccionar la información de `arrays` y `objects` usando
+  `console.table(args);`
 
 ***
 
@@ -27,11 +28,11 @@ Nick Morgan, 2015.
 
 ## Propiedades y métodos
 
-A lo largo de este curso hemos visto una serie de comandos un tanto extraños que
- nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al colocar
-`.length` al final de un `string` nos devuelve la cantidad de caracteres del
-`string`. También hemos visto que al colocar `.toUpperCase()` al final de un
-`string` nos devuelve el mismo `string` pero todo en mayúscula.
+A lo largo de este curso hemos visto una serie de comandos un tanto extraños
+que nos permiten hacer cosas en JavaScript. Por ejemplo, hemos visto que al
+colocar `.length` al final de un `string` nos devuelve la cantidad de
+caracteres del `string`. También hemos visto que al colocar `.toUpperCase()`
+al final de un `string` nos devuelve el mismo `string` pero todo en mayúscula.
 
 Estos son ejemplos de **propiedades** y **métodos** en JavaScript. Las
 propiedades generalmente nos _**dicen**_ algo sobre el valor asociado y los
@@ -46,32 +47,32 @@ propiedades y utilizar métodos en los `arrays` y los `objects` también. De
 hecho, casi todos los valores en JavaScript tienen propiedades o métodos. Las
 excepciones son solo `null` y `undefined`.
 
-Las dos maneras comunes de acceder a propiedades o métodos en Javascript son con
- un punto (`.`) y con corchetes (`[]`). Ambas `valor.x` y `valor[x]` acceden a
- una propiedad en valor, pero no necesariamente la misma propiedad. La
- diferencia radica en cómo se interpreta `x`. Cuando usamos un punto, la parte
- después del punto debe ser un nombre de variable válido y nombra de manera
- directa a la propiedad o el método. Cuando usamos corchetes, la expresión
- dentro de los corchetes es _**evaluada**_ para obtener el nombre de la
- propiedad. Mientras que `valor.x` busca la propiedad del valor llamada “x”,
- `valor[x]` intenta _evaluar_ la expresión x y usa el resultado como el nombre
- de la propiedad.
+Las dos maneras comunes de acceder a propiedades o métodos en Javascript son
+con un punto (`.`) y con corchetes (`[]`). Ambas `valor.x` y `valor[x]` acceden
+a una propiedad en valor, pero no necesariamente la misma propiedad. La
+diferencia radica en cómo se interpreta `x`. Cuando usamos un punto, la parte
+después del punto debe ser un nombre de variable válido y nombra de manera
+directa a la propiedad o el método. Cuando usamos corchetes, la expresión
+dentro de los corchetes es _**evaluada**_ para obtener el nombre de la
+propiedad. Mientras que `valor.x` busca la propiedad del valor llamada “x”,
+`valor[x]` intenta _evaluar_ la expresión x y usa el resultado como el nombre
+de la propiedad.
 
 ## Propiedades y métodos de los arrays
 
 Ya hemos visto una manera de acceder a las propiedades de un `array`. Cuando
 accedemos a los elementos de un `array` (utilizando los corchetes `[]` y el
-  _index_) estamos realmente accediendo a sus propiedades. Esto porque
-  **los elementos de un array se almacenan en propiedades**. Entonces, cuando
-  hacemos `myArray[0]` le estamos realmente diciendo a JavaScript que nos
-  devuelva el valor almacenado en la propiedad `0` del array, que está definido
-  como el primer valor de la "primera casilla" del `array`.
+_index_) estamos realmente accediendo a sus propiedades. Esto porque
+**los elementos de un array se almacenan en propiedades**. Entonces, cuando
+hacemos `myArray[0]` le estamos realmente diciendo a JavaScript que nos
+devuelva el valor almacenado en la propiedad `0` del array, que está definido
+como el primer valor de la "primera casilla" del `array`.
 
 ### Encontrando la longitud de un array
 
 Al igual que los `strings`, los `arrays` en JavaScript vienen con una propiedad
 `length` que nos devuelve la longitud del `array`, es decir, el número de
-elementos que componene el array. Veamos un ejemplo:
+elementos que componen el array. Veamos un ejemplo:
 
 ```js
 var myArray = [300, 'hola mundo', [100, 'HOLA MUNDO']];
@@ -84,9 +85,9 @@ console.log(myArray.length);
 ### Añadiendo elementos a un array
 
 Para añadir un elemento al final de un `array` JavaScript cuenta con el
-**método** `push`. Recordemos que es un método porque **hace** algo con el valor
-asociado - en este caso, agrega un elemento al final del array. Veamos un
-ejemplo:
+**método** `push`. Recordemos que es un método porque **hace** algo con el
+valor asociado - en este caso, agrega un elemento al final del array. Veamos
+un ejemplo:
 
 ```js
 var myArray = [300, 'hola mundo', [100, 'HOLA MUNDO']];
@@ -118,14 +119,13 @@ de `4`.
 
 JavaScript nos brinda varios métodos para manipular `arrays`. Con ellos podemos
 añadir elementos al principio del `array`, remover elementos del `array`,
-concatenar `arrays`, unir más de un `array` y muchas cosas más.
+concatenar `arrays` y muchas cosas más.
 
-Como es costumbre en este curso, debes acostumbrarte a "aprender a aprender".
-Recordemos que en el mundo de la tecnología, el **autoaprendizaje** es esencial.
-Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes
-aprender por tu cuenta para mantenerte al día. Por eso, es importante que,
-desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control
-de tu desarrollo profesional.
+> En el mundo de la tecnología, el **autoaprendizaje** es esencial.
+> Constantemente salen herramientas, lenguajes o tecnologías nuevas que debes
+> aprender por tu cuenta para mantenerte al día. Por eso, es importante que,
+> desde el principio, te acostumbres a aprender por tu cuenta y a tomar el control
+> de tu desarrollo profesional.
 
 A continuación te damos una lista de métodos de los `arrays` que debes
 investigar por tu cuenta y aprender a utilizar.
@@ -151,10 +151,9 @@ entiendes como funcionan las cosas.
 Recuerda también que puedes explorar otras formas de autoaprendizaje:
 
 - Busca otros recursos en la web. Uno muy bueno es stackoverflow. En español
-  suele haber menos contenido de calidad, así que quizás tengas que apoyarte con
-  el traductor de Google.
-- Consulta con una compañera de clases
-- Consulta con una amiga (o amigo) que sepa de programación :)
+  suele haber menos contenido de calidad, así que quizás tengas que apoyarte
+  con el traductor de Google.
+- Comenta con una compañera de clases los aprendizajes
 
 ***
 _NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos
@@ -272,7 +271,7 @@ console.table(questions);
 
 ![example array print](<https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png>)
 
-```jsn
+```js
 var weblogs = [
   {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
   {nombre: 'Xataka', visitas: 32000, color: 'Verde'},

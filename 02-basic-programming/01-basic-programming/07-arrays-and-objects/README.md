@@ -27,12 +27,12 @@ Ya hemos visto el caso de tener un `array` como valor de una propiedad
 tener un `array` **de** `objects`.Veamos un ejemplo:
 
 Imaginemos que tenemos data de 3 estudiantes de Laboratoria y queremos
-estructurarla en nuestro programa. Para cada estudiante, tenemos cierta data: su
- nombre, sus puntos, los cursos que ha completado y si la estudiante ha
+estructurarla en nuestro programa. Para cada estudiante, tenemos cierta data:
+su nombre, sus puntos, los cursos que ha completado y si la estudiante ha
 abandonado o sigue cursando el programa.
 
-Una manera de estructurar esta data sería crear un `object` para cada estudiante
-, cada uno con su información, y luego un `array` que contenga los 3 `objects`.
+Una manera de estructurar esta data sería crear un `object` para cada
+estudiante, cada uno con su información, y luego un `array` que contenga los 3 `objects`.
 
 Veamos:
 
@@ -72,9 +72,9 @@ diferente:
   `boolean`, donde `true` significa que está activa (es decir, estudiando)
 - Los cursos que ha completado son un `array`.
 
-Qué lindo cuando ya vemos todo lo que hemos aprendido aplicado en un solo bloque
-de código, ¿no? :) Lo mejor de todo es que con esta estrutura podemos acceder a
-la data de manera sencilla.
+Qué lindo cuando ya vemos todo lo que hemos aprendido aplicado en un solo
+bloque de código, ¿no? :) Lo mejor de todo es que con esta estrutura podemos
+acceder a la data de manera sencilla.
 
 A continuación Michelle te explica cómo utilizar `funciones`, `estructuras
 repetitivas` y `estructuras condicionales` para imprimir en la consola:

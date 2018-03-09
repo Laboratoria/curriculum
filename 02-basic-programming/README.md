@@ -73,7 +73,7 @@ en conceptos básicos de la programación con `JavaScript`.
 | 03 | seminario | 180min | Repaso
 | 04 | lectura | 60min | Arreglos
 | 05 | lectura | 60min | Objetos
-| 06 | lectura | 60min | Propiedades y métodos
+| 06 | lectura | 120min | Propiedades y métodos
 | 07 | lectura | 60min | Combinando arreglos con objetos
 | 08 | lectura | 120min | Casos prácticos
 | 09 | cuestionario | 30min | Quiz
