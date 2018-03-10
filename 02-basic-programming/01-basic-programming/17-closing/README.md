@@ -22,11 +22,12 @@
   más complejos?
 - ¿Cómo se accede a las _propiedades_ de un valor en JavaScript?
 - ¿Cuál es la diferencia entre una _propiedad_ y un _método_ de un valor?
-- Al hacer `myArray[i]` se dice que estamos accediendo a una propiedad... ¿Por qué?
+- Al hacer `myArray[i]` se dice que estamos accediendo a una propiedad...
+  ¿Por qué?
 - ¿Por qué se dice que los métodos se "llaman"?
 - ¿Qué se entiende por un `array 2D`?
-- Haz un dibujo de la manera de organizar data de estudiantes como un `array` de
-  `objects`
+- Haz un dibujo de la manera de organizar data de estudiantes como un `array`
+  de `objects`
 - ¿Qué son los _keys_ de un `object`?
 - ¿Cómo podemos acceder a la lista de _keys_ de un `object`?
 - ¿Qué es un algoritmo? Explica un par de algoritmos que conozcas

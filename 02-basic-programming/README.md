@@ -79,12 +79,13 @@ en conceptos básicos de la programación con `JavaScript`.
 | 09 | cuestionario | 30min | Quiz
 | 10 | seminario | 120min | Revisión de conceptos
 | 11 | taller | 120min | Taller HSE
-| 12 | taller | 120min |  Ejercicios guiados
-| 13 | práctica | 4hrs | Retos de código
-| 14 | seminario | 120min | Solucionario retos de código
-| 15 | cuestionario | 30min | Requiz
-| 16 | cuestionario | 15min | Auto-evaluación
-| 17 | seminario | 30min | Cierre
+| 12 | taller | 5hrs |  Ejercicios guiados
+| 13 | práctica | 8hrs | Retos de código
+| 14 | práctica | 4hrs | Bonús retos de código
+| 15 | seminario | 3hrs | Solucionario retos de código
+| 16 | cuestionario | 30min | Requiz
+| 17 | seminario | 60min | Cierre
+| 18 | cuestionario | 15min | Auto-evaluación
 
 ### Unidad 03: [Productos Finales](02-final-products)
 
@@ -93,7 +94,7 @@ vida cotidiana: tarjeta de crédito válida y cifrado césar.
 
 | #  | Tipo | Duración | Tópico
 | -- | ---- | -------- | ------
-| 01 | práctica | 4hrs | Tarjeta de crédito válida & Cifrado César
+| 01 | práctica | 8hrs | Tarjeta de crédito válida & Cifrado César
 | 02 | taller | 3 hrs | Demo + Code Review (Peer + Teacher)
 | 03 | taller | 2 hrs | Taller HSE
 | 04 | seminario | 3hrs | Solucionario
