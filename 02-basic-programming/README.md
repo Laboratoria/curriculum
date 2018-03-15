@@ -52,54 +52,22 @@ vida cotidiana:
 Darle la bienvenida a la nueva promoción, conocer cómo se aprende en
 Laboratoria y empezar las clases.
 
-| #  | Tipo | Duración | Tópico
-| -- | ---- | -------- | ------
-| 00 | lectura | 10min | Apertura
-| 01 | seminario | 40min | Presentación Laboratoria
-| 02 | taller | 120min | Sprint Demo
-| 03 | seminario | 60min | ¿Cómo se aprende en Laboratoria?
-| 04 | seminario | 60min | Sprint 1 Kick-off
+### Unidad 02: [La línea de comandos y Git](01-shell+git)
 
-### Unidad 02: [Programación básica con JavaScript](01-basic-programming)
+...
 
-Retomar lo aprendido en el curso anterior (Intro JS) y seguir profundizando
-en conceptos básicos de la programación con `JavaScript`.
+### Unidad 03: [Arreglos (Arrays)](02-arrays)
 
-| #  | Tipo | Duración | Tópico
-| -- | ---- | -------- | ------
-| 00 | lectura | 15min | Apertura
-| 01 | lectura | 60min | Línea de Comandos
-| 02 | lectura | 60min | Control de versiones
-| 03 | seminario | 120min | Repaso
-| 04 | lectura | 60min | Arreglos
-| 05 | lectura | 60min | Objetos
-| 06 | lectura | 60min | Propiedades y métodos
-| 07 | lectura | 60min | Combinando arreglos con objetos
-| 08 | lectura | 120min | Casos prácticos
-| 09 | cuestionario | 30min | Quiz
-| 10 | seminario | 120min | Revisión de conceptos
-| 11 | taller | 120min | Taller HSE
-| 12 | taller | 120min |  Ejercicios guiados
-| 13 | práctica | 4hrs | Retos de código
-| 14 | seminario | 120min | Solucionario retos de código
-| 15 | cuestionario | 30min | Requiz
-| 16 | cuestionario | 15min | Auto-evaluación
-| 17 | seminario | 30min | Cierre
+...
 
-### Unidad 03: [Productos Finales](02-final-products)
+### Unidad 04: [Objetos (Objects)](03-objects)
+
+...
+
+### Unidad 05: [Productos Finales](04-final-products)
 
 Aplicar lo aprendido creando dos programas que tienen una aplicación en nuestra
 vida cotidiana: tarjeta de crédito válida y cifrado césar.
-
-| #  | Tipo | Duración | Tópico
-| -- | ---- | -------- | ------
-| 01 | práctica | 4hrs | Tarjeta de crédito válida & Cifrado César
-| 02 | taller | 3 hrs | Demo + Code Review (Peer + Teacher)
-| 03 | taller | 2 hrs | Taller HSE
-| 04 | seminario | 3hrs | Solucionario
-| 05 | taller | 90min | Retrospectiva
-| 05 | cuestionario | 30min | End-of-sprint & team-work survey
-| 06 | seminario | 1 hrs |  Sprint awards
 
 ***
 
