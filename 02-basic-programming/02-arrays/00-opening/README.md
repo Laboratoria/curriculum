@@ -1,4 +1,4 @@
-# Opening: Programación Básica
+# Apertura
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -19,9 +19,9 @@ En esta unidad aprenderemos:
 A medida que vamos creando programas más complejos, necesitamos conocer de
 estructuras que nos facilitan el trabajo. Como hemos visto anteriormente, gran
 parte de la programación se trata de convertir data en información. En esta
-unidad veremos dos estructuras para agrupar data de una manera más eficiente:
-arreglos y objetos. Haciendo uso de estas estructuras de datos podremos crear
-programas y productos digitales de mayor complejidad.
+unidad veremos _arreglos_ y en la próxima _objetos_, dos estructuras para
+agrupar data de una manera más eficiente. Haciendo uso de estas estructuras de
+datos podremos crear programas y productos digitales de mayor complejidad.
 
 ## Guía de preguntas y conceptos clave
 
@@ -38,4 +38,5 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Por qué utilizando `arrays` podemos crear programas o productos más
   complejos?
 - ¿Qué se entiende por un `array 2D`?
-<!-- - ¿Qué es un algoritmo? Explica un par de algoritmos que conozcas -->
+- ¿Qué métodos y propiedades comunes heredan los arreglos de `Array.prototype`?
+- Cómo crear y manipular arreglos

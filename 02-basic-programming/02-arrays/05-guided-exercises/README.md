@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Practicar codeando junto a tu equipo de profes, resolviendo problemas de
-  estructuras condicionales, repetitivas y funciones
+- Practicar codeando junto a tu equipo de profes, resolviendo problemas con las
+  estructuras de control de flujo básicas que ya conoces y arreglos.
 - Practicar, practicar y practicar
 
 ## Enunciados

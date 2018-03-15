@@ -2,7 +2,7 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `3h`
+- Duración: `5h`
 
 ***
 

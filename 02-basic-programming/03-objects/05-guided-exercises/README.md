@@ -47,7 +47,7 @@ elementos en el `array` como un par _key-value_. Por ejemplo:
 También escribe una función que haga lo contrario. Transforme los pares
 _key-value_ de un `object` en un `array 2D`.
 
-## Solucionarios
+## Solucionario
 
 A continuación, Lourdes te explica cómo resolvió el ejercicio:
 

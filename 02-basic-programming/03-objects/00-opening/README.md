@@ -1,4 +1,4 @@
-# Opening: Programación Básica
+# Apertura
 
 - Tipo: `lectura`
 - Formato: `self-paced`
