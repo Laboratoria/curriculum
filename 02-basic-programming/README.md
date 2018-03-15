@@ -10,9 +10,6 @@ programación y así logres crear programas más complejos.
 
 Tags: `arrays`, `objects`, `CLI`, `Git`, `Github`
 
-Secondary tags: `algorithms`, `ascii`, `searching`, `sorting`, `properties`,
-`methods`
-
 ## Público Objetivo
 
 Este curso está dirigido a estudiantes que ingresan a Laboratoria. Es el primer

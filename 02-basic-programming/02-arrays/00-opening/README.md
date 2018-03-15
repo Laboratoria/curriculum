@@ -35,11 +35,7 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-- ¿Cuáles son las diferencias y similitudes entre un `array` y un `object`?
-- ¿Por qué utilizando `arrays` y `objects` podemos crear programas o productos
-  más complejos?
-- Al hacer `myArray[i]` se dice que estamos accediendo a una propiedad... ¿Por
-  qué?
+- ¿Por qué utilizando `arrays` podemos crear programas o productos más
+  complejos?
 - ¿Qué se entiende por un `array 2D`?
-- Haz un dibujo de la manera de organizar data de estudiantes como un `array`
-- ¿Qué es un algoritmo? Explica un par de algoritmos que conozcas
+<!-- - ¿Qué es un algoritmo? Explica un par de algoritmos que conozcas -->
