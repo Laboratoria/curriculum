@@ -51,8 +51,8 @@ Presionamos la tecla "windows" + r:
 
 ![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
 
-Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
-escribiremos **cmd.exe**
+Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la
+que escribiremos **cmd.exe**
 
 ![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
 
@@ -73,8 +73,8 @@ Actividades → Terminal
 
 Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
-- Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
-  con el símbolo `>`
+- Si nos encontramos en **Windows** debe de aparecernos una primera línea que
+  termina con el símbolo `>`
 
   ```text
    C: \Users\Michelle >
@@ -83,14 +83,15 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
   Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
   aparecer tu nombre de usuario.
 
-- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
-  símbolo `$`
+- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con
+  el símbolo `$`
 
   ```text
   [Laboratoria@Michelle ~] $
   ```
 
-  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
+  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus
+  datos.
 
 - Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
   computadora y terminará con el símbolo `$`
@@ -136,7 +137,7 @@ Ahora navegemos nosotras en muestra terminal.
 
 Primero vamos a saber en qué parte de nuestra "ciber casa" nos encontramos.
 Saber en qué parte de nuestro directio nos encontramos es muy importante,
-sobretodo en el caso de que queramos crear una nueva carpeta, un archivo, o
+sobre todo en el caso de que queramos crear una nueva carpeta, un archivo, o
 simplemente saber en qué parte de nuestro equipo nos encontramos.
 
 ### Windows

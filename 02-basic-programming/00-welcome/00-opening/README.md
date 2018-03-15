@@ -27,7 +27,7 @@ finalizar esta unidad:
    Laboratoria - lo que nosotros llamamos el salón de clases ágil. El modelo
    educativo de Laboratoria es radicalmente distinto al tradicional. Con el
    `Sprint Demo` vivirás la experiencia de aprender en Laboratoria y
-   aclararemos expectativas para que puedas arrancar con bien pie :)
+   aclararemos expectativas para que puedas arrancar con buen pie :)
 3. Te explicaremos detalladamente cómo es cada parte de nuestro sistema de
    enseñanza-aprendizaje
 4. Conocerás cómo serán las primeras semanas de clases en Laboratoria con

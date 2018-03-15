@@ -39,7 +39,7 @@
    + `Object.keys`
 
 5. Repasemos qué es un `algoritmo`. Revisar los conceptos clave del [video
-   sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM). Hacer
+   sobre algoritmos](https://www.youtube.com/watch?v=U3CGMyjzlvM) y hagamos la
    dinámica de seguir instrucciones para preparar un sandwich de jamón y queso.
 
 6. Repasemos, por medio de un ejemplo, el workflow de git y los comandos

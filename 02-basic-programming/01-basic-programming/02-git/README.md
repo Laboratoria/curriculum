@@ -98,7 +98,8 @@ ejemplo:
 - Un `visor de versiones` donde se puede comparar el progreso del proyecto en
   las distintas versiones.
 
-**En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
+**En resumen, se podría decir que `Github` es como Dropbox pero para
+  developers.**
 
 ## ¿Cuál es la diferencia entre Git y Github?
 
@@ -166,7 +167,7 @@ Sigue los pasos de Michelle para crear un repositorio en `Github`:
 
 [![Creando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
-Por último tenemos la pantalla donde encontrarmos la `url` de nuestro
+Por último tenemos la pantalla donde encontraremos la `url` de nuestro
 `repositorio remoto`, con la cual (más adelante) vincularemos nuestro
 repositorio remoto con nuestro repositorio local.
 
@@ -421,7 +422,7 @@ A continuación veremos una lista de los comandos de `Git` usados en esta lecci�
 
 ![comandos-git](https://fotos.subefotos.com/f209b041b3f12e56d3e44984a92d1f44o.png)
 
-Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de versiones
-de sus proyectos y colaborar con otras profesoras de Laboratoria.
+Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de
+versiones de sus proyectos y colaborar con otras profesoras de Laboratoria.
 
 [![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)

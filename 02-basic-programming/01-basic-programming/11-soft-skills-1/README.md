@@ -24,7 +24,8 @@ transformará tu vida :) Por ello, al finalizar esta unidad:
 
 1. ¿Por qué desarrollar nuestras Habilidades socioemocionales?
 
-2. ¿Cuáles son las Habilidades socioemocionales que trabajaremos en Laboratoria?
+2. ¿Cuáles son las Habilidades socioemocionales que trabajaremos en
+   Laboratoria?
 
 3. ¿Cómo me evaluarán en HSE?
 

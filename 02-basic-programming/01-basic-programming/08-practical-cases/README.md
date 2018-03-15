@@ -15,10 +15,10 @@
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para
-resolver problemas.
+Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
+para resolver problemas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta
+A continuación tendremos varios problemas que debemos resolver. Intenta
 resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de
 Lourdes, otra profe estrella de Laboratoria. Después de haberlo intentado,
 compara tus soluciones con las de Lourdes.

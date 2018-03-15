@@ -9,7 +9,8 @@
 ## Objetivos
 
 - Obtener feedback de tus compañeras sobre la limpieza y orden de tu código
-- Construir en equipo el mejor producto final, recogiendo lo mejor de cada coder
+- Construir en equipo el mejor producto final, recogiendo lo mejor de cada
+  coder
 - Empezar a practicar cómo es presentar código ante el público
 
 ## Agenda

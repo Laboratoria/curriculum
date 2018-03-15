@@ -16,11 +16,11 @@
 - Reconocer estilos de afrontamiento positivo frente a situaciones difíciles o
   de alto nivel de exigencia
 - Reconocer diferentes estresores de nuestro día a día
-- Identificar algunas situaciones en las que hemos sentido estrés, sus efectos y
-  cómo lo manejamos
+- Identificar algunas situaciones en las que hemos sentido estrés, sus efectos
+  y cómo lo manejamos
 - Entender el proceso de inoculación del estrés y aplicarlo a nuestras vidas
-- Aplicar el Cuestionario de Afrontamiento del Estrés para lograr un mayor nivel
-  de introspección
+- Aplicar el Cuestionario de Afrontamiento del Estrés para lograr un mayor
+  nivel de introspección
 
 ## Agenda
 

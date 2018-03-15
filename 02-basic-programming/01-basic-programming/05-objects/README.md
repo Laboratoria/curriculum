@@ -31,20 +31,21 @@ importantes diferencias:
 1. Como hemos visto, para acceder a información dentro de un `array` utilizamos
    un número correspondiente al _index_; es decir, la posición en la que se
    ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de
-   números para acceder a los diferentes elementos. Estos `strings` se denominan
-   _keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados
-   _valores_. Juntas, estas piezas de información se llaman _pares key-value_.
+   números para acceder a los diferentes elementos. Estos `strings` se
+   denominan _keys_ (llaves) o propiedades, y los elementos a los que apuntan
+   son llamados _valores_. Juntas, estas piezas de información se llaman
+   _pares key-value_.
 
 2. Dado que en los `arrays` se requiere del _index_ para acceder a la
    información, es importante mantener un determinado orden de los valores. En
-   el caso de los `objects` los _pares key-value_ de información pueden estar en
-   cualquier orden.
+   el caso de los `objects` los _pares key-value_ de información pueden estar
+   en cualquier orden.
 
 Mientras que los `arrays` se utilizan sobre todo para representar listas de
 cosas múltiples, los objetos son a menudo usado para representar cosas simples
-pero con **múltiples características, o atributos**. Por ejemplo, si quisiéramos
-agrupar los títulos de nuestras películas preferidas, utilizaríamos un `array`,
-así:
+pero con **múltiples características, o atributos**. Por ejemplo, si
+quisiéramos agrupar los títulos de nuestras películas preferidas, utilizaríamos
+un `array`, así:
 
 ```js
 var favoriteMovies = [
@@ -57,13 +58,13 @@ var favoriteMovies = [
 ];
 ```
 
-¿Pero qué sucede si quisiéramos almacenar diferentes piezas de información sobre
-una **misma** película? Aquí es donde entra la utilidad de un `object`.
+¿Pero qué sucede si quisiéramos almacenar diferentes piezas de información
+sobre una **misma** película? Aquí es donde entra la utilidad de un `object`.
 
 ## Creando Objetos
 
-Almacenemos diferentes piezas de información de la película `Back to the Future`
-en un solo lugar, por medio de un `object`:
+Almacenemos diferentes piezas de información de la película `Back to the
+Future` en un solo lugar, por medio de un `object`:
 
 ```js
 var movie = {
@@ -96,10 +97,10 @@ igual que cuando se crean variables.
 
 ### Keys (strings) con o sin comillas
 
-Como hemos visto, los _keys_ son `strings`. Como muestra el ejemplo anterior, no
-es necesario colocar los _keys_ entre comillas. Esto es porque Javascript sabe
-que los _keys_ son `strings`. Sin embargo, es también válido colocar los _keys_
-entre comillas. Por ejemplo, el objeto a continuación también es válido:
+Como hemos visto, los _keys_ son `strings`. Como muestra el ejemplo anterior,
+no es necesario colocar los _keys_ entre comillas. Esto es porque Javascript
+sabe que los _keys_ son `strings`. Sin embargo, es también válido colocar los
+_keys_ entre comillas. Por ejemplo, el objeto a continuación también es válido:
 
 ```js
 var person = {
@@ -128,9 +129,9 @@ var movie = {
 };
 ```
 
-Es importante resaltar que aunque los _keys_ son siempre `strings`, los _values_
-pueden ser cualquier valor JavaScript - inclusive pueden ser una variable que
-contiene, o mejor dicho "agarra" (con sus tentáculos) un valor.
+Es importante resaltar que aunque los _keys_ son siempre `strings`, los
+_values_ pueden ser cualquier valor JavaScript - inclusive pueden ser una
+variable que contiene, o mejor dicho "agarra" (con sus tentáculos) un valor.
 
 ## Accediendo información de un object
 
@@ -141,8 +142,8 @@ Podemos acceder a los valores de un `object` de dos maneras:
    `number`), utilizamos el _key_ (un `string`), siempre entre comillas.
 
 2. La segunda es usando el punto (`.`) con el nombre del _key_ inmediatamente
-   después, **sin** comillas. A esto se le llama `dot notation`. Al igual que en
-   la declaración de los _keys_, si utilizamos `dot notation`, el _key_ debe
+   después, **sin** comillas. A esto se le llama `dot notation`. Al igual que
+   en la declaración de los _keys_, si utilizamos `dot notation`, el _key_ debe
    obligatoriamente cumplir con las reglas de nombres válidos (por ejemplo, no
    deben contener espacios).
 
@@ -175,14 +176,14 @@ console.log(movie.title);
 
 Analicemos los dos errores:
 
-1. Cuando utilizamos los corchetes **sin** comillas, JavaScript piensa que title
-   es una variable y como en nuestro programa no existe una variable llamada
-   title, se genera un error de referencia y JavaScript nos devuelve que title
-   no está definida: `Uncaught ReferenceError: title is not defined`
+1. Cuando utilizamos los corchetes **sin** comillas, JavaScript piensa que
+  title es una variable y como en nuestro programa no existe una variable
+  llamada title, se genera un error de referencia y JavaScript nos devuelve que
+  title no está definida: `Uncaught ReferenceError: title is not defined`
 
-2. Cuando utilizamos `dot notation` **con** comillas, JavaScript nos devuleve un
-   error de sintaxis, dado que `dot notation` no se debe utilizar con un
-   `string`. Por eso nos devuelve: `Uncaught SyntaxError: Unexpected string`.
+2. Cuando utilizamos `dot notation` **con** comillas, JavaScript nos devuleve
+  un error de sintaxis, dado que `dot notation` no se debe utilizar con un
+  `string`. Por eso nos devuelve: `Uncaught SyntaxError: Unexpected string`.
 
 ¿Qué pasa cuando le pedimos un _key_ que no tiene el `object`? JavaScript nos
 devuelve `undefined`. Veamos un ejemplo:
@@ -232,8 +233,8 @@ Fíjate que hemos usado `movie.stars` y `movie['stars']` para hacer énfasis de
 que ambas maneras funcionan, como parte de la experiencia educativa. Pero
 cuidado, esto **no** es una buena práctica. Solo lo hemos hecho por dar el
 ejemplo. Cuando escribamos programas, sean los retos de código, nuestros
-ejercicios de clase o en proyectos personales, lo correcto es escoger una opción
-y ser consistente a lo largo del código. Recomendamos, en particular,
+ejercicios de clase o en proyectos personales, lo correcto es escoger una
+opción y ser consistente a lo largo del código. Recomendamos, en particular,
 `movie.stars` ya que es más corto y fácil de leer. Recuerda que lo mismo sucede
 con las comillas de los `strings`, se pueden usar simples o dobles, pero de
 manera consistente.
