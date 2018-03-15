@@ -4,7 +4,7 @@
 * Formato: `self-paced`
 * Duración: `10min`
 
-***
+---
 
 Vamos a continuar con el ejercicio anterior, donde construimos una interfaz
 usando `React` y `ReactDOM` a partir de un HTML. En este ejemplo, la _data_ que
@@ -13,24 +13,28 @@ manera:
 
 ```js
 const data = {
-  headerTitulo: 'Getting Started',
-  headerDescripcion: 'Descripcion',
-  mainSectionTitulo: 'Main Section',
+  headerTitulo: "Getting Started",
+  headerDescripcion: "Descripcion",
+  mainSectionTitulo: "Main Section",
   articles: [
-    { titulo: 'Titulo 1', descripcion: 'Descripcion 1'},
-    { titulo: 'Titulo 2', descripcion: 'Descripcion 2'},
-    { titulo: 'Titulo 3', descripcion: 'Descripcion 3'}
+    { titulo: "Titulo 1", descripcion: "Descripcion 1" },
+    { titulo: "Titulo 2", descripcion: "Descripcion 2" },
+    { titulo: "Titulo 3", descripcion: "Descripcion 3" }
   ],
-  asideTitulo: 'Links',
+  asideTitulo: "Links",
   links: [
-    { href: '#', texto: 'Link 1'},
-    { href: '#', texto: 'Link 2'},
-    { href: '#', texto: 'Link 3'},
-    { href: '#', texto: 'Link 4'},
-    { href: '#', texto: 'Link 5'}
-  ],
+    { href: "#", texto: "Link 1" },
+    { href: "#", texto: "Link 2" },
+    { href: "#", texto: "Link 3" },
+    { href: "#", texto: "Link 4" },
+    { href: "#", texto: "Link 5" }
+  ]
 };
 ```
+
+En html, la información de arriba, se debería de ver asi:
+
+![alt text](https://image.ibb.co/dXaJEc/html.png)
 
 El reto ahora es re-escribir la misma página que en el ejercicio anterior,
 usando este objeto de datos como punto de partida, y esta vez haciendo uso
@@ -68,7 +72,8 @@ Entonces, por ejemplo, el siguiente código
 
 ```js
 function Header(props) {
-  return DOM.header(null,
+  return DOM.header(
+    null,
     DOM.h1(null, props.titulo),
     DOM.p(null, props.descripcion)
   );
@@ -84,24 +89,24 @@ function Header(props) {
       <h1>{props.titulo}</h1>
       <p>{props.descripcion}</p>
     </header>
-  )
+  );
 }
 ```
 
 y
 
 ```js
-const articles = props.articles.map(function (it) {
+const articles = props.articles.map(function(it) {
   return Article(it);
-})
+});
 ```
 
 se convierte en
 
 ```jsx
-const children = props.articles.map(function (a) {
-  return <Article titulo={a.titulo} descripcion={a.descripcion} />
-})
+const children = props.articles.map(function(a) {
+  return <Article titulo={a.titulo} descripcion={a.descripcion} />;
+});
 ```
 
 ## Boilerplate

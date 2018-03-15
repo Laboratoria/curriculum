@@ -4,7 +4,7 @@
 * Formato: `self-paced`
 * Duración: `12min`
 
-***
+---
 
 Veamos como podemos comenzar a usar `React` inmediatamente dentro de nuestro
 `html` existente.
@@ -76,9 +76,9 @@ puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
 
 ¡Ahora a crear nuestro primer componente!
 
-Así como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
-son las *"piezas"* para construir nuestras interfaces y los declaramos a través
-de ***funciones*** (o clases como veremos más adelante).
+Así como el `DOM` tiene _tags_, `React` tiene **_componentes_**. Los componentes
+son las _"piezas"_ para construir nuestras interfaces y los declaramos a través
+de **_funciones_** (o clases como veremos más adelante).
 
 ```html
 <body>
@@ -122,17 +122,21 @@ componente será la `Cabecera` de la página.
 
 ```js
 function Cabecera() {
-  const titulo = 'Hola Mundo';
+  const titulo = "Hola Mundo";
 
   // Creamos un elemento `div` "the React way"
-  const elemento = div(null,
-    h2(null, titulo),
-  );
+  const elemento = div(null, h2(null, titulo));
 
   // y ese es el resultado de nuestra funcion / componente
   return elemento;
 }
 ```
+
+La función `div` y `h2` están esperando dos parametros.
+El primero es un objeto con atributos
+de configuración HTML (className, src, alt, href
+,etc) y que por ahora es nulo
+y el segundo esta recibiendo el texto que va a ir en el tag.
 
 Esto es análogo al siguiente codigo html:
 
@@ -146,10 +150,7 @@ Y por último, para que el usuario pueda verlo, insertamos el resultado en el
 DOM:
 
 ```js
-ReactDOM.render(
-  Cabecera(),
-  document.getElementById('react-container')
-);
+ReactDOM.render(Cabecera(), document.getElementById("react-container"));
 ```
 
 Verás que nuestro componente es una función sin parámetros. Uno de los mayores
@@ -158,7 +159,7 @@ de los parametros que nosotros le pasemos a nuestra función, podemos modificar
 dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
 
 En el mundo `React` a los parámetros de los componentes los denominamos
-***propiedades*** (`props`).
+**_propiedades_** (`props`).
 
 ```html
 <body>
@@ -197,17 +198,15 @@ En el mundo `React` a los parámetros de los componentes los denominamos
 Ahora nuestra función recibe un parametro `props`, que es un objecto. Cada llave
 de `props`, es una propiedad de nuestro componente.
 
-Así como en el `DOM` los tags tienen *atributos*, en `React` los componentes
-tienen ***propiedades***:
+Así como en el `DOM` los tags tienen _atributos_, en `React` los componentes
+tienen **_propiedades_**:
 
 ```js
 function Cabecera(props) {
   // usamos la propiedad "saludo"
-  const titulo = 'Hola ' + props.saludo;
+  const titulo = "Hola " + props.saludo;
 
-  const elemento = div(null,
-    h2(null, titulo),
-  );
+  const elemento = div(null, h2(null, titulo));
 
   return elemento;
 }
@@ -218,13 +217,13 @@ modificando el valor de `saludo`:
 
 ```js
 ReactDOM.render(
-  Cabecera({ saludo: 'Mundo' }),
-  document.getElementById('cabecera-1')
+  Cabecera({ saludo: "Mundo" }),
+  document.getElementById("cabecera-1")
 );
 
 ReactDOM.render(
-  Cabecera({ saludo: 'Amigx' }),
-  document.getElementById('cabecera-2')
+  Cabecera({ saludo: "Amigx" }),
+  document.getElementById("cabecera-2")
 );
 ```
 
@@ -268,7 +267,7 @@ el solucionario de esta unidad.
     }
 
     ReactDOM.render(
-      Cabecera({ nombre: 'Mundo' }),
+      Cabecera({ saludo: 'Mundo' }),
       document.getElementById('cabecera')
     );
   </script>

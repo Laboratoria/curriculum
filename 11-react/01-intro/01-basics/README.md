@@ -4,14 +4,14 @@
 * Formato: `self-paced`
 * Duración: `4min`
 
-***
+---
 
-`React` es una librería (no un *framework*, una ***librería***) open source
+`React` es una librería (no un _framework_, una **_librería_**) open source
 desarrollada por Facebook para crear interfaces de usuario, a través de
 componentes dinámicos y reusables.
 
-Uno de los principales beneficios de `React` es que nos permite crear ***single
-page apps*** de una manera ordenada, más simple y mantenible.
+Uno de los principales beneficios de `React` es que nos permite crear **_single
+page apps_** de una manera ordenada, más simple y mantenible.
 
 `React` es uno de los principales actores en el movimiento de la programación
 funcional dentro del mundo JavaScript. Es decir que en `React` preferimos la
@@ -40,6 +40,10 @@ sub-árboles modificados son reemplazados en el `DOM`. Entonces, si por ejemplo
 tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el
 `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para
 "reconciliación", el texto queda inalterado.
+
+En el siguiente video puedes ver por que React(virtual dom) y HTML se llevan tan bien
+
+[![React y HTML](https://img.youtube.com/vi/BYbgopx44vo/0.jpg)](https://www.youtube.com/watch?v=BYbgopx44vo)
 
 ## Recursos recomendados
 
