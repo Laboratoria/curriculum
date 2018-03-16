@@ -133,6 +133,7 @@ function Cabecera() {
   return elemento;
 }
 ```
+
 Las funciones `div()` y `h2()` están esperando dos parámetros:
 
 * El primero es un objeto con atributos de configuración HTML (`className`,
