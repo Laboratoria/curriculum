@@ -75,9 +75,8 @@ Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
 * DOM: Manipulación y recorrido
 * Redibujo del navegador
 * BOM
-* ...
 
-### 5. Otros
+### 6. Otros
 
 * A **trabajar siguiendo una guía de estilos**
 * A **trabajar sobre una base de código existente**
