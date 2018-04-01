@@ -10,7 +10,7 @@ Cuando hablamos de **tests** (pruebas), podríamos ponernos a pensar en
 herramientas de testing, como `Mocha`, `Jest`, `Jasmine`, ... o metodologías de
 desarrollo como TDD o BDD. Todo esto puedes ser super confuso. En esta unidad
 trataremos de desmitificar un poco este tema empezando desde el principio. Para
-ello pensemos en pruebas simpemente como el acto de ejecutar algo en la
+ello pensemos en pruebas simplemente como el acto de ejecutar algo en la
 computadora y después comprobar que efectivamente ocurrió lo que esperábamos.
 
 El test más sencillo posible:
