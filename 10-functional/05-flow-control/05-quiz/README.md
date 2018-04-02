@@ -9,10 +9,14 @@
 ## Preguntas
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### En una función recursiva, el caso base es...
 =======
 ### En una función recursiva, el caso base es
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### En una función recursiva, el caso base es
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 #### Opciones
 
@@ -24,10 +28,14 @@
 <solution style="display:none;">2,3</solution>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### En una función recursiva, el caso recursivo es...
 =======
 ### En una función recursiva, el caso recursivo es
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### En una función recursiva, el caso recursivo es
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 #### Opciones
 
@@ -39,10 +47,14 @@
 <solution style="display:none;">2,4</solution>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Cada vez que invocamos una función...
 =======
 ### Cada vez que invocamos una función
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### Cada vez que invocamos una función
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 #### Opciones
 
@@ -54,10 +66,14 @@
 <solution style="display:none;">1,4</solution>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Una función asíncrona...
 =======
 ### Una función asíncrona
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### Una función asíncrona
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 #### Opciones
 

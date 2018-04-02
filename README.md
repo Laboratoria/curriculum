@@ -49,6 +49,7 @@ Los _cursos_ se dividen en 3 _fases_:
 
 * [**Prep**](#i-prep): cursos online, de 20 a 30 horas, que se toman **antes**
 <<<<<<< HEAD
+<<<<<<< HEAD
 de ingresar a Laboratoria como parte del proceso de selección
 
 * [**Bootcamp**](#ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
@@ -59,6 +60,8 @@ requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
 que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
 (1 sesión de 3hrs cada semana) + 1 hora/semana remoto
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
   de ingresar a Laboratoria como parte del proceso de selección
 * [**Bootcamp**](#ii-bootcamp): cursos de 2 a 4 semanas, a tiempo parcial, que
   requieren de 35 horas de estudio por semana: 25 horas presenciales (5hrs/día) +
@@ -66,7 +69,10 @@ que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
 * [**Educación continua**](#iii-educación-continua): cursos de 4 semanas, blended,
   que requieren de 4 horas de estudio por semana: 3 horas/semana presenciales
   (1 sesión de 3hrs cada semana) + 1 hora/semana remoto
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 ***
 
@@ -106,6 +112,7 @@ Main Tags: `variables`, `tipos datos`, `operadores`, `condicionales`, `loops`,
 
 ## II. Bootcamp
 <<<<<<< HEAD
+<<<<<<< HEAD
 El **bootcamp** es un programa de 24 semanas y consiste en una serie de cursos
 de 2 a 4 semanas de duración cada uno. Los _cursos_ diseñados para el
 **bootcamp** tendrán en cuenta que las alumnas estudian a medio tiempo,
@@ -121,6 +128,8 @@ una serie común de cursos para todas las alumnas, que forman parte del
 - Autor: _R. Prieto_
 - Tiempo estimado: _2 a 3 semanas_
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 El **bootcamp** es un programa de 24 semanas y consiste en una serie de cursos
 de 2 a 4 semanas de duración cada uno. Los _cursos_ diseñados para el
@@ -131,12 +140,15 @@ una serie común de cursos para todas las alumnas, que forman parte del
 `Common Core`, y luego continúa en uno de dos tracks de especialización:
 `Front-End Developer` y `UX Designer`.
 
-### 02. Programación básica con JavaScript
+### [02. Programación básica con JavaScript](02-basic-programming)
 
 * Track: _Common Core_
 * Autor: _R. Prieto_
 * Tiempo estimado: _2 a 3 semanas_
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 En este curso aprenderás mejores formas de estructurar y manipular la data de
 tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
@@ -144,22 +156,29 @@ tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
 developer: la línea de comandos y el controlador de versiones.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Main Tags:
  `arrays`, `objects`, `CLI`, `Git`, `Github`.
 
 Secondary Tags:
 `algorithms`, `ascii`, `searching`, `sorting`, `properties`, `methods`
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 Main Tags: `arrays`, `objects`, `CLI`, `Git`, `Github`.
 
 Secondary Tags: `algorithms`, `ascii`, `searching`, `sorting`, `properties`,
 `methods`
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 Con este curso desarrollarás dos programas que tienen una aplicación en nuestra
 vida cotidiana:
 
 1. **Tarjeta de crédito válida**: crearás un programa que pueda validar si una
+<<<<<<< HEAD
 <<<<<<< HEAD
 tarjeta de crédito es válida según el
 [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
@@ -174,18 +193,23 @@ el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sa
 - Tiempo estimado: _3 a 4 semanas_
 
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
    tarjeta de crédito es válida según el
    [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)
 2. **Caesar Cipher**: crearás un programa que encripte y decifre mensajes según
    el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
 
-### 03. Creando tu primer sitio web interactivo
+### [03. Creando tu primer sitio web interactivo](03-interactive-site)
 
 * Track: _Common Core_
 * Autor: _Iván Medina & Lalo Gonzalez_
 * Tiempo estimado: _3 a 4 semanas_
 
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 En este curso se construirá un sitio dinámico desde cero pasando por las
 diversas fases del desarrollo de un producto web. A lo largo de este curso, se
 verán temas de maquetación (`HTML` y `CSS`), lógica (`JS`), herramientas de
@@ -204,6 +228,7 @@ Secondary tags: `semantic markup`, `box model`, `selectors`, `display`,
 `positioning`, `problem solving`, `dom`, `eventos`,
 `git`, `unix shell`, `github-pages`, `flows`, `sketching`.
 
+<<<<<<< HEAD
 ### 04. Crea tu propia red social
 <<<<<<< HEAD
 
@@ -228,6 +253,9 @@ Secondary tags: `big-o`, `time-complexity`,
 - Autor: _Belén Recabal & Iván Medina_
 - Tiempo estimado: _3 semanas_
 =======
+=======
+### [04. Crea tu propia red social](04-social-network)
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 * Track: _Common Core_
 * Autor: _Iván Medina & Lalo Gonzalez_
@@ -244,12 +272,15 @@ Main Tags: `mobile-first`, `bootstrap`, `jquery`, `ux research`,
 Secondary tags: `big-o`, `time-complexity`,
 `git-workflow`, `google-charts/d3`, `api`, `json`, `information-architecture`.
 
-### 05. Crea tu propia librería usando JavaScript: JS Deep Dive
+### [05. Crea tu propia librería usando JavaScript: JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 
 * Track: _Front-End Development_
 * Autor: _Belén Recabal & Iván Medina_
 * Tiempo estimado: _3 semanas_
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 En este curso construirás tu propia librería usando JavaScript, lo cual nos
 permitirá explorar las particularidades del lenguaje y entender como funciona
@@ -268,8 +299,9 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 `function-statement`, `function-expression`, `callbacks`, `hoisting`, `iife`,
 `apply`, `call`, `bind`, `this`.
 
-### 06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota
+### [06. Construye una _Single Page App (SPA)_ multi-usuario consumiendo data remota](06-spa)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Track: _Front-End Development_
 - Autor: _Iván Medina_
@@ -279,6 +311,11 @@ Secondary Tags: `primitive-vs-reference`, `bitwise-operators`,
 * Autor: _Iván Medina_
 * Tiempo estimado: _3 semanas_
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+* Track: _Front-End Development_
+* Autor: _Iván Medina_
+* Tiempo estimado: _3 semanas_
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 En este curso se verán temas de `network` para entender qué es lo que sucede
 por detrás de la web (arquitectura cliente-servidor). Profundizaremos en
@@ -296,6 +333,7 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 `web-sockets`, `web-workers`, `web-rtc`, `auth`, `microservices`,
 `broadcasting`, `progressive-web-apps`, `cloud computing`, `saas-paas-iaas`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### 07. Lo que todo Front-End debe saber del Back-End
 
@@ -303,13 +341,18 @@ Secondary Tags: `tcp-ip`, `dns`, `networking`, `geolocation`, `web-storage`,
 - Autor: _Iván Medina_
 - Tiempo estimado: _3 semanas_
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 ### 07. Lo que todo Front-End debe saber del Back-End
 
 * Track: _Front-End Development_
 * Autor: _Iván Medina_
 * Tiempo estimado: _3 semanas_
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 En este curso vas a salir de JavaScript, y vas a entender como integrar tu
 front-end con un back-end. Usaremos `Ruby` como lenguaje de programación
@@ -334,6 +377,7 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 ### [08. Paradigmas de la programación y Functional JavaScript](09-paradigms)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Track: _Front-End Development_
 - Autor: _L. Montero_
 - Tiempo estimado: _3 semanas_
@@ -342,6 +386,11 @@ Secondary Tags: `mvc`, `orm`, `migrations`, `templating`.
 * Autor: _L. Montero_
 * Tiempo estimado: _3 semanas_
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+* Track: _Front-End Development_
+* Autor: _L. Montero_
+* Tiempo estimado: _3 semanas_
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas
 diferentes de pensar en cómo se organiza un programa basado en una serie de
@@ -379,6 +428,7 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 ### [09. Introducción a React](11-react)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Track: _Front-End Development_
 - Autor: _M. Crowe_
 - Tiempo estimado: _1 a 2 semanas_
@@ -387,6 +437,11 @@ Secondary Tags: `constructors`, `factories`, `hof`, `pure-functions`, `es6`,
 * Autor: _M. Crowe_
 * Tiempo estimado: _1 a 2 semanas_
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+* Track: _Front-End Development_
+* Autor: _M. Crowe_
+* Tiempo estimado: _1 a 2 semanas_
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 encapsular nuestro código en lindos componentes, si no que representa un cambio
@@ -406,18 +461,24 @@ Secondary Tags: `es6`, `fp`, `components`, `virtual-dom`.
 
 ### 10. Hackathon: Auto-aprendizaje Front-End Frameworks
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 - Track: _Front-End Development_
 - Autor: _???_
 - Tiempo estimado: _1 a 2 semanas_
 
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 * Track: _Front-End Development_
 * Autor: _???_
 * Tiempo estimado: _1 a 2 semanas_
 
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 El desarrollo de productos con JavaScript involucra muchos conceptos y mucho
 código, sin embargo, hay soluciones que ya han sido probadas en el desarrollo
 de diversos proyectos que nos dan una estructura y flujo definido, de tal
@@ -440,24 +501,31 @@ Tags: `angular`, `vue`, `typescript`, `api`, `real-time`.
 
 ### 11. Capstone Project
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 - Track: _Front-End Development_
 - Autor: _???_
 - Tiempo estimado: _1 a 2 semanas_
 
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 * Track: _Front-End Development_
 * Autor: _???_
 * Tiempo estimado: _1 a 2 semanas_
 
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 Ahora que ya eres una Front-End Developer crack, dedica un par de semanas para
 crear algo nuevo. ¡Eres libre para crear lo que quieras!
 
 ***
 
 ## III. Educación Continua
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 Los _cursos_ de **educación continua** están dirigidos a un público que
@@ -467,6 +535,8 @@ duración, dedicando 4hrs/semana: 3hrs/semana presenciales + 1hr/semana de
 estudio remoto.
 
 =======
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 Los _cursos_ de **educación continua** están dirigidos a un público que
 trabaja, y por lo tanto tiene mucho menos disponibilidad de tiempo. Los cursos
@@ -474,7 +544,10 @@ de educación continua se diseñan pensando en la modalidad `4x4`: 4 semanas de
 duración, dedicando 4hrs/semana: 3hrs/semana presenciales + 1hr/semana de
 estudio remoto.
 
+<<<<<<< HEAD
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 El programa de **Educación Continua** ofrece una selección de cursos que ayude
 a las egresadas del bootcamp a seguir creciendo como
 desarrolladoras, profundizar conocimientos y apoyarlas en el inicio de sus
@@ -488,39 +561,75 @@ consolidar conceptos, o para aquellas personas de otros tracks
 Los cursos que se dictan en el Bootcmap y se vuelven a abrir en Educación
 Continua son:
 
-* [Crea tu propia librería usando JavaScript / JS Deep Dive](09-paradigms)
+* [Crea tu propia librería usando JavaScript / JS Deep Dive](https://github.com/Laboratoria/curricula-js/tree/08-deep-dive/08-deep-dive)
 * [Programming Paradigms](09-paradigms)
 * [Functional JavaScript](10-functional)
 * [Introducción a React](11-react)
 
 Los cursos que se dictan únicamente en Educación Continua son:
 
-### [12. Redux](12-redux)
+### [12. Manejo de estado avanzado con React y Redux](12-redux)
 
-Autor: _M. Crowe / L. Montero_
+Autor: [Lupo Montero](https://github.com/lupomontero)
 
-TBD (_help needed_)
+[:construction: Este curso está en desarrollo :construction:]
 
-Tags: `react router`, `redux`, `raduim`, ...
+El manejo de estado en una aplicación es crítico, y desgraciadamente muchas
+veces se hace de forma desordenada y sin mucha consistencia. `Redux` nos ofrece
+un contenedor de estado que nos ayudará a manejar el estado de forma más
+consistente y predecible.
 
-### [13. The Web Stack](13-web-stack)
+Durante este curso construirás un _Single Page App_ (SPA) con las siguientes
+características:
+
+* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
+  con `babel` y `webpack`
+* Utilizando `react` y `redux`
+* Con por lo menos 6 componentes que especifiquen todas sus props usando
+  `prop-types`
+* Por lo menos 1 componente _conectado_ al store de `redux`
+* 3 reducers y por lo menos 3 acciones que desencadenen asíncronía (usando
+  `thunk`, `saga` u `observable`).
+* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
+  empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Github pages
+* Haber administrado y documentado todo el proceso de creación de la aplicación
+  en GitHub.
+* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
+  universalmente.
+* No es necesario implementar rutas
+* No es necesario implementar persistencia
+
+Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
+`redux-observable`, `rxjs`, `jest`, `enzyme`
+
+### 13. Construye una aplicación serverless usando Firebase
 
 Autor: TBD (_help needed_)
 
-La web es un ecosistema de estándares, protocolos, lenguajes y software. Pocas
-veces nos paramos a pensar en todas las piezas que componen este ecosistema
-vivo, desde el modelo TCP/IP o sistemas operativos, hasta HTML/CSS/JS, pasando
-por DNS, HTTP (servidores, clientes, proxys), URLs, dominios, ...
+En este curso construirás una aplicación usando Firebase como backend. Tu
+aplicación tendrá las siguientes características:
 
-Al final del curso habrás construido y desplegado una aplicación usando un
-dominio de verdad (?) y presentarás una demo donde explicarás la experiencia, lo
-aprendido y cómo encajan las diferentes piezas del web stack en el producto.
+* Usar autenticación con Firebase
+* Leer y escribir data de la base de datos a tiempo real de Firebase
+* Desplegar por lo menos dos funciones cloud
+* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
+  empaquetar y desplegar la aplicación respectivamente.
+* Despeglado en Firebase hosting
+* Haber administrado y documentado todo el proceso de creación de la aplicación
+  en GitHub.
+* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
+  universalmente.
 
-Tags: `html`, `css`, `js`, `http`, `url`, `xhr`, `json`, `server`, `client`, ...
+Tags: `cloud`, `serverless`, `cloud-functions`, `cors`, `gcp`, `firebase`,
+`auth`
 
-### [14. Building HTTP servers with Node.js](14-nodejs)
+### 14. Despliega aplicaciones Node.js como contenedores en AWS
 
 Autor: TBD (_help needed_)
+
+En este curso construirás una aplicación usando `Node.js` y `MongoDB`, para ser
+empaquetada usando `Docker` y desplegada en `AWS` EC2 Container Service.
 
 Node.js es sin lugar a dudas una de las tecnologías más de moda en Silicon
 Valley y el mundo. Como desarrolladoras Full Stack JavaScript, Node.js es una de
@@ -530,9 +639,40 @@ permite llevar nuestro conocimiento de JavaScript más allá del navegador.
 En este curso construirás un servidor web que sirva contenido estático además de
 algunos endpoints dinámicos que sirvan data en formato JSON.
 
-Tags: `node`, `npm`, `yarn`, `http-server`, `filesystem`, `static-server`, ...
+Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
+`aws`, `nodejs`, `mongodb`, `docker`, `containers`
 
-### [15. Modelando y persistiendo data con NoSQL](15-nosql)
+### 15. Crea un chatbot en la nube y despliégalo en Azure
+
+Autor: TBD (_help needed_)
+
+En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
+Azure.
+
+Tags: `bot`, `azure`
+
+### 16. Construye un juego multijugador con Angular y Firebase
+
+Autor: [Aldo Román](https://github.com/aldo-roman)
+
+Este curso presenta los fundamentos para comprender y utilizar
+[Angular](https://angular.io) como plataforma de desarrollo web.
+
+Construiremos un juego multijugador basado en [Cadáver Exquisito](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito).
+
+>  Es una técnica usada por los surrealistas en 1925, (...) en el cual los jugadores escriben por turno en una hoja de papel, la doblan para cubrir parte de la escritura, y después la pasan al siguiente jugador para otra colaboración.
+>
+>  Los teóricos y asiduos al juego (...) sostenían que la creación, en especial la poética, debe ser anónima y grupal, intuitiva, espontánea, lúdica y en lo posible automática.
+
+El juego consiste en escribir un texto de manera colaborativa.
+Cada jugador escribe un texto corto sin poder ver los textos de los demás jugadores.
+Luego de que todos los jugadores han participado, se unen los textos uno tras otro y se lee el resultado completo.
+
+El backend estará hospedado en [Firebase](https://firebase.google.com/).
+
+Tags: `angular`, `typescript`, `firebase`
+
+### [19. Modelando y persistiendo data con NoSQL](19-nosql)
 
 Autor: TBD (_help needed_)
 
@@ -548,7 +688,7 @@ sincronizar.
 Tags: `nosql`, `data`, `model`, `json`, `concurrency`, `locking`,
 `partitioning`, `search` ...
 
-### [16. Command Line Foo](16-cli)
+### [20. Command Line Foo](20-cli)
 
 Autor: TBD (_help needed_)
 
@@ -565,53 +705,41 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-### 17. NodeJS
+### 21. SQL Databases
 
-Autor: TBD (_help needed_)
-
-Tags: `npm`, `http`, `fs`, `path`, `streams`, `express`, `api-development`,
-`deployment`.
-
-### 18. Databases
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `schema-design`, `sql`, `no-sql`, `querying`, `performance`, `orm`.
 
-### 19. ME*N Stack
+### 22. ME*N Stack
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `web-stack`, `fullstack-framework`, `routing`, `mv*`, `orm`.
 
-### 20. Micro services?
+### 24. Análisis y visualización de datos
 
-Autor: TBD (_help needed_)
-
-Tags: `docker`, `containers`, `clusters`, `scalability`, `partitioning` ...
-
-### 21. Análisis y visualización de datos
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `estadística`, `map/reduce`, `d3`, `canvas`, ...
 
-### 22. WebOps/DevOps
+### 25. Algoritmos
 
-Autor: TBD (_help needed_)
-
-Application deployment, management, maintenance, configuration and repair.
-
-Tags: `devops`, `webops`, `deployment`, `maintenance`, `management`, `backup`,
-`repair`, `debugging`, ...
-
-### 23. Algoritmos
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 
 Tags: `big-O`, `adhoc`, `search`, `sort`
 
-### 24. Estructuras de datos
+### 26. Estructuras de datos
+
+[:bulb: Idea para curso :bulb:]
 
 Autor: TBD (_help needed_)
 

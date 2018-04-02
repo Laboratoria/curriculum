@@ -144,10 +144,14 @@ asincronía, que es una característica fundamental de JavaScript.
 | 08 | seminario | guiado     | 15min    | Cierre
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Unidad 06: [Hacking: reemplazando iteración con recursión](06-workshop)
 =======
 ### Unidad 06: [Hacking: refactoring](06-workshop)
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### Unidad 06: [Hacking: refactoring](06-workshop)
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 La duración estimada de esta unidad es de _2h_.
 

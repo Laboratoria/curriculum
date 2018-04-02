@@ -9,10 +9,14 @@
 ## Preguntas
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Una función de orden superior es ...
 =======
 ### Una función de orden superior es
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### Una función de orden superior es
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 #### Opciones
 
@@ -24,10 +28,14 @@
 <solution style="display:none;">1,4</solution>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Dada la siguiente función ...
 =======
 ### Dada la siguiente función
 >>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+### Dada la siguiente función
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
 ```js
 const foo = bar => baz => baz.filter(item => item === bar).shift();
