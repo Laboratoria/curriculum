@@ -34,7 +34,11 @@ const data = {
 
 El reto ahora es re-escribir la misma página que en el ejercicio anterior,
 usando este objeto de datos como punto de partida, y esta vez haciendo uso
-de JSX en vez de usar `React.DOM.div` y compañía.
+de `JSX` en vez de usar `React.DOM.div` y compañía.
+
+El resultado se debería ver algo similar a esto:
+
+![Screenshot de resultado](https://image.ibb.co/dXaJEc/html.png)
 
 Continuando el ejercicio anterior, ahora nos toca configurar la página, para que
 comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que
