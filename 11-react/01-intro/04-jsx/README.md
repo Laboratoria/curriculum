@@ -66,6 +66,12 @@ ReactDOM.render(
 
 Mucho más elegante, ¿verdad?
 
+Por cierto, si intentas ejecutar el script anterior,
+el navegador te arrojará un error por default.
+
+Esto es por que el navegador aún no entiende `jsx`.
+En la proxima lectura veremos como hacer que el navegador entienda JSX.
+
 ## Expresiones
 
 Fíjate como injectamos [expresiones JavasScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
