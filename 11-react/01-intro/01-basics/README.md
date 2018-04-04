@@ -41,8 +41,8 @@ tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el
 `Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para
 "reconciliación", el texto queda inalterado.
 
-En el siguiente video puedes ver por que React(virtual dom)
-y HTML se llevan tan bien
+En el siguiente video puedes ver por que `React` (Virtual DOM) y `HTML` se
+llevan tan bien:
 
 [![React y HTML](https://img.youtube.com/vi/BYbgopx44vo/0.jpg)](https://www.youtube.com/watch?v=BYbgopx44vo)
 
