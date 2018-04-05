@@ -8,5 +8,5 @@ module.exports = function restaurantBill(bill) {
   var total /* tu código aquí */;
 
   // 3. Retorna el monto que cada una debe pagar, con el símbolo $ adelante
-  return (/* tu código aquí */);
+  return /* tu código aquí */;
 };
