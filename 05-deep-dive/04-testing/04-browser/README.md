@@ -208,7 +208,7 @@ Pero ahí no termina la historia... han pasado unos días, el código de Pepita 
 está en producción, y recibimos un reporte de un _bug_: las vocales con acento
 no se están transformando a mayúsculas! Gracias a que tenemos tests para esta
 función, podemos rápidamente escribir un nuevo test para replicar y confirmar
-el problema reportado, así que añadimos el siguiente test nuestro archivo
+el problema reportado, así que añadimos el siguiente test a nuestro archivo
 `makeVowelsUpperCase.spec.js`:
 
 ```js
