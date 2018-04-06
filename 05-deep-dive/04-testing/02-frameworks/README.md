@@ -209,9 +209,9 @@ describe('isVowel()', () => {
 });
 ```
 
-Bueno, ya tenemos una estructura lista para implementar nuestros tests. Para 
-continuar gradualmente con el ejemplo, simplemente copia las comprobaciones que 
-hacíamos en la primera versión de los tests (lectura anterior) dentro de nuestra 
+Bueno, ya tenemos una estructura lista para implementar nuestros tests. Para
+continuar gradualmente con el ejemplo, simplemente copia las comprobaciones que
+hacíamos en la primera versión de los tests (lectura anterior) dentro de nuestra
 nueva estructura:
 
 ```js
