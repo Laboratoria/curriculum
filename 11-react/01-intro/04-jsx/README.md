@@ -27,11 +27,11 @@ function Cabecera(props) {
   return React.DOM.div({ style: { borderColor: 'red' } },
     React.DOM.h2(null, titulo),
     React.DOM.p(null,
-      "Hola ", React.DOM.b(null, props.saludo), ".", React.DOM.br(null),
+      "Hola ", React.DOM.b(null, props.nombre), ".", React.DOM.br(null),
       "Un link? ", React.DOM.br(null),
-      React.DOM.a({ href:"http://laboratoria.la" }, "Laboratoria"), "!"
+      React.DOM.a({ href:"http://laboratoria.la" }, "Laboratoria")
     )
-  )
+  );
 }
 
 ReactDOM.render(
@@ -50,7 +50,7 @@ function Cabecera(props) {
     <div style={{ borderColor: 'red' }}>
       <h2>{titulo}</h2>
       <p>
-        Hola <b>{props.saludo}</b>. <br />
+        Hola <b>{props.nombre}</b>.<br />
         Un link? <br />
         <a href="http://laboratoria.la">Laboratoria</a>
       </p>
@@ -65,6 +65,14 @@ ReactDOM.render(
 ```
 
 Mucho más elegante, ¿verdad?
+
+***
+
+Por cierto, si intentas ejecutar el script anterior, el navegador te arrojará un
+error. Esto es porque el navegador aún no entiende `JSX`. En la próxima lectura
+veremos como hacer que el navegador entienda `JSX`.
+
+***
 
 ## Expresiones
 
