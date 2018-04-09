@@ -11,15 +11,12 @@ En esta unidad aprenderemos:
 - Cómo manipular los nodos del DOM.
 - Cómo crear, añadir y eliminar Nodos al DOM.
 - Conocer sobre las siguientes propiedades:
-
   * `.innerHTML`
   * `.textContent`
   * `.innerText`
   * `.value`
   * `.style.property`
-
 - Conocer sobre los siguientes métodos:
-
   * `document.createTextNode()`
   * `document.createElement()`
   * `.appendChild()`

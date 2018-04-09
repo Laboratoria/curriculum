@@ -67,5 +67,5 @@ lo veremos en una siguiente lección.
 ## Auto-evaluación
 >>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
 
-Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
+Tus instructorxs te compartirán un link al cuestionario de _auto evaluación_.
 Este cuestionario no es calificado.
