@@ -38,6 +38,10 @@ $('p').click(function() {
     console.log('click');
 });
 ```
+> En el siguiente [link](https://codepen.io/Si7v4n4/pen/OzQdzJ?editors=1010#0)
+podemos ver un ejemplo en donde utilizamos lo ya antes visto (selectores, dom,
+eventos, etc.).
+Puedes modificarlo como gustes,  ¡¡la practica hace a la maestra!!.
 
 Los eventos que son usados con más frecuencia son:
 
