@@ -9,6 +9,12 @@
 En esta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve?
+<<<<<<< HEAD
+=======
+- Pedir elementos del DOM usando selectores (getElementById,
+  getElementsByClassName, etc)
+- Recorrer elementos del DOM usando padres o hijos (firstChild, parentNode, etc.)
+>>>>>>> 58efdf0b6c463bf606d4769b4c79d2626b54d0a0
 - Conocer las siguientes propiedades:
   * `parentNode`
   * `childNodes`
