@@ -11,9 +11,8 @@
 
 ***
 
-Durante esta sesión nos aseguraremos de que todxs tengan node y npm, que puedan
-instalar el linter y framework de testing, además que se familiaricen con node
-en el terminal.
+Durante esta sesión nos aseguraremos de que todxs tengan `node` y `npm`, además
+que se familiaricen con node en el terminal.
 
 Lxs instructorxs harán ejemplos en vivo de instalación/desintalación de módulos
 usando npm.

@@ -6,6 +6,12 @@ const accentMap = {
   'ú':'u',
 };
 
+
 function foldAccent (char) {
   return accentMap[char] || char;
 };
+
+
+if (typeof module !== 'undefined') {
+  module.exports = foldAccent;
+}

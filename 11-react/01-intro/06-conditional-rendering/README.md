@@ -6,12 +6,12 @@
 
 ***
 
-En React, puedes construir distintos componentes para encapsular el
-comportamiento que necesites. Luego, puedes renderizar sólo algunos de esos
+En `React`, puedes construir distintos componentes para encapsular el
+comportamiento que necesites. Luego, puedes renderizar solo algunos de esos
 componentes, dependiendo del estado de tu aplicación.
 
 > El *renderizado coindicional* funciona de la misma manera que funcionan las
-condiciones en JavaScript. Usa operadores como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
+condiciones en JavaScript. Usa sentencias como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
 o el [operador condicional](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator)
 para crear elementos que representen el estado actual, y deja que React
 actualice la interfaz de usuario.
@@ -33,15 +33,14 @@ corresponda, dependiendo de si el usuario esta loggeado o no:
 
 ```js
 function Greeting(props) {
-  const isLoggedIn = props.isLoggedIn;
-  if (isLoggedIn) {
+  if (props.isLoggedIn) {
     return <UserGreeting />;
   }
   return <GuestGreeting />;
 }
 
 ReactDOM.render(
-  // Try changing to isLoggedIn={true}:
+  // Cambia isLoggedIn={true} para ver qué pasa ;-)
   <Greeting isLoggedIn={false} />,
   document.getElementById('root')
 );
@@ -107,8 +106,8 @@ ReactDOM.render(
 
 ## Operadores booleanos
 
-Como ya vimos antes, puedes incrustar cualquier tipo de expresiones js en JSX,
-sólo con colocarlas dentro de llaves `{}`. Esto tambien aplica para el operador
+Como ya vimos antes, puedes incrustar cualquier tipo de expresiones en JSX,
+solo con colocarlas dentro de llaves `{}`. Esto tambien aplica para el operador
 `&&`, el cual puede ser muy útil para incluir un elemento condicionalmente:
 
 ```js
@@ -152,10 +151,9 @@ palabra.
 
 ```js
 function Message(props) {
-  const isLoggedIn = props.isLoggedIn;
   return (
     <div>
-      The user is <b>{isLoggedIn ? 'currently' : 'not'}</b> logged in.
+      The user is <b>{props.isLoggedIn ? 'currently' : 'not'}</b> logged in.
     </div>
   );
 }

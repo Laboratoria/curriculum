@@ -81,8 +81,6 @@ metodología de evaluación.
 Arrancaremos el curso con la presentación de los retos, de los cuales cada
 equipo tendrá que elegir uno como proyecto para este curso.
 
-`challenges`, `teams`, `proposals`, ...
-
 ### Unidad 02: [Entorno de desarrollo](02-env)
 
 Una vez introducido el curso y los retos, nos concentraremos en el entorno de
@@ -106,18 +104,9 @@ En este curso pondremos especial énfasis en el diseño orientado a pruebas (Tes
 Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
 para escribir tus primeros tests y entender el valor tan grande que aportan.
 
-`mocha`, `assert`, `chai`, `karma`
+Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
 
-### Unidad 05: [Paquetes y módulos](05-packages)
-
-El objetivo final del curso son los retos, que implican desarrollar una librería
-de código. Pare ello es fundamental entender los conceptos de paquetería en
-JavaScript, desde sistemas de módulos hasta el repositorio de `npm`. Veremos la
-mecánica de dependencias para reuso de código.
-
-`package.json`, `require`, `module`, `exports`, `import`, `export`, ...
-
-### Unidad 06: [Asincronía: Callbacks, eventos y promesas](06-async)
+### Unidad 05: [Asincronía: Callbacks, eventos y promesas](05-async)
 
 JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
 sin bloque del proceso, gracias a sus higher order functions y la propia
@@ -132,14 +121,14 @@ aplicaciones web, estas alteraciones se realizan luego de cierta interacción
 por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
 entender aspectos importantes del comportamiento de eventos y como manejarlos.
 
-### Unidad 07: [Manejo de errores](07-errors)
+### Unidad 06: [Manejo de errores](06-errors)
 
 El manejo de errores es importante dentro de todo desarrollo de software, y más
 aún cuando se piensa en construir un producto que se espera sea reusable y
 mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
 de nuestro código.
 
-### Unidad 08: [Browser APIs](08-browser-apis)
+### Unidad 07: [Browser APIs](07-browser-apis)
 
 En esta unidad nos enfocaremos en las APIs que nos ofrece el navegador para
 interactuar con el `DOM` así como algunos objetos globales como
@@ -147,15 +136,15 @@ interactuar con el `DOM` así como algunos objetos globales como
 otras APIs introducidas por HTML5.
 
 <!--
-### Unidad 09: [Code reviews](09-code-reviews)
+### Unidad 08: [Code reviews](09-code-reviews)
 
 ...
 
-### Unidad 10: [Hacking y Demos](10-demos)
+### Unidad 9: [Hacking y Demos](10-demos)
 
 ...
 
-### Unidad 11: [jQuery](11-jquery)
+### Unidad 10: [jQuery](11-jquery)
 
 jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
 entre otras funcionalidades, en esta lección no veremos la sintaxis de las

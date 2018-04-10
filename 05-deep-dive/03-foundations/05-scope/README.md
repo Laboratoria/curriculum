@@ -6,10 +6,7 @@
 
 ***
 
-En esta lección, primero veremos cómo se comportan las variables en base al
-ámbito, luego veremos el entorno y que son los closures.
-
-## Background: El `scope`de una variable
+## Background
 
 Para el resto de la lección, es necesario tener claro los siguientes conceptos:
 
@@ -24,7 +21,13 @@ function foo() {
 }
 ```
 
-Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`.
+Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`. Esta
+variable podrá ser accedida desde dentro del cuerpo de la función `foo`, pero no
+fuera de ella.
+
+Tradicionalmente, en JavaScript solo podíamos crear un nuevo scope o ámbito
+creando una nueva función. Más adelante en esta lectura veremos cómo `let` y
+`const` introducen el concepto de _block sope_ en ES6.
 
 ### Lexical scoping
 
@@ -72,11 +75,6 @@ console.log(x); // global
 
 Dentro de la función `f`, la variable `x` es sombreada por la variable local
 `x`.
-
-***
-
-TODO: Explicar que a partir de ES6 ya tenemos _block scope_ con `let` y `const`,
-y no sólo _function scope_.
 
 ***
 
@@ -155,7 +153,8 @@ función que contiene dicho bucle.
 
 A diferencia de ECMAScript 5, en ESCMAScript 6 el bloque de una sentencia
 condicional también actúa como ámbito de bloque. En el ejemplo `console.log(x)`
-no tiene acceso a `let x = "hola mundo"`.
+no tiene acceso a `let x = "hola mundo"` y da error porque `x` ha sido
+definida dentro del bloque `if`.
 
 En el siguiente ejemplo la consola imprime `Hola Ale`, ya que la variable `x` en
 el bloque del `if` se mantiene dentro de su ámbito.
@@ -171,9 +170,6 @@ el bloque del `if` se mantiene dentro de su ámbito.
   // Imprime en consola Hola Ale
 })();
 ```
-
-En el ejemplo anterior, la sentencia `console.log` da error, porque `x` ha sido
-definida dentro del bloque `if`.
 
 ## Variables de solo lectura: `const`
 
@@ -223,8 +219,12 @@ USER.name = 'Joan';
 
 USER.age = 'veinte'; // modificar el tipo de una propiedad también funciona
 
-console.log(USER);
+console.log(USER); // {name: 'Joan', surname: 'Covarrubias', age: 'veinte'}
 
-// Falla, ya que el tipo de dato de una constante no puede ser modificado
-USER = 'Caro Covarrubias';
+/**
+ * Si quisieramos cambiar el tipo de dato de la constante USER
+ * de un objeto a un string o cualquier otro tipo de dato distinto a un objeto,
+ * falla, ya que el tipo de dato de una constante no puede ser modificado
+ **/
+USER = 'Caro Covarrubias'; // Error, no esta permitido
 ```
