@@ -50,3 +50,11 @@ importa el valor que retorna.
 ## Pistas
 
 * No se necesita usar _sort_ para mantener el orden.
+<<<<<<< HEAD
+<<<<<<< HEAD
+* Usar `console.log` va afectar la verificación. Solo se usa `console.log`
+  cuando se use `functional-javascript run`.
+=======
+>>>>>>> aa09111e4cafa4d3aaefa69d39e66f2a452f6a2d
+=======
+>>>>>>> fe962210c0765eb36335f1ac4f7c698675c16549
