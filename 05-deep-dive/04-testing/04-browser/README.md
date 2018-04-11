@@ -110,7 +110,10 @@ Este archivo HTML hace lo siguiente:
 
 1. Añade la hoja de estilos de `mocha` desde el CDN de [cdnjs](https://cdnjs.com/)
    ```html
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.css" />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.css"
+   />
    ```
 2. Añade un `<div>` con `id="mocha"` para que mocha escriba los resultados
    ```html

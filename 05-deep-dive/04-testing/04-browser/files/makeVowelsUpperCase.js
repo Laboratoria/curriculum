@@ -23,3 +23,7 @@ const makeVowelsUpperCase = function (string) {
 
   return result;
 };
+
+if (typeof module !== 'undefined') {
+  module.exports = makeVowelsUpperCase;
+}

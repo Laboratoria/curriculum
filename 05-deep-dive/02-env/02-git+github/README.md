@@ -16,12 +16,11 @@
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
-Durante esta sesión nos aseguraremos de que todxs tengan las herramientas
-necesarias para hacer el curso, `git` en particular, acceso al repo, así como
-su propio fork.
+Durante esta sesión nos aseguraremos de que todxs tengan `git` instalado, acceso
+al repo, así como su propio fork.
 
 Además, para recordar ciertos comandos y flujo que usaremos durante el
-desarrollo del curso, llevaremos 2 sitios interactivos:
+desarrollo del curso, recomendamos los siguientes recursos:
 
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [GitHub Flow](https://services.github.com/on-demand/intro-to-github/)

@@ -16,7 +16,7 @@ pedacito de código que comprueba si un valor es el esperado, y en caso de que n
 lo sea lo reporte. De esta forma, si en el futuro cambiara algo en el
 comportamiento del código, los tests nos permitirían ver exactamente qué.
 
-### Vanilla
+## Vanilla
 
 Empecemos por implementar nuestra propia _aserción_ de igualdad. Esto no es más
 que una función que compara dos valores para ver si son iguales, y en caso de
@@ -114,7 +114,7 @@ implementar tu propio código de aserciones (no solo de igualdad, si no todo tip
 de comparaciones). Lo más común es usar una dependencia externa (una librería o
 módulo) como veremos en los próximos ejemplos.
 
-### Módulo assert de Node.js
+## Módulo assert de Node.js
 
 Node.js incluye su propio módulo de aserciones sin necesidad de tener que
 instalar ninguna dependencia. Si estás corriendo tus tests en Node.js, es muy
@@ -144,7 +144,7 @@ describe('isVowel()', () => {
 
 [Assert - Node.js Documentation](https://nodejs.org/api/assert.html)
 
-### Chai.assert
+## Chai.assert
 
 Mocha no incluye una interfaz para aserciones, y en el navegador no tenemos el
 módulo `assert` de Node.js. Así que es muy común usar Mocha en conjunto con

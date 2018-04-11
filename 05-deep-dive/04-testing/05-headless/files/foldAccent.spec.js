@@ -1,3 +1,12 @@
+if (typeof assert === 'undefined') {
+  assert = require('assert');
+}
+
+if (typeof foldAccent === 'undefined') {
+  foldAccent = require('./foldAccent');
+}
+
+
 describe('foldAccent()', () => {
 
   it('debería retornar a para á', () => {
@@ -11,6 +20,5 @@ describe('foldAccent()', () => {
   it('debería retornar undefined para undefined', () => {
     assert.equal(foldAccent(undefined), undefined);
   });
-
 
 });

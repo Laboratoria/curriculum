@@ -205,6 +205,10 @@ debería devolver false para letra b
 
 ***
 
+<!--
 ... pedacitos chiquitos que puedan ser probados de forma aislada...
+-->
 
-https://martinfowler.com/bliki/UnitTest.html
+## Lecturas complementarias
+
+[Unit Test - Martin Fowler](https://martinfowler.com/bliki/UnitTest.html)
