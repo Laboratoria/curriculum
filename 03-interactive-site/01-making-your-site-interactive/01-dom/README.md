@@ -28,9 +28,11 @@ En esta unidad aprenderemos:
 ***
 
 ## ¿Qué es el DOM?
+El DOM (Document Object Model) es una representación de la interfaz utilizada en HTML y XHTML que define la estructura lógica de los documentos y el modo en que se accede y manipula un documento.
 
 En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html)
-podemos ver qué es el DOM. Esta información es extracto de LibrosWeb, un
+podemos ver como se conforma el DOM.
+Esta información es extracto de LibrosWeb, un
 pionero en creación de contenido educativo para desarrollo web.
 
 ## Navegando el DOM (DOM Tree)
@@ -91,17 +93,65 @@ Analizando la misma imagen de arriba:
 ### Los 2 tipos de nodos más usados
 
 Como podrás notar, la transformación de la página web en un árbol DOM genera
-dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una
-etiqueta HTML y el segundo es `nodo de tipo texto` que contiene el texto
-encerrado por una etiqueta HTML.
+dos tipos de nodos: el primero es `nodo de tipo elemento` y el segundo es `nodo de tipo texto`.
+#### Nodo Element: 
+Representa cada una de las etiquetas HTML. Pueden ser hijos de
+otro nodo de tipo elemento, y también tener hijos (nodos elementos o nodo de
+texto).
 
-Así, la siguiente etiqueta HTML:
+  ```html
+  Etiquetas HTML
+
+  <html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
+  <form></form> <a></a> <img/> <strong></strong>
+  ```
+
+  ```html
+  Nodo Element con hijos Element
+
+  <html>
+    <head></head>
+    <body></body>
+  </html>
+
+  3 nodo Element --> etiquetas html, head y body
+  ```
+
+  ```html
+  Nodo Element con hijo texto
+
+  <h1>Hola Mundo</h1>
+
+  1 nodo Element --> etiqueta h1
+  1 nodo Text --> hola mundo
+  ```
+#### Nodo Text
+Contiene el texto encerrado por una etiqueta HTML. Estos
+  nodos son siempre hijos de un nodo Element y no pueden tener hijos.
+
+  ```html
+  <h1>Seré una futura developer de Laboratoria</h1>
+  <h2>¿Qué debo hacer?</h2>
+  <ul>
+    <li>Mentalidad de crecimiento</li>
+    <li>Practicar mucho</li>
+    <li>Autoaprender y preguntar siempre</li>
+  </ul>
+
+  6 nodos Element --> etiquetas h1, h2, ul, li,
+  5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
+  , 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
+  siempre'
+  ```
+
+
+Así, en el siguiente ejemplo:
 
 ```html
 <title>Página Sencilla</title>
 ```
 
-genera los siguientes nodos:
+se generan los siguientes nodos:
 
 - `Nodo de tipo elemento` por la etiqueta `title`.
 - `Nodo de tipo texto` por el texto `"Página Sencilla"`
@@ -131,9 +181,9 @@ Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
 
 #### Algunas reglas
 
-- Las etiquetas HTML serán siempre nodos de tipo elemento.
-- Si dentro de las etiquetas HTML hay contenido textual, entonces, se formará un
-  nodo de tipo texto, quien a su vez será un nodo hijo del primero.
+- Las etiquetas HTML serán siempre `nodos de tipo elemento`.
+- Si `dentro de las etiquetas HTML` hay contenido textual, entonces, se formará un
+  `nodo de tipo texto`, quien a su vez será un nodo hijo del primero.
 - Si una etiqueta HTML se encuentra dentro de otra, se sigue el mismo
   procedimiento anterior, pero los nodos generados serán nodos hijo de su
   etiqueta padre.
@@ -142,9 +192,11 @@ Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
 
 Hasta el momento hemos indicado 2 tipos de nodos : de tipo elemento (element) y
 de tipo texto (text).
-Sin embargo, la especificación completa del DOM define 12 tipos de nodos
-indicados a continuación:
-
+Sin embargo, la especificación completa del DOM define una lista con 12 tipos de nodos, si quieres conocer más sobre ellos, estos enlaces pueden serte de utilidad. 
+* [Explorando el DOM: Tipos de nodos y 
+sus atributos generales,MSDN Microsoft](https://msdn.microsoft.com/es-es/communitydocs/web-dev/dom/tipos-de-nodos-y-atributos)
+* [Tipos de Nodos, Libros Web](http://librosweb.es/libro/javascript/capitulo_5/tipos_de_nodos.html)
+<!--
 | Nombre del Nodo | Significado  | Tipo de Nodo |
 | :------- | :------: | -----: |
 | ELEMENT_NODE | Nodo del tipo `Element`  | 1   |
@@ -159,73 +211,28 @@ indicados a continuación:
 | DOCUMENT_TYPE_NODE  | Nodo del tipo `DocumentType`    | 10 |
 | DOCUMENT_FRAGMENT_NODE   | Nodo del tipo `DocumentFragment`     | 11 |
 | NOTATION_NODE   |  Nodo del tipo `Notation`   | 12 |
+-->
+De dicha lista, expliquemos tres tipos de nodos sobre los que no hemos hablado anteriormente,con los
+cuales podremos manipular las páginas Web a través del DOM: **nodo attr**, **nodo comment** y **nodo document**.
 
-De dicha lista, nos concentraremos en los cinco nodos más habituales con los
-cuales podremos manipular las páginas Web a través del DOM.
+Veamos a continuación sus características más específicamente.
 
-Veamos a continuación más específicamente sus características.
 
-- Nodo Element: representa cada una de las etiquetas HTML. Pueden ser hijos de
-  otro nodo de tipo elemento, y también tener hijos (nodos elementos o nodo de
-  texto).
-
-  ```html
-  Etiquetas HTML
-
-  <html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
-  <form></form> <a></a> <img/> <strong></strong>
-  ```
-
-  ```html
-  Nodo Element con hijos Element
-
-  <html>
-    <head></head>
-    <body></body>
-  </html>
-
-  3 nodo Element --> etiquetas html, head y body
-  ```
-
-  ```html
-  Nodo Element con hijo texto
-
-  <h1>Hola Mundo</h1>
-
-  1 nodo Element --> etiqueta h1
-  1 nodo Text --> hola mundo
-  ```
-
-- Nodo Attr: se define un nodo de este tipo para representar cada uno de los
+#### Nodo Attr.
+Se define un nodo de este tipo para representar cada uno de los
   atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo
   Element y no pueden tener hijos.
 
   ```html
   <img src="images/logo.png" alt="Logo Laboratoria" />
 
-  1 nodo Element --> etiqueta img
-  2 nodo Attr --> src y alt
+  <!-- Un nodo Element -> etiqueta img -->
+  <!-- Dos nodos Attr -> src y alt -->
   ```
 
-- Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos
-  nodos son siempre hijos de un nodo Element y no pueden tener hijos.
 
-  ```html
-  <h1>Seré una futura developer de Laboratoria</h1>
-  <h2>¿Qué debo hacer?</h2>
-  <ul>
-    <li>Mentalidad de crecimiento</li>
-    <li>Practicar mucho</li>
-    <li>Autoaprender y preguntar siempre</li>
-  </ul>
-
-  6 nodos Element --> etiquetas h1, h2, ul, li,
-  5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
-  , 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
-  siempre'
-  ```
-
-- Nodo Comment: representa los comentarios incluídos en la página HTML.
+#### Nodo Comment
+Representa los comentarios incluídos en la página HTML.
 
   ```html
   <html>
@@ -240,16 +247,18 @@ Veamos a continuación más específicamente sus características.
     </body>
   </html>
 
-  6 nodos Element --> etiqueta html, head, title, body, h1, img
-  2 nodos Text --> 'Página Sencilla', 'Hola Mundo'
-  2 nodos Attr --> src y alt
-  2 nodos Comment --> <!--Hola esto es un comentario--> <!--Por favor coloca una
-    imagen-->
-  ```
+  <!-- Seis nodos Element: etiqueta html, head, title, body, h1, img.
+  Dos nodos Text: 'Página Sencilla', 'Hola Mundo'
+  Dos nodos Attr: src y alt -->  
+  <!-- Dos nodos Comment: -->
+     <!--Hola esto es un comentario--> 
+     <!--Por favor coloca una imagen--> 
+```
 
-- Nodo Document: representa al nodo raíz del que derivan todos los demás nodos
-  del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
-  elemento HTML.
+#### Nodo Document
+Representa al nodo raíz del que derivan todos los demás nodos
+del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
+elemento HTML.
 
 ## Propiedades de los nodos
 
