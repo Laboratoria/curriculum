@@ -26,8 +26,6 @@ En esta unidad aprenderemos:
 
 ***
 
-[Aquí, otra lectura más acerca del DOM](http://eloquentjavascript.net/13_dom.html)
-
 ## Modificando elementos y contenido del DOM
 
 En el tema anterior vimos qué es el DOM y cómo seleccionar nodos utilizando
