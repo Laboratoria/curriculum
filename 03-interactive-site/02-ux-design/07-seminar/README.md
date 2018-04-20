@@ -10,8 +10,6 @@
   equipo de profesores
 - ¡Aclarar todas las dudas que tengas!
 
-***
-
 ## Agenda
 
 1. Conversemos sobre los roles en un equipo de desarrollo con el ejemplo de
@@ -48,12 +46,12 @@
 
    <!--
 
-   Aquí explicamos qué es UI y hacemos la relación directamente con GUI. Un poco
-   de historia. Se empezó a usar GUI desde que Apple lanzó su primer computador.
-   Ya que al tener un mouse y una forma de interactuar distinta a la pantalla
-   negra + comandos, se empezó a referir a ella como Graphical User Interface.
-   Un término que fue cambiando con el pasar de los años a solo UI. Sin embargo,
-   eso puede traer mucha confusión ahora que estamos hablando de Voice UIs.
+   Aquí explicamos qué es UI y hacemos la relación directamente con GUI. Un poco de
+   historia. Se empezó a usar GUI desde que Apple lanzó su primer computador. Ya
+   que al tener un mouse y una forma de interactuar distinta a la pantalla negra +
+   comandos, se empezó a referir a ella como Graphical User Interface. Un término
+   que fue cambiando con el pasar de los años a solo UI. Sin embargo, eso puede
+   traer mucha confusión ahora que estamos hablando de Voice UIs.
 
     -->
 
@@ -68,13 +66,13 @@
    * Sabías en qué cine la verías
    * Sabías a qué hora la verías
 
-   Planeamos una visita al cine en ese momento y revisamos las distintas formas
-   en las que encontramos cosas en la web dependiendo del contexto.
+   Planeamos una visita al cine en ese momento y revisamos las distintas formas en
+   las que encontramos cosas en la web dependiendo del contexto.
 
    -->
 
 4. Por medio de ejemplos veremos ocasiones en las sketchear y tener prototipos
-   en papel han sido importantes
+   en papel han sido importantes.
 
    <!--
 
@@ -94,5 +92,3 @@
    teoría y su curiosidad son valoradas.
 
    -->
-
-6. Revisar el Opening e ir respondiendo dudas

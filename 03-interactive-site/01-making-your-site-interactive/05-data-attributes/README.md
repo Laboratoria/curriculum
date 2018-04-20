@@ -6,9 +6,9 @@
 
 ## Objetivos de Aprendizaje
 
-En esta unidad aprenderemos a profundidad:
+En ésta unidad aprenderemos:
 
-- ¿Qué son los atributos data y para qué sirven?
+- ¿Qué son los atributos data y para qué me sirven?
 - ¿Cómo se usan?
 
 ***
@@ -42,18 +42,18 @@ Para poder acceder a estos atributos hacemos uso del método `dataset`.
   var otroValor = ejemplo.dataset.otroNombre;
 ```
 
-En este [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos
+En éste [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos
 encontrar información más detallada acerca de esto que acabamos de leer.
 
 ***
 
-## Y ahora ¿qué sigue?
+## Y ahora ¿Qué sigue?
 
-Ya que tenemos una noción de qué son y el cómo se usan los atributos data, qué
+Ya que tenemos una noción de qué son y el cómo se usan los atributos data, que
 te parece si vemos el siguiente video en el que se muestra un ejercicio
-haciendo uso de éstos.
+haciendo uso de estos.
 
 [![Atributos Data](https://img.youtube.com/vi/fnn6mqN1S8Q/0.jpg)](https://www.youtube.com/watch?v=fnn6mqN1S8Q)
 
-Para leer más acerca de los atributos data, revisa este [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
-y este otro [link](https://www.w3schools.com/tags/att_global_data.asp).
+Para leer más acerca de los atributos data, revisa éste [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+y éste otro [link](https://www.w3schools.com/tags/att_global_data.asp)

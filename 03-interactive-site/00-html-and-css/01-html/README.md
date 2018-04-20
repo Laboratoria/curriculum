@@ -24,7 +24,7 @@ En esta lección profundizaremos más en HTML.
 Revisando directamente la documentación del [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
 tenemos lo siguiente:
 
-> HTML (HyperText Markup Language) **no** es un lenguaje de programación, es un
+> HTML (HyperText Markup Language) no es un lenguaje de programación, es un
 lenguaje de marcado, usado para decirle a tu navegador cómo estructurar las
 páginas que visitas. Puede ser tan complejo o tan simple como desee el
 desarollador web.

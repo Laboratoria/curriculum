@@ -2,12 +2,14 @@
 
 Escriba una función llamada "getLargestNumberAmongMixedElements".
 
-Dado cualquier arreglo, "getLargestNumberAmongMixedElements" devuelve el mayor número en el arreglo dado.
+Dado cualquier arreglo, "getLargestNumberAmongMixedElements" devuelve el mayor
+número en el arreglo dado.
 
 Notas:
-* El arreglo puede contener valores de un tipo distinto a los números.
-* Si el arreglo está vacío, debería devolver 0.
-* Si el arreglo no contiene números, debería devolver 0.
+
+- El arreglo puede contener valores de un tipo distinto a los números.
+- Si el arreglo está vacío, debería devolver 0.
+- Si el arreglo no contiene números, debería devolver 0.
 
 Ejemplo:
 
