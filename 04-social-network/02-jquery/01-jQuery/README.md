@@ -67,6 +67,19 @@ $('selector').evento();
   que lleva puede ir vacío o con una función o parámetros, según lo que se
   esté utilizando.
 
+![menu-lateral](images/sintaxis-jquery.png)
+Ejemplos:
+
+```js
+$(this).hide() - oculta el elemento actual.
+
+$("p").hide() - oculta todos los elementos <p>.
+
+$(".test").hide() - oculta todos los elementos con class = "test".
+
+$("#test").hide() - oculta el elemento con id = "prueba".
+```
+
 Ya que incluimos jQuery en nuestro proyecto y tenemos clara la sintaxis,
 necesitamos indicar o esperar que nuestro documento este completamente cargado
 y listo antes de trabajar con él.

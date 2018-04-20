@@ -401,7 +401,7 @@ características:
 Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
 `redux-observable`, `rxjs`, `jest`, `enzyme`
 
-### 13. Construye un juego multijugador con Angular y Firebase
+### [13. Construye un juego multijugador con Angular y Firebase](13-angular)
 
 Autor: [Aldo Román](https://github.com/aldo-roman)
 
@@ -430,7 +430,7 @@ Tags: `angular`, `typescript`, `firebase`
 
 ### 14. Crea un chatbot en la nube y despliégalo en Azure
 
-Autor: [Jorge Castañeda](https://github.com/jcastanedacano)
+Autor: [Cristian Cárdenas](https://github.com/cristianca-lagash)
 
 En este curso contruirás un _chat bot_ y lo desplegarás en la nube, usando
 Azure.
