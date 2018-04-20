@@ -1,4 +1,4 @@
-const powerOfTwo = number => {
+const powerOfTwo = (number) => {
   let result = 1;
 
   while (number > 0) {
