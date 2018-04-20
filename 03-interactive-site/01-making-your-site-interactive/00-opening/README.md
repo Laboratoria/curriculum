@@ -2,13 +2,13 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `20min`
+- Duración: `30min`
 
 ***
 
 ## Objetivos de Aprendizaje
 
-En esta unidad aprenderemos:
+En ésta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve manipularlo?
 - ¿Qué es el BOM y para qué nos sirve manipularlo?
@@ -18,7 +18,7 @@ En esta unidad aprenderemos:
 
 Cuando estamos construyendo sitios web, llega un momento en donde necesitamos
 darle funcionalidad dinámica a nuestra página (que cambie conforme pasa el
-tiempo). Puede ser alguna animación, el tamaño de un texto, la visibilidad de
+tiempo). Puede ser alguna animación, el tamaño de un texto, o la visibilidad de
 una imagen, etc.
 
 El DOM, BOM y eventos nos permiten hacer esas manipulaciónes si sabemos
@@ -28,7 +28,7 @@ utilizarlos.
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+que debemos prestar particular atención.
 
 A continuación te presentamos una serie de preguntas que debes ser capaz de
 responder al terminar esta unidad. Utiliza estas preguntas como guía para
@@ -70,10 +70,10 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 - ¿Qué es un evento?
 - ¿Cuáles son los eventos más utilizados en un navegador?
 - ¿Cómo detectamos un "click" del usuario?
-- ¿Cómo detectamos una entrada de texto del usuario?
+- ¿Cómo detectamos entrada de texto del usuario?
 - ¿Cómo detectamos el envío de un formulario?
 - ¿Podemos usar el evento submit a un input text?
-- ¿De que nos sirve la palabra reservada "event" o "e"?
+- ¿De que nos sirve la palabra reservada "event" ó "e"?
 - ¿Cómo podemos almacenar o pasar información entre elementos HTML?
 - ¿Qué es event delegation?
 - ¿Qué es event propagation?

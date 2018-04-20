@@ -1,7 +1,13 @@
+# Closing
+
+- Tipo: `clase presencial`
+- Formato: `guided-learning`
+- Duración: `120min`
+
 # Closing: Haciendo tu sitio web interactivo
 
 - Tipo: `seminario`
-- Formato: `guided-learning`
+- Formato: `guiado`
 - Duración: `120min`
 
 ***
@@ -28,16 +34,16 @@
 
 - ¿Qué es el BOM?
 - ¿En qué se relaciona el DOM con el BOM?
-- ¿Cuáles son algunos usos comunes del BOM?
+- ¿Cuales son algunos usos comunes del BOM?
 
 #### Modificando el DOM
 
 - ¿Se pueden crear nuevos nodos usando el DOM?
 - ¿Qué es un nodo?
-- ¿Cuántos tipos de nodos existen?
+- ¿Cuantos tipos de nodos existen?
 - ¿Por qué decimos que el DOM tiene nodos?
 - ¿Por qué decimos que el DOM tiene nodos de objetos?
-- ¿Cómo accedemos a la propiedad style de body usando el DOM?
+- ¿Como accedemos a la propiedad style de body usando el DOM?
 - ¿Cuál es el nodo origen en el DOM?
 - ¿Cuál es el nodo origen en el BOM?
 - ¿Cuál es la diferencia entre nodo y elemento?
@@ -45,14 +51,14 @@
 #### Eventos
 
 - ¿Qué es un evento?
-- ¿Cuáles son los eventos más utilizados en un navegador?
+- ¿Cuales son los eventos más utilizados en un navegador?
 - ¿Cómo detectamos un click del usuario?
 - ¿Cómo detectamos entrada de texto del usuario?
 - ¿Cómo detectamos el envio de un formulario?
 - ¿Podemos usar el evento submit a un input text?
-- ¿De qué nos sirve la palabra "event" o "e"?
+- ¿De que nos sirve la palabra "event" ó "e"?
 - ¿Cómo podemos almacenar o pasar información entre elementos HTML?
 - ¿Qué es event delegation?
 - ¿Qué es event propagation?
 - ¿Cómo definimos eventos propios?
-- ¿Cuál es la diferencia entre onClick y addEventListener("click")?
+- ¿Cual es la diferencia entre onClick y addEventListener("click")?

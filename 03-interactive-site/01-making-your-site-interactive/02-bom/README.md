@@ -8,11 +8,11 @@
 
 ## Objetivos de Aprendizaje
 
-En esta lectura aprenderemos:
+En ésta unidad aprenderemos:
 
 - ¿Para qué usamos el BOM?
 - ¿Qué elementos podemos modificar en el BOM?
-- ¿Cuál es la relación entre el BOM y el DOM?
+- ¿Cuál es la relación BOM y DOM?
 - ¿De qué nos sirve el objeto window?
 
 ![nodo tipo texto - nodo tipo elemento](http://librosweb.es/img/ajax/f0501.gif)
@@ -30,7 +30,7 @@ del navegador.
 La siguiente [lectura](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_window.html)
 nos muestra cuales.
 
-## Relación entre el BOM y el DOM
+## Relación BOM y DOM
 
 Como podemos observar en las lecturas anteriores, el BOM es muy similar al DOM,
 tanto en sintaxis como en estructura. Sin embargo, uno se enfoca en acceder al
