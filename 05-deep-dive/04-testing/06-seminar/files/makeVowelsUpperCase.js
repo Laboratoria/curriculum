@@ -30,22 +30,21 @@
 // };
 
 const isVowel = function (char) {
-    return ['a', 'e', 'i', 'o', 'u'].indexOf(char) > -1;
-  };
-  
-  const makeVowelsUpperCase = function (string) {
-    let result = '';
-  
-    for (let i = 0; i < string.length; i++) {
-      if (isVowel(string[i])) {
-        result += string[i].toUpperCase();
-      } else {
-        result += string[i];
-      }
+  return ['a', 'e', 'i', 'o', 'u'].indexOf(char) > -1;
+};
+
+const makeVowelsUpperCase = function (string) {
+  let result = '';
+
+  for (let i = 0; i < string.length; i++) {
+    if (isVowel(string[i])) {
+      result += string[i].toUpperCase();
+    } else {
+      result += string[i];
     }
-  
-    return result;
-  };
-  
-  console.log(makeVowelsUpperCase('lupo'));
-  
+  }
+
+  return result;
+};
+
+console.log(makeVowelsUpperCase('lupo'));
