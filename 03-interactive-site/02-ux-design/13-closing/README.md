@@ -4,8 +4,6 @@
 - Formato: `guiado`
 - Duración: `120min`
 
-***
-
 ## Agenda
 
 ### 1. Repasemos qué hemos aprendido hasta ahora

@@ -6,14 +6,15 @@
 
 ## Objetivos de Aprendizaje
 
-- Reconocer cómo es que las personas buscan / encuentran cosas en la web y cómo los elementos de Navegación colarboran en esta tarea.
+- Reconocer cómo es que las personas buscan / encuentran cosas en la web y cómo
+- los elementos de Navegación colarboran en esta tarea.
 
 ***
 
 ## Intro
 
-Imagina que vas al supermercado todas las semanas/meses y tienes que
-comprar algún producto de esta lista:
+Imagina que vas al supermercado que vas todas las semanas/meses y tienes que
+comprar algun producto de esta lista:
 
 - Arroz
 - Cerveza
@@ -28,7 +29,7 @@ compres regularmente, entonces te será fácil encontrarlos ahora.
 Para encontrar los elementos que no has comprado nunca vas a tardar un poco.
 Pero es probable que finalmente los encuentres. *¿Cómo crees que los encontrarás?*
 
-Ahora, *imagina que en lugar de ir al supermercado que vas regularmente, tienes*
+Ahora, *imagina que en lugar e ir al supermercado que vas regularmente, tienes*
 *que comprar los elementos de la lista en un supermercado de otra cadena y en*
 *otra ciudad (digamos Trujillo - Concepción - Monterrey).*
 
@@ -77,8 +78,8 @@ siguiente:
   ![](https://lh6.googleusercontent.com/rGIccV19X6k6QicicJCyquZpOn6SbD6CqZZaU9oSLzrEcAM5DzlRk1f8zS2XHli51a__zBd8c4ZxNsSfieh5n7vf59Fx4iS5thK2T5mHltMkb86d44U6Y35qfM_SDDvmkHN6rccUcr8)
 
 - **Buscamos elementos desconocidos:** este caso puede ser parecido al de los
-  endulzantes, no estamos seguros de lo que queremos como para saber dónde
-  buscarlo. En ese caso es mejor preguntarle a alguien.
+  endulzantes, no estamos seguros de lo que queremos como para saber donde
+  buscarlo. En ese caso es mejor preguntarle a alguien
 
   ![](https://lh3.googleusercontent.com/lryDFVjO96TzF9ifO1mlKQEZzcV6oWq6sTEUWDVEkpO7cmhZ9f_W_eEoTU8HzZfb8rYuF-IWejT0jVygNkskbYtTUoPO4oRvHYR4ewN7lyIQn-L8FbH4prdUSiiCq5F75MYFOa_D84M)
 
@@ -115,7 +116,7 @@ tenemos otras opciones (Overview, iOS, Tech Specs) que nos ayudan a navegar.
 
 ### Facetada
 
-Es la navegación a través de filtros no editables, definidos previamente por el
+Es navegación a través de filtros no editables, definidos previamente por el
 sistema.
 
 Por ejemplo, cuando buscamos algo en Google, los resultados vienen ya
@@ -127,7 +128,7 @@ Imágenes, Noticias, Videos, etc.
 ### Filtrada
 
 En este tipo de navegación le damos al usuario todos los resultados de la
-búsqueda y le damos una serie de opciones de filtros para que él mismo pueda
+búsqueda y le damos una serie de opciones de filtros para que el mismo pueda
 filtrar.
 
 Los resultados de búsqueda en Amazon y Airbnb son buenos ejemplos de navegación
@@ -158,7 +159,7 @@ adicionales.
 
 ### Suplementaria
 
-Es la navegación adicional, a veces temporal, utilizada para señalar algunas
+Es la navegación adicional, a veces temporal. Utilizada para señalar algunas
 funciones a nuevos usuarios.
 
 ![](https://lh5.googleusercontent.com/c43VKCJNJB4NnRkuSTEb9ecx33o9IjXq5DxRUgXr3BlLiahCp7LRRjI9xnZBA1E7IlgKWe_8oR_7_hXjR5m73YRiyCh3UaevKJIfozPwyY6ql9GnnlF8GHO0tIMUJGBkCvIDxI2NaWY)

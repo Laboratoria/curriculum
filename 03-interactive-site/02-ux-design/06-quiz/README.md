@@ -26,7 +26,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Cuáles son los 2 conceptos clave para entender User Experience Design?
+### 2) ¿Cuáles son los 2 conceptos claves para entender User Experience Design?
 
 #### Opciones
 
@@ -103,7 +103,7 @@
 
 1. Son una forma de expresar y “materializar” nuestras ideas
 2. Son una manera rápida de probar nuestras ideas
-3. Son económicos, solo se necesita papel y lápiz
+3. Son económicos solo se necesita papel y lápiz
 4. Todas las anteriores
 
 <solution style="display:none;">4</solution>
