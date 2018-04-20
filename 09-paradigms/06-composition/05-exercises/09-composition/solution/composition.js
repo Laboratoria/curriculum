@@ -1,17 +1,17 @@
 const pooper = state => ({
-  poop: () => console.log("💩")
+  poop: () => console.log('💩')
 });
 
 const barker = state => ({
-  bark: () => console.log("woof! my name is " + state.name)
+  bark: () => console.log('woof! my name is ' + state.name)
 });
 
 const driver = state => ({
-  drive: () => (state.position = state.position + state.speed)
+  drive: () => state.position = state.position + state.speed
 });
 
 const killer = state => ({
-  kill: () => console.log("time to kill!")
+  kill: () => console.log('time to kill!')
 });
 
 const dog = name => {
