@@ -1,17 +1,21 @@
 exports.repeat = (operation, num) => {
   // Escribe tu código aquí.
+
 };
 
-exports.doubleAll = numbers => {
+exports.doubleAll = (numbers) => {
   // Escribe tu código aquí.
+
 };
 
-exports.getShortMessages = messages => {
+exports.getShortMessages = (messages) => {
   //Escribe tu código aquí.
+
 };
 
-exports.countWords = arr => {
+exports.countWords = (arr) => {
   //Escribe tu código aquí.
+
 };
 
 //

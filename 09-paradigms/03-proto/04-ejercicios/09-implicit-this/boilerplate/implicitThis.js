@@ -3,17 +3,12 @@
 // -> Cuando `Vehicle` se invoque con 'new', debe retornar un objeto cualquiera,
 //    no el 'this' implícito.
 
-function Robot() {
+__
 
-}
-
-function Vehicle() {
-	return {};
-}
 
 // ------------------------------------------------
 // Exports de Common JS para verificación, no modificar
 module.exports = {
-	Robot,
-	Vehicle
+  Robot,
+  Vehicle
 }
