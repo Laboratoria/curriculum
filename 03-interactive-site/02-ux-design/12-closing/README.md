@@ -4,6 +4,8 @@
 - Formato: `guiado`
 - Duración: `120min`
 
+***
+
 ## Agenda
 
 ### 1. Repasemos qué hemos aprendido hasta ahora
@@ -17,3 +19,4 @@
 - ¿Cómo encuentran los usuarios cosas en la web?
 - ¿Qué tipos de navegación existen?
 - ¿Por qué son importantes los sketches?
+
