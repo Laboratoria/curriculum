@@ -43,5 +43,5 @@ lo veremos en una siguiente lección.
 
 ## Auto-evaluación
 
-Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
+Tus instructorxs te compartirán un link al cuestionario de _auto evaluación_.
 Este cuestionario no es calificado.
