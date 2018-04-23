@@ -65,7 +65,7 @@ siguientes conocimientos previos:
 
 En esta unidad veremos dos de los principios fundamentales de la programación
 funcional: cómo evitar el estado compartido usando **funciones puras** y el
-concepto de **inmutabilidad**. La duración estimada de esta unidad es de _3h_.
+concepto de **inmutabilidad**.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -83,8 +83,7 @@ concepto de **inmutabilidad**. La duración estimada de esta unidad es de _3h_.
 
 Esta unidad es básicamente una sesión de programación por pares. La tarea a
 realizar será refactorizar varias funciones de un videojuego existente haciendo
-uso de **funciones puras** y **estructuras inmutables**. La duración estimada de
-esta unidad es de _2h_.
+uso de **funciones puras** y **estructuras inmutables**.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -115,7 +114,7 @@ usos más avanzados como **aplicación parcial** y **currying**.
 
 ### Unidad 04: [Hacking: refactoring](04-workshop)
 
-La duración estimada de esta unidad es de _2h_.
+Taller de implementación por pares.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -145,7 +144,7 @@ asincronía, que es una característica fundamental de JavaScript.
 
 ### Unidad 06: [Hacking: refactoring](06-workshop)
 
-La duración estimada de esta unidad es de _2h_.
+Taller de implementación por pares.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
@@ -155,8 +154,7 @@ La duración estimada de esta unidad es de _2h_.
 
 ### Unidad 07: [Code review + Demos de proyectos](07-demos)
 
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo. La duración
-estimada de esta unidad es de _2h_.
+Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
 
 ***
 
