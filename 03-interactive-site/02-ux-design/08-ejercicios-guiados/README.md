@@ -22,7 +22,7 @@ Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
 estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
 ante el resto de la clase y así ayduar al resto de tus compañeras :)
 
-### 1. Miremos Netflix y expliquemos qué partes conforman el UX y qué partes el UI
+## 1. Miremos Netflix y expliquemos qué partes conforman el UX y qué partes el UI
 
 <!--
 

@@ -23,6 +23,7 @@
 3. Porque es parte del proceso
 4. Porque quieren saber cómo diferenciarse de ellos
 
+
 <solution style="display:none;">4</solution>
 
 ### 2) Los UX Designers están constantemente conversando y observando a los usuarios para...

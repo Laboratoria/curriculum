@@ -19,7 +19,7 @@ En esta unidad aprenderemos:
 Para poder entender cómo funciona un equipo de desarrollo de productos, mira el
 siguiente video:
 
-[![](https://lh5.googleusercontent.com/Nw1xRXhRhwllHgKL4m6xCFmPCubo7wgZ0bi7NSnRQk-FJm5AWPeJKbrF9yY3Uv8XJGbYcJhL6xDwBDkxYrf3fRjnp8__diJ8pJbnuTpD-KDTo4jXmu9QHkmjogOsOLfDpFN6AeIU9Hg)](https://youtu.be/ge4h5uJN6KI)
+[![El equipo de desarrollo](https://lh5.googleusercontent.com/Nw1xRXhRhwllHgKL4m6xCFmPCubo7wgZ0bi7NSnRQk-FJm5AWPeJKbrF9yY3Uv8XJGbYcJhL6xDwBDkxYrf3fRjnp8__diJ8pJbnuTpD-KDTo4jXmu9QHkmjogOsOLfDpFN6AeIU9Hg)](https://www.youtube.com/watch?v=ge4h5uJN6KI)
 
 Luego de ver el video, intenta responder las siguientes preguntas:
 
