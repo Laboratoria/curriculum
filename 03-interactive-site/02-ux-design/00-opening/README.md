@@ -31,21 +31,6 @@ Aprender sobre esto nos permitirá crear mejores productos digitales, porque:
   mejor entendimiento entre el equipo y nos permitirá planear mejor nuestros
   productos.
 
-<!--
-A continuación una entrevista a [_"industry expert name"_] y [_"egresada de
-Laboratoria name"_], quienes nos cuentan sobre la importancia de este tema,
-respondiendo las siguientes preguntas:
-
-  - ¿Cómo describes UX y UI a un niño de 5 años?
-  - ¿Por qué es importante diferenciar entre UX y UI?
-  - ¿Cómo los componentes de la navegación de una interfaz web contribuyen con
-	  la experiencia del usuario?
-  - ¿Por qué es importante sketchear en un proceso de desarrollo de productos?
-  - ¿Qué _tips_ tienes para alguien que recién empieza a aprender sobre User
-	  Experience para la web?
-
-![](http://via.placeholder.com/450x350)
--->
 
 ## Guía de preguntas y conceptos clave
 

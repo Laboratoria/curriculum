@@ -17,7 +17,7 @@ Para empezar, es bueno saber qué entendemos por UX. Para ello mira este video,
 en el que [Don Norman](https://es.wikipedia.org/wiki/Donald_Norman), primero en
 usar el término, nos explica qué es UX.
 
-[![](https://lh3.googleusercontent.com/NXXihcbIZBiywCDP7TVRfZwUTiLONFyi-XhYIoz-2-f7l9QamUVtsu7Vg6Snv9qOmTX28AS90Bh6eVnF-FWf0Ggvog-Vfj6eIfL6VTz5lf5avx00hvC13gdwy31_X-eoMvqkp-nYW7U)](https://youtu.be/9BdtGjoIN4E?&cc_lang_pref=es&cc_load_policy=1)
+[![UX](https://lh3.googleusercontent.com/NXXihcbIZBiywCDP7TVRfZwUTiLONFyi-XhYIoz-2-f7l9QamUVtsu7Vg6Snv9qOmTX28AS90Bh6eVnF-FWf0Ggvog-Vfj6eIfL6VTz5lf5avx00hvC13gdwy31_X-eoMvqkp-nYW7U)](https://www.youtube.com/watch?v=9BdtGjoIN4E&cc_lang_pref=es&cc_load_policy=1)
 
 ## ¿Qué es UX?
 
@@ -47,7 +47,8 @@ metas de los usuarios. Pero, sin dejar de lado las metas de los negocios.
 
 Para entender un poco más sobre el proceso de UX Design mira este video:
 
-[![](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://youtu.be/SBIvPTSy1QM)
+[![User Experience](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://www.youtube.com/watch?v=SBIvPTSy1QM)
+
 
 ## ¿Por qué estamos aprendiendo UX?
 

@@ -156,10 +156,12 @@ visible en el navegador hasta que lo añadamos en el documento.
 
 - Sintaxis:
 
-    `document.createElement('elemento_a_crear');`
+  ```javascript
+  document.createElement('elemento');
+  ```
 
-Así, crear un nuevo párrafo es tan simple como document.createElement('p')
-—nota: atención a las comillas—. Eso sí, el elemento no será visible, no es más
+Así, crear un nuevo párrafo es tan simple como `document.createElement('p');`,
+atención a las comillas. Eso sí, el elemento no será visible, no es más
 que una especie de fantasma que existe en el documento, pero hasta que no se le
 asigne una posición en el árbol no se mostrará al usuario. Cómo incluirlo en el
 árbol lo veremos en la sección de _añadir nodos al DOM_.
