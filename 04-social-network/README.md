@@ -64,8 +64,8 @@ características:
 | - | ---- | -------- | ------
 | 00 | lectura | 30min | Opening
 | 01 | lectura | 15min | ¿Qué es un Framework?
-| 02 | lectura | 15min | Bootstrap
-| 03 | lectura | 30min | ¿Y Materialize?
+| 02 | lectura | 15min | Materialize
+| 03 | lectura | 30min | ¿Y Bootstrap?
 | 04 | lectura | 30min | ¿Componentes con jQuery?
 | 05 | quiz | 30min | Quiz #1
 | 06 | taller | 2h | Clase Práctica
@@ -111,15 +111,16 @@ características:
 | 11 | cuestionario | 5min | Auto-evaluación
 | 12 | seminario | 2h | Closing
 
-### Unidad 05: [Agrega Back-end a tus aplicaciones](04-firebase-101)
+### Bonus: Agrega Back-end a tus aplicaciones
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 00 | lectura | 60min | Introducción a Firebase
-| 01 | lectura | 60min | Autenticación
-| 02 | lectura | 60min | Base de Datos
+| 00 | lectura | 10min | Introducción a Firebase
+| 01 | lectura | 15min | Autenticación
+| 02 | lectura | 25min | Base de Datos
+| 03 | práctica | 1h | Retos guiados
 
-### Unidad 06: [Crea tu propia red social](05-social-network)
+### Unidad 05: Crea tu propia red social
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
