@@ -1,7 +1,7 @@
 # Retos
 
 - Tipo: `práctica`
-- Formato: self-paced`
+- Formato: `self-paced`
 - Duración: `20h`
 
 ## Objetivos
