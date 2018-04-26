@@ -130,8 +130,9 @@ características:
 | 03 | taller | 30min | Demo
 | 04 | taller | 2h | Retrospectiva
 
-## Autor(es) / Colaboradores
+## Autores / Colaboradores
 
+* Allison Guzmán
 * Steph Salazar
 * Lalo Gonzalez
 * Ivan Medina
