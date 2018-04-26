@@ -1,7 +1,7 @@
 # Closing: Haciendo tu sitio web interactivo
 
 - Tipo: `seminario`
-- Formato: `guided-learning`
+- Formato: `guided`
 - Duración: `120min`
 
 ***
