@@ -1,7 +1,7 @@
 # Eventos
 
 - Tipo: `lectura`
-- Formato: `self-learning`
+- Formato: `self-paced`
 - Duración: `90min`
 
 ***
