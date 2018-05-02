@@ -1,0 +1,3 @@
+function potencia (b, e) {
+
+}
