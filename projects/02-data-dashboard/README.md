@@ -1,16 +1,6 @@
-# Producto Final: Data Dashboard
+# Data Dashboard
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `15h`
-
-## Objetivos
-
-- A continuación te presentamos el enunciado del reto final de este curso.
-
-***
-
-## Sobre el producto
+## Preámbulo
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
 mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
@@ -19,6 +9,8 @@ tienen que revisar muchos documentos de excel (Google Spreadsheets) que están
 localizados en distintas carpetas y ubicaciones. Muchas veces pierden tiempo
 localizando estos documentos y _ejecutando_ fórmulas para obtener los datos que
 necesitan.
+
+## Introducción
 
 Para poder optimizar su tiempo, las TMs han solicitado que construyamos una
 herramienta web donde puedan ver estos datos fácil y rápidamente. Y nos
@@ -54,7 +46,11 @@ pudimos crear [este diseño](https://marvelapp.com/104ejifg/). Sin embargo,
 creemos que tú podrías proponer algún cambio a este diseño que pueda mejorar la
 experiencia de las TMs.
 
-## ¿Qué se requiere?
+## Objetivos
+
+...
+
+## Consideraciones generales
 
 - Trabajar en parejas
 - Tener una planificación
@@ -62,19 +58,9 @@ experiencia de las TMs.
 - Implementación del data dashboard usando `html`, `css` y `js`
 - Desplegar el producto en Github Pages
 
-## ¿Cómo empezar?
+## Parte obligatoria
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de [este repositorio](https://github.com/Laboratoria-learning/data-dashboard).
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/data-dashboard.git
-   ```
-
-## Adicionales
+## Hacker edition
 
 En Laboratoria (y sobre todo las TMs) somos adictos a la representación gráfica
 de los datos y como muestra el diseño, sería ideal poder mostrar los datos
@@ -90,3 +76,25 @@ requerimiento adicional sea muy útil:
 
 > Tener un botón que permita indicar que una estudiante ha salido del Bootcamp y
 > alterar los totales afectados por este cambio.
+
+## Entrega
+
+***
+
+## Primeros pasos
+
+1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+   de [este repositorio](https://github.com/Laboratoria-learning/data-dashboard).
+
+2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
+   es `git clone` y su estructura normalmente se ve así:
+
+   ```sh
+   git clone https://github.com/<nombre-de-usuario>/data-dashboard.git
+   ```
+
+***
+
+## Tips / Pistas
+
+...

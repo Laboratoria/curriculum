@@ -1,4 +1,4 @@
-# Cipher
+# Cifrado César
 
 ## Preámbulo
 
@@ -9,9 +9,9 @@ con amigos y familiares.
 Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
 (como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
 y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
-crear una aplicación que te permita enviar mensajes encriptados y que las demás
+crear una aplicación que te permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
-desencriptarlo. Así que ahora te toca aplicar tus superpoderes 😎
+descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 ## Introducción
 
@@ -38,11 +38,12 @@ sistema ROT13.
 ## Objetivos
 
 El objetivo principal de aprendizaje de este reto es tener tu primera
-experiencia construyendo una aplicación web, incluyendo diseñar y contruir una
-interfaz, escuchar eventos básicos del DOM, escribir lógica para llevar a cabo
-el cifado/descifrado, tests unitarios básicos para comprobar (y documentar)
-dicha lógica, y finalmente manipulación del DOM para mostrar (escribir) los
-resultados.
+experiencia construyendo una aplicación web usando tus conocimientos de **User
+Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
+pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
+DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
+básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
+del DOM para mostrar (escribir) los resultados.
 
 Para completar el reto tendrás que familiarizarte con conceptos como _valores_,
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
@@ -57,7 +58,10 @@ En este reto NO está permitido usar librerías o frameworks, sólo
 No se debe utilizar la _pseudo-variable_ `this`.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_.
+y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
+setup y configuración necesaria para ejecutar los tests (pruebas) usando el
+comando `npm test` (o `yarn test` si estás usando `yarn` como
+_package manager_).
 
 Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
@@ -72,17 +76,28 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .gitignore
 ├── package.json
 ├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
+│   ├── cipher.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
 ├── test
-│   ├── cipher.spec.js
-│   └── index.html
+│   ├── cipher.spec.js
+│   └── index.html
 └── yarn.lock
 ```
 
 ## Parte obligatoria
+
+### Definición del producto
+
+En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
+producto y cuál fue tu proceso para definir el producto final a nivel de
+experiencia y de interfaz.
+
+* quiénes son los principales usarios de producto
+* cuáles son los objetivos de estos usarios en relación con el producto
+* cómo crees que el producto que estás creando les está resolviendo sus
+  problemas
 
 ### UI
 
@@ -95,8 +110,11 @@ La interfaz debe permitir al usuario:
 * insertar un mensaje (texto) a descifrar
 * ver el resultado del mensaje descifrado
 
-### Scripts
+### Scripts / Archivos
 
+* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
+  así como una introducción a la aplicación, su funcionalidad y decisiones de
+  diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener to _markup_ (HTML) e incluir el CSS y JavaScript necesario.
 * `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
@@ -106,6 +124,8 @@ La interfaz debe permitir al usuario:
        queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
        que queremos cifrar.
     - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
+      queremos mover a la izquierda en el alfabeto y `string` el mensaje
+      (texto) que queremos decifrar.
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
@@ -113,9 +133,9 @@ La interfaz debe permitir al usuario:
 
 ### Tests
 
-El boilerblate incluye tests de ejemplo y todo el setup necesario para
-implementar y ejecutar los tests, así como _code coverage_ para ver el nivel de
-cobertura de los tests (ver consideraciones generales).
+El _boilerplate_ incluye tests (pruebas) de ejemplo y todo el setup necesario
+para implementar y ejecutar los tests, así como _code coverage_ para ver el
+nivel de cobertura de los tests (ver consideraciones generales).
 
 ## Hacker edition
 
@@ -129,3 +149,33 @@ de crear el objeto.
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages.
+
+***
+
+## Primeros pasos
+
+1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
+2. Clona el repo en tu computadora.
+3. Instala las dependencias del proyecto con el comando `npm install` (o
+   `yarn install` dependiendo de que _package manager_ estés usando).
+4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
+   reto (o `yarn test`)
+
+***
+
+## Tips / Pistas
+
+A continuación un video de Michelle que te lleva a través de la fórmula
+matemática del Cifrado César y un par de cosas más que debes saber para
+resolver este reto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+
+[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+
+También te compartimos más información de lo que Michelle te ha explicado en el
+video anterior:
+
+- [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+- [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+- [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+- [Documentación de NPM](https://docs.npmjs.com/)
+- [Documentación de yarn](https://yarnpkg.com/en/)
