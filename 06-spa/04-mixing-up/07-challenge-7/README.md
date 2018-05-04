@@ -8,7 +8,7 @@
 
 ## Enunciado
 
-Crear una web app donde los usuarios podrán visualizar y hacer un registro a los 
+Crear una web app donde los usuarios podrán visualizar y hacer un registro a los
 talleres y conferencias de un evento.
 
 ## Recursos
@@ -23,7 +23,7 @@ Así mismo te pasamos la el Excel en donde se encuentra [la data para el reto](h
 
 ## Recomendaciones
 
-Antes de empezar a codear, debes decidir que herramientas vas a utilizar para 
+Antes de empezar a codear, debes decidir que herramientas vas a utilizar para
 poder desarrollarlo y cumplir con los requerimientos.
 
 Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
