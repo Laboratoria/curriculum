@@ -25,7 +25,7 @@ Imagina que tienes una página web con una lista no ordenada (`ul`), algo así:
 </ul>
 ```
 
-Y los usuarios te han estado pidiento un _feature_ para que los textos que
+Y los usuarios te han estado pidiendo un _feature_ para que los textos que
 aparecen en la lista salgan con todas las vocales en mayúscula. Es una petición
 un poco extraña, pero la vida misma es muy extraña...
 
@@ -47,7 +47,7 @@ queremos (los `<li>`) y remplazar su contenido con lo que retorne
   .forEach(el => el.innerHTML = makeVowelsUpperCase(el.innerHTML));
 ```
 
-Antes de asiganrle a nadie la implementación de esta función, decidimos escribir
+Antes de asignarle a nadie la implementación de esta función, decidimos escribir
 algunos tests para que sirvan de guía y describan el comportamiento esperado. En
 una carpeta nueva, crea un archivo con el nombre `makeVowelsUpperCase.spec.js` y
 añade los siguientes tests:
@@ -143,7 +143,7 @@ Este archivo HTML hace lo siguiente:
    ```html
    <script src="./makeVowelsUpperCase.spec.js"></script>
    ```
-8. Finalmente ejecuamos los tests.
+8. Finalmente ejecutamos los tests.
    ```js
    mocha.run();
    ```
@@ -159,7 +159,7 @@ esperados.
 
 Ya estamos listos para asignarle el trabajo de implementar la función a una
 compañera, quien tendrá clara cuál es la intención de la función y su
-comportamiento esperado. Los tests le permitirán saber si la implementación de
+comportamiento esperado. Los tests le permitirán saber si la implementación se
 ajusta o no a los requerimientos.
 
 Continuemos imaginando... digamos que han pasado unos días y Pepita, una
@@ -198,7 +198,7 @@ const makeVowelsUpperCase = function (string) {
 
 Si ahora abrimos otra vez el archivo `test.html` veremos lo siguiente.
 
-![image](https://user-images.githubusercontent.com/110297/34899917-c8f6d402-f7c9-11e7-9e69-c00ed149d0e0.png)
+![Output de Mocha en navegador con tests aprobados](https://user-images.githubusercontent.com/110297/34899917-c8f6d402-f7c9-11e7-9e69-c00ed149d0e0.png)
 
 Parece que el código de Pepita pasa todos los tests :tada:
 
@@ -208,7 +208,7 @@ Pero ahí no termina la historia... han pasado unos días, el código de Pepita 
 está en producción, y recibimos un reporte de un _bug_: las vocales con acento
 no se están transformando a mayúsculas! Gracias a que tenemos tests para esta
 función, podemos rápidamente escribir un nuevo test para replicar y confirmar
-el problema reportado, así que añadimos el siguiente test nuestro archivo
+el problema reportado, así que añadimos el siguiente test a nuestro archivo
 `makeVowelsUpperCase.spec.js`:
 
 ```js
