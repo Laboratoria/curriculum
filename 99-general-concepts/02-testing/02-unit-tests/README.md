@@ -46,19 +46,19 @@ challenge:
 Let's look at the unit tests associated with this challenge:
 
 ```javascript
-describe('areValidCredentials()', function() {
-  it('debería regresar true cuando las credenciales son válidas', function() {
-    var output = areValidCredentials('Kemal', 'testtesttest');
+describe('areValidCredentials()', () => {
+  it('debería regresar true cuando las credenciales son válidas', () => {
+    const output = areValidCredentials('Kemal', 'testtesttest');
     Assert.deepEqual(output, true);
   });
 
-  it('debería regresar false cuando el nombre es demasiado corto', function() {
-    var output = areValidCredentials('K', 'mylongpassword');
+  it('debería regresar false cuando el nombre es demasiado corto', () => {
+    const output = areValidCredentials('K', 'mylongpassword');
     Assert.deepEqual(output, false);
   });
 
-  it('debería regresar false cuando la contraseña es demasiado corta', function() {
-    var output = areValidCredentials('Kemal', 'aah');
+  it('debería regresar false cuando la contraseña es demasiado corta', () => {
+    const output = areValidCredentials('Kemal', 'aah');
     Assert.deepEqual(output, false);
   });
 });
@@ -73,7 +73,11 @@ Each function here begins with the word 'it', which in English means 'eso'. The
 You can see that each unit test is a function that reads like a sentence. For
 instance, this function...
 
-`it('debería regresar false cuando la contraseña es demasiado corta', function() {...});`
+```js
+it('debería regresar false cuando la contraseña es demasiado corta', () => {
+  // ...
+});
+```
 
 ... declares this assertion statement...
 
@@ -99,8 +103,8 @@ new test should isolate and verify only the number requirement, so the name and
 password should meet the previous character length requirements.
 
 ```javascript
-it('debería regresar false cuando la contraseña no tiene número', function() {
-  var output = areValidCredentials('Kemal', 'contraseña');
+it('debería regresar false cuando la contraseña no tiene número', () => {
+  const output = areValidCredentials('Kemal', 'contraseña');
   Assert.deepEqual(output, false);
 });
 ```
@@ -121,24 +125,24 @@ to the passwords of both of these tests as well.
 Here are our updated unit tests:
 
 ```javascript
-describe('areValidCredentials()', function() {
-  it('debería regresar true para credentials válidos', function() {
-    var output = areValidCredentials('Kemal', 'testtesttest1');
+describe('areValidCredentials()', () => {
+  it('debería regresar true para credentials válidos', () => {
+    const output = areValidCredentials('Kemal', 'testtesttest1');
     Assert.deepEqual(output, true);
   });
 
-  it('debería regresar false cuando el nombre es tan corto', function() {
-    var output = areValidCredentials('K', 'mylongpassword1');
+  it('debería regresar false cuando el nombre es tan corto', () => {
+    const output = areValidCredentials('K', 'mylongpassword1');
     Assert.deepEqual(output, false);
   });
 
-  it('debería regresar false cuando la contraseña es tan corta', function() {
-    var output = areValidCredentials('Kemal', 'aah1');
+  it('debería regresar false cuando la contraseña es tan corta', () => {
+    const output = areValidCredentials('Kemal', 'aah1');
     Assert.deepEqual(output, false);
   });
 
-  it('debería regresar false cuando la contraseña no tiene numero', function() {
-    var output = areValidCredentials('Kemal', 'contraseña');
+  it('debería regresar false cuando la contraseña no tiene numero', () => {
+    const output = areValidCredentials('Kemal', 'contraseña');
     Assert.deepEqual(output, false);
   });
 });

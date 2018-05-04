@@ -21,9 +21,11 @@ fácil de leer para todos.
 ## La guía de estilos Laboratoria
 
 En Laboratoria, hemos preparado una guía de estilos para que la sigas a partir
-de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide). Por favor léelo ahora. No te preocupes - no necesitas memorizarlos todos ahora -
+de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide).
+Por favor léelo ahora. No te preocupes - no necesitas memorizarlos todos ahora -
 puedes usar un linter (explicado en la siguiente sección) como ayuda. Pero
-debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el tiempo te acostumbrarás a seguir estas reglas sin tener que pensar en ello.
+debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el
+tiempo te acostumbrarás a seguir estas reglas sin tener que pensar en ello.
 
 ### Código antes y después
 
@@ -103,8 +105,8 @@ cipher('Hola', 33);
 Escribimos la guía de estilo Laboratoria para que sea una versión más simple de
 dos de las guías de estilo más populares:
 
-* [Guía de estilos JavaScript de AirBnb](https://github.com/paolocarrasco/javascript-style-guide)
-* [Guía de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
+- [Guía de estilos JavaScript de AirBnb](https://github.com/paolocarrasco/javascript-style-guide)
+- [Guía de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
 
 Cuando trabajas como desarrollador profesional, es muy probable que se te pida
 que sigas una de estas dos guías, por lo que escribimos nuestra guía como un
