@@ -1,7 +1,7 @@
 # Bienvenida a Laboratoria
 
 - Tipo: `lectura`
-- Formato: `guiado`
+- Formato: `self-paced`
 - Duración: `10min`
 
 ***
