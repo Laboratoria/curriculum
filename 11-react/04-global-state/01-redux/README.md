@@ -136,15 +136,17 @@ function todoApp(state = {}, action) {
 ```
 
 Y esto es básicamente `Redux`. Fíjate que para hacer esto no hemos usado ni una
-sola función de la librería. Redux provee algunas utilities que facilitan
+sola función de la librería. Redux provee algunas _herramientas_ que facilitan
 trabajar con este patrón, pero la idea principal es que puedas describir como va
-evolucionando el state de tu aplicación en respuesta a los actions. Alrededor
+evolucionando el _estado_ de tu aplicación en respuesta a los actions. Alrededor
 del 90% de tu código será _Vanilla Javascript_, sin usar ninguna funcionalidad
 de `Redux`.
 
 ### Los tres principios de Redux
 
-### Una sóla fuente de información (Single source of truth)
+### Una sóla fuente de verdad
+
+> Single source of truth
 
 **El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu aplicación
 es guardado en un objeto dentro de un único
@@ -170,17 +172,19 @@ console.log(store.getState())
 */
 ```
 
-### El state es read-only (State is read-only)
+### El estado es de "sólo-lectura"
 
-**La única forma de cambiar el state, es disparando un
-[action](http://redux.js.org/docs/Glossary.html#action), un objeto describiendo
-qué es lo que sucedió.**
+> State is read-only
+
+**La única forma de cambiar el estado, es disparando una
+[acción](http://redux.js.org/docs/Glossary.html#action) (un objeto describiendo
+qué es lo que sucedió).**
 
 Esto garantiza que ni las vistas ni las llamadas a servicios externos puedas
-realizar cambios en el state directamente. En lugar de eso, expresan su
-intención de cambiar el state a través de un action. Como todo los cambios están
-centralizados, y suceden en un orden estricto, no tenemos que preocuparnos por
-casos raros o dificiles de reproducir.
+realizar cambios en el _state_ directamente. En lugar de eso, expresan su
+intención de cambiar el _state_ a través de un action. Como todo los cambios
+están centralizados, y suceden en un orden estricto, no tenemos que preocuparnos
+por casos raros o dificiles de reproducir.
 
 ```js
 store.dispatch({
@@ -194,7 +198,7 @@ store.dispatch({
 })
 ```
 
-### Los cambios de state, se realizan a través de funciones puras
+### Los cambios de estado, se realizan a través de funciones puras
 
 > Changes are made with pure functions
 

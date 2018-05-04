@@ -27,7 +27,7 @@ Luego de leer este artículo, intenta responder las siguientes preguntas:
 Para dedicarnos a ser UX o UI Designer tenemos que tener ciertas características
 que puedes ver en el siguiente video:
 
-[![UX vs UI Design roles](https://img.youtube.com/vi/ft5TzxG-LAc/0.jpg)](https://www.youtube.com/watch?v=ft5TzxG-LAc)
+[![UX vs UI Design roles](https://img.youtube.com/vi/ft5TzxG-LAc/0.jpg)](https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1)
 
 Ahora, intenta responer estas preguntas:
 
@@ -46,15 +46,15 @@ términos distintos.
 > links, ventanas, esquinas redondeadas, sombreado, mensajes de error, alertas,
 > actualizaciones, checkboxes, campos de contraseña, campos de búsqueda,
 > entradas de texto, selectores de radio, áreas de texto, estados de hover,
-> estados de selección , estados presionados, información sobre herramientas,
-> anuncios de banner, vídeos incrustados, animaciones de desplazamiento,
+> estados de selección, estados presionados, información sobre herramientas,
+> anuncios de banner, videos incrustados, animaciones de desplazamiento,
 > desplazamiento, clics, iconografía, colores, listas, presentaciones de
 > diapositivas, texto alternativo, insignias, notificaciones, degradados,
-> ventanas emergentes, carruseles, OK / Cancelar, etc. etc
+> ventanas emergentes, carruseles, OK / Cancelar, etc., etc., etc.
 
 #### UX
 
 > Gente, felicidad, resolución de problemas, entender necesidades, amor,
 > eficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez,
 > personalidad, alegría, satisfacción, gratificación, exaltación, euforia,
-> conveniencia,  eficacia, etc. etc. etc.
+> conveniencia,  eficacia, etc., etc., etc.

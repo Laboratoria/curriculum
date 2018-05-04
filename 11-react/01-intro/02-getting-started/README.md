@@ -134,6 +134,12 @@ function Cabecera() {
 }
 ```
 
+Las funciones `div()` y `h2()` están esperando dos parámetros:
+
+* El primero es un objeto con atributos de configuración HTML (`className`,
+  `src`, `alt`, `href`, etc) y que por ahora es nulo
+* Y el segundo está recibiendo el contenido (`innerHTML`) que va a ir en el tag.
+
 Esto es análogo al siguiente codigo html:
 
 ```html
@@ -268,7 +274,7 @@ el solucionario de esta unidad.
     }
 
     ReactDOM.render(
-      Cabecera({ nombre: 'Mundo' }),
+      Cabecera({ saludo: 'Mundo' }),
       document.getElementById('cabecera')
     );
   </script>

@@ -10,6 +10,8 @@
 
 * [HttpClient](https://angular.io/guide/http)
 * [Angular con Firebase](https://github.com/angular/angularfire2)
+* [Firebase - Autorización y login](https://alligator.io/angular/firebase-authentication-angularfire2/)
+* [Firebase - Base de datos y operaciones básicas](https://alligator.io/angular/firebase-crud-operations/)
 
 ## Lecturas opcionales
 

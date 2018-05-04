@@ -1,4 +1,4 @@
- module.exports = function createStore() {
+module.exports = function createStore() {
 
   let data = {};
 
