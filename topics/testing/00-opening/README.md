@@ -8,7 +8,7 @@
 
 ## ¿Por qué aprender esto?
 
-Testear tu código es importante para garantizar que funcione como un espera,
+Probar tu código es importante para garantizar que funcione como unx espera,
 pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
 a diseñar mejor nuestro código.
 
