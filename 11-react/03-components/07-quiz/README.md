@@ -28,17 +28,16 @@
 
 <solution style="display:none;">5</solution>
 
-### 2) Si el **PropTypes** que hemos definido como requerida, no le pasas un valor tu aplicación se detendrá y no será ejecutada.
+### 2) Si el **PropTypes** que hemos definido como requerida, no le pasas un valor tu aplicación se detendrá y no será ejecutada
 
 #### Opciones
 
 1. Verdadero
 2. Falso
 
-
 <solution style="display:none;">2</solution>
 
-### 3) Los ________ hacen que ________ se sienta como un auténtico lenguaje de markup y no como un montón de entidades sueltas escritas en jsx.
+### 3) Los ________ hacen que ________ se sienta como un auténtico lenguaje de markup y no como un montón de entidades sueltas escritas en JSX
 
 #### Opciones
 
@@ -54,8 +53,7 @@
 
 1. Los componentes presentacionales son la "cara" de tu aplicación.
 2. Se ocupan de cómo funcionan las cosas.
-3. No especifican cómo se obtiene la información que usan ni cómo se modifica,
-sólo la usan.
+3. No especifican cómo se obtiene la información que usan ni cómo se modifica, sólo la usan
 4. No tienen dependencias con el resto de la aplicación
 5. Predomina el código JSX.
 
@@ -74,7 +72,7 @@ sólo la usan.
 
 <solution style="display:none;">2,4,5</solution>
 
-### 6) Un HOC es ________ que toma  ________ como parámetro y retorna un nuevo ________ como resultado.
+### 6) Un HOC es ________ que toma  ________ como parámetro y retorna un nuevo ________ como resultado
 
 #### Opciones
 
