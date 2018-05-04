@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `60min`
+- Duración: `6h`
 
 ## Objetivos
 
@@ -16,15 +16,17 @@
 Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
 para resolver problemas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones
-de Michelle. Después de haberlo intentado, compara tus soluciones
-con las de Michelle.
+A continuación tendrás varios problemas que debes resolver. Intenta
+resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
+
+Después de haberlo intentado, compara tus soluciones con los videos de abajo.
+
+*NO* antes.
 
 ### 1. Reserva de puestos aerolínea
 
 Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema
-de reservaciones automatizada. Se te ha pedido que desarrolles el nuevo
+de reservaciones automatizadas. Se te ha pedido que desarrolles el nuevo
 sistema. Escribirás una aplicación para asignar asientos en cada vuelo del
 __único__ avión de la aerolínea (capacidad: 10 asientos).
 
@@ -92,22 +94,22 @@ sin minas (vacía o de número), el juego continúa.
 - ¿Cómo puedes diferenciar una bomba de un número o de una celda vacía en el
   HTML?
 - ¿Qué evento necesitas para captar el click del usuario?
-- Una vez que el usuario haga click sobre la "celda", ¿Qué tiene que pasar?
+- Una vez que el usuario haga click sobre la "celda", ¿qué tiene que pasar?
 - ¿Cómo podemos hacer que elementos aparezcan y desaparezcan en el HTML?
-- ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario?(pista:
+- ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario? (pista:
   removeEventListener)
 
 #### Requerimientos
 
 - Mostrar una tabla de 4 x 4 (con bombas, celdas vacías y números en posición
   fija)
-- Al dar clic en una celda vacía cambiar de color de la celda.
+- Al dar clic en una celda vacía, cambiar de color de la celda.
 - Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
   más celdas) y mostrar mensaje: “Esto ha explotado”
-- Al dar click en una celda con un número, mostrar el número que tiene.
-- Crear un botón Re iniciar que comience de nuevo el juego.
+- Al dar clic en una celda con un número, mostrar el número que tiene.
+- Crear un botón Reiniciar que comience de nuevo el juego.
 
-##### Puntos extras
+##### Puntos extra
 
 - Al dar clic fuera de la tabla mostrar mensaje: “Sigue jugando”. (inner html o
   alert).
@@ -122,7 +124,7 @@ Un menú de hamburguesa nos permite tener escondido el menú y únicamente mostr
 un botón (3 líneas horizontales) que cuando lo apretamos (o hacemos click), se
 muestra en la pantalla todas las opciones del menú.
 
-Algo asi:
+Algo así:
 
 ![Hamburger Menu](http://i.imgur.com/JKJ8V9v.gif)
 
@@ -133,7 +135,7 @@ Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
 
 Las tabs nos sirven para agrupar contenido similar usando solo un espacio.
 
-Algo asi:
+Algo así:
 
 ![Tabs Menu](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
 
@@ -145,13 +147,14 @@ Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
 El menú drop down nos ayuda a ahorrar espacio en un menú, ya que agrupa
 elementos similares.
 
-Algo asi:
+Algo así:
 
 ![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
 
 #### 6. Mini Zoo
 
-Esta página permite elegir efectos como **sepia**, **blanco y negro** e **invertir colores** que deseamos que obtengan nuestras imágenes.
+Esta página permite elegir efectos como **sepia**, **blanco y negro** e
+**invertir colores** que deseamos que obtengan nuestras imágenes.
 Deberás replicarla usando DOM y CSS.
 
 Veamos como debe quedar la página...
@@ -159,8 +162,8 @@ Veamos como debe quedar la página...
 
 ## Solucionarios
 
-A continuación, Amalia, Karla e Inti te explican cómo resolvieron cada uno de
-los ejercicios anteriores.
+A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron
+cada uno de los ejercicios anteriores.
 
 ### 1. Aerolínea
 

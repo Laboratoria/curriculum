@@ -10,7 +10,7 @@ Cuando hablamos de **tests** (pruebas), podríamos ponernos a pensar en
 herramientas de testing, como `Mocha`, `Jest`, `Jasmine`, ... o metodologías de
 desarrollo como TDD o BDD. Todo esto puedes ser super confuso. En esta unidad
 trataremos de desmitificar un poco este tema empezando desde el principio. Para
-ello pensemos en pruebas simpemente como el acto de ejecutar algo en la
+ello pensemos en pruebas simplemente como el acto de ejecutar algo en la
 computadora y después comprobar que efectivamente ocurrió lo que esperábamos.
 
 El test más sencillo posible:
@@ -95,7 +95,7 @@ errores pueden ser un poco crípticos al principio, y hay que aprender a
 _leerlos_. El mensaje de error en sí dice que no se pudo encontrar el módulo
 `./isVowel`, y debajo tenemos una serie de líneas con el
 [stack trace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/Stack),
-que nos muestra la pila de llamadas dónde ocurrió el error. En este caso podemos
+que nos muestra la pila de llamadas donde ocurrió el error. En este caso podemos
 ver que se menciona nuestro script (`/Users/lupo/work/laboratoria/curricula-js/05-deep-dive/03-testing/01-basics/files/isVowel.spec.js:1:79`),
 y al final de la ruta al archivo vemos que aparecen dos números separados por
 dos puntos (`:`). Estos números nos dicen en qué línea y qué columna (posición
