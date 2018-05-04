@@ -118,7 +118,7 @@ nuestros productos web estáticos se vuelvan interactivos usando `JavaScript`.
 | 07 | quiz | 30min | Quiz #1
 | 08 | seminario | 2h | Clase de Conceptos
 | 09 | taller | 2h | Clase Práctica
-| 10 | práctica` | 20h | Retos
+| 10 | práctica | 20h | Retos
 | 11 | seminario | 2h | Solucionario Retos de Código
 | 12 | quiz | 30min | Quiz #2: _requizzing_
 | 13 | cuestionario | 5min | Auto-evaluación
@@ -149,6 +149,7 @@ user experience design para que tu producto sea algo que la gente quiera usar.
 | 12 | cuestionario | 5min | Auto-evaluación
 | 13 | seminario | 2h | Closing
 
+
 ### Unidad 04: [Data Dashboard](03-data-dashboard)
 
 20 hrs
@@ -160,11 +161,11 @@ con todo!
 
 | # | Tipo | Duración | Tópico
 | - | ---- | -------- | ------
-| 01 | lectura | 1h | Organizando mis tareas
-| 02 | práctica | 14h | Data Dashboard
-| 03 | taller | 2h | Code Review (Peer + Teacher)
-| 04 | taller | 2h |  Solucionarios
-| 05 | taller | 1h |  Retrospectiva
+| 00 | practice | 14h | Data Dashboard
+| 01 | taller | 2h | Code Review (Peer + Teacher)
+| 02 | seminario | 2h |  Solucionario
+| 03 | cuestionario | 2h |  Encuestas de cierre de sprint
+| 04 | taller | 1h |  Retrospectiva
 
 ***
 
