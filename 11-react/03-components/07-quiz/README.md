@@ -53,7 +53,8 @@
 
 1. Los componentes presentacionales son la "cara" de tu aplicación.
 2. Se ocupan de cómo funcionan las cosas.
-3. No especifican cómo se obtiene la información que usan ni cómo se modifica, sólo la usan
+3. No especifican cómo se obtiene la información que usan ni cómo se modifica,
+sólo la usan
 4. No tienen dependencias con el resto de la aplicación
 5. Predomina el código JSX.
 
