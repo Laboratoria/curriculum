@@ -113,7 +113,10 @@ dos archivos:
     <!--Link a archivo que esta en internet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9368e483d550be5e4923acd3bfecc281f8310ce1
   </head>
   <body>
     <h1>Hello World!</h1>

@@ -27,7 +27,7 @@ Luego de leer este artículo, intenta responder las siguientes preguntas:
 Para dedicarnos a ser UX o UI Designer tenemos que tener ciertas características
 que puedes ver en el siguiente video:
 
-[![UX vs UI Design roles](https://img.youtube.com/vi/ft5TzxG-LAc/0.jpg)](https://www.youtube.com/watch?v=ft5TzxG-LAc)
+[![UX vs UI Design roles](https://img.youtube.com/vi/ft5TzxG-LAc/0.jpg)](https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1)
 
 Ahora, intenta responer estas preguntas:
 

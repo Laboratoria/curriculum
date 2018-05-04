@@ -1,119 +1,80 @@
 # Lo que todo programador debe saber
 
-Dos o tres párrafos explicando el curso en líneas generales. Introducción al
-tema central y su importancia para un desarrollador full stack.
+En este curso aprenderás diversos temas relacionados a desarrollo web que
+aportarán metodologías y herramientas a tu flujo de trabajo. Para esto
+aprenderás a:
 
-Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
-temas principales, metodología y enfoque de la experiencia.
-
-Requerimientos de la intro:
-
-* Cuál es el tema en un tweet
-* Dónde encaja dentro del mundo profesional y en la historia del software
-* Por qué es relevante aprender esto
-* Abstract del curso
-
-Tags: `foo`, `bar`, `baz`
+1. Depurar tu código para detectar y corregir errores
+2. Probar tu código y entender las diversas maneras de cómo lograrlo
 
 ## Público objetivo
 
-Para quién es este curso?
+Este curso está dirigido a estudiantes de Laboratoria. No es calificable y está
+disponible para ser consultado durante cualquier momento del proceso de
+aprendizaje.
 
 ## Requerimientos previos
 
-Qué conocimientos previos se necesitan?
+Para llevar este curso debes haber completado el curso `programación básica
+con JavaScript` de Laboratoria. Se asume que las alumnas saben crear programas
+básicos, haciendo uso de: variables, funciones, bucles, condicionales, arreglos
+y objetos.
 
 ## Aprenderás
 
-En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
-extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms):
-
-* Qué son los **paradigmas de programación**
-* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
-* Las diferencias entre **constructores** y **factories**
-* Cómo implementar **herencia prototipal**
-* Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
+* Cómo reaccionar ante mensajes de errores comunes
+* Cómo depurar tu código a través del Dev Tools
+* A detectar y corregir diversos tipos de errores en tu código
 
 ## Producto
 
-Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
-desarrollar durante el curso, junto con la metodología de trabajo propuesta
-así como entregables y método de evaluación.
+Este curso no tiene producto, el objetivo es que sea un material disponible en
+todo momento y estudiado al ritmo de la estudiante.
 
 ## Syllabus
 
-NOTA: Este es un ejemplo de syllabus que sirve para ilustrar las convenciones de
-vocabulario, estructura de archivos, nombre de carpetas/archivos, ... Cada curso
-es diferente, así que la cantidad de unidades, su tamaño y formato pueden variar
-considerablemente, siempre que se mantenga una misma terminología y formato
-básico. Ante la duda no dudes en preguntar ;-)
+### [Depuración](01-debugging)
 
-### Unidad 01: [Depuración](01-lorem-ipsum)
-
-NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
-necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
-mismo) ni el tiempo que de hecho le lleve a cada una.
-
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
-
-Opcionalmente una tabla con la descripción de las _partes_ que componen la
-_unidad_. Algo como esto:
+Corregir errores es parte del trabajo de todos los programadores, en esta unidad
+nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | 15min | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | 60min | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | taller | guiado | 60min | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
+| 00 | lectura | self-paced | 10min | [Apertura](01-debugging/00-opening)
+| 01 | lectura | self-paced | 30min | [¿Qué es debugging?](01-debugging/01-intro)
+| 02 | lectura | self-paced | 60min | [Mensajes de Error](01-debugging/02-error-messages)
+| 03 | práctica | self-paced | 60min | [Retos de código](01-debugging/03-code-challenges)
+| 04 | lectura | self-paced | 40min | [¿Cómo debuggear?](01-debugging/04-breakpoints)
+| 05 | lectura | self-paced | 10min | [Cierre](01-debugging/05-closing)
 
-### Unidad 02: [Test Driven Development](02-workshop)
+### [Pruebas](02-testing)
 
-En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
-blah blah blah...
+Las pruebas nos ayudan a identificar y resolver problemas en software antes de
+lanzar un entregable, asegurando que los usuarios finales puedan tener la mejor
+experiencia posible.
 
 | # | Tipo | Formato | Duración | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | Xmin | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | seminario | guiado | Xmin | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | lectura | self-paced | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
+| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
+| 01 | lectura | self-paced | 30min | [Testing](02-testing/01-intro)
+| 02 | lectura | self-paced | 40min | [Unit Tests](02-testing/02-unit-tests)
+| 03 | lectura | self-paced | 10min | [Cierre](02-testing/03-closing)
 
-***
+### [Guía de Estilos](03-style-guide)
 
-## Evaluación
+Escribir código que resuelva un problema es genial, usando una guía de estilo te
+ayudará a ser más consistente y tener un código aun mucho más legible.
 
-[TODO]
+| # | Tipo | Formato | Duración | Tópico
+| - | ---- | ------- | -------- | ------
+| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
+| 01 | lectura | self-paced | 30min | [Guía de estilos](02-testing/01-style-guide)
+| 02 | lectura | self-paced | 40min | [Code review](02-testing/02-unit-tests)
+| 02 | lectura | self-paced | 40min | [Linter](02-testing/03-linter)
+| 04 | lectura | self-paced | 10min | [Cierre](02-testing/04-closing)
 
 ## Autor(es) / Colaboradores
 
 * Nicole Stein
 * Krista Katzenmeyer
-
-## Libros
-
-Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
-
-## Benchmarks
-
-Incluir una lista de cursos similares que sirvan como referencia.
-
-## Lecturas complementarias
-
-Incluir una lista de _capítulos de libros_, _blog posts_, _videos_, y otros
-recursos como links a wikipedia, documentación, ...
+* Ivan Medina

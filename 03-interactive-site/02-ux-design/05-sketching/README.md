@@ -52,7 +52,7 @@ Mira el siguiente ejemplo:
 - Dibuja un círculo, un triángulo, un cuadrado y una línea.
 
 - Haz un sketch replicando la pantalla del feed de Instagram.
-   ![](https://68.media.tumblr.com/3c84f9684e9717224c126a4bb3d53e20/tumblr_inline_obae6aJ6lz1svf3j7_540.jpg)
+   ![Feed de Instagram](https://68.media.tumblr.com/3c84f9684e9717224c126a4bb3d53e20/tumblr_inline_obae6aJ6lz1svf3j7_540.jpg)
 
 ## Materiales
 
