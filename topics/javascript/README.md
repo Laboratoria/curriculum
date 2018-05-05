@@ -1,9 +1,17 @@
-# Introducción a la programación (con JavaScript)
+# JavaScript
 
 En un mundo que rápidamente se está digitalizando, aprender a programar abre
 nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
 pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
 fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
+
+En este curso aprenderás mejores formas de estructurar y manipular la data de
+tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
+`objetos`.
+
+Tags: `value`, `variable`, `operator`, `comment`, `flow-control`, `branching`,
+`conditional`, `loop`, `function`, `array`, `object`, `string`, `built-ins`,
+`async`, `callback`, `promise`, `error`, `debugging`, `style`
 
 ## Público Objetivo
 
@@ -21,17 +29,11 @@ en el mundo tech.
 
 ## Aprenderás
 
-* Cómo crear tu primera web en HTML y darle interacción con JavaScript
 * Conceptos básicos de programación como: `variables`, `tipos datos`,
   `operadores`, `declaraciones condicionales`, `ciclos` y `funciones`.
 * La sintaxis básica de JavaScript como lenguaje de programación
-* Qué es `ux design` y por qué es una pieza clave para el desarrollo de un
-  producto digital
-
-## Duración
-
-* Total: 20 horas aprox.
-* Modalidad: Self-paced (online)
+* A utilizar estructuras de datos básicas: `arrays` y `objects`
+* ...
 
 ## Requerimientos previos
 
@@ -47,26 +49,13 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidad 01: [Introducción](01-introduction)
-
-Tu primer acercamiento al mundo de la tecnología. Después de una breve
-bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
-tu primera página web.
-
-### Unidad 02: [Variables y Tipos de Datos](02-variables-and-data-types)
+### Unidad 01: [Primeros pasos: valores, variables, operadores, tipos y comentarios](01-basics)
 
 Aprende a utilizar variables para almacenar información que cambia durante el
 transcurso del programa y los diferentes tipo de datos de los valores en
 JavaScript.
 
-### Unidad 03: [UX Design](03-ux-design)
-
-Todo producto web necesita ser diseñado pensando en el usuario. Antes de empezar
-a crear tu producto final, es importante que conozcas las técnicas de _user
-experience design_ (diseño de experiencia de usuario) para que tu producto sea
-algo que la gente quiera usar.
-
-### Unidad 04: [Control de Flujo](04-flow-control)
+### Unidad 02: [Control de Flujo](02-flow-control)
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y
 por lo tanto darle flexibilidad a lo que hace tu producto.
@@ -79,6 +68,8 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 * [Lupo Montero](https://github.com/lupomontero)
 * [Iván Medina](https://github.com/ivandevp)
 * [Lalo Gonzalez](https://github.com/lalogf)
+* Michelle Seguil
+* Lourdes Vilchez
 
 ## Libros de consulta
 
