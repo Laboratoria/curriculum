@@ -10,8 +10,11 @@
 
 ***
 
-* Crear un servicio que reciba desde el backend una lista con todos los juegos
-  terminados.
-* Crear un componente que muestre dicha lista al usuario.
-* Crear dos rutas, una para la vista de resumen y otra para la vista de detalle,
-  donde se muestra un único texto completo.
+Para finalizar el proyecto, separaremos las secciones del juego cada una en una
+página, para esto:
+
+* Crearemos una página para mostrar el poema
+* Otra para el formulario que premite agregar un nuevo versoc
+* Una última página que permita ver las instrucciones del juego
+* Y para terminar un menú (puede ser de la forma que quieras) donde estén los
+  links o botones que nos permitan navegar por las diferentes páginas

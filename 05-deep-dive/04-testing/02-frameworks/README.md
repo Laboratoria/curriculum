@@ -59,7 +59,7 @@ sudo npm i -g mocha
 
 Si todo ha ido bien, ya deberías tener `mocha` instalado como un comando que
 puedes ejecutar en tu terminal. Podemos usar el comando `which` para ver si se
-enecuentra el ejecutable:
+encuentra el ejecutable:
 
 ```sh
 $ which mocha
@@ -177,7 +177,7 @@ $ mocha ./isVowel.spec.js
 Verás de que todavía no hemos especificado cómo hacer las comprobaciones, pero
 hemos ido igualmente describiendo el comportamiento esperado, y más tarde
 podemos ir rellenando la implementación según avancemos. Esto es super útil
-tanto para _documentar_ el compartamiento de nuestro código, como para ver el
+tanto para _documentar_ el comportamiento de nuestro código, como para ver el
 nivel de completitud de la implementación y qué casos tiene en cuenta (o no).
 
 En el snippet anterior invocamos `it()` con un string que nos permite describir
@@ -209,10 +209,10 @@ describe('isVowel()', () => {
 });
 ```
 
-Bueno, ya tenemos una estructura done implementar nuestros tests. Para continuar
-gradualmente con el ejemplo, simplemente copia las comprobaciones que hacíamos
-en la primera versión de los tests (lectura anterior) dentro de nuestra nueva
-estructura:
+Bueno, ya tenemos una estructura lista para implementar nuestros tests. Para
+continuar gradualmente con el ejemplo, simplemente copia las comprobaciones que
+hacíamos en la primera versión de los tests (lectura anterior) dentro de nuestra
+nueva estructura:
 
 ```js
 // Archivo `isVowel.spec.js`
