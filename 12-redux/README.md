@@ -1,49 +1,60 @@
-# Manejo de estado avanzado con React y Redux
+# Manejo de estado avanzado con Redux y React
+
+[:construction: Este curso está en desarrollo :construction:]
 
 El manejo de estado en una aplicación es crítico, y desgraciadamente muchas
 veces se hace de forma desordenada y sin mucha consistencia. `Redux` nos ofrece
 un contenedor de estado que nos ayudará a manejar el estado de forma más
 consistente y predecible.
 
-Como referencia, `Redux` es una evolición de ideas presenadas por `Flux` de
+Como referencia, `Redux` es una evolución de ideas presenadas por `Flux` de
 Facebook.
 
-Tags: `redux`, `react`, `reselect`, `redux-thunk`, `redux-saga`,
+Tags: `redux`, `react`, `react-redux`, `reselect`, `redux-thunk`, `redux-saga`,
 `redux-observable`, `rxjs`, `jest`, `enzyme`
 
 ## Público objetivo
 
-Para quién es este curso?
+Este curso está dirigido a personas con conocimientos previos de **programación
+y desarrollo web**, que quieren aprender nuevas herramientas que les permitan
+desarrollar interfaces web de una manera más **ágil**, **modular** y
+**sostenible en el tiempo**.
 
 ## Requerimientos previos
 
-Qué conocimientos previos se necesitan?
+Para poder llevar adelante este curso sin frustración, es recomendable los
+siguientes conocimientos previos:
+
+* Manejo de línea de comandos (\*nix) y git
+* Javascript functional: es5, inmutabilidad, node y npm
+* Desarrollo web standard: html y dom + css
+* Debes haber completado el curso [11-react](https://github.com/Laboratoria/curricula-js/tree/master/11-react).
 
 ## Aprenderás
 
-* create-react-app
-* react
-* react-dom
-* redux
-* react-redux
-* redux-thunk
-* redux-saga
-* redux-observable
-* rxjs
-* reselect
-* jest
-* enzyme
+* A crear aplicaciones con `create-react-app`
+* A conectar componentes de `React` con un store de `Redux`
+* A crear un store de `Redux` y diseñar sus reductores (reducers)
+* A dieseñar e implementar acciones y _action creators_
+* A usar `redux-thunk` y `redux-saga` para manejar acciones asíncronas
+* A usar `redux-observable` y `rxjs` como alternativa para manejar asincronía
+* A usar `reselect` para implementar selectores y filtros así como a memoizar
+  data precomputada
+* A testear tus componentes y reductores usando `jest` y `enzyme`
 
 ## Producto
 
-Durante este curso construirás un "Single page app" con las siguientes
+Durante este curso construirás un _Single Page App_ (SPA) con las siguientes
 características:
 
 * Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
-  con `babel` o `webpack`
-* Utilizando `React` y `Redux`
-* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
-  no atómicos (JSON) y 3 actions
+  con `babel` y `webpack`
+* Utilizando `react` y `redux`
+* Con por lo menos 6 componentes que especifiquen todas sus props usando
+  `prop-types`
+* Por lo menos 1 componente _conectado_ al store de `redux`
+* 3 reducers y por lo menos 3 acciones que desencadenen asíncronía (usando
+  `thunk`, `saga` u `observable`).
 * Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
   empaquetar y desplegar la aplicación respectivamente.
 * Despeglado en Github pages
@@ -53,12 +64,12 @@ características:
   universalmente.
 * No es necesario implementar rutas
 * No es necesario implementar persistencia
-* No es necesario implementar conexiones remotas
 
 ## Syllabus
 
 ### Unidad 01: Estado global vs estado de componentes
 
+* Global state vs component state
 * The Single Immutable State Tree
 * Describing State Changes with Actions
 
@@ -81,7 +92,7 @@ características:
 * Crear app con create-react-app
 * Añadir dependencias
 * Crear componentes (`App`, `TopBar`, `Main`, `List`, `ListItem`)
-* Crear reductor
+* Crear reductores
 * Crear acciones
 * Crear store
 * Conectar `List` a store
@@ -101,16 +112,34 @@ características:
 
 ### Unidad 07: Code review, QA y tips para demos
 
-En este taller...
+Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
+deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
+detalles, enfocada en tu demo.
+
+Tendrás también una última oportunidad de aprovechar al máximo a nuestro equipo
+técnico y resolver dudas de último minuto.
 
 ### Unidad 08: Taller - demos
 
 Cada equipo tendrá 10 minutos para presentar su demo (5min presentación + 5min
 preguntas).
 
+Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos
+para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para
+preguntas del jurado y los miembros de los otros equipos.
+
+El orden de presentación se determinará aleatoriamente y se dará a conocer el
+mismo día.
+
+Los jurados contarán con una tabla de punteo, para valuar a los equipos y sus
+demos.
+
+Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos
+dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
+
 ## Autor(es) / Colaboradores
 
-* Lupo Montero
+* [Lupo Montero](https://github.com/lupomontero)
 * Otros colaboradores?
 
 ## Libros
