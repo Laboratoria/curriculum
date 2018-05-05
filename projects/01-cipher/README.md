@@ -49,6 +49,17 @@ Para completar el reto tendrás que familiarizarte con conceptos como _valores_,
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
 _tests unitarios_.
 
+Esperamos que en este reto puedas pensar en el usuario, entendiendo quién es y
+su necesidad. La idea es que logres entender qué necesita el usuario para el que
+crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
+posible.
+
+Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
+disponibles. Es la primera vez que evaluaremos tus soft skills, pero debes
+considerar que son habilidades que probablemente ya has utilizado en distintas
+experiencias de tu vida. Lo importante es que realices el reto de manera
+integral.
+
 ## Consideraciones generales
 
 La lógica del reto debe estar implementada completamente en JavaScript (ES6).
@@ -60,8 +71,7 @@ No se debe utilizar la _pseudo-variable_ `this`.
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test` (o `yarn test` si estás usando `yarn` como
-_package manager_).
+comando `npm test`.
 
 Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
@@ -74,16 +84,17 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
+├── README.md
 ├── package.json
 ├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-├── test
-│   ├── cipher.spec.js
-│   └── index.html
-└── yarn.lock
+│   ├── cipher.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
+└── test
+    ├── cipher.spec.js
+    ├── headless.js
+    └── index.html
 ```
 
 ## Parte obligatoria
@@ -145,10 +156,54 @@ devuelva un nuevo objeto con dos métodos (`encode` y `decode`) que solo reciban
 el string y usen el `offset` que se pasó a `createCipherWithOffset` a la hora
 de crear el objeto.
 
+Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
+agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
+
+Lo mismo en Soft Skills, puedes realizar una planificación experta teniendo en
+consideración la utilización de herramientas de planificación, como un
+calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
+quiere abarcar el reto o problema. Realizando una estimación realista del
+tiempo.
+
 ## Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages.
+
+## Evaluación
+
+### Tech
+
+[tbd]
+
+### UX
+
+[tbd]
+
+### Soft Skills
+
+Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
+soft skills, teniendo sólo 3 en el nivel 1. Te aconsejamos revisar la rúbrica.
+
+* **Planificación y manejo del tiempo**: logras organizar el proyecto de manera
+  general, estimando el tiempo de trabajo que debes invertir en éste.
+* **Autoaprendizaje**: demuestras interés en adquirir conocimientos de forma
+  autónoma, realizas preguntas sobre la materia, aclarando conceptos y
+  resolviendo dudas, lo que te ayudar a realizar un mejor proyecto.
+* **Solución de problemas**: buscas soluciones alternativas a las dificultades
+  que se presentan durante el proyecto.
+* **Dar y recibir feedback**: buscas instancias de feedback para tu proyecto,
+  escuchando los comentarios y críticas de los demás de manera respetuosa.
+  Además, entregas tu opinión de forma constructiva.
+* **Adaptabilidad**: ante cambios o nuevos desafíos los recibes con una actitud
+  positiva, a pesar de que esto implique una nueva organización.
+* **Trabajo en equipo**: trabajas de manera coordinada con tu squad, apoyándote
+  en él cuando sea necesario.
+* **Comunicación eficaz**: logras comunicar tus ideas a los demás cuando es
+  necesario.
+* **Presentaciones**: cualquier persona puede acceder a tu demo desde cualquier
+  equipo. Haces contacto visual con la audiencia y hablas en un volumen
+  adecuado.
 
 ***
 
@@ -156,10 +211,9 @@ interfaz será desplegada usando GitHub pages.
 
 1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
 2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install` (o
-   `yarn install` dependiendo de que _package manager_ estés usando).
+3. Instala las dependencias del proyecto con el comando `npm install`.
 4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   reto (o `yarn test`)
+   reto.
 
 ***
 
@@ -174,8 +228,28 @@ resolver este reto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 También te compartimos más información de lo que Michelle te ha explicado en el
 video anterior:
 
-- [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-- [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-- [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-- [Documentación de NPM](https://docs.npmjs.com/)
-- [Documentación de yarn](https://yarnpkg.com/en/)
+* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+* [Documentación de NPM](https://docs.npmjs.com/)
+
+Estos son algunos tips que te pueden ayudar en la organización y realización de
+tu proyecto, teniendo en cuenta el desarrollo de tus _Soft Skills_ (habilidades
+blandas):
+
+* Para comenzar realiza una organización de tu proyecto, ve con qué recursos
+  cuentas y el tiempo que tienes para completarlo.
+* Si hay algo que no sepas pregunta e intenta resolverlo; puedes comenzar con
+  una búsqueda en google, luego consultando a tu squad y por último a tus
+  mentores. Si hay algo que yo no sé, otro me puede ayudar. El aprendizaje es un
+  proceso colaborativo.
+* Una vez que empieces a avanzar pide feedback, tus compañeras pueden tener
+  excelentes ideas o formas de resolver el reto que te pueden ayudar.
+* Cuando te topes con un problema, busca alternativas, y para eso consulta
+  diferentes fuentes.
+* Si ya te ves invirtiendo mucho tiempo en detalles debes saber priorizar y
+  seguir con lo más importante, los proyectos tienen tiempo limitado y debes
+  saber administrarlo.
+* Trabaja en equipo, pregunta e intenta completar el reto sin rendirte.
+* Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
+  podrá apreciar todo el esfuerzo y trabajo que invertiste.
