@@ -62,15 +62,6 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 
 ***
 
-## Contributors
-
-* [Rodulfo Prieto](https://github.com/chamodev)
-* [Lupo Montero](https://github.com/lupomontero)
-* [Iván Medina](https://github.com/ivandevp)
-* [Lalo Gonzalez](https://github.com/lalogf)
-* Michelle Seguil
-* Lourdes Vilchez
-
 ## Libros de consulta
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014

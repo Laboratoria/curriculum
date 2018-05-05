@@ -35,18 +35,6 @@ tu primera página web.
 
 ***
 
-## Contributors
-
-* [Rodulfo Prieto](https://github.com/chamodev)
-* [Lupo Montero](https://github.com/lupomontero)
-* [Iván Medina](https://github.com/ivandevp)
-* [Lalo Gonzalez](https://github.com/lalogf)
-* Michelle Seguil
-* Lourdes Vilchez
-* Ruth Salvador
-* Emmanuel Orozco
-* Elizabeth Portilla
-
 ## Libros de consulta
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
