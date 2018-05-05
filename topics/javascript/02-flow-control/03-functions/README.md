@@ -1,243 +1,469 @@
 # Funciones
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-## Objetivos
-
-- Conocer el concepto de _Don't Repeat Yourself (DRY)_
-- Entender qué son las funciones y cómo afectan el control de flujo de un
-  programa
-- Conocer la estructura de las funciones en JavaScript
-- Entender cómo pasarle argumentos a una función
-- Entender el concepto de `return` de las funciones
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `45min`
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en los
-capítulos 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de
-[JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
-Nick Morgan, 2015;
+<iframe src="https://goo.gl/hsqvjb" frameborder="0" width="684" height="430"
+allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 
-## DRY
+Veremos en profundidad el tema de funciones, aprovechando que JavaScript está
+fuertemente influenciado por la programación funcional desde su diseño, y nos
+ofrece características importantes como asignar funciones a una variable, pasar
+como parámetro de otra función, cambiar el scope de variables, asignar como
+valor de una propiedad de un objeto, etc.
 
-En la programación existe un concepto que escucharás más de una vez. Dice así:
-_"Don't Repeat Yourself"_, y es comunmente conocido como `DRY`. En español
-significa _"no te repitas"_. Si estás copiando y pegando pedazos de código, o si
-tienes sentencias de código similares a lo largo de tu programa, significa que
-te estás repitiendo. Ya hemos visto este concepto en práctica con el uso de
-`estructuras repetitivas` (bucles): en lugar de tener un mismo bloque de código
-repetido, puedes sustituirlo por un `for` o un `while`. Con las funciones puedes
-alcanzar el mismo objetivo. Veamos qué son las `funciones`, cómo usarlas y por
-qué son importantes.
+Las funciones son bloques de construcción de aplicaciones que engloban múltiples
+sentencias de código. Son particularmente importantes en JavaScript porque
+soporta características como `first-class functions`, `functions as objects`,
+`runtime function definition` y más que veremos en esta lección.
 
-## ¿Qué es una función?
+A continuación, se listan algunos principios que te ayudarán a escribir mejores
+funciones:
 
-Una función es una forma de agrupar código para que pueda ser reutilizado. Las
-funciones nos permiten ejecutar la misma pieza de código en varios lugares de un
-programa sin tener que copiar y pegar el código repetidamente. Dicho de otra
-manera, una función es un **pedazo de programa envuelto en un valor**. Ese valor
-puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que
-ejecute el código que tiene dentro.
+* **Don't Repeat Yourself (DRY)**: Es muy común que a lo largo del desarrollo de
+  una solución nos encontremos con un patrón que se va repitiendo a lo largo de
+  nuestro código. Una vez identificado un patrón, es tiempo de escribir una
+  función, objeto o módulo que encapsule dicho patrón para que sea fácilmente
+  reusable. Esto ayuda también a que si encontramos algún bug o quisiéramos
+  agregar funcionalidad, solo se tendría que hacer en un lugar. Además,
+  escribiendo una función reusable te obliga a aislar el patrón del problema, lo
+  cual ayuda a tener funcionalidad relacionada de manera agrupada.
 
-A lo largo de este curso hemos venido utilizando funciones, solo que las venimos
-llamando _"comandos"_. Los comandos como `alert()`, `prompt()` y `console.log()`
-son realmente funciones.
+* **Do One Thing (DOT)**: Cada función debe hacer solo una cosa y hacerlo lo
+  mejor posible. Siguiendo este principio hará tu función más reusable, legible y
+  fácil de depurar.
 
-## Funciones en JavaScript
+* **Keep It Simple Stupid (KISS)**: Si bien las funciones deben de hacer solo
+  una cosa, es mejor hacerlo súper claro manteniendo la sencillez y no agregando
+  complejidad innecesaria para llevar a cabo una solución. Esto no quiere decir
+  que la solución no sea óptima, sino que pueda ser legible para poder mantenerla
+  a lo largo del tiempo.
 
-Las funciones son el pan de cada día en la programación con JavaScript.
+* **Less Is More**: Para alcanzar la mayor legibilidad posible y reducir la
+  tentación de hacer más de una cosa, las funciones deben ser tan cortas como sea
+  posible. Si la función se vuelve muy extensa, es bueno considerar separarlo en
+  subtareas y datos a lo largo de funciones y objetos.
 
-La aplicación más obvia de las funciones es la de definir un nuevo vocabulario.
-Crear nuevas palabras en un lenguaje humano común (como el español o el inglés)
-es típicamente algo de mal gusto. Sin embargo, en la programación es
-indispensable.
-
-Un adulto promedio tiene unas 20,000 palabras en su vocabulario. Pocos lenguajes
-de programación tienen 20,000 comandos incorporados. Y el vocabulario que _sí_
-está disponible tiende a ser definido de forma más precisa, y por ende menos
-flexible, que en un lenguaje humano. En consecuencia, usualmente _tenemos_ que
-añadir algo de nuestro propio vocabulario para evitar repetirnos demasiado.
-
-Agrupando fragmentos de código en una función con un **nombre fácil de
-entender** (dado que será parte del vocabulario que estás construyendo) podemos
-estructurar mejor nuestro código. Esto porque nos enfocamos en organizar las
-funciones, en lugar de cada línea de código que las componen. Al dividir nuestro
-código en piezas más pequeñas - y por ende - más manejables, podemos tener una
-mirada más completa de lo que estamos haciendo. Nos permite elevarnos a un nivel
-superior de abstracción. Como dicen el refrán: podemos visualizar el bosque
-completo, viendo más allá de los árboles.
+***
 
 ## Definiendo una función
 
-La definición de una función es simplemente una definición regular de una
-variable, pero donde el valor dado a la variable es una función. Por ejemplo, el
-siguiente código define la variable `square` para referirse a la _función_ que
-produce el cuadrado de un número dado:
+La definición de una función es simplemente la definición de una variable
+regular donde el valor dado a dicha variable resulta ser una función. Por
+ejemplo, el siguiente código define la variable `square` para referirse a la
+función que devuelve el cuadrado de un número dado:
 
 ```js
-var square = function(num) {
-  return num * num;
-};
+  var square = function(x) {
+    return x * x;
+  };
+
+  console.log(square(12));
+  // -> 144
 ```
 
-Una función es creada por una expresión que empieza con el keyword `function`.
-Las funciones tienen un conjunto de _parámetros_ (en el ejemplo anterior solo
-  tenemos **un** parámetro: `num`) y un _cuerpo_, que contiene las sentencias a
-  ser ejecutadas. Los parámetros sirven para "pasarle" valores a la función y
-  por ende, cambiar su comportamiento según los valores brindados. El cuerpo de
-  la función tiene que estar siempre encerrado en llaves, incluso cuando
-  consista de una sola instrucción (como en el ejemplo previo).
+***
 
-## Llamando una función
-
-Para correr el código dentro de una función, necesitamos _"invocar, llamar, o
-aplicar"_ la función. Esto se hace escribiendo el nombre de la función
-inmediatamente seguido por unos paréntesis. Dentro de los paréntesis se incluye
-lo que le quieres "pasar" a la función para usar como parámetro. Los valores que
-se pasan a la función para usar como parámetros son llamados _argumentos_.
-
-Agregando al ejemplo anterior un llamado a la función `square` pasando como
-argumento el valor `12` vemos que nos devuelve `144` (es decir, 12 al cuadrado).
+Funciones son valores que pueden ser llamados. Una manera de definir una función
+es llamada una `function declaration` o `declaración de función`. Por ejemplo,
+el siguiente código define una función `id` que tiene un simple parámetro `x`:
 
 ```js
-var square = function(num) {
-  return num * num;
-};
-
-square(12);
-// → 144
+function id(x) {
+  return x;
+}
 ```
 
-## El valor de retorno
-
-Así como los argumentos son los valores de "entrada" (input) que utiliza una
-función al ser llamada, el valor de retorno es el valor de salida (output) que
-devuelve la función (el `144` del ejemplo anterior), y que puede ser utilizado
-en cualquier lugar del programa. Si una función no especifica el valor de
-retorno, entonces, la función retorna  `undefined`.
-
-El valor de retorno se especifica con el _keyword_ `return`. En el ejemplo
-anterior, se especifica que el valor de retorno es el parámetro multiplicado por
-sí mismo; es decir, el parámetro al cuadrado. El keyword `return` sin una
-expresión después de él, también hará que la función devuelva `undefined`.
-
-Agreguemos una sentencia adicional al ejemplo anterior en la que se utilice el
-valor de retorno de la función `square`:
+La sentencia `return` retorna un valor de la función `id`. Puedes llamar una
+función a través de su nombre, seguido de sus `argumentos` entre paréntesis:
 
 ```js
-var square = function(num) {
-  return num * num;
-};
-
-console.log('El cuadrado de 12 es ' + square(12));
-// → El cuadrado de 12 es 144
+// `>` simula el prompt que aparece en la consola del navegador
+> id('hello');
+'hello'
 ```
 
-Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al
-llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`.
-Éste se concatena con el texto `'El cuadrado de 12 es '` para formar
-`'El cuadrado de 12 es 144'`; lo cual, a su vez, se pasa como argumento a la
-función `console.log` para que lo imprima en la consola.
-
-## Múltiples parámetros
-
-Una función puede tener varios parámetros o puede no tener ninguno. En el
-siguiente ejemplo `makeNoise` no tiene parámetros, mientras que `power` tiene
-dos:
+Si no se retorna nada de la función `undefined` es retornado (implícitamente):
 
 ```js
-var makeNoise = function() {
-  console.log('Pling!');
-};
-
-makeNoise();
-// → Pling!
-
-var power = function(base, exponent) {
-  var result = 1;
-  for (var count = 0; count < exponent; count++)
-  result *= base;
-  return result;
-};
-
-console.log(power(2, 10));
-// → 1024
+> function f() { }
+> f();
+undefined
 ```
 
-A continuación Michelle te explica funciones con un ejemplo del libro JavaScript
-for Kids.
+Esta sección mostró solo una manera de definir y llamar una función. Otras
+formas serán mostradas luego.
 
-[![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://www.youtube.com/watch?v=Y0NgsjdumS8)
+## Los 3 roles de funciones en JavaScript
 
-## Saliendo de una función con `return`
+Una vez definida una función, esta puede desarrollar diversos roles:
 
-Cuando el intérprete JavaScript se topa con un `return` dentro de una función,
-inmediatamente salta fuera de la función actual y pasa el valor retornado al
-código que la llamó. Es decir, cualquier sentencia que coloquemos **después**
-del `return` en una función, **no** será ejecutada.
+### Nonmethod function (función normal)
 
-Una forma común de utilizar `return` es para salir de la función de manera
-temprana si alguno de los argumentos brindados no son válidos; es decir, si no
-son el tipo de argumentos que la función necesita para funcionar correctamente.
-Por ejemplo, la siguiente función devuelve una cadena que indica el quinto
-caracter de tu nombre. Si el nombre pasado a la función tiene menos de cinco
-caracteres, la función utiliza `return` para dejar la función inmediatamente.
-Esto significa que la declaración de devolución al final, que te dice la quinta
-letra de tu nombre, nunca se ejecuta.
+Puedes llamar a una función directamente como visto hace un momento. Acá un
+ejemplo de invocación:
 
 ```js
-var fifthLetter = function (name) {
-  if (name.length < 5) {
-    return;
+id('hello');
+```
+
+Por convención, los nombres de estas funciones _normales_ empiezan con minúscula
+siguiendo el estilo **lowerCamelCase**.
+
+### Constructor
+
+Puedes invocar una función a través del operador `new`. Es usado para la
+creación de objetos. Aquí un ejemplo de invocación:
+
+```js
+new Date();
+```
+
+Por convención, los nombres de los constructores empiezan con mayúscula,
+siguiendo el estilo **UpperCamelCase**.
+
+### Método
+
+Puedes almacenar una función en una propiedad de un objeto, lo que lo convierte
+en un _método_. Aquí un ejemplo de como invocar un método definido en un objeto
+`obj`:
+
+```js
+obj.method();
+```
+
+Por convención, los nombres de los métodos siguen el estilo de las funciones
+normales (_lowerCamelCase_).
+
+## Terminología: "Parámetro" vs. "Argumento"
+
+Los términos `parámetro` y `argumento` son a menudo usados para referirse a lo
+mismo ya que se logra enteder a lo que se refiere. Sin embargo, a continuación
+se muestra una regla para diferenciarlos:
+
+* **Parámetros** son usados para definir una función. En el siguiente ejemplo,
+  `param1` y `param2` son parámetros:
+
+  ```js
+  function foo(param1, param2) {
+    // ...
   }
-  return 'La quinta letra de tu nombre es ' + name[4] + '.';
-};
-```
+  ```
+* **Argumentos** son usados para invocar una función. En el siguiente ejemplo,
+  `3` y `7` son argumentos:
 
-## Funciones y control de flujo
+  ```js
+  foo(3, 7);
+  ```
 
-Las funciones también afectan el control de flujo de nuestro programa. Con
-funciones podemos crear estructuras repetitivas (con algo que se llama
-`recursividad`) y estructuras condicionales (con, por ejemplo, múltiples valores
-de `return`). De hecho, las funciones son tan versátiles para armar la
-estructura de un programa que existe todo un _paradigma de programación_ basado
-en funciones. Es decir, existe toda una manera de pensar en la programación
-basada en funciones. Esto se llama el **paradigma de programación funcional**.
-Más adelante estudiaremos a mayor profundidad funciones y el paradigma de
-programación funcional. Por ahora, lo importante es entender que las funciones
-son una forma de agrupar código para que pueda ser reutilizado.
+## Definición de Funciones
 
-Veamos un ejemplo de crear una estructura condicional con funciones:
+En esta sección veremos 3 formas de crear una función:
 
-## Utilizando múltiples `return` en lugar de `if... else`
+* Mediante un _function expression_ (función como expresión).
+* Mediante un _function declaration_ (declaración de una función).
+* Mediante el constructor `Function()`.
 
-Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo
-de una función para que la función devuelva un valor diferente, dependiendo del
-argumento brindado. Por ejemplo, digamos que estás escribiendo un juego que
-otorga medallas a los jugadores basándose en su puntuación. Una puntuación menor
-a 3 es una medalla de bronce, una puntuación de 7 o más es oro, y lo que está en
-el medio es plata. Podrías utilizar una función como `medalForScore` para
-evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
+Todas las funciones son objetos, instancias de `Function`:
 
 ```js
-var medalForScore = function (score) {
-  if (score < 3) {
-    return 'Bronze';
+function id(x) {
+  return x;
+}
+
+console.log(id instanceof Function); // true
+```
+
+Por lo tanto, las funciones obtienen sus métodos de `Function.prototype`.
+
+### Function Expressions
+
+Un _function expression_ produce un valor - un objeto de función. Por ejemplo:
+
+```js
+var add = function(x, y) {
+  return x + y;
+};
+
+console.log(add(2, 3)); // 5
+```
+
+El código anterior asigna el resultado de una función como expresión a la
+variable `add` y puede ser llamado a través de esta variable. En este tipo de
+función se puede asignar una función a una variable, pasar como parámetro de
+otra función y más. Debido a que este tipo de funciones no tienen un nombre,
+pueden ser llamadas _anonymous function expressions_ (funciones anónimas).
+
+#### Named Function Expressions
+
+Se puede poner nombre a una función como expresión. Los _named function
+expressions_ (funciones como expresión con nombre) permiten a la función poder
+referirse a si misma, su utilidad se ve reflejada cuando se desea aplicar
+recursividad por ejemplo:
+
+```js
+var factorial = function fact(number) {
+  if (number <= 1) {
+    return 1;
   }
-  if (score < 7) {
-    return 'Silver';
-  }
-  return 'Gold';
+  return number * fact(number - 1);
+};
+
+console.log(factorial(3)); // 6
+```
+
+**Nota:** Los nombres de las funciones como expresión con nombre solo son
+accesibles dentro de la función:
+
+```js
+var repeat = function me(n, str) {
+  return n > 0 ? str + me(n-1, str) : '';
+};
+
+console.log(repeat(3, 'Yeah')); // YeahYeahYeah
+console.log(me); // ReferenceError: me is not defined
+```
+
+### Function Declarations
+
+La siguiente es una declaración de función:
+
+```js
+function add(x, y) {
+  return x + y;
+}
+```
+
+El código anterior se parece al de una función como expresión, pero es una
+sentencia. De cierta forma, es equivalente al siguiente código:
+
+```js
+var add = function(x, y) {
+  return x + y;
 };
 ```
 
-Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias
-`if ... else` encadenadas. Utilizamos las sentencias `if ... else` para
-garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada
-una de las opciones tiene su propia sentencia de `return`,  garantizamos que se
-ejecute sólo una de las opciones --- porque, recuerda, **las funciones sólo
-pueden devolver una vez**.
+En otras palabras, un _function declaration_ consiste de la palabra clave
+reservada _function_, una lista de parámetros para la función, encerrados en
+paréntesis y separados por comas, y la sentencia JavaScript que define la
+función, encerrada por llaves.
+
+### Function Constructor
+
+El constructor `Function()` evalua código JavaScript almacenado en strings. Por
+ejemplo, el siguiente código es equivalente a los ejemplos anteriores:
+
+```js
+var add = new Function('x', 'y', 'return x + y');
+```
+
+Sin embargo, esta forma de definir una función es lenta y deja código en strings
+(inaccesible a herramientas, por ejemplo, al depurar con _Dev Tools_). Por lo
+tanto es mejor usar un _function expression_ o un _function declaration_ si es
+posible.
+
+## Hoisting
+
+**Hoisting** significa "mover al inicio del ámbito". _Function declarations_ son
+elevadas (_hoisted_) completamente, mientras las declaraciones de variables solo
+parcialmente.
+
+_Function declarations_ son completamente elevadas, esto permite llamar a una
+función antes de que se hayan declarado:
+
+```js
+welcome(); // 'Welcome to CE - JS Deep Dive'
+function welcome() { // esta función es elevada - hoisting
+  console.log('Welcome to CE - JS Deep Dive');
+}
+```
+
+La razón por la cual el código anterior funciona es que el motor de JavaScript
+mueve la declaración de la función `welcome` al inicio del scope. Termina
+ejecutándose como si estuviera escrito de la siguiente manera:
+
+```js
+function welcome() { // esta función es elevada - hoisting
+  console.log('Welcome to CE - JS Deep Dive');
+}
+welcome(); // 'Welcome to CE - JS Deep Dive'
+```
+
+Las declaraciones de variables son elevadas también, pero solo las declaraciones
+más no las asignaciones. Por lo tanto, definir una función como expresión
+asignándola a una variable termina en un error en el ejemplo anterior:
+
+```js
+welcome(); // TypeError: undefined is not a function
+var welcome = function welcome() {
+  console.log('Welcome to CE - JS Deep Dive');
+};
+```
+
+Solo las declaraciones son elevadas. El motor de JavaScript ejecuta el código
+anterior como si estuviese escrito de la siguiente manera:
+
+```js
+var welcome; // undefined
+welcome(); // TypeError: undefined is not a function
+welcome = function welcome() {
+  console.log('Welcome to CE - JS Deep Dive');
+};
+```
+
+***
+
+## Arrow Functions
+
+### Diferencias entre arrow functions y funciones clásicas
+
+Una de las novedades más interesantes de ES6 son las denominadas **funciones
+flecha**, o *arrow functions*. Las funciones flecha son, como su
+nombre indica, definidas mediante una nueva sintaxis que utiliza una "flecha"
+(`=>`). Las funciones flecha se comportan de forma sensiblemente distinta a las
+funciones tradicionales de JavaScript, a continuación alguna de sus diferencias:
+
+* **No pueden llamarse con `new`**: Al no tener un método constructor, no pueden
+  ser utilizadas como constructores. Las funciones flecha lanzarán un error
+  cuando se utilicen con `new`.
+* **No hay prototipo**: Al no disponer de constructor, tampoco es necesario un
+  prototipo. Por lo tanto, no existirá la propiedad `prototype` en una función
+  flecha.
+* **No crean un nuevo contexto**. El valor de `this`, `super`, `arguments` y
+  `new.target` dentro de la función será el mismo que el de la función
+  tradicional (*non-arrow*) más cercana.
+* **No puedes cambiar `this`**: El valor de `this` dentro de la función flecha
+  permanece inmutable a lo largo de todo el ciclo de vida de la función.
+* **No hay objeto `arguments`**: Tan solo es posible proporcionarle parámetros a
+  una función flecha mediante parámetros nombrados y *rest parameters*.
+* **No es posible duplicar parámetros con el mismo nombre**: Tanto en modo
+  estricto como no estricto, a diferencia de las funciones clásicas, que no lo
+  permiten tan solo en modo estricto.
+
+### Sintaxis
+
+El ejemplo más simple de *arrow function* es el siguiente, aunque veremos en
+los ejemplos siguientes que existen diversas variaciones.
+
+```js
+// ES6
+const echo = text => text;
+```
+
+Esta función sería equivalente a la siguiente:
+
+```js
+// ES5
+var echo = function(text) {
+  return text;
+};
+```
+
+En ambos casos, la ejecución de la función daría la siguiente salida:
+
+```js
+console.log(echo('Hola Mundo!')); // Hola Mundo!
+```
+
+Como con cualquier función, podemos pasar tantos argumentos como queramos a la
+función:
+
+```js
+const sum = (a, b) => a + b;
+console.log(sum(1, 1)); // 2
+```
+
+O ninguno, claro:
+
+```js
+const greet = () => 'Hola, forastero!';
+console.log(greet()); // Hola, forastero!
+```
+
+Si queremos realizar operaciones más complicadas, podemos hacerlo con llaves y
+definiendo un valor de retorno:
+
+```js
+const resize = ({x, y}, ratio) => {
+  return {
+    x: x * ratio,
+    y: y * ratio
+  };
+};
+
+console.log(resize({x: 5, y: 15}, 100)); // { x: 500, y: 1500 }
+```
+
+Una función flecha no crea un nuevo contexto. Una de las mayores fuentes de
+errores en JavaScript venía dada por la creación de distintos contextos en una
+función dependiendo de quien las esté ejecutando. Tomemos el siguiente ejemplo:
+
+```js
+const randomWinner = function(drivers) {
+  const winner = Math.floor(Math.random() * (0 - drivers.length) + drivers.length);
+  return drivers[winner];
+};
+
+const F1Race = {
+  drivers: [
+    'Alonso',
+    'Vettel',
+    'Button',
+    'Massa'
+  ],
+  init: function() {
+    console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
+    setTimeout((function() {
+      console.log('El ganador es', randomWinner(this.drivers));
+    }), 1000);
+  }
+};
+
+F1Race.init();
+```
+
+`F1Race` es un objeto que lanza una carrera de Fórmula 1 mediante su función
+`init()`. Al cabo de un segundo, se ejecutará la función `randomWinner()`, que a
+partir de un array de conductores, seleccionará uno al azar.
+
+Cuando ejecutamos la función `init()`, el programa escribe por consola lo
+siguiente:
+
+```text
+Los siguientes pilotos van a comenzar la carrera: [ 'Alonso', 'Vettel', 'Button', 'Massa']
+```
+
+Esto es posible ya que la función `init` tiene como contexto el propio objeto
+`F1Race`. Sin embargo, la función da error tras un segundo, mientras intenta
+calcular el ganador de forma aleatoria. ¿Cómo es posible?
+
+El motivo es que la función de callback que se le pasa a `setTimeout` crea un
+nuevo contexto, en el que no existe el array drivers.
+
+En ES5 podíamos solucionar este problema utilizando `bind(this)` para asignar
+el contexto de la función de callback al del objeto que la contiene, de la
+siguiente forma:
+
+```js
+init: function() {
+  console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
+  setTimeout((function() {
+    console.log('El ganador es', randomWinner(this.drivers));
+  }).bind(this), 1000);
+}
+```
+
+Con ES2015, podemos solucionar este contratiempo utilizando arrow functions de
+una forma mucho más elegante, ya que al no crear un nuevo contexto, `this`
+siempre vendrá determinado por la función que lo contiene:
+
+```js
+init: function() {
+  console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
+  setTimeout(() => console.log('El ganador es', randomWinner(this.drivers)), 1000);
+}
+```

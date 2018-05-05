@@ -67,3 +67,11 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
   Nick Morgan, 2015
+* [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do),
+  Douglas Crockford, O'Reilly Media
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS), Kyle Simpson,
+  O'Reilly Media
+* [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182/ref=as_li_ss_tl?ie=UTF8&redirect=true&linkCode=ll1&tag=eejs-20&linkId=4c5500843ce7dc958e290bdaeebd739b),
+  David Herman, 2013
+* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do),
+  David Flanagan, O'Reilly Media
