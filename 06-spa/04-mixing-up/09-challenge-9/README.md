@@ -12,7 +12,7 @@
 
 Con este reto haremos uso de su API y aprenderemos de paso a usar `MD5`.
 
-Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú. 
+Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú.
 Solo debe cumplir algunos requisitos:
 
 - Debe estar desarrollada pensada en desktop first
@@ -27,7 +27,7 @@ Solo debe cumplir algunos requisitos:
 - Este blog de [desarrolloweb.com](https://desarrolloweb.com/) tiene un [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html)
   de "Cómo hacer MD5 desde JavaScript"
 - En este [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/)
-  nos dan una guía de cómo usar el API, menciona que se hace mediante _Clojure_ 
+  nos dan una guía de cómo usar el API, menciona que se hace mediante _Clojure_
   pero los pasos bases no son diferentes en JavaScript.
 
 ## NOTAS
