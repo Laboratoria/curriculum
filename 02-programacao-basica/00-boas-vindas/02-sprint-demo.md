@@ -6,9 +6,12 @@
 
 ## Objetivos
 
-* Experimentar como se aprende na Laboratoria através da dinâmica do _Sprint Demo_
+* Experimentar como se aprende na Laboratoria através da dinâmica do \_Sprint
+
+  Demo\_
+
 * Conhecer os valores e princípios-chave da sala de aula ágil
-* Familiarizar-se com o fluxo de _sprint_
+* Familiarizar-se com o fluxo de sprint
 
 ## Agenda
 

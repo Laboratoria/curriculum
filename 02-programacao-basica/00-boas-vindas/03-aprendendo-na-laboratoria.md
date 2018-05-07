@@ -2,19 +2,22 @@
 
 * Tipo: `seminário`
 * Formato:`guiado`
-* Duração:`60 min`
+* Duração:`60min`
 
 ## Objetivos
 
 * Conhecer o plano de estudos do Bootcamp
-* Conhecer os princípios que guiam a aprendizagem na Laboratoria: a sala de aula ágil
+* Conhecer os princípios que guiam a aprendizagem na Laboratoria: a sala de
+
+  aula ágil
+
 * Conhecer o sistema de avaliação da Laboratoria
-* Continuar a conversa sobre _Growth Mindset_ \(mentalidade de crescimento\)
+* Continuar a conversa sobre _Growth Mindset_
 * Conhecer algumas estratégias de aprendizagem
 
 ## Agenda
 
-1. O que vou aprender nesses 6 meses?
+1. O que vou aprender nestes 6 meses?
 2. Como vou aprender?
 3. Como serei avaliada?
 4. O que preciso para ter êxito no Bootcamp? Interiorizando a mentalidade de

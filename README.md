@@ -2,15 +2,15 @@
 
 ![Build Status](https://travis-ci.org/Laboratoria/curricula-js.svg?branch=master)
 
-Este repositório o lugar de onde iremos continuar _desenvolvendo _nosso programa de formação em **JavaScript**.
+Este repositório o lugar de onde iremos continuar \_desenvolvendo \_nosso programa de formação em **JavaScript**.
 
-Neste repositório _ordenaremos_, _desenvolveremos, discutiremos e faremos_ tudo que tenha a ver com o conteúdo programático e os cursos 
+Neste repositório _ordenaremos_, _desenvolveremos, discutiremos e faremos_ tudo que tenha a ver com o conteúdo programático e os cursos
 
-## Grade Curricular 
+## Grade Curricular
 
-Quando dizemos _grade curricular _nos referimos à _big picture_, o _fio condutor_ que conecta um conjunto de _cursos_. 
+Quando dizemos _grade curricular \_nos referimos à \_big picture_, o _fio condutor_ que conecta um conjunto de _cursos_.
 
-Nossa proposta de _modelo de aprendizagem_ pretende atacar de frente o desafio de como fazer que a teoria se aprenda pela prática. Dessa forma, o currículo esta _projetado_ como uma séria de _produtos _completos, de complexidade e escopo incrmental.
+Nossa proposta de _modelo de aprendizagem_ pretende atacar de frente o desafio de como fazer que a teoria se aprenda pela prática. Dessa forma, o currículo esta _projetado_ como uma séria de \_produtos \_completos, de complexidade e escopo incrmental.
 
 En este issue puedes seguir y/o participar en la discusión abierta sobre el modelo: [Aprendizaje orientado a _productos_](https://github.com/Laboratoria/curricula-js/issues/3).
 
