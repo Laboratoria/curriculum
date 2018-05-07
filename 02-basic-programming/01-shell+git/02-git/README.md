@@ -14,7 +14,6 @@
 * Compreender os conceitos básicos: repositórios local e remoto, _working
   directory_, _staging area_ e _branches_
 * Saber utilizar os comandos essenciais: `init`,`status`, `add`, `commit`,
-
   `push` e `pull`
 
 O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes
