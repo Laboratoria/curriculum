@@ -1,427 +1,414 @@
 # Git
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `no seu ritmo`
+- Duração: `60min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué es `Git` y por qué es importante
-- Crear tu cuenta en `Github`
-- Diferenciar `Git` de `Github`
-- Instalar y configurar `Git`
-- Aprender el _"workflow"_ de una developer
-- Entender los conceptos básicos: local, remoto, working directory, staging
-  area y branches
-- Saber utilizar los comandos esenciales: `init`, `status`, `add`, `commit`,
-  `push` y `pull`
-
-***
-
-El texto a continuación se basa en gran medida, con ciertos ajustes, en las
-siguientes páginas:
-
-- [Pro Git book](https://git-scm.com/book/en/v2)
-- [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
+- Entender o que é `Git` e por que ele é importante
+- Criar sua conta no `GitHub`
+- A diferença entre `Git` e `GitHub`
+- Instalar e configurar o `Git`
+- Aprender o _"workflow"_ de uma desenvolvedora
+- Compreender os conceitos básicos: local, remoto, working directory, staging
+  area e branches
+- Saber utilizar os comandos essenciais: `init`,` status`, `add`, `commit`,
+  `push` e `pull`
 
 ***
 
-## ¿Qué es Git?
+O texto a seguir é baseado em grande parte, com certos ajustes, nas seguintes
+referências:
 
-`Git` es un `Sistema de Control de Versiones`.
+- [Pro Git book] (https://git-scm.com/book/en/v2)
+- [Getting Started with Git - Arun Sood] (https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
 
-> **¿Qué es el Sistema de Control de Versiones?**
+**
 
-El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que
-registrará los cambios de uno, dos o varios archivos todo el tiempo para que
-si más adelante,necesitamos una versión, podamos recuperarla fácilmente.
-Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha
-pasado algo así?:
+## O Que é Git?
 
-!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+`Git` é um _Sistema de Controle de Versões_.
 
-Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+> ** O que é um Sistema de Controle de Versões? **
 
-- Revertir los archivos a un estado anterior.
-- Revertir todo el proyecto a un estado anterior.
-- Comparar los cambios que se hayan hecho a lo largo del proyecto.
-- Ver quién introdujo un cambio o actualizó el archivo y cuándo.
-- Y lo más importante, asegura que los archivos no se pierdan.
+Um _Sistema de Controle de Versões_ (VCS em inglês) é um sistema que
+registrará as alterações de um, dois ou mais arquivos o tempo todo para,
+caso necessário, recuperarmos uma versão facilmente.
+Por exemplo, se você já elaborou um projeto para uma determinada tarefa, fez
+algo como ilustrado na imagem abaixo?
 
-Ahora bien, `Git` nos ayudará a guardar y diferenciar todos los cambios que
-haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
+!['versões'] (http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
 
-Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en `Git`,
-él básicamente hace una foto del estado de todos tus archivos en ese momento, y
-guarda una referencia a esa foto. Para ser eficiente, si los archivos no se han
-modificado, `Git` no almacena el archivo otra vez, sólo un enlace al archivo
-idéntico anterior que ya almacenó.
+Graças ao VCS, podemos fazer com que isso não aconteça, pois ele permite:
 
-Tanto la colección de archivos como sus versiones completas serán guardadas en
-un `repositorio`.
+- Reverter arquivos para um estado anterior.
+- Reverter o projeto inteiro para um estado anterior.
+- Comparar as alterações realizadas ao longo do projeto.
+- Ver quem introduziu uma mudança ou atualizou o arquivo e quando.
+- E o mais importante: assegurar que os arquivos não se percam.
 
-En resumen, `Git` piensa en tus archivos como un flujo de "imágenes". Por eso,
-a cada cambio que vayamos realizando le tomará una foto en el instante que le
-indiquemos y todo eso lo almacenará en un `repositorio local`.
+De agora em diante, o `Git` vai nos ajudar a salvar e identificar todas as
+mudanças que faremos durante o desenvolvimento de um projeto, seja de um ou
+mais arquivos.
 
-**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de
- trabajar con Git**
+Cada vez que confirmar uma mudança, ou salvar o estado de seu projeto no `Git`,
+ele basicamente tira uma foto do estado de todos os seus arquivos naquele
+momento, e salva uma referência a essa foto. Para ser eficiente, se os arquivos
+não foram modificados, o `Git` não armazena o arquivo novamente, apenas um link
+para o arquivo idêntico que já se encontra armazenado.
 
-- Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
-  a los archivos y a sus versiones que se encuentran en nuestro equipo.
-  Aquí encontraremos dos partes muy importantes.
-  * working directory: Es nuestro directorio de trabajo.
-  * staging area: Es el espacio en donde se encuentran los archivos a los que `Git`
-    les debe de hacer seguimiento y que en algún momento se convertirán en una nueva
-    versión del proyecto.
+Tanto a coleção de arquivos como suas versões completas serão salvas em
+um `repositório`.
 
-- Repositorio remoto: `Git` nos permite sincronizar nuestro repositorio local
-  con un repositorio remoto o repositorio en la "nube".
+Em suma, o `Git` pensa em seus arquivos como um fluxo de "imagens". Assim,
+a cada mudança que realizamos, ele tirará uma foto no instante em que lhe
+indicarmos e tudo isso será armazenado em um `repositório local`.
 
-## ¿Qué es Github?
+Vamos conhecer agora algumas palavras-chave que você certamente irá ouvir
+quando trabalhar com Git.
 
-`Github` es conocida como la "red social" de los developers debido a que una
-gran cantidad de ellos suben sus proyectos aquí. Esto les permite crear
-`repositorios remotos` que guardarán siempre una copia de su código y a la cual
-podrán acceder fácilmente mediante `Git` que es el controlador de versiones.
+- Repositório local: Quando falamos `repositório local`, fazemos referência aos
+arquivos e suas versões localizados em nosso equipamento.
+Aqui, encontraremos duas partes muito importantes.
+  * Working directory: É o nosso diretório de trabalho.
+  * Staging area: Área intermediária na qual alterações são adicionadas para
+    criar uma nova versão do projeto.
 
-Pero `Github` no solo sirve para "subir" nuestro código, él también contribuirá
-al desarrollo colaborativo del proyecto brindándonos herramientas como por
-ejemplo:
+- Repositório remoto: o `Git` nos permite sincronizar nosso repositório local
+  com um repositório remoto que pode estar na "nuvem".
 
-- Un `sistema de seguimiento de problemas` que permite a los miembros de un
-  equipo detallar un problema o una sugerencia que deseen hacer del proyecto.
-- Una `herramienta de revisión de código`, donde se pueden añadir anotaciones
-  en cualquier punto del proyecto y debatir sobre un cambio en específico.
-- Un `visor de versiones` donde se puede comparar el progreso del proyecto en
-  las distintas versiones.
+## O que é GitHub?
 
-**En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
+`GitHub` é conhecido como a "rede social" dos desenvolvedores, pois muitos
+deles enviam seus projetos para lá. Ele permite criar `repositórios remotos`
+que sempre terão uma cópia do seu código que é facilmente acessada pelo Git, o
+controlador de versões.
 
-## ¿Cuál es la diferencia entre Git y Github?
+Mas o `GitHub` não serve apenas para enviar o nosso código. Ele também
+contribuirá para o desenvolvimento colaborativo do projeto fornecendo
+ferramentas como:
 
-**`Git` y `Github` se complementan pero no son iguales.**
+- Um _sistema de acompanhamento de problemas que permite aos membros da equipe
+  detalhar um problema ou sugerir alterações do projeto.
+- Uma _ferramenta de revisão código_, através da qual é possível adicionar
+  anotações em qualquer ponto do projeto e discutir sobre uma alteração em
+  específico.
+- Um _visualizador de versões_ para comparar o progresso do projeto pelas
+  diferentes versões.
 
-`Github` utiliza a `Git` como `Sistema de Control de Versiones`. Gracias a
-`Git` podremos guardar localmente los diferentes avances (estados) de nuestro
-proyecto y gracias a `Github` podremos subir esos avances a la `nube` y
-comenzar un trabajo colaborativo o trabajar en nuestros proyectos personales
-sin depender de la computadora donde se encuentre el proyecto o tener que estar
-guardándolo en un usb para copiarlo a otra computadora.
+**Resumindo, poderíamos dizer que GitHub é como o Dropbox, mas para
+desenvolvedores.**
 
-## ¿Por qué es importante Git y Github?
+## Qual é a diferença entre Git e GitHub?
 
-La programación se da, en su mayoría de veces, en equipos. Varias empresas
-tienen un equipo que se complementa para cada proyecto. Ante esta situación
-te preguntarás:
+**Git e GitHub se complementam, mas não são iguais.**
 
-> ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen
-> todo en un usb y se lo turnan para poder trabajar, o trabajan cada uno por su
-> lado y al momento de tener que unir las partes tienen que ver detalladamente
-> si se repiten o no alguna parte.
+GitHub utiliza Git como sistema de controle de versões. Graças ao Git, podemos
+salvar localmente os diferentes progressos (estado) do nosso projeto e, graças
+ao GitHub, podemos enviá-los à nuvem e iniciar um trabalho colaborativo ou
+trabalhar em nossos projetos pessoais sem depender do computador onde se
+encontra o projeto ou de um _pen drive_ para copiá-lo a outra máquina.
 
-Esto no sería para nada eficiente, porque no se podría trabajar al mismo tiempo
-en algo en específico y se tendría que depender del avance de otro para que
-nosotros podamos avanzar.
+## Por que Git e GitHub são importantes?
 
-Para estos casos existen herramientas como `Git` y `Github`, los cuales nos
-ayudan al momento de un trabajo colaborativo. `Github` es el lugar perfecto
-para trabajar conjuntamente en un proyecto con uno o varios compañeros, podrás
-crear un proyecto y añadir como colaboradores a los miembros de tu equipo;
-además, podrás traer a tu repositorio local los cambios que tus compañeros
-hayan subido al repositorio remoto y podrás ver automáticamente lo que acaba de
-añadir tu compañero.
+A programação é feita, na maioria das vezes, em equipes. Várias empresas têm
+uma equipe que se complementa para cada projeto. Diante dessa situação, você
+pode se perguntar:
 
-## ¿Cómo crear una cuenta en Github?
+> Como se organizam para trabalhar todos em um único projeto? Talvez eles
+tenham tudo em um USB e se revezam para poderem trabalhar, ou cada um trabalha
+por si e, na hora de juntar todas as partes, precisam analisar detalhadamente
+se repetiram ou não algum pedaço.
 
-Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
+Isso não seria nada eficiente, pois não seria possível trabalhar ao mesmo tempo
+em algo específico e dependeríamos do progresso de outra pessoa para que
+pudéssemos avançar.
 
-1. Debemos de dirigirnos a la [página oficial de Github](https://github.com)
-2. Ya en la página, haremos clic en **Sign up**.
-3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
-   ejemplo, si tienes un **username** que creaste para un juego online podrías
-   usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
-   visible para todo el mundo y puede que te lo pidan en algún momento para
-   añadirte como colaborador de un proyecto, así que ten cuidado con lo que
-   pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
-   haz clic en **Create an account**.
-4. En la siguiente pantalla asegúrate de marcar la opción **Unlimited public
-  repositories for free**, esta es la versión "free" de `Github`; luego haz
-  clic en **continue**.
-5. El paso 3 del registro puedes completarlo con tus datos y hacer clic en
-  **Submit**, o solo hacer clic en **Skip this step**.
+Para esses casos, existem ferramentas como o Git e GitHub que nos ajudam a
+trabalhar de forma colaborativa. GitHub é o lugar perfeito para trabalhar em
+conjunto num projeto com um ou vários companheiros, pois você poderá: criar um
+projeto e adicionar os membros de sua equipe como colaboradores; trazer ao seu
+repositório local as alterações que seus companheiros enviaram ao repositório
+remoto; ver automaticamente o que seu companheiro acabou de adicionar.
 
-¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de `Github`
-creada.
+## Como criar uma conta no GitHub?
 
-Ahora Michelle, siguiendo los pasos anteriores, creará su cuenta en `Github`.
+Para criar sua conta no GitHub, siga estes passos:
 
-[![creando cuenta de github](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
+1. Vá à [página oficial do GitHub](https://github.com)
+2. Uma vez na página, clique em **"Sign up"**
+3. Digite um nome de usuário (**username**) que pode ser um que você já tenha.
+   Por exemplo, se já criou um _username_ para um jogo online, poderá usá-lo.
+   Não há limite usar isso. Há infinitas possibilidades, mas tenha em mente que
+   será visível para todo o mundo e poderá ser solicitado para a adicionar como
+   colaboradora de um projeto, então tenha cuidado com sua escolha de
+   _username_. Em seguida, digite seu e-mail, senha e clique em **Create an
+   account**.
+4. Na próxima tela, certifique-se de marcar a opção **Unlimited public
+   repositories for free**, a versão "free" do GitHub. Em seguida, clique em
+   **continue**.
+5. No terceiro passo do registro, você pode completar com seus dados e clicar
+   em **Submit**, ou somente clicar em **Skip this step**.
 
-## ¿Cómo creamos un repositorio remoto en Github?
+E pronto! Ao fazer todos esses passos, teremos nossa conta GitHub criada.
 
-Sigue los pasos de Michelle para crear un repositorio en `Github`:
+Agora a Michelle, seguindo os passos acima, criará sua conta no GitHub.
 
-[![Creando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
+[![Criando uma conta no GitHub](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
 
-Por último tenemos la pantalla donde encontrarmos la `url` de nuestro
-`repositorio remoto`, con la cual (más adelante) vincularemos nuestro
-repositorio remoto con nuestro repositorio local.
+## Como criamos um repositório remoto no GitHub?
 
-## ¿Cómo instalamos Git?
+Siga os passos de Michelle para criar um repositório no GitHub:
 
-Si nos encontramos en Linux o Mac OS X no será necesario hacer la
-instalación de Git porque ya viene instalado, pero si nuestro sistema operativo
-es **Windows** debemos descargar e instalar `Git` en nuestro equipo.
+[![Criando repositório](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
-- [Descarga Git](https://git-scm.com/download/win)
+Por último, temos a tela onde encontramos a _url_ do nosso repositório remoto
+que, mais adiante, será vinculada ao nosso repositório local.
 
-Cuando haya terminado la descarga de nuestro programa comenzaremos con la
-instalación haciendo doble clic en el archivo que se acaba de descargar y luego
-nos aparecerán las siguientes pantallas:
+## Como instalar o Git?
 
-1. Hacemos clic en el botón **Run**
+Se estivermos usando Linux ou Mac OS X, não será necessário instalar o Git
+porque ele já vem instalado, mas se nosso sistema operacional for Windows,
+devemos baixar e instalar o Git em nossa máquina.
 
-  !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
-2. Ahora en **Next >**
+- [Download Git](https://git-scm.com/download/win)
 
-  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
-3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones
-   y hacemos clic en **Next >**
+Quando terminar o download do nosso programa, começaremos a instalação com um
+duplo clique no arquivo que acabamos de baixar e, em seguida, aparecerão as
+seguintes telas:
 
-  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
-4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows
-   Command Prompt** y hacemos clic en **Next >**
+1. Clique no botão "Run"
 
-  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
-5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)
+  !['Passo 1, instalação do Git'] http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
+2. Agora em "Next >"
 
-  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
-6. Elegimos la primera opción y seguimos
+  !['Passo 2, instalação do Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
+3. Na tela que aparecer, selecione as seguintes opções e clique em "Next >":
 
-  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
-7. Nos aseguramos de escoger la opción **Use MinTTY**
+  !['Passo 3, instalação do Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
+4. Selecione a opção "Use Git and optional Unix tools from the Windows Command
+   Prompt" e clique em "Next >"
 
-  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
-8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**
+  ![Passo 4, instalação do Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
+5. Selecione a opção "Use the OpenSSL library" e continue ("Next >")
 
-  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
-9. Ahora comenzará a instalarse
+  !['Passo 5, instalação do Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
+6. Escolha a primeira opção e prossiga
 
-  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
-10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish**
+  !['Passo 6, instalação do Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
+7. Certifique-se de escolher a opção "Use MinTTY"
 
-  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
+  !['Passo 7, instalação do Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
+8. Selecione as duas primeiras opções e clique em "Install"
 
-### ¿Qué es Git Bash?
+  !['Passo 8, instalção do Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
+9. Agora começará a instalação
 
-Cuando terminemos de instalar `Git`, en nuestras nuevas aplicaciones
-encontraremos una que se llama `Git Bash`.
+  !['Passo 9, instalação do Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
+10. Com o Git já instalado em nosso computador, clique em "Finish"
 
-En el sistema operativo Windows, debido a que el Command Prompt (o terminal de
-Windows) no es muy amigable y no soporta comandos UNIX, `Git` nos proporciona
-una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar
-comandos como si estuviéramos en Linux o Mac OS X.
+  !['Passo 10, instalação do Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
 
-> Por lo tanto, `Git Bash` será la "línea de comandos" que utilizaremos cuando
-> trabajemos con `Git` en Windows, en cambio, si nos encontramos en Linux o Mac
-> OS X utilizaremos nuestra terminal.
+### O que é Git Bash?
 
-## ¿Cómo configuramos Git?
+Quando concluirmos a instalação do Git, encontraremos, em nossas novas
+aplicações, uma chamada `Git Bash`.
 
-Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro
-entorno de `Git`.
+No sistema operacional Windows, pelo fato do Command Prompt (ou terminal do
+Windows) não ser muito amigável e não suportar comandos UNIX, o Git nos dá
+uma ferramenta muito boa chamada `Git Bash` que vai nos permitir executar
+comandos como se estivéssemos no Linux ou Mac OS X.
 
-> Recuerda que si quieres ejecutar comandos de Git y te encuentras en Mac OS X o
-> Linux deberás ejecutarlos en **la línea de comandos**, en cambio, si tu
-> sistema operativo es Windows abriremos **Git Bash** para ejecutar los
-> comandos de Git.
+> Assim, `Git Bash` será a "linha de comandos" que usaremos no Windows. Já
+> no Linux ou Mac OS X, utilizaremos nosso terminal.
 
-Lo primero que debemos de hacer es establecer nuestro **username** y
-**dirección de correo** debido a que `Git` utilizará estos datos para la
-confirmación de cambios (o como los conoceremos más adelante: `commits`),
-podemos configurar estos datos por medio del comando `git config`, este nos
-permite obtener y establecer variables de configuración que controlan el
-aspecto y funcionamiento de `Git`, como por ejemplo si ejecuto el comando
-`git config --list` en mi terminal me devuelve esto:
+## Como configuramos o Git?
+
+Com o Git já instalado em nosso computador, vamos agora personalizar nosso
+ambiente do Git.
+
+> Lembre-se de que se você quiser executar comandos Git e estiver no Mac OS X
+> ou Linux, deverá executá-los na linha de comandos. Porém, se seu sistema
+> operacional é Windows, abriremos o Git Bash para executar os comandos de Git.
+
+A primeira coisa a fazer é definir nosso nome de usuário (_username_) e e-mail
+que o Git utilizará para gravar as alterações nos códigos (o que veremos mais
+adiante: _commits_). Podemos configurar esses dados através do comando
+`git config`, o qual nos permite visualizar e configurar variáveis que
+controlam a aparência e funcionamento do Git. Por exemplo, se executo o comando
+`git config --list` em meu terminal, obtenho o seguinte:
 
 ```text
-  user.name = michellesegv
-  user.email = michelle@laboratoria.la
+user.name = michellesegv
+user.email = michelle@laboratoria.la
 ```
 
-(Que vienen a ser los datos que ya he configurado)
+(São os dados que eu já havia configurado)
 
-Ahora nosotras vamos configurar nuestro entorno de `Git`:
+Agora vamos definir o nosso ambiente de `Git`:
 
-- Para configurar nuestro **username** debemos escribir la siguiente línea que
-  debe de tener nuestros datos, y luego presionaremos la tecla "enter":
+- Para definir nosso **username** (nome de usuário), devemos escrever a
+  seguinte linha com os nossos dados e depois pressionar a tecla "enter":
 
-  ```text
-  git config --global user.name Tu-username
+  ```bash
+  git config --global user.name seu-username
   ```
 
-- Para configurar nuestro **correo electrónico** debemos escribir la siguiente
-  línea con nuestros datos y luego presionaremos la tecla "enter":
+- Para definir nosso **e-mail**, devemos escrever o comando abaixo,
+  pressionando "enter" em seguida:
 
-  ```text
-  git config --global user.email tucorreo@gmail.com
+  ```bash
+  git config --global user.email seuemail@gmail.com
   ```
 
-Los datos con los que llenes las líneas anteriores deben de ser los mismos que
-usaste al crear tu cuenta de `Github`, porque como te comentaba con ellos se
-registrarán los `commits` que hagas en `Git` y que luego pasarán al historial
-de nuestro proyecto en `Github`.
+Os dados das linhas acima devem ser os mesmos que você usou ao criar a sua
+conta no GitHub, pois eles ficarão gravados nos _commits_ e farão parte do
+histórico do projeto que está no GitHub.
 
-[![Subiendo repositorio](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)](https://www.youtube.com/watch?v=g9iNK_11KV4)
+[![Configurando o Git](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)](https://www.youtube.com/watch?v=g9iNK_11KV4)
 
-## ¿Cómo usar Git y Github?
+## Como usar o Git e GitHub?
 
-Hemos leído las ventajas que nos pueden brindar `Git` y `Github`, con ellos
-podremos subir un repositorio local a uno remoto, trabajar con versiones y
-colaborativamente, etc. Ahora hagamos la "magia" de trabajar con `Git` y
-`Github`, vamos a subir nuestro `repositorio local` a uno `remoto` y trabajar
+Já lemos as vantagens que Git e GitHub podem nos oferecer: com eles, podemos
+fazer upload de um repositório local a um remoto, trabalhar com versões e
+de forma colaborativa, etc. Agora, vamos a "mágica" do Git com GitHub: enviar
+nosso repositório _local_ a um repositório _remoto_ e trabalhar
 colaborativamente.
 
-A continuación tienes la lista de los comandos más comunes que utilizarás
-trabajando con `Git` y `Github`. Si te sigue pareciendo muy "teórico" no te
-preocupes, más abajo habrá un video de Michelle utilizándolos.
+A seguir, você encontrará uma lista dos comandos mais comuns ao trabalhar com
+Git e GitHub. Se parecer muito "teórico", não se preocupe, pois há um vídeo da
+Michelle utilizando-os mais abaixo.
 
-- `init`: Este comando le indica a `Git` que comenzará a hacer seguimiento de
-  la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El
-  comando para iniciar el seguimiento de la carpeta sería:
+- `init`: Este comando diz ao Git para começar a monitorar o diretório atual,
+  tornando-a um repositório. Em outras palavras, ele vai começar a vigiar essa
+  pasta. O comando para tal é:
 
-  ```text
+  ```bash
   git init
   ```
 
-  Al ejecutar esta línea, `Git` creará una carpeta oculta llamada `.git` en el
-  working directory, en la raíz del proyecto.
+  Ao executar essa linha, o Git vai criar uma pasta oculta chamada `.git` no
+  _working directory_, o diretório raiz do projeto.
 
-- `add`: Con este comando estaremos indicando qué archivos queremos que pasen
-  de nuestro _working directory_ al _staging area_. Es decir que los archivos
-  ya han sido modificados y están **preparados**  para la nueva versión del
-  proyecto.
+- `add`: Com este comando, indicaremos quais arquivos queremos passar do
+  nosso _working directory_ para _staging area_. Isto é, dizer quais arquivos
+  estão **preparados** para a nova versão do projeto.
 
-  Por ejemplo, si quieremos añadir a nuestro _staging area_ el archivo `HTML`
-  llamado **index.html** debemos de ejecutar la siguiente línea:
+  Por exemplo, se quisermos adicionar o arquivo HTML **index.html** à nossa
+  _staging area_, devemos executar a seguinte linha:
 
-  ```text
+  ```bash
   git add index.html
   ```
 
-  Si queremos que todos los archivos del directorio actual se añadan al
-  _staging area_ (definir que ya están preparados), ejecutamos la siguiente
-  línea:
+  Se desejarmos que todos os arquivos do diretório atual sejam adicionados à
+  _staging area_ (definir que já estão preparados para a nova versão),
+  executamos a seguinte linha:
 
-  ```text
+  ```bash
   git add .
   ```
 
-- `commit`: Con `commit` **confirmaremos** los archivos que declaramos como
-  preparados con el comando anterior (`add`) .Con los archivos confirmados se
-  creará una nueva versión del proyecto.
-  La estructura del comando es la siguiente:
+- `commit`: Com `commit`, **confirmaremos** os arquivos que já definimos como
+  preparados pelo comando anterior (`add`). A estrutura de comando é a
+  seguinte:
 
-  ```text
-  git commit -m 'añadiendo un comentario'
+  ```bash
+  git commit -m 'adicionar um comentário'
   ```
 
-  El texto que va dentro de las comillas ('') puede ser cualquiera, te
-  recomiendo que escribas un resumen de lo que estás subiendo en ese momento
-  para que tengas una mejor organizacion, además, un buen comentario te servirá
-  si quieres volver a una funcionalidad en especial sin tener que leer todo el
-  código y solo guiarte por el comentario de tu commit. Por ejemplo:
+  O texto entre aspas ('') pode ser qualquer um. Eu recomendo que você escreva
+  um resumo do que está sendo modificado nessa versão para melhor se organizar.
+  Além disso, um bom comentário irá ajudá-la se for necessário voltar a uma
+  determinada funcionalidade sem precisar ler todo o código, mas apenas
+  guiando-se pelos comentários dos commits. Por exemplo, se a **nova versão**
+  _cria a estrutura do HTML_, um bom comentário seria:
 
-  ```text
-  git commit -m 'Creando estructura HTML'
+  ```bash
+  git commit -m 'Cria a estrutura do HTML'
   ```
 
-- `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro
-  repositorio que se encuentra en la "nube" por medio de la **url**.
-  Este paso no se debe de hacer cada vez que creemos una nueva versión, solo
-  cuando queramos especificar el repositorio remoto que tendremos.
-  Entonces, para enlazar nuestro repositorio local con nuestro repositorio
-  remoto debemos de ejecutar el siguiente comando:
+- `remote`: Com `remote`, **vincularemos** nosso repositório local ao nosso
+  repositório localizado na "nuvem" por meio de uma **url**. Este passo _não_
+  é feito a cada versão, mas somente uma vez para especificarmos o repositório
+  remoto que temos. Então, para ligar o nosso repositório local com nosso
+  repositório remoto, devemos executar o seguinte comando:
 
-  ```text
-  git remote add nombre-remoto url
+  ```bash
+  git remote add nome-remoto url
   ```
 
-  Normalmente, la mayoría de los developers, como **nombre-remoto** utiliza
-  `origin` y **url** es la "ruta" (url) de nuestro repositorio en `Github`.
-  Por ejemplo, hace un momento he creado el repositorio "prueba" en `Github` y
-  si quiero vincular mi repositorio local con ese repositorio remoto tendría
-  que ejecutar la siguiente línea de comando:
+  Normalmente, a maioria dos desenvolvedores utilizam `origin` (origem) como
+  `nome-remoto` e `url` é o endereço do repositório do GitHub. Por exemplo,
+  criei um repositório "teste" no GitHub há um momento atrás e, para vincular
+  meu repositório local com esse repositório remoto, eu devo executar a
+  seguinte linha de comando:
 
-  ```text
-  git remote add origin https://github.com/michellesegv/prueba.git
+  ```bash
+  git remote add origin https://github.com/michellesegv/teste.git
+  ``
+
+- `push`: Através do `push`, **enviamos** nossa nova versão, confirmada pelo
+  `commit`, ao nosso repositório remoto. O comando é o seguinte:
+
+  ```bash
+  git push nome-remoto master
   ```
 
-- `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
-  confirmamos en el `commit` a nuestro repositorio remoto. El comando es el
-  siguiente:
+  O `nome-remoto` é aquele atribuído com o comando anterior (`remote add`) e,
+  no nosso caso, é _origin_. Em seguida, digitamos `master`, o nome da
+  _branch_. Veremos mais adiante como trabalhar com _branches_ (ramos). Os
+  ramos são uma cópia paralela que podemos criar do nosso código. Por padrão,
+  os repositórios possuem um ramo chamado _master_ (mestre) e, por enquanto,
+  trabalharemos somente nele. Dessa forma, para enviar as mudanças ao ramo
+  remoto _master_, executamos:
 
-  ```text
-  git push nombre-remoto master
-  ```
-
-  En **nombre-remoto** pondremos el mismo nombre-remoto que le hemos asignado
-  al momento de añadir la url de nuestro proyecto (en nuestro caso sería
-  **origin**) y seguido pondremos **master**, más adelante conoceremos el
-  trabajo en "ramas" que tiene `Github`. Las **ramas** son una copia paralela
-  que podemos crear de nuestro código. Por defecto, los repositorios traen una
-  "rama" llamada **master** y ahora trabajaremos solo en ella, así que
-  subiremos nuestros cambios a ella especificando **master** como el nombre de
-  la rama a la que queremos subir nuestra versión, entonces el comando a
-  ejecutar sería:
-
-  ```text
+  ```bash
   git push origin master
   ```
 
-- `status`: Con `status` conoceremos el estado de los archivos de nuestro
-  repositorio local.
-  Es decir, nos dirá si existe un archivo que se ha modificado y no se ha
-  actualizado en el repositorio remoto o si hay un archivo que todavía no se
-  "sube" y nos informará si se encuentra en nuestro working directoy o staging
-  area. Este comando nos resultará muy útil para determinar qué archivos
-  debemos declarar como "preparados" (por medio del comando `add`) y luego
-  "confirmarlos" en la nueva versión (por medio del comando `commit`) que
-  subiremos a nuestro repositorio remoto. El comando para ver el estado de
-  nuestro repositorio local es:
+- `status`: Com `status`, podemos saber o estado dos arquivos no nosso
+  repositório local. Ou seja, o comando nos dirá se há algum arquivo
+  modificado que não foi atualizado no repositório remoto ou se há
+  arquivos que ainda não foram enviados, e nos informará se está em nosso
+  _working directory_ ou _staging area_. Este comando será muito útil para
+  determinar quais arquivos devemos declarar como "preparados" (via `add`) e,
+  em seguida, "confirmá-los" na nova versão (através do comando `commit`) que
+  enviaremos ao nosso repositório remoto. O comando para ver o estado do nosso
+  repositório é:
 
-  ```text
+  ```bash
   git status
   ```
 
-- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que
-  tengamos registrado en el repositorio remoto. Este comando nos servirá mucho
-  al momento de trabajar colaborativamente  porque podremos tener los avances
-  que nuestros colaboradores han subido al repositorio remotro a nuestro
-  repositorio local y mantenerlo actualizado. El comando es el siguiente:
+- `pull`: Permite atualizar nosso repositório local para o último `commit`
+  registrado no repositório remoto. Este comando irá nos ajudar muito
+  ao trabalharmos de forma colaborativa, pois poderemos ter o progresso
+  que nossos colaboradores enviaram ao repositório remoto em nosso
+  repositório local, mantendo-o atualizado. O comando é o seguinte:
 
-  ```text
-  git pull nombre-remoto master
+  ```bash
+  git pull nome-remoto master
   ```
 
-  En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como
-  **origin** y la rama en la que estamos trabajando se llama **master**, el
-  comando sería:
+  No nosso caso, como declaramos o nome remoto como **origin** e estamos
+  trabalhando no ramo **master** (padrão), o comando seria:
 
-  ```text
+  ```bash
   git pull origin master
   ```
 
-### Detalle de comandos
 
-A continuación veremos una lista de los comandos de `Git` usados en esta lección:
+### Complementos
+
+A seguir, temos uma lista de comandos do Git usados nesta aula:
 
 ![comandos-git](https://fotos.subefotos.com/f209b041b3f12e56d3e44984a92d1f44o.png)
 
-Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de versiones
-de sus proyectos y colaborar con otras profesoras de Laboratoria.
+Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle de
+versões de seus projetos e colaborar com outras professoras da Laboratoria.
 
-[![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
+[![Subindo o repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)

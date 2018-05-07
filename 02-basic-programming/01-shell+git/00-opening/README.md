@@ -1,40 +1,40 @@
-# Apertura
+# Introdução
 
-- Tipo: `lectura`
+- Tipo: `leitura`
 - Formato: `self-paced`
-- Duración: `5min`
+- Duração: `5min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade, vamos aprender a usar:
 
-- A utilizar la interfaz de línea de comandos (CLI)
-- A utilizar un sistema de control de versiones (Git)
+- A interface de **linha de comandos** (CLI)
+- Um sistema de controle de versões, o **Git**
 
-## ¿Por qué aprender esto?
+## Por que aprender isto?
 
-En esta unidad aprenderemos a utilizar dos programas esenciales para cualquier
-desarrollador. El primero es un controlador de versiones (Git) que permite
-llevar el control del progreso de tu código y mantener un respaldo de tu
-trabajo. El segundo es la línea de comandos (CLI), la interfaz por la cual un
-desarrollador accede a todo el poder de su computador. Sabiendo usar la `CLI`
-podrás instalar programas, usar `Git`, correr cualquier programa, y muchas cosas
-más. ¿Estás lista? ¡Vamos!
+Nesta unidade, aprenderemos a utilizar dois programas essenciais para qualquer
+desenvolvedor. O primeiro é um controlador de versões, Git, que permite assumir
+o controle do progresso de seu código e manter um histórico do seu trabalho. O
+segundo é a linha de comandos (CLI), a interface pela qual um desenvolvedor tem
+acesso a todo o poder de seu computador. Sabendo usar a CLI, você poderá
+instalar programas, usar o Git, executar qualquer programa, e muitas coisas
+mais. Está pronta? Então vamos!
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos-chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos
+mais importantes do que iremos aprender e dos temas centrais que devemos
+prestar mais atenção.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir, apresentamos uma série de perguntas que você deverá ser capaz de
+responder ao terminar esta unidade. Utilize estas perguntas como um guia para
+orientar seus estudos de aprendizagem. Retorne a elas constantemente à medida
+em que progride para certificar-se de que está na direção correta.
+Utilizem-nas como um _checklist_ a ser marcado durante o seu progresso.
 
-- ¿Por qué es importante usar `Git` y para qué sirve?
-- ¿Cómo funciona `Git`? Explica los comandos principales
-- ¿Qué se hace con la `interfaz de línea de comandos`? ¿Para qué sirve?
+- Por que é importante usar Git e para que serve?
+- Como funciona o Git? Explique os comandos principais.
+- O que se faz com a "interface de linha de comandos"? Para que serve?

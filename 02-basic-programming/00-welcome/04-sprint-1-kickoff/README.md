@@ -1,28 +1,28 @@
-# Sprint 1 Kick-off
+# 04 - Sprint 1 kickoff
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `30min`
-
-***
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `30min`
 
 ## Objetivos
 
-- Conocer el outline del `Sprint 1: Programación Básica con JavaScript`
-  * Objetivos del curso y temas a aprender
-  * ¿Por qué vamos a aprender esto?
-  * Productos a desarrollar
-- Conocer el gamification: puntos técnicos y de habilidades socio-emocionales
-  de este sprint
-- Conocer los alcances e incentivos del curso: duración, unidades a completar,
-  bonificaciones y premios
-- Revisar el cronograma del sprint
+* Conhecer o aspecto geral do **Sprint 1: Programação Básica com JavaScript**
+  * Objetivos do curso e temas a aprender
+  * Por que aprender isto?
+  * Produtos a serem desenvolvidos
+* Conhecer _gamification_: pontos técnicos e de habilidades socioemocionais
+* Conhecer o escopo e incentivos do curso: duração, unidades a completar,
+
+  bonificações e prêmios
+
+* Rever o cronograma do sprint
 
 ## Agenda
 
-1. Sprint 1 Kick-off
+1. Sprint 1: Kick-off
 
 ## Material
 
-- [Presentación Sprint 1 Kick-off Regional](https://docs.google.com/presentation/d/1623UM9tYNGVNYN_62jwgdIkP07okvI5Rb9hyZX8yXvc/edit#slide=id.g1b73c42c66_0_112)
-- [Presentación Sprint 1 Kick-off GDL](https://docs.google.com/presentation/d/18mS_odcJM5csiA1qpw7eLD9U-74pAkULGZ2KZLWCqcM/edit?usp=sharing)
+* [Apresentação do Sprint 1 Kick-off - regional](https://docs.google.com/presentation/d/1623UM9tYNGVNYN_62jwgdIkP07okvI5Rb9hyZX8yXvc/edit#slide=id.g1b73c42c66_0_112)
+* [Apresentação do Sprint 1 Kick-off - Guadalajara](https://docs.google.com/presentation/d/18mS_odcJM5csiA1qpw7eLD9U-74pAkULGZ2KZLWCqcM/edit?usp=sharing)
+
