@@ -356,7 +356,7 @@ funcione, la del filtro se puede quitar del diseño sin problemas.
 
 La búsqueda debería ser solo por nombre y/o apellido.
 
-### Ya no más por favor :pray:
+### Ya no más por favor (:pray:)
 
 El tab de `Teachers` no es necesario (si se quita del diseño va bien), el menú
 no tiene utilidad en este momento (también puede ser quitado del diseño).

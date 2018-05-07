@@ -14,7 +14,7 @@
 
 ## Preguntas
 
-### 1) "Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos". Es una definición que corresponde a:
+### 1) "Técnica de diseño que consigue que un único sitio se adapte perfectamente a todos los dispositivos". Es una definición que corresponde a
 
 #### Opciones
 
@@ -39,7 +39,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 3) Una técnica que utiliza la regla `@media` para incluir bloques CSS que se ejecutarán si las condiciones dadas son verdaderas. Es la definición de...
+### 3) Una técnica que utiliza la regla `@media` para incluir bloques CSS que se ejecutarán si las condiciones dadas son verdaderas. Es la definición de
 
 #### Opciones
 

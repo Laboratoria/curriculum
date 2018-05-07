@@ -83,7 +83,7 @@ movieRequest.send();
 
 <solution style="display:none;">3</solution>
 
-### 5) Los shorthand methods son métodos preconfigurados que se basan en:
+### 5) Los shorthand methods son métodos preconfigurados que se basan en
 
 #### Opciones
 

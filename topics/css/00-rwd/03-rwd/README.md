@@ -15,7 +15,7 @@
 
 Responsive Web Design se trata de una técnica de diseño y desarrollo web por
 el que se consigue que un único sitio se adapte perfectamente a todos los
-dispositivos desde ordenadores de escritorio a tablets, teléfonos móviles, etc. 
+dispositivos desde ordenadores de escritorio a tablets, teléfonos móviles, etc.
 
 ¿Cómo hace esto? Utilizando HTML y CSS para cambiar el tamaño, ocultar, reducir, ampliar o mover el contenido para que se vea bien en cualquier pantalla.
 
@@ -42,7 +42,7 @@ Las ventajas de utilizar Responsive Web Design son:
   lo que crea la necesidad de mayor cantidad de recursos y posibilidad de error.
 
 Puedes conocer un poco más sobre Responsive Web Design en los siguientes links:
- 
+
 - Video: Introducción a RWD
   [Intro RWD](https://www.youtube.com/watch?v=vr-YtKTlyh8)
 - [Diseño web: Responsive Design y la importancia del mobile first](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)

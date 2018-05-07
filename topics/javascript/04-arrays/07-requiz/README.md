@@ -18,7 +18,7 @@
 ### 1) En el siguiente ejemplo, el Array `mixedArray` presenta un error de syntaxis
 
 ```js
-var mixedArray = [3, hola mundo, 627.5];
+const mixedArray = [3, hola mundo, 627.5];
 ```
 
 #### Opciones
@@ -42,7 +42,7 @@ var mixedArray = [3, hola mundo, 627.5];
 ### 3) En el siguiente código
 
 ```js
-var listOfNumbers = [1, 2, 3, 4, 5, 6];
+const listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
 ¿Qué resultado obtengo al realizar `console.log(listOfNumbers[6])`?
@@ -60,7 +60,7 @@ var listOfNumbers = [1, 2, 3, 4, 5, 6];
 ### 4) En el siguiente código
 
 ```js
-var listOfNumbers = [1, 2, 3, 4, 5, 6];
+const listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
 Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
@@ -78,7 +78,7 @@ Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
 ### 5) En el siguiente código
 
 ```js
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -100,8 +100,8 @@ var questions = [
 ### 6) En el siguiente ejemplo, ¿qué método debo usar para obtener el resultado solicitado?
 
 ```js
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
-var removed = courses.__________;
+const courses = ['Intro JS', 'Intro UX', 'UX master'];
+const removed = courses.__________;
 
 console.log('Elemento eliminado: ' + removed);
 // → Elemento eliminado: Intro JS
@@ -119,7 +119,7 @@ console.log('Elemento eliminado: ' + removed);
 ### 7) En el siguiente ejemplo, ¿cuáles de los siguientes métodos podrías usar para obtener el resultado solicitado? Puedes elegir más de una opción
 
 ```js
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.__________('JS master', 'English for Developers');
 
 console.log(courses.length);
@@ -138,8 +138,8 @@ console.log(courses.length);
 ### 8) En el siguiente ejemplo, ¿qué métodos debo usar para obtener el resultado solicitado?
 
 ```js
-var listOfNumbers = [];
-for (var i = 1; i <= 7; i++) {
+const listOfNumbers = [];
+for (let i = 1; i <= 7; i++) {
   listOfNumbers.__________(i);
 }
 listOfNumbers.__________();
@@ -160,11 +160,11 @@ console.log(listOfNumbers.length);
 ### 9) ¿Cuál sería el resultado en el siguiente código?
 
 ```js
-var coder1 = 'Michelle, ';
-var coder2 = 'Lourdes, ';
-var coder3 = 'Ruth.';
+const coder1 = 'Michelle, ';
+const coder2 = 'Lourdes, ';
+const coder3 = 'Ruth.';
 
-var allCoders = coder1.concat(coder2, coder3);
+const allCoders = coder1.concat(coder2, coder3);
 
 console.log(allCoders);
 ```
@@ -181,7 +181,7 @@ console.log(allCoders);
 ### 10) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var coders = ['Michelle', 'Lourdes', 'Ruth'];
+const coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.pop();
 coders.indexOf('Lourdes');
 ```
@@ -198,7 +198,7 @@ coders.indexOf('Lourdes');
 ### 11) En el siguiente código, ¿cuál sería el resultado?
 
 ```js
-var coders = ['Michelle', 'Lourdes', 'Ruth'];
+const coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.push('Alejandra');
 coders.join();
 ```
@@ -215,7 +215,7 @@ coders.join();
 ### 12) En el siguiente ejemplo completa los espacios
 
 ```js
-var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
+const coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
 coders.pop();
 coders.slice(____,____);
 
@@ -234,7 +234,7 @@ coders.slice(____,____);
 ### 13) En el siguiente ejemplo, ¿qué método debo usar para obtener el resultado solicitado?
 
 ```js
-var listOfNumbers = [1, 2, 3, 1, 2, 3];
+const listOfNumbers = [1, 2, 3, 1, 2, 3];
 listOfNumbers.____________(2);
 
 // → 4
@@ -252,10 +252,10 @@ listOfNumbers.____________(2);
 ### 14) En el siguiente código, ¿cuál sería el resultado?
 
 ```js
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (var i = 0; i < array.length; i++) {
-  var item = array.pop();
+for (let i = 0; i < array.length; i++) {
+  const item = array.pop();
   array.splice(i, 0, item);
 }
 
@@ -275,7 +275,7 @@ console.log(array);
 
 ```js
 function search(array, element) {
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i] === element) {
       return i;
     }

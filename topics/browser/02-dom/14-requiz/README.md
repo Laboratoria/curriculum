@@ -78,7 +78,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
+### 5) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo
 
 #### Opciones
 

@@ -13,7 +13,7 @@ tales, los valores de estos _tipos_ van a tener una serie de _métodos_ y
 _propiedades_ asociados a ellos. Técnicamente heredan estos _métodos_ y
 _propiedades_ de un _prototipo_.
 
-En este curso no vamos a profundizar en el mecanismo de _herencia prototipal_ en
+En este curso no vamos a profundizar en el mecanismo de [_herencia prototipal_]() en
 JavaScript, pero sí necesitamos saber que todo arreglo en JavaScript es una
 _instancia_ del _constructor_ `Array`, y por tanto hereda todos los _métodos_ y
 _propiedades_ definidas en `Array.prototype`.

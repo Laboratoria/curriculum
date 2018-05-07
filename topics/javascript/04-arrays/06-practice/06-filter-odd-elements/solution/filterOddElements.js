@@ -1,9 +1,9 @@
 function filterOddElements(arr) {
-  var ret = [];
+  const ret = [];
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 !== 0) {
-      ret.push (arr[i]);
+      ret.push(arr[i]);
     }
   }
 

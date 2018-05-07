@@ -13,9 +13,9 @@
 
 ## Recordemos qué es un web API
 
-Ya hemos visto muchas veces que el acrónimo de API significa Application 
-Programming Interface (Interfaz de programación de aplicaciones) y que la 
-podemos encontrar en distintos lugares como el navegador, la computadora, la 
+Ya hemos visto muchas veces que el acrónimo de API significa Application
+Programming Interface (Interfaz de programación de aplicaciones) y que la
+podemos encontrar en distintos lugares como el navegador, la computadora, la
 web y demás. También hemos escuchado que nos da interoperabilidad entre diversos
 sistemas, en esta unidad nos enfocaremos no en la comunicación con un único
 dispositivo sino entre miles o millones de esto, ¿cómo?. A través de internet,

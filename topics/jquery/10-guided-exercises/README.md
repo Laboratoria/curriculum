@@ -44,9 +44,9 @@ Crea una agenda de contactos donde puedas agregar, eliminar, filtrar y contabili
 
 A través de un modal debes poder agregar:
 
-  - Nombre de contacto
-  - Número telefónico
-  - Email (opcional)
+- Nombre de contacto
+- Número telefónico
+- Email (opcional)
 
 ![agenda](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/modal-contactos.png)
 
