@@ -1,8 +1,8 @@
 # Introdução
 
 - Tipo: `leitura`
-- Formato: `self-paced`
-- Duração: `5min`
+- Formato: `individual`
+- Duração: `5 min`
 
 ***
 

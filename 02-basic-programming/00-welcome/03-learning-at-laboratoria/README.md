@@ -7,7 +7,8 @@
 ## Objetivos
 
 * Conhecer o plano de estudos do Bootcamp
-* Conhecer os princípios que guiam a aprendizagem na Laboratoria: a sala de aula ágil
+* Conhecer os princípios que guiam a aprendizagem na Laboratoria: a sala de
+  aula ágil
 * Conhecer o sistema de avaliação da Laboratoria
 * Continuar a conversa sobre _Growth Mindset_ \(mentalidade de crescimento\)
 * Conhecer algumas estratégias de aprendizagem
@@ -26,4 +27,3 @@
 ## Material
 
 * [Apresentação: como se aprende na Laboratoria \(regional\)](https://docs.google.com/presentation/d/1GRiVf3ZzyzNGgsk0Df6ZGQEojrtznOWriGGDSdyrMAI/edit#slide=id.g267e658cb7_0_719)
-
