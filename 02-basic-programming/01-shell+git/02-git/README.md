@@ -18,8 +18,8 @@
 
 O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes referências:
 
-* \[Pro Git book\]\([https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)\)
-* \[Getting Started with Git - Arun Sood\]\([https://github.com/wdi-sf-september-2014/notes/tree/master/git\_intro](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)\)
+* [Pro Git book](https://git-scm.com/book/en/v2)
+* [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
 
 ## O que é Git?
 
@@ -29,7 +29,7 @@ O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes r
 
 Um _Sistema de Controle de Versões_ \(VCS em inglês\) é um sistema que registra as alterações de um, dois ou mais arquivos o tempo todo para, caso necessário, recuperarmos uma versão facilmente. Por exemplo, se você alguma vez elaborou um projeto para uma tarefa qualquer, já fez algo como ilustrado na imagem abaixo?
 
-!\['versões'\][http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)\)
+![Versões](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
 
 Graças ao VCS, podemos fazer com que isso não ocorra, pois ele permite:
 
@@ -61,12 +61,7 @@ Vamos conhecer agora algumas palavras-chave que você certamente irá ouvir quan
 Mas o `GitHub` não serve apenas para guardar o nosso código. Ele também contribuirá para o desenvolvimento colaborativo do projeto fornecendo ferramentas como:
 
 * Um _sistema de acompanhamento de problemas_ que permite aos membros da equipe detalhar um problema ou sugerir alterações no projeto.
-* Uma _ferramenta de revisão código_, através da qual é possível adicionar
-
-  anotações em qualquer ponto do projeto e discutir sobre uma alteração em
-
-  específico.
-
+* Uma _ferramenta de revisão código_, através da qual é possível adicionar anotações em qualquer ponto do projeto e discutir sobre uma alteração em específico.
 * Um _visualizador de versões_ para comparar o progresso do projeto ao longo das diferentes versões.
 
 **Resumindo, poderíamos dizer que GitHub é como o Dropbox, mas para desenvolvedores.**
@@ -93,16 +88,8 @@ Para criar sua conta no GitHub, siga estes passos:
 
 1. Vá à [página oficial do GitHub](https://github.com)
 2. Uma vez na página, clique em **"Sign up"**
-3. Digite um nome de usuário \(**username**\) que pode ser um que você já tenha.
-
-   Por exemplo, se você já criou um _username_ para um jogo online, poderá usar ele mesmo. Há infinitas possibilidades para criar um novo, mas tenha em mente que seu _username_ será visível para o mundo todo e poderá ser solicitado quando alguém for incluí-la no time de colaboradores de um projeto. Portanto, tenha cuidado com sua escolha de _username_. Em seguida, digite seu e-mail, senha e clique em **"Create an account"**.
-
-4. Na próxima tela, certifique-se de marcar a opção **"Unlimited public**
-
-   **repositories for free"**, a versão "free" do GitHub. Em seguida, clique em
-
-   **"continue"**.
-
+3. Digite um nome de usuário \(**username**\) que pode ser um que você já tenha. Por exemplo, se você já criou um _username_ para um jogo online, poderá usar ele mesmo. Há infinitas possibilidades para criar um novo, mas tenha em mente que seu _username_ será visível para o mundo todo e poderá ser solicitado quando alguém for incluí-la no time de colaboradores de um projeto. Portanto, tenha cuidado com sua escolha de _username_. Em seguida, digite seu e-mail, senha e clique em **"Create an account"**.
+4. Na próxima tela, certifique-se de marcar a opção **"Unlimited public** **repositories for free"**, a versão "free" do GitHub. Em seguida, clique em **"continue"**.
 5. No terceiro passo do registro, você pode completar com seus dados e clicar em **"Submit"**, ou somente clicar em **"Skip this step"**.
 
 E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
@@ -115,7 +102,7 @@ Agora a Michelle, seguindo os passos acima, criará sua conta no GitHub.
 
 Siga os passos de Michelle para criar um repositório no GitHub:
 
-![Criando reposit&#xF3;rio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)
+![Criando repositório](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)
 
 Por último, temos a tela onde encontramos a _URL_ do nosso repositório remoto que, mais adiante, será vinculada ao nosso repositório local.
 
@@ -129,7 +116,7 @@ Quando terminar o download do nosso programa, começaremos a instalação com um
 
 1. Clique no botão "Run"
 
-   !\[Passo 1, instalação do Git\]\([http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)\)
+   ![Passo 1, instalação do Git](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
 
 2. Agora em "Next &gt;"
 
@@ -256,7 +243,9 @@ A seguir, você encontrará uma lista dos comandos mais comuns ao trabalhar com 
 
   Normalmente, a maioria dos desenvolvedores utilizam _origin_ \(origem\) como `nome-remoto` e `url` é o endereço do repositório no GitHub. Por exemplo, criei um repositório "teste" no GitHub há pouco tempo atrás e, para vincular meu repositório local a esse repositório remoto, eu devo executar a seguinte linha de comando:
 
-  `git remote add origin https://github.com/michellesegv/teste.git`
+  ```bash
+  git remote add origin https://github.com/michellesegv/teste.git
+  ```
 
 * `push`: Através do `push`, **enviaremos** nossa nova versão, confirmada pelo `commit`, ao nosso repositório remoto. O comando é o seguinte:
 
@@ -296,5 +285,5 @@ A seguir, temos uma lista de comandos do Git usados nesta aula:
 
 Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle de versões de seus projetos e colaborar com outras professoras da Laboratoria.
 
-![Subindo o repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)
+![Subindo o repositório](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)
 
