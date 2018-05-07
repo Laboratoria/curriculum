@@ -118,7 +118,7 @@ $('.carousel').carousel()
 Y listo ya tenemos nuestro carrusel.
 
 
-### Y si decidí usar otro framework...
+### Y si decidí usar otro framework?
 
 Pues no hay que temer, solo revisa la documentación del
 framework seleccionado y practica mucho, los pasos a seguir son

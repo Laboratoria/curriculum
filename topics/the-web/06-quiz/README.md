@@ -45,7 +45,7 @@
 
 1. El principal protocolo de la web
 2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
+3. La red de computadoras más grande del mundo
 4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
    en la web
 
@@ -57,7 +57,7 @@
 
 1. El principal protocolo de la web
 2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
+3. La red de computadoras más grande del mundo
 4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
    en la web
 
@@ -69,7 +69,7 @@
 
 1. El principal protocolo de la web
 2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
+3. La red de computadoras más grande del mundo
 4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
    en la web
 
@@ -81,7 +81,7 @@
 
 1. El principal protocolo de la web
 2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
+3. La red de computadoras más grande del mundo
 4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
    en la web
 

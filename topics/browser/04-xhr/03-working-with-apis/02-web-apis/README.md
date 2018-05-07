@@ -11,9 +11,9 @@
 - Conocer e identificar los distintos tipos de Web APIs con los que podemos
   trabajar
 
-## ¿Dónde puedo saber qué Web APIs públicas hay? 
+## ¿Dónde puedo saber qué Web APIs públicas hay?
 
-Ya que en esta unidad vamos a trabajar con Web APIs públicas, debemos de saber 
+Ya que en esta unidad vamos a trabajar con Web APIs públicas, debemos de saber
 dónde podemos ver cuáles existen. Para ello, te dejamos los siguientes recursos:
 
 - [Public-APIS](https://github.com/abhishekbanthia/Public-APIs)
@@ -24,14 +24,14 @@ dónde podemos ver cuáles existen. Para ello, te dejamos los siguientes recurso
 
 Para el objetivo de esta lectura, vamos a enfocarnos en un recurso que no hemos
 listado hace un momento: [Public APIs](https://github.com/toddmotto/public-apis).
-Este repositorio a diferencia de los demás, tiene una manera sintetizada de 
-mostrar la autenticación que requiere un API (los demás recursos también 
+Este repositorio a diferencia de los demás, tiene una manera sintetizada de
+mostrar la autenticación que requiere un API (los demás recursos también
 muestran este detalle pero no están a primera vista).
 
 ![Different Web APIs Auth](https://github.com/ivandevp/curricula-js/blob/378ca9e9ad8d178bf783ebbcea6383d9c44a783b/06-spa/03-working-with-apis/02-web-apis/web-apis.png?raw=true)
 
 En la imagen anterior, podemos visualizar el apartado de las APIs de Música, en
-la cual, la columna de `Auth` tiene valores distintos como: `NO`, `apiKey` u 
+la cual, la columna de `Auth` tiene valores distintos como: `NO`, `apiKey` u
 `OAuth`. Esto nos da un espacio a darles de cierta manera una clasificación a
 las Web APIs en base a su medio de autenticación. Así que veamos un poco de qué
 trata.
@@ -49,7 +49,7 @@ mostrando lo que puedes hacer con la API de [Lyrics.ovh](https://lyricsovh.docs.
 
 ### Web APIs con `apiKey`
 
-En estas APIs, su método de autenticación es a través de un `API Key` que 
+En estas APIs, su método de autenticación es a través de un `API Key` que
 acompaña a todas las peticiones que se realizan hacia algún endpoint (recurso).
 En la mayoría de casos, deberás registrarte para obtener este `apiKey`. Aquí
 te dejamos un ejemplo con Google Maps.
@@ -70,7 +70,7 @@ de cómo se haría la petición en este caso:
 
 OAuth es un protocolo de autorización que te permite obtener acceso limitado a
 aplicaciones de terceros para obtener datos y luego usar dichos datos para el
-registro o uso de un web service o API. Aquí dejamos un ejemplo para que veas 
+registro o uso de un web service o API. Aquí dejamos un ejemplo para que veas
 a qué nos referimos:
 
 <iframe height='760' scrolling='no' title='YeQwOe' src='//codepen.io/ivandevp/embed/YeQwOe/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/YeQwOe/'>YeQwOe</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
@@ -80,14 +80,14 @@ a qué nos referimos:
 usan un API Key como método de autenticación, para generar ese `key` que se puede
 ver en la URL del **GET Request**, se debe crear una aplicación en [Stack Apps](https://stackapps.com/)
 y para poder hacerlo, es necesario registrarse, al momento del registro ofrece
-una opción de realizarlo mediante Facebook. Cuando esto sucede, el usuario 
+una opción de realizarlo mediante Facebook. Cuando esto sucede, el usuario
 garantiza que StackExchange puede obtener ciertos datos de su cuenta de Facebook
 y estos datos son usados para crear la cuenta y configurar la app que se cree
-en Stack Apps. Ese proceso es lo que OAUth permite realizar de manera 
-estandarizada. 
+en Stack Apps. Ese proceso es lo que OAUth permite realizar de manera
+estandarizada.
 
-Otro ejemplo, si pruebas acceder al API de Spotify, tu te puedes conectar a él 
-mediante Facebook y obtener acceso a hacer búsquedas de canciones, artistas, 
+Otro ejemplo, si pruebas acceder al API de Spotify, tu te puedes conectar a él
+mediante Facebook y obtener acceso a hacer búsquedas de canciones, artistas,
 playlists y demás.
 
 ## Autenticación y Autorización
@@ -100,10 +100,10 @@ La autenticación es el proceso de verificar que eres el usuario que indicas ser
 Es decir, en un inicio de sesión, tu usuario y contraseña deben de coincidir con
 los datos que tiene almacenado el sistema, este es un ejemplo de autenticación.
 
-Mientas que la autorización, una vez comprobado que eres quien dices ser, 
+Mientas que la autorización, una vez comprobado que eres quien dices ser,
 verifica si tienes acceso o permisos al recurso solicitado.
 
-Aquí te dejamos un par de videos (lo sabemos, está en inglés pero Google 
+Aquí te dejamos un par de videos (lo sabemos, está en inglés pero Google
 Translate nos puede apoyar, no a la perfección pero seguro podrás entenderlo
 bajo el contexto adecuado).
 

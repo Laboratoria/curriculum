@@ -1,4 +1,4 @@
-# Opening: A jugar con Web APIs!
+# Opening: A jugar con Web APIs
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -8,9 +8,9 @@
 
 ## Objetivos de Aprendizaje
 
-En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el 
+En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el
 objetivo de experimentar la extracción de datos sin autenticación, con un token
-generado, enviando datos a través de cabeceras HTTP, identificar cuando son 
+generado, enviando datos a través de cabeceras HTTP, identificar cuando son
 RESTful y otros detalles que te darán superpoderes.
 
 ## Guía de preguntas y conceptos clave

@@ -30,15 +30,15 @@ Por ahora nos vamos a enfocar en los `frameworks CSS`, que son un conjunto de
 herramientas preprogramadas de **estilos** genéricos que podemos implementar para
 desarrollar nuestros sitios de una manera más sencilla, rápida y responsive.
 
-#### ¿Por qué usamos frameworks?  
+#### ¿Por qué usamos frameworks?
 
 Porque a veces hacer estructuras con CSS puede  ser algo complicado y toma
-mucho tiempo trabajar sus estilos,los frameworks aparecen allí para 
+mucho tiempo trabajar sus estilos,los frameworks aparecen allí para
 acortar un poco el tiempo y esfuerzo de creación, después de todo
 _¿Por qué reinventar la rueda, si puedes diseñar un mejor auto?_
 
 Eso no significa que son un sustituto para entender CSS o que ya no
-ocuparemos CSS en nuestros proyectos, al contrario, ¡nos sobrará más 
+ocuparemos CSS en nuestros proyectos, al contrario, ¡nos sobrará más
 tiempo para tener diseños y estilos increíbles y totalmente personalizados
 y conocer mucho mejor CSS!
 
@@ -61,7 +61,7 @@ CSS son:
 - Manipular correctamente los textos, logrando así que todos los contenidos se
 vean exactamente igual en los distintos navegadores y que se adapten a éstos.
 
-- Crear layouts de manera sencilla asegurándonos que funcionará y visualizará 
+- Crear layouts de manera sencilla asegurándonos que funcionará y visualizará
 correctamente en cualquier versión de cualquier navegador existente.
 
 ![componentes de frameworks](https://lh3.googleusercontent.com/-VklSSe3lPpE/WXeOFf__wqI/AAAAAAAAGbI/RnPVJQHJbDoc-NHkJYSGzE-jBtYXMjL2QCLcBGAs/s620/bootstrap-02.png)
@@ -77,8 +77,7 @@ Algunos de los frameworks más conocidos son:
 - Foundation   https://foundation.zurb.com/
 - Material Lite  https://getmdl.io/index.html
 
-> 
+>
 Lee la documentación de estos frameworks y practica los componentes que
 prefieras,así te volverás una master en frameworks CSS y crearás increíbles
 productos en poco tiempo.
-

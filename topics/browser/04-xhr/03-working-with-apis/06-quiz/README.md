@@ -24,7 +24,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Indica la opción donde solo encuentres API'S del navegador.
+### 2) Indica la opción donde solo encuentres API'S del navegador
 
 #### Opciones
 
@@ -53,7 +53,7 @@
 1. Públicas o sin autenticación, ApiKey, OAuth y Token.
 2. Rest, Crud, Públicas.
 3. Publicas y privadas.
-4. Publicas, privadas y con Token. 
+4. Publicas, privadas y con Token.
 
 <solution style="display:none;">1</solution>
 
@@ -91,7 +91,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 8) CRUD es el acrónimo de "Crear, Leer, Actualizar y Eliminar" palabras que corresponden a :
+### 8) CRUD es el acrónimo de "Crear, Leer, Actualizar y Eliminar" palabras que corresponden a
 
 #### Opciones
 

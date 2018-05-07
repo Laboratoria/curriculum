@@ -36,7 +36,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 3) jQuery se basa en:
+### 3) jQuery se basa en
 
 #### Opciones
 
@@ -96,7 +96,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Forma correcta de agregar un evento en jQuery:
+### 9) Forma correcta de agregar un evento en jQuery
 
 #### Opciones
 

@@ -23,7 +23,7 @@ entendamos al 100%, ya que sólo leyendo se nos puede dificultar un poco pero a
 la hora que lo pongamos en práctica nos ayudará a entender diferentes
 comportamientos de nuestros eventos.
 
-```javascript
+```js
 $('selector').evento(function() {
   // Instrucciones que serán ejecutadas al momento de ocurrir el evento
 });
@@ -33,11 +33,12 @@ En el ejemplo anterior vemos que estamos seleccionando a todos los párrafos que
 podamos tener en nuestro HTML, enseguida le asignamos el evento que vamos a
 usar y por ultimo la serie de instrucciones que deben ocurrir.
 
-```javascript
+```js
 $('p').click(function() {
     console.log('click');
 });
 ```
+
 > En el siguiente [link](https://codepen.io/Si7v4n4/pen/OzQdzJ?editors=1010#0)
 podemos ver un ejemplo en donde utilizamos lo ya antes visto (selectores, dom,
 eventos, etc.).

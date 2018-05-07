@@ -26,7 +26,7 @@ y que con la respuesta podamos ocupar sus noticias.
   (Nuestro HTML tiene una estructura sencilla pero tú puedes darle el estilo
   que prefieras)
 
-  ![index](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/index-inicial.png)  
+  ![index](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/index-inicial.png)
 
   Así es como se ve en el navegador:
 
