@@ -6,7 +6,7 @@
 
 ## Objetivos
 
-* Conhecer a equipe que está por trás da Laboratoria na sua sede
+* Conhecer a equipe que está por trás da sua sede da Laboratoria
 * Conhecer suas colegas de classe
 
 ## Agenda
