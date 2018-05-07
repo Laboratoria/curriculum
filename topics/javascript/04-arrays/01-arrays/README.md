@@ -45,10 +45,10 @@ números: `2, 3, 5, 7 y 11`.
 Una opción para representar esto sería:
 
 ```js
-var firstNumber = 2;
-var secondNumber = 3;
-var thirdNumber = 5;
-var fourthNumber = 7;
+const firstNumber = 2;
+const secondNumber = 3;
+const thirdNumber = 5;
+const fourthNumber = 7;
 ```
 
 Esta lista es bien extraña y engorrosa. Implica tener una variable para cada
@@ -62,7 +62,7 @@ en ellos. Podríamos usar un `string` con los números intercalados por un
 espacio, así:
 
 ```js
-var listOfNumbers = '2 3 5 7 11';
+const listOfNumbers = '2 3 5 7 11';
 ```
 
 Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de
@@ -75,7 +75,7 @@ secuencias de valores. Se llama `array` (arreglo en español) y se escribe como 
 lista de valores entre corchetes, separados por comas.
 
 ```js
-var listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
 Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como
@@ -91,7 +91,7 @@ Para obtener un elemento dentro de un `array`, se utiliza la notación con corch
 con el _index_ (índice en español) del elemento que se desea. Veamos un ejemplo:
 
 ```js
-var listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 
 console.log(listOfNumbers[1]);
 // → 3
@@ -106,10 +106,10 @@ en el `index 2`, y así sucesivamente. Es por eso que pedir index `1 - 1`
 (es decir, 0) del array anterior devuelve el número `2`.
 
 ```js
-                     INDEX
-                     0  1  2  3  4
-                     |  |  |  |  |
-var listOfNumbers = [2, 3, 5, 7, 11];
+                       INDEX
+                       0  1  2  3  4
+                       |  |  |  |  |
+const listOfNumbers = [2, 3, 5, 7, 11];
 
 ```
 
@@ -126,7 +126,7 @@ array `listOfNumbers` por el número 1, podríamos hacer lo siguiente:
 
 ```js
 
-var listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[0] = 1;
 
 console.log(listOfNumbers);
@@ -140,7 +140,7 @@ haríamos lo siguiente:
 
 ```js
 
-var listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[5] = 13;
 
 console.log(listOfNumbers);
@@ -152,7 +152,7 @@ De hecho, podemos crear un `array` vacío y luego definir cada elemento de forma
 individual, así:
 
 ```js
-var listOfNumbers = [];
+const listOfNumbers = [];
 
 listOfNumbers[0] = 2;
 listOfNumbers[1] = 3;
@@ -175,7 +175,7 @@ un `string` ("dinosaurios") y otro `number` (el número 3627.5):
 
 ```js
 
-var mixedArray = [3, 'hola mundo', 3627.5];
+const mixedArray = [3, 'hola mundo', 3627.5];
 console.log(mixedArray[0]);
 // → 3
 console.log(mixedArray[1]);
@@ -190,7 +190,7 @@ y respuestas de un quiz, podemos utilizar un `array` en el que cada elemento es,
 a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 ```js
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -204,7 +204,7 @@ un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtene
 la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
 
 ```js
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],

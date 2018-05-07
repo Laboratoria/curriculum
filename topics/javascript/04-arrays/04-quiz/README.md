@@ -39,7 +39,7 @@
 ### 3) En el siguiente código
 
 ```js
-var listOfNumbers = [2, 3, 4, 5, 6];
+const listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
 ¿Qué resultado obtengo al realizar `console.log(listOfNumbers[3])` ?
@@ -57,7 +57,7 @@ var listOfNumbers = [2, 3, 4, 5, 6];
 ### 4) En el siguiente código
 
 ```js
-var listOfNumbers = [2, 3, 4, 5, 6];
+const listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
 Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
@@ -75,7 +75,7 @@ Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
 ### 5) En el siguiente código
 
 ```js
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -106,7 +106,7 @@ var questions = [
 ### 7) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var coders = ['michelle', 'lourdes', 'ruth'];
+const coders = ['michelle', 'lourdes', 'ruth'];
 
 coders.push('alejandra');
 ```
@@ -123,8 +123,8 @@ coders.push('alejandra');
 ### 8) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var coders = ['michelle', 'lourdes', 'ruth'];
-var removed = coders.shift();
+const coders = ['michelle', 'lourdes', 'ruth'];
+const removed = coders.shift();
 
 console.log('Elemento eliminado: ' + removed);
 ```
@@ -141,7 +141,7 @@ console.log('Elemento eliminado: ' + removed);
 ### 9) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.unshift('JS master', 'English for Developers');
 
 console.log(courses.length);
@@ -159,8 +159,8 @@ console.log(courses.length);
 ### 10) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var listOfNumbers = [];
-for (var i = 0; i <= 5; i++) {
+const listOfNumbers = [];
+for (let i = 0; i <= 5; i++) {
   listOfNumbers.push(i);
 }
 listOfNumbers.pop();
@@ -180,11 +180,11 @@ console.log(listOfNumbers.length);
 ### 11) En el siguiente código, completa el espacio
 
 ```js
-var course1 = 'Intro JS, ' ;
-var course2 = 'Intro UX, ';
-var course3 = 'UX master.';
+const course1 = 'Intro JS, ' ;
+const course2 = 'Intro UX, ';
+const course3 = 'UX master.';
 
-var allCourses = ___________(course2, course3);
+const allCourses = ___________(course2, course3);
 
 console.log(allCourses);
 // → Intro JS, Intro UX, UX master.
@@ -202,7 +202,7 @@ console.log(allCourses);
 ### 12) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.pop();
 courses.push('English for Developers');
 
@@ -221,7 +221,7 @@ courses.indexOf('English for Developers');
 ### 13) En el siguiente código, ¿qué método debo usar para obtener el resultado solicitado?
 
 ```js
-var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.___________;
 
 // → 'Intro JS,Intro UX,UX master,JS master'
@@ -240,7 +240,7 @@ courses.___________;
 ### 14) En el siguiente código, ¿cuál sería el resultado?
 
 ```js
-var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
+const coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
 if (coders.length < 3) {
   coders.push('alejandra');
   coders.slice(1,2);
@@ -262,7 +262,7 @@ if (coders.length < 3) {
 ### 15) ¿Cuál sería el resultado en el siguiente código?
 
 ```js
-var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
+const listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
 listOfNumbers.lastIndexOf(12);
 ```
 
@@ -278,10 +278,10 @@ listOfNumbers.lastIndexOf(12);
 ### 16) En el siguiente código, completa los espacios para que se invierta el orden de los elementos del `array`
 
 ```js
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (var i = 0; i < array.length; i++) {
-  var item = array._________();
+for (let i = 0; i < array.length; i++) {
+  const item = array._________();
   array._________(i, 0, item);
 }
 
@@ -302,7 +302,7 @@ console.log(array);
 
 ```js
 function search(array, element) {
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (_________ === _________) {
       return i;
     }

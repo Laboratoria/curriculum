@@ -3,10 +3,10 @@ function findShortestWordAmongMixedElements(arr) {
     return '';
   }
 
-  var min = 10000;
-  var index = -1;
+  let min = 10000;
+  let index = -1;
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] === 'string') {
       if (arr[i].length < min) {
         min = arr[i];
