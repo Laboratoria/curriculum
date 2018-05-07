@@ -1,65 +1,65 @@
-# Línea de comandos
+# Linha de comando
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato:` auto-paced`
+- Duração:`60min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade, aprenderemos:
 
-- ¿Qué es la `línea de comandos`?
-- Entender la finalidad de la `línea de comandos`
-- Aprender a navegar por nuestro `directorio`
-- Crear archivos o carpetas desde la terminal
+- O que é a **linha de comandos**
+- A finalidade da linha de comandos
+- Como navegar pelo nosso **diretório**
+- Criação de arquivos ou pastas a partir do terminal
 
-## La línea de comandos
+## A linha de comandos
 
-La línea de comandos es también conocida como
+A linha de comandos também é conhecida como:
 
 - Terminal
-- Consola
-- Command Prompt
-- Símbolo de Sistema
+- Console
+- Prompt de comando
+- CLI
 - cmd
 - Git Bash, etc.
 
-Una de las herramientas que más nos acompañará en nuestro camino del código
-será la `línea de comandos`. En esta lección conoceremos y aprenderemos cómo
-usar esa famosa pantalla negra que los "hackers" usan; pero tranquila, no
-vamos a "hackear" nada, ni haremos nada ilegal :)
+Uma das ferramentas que mais nos acompanhará em nossa jornada pelo código é a
+_linha de comandos_. Nesta aula, vamos conhecer e aprender como usar essa
+famosa tela preta que os "hackers" usam; mas calma, não vamos "hackear" nada,
+nem faremos qualquer coisa ilegal :)
 
-Puede parecer un poco aterrador al principio pero solo es una pantalla que
-espera a que le des órdenes.
+Pode parecer um pouco assustador no começo, mas é apenas uma tela esperando
+pelas suas ordens.
 
-## ¿Para qué sirve la línea de comandos?
+## Para que serve a linha de comandos?
 
-La `línea de comandos` es una aplicación que nos permite ver, manejar y
-manipular archivos de nuestra computadora por medio de `comandos`. Es como el
-Explorador de Windows o Finder en Mac, pero sin la "interfaz".
+A linha de comandos é uma aplicação que nos permite visualizar, gerenciar e
+manipular arquivos de nosso computador através de _comandos_. É como o
+Windows Explorer ou Finder do Mac, mas sem a interface gráfica.
 
-Por lo tanto, nos da un control que es rápido y automatizado de las
-computadoras.
+Dessa forma, a linha de comandos nos dá um controle rápido e automatizado dos
+computadores.
 
-## Accediendo a la línea de comandos
+## Acessando a linha de comando
 
 ### Windows
 
-Presionamos la tecla "windows" + r:
+Pressione as teclas "Windows" + r:
 
 ![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
 
-Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
-escribiremos **cmd.exe**
+Uma pequena tela aparecerá na parte inferior esquerda. Nela, escreveremos
+`cmd.exe`.
 
-![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
+![executar](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
 
-Hacemos clic en el botón **OK** y estaremos abriendo nuestra terminal. Al abrir
-la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:
+Ao clicar no botão "OK", abriremos nosso terminal. Ao abrir a aplicação,
+aparecerá uma nova janela aparecer com um fundo preto e letras como abaixo:
 
-![línea de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
+![linha de comando](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
 
 ### Mac OS X
 
@@ -67,33 +67,32 @@ Launchpad → Terminal
 
 ### Linux
 
-Actividades → Terminal
+Atividades → Terminal (pode variar conforme sua distribuição e configuração)
 
 ## Prompt
 
-Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
+Agora temos uma tela preta que está esperando por nossas ordens.
 
-- Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
-  con el símbolo `>`
+- Se estiver no **Windows**, a primeira linha deve terminar com o símbolo `>`:
 
   ```text
-   C: \Users\Michelle >
+  C: \Users\Michelle >
   ```
 
-  Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
-  aparecer tu nombre de usuario.
+  Se não aparecer `Michelle`, não se preocupe, está tudo certo: aqui deve
+  aparecer o seu nome de usuário.
 
-- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
-  símbolo `$`
+- No **Linux**, a primeira linha terminará com o símbolo `$`:
 
   ```text
   [Laboratoria@Michelle ~] $
   ```
 
-  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
+  No seu computador, "Laboratoria" e "Michelle" serão substituídos pelos seus
+  dados.
 
-- Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
-  computadora y terminará con el símbolo `$`
+- Se você tem um **Mac**, a primeira linha será composta pelos dados do seu
+  computador terminando com o símbolo `$`:
 
   ```text
   Laboratoria-MacBook-Air:~ Michelle$
@@ -101,137 +100,137 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
 ## Comandos
 
-Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra".
-Te dejaré una lista de comandos que puedes ejecutar dentro de ella.
+Vejamos que coisas incríveis podemos fazer dentro da famosa "tela preta".
+Ao final da aula, deixarei uma lista de comandos que você pode executar dentro
+dela.
 
-### ¿Cómo ejecutamos un comando?
+### Como executar um comando?
 
-1. Debemos de escribir el comando
-2. Presionando la tecla **enter** estaremos ejecutando el comando
+1. Devemos escrever o comando
+2. Após pressionar a tecla _enter_, o comando será executado
 
-### Navegando en nuestro directorio
+### Navegando em nosso diretório
 
-El comando `cd` nos ayudará a navegar por nuestros **directorios** (también
-llamados **carpetas**) y entre nuestros archivos. Con él, podremos acceder a
-otra carpeta o volver a una carpeta anterior.
+O comando `cd` vai nos ajudar a navegar pelos nossos **diretórios** (também
+chamados de **pastas**) e arquivos. Com ele, poderemos acessar outra pasta ou
+voltar a um diretório anterior.
 
-Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
-recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
-**baño**?
+Por exemplo, suponha que o terminal é nossa "casa" e nós queiramos percorrê-la.
+Agora estou no meu quarto, mas e se eu quiser ir ao _banheiro_?
 
-![Plano](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
+![Planta](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
 
-Estoy en mi cuarto (n° 3) y si quiero ir al baño, primero, debo de entrar al
-clóset (n° 2) y luego entrar al baño (n°1). No puedo llegar al baño sin pasar
-por el clóset.
-Algo similar pasa en la navegación por las carpetas vía terminal, supongamos
-que me encuentro en mi **ciber casa** (mi equipo) y quiero ir de mi **ciber
-cuarto** (disco local C) a mi "ciber baño" (carpeta "Saved Pictures"),
-primero debería de entrar al "ciber-clóset" (carpeta "Pictures") y luego
-entramos a la carpeta buscada.
+Se estou no meu quarto (nº 3) e desejo ir ao banheiro, primeiro devo entrar no
+closet (nº 2) e em seguida, no banheiro (nº 1). Não posso chegar ao banheiro
+sem passar pelo closet.
 
-Ahora navegemos nosotras en muestra terminal.
+Algo semelhante acontece na navegação por pastas através do terminal.
+Suponhamos que eu esteja em minha _cibercasa_ (meu computador) e deseje ir do
+meu _ciberquarto_ (disco local "C") ao meu _ciberbanheiro_ (pasta "Saved
+Pictures"). Então, eu devo primeiro entrar no _cibercloset_ (pasta "Pictures")
+e, em seguida, entrar na pasta desejada.
 
-#### Obteniendo nuestra ubicación
+Naveguemos agora em nosso terminal.
 
-Primero vamos a saber en qué parte de nuestra "ciber casa" nos encontramos.
-Saber en qué parte de nuestro directio nos encontramos es muy importante,
-sobretodo en el caso de que queramos crear una nueva carpeta, un archivo, o
-simplemente saber en qué parte de nuestro equipo nos encontramos.
+#### Obtendo nosso local
 
-### Windows
+Primeiro, vamos saber em que parte da nossa cibercasa estamos.  Saber em que
+parte do nosso diretório nos encontramos é muito importante, especialmente se
+quisermos criar uma nova pasta, um arquivo, ou simplesmente saber em que parte
+do computador nos encontramos.
 
-Al ejecutar el comando `cd` se nos mostrará la ruta en la que estamos.
+##### Windows
+
+Ao executar o comando `cd`, o caminho onde estamos será exibido.
 
 ```text
 > cd
   C:\Users\Michelle
 ```
 
-### Mac OS X y Linux
+##### Mac OS X e Linux
 
-Al ejecutar el comando `pwd` se nos mostrará la ruta en la que estamos.
+Ao executar o comando `pwd`, o caminho onde estamos será exibido.
 
 ```text
 $ pwd
-  /home/Michelle
+/home/Michelle
 ```
 
 #### Navegando
 
-Si escribimos `cd` y luego indicamos el nombre de una carpeta que exista en
-nuestro directorio, al ejecutarlo, estaremos ingresando dentro de ella.
+Se escrevemos `cd` e, em seguida, indicamos o nome de uma pasta existente em
+nosso diretório, estaremos entrando nela ao executá-lo.
 
-### Windows, Mac OS X y Linux
+##### Windows, Mac OS X e Linux
 
-```text
-cd nombre-carpeta
+```
+cd nome-pasta
 ```
 
-Por ejemplo, si queremos ingresar a la carpeta "Pictures" debemos ejecutar:
+Por exemplo, se quisermos entrar na pasta "Pictures" devemos executar:
 
 ```text
 cd Pictures
 ```
 
-Si ahora vemos cuál es nuestra ubicación, nos saldrá que nos encontramos en la
-carpeta "Pictures"
+Se verificarmos agora a nossa localização, a saída dirá que estamos na pasta
+"Pictures":
 
-### Windows
+##### Windows
 
 ```text
 > cd
   C:\Users\Michelle\Pictures
 ```
 
-### Mac OS X y Linux
+##### MAC OS X e Linux
 
 ```text
 $ pwd
-  /home/Michelle/Pictures
+/home/Michelle/Pictures
 ```
 
-Ahora ya sabemos cómo podemos ingresar en la carpeta que queramos, pero ¿Qué
-pasa si queremos **salir** de la carpeta en la que nos encontramos? Para
-estos casos existe `cd ..`.
+Agora já sabemos como entrar na pasta que quisermos, mas o que fazer para
+_sair_ da pasta em que estamos? Para este caso existe `cd ..`.
 
-Si ponemos dos puntos (`..`) después de `cd`, estaremos saliendo de la carpeta
-en donde nos encontramos y volveremos una hacia atrás.
+Se colocarmos dois pontos (`..`) depois de `cd`, sairemos da pasta onde estamos
+e voltaremos uma pra trás.
 
 ```text
 cd ..
 ```
 
-Si ahora vemos cuál es nuestra ubicación.
+Ao ver nosso local atual:
 
-### Windows
+##### Windows
 
 ```text
 > cd
   C:\Users\Michelle
 ```
 
-### Mac OS X y Linux
+##### Mac OS X e Linux
 
 ```text
 $ pwd
-  /home/Michelle
+/home/Michelle
 ```
 
-Ya no estaremos dentro de la carpeta "Pictures".
+Já não estamos dentro da pasta "Pictures".
 
-### Listar los archivos y directorios
+### Listando arquivos e diretórios
 
-### Windows: `dir`
+#### Windows: `dir`
 
-Muestra una lista de archivos y subcarpetas que se encuentran en donde hayamos
-ejecutado el comando.
+Exibe uma lista de arquivos e subpastas encontradas no local  onde executamos o
+comando.
 
-Por ejemplo, si ejecuto el comando `dir` en "C:\Users\Michelle" me
-aparecerá la lista de los archivos o carpetas que se encuentran en ese
-directorio. Esta lista estará conformada por una primera columna en donde
-estará su fecha de modificación, luego nos dirá si es un directorio o
-no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
+Por exemplo, se executo o comando `dir` em "C:\Users\Michelle", vejo a lista
+de arquivos ou pastas que se encontram nesse diretório. Esta lista será
+formada por uma primeira coluna contendo a data de modificação e a segunda nos
+dizendo se é um diretório ou não (`<DIR>`). Na última coluna, haverá o nome do
+arquivo ou pasta.
 
 ```text
 > dir
@@ -253,104 +252,99 @@ no (`<DIR>`) y por último estará en nombre del archivo o carpeta.
   30/06/2017  08:29 p. m.    <DIR>          Saved Games
   30/06/2017  08:32 p. m.    <DIR>          Searches
   30/06/2017  08:29 p. m.    <DIR>          Videos
-              2 File(s)            315 bytes
+              2 File(s)             315 bytes
              15 Dir(s)  223,511,490,560 bytes free
 ```
 
-### Mac OS X y Linux : `ls`
+#### Mac OS X e Linux: `ls`
 
-Al ejecutar `ls` se nos mostrarán los nombres de las carpetas y los archivos
-que existan en el directorio que nos encontremos.
+Ao executarmos `ls`, serão exibidos os nomes de pastas e arquivos que existem
+no diretório em que nos encontramos.
 
 ```text
 $ ls
-  Desktop  Documents  Downloads  Music  Pictures
-  Public    Templates  Videos
+Desktop  Documents  Downloads  Music  Pictures
+Public   Templates  Videos
 ```
 
-### Creando directorios
+### Criando diretórios
 
-Ahora veamos un comando que nos permitirá crear un nuevo directorio (carpeta).
-Para este comando es muy importante en qué parte del directorio nos encontramos
-porque en la ubicación en la que lo ejecutemos es donde se creará la nueva
-carpeta.
+Agora, vejamos o comando que nos permitirá criar um novo diretório (pasta).
+Para este comando, é muito importante saber em que parte do diretório estamos,
+pois é no local onde o executamos que a nova pasta será criada.
 
-### Windows, Mac OS X y Linux
+#### Windows, Mac OS X e Linux
 
 ```text
-mkdir nombre-carpeta
+mkdir nome-pasta
 ```
 
-Si ejecutamos el comando `mkdir` estaremos creando un nuevo directorio,
-entonces después de la palabra `mkdir` debemos especificar el nombre de la
-nueva carpeta. Por ejemplo, si quiero crear la carpeta "js" desde la terminal,
-el comando sería así:
+Ao executarmos o comando `mkdir`, criaremos um novo diretório. Após a palavra
+`mkdir`, deve-se especificar o nome da nova pasta. Por exemplo, se você quiser
+criar a pasta "js" pelo terminal, o comando fica assim:
 
 ```text
 mkdir js
 ```
 
-### Creando archivos
+### Criando arquivos
 
-Hasta ahora hemos creado nuestros archivos desde nuestro editor de texto o
-nuestro gestionador de archivos, pero ahora que conocemos a la **terminal**
-podemos crear nuestros archivos desde ella.
-Al ejecutar este comando es muy importante en qué parte de nuestro equipo nos
-encontramos, porque en la ubicación en la que lo ejecutemos es en donde se
-creará el nuevo archivo.
+Até então, criávamos nossos arquivos pelo editor de texto ou gerenciador de
+arquivos. Mas, agora que conhecemos o terminal, podemos criá-los a partir dele.
+Quando executamos este comando, é muito importante o local do computador em
+que estamos, pois é lá que o arquivo será criado.
 
-### Windows: `echo`
+#### Windows: `echo`
 
-Con `echo` estaremos creando un nuevo archivo. Su estructura es así:
+Com o `echo` criamos um novo arquivo. Sua estrutura é assim:
 
 1. Comando: `echo`
-2. Texto con el que se creará: `texto`
+2. Texto com o qual será criado: `texto`
 3. Símbolo `>`
-4. Por último, indicaremos el nombre del archivo con su respectiva extensión
-  `nombre-archivo.extensión`
+4. Por último, indicamos o nome do arquivo com sua respectiva extensão:
+  `nome-arquivo.extensão`
 
-Entonces nuestro comando sería así:
-
-```text
-> echo texto > nombre-archivo.extensión
-```
-
-Por ejemplo, si queremos crear un archivo de texto que tenga el mensaje
-"hola" el comando sería este:
+Por acima, nosso comando seria:
 
 ```text
-> echo hola > saludo.txt
+> echo texto > nome-arquivo.extensão
 ```
 
-Ahora, si queremos crear un archivo html vacío el comando sería el
-siguiente:
+Por exemplo, para criar um arquivo de texto que tenha a mensagem "olá", o
+comando seria o seguinte:
+
+```text
+> echo olá > saudação.txt
+```
+
+Agora, se quisermos criar um arquivo HTML vazio, o comando seria:
 
 ```text
 > echo > index.html
 ```
 
-### Mac OS X y Linux
+#### Mac OS X e Linux
 
-Si ejecutamos `touch` seguido del nombre del nuevo archivo con su respectiva
-extensión, estaremos creando un nuevo archivo.
+Se executarmos `touch` seguido do nome do novo arquivo com sua respectiva
+extensão, ele será criado.
 
 ```text
-touch nombre-archivo.extensión
+touch nome-arquivo.extensão
 ```
 
-Por ejemplo, si queremos crear un archivo HTML el comando sería:
+Por exemplo, se quisermos criar um arquivo HTML, o comando seria:
 
 ```text
 touch index.html
 ```
 
-## Detalle de comandos
+## Material complementar
 
-A continuación veremos una lista de los comandos usados en esta lección:
+Segue uma lista dos comandos utilizados nesta aula:
 
 ![comandos-cli](https://fotos.subefotos.com/e6a2257e5c80534c28d721c34390b20bo.png)
 
-Ahora veamos cómo Michelle navega entre sus archivos o directorios, crea
-carpetas y archivos desde la terminal.
+Agora vejamos como Michelle navega entre seus arquivos ou diretórios e cria
+pastas e arquivos a partir do terminal.
 
-[![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)
+[![Linha de comandos](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)

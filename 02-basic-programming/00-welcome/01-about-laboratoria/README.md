@@ -1,25 +1,24 @@
-# Sobre Laboratoria
+# 01 - Sobre a Laboratoria
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `40min`
-
-***
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `40 min`
 
 ## Objetivos
 
-- Conocer al equipo que está detrás de Laboratoria en tu sede
-- Conocer a tus compañeras de promoción
+* Conhecer a equipe que está por trás da sua sede da Laboratoria
+* Conhecer suas colegas de classe
 
 ## Agenda
 
-1. Presentación del team Laboratoria en tu sede
-2. Presentaciones personales de todas las alumnas
-3. Normas de convivencia
+1. Apresentação do time da Laboratoria de sua sede
+2. Apresentações pessoais de todas as alunas
+3. Normas de convivência
 
 ## Material
 
-- [Presentación primer día de clases - Lima](https://docs.google.com/presentation/d/1ap1wnPhHYHzyHIq2R64NyOGVzSwhVKxGBiHTCI7sU8E/edit#slide=id.g25358e699e_0_0)
-- [Presentación primer día de clases - Santiago de Chile](https://docs.google.com/presentation/d/1T9M6C37B4qHBhmwpOYa2XzvXY7aGlPnHDuYU2yx1HVA/edit#slide=id.g2691fab262_0_75)
-- [Presentación primer día de clases - CDMX](https://docs.google.com/presentation/d/1765Gjxz9PGziALsqRsXMT949y0fi2zf3bn48b9qR0-Q/edit#slide=id.g2620c69699_0_178)
-- [Presentación primer día de clases - Guadalajara](https://docs.google.com/presentation/d/1aA88IDyWVf5isqkkjQETBJVn6nbW_84BB6iyGhrzfuU/edit?usp=sharing)
+* [Apresentação do primeiro dia de aula - Lima](https://docs.google.com/presentation/d/1ap1wnPhHYHzyHIq2R64NyOGVzSwhVKxGBiHTCI7sU8E/edit#slide=id.g25358e699e_0_0)
+* [Apresentação do primeiro dia de aula - Santiago do Chile](https://docs.google.com/presentation/d/1T9M6C37B4qHBhmwpOYa2XzvXY7aGlPnHDuYU2yx1HVA/edit#slide=id.g2691fab262_0_75)
+* [Apresentação do primeiro dia de aula - CDMX](https://docs.google.com/presentation/d/1765Gjxz9PGziALsqRsXMT949y0fi2zf3bn48b9qR0-Q/edit#slide=id.g2620c69699_0_178)
+* [Apresentação do primeiro dia de aula - Guadalajara](https://docs.google.com/presentation/d/1aA88IDyWVf5isqkkjQETBJVn6nbW_84BB6iyGhrzfuU/edit?usp=sharing)
+

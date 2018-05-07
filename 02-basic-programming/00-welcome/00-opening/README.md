@@ -1,34 +1,32 @@
-# Bienvenida a Laboratoria
+# 00 - Introdução
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10 min`
 
-***
+## Objetivos de Aprendizagem
 
-## Objetivos de Aprendizaje
+Nesta unidade, aprenderemos:
 
-En esta unidad aprenderemos:
+* Sobre a Laboratoria e sua equipe
+* A experiência de aprendizagem em uma sala de aula ágil pelo _Sprint Demo_
+* Como se aprende na Laboratoria
+* Como será o primeiro _sprint_ de aulas
 
-- Sobre Laboratoria y su equipo
-- La experiencia de aprendizaje del salón de clases ágil con el `Sprint Demo`
-- Cómo se aprende en Laboratoria
-- Cómo será el primer sprint de clases
+## Por quê?
 
-## ¿Por qué?
+Antes de começar com as aulas, é importante que nos conheçamos bem. Para isso, nesta unidade, você:
 
-Antes de empezar con las clases es importante que nos conozcamos bien. Al
-finalizar esta unidad:
+1. Conhecerá a equipe Laboratoria - o maravilhoso grupo de pessoas que te apoiará nesta nova aventura e etapa da sua vida, e também suas novas
 
-1. Conocerás a todo el equipo de Laboratoria - el maravilloso grupo de personas
-   que te apoyarán en esta nueva aventura y etapa de tu vida, y también a tus
-   nuevas compañeras de promoción!!!
-2. Aprenderás sobre la filosofía de aprendizaje que tenemos en
-   Laboratoria - lo que nosotros llamamos el salón de clases ágil. El modelo
-   educativo de Laboratoria es radicalmente distinto al tradicional. Con el
-   `Sprint Demo` vivirás la experiencia de aprender en Laboratoria y
-   aclararemos expectativas para que puedas arrancar con bien pie :)
-3. Te explicaremos detalladamente cómo es cada parte de nuestro sistema de
-   enseñanza-aprendizaje
-4. Conocerás cómo serán las primeras semanas de clases en Laboratoria con
-   el Sprint 1 Kick-off
+   colegas de classe!!!
+
+2. Aprenderá sobre a filosofia de aprendizagem que temos na Laboratoria - o que chamamos de sala de aula ágil. O modelo educativo da Laboratória é
+
+   radicalmente diferente do tradicional. Através do _Sprint Demo_, você viverá
+
+   a experiência de aprender na Laboratoria e deixaremos claras as expectativas para que você possa começar com o pé direito :\).
+
+3. Explicaremos detalhadamente como é cada parte do nosso sistema de ensino-aprendizagem.
+4. Você saberá como serão as primeiras semanas de aula na Laboratoria com o _kick-off do Sprint 1_.
+

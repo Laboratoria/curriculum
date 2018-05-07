@@ -8,37 +8,37 @@
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e fazer
+uma auto-avaliação. É uma oportunidade para verificar que realmente está
+aprendendo. Boa sorte!
 
 ***
 
 ## Preguntas
 
-### 1) `Git` es un \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+### 1) `Git` é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 #### Opciones
 
-1. Sistema de código en línea
-2. Sistema que controla a `Github`
-3. Sistema de control de versiones
-4. Sistema para mantener nuestras cuentas
+1. Sistema de código online
+2. Sistema que controla o `GitHub`
+3. Sistema de controle de versões
+4. Sistema para manter nossas contas
 
 <solution style="display:none;">3</solution>
 
-### 2) De los siguientes enunciados, ¿cuál **NO** pertenece a `Github`?
+### 2) Dos enunciados a seguir, qual NÃO se relaciona com `GitHub`?
 
-#### Opciones
+#### Opções
 
-1. Una red donde podemos mantener nuestras cuentas unificadas
-2. Un sistema de seguimiento de problemas
-3. Una herramienta de revisión de código
-4. Un visor de versiones
+1. Uma rede onde podemos manter nossas contas unificadas
+2. Um sistema de acompanhamento de problemas
+3. Uma ferramenta de revisão de código
+4. Um visualizador de versões
 
 <solution style="display:none;">1</solution>
 
-### 3) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que \_\_\_\_\_\_\_\_\_\_\_\_\_ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto
+### 3) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão_ ao nosso repositório remoto, enquanto que _\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao _último commit_ registrado no repositório remoto.
 
 #### Opciones
 
@@ -49,9 +49,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 4) ¿Cuáles de los siguientes enunciados son comandos de `Git`? Puedes seleccionar una o más opciones
+### 4) Qual dos seguintes comandos são do `Git`? Você pode escolhar mais do que um.
 
-#### Opciones
+#### Opções
 
 1. `git update nombre-rama`
 2. `git status`
@@ -62,47 +62,47 @@
 
 <solution style="display:none;">2,3,5</solution>
 
-### 5) ¿Para qué sirve la línea de comando?
+### 5) Para que server a linha de comandos?
 
-#### Opciones
+#### Opções
 
-1. Para usar los comandos y transformar nuestros archivos `.js` en `.git`
-2. Para refactorizar nuestro código y subirlo sin necesidad de utilizar `Github`
-3. Para crear nuevos comandos para `Git` y `Github`, y posteriormente darles
-   soporte
-4. Para ver, manejar y manipular archivos de nuestra computadora por medio de
-   comandos.
+1. Para usar os comandos e transformar nossos archivos `.js` em `.git`
+2. Para refatorar nosso código e enviá-lo sem a necessidade de usar `GitHub`
+3. Para criar novos comandos de `Git` e `GitHub` e, posteriormente, dar suporte
+   a eles
+4. Para visualizar, gerenciar e manipular arquivos de nosso computador por meio
+   de comandos
 
 <solution style="display:none;">4</solution>
 
-### 6) De los siguientes enunciados ¿cuál pertenece a `Github`? Puedes seleccionar una o más opciones
+### 6) Das opções abaixo, qual(is) se aplica(m) ao `GitHub`?
 
-#### Opciones
+#### Opções
 
-1. Un visor de versiones
-2. Un Sistema de Control de Versiones
-3. Una herramienta de revisión de código
-4. Una red donde podemos mantener nuestras cuentas unificadas
+1. Um visualizador de versões
+2. Um Sistema de Controle de Versões
+3. Uma ferramenta de revisão de código
+4. Uma rede onde podemos manter nossas contas unificadas
 
 <solution style="display:none;">1, 3</solution>
 
-### 7) ¿Cuál es la diferencia entre `Git` y `Github`?
+### 7) Qual a diferença entre `Git` e `Github`?
 
-#### Opciones
+#### Opções
 
-1. `Git` solamente sirve como una red social  y `Github` almacena extensiones
-    de archivos
-2. `Github` almacena los archivos JavaScript mientras que `Git`, los archivos
-   `HTML` y `CSS`
-3. `Git` guarda los archivos en la nube y `Github` solamente sirve como una red
+1. `Git` só server como rede social e `Github` armazena extensões de arquivos
+2. `Github` armazena os arquivos JavaScript enquanto que o `Git`, arquivos
+   `HTML` e `CSS`
+3. `Git` guarda os arquivos na nuvem e `Github` serve apenas como uma rede
    social
-4. `Github` utiliza a `Git` como Sistema de Control de Versiones
+4. `Github` utiliza `Git` como Sistema de Controle de Versões
 
 <solution style="display:none;">4</solution>
 
 ### 8) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_  estaremos indicando qué archivos queremos que pasen de nuestro _working directory_ al _staging area_, mientras que con \_\_\_\_\_\_\_\_\_\_\_\_\_ confirmaremos los archivos que declaramos como preparados con el comando anterior
+### 8) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_  indicamos quais archivos queremos que passem de nosso ____working directory_ à _staging area_, enquanto que com _\_\_\_\_\_\_\_\_\_\_\_\_ confirmamos os arquivos que declaramos como preparados através do comando anterior
 
-#### Opciones
+#### Opções
 
 1. `commit` - `add`
 2. `add` - `commit`
