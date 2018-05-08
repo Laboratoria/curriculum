@@ -33,12 +33,14 @@ estructurar correctamente una página web.
 
 ### Unidad 02: [Formularios](02-forms)
 
-En este unidad conocerás la estructura de los formularios y cómo utilizarlos,
+Los formularios son una forma sencilla donde el usuario ingresa información en
+una página web. En este unidad conocerás la estructura de los formularios y
+cómo utilizarlos.
 
+### Unidad 03: [Browser APIs](03-browser-apis)
 
-### Unidad 03: [HTML](03-browser-apis)
-
-En este unidad conocerás las diferencias de HTML y HTML5, así como
+En esta unidad nos enfocaremos en las APIs del navegador, tendrás una base
+para enfrentarte al variado universo de APIs que HTML5 trae consigo.
 
 ### Unidad 04: [Closing](04-closing)
 
