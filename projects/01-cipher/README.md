@@ -178,7 +178,8 @@ interfaz será desplegada usando GitHub pages.
 
 ### UX
 
-[tbd]
+Para este reto queremos que intentes llegar al nivel 2 del skill User Centricity
+en tus UX skills. Te aconsejamos revisar la rúbrica.
 
 ### Soft Skills
 

@@ -2,6 +2,23 @@
 
 ## Preámbulo
 
+Sí pensamos en un dashboard podemos pensar en el tablero de control de un auto
+o el de un avión. Un espacio desde el cuál un usuario puede tener acceso a la
+información y controles más relevantes, en este caso, del vehículo que está
+utilizando. El dashboard de un auto le permite a quien conduce saber a qué
+velocidad está yendo, qué cambio está utilizando, cuánto combustible tiene
+disponible, qué tan caliente está el motor, cuántas revoluciones por minuto
+dan las ruedas, cuánta distancia has recorrido, etc.
+
+![car dashboard](https://img.buzzfeed.com/buzzfeed-static/static/2017-02/7/12/enhanced/buzzfeed-prod-fastlane-03/original-17515-1486490056-3.jpg?crop=2041:1068;80,248)
+
+En el mundo de la web, también se utilizan dashboards, de hecho wikipedia nos
+dice que un dashboard puede ser un resumen gráfico de varias piezas de
+información importante, generalmente utilizadas para dar una visión general de
+una empresa o de un servicio. Así tenemos dashboards como el de
+[Google Analytics](https://assets.econsultancy.com/images/resized/0003/3813/mobile_commerce_dashboard-blog-full.png)
+o el de [Mailchimp.](https://blog.mailchimp.com/wp-content/uploads/2016/11/Dashboard-view-3-Copy-1008x768.jpg)
+
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
 mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
 apoyarlas en su aprendizaje. Para revisar esta data, las TMs, normalmente,
