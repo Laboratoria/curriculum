@@ -9,9 +9,9 @@
 ## Enunciado
 
 Ahora que aprendiste sobre peticiones AJAX, te invitamos a utilizar a recordar
-una tecnología que realiza comunicaciones con el servidor de una manera más 
-constante: [Web Sockets](https://developer.mozilla.org/es/docs/WebSockets-840092-dup/Writing_WebSocket_client_applications) 
-para implementar un chat. 
+una tecnología que realiza comunicaciones con el servidor de una manera más
+constante: [Web Sockets](https://developer.mozilla.org/es/docs/WebSockets-840092-dup/Writing_WebSocket_client_applications)
+para implementar un chat.
 
 Dado que ya hemos subido mucho de nuestros proyectos a Github Pages, y teniendo
 en cuenta que este servicio solo puede hostear archivos estáticos y para este
@@ -30,6 +30,6 @@ reto necesitamos hacer un poco de Node.js (back-end), así que usaremos [Heroku]
 Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
 y las buenas prácticas en tu código!
 
-No te limites a solo hacer el chat, con los conocimientos que tienes hasta el 
+No te limites a solo hacer el chat, con los conocimientos que tienes hasta el
 momento, estamos seguras que se te ocurren muchas ideas locas y que creemos que
 puedes hacerlas realidad.
