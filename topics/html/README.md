@@ -1,7 +1,5 @@
 # HTML
 
-[INTRO TBD]
-
 ## Público Objetivo
 
 Este curso está dirigido a personas _sin_ conocimientos previos de programación
@@ -10,6 +8,7 @@ la ruta de aprendizaje.
 
 ## Aprenderás
 
+* Conocer los principales elementos y etiquetas HTML
 * Profundizar en los elementos HTML
 * Conocer qué son y para qué sirven los atributos de elementos HTML
 * Conocer elementos HTML semánticos
@@ -17,8 +16,7 @@ la ruta de aprendizaje.
 ## Requerimientos previos
 
 Ningún conocimiento previo de programación es necesario para completar este
-curso. Está diseñado para principiantes. (preguntar si es necesario tener 
-concepto de preadmi)
+curso. Está diseñado para principiantes.
 
 ## Syllabus
 
@@ -28,13 +26,17 @@ Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
 tu primera página web.
 
-### Unidad 02: [HTML](03-html-semantic)
+### Unidad 02: [HTML](02-html)
 
-...
+Conocerás los elementos HTML más comunes y como funciona el anidamiento. Además 
+aprenderás como se comporta un elemento en bloque y otro en línea.
 
-### Unidad 03: [HTML5](04-html5)
+### Unidad 03: [HTML](03-html5)
 
-...
+En este unidad conocerás las diferencias de HTML y HTML5, así como las nuevas 
+etiquetas de HTML5 que gracias a su semántica podemos estructurar correctamente 
+una página web.
+
 
 ***
 

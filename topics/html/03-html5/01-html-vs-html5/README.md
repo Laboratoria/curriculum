@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-- Entender qué siginifica HTML5
+- Entender qué significa HTML5
 - Dejar claro que HTML5 no hace referencia solo a HTML
 
 ## HTML5

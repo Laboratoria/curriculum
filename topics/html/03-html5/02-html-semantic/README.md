@@ -1,4 +1,4 @@
-# HTML
+# HTML Semántico
 
 - Tipo: `lectura`
 - Formato: `self-paced`

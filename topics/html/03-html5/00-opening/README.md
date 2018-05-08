@@ -11,8 +11,8 @@
 En esta lección aprenderemos:
 
 - Qué es HTML5
-- Qué es un Browser API
-- A utilizar algunas Browser APIs
+- Qué es HTML5 semántico
+- Conocerás las etiquetas más comunes de HTML5
 
 ## Guía de preguntas y conceptos clave
 
@@ -28,11 +28,5 @@ Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Qué es HTML5?
 - ¿Cuál es la diferencia entre HTML y HTML5?
-- ¿Qué son las  APIs del navegador?
-- ¿Cómo uso las APIs del navegador?
-- ¿Qué se necesita para la manipulación de audio y video?
-- ¿Cómo almaceno datos en el navegador?
-- ¿Cuál es la diferencia entre `localStorage` y `sessionStorage`?
-- ¿Cómo obtengo la ubicación actual del usuario?
-- ¿Qué significa DnD?
-- ¿Qué otras APIs del navegador conoces?
+- ¿Para qué nos ayuda la semántica de HTML5?
+- ¿Cuáles son las nuevas etiquetas de HTML5 más comunes?
