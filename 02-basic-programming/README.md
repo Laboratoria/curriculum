@@ -1,4 +1,4 @@
-# 02 - Programação básica
+# 02 - Basic Programming
 
 Neste curso, você aprenderá maneiras melhores de estruturar e manipular os dados do seu programa usando estruturas de dados básicas: **vetores** e **objetos**. Além disso, você aprenderá a usar dois programas essenciais para um desenvolvedor: a linha de comandos e o controlador de versões.
 
