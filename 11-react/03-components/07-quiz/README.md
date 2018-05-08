@@ -28,7 +28,7 @@
 
 <solution style="display:none;">5</solution>
 
-### 2) Si el **PropTypes** que hemos definido como requerida, no le pasas un valor tu aplicación se detendrá y no será ejecutada
+### 2) Si describimos una prop como requerida con **PropTypes**, y no le pasamos un valor, tu aplicación se detendrá y no será ejecutada
 
 #### Opciones
 
@@ -72,12 +72,12 @@
 
 <solution style="display:none;">2,4,5</solution>
 
-### 6) Un HOC es ________ que toma  ________ como parámetro y retorna un nuevo ________ como resultado
+### 6) Un HOC es unx ________ que toma unx ________ como parámetro y retorna unx nuevx ________ como resultado.
 
 #### Opciones
 
-1. Una función - un componente - componente
-2. Un componente - una función - componente
-3. Una función - componente - función
+1. función - componente - componente
+2. componente - función - componente
+3. función - componente - función
 
 <solution style="display:none;">1</solution>
