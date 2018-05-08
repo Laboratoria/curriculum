@@ -4,8 +4,11 @@ Crea una función que, por medio de console.log, logre producir un círculo
 de `*` del tamaño brindado por medio de un `prompt()`:
 
 Ejemplo:
-Input:  n = 7
+
+Input: n = 7
+
 Output:
+
               ****
         ****************
       ********************

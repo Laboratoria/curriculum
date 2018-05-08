@@ -3,11 +3,9 @@ const imprimirCirculo = require('../solution/imprimirCirculo');
 
 describe("imprimirCirculo()", () => {
 
-  it("debería retornar ", () => {
-    Assert.deepEqual(imprimirCirculo(5), "");
-    Assert.deepEqual(imprimirCirculo(66), "");
-    Assert.deepEqual(imprimirCirculo(20), "");
-    Assert.deepEqual(imprimirCirculo(35), "");
+  it("debería retornar una figura dependiendo del número indicado", () => {
+    Assert.deepEqual(imprimirCirculo(7), "");
+    Assert.deepEqual(imprimirCirculo(3), "");
   });
 
 });
