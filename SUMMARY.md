@@ -12,6 +12,15 @@
     * [01 - Command Line](02-basic-programming/01-shell+git/01-command-line/README.md)
     * [02 - Git](02-basic-programming/01-shell+git/02-git/README.md)
     * [03 - Quiz](02-basic-programming/01-shell+git/03-quiz/README.md)
+  * 02 - Arrays
+    * [00 - Opening](02-basic-programming/02-arrays/00-opening/README.md)
+    * [01 - Arrays](02-basic-programming/02-arrays/01-arrays/README.md)
+    * [02 - Array Proto](02-basic-programming/02-arrays/02-array-proto/README.md)
+    * [03 - Guided Exercises](02-basic-programming/02-arrays/03-guided-exercises/README.md)
+    * [04 - Quiz](02-basic-programming/02-arrays/04-quiz/README.md)
+    * [05 - Guided Exercises](02-basic-programming/02-arrays/05-guided-exercises/README.md)
+    * [06 - Practice](02-basic-programming/02-arrays/06-practice/README.md)
+    * [07 - Requiz](02-basic-programming/02-arrays/07-requiz/README.md)
 * [03 - Interactive Site](03-interactive-site/README.md)
   * 00 - HTML and CSS
     * [00 - Introdução](03-interactive-site/00-html-and-css/00-opening/README.md)
