@@ -11,3 +11,5 @@ function esPrimo (n) {
   }
   return true;
 }
+
+module.exports = esPrimo;

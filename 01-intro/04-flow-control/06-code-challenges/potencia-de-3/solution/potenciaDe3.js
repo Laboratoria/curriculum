@@ -6,14 +6,18 @@ function potencia (b, e) {
     respuesta *= b;
   }
   return respuesta;
-}
 
-for (var i = 1; ; i++) {
+  for (var i = 1; ; i++) {
 
-  var resultado = potencia (3, i);
+    var resultado = potencia (3, i);
 
-  if (resultado < 10000)
+    if (resultado < 10000)
     console.log(resultado);
-  else
+    else
     break;
+  }
+
 }
+
+
+module.exports = potencia;

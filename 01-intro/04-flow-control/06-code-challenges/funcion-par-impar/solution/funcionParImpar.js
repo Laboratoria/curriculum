@@ -6,3 +6,5 @@ function comprobar (n) {
     return 'impar';
   }
 }
+
+module.exports = comprobar;

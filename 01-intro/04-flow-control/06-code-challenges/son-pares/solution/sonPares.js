@@ -6,3 +6,5 @@ function sonPares (n, m) {
 
   return false;
 }
+
+module.exports = sonPares;

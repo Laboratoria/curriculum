@@ -12,3 +12,5 @@ function contar (str) {
 
   return contador;
 }
+
+module.exports = contar;

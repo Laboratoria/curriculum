@@ -22,3 +22,5 @@ function esMayor (A, B, C) {
 
   return maximo;
 }
+
+module.exports = esMayor;

@@ -33,3 +33,5 @@ function imprimir (num) {
 
 var n = prompt();
 imprimir (n);
+
+module.exports = imprimir;

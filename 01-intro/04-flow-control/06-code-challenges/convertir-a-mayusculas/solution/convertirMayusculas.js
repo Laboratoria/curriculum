@@ -9,3 +9,5 @@ function convertir (str) {
 }
 
 console.log (convertir ("Alexander") );
+
+module.exports = convertir;

@@ -60,3 +60,5 @@ function imprimirCirculo (r) {
 
 var n = prompt();
 imprimirCirculo(n);
+
+module.exports = imprimirCirculo;

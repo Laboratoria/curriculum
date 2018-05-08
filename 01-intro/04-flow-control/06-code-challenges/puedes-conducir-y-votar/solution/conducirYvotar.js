@@ -6,3 +6,5 @@ function comprobar (edad) {
 
   return false;
 }
+
+module.exports = comprobar;
