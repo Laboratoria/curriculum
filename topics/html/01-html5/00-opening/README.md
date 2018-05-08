@@ -1,4 +1,4 @@
-# HTML vs HTML5
+# Opening
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -8,8 +8,10 @@
 
 ## Objetivos de Aprendizaje
 
-- Entender qué significa HTML5
-- Dejar claro que HTML5 no hace referencia solo a HTML
+En esta lección aprenderemos:
+
+- Qué es HTML5 y su semántica
+- Conocerás las etiquetas más comunes de HTML5
 
 ## HTML5
 
@@ -46,23 +48,18 @@
 Este es un [extracto de la documentación de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5)
 que podemos encontrar sobre HTML5.
 
-## Entonces, ¿la diferencia es que es la última versión de HTML?
+## Guía de preguntas y conceptos clave
 
-Sí y no. Es cierto que HTML5 es la última versión de HTML, pero además engloba
-un conjunto de tecnologías que define el estándar en relación a la web, tales
-como CSS3 y un término que ahora escucharás muy seguido: **APIs**. Este último
-nos dará a conocer los superpoderes del navegador y entenderemos porqué el
-navegador se ha potenciado mucho desde sus inicios.
+Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
+conceptos más importantes de lo que vamos a aprender y de los temas centrales
+que debemos prestar particular atención.
 
-## Sabías que...
+A continuación te presentamos una serie de preguntas que debes ser capaz de
+responder al terminar esta unidad. Utiliza estas preguntas como guía para
+orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
+medida que avanzas para validar que estás avanzando en la dirección correcta.
+Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-En realidad ya se está trabajando en el primer borrador de la revisión del
-estándar **HTML5.3** :scream:. En este [blog de la W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/)
-puedes encontrar información al respecto.
-
-Además, si quieres ir conociendo un poco más acerca de lo que HTML5 trae consigo,
-puedes revisar el siguiente video de nuestros amigos de Platzi, que si bien el
-video ya tiene varios años en internet, todavía nos puede dar una gran
-perspectiva del impacto que tuvo la llegada de este nuevo estándar.
-
-[![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0)
+- ¿Qué es HTML5?
+- ¿Para qué nos ayuda la semántica de HTML5?
+- ¿Cuáles son las nuevas etiquetas de HTML5 más comunes?
