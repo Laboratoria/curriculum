@@ -37,12 +37,7 @@ Los formularios son una forma sencilla donde el usuario ingresa información en
 una página web. En este unidad conocerás la estructura de los formularios y
 cómo utilizarlos.
 
-### Unidad 03: [Browser APIs](03-browser-apis)
-
-En esta unidad nos enfocaremos en las APIs del navegador, tendrás una base
-para enfrentarte al variado universo de APIs que HTML5 trae consigo.
-
-### Unidad 04: [Closing](04-closing)
+### Unidad 03: [Closing](03-closing)
 
 Veremos el cierre de la unidad.
 
