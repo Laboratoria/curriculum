@@ -18,6 +18,7 @@
       * [04 - greet-customer](02-programacao-basica/03-objetos/08-pratica/untitled.md)
       * [05 - transform-first-and-last](02-programacao-basica/03-objetos/08-pratica/05-transform-first-and-last.md)
       * [06 - get-all-keys](02-programacao-basica/03-objetos/08-pratica/untitled-1.md)
+      * [07 - From List to Object](02-basic-programming/03-objects/08-practice/07-from-list-to-object/README.md)
     * [09 - Quiz 02](02-programacao-basica/03-objetos/09-quiz-02.md)
     * [10 - Bônus](02-programacao-basica/03-objetos/10-bonus.md)
   * 04-Produtos Finais
