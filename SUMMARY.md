@@ -22,7 +22,7 @@
     * [05 - Guided Exercises](02-basic-programming/02-arrays/05-guided-exercises.md)
     * [06 - Practice](02-basic-programming/02-arrays/06-practice.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
-  * 03 - Objetos
+  * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objetos/00-opening.md)
     * [01 - Objects](02-basic-programming/03-objetos/01-objects.md)
     * [02 - Properties and Methods](02-basic-programming/03-objetos/02-properties-and-methods.md)
