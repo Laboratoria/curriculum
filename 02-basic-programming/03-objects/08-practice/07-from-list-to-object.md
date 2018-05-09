@@ -8,7 +8,7 @@ Exemplo de entrada:
 [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]
 ```
 
-Valor de retorno da função \(saída\):
+Valor devolvido pela função \(saída\):
 
 ```javascript
 {
