@@ -1,41 +1,41 @@
-# transformFirstAndLast
+# 05 - transform-first-and-last
 
-Escriba una función 'transformFirstAndLast' que toma un array y devuelve un
-objeto con:
+## transformFirstAndLast
 
-1. el primer elemento del array como la clave del objeto, y
-2. el último elemento del array como valor de esa clave.
+Escreva uma função 'transformFirstAndLast' que receba uma matriz e retorne um objeto com:
 
-Ejemplo de entrada:
+1. o primeiro elemento da matriz como a chave do objeto e
+2. o último elemento da matriz como o valor dessa chave.
 
-```js
+Exemplo de entrada:
+
+```text
 ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```text
 {
   Queen: 'Beyonce'
 }
 ```
 
-No cambie el array de entrada. Suponga que todos los elementos del array de
-entrada serán del tipo `string`.
+Não altere a matriz de entrada. Suponha que todos os elementos da matriz de entrada sejam do tipo `string`.
 
-Tenga en cuenta que el array de entrada puede tener un número variable de
-elementos. Tu código debería acomodarse de manera flexible.
+Observe que a matriz de entrada pode ter um número variável de elementos. Seu código deve responder de forma flexível.
 
-Ejemplo, debe manejar la entrada como:
+Exemplo, você deve manipular a entrada como:
 
-```js
+```text
 ['Kevin', 'Bacon', 'Amor', 'Hart', 'Costner', 'Spacey']
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```text
 {
   Kevin: "Spacey"
 }
 ```
+

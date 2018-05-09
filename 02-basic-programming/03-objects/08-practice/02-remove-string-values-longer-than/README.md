@@ -1,14 +1,14 @@
-# removeStringValuesLongerThan
+# 02 - remove-string-values-longer-than
 
-Escribe una función llamada "removeStringValuesLongerThan".
+## removeStringValuesLongerThan
 
-Dado un número y un objeto,"removeStringValuesLongerThan" elimina cualquier
-propiedad en el objeto dado cuyos valores son cadenas de texto más largas que el
-número dado.
+Escreva uma função chamada "removeStringValuesLongerThan".
 
-Ejemplo de entrada:
+Dado um número e um objeto, "removeStringValuesLongerThan" remove qualquer propriedade no objeto dado cujos valores são strings maiores que o número fornecido.
 
-```js
+Exemplo de entrada:
+
+```text
 var obj = {
   name: 'Montana',
   age: 20,
@@ -17,3 +17,4 @@ var obj = {
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 ```
+
