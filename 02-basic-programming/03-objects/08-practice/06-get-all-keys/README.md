@@ -1,31 +1,30 @@
-# getAllKeys
+# 06 - get-all-keys
 
-Escribir una función llamada "getAllKeys" que devuelve un array de todas las
-claves del objeto de entrada.
+## getAllKeys
 
-Ejemplo de entrada:
+Escreva uma função chamada "getAllKeys" que retorna uma matriz de todas as chaves do objeto de entrada.
 
-```js
+Exemplo de entrada:
+
+```text
 {
-  name: 'Sam',
+  name: 'Sam',
   age: 25,
-  hasPets: true
+  hasPets: true
 }
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```text
 ['name', 'age', 'hasPets']
 ```
 
-Tenga en cuenta que su función debe ser capaz de manejar cualquier objeto pasado
-en ella.
+Tenha em mente que sua função deve ser capaz de manipular qualquer objeto passado nela.
 
-P.ej.
-también debe manejar una entrada como:
+Por exemplo, você também deve tratar uma entrada como:
 
-```js
+```text
 {
   a: 'a',
   number: 11,
@@ -34,8 +33,9 @@ también debe manejar una entrada como:
 }
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```text
 ['a', 'number', 'hungry', 'grammyWins']
 ```
+

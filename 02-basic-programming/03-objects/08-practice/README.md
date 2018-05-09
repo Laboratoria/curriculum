@@ -1,12 +1,12 @@
-# Retos de código
+# 08 - Prática
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `3h`
+## Desafios do código
 
-***
+* Tipo: `prática`
+* Formato: `ritmo próprio`
+* Duração: `3h`
 
-## Objetivos
+### Objetivos
 
-- A continuación te presentamos una serie de retos que debes completar para
-  poner tus conocimientos a prueba.
+* Aqui apresentamos uma série de desafios que você deve completar para colocar seu conhecimento a prova.
+

@@ -1,18 +1,19 @@
-# addArrayProperty
+# 01 - Add Array Property
 
-Escribe una función llamada "addArrayProperty(obj, key, array)".
+## addArrayProperty
 
-Dado un objeto, una clave y un array, "addArrayProperty" establece una nueva
-propiedad  sobre el objeto en la clave dada, con su valor establecido en el
-array dado.
+Escreva uma função chamada "addArrayProperty \(obj, key, array\)".
 
-Ejemplo de entrada:
+Dado um objeto, uma chave e um array, "addArrayProperty" define uma nova propriedade no objeto na chave determinada, com seu valor definido no array especificado.
 
-```js
+Exemplo de entrada:
+
+```text
 var myObj = {};
-var myStr = 'myProperty';
-var myArray = [1, 3];
+var myStr =  ' myProperty ' ;
+var myArray = [ 1 , 3 ];
 
-addArrayProperty(myObj, myStr, myArray);
-console.log(myObj.myProperty); // --> [1, 3]
+addArrayProperty (myObj, myStr, myArray);
+console . log ( myObj . myProperty ); // -> [1, 3]
 ```
+

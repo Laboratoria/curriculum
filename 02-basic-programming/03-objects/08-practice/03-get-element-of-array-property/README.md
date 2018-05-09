@@ -1,26 +1,25 @@
-# getElementOfArrayProperty
+# 03 - get-element-of-array-property
 
-Escriba una función llamada `getElementOfArrayProperty`.
+## getElementOfArrayProperty
 
-Dado un objeto, una clave y un índice numérico, `getElementOfArrayProperty`
-devuelve el valor del elemento en el índice dado del arreglo localizado dentro
-del objeto dado en la clave dada.
+Escreva uma função chamada `getElementOfArrayProperty`.
+
+Dado um objeto, uma chave e um índice numérico, `getElementOfArrayProperty` retorna o valor do elemento no índice fornecido do array localizado dentro do objeto informado na chave especificada.
 
 Notas:
 
-- Si el arreglo está vacío, debería devolver `undefined`.
-- Si el índice dado está fuera de rango del arreglo ubicado en la clave dada,
-  debería devolver `undefined`.
-- Si la propiedad en la clave dada no es un arreglo, debería devolver
-  `undefined`.
-- Si no hay ninguna propiedad en la clave, debería devolverse `undefined`.
+* Se a matriz estiver vazia, ela deve retornar `undefined`.
+* Se o índice fornecido estiver fora do intervalo da matriz localizada na chave especificada, ele deverá retornar `undefined`.
+* Se a propriedade na chave fornecida não for uma matriz, ela deve retornar `undefined`.
+* Se não houver propriedade na chave, ela deve ser retornada `undefined`.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
+```text
 var obj = {
  key: ['Jamil', 'Albrey']
 };
 var output = getElementOfArrayProperty(obj, 'key', 0);
 console.log(output); // --> 'Jamil'
 ```
+
