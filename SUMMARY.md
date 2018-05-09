@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Introduction](README.md)
 * [02 - Basic Programming](02-basic-programming/README.md)
   * 00 - Welcome
     * [00 - Opening](02-basic-programming/00-welcome/00-opening.md)
