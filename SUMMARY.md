@@ -41,7 +41,7 @@
     * [09 - Requiz](02-basic-programming/03-objects/09-requiz.md)
     * [10 - Bonus](02-basic-programming/03-objects/10-bonus.md)
   * 04 - Final Products
-    * [01 - Final Products](02-basic-programming/04-final-products/01-produtos-finais.md)
+    * [01 - Final Products](02-basic-programming/04-final-products/01-final-products.md)
     * [02 - Code Review](02-basic-programming/04-final-products/02-code-review.md)
     * [03 - Soft Skills 2](02-basic-programming/04-final-products/03-soft-skills-2.md)
     * [04 - Soft Skills 3](02-basic-programming/04-final-products/04-soft-skills-3.md)
