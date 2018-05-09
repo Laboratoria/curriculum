@@ -1,4 +1,4 @@
-# 07 - Exercícios Direcionados
+# 07 - Guided Exercises
 
 ## Aula prática
 

@@ -1,4 +1,4 @@
-# 00 - Abertura
+# 00 - Opening
 
 ## Abertura
 

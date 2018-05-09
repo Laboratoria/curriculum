@@ -1,4 +1,4 @@
-# 04 - Habilidades Básicas-3
+# 04 - Soft Skills 3
 
 ## Oficina de HSE: Lidando com o estresse
 

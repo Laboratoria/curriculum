@@ -1,14 +1,14 @@
-# 01 - Produtos Finais
+# 01 - Final Products
 
 * Tipo: `prática`
 * Formato: `ritmo próprio`
 * Duração: `4h`
 
-### Objetivos
+## Objetivos
 
 É hora de testar o que você aprendeu: você deve criar dois programas que tenham uma aplicação em nossa vida diária. O primeiro é um programa que é usado para criptografar mensagens, e o segundo é um programa que verifica se um número de cartão de crédito é válido.
 
-### Entregas
+## Entregas
 
 Para cada produto, você deve entregar **um repositório do GitHub** que contenha:
 
@@ -16,7 +16,7 @@ Para cada produto, você deve entregar **um repositório do GitHub** que contenh
 2. Arquivo `app.js`com o **código** da sua solução
 3. Arquivo `index.html`vinculado ao seu`app.js`
 
-### Critérios de avaliação
+## Critérios de avaliação
 
 As considerações a seguir serão levadas em conta ao avaliar sua solução:
 
@@ -28,14 +28,14 @@ As considerações a seguir serão levadas em conta ao avaliar sua solução:
 6. Uso de comentários para tornar seu código mais legível
 7. Que o programa cumpra o objetivo exigido
 
-### Entregas
+## Entregas
 
 Para cada produto, você deve entregar **um repositório do GitHub** que contenha:
 
 1. Arquivo `README.md`que explica o **pseudocódigo** de sua solução e seu **diagrama de fluxo**
 2. Arquivo `app.js`com o **código** da sua solução
 
-### 1. Cifra de César
+## 1. Cifra de César
 
 Crie uma web que peça, por meio de uma `prompt()`, uma frase para o usuário e retorne a mesma mensagem criptografada de acordo com o [algoritmo César ](https://en.wikipedia.org/wiki/Caesar_cipher)com o parâmetro deslocamento de **33 espaços à direita**
 
@@ -60,7 +60,7 @@ Também compartilhamos mais informações do que Michelle explicou no vídeo ant
 > 2. O código deve ser composto de 2 funções com os seguintes nomes: `cipher`e`decipher`
 > 3. O usuário não deve poder inserir um campo vazio ou um que contenha números
 
-### 2. Cartão de Crédito Válido
+## 2. Cartão de Crédito Válido
 
 Crie um site que solicite, por meio de um `prompt()`, o número de um cartão de crédito e confirme sua validade de acordo [com o algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn) . Leia este blog que explica [como o algoritmo de Luhn funciona](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html) .
 

@@ -1,4 +1,4 @@
-# 03 - Habilidades Básicas-2
+# 03 - Soft Skills 2
 
 ## Oficina de HSE: Gênero
 
@@ -23,7 +23,7 @@ Somos uma organização comprometida com o empoderamento das mulheres e, para po
 * Discutindo gênero: revisão teórica
 * Atividade em grupos "Um dia no dia de uma mulher peruana / chilena / mexicana"
 * Revisão de dados sobre a situação das mulheres na América Latina
-*  Laboratoria e gênero: código que transforma
+* Laboratoria e gênero: código que transforma
 * Atividade de Sororidade: "Pacto entre mulheres"
 
 ### Material

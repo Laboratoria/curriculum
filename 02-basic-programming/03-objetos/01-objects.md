@@ -1,4 +1,4 @@
-# 01 - Objetos
+# 01 - Objects
 
 ## Objetos em JavaScript
 
@@ -12,7 +12,7 @@
 * Aprender a criar, acessar e modificar as informações de um `object`
 * Entender a diferença entre um `array`e um`object`
 
-O texto abaixo é baseada em grande parte, com alguns ajustes, no capítulo 4 do [Eloqüente JavaScript](http://eloquentjavascript.net/) , de Marijn Haverbeke, 2014. 
+O texto abaixo é baseada em grande parte, com alguns ajustes, no capítulo 4 do [Eloqüente JavaScript](http://eloquentjavascript.net/) , de Marijn Haverbeke, 2014.
 
 ### O que é um objeto em JavaScript?
 
@@ -189,7 +189,7 @@ console.log(student);
 // → Objeto {nome: 'Carolina', pontos: 3500, cursos: Matriz (2), isActive: true}
 ```
 
-A seguir, Michelle explica os principais conceitos de `objects `com um exemplo
+A seguir, Michelle explica os principais conceitos de `objects`com um exemplo
 
 ![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://camo.githubusercontent.com/55fe4dee04b2f082b86119e32255bdbe82db2054/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4a36553067447a577355672f302e6a7067)
 

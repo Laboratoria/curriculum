@@ -1,4 +1,4 @@
-# 06 - Retrospectiva
+# 06 - Retrospective
 
 ## Retrospectiva
 
