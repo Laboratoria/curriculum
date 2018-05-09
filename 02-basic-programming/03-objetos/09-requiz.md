@@ -1,4 +1,4 @@
-# 09 - Quiz 02
+# 09 - Requiz
 
 ## Quiz 2
 
@@ -92,7 +92,7 @@ var movie = {
 **Opções**
 
 1. A propriedade `tags`não pode estar vazia
-2. As aspas `' '`propriedade `other awards `estão a mais
+2. As aspas `' '`propriedade `other awards`estão a mais
 3. Na propriedade `stars`, eles devem usar vírgulas em `,`vez de pontos e vírgulas`;`
 4. Não há erro
 

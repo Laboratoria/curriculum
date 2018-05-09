@@ -1,4 +1,4 @@
-# 02 - Propriedades e Métodos
+# 02 - Properties and Methods
 
 ## Trabalhando com matrizes e objetos
 
@@ -12,11 +12,11 @@
 * Aprenda as principais propriedades e métodos de `arrays`e`objects`
 * Aprenda a inspecionar informações `arrays`e `objects`usar`console.table(args);`
 
-O texto abaixo é baseado em grande parte, com alguns ajustes, no capítulo 4 do [Eloqüente JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke, 2014. 
+O texto abaixo é baseado em grande parte, com alguns ajustes, no capítulo 4 do [Eloqüente JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke, 2014.
 
 ### Propriedades e métodos
 
-Ao longo deste curso, vimos uma série de comandos um pouco estranhos que nos permitem fazer coisas em JavaScript. Por exemplo, vimos que colocar `.length`no final de uma `string`retorna o número de caracteres na `string`. Também vimos que, ao colocar `.toUpperCase()`no final de uma  `string` nos devolve a mesma `string` em letras maiúsculas.
+Ao longo deste curso, vimos uma série de comandos um pouco estranhos que nos permitem fazer coisas em JavaScript. Por exemplo, vimos que colocar `.length`no final de uma `string`retorna o número de caracteres na `string`. Também vimos que, ao colocar `.toUpperCase()`no final de uma `string` nos devolve a mesma `string` em letras maiúsculas.
 
 Estes são exemplos de **propriedades** e **métodos** em JavaScript. As propriedades normalmente nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Por exemplo, `length`é uma propriedade que nos informa o tamanho do valor associado, enquanto `toUpperCase()`é um método que faz a ação de transformar em maiúsculas o valor associado.
 
@@ -92,8 +92,6 @@ _NOTA: É importante NÃO avançar se você não conseguiu entender bem os conce
 
 Já vimos que as _chaves_ dos `objects`são equivalentes às suas propriedades. E vimos como acessar essas propriedades. Precisamente ao criar o par de _valores-chave_ de um objeto, estamos criando uma propriedade que armazena o valor fornecido. Lembre-se do nosso exemplo com o objeto `movie`:
 
-
-
 ```text
 var movie = {
   title: 'Back to the Future',
@@ -121,7 +119,7 @@ console.log(movie.title);
 
 Com `movie['title']`ou `movie.title`estamos acessando a **propriedade** chamada 'title' do objeto `movie`.
 
-Também podemos criar **métodos para** `objects`que criamos \(como o objeto `movie`do exemplo\) . Conseguimos isso incluindo uma função como propriedade. Mas, por enquanto, não se preocupe com isso. Nós veremos mais tarde. Por enquanto, o importante é saber que, assim como `strings` e `arrays` têm propriedades e métodos, o mesmo acontece com `objects`.  E lembre-se: as propriedades nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Os métodos conseguem _**fazê-lo**_ porque contêm funções.
+Também podemos criar **métodos para** `objects`que criamos \(como o objeto `movie`do exemplo\) . Conseguimos isso incluindo uma função como propriedade. Mas, por enquanto, não se preocupe com isso. Nós veremos mais tarde. Por enquanto, o importante é saber que, assim como `strings` e `arrays` têm propriedades e métodos, o mesmo acontece com `objects`. E lembre-se: as propriedades nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Os métodos conseguem _**fazê-lo**_ porque contêm funções.
 
 #### O comprimento de um objeto?
 

@@ -1,4 +1,4 @@
-# 03 - Protótipo de Objeto
+# 03 - Object Proto
 
 ## Object.prototype
 

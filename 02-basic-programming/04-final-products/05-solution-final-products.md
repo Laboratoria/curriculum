@@ -1,4 +1,4 @@
-# 05 - Resolução Produtos Finais
+# 05 - Solution Final Products
 
 ## Produtos Finais Solucionados
 
@@ -14,10 +14,8 @@
 ### Agenda
 
 1. Por meio de exemplos, nos certificamos de entender como funcionam:
-
    * `charCodeAt()`
    * `String.fromCharCode()`
    * `ASCII` e `Unicode`
-
 2. Resolver os desafios da Cifra de César e Cartão de Crédito Válido. Avalie as diferentes formas de alcançar o resultado e discuta qual é o melhor
 

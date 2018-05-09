@@ -1,4 +1,4 @@
-# 10 - Bônus
+# 10 - Bonus
 
 ## Bônus: desafios de código
 

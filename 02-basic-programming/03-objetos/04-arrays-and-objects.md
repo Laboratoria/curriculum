@@ -1,4 +1,4 @@
-# 04 - Arrays e Objects
+# 04 - Arrays and Objects
 
 ## Combinando matrizes com objetos
 

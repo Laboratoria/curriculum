@@ -1,4 +1,4 @@
-# 05 - Exercícios Direcionados
+# 05 - Guided Exercises
 
 ## Exercícios Direcionados
 

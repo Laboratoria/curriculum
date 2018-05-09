@@ -100,7 +100,7 @@ Con este curso desarrollarás dos programas que tienen una aplicación en nuestr
 
    el [algoritmo de cifrado César](https://es.wikipedia.org/wiki/Cifrado_César).
 
-### [03. Creando tu primer sitio web interactivo](03-interactive-site/)
+### [03. Creando tu primer sitio web interactivo]()
 
 * Track: _Common Core_
 * Autor: [Iván Medina](https://github.com/ivandevp) & [Lalo Gonzalez](https://github.com/lalogf)

@@ -1,4 +1,4 @@
-# 08 - Prática
+# 08 - Practice
 
 ## Desafios do código
 
