@@ -21,4 +21,5 @@
 * [Apresentação do primeiro dia de aula - Santiago do Chile](https://docs.google.com/presentation/d/1T9M6C37B4qHBhmwpOYa2XzvXY7aGlPnHDuYU2yx1HVA/edit#slide=id.g2691fab262_0_75)
 * [Apresentação do primeiro dia de aula - CDMX](https://docs.google.com/presentation/d/1765Gjxz9PGziALsqRsXMT949y0fi2zf3bn48b9qR0-Q/edit#slide=id.g2620c69699_0_178)
 * [Apresentação do primeiro dia de aula - Guadalajara](https://docs.google.com/presentation/d/1aA88IDyWVf5isqkkjQETBJVn6nbW_84BB6iyGhrzfuU/edit?usp=sharing)
+* Apresentação do primeiro dia de aula - São Paulo
 
