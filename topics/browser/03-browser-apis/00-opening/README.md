@@ -15,8 +15,8 @@
 
 ## HTML5 y la magia de sus APIs
 
-En la lectura anterior, nos enteramos que HTML5 viene con un conjunto de APIs,
-vamos a entrar un poco en contexto con la siguiente diapositiva:
+Anteriormente, nos enteramos que HTML5 viene con un conjunto de APIs, vamos
+a entrar un poco en contexto con la siguiente diapositiva:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVOkfyF6VYPu9b3p667Sorg5KW9xbC2KO_-dL04fXm5XlIzp6jgduLzZgnBDU5QqDQp3UQTkuOCi-_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
