@@ -29,6 +29,8 @@
       * [06 - Filter Odd Elements](02-basic-programming/02-arrays/06-practice/untitled-1.md)
       * [07 - Find Shortest Word Among Mixed Elements](02-basic-programming/02-arrays/06-practice/07-find-shortest-word-among-mixed-elements.md)
       * [08 - Find Smallest Number Among Mixed Elements](02-basic-programming/02-arrays/06-practice/untitled-2.md)
+      * [09 - Get Longest Word of Mixed Elements](02-basic-programming/02-arrays/06-practice/09-get-longest-word-of-mixed-elements.md)
+      * [10 - Get Largest Number Among Mixed Elements](02-basic-programming/02-arrays/06-practice/untitled-3.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
   * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objects/00-opening.md)
