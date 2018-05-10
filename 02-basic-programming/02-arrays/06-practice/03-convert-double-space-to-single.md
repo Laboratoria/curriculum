@@ -4,11 +4,11 @@
 
 Escreva uma função chamada `convertDoubleSpaceToSingle`.
 
-Dada uma string, ela `convertDoubleSpaceToSingle`retorna a cadeia passada em cadeia, com todos os espaços duplos convertidos em espaços simples.
+Dada uma _string_,  `convertDoubleSpaceToSingle` devolve essa cadeia de caracteres com os espaços duplos convertidos em espaços simples.
 
 Exemplo de entrada:
 
-```text
+```javascript
 var output = convertDoubleSpaceToSingle("string  with  double  spaces");
 console.log(output); // --> "string with double spaces"
 ```

@@ -4,16 +4,16 @@
 
 Escreva uma função chamada "findSmallestNumberAmongMixedElements".
 
-Dado um array de elementos mistos, "findSmallestNumberAmongMixedElements" retorna o menor número dentro do array especificado.
+Dado um array de elementos mistos, "findSmallestNumberAmongMixedElements" devolve o menor número dentro do _array_ especificado.
 
 Notas:
 
-* Se o array estiver vazio, ela deve retornar 0.
-* Se  o array não contiver números, deverá retornar 0.
+* Se o _array_ estiver vazio, ela deve devolver `0`.
+* Se  o _array_ não contiver números, deverá devolver `0`.
 
 Exemplo:
 
-```text
+```javascript
 var output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
 console.log(output); // --> 4
 ```

@@ -4,7 +4,7 @@
 
 Escreva uma função chamada `convertScoreToGrade`.
 
-Dada uma pontuação, `convertScoreToGrade`retorna uma string que representa a nota da letra correspondente à pontuação dada.
+Dada uma pontuação numérica, `convertScoreToGrade` devolve uma letra \(_string_\) que representa essa pontuação.
 
 Notas:
 
@@ -15,7 +15,7 @@ Notas:
 * \(59 - 0\) -&gt; 'F'
 * Se a pontuação dada for maior que 100 ou menor que 0, você deve retornar 'INVALID SCORE'.
 
-```text
+```javascript
 var output = convertScoreToGrade(91);
 console.log(output); // -> 'A'
 ```

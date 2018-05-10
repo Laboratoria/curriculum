@@ -4,14 +4,14 @@
 
 Escreva uma função chamada `getLongestOfThreeWords`.
 
-Com 3 palavras, `getLongestOfThreeWords`retorna a mais longa das três palavras.
+Com 3 palavras, `getLongestOfThreeWords` devolve a mais longa das três palavras.
 
 Notas:
 
-* Se houver um empate, você deve retornar a primeira palavra no empate.
+* Se houver um empate, você deve retornar a primeira palavra do empate.
 
-```text
-var output = getLongestOfThreeWords('estos', 'tres', 'palabras');
+```javascript
+var output = getLongestOfThreeWords('estas', 'três', 'palavras');
 console.log(output); // -> 'palabras'
 ```
 

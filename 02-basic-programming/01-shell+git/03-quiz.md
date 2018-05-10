@@ -100,7 +100,7 @@ Opções:
 
 4
 
-**8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com **_**\**_**\_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.**
+**8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.**
 
 Opções:
 

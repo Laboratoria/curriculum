@@ -4,13 +4,13 @@
 
 Escreva uma função chamada `findShortestOfThreeWords`.
 
-Com 3 strings, `findShortestOfThreeWords`retorna a string mais curta dada.
+Com 3 _strings_, `findShortestOfThreeWords` devolve a _string_ mais curta delas.
 
 Notas:
 
-* Se houver um empate, você deve retornar a primeira palavra na lista de parâmetros.
+* Se houver um empate, você deve retornar a primeira palavra da lista de parâmetros.
 
-```text
+```javascript
 var output = findShortestOfThreeWords('a', 'dos', 'tres');
 console.log(output); // -> 'a'
 ```

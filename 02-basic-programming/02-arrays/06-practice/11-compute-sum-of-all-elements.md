@@ -4,11 +4,11 @@
 
 Escreva uma função chamada `computeSumOfAllElements`.
 
-Dado um array de números, `computeSumOfAllElements`retorna a soma de todos os elementos do array dado.
+Dado um _array_ de números, `computeSumOfAllElements` devolve a soma de todos os elementos do _array_ dado.
 
 Exemplo:
 
-```text
+```javascript
 var output = computeSumOfAllElements([1, 2, 3]);
 console.log(output); // --> 6
 ```
