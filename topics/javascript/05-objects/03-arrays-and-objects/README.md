@@ -38,28 +38,28 @@ Veamos:
 
 ```js
 
-var michelle = {
+const michelle = {
   name: 'Michelle',
   points: 2000,
   isActive: true,
   courses: ['Intro JS', 'JS avanzado', 'JS master']
 };
 
-var alexandra = {
+const alexandra = {
   name: 'Alexandra',
   points: 4100,
   isActive: true,
   courses: ['Intro JS', 'Intro UX', 'UX master']
 };
 
-var andrea = {
+const andrea = {
   name: 'Andrea',
   points: 800,
   isActive: false,
   courses: ['Intro JS', 'JS avanzado']
 };
 
-var students = [michelle, alexandra, andrea];
+const students = [michelle, alexandra, andrea];
 
 ```
 
