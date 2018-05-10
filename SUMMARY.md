@@ -44,6 +44,8 @@
       * [10 - Convert Object To List](02-basic-programming/03-objects/08-practice/untitled.md)
       * [11 - Get Sum of All Elements at Property](02-basic-programming/03-objects/08-practice/11-get-sum-of-all-elements-at-property.md)
       * [12 - Get Product of All Elements at Property](02-basic-programming/03-objects/08-practice/12-get-product-of-all-elements-at-property.md)
+      * [13 - Add Object Property](02-basic-programming/03-objects/08-practice/13-add-object-property.md)
+      * [14 - Add Full Name Property](02-basic-programming/03-objects/08-practice/untitled-1.md)
     * [09 - Requiz](02-basic-programming/03-objects/09-requiz.md)
     * [10 - Bonus](02-basic-programming/03-objects/10-bonus.md)
   * 04 - Final Products
