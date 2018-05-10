@@ -25,6 +25,8 @@
       * [02 - Get Nth Element](02-basic-programming/02-arrays/06-practice/untitled.md)
       * [03 - Convert Double Space to Single](02-basic-programming/02-arrays/06-practice/03-convert-double-space-to-single.md)
       * [04 - Are Valid Credentials](02-basic-programming/02-arrays/06-practice/04-are-valid-credentials.md)
+      * [05 Find Pair For Sum](02-basic-programming/02-arrays/06-practice/05-find-pair-for-sum.md)
+      * [06 - Filter Odd Elements](02-basic-programming/02-arrays/06-practice/untitled-1.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
   * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objects/00-opening.md)
