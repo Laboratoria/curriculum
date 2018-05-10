@@ -1,3 +1,15 @@
+----------------------------
+# FIXME: Eliminar leccion
+
+Cambiar por una version que tenga:
+- intro general
+- interpolacion
+- string.prototype
+
+Y no este desarrollada haciendo diferencia entre es5 y es6
+
+---------------------------
+
 # Template Strings
 
 * Tipo: `lectura`
