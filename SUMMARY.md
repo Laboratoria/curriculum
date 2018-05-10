@@ -34,6 +34,8 @@
       * [11 - Compute Sum of All Elements](02-basic-programming/02-arrays/06-practice/11-compute-sum-of-all-elements.md)
       * [12 - Compute Sum Between](02-basic-programming/02-arrays/06-practice/untitled-4.md)
       * [13 - Get Longest of Three Words](02-basic-programming/02-arrays/06-practice/13-get-longest-of-three-words.md)
+      * [14 - Find Shortest of Three Words](02-basic-programming/02-arrays/06-practice/14-find-shortest-of-three-words.md)
+      * [15 - Calculate Bill Total](02-basic-programming/02-arrays/06-practice/untitled-5.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
   * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objects/00-opening.md)
