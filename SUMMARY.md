@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Introduction](README.md)
 * [02 - Basic Programming](02-basic-programming/README.md)
   * 00 - Welcome
     * [00 - Opening](02-basic-programming/00-welcome/00-opening.md)
@@ -38,6 +39,7 @@
       * [05 - transform-first-and-last](02-basic-programming/03-objects/08-practice/05-transform-first-and-last.md)
       * [06 - get-all-keys](02-basic-programming/03-objects/08-practice/06-get-all-keys.md)
       * [07 - From List to Object](02-basic-programming/03-objects/08-practice/07-from-list-to-object.md)
+      * 08 - list-all-values
     * [09 - Requiz](02-basic-programming/03-objects/09-requiz.md)
     * [10 - Bonus](02-basic-programming/03-objects/10-bonus.md)
   * 04 - Final Products
