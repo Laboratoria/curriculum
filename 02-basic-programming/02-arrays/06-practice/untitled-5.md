@@ -9,7 +9,7 @@ Dado o imposto e a quantia antes da gorjeta de uma refeição, `calculateBillTot
 Notas:
 
 * Suponha que o imposto sobre vendas seja de 9,5% e a gorjeta seja de 15%.
-* NÃO aplique o imposto sobre vendas, apenas sobre a quantia da gorjeta.
+* NÃO aplique o imposto sobre a gorjeta, apenas sobre a venda.
 
 ```text
 var output = calculateBillTotal(20);

@@ -2,13 +2,13 @@
 
 ## filterOddElements
 
-Escreva uma função chamada "filterOddElements".
+Escreva uma função chamada `filterOddElements`.
 
-Dada um array de números, "filterOddElements" retorna um array que contém apenas os números ímpares do array fornecido.
+Dado um vetor de números, `filterOddElements` retorna um _array_ que contém apenas os números ímpares do vetor fornecido.
 
 Exemplo:
 
-```text
+```javascript
 var output = filterOddElements([1, 2, 3, 4, 5]);
 console.log(output); // --> [1, 3, 5]
 ```

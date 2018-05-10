@@ -4,17 +4,17 @@
 
 Escreva uma função chamada "getLargestNumberAmongMixedElements".
 
-Dada qualquer disposição, "getLargestNumberAmongMixedElements" retorna o maior número no array especificado.
+Dado qualquer vetor, "getLargestNumberAmongMixedElements" retorna o maior número do vetor especificado.
 
 Notas:
 
-* O array pode conter valores de um tipo diferente de números.
-* Se o array estiver vazio, ela deve retornar 0.
-* Se o array não contiver números, deverá retornar 0.
+* O _array_ pode conter valores de um tipo diferente de `number`.
+* Se o _array_ estiver vazio, ela deve retornar `0`.
+* Se o _array_ não contiver números, deverá retornar `0`.
 
 Exemplo:
 
-```text
+```javascript
 var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 5
 ```
