@@ -73,7 +73,7 @@ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
 comando `npm test`.
 
-Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
+Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
