@@ -1,13 +1,13 @@
 const Assert = require('chai').assert;
 const addFullNameProperty = require('../solution/addFullNameProperty');
 
-describe("addFullNameProperty()", function () {
-  it("debería regresar 'Kemal Mahmud', para { firstName : 'Kemal', lastName : 'Mahmud' }", function () {
-    var name = { firstName: "Kemal", lastName: "Mahmud" };
-    var full = { fullName: "Kemal Mahmud" };
+describe('addFullNameProperty()', () => {
+  it("debería regresar 'Kemal Mahmud', para { firstName : 'Kemal', lastName : 'Mahmud' }", () => {
+    const name = { firstName: 'Kemal', lastName: 'Mahmud' };
+    const full = { fullName: 'Kemal Mahmud' };
 
     addFullNameProperty(name);
 
-    Assert.deepEqual(name['fullName'], full['fullName']);
+    Assert.deepEqual(name.fullName, full.fullName);
   });
 });

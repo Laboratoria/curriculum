@@ -160,7 +160,7 @@ console.log(courses.length);
 
 ```js
 const listOfNumbers = [];
-for (let i = 0; i <= 5; i++) {
+for (let i = 0; i <= 5; i += 1) {
   listOfNumbers.push(i);
 }
 listOfNumbers.pop();
@@ -280,7 +280,7 @@ listOfNumbers.lastIndexOf(12);
 ```js
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i += 1) {
   const item = array._________();
   array._________(i, 0, item);
 }
@@ -302,7 +302,7 @@ console.log(array);
 
 ```js
 function search(array, element) {
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i += 1) {
     if (_________ === _________) {
       return i;
     }

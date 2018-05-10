@@ -156,7 +156,7 @@ function objectToArray(object) {
   var items = Object.keys(object);
   var newArray = [];
 
-  for (var i = 0; i < items.length; i++) {
+  for (var i = 0; i < items.length; i += 1) {
     newArray.pop([items[i], object[items[i]]]);
   }
 

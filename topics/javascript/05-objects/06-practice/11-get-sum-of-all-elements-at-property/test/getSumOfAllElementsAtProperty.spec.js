@@ -1,48 +1,48 @@
 const Assert = require('chai').assert;
 const getSumOfAllElementsAtProperty = require('../solution/getSumOfAllElementsAtProperty');
 
-describe("getSumOfAllElementsAtProperty()", function () {
-  it("debería regresar 0, para { key: Badddlyyyy } y 'key'", function () {
-    var obj = {
-      koy: "Badddlyyyy"
+describe('getSumOfAllElementsAtProperty()', () => {
+  it("debería regresar 0, para { key: Badddlyyyy } y 'key'", () => {
+    const obj = {
+      koy: 'Badddlyyyy',
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key');
+    const output = getSumOfAllElementsAtProperty(obj, 'key');
 
     Assert.deepEqual(output, 0);
   });
 
-  it("debería regresar 0, para { koy: 'nope' } y 'key'", function () {
-    var obj = {
-      koy: []
+  it("debería regresar 0, para { koy: 'nope' } y 'key'", () => {
+    const obj = {
+      koy: [],
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key');
+    const output = getSumOfAllElementsAtProperty(obj, 'key');
 
     Assert.deepEqual(output, 0);
   });
 
-  it("debería regresar 0, para { key: [] } y 'key'", function () {
-    var obj = {
-      key: []
+  it("debería regresar 0, para { key: [] } y 'key'", () => {
+    const obj = {
+      key: [],
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key');
+    const output = getSumOfAllElementsAtProperty(obj, 'key');
 
     Assert.deepEqual(output, 0);
   });
 
-  it("debería regresar 35, para { key: [10, 11, 15, -1] } y 'key'", function () {
-    var obj = {
-      key: [10, 11, 15, -1]
+  it("debería regresar 35, para { key: [10, 11, 15, -1] } y 'key'", () => {
+    const obj = {
+      key: [10, 11, 15, -1],
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key');
+    const output = getSumOfAllElementsAtProperty(obj, 'key');
 
     Assert.deepEqual(output, 35);
   });
 
-  it("debería regresar 13, para { key: [4, 1, 8] } y 'key'", function () {
-    var obj = {
-      key: [4, 1, 8]
+  it("debería regresar 13, para { key: [4, 1, 8] } y 'key'", () => {
+    const obj = {
+      key: [4, 1, 8],
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key');
+    const output = getSumOfAllElementsAtProperty(obj, 'key');
 
     Assert.deepEqual(output, 13);
   });
