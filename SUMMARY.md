@@ -20,7 +20,11 @@
     * [03 - Guided Exercises](02-basic-programming/02-arrays/03-guided-exercises.md)
     * [04 - Quiz](02-basic-programming/02-arrays/04-quiz.md)
     * [05 - Guided Exercises](02-basic-programming/02-arrays/05-guided-exercises.md)
-    * [06 - Practice](02-basic-programming/02-arrays/06-practice.md)
+    * [06 - Practice](02-basic-programming/02-arrays/06-practice/README.md)
+      * [01 - Compute Average Length of Words](02-basic-programming/02-arrays/06-practice/01-compute-average-length-of-words.md)
+      * [02 - Get Nth Element](02-basic-programming/02-arrays/06-practice/untitled.md)
+      * [03 - Convert Double Space to Single](02-basic-programming/02-arrays/06-practice/03-convert-double-space-to-single.md)
+      * [04 - Are Valid Credentials](02-basic-programming/02-arrays/06-practice/04-are-valid-credentials.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
   * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objects/00-opening.md)
