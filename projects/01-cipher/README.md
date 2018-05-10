@@ -213,7 +213,7 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejam
 2. Clona el repo en tu computadora.
 3. Instala las dependencias del proyecto con el comando `npm install`.
 4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   reto.
+   proyecto.
 
 ***
 
@@ -221,7 +221,7 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejam
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este reto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
@@ -244,12 +244,12 @@ blandas):
   coaches. Si hay algo que yo no sé, otro me puede ayudar. El aprendizaje es un
   proceso colaborativo.
 * Una vez que empieces a avanzar pide feedback, tus compañeras pueden tener
-  excelentes ideas o formas de resolver el reto que te pueden ayudar.
+  excelentes ideas o formas de resolver el proyecto que te pueden ayudar.
 * Cuando te topes con un problema, busca alternativas, y para eso consulta
   diferentes fuentes.
 * Si ya te ves invirtiendo mucho tiempo en detalles debes saber priorizar y
   seguir con lo más importante, los proyectos tienen tiempo limitado y debes
   saber administrarlo.
-* Trabaja en equipo, pregunta e intenta completar el reto sin rendirte.
+* Trabaja en equipo, pregunta e intenta completar el proyecto sin rendirte.
 * Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
   podrá apreciar todo el esfuerzo y trabajo que invertiste.
