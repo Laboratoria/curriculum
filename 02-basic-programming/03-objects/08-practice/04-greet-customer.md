@@ -1,4 +1,4 @@
-# 04 - greet-customer
+# 04 - Greet Customer
 
 ## greetCustomer
 

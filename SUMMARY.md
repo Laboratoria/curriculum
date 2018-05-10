@@ -33,13 +33,15 @@
     * [07 - Guided Exercises](02-basic-programming/03-objects/07-guided-exercises.md)
     * [08 - Practice](02-basic-programming/03-objects/08-practice/README.md)
       * [01 - Add Array Property](02-basic-programming/03-objects/08-practice/01-add-array-property.md)
-      * [02 - remove-string-values-longer-than](02-basic-programming/03-objects/08-practice/02-remove-string-values-longer-than.md)
-      * [03 - get-element-of-array-property](02-basic-programming/03-objects/08-practice/03-get-element-of-array-property.md)
-      * [04 - greet-customer](02-basic-programming/03-objects/08-practice/04-greet-customer.md)
-      * [05 - transform-first-and-last](02-basic-programming/03-objects/08-practice/05-transform-first-and-last.md)
-      * [06 - get-all-keys](02-basic-programming/03-objects/08-practice/06-get-all-keys.md)
+      * [02 - Remove String Values Longer Than](02-basic-programming/03-objects/08-practice/02-remove-string-values-longer-than.md)
+      * [03 - Get Element of Array Property](02-basic-programming/03-objects/08-practice/03-get-element-of-array-property.md)
+      * [04 - Greet Customer](02-basic-programming/03-objects/08-practice/04-greet-customer.md)
+      * [05 - Transform First And Last](02-basic-programming/03-objects/08-practice/05-transform-first-and-last.md)
+      * [06 - Get All Keys](02-basic-programming/03-objects/08-practice/06-get-all-keys.md)
       * [07 - From List to Object](02-basic-programming/03-objects/08-practice/07-from-list-to-object.md)
-      * 08 - list-all-values
+      * [08 - List All Values](02-basic-programming/03-objects/08-practice/08-list-all-values.md)
+      * [09 - Transform Employee Data](02-basic-programming/03-objects/08-practice/09-transform-employee-data.md)
+      * 10 - Convert Object To List
     * [09 - Requiz](02-basic-programming/03-objects/09-requiz.md)
     * [10 - Bonus](02-basic-programming/03-objects/10-bonus.md)
   * 04 - Final Products

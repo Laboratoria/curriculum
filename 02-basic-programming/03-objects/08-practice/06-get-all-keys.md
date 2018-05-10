@@ -1,4 +1,4 @@
-# 06 - get-all-keys
+# 06 - Get All Keys
 
 ## getAllKeys
 

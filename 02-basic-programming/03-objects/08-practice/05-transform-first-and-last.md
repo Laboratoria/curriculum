@@ -1,4 +1,4 @@
-# 05 - transform-first-and-last
+# 05 - Transform First And Last
 
 ## transformFirstAndLast
 

@@ -1,4 +1,4 @@
-# 02 - remove-string-values-longer-than
+# 02 - Remove String Values Longer Than
 
 ## removeStringValuesLongerThan
 
