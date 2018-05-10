@@ -31,6 +31,9 @@
       * [08 - Find Smallest Number Among Mixed Elements](02-basic-programming/02-arrays/06-practice/untitled-2.md)
       * [09 - Get Longest Word of Mixed Elements](02-basic-programming/02-arrays/06-practice/09-get-longest-word-of-mixed-elements.md)
       * [10 - Get Largest Number Among Mixed Elements](02-basic-programming/02-arrays/06-practice/untitled-3.md)
+      * [11 - Compute Sum of All Elements](02-basic-programming/02-arrays/06-practice/11-compute-sum-of-all-elements.md)
+      * [12 - Compute Sum Between](02-basic-programming/02-arrays/06-practice/untitled-4.md)
+      * [13 - Get Longest of Three Words](02-basic-programming/02-arrays/06-practice/13-get-longest-of-three-words.md)
     * [07 - Requiz](02-basic-programming/02-arrays/07-requiz.md)
   * 03 - Objects
     * [00 - Opening](02-basic-programming/03-objects/00-opening.md)
