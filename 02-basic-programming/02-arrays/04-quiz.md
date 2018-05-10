@@ -1,48 +1,46 @@
 # 04 - Quiz
 
+## Quiz 1
+
 * Tipo: `quiz`
-* Formato: `self-paced`
-* Duración: `20min`
+* Formato: `ritmo próprio`
+* Duração: `20min`
 
-## Objetivos
+### Objetivos
 
-* En esta sección tendrás la oportunidad de evaluarte para que pongas tus
+* Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento em teste. É uma oportunidade para você calibrar e validar que realmente está aprendendo. Sucesso!
 
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
+### Perguntas
 
-  realmente estás aprendiendo. ¡Mucho éxito!
+#### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados
 
-## Preguntas
+**Opções**
 
-### 1\) Los elementos de un Array tienen que ser todos del mismo tipo de dato
-
-#### Opciones
-
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 2
 
-### 2\) ¿Para qué son útiles los Arrays?
+#### 2\) Para que os Arrays são úteis?
 
-#### Opciones
+**Opções**
 
-1. Para ya no usar strings
-2. Para iniciar tu programa
-3. Para ya no usar variables
-4. Para agrupar y manipular data
+1. Para não mais usar strings
+2. Para iniciar seu programa
+3. Para não mais usar variáveis
+4. Para agrupar e manipular dados
 
 4
 
-### 3\) En el siguiente código
+#### 3\) No código a seguir
 
-```javascript
+```text
 var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-¿Qué resultado obtengo al realizar `console.log(listOfNumbers[3])` ?
+Qual o resultado que obtenho quando me apresento `console.log(listOfNumbers[3])`?
 
-#### Opciones
+**Opções**
 
 1. `2`
 2. `3`
@@ -52,15 +50,15 @@ var listOfNumbers = [2, 3, 4, 5, 6];
 
 4
 
-### 4\) En el siguiente código
+#### 4\) No código a seguir
 
-```javascript
+```text
 var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
+Se escrever `listOfNumbers[3] = 1`, qual seria o resultado do Array?
 
-#### Opciones
+**Opções**
 
 1. `[1, 3, 4, 5, 6]`
 2. `[2, 1, 4, 5, 6]`
@@ -70,9 +68,9 @@ Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
 
 4
 
-### 5\) En el siguiente código
+#### 5\) No código a seguir
 
-```javascript
+```text
 var questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
@@ -81,9 +79,9 @@ var questions = [
 ];
 ```
 
-¿Cómo obtengo el dato `Lima`?
+Como obtenho o dado `Lima`?
 
-#### Opciones
+**Opções**
 
 1. `console.log(questions[1][1])`
 2. `console.log(questions[1][2])`
@@ -92,60 +90,60 @@ var questions = [
 
 1
 
-### 6\) Los elementos de un Array se almacenan en propiedades
+#### 6\) Os elementos de uma matriz são armazenados em propriedades
 
-#### Opciones
+**Opções**
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 1
 
-### 7\) ¿Cuál es el resultado del siguiente código?
+#### 7\) Qual é o resultado do código a seguir?
 
-```javascript
+```text
 var coders = ['michelle', 'lourdes', 'ruth'];
 
 coders.push('alejandra');
 ```
 
-#### Opciones
+**Opções**
 
 1. `['alejandra']`
 2. `['alejandra','michelle', 'lourdes', 'ruth']`
 3. `['michelle', 'lourdes', 'ruth', 'alejandra']`
-4. El código carece de argumentos.
+4. Faltam argumentos.
 
 3
 
-### 8\) ¿Cuál es el resultado del siguiente código?
+#### 8\) Qual é o resultado do seguinte código?
 
-```javascript
+```text
 var coders = ['michelle', 'lourdes', 'ruth'];
 var removed = coders.shift();
 
 console.log('Elemento eliminado: ' + removed);
 ```
 
-#### Opciones
+**Opções**
 
-1. Elemento eliminado: michelle
-2. Elemento eliminado: lourdes
-3. Elemento eliminado: ruth
+1. Elemento excluído: michelle
+2. Elemento excluído: lourdes
+3. Elemento excluído: ruth
 4. undefined
 
 1
 
-### 9\) ¿Cuál es el resultado del siguiente código?
+#### 9\) Qual é o resultado do seguinte código?
 
-```javascript
+```text
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.unshift('JS master', 'English for Developers');
 
 console.log(courses.length);
 ```
 
-#### Opciones
+**Opções**
 
 1. `['JS master', 'English for Developers']`
 2. `['Intro JS', 'Intro UX', 'UX master', 'JS master', 'English for Developers']`
@@ -154,9 +152,9 @@ console.log(courses.length);
 
 4
 
-### 10\) ¿Cuál es el resultado del siguiente código?
+#### 10\) Qual é o resultado do código a seguir?
 
-```javascript
+```text
 var listOfNumbers = [];
 for (var i = 0; i <= 5; i++) {
   listOfNumbers.push(i);
@@ -166,7 +164,7 @@ listOfNumbers.pop();
 console.log(listOfNumbers.length);
 ```
 
-#### Opciones
+**Opções**
 
 1. `2`
 2. `3`
@@ -175,9 +173,9 @@ console.log(listOfNumbers.length);
 
 4
 
-### 11\) En el siguiente código, completa el espacio
+#### 11\) No código a seguir, preencha o espaço
 
-```javascript
+```text
 var course1 = 'Intro JS, ' ;
 var course2 = 'Intro UX, ';
 var course3 = 'UX master.';
@@ -188,7 +186,7 @@ console.log(allCourses);
 // → Intro JS, Intro UX, UX master.
 ```
 
-#### Opciones
+**Opções**
 
 1. `concat{course1}`
 2. `course1.concat`
@@ -197,9 +195,9 @@ console.log(allCourses);
 
 2
 
-### 12\) ¿Cuál es el resultado del siguiente código?
+#### 12\) Qual é o resultado do seguinte código?
 
-```javascript
+```text
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.pop();
 courses.push('English for Developers');
@@ -207,7 +205,7 @@ courses.push('English for Developers');
 courses.indexOf('English for Developers');
 ```
 
-#### Opciones
+**Opções**
 
 1. `1`
 2. `2`
@@ -216,16 +214,16 @@ courses.indexOf('English for Developers');
 
 3
 
-### 13\) En el siguiente código, ¿qué método debo usar para obtener el resultado solicitado?
+#### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
 
-```javascript
+```text
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.___________;
 
 // → 'Intro JS,Intro UX,UX master,JS master'
 ```
 
-#### Opciones
+**Opções**
 
 1. `concat()`
 2. `join()`
@@ -234,9 +232,9 @@ courses.___________;
 
 2
 
-### 14\) En el siguiente código, ¿cuál sería el resultado?
+#### 14\) No código a seguir, qual seria o resultado?
 
-```javascript
+```text
 var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
 if (coders.length < 3) {
   coders.push('alejandra');
@@ -247,7 +245,7 @@ if (coders.length < 3) {
 }
 ```
 
-#### Opciones
+**Opções**
 
 1. `['alejandra']`
 2. `['lourdes']`
@@ -256,14 +254,14 @@ if (coders.length < 3) {
 
 3
 
-### 15\) ¿Cuál sería el resultado en el siguiente código?
+#### 15\) Qual seria o resultado no código a seguir?
 
-```javascript
+```text
 var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
 listOfNumbers.lastIndexOf(12);
 ```
 
-#### Opciones
+**Opções**
 
 1. `1`
 2. `2`
@@ -272,9 +270,9 @@ listOfNumbers.lastIndexOf(12);
 
 3
 
-### 16\) En el siguiente código, completa los espacios para que se invierta el orden de los elementos del `array`
+#### 16\) No código a seguir, preencha os espaços para que a ordem dos elementos do `array` seja invertida
 
-```javascript
+```text
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 for (var i = 0; i < array.length; i++) {
@@ -286,7 +284,7 @@ console.log(array);
 // → [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-#### Opciones
+**Opções**
 
 1. `pop` - `slice`
 2. `pop` - `splice`
@@ -295,9 +293,9 @@ console.log(array);
 
 2
 
-### 17\) En el siguiente código, ¿qué debemos comparar? Completa los espacios
+#### 17\) No código a seguir, o que devemos comparar? Complete os espaços
 
-```javascript
+```text
 function search(array, element) {
   for (var i = 0; i < array.length; i++) {
     if (_________ === _________) {
@@ -310,7 +308,7 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 // → 1
 ```
 
-#### Opciones
+**Opções**
 
 1. `array[i]` - `element`
 2. `length` - `array[i]`
