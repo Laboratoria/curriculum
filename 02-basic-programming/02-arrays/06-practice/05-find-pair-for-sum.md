@@ -1,4 +1,4 @@
-# 05 Find Pair For Sum
+# 05 - Find Pair For Sum
 
 ## findPairForSum
 
