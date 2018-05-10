@@ -1,4 +1,4 @@
-# 03 - get-element-of-array-property
+# 03 - Get Element of Array Property
 
 ## getElementOfArrayProperty
 
