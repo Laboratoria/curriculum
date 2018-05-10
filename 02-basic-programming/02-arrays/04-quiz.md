@@ -25,7 +25,7 @@
 
 **Opções**
 
-1. Para não mais usar strings
+1. Para deixar de usar strings
 2. Para iniciar seu programa
 3. Para não mais usar variáveis
 4. Para agrupar e manipular dados
