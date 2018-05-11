@@ -3,43 +3,43 @@
 ## Quiz 2
 
 * Tipo: `quiz`
-* Formato: `ritmo próprio`
-* Duração: `15min`
+* Formato: `individual`
+* Duração: `15 min`
 
 ### Objetivos
 
-* Faça um segundo teste para garantir que terminemos a unidade com uma compreensão total dos conceitos.
+* Faça um segundo teste para garantir que terminaremos a unidade com uma compreensão completa dos conceitos.
 
 ### Perguntas
 
-#### 1\) Para que servem os objetos?
+#### 1\) Para que os objetos são úteis?
 
 **Opções**
 
-1. Para deixar de usar arrays e variáveis
+1. Para deixar de usar _arrays_ e variáveis
 2. Para poder usar repositórios em `Git`
-3. Para armazenar diferentes informações sobre você
-4. Para salvar minhas informações na nuvem e compartilhá-las
+3. Para armazenar diferentes peças de informação sobre você
+4. Para salvar minhas informações na nuvem e depois compartilhá-las
 
 3
 
-#### 2\) Qual das seguintes afirmações sobre Objetos É correta? Você pode selecionar uma ou mais opções
+#### 2\) Qual das seguintes afirmações sobre Objetos é correta? Você pode selecionar uma ou mais opções.
 
 **Opções**
 
 1. As propriedades devem sempre ser colocadas entre aspas
-2. Nós não devemos incluir um array como propriedade
+2. Nós não devemos incluir um _array_ como propriedade
 3. Podemos incluir uma função como propriedade
-4. As _chaves_ dos objetos são equivalentes às suas propriedades
+4. As chaves dos objetos são equivalentes às suas propriedades
 
 3,4
 
-#### 3\) Podemos acessar os valores de um objeto usando colchetes `[ ]`ou usando ponto`.`
+#### 3\) Podemos acessar os valores de um objeto usando colchetes `[]`ou usando ponto`.`.
 
 **Opções**
 
 1. Verdadeiro
-2. Falsa
+2. Falso
 
 1
 
@@ -60,7 +60,7 @@
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
 };
 
@@ -82,7 +82,7 @@ console.log(movie.tags[1]);
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox'; 'Christopher Lloyd'; 'Lea Thompson'],
+  stars: ['Michael J. Fox'; 'Christopher Lloyd'; 'Lea Thompson'],
   oscar: 1,
   'other awards': 'best sound',
   tags: []
@@ -92,8 +92,8 @@ var movie = {
 **Opções**
 
 1. A propriedade `tags` não pode estar vazia
-2. As aspas `' '` da propriedade `other awards` estão a mais
-3. Na propriedade `stars`, eles devem usar vírgulas \(`,`\) em vez de pontos e vírgulas \(`;`\)
+2. As aspas `' '` da propriedade `other awards` estão sobrando
+3. Na propriedade `stars`, devemos usar vírgulas \(`,`\) em vez de pontos e vírgulas \(`;`\)
 4. Não há erro
 
 3

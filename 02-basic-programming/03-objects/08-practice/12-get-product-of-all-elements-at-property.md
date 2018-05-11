@@ -8,9 +8,9 @@ Dado um objeto e uma chave, `getProductOfAllElementsAtProperty` retorna o produt
 
 Notas:
 
-* Se o _array_ estiver vazio, ela deve retornar 0.
-* Se a propriedade na chave fornecida não for um _array_, ela deverá retornar 0.
-* Se não houver nenhuma propriedade na chave fornecida, ela deverá retornar 0.
+* Se o _array_ estiver vazio, ela deve devolver 0.
+* Se a propriedade na chave fornecida não for um _array_, ela deverá devolver 0.
+* Se não houver nenhuma propriedade na chave fornecida, ela deverá devolver 0.
 
 ```javascript
 var obj = {

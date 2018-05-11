@@ -3,16 +3,16 @@
 ## Retrospectiva
 
 * Tipo: `oficina`
-* Formato: `tutoria`
-* Duração: `2h`
+* Formato: `guiado`
+* Duração: `2 h`
 
 ### Objetivo
 
 * Refletir sobre a maneira como você está aprendendo
-* Identificar as coisas que estão funcionando, as que não funcionam e as que devemos começar a fazer
+* Identificar o que está e não está funcionando, e o que devemos começar a fazer
 
 ### Agenda
 
-1. Analise os resultados da pesquisa de encerramento
+1. Analisar os resultados da enquete de encerramento
 2. Retrospectiva
 

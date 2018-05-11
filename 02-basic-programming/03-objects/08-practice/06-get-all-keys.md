@@ -2,7 +2,7 @@
 
 ## getAllKeys
 
-Escreva uma função chamada "getAllKeys" que retorna uma matriz de todas as chaves do objeto de entrada.
+Escreva uma função chamada "getAllKeys" que retorna um _array_ com todas as chaves do objeto de entrada.
 
 Exemplo de entrada:
 
@@ -22,7 +22,7 @@ Valor de retorno da função \(saída\):
 
 Tenha em mente que sua função deve ser capaz de manipular qualquer objeto passado nela.
 
-Por exemplo, você também deve tratar uma entrada como:
+Por exemplo, você também deve tratar uma entrada como a seguinte:
 
 ```javascript
 {
@@ -33,7 +33,7 @@ Por exemplo, você também deve tratar uma entrada como:
 }
 ```
 
-Valor de retorno da função \(saída\):
+Saída da função:
 
 ```javascript
 ['a', 'number', 'hungry', 'grammyWins']

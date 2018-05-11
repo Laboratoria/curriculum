@@ -16,7 +16,8 @@ var person2 = {
   role: 'supervisor'
 };
 addObjectProperty(person1, 'manager', person2);
-console.log(person1.manager); // --> { name: 'Mr. Burns', role: 'supervisor' }
+console.log(person1.manager);
+// --> { name: 'Mr. Burns', role: 'supervisor' }
 ```
 
 

@@ -3,25 +3,25 @@
 ## Aula prática
 
 * Tipo: `oficina`
-* Formato: `tutoria`
+* Formato: `guiado`
 * Duração: `5h`
 
 ### Objetivos
 
-* Praticar codificação com suas professoras, resolvendo problemas de estruturas condicionais, de repetição e funções.
+* Praticar o desenvolvimento de código com professores, resolvendo problemas de estruturas condicionais, de repetição e funções.
 * Praticar, praticar e praticar
 
 ### Enunciados
 
-Em seguida, você tem mais problemas de prática. Estes problemas serão resolvidos, passo a passo, pela sua equipe de professoras em uma sessão presencial \(`oficina`\).
+A seguir, você terá mais problemas práticos. Estes problemas serão resolvidos passo a passo pela sua equipe de professores em uma sessão presencial \(`oficina`\).
 
-Sugerimos que você tente resolver os exercícios sozinha \(ou em equipe\) **antes** da sessão presencial. Então, você já virá com dúvidas específicas e você estará familiarizada com os desafios. Talvez você possa apresentar sua solução para a turma e assim ajudar o restante de suas colegas :\)
+Sugerimos que você tente resolver os exercícios sozinha \(ou em equipe\) **antes** da sessão presencial. Então, você já virá com dúvidas específicas e estará familiarizada com os desafios. Talvez você possa apresentar sua solução para a turma e assim ajudar o restante de suas colegas :\)
 
 #### 1. Placar
 
-Imagine que você está jogando um jogo com algumas amigas e quer registrar a pontuação de cada uma delas. Crie um `object` chamado `scores` em que as _chaves_ ou propriedades sejam os nomes dos suas amigas e os valores serão as pontuações \(todas começam com 0\).
+Imagine que você está jogando um jogo com algumas amigas e quer registrar a pontuação de cada uma delas. Crie um `object` chamado `scores` em que as chaves ou propriedades sejam os nomes das suas amigas e os valores, as pontuações \(todas começam com 0\).
 
-Escreva uma função que recebe dois argumentos, o nome do sua amiga e o número de novos pontos obtidos, e atualize os pontos da jogadora no `object` `scores`. Escreva também uma função que imprima na console o total de pontos.
+Escreva uma função que recebe dois argumentos: o nome da sua amiga e o número de novos pontos obtidos, e atualize os pontos da jogadora no `object` "scores". Escreva também uma função que imprima no console o total de pontos.
 
 #### 2. Caixa Automático
 
@@ -55,7 +55,7 @@ No caixa restam:
 1: 800
 ```
 
-O caixa lembra quanto dinheiro sobrou para as transações a seguir: por exemplo, se o usuário quiser retirar 150 dólares adicionais, a saída deve ficar assim:
+O caixa lembra quanto dinheiro sobrou para as próximas transações. Por exemplo, se o usuário quiser retirar 150 dólares adicionais, a saída deve ficar assim:
 
 ```javascript
 Valor solicitado 150 dólares, entregamos 2 notas:
@@ -75,7 +75,7 @@ No caixa restam:
 
 #### 3. Reserva de assentos de companhias aéreas
 
-Uma pequena companhia aérea acaba de comprar um computador para seu novo sistema de reservas automatizado. Você foi solicitada a desenvolver o novo sistema usando apenas `prompt` e `alert`. Você vai escrever um pedido para atribuir assentos em cada voo do único avião da companhia \(capacidade: 10 assentos\).
+Uma pequena companhia aérea acaba de comprar um computador para seu novo sistema de reservas automatizado. Você foi solicitada para desenvolver o novo sistema usando apenas `prompt` e `alert`. Você vai escrever um pedido para atribuir assentos em cada voo do único avião da companhia \(capacidade: 10 assentos\).
 
 Seu aplicativo deve mostrar um `menu principal` com as seguintes alternativas:
 
@@ -87,13 +87,13 @@ Seu aplicativo deve mostrar um `menu principal` com as seguintes alternativas:
 
 Se o usuário digitar 1, seu aplicativo deverá solicitar que você escolha um dos lugares livres e, em seguida, solicitar informações pessoais \(`nome e sobrenome` e `documento de identificação`\). Então você deve retornar para o `menu principal`.
 
-Se o usuário digitar 2, seu aplicativo deve pedir para ele escolher o assento reservado que deseja liberar, então ele deve solicitar uma configuração \(SIM/NÃO\) mostrando as informações associadas ao assento \(`nome e sobrenome`, `documento de identificação`\). Então você deve retornar para o `menu principal`.
+Se o usuário digitar 2, seu aplicativo deve pedir para ele escolher o assento reservado que deseja liberar, e depois ele deve solicitar uma confirmação \(SIM/NÃO\) mostrando as informações associadas ao assento \(`nome e sobrenome`, `documento de identificação`\). Então você deve retornar para o `menu principal`.
 
-Se o usuário digitar 3, seu aplicativo deve solicitar que você insira o documento de identificação e, em seguida, mostre as informações associadas ao passageiro \(`nome e sobrenome`, `assento`\) com o `documento de identificação` pesquisado. Então você deve retornar para o `menu principal`.
+Se o usuário digitar 3, seu aplicativo deve solicitar que você insira o documento de identificação e, em seguida, mostre as informações associadas ao passageiro \(`nome e sobrenome`, `assento`\) com o `documento de identificação` pesquisado. Em seguida, você deve retornar para o `menu principal`.
 
-Se o usuário digitar 4, sua aplicação deve mostrar a lista de passageiros e informações relacionadas \(`nome e sobrenome`, `documento de identificação`, `assento`\) registradas no sistema. Então você deve retornar para o `menu principal`.
+Se o usuário digitar 4, sua aplicação deve mostrar a lista de passageiros e informações relacionadas registradas no sistema \(`nome e sobrenome`, `documento de identificação`, `assento`\). A seguir, você deve retornar para o `menu principal`.
 
-Se o usuário digitar -1, seu aplicativo deverá sair do sistema.
+Se o usuário digitar -1, sua aplicação deve sair do sistema.
 
 **Dicas para a solução**
 

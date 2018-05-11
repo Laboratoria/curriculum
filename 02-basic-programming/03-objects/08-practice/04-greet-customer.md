@@ -22,7 +22,7 @@ var output = greetCustomer('Joe');
 console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
-Caso 3 - Repetir cliente: \(o valor de 'visitas' é maior que 1\)
+Caso 3 - Cliente repetido: \(o valor de 'visitas' é maior que 1\)
 
 ```javascript
 var output = greetCustomer('Carol');

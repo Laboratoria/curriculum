@@ -2,10 +2,10 @@
 
 ## transformFirstAndLast
 
-Escreva uma função 'transformFirstAndLast' que receba uma matriz e retorne um objeto com:
+Escreva uma função 'transformFirstAndLast' que receba um vetor e retorne um objeto com:
 
-1. o primeiro elemento da matriz como a chave do objeto e
-2. o último elemento da matriz como o valor dessa chave.
+1. o primeiro elemento do vetor como a chave do objeto e
+2. o último elemento do vetor como o valor dessa chave.
 
 Exemplo de entrada:
 
@@ -21,17 +21,17 @@ Valor de retorno da função \(saída\):
 }
 ```
 
-Não altere a matriz de entrada. Suponha que todos os elementos da matriz de entrada sejam do tipo `string`.
+Não altere o vetor de entrada. Suponha que todos os elementos do _array_ de entrada sejam do tipo `string`.
 
-Observe que a matriz de entrada pode ter um número variável de elementos. Seu código deve responder de forma flexível.
+Observe que o vetor de entrada pode ter um número variável de elementos. Seu código deve responder de forma flexível.
 
-Exemplo, você deve manipular a entrada como:
+Por exemplo, você deve manipular entradas como:
 
 ```javascript
 ['Kevin', 'Bacon', 'Amor', 'Hart', 'Costner', 'Spacey']
 ```
 
-Valor de retorno da função \(saída\):
+Saída da função:
 
 ```javascript
 {

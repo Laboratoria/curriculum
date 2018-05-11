@@ -4,21 +4,21 @@
 
 * Tipo: `oficina`
 * Formato: `tutorial`
-* Duração: `180min`
+* Duração: `3 h`
 
 ### Objetivos
 
 * Reconhecer o estresse e as emoções negativas relacionadas a ele, entendendo que é uma situação que todas nós enfrentamos em algum momento
 * Reconhecer os diferentes níveis de estresse, entendendo o conceito de estresse saudável
-* Reconhecer estilos positivos de enfrentamento diante de situações difíceis ou de alta demanda
-* Reconhecer diferentes estressores do nosso dia a dia
+* Reconhecer estilos positivos de enfrentamento diante de situações difíceis ou de alto nível de exigência
+* Reconhecer diferentes causas para o estresse do nosso dia a dia
 * Identificar algumas situações em que sentimos estresse, seus efeitos e como lidamos com isso
 * Entender o processo de inoculação do estresse e aplicá-lo em nossas vidas
-* Aplicar o Questionário de Enfrentamento de Estresse para alcançar um nível mais alto de introspecção
+* Aplicar o Questionário de Enfrentamento do Estresse para alcançar um nível mais alto de introspecção
 
 ### Agenda
 
-* Dinâmica "Copo de água"
+* Dinâmica "Copo d'água"
 * Compreensão teórica do estresse
 * Dinâmica do ABC
 * Revisão do Questionário de Enfrentamento de Estresse
@@ -30,7 +30,7 @@
 ### Material
 
 * [Apresentação sobre como lidar com o estresse](https://docs.google.com/presentation/d/1TZAKQLfgj-izKgimzbu9W1oe02OUVtrkQLf2OveNQgo/edit#slide=id.g276cb44519_0_27)
-* [Vídeo de estresse](https://www.youtube.com/watch?v=rc-AMRjCWKo)
+* [Vídeo sobre estresse](https://www.youtube.com/watch?v=rc-AMRjCWKo)
 
 ### Tarefa
 

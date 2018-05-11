@@ -3,8 +3,8 @@
 ## Exercícios Direcionados
 
 * Tipo: `prática`
-* Formato: `ritmo próprio`
-* Duração: `40min`
+* Formato: `individual`
+* Duração: `40 min`
 
 ### Objetivos
 
@@ -14,11 +14,11 @@
 
 Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas.
 
-Em seguida, você terá um problema para resolver. Tente resolvê-lo primeiro sozinha. Abaixo você encontrará a solução de Lourdes, outra estrela instrutora da Laboratoria. Depois de tentar, compare sua solução com a de Lourdes.
+Em seguida, você terá um problema para resolver. Tente resolvê-lo primeiro sozinha. Abaixo, você encontrará a solução de Lourdes, outra excelente instrutora da Laboratoria. Depois de tentar resolvê-lo, compare sua solução com a de Lourdes.
 
 #### 1. _Array_ para _Object_
 
-Escreva uma função que receba uma _array_ 2D e retorne um objeto com cada par de elementos `array` como um par de _valores-chave_ . Por exemplo:
+Escreva uma função que receba um _array _2D \(vetor\) e retorne um objeto com cada par de elementos do `array` como um par chave-valor . Por exemplo:
 
 * Entrada
 
@@ -30,17 +30,17 @@ Escreva uma função que receba uma _array_ 2D e retorne um objeto com cada par 
 
 ```javascript
 {
-  make : 'Ford',
-  model : 'Mustang',
-  year : 1964
+  make: 'Ford',
+  model: 'Mustang',
+  year: 1964
 }
 ```
 
-Escreva também uma função que faça o contrário. Transforme os pares de _valores-chave_ de um `object` em um `array 2D`.
+Escreva também uma função que faça o contrário. Transforme os pares de chave-valor de um `object` em um vetor.
 
 ### Resolução
 
-Em seguida, Lourdes explica como ela resolveu o exercício:
+A seguir, Lourdes explica como ela resolveu o exercício:
 
 #### 1. _Array_ para _Object_
 
