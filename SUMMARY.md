@@ -69,6 +69,6 @@
     * [02 - Code Review](02-basic-programming/04-final-products/02-code-review.md)
     * [03 - Soft Skills 2](02-basic-programming/04-final-products/03-soft-skills-2.md)
     * [04 - Soft Skills 3](02-basic-programming/04-final-products/04-soft-skills-3.md)
-    * [05 - Solution Final Products](02-basic-programming/04-final-products/05-solution-final-products.md)
+    * [05 - Solutions Final Products](02-basic-programming/04-final-products/05-solutions-final-products.md)
     * [06 - Retrospective](02-basic-programming/04-final-products/06-retrospective.md)
 
