@@ -1,12 +1,12 @@
-# addObjectProperty
+# 13 - Add Object Property
 
-Escribir una función llamada "addObjectProperty".
+## addObjectProperty
 
-Dado dos objetos y una clave, "addObjectProperty" establece una nueva propiedad
-en el primer objeto en la clave dada. El valor de esta nueva propiedad es el
-segundo objeto completo.
+Escreva uma função chamada "addObjectProperty".
 
-```js
+Dados dois objetos e uma chave, "addObjectProperty" define uma nova propriedade no primeiro objeto na chave determinada. O valor dessa nova propriedade é o segundo objeto completo.
+
+```javascript
 var person1 = {
   name: 'Joe Blow',
   role: 'schlub'
@@ -16,5 +16,9 @@ var person2 = {
   role: 'supervisor'
 };
 addObjectProperty(person1, 'manager', person2);
-console.log(person1.manager); // --> { name: 'Mr. Burns', role: 'supervisor' }
+console.log(person1.manager);
+// --> { name: 'Mr. Burns', role: 'supervisor' }
 ```
+
+
+

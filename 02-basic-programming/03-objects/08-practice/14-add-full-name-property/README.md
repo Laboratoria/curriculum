@@ -1,12 +1,12 @@
-# addFullNameProperty
+# 14 - Add Full Name Property
 
-Escribe una función llamada "addFullNameProperty".
+## addFullNameProperty
 
-Dado un objeto que tiene una propiedad "firstName" y una propiedad "lastName",
-"addFullNameProperty" devuelve una propiedad "fullName" cuyo valor es una
-cadena con el nombre y el apellido separados por un espacio.
+Escreva uma função chamada "addFullNameProperty".
 
-```js
+Dado um objeto que tem uma propriedade "firstName" e uma propriedade "lastName", "addFullNameProperty" retorna uma propriedade "fullName" cujo valor é uma string com o nome e sobrenome separados por um espaço.
+
+```javascript
 var person = {
   firstName: 'Jade',
   lastName: 'Smith'
@@ -14,3 +14,4 @@ var person = {
 addFullNameProperty(person);
 console.log(person.fullName); // --> 'Jade Smith'
 ```
+

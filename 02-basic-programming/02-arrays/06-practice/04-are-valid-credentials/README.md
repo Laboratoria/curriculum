@@ -1,14 +1,15 @@
-# areValidCredentials
+# 04 - Are Valid Credentials
 
-Escribe una función llamada `areValidCredentials`.
+## areValidCredentials
 
-Dando un nombre y una contraseña, `areValidCredentials`, devuelve `true` si el
-nombre es superior a 3 caracteres, Y, la contraseña tiene al menos 8 caracteres
-de longitud. De lo contrario, devuelve `false`.
+Escreva uma função chamada `areValidCredentials`.
 
-Ejemplo de entrada:
+Dado um nome e uma senha, `areValidCredentials` retorna `true`se o nome contiver mais do que 3 caracteres e a senha, pelo menos 8 caracteres. Caso contrário, retorna `false`.
 
-```js
+Exemplo:
+
+```javascript
 var output = areValidCredentials('Ritu', 'mylongpassword');
 console.log(output); // --> true
 ```
+

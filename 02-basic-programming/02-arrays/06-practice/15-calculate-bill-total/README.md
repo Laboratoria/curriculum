@@ -1,17 +1,18 @@
-# calculateBillTotal
+# 15 - Calculate Bill Total
 
-Escribe una función llamada `calculateBillTotal`.
+## calculateBillTotal
 
-Dado el pre impuesto y la cantidad antes de propina de una comida,
-`calculateBillTotal` devuelve la cantidad total debida después de impuestos y
-propina.
+Escreva uma função chamada `calculateBillTotal`.
+
+Dado o imposto e a quantia antes da gorjeta de uma refeição, `calculateBillTotal`devolve a quantia total devida depois de impostos e gorjeta.
 
 Notas:
 
-- Suponga que el impuesto de ventas es 9.5% y la propina es 15%.
-- NO incline el impuesto sobre las ventas, solo sobre la cantidad de propina.
+* Suponha que o imposto sobre vendas seja de 9,5% e a gorjeta seja de 15%.
+* NÃO aplique o imposto sobre a gorjeta, apenas sobre a venda.
 
-```js
+```text
 var output = calculateBillTotal(20);
 console.log(output); // -> 24,9
 ```
+

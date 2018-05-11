@@ -1,13 +1,15 @@
-# filterOddElements
+# 06 - Filter Odd Elements
 
-Escriba una función llamada "filterOddElements".
+## filterOddElements
 
-Dado un array de números,"filterOddElements" devuelve un array que contiene sólo
-los números impares del array dado.
+Escreva uma função chamada `filterOddElements`.
 
-Ejemplo:
+Dado um vetor de números, `filterOddElements` retorna um _array_ que contém apenas os números ímpares do vetor fornecido.
 
-```js
+Exemplo:
+
+```javascript
 var output = filterOddElements([1, 2, 3, 4, 5]);
 console.log(output); // --> [1, 3, 5]
 ```
+

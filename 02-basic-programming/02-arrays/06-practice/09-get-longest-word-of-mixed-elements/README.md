@@ -1,18 +1,20 @@
-# getLongestWordOfMixedElements
+# 09 - Get Longest Word of Mixed Elements
 
-Escriba una función llamada "getLongestWordOfMixedElements".
+## getLongestWordOfMixedElements
 
-Dado un arreglo de tipos mixtos, "getLongestWordOfMixedElements" devuelve la
-cadena más larga del arreglo dado.
+Escreva uma função chamada "getLongestWordOfMixedElements".
+
+Dado um array de tipos mistos, "getLongestWordOfMixedElements" devolve a _string_ mais longa do _array_ especificado.
 
 Notas:
 
-- Si el arreglo está vacío, debería devolver una cadena vacía ("").
-- Si el arreglo no contiene cadenas de texto, debería devolver una cadena vacía.
+* Se o _array_ estiver vazio, ela deve devolver uma _string_ vazia \(`""`\).
+* Se o _array_ não contiver cadeias de texto, ela deverá devolver uma _string_ vazia.
 
-Ejemplo:
+Exemplo:
 
-```js
+```javascript
 var output = getLongestWordOfMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 'word'
 ```
+

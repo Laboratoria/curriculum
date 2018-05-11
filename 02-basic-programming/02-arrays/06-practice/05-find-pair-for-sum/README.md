@@ -1,12 +1,13 @@
-# findPairForSum
+# 05 - Find Pair For Sum
 
-Dada una lista de números enteros no negativos y una suma objetivo, encuentre un
-par de números que sumen a la suma objetivo.
+## findPairForSum
 
-Ejemplo de entrada:
+Dada uma lista de inteiros não negativos e o resultado desejado de uma soma,  encontre dois números na lista cuja soma seja o resultado desejado.
 
-```js
+Exemplo de entrada:
+
+```javascript
 var pair = findPairForSum([3, 34, 4, 12, 5, 2], 9);
 console.log(pair); // --> [4, 5]
-
 ```
+
