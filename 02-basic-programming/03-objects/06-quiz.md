@@ -3,27 +3,27 @@
 ## Quiz 1
 
 * Tipo: `quiz`
-* Formato: `ritmo próprio`
-* Duração: `15min`
+* Formato: `individual`
+* Duração: `15 min`
 
 ### Objetivos
 
-* Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento em teste. É uma oportunidade para você calibrar e validar que realmente está aprendendo. Sucesso!
+* Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
 
 ### Perguntas
 
-#### 1\) Qual das seguintes afirmações sobre Objetos **NÃO** está correta?
+#### 1\) Qual das seguintes afirmações sobre objetos **NÃO** está correta?
 
 **Opções**
 
-1. As _chaves_ dos objetos são equivalentes às suas propriedades
+1. As chaves dos objetos são equivalentes às suas propriedades
 2. Podemos calcular seu comprimento com a propriedade `length`
-3. Não é necessário colocar as _chaves_ entre aspas
+3. Não é necessário colocar as chaves entre aspas
 4. Podemos incluir uma função como propriedade
 
 2
 
-#### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções
+#### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções.
 
 **Opções**
 
@@ -45,18 +45,18 @@
 
 3
 
-#### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de _capitalizar_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _tamanho_ do valor associado
+#### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de transformar em _maiúsculas_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _comprimento_ do valor associado
 
 **Opções**
 
-1. um objeto - um array
-2. um array - um objeto
+1. um objeto - um _array_
+2. um _array_ - um objeto
 3. uma propriedade - um método
 4. um método - uma propriedade
 
 4
 
-#### 5\) No código a seguir
+#### 5\) Confira o código a seguir.
 
 ```javascript
 var movie = {
@@ -78,13 +78,13 @@ Como eu acesso a propriedade `director`?
 
 3
 
-#### 6\) Qual é o erro no código a seguir?
+#### 6\) Qual é o erro no código abaixo?
 
 ```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson' ],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   oscar: 1,
   other awards: 'best sound',
   tags: []
@@ -100,13 +100,13 @@ var movie = {
 
 2
 
-#### 7\) Qual é o resultado do código a seguir?
+#### 7\) Qual é o resultado do código seguinte?
 
 ```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
 };
 
@@ -122,7 +122,7 @@ console.log(movie.stars[2]);
 
 3
 
-#### 8\) No código a seguir
+#### 8\) No código a seguir,
 
 ```javascript
 var movie = {
@@ -133,7 +133,7 @@ var movie = {
 };
 ```
 
-Como podemos acessar a lista de _chaves_ do objeto `movie`?
+como podemos acessar a lista de chaves do objeto `movie`?
 
 **Opções**
 

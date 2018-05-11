@@ -3,8 +3,8 @@
 ## Produtos Finais Solucionados
 
 * Tipo: `seminário`
-* Formato: `tutoria`
-* Duração: `3h`
+* Formato: `guiad`
+* Duração: `3 h`
 
 ### Objetivos
 
@@ -13,7 +13,7 @@
 
 ### Agenda
 
-1. Por meio de exemplos, nos certificamos de entender como funcionam:
+1. Por meio de exemplos, entenderemos como funcionam:
    * `charCodeAt()`
    * `String.fromCharCode()`
    * `ASCII` e `Unicode`

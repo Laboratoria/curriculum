@@ -26,7 +26,7 @@ As duas maneiras comuns de acessar propriedades ou métodos no Javascript são: 
 
 ### Propriedades e métodos de _arrays_
 
-Nós já vimos uma maneira de acessar as propriedades de um `array`. Quando acessamos os elementos de um `array`\(usando os colchetes `[]` e o índice\), estamos realmente acessando suas propriedades. Isso ocorre porque **os elementos de um arranjo são armazenados em propriedades**. Então, quando fazemos `myArray[0]`, estamos realmente dizendo ao JavaScript para retornar o valor armazenado na propriedade `0` do array, que é definido como o primeiro valor da "primeira caixinha" do `array`.
+Nós já vimos uma maneira de acessar as propriedades de um `array`. Quando acessamos os elementos de um `array` \(usando os colchetes `[]` e o índice\), estamos realmente acessando suas propriedades. Isso ocorre porque **os elementos de um arranjo são armazenados em propriedades**. Então, quando fazemos `myArray[0]`, estamos realmente dizendo ao JavaScript para retornar o valor armazenado na propriedade `0` do array, que é definido como o primeiro valor da "primeira caixinha" do `array`.
 
 #### Encontrando o comprimento de um _array_
 
@@ -61,9 +61,9 @@ Quando chamamos o método `push`, duas coisas acontecem. Primeiro, o elemento qu
 
 #### Outros métodos de _arrays_
 
-O JavaScript nos dá vários métodos para manipular `arrays`. Com eles podemos adicionar elementos ao início do `array`, remover elementos do `array`, concatenar `arrays`, unir mais de um `array` e muitas outras coisas.
+O JavaScript nos dá vários métodos para manipular `arrays`. Com eles, podemos adicionar elementos no início do `array`, remover elementos, concatenar `arrays`, unir mais de um `array` e muitas outras coisas.
 
-Como é habitual neste curso, você deve se acostumar a "aprender a aprender". Lembre-se que no mundo da tecnologia, o **autoaprendizado** é essencial. Novas ferramentas, linguagens ou tecnologias estão constantemente surgindo e você deve aprender por conta própria para se manter atualizada. Portanto, é importante que, desde o início, você se acostume a aprender sozinha e assuma o controle de seu desenvolvimento profissional.
+Como é habitual neste curso, você deve se acostumar a "aprender a aprender". Lembre-se de que no mundo da tecnologia, o **autoaprendizado** é essencial. Novas ferramentas, linguagens e tecnologias estão constantemente surgindo e você deve aprender por conta própria para se manter atualizada. Portanto, é importante que, desde o início, você se acostume a aprender sozinha e assuma o controle de seu desenvolvimento profissional.
 
 Abaixo, apresentamos uma lista de métodos dos `arrays` que você deve investigar por conta própria e aprender a usar.
 
@@ -78,30 +78,30 @@ Abaixo, apresentamos uma lista de métodos dos `arrays` que você deve investiga
 * `splice()`
 * `lastIndexOf()`
 
-Lembre-se de que, para sua pesquisa, recomendamos as informações oferecidas pelo [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Você também pode pesquisar no Google e experimentar o console, vendo como cada método se comporta. Eu sugiro que você abra o console, crie um `array` qualquer e vá testando o que você aprende para garantir que você entenda como as coisas funcionam.
+Lembre-se de que, para sua pesquisa, recomendamos as informações oferecidas pelo [MDN sobre arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Você também pode pesquisar no Google e experimentar no console, vendo como cada método se comporta. Eu sugiro que você abra o console, crie um `array` qualquer e vá testando o que você aprende para garantir que você entenda como as coisas funcionam.
 
 Lembre-se também de que você pode explorar outras formas de autoaprendizagem:
 
-* Pesquise outros recursos na Web. Um muito bom é stackoverflow. Em português, geralmente há menos conteúdo de qualidade, então você pode ter que se sustentar com o tradutor do Google.
+* Pesquise outros recursos na Web. Um muito bom é stackoverflow. Em português, geralmente há menos conteúdo de qualidade, então você pode precisar do tradutor do Google como apoio.
 * Consulte uma colega de turma
-* Verifique com uma amiga \(ou amigo\) quem sabe sobre programação :\)
+* Verifique com uma amiga \(ou amigo\) que sabe programação :\)
 
-_NOTA: É importante NÃO avançar se você não conseguiu entender bem os conceitos acima. O que se segue neste curso é construído sobre esses conceitos, então aproveite para aprender bem antes de seguir em frente._
+_NOTA: É importante NÃO avançar se você não conseguiu entender bem os conceitos anteriores. O que se segue neste curso é construído sobre esses conceitos, então use seu tempo para aprender bem antes de seguir em frente._
 
 ### Propriedades e métodos de objetos
 
-Já vimos que as _chaves_ dos `objects` são equivalentes às suas propriedades. E vimos como acessar essas propriedades. Precisamente ao criar o par de _valores-chave_ de um objeto, estamos criando uma propriedade que armazena o valor fornecido. Lembre-se do nosso exemplo com o objeto `movie`:
+Já vimos que as chaves dos `objects` são equivalentes às suas propriedades. E vimos como acessar essas propriedades. Precisamente, ao criar o par de chave-valor de um objeto, estamos criando uma propriedade que armazena o valor fornecido. Lembre-se do nosso exemplo com o objeto `movie`:
 
 ```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   'year of release': 1984,
   plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
+  'other awards': ['best sound']
 };
 
 console.log(movie['title']);
@@ -117,13 +117,13 @@ console.log(movie.title);
 // → Back to the Future
 ```
 
-Com `movie['title']` ou `movie.title` estamos acessando a **propriedade** chamada 'title' do objeto `movie`.
+Com `movie['title']` ou `movie.title` estamos acessando a **propriedade** chamada "title" do objeto `movie`.
 
-Também podemos criar **métodos para** `objects` que criamos \(como o objeto `movie` do exemplo\) . Conseguimos isso incluindo uma função como propriedade. Mas, por enquanto, não se preocupe com isso. Nós veremos mais tarde. Por enquanto, o importante é saber que, assim como `strings` e `arrays` têm propriedades e métodos, o mesmo acontece com `objects`. E lembre-se: as propriedades nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Os métodos conseguem _**fazê-lo**_ porque contêm funções.
+Também podemos criar **métodos para** `objects` que criamos \(como o objeto `movie` do exemplo\). Conseguimos isso incluindo uma função como propriedade. Mas, por enquanto, não se preocupe com isso. Nós veremos mais tarde. Por enquanto, o importante é saber que, assim como `strings` e `arrays` têm propriedades e métodos, o mesmo acontece com `objects`. E lembre-se: as propriedades nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Os métodos conseguem _**fazê-lo**_ porque contêm funções.
 
 #### O comprimento de um objeto?
 
-A propriedade `length` que podemos usar para calcular o comprimento de a `string` ou o `array` não é uma propriedade válida para os `objects` que criamos. Isto é, se ao objeto `movie` tentarmos aplicar a propriedade `length` o resultado é `undefined`.
+A propriedade `length` que podemos usar para calcular o comprimento de uma `string` ou um `array` não é uma propriedade válida para os `objects` que criamos. Isto é, se ao objeto `movie` tentarmos aplicar a propriedade `length` o resultado é `undefined`.
 
 ```javascript
 var movie = {
@@ -147,7 +147,7 @@ O que podemos fazer é acessar a lista de _chaves_ de um `object`. Podemos fazer
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   'year of release': 1984,
   plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
@@ -161,14 +161,14 @@ console.log(Object.keys(movie));
 
 ### Inspecionando _arrays_ e _objects_
 
-Para exibir no terminal as informações contidas em um `array` de duas dimensões ou um `object` que temos o método `.table()` de `console`.
+Para exibir no terminal as informações contidas em um `array` de duas dimensões ou em um `object`, temos o método `.table()` de `console`.
 
 ```javascript
 var questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
-  ['¿Cuál es la capital de Perú?', 'Lima'],
-  ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso']
+  ['Em quanto países a Laboratoria opera?', 3],
+  ['Qual a capital do Perú', 'Lima'],
+  ['Qual a dança típica do Chile?', 'Cueca'],
+  ['Qual a moeda do México?', 'Peso']
 ];
 
 console.log(questions);
@@ -177,13 +177,13 @@ console.log(questions);
 console.table(questions);
 ```
 
-![exemplo de impress&#xE3;o de matriz](https://camo.githubusercontent.com/65520d20810d1fc47baa090fac7dab29cf1c639d/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f32323632323934323232353831353233306332383661303461363065363635366f2e706e67)
+![exemplo da impress&#xE3;o de arranjo](https://camo.githubusercontent.com/65520d20810d1fc47baa090fac7dab29cf1c639d/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f32323632323934323232353831353233306332383661303461363065363635366f2e706e67)
 
 ```javascript
 var weblogs = [
-  {nombre: 'Genbeta', visitas: 2000, color: 'Azul'},
-  {nombre: 'Xataka', visitas: 32000, color: 'Verde'},
-  {nombre: 'Applesfera', visitas: 12000, color: 'Gris'}
+  {nome: 'Genbeta', visitas: 2000, cor: 'Azul'},
+  {nome: 'Xataka', visitas: 32000, cor: 'Verde'},
+  {nome: 'Applesfera', visitas: 12000, cor: 'Gris'}
 ];
 
 console.log(weblogs);

@@ -8,7 +8,7 @@ Dado um número e um objeto, "removeStringValuesLongerThan" remove qualquer prop
 
 Exemplo de entrada:
 
-```text
+```javascript
 var obj = {
   name: 'Montana',
   age: 20,

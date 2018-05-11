@@ -2,11 +2,11 @@
 
 ## convertObjectToList
 
-Escreva uma função chamada "convertObjectToList" que converte um objeto literal em uma matriz de matrizes, como esta:
+Escreva uma função chamada "convertObjectToList" que converte um objeto literal em um vetor de vetores, como neste exemplo:
 
 Argumento:
 
-```text
+```javascript
 {
   name: 'Holly',
   edad: 35,
@@ -14,21 +14,23 @@ Argumento:
 }
 ```
 
-Valor de retorno:
+Valor devolvido:
 
-```text
+```javascript
 [['name', 'Holly'], ['edad', 35], ['rol', 'productor']]
 ```
 
 Tenha em mente que sua função deve ser capaz de manipular qualquer objeto como este, não apenas a amostra exata fornecida acima.
 
-Por exemplo, você também deve conseguir manipular isso ou qualquer outro objeto que contenha pares de valores-chave simples.
+Por exemplo, você também deve conseguir manipular a entrada abaixo ou qualquer outro objeto que contenha pares de chave-valor simples.
 
-```text
+```javascript
 {
   species: 'canino',
   name: 'Bowser',
   weight: 45
 }
 ```
+
+
 

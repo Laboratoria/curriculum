@@ -3,10 +3,10 @@
 ## Desafios do código
 
 * Tipo: `prática`
-* Formato: `ritmo próprio`
-* Duração: `3h`
+* Formato: `individual`
+* Duração: `3 h`
 
 ### Objetivos
 
-* Aqui apresentamos uma série de desafios que você deve completar para colocar seu conhecimento a prova.
+* Aqui, apresentaremos uma série de desafios que você deve completar para testar seus conhecimentos.
 

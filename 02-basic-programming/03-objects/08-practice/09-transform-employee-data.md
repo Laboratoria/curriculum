@@ -6,23 +6,23 @@ Escreva uma função chamada "transformEmployeeData" que transforma alguns dados
 
 O argumento ficará assim:
 
-```text
+```javascript
 [
   [
-    [ ' firstName ' , ' Joe ' ], [ ' lastName ' , ' Blow ' ], [ ' age ' , 42 ], [ ' papel ' , ' balconista ' ]
+    ['firstName', 'Joe'], ['lastName', 'Blow'], ['age', 42], ['role', 'clerk']
   ]
   [
-    [ ' firstName ' , ' Mary ' ], [ ' lastName ' , ' Jenkins ' ], [ ' idade ' , 36 ], [ ' papel ' , ' gerente ' ]
+    ['firstName', 'Mary'], ['lastName', 'Jenkins'], ['age', 36 ], ['role', 'manager']
   ]
 ]
 ```
 
 Dada a entrada, o valor de retorno deve ficar assim:
 
-```text
+```javascript
 [
-    {firstName :  ' Joe ' , lastName :  ' Blow ' , age :  42 , papel :  ' clerk ' },
-    {firstName :  ' Mary ' , lastName :  ' Jenkins ' , idade :  36 , cargo :  ' manager ' }
+    {firstName: 'Joe', lastName: 'Blow', age: 42, role: 'clerk'},
+    {firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager'}
 ]
 ```
 

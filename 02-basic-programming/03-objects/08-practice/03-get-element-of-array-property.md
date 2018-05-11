@@ -8,14 +8,14 @@ Dado um objeto, uma chave e um índice numérico, `getElementOfArrayProperty` re
 
 Notas:
 
-* Se a matriz estiver vazia, ela deve retornar `undefined`.
-* Se o índice fornecido estiver fora do intervalo da matriz localizada na chave especificada, ele deverá retornar `undefined`.
-* Se a propriedade na chave fornecida não for uma matriz, ela deve retornar `undefined`.
-* Se não houver propriedade na chave, ela deve ser retornada `undefined`.
+* Se a matriz estiver vazia, ela deve devolver `undefined`.
+* Se o índice fornecido estiver fora do intervalo da matriz localizada na chave especificada, ela deverá devolver `undefined`.
+* Se a propriedade na chave fornecida não for uma matriz, ela deve devolver `undefined`.
+* Se não houver propriedade na chave, ela deve devolver `undefined`.
 
 Exemplo de entrada:
 
-```text
+```javascript
 var obj = {
  key: ['Jamil', 'Albrey']
 };
