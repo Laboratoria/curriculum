@@ -9,13 +9,13 @@ Escreva uma função 'transformFirstAndLast' que receba uma matriz e retorne um 
 
 Exemplo de entrada:
 
-```text
+```javascript
 ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
 ```
 
 Valor de retorno da função \(saída\):
 
-```text
+```javascript
 {
   Queen: 'Beyonce'
 }
@@ -27,13 +27,13 @@ Observe que a matriz de entrada pode ter um número variável de elementos. Seu 
 
 Exemplo, você deve manipular a entrada como:
 
-```text
+```javascript
 ['Kevin', 'Bacon', 'Amor', 'Hart', 'Costner', 'Spacey']
 ```
 
 Valor de retorno da função \(saída\):
 
-```text
+```javascript
 {
   Kevin: "Spacey"
 }

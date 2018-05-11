@@ -8,7 +8,7 @@ Dado um objeto, uma chave e um array, "addArrayProperty" define uma nova proprie
 
 Exemplo de entrada:
 
-```text
+```javascript
 var myObj = {};
 var myStr =  ' myProperty ' ;
 var myArray = [ 1 , 3 ];

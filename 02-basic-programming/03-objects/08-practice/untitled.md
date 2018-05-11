@@ -6,7 +6,7 @@ Escreva uma função chamada "convertObjectToList" que converte um objeto litera
 
 Argumento:
 
-```text
+```javascript
 {
   name: 'Holly',
   edad: 35,
@@ -16,7 +16,7 @@ Argumento:
 
 Valor de retorno:
 
-```text
+```javascript
 [['name', 'Holly'], ['edad', 35], ['rol', 'productor']]
 ```
 
@@ -24,11 +24,13 @@ Tenha em mente que sua função deve ser capaz de manipular qualquer objeto como
 
 Por exemplo, você também deve conseguir manipular isso ou qualquer outro objeto que contenha pares de valores-chave simples.
 
-```text
+```javascript
 {
   species: 'canino',
   name: 'Bowser',
   weight: 45
 }
 ```
+
+
 

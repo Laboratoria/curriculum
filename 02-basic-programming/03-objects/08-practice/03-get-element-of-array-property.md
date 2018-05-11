@@ -15,7 +15,7 @@ Notas:
 
 Exemplo de entrada:
 
-```text
+```javascript
 var obj = {
  key: ['Jamil', 'Albrey']
 };

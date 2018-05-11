@@ -12,11 +12,13 @@ Notas:
 * Se a propriedade na chave fornecida não for um _array_, ela deverá retornar 0.
 * Se não houver nenhuma propriedade na chave fornecida, ela deverá retornar 0.
 
-```text
+```javascript
 var obj = {
   key: [4, 1, 8];
 };
 var output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 ```
+
+
 

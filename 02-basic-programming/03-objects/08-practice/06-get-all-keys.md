@@ -6,7 +6,7 @@ Escreva uma função chamada "getAllKeys" que retorna uma matriz de todas as cha
 
 Exemplo de entrada:
 
-```text
+```javascript
 {
   name: 'Sam',
   age: 25,
@@ -16,7 +16,7 @@ Exemplo de entrada:
 
 Valor de retorno da função \(saída\):
 
-```text
+```javascript
 ['name', 'age', 'hasPets']
 ```
 
@@ -24,7 +24,7 @@ Tenha em mente que sua função deve ser capaz de manipular qualquer objeto pass
 
 Por exemplo, você também deve tratar uma entrada como:
 
-```text
+```javascript
 {
   a: 'a',
   number: 11,
@@ -35,7 +35,9 @@ Por exemplo, você também deve tratar uma entrada como:
 
 Valor de retorno da função \(saída\):
 
-```text
+```javascript
 ['a', 'number', 'hungry', 'grammyWins']
 ```
+
+
 

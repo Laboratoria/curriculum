@@ -6,7 +6,7 @@ Escreva uma função chamada "addObjectProperty".
 
 Dados dois objetos e uma chave, "addObjectProperty" define uma nova propriedade no primeiro objeto na chave determinada. O valor dessa nova propriedade é o segundo objeto completo.
 
-```text
+```javascript
 var person1 = {
   name: 'Joe Blow',
   role: 'schlub'
