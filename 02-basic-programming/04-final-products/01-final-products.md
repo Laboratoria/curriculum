@@ -12,9 +12,9 @@
 
 Para cada produto, você deve entregar **um repositório do GitHub** que contenha:
 
-1. Arquivo `README.md`que explica o **pseudocódigo** de sua solução e seu **diagrama de fluxo**
-2. Arquivo `app.js`com o **código** da sua solução
-3. Arquivo `index.html`vinculado ao seu`app.js`
+1. Arquivo `README.md` que explica o **pseudocódigo** de sua solução e seu **diagrama de fluxo**
+2. Arquivo `app.js` com o **código** da sua solução
+3. Arquivo `index.html` vinculado ao seu `app.js`
 
 ## Critérios de avaliação
 
@@ -24,7 +24,7 @@ As considerações a seguir serão levadas em conta ao avaliar sua solução:
 2. Indentação
 3. Validação de entrada: o usuário não deve ser capaz de inserir um campo vazio ou de um tipo incorreto
 4. Estrutura dos seus arquivos
-5. Arquivo `README.md`escrito corretamente
+5. Arquivo `README.md` escrito corretamente
 6. Uso de comentários para tornar seu código mais legível
 7. Que o programa cumpra o objetivo exigido
 
@@ -32,8 +32,8 @@ As considerações a seguir serão levadas em conta ao avaliar sua solução:
 
 Para cada produto, você deve entregar **um repositório do GitHub** que contenha:
 
-1. Arquivo `README.md`que explica o **pseudocódigo** de sua solução e seu **diagrama de fluxo**
-2. Arquivo `app.js`com o **código** da sua solução
+1. Arquivo `README.md` que explica o **pseudocódigo** de sua solução e seu **diagrama de fluxo**
+2. Arquivo `app.js` com o **código** da sua solução
 
 ## 1. Cifra de César
 
@@ -56,8 +56,8 @@ Também compartilhamos mais informações do que Michelle explicou no vídeo ant
 
 > Considerações Específicas
 >
-> 1. Seu programa deve ser capaz de criptografar e descriptografar letras maiúsculas e minúsculas. A fórmula para decifrar é:`(x - n) % 26`
-> 2. O código deve ser composto de 2 funções com os seguintes nomes: `cipher`e`decipher`
+> 1. Seu programa deve ser capaz de criptografar e descriptografar letras maiúsculas e minúsculas. A fórmula para decifrar é: `(x - n) % 26`
+> 2. O código deve ser composto de 2 funções com os seguintes nomes: `cipher` e `decipher`
 > 3. O usuário não deve poder inserir um campo vazio ou um que contenha números
 
 ## 2. Cartão de Crédito Válido
