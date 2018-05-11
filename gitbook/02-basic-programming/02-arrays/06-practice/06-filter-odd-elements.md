@@ -1,1 +1,15 @@
-../../../../02-basic-programming/02-arrays/06-practice/06-filter-odd-elements/README.md
+# 06 - Filter Odd Elements
+
+## filterOddElements
+
+Escreva uma função chamada `filterOddElements`.
+
+Dado um vetor de números, `filterOddElements` retorna um _array_ que contém apenas os números ímpares do vetor fornecido.
+
+Exemplo:
+
+```javascript
+var output = filterOddElements([1, 2, 3, 4, 5]);
+console.log(output); // --> [1, 3, 5]
+```
+

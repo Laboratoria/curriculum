@@ -1,1 +1,15 @@
-../../../../02-basic-programming/02-arrays/06-practice/01-compute-average-length-of-words/README.md
+# 01 - Compute Average Length of Words
+
+## computeAverageLengthOfWords
+
+Escreva uma função `computeAverageLengthOfWords` que receba duas strings e devolva o comprimento médio de ambas as strings.
+
+Exemplo de entrada:
+
+```javascript
+var output = computeAverageLengthOfWords('code', 'programs');
+console.log(output); // --> 6
+```
+
+
+

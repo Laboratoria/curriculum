@@ -1,1 +1,19 @@
-../../../../02-basic-programming/03-objects/08-practice/01-add-array-property/README.md
+# 01 - Add Array Property
+
+## addArrayProperty
+
+Escreva uma função chamada "addArrayProperty\(obj, key, array\)".
+
+Dado um objeto, uma chave \(_key_\) e um array, "addArrayProperty" define uma nova propriedade no objeto na chave fornecida, com seu valor definido no _array_ especificado.
+
+Exemplo de entrada:
+
+```javascript
+var myObj = {};
+var myStr = 'myProperty';
+var myArray = [1 ,3 ];
+
+addArrayProperty(myObj, myStr, myArray);
+console.log(myObj.myProperty); // -> [1, 3]
+```
+

@@ -1,1 +1,19 @@
-../../../../02-basic-programming/02-arrays/06-practice/02-get-nth-element/README.md
+# 02 - Get Nth Element
+
+## getNthElement
+
+Escreva uma função chamada `getNthElement`.
+
+Dado um _array_ e um inteiro, `getNthElement` devolve o valor de acordo com o inteiro dado, dentro do array fornecido.
+
+Notas:
+
+* Se o array tiver um comprimento de `0`, ele deve retornar  `undefined`.
+
+Exemplo de entrada:
+
+```javascript
+var output = getNthElement([1, 3, 5], 1);
+console.log(output); // --> 3
+```
+
