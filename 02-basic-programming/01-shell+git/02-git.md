@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `60 min`
 
+***
+
 ## Objetivos de Aprendizagem
 
 * Entender o que é `Git` e por que ele é importante

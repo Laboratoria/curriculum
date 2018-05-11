@@ -4,6 +4,8 @@
 * Formato: `guiado`
 * Duração: `3 h`
 
+***
+
 ## Objetivos
 
 * Receber feedback de seus colegas sobre a limpeza e organização do seu código

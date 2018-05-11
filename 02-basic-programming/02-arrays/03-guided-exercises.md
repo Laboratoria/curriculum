@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `80 min`
 
+***
+
 ## Objetivos {#objetivos}
 
 * Entender, através de casos práticos, como aplicar os conceitos de _funções e_ _arrays_ para resolver problemas.

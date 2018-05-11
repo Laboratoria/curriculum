@@ -4,6 +4,8 @@
 * Formato: `guiado`
 * Duração: `30 min`
 
+***
+
 ## Objetivos
 
 * Conhecer o aspecto geral do **Sprint 1: Programação Básica com JavaScript**

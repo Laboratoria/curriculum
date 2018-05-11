@@ -4,6 +4,8 @@
 * Formato:`guiado`
 * Duração:`60 min`
 
+***
+
 ## Objetivos
 
 * Conhecer o plano de estudos do Bootcamp

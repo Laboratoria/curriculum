@@ -4,6 +4,8 @@
 * formato: `individual`
 * Duração: `5 min`
 
+***
+
 ## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
 
 Nesta unidade, aprenderemos:

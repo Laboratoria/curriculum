@@ -6,6 +6,8 @@
 * Formato: `tutorial`
 * Duração: `3 h`
 
+***
+
 ### Objetivos
 
 * Reconhecer o estresse e as emoções negativas relacionadas a ele, entendendo que é uma situação que todas nós enfrentamos em algum momento

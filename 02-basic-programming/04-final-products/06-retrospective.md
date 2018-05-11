@@ -6,6 +6,8 @@
 * Formato: `guiado`
 * Duração: `2 h`
 
+***
+
 ### Objetivo
 
 * Refletir sobre a maneira como você está aprendendo

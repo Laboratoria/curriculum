@@ -6,6 +6,8 @@
 * Formato: `guiad`
 * Duração: `3 h`
 
+***
+
 ### Objetivos
 
 * Revisar as soluções dos produtos finais

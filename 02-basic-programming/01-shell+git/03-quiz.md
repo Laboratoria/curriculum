@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duración: `10 min`
 
+***
+
 ## Objetivos
 
 Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e fazer uma auto-avaliação. É uma oportunidade para verificar que realmente está aprendendo. Boa sorte!

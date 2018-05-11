@@ -6,6 +6,8 @@
 * Formato: `individual`
 * Duração: `60 min`
 
+***
+
 ### Objetivos de Aprendizagem
 
 * Aprender o que são `objects` e para que servem
@@ -180,25 +182,25 @@ Assim como com `arrays`, podemos adicionar ou alterar os elementos de um `object
 Vamos ver um exemplo que começa com um `object`vazio e segue adicionando e modificando elementos.
 
 ```javascript
-// criando um objeto vazio 
-var student = {}; 
+// criando um objeto vazio
+var student = {};
 
-// adicionando elementos ao objeto com colchetes e aspas 
-student ['name'] = 'Carolina'; 
-student['pontos' ] = 2500; 
+// adicionando elementos ao objeto com colchetes e aspas
+student ['name'] = 'Carolina';
+student['pontos' ] = 2500;
 
-// adicionando elementos ao objeto com a notação de ponto 
+// adicionando elementos ao objeto com a notação de ponto
 student.courses = ['Enter para JS', 'Enter to UX'];
-student.isActive = true; 
+student.isActive = true;
 
 // imprimindo o objeto
 console.log(student);
-// → Objeto {name: 'Carolina', pontos: 2500, cursos: Array (2), isActive: true} 
+// → Objeto {name: 'Carolina', pontos: 2500, cursos: Array (2), isActive: true}
 
 // atualizando os pontos
-student['points'] = 3500; 
+student['points'] = 3500;
 
-// imprimindo o objeto novamente 
+// imprimindo o objeto novamente
 console.log(student);
 // → Objeto {nome: 'Carolina', pontos: 3500, cursos: Matriz (2), isActive: true}
 ```

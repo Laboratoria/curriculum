@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `15 min`
 
+***
+
 ## Objetivos {#objetivos}
 
 * Faça um segundo teste para garantir que terminamos a unidade com total compreensão dos conceitos.
@@ -34,7 +36,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 3
 
-#### 3\) Considere o código abaixo: 
+#### 3\) Considere o código abaixo:
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 4, 5, 6];

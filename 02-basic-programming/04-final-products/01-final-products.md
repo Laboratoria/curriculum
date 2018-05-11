@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `4 h`
 
+***
+
 ## Objetivos
 
 É hora de testar o que aprendeu: você deverá criar dois programas que têm uma aplicação em nosso cotidiano. O primeiro é um programa usado para criptografar mensagens, e o segundo é para verificar se um número de cartão de crédito é válido.

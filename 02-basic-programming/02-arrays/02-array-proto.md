@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `30 min`
 
+***
+
 Arranjos \(_arrays_\) em JavaScript são implementados como objetos, o que pode soar um pouco estranho mas, em JavaScript, quase todos os tipos de dados \(`number`, `string`, `array`, ...\) são implementados como objetos e, como tal, os valores desses _tipos_ terão uma série de _métodos_ e _propriedades_ associados a eles. Tecnicamente, eles herdam esses _métodos_ e _propriedades_ de um _protótipo_.
 
 Neste curso, nós não vamos aprofundar o mecanismo de _herança prototipal_  em JavaScript, mas precisamos ao menos saber que qualquer arranjo \(_array_\) em JavaScript é uma _instância_ do construtor \(_constructor_\) `Array` e, portanto, herda todos os _métodos_ e _propriedades_ definidos em `Array.prototype`.

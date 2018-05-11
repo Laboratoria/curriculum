@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `60 min`
 
+***
+
 ## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
 
 * Aprenda o que são vetores \(_arrays_\) e para que servem
@@ -27,7 +29,7 @@ Uma opção para representar isso seria:
 var firstNumber = 2;
 var secondNumber = 3;
 var thirdNumber = 5;
-var fourthNumber = 7; 
+var fourthNumber = 7;
 ```
 
 Esta lista é bem estranha e trabalhosa. Isso implica em ter uma variável para cada elemento da nossa lista. Quando, na realidade, devemos ter apenas uma única variável que "contenha" cada um. Imagine se você quiser uma lista de 1.000 elementos!
@@ -35,7 +37,7 @@ Esta lista é bem estranha e trabalhosa. Isso implica em ter uma variável para 
 Outra opção - mais criativa - seria usar uma `string`. Afinal, as _strings_ podem ser de qualquer tamanho, e então podemos colocar muita informação nelas. Poderíamos usar uma cadeia de caracteres \(_string_\) com os números intercalados por um espaço, como esta:
 
 ```javascript
-var listOfNumbers = '2 3 5 7 11'; 
+var listOfNumbers = '2 3 5 7 11';
 ```
 
 No entanto, isso também é complicado. Teríamos que encontrar uma maneira de extrair cada elemento de uma `string` \(considerando os espaços entre eles\) e também teríamos que convertê-los para `number` a fim de acessar e manipular cada um dos números.
@@ -43,7 +45,7 @@ No entanto, isso também é complicado. Teríamos que encontrar uma maneira de e
 Felizmente, o Javascript fornece um tipo específico de dados para armazenar sequência de valores. É chamado de `array` \(arranjo ou vetor/matriz\) e é escrito como uma lista de valores entre colchetes, separados por vírgulas.
 
 ```javascript
-var listOfNumbers = [2, 3, 5, 7, 11];     
+var listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
 Os arranjos são extremamente úteis para agrupar e manipular dados. É como quando vamos ao mercado e temos nossa "lista de compras". Poderíamos ter uma folha de papel para cada item que queremos comprar. Por exemplo, poderíamos ter uma folha de papel que diz "ovos", outra folha que diz "pão" e outra folha que diz "laranjas". No entanto, a maioria das pessoas escreve todos os itens para comprar em **uma única folha de papel**.
@@ -66,7 +68,7 @@ console.log(listOfNumbers[1 - 1];
 //                   ÍNDICE
 //                   0  1  2  3  4
 //                   |  |  |  |  |
-var listOfNumbers = [2, 3, 5, 7, 11];     
+var listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
 Se você não tem experiência em programação, habituar-se com essa convenção pode levar algum tempo. Mas a contagem baseada em zero tem uma longa tradição em tecnologia e, desde que a convenção seja seguida consistentemente \(o que é feito em JavaScript\), ela funciona bem. Tome muito cuidado, pois esse descuido é a causa de muitos _bugs_, inclusive para programadores um pouco mais experientes.
@@ -100,7 +102,7 @@ var listOfNumbers = [];
 
 listOfNumbers[0] = 2;
 listOfNumbers[1] = 3;
-listOfNumbers[2] = 5; 
+listOfNumbers[2] = 5;
 listOfNumbers[3] = 7;
 listOfNumbers[4] = 11;
 
@@ -129,8 +131,8 @@ Podemos até ter um vetor dentro de outro \(algo que muitas pessoas chamam de ma
 ```javascript
 var questions = [
   ['Em quantos países a Laboratoria opera?', 3],
-  ['Qual é a capital do Peru?', 'Lima'], 
-  ['O que é dança chilena típica?', 'Cueca'], 
+  ['Qual é a capital do Peru?', 'Lima'],
+  ['O que é dança chilena típica?', 'Cueca'],
   ['Qual é a moeda do México?', 'Peso']
 ];
 ```

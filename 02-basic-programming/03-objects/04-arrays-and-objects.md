@@ -6,6 +6,8 @@
 * Formato: `individual`
 * Duração: `60 min`
 
+***
+
 ### Objetivos de Aprendizagem
 
 * Entender, por meio de um exemplo, como combinar as duas estruturas de dados estudadas nesta unidade: `array` e `object`

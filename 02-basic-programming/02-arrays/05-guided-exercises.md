@@ -4,6 +4,8 @@
 * Formato: `individual`
 * Duração: `3 h`
 
+***
+
 ## Objetivos {#objetivos}
 
 * Praticar escrevendo código com sua equipe de professores, resolvendo problemas com estruturas de controle de fluxo básicas que você já conhece e vetores \(_arrays_\).
@@ -19,7 +21,7 @@ Sugerimos que você tente resolver os exercícios sozinho \(ou em equipe\) **ant
 
 Crie uma função `range` que receba dois argumentos: `start` \(início\) e `end` \(fim\) e devolva um vetor \(_array_\) que contenha a sequência de números desde `start` até `end` \(inclusive\).
 
-Em seguida, escreva uma função `sum` que receba um vetor de números e devolva a soma de todos eles. Confira que o resultado 55 seja impresso ao executar `console.log(sum(range(1,10)))`. 
+Em seguida, escreva uma função `sum` que receba um vetor de números e devolva a soma de todos eles. Confira que o resultado 55 seja impresso ao executar `console.log(sum(range(1,10)))`.
 
 Agora, modifique a função de intervalo \(`range`\) para receber um terceiro argumento, opcional, que indique o valor de _step_ \(passo\) a ser utilizado na construção do vetor. Quando nenhum passo for informado, os elementos do _array_ aumentam de um em um, como no comportamento anterior. A chamada `range(1, 10, 2)` deve devolver `[1, 3, 5, 7, 9]` . Certifique-se de que também funciona com passos negativos, de modo que `range(5, 2, -1)` devolva `[5, 4, 3, 2]`.
 

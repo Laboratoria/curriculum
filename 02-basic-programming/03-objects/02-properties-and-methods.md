@@ -6,6 +6,8 @@
 * Formato: `individual`
 * Duração: `60 min`
 
+***
+
 ### Objetivos de Aprendizagem
 
 * Saiba quais são as propriedades e métodos em JavaScript
