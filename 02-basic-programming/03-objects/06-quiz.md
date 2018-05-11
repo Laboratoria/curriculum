@@ -45,7 +45,7 @@
 
 3
 
-#### 4\) `toUpperCase()`é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de _capitalizar_ o valor associado, enquanto `length`é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _tamanho_ do valor associado
+#### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de _capitalizar_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _tamanho_ do valor associado
 
 **Opções**
 
@@ -58,7 +58,7 @@
 
 #### 5\) No código a seguir
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -80,7 +80,7 @@ Como eu acesso a propriedade `director`?
 
 #### 6\) Qual é o erro no código a seguir?
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -93,16 +93,16 @@ var movie = {
 
 **Opções**
 
-1. O número `1`deve estar entre aspas
+1. O número `1` deve estar entre aspas
 2. Faltam as aspas para a propriedade `other awards`
-3. A propriedade `tags`não pode estar vazia
+3. A propriedade `tags` não pode estar vazia
 4. Não há erro
 
 2
 
 #### 7\) Qual é o resultado do código a seguir?
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -124,7 +124,7 @@ console.log(movie.stars[2]);
 
 #### 8\) No código a seguir
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -146,7 +146,7 @@ Como podemos acessar a lista de _chaves_ do objeto `movie`?
 
 #### 9\) Qual é o erro no código a seguir?
 
-```text
+```javascript
 function objectToArray(object) {
 
   var items = Object.keys(object);

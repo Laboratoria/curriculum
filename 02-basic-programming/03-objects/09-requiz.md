@@ -56,7 +56,7 @@
 
 #### 5\) Qual é o resultado do código a seguir?
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -78,7 +78,7 @@ console.log(movie.tags[1]);
 
 #### 6\) Qual é o erro no código a seguir?
 
-```text
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -91,9 +91,9 @@ var movie = {
 
 **Opções**
 
-1. A propriedade `tags`não pode estar vazia
-2. As aspas `' '`propriedade `other awards`estão a mais
-3. Na propriedade `stars`, eles devem usar vírgulas em `,`vez de pontos e vírgulas`;`
+1. A propriedade `tags` não pode estar vazia
+2. As aspas `' '` da propriedade `other awards` estão a mais
+3. Na propriedade `stars`, eles devem usar vírgulas \(`,`\) em vez de pontos e vírgulas \(`;`\)
 4. Não há erro
 
 3
