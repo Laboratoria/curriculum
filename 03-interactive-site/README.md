@@ -1,18 +1,16 @@
-# 03 - Site interativo
+# 03 - Interactive Site
 
-##  Criando um site interativo com JavaScript
+## Criando um site interativo com JavaScript
 
-  
-Neste curso, você aprenderá tudo o que precisa para criar um site da Web Interativo - um que responde às ações do usuário. Para isto você aprenderá a:  
-  
+Neste curso, você aprenderá tudo o que precisa para criar um site da Web Interativo - um que responde às ações do usuário. Para isto você aprenderá a:
+
 1. Projetar a experiência do usuário que seu produto oferecerá, aplicando conceitos e técnicas de `design 'ux'`  
 2. Disponibilizar um site para apresentar informações \(texto, imagens, links, etc.\) na web, usando `html` e `css`  
 3. Dar interatividade ao seu site da web através da programação com `JavaScript`  
 
-
 ### Público alvo
 
-Este curso é destinado às estudantes da Laboratoria. É o segundo curso que é tomado como parte do _bootcamp_. 
+Este curso é destinado às estudantes da Laboratoria. É o segundo curso que é tomado como parte do _bootcamp_.
 
 ### Pré-requisitos
 
@@ -26,12 +24,11 @@ O objetivo deste curso é aplicar o que você sabe sobre programação em site n
 
 Criar uma página web estática usando as principais marcações `html` e estilizá-la com `css`  
 O que é o Document Object Model \(DOM\) e o Browser Object Model \(BOM\) e como utilizar JavaScript para para manipular o `html` e \`css\` do seu produto  
-O que é o `ux design` e por que é uma peça-chave para o desenvolvimento de um produto digital  
-  
-Tags principais: `html`, `css properties`, `css selectors`, `dom`, `bom`, `events`, `ux design`.  
-  
-Tags Secundárias: `display`, `box model`, `positioning`, `layout`, `sketching`.  
+O que é o `ux design` e por que é uma peça-chave para o desenvolvimento de um produto digital
 
+Tags principais: `html`, `css properties`, `css selectors`, `dom`, `bom`, `events`, `ux design`.
+
+Tags Secundárias: `display`, `box model`, `positioning`, `layout`, `sketching`.
 
 ### Duração
 
@@ -39,8 +36,8 @@ Tags Secundárias: `display`, `box model`, `positioning`, `layout`, `sketching`.
 
 ### Produtos para desenvolvimento
 
-Com este curso você desenvolverá seus primeiros produtos digitais. Você vai colocar em prática o conhecimento aprendido para criar os seguintes produtos da web:  
-  
+Com este curso você desenvolverá seus primeiros produtos digitais. Você vai colocar em prática o conhecimento aprendido para criar os seguintes produtos da web:
+
 1. **Portfólio**: você criará sua página pessoal para mostrar suas informações profissional através da web.  
 2. **Jogo do Labirinto**: você criará seu primeiro jogo animado! O jogador deve mover o personagem principal usando as setas e encontrar a saída em um labirinto.  
 3. **Data Dashboard**: seu produto final será projetar e criar um site interativo, de média complexidade, mostrando os dados e o perfil de uma estudante da Laboratoria.
@@ -79,7 +76,7 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 
 ### Unidade 02: [Criando Interação com JavaScript](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/01-making-your-site-interactive)
 
- 30-35h
+30-35h
 
 É hora de unir a programação com o layout para tornar nossos produtos da Web estáticos interativos usando `JavaScript`.
 
@@ -103,14 +100,14 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 
 ### Unidade 03: [Introdução a _User Experience Design_](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/02-ux-design)
 
- 15-20h
+15-20h
 
 Todo site da precisa ser projetado com o usuário em mente. Antes de começar a criar seu produto final, é importante que você conheça as técnicas de design da experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
 | \# | Tipo | Duração | Tópico |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 00 | Leitura | 30min | Abertura |
-| 01 | Leitura | 15min |  A equipe de desenvolvimento |
+| 01 | Leitura | 15min | A equipe de desenvolvimento |
 | 02 | Leitura | 15min | UX Design |
 | 03 | Leitura | 30min | UX vs UI |
 | 04 | Leitura | 30min | Navegação |
@@ -126,9 +123,9 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a 
 
 ### Unidade 04: [Data Dashboard](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/03-data-dashboard)
 
- 20h
+20h
 
- O desafio final deste curso é criar uma página web interativa, de média complexidade, que mostre os dados e o perfil de uma estudante da Laboratoria. Você deve fazer o UX da sua página, o layout e programar sua interação com o JavaScript. Vamos com tudo!
+O desafio final deste curso é criar uma página web interativa, de média complexidade, que mostre os dados e o perfil de uma estudante da Laboratoria. Você deve fazer o UX da sua página, o layout e programar sua interação com o JavaScript. Vamos com tudo!
 
 | \# | Tipo | Duración | Tópico |
 | --- | --- | --- | --- | --- | --- |
@@ -137,8 +134,6 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a 
 | 02 | Seminário | 2h | Resoluções |
 | 03 | Questionário | 2h | Pesquisas para fechamento de sprint |
 | 04 | Oficina | 1h | Revisão |
-
-
 
 ## Avaliação
 
