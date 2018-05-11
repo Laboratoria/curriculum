@@ -1,0 +1,1 @@
+../../../../02-basic-programming/02-arrays/06-practice/08-find-smallest-number-among-mixed-elements/README.md

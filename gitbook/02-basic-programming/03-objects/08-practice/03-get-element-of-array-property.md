@@ -1,0 +1,1 @@
+../../../../02-basic-programming/03-objects/08-practice/03-get-element-of-array-property/README.md

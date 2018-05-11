@@ -1,0 +1,1 @@
+../../../../02-basic-programming/03-objects/08-practice/12-get-product-of-all-elements-at-property/README.md

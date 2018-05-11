@@ -1,11 +1,11 @@
 # Root directory to locate the content
 # Default is the root directory of the repository.
-root: ./
+root: ./gitbook/
 
 # Files to use as SUMMARY/README.
 # (Relative to <root> directory)
 structure:
-  readme: README.md
+  readme: 02-basic-programming/README.md
   summary: SUMMARY.md
 
 # # Redirect urls to specific files (relative to the <root> directory)

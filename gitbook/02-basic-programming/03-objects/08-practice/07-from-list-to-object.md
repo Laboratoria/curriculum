@@ -1,0 +1,1 @@
+../../../../02-basic-programming/03-objects/08-practice/07-from-list-to-object/README.md
