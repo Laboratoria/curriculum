@@ -8,7 +8,7 @@
 
 ### Objetivos
 
-* Entender, através de casos práticos, como aplicar os conceitos de `funções`, `arrays`e `objetos`para resolução de problemas
+* Entender, através de casos práticos, como aplicar os conceitos de `funções`, `arrays` e `objetos` para resolução de problemas
 
 ### Enunciados
 
@@ -18,17 +18,17 @@ Em seguida, você terá um problema para resolver. Tente resolvê-lo primeiro so
 
 #### 1. _Array_ para _Object_
 
-Escreva uma função que receba uma _array_ 2D e retorne um objeto com cada par de elementos `array`como um par de _valores-chave_ . Por exemplo:
+Escreva uma função que receba uma _array_ 2D e retorne um objeto com cada par de elementos `array` como um par de _valores-chave_ . Por exemplo:
 
 * Entrada
 
-```text
+```javascript
 [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]
 ```
 
 * Saída
 
-```text
+```javascript
 {
   make : 'Ford',
   model : 'Mustang',
@@ -36,7 +36,7 @@ Escreva uma função que receba uma _array_ 2D e retorne um objeto com cada par 
 }
 ```
 
-Escreva também uma função que faça o contrário. Transforme os pares de _valores-chave_ de um`object`em um `array 2D`.
+Escreva também uma função que faça o contrário. Transforme os pares de _valores-chave_ de um `object` em um `array 2D`.
 
 ### Resolução
 
