@@ -1,15 +1,15 @@
 # Estructuras condicionales y repetitivas
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `30min`
 
 ## Objetivos
 
-* Entender qué es el control de flujo de un programa
-* Entender qué son `estructuras condicionales` y cómo afectan el flujo del
+- Entender qué es el control de flujo de un programa
+- Entender qué son `estructuras condicionales` y cómo afectan el flujo del
   programa
-* Entender qué son `estructuras repetitivas` y cómo afectan el flujo del
+- Entender qué son `estructuras repetitivas` y cómo afectan el flujo del
   programa
 
 ---
@@ -51,9 +51,9 @@ saludo 'Hola Michelle'; y la tercera, imprime en la consola un mensaje que dice
 'Qué nombre tan largo tienes!'.
 
 ```js
-var name = "Michelle";
-console.log("Hola " + name);
-console.log("Qué nombre tan largo tienes!");
+var name = 'Michelle';
+console.log('Hola ' + name);
+console.log('Qué nombre tan largo tienes!');
 // returns > Hola Michelle
 //           Qué nombre tan largo tienes!
 ```
@@ -103,10 +103,10 @@ Volvamos al ejemplo anterior y agreguemos una condición antes de la sentencia
 que imprime el segundo mensaje:
 
 ```js
-var name = "Michelle";
-console.log("Hola " + name);
+var name = 'Michelle';
+console.log('Hola ' + name);
 if (name.length > 7) {
-  console.log("Qué nombre tan largo tienes!");
+  console.log('Qué nombre tan largo tienes!');
 }
 // imprime > Hola Michelle
 //           Qué nombre tan largo tienes!
@@ -123,10 +123,10 @@ Por lo tanto, se imprime el segundo mensaje.
 Cambiemos un poco este ejemplo, modificando el valor de `name` a 'Ana'.
 
 ```js
-var name = "Ana";
-console.log("Hola " + name);
+var name = 'Ana';
+console.log('Hola ' + name);
 if (name.length > 7) {
-  console.log("Qué nombre tan largo tienes!");
+  console.log('Qué nombre tan largo tienes!');
 }
 // returns > Hola Ana
 ```
@@ -147,12 +147,12 @@ separadas y alternativas.
 Agregemos una sentencia `else` a nuestro ejemplo:
 
 ```js
-var name = "Ana";
-console.log("Hola " + name);
+var name = 'Ana';
+console.log('Hola ' + name);
 if (name.length > 7) {
-  console.log("Qué nombre tan largo tienes!");
+  console.log('Qué nombre tan largo tienes!');
 } else {
-  console.log("Tu nombre no es muy largo");
+  console.log('Tu nombre no es muy largo');
 }
 
 // returns > Hola Ana
@@ -180,14 +180,14 @@ Si tenemos más de dos caminos a escoger, varios pares de `if...else` pueden ser
 "encadenados". Aquí hay un ejemplo:
 
 ```js
-var num = parseInt(prompt("Dame un número", "0"));
+var num = parseInt(prompt('Dame un número', '0'));
 
 if (num < 10) {
-  alert("Diste un número Pequeño");
+  alert('Diste un número Pequeño');
 } else if (num < 100) {
-  alert("Diste un número Mediano");
+  alert('Diste un número Mediano');
 } else {
-  alert("Diste un número Grande");
+  alert('Diste un número Grande');
 }
 ```
 
@@ -212,11 +212,11 @@ un video de otra profesora estrella de Laboratoria, Alexandra :)
 Es común ver código así:
 
 ```js
-if (variable == "valor1") {
+if (variable == 'valor1') {
   accion1();
-} else if (variable == "valor2") {
+} else if (variable == 'valor2') {
   accion2();
-} else if (variable == "valor3") {
+} else if (variable == 'valor3') {
   accion3();
 } else {
   accionDefault();
@@ -230,17 +230,17 @@ incómoda; una cadena de sentencias `if` a menudo luce mejor. Aquí hay un
 ejemplo:
 
 ```js
-switch (prompt("¿Cómo está el clima?")) {
-  case "lluvioso":
-    console.log("Recuerda llevar un paraguas.");
+switch (prompt('¿Cómo está el clima?')) {
+  case 'lluvioso':
+    console.log('Recuerda llevar un paraguas.');
     break;
-  case "soleado":
-    console.log("Viste ligero.");
-  case "nublado":
-    console.log("Sal a la calle.");
+  case 'soleado':
+    console.log('Viste ligero.');
+  case 'nublado':
+    console.log('Sal a la calle.');
     break;
   default:
-    console.log("Tipo de Clima desconocido.");
+    console.log('Tipo de Clima desconocido.');
     break;
 }
 ```
@@ -357,7 +357,7 @@ navegadores, cerrar el navegador entero para recuperarte.
 Veamos algunas variantes de este mismo problema para asegurarnos que entendemos
 bien cómo funciona el ciclo `while`:
 
-* ¿Cómo hacemos para imprimir los números **pares** del 1 al 100?: Modificamos
+- ¿Cómo hacemos para imprimir los números **pares** del 1 al 100?: Modificamos
   la condición para que el bucle corra mientras `number` sea <= 100.
 
 ```js
@@ -371,7 +371,7 @@ while (number <= 100) {
 //   … etcetera hasta 100
 ```
 
-* ¿Cómo hacemos para imprimir los números **impares** del 1 al 12?:
+- ¿Cómo hacemos para imprimir los números **impares** del 1 al 12?:
   Inicializamos el valor de `number` con el valor de 1 (en lugar de 0).
 
 ```js
@@ -411,10 +411,10 @@ del bucle. Veamos un ejemplo:
 
 ```js
 do {
-  var yourName = prompt("¿Quién eres?");
+  var yourName = prompt('¿Quién eres?');
 } while (!yourName);
 
-console.log("tu nombre es " + yourName);
+console.log('tu nombre es ' + yourName);
 ```
 
 Este programa te obligará a introducir un nombre. Preguntará una y otra vez
@@ -502,7 +502,8 @@ grande o igual que 20 y divisible por 7.
 
 ```js
 for (var current = 20; ; current++) {
-  if (current % 7 == 0) break;
+  if (current % 7 == 0)
+    break;
 }
 console.log(current);
 // → 21
