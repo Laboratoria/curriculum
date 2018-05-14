@@ -32,13 +32,11 @@ en tareas como "encontrar el menú de navegación", o "encontrar el contenido
 principal".
 >
 
-
-En la siguiente imagen vemos como era el uso de HTML antes, como se puede 
-observar hay muchos `<div>`. Ahora gracias a la semántica de HTML 5 podemos 
+En la siguiente imagen vemos como era el uso de HTML antes, como se puede
+observar hay muchos `<div>`. Ahora gracias a la semántica de HTML 5 podemos
 usar nuevas etiquetas para estructurar correctamente una página web.
 
 ![html antes y ahora](https://user-images.githubusercontent.com/25906896/39723171-9ba63272-520a-11e8-9603-d57dec4af61c.png)
-
 
 Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuadas
 que podemos usar para representar estas secciones. Revisa el link anterior e

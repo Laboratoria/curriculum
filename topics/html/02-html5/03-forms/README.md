@@ -69,5 +69,6 @@ El resultado de este HTML será:
 
 Ahora, si deseas aprender como trabajamos con los forms desde javascript
 podemos ver el
-[capítulo 7 de javascript de librosweb](http://librosweb.es/libro/javascript/capitulo_7.html)
-. Además tenemos la documentación del capítulo 18 de [Eloquent JavaScript](https://eloquentjavascript.net/18_http.html), de Marijn Haverbeke, 2014.
+[capítulo 7 de javascript de librosweb](http://librosweb.es/libro/javascript/capitulo_7.html).
+Además tenemos la documentación del capítulo 18 de [Eloquent JavaScript](https://eloquentjavascript.net/18_http.html),
+de Marijn Haverbeke, 2014.

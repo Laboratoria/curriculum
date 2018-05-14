@@ -78,10 +78,10 @@ Podemos visualizar este concepto de _anidamiento_ html de la siguiente manera:
 ![Anidamiento html](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
 
 En este ejemplo vemos elementos que ya deberían ser familiares para ti. Ya
-conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`,
-`h1` y `p`. Un par de elementos adicionales que hemos añandido son: `em` 
-que hace que su contenido se visualice como texto en _cursiva_ y `strong` 
-que hace que su contenido se visualice como texto en _negrita_.
+conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`, `h1`
+y `p`. Un par de elementos adicionales que hemos añandido son: `em` que hace que
+su contenido se visualice como texto en _cursiva_ y `strong` que hace que su
+contenido se visualice como texto en _negrita_.
 
 Al abrir este documento en el navegador tendremos lo siguiente:
 
