@@ -28,23 +28,59 @@ Revisemos la documentación del MDN sobre
 además tenemos la Zona de Aprendizaje de MDN donde podrás aprender a más
 detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms)
 
-Ahora sabemos que hay varios elementos para realizar un formulario. En este
-ejemplo veremos un modelo de formulario:
+Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
+Manos a la obra!!
+
+1. Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
+que empieces con tu formulario.
+
+2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico
+que será obligatorio.
+    >Recuerda colocar que tipo de `input` es, así como los atributos necesarios
+    además requiera que para que el campo sea obligatorio puedes unar el
+    atributo `required`
+
+```html
+<form>
+  <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+</form>
+```
+
+3. También agrega la etiqueta `label` para asociar el `input` que acabamos de
+crear
 
 ```html
 <form>
   <label for="email-example">Correo electrónico</label>
   <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+</form>
+```
 
+
+4. Realiza los mismos pasos para que el usuario ingrese una contraseña
+
+```html
+<form>
   <label for="password-example">Password</label>
   <input type="password" id="password-example" placeholder="Password" name="password-example" required>
+</form>
+```
 
+5. Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
+lista desplegable
+
+```html
   <select name="select-example">
     <option value="value1">Primera opción</option>
     <option value="value2" selected>Segunda opción</option>
     <option value="value3">Tercera opción</option>
   </select>
+```
 
+6. También agrega un radiobutton al usuario para que solamente puede escoger
+una opción entre las distintas opciones relacionadas que se le presentan
+
+```html
   <label>
     <input type="radio" name="gender" value="female"> Mujer
   </label>
@@ -54,13 +90,20 @@ ejemplo veremos un modelo de formulario:
   <label>
     <input type="radio" name="gender" value="no-gender"> No deseo brindar información
   </label>
+```
 
+7. Y adicionarás un checkbox para los términos y condiciones
+
+```html
   <label>
     <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
   </label>
+```
 
+8. Por último pondrás un botón de enviar
+
+```html
   <button type="submit">Enviar</button>
-</form>
 ```
 
 El resultado de este HTML será:
