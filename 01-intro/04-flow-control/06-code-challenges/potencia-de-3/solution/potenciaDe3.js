@@ -1,11 +1,4 @@
-function potencia (b, e) {
-
-  var respuesta = 1;
-
-  for (var i = 1; i <= e; i++) {
-    respuesta *= b;
-  }
-  return respuesta;
+function potenciade3() {
 
   for (var i = 1; ; i++) {
 
@@ -17,7 +10,17 @@ function potencia (b, e) {
     break;
   }
 
+  function potencia (b, e) {
+
+    var respuesta = 1;
+
+    for (var i = 1; i <= e; i++) {
+      respuesta *= b;
+    }
+    return respuesta;
+
+  }
 }
 
 
-module.exports = potencia;
+module.exports = potenciade3;

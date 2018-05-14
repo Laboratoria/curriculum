@@ -1,33 +1,24 @@
-function espacios (n) {
+const imprimirCirculo = (r) => {
 
-  var s = '';
-
-  for (var i = 0; i < n; i++) s += ' ';
-
-  return s
-}
-
-function imprimirCirculo (r) {
-
-  var circulo = [];
-  var espacios = [];
-  var x = r;
+  const circulo = [];
+  const espacios = [];
+  let x = r;
+  let i;
 
   while (x >= 0) {
 
-    var y = Math.sqrt( r * r - x * x);
+    const y = Math.sqrt( r * r - x * x);
+    let j = 0;
+    let str = '';
+    let e = '';
     x--;
-    var j = 0;
-    var str = '';
 
     while (j <= y) {
       str += '**';
       j++;
     }
 
-    var e = '';
-
-    for (var i = 0; i < r - y; i++) {
+    for (i = 0; i < r - y; i++) {
       e += '  ';
     }
 
@@ -38,19 +29,18 @@ function imprimirCirculo (r) {
 
   while (x <= r) {
 
-    var y = Math.sqrt ( r * r - x * x);
+    const y = Math.sqrt ( r * r - x * x);
+    let j = 0;
+    let str = '';
+    let e = '';
     x++;
-    var j = 0;
-    var str = '';
 
     while (j <= y) {
       str += '**';
       j++;
     }
 
-    var e = '';
-
-    for (var i = 0; i < r - y; i++) {
+    for (i = 0; i < r - y; i++) {
       e += '  ';
     }
 
