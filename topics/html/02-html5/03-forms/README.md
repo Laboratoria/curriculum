@@ -8,17 +8,18 @@
 
 ## Objetivos de Aprendizaje
 
-En esta lección aprenderemos:
+En esta lectura aprenderemos:
 
-- Qué son los formularios en HTML5
+- Qué son los formularios en HTML
 - Aprenderás los principales elementos de un formulario
-- Conocerás los atributos de los elementos del formulario
+- Conocerás los atributos de los elementos de un formulario
 
 ## ¿Qué son los formularios?
 
-Los formularios son una forma sencilla donde el usuario ingresa información
-en una página web. Son uno de los puntos principales de interacción entre
-un usuario y un sitio web o aplicación.
+Los formularios son una forma sencilla de solicitar información al usuario en
+una página web, perimitiendo que el usuario ingrese información. Los formularios
+son uno de los puntos principales de interacción entre un usuario y un sitio web
+o aplicación.
 
 ## Guía de conceptos clave
 
@@ -31,7 +32,6 @@ Ahora sabemos que hay varios elementos para realizar un formulario. En este
 ejemplo veremos un modelo de formulario:
 
 ```html
-
 <form>
   <label for="email-example">Correo electrónico</label>
   <input type="email" id="email-example" placeholder="Email" name="email-example" required>
@@ -61,7 +61,6 @@ ejemplo veremos un modelo de formulario:
 
   <button type="submit">Enviar</button>
 </form>
-
 ```
 
 El resultado de este HTML será:

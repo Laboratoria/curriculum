@@ -20,26 +20,13 @@ curso. Está diseñado para principiantes.
 
 ## Syllabus
 
-### Unidad 00: [Opening](00-opening)
+### Unidad 00: [Intro: tu primera página web](01-intro)
 
 Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
 tu primera página web.
 
-### Unidad 01: [HTML5](01-html5)
+### Unidad 01: [HTML5](02-html5)
 
 Conocerás las nuevas etiquetas de HTML5 que gracias a su semántica podemos
 estructurar correctamente una página web.
-
-### Unidad 02: [Formularios](02-forms)
-
-Los formularios son una forma sencilla donde el usuario ingresa información en
-una página web. En este unidad conocerás la estructura de los formularios y
-cómo utilizarlos.
-
-### Unidad 03: [Closing](03-closing)
-
-Veremos el cierre de la unidad.
-
-***
-
