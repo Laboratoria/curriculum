@@ -1,4 +1,4 @@
-function contar (str) {
+const contar = (str) => {
 
 
 }

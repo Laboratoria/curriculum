@@ -1,4 +1,4 @@
-function comprobar (n) {
+const comprobar = (n) => {
 
 }
 

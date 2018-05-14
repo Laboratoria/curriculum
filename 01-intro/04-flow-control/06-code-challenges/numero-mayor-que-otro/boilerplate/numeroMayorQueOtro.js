@@ -1,4 +1,4 @@
-function esMayor (A, B, C) {
+const esMayor = (A, B, C) => {
 
 
 }

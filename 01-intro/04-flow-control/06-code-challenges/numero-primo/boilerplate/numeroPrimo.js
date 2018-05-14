@@ -1,4 +1,4 @@
-function esPrimo (n) {
+const esPrimo = (n) => {
 
 
 }

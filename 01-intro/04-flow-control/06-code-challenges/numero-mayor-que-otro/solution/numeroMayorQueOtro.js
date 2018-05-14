@@ -1,6 +1,6 @@
-function esMayor (A, B, C) {
+const esMayor = (A, B, C) => {
 
-  var maximo = A;
+  let maximo = A;
 
   if (A > B) {
 

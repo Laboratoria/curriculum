@@ -9,7 +9,7 @@ describe("contar()", () => {
     Assert.deepEqual(contar("abecedario"), 6);
   });
 
-  it("debería retornar '' si no se le ingresa ningun parametro", () => {
+  it("debería retornar '' si no se le ingresa ningun parámetro", () => {
     Assert.deepEqual(convertir(""), '');
   });
 

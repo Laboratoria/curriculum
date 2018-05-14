@@ -1,4 +1,4 @@
-function comprobar (edad) {
+const comprobar = (edad) => {
 
 
 }

@@ -1,4 +1,4 @@
-function convertir (str) {
+const convertir = (str) => {
 
 }
 
