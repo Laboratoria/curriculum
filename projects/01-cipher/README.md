@@ -105,8 +105,8 @@ En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
 producto y cuál fue tu proceso para definir el producto final a nivel de
 experiencia y de interfaz.
 
-* quiénes son los principales usarios de producto
-* cuáles son los objetivos de estos usarios en relación con el producto
+* quiénes son los principales usuarios de producto
+* cuáles son los objetivos de estos usuarios en relación con el producto
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 
@@ -159,9 +159,13 @@ de crear el objeto.
 Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
 agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
 
-Lo mismo en Soft Skills, puedes realizar una planificación experta teniendo en
-consideración la utilización de herramientas de planificación, como un
-calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
+Para el diseño de la experiencia de usuario, puedes investigar y aplicar algunas
+de las técnicas y herramientas relacionadas al proceso de diseño como
+entrevistas y testeos con usuarios o sketching y prototipado.
+
+Lo mismo en habilidades blandas, puedes realizar una planificación experta
+teniendo en consideración la utilización de herramientas de planificación, como
+un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
 quiere abarcar el reto o problema. Realizando una estimación realista del
 tiempo.
 
@@ -178,12 +182,14 @@ interfaz será desplegada usando GitHub pages.
 
 ### UX
 
-[tbd]
+Para este reto queremos que intentes llegar al nivel 2 del skill User Centricity
+en tus UX skills. Te aconsejamos revisar la rúbrica.
 
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos revisar la rúbrica.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
+revisar la rúbrica.
 
 * **Planificación y manejo del tiempo**: logras organizar el proyecto de manera
   general, estimando el tiempo de trabajo que debes invertir en éste.
@@ -234,8 +240,7 @@ video anterior:
 * [Documentación de NPM](https://docs.npmjs.com/)
 
 Estos son algunos tips que te pueden ayudar en la organización y realización de
-tu proyecto, teniendo en cuenta el desarrollo de tus _Soft Skills_ (habilidades
-blandas):
+tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 
 * Para comenzar realiza una organización de tu proyecto, ve con qué recursos
   cuentas y el tiempo que tienes para completarlo.
