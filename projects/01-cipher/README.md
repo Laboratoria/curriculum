@@ -37,7 +37,7 @@ sistema ROT13.
 
 ## Objetivos
 
-El objetivo principal de aprendizaje de este reto es tener tu primera
+El objetivo principal de aprendizaje de este proyecto es tener tu primera
 experiencia construyendo una aplicación web usando tus conocimientos de **User
 Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
 pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
@@ -45,25 +45,25 @@ DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
 básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
 del DOM para mostrar (escribir) los resultados.
 
-Para completar el reto tendrás que familiarizarte con conceptos como _valores_,
+Para completar el proyecto tendrás que familiarizarte con conceptos como _valores_,
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
 _tests unitarios_.
 
-Esperamos que en este reto puedas pensar en el usuario, entendiendo quién es y
+Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es y
 su necesidad. La idea es que logres entender qué necesita el usuario para el que
 crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
 posible.
 
 Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
-disponibles. Es la primera vez que evaluaremos tus soft skills, pero debes
+disponibles. Es la primera vez que evaluaremos tus habilidades blandas, pero debes
 considerar que son habilidades que probablemente ya has utilizado en distintas
-experiencias de tu vida. Lo importante es que realices el reto de manera
+experiencias de tu vida. Lo importante es que realices el proyecto de manera
 integral.
 
 ## Consideraciones generales
 
-La lógica del reto debe estar implementada completamente en JavaScript (ES6).
-En este reto NO está permitido usar librerías o frameworks, sólo
+La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
+En este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
@@ -73,7 +73,7 @@ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
 comando `npm test`.
 
-Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
+Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
@@ -105,8 +105,8 @@ En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
 producto y cuál fue tu proceso para definir el producto final a nivel de
 experiencia y de interfaz.
 
-* quiénes son los principales usarios de producto
-* cuáles son los objetivos de estos usarios en relación con el producto
+* quiénes son los principales usuarios de producto
+* cuáles son los objetivos de estos usuarios en relación con el producto
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 
@@ -159,9 +159,13 @@ de crear el objeto.
 Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
 agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
 
-Lo mismo en Soft Skills, puedes realizar una planificación experta teniendo en
-consideración la utilización de herramientas de planificación, como un
-calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
+Para el diseño de la experiencia de usuario, puedes investigar y aplicar algunas
+de las técnicas y herramientas relacionadas al proceso de diseño como
+entrevistas y testeos con usuarios o sketching y prototipado.
+
+Lo mismo en habilidades blandas, puedes realizar una planificación experta
+teniendo en consideración la utilización de herramientas de planificación, como
+un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
 quiere abarcar el reto o problema. Realizando una estimación realista del
 tiempo.
 
@@ -178,12 +182,14 @@ interfaz será desplegada usando GitHub pages.
 
 ### UX
 
-[tbd]
+Para este reto queremos que intentes llegar al nivel 2 del skill User Centricity
+en tus UX skills. Te aconsejamos revisar la rúbrica.
 
-### Soft Skills
+### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-soft skills, teniendo sólo 3 en el nivel 1. Te aconsejamos revisar la rúbrica.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
+revisar la rúbrica.
 
 * **Planificación y manejo del tiempo**: logras organizar el proyecto de manera
   general, estimando el tiempo de trabajo que debes invertir en éste.
@@ -213,7 +219,7 @@ soft skills, teniendo sólo 3 en el nivel 1. Te aconsejamos revisar la rúbrica.
 2. Clona el repo en tu computadora.
 3. Instala las dependencias del proyecto con el comando `npm install`.
 4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   reto.
+   proyecto.
 
 ***
 
@@ -221,7 +227,7 @@ soft skills, teniendo sólo 3 en el nivel 1. Te aconsejamos revisar la rúbrica.
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este reto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
@@ -234,22 +240,21 @@ video anterior:
 * [Documentación de NPM](https://docs.npmjs.com/)
 
 Estos son algunos tips que te pueden ayudar en la organización y realización de
-tu proyecto, teniendo en cuenta el desarrollo de tus _Soft Skills_ (habilidades
-blandas):
+tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 
 * Para comenzar realiza una organización de tu proyecto, ve con qué recursos
   cuentas y el tiempo que tienes para completarlo.
 * Si hay algo que no sepas pregunta e intenta resolverlo; puedes comenzar con
   una búsqueda en google, luego consultando a tu squad y por último a tus
-  mentores. Si hay algo que yo no sé, otro me puede ayudar. El aprendizaje es un
+  coaches. Si hay algo que yo no sé, otro me puede ayudar. El aprendizaje es un
   proceso colaborativo.
 * Una vez que empieces a avanzar pide feedback, tus compañeras pueden tener
-  excelentes ideas o formas de resolver el reto que te pueden ayudar.
+  excelentes ideas o formas de resolver el proyecto que te pueden ayudar.
 * Cuando te topes con un problema, busca alternativas, y para eso consulta
   diferentes fuentes.
 * Si ya te ves invirtiendo mucho tiempo en detalles debes saber priorizar y
   seguir con lo más importante, los proyectos tienen tiempo limitado y debes
   saber administrarlo.
-* Trabaja en equipo, pregunta e intenta completar el reto sin rendirte.
+* Trabaja en equipo, pregunta e intenta completar el proyecto sin rendirte.
 * Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
   podrá apreciar todo el esfuerzo y trabajo que invertiste.

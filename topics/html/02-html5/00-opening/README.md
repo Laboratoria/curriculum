@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `5min`
 
 ***
 
@@ -27,7 +27,7 @@ En esta lección aprenderemos:
 > Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta
 > página referencía numerosos recursos sobre las tecnologías de HTML5,
 > clasificados en varios grupos según su función.
-
+>
 > - **Semántica:** Permite describir con mayor precisión cual es su contenido.
 > - **Conectividad:** Permite comunicarse con el servidor de formas nuevas e
 >   innovadoras.
