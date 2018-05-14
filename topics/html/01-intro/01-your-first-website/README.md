@@ -6,8 +6,6 @@
 
 ## Objetivos
 
-- Entender la función del HTML para crear la estructura básica de una página
-  web.
 - Conocer los principales elementos y etiquetas HTML.
 - Aprender a darle dinamismo a una web utilizando JavaScript.
 - Tener un primer acercamiento al mundo del código, creando tu primera página
@@ -21,11 +19,6 @@ Nick Morgan, 2015; y de [Eloquent JavaScript](http://eloquentjavascript.net/),
 de Marijn Haverbeke, 2014.
 
 ## HTML: HyperText Markup Language
-
-La consola de JavaScript que hemos utilizando hasta ahora es ideal para probar
-pequeños fragmentos de código. Sin embargo, para crear programas reales,
-necesitaremos algo más flexible, como una página web. En esta sección aprenderás
-cómo crear una página web HTML básica y darle interacción con JavaScript.
 
 HTML (HyperText Markup Language) es el lenguaje utilizado para crear la
 estructura de una página web. Para crear una web, se empieza creando un
