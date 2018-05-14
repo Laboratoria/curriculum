@@ -1,7 +1,5 @@
 # HTML
 
-[INTRO TBD]
-
 ## Público Objetivo
 
 Este curso está dirigido a personas _sin_ conocimientos previos de programación
@@ -10,7 +8,10 @@ la ruta de aprendizaje.
 
 ## Aprenderás
 
-* ...
+* Conocer los principales elementos y etiquetas HTML
+* Profundizar en los elementos HTML
+* Conocer qué son y para qué sirven los atributos de elementos HTML
+* Conocer elementos HTML semánticos
 
 ## Requerimientos previos
 
@@ -19,24 +20,26 @@ curso. Está diseñado para principiantes.
 
 ## Syllabus
 
-### Unidad 01: [Tu primera página web](01-your-first-website)
+### Unidad 00: [Opening](00-opening)
 
 Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
 tu primera página web.
 
-### Unidad 02: [HTML](02-html)
+### Unidad 01: [HTML5](01-html5)
 
-...
+Conocerás las nuevas etiquetas de HTML5 que gracias a su semántica podemos
+estructurar correctamente una página web.
 
-### Unidad 03: [HTML5](03-html5)
+### Unidad 02: [Formularios](02-forms)
 
-...
+Los formularios son una forma sencilla donde el usuario ingresa información en
+una página web. En este unidad conocerás la estructura de los formularios y
+cómo utilizarlos.
+
+### Unidad 03: [Closing](03-closing)
+
+Veremos el cierre de la unidad.
 
 ***
 
-## Libros de consulta
-
-* [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
-  Nick Morgan, 2015
