@@ -74,7 +74,8 @@ La ejecución condicional se escribe con el keyword `if` en JavaScript. La
 instrucción `if` es la más simple de las estructuras de control de JavaScript.
 Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera. Un
 condicional dice: _"Si algo es verdad, haz esto"_. Por ejemplo, si hiciste tu
-tarea (true), recibes un helado, pero si **no** hiciste tu tarea (false), no recibes el helado.
+tarea (true), recibes un helado, pero si **no** hiciste tu tarea (false),
+no recibes el helado.
 
 Como muestra el ejemplo a continuación, una sentencia `if` tiene 2 partes
 principales: la condición y el cuerpo. La condición debe ser un valor `Boolean`
@@ -114,8 +115,10 @@ if (name.length > 7) {
 Con esta modificación, antes de imprimir en la consola el segundo mensaje ('Qué
 nombre tan largo tienes!'), el programa verifica si la longitud del string
 `name` es mayor a 7. De ser así, se imprime el segundo mensaje. De no ser así,
-no se ejecuta esa sentencia. En este caso, dado que _Michelle_ tiene 8
-caracteres (letras), la condición es `true`. Por lo tanto, se imprime el segundo mensaje.
+no se ejecuta esa sentencia. En este caso, dado que _Michelle_
+tiene 8
+caracteres (letras), la condición es `true`.
+Por lo tanto, se imprime el segundo mensaje.
 
 Cambiemos un poco este ejemplo, modificando el valor de `name` a 'Ana'.
 
@@ -330,7 +333,9 @@ while (number <= 12) {
 ```
 
 En este caso, como queremos imprimir los números pares del 1 al 12, creamos una
-variable `number` (Es importante preguntarse ¿cuantas veces necesitamos **crear** la variable number?), la inicializamos con el valor 0, y la utilizamos en la
+variable `number` (Es importante preguntarse
+¿cuantas veces necesitamos **crear** la variable number?),
+la inicializamos con el valor 0, y la utilizamos en la
 condición. Queremos que el bloque dentro del `while` corra mientras el valor de
 `number` sea igual o menor a 12. El cuerpo del `while` incluye dos sentencias:
 la primera, imprime el número (con console.log), y la segunda incrementa
