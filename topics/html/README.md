@@ -8,7 +8,7 @@ la ruta de aprendizaje.
 
 ***
 
-## Aprenderás
+## Lo que aprenderás
 
 * Conocer los principales elementos y etiquetas HTML
 * Profundizar en los elementos HTML

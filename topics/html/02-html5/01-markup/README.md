@@ -16,9 +16,8 @@
 
 ## Veamos qué es HTML
 
-En el curso de `Introducción a la Programación` creaste tu primer website.
-Aprendiste a crear un archivo HTML y a vincularlo con tu archivo JavaScript.
-En esta lección profundizaremos más en HTML.
+Anteriormente aprendiste a crear un archivo HTML y a vincularlo con tu archivo
+JavaScript. En esta lectura profundizaremos más en HTML.
 
 Revisando directamente la documentación del [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
 tenemos lo siguiente:
@@ -242,9 +241,6 @@ y cualquier contenido que venga después también aparecerá en una nueva
 línea. El texto _"no visualizarse"_ no se muestra porque al asignar el valor de
 `none` para `display` impide que un elemento aparezca en la pantalla. Esta es
 una forma de ocultar elementos.
-
-En la próxima lección sobre `css` profundizaremos en el concepto de darle
-estilos a tus elementos html.
 
 ## Etiquetas vacías
 

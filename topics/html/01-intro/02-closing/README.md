@@ -6,11 +6,10 @@
 
 ***
 
-## Respondamos las preguntas del opening
+## Responde las preguntas del opening
 
-- ¿Cuál es la estructura básica (elementos principales) de un archivo
-  `html`?
-- ¿Cómo vinculamos nuestro `html` con nuestro `js`?
-  ¿Qué convenciones debemos seguir al hacer esto? ¿Por qué?
+- ¿Cuál es la estructura básica (elementos principales) de un archivo `html`?
+- ¿Cómo vinculas tu `html` con tu `js`?
+  ¿Qué convenciones debes seguir al hacer esto? ¿Por qué?
 - ¿Por qué se dice que el `html` es anidado? Haz un dibujo
 - Piensa en un par de ejemplos de buenas prácticas de código `html`
