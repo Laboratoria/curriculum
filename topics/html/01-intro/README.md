@@ -1,8 +1,11 @@
 # Intro
+
 - Tipo: `lectura`
 - Formato: `self-paced`
 - Duración: `5min`
+
 ## Objetivos
+
 - Entender la función del HTML para crear la estructura básica de una página
   web.
 - Iniciar la conexión entre Html y Javascript para crear una página
