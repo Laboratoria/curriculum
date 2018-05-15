@@ -26,10 +26,7 @@ medida que avanzas para validar que estás avanzando en la dirección correcta.
 Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Cuál es la estructura básica (elementos principales) de un archivo `html`?
-
 - ¿Cómo vinculamos nuestro `html` con nuestro `js`?
   ¿Qué convenciones debemos seguir al hacer esto? ¿Por qué?
-
 - ¿Por qué se dice que el `html` es anidado? Haz un dibujo
-
-- Dame un par de ejemplos de buenas prácticas de código html
+- Piensa en un par de ejemplos de buenas prácticas de código `html`

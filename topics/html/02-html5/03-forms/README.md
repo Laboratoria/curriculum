@@ -17,7 +17,7 @@ En esta lectura aprenderemos:
 ## Veamos qué son los formularios
 
 Los formularios son una forma sencilla de solicitar información al usuario en
-una página web, perimitiendo que el usuario ingrese información. Los formularios
+una página web, permitiendo que el usuario ingrese información. Los formularios
 son uno de los puntos principales de interacción entre un usuario y un sitio web
 o aplicación.
 
@@ -31,80 +31,78 @@ detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms
 Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
 Manos a la obra!!
 
-- Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
-  que empieces con tu formulario.
+1. Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
+   que empieces con tu formulario.
 
-- Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
-  este campo será obligatorio.
-  > Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
-  > olvides usar el atributo `required` para considerar un input obligatorio)
+2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
+   este campo será obligatorio.
+   > Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
+   > olvides usar el atributo `required` para considerar un input obligatorio)
 
-```html
-<form>
-  <input type="email" id="email-example" placeholder="Email" name="email-example" required>
-</form>
-```
+   ```html
+   <form>
+     <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+   </form>
+   ```
 
-- También agrega la etiqueta `label` para asociar el `input` que acabas de
-  crear.
+3. También agrega la etiqueta `label` para asociar el `input` que acabas de
+   crear.
 
-```html
-<form>
-  <label for="email-example">Correo electrónico</label>
-  <input type="email" id="email-example" placeholder="Email" name="email-example
-  " required>
-</form>
-```
+   ```html
+   <form>
+     <label for="email-example">Correo electrónico</label>
+     <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+   </form>
+   ```
 
-- Realiza los mismos pasos para un `input` de tipo contraseña.
+4. Realiza los mismos pasos para un `input` de tipo contraseña.
 
-```html
-<form>
-  <label for="password-example">Password</label>
-  <input type="password" id="password-example" placeholder="Password" name="pass
-  word-example" required>
-</form>
-```
+   ```html
+   <form>
+     <label for="password-example">Password</label>
+     <input type="password" id="password-example" placeholder="Password" name="password-example" required>
+   </form>
+   ```
 
-- Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
-  lista desplegable.
+5. Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
+   lista desplegable.
 
-```html
-  <select name="select-example">
-    <option value="value1">Primera opción</option>
-    <option value="value2" selected>Segunda opción</option>
-    <option value="value3">Tercera opción</option>
-  </select>
-```
+   ```html
+     <select name="select-example">
+       <option value="value1">Primera opción</option>
+       <option value="value2" selected>Segunda opción</option>
+       <option value="value3">Tercera opción</option>
+     </select>
+   ```
 
-- También agrega un radiobutton donde el usuario solo puede escoger una
-  opción entre las distintas opciones relacionadas que se le presentan.
+6. También agrega un radiobutton donde el usuario solo puede escoger una
+   opción entre las distintas opciones relacionadas que se le presentan.
 
-```html
-  <label>
-    <input type="radio" name="gender" value="female"> Mujer
-  </label>
-  <label>
-    <input type="radio" name="gender" value="male"> Hombre
-  </label>
-  <label>
-    <input type="radio" name="gender" value="no-gender"> No deseo brindar información
-  </label>
-```
+   ```html
+     <label>
+       <input type="radio" name="gender" value="female"> Mujer
+     </label>
+     <label>
+       <input type="radio" name="gender" value="male"> Hombre
+     </label>
+     <label>
+       <input type="radio" name="gender" value="no-gender"> No deseo brindar información
+     </label>
+   ```
 
-- Y adicionarás un checkbox para los términos y condiciones.
+7. Y adicionarás un checkbox para los términos y condiciones.
 
-  ```html
-    <label>
-      <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
-    </label>
-  ```
+   ```html
+     <label>
+       <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
+     </label>
+   ```
 
-- Por último pondrás un botón de enviar.
+8. Por último pondrás un botón de enviar.
 
-  ```html
-    <button type="submit">Enviar</button>
-  ```
+   ```html
+     <button type="submit">Enviar</button>
+   ```
 
 El resultado de este HTML será:
 

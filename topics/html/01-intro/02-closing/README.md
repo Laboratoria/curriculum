@@ -13,4 +13,4 @@
 - ¿Cómo vinculamos nuestro `html` con nuestro `js`?
   ¿Qué convenciones debemos seguir al hacer esto? ¿Por qué?
 - ¿Por qué se dice que el `html` es anidado? Haz un dibujo
-- Dame un par de ejemplos de buenas prácticas de código html
+- Piensa en un par de ejemplos de buenas prácticas de código `html`

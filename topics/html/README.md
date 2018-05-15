@@ -22,7 +22,7 @@ curso. Está diseñado para principiantes.
 
 ## Syllabus
 
-### Unidad 01: [Intro: tu primera página web](01-intro)
+### Unidad 01: [Tu primera página web](01-intro)
 
 Tu primer acercamiento al mundo de la tecnología. Después de una breve
 bienvenida, entraremos al por qué aprender a programar con JavaScript y crearás
