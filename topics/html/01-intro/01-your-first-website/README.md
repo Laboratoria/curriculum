@@ -67,8 +67,9 @@ que crees tu primera web:
 
 1. Descarga Atom, un editor de texto: [Descargar](https://atom.io/), hay versión
    para Mac y Windows. Si deseas puedes descargar otro editor de texto llamado
-   Visual Studio Code,  Ten en cuenta que las explicaciones que te dará Michelle,
-   estarán en Atom pero tú podrás hacer lo mismo en Visual Studio Code. [Descarga VSC aquí](https://code.visualstudio.com/)
+   Visual Studio Code, ten en cuenta que las explicaciones que te dará Michelle
+   estarán en Atom pero tú podrás hacer lo mismo en Visual Studio Code.
+   [Descarga VSC aquí](https://code.visualstudio.com/)
 2. Crea un documento HTML llamado `index.html`
 3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un
    párrafo)
