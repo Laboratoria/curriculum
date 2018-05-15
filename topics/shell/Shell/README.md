@@ -1,18 +1,15 @@
-# Intro
+# Shell de UNIX
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `5min`
+* Duración: `15min`
+
+## Objetivos de aprendizaje
+
+* Que todas tengan un emulador de terminal y bash o un emulador de linux en caso de tener windows
+* Familiarizarse navegando el sistema de archivos y ejecutando comandos
 
 ***
-
-## ¿Por qué aprender esto?
-
-En esta curso aprenderemos a utilizar una herramienta esencial para cualquier
-desarrollador: la línea de comandos (CLI). Se trata interfaz por la cual un
-desarrollador accede a todo el poder de su computador. Sabiendo usar la `CLI`
-podrás instalar programas, usar `Git`, correr cualquier programa, y muchas cosas
-más. ¿Estás lista? ¡Vamos!
 
 ## Qué es la shell de UNIX?
 
@@ -29,7 +26,7 @@ JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
 y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
 escribimos en la línea de comando.
 
-## Shells comunes: bash, zsh, etc
+## Shells comunes: bash, Ubuntu, SuSE, Fedora, Cmder, etc.
 
 La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
 pero no está de más mencionar que existen muchas shells distintas, que comparten
@@ -169,7 +166,7 @@ tienes curiosidad (o necesidad) de aprender un poco más te recomendamos leer
 sobre **entrada y salida** de comandos (**stdin**, **stdout**, **stderr**),
 **procesos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...),
 **variables de entorno**, ...
-
+  
 ## Personalización
 
 Para finalizar, cabe mencionar que así como uno puede configurar su escritorio,
