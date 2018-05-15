@@ -68,40 +68,40 @@ Manos a la obra!!
    lista desplegable.
 
    ```html
-     <select name="select-example">
-       <option value="value1">Primera opción</option>
-       <option value="value2" selected>Segunda opción</option>
-       <option value="value3">Tercera opción</option>
-     </select>
+   <select name="select-example">
+     <option value="value1">Primera opción</option>
+     <option value="value2" selected>Segunda opción</option>
+     <option value="value3">Tercera opción</option>
+   </select>
    ```
 
 6. También agrega un radiobutton donde el usuario solo puede escoger una
    opción entre las distintas opciones relacionadas que se le presentan.
 
    ```html
-     <label>
-       <input type="radio" name="gender" value="female"> Mujer
-     </label>
-     <label>
-       <input type="radio" name="gender" value="male"> Hombre
-     </label>
-     <label>
-       <input type="radio" name="gender" value="no-gender"> No deseo brindar información
-     </label>
+   <label>
+     <input type="radio" name="gender" value="female"> Mujer
+   </label>
+   <label>
+     <input type="radio" name="gender" value="male"> Hombre
+   </label>
+   <label>
+     <input type="radio" name="gender" value="no-gender"> No deseo brindar información
+   </label>
    ```
 
 7. Y adicionarás un checkbox para los términos y condiciones.
 
    ```html
-     <label>
-       <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
-     </label>
+   <label>
+     <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
+   </label>
    ```
 
 8. Por último pondrás un botón de enviar.
 
    ```html
-     <button type="submit">Enviar</button>
+   <button type="submit">Enviar</button>
    ```
 
 El resultado de este HTML será:

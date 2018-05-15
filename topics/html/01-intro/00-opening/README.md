@@ -8,12 +8,12 @@
 
 ## Objetivos de aprendizaje
 
-- A crear tu primera página web
+- Crear tu primera página web
 - Aprender a darle dinamismo a una web utilizando JavaScript.
 
 ## Guía de preguntas y conceptos clave
 
-Cuando empezas a estudiar un tema nuevo, es útil tener una idea sobre los
+Cuando empiezas a estudiar un tema nuevo, es útil tener una idea sobre los
 conceptos más importantes de lo que vas a aprender y de los temas centrales
 que debes prestar particular atención.
 

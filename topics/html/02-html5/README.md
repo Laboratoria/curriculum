@@ -12,7 +12,7 @@
 
 ***
 
-## Introducción de HTML5
+## Introducción a HTML5
 
 HTML5 es la última versión de HTML. El término representa dos conceptos
 diferentes:
