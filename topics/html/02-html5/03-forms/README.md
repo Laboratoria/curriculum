@@ -34,11 +34,10 @@ Manos a la obra!!
 1. Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
 que empieces con tu formulario.
 
-2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico
-que será obligatorio.
-    >Recuerda colocar que tipo de `input` es, así como los atributos necesarios
-    además requiera que para que el campo sea obligatorio puedes unar el
-    atributo `required`
+2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
+este campo será obligatorio.
+    >Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
+    olvides usar el atributo `required` para considerar un input obligatorio)
 
 ```html
 <form>
@@ -46,7 +45,7 @@ que será obligatorio.
 </form>
 ```
 
-3. También agrega la etiqueta `label` para asociar el `input` que acabamos de
+3. También agrega la etiqueta `label` para asociar el `input` que acabas de
 crear
 
 ```html
@@ -57,7 +56,7 @@ crear
 ```
 
 
-4. Realiza los mismos pasos para que el usuario ingrese una contraseña
+4. Realiza los mismos pasos para un `input` de tipo contraseña
 
 ```html
 <form>
@@ -77,8 +76,8 @@ lista desplegable
   </select>
 ```
 
-6. También agrega un radiobutton al usuario para que solamente puede escoger
-una opción entre las distintas opciones relacionadas que se le presentan
+6. También agrega un radiobutton donde el usuario solo puede escoger una
+opción entre las distintas opciones relacionadas que se le presentan
 
 ```html
   <label>
@@ -109,6 +108,8 @@ una opción entre las distintas opciones relacionadas que se le presentan
 El resultado de este HTML será:
 
 ![ejemplo de formularios](https://user-images.githubusercontent.com/25906896/39826718-2daeff3e-537b-11e8-8d60-bba02479bf16.png)
+
+Ahora está en tus manos colocarle los estilos que desees en tu `css`
 
 Ahora, si deseas aprender como trabajamos con los forms desde javascript
 podemos ver el
