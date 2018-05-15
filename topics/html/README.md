@@ -6,6 +6,8 @@ Este curso está dirigido a personas _sin_ conocimientos previos de programació
 que tienen el interés de aventurarse al mundo del código. Será tu primer paso en
 la ruta de aprendizaje.
 
+***
+
 ## Aprenderás
 
 * Conocer los principales elementos y etiquetas HTML

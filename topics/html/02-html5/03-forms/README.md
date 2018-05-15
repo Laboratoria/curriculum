@@ -14,7 +14,7 @@ En esta lectura aprenderemos:
 - Aprenderás los principales elementos de un formulario
 - Conocerás los atributos de los elementos de un formulario
 
-## ¿Qué son los formularios?
+## Veamos qué son los formularios
 
 Los formularios son una forma sencilla de solicitar información al usuario en
 una página web, perimitiendo que el usuario ingrese información. Los formularios
@@ -31,13 +31,13 @@ detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms
 Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
 Manos a la obra!!
 
-1. Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
-que empieces con tu formulario.
+- Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
+  que empieces con tu formulario.
 
-2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
-este campo será obligatorio.
-    >Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
-    olvides usar el atributo `required` para considerar un input obligatorio)
+- Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
+  este campo será obligatorio.
+  > Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
+  > olvides usar el atributo `required` para considerar un input obligatorio)
 
 ```html
 <form>
@@ -45,28 +45,29 @@ este campo será obligatorio.
 </form>
 ```
 
-3. También agrega la etiqueta `label` para asociar el `input` que acabas de
-crear
+- También agrega la etiqueta `label` para asociar el `input` que acabas de
+  crear.
 
 ```html
 <form>
   <label for="email-example">Correo electrónico</label>
-  <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+  <input type="email" id="email-example" placeholder="Email" name="email-example
+  " required>
 </form>
 ```
 
-
-4. Realiza los mismos pasos para un `input` de tipo contraseña
+- Realiza los mismos pasos para un `input` de tipo contraseña.
 
 ```html
 <form>
   <label for="password-example">Password</label>
-  <input type="password" id="password-example" placeholder="Password" name="password-example" required>
+  <input type="password" id="password-example" placeholder="Password" name="pass
+  word-example" required>
 </form>
 ```
 
-5. Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
-lista desplegable
+- Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
+  lista desplegable.
 
 ```html
   <select name="select-example">
@@ -76,8 +77,8 @@ lista desplegable
   </select>
 ```
 
-6. También agrega un radiobutton donde el usuario solo puede escoger una
-opción entre las distintas opciones relacionadas que se le presentan
+- También agrega un radiobutton donde el usuario solo puede escoger una
+  opción entre las distintas opciones relacionadas que se le presentan.
 
 ```html
   <label>
@@ -91,19 +92,19 @@ opción entre las distintas opciones relacionadas que se le presentan
   </label>
 ```
 
-7. Y adicionarás un checkbox para los términos y condiciones
+- Y adicionarás un checkbox para los términos y condiciones.
 
-```html
-  <label>
-    <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
-  </label>
-```
+  ```html
+    <label>
+      <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
+    </label>
+  ```
 
-8. Por último pondrás un botón de enviar
+- Por último pondrás un botón de enviar.
 
-```html
-  <button type="submit">Enviar</button>
-```
+  ```html
+    <button type="submit">Enviar</button>
+  ```
 
 El resultado de este HTML será:
 

@@ -14,7 +14,7 @@
   HTML
 - Conocer qué son y para qué sirven los atributos de elementos HTML
 
-## ¿Qué es HTML?
+## Veamos qué es HTML
 
 En el curso de `Introducción a la Programación` creaste tu primer website.
 Aprendiste a crear un archivo HTML y a vincularlo con tu archivo JavaScript.
@@ -199,7 +199,10 @@ dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde
 negro, hacemos:
 
 ```html
-<p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
+<p style="color:red; background-color: yellow; border: 1px solid black;">Código
+  <em>que</em>
+  <strong>transforma</strong>
+</p>
 ```
 
 Al visualizar el documento anterior en el navegador tendremos:

@@ -8,12 +8,11 @@
 
 - Entender la función del HTML para crear la estructura básica de una página
   web.
-- Iniciar la conexión entre Html y Javascript para crear una página
-interactiva.
+- Iniciar la conexión entre Html y Javascript para crear una página interactiva.
 
 ***
 
-## Presentación:
+## Presentación
 
 La consola de JavaScript que hemos utilizado hasta ahora, es ideal para probar
 pequeños fragmentos de código. Sin embargo, para crear programas reales,
