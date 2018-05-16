@@ -176,20 +176,49 @@ interfaz será desplegada usando GitHub pages.
 
 ## Evaluación
 
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#).
+
+| Habilidad   | Nivel esperado |
+|-------------|----------------|
+| Completitud | 3
+| Investigación | 2/3
+| Documentación | 3
+
 ### Tech
 
-[tbd]
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 2/3
+| Nomenclatura/semántica | 2/3
+| Funciones/modularidad | 1
+| Estructuras de datos | 0
+| Tests | 2
+| **HTML** | |
+| Validación | 2
+| Estilo | 3
+| Semántica | 2/3
+| SEO | 0
+| **CSS** | |
+| DRY | 2/3
+| Responsive | 2
+| **SCM** | |
+| Git | 1
+| GitHub | 2 |
+| **CS** | |
+| Lógica | 1/2
+| Arquitectura | 1/2
+| Patrones/paradigmas | 0 |
 
 ### UX
 
 Para este reto queremos que intentes llegar al nivel 2 del skill User Centricity
-en tus UX skills. Te aconsejamos revisar la rúbrica.
+en tus UX skills.
 
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
-revisar la rúbrica.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 
 * **Planificación y manejo del tiempo**: logras organizar el proyecto de manera
   general, estimando el tiempo de trabajo que debes invertir en éste.
