@@ -176,10 +176,13 @@ interfaz será desplegada usando GitHub pages.
 
 ## Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#).
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 
-| Habilidad   | Nivel esperado |
-|-------------|----------------|
+### General
+
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
 | Completitud | 3
 | Investigación | 2/3
 | Documentación | 3
@@ -212,22 +215,25 @@ Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2P
 
 ### UX
 
-Para este reto queremos que intentes llegar al nivel 2 del skill User Centricity
-en tus UX skills.
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| User Centricity | 2 |
 
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
 habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 
-Planificación y organización: 2
-Autoaprendizaje: 2
-Solución de problemas:2
-Dar y recibir feedback: 2
-Adaptabilidad: 2
-Trabajo en equipo: 1/2
-Comunicación eficaz: 1/2
-Presentaciones: 1/2
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| Planificación y organización | 2
+| Autoaprendizaje | 2
+| Solución de problemas | 2
+| Dar y recibir feedback | 2
+| Adaptabilidad | 2
+| Trabajo en equipo | 1/2
+| Comunicación eficaz | 1/2
+| Presentaciones | 1/2
 
 ***
 
