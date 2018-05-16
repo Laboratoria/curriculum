@@ -1,9 +1,9 @@
-# 00 - html-and-css
+# 00 - Introdução
 
 ## 00 - Introdução
 
 * Tipo: `leitura`
-* Formato: ritmo próprio
+* Formato: `ritmo próprio`
 * Duração: `15min`
 
 ### Objetivos de Aprendizagem

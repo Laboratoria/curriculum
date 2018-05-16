@@ -72,5 +72,6 @@
     * [05 - Solutions Final Products](02-basic-programming/04-final-products/05-solutions-final-products.md)
     * [06 - Retrospective](02-basic-programming/04-final-products/06-retrospective.md)
 * [03 - interactive-site](03-interactive-site/README.md)
-  * [00 - html-and-css](03-interactive-site/00-html-and-css.md)
+  * [00 - Introdução](03-interactive-site/00-html-and-css.md)
+  * [01 - HTML](03-interactive-site/01-html.md)
 
