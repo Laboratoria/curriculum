@@ -220,25 +220,14 @@ en tus UX skills.
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
 habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 
-* **Planificación y manejo del tiempo**: logras organizar el proyecto de manera
-  general, estimando el tiempo de trabajo que debes invertir en éste.
-* **Autoaprendizaje**: demuestras interés en adquirir conocimientos de forma
-  autónoma, realizas preguntas sobre la materia, aclarando conceptos y
-  resolviendo dudas, lo que te ayudar a realizar un mejor proyecto.
-* **Solución de problemas**: buscas soluciones alternativas a las dificultades
-  que se presentan durante el proyecto.
-* **Dar y recibir feedback**: buscas instancias de feedback para tu proyecto,
-  escuchando los comentarios y críticas de los demás de manera respetuosa.
-  Además, entregas tu opinión de forma constructiva.
-* **Adaptabilidad**: ante cambios o nuevos desafíos los recibes con una actitud
-  positiva, a pesar de que esto implique una nueva organización.
-* **Trabajo en equipo**: trabajas de manera coordinada con tu squad, apoyándote
-  en él cuando sea necesario.
-* **Comunicación eficaz**: logras comunicar tus ideas a los demás cuando es
-  necesario.
-* **Presentaciones**: cualquier persona puede acceder a tu demo desde cualquier
-  equipo. Haces contacto visual con la audiencia y hablas en un volumen
-  adecuado.
+Planificación y organización: 2
+Autoaprendizaje: 2
+Solución de problemas:2
+Dar y recibir feedback: 2
+Adaptabilidad: 2
+Trabajo en equipo: 1/2
+Comunicación eficaz: 1/2
+Presentaciones: 1/2
 
 ***
 
