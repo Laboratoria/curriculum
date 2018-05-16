@@ -51,7 +51,7 @@ saludo 'Hola Michelle'; y la tercera, imprime en la consola un mensaje que dice
 'Qué nombre tan largo tienes!'.
 
 ```js
-var name = 'Michelle';
+const name = 'Michelle';
 console.log('Hola ' + name);
 console.log('Qué nombre tan largo tienes!');
 // returns > Hola Michelle
@@ -103,7 +103,7 @@ Volvamos al ejemplo anterior y agreguemos una condición antes de la sentencia
 que imprime el segundo mensaje:
 
 ```js
-var name = 'Michelle';
+const name = 'Michelle';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
@@ -115,15 +115,14 @@ if (name.length > 7) {
 Con esta modificación, antes de imprimir en la consola el segundo mensaje ('Qué
 nombre tan largo tienes!'), el programa verifica si la longitud del string
 `name` es mayor a 7. De ser así, se imprime el segundo mensaje. De no ser así,
-no se ejecuta esa sentencia. En este caso, dado que _Michelle_
-tiene 8
-caracteres (letras), la condición es `true`.
-Por lo tanto, se imprime el segundo mensaje.
+no se ejecuta esa sentencia. En este caso, dado que _Michelle_ tiene 8
+caracteres (letras), la condición es `true`. Por lo tanto, se imprime el segundo
+ mensaje.
 
 Cambiemos un poco este ejemplo, modificando el valor de `name` a 'Ana'.
 
 ```js
-var name = 'Ana';
+const name = 'Ana';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
@@ -147,7 +146,7 @@ separadas y alternativas.
 Agregemos una sentencia `else` a nuestro ejemplo:
 
 ```js
-var name = 'Ana';
+const name = 'Ana';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
@@ -180,7 +179,7 @@ Si tenemos más de dos caminos a escoger, varios pares de `if...else` pueden ser
 "encadenados". Aquí hay un ejemplo:
 
 ```js
-var num = parseInt(prompt('Dame un número', '0'));
+const num = parseInt(prompt('Dame un número', '0'));
 
 if (num < 10) {
   alert('Diste un número Pequeño');
@@ -322,7 +321,7 @@ Regresemos al problema de imprimir todos los números pares del 1 al 12, y
 creemos un programa que utilice un bucle `while`:
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -361,7 +360,7 @@ bien cómo funciona el ciclo `while`:
   la condición para que el bucle corra mientras `number` sea <= 100.
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 100) {
   console.log(number);
   number = number + 2;
@@ -375,7 +374,7 @@ while (number <= 100) {
   Inicializamos el valor de `number` con el valor de 1 (en lugar de 0).
 
 ```js
-var number = 1;
+let number = 1;
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -390,7 +389,7 @@ while (number <= 12) {
   de 2) cada ciclo.
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 12) {
   console.log(number);
   number = number + 1;
@@ -411,7 +410,7 @@ del bucle. Veamos un ejemplo:
 
 ```js
 do {
-  var yourName = prompt('¿Quién eres?');
+  const yourName = prompt('¿Quién eres?');
 } while (!yourName);
 
 console.log('tu nombre es ' + yourName);
@@ -435,7 +434,7 @@ Debido a que este patrón es tan común, JavaScript y otros lenguajes similares
 proveen una versión un poco más corta y más completa: el bucle `for`.
 
 ```js
-for (var number = 0; number <= 12; number = number + 2) {
+for (let number = 0; number <= 12; number = number + 2) {
   console.log(number);
 }
 // → 0
@@ -457,8 +456,8 @@ y claro que una construcción con `while`.
 Aquí está un código que calcula 2^10 (2 exponencial 10), usando el bucle `for`:
 
 ```js
-var result = 1;
-for (var counter = 0; counter < 10; counter = counter + 1) {
+let result = 1;
+for (let counter = 0; counter < 10; counter = counter + 1) {
   result = result * 2;
 }
 console.log(result);
