@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `15 min`
 
-***
-
 ### Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
@@ -27,13 +25,13 @@ Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceito
 
 Aqui está uma série de perguntas que você deve ser capaz de responder no final desta unidade. Use essas perguntas como um guia para orientar seus esforços de aprendizado. Volte para elas constantemente enquanto você avança para validar que você está indo na direção certa. Isso serve como um "_checklist_" que você marca conforme avança.
 
-* [ ]  Quais são as diferenças e semelhanças entre um `array` e um `object`?
-* [ ]  Por que utilizando _arrays_ e _objects_ podemos criar programas ou produtos mais complexos?
-* [ ]  Como você acessa as _propriedades_ de um valor em JavaScript?
-* [ ]  Qual é a diferença entre uma _propriedade_ e um _método_ de um valor?
-* [ ]  Por que se diz que os métodos são "chamados"?
-* [ ]  Desenhe uma imagem de como organizar os dados dos alunos como um _array_  de _objects_.
-* [ ]  Quais são as _chaves_ de um `object`?
-* [ ]  Como podemos acessar a lista de _chaves_ de um `object`?
-* [ ]  O que é um algoritmo? Explique alguns algoritmos que você conhece.
+* [ ] Quais são as diferenças e semelhanças entre um `array` e um `object`?
+* [ ] Por que utilizando _arrays_ e _objects_ podemos criar programas ou produtos mais complexos?
+* [ ] Como você acessa as _propriedades_ de um valor em JavaScript?
+* [ ] Qual é a diferença entre uma _propriedade_ e um _método_ de um valor?
+* [ ] Por que se diz que os métodos são "chamados"?
+* [ ] Desenhe uma imagem de como organizar os dados dos alunos como um _array_  de _objects_.
+* [ ] Quais são as _chaves_ de um `object`?
+* [ ] Como podemos acessar a lista de _chaves_ de um `object`?
+* [ ] O que é um algoritmo? Explique alguns algoritmos que você conhece.
 

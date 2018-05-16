@@ -4,8 +4,6 @@
 * Formato: `guiado`
 * Duração: `40 min`
 
-***
-
 ## Objetivos
 
 * Conhecer a equipe que está por trás da sua sede da Laboratoria

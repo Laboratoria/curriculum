@@ -39,5 +39,3 @@ Saída da função:
 ['a', 'number', 'hungry', 'grammyWins']
 ```
 
-
-

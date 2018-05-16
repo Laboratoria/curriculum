@@ -25,7 +25,7 @@ Para fazer este curso, você deve ter completado o _pre-work_ e a _pré-admissã
 
 Com este curso, você desenvolverá dois programas que têm aplicação em nosso cotidiano:
 
-1. **Cifra de César**: você criará um programa que criptografa e decodifica mensagens de acordo com o [algoritmo da Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) \(_Caesar cipher_\).
+1. **Cifra de César**: você criará um programa que criptografa e decodifica mensagens de acordo com o [algoritmo da Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_César) \(_Caesar cipher_\).
 2. **Validação de cartão de crédito**: você fará um programa capaz de verificar se um cartão de crédito é válido de acordo [com o algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 ## Programa de Estudos {#syllabus}

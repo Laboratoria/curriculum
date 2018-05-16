@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `20 min`
 
-***
-
 ### Objetivos
 
 * Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
@@ -58,7 +56,7 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
+se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor\_ \_resultante?
 
 **Opções**
 

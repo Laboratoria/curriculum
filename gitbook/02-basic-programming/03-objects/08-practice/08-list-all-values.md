@@ -37,5 +37,3 @@ Valor devolvido pela função \(saída\):
 ['a', 11, true, 1]
 ```
 
-
-

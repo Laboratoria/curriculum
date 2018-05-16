@@ -32,7 +32,7 @@
       * [09 - Get Longest Word of Mixed Elements](02-basic-programming/02-arrays/06-practice/09-get-longest-word-of-mixed-elements.md)
       * [10 - Get Largest Number Among Mixed Elements](02-basic-programming/02-arrays/06-practice/10-get-largest-number-among-mixed-elements.md)
       * [11 - Compute Sum of All Elements](02-basic-programming/02-arrays/06-practice/11-compute-sum-of-all-elements.md)
-      * [12 - Compute Sum Between](02-basic-programming/02-arrays/06-practice/)
+      * 12 - Compute Sum Between
       * [13 - Get Longest of Three Words](02-basic-programming/02-arrays/06-practice/13-get-longest-of-three-words.md)
       * [14 - Find Shortest of Three Words](02-basic-programming/02-arrays/06-practice/14-find-shortest-of-three-words.md)
       * [15 - Calculate Bill Total](02-basic-programming/02-arrays/06-practice/15-calculate-bill-total.md)
@@ -71,4 +71,5 @@
     * [04 - Soft Skills 3](02-basic-programming/04-final-products/04-soft-skills-3.md)
     * [05 - Solutions Final Products](02-basic-programming/04-final-products/05-solutions-final-products.md)
     * [06 - Retrospective](02-basic-programming/04-final-products/06-retrospective.md)
+* [03 - interactive-site](03-interactive-site.md)
 

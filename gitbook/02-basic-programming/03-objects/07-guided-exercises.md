@@ -6,8 +6,6 @@
 * Formato: `guiado`
 * Duração: `5h`
 
-***
-
 ### Objetivos
 
 * Praticar o desenvolvimento de código com professores, resolvendo problemas de estruturas condicionais, de repetição e funções.

@@ -6,8 +6,6 @@
 * Formato: `guiado`
 * Duração: `3 h`
 
-***
-
 ### Objetivos
 
 Somos uma organização comprometida com o empoderamento das mulheres e, para poder falar sobre isso, é fundamental trazer à mesa um assunto tão controverso e importante quanto o GÊNERO. Por isso, ao final desta unidade:

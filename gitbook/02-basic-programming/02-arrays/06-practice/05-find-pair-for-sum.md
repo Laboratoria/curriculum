@@ -2,7 +2,7 @@
 
 ## findPairForSum
 
-Dada uma lista de inteiros não negativos e o resultado desejado de uma soma,  encontre dois números na lista cuja soma seja o resultado desejado.
+Dada uma lista de inteiros não negativos e o resultado desejado de uma soma, encontre dois números na lista cuja soma seja o resultado desejado.
 
 Exemplo de entrada:
 

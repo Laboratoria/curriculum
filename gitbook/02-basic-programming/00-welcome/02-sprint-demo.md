@@ -4,8 +4,6 @@
 * Formato: `guiado`
 * Duração: `120 min`
 
-***
-
 ## Objetivos
 
 * Experimentar como se aprende na Laboratoria através da dinâmica do _Sprint Demo_

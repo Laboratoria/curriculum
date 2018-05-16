@@ -15,5 +15,3 @@ var output = getLongestOfThreeWords('estas', 'três', 'palavras');
 console.log(output); // -> 'palabras'
 ```
 
-
-

@@ -4,8 +4,6 @@
 * formato: `individual`
 * Duração: `5 min`
 
-***
-
 ## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
 
 Nesta unidade, aprenderemos:
@@ -23,8 +21,8 @@ Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceito
 
 A seguir, há uma série de perguntas que você deve ser capaz de responder ao final desta unidade. Use essas perguntas como um guia para orientar seus estudos. Volte a elas constantemente enquanto avança no conteúdo para certificar-se de que você está indo na direção correta. Elas servem como uma _checklist_ que você vai marcando enquanto aprende.
 
-* [ ]  Por que o uso de _arrays_ nos permite criar programas ou produtos mais complexos?
-* [ ]  O que se entende por um `array 2D`?
-* [ ]  Quais métodos e propriedades comuns os arranjos herdam de`Array.prototype`?
-* [ ]  Como criar e manipular arranjos?
+* [ ] Por que o uso de _arrays_ nos permite criar programas ou produtos mais complexos?
+* [ ] O que se entende por um `array 2D`?
+* [ ] Quais métodos e propriedades comuns os arranjos herdam de`Array.prototype`?
+* [ ] Como criar e manipular arranjos?
 

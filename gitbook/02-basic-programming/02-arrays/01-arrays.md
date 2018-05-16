@@ -4,8 +4,6 @@
 * Formato: `individual`
 * Duração: `60 min`
 
-***
-
 ## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
 
 * Aprenda o que são vetores \(_arrays_\) e para que servem
@@ -75,7 +73,7 @@ Se você não tem experiência em programação, habituar-se com essa convençã
 
 ## Definindo ou alterando os elementos de um array {#definiendo-o-cambiando-los-elementos-de-un-array}
 
-Podemos usar os índices entre colchetes para definir, alterar ou adicionar elementos a um vetor. Por exemplo, para substituir o primeiro elemento de `arraylistOfNumbers`  pelo número 1, poderíamos fazer o seguinte:
+Podemos usar os índices entre colchetes para definir, alterar ou adicionar elementos a um vetor. Por exemplo, para substituir o primeiro elemento de `arraylistOfNumbers` pelo número 1, poderíamos fazer o seguinte:
 
 ```javascript
 var listOfNumbers = [2, 3, 5, 7, 11];
@@ -126,7 +124,7 @@ console.log(mixedArray[2]);
 // → 3627.5
 ```
 
-Podemos até ter um vetor dentro de outro \(algo que muitas pessoas chamam de matriz ou _array_  de 2 dimensões\). Por exemplo, para organizar os dados de perguntas e respostas de um questionário, podemos usar um arranjo no qual cada elemento é um vetor com dois elementos: uma pergunta e uma resposta.
+Podemos até ter um vetor dentro de outro \(algo que muitas pessoas chamam de matriz ou _array_ de 2 dimensões\). Por exemplo, para organizar os dados de perguntas e respostas de um questionário, podemos usar um arranjo no qual cada elemento é um vetor com dois elementos: uma pergunta e uma resposta.
 
 ```javascript
 var questions = [
@@ -150,7 +148,7 @@ console.log(perguntas[3][1]);
 // → Peso
 ```
 
-Quando escrevemos `console.log(questions[3][1])`, estamos dizendo ao JavaScript para procurar o índice 3 do _array_ `questions` \(o qual também é, por sua vez, um _array_: _ _`['Qual é a moeda do México?', 'Peso']`  e, dentro desse vetor, acessar o índice 1 \(_string_ `'Peso'`\) e imprimir o elemento no console.
+Quando escrevemos `console.log(questions[3][1])`, estamos dizendo ao JavaScript para procurar o índice 3 do _array_ `questions` \(o qual também é, por sua vez, um _array_:  __`['Qual é a moeda do México?', 'Peso']` e, dentro desse vetor, acessar o índice 1 \(_string_ `'Peso'`\) e imprimir o elemento no console.
 
 A seguir, Michelle nos explica os principais conceitos de _arrays_ através de um exemplo:
 

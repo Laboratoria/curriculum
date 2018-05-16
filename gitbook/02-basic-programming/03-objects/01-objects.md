@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `60 min`
 
-***
-
 ### Objetivos de Aprendizagem
 
 * Aprender o que são `objects` e para que servem
@@ -20,7 +18,7 @@ O texto abaixo é baseada em grande parte, com alguns ajustes, no capítulo 4 de
 
 Os`objects`em JavaScript são muito parecidos com os`arrays`, mas com duas diferenças importantes:
 
-1. Como vimos, para acessar informações dentro de um `array`, nós usamos um número correspondente ao _índice_; isto é, a posição em que o valor está localizado. Os `objects`, por outro lado, utilizam `strings`ao invés de números para acessar os diferentes elementos. Essas `strings` são chamadas de chaves \(_keys_\) ou propriedades, e os elementos para os quais eles apontam são chamados de valores_ _\(_values_\). Juntas, essas informações são chamadas de_ pares de chave-valor_.
+1. Como vimos, para acessar informações dentro de um `array`, nós usamos um número correspondente ao _índice_; isto é, a posição em que o valor está localizado. Os `objects`, por outro lado, utilizam `strings`ao invés de números para acessar os diferentes elementos. Essas `strings` são chamadas de chaves \(_keys_\) ou propriedades, e os elementos para os quais eles apontam são chamados de valores __\(_values_\). Juntas, essas informações são chamadas de _pares de chave-valor_.
 2. Como nos `arrays` é necessário o _índice_ para acessar informações, é importante manter uma determinada ordem de seus valores. No caso dos _pares de chave-valor_, as informações podem estar em qualquer ordem.
 
 Enquanto os `arrays` são usados ​​principalmente para representar listas de várias coisas, os objetos costumam ser usados ​​para representar elementos simples, mas com **várias características ou atributos**. Por exemplo, se quiséssemos agrupar os títulos dos nossos filmes favoritos, usaríamos um `array` assim:
@@ -53,7 +51,7 @@ var movie = {
 };
 ```
 
-No exemplo anterior, criamos uma variável chamada `movie`e atribuímos a ela um objeto com seis _pares de chave-valor_. Para criar um objeto, usamos as chaves `{}`  ao invés dos colchetes `[]`  que usamos para criar _arrays_. Dentro das chaves, colocamos os _pares de chave-valor_ separados por uma vírgula. Conforme mostrado no exemplo, não precisamos colocar uma vírgula após o último par de chave-valor.
+No exemplo anterior, criamos uma variável chamada `movie`e atribuímos a ela um objeto com seis _pares de chave-valor_. Para criar um objeto, usamos as chaves `{}` ao invés dos colchetes `[]` que usamos para criar _arrays_. Dentro das chaves, colocamos os _pares de chave-valor_ separados por uma vírgula. Conforme mostrado no exemplo, não precisamos colocar uma vírgula após o último par de chave-valor.
 
 A sintaxe de cada par de _valores-chave_ é a seguinte:
 
@@ -96,7 +94,7 @@ var movie = {
 
 Podemos acessar os valores de um `object`de duas maneiras:
 
-1. O primeiro é usar os colchetes `[]`, assim como fazemos com _arrays_. A única diferença é que, em vez de usar o índice_ _\(um `number`\), usamos a chave \(uma `string`\), sempre entre aspas.
+1. O primeiro é usar os colchetes `[]`, assim como fazemos com _arrays_. A única diferença é que, em vez de usar o índice __\(um `number`\), usamos a chave \(uma `string`\), sempre entre aspas.
 2. O segundo é usando o ponto \( `.`\) com o nome da chave imediatamente depois, **sem** aspas. Isso é chamado notação de ponto \(_dot notation_\). Como na declaração das chaves, se usarmos notação de ponto, a chave deve obedecer às regras de nomes válidos \(por exemplo, elas não devem conter espaços\).
 
 Vamos ver alguns exemplos para esclarecer quando um ou outro é usado:

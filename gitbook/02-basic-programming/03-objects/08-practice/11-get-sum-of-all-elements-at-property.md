@@ -20,5 +20,3 @@ var output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 ```
 
-
-

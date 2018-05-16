@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `40 min`
 
-***
-
 ### Objetivos
 
 * Entender, através de casos práticos, como aplicar os conceitos de `funções`, `arrays` e `objetos` para resolução de problemas
@@ -20,7 +18,7 @@ Em seguida, você terá um problema para resolver. Tente resolvê-lo primeiro so
 
 #### 1. _Array_ para _Object_
 
-Escreva uma função que receba um _array _2D \(vetor\) e retorne um objeto com cada par de elementos do `array` como um par chave-valor . Por exemplo:
+Escreva uma função que receba um \_array \_2D \(vetor\) e retorne um objeto com cada par de elementos do `array` como um par chave-valor . Por exemplo:
 
 * Entrada
 
