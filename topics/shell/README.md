@@ -19,17 +19,9 @@ contratado en 2016, según LinkedIn).
 En este curso aprenderás a interactuar con la línea de comandos y escribir shell
 scripts.
 
-Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `envirnoment`,
+Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `environment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
-
-## Público objetivo
-
-Para quién es este curso?
-
-## Requerimientos previos
-
-Qué conocimientos previos se necesitan?
 
 ## Aprenderás
 
@@ -42,9 +34,29 @@ Qué conocimientos previos se necesitan?
 * A enteder qué es un proceso
 * A entender el "entorno" y usar variables de entorno
 
-***
+## Syllabus
 
-## Autor(es) / Colaboradores
+### Unidad 01: [Introducción](01-intro)
 
-* Tu nombre
-* Otros colaboradores?
+Esta unidad hace una introdcción a la _shell_ de UNIX, shells comunes, la línea
+de comandos, y otros conceptos básicos sobre este poderoso entorno.
+
+### Unidad 02: [Sistema de archivos](02-filesystem)
+
+En esta unidad nos concentramos en la interacción con el sistema de archivos
+desde el terminal. Veremos como navegar el sistema de archivos, crear carpetas,
+mover/copiar/borrar archivos y otros comandos comunes.
+
+<!--
+### Unidad 03: [Entorno / Envirnoment](03-environment)
+
+...
+
+### Unidad 04: [Procesos](04-process)
+
+...
+
+### Unidad 05: [Scripts](05-scripts)
+
+...
+-->

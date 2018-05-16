@@ -15,90 +15,6 @@ En esta unidad aprenderemos:
 - Aprender a navegar por nuestro `directorio`
 - Crear archivos o carpetas desde la terminal
 
-## La línea de comandos
-
-La línea de comandos es también conocida como
-
-- Terminal
-- Consola
-- Command Prompt
-- Símbolo de Sistema
-- cmd
-- Git Bash, etc.
-
-Una de las herramientas que más nos acompañará en nuestro camino del código
-será la `línea de comandos`. En esta lección conoceremos y aprenderemos cómo
-usar esa famosa pantalla negra que los "hackers" usan; pero tranquila, no
-vamos a "hackear" nada, ni haremos nada ilegal :)
-
-Puede parecer un poco aterrador al principio pero solo es una pantalla que
-espera a que le des órdenes.
-
-## ¿Para qué sirve la línea de comandos?
-
-La `línea de comandos` es una aplicación que nos permite ver, manejar y
-manipular archivos de nuestra computadora por medio de `comandos`. Es como el
-Explorador de Windows o Finder en Mac, pero sin la "interfaz".
-
-Por lo tanto, nos da un control que es rápido y automatizado de las
-computadoras.
-
-## Accediendo a la línea de comandos
-
-### Windows
-
-Presionamos la tecla "windows" + r:
-
-![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
-
-Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
-escribiremos **cmd.exe**
-
-![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
-
-Hacemos clic en el botón **OK** y estaremos abriendo nuestra terminal. Al abrir
-la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:
-
-![línea de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
-
-### Mac OS X
-
-Launchpad → Terminal
-
-### Linux
-
-Actividades → Terminal
-
-## Prompt
-
-Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
-
-- Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
-  con el símbolo `>`
-
-  ```text
-   C: \Users\Michelle >
-  ```
-
-  Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
-  aparecer tu nombre de usuario.
-
-- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
-  símbolo `$`
-
-  ```text
-  [Laboratoria@Michelle ~] $
-  ```
-
-  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
-
-- Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
-  computadora y terminará con el símbolo `$`
-
-  ```text
-  Laboratoria-MacBook-Air:~ Michelle$
-  ```
-
 ## Comandos
 
 Veamos qué asombrosas cosas podemos hacer dentro de la famosa "pantalla negra".
@@ -119,7 +35,7 @@ Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
 recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
 **baño**?
 
-![Plano](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
+![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
 
 Estoy en mi cuarto (n° 3) y si quiero ir al baño, primero, debo de entrar al
 clóset (n° 2) y luego entrar al baño (n°1). No puedo llegar al baño sin pasar
@@ -343,14 +259,3 @@ Por ejemplo, si queremos crear un archivo HTML el comando sería:
 ```text
 touch index.html
 ```
-
-## Detalle de comandos
-
-A continuación veremos una lista de los comandos usados en esta lección:
-
-![comandos-cli](https://fotos.subefotos.com/e6a2257e5c80534c28d721c34390b20bo.png)
-
-Ahora veamos cómo Michelle navega entre sus archivos o directorios, crea
-carpetas y archivos desde la terminal.
-
-[![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)
