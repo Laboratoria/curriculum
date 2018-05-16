@@ -1,1 +1,0 @@
-Falta hablar de `map`,`reduce`,`find`y`filter`?

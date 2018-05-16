@@ -40,15 +40,6 @@ navegadores también se actualizan y en este momento se están migrando a ES6.
 Este estandar del lenguaje, tiene un sin fin de características que te ayudarán
 a escribir código más limpio y cool.
 
-¿Estás lista?
-
-Las siguientes diapositivas exponen brevemente lo que abordaremos en esta
-unidad:
-
-<iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
-allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-</iframe>
-
 ## Otros datos para tener en cuenta
 
 ### Terminología

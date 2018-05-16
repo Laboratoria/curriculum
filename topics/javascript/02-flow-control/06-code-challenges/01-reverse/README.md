@@ -1,5 +1,9 @@
 # Invertir un arreglo
 
+* Environment: `js`
+
+***
+
 Usar estructuras de control para invertir un arreglo de números. Como entrada
 recibirás un arreglo de números u objetos y como salida se espera un arreglo con
 el orden invertido de los elementos.

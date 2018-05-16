@@ -1,5 +1,13 @@
+# Template Strings
+
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
+
+***
+
 ----------------------------
-# FIXME: Eliminar leccion
+## FIXME: Eliminar leccion
 
 Cambiar por una version que tenga:
 - intro general
@@ -9,14 +17,6 @@ Cambiar por una version que tenga:
 Y no este desarrollada haciendo diferencia entre es5 y es6
 
 ---------------------------
-
-# Template Strings
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 Con ECMAScript 6 se ha tratado de dar respuesta a algunas de las necesidades más
 básicas de los programadores a la hora de trabajar con strings, introduciendo la

@@ -1,5 +1,9 @@
 # Montos sin moneda
 
+* Environment: `js`
+
+***
+
 Dado un arreglo de montos en distintas monedas, retornar solo los valores sin
 importar la moneda.
 

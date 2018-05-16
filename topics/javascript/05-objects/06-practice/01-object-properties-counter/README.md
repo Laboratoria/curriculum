@@ -1,5 +1,9 @@
 # Contador de propiedades
 
+* Environment: `js`
+
+***
+
 Dado un objeto como parámetro, contar la cantidad de propiedades que este
 contiene y retornarlo.
 
