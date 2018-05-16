@@ -472,7 +472,7 @@ for (initial setup; condition; increment){
 }
 ```
 
-El _initial setup_ (por ejemplo: var counter = 0) se ejecuta antes de que se
+El _initial setup_ (por ejemplo: let counter = 0) se ejecuta antes de que se
 inicie el bucle. Generalmente se usa para crear una variable que rastrea el
 número de veces que se ha ejecutado el bucle. La _condition_ (counter < 10) se
 comprueba antes de cada ejecución del cuerpo de bucle. Si la condición es
@@ -500,7 +500,7 @@ bucle. Queremos hacer un programa que encuentre el primer número que es más
 grande o igual que 20 y divisible por 7.
 
 ```js
-for (var current = 20; ; current++) {
+for (let current = 20; ; current++) {
   if (current % 7 == 0)
     break;
 }
