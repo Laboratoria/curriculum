@@ -49,7 +49,7 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidad 01: [Primeros pasos: valores, variables, operadores, tipos y comentarios](01-basics)
+### Unidad 01: [Valores, variables, operadores, tipos y comentarios](01-basics)
 
 Aprende a utilizar variables para almacenar información que cambia durante el
 transcurso del programa y los diferentes tipo de datos de los valores en
@@ -59,6 +59,38 @@ JavaScript.
 
 Explora una de las formas más comunes de controlar el flujo de tu programa, y
 por lo tanto darle flexibilidad a lo que hace tu producto.
+
+### Unidad 03: [Funciones](03-functions)
+
+...
+
+### Unidad 04: [Arrays (arreglos)](04-arrays)
+
+...
+
+### Unidad 05: [Objects (objetos)](05-objects)
+
+...
+
+### Unidad 06: [Strings (cadenas de caracteres)](06-strings)
+
+...
+
+### Unidad 07: [Built-ins (standard library)](07-built-ins)
+
+...
+
+### Unidad 08: [Asincronía](08-async)
+
+...
+
+### Unidad 09: [Errores](09-errors)
+
+...
+
+### Unidad 10: [Depuración (debugging)](10-debugging)
+
+...
 
 ***
 
