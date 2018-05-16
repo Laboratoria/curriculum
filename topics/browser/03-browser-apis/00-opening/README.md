@@ -1,21 +1,22 @@
-# APIs de HTML5
+# Opening
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `20min`
+- Duración: `25min`
 
 ***
 
 ## Objetivos de Aprendizaje
 
+- Qué es un Browser API
+- A utilizar algunas Browser APIs
 - Qué es un API
 - Qué APIs nos ofrece HTML5
-- Qué APIs nos enocaremos
 
 ## HTML5 y la magia de sus APIs
 
-En la lectura anterior, nos enteramos que HTML5 viene con un conjunto de APIs,
-vamos a entrar un poco en contexto con la siguiente diapositiva:
+Anteriormente, nos enteramos que HTML5 viene con un conjunto de APIs, vamos
+a entrar un poco en contexto con la siguiente diapositiva:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVOkfyF6VYPu9b3p667Sorg5KW9xbC2KO_-dL04fXm5XlIzp6jgduLzZgnBDU5QqDQp3UQTkuOCi-_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -57,3 +58,24 @@ de HTML5 JavaScript APIs con algunos recursos para que puedas obtener mayor
 información. Como te darás cuenta, hay muchas de estas APIs y cubrirlas todas
 no sería posible, pero te sugerimos que no solo revises las que verás a
 continuación.
+
+## Guía de preguntas y conceptos clave
+
+Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
+conceptos más importantes de lo que vamos a aprender y de los temas centrales
+que debemos prestar particular atención.
+
+A continuación te presentamos una serie de preguntas que debes ser capaz de
+responder al terminar esta unidad. Utiliza estas preguntas como guía para
+orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
+medida que avanzas para validar que estás avanzando en la dirección correcta.
+Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+
+- ¿Qué son las  APIs del navegador?
+- ¿Cómo uso las APIs del navegador?
+- ¿Qué se necesita para la manipulación de audio y video?
+- ¿Cómo almaceno datos en el navegador?
+- ¿Cuál es la diferencia entre `localStorage` y `sessionStorage`?
+- ¿Cómo obtengo la ubicación actual del usuario?
+- ¿Qué significa DnD?
+- ¿Qué otras APIs del navegador conoces?

@@ -2,7 +2,7 @@
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `4h`
+- Duración: `1h`
 
 ***
 
@@ -13,13 +13,11 @@
 - Conocer las diferencias en el comportamiento bloque y en línea de elementos
   HTML
 - Conocer qué son y para qué sirven los atributos de elementos HTML
-- Conocer elementos HTML semánticos
 
-## ¿Qué es HTML?
+## Veamos qué es HTML
 
-En el curso de `Introducción a la Programación` creaste tu primer website.
-Aprendiste a crear un archivo HTML y a vincularlo con tu archivo JavaScript.
-En esta lección profundizaremos más en HTML.
+Anteriormente aprendiste a crear un archivo HTML y a vincularlo con tu archivo
+JavaScript. En esta lectura profundizaremos más en HTML.
 
 Revisando directamente la documentación del [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar)
 tenemos lo siguiente:
@@ -35,6 +33,41 @@ una cierta manera, o actúen de determinada forma. Las etiquetas que envuelven
 un trozo de contenido pueden hacer que dicho contenido enlace con otra página,
 ponga una palabra en cursiva, etcétera.
 
+## HTML5
+
+HTML5 es la última versión de HTML. El término representa dos conceptos
+diferentes:
+
+- Se trata de una nueva versión de HTML, con nuevos elementos, atributos y
+  comportamientos.
+- Contiene un conjunto más amplio de tecnologías que permite a los sitios Web
+  y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se
+  le llama _HTML5 y amigos_, a menudo reducido a **HTML5**.
+
+Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta
+página referencía numerosos recursos sobre las tecnologías de HTML5,
+clasificados en varios grupos según su función.
+
+- **Semántica:** Permite describir con mayor precisión cual es su contenido.
+- **Conectividad:** Permite comunicarse con el servidor de formas nuevas e
+  innovadoras.
+- **Sin conexión y almacenamiento:** Permite a las páginas web almacenar datos
+  localmente en el lado del cliente y operar sin conexión de manera más eficiente.
+- **Multimedia:** Nos otorga un excelente soporte para utilizar contenido
+  multimedia como lo son audio y video nativamente.
+- **Gráficos y efectos 2D/3D:** Proporciona una amplia gama de nuevas
+  características que se ocupan de los gráficos en la web como lo son canvas
+  2D, WebGL, SVG, etc.
+- **Rendimiento e Integración:** Proporciona una mayor optimización de la
+  velocidad y un mejor uso del hardware.
+- **Acceso al dispositivo:** Proporciona APIs para el uso de varios
+  compomentes internos de entrada y salida de nuestro dispositivo.
+- **CSS3:** Nos ofrece una nueva gran variedad de opciones para hacer diseños
+  más sofisticados.
+
+> Este es un [extracto de la documentación de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5)
+que podemos encontrar sobre HTML5.
+
 ## Anatomía de un elemento HTML
 
 Recordemos que salvo algunas excepciones (por ejemplo `<!DOCTYPE html>`), los
@@ -44,7 +77,7 @@ con la etiqueta de inicio `<p>` y termina con la etiqueta de cierre `</p>`. El
 texto que se encuentra entre las etiquetas de apertura y de cierre es el
  _contenido_ del elemento.
 
-![Ejemplo etiqueta](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-tag-sample.png?raw=true)
+![Ejemplo etiqueta](https://user-images.githubusercontent.com/25906896/39716065-df4e7158-51f4-11e8-9a4c-90f1e82bcd09.png)
 
 ## Anidamiento HTML
 
@@ -79,17 +112,14 @@ Podemos visualizar este concepto de _anidamiento_ html de la siguiente manera:
 ![Anidamiento html](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
 
 En este ejemplo vemos elementos que ya deberían ser familiares para ti. Ya
-conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`,
-`h1` y `p` (si necesitas un repaso de esto, te sugerimos leer de nuevo la
-lección de [crea tu primer website](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md)
-del curso `Introducción a la Programación`). Un par de elementos
-adicionales que hemos añandido son: `em` que hace que su
-contenido se visualice como texto en _cursiva_ y `strong` que hace que su
+conoces sobre la etiqueta `DOCTYPE`, los elementos `head`, `body`, `title`, `h1`
+y `p`. Un par de elementos adicionales que hemos añandido son: `em` que hace que
+su contenido se visualice como texto en _cursiva_ y `strong` que hace que su
 contenido se visualice como texto en _negrita_.
 
 Al abrir este documento en el navegador tendremos lo siguiente:
 
-![HTML nested](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-nested-html.png?raw=true)
+![HTML nested](https://user-images.githubusercontent.com/25906896/39716135-1c508578-51f5-11e8-97e4-074490066dac.png)
 
 ## Elementos bloque vs. en línea
 
@@ -132,7 +162,7 @@ Veamos un ejemplo:
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Block vs in line](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
+![Block vs in line](https://user-images.githubusercontent.com/25906896/39716266-7376cd4e-51f5-11e8-9169-229c007eaacb.png)
 
 Tanto `em` como `strong` son elementos en línea. Por lo tanto, los tres
 primeros elementos se sitúan en la misma línea uno tras otros sin espacio
@@ -203,12 +233,15 @@ dentro de un elemento `p` sea de color rojo sobre fondo amarillo y con un borde
 negro, hacemos:
 
 ```html
-<p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
+<p style="color:red; background-color: yellow; border: 1px solid black;">Código
+  <em>que</em>
+  <strong>transforma</strong>
+</p>
 ```
 
 Al visualizar el documento anterior en el navegador tendremos:
 
-![Style Example](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-style-attribute.png?raw=true)
+![Style Example](https://user-images.githubusercontent.com/25906896/39716433-f7d20fa4-51f5-11e8-820d-79dca1dbd781.png)
 
 Un atributo de estilo puede contener una o más declaraciones. Cada declaración
 está compuesta por una
@@ -231,7 +264,7 @@ bloque o en línea, o inclusive no mostrarlo:
 
 La vista en el navegador de esto sería:
 
-![Style Example](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-display.png?raw=true)
+![Style Example](https://user-images.githubusercontent.com/25906896/39716464-0fad0926-51f6-11e8-8ad6-011543112229.png)
 
 El texto _"en línea"_ se muestra inline (es decir, en la misma línea del texto
 anterior _"Un texto se puede mostrar"_) porque recordemos que el elemento strong
@@ -243,9 +276,6 @@ y cualquier contenido que venga después también aparecerá en una nueva
 línea. El texto _"no visualizarse"_ no se muestra porque al asignar el valor de
 `none` para `display` impide que un elemento aparezca en la pantalla. Esta es
 una forma de ocultar elementos.
-
-En la próxima lección sobre `css` profundizaremos en el concepto de darle
-estilos a tus elementos html.
 
 ## Etiquetas vacías
 
@@ -347,7 +377,7 @@ Veamos un ejemplo:
 
 Al visualizar el ejemplo anterior en el navegador tenemos:
 
-![Div and Span](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-div-and-span.png?raw=true)
+![Div and Span](https://user-images.githubusercontent.com/25906896/39716525-376456d6-51f6-11e8-8ade-2f9cb65a0ea1.png)
 
 Fíjate cómo hemos agrupado todo lo relacionado a un país en un `div`. Esto es
 útil porque crea secciones que siguen un orden lógico. Pero, más importante
@@ -355,37 +385,3 @@ aún, tener estas secciones separadas permite darle estilos diferentes a cada
 sección: el color de fondo y el color de la fuente varían para cada
 país. Lo mismo sucede con las palabras que mostramos en amarillo. Gracias a `span`
 podemos hacer que ciertos pedazos de texto tengan un estilo diferente.
-
-## HTML semántico
-
-Como hemos visto, los `div` son un excelente recurso para agrupar contenido de
-forma lógica y con ello poder darle estilos particulares a ciertas secciones.
-Por muchos años se ha desarrollado usando a los `div` como único recurso para
-agrupar contenido. Sin embargo, muchas web tienden a tener una estructura
-similar y a contener elementos comunes. Por ejemplo, casi todos los productos
-en la web tienen una cabecera, un menú de navegación, un contenido principal,
-contenido secundario, un footer, etc.
-
-Revisando la documentación del MDN sobre
-[estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura)
-podemos extraer:
-
-> En nuestro código HTML, podemos crear secciones de contenido basadas en su
-funcionalidad — usando elementos que representen las diferentes secciones del
-contenido descritas anteriormente sin ambigüedad, de forma que las tecnologías
-de ayuda y los lectores de pantalla puedan reconocer esos elementos y asistir
-en tareas como "encontrar el menú de navegación", o "encontrar el contenido
-principal".
->
-
-Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuadas
-que podemos usar para representar estas secciones. Revisa el link anterior e
-investiga el uso de los siguientes elementos semánticos:
-
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<aside>`
-- `<article>`
-- `<section>`
-- `<footer>`
