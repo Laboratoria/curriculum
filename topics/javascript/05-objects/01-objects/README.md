@@ -47,7 +47,7 @@ agrupar los títulos de nuestras películas preferidas, utilizaríamos un `array
 así:
 
 ```js
-var favoriteMovies = [
+const favoriteMovies = [
   'The Big Fish',
   'The Lord of the Rings',
   'The Empire Strikes Back',
@@ -66,7 +66,7 @@ Almacenemos diferentes piezas de información de la película `Back to the Futur
 en un solo lugar, por medio de un `object`:
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -102,7 +102,7 @@ que los _keys_ son `strings`. Sin embargo, es también válido colocar los _keys
 entre comillas. Por ejemplo, el objeto a continuación también es válido:
 
 ```js
-var person = {
+const person = {
   'age': 18,
   'name': 'Michelle',
   'friends': ['Alexandra','Ana']
@@ -116,7 +116,7 @@ queramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la
 película ('year of release'), haríamos:
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -149,7 +149,7 @@ Podemos acceder a los valores de un `object` de dos maneras:
 Veamos algunos ejemplos para aclarar cuándo se usa una o la otra:
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -188,7 +188,7 @@ Analicemos los dos errores:
 devuelve `undefined`. Veamos un ejemplo:
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -209,7 +209,7 @@ devolver un `array` y luego acceder a uno de los elementos del `array` a través
 de los corchetes `[]` y el _index_. Veamos un ejemplo:
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -248,7 +248,7 @@ modificando elementos.
 
 ```js
 // creando un object vacío
-var student = {};
+const student = {};
 
 // añadiendo elementos al object con corchetes y comillas
 student['name'] = 'Carolina';

@@ -8,7 +8,7 @@
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
     "test-browser": "opener ./test/index.html",
-    "test-node": "nyc mocha ./test/headless.js",
+    "test-node": "nyc mocha ./test/headless.js && nyc report --reporter=html",
     "test": "npm run test-node && npm run test-browser"
   },
   "dependencies": {

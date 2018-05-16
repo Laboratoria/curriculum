@@ -8,8 +8,8 @@
 
 ## Objetivos de Aprendizaje
 
-El objetivo de esta unidad es llevar a la práctica el ciclo request/response de 
-HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y 
+El objetivo de esta unidad es llevar a la práctica el ciclo request/response de
+HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y
 comunicándonos con el servidor a través de un API.
 
 Referencia:

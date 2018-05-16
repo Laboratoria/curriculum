@@ -1,12 +1,12 @@
 function findShortestWordAmongMixedElements(arr) {
-  if (arr.length == 0) {
+  if (arr.length === 0) {
     return '';
   }
 
-  var min = 10000;
-  var index = -1;
+  let min = 10000;
+  let index = -1;
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     if (typeof arr[i] === 'string') {
       if (arr[i].length < min) {
         min = arr[i];
@@ -15,7 +15,7 @@ function findShortestWordAmongMixedElements(arr) {
     }
   }
 
-  if (index == -1) {
+  if (index === -1) {
     return '';
   }
 

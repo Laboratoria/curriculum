@@ -125,8 +125,8 @@ método.
 - Sintaxis:
 
   ```javascript
-	padre.replaceChild(nuevoNodo, nodoAReemplazar);
-	```
+  padre.replaceChild(nuevoNodo, nodoAReemplazar);
+  ```
 
 Con el mismo HTML que para el ejemplo de `.insertBefore()`, si quisiéramos
 sustituir el segundo párrafo por el que creamos, lo haríamos así:
@@ -157,8 +157,8 @@ visible en el navegador hasta que lo añadamos en el documento.
 - Sintaxis:
 
   ```javascript
-	document.createElement('elemento');
-	```
+  document.createElement('elemento');
+  ```
 
 Así, crear un nuevo párrafo es tan simple como `document.createElement('p');`,
 atención a las comillas. Eso sí, el elemento no será visible, no es más
@@ -174,8 +174,8 @@ ocuparlo por medio de createTextNode.
 - Sintaxis:
 
   ```javascript
-	document.createTextNode('texto');
-	```
+  document.createTextNode('texto');
+  ```
 
 Igual que para el elemento creado arriba con el metodo `.createElement()`, el
 texto a crear por medio de este método debe ir entre comillas. Y de la misma
@@ -210,8 +210,8 @@ Por medio de este método podemos añadir a un nodo un nuevo hijo, de esta maner
 - Sintaxis
 
   ```javascript
-	padre.appendChild(nuevoNodo);
-	```
+  padre.appendChild(nuevoNodo);
+  ```
 
 El nuevo nodo se incluye inmediatamente después de los hijos ya existentes, si
 hay alguno y el nodo padre cuenta con un nuevo hijo.
@@ -247,8 +247,8 @@ y eliminarlo.
 - Sintaxis:
 
   ```javascript
-	padre.removeChild(nodoAEliminar);
-	```
+  padre.removeChild(nodoAEliminar);
+  ```
 
 ```javascript
 var container = document.getElementById('container');
@@ -364,8 +364,8 @@ sobre el que se esté utilizando.
 - Sintaxis
 
   ```javascript
-	elemento.style.propiedad = valor;
-	```
+  elemento.style.propiedad = valor;
+  ```
 
 Tomar en cuenta que las propiedades de CSS que están separadas por un guión
 (`font-family`, `font-size`, `border-bottom`) tienen que ser escritas con
