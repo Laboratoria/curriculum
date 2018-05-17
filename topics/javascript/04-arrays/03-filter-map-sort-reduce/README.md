@@ -313,7 +313,7 @@ del array (`2`) y devolvemos.
 
 Y asi sigue:
 
-![](reduce.png)
+![image](https://user-images.githubusercontent.com/211721/40194646-c88004e4-59d0-11e8-8ba2-71e6afeef003.png)
 
 Si lo pasamos a una tabla, donde cada fila representa una llamada a la función
 sobre el próximo elemento del array
