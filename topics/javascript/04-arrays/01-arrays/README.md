@@ -194,7 +194,7 @@ a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 ```js
 let questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],
@@ -208,7 +208,7 @@ la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
 
 ```js
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],
@@ -221,7 +221,7 @@ Vamos a hacerlo de nuevo paso a paso
 
 ```js
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],

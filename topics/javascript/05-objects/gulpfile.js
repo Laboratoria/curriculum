@@ -2,9 +2,7 @@ const gulp = require('gulp');
 const gulpConf = require('../gulp-utils.js');
 
 const lessons = [
-  '01-arrays',
-  '02-array-proto',
-  '03-filter-map-sort-reduce',
+  '01-objects',
 ];
 
 gulpConf(gulp, lessons);
