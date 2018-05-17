@@ -164,3 +164,4 @@ console.assert(arr.indexOf('hmmm') === -1);
 
 // - [Array en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 // - [Object.prototype en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
+// - [Array en javascript.info](https://javascript.info/array)

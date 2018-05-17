@@ -4,6 +4,7 @@ const shell = require('gulp-shell');
 const lessons = [
   '01-arrays',
   '02-array-proto',
+  '03-filter-map-sort-reduce',
 ];
 
 const sh = {
@@ -15,14 +16,22 @@ const sh = {
   */
   gen: lessons.reduce((cmd, l) => `
     ${cmd} &&
-    rm ${l}/*.md || true &&
-    ../../../node_modules/jdi/jdi ${l}/index.js &&
+    rm ${l}/README.md || true &&
+    npx jdi ${l}/index.js &&
     head -n -4 ${l}/index.js.md > ${l}/README.md && rm ${l}/index.js.md`,
   'true'),
+  eslint: `
+    cd ../../../ &&
+    npx eslint topics/javascript/04-arrays
+  `,
+  mdlint: `
+    cd ../../../ &&
+    npx mdlint topics/javascript/04-arrays
+  `,
   lint: `
     cd ../../../ &&
-    npx eslint topics/javascript/04-arrays --fix &&
-    npx mdlint topics/javascript/04-arrays
+    npx eslint topics/javascript/04-arrays &&
+    npx mdlint topics/javascript/04-arrays 
   `,
 };
 
