@@ -5,4 +5,4 @@ const lessons = [
   '01-objects',
 ];
 
-gulpConf(gulp, lessons);
+gulpConf(gulp, '05-objects', lessons);

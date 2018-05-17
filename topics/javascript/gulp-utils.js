@@ -1,6 +1,6 @@
 const shell = require('gulp-shell');
 
-exports.default = (gulp, lessons) => {
+module.exports = (gulp, topic, lessons) => {
   const sh = {
     test: lessons.reduce((cmd, l) => `${cmd} && node ${l}/index.js`, 'true'),
     /*
@@ -16,16 +16,11 @@ exports.default = (gulp, lessons) => {
     'true'),
     eslint: `
       cd ../../../ &&
-      npx eslint topics/javascript/04-arrays
+      npx eslint topics/javascript/${topic}
     `,
     mdlint: `
       cd ../../../ &&
-      npx mdlint topics/javascript/04-arrays
-    `,
-    lint: `
-      cd ../../../ &&
-      npx eslint topics/javascript/04-arrays &&
-      npx mdlint topics/javascript/04-arrays 
+      npx mdlint topics/javascript/${topic}
     `,
   };
 
@@ -33,11 +28,14 @@ exports.default = (gulp, lessons) => {
     gulp.task(task, shell.task(sh[task]));
   });
 
-  const tasks = ['test', 'gen', 'lint'];
+  gulp.task('lint', gulp.parallel('eslint', 'mdlint'));
 
-  gulp.task('watch', tasks, () => {
-    gulp.watch('**/*.js', tasks);
-  });
+  const tasks = gulp.series(['test', 'gen', 'lint']);
+  const genTasks = gulp.series(['gen', 'test']);
+
+  gulp.task('watch', gulp.series(genTasks, () => {
+    gulp.watch('**/*.js', genTasks);
+  }));
 
   gulp.task('default', tasks);
 };

@@ -7,4 +7,4 @@ const lessons = [
   '03-filter-map-sort-reduce',
 ];
 
-gulpConf(gulp, lessons);
+gulpConf(gulp, '04-arrays', lessons);
