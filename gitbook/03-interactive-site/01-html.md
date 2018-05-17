@@ -17,17 +17,17 @@
 
 ### O que é HTML?
 
-No decorrer da `Introducción a la Programación`criação do seu primeiro site. Você aprendeu a criar um arquivo HTML e vinculá-lo ao seu arquivo JavaScript. Nesta lição, nos aprofundaremos no HTML.
+No decorrer da `Introdução à Programação` você criou seu primeiro site. Você aprendeu a criar um arquivo HTML e vinculá-lo ao seu arquivo JavaScript. Nesta lição, nos aprofundaremos no HTML.
 
-Analisando diretamente a [documentação](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar) da [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar) , temos o seguinte:
+Analisando diretamente a documentação da [Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started) , temos o seguinte:
 
-> HTML \(HyperText Markup Language\) **não** é uma linguagem de programação, é uma linguagem de marcação, usada para dizer ao seu navegador como estruturar as páginas que você visita. Pode ser tão complexo ou tão simples quanto o desenvolvedor da web desejar.
+> HTML \(HyperText Markup Language\) **não** é uma linguagem de programação, é uma _linguagem de marcação_ utilizada para dizer ao seu navegador como estruturar a página web que você visita. A página pode ser tanto complicada como simples quanto o desenvolvedor web desejar que seja.
 >
-> HTML consiste em uma série de elementos, que você pode usar para delimitar, agrupar ou marcar diferentes partes do conteúdo para fazê-las aparecer de uma certa maneira ou agir de uma determinada maneira. Os rótulos que envolvem uma parte do conteúdo podem fazer com que o conteúdo seja vinculado a outra página, colocar uma palavra em itálico e assim por diante.
+> O HTML consiste em uma série de elementos que você usa para anexar, envolver ou marcar diferentes partes do conteúdo para que apareça ou aja de uma certa maneira. O fechamento das tags pode transformar uma parte do conteúdo dentro do elemento em um link para direcionar à uma outra página web, colocar as palavras em itálico, e assim por diante.
 
 ### Anatomia de um elemento HTML
 
-Lembre-se de que, com algumas exceções \(por exemplo `<!DOCTYPE html>`\), os elementos html começam com um `etiqueta de apertura (o inicio)`e terminam com um `etiqueta de cierre (o fin)`. Por exemplo, o elemento `p`começa com o rótulo inicial `<p>`e termina com o rótulo final `</p>`. O texto entre as tags de abertura e fechamento é o _conteúdo_ do elemento.
+Lembre-se de que, com algumas exceções \(por exemplo `<!DOCTYPE html>`\), os elementos `html` começam com um `tag de abertura ou início` e terminam com um `tag de fechamento (ou fim)`. Por exemplo, o elemento `p` começa com o rótulo inicial `<p>` e termina com o rótulo final `</p>`. O texto entre as tags de abertura e fechamento é o _conteúdo_ do elemento.
 
 ![R&#xF3;tulo de exemplo](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-tag-sample.png?raw=true)
 
@@ -37,11 +37,11 @@ Um elemento pode conter outros elementos ou tags HTML em seu conteúdo. Isso é 
 
 Lembre-se da estrutura básica de um documento HTML que estamos usando na maioria dos nossos exercícios e inclua alguns elementos adicionais:
 
-```text
+```markup
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML anidado</title>
+    <title>HTML Aninhado</title>
   </head>
   <body>
     <h1>Laboratoria</h1>
@@ -50,85 +50,85 @@ Lembre-se da estrutura básica de um documento HTML que estamos usando na maiori
 </html>
 ```
 
-Observe como certos elementos "aninham" outros. Ou seja, alguns elementos estão "contidos" nos outros. Por exemplo, o elemento `body`tem dois elementos aninhados \(ou filhos\) que são o título `h1`e o parágrafo `p`. Por sua vez, o parágrafo `p`contém dois elementos adicionais \(outras crianças\): `em`y `strong`.
+Observe como certos elementos "aninham" outros. Ou seja, alguns elementos estão "contidos" nos outros. Por exemplo, o elemento `body` tem dois elementos aninhados \(ou filhos\) que são o título `h1` e o parágrafo `p`. Por sua vez, o parágrafo `p` contém dois elementos adicionais \(outras crianças\): `em` ou `strong`.
 
 Podemos visualizar esse conceito de _aninhamento_ de html da seguinte maneira:
 
-![Nesting html](https://camo.githubusercontent.com/b08bf1484cdde3bc5b3e45b71d414639f317d6a1/687474703a2f2f7777772e6d72696e697469616c6d616e2e636f6d2f4c6962726172792f48544d4c2f50696374757265732f48544d4c2d4d61726b75705f4261736963732f68746d6c5f6e657374696e672e706e67)
+![Aninhamento HTML](https://camo.githubusercontent.com/b08bf1484cdde3bc5b3e45b71d414639f317d6a1/687474703a2f2f7777772e6d72696e697469616c6d616e2e636f6d2f4c6962726172792f48544d4c2f50696374757265732f48544d4c2d4d61726b75705f4261736963732f68746d6c5f6e657374696e672e706e67)
 
-Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe sobre o rótulo `DOCTYPE`, elementos `head`, `body`, `title`, `h1`e `p`\(se você precisa de uma revisão deste, sugerimos que você leia a lição novamente [criar seu primeiro site](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md) , é claro `Introducción a la Programación`\). Alguns elementos adicionais que adicionamos são: o `em`que faz com que seu conteúdo seja exibido como texto em _itálico_ e `strong`que faz com que seu conteúdo seja exibido como texto em _negrito_ .
+Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe sobre o rótulo `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p` \( se você precisa de uma revisão sobre eles, sugerimos que leia novamente a lição sobre [criar seu primeiro site](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md) do curso _Introdução à Programação\)_. Alguns elementos adicionais que adicionamos são: o `em` que faz com que seu conteúdo seja exibido como texto em _itálico_ e `strong` que faz com que seu conteúdo seja exibido como texto em _negrito_ .
 
 Ao abrir este documento no navegador, teremos o seguinte:
 
 ![HTML aninhado](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-nested-html.png?raw=true)
 
-### Elementos vs. bloco em linha
+###  Elementos em Bloco vs em Linha
 
-Vamos voltar para a leitura HTML da [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar) . Nos disse:
+Vamos voltar para a leitura HTML da [Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started):
 
-> Existem duas categorias importantes de elementos em HTML: elementos no nível de bloco e elementos em linha.
+> Há duas categorias importantes no HTML, que você precisa conhecer — elementos em bloco e elementos inline.
 >
-> **Os elementos no nível do** bloco formam um bloco visível em uma página. Eles aparecerão em uma nova linha de qualquer conteúdo que veio antes e qualquer conteúdo que vier depois também aparecerá em uma nova linha. Elementos de nível de bloco tendem a ser elementos estruturais na página que representam, por exemplo, parágrafos, listas, menus de navegação, rodapés, etc. Um elemento de nível de bloco não seria aninhado em um elemento in-line, mas poderia ser aninhado em outro elemento no nível de bloco.
+> **Elementos em bloco** formam um bloco visível na página. Eles aparecerão em uma nova linha logo após qualquer elemento que venha antes dele, e qualquer conteúdo depois de um elemento em bloco também aparecerá em uma nova linha. Elementos em bloco geralmente são elementos estruturais na página que representam, por exemplo: parágrafos, listas, menus de navegação, rodapés etc. Um elemento em bloco não seria aninhado dentro de um elemento inline, mas pode ser aninhado dentro de outro elemento em bloco.
 >
-> **Elementos embutidos** são aqueles que estão contidos em elementos de nível de bloco e envolvem apenas pequenas partes do conteúdo do documento, não parágrafos inteiros ou agrupamentos de conteúdo. Um elemento online não fará com que uma nova linha apareça no documento: eles geralmente aparecem em um parágrafo ou texto, por exemplo, elementos de ênfase como `em`ou `strong`.
+> **Elementos inline \(na linha\)** são aqueles que estão contidos dentro de elementos em bloco, envolvem apenas pequenas partes do conteúdo do documento e não parágrafos inteiros ou agrupamentos de conteúdo. Um elemento inline não fará com que uma nova linha apareça no documento: os elementos inline geralmente aparecem dentro de um parágrafo de texto, por exemplo: um elemento `<a>` \(hyperlink\) ou elementos de ênfase como `<em>` ou `<strong>`.
 
 Vamos ver um exemplo:
 
-```text
+```markup
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML anidado</title>
+    <title>HTML Aninhado</title>
   </head>
   <body>
-    <em>primero</em><strong>segundo</strong><em>tercero</em>
-    <p>cuarto</p><p>quinto</p><p>sexto</p>
+    <em>primeiro</em><strong>segundo</strong><em>terceiro</em>
+    <p>quarto</p><p>quinto</p><p>sexto</p>
   </body>
 </html>
 ```
 
 Ao visualizar o documento anterior no navegador, teremos:
 
-![Bloquear vs na fila](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
+![Bloco vs na Linha](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
 
-Tanto `em`quanto eles `strong`são elementos online. Portanto, os primeiros três elementos são colocados na mesma linha, um após o outro, sem espaço entre eles. Por outro lado, `p`é um elemento no nível do bloco, então cada elemento aparece em uma nova linha, com espaço acima e abaixo de cada um `p`.
+Tanto `em` quanto eles `strong` são elementos online. Portanto, os primeiros três elementos são colocados na mesma linha, um após o outro, sem espaço entre eles. Por outro lado, `p` é um elemento no nível do bloco, então cada elemento aparece em uma nova linha, com espaço acima e abaixo de cada um `p`.
 
 ### Elementos HTML
 
-Você tem à sua disposição vários elementos HTML para criar produtos na web. Investigue você mesmo \(usando seu excelente parceiro do Google\) e saiba como adicionar o seguinte a um website:
+Você tem à sua disposição vários elementos HTML para criar sites na web. Investigue você mesmo \(usando seu excelente parceiro do Google\) e saiba como adicionar o seguinte a um website:
 
-1. Cabeçalhos de títulos e legendas \(dica: títulos\)
+1. Cabeçalhos de títulos e legendas \(dica:  _headings_\)
 2. Um link
-3. Uma mesa
+3. Uma tabela
 4. Uma lista
 5. Uma imagem
-6. Uma linha divisória \(dica: regra horizontal\)
-7. Um encontro
-8. Realce um texto \(dica: marca\)
+6. Uma linha divisória \(dica:  _horizontal rule_\)
+7. Uma data
+8. Realçar um texto \(dica: mark\)
 
-Para cada elemento anterior, entenda se ele se comporta como `inline`ou como `block`.
+Para cada elemento anterior, entenda se ele se comporta como `inline` ou como `block`.
 
 ### Atributos
 
-Em sua pesquisa, você certamente se deparou com [o elemento `a`para adicionar um link ao seu site:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) e você deve ter notado que uma série de informações aparece no rótulo de abertura:
+Em sua pesquisa, você certamente se deparou com [o elemento `a` para adicionar um link ao seu site:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) e você deve ter notado que uma série de informações aparece na _tag_ de abertura:
 
-```text
-<a href="http://laboratoria.la/" target="_blank" title="Página de inicio de Laboratoria">Ir a Laboratoria</a>
+```markup
+<a href="http://laboratoria.la/" target="_blank" title="Página inicial da Laboratoria">Ir para Laboratoria</a>
 ```
 
-Essa informação é **atributos** . Os atributos nos fornecem informações adicionais sobre o conteúdo de um elemento que não queremos que apareça no conteúdo atual. Em alguns casos, eles adicionam recursos e / ou comportamento ao seu elemento HTML. Os atributos aparecem no **rótulo de abertura do** elemento e consistem em duas partes: um nome e um valor, separados por um sinal de igual \( `=`\).
+Essas informações são **atributos**. Os atributos nos fornecem informações adicionais sobre o conteúdo de um elemento que não queremos que apareça no conteúdo atual. Em alguns casos, eles adicionam recursos e/ou comportamento ao seu elemento HTML. Os atributos aparecem na **tag de abertura do** elemento e consistem em duas partes: um nome e um valor, separados por um sinal de igual \(`=`\).
 
-No caso do exemplo anterior, podemos visualizar três atributos: o atributo `href`, o atributo `target`e o atributo `title`.
+No caso do exemplo anterior, podemos visualizar três atributos: o atributo `href`, o atributo `target` e o atributo `title`.
 
-* O atributo `href`especifica o endereço da web para o qual você deseja que o link aponte; isto é, onde o navegador navega quando é clicado. Neste exemplo, vemos que aponta para a home page da Laboratoria: [http://laboratoria.la/](http://laboratoria.la/)
-* O atributo `target`especifica o contexto de navegação que será usado para exibir o link. Por exemplo, `target="_blank"`mostrará o link em uma nova guia. Se você quiser mostrar o link na aba atual, apenas omita este atributo.
-* O atributo `title`especifica informações extras sobre o link, como qual página você está vinculando. No nosso exemplo, diz "Laboratorio Home Page". Isso aparecerá como informação quando o mouse estiver sobre o link.
+* O atributo `href` especifica o endereço da web para o qual você deseja que o link aponte; isto é, aonde o navegador navega quando é clicado. Neste exemplo, vemos que aponta para a página inicial da Laboratoria: [http://laboratoria.la/](http://laboratoria.la/)
+* O atributo `target` especifica o contexto de navegação que será usado para exibir o link. Por exemplo, `target="_blank"` mostrará o link em uma nova guia. Se você quiser mostrar o link na aba atual, apenas omita este atributo.
+* O atributo `title` especifica informações extras sobre o link, como qual página você está vinculando. No nosso exemplo, diz "Página inicial da Laboratoria". Isso aparecerá como informação quando o mouse estiver sobre o link.
 
-### Atributo de estilo
+### Atributo _style_
 
-Existem muitos atributos comuns a todos os elementos html e existem atributos específicos associados a um determinado elemento. Um atributo que se aplica a quase todos os elementos html é o atributo `style`que permite dar estilos ao seu elemento. Por exemplo, se quisermos que o conteúdo dentro de um elemento `p`seja vermelho em um fundo amarelo e com uma borda preta, fazemos:
+Existem muitos atributos comuns a todos os elementos html e existem atributos específicos associados a um determinado elemento. Um atributo que se aplica a quase todos os elementos html é o atributo `style` que permite dar estilos ao seu elemento. Por exemplo, se quisermos que o conteúdo dentro de um elemento `p` seja vermelho em um fundo amarelo e com uma borda preta, fazemos:
 
-```text
+```markup
 <p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
 ```
 
@@ -136,15 +136,15 @@ Ao visualizar o documento anterior no navegador, teremos:
 
 ![Exemplo de estilo](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-style-attribute.png?raw=true)
 
-Um atributo de estilo pode conter uma ou mais instruções. Cada instrução é composta de uma **propriedade** \(como cor\) seguida por dois pontos e um **valor** \(como vermelho\). Quando temos mais de uma declaração, cada uma deve ser separada por ponto e vírgula \( `;`\). Por exemplo: `"color:red; background-color: yellow;"`.
+Um atributo de estilo pode conter uma ou mais instruções. Cada instrução é composta de uma **propriedade** \(como cor\) seguida por dois pontos e um **valor** \(como vermelho\). Quando temos mais de uma declaração, cada uma deve ser separada por ponto e vírgula \(`;`\). Por exemplo: `"color:red; background-color: yellow;"`.
 
-Há muitos aspectos que podem ser influenciados pelo estilo. Por exemplo, a propriedade `display`controla se um item é exibido como um bloco ou on-line, ou até mesmo não está sendo exibido:
+Há muitos aspectos que podem ser influenciados pelo estilo. Por exemplo, a propriedade `display` controla se um item é exibido como um bloco ou em linha, ou até mesmo não exibido:
 
-```text
+```markup
 <p>
-  Un texto se puede mostrar <strong>en línea</strong>,
-  <strong style="display: block">como bloque</strong>, y
-  <strong style="display: none">no visualizarse</strong>.
+  Um texto pode ser <strong>em linha</strong>,
+  <strong style="display: block">como bloco</strong>, y
+  <strong style="display: none">ou oculto</strong>.
 </p>
 ```
 
@@ -152,9 +152,9 @@ A visão no navegador disto seria:
 
 ![Exemplo de estilo](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-display.png?raw=true)
 
-O texto _"em linha"_ é exibido em linha \(ou seja, na mesma linha do texto anterior _"Um texto pode ser exibido"_ \) porque lembramos que o elemento forte é do tipo embutido. O texto _"como um bloco"_ terminará em sua própria linha, uma vez que os elementos do tipo bloco não são mostrados de acordo com o texto ao redor. Lembre-se de que quando um item é um tipo de bloco, ele aparecerá em uma nova linha de qualquer conteúdo que tenha vindo antes, e qualquer conteúdo que vier depois também aparecerá em uma nova linha. O texto _"não exibido"_ não _é_ exibido porque é atribuído o valor de `none`para `display`impedir que um item apareça na tela. Esta é uma maneira de esconder elementos.
+O texto _"em linha"_ é exibido em linha \(ou seja, na mesma linha do texto anterior _"Um texto pode ser exibido"_ \) porque lembramos que o elemento _strong_ é do tipo em linha. O texto _"como um bloco"_ terminará em sua própria linha, uma vez que os elementos do tipo bloco não são mostrados de acordo com o texto ao redor. Lembre-se de que quando um item é do tipo bloco, ele aparecerá em uma nova linha de qualquer conteúdo que tenha vindo antes, e qualquer conteúdo que vier depois também aparecerá em uma nova linha. O texto _"ou oculto"_ não _é_ exibido porque é atribuído o valor de `none` para `display` impedir que um item apareça na tela. Esta é uma maneira de esconder elementos.
 
-Na próxima lição, vamos nos `css`aprofundar no conceito de estilizar seus elementos html.
+Na próxima lição sobre `css` aprofundaremos o conceito de estilizar seus elementos html.
 
 ### Tags vazias
 
