@@ -20,6 +20,8 @@ primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado po
 sustitución en el que una letra en el texto original es reemplazada por otra
 letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
 
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
 El emperador Julio César lo usaba para enviar órdenes a sus generales en los
 campos de batalla, es una de las técnicas más simples y más usadas para cifrar
 un mensaje.
@@ -45,9 +47,10 @@ DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
 básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
 del DOM para mostrar (escribir) los resultados.
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como _valores_,
-_tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
-_tests unitarios_.
+Para completar el proyecto tendrás que familiarizarte con conceptos como
+[valores, tipos, variables](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/01-basics),
+[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control) y
+[tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
 
 Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
 y su necesidad. La idea es que logres entender qué necesita el usuario para el
