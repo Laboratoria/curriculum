@@ -74,4 +74,8 @@
 * [03 - interactive-site](03-interactive-site/README.md)
   * [00 - Introdução](03-interactive-site/00-html-and-css.md)
   * [01 - HTML](03-interactive-site/01-html.md)
+  * [05 - guided-exercises](03-interactive-site/05-guided-exercises.md)
+  * [13 - seminar](03-interactive-site/untitled.md)
+  * [15 - soft-skills-5](03-interactive-site/15-soft-skills-5.md)
+  * 16 - code-challenges
 
