@@ -4,7 +4,7 @@ function getSumOfAllElementsAtProperty(obj, key) {
 
   // if (array instanceof Array) {
   if (Array.isArray(array) && (array.length > 0)) {
-    sum = array[0];
+    [sum] = array;
 
     for (let i = 1; i < array.length; i += 1) { sum += array[i]; }
   }

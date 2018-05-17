@@ -6,6 +6,7 @@ function transformEmployeeData(array) {
     const obj = {};
 
     for (let j = 0; j < arr.length; j += 1) {
+      /* eslint-disable-next-line prefer-destructuring */
       obj[arr[j][0]] = arr[j][1];
     }
 
