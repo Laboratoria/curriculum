@@ -37,17 +37,18 @@ una empresa o de un servicio. Así tenemos dashboards como el de
 [Google Analytics](https://assets.econsultancy.com/images/resized/0003/3813/mobile_commerce_dashboard-blog-full.png)
 o el de [Mailchimp.](https://blog.mailchimp.com/wp-content/uploads/2016/11/Dashboard-view-3-Copy-1008x768.jpg)
 
-Para el proyecto #2 del bootcamp propondrás y crearás un dashboard.
-
-[Contexto sobre el tema, importancia, historia, ...: data (arreglos, objetos),
-JSON, DOM, XHR.]
+**Para el proyecto #2 del bootcamp propondrás y crearás un dashboard.**
 
 ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es construir una
 _interfaz_ web donde podamos visualizar y manipular data.
 
-Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/04-arrays), [objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects), [dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom), [xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr), ...
+Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/04-arrays),
+[objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects),
+[dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom),
+[xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr),
+...
 
 Habilidades blandas:
 
@@ -387,11 +388,28 @@ de estas habilidades. Sabemos que no siempre es fácil pero puedes lograrlo.
 
 ## Primeros pasos
 
-1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
-2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install`.
-4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   proyecto.
+1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+  condiciones, algo como [Atom](https://atom.io/) o
+  [Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+  [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+  que es un programita que interpreta líneas de comando (command-line
+  interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+  ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+  también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
+  aunque recomendaría que consideres probar :penguin: GNU/Linux.
+3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+  del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
+  privado y te darán acceso de lectura en ese repo.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+  tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm
+  install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
+  incluye [npm](https://docs.npmjs.com/)).
+6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+  pruebas unitarias (unit tests) con el comando `npm test`.
+7. A codear se ha dicho! :rocket:
 
 ## Tips / Pistas
 

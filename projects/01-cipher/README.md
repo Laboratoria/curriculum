@@ -49,8 +49,8 @@ del DOM para mostrar (escribir) los resultados.
 
 Para completar el proyecto tendrás que familiarizarte con conceptos como
 [valores, tipos, variables](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/01-basics),
-[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control) y
-[tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
+[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control)
+y [tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
 
 Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
 y su necesidad. La idea es que logres entender qué necesita el usuario para el
@@ -256,11 +256,11 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener `git` instalado. Si usas un sistema operativo
-   "UNIX-like", como GNU/Linux o MacOS, ya tienes una _shell_ (terminal)
-   instalada por defecto (y probablemente `git` también). Si usas Windows puedes
-   usar [Git bash](https://git-scm.com/download/win), aunque recomendaría que
-   consideres probar :penguin: GNU/Linux.
+   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
+   aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
    del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
    privado y te darán acceso de lectura en ese repo.
