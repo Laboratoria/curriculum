@@ -4,8 +4,6 @@
 * Formato: `guiado`
 * Duração: `30 min`
 
-***
-
 ## Objetivos
 
 * Conhecer o aspecto geral do **Sprint 1: Programação Básica com JavaScript**
@@ -25,6 +23,6 @@
 
 ## Material
 
-* [Apresentação do Sprint 1 Kick-off - regional](https://docs.google.com/presentation/d/1623UM9tYNGVNYN_62jwgdIkP07okvI5Rb9hyZX8yXvc/edit#slide=id.g1b73c42c66_0_112)
+* [Apresentação do Sprint 1 Kick-off - regional](https://docs.google.com/presentation/d/1cdgUb7zKHOklew_APzfVDrV3Hehqc8YvpC9XRYdvIQo/edit#slide=id.g1b73c42c66_0_112)
 * [Apresentação do Sprint 1 Kick-off - Guadalajara](https://docs.google.com/presentation/d/18mS_odcJM5csiA1qpw7eLD9U-74pAkULGZ2KZLWCqcM/edit?usp=sharing)
 
