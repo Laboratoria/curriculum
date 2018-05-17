@@ -47,7 +47,7 @@ JSON, DOM, XHR.]
 El objetivo principal de aprendizaje de este proyecto es construir una
 _interfaz_ web donde podamos visualizar y manipular data.
 
-Tópicos: _arrays_, _objects_, _dom_, _xhr_, ...
+Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/04-arrays), [objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects), [dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom), [xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr), ...
 
 Habilidades blandas:
 
