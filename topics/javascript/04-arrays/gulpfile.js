@@ -1,20 +1,26 @@
 const gulp = require('gulp');
 const shell = require('gulp-shell');
 
+const lessons = [
+  '01-arrays',
+  '02-array-proto',
+];
+
 const sh = {
-  test: 'node 01-arrays/README.js',
+  test: lessons.reduce((cmd, l) => `${cmd} && node ${l}/index.js`, 'true'),
   /*
   - elimina todo los `md` que hayan de antes
   - regenera los `mds`
   - quita el timestamp que genera `jdi` al final del md
   */
-  gen: `
-    rm 01-arrays/*.md &&
-    ../../../node_modules/jdi/jdi **/*.js &&
-    head -n -4 01-arrays/README.js.md > 01-arrays/README.md && rm 01-arrays/README.js.md
-  `,
+  gen: lessons.reduce((cmd, l) => `
+    ${cmd} &&
+    rm ${l}/*.md || true &&
+    ../../../node_modules/jdi/jdi ${l}/index.js &&
+    head -n -4 ${l}/index.js.md > ${l}/README.md && rm ${l}/index.js.md`,
+  'true'),
   lint: `
-    cd ../../../   &&
+    cd ../../../ &&
     npx eslint topics/javascript/04-arrays --fix &&
     npx mdlint topics/javascript/04-arrays
   `,
@@ -26,7 +32,7 @@ Object.keys(sh).forEach((task) => {
 
 const tasks = ['test', 'gen', 'lint'];
 
-gulp.task('watch', () => {
+gulp.task('watch', tasks, () => {
   gulp.watch('**/*.js', tasks);
 });
 
