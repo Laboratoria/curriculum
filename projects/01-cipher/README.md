@@ -49,9 +49,9 @@ Para completar el proyecto tendrás que familiarizarte con conceptos como _valor
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
 _tests unitarios_.
 
-Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es y
-su necesidad. La idea es que logres entender qué necesita el usuario para el que
-crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
+Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
+y su necesidad. La idea es que logres entender qué necesita el usuario para el
+que crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
 posible.
 
 Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
@@ -79,7 +79,7 @@ que contiene el _boilerplate_.
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
 
-```
+```text
 ./
 ├── .editorconfig
 ├── .eslintrc
@@ -96,6 +96,17 @@ como toda la configuración de dependencias y tests de ejemplo:
     ├── headless.js
     └── index.html
 ```
+
+El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
+[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
+`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
+automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
+`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
+configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
+información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
+entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
+En cuanto a reglas/guías de estilo en sí,
+usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ## Parte obligatoria
 
@@ -131,12 +142,12 @@ La interfaz debe permitir al usuario:
 * `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
   _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
   contener dos métodos:
-    - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-       queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-       que queremos cifrar.
-    - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-      queremos mover a la izquierda en el alfabeto y `string` el mensaje
-      (texto) que queremos decifrar.
+  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
+    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
+    que queremos cifrar.
+  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
+    queremos mover a la izquierda en el alfabeto y `string` el mensaje
+    (texto) que queremos decifrar.
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
