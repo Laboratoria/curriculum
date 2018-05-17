@@ -109,12 +109,7 @@ console.assert(listOfNumbers[1 - 1] === 2);
 // en el `index 2`, y así sucesivamente. Es por eso que pedir index `1 - 1`
 // (es decir, 0) del array anterior devuelve el número `2`.
 
-// <pre>
-//                        INDEX
-//                        0  1  2  3  4
-//                        |  |  |  |  |
-// const listOfNumbers = [2, 3, 5, 7, 11];
-// </pre>
+// ![image](https://user-images.githubusercontent.com/211721/40194836-51eebf22-59d1-11e8-8de8-8b29feb3bbf7.png)
 
 // Si no tienes antecedentes en programación, acostumbrarte a esta convención puede
 // tomarte algún tiempo. Pero el conteo con base cero tiene una larga tradición en
