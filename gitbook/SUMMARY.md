@@ -2,13 +2,7 @@
 
 * [Introduction](02-basic-programming/README.md)
 * [02 - Basic Programming](02-basic-programming/README.md)
-  * 00 - Welcome
-    * [00 - Opening](02-basic-programming/00-welcome/00-opening.md)
-    * [01 - About Laboratoria](02-basic-programming/00-welcome/01-about-laboratoria.md)
-    * [02 - Sprint Demo](02-basic-programming/00-welcome/02-sprint-demo.md)
-    * [03 - Learning at Laboratoria](02-basic-programming/00-welcome/03-learning-at-laboratoria.md)
-    * [04 - Sprint 1 Kickoff](02-basic-programming/00-welcome/04-sprint-1-kickoff.md)
-  * 01 - Shell+Git
+  * [01 - Shell+Git](02-basic-programming/01-shell+git/README.md)
     * [00 - Opening](02-basic-programming/01-shell+git/00-opening.md)
     * [01 - Command Line](02-basic-programming/01-shell+git/01-command-line.md)
     * [02 - Git](02-basic-programming/01-shell+git/02-git.md)
