@@ -73,11 +73,14 @@ No se debe utilizar la _pseudo-variable_ `this`.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test`.
+setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
+coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
+test`.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este repositorio
-que contiene el _boilerplate_.
+El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
+
+Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
+repositorio que contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
@@ -155,12 +158,6 @@ La interfaz debe permitir al usuario:
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
-
-### Tests
-
-El _boilerplate_ incluye tests (pruebas) de ejemplo y todo el setup necesario
-para implementar y ejecutar los tests, así como _code coverage_ para ver el
-nivel de cobertura de los tests (ver consideraciones generales).
 
 ## Hacker edition
 
@@ -253,11 +250,28 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 
 ## Primeros pasos
 
-1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
-2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install`.
-4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   proyecto.
+1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+   condiciones, algo como [Atom](https://atom.io/) o
+   [Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   que es un programita que interpreta líneas de comando (command-line
+   interpreter) así como tener `git` instalado. Si usas un sistema operativo
+   "UNIX-like", como GNU/Linux o MacOS, ya tienes una _shell_ (terminal)
+   instalada por defecto (y probablemente `git` también). Si usas Windows puedes
+   usar [Git bash](https://git-scm.com/download/win), aunque recomendaría que
+   consideres probar :penguin: GNU/Linux.
+3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
+   privado y te darán acceso de lectura en ese repo.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm
+   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
+   incluye [npm](https://docs.npmjs.com/)).
+6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+   pruebas unitarias (unit tests) con el comando `npm test`.
+7. A codear se ha dicho! :rocket:
 
 ***
 
