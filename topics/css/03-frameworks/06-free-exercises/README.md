@@ -1,24 +1,20 @@
 # Clase Práctica
 
-- Tipo: `taller`
-- Formato: `guiado`
+- Tipo: `lectura`
+- Formato: `self-paced`
 - Duración: `2h`
 
 ***
 
 ## Objetivos
 
-- Practicar codeando junto a tu equipo de profes, resolviendo ejercicios con la
-  ayuda de `frameworks css`
 - Probar, intentar y practicar más.
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios de práctica que serán resueltos, paso
-a paso, por tu equipo de profes en una sesión presencial (`taller`). Te
-sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
-**antes** de la sesión presencial. Así, ya vienes con dudas específicas y
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
+A continuación tienes algunos ejercicios para practicar, te sugerimos
+que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya 
+estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución 
 ante la clase y así ayudar al resto de tus compañeras :)
 
 Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
