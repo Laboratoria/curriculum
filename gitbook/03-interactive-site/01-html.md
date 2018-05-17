@@ -158,70 +158,70 @@ Na próxima lição sobre `css` aprofundaremos o conceito de estilizar seus elem
 
 ### Tags vazias
 
-Em sua pesquisa, você também se deparou com [o elemento `<img>`para adicionar uma imagem ao seu site](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) e você notou que ele não tem uma tag de fechamento e, portanto, não tem "conteúdo":
+Em sua pesquisa, você certamente se deparou com [o elemento `<img>` para adicionar uma imagem ao seu site](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) e você notou que ele não tem uma tag de fechamento e, portanto, não tem "conteúdo":
 
-```text
+```markup
 <img src="http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg">
 ```
 
-Alguns rótulos não contêm conteúdo diretamente; em vez disso, eles recebem uma _fonte_ da qual obter o conteúdo. Isto é o que acontece com o elemento `img`. O atributo `src`fornece o caminho do conteúdo. Neste caso, ao ir para a rota [http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg) vamos encontrar a foto de Mariana com Mark e Barack :\)
+Algumas tags não contêm conteúdo diretamente; em vez disso, eles recebem uma _fonte_ da qual obter o conteúdo. Isto é o que acontece com o elemento `img`. O atributo `src` fornece o caminho do conteúdo. Neste caso, ao ir para o endereço [http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg) vamos encontrar a foto de Mariana com Mark e Barack :\)
 
-![Foto Mari](https://camo.githubusercontent.com/23368379392933f09175126182a4da1bfe8d6dfa/687474703a2f2f6364652e322e74726f6d652e70652f696d612f302f312f312f382f352f313138353339372e6a7067)
+![Foto Maride Mariana](https://camo.githubusercontent.com/23368379392933f09175126182a4da1bfe8d6dfa/687474703a2f2f6364652e322e74726f6d652e70652f696d612f302f312f312f382f352f313138353339372e6a7067)
 
-Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do MDN em`br`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/br) . O que é isso `br`?
+Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do MDN sobre `br`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/br) . Para que serve `br`?
 
 ### Comentários em HTML
 
-Como podemos discutir nosso código `javascript`para torná-lo mais compreensível, também podemos adicionar comentários ao nosso código `html`. Para definir um comentário em um arquivo html, usamos as tags `<!--`para abrir o comentário e `-->`fechá-lo.
+Assim como podemos comentar nosso código `javascript` para torná-lo mais compreensível, também podemos adicionar comentários ao nosso código HTML. Para definir um comentário em um arquivo HTML, usamos os marcadores `<!--` para abrir o comentário e `-->` para fechá-lo.
 
-```text
-<!-- Esto es un comentario. No se verá en la web, pero sí en mi código. -->
+```markup
+<!-- Isto é um comentário. Não será visto na página, mas sim em meu código. -->
 ```
 
-### Replicando a página do Grace Hopper da wikipedia
+### Recriando a página de Grace Hopper da Wikipédia
 
-Agora que você tem uma ideia dos elementos `html`mais comuns, seu comportamento \(inline vs block\) e seus principais atributos, Michelle explicará como construir uma réplica da [página da Wikipédia de Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) :
+Agora que você tem uma ideia dos elementos `html` mais comuns, seu comportamento \(em linha ou em bloco\) e seus principais atributos, Michelle explicará como construir uma réplica da [página da Wikipédia de Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) :
 
 ![Grace Hopper](https://camo.githubusercontent.com/0a033c8450bfc5c4c5b4367c23f9a3b7c31b208a/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f3977354954417232686c512f302e6a7067)
 
 ### Os elementos `div`e`span`
 
-Muitas vezes, ao criar nossa estrutura HTML, torna-se necessário "agrupar" elementos para dividir nossa Web em seções ou partes lógicas. Por exemplo, se no _rodapé_ \(ou rodapé\) do nosso site, queremos mostrar os ícones de nossas redes sociais com links de contato, é útil agrupar todos os ícones em uma seção e os links em outra seção, e que ambos os grupos estão contidos no _rodapé_ .
+Muitas vezes, ao criar nossa estrutura HTML, torna-se necessário "agrupar" elementos para dividir nossa página web em seções ou partes lógicas. Por exemplo, se no _footer_ \(ou rodapé\) do nosso site, queremos mostrar os ícones de nossas redes sociais com links de contato, é útil agrupar todos os ícones em uma seção e os links em outra seção, e que ambos os grupos estejam contidos no _footer_ .
 
-Para fazer esses agrupamentos, podemos usar os elementos `div`y `span`. Os elementos `div`e `span`são como "containers" vazios que preenchemos com outros elementos e conteúdo.
+Para fazer esses agrupamentos, podemos usar os elementos `div` e `span`. Os elementos `div` e `span` são como "contêineres" vazios que preenchemos com outros elementos e conteúdo.
 
-* O elemento `div`define uma divisão ou uma seção em um documento HTML. É usado para agrupar elementos de **bloco** . É frequentemente usado como um contêiner para outros elementos. A `div`é um bloco, o que significa que há uma quebra de linha antes e depois.
-* O elemento `span`é usado como um contêiner para textos. É **um** tipo **inline** ; isto é, aparece entre as linhas, como parte de um parágrafo.
+* O elemento div define uma divisão ou uma seção em um documento HTML. É usado para agrupar elementos de **bloco** . É frequentemente usado como um contêiner para outros elementos. A `div` é um bloco, o que significa que há uma quebra de linha antes e depois.
+* O elemento `span` é usado como um contêiner para textos. É do tipo **em linha**; isto é, aparece entre as linhas, como parte de um parágrafo.
 
-Vamos ver um exemplo:
+Vejamos um exemplo:
 
-```text
+```markup
 <!DOCTYPE html>
 <html>
   <body>
     <div style="background-color: green; color: white">
-      <h2>Ciudad de México</h2>
-      <p>La Ciudad de México, anteriormente conocida como el Distrito Federal,
-        es una de las 32 entidades federativas de México, así como la capital
-        de los <span style ="color: yellow">Estados Unidos Mexicanos</span>.
+      <h2>Cidade do México</h2>
+      <p>A Cidade do México, anteriormente conhecida como Distrito Federal,
+        é uma das 32 unidades federativas do México, assim como a capital
+        dos <span style="color: yellow">Estados Unidos Mexicanos</span>.
       </p>
     </div>
     <div style="background-color: red; color: white">
       <h2>Lima</h2>
-      <p>Lima es la capital de la <span style ="color: yellow">República del
-        Perú</span> y de la provincia homónima. Se sitúa en la costa central
-        del país, a orillas del océano Pacífico, conformando una extensa y
-        populosa área urbana conocida como Lima Metropolitana, flanqueada por
-        el desierto costero y extendida sobre los valles de los ríos Chillón,
-        Rímac y Lurín.
+      <p>Lima é a capital da <span style="color: yellow">República do
+        Perú</span> e da província homônima. Situa-se na costa central do país, 
+        às magens do Oceano Pacífico, contendo uma extensa e populosa
+        área urbana conhecida como Lima Metropolitana, cercada pelo
+        deserto costeiro e extendida sobre os vales dos rios Chillón,
+        Rímac e Lurín.
       </p>
     </div>
     <div style="background-color: blue; color: white">
       <h2>Santiago</h2>
-      <p>Santiago, llamada también Santiago de Chile, es la capital de
-        <span style ="color: yellow">Chile</span> y de la región Metropolitana
-        de Santiago. Es el principal núcleo urbano del país y su área
-        metropolitana se conoce también con el nombre de Gran Santiago.
+      <p>Santiago, chamada também de Santiago do Chile, é a capidal do 
+        <span style="color: yellow">Chile</span> e da região Metropolitana
+        de Santiago. É o principal núcleo urbano do país e sua área 
+        metropolitana também é conhecida pelo nome de Grande Santiago.
       </p>
     </div>
   </body>
@@ -232,15 +232,15 @@ Ao visualizar o exemplo anterior no navegador, temos:
 
 ![Div e Span](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-div-and-span.png?raw=true)
 
-Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas seções separadas permite que você forneça estilos diferentes para cada seção: a cor do plano de fundo e a cor da fonte variam para cada país. O mesmo acontece com as palavras que mostramos em amarelo. Graças a `span`nós podemos fazer com que certas partes do texto tenham um estilo diferente.
+Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque ele cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas seções separadas permite que você forneça estilos diferentes para cada seção: a cor do plano de fundo e a cor da fonte variam para cada país. O mesmo acontece com as palavras que mostramos em amarelo. Graças a `span` nós podemos fazer com que certas partes do texto tenham um estilo diferente. 
 
 ### HTML semântico
 
-Como vimos, eles `div`são um excelente recurso para agrupar o conteúdo de uma maneira lógica e com a capacidade de fornecer estilos específicos a determinadas seções. Por muitos anos, ele foi desenvolvido usando-os `div`como o único recurso para agrupar conteúdo. No entanto, muitos sites tendem a ter uma estrutura semelhante e conter elementos comuns. Por exemplo, quase todos os produtos na Web têm um cabeçalho, um menu de navegação, um conteúdo principal, um conteúdo secundário, um rodapé etc.
+Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira lógica e com a capacidade de fornecer estilos específicos a determinadas seções. Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No entanto, muitos sites tendem a ter uma estrutura semelhante e conter elementos comuns. Por exemplo, quase todos os produtos na Web têm um cabeçalho, um menu de navegação, um conteúdo principal, um conteúdo secundário, um rodapé etc.
 
 Revendo a documentação do MDN sobre [estrutura e documentação da web](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura) , podemos extrair:
 
-> Em nosso código HTML, podemos criar seções de conteúdo baseado em sua funcionalidade - utilizando elementos que representam diferentes secções do conteúdo descrito acima, sem ambiguidades, para que tecnologias assistivas e leitores de tela para reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
+> Em nosso código HTML, podemos criar seções de conteúdo baseadas em sua funcionalidade - utilizando elementos que representam diferentes secções do conteúdo descrito acima, sem ambiguidades, para que tecnologias assistivas e leitores de tela possam reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
 
 Para implementar essas seções semânticas, o HTML possui tags apropriadas que podemos usar para representar essas seções. Verifique o link anterior e investigue o uso dos seguintes elementos semânticos:
 
@@ -251,4 +251,6 @@ Para implementar essas seções semânticas, o HTML possui tags apropriadas que 
 * `<article>`
 * `<section>`
 * `<footer>`
+
+
 
