@@ -1,6 +1,5 @@
 {
   "rules": {
-    "no-extend-native": "off",
     "no-console": ["error", { "allow": ["assert"] }]
   }
 }

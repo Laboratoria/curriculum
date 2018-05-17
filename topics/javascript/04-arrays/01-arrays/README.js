@@ -44,13 +44,12 @@
 
 // Una opción para representar esto sería:
 
-/* eslint-disable no-unused-vars */
 const firstNumber = 2;
 const secondNumber = 3;
 const thirdNumber = 5;
 const fourthNumber = 7;
-/* eslint-enable no-unused-vars */
 
+//
 // Esta lista es bien extraña y engorrosa. Implica tener una variable para cada
 // elemento de nuestra lista. Cuando en realidad sólo deberíamos tener una sola
 // variable que "contenga" a cada una.¡Imagina que luego quieres tener una lista
@@ -62,7 +61,7 @@ const fourthNumber = 7;
 // espacio, así:
 
 let listOfNumbers = '2 3 5 7 11';
-
+//
 // Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de
 // extraer cada elemento del `string` (contando los espacios entre ellos) y además,
 // tendríamos que convertirlos de vuelta a `number` para acceder y manipular cada
@@ -74,6 +73,7 @@ let listOfNumbers = '2 3 5 7 11';
 
 listOfNumbers = [2, 3, 5, 7, 11];
 
+//
 // Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como
 // cuando vamos al mercado y tenemos nuestra "lista de compras". Podríamos tener
 // una hoja de papel para cada artículo que queremos comprar. Por ejemplo, podríamos
@@ -93,6 +93,7 @@ console.assert(equal([1, 2, 3], [1, 2, 3]));
 console.assert(!equal([1, 2, 3], ['a', 'b', 'c']));
 console.assert(!equal([1, 2, 3], [3, 2, 1]));
 
+//
 // Para obtener un elemento dentro de un `array`, se utiliza la notación con corchetes,
 // con el _index_ (índice en español) del elemento que se desea. Veamos un ejemplo:
 
@@ -101,6 +102,7 @@ listOfNumbers = [2, 3, 5, 7, 11];
 console.assert(listOfNumbers[1] === 3);
 console.assert(listOfNumbers[1 - 1] === 2);
 
+//
 // El _index_ es el número que corresponde a (o que coincide con) el punto del `array`
 // donde se almacena el valor. Al igual que con los `strings`, el primer elemento
 // de un `array` está en el `index 0`, el segundo está en el `index 1`, el tercero
@@ -125,7 +127,6 @@ console.assert(listOfNumbers[1 - 1] === 2);
 // agregar elementos a un `array`. Por ejemplo, para reemplazar el primer elemento del
 // array `listOfNumbers` por el número 1, podríamos hacer lo siguiente:
 
-
 listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[0] = 1;
 
@@ -133,6 +134,7 @@ console.assert(
   equal(listOfNumbers, [1, 3, 5, 7, 11]),
 );
 
+//
 // También podemos utilizar los _indexes_ entre corchetes para agregar elementos en
 // un `array`. Por ejemplo, para agregar el número 13 al array `listOfNumbers`,
 // haríamos lo siguiente:
@@ -144,6 +146,7 @@ console.assert(
   equal(listOfNumbers, [2, 3, 5, 7, 11, 13]),
 );
 
+//
 // De hecho, podemos crear un `array` vacío y luego definir cada elemento de forma
 // individual, así:
 
@@ -158,6 +161,7 @@ console.assert(
   equal(listOfNumbers, [2, 3, 5, 7, 11]),
 );
 
+//
 // ## Mezclando tipos de datos en arrays
 
 // Los elementos de un `array` no tienen que ser todos del mismo tipo de dato.
@@ -169,6 +173,7 @@ console.assert(mixedArray[0] === 3);
 console.assert(mixedArray[1] === 'hola mundo');
 console.assert(mixedArray[2] === 3627.5);
 
+//
 // Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente
 // llama arrays de 2 dimensiones). Por ejemplo, para organizar la data de preguntas
 // y respuestas de un quiz, podemos utilizar un `array` en el que cada elemento es,
@@ -181,6 +186,7 @@ let questions = [
   ['¿Cuál es la moneda de México?', 'Peso'],
 ];
 
+//
 // Para acceder a elementos individuales de los arrays internos simplemente se añade
 // un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtener
 // la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
@@ -193,6 +199,7 @@ questions = [
 ];
 console.assert(questions[3][1] === 'Peso');
 
+//
 // Vamos a hacerlo de nuevo paso a paso
 
 questions = [
@@ -207,7 +214,7 @@ console.assert(
 );
 console.assert(quest3[1] === 'Peso');
 
-
+//
 // A continuación Michelle nos explica los conceptos principales de `arrays` con un
 // ejemplo:
 
