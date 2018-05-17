@@ -195,34 +195,34 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 | Característica/Habilidad | Nivel esperado |
 |--------------------------|----------------|
 | Completitud | 3
-| Investigación | 2/3
-| Documentación | 3
+| Investigación | 3
+| Documentación | 2
 
 ### Tech
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | **JavaScript** | |
-| Estilo | 2/3
-| Nomenclatura/semántica | 2/3
+| Estilo | 2
+| Nomenclatura/semántica | 2
 | Funciones/modularidad | 1
 | Estructuras de datos | 0
 | Tests | 2
 | **HTML** | |
 | Validación | 2
 | Estilo | 3
-| Semántica | 2/3
+| Semántica | 2
 | SEO | 0
 | **CSS** | |
-| DRY | 2/3
+| DRY | 2
 | Responsive | 2
 | **SCM** | |
 | Git | 1
-| GitHub | 2 |
+| GitHub | 2
 | **CS** | |
-| Lógica | 1/2
-| Arquitectura | 1/2
-| Patrones/paradigmas | 0 |
+| Lógica | 1
+| Arquitectura | 1
+| Patrones/paradigmas | 0
 
 ### UX
 
@@ -242,9 +242,9 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 | Solución de problemas | 2
 | Dar y recibir feedback | 2
 | Adaptabilidad | 2
-| Trabajo en equipo | 1/2
-| Comunicación eficaz | 1/2
-| Presentaciones | 1/2
+| Trabajo en equipo | 1
+| Comunicación eficaz | 1
+| Presentaciones | 1
 
 ***
 
