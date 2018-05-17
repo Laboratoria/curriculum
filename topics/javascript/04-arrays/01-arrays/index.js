@@ -175,7 +175,7 @@ console.assert(mixedArray[2] === 3627.5);
 // a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 let questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],
@@ -187,7 +187,7 @@ let questions = [
 // la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
 
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],
@@ -198,7 +198,7 @@ console.assert(questions[3][1] === 'Peso');
 // Vamos a hacerlo de nuevo paso a paso
 
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
   ['¿Cuál es la moneda de México?', 'Peso'],
