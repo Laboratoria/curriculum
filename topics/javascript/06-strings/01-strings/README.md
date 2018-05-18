@@ -19,11 +19,11 @@ aquí el [fuente](https://github.com/iliakan/javascript-tutorial-en/blob/master/
 En JavaScript, los tipos de dato *texto*, se guardan como *tiras de caracteres*,
 más popularmente conocidas como `strings`.
 
-## Comillas
+## Comillas (*Quotes*)
 
 Recordemos los tipos de comillas que tenemos.
 
-Los Strings pueden encerrarse en comillas simples (*single quotes*),
+Los `Strings` pueden encerrarse en comillas simples (*single quotes*),
 dobles (*doble quotes*)
 o tildes invertidas (*backticks*):
 
@@ -34,18 +34,26 @@ const backticks = `backticks`;
 
 ```
 
-Las comillas simples ydobles, son básicamente lo mismo.
+Las comillas simples y dobles, son básicamente lo mismo.
 Las tildes invertidas en cambio,
-nos permiten embeber (interpolar) cualquier expresión dentro del string:
+nos permiten embeber (interpolar) cualquier expresión dentro de un string:
 
 ```js
+const greeting = 'Mundo';
+console.assert(`Hola ${greeting}` === 'Hola Mundo');
+
+const sqrt = Math.sqrt(7);
+console.assert(`sqrt(7) ~ ${sqrt.toFixed(2)}` === 'sqrt(7) ~ 2.65');
+
 const sum = (a, b) => a + b;
 console.assert(`1 + 2 = ${sum(1, 2)}` === '1 + 2 = 3');
 
+console.assert(`${'Hola'.concat(` ${'Mun'.concat('do')}`)}!` === 'Hola Mundo!');
+
 ```
 
-Another advantage of using backticks is that they allow
-a string to span multiple lines:
+Otra ventaja de usar tildes invertidas, es que nos permiten
+definir textos multi línea:
 
 ```js
 const guestList = `Guests:
@@ -78,7 +86,7 @@ son más versátiles.
 
 Como vimos antes, es posible crear un *multiline string*
 usando comillas simples, gracias a un caracter especial, llamado
-"newline character", que se representa asi `\n`,
+*"newline character"*, que se representa asi `\n`,
 y representa un salto de línea:
 
 ```js
@@ -129,10 +137,10 @@ console.assert('I\'m the Walrus!' === "I'm the Walrus!");
 ```
 
 Ten cuenta que sólo usamos la barra invertida para que el intérprete de
-JavaScript, entienda lo que le queremos decir.
+JavaScript entienda lo que le queremos decir.
 Una vez en memoria, el `\` desaparece
 
-Y que si necesitamos mostras una barra invertida? Usamos `\\`:
+¿Qué hacemos si necesitamos mostras una barra invertida? Usamos `\\`:
 
 ```js run
 alert( `The backslash: \\` ); // The backslash: \
@@ -147,7 +155,7 @@ console.assert('My\n'.length === 3);
 
 ```
 
-Nota que los caracteres especiales, cuentan como un sólo caracter.
+Nota que los caracteres especiales, a pesar de estar compuestos por 2 caracteres, cuentan como un sólo caracter.
 
 ## Accediendo caracteres específicos
 
@@ -167,20 +175,20 @@ console.assert(str[str.length - 1] === 'o');
 
 ```
 
-## Los strings son immutables
+## Immutabilidad
 
-En JavaScript, a los Strings **no se puede modificar su valor**.
+En JavaScript, a los `Strings` **no se puede modificar su valor**.
 Inclusive si lo intentamos, no podremos.
 
 ```js
 str = 'Hi';
 str[0] = 'P';
-console.assert(str[0] === 'H');
+console.assert(str[0] === 'H'); /* No cambió */
 
 ```
 
 La forma usual de lograr esto es creando un nuevo string
-pisando al anterior
+pisando al anterior:
 
 ```js
 str = 'Hi';
@@ -190,7 +198,7 @@ console.assert(str === 'Pi');
 
 ```
 
-## Mayúsculas/minúsculas
+## Mayúsculas / minúsculas
 
 ```js
 console.assert('Interface'.toUpperCase() === 'INTERFACE');
@@ -214,14 +222,14 @@ console.assert(str.indexOf('id') === 1);
 
 `String.indexOf` funciona de manera análoga a `Array.indexOf`:
 recibe un segundo parámetro opcional, que nos permite comenzar
-la búsqueda a partir de una posición en particularÑ
+la búsqueda a partir de una posición en particular.
 
 ```js
 console.assert(str.indexOf('id', 2) === 12);
 
 ```
 
-Veamos como sería si queremos todas las ocurrencias
+Veamos como sería si queremos todas las ocurrencias:
 
 ```js
 const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
@@ -237,7 +245,7 @@ while (true) {
   if (foundPos === -1) break; // ya no hay mas ocurrencias
 
   result.push(foundPos);
-  pos = foundPos + 1; // pos sgte
+  pos = foundPos + 1; // siguiente posición
 }
 
 console.assert(equal(
@@ -293,7 +301,7 @@ console.assert(str.slice(2) === 'ringify');
 ```
 
 Valores negativos para `start/end` también son posibles.
-Quieres decir que la posición se cuenta comenzando por el final:
+Quiere decir que la posición se cuenta comenzando por el final:
 
 ```js
 str = 'stringify';
@@ -349,28 +357,28 @@ En resumen
 | `substring(start, end)` | entre `start` y `end` | los interpreta como `0` |
 | `substr(start, length)` | desde `start`, `length` caracteres | permite `start`negativo |
 
-```md
+<pre>
 Todos los anteriores realizan la misma tarea, pero debemos
 tener en cuenta que `substr` no es parte de las especificación
-del `core` de JavaScript, sino en el Anexo B, que cubre
+del `core` de JavaScript, sino del *Anexo* B, que cubre
 funcionalidades exclusivas de los navegadores.
 Pero en la práctica funciona en todos los entornos.
-```
+</pre>
 
 ## Comparando strings
 
 Los strings son comparados caracter por caracter en orden alfabético.
 
-Pero existan algunos casos raros:
+Pero existen algunos casos raros:
 
-1. Las minúsculas son siempre "mayores" que las mayúsculas:
+1. Las minúsculas son siempre *"mayores"* que las mayúsculas:
 
 ```js
 console.assert('a' > 'Z');
 
 ```
 
-2. Las letras con notaciones especiales,
+2. Los caracteres con signos diacríticos,
 son mayores que todos los otros caracteres:
 
 ```js
@@ -435,13 +443,14 @@ Quedan varios métodos bien útiles:
 - `str.repeat(n)` -- repite el string `n` veces.
 - ... mucho más. chequea [Strings en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String) para más detalles.
 
-Los Strings además tienen métodos para buscar y reemplazar
+Los `Strings` además tienen métodos para buscar y reemplazar
 usando *expresiones regulares*, pero eso queda para otra oportunidad.
 
 ***
 
 ## Recursos sugeridos
 
-- [UTF-16](https://en.wikipedia.org/wiki/UTF-16), it is not tied to the page encoding.
+- [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
+- [ASCII](https://ascii.cl/es/)
 - [Js Strings Internals y Unicode](https://javascript.info/string#internals-unicode)
-- [Strings interpolables](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings)
+- [Usos de las tildes invertidas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings)
