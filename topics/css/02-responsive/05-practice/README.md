@@ -1,6 +1,6 @@
-# Clase Práctica
+# Ejercicios libres
 
-- Tipo: `lectura`
+- Tipo: `práctica`
 - Formato: `self-paced`
 - Duración: `180min`
 
@@ -13,8 +13,8 @@
 ## Enunciados
 
 A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya 
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución 
+que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
+estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
 ante la clase y así ayudar al resto de tus compañeras :)
 
 Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
