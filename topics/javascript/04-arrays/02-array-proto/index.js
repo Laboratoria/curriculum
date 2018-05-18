@@ -57,7 +57,7 @@ console.assert([true, 0, 'foo'].length === 3);
 
 // Veamos algunos métodos comunes de los arreglos.
 
-// ### Array.prototype.push
+// ### `Array.prototype.push`
 
 // El método `Array.prototype.push` recibe un valor, lo agrega al final del
 // arreglo sobre el que se invocó y retorna la nueva longitud del arreglo.
@@ -89,7 +89,7 @@ console.assert(equal(arr, [0, 0, 0, 1]));
 // moderno, vamos a ver que los métodos de los arreglos nos van a permitir escribir
 // código más expresivo, conciso y, por qué no, bonito.
 
-// ### Array.prototype.pop
+// ### `Array.prototype.pop`
 
 // Éste método no recibe ningún argumento, simplemente extrae el último elemento
 // del arreglo y lo retorna (modificando el arreglo directamente - _in place_).
@@ -99,7 +99,7 @@ console.assert(arr.pop() === 'god');
 console.assert(equal(arr, ['oh', 'my']));
 
 //
-// ### Array.prototype.slice
+// ### `Array.prototype.slice`
 
 // `Array.prototype.slice` crea un nuevo arreglo con una copia superficial
 // (_shallow copy_) de una porción del arreglo obre el cual se invoca. Recibe dos
@@ -133,7 +133,7 @@ console.assert(
 );
 
 //
-// ### Array.prototype.indexOf
+// ### `Array.prototype.indexOf`
 
 // El método `indexOf()` recibe un valor, y devuelve el índice que contenga ese
 // valor si lo encuentra, si no devuelve `-1`. Este método se usa de forma muy
