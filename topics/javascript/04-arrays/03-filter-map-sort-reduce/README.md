@@ -69,7 +69,7 @@ Ahora que tenemos todo, comencemos.
 ## `Array.prototype.filter`
 
 `filter` nos permite obtener un subconjunto de los elementos
-del array,que cumplan con cierta condición
+del array, que cumplan con cierta condición
 
 ```js
 const deadBeforeSXX = inventors.filter(inventor => (inventor.passed < 1900));
@@ -256,20 +256,20 @@ console.assert(equal(
 
 ## `Array.prototype.reduce`
 
-Cuando queremos iterar un array, usamos `forEach`,
+Cuando queremos iterar un array, usamos `forEach`.
 Ahora bien, para hacer lo mismo pero recolectando una lista de valores,
-con un valor de acada elemento, usamos `map`.
+con un valor de cada elemento, usamos `map`.
 
 `reduce` es similar a map, pero lo usamos para iterar un array
 y obtener un **único valor** que contenga un consolidado de
 todos los elementos.
 
-Signatura es la siguiente
+Su signatura es la siguiente:
 
 ```js
-const initial = 0;
+let initial = 0;
 const value = arr.reduce((previousValue, item, index, array) => {
-
+  /* aqui tu codigo */
 }, initial);
 
 ```
@@ -282,7 +282,7 @@ Donde
 
 - `array` -- el array actual.
 
-Hasta aquí todo mas o menos normal, pero se agrega un parámetros:
+Hasta aquí todo mas o menos normal, pero se agrega un parámetro:
 
 - `previousValue` -- que es el resultado de la llamada anterior
 de la función. En la primera llamada a la función,
@@ -292,39 +292,41 @@ Veamos un ejemplo simple: Sumar todos los elementos de un array
 
 ```js
 arr = [1, 2, 3, 4, 5];
-const arrSum = arr.reduce((sum, current) => sum + current, 0);
+initial = 0;
+const arrSum = arr.reduce((sum, current) => sum + current, initial);
 console.assert(arrSum === 15);
 
 ```
 
-Aqui usamos la variante más común de `reduce`, que sólo utiliza los dos primero argumentos.
+Aqui usamos la variante más común de `reduce`,
+que sólo utiliza los dos primeros argumentos.
 
-Veamos más detalle que está sucediendo
+Veamos más detalle que está sucediendo:
 
-1. En la primera llamada, `sum` tiene el valor inicial
-(el segundo argumento de `reduce`), que es `0`, y `current`
+1. En la primera llamada, `sum` tiene el valor `initial`
+(el segundo argumento de `reduce`), que es `0`. Y `current`
 es el primer elemento del array, que es `1`.
 Entonces el resultado es `1`.
 
-2. En la segunda llamada, `sum = 1`, y sumamos el segundo elemento
+2. En la segunda llamada, `sum === 1`, y sumamos el segundo elemento
 del array (`2`) y devolvemos.
 
-3. En la tercera llamada, `sum = 3` y sumamos al tercer elemento (`3`)...
+3. En la tercera llamada, `sum === 3` y sumamos al tercer elemento (`3`)...
 
 Y asi sigue:
 
 ![image](https://user-images.githubusercontent.com/211721/40194646-c88004e4-59d0-11e8-8ba2-71e6afeef003.png)
 
-Si lo pasamos a una tabla, donde cada fila representa una llamada a la función
-sobre el próximo elemento del array
+Si lo pasamos a una tabla, donde cada fila representa
+una llamada a la función sobre el próximo elemento del array
 
 |   |`sum`|`current`|`result`|
 |---|-----|---------|---------|
-|the first call|`0`|`1`|`1`|
-|the second call|`1`|`2`|`3`|
-|the third call|`3`|`3`|`6`|
-|the fourth call|`6`|`4`|`10`|
-|the fifth call|`10`|`5`|`15`|
+|primera llamada|`0`|`1`|`1`|
+|segunda llamada|`1`|`2`|`3`|
+|tercera llamada|`3`|`3`|`6`|
+|cuarta llamada|`6`|`4`|`10`|
+|quinta llamada|`10`|`5`|`15`|
 
 Como se puede apreciar, el resultado de la llamada anterior,
 se convierte en el primer parámetro de la próxima llamada.
@@ -332,7 +334,7 @@ se convierte en el primer parámetro de la próxima llamada.
 Y para terminar, solo decir que `reduceRight` hace lo mismo,
 pero comenzando por el final del array.
 
-Veamos ahora un par de ejemplos
+Veamos ahora un par de ejemplos:
 
 ### Calcular la cantidad de años vividos, de todas las inventoras sumadas
 
@@ -360,8 +362,9 @@ const transportReduceFn = (obj, item) => {
   const result = {
     ...obj,
   };
+  /* si es la primera vez que encuentro este medio de transporte */
   if (!obj[item]) {
-    result[item] = 0;
+    result[item] = 0; /* inicializo en 0 */
   }
   result[item] += 1;
   return result;
@@ -393,8 +396,8 @@ console.assert(equal(
 
 ***
 
-En esta lectura hemos visto algunos ejemplos de métodos menos conocidos de
-arreglos, pero bien útiles.
+En esta lectura hemos visto algunos ejemplos de métodos de arrays que siempre
+al comienzo, pero que una vez que uno aprende a dominarlos, son super útiles.
 
 ## Lecturas complementarias
 
