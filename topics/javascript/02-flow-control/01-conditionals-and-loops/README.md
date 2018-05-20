@@ -12,7 +12,7 @@
 - Entender qué son `estructuras repetitivas` y cómo afectan el flujo del
   programa
 
----
+***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
@@ -117,7 +117,7 @@ nombre tan largo tienes!'), el programa verifica si la longitud del string
 `name` es mayor a 7. De ser así, se imprime el segundo mensaje. De no ser así,
 no se ejecuta esa sentencia. En este caso, dado que _Michelle_ tiene 8
 caracteres (letras), la condición es `true`. Por lo tanto, se imprime el segundo
- mensaje.
+mensaje.
 
 Cambiemos un poco este ejemplo, modificando el valor de `name` a 'Ana'.
 
@@ -332,21 +332,21 @@ while (number <= 12) {
 ```
 
 En este caso, como queremos imprimir los números pares del 1 al 12, creamos una
-variable `number` (Es importante preguntarse
-¿cuantas veces necesitamos **crear** la variable number?),
-la inicializamos con el valor 0, y la utilizamos en la
-condición. Queremos que el bloque dentro del `while` corra mientras el valor de
-`number` sea igual o menor a 12. El cuerpo del `while` incluye dos sentencias:
-la primera, imprime el número (con console.log), y la segunda incrementa
-`number` en 2 (porque queremos imprimir los pares únicamente). La variable
-`number` demuestra la forma en que una variable puede dar seguimiento al
-progreso de un programa. Cada vez que el bucle se repite, `number` se incrementa
-en 2. Entonces, al principio de cada repetición, el valor de la variable
-`number` es comparado con el número 12 para decidir si el programa ha hecho todo
-el trabajo que tenía que hacer. Es importante que entendamos que si no
-modificamos el valor de `number` con la segunda sentencia, la condición (number
-<=12) siempre será `true` y tendremos un ciclo infinito que nunca se detendrá.
-Esto puede causar que tu computadora tenga problemas y se congele.
+variable `number` (es importante preguntarse _¿cuántas veces necesitamos
+**crear** la variable number?_), la inicializamos con el valor `0`, y la
+utilizamos en la condición. Queremos que el bloque dentro del `while` corra
+mientras el valor de `number` sea igual o menor a `12`. El cuerpo del `while`
+incluye dos sentencias: la primera, imprime el número (con `console.log`), y la
+segunda incrementa `number` en `2` (porque queremos imprimir los pares
+únicamente). La variable `number` demuestra la forma en que una variable puede
+dar seguimiento al progreso de un programa. Cada vez que el bucle se repite,
+`number` se incrementa en `2`. Entonces, al principio de cada repetición, el
+valor de la variable `number` es comparado con el número 12 para decidir si el
+programa ha hecho todo el trabajo que tenía que hacer. Es importante que
+entendamos que si no modificamos el valor de `number` con la segunda sentencia,
+la condición (`number <= 12`) siempre será `true` y tendremos un ciclo infinito
+que nunca se detendrá. Esto puede causar que tu computadora tenga problemas y se
+congele.
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará
 si quieres detener el script después de unos cuantos segundos. Si eso falla,
@@ -531,14 +531,12 @@ A continuación Michelle te ayuda explica, con un ejemplo, las aplicaciones de
 
 #### _Diferencias entre `for` y `while`_
 
-Puntualmente, se usa el `for` cuando sabes _por adelantado_
-cuantas repeticiones vas a realizar y el `while` cuando no lo sabes.
+Puntualmente, se usa el `for` cuando sabes _por adelantado_ cuantas repeticiones
+vas a realizar y el `while` cuando no lo sabes.
 
-Si decimos, "gira el ventilador 10 veces",
-de ante mano sabes que vamos a girar el ventilador
-10 veces, por tal, el `for` seria buena idea.
+Si decimos, "gira el ventilador 10 veces", de ante mano sabes que vamos a girar
+el ventilador 10 veces, por tal, el `for` seria buena idea.
 
-Si decimos: "mientras haga calor gira el ventilador". En realidad
-no sabemos de ante mano cuantas veces vamos a girar
-el ventilador por que no sabemos cuanto tiempo tendremos calor, por ende,
-usar un `while` sería buena idea.
+Si decimos: "mientras haga calor gira el ventilador". En realidad no sabemos de
+ante mano cuantas veces vamos a girar el ventilador por que no sabemos cuanto
+tiempo tendremos calor, por ende, usar un `while` sería buena idea.
