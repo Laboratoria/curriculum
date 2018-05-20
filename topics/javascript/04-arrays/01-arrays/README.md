@@ -49,6 +49,7 @@ const firstNumber = 2;
 const secondNumber = 3;
 const thirdNumber = 5;
 const fourthNumber = 7;
+
 ```
 
 Esta lista es bien extraña y engorrosa. Implica tener una variable para cada
@@ -62,7 +63,7 @@ en ellos. Podríamos usar un `string` con los números intercalados por un
 espacio, así:
 
 ```js
-const listOfNumbers = '2 3 5 7 11';
+let listOfNumbers = '2 3 5 7 11';
 ```
 
 Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de
@@ -75,7 +76,8 @@ secuencias de valores. Se llama `array` (arreglo en español) y se escribe como 
 lista de valores entre corchetes, separados por comas.
 
 ```js
-const listOfNumbers = [2, 3, 5, 7, 11];
+listOfNumbers = [2, 3, 5, 7, 11];
+
 ```
 
 Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como
@@ -87,16 +89,28 @@ de cosas a comprar en **una sola hoja de papel**.
 
 ## Accediendo información de un array
 
+Antes de comenzar, vamos a generar una pequeña función utilitaria,
+que nos permita decir si dos string son iguales. La colocaremos
+en el `prototype` de `Array`.
+
+```js
+const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
+
+console.assert(equal([1, 2, 3], [1, 2, 3]));
+console.assert(!equal([1, 2, 3], ['a', 'b', 'c']));
+console.assert(!equal([1, 2, 3], [3, 2, 1]));
+
+```
+
 Para obtener un elemento dentro de un `array`, se utiliza la notación con corchetes,
 con el _index_ (índice en español) del elemento que se desea. Veamos un ejemplo:
 
 ```js
-const listOfNumbers = [2, 3, 5, 7, 11];
+listOfNumbers = [2, 3, 5, 7, 11];
 
-console.log(listOfNumbers[1]);
-// → 3
-console.log(listOfNumbers[1 - 1]);
-// → 2
+console.assert(listOfNumbers[1] === 3);
+console.assert(listOfNumbers[1 - 1] === 2);
+
 ```
 
 El _index_ es el número que corresponde a (o que coincide con) el punto del `array`
@@ -105,13 +119,7 @@ de un `array` está en el `index 0`, el segundo está en el `index 1`, el tercer
 en el `index 2`, y así sucesivamente. Es por eso que pedir index `1 - 1`
 (es decir, 0) del array anterior devuelve el número `2`.
 
-```js
-                       INDEX
-                       0  1  2  3  4
-                       |  |  |  |  |
-const listOfNumbers = [2, 3, 5, 7, 11];
-
-```
+![image](https://user-images.githubusercontent.com/211721/40194836-51eebf22-59d1-11e8-8de8-8b29feb3bbf7.png)
 
 Si no tienes antecedentes en programación, acostumbrarte a esta convención puede
 tomarte algún tiempo. Pero el conteo con base cero tiene una larga tradición en
@@ -125,12 +133,12 @@ agregar elementos a un `array`. Por ejemplo, para reemplazar el primer elemento 
 array `listOfNumbers` por el número 1, podríamos hacer lo siguiente:
 
 ```js
-
-const listOfNumbers = [2, 3, 5, 7, 11];
+listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[0] = 1;
 
-console.log(listOfNumbers);
-// → [1, 3, 5, 7, 11]
+console.assert(
+  equal(listOfNumbers, [1, 3, 5, 7, 11]),
+);
 
 ```
 
@@ -139,12 +147,12 @@ un `array`. Por ejemplo, para agregar el número 13 al array `listOfNumbers`,
 haríamos lo siguiente:
 
 ```js
-
-const listOfNumbers = [2, 3, 5, 7, 11];
+listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[5] = 13;
 
-console.log(listOfNumbers);
-// → [2, 3, 5, 7, 11, 13]
+console.assert(
+  equal(listOfNumbers, [2, 3, 5, 7, 11, 13]),
+);
 
 ```
 
@@ -152,18 +160,16 @@ De hecho, podemos crear un `array` vacío y luego definir cada elemento de forma
 individual, así:
 
 ```js
-const listOfNumbers = [];
-
+listOfNumbers = [];
 listOfNumbers[0] = 2;
 listOfNumbers[1] = 3;
 listOfNumbers[2] = 5;
 listOfNumbers[3] = 7;
 listOfNumbers[4] = 11;
 
-// imprime el arreglo en la consola
-
-console.log(listOfNumbers);
-// → [2, 3, 5, 7, 11]
+console.assert(
+  equal(listOfNumbers, [2, 3, 5, 7, 11]),
+);
 
 ```
 
@@ -171,17 +177,14 @@ console.log(listOfNumbers);
 
 Los elementos de un `array` no tienen que ser todos del mismo tipo de dato.
 Podemos, por ejemplo, tener un `array` que contenga un `number` (el número 3),
-un `string` ("dinosaurios") y otro `number` (el número 3627.5):
+un `string` ("hola mundo") y otro `number` (el número 3627.5):
 
 ```js
-
 const mixedArray = [3, 'hola mundo', 3627.5];
-console.log(mixedArray[0]);
-// → 3
-console.log(mixedArray[1]);
-// → hola mundo
-console.log(mixedArray[2]);
-// → 3627.5
+console.assert(mixedArray[0] === 3);
+console.assert(mixedArray[1] === 'hola mundo');
+console.assert(mixedArray[2] === 3627.5);
+
 ```
 
 Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente
@@ -190,11 +193,11 @@ y respuestas de un quiz, podemos utilizar un `array` en el que cada elemento es,
 a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
 
 ```js
-const questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+let questions = [
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso']
+  ['¿Cuál es la moneda de México?', 'Peso'],
 ];
 
 ```
@@ -204,20 +207,32 @@ un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtene
 la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
 
 ```js
-const questions = [
-  ['¿En cuántos países opera Laboratoria?', 3],
+questions = [
+  ['¿En cuántos países opera Laboratoria?', 4],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso']
+  ['¿Cuál es la moneda de México?', 'Peso'],
 ];
-console.log(questions[3][1]);
-// → Peso
+console.assert(questions[3][1] === 'Peso');
+
 ```
 
-Cuando escribimos `console.log(questions[3][1])` le estamos diciendo a JavaScript
-que busque el `index 3` del array `questions` (lo cual es, a su vez, un
-array:`['¿Cuál es la moneda de México?', 'Peso']`), y que dentro de ese array busque
-el `index 1` (lo cual es el `string` `'Peso'`) e imprima el resultado en la consola.
+Vamos a hacerlo de nuevo paso a paso
+
+```js
+questions = [
+  ['¿En cuántos países opera Laboratoria?', 4],
+  ['¿Cuál es la capital de Perú?', 'Lima'],
+  ['¿Cuál es baile típico Chileno?', 'Cueca'],
+  ['¿Cuál es la moneda de México?', 'Peso'],
+];
+const quest3 = questions[3];
+console.assert(
+  equal(quest3, ['¿Cuál es la moneda de México?', 'Peso']),
+);
+console.assert(quest3[1] === 'Peso');
+
+```
 
 A continuación Michelle nos explica los conceptos principales de `arrays` con un
 ejemplo:

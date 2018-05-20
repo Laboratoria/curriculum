@@ -14,8 +14,6 @@ const customerData = {
 };
 
 function greetCustomer(firstName) {
-  const greeting = '';
-
   if (!customerData[firstName]) {
     return 'Welcome! Is this your first time?';
   }
@@ -27,6 +25,8 @@ function greetCustomer(firstName) {
   if (customerData[firstName].visits > 1) {
     return `Welcome back, ${firstName}! So glad to see you again!`;
   }
+
+  return undefined;
 }
 
 module.exports = greetCustomer;
