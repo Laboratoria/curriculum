@@ -11,16 +11,14 @@ pero `Array.prototype` provee mucho métodos más.
 
 Para facilitarte un poco la vida, los hemos dividido de la siguiente manera:
 
-- para agregar y quitar elementos:
-`push`, `pop`, `shift`, `unshift`, `slice`, `splice` y `concat`.
-
-- para buscar elementos dentro del array:
-`indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex` y `filter`.
-
+- para agregar y quitar elementos: `push`, `pop`, `shift`, `unshift`, `slice`,
+  `splice` y `concat`.
+- para buscar elementos dentro del array: `indexOf`, `lastIndexOf`, `includes`,
+  `find`, `findIndex` y `filter`.
 - para transformar el array: `map`,`reduce`, `sort`, `reverse`, `split` y `join`.
 
-Nosotros ahora nos enfocaremos en los 4 que consideramos un poco más
-utilizados: `filter`, `map` `sort` y `reduce`.
+Nosotros ahora nos enfocaremos en los 4 que consideramos un poco más utilizados:
+`filter`, `map` `sort` y `reduce`.
 
 Para conocer al detalle cada unos de estos métodos, visita la documentación en
 [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array#M.C3.A9todos),
@@ -284,9 +282,8 @@ Donde
 
 Hasta aquí todo mas o menos normal, pero se agrega un parámetro:
 
-- `previousValue` -- que es el resultado de la llamada anterior
-de la función. En la primera llamada a la función,
-el valor de `previousValue` es `initial`.
+- `previousValue` -- que es el resultado de la llamada anterior de la función.
+  En la primera llamada a la función, el valor de `previousValue` es `initial`.
 
 Veamos un ejemplo simple: Sumar todos los elementos de un array
 
@@ -298,27 +295,24 @@ console.assert(arrSum === 15);
 
 ```
 
-Aqui usamos la variante más común de `reduce`,
-que sólo utiliza los dos primeros argumentos.
+Aqui usamos la variante más común de `reduce`, que sólo utiliza los dos primeros
+argumentos.
 
 Veamos más detalle que está sucediendo:
 
-1. En la primera llamada, `sum` tiene el valor `initial`
-(el segundo argumento de `reduce`), que es `0`. Y `current`
-es el primer elemento del array, que es `1`.
-Entonces el resultado es `1`.
+1. En la primera llamada, `sum` tiene el valor `initial` (el segundo argumento
+   de `reduce`), que es `0`. Y `current` es el primer elemento del array, que es
+   `1`. Entonces el resultado es `1`.
+2. En la segunda llamada, `sum === 1`, y sumamos el segundo elemento del array
+   (`2`) y devolvemos.
+3. En la tercera llamada, `sum === 3` y sumamos al tercer elemento (`3`) ...
 
-2. En la segunda llamada, `sum === 1`, y sumamos el segundo elemento
-del array (`2`) y devolvemos.
-
-3. En la tercera llamada, `sum === 3` y sumamos al tercer elemento (`3`)...
-
-Y asi sigue:
+Y así sigue:
 
 ![image](https://user-images.githubusercontent.com/211721/40194646-c88004e4-59d0-11e8-8ba2-71e6afeef003.png)
 
-Si lo pasamos a una tabla, donde cada fila representa
-una llamada a la función sobre el próximo elemento del array
+Si lo pasamos a una tabla, donde cada fila representa una llamada a la función
+sobre el próximo elemento del array
 
 |   |`sum`|`current`|`result`|
 |---|-----|---------|---------|
@@ -328,11 +322,11 @@ una llamada a la función sobre el próximo elemento del array
 |cuarta llamada|`6`|`4`|`10`|
 |quinta llamada|`10`|`5`|`15`|
 
-Como se puede apreciar, el resultado de la llamada anterior,
-se convierte en el primer parámetro de la próxima llamada.
+Como se puede apreciar, el resultado de la llamada anterior, se convierte en el
+primer parámetro de la próxima llamada.
 
-Y para terminar, solo decir que `reduceRight` hace lo mismo,
-pero comenzando por el final del array.
+Y para terminar, solo decir que `reduceRight` hace lo mismo, pero comenzando por
+el final del array.
 
 Veamos ahora un par de ejemplos:
 
@@ -396,8 +390,8 @@ console.assert(equal(
 
 ***
 
-En esta lectura hemos visto algunos ejemplos de métodos de arrays que siempre
-al comienzo, pero que una vez que uno aprende a dominarlos, son super útiles.
+En esta lectura hemos visto algunos ejemplos de métodos de arrays que siempre al
+comienzo, pero que una vez que uno aprende a dominarlos, son super útiles.
 
 ## Lecturas complementarias
 

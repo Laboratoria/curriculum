@@ -129,14 +129,14 @@
 
 #### Opciones
 
-1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
-   más
-2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga 700px o
-   menos
-3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
-   más
-4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga 700px o
-   menos
+1. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
+   700px o más
+2. Los estilos del párrafo se ejecutarán cuando la pantalla del móvil tenga
+   700px o menos
+3. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
+   700px o más
+4. Los estilos del párrafo se ejecutarán cuando la pantalla de la laptop tenga
+   700px o menos
 
 <solution style="display:none;">4</solution>
 

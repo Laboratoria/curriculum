@@ -40,7 +40,6 @@ en el mundo tech.
 Ningún conocimiento previo de programación es necesario para completar este
 curso. Está diseñado para principiantes.
 
-
 ## Syllabus
 
 ### Unidad 01: [Valores, variables, operadores, tipos y comentarios](01-basics)

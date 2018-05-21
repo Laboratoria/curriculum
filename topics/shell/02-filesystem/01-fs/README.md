@@ -92,10 +92,3 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
   ```
-
-<!--
-Ahora veamos cómo Michelle navega entre sus archivos o directorios, crea
-carpetas y archivos desde la terminal.
-
-[![línea de comando](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)
--->

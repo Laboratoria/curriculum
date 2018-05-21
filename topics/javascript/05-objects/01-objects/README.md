@@ -29,16 +29,16 @@ Los `objects` en JavaScript son muy similares a los `arrays`, pero con dos
 importantes diferencias:
 
 1. Como hemos visto, para acceder a información dentro de un `array` utilizamos
-un número correspondiente al _index_; es decir, la posición en la que se
-ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de
-números para acceder a los diferentes elementos. Estos `strings` se denominan
-_keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados
-_valores_. Juntas, estas piezas de información se llaman _pares key-value_.
+   un número correspondiente al _index_; es decir, la posición en la que se
+   ubica el valor. Los `objects`, por su parte, utilizan `strings` en lugar de
+   números para acceder a los diferentes elementos. Estos `strings` se denominan
+   _keys_ (llaves) o propiedades, y los elementos a los que apuntan son llamados
+   _valores_. Juntas, estas piezas de información se llaman _pares key-value_.
 
 2. Dado que en los `arrays` se requiere del _index_ para acceder a la
-información, es importante mantener un determinado orden de los valores. En
-el caso de los `objects` los _pares key-value_ de información pueden estar en
-cualquier orden.
+   información, es importante mantener un determinado orden de los valores. En
+   el caso de los `objects` los _pares key-value_ de información pueden estar en
+   cualquier orden.
 
 Mientras que los `arrays` se utilizan sobre todo para representar listas de
 cosas múltiples, los objetos son a menudo usado para representar cosas simples
@@ -143,14 +143,13 @@ contiene, o mejor dicho "agarra" (con sus tentáculos) un valor.
 Podemos acceder a los valores de un `object` de dos maneras:
 
 1. La primera es usando los corchetes `[]`, tal como lo hacemos para los
-`arrays`. La única diferencia es que, en lugar de usar el _index_ (un
-`number`), utilizamos el _key_ (un `string`), siempre entre comillas.
-
+   `arrays`. La única diferencia es que, en lugar de usar el _index_ (un
+   `number`), utilizamos el _key_ (un `string`), siempre entre comillas.
 2. La segunda es usando el punto (`.`) con el nombre del _key_ inmediatamente
-después, **sin** comillas. A esto se le llama `dot notation`. Al igual que en
-la declaración de los _keys_, si utilizamos `dot notation`, el _key_ debe
-obligatoriamente cumplir con las reglas de nombres válidos (por ejemplo, no
-deben contener espacios).
+   después, **sin** comillas. A esto se le llama `dot notation`. Al igual que en
+   la declaración de los _keys_, si utilizamos `dot notation`, el _key_ debe
+   obligatoriamente cumplir con las reglas de nombres válidos (por ejemplo, no
+   deben contener espacios).
 
 Veamos algunos ejemplos para aclarar cuándo se usa una o la otra:
 
@@ -185,13 +184,12 @@ console.assert(movie.'title' === 'Back to the Future');
 Analicemos los dos errores:
 
 1. Cuando utilizamos los corchetes **sin** comillas, JavaScript piensa que title
-es una variable y como en nuestro programa no existe una variable llamada
-title, se genera un error de referencia y JavaScript nos devuelve que title
-no está definida: `Uncaught ReferenceError: title is not defined`
-
+   es una variable y como en nuestro programa no existe una variable llamada
+   title, se genera un error de referencia y JavaScript nos devuelve que title
+   no está definida: `Uncaught ReferenceError: title is not defined`
 2. Cuando utilizamos `dot notation` **con** comillas, JavaScript nos devuleve un
-error de sintaxis, dado que `dot notation` no se debe utilizar con un
-`string`. Por eso nos devuelve: `Uncaught SyntaxError: Unexpected string`.
+   error de sintaxis, dado que `dot notation` no se debe utilizar con un
+   `string`. Por eso nos devuelve: `Uncaught SyntaxError: Unexpected string`.
 
 ¿Qué pasa cuando le pedimos un _key_ que no tiene el `object`? JavaScript nos
 devuelve `undefined`. Veamos un ejemplo:

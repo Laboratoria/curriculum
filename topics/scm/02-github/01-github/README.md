@@ -8,11 +8,11 @@
 
 ## Objetivos de Aprendizaje
 
-- Crear tu cuenta en `Github`
-- Diferenciar `Git` de `Github`
-- Entender los conceptos básicos: local, remoto, working directory, staging
+* Crear tu cuenta en `Github`
+* Diferenciar `Git` de `Github`
+* Entender los conceptos básicos: local, remoto, working directory, staging
   area y branches
-- Saber utilizar los comandos esenciales: `remote`, `push` y `pull`
+* Saber utilizar los comandos esenciales: `remote`, `push` y `pull`
 
 ## ¿Qué es Github?
 
@@ -25,11 +25,11 @@ Pero `Github` no solo sirve para "subir" nuestro código, él también contribui
 al desarrollo colaborativo del proyecto brindándonos herramientas como por
 ejemplo:
 
-- Un `sistema de seguimiento de problemas` que permite a los miembros de un
+* Un `sistema de seguimiento de problemas` que permite a los miembros de un
   equipo detallar un problema o una sugerencia que deseen hacer del proyecto.
-- Una `herramienta de revisión de código`, donde se pueden añadir anotaciones
+* Una `herramienta de revisión de código`, donde se pueden añadir anotaciones
   en cualquier punto del proyecto y debatir sobre un cambio en específico.
-- Un `visor de versiones` donde se puede comparar el progreso del proyecto en
+* Un `visor de versiones` donde se puede comparar el progreso del proyecto en
   las distintas versiones.
 
 **En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
@@ -112,7 +112,7 @@ colaborativamente, etc. Ahora hagamos la "magia" de trabajar con `Git` y
 `Github`, vamos a subir nuestro `repositorio local` a uno `remoto` y trabajar
 colaborativamente.
 
-- `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro
+* `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro
   repositorio que se encuentra en la "nube" por medio de la **url**.
   Este paso no se debe de hacer cada vez que creemos una nueva versión, solo
   cuando queramos especificar el repositorio remoto que tendremos.
@@ -133,7 +133,7 @@ colaborativamente.
   git remote add origin https://github.com/michellesegv/prueba.git
   ```
 
-- `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
+* `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
   confirmamos en el `commit` a nuestro repositorio remoto. El comando es el
   siguiente:
 
@@ -155,7 +155,7 @@ colaborativamente.
   git push origin master
   ```
 
-- `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que
+* `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que
   tengamos registrado en el repositorio remoto. Este comando nos servirá mucho
   al momento de trabajar colaborativamente  porque podremos tener los avances
   que nuestros colaboradores han subido al repositorio remotro a nuestro

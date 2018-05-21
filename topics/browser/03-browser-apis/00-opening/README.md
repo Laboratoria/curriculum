@@ -18,7 +18,15 @@
 Anteriormente, nos enteramos que HTML5 viene con un conjunto de APIs, vamos
 a entrar un poco en contexto con la siguiente diapositiva:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVOkfyF6VYPu9b3p667Sorg5KW9xbC2KO_-dL04fXm5XlIzp6jgduLzZgnBDU5QqDQp3UQTkuOCi-_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vTVOkfyF6VYPu9b3p667Sorg5KW9xbC2KO_-dL04fXm5XlIzp6jgduLzZgnBDU5QqDQp3UQTkuOCi-_/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="760"
+  height="749"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"
+></iframe>
 
 > ### Entonces, ¿qué es una API?
 >
@@ -40,7 +48,7 @@ a entrar un poco en contexto con la siguiente diapositiva:
 > - Una API de edición para ser utilizada con el atributo contenteditable
 > - Almacenamiento del lado del cliente con APIs de JavaScript para pares de
 >   valor clave y también bases de datos SQL intercaladas
-
+>
 > Este texto es un extracto del [blog publicado en IBM](https://www.ibm.com/developerworks/ssa/web/library/wa-html5fundamentals3/index.html)
 > por Grace Walker.
 

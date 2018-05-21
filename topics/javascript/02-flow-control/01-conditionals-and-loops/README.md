@@ -384,7 +384,7 @@ while (number <= 12) {
 //   … etcetera hasta 11
 ```
 
-* ¿Cómo hacemos para imprimir todos los números **pares** e **impares** del 1 al
+- ¿Cómo hacemos para imprimir todos los números **pares** e **impares** del 1 al
   12?: En la segunda sentencia del while, incrementamos `number` en 1 (en lugar
   de 2) cada ciclo.
 

@@ -26,7 +26,7 @@ o aplicación.
 Revisemos la documentación del MDN sobre
 [formularios](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form),
 además tenemos la Zona de Aprendizaje de MDN donde podrás aprender a más
-detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms)
+detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms).
 
 Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
 Manos a la obra!!
@@ -41,7 +41,13 @@ Manos a la obra!!
 
    ```html
    <form>
-     <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+     <input
+       type="email"
+       id="email-example"
+       placeholder="Email"
+       name="email-example"
+       required
+     />
    </form>
    ```
 
@@ -51,7 +57,13 @@ Manos a la obra!!
    ```html
    <form>
      <label for="email-example">Correo electrónico</label>
-     <input type="email" id="email-example" placeholder="Email" name="email-example" required>
+     <input
+       type="email"
+       id="email-example"
+       placeholder="Email"
+       name="email-example"
+       required
+     />
    </form>
    ```
 
@@ -60,7 +72,13 @@ Manos a la obra!!
    ```html
    <form>
      <label for="password-example">Password</label>
-     <input type="password" id="password-example" placeholder="Password" name="password-example" required>
+     <input
+       type="password"
+       id="password-example"
+       placeholder="Password"
+       name="password-example"
+       required
+     />
    </form>
    ```
 
@@ -94,7 +112,8 @@ Manos a la obra!!
 
    ```html
    <label>
-     <input type="checkbox" name="conditions" value="accept-conditions" checked> Acepto los términos y condiciones
+     <input type="checkbox" name="conditions" value="accept-conditions" checked />
+     Acepto los términos y condiciones
    </label>
    ```
 
@@ -110,8 +129,7 @@ El resultado de este HTML será:
 
 Ahora está en tus manos colocarle los estilos que desees en tu `css`
 
-Ahora, si deseas aprender como trabajamos con los forms desde javascript
-podemos ver el
-[capítulo 7 de javascript de librosweb](http://librosweb.es/libro/javascript/capitulo_7.html).
+Ahora, si deseas aprender como trabajamos con los forms desde javascript podemos
+ver el [capítulo 7 de javascript de librosweb](http://librosweb.es/libro/javascript/capitulo_7.html).
 Además tenemos la documentación del capítulo 18 de [Eloquent JavaScript](https://eloquentjavascript.net/18_http.html),
 de Marijn Haverbeke, 2014.

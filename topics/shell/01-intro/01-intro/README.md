@@ -35,12 +35,12 @@ configurar tu shell por defecto (ver comando [chsh](https://en.wikipedia.org/wik
 
 La línea de comandos es también conocida como
 
-- Terminal
-- Consola
-- Command Prompt
-- Símbolo de Sistema
-- cmd
-- Git Bash, etc.
+* Terminal
+* Consola
+* Command Prompt
+* Símbolo de Sistema
+* cmd
+* Git Bash, etc.
 
 Una de las herramientas que más nos acompañará en nuestro camino del código
 será la `línea de comandos`. En esta lección conoceremos y aprenderemos cómo
@@ -89,7 +89,7 @@ Actividades → Terminal
 
 Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
-- Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
+* Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
   con el símbolo `>`
 
   ```text
@@ -99,7 +99,7 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
   Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
   aparecer tu nombre de usuario.
 
-- Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
+* Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
   símbolo `$`
 
   ```text
@@ -108,7 +108,7 @@ Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
 
   En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
 
-- Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
+* Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
   computadora y terminará con el símbolo `$`
 
   ```text

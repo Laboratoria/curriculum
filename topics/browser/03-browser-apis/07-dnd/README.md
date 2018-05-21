@@ -20,12 +20,13 @@ algunas aplicaciones.
 >La compatibilidad nativa del navegador con la función DnD permite ofrecer
 >aplicaciones web más interactivas.
 
-Este es un extracto de **html5rocks**, dirígete a este **[enlace](https://www.html5rocks.com/es/tutorials/dnd/basics/)**
-para que leas la explicación y veas el ejemplo de Drag and Drop.
+Este es un extracto de **html5rocks**, dirígete a este
+**[enlace](https://www.html5rocks.com/es/tutorials/dnd/basics/)** para que leas
+la explicación y veas el ejemplo de Drag and Drop.
 
-El siguiente **[enlace](https://developer.mozilla.org/es/docs/DragDrop/Drag_and_Drop)** es
-de la documentación de mozilla y aquí podemos darnos una idea de que es y
-que hace esta estupenda API de HTML5.
+El siguiente **[enlace](https://developer.mozilla.org/es/docs/DragDrop/Drag_and_Drop)**
+es de la documentación de mozilla y aquí podemos darnos una idea de que es y que
+hace esta estupenda API de HTML5.
 
 Y por último, revisaremos este **[enlace](http://www.desarrollolibre.net/blog/tema/45/html/el-drag-and-drop-en-html5-javascript#.Wniowa6WbIU)**,
 ya que es una maravilla con los ejemplos que proporciona con todo y
