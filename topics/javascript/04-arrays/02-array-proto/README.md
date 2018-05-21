@@ -13,8 +13,8 @@ tales, los valores de estos _tipos_ van a tener una serie de _métodos_ y
 _propiedades_ asociados a ellos. Técnicamente heredan estos _métodos_ y
 _propiedades_ de un _prototipo_.
 
-En este curso no vamos a profundizar en el mecanismo de [_herencia prototipal_]() en
-JavaScript, pero sí necesitamos saber que todo arreglo en JavaScript es una
+En este curso no vamos a profundizar en el mecanismo de _herencia prototipal_
+en JavaScript, pero sí necesitamos saber que todo arreglo en JavaScript es una
 _instancia_ del _constructor_ `Array`, y por tanto hereda todos los _métodos_ y
 _propiedades_ definidas en `Array.prototype`.
 
@@ -31,14 +31,23 @@ _propiedades_ que tiene nuestro arreglo vacío (`[]`).
 
 ## Propiedades `Array.prototype`
 
+Antes de comenzar, recordemos cómo era nuestra función
+que nos permitía comparar arrays
+
+```js
+const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
+
+```
+
 La única propiedad que nos interesa por ahora de los arreglos es
 `Array.prototype.length`, que es una propiedad de sólo lectura que siempre nos
 muestra la longitud actual del arreglo. Por ejemplo:
 
 ```js
-console.log([].length); // => 0
-console.log(['a'].length); // => 1
-console.log([true, 0, 'foo'].length); // => 3
+console.assert([].length === 0);
+console.assert(['a'].length === 1);
+console.assert([true, 0, 'foo'].length === 3);
+
 ```
 
 ## Métodos comunes de `Array.prototype`
@@ -52,27 +61,29 @@ disponible, haz uso de ella, es la mejor referencia.
 
 Veamos algunos métodos comunes de los arreglos.
 
-### Array.prototype.push
+### `Array.prototype.push`
 
 El método `Array.prototype.push` recibe un valor, lo agrega al final del
 arreglo sobre el que se invocó y retorna la nueva longitud del arreglo.
 
 ```js
-const arr = [0, 0, 0];
-console.log(arr.length); // => 3
-console.log(typeof arr.push); // => "function"
-console.log(arr.push(1)); // => 4
-console.log(arr); // => [0, 0, 0, 1]
+let arr = [0, 0, 0];
+console.assert(arr.length === 3);
+console.assert(typeof arr.push === 'function');
+console.assert(arr.push(1) === 4);
+console.assert(equal(arr, [0, 0, 0, 1]));
+
 ```
 
 En este caso, la funcionalidad del método `push()` puede replicarse usando una
 simple asignación:
 
 ```js
-const arr = [0, 0, 0];
-console.log(arr.length); // => 3
+arr = [0, 0, 0];
+console.assert(arr.length === 3);
 arr[arr.length] = 1;
-console.log(arr); // => [0, 0, 0, 1]
+console.assert(equal(arr, [0, 0, 0, 1]));
+
 ```
 
 La mayor diferencia es un tema de semántica y estilo/paradigma, quizás parezca
@@ -86,18 +97,19 @@ asignación y mutación de valores. En ese contexto, y en particular en JavaScri
 moderno, vamos a ver que los métodos de los arreglos nos van a permitir escribir
 código más expresivo, conciso y, por qué no, bonito.
 
-### Array.prototype.pop
+### `Array.prototype.pop`
 
 Éste método no recibe ningún argumento, simplemente extrae el último elemento
 del arreglo y lo retorna (modificando el arreglo directamente - _in place_).
 
 ```js
-const arr = ['oh', 'my', 'god'];
-console.log(arr.pop()); // => "god"
-console.log(arr); // => ['oh', 'my']
+arr = ['oh', 'my', 'god'];
+console.assert(arr.pop() === 'god');
+console.assert(equal(arr, ['oh', 'my']));
+
 ```
 
-### Array.prototype.slice
+### `Array.prototype.slice`
 
 `Array.prototype.slice` crea un nuevo arreglo con una copia superficial
 (_shallow copy_) de una porción del arreglo obre el cual se invoca. Recibe dos
@@ -111,25 +123,39 @@ Ejecuta los siguientes ejemplos en la consola del navegador para que veas como
 se comporta el método `slice()`.
 
 ```js
-const arr = [3, 2, 1];
-console.log(arr.slice(0)); // => [3, 2, 1]
-console.log(arr.slice(1)); // => [2, 1]
-console.log(arr.slice(2)); // => [1]
-console.log(arr.slice(-1)); // => [3, 2]
-console.log(arr.slice(0, 1)); // => [3]
-console.log(arr); // => [3, 2, 1];
+arr = [3, 2, 1];
+console.assert(
+  equal(arr.slice(0), [3, 2, 1]),
+);
+console.assert(
+  equal(arr.slice(1), [2, 1]),
+);
+console.assert(
+  equal(arr.slice(2), [1]),
+);
+console.assert(
+  equal(arr.slice(-1), [1]),
+);
+console.assert(
+  equal(arr.slice(0, 1), [3]),
+);
+console.assert(
+  equal(arr, [3, 2, 1]),
+);
+
 ```
 
-### Array.prototype.indexOf
+### `Array.prototype.indexOf`
 
 El método `indexOf()` recibe un valor, y devuelve el índice que contenga ese
 valor si lo encuentra, si no devuelve `-1`. Este método se usa de forma muy
 común para comprobar si un arreglo contiene un determinado valor.
 
 ```js
-const arr = ['foo', 'bar', 'baz'];
-console.log(arr.indexOf('foo')); // => 0
-console.log(arr.indexOf('hmmm')); // => -1
+arr = ['foo', 'bar', 'baz'];
+console.assert(arr.indexOf('foo') === 0);
+console.assert(arr.indexOf('hmmm') === -1);
+
 ```
 
 ## Propiedades y métodos heredados de Object.prototype
@@ -152,3 +178,4 @@ ahí podrás ver todos los _métodos_ y _propiedades_ disponibles y sus interfac
 
 - [Array en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Object.prototype en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
+- [Array en javascript.info](https://javascript.info/array)

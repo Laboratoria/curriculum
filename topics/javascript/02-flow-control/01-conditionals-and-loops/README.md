@@ -51,7 +51,7 @@ saludo 'Hola Michelle'; y la tercera, imprime en la consola un mensaje que dice
 'Qué nombre tan largo tienes!'.
 
 ```js
-var name = 'Michelle';
+const name = 'Michelle';
 console.log('Hola ' + name);
 console.log('Qué nombre tan largo tienes!');
 // returns > Hola Michelle
@@ -74,7 +74,8 @@ La ejecución condicional se escribe con el keyword `if` en JavaScript. La
 instrucción `if` es la más simple de las estructuras de control de JavaScript.
 Se utiliza para ejecutar código _si y sólo si_ una condición es verdadera. Un
 condicional dice: _"Si algo es verdad, haz esto"_. Por ejemplo, si hiciste tu
-tarea, recibes un helado, pero si no hiciste tu tarea, no recibes el helado.
+tarea (true), recibes un helado, pero si **no** hiciste tu tarea (false),
+no recibes el helado.
 
 Como muestra el ejemplo a continuación, una sentencia `if` tiene 2 partes
 principales: la condición y el cuerpo. La condición debe ser un valor `Boolean`
@@ -102,12 +103,12 @@ Volvamos al ejemplo anterior y agreguemos una condición antes de la sentencia
 que imprime el segundo mensaje:
 
 ```js
-var name = 'Michelle';
+const name = 'Michelle';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
 }
-// returns > Hola Michelle
+// imprime > Hola Michelle
 //           Qué nombre tan largo tienes!
 ```
 
@@ -115,12 +116,13 @@ Con esta modificación, antes de imprimir en la consola el segundo mensaje ('Qu�
 nombre tan largo tienes!'), el programa verifica si la longitud del string
 `name` es mayor a 7. De ser así, se imprime el segundo mensaje. De no ser así,
 no se ejecuta esa sentencia. En este caso, dado que _Michelle_ tiene 8
-caracteres, la condición es `true`. Por lo tanto, se imprime el segundo mensaje.
+caracteres (letras), la condición es `true`. Por lo tanto, se imprime el segundo
+mensaje.
 
 Cambiemos un poco este ejemplo, modificando el valor de `name` a 'Ana'.
 
 ```js
-var name = 'Ana';
+const name = 'Ana';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
@@ -144,7 +146,7 @@ separadas y alternativas.
 Agregemos una sentencia `else` a nuestro ejemplo:
 
 ```js
-var name = 'Ana';
+const name = 'Ana';
 console.log('Hola ' + name);
 if (name.length > 7) {
   console.log('Qué nombre tan largo tienes!');
@@ -177,15 +179,13 @@ Si tenemos más de dos caminos a escoger, varios pares de `if...else` pueden ser
 "encadenados". Aquí hay un ejemplo:
 
 ```js
-var num = parseInt(prompt('Dame un número', '0'));
+const num = parseInt(prompt('Dame un número', '0'));
 
-if (num < 10){
+if (num < 10) {
   alert('Diste un número Pequeño');
-}
-else if (num < 100){
+} else if (num < 100) {
   alert('Diste un número Mediano');
-}
-else {
+} else {
   alert('Diste un número Grande');
 }
 ```
@@ -213,14 +213,11 @@ Es común ver código así:
 ```js
 if (variable == 'valor1') {
   accion1();
-}
-else if (variable == 'valor2') {
+} else if (variable == 'valor2') {
   accion2();
-}
-else if (variable == 'valor3') {
+} else if (variable == 'valor3') {
   accion3();
-}
-else {
+} else {
   accionDefault();
 }
 ```
@@ -324,7 +321,7 @@ Regresemos al problema de imprimir todos los números pares del 1 al 12, y
 creemos un programa que utilice un bucle `while`:
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -335,19 +332,21 @@ while (number <= 12) {
 ```
 
 En este caso, como queremos imprimir los números pares del 1 al 12, creamos una
-variable `number`, la inicializamos con el valor 0, y la utilizamos en la
-condición. Queremos que el bloque dentro del `while` corra mientras el valor de
-`number` sea igual o menor a 12. El cuerpo del `while` incluye dos sentencias:
-la primera, imprime el número (con console.log), y la segunda incrementa
-`number` en 2 (porque queremos imprimir los pares únicamente). La variable
-`number` demuestra la forma en que una variable puede dar seguimiento al
-progreso de un programa. Cada vez que el bucle se repite, `number` se incrementa
-en 2. Entonces, al principio de cada repetición, el valor de la variable
-`number` es comparado con el número 12 para decidir si el programa ha hecho todo
-el trabajo que tenía que hacer. Es importante que entendamos que si no
-modificamos el valor de `number` con la segunda sentencia, la condición (number
-  <=12) siempre será `true` y tendremos un ciclo infinito que nunca se detendrá.
-Esto puede causar que tu computadora tenga problemas y se congele.
+variable `number` (es importante preguntarse _¿cuántas veces necesitamos
+**crear** la variable number?_), la inicializamos con el valor `0`, y la
+utilizamos en la condición. Queremos que el bloque dentro del `while` corra
+mientras el valor de `number` sea igual o menor a `12`. El cuerpo del `while`
+incluye dos sentencias: la primera, imprime el número (con `console.log`), y la
+segunda incrementa `number` en `2` (porque queremos imprimir los pares
+únicamente). La variable `number` demuestra la forma en que una variable puede
+dar seguimiento al progreso de un programa. Cada vez que el bucle se repite,
+`number` se incrementa en `2`. Entonces, al principio de cada repetición, el
+valor de la variable `number` es comparado con el número 12 para decidir si el
+programa ha hecho todo el trabajo que tenía que hacer. Es importante que
+entendamos que si no modificamos el valor de `number` con la segunda sentencia,
+la condición (`number <= 12`) siempre será `true` y tendremos un ciclo infinito
+que nunca se detendrá. Esto puede causar que tu computadora tenga problemas y se
+congele.
 
 Si creas un bucle infinito en uno de los ejemplos, usualmente se te preguntará
 si quieres detener el script después de unos cuantos segundos. Si eso falla,
@@ -361,7 +360,7 @@ bien cómo funciona el ciclo `while`:
   la condición para que el bucle corra mientras `number` sea <= 100.
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 100) {
   console.log(number);
   number = number + 2;
@@ -375,7 +374,7 @@ while (number <= 100) {
   Inicializamos el valor de `number` con el valor de 1 (en lugar de 0).
 
 ```js
-var number = 1;
+let number = 1;
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -385,12 +384,12 @@ while (number <= 12) {
 //   … etcetera hasta 11
 ```
 
-- ¿Cómo hacemos para imprimir todos los números **pares** e **impares** del 1 al
+* ¿Cómo hacemos para imprimir todos los números **pares** e **impares** del 1 al
   12?: En la segunda sentencia del while, incrementamos `number` en 1 (en lugar
   de 2) cada ciclo.
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 12) {
   console.log(number);
   number = number + 1;
@@ -409,9 +408,9 @@ menos una vez** y empieza a verificar si debería parar sólo después de la
 primera ejecución. Para reflejar esto, la condición aparece después del cuerpo
 del bucle. Veamos un ejemplo:
 
-``` js
+```js
 do {
-  var yourName = prompt('¿Quién eres?');
+  const yourName = prompt('¿Quién eres?');
 } while (!yourName);
 
 console.log('tu nombre es ' + yourName);
@@ -435,7 +434,7 @@ Debido a que este patrón es tan común, JavaScript y otros lenguajes similares
 proveen una versión un poco más corta y más completa: el bucle `for`.
 
 ```js
-for (var number = 0; number <= 12; number = number + 2){
+for (let number = 0; number <= 12; number = number + 2) {
   console.log(number);
 }
 // → 0
@@ -457,9 +456,9 @@ y claro que una construcción con `while`.
 Aquí está un código que calcula 2^10 (2 exponencial 10), usando el bucle `for`:
 
 ```js
-var result = 1;
-for (var counter = 0; counter < 10; counter = counter + 1){
-  result = result * 2
+let result = 1;
+for (let counter = 0; counter < 10; counter = counter + 1) {
+  result = result * 2;
 }
 console.log(result);
 // → 1024
@@ -473,7 +472,7 @@ for (initial setup; condition; increment){
 }
 ```
 
-El _initial setup_ (por ejemplo: var counter = 0) se ejecuta antes de que se
+El _initial setup_ (por ejemplo: let counter = 0) se ejecuta antes de que se
 inicie el bucle. Generalmente se usa para crear una variable que rastrea el
 número de veces que se ha ejecutado el bucle. La _condition_ (counter < 10) se
 comprueba antes de cada ejecución del cuerpo de bucle. Si la condición es
@@ -501,7 +500,7 @@ bucle. Queremos hacer un programa que encuentre el primer número que es más
 grande o igual que 20 y divisible por 7.
 
 ```js
-for (var current = 20; ; current++) {
+for (let current = 20; ; current++) {
   if (current % 7 == 0)
     break;
 }
@@ -529,3 +528,15 @@ bucle.
 A continuación Michelle te ayuda explica, con un ejemplo, las aplicaciones de
 `break` y `continue` dentro de un `for`:
 [![ejemplo de break y continue](https://img.youtube.com/vi/C5rIORzHOgg/0.jpg)](https://www.youtube.com/watch?v=C5rIORzHOgg)
+
+#### _Diferencias entre `for` y `while`_
+
+Puntualmente, se usa el `for` cuando sabes _por adelantado_ cuantas repeticiones
+vas a realizar y el `while` cuando no lo sabes.
+
+Si decimos, "gira el ventilador 10 veces", de ante mano sabes que vamos a girar
+el ventilador 10 veces, por tal, el `for` seria buena idea.
+
+Si decimos: "mientras haga calor gira el ventilador". En realidad no sabemos de
+ante mano cuantas veces vamos a girar el ventilador por que no sabemos cuanto
+tiempo tendremos calor, por ende, usar un `while` sería buena idea.

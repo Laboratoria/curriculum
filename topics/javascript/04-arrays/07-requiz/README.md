@@ -139,7 +139,7 @@ console.log(courses.length);
 
 ```js
 const listOfNumbers = [];
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 7; i += 1) {
   listOfNumbers.__________(i);
 }
 listOfNumbers.__________();
@@ -254,7 +254,7 @@ listOfNumbers.____________(2);
 ```js
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i += 1) {
   const item = array.pop();
   array.splice(i, 0, item);
 }
@@ -275,7 +275,7 @@ console.log(array);
 
 ```js
 function search(array, element) {
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i += 1) {
     if (array[i] === element) {
       return i;
     }
