@@ -40,12 +40,6 @@ en el mundo tech.
 Ningún conocimiento previo de programación es necesario para completar este
 curso. Está diseñado para principiantes.
 
-## Productos a desarrollar
-
-En este curso pondrás en práctica los conceptos aprendidos para crear programas
-sencillos de código. Por ejemplo, crearás un programa que cuente el número de
-vocales de una palabra, otro que identifique si un número es par o impar, otro
-que calcule el cubo de un número, etc.
 
 ## Syllabus
 
@@ -62,35 +56,67 @@ por lo tanto darle flexibilidad a lo que hace tu producto.
 
 ### Unidad 03: [Funciones](03-functions)
 
-...
+En esta unidad, veremos en profundidad el tema de funciones, aprovechando que
+JavaScript está fuertemente influenciado por la programación funcional desde su
+diseño, y nos ofrece características importantes como asignar funciones a una
+variable, pasar como parámetro de otra función, cambiar el scope de variables,
+asignar como valor de una propiedad de un objeto, etc.
 
 ### Unidad 04: [Arrays (arreglos)](04-arrays)
 
-...
+Para resolver problemas complejos necesitamos poder agrupar y manipular data de
+una manera más interesante. Afortunadamente, un entorno JavaScript nos permite
+lograr esto brindándonos `arrays` y `objects`. En esta unidad nos concentraremos
+en los arreglos (`arrays`) para después pasar a los objetos en más detalle.
 
 ### Unidad 05: [Objects (objetos)](05-objects)
 
-...
+Qué son `objects` (objetos) y para qué sirven? Cómo crear, acceder y modificar
+la información de un `object`? Diferencias entre un `array` y un `object`.
 
 ### Unidad 06: [Strings (cadenas de caracteres)](06-strings)
 
-...
+En JavaScript, los tipos de dato *texto*, se guardan como *tiras de caracteres*,
+más popularmente conocidas como `strings`.
 
 ### Unidad 07: [Built-ins (standard library)](07-built-ins)
 
-...
+Existen algunos objetos y funciones especiales que vienen con JavaScript pero
+que no son parte del lenguaje en sí. Se conocen como la _librería estándar_
+(standard library) ya que siempre podemos contar con ellos.
 
 ### Unidad 08: [Asincronía](08-async)
 
-...
+JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
+sin bloque del proceso, gracias a sus higher order functions y la propia
+arquitectura de los motores de JavaScript.
+
+Todo lo que sea interacción con usuarios, acceso de red, acceso a disco duro,
+... serán siempre operaciones asíncronas, done el resultado de una invocación no
+retorna immediatamente, sino después de un tiempo.
+
+Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
+aplicaciones web, estas alteraciones se realizan luego de cierta interacción
+por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
+entender aspectos importantes del comportamiento de eventos y como manejarlos.
 
 ### Unidad 09: [Errores](09-errors)
 
-...
+El manejo de errores es importante dentro de todo desarrollo de software, y más
+aún cuando se piensa en construir un producto que se espera sea reusable y
+mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
+de nuestro código.
 
 ### Unidad 10: [Depuración (debugging)](10-debugging)
 
-...
+La depuración es un aspecto importante en programación, trata de encontrar y
+corregir diferentes tipos de errores que pueden suceder al momento de programar.
+
+### Unidad 11: [Testing / Pruebas](11-testing)
+
+Probar tu código es importante para garantizar que funcione como unx espera,
+pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
+a diseñar mejor nuestro código.
 
 ***
 
