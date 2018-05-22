@@ -15,7 +15,10 @@ talleres y conferencias de un evento.
 
 A continuación te explicamos cuales son los requerimientos de esta aplicación:
 
-<iframe src="https://drive.google.com/file/d/0B6GBtl-gO6LwWFpzY3Z3NVVZa0k/preview" width="760" height="749"></iframe>
+<iframe
+  src="https://drive.google.com/file/d/0B6GBtl-gO6LwWFpzY3Z3NVVZa0k/preview"
+  width="760"
+  height="749"></iframe>
 
 Así mismo te pasamos la el Excel en donde se encuentra [la data para el reto](https://docs.google.com/spreadsheets/d/1hLTuPD5Fw7WruVMxbPS36-urZDwWR_Va1gJ_5Ttq87U/edit#gid=1596778419).
 

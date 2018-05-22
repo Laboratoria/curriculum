@@ -9,8 +9,8 @@
 ## Objetivos
 
 Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
-este curso, el único requisito será crear un Single Page Application haciendo 
-uso de APIs distintos o adicionales a los que hemos visto en clase y bajo el 
+este curso, el único requisito será crear un Single Page Application haciendo
+uso de APIs distintos o adicionales a los que hemos visto en clase y bajo el
 contexto que desees.
 
 Ten en cuenta que si te lo propones, puedes crear productos como este:

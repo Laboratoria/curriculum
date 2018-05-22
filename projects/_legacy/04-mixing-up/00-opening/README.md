@@ -1,4 +1,4 @@
-# Opening: Mezclemos, practiquemos y aprendamos!
+# Opening: Mezclemos, practiquemos y aprendamos
 
 - Tipo: `lectura`
 - Formato: `self-paced`

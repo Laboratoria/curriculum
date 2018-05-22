@@ -37,5 +37,6 @@ Solo debe cumplir algunos requisitos:
   eres una desarrolladora que ya tiene la gran habilidad de preguntar a
   San Google las dudas concretas que te surgen.
 
-> **Consideración:** Se podrá hacer uso de esta información (API de Marvel) siempre que
-> se vaya a utilizar en webs y aplicaciones para uso personal y no comercial.
+> **Consideración:** Se podrá hacer uso de esta información (API de Marvel)
+> siempre que se vaya a utilizar en webs y aplicaciones para uso personal y no
+> comercial.

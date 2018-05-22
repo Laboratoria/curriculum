@@ -17,7 +17,6 @@ Dado que ya hemos subido mucho de nuestros proyectos a Github Pages, y teniendo
 en cuenta que este servicio solo puede hostear archivos estáticos y para este
 reto necesitamos hacer un poco de Node.js (back-end), así que usaremos [Heroku](https://www.heroku.com/).
 
-
 ## Recursos
 
 - Para llevar a cabo este chat y no hacer la implementación desde cero, usaremos

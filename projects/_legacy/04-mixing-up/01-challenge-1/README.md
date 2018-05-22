@@ -28,7 +28,14 @@ En esta app vamos a hacer uso de los siguientes APIs de HTML5:
 
 ## Guía / propuesta de diseño
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTd6LtXXXMQNePdO4nhkZ32QlugTiSggmv7WT9BMsWo1hTPZ22z7ImpsM4rMdOaLJr_CaFsld6MvKBR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vTd6LtXXXMQNePdO4nhkZ32QlugTiSggmv7WT9BMsWo1hTPZ22z7ImpsM4rMdOaLJr_CaFsld6MvKBR/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="760"
+  height="749"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"></iframe>
 
 ## Recomendaciones
 

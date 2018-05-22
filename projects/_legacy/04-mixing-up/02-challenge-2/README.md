@@ -24,6 +24,13 @@ Una respuesta tiene:
 
 ## Recursos
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTyxtk13Odw3QHMQQFphnmql4t670H4Ih2tIT57-LSi9T0-HCCrh_y_HOhPazdhZt0gFSL8FfZLcyLQ/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vTyxtk13Odw3QHMQQFphnmql4t670H4Ih2tIT57-LSi9T0-HCCrh_y_HOhPazdhZt0gFSL8FfZLcyLQ/embed?start=false&loop=false&delayms=5000"
+  frameborder="0"
+  width="760"
+  height="749"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"></iframe>
 
 Debes subir tu ejercicio a `GitHub` y publicarlo en `gh-pages`.
