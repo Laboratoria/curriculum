@@ -5,7 +5,7 @@
   "scripts": {
     "pretest": "mdlint .",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
-    "eslint": "eslint topics/javascript/04-arrays topics/javascript/05-objects topics/javascript/06'string"
+    "eslint": "eslint topics/javascript"
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [

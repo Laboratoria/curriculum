@@ -3,7 +3,6 @@
 const isVowel = require('./isVowel');
 
 describe('isVowel()', () => {
-
   it('debería devolver true para letra a', () => {
     if (isVowel('a') !== true) {
       console.error('✗ fail');
@@ -19,5 +18,4 @@ describe('isVowel()', () => {
       console.log('✓ ok');
     }
   });
-
 });
