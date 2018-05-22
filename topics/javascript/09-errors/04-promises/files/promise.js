@@ -56,4 +56,4 @@ const getLatestNodeInfo = () =>
 
 getLatestNodeInfo()
   .then(data => console.log(`Versión más reciente de Node.js: ${data.version}`))
-  .catch(err => console.error(err))
+  .catch(err => console.error(err));

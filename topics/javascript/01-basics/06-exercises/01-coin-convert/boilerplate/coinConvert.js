@@ -1,8 +1,5 @@
-module.exports = function coinConvert(usDollars) {
-  var arr = [];
-  var peruvianSoles /* tu código aquí */;
-  var mexicanPesos /* tu código aquí */;
-  var chileanPesos /* tu código aquí */;
+module.exports = (usDollars) => {
+  const arr = [];
 
   // Añade el monto equivalente en soles
   arr.push(/* tu código aquí */);

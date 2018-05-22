@@ -13,8 +13,8 @@ describe('reverse()', () => {
   });
 
   it('debería regresar el arreglo invertido cuando es un arreglo de objetos', () => {
-    const output = reverse([{ 'country': 'Chile' }, { 'country': 'México' }, { 'country': 'Perú' }]);
-    Assert.deepEqual(output, [{ 'country': 'Perú' }, { 'country': 'México' }, { 'country': 'Chile' }]);
+    const output = reverse([{ country: 'Chile' }, { country: 'México' }, { country: 'Perú' }]);
+    Assert.deepEqual(output, [{ country: 'Perú' }, { country: 'México' }, { country: 'Chile' }]);
   });
 
   it('debería regresar el arreglo vacío cuando es un arreglo vacío', () => {

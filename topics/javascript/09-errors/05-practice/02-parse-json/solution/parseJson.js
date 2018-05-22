@@ -6,4 +6,4 @@ const parseJson = (str) => {
   }
 };
 
-module.exports = parseJson
+module.exports = parseJson;

@@ -9,7 +9,6 @@ const assertEqual = (value, expected) => {
 };
 
 describe('isVowel()', () => {
-
   it('debería devolver true para letra a', () => {
     assertEqual(isVowel('a'), true);
   });
@@ -17,5 +16,4 @@ describe('isVowel()', () => {
   it('debería devolver false para letra b', () => {
     assertEqual(isVowel('b'), false);
   });
-
 });
