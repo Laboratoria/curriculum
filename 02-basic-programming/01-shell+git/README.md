@@ -1,20 +1,20 @@
-# 04 - Sprint 1 Kickoff
+# Kickoff do Sprint 1
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `30 min`
 
+***
+
 ## Objetivos
 
 * Conhecer o aspecto geral do **Sprint 1: Programação Básica com JavaScript**
-  * Objetivos do curso e temas a aprender
-  * Por que aprender isso?
-  * Produtos a serem desenvolvidos
+  + Objetivos do curso e temas a aprender
+  + Por que aprender isso?
+  + Produtos a serem desenvolvidos
 * Conhecer _gamification_: pontos técnicos e habilidades socioemocionais
 * Conhecer o escopo e incentivos do curso: duração, unidades a completar,
-
   bonificações e prêmios
-
 * Rever o cronograma do sprint
 
 ## Agenda

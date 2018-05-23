@@ -1,6 +1,4 @@
-# 10 - Convert Object To List
-
-## convertObjectToList
+# convertObjectToList
 
 Escreva uma função chamada "convertObjectToList" que converte um objeto literal em um vetor de vetores, como neste exemplo:
 
@@ -31,6 +29,3 @@ Por exemplo, você também deve conseguir manipular a entrada abaixo ou qualquer
   weight: 45
 }
 ```
-
-
-

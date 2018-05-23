@@ -1,6 +1,4 @@
-# 06 - Quiz
-
-## Quiz 1
+# Quiz 1
 
 * Tipo: `quiz`
 * Formato: `individual`
@@ -8,13 +6,13 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
 
-### Perguntas
+## Perguntas
 
-#### 1\) Qual das seguintes afirmações sobre objetos **NÃO** está correta?
+### 1\) Qual das seguintes afirmações sobre objetos **NÃO** está correta?
 
 **Opções**
 
@@ -25,7 +23,7 @@
 
 2
 
-#### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções.
+### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções.
 
 **Opções**
 
@@ -36,7 +34,7 @@
 
 1,4
 
-#### 3\) As propriedades geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado e os métodos geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado
+### 3\) As propriedades geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado e os métodos geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado
 
 **Opções**
 
@@ -47,7 +45,7 @@
 
 3
 
-#### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de transformar em _maiúsculas_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _comprimento_ do valor associado
+### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de transformar em _maiúsculas_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _comprimento_ do valor associado
 
 **Opções**
 
@@ -58,7 +56,7 @@
 
 4
 
-#### 5\) Confira o código a seguir.
+### 5\) Confira o código a seguir.
 
 ```javascript
 var movie = {
@@ -80,7 +78,7 @@ Como eu acesso a propriedade `director`?
 
 3
 
-#### 6\) Qual é o erro no código abaixo?
+### 6\) Qual é o erro no código abaixo?
 
 ```javascript
 var movie = {
@@ -102,7 +100,7 @@ var movie = {
 
 2
 
-#### 7\) Qual é o resultado do código seguinte?
+### 7\) Qual é o resultado do código seguinte?
 
 ```javascript
 var movie = {
@@ -124,7 +122,7 @@ console.log(movie.stars[2]);
 
 3
 
-#### 8\) No código a seguir,
+### 8\) No código a seguir,
 
 ```javascript
 var movie = {
@@ -146,7 +144,7 @@ como podemos acessar a lista de chaves do objeto `movie`?
 
 3
 
-#### 9\) Qual é o erro no código a seguir?
+### 9\) Qual é o erro no código a seguir?
 
 ```javascript
 function objectToArray(object) {

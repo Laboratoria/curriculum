@@ -1,14 +1,11 @@
-# 08 - Practice
+# Desafios de código
 
-## Desafios do código
-
-* Tipo: `prática`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `3 h`
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Aqui, apresentaremos uma série de desafios que você deve completar para testar seus conhecimentos.
-

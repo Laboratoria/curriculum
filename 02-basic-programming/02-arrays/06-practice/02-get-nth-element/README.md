@@ -1,6 +1,4 @@
-# 02 - Get Nth Element
-
-## getNthElement
+# getNthElement
 
 Escreva uma função chamada `getNthElement`.
 

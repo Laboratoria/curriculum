@@ -1,4 +1,4 @@
-# 01 - Command Line
+# Linha de Comandos
 
 * Tipo: `leitura`
 * Formato: `individual`

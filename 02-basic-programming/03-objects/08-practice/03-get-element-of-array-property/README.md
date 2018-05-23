@@ -1,6 +1,4 @@
-# 03 - Get Element of Array Property
-
-## getElementOfArrayProperty
+# getElementOfArrayProperty
 
 Escreva uma função chamada `getElementOfArrayProperty`.
 
@@ -22,4 +20,3 @@ var obj = {
 var output = getElementOfArrayProperty(obj, 'key', 0);
 console.log(output); // --> 'Jamil'
 ```
-

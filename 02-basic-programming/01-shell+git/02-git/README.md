@@ -1,4 +1,4 @@
-# 02 - Git
+# Git
 
 * Tipo: `leitura`
 * Formato: `individual`

@@ -1,6 +1,4 @@
-# 02 - Properties and Methods
-
-## Trabalhando com matrizes e objetos
+# Propriedades e Métodos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -8,7 +6,7 @@
 
 ***
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 * Saiba quais são as propriedades e métodos em JavaScript
 * Aprenda as principais propriedades e métodos de `arrays` e `objects`
@@ -16,7 +14,7 @@
 
 O texto abaixo é baseado em grande parte, com alguns ajustes, no capítulo 4 do [Eloquent JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke, 2014.
 
-### Propriedades e métodos
+## Propriedades e métodos
 
 Ao longo deste curso, vimos uma série de comandos um pouco estranhos que nos permitem fazer várias coisas em JavaScript. Por exemplo, vimos que colocar `.length` no final de uma `string` retorna o número de caracteres da `string`. Também vimos que, ao colocar `.toUpperCase()` no final de uma `string` obteremos a mesma `string` em letras maiúsculas.
 
@@ -26,11 +24,11 @@ O interessante sobre as propriedades e os métodos é que eles não são apenas 
 
 As duas maneiras comuns de acessar propriedades ou métodos no Javascript são: com um ponto \(`.`\) ou colchetes \(`[]`\). Ambos `valor.x` e `valor[x]` acessam uma propriedade de `valor`, mas não necessariamente a mesma propriedade. A diferença está em como é interpretado `x`. Quando usamos um ponto, a parte depois do ponto deve ser um nome de variável válido e nomear diretamente a propriedade ou método. Quando usamos colchetes, a expressão dentro deles é _**avaliada**_ para obter o nome da propriedade. Enquanto que `valor.x` procura pela propriedade do valor chamado "x", `valor[x]` tenta _avaliar_ a expressão `x` e depois usar o resultado como o nome da propriedade.
 
-### Propriedades e métodos de _arrays_
+## Propriedades e métodos de _arrays_
 
 Nós já vimos uma maneira de acessar as propriedades de um `array`. Quando acessamos os elementos de um `array` \(usando os colchetes `[]` e o índice\), estamos realmente acessando suas propriedades. Isso ocorre porque **os elementos de um arranjo são armazenados em propriedades**. Então, quando fazemos `myArray[0]`, estamos realmente dizendo ao JavaScript para retornar o valor armazenado na propriedade `0` do array, que é definido como o primeiro valor da "primeira caixinha" do `array`.
 
-#### Encontrando o comprimento de um _array_
+### Encontrando o comprimento de um _array_
 
 Como as _strings_, os _arrays_ em JavaScript vêm com uma propriedade `length` que retorna o comprimento do `array`, isto é, o número de elementos que compõem o array. Vamos ver um exemplo:
 
@@ -41,7 +39,7 @@ console.log(myArray.length);
 // → 3
 ```
 
-#### Adicionando elementos a um _array_
+### Adicionando elementos a um _array_
 
 Para adicionar um elemento ao final de um `array` JavaScript, usamos o **método** `push`. Lembre-se de que é um método porque **faz** algo com o valor associado - nesse caso, ele adiciona um elemento ao final do _array_. Vejamos um exemplo:
 
@@ -61,7 +59,7 @@ O ato de executar um método é conhecido como "chamar" o método. Isso ocorre p
 
 Quando chamamos o método `push`, duas coisas acontecem. Primeiro, o elemento que colocamos entre parênteses \(no exemplo anterior, a `string` "último elemento"\) é adicionado ao `array`. Em segundo lugar, o novo comprimento é devolvido. É por isso que depois de executar o código `myArray.push('último elemento');` o número impresso no terminal é `4`, pois o _array_ agora possui um comprimento de `4`.
 
-#### Outros métodos de _arrays_
+### Outros métodos de _arrays_
 
 O JavaScript nos dá vários métodos para manipular `arrays`. Com eles, podemos adicionar elementos no início do `array`, remover elementos, concatenar `arrays`, unir mais de um `array` e muitas outras coisas.
 
@@ -90,7 +88,7 @@ Lembre-se também de que você pode explorar outras formas de autoaprendizagem:
 
 _NOTA: É importante NÃO avançar se você não conseguiu entender bem os conceitos anteriores. O que se segue neste curso é construído sobre esses conceitos, então use seu tempo para aprender bem antes de seguir em frente._
 
-### Propriedades e métodos de objetos
+## Propriedades e métodos de objetos
 
 Já vimos que as chaves dos `objects` são equivalentes às suas propriedades. E vimos como acessar essas propriedades. Precisamente, ao criar o par de chave-valor de um objeto, estamos criando uma propriedade que armazena o valor fornecido. Lembre-se do nosso exemplo com o objeto `movie`:
 
@@ -123,7 +121,7 @@ Com `movie['title']` ou `movie.title` estamos acessando a **propriedade** chamad
 
 Também podemos criar **métodos para** `objects` que criamos \(como o objeto `movie` do exemplo\). Conseguimos isso incluindo uma função como propriedade. Mas, por enquanto, não se preocupe com isso. Nós veremos mais tarde. Por enquanto, o importante é saber que, assim como `strings` e `arrays` têm propriedades e métodos, o mesmo acontece com `objects`. E lembre-se: as propriedades nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Os métodos conseguem _**fazê-lo**_ porque contêm funções.
 
-#### O comprimento de um objeto?
+### O comprimento de um objeto?
 
 A propriedade `length` que podemos usar para calcular o comprimento de uma `string` ou um `array` não é uma propriedade válida para os `objects` que criamos. Isto é, se ao objeto `movie` tentarmos aplicar a propriedade `length` o resultado é `undefined`.
 
@@ -161,7 +159,7 @@ console.log(Object.keys(movie));
 // → (8) ['title', 'director', 'stars', 'year of release', 'plot', 'oscar', 'tags', 'other awards']
 ```
 
-### Inspecionando _arrays_ e _objects_
+## Inspecionando _arrays_ e _objects_
 
 Para exibir no terminal as informações contidas em um `array` de duas dimensões ou em um `object`, temos o método `.table()` de `console`.
 

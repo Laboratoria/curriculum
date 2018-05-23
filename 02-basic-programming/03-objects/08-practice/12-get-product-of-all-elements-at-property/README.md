@@ -1,6 +1,4 @@
-# 12 - Get Product of All Elements at Property
-
-## getProductOfAllElementsAtProperty
+# getProductOfAllElementsAtProperty
 
 Escreva uma função chamada `getProductOfAllElementsAtProperty`.
 
@@ -19,4 +17,3 @@ var obj = {
 var output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 24
 ```
-

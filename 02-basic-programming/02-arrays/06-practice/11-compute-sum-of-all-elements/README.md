@@ -1,5 +1,3 @@
-# 11 - Compute Sum of All Elements
-
 ## computeSumOfAllElements
 
 Escreva uma função chamada `computeSumOfAllElements`.
@@ -12,4 +10,3 @@ Exemplo:
 var output = computeSumOfAllElements([1, 2, 3]);
 console.log(output); // --> 6
 ```
-

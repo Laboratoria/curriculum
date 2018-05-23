@@ -1,4 +1,4 @@
-# 01 - Final Products
+# Produtos Finais
 
 * Tipo: `exercício`
 * Formato: `individual`

@@ -1,6 +1,4 @@
-# 13 - Add Object Property
-
-## addObjectProperty
+# addObjectProperty
 
 Escreva uma função chamada "addObjectProperty".
 
@@ -19,6 +17,3 @@ addObjectProperty(person1, 'manager', person2);
 console.log(person1.manager);
 // --> { name: 'Mr. Burns', role: 'supervisor' }
 ```
-
-
-

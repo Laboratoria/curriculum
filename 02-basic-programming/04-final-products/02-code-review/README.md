@@ -1,4 +1,4 @@
-# 02 - Code Review
+# Code Review
 
 * Tipo: `oficina`
 * Formato: `guiado`

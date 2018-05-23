@@ -1,6 +1,4 @@
-# 13 - Get Longest of Three Words
-
-## getLongestOfThreeWords
+# getLongestOfThreeWords
 
 Escreva uma função chamada `getLongestOfThreeWords`.
 
@@ -14,6 +12,3 @@ Notas:
 var output = getLongestOfThreeWords('estas', 'três', 'palavras');
 console.log(output); // -> 'palabras'
 ```
-
-
-

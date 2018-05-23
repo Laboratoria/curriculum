@@ -1,6 +1,4 @@
-# 14 - Add Full Name Property
-
-## addFullNameProperty
+# addFullNameProperty
 
 Escreva uma função chamada "addFullNameProperty".
 
@@ -14,4 +12,3 @@ var person = {
 addFullNameProperty(person);
 console.log(person.fullName); // --> 'Jade Smith'
 ```
-

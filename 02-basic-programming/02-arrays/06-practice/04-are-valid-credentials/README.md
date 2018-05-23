@@ -1,6 +1,4 @@
-# 04 - Are Valid Credentials
-
-## areValidCredentials
+# areValidCredentials
 
 Escreva uma função chamada `areValidCredentials`.
 
@@ -12,4 +10,3 @@ Exemplo:
 var output = areValidCredentials('Ritu', 'mylongpassword');
 console.log(output); // --> true
 ```
-
