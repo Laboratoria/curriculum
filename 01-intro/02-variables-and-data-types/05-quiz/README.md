@@ -8,57 +8,57 @@
 
 ## Preguntas
 
-### 1) ¿Cuál de las siguientes opciones reflejan "buenos" nombres de variables (es decir, cumplen con las reglas y las sugerencias de buenas prácticas)?
+### 1) Qual das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
 
 #### Opciones
 
-1. var last_name = 'Martinez';
+1. var last_name = 'Martim';
 2. var score = 1;
-3. var cosita = "El retorno del Jedi";
+3. var cosita = "O retorno de Jedi";
 4. var undefined = true;
 5. var likesCoffee = false;
 6. var 2ndChild = 'Diana';
 
 <solution style="display:none;">2,5</solution>
 
-### 2) Los comentarios en la programación
+### 2) Comentários na programação
 
 #### Opciones
 
-1. Afectan el flujo del programa y se utilizan para hacer más entendible tu código
-2. No afectan el flujo del programa y se utilizan para hacer que el código corra
-   más rápido
-3. No afectan el flujo del programa y se utilizan para hacer más entendible tu
-   código
-4. Afectan el flujo del programa y se utilizan para hacer que el código corra
-   más rápido
+1. Afetam o fluxo do programa e são usados para tornar o código mais compreensível
+2. Não afetam o fluxo do programa e são usados para fazer o código funcionar
+   mais rápido
+3. Não afetam o fluxo do programa e são usados para tornar o código mais
+   compreensível
+4. Afetam o fluxo do programa e são usados para fazer o código funcionar
+   mais rápido
 
 <solution style="display:none;">3</solution>
 
-### 3) Un ejemplo de conversión automática es
+### 3) Um exemplo de conversão automática é
 
 #### Opciones
 
 1. 3 > 3
-2. 'hola' + ' mundo'
+2. 'oi' + ' mundo'
 3. true && false
 4. "10" + 1
 
 <solution style="display:none;">4</solution>
 
-### 4) La diferencia entre undefined y null
+### 4) A diferença entre undefined y null
 
 #### Opciones
 
-1. No existe, son lo mismo
-2. No importa
-3. `undefined` no tiene valor y `null` es un string vacio
-4. `undefined` significa que no se ha _asignado_ un valor, mientras que `null`
-   significa que hemos _asignado_ el valor `null`
+1. Não existe, são iguais
+2. Não importa
+3. Undefined  não tem valor e null é uma string vazia
+4. `indefinido` significa que um valor não foi atribuído, enquanto que `null`
+    significa que nós atribuímos o valor `null`
 
 <solution style="display:none;">4</solution>
 
-### 5) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta
+### 5) A partir da lista abaixo escolher duas fontes confiaveis para aprender por você mesma
 
 #### Opciones
 
@@ -69,40 +69,40 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 6) El resultado de 'Hola' + 'mundo' es
+### 6) O resultado de "Olá" + "mundo" é
 
 #### Opciones
 
-1. "Hola Mundo"
-2. "Hola mundo"
-3. "Holamundo"
-4. 'HolaMundo'
+1. "Olá Mundo"
+2. "Olá mundo"
+3. "Olámundo"
+4. 'OláMundo'
 
 <solution style="display:none;">3</solution>
 
-### 7) ¿Qué tipo de dato es '123'?
+### 7) Que tipo de dados é "123"?
 
 #### Opciones
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. Number
+2. String
+3. Boolean
+4. Undefined
 
 <solution style="display:none;">2</solution>
 
-### 8) ¿Qué tipo de dato es Infinity?
+### 8) Que tipo de dados é Infinity?
 
 #### Opciones
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. Number
+2. String
+3. Boolean
+4. Undefined
 
 <solution style="display:none;">1</solution>
 
-### 9) El resultado de 10 == 'diez' es
+### 9) Resultado 10 == "dez" é
 
 #### Opciones
 
@@ -111,7 +111,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 10)  El resultado de 10 % 3 es
+### 10) O resultado de 10 % 3 é
 
 #### Opciones
 
@@ -120,9 +120,9 @@
 3. 3.33
 4. 10
 
-<solution style="display:none;">1</solution
+<solution style="display:none;">1</solution>
 
-### 11) El resultado de 'Me \"encanta\" JavaScript' es
+### 11) O resultado de 'Me \"encanta\" JavaScript' é
 
 #### Opciones
 
@@ -133,7 +133,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 12)  El resultado de **typeof NaN** es
+### 12) O resultado de **typeof NaN** é
 
 #### Opciones
 
@@ -144,7 +144,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 13)  El resultado de 4 % 15 es
+### 13) O resultado de 4 % 15 é
 
 #### Opciones
 
@@ -155,7 +155,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 14) El resultado de 'diez' * 4 es
+### 14) O resultado de "dez"  *  4 é
 
 #### Opciones
 
@@ -166,18 +166,18 @@
 
 <solution style="display:none;">1</solution>
 
-### 15) El resultado de '50' + 1 es
+### 15) O resultado de "50" + 1 é
 
 #### Opciones
 
 1. "501"
 2. 51
-3. "50+1"
+3. "50"+1
 4. 50
 
 <solution style="display:none;">1</solution>
 
-### 16) El resultado de false == '' es
+### 16) O resultado de false == "" é
 
 #### Opciones
 
@@ -188,7 +188,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 17) El resultado de '' === NaN es
+### 17) O resultado de "" === NaN é
 
 #### Opciones
 
@@ -199,7 +199,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 18) El resultado de 'a string'.slice(1, 5) es
+### 18) O resultado de "a string".slice(1, 5) é
 
 #### Opciones
 
@@ -210,7 +210,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 19) El resultado de 'My long string is long'.slice(5) es
+### 19) O resultado de "My long string is long".slice(5) é
 
 #### Opciones
 
@@ -221,18 +221,18 @@
 
 <solution style="display:none;">1</solution>
 
-### 20) El resultado de 'Quiero seguir aprendiendo!!!'.slice(0, -2) es
+### 20) O resultado de "Quero seguir aprendendo!!!".slice(0, -2) é
 
 #### Opciones
 
-1. "Quiero seguir aprendiendo!!!"
-2. "Quiero seguir aprendiendo!!"
-3. "Quiero seguir aprendiendo!"
-4. "iero seguir aprendiendo!!!"
+1. "Quero seguir aprendendo!!!"
+2. "Quero seguir aprendendo!!"
+3. "Quero seguir aprendendo!"
+4. "ero seguir aprendendo!!!"
 
 <solution style="display:none;">3</solution>
 
-### 21) El resultado de 'cualquier string'.charAt(100) es
+### 21) O resultado de "qualquer string".charAt(100) é
 
 #### Opciones
 
@@ -243,7 +243,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 22) El resultado de 'Hola Mundo'.indexOf(' ') es
+### 22) O resultado de "Olá Mundo".indexOf(" ") é
 
 #### Opciones
 
@@ -252,9 +252,9 @@
 3. 4
 4. 5
 
-<solution style="display:none;">3</solution>
+<solution style="display:none;">2</solution>
 
-### 23) El resultado de 'Hola Mundo'.indexOf('s') es
+### 23) O resultado de "Olá Mundo".indexOf("s") é
 
 #### Opciones
 
@@ -265,7 +265,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 24) El resultado de 'alphabet'.toUpperCase() es
+### 24) O resultado de "alphabet".toUpperCase() é
 
 #### Opciones
 
@@ -276,7 +276,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 25) El resultado de typeof parseInt('543') es
+### 25) O resultado de **typeof parseInt('543')** é
 
 #### Opciones
 

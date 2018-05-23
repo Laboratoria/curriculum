@@ -4,118 +4,114 @@
 * Formato: `self-paced`
 * Duración: `20min`
 
-## Objetivos de aprendizaje
+## Objetivos do aprendizado
 
-* Entender qué es Growth Mindset (mentalidad de crecimiento) y adoptarla antes
-  de empezar este curso.
+* Entender o que é Growth Mindset (mentalidade de crescimento )  e adotá-la
+  antes de iniciar este curso.
 
 ***
 
-## Sobre Growth Mindset
+## Sobre o Growth Mindset
 
-Laboratoria es un programa increíble, que te enseña todo lo que necesitas para
-iniciar tu carrera en el sector digital en un periodo muy corto de tiempo.
-Seguramente te habrás preguntado cómo podrás lograrlo, y la respuesta está en
+A Laboratória é um programa incrível que ensina tudo o que você precisa para
+começar sua carreira como programadora em um período muito curto de tempo.
+Certamente você já se perguntou como você pode fazer, e a resposta está em
 **aprender a aprender**.
 
-¿Alguna vez has leído o escuchado algo sobre Growth Mindset? Al finalizar esta
-lectura, esperamos que no sólo entiendas este concepto, sino que adoptes una
-mentalidad de crecimiento que te permita enfrentar los retos de aprender algo
-nuevo, y tener la confianza de saber que podrás superarlos.
+Alguma vez você já leu ou ouviu algo sobre Growth Mindset? Após a conclusão
+deste módulo, espero que não só compreenda este conceito, mas que adote uma
+mentalidade de crescimento que permita que você enfrente os desafios de aprender
+algo novo, e ter a confiança de saber que você pode superar.
 
-La mayoría de personas creen que la inteligencia es una capacidad mental con la
-que nacemos, que es estática y que no podemos cambiar. Esta creencia ocasiona
-que pensemos que nuestra inteligencia tiene un límite, y que hay cosas que
-simplemente no podremos aprender.
+A maioria das pessoas acreditam que a inteligência é uma capacidade mental com
+a qual nascemos, que é estático e não pode mudar. Esta crença nos leva a pensar
+que a nossa inteligência é limitada, e há coisas que simplesmente não podemos
+aprender.
 
-Sin embargo, diversas investigaciones sobre el cerebro y el aprendizaje han
-demostrado que cada vez que aprendemos algo nuevo nuestro cerebro cambia y
-crece. En otras palabras, nosotras mismas tenemos el control para desarrollar y
-expandir nuestra inteligencia.
+No entanto, diversas pesquisas sobre o cérebro e aprendizagem têm mostrado que
+cada vez que aprendemos algo novo nosso cérebro muda e cresce. Em outras palavras,
+nós mesmas podemos controlar e desenvolver a nossa inteligência.
 
-Hace 30 años, Carol Dweck, una psicóloga estadounidense, se planteó investigar y
-comparar cómo estas distintas creencias podían causar que las personas
-obtuvieran diferentes resultados al enfrentarse a un reto de aprendizaje.
-Después de varias investigaciones, ella acuñó los términos Fixed mindset y
-Growth mindset, es decir, mentalidad fija o mentalidad de crecimiento, para
-describir a ambos tipos de creencias.
+Há 30 anos, Carol Dweck, uma psicóloga americana, começou a investigar e comparar
+a forma como estas diferentes crenças podiam levar as pessoas a obter resultados
+diferentes quando confrontados com um desafio de aprendizagem. Depois de várias
+investigações, ela criou os termos Fixed mindset e Growth mindset, ou seja,
+mentalidade fixa e mentalidade de crescimento, para descrever ambos os tipos de
+crenças.
 
-A través de sus estudios en diferentes escuelas de Estados Unidos, ella
-descubrió que cuando los estudiantes creen que pueden lograr que su inteligencia
-se desarrolle, entonces están dispuestos a esforzarse más, porque entienden que
-el logro que alcanzarán será mejor y más grande.
+Através de seus estudos em diferentes escolas nos USA,  ela descobriu que quando
+os alunos acreditam que podem conseguir, a sua inteligência se desenvolve. Assim
+eles estão dispostos a fazer mais, porque eles entendem que vão conseguir algo
+melhor e maior.
 
-Actualmente, los últimos avances en neurociencias han mostrado que el cerebro es
-mucho más maleable de lo que pensábamos. Las investigaciones en plasticidad
-neuronal evidencian cómo la conectividad entre neuronas puede cambiar con las
-experiencias que las personas van acumulando. Con práctica, las redes neuronales
-van creciendo y creando nuevas conexiones. Esto implica que tú puedes
-incrementar el crecimiento de tus redes neuronales con acciones, como al
-realizar preguntas, leer, practicar una y otra vez algo que te resulta
-complicado, y manteniendo buenos hábitos de alimentación y sueño.
+Atualmente, os mais recentes avanços na neurociência têm demonstrado que o
+cérebro é muito mais maleável do que pensávamos. Pesquisa em neuroplasticidade
+demonstra como a conectividade entre os neurônios pode mudar com as experiências
+que as pessoas acumulam. Com a prática, redes neurais estão crescendo e criando
+novas conexões. Isso significa que você pode aumentar o crescimento de suas redes
+neurais com ações, como fazer perguntas, ler, praticar uma e outra vez algo que
+você acha difícil, e manter bons hábitos alimentares e do sono.
 
-Gracias a estos nuevos descubrimientos científicos, muchos investigadores han
-comenzando a entender la conexión entre los tipos de mentalidades y las
-posibilidades de alcanzar logros. Los estudios de Carol Dweck han mostrado que
-si piensas que tu cerebro puede crecer, entonces tu comportamiento es distinto a
-si piensas que naciste con una inteligencia fija. Por ejemplo, una estudiante
-con una mentalidad fija, estará orientada a mostrar un desempeño perfecto, por
-lo que preferirá realizar solo actividades que sabe que puede lograr, para así
-verse siempre inteligente. En cambio, una estudiante con una mentalidad de
-crecimiento, se sentirá mucho más cómoda enfrentando retos que no necesariamente
-sabe cómo lograr, porque sabe que estos desafíos le permitirán aprender más.
+Graças a estas novas descobertas científicas, muitos pesquisadores estão
+começando a entender a conexão entre tipos de mentalidades e possibilidades de
+realização. Os estudos de Carol Dweck têm mostrado que, se você acha que o seu
+cérebro pode crescer, então o seu comportamento é diferente do que se você acha
+que você nasceu com uma inteligência fixa. Por exemplo, um aluno com uma
+mentalidade fixa, terá como objetivo mostrar um desempenho perfeito, por isso
+vai preferir realizar apenas atividades que sabe que pode conseguir, e assim se
+achar inteligente. Em vez disso, um estudante com uma mentalidade para o
+crescimento, vai se sentir mais confortável em enfrentar os desafios que não
+necessariamente conhece, porque ele sabe que estes desafios permitirão aprender
+mais.
 
-**Tener una mentalidad de crecimiento significa que entiendes que puedes
-desarrollar e incrementar tu inteligencia y todas tus habilidades, y que no
-tienes miedo a los retos. Significa que sabes que la mejor manera de aprender se
-logra con esfuerzo, y por ello estás dispuesta a cometer errores en el
-proceso.**
+**Ter uma mentalidade de crescimento significa entender que você pode
+desenvolver e aumentar sua inteligência e suas habilidades, e que você não tem
+medo de desafios. Isso significa que você sabe que a melhor maneira de aprender
+é se esforçando e, portanto, está disposto a cometer erros no processo.**
 
-Mira este video sobre Growth mindset (10 min)
+Veja este vídeo sobre a mentalidade de crescimento (10 min)
 
-[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc&cc_lang_pref=es&cc_load_policy=1)
+[![Video Growth Mindset](http://img.youtube.com/vi/pN34FNbOKXc/0.jpg)](http://www.youtube.com/watch?v=pN34FNbOKXc)
 
-## Desarrollando Growth Mindset
+## Desenvolvendo Growth Mindset (Mentalidade de crescimento)
 
-Verás que tu mentalidad puede variar, pues aunque quisiéramos tener siempre una
-mentalidad de crecimiento, la realidad es que tenemos que trabajar día a día y
-en cada situación desafiante para mantenerla. Lo importante es poder reconocer y
-detectar cuándo estamos teniendo elementos de una mentalidad fija, para luego
-reflexionar y encontrar estrategias para cambiar.
+Você vai ver que a sua mentalidade pode mudar, porque embora nós sempre tenhamos
+uma mentalidade de crescimento, a realidade é que nós temos que trabalhar todos
+os dias em cada situação desafiadora para mantê-la assim. O importante é reconhecer
+e detectar quando estamos tendo uma mentalidade fixa, e em seguida, refletir e
+encontrar estratégias para a mudança. A figura a seguir resume algumas das
+diferenças entre as duas mentalidades, e vai ajudá-la a identificar como melhorar:
 
-La siguiente imagen resume algunas de las diferencias entre ambas mentalidades,
-y te ayudará a identificar cómo mejorar:
+![Image Growth MindsetGrowth mindset](https://user-images.githubusercontent.com/25912510/37315096-cd7b31a0-2625-11e8-9255-c5e7848076ef.png)
 
-![Image Growth Mindset](https://user-images.githubusercontent.com/25912510/35746484-ef89fb66-0814-11e8-9da8-0440d5b0375c.png)
+## Growth Mindset na Laboratória
 
-## Growth Mindset en Laboratoria
+Antes de passar para o próximo módulo, nós vamos lhe dar algumas dicas para o
+seu processo de aprendizagem:
 
-Antes de pasar a la siguiente lectura queremos darte algunos consejos para tu
-proceso de aprendizaje:
+1. A aprendizagem é melhor e dura mais tempo quando é preciso fazer mais esforço
+   As lições fáceis são lembradas hoje, mas não amanhã. Quando a aprendizagem
+   é mais difícil, é mais forte e permanece em sua memória por mais tempo.
+2. Tentar resolver um problema antes que te mostrem a resposta, permite que você
+   aprenda e compreenda a solução quando te ensinarem.
+3. Cometer erros e corrigí-los vai te permitir construir pontes para avançar no
+   processo de aprendizagem.
 
-1. El aprendizaje es mejor y perdura más cuando necesitas esforzarte más. Los
-   aprendizajes fáciles se recuerdan hoy, pero no mañana. Cuando el aprendizaje
-   es más difícil, es más fuerte y se queda en tu memoria más tiempo.
-2. Tratar de resolver un problema antes de que te muestren cómo hacerlo, te
-   permitirá luego aprender y entender mejor la solución que te enseñen.
-3. Cometer errores y corregirlos es lo que te permitirá construir los puentes
-   para avanzar en el proceso de aprendizaje.
+Com todo esse conhecimento que você adquiriu e sua nova mentalidade, oferecemos
+este desafio: aprender a programar para transformar o seu futuro.
 
-Con todos estos conocimientos que has adquirido y con tu nueva mentalidad, te
-proponemos aceptar este reto: Aprender a programar para transformar tu futuro.
+E para isso, você terá de propor o seguinte:
 
-Y para ello, tú tendrás que proponerte lo siguiente:
+> Eu, futura estudante da Laboratória, me comprometo a sempre lembrar que eu sou
+> capaz de desenvolver minha inteligência através da aprendizagem . Isso requer
+> esforço, ao mesmo tempo que que me permite alcançar uma maior realização. Eu
+> prometo sempre querer aprender mais, aceitando os desafios e sendo persistente
+> diante dos obstáculos, porque eu sei que com a prática posso superar. Eu sei
+> que os erros que cometo não significam um fracasso, e sim que são as
+> oportunidades que me permitem aprender mais. Estou ciente de que, por vezes,
+> terei dúvidas sobre minha  capacidade de aprender, eu sei que não será fácil,
+> mas eu sei que posso fazê-lo. Eu > prometo nunca mais dizer "eu não posso", e
+> sim mudar essa frase para "eu ainda não > posso", porque eu tenho uma
+> mentalidade de crescimento.
 
-> Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente
-> que soy capaz de desarrollar mi inteligencia a través de aprendizajes que
-> requerirán mi esfuerzo, pero que me permitirán alcanzar un mayor logro. Me
-> comprometo a siempre querer aprender más, para lo cual aceptaré los retos y me
-> mantendré persistente ante los obstáculos, pues sé que con práctica podré
-> superarlos. Sé que los retrocesos o los errores que cometa no significan una
-> falla, sino que son las oportunidades en las que más podré aprender. Soy
-> consciente de que por momentos tendré dudas sobre mi capacidad para aprender,
-> sé que no será fácil, pero sé que puedo hacerlo. Me comprometo a jamás volver
-> a decir “no puedo”, sino que cambiaré esta frase por “no puedo aún”, porque
-> tengo una mentalidad de crecimiento.
-
-**Sí, me propongo y me comprometo.**
+**Eu proponho e me comprometo.**

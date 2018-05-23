@@ -1,17 +1,17 @@
 module.exports = function coinConvert(usDollars) {
   var arr = [];
-  var peruvianSoles /* tu código aquí */;
-  var mexicanPesos /* tu código aquí */;
-  var chileanPesos /* tu código aquí */;
+  var reais /* Seu código aqui */;
+  var mexicanPesos /* Seu código aqui */;
+  var chileanPesos /* Seu código aqui */;
 
-  // Añade el monto equivalente en soles
-  arr.push(/* tu código aquí */);
+  // Adicione o valor equivalente em reais
+  arr.push(/* Seu código aqui */);
 
-  // Añade el monto equivalente en pesos mexicanos
-  arr.push(/* tu código aquí */);
+  // Adicione o valor equivalente em pesos mexicanos
+  arr.push(/* Seu código aqui */);
 
-  // Añade el monto equivalente en pesos chilenos
-  arr.push(/* tu código aquí */);
+  // Adicione o valor equivalente em pesos chilenos
+  arr.push(/* Seu código aqui */);
 
   return arr;
 };

@@ -1,4 +1,4 @@
-# Tu primer sitio web
+# Sua primeira página web
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -6,121 +6,118 @@
 
 ## Objetivos
 
-- Entender la función del HTML para crear la estructura básica de una página
-  web.
-- Conocer los principales elementos y etiquetas HTML.
-- Aprender a darle dinamismo a una web utilizando JavaScript.
-- Tener un primer acercamiento al mundo del código, creando tu primera página
-  web.
+- Entender o papel do HTML de criar a estrutura básica de uma página web.
+- Conhecer os principais elementos e etiquetas HTML.
+- Aprender a dar dinamismo a Web usando JavaScript.
+- Ter um primeiro contato com o mundo do código, criando sua primeira página na
+  Web.
 
 ***
 
-El texto a continuación es una traducción al español, con ciertos ajustes, del
-capítulo 5 de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+O texto a seguir é uma tradução para o português a partir da tradução com alguns
+ajustes, do capítulo 5 de [JavaScript for crianças](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015; y de [Eloquent JavaScript](http://eloquentjavascript.net/),
 de Marijn Haverbeke, 2014.
 
 ## HTML: HyperText Markup Language
 
-La consola de JavaScript que hemos utilizando hasta ahora es ideal para probar
-pequeños fragmentos de código. Sin embargo, para crear programas reales,
-necesitaremos algo más flexible, como una página web. En esta sección aprenderás
-cómo crear una página web HTML básica y darle interacción con JavaScript.
+O console de JavaScript que utilizamos até agora é ideal para testar pequenos
+trechos de código. No entanto, para criar programas reais, precisaremos de algo
+mais flexível, como uma página web. Nesta seção, você aprenderá como criar uma
+página web HTML básica e acrescentar interatividade com JavaScript.
 
-HTML (HyperText Markup Language) es el lenguaje utilizado para crear la
-estructura de una página web. Para crear una web, se empieza creando un
-documento en formato HTML. Esto es muy parecido a crear un documento con formato
-word, excel o powerpoint.
+HTML (HyperText Markup Language) é a linguagem usada para criar a estrutura de
+uma página web. Para criar um site, começa-se criando um documento em formato
+HTML. Isso é muito parecido com criar um documento no formato Word, Excel ou
+PowerPoint.
 
-Un documento HTML simple se ve así (no te asustes si no entiendes todo lo que
-dice, te lo explicaremos paso a paso más abajo):
+Um documento HTML simples se parece assim (não se assuste se não entender tudo o
+que diz, vamos explicar passo a passo mais abaixo):
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi primera web</title>
+    <title>Minha primeira página web</title>
   </head>
   <body>
-    <h1>¡Hola Mundo!</h1>
-    <p>Esta es mi primera web</p>
+    <h1>Olá Mundo!</h1>
+    <p>Esta é minha primeiro página web</p>
   </body>
 </html>
 ```
 
-Al abrir este mismo documento HTML en un navegador (como Chrome), se ve lo
-siguiente:
+Ao abrir este mesmo documento HTML em um navegador (como o Chrome), vemos o
+seguinte:
 
-![Vista en Chrome](https://user-images.githubusercontent.com/25912510/35747209-7899e2de-0817-11e8-9ae7-fcfe96122470.png)
+![Vista en Chrome](https://user-images.githubusercontent.com/25912510/37315484-fdd43c6e-2627-11e8-835d-1b7b71a7913b.png)
 
-El navegador "lee" el archivo HTML (el texto y las etiquetas que están adentro)
-y las presenta según las reglas del lenguaje. Por ejemplo, los textos que están
-dentro de las etiquetas `<h1> </h1>` son considerados encabezados o titulares,
-mientras que los textos dentro de las etiquetas `<p> </p>` son considerados
-párrafos. Por eso, el texto _¡Hola Mundo!_ se visualiza mucho más grande que el
-texto _Esta es mi primera web._
+O navegador “lê” o arquivo HTML (o texto e os marcadores) e o apresenta de acordo
+com as regras da linguagem. Por exemplo, o texto que está entre esses marcadores
+`<h1> </h1>` são considerados cabeçalhos, enquanto o texto entre os marcadores
+`<p> </p>` são considerados parágrafos. Por isso, o texto _¡Olá Mundo!_ aparece
+maior do que o texto _Esta é a minha primeira página._
 
-## Crea tu primera web
+## Criando a sua primeira página
 
-Como ya lo dijimos, _**la mejor manera de aprender es haciendo**_. Por eso, es
-hora de que tú misma crees una web y aprendas HTML.
+Como já dissemos, _**a melhor maneira de aprender é botando a mão na massa**_.
+Por isso, chegou o momento de criar uma página e aprender HTML por conta própria.
 
-Michelle te explica por qué necesitarás un editor de texto para los ejercicios:
+A Thaissa  explicará o porquê da necessidade de um editor de texto apropriado
+para resolver os exercícios:
 
-[![Editor de texto intro](https://img.youtube.com/vi/wQKn1fh3pAM/0.jpg)](https://www.youtube.com/watch?v=wQKn1fh3pAM)
+[![Editor de texto intro](https://embed-ssl.wistia.com/deliveries/8cff57d37f73a74a557d246050d583027af215ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/37gb5iondx?wvideo=37gb5iondx)
 
-En el siguiente video, Michelle te guiará a través de los siguientes pasos para
-que crees tu primera web:
+No próximo vídeo a Thaissa te guiará pelos seguintes passos para que você crie
+a sua primeira página:
 
-1. Descarga Atom, un editor de texto: [Descargar](https://atom.io/). Si tienes
-   problemas descargando Atom, puedes descargar otro editor de texto llamado
-   Sublime Text, hay versión para Mac y Windows. Ten en cuenta que las
-   explicaciones que te dará Michelle, estarán en Atom pero tú podrás hacer lo
-   mismo en Sublime Text. [Descarga Sublime aquí](https://www.sublimetext.com/3)
-2. Crea un documento HTML llamado `index.html`
-3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un
-   párrafo)
-4. Guarda el documento HTML
-5. Abre el documento HTML en un navegador como Chrome
+1. Baixe o editor de texto: [Descargar](https://atom.io/). Se houver algum
+   problema e não conseguir baixá-lo, tente outro editor de texto, o Sublime
+   Text. Há versões deste para Mac e Windows. TEmbora a Thaissa se baseie no
+   Atom para dar suas explicações, esteja ciente de que o mesmo pode ser feito
+   através do Sublime Text. [Descarga Sublime](https://www.sublimetext.com/3)
+2. Crie um documento HTML chamado `index.html`
+3. Utilize alguns elementos HTML no documento (como um cabeçalho e um parágrafo)
+4. Salve o documento HTML
+5. Abra o documento HTML em um navegador como o Chrome
 
-Aquí el video:
+Video:
 
-[![Mi primera Web HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/5965a3abc9c483a990a081c16a199ce6ea2d70ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/u3xr67d4he?wvideo=u3xr67d4he)
 
-## Etiquetas y elementos HTML
+## Marcadores e elementos HTML
 
-Los documentos HTML se componen de `elementos`. Salvo algunas excepciones (por
-ejemplo `<!DOCTYPE html>`), los elementos comienzan con una `etiqueta de inicio`
-y terminan con una `etiqueta de fin`. Por ejemplo, en nuestro documento tenemos
-el elemento `p`, que comienza con la etiqueta de inicio `<p>` y termina con la
-etiqueta de finalización `</p>`. El texto que se encuentra entre las etiquetas
-de apertura y de cierre es el _contenido_ del elemento.
+Os documentos HTML são compostos de `elementos`. Exceto em alguns casos (por
+exemplo `<!DOCTYPE html>`), os elementos começam com um `marcador inicial`e
+terminam com um `marcador final`. Por exemplo, no arquivo anterior temos o
+elemento `p`, que começa com o marcador inicial `<p>` e termina com o marcador
+final `</p>`. O texto entre tais marcadores é o _conteúdo_ do elemento `p`.
 
 > El elemento `p` (párrafo) como ejemplo:
-![Ejemplo etiqueta](https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png)
+![Ejemplo etiqueta](https://user-images.githubusercontent.com/25912510/37315511-1c0f070e-2628-11e8-8935-928fb17d6747.png)
 
-Hagamos un recorrido por todos los elementos de nuestro documento:
+Façamos uma breve análise de todos os elementos do nosso documento:
 
-1. El documento empieza con la etiqueta `<!DOCTYPE html>` (que como vimos, no
-   tiene inicio o cierre). Su función es hacerle saber al navegador que
-   interprete el documento como HTML _moderno_, en contraposición a varios
-   dialectos que estaban en uso en el pasado.
-2. Luego viene la etiqueta de apertura `<html>` (la etiqueta de cierre
-   `</ html>` está al final). Por estándar, todos los documentos HTML deben
-   tener un elemento `html` que "englobe" todo lo demás.
-3. Dentro del elemento `html` hay dos elementos: el `head` (cabeza en Español) y
-   el `body` (cuerpo en Español). El `head` contiene información _sobre_ el
-   documento, y el `body` contiene el documento en sí.
-4. Dentro del elemento `head` está el elemento `title` (con su etiqueta de
-   inicio y de cierre), que contiene el título del documento. Es por eso que al
-   visualizar el archivo en el navegador, el título en la pestaña del navegador
-   dice: "Mi primera web". Es importante que notemos que el elemento `title`
-   está _contenido_ dentro del elemento `head`; el cual, a su vez, está
-   _contenido_ dentro del elemento `html`.
-5. Finalmente, tenemos el elemento `body` (entre su etiqueta de inicio y de
-   cierre) que _contiene_ el contenido que se mostrará en el navegador. En este
-   caso, dentro del body tenemos dos elementos adicionales: el `h1` (encabezado)
-   y el `p` (párrafo).
+1. O documento começa com o marcador `<!DOCTYPE html>` (que, como vimos, não
+   possui início nem fim). Sua função é indicar ao navegador que ele deve
+   interpretar o nosso documento HTML segundo os padrões mais atuais da
+   linguagem, distinguindo-o de arquivos que eram escritos antigamente com
+   dialetos menos modernos.
+2. Logo aparece o marcador inicial `<html>` (o marcador final `</ html>` fica ao
+   final do documento). Por padrão, todos os documentos HTML devem conter um
+   elemento `html` que “engloba” todos os outros elementos.
+3. Dentro do elemento `html` há dois elementos: o `head` (cabeça, em português),
+   que contém informações sobre o documento, e o `body` (corpo, em português),
+   que contém o documento em si.
+4. Dentro do elemento `head` há o elemento `title` (com seu marcador inicial e
+   final), que contém o título do documento. É por isso que, quando abrimos
+   nosso arquivo HTML pelo navegador, podemos ver o texto “Minha primeira
+   página” na aba da página. É importante notar que o elemento `title`está
+   _inserido_ dentro do elemento `head`; que por sua vez está _inserido_ dentro
+   do elemento `html`.
+5. Finalmente, temos o elemento `body` (com seu marcador inicial e final) que
+   _engloba_ o conteúdo que irá aparecer no navegador. Neste caso, dentro de
+   `body` há dois elementos adicionais: o `h1` (cabeçalho) e o `p` (parágrafo).
 
 <!--
 Una manera de visualizar este concepto de "encapsulado" donde unos elementos
@@ -129,83 +126,84 @@ Una manera de visualizar este concepto de "encapsulado" donde unos elementos
 ![HTML Jerarquía](http://apprize.info/javascript/kids/kids.files/image057.jpg)
 -->
 
-Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento. Por
-el momento, es hora de regresar a JavaScript.
+Existem muitos outros elementos e marcadores HTML, que devem ser aprendidos no
+momento adequado. Por agora, é hora de voltar ao JavaScript.
 
 <!-- ## HTML + CSS
 Agrega estilos con CSS
 -->
 
-## HTML y JavaScript
+## HTML e JavaScript
 
-Es importante que entiendas que HTML _**no**_ es un `lenguaje de programación`;
-es un `lenguaje de marcado de texto`. Como hemos visto, con HTML le damos una
-estructura a nuestra página. Sin embargo, si queremos darle _comportamiento_ o
-_interacción_ a nuestra web, necesitamos usar un `lenguaje de programación`. Y
-el **único lenguaje de programación para correr en los navegadores web es
-JavaScript**. Con JavaScript logramos que las páginas web puedan responder a las
-acciones de usuario, volviéndolas interactivas.
+É importante que você entenda que HTML _**não é**_ uma `linguagem de
+programação`; é uma `linguagem de marcação`. Como vimos, o HTML nos ajuda a dar
+a estrutura da nossa página. Entretanto, se quisermos atribuir _comportamento_
+ou _interação_ à nossa página, precisaremos utilizar uma `linguagem de
+programação`. E a **linguagem de programação que pode ser entendida pelos
+navegadores é o JavaScript**. Com o JavaScript conseguimos fazer com que as
+páginas possam responder às ações do usuário, tornando-as interativas.
 
-Para incluir JavaScript en un documento HTML puedes utilizar el elemento
-`script` y colocar tu código JavaScript entre sus etiquetas de inicio
-(`<script type="text/javascript">`) y cierre (`</script>`), tal como lo muestra
-el siguiente ejemplo:
+Para incluir um código JavaScript em um documento HTML você pode utilizar o
+elemento `script` e colocar o seu código entre os marcadores inicial (`<script
+type="text/javascript">`) e final (`</script>`), tal como mostra o seguinte
+exemplo:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi primera web</title>
+    <title>Minha primeira página</title>
   </head>
   <body>
-    <h1>¡Hola Mundo!</h1>
-    <p>Esta es mi primera web</p>
+    <h1>Olá mundo!</h1>
+    <p>Esta é minha primeira página</p>
 
     <script type="text/javascript">
-      alert('¡Hola Mundo!');
+      alert('Olá mundo!');
     </script>
 
   </body>
 </html>
 ```
 
-Muchas veces tu código JavaScript es tan extenso que no quieres que esté ubicado
-en el mismo documento HTML. Para eso, la solución es crear un nuevo documento,
-esta vez de formato JavaScript - utilizando la extensión `.js` - y "linkear"
-ambos documentos a través del mismo elemento `script`, de la siguiente manera:
+Muitas vezes o código JavaScript pode acabar sendo muito extenso, de forma que
+você não queira que este esteja inserido dentro do seu documento HTML. Assim, a
+solução é criar um novo documento, desta vez com o formato JavaScript - utilizando
+a extensão `.js` - e fazer a referência deste novo arquivo `.js` no documento
+HTML, da seguinte maneira:
 
 ```html
-<script src="nombre-del-documento.js"></script>
+<script src="nome-do-documento.js"></script>
 ```
 
-El mismo elemento `script` tiene un "atributo" llamado `src` (de source, que
-significa fuente en inglés), al cual se le puede asignar la ruta de tu
-documento JavaScript.
+O elemento `script` tem um “atributo” chamado `src` (source. Em português, fonte),
+pelo qual se faz a referência de onde se encontra o seu documento JavaScript.
 
-## Añádele interacción a tu web
+## Adicionando interação à página
 
-¡Ahora te toca a tí! Continúa con Michelle siguiendo los pasos para agregarle
-interacción a tu página web:
+Agora é a sua vez! Continue seguindo os passos da Thaissa para incorporar os
+traços de interação à sua página:
 
-Los pasos a seguir son:
+Os passos a seguir são:
 
-1. Agrega el elemento `script` al final del `body` de tu documento HTML
-2. Dentro del mismo HTML, entre las etiquetas de inicio y cierre del elemento
-   `script`, escribe una línea de código JavaScript (por ejemplo, algo con
-   `alert()`, `document.write()` o `prompt()`)
-3. Guarda tu documento HTML
-4. Refresca la página de tu navegador donde estás viendo tu documento HTML
-5. Ahora crea un nuevo documento llamado `app.js` en la misma carpeta donde está
-   tu HTML
-6. Añádele el atributo `src` al elemento `script` con la ruta de tu archivo
-   `app.js`
-7. Pasa todo el código JavaScript del documento HTML al documento JS
-8. Refresca la página del navegador y confirma que todo funciona exactamente
-   igual que antes
+1. Adicione o elemento `script` no final do elemento `body` (corpo) do documento
+   HTML.
+2. Dentro do mesmo arquivo HTML, entre os marcadores inicial e final do elemento
+   `script`, escreva uma linha de código de JavaScript (por exemplo, algo com
+   `alert()`, `document.write()` ou `prompt()`)
+3. Salve seu documento HTML.
+4. Atualize a página do navegador por onde está vendo o seu documento HTML.
+5. Crie um novo documento chamado `app.js` na mesma pasta onde está seu documento
+   HTML.
+6. Adicione nele o atributo `src` ao elemento `script` com a referência de seu
+   arquivo `app.js`
+7. Passe todo o código JavaScript do documento HTML ao documento JS.
+8. Atualize a página do navegador e certifique-se de que o funcionamento da
+   página é igual a como era antes.
 
-Aquí el video de Michelle:
+Video do Thaissa:
 
-[![Mi primera Web HTML con JS](https://img.youtube.com/vi/SSiWsDoK4GE/0.jpg)](https://www.youtube.com/watch?v=SSiWsDoK4GE)
+[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/b01097fed7f8868ca3f815a940ab9761551e3d78.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/c7dis0vp80?wvideo=c7dis0vp80)
 
 <!--
 ## Sube tu página a GitHub Pages

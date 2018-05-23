@@ -1,12 +1,13 @@
 module.exports = function restaurantBill(bill) {
-  // 1. Crea una variable llamada tax y asígnale el resultado de multiplicar
-  // bill por 10%.
-  var tax /* tu código aquí */;
+  // 1. Crie uma variável chamada tax (imposto em inglês) e atribua-lhe o resultado
+  //   de multiplique a conta em 10%.
+  var tax /* Seu código aqui */;
 
-  // 2. Crea una variable llamada total y asígnale el resultado de sumar bill
-  // más tax
-  var total /* tu código aquí */;
+  // 2. Crie uma variável chamada total e atribua-lhe o resultado da adição de conta
+  //    mais impostos
+  var total /* Seu código aqui */;
 
-  // 3. Retorna el monto que cada una debe pagar, con el símbolo $ adelante
-  return /* tu código aquí */;
+  // 3. Retorne o valor que cada um deve pagar (total dividido por 5), com o
+  //    símbolo $ antes (por exemplo: $ 11).
+  return /* Seu código aqui */;
 };

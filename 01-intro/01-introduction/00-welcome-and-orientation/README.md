@@ -1,4 +1,4 @@
-# Bienvenida y orientación
+# Orientação e boas-vindas
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,184 +6,131 @@
 
 ***
 
-Hola y bienvenida a la tercera etapa del proceso de selección: el pre-trabajo.
-Debes sentirte muy orgullosa de estar dispuesta a invertir tu tiempo y esfuerzo
-para completar una de las etapas más importantes del proceso. Esta etapa
-consiste en realizar el curso **01. Introducción a la programación (con
-JavaScript)** de Laboratoria, que es el punto de inicio ideal para aprender a
-programar. Aquí empezamos desde cero, enseñándote los fundamentos de JavaScript,
-el lenguaje de programación más popular de la Web.
+Olá e bem-vinda à terceira fase do processo de seleção: o pré-trabalho. Você
+deve sentir-se muito orgulhosa de estar disposta a investir seu tempo e esforço
+para completar uma das etapas mais importantes do processo. Esta etapa consiste
+em fazer o curso **01. Introdução à Programação (JavaScript)** da Laboratória,
+que é o ponto de partida ideal para aprender a programar. Aqui começamos do zero,
+ensinando os fundamentos do JavaScript, que é a linguagem de programação mais
+popular para a Web.
 
-Este curso es un paso fundamental del proceso de selección, pues nos permitirá
-comprobar tu interés por la tecnología, así como tu compromiso para pertenecer
-al programa. Además, analizaremos tu capacidad para aprender de manera
-individual e independiente.
+Este curso é um passo fundamental do processo de seleção porque vai permitir-nos
+verificar seu interesse em tecnologia, bem como o seu compromisso com o programa.
+Além disso, analisaremos a sua capacidade de aprender sozinha e de
+forma independente.
 
-La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu
-propio ritmo, pero te recomendamos organizarte con tiempo para que vayas
-haciéndolo poco a poco. El equipo de Laboratoria estará recordándoles
-constantemente las fechas de cierre para el pretrabajo, no olvides anotarla y
-tenerla presente.
+A duração aproximada do curso é de 15-20 horas. Você pode avançar conforme o seu
+ritmo, mas recomendamos que organize o seu tempo para ir fazendo gradualmente.
+Você tem até dia xxx para terminar.
 
-Para pasar a la siguiente etapa del proceso de selección es necesario que
-completes todo el pre-trabajo. Las postulantes que demuestren el mayor
-compromiso y potencial para aprender, serán invitadas a iniciar el periodo de
-pre-admisión, donde continuaremos con este curso de modo presencial. Será una
-buena oportunidad para demostrar todo lo que ya dominan y saben hacer.
+Nele pedimos que veja vídeos e faça leituras básicas sobre os temas que vai
+estudar durante o bootcamp. Estas informações vão te ajudar fazer alguns
+exercícios básicos de programação e responder a alguns testes rápidos (quiz).
+Mas não se preocupe. Você não precisa saber nada de programação para responder.
+Toda a informação que você precisa para fazer os exercícios estarão à sua
+disposição. O importante é que leia e releia todos os materiais com atenção.
 
-## Acompañamiento y puntos de apoyo
+Para passar para a próxima etapa do processo de seleção é preciso completar todo
+o pré-trabalho. As candidatas que demonstrarem maior empenho e potencial para
+aprender, serão convidadas a iniciar o período de pré-admissão, onde
+continuaremos com este curso de forma presencial. Será uma boa oportunidade para
+mostrar o que você já domina e sabe fazer.
 
-Recuerda que no estás sola en este proceso. Nosotros te estaremos acompañando a
-cada paso a través de varios canales de apoyo a lo largo del curso:
+## Acompanhamento e pontos de apoio
 
-<!--
-## Descargar y cuentas
+Lembre-se que você não está sozinha neste processo. Vamos acompanhá-la em cada
+etapa através do apoio de vários canais ao longo do curso.
 
-Para completar este curso, necesitarás descargar y crear cuentas de algunos
-servicios web. Antes de empezar, es necesario que:
+### 1. Grupo Facebook
 
-1. Tengas una cuenta de Google (Gmail). Si no tienes, puedes crea una aquí:
-   https://accounts.google.com/SignUp?hl=es
-2. Tengas el navegador web Google Chrome. Si no lo tienes, puedes descargarlo
-   aquí: https://www.google.com/chrome/browser/desktop/index.html
-3. Crea una cuenta en Replit (un salón de clases virtual para aprender código):
-   https://repl.it/signup
-4. Crea una cuenta en GitHub (una plataforma de trabajo colaborativo para
-   programadores): https://github.com/join
-5. Descarga Atom (un editor de texto): https://atom.io/
+Junte-se ao grupo de Facebook correspondente ao lugar para o qual você está se
+candidatando. Lá você pode fazer e responder perguntas em conjunto com outras
+candidatas, com a ajuda da equipe de professores Laboratória.
 
-Video de Michelle explicando las descargas:
+* [Sao Paulo](https://www.facebook.com/groups/laboratoriaSP2018turma1/)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)]
-(https://www.youtube.com/watch?v=TePHiOKb72k)
--->
+### 2. Mail
 
-### 1. Grupo de Facebook
+Se não conseguir responder às suas perguntas via Facebook ou no horário de aula,
+você também tem a opção de escrever diretamente para nossa equipe de professores
+para abordar questões específicas. Tente usar esta opção como último recurso,
+porque quanto mais e-mails recebem, mais demoram a responder.
 
-Únete al grupo de Facebook correspondiente a la sede a la que estás postulando.
-Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con
-el apoyo del staff de profesores de Laboratoria.
+Contatos para cada local são:
 
-* [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
-* [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
-* [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
-* [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
-
-<!--
-### 2. Horas de consulta
-
-Cada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y
-recibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te
-preocupes, vamos a transmitir estas sesiones por Facebook Live para que puedas
-verlas en línea. Luego también subiremos los videos a los grupos para que puedas
-volver a verlos cuantas veces necesites.
-
-Las horas de consulta por sede son las siguientes:
-
-* Lima:
-  - Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.
-  - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.
-* México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:
-  - Lunes 24 de julio de 5pm a 7pm.
-  - Miércoles 26 de julio de 5pm a 7pm.
-* Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:
-  - Jueves 20 de julio de 4pm a 6pm.
-  - Jueves 27 de julio de 4pm a 6pm.
-  - Martes 1 de agosto de 4pm a 6pm.
-* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol,
-  Guadalajara, Jal.
--->
-
-### 2. Correo
-
-Si no has podido resolver tus dudas y necesitas  recibir la ayuda de nuestro
-equipo de formación, también tendrás la opción de escribirle al equipo de
-selección y entrenamiento del bootcamp, a través de los datos de contacto
-señalados por sede.
-
-Trata de utilizar esta opción como último recurso ya que mientras más correos
-recibamos, más nos tardaremos en responderlos.
-
-Los contactos para cada sede, son los siguientes:
-
-* Lima:
-  - Alejandra Ramírez: alejandra@laboratoria.la
-* Ciudad de México:
-  - Lucile Baratier: lucile@laboratoria.la
-* Santiago de Chile:
-  - Valentina Smith: valentina@laboratoria.la
-* Guadalajara:
-  - Karla Rejas: karla@laboratoria.la
+* infosp@gmail.com
+* Whatsapp: 11 94067 3333
 
 ## Sobre este curso
 
-### Objetivo del curso
+### Objetivo do curso
 
-Este curso está dirigido a personas sin conocimientos previos de programación
-que tienen el interés de aventurarse al mundo del código. Será tu primer paso en
-la ruta de aprendizaje.
+Este curso é destinado a pessoas sem conhecimento prévio de programação que têm
+interesse em se aventurar no mundo da programação. Ele será o seu primeiro passo
+no caminho de aprendizagem.
+O objetivo deste curso é lhe dar uma idéia do que se trata o mundo do
+desenvolvimento de software, para que possa determinar se é algo que você ama
+exercer como profissão. Depois de completar este curso você vai saber se a
+programação é algo que você gosta e terá uma boa base para o desenvolvimento de
+sua carreira no mundo da tecnologia.
 
-El propósito de este curso es darte una idea de qué se trata el mundo del
-desarrollo de software, para que puedas determinar si es algo que te apasiona
-perseguir como profesión. Al terminar este curso sabrás si el código es lo tuyo
-y habrás sentado unas buenas bases para el desarrollo de tu carrera profesional
-en el mundo tech.
+### O que você irá aprender
 
-### Aprenderás
+* Entenderá o que é a programação e por que aprender a programar.
+* Entenderá o que é JavaScript e por que aprender essa linguagem.
+* Terá uma primeira abordagem no mundo do código, criando seu primeiro site.
+* Aprenderá a dar dinamismo ao seu site usando JavaScript.
+* Aprenderá alguns conceitos básicos de programação, tais como variáveis, tipos
+  de dados e operadores.
 
-* Entender **qué es la programación** y por qué aprender a programar.
-* Entender **qué es JavaScript** y por qué aprenderlo.
-* Tener un primer acercamiento al mundo del código, creando **tu primera página
-  web**.
-* A darle dinamismo a tu web utilizando JavaScript.
-* Algunos **conceptos básicos de programación** como: variables, tipos datos y
-  operadores.
+### Duração total
 
-### Requerimientos previos
+* 15-20 horas.
+* Modalidade: Self-paced (no seu próprio ritmo - online).
 
-Ningún conocimiento previo de programación es necesario para completar este
-curso. Está diseñado para principiantes.
+### Pré-requisitos
 
-<!--
-## Syllabus
+Nenhum conhecimento prévio de programação é necessário para concluir este curso.
+Ele foi desenhado para iniciantes.
 
-Este pre-work consta de 2 módulos principales:
+<!-- ## Syllabus
 
-### Módulo 1: Introducción
+Este pré-trabalho tem 2 unidades principais:
 
-Queremos motivarte a aprender a programar, y por ello te brindaremos más
-información sobre cómo, a través del código, podrás transformar tu futuro.
-Además, te daremos algunos consejos para aprender a aprender. Después de eso,
-¡te enseñaremos a crear tu primera página web!
+### Módulo 1: Introdução
 
-* Sesión 1: lectura
-  - Unidad 1: Bienvenida y orientación
-* Sesión 2: lectura
+Queremos que você aprenda a programar, e para isso, iremos te passar mais
+informações sobre como, através da programação, pode transformar o seu futuro.
+Além disso,  nós vamos dar algumas dicas para aprender a aprender. Depois disso,
+vamos mostrar-lhe como criar o seu primeiro site!
+
+* Sessão 1: Leitura
+  - Unidad 1: Boas-vindas e orientação
+* Sesión 2: Leitura
   - Unidad 1: Growth Mindset
-* Sesión 3: lectura
-  - Unidad 1: ¿Qué es la programación y porqué aprender a programar?
-* Sesión 4: lectura
-  - Unidad 1: Tu primer sitio web
-* Sesión 5: quiz
-  - Unidad 1: Prueba tu conocimiento
+* Sesión 3: Leitura
+  - Unidad 1: O que é programação e por quê aprender a programar?
+* Sesión 4: Leitura
+  - Unidad 1: Seu primeiro site
+* Sesión 5: Teste
+  - Unidad 1: Teste o seu conhecimento
 
-### Módulo 2: Variables y tipos de datos
+### Módulo 2: Variáveis e Tipos de Dados
 
-El segundo módulo entrará a más detalle en algunos conceptos base de la
-programación, como lo son las variables, los tipos de datos y los operadores.
+O segundo módulo vai detalhar melhor alguns conceitos básicos de programação,
+como são as variáveis, os tipos de dados e os operadores.
 
-* Sesión 1: lectura
-  - Unidad 2: Valores, tipos de datos y operadores
-* Sesión 2: lectura
-  - Unidad 2: Variables
-* Sesión 3: lectura
-  - Unidad 2: Manipulando `strings` y `numbers`
-* Sesión 4: lectura
-  - Unidad 2: Comentarios en JavaScript
-* Sesión 5: seminario
-  - Unidad 2: Practicando con ejercicios de variables y tipos de datos
-* Sesión 6: quiz
-  - Unidad 2: Prueba tu conocimiento
-* Sesión 7: practice
-  - Unidad 2: Ejercicios
--->
+* Sessão 1: Leitura
+  - Unidad 2: Valores, tipos de dados e operadores
+* Sesión 2: Leitura
+  - Unidad 2: Variáveis
+* Sesión 3: Leitura
+  - Unidad 2: Manipulando strings e numbers
+* Sesión 4: Leitura
+  - Unidad 2: Comentários em JavaScript
+* Sesión 5: Seminário
+  - Unidad 2: Praticando com exercícios de variáveis e tipos de dados
+* Sesión 6: Teste
+  - Unidad 2: Teste o seu conhecimento
+* Sesión 7: Praticar
+  - Unidad 2: Exercícios -->
