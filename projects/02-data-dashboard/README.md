@@ -152,12 +152,24 @@ contraste, alineación, jerarquía, entre otros.
 
 ## Implementación
 
-El corazón de este proyecto es la manipulación de datos a través de arreglos y
-objetos. El _boilerplate_ incluye tests que esperan que implementes las
-siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
-script `src/data.js`:
+### data.js
 
-### `computeUsersStats(users, progress, courses)`
+El corazón de este proyecto es la manipulación de datos a través de arreglos y
+objetos. La idea de este archivo es contener toda la funcionalidad 
+que corresponda a obtener, procesar y manipular datos.
+
+Parte de un buen proyecto es que esté ordenado y que otras programadoras puedan
+acceder a el código rápidamente. Es por esto que este orden no es casualidad y
+es una convención que generalmente encontrarás en internet bajo el nombre MVC o
+Modelo Vista Controlador. En este proyecto Controlador y Modelo estarán bajo 
+el archivo **data.js**.
+
+El _boilerplate_ incluye tests que esperan que implementes las
+siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
+script `src/data.js`, ten en cuenta que esto es solo lo básico, si necesitas más
+funciones puedes hacerlo : 
+
+#### `computeUsersStats(users, progress, courses)`
 
 Esta función es la responsable de "crear" la lista de usuarios (estudiantes)
 que vamos a "pintar" en la pantalla. La idea es "recorrer" el arreglo de
@@ -166,7 +178,7 @@ uno. La función debe devolver un nuevo arreglo de usuarios donde a cada objeto
 de usuario se le debe agregar una _propiedad_ con el nombre `stats` con las
 estadísticas calculadas.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos obtenido de la data en bruto.
 * `progress`: Objeto de progreso en bruto. Contiene una llave para cada usuario
@@ -175,7 +187,7 @@ estadísticas calculadas.
   cuestión. Esta data se puede extraer de la propiedad `coursesIndex` de los
   objetos que representan los _cohorts_.
 
-#### Valor de retorno
+##### Valor de retorno
 
 Un arreglo de objetos _usuario_ con la propiedad `stats`, la cual debe ser un
 objeto con las siguientes propiedades:
@@ -199,12 +211,12 @@ objeto con las siguientes propiedades:
     completados.
   - `scoreAvg`: Promedio de puntuaciones en quizzes completados.
 
-### `sortUsers(users, orderBy, orderDirection)`
+#### `sortUsers(users, orderBy, orderDirection)`
 
 La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada con
 `computeUsersStats()` en base a `orderBy` y `orderDirection`.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `orderBy`: String que indica el criterio de ordenado. Debe permitir ordenar
@@ -214,31 +226,31 @@ La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada co
 * `orderDirection`: La dirección en la que queremos ordenar. Posibles valores:
   `ASC` y `DESC` (ascendiente y descendiente).
 
-#### Valor de retorno
+##### Valor de retorno
 
 Arreglo de usuarios ordenado.
 
-### `filterUsers(users, search)`
+#### `filterUsers(users, search)`
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `search`: String de búsqueda.
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios incluyendo solo aquellos que complan la condición de
 filtrado, es decir, aquellos que contengan el string _search_ en el nombre
 (`name`) del usuario.
 
-### `processCohortData(options)`
+#### `processCohortData(options)`
 
 Esta función es la que deberíamos estar al seleccionar un cohort y cada vez que
 el usuario cambia los criterios de ordenado y filtrado en la interfaz. Esta
 función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
 `filterUsers()`.
 
-#### Argumentos
+##### Argumentos
 
 * `options`: An object with the following keys:
   - `cohort`: Objeto cohort (de la lista de cohorts)
@@ -250,15 +262,66 @@ función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
   - `orderDirection`: String con dirección de ordenado (ver `computeUsersStats`).
   - `search`: String de búsqueda (ver `filterUsers`)
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios _ordenado_ y _filtrado_ con la propiedad `stats`
 añadida (ver `computeUsersStats`).
 
+### main.js
+
+Ten en cuenta también que existe otro archivo _main.js_ que no está solo por
+casualidad en la estructura del proyecto. En general es una buena idea ir
+separando la funcionalidad en varios archivos, ya que a medida que un proyecto 
+crece, se vuelve insostenible dejar todo en un solo archivo. En este caso puedes
+usar _main.js_ para todo tu código que tenga que ver con mostrar los datos en la
+pantalla, y _data.js_ para todas las funciones que vimos que obtienen y
+manipulan los datos.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+### index.html
+
+Al igual que en el proyecto anterior, también existe un archivo `index.html`. 
+Como ya sabrás, acá va la página que se mostrará al usuario de este tablero de
+información. También nos sirve para indicar qué scripts se usarán y unir todo lo
+que hemos hecho. 
+
+### Data
+En esta carpeta están los datos de prueba en caso de que no quieras hacer la
+versión _hacker_ de este proyecto. Para poder usar cada uno de los archivos JSON
+que están acá, puedes usar el mismo método que usarías si es que estuvieses
+haciendo una llamada HTTP o a una API, pero usando una dirección **relativa**,
+ejemplo :
+
+```
+"../data/cohorts.json"
+```
+
 ### Tests
 
 Tendrás también que completar las pruebas unitarias de estas funciones que se
-incluyen en el _boilerplate_.
+incluyen en el _boilerplate_, que encontrarás en el archivo `data.spec.js`. 
+Si te fijas bien en la carpeta también encontrarás otros archivos, que 
+detallaremos a continuación :
+
+#### index.html
+
+No confundas este archivo con tu `index.html` del proyecto, este archivo es 
+especial para los test y es una manera de ver el resultado de tus pruebas 
+unitarias, pero en el navegador. Para arrancar las pruebas de esta forma, 
+escribe en tu consola : 
+
+```
+npm run test-browser
+```
+
+Una página se abrirá en tu navegador conteniendo los resultados de las pruebas.
+
+#### fixtures.js
+
+Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es 
+donde está el set de datos de prueba que se usarán para correr las pruebas.
 
 ### Habilidades blandas
 
