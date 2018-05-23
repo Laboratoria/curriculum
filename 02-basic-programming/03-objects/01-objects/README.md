@@ -207,5 +207,5 @@ console.log(student);
 
 A seguir, Michelle explica os principais conceitos de `object`com um exemplo:
 
-![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://camo.githubusercontent.com/55fe4dee04b2f082b86119e32255bdbe82db2054/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4a36553067447a577355672f302e6a7067)
+[![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 

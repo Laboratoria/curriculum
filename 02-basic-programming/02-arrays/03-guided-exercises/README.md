@@ -33,9 +33,9 @@ A seguir, Lourdes lhe explicará como ela resolveu cada um dos exercícios anter
 
 ### 1. Reverse
 
-![Solu&#xE7;&#xE3;o para Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)
+[![Solu&#xE7;&#xE3;o para Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
 
 ### 2. Search
 
-![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)
+[![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
 
