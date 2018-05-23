@@ -4,6 +4,8 @@
 - Formato: `individual`
 - Duração: `90min`
 
+***
+
 ## Objetivos
 
 - Entender o que é o controle de fluxo de um programa
