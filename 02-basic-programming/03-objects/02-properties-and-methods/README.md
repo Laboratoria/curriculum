@@ -179,7 +179,7 @@ console.log(questions);
 console.table(questions);
 ```
 
-![exemplo da impress&#xE3;o de arranjo](https://camo.githubusercontent.com/65520d20810d1fc47baa090fac7dab29cf1c639d/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f32323632323934323232353831353233306332383661303461363065363635366f2e706e67)
+![exemplo da impress&#xE3;o de arranjo](<https://fotos.subefotos.com/22622942225815230c286a04a60e6656o.png>)
 
 ```javascript
 var weblogs = [
@@ -194,5 +194,5 @@ console.log(weblogs);
 console.table(weblogs);
 ```
 
-![exemplo de impress&#xE3;o de objeto](https://camo.githubusercontent.com/84566e256811c2e664f0bbc508cdb699e07644f8/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f64653739363039386336663138636163623239616535383236393231396634666f2e706e67)
+![exemplo de impress&#xE3;o de objeto](<https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png>)
 
