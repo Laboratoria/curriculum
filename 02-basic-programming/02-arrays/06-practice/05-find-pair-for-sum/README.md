@@ -1,6 +1,4 @@
-# 05 - Find Pair For Sum
-
-## findPairForSum
+# findPairForSum
 
 Dada uma lista de inteiros não negativos e o resultado desejado de uma soma,  encontre dois números na lista cuja soma seja o resultado desejado.
 

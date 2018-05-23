@@ -20,5 +20,3 @@ console.log(person1.manager);
 // --> { name: 'Mr. Burns', role: 'supervisor' }
 ```
 
-
-

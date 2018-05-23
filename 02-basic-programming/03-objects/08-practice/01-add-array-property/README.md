@@ -1,6 +1,4 @@
-# 01 - Add Array Property
-
-## addArrayProperty
+# addArrayProperty
 
 Escreva uma função chamada "addArrayProperty\(obj, key, array\)".
 
@@ -16,4 +14,3 @@ var myArray = [1 ,3 ];
 addArrayProperty(myObj, myStr, myArray);
 console.log(myObj.myProperty); // -> [1, 3]
 ```
-

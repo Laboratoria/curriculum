@@ -1,6 +1,4 @@
-# 04 - Quiz
-
-## Quiz 1
+# Quiz 1
 
 * Tipo: `quiz`
 * Formato: `individual`
@@ -8,13 +6,13 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
 
-### Perguntas
+## Perguntas
 
-#### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
+### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
 
 **Opções**
 
@@ -23,7 +21,7 @@
 
 2
 
-#### 2\) Para que os Arrays são úteis?
+### 2\) Para que os Arrays são úteis?
 
 **Opções**
 
@@ -34,7 +32,7 @@
 
 4
 
-#### 3\) No código a seguir
+### 3\) No código a seguir
 
 ```javascript
 var listOfNumbers = [2, 3, 4, 5, 6];
@@ -52,7 +50,7 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 
 4
 
-#### 4\) No código a seguir,
+### 4\) No código a seguir,
 
 ```text
 var listOfNumbers = [2, 3, 4, 5, 6];
@@ -70,7 +68,7 @@ se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 
 4
 
-#### 5\) No código a seguir,
+### 5\) No código a seguir,
 
 ```text
 var questions = [
@@ -92,7 +90,7 @@ como obtenho o elemento `Lima`?
 
 1
 
-#### 6\) Os elementos de um Array são armazenados em propriedades.
+### 6\) Os elementos de um Array são armazenados em propriedades.
 
 **Opções**
 
@@ -101,7 +99,7 @@ como obtenho o elemento `Lima`?
 
 1
 
-#### 7\) Qual é o resultado do código a seguir?
+### 7\) Qual é o resultado do código a seguir?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth'];
@@ -117,7 +115,7 @@ coders.push('alexandra');
 
 3
 
-#### 8\) Qual é o resultado do código abaixo?
+### 8\) Qual é o resultado do código abaixo?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth'];
@@ -135,7 +133,7 @@ console.log('Elemento eliminado: ' + removed);
 
 1
 
-#### 9\) Qual é o resultado do código seguinte?
+### 9\) Qual é o resultado do código seguinte?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -153,7 +151,7 @@ console.log(courses.length);
 
 4
 
-#### 10\) Qual é o resultado do código a seguir?
+### 10\) Qual é o resultado do código a seguir?
 
 ```javascript
 var listOfNumbers = [];
@@ -174,7 +172,7 @@ console.log(listOfNumbers.length);
 
 4
 
-#### 11\) No código a seguir, preencha a lacuna.
+### 11\) No código a seguir, preencha a lacuna.
 
 ```javascript
 var course1 = 'Intro JS, ' ;
@@ -196,7 +194,7 @@ console.log(allCourses);
 
 2
 
-#### 12\) Qual é o resultado código abaixo?
+### 12\) Qual é o resultado código abaixo?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
@@ -214,7 +212,7 @@ courses.indexOf('English for Developers');
 
 3
 
-#### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
+### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
@@ -232,7 +230,7 @@ courses.___________;
 
 2
 
-#### 14\) No código a seguir, qual seria o resultado?
+### 14\) No código a seguir, qual seria o resultado?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
@@ -254,7 +252,7 @@ if (coders.length < 3) {
 
 3
 
-#### 15\) Qual seria o resultado do código a seguir?
+### 15\) Qual seria o resultado do código a seguir?
 
 ```javascript
 var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
@@ -270,7 +268,7 @@ listOfNumbers.lastIndexOf(12);
 
 3
 
-#### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
+### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
 
 ```javascript
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -293,7 +291,7 @@ console.log(array);
 
 2
 
-#### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
+### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
 
 ```javascript
 function search(array, element) {

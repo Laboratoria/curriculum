@@ -1,6 +1,4 @@
-# 15 - Calculate Bill Total
-
-## calculateBillTotal
+# calculateBillTotal
 
 Escreva uma função chamada `calculateBillTotal`.
 
@@ -15,4 +13,3 @@ Notas:
 var output = calculateBillTotal(20);
 console.log(output); // -> 24,9
 ```
-

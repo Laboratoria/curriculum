@@ -1,12 +1,10 @@
-# 05 - Solution Final Products
+# 05 - Solutions Final Products
 
 ## Produtos Finais Solucionados
 
 * Tipo: `seminário`
 * Formato: `guiad`
 * Duração: `3 h`
-
-***
 
 ### Objetivos
 

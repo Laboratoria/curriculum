@@ -4,15 +4,13 @@
 * Formato: `individual`
 * Duração: `30 min`
 
-***
-
 Arranjos \(_arrays_\) em JavaScript são implementados como objetos, o que pode soar um pouco estranho mas, em JavaScript, quase todos os tipos de dados \(`number`, `string`, `array`, ...\) são implementados como objetos e, como tal, os valores desses _tipos_ terão uma série de _métodos_ e _propriedades_ associados a eles. Tecnicamente, eles herdam esses _métodos_ e _propriedades_ de um _protótipo_.
 
-Neste curso, nós não vamos aprofundar o mecanismo de _herança prototipal_  em JavaScript, mas precisamos ao menos saber que qualquer arranjo \(_array_\) em JavaScript é uma _instância_ do construtor \(_constructor_\) `Array` e, portanto, herda todos os _métodos_ e _propriedades_ definidos em `Array.prototype`.
+Neste curso, nós não vamos aprofundar o mecanismo de _herança prototipal_ em JavaScript, mas precisamos ao menos saber que qualquer arranjo \(_array_\) em JavaScript é uma _instância_ do construtor \(_constructor_\) `Array` e, portanto, herda todos os _métodos_ e _propriedades_ definidos em `Array.prototype`.
 
 A propósito, todos os objetos têm um _protótipo_ e, por exemplo, é através desses protótipos que nossas `strings` magicamente possuem uma _propriedade_ `length` ou um método `toLowerCase()`. São herdados de `String.prototype.length` e `String.prototype.toLowerCase`, respectivamente.
 
-Voltando aos arranjos... Vejamos um exemplo: abra o console do navegador e digite `[].`. Deve aparecer automaticamente uma lista com todos os _métodos_ e _propriedades _de nossa matriz vazia \(`[]`\):
+Voltando aos arranjos... Vejamos um exemplo: abra o console do navegador e digite `[].`. Deve aparecer automaticamente uma lista com todos os _métodos_ e \_propriedades \_de nossa matriz vazia \(`[]`\):
 
 ![M&#xE9;todos e propriedades de &quot;Array&quot; no console do navegador](https://user-images.githubusercontent.com/110297/37485550-c77d636e-2859-11e8-8b76-21fc103691e5.png)
 
@@ -28,7 +26,7 @@ console.log([true, 0, 'foo'].length); // => 3
 
 ## Métodos comuns de `Array.prototype`
 
-O JavaScript nos fornece um monte de métodos para manipular arranjos, iterá-los, etc. Não se preocupe em memorizar a lista completa \(não acredito que alguém saiba de cabeça\), pois você irá se familiarizar com eles conforme o uso,  aprendendo a tirar vantagem de seus benefícios. Lembre-se de que sempre há a [documentação oficial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) disponível. Faça uso dela, é a melhor referência.
+O JavaScript nos fornece um monte de métodos para manipular arranjos, iterá-los, etc. Não se preocupe em memorizar a lista completa \(não acredito que alguém saiba de cabeça\), pois você irá se familiarizar com eles conforme o uso, aprendendo a tirar vantagem de seus benefícios. Lembre-se de que sempre há a [documentação oficial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) disponível. Faça uso dela, é a melhor referência.
 
 Vejamos alguns métodos comuns dos arranjos.
 
@@ -67,7 +65,7 @@ console.log(arr); // => ['oh', 'my']
 
 ### Array.prototype.slice
 
-`Array.prototype.slice` cria um novo arranjo através de uma cópia superficial _ _\(_shallow copy_\) de uma parte do arranjo pelo qual é invocado. Ele recebe dois argumentos: `begin` e `end` que indicam qual parte do arranjo queremos copiar \(sem incluir o elemento de índice `end`\).
+`Array.prototype.slice` cria um novo arranjo através de uma cópia superficial  __\(_shallow copy_\) de uma parte do arranjo pelo qual é invocado. Ele recebe dois argumentos: `begin` e `end` que indicam qual parte do arranjo queremos copiar \(sem incluir o elemento de índice `end`\).
 
 O arranjo original não é modificado.
 
@@ -85,7 +83,7 @@ console.log(arr); // => [3, 2, 1];
 
 ### Array.prototype.indexOf
 
-O método `indexOf()` recebe um valor e devolve o índice do vetor que contém esse valor se ele for encontrado, ou `-1` caso contrário.  Esse método é usado com muita frequência para verificar se um arranjo contém um determinado valor \(basta que o resultado seja diferente de `-1`\).
+O método `indexOf()` recebe um valor e devolve o índice do vetor que contém esse valor se ele for encontrado, ou `-1` caso contrário. Esse método é usado com muita frequência para verificar se um arranjo contém um determinado valor \(basta que o resultado seja diferente de `-1`\).
 
 ```javascript
 const arr = ['foo', 'bar', 'baz'];

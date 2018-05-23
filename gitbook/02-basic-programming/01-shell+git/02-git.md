@@ -4,8 +4,6 @@
 * Formato: `individual`
 * Duração: `60 min`
 
-***
-
 ## Objetivos de Aprendizagem
 
 * Entender o que é `Git` e por que ele é importante
@@ -30,7 +28,7 @@ O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes r
 
 `Git` é um _Sistema de Controle de Versões_.
 
-> ** O que é um Sistema de Controle de Versões? **
+> **O que é um Sistema de Controle de Versões?**
 
 Um _Sistema de Controle de Versões_ \(VCS em inglês\) é um sistema que registra as alterações de um, dois ou mais arquivos o tempo todo para, caso necessário, recuperarmos uma versão facilmente. Por exemplo, se você alguma vez elaborou um projeto para uma tarefa qualquer, já fez algo como ilustrado na imagem abaixo?
 

@@ -1,6 +1,4 @@
-# 14 - Find Shortest of Three Words
-
-## findShortestOfThreeWords
+# findShortestOfThreeWords
 
 Escreva uma função chamada `findShortestOfThreeWords`.
 
@@ -14,4 +12,3 @@ Notas:
 var output = findShortestOfThreeWords('a', 'dos', 'tres');
 console.log(output); // -> 'a'
 ```
-

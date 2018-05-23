@@ -1,4 +1,4 @@
-# 01 - Arrays
+# Arranjos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,20 +6,20 @@
 
 ***
 
-## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
+## Objetivos de Aprendizagem
 
 * Aprenda o que são vetores \(_arrays_\) e para que servem
 * Aprenda a criar, acessar e modificar os dados de um vetor
 
 O texto abaixo é baseado em grande parte, com alguns ajustes, no capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/) , por Marijn Haverbeke, 2014. Tradução em [espanhol](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html) disponível graças ao [hectorip](http://hectorip.github.io/), e capítulo 3 do [JavaScript for Kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015.
 
-## Agrupando e manipulando dados {#agrupando-y-manipulando-data}
+## Agrupando e manipulando dados
 
 Como vimos, grande parte da programação consiste em agrupar e manipular dados. Isso nos permite transformar dados em informações e usar essas informações para resolver problemas. Até agora, pudemos agrupar e manipular dados usando tipos de dados simples, tais como: _numbers_, _booleans_ e _strings_. Com eles, criamos uma série de programas simples. Também aprendemos a modificar o fluxo desses programas, através de estruturas repetitivas, condicionais e funcionais, as quais nos permitiram criar produtos um pouco mais complexos. No entanto, nossos programas tinham muitas limitações porque operávamos apenas com **tipos de dados simples**.
 
 Para resolver problemas mais complexos, precisamos ser capazes de agrupar e manipular dados de uma maneira mais interessante. Felizmente, um ambiente JavaScript nos permite alcançar isso através de _arrays_ e _objects_.
 
-## Por que precisamos de matrizes? {#por-que-necesitamos-arrays}
+## Por que precisamos de matrizes?
 
 Digamos, por exemplo, que queiramos representar um conjunto de números: `2`, `3`, `5`, `7` e `11`
 
@@ -50,7 +50,7 @@ var listOfNumbers = [2, 3, 5, 7, 11];
 
 Os arranjos são extremamente úteis para agrupar e manipular dados. É como quando vamos ao mercado e temos nossa "lista de compras". Poderíamos ter uma folha de papel para cada item que queremos comprar. Por exemplo, poderíamos ter uma folha de papel que diz "ovos", outra folha que diz "pão" e outra folha que diz "laranjas". No entanto, a maioria das pessoas escreve todos os itens para comprar em **uma única folha de papel**.
 
-## Acessando informações de um vetor {#accediendo-informacion-de-un-array}
+## Acessando informações de um vetor
 
 Para obter um elemento de um `array`, a notação com colchetes é usada contento o índice \(_index_\) do elemento desejado. Veja o exemplo abaixo:
 
@@ -73,7 +73,7 @@ var listOfNumbers = [2, 3, 5, 7, 11];
 
 Se você não tem experiência em programação, habituar-se com essa convenção pode levar algum tempo. Mas a contagem baseada em zero tem uma longa tradição em tecnologia e, desde que a convenção seja seguida consistentemente \(o que é feito em JavaScript\), ela funciona bem. Tome muito cuidado, pois esse descuido é a causa de muitos _bugs_, inclusive para programadores um pouco mais experientes.
 
-## Definindo ou alterando os elementos de um array {#definiendo-o-cambiando-los-elementos-de-un-array}
+## Definindo ou alterando os elementos de um array
 
 Podemos usar os índices entre colchetes para definir, alterar ou adicionar elementos a um vetor. Por exemplo, para substituir o primeiro elemento de `arraylistOfNumbers`  pelo número 1, poderíamos fazer o seguinte:
 
@@ -112,7 +112,7 @@ console.log(listOfNumbers);
 // → [2, 3, 5, 7, 11]
 ```
 
-## Misturando tipos de dados em _arrays_ {#mezclando-tipos-de-datos-en-arrays}
+## Misturando tipos de dados em _arrays_
 
 Os elementos de um _array_ não precisam ser todos do mesmo tipo de dados. Podemos, por exemplo, ter um vetor que contenha um `number` \(o número 3\), uma `string` \("dinossauros"\) e outro `number` \(o número 3627.5\):
 
@@ -154,5 +154,5 @@ Quando escrevemos `console.log(questions[3][1])`, estamos dizendo ao JavaScript 
 
 A seguir, Michelle nos explica os principais conceitos de _arrays_ através de um exemplo:
 
-![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)
+[![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
 

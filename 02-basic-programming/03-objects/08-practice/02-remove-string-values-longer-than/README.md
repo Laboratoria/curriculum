@@ -1,6 +1,4 @@
-# 02 - Remove String Values Longer Than
-
-## removeStringValuesLongerThan
+# removeStringValuesLongerThan
 
 Escreva uma função chamada "removeStringValuesLongerThan".
 
@@ -17,4 +15,3 @@ var obj = {
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 ```
-

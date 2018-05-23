@@ -11,5 +11,3 @@ var output = computeAverageLengthOfWords('code', 'programs');
 console.log(output); // --> 6
 ```
 
-
-

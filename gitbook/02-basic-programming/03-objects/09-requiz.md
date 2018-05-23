@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `15 min`
 
-***
-
 ### Objetivos
 
 * Faça um segundo teste para garantir que terminaremos a unidade com uma compreensão completa dos conceitos.

@@ -1,6 +1,4 @@
-# 08 - List All Values
-
-## listAllValues
+# listAllValues
 
 Escreva uma função chamada `listAllValues` que retorna um _array_ de todos os valores do objeto de entrada.
 
@@ -10,7 +8,7 @@ Exemplo de entrada:
 {
   name: 'Krysten'
   age: 33,
-  hasPets: false 
+  hasPets: false
 }
 ```
 
@@ -27,7 +25,7 @@ Observe que a entrada pode ter um número diferente de chaves e valores que a am
   a: 'a',
   number: 11 ,
   hungry: true,
-  grammyWins: 1 
+  grammyWins: 1
 }
 ```
 
@@ -36,6 +34,3 @@ Valor devolvido pela função \(saída\):
 ```javascript
 ['a', 11, true, 1]
 ```
-
-
-

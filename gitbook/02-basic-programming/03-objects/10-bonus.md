@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `4 h`
 
-***
-
 ### Desafios de código extras
 
 * Se você já tiver concluído todos os desafios de código da unidade e quiser continuar praticando, conclua os desafios abaixo \(se fizer, poderia ganhar a insígnia de proatividade\):

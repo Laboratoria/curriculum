@@ -1,6 +1,4 @@
-# 00 - Opening
-
-## Abertura
+# Introdução
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -8,7 +6,7 @@
 
 ***
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 
@@ -17,11 +15,11 @@ Nesta unidade aprenderemos:
 * Utilizar a interface de linha de comando \(CLI\)
 * Utilizar um sistema de controle de versão \(Git\)
 
-### Por que aprender isso?
+## Por que aprender isso?
 
 À medida que criamos programas mais complexos, precisamos conhecer as estruturas que facilitam nosso trabalho. Como vimos anteriormente, uma grande parte da programação é sobre converter dados em informação. Nesta unidade, veremos duas estruturas para agrupar dados de uma maneira mais eficiente: _arrays_ e objetos. Fazendo uso dessas estruturas de dados, podemos criar produtos e programas digitais mais complexos.
 
-### Guia de perguntas e conceitos-chave
+## Guia de perguntas e conceitos-chave
 
 Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes sobre os quais vamos aprender e sobre as principais questões a que devemos prestar atenção particular.
 
@@ -36,4 +34,3 @@ Aqui está uma série de perguntas que você deve ser capaz de responder no fina
 * [ ]  Quais são as _chaves_ de um `object`?
 * [ ]  Como podemos acessar a lista de _chaves_ de um `object`?
 * [ ]  O que é um algoritmo? Explique alguns algoritmos que você conhece.
-

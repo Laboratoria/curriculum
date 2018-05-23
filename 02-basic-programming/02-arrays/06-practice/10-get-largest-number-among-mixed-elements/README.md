@@ -1,6 +1,4 @@
-# 10 - Get Largest Number Among Mixed Elements
-
-## getLargestNumberAmongMixedElements
+# getLargestNumberAmongMixedElements
 
 Escreva uma função chamada "getLargestNumberAmongMixedElements".
 

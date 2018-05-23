@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `60 min`
 
-***
-
 ### Objetivos de Aprendizagem
 
 * Saiba quais são as propriedades e métodos em JavaScript
@@ -22,7 +20,7 @@ Ao longo deste curso, vimos uma série de comandos um pouco estranhos que nos pe
 
 Estes são exemplos de **propriedades** e **métodos** em JavaScript. As propriedades normalmente nos _**dizem**_ algo sobre o valor associado e os métodos geralmente _**fazem**_ algo sobre o valor associado. Por exemplo, `length` é uma propriedade que nos informa o tamanho do valor associado, enquanto `toUpperCase()` é um método que realiza a ação de transformar em maiúsculas o valor associado.
 
-O interessante sobre as propriedades e os métodos é que eles não são apenas para as _strings_, o que usamos até agora. Podemos acessar as propriedades e usar métodos nos _arrays_ e nos _objects _também. De fato, quase todos os valores em JavaScript possuem propriedades ou métodos. As exceções são apenas `null` e `undefined`.
+O interessante sobre as propriedades e os métodos é que eles não são apenas para as _strings_, o que usamos até agora. Podemos acessar as propriedades e usar métodos nos _arrays_ e nos \_objects \_também. De fato, quase todos os valores em JavaScript possuem propriedades ou métodos. As exceções são apenas `null` e `undefined`.
 
 As duas maneiras comuns de acessar propriedades ou métodos no Javascript são: com um ponto \(`.`\) ou colchetes \(`[]`\). Ambos `valor.x` e `valor[x]` acessam uma propriedade de `valor`, mas não necessariamente a mesma propriedade. A diferença está em como é interpretado `x`. Quando usamos um ponto, a parte depois do ponto deve ser um nome de variável válido e nomear diretamente a propriedade ou método. Quando usamos colchetes, a expressão dentro deles é _**avaliada**_ para obter o nome da propriedade. Enquanto que `valor.x` procura pela propriedade do valor chamado "x", `valor[x]` tenta _avaliar_ a expressão `x` e depois usar o resultado como o nome da propriedade.
 

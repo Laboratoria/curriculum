@@ -4,15 +4,13 @@
 * Formato: `individual`
 * Duración: `10 min`
 
-***
-
 ## Objetivos
 
 Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e fazer uma auto-avaliação. É uma oportunidade para verificar que realmente está aprendendo. Boa sorte!
 
 ## Preguntas
 
-**1\) **`Git`** é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.**
+**1\)** `Git` **é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.**
 
 Opções
 
@@ -23,7 +21,7 @@ Opções
 
 3
 
-**2\) Dos enunciados a seguir, qual NÃO se relaciona com **`GitHub`**?**
+**2\) Dos enunciados a seguir, qual NÃO se relaciona com** `GitHub`**?**
 
 Opções:
 
@@ -34,7 +32,7 @@ Opções:
 
 1
 
-**3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão**_** ao nosso repositório remoto, enquanto que **_**\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao **_**último commit**_** registrado no repositório remoto.**
+**3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão** _**ao nosso repositório remoto, enquanto que**_ **\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao** _**último commit**_ **registrado no repositório remoto.**
 
 Opções:
 
@@ -45,7 +43,7 @@ Opções:
 
 3
 
-**4\) Qual dos seguintes comandos são do **`Git`**? Você pode escolhar mais do que um.**
+**4\) Qual dos seguintes comandos são do** `Git`**? Você pode escolhar mais do que um.**
 
 Opções:
 
@@ -74,7 +72,7 @@ Opções:
 
 4
 
-**6\) Das opções abaixo, qual\(is\) se aplica\(m\) ao **`GitHub`**?**
+**6\) Das opções abaixo, qual\(is\) se aplica\(m\) ao** `GitHub`**?**
 
 Opções:
 
@@ -85,7 +83,7 @@ Opções:
 
 1, 3
 
-**7\) Qual a diferença entre **`Git`** e **`Github`**?**
+**7\) Qual a diferença entre** `Git` **e** `Github`**?**
 
 Opções:
 
@@ -102,7 +100,7 @@ Opções:
 
 4
 
-**8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.**
+**8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso** _**working directory**_ **para a** _**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.**
 
 Opções:
 

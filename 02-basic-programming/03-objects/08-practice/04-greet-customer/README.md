@@ -1,6 +1,4 @@
-# 04 - Greet Customer
-
-## greetCustomer
+# greetCustomer
 
 Escreva uma função chamada `greetCustomer`.
 
@@ -39,4 +37,3 @@ if (firstName === 'Joe') {
   // do something
 }
 ```
-

@@ -1,6 +1,4 @@
-# 16 Convert Score to Grade
-
-## convertScoreToGrade
+# convertScoreToGrade
 
 Escreva uma função chamada `convertScoreToGrade`.
 
@@ -19,4 +17,3 @@ Notas:
 var output = convertScoreToGrade(91);
 console.log(output); // -> 'A'
 ```
-

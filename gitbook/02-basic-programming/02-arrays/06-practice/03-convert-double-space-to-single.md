@@ -4,7 +4,7 @@
 
 Escreva uma função chamada `convertDoubleSpaceToSingle`.
 
-Dada uma _string_,  `convertDoubleSpaceToSingle` devolve essa cadeia de caracteres com os espaços duplos convertidos em espaços simples.
+Dada uma _string_, `convertDoubleSpaceToSingle` devolve essa cadeia de caracteres com os espaços duplos convertidos em espaços simples.
 
 Exemplo de entrada:
 

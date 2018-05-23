@@ -1,4 +1,4 @@
-# 02 - Git
+# Git
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -141,13 +141,13 @@ E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
 
 Agora a Michelle, seguindo os passos acima, criará sua conta no GitHub.
 
-![Criando uma conta no GitHub](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)
+[![Criando uma conta no GitHub](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
 
 ## Como criamos um repositório remoto no GitHub?
 
 Siga os passos de Michelle para criar um repositório no GitHub:
 
-![Criando reposit&#xF3;rio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)
+[![Criando reposit&#xF3;rio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
 Por último, temos a tela onde encontramos a _URL_ do nosso repositório remoto que, mais adiante, será vinculada ao nosso repositório local.
 
@@ -238,7 +238,7 @@ Agora, vamos definir o nosso ambiente de `Git`:
 
 Os dados das linhas acima devem ser os mesmos que você usou ao criar a sua conta no GitHub, pois eles ficarão gravados nos _commits_ e farão parte do histórico do projeto que está armazenado no GitHub.
 
-![Configurando o Git](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)
+[![Configurando o Git](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)](https://www.youtube.com/watch?v=g9iNK_11KV4)
 
 ## Como usar o Git e GitHub?
 
@@ -330,5 +330,5 @@ A seguir, temos uma lista de comandos do Git usados nesta aula:
 
 Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle de versões de seus projetos e colaborar com outras professoras da Laboratoria.
 
-![Subindo o reposit&#xF3;rio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)
+[![Subindo o reposit&#xF3;rio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
 

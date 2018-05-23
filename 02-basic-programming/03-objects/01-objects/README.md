@@ -1,6 +1,4 @@
-# 01 - Objects
-
-## Objetos em JavaScript
+# Objetos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -8,7 +6,7 @@
 
 ***
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 * Aprender o que são `objects` e para que servem
 * Aprender a criar, acessar e modificar as informações de um `object`
@@ -16,7 +14,7 @@
 
 O texto abaixo é baseada em grande parte, com alguns ajustes, no capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/) , de Marijn Haverbeke, 2014.
 
-### O que é um objeto em JavaScript?
+## O que é um objeto em JavaScript?
 
 Os`objects`em JavaScript são muito parecidos com os`arrays`, mas com duas diferenças importantes:
 
@@ -38,7 +36,7 @@ var favoriteMovies = [
 
 Mas o que aconteceria se quiséssemos armazenar diferentes informações sobre o **mesmo** filme? É aí que entra a utilidade de um `object`.
 
-### Criando Objetos
+## Criando Objetos
 
 Nós armazenamos diferentes informações sobre o filme `De Volta para o Futuro` em um só lugar, por meio de um`object`:
 
@@ -63,7 +61,7 @@ A sintaxe de cada par de _valores-chave_ é a seguinte:
 
 Quando criamos um `object`, a chave \(_key_\) é colocada antes dos dois pontos `:`, e o valor \(_value_\), depois. Os dois pontos agem um pouco como um sinal de igual \( `=`\), isto é, os valores à direita são atribuídos aos nomes à esquerda, assim como quando variáveis ​​são criadas.
 
-#### Chaves \(_strings_\) com ou sem aspas
+### Chaves \(_strings_\) com ou sem aspas
 
 Como vimos, as chaves são `strings`. Como mostra o exemplo anterior, não é necessário colocar as chaves entre aspas. Isso ocorre porque o JavaScript sabe que as chaves são `strings`. No entanto, também é válido colocar as chaves entre aspas. Por exemplo, o objeto abaixo também é válido:
 
@@ -92,7 +90,7 @@ var movie = {
 
 É importante notar que, embora as chaves sejam sempre _strings_, os valores podem ser qualquer valor JavaScript - eles podem até ser uma variável que contenha, ou melhor, "agarre" \(com seus tentáculos\) um valor.
 
-### Acessando informações de um objeto
+## Acessando informações de um objeto
 
 Podemos acessar os valores de um `object`de duas maneiras:
 
@@ -175,7 +173,7 @@ onsole.log(movie.stars[2]);
 
 Observe que usamos `movie.stars`e `movie['stars']`para enfatizar que as duas formas funcionam, por motivos didáticos. Mas tenha cuidado, isso **não** é uma boa prática. Nós só fizemos isso para dar o exemplo. Quando escrevemos programas, seja nos desafios de código, nossos exercícios de classe ou projetos pessoais, a coisa certa a fazer é escolher uma opção e ser consistente em todo o código. Recomendamos, em particular, `movie.stars`uma vez que é mais curto e mais fácil de ler. Lembre-se que a mesma coisa acontece com as aspas das `strings`: você pode usar simples ou dupla, mas de forma consistente.
 
-### Definindo ou alterando os elementos de um objeto
+## Definindo ou alterando os elementos de um objeto
 
 Assim como com `arrays`, podemos adicionar ou alterar os elementos de um `object`usando os colchetes e chaves ou notação de ponto.
 
@@ -207,5 +205,5 @@ console.log(student);
 
 A seguir, Michelle explica os principais conceitos de `object`com um exemplo:
 
-![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://camo.githubusercontent.com/55fe4dee04b2f082b86119e32255bdbe82db2054/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4a36553067447a577355672f302e6a7067)
+[![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
 

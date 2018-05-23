@@ -4,15 +4,13 @@
 * Formato: `individual`
 * Duração: `15 min`
 
-***
-
 ## Objetivos {#objetivos}
 
 * Faça um segundo teste para garantir que terminamos a unidade com total compreensão dos conceitos.
 
 ## Perguntas {#preguntas}
 
-#### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe.
+### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe.
 
 ```javascript
 var mixedArray = [3, hola mundo, 627.5];
@@ -25,7 +23,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 1
 
-#### 2\) Qual das seguintes opções NÃO é um método?
+### 2\) Qual das seguintes opções NÃO é um método?
 
 **Opções**
 
@@ -36,7 +34,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 3
 
-#### 3\) Considere o código abaixo:
+### 3\) Considere o código abaixo:
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -54,13 +52,13 @@ Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
 
 5
 
-#### 4\) No código a seguir,
+### 4\) No código a seguir,
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
-como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
+como ficaria o \_array \_se executarmos `listOfNumbers[3] = 'hola'`?
 
 **Opções**
 
@@ -72,7 +70,7 @@ como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
 
 2
 
-#### 5\) No código a seguir,
+### 5\) No código a seguir,
 
 ```javascript
 var questions = [
@@ -94,7 +92,7 @@ como obtenho o elemento `Peso`?
 
 3
 
-#### 6\) No exemplo a seguir, qual método devo usar para obter o resultado do comentário de código?
+### 6\) No exemplo a seguir, qual método devo usar para obter o resultado do comentário de código?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -113,7 +111,7 @@ console.log('Elemento eliminado: ' + removed);
 
 3
 
-#### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção.
+### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção.
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -132,7 +130,7 @@ console.log(courses.length);
 
 2, 4
 
-#### 8\) No exemplo a seguir, quais métodos devo usar para obter o resultado solicitado?
+### 8\) No exemplo a seguir, quais métodos devo usar para obter o resultado solicitado?
 
 ```javascript
 var listOfNumbers = [];
@@ -154,7 +152,7 @@ console.log(listOfNumbers.length);
 
 2
 
-#### 9\) Qual seria o resultado do código a seguir?
+### 9\) Qual seria o resultado do código a seguir?
 
 ```javascript
 var coder1 = 'Michelle, ';
@@ -175,7 +173,7 @@ console.log(allCoders);
 
 1
 
-#### 10\) Qual é o resultado do código abaixo?
+### 10\) Qual é o resultado do código abaixo?
 
 ```javascript
 var coders = ['Michelle', 'Lourdes', 'Ruth'];
@@ -192,7 +190,7 @@ coders.indexOf('Lourdes');
 
 2
 
-#### 11\) No código a seguir, qual seria o resultado?
+### 11\) No código a seguir, qual seria o resultado?
 
 ```javascript
 var coders = ['Michelle', 'Lourdes', 'Ruth'];
@@ -209,7 +207,7 @@ coders.join();
 
 4
 
-#### 12\) No exemplo a seguir, complete os espaços
+### 12\) No exemplo a seguir, complete os espaços
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
@@ -228,7 +226,7 @@ coders.slice(____,____);
 
 1
 
-#### 13\) No exemplo a seguir, qual método devo usar para obter o resultado comentado?
+### 13\) No exemplo a seguir, qual método devo usar para obter o resultado comentado?
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 1, 2, 3];
@@ -246,7 +244,7 @@ listOfNumbers.____________(2);
 
 4
 
-#### 14\) No código a seguir, qual seria o resultado?
+### 14\) No código a seguir, qual seria o resultado?
 
 ```javascript
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -268,7 +266,7 @@ console.log(array);
 
 4
 
-#### 15\) No código a seguir, qual seria o resultado?
+### 15\) No código a seguir, qual seria o resultado?
 
 ```javascript
 function search(array, element) {

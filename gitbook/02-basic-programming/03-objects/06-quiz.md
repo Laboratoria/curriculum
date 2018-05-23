@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `15 min`
 
-***
-
 ### Objetivos
 
 * Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!

@@ -1,6 +1,4 @@
-# 03 - Soft Skills 2
-
-## Oficina de HSE: Gênero
+# Oficina de HSE: Gênero
 
 * Tipo: `oficina`
 * Formato: `guiado`
@@ -8,7 +6,7 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 Somos uma organização comprometida com o empoderamento das mulheres e, para poder falar sobre isso, é fundamental trazer à mesa um assunto tão controverso e importante quanto o GÊNERO. Por isso, ao final desta unidade:
 
@@ -17,7 +15,7 @@ Somos uma organização comprometida com o empoderamento das mulheres e, para po
 * Você começará a ter mais mais consciência da desigualdade de gênero que se expressa em todas as áreas de nossa sociedade e, em particular, no setor de tecnologia.
 * Vamos começar a construir, juntas, um futuro melhor para as mulheres latino-americanas :\)
 
-### Agenda
+## Agenda
 
 * Atividade de integração em grupo "Sou mulher e sou... "
 * Atividade em squads "Boas mulheres? Bons homens?"
@@ -28,7 +26,7 @@ Somos uma organização comprometida com o empoderamento das mulheres e, para po
 * Laboratoria e gênero: código que transforma
 * Atividade sobre Sororidade: "Pacto entre mulheres"
 
-### Material
+## Material
 
 * [Video Run like a girl](https://www.youtube.com/watch?v=XjJQBjWYDTs)
 * [Apresentação sobre Gênero](https://docs.google.com/presentation/d/115KlXgdbMPJy3lWHVRdui0NuEccF33l7411EMetrUqE/edit#slide=id.g20d3373bed_0_13)

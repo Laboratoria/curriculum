@@ -1,6 +1,4 @@
-# 07 - Find Shortest Word Among Mixed Elements
-
-## findShortestWordAmongMixedElements
+# findShortestWordAmongMixedElements
 
 Escreva uma função chamada "findShortestWordAmongMixedElements".
 

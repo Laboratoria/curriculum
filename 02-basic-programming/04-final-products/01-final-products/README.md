@@ -1,4 +1,4 @@
-# 01 - Final Products
+# Produtos Finais
 
 * Tipo: `exercício`
 * Formato: `individual`
@@ -41,7 +41,7 @@ Por exemplo:
 
 Abaixo está um vídeo de Michelle que guia você pela fórmula matemática da Cifra de César e um algumas outras dicas que você deve saber para resolver este desafio. Ouça com atenção e siga os conselhos! :\)
 
-![Dicas Cifra de C&#xE9;sar](https://camo.githubusercontent.com/dd40165dcf1329aa47651b2aedbaa51a311dd6e4/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f7a643865567258687337592f302e6a7067)
+[![Dicas Cifra de C&#xE9;sar](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
 Também compartilhamos mais informações do que Michelle explicou no vídeo anterior:
 
@@ -66,5 +66,5 @@ Crie um site que solicite, por meio de um `prompt()`, o número de um cartão de
 
 Aqui está um vídeo de Michelle que guia você pelo algoritmo de Luhn e dá dicas para concluir este projeto:
 
-![Dicas de valida&#xE7;&#xE3;o de Cart&#xE3;o de Cr&#xE9;dito](https://camo.githubusercontent.com/b91d5e331cd83b5365a0f97295eefb33b43ad23a/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f66307a4c364f7439795f772f302e6a7067)
+[![Dicas de valida&#xE7;&#xE3;o de Cart&#xE3;o de Cr&#xE9;dito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 

@@ -4,8 +4,6 @@
 * Formato: `individual`
 * Duração: `3 h`
 
-***
-
 ## Objetivos {#objetivos}
 
 * Praticar escrevendo código com sua equipe de professores, resolvendo problemas com estruturas de controle de fluxo básicas que você já conhece e vetores \(_arrays_\).

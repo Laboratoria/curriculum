@@ -1,6 +1,4 @@
-# 11 - Get Sum of All Elements at Property
-
-## getSumOfAllElementsAtProperty
+# getSumOfAllElementsAtProperty
 
 Escreva uma função chamada "getSumOfAllElementsAtProperty".
 
@@ -19,6 +17,3 @@ var obj = {
 var output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 ```
-
-
-

@@ -1,6 +1,4 @@
-# 04 - Soft Skills 3
-
-## Oficina de HSE: Lidando com o estresse
+# Oficina HSE: Lidando com o estresse
 
 * Tipo: `oficina`
 * Formato: `tutorial`
@@ -8,7 +6,7 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Reconhecer o estresse e as emoções negativas relacionadas a ele, entendendo que é uma situação que todas nós enfrentamos em algum momento
 * Reconhecer os diferentes níveis de estresse, entendendo o conceito de estresse saudável
@@ -18,7 +16,7 @@
 * Entender o processo de inoculação do estresse e aplicá-lo em nossas vidas
 * Aplicar o Questionário de Enfrentamento do Estresse para alcançar um nível mais alto de introspecção
 
-### Agenda
+## Agenda
 
 * Dinâmica "Copo d'água"
 * Compreensão teórica do estresse
@@ -29,12 +27,12 @@
 * Exercício de relaxamento progressivo de Jacobson
 * Revisão final e encerramento
 
-### Material
+## Material
 
 * [Apresentação sobre como lidar com o estresse](https://docs.google.com/presentation/d/1TZAKQLfgj-izKgimzbu9W1oe02OUVtrkQLf2OveNQgo/edit#slide=id.g276cb44519_0_27)
 * [Vídeo sobre estresse](https://www.youtube.com/watch?v=rc-AMRjCWKo)
 
-### Tarefa
+## Tarefa
 
 * [Ted talk: Como fazer do estresse seu amigo](https://www.youtube.com/watch?v=RcGyVTAoXEU)
 
