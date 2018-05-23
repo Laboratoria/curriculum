@@ -1,6 +1,4 @@
-# 06 - Get All Keys
-
-## getAllKeys
+# getAllKeys
 
 Escreva uma função chamada "getAllKeys" que retorna um _array_ com todas as chaves do objeto de entrada.
 

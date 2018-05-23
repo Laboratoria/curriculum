@@ -1,6 +1,4 @@
-# 13 - Add Object Property
-
-## addObjectProperty
+# addObjectProperty
 
 Escreva uma função chamada "addObjectProperty".
 

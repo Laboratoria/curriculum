@@ -1,8 +1,6 @@
-# 05 - Guided Exercises
+# Exercícios Direcionados
 
-## Exercícios Direcionados
-
-* Tipo: `prática`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `40 min`
 
@@ -46,5 +44,4 @@ A seguir, Lourdes explica como ela resolveu o exercício:
 
 #### 1. _Array_ para _Object_
 
-![Solu&#xE7;&#xE3;o ArrayToObject](https://camo.githubusercontent.com/b76609b686c9f3fdbbc8bbf1eb45a7548c663287/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f34315a4a72484f364273452f302e6a7067)
-
+[![Solu&#xE7;&#xE3;o ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE)

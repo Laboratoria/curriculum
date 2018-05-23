@@ -1,8 +1,6 @@
-# 08 - Practice
+# Desafios do código
 
-## Desafios do código
-
-* Tipo: `prática`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `3 h`
 

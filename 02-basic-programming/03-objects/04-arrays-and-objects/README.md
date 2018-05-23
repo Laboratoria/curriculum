@@ -1,6 +1,4 @@
-# 04 - Arrays and Objects
-
-## Combinando matrizes com objetos
+# Combinando matrizes com objetos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -64,5 +62,4 @@ Em seguida, Michelle dirá como usar _funções_, _estruturas de repetição_ e 
 2. O total de pontos da turma
 3. Os nomes das alunas que fizeram o curso **"JS avançado"**
 
-![V&#xED;deo sobre arrays com objects](https://camo.githubusercontent.com/e3cf96045f2698c816b3c9be29b1eaf80d402406/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4d3476584a363249496c492f302e6a7067)
-
+[![V&#xED;deo sobre arrays com objects](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)

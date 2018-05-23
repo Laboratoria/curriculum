@@ -1,6 +1,4 @@
-# 11 - Get Sum of All Elements at Property
-
-## getSumOfAllElementsAtProperty
+# getSumOfAllElementsAtProperty
 
 Escreva uma função chamada "getSumOfAllElementsAtProperty".
 

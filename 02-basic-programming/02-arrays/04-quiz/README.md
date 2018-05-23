@@ -1,6 +1,4 @@
-# 04 - Quiz
-
-## Quiz 1
+# Quiz 1
 
 * Tipo: `quiz`
 * Formato: `individual`
@@ -8,33 +6,33 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
 
-### Perguntas
+## Perguntas
 
-#### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
+### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
 
-**Opções**
+#### Opções
 
 1. Verdadeiro
 2. Falso
 
-2
+<solution style="display:none;">2</solution>
 
-#### 2\) Para que os Arrays são úteis?
+### 2\) Para que os Arrays são úteis?
 
-**Opções**
+#### Opções
 
 1. Para deixar de usar _strings_
 2. Para iniciar seu programa
 3. Para não mais usar variáveis
 4. Para agrupar e manipular dados
 
-4
+<solution style="display:none;">4</solution>
 
-#### 3\) No código a seguir
+### 3\) No código a seguir
 
 ```javascript
 var listOfNumbers = [2, 3, 4, 5, 6];
@@ -42,7 +40,7 @@ var listOfNumbers = [2, 3, 4, 5, 6];
 
 Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 
-**Opções**
+#### Opções
 
 1. `2`
 2. `3`
@@ -50,17 +48,17 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 4. `5`
 5. `6`
 
-4
+<solution style="display:none;">4</solution>
 
-#### 4\) No código a seguir,
+### 4\) No código a seguir,
 
-```text
+```javascript
 var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
 se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 
-**Opções**
+#### Opções
 
 1. `[1, 3, 4, 5, 6]`
 2. `[2, 1, 4, 5, 6]`
@@ -68,11 +66,11 @@ se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 4. `[2, 3, 4, 1, 6]`
 5. `[2, 3, 4, 5, 1]`
 
-4
+<solution style="display:none;">4</solution>
 
-#### 5\) No código a seguir,
+### 5\) No código a seguir,
 
-```text
+```javascript
 var questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
@@ -83,41 +81,41 @@ var questions = [
 
 como obtenho o elemento `Lima`?
 
-**Opções**
+#### Opções
 
 1. `console.log(questions[1][1])`
 2. `console.log(questions[1][2])`
 3. `console.log(questions[2][1])`
 4. `console.log(questions[2][2])`
 
-1
+<solution style="display:none;">1</solution>
 
-#### 6\) Os elementos de um Array são armazenados em propriedades.
+### 6\) Os elementos de um Array são armazenados em propriedades.
 
-**Opções**
+#### Opções
 
 1. Verdadeiro
 2. Falso
 
-1
+<solution style="display:none;">1</solution>
 
-#### 7\) Qual é o resultado do código a seguir?
+### 7\) Qual é o resultado do código a seguir?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth'];
 coders.push('alexandra');
 ```
 
-**Opções**
+#### Opções
 
 1. `['alexandra']`
 2. `['alexandra','michelle', 'lourdes', 'ruth']`
 3. `['michelle', 'lourdes', 'ruth', 'alexandra']`
 4. Faltam argumentos.
 
-3
+<solution style="display:none;">3</solution>
 
-#### 8\) Qual é o resultado do código abaixo?
+### 8\) Qual é o resultado do código abaixo?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth'];
@@ -126,16 +124,16 @@ var removed = coders.shift();
 console.log('Elemento eliminado: ' + removed);
 ```
 
-**Opções**
+#### Opções
 
 1. Elemento excluído: `michelle`
 2. Elemento excluído: `lourdes`
 3. Elemento excluído: `ruth`
 4. `undefined`
 
-1
+<solution style="display:none;">1</solution>
 
-#### 9\) Qual é o resultado do código seguinte?
+### 9\) Qual é o resultado do código seguinte?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master'];
@@ -144,16 +142,16 @@ courses.unshift('JS master', 'English for Developers');
 console.log(courses.length);
 ```
 
-**Opções**
+#### Opções
 
 1. `['JS master', 'English for Developers']`
 2. `['Intro JS', 'Intro UX', 'UX master', 'JS master', 'English for Developers']`
 3. `3`
 4. `5`
 
-4
+<solution style="display:none;">4</solution>
 
-#### 10\) Qual é o resultado do código a seguir?
+### 10\) Qual é o resultado do código a seguir?
 
 ```javascript
 var listOfNumbers = [];
@@ -165,16 +163,16 @@ listOfNumbers.pop();
 console.log(listOfNumbers.length);
 ```
 
-**Opções**
+#### Opções
 
 1. `2`
 2. `3`
 3. `4`
 4. `5`
 
-4
+<solution style="display:none;">4</solution>
 
-#### 11\) No código a seguir, preencha a lacuna.
+### 11\) No código a seguir, preencha a lacuna.
 
 ```javascript
 var course1 = 'Intro JS, ' ;
@@ -187,16 +185,16 @@ console.log(allCourses);
 // → Intro JS, Intro UX, UX master.
 ```
 
-**Opções**
+#### Opções
 
 1. `concat{course1}`
 2. `course1.concat`
 3. `concat(course1).`
 4. `concat + course1 +`
 
-2
+<solution style="display:none;">2</solution>
 
-#### 12\) Qual é o resultado código abaixo?
+### 12\) Qual é o resultado código abaixo?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
@@ -205,16 +203,16 @@ courses.push('English for Developers');
 courses.indexOf('English for Developers');
 ```
 
-**Opções**
+#### Opções
 
 1. `1`
 2. `2`
 3. `3`
 4. `4`
 
-3
+<solution style="display:none;">3</solution>
 
-#### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
+### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
@@ -223,16 +221,16 @@ courses.___________;
 // → 'Intro JS,Intro UX,UX master,JS master'
 ```
 
-**Opções**
+#### Opções
 
 1. `concat()`
 2. `join()`
 3. `string()`
 4. `unshift()`
 
-2
+<solution style="display:none;">2</solution>
 
-#### 14\) No código a seguir, qual seria o resultado?
+### 14\) No código a seguir, qual seria o resultado?
 
 ```javascript
 var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
@@ -245,32 +243,32 @@ if (coders.length < 3) {
 }
 ```
 
-**Opções**
+#### Opções
 
 1. `['alejandra']`
 2. `['lourdes']`
 3. `['lourdes', 'ruth']`
 4. `['lourdes', 'ruth', 'mariana']`
 
-3
+<solution style="display:none;">3</solution>
 
-#### 15\) Qual seria o resultado do código a seguir?
+### 15\) Qual seria o resultado do código a seguir?
 
 ```javascript
 var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
 listOfNumbers.lastIndexOf(12);
 ```
 
-**Opções**
+#### Opções
 
 1. `1`
 2. `2`
 3. `5`
 4. `6`
 
-3
+<solution style="display:none;">3</solution>
 
-#### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
+### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
 
 ```javascript
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -284,16 +282,16 @@ console.log(array);
 // → [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-**Opções**
+#### Opções
 
 1. `pop` - `slice`
 2. `pop` - `splice`
 3. `push` - `slice`
 4. `push` - `splice`
 
-2
+<solution style="display:none;">2</solution>
 
-#### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
+### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
 
 ```javascript
 function search(array, element) {
@@ -308,12 +306,12 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 // → 1
 ```
 
-**Opções**
+#### Opções
 
 1. `array[i]` - `element`
 2. `length` - `array[i]`
 3. `i` - `element[i]`
 4. `element[i]` - `array`
 
-1
+<solution style="display:none;">1</solution>
 

@@ -1,6 +1,4 @@
-# 04 - Greet Customer
-
-## greetCustomer
+# greetCustomer
 
 Escreva uma função chamada `greetCustomer`.
 

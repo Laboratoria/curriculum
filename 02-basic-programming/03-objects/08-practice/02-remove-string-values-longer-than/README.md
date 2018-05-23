@@ -1,6 +1,4 @@
-# 02 - Remove String Values Longer Than
-
-## removeStringValuesLongerThan
+# removeStringValuesLongerThan
 
 Escreva uma função chamada "removeStringValuesLongerThan".
 

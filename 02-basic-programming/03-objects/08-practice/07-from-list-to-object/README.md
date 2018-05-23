@@ -1,4 +1,4 @@
-# 07 - From List to Object
+# fromListToObject
 
 Escreva uma função `fromListToObject` que receba um _array_ de _arrays_ e retorne um objeto com cada par de elementos do _array_ como um par de chave-valor.
 

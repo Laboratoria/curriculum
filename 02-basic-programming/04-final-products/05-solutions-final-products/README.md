@@ -1,19 +1,17 @@
-# 05 - Solution Final Products
-
-## Produtos Finais Solucionados
+# Produtos Finais Solucionados
 
 * Tipo: `seminário`
-* Formato: `guiad`
+* Formato: `guiado`
 * Duração: `3 h`
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Revisar as soluções dos produtos finais
 * Entender que há mais de uma maneira de resolver problemas e analisar as vantagens e desvantagens de cada solução proposta
 
-### Agenda
+## Agenda
 
 1. Por meio de exemplos, entenderemos como funcionam:
    * `charCodeAt()`

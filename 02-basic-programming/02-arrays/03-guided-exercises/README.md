@@ -25,7 +25,7 @@ Crie uma função que inverta a ordem dos elementos de um vetor \(_array_\). Com
 Crie uma função que procure um elemento em um vetor, retorne sua posição \(índice_ - index_\) e imprima o valor no console. Dica: use o [algoritmo de busca linear](https://en.wikipedia.org/wiki/Linear_search). Nesse exercício, introduzimos o conceito de **algoritmo**. Para entender o que é um algoritmo, confira os seguintes vídeos:
 
 * [Magic Markers: O que é um algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
-* [Kahn Academy: O que é um algoritmo e por que devo me importar?](https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
+* [Kahn Academy: O que é um algoritmo e por que devo me importar?](https://www.youtube.com/watch?&v=8WU_E9tNnEw)
 
 ## Soluções {#solucionarios}
 
@@ -33,9 +33,8 @@ A seguir, Lourdes lhe explicará como ela resolveu cada um dos exercícios anter
 
 ### 1. Reverse
 
-![Solu&#xE7;&#xE3;o para Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)
+[![Solu&#xE7;&#xE3;o para Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
 
 ### 2. Search
 
-![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)
-
+[![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)

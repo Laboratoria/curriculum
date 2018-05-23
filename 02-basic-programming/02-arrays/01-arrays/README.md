@@ -154,5 +154,4 @@ Quando escrevemos `console.log(questions[3][1])`, estamos dizendo ao JavaScript 
 
 A seguir, Michelle nos explica os principais conceitos de _arrays_ através de um exemplo:
 
-![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)
-
+[![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)

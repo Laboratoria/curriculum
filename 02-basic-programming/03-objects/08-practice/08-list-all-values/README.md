@@ -1,6 +1,4 @@
-# 08 - List All Values
-
-## listAllValues
+# listAllValues
 
 Escreva uma função chamada `listAllValues` que retorna um _array_ de todos os valores do objeto de entrada.
 

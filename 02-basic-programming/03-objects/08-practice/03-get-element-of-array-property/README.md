@@ -1,6 +1,4 @@
-# 03 - Get Element of Array Property
-
-## getElementOfArrayProperty
+# getElementOfArrayProperty
 
 Escreva uma função chamada `getElementOfArrayProperty`.
 

@@ -304,5 +304,4 @@ Segue uma lista dos comandos utilizados nesta aula:
 
 Agora vejamos como Michelle navega entre seus arquivos ou diretórios e cria pastas e arquivos a partir do terminal.
 
-![Linha de comandos](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)
-
+[![Linha de comandos](https://img.youtube.com/vi/DWFZaG6qU5w/0.jpg)](https://www.youtube.com/watch?v=DWFZaG6qU5w)

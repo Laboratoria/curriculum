@@ -1,6 +1,4 @@
-# 10 - Convert Object To List
-
-## convertObjectToList
+# convertObjectToList
 
 Escreva uma função chamada "convertObjectToList" que converte um objeto literal em um vetor de vetores, como neste exemplo:
 

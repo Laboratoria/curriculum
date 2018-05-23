@@ -1,6 +1,4 @@
-# 01 - Add Array Property
-
-## addArrayProperty
+# addArrayProperty
 
 Escreva uma função chamada "addArrayProperty\(obj, key, array\)".
 

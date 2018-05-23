@@ -1,6 +1,4 @@
-# 05 - Transform First And Last
-
-## transformFirstAndLast
+# transformFirstAndLast
 
 Escreva uma função 'transformFirstAndLast' que receba um vetor e retorne um objeto com:
 

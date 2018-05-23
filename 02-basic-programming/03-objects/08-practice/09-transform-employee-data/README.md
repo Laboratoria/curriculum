@@ -1,6 +1,4 @@
-# 09 - Transform Employee Data
-
-## transformEmployeeData
+# transformEmployeeData
 
 Escreva uma função chamada "transformEmployeeData" que transforma alguns dados de funcionários de um formato para outro.
 

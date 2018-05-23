@@ -1,6 +1,4 @@
-# 03 - Object Proto
-
-## Object.prototype
+# Object.prototype
 
 * Tipo: `leitura`
 * Formato: `individual`

@@ -1,6 +1,4 @@
-# 07 - Guided Exercises
-
-## Aula prática
+# Aula prática
 
 * Tipo: `oficina`
 * Formato: `guiado`
