@@ -1,6 +1,7 @@
 # Estruturas condicionais e repetitivas
 
-- Tipo: `aula prática`
+- Tipo: `leitura`
+- Formato: `individual`
 - Duração: `90min`
 
 ## Objetivos
