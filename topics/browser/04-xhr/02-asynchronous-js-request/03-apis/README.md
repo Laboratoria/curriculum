@@ -26,7 +26,9 @@ Anteriormente ya habíamos leído que es un **API**
 (Application Programming Interface = Interfaz de Programación de Aplicaciones)
 
 Una API es un set de herramientas o funciones que nos entrega un servicio, como 
-pueden ser los mapas de google, las estadísticas o manipulación de twitts de twitter, o los datos de IMDB (página que tiene montón de datos sobre películas). La idea es darle el poder a las programadoras de usar el servicio desde su 
+pueden ser los mapas de google, las estadísticas o manipulación de twitts de 
+twitter, o los datos de IMDB (página que tiene montón de datos sobre películas). 
+La idea es darle el poder a las programadoras de usar el servicio desde su 
 propia aplicación o página.
 
 > **Hay datos por ahí que solo esperan ser utilizados.**

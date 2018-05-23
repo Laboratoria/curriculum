@@ -170,17 +170,42 @@ Los datos que devuelve están en un formato que es extremadamente difícil de
 analizar y consumir.
 
 Sería mucho más fácil (y útil) si pudiéramos obtener solo los datos que
-queremos en una estructura de datos mejor ordenada, aquí entra **JSON**
+queremos en una estructura de datos mejor ordenada, aquí entra **JSON** 
+(_JavaScript Object Notation_).
 
-Al realizar una solicitud desde una API que devuelve un JSON, todo lo que 
-tenemos que hacer es convertir esa respuesta JSON en un objeto JavaScript.
-Podemos hacer eso con `JSON.parse();`, modifiquemos la función de carga para 
-manejar una respuesta JSON:
+### JSON
+Es un formato de texto, es una forma de ordenar los datos de manera que sea 
+fácil procesarlos y manejarlos. Nace del problema de cómo podemos intercambiar
+datos entre aplicaciones, páginas o servicios de una manera cómoda.
+**JSON** ES texto, pero con una estructura bien definida, tal como ordenamos
+libros en capítulos, secciones, parrafos, lineas. Un JSON estará compuesto de 
+llaves y valores tal como en el siguiente ejemplo : 
+
+```
+{
+  título : La guía del viajero intergaláctico,
+  autor : Douglas Adams,
+  descripción : Triología de cinco partes
+}
+```
+
+Título, autor y descripción son las llaves, mientras que el resto son los 
+valores de esas llaves.
+
+### Comunicándose con una API-JSON
+
+Entonces, si estamos comunicándonos con una API a través de JSON, necesitamos 
+que nuestro código entienda el formato de este texto especial, a este proceso le
+llamaremos análisis o _parsing_ en inglés. Luego de este análisis, el texto pasa
+a ser un objeto de javascript, que podemos manipular y acceder como cualquier 
+otro objeto que hemos visto.
+Supongamos que la respuesta es el JSON que pusimos de ejemplo anteriormente, 
+veamos cómo podemos analizar o _parsear_ ésta : 
 
 ```javascript
 function handleSuccess () {
   const data = JSON.parse( this.responseText );
-  console.log( data );
+  console.log( `${data.autor} escribió el libro : ${data.título}` );
 }
 
 asyncRequestObject.onload = handleSuccess;
