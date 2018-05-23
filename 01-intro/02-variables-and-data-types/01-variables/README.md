@@ -1,227 +1,225 @@
-# Variables
+# Variáveis
 
 - Tipo: `lectura`
 - Formato: `self-paced`
 - Duración: `60min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Aprender qué son _variables_ y su utilidad.
-- Conocer las buenas prácticas de nombramiento de variables.
+- Aprender o que são _variáveis_ e sua utilidade.
+- Conhecer as boas práticas de nomeação de variáveis.
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
+O texto a continuação se baseia principalmente, com algumas modificações, no
+capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
 disponible gracias a [hectorip](http://hectorip.github.io).
 
-## Variables
+## Variáveis
 
-Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y
-transformar `numbers`, `strings` y `booleans`. Pero, ¿qué podemos hacer con
-esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es
-decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se
-pierden. Sigue en tu consola el siguiente ejemplo:
-
-```js
-'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + 19 + ' años';
-// retorna: "Hola, mi nombre es Michelle y tengo 19 años"
-```
-
-Si quisiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años
-y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha
-perdido.
-
-Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada
-`variable`. Se utiliza así:
+Você já conhece os tipos de dados mais frequentes no JavaScript. Você consegue
+criar, combinar e transformar `numbers`, `strings` e `booleans`. Mas, o que
+podemos fazer com isso? Até agora, tudo o que foi trabalhado tem sido para uso
+imediato. Ou seja, os novos valores que geramos devem ser imediatamente
+utilizados ou se perdem. Segue no seu console o seguinte exemplo:
 
 ```js
-var age = 19;
-// retorna: undefined
+'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + 19 + ' anos';
+// returns: "Oi, meu nome é Michelle e tenho 19 anos"
 ```
 
-La palabra clave (_keyword_) `var` indica que esta frase va a definir una
-variable. Es seguida por el nombre de la variable (el nombre _age_) y, si
-queremos asignarle de inmediato un valor, le sigue el operador `=` y una
-expresión (el número 19).
+Se quisesse utilizar esse `string` de novo, talvez porque Michelle fez
+aniversário e agora queremos que apareça 20 anos no lugar de 19, não poderíamos
+fazê-lo. O valor foi perdido.
 
-La declaración anterior crea una variable llamada age (o edad en español) y se
-usa para retener el número 19. La consola devuelve undefined, pero no creas que
-es un error. Es lo que JavaScript hace cuando un comando no retorna valor.
-Cuando escribes 12 + 5, la consola retorna 17. Pero al declarar una variable
-llamada age asignándole el valor 19, no hay un valor de retorno. Por eso la
-consola simplemente devuelve undefined (en el resto de los ejemplos vamos a
-omitir ese undefined de retorno porque no agrega mucho valor a la explicación).
-
-Después de que una variable se ha definido, su nombre puede ser usado como una
-expresión. El valor de esa expresión es el valor que la variable alberga
-actualmente. Sigamos con el ejemplo anterior:
+Para capturar e manter os valores, o JavaScript fornece algo chamado `variável`.
+É utilizada assim:
 
 ```js
 var age = 19;
-'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
-// retorna: "Hola, mi nombre es Michelle y tengo 19 años"
+// returns: undefined
 ```
 
-La consola nos ayuda a saber el valor de una variable. Si escribimos el nombre
-de una variable que ha sido declarada en la consola, nos devuelve su valor. Si
-esa variable no ha sido declarada, la consola retorna un error. Y si la variabla
-ha sido declarada, pero no le hemos asignado valor, la consola devuleve
-undefined.
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variável.
+É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+imediatamente um valor, é seguido do operador `=` e uma expressão (o número 19).
+
+A declaração anterior cria uma variável chamada age (ou idade no português) e é
+usada para reter o número 19. A console devolve undefined, mas não pense que é
+um erro. É o que o JavaScript faz quando um comando não devolve nenhum valor.
+Quando você escreve 12 + 5, o console devolve 17. Mas ao declarar uma variável
+chamada age atribuindo o valor 19, não há um valor fornecido. É por isso que a
+console simplesmente devolve undefined (no restante dos exemplos vamos a omitir
+esse undefined devolvido porque não adiciona muito valor na explicação).
+
+Depois que uma variável tem sido definida, o nome dela pode ser usada como uma
+expressão. O valor da expressão é o valor que a variável contém atualmente.
+Continuemos com o exemplo anterior:
+
+```js
+var age = 19;
+'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
+// returns: "Oi, meu nome é Michelle e tenho 19 anos"
+```
+
+O console nos ajuda a saber o valor de uma variável. Se escrevemos o nome de uma
+variável que foi declarada no console, nos devolve seu valor. Se essa variável
+não foi declarada, o console devolve um erro. E se a variável foi declarada, mas
+não foi atribuído nenhum valor, o console devolve undefined.
 
 ```js
 age
-// retorna: Uncaught ReferenceError: age is not defined
+// returns: Uncaught ReferenceError: age is not defined
 //           at <anonymous>:1:1
 
 var age = 19;
 age
-// retorna: 19
+// returns: 19
 
 var weight;
 weight
-// retorna: undefined
+// returns: undefined
 ```
 
-Cuando una variable apunta a un valor, eso no quiere decir que está ligada a ese
-valor para siempre. De hecho, se llaman variables porque su valor puede variar.
-El operador `=` se puede utilizar en cualquier momento en variables existentes
-para desconectarlas de su valor actual y apuntarlas a uno nuevo.
+Quando uma variável aponta para um valor, não quer dizer que está ligada a esse
+valor para sempre. De fato, são chamadas de variáveis porque seu valor pode
+mudar. O operador `=` pode ser utilizado em qualquer momento em variáveis
+existentes para desconectá-las do seu valor atual e ser apontadas para um novo.
 
 ```js
 var age = 19;
-// retorna: undefined
+// returns: undefined
 age = 20;
-// retorna: 20
-'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
-// retorna: "Hola, mi nombre es Michelle y tengo 20 años"
+// returns: 20
+'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
+// returns: "Oi, meu nome é Michelle e tenho 20 anos"
 ```
 
-Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_
-`var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.
+Leve em consideração que para atribuir um novo valor, você não tem que utilizar
+a _keyword_ `var` novamente. Você só utiliza ela quando precisa _criar_ novas
+variáveis.
 
-Muchas veces se explica el concepto de variables con la analogía de una caja:
-las variables son como "caja" en las que puedes meter algún valor que luego
-pudes cambiar por otro. Sin embargo, una analogía más fiel es pensar en
-variables como **tentáculos**. Las variables en realidad no es que "contengan"
-los valores (como una caja); más bien los agarra (como un tentáculo). De hecho,
-dos variables pueden referirse a un mismo valor. Un programa puede acceder sólo
-a los valores que todavía mantiene "agarrados". Cuando necesitas recordar algo,
-creas un tentáculo nuevo para "agarrarlo" o cambias unos de tus tentáculos
-existentes para agarrar lo nuevo.
+Muitas vezes é explicado o conceito de variáveis com a analogia de uma caixa: as
+variáveis são como "caixa" nas quais você pode colocar algum valor que depois
+pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis como
+sendo **tentáculos**. As variáveis realmente não "contém" os valores (como uma
+caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis podem
+se referir a um mesmo valor. Um programa pode acessar apenas os valores que
+ainda mantém "segurados". Quando você precisa lembrar algo, você cria um novo
+tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para segurar
+o novo.
 
-## Nombrando Variables
+## Nomeando Variáveis
 
-En JavaScript, existen ciertas reglas para nombrar variables. Los nombres de
-variables:
+No JavaScript, existem certas regras para nomear variáveis. Os nomes das
+variáveis:
 
-1. **No** pueden incluir espacios
-2. **No** pueden ser palabras reservadas (o _keywords_), como la palabra `var`
-3. **No** pueden comenzar con números, aunque sí pueden haber números dentro del
-   nombre (solo que no al comienzo)
-4. **No** pueden contener signos de puntuación, con la excepción de los signos
-   `$` y `_`
+1. **Não** podem incluir espaços
+2. **Não** podem ser palavras reservadas (ou _keywords_), como a palavra `var`
+3. **Não** podem começar com números, ainda que podem haver números dentro do
+   nome (só não pode no início)
+4. **Não** podem conter sinais de pontuação, salvo os símbolos `$` e `_`
 
-No seguir alguna de las reglas anteriores resulta en un **error** por parte de
+Não respeitar alguma das regras anteriores produz um erro por parte do
 JavaScript.
 
-Además de estas reglas, existen una serie de "sugerencias" que debes tomar en
-consideración a la hora de nombrar variables. Son "sugerencias" porque
-JavaScript no te dará un error si no las sigues. Sin embargo, son "buenas
-prácticas" de escritura de código que hacen que tu trabajo sea de mejor calidad.
-Las sugerencias son:
+Além dessas regras, existem uma série de "sugestões" que você deve levar em
+consideração na hora de nomear variáveis. São "sugestões" porque o JavaScript
+não devolve nenhum erro se você não as segue. Porém, são "boas práticas" de
+escrita de código que fazem com que seu trabalho seja de melhor qualidade. As
+sugestões são:
 
-1. Convención _camel case_. Dado que no podemos incluir espacios en los nombres
-   de variables, una convención que se utiliza es la de `camel case`. La
-   convención dicta que el nombre de la variable empieza con una letra minúscula
-   y se coloca en mayúscula la primera letra de las palabras que continúan. Por
-   ejemplo: `numberOfCandies` o `studentTechScore`. Se llama _camel case_ porque
-   simula una joroba de camello.
-2. Utilizar nombres en inglés. La programación está basada en el inglés, así que
-   es buena práctica que te acostumbres a escribir tu código en inglés.
-3. Utiliza nombres descriptivos. Al igual que las otras sugerencias, algo que
-   siempre tienes que tomar en cuenta es que otras personas leerán tu código y
-   debes hacer el esfuerzo por utilizar nombres descriptivos que ayuden al
-   lector a entender mejor lo que hace tu programa.
+1. Convenção _CamelCase_. Já que não é possível incluir espaços nos nomes das
+   variáveis, uma convenção utilizada é a de `CamelCase`. A convenção determina
+   que o nome da variável começa com uma letra minúscula e são colocadas em
+   maiúscula a primeira letra das palavras que continuam. Por exemplo:
+   `numberOfCandies` ou `studentTechScore`. É chamada _CamelCase_ porque
+   aparenta a corcova do camelo.
+2. Utilizar nomes em inglês. A programação está baseada no inglês, dessa forma é
+   uma boa prática que esteja acostumado a escrever seu código em inglês.
+3. Utilizar nomes descritivos. Assim como as outras sugestões, algo que você
+   sempre tem que considerar é que outras pessoas irão ler seu código e você deve
+   fazer o esforço para utilizar nomes descritivos que ajudem o leitor a entender
+   melhor o que seu programa faz.
 
-Veamos algunos ejemplos:
+Vamos ver alguns exemplos:
 
-| Mal nombre | Problema | Mejor nombre
+| Nome ruim | Problema | Nome melhor
 | ------------| -------- | ------------
-| age of fiends | Error: contiene espacios | ageOfFriends
-| null | Error: palabra clave (keyword) | empty
-| 1stName | Error: empieza con número | firstName
-| full.price | Error: contiene "." | fullPrice
-| full_price | no usa camel case | fullPrice
-| x | no es descriptivo | age
-| altura | en español | height
+| age of fiends | Erro: contém espaços | ageOfFriends
+| null | Erro: palavra chave (keyword) | empty
+| 1stName | Erro: começa com número | firstName
+| full.price | Erro: contém "." | fullPrice
+| full_price | não usa CamelCase | fullPrice
+| x | não é descritivo | age
+| altura | em português | height
 
-## Incrementar y Disminuir
+## Aumentar e Diminuir
 
-Como programadora, muchas veces tendrás que incrementar o disminuir el valor de
-una variable numérica por un cierto valor. Por ejemplo, puede que tengas la
-variable `score` que registra el puntaje en un juego de fútbol. Cada vez que
-alguien anote un gol, la variable `score` debe aumentar en 1. Esto lo puedes
-hacer de la siguiente manera:
+Como programadora, muitas vezes você terá que aumentar ou diminuir o valor de
+uma variável numérica por um outro valor. Por exemplo, pode ser que você tenha a
+variável `score` que registra a pontuação num jogo de futebol. Toda vez que
+alguém faz um gol, a variável `score` deve aumentar em 1. Você consegue fazer
+isso da seguinte forma:
 
 ```js
 var score = 0;
 score = score + 1;
 score;
-// retorna: 1
+// returns > 1
 ```
 
-Esto mismo se puede escribir de una manera más sencilla:
+Isso pode ser escrito de uma forma mais simples:
 
 ```js
 var score = 0;
 score++;
 score;
-// retorna: 1
+// returns > 1
 ```
 
-Lo mismo podemos hacer para disminuir el valor de una variable. Por ejemplo, en
-un video juego puede que tengas una variable llamada `lifePoints` que registra
-los "puntos de vida" de un jugador. El jugador parte con 100 puntos y cada vez
-que un enemigo lo golpea, pierde 25 puntos. Cada vez que toma una bebida
-regenera 10 puntos.
+O mesmo pode ser feito para diminuir o valor de uma variável. Por exemplo, num
+videogame você pode precisar de uma variável chamada `lifePoints` que registra
+os "pontos de vida" de um jogador. O jogador parte com 100 pontos e cada vez que
+um inimigo bate nele, perde 25 pontos. Cada vez que bebe um refrigerante
+recupera 10 pontos.
 
 ```js
 var lifePoints = 100;
 lifePoints = lifePoints - 25;
 lifePoints
-// retorna: 75
+// returns > 75
 
 lifePoints = lifePoints + 10;
 lifePoints
-// retorna: 85
+// returns > 85
 ```
 
-Esto se puede escribir de una manera reducida, así:
+Isso pode ser escrito de forma reduzida, assim:
 
 ```js
 var lifePoints = 100;
 lifePoints -= 25;
 lifePoints
-// retorna: 75
+// returns > 75
 
 lifePoints += 10;
 lifePoints
-// retorna: 85
+// returns > 85
 ```
 
-Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también
-`*=` y `/=`:
+Existem outros operadores similares a `+=` e `-=`. Por exemplo, existem também
+`*=` e `/=`:
 
 ```js
 var balloons = 100;
 balloons *= 2;
 balloons
-// retorna: 200
+// returns > 200
 
 var balloons = 100;
 balloons /= 4;
 balloons
-// retorna: 25
+// returns > 25
 ```

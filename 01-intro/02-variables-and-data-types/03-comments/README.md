@@ -1,58 +1,58 @@
-# Comentarios
+# Comentários
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `15min`
+- Duración: `10min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizajem
 
-- Aprender qué son los _comentarios_ y su utilidad.
+- Aprender o que são os _comentários_ e sua utilidade.
 
 ***
 
-## Comentarios
+## Comentários
 
-Muchas veces, por más descriptivo que escribas tu código, es necesario brindar
-más información para que otras personas puedan entender fácilmente cómo funciona
-tu programa. Para añadir esa información sin afectar el flujo de tu código,
-existen los _comentarios_.
+Muitas vezes, não importa quão descritivo você escreva seu código, é necessário
+oferecer mais informação para que outras pessoas possam entender facilmente como
+funciona o seu programa. Para adicionar essa informação sem afetar o fluxo do
+seu código, existem os _comentários_.
 
-Se visualizan así:
+Eles são assim:
 
 ```js
-// Esto es un comentario de una línea
+// Isto é um comentário de uma linha
 
 /*
-  Esto es un comentario de
-  múltiples
-  líneas
+  Isto é um comentário de
+  múltiplas
+  linhas
 */
 ```
 
-La computadora ignora los comentarios por completo. Los comentarios en
-JavaScript empiezan con `//`. Todo lo que sigue a las barras diagonales (en la
-misma línea) es ignorado por el intérprete de JavaScript. Los comentarios de
-múltiples líneas empiezan con `/*` y cierran con `*/`. Todo lo que está entre
-eso es ignorado por el programa.
+O computador ignora os comentários completamente. Os comentários no JavaScript
+começam com `//`. Tudo o que segue às barras comuns (na mesma linha) é ignorado
+pelo interpretador do JavaScript. Os comentários de múltiplas linhas começam com
+`/*` e acabam com `*/`. Tudo o que fica entre isso é ignorado pelo programa.
 
-De tal manera, los comentarios no tienen efecto alguno sobre cómo un programa se
-ejecuta. Solo están allí para proporcionar contexto. Es una **buena práctica**
-incluir comentarios en el código para mejorar su legibilidad.
+Dessa forma, os comentários não têm efeito algum em como se executa o programa.
+Só estão aí para prover contexto. É uma **boa prática** incluir comentários no
+código para melhorar sua legibilidade.
 
-## Comentarios como sugerencias o instrucciones
+## Comentários como sugestões ou instruções
 
-Muchos de los ejercicios y quizzes en este curso van a incluir comentarios para
-darte sugerencias o instrucciones.
+Muitos dos exercícios e questionários neste curso vão incluir os comentários
+para oferecer sugestões ou instruções.
 
-Por ejemplo, es común ver algo como:
+Por exemplo, é normal ver algo tipo:
 
 ```js
-var firstName = // tu código aquí
-console.log(/* tu código aquí */);
+var firstName = // seu código aqui
+console.log(/* seu código aqui */);
 ```
 
-La idea es que borres el comentario y utilices ese espacio para escribir tu
-código. No te preocupes por borrar los comentarios. Eso sí, **no** borres otras
-partes del programa. Si lo haces, es muy probable que no te funcione muy bien.
+A ideia é que você apague o comentário e utilize esse espaço para escrever seu
+código. Não se preocupe em apagar os comentários. Aliás, **não** apague outras
+partes do programa. Se você faz isso, é muito provável que não funcione muito
+bem.
 
-Ahora sí, continúa con los ejercicios y quizzes de esta lección. ¡Mucha suerte!
+Agora sim, continue com os exercícios e questionários desta lição. Boa sorte!
