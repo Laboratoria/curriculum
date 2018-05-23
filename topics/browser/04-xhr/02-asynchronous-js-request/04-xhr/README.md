@@ -20,12 +20,17 @@ Una buena manera de entender XHR es usando la siguiente analogía:
 > lista la mezcla la metemos al horno, aquí va a tardar un poco en lo que se
 > hornea pero mientras podemos ir preparando la cubierta del pastel.
 
-Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para hacer peticiones AJAX, es muy parecido a la parte de la preparación de la mezcla donde primero debemos "preparar" las configuraciones y luego mandar nuestra petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer otras peticiones o tareas.
+Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para 
+hacer peticiones AJAX, es muy parecido a la parte de la preparación de la mezcla
+donde primero debemos "preparar" las configuraciones y luego mandar nuestra 
+petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer 
+otras peticiones o tareas.
 
 > Cuando el horno nos regresa el pastel horneado podemos continuar con
 > decorarlo
 
-Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que hayamos dispuesto para esta "tarea".
+Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que 
+hayamos dispuesto para esta "tarea".
 
 ## XMLHTTPRequest
 
@@ -55,11 +60,14 @@ Podemos acceder a sus métodos, uno de los más importantes es el método `.open
 
 asyncRequestObject.open();
 
-`.open()` toma una serie de parámetros, pero los más importantes son sus dos primeros: el método HTTP y la URL para enviar la solicitud.
+`.open()` toma una serie de parámetros, pero los más importantes son sus dos 
+primeros: el método HTTP y la URL para enviar la solicitud.
 
 ![sintax-open](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/04-xhr/sintax_open.png?raw=true)
 
-Si queremos solicitar de manera asíncrona la página de inicio del popular sitio de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y proporcionaremos la URL:
+Si queremos solicitar de manera asíncrona la página de inicio del popular sitio 
+de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y 
+proporcionaremos la URL:
 
 ```javascript
 asyncRequestObject.open('GET', 'https://unsplash.com');
@@ -105,11 +113,13 @@ function handleSuccess () {
 asyncRequestObject.onload = handleSuccess;
 ```
 
-Con esto nos damos cuenta que si `onload` no está configurado, la solicitud vuelve pero no ocurre nada con eso.
+Con esto nos damos cuenta que si `onload` no está configurado, la solicitud 
+vuelve pero no ocurre nada con eso.
 
 ## En caso de error
 
-Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir, entonces necesitamos usar la propiedad onerror:
+Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir, 
+entonces necesitamos usar la propiedad onerror:
 
 ```javascript
 function handleError () {
@@ -162,8 +172,10 @@ analizar y consumir.
 Sería mucho más fácil (y útil) si pudiéramos obtener solo los datos que
 queremos en una estructura de datos mejor ordenada, aquí entra **JSON**
 
-Al realizar una solicitud desde una API que devuelve un JSON, todo lo que tenemos que hacer es convertir esa respuesta JSON en un objeto JavaScript.
-Podemos hacer eso con `JSON.parse();`, modifiquemos la función de carga para manejar una respuesta JSON:
+Al realizar una solicitud desde una API que devuelve un JSON, todo lo que 
+tenemos que hacer es convertir esa respuesta JSON en un objeto JavaScript.
+Podemos hacer eso con `JSON.parse();`, modifiquemos la función de carga para 
+manejar una respuesta JSON:
 
 ```javascript
 function handleSuccess () {
