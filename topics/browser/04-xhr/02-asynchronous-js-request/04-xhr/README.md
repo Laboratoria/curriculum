@@ -77,7 +77,7 @@ Para enviar la solicitud, necesitamos usar el método de envío:
 asyncRequestObject.send();
 ```
 
-Ya sabemos que no hay mejor manera de aprender que irlo haciendo, para ver como
+Ya sabemos que no hay mejor manera de aprender que practicar, para ver como
 funciona, dirígete a [Unsplash](https://unsplash.com), abre tu developer tools
 y agrega en consola el objeto y sus métodos open y send.
 
@@ -88,7 +88,7 @@ haciendo el paso a paso como en el video, seguro que le entiendes.
 
 [![XHR sened method analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
 
-## Manejo de éxitos
+## Respuesta correcta
 
 Ya que la petición ha sido enviada debemos establecer la propiedad `onload` en
 el objeto a una función que manejará la respuesta exitosa de nuestra solicitud
@@ -107,7 +107,7 @@ asyncRequestObject.onload = handleSuccess;
 
 Con esto nos damos cuenta que si `onload` no está configurado, la solicitud vuelve pero no ocurre nada con eso.
 
-## Manejo de errores
+## En caso de error
 
 Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir, entonces necesitamos usar la propiedad onerror:
 
@@ -122,6 +122,12 @@ asyncRequestObject.onerror = handleError;
 Al igual que con `onload`, si `onerror` no está configurado y se produce un
 error, ese error simplemente fallará en _silencio_ y tu código (¡y tu usuario!)
 no sabrá qué es lo que está mal ni cómo recuperarlo.
+
+Es una buena práctica el tener ambos casos, correcto y error, en control 
+siempre. Es nuestra responsabilidad de desarrolladoras el comunicar al usuario 
+qué es lo que sucede mientras espera. Y ofrecer opciones en caso de error, eso 
+hará que nuestras aplicaciones tengan una mejor UX (experiencia de usuario) y 
+sean más robustas, esto es, que no se caigan con nada.
 
 ## Juntando todo
 
