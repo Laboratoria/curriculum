@@ -2,50 +2,50 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duração: `30min`
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Cuáles de las siguientes permiten modificar el control flujo de un programa?
+### 1) Quais das seguintes permitem modificar o controle de fluxo de um programa?
 
-#### Opciones
+#### Opções
 
-1. únicamente estructuras condicionales y repetitivas
-2. únicamente funciones
-3. estructuras condicionales, estructuras repetitivas y funciones
-4. ninguna de las anteriores
+1. unicamente estruturas condicionais e repetitivas
+2. unicamente funções
+3. estruturas condicionais, estruturas repetitivas e funções
+4. nenhuma das anteriores
 
 <solution style="display:none;">3</solution>
 
-### 2) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación?
+### 2) Que forma de modificar o fluxo de um programa mostra a figura a seguir?
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 
-#### Opciones
+#### Opções
 
 1. while
 2. do while
 3. for
 4. if
 5. if else
-6. if else "anidado" (nested)
+6. if else "aninhado" (nested)
 
 <solution style="display:none;">6</solution>
 
-### 3) Son ejemplos de DRY
+### 3) São exemplos de DRY
 
-#### Opciones
+#### Opções
 
-1. bucles y funciones
-2. solo bucles
-3. solo funciones
-4. ninguna de las anteriores
+1. loops e funções
+2. soente loops
+3. somente funções
+4. nenhuma das anteriores
 
 <solution style="display:none;">1</solution>
 
-### 4) ¿Cuál es el problema con el código a continuación?
+### 4) Qual é o problema com o código a seguir?
 
 ```js
 while (3 > 2) {
@@ -53,38 +53,38 @@ while (3 > 2) {
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. Tiene un error de sintaxis
-2. No utiliza buenas prácticas
-3. La variable no está bien declarada
-4. Genera un bucle infinito
+1. Tem um erro de sintaxis
+2. Não utiliza boas práticas
+3. A variável não está bem declarada
+4. Gera um loop infinito
 
 <solution style="display:none;">4</solution>
 
-### 5) Encuentra el error en la siguiente función
+### 5) Encontre o erro na seguinte função
 
 ```js
 var result = 0;
 
 var showSum = function () {
   result = num1 + num2;
-  alert('El resultado es ' + result);
+  alert('O resultado é ' + result);
 }
 
 showSum();
 ```
 
-#### Opciones
+#### Opções
 
-1. La función carece de parámetros y por lo tanto "num1" y "num2" no están definidos
-2. La función no está siendo invocada
-3. Tiene un error de sintaxis
-4. alert no es una función
+1. A função carece de parâmetros e portanto "num1" e "num2" não estão definidos
+2. A função não está sendo invocada
+3. Possui um erro de sintaxis
+4. alert não é uma função
 
 <solution style="display:none;">1</solution>
 
-### 6) Completa los espacios en blanco (ordenadamente)
+### 6) Complete os espaços em branco (ordenadamente)
 
 ```js
 var sum = _____(num1, num2) {
@@ -94,7 +94,7 @@ var sum = _____(num1, num2) {
 _______(2, 3);
 ```
 
-#### Opciones
+#### Opções
 
 1. return - function - sum
 2. function - sum - return
@@ -103,7 +103,7 @@ _______(2, 3);
 
 <solution style="display:none;">3</solution>
 
-### 7) Cuál es el resultado de
+### 7) Qual o resultado de
 
 ```js
 var emoji = ':D';
@@ -111,7 +111,7 @@ var emoji = ':D';
 var greet = function (name) {
   emoji = ':)';
   var myGreet = function () {
-    return 'Hola ' + name + ' ' + emoji;
+    return 'Olá ' + name + ' ' + emoji;
   }
   return myGreet();
 }
@@ -119,16 +119,16 @@ var greet = function (name) {
 console.log(greet('Laboratoria'));
 ```
 
-#### Opciones
+#### Opções
 
-1. Hola Laboratoria :D
-2. Hola Laboratoria :)
-3. Hola Laboratoria
+1. Olá Laboratoria :D
+2. Olá Laboratoria :)
+3. Olá Laboratoria
 4. undefined
 
 <solution style="display:none;">2</solution>
 
-### 8) Cuál es el resultado de
+### 8) Qual o resultado de
 
 ```js
 var number = 0;
@@ -139,16 +139,16 @@ while (number <= 12) {
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. imprime los números pares desde el 2 al 10 (inclusive)
-2. imprime los números pares desde el 2 al 12 (inclusive)
-3. imprime los números pares desde el 0 al 10 (inclusive)
-4. imprime los números pares desde el 0 al 12 (inclusive)
+1. imprime os números pares desde o 2 ao 10 (inclusive)
+2. imprime os números pares desde o 2 ao 12 (inclusive)
+3. imprime os números pares desde o 0 ao 10 (inclusive)
+4. imprime os números pares desde o 0 ao 12 (inclusive)
 
 <solution style="display:none;">4</solution>
 
-### 9) Cuál es el resultado de
+### 9) Qual o resultado de
 
 ```js
 for (var number = 1; number <= 8; number = number * 2) {
@@ -156,7 +156,7 @@ for (var number = 1; number <= 8; number = number * 2) {
 }
 ```
 
-#### Opciones
+#### Opções
 
 1. 2, 4, 6, 8
 2. 1, 2, 4, 6, 8
@@ -165,47 +165,47 @@ for (var number = 1; number <= 8; number = number * 2) {
 
 <solution style="display:none;">3</solution>
 
-### 10) Al siguiente switch le faltan algunos "breaks", sin embargo ¿Cuál sería el resultado de ejecutar el código así como está?
+### 10) Ao seguinte switch lhe faltam alguns "breaks", porém qual seria o resultado de executar o código assim como está?
 
 ```js
 var weather = 'nublado';
 
 switch (weather) {
-  case 'lluvioso':
-    console.log('Recuerda levar un paraguas.');
+  case 'chuvoso':
+    console.log('Lembre de levar um guardachuva.');
     break;
   case 'soleado':
-    console.log('Viste ligero.');
+    console.log('Use roupas leves.');
   case 'nublado':
-    console.log('Sal a la calle');
+    console.log('Saia para a rua');
 
   default:
-    console.log('Tipo de clima desconocido');
+    console.log('Tipo de clima desconhecido');
     break;
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. Error de sintaxis
-2. Imprime 'Sal a la calle.'
-3. Imprime 'Tipo de Clima desconocido.'
-4. Imprime 'Sal a la calle.' y 'Tipo de Clima desconocido.'
+1. Erro de sintaxis
+2. Imprime 'Saia para a rua.'
+3. Imprime 'Tipo de Clima desconhecido.'
+4. Imprime 'Saia para a rua.' e 'Tipo de Clima desconhecido.'
 
 <solution style="display:none;">4</solution>
 
-### 11) ¿Qué diferencia un bucle "do" de un "while"?
+### 11) O que diferencia um loop "do" de um "while"?
 
-#### Opciones
+#### Opções
 
-1. Un bucle "do" siempre ejecuta su cuerpo por lo menos una vez.
-2. El "while" puede generar un ciclo infinito, pero un "do" nunca lo hará.
-3. El "do" ejecuta una sola vez el cuerpo.
-4. No existe diferencias.
+1. Um loop "do" sempre executa seu corpo pelo menos uma vez.
+2. O "while" pode gerar um ciclo infinito, mas um "do" nunca o fará.
+3. O "do" executa uma só vez o cuerpo.
+4. Não existe diferenças.
 
 <solution style="display:none;">1</solution>
 
-### 12) Cuál es el resultado de
+### 12) Qual é o resultado de
 
 ```js
 for (var i = 0; i <= 10; i++) {
@@ -217,17 +217,17 @@ for (var i = 0; i <= 10; i++) {
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. Imprime los números enteros del 1 al 10 (inclusive)
-2. Imprime los números enteros del 0 al 10 (inclusive) con excepción del número 5
-3. Imprime los números enteros del 0 al 10 (inclusive)
-4. Imprime los números enteros del 1 al 9 (inclusive) y luego imprime el número
-   5 de nuevo
+1. Imprime os números inteiros de 1 a 10 (inclusive)
+2. Imprime os números inteiros de 0 a 10 (inclusive) com exceção do número 5
+3. Imprime os números inteiros de 0 a 10 (inclusive)
+4. Imprime os números inteiros de 1 a 9 (inclusive) e logo imprime o número
+   5 de novo
 
 <solution style="display:none;">2</solution>
 
-### 13) Cuál es el resultado de
+### 13) Qual é o resultado de
 
 ```js
 var medalForScore = function (score) {
@@ -243,7 +243,7 @@ var medalForScore = function (score) {
 console.log(medalForScore(7));
 ```
 
-#### Opciones
+#### Opções
 
 1. Bronze
 2. Silver
@@ -252,7 +252,7 @@ console.log(medalForScore(7));
 
 <solution style="display:none;">3</solution>
 
-### 14) En el ejemplo a continuación
+### 14) No exemplo a seguir
 
 ```js
 var square = function (num) {
@@ -262,11 +262,11 @@ square(12);
 //->144
 ```
 
-#### Opciones
+#### Opções
 
-1. num es un parámetro y 12 es el argumento
-2. num y 12 son parámetros
-3. num y 12 son argumentos
-4. num es un argumento y 12 es el parámetro
+1. num é um parâmetro e 12 é o argumento
+2. num e 12 são parâmetros
+3. num e 12 são argumentos
+4. num é um argumento e 12 é o parâmetro
 
 <solution style="display:none;">1</solution>
