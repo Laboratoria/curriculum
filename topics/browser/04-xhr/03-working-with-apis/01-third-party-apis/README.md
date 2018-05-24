@@ -83,7 +83,7 @@ Este es un extracto traducido de un [artículo de MDN sobre Third Party APIs](ht
 >   plantea la difícil decisión de cambiar de proveedor de servicios o
 >   implementarlos por tu cuenta, con el consiguiente sobrecoste.
 > - **Privacidad.** Las leyes son muy distintas en cada país, y algunas como la
->   LOPD española, que es más restrictiva que las equivalentes de otros países,
+>   Ley Orgánica de Protección de Datos española (LOPD), que es más restrictiva que las equivalentes de   otros países,
 >   pueden impedirnos legalmente delegar ciertos datos o servicios para su trato
 >   por terceros.
 
