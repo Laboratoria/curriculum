@@ -1,82 +1,82 @@
-# Funciones
+# Funções
 
 - Tipo: `lectura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duração: `30min`
 
 ## Objetivos
 
-- Conocer el concepto de _Don't Repeat Yourself (DRY)_
-- Entender qué son las funciones y cómo afectan el control de flujo de un
+- Conhecer o conceito de _Don't Repeat Yourself (DRY)_
+- Entender o que são as funções e como afetam o controle de fluxo de um
   programa
-- Conocer la estructura de las funciones en JavaScript
-- Entender cómo pasarle argumentos a una función
-- Entender el concepto de `return` de las funciones
+- Conhecer a estrutura das funções em JavaScript
+- Entender como transmitir argumentos a uma função
+- Entender o conceito de `return` das funções
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en los
-capítulos 2 y 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 8 de
+O texto a seguir se baseia em grande medida, com certos ajustes, aos
+capítulos 2 e 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+Haverbeke, 2014. Tradução em [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
+disponível graças a [hectorip](http://hectorip.github.io), e capítulo 8 do
 [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015;
 
 ## DRY
 
-En la programación existe un concepto que escucharás más de una vez. Dice así:
-_"Don't Repeat Yourself"_, y es comunmente conocido como `DRY`. En español
-significa _"no te repitas"_. Si estás copiando y pegando pedazos de código, o si
-tienes sentencias de código similares a lo largo de tu programa, significa que
-te estás repitiendo. Ya hemos visto este concepto en práctica con el uso de
-`estructuras repetitivas` (bucles): en lugar de tener un mismo bloque de código
-repetido, puedes sustituirlo por un `for` o un `while`. Con las funciones puedes
-alcanzar el mismo objetivo. Veamos qué son las `funciones`, cómo usarlas y por
-qué son importantes.
+Na programação, existe um conceito que você escutará mais de uma vez. Ele diz o seguinte:
+_"Don't Repeat Yourself"_, e é comumente conhecido como `DRY`. Em português
+significa _"não se repita"_. Se você estiver copiando e colando pedaços de código, ou se
+tiver sentenças de código similares ao longo do seu programa, significa que
+você está se repetindo. Já vimos este conceito em prática com o uso de
+`estruturas repetitivas` (loop): ao invés de ter um mesmo bloco de código
+repetido, você pode sustituí-lo por um `for` ou um `while`. Com as funções você pode
+alcançar o mesmo objetivo. Vejamos quais são as `funções`, como usá-las e por
+que são importantes.
 
-## ¿Qué es una función?
+## O que é uma função?
 
-Una función es una forma de agrupar código para que pueda ser reutilizado. Las
-funciones nos permiten ejecutar la misma pieza de código en varios lugares de un
-programa sin tener que copiar y pegar el código repetidamente. Dicho de otra
-manera, una función es un **pedazo de programa envuelto en un valor**. Ese valor
-puede ser "llamado" varias veces, en diferentes lugares de tu programa, para que
-ejecute el código que tiene dentro.
+Uma função é uma forma de agrupar código para que ele possa ser reutilizado. As
+funções nos permitem executar a mesma peça de código em vários lugares de um
+programa sem ter que copiar e colar o código repetidamente. Dito de outra
+maneira, uma função é um **pedaço de programa embrulhado em um valor**. Esse valor
+pode ser "chamado" várias vezes, em diferentes lugares do teu programa, para que
+execute o código que está ali dentro.
 
-A lo largo de este curso hemos venido utilizando funciones, solo que las venimos
-llamando _"comandos"_. Los comandos como `alert()`, `prompt()` y `console.log()`
-son realmente funciones.
+Ao longo deste curso temos utilizado funções, porém temos
+chamado de _"comandos"_. Os comandos como `alert()`, `prompt()` e `console.log()`
+são de fato funções.
 
-## Funciones en JavaScript
+## Funções em JavaScript
 
-Las funciones son el pan de cada día en la programación con JavaScript.
+As funções são o pão de cada dia na programação com JavaScript.
 
-La aplicación más obvia de las funciones es la de definir un nuevo vocabulario.
-Crear nuevas palabras en un lenguaje humano común (como el español o el inglés)
-es típicamente algo de mal gusto. Sin embargo, en la programación es
-indispensable.
+A aplicação mais óbvia das funções é a de definir um novo vocabulário.
+Criar novas palavras em uma linguagem humana comum (como o português, inglês ou o espanhol)
+é tipicamente algo de mal gosto. Contudo, na programação isto é
+indispensável.
 
-Un adulto promedio tiene unas 20,000 palabras en su vocabulario. Pocos lenguajes
-de programación tienen 20,000 comandos incorporados. Y el vocabulario que _sí_
-está disponible tiende a ser definido de forma más precisa, y por ende menos
-flexible, que en un lenguaje humano. En consecuencia, usualmente _tenemos_ que
-añadir algo de nuestro propio vocabulario para evitar repetirnos demasiado.
+Um adulto médio possui umas 20.000 palavras em seu vocabulário. Poucas linguagens
+de programação possuem 20.000 comandos incorporados. E o vocabulário que
+está disponível na programação tende a ser definido de forma mais precisa, e portanto menos
+flexível que em uma linguagem humana. Como consequência, usualmente _precisamos_ 
+agregar algo do nosso próprio vocabulário para evitar muitas repetições.
 
-Agrupando fragmentos de código en una función con un **nombre fácil de
-entender** (dado que será parte del vocabulario que estás construyendo) podemos
-estructurar mejor nuestro código. Esto porque nos enfocamos en organizar las
-funciones, en lugar de cada línea de código que las componen. Al dividir nuestro
-código en piezas más pequeñas - y por ende - más manejables, podemos tener una
-mirada más completa de lo que estamos haciendo. Nos permite elevarnos a un nivel
-superior de abstracción. Como dicen el refrán: podemos visualizar el bosque
-completo, viendo más allá de los árboles.
+Agrupando fragmentos de código em uma função com um **nome fácil de
+entender** (dado que será parte do vocabulário que você está construindo) podemos
+estruturar melhor nosso código. Isto porque nos enfocamos em organizar as
+funções, ao invés de cada linha de código que as compõem. Ao dividir nosso
+código em peças menores e portanto mais fáceis de lidar, podemos ter uma
+visão mais completa do que estamos fazendo. Nos permite elevar-nos a um nível
+superior de abstração. Como diz o ditado: podemos visualizar a floresta 
+completa, vendo além das árvores.
 
-## Definiendo una función
+## Definindo uma função
 
-La definición de una función es simplemente una definición regular de una
-variable, pero donde el valor dado a la variable es una función. Por ejemplo, el
-siguiente código define la variable `square` para referirse a la _función_ que
-produce el cuadrado de un número dado:
+A definição de uma função é simplesmente uma definição regular de uma
+variável, mas onde o valor dado à variável é uma função. Por exemplo, o
+código a seguir define a variável `square` para se referir à _função_ que
+produz o quadrado de um número dado:
 
 ```js
 var square = function(num) {
@@ -84,24 +84,24 @@ var square = function(num) {
 };
 ```
 
-Una función es creada por una expresión que empieza con el keyword `function`.
-Las funciones tienen un conjunto de _parámetros_ (en el ejemplo anterior solo
-  tenemos **un** parámetro: `num`) y un _cuerpo_, que contiene las sentencias a
-  ser ejecutadas. Los parámetros sirven para "pasarle" valores a la función y
-  por ende, cambiar su comportamiento según los valores brindados. El cuerpo de
-  la función tiene que estar siempre encerrado en llaves, incluso cuando
-  consista de una sola instrucción (como en el ejemplo previo).
+Uma função é criada por uma expressão que começa com o keyword `function`.
+As funções possuem um conjunto de _parâmetros_ (no exemplo anterior só
+  temos **um** parâmetro: `num`) e um _corpo_, que contêm as sentenças a
+  serem executadas. Os parâmetros servem para "transmitir" valores à função e,
+  assim, mudar seu comportamento segundo os valores oferecidos. O corpo da
+  função precisa estar sempre fechado em chaves, inclusive quando
+  houver uma única instrução (como no exemplo anterior).
 
-## Llamando una función
+## Chamando uma função
 
-Para correr el código dentro de una función, necesitamos _"invocar, llamar, o
-aplicar"_ la función. Esto se hace escribiendo el nombre de la función
-inmediatamente seguido por unos paréntesis. Dentro de los paréntesis se incluye
-lo que le quieres "pasar" a la función para usar como parámetro. Los valores que
-se pasan a la función para usar como parámetros son llamados _argumentos_.
+Para rodar o código dentro de uma função, necessitamos _"invocar, chamar, ou
+aplicar"_ a função. Isto se faz escrevendo o nome da função
+imediatamente seguido por parênteses. Dentro dos parênteses se inclui
+o que você quer "transmitir" à função para usar como parâmetro. Os valores que
+se trasnmitem à função para usar como parâmetros são chamados _argumentos_.
 
-Agregando al ejemplo anterior un llamado a la función `square` pasando como
-argumento el valor `12` vemos que nos devuelve `144` (es decir, 12 al cuadrado).
+Agregando ao exemplo anterior um chamado à função `square` transmitindo-lhe como
+argumento o valor `12` vemos que nos devolve `144` (ou seja, 12 ao quadrado).
 
 ```js
 var square = function(num) {
@@ -112,42 +112,42 @@ square(12);
 // → 144
 ```
 
-## El valor de retorno
+## O valor de retorno
 
-Así como los argumentos son los valores de "entrada" (input) que utiliza una
-función al ser llamada, el valor de retorno es el valor de salida (output) que
-devuelve la función (el `144` del ejemplo anterior), y que puede ser utilizado
-en cualquier lugar del programa. Si una función no especifica el valor de
-retorno, entonces, la función retorna  `undefined`.
+Assim como os argumentos são os valores de "entrada" (input) que utiliza uma
+função ao ser chamada, o valor de retorno é o valor de saída (output) que
+devolve a função (o `144` do exemplo anterior), e que pode ser utilizado
+em qualquer lugar do programa. Se uma função não especifica o valor de
+retorno, então a função retorna `undefined`.
 
-El valor de retorno se especifica con el _keyword_ `return`. En el ejemplo
-anterior, se especifica que el valor de retorno es el parámetro multiplicado por
-sí mismo; es decir, el parámetro al cuadrado. El keyword `return` sin una
-expresión después de él, también hará que la función devuelva `undefined`.
+O valor de retorno se especifica com o _keyword_ `return`. No exemplo
+anterior, se especifica que o valor de retorno é o parâmetro multiplicado por
+si mesmo; isto é, o parâmetro ao quadrado. O keyword `return` sem uma
+expressão depois dele também fará com que a função devolva `undefined`.
 
-Agreguemos una sentencia adicional al ejemplo anterior en la que se utilice el
-valor de retorno de la función `square`:
+Adicionemos uma outra sentença ao exemplo anterior na qual se utilize o
+valor de retorno da função `square`:
 
 ```js
 var square = function(num) {
   return num * num;
 };
 
-console.log('El cuadrado de 12 es ' + square(12));
-// → El cuadrado de 12 es 144
+console.log('O quadrado de 12 é ' + square(12));
+// → O quadrado de 12 é 144
 ```
 
-Con esta modificación sucede lo siguiente: el valor de retorno que se obtiene al
-llamar (o invocar) la función `square` con el valor `12` de argumento es: `144`.
-Éste se concatena con el texto `'El cuadrado de 12 es '` para formar
-`'El cuadrado de 12 es 144'`; lo cual, a su vez, se pasa como argumento a la
-función `console.log` para que lo imprima en la consola.
+Com esta mudança acontece o seguinte: o valor de retorno que se obtém ao
+chamar (ou invocar) a função `square` com o valor `12` de argumento é: `144`.
+Este se concatena com o texto `'O quadrado de 12 é '` para formar
+`'O quadrado de 12 é 144'`; o qual, por sua vez, se transmite como argumento à
+função `console.log` para que o imprima no painel de comando.
 
-## Múltiples parámetros
+## Múltiplos parâmetros
 
-Una función puede tener varios parámetros o puede no tener ninguno. En el
-siguiente ejemplo `makeNoise` no tiene parámetros, mientras que `power` tiene
-dos:
+Uma função pode ter vários parâmetros ou pode não ter nenhum. No
+seguinte exemplo, `makeNoise` não tem parâmetros, enquanto `power` tem
+dois:
 
 ```js
 var makeNoise = function() {
@@ -168,60 +168,60 @@ console.log(power(2, 10));
 // → 1024
 ```
 
-A continuación Michelle te explica funciones con un ejemplo del libro JavaScript
+A seguir Michelle te explica funções com um exemplo do livro JavaScript
 for Kids.
 
 [![ejercicio guiado JS for Kids pg 128 funcion de imprimir caras](https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)](https://www.youtube.com/watch?v=Y0NgsjdumS8)
 
-## Saliendo de una función con `return`
+## Saindo de uma função com `return`
 
-Cuando el intérprete JavaScript se topa con un `return` dentro de una función,
-inmediatamente salta fuera de la función actual y pasa el valor retornado al
-código que la llamó. Es decir, cualquier sentencia que coloquemos **después**
-del `return` en una función, **no** será ejecutada.
+Quando o intérprete JavaScript observa um `return` dentro de uma função,
+imediatamente pula fora da função atual e passa o valor retornado ao
+código que a chamou. Isto é, qualquer sentença que coloquemos **depois**
+do `return` em uma função, **não** será executada.
 
-Una forma común de utilizar `return` es para salir de la función de manera
-temprana si alguno de los argumentos brindados no son válidos; es decir, si no
-son el tipo de argumentos que la función necesita para funcionar correctamente.
-Por ejemplo, la siguiente función devuelve una cadena que indica el quinto
-caracter de tu nombre. Si el nombre pasado a la función tiene menos de cinco
-caracteres, la función utiliza `return` para dejar la función inmediatamente.
-Esto significa que la declaración de devolución al final, que te dice la quinta
-letra de tu nombre, nunca se ejecuta.
+Uma forma comum de utilizar `return` é para sair da função antecipadamente
+caso algum dos argumentos brindados não seja válido; isto é, se não
+forem o tipo de argumentos que a função necessita para funcionar corretamente.
+Por exemplo, a seguinte função devolve uma cadeia que indica o quinto
+caracter do seu nome. Se o nome transmitido à função tem menos de cinco
+caracteres, a função utiliza `return` para deixar a função imediatamente.
+Isto significa que a declaração de devolução ao final, que te diz a quinta
+letra do seu nome, nunca se executa.
 
 ```js
 var fifthLetter = function (name) {
   if (name.length < 5) {
     return;
   }
-  return 'La quinta letra de tu nombre es ' + name[4] + '.';
+  return 'A quinta letra do seu nome é ' + name[4] + '.';
 };
 ```
 
-## Funciones y control de flujo
+## Funções e controle de fluxo
 
-Las funciones también afectan el control de flujo de nuestro programa. Con
-funciones podemos crear estructuras repetitivas (con algo que se llama
-`recursividad`) y estructuras condicionales (con, por ejemplo, múltiples valores
-de `return`). De hecho, las funciones son tan versátiles para armar la
-estructura de un programa que existe todo un _paradigma de programación_ basado
-en funciones. Es decir, existe toda una manera de pensar en la programación
-basada en funciones. Esto se llama el **paradigma de programación funcional**.
-Más adelante estudiaremos a mayor profundidad funciones y el paradigma de
-programación funcional. Por ahora, lo importante es entender que las funciones
-son una forma de agrupar código para que pueda ser reutilizado.
+A funções também afetam o controle de fluxo do nosso programa. Com
+funções podemos criar estruturas repetitivas (com algo que se chama
+`recursividade`) e estruturas condicionais (com, por exemplo, múltiplos valores
+de `return`). De fato, as funções são tão versáteis para armar a
+estrutura de um programa que existe todo um _paradigma de programação_ baseado
+em funções. Isto é, existe uma maneira de pensar na programação
+que está baseada em funções. Isto se chama o **paradigma de programação funcional**.
+Mais adiante estudaremos com mais profundidade funções e o paradigma de
+programação funcional. Por enquanto, o importante é entender que as funções
+são uma forma de agrupar código para que possa ser reutilizado.
 
-Veamos un ejemplo de crear una estructura condicional con funciones:
+Vejamos um exemplo para criar uma estrutura condicional com funções:
 
-## Utilizando múltiples `return` en lugar de `if... else`
+## Utilizando múltiplos `return` ao invés de `if... else`
 
-Podemos usar varios `return` dentro de diferentes sentencias `if` en el cuerpo
-de una función para que la función devuelva un valor diferente, dependiendo del
-argumento brindado. Por ejemplo, digamos que estás escribiendo un juego que
-otorga medallas a los jugadores basándose en su puntuación. Una puntuación menor
-a 3 es una medalla de bronce, una puntuación de 7 o más es oro, y lo que está en
-el medio es plata. Podrías utilizar una función como `medalForScore` para
-evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
+Podemos usar vários `return` dentro de diferentes sentenças `if` no corpo
+de uma função para que a função devolva um valor diferente, dependendo do
+argumento oferecido. Por exemplo, digamos que você está escrevendo um jogo que
+dá medalhas aos jogadores conforme a sua pontuação. Uma pontuação menor
+a 3 é uma medalha de bronze, uma puntuação de 7 ou mais é ouro, e o que está no
+meio é prata. Você poderia utilizar uma função como `medalForScore` para
+avaliar uma pontuação e dar o tipo de medalha, como se mostra aqui:
 
 ```js
 var medalForScore = function (score) {
@@ -235,9 +235,9 @@ var medalForScore = function (score) {
 };
 ```
 
-Aunque estamos comprobando múltiples condiciones, no necesitamos usar sentencias
-`if ... else` encadenadas. Utilizamos las sentencias `if ... else` para
-garantizar que sólo una de las sentencias se ejecute. Sin embargo, cuando cada
-una de las opciones tiene su propia sentencia de `return`,  garantizamos que se
-ejecute sólo una de las opciones --- porque, recuerda, **las funciones sólo
-pueden devolver una vez**.
+Embora estejamos comprovando múltiplas condições, não necessitamos usar sentenças
+`if ... else` encadeadas. Utilizamos as sentenças `if ... else` para
+garantir que somente uma das sentenças se execute. Quando cada
+uma das opções possui sua própria sentença de `return`,  garantimos que se
+execute somente uma das opções --- porque, lembre-se, **as funções só
+podem devolver uma vez**.
