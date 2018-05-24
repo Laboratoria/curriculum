@@ -1,30 +1,29 @@
-# Cierre
+# Fechamento
 
 - Tipo: `read`
 - Formato: `self-paced`
-- Duración: `5min`
+- Duração: `5min`
 
 ***
 
-## Respondamos las preguntas del opening
+## Respondamos às perguntas do opening
 
-- ¿Por qué quisiéramos modificar el control de flujo de un programa?
-- ¿Cuáles son las formas de modificar el flujo de un programa? Dibuja una
-  representación de cada una
-- ¿Qué significa `else` de una sentencia `if...else`? Dame un ejemplo
-- ¿Cuál es la diferencia entre un `while` y un `do`?
-- ¿Cuáles son las 3 partes (sentencias) esenciales de un `for`? Dame un ejemplo
-- ¿Para qué utilizamos `break` y `continue` en un `for`? Dame un ejemplo
-- Explica, con una analogía y en tus propias palabras, qué es un `function` (una
-  función). Dibuja el concepto de una función
-- ¿Por qué son importantes las funciones en la programación?
-- ¿Qué se entiende por `DRY`?
-- ¿Qué significa "llamar" a una función?
-- ¿Qué sería un "input" (entrada) para una función y qué sería el equivalente
-  del "output" (salida)?
-- ¿Cuál es la diferencia entre un parámetro y un argumento de una función?
-- ¿Qué significa el valor de `return` de una función?
-- ¿Qué sucede cuando una función tiene varios valores de `return`?
-- ¿Por qué podemos resolver problemas más complejos sabiendo
-  `estructuras condicionales`,  `estructuras repetitivas` y `funciones`? Dame un
-  ejemplo
+- Por que modificar o controle de fluxo de um programa?
+- Quais são as formas de modificar o fluxo de um programa? Desenhe uma
+  representação de cada uma
+- O que significa `else` de uma sentença `if...else`? De um exemplo
+- Qual a diferença entre um `while` e um `do`?
+- Quais são as 3 partes (sentenças) essenciais de um `for`? De um exemplo
+- Para que utilizamos `break` e `continue` em um `for`? De um exemplo
+- Explique, com uma analogia e com as suas próprias palavras, o que é uma `function` (uma
+  função). Desenhe o conceito de uma função
+- Por que são importantes as funções na programação?
+- O que se entende por `DRY`?
+- O que significa "chamar" a uma função?
+- O que seria um "input" (entrada) para uma função e o que seria o equivalente
+  ao "output" (saída)?
+- Qual a diferença entre um parâmetro e um argumento de una função?
+- O que significa o valor de `return` de uma função?
+- O que acontece quando uma função tem vários valores de `return`?
+- Por que podemos resolver problemas mais complexos sabendo
+  `estruturas condicionais`,  `estruturas repetitivas` e `funções`? De um exemplo
