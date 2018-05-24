@@ -288,11 +288,12 @@ información. También nos sirve para indicar qué scripts se usarán y unir tod
 que hemos hecho. 
 
 ### Data
-En esta carpeta están los datos de prueba en caso de que no quieras hacer la
-versión _hacker_ de este proyecto. Para poder usar cada uno de los archivos JSON
-que están acá, puedes usar el mismo método que usarías si es que estuvieses
-haciendo una llamada HTTP o a una API, pero usando una dirección **relativa**,
-ejemplo :
+En esta carpeta están los datos de prueba del proyecto, contiene información 
+sobre los cohortes (grupos de alumnas de una generación y rama en particular), 
+alumnas y su progreso en cada uno de los cursos que son parte de cada cohorte. 
+Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo método que
+usarías si es que estuvieses haciendo una llamada HTTP o a una API, pero usando
+una dirección **relativa**, ejemplo :
 
 ```
 "../data/cohorts.json"
