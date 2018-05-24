@@ -1,68 +1,67 @@
-# Ejercicios Guiados
+# Exercícios Guiados
 
 - Tipo: `práctica`
 - Formato: `self-paced`
-- Duración: `120min`
+- Duração: `120min`
 
 ## Objetivos
 
-- Practicar codeando junto a tu equipo de profes, resolviendo problemas de
-  estructuras condicionales, repetitivas y funciones
-- Practicar, practicar y practicar
+- Praticar codeando junto com a sua equipe de mentores, resolvendo problemas de
+  estruturas condicionais, repetitivas e funções
+- Praticar, praticar e praticar
 
 ***
 
 ## Enunciados
 
-A continuación tienes más problemas de práctica. Estos problemas serán
-resueltos, paso a paso, por tu equipo de profes en una clase presencial.
+A seguir você encontrará mais problemas de prática. 
 
-Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
-**antes** de la sesión presencial. Así, ya vienes con dudas específicas y
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante el resto de la clase y así ayduar al resto de tus compañeras :)
+Sugerimos que você tente resolver os exercícios por sua própria cuenta (ou em equipe)
+**antes** da sessão presencial com os mentores em sala. Assim, você já vem com dúvidas específicas e
+estará familiarizada com os desafios. Talvez, você mesma poderá apresentar a sua solução
+frente à sala e assim ajudar suas companheiras :)
 
-### 1. Funciones matemáticas
+### 1. Funções matemáticas
 
-Crea dos funciones, `add` y `multiply`. Cada una debe tomar dos argumentos. La
-función `add` debe sumar sus argumentos y devolver el resultado. La funcion
-`multiply` debe multiplicar sus argumentos. Usando solamente estas dos
-funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
+Crie duas funções, `add` e `multiply`. Cada uma deve tomar dois argumentos. A
+função `add` deve somar seus argumentos e devolver o resultado. A função
+`multiply` deve multiplicar seus argumentos. Usando somente estas duas
+funções, resolva este simples problema matemático: 36325 * (9824 + 777).
 
-### 2. Ordenando comida
+### 2. Organizando comida
 
-Imagina que estás pidiendo comida en un restaurante. Tu plato favorito es
-`ceviche`, así que lo elegirías si está en el menú. Si no hay `ceviche`,
-elegirías `tacos al pastor`. Si eso no está, te irías por `empanada chilena`.
-En el caso raro que ninguna de esas opciones esté disponible, te irías por una
-`hamburguesa`. Escribe una función, que de acuerdo a la disponibilidad de los
-platos en el menú, decidas qué ordenar.
+Imagine que você está pedindo comida em um restaurante. O seu prato favorito é
+`ceviche` e por isso você o escolheria se houvesse no menú. Se não houver `ceviche`,
+escolheria `tacos al pastor`. Se este último não houver, você então pediria `empanada chilena`.
+No caso raro que nenhuma destas opções esteja disponível, você iria por um
+`hamburguer`. Escreva uma função, que de acordo com a disponibilidade dos
+pratos no menú, você decida o que pedir.
 
-### 3. Edades y etapas
+### 3. Idades e etapas
 
-Crea una web que pida, por medio de un `prompt()`, la edad de una persona, en
-años. Dependiendo del número brindado, la web debe dar un mensaje que clasifica
-a la persona en: `toddler`, `preschooler`, `gradeschooler`, `teenager`,
-`young adult` and `adult`, según el criterio de esta
+Crie uma web que peça, por meio de um `prompt()`, a idade de uma pessoa, em
+anos. Dependendo do número oferecido, a web deve dar uma mensagem que classifica
+a pessoa em: `toddler`, `preschooler`, `gradeschooler`, `teenager`,
+`young adult` e `adult`, segundo o critério desta
 [página](https://www.healthychildren.org/English/ages-stages/Pages/default.aspx).
 
-Si la persona ingresa un dato que **no** es un número entero (por ejemplo: un
-`string`, un número decimal, un cero, o un campo vacío), la web debe dar un
-mensaje de error. Revisa este [link](https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer)
-que tiene un par de tips interesantes relacionados a este proyecto.
+Se a pessoa coloca um dado que **não** é um número inteiro (por exemplo: um
+`string`, um número decimal, um zero, ou um campo vazio), a web deve dar uma
+mensagem de erro. Revise este [link](https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer)
+que possui dicas interessantes relacionadas a este projeto.
 
-### 4. Contando caracteres y espacios
+### 4. Contando caracteres e espaços
 
-Crea una web que pida, por medio de un `prompt()`, una frase al usuario. La web
-debe presentar un mensaje que diga: el número de caracteres y de espacios que
-componen el `string` ingresado. En la consola, debe aparecer cada caracter
-impreso en una línea separada, en mayúscula. Si el usuario ingresa un campo
-vacío, la web debe dar un mensaje de error.
+Crie uma web que peça, por meio de um `prompt()`, uma frase ao usuário. A web
+deve apresentar uma mensagem que diga: o número de caracteres e de espaços que
+compõem o `string` inserido. No painel, deve aparecer cada caracter
+impresso em uma linha separada, em maiúscula. Se o usuário insere um campo
+vazio, a web deve dar uma mensagem de erro.
 
-Arma tu archivo JavaScript para que tenga 3 funciones:
+Arme seu arquivo JavaScript para que tenha 3 funções:
 
-- Una función que imprima todos los caracteres de un `string`, cada uno en una
-  línea separada, en mayúscula.
-- Una función que cuente el número de caracteres de un `string` (¡sin utilizar
+- Uma função que imprima todos os caracteres de um `string`, cada um em uma
+  linha separada, em maiúscula.
+- Una função que conte o número de caracteres de um `string` (sem utilizar
   `.length`!)
-- Una función que cuente el número de espacios de un `string`
+- Uma função que conte o número de espaços de um `string`
