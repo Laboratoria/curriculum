@@ -47,14 +47,15 @@ agrupar los títulos de nuestras películas preferidas, utilizaríamos un `array
 así:
 
 ```js
-var favoriteMovies = [
+const favoriteMovies = [
   'The Big Fish',
   'The Lord of the Rings',
   'The Empire Strikes Back',
   'The Artist',
   'The Godfather',
-  'Back to the Future'
+  'Back to the Future',
 ];
+
 ```
 
 ¿Pero qué sucede si quisiéramos almacenar diferentes piezas de información sobre
@@ -66,14 +67,17 @@ Almacenemos diferentes piezas de información de la película `Back to the Futur
 en un solo lugar, por medio de un `object`:
 
 ```js
-var movie = {
+let movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  plot: 'Marty McFly, a 17-year-old high school student, ' +
+    'is accidentally sent 30 years into the past in a time-traveling DeLorean ' +
+    'invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
+
 ```
 
 En el ejemplo anterior hemos creado una variable llamada `movie` y le hemos
@@ -86,7 +90,7 @@ Como se muestra en el ejemplo, no necesitamos colocar una coma después del
 La sintaxis de cada par _key-value_ es la siguiente:
 
 ```js
-  { key : value }
+{ key : value }
 ```
 
 Cuando se crea un `object`, el _key_ va antes de los dos puntos `:`, y el
@@ -102,11 +106,12 @@ que los _keys_ son `strings`. Sin embargo, es también válido colocar los _keys
 entre comillas. Por ejemplo, el objeto a continuación también es válido:
 
 ```js
-var person = {
-  'age': 18,
-  'name': 'Michelle',
-  'friends': ['Alexandra','Ana']
+const person = {
+  age: 18,
+  name: 'Michelle',
+  friends: ['Alexandra', 'Ana'],
 };
+
 ```
 
 Si no colocamos las comillas, los _keys_ deben seguir las mismas reglas de
@@ -116,16 +121,17 @@ queramos. Por ejemplo, si queremos agregar un _key_ del año en que salió la
 película ('year of release'), haríamos:
 
 ```js
-var movie = {
+movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  'year of release': 1984,
-  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  plot: 'Marty McFly, a 17-year-old high school student, ' +
+    'is accidentally sent 30 years into the past in a time-traveling DeLorean ' +
+    'invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
 };
+
 ```
 
 Es importante resaltar que aunque los _keys_ son siempre `strings`, los _values_
@@ -139,7 +145,6 @@ Podemos acceder a los valores de un `object` de dos maneras:
 1. La primera es usando los corchetes `[]`, tal como lo hacemos para los
    `arrays`. La única diferencia es que, en lugar de usar el _index_ (un
    `number`), utilizamos el _key_ (un `string`), siempre entre comillas.
-
 2. La segunda es usando el punto (`.`) con el nombre del _key_ inmediatamente
    después, **sin** comillas. A esto se le llama `dot notation`. Al igual que en
    la declaración de los _keys_, si utilizamos `dot notation`, el _key_ debe
@@ -149,28 +154,31 @@ Podemos acceder a los valores de un `object` de dos maneras:
 Veamos algunos ejemplos para aclarar cuándo se usa una o la otra:
 
 ```js
-var movie = {
+movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  'year of release': 1984,
-  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-  oscar: 1,
-  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
 };
 
-console.log(movie['title']);
-// → Back to the Future
+console.assert(movie['title'] === 'Back to the Future');
+console.assert(movie.title === movie['title']);
 
-console.log(movie[title]);
-// → Uncaught ReferenceError: title is not defined
+```
 
-console.log(movie.'title');
+```js
+let error = false;
+try {
+  console.assert(movie[title] === 'Back to the Future');
+} catch (e) {
+  error = e.message;
+}
+console.assert(error === 'title is not defined');
+
+```
+
+```js
+console.assert(movie.'title' === 'Back to the Future');
 // → Uncaught SyntaxError: Unexpected string
-
-console.log(movie.title);
-// → Back to the Future
 ```
 
 Analicemos los dos errores:
@@ -179,7 +187,6 @@ Analicemos los dos errores:
    es una variable y como en nuestro programa no existe una variable llamada
    title, se genera un error de referencia y JavaScript nos devuelve que title
    no está definida: `Uncaught ReferenceError: title is not defined`
-
 2. Cuando utilizamos `dot notation` **con** comillas, JavaScript nos devuleve un
    error de sintaxis, dado que `dot notation` no se debe utilizar con un
    `string`. Por eso nos devuelve: `Uncaught SyntaxError: Unexpected string`.
@@ -188,19 +195,19 @@ Analicemos los dos errores:
 devuelve `undefined`. Veamos un ejemplo:
 
 ```js
-var movie = {
+movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  'year of release': 1984,
-  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  plot: 'Marty McFly, a 17-year-old high school student, ' +
+    'is accidentally sent 30 years into the past in a time-traveling DeLorean ' +
+    'invented by his close friend, the maverick scientist Doc Brown.',
   oscar: 1,
   tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
 };
 
-console.log(movie['producer']);
-// → undefined
+console.assert(movie['producer'] === undefined);
+
 ```
 
 ¿Y cómo hacemos para obtener uno de los actores (stars) de la película? Para
@@ -209,23 +216,15 @@ devolver un `array` y luego acceder a uno de los elementos del `array` a través
 de los corchetes `[]` y el _index_. Veamos un ejemplo:
 
 ```js
-var movie = {
+movie = {
   title: 'Back to the Future',
-  director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  'year of release': 1984,
-  plot: 'Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.',
-  oscar: 1,
-  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
-  'other awards': ['best sound', ]
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
 };
 
-console.log(movie.stars[0]);
-// → Michael J. Fox
-console.log(movie['stars'][1]);
-// → Christopher Lloyd
-console.log(movie.stars[2]);
-// → Lea Thompson
+console.assert(movie.stars[0] === 'Michael J. Fox');
+console.assert(movie['stars'][1] === 'Christopher Lloyd');
+console.assert(movie.stars[2] === 'Lea Thompson');
+
 ```
 
 Fíjate que hemos usado `movie.stars` y `movie['stars']` para hacer énfasis de
@@ -247,27 +246,44 @@ Veamos un ejemplo que empieza con un `object` vacío y se le va añadiendo y
 modificando elementos.
 
 ```js
-// creando un object vacío
-var student = {};
+/* creando un object vacío */
+const student = {};
 
-// añadiendo elementos al object con corchetes y comillas
+/* añadiendo elementos al object con corchetes y comillas */
 student['name'] = 'Carolina';
 student['points'] = 2500;
 
-// añadiendo elementos al object con dot notation
+/* añadiendo elementos al object con dot notation */
 student.courses = ['Intro a JS', 'Intro a UX'];
 student.isActive = true;
 
-// imprimiendo el object
-console.log(student);
-// → Object {name: 'Carolina', points: 2500, courses: Array(2), isActive: true}
+/* resucitamos nuestra función comparadora */
 
-// actualizando los puntos
+const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
+
+console.assert(equal(
+  student,
+  {
+    name: 'Carolina',
+    points: 2500,
+    courses: ['Intro a JS', 'Intro a UX'],
+    isActive: true,
+  },
+));
+
+/* actualizando los puntos */
 student['points'] = 3500;
 
-// imprimiendo el object nuevamente
-console.log(student);
-// → Object {name: 'Carolina', points: 3500, courses: Array(2), isActive: true}
+console.assert(equal(
+  student,
+  {
+    name: 'Carolina',
+    points: 3500,
+    courses: ['Intro a JS', 'Intro a UX'],
+    isActive: true,
+  },
+));
+
 ```
 
 A continuación Michelle nos explica los conceptos principales de `objects` con

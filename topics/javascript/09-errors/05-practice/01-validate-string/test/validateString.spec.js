@@ -3,7 +3,6 @@ const validateString = require('../solution/validateString');
 
 
 describe('validateString()', () => {
-
   it('debería ser una función', () => {
     Assert.equal(typeof validateString, 'function');
   });
@@ -12,7 +11,7 @@ describe('validateString()', () => {
     Assert.throws(
       () => validateString(),
       TypeError,
-      'El argumento str debe ser un string'
+      'El argumento str debe ser un string',
     );
   });
 
@@ -20,7 +19,7 @@ describe('validateString()', () => {
     Assert.throws(
       () => validateString(''),
       RangeError,
-      'El argumento str debe tener al menos 4 caracteres'
+      'El argumento str debe tener al menos 4 caracteres',
     );
   });
 
@@ -28,8 +27,7 @@ describe('validateString()', () => {
     Assert.throws(
       () => validateString('abcdefghijk'),
       RangeError,
-      'El argumento str debe tener un máximo de 10 caracteres'
+      'El argumento str debe tener un máximo de 10 caracteres',
     );
   });
-
 });

@@ -1,9 +1,7 @@
 const Assert = require('chai').assert;
 const parseJson = require('../solution/parseJson');
 
-
 describe('parseJson()', () => {
-
   it('debería ser una función', () => {
     Assert.equal(typeof parseJson, 'function');
   });
@@ -18,5 +16,4 @@ describe('parseJson()', () => {
     const result = parseJson('{ "foo": true, "bar": "baz" }');
     Assert.deepEqual(result, { foo: true, bar: 'baz' });
   });
-
 });
