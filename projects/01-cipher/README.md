@@ -246,7 +246,6 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 | Comunicación eficaz | 1
 | Presentaciones | 1
 
-
 ***
 
 ## Primeros pasos
