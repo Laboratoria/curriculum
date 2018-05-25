@@ -54,7 +54,7 @@ Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/
 
 Habilidades blandas:
 
-* Esperamos que en este proyecto puedas pensar en el cliente, entendiendo cuál
+* Esperamos que en este proyecto puedas pensar en el usuario, entendiendo cuál
   es mejor sistema de visualización del data dashboard según sus necesidades.
 * Nos interesa que logres entender a las necesidades de los usuarios para los
   que crearás el producto y los ayudes a resolver esas necesidades.
@@ -306,7 +306,7 @@ dashboard, ayudando a tu compañera con los pendientes, con el fin de entregar u
 proyecto de calidad.
 
 Para el lado de UX Design, puedes crear y testesar un prototipo usando
-softwares de diseño y prototipado como Marvel, Invision, Figma, entre otros.
+softwares de diseño y prototipado como Figma, Marvel, Invision, entre otros.
 
 Features/características extra sugeridas:
 
@@ -333,19 +333,15 @@ Centricity en tus UX skills. Adicionalmente, buscamos que llegues al nivel 2 en
 3 de las habilidades de visual design detalladas aquí y al nivel 3 en 2 de
 ellas. Te aconsejamos revisar la rúbrica.
 
-* **User centricity:** entiendes al usuario a través de la investigación,
-  realizas entrevistas y observas al usuario en ambientes controlados.
-* **Contraste:** diferencias colores de fondo y de texto en los componentes más
-  importantes como títulos y botones, diferenciándolos por su contraste.
-* **Alineación:** alineas los componentes más importantes como títulos, imágenes
-  y botones.
-* **Jerarquías:**  diferencias la importancia de algunos componentes en la
-  interfaz. Sin embargo, no hay consistencia en las jerarquías cuando se cambian
-  los tamaños de pantallas.
-* **Tipografías:** utilizas tipografías distintas a las que vienen por defecto.
-* **Color:** utilizas colores distintos a los que vienen por defecto. Usas
-  distintos colores para textos, botones, fondos, etc.
-* **Usabilidad:** aplicas al menos 3 de las 10 heurísticas de usabilidad de NN.
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| User Centricity | 3 |
+| Contraste | 2 |
+| Alineación | 3 |
+| Jerarquías | 3 |
+| Tipografías | 2 |
+| Color | 2 |
+
 
 ### Habilidades blandas
 
