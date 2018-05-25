@@ -48,6 +48,8 @@ Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/
 [objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects),
 [dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom),
 [xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr),
+[sketching](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual/00-sketching),
+[diseño visual](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual/01-fundamentos-de-diseno-visual)
 ...
 
 Habilidades blandas:
@@ -108,15 +110,6 @@ como toda la configuración de dependencias y tests de ejemplo:
 La carpeta `data/` dentro del _boilerplate_ incluye un extracto de la data que
 podemos usar tanto en los tests como en la interfaz en sí.
 
-Habilidades blandas:
-
-- Esperamos que en este reto puedas pensar en el cliente, entendiendo cuál es
-mejor sistema de visualización del data dashboard según sus necesidades.
-- Nos interesa que logres entender a las necesidades de los usuarios para los que
-crearás el producto y los ayudes a resolver esas necesidades.
-- Además, que puedas trabajar de manera colaborativa con tu pareja, buscando
-feedback constante para realizar el proyecto.
-
 ## Parte obligatoria
 
 ### Definición del producto
@@ -126,15 +119,11 @@ desarrollar tu producto y cuál fue tu proceso para definir el producto final a
 nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
 cuestionarios y/o sketches compártelos. Además, detalla:
 
-* quiénes son los principales usarios de producto
+* quiénes son los principales usarios de este data dashboard
 * cuáles son los objetivos de estos usarios en relación con el producto
-* cuáles son los dato más relevantes que el usuario quiere ver en la interfaz y
-<<<<<<< HEAD
-por qué. Cómo los descubriste.
-=======
-  por qué. Cómo los descubriste.
->>>>>>> d1bebdb3390f3f99d5fee2027fc5ab34b1d5b45b
-* cuándo es que el usuario revisar normalmente estos datos
+* cuáles son los datos más relevantes que estos usuarios quieren ver en la
+  interfaz y por qué. Cómo los descubriste.
+* cuándo es que el usuario revisa normalmente estos datos
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 * cómo fue tu proceso de diseño
@@ -302,7 +291,7 @@ trabajo y los demás lo comprendan.
 ## Hacker edition
 
 Desde Laboratoria creemos que para llevar tu data dashboard al siguiente nivel
-necesitas trabajar en equipo y buscar feedback. 
+necesitas trabajar en equipo y buscar feedback.
 
 Para eso buscas instancias de feedback o code review, entregando tu opinión a
 los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a
