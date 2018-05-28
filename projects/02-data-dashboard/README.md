@@ -387,9 +387,42 @@ interfaz será desplegada usando GitHub pages.
 
 ## Evaluación
 
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
+
+### General
+
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
+| Completitud | 3
+| Investigación | 3
+| Documentación | 2
+
 ### Tech
 
-[tbd]
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 3
+| Nomenclatura/semántica | 2
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
+| Tests | 2
+| **HTML** | |
+| Validación | 3
+| Estilo | 3
+| Semántica | 2
+| SEO | 0
+| **CSS** | |
+| DRY | 2
+| Responsive | 2
+| **SCM** | |
+| Git | 3
+| GitHub | 2
+| **CS** | |
+| Lógica | 1
+| Arquitectura | 2
+| Patrones/paradigmas | 0
 
 ### UX
 
