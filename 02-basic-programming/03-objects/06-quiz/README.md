@@ -117,7 +117,7 @@ console.log(movie.stars[2]);
 
 1. Michael J. Fox
 2. Christopher Lloyd
-3. Leia Thompson
+3. Lea Thompson
 4. indefinido
 
 <solution style="display:none;">3</solution>
@@ -165,9 +165,9 @@ console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 
 #### Opções
 
-1. A variável `newArray`não pode estar vazia
-2. A variável `i`deve começar em`1`
-3. Deve ser usado em `push`vez de`pop`
-4. Deve ser usado em `console.log`ao invés de`return`
+1. A variável `newArray` não pode estar vazia
+2. A variável `i` deve começar em `1`
+3. Deve ser usado em `push` vez de `pop`
+4. Deve ser usado em `console.log` ao invés de `return`
 
 <solution style="display:none;">3</solution>
