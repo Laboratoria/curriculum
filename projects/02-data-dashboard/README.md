@@ -89,17 +89,17 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .gitignore
 ├── README.md
 ├── data
-│   ├── cohorts
-│   │   └── lim-2018-03-pre-core-pw
-│   │       ├── progress.json
-│   │       └── users.json
-│   └── cohorts.json
+│   ├── cohorts
+│   │   └── lim-2018-03-pre-core-pw
+│   │       ├── progress.json
+│   │       └── users.json
+│   └── cohorts.json
 ├── package.json
 ├── src
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 └── test
     ├── data.spec.js
     ├── fixtures.js
@@ -298,7 +298,7 @@ cohorte. Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo
 método que usarías si es que estuvieses haciendo una llamada HTTP o a una API,
 pero usando una dirección **relativa**, ejemplo:
 
-```
+```js
 "../data/cohorts.json"
 ```
 
@@ -316,7 +316,7 @@ especial para los test y es una manera de ver el resultado de tus pruebas
 unitarias, pero en el navegador. Para arrancar las pruebas de esta forma,
 escribe en tu consola:
 
-```
+```sh
 npm run test-browser
 ```
 
@@ -406,7 +406,6 @@ ellas. Te aconsejamos revisar la rúbrica.
 | Jerarquías | 3 |
 | Tipografías | 2 |
 | Color | 2 |
-
 
 ### Habilidades blandas
 
