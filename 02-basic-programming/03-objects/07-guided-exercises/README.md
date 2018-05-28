@@ -114,4 +114,3 @@ alert(str); // o assento 2 e 3 estão reservados.
 ```
 
 **Nota: Todos os desafios devem validar as entradas antes de executar o programa.**
-

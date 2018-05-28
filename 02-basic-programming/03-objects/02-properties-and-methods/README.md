@@ -193,4 +193,3 @@ console.table(weblogs);
 ```
 
 ![exemplo de impress&#xE3;o de objeto](<https://fotos.subefotos.com/de796098c6f18cacb29ae58269219f4fo.png>)
-

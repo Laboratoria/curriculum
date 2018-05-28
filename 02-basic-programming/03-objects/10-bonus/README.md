@@ -8,7 +8,7 @@
 
 ## Desafios de código extras
 
-* Se você já tiver concluído todos os desafios de código da unidade e quiser continuar praticando, conclua os desafios abaixo \(se fizer, poderia ganhar a insígnia de proatividade\):
+* Se você já tiver concluído todos os desafios de código da unidade e quiser continuar praticando, conclua os desafios abaixo (se fizer, poderia ganhar a insígnia de proatividade):
 
 ## 1. Replit \(Bônus opcional\)
 

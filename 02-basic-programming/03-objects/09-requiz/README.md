@@ -14,7 +14,7 @@
 
 ### 1\) Para que os objetos são úteis?
 
-**Opções**
+#### Opções
 
 1. Para deixar de usar _arrays_ e variáveis
 2. Para poder usar repositórios em `Git`
@@ -25,7 +25,7 @@
 
 ### 2\) Qual das seguintes afirmações sobre Objetos é correta? Você pode selecionar uma ou mais opções.
 
-**Opções**
+#### Opções
 
 1. As propriedades devem sempre ser colocadas entre aspas
 2. Nós não devemos incluir um _array_ como propriedade
@@ -36,7 +36,7 @@
 
 ### 3\) Podemos acessar os valores de um objeto usando colchetes `[]`ou usando ponto`.`.
 
-**Opções**
+#### Opções
 
 1. Verdadeiro
 2. Falso
@@ -45,7 +45,7 @@
 
 ### 4\) Os métodos são \_\_\_\_\_\_\_\_\_\_\_\_\_ que contêm \_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Opções**
+#### Opções
 
 1. propriedades - funções
 2. funções - propriedades
@@ -67,7 +67,7 @@ var movie = {
 console.log(movie.tags[1]);
 ```
 
-**Opções**
+#### Opções
 
 1. Adventure
 2. Comedy
@@ -89,7 +89,7 @@ var movie = {
 };
 ```
 
-**Opções**
+#### Opções
 
 1. A propriedade `tags` não pode estar vazia
 2. As aspas `' '` da propriedade `other awards` estão sobrando
@@ -97,4 +97,3 @@ var movie = {
 4. Não há erro
 
 <solution style="display:none;">3</solution>
-

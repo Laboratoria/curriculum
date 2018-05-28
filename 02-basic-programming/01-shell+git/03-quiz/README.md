@@ -12,9 +12,9 @@ Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e f
 
 ## Preguntas
 
-**1\) **`Git`** é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.**
+### 1\) **`Git`** é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
-Opções:
+#### Opções
 
 1. Sistema de código _online_
 2. Sistema que controla o `GitHub`
@@ -23,9 +23,9 @@ Opções:
 
 <solution style="display:none;">3</solution>
 
-**2\) Dos enunciados a seguir, qual NÃO se relaciona com **`GitHub`**?**
+### 2\) Dos enunciados a seguir, qual NÃO se relaciona com **`GitHub`**?
 
-Opções:
+#### Opções
 
 1. Uma rede onde podemos manter nossas contas unificadas
 2. Um sistema de acompanhamento de problemas
@@ -34,9 +34,9 @@ Opções:
 
 <solution style="display:none;">1</solution>
 
-**3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão**_** ao nosso repositório remoto, enquanto que **_**\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao **_**último commit**_** registrado no repositório remoto.**
+### 3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão**_** ao nosso repositório remoto, enquanto que **_**\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao **_**último commit**_** registrado no repositório remoto.
 
-Opções:
+#### Opções
 
 1. `add` - `update`
 2. `update` - `add`
@@ -45,9 +45,9 @@ Opções:
 
 <solution style="display:none;">3</solution>
 
-**4\) Qual dos seguintes comandos são do **`Git`**? Você pode escolhar mais do que um.**
+### 4\) Qual dos seguintes comandos são do **`Git`**? Você pode escolhar mais do que um.
 
-Opções:
+#### Opções
 
 1. `git update nome-ramo`
 2. `git status`
@@ -58,33 +58,31 @@ Opções:
 
 <solution style="display:none;">2,3,5</solution>
 
-**5\) Para que serve a linha de comandos?**
+### 5\) Para que serve a linha de comandos?
 
-Opções:
+#### Opções
 
 1. Para usar os comandos e transformar nossos archivos `.js` em `.git`
 2. Para refatorar nosso código e enviá-lo sem a necessidade de usar `GitHub`
-3. Para criar novos comandos de `Git` e `GitHub` e, posteriormente, dar suporte
-   a eles
-4. Para visualizar, gerenciar e manipular arquivos de nosso computador por meio
-   de comandos
+3. Para criar novos comandos de `Git` e `GitHub` e, posteriormente, dar suporte a eles
+4. Para visualizar, gerenciar e manipular arquivos de nosso computador por meio de comandos
 
 <solution style="display:none;">4</solution>
 
-**6\) Das opções abaixo, qual\(is\) se aplica\(m\) ao **`GitHub`**?**
+### 6\) Das opções abaixo, qual\(is\) se aplica\(m\) ao **`GitHub`**?
 
-Opções:
+#### Opções
 
 1. Um visualizador de versões
 2. Um Sistema de Controle de Versões
 3. Uma ferramenta de revisão de código
 4. Uma rede onde podemos manter nossas contas unificadas
 
-<solution style="display:none;">1, 3</solution>
+<solution style="display:none;">1,3</solution>
 
-**7\) Qual a diferença entre **`Git`** e **`Github`**?**
+### 7\) Qual a diferença entre **`Git`** e **`Github`**?
 
-Opções:
+#### Opções
 
 1. `Git` só server como rede social e `Github` armazena extensões de arquivos
 2. `Github` armazena os arquivos JavaScript enquanto que o `Git`, arquivos
@@ -95,9 +93,9 @@ Opções:
 
 <solution style="display:none;">4</solution>
 
-**8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.**
+### 8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.
 
-Opções:
+#### Opções
 
 1. `commit` - `add`
 2. `add` - `commit`
@@ -105,4 +103,3 @@ Opções:
 4. `adding` - `confirm`
 
 <solution style="display:none;">2</solution>
-

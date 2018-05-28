@@ -38,4 +38,3 @@ A seguir, Lourdes lhe explicará como ela resolveu cada um dos exercícios anter
 ### 2. Search
 
 [![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
-

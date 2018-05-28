@@ -63,4 +63,3 @@ Em seguida, Michelle dirá como usar _funções_, _estruturas de repetição_ e 
 3. Os nomes das alunas que fizeram o curso **"JS avançado"**
 
 [![V&#xED;deo sobre arrays com objects](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)
-

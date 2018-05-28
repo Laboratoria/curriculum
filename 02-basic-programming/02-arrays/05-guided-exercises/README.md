@@ -29,7 +29,7 @@ Agora, modifique a função de intervalo \(`range`\) para receber um terceiro ar
 
 Crie uma função que ordene um vetor de números, do menor para o maior. Dica: use o algoritmo [_selection sort_](https://pt.wikipedia.org/wiki/Selection_sort). Pesquise outros algoritmos de ordenação \(por exemplo: [_insertion sort_](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) e [_bubble sort_](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)\).
 
-Agora que você já sabe ordenar um _array_, escreva uma função que busque um elemento em um vetor ordenado usando o algoritmo de busca binária \(lembre-se de que Lourdes explicou o conceito de _Binary Search_ na seção de [casos práticos](https://github.com/cemsbr/curricula-js/tree/c6998931224de18024ff94fef6b5e22187e52577/02-basic-programming/02-arrays/05-guided-exercises/08-practical-cases/README.md)\).
+Agora que você já sabe ordenar um _array_, escreva uma função que busque um elemento em um vetor ordenado usando o algoritmo de busca binária \(lembre-se de que Lourdes explicou o conceito de _Binary Search_ na seção de [casos práticos](03-guided-exercises)\).
 
 ### 3. Remoção de Duplicações
 

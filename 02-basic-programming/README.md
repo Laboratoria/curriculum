@@ -69,4 +69,3 @@ Aplique o que você aprendeu criando dois programas que com aplicação em nosso
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke de 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
-
