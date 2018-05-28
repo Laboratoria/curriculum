@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Malla curricular Full Stack JavaScript @Laboratoria",
   "scripts": {
-    "pretest": "mdlint .",
-    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
-    "eslint": "eslint topics/javascript"
+    "mdlint": "mdlint .",
+    "eslint": "eslint topics/javascript",
+    "pretest": "npm run mdlint && npm run eslint",
+    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [

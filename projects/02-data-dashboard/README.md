@@ -48,11 +48,13 @@ Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/
 [objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects),
 [dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom),
 [xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr),
+[sketching](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual/00-sketching),
+[diseño visual](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual/01-fundamentos-de-diseno-visual)
 ...
 
 Habilidades blandas:
 
-* Esperamos que en este proyecto puedas pensar en el cliente, entendiendo cuál
+* Esperamos que en este proyecto puedas pensar en el usuario, entendiendo cuál
   es mejor sistema de visualización del data dashboard según sus necesidades.
 * Nos interesa que logres entender a las necesidades de los usuarios para los
   que crearás el producto y los ayudes a resolver esas necesidades.
@@ -87,17 +89,17 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .gitignore
 ├── README.md
 ├── data
-│   ├── cohorts
-│   │   └── lim-2018-03-pre-core-pw
-│   │       ├── progress.json
-│   │       └── users.json
-│   └── cohorts.json
+│   ├── cohorts
+│   │   └── lim-2018-03-pre-core-pw
+│   │       ├── progress.json
+│   │       └── users.json
+│   └── cohorts.json
 ├── package.json
 ├── src
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 └── test
     ├── data.spec.js
     ├── fixtures.js
@@ -117,11 +119,11 @@ desarrollar tu producto y cuál fue tu proceso para definir el producto final a
 nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
 cuestionarios y/o sketches compártelos. Además, detalla:
 
-* quiénes son los principales usarios de producto
+* quiénes son los principales usarios de este data dashboard
 * cuáles son los objetivos de estos usarios en relación con el producto
-* cuáles son los dato más relevantes que el usuario quiere ver en la interfaz y
-  por qué. Cómo los descubriste.
-* cuándo es que el usuario revisar normalmente estos datos
+* cuáles son los datos más relevantes que estos usuarios quieren ver en la
+  interfaz y por qué. Cómo los descubriste.
+* cuándo es que el usuario revisa normalmente estos datos
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 * cómo fue tu proceso de diseño
@@ -152,12 +154,24 @@ contraste, alineación, jerarquía, entre otros.
 
 ## Implementación
 
-El corazón de este proyecto es la manipulación de datos a través de arreglos y
-objetos. El _boilerplate_ incluye tests que esperan que implementes las
-siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
-script `src/data.js`:
+### `src/data.js`
 
-### `computeUsersStats(users, progress, courses)`
+El corazón de este proyecto es la manipulación de datos a través de arreglos y
+objetos. La idea de este archivo es contener toda la funcionalidad
+que corresponda a obtener, procesar y manipular datos.
+
+Parte de un buen proyecto es que esté ordenado y que otras programadoras puedan
+acceder a el código rápidamente. Es por esto que este orden no es casualidad y
+es una convención donde tratamos de separar responsabilidades entre diferentes
+componentes o partes de nuestra aplicación, como por ejemplo en el patrón MVC o
+Modelo Vista Controlador.
+
+El _boilerplate_ incluye tests que esperan que implementes las
+siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
+script `src/data.js`, ten en cuenta que esto es solo lo básico, si necesitas más
+funciones puedes hacerlo:
+
+#### `computeUsersStats(users, progress, courses)`
 
 Esta función es la responsable de "crear" la lista de usuarios (estudiantes)
 que vamos a "pintar" en la pantalla. La idea es "recorrer" el arreglo de
@@ -166,7 +180,7 @@ uno. La función debe devolver un nuevo arreglo de usuarios donde a cada objeto
 de usuario se le debe agregar una _propiedad_ con el nombre `stats` con las
 estadísticas calculadas.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos obtenido de la data en bruto.
 * `progress`: Objeto de progreso en bruto. Contiene una llave para cada usuario
@@ -175,7 +189,7 @@ estadísticas calculadas.
   cuestión. Esta data se puede extraer de la propiedad `coursesIndex` de los
   objetos que representan los _cohorts_.
 
-#### Valor de retorno
+##### Valor de retorno
 
 Un arreglo de objetos _usuario_ con la propiedad `stats`, la cual debe ser un
 objeto con las siguientes propiedades:
@@ -199,12 +213,12 @@ objeto con las siguientes propiedades:
     completados.
   - `scoreAvg`: Promedio de puntuaciones en quizzes completados.
 
-### `sortUsers(users, orderBy, orderDirection)`
+#### `sortUsers(users, orderBy, orderDirection)`
 
 La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada con
 `computeUsersStats()` en base a `orderBy` y `orderDirection`.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `orderBy`: String que indica el criterio de ordenado. Debe permitir ordenar
@@ -214,31 +228,31 @@ La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada co
 * `orderDirection`: La dirección en la que queremos ordenar. Posibles valores:
   `ASC` y `DESC` (ascendiente y descendiente).
 
-#### Valor de retorno
+##### Valor de retorno
 
 Arreglo de usuarios ordenado.
 
-### `filterUsers(users, search)`
+#### `filterUsers(users, search)`
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `search`: String de búsqueda.
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios incluyendo solo aquellos que complan la condición de
 filtrado, es decir, aquellos que contengan el string _search_ en el nombre
 (`name`) del usuario.
 
-### `processCohortData(options)`
+#### `processCohortData(options)`
 
 Esta función es la que deberíamos estar al seleccionar un cohort y cada vez que
 el usuario cambia los criterios de ordenado y filtrado en la interfaz. Esta
 función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
 `filterUsers()`.
 
-#### Argumentos
+##### Argumentos
 
 * `options`: An object with the following keys:
   - `cohort`: Objeto cohort (de la lista de cohorts)
@@ -250,15 +264,68 @@ función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
   - `orderDirection`: String con dirección de ordenado (ver `computeUsersStats`).
   - `search`: String de búsqueda (ver `filterUsers`)
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios _ordenado_ y _filtrado_ con la propiedad `stats`
 añadida (ver `computeUsersStats`).
 
-### Tests
+### `src/main.js`
 
-Tendrás también que completar las pruebas unitarias de estas funciones que se
-incluyen en el _boilerplate_.
+Ten en cuenta también que existe otro archivo `src/main.js` que no está solo por
+casualidad en la estructura del proyecto. En general es una buena idea ir
+separando la funcionalidad en varios archivos, ya que a medida que un proyecto
+crece, se vuelve insostenible dejar todo en un solo archivo. En este caso puedes
+usar `main.js` para todo tu código que tenga que ver con mostrar los datos en la
+pantalla, y `data.js` para todas las funciones que vimos que obtienen y
+manipulan los datos.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+### `src/index.html`
+
+Al igual que en el proyecto anterior, también existe un archivo `index.html`.
+Como ya sabrás, acá va la página que se mostrará al usuario de este tablero de
+información. También nos sirve para indicar qué scripts se usarán y unir todo lo
+que hemos hecho.
+
+### `data/`
+
+En esta carpeta están los datos de prueba del proyecto, contiene información
+sobre los cohortes (grupos de alumnas de una generación y rama en particular),
+estudiantes y su progreso en cada uno de los cursos que son parte de cada
+cohorte. Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo
+método que usarías si es que estuvieses haciendo una llamada HTTP o a una API,
+pero usando una dirección **relativa**, ejemplo:
+
+```js
+"../data/cohorts.json"
+```
+
+### `test/`
+
+Tendrás también que completar las pruebas unitarias de las funciones
+implementadas en `src/data.js`, que encontrarás en el archivo `data.spec.js`.
+Si te fijas bien en la carpeta también encontrarás otros archivos, que
+detallaremos a continuación:
+
+#### `test/index.html`
+
+No confundas este archivo con tu `index.html` del proyecto, este archivo es
+especial para los test y es una manera de ver el resultado de tus pruebas
+unitarias, pero en el navegador. Para arrancar las pruebas de esta forma,
+escribe en tu consola:
+
+```sh
+npm run test-browser
+```
+
+Una página se abrirá en tu navegador conteniendo los resultados de las pruebas.
+
+#### `test/fixtures.js`
+
+Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es
+donde está el set de datos de prueba que se usarán para correr las pruebas.
 
 ### Habilidades blandas
 
@@ -304,7 +371,7 @@ dashboard, ayudando a tu compañera con los pendientes, con el fin de entregar u
 proyecto de calidad.
 
 Para el lado de UX Design, puedes crear y testesar un prototipo usando
-softwares de diseño y prototipado como Marvel, Invision, Figma, entre otros.
+softwares de diseño y prototipado como Figma, Marvel, Invision, entre otros.
 
 Features/características extra sugeridas:
 
@@ -320,9 +387,42 @@ interfaz será desplegada usando GitHub pages.
 
 ## Evaluación
 
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
+
+### General
+
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
+| Completitud | 3
+| Investigación | 3
+| Documentación | 2
+
 ### Tech
 
-[tbd]
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 3
+| Nomenclatura/semántica | 2
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
+| Tests | 2
+| **HTML** | |
+| Validación | 3
+| Estilo | 3
+| Semántica | 2
+| SEO | 0
+| **CSS** | |
+| DRY | 2
+| Responsive | 2
+| **SCM** | |
+| Git | 3
+| GitHub | 2
+| **CS** | |
+| Lógica | 1
+| Arquitectura | 2
+| Patrones/paradigmas | 0
 
 ### UX
 
@@ -331,19 +431,14 @@ Centricity en tus UX skills. Adicionalmente, buscamos que llegues al nivel 2 en
 3 de las habilidades de visual design detalladas aquí y al nivel 3 en 2 de
 ellas. Te aconsejamos revisar la rúbrica.
 
-* **User centricity:** entiendes al usuario a través de la investigación,
-  realizas entrevistas y observas al usuario en ambientes controlados.
-* **Contraste:** diferencias colores de fondo y de texto en los componentes más
-  importantes como títulos y botones, diferenciándolos por su contraste.
-* **Alineación:** alineas los componentes más importantes como títulos, imágenes
-  y botones.
-* **Jerarquías:**  diferencias la importancia de algunos componentes en la
-  interfaz. Sin embargo, no hay consistencia en las jerarquías cuando se cambian
-  los tamaños de pantallas.
-* **Tipografías:** utilizas tipografías distintas a las que vienen por defecto.
-* **Color:** utilizas colores distintos a los que vienen por defecto. Usas
-  distintos colores para textos, botones, fondos, etc.
-* **Usabilidad:** aplicas al menos 3 de las 10 heurísticas de usabilidad de NN.
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| User Centricity | 3 |
+| Contraste | 2 |
+| Alineación | 3 |
+| Jerarquías | 3 |
+| Tipografías | 2 |
+| Color | 2 |
 
 ### Habilidades blandas
 
