@@ -9,6 +9,9 @@
 En esta unidad aprenderemos:
 
 - ¿Qué es el DOM y para qué nos sirve?
+- ¿Qué es un nodo?
+- ¿Qué es el árbol de nodos?
+- ¿Cómo identificas los diferentes tipos de nodos?
 - Conocer las siguientes propiedades de los nodos del DOM:
   - `parentNode`
   - `childNodes`
