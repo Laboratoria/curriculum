@@ -227,3 +227,8 @@ Así, para eliminar un nodo de una página XHTML se invoca a la función
 `removeChild()` desde el valor parentNode del nodo que se quiere eliminar.
 Cuando se elimina un nodo, también se eliminan automáticamente todos los nodos
 hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
+
+## Recapitulando
+
+Prepara tu editor de código y replica lo que realiza Lulú en el sigueinte video
+[![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)

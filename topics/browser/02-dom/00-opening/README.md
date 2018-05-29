@@ -40,7 +40,7 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 
 - ¿Qué es el DOM?
 - ¿Qué es un selector?
-- ¿Cuál es la diferencia entre document.getElementById y
+- ¿Cuál es la diferencia entre document.getElementById
   document.getElementsByClassName?
 - ¿Cómo preguntamos por los hijos de un elemento usando el DOM?
 - ¿Cómo preguntamos por el padre de un elemento usando el DOM?
