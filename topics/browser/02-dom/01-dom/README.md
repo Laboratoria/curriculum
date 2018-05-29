@@ -63,9 +63,6 @@ Página Web (1)| Árbol de Nodos DOM (2)
 
 ## Tipos de Nodos
 
-Primero, cada vez que hablemos de `nodos` en realidad nos estamos refiriendo a un __objeto__ y como recordarás, los objetos
-tienen __propiedades y métodos__. Por lo tanto los `nodos` tienen propiedades y métodos que te ayudarán a identificarlos.
-
 La transformación automática de la página en un árbol de nodos siempre sigue las mismas reglas.
 
 - `Las etiquetas XHTML se transforman en dos nodos`
@@ -202,7 +199,10 @@ Analizando la misma imagen de arriba:
 
 ## Propiedades de los nodos
 
-Los nodos del DOM, al ser objetos, poseen propiedades las cuales te ayudarán a identificar su nombre, tipo y valor.
+Primero, cada vez que hablemos de `nodos` en realidad nos estamos refiriendo a un __objeto__ y como recordarás, los objetos
+tienen __propiedades y métodos__. Por lo tanto los `nodos` tienen propiedades y métodos que te ayudarán a identificarlos.
+
+A continuación te presentamos tres propiedades de los nodos las cuales te ayudarán a identificar su nombre, tipo y valor.
 
 - **nodeName**, indica el nombre del nodo.
 
@@ -216,7 +216,7 @@ Los nodos del DOM, al ser objetos, poseen propiedades las cuales te ayudarán a 
 
 ## Recapitulando
 
-Prepara tu editor de código y replica lo que realiza Lulú en el siguiente video
+Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y refuerza lo aprendido.
 
 [![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
