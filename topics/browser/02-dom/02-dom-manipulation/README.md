@@ -16,7 +16,7 @@ En esta unidad aprenderemos:
   * `document.querySelector()`
   * `document.querySelectorAll()`
 
-## Métodos de selección de nodos del DOM
+## Selección de nodos del DOM
 
 Una vez construido automáticamente el árbol completo de nodos DOM, ya es
 posible utilizar las funciones DOM para acceder de forma directa a cualquier
@@ -50,7 +50,7 @@ solamente se ejecute cuando el navegador ha cargado entera la página XHTML.
 
 Por último, te recomendamos que pruebes los siguientes métodos replicando el código en tu editor favorito.
 
-### getElementById()
+### **getElementById()**
 
 La función `getElementById()` es la más utilizada cuando se desarrollan
 aplicaciones web dinámicas. Se trata de la función preferida para acceder
@@ -78,7 +78,7 @@ el nodo deseado.
 const firstItem = document.getElementById("highlight");
 ```
 
-### getElementsByClassName()
+### **getElementsByClassName()**
 
 La función `getElementsByClassName()` devuelve una lista de elementos XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
 
@@ -99,7 +99,7 @@ La función `getElementsByClassName()` devuelve una lista de elementos XHTML cuy
 const items = document.getElementsByClassName("bolded");
 ```
 
-### getElementsByTagName()
+### **getElementsByTagName()**
 
 Como sucede con todas las funciones que proporciona DOM, la función `
 getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
@@ -135,7 +135,7 @@ console.log(listItems[2]);
 
 ```
 
-### querySelector()
+### **querySelector()**
 
 Función que retorna el primer elemento que coincide con el selector CSS dado como parámetro.
 
@@ -174,7 +174,7 @@ const title = document.querySelector('h2');
 console.log(title);
 ```
 
-### querySelectorAll()
+### **querySelectorAll()**
 
 Función que retorna una lista de elementos que coinciden con el selector CSS dado como parámetro.
 
@@ -207,7 +207,7 @@ console.log(items);
 
 ## Recapitulando
 
-Prepara tu editor de código y replica lo que realiza Lulú en el sigueinte video
+Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y refuerza lo aprendido.
 
 [![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
 
