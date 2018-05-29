@@ -1,38 +1,40 @@
 # 11 - Practical Cases
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `2h`
+## 11 - Casos Práticos
 
-## Objetivos
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `2h`
 
-* Entender, a través de un caso práctico, cómo crear estructuras en la web con
+### Objetivos
 
-  `html` y a darle estilos con `css`
+* Entender, por meio de um estudo de caso, como criar estruturas na web com `html` e dar estilos com `css`
 
-## Enunciado
+### Enunciado
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para resolver problemas reales.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas reais.
 
-Imagina que estás creando tu primera web interactiva y quieres hacerle un menú de navegación. Tu equipo de diseño te ha pasado estos demos para que repliques:
+Imagine que você está criando seu primeiro site interativo e deseja fazer um menu de navegação. Sua equipe de projeto passou essas demonstrações para você replicar:
 
-### 1. Menú Vertical
+### 1. Menu Vertical
 
-![Demo Menu vertical](https://fotos.subefotos.com/3b523ebdaaa3e207adb555eaa26b8351o.gif)
+![Demonstra&#xE7;&#xE3;o vertical do menu](https://camo.githubusercontent.com/5d0c8b0ad03f9e4fba6dab756662e2223cf6bb39/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f33623532336562646161613365323037616462353535656161323662383335316f2e676966)
 
-### 2. Menú Horizontal
+### 2. Menu horizontal
 
-![Demo Menu horizontal](https://fotos.subefotos.com/9da8149c853131e7e7282a30c9dc37e6o.gif)
+![Menu Demo horizontal](https://camo.githubusercontent.com/c655dc275ffa32e2b2d4140084dd77cf6996ceef/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f39646138313439633835333133316537653732383261333063396463333765366f2e676966)
 
-## Solucionario
+### Soluções
 
-A continuación, Lulu te explica cómo resolvió este reto:
+Em seguida, Lulu explica como resolveu esse desafio:
 
-### 1. Solución Menú Vertical
+#### 1. Menu Vertical da Solução
 
-![Vertical](https://img.youtube.com/vi/tk6DAx5Crn4/0.jpg)
+![Vertical](https://camo.githubusercontent.com/2f0cee16b4888ac7aead1cdc37a453bffae8afa8/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f746b364441783543726e342f302e6a7067)
 
-### 2. Solución Menú Horizontal
+#### 2. Menu Horizontal da Solução
 
-![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)
+![Horizontal](https://camo.githubusercontent.com/9b46b576bbcb71decca2214a52b9ea73b63dead8/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f32627271624839347a34302f302e6a7067)
+
+
 

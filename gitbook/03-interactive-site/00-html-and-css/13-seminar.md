@@ -2,7 +2,7 @@
 
 ## 13 - Seminário
 
-* Tipo: `seminario`
+* Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `4h`
 

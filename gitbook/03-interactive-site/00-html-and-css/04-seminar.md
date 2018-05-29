@@ -1,34 +1,33 @@
 # 04 - Seminar
 
-* Tipo: `seminario`
+## 04 - Seminário
+
+* Tipo: `seminário`
 * Formato: `guiado`
-* Duración: `2h`
+* Duração: `2h`
 
-## Objetivos
+### Objetivos
 
-* Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
+* Revisar e consolidar os conceitos aprendidos em uma aula com seu equipe de professores
+* Esclarecer todas as dúvidas que você tem!
 
-  equipo de profesores
+### Agenda
 
-* ¡Aclarar todas las dudas que tengas!
+#### 1. Revisão de conceitos gerais
 
-## Agenda
+Certifique-se de que entendemos bem os seguintes conceitos:
 
-### 1. Repaso de conceptos generales
-
-Asegurar que entendemos bien los siguientes conceptos:
-
-* Anidamiento HTML y herencia en CSS
-* Mecanismo de cascada en CSS
-* Creando estructura con `div`s y HTML semántico
+* Aninhando HTML e herança em CSS
+* Mecanismo de cascata no CSS
+* Criando estrutura com `div`s e HTML semântico
 * Atributos de elementos HTML
-* Selectores y pseudo-selectores
-* Valores y unidades
-* Modelo de la caja y display
+* Seletores e pseudo-seletores
+* Valores e unidades
+* Modelo da caixa e display
 
-### 2. Repasar los ejemplos de las lecturas de MDN
+#### 2. Revise os exemplos das leituras do MDN
 
-Revisemos los ejemplos de código de la documentación de MDN \(ejemplos en codepen\) y modifiquemos algunos para asegurar que entendemos bien lo que leemos.
+Vamos revisar os exemplos de código da documentação do MDN \(exemplos no codepen\) e modificar alguns para garantir que entendemos bem o que lemos.
 
-### 3. Revisemos los [ejercicios guiados](https://github.com/cemsbr/curricula-js/tree/497e00c1436397b61e987bd3c548bc0f496d90e8/03-interactive-site/00-html-and-css/04-seminar/05-guided-exercises/README.md)
+#### 3. Vamos rever os [exercícios guiados](https://github.com/cemsbr/curricula-js/tree/497e00c1436397b61e987bd3c548bc0f496d90e8/03-interactive-site/00-html-and-css/04-seminar/05-guided-exercises/README.md)
 

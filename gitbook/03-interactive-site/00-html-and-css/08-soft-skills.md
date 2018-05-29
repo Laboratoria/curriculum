@@ -1,41 +1,32 @@
 # 08 - Soft Skills
 
-* Tipo: `taller`
+## 08 - Soft Skills 4
+
+* Tipo: `oficina`
 * Formato: `guiado`
-* Duración: `180min`
+* Duração: `180min`
 
-## Objetivos
+### Objetivos
 
-* Comprender que podemos afrontar el estrés utilizando herramientas de
+* Entender que podemos lidar com o estresse usando ferramentas de organização, planejamento e _mindfulness_
+* Entender que podemos resolver concretamente as dificuldades que temos em um nível pessoal para organizar o tempo e, assim, trazer à consciência quais são os pontos que devo trabalhar para melhorar seu nível de eficiência.
+* Conhecer ferramentas de organização e planejamento: trello, slack e google calendars
+* Conhecer as diferentes técnicas de meditação e _mindfulness_
+* Entender o que é _mindfulness_ e entender sua utilidade
+* Familiarizar-se com diferentes técnicas de _mindfullness_
 
-  organización, planificación y mindfulness
+### Agenda
 
-* Comprender que podemos plantear de forma concreta las dificultades que tenemos
+* Dinâmica de "emoções compartilhadas"
+* Atividade de autorrelato de organização e planejamento
+* Apresentação teórica sobre organização e planejamento
+* Vídeos sobre _mindfullness_
+* Apresentação sobre _mindfullness_
+* Abordagem para diferentes técnicas de meditação
+* Encerramento e reflexão final
 
-  a nivel personal para organizar el tiempo y, así, traer a la consciencia
+### Material
 
-  cuales son los puntos que debo trabajar para mejorar tu nivel de eficiencia
-
-* Que conozcas herramientas de organización y planificación: trello, slack y
-
-  google calendars
-
-* Que conozcas las diferentes técnicas de meditación y mindfulness
-* Entender qué es mindfullness y comprender su utilidad
-* Familiarizarnos con diferentes técnicas de mindfullness
-
-## Agenda
-
-* Dinámica de "emociones compartidas"
-* Actividad de autoreporte de organización y planificación
-* Presentación teórica sobre organización y planificación
-* Videos sobre mindfullness
-* Presentación sobre mindfullness
-* Acercamiento a diferentes técnicas de meditación
-* Cierre y reflexión final
-
-## Material
-
-* [Taller IV. Organización, planificación y mindfullness](https://docs.google.com/presentation/d/1M8hXnxLlzBwenINyqKZUqUDBqQ3x42bzh_gZAuT7aa8/edit?usp=sharing)
-* [Video de mindfullness](https://www.youtube.com/watch?v=w6T02g5hnT4&feature=youtu.be)
+* [Workshop IV. Organização, planejamento e mindfullness](https://docs.google.com/presentation/d/1M8hXnxLlzBwenINyqKZUqUDBqQ3x42bzh_gZAuT7aa8/edit?usp=sharing)
+* [Vídeo Mindfulness](https://www.youtube.com/watch?v=w6T02g5hnT4&feature=youtu.be)
 

@@ -1,52 +1,36 @@
 # 19 - Closing
 
-* Tipo: `seminario`
+## 19 - Encerramento
+
+* Tipo: `seminário`
 * Formato: `guiado`
-* Duración: `120min`
+* Duração: `120min`
 
-## Agenda
+### Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+#### 1. Revisemos o que aprendemos até agora
 
-### 2. Conversemos sobre el sentimiento de la clase \(`auto-evaluación`\)
+#### 2. Conversemos sobre o sentimento da classe \(`auto-avaliação`\)
 
-### 3. Respondamos las preguntas del opening
+#### 3. Vamos responder às perguntas iniciais
 
-* ¿Cuál es la estructura básica \(elementos principales\) de un archivo
-
-  `html`? Haz un dibujo de esta estructura en la pizarra
-
-* ¿Cómo vinculamos nuestro `html` con nuestro `js` y con nuestro `css`?
-
-  ¿Qué convenciones debemos seguir al hacer esto? ¿Por qué?
-
-* ¿Qué significa que `css` es en "cascada"? ¿Por qué es útil? Haz un dibujo
-* ¿Cómo funciona la herencia en `css`? Haz un dibujo
-* ¿Por qué se dice que el `html` es anidado? Haz un dibujo
-* ¿Qué significa crear `html` semántico? ¿Por qué es importante?
-* Dame un par de ejemplos de buenas prácticas de código html
-* ¿Qué significa que un elemento `html` se comporte como `block`? ¿Y como
-
-  `inline`? Dame un par de ejemplos
-
-* ¿Qué es un atributo de un elemento `html`? Dame un ejemplo
-* Pensando en la analogía de construir un edificio, ¿qué representa el
-
-  `html` y qué representa el `css`?
-
-* ¿Para qué sirve el atributo style de los elementos `html`? ¿Cuál es la
-
-  forma correcta de usarlo?
-
-* ¿Qué es un selector? ¿Qué es un pseudo-selector?
-* ¿Qué es `box-sizing` y para qué se usa?
-* Dibuja el modelo de la caja y explícalo
-* ¿Cómo es el flujo normal de un documento? ¿Cómo cambiamos ese flujo?
-* ¿Para qué funciona `positioning`? ¿En qué se asemeja a `float`? ¿En qué se
-
-  diferencia?
-
-* ¿Qué tiene que ver `clear` y `clearfix` con `float`?
-* ¿Por qué `clearfix` se considera un "hack"? ¿Para qué sirve? ¿Cómo se usa?
-* ¿Qué es colapso de margen? Explícalo con un ejemplo y un dibujo
+* Qual é a estrutura básica \(elementos principais\) de um arquivo `html`? Desenhe uma imagem dessa estrutura no quadro
+* Como ligamos o nosso `html` com o nosso `js` e com o nosso `css`? Quais convenções devemos seguir ao fazer isso? Por quê?
+* O que significa que o `css` está em "cascata"? Por que isso é útil? Faça um diagrama
+* Como funciona a herança `css`? Faça um diagrama
+* Por que se diz que ele `html` está aninhado? Faça um diagrama
+* O que significa criar `html` semântico? Por que é importante?
+* Dê alguns exemplos de boas práticas de código `html`
+* O que significa que um elemento `html` se comporta como `block`? E como `inline`? Dê alguns exemplos
+* O que é um atributo de um elemento `html`? Dê um exemplo
+* Pensando na analogia de construir um edifício, o que faz o `html` e o que representa o `css`?
+* Para que serve o atributo style dos elementos `html`? Qual é a maneira correta de usá-lo?
+* O que é um seletor? O que é um pseudo-seletor?
+* O que é `box-sizing` e para que é usado?
+* Desenhe o modelo da caixa e explique
+* Como é o fluxo normal de um documento? Como podemos mudar esse fluxo?
+* Para que funciona `positioning`? Como isso se parece com `float`? Qual a diferença?
+* O que isso tem a ver com `clear` e `clearfix` com `float`?
+* Por que `clearfix` é considerado um "_hack_"? Para que serve? Como se usa?
+* O que é o colapso da margem? Explique com um exemplo e um desenho
 

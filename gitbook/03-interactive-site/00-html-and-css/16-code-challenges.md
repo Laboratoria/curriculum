@@ -1,28 +1,28 @@
 # 16 - Code challenges
 
-* Tipo: `producto`
-* Formato: `self-paced`
-* Duración: `24h`
+## 16 - Desafios do Código
 
-## Objetivos
+* Tipo: `site`
+* Formato: `ritmo próprio`
+* Duração: `24h`
 
-* A continuación te presentamos una serie de retos que debes completar para
+### Objetivos
 
-  poner tus conocimientos a prueba.
+* A seguir apresentamos uma série de desafios que você deve completar para colocar seu conhecimento para à prova.
 
-## Estructura de trabajo
+### Estrutura de trabalho
 
-Para cada reto hemos creado un repositorio _boilerplate_ \(plantilla inicial\) con todos los recursos que necesitas. En las instrucciones del reto encontrarás los pasos para usar este boilerplate.
+Para cada desafio, criamos um repositório _padronizado_ \(modelo inicial\) com todos os recursos que você precisa. Nas instruções do desafio, você encontrará as etapas para usar este modelo.
 
-## 1. Freelancer
+### 1. Freelancer
 
-* [Instrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
+* [Instruções Freelancer Challenge](https://github.com/Laboratoria-learning/freelancer)
 
-## 2. Lyft
+### 2. Lyft
 
-* [Instrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
+* [Instruções Reto Lyft](https://github.com/Laboratoria-learning/lyft)
 
-## 3. Workshopper \(opcional\)
+### 3. Workshop \(opcional\)
 
 * [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
 

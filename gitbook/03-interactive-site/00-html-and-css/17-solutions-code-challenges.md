@@ -1,23 +1,25 @@
 # 17 - Solutions Code Challenges
 
-* Tipo: `seminario`
+## 17 - Soluções  dos Desafios
+
+* Tipo: `seminário`
 * Formato: `guiado`
-* Duración: `6h`
+* Duração: `6h`
 
-## Objetivos
+### Objetivos
 
-* Resolver dudas
-* Entendimiento de buenas prácticas
+* Resolver dúvidas
+* Entender as boas práticas
 
-## Agenda
+### Agenda
 
-1. Resolver dudas generales
-2. Resolver las partes más complejas de cada producto
-3. Enfatizar las buenas prácticas de maquetado con `html` y `css`
-   * Estructura y organización de carpetas y archivos
-   * Semántica
-   * Clases reutilizables \(uso correcto de anidado y herencia\)
-   * No posicionar elementos _"a la mala/fuerza"_ \(hard-coding\)
-   * Uso correcto de selectores
-   * Uso de comentarios
+1. Resolver dúvidas gerais
+2. Resolva as partes mais complexas de cada site
+3. Enfatizar as boas práticas de layout com `html` e `css`
+   * Estrutura e organização de pastas e arquivos
+   * Semântica
+   * Classes reutilizáveis ​​\(uso correto de aninhamento e herança\)
+   * Não posicionar os elementos _"à força"_ \(hard-coding\)
+   * Uso correto de seletores
+   * Uso de comentários
 
