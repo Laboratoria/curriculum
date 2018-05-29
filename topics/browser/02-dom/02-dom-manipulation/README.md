@@ -2,7 +2,19 @@
 
 * Tipo: `lectura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duración: `60min`
+
+## Objetivos de Aprendizaje
+
+En esta unidad aprenderemos:
+
+* Métodos de selección de nodos del DOM:
+
+  * `document.getElementById()`
+  * `document.getElementsByTagName()`
+  * `document.getElementsByClassName()`
+  * `document.querySelector()`
+  * `document.querySelectorAll()`
 
 ***
 

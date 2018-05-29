@@ -11,8 +11,11 @@ En esta unidad aprenderemos:
 - ¿Qué es el DOM y para qué nos sirve?
 - ¿Qué es un nodo?
 - ¿Qué es el árbol de nodos?
-- ¿Cómo identificas los diferentes tipos de nodos?
-- Conocer las siguientes propiedades de los nodos del DOM:
+- Conocer las propiedades para identificar los diferentes tipos de nodos del DOM:
+  - `nodeName`
+  - `nodeType`
+  - `nodeValue`
+- Conocer las siguientes propiedades para navegar a través de los nodos del DOM (Traversing):
   - `parentNode`
   - `childNodes`
   - `firstChild`
