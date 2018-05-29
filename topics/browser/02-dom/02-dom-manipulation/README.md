@@ -80,7 +80,7 @@ const firstItem = document.getElementById("highlight");
 
 ### **getElementsByClassName()**
 
-La función `getElementsByClassName()` devuelve una lista de elementos XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
+La función `getElementsByClassName()` devuelve una `lista de elementos` XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
 
 ```html
 <body>
