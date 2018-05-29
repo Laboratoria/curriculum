@@ -1,15 +1,15 @@
-# Document Object Model (DOM)
+# 01 - DOM
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `30min`
 
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
 
-- ¿Qué es el DOM y para qué nos sirve?
-- Conocer las siguientes propiedades:
+* ¿Qué es el DOM y para qué nos sirve?
+* Conocer las siguientes propiedades:
   * `parentNode`
   * `childNodes`
   * `firstChild`
@@ -18,43 +18,28 @@ En esta unidad aprenderemos:
   * `previousElementSibling`
   * `nextSibling`
   * `nextElementSibling`
-- Conocer los siguientes métodos:
+* Conocer los siguientes métodos:
   * `document.getElementById()`
   * `document.getElementsByTagName()`
   * `document.getElementsByClassName()`
   * `document.querySelector()`
   * `document.querySelectorAll()`
 
-***
-
 ## ¿Qué es el DOM?
 
-En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html)
-podemos ver qué es el DOM. Esta información es extracto de LibrosWeb, un
-pionero en creación de contenido educativo para desarrollo web.
+En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) podemos ver qué es el DOM. Esta información es extracto de LibrosWeb, un pionero en creación de contenido educativo para desarrollo web.
 
-## Navegando el DOM (DOM Tree)
+## Navegando el DOM \(DOM Tree\)
 
-Cada etiqueta contenedora y texto del documento HTML es lo que se denomina un
-nodo del DOM.
+Cada etiqueta contenedora y texto del documento HTML es lo que se denomina un nodo del DOM.
 
-Cada uno de los nodos es un __objeto__ y como recordamos, los objetos
-tienen __propiedades y métodos__. Dichos objetos se organizan en una estructura
-de árbol, donde el propio documento HTML es la raíz del árbol de todos los
-nodos.
+Cada uno de los nodos es un **objeto** y como recordamos, los objetos tienen **propiedades y métodos**. Dichos objetos se organizan en una estructura de árbol, donde el propio documento HTML es la raíz del árbol de todos los nodos.
 
-Página Web (1)| Árbol de Nodos DOM (2)
--- | --
-![Página web][x] | ![DOM][y]  |
+| Página Web \(1\) | Árbol de Nodos DOM \(2\) |
+| --- | --- |
+| ![](https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png) | ![](https://preview.ibb.co/drvdxQ/representaciondom.png) |
 
-[x]:https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png
-
-[y]:https://preview.ibb.co/drvdxQ/representaciondom.png
-
-En el esquema anterior (2) , cada rectángulo representa un nodo (objeto) DOM, y
-las flechas indican las relaciones familiares (padre - hijos - hermanos) entre
-nodos. Sí, los nodos tienen relaciones familiares. Así como tú tienes hermanos,
-padre o hijos, **los nodos del DOM también tienen una relación familiar**.
+En el esquema anterior \(2\) , cada rectángulo representa un nodo \(objeto\) DOM, y las flechas indican las relaciones familiares \(padre - hijos - hermanos\) entre nodos. Sí, los nodos tienen relaciones familiares. Así como tú tienes hermanos, padre o hijos, **los nodos del DOM también tienen una relación familiar**.
 
 ### Relación padres e hijos
 
@@ -62,49 +47,33 @@ padre o hijos, **los nodos del DOM también tienen una relación familiar**.
 
 ![DOM Tree](https://www.w3schools.com/js/pic_htmltree.gif)
 
-- La raíz del árbol de nodos de cualquier página web siempre es la misma:
-  **un nodo llamado document** que es el objeto `padre` de los objetos
-  restantes.
-
-- El nodo **html** es el `padre` de los objetos o nodos **head** y **body**
-  (pero **hijo** del nodo **document**).
-
-- El objeto o nodo **body** es el `padre` del **a** y el **h1**, por lo
-  tanto estas etiquetas son `hijos` del  nodo **body**.
-
-- El nodo de texto **My header** es `hijo` del nodo **h1**.
+* La raíz del árbol de nodos de cualquier página web siempre es la misma: **un nodo llamado document** que es el objeto `padre` de los objetos restantes.
+* El nodo **html** es el `padre` de los objetos o nodos **head** y **body** \(pero **hijo** del nodo **document**\).
+* El objeto o nodo **body** es el `padre` del **a** y el **h1**, por lo tanto estas etiquetas son `hijos` del nodo **body**.
+* El nodo de texto **My header** es `hijo` del nodo **h1**.
 
 #### Relación hermanos
 
 Analizando la misma imagen de arriba:
 
-- Los nodos `hermanos` hacen referencia a los nodos que tiene el mismo padre, es
-  decir, son nodos del mismo nivel en el árbol del DOM.
-
-- Los objetos o nodos **head** y **body** son `hermanos`, cuyo padre es el objeto
-  o nodo **html**.
-
-- El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`,
-  cuyo padre es el objeto o nodo **a**. (En la imagen parece que **attribute**
-  es hermano del nodo **a** pero **a** es padre de **attribute**.)
+* Los nodos `hermanos` hacen referencia a los nodos que tiene el mismo padre, es decir, son nodos del mismo nivel en el árbol del DOM.
+* Los objetos o nodos **head** y **body** son `hermanos`, cuyo padre es el objeto o nodo **html**.
+* El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`, cuyo padre es el objeto o nodo **a**. \(En la imagen parece que **attribute** es hermano del nodo **a** pero **a** es padre de **attribute**.\)
 
 ### Los 2 tipos de nodos más usados
 
-Como podrás notar, la transformación de la página web en un árbol DOM genera
-dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una
-etiqueta HTML y el segundo es `nodo de tipo texto` que contiene el texto
-encerrado por una etiqueta HTML.
+Como podrás notar, la transformación de la página web en un árbol DOM genera dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una etiqueta HTML y el segundo es `nodo de tipo texto` que contiene el texto encerrado por una etiqueta HTML.
 
 Así, la siguiente etiqueta HTML:
 
-```html
+```markup
 <title>Página Sencilla</title>
 ```
 
 genera los siguientes nodos:
 
-- `Nodo de tipo elemento` por la etiqueta `title`.
-- `Nodo de tipo texto` por el texto `"Página Sencilla"`
+* `Nodo de tipo elemento` por la etiqueta `title`.
+* `Nodo de tipo texto` por el texto `"Página Sencilla"`
 
 Por lo tanto se tiene 1 nodo de tipo elemento y 1 nodo de tipo texto
 
@@ -112,17 +81,20 @@ Por lo tanto se tiene 1 nodo de tipo elemento y 1 nodo de tipo texto
 
 De la misma manera, la etiqueta HTML:
 
-```html
+```markup
 <p>Esta página es <strong>muy sencilla</strong></p>
 ```
 
 genera los siguientes nodos:
 
-- `Nodo de tipo elemento` correspondiente a la etiqueta `p`.
-- `Nodo de tipo texto` por el contenido textual `"Esta página es"`.
-- Como el contenido de la etiqueta p incluye en su interior una `etiqueta
-  strong`, esta se trasnforma en un `nodo de tipo elemento`.
-- Finalmente, el contenido textual se convierte en un `nodo de tipo texto`
+* `Nodo de tipo elemento` correspondiente a la etiqueta `p`.
+* `Nodo de tipo texto` por el contenido textual `"Esta página es"`.
+* Como el contenido de la etiqueta p incluye en su interior una \`etiqueta
+
+  strong`, esta se trasnforma en un`nodo de tipo elemento\`.
+
+* Finalmente, el contenido textual se convierte en un `nodo de tipo texto`
+
   por el texto `"muy sencilla"`.
 
 Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
@@ -131,52 +103,50 @@ Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
 
 #### Algunas reglas
 
-- Las etiquetas HTML serán siempre nodos de tipo elemento.
-- Si dentro de las etiquetas HTML hay contenido textual, entonces, se formará un
+* Las etiquetas HTML serán siempre nodos de tipo elemento.
+* Si dentro de las etiquetas HTML hay contenido textual, entonces, se formará un
+
   nodo de tipo texto, quien a su vez será un nodo hijo del primero.
-- Si una etiqueta HTML se encuentra dentro de otra, se sigue el mismo
+
+* Si una etiqueta HTML se encuentra dentro de otra, se sigue el mismo
+
   procedimiento anterior, pero los nodos generados serán nodos hijo de su
+
   etiqueta padre.
 
 #### Más tipos de nodos
 
-Hasta el momento hemos indicado 2 tipos de nodos : de tipo elemento (element) y
-de tipo texto (text).
-Sin embargo, la especificación completa del DOM define 12 tipos de nodos
-indicados a continuación:
+Hasta el momento hemos indicado 2 tipos de nodos : de tipo elemento \(element\) y de tipo texto \(text\). Sin embargo, la especificación completa del DOM define 12 tipos de nodos indicados a continuación:
 
-| Nombre del Nodo | Significado  | Tipo de Nodo |
-| :------- | :------: | -----: |
-| ELEMENT_NODE | Nodo del tipo `Element`  | 1   |
-| ATTRIBUTE_NODE   | Nodo del tipo `Attr`     | 2 |
-| TEXT_NODE | Nodo del tipo `Text`  | 3 |
-| CDATA_SECTION_NODE   | Nodo del tipo `CDATASection`  | 4 |
-| ENTITY_REFERENCE_NODE   | Nodo del tipo `EntityReference`    | 5 |
-| ENTITY_NODE  | Nodo del tipo `Entity`   | 6 |
-| PROCESSING_INSTRUCTION_NODE   | Nodo del tipo `ProcessingInstruction`   | 7 |
-| COMMENT_NODE   | Nodo del tipo `Comment`     | 8 |
-| DOCUMENT_NODE   | Nodo del tipo `Document`    | 9 |
-| DOCUMENT_TYPE_NODE  | Nodo del tipo `DocumentType`    | 10 |
-| DOCUMENT_FRAGMENT_NODE   | Nodo del tipo `DocumentFragment`     | 11 |
-| NOTATION_NODE   |  Nodo del tipo `Notation`   | 12 |
+| Nombre del Nodo | Significado | Tipo de Nodo |
+| :--- | :---: | ---: |
+| ELEMENT\_NODE | Nodo del tipo `Element` | 1 |
+| ATTRIBUTE\_NODE | Nodo del tipo `Attr` | 2 |
+| TEXT\_NODE | Nodo del tipo `Text` | 3 |
+| CDATA\_SECTION\_NODE | Nodo del tipo `CDATASection` | 4 |
+| ENTITY\_REFERENCE\_NODE | Nodo del tipo `EntityReference` | 5 |
+| ENTITY\_NODE | Nodo del tipo `Entity` | 6 |
+| PROCESSING\_INSTRUCTION\_NODE | Nodo del tipo `ProcessingInstruction` | 7 |
+| COMMENT\_NODE | Nodo del tipo `Comment` | 8 |
+| DOCUMENT\_NODE | Nodo del tipo `Document` | 9 |
+| DOCUMENT\_TYPE\_NODE | Nodo del tipo `DocumentType` | 10 |
+| DOCUMENT\_FRAGMENT\_NODE | Nodo del tipo `DocumentFragment` | 11 |
+| NOTATION\_NODE | Nodo del tipo `Notation` | 12 |
 
-De dicha lista, nos concentraremos en los cinco nodos más habituales con los
-cuales podremos manipular las páginas Web a través del DOM.
+De dicha lista, nos concentraremos en los cinco nodos más habituales con los cuales podremos manipular las páginas Web a través del DOM.
 
 Veamos a continuación más específicamente sus características.
 
-- Nodo Element: representa cada una de las etiquetas HTML. Pueden ser hijos de
-  otro nodo de tipo elemento, y también tener hijos (nodos elementos o nodo de
-  texto).
+* Nodo Element: representa cada una de las etiquetas HTML. Pueden ser hijos de otro nodo de tipo elemento, y también tener hijos \(nodos elementos o nodo de texto\).
 
-  ```html
+  ```markup
   Etiquetas HTML
 
   <html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
   <form></form> <a></a> <img/> <strong></strong>
   ```
 
-  ```html
+  ```markup
   Nodo Element con hijos Element
 
   <html>
@@ -187,7 +157,7 @@ Veamos a continuación más específicamente sus características.
   3 nodo Element --> etiquetas html, head y body
   ```
 
-  ```html
+  ```markup
   Nodo Element con hijo texto
 
   <h1>Hola Mundo</h1>
@@ -196,21 +166,18 @@ Veamos a continuación más específicamente sus características.
   1 nodo Text --> hola mundo
   ```
 
-- Nodo Attr: se define un nodo de este tipo para representar cada uno de los
-  atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo
-  Element y no pueden tener hijos.
+* Nodo Attr: se define un nodo de este tipo para representar cada uno de los atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo Element y no pueden tener hijos.
 
-  ```html
+  ```markup
   <img src="images/logo.png" alt="Logo Laboratoria" />
 
   1 nodo Element --> etiqueta img
   2 nodo Attr --> src y alt
   ```
 
-- Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos
-  nodos son siempre hijos de un nodo Element y no pueden tener hijos.
+* Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos nodos son siempre hijos de un nodo Element y no pueden tener hijos.
 
-  ```html
+  ```markup
   <h1>Seré una futura developer de Laboratoria</h1>
   <h2>¿Qué debo hacer?</h2>
   <ul>
@@ -225,9 +192,9 @@ Veamos a continuación más específicamente sus características.
   siempre'
   ```
 
-- Nodo Comment: representa los comentarios incluídos en la página HTML.
+* Nodo Comment: representa los comentarios incluídos en la página HTML.
 
-  ```html
+  ```markup
   <html>
     <head>
       <title>Página Sencilla</title>
@@ -247,40 +214,29 @@ Veamos a continuación más específicamente sus características.
     imagen-->
   ```
 
-- Nodo Document: representa al nodo raíz del que derivan todos los demás nodos
-  del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el
-  elemento HTML.
+* Nodo Document: representa al nodo raíz del que derivan todos los demás nodos del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el elemento HTML.
 
 ## Propiedades de los nodos
 
 Los nodos del DOM poseen propiedades básicas, que cuales son:
 
-- **nodeName**, indica el nombre del nodo.
-
-- **nodeType**, es un número entero que describe el tipo de nodo: `1` para
-  las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo
-  comentarios, `9` para el nodo tipo document, etc.
-
-- **nodeValue**, es el texto contenido dentro de un nodo de texto. Esta
-  propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo
-  comentarios `8`.
+* **nodeName**, indica el nombre del nodo.
+* **nodeType**, es un número entero que describe el tipo de nodo: `1` para las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo comentarios, `9` para el nodo tipo document, etc.
+* **nodeValue**, es el texto contenido dentro de un nodo de texto. Esta propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo comentarios `8`.
 
 ## Seleccionando elementos del DOM
 
-En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html)
-vemos cómo seleccionar nodos y qué es un nodo en el DOM.
+En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html) vemos cómo seleccionar nodos y qué es un nodo en el DOM.
 
 ## Recapitulando
 
-Para terminar, mira el siguiente video de Lulú donde menciona los conceptos de
-DOM.
+Para terminar, mira el siguiente video de Lulú donde menciona los conceptos de DOM.
 
 [![Repaso DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
 
 [![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
-También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
-de la documentación oficial de Mozilla de qué es el DOM.
+También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#Qu.C3.A9_es_el_DOM.3F) de la documentación oficial de Mozilla de qué es el DOM.
 
-Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
-de cómo acceder a elementos del DOM con JS de la documentación oficial.
+Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#C.C3.B3mo_se_accede_al_DOM.3F) de cómo acceder a elementos del DOM con JS de la documentación oficial.
+

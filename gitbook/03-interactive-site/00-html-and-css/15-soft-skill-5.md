@@ -1,4 +1,4 @@
-# 15 - soft-skills-5
+# 15 - Soft Skill 5
 
 ## 15 - Soft Skills 5
 

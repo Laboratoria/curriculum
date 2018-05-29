@@ -1,4 +1,4 @@
-# 16 - Code Challenges
+# 16 - Code challenges
 
 * Tipo: `producto`
 * Formato: `self-paced`

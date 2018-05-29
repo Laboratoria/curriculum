@@ -1,4 +1,4 @@
-# 04 - Sprint 1 Kickoff
+# 01 - Shell+Git
 
 * Tipo: `seminário`
 * Formato: `guiado`

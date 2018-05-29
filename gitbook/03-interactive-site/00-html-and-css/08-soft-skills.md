@@ -1,4 +1,4 @@
-# 08 - Soft Skills 4
+# 08 - Soft Skills
 
 * Tipo: `taller`
 * Formato: `guiado`

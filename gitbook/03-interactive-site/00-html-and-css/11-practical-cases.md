@@ -1,4 +1,4 @@
-# 11 - Pratical Cases
+# 11 - Practical Cases
 
 * Tipo: `lectura`
 * Formato: `self-paced`

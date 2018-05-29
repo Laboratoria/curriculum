@@ -1,4 +1,4 @@
-# 13 - seminar
+# 13 - Seminar
 
 ## 13 - Seminário
 
