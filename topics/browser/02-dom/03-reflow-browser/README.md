@@ -41,4 +41,3 @@ El caudal de flujo de procesamiento de re-flow variará. Algunos navegadores
 son mejores que otros en ciertas operaciones. Algunos elementos generan más
 re-flow que otros. Afortunadamente, hay varios consejos generales que puede
 utilizar para [mejorar el rendimiento](https://developers.google.com/speed/docs/insights/browser-reflow).
-
