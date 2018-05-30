@@ -1,35 +1,39 @@
 # 02 - BOM
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+## Browser Object Model \(BOM\)
 
-## Objetivos de Aprendizaje
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-En esta lectura aprenderemos:
+### Objetivos de Aprendizagem
 
-* ¿Para qué usamos el BOM?
-* ¿Qué elementos podemos modificar en el BOM?
-* ¿Cuál es la relación entre el BOM y el DOM?
-* ¿De qué nos sirve el objeto window?
+Nesta leitura vamos aprender:
 
-![nodo tipo texto - nodo tipo elemento](http://librosweb.es/img/ajax/f0501.gif)
+* Para que usamos o BOM?
+* Quais elementos podemos modificar no BOM?
+* Qual é a relação entre  BOM e  DOM?
+* Para que serve o objeto _window_?
 
-## BOM
+![](https://camo.githubusercontent.com/84177a91443c8aa84f6ec7a8cfd8fb3e5b9d4c43/687474703a2f2f6c6962726f737765622e65732f696d672f616a61782f66303530312e676966)
 
-El BOM es muy similar al DOM, solo que se enfoca en diferentes objetivos. La siguiente [lectura](http://librosweb.es/libro/ajax/capitulo_5.html) nos muestra qué es el BOM y para qué nos sirve.
+### BOM
 
-## El objeto window
+O BOM é muito semelhante ao DOM, mas possui objetivos diferentes. Esta [leitura ](http://librosweb.es/libro/ajax/capitulo_5.html)mostra o que é BOM e para que serve.
 
-El objeto window es parte del BOM y nos sirve para controlar cosas directamente del navegador. La siguiente [lectura](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_window.html) nos muestra cuales.
+### O objeto _window_
 
-## Relación entre el BOM y el DOM
+O objeto _window_ faz parte do BOM e serve para controlar as coisas diretamente do navegador. Esta [leitura ](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_window.html)nos mostra quais.
 
-Como podemos observar en las lecturas anteriores, el BOM es muy similar al DOM, tanto en sintaxis como en estructura. Sin embargo, uno se enfoca en acceder al HTML que se muestra en el navegador y el otro se enfoca en modificar directamente el navegador y sus propiedades.
+### Relação entre BOM e DOM
 
-Algunas de esas propiedades a modificar por el BOM son las siguientes:
+Como podemos ver nas leituras anteriores, o BOM é muito semelhante ao DOM, tanto na sintaxe quanto na estrutura. No entanto, um se concentra em acessar o HTML que é exibido no navegador e o outro se concentra em modificar diretamente o navegador e suas propriedades.
 
-* El objeto [Location](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_location.html)
-* El objeto [Navigator](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_navigator.html)
-* El objeto [screen](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_screen.html)
+Algumas dessas propriedades a serem modificadas pela lista de materiais são as seguintes:
+
+* O objeto [Location](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_location.html)
+* O objeto [Navigator](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_navigator.html)
+* O objeto de [screen](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_screen.html)
+
+
 

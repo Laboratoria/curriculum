@@ -1,15 +1,17 @@
 # 01 - DOM
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+## Document Object Model \(DOM\)
 
-## Objetivos de Aprendizaje
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-En esta unidad aprenderemos:
+### Objetivos de Aprendizagem
 
-* ¿Qué es el DOM y para qué nos sirve?
-* Conocer las siguientes propiedades:
+Nesta unidade aprenderemos:
+
+* O que é o DOM e para que nos serve?
+* Conhecer as seguintes propriedades:
   * `parentNode`
   * `childNodes`
   * `firstChild`
@@ -18,225 +20,213 @@ En esta unidad aprenderemos:
   * `previousElementSibling`
   * `nextSibling`
   * `nextElementSibling`
-* Conocer los siguientes métodos:
+* Conhecer os seguintes métodos:
   * `document.getElementById()`
   * `document.getElementsByTagName()`
   * `document.getElementsByClassName()`
   * `document.querySelector()`
   * `document.querySelectorAll()`
 
-## ¿Qué es el DOM?
+### O que é o DOM?
 
-En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) podemos ver qué es el DOM. Esta información es extracto de LibrosWeb, un pionero en creación de contenido educativo para desarrollo web.
+Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) , podemos ver o que é o DOM. Esta informação é um extrato da LibrosWeb, pioneira na criação de conteúdo educacional para desenvolvimento web.
 
-## Navegando el DOM \(DOM Tree\)
+### Navegando no DOM \(DOM Tree\)
 
-Cada etiqueta contenedora y texto del documento HTML es lo que se denomina un nodo del DOM.
+Cada tag wrapper e texto do documento HTML é o que é chamado de nó DOM.
 
-Cada uno de los nodos es un **objeto** y como recordamos, los objetos tienen **propiedades y métodos**. Dichos objetos se organizan en una estructura de árbol, donde el propio documento HTML es la raíz del árbol de todos los nodos.
+Cada um dos nós é um **objeto** e, como nos lembramos, os objetos possuem **propriedades e métodos** . Esses objetos são organizados em uma estrutura de árvore, na qual o próprio documento HTML é a raiz da árvore de todos os nós.
 
-| Página Web \(1\) | Árbol de Nodos DOM \(2\) |
+| Website \(1\) | Árvore de nós do DOM\(2\) |
 | --- | --- |
-| ![](https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png) | ![](https://preview.ibb.co/drvdxQ/representaciondom.png) |
+| [![Pagina web](https://camo.githubusercontent.com/6cae18aa784cf8e991153f5134c432bbe1543dc9/68747470733a2f2f707265766965772e6962622e636f2f6b515a476a352f7061675f5765625f53656e63696c6c612e706e67)](https://camo.githubusercontent.com/6cae18aa784cf8e991153f5134c432bbe1543dc9/68747470733a2f2f707265766965772e6962622e636f2f6b515a476a352f7061675f5765625f53656e63696c6c612e706e67) | [![DOM](https://camo.githubusercontent.com/7a21f3101ff04aa3d49b4bcc256ea71b70a44317/68747470733a2f2f707265766965772e6962622e636f2f6472766478512f726570726573656e746163696f6e646f6d2e706e67)](https://camo.githubusercontent.com/7a21f3101ff04aa3d49b4bcc256ea71b70a44317/68747470733a2f2f707265766965772e6962622e636f2f6472766478512f726570726573656e746163696f6e646f6d2e706e67) |
 
-En el esquema anterior \(2\) , cada rectángulo representa un nodo \(objeto\) DOM, y las flechas indican las relaciones familiares \(padre - hijos - hermanos\) entre nodos. Sí, los nodos tienen relaciones familiares. Así como tú tienes hermanos, padre o hijos, **los nodos del DOM también tienen una relación familiar**.
+No esquema anterior \(2\), cada retângulo representa um nó \(objeto\) DOM, e as setas indicam relações familiares \(pai - filhos - irmãos\) entre nós. Sim, os nós têm relacionamentos familiares. Assim como você tem irmãos, pai ou filhos, **os nós do DOM também têm um relacionamento familiar** .
 
-### Relación padres e hijos
+#### Relacionamento pais e filhos
 
-#### Analicemos esta imagen
+**Analisemos esta imagem**
 
-![DOM Tree](https://www.w3schools.com/js/pic_htmltree.gif)
+![&#xC1;rvore DOM](https://camo.githubusercontent.com/a36bf4c86203fbebd9aaf0a5c92dd40b5b9782bf/68747470733a2f2f7777772e77337363686f6f6c732e636f6d2f6a732f7069635f68746d6c747265652e676966)
 
-* La raíz del árbol de nodos de cualquier página web siempre es la misma: **un nodo llamado document** que es el objeto `padre` de los objetos restantes.
-* El nodo **html** es el `padre` de los objetos o nodos **head** y **body** \(pero **hijo** del nodo **document**\).
-* El objeto o nodo **body** es el `padre` del **a** y el **h1**, por lo tanto estas etiquetas son `hijos` del nodo **body**.
-* El nodo de texto **My header** es `hijo` del nodo **h1**.
+* A raiz da árvore de nós de qualquer página da web é sempre a mesma: **um nó chamado document** que é o objeto `pai` dos demais objetos.
+* O nó **html** é aquele pai dos objetos ou nós **head** e **body** \(mas **filho** do nó **document**\).
+* O objeto ou nó do **body** é o `pai` de **a** e **h1**, portanto, esses rótulos são filhos do nó do **body**.
+* O nó de texto **My header** é filho do nó **h1** .
 
-#### Relación hermanos
+**Irmãos de relacionamento**
 
-Analizando la misma imagen de arriba:
+Analisando a mesma imagem acima:
 
-* Los nodos `hermanos` hacen referencia a los nodos que tiene el mismo padre, es decir, son nodos del mismo nivel en el árbol del DOM.
-* Los objetos o nodos **head** y **body** son `hermanos`, cuyo padre es el objeto o nodo **html**.
-* El nodo de texto **My link** y el nodo **attribute** son nodos `hermanos`, cuyo padre es el objeto o nodo **a**. \(En la imagen parece que **attribute** es hermano del nodo **a** pero **a** es padre de **attribute**.\)
+* Os nós `irmãos` referem-se aos nós que possuem o mesmo pai, ou seja, são nós do mesmo nível na árvore DOM.
+* Os objetos ou nós **head** e **body** são `irmãos`, cujo pai é o objeto ou nó **html** .
+* O nó de texto **My link** e o nó **attribute** são nós `irmãos`, cujo pai é o objeto ou nó **a** . \(Na imagem parece que **attribute** é o irmão do nó **a**, mas **a** é pai de **attribute**.\)
 
-### Los 2 tipos de nodos más usados
+#### Os 2 tipos de nós mais usados 
 
-Como podrás notar, la transformación de la página web en un árbol DOM genera dos tipos de nodos: el primero es `nodo de tipo elemento` y corresponde a una etiqueta HTML y el segundo es `nodo de tipo texto` que contiene el texto encerrado por una etiqueta HTML.
+Como você pode ver, a transformação da página da Web em uma árvore DOM gera dois tipos de nós: o primeiro é `nó do tipo elemento` e corresponde a uma tag HTML e o segundo é `nó de tipo texto` que contém o texto delimitado por uma tag HTML.
 
-Así, la siguiente etiqueta HTML:
-
-```markup
-<title>Página Sencilla</title>
-```
-
-genera los siguientes nodos:
-
-* `Nodo de tipo elemento` por la etiqueta `title`.
-* `Nodo de tipo texto` por el texto `"Página Sencilla"`
-
-Por lo tanto se tiene 1 nodo de tipo elemento y 1 nodo de tipo texto
-
-![nodo tipo texto - nodo tipo elemento](https://image.ibb.co/grkdE5/nodotipo_Texto_Nodotipo_Elemento.png)
-
-De la misma manera, la etiqueta HTML:
+Então, a seguinte tag HTML:
 
 ```markup
-<p>Esta página es <strong>muy sencilla</strong></p>
+<title>Página única</title>
 ```
 
-genera los siguientes nodos:
+gera os seguintes nós:
 
-* `Nodo de tipo elemento` correspondiente a la etiqueta `p`.
-* `Nodo de tipo texto` por el contenido textual `"Esta página es"`.
-* Como el contenido de la etiqueta p incluye en su interior una \`etiqueta
+* `Nó de tipo elemento` pelo rótulo `title`.
+* `Nó de tipo texto` para o texto `"Página única"`
 
-  strong`, esta se trasnforma en un`nodo de tipo elemento\`.
+Portanto, temos 1 nó de tipo elemento e 1 nó de tipo texto 
 
-* Finalmente, el contenido textual se convierte en un `nodo de tipo texto`
+![](https://camo.githubusercontent.com/406bc43cdecc07177bb296f6679b7146648468ca/68747470733a2f2f696d6167652e6962622e636f2f67726b6445352f6e6f646f7469706f5f546578746f5f4e6f646f7469706f5f456c656d656e746f2e706e67)
 
-  por el texto `"muy sencilla"`.
+Da mesma forma, a tag HTML:
 
-Por lo tanto se tiene 2 nodos de tipo elemento y 2 nodos de tipo texto.
+```markup
+<p> Esta página é <strong> muito simples </strong></p>
+```
 
-![nodo tipo texto - nodo tipo elemento](https://image.ibb.co/dFBPnQ/nodotipo_Texto_Nodotipo_Elemento2.png)
+gera os seguintes nós:
 
-#### Algunas reglas
+* `Nó de tipo elemento` correspondente ao rótulo `p`.
+* `Nó de tipo texto` para o conteúdo textual `"Esta página é"`.
+* Como o conteúdo da tag `p` inclui uma tag `strong`, ele é transformado em um `nó de tipo elemento`.
+* Finalmente, o conteúdo textual se torna um `nó de tipo texto` pelo texto `"muito simples"`.
 
-* Las etiquetas HTML serán siempre nodos de tipo elemento.
-* Si dentro de las etiquetas HTML hay contenido textual, entonces, se formará un
+Portanto, você tem 2 nós de tipo elemento e 2 nós de tipo texto.
 
-  nodo de tipo texto, quien a su vez será un nodo hijo del primero.
+![](https://camo.githubusercontent.com/2a1e05c3a59e3e821be53dbf078d7bf4f24591ec/68747470733a2f2f696d6167652e6962622e636f2f644642506e512f6e6f646f7469706f5f546578746f5f4e6f646f7469706f5f456c656d656e746f322e706e67)
 
-* Si una etiqueta HTML se encuentra dentro de otra, se sigue el mismo
+**Algumas regras**
 
-  procedimiento anterior, pero los nodos generados serán nodos hijo de su
+* Tags HTML sempre serão nós de tipo elemento.
+* Se dentro das tags HTML houver conteúdo textual, será formado um nó de tipo texto, que por sua vez será um nó filho do primeiro.
+* Se uma tag HTML estiver dentro de outra, o mesmo procedimento é seguido, mas os nós gerados serão nós filhos de sua tag pai.
 
-  etiqueta padre.
+**Mais tipos de nós**
 
-#### Más tipos de nodos
+Até agora, indicamos dois tipos de nós: de tipo elemento \(element\) e de tipo texto \(text\). No entanto, a especificação completa do DOM define 12 tipos de nós indicados abaixo:
 
-Hasta el momento hemos indicado 2 tipos de nodos : de tipo elemento \(element\) y de tipo texto \(text\). Sin embargo, la especificación completa del DOM define 12 tipos de nodos indicados a continuación:
+| Nome do Nó | Significado | Tipo de nó |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ELEMENT\_NODE | Nó do tipo `Element` | 1 |
+| ATTRIBUTE\_NODE | Nó do tipo `Attr` | 2 |
+| TEXT\_NODE | Nó do tipo `Text` | 3 |
+| CDATA\_SECTION\_NODE | Nó do tipo `CDATASection` | 4 |
+| ENTITY\_REFERENCE\_NODE | Nó do tipo `EntityReference` | 5 |
+| ENTITY\_NODE | Nó do tipo `Entity` | 6 |
+| PROCESSING\_INSTRUCTION\_NODE | Nó do tipo `ProcessingInstruction` | 7 |
+| COMMENT\_NODE | Nó do tipo `Comment` | 8 |
+| DOCUMENT\_NODE | Nó do tipo `Document` | 9 |
+| DOCUMENT\_TYPE\_NODE | Nó do tipo `DocumentType` | 10 |
+| DOCUMENT\_FRAGMENT\_NODE | Nó do tipo `DocumentFragment` | 11 |
+| NOTATION\_NODE | Nó do tipo `Notation` | 12 |
 
-| Nombre del Nodo | Significado | Tipo de Nodo |
-| :--- | :---: | ---: |
-| ELEMENT\_NODE | Nodo del tipo `Element` | 1 |
-| ATTRIBUTE\_NODE | Nodo del tipo `Attr` | 2 |
-| TEXT\_NODE | Nodo del tipo `Text` | 3 |
-| CDATA\_SECTION\_NODE | Nodo del tipo `CDATASection` | 4 |
-| ENTITY\_REFERENCE\_NODE | Nodo del tipo `EntityReference` | 5 |
-| ENTITY\_NODE | Nodo del tipo `Entity` | 6 |
-| PROCESSING\_INSTRUCTION\_NODE | Nodo del tipo `ProcessingInstruction` | 7 |
-| COMMENT\_NODE | Nodo del tipo `Comment` | 8 |
-| DOCUMENT\_NODE | Nodo del tipo `Document` | 9 |
-| DOCUMENT\_TYPE\_NODE | Nodo del tipo `DocumentType` | 10 |
-| DOCUMENT\_FRAGMENT\_NODE | Nodo del tipo `DocumentFragment` | 11 |
-| NOTATION\_NODE | Nodo del tipo `Notation` | 12 |
+A partir dessa lista, concentrar-nos-emos nos cinco nós mais comuns com os quais podemos manipular páginas da Web por meio do DOM.
 
-De dicha lista, nos concentraremos en los cinco nodos más habituales con los cuales podremos manipular las páginas Web a través del DOM.
+Vejamos mais especificamente suas características.
 
-Veamos a continuación más específicamente sus características.
-
-* Nodo Element: representa cada una de las etiquetas HTML. Pueden ser hijos de otro nodo de tipo elemento, y también tener hijos \(nodos elementos o nodo de texto\).
+* Nó Element: representa cada uma das tags HTML. Podem ser filhos de outro nó de tipo _element_ e também ter filhos \(nó _element_ ou nó _text_\).
 
   ```markup
-  Etiquetas HTML
+  Tags HTML
 
-  <html></html> <head></head> <body></body> <h1></h1> <p></p> <div></div>
-  <form></form> <a></a> <img/> <strong></strong>
+  <html></html><head></head><body></body><h1></h1><p></p><div></div>
+  <form></form><a></a><img/><strong></strong>
   ```
 
   ```markup
-  Nodo Element con hijos Element
+  Nó Element com filhos Element
 
   <html>
     <head></head>
     <body></body>
   </html>
 
-  3 nodo Element --> etiquetas html, head y body
+  3 nós de Element -> tags html, head e body
   ```
 
   ```markup
-  Nodo Element con hijo texto
+  Nó Element com filho text
 
-  <h1>Hola Mundo</h1>
+  <h1>Olá,mundo</h1>
 
-  1 nodo Element --> etiqueta h1
-  1 nodo Text --> hola mundo
+  1 nó Element -> tag h1
+  1 nó Text -> olá mundo
   ```
 
-* Nodo Attr: se define un nodo de este tipo para representar cada uno de los atributos de las etiquetas HTML. Estos nodos son siempre hijos de un nodo Element y no pueden tener hijos.
+* Nó Atr: um nó desse tipo é definido para representar cada um dos atributos das tags HTML. Esses nós são sempre filhos de um nó Elemento e não podem ter filhos.
 
   ```markup
-  <img src="images/logo.png" alt="Logo Laboratoria" />
+  <img src="images/logo.png" alt="Logo Laboratoria"/>
 
-  1 nodo Element --> etiqueta img
-  2 nodo Attr --> src y alt
+  1 nó Element -> tag img
+  2 nós Attr -> src e alt
   ```
 
-* Nodo Text: nodo que contiene el texto encerrado por una etiqueta HTML. Estos nodos son siempre hijos de un nodo Element y no pueden tener hijos.
+* Nó Text: nó que contém o texto entre uma tag HTML. Esses nós são sempre filhos de um nó Element e não podem ter filhos.
 
   ```markup
-  <h1>Seré una futura developer de Laboratoria</h1>
-  <h2>¿Qué debo hacer?</h2>
+  <h1>Futuramente eu serei uma programadora da Laboratoria</h1>
+  <h2>O que devo fazer?</h2>
   <ul>
-    <li>Mentalidad de crecimiento</li>
-    <li>Practicar mucho</li>
-    <li>Autoaprender y preguntar siempre</li>
+    <li>Mentalidade do crescimento</li>
+    <li>Praticar muito</li>
+    <li>Autoaprendizagem e perguntar sempre</li>
   </ul>
 
-  6 nodos Element --> etiquetas h1, h2, ul, li,
-  5 nodos Text --> 'Seré una futura developer de Laboratoria', '¿Qué debo hacer?'
-  , 'Mentalidad de crecimiento', ´Practicar mucho´, 'Autoaprender y preguntar
-  siempre'
+  6 Nós Element -> tags h1, h2, ul, li,
+  5 nós Text -> 'Futuramente eu serei uma programadora da Laboratoria', 
+  'O que devo fazer?', 'Mentalidade de crescimento', 
+  'praticar muito', 'Autoaprendizagem e perguntar sempre'
   ```
 
-* Nodo Comment: representa los comentarios incluídos en la página HTML.
+* Nó Comment: representa os comentários incluídos na página HTML.
 
   ```markup
   <html>
     <head>
-      <title>Página Sencilla</title>
+      <title>Página única</title>
     </head>
     <body>
-      <!-- Hola Esto es un comentario-->
-      <h1>Hola Mundo</h1>
-      <!--Por favor coloca una imagen-->
-      <img src="images/logo.png" alt="Logo Laboratoria"/>
+       <!-- Olá, este é um comentário --> 
+      <h1>Olá mundo</h1>
+       <!-- Por favor, coloque uma foto --> 
+      <img  src="images/logo.png"  alt="Logo Laboratoria"/>
     </body>
   </html>
 
-  6 nodos Element --> etiqueta html, head, title, body, h1, img
-  2 nodos Text --> 'Página Sencilla', 'Hola Mundo'
-  2 nodos Attr --> src y alt
-  2 nodos Comment --> <!--Hola esto es un comentario--> <!--Por favor coloca una
-    imagen-->
+  6 Nós Element -> tag html, head, title, body, h1, img
+  2 nós Text -> 'Página simples', 'Olá mundo'
+  2 nós Attr -> src e alt
+  2 nós Comment -> <!--Olá, este é um comentário -->  <!-- Por favor, coloque uma 
+    foto -->
   ```
 
-* Nodo Document: representa al nodo raíz del que derivan todos los demás nodos del árbol del DOM. No tiene padre y únicamente tiene un hijo, que es el elemento HTML.
+* Nó Document: representa o nó raiz do qual todos os outros nós na árvore DOM são derivados. Ele não tem pai e só tem um filho, que é o elemento HTML.
 
-## Propiedades de los nodos
+### Propriedades dos nós
 
-Los nodos del DOM poseen propiedades básicas, que cuales son:
+Os nós DOM possuem propriedades básicas, que são:
 
-* **nodeName**, indica el nombre del nodo.
-* **nodeType**, es un número entero que describe el tipo de nodo: `1` para las etiquetas HTML, `3` para los nodos tipo texto, `8` para los nodos tipo comentarios, `9` para el nodo tipo document, etc.
-* **nodeValue**, es el texto contenido dentro de un nodo de texto. Esta propiedad solo se utiliza para los nodos tipo texto `3` y nodos tipo comentarios `8`.
+* **nodeName** , indica o nome do nó.
+* **nodeType** , é um número inteiro que descreve o tipo de nó: `1` para tags HTML, `3` para nós de tipo de texto, `8` para nós de tipo de comentário, `9` para nó de tipo de documento, etc.
+* **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada apenas para nós do tipo 3 e nós do tipo comentário `8`.
 
-## Seleccionando elementos del DOM
+### Selecionando Elementos DOM
 
-En la siguiente [lectura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html) vemos cómo seleccionar nodos y qué es un nodo en el DOM.
+Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html) , vemos como selecionar nós e o que é um nó no DOM.
 
-## Recapitulando
+### Recapitulando
 
-Para terminar, mira el siguiente video de Lulú donde menciona los conceptos de DOM.
+Finalmente, veja o seguinte vídeo da Lulu onde ela menciona os conceitos de DOM.
 
-[![Repaso DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+[![Revis&#xE3;o DOM](https://camo.githubusercontent.com/bf7878ba954c96eea8a9d71705804d974d2939a1/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f376948753773353476496b2f302e6a7067)](https://www.youtube.com/watch?v=7iHu7s54vIk)
 
-[![Recorriendo el DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
+[![Visitando o DOM](https://camo.githubusercontent.com/e0376aceb048832e7a738464a5add1bd15d23e66/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f44393349505f6e366b6a382f302e6a7067)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
-También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#Qu.C3.A9_es_el_DOM.3F) de la documentación oficial de Mozilla de qué es el DOM.
+Também temos o [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
 
-Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#C.C3.B3mo_se_accede_al_DOM.3F) de cómo acceder a elementos del DOM con JS de la documentación oficial.
+Outro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
 
