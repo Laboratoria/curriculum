@@ -1,30 +1,30 @@
 # 18 - Requiz
 
+## 18 - Requiz
+
 * Tipo: `quiz`
 * Formato: `guiado`
-* Duración: `30min`
+* Duração: `30min`
 
-## Objetivos
+### Objetivos
 
-* Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
+* Fazer um segundo teste para garantir que terminamos a unidade com uma compreensão total dos conceitos.
 
-  entendimiento pleno de los conceptos.
+### Perguntas
 
-## Preguntas
+#### 1\) A sigla HTML significa
 
-### 1\) Las siglas HTML significan
+**Opções**
 
-#### Opciones
-
-1. Herramienta de Texto markdown Language.
-2. Hypervinculo type markup Language
-3. HyperText Markup Language
+1. Markdown Language Text Tool.
+2. Linguagem de marcação de tipo de hiperlink
+3. Linguagem de marcação de hipertexto
 
 3
 
-### 2\) ¿Cuáles son las etiquetas que necesitan cierre?
+#### 2\) Quais são os rótulos que precisam ser fechados?
 
-#### Opciones
+**Opções**
 
 1. table
 2. ol
@@ -34,19 +34,19 @@
 
 1,2,5
 
-### 3\) Ejemplo correcto de anidación
+#### 3\) Exemplo de aninhamento correto
 
-#### Opciones
+**Opções**
 
-1. `<h3>Hola!!</h3> Soy una <strong>excelente</strong> <em>coder</em></p>`
-2. `</p>Soy una </strong>excelente<strong> </em>coder<em><p>`
-3. `<p>Soy una <strong>excelente</strong> <em>coder</em></p>`
+1. `<h3>Olá!!</h3> Sou uma <strong>excelente</strong> <em>programadora</em></p>`
+2. `</p>Sou uma </strong>excelente<strong> </em>programadora<em><p>`
+3. `<p>Sou uma <strong>excelente</strong> <em>programadora</em></p>`
 
 3
 
-### 4\) ¿Cuál es el valor de la propiedad `position` por defecto de los elementos?
+#### 4\) Qual é o valor padrão da propriedade `position` dos elementos?
 
-#### Opciones
+**Opções**
 
 1. fixed
 2. absolute
@@ -55,37 +55,31 @@
 
 3
 
-### 5\) Son características de un elemento en línea
+#### 5\) São características de um elemento em linha:
 
-#### Opciones
+**Opções**
 
-1. No comienzan con una nueva línea
-2. Comienzan en una nueva línea
-3. Pueden estar dentro de un elemento en bloque
-4. Respetan las propiedades `margin-top` y `margin-bottom`
+1. Não começam com uma nova linha
+2. Começam em uma nova linha
+3. Podem estar dentro de um elemento de bloco
+4. Respeitam as propriedades `margin-top` e `margin-bottom`
 
 1,3
 
-### 6\) ¿Cuál es la diferencia entre `display:inline-block` y `display:inline`?
+#### 6\) Qual é a diferença entre `display:inline-block` e `display:inline`?
 
-#### Opciones
+**Opções**
 
-1. A un elemento inline no se le puede determinar dimensiones, mientras que a
-
-   uno inline-block sí
-
-2. A un elemento inline-block no se le puede determinar dimensiones, mientras
-
-   que a uno inline sí
-
-3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
+1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um _inline-block_ sim
+2. Em um elemento _inline-block_ não se pode determinar dimensões, enquanto que _inline_ sim
+3. Não há diferenças entre os dois
+4. Um elemento _inline_ não aparece na tela, enquanto um _inline-block_ sim
 
 1
 
-### 7\) ¿Cuál es la sintaxis correcta para la etiqueta `<a>`?
+#### 7\) Qual é a sintaxe correta para o rótulo `<a>`?
 
-#### Opciones
+**Opções**
 
 1. `<a href="http://laboratoria.la/">Ir a Laboratoria</a>`
 2. `<a src="http://laboratoria.la/">Ir a Laboratoria</a>`
@@ -93,7 +87,7 @@
 
 1
 
-### 8\) Dados los siguientes estilos CSS, ¿qué color tendrán los `<h3>`?
+#### 8\) Dados os seguintes estilos CSS, que cor eles terão `<h3>`?
 
 ```css
 h3 {
@@ -109,7 +103,7 @@ h2 {
 }
 ```
 
-#### Opciones
+**Opções**
 
 1. red
 2. blue
@@ -117,7 +111,7 @@ h2 {
 
 1
 
-### 9\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 9\) Considerando o código a seguir, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -140,15 +134,15 @@ li {
 }
 ```
 
-#### Opciones
+**Opções**
 
 1. Azul
-2. Negro
-3. Rojo
+2. Preto
+3. Vermelho
 
 1
 
-### 10\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 10\) Considerando o código a seguir, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -171,15 +165,15 @@ li {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Rojo
-2. Negro
+1. Vermelho
+2. Preto
 3. Azul
 
 3
 
-### 11\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 11\) Considerando o código a seguir, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -202,15 +196,15 @@ ul.programming-languages li.favorite span {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Rojo
-2. Negro
+1. Vermelho
+2. Preto
 3. Azul
 
 3
 
-### 12\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 12\) Considerando o código a seguir, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -233,27 +227,27 @@ ul#awesome #must-use {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Rojo
-2. Negro
+1. Vermelho
+2. Preto
 3. Azul
 
 3
 
-### 13\) ¿Para qué sirve line-height?
+#### 13\) Para que line-height é usado?
 
-#### Opciones
+**Opções**
 
-1. Establece la altura de cada línea de texto
-2. Establece el color de texto
-3. Establece el grosor del texto
+1. Definir a altura de cada linha de texto
+2. Definir a cor do texto
+3. Definir a espessura do texto
 
 1
 
-### 14\) ¿Cuál es la sintaxis de css?
+#### 14\) Qual é a sintaxe do css?
 
-#### Opciones
+**Opções**
 
 1. ```css
    { p = color: red;
@@ -275,9 +269,9 @@ ul#awesome #must-use {
 
 3
 
-### 15\) ¿Cuáles son las propiedades para posicionar elementos?
+#### 15\) Quais são as propriedades para posicionar elementos?
 
-#### Opciones
+**Opções**
 
 1. top, left, right, bottom
 2. head, body, right, middle
@@ -286,7 +280,7 @@ ul#awesome #must-use {
 
 1
 
-### 16\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 16\) Considerando o código a seguir, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -309,41 +303,41 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Rojo
-2. Negro
-3. Amarillo
+1. Vermelho
+2. Preto
+3. Amarelo
 
 3
 
-### 17\) Tomando en cuenta el siguiente código, ¿qué pasará con la posición de `#example`?
+#### 17\) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo`?
 
 **HTML:**
 
 ```markup
-<p id="example">Hello!</p>
+<p id="exemplo">Olá!</p>
 ```
 
 **CSS:**
 
 ```css
-#example {
-  margin-left: -5px;
+#exemplo {
+   margin-left : -5 px ;
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Se moverá `5px` a la izquierda
-2. Todos los elementos anteriores se moverán `5px` a la derecha
-3. Ninguno
+1. Ele irá se mover `5px` para a esquerda
+2. Todos os elementos acima se moverão `5px` para a direita
+3. Nenhum
 
 1
 
-### 18\) ¿Qué propiedad usas para hacer que el contenido permanezca debajo de los elementos flotantes?
+#### 18\) Qual propriedade você usa para fazer com que o conteúdo fique abaixo dos elementos flutuantes?
 
-#### Opciones
+**Opções**
 
 1. hide
 2. position
@@ -352,9 +346,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 3
 
-### 19\) ¿Qué regla CSS te permite agregar una fuente externa?
+#### 19\) Qual regra CSS permite que você adicione uma fonte externa?
 
-#### Opciones
+**Opções**
 
 1. `@font-face`
 2. `font-color`

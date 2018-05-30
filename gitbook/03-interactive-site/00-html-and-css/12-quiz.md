@@ -1,44 +1,42 @@
 # 12 - Quiz
 
+## 12 - Quiz
+
 * Tipo: `quiz`
-* Formato: `self-paced`
-* Duración: `30min`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-## Objetivos
+### Objetivos
 
-* En esta sección tendrás la oportunidad de evaluarte para que pongas tus
+* Nesta seção você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento à prova. É uma oportunidade para você se refletir e validar se você está realmente aprendendo. Sucesso!
 
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
+### Perguntas
 
-  realmente estás aprendiendo. ¡Mucho éxito!
+#### 1\) O que é HTML?
 
-## Preguntas
+**Opções**
 
-### 1\) ¿Qué es HTML?
-
-#### Opciones
-
-1. Lenguaje de programación
-2. Lenguaje de marcado
-3. Hoja de estilo
-4. Herramienta de código abierto
+1. Linguagem de programação
+2. Linguagem de marcação
+3. Folha de estilo
+4. Ferramenta de código aberto
 
 2
 
-### 2\) ¿A qué se refiere el 'Anidamiento HTML'?
+#### 2\) A que 'Aninhamento HTML' se refere?
 
-#### Opciones
+**Opções**
 
-1. Al inicio del documento HTML
-2. Indica al navegador que el documento es HTML5
-3. Agrega una línea para que el `html` aparezca en la segunda línea
-4. Que un elemento puede contener a otros elementos o etiquetas HTML
+1. Ao início do documento HTML
+2. Indica ao navegador que o documento é HTML5
+3. Adicione uma linha para que o `html` apareça na segunda linha
+4. Que um elemento pode conter outros elementos ou tags HTML
 
 4
 
-### 3\) ¿Cuáles son las etiquetas que no necesitan cierre?
+#### 3\) Quais são os rótulos que não precisam de fechamento?
 
-#### Opciones
+**Opções**
 
 1. em
 2. div
@@ -47,9 +45,9 @@
 
 3
 
-### 4\) Ejemplo correcto de anidación
+#### 4\) Exemplo correto de aninhamento
 
-#### Opciones
+**Opções**
 
 1. `<p>Soy una <strong>excelente</p> <em>coder</em></strong>`
 2. `</p>Soy una </strong>excelente<strong> </em>coder<em><p>`
@@ -57,52 +55,46 @@
 
 3
 
-### 5\) ¿Cuáles son las características de un elemento en bloque?
+#### 5\) Quais são as características de um elemento em bloco?
 
-#### Opciones
+**Opções**
 
-1. No comienzan con la nueva línea.
-2. Comienzan en una nueva línea
-3. Pueden comenzar en cualquier parte de una línea
-4. Pueden contener elementos en línea y otros elementos en bloque
+1. Não começam com uma nova linha.
+2. Começam em uma nova linha
+3. Podem começar em qualquer parte de uma linha
+4. Podem conter elementos em linha e outros elementos de bloco
 
 2,4
 
-### 6\) Las propiedades CSS son `case-sensitive` \(toman en cuenta las minúsculas y mayúsculas\)
+#### 6\) Propriedades CSS são `case-sensitive` \(levam em conta letras minúsculas e maiúsculas\)
 
 ```css
 ul {
-  MaRgiN: 10px;
+   MaRgiN : 10px;
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 2
 
-### 7\) ¿Cuál es la diferencia entre `display: inline-block` y `display: inline`?
+#### 7\) Qual é a diferença entre `display: inline-block` e `display: inline`?
 
-#### Opciones
+**Opções**
 
-1. A un elemento inline no se le puede determinar dimensiones, mientras que a
-
-   uno inline-block sí
-
-2. A un elemento inline-block no se le puede determinar dimensiones, mientras
-
-   que a uno inline sí
-
-3. No hay diferencias entre ambos
-4. Un elemento inline no aparece en pantalla, mientras que un inline-block sí
+1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um _inline-block_ sim
+2. Você não pode determinar dimensões em um elemento _inline-block_, enquanto que _inline_ sim
+3. Não há diferenças entre os dois
+4. Um elemento _inline_ não aparece na tela, enquanto que um _inline-block_ sim 
 
 1
 
-### 8\) ¿Cuál es la sintaxis correcta para la etiqueta `img`?
+#### 8\) Qual é a sintaxe correta para o rótulo `img`?
 
-#### Opciones
+**Opções**
 
 1. `<image src="foto.jpg" alt="Foto"></image>`
 2. `<image href="foto.jpg" alt="Foto">`
@@ -112,25 +104,25 @@ ul {
 
 4
 
-### 9\) ¿Las propiedades `margin-top` y `margin-bottom` tienen efecto sobre elementos inline?
+#### 9\) As propriedades `margin-top` e `margin-bottom` têm efeito em elementos _inline_?
 
-#### Opciones
+**Opções**
 
-1. Sí
-2. No
-
-2
-
-### 10\) ¿Las propiedades `padding-top` y `padding-bottom` incrementan el tamaño de un elemento inline?
-
-#### Opciones
-
-1. Sí
-2. No
+1. Sim
+2. Não
 
 2
 
-### 11\) Dado el siguiente estilo CSS, ¿qué color tendrán los `<h3>`?
+#### 10\) Faça as propriedades `padding-top` e `padding-bottom` aumentam o tamanho de um elemento _inline_?
+
+**Opções**
+
+1. Sim
+2. Não
+
+2
+
+#### 11\) Dado o seguinte estilo CSS, que cor  terão os `<h3>`?
 
 ```css
 h3 {
@@ -146,7 +138,7 @@ h2 {
 }
 ```
 
-#### Opciones
+**Opções**
 
 1. red
 2. blue
@@ -154,17 +146,17 @@ h2 {
 
 2
 
-### 12\) ¿Qué orden prevalece para asignar un estilo?
+#### 12\) Qual ordem prevalece para atribuir um estilo?
 
-#### Opciones
+**Opções**
 
-1. Especificidad, orden del código e importancia
-2. Importancia, especificidad y orden del código
-3. Orden del código, importancia y especificidad
+1. Especificidade, ordem de código e importância
+2. Importância, especificidade e ordem do código
+3. Ordem de código, importância e especificidade
 
 2
 
-### 13\) Según el siguiente código, ¿cuál será el color del elemento `.phrase`?
+#### 13\) De acordo com o seguinte código, qual será a cor do elemento `.phrase`?
 
 **HTML:**
 
@@ -191,15 +183,15 @@ h2 {
 }
 ```
 
-#### Opciones
+**Opções**
 
 1. `#FAB541`
 2. Azul
-3. Por defecto del navegador \(negro\)
+3. Padrão do navegador \(preto\)
 
 3
 
-### 14\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 14\) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -222,15 +214,15 @@ ul li {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Negro
+1. Preto
 2. Azul
-3. Rojo
+3. Vermelho
 
 2
 
-### 15\) Tomando en cuenta el siguiente código, ¿cuál es el color del texto **JavaScript**?
+#### 15\) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript** ?
 
 **HTML:**
 
@@ -253,15 +245,15 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Rojo
-2. Negro
+1. Vermelho
+2. Preto
 3. Azul
 
 3
 
-### 16\) Teniendo en cuenta el `HTML` y el resultado, ¿cuál sería el `CSS` necesario para lograrlo?
+#### 16\) Levando em conta o `HTML` e o resultado, qual seria o `CSS` necessário para produzir o resultado?
 
 **HTML:**
 
@@ -274,56 +266,53 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **RESULTADO:**
 
-![Positioning - Pregunta](https://github.com/Laboratoria/curricula-js/blob/fd8b393634106b9b966c5e7d2637afe951b8a81e/03-interactive-site/00-html-and-css/12-quiz/positioning.png?raw=true)
+![Posicionamento - Pergunta](https://github.com/Laboratoria/curricula-js/raw/fd8b393634106b9b966c5e7d2637afe951b8a81e/03-interactive-site/00-html-and-css/12-quiz/positioning.png?raw=true)
 
-#### Opciones
+**Opções**
 
-1. `.container` con `position: relative;` y `.red` con `position: absolute;` y
-
-   `left: 200px;`
-
-2. `.container` con `position: fixed;` y `.red` con `left: 200px;`
-3. `.red` con `position: absolute;` y `left: 200px;`
-4. `.red` con `position: relative;` y `left: 200px;`
+1. `.container` com `position: relative;` e .`red` com `position: absolute;` e `left: 200px;`
+2. .`container` com `position: fixed;` e .`red` com `left: 200px;`
+3. `.red` com `position: absolute;` e `left: 200px;`
+4. `.red` com `position: relative;` e `left: 200px;`
 
 1
 
-### 17\) Tomando en cuenta el siguiente código, ¿qué pasará con la posición de `#example`?
+#### 17\) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo` ?
 
 **HTML:**
 
 ```markup
-<p id="example">Hello!</p>
+<p id="exemplo">Olá!</p>
 ```
 
 **CSS:**
 
 ```css
-#example {
+#exemplo {
   margin-bottom: 5px;
 }
 ```
 
-#### Opciones
+**Opções**
 
-1. Se moverá `5px` hacia abajo
-2. Todos los elementos siguientes empezarán `5px` más abajo
-3. Ninguno
-
-2
-
-### 18\) ¿Qué sucede con los elementos en línea cuando se vuelve flotante?
-
-#### Opciones
-
-1. Se mantiene como elemento en línea
-2. Se vuelve un elemento en bloque
+1. Descerá `5px`
+2. Todos os elementos começarão `5px` abaixo
+3. Nenhum
 
 2
 
-### 19\) Selecciona las propiedades que corresponden a las tipografías
+#### 18\) O que acontece com os elementos em linha quando se torna flutuante?
 
-#### Opciones
+**Opções**
+
+1. Permanece como um elemento em linha
+2. Torna-se um elemento de bloco
+
+2
+
+#### 19\) Selecione as propriedades que correspondem aos tipos de letra
+
+**Opções**
 
 1. font-size
 2. font-color
