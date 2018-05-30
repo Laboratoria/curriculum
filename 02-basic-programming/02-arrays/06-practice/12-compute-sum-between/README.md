@@ -1,6 +1,4 @@
-# 12 - Compute Sum Between
-
-## computeSumBetween
+# computeSumBetween
 
 Escreva uma função chamada "computeSumBetween".
 
@@ -15,4 +13,3 @@ Notas:
 var output = computeSumBetween (2, 5);
 console.log (salida); // -> 9
 ```
-

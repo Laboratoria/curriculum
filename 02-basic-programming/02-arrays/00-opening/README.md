@@ -1,4 +1,4 @@
-# 00 - Opening
+# Introdução
 
 * Tipo: `leitura`
 * formato: `individual`
@@ -6,18 +6,18 @@
 
 ***
 
-## Objetivos de Aprendizagem {#objetivos-de-aprendizaje}
+# Objetivos de Aprendizagem
 
 Nesta unidade, aprenderemos:
 
 * `arrays`: estrutura de dados elementar da programação em JavaScript;
 * A usar novos conceitos para resolver problemas ainda mais complexos e criar produtos mais elaborados na web.
 
-## Por que aprender isso? {#por-que-aprender-esto}
+# Por que aprender isso?
 
 À medida que criamos programas mais complexos, precisamos conhecer as estruturas que facilitam nosso trabalho. Como vimos anteriormente, uma grande parte da programação é sobre converter dados em informação. Nesta unidade, nós veremos _arranjos_ e na próxima, _objetos_, duas estruturas para agrupar dados de uma maneira mais eficiente. Fazendo uso dessas estruturas de dados, podemos criar programas e produtos digitais mais complexos.
 
-## Guia para perguntas e conceitos-chave {#guia-de-preguntas-y-conceptos-clave}
+# Guia para perguntas e conceitos-chave
 
 Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes que vamos aprender e as principais questões que devemos prestar mais atenção.
 

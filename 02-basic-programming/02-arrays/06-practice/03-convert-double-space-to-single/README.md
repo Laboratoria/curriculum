@@ -1,6 +1,4 @@
-# 03 - Convert Double Space to Single
-
-## convertDoubleSpaceToSingle
+# convertDoubleSpaceToSingle
 
 Escreva uma função chamada `convertDoubleSpaceToSingle`.
 

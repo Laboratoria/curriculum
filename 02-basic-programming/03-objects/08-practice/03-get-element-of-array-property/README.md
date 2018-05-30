@@ -20,4 +20,3 @@ var obj = {
 var output = getElementOfArrayProperty(obj, 'key', 0);
 console.log(output); // --> 'Jamil'
 ```
-

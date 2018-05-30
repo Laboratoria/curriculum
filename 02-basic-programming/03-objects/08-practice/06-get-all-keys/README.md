@@ -36,6 +36,3 @@ Saída da função:
 ```javascript
 ['a', 'number', 'hungry', 'grammyWins']
 ```
-
-
-

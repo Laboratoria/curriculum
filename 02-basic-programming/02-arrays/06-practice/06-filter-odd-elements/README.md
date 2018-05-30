@@ -1,6 +1,4 @@
-# 06 - Filter Odd Elements
-
-## filterOddElements
+# filterOddElements
 
 Escreva uma função chamada `filterOddElements`.
 

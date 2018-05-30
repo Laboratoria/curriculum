@@ -6,11 +6,11 @@
 
 ***
 
-## Objetivos {#objetivos}
+## Objetivos
 
 * Faça um segundo teste para garantir que terminamos a unidade com total compreensão dos conceitos.
 
-## Perguntas {#preguntas}
+## Perguntas
 
 ### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe.
 

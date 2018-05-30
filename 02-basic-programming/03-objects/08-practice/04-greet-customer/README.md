@@ -37,4 +37,3 @@ if (firstName === 'Joe') {
   // do something
 }
 ```
-

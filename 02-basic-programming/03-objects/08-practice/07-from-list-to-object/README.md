@@ -21,4 +21,3 @@ Saída função:
 Não mude a string de entrada. Suponha que todos os elementos do _array_ sejam do tipo `string`.
 
 Observe que a entrada pode ter um número diferente de elementos do que a amostra fornecida. Por exemplo, se a entrada tiver 6 valores em vez de 4, seu código deve se adaptar de maneira flexível.
-
