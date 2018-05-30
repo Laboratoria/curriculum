@@ -1,4 +1,4 @@
-# Manipulación del DOM 
+# Manipulación del DOM
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -80,7 +80,8 @@ const firstItem = document.getElementById("highlight");
 
 ### **getElementsByClassName()**
 
-La función `getElementsByClassName()` devuelve una `lista de elementos` XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
+La función `getElementsByClassName()` devuelve una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
+ XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
 
 ```html
 <body>
@@ -105,7 +106,7 @@ Como sucede con todas las funciones que proporciona DOM, la función `
 getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
 autoexplicativo.
 
-La función `getElementsByTagName(nombreEtiqueta)` obtiene una lista con todos los elementos
+La función `getElementsByTagName(nombreEtiqueta)` obtiene una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/).
 de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a
 la función.
 
@@ -124,6 +125,7 @@ la función.
 
 ```js
 const titles = document.getElementsByTagName('h2');
+
 console.log(titles[0]);
 console.log(titles[1]);
 console.log(titles[2]);
@@ -155,28 +157,24 @@ Función que retorna el primer elemento que coincide con el selector CSS dado co
 ```js
 // Selector css - id
 const item = document.querySelector('#highlight');
-
 console.log(item);
-
 ```
 
 ```js
 // Selector css - class
 const item = document.querySelector('.bolded');
-
 console.log(item);
 ```
 
 ```js
 // Selector css - etiqueta
 const title = document.querySelector('h2');
-
 console.log(title);
 ```
 
 ### **querySelectorAll()**
 
-Función que retorna una lista de elementos que coinciden con el selector CSS dado como parámetro.
+Función que retorna una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/) que coinciden con el selector CSS dado como parámetro.
 
 ```html
 <body>
@@ -194,14 +192,12 @@ Función que retorna una lista de elementos que coinciden con el selector CSS da
 ```js
 // Selector css - etiqueta
 const titles = document.querySelectorAll('h2');
-
 console.log(titles);
 ```
 
 ```js
 // Selector css - etiqueta
 const items = document.querySelectorAll('.bolded');
-
 console.log(items);
 ```
 

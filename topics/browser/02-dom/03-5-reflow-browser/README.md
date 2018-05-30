@@ -36,7 +36,6 @@ re-flow.
 
 > Finalmente, el usuario puede activar los re-flow activando un efecto `hover`, ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las dimensiones de fuente, cambiando hojas de estilo o fuentes.
 
-
 El caudal de flujo de procesamiento de re-flow variará. Algunos navegadores
 son mejores que otros en ciertas operaciones. Algunos elementos generan más
 re-flow que otros. Afortunadamente, hay varios consejos generales que puede
