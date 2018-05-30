@@ -1,4 +1,4 @@
-# Aula prática
+# Exercícios Guiados
 
 * Tipo: `oficina`
 * Formato: `guiado`
@@ -6,24 +6,24 @@
 
 ***
 
-### Objetivos
+## Objetivos
 
 * Praticar o desenvolvimento de código com professores, resolvendo problemas de estruturas condicionais, de repetição e funções.
 * Praticar, praticar e praticar
 
-### Enunciados
+## Enunciados
 
 A seguir, você terá mais problemas práticos. Estes problemas serão resolvidos passo a passo pela sua equipe de professores em uma sessão presencial \(`oficina`\).
 
 Sugerimos que você tente resolver os exercícios sozinha \(ou em equipe\) **antes** da sessão presencial. Então, você já virá com dúvidas específicas e estará familiarizada com os desafios. Talvez você possa apresentar sua solução para a turma e assim ajudar o restante de suas colegas :\)
 
-#### 1. Placar
+### 1. Placar
 
 Imagine que você está jogando um jogo com algumas amigas e quer registrar a pontuação de cada uma delas. Crie um `object` chamado `scores` em que as chaves ou propriedades sejam os nomes das suas amigas e os valores, as pontuações \(todas começam com 0\).
 
 Escreva uma função que recebe dois argumentos: o nome da sua amiga e o número de novos pontos obtidos, e atualize os pontos da jogadora no `object` "scores". Escreva também uma função que imprima no console o total de pontos.
 
-#### 2. Caixa Automático
+### 2. Caixa Automático
 
 Crie um programa que um caixa automático pode usar para determinar o número **mínimo** de notas a serem entregues, de acordo com o valor solicitado. O caixa começa com:
 
@@ -73,7 +73,7 @@ No caixa restam:
 1: 800
 ```
 
-#### 3. Reserva de assentos de companhias aéreas
+### 3. Reserva de assentos de companhias aéreas
 
 Uma pequena companhia aérea acaba de comprar um computador para seu novo sistema de reservas automatizado. Você foi solicitada para desenvolver o novo sistema usando apenas `prompt` e `alert`. Você vai escrever um pedido para atribuir assentos em cada voo do único avião da companhia \(capacidade: 10 assentos\).
 
@@ -114,4 +114,3 @@ alert(str); // o assento 2 e 3 estão reservados.
 ```
 
 **Nota: Todos os desafios devem validar as entradas antes de executar o programa.**
-

@@ -1,6 +1,4 @@
-# 08 - Find Smallest Number Among Mixed Elements
-
-## findSmallestNumberAmongMixedElements
+# findSmallestNumberAmongMixedElements
 
 Escreva uma função chamada "findSmallestNumberAmongMixedElements".
 

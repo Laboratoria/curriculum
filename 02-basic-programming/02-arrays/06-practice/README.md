@@ -1,4 +1,4 @@
-# 06 - Practice
+# Exercícios
 
 * Tipo: `exercício`
 * Formato: `individual`

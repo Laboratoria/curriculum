@@ -1,4 +1,4 @@
-# Combinando matrizes com objetos
+# Vetores e Objetos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,13 +6,13 @@
 
 ***
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 * Entender, por meio de um exemplo, como combinar as duas estruturas de dados estudadas nesta unidade: `array` e `object`
 
 O texto abaixo é amplamente baseado, com alguns ajustes, em 4 de [JavaScript for Kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf) , Nick Morgan, 2015.
 
-### Combinando _arrays_ com _objects_
+## Combinando _arrays_ com _objects_
 
 Já vimos o caso de ter um `array`como valor de uma propriedade **dentro de** um `object` \(por exemplo, um `array` do elenco de um `object` _movie_\), mas outra combinação bem comum para agrupar dados é ter um `array` de `objects`. Vejamos um exemplo:
 

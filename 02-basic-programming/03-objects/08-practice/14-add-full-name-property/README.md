@@ -12,4 +12,3 @@ var person = {
 addFullNameProperty(person);
 console.log(person.fullName); // --> 'Jade Smith'
 ```
-

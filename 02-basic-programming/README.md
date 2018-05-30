@@ -1,4 +1,4 @@
-# Basic Programming
+# Programação Básica
 
 Neste curso, você aprenderá maneiras melhores de estruturar e manipular os dados do seu programa usando estruturas de dados básicas: **vetores** e **objetos**. Além disso, você aprenderá a usar dois programas essenciais para um desenvolvedor: a linha de comandos e o controlador de versões.
 
@@ -30,19 +30,19 @@ Com este curso, você desenvolverá dois programas que têm aplicação em nosso
 
 ## Syllabus
 
-### Unidad 01: [A linha de comandos e o Git](01-shell+git)
+### Unidade 01: [A linha de comandos e o Git](01-shell+git)
 
 ...
 
-### Unidad 02: [Arranjos (vetores - arrays)](02-arrays)
+### Unidade 02: [Arranjos (vetores - arrays)](02-arrays)
 
 ...
 
-### Unidad 03: [Objetos (objects)](03-objects)
+### Unidade 03: [Objetos (objects)](03-objects)
 
 ...
 
-### Unidad 04: [Produtos finais](04-final-products)
+### Unidade 04: [Produtos finais](04-final-products)
 
 Aplique o que você aprendeu criando dois programas que com aplicação em nosso dia-a-dia: validação de cartão de crédito e Cifra de César.
 
@@ -65,4 +65,3 @@ Aplique o que você aprendeu criando dois programas que com aplicação em nosso
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke de 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
-

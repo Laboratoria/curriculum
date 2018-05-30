@@ -1,4 +1,4 @@
-# Produtos Finais Solucionados
+# Solução dos Produtos Finais
 
 * Tipo: `seminário`
 * Formato: `guiado`
@@ -18,4 +18,3 @@
    * `String.fromCharCode()`
    * `ASCII` e `Unicode`
 2. Resolver os desafios da Cifra de César e Cartão de Crédito Válido. Avalie as diferentes formas de alcançar o resultado e discuta qual é o melhor
-

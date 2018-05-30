@@ -1,6 +1,4 @@
-# 09 - Get Longest Word of Mixed Elements
-
-## getLongestWordOfMixedElements
+# getLongestWordOfMixedElements
 
 Escreva uma função chamada "getLongestWordOfMixedElements".
 
@@ -17,4 +15,3 @@ Exemplo:
 var output = getLongestWordOfMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 'word'
 ```
-

@@ -1,4 +1,4 @@
-# 02 - Array Proto
+# Array Proto
 
 * Tipo: `leitura`
 * Formato: `individual`

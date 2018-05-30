@@ -29,6 +29,3 @@ Por exemplo, você também deve conseguir manipular a entrada abaixo ou qualquer
   weight: 45
 }
 ```
-
-
-

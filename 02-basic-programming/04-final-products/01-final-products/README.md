@@ -1,4 +1,4 @@
-# Final Products
+# Produtos Finais
 
 * Tipo: `exercício`
 * Formato: `individual`
@@ -42,7 +42,6 @@ Por exemplo:
 Abaixo está um vídeo de Michelle que guia você pela fórmula matemática da Cifra de César e um algumas outras dicas que você deve saber para resolver este desafio. Ouça com atenção e siga os conselhos! :\)
 
 [![Dicas Cifra de C&#xE9;sar](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
 
 Também compartilhamos mais informações do que Michelle explicou no vídeo anterior:
 

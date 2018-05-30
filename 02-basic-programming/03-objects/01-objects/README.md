@@ -1,4 +1,4 @@
-# Objetos em JavaScript
+# Objetos
 
 * Tipo: `leitura`
 * Formato: `individual`

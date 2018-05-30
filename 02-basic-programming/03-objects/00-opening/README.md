@@ -1,4 +1,4 @@
-# Abertura
+# Introdução
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -34,4 +34,3 @@ Aqui está uma série de perguntas que você deve ser capaz de responder no fina
 * [ ]  Quais são as _chaves_ de um `object`?
 * [ ]  Como podemos acessar a lista de _chaves_ de um `object`?
 * [ ]  O que é um algoritmo? Explique alguns algoritmos que você conhece.
-
