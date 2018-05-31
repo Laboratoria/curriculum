@@ -319,7 +319,7 @@ incluyen en el _boilerplate_.
 <!-- ### Habilidades blandas
 
 Para completar este proyecto deberás realizar una planificación general del
-proyecto, donde esperamos logres generar un plan paso a paso de cómo resolverás
+proyecto, donde esperamos que generes un plan paso a paso de cómo resolverás
 el proyecto. Deberás considerar las distintas secciones del data dashboard, los
 recursos y el tiempo que dispones.
 

@@ -239,18 +239,19 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
+revisar la rúbrica.
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
-| Planificación y organización | 2
-| Autoaprendizaje | 2
-| Solución de problemas | 2
-| Dar y recibir feedback | 2
-| Adaptabilidad | 2
-| Trabajo en equipo | 1
-| Comunicación eficaz | 1
-| Presentaciones | 1
+| Planificación y organización | 2 |
+| Autoaprendizaje | 2 |
+| Solución de problemas | 2 |
+| Dar y recibir feedback | 2 |
+| Adaptabilidad | 2 |
+| Trabajo en equipo | 1/2 |
+| Comunicación eficaz | 1/2 |
+| Presentaciones | 1/2 |
 
 ***
 
