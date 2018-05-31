@@ -1,6 +1,6 @@
 # Retos de código
 
-- Tipo: `producto`
+- Tipo: `práctica`
 - Formato: `self-paced`
 - Duración: `24h`
 

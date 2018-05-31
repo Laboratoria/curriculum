@@ -37,10 +37,32 @@ Para insertar contenido multimedia en nuestra web, debemos usar las etiquetas
 `<video>` y `<audio>`. A continuación te mostramos unos ejemplos de cómo
 insertarlos:
 
-<iframe height='265' scrolling='no' title='Video Tag' src='//codepen.io/ivandevp/embed/gvMPjW/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/gvMPjW/'>Video Tag</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='265'
+  scrolling='no'
+  title='Video Tag'
+  src='//codepen.io/ivandevp/embed/gvMPjW/?height=265&theme-id=0&default-tab=html,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'
+>
+  See the Pen [Video Tag](https://codepen.io/ivandevp/pen/gvMPjW/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
-<iframe height='265' scrolling='no' title='Audio Tag' src='//codepen.io/ivandevp/embed/PQzNoE/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/PQzNoE/'>Audio Tag</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='265'
+  scrolling='no'
+  title='Audio Tag'
+  src='//codepen.io/ivandevp/embed/PQzNoE/?height=265&theme-id=0&default-tab=html,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'
+>
+  See the Pen [Audio Tag](https://codepen.io/ivandevp/pen/PQzNoE/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 ¿Te diste cuenta de lo sencillo que es agregarlo? Bueno, adicional a esto,
@@ -79,7 +101,18 @@ a elementos multimedia (audio y video).
 
 Ejemplo:
 
-<iframe height='265' scrolling='no' title='HTMLMediaElement JS' src='//codepen.io/ivandevp/embed/KQMWMy/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/KQMWMy/'>HTMLMediaElement JS</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='265'
+  scrolling='no'
+  title='HTMLMediaElement JS'
+  src='//codepen.io/ivandevp/embed/KQMWMy/?height=265&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'
+>
+  See the Pen [HTMLMediaElement JS](https://codepen.io/ivandevp/pen/KQMWMy/) by
+  Ivan ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 ¿Cómo te imaginas que sería con el audio? ¿Básicamente lo mismo no? Esperamos lo
@@ -87,7 +120,19 @@ intentes y veas el resultado.
 
 ¿Y cómo sería con jQuery?
 
-<iframe height='265' scrolling='no' title='HTMLMediaElement jQuery' src='//codepen.io/ivandevp/embed/XZKMjx/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/XZKMjx/'>HTMLMediaElement jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='265'
+  scrolling='no'
+  title='HTMLMediaElement jQuery'
+  src='//codepen.io/ivandevp/embed/XZKMjx/?height=265&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'
+>
+  See the Pen [HTMLMediaElement jQuery](https://codepen.io/ivandevp/pen/XZKMjx/)
+  by Ivan ([@ivandevp](https://codepen.io/ivandevp)) on
+  [CodePen](https://codepen.io).
 </iframe>
 
 Si bien jQuery nos permite manipular el DOM con mayor facilidad, no provee

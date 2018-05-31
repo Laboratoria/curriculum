@@ -6,19 +6,19 @@
 
 ***
 
-### Mecanismos que pueden ser usados con ciclos/bucles
+## Mecanismos que pueden ser usados con ciclos/bucles
 
 Los siguientes mecanismos pueden ser usados con ciclos:
 
-#### `break [label]`
+### `break [label]`
 
 Sale de un ciclo.
 
-#### `continue [label]`
+### `continue [label]`
 
 Detiene la iteración actual e inmediatamente ejecuta la siguiente.
 
-#### `Labels`
+### `Labels`
 
 Un `label`(etiqueta) es un identificador seguido por `:`. Al inicio de un ciclo,
 un label te permite hacer `break` o `continue` incluso si está dentro anidado de
@@ -41,6 +41,8 @@ const findEvenNumber = arr => {
   console.log('DONE');
 };
 ```
+
+## Tipos de bucles (loops)
 
 ### while
 

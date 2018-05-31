@@ -29,10 +29,11 @@ proyecto.
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
 
 Ya hecho lo anterior podemos proceder a hacer uso del componente que
-necesitemos, para este caso como ejemplo usaremos un **modal** y un **Carousel** . Antes que nada
-es necesario mencionar que los modales como  los carruseles podemos crearlos usando CSS y
-javascript, esta vez haremos que la magia salga con ayuda de nuestro mejor
-amigo (sí, el framework que ya decidiste probar).
+necesitemos, para este caso como ejemplo usaremos un **modal** y un
+**Carousel**. Antes que nada es necesario mencionar que los modales como los
+carruseles podemos crearlos usando CSS y JavaScript, esta vez haremos que la
+magia salga con ayuda de nuestro mejor amigo (sí, el framework que ya decidiste
+probar).
 
 Como ya vimos (y practicamos) solo necesitamos ir a la página de nuestro
 framework, escoger el modal que más nos hace feliz y copiar el código
@@ -42,13 +43,27 @@ líneas que se nos dan ahí mismo.
 En nuestro archivo html:
 
 ```html
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+<button
+  type="button"
+  class="btn btn-primary"
+  data-toggle="modal"
+  data-target="#exampleModal"
+  data-whatever="@mdo"
+>Open modal for @mdo</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <h4 class="modal-title" id="exampleModalLabel">New message</h4>
       </div>
       <div class="modal-body">
@@ -110,22 +125,23 @@ Ahora vamos a ha ver el codigo para crear nuestro Caruosel.
   </a>
 </div>
 ```
+
 Y en nuestro archivo app.js:
 
 ```js
 $('.carousel').carousel()
 ```
-Y listo ya tenemos nuestro carrusel.
 
+Y listo ya tenemos nuestro carrusel.
 
 ### Y si decidí usar otro framework?
 
-Pues no hay que temer, solo revisa la documentación del
-framework seleccionado y practica mucho, los pasos a seguir son
-tremendamente parecidos y en algunas ocasiones, los mismos.
+Pues no hay que temer, solo revisa la documentación del framework seleccionado y
+practica mucho, los pasos a seguir son tremendamente parecidos y en algunas
+ocasiones, los mismos.
 
 Solo recuerda:
 
-* Investigar
-* Intentarlo
-* ¡¡Preguntar!!
+- Investigar
+- Intentarlo
+- ¡¡Preguntar!!

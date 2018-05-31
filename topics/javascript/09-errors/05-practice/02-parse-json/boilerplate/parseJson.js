@@ -1,5 +1,5 @@
 const parseJson = () => {
-	// Tu código acá
+  // Tu código acá
 };
 
-module.exports = parseJson
+module.exports = parseJson;

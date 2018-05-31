@@ -43,23 +43,34 @@ var age = 19;
 
 La palabra clave (_keyword_) `var` indica que esta frase va a definir una
 variable. Es seguida por el nombre de la variable (el nombre _age_) y, si
-queremos asignarle de inmediato un valor, le sigue el operador `=` y una
-expresión (el número 19).
+queremos asignarle de inmediato un valor, le sigue el operador `=` (operador de
+asignación) y una expresión (el número `19`).
 
-La declaración anterior crea una variable llamada age (o edad en español) y se
-usa para retener el número 19. La consola devuelve undefined, pero no creas que
-es un error. Es lo que JavaScript hace cuando un comando no retorna valor.
-Cuando escribes 12 + 5, la consola retorna 17. Pero al declarar una variable
-llamada age asignándole el valor 19, no hay un valor de retorno. Por eso la
-consola simplemente devuelve undefined (en el resto de los ejemplos vamos a
-omitir ese undefined de retorno porque no agrega mucho valor a la explicación).
+***
+
+NOTA: En este primer ejemplo hemos usado `var`, que a día de hoy se considera
+una manera un poco anticuada de declarar variables, y hoy en día, desde ES6,
+preferimos usar o `let` (para declarar variables con scope de bloque) o `const`
+(para declarar referencias que no se van a reasignar) como veremos más adelante.
+
+***
+
+La declaración anterior crea una variable llamada `age` (o edad en español) y se
+usa para retener el número `19`. La consola devuelve `undefined`, pero no creas
+que es un error. Es lo que JavaScript hace cuando un comando no retorna valor.
+Cuando escribes `12 + 5`, la consola retorna `17`. Pero al declarar una variable
+llamada `age` asignándole el valor `19`, no hay un valor de retorno. Por eso la
+consola simplemente devuelve `undefined` (en el resto de los ejemplos vamos a
+omitir ese `undefined` de retorno porque no agrega mucho valor a la
+explicación).
 
 Después de que una variable se ha definido, su nombre puede ser usado como una
-expresión. El valor de esa expresión es el valor que la variable alberga
+_expresión_. El valor de esa expresión es el valor que la variable alberga
 actualmente. Sigamos con el ejemplo anterior:
 
 ```js
-var age = 19;
+// declaramos `age` usando `const` ya que no vamos a reasignar esta variable.
+const age = 19;
 'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + age + ' años';
 // retorna: "Hola, mi nombre es Michelle y tengo 19 años"
 ```
@@ -68,29 +79,31 @@ La consola nos ayuda a saber el valor de una variable. Si escribimos el nombre
 de una variable que ha sido declarada en la consola, nos devuelve su valor. Si
 esa variable no ha sido declarada, la consola retorna un error. Y si la variabla
 ha sido declarada, pero no le hemos asignado valor, la consola devuleve
-undefined.
+`undefined`.
 
 ```js
 age
 // retorna: Uncaught ReferenceError: age is not defined
 //           at <anonymous>:1:1
 
-var age = 19;
+const age = 19;
 age
 // retorna: 19
 
-var weight;
+let weight;
 weight
 // retorna: undefined
 ```
 
 Cuando una variable apunta a un valor, eso no quiere decir que está ligada a ese
 valor para siempre. De hecho, se llaman variables porque su valor puede variar.
-El operador `=` se puede utilizar en cualquier momento en variables existentes
-para desconectarlas de su valor actual y apuntarlas a uno nuevo.
+El operador de asignación (`=`) se puede utilizar en cualquier momento en
+variables existentes (declaradas con `let` o `var`) para desconectarlas de su
+valor actual y apuntarlas a uno nuevo (identificadores declarados con `const` no
+se pueden reasignar).
 
 ```js
-var age = 19;
+let age = 19;
 // retorna: undefined
 age = 20;
 // retorna: 20
@@ -99,7 +112,8 @@ age = 20;
 ```
 
 Ten en cuenta que para reasignarle un valor, no tienes que utilizar la _keyword_
-`var` de nuevo. Solo la utilizas cuando queremos _crear_ nuevas variables.
+`let` o `var` de nuevo. Solo la utilizas cuando queremos _declarar_ nuevas
+variables.
 
 Muchas veces se explica el concepto de variables con la analogía de una caja:
 las variables son como "caja" en las que puedes meter algún valor que luego
@@ -166,7 +180,7 @@ alguien anote un gol, la variable `score` debe aumentar en 1. Esto lo puedes
 hacer de la siguiente manera:
 
 ```js
-var score = 0;
+let score = 0;
 score = score + 1;
 score;
 // retorna: 1
@@ -175,7 +189,7 @@ score;
 Esto mismo se puede escribir de una manera más sencilla:
 
 ```js
-var score = 0;
+let score = 0;
 score++;
 score;
 // retorna: 1
@@ -188,7 +202,7 @@ que un enemigo lo golpea, pierde 25 puntos. Cada vez que toma una bebida
 regenera 10 puntos.
 
 ```js
-var lifePoints = 100;
+let lifePoints = 100;
 lifePoints = lifePoints - 25;
 lifePoints
 // retorna: 75
@@ -201,7 +215,7 @@ lifePoints
 Esto se puede escribir de una manera reducida, así:
 
 ```js
-var lifePoints = 100;
+let lifePoints = 100;
 lifePoints -= 25;
 lifePoints
 // retorna: 75
@@ -215,13 +229,218 @@ Existen otros operadores similares a `+=` y `-=`. Por ejemplo, existen también
 `*=` y `/=`:
 
 ```js
-var balloons = 100;
+let balloons = 100;
 balloons *= 2;
 balloons
 // retorna: 200
 
-var balloons = 100;
+let balloons = 100;
 balloons /= 4;
 balloons
 // retorna: 25
+```
+
+## El scope de una variable
+
+El _scope_ de una variable son las ubicaciones desde donde puede ser accedida.
+Por ejemplo:
+
+```js
+const foo = () => {
+  let x;
+}
+```
+
+Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`. Esta
+variable podrá ser accedida desde dentro del cuerpo de la función `foo`, pero no
+fuera de ella.
+
+Tradicionalmente, en JavaScript solo podíamos crear un nuevo scope o ámbito
+creando una nueva función. Desde ES6 (ES2015) tenemos `let` y `const`, que
+introducen el concepto de _block sope_ en JavaScript.
+
+### Lexical scoping
+
+Las variables en JavaScript son _lexically scoped_ (de ámbito léxico), lo que
+significa que la estructura estática de un programa determina el ámbito de la
+variable (no es influenciada por dónde se invoca la función). En palabras más
+simples, significa que las variables declaradas dentro de un _ámbito_ (una
+función, o un bloque indicado por los caracteres `{}` en el caso de `let` y
+`const`), no son visibles fuera de ese _ámbito_.
+
+### Nested Scopes (ámbitos anidados)
+
+Si el ámbito está anidado dentro del ámbito directo de una variable, la variable
+será accesible en todos los ámbitos:
+
+```js
+function foo(arg) {
+  function bar() {
+    console.log(`arg: ${arg}`);
+  }
+  bar();
+}
+
+console.log(foo('hello')); // arg: hello
+```
+
+El ámbito directo de `arg` es `foo`, pero es también accesible del ámbito
+anidado `bar`. Con respecto a la anidación, `foo` es el _outer scope_ (alcance o
+ámbito externo) y `bar` es el _inner scope_ (alcance o ámbito interno).
+
+### Shadowing (sombra)
+
+Si un scope declara una variable que tiene el mismo nombre que otra en un scope
+interno de una función, el acceso a la variable externa es bloqueado en el scope
+interno y todos los scopes anidados dentro de ella. Cambios a la variable
+interna no afecta a la variable externa, la cual es accesible nuevamente cuando
+el scope interno es dejado. Ejemplo:
+
+```js
+let x = 'global';
+function f() {
+  let x = 'local';
+  console.log(x); // local
+}
+f();
+console.log(x); // global
+```
+
+Dentro de la función `f`, la variable `x` es sombreada por la variable local
+`x`.
+
+***
+
+## Diferencia entre contexto y alcance
+
+Cada invocación de función tiene tanto un alcance como un contexto asociados a
+ella. Fundamentalmente, el alcance es un concepto asociado a funciones mientras
+que el contexto está asociado a objetos. En otras palabras, el alcance se
+refiere a la accesibilidad de variables de una función cuando es invocada y es
+único a cada invocación. En cambio, el contexto es siempre el valor de `this`
+cuya referencia es siempre el objeto que está ejecutando el código.
+
+### Alcance de variables
+
+Las variables pueden ser declaradas con **alcance local** o **alcance global**,
+lo cual establece su accesibilidad desde diferentes alcances en tiempo de
+ejecución. Cualquier variable definida como global será accesible en tiempo de
+ejecución por cualquier alcance, ya que se habrá declarado fuera del cuerpo de
+una función.
+
+En cambio, las variables locales existen solamente dentro del cuerpo de una
+función o bloque. El alcance local de una variable solo se define a partir del
+cuerpo de la función o bloque que la contiene.
+
+## Declaración de variables de ámbito local con "let"
+
+La sentencia `let` declara una variable de alcance local, la cual,
+opcionalmente, puede ser inicializada con algún valor y permite ser reasignada
+(a diferencia de `const`).
+
+El alcance de `let` es local al bloque, declaración o expresión donde se está
+usando. Lo anterior diferencia la expresión `let` de la palabra reservada `var`,
+la cual define una variable global o local en una función sin importar el ámbito
+del bloque.
+
+Veamos algunos ejemplos:
+
+```js
+if (x > y) {
+  let gamma = 12.7 + y;
+  i = gamma * x;
+}
+```
+
+En el ejemplo anterior, `gamma` solo existe dentro del bloque del `if`.
+
+```js
+for (let i = 0; i < students.length; i++) {
+  console.log(students[i].name);
+}
+```
+
+Podemos utilizar `let` para que la variable sea local al alcance del bucle
+`for`. Si en su lugar usáramos `var`, la variable sería visible en toda la
+función que contiene dicho bucle.
+
+```js
+(function () {
+  if (true) {
+    let x = 'hola mundo';
+  }
+  console.log(x);
+  // Da error, porque "x" ha sido definida dentro del "if"
+})();
+```
+
+En el ejemplo, `console.log(x)` no tiene acceso a `let x = "hola mundo"` y da
+error porque `x` ha sido definida dentro del bloque `if`.
+
+En el siguiente ejemplo la consola imprime `Hola Ale`, ya que la variable `x` en
+el bloque del `if` se mantiene dentro de su ámbito.
+
+```js
+(function () {
+  let x = 'Hola Ale';
+
+  if (true) {
+    let x = 'Hola Joan';
+  }
+  console.log(x);
+  // Imprime en consola Hola Ale
+})();
+```
+
+## Variables no reasignables con "const"
+
+Las variables de solo lectura son otra de las novedades de ECMAScript 6,
+mediante la introducción de la nueva palabra reservada `const`. Cualquier
+variable declarada como constante no podrá ser reasignada.
+
+Veamos un ejemplo:
+
+```js
+(function () {
+  const HELLO = 'hello world';
+  HELLO = 'hola mundo';
+  // Dará ERROR, ya que `HELLO` no puede ser reasignada
+})();
+```
+
+En este ejemplo vemos cómo desde el momento en que declaramos la constante
+`HELLO`, su valor queda blindado y el intérprete lanzará error al tratar de
+asignar un nuevo valor.
+
+```js
+(function () {
+  const PI;
+  PI = 3.15;
+  // Dará ERROR, ya que ha de asignarse un valor en la declaración
+})();
+```
+
+Pero, ¿qué pasa cuando la variable no se asigna a un valor, sino a un objeto?
+Veámoslo con un ejemplo:
+
+```js
+const USER = {
+  name: 'Caro',
+  surname: 'Covarrubias',
+  age: 20
+};
+
+/**
+ * La siguiente sentencia funciona, ya que estamos modificando una propiedad
+ * del objeto, pero no el valor en sí, que es la referencia al objeto, la cual
+ * no cambia.
+ **/
+USER.name = 'Joan';
+
+USER.age = 'veinte'; // modificar el tipo de una propiedad también funciona
+
+console.log(USER); // {name: 'Joan', surname: 'Covarrubias', age: 'veinte'}
+
+// Si tratamos de asignar un nuevo valor a `USER` veremos un error
+USER = 'Caro Covarrubias'; // Error, no esta permitido
 ```

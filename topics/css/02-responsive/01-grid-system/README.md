@@ -67,5 +67,5 @@ Los gutters son los espacios entre las columns.
 
 ***
 
-Si quieres entender un poco más cómo funcionan las grids, lee el
-siguiente [artículo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e "artículo")
+Si quieres entender un poco más cómo funcionan las grids, lee el siguiente
+[artículo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e).

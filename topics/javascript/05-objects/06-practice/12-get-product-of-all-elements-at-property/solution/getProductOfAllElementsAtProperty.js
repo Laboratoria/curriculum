@@ -4,7 +4,7 @@ function getProductOfAllElementsAtProperty(obj, key) {
 
   // if (array instanceof Array) {
   if (Array.isArray(array) && (array.length > 0)) {
-    product = array[0];
+    [product] = array;
 
     for (let i = 1; i < array.length; i += 1) { product *= array[i]; }
   }

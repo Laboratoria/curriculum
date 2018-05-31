@@ -79,32 +79,43 @@ siguiente código define la variable `square` para referirse a la _función_ que
 produce el cuadrado de un número dado:
 
 ```js
-var square = function(num) {
+const square = function (num) {
   return num * num;
 };
 ```
 
-Una función es creada por una expresión que empieza con el keyword `function`.
-Las funciones tienen un conjunto de _parámetros_ (en el ejemplo anterior solo
-  tenemos **un** parámetro: `num`) y un _cuerpo_, que contiene las sentencias a
-  ser ejecutadas. Los parámetros sirven para "pasarle" valores a la función y
-  por ende, cambiar su comportamiento según los valores brindados. El cuerpo de
-  la función tiene que estar siempre encerrado en llaves, incluso cuando
-  consista de una sola instrucción (como en el ejemplo previo).
+La misma función usando la síntaxis de _función flecha_ (arrow function):
+
+```js
+const square = num => num * num;
+```
+
+Una función es creada por una expresión que empieza con el keyword `function`,
+o alternativamente usando la síntaxis de _función flecha_. Las funciones tienen
+un conjunto de _parámetros_ (en el ejemplo anterior solo tenemos **un**
+parámetro: `num`) y un _cuerpo_, que contiene las sentencias a ser ejecutadas.
+Los parámetros sirven para "pasarle" valores a la función y por ende, cambiar su
+comportamiento según los valores brindados. Cuando declaramos una función usando
+el _keyword_ `function` el cuerpo de la función tiene que estar siempre
+encerrado en llaves, incluso cuando consista de una sola instrucción (como en el
+ejemplo previo), mientras que en las funciones flecha podemos hacer _retorno
+implícito_ cuando el cuerpo consta de solo una expresión (que será
+implícitamente el valor de retorno).
 
 ## Llamando una función
 
 Para correr el código dentro de una función, necesitamos _"invocar, llamar, o
 aplicar"_ la función. Esto se hace escribiendo el nombre de la función
-inmediatamente seguido por unos paréntesis. Dentro de los paréntesis se incluye
-lo que le quieres "pasar" a la función para usar como parámetro. Los valores que
-se pasan a la función para usar como parámetros son llamados _argumentos_.
+inmediatamente seguido por unos paréntesis `()`. Dentro de los paréntesis se
+incluye lo que le quieres "pasar" a la función para usar como parámetro. Los
+valores que se pasan a la función para usar como parámetros son llamados
+_argumentos_.
 
 Agregando al ejemplo anterior un llamado a la función `square` pasando como
 argumento el valor `12` vemos que nos devuelve `144` (es decir, 12 al cuadrado).
 
 ```js
-var square = function(num) {
+const square = function (num) {
   return num * num;
 };
 
@@ -118,7 +129,7 @@ Así como los argumentos son los valores de "entrada" (input) que utiliza una
 función al ser llamada, el valor de retorno es el valor de salida (output) que
 devuelve la función (el `144` del ejemplo anterior), y que puede ser utilizado
 en cualquier lugar del programa. Si una función no especifica el valor de
-retorno, entonces, la función retorna  `undefined`.
+retorno, entonces, la función retorna `undefined`.
 
 El valor de retorno se especifica con el _keyword_ `return`. En el ejemplo
 anterior, se especifica que el valor de retorno es el parámetro multiplicado por
@@ -129,7 +140,7 @@ Agreguemos una sentencia adicional al ejemplo anterior en la que se utilice el
 valor de retorno de la función `square`:
 
 ```js
-var square = function(num) {
+const square = function (num) {
   return num * num;
 };
 
@@ -150,17 +161,18 @@ siguiente ejemplo `makeNoise` no tiene parámetros, mientras que `power` tiene
 dos:
 
 ```js
-var makeNoise = function() {
+const makeNoise = function () {
   console.log('Pling!');
 };
 
 makeNoise();
 // → Pling!
 
-var power = function(base, exponent) {
-  var result = 1;
-  for (var count = 0; count < exponent; count++)
-  result *= base;
+const power = function (base, exponent) {
+  let result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
   return result;
 };
 
@@ -190,7 +202,7 @@ Esto significa que la declaración de devolución al final, que te dice la quint
 letra de tu nombre, nunca se ejecuta.
 
 ```js
-var fifthLetter = function (name) {
+const fifthLetter = function (name) {
   if (name.length < 5) {
     return;
   }
@@ -224,7 +236,7 @@ el medio es plata. Podrías utilizar una función como `medalForScore` para
 evaluar una puntuación y devolver el tipo de medalla, como se muestra aquí:
 
 ```js
-var medalForScore = function (score) {
+const medalForScore = function (score) {
   if (score < 3) {
     return 'Bronze';
   }
