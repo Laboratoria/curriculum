@@ -10,21 +10,18 @@ En esta unidad aprenderemos:
 
 - Cómo manipular los nodos del DOM.
 - Cómo crear, añadir y eliminar Nodos al DOM.
-  * `document.createTextNode()`
-  * `document.createElement()`
-  * `.appendChild()`
-   * `.removeChild()`
+  - `document.createTextNode()`
+  - `document.createElement()`
+  - `.appendChild()`
+  - `.removeChild()`
 - Conocer sobre las siguientes propiedades:
-  * `.innerHTML`
-  * `.textContent`
-  * `.innerText`
-  * `.value`
-  - Conocer sobre los siguientes métodos:
-  * `.replaceChild()`
-  * `.insertBefore()`
-***
-
-[Aquí, otra lectura más acerca del DOM](http://eloquentjavascript.net/13_dom.html)
+  - `.innerHTML`
+  - `.textContent`
+  - `.innerText`
+  - `.value`
+- Conocer sobre los siguientes métodos:
+  - `.replaceChild()`
+  - `.insertBefore()`
 
 ## Modificando elementos y contenido del DOM
 
@@ -41,32 +38,31 @@ documento, pero los más básicos son `.createElement()`, que crea un elemento, 
 Crear y añadir a la página un nuevo elemento XHTML sencillo
 consta de cuatro pasos diferentes:
 
-1 Creación de un nodo de tipo Element que represente al elemento
+1.- Creación de un nodo de tipo Element que represente al elemento.
 
-2 Creación de un nodo de tipo Text que represente el contenido del elemento
+2.- Creación de un nodo de tipo Text que represente el contenido del elemento.
 
-3 Añadir el nodo Text como nodo hijo del nodo Element
+3.-Añadir el nodo Text como nodo hijo del nodo Element.
 
-4 Añadir el nodo Element a la página, en forma de nodo hijo de el nodo existente en el HTML, en el cual se quiere insertar.
+4.- Añadir el nodo Element a la página, en forma de nodo hijo de el nodo existente en el HTML, en el cual se quiere insertar.
 
 Este proceso de creación de nuevos nodos
 implica la utilización de tres funciones DOM:
 
-1 `createElement(etiqueta)`
+1.- `createElement(etiqueta)`
 
 Crea un nodo de tipo Element que representa al elemento XHTML cuya etiqueta
 se pasa como parámetro.
 
-2 `createTextNode(contenido)`
+2.- `createTextNode(contenido)`
 
 Crea un nodo de tipo Text que almacena el contenido textual de los elementos
 XHTML.
 
-3 `nodoPadre.appendChild(nodoHijo)`
+3.- `nodoPadre.appendChild(nodoHijo)`
 
 Añade un nodo como hijo de otro nodo.
 Si se ocupa esta función para añadir el nodo `Text` como hijo del nodo `Element` y a su vez este nodo `Element` como hijo del nodo existente en el HTML, `appendChild` se utiliza al menos dos veces. Con esta función el nuevo nodo se incluye inmediatamente después de los hijos ya existentes.
-
 
 De este modo, si se quiere añadir un párrafo simple al final de una página XHTML, es necesario incluir el siguiente código JavaScript.
 
@@ -81,17 +77,13 @@ paragraph.appendChild(content);
 document.body.appendChild(parrafo);
 ```
 
-Hay que recordar que el DOM es la interfaz que conecta el documento HTML con
-JavaScript. Es por eso que, al utilizar `.createElement()`, el nodo no será visible, ya que hasta este momento no es más que una especie de fantasma que existe en el documento, pero hasta que no se le
-asigne una posición en el árbol no se mostrará al usuario. De la misma
-manera, con la función `.createTextNode()` el texto existe, pero en ninguna parte.Es necesario convertir cualquiera de estos nodos en hijo de otro nodo existente por medio de la función `.appendChild()`.
+Hay que recordar que el DOM es la interfaz que conecta el documento HTML con JavaScript. Es por eso que, al utilizar `.createElement()`, el nodo no será visible, ya que hasta este momento no es más que una especie de fantasma que existe en el documento, pero hasta que no se le asigne una posición en el árbol no se mostrará al usuario. De la misma manera, con la función `.createTextNode()` el texto existe, pero en ninguna parte mas. Es necesario convertir cualquiera de estos nodos en hijo de otro nodo existente por medio de la función `.appendChild()`.
 
 ## Eliminar nodos del DOM
 
-Dado que podemos incluir nuevos hijos en un nodo, tiene sentido que podamos
-eliminarlos. Para ello existe el siguiente método:
+Dado que podemos incluir nuevos hijos en un nodo, tiene sentido que podamos eliminarlos. Para ello existe el siguiente método:
 
-####removeChild()
+### `removeChild()`
 
 Para quitar un nodo del documento tenemos que seleccionar el padre del nodo, y
 desde ahí, remover el nodo deseado.
@@ -102,11 +94,11 @@ y eliminarlo.
 
 - Sintaxis:
 
-  ```javascript
+  ```js
   padre.removeChild(nodoAEliminar);
   ```
 
-```javascript
+```js
 const container = document.getElementById('container');
 const paragraph = document.getElementById('paragraph');
 container.removeChild(paragraph);
@@ -120,16 +112,16 @@ container.removeChild(paragraph);
 const paragraph = document.getElementById('paragraph');
 paragraph.parentNode.removeChild(paragraph);
 ```
-Cuando se elimina un nodo, también se eliminan automáticamente todos los nodos
-hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
 
-##Más funciones para manipulación de DOM
+Cuando se elimina un nodo, también se eliminan automáticamente todos los nodos hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
+
+## Más funciones para manipulación de DOM
 
 Aquí arriba te hemos mostrado algunas funciones con las cuales puedes empezar a guiarte, pero es importante mencionar que a la hora de programar no hay una única solución posible y la solución que uno como desarrollador puede ofrecer depende mucho de las necesidades de cada proyecto, así que te presentaremos otros métodos y propiedades que puedes comenzar a probar.
 
 Comencemos por `.textContent` y `.innerHTML` que funcionan como propiedades para obtener y establecer el valor de un elemento específico.
 
-####textContent
+### `textContent`
 
 Al utilizar textContent sobre un nodo, se va a mostrar el contenido del texto
 que exista en el nodo y en los hijos del mismo. Si hay etiquetas HTML, son
