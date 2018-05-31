@@ -262,7 +262,7 @@ incluyen en el _boilerplate_.
 ### Habilidades blandas
 
 Para completar este proyecto deberás realizar una planificación general del
-proyecto, donde esperamos logres generar un plan paso a paso de cómo resolverás
+proyecto, donde esperamos que generes un plan paso a paso de cómo resolverás
 el proyecto. Deberás considerar las distintas secciones del data dashboard, los
 recursos y el tiempo que dispones.
 
@@ -292,13 +292,13 @@ necesitas trabajar en equipo y buscar feedback.
 
 Para eso buscas instancias de feedback o code review, entregando tu opinión a
 los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a
-los demás. Escuchas y valoras los comentarios y críticas de los demás,
-rescatando aspectos que te sirvan para su mejora.
+a tus compañeras. Escuchas y valoras los comentarios y críticas de los demás,
+rescatando aspectos que te sirvan para mejorar.
 
-Además, realizas un excelente trabajo con tu pareja y squad. Trabajas de manera
-coordinada y contribuyes al objetivo común, entregando ideas para la
-construcción del producto, respetando el trabajo de tu compañera. Además,
-entregas tu trabajo a tiempo y colaboras con el objetivo final del data
+Además, realiza un excelente trabajo con tu pareja y squad. Trabaja de manera
+coordinada y contribuye al objetivo común, entregando ideas para la
+construcción del producto, siempre respetando el trabajo de tu compañera. Además,
+entrega tu trabajo a tiempo y colabora con el objetivo final del data
 dashboard, ayudando a tu compañera con los pendientes, con el fin de entregar un
 proyecto de calidad.
 
@@ -347,41 +347,17 @@ ellas. Te aconsejamos revisar la rúbrica.
 ### Habilidades blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 2 en todas tus
-habilidades blandas. También esperamos que alcances nivel 3 en por lo menos tres
+habilidades blandas. También esperamos que alcances nivel 3 en por lo menos cuatro
 de estas habilidades. Sabemos que no siempre es fácil pero puedes lograrlo.
 
-* **Trabajo en equipo:** trabajas de manera coordinada y contribuyes al objetivo
-  común, entregando ideas para la construcción del producto. Entregas tu trabajo
-  a tiempo y colaboras con el objetivo final del trabajo, con el fin de entregar
-  un producto de calidad.
-* **Dar y recibir feedback:** escuchas y valoras los comentarios y críticas de
-  los demás, rescatando aspectos que le sirvan para su mejora. Además, entregas
-  tu opinión a los demás de forma constructiva, fundamentada y coherente con el
-  fin de ayudar a tu squad o compañeras.
-* **Autoaprendizaje:** realizas preguntas sobre la materia, buscando aclarar
-  conceptos y resolver dudas. Además pides referencia de materiales que pueden
-  ser de utilidad para tu aprendizaje.
-* **Solución de problemas:** buscas soluciones alternativas a problemas de
-  diversa complejidad, a pesar de que no todas las soluciones puedan ser
-  correctas, buscas distintas fuentes para resolver el problema. Comienzas a
-  aplicar tu propia creatividad para resolver problemas independientemente.
-* **Planificación y manejo del tiempo:** utilizas herramientas de planificación,
-  como un calendario, trello, papelógrafo u otras, creando un plan paso a paso
-  de cómo quiere abarcar el reto o problema. Realizas una estimación realista
-  del tiempo.
-* **Adaptabilidad:** ante cambios inesperados o nuevos desafíos los recibes con
-  una actitud positiva, te adaptas y logras proponer soluciones creativas para
-  encontrar una nueva estrategia. De esta manera, logras asumir retos, enfrentas
-  los cambios repentinos, como trabajar con nuevos equipos o cambios en el
-  proyecto.
-* **Comunicación eficaz:** logras comunicar sus ideas a los demás, teniendo
-  capacidad de síntesis y articulando sus ideas con claridad.
-* **Presentaciones:** cualquier persona puede acceder al demo desde cualquier
-  equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar
-  en el demo, pudiendo enseñar algunas veces menos elementos pero funcionales.
-  Realizas algún contacto visual con la audiencia, te apropias del espacio
-  físico y hablas con un volumen y ritmo que no interfieren con el entendimiento
-  de la audiencia.
+Planificación y organización: 2/3
+Autoaprendizaje: 2
+Solución de problemas:2
+Dar y recibir feedback: 2/3
+Adaptabilidad: 2/3
+Trabajo en equipo: 2/3
+Comunicación eficaz: 2
+Presentaciones: 2
 
 ***
 
