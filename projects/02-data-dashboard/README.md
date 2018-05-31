@@ -51,7 +51,7 @@ dan las ruedas, cuánta distancia has recorrido, etc.
 
 ## Aplicaciones en el mundo real
 
-En el mundo de la web es muy común el uso de dashboards. De hecho, [wikipedia](https://en.wikipedia.org/wiki/Dashboard_(business)
+En el mundo de la web es muy común el uso de dashboards. De hecho, [wikipedia](https://goo.gl/P7PF4y)
 nos dice que un dashboard puede ser un resumen gráfico de varias piezas de
 información importante, generalmente utilizadas para dar una visión general de
 una empresa o de un servicio. Así, tenemos dashboards como los de:
@@ -161,10 +161,12 @@ detalles:
 * Cómo fue tu proceso de diseño.
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
+
 Debes realizar un Sketch (usando papel y lápiz) de tu solución, tomarle una
 foto, subirla a tu repositorio y hacer mención del sketch en tu `README.md`.
 
 #### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
+
 Una vez completado el Sketch, debes diseñar tu Interfaz de Usuario (UI por sus
 siglas en inglés). Para esto debes aprender a utilizar alguna herramienta de
 diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) dado
@@ -189,17 +191,17 @@ Sin embargo, como mínimo, tu implementación debe:
 
 1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
 2. Al seleccionar un cohort:
-  - Listar las alumnas de ese cohort
-  - Para cada alumna:
-    + Calcular porcentaje de completitud de todos los _cursos_.
-    + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
-      y _quizzes_.
-  - Ordenar alumnas por completitud _general_ (porcentaje consumido/completado
-    de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
-    autocorregidos_ y _quizzes_.
-  - Filtrar/buscar alumnas por nombre.
-3. Visualizarse sin problemas desde distintos tamaños de pantallas:
-móviles, tablets y desktops.
+   - Listar las alumnas de ese cohort
+   - Para cada alumna:
+     + Calcular porcentaje de completitud de todos los _cursos_.
+     + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
+       y _quizzes_.
+   - Ordenar alumnas por completitud _general_ (porcentaje consumido/completado
+     de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
+     autocorregidos_ y _quizzes_.
+   - Filtrar/buscar alumnas por nombre.
+3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
+   tablets y desktops.
 4. Incluir pruebas unitarias.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
@@ -347,8 +349,8 @@ trabajo y los demás lo comprendan. -->
 Features/características extra sugeridas:
 
 * En lugar de consumir la data estática brindada en este repositorio, puedes
-consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
-Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
+  consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
+  Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
 * Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
 * Brindar el detalle de progreso de cada alumna _por curso_
 * Proveer estadísticas de progreso de todo el cohort
@@ -371,7 +373,7 @@ alcanzar al finalizar este proyecto:
 |--------------------------|----------------|
 | Completitud | 3
 | Investigación | 3
-| Documentación | 2 
+| Documentación | 2
 
 ### Tech
 
@@ -430,8 +432,8 @@ alcanzar al finalizar este proyecto:
 
 * Completando los requerimientos mínimos de este proyecto ganarás 250 XPs.
 * Completando el hacker edition de este proyecto ganarás 100 XPs adicionales.
-* Completando los [ejericicios de manipulación de arreglos en el LMS](https://lms.laboratoria.la/cohorts/cdmx-2018-05-bc-core-am/courses/javascript/04-arrays/06-practice) ganarás otros
-  25 XPs.
+* Completando los [ejericicios de manipulación de arreglos en el LMS](https://lms.laboratoria.la/cohorts/cdmx-2018-05-bc-core-am/courses/javascript/04-arrays/06-practice)
+  ganarás otros 25 XPs.
 * Completando los [ejericicios de manipulación de objetos en el LMS](https://lms.laboratoria.la/cohorts/cdmx-2018-05-bc-core-am/courses/javascript/05-objects/06-practice)
   ganarás otros 25 XPs.
 
