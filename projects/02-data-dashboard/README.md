@@ -352,7 +352,7 @@ de estas habilidades. Sabemos que no siempre es fácil pero puedes lograrlo.
 
 Planificación y organización: 2/3
 Autoaprendizaje: 2
-Solución de problemas:2
+Solución de problemas: 2
 Dar y recibir feedback: 2/3
 Adaptabilidad: 2/3
 Trabajo en equipo: 2/3
