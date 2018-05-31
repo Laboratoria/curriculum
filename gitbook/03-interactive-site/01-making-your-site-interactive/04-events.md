@@ -1,65 +1,67 @@
 # 04 - Events
 
-* Tipo: `lectura`
-* Formato: `self-paced`
+## Eventos
+
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
 * Duración: `30min`
 
-## Objetivos de Aprendizaje
+### Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-1. ¿Qué es un evento y para qué nos sirve?
-2. ¿Cómo usarlos?
-3. Manejo y flujo de eventos \(propagación\).
+1. O que é um evento e para que serve?
+2. Como usá-los?
+3. Gerenciamento e fluxo de eventos \(propagação\).
 4. Tipos
 
-## ¿Qué es un evento?
+## O que é um evento?
 
-Es cuando el usuario realiza una acción permitiéndole interactuar con el programa. A cada evento se le asocia un manejador \(_conocido como eventHandlers o eventListener_\) el cual, se ejecutará cuando ocurra el evento.
+É quando o usuário realiza uma ação permitindo que ele interaja com o programa. Cada evento é associado a um manipulador \(_conhecidos como eventHandlers ou eventListener_ \), que será executado quando o evento ocorrer.
 
-Aquí hay un [video](https://www.youtube.com/watch?v=gyICdb1iwII) de referencia.
+Aqui está um [vídeo](https://www.youtube.com/watch?v=gyICdb1iwII) de referência.
 
-## ¿Cómo usar los eventos?
+## Como usar os eventos?
 
-Para poder hacer uso de la magia de los eventos es necesario saber primero como "escucharlos", esto se puede lograr mediante el método **addEventListener**.
+Para poder fazer uso da magia dos eventos é necessário saber primeiro como "escutá-los". Isto pode ser conseguido através do método **addEventListener** .
 
-La sintaxis es muy sencilla:
+A sintaxe é muito simples:
 
 ```javascript
-  elemento_que_escucha.addEventListener('evento', funcion_a_ejecutar);
+  elemento_que_escucha.addEventListener('evento', funcao_para_escutar);
 ```
 
-Aquí un [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de referencia.
+Aqui um [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de referência.
 
-Existen diferentes formas de asociar un evento a elementos del DOM, para saber más sobre ello visita éste [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html) \(a partir del punto 6.2\).
+Existem diferentes formas de associar um evento a elementos do DOM. Para saber mais visite este [link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html) \(a partir de 6.2\).
 
-### Manejo de eventos
+## Tratamento de eventos
 
-Además de agregar el _listener_ al evento también se puede eliminar usando el método **removeEventListener**, el cual funciona casi de la misma manera. La sintaxis es de la siguiente manera:
+Além de adicionar o _listener_ ao evento, ele também pode ser eliminado usando o método **removeEventListener** , que funciona quase da mesma maneira. A sintaxe é a seguinte:
 
 ```javascript
-  elemento_que_escucha.removeEventListener('evento', funcion_a_eliminar);
+  elemento_que_escuta.removeEventListener('evento', funcao_para_remover);
 ```
 
-Para que el método funcione correctamente es obligatorio mandar como parámetro el callback \(función\) utilizado con addEventListener.
+Para que o método funcione corretamente, é obrigatório enviar como parâmetro o retorno de chamada \(função\) usado com addEventListener.
 
-Ahora hablemos sobre **objectEvent** que es otro tema de importancia en el manejo de eventos. Cuando un evento ocurre, la función que se ejecutará necesita información adicional sobre éste.
+Agora vamos falar sobre **objectEvent,** que é outra questão importante no tratamento de eventos. Quando um evento ocorre, a função que será executada precisa de informações adicionais sobre ele.
 
-**objectEvent** es el objeto que representa el evento que se ha producido. Se crea automáticamente cuando ocurre el evento y se destruye una vez se haya ejecutado su función manejadora. Éste objeto tiene un conjunto de propiedades con información sobre el evento. En el siguiente código podrás encontrar un ejemplo.
+**objectEvent** é o objeto que representa o evento que ocorreu. É criado automaticamente quando o evento ocorre e é destruído quando sua função de gerenciamento é executada. Este objeto tem um conjunto de propriedades com informações sobre o evento. No código a seguir, você encontrará um exemplo.
 
 ```javascript
-function holaMundo(event){
+function olaMundo(event){
   var evento = window.event || event;
-  alert('Hola Mundo.');
+  alert('Olá Mundo.');
 }
 
 var boton = document.getElementById('boton');
-boton.addEventListener('click', holaMundo, false);
+boton.addEventListener('click', olaMundo, false);
 ```
 
-En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene por defecto, para ello existe **preventDefault**, a continuación un ejemplo:
+Às vezes é necessário evitar certos comportamentos que um evento tem por padrão. Para isso existe **preventDefault.** Aqui está um exemplo:
 
-> Este es el código para un formulario muy sencillo Hay un input para ingresar el nombre y otro para ingresar el apellido Por último, hay un input de tipo _submit_ \(botón enviar\)
+> Este é o código para um formulário muito simples Há um _input_ para inserir o nome e outro para inserir o sobrenome. Finalmente, há um _inpu_ do tipo _submit_ \(botão de envio\)
 
 ```markup
 <form>
@@ -78,7 +80,7 @@ En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene 
 <p></p>
 ```
 
-> Ahora veámos la funcionalidad del JS: En la primera parte se guardan en variables los elementos del formulario Después tenemos la función que detona el evento submit Esta función comprueba si los campos están vacios Si la condición se cumple se ejecuta la función _preventDefault_ para el _eventObject_ \(e\) Impidiendo que el formulario se envíe automáticamente \(acción que tiene por defecto este tipo de "botón"\) para mostrar al usuario un mensaje de error.
+> Agora vejamos a funcionalidade JS: Na primeira parte são armazenados em variáveis os elementos do formulário. Em seguida, temos a função que dispara o evento _submit._ Esta função verifica se os campos estão vazios. Se a condição se cumpre a função executa _preventDefault_ para _eventObject_ \(e\) impedindo que o formulário seja enviado automaticamente \(ação que tem por padrão este tipo de "botão"\) para mostrar ao usuário uma mensagem de erro.
 
 ```javascript
  var form = document.querySelector('form');
@@ -95,28 +97,28 @@ En ocasiones es necesario prevenir un cierto comportamiento que un evento tiene 
  }
 ```
 
-### Flujo de eventos \(Propagation\)
+## Fluxo de Eventos \(Propagação\)
 
-Cuando un evento se ejecuta pasa por diferentes fases: _Capture phase_, _Target phase_ y _Bubbling phase_, como se muestra en la siguiente imagen.
+Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
-![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
+![](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
 
-Revisa éste [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontrarás un ejemplo práctico del flujo que siguen los eventos.
+Confira este [vídeo](https://youtu.be/lgkqf6hldEk?t=15m5s) onde você encontrará um exemplo prático do fluxo que os eventos seguem.
 
 ## Tipo de eventos
 
-Cuando el usuario interactúa con el navegador se pueden desencadenar múltiples tipos de eventos, algunos de los más comunes son:
+Quando o usuário interage com o navegador, vários tipos de eventos podem ser acionados. Alguns dos mais comuns são:
 
-* Eventos del ratón \(mouseEvent\)
-* Eventos del teclado \(keyboardEvent\)
-* Eventos del formularios
-* Eventos de la ventana
+* Eventos do mouse \(mouseEvent\)
+* Eventos de teclado \(keyboardEvent\)
+* Eventos de formulários
+* Eventos da janela
 
-Para mayor información sobre todos los eventos visita éste [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) y también éste otro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+Para mais informações sobre todos os eventos, acesse este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) e também este outro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types) .
 
-### Key Events
+### Principais eventos
 
-Estos son algunos de los eventos más utilizados:
+Estes são alguns dos eventos mais usados:
 
 * keyup/keydown
 * mouse click
@@ -128,9 +130,14 @@ Estos son algunos de los eventos más utilizados:
 * setting timers
 * debouncing
 
-[Aquí](https://codepen.io/Inti_Developer/pen/EvGMKG) podrás encontrar un ejemplo sobre la interacción con los eventos.
+[Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um exemplo sobre interação com eventos.
 
-> Guía de uso: 1. Nota como el fondo es de color blanco 2. Ahora haz click en el botón _Hacer magia :\)_ 3. Revisa el código y analiza la lógica de programación 4. Ahora intenta modificar el código para que reaccione con otros eventos, diviertete ;\)
+> Guia de uso:
+>
+> 1. Observe como o fundo é branco
+> 2. Agora clique no botão _Make magic :\)_
+> 3. Verifique o código e analise a lógica de programação
+> 4. Agora tente modificar o código para que ele reaja com outros eventos, divirta-se;\)
 
-Finalmente, te adjuntamos el [link](https://developer.mozilla.org/es/docs/Web/Reference/Events) de la documentación oficial explicando todo acerca de eventos:
+Finalmente, anexamos o [link](https://developer.mozilla.org/es/docs/Web/Reference/Events) da documentação oficial explicando tudo sobre os eventos:
 

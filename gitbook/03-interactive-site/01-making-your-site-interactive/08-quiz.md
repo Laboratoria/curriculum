@@ -1,41 +1,37 @@
 # 08 - Quiz
 
 * Tipo: `quiz`
-* Formato: `self-paced`
+* Formato: `ritimo próprio`
 * Duración: `30min`
 
 ## Objetivos
 
-* En esta sección tendrás la oportunidad de evaluarte para que pongas tus
+* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
 
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
+## Perguntas
 
-  realmente estás aprendiendo. ¡Mucho éxito!
-
-## Preguntas
-
-### 1\) Completa el siguiente enunciado: `Las etiquetas HTML siempre serán nodos de tipo _______.`
+### 1\) Complete o seguinte enunciado: `As tags HTML sempre serão nós de tipo _______.`
 
 #### Opciones
 
 1. Texto
-2. Comentario
+2. Comentário
 3. Elemento
 4. Atributo
 
 3
 
-### 2\) En la siguiente imagen
+### 2\) Na imagem a seguir
 
 ```markup
         <body>
-            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
+            <h1>Olá Mundo! Programar é muito cool :3 !</h1>
         </body>
 ```
 
-### El texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo **\_\_**
+### O texto `Olá Mundo! Programar é muito cool!` entre as tags h1, corresponde a um nó do tipo **\_\_**
 
-#### Opciones
+#### Opções
 
 1. Condicional
 2. Texto
@@ -44,14 +40,14 @@
 
 2
 
-### 3\) El DOM nos sirve para
+### 3\) O DOM nos serve para
 
-#### Opciones
+#### Opções
 
-1. Entrar a los elementos de una página html y modificar sus propiedades
-2. Acceder a los elementos del navegador y modificarlos
-3. Dominar el mundo de la programación
-4. Crear bucles y condicionales
+1. Atribuir aos elementos de uma página html e modificar suas propriedades
+2. Acessar os elementos do navegador e modificá-los
+3. Dominar o mundo da programação
+4. Criar bucles e condições
 
 1
 
