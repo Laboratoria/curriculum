@@ -365,14 +365,13 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. A
 continuación presentamos los niveles esperados de cada habilidad que deberías
 alcanzar al finalizar este proyecto:
 
-<!--
 ### General
 
 | Característica/Habilidad | Nivel esperado |
 |--------------------------|----------------|
 | Completitud | 3
 | Investigación | 3
-| Documentación | 2 -->
+| Documentación | 2 
 
 ### Tech
 
