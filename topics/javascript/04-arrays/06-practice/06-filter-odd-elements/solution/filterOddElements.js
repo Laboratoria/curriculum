@@ -1,4 +1,4 @@
-function filterOddElements(arr) {
+const filterOddElements = (arr) => {
   const ret = [];
 
   for (let i = 0; i < arr.length; i += 1) {

@@ -1,4 +1,4 @@
-function getLongestOfThreeWords(word1, word2, word3) {
+const getLongestOfThreeWords = (word1, word2, word3) => {
   let strLong = word1;
 
   if (strLong.length < word2.length) {

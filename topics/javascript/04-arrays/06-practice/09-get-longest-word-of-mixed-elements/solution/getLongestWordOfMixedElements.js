@@ -1,4 +1,4 @@
-function getLongestWordOfMixedElements(arr) {
+const getLongestWordOfMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }

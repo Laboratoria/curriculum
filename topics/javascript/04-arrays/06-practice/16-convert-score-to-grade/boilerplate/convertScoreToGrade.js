@@ -1,4 +1,4 @@
-function convertScoreToGrade(score) {
+const convertScoreToGrade = (score) => {
   // your code here
 }
 

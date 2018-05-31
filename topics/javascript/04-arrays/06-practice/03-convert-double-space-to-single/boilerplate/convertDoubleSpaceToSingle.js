@@ -1,4 +1,4 @@
-function convertDoubleSpaceToSingle(str) {
+const convertDoubleSpaceToSingle = (str) => {
   // your code here
 }
 

@@ -1,4 +1,4 @@
-function filterOddElements(arr) {
+const filterOddElements = (arr) => {
   // your code here
 }
 

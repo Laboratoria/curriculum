@@ -1,4 +1,4 @@
-function getNthElement(array, n) {
+const getNthElement = (array, n) => {
   if (!array.length) {
     return undefined;
   }

@@ -1,4 +1,4 @@
-function findSmallestNumberAmongMixedElements(arr) {
+const findSmallestNumberAmongMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }

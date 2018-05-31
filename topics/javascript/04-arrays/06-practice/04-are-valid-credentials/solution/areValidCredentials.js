@@ -1,4 +1,4 @@
-function areValidCredentials(name, password) {
+const areValidCredentials = (name, password) => {
   return (name.length > 3 && password.length >= 8);
 }
 

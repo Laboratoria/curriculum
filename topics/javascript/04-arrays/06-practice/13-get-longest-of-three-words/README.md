@@ -10,6 +10,6 @@ Notas:
 - Si hay un empate, debe devolver la primera palabra en el empate.
 
 ```js
-var output = getLongestOfThreeWords('estos', 'tres', 'palabras');
-console.log(salida); // -> 'estos'
+const output = getLongestOfThreeWords('estos', 'tres', 'palabras');
+console.log(output); // -> 'estos'
 ```

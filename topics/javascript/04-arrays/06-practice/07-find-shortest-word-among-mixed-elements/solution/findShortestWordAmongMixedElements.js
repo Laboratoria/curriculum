@@ -1,4 +1,4 @@
-function findShortestWordAmongMixedElements(arr) {
+const findShortestWordAmongMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }
