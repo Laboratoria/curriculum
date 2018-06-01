@@ -1,3 +1,3 @@
-cosnt addArrayProperty = (obj, key, arr) => obj[key] = arr;
+const addArrayProperty = (obj, key, arr) => obj[key] = arr;
 
 module.exports = addArrayProperty;
