@@ -11,21 +11,21 @@ Caso 1 - Cliente desconocido (el nombre no está presente en los datos de
 cliente):
 
 ```js
-var output = greetCustomer('Terrance');
+let output = greetCustomer('Terrance');
 console.log(output); // --> 'Welcome! Is this your first time?'
 ```
 
 Caso 2 - Cliente que ha visitado sólo una vez (el valor de las visitas es 1)
 
 ```js
-var output = greetCustomer('Joe');
+let output = greetCustomer('Joe');
 console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
 Caso 3 - Repetir cliente: (valor de' visitas' es mayor que 1)
 
 ```js
-var output = greetCustomer('Carol');
+let output = greetCustomer('Carol');
 console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 

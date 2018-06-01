@@ -1,6 +1,6 @@
 # transformEmployeeData
 
-Escribir una función llamada "transformEmployeeData" que transforma algunos
+Escribe una función llamada "transformEmployeeData" que transforma algunos
 datos de los empleados de un formato a otro.
 
 El argumento se verá así:

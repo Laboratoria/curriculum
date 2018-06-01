@@ -1,7 +1,3 @@
-function addArrayProperty(obj, key, arr) {
-  // your code here
-  /* eslint-disable-next-line no-param-reassign */
-  obj[key] = arr;
-}
+cosnt addArrayProperty = (obj, key, arr) => obj[key] = arr;
 
 module.exports = addArrayProperty;

@@ -1,5 +1,5 @@
-function fromListToObject(array) {
+const fromListToObject = (array) => {
   // your code here
-}
+};
 
 module.exports = fromListToObject;

@@ -13,12 +13,12 @@ const customerData = {
   },
 };
 
-function greetCustomer(firstName) {
+const greetCustomer = (firstName) => {
   const greeting = '';
 
   // your code here
 
   return greeting;
-}
+};
 
 module.exports = greetCustomer;
