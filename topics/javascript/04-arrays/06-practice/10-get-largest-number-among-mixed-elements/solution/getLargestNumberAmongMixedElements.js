@@ -1,4 +1,4 @@
-const getLargestNumberAmongMixedElements = arr => {
+const getLargestNumberAmongMixedElements = (arr) => {
   if (arr.length === 0) {
     return 0;
   }
