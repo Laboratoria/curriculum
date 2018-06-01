@@ -154,6 +154,10 @@ La interfaz debe permitir al usuario:
   - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la izquierda en el alfabeto y `string` el mensaje
     (texto) que queremos decifrar.
+  - `cipher.createCipherWithOffset(offset)`: recibe un `offset` y devuelve un
+    nuevo objeto con dos métodos (`encode` y `decode`) que solo necesitan
+    recibir el string y usen el `offset` que se pasó a `createCipherWithOffset`
+    a la hora de crear el objeto.
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
@@ -161,11 +165,13 @@ La interfaz debe permitir al usuario:
 
 ## Hacker edition
 
-No estás limitada a implementar solo la parte obligatoria. Te sugerimos crear
-también una función `cipher.createCipherWithOffset()` que reciba un `offset` y
-devuelva un nuevo objeto con dos métodos (`encode` y `decode`) que solo reciban
-el string y usen el `offset` que se pasó a `createCipherWithOffset` a la hora
-de crear el objeto.
+La descripción general de este _proyecto_ no menciona qué pasaría con las letras
+minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El
+_boilerplate_ incluye algunos tests (comentados en principio) que puedes usar
+como punto de partida para implementar soporte para estos casos.
+
+Tampoco se menciona qué pasaría si el `offset` fuera _negativo_. Como parte del
+_hacker edition_ te invitamos a explorar también esta caso por tu cuenta.
 
 Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
 agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
@@ -233,18 +239,19 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
+revisar la rúbrica.
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
-| Planificación y organización | 2
-| Autoaprendizaje | 2
-| Solución de problemas | 2
-| Dar y recibir feedback | 2
-| Adaptabilidad | 2
-| Trabajo en equipo | 1
-| Comunicación eficaz | 1
-| Presentaciones | 1
+| Planificación y organización | 2 |
+| Autoaprendizaje | 2 |
+| Solución de problemas | 2 |
+| Dar y recibir feedback | 2 |
+| Adaptabilidad | 2 |
+| Trabajo en equipo | 1/2 |
+| Comunicación eficaz | 1/2 |
+| Presentaciones | 1/2 |
 
 ***
 
