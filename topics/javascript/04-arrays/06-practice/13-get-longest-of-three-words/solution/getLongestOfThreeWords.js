@@ -10,6 +10,6 @@ const getLongestOfThreeWords = (word1, word2, word3) => {
   }
 
   return strLong;
-}
+};
 
 module.exports = getLongestOfThreeWords;

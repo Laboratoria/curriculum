@@ -22,6 +22,6 @@ const convertScoreToGrade = (score) => {
       break;
   }
   return str;
-}
+};
 
 module.exports = convertScoreToGrade;

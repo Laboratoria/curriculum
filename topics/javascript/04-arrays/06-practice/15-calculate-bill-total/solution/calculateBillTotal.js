@@ -1,5 +1,3 @@
-const calculateBillTotal = (preTaxAndTipAmount) => {
-  return preTaxAndTipAmount + (preTaxAndTipAmount * 0.095) + (preTaxAndTipAmount * 0.15);
-}
+const calculateBillTotal = (preTaxAndTipAmount) => preTaxAndTipAmount + (preTaxAndTipAmount * 0.095) + (preTaxAndTipAmount * 0.15);
 
 module.exports = calculateBillTotal;

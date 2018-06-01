@@ -20,6 +20,6 @@ const findSmallestNumberAmongMixedElements = (arr) => {
   }
 
   return arr[index];
-}
+};
 
 module.exports = findSmallestNumberAmongMixedElements;

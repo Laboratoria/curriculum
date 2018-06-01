@@ -12,6 +12,6 @@ const computeSumOfAllElements = (arr) => {
   }
 
   return sum;
-}
+};
 
 module.exports = computeSumOfAllElements;

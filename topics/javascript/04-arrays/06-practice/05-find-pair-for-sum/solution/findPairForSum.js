@@ -8,6 +8,6 @@ const findPairForSum = (array, number) => {
   }
 
   return [];
-}
+};
 
 module.exports = findPairForSum;

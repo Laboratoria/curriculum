@@ -8,6 +8,6 @@ const filterOddElements = (arr) => {
   }
 
   return ret;
-}
+};
 
 module.exports = filterOddElements;

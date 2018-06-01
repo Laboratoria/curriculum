@@ -20,6 +20,6 @@ const getLargestNumberAmongMixedElements (arr) => {
   }
 
   return arr[index];
-}
+};
 
 module.exports = getLargestNumberAmongMixedElements;
