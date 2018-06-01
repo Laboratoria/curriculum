@@ -213,13 +213,13 @@ alineación, jerarquía, entre otros.
 ### data.js
 
 El corazón de este proyecto es la manipulación de datos a través de arreglos y
-objetos. La idea de este archivo es contener toda la funcionalidad 
+objetos. La idea de este archivo es contener toda la funcionalidad
 que corresponda a obtener, procesar y manipular datos.
 
 Parte de un buen proyecto es que esté ordenado y que otras programadoras puedan
 acceder a el código rápidamente. Es por esto que este orden no es casualidad y
 es una convención que generalmente encontrarás en internet bajo el nombre MVC o
-Modelo Vista Controlador. En este proyecto Controlador y Modelo estarán bajo 
+Modelo Vista Controlador. En este proyecto Controlador y Modelo estarán bajo
 el archivo **data.js**.
 
 El _boilerplate_ incluye tests que esperan que implementes las
@@ -329,7 +329,7 @@ añadida (ver `computeUsersStats`).
 
 Ten en cuenta también que existe otro archivo _main.js_ que no está solo por
 casualidad en la estructura del proyecto. En general es una buena idea ir
-separando la funcionalidad en varios archivos, ya que a medida que un proyecto 
+separando la funcionalidad en varios archivos, ya que a medida que un proyecto
 crece, se vuelve insostenible dejar todo en un solo archivo. En este caso puedes
 usar _main.js_ para todo tu código que tenga que ver con mostrar los datos en la
 pantalla, y _data.js_ para todas las funciones que vimos que obtienen y
@@ -340,38 +340,39 @@ carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
 ### index.html
 
-Al igual que en el proyecto anterior, también existe un archivo `index.html`. 
+Al igual que en el proyecto anterior, también existe un archivo `index.html`.
 Como ya sabrás, acá va la página que se mostrará al usuario de este tablero de
 información. También nos sirve para indicar qué scripts se usarán y unir todo lo
-que hemos hecho. 
+que hemos hecho.
 
 ### Data
-En esta carpeta están los datos de prueba del proyecto, contiene información 
-sobre los cohortes (grupos de alumnas de una generación y rama en particular), 
-alumnas y su progreso en cada uno de los cursos que son parte de cada cohorte. 
+
+En esta carpeta están los datos de prueba del proyecto, contiene información
+sobre los cohortes (grupos de alumnas de una generación y rama en particular),
+alumnas y su progreso en cada uno de los cursos que son parte de cada cohorte.
 Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo método que
 usarías si es que estuvieses haciendo una llamada HTTP o a una API, pero usando
 una dirección **relativa**, ejemplo :
 
-```
+```javascript
 "../data/cohorts.json"
 ```
 
 ### Tests
 
 Tendrás también que completar las pruebas unitarias de estas funciones que se
-incluyen en el _boilerplate_, que encontrarás en el archivo `data.spec.js`. 
-Si te fijas bien en la carpeta también encontrarás otros archivos, que 
+incluyen en el _boilerplate_, que encontrarás en el archivo `data.spec.js`.
+Si te fijas bien en la carpeta también encontrarás otros archivos, que
 detallaremos a continuación :
 
 #### index.html
 
-No confundas este archivo con tu `index.html` del proyecto, este archivo es 
-especial para los test y es una manera de ver el resultado de tus pruebas 
-unitarias, pero en el navegador. Para arrancar las pruebas de esta forma, 
-escribe en tu consola : 
+No confundas este archivo con tu `index.html` del proyecto, este archivo es
+especial para los test y es una manera de ver el resultado de tus pruebas
+unitarias, pero en el navegador. Para arrancar las pruebas de esta forma,
+escribe en tu consola :
 
-```
+```javascript
 npm run test-browser
 ```
 
@@ -379,7 +380,7 @@ Una página se abrirá en tu navegador conteniendo los resultados de las pruebas
 
 #### fixtures.js
 
-Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es 
+Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es
 donde está el set de datos de prueba que se usarán para correr las pruebas.
 
 <!-- ### Habilidades blandas
