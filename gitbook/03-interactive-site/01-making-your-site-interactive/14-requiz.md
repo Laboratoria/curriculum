@@ -1,31 +1,33 @@
 # 14 - Requiz
 
+## Quiz \#2: _requizzing_
+
 * Tipo: `quiz`
 * Formato: `guiado`
 * Duración: `30min`
 
 ## Objetivos
 
-* Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
+* Fazer um segundo quiz para garantir que terminamos a unidade com um
 
-  entendimiento pleno de los conceptos.
+  entendimento completo dos conceitos.
 
-## Preguntas
+## Perguntas
 
-### 1\) El nodo `document`, es `padre` de los objetos o nodos
+### 1\) O nó `document`, é `pai` dos objetos ou nós
 
-#### Opciones
+#### Opções
 
-1. Nodos `meta` dentro de `head`
-2. Nodos script dentro de `body`
-3. Los nodos `head` y `body`
-4. No es padre de ningún nodo
+1. Nós`meta` dentro de `head`
+2. Nós script dentro de `body`
+3. Os nós `head` y `body`
+4. Não é pai de nenhum nó
 
 3
 
-### 2\) Propiedades de los nodos del DOM
+### 2\) Propriedades dos nós do DOM
 
-#### Opciones
+#### Opções
 
 1. `nodeName`
 2. `nodeClass`
@@ -35,15 +37,15 @@
 
 1,3,4
 
-### 3\) Para el siguiente elemento
+### 3\) Para o elemento a seguir
 
 ```markup
-    <p id="paragraph">Hola, soy un párrafo sensual</p>
+    <p id="paragraph">Olá, sou un parágrafo sensual</p>
 ```
 
-### ¿Cómo puedo cambiar el color de fondo de párrafo?
+### Como posso mudar a cor de fundo do parágrafo?
 
-#### Opciones
+#### Opções
 
 1. ```javascript
       var paragraph = document.getElementById('paragraph');
@@ -60,28 +62,28 @@
 
 2
 
-### 4\) `document.getElementsByClassName('unaClase')`, me regresa un
+### 4\) `document.getElementsByClassName('unaClase')`, retorna um
 
 ```javascript
 var elementos = document.getElementsByClassName('unaClase');
 console.log(elementos);
 ```
 
-#### Opciones
+#### Opções
 
-1. Arreglo de nodos HTML con la clase `unaClase`;
-2. Arreglo con el valor de texto contenido dentro de todos los elementos
+1. Vetor de nós HTML com a classe `unaClase`;
+2. Vetor com o valor de texto contido dentro de todos los elementos
 
-   con clase `unaClase`;
+   com a classe `unaClase`;
 
-3. Todos los caracteres del string `unaClase`;
-4. Me regresa solo el primer Elemento con clase `unaClase`;
+3. Todos os caracteres da string `unaClase`;
+4. Retorno somente o primeiro Elemento com classe `unaClase`;
 
 1
 
-### 5\) Cuando quiero acceder a todos los elementos que comparten la misma etiqueta html, utilizo:
+### 5\) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
 
-#### Opciones
+#### Opções
 
 1. `.querySelector();`
 2. `.getElementsByClassName();`
@@ -90,9 +92,9 @@ console.log(elementos);
 
 4
 
-### 6\) ¿Qué función utilizamos para crear animaciones con JS?
+### 6\) Qual função utilizamos para criar animações com JS?
 
-#### Opciones
+#### Opções
 
 1. `location.href`
 2. `setTimeout();`
@@ -101,22 +103,20 @@ console.log(elementos);
 
 3
 
-### 7\) ¿Por qué es importante el objeto screen ?
+### 7\) Por que é importante o objeto screen ?
 
-#### Opciones
+#### Opções
 
-1. Para conocer resoluciones más utilizadas
-2. Para identificar a un elemento del DOM
-3. Para adaptar los diseños a las resoluciones más utilizadas
-4. Para almacenar  datos en las etiquetas HTML sin modificar la presentación
-
-   del document
+1. Para conhecer as resoluções mais utilizadas
+2. Para identificar um elemento do DOM
+3. Para adaptar os gráficos às resoluções mais utilizadas
+4. Para armazenar dados nas tags HTML sem modificar a apresentação do documento
 
 1,3
 
-### 8\) ¿Cómo puedo obtener la URL de la página anterior a la que estoy en este momento?
+### 8\) Como posso obter a URL da página anterior a que estou neste momento?
 
-#### Opciones
+#### Opções
 
 1. `document.referrer`
 2. `document.URL`
@@ -125,18 +125,18 @@ console.log(elementos);
 
 1
 
-### 9\) ¿Qué método utilizamos para agregar a `listaDeCompras`, un nuevo elemento llamado `elementoLista`?
+### 9\) Qual método utilizamos para adicionar à `listaDeCompras` um novo elemento chamado `elementoLista`?
 
 ```markup
   <ul id="listaDeCompras">
-    <li>Leche Deslactosada</li>
+    <li>Leite sem Lactose</li>
     <li>Arequipe</li>
     <li>Harina para Hotcakes</li>
     <li>Moras</li>
   </ul>
 ```
 
-#### Opciones
+#### Opções
 
 1. document.createTextNode\(elementoLista\);
 2. listaDeCompras.appendChild\(elementoLista\);
@@ -144,9 +144,9 @@ console.log(elementos);
 
 2
 
-### 10\) ¿Qué evento se desencadena al seleccionar el texto de un input o textarea?
+### 10\) Qual evento é disparado ao selecionar o texto de um _input_ ou _textarea_?
 
-#### Opciones
+#### Opções
 
 1. onclick
 2. onselect
@@ -155,42 +155,42 @@ console.log(elementos);
 
 2
 
-### 11\) Para almacenar datos en las etiquetas HTML sin modificar la presentación del documento, usamos
+### 11\) Para armazenar dados nas tags HTML sem modificar a apresentação do documento, usamos
 
-#### Opciones
+#### Opções
 
 1. Atributos data
-2. Etiquetas semánticas
-3. Variables
-4. Datos-HTML
+2. Tags semánticas
+3. Variáveis
+4. Dados-HTML
 
 1
 
-### 12\) Sintaxis de los atributos data
+### 12\) Sintaxe dos atributos data
 
-#### Opciones
+#### Opções
 
 1. var data = "valor"
-2. data-nombreAsignado="valor"
+2. data-nomeAtribuido="valor"
 3. data="valor"
-4. nombreAsignado-Datos\(valor\)
+4. nomeAtribuido-Datos\(valor\)
 
 2
 
-### 13\) El método addEventListener nos sirve para
+### 13\) O método addEventListener serve para
 
-#### Opciones
+#### Opções
 
-1. Crear un elemento
-2. Crear una clase desde el DOM
-3. Crear un evento
-4. Crear un nodo texto
+1. Criar um elemento
+2. Criar uma classe no DOM
+3. Criar um evento
+4. Criar um nó texto
 
 3
 
-### 14\) ¿Cuántos métodos define el BOM para manipular la ventana?
+### 14\) Quantos métodos definem o BOM para manipular a janela?
 
-#### Opciones
+#### Opções
 
 1. 1
 2. 2
@@ -199,9 +199,9 @@ console.log(elementos);
 
 4
 
-### 15\) Selecciona los objetos del BOM
+### 15\) Seleciona os objetos do BOM
 
-#### Opciones
+#### Opções
 
 1. Location
 2. Screen
