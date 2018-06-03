@@ -444,12 +444,12 @@ continuación presentamos los niveles esperados para cada habilidad:
 |-----------|----------------|
 | **JavaScript** | |
 | Estilo | 2
-| Nomenclatura/semántica | 2
-| Funciones/modularidad | 1
-| Estructuras de datos | 0
+| Nomenclatura/semántica | 3
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
 | Tests | 2
 | **HTML** | |
-| Validación | 2
+| Validación | 3
 | Estilo | 3
 | Semántica | 2
 | SEO | 0
@@ -457,11 +457,11 @@ continuación presentamos los niveles esperados para cada habilidad:
 | DRY | 2
 | Responsive | 2
 | **SCM** | |
-| Git | 1
+| Git | 3
 | GitHub | 2
 | **CS** | |
 | Lógica | 1
-| Arquitectura | 1
+| Arquitectura | 2
 | Patrones/paradigmas | 0
 
 ### UX
