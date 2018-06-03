@@ -1,81 +1,71 @@
-# Opening: Haciendo tu sitio web interactivo
+# 00 - Opening
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+## Abertura: tornando o seu site interativo
 
-***
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `20min`
 
-## Objetivos de Aprendizaje
+### Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- ¿Qué es el DOM y para qué nos sirve manipularlo?
-- ¿Qué es el BOM y para qué nos sirve manipularlo?
-- ¿Qué es un evento y cuál es su utilidad?
+* O que é o DOM e qual é a utilidade de manipulá-lo?
+* Qual é o BOM e qual é a utilidade de manipulá-lo?
+* O que é um evento e qual é a sua utilidade?
 
-## ¿Por qué aprender esto?
+### Por que aprender isso?
 
-Cuando estamos construyendo sitios web, llega un momento en donde necesitamos
-darle funcionalidad dinámica a nuestra página (que cambie conforme pasa el
-tiempo). Puede ser alguna animación, el tamaño de un texto, la visibilidad de
-una imagen, etc.
+Quando estamos construindo sites, chega um momento em que precisamos dar funcionalidade dinâmica à nossa página \(que muda conforme o tempo passa\). Pode ser alguma animação, o tamanho de um texto, a visibilidade de uma imagem, etc.
 
-El DOM, BOM y eventos nos permiten hacer esas manipulaciónes si sabemos
-utilizarlos.
+O DOM, o BOM e os eventos nos permitem fazer essas manipulações, se soubermos como usá-los.
 
-## Guía de preguntas y conceptos clave
+### Guia para perguntas e conceitos-chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes sobre o que vamos aprender e as questões centrais às quais devemos prestar atenção particular.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+Aqui está uma série de perguntas que você deve ser capaz de responder no final desta unidade. Use essas perguntas como um guia para orientar seus esforços de aprendizado. Volte para eles constantemente enquanto você avança para validar que você está se indo na direção certa. Isso serve como uma "lista de verificação" que você marca conforme avança.
 
-### DOM
+#### DOM
 
-- ¿Qué es el DOM?
-- ¿Qué es un selector?
-- ¿Cuál es la diferencia entre document.getElementById y
-  document.getElementsByClassName?
-- ¿Cómo preguntamos por los hijos de un elemento usando el DOM?
-- ¿Cómo preguntamos por el padre de un elemento usando el DOM?
-- ¿Qué atributos CSS de un elemento se pueden modificar usando el DOM?
-- ¿Cómo podemos simular animación entre elementos HTML?
+* O que é o DOM?
+* O que é um selector?
+* Qual é a diferença entre document.getElementById e document.getElementsByClassName?
+* Como invocamos os filhos de um elemento usando o DOM?
+* Como invocamos o pai de um item usando o DOM?
+* Quais atributos CSS de um elemento podem ser modificados usando o DOM?
+* Como podemos simular animação entre elementos HTML?
 
-### BOM
+#### BOM
 
-- ¿Qué es el BOM?
-- ¿En qué se relaciona el DOM con el BOM?
-- ¿Cuáles son algunos usos comunes del BOM?
+* O que é o BOM?
+* Como o DOM se relaciona com o BOM?
+* Quais são alguns usos comuns do BOM?
 
-### Modificando el DOM
+#### Modificando o DOM
 
-- ¿Se pueden crear nuevos nodos usando el DOM?
-- ¿Qué es un nodo?
-- ¿Cuántos tipos de nodos existen?
-- ¿Por qué decimos que el DOM tiene nodos?
-- ¿Por qué decimos que el DOM tiene nodos de objetos?
-- ¿Cómo accedemos a la propiedad style de body usando el DOM?
-- ¿Cuál es el nodo origen en el DOM?
-- ¿Cuál es el nodo origen en el BOM?
-- ¿Cuál es la diferencia entre nodo y elemento?
+* Novos nós podem ser criados usando o DOM?
+* O que é um nó?
+* Quantos tipos de nós existem?
+* Por que dizemos que o DOM tem nós?
+* Por que dizemos que o DOM tem nós de objetos?
+* Como podemos acessar a propriedade _style_ do _body_ usando o DOM?
+* Qual é o nó de origem no DOM?
+* Qual é o nó de origem no BOM?
+* Qual é a diferença entre o nó e o elemento?
 
-### Eventos
+#### Eventos
 
-- ¿Qué es un evento?
-- ¿Cuáles son los eventos más utilizados en un navegador?
-- ¿Cómo detectamos un "click" del usuario?
-- ¿Cómo detectamos una entrada de texto del usuario?
-- ¿Cómo detectamos el envío de un formulario?
-- ¿Podemos usar el evento submit a un input text?
-- ¿De que nos sirve la palabra reservada "event" o "e"?
-- ¿Cómo podemos almacenar o pasar información entre elementos HTML?
-- ¿Qué es event delegation?
-- ¿Qué es event propagation?
-- ¿Cómo definimos eventos propios?
-- ¿Cuál es la diferencia entre onClick y addEventListener("click")?
+* O que é um evento?
+* Quais são os eventos mais usados ​​em um navegador?
+* Como detectamos um "clique" do usuário?
+* Como podemos detectar a entrada de texto de um usuário?
+* Como detectamos o envio de um formulário?
+* Podemos usar o evento _submit_ para um _input text_?
+* Para que server a palavra reservada "event" ou "e"?
+* Como podemos armazenar ou passar informações entre elementos HTML?
+* O que é _event delegation_?
+* O que é _event propagation_?
+* Como definimos nossos próprios eventos?
+* Qual é a diferença entre onClick e addEventListener \("click"\)?
+

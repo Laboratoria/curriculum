@@ -1,59 +1,51 @@
-# Atributos data
+# 05 - Data Attributes
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+## Atributos de dados
 
-## Objetivos de Aprendizaje
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-En esta unidad aprenderemos a profundidad:
+### Objetivos de Aprendizagem
 
-- ¿Qué son los atributos data y para qué sirven?
-- ¿Cómo se usan?
+Nesta unidade aprenderemos em profundidade:
 
-***
+* Quais são os atributos de dados e para que servem?
+* Como eles são usados?
 
-## ¿Qué son los atributos data?
+## O que são os atributos de dados?
 
-Son atributos personalizados que nos permiten añadir datos a nuestros elementos
-HTML, que no necesariamente son visibles pero que nos ayudan mucho al momento
-de dar información adicional de dichos elementos.
+Eles são atributos personalizados que nos permitem adicionar dados aos nossos elementos HTML, que não são necessariamente visíveis, mas que nos ajudam muito ao fornecer informações adicionais sobre esses elementos.
 
-## ¿Cómo se usan?
+## Como eles são usados?
 
-Usarlos es muy fácil, ya que su sintaxis e interacción es sencilla.
+Usá-los é muito fácil, já que sua sintaxe e interação são simples.
 
-### Sintaxis
+### Sintaxe
 
-Se compone de un prefijo `data-` acompañado del nombre (*en minúsculas*) que
-consideremos más apropiado para el valor que va a guardar:
+Consiste em um prefixo `data-` acompanhado do nome \(_em letras minúsculas_\) que consideramos mais apropriado para o valor que você irá salvar:
 
-```html
-<elemento id="ejemplo" data-nombre="valor" data-otro-nombre="otro valor">
+```markup
+<elemento id="exemplo" data-nome="valor" data-outro-nome="outro valor">
 ```
 
-### Interacción con JavaScript
+### Interação com JavaScript
 
-Para poder acceder a estos atributos hacemos uso del método `dataset`.
+Para acessar esses atributos, usamos o método `dataset`.
 
 ```javascript
-  var ejemplo = document.getElementById("ejemplo");
-  var valor = ejemplo.dataset.nombre;
-  var otroValor = ejemplo.dataset.otroNombre;
+  var exemplo = document.getElementById("exemplo");
+  var valor = exemplo.dataset.nome;
+  var outroValor = ejemplo.dataset.outroNome;
 ```
 
-En este [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos
-encontrar información más detallada acerca de esto que acabamos de leer.
+Neste [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) , podemos encontrar informações mais detalhadas sobre isso que acabamos de ler.
 
-***
+## E o que vem agora?
 
-## Y ahora ¿qué sigue?
+Como temos uma noção do que são e como os atributos de dados são usados, o que você acha de vermos o vídeo a seguir, no qual um exercício é mostrado fazendo uso deles.
 
-Ya que tenemos una noción de qué son y el cómo se usan los atributos data, qué
-te parece si vemos el siguiente video en el que se muestra un ejercicio
-haciendo uso de éstos.
+![](https://camo.githubusercontent.com/81e65d84fafc71b9d42d6c3e0c2c8ee71f1bd7c5/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f666e6e366d714e315338512f302e6a7067)
 
-[![Atributos Data](https://img.youtube.com/vi/fnn6mqN1S8Q/0.jpg)](https://www.youtube.com/watch?v=fnn6mqN1S8Q)
+Para ler mais sobre os atributos de dados, verifique este [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) e este outro [link](https://www.w3schools.com/tags/att_global_data.asp) .
 
-Para leer más acerca de los atributos data, revisa este [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
-y este otro [link](https://www.w3schools.com/tags/att_global_data.asp).

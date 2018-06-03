@@ -1,35 +1,33 @@
-# Clase de Conceptos
+# 09 - Seminar
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+## Aula de Conceitos
 
-***
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `120min`
 
-## Objetivos
+### Objetivos
 
-- Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
-  equipo de profesores
-- ¡Aclarar todas las dudas que tengas!
+* Revisar e consolidar os conceitos aprendidos em uma aula com sua equipe de professores
+* Esclarecer todas as dúvidas que você tem!
 
-## Agenda
+### Agenda
 
-- Entendamos bien el concepto de:
+* Vamos entender bem o conceito de:
 
   DOM
 
   BOM
 
-  CRUD de DOM
+  DOM CRUD
 
-  Recorrido de DOM
+  Tour DOM
 
-  Selección de elementos de DOM
+  Seleção de elementos DOM
 
   Eventos
 
-- Por medio de ejemplos en la consola nos aseguramos que entendemos cómo
-    funcionan:
+* Por meio de exemplos no console, vamos ter certeza de que entendemos como funcionam:
 
   `document.getElementById()`
 
@@ -83,9 +81,7 @@
 
   onMouseOver
 
-- Revisar documentaciones oficiales de DOM y eventos
+* Revisar a documentação oficial de DOM e eventos
+* Revisemos os exercícios guiados que resolveremos na próxima aula para que você possa tentar resolvê-los primeiro.
+* Revisar a abertura e responder a perguntas
 
-- Revisemos los ejercicios guiados que resolveremos en la próxima clase para
-   que intentes resolverlos por tu cuenta primero.
-
-- Revisar el opening y responder preguntas

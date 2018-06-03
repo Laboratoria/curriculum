@@ -1,204 +1,169 @@
-# Retos
+# 11 - Code Challenges
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `20h`
+## Desafios
 
-## Objetivos
+* Tipo: `prática`
+* Formato: `ritmo próprio`
+* Duração: `20h`
 
-- A continuación te presentamos el reto que debes completar para poner tus
-  conocimientos a prueba.
+### Objetivos
 
-***
+* A seguir apresentamos o desafio que você deve completar para colocar seu conhecimento à prova.
 
-## 1. Twitter
+### 1. Twitter
 
-En este reto, vamos a replicar el newsfeed de Twitter, para ello vamos a seguir
-un flujo de versiones que te guiarán para enfocarte de una manera más eficiente
-:)
+Neste desafio, vamos replicar o feed de notícias do Twitter. Para tanto, seguiremos um fluxo de versões que a guiarão para se concentrar mais eficientemente :\)
 
-Puedes adaptar el diseño como mejor te parezca, _pero no tardes mucho
-definiendo los colores o fuentes. Por último puedes replicar el diseño de la
-[página oficial](https://twitter.com)_ :). Aquí un ejemplo:
+Você pode adaptar o design como quiser, _mas não demore para definir as cores ou fontes. Finalmente, você pode replicar o design da_ [_página oficial_](https://twitter.com/) :\). Aqui está um exemplo:
 
-![Ejemplo Twitter DOM](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
+![](https://camo.githubusercontent.com/d283bdec68b5453f9eb2b76327d8dff551c465ad/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f76396a5034524947514355514f5363672f67697068792e676966)
 
-### Versión 0.0.1
+#### Versão 0.0.1
 
-1. Diseñar un formulario que permita ingresar un texto y un botón para "twittear".
-2. Agregar un evento de click al botón o de submit al formulario.
-3. En el evento, obtener el texto.
-4. Agregar el texto al HTML.
+1. Crie um formulário que permita inserir um texto e um botão para "twittar".
+2. Adicione um evento de _click_ ao botão ou de _submit_ no formulário.
+3. No evento, obter o texto.
+4. Adicione o texto ao HTML.
 
-### Versión 0.0.2
+#### Versão 0.0.2
 
-1. No ingresar texto vacío (deshabilitar el botón de "twittear").
-2. Contar la cantidad de caracteres de forma regresiva.
+1. Não inserir texto vazio \(desativar o botão "twittar"\).
+2. Conte o número de caracteres de forma regressiva.
 
-### Versión 0.0.3
+#### Versão 0.0.3
 
-1. Si pasa los 140 caracteres, deshabilitar el botón.
-2. Si pasa los 120 caracteres, mostrar el contador con OTRO color.
-3. Si pasa los 130 caracteres, mostrar el contador con OTRO color.
-4. Si pasa los 140 caracteres, mostrar el contador en negativo.
+1. Se você passar os 140 caracteres, desative o botão.
+2. Se você passar os 120 caracteres, mostre o contador com outra cor.
+3. Se você passar os 130 caracteres, mostre o contador com outra cor.
+4. Se você passar os 140 caracteres, mostre o contador em negativo.
 
-### Versión 0.0.4
+#### Versão 0.0.4
 
-1. Al presionar enter(`/n`) que crezca el textarea de acuerdo al tamaño del
-   texto.
+1. Ao pressionar enter \(`/n`\) aumente a área de texto de acordo com o tamanho do texto.
 
-### Versión 0.0.5 (Extra)
+#### Versão 0.0.5 \(Extra\)
 
-1. Si la cantidad de caracteres ingresados (sin dar un enter), supera al tamaño
-   del textarea por defecto, debe de agregarse una línea más para que no
-   aparezca el scroll. (Si en caso aplica)
+1. Se o número de caracteres digitados \(sem dar um "_enter_"\) exceder o tamanho da área de texto por padrão, mais uma linha deverá ser adicionada para que a rolagem não apareça. \(Se aplicável\)
 
-### Versión 0.0.6 (Extra)
+#### Versão 0.0.6 \(Extra\)
 
-1. Agregar la hora en que se publicó el tweet. En el formato de 24 horas: `hh:mm`.
+1. Adicione a hora em que o tweet foi publicado no formato de 24 horas `hh:mm`.
 
-> Nota: Para dar formato a la fecha y hora, puedes crear tu propia función o
-> usar una librería como [`moment.js`](https://momentjs.com/).
+> Nota: Para formatar a data e a hora, você pode criar sua própria função ou usar uma biblioteca como [`moment.js`](https://momentjs.com/)`.`
 
-## 2. Trello
+### 2. Trello
 
-En este reto, vamos a replicar el tablero de Trello, para ello vamos a seguir
-un flujo de versiones que te guiarán en dónde enfocarte desde un inicio.
+Neste desafio, vamos replicar o quadro do Trello. Para isso vamos seguir um fluxo de versões que irão guiá-la desde o início.
 
-Al igual que en el reto anterior, puedes usar tu propio estilo o seguir la del
-[sitio original](https://trello.com). A continuación puedes ver como debe quedar:
+Como no desafio anterior, você pode usar seu próprio estilo ou seguir o [site original](https://trello.com/) . Abaixo você pode ver como deve ficar:
 
-![Ejemplo - Clon de Trello](https://media.giphy.com/media/l1J9Ai0amYnS22ChW/giphy.gif)
+![Exemplo - clone do Trello](https://camo.githubusercontent.com/e6e935f3a0ce7bb16de12e9b2c841b4a555092b7/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c314a39416930616d596e5332324368572f67697068792e676966)
 
-### Versión 0.0.1
+#### Versão 0.0.1
 
-- Se mostrará el texto "Añadir una lista ...".
-- Al hacer click se debe ocultar el texto y mostrar un formulario.
-- El formulario está conformado por un input y un botón para que pueda
-  añadir tareas a tu lista.
+* O texto "Adicionar uma lista ..." será exibido.
+* Ao clicar, você deve ocultar o texto e mostrar um formulário.
+* O formulário é composto de um _input_ e um botão para que você possa adicionar tarefas à sua lista.
 
-### Versión 0.0.2
+#### Versão 0.0.2
 
-- Al dar click en el botón de "Guardar", se mostrará un nuevo cuadro donde
-  estará el nombre de la lista agregada.
-- Mostrar un texto de "Añadir una tarea" dentro de la lista.
+* Ao clicar no botão "Salvar", uma nova caixa aparecerá mostrando o nome da lista adicionada.
+* Mostrar um texto de "Adicionar uma tarefa" na lista.
 
-### Versión 0.0.3
+#### Versão 0.0.3
 
-- Al dar click en "Añadir una tarea", deberá mostrar un formulario con un
-  textarea y un botón que diga "Añadir".
+* Quando você clica em "Adicionar uma tarefa", você deve mostrar um formulário com uma área de texto e um botão que diz "Adicionar".
 
-### Versión 0.0.4
+#### Versão 0.0.4
 
-- Poner _focus_ al input al dar click en "Agregar nueva tarea".
-- Al dar click en el botón de "Añadir", deberá aparecer el texto de la tarea
-  debajo del título de la lista.
+* Coloque _focus_ no _input_ quando clicar em "Adicionar nova tarefa".
+* Ao clicar no botão "Adicionar", o texto da tarefa deve aparecer abaixo do título da lista.
 
-### Versión 0.0.5
+#### Versão 0.0.5
 
-- Mostrar el formulario nuevamente debajo de la última tarea añadida.
+* Mostrar o formulário novamente abaixo da última tarefa adicionada.
 
-### Versión 0.0.6 (Extra)
+#### Versão 0.0.6 \(Extra\)
 
-- Poder agregar múltiples listas con tarjetas. Para esto, el formulario de
-  "Añadir una lista" debe aparecer a la derecha de la lista anteriormente
-  creada.
+* Poder adicionar várias listas com cartões. Para isso, o formulário "Adicionar uma lista" deve aparecer à direita da lista criada anteriormente.
 
-## 3. Laberinto (Opcional)
+### 3. Labirinto \(Opcional\)
 
-Crea una página web que implemente el juego del Laberinto utilizando DOM y
-eventos. El juego del Laberinto es un divertido Puzzle donde podrás darle a
-cualquier jugador la capacidad de interactuar con el mapa hasta encontrar la
-salida.
+Crie uma página da Web que implemente o jogo do Labyrinth usando DOM e eventos. O jogo Labyrinth é um quebra-cabeça divertido onde você pode dar a qualquer jogador a habilidade de interagir com o mapa para encontrar a saída.
 
-Recuerda que en Laberinto el objetivo es ir de un lugar A hacia un lugar B
-únicamente por el camino correcto.
+Lembre-se que no Labirinto o objetivo é ir do lugar A para o lugar B apenas pelo caminho certo.
 
-> El Laberinto tiene raíces tan profundas como el mito griego sobre Teseo, que
-> fue enviado a un laberinto para matar al minotauro. Teseo usó una bola de hilo
-> para ayudarse a encontrar su camino de regreso, una vez que había terminado
-> con la bestia.
+> O labirinto tem raízes tão profundas quanto o mito grego sobre Teseu, que foi enviado a um labirinto para matar o minotauro. Teseu usou um novelo de lã para ajudá-lo a encontrar o caminho de volta, assim que matasse a fera.
 
-![GitHub set up-w800](http://photos1.blogger.com/blogger/6613/878/1600/laberinto04.jpg)
+![](https://camo.githubusercontent.com/b9589bddbe666c41a528fad3d65875523688cfa0/687474703a2f2f70686f746f73312e626c6f676765722e636f6d2f626c6f676765722f363631332f3837382f313630302f6c61626572696e746f30342e6a7067)
 
-Para interactuar con Teseom el jugador tendrá que hacer uso de las flechas de su
-teclado para poder mover  y ayudar a Teseo en su búsqueda de la salida.
+Para interagir com Teseu, o jogador terá que usar as setas do teclado para poder se mover e ajudar Teseu em sua busca pela saída.
 
-### Tips para la solución
+#### Dicas para a solução
 
-A continuación, encontrarás tips que podrían ayudarte con la solución,
-mucha suerte!
+Abaixo, você encontrará dicas que poderão ajudá-lo com a solução, boa sorte!
 
-#### [Tip 1. | El Programa]
+**\[Dica 1. \| O programa\]**
 
-Crea un programa que represente un Teseo en un Laberinto y que implemente
-el algoritmo de búsqueda de un camino de salida.
+Crie um programa que represente um Teseo em um labirinto e que implemente o algoritmo de busca para um caminho de saída.
 
-![GitHub set up-w800](media/15034081309333/15034128157197.png)
+[![GitHub set-w800](https://github.com/cemsbr/curricula-js/raw/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/15034128157197.png)](https://github.com/cemsbr/curricula-js/blob/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/15034128157197.png)
 
-Para que sea más fácil para nosotros, asumiremos que nuestro laberinto está
-dividido en "cuadrados". Cada cuadrado del laberinto está abierto u ocupado por
-una sección de pared. Teseo sólo puede pasar a través de los cuadrados abiertos
-del laberinto. Si Teseo se topa con una pared debe intentar una dirección diferente.
+Para tornar mais fácil para nós, vamos supor que o nosso labirinto é dividido em "quadrados". Cada quadrado do labirinto é aberto ou ocupado por uma seção de parede. Teseu só pode passar pelos quadrados abertos do labirinto. Se Teseu correr para uma parede, ele deve tentar uma direção diferente.
 
-#### [Tip 2. | Creando el Laberinto]
+**\[Dica 2. \| Criando o labirinto\]**
 
-Para crear el Laberinto se puede usar un array de cadenas para poder representarlo.
-La notación que puedes usar para cada elemento dentro del mapa son las siguientes:
+Para criar o labirinto, você pode usar uma matriz de _strings_ para representá-lo. A notação que você pode usar para cada elemento no mapa é a seguinte:
 
-1. `*` Una pared
-2. `_` Un espacio vacío
-3. `o` Posición inicial del jugador
-4. `W` Salida del laberinto.
+1. `*` Uma parede
+2. `_` Um espaço vazio
+3. `o` Posição inicial do jogador
+4. `W` Saída do labirinto.
 
 ```javascript
 var mazeMap = [
-    "******************",
-    "*_________*______*",
-    "*_*****_____******",
-    "*______***__*__*_*",
-    "***_*____*____**_*",
-    "*___*____**__*___*",
-    "*_********__**_*_*",
-    "*____*______*__*_*",
-    "*_**_*__*****_**_*",
-    "*o*__*________**W*",
-    "******************"
+     " ****************** " ,
+     " * _________ * ______ * " ,
+     " * _____ _ ***** ****** " ,
+     " * *** ______ __ * __ * _ * " ,
+     " *** _ ____ ____ * ** * _ * " ,
+     " * ___ * * ___ ____ __ ** * " ,
+     " * _ ***** *** __ ** _ * _ * " ,
+     " * ____ * ______ * __ * _ * " ,
+     " * _ ** _ * __ ***** _ ** _ * " ,
+     "* ou * __ * ________ ** W * " ,
+    " ****************** " 
 ];
 ```
 
-Ese mapa se puede traducir en lo siguiente con la función de renderización/dibujo
-adecuado:
+Esse mapa pode ser traduzido no seguinte com a função apropriada de renderização/desenho:
 
-![GitHub set up-w400](media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
+[![GitHub set-w400](https://github.com/cemsbr/curricula-js/raw/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)](https://github.com/cemsbr/curricula-js/blob/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
 
-#### [Tip 3. | Identificando Objetos y Funciones]
+**\[Dica 3. \| Identificando Objetos e Funções\]**
 
-Es importante identificar los objetos presentes. Si hacemos un análisis a la
-imagen anterior nos daremos cuenta que los objetos presentes son los siguientes:
+É importante identificar os objetos presentes. Se fizermos uma análise da imagem anterior, perceberemos que os objetos presentes são os seguintes:
 
-1. Maze: Objeto que representa el Laberinto
-2. Player: Objeto que representa a Teseo
-3. MazeInterface: Objeto que representa la interfaz de Juego usando DOM
+1. Labirinto: Objeto representando o Labirinto
+2. Jogador: Objeto que representa o Theseus
+3. MazeInterface: Objeto que representa a interface do jogo usando o DOM
 
-Además es importante identificar propiedades asociadas a estos objetos así como
-las  principales funciones  presentes. A continuación presentamos la interfaz
-del código de estos objetos y funciones.
+Também é importante identificar as propriedades associadas a esses objetos, bem como as principais funções presentes. Em seguida, apresentamos a interface do código desses objetos e funções.
 
 ```javascript
 var maze = {
-    matrix: undefined, // representa el mapa del laberinto
-    startX: undefined,  // posición x inicial del laberinto
-    startY: undefined,  // posición y inicial del laberinto
-    endX: undefined,  // posición x que representa la salida
-    endY: undefined,// posición y que representa la salida
-    startOrientation: undefined // orientación inicial
+    matrix: undefined, // representa o mapa do labirinto
+    startX: undefined,  // posição x inicial do labirinto
+    startY: undefined,  // posição y inicial do labirinto
+    endX: undefined,  // posição x que representa a saída
+    endY: undefined,// posição y que representa a saída
+    startOrientation: undefined // direção inicial
 };
 
 var player  = {
-    x: undefined, // posición x actual del jugador
-    y: undefined, // posición x actual del jugador
-    orientation: undefined // orientación actual del jugador
+    x: undefined, // posição x atual do jogador
+    y: undefined, // posição y atual do jogador
+    orientation: undefined // direção atual do jogador
 };
 
 var ORIENTATION = {
@@ -208,38 +173,38 @@ var ORIENTATION = {
   DOWN: 4
 };
 
-// representa la inferfaz usando DOM del laberinto
+// representa a interface usando DOM do labirinto
 var mazeInterface = [];
 
-// dibujar laberinto
+// desenhar o labirinto
 function renderMaze(maze, player);
-// establecer estilo en la posición x, y
+// estabelecer o estilo na posição x, y
 function setStyleAt(maze, x, y, style);
 
-// preguntar si (x,y) representa un muro, es decir  '*'
+// perguntar se (x,y) representa uma parede, ou seja, '*'
 function isWall(maze, x, y);
-// preguntar si (x,y) representa un espacio vacio, es decir  '_'
+// perguntar se (x,y) representa um espaço vazio, ou seja,  '_'
 function isSpace(maze, x, y);
-// preguntar si (x,y) representa la salida del laberinto, es decir 'W'
+// perguntar se (x,y) representa a saída do labirinto, ou seja, 'W'
 function isEnd(maze, x, y);
 
-//  rotar a la izquierda
+//  virar a esquerda
 function turnLeft(player) ;
-//  rotar a la derecha
+//  virar a direita
 function turnRight(player) ;
-//  mover una posición hacia adelante en la dirección de player.direction
+//  mover uma posição para frente na direção de player.direction
 function moveForward(player) ;
 
-// algoritmo de búsqueda para encontrar un camino de salida para un
-// laberinto cualquiera
+// algoritmo de busca para encontrar un caminho de saída para um
+// labirinto qualquer
 function exitMaze(player);
 ```
 
-#### [Tip 4. | Preguntas guía]
+**\[Dica 4. \| Perguntas orientadoras\]**
 
-- ¿Cómo hacemos para detectar el teclado del usuario? En particular, ¿las flechas?
-- ¿Cómo hacemos para mover al personaje en el tablero?
-- ¿Cómo hacemos para limitar el movimiento del personaje en el tablero? (si hay
-  una pared, por ejemplo)
-- ¿Qué significa pintar o renderizar?
-- ¿Cómo hacemos para renderizar el tablero?
+* Como podemos detectar o teclado do usuário? Em particular, as setas?
+* Como podemos mover o personagem no quadro?
+* Como limitamos o movimento do personagem no quadro? \(se houver uma parede, por exemplo\)
+* O que significa pintar ou renderizar?
+* Como fazer para renderizar o tabuleiro?
+

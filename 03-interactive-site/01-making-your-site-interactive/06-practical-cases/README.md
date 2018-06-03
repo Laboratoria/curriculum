@@ -1,190 +1,160 @@
-# Casos prácticos (videos)
+# 06 - Practical Cases
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `6h`
+## Estudos de caso \(vídeos\)
 
-## Objetivos
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `6h`
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de navegar
-  y manipular el DOM, y a responder a eventos.
+### Objetivos
 
-***
+* Entender, por meio de casos práticos, como aplicar os conceitos de navegar e manipular o DOM e responder a eventos.
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
-para resolver problemas.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas.
 
-A continuación tendrás varios problemas que debes resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
+A seguir, você terá vários problemas que deverá resolver. Tente resolvê-los primeiro por conta própria. Abaixo você encontrará as soluções.
 
-Después de haberlo intentado, compara tus soluciones con los videos de abajo.
+Depois de tentar, compare suas soluções com os vídeos abaixo.
 
-*NO* antes.
+_NÃO_ antes.
 
-### 1. Reserva de puestos aerolínea
+### 1. Reserva de assentos de avião
 
-Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema
-de reservaciones automatizadas. Se te ha pedido que desarrolles el nuevo
-sistema. Escribirás una aplicación para asignar asientos en cada vuelo del
-__único__ avión de la aerolínea (capacidad: 10 asientos).
+Uma pequena companhia aérea acaba de comprar um computador para seu novo sistema de reservas automatizado. Você foi solicitada a desenvolver o novo sistema. Escreva uma aplicação para atribuir assentos em cada voo do **único** avião da companhia \(capacidade: 10 assentos\).
 
-![GitHub Logo](https://image.ibb.co/eMz26v/avion_2.jpg)
+![](https://camo.githubusercontent.com/2d4dffa6cc4705e7552b542a95367921170fa682/68747470733a2f2f696d6167652e6962622e636f2f654d7a3236762f6176696f6e5f322e6a7067)
 
-Tu aplicación debe mostrar las siguientes alternativas:
+Sua aplicação deve mostrar as seguintes alternativas:
 
-Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico.
+Por favor, digite 1 para Primeira Classe e Por favor, digite 2 para Econômica.
 
-![GitHub Logo](https://image.ibb.co/mh9PKF/avion_3.jpg)
+![](https://camo.githubusercontent.com/7cde6ed7b5ad4ad2ef2a3cc273056e9a4899546f/68747470733a2f2f696d6167652e6962622e636f2f6d6839504b462f6176696f6e5f332e6a7067)
 
-Si el usuario escribe 1, tu aplicación debe asignarle un asiento en la
-sección de primera clase (asientos 1 a 4). Si el usuario escribe 2, tu
-aplicación debe asignarle un asiento en la sección económica
-(asientos 5 a 10).
+Se o usuário digitar 1, seu aplicativo deve atribuir um lugar na seção de primeira classe \(assentos 1 a 4\). Se o usuário digitar 2, sua aplicação deve atribuir um assento na seção econômica \(assentos 5 a 10\).
 
-Tu aplicación deberá entonces imprimir un pase de abordar, indicando el
-número de asiento de la persona y si se encuentra en la sección de primera
-clase o clase económica.
+A sua aplicação deverá então imprimir um cartão de embarque, indicando o número do lugar da pessoa e se está na primeira classe ou na classe econômica.
 
-![GitHub Logo](https://image.ibb.co/d8gtDa/avion_4.jpg)
+![](https://camo.githubusercontent.com/ad271eea910b764273d88d58973d14feadca4dc9/68747470733a2f2f696d6167652e6962622e636f2f6438677444612f6176696f6e5f342e6a7067)
 
-### Tips para la solución
+### Dicas para a solução
 
-A continuación, encontrarás tips que podrían ayudarte con la solución, ¡mucha suerte!
+Abaixo, você encontrará dicas que poderão ajudá-la com a solução, boa sorte!
 
-#### [Tip. | Diagrama de flujo]
+#### **\[Dica \| Diagrama de fluxo\]**
 
-![GitHub Logo](https://image.ibb.co/bQ86Ya/untitled_8.jpg)
+![Logotipo do GitHub](https://camo.githubusercontent.com/d4be0ae8769e77bd37af6dfe391f63fc375d00ca/68747470733a2f2f696d6167652e6962622e636f2f6251383659612f756e7469746c65645f382e6a7067)
 
-#### [Tip. | Representación usando Arrays]
+#### **\[Dica \| Representação usando Arrays\]**
 
-Usa un arreglo unidimensional del tipo booleano para representar la tabla de
-asientos del avión. Inicializa todos los elementos del arreglo con -false-
-para indicar que todos los asientos están vacíos. A medida que se asigne cada
-asiento, establezca el elemento correspondiente del arreglo en true para
-indicar que ese asiento ya no está disponible.
+Use uma matriz unidimensional do tipo booleano para representar a tabela de assentos do avião. Inicialize todos os elementos do array com -false- para indicar que todos os lugares estão vazios. À medida que cada lugar é atribuído, defina o elemento correspondente da matriz como true para indicar que esse lugar não está mais disponível.
 
-Tu aplicación nunca deberá asignar un asiento que ya haya sido asignado.
-Cuando esté llena la sección económica o primera clase, tu programa deberá
-preguntar a la persona si acepta ser colocada en la sección de primera clase
-(y viceversa).
+Seu aplicativo nunca deverá atribuir um lugar que já tenha sido atribuído. Quando a seção econômica ou a primeira classe estiver cheia, seu programa deve perguntar à pessoa se ela concorda em ser colocada na primeira classe \(e vice-versa\).
 
-![GitHub Logo](https://image.ibb.co/nH4rzF/avion_6.jpg)
+![](https://camo.githubusercontent.com/dde17d453c6d63ec4433c4c8b2f7f0fcd5df7ad5/68747470733a2f2f696d6167652e6962622e636f2f6e4834727a462f6176696f6e5f362e6a7067)
 
-Si la persona acepta, haga la asignación de asiento apropiada.
+Se a pessoa aceitar, faça a atribuição de lugar apropriada.
 
-Si no, debe imprimir el mensaje “El próximo vuelo sale en 3 horas”.
+Se não, você deve exibir a mensagem "O próximo vôo sai em 3 horas".
 
-![GitHub Logo](https://image.ibb.co/d2Hpmv/avion_7.jpg)
+![](https://camo.githubusercontent.com/555297b389110a474d57100120feee37804d4db3/68747470733a2f2f696d6167652e6962622e636f2f643248706d762f6176696f6e5f372e6a7067)
 
-### 2. Buscaminas
+### 2. Campo Minado
 
-El juego de buscaminas funciona de la siguiente forma:
+O jogo campo minado funciona da seguinte maneira:
 
-Se muestra una tabla donde se encuentran celdas vacías, con número o con minas.
-En caso de oprimir una mina entonces el juego termina, si se oprimen lugares
-sin minas (vacía o de número), el juego continúa.
+Uma tabela é mostrada onde são encontradas células vazias, com número ou com minas. No caso de pressionar uma mina, o jogo termina, se você pressionar lugares sem minas \(vazio ou número\), o jogo continua.
 
-![Buscaminas](https://lh4.googleusercontent.com/c4jnMEV2CirXxh8CRzP1y6_VSqfPOLNQnTGyv2uKyPzEMfa42ztBClyMCigW7K3dJqNWacIJDjaj-kfVDFWtQbHySxNhSSRBPVnf2Q2SbHK3MUkWD0WMpsVyXeUAfrI11ya9heW5lng)
+[![Meu escavador](https://camo.githubusercontent.com/5234aa78cbc8118904ae079257dffd4f8bb213fd/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f63346a6e4d4556324369725878683843527a503179365f56537166504f4c4e516e5447797632754b79507a454d666134327a7442436c794d43696757374b33644a714e576163494a446a616a2d6b6656444657745162487953784e685353524250566e663251325362484b334d556b574430574d70735679586555416672493131796139686557356c6e67)](https://camo.githubusercontent.com/5234aa78cbc8118904ae079257dffd4f8bb213fd/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f63346a6e4d4556324369725878683843527a503179365f56537166504f4c4e516e5447797632754b79507a454d666134327a7442436c794d43696757374b33644a714e576163494a446a616a2d6b6656444657745162487953784e685353524250566e663251325362484b334d556b574430574d70735679586555416672493131796139686557356c6e67)
 
-#### Preguntas guía
+**Perguntas guia**
 
-- ¿Cómo puedes estructurar el tablero en el navegador? (pista: HTML)
-- ¿Cómo puedes diferenciar una bomba de un número o de una celda vacía en el
-  HTML?
-- ¿Qué evento necesitas para captar el click del usuario?
-- Una vez que el usuario haga click sobre la "celda", ¿qué tiene que pasar?
-- ¿Cómo podemos hacer que elementos aparezcan y desaparezcan en el HTML?
-- ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario? (pista:
-  removeEventListener)
+* Como você pode estruturar o campo no navegador? \(dica: HTML\)
+* Como você pode diferenciar uma bomba de um número ou de uma célula vazia no HTML?
+* Qual evento você precisa para capturar o clique do usuário?
+* Quando o usuário clica na "célula", o que precisa acontecer?
+* Como podemos fazer elementos aparecerem e desaparecerem em HTML?
+* Como fazemos para que os cliques do usuário não possam mais ser inseridos? \(dica: removeEventListener\)
 
-#### Requerimientos
+**Requisitos**
 
-- Mostrar una tabla de 4 x 4 (con bombas, celdas vacías y números en posición
-  fija)
-- Al dar clic en una celda vacía, cambiar de color de la celda.
-- Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
-  más celdas) y mostrar mensaje: “Esto ha explotado”
-- Al dar clic en una celda con un número, mostrar el número que tiene.
-- Crear un botón Reiniciar que comience de nuevo el juego.
+* Exibir uma tabela 4 x 4 \(com bombas, células vazias e números em posição fixa\)
+* Ao clicar em uma célula vazia, mude a cor da célula.
+* Ao clicar em uma célula com uma bomba, termine o jogo \(não se pode clicar em mais células\) e mostre a mensagem: "Explodiu!"
+* Quando você clica em uma célula com um número, mostre o número que você tem.
+* Crie um botão Reset que inicie o jogo novamente.
 
-##### Puntos extra
+**Pontos extras**
 
-- Al dar clic fuera de la tabla mostrar mensaje: “Sigue jugando”. (inner html o
-  alert).
-- Preguntar el tamaño de la tabla al usar.
-- Preguntar el nivel de dificultad deseada (fácil o difícil y significa el
-  número de bombas que tendrá)
-- Llenar de manera automática todo (bombas, celdas vacías y números)
+* Quando você clicar fora da tabela, mostre a mensagem: "Continue jogando". \(inner html ou alert\).
+* Pergunte o tamanho do campo para o jogo.
+* Peça o nível de dificuldade desejado \(fácil ou difícil e significa o número de bombas no jogo\)
+* Preencha automaticamente tudo \(bombas, células vazias e números\)
 
-#### 3. Crear un menú de hamburguesa
+**3. Crie um menu de hambúrguer**
 
-Un menú de hamburguesa nos permite tener escondido el menú y únicamente mostrar
-un botón (3 líneas horizontales) que cuando lo apretamos (o hacemos click), se
-muestra en la pantalla todas las opciones del menú.
+Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão \(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as opções de menu são mostradas na tela.
 
-Algo así:
+Algo assim:
 
-![Hamburger Menu](http://i.imgur.com/JKJ8V9v.gif)
+[![Hamburger Menu](https://camo.githubusercontent.com/4f6d283e1db6472dc0f476c9c37f13bb58438b45/687474703a2f2f692e696d6775722e636f6d2f4a4b4a385639762e676966)](https://camo.githubusercontent.com/4f6d283e1db6472dc0f476c9c37f13bb58438b45/687474703a2f2f692e696d6775722e636f6d2f4a4b4a385639762e676966)
 
-Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
-únicamente enfocarse en funcionalidad)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
 
-#### 4. Crear tabs
+#### **4. Crie abas**
 
-Las tabs nos sirven para agrupar contenido similar usando solo un espacio.
+As abas são usadas para agrupar conteúdo semelhante usando apenas um espaço.
 
-Algo así:
+Algo assim:
 
-![Tabs Menu](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
+![](https://camo.githubusercontent.com/6a1475c138f5ad393f430dad446c6e13bd63472d/68747470733a2f2f646979706d38666b37646c7a302e636c6f756466726f6e742e6e65742f737570706f72742f77702d636f6e74656e742f75706c6f6164732f323031342f30362f73696d756c6174652d746162732e676966)
 
-Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
-únicamente enfocarse en funcionalidad)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
 
-#### 5. Crear un menú drop down
+#### **5. Crie um menu suspenso**
 
-El menú drop down nos ayuda a ahorrar espacio en un menú, ya que agrupa
-elementos similares.
+O menu suspenso nos ajuda a economizar espaço em um menu, pois agrupa elementos semelhantes.
 
-Algo así:
+Algo assim:
 
-![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
+[![Drop Down Menu](https://camo.githubusercontent.com/7212832c03be61e65849c555cf695ed1d64134d4/68747470733a2f2f63646e2e636f64656d7975692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30362f6a51756572792d44726f70646f776e2d4e617669676174696f6e2d4d656e752e676966)](https://camo.githubusercontent.com/7212832c03be61e65849c555cf695ed1d64134d4/68747470733a2f2f63646e2e636f64656d7975692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30362f6a51756572792d44726f70646f776e2d4e617669676174696f6e2d4d656e752e676966)
 
-#### 6. Mini Zoo
+#### **6. Mini zoológico**
 
-Esta página permite elegir efectos como **sepia**, **blanco y negro** e
-**invertir colores** que deseamos que obtengan nuestras imágenes.
-Deberás replicarla usando DOM y CSS.
+Esta página permite escolher efeitos como **sépia** , **preto e branco** e **inverter as cores** que queremos que as nossas imagens apresentem. Você terá que replicá-lo usando DOM e CSS.
 
-Veamos como debe quedar la página...
-![Mini Zoo](https://fotos.subefotos.com/33a270779462a9ffe98ae8c2b528087co.gif)
+Vamos ver como a página deve ficar ... 
 
-## Solucionarios
+![](https://camo.githubusercontent.com/1c25cb914fc89ea091d2c49a4e9f6de5505e8631/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f33336132373037373934363261396666653938616538633262353238303837636f2e676966)
 
-A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron
-cada uno de los ejercicios anteriores.
 
-### 1. Aerolínea
 
-[![Solución aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
+### Soluções
 
-#### 2. Buscaminas
+A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um dos exercícios anteriores.
 
-[![Solución Buscaminas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
+#### 1. Companhia Aérea
 
-#### 3. Menú de Hamburguesa
+[![Solu&#xE7;&#xE3;o da companhia a&#xE9;rea](https://camo.githubusercontent.com/cd50da968272c6ceda15ed5a0157430384ea2ead/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6f7632705958756c4e76632f302e6a7067)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
-[![Solución Menu Hamburguesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+**2. Campo Minado**
 
-#### 4. Tabs
+[![Solu&#xE7;&#xE3;o de ca&#xE7;a-minas](https://camo.githubusercontent.com/ebab1040898492915230f8aff1bbf33caabe2ced/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f5a746e59336f6a7a39316b2f302e6a7067)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
 
-[![Solución Menu Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+**3. Menu Hamburger**
 
-#### 5. Menú dropdown
+[![Menu de Solu&#xE7;&#xE3;o Hamburger](https://camo.githubusercontent.com/322fb03eab6338c6725e976e1b57d10e5969317a/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f656a324d565a7050616f4d2f302e6a7067)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
 
-[![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
+**4. Abas**
 
-#### 6. Mini Zoo
+[![Guias do menu de solu&#xE7;&#xE3;o](https://camo.githubusercontent.com/a8627d69a25d1f1b255db4c1f6616951a9fb32a9/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e454b62614b49617431672f302e6a7067)](https://www.youtube.com/watch?v=nEKbaKIat1g)
 
-<https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>
+**5. Menu suspenso**
+
+[![Menu suspenso da solu&#xE7;&#xE3;o](https://camo.githubusercontent.com/27ccb03e4ffd8048e711e562a2d27137474b50f4/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f7956374c367236443436342f302e6a7067)](https://www.youtube.com/watch?v=yV7L6r6D464)
+
+**6. Mini zoológico**
+
+[https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ\_dMG\_VN\_FFw/edit\#slide=id.g1554294399\_1\_0](https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0)
+
