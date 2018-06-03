@@ -40,6 +40,25 @@
     * [13 - Soft Skills 7](03-interactive-site/01-making-your-site-interactive/13-soft-skills-7.md)
     * [14 - Requiz](03-interactive-site/01-making-your-site-interactive/14-requiz.md)
     * [15 - Closing](03-interactive-site/01-making-your-site-interactive/15-closing.md)
+  * 02-ux-design
+    * 00-opening
+    * 01-a-equipe-de-desenvolvimento
+    * 02-ux-design
+    * 03-ux-design-vs-ui-design
+    * 04-navegacion
+    * 05-sketching
+    * 06-quiz
+    * 07-seminar
+    * 08-exercícios-guiados
+    * 09-ux-challenges
+    * 10-solutions-challenge
+    * 11-requiz
+    * 12-closing
+  * 03-data-dashboard
+    * 01-final-product
+    * 02-code-review
+    * 03-solution-final-product
+    * 04-retrospective
 * [02 - Basic Programming](02-basic-programming/README.md)
   * [01 - Shell+Git](02-basic-programming/01-shell+git/README.md)
     * [00 - Opening](02-basic-programming/01-shell+git/00-opening.md)
