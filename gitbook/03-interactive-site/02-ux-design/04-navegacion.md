@@ -1,174 +1,138 @@
-# Navegación
+# 04-navegacion
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
 
-## Objetivos de Aprendizaje
 
-- Reconocer cómo es que las personas buscan / encuentran cosas en la web y cómo los elementos de Navegación colarboran en esta tarea.
+## Navegação
 
-***
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-## Intro
+### Objetivos de Aprendizagem
 
-Imagina que vas al supermercado todas las semanas/meses y tienes que
-comprar algún producto de esta lista:
+* Reconhecer como as pessoas pesquisam / encontram coisas na web e como os elementos de Navegação colaboram nessa tarefa.
 
-- Arroz
-- Cerveza
-- Pañales para adultos
-- Un endulzante natural
+### Introdução
 
-***¿Qué tan fácil o complicado te sería conseguir todos los elementos de la lista?***
+Imagine que você vá ao supermercado toda semana/mês e tenha que comprar um produto dessa lista:
 
-Es probable que algunos de los elementos ya los hayas comprado antes o los
-compres regularmente, entonces te será fácil encontrarlos ahora.
+* Arroz
+* Cerveja
+* Fraldas para adultos
+* Um adoçante natural
 
-Para encontrar los elementos que no has comprado nunca vas a tardar un poco.
-Pero es probable que finalmente los encuentres. *¿Cómo crees que los encontrarás?*
+_**Quão fácil ou complicado seria obter todos os itens da lista?**_
 
-Ahora, *imagina que en lugar de ir al supermercado que vas regularmente, tienes*
-*que comprar los elementos de la lista en un supermercado de otra cadena y en*
-*otra ciudad (digamos Trujillo - Concepción - Monterrey).*
+É provável que alguns dos itens que você já comprou ou compre regularmente, então será fácil encontrá-los agora.
 
-Si vamos a un lugar distinto quizás tardemos un poco más en encontrar toda la
-lista, pero es probable que al final lo logremos.
+Para encontrar os itens que você não comprou, você vai demorar um pouco. Mas é provável que você finalmente os encontre. _Como você acha que vai encontrá-los?_
 
-Basados en nuestra experiencia buscaremos las cosas directamente, por ejemplo el
-pasillo de bebidas.
+Agora, _imagine que em vez de ir ao supermercado que você vai regularmente, você tem que comprar os itens da lista em um supermercado de outra rede e em outra cidade \(digamos Trujillo - Concepción - Monterrey\)._
 
-O buscaremos la señalética de los pasillos para ayudarnos a encontrar lo que
-queremos.
+Se formos a um lugar diferente, podemos demorar um pouco mais para encontrar a lista completa, mas é provável que consigamos achá-la.
 
-![](https://cex-thechristianpost.netdna-ssl.com/full/5105/target-under-fire-for-gender-neutral-signage.png)
+Com base na nossa experiência, vamos procurar as coisas diretamente, por exemplo, no salão de bebidas.
 
-En algunos casos será más complicado, las cervezas pueden estar junto a las
-gaseosas y otras bebidas o pueden estar en un pasillo especial de bebidas
-alcohólicas. O, en el caso de los *endulzantes*, ni siquiera sabemos qué
-endulzantes existen y cuál marca o presentación es la que queremos. En este caso,
-quizás la señalética del supermercado no nos ayude mucho y tengamos que recurrir
-a preguntarle a algún empleado.
+Ou procuramos a sinalização dos corredores para nos ajudar a encontrar o que queremos.
 
-Si las señales ni los empleados del supermercado no nos ayudan lo suficiente,
-quizás terminemos así:
+![](https://camo.githubusercontent.com/40193a0d92b774b0a3bb4fce3cd79a1e66729195/68747470733a2f2f6365782d74686563687269737469616e706f73742e6e6574646e612d73736c2e636f6d2f66756c6c2f353130352f7461726765742d756e6465722d666972652d666f722d67656e6465722d6e65757472616c2d7369676e6167652e706e67)
 
-![](http://upload.wikimedia.org/wikipedia/commons/7/74/Planking_in_supermarket.jpg)
+Em alguns casos, será mais complicado. Cervejas podem estar ao lado de refrigerantes e outras bebidas ou podem estar em um salão especial de bebidas alcoólicas. Ou, no caso dos _adoçantes_ , nem sequer sabemos quais adoçantes existem e que marca ou apresentação é a que queremos. Nesse caso, talvez a sinalização do supermercado não nos ajude muito e tenhamos que recorrer a um funcionário.
 
-Si relacionamos esta experiencia en el supermercado con la experiencia de buscar
-productos/servicios/información/fotos/etc en plataformas digitales (webs y apps
-principalmente), nuestro comportamiento es parecido. Normalmente hacemos lo
-siguiente:
+Se os sinais ou os funcionários do supermercado não nos ajudarem o suficiente, podemos acabar assim:
 
-- **Buscamos elementos conocidos:** sabemos qué elemento queremos y sabemos
-  dónde encontrarlo. Por ejemplo:
-  * El botón de acceso a la banca por internet/móvil de tu banco
-  * El botón de Like en facebook
-  * El botón para añadir un filtro en una foto en instagram
+[![](https://camo.githubusercontent.com/ac2d048811d1e37b1ac18cbf178485fc90d66fa4/687474703a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37342f506c616e6b696e675f696e5f73757065726d61726b65742e6a7067)](https://camo.githubusercontent.com/ac2d048811d1e37b1ac18cbf178485fc90d66fa4/687474703a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37342f506c616e6b696e675f696e5f73757065726d61726b65742e6a7067)Se relacionarmos essa experiência no supermercado com a experiência de procurar produtos / serviços / informações / fotos / etc em plataformas digitais \(principalmente websites e aplicativos\), nosso comportamento é semelhante. Normalmente fazemos o seguinte:
 
-  ![](https://lh4.googleusercontent.com/Y4yNV-FOW8K2MFwCZ9dHLE2ECW_i3bJ8tz7-6QDmuE6mZmR4tmDSBExTpCAVswB9hLrCaQge-Pm8ZMo0NTpEUw6fqdMdYt5rQq0VLd3m3LvQxbhV3yLqaFgsSEMUxzpeMULndwzUTQA)
+* **Procuramos elementos conhecidos:** sabemos qual elemento queremos e sabemos onde encontrá-lo. Por exemplo:
 
-- **Exploramos:** sabemos lo que queremos pero no sabemos o no estamos seguros
-  donde encontrar lo que buscamos. Ejemplo:
+  * O botão de acesso à Internet / mobile banking do seu banco
+  * O botão Curtir no Facebook
+  * O botão para adicionar um filtro em uma foto no Instagram
 
-  * Si buscamos una cuenta de ahorros de un banco
-  * Si buscamos por una película en Netflix
+  ![](https://camo.githubusercontent.com/31daf4892aa361f4fc9874fdcf1f2d8773fc6695/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f5934794e562d464f57384b324d4677435a3964484c45324543575f6933624a38747a372d3651446d7545366d5a6d5234746d4453424578547043415673774239684c7243615167652d506d385a4d6f304e5470455577366671644d6459743572517130564c64336d334c76517862685633794c716146677353454d55787a70654d554c6e64777a55545141)
 
-  ![](https://lh6.googleusercontent.com/rGIccV19X6k6QicicJCyquZpOn6SbD6CqZZaU9oSLzrEcAM5DzlRk1f8zS2XHli51a__zBd8c4ZxNsSfieh5n7vf59Fx4iS5thK2T5mHltMkb86d44U6Y35qfM_SDDvmkHN6rccUcr8)
+* **Nós exploramos:** sabemos o que queremos, mas não sabemos ou não temos certeza de onde encontrar o que procuramos. Exemplo:
 
-- **Buscamos elementos desconocidos:** este caso puede ser parecido al de los
-  endulzantes, no estamos seguros de lo que queremos como para saber dónde
-  buscarlo. En ese caso es mejor preguntarle a alguien.
+  * Se procurarmos uma conta poupança de um banco
+  * Se procurarmos por um filme no Netflix
 
-  ![](https://lh3.googleusercontent.com/lryDFVjO96TzF9ifO1mlKQEZzcV6oWq6sTEUWDVEkpO7cmhZ9f_W_eEoTU8HzZfb8rYuF-IWejT0jVygNkskbYtTUoPO4oRvHYR4ewN7lyIQn-L8FbH4prdUSiiCq5F75MYFOa_D84M)
+  ![](https://camo.githubusercontent.com/d5f574a8ca5f6293409007b967551826a230176d/68747470733a2f2f6c68362e676f6f676c6575736572636f6e74656e742e636f6d2f724749636356313958366b3651696369634a437971755a704f6e365362443643715a5a6155396f534c7a724563414d35447a6c526b3166387a533258486c693531615f5f7a42643863345a784e735366696568356e377666353946783469533574684b3254356d486c744d6b623836643434553659333571664d5f534444766d6b484e3672636355637238)
 
-- **Nos reencontramos con elementos:**  en este caso, buscamos algo que vimos en
-  el pasado.
+* **Procuramos elementos desconhecidos:** este caso pode ser semelhante ao dos adoçantes, não temos certeza do que queremos saber onde procurá-lo. Nesse caso, é melhor perguntar a alguém.
 
-  * Una web que marcamos como favorita
-  * Una foto que pusimos en un board de Pinterest
-  * Un producto que compramos hace unos meses
+  ![](https://camo.githubusercontent.com/2d458ed9229cf60680f6bb98fa8a47dc3b085d19/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f6c72794446566a4f3936547a463969664f316d6c4b51455a7a6356366f57713673544555574456456b704f37636d685a39665f575f65456f545538487a5a666238725975462d4957656a54306a5679674e6b736b62597454556f504f346f52764859523465774e376c7949516e2d4c3846624834707264555369694371354637354d59464f615f4438344d)
 
-  ![](https://lh3.googleusercontent.com/RMvQQPAKpQJ2-Zmvg5BbKogAgZC8PMQiWVYrKsIukxuMqlFGSZJYtOgyPmRV3hpK9jymUpA8tmYVDEPZkx3zFrO2pUSwBkhb-c7VUh0Ane2k7fbSpgYPaEEroL9OyGw2NHfF976f_qI)
+* **Encontramos novamente com elementos:** neste caso, procuramos algo que vimos no passado.
 
-## Navegación
+  * Um site que marcamos como favorito
+  * Uma foto que colocamos no quadro do Pinterest
+  * Um produto que compramos há alguns meses
+
+  ![](https://camo.githubusercontent.com/9e6298a52214174eb6a8a763b86e320297bae4b3/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f524d76515150414b70514a322d5a6d76673542624b6f6741675a4338504d5169575659724b7349756b78754d716c4647535a4a59744f6779506d52563368704b396a796d55704138746d59564445505a6b78337a46724f3270555377426b68622d633756556830416e65326b3766625370675950614545726f4c394f794777324e486646393736665f7149)
+
+## Navegação
 
 ### Global
 
-Es la navegación principal del site. Normalmente es persistente y nos ayuda a
-explorar todas las opciones del site.
+É a navegação principal do site. Geralmente é persistente e nos ajuda a explorar todas as opções do site.
 
-En este ejemplo de la web de Apple vemos sus opciones de navegación global.
+Neste exemplo do site da Apple, vemos suas opções de navegação global.
 
-![Navegación global](https://lh3.googleusercontent.com/PEtCNfg03TcN68uFgfKZbei0Kx95IsNnNl-JwjC9HYboD6yI5jI0vXnC0a_zscmUGFNLltjGDDsON-FKHBBCIyHbCOdEl0hxZP-8qBEnohaHuWwa-SMPtzrTZ5uiZzefh69e1dEg73U)
+![Navega&#xE7;&#xE3;o global](https://camo.githubusercontent.com/28c6a214587407106989f87a06cfb0f667550f61/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f504574434e6667303354634e3638754667664b5a626569304b78393549734e6e4e6c2d4a776a43394859626f44367949356a493076586e4330615f7a73636d5547464e4c6c746a474444734f4e2d464b4842424349794862434f64456c3068785a502d387142456e6f686148755777612d534d50747a72545a3575695a7a65666836396531644567373355)
 
 ### Local
 
-Es la navegación “localizada” a una página o vista. En algunos casos, algunas
-páginas internas tienen su propia navegación que ayuda al usuario a explorar esa
-vista en particular.
+É a navegação "localizada" para uma página ou exibição. Em alguns casos, algumas páginas internas têm sua própria navegação que ajuda o usuário a explorar essa visão específica.
 
-En este ejemplo de Apple, vemos cómo al entrar a la vista/página del `iPhone 7`
-tenemos otras opciones (Overview, iOS, Tech Specs) que nos ayudan a navegar.
+Neste exemplo da Apple, vemos como entrar na visualização/página do `iPhone 7` e ver outras opções \(visão geral, iOS, especificações técnicas\) que nos ajudam a navegar.
 
-![](https://lh3.googleusercontent.com/SoV8klhQkKgT6AD1P_RFom9RLnImFceoPGcLFuLV9QCS0K6fEHcWbkawIQCj3bDyGe1BHQug9WbH9zAskgpXYhLNOJhJPr1-53utHYddAKTSxkYHUYfV9tLGU_al_bT1ye5cyAW6W8Y)
+![](https://camo.githubusercontent.com/a8a411706f3018e94bcfa14fbad60803e97b9564/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f536f56386b6c68516b4b675436414431505f52466f6d39524c6e496d4663656f5047634c46754c5639514353304b366645486357626b61774951436a33624479476531424851756739576248397a41736b67705859684c4e4f4a684a5072312d3533757448596464414b5453786b59485559665639744c47555f616c5f6254317965356379415736573859)
 
-### Facetada
+### Classificação
 
-Es la navegación a través de filtros no editables, definidos previamente por el
-sistema.
+É a navegação através de filtros não editáveis, previamente definidos pelo sistema.
 
-Por ejemplo, cuando buscamos algo en Google, los resultados vienen ya
-previamente filtrados (facetados) por Google en distintas categorías como
-Imágenes, Noticias, Videos, etc.
+Por exemplo, quando pesquisamos algo no Google, os resultados são previamente filtrados \(classificados\) pelo Google em diferentes categorias, como Imagens, Notícias, Vídeos etc.
 
-![](https://lh5.googleusercontent.com/L8MQaRXYtqaIToqN0gO5Qnht7iJxpkgd7IT9E0btZ4uznKgEuxFhql8iub7npge7lHIqyJdw065tEhL3f5MLZ_ex74ZhiucA8WWUijTW87n_lZlPXNbvdnjGUjm7SjojdBKH5vI6_to)
+![](https://camo.githubusercontent.com/d5bd5fc1865913bec125c431117938ab0caf4c8b/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f4c384d516152585974716149546f714e30674f35516e687437694a78706b676437495439453062745a34757a6e4b674575784668716c38697562376e706765376c484971794a64773036357445684c3366354d4c5a5f657837345a686975634138575755696a545738376e5f6c5a6c50584e6276646e6a47556a6d37536a6f6a64424b48357649365f746f)
 
-### Filtrada
+### Filtro
 
-En este tipo de navegación le damos al usuario todos los resultados de la
-búsqueda y le damos una serie de opciones de filtros para que él mismo pueda
-filtrar.
+Neste tipo de navegação damos ao usuário todos os resultados da pesquisa e damos uma série de opções de filtro para que ele possa refinar a busca.
 
-Los resultados de búsqueda en Amazon y Airbnb son buenos ejemplos de navegación
-con filtros.
+Os resultados da pesquisa na Amazon e na Airbnb são bons exemplos de navegação com filtros.
 
-![](https://lh6.googleusercontent.com/A9FHgFsnM2E5LTTbi4urX1Gl-VvnI3Q6OBNCwhk4AUzU2QyzmYcpLLy0rw-93OXQL4xU4zzhEusQDHKPGDcwbKb1f3PZVpd4F6EGrKzCt6wOpZOwvMVhBAa40xaNbF1ZTdvGj_rZ3z8)
+![](https://camo.githubusercontent.com/de2ba526fa20b7a39116ead8bf6c52e3a73223fc/68747470733a2f2f6c68362e676f6f676c6575736572636f6e74656e742e636f6d2f413946486746736e4d3245354c545462693475725831476c2d56766e493351364f424e4377686b3441557a553251797a6d5963704c4c793072772d39334f58514c347855347a7a684575735144484b5047446377624b62316633505a5670643446364547724b7a437436774f705a4f77764d5668424161343078614e6246315a546476476a5f725a337a38)
 
-![](https://lh4.googleusercontent.com/MCGLpgiwxa1r3gDYniOWzzK5icKI-3zL51ZQ4O7D-S1DsRpfMmEA-dDnmTsuqKVtZ3yaC67kJflHkIw3uz1wVIIawYNiCSuntS2dXVQfFKBNkvnuD20AriNi0bTM7rzSFc9UyXzzH98)
+![](https://camo.githubusercontent.com/8e968ce362a28750695ab998571d97716ff7338c/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f4d43474c7067697778613172336744596e694f577a7a4b3569634b492d337a4c35315a51344f37442d533144735270664d6d45412d64446e6d547375714b56745a3379614336376b4a666c486b497733757a31775649496177594e694353756e7453326458565166464b424e6b766e754432304172694e693062544d37727a534663395579587a7a483938)
 
 ### Contextual
 
-Es la navegación acorde al contexto en el que está navegando el usuario. Se usa
-principalmente para recomendaciones.
+É a navegação de acordo com o contexto em que o usuário está navegando. É usado principalmente para recomendações.
 
-En este ejemplo, Amazon sugiere algunos productos adicionales, basados en el
-producto que el usuario está mirando en el momento.
+Neste exemplo, a Amazon sugere alguns produtos adicionais, com base no produto que o usuário está visualizando no momento.
 
-![](https://lh5.googleusercontent.com/i8LM6UR77C5HFRUbE_d2JVulbq90Lse_OtBSmzSG-Tz7qieY5VzgBqIgYUWIM-Qaa-EDwn4jKWUbDvLrEREk96e7uUkO1EfYYKvEe4k1CB7hE9T4SY_Mf3de5T_mn_sJYXV_cAwfnac)
+![](https://camo.githubusercontent.com/bdd7e55a3437195e8a4c1e03db0b202c8a47c11d/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f69384c4d365552373743354846525562455f64324a56756c627139304c73655f4f7442536d7a53472d547a377169655935567a6742714967595557494d2d5161612d4544776e346a4b57556244764c724552456b3936653775556b4f31456659594b764565346b31434237684539543453595f4d6633646535545f6d6e5f734a5958565f634177666e6163)
 
-### En línea (inline)
+### Em Linha \(inline\)
 
-Son links de referencia utilizados principalmente en artículos.
+São links de referência usados ​​principalmente em artigos.
 
-En este ejemplo, el blog de Hiperderecho soporta su artículo con algunos links
-adicionales.
+Neste exemplo, o blog do Hiperderecho suporta seu artigo com alguns links adicionais.
 
-![](https://lh5.googleusercontent.com/Xs2IiBtK0B7BDn-fT32CcO8prnPlgRzk2oE4Ag4UIHrdNDjhmgfaYdqo8gY9yHOe4rYnbkBBHgvw5_S6jK8PzqzzznvrG68FG7FLuSFB6b8fF5oUQG5XIUaFI5UPACi_ilRFBoz6zQI)
+![](https://camo.githubusercontent.com/5e798dafb9cc6a8746747525702cc9ec5d1dbc7e/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f587332496942744b30423742446e2d6654333243634f3870726e506c67527a6b326f453441673455494872644e446a686d6766615964716f3867593979484f653472596e626b424248677677355f53366a4b38507a717a7a7a6e7672473638464737464c755346423662386646356f555147355849556146493555504143695f696c5246426f7a367a5149)
 
-### Suplementaria
+### Complementar
 
-Es la navegación adicional, a veces temporal, utilizada para señalar algunas
-funciones a nuevos usuarios.
+É a navegação adicional, às vezes temporária, usada para sinalizar algumas funções para novos usuários.
 
-![](https://lh5.googleusercontent.com/c43VKCJNJB4NnRkuSTEb9ecx33o9IjXq5DxRUgXr3BlLiahCp7LRRjI9xnZBA1E7IlgKWe_8oR_7_hXjR5m73YRiyCh3UaevKJIfozPwyY6ql9GnnlF8GHO0tIMUJGBkCvIDxI2NaWY)
+![](https://camo.githubusercontent.com/8629a569b6f535414eff84e30a15432fdf927cbd/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f633433564b434a4e4a42344e6e526b75535445623965637833336f39496a5871354478525567587233426c4c6961684370374c52526a4939786e5a4241314537496c674b57655f386f525f375f68586a52356d373359526979436833556165764b4a49666f7a5077795936716c39476e6e6c463847484f3074494d554a47426b437649447849324e615759)
 
-## Diseño de la navegación
+## Design de navegação
 
-Ahora, lee el [capítulo 6 - Señales en la calle y migas de pan](https://drive.google.com/open?id=0B0NdG2VNCDPzcU5qMG5SWnBpeEE)
-del libro *"No me hagas pensar"* de Steve Krug.
+Agora, leia [o Capítulo 6 - Sinais na rua e migalhas de pão](https://drive.google.com/open?id=0B0NdG2VNCDPzcU5qMG5SWnBpeEE) livro _"Não me faça pensar"_ por Steve Krug.
 
-## Referencias
+## Referências
 
-- [No me hagas pensar](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515),
-  Steve Krug, 2011.
+* [Não me faça pensar](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515) , Steve Krug, 2011.
+

@@ -41,19 +41,19 @@
     * [14 - Requiz](03-interactive-site/01-making-your-site-interactive/14-requiz.md)
     * [15 - Closing](03-interactive-site/01-making-your-site-interactive/15-closing.md)
   * 02-ux-design
-    * 00-opening
-    * 01-a-equipe-de-desenvolvimento
-    * 02-ux-design
-    * 03-ux-design-vs-ui-design
-    * 04-navegacion
-    * 05-sketching
-    * 06-quiz
-    * 07-seminar
-    * 08-exercícios-guiados
-    * 09-ux-challenges
-    * 10-solutions-challenge
-    * 11-requiz
-    * 12-closing
+    * [00-opening](03-interactive-site/02-ux-design/00-opening.md)
+    * [01-a-equipe-de-desenvolvimento](03-interactive-site/02-ux-design/untitled.md)
+    * [02-ux-design](03-interactive-site/02-ux-design/02-ux-design.md)
+    * [03-ux-design-vs-ui-design](03-interactive-site/02-ux-design/untitled-1.md)
+    * [04-navegacion](03-interactive-site/02-ux-design/04-navegacion.md)
+    * [05-sketching](03-interactive-site/02-ux-design/untitled-2.md)
+    * [06-quiz](03-interactive-site/02-ux-design/06-quiz.md)
+    * [07-seminar](03-interactive-site/02-ux-design/untitled-3.md)
+    * [08-exercícios-guiados](03-interactive-site/02-ux-design/08-exercicios-guiados.md)
+    * [09-ux-challenges](03-interactive-site/02-ux-design/untitled-4.md)
+    * [10-solutions-challenge](03-interactive-site/02-ux-design/10-solutions-challenge.md)
+    * [11-requiz](03-interactive-site/02-ux-design/untitled-5.md)
+    * [12-closing](03-interactive-site/02-ux-design/12-closing.md)
   * 03-data-dashboard
     * 01-final-product
     * 02-code-review
