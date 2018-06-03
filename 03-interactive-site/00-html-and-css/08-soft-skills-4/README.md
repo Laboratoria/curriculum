@@ -1,12 +1,12 @@
-# 08 - Soft Skills
+# Oficina HSE - Gerenciamento de estresse: organização, planejamento e mindfullness
 
-## 08 - Soft Skills 4
+- Tipo: `oficina`
+- Formato: `guiado`
+- Duração: `180min`
 
-* Tipo: `oficina`
-* Formato: `guiado`
-* Duração: `180min`
+***
 
-### Objetivos
+## Objetivos
 
 * Entender que podemos lidar com o estresse usando ferramentas de organização, planejamento e _mindfulness_
 * Entender que podemos resolver concretamente as dificuldades que temos em um nível pessoal para organizar o tempo e, assim, trazer à consciência quais são os pontos que devo trabalhar para melhorar seu nível de eficiência.
@@ -15,7 +15,7 @@
 * Entender o que é _mindfulness_ e entender sua utilidade
 * Familiarizar-se com diferentes técnicas de _mindfullness_
 
-### Agenda
+## Agenda
 
 * Dinâmica de "emoções compartilhadas"
 * Atividade de autorrelato de organização e planejamento
@@ -25,8 +25,8 @@
 * Abordagem para diferentes técnicas de meditação
 * Encerramento e reflexão final
 
-### Material
+## Material
 
 * [Workshop IV. Organização, planejamento e mindfullness](https://docs.google.com/presentation/d/1M8hXnxLlzBwenINyqKZUqUDBqQ3x42bzh_gZAuT7aa8/edit?usp=sharing)
-* [Vídeo Mindfulness](https://www.youtube.com/watch?v=w6T02g5hnT4&feature=youtu.be)
+* [Vídeo sobre Mindfulness](https://www.youtube.com/watch?v=w6T02g5hnT4&feature=youtu.be)
 

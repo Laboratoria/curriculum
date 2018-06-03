@@ -1,34 +1,37 @@
-# 06 - Positioning and Floats
+# Positioning e Floats
 
-## 06 - Positioning and Floats
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `2h`
 
-* Tipo: `leitura`
-* Formato: `ritmo próprio`
-* Duração: `2h`
-
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 * Aprender como fazer layout em html/css usando _positioning_
 * Aprender como fazer layout em html/css usando _floats_
 * Reconhecer quando é melhor usar cada um
 
-### 1. Fluxo do Documento
+***
 
-> Em seguida, a tradução para o português do artigo [MDN - Posicionamento](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning) :
+## 1. Fluxo do Documento
 
- _**Positioning**_ é uma questão muito complexa, portanto, antes de mergulhar no código, analisaremos algumas coisas sobre o fluxo do documento que vimos até agora.
+> Em seguida, a tradução para o português do artigo [MDN - Posicionamento](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning):
+
+_**Positioning**_ é um tema muito complexo, portanto, antes de mergulhar no código, analisaremos algumas coisas sobre o fluxo do documento que vimos até agora.
 
 Em primeiro lugar, vimos que os elementos individuais são como "caixas" que são apresentadas tomando seu conteúdo e adicionando preenchimento, borda e margem em torno deles - o modelo da caixa que vimos na lição anterior.
 
 Também vimos que, por padrão, o conteúdo de um elemento de tipo de **bloco** é 100% da largura do elemento pai e tão alto quanto seu conteúdo. Pelo contrário, os elementos do tipo **inline** são tão altos e tão amplos quanto seu conteúdo. Não é possível definir a largura ou a altura dos elementos _inline_
 
-* Os elementos _inline_ são simplesmente colocados dentro do conteúdo dos elementos de nível de bloco. Se você quiser controlar o tamanho de um elemento _inline_ você deve configurá-lo para se comportar como um elemento de tipo de bloco com `display: block;`.
+- Os elementos _inline_ são simplesmente colocados dentro do conteúdo dos
+  elementos de nível de bloco. Se você quiser controlar o tamanho de um elemento
+  _inline_ você deve configurá-lo para se comportar como um elemento de tipo de
+  bloco com `display: block;`.
 
-Isso explica os elementos individuais, mas como os elementos interagem **uns** com **os outros** ? Até agora vimos que o fluxo normal \(por padrão ou configurado\) é que o tipo de elementos de bloco são dispostos verticalmente, um abaixo do outro, isto é, cada um aparecerá em uma nova linha abaixo da última e separados por qualquer margem estabelecida neles.
+Isso explica os elementos individuais, mas como os elementos interagem **uns** com **os outros**? Até agora vimos que o fluxo normal \(por padrão ou configurado\) é que o tipo de elementos de bloco são dispostos verticalmente, um abaixo do outro, isto é, cada um aparecerá em uma nova linha abaixo da última e separados por qualquer margem estabelecida neles.
 
 Os elementos em linha se comportam de maneira diferente: eles não aparecem em novas linhas; em vez disso, eles ficam na mesma linha que o outro e qualquer conteúdo de texto adjacente \(ou encapsulado\), desde que haja espaço para eles fazerem isso na largura do elemento de nível de bloco pai. Se não houver espaço, o texto ou os elementos que transbordarão serão movidos para uma nova linha.
 
-Se dois elementos adjacentes tiverem margem aplicada e as duas margens estiverem em contato, o maior dos dois permanecerá e o menor desaparecerá - isso é chamado de _colapso da margem_ .
+Se dois elementos adjacentes tiverem margem aplicada e as duas margens estiverem em contato, o maior dos dois permanecerá e o menor desaparecerá - isso é chamado de _colapso da margem_.
 
 Vejamos um exemplo:
 
@@ -59,19 +62,19 @@ body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid
 
 ![Fluxo B&#xE1;sico de Documentos](https://github.com/Laboratoria/curricula-js/raw/441a522e53ff2f34843e1ca740c01ea526fe8c19/03-interactive-site/00-html-and-css/04-positioning-and-floats/img-normal-flow.png?raw=true)
 
-### 2. Positioning
+## 2. Positioning
 
-O propósito do  _positioning_ é nos permitir sobrescrever o comportamento normal do fluxo do documento descrito acima, para produzir efeitos interessantes. E se você quiser alterar ligeiramente a posição de algumas caixas dentro de um desenho para dar uma sensação um pouco peculiar e angustiada?  _Positioning_ é sua ferramenta. Ou se você quiser criar uma interface de usuário, na qual um elemento flutua em cima de outras partes da página e/ou sempre fica no mesmo lugar dentro da janela do navegador, não importa como a página é exibida? O  _positioning_  faz com que essa estrutura funcione \(layout\).
+O propósito do  _positioning_ é nos permitir sobrescrever o comportamento normal do fluxo do documento descrito acima, para produzir efeitos interessantes. E se você quiser alterar ligeiramente a posição de algumas caixas dentro de um desenho para dar uma sensação um pouco peculiar e angustiada? _Positioning_ é sua ferramenta. Ou se você quiser criar uma interface de usuário, na qual um elemento flutua em cima de outras partes da página e/ou sempre fica no mesmo lugar dentro da janela do navegador, não importa como a página é exibida? O  _positioning_  faz com que essa estrutura funcione \(layout\).
 
 A propriedade `position` do CSS é a mais usada quando queremos definir a localização de um elemento em nosso documento. Ela especifica o _tipo de posicionamento_ que o elemento terá. Deve-se notar que tudo isso varia dependendo das características que têm o valor `position` que colocamos. Ou seja, usaremos um valor diferente dependendo de como queremos posicionar esse elemento.
 
 O significado de cada um dos valores possíveis da propriedade `position` é o seguinte:
 
-#### Static
+### Static
 
-É o posicionamento normal ou estático, que é aplicado pelo navegador de uma maneira predefinida a todos os elementos de uma página. Isto significa que eles aparecem de acordo com a sua ordem em _HTML_ , e para mostrar cada elemento considera apenas o seu `display` \(ou seja, em linha, bloco, etc.\). Nada novo :\)
+É o posicionamento normal ou estático, que é aplicado pelo navegador de uma maneira predefinida a todos os elementos de uma página. Isto significa que eles aparecem de acordo com a sua ordem em _HTML_, e para mostrar cada elemento considera apenas o seu `display` \(ou seja, em linha, bloco, etc.\). Nada novo :\)
 
-#### Relative
+### Relative
 
 É muito semelhante ao posicionamento estático, exceto que uma vez que o elemento posicionado tomou o seu lugar no arranjo de fluxo normal, pode modificar a sua posição final \(inclusive causando sobreposições com outros elementos da página\) por meio das propriedades: `top`, `bottom`, `left` e `right`.
 
@@ -79,7 +82,7 @@ Leia mais sobre a posição relativa aqui:
 
 * [Web Books - Posicionamento Relativo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_relativo.html)
 
-#### Absolute
+### Absolute
 
 Um elemento de posição absoluta não existe mais no fluxo normal do documento. O elemento fica em sua própria camada separada de todo o resto. Sua posição é definida em relação às arestas do primeiro ancestral **no-static** que ele possui. Se você não tiver ancestrais **no-static**, sua posição será definida em relação às arestas do `body`. Como posição _relative_, podemos modificar a posição final do elemento por meio das propriedades: `top`, `bottom`, `left` e `right`.
 
@@ -87,7 +90,7 @@ Leia mais da posição absoluta aqui:
 
 * [Web Books - Posicionamento absoluto](http://librosweb.es/libro/css/capitulo_5/posicionamiento_absoluto.html)
 
-#### Fixed
+### Fixed
 
 Esse valor deixa o elemento fixo no documento. Seu eixo de coordenadas está relacionado à janela do navegador. Quando você rola, o elemento estará sempre no mesmo lugar.
 
@@ -97,7 +100,7 @@ Leia mais da posição _fixed_ aqui:
 
 * [Livros da Web - Posicionamento Fixo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_fijo.html)
 
-### 3. Floats
+## 3. Floats
 
 Float é uma propriedade de posicionamento em CSS, ou seja, como os elementos estão localizados em um documento HTML. O float faz os elementos se ajustarem à direita ou à esquerda. É inspirado em revistas nas quais os textos se encaixam em torno das imagens.
 
