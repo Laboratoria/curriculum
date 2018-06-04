@@ -3,7 +3,7 @@
 * [Introduction](02-basic-programming/README.md)
 * [03 - interactive-site](03-interactive-site/README.md)
   * 00 - HTML and CSS
-    * [00 - Introduction](03-interactive-site/00-html-and-css/00-introduction.md)
+    * [00 - Opening](03-interactive-site/00-html-and-css/00-opening.md)
     * [01 - HTML](03-interactive-site/00-html-and-css/01-html.md)
     * [02 - CSS](03-interactive-site/00-html-and-css/02-css.md)
     * [03 - Box model and Display](03-interactive-site/00-html-and-css/03-box-model-and-display.md)
@@ -11,7 +11,7 @@
     * [05 - Guided Exercises](03-interactive-site/00-html-and-css/05-guided-exercises.md)
     * [06 - Positioning and Floats](03-interactive-site/00-html-and-css/06-positioning-and-floats.md)
     * [07 - Tipography and Icons](03-interactive-site/00-html-and-css/07-tipography-and-icons.md)
-    * [08 - Soft Skills](03-interactive-site/00-html-and-css/08-soft-skills.md)
+    * [08 - Soft Skills 4](03-interactive-site/00-html-and-css/08-soft-skills-4.md)
     * [09 - Seminar](03-interactive-site/00-html-and-css/09-seminar.md)
     * [10 - Guided Exercises](03-interactive-site/00-html-and-css/10-guided-exercises.md)
     * [11 - Practical Cases](03-interactive-site/00-html-and-css/11-practical-cases.md)

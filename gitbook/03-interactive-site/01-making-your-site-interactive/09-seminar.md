@@ -1,17 +1,17 @@
-# 09 - Seminar
-
-## Aula de Conceitos
+# Aula de Conceitos
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `120min`
 
-### Objetivos
+***
+
+## Objetivos
 
 * Revisar e consolidar os conceitos aprendidos em uma aula com sua equipe de professores
 * Esclarecer todas as dúvidas que você tem!
 
-### Agenda
+## Agenda
 
 * Vamos entender bem o conceito de:
 

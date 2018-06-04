@@ -1,12 +1,10 @@
-# 03 - Box model and Display
+# 03 - Modelo de Caixa e Display
 
-## 03 - Modelo de Caixa e Display
+- Tipo: `leitura`
+- Formato: `ritmo próprio`
+- Duração: `1h`
 
-* Tipo: `leitura`
-* Formato: `ritmo próprio`
-* Duração: `1h`
-
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 * Aprender o `modelo da caixa` e suas propriedades
 * Entender a diferença entre  _padding_, _border_ e  _margin_; e suas propriedades
@@ -14,15 +12,17 @@
 * Aprender os diferentes tipos de `display`
 * Conhecer a diferença entre `display: none` e `visibility: hidden`
 
-### O modelo da caixa
+***
 
-É hora de conhecer um dos fundamentos mais importantes do CSS: `box model` \(modelo da caixa\). É muito fácil, mas entendê-lo bem é vital para poder fazer um bom layout da web.
+## O modelo da caixa
 
-[![modelo de caixa](https://camo.githubusercontent.com/9ea328b7d3e738e996f6a9e0f9482b5a1234c0aa/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f65313030316466376432313861396138613836373064383836323866306363356f2e706e67)](https://camo.githubusercontent.com/9ea328b7d3e738e996f6a9e0f9482b5a1234c0aa/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f65313030316466376432313861396138613836373064383836323866306363356f2e706e67)
+É hora de conhecer um dos fundamentos mais importantes do CSS: `box model` \(modelo da caixa\). É muito fácil, mas entendê-lo bem é vital para poder fazer um bom layout do site.
 
-#### O que é o modelo da caixa?
+![modelo de caixa](https://fotos.subefotos.com/e1001df7d218a9a8a8670d88628f0cc5o.png)
 
-Retornando à nossa fonte MDN, no capítulo tutorial [do modelo da caixa,](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas) ela explica o seguinte:
+### O que é o modelo da caixas?
+
+Retornando à nossa fonte MDN, no capítulo tutorial do [modelo da caixa](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas), ela explica o seguinte:
 
 > O modelo de caixa é a base do design da web - cada elemento é representado como uma caixa retangular, com seu conteúdo, preenchimento \(espaço interno\), borda e margem construídas uma sobre a outra, como as camadas de uma cebola. O navegador, para interpretar o design de uma página, processa os estilos que serão aplicados a cada caixa, o tamanho das camadas da cebola e a localização de algumas caixas em relação a outras. Antes de entender como criar designs CSS, precisamos entender o modelo de caixas - que é o que veremos neste artigo.
 
@@ -30,22 +30,22 @@ Em outras palavras, o modelo de caixa CSS é essencialmente uma caixa retangular
 
 Como um exemplo, temos o seguinte quadro, que mostra três caixas retangulares que são criados pelos três tags HTML usados: `<p>`, `<strong>` e novamente `<p>`.
 
-[![modelo de caixa](https://camo.githubusercontent.com/b6e05c7c4cc7153e417862fff70cdac2e81bd80b/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f62663638336539616137653038646363393531623962396535323961653632376f2e676966)](https://camo.githubusercontent.com/b6e05c7c4cc7153e417862fff70cdac2e81bd80b/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f62663638336539616137653038646363393531623962396535323961653632376f2e676966)
+![modelo de caixa](https://fotos.subefotos.com/bf683e9aa7e08dcc951b9b9e529ae627o.gif)
 
-#### Elementos que compõem o modelo de caixas
+### Elementos que compõem o modelo de caixas
 
-As partes que compõem cada caixa consistem no **conteúdo real** , o **preenchimento** , as **bordas** e as **margens**; podemos ver a imagem abaixo que ilustra o modelo de caixa:
+As partes que compõem cada caixa consistem no **conteúdo real**, o **preenchimento**, as **bordas** e as **margens**; podemos ver a imagem abaixo que ilustra o modelo de caixa:
 
-[![modelo de caixa](https://camo.githubusercontent.com/59ebe79e4a36ae634e28968835b896c40370816b/687474703a2f2f696d6167652e6962622e636f2f63515a7854772f6d6f64656c6f5f44655f43616a612e706e67)](https://camo.githubusercontent.com/59ebe79e4a36ae634e28968835b896c40370816b/687474703a2f2f696d6167652e6962622e636f2f63515a7854772f6d6f64656c6f5f44655f43616a612e706e67)
+![modelo de caixa](http://image.ibb.co/cQZxTw/modelo_De_Caja.png)
 
 Explicação de cada parte que compõe cada caixa:
 
-* **Content \(**_**conteúdo**_**\):** Este é o conteúdo HTML do elemento \(as palavras de um parágrafo, uma imagem, o texto de uma lista de elementos, etc.\)
-* **Padding \(**_**preenchimento**_**\):** espaço livre opcional entre o conteúdo e a borda.
-* **Border \(**_**borda**_**\):** Linha que inclui o conteúdo e o preenchimento.
-* **Margin \(**_**margem**_**\):** separação opcional entre a caixa e o resto das caixas adjacentes.
+* **Content \(_conteúdo_\):** Este é o conteúdo HTML do elemento \(as palavras de um parágrafo, uma imagem, o texto de uma lista de elementos, etc.\)
+* **Padding \(_preenchimento_\):** espaço livre opcional entre o conteúdo e a borda.
+* **Border \(_borda_\):** Linha que inclui o conteúdo e o preenchimento.
+* **Margin \(_margem_\):** separação opcional entre a caixa e o resto das caixas adjacentes.
 
-#### Propriedades dos elementos da caixa
+### Propriedades dos elementos da caixa
 
 CSS define 4 propriedades para controlar os elementos da caixa \(com exceção de  _width_ e  _height_\).
 
@@ -54,17 +54,17 @@ CSS define 4 propriedades para controlar os elementos da caixa \(com exceção d
 * **Bottom**: lado inferior
 * **Left**: lado esquerdo
 
-[![modelo de caixa](https://camo.githubusercontent.com/351982c1d9ce3a34111ee1fb238c3408be735ba8/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366364393962383561646561376633313036373030636439666661343733666f2e706e67)](https://camo.githubusercontent.com/351982c1d9ce3a34111ee1fb238c3408be735ba8/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366364393962383561646561376633313036373030636439666661343733666f2e706e67)
+![modelo de caixa](https://fotos.subefotos.com/46cd99b85adea7f3106700cd9ffa473fo.png)
 
-### Preenchimento, borda e margem
+## Preenchimento, Borda e Margem
 
-#### Preenchimento
+### Preenchimento
 
-É o **preenchimento** , ou seja, o espaço livre opcional entre o _conteúdo_ e a _borda_ .
+_Padding_ é o **preenchimento**, ou seja, o espaço livre opcional entre o _conteúdo_ e a _borda_.
 
-[![preenchimento](https://camo.githubusercontent.com/799ef92c2604f3185486231df3895334d2722577/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f31373964376264313131616365626333386536623239656436326135353232656f2e706e67)](https://camo.githubusercontent.com/799ef92c2604f3185486231df3895334d2722577/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f31373964376264313131616365626333386536623239656436326135353232656f2e706e67)
+![preenchimento](https://fotos.subefotos.com/179d7bd111acebc38e6b29ed62a5522eo.png)
 
-Seu valor pode ser definido em: **unidades de medida** , **porcentagem** ou com o valor `inherit` \(especifica que o _padding_ deve ser herdado do elemento pai\).
+Seu valor pode ser definido em: **unidades de medida**, **porcentagem** ou com o valor `inherit` \(especifica que o _padding_ deve ser herdado do elemento pai\).
 
 O CSS define quatro propriedades para controlar cada um dos espaços de preenchimento horizontal e vertical de um elemento:
 
@@ -77,7 +77,7 @@ Também podemos usar a propriedade do tipo _shorthand_ chamada de `padding`para 
 
 Isso significa que ele suporta entre um e quatro valores, com o seguinte significado:
 
-* Se apenas **um valor** for indicado :
+* Se apenas **um valor** for indicado:
 
   * **Todos** os preenchimentos têm esse valor
 
@@ -86,10 +86,10 @@ Isso significa que ele suporta entre um e quatro valores, com o seguinte signifi
      padding: 2em;
   }
 
-  / * Todos os preenchimentos são 2em * /
+  /* Todos os preenchimentos são 2em */
   ```
 
-* Se **dois valores** forem indicados :
+* Se **dois valores** forem indicados:
 
   * O **primeiro** é atribuído ao preenchimento **superior e inferior**
   * O **segundo** é atribuído à **direita e esquerda**
@@ -99,10 +99,10 @@ Isso significa que ele suporta entre um e quatro valores, com o seguinte signifi
      padding: 1em  2em;
   }
 
-  / *
-   * Superior e inferior = 1em, 
-  * Esquerda e direita = 2em 
-  * / 
+  /*
+   * Superior e inferior = 1em,
+   * Esquerda e direita = 2em
+   */
   ```
 
 * Se **três valores** são indicados :
@@ -116,15 +116,15 @@ Isso significa que ele suporta entre um e quatro valores, com o seguinte signifi
      padding: 1em  2em  3em;
   }
 
-  / *
-   * Superior = 1em, Direita = 2em, 
-  * Inferior = 3em, Esquerda = 2em 
-  * / 
+  /*
+   * Superior = 1em, Direita = 2em,
+   * Inferior = 3em, Esquerda = 2em
+   */
   ```
 
 * Se os **quatro valores** forem indicados :
 
-  * Os preenchimentos serão atribuídos em **ordem horária** , da seguinte maneira:
+  * Os preenchimentos serão atribuídos em **ordem horária**, da seguinte maneira:
 
     superior, direita, inferior e esquerda.
 
@@ -133,41 +133,42 @@ Isso significa que ele suporta entre um e quatro valores, com o seguinte signifi
      padding : 1em  2em  3em  4em ;
   }
 
-  / *
-   * Superior = 1em, Direita = 2em, 
-  * Inferior = 3em, Esquerda = 4em 
-  * / 
+  /*
+   * Superior = 1em, Direita = 2em,
+   * Inferior = 3em, Esquerda = 4em
+   */
   ```
 
-#### Border
+### Border
 
-É a **linha** que contém o _conteúdo_ e o _preenchimento_ . É aplicável a todos os elementos.
+É a **linha** que contém o _conteúdo_ e o _preenchimento_. É aplicável a todos os elementos.
 
-[![fronteira](https://camo.githubusercontent.com/250c4aef1914ebc87f60663790156330650ddd34/687474703a2f2f696d6167652e6962622e636f2f6e4b777061622f626f726465725f416e63686f732e706e67)](https://camo.githubusercontent.com/250c4aef1914ebc87f60663790156330650ddd34/687474703a2f2f696d6167652e6962622e636f2f6e4b777061622f626f726465725f416e63686f732e706e67)
+![borda](http://image.ibb.co/nKwpab/border_Anchos.png)
 
 Para cada borda você pode definir sua largura ou espessura, sua cor e seu estilo, portanto, o CSS  define diferentes propriedades relacionadas às bordas.
 
-**Largura ou espessura**
+#### Largura ou espessura
 
 Define a **espessura** de cada uma das quatro bordas dos elementos.
 
 A largura das bordas é indicada por uma **unidade de medida** ; por palavras-chave `thin` \(borda fina\), `medium` \(borda normal\) e `thick` \(borda larga\); ou o valor `inherit`.
 
-**Estilo**
+#### Estilo
 
 O **estilo** das bordas só pode ser indicado por algumas das palavras reservadas definidas pelo CSS. Como o valor padrão dessa propriedade é `none` \(sem borda\), os elementos não mostram nenhuma borda visível, a menos que um estilo de borda seja explicitamente definido.
 
 Na imagem a seguir podemos ver os diferentes estilos de borda e a _palavra reservada_ para cada um deles:
 
-[![border\_styles](https://camo.githubusercontent.com/5e32931f4471bd9bea864c69dae9c77765b3e925/68747470733a2f2f6c656e6775616a656373732e636f6d2f702f6373732f70726f70696564616465732f626f726465722d7374796c65732e706e67)](https://camo.githubusercontent.com/5e32931f4471bd9bea864c69dae9c77765b3e925/68747470733a2f2f6c656e6775616a656373732e636f6d2f702f6373732f70726f70696564616465732f626f726465722d7374796c65732e706e67)
+![estilos das bordas](https://lenguajecss.com/p/css/propiedades/border-styles.png)
 
-**Cor**
+
+#### Cor
 
 Define a **cor** de cada uma das quatro bordas dos elementos.
 
-Os valores que podem tomar são: [**valores de cor**](http://librosweb.es/referencia/css/colores.html) , `transparent` ou `inherit`.
+Os valores que podem tomar são: [**valores de cor**](http://librosweb.es/referencia/css/colores.html), `transparent` ou `inherit`.
 
-**Propriedade** _**shorthand**_ **"border"**
+#### Propriedade shorthand "border"
 
 CSS define a propriedade de tipo _shorthand_ para definir o valor de todos os atributos de todas as bordas de forma direta: `border`.
 
@@ -179,7 +180,7 @@ div {
 }
 ```
 
-> Desta forma, com a propriedade `border`, atribuímos a **largura** , o **estilo** e a **cor** da borda para todos os quatro lados da caixa do elemento `div`.
+> Desta forma, com a propriedade `border`, atribuímos a **largura**, o **estilo** e a **cor** da borda para todos os quatro lados da caixa do elemento `div`.
 
 Além disso, temos a possibilidade de atribuir os valores \(largura, estilo e cor\) a um determinado lado da seguinte maneira:
 
@@ -188,19 +189,19 @@ div {
   border-top : 1px solid blue;
   border-right: 1px solid blue;
   border-bottom: 1px solid blue;
-  border-left: 1px solid blue;      
+  border-left: 1px solid blue;
 }
 ```
 
 > [Saiba mais sobre `border`.](http://librosweb.es/libro/css/capitulo_4/bordes.html)
 
-#### Margin\( _**margem**_ \)
+### Margin (___margem___)
 
 É a **separação opcional** existente entre a caixa e o resto das caixas adjacentes.
 
-[![margem](https://camo.githubusercontent.com/96061e7a1870d97932d731d8312cc0281845e599/687474703a2f2f696d6167652e6962622e636f2f6848394c67472f6d617267696e2e706e67)](https://camo.githubusercontent.com/96061e7a1870d97932d731d8312cc0281845e599/687474703a2f2f696d6167652e6962622e636f2f6848394c67472f6d617267696e2e706e67)
+![margem](http://image.ibb.co/hH9LgG/margin.png)
 
-Seu valor pode ser definido em: **Unidades de medida** , **porcentagem** ou `inherit` \(especifica que a margem deve ser herdada do elemento pai\).
+Seu valor pode ser definido em: **Unidades de medida**, **porcentagem** ou `inherit` \(especifica que a margem deve ser herdada do elemento pai\).
 
 CSS define quatro propriedades para controlar cada um dos espaços de margem horizontal e vertical de um elemento:
 
@@ -216,31 +217,31 @@ div {
    margin: 5em  4em  3em  2em;
 }
 
-/ *
- * Superior = 5em, Direita = 4em, 
-* Inferior = 3em, Esquerda = 2em 
-* / 
+/*
+ * Superior = 5em, Direita = 4em,
+ * Inferior = 3em, Esquerda = 2em
+ */
 ```
 
-#### Outras propriedades
+### Outras propriedades
 
-**Background image \(imagem de fundo\)**
+#### Background image \(imagem de fundo\)
 
 É a imagem que é exibida por trás do _conteúdo_ e o espaço do _preenchimento_.
 
-**Background color \(cor de fundo\)**
+#### Background color \(cor de fundo\)
 
 É a cor que é exibida atrás do _conteúdo_ e o espaço do _preenchimento_.
 
 > Padding e Margin são transparentes, o espaço ocupado pelo preenchimento mostra a imagem ou a cor de fundo \(se elas estiverem definidas\) e no espaço ocupado pela margem a imagem ou a cor de fundo de seu elemento pai é exibida \(se forem definidos\). Se uma caixa define uma cor e uma imagem de fundo, a imagem tem mais prioridade e é a que é exibida.
 
-### Largura e Altura
+## Largura e Altura
 
-#### Width \(_largura_\)
+### Width \(_largura_\)
 
 Controla a largura da caixa ou um elemento.
 
-[![largura](https://camo.githubusercontent.com/1ba1960f7bb0bf6d2da7a16d956c4468477435fd/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f61643330376566363832363332636132383238326137373863373436313062306f2e706e67)](https://camo.githubusercontent.com/1ba1960f7bb0bf6d2da7a16d956c4468477435fd/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f61643330376566363832363332636132383238326137373863373436313062306f2e706e67)
+![largura](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
 
 O seu valor pode ser definido em: **unidades de medida**, **porcentagem**, `auto` ou `inherit`. Sendo como valor inicial `auto`. A propriedade **width** não suporta valores negativos e os valores percentuais são calculados a partir da largura de seu elemento pai.
 
@@ -250,13 +251,13 @@ div {
 }
 ```
 
-#### Height \(_altura_\)
+### Height \(_altura_\)
 
 Controla a altura da caixa ou um elemento.
 
-[![altura](https://camo.githubusercontent.com/176e7414d23aa56b0efcb7b02c5033ee97281447/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34333935313634616136363336323166383630623464313263326438666364356f2e706e67)](https://camo.githubusercontent.com/176e7414d23aa56b0efcb7b02c5033ee97281447/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34333935313634616136363336323166383630623464313263326438666364356f2e706e67)
+![altura](https://fotos.subefotos.com/4395164aa663621f860b4d12c2d8fcd5o.png)
 
-Seu valor pode ser definido em: **Unidades de Medida** , **porcentagem** , `auto` ou `inherit`. Sendo como valor inicial `auto`. Como em _width_, a propriedade **height** não suporta valores negativos. Se uma **porcentagem** for indicada , a altura do elemento pai será tomada como referência.
+Seu valor pode ser definido em: **Unidades de Medida**, **porcentagem**, `auto` ou `inherit`. Sendo como valor inicial `auto`. Como em _width_, a propriedade **height** não suporta valores negativos. Se uma **porcentagem** for indicada, a altura do elemento pai será tomada como referência.
 
 ```css
 div {
@@ -264,17 +265,17 @@ div {
 }
 ```
 
-### _Box sizing_
+## _Box sizing_
 
 A propriedade `box-sizing` é usada para informar ao navegador quais devem ser as propriedades de tamanho \(largura e altura\).
 
 Também indicamos se queremos incluir o preenchimento, a borda e/ou a margem.
 
-#### Valores
+### Valores
 
-**Valor "content-box"**
+#### Valor "content-box"
 
-Para o valor `content-box` as propriedades _width_ e _height_ incluem apenas o conteúdo, elas não incluem o _padding_, _border_ ou _margin_ . Este é o valor padrão.
+Para o valor `content-box` as propriedades _width_ e _height_ incluem apenas o conteúdo, elas não incluem o _padding_, _border_ ou _margin_. Este é o valor padrão.
 
 ```css
 div {
@@ -282,9 +283,9 @@ div {
 }
 ```
 
-[![content-box](https://camo.githubusercontent.com/b47d9eaa6f87d7dd118ecc89a2b7b740404b7e67/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f39393538656561303032366636643930616531636439626530663437663265626f2e706e67)](https://camo.githubusercontent.com/b47d9eaa6f87d7dd118ecc89a2b7b740404b7e67/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f39393538656561303032366636643930616531636439626530663437663265626f2e706e67)
+![content-box](https://fotos.subefotos.com/9958eea0026f6d90ae1cd9be0f47f2ebo.png)
 
-**Valor "border-box"**
+#### Valor "border-box"
 
 Para o valor `border-box` as _propriedades width_ e _height_ incluem _padding_ e _border_, mas não _margin_.
 
@@ -294,23 +295,24 @@ div {
 }
 ```
 
-[![caixa de borda](https://camo.githubusercontent.com/55fe809da8e037eed91bf118eaaed6ba27eb3829/687474703a2f2f696d6167652e6962622e636f2f6e41626354772f626f726465725f626f782e706e67)](https://camo.githubusercontent.com/55fe809da8e037eed91bf118eaaed6ba27eb3829/687474703a2f2f696d6167652e6962622e636f2f6e41626354772f626f726465725f626f782e706e67)
+![border-box](http://image.ibb.co/nAbcTw/border_box.png)
 
 > Também podemos usar o valor `inherit`, que é o valor que herda essa propriedade de seu elemento pai.
 
-### Display
+## Display
 
-#### O que é a propriedade _display_?
+### O que é a propriedade _display_?
 
-Estabelece o tipo de caixa gerada por um elemento. [![exibir](https://camo.githubusercontent.com/184399b861f114f11d1af8295354091b5b570dde/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37666664346330633333666166623464383938613136613839333561303639376f2e706e67)](https://camo.githubusercontent.com/184399b861f114f11d1af8295354091b5b570dde/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37666664346330633333666166623464383938613136613839333561303639376f2e706e67)
+Estabelece o tipo de caixa gerada por um elemento.
+![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
 
-#### Valores
+### Valores
 
-**Valor "Inline"**
+#### Valor "Inline"
 
 A propriedade `display: inline` faz com que o elemento tenha como natureza se posicionar em linha, ou seja, um elemento é colocado ao lado do outro e, portanto, ocupa apenas o espaço necessário para mostrar seu conteúdo:
 
-![inline](https://camo.githubusercontent.com/0091dbe812aea6ab13f3aea0c048b307d236ac7e/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366464633864623661646463616332356161663564316237393237353233326f2e706e67)
+![inline](https://fotos.subefotos.com/46ddc8db6addcac25aaf5d1b79275232o.png)
 
 Suas características são:
 
@@ -321,11 +323,11 @@ Suas características são:
 * Se a propriedade _floating_ for usada, elas se convertem em `block`
 * Você pode aplicar a propriedade `vertical-align`
 
-**Valor "block"**
+#### Valor "block"
 
 A propriedade `display: block` faz com que o elemento tenha uma natureza posicionada em blocos, para que sempre inicie em uma nova linha e ocupe todo o espaço disponível na linha, mesmo que seu conteúdo não ocupe todo o site:
 
-![block](https://camo.githubusercontent.com/949a1bd1cbf2d1fc40fd17d3e56b81c16f595363/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f30613762323138346165373635373530653339323961663634383234373362666f2e706e67)
+![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
 
 Suas características são:
 
@@ -335,37 +337,36 @@ Suas características são:
 * Por padrão, faz uma quebra de linha
 * Ignoram a propriedade `vertical-align`
 
-**Valor "inline-block"**
+#### Valor "inline-block"
 
 A propriedade `display: inline-block` combina o melhor dos dois mundos, fazendo com que os elementos se posicionem em linha, mas mantendo sua natureza de bloco, ou seja, eles podem ser alinhados:
 
-![inline-block](https://camo.githubusercontent.com/49ca770293bb31c21cb1713524f11e80702daf56/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37383932663037363339313561353836353238643336353539643736613435316f2e706e67)
+![inline-block](https://fotos.subefotos.com/7892f0763915a586528d36559d76a451o.png)
 
-**Valor "none"**
+#### Valor "none"
 
 A propriedade `display: none` remove o elemento para que ele não seja exibido na tela.
 
-**Qual é a diferença entre "display: none" e "visibility: hidden"?**
+#### Qual é a diferença entre "display: none" e "visibility: hidden"?
 
 Ambos os atributos permitem "ocultar" um elemento no navegador. No entanto, há uma diferença muito importante:
 
 * `display: none` remove o elemento definitivamente do espaço ocupado e é substituído pelos elementos adjacentes, como se o elemento não existisse mais.
 
-  ![none](https://camo.githubusercontent.com/87f87a9f65d504be1d2f3825aa7483400fbfc0aa/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f35343838356432613933343530336162643438656232353435343966303939666f2e706e67)
+  ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
 
 * `visibility: hidden` oculta o elemento, mas ainda mantém o espaço ocupado, enquanto os elementos adjacentes mantêm sua localização.
 
-  ![hidden](https://camo.githubusercontent.com/2c658464c3ffac68776fc62e54ec1552fbb7aaa6/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f32323737366233343364643064646535306366353233623935343461643764326f2e706e67)
+  ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
 
-**Resumo de características** _**Display**_
+#### Resumo das características do Display
 
-![Resumen Display](https://camo.githubusercontent.com/f9f04d7d320503e2d95454a96733e61a1de17c48/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f35626464636237656638313063373239306539383264306164313765343934316f2e706e67)
+![Resumo Display](https://fotos.subefotos.com/5bddcb7ef810c7290e982d0ad17e4941o.png)
 
-### Leituras complementares
+## Leituras complementares
 
 Continue lendo e aprendendo sobre o modelo de caixa com os seguintes recursos:
 
 * [Modelo da caixa - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas)
 * [Modelo da Caixa - Web Books](http://librosweb.es/libro/css/capitulo_4.html)
 * [Exibir - Web Books](http://librosweb.es/referencia/css/display.html)
-

@@ -1,18 +1,18 @@
-# 19 - Closing
+# Encerramento: HTML & CSS
 
-## 19 - Encerramento
+- Tipo: `seminário`
+- Formato: `guiado`
+- Duração: `120min`
 
-* Tipo: `seminário`
-* Formato: `guiado`
-* Duração: `120min`
+***
 
-### Agenda
+## Agenda
 
-#### 1. Revisemos o que aprendemos até agora
+### 1. Revisemos o que aprendemos até agora
 
-#### 2. Conversemos sobre o sentimento da classe \(`auto-avaliação`\)
+### 2. Conversemos sobre o sentimento da classe \(`autoavaliação`\)
 
-#### 3. Vamos responder às perguntas iniciais
+### 3. Respondamos às perguntas iniciais
 
 * Qual é a estrutura básica \(elementos principais\) de um arquivo `html`? Desenhe uma imagem dessa estrutura no quadro
 * Como ligamos o nosso `html` com o nosso `js` e com o nosso `css`? Quais convenções devemos seguir ao fazer isso? Por quê?

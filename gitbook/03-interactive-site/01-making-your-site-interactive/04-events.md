@@ -1,12 +1,10 @@
-# 04 - Events
-
-## Eventos
+# Eventos
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
-* Duración: `30min`
+* Formato: `individual`
+* Duração: `30min`
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 
@@ -15,9 +13,11 @@ Nesta unidade aprenderemos:
 3. Gerenciamento e fluxo de eventos \(propagação\).
 4. Tipos
 
+***
+
 ## O que é um evento?
 
-É quando o usuário realiza uma ação permitindo que ele interaja com o programa. Cada evento é associado a um manipulador \(_conhecidos como eventHandlers ou eventListener_ \), que será executado quando o evento ocorrer.
+É quando o usuário realiza uma ação permitindo que ele interaja com o programa. Cada evento é associado a um manipulador \(_conhecidos como eventHandlers ou eventListener_\), que será executado quando o evento ocorrer.
 
 Aqui está um [vídeo](https://www.youtube.com/watch?v=gyICdb1iwII) de referência.
 
@@ -63,7 +63,7 @@ boton.addEventListener('click', olaMundo, false);
 
 > Este é o código para um formulário muito simples Há um _input_ para inserir o nome e outro para inserir o sobrenome. Finalmente, há um _inpu_ do tipo _submit_ \(botão de envio\)
 
-```markup
+```html
 <form>
   <div>
     <label for="fname">First name: </label>
@@ -101,7 +101,7 @@ boton.addEventListener('click', olaMundo, false);
 
 Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
-![](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
+![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
 
 Confira este [vídeo](https://youtu.be/lgkqf6hldEk?t=15m5s) onde você encontrará um exemplo prático do fluxo que os eventos seguem.
 
@@ -114,7 +114,7 @@ Quando o usuário interage com o navegador, vários tipos de eventos podem ser a
 * Eventos de formulários
 * Eventos da janela
 
-Para mais informações sobre todos os eventos, acesse este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) e também este outro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types) .
+Para mais informações sobre todos os eventos, acesse este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) e também este outro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Principais eventos
 

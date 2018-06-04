@@ -1,23 +1,23 @@
-# 00 - Introduction
+# Introdução: HTML & CSS
 
-## 00 - Introdução
+- Tipo: `leitura`
+- Formato: `ritmo próprio`
+- Duração: `15min`
 
-* Tipo: `leitura`
-* Formato: `ritmo próprio`
-* Duração: `15min`
+***
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 
 * Criar uma página da Web estática usando os elementos principais `html`
 * Aplicar um estilo `css` ao `html`
 
-### Por que aprender HTML e CSS?
+## Por que aprender HTML e CSS?
 
-O desafio que temos neste curso é aprender a criar produtos **interativos** na web . A interação em produtos da web é criada através da programação com `JavaScript` \(algo que você aprendeu no curso anterior\), mas a estrutura e o estilo da web são criados com `html` e `css`. Nesta unidade, você aprenderá como criar um site estático que será convertido em uso interativo `JavaScript`.
+O desafio que temos neste curso é aprender a criar produtos **interativos** na web. A interação em produtos da web é criada através da programação com `JavaScript` \(algo que você aprendeu no curso anterior\), mas a estrutura e o estilo da web são criados com `html` e `css`. Nesta unidade, você aprenderá como criar um site estático que será convertido em uso interativo `JavaScript`.
 
-### Guia de perguntas e conceitos-chave
+## Guia de perguntas e conceitos-chave
 
 Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes sobre o que vamos aprender e sobre as principais questões a que devemos prestar atenção particular.
 
