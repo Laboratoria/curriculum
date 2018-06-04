@@ -1,58 +1,59 @@
-# Closing: Haciendo tu sitio web interactivo
+# Encerramento: tornando o seu site interativo
 
-- Tipo: `seminario`
-- Formato: `guided`
-- Duración: `120min`
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duración: `120min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Revisemos o que aprendemos até aqui
 
-### 2. Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
+### 2. Conversemos sobre o sentimento da turma \(resultado da `auto-avaliação`\)
 
-### 3. Respondamos las preguntas del opening
+### 3. Respondamos às preguntas da abertura
 
 #### DOM
 
-- ¿Qué es el DOM?
-- ¿Qué es un selector?
-- ¿Cuál es la diferencia entre document.getElementById y document.getElementsByClassName?
-- ¿Cómo preguntamos por los hijos de un elemento usando el DOM?
-- ¿Cómo preguntamos por el padre de un elemento usando el DOM?
-- ¿Qué atributos CSS de un elemento se pueden modificar usando el DOM?
-- ¿Cómo podemos simular animación entre elementos HTML?
+* O que é o DOM?
+* O que é um selector?
+* Qual é a diferença entre document.getElementById e document.getElementsByClassName?
+* Como invocamos os filhos de um elemento usando o DOM?
+* Como invocamos o pai de um item usando o DOM?
+* Quais atributos CSS de um elemento podem ser modificados usando o DOM?
+* Como podemos simular animação entre elementos HTML?
 
 #### BOM
 
-- ¿Qué es el BOM?
-- ¿En qué se relaciona el DOM con el BOM?
-- ¿Cuáles son algunos usos comunes del BOM?
+* O que é o BOM?
+* Como o DOM se relaciona com o BOM?
+* Quais são alguns usos comuns do BOM?
 
-#### Modificando el DOM
+#### Modificando o DOM
 
-- ¿Se pueden crear nuevos nodos usando el DOM?
-- ¿Qué es un nodo?
-- ¿Cuántos tipos de nodos existen?
-- ¿Por qué decimos que el DOM tiene nodos?
-- ¿Por qué decimos que el DOM tiene nodos de objetos?
-- ¿Cómo accedemos a la propiedad style de body usando el DOM?
-- ¿Cuál es el nodo origen en el DOM?
-- ¿Cuál es el nodo origen en el BOM?
-- ¿Cuál es la diferencia entre nodo y elemento?
+* Novos nós podem ser criados usando o DOM?
+* O que é um nó?
+* Quantos tipos de nós existem?
+* Por que dizemos que o DOM tem nós?
+* Por que dizemos que o DOM tem nós de objetos?
+* Como podemos acessar a propriedade _style_ do _body_ usando o DOM?
+* Qual é o nó de origem no DOM?
+* Qual é o nó de origem no BOM?
+* Qual é a diferença entre o nó e o elemento?
 
 #### Eventos
 
-- ¿Qué es un evento?
-- ¿Cuáles son los eventos más utilizados en un navegador?
-- ¿Cómo detectamos un click del usuario?
-- ¿Cómo detectamos entrada de texto del usuario?
-- ¿Cómo detectamos el envio de un formulario?
-- ¿Podemos usar el evento submit a un input text?
-- ¿De qué nos sirve la palabra "event" o "e"?
-- ¿Cómo podemos almacenar o pasar información entre elementos HTML?
-- ¿Qué es event delegation?
-- ¿Qué es event propagation?
-- ¿Cómo definimos eventos propios?
-- ¿Cuál es la diferencia entre onClick y addEventListener("click")?
+* O que é um evento?
+* Quais são os eventos mais usados em um navegador?
+* Como detectamos um "clique" do usuário?
+* Como podemos detectar a entrada de texto de um usuário?
+* Como detectamos o envio de um formulário?
+* Podemos usar o evento _submit_ para um _input text_?
+* Para que server a palavra reservada "event" ou "e"?
+* Como podemos armazenar ou passar informações entre elementos HTML?
+* O que é _event delegation_?
+* O que é _event propagation_?
+* Como definimos nossos próprios eventos?
+* Qual é a diferença entre onClick e addEventListener \("click"\)?
+

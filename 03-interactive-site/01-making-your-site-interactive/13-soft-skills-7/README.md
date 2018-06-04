@@ -1,23 +1,19 @@
-# Taller HSE: Presentaciones personales (parte 2)
+# Oficina HSE: Aprensentações pessoais \(parte 2\)
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `180min`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duración: `180min`
 
-***
+# Objetivos
 
-## Objetivos
+* Selecionar os eventos mais marcantes da história pessoal e localizá-los em um tempo e espaço específicos.
+* Favorecer a integração e a coesão do grupo por meio de contato físico, criatividade e humor.
+* Permitir que cada uma das alunas tenha a oportunidade de apresentar sua linha do tempo ou falar sobre um tópico vinculado a ela.
 
-- Plasmar los eventos más destacados de la historia personal y ubicarlos en un
-  tiempo y espacio concreto.
-- Favorecer la integración y cohesión grupal a través del contacto física, la
-  creatividad y el humor.
-- Permitir que cada una de las alumnas tenga la oportunidad de presentar su
-  línea del tiempo o hablar sobre un tema vinculado a ella.
+# Agenda
 
-## Agenda
+* Atividade de integração de grupo: "Improvisação: fotos vivas"
+* Apresentações pessoais: "Conhecendo minhas colegas e a mim mesma"
+* Atividade de retrospecção e consolidação: "Uma palavra"
+* Fechar com técnicas de relaxamento: "Inspirar, Espirar"
 
-- Actividad de integración grupal: "Improvisación: fotos vivientes"
-- Presentaciones personales: "Conociendo a mis compañeras y a mi misma"
-- Actividad de retrospección y consolidación: "Una palabra"
-- Cierre con técnicas de relajación: "Inhalo, Exhalo"

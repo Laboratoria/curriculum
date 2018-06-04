@@ -1,190 +1,160 @@
-# Casos prácticos (videos)
+# Casos Práticos \(vídeos\)
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `6h`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `6h`
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de navegar
-  y manipular el DOM, y a responder a eventos.
+* Entender, por meio de casos práticos, como aplicar os conceitos de navegar e manipular o DOM e responder a eventos.
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
-para resolver problemas.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas.
 
-A continuación tendrás varios problemas que debes resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones.
+A seguir, você terá vários problemas que deverá resolver. Tente resolvê-los primeiro por conta própria. Abaixo você encontrará as soluções.
 
-Después de haberlo intentado, compara tus soluciones con los videos de abajo.
+Depois de tentar, compare suas soluções com os vídeos abaixo.
 
-*NO* antes.
+_NÃO_ antes.
 
-### 1. Reserva de puestos aerolínea
+### 1. Reserva de assentos de avião
 
-Una pequeña aerolínea acaba de comprar una computadora para su nuevo sistema
-de reservaciones automatizadas. Se te ha pedido que desarrolles el nuevo
-sistema. Escribirás una aplicación para asignar asientos en cada vuelo del
-__único__ avión de la aerolínea (capacidad: 10 asientos).
+Uma pequena companhia aérea acaba de comprar um computador para seu novo sistema de reservas automatizado. Você foi solicitada a desenvolver o novo sistema. Escreva uma aplicação para atribuir assentos em cada voo do **único** avião da companhia \(capacidade: 10 assentos\).
 
-![GitHub Logo](https://image.ibb.co/eMz26v/avion_2.jpg)
+![Reserva de assentos](https://image.ibb.co/eMz26v/avion_2.jpg)
 
-Tu aplicación debe mostrar las siguientes alternativas:
+Sua aplicação deve mostrar as seguintes alternativas:
 
-Por favor escriba 1 para Primera Clase y Por favor escriba 2 para Económico.
+Por favor, digite 1 para Primeira Classe e Por favor, digite 2 para Econômica.
 
-![GitHub Logo](https://image.ibb.co/mh9PKF/avion_3.jpg)
+![Reserva de assentos](https://image.ibb.co/mh9PKF/avion_3.jpg)
 
-Si el usuario escribe 1, tu aplicación debe asignarle un asiento en la
-sección de primera clase (asientos 1 a 4). Si el usuario escribe 2, tu
-aplicación debe asignarle un asiento en la sección económica
-(asientos 5 a 10).
+Se o usuário digitar 1, seu aplicativo deve atribuir um lugar na seção de primeira classe \(assentos 1 a 4\). Se o usuário digitar 2, sua aplicação deve atribuir um assento na seção econômica \(assentos 5 a 10\).
 
-Tu aplicación deberá entonces imprimir un pase de abordar, indicando el
-número de asiento de la persona y si se encuentra en la sección de primera
-clase o clase económica.
+A sua aplicação deverá então imprimir um cartão de embarque, indicando o número do lugar da pessoa e se está na primeira classe ou na classe econômica.
 
-![GitHub Logo](https://image.ibb.co/d8gtDa/avion_4.jpg)
+![Reserva de assentos](https://image.ibb.co/d8gtDa/avion_4.jpg)
 
-### Tips para la solución
+### Dicas para a solução
 
-A continuación, encontrarás tips que podrían ayudarte con la solución, ¡mucha suerte!
+Abaixo, você encontrará dicas que poderão ajudá-la com a solução, boa sorte!
 
-#### [Tip. | Diagrama de flujo]
+#### **\[Dica \| Diagrama de fluxo\]**
 
-![GitHub Logo](https://image.ibb.co/bQ86Ya/untitled_8.jpg)
+![Logotipo do GitHub](https://image.ibb.co/bQ86Ya/untitled_8.jpg)
 
-#### [Tip. | Representación usando Arrays]
+#### **\[Dica \| Representação usando Arrays\]**
 
-Usa un arreglo unidimensional del tipo booleano para representar la tabla de
-asientos del avión. Inicializa todos los elementos del arreglo con -false-
-para indicar que todos los asientos están vacíos. A medida que se asigne cada
-asiento, establezca el elemento correspondiente del arreglo en true para
-indicar que ese asiento ya no está disponible.
+Use uma matriz unidimensional do tipo booleano para representar a tabela de assentos do avião. Inicialize todos os elementos do array com -false- para indicar que todos os lugares estão vazios. À medida que cada lugar é atribuído, defina o elemento correspondente da matriz como true para indicar que esse lugar não está mais disponível.
 
-Tu aplicación nunca deberá asignar un asiento que ya haya sido asignado.
-Cuando esté llena la sección económica o primera clase, tu programa deberá
-preguntar a la persona si acepta ser colocada en la sección de primera clase
-(y viceversa).
+Seu aplicativo nunca deverá atribuir um lugar que já tenha sido atribuído. Quando a seção econômica ou a primeira classe estiver cheia, seu programa deve perguntar à pessoa se ela concorda em ser colocada na primeira classe \(e vice-versa\).
 
-![GitHub Logo](https://image.ibb.co/nH4rzF/avion_6.jpg)
+![Reserva de assentos](https://image.ibb.co/nH4rzF/avion_6.jpg)
 
-Si la persona acepta, haga la asignación de asiento apropiada.
+Se a pessoa aceitar, faça a atribuição de lugar apropriada.
 
-Si no, debe imprimir el mensaje “El próximo vuelo sale en 3 horas”.
+Se não, você deve exibir a mensagem "O próximo vôo sai em 3 horas".
 
-![GitHub Logo](https://image.ibb.co/d2Hpmv/avion_7.jpg)
+![Reserva de assentos](https://image.ibb.co/d2Hpmv/avion_7.jpg)
 
-### 2. Buscaminas
+### 2. Campo Minado
 
-El juego de buscaminas funciona de la siguiente forma:
+O jogo campo minado funciona da seguinte maneira:
 
-Se muestra una tabla donde se encuentran celdas vacías, con número o con minas.
-En caso de oprimir una mina entonces el juego termina, si se oprimen lugares
-sin minas (vacía o de número), el juego continúa.
+Uma tabela é mostrada onde são encontradas células vazias, com número ou com minas. No caso de pressionar uma mina, o jogo termina, se você pressionar lugares sem minas \(vazio ou número\), o jogo continua.
 
-![Buscaminas](https://lh4.googleusercontent.com/c4jnMEV2CirXxh8CRzP1y6_VSqfPOLNQnTGyv2uKyPzEMfa42ztBClyMCigW7K3dJqNWacIJDjaj-kfVDFWtQbHySxNhSSRBPVnf2Q2SbHK3MUkWD0WMpsVyXeUAfrI11ya9heW5lng)
+![Campo minado](https://lh4.googleusercontent.com/c4jnMEV2CirXxh8CRzP1y6_VSqfPOLNQnTGyv2uKyPzEMfa42ztBClyMCigW7K3dJqNWacIJDjaj-kfVDFWtQbHySxNhSSRBPVnf2Q2SbHK3MUkWD0WMpsVyXeUAfrI11ya9heW5lng)
 
-#### Preguntas guía
+**Perguntas guia**
 
-- ¿Cómo puedes estructurar el tablero en el navegador? (pista: HTML)
-- ¿Cómo puedes diferenciar una bomba de un número o de una celda vacía en el
-  HTML?
-- ¿Qué evento necesitas para captar el click del usuario?
-- Una vez que el usuario haga click sobre la "celda", ¿qué tiene que pasar?
-- ¿Cómo podemos hacer que elementos aparezcan y desaparezcan en el HTML?
-- ¿Cómo hacemos para que ya no se puedan ingresar clicks del usuario? (pista:
-  removeEventListener)
+* Como você pode estruturar o campo no navegador? \(dica: HTML\)
+* Como você pode diferenciar uma bomba de um número ou de uma célula vazia no HTML?
+* Qual evento você precisa para capturar o clique do usuário?
+* Quando o usuário clica na "célula", o que precisa acontecer?
+* Como podemos fazer elementos aparecerem e desaparecerem em HTML?
+* Como fazemos para que os cliques do usuário não possam mais ser inseridos? \(dica: removeEventListener\)
 
-#### Requerimientos
+**Requisitos**
 
-- Mostrar una tabla de 4 x 4 (con bombas, celdas vacías y números en posición
-  fija)
-- Al dar clic en una celda vacía, cambiar de color de la celda.
-- Al dar clic en una celda con bomba, terminar el juego (no debo poder clickear
-  más celdas) y mostrar mensaje: “Esto ha explotado”
-- Al dar clic en una celda con un número, mostrar el número que tiene.
-- Crear un botón Reiniciar que comience de nuevo el juego.
+* Exibir uma tabela 4 x 4 \(com bombas, células vazias e números em posição fixa\)
+* Ao clicar em uma célula vazia, mude a cor da célula.
+* Ao clicar em uma célula com uma bomba, termine o jogo \(não se pode clicar em mais células\) e mostre a mensagem: "Explodiu!"
+* Quando você clica em uma célula com um número, mostre o número que você tem.
+* Crie um botão Reset que inicie o jogo novamente.
 
-##### Puntos extra
+**Pontos extras**
 
-- Al dar clic fuera de la tabla mostrar mensaje: “Sigue jugando”. (inner html o
-  alert).
-- Preguntar el tamaño de la tabla al usar.
-- Preguntar el nivel de dificultad deseada (fácil o difícil y significa el
-  número de bombas que tendrá)
-- Llenar de manera automática todo (bombas, celdas vacías y números)
+* Quando você clicar fora da tabela, mostre a mensagem: "Continue jogando". \(inner html ou alert\).
+* Pergunte o tamanho do campo para o jogo.
+* Peça o nível de dificuldade desejado \(fácil ou difícil e significa o número de bombas no jogo\)
+* Preencha automaticamente tudo \(bombas, células vazias e números\)
 
-#### 3. Crear un menú de hamburguesa
+**3. Crie um menu de hambúrguer**
 
-Un menú de hamburguesa nos permite tener escondido el menú y únicamente mostrar
-un botón (3 líneas horizontales) que cuando lo apretamos (o hacemos click), se
-muestra en la pantalla todas las opciones del menú.
+Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão \(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as opções de menu são mostradas na tela.
 
-Algo así:
+Algo assim:
 
-![Hamburger Menu](http://i.imgur.com/JKJ8V9v.gif)
+![Menu hamburger](http://i.imgur.com/JKJ8V9v.gif)
 
-Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
-únicamente enfocarse en funcionalidad)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
 
-#### 4. Crear tabs
+#### **4. Crie abas**
 
-Las tabs nos sirven para agrupar contenido similar usando solo un espacio.
+As abas são usadas para agrupar conteúdo semelhante usando apenas um espaço.
 
-Algo así:
+Algo assim:
 
-![Tabs Menu](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
+![Menu em tabs](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/simulate-tabs.gif)
 
-Replicar esa funcionalidad usando DOM y CSS. (No agregar efectos "bonitos",
-únicamente enfocarse en funcionalidad)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
 
-#### 5. Crear un menú drop down
+#### 5. Crie um menu suspenso
 
-El menú drop down nos ayuda a ahorrar espacio en un menú, ya que agrupa
-elementos similares.
+O menu suspenso nos ajuda a economizar espaço em um menu, pois agrupa elementos semelhantes.
 
-Algo así:
+Algo assim:
 
-![Drop Down Menu](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
+![Menu drop down](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
 
-#### 6. Mini Zoo
+#### 6. Mini zoológico
 
-Esta página permite elegir efectos como **sepia**, **blanco y negro** e
-**invertir colores** que deseamos que obtengan nuestras imágenes.
-Deberás replicarla usando DOM y CSS.
+Esta página permite escolher efeitos como **sépia** , **preto e branco** e **inverter as cores** que queremos que as nossas imagens apresentem. Você terá que replicá-lo usando DOM e CSS.
 
-Veamos como debe quedar la página...
+Vamos ver como a página deve ficar...
+
 ![Mini Zoo](https://fotos.subefotos.com/33a270779462a9ffe98ae8c2b528087co.gif)
 
-## Solucionarios
 
-A continuación Silvana, Meme, Amalia, Karla e Inti te explican cómo resolvieron
-cada uno de los ejercicios anteriores.
 
-### 1. Aerolínea
+### Soluções
 
-[![Solución aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
+A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um dos exercícios anteriores.
 
-#### 2. Buscaminas
+#### 1. Companhia Aérea
 
-[![Solución Buscaminas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
+[![Solu&#xE7;&#xE3;o da companhia a&#xE9;rea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
-#### 3. Menú de Hamburguesa
 
-[![Solución Menu Hamburguesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+**2. Campo Minado**
 
-#### 4. Tabs
+[![Solu&#xE7;&#xE3;o de ca&#xE7;a-minas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
 
-[![Solución Menu Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+**3. Menu Hamburger**
 
-#### 5. Menú dropdown
+[![Menu de Solu&#xE7;&#xE3;o Hamburger](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
 
-[![Solución Menu Drop Down](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
+**4. Abas**
 
-#### 6. Mini Zoo
+[![Guias do menu de solu&#xE7;&#xE3;o](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+
+**5. Menu dropdown**
+
+[![Menu dropdown da solu&#xE7;&#xE3;o](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
+
+**6. Mini zoológico**
 
 <https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>
