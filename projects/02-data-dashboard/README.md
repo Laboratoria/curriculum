@@ -161,8 +161,8 @@ detalles:
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
 
-Debes hacer un Sketch (boceto) de tu solución usando papel y lápiz, tomarle
-una foto, subirla a tu repositorio y hacer mención del sketch en tu `README.md`.
+Debes hacer un _sketch_ (boceto) de tu solución usando papel y lápiz, tomarle
+una foto, subirla a tu repositorio y hacer mención del _sketch_ en tu `README.md`.
 
 #### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
@@ -246,7 +246,7 @@ estadísticas calculadas.
 
 ##### Valor de retorno
 
-Un arreglo de objetos _usuario_ con la propiedad `stats`, la cual debe ser un
+Un arreglo de objetos `usersWithStats` con la propiedad `stats`, la cual debe ser un
 objeto con las siguientes propiedades:
 
 * `percent`: Número entero entre 0 y 100 que indica el porcentaje de completitud
@@ -424,6 +424,24 @@ Features/características extra sugeridas:
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages.
 
+
+Para este proyecto deberás trabajar usando git colaborativamente. Puedes leer más sobre trabajo colaborativo [aquí](https://medium.com/laboratoria-how-to/t%C3%BA-y-yo-usando-git-colaborativo-no-se-pi%C3%A9nsalo-62dea67aa2eb) y [aquí](https://guides.github.com/activities/forking/).
+
+Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
+
+En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de trabajo con dos ramas principales: 
+* `master`: rama que contiene las funcionalidades terminadas y sin errores.
+* `develop`: rama dónde integrarás las funcionalidades conforme las vayas desarrollando.
+
+Además de estas dos ramas, puedes trabajar cada nueva funcionalidad en una rama individual (_feature branches_), estas ramas en lugar de crearse a partir de `master`, tienen a `develop` como su rama de origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`. Las _feature branches_ no se deben integrar directamente a `master`.
+
+Puedes leer más sobre flujos de trabajo en git en este [link](https://www.atlassian.com/git/tutorials/comparing-workflows).
+
+Por último, te sugerimos codear usando la técnica de [pair programming](http://www.javiergarzas.com/2012/06/beneficios-pair-programming.html).
+
+
+
+
 ## Evaluación
 
 Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
@@ -496,9 +514,9 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
 * Completando los requerimientos mínimos de este proyecto ganarás 250 XPs.
 * Completando el hacker edition de este proyecto ganarás 100 XPs adicionales.
-* Completando los [ejericicios de manipulación de arreglos en el LMS](https://lms.laboratoria.la/cohorts/cdmx-2018-05-bc-core-am/courses/javascript/04-arrays/06-practice)
+* Completando los ejercicios de manipulación de arreglos en el LMS (Añadir link)
   ganarás otros 25 XPs.
-* Completando los [ejericicios de manipulación de objetos en el LMS](https://lms.laboratoria.la/cohorts/cdmx-2018-05-bc-core-am/courses/javascript/05-objects/06-practice)
+* Completando los ejercicios de manipulación de objetos en el LMS (Añadir link)
   ganarás otros 25 XPs.
 
 ## Primeros pasos
@@ -514,9 +532,9 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-  del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
-  privado y te darán acceso de lectura en ese repo.
+3. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
+privado y te darán acceso de lectura en ese repo. La otra integrante del equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote` hacia el mismo. 
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
   tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm
