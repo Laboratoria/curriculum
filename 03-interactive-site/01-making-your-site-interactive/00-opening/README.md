@@ -3,10 +3,12 @@
 ## Abertura: tornando o seu site interativo
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `20min`
 
-### Objetivos de Aprendizagem
+***
+
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 
@@ -14,19 +16,19 @@ Nesta unidade aprenderemos:
 * Qual é o BOM e qual é a utilidade de manipulá-lo?
 * O que é um evento e qual é a sua utilidade?
 
-### Por que aprender isso?
+## Por que aprender isso?
 
 Quando estamos construindo sites, chega um momento em que precisamos dar funcionalidade dinâmica à nossa página \(que muda conforme o tempo passa\). Pode ser alguma animação, o tamanho de um texto, a visibilidade de uma imagem, etc.
 
 O DOM, o BOM e os eventos nos permitem fazer essas manipulações, se soubermos como usá-los.
 
-### Guia para perguntas e conceitos-chave
+## Guia para perguntas e conceitos-chave
 
 Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes sobre o que vamos aprender e as questões centrais às quais devemos prestar atenção particular.
 
 Aqui está uma série de perguntas que você deve ser capaz de responder no final desta unidade. Use essas perguntas como um guia para orientar seus esforços de aprendizado. Volte para eles constantemente enquanto você avança para validar que você está se indo na direção certa. Isso serve como uma "lista de verificação" que você marca conforme avança.
 
-#### DOM
+### DOM
 
 * O que é o DOM?
 * O que é um selector?
@@ -36,13 +38,13 @@ Aqui está uma série de perguntas que você deve ser capaz de responder no fina
 * Quais atributos CSS de um elemento podem ser modificados usando o DOM?
 * Como podemos simular animação entre elementos HTML?
 
-#### BOM
+### BOM
 
 * O que é o BOM?
 * Como o DOM se relaciona com o BOM?
 * Quais são alguns usos comuns do BOM?
 
-#### Modificando o DOM
+### Modificando o DOM
 
 * Novos nós podem ser criados usando o DOM?
 * O que é um nó?
@@ -54,7 +56,7 @@ Aqui está uma série de perguntas que você deve ser capaz de responder no fina
 * Qual é o nó de origem no BOM?
 * Qual é a diferença entre o nó e o elemento?
 
-#### Eventos
+### Eventos
 
 * O que é um evento?
 * Quais são os eventos mais usados ​​em um navegador?

@@ -1,17 +1,15 @@
-# 12 - Solutions Code Challenges
-
-## Soluções dos Desafios
+# Soluções dos Desafios
 
 * Tipo: `seminário`
 * Formato: `guiado`
-* Duración: `120min`
+* Duração: `120min`
+
+***
 
 ## Objetivos
 
 * Revisar as soluções de todos os desafios
-* Entender que existe mais de una forma de resolver os problemas y analisar as
-
-  vantagens e desvantagens de cada solução proposta
+* Entender que existe mais de una forma de resolver os problemas y analisar as vantagens e desvantagens de cada solução proposta
 
 ## Agenda
 

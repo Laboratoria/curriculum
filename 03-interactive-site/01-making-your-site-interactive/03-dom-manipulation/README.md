@@ -1,12 +1,10 @@
-# 03 - DOM Manipulation
-
-## Modificando o DOM
+# Modificando o DOM
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `120min`
 
-### Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 
@@ -26,6 +24,8 @@ Nesta unidade aprenderemos:
   * `.replaceChild()`
   * `.insertBefore()`
 
+***
+
 [Aqui, outra leitura sobre o DOM](http://eloquentjavascript.net/13_dom.html)
 
 ## Modificando elementos e conteúdo do DOM
@@ -34,17 +34,17 @@ No tópico anterior vimos o que é o DOM e como selecionar nós usando JavaScrip
 
 Os atributos `.textContent` e `.innerHTML` funcionam como propriedades para obter e modificar o valor de um elemento específico.
 
-#### textContent
+### textContent
 
 Ao usar textContent em um nó, ele mostrará o conteúdo do texto que existe no nó e seus filhos. Se houver tags HTML, elas serão ignoradas. Se um valor for atribuído, ele substituirá todo o conteúdo do nó pela _string_ atribuída a ele. Se a _string_ contiver tags HTML, elas serão interpretadas e exibidas como texto. As alterações feitas não serão permanentes, o documento retornará ao seu estado original assim que o site for recarregado.
 
-![](http://blog.eamexicano.com/wp-content/uploads/2014/02/textcontent.png)
+![textContent](http://blog.eamexicano.com/wp-content/uploads/2014/02/textcontent.png)
 
 ### innerHTML
 
 Funciona de maneira semelhante ao textContent, mas, além de mostrar o texto que existe no nó selecionado e nos filhos, ele mostrará as tags HTML que podem existir. Se um valor for atribuído a ele, o conteúdo do nó será substituído, incluindo seus filhos, pela sequência de texto atribuída a ele. Ao contrário do`textContent`, se as tags HTML existirem na _string_ atribuída, elas serão exibidas no navegador. As alterações feitas não serão permanentes, o documento retornará ao seu estado original assim que o site for recarregado.
 
-![](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
+![innerHTML](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
 
  No vídeo a seguir, vemos de uma maneira prática, como usar `.innerHTML` e `.textContent`:
 
@@ -72,7 +72,7 @@ pai.insertBefore(novoNo, noDeReferencia);
 
  Se tivéssemos um fragmento de um documento como este:
 
-```markup
+```html
 <div id="container">
     <p>Primeiro parágrafo.</p>
     <p>Segundo paragráfo.</p>
@@ -135,7 +135,7 @@ Assim, criar um novo parágrafo é tão simples quanto `document.createElement('
 
 Assim como podemos criar um elemento, podemos criar um texto com o qual ocupá-lo por meio de createTextNode.
 
-*  Sintaxe:
+* Sintaxe:
 
   ```javascript
     document.createTextNode('texto');
@@ -256,15 +256,15 @@ paragraph.className = 'nova mensagem';
 
 Haverá momentos em que precisaremos trabalhar com atributos que não fazem parte da interface HTMLElement. Para esses casos, existem dois métodos: `.setAttribute()` e `.getAttribute().`
 
-**setAttribute \('atributo', 'valor'\)**
+#### setAttribute \('atributo', 'valor'\)
 
 Cria um atributo e define um valor.
 
-**getAttribute \('atributo'\)**
+#### getAttribute \('atributo'\)
 
 Obtém o valor do atributo.
 
-```markup
+```html
 <img id='image'
   src="http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png"
   alt="DOM - innerHTML" width="100%"  />
@@ -325,7 +325,7 @@ As mudanças são chamadas por um temporizador. Quando o intervalo do temporizad
 
 Para demonstrar como criar animações HTML com JavaScript, usaremos uma página web simples.
 
-```markup
+```html
 <!DOCTYPE html>
 <html>
     <body>
@@ -337,7 +337,7 @@ Para demonstrar como criar animações HTML com JavaScript, usaremos uma página
 
  Todas as animações devem ser relativas a um elemento contêiner.
 
-```markup
+```html
 <div id="container" class="container">
     <div id="animate" class="animate">Minha animação será aqui</div>
 </div>

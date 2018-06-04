@@ -1,15 +1,15 @@
-# 10 - Guided Exercises
-
-## Aula Prática
+# Aula Prática
 
 * Tipo: `oficina`
 * Formato: `guiado`
-* Duración: `120min`
+* Duração: `120min`
 
 ## Objetivos
 
 * Praticar programando com sua equipe de professoras, resolvendo problemas de estruturas condicionais, estruturas de repetição e funções
 * Praticar, praticar e praticar
+
+***
 
 ## Enunciados
 

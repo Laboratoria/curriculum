@@ -1,10 +1,10 @@
-# 15 - Closing
-
-## Encerramento: tornando o seu site interativo
+# Encerramento: tornando o seu site interativo
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duración: `120min`
+
+***
 
 ## Agenda
 
@@ -45,7 +45,7 @@
 #### Eventos
 
 * O que é um evento?
-* Quais são os eventos mais usados ​​em um navegador?
+* Quais são os eventos mais usados em um navegador?
 * Como detectamos um "clique" do usuário?
 * Como podemos detectar a entrada de texto de um usuário?
 * Como detectamos o envio de um formulário?

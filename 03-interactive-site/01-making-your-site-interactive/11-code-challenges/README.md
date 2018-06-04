@@ -1,93 +1,93 @@
-# 11 - Code Challenges
+# Desafios
 
-## Desafios
-
-* Tipo: `prática`
-* Formato: `ritmo próprio`
+* Tipo: `exercício`
+* Formato: `individual`
 * Duração: `20h`
 
-### Objetivos
+## Objetivos
 
 * A seguir apresentamos o desafio que você deve completar para colocar seu conhecimento à prova.
 
-### 1. Twitter
+***
+
+## 1. Twitter
 
 Neste desafio, vamos replicar o feed de notícias do Twitter. Para tanto, seguiremos um fluxo de versões que a guiarão para se concentrar mais eficientemente :\)
 
 Você pode adaptar o design como quiser, _mas não demore para definir as cores ou fontes. Finalmente, você pode replicar o design da_ [_página oficial_](https://twitter.com/) :\). Aqui está um exemplo:
 
-![](https://camo.githubusercontent.com/d283bdec68b5453f9eb2b76327d8dff551c465ad/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f76396a5034524947514355514f5363672f67697068792e676966)
+![Exemplo Twitter DOM](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
 
-#### Versão 0.0.1
+### Versão 0.0.1
 
 1. Crie um formulário que permita inserir um texto e um botão para "twittar".
 2. Adicione um evento de _click_ ao botão ou de _submit_ no formulário.
 3. No evento, obter o texto.
 4. Adicione o texto ao HTML.
 
-#### Versão 0.0.2
+### Versão 0.0.2
 
 1. Não inserir texto vazio \(desativar o botão "twittar"\).
 2. Conte o número de caracteres de forma regressiva.
 
-#### Versão 0.0.3
+### Versão 0.0.3
 
 1. Se você passar os 140 caracteres, desative o botão.
 2. Se você passar os 120 caracteres, mostre o contador com outra cor.
 3. Se você passar os 130 caracteres, mostre o contador com outra cor.
 4. Se você passar os 140 caracteres, mostre o contador em negativo.
 
-#### Versão 0.0.4
+### Versão 0.0.4
 
 1. Ao pressionar enter \(`/n`\) aumente a área de texto de acordo com o tamanho do texto.
 
-#### Versão 0.0.5 \(Extra\)
+### Versão 0.0.5 \(Extra\)
 
 1. Se o número de caracteres digitados \(sem dar um "_enter_"\) exceder o tamanho da área de texto por padrão, mais uma linha deverá ser adicionada para que a rolagem não apareça. \(Se aplicável\)
 
-#### Versão 0.0.6 \(Extra\)
+### Versão 0.0.6 \(Extra\)
 
 1. Adicione a hora em que o tweet foi publicado no formato de 24 horas `hh:mm`.
 
 > Nota: Para formatar a data e a hora, você pode criar sua própria função ou usar uma biblioteca como [`moment.js`](https://momentjs.com/)`.`
 
-### 2. Trello
+## 2. Trello
 
 Neste desafio, vamos replicar o quadro do Trello. Para isso vamos seguir um fluxo de versões que irão guiá-la desde o início.
 
 Como no desafio anterior, você pode usar seu próprio estilo ou seguir o [site original](https://trello.com/) . Abaixo você pode ver como deve ficar:
 
-![Exemplo - clone do Trello](https://camo.githubusercontent.com/e6e935f3a0ce7bb16de12e9b2c841b4a555092b7/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c314a39416930616d596e5332324368572f67697068792e676966)
+![Exemplo - clone do Trello](https://media.giphy.com/media/l1J9Ai0amYnS22ChW/giphy.gif)
 
-#### Versão 0.0.1
+### Versão 0.0.1
 
 * O texto "Adicionar uma lista ..." será exibido.
 * Ao clicar, você deve ocultar o texto e mostrar um formulário.
 * O formulário é composto de um _input_ e um botão para que você possa adicionar tarefas à sua lista.
 
-#### Versão 0.0.2
+### Versão 0.0.2
 
 * Ao clicar no botão "Salvar", uma nova caixa aparecerá mostrando o nome da lista adicionada.
 * Mostrar um texto de "Adicionar uma tarefa" na lista.
 
-#### Versão 0.0.3
+### Versão 0.0.3
 
 * Quando você clica em "Adicionar uma tarefa", você deve mostrar um formulário com uma área de texto e um botão que diz "Adicionar".
 
-#### Versão 0.0.4
+### Versão 0.0.4
 
 * Coloque _focus_ no _input_ quando clicar em "Adicionar nova tarefa".
 * Ao clicar no botão "Adicionar", o texto da tarefa deve aparecer abaixo do título da lista.
 
-#### Versão 0.0.5
+### Versão 0.0.5
 
 * Mostrar o formulário novamente abaixo da última tarefa adicionada.
 
-#### Versão 0.0.6 \(Extra\)
+### Versão 0.0.6 \(Extra\)
 
 * Poder adicionar várias listas com cartões. Para isso, o formulário "Adicionar uma lista" deve aparecer à direita da lista criada anteriormente.
 
-### 3. Labirinto \(Opcional\)
+## 3. Labirinto \(Opcional\)
 
 Crie uma página da Web que implemente o jogo do Labyrinth usando DOM e eventos. O jogo Labyrinth é um quebra-cabeça divertido onde você pode dar a qualquer jogador a habilidade de interagir com o mapa para encontrar a saída.
 
@@ -95,23 +95,23 @@ Lembre-se que no Labirinto o objetivo é ir do lugar A para o lugar B apenas pel
 
 > O labirinto tem raízes tão profundas quanto o mito grego sobre Teseu, que foi enviado a um labirinto para matar o minotauro. Teseu usou um novelo de lã para ajudá-lo a encontrar o caminho de volta, assim que matasse a fera.
 
-![](https://camo.githubusercontent.com/b9589bddbe666c41a528fad3d65875523688cfa0/687474703a2f2f70686f746f73312e626c6f676765722e636f6d2f626c6f676765722f363631332f3837382f313630302f6c61626572696e746f30342e6a7067)
+![GitHub set up-w800](http://photos1.blogger.com/blogger/6613/878/1600/laberinto04.jpg)
 
 Para interagir com Teseu, o jogador terá que usar as setas do teclado para poder se mover e ajudar Teseu em sua busca pela saída.
 
-#### Dicas para a solução
+### Dicas para a solução
 
 Abaixo, você encontrará dicas que poderão ajudá-lo com a solução, boa sorte!
 
-**\[Dica 1. \| O programa\]**
+#### \[Dica 1. \| O programa\]
 
 Crie um programa que represente um Teseo em um labirinto e que implemente o algoritmo de busca para um caminho de saída.
 
-[![GitHub set-w800](https://github.com/cemsbr/curricula-js/raw/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/15034128157197.png)](https://github.com/cemsbr/curricula-js/blob/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/15034128157197.png)
+![GitHub set up-w800](media/15034081309333/15034128157197.png)
 
 Para tornar mais fácil para nós, vamos supor que o nosso labirinto é dividido em "quadrados". Cada quadrado do labirinto é aberto ou ocupado por uma seção de parede. Teseu só pode passar pelos quadrados abertos do labirinto. Se Teseu correr para uma parede, ele deve tentar uma direção diferente.
 
-**\[Dica 2. \| Criando o labirinto\]**
+#### \[Dica 2. \| Criando o labirinto\]
 
 Para criar o labirinto, você pode usar uma matriz de _strings_ para representá-lo. A notação que você pode usar para cada elemento no mapa é a seguinte:
 
@@ -122,25 +122,25 @@ Para criar o labirinto, você pode usar uma matriz de _strings_ para representá
 
 ```javascript
 var mazeMap = [
-     " ****************** " ,
-     " * _________ * ______ * " ,
-     " * _____ _ ***** ****** " ,
-     " * *** ______ __ * __ * _ * " ,
-     " *** _ ____ ____ * ** * _ * " ,
-     " * ___ * * ___ ____ __ ** * " ,
-     " * _ ***** *** __ ** _ * _ * " ,
-     " * ____ * ______ * __ * _ * " ,
-     " * _ ** _ * __ ***** _ ** _ * " ,
-     "* ou * __ * ________ ** W * " ,
-    " ****************** " 
+    "******************",
+    "*_________*______*",
+    "*_*****_____******",
+    "*______***__*__*_*",
+    "***_*____*____**_*",
+    "*___*____**__*___*",
+    "*_********__**_*_*",
+    "*____*______*__*_*",
+    "*_**_*__*****_**_*",
+    "*o*__*________**W*",
+    "******************"
 ];
 ```
 
 Esse mapa pode ser traduzido no seguinte com a função apropriada de renderização/desenho:
 
-[![GitHub set-w400](https://github.com/cemsbr/curricula-js/raw/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)](https://github.com/cemsbr/curricula-js/blob/pt/03-interactive-site/01-making-your-site-interactive/11-code-challenges/media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
+![GitHub set up-w400](media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
 
-**\[Dica 3. \| Identificando Objetos e Funções\]**
+#### \[Dica 3. \| Identificando Objetos e Funções\]
 
 É importante identificar os objetos presentes. Se fizermos uma análise da imagem anterior, perceberemos que os objetos presentes são os seguintes:
 
@@ -200,7 +200,7 @@ function moveForward(player) ;
 function exitMaze(player);
 ```
 
-**\[Dica 4. \| Perguntas orientadoras\]**
+#### \[Dica 4. \| Perguntas orientadoras\]
 
 * Como podemos detectar o teclado do usuário? Em particular, as setas?
 * Como podemos mover o personagem no quadro?
