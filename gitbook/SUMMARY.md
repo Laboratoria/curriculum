@@ -18,7 +18,7 @@
     * [12 - Quiz](03-interactive-site/00-html-and-css/12-quiz.md)
     * [13 - Seminar](03-interactive-site/00-html-and-css/13-seminar.md)
     * [14 - Guided Exercises](03-interactive-site/00-html-and-css/14-guided-exercises.md)
-    * [15 - Soft Skill 5](03-interactive-site/00-html-and-css/15-soft-skill-5.md)
+    * [15 - Soft Skills 5](03-interactive-site/00-html-and-css/15-soft-skills-5.md)
     * [16 - Code challenges](03-interactive-site/00-html-and-css/16-code-challenges.md)
     * [17 - Solutions Code Challenges](03-interactive-site/00-html-and-css/17-solutions-code-challenges.md)
     * [18 - Requiz](03-interactive-site/00-html-and-css/18-requiz.md)
