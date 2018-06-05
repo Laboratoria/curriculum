@@ -1,17 +1,17 @@
-# 04-retrospective
-
-## Retrospectiva
+# Retrospectiva
 
 * Tipo: `oficina`
 * Formato: `guiado`
-* Duración: `2h`
+* Duração: `2h`
 
-### Objetivo
+***
+
+## Objetivo
 
 * Refletir sobre a maneira que está aprendendo
 * Identificar as cosas que estão funcionando, as que não e as que devemos começar a fazer
 
-### Agenda
+## Agenda
 
 1. Revisar resultados da pesquisa de encerramento
 2. Retrospectiva
