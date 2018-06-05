@@ -1,61 +1,55 @@
 # Sketching
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `15min`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `15min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Comprender la importancia de utilizar sketching a lo largo del proceso de
-  diseño
+* Entender a importância de usar esboços em todo o processo de design
 
 ***
 
-## Qué es sketching
+## O que é sketching
 
-Sketchear o dibujar es una actividad muy común e importante dentro del proceso
-de diseño ya que nos permite identificar y establecer el flujo de un programa,
-así como la estructura de la información y los elementos gráficos necesarios
-para su buen desarrollo y funcionamiento.
+"Sketchear" ou desenhar é uma atividade muito comum e importante no processo de design, uma vez que nos permite identificar e estabelecer o fluxo de um programa, bem como a estrutura das informações e elementos gráficos necessários para o seu desenvolvimento e operação adequados.
 
-### Por qué
+### Por quê
 
-- Los sketches son una forma de expresar y “materializar” nuestras ideas
-- Fáciles para compartir y recibir feedback
-- Económicos (solo papel y lapicero)
-- Rápidos
-- Ayudan a establecer las rutas o flujo en una página
-- Permite visualizar inconsistencias en el programa
-- Ahorran tiempo y recursos a la hora de desarrollar un producto
+* Esboços são uma maneira de expressar e "materializar" nossas ideias
+* Fácil de compartilhar e receber feedback
+* Econômico \(apenas papel e caneta\)
+* Rápidos
+* Ajudam a estabelecer as rotas ou o fluxo em uma página
+* Permite visualizar inconsistências no programa
+* Economizam tempo e recursos no desenvolvimento de um produto
 
-### Quiénes pueden sketchear
+### Quem pode esboçar
 
-CUALQUIER PERSONA. Olvídate del temor.
+QUALQUER UM. Esqueça o medo
 
-## Recursos básicos para hacer un buen sketch
+## Recursos básicos para fazer um bom esboço
 
-Tomando como base el círculo, cuadrado, triángulo, rectángulo y la línea,
-podemos comenzar a componer, todo depende de qué tan detallista quieres ser.
-Toma en cuenta que hay algunos estándares al momento de hacer un sketch, como,
-la forma de representar texto, una imagen, videos, entre otros.
+Tomando como base o círculo, quadrado, triângulo, retângulo e linha, podemos começar a compor, tudo depende de quão detalhista você quer ser. Tenha em conta que existem alguns padrões ao fazer um sketch, como, por exemplo, representar texto, uma imagem, vídeos, entre outros.
 
 ![](https://preview.ibb.co/kx4fsb/sketching.jpg)
 
-Mira el siguiente ejemplo:
+Veja o exemplo a seguir:
   ![](https://preview.ibb.co/eAkBFw/ex_sketch_2.jpg)
 
 ## Agenda
 
-- Miremos este video:
-   [![Sketching](https://img.youtube.com/vi/L1pBhHjGKvI/0.jpg)](https://youtu.be/L1pBhHjGKvI?t=23m00s)
+* Vamos assistir a este vídeo:
+    [![Sketching](https://img.youtube.com/vi/L1pBhHjGKvI/0.jpg)](https://youtu.be/L1pBhHjGKvI?t=23m00s)
 
-- Dibuja un círculo, un triángulo, un cuadrado y una línea.
+* Desenhe um círculo, um triângulo, um quadrado e uma linha.
 
-- Haz un sketch replicando la pantalla del feed de Instagram.
-   ![Feed de Instagram](https://68.media.tumblr.com/3c84f9684e9717224c126a4bb3d53e20/tumblr_inline_obae6aJ6lz1svf3j7_540.jpg)
+* Faça um sketch reproduzindo a tela de feed do Instagram
+    ![Feed do Instagram](https://68.media.tumblr.com/3c84f9684e9717224c126a4bb3d53e20/tumblr_inline_obae6aJ6lz1svf3j7_540.jpg)
 
-## Materiales
 
-- [Mobile sketches template](https://drive.google.com/open?id=0B0NdG2VNCDPzRHRXdk96VDFFd2M)
-- [Desktop sketches template](https://drive.google.com/open?id=0B0NdG2VNCDPzaWRsQXNpSWtSQ1U)
+## Materiais
+
+* [Modelo de esboços móveis](https://drive.google.com/open?id=0B0NdG2VNCDPzRHRXdk96VDFFd2M)
+* [Modelo de esboços de área de trabalho](https://drive.google.com/open?id=0B0NdG2VNCDPzaWRsQXNpSWtSQ1U)
 
