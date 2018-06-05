@@ -1,88 +1,30 @@
-# Clase Práctica
+# Aula Prática
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `120min`
 
 ## Objetivos
 
-- Practicar codeando junto a tu equipo de profes, resolviendo problemas de UX /
-  UI, navegación y sketching en conjunto
-- Practicar, practicar y practicar
+* Praticar programando junto com sua equipe de professoras, resolvendo problemas de UX/UI, navegação e sketching em grupo
+* Praticar, praticar e praticar
 
 ***
 
 ## Enunciados
 
-A continuación tienes más problemas de práctica. Estos problemas serán resueltos,
-paso a paso, por tu equipo de profes en una sesión presencial (`taller`).
+A seguir você tem mais problemas práticos. Estes problemas serão resolvidos, passo a passo, por sua equipe de professoras em uma sessão presencial \(`oficina`\).
 
-Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
-**antes** de la sesión presencial. Así, ya vienes con dudas específicas y
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante el resto de la clase y así ayduar al resto de tus compañeras :)
+Sugerimos que tente resolver os exercícios por sua conta \(ou em grupo\) **antes** da sessão presencial. Assim, já virá com dúvidas específicas e estará familiarizada com os desafios. Quem sabe, poderá apresentar sua solução para o resto da turma e ajudar suas outras companheiras :\)
 
-## 1. Miremos Netflix y expliquemos qué partes conforman el UX y qué partes el UI
+## 1. Vejamos o Netflix e expliquemos quais partes forma o UX e quais partes formam o UI
 
-<!--
+## 2. Identifiquemos os elementos de navegação nos seguintes sites
 
-En este ejercicio reforzaremos los conceptos de la clase en que hablamos de
-las diferencias entre UX y UI. La idea es generar la discusión en base a una
-plataforma que las chicas conozcan: Netflix. En Netflix encontramos muchas
-aspectos que mejoran la experiencia de usuario sin tener que ser necesariamente
-elementos del UI. Podemos empezar preguntándole a las estudiantes "qué elementos
-de Netflix creen que son parte del UX y qué elementos el UI"
+* [Airbnb](http://airbnb.com/)
+* [Amazon](http://amazon.com/)
 
-Elementos UX:
+## 3. Criemos um sketch para a biblioteca de Laboratoria
 
-- Poner pausa y seguir en cualquier dispositivo.
-- Que pueda tener 5 tipos de usuarios
-- Que pueda buscar rápidamente la serie que quiero
-- Que me sugiera series/películas basadas en mi historial
-- Que la calidad del video cambie automáticamente dependiendo de la velocidad de
-  conexión
+Entre estudantes, professores e membros da Laboratoria temos muitos livros que queremos compartilhas e queremos imaginar como seria a biblioteca da Laboratoria. Nesta biblioteca cada um poderá adicionar seus livros e poderá conversar com os que quiserem pedir o livro emprestado e combinar como devolvê-lo. Além disso, o dono dos livros poderá te um registro para quem emprestou o livro "x" ou "y".
 
-Elementos UI:
-
-- Diseño de los botones
-- Los colores de la marca (negro y rojo)
-- Diseño de los menús
-- Barra de reproducción con botones para subtítulos, episodios, volumen
- - La forma, tamaño y colores de los covers de las series y películas
-- La barra de avance en el consumo del contenido de una serie / película
-
--->
-
-## 2. Identifiquemos los elementos de navegación en los siguientes sites
-
-- [Airbnb](http://airbnb.com)
-- [Amazon](http://amazon.com/)
-
-<!--
-
-Existen muchos elementos de navegación en estos sites. La idea es darles a las
-estudiantes un rato para que ellas visiten los sites y vayan identificando los
-elementos.
-
-En este link están los elementos principales que identificamos. Sin embargo, se
-valora mucho la discusión y propuesta de las chicas.
-
--->
-
-## 3. Creemos un sketch para la biblioteca de Laboratoria
-
-Entre estudiantes, profesores y staff de Laboratoria tenemos muchos libros que
-queremos compartir y queremos imaginarnos cómo sería la biblioteca de
-Laboratoria. En esta biblioteca cada uno podrá subir sus libros y podrá
-conversar con los que quieran pedir prestado el libro para coordinar cómo
-entregarlo. Además, el dueño de los libros podrá tener un record de a quién le
-presto "x" o "y" libro.
-
-<!--
-
-La idea de este ejercicio es practicar entre todos el sketching de productos. No
-hay una solución perfecta, lo que buscamos es generar ideas bajo una premisa y
-buscar que vayan practicando el sketching, sin dejar de lado los conceptos ya
-aprendidos como navegación.
-
--->

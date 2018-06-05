@@ -1,26 +1,21 @@
-# Code Review
+# Revisão de Código
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `3h`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `3h`
 
 ***
 
 ## Objetivos
 
-- Obtener feedback de tus compañeras sobre la limpieza y orden de tu código
-- Construir en equipo el mejor producto final, recogiendo lo mejor de cada coder
-- Empezar a practicar cómo es presentar código ante el público
+* Receber feedback de suas colegas sobre a limpeza e a ordem do seu código
+* Construir em equipe o melhor produto final, coletando o melhor de cada programadora
+* Começar a praticar como apresentar o código ao público
 
 ## Agenda
 
-1. En tu squad, cada una de las coders debe explicar brevemente el código que
-   desarrolló para el producto final y sus compañeras deben darle feedback
-2. Luego de haber revisado todos los productos realizados, deben elegir entre
-   todas el código que consideran que está mejor planteado o más avanzado
-3. En el squad deben terminar de pulir el código elegido, hasta que tengan el
-   código más completo y limpio que pueden construir
-4. Finalmente, deben prepararse para exponer ese código ante la clase y sus
-   profes. Solo una coder del squad va a ser elegida al azar para exponer, así
-   que deben asegurarse de que todas estén bien preparadas para hacer una
-   buena expo!
+1. Em seu grupo, cada uma das programadoras deve explicar brevemente o código que elas desenvolveram para o produto final e suas colegas devem dar feedback
+2. Depois de revisar todos os produtos feitos, elas devem escolher entre todo o código que consideram melhor ou mais avançado.
+3. No grupo elas devem terminar de ajustar o código escolhido, até que tenham o código mais completo e limpo que possam construir
+4. Finalmente, elas devem se preparar para apresentar esse código antes da aula e de suas professoras. Apenas uma programadora do grupo será escolhida aleatoriamente para apresentar, por isso certifique-se de que todas estão bem preparadas para fazer uma boa exposição!
+

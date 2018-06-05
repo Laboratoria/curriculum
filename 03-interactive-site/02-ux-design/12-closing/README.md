@@ -1,22 +1,24 @@
-# Closing
+# Encerramento
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `120min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Repassemos o que aprendemos até agora
 
-### 2. Conversemos sobre el sentimiento de la clase (`auto-evaluación`)
+### 2. Conversemos sobre o sentimento da turma \(`auto-avaliação`\)
 
-### 3. Respondamos las preguntas del opening
+### 3. Respondamos às perguntas da Introdução
 
-- ¿Qué roles conforman el equipo de desarrollo de un producto digital?
-- ¿Cuál es el rol de un UX Designer y cuál el de un UI Designer?
-- ¿Cómo encuentran los usuarios cosas en la web?
-- ¿Qué tipos de navegación existen?
-- ¿Por qué son importantes los sketches?
+* Quais papéis compõem a equipe de desenvolvimento de um produto digital?
+* Por que é importante aprender UX?
+* Por que os usuários não consomem produtos?
+* Qual é o papel de um Designer UX e qual é o papel de um Designer UI?
+* Como os usuários encontram coisas na web?
+* Quais tipos de navegação existem?
+* Por que os sketches são importantes?
 

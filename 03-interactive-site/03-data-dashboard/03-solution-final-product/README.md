@@ -1,22 +1,20 @@
-# Solucionario Data Dashboard
+# Solução do Dashboard de Dados
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `3h`
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `3h`
 
 ## Objetivos
 
-- Revisar las soluciones del data dashboard
-- Entender que existe más de una forma de resolver los problemas y analizar
-  las ventajas y desventajas de cada solución propuesta
+* Revisar as soluções do dashboard de dados
+* Entender que existe mais de uma forma de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta
 
 ***
 
 ## Agenda
 
-1. Por medio de ejemplos nos aseguramos que entendemos:
-   - Cómo procesar datos existentes
-   - Cómo manipular el DOM para mostrar los datos procesados
+1. Por meio de exemplos nos asseguramos que entendemos:
+   * Como processar dados existentes
+   * Como manipular o DOM para mostrar os dados processados
+2. Resolver dúvidas das partes mais complexas do produto final.
 
-2. Resolver dudas de las partes más complejas del producto final en base a lo
-   percibido en la clase
