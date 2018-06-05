@@ -1,17 +1,17 @@
-# 03-solution-final-product
-
-## Solução Dashboard de Dados
+# Solução do Dashboard de Dados
 
 * Tipo: `seminário`
 * Formato: `guiado`
-* Duración: `3h`
+* Duração: `3h`
 
-### Objetivos
+## Objetivos
 
 * Revisar as soluções do dashboard de dados
 * Entender que existe mais de uma forma de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta
 
-### Agenda
+***
+
+## Agenda
 
 1. Por meio de exemplos nos asseguramos que entendemos:
    * Como processar dados existentes

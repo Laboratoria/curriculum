@@ -1,6 +1,4 @@
-# 01-final-product
-
-## Produto final: Dashboard de Dados
+# Produto final: Dashboard de Dados
 
 * Tipo: `prática`
 * Formato: `ritmo próprio`
@@ -8,7 +6,9 @@
 
 ## Objetivos
 
-* A seguir, apresentamos o desafio final deste .
+* A seguir, apresentamos o desafio final deste curso.
+
+***
 
 ## Sobre o produto
 
@@ -38,7 +38,7 @@ Para otimizar seu tempo, as TMs solicitaram que nós construíssemos uma ferrame
 
 Com essas informações e com o [banco de dados que elas nos](https://github.com/Laboratoria-learning/data-dashboard/blob/master/js/data.js) forneceram [,](https://github.com/Laboratoria-learning/data-dashboard/blob/master/js/data.js) conseguimos criar [esse design](https://marvelapp.com/104ejifg/) . No entanto, acreditamos que você poderia propor uma alteração a esse design que possa melhorar a experiência das TMs.
 
-### Quais são os requisitos?
+## O que é exigido?
 
 * Trabalhar em duplas
 * Ter um planejamento
@@ -46,18 +46,18 @@ Com essas informações e com o [banco de dados que elas nos](https://github.com
 * Implementação do dashboard de dados utilizando `html`, `css`e`js`
 * Publicar nas páginas do Github
 
-### Como começar?
+## Como começar?
 
-1. Você deve fazer um [_**fork**_](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de [este repositório](https://github.com/Laboratoria-learning/data-dashboard) .
+1. Você deve fazer um [_**fork**_](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) [deste repositório](https://github.com/Laboratoria-learning/data-dashboard) .
 2. Então você deve **clonar** o _fork_ na sua máquina. Lembre-se que o comando para usar é `git clone` e sua estrutura geralmente se parece com isso:
 
    ```text
    git clone https://github.com/ < nome do usuário > /data-dashboard.git
    ```
 
-### Complemento
+## Complemento
 
-Na Laboratoria \(e especialmente a TMS\) somos viciadas à representação gráfica dos dados, como mostrado no desenho, que seria ideal para exibir os dados processados ​​num gráfico como o design proposto ou alternativa.
+Na Laboratoria \(e especialmente a TMS\) somos viciadas à representação gráfica dos dados, como mostrado no desenho, que seria ideal para exibir os dados processados num gráfico como o design proposto ou alternativa.
 
 > Observação: no estágio de design da experiência com o produto, percebemos que o [Google Charts](https://developers.google.com/chart/interactive/docs/quick_start) poderia ser uma opção para desenvolver esses gráficos, mas não é o único que pode ser usado😃.
 

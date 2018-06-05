@@ -1,10 +1,10 @@
-# 02-code-review
-
-## Revisão de Código
+# Revisão de Código
 
 * Tipo: `oficina`
 * Formato: `guiado`
 * Duração: `3h`
+
+***
 
 ## Objetivos
 
@@ -12,7 +12,7 @@
 * Construir em equipe o melhor produto final, coletando o melhor de cada programadora
 * Começar a praticar como apresentar o código ao público
 
-### Agenda
+## Agenda
 
 1. Em seu grupo, cada uma das programadoras deve explicar brevemente o código que elas desenvolveram para o produto final e suas colegas devem dar feedback
 2. Depois de revisar todos os produtos feitos, elas devem escolher entre todo o código que consideram melhor ou mais avançado.
