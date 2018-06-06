@@ -41,11 +41,11 @@ Você pode adaptar o design como quiser, _mas não demore para definir as cores 
 
 1. Ao pressionar enter \(`/n`\) aumente a área de texto de acordo com o tamanho do texto.
 
-### Versão 0.0.5 \(Extra\)
+### Versão 0.0.5 (Extra)
 
 1. Se o número de caracteres digitados \(sem dar um "_enter_"\) exceder o tamanho da área de texto por padrão, mais uma linha deverá ser adicionada para que a rolagem não apareça. \(Se aplicável\)
 
-### Versão 0.0.6 \(Extra\)
+### Versão 0.0.6 (Extra)
 
 1. Adicione a hora em que o tweet foi publicado no formato de 24 horas `hh:mm`.
 
@@ -83,11 +83,11 @@ Como no desafio anterior, você pode usar seu próprio estilo ou seguir o [site 
 
 * Mostrar o formulário novamente abaixo da última tarefa adicionada.
 
-### Versão 0.0.6 \(Extra\)
+### Versão 0.0.6 (Extra)
 
 * Poder adicionar várias listas com cartões. Para isso, o formulário "Adicionar uma lista" deve aparecer à direita da lista criada anteriormente.
 
-## 3. Labirinto \(Opcional\)
+## 3. Labirinto (Opcional)
 
 Crie uma página da Web que implemente o jogo do Labyrinth usando DOM e eventos. O jogo Labyrinth é um quebra-cabeça divertido onde você pode dar a qualquer jogador a habilidade de interagir com o mapa para encontrar a saída.
 
@@ -103,7 +103,7 @@ Para interagir com Teseu, o jogador terá que usar as setas do teclado para pode
 
 Abaixo, você encontrará dicas que poderão ajudá-lo com a solução, boa sorte!
 
-#### \[Dica 1. \| O programa\]
+#### [Dica 1. | O programa]
 
 Crie um programa que represente um Teseo em um labirinto e que implemente o algoritmo de busca para um caminho de saída.
 
@@ -111,7 +111,7 @@ Crie um programa que represente um Teseo em um labirinto e que implemente o algo
 
 Para tornar mais fácil para nós, vamos supor que o nosso labirinto é dividido em "quadrados". Cada quadrado do labirinto é aberto ou ocupado por uma seção de parede. Teseu só pode passar pelos quadrados abertos do labirinto. Se Teseu correr para uma parede, ele deve tentar uma direção diferente.
 
-#### \[Dica 2. \| Criando o labirinto\]
+#### [Dica 2. | Criando o labirinto]
 
 Para criar o labirinto, você pode usar uma matriz de _strings_ para representá-lo. A notação que você pode usar para cada elemento no mapa é a seguinte:
 
@@ -140,7 +140,7 @@ Esse mapa pode ser traduzido no seguinte com a função apropriada de renderiza�
 
 ![GitHub set up-w400](media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
 
-#### \[Dica 3. \| Identificando Objetos e Funções\]
+#### [Dica 3. | Identificando Objetos e Funções]
 
 É importante identificar os objetos presentes. Se fizermos uma análise da imagem anterior, perceberemos que os objetos presentes são os seguintes:
 
@@ -200,7 +200,7 @@ function moveForward(player) ;
 function exitMaze(player);
 ```
 
-#### \[Dica 4. \| Perguntas orientadoras\]
+#### [Dica 4. | Perguntas orientadoras]
 
 * Como podemos detectar o teclado do usuário? Em particular, as setas?
 * Como podemos mover o personagem no quadro?

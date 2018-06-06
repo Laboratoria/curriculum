@@ -35,7 +35,7 @@ Se dois elementos adjacentes tiverem margem aplicada e as duas margens estiverem
 
 Vejamos um exemplo:
 
-```markup
+```html
 <h1>Basic document flow</h1>
 
 <p>I am a basic block level element. My adjacent block level elements sit on

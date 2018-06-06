@@ -1,7 +1,7 @@
 # Navegação
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `30min`
 
 ## Objetivos de Aprendizagem
@@ -110,7 +110,7 @@ Neste exemplo, a Amazon sugere alguns produtos adicionais, com base no produto q
 
 ![](https://lh5.googleusercontent.com/i8LM6UR77C5HFRUbE_d2JVulbq90Lse_OtBSmzSG-Tz7qieY5VzgBqIgYUWIM-Qaa-EDwn4jKWUbDvLrEREk96e7uUkO1EfYYKvEe4k1CB7hE9T4SY_Mf3de5T_mn_sJYXV_cAwfnac)
 
-### Em Linha \(inline\)
+### Em Linha (inline)
 
 São links de referência usados principalmente em artigos.
 

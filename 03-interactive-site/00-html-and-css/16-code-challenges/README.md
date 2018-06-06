@@ -22,7 +22,7 @@ Para cada desafio, criamos um repositório _padronizado_ \(modelo inicial\) com 
 
 * [Instruções Desafio Lyft](https://github.com/Laboratoria-learning/lyft)
 
-## 3. Workshop \(opcional\)
+## 3. Workshop (opcional)
 
 * [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
 

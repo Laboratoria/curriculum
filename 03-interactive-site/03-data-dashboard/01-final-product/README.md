@@ -1,7 +1,7 @@
 # Produto final: Dashboard de Dados
 
 * Tipo: `prática`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `15h`
 
 ## Objetivos

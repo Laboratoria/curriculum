@@ -23,7 +23,7 @@ Replicar o seguinte esquema:
 
 ![Nossas programadores](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-nuestras-coders.png?raw=true)
 
-### 2. Pinterest \(layout\)
+### 2. Pinterest (layout)
 
 Crie uma réplica do [Pinterest](https://laboratoria.github.io/pinterestify/) com as imagens que você mais gosta :\)
 

@@ -1,7 +1,7 @@
-# Browser Object Model \(BOM\)
+# Browser Object Model (BOM)
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `30min`
 
 ***

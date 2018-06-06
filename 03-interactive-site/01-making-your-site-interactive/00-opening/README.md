@@ -1,6 +1,4 @@
-# 00 - Opening
-
-## Abertura: tornando o seu site interativo
+# Introdução: tornando o seu site interativo
 
 * Tipo: `leitura`
 * Formato: `individual`
