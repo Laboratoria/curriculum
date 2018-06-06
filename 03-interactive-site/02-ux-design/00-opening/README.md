@@ -1,7 +1,7 @@
 # Abertura
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `30min`
 
 ## Objetivos de Aprendizagem

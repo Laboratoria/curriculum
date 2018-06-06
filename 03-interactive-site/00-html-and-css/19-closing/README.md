@@ -10,7 +10,7 @@
 
 ### 1. Revisemos o que aprendemos até agora
 
-### 2. Conversemos sobre o sentimento da classe \(`autoavaliação`\)
+### 2. Conversemos sobre o sentimento da classe (`autoavaliação`)
 
 ### 3. Respondamos às perguntas iniciais
 

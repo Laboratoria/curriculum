@@ -115,7 +115,7 @@ h2 {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite"><span class="highlight">JavaScript</span></li>
@@ -146,7 +146,7 @@ li {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -177,7 +177,7 @@ li {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -208,7 +208,7 @@ ul.programming-languages li.favorite span {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -284,7 +284,7 @@ ul#awesome #must-use {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -315,7 +315,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **HTML:**
 
-```markup
+```html
 <p id="exemplo">Olá!</p>
 ```
 

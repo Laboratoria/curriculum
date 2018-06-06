@@ -1,7 +1,7 @@
 # Introdução: HTML & CSS
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `15min`
 
 ***

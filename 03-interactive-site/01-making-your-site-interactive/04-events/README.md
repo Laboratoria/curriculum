@@ -97,7 +97,7 @@ boton.addEventListener('click', olaMundo, false);
  }
 ```
 
-## Fluxo de Eventos \(Propagação\)
+## Fluxo de Eventos (Propagação)
 
 Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 

@@ -160,7 +160,7 @@ h2 {
 
 **HTML:**
 
-```markup
+```html
 <p id="quote">
   <strong class="subject">Laboratoria</strong>
   <em class="phrase">código que transforma</em>
@@ -195,7 +195,7 @@ h2 {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -226,7 +226,7 @@ ul li {
 
 **HTML:**
 
-```markup
+```html
 <ul class="programming-languages" id="awesome">
   <li><span>Python</span></li>
   <li class="favorite" id="must-use"><span class="highlight">JavaScript</span></li>
@@ -257,7 +257,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **HTML:**
 
-```markup
+```html
 <div class="container">
   <div class="box red"></div>
   <div class="box blue"></div>
@@ -281,7 +281,7 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **HTML:**
 
-```markup
+```html
 <p id="exemplo">Olá!</p>
 ```
 

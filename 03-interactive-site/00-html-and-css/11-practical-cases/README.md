@@ -40,5 +40,3 @@ Em seguida, Lulu explica como resolveu esse desafio:
 
 [![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
 
-
-

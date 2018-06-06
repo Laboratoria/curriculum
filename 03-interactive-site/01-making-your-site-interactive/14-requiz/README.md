@@ -1,4 +1,4 @@
-# Quiz \#2: _requizzing_
+# Quiz #2: _requizzing_
 
 * Tipo: `quiz`
 * Formato: `guiado`
@@ -13,7 +13,7 @@
 
 ## Perguntas
 
-### 1\) O nó `document`, é `pai` dos objetos ou nós
+### 1) O nó `document`, é `pai` dos objetos ou nós
 
 #### Opções
 
@@ -24,7 +24,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 2\) Propriedades dos nós do DOM
+### 2) Propriedades dos nós do DOM
 
 #### Opções
 
@@ -36,7 +36,7 @@
 
 <solution style="display:none;">1,3,4</solution>
 
-### 3\) Para o elemento a seguir
+### 3) Para o elemento a seguir
 
 ```html
     <p id="paragraph">Olá, sou un parágrafo sensual</p>
@@ -61,7 +61,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 4\) `document.getElementsByClassName('unaClase')`, retorna um
+### 4) `document.getElementsByClassName('unaClase')`, retorna um
 
 ```javascript
 var elementos = document.getElementsByClassName('unaClase');
@@ -80,7 +80,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 5\) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
+### 5) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
 
 #### Opções
 
@@ -91,7 +91,7 @@ console.log(elementos);
 
 <solution style="display:none;">4</solution>
 
-### 6\) Qual função utilizamos para criar animações com JS?
+### 6) Qual função utilizamos para criar animações com JS?
 
 #### Opções
 
@@ -102,7 +102,7 @@ console.log(elementos);
 
 <solution style="display:none;">3</solution>
 
-### 7\) Por que é importante o objeto screen ?
+### 7) Por que é importante o objeto screen ?
 
 #### Opções
 
@@ -113,7 +113,7 @@ console.log(elementos);
 
 <solution style="display:none;">1,3</solution>
 
-### 8\) Como posso obter a URL da página anterior a que estou neste momento?
+### 8) Como posso obter a URL da página anterior a que estou neste momento?
 
 #### Opções
 
@@ -124,7 +124,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 9\) Qual método utilizamos para adicionar à `listaDeCompras` um novo elemento chamado `elementoLista`?
+### 9) Qual método utilizamos para adicionar à `listaDeCompras` um novo elemento chamado `elementoLista`?
 
 ```html
   <ul id="listaDeCompras">
@@ -143,7 +143,7 @@ console.log(elementos);
 
 <solution style="display:none;">2</solution>
 
-### 10\) Qual evento é disparado ao selecionar o texto de um _input_ ou _textarea_?
+### 10) Qual evento é disparado ao selecionar o texto de um _input_ ou _textarea_?
 
 #### Opções
 
@@ -154,7 +154,7 @@ console.log(elementos);
 
 <solution style="display:none;">2</solution>
 
-### 11\) Para armazenar dados nas tags HTML sem modificar a apresentação do documento, usamos
+### 11) Para armazenar dados nas tags HTML sem modificar a apresentação do documento, usamos
 
 #### Opções
 
@@ -165,7 +165,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 12\) Sintaxe dos atributos data
+### 12) Sintaxe dos atributos data
 
 #### Opções
 
@@ -176,7 +176,7 @@ console.log(elementos);
 
 <solution style="display:none;">2</solution>
 
-### 13\) O método addEventListener serve para
+### 13) O método addEventListener serve para
 
 #### Opções
 
@@ -187,7 +187,7 @@ console.log(elementos);
 
 <solution style="display:none;">3</solution>
 
-### 14\) Quantos métodos definem o BOM para manipular a janela?
+### 14) Quantos métodos definem o BOM para manipular a janela?
 
 #### Opções
 
@@ -198,7 +198,7 @@ console.log(elementos);
 
 <solution style="display:none;">4</solution>
 
-### 15\) Seleciona os objetos do BOM
+### 15) Seleciona os objetos do BOM
 
 #### Opções
 

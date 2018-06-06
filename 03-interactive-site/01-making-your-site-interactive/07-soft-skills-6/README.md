@@ -1,4 +1,4 @@
-# Oficina HSE: Apresentações pessoais \(parte 1\)
+# Oficina HSE: Apresentações pessoais (parte 1)
 
 * Tipo: `oficina`
 * Formato: `guiado`

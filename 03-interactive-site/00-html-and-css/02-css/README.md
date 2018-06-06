@@ -1,7 +1,7 @@
 # Introdução a CSS
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `4h`
 
 ***
