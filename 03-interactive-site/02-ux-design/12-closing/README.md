@@ -10,7 +10,7 @@
 
 ### 1. Repassemos o que aprendemos até agora
 
-### 2. Conversemos sobre o sentimento da turma \(`auto-avaliação`\)
+### 2. Conversemos sobre o sentimento da turma (`auto-avaliação`)
 
 ### 3. Respondamos às perguntas da Introdução
 

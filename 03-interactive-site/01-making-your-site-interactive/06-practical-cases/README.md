@@ -1,4 +1,4 @@
-# Casos Práticos \(vídeos\)
+# Casos Práticos (vídeos)
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -42,11 +42,11 @@ A sua aplicação deverá então imprimir um cartão de embarque, indicando o n�
 
 Abaixo, você encontrará dicas que poderão ajudá-la com a solução, boa sorte!
 
-#### **\[Dica \| Diagrama de fluxo\]**
+#### [Dica | Diagrama de fluxo]
 
 ![Logotipo do GitHub](https://image.ibb.co/bQ86Ya/untitled_8.jpg)
 
-#### **\[Dica \| Representação usando Arrays\]**
+#### [Dica | Representação usando Arrays]
 
 Use uma matriz unidimensional do tipo booleano para representar a tabela de assentos do avião. Inicialize todos os elementos do array com -false- para indicar que todos os lugares estão vazios. À medida que cada lugar é atribuído, defina o elemento correspondente da matriz como true para indicar que esse lugar não está mais disponível.
 
@@ -68,7 +68,7 @@ Uma tabela é mostrada onde são encontradas células vazias, com número ou com
 
 ![Campo minado](https://lh4.googleusercontent.com/c4jnMEV2CirXxh8CRzP1y6_VSqfPOLNQnTGyv2uKyPzEMfa42ztBClyMCigW7K3dJqNWacIJDjaj-kfVDFWtQbHySxNhSSRBPVnf2Q2SbHK3MUkWD0WMpsVyXeUAfrI11ya9heW5lng)
 
-**Perguntas guia**
+#### Perguntas guia
 
 * Como você pode estruturar o campo no navegador? \(dica: HTML\)
 * Como você pode diferenciar uma bomba de um número ou de uma célula vazia no HTML?
@@ -77,7 +77,7 @@ Uma tabela é mostrada onde são encontradas células vazias, com número ou com
 * Como podemos fazer elementos aparecerem e desaparecerem em HTML?
 * Como fazemos para que os cliques do usuário não possam mais ser inseridos? \(dica: removeEventListener\)
 
-**Requisitos**
+#### Requisitos
 
 * Exibir uma tabela 4 x 4 \(com bombas, células vazias e números em posição fixa\)
 * Ao clicar em uma célula vazia, mude a cor da célula.
@@ -85,14 +85,14 @@ Uma tabela é mostrada onde são encontradas células vazias, com número ou com
 * Quando você clica em uma célula com um número, mostre o número que você tem.
 * Crie um botão Reset que inicie o jogo novamente.
 
-**Pontos extras**
+#### Pontos extras
 
 * Quando você clicar fora da tabela, mostre a mensagem: "Continue jogando". \(inner html ou alert\).
 * Pergunte o tamanho do campo para o jogo.
 * Peça o nível de dificuldade desejado \(fácil ou difícil e significa o número de bombas no jogo\)
 * Preencha automaticamente tudo \(bombas, células vazias e números\)
 
-**3. Crie um menu de hambúrguer**
+#### 3. Crie um menu de hambúrguer
 
 Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão \(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as opções de menu são mostradas na tela.
 
@@ -102,7 +102,7 @@ Algo assim:
 
 Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
 
-#### **4. Crie abas**
+#### 4. Crie abas
 
 As abas são usadas para agrupar conteúdo semelhante usando apenas um espaço.
 
@@ -138,23 +138,22 @@ A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um d
 
 [![Solu&#xE7;&#xE3;o da companhia a&#xE9;rea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
-
-**2. Campo Minado**
+#### 2. Campo Minado
 
 [![Solu&#xE7;&#xE3;o de ca&#xE7;a-minas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
 
-**3. Menu Hamburger**
+#### 3. Menu Hamburger
 
 [![Menu de Solu&#xE7;&#xE3;o Hamburger](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
 
-**4. Abas**
+#### 4. Abas
 
 [![Guias do menu de solu&#xE7;&#xE3;o](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
 
-**5. Menu dropdown**
+#### 5. Menu dropdown
 
 [![Menu dropdown da solu&#xE7;&#xE3;o](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
 
-**6. Mini zoológico**
+#### 6. Mini zoológico
 
 <https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>

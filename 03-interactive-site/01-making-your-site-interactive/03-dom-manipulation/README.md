@@ -256,11 +256,11 @@ paragraph.className = 'nova mensagem';
 
 Haverá momentos em que precisaremos trabalhar com atributos que não fazem parte da interface HTMLElement. Para esses casos, existem dois métodos: `.setAttribute()` e `.getAttribute().`
 
-#### setAttribute \('atributo', 'valor'\)
+#### setAttribute ('atributo', 'valor')
 
 Cria um atributo e define um valor.
 
-#### getAttribute \('atributo'\)
+#### getAttribute ('atributo')
 
 Obtém o valor do atributo.
 

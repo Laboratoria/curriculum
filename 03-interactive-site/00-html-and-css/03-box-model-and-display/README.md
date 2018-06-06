@@ -1,7 +1,7 @@
-# 03 - Modelo de Caixa e Display
+# Modelo de Caixa e Display
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `1h`
 
 ## Objetivos de Aprendizagem
@@ -225,11 +225,11 @@ div {
 
 ### Outras propriedades
 
-#### Background image \(imagem de fundo\)
+#### Background image (imagem de fundo)
 
 É a imagem que é exibida por trás do _conteúdo_ e o espaço do _preenchimento_.
 
-#### Background color \(cor de fundo\)
+#### Background color (cor de fundo)
 
 É a cor que é exibida atrás do _conteúdo_ e o espaço do _preenchimento_.
 
@@ -237,7 +237,7 @@ div {
 
 ## Largura e Altura
 
-### Width \(_largura_\)
+### Width (_largura_)
 
 Controla a largura da caixa ou um elemento.
 
@@ -251,7 +251,7 @@ div {
 }
 ```
 
-### Height \(_altura_\)
+### Height (_altura)
 
 Controla a altura da caixa ou um elemento.
 

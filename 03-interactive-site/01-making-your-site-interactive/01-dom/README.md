@@ -1,7 +1,7 @@
-# Document Object Model \(DOM\)
+# Document Object Model (DOM)
 
 * Tipo: `leitura`
-* Formato: `ritmo próprio`
+* Formato: `individual`
 * Duração: `30min`
 
 ## Objetivos de Aprendizagem
@@ -31,7 +31,7 @@ Nesta unidade aprenderemos:
 
 Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) , podemos ver o que é o DOM. Esta informação é um extrato da LibrosWeb, pioneira na criação de conteúdo educacional para desenvolvimento web.
 
-## Navegando no DOM \(DOM Tree\)
+## Navegando no DOM (DOM Tree)
 
 Cada tag wrapper e texto do documento HTML é o que é chamado de nó DOM.
 
