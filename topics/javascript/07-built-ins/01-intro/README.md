@@ -4,95 +4,90 @@
 * Formato: `self-paced`
 * Duración: `15min`
 
+## Objetivos de Aprendizaje
+
+En esta unidad aprenderemos:
+
+- ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en JavaScript?
+-¿Por qué utilizarlos?
+
 ***
 
-## JavaScript, en el núcleo del lenguaje
+### JavaScript, indagando en el núcleo del lenguaje
 
-Todos los lenguajes de programación tienen objetos intrinsecos (o incorporados/
-built-in) que crean la funcionalidad escencial del lenguaje. Los objetos
-intrínsecos son la base del lenguaje en el
-que escribes código y sirven para
-potenciar la funcionalidad de tu código.
-JavaScript tiene muchos objetos
-intrinsecos que lo definen como un
-lenguaje.
-El término "objetos globales" (o objetos incorporados estándar) no debe
+Todos los lenguajes de programación tienen objetos preconstruidos (built-in)
+que crean la funcionalidad escencial del lenguaje. Los objetos
+preconstruidos son la base del lenguaje en el que escribes código y sirven para
+potenciar la funcionalidad de tu código. 
+JavaScript tiene muchos objetos preconstruidos que lo definen como un lenguaje.
+El término "objetos globales" (u objetos preconstruidos estándar) no debe
 confundirse con el objeto global. Aquí, los objetos globales se refieren a
-objetos en el ámbito global. Estos objetos y funciones especiales que vienen
-con JavaScript pero que no son parte del
-lenguaje en sí, también se conocen
-como la _librería estándar_ (standard
-library) ya que siempre podemos contar
-con ellos. Son librerías que no tenemos que
-importar y siempre están disponibles,
-independientemente del entorno donde se ejecute nuestro código (navegador,
-node, ...).
+objetos en el [ámbito global](https://msdn.microsoft.com/es-es/library/bzt2dkta(v=vs.94).aspx). Estos objetos y funciones especiales que vienen
+con JavaScript pero que no son parte del lenguaje en sí, también se conocen
+como la _librería estándar_ (standard library) ya que siempre podemos contar
+con ellos. Son librerías que no tenemos que importar y siempre están
+disponibles, independientemente del entorno donde se ejecute nuestro código
+(navegador, node, ...).
 
-*¿Por qué deberías de usar las funciones de la librería estándar disponibles en javascript?*
+*¿Por qué deberías de usar las funciones de la librería estándar disponibles en
+javascript?*
 
-Hay muchas funciones disponibles  para
-ayudarte a escribir un programa bueno y eficiente.
-
-Como desarrolladores de software, nuestro trabajo es encontrar la solución más
-simple a un problema. "Más simple" es un poco vago,así que vamos a definirlo
-como "funciona, es eficiente (suficiente), es relativamente fácil de entender y
-no tarda demasiado en implementarse".
+Hay muchas funciones disponibles  para ayudarte a escribir un programa bueno
+y eficiente. Como desarrolladores de software, nuestro trabajo es encontrar
+la solución más simple a un problema. "Más simple" es un poco vago, así que
+vamos a definirlo como "funciona, es eficiente (suficiente), es relativamente
+fácil de entender y no tarda demasiado en implementarse".
 
 ¿Cuánto tardarías en escribir una función que corte una cadena o verifique si
-un número es positivo o agrega relleno izquierdo? Muchas funciones que
-encontraras en una librería estándar son probablemente triviales por
-naturaleza, pero tener un estándar acordado para hacer las cosas acelerará la
-implementación del código (habrá menos instancias de "¿hay una función para
-esto o debería codificarla yo mismo?") Además otras personas que leen tu código
-pueden concentrarse en aprender sobre las dependencias que realmente importan y
-no en aprender librerías que consumes para una sola línea de código.
+un número es positivo? Muchas funciones que encontraras en una librería
+estándar son probablemente triviales por naturaleza, pero tener un estándar
+acordado para hacer las cosas acelerará la implementación del código (habrá
+menos instancias de "¿hay una función para esto o debería codificarla yo
+mismo?") Además otras personas que leen tu código pueden concentrarse en
+aprender sobre las dependencias que realmente importan y no invertir su tiempo
+en entender librerías que consumes para una sola línea de código.
 
 ### Ventajas más importantes de usar funciones de librería estándar
 
 * Funcionan
 
-Una de las razones más importantes por las que debes usar las funciones de la
-librería estándar es simplemente porque funcionan, ya han pasado por múltiples
-pruebas rigurosas y son fáciles de usar.
+    Una de las razones más importantes por las que debes usar las funciones de
+    la librería estándar es simplemente porque funcionan, ya han pasado por
+    múltiples pruebas rigurosas y son fáciles de usar.
 
 * Están optimizadas para el rendimiento
 
-Un grupo dedicado de desarrollo las mejora constantemente. En el proceso, estos
-equipos pueden crear el código más eficiente y optimizado para obtener el
-máximo rendimiento.
+    Un grupo dedicado de desarrollo las mejora constantemente. En el proceso,
+    estos equipos pueden crear el código más eficiente y optimizado para
+    obtener el máximo rendimiento.
 
 * Ahorran un considerable tiempo de desarrollo
 
-Dado que las funciones generales como imprimir en una pantalla, calcular la
-raíz cuadrada y muchas más ya están escritas. No debes preocuparte por
-crearlas una vez más.
-Ahorrarás un tiempo valioso, además que tu código puede no ser siempre el más
-eficiente.
+    Dado que las funciones generales como imprimir en una pantalla, calcular la
+    raíz cuadrada y muchas más ya están escritas. No debes preocuparte por
+    crearlas una vez más. Ahorrarás un tiempo valioso, además que tu código
+    puede no ser siempre el más eficiente.
 
 * Son soportadas en la mayoría de los navegadores
 
-Con las cambiantes necesidades del mundo real, se espera que tu aplicación
-funcione siempre, en cualquier lugar, en cualquier dispositivo.
-
-Estas funciones de la biblioteca te ayudan a que tu aplicación funcione igual
-en todas las computadoras.
-Esto ahorra tiempo, esfuerzo y hace que tu programa sea compatible con otros
-navegadores.
+    Con las cambiantes necesidades del mundo real, se espera que tu aplicación
+    funcione siempre, en cualquier lugar, en cualquier dispositivo.
+    Estas funciones de la biblioteca te ayudan a que tu aplicación funcione
+    igual en todos los dispositivos. Esto ahorra tiempo, esfuerzo y hace que tu
+    programa sea compatible con otros navegadores.
 
 Ejemplo:
 
+```
 Supongamos que quieres encontrar la raíz cuadrada de un número.
 Siempre puedes escribir tu propia pieza de código para encontrar la raíz
 cuadrada, pero este proceso lleva tiempo y puede no ser el más eficiente.
 
 Sin embargo, en la programación javascript puedes encontrar la raíz cuadrada
-simplemente usando la función `Math.sqrt()`.
+simplemente usando la función Math.sqrt() .
+```
 
-Aquí abajo mencionaremos algunos de los objetos más utilizados.
-
-#### Objetos incorporados
-
-Estos son algunos de los objetos incorporados en javascript:
+#### Algunos de los objetos preconstruidos más utilizados
 
 * Object
 * Function
