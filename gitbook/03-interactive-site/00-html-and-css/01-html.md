@@ -1,10 +1,8 @@
-# HTML
+# 01 - HTML
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `4h`
-
-***
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `4h`
 
 ## Objetivos de Aprendizagem
 
@@ -36,7 +34,7 @@ Um elemento pode conter outros elementos ou tags HTML em seu conteúdo. Isso é 
 
 Lembre-se da estrutura básica de um documento HTML que estamos usando na maioria dos nossos exercícios e inclua alguns elementos adicionais:
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -61,7 +59,7 @@ Ao abrir este documento no navegador, teremos o seguinte:
 
 ![HTML aninhado](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-nested-html.png?raw=true)
 
-##  Elementos em bloco vs. inline
+## Elementos em bloco vs. inline
 
 Vamos voltar para a leitura sobre HTML da [Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started):
 
@@ -73,7 +71,7 @@ Vamos voltar para a leitura sobre HTML da [Mozilla Developer Network](https://de
 
 Vamos ver um exemplo:
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -111,7 +109,7 @@ Para cada elemento anterior, entenda se ele se comporta como `inline` ou como `b
 
 Em sua pesquisa, você certamente se deparou com [o elemento `a` para adicionar um link ao seu site:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) e você deve ter notado que uma série de informações aparece na _tag_ de abertura:
 
-```html
+```markup
 <a href="http://laboratoria.la/" target="_blank" title="Página inicial da Laboratoria">Ir para Laboratoria</a>
 ```
 
@@ -127,7 +125,7 @@ No caso do exemplo anterior, podemos visualizar três atributos: o atributo `hre
 
 Existem muitos atributos comuns a todos os elementos html e existem atributos específicos associados a um determinado elemento. Um atributo que se aplica a quase todos os elementos html é o atributo `style` que permite dar estilos ao seu elemento. Por exemplo, se quisermos que o conteúdo dentro de um elemento `p` seja vermelho em um fundo amarelo e com uma borda preta, fazemos:
 
-```html
+```markup
 <p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
 ```
 
@@ -139,7 +137,7 @@ Um atributo de estilo pode conter uma ou mais instruções. Cada instrução é 
 
 Há muitos aspectos que podem ser influenciados pelo estilo. Por exemplo, a propriedade `display` controla se um item é exibido como um bloco ou em linha, ou até mesmo não exibido:
 
-```html
+```markup
 <p>
   Um texto pode ser <strong>em linha</strong>,
   <strong style="display: block">como bloco</strong>, y
@@ -159,7 +157,7 @@ Na próxima lição sobre `css` aprofundaremos o conceito de estilizar seus elem
 
 Em sua pesquisa, você certamente se deparou com [o elemento `<img>` para adicionar uma imagem ao seu site](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) e você notou que ele não tem uma tag de fechamento e, portanto, não tem "conteúdo":
 
-```html
+```markup
 <img src="http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg">
 ```
 
@@ -173,7 +171,7 @@ Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do
 
 Assim como podemos comentar nosso código `javascript` para torná-lo mais compreensível, também podemos adicionar comentários ao nosso código HTML. Para definir um comentário em um arquivo HTML, usamos os marcadores `<!--` para abrir o comentário e `-->` para fechá-lo.
 
-```html
+```markup
 <!-- Isto é um comentário. Não será visto na página, mas sim em meu código. -->
 ```
 
@@ -194,7 +192,7 @@ Para fazer esses agrupamentos, podemos usar os elementos `div` e `span`. Os elem
 
 Vejamos um exemplo:
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <body>
@@ -250,3 +248,4 @@ Para implementar essas seções semânticas, o HTML possui tags apropriadas que 
 * `<article>`
 * `<section>`
 * `<footer>`
+

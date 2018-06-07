@@ -1,10 +1,8 @@
-# Soluções dos Desafios
+# 12 - Solutions Code Challenges
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `120min`
-
-***
 
 ## Objetivos
 

@@ -1,10 +1,8 @@
-# Oficina HSE - Gerenciamento de estresse: organização, planejamento e mindfullness
+# 08 - Soft Skills 4
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `180min`
-
-***
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `180min`
 
 ## Objetivos
 

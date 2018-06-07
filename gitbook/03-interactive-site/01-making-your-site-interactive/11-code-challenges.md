@@ -1,4 +1,4 @@
-# Desafios
+# 11 - Code Challenges
 
 * Tipo: `exercício`
 * Formato: `individual`
@@ -7,8 +7,6 @@
 ## Objetivos
 
 * A seguir apresentamos o desafio que você deve completar para colocar seu conhecimento à prova.
-
-***
 
 ## 1. Twitter
 
@@ -107,7 +105,7 @@ Abaixo, você encontrará dicas que poderão ajudá-lo com a solução, boa sort
 
 Crie um programa que represente um Teseo em um labirinto e que implemente o algoritmo de busca para um caminho de saída.
 
-![GitHub set up-w800](media/15034081309333/15034128157197.png)
+![GitHub set up-w800](https://github.com/cemsbr/curricula-js/tree/556b278976465acfa75e4c03351ad8af0872720d/gitbook/03-interactive-site/01-making-your-site-interactive/media/15034081309333/15034128157197.png)
 
 Para tornar mais fácil para nós, vamos supor que o nosso labirinto é dividido em "quadrados". Cada quadrado do labirinto é aberto ou ocupado por uma seção de parede. Teseu só pode passar pelos quadrados abertos do labirinto. Se Teseu correr para uma parede, ele deve tentar uma direção diferente.
 
@@ -138,7 +136,7 @@ var mazeMap = [
 
 Esse mapa pode ser traduzido no seguinte com a função apropriada de renderização/desenho:
 
-![GitHub set up-w400](media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
+![GitHub set up-w400](https://github.com/cemsbr/curricula-js/tree/556b278976465acfa75e4c03351ad8af0872720d/gitbook/03-interactive-site/01-making-your-site-interactive/media/15034081309333/Screen%20Shot%202017-08-22%20at%2010.17.30%20AM.png)
 
 #### \[Dica 3. \| Identificando Objetos e Funções\]
 

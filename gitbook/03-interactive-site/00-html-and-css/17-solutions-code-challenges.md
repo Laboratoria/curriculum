@@ -1,10 +1,8 @@
-# Soluções dos Desafios de Código
+# 17 - Solutions Code Challenges
 
-- Tipo: `seminário`
-- Formato: `guiado`
-- Duração: `6h`
-
-***
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `6h`
 
 ## Objetivos
 

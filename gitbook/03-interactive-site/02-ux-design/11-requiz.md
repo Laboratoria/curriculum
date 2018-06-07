@@ -1,153 +1,151 @@
-# Quiz #2
+# 11-requiz
 
-- Tipo: `quiz`
-- Formato: `guiado`
-- Duración: `30min`
+## Quiz \# 2
 
-## Objetivos
+* Tipo: `quiz`
+* Formato: `guiado`
+* Duração: `30min`
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+### Objetivos
 
-***
+* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
 
-## Preguntas
+### Perguntas
 
-### 1) ¿Por qué los UX Designers investigan sobre la competencia?
+#### 1\) Por que UX Designers pesquisam sobre a concorrência?
 
-#### Opciones
+**Opções**
 
-1. Porque necesitan inspiración
-2. Porque tienen recursos ilimitados
-3. Porque es parte del proceso
-4. Porque quieren saber cómo diferenciarse de ellos
+1. Porque eles precisam de inspiração
+2. Porque eles têm recursos ilimitados
+3. Porque é parte do processo
+4. Porque eles querem saber como se diferenciar deles
 
+4
 
-<solution style="display:none;">4</solution>
+#### 2\) UX Designers estão constantemente conversando e observando os usuários para ...
 
-### 2) Los UX Designers están constantemente conversando y observando a los usuarios para...
+**Opções**
 
-#### Opciones
+1. Criar melhores interfaces
+2. Entender quais são seus problemas e quais são suas necessidades
+3. Minimizar as chances de lançar um produto malsucedido
+4. Verificar se o seu produto é bem sucedido
 
-1. Crear mejores interfaces
-2. Entender cuáles son sus problemas y cuáles son sus necesidades
-3. Minimizar las posibilidades de lanzar un producto no exitoso
-4. Ver si su producto es exitoso
+2
 
-<solution style="display:none;">2</solution>
+#### 3\) Que papéis intervêm na etapa de `design da experiência` de produtos digitais?
 
-### 3) ¿Qué roles intervienen en la etapa de `diseño de la experiencia` en el desarrollo de productos digitales?
+**Opções**
 
-#### Opciones
+1. Gerente de Produto e Gerente de Projetos
+2. Growth Hacker e Designer UX
+3. Designer de UX e Designer de UI
+4. Designer de UI e desenvolvedor front-end
 
-1. Product Manager y Project Manager
-2. Growth Hacker y Diseñador UX
-3. UX Designer y UI Designer
-4. UI Designer y Front-end Developer
+3
 
-<solution style="display:none;">3</solution>
+#### 4\) Quais produtos possuem UX?
 
-### 4) ¿Qué productos poseen UX?
+**Opções**
 
-#### Opciones
+1. Um livro
+2. Uma garrafa de ketchup
+3. Uma teia
+4. Uma aplicação móvel
+5. Todas as anteriores
 
-1. Un libro
-2. Una botella de ketchup
-3. Una web
-4. Una aplicación móvil
-5. Todas las anteriores
+5
 
-<solution style="display:none;">5</solution>
+#### 5\) Ter uma mentalidade artística e conhecimento técnico sobre os componentes dos produtos digitais são características de um designer \_\_\_\_\_\_\_\_\_\_\_.
 
-### 5) Tener una mentalidad artística y concimientos técnicos sobre los componentes de los productos digitales son características de un  ___________ designer.
-
-#### Opciones
+**Opções**
 
 1. Visual
 2. UI
 3. UX
 4. Front-end
 
-<solution style="display:none;">2</solution>
+2
 
-### 6) ¿Cuáles son los perfiles típicos en la etapa de `desarrollo` de un producto digital?
+#### 6\) Quais são os perfis típicos na etapa de `desenvolvimento` de um produto digital?
 
-#### Opciones
+**Opções**
 
-1. Product Manager y Back-end Developer
-2. Product Manager y Growth Hacker
-3. Front-end Developer y Back-end Developer
-4. Growth Hacker e inversionista
+1. Gerente de produto e desenvolvedor de back-end
+2. Gerente de Produtos e Growth Hacker.
+3. Desenvolvedor front-end e desenvolvedor back-end
+4. Growth Hacker e Investidor
 
-<solution style="display:none;">3</solution>
+3
 
-### 7) Del website de `Spotify`, ¿qué tipo de navegación es la que está señalada en rojo?
+#### 7\) No site do `Spotify`, que tipo de navegação é indicada em vermelho?
 
-![Spotify navegación](https://lh4.googleusercontent.com/_xRGmmD8EJRMhJPzE0CmPK-hu3BPrvvttPDDjgGTAcMhAPkzP0QEhNWgGp6Px6G3H3VcDQJhTddG4oalw__kpRPfSVYHJPgMhyKkLyBisEW9Plxe9XM61tubh2hMnTQX6Y5X5gQmefk )
+![](https://camo.githubusercontent.com/c9bd8e0c2ba034a33ee2135db52dc5a80ddcf1f1/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f5f7852476d6d4438454a524d684a507a4530436d504b2d687533425072767674745044446a67475441634d6841506b7a50305145684e576747703650783647334833566344514a6854646447346f616c775f5f6b70525066535659484a50674d68794b6b4c79426973455739506c786539584d36317475626832684d6e545158365935583567516d65666b)
 
-#### Opciones
+**Opções**
 
 1. Local
 2. Global
-3. Facetada
-4. Suplementaria
+3. Selecionada
+4. Complementar
 
-<solution style="display:none;">2</solution>
+2
 
-### 8) Los siguientes términos: `resolución de problemas`, `entender necesidades`, están más relacionados con:
+#### 8\) Os seguintes termos: `resolução de problemas`, `entender necessidades`, estão mais relacionadas com:
 
-#### Opciones
+**Opções**
 
 1. UI
-2. Productos digitales
-3. Front-end developers
+2. Produtos digitais
+3. Desenvolvedores front-end
 4. UX
 
-<solution style="display:none;">4</solution>
+4
 
-### 9) Completa los espacios en blanco: `___ es lo qué te hace sentir una marca o producto al momento de interactuar con él, mientras que ____ es una capa visual de colores, texturas, formas y elementos.`
+#### 9\) Preencha os espaços em branco:  `___ é o que te faz  sentir uma marca ou produto no momento de interagir com ele, enquanto que ____ é uma camada visual de cores, texturas, formas e elementos.`
 
-#### Opciones
+**Opções**
 
 1. UX - UI
 2. UI - UX
 
-<solution style="display:none;">1</solution>
+1
 
-### 10) Son actividades que realiza un UI Designer:
+#### 10\) São atividades realizadas por um Designer UI:
 
-#### Opciones
+**Opções**
 
-1. Pruebas (de usabilidad, con usuarios)
-2. Diseño de elementos (botones, formularios)
-3. Diseño visual (iconos, imágenes)
-4. Investigación (con stakeholders, etnográfica, entrevistas 1 a 1…)
-5. Guías de estilo (paletas de color, fonts)
+1. Teste \(usabilidade, com usuários\)
+2. Elementos de design \(botões, formas\)
+3. Design visual \(ícones, imagens\)
+4. Pesquisa \(com partes interessadas, etnográficas, entrevistas 1 a 1 ...\)
+5. Guias de estilo \(paletas de cores, fontes\)
 
-<solution style="display:none;">2,3,5</solution>
+2,3,5
 
-### 11) En esta búsqueda en `Youtube`, ¿qué tipo de navegación es la que está señalada en rojo?
+#### 11\) Nesta busca no `Youtube`, que tipo de navegação é aquela indicada em vermelho?
 
-![Youtube navegación](https://lh3.googleusercontent.com/K_m6buhGG2DAr2GuQiq-vEL-dsHsBMfRYdrGSW6QXbl4eDDZIBW_ygvI6H_2h3yh4OPBWQXofy5uo5Pt-4Yt3554Q6fL3I2PHk3BTsgK2frCrhMo23llJdkeBZSjtxoM7PL4uZgErLw)
+![Navega&#xE7;&#xE3;o do YouTube](https://camo.githubusercontent.com/90ebbee55444631cbe98fd5b2d9d715afc50de39/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f4b5f6d366275684747324441723247755169712d76454c2d64734873424d6652596472475357365158626c346544445a4942575f7967764936485f3268337968344f50425751586f667935756f3550742d345974333535345136664c33493250486b33425473674b3266724372684d6f32336c6c4a646b65425a536a74786f4d37504c34755a6745724c77)
 
-#### Opciones
+**Opções**
 
 1. Local
-2. Suplementaria
+2. Complementar
 3. Filtrada
 4. Global
 
-<solution style="display:none;">3</solution>
+3
 
-### 12) ¿Cuáles son los 2 conceptos clave para entender User Experience Design?
+#### 12\) Quais são os dois principais conceitos para entender o User Experience Design?
 
-#### Opciones
+**Opções**
 
-1. Generar mayores ingresos para la compañía
-2. Ofrecer una experiencia amigable para los usuarios
-3. Responsive design
-4. Tener mejores productos digitales
-5. Resolver necesidades de los usuarios
+1. Gerar maior renda para a empresa
+2. Oferecer uma experiência amigável
+3. Design responsivo
+4. Ter melhores produtos digitais
+5. Resolver as necessidades do usuário
 
-<solution style="display:none;">2,5</solution>
+2,5
+

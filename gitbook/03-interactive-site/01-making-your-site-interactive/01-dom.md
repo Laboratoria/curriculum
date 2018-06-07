@@ -1,4 +1,4 @@
-# Document Object Model \(DOM\)
+# 01 - DOM
 
 * Tipo: `leitura`
 * Formato: `ritmo próprio`
@@ -25,8 +25,6 @@ Nesta unidade aprenderemos:
   * `document.querySelector()`
   * `document.querySelectorAll()`
 
-***
-
 ## O que é o DOM?
 
 Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) , podemos ver o que é o DOM. Esta informação é um extrato da LibrosWeb, pioneira na criação de conteúdo educacional para desenvolvimento web.
@@ -37,13 +35,9 @@ Cada tag wrapper e texto do documento HTML é o que é chamado de nó DOM.
 
 Cada um dos nós é um **objeto** e, como nos lembramos, os objetos possuem **propriedades e métodos** . Esses objetos são organizados em uma estrutura de árvore, na qual o próprio documento HTML é a raiz da árvore de todos os nós.
 
-Página Web (1)| Árbol de Nodos DOM (2)
--- | --
-![Página web][x] | ![DOM][y]  |
-
-[x]:https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png
-
-[y]:https://preview.ibb.co/drvdxQ/representaciondom.png
+| Página Web \(1\) | Árbol de Nodos DOM \(2\) |
+| --- | --- |
+| ![](https://preview.ibb.co/kQZGj5/pag_Web_Sencilla.png) | ![](https://preview.ibb.co/drvdxQ/representaciondom.png) |
 
 No esquema anterior \(2\), cada retângulo representa um nó \(objeto\) DOM, e as setas indicam relações familiares \(pai - filhos - irmãos\) entre nós. Sim, os nós têm relacionamentos familiares. Assim como você tem irmãos, pai ou filhos, **os nós do DOM também têm um relacionamento familiar** .
 
@@ -51,7 +45,7 @@ No esquema anterior \(2\), cada retângulo representa um nó \(objeto\) DOM, e a
 
 #### Analisemos esta imagem
 
-![Árvore DOM](https://www.w3schools.com/js/pic_htmltree.gif)
+![&#xC1;rvore DOM](https://www.w3schools.com/js/pic_htmltree.gif)
 
 * A raiz da árvore de nós de qualquer página da web é sempre a mesma: **um nó chamado document** que é o objeto `pai` dos demais objetos.
 * O nó **html** é aquele pai dos objetos ou nós **head** e **body** \(mas **filho** do nó **document**\).
@@ -72,7 +66,7 @@ Como você pode ver, a transformação da página da Web em uma árvore DOM gera
 
 Então, a seguinte tag HTML:
 
-```html
+```markup
 <title>Página única</title>
 ```
 
@@ -83,11 +77,11 @@ gera os seguintes nós:
 
 Portanto, temos 1 nó de tipo elemento e 1 nó de tipo texto
 
-![nó tipo texto - nó tipo elemento](https://image.ibb.co/grkdE5/nodotipo_Texto_Nodotipo_Elemento.png)
+![n&#xF3; tipo texto - n&#xF3; tipo elemento](https://image.ibb.co/grkdE5/nodotipo_Texto_Nodotipo_Elemento.png)
 
 Da mesma forma, a tag HTML
 
-```html
+```markup
 <p> Esta página é <strong> muito simples </strong></p>
 ```
 
@@ -100,7 +94,7 @@ gera os seguintes nós:
 
 Portanto, você tem 2 nós de tipo elemento e 2 nós de tipo texto.
 
-![nó tipo texto - nó tipo elemento](https://image.ibb.co/dFBPnQ/nodotipo_Texto_Nodotipo_Elemento2.png)
+![n&#xF3; tipo texto - n&#xF3; tipo elemento](https://image.ibb.co/dFBPnQ/nodotipo_Texto_Nodotipo_Elemento2.png)
 
 #### Algumas regras
 
@@ -133,14 +127,14 @@ Vejamos mais especificamente suas características.
 
 * Nó Element: representa cada uma das tags HTML. Podem ser filhos de outro nó de tipo _element_ e também ter filhos \(nó _element_ ou nó _text_\).
 
-  ```html
+  ```markup
   Tags HTML
 
   <html></html><head></head><body></body><h1></h1><p></p><div></div>
   <form></form><a></a><img/><strong></strong>
   ```
 
-  ```html
+  ```markup
   Nó Element com filhos Element
 
   <html>
@@ -151,7 +145,7 @@ Vejamos mais especificamente suas características.
   3 nós de Element -> tags html, head e body
   ```
 
-  ```html
+  ```markup
   Nó Element com filho text
 
   <h1>Olá,mundo</h1>
@@ -162,7 +156,7 @@ Vejamos mais especificamente suas características.
 
 * Nó Atr: um nó desse tipo é definido para representar cada um dos atributos das tags HTML. Esses nós são sempre filhos de um nó Elemento e não podem ter filhos.
 
-  ```html
+  ```markup
   <img src="images/logo.png" alt="Logo Laboratoria"/>
 
   1 nó Element -> tag img
@@ -171,7 +165,7 @@ Vejamos mais especificamente suas características.
 
 * Nó Text: nó que contém o texto entre uma tag HTML. Esses nós são sempre filhos de um nó Element e não podem ter filhos.
 
-  ```html
+  ```markup
   <h1>Futuramente eu serei uma programadora da Laboratoria</h1>
   <h2>O que devo fazer?</h2>
   <ul>
@@ -188,7 +182,7 @@ Vejamos mais especificamente suas características.
 
 * Nó Comment: representa os comentários incluídos na página HTML.
 
-  ```html
+  ```markup
   <html>
     <head>
       <title>Página única</title>
@@ -230,7 +224,7 @@ Finalmente, veja o seguinte vídeo da Lulu onde ela menciona os conceitos de DOM
 
 [![Percorrendo o DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
-Também temos o [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
+Também temos o [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#Qu.C3.A9_es_el_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
 
-Outro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
+Outro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#C.C3.B3mo_se_accede_al_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
 

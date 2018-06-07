@@ -1,18 +1,16 @@
-# Quiz #2: requizzing
+# 18 - Requiz
 
-- Tipo: `quiz`
-- Formato: `guiado`
-- Duração: `30min`
+* Tipo: `quiz`
+* Formato: `guiado`
+* Duração: `30min`
 
 ## Objetivos
 
-- Fazer um segundo teste para garantir que terminamos a unidade com uma compreensão total dos conceitos.
-
-***
+* Fazer um segundo teste para garantir que terminamos a unidade com uma compreensão total dos conceitos.
 
 ## Perguntas
 
-### 1) A sigla HTML significa
+### 1\) A sigla HTML significa
 
 #### Opções
 
@@ -20,9 +18,9 @@
 2. Linguagem de marcação de tipo de hiperlink
 3. Linguagem de marcação de hipertexto
 
-<solution style="display:none;">3</solution>
+3
 
-### 2) Quais são as tags que precisam ser fechadas?
+### 2\) Quais são as tags que precisam ser fechadas?
 
 #### Opções
 
@@ -32,9 +30,9 @@
 4. br
 5. a
 
-<solution style="display:none;">1,2,5</solution>
+1,2,5
 
-### 3) Exemplo de aninhamento correto
+### 3\) Exemplo de aninhamento correto
 
 #### Opções
 
@@ -42,9 +40,9 @@
 2. `</p>Sou uma </strong>excelente<strong> </em>programadora<em><p>`
 3. `<p>Sou uma <strong>excelente</strong> <em>programadora</em></p>`
 
-<solution style="display:none;">3</solution>
+3
 
-### 4) Qual é o valor padrão da propriedade `position` dos elementos?
+### 4\) Qual é o valor padrão da propriedade `position` dos elementos?
 
 #### Opções
 
@@ -53,9 +51,9 @@
 3. static
 4. relative
 
-<solution style="display:none;">3</solution>
+3
 
-### 5) São características de um elemento em linha:
+### 5\) São características de um elemento em linha:
 
 #### Opções
 
@@ -64,9 +62,9 @@
 3. Podem estar dentro de um elemento de bloco
 4. Respeitam as propriedades `margin-top` e `margin-bottom`
 
-<solution style="display:none;">1,3</solution>
+1,3
 
-### 6) Qual é a diferença entre `display:inline-block` e `display:inline`?
+### 6\) Qual é a diferença entre `display:inline-block` e `display:inline`?
 
 #### Opções
 
@@ -75,9 +73,9 @@
 3. Não há diferenças entre os dois
 4. Um elemento _inline_ não aparece na tela, enquanto um _inline-block_ sim
 
-<solution style="display:none;">1</solution>
+1
 
-### 7) Qual é a sintaxe correta para a tag `<a>`?
+### 7\) Qual é a sintaxe correta para a tag `<a>`?
 
 #### Opções
 
@@ -85,9 +83,9 @@
 2. `<a src="http://laboratoria.la/">Ir a Laboratoria</a>`
 3. `<a href="http://laboratoria.la/">`
 
-<solution style="display:none;">1</solution>
+1
 
-### 8) Dados os seguintes estilos CSS, que cor eles terão `<h3>`?
+### 8\) Dados os seguintes estilos CSS, que cor eles terão `<h3>`?
 
 ```css
 h3 {
@@ -109,9 +107,9 @@ h2 {
 2. blue
 3. yellow
 
-<solution style="display:none;">1</solution>
+1
 
-### 9) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
+### 9\) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -140,9 +138,9 @@ li {
 2. Preto
 3. Vermelho
 
-<solution style="display:none;">1</solution>
+1
 
-### 10) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
+### 10\) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -171,9 +169,9 @@ li {
 2. Preto
 3. Azul
 
-<solution style="display:none;">3</solution>
+3
 
-### 11) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
+### 11\) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -202,9 +200,9 @@ ul.programming-languages li.favorite span {
 2. Preto
 3. Azul
 
-<solution style="display:none;">3</solution>
+3
 
-### 12) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
+### 12\) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -233,9 +231,9 @@ ul#awesome #must-use {
 2. Preto
 3. Azul
 
-<solution style="display:none;">3</solution>
+3
 
-### 13) Para que line-height é usado?
+### 13\) Para que line-height é usado?
 
 #### Opções
 
@@ -243,9 +241,9 @@ ul#awesome #must-use {
 2. Definir a cor do texto
 3. Definir a espessura do texto
 
-<solution style="display:none;">1</solution>
+1
 
-### 14) Qual é a sintaxe do css?
+### 14\) Qual é a sintaxe do css?
 
 #### Opções
 
@@ -267,9 +265,9 @@ ul#awesome #must-use {
    }
    ```
 
-<solution style="display:none;">3</solution>
+3
 
-### 15) Quais são as propriedades para posicionar elementos?
+### 15\) Quais são as propriedades para posicionar elementos?
 
 #### Opções
 
@@ -278,9 +276,9 @@ ul#awesome #must-use {
 3. up, down, left, right
 4. inside, outside, forward, backward
 
-<solution style="display:none;">1</solution>
+1
 
-### 16) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
+### 16\) Considerando o código a seguir, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -309,9 +307,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 2. Preto
 3. Amarelo
 
-<solution style="display:none;">3</solution>
+3
 
-### 17) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo`?
+### 17\) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo`?
 
 **HTML:**
 
@@ -333,9 +331,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 2. Todos os elementos acima se moverão `5px` para a direita
 3. Nenhum
 
-<solution style="display:none;">1</solution>
+1
 
-### 18) Qual propriedade você usa para fazer com que o conteúdo fique abaixo dos elementos flutuantes?
+### 18\) Qual propriedade você usa para fazer com que o conteúdo fique abaixo dos elementos flutuantes?
 
 #### Opções
 
@@ -344,9 +342,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 3. clear
 4. overflow
 
-<solution style="display:none;">3</solution>
+3
 
-### 19) Qual regra CSS permite que você adicione uma fonte externa?
+### 19\) Qual regra CSS permite que você adicione uma fonte externa?
 
 #### Opções
 
@@ -356,5 +354,5 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 4. `font-weight`
 5. `float`
 
-<solution style="display:none;">1</solution>
+1
 

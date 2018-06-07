@@ -1,24 +1,20 @@
-# Caso Prático (vídeo)
+# 11 - Practical Cases
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `2h`
-
-***
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `2h`
 
 ## Objetivos
 
 * Entender, por meio de um estudo de caso, como criar estruturas na web com
+
   `html` e dar estilos com `css`
 
 ## Enunciado
 
-Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver
-problemas reais.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas reais.
 
-Imagine que você está criando seu primeiro site interativo e deseja fazer um
-menu de navegação. Sua equipe de projeto passou essas demonstrações para você
-replicar:
+Imagine que você está criando seu primeiro site interativo e deseja fazer um menu de navegação. Sua equipe de projeto passou essas demonstrações para você replicar:
 
 ### 1. Menu Vertical
 
@@ -39,6 +35,4 @@ Em seguida, Lulu explica como resolveu esse desafio:
 ### 2. Menu Horizontal da Solução
 
 [![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
-
-
 

@@ -1,10 +1,8 @@
-# Aula Prática
+# 10 - Guided Exercises
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `4h`
-
-***
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `4h`
 
 ## Objetivos
 
@@ -31,8 +29,7 @@ Replique as seguintes imagens colocando em prática o seu conhecimento de `posit
 
 ### 3. CSS Positioning 101, por [Noah Stokes](https://alistapart.com/author/nstokes)
 
-Replicar todos os exemplos de layouts \(`Examples A - J`\) do seguinte artigo:
-[CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
+Replicar todos os exemplos de layouts \(`Examples A - J`\) do seguinte artigo: [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
 ### 4. O tríptico
 

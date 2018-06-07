@@ -6,8 +6,6 @@
 * Formato: `individual`
 * Duração: `20min`
 
-***
-
 ## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:

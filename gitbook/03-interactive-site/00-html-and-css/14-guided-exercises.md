@@ -1,10 +1,8 @@
-#  Exercícios Guiados
+# 14 - Guided Exercises
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `8h`
-
-***
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `8h`
 
 ## Objetivos
 
@@ -32,3 +30,4 @@ Crie uma réplica do [Pinterest](https://laboratoria.github.io/pinterestify/) co
 Siga as etapas do professor para criar uma réplica do site da [Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png).
 
 Para completar este exercício, criamos um [repositório _padronizado_](https://github.com/Laboratoria/AppLove) \(modelo inicial\) com todos os recursos que você precisa. Isso inclui as imagens e algumas classes CSS que já criamos para você :\)
+

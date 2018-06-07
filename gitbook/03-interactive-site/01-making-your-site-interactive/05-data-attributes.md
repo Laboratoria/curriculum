@@ -1,4 +1,4 @@
-# Atributos de dados
+# 05 - Data Attributes
 
 * Tipo: `leitura`
 * Formato: `ritmo próprio`
@@ -23,7 +23,7 @@ Usá-los é muito fácil, já que sua sintaxe e interação são simples.
 
 Consiste em um prefixo `data-` acompanhado do nome \(_em letras minúsculas_\) que consideramos mais apropriado para o valor que você irá salvar:
 
-```html
+```markup
 <elemento id="exemplo" data-nome="valor" data-outro-nome="outro valor">
 ```
 

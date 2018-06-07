@@ -1,16 +1,14 @@
-# Positioning e Floats
+# 06 - Positioning and Floats
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `2h`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `2h`
 
 ## Objetivos de Aprendizagem
 
 * Aprender como fazer layout em html/css usando _positioning_
 * Aprender como fazer layout em html/css usando _floats_
 * Reconhecer quando é melhor usar cada um
-
-***
 
 ## 1. Fluxo do Documento
 
@@ -22,9 +20,12 @@ Em primeiro lugar, vimos que os elementos individuais são como "caixas" que sã
 
 Também vimos que, por padrão, o conteúdo de um elemento de tipo de **bloco** é 100% da largura do elemento pai e tão alto quanto seu conteúdo. Pelo contrário, os elementos do tipo **inline** são tão altos e tão amplos quanto seu conteúdo. Não é possível definir a largura ou a altura dos elementos _inline_
 
-- Os elementos _inline_ são simplesmente colocados dentro do conteúdo dos
+* Os elementos _inline_ são simplesmente colocados dentro do conteúdo dos
+
   elementos de nível de bloco. Se você quiser controlar o tamanho de um elemento
+
   _inline_ você deve configurá-lo para se comportar como um elemento de tipo de
+
   bloco com `display: block;`.
 
 Isso explica os elementos individuais, mas como os elementos interagem **uns** com **os outros**? Até agora vimos que o fluxo normal \(por padrão ou configurado\) é que o tipo de elementos de bloco são dispostos verticalmente, um abaixo do outro, isto é, cada um aparecerá em uma nova linha abaixo da última e separados por qualquer margem estabelecida neles.
@@ -64,7 +65,7 @@ body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid
 
 ## 2. Positioning
 
-O propósito do  _positioning_ é nos permitir sobrescrever o comportamento normal do fluxo do documento descrito acima, para produzir efeitos interessantes. E se você quiser alterar ligeiramente a posição de algumas caixas dentro de um desenho para dar uma sensação um pouco peculiar e angustiada? _Positioning_ é sua ferramenta. Ou se você quiser criar uma interface de usuário, na qual um elemento flutua em cima de outras partes da página e/ou sempre fica no mesmo lugar dentro da janela do navegador, não importa como a página é exibida? O  _positioning_  faz com que essa estrutura funcione \(layout\).
+O propósito do _positioning_ é nos permitir sobrescrever o comportamento normal do fluxo do documento descrito acima, para produzir efeitos interessantes. E se você quiser alterar ligeiramente a posição de algumas caixas dentro de um desenho para dar uma sensação um pouco peculiar e angustiada? _Positioning_ é sua ferramenta. Ou se você quiser criar uma interface de usuário, na qual um elemento flutua em cima de outras partes da página e/ou sempre fica no mesmo lugar dentro da janela do navegador, não importa como a página é exibida? O _positioning_ faz com que essa estrutura funcione \(layout\).
 
 A propriedade `position` do CSS é a mais usada quando queremos definir a localização de um elemento em nosso documento. Ela especifica o _tipo de posicionamento_ que o elemento terá. Deve-se notar que tudo isso varia dependendo das características que têm o valor `position` que colocamos. Ou seja, usaremos um valor diferente dependendo de como queremos posicionar esse elemento.
 

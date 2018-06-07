@@ -1,4 +1,4 @@
-# Modificando o DOM
+# 03 - DOM Manipulation
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -24,8 +24,6 @@ Nesta unidade aprenderemos:
   * `.replaceChild()`
   * `.insertBefore()`
 
-***
-
 [Aqui, outra leitura sobre o DOM](http://eloquentjavascript.net/13_dom.html)
 
 ## Modificando elementos e conteúdo do DOM
@@ -46,9 +44,9 @@ Funciona de maneira semelhante ao textContent, mas, além de mostrar o texto que
 
 ![innerHTML](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
 
- No vídeo a seguir, vemos de uma maneira prática, como usar `.innerHTML` e `.textContent`:
+No vídeo a seguir, vemos de uma maneira prática, como usar `.innerHTML` e `.textContent`:
 
- [Modificando, substituindo e excluindo nós](https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16)
+[Modificando, substituindo e excluindo nós](https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16)
 
 ### value
 
@@ -64,22 +62,22 @@ Você pode ver um exemplo mais claro neste [pen](https://codepen.io/Si7v4n4/pen/
 
 ### insertBefore
 
- Permite escolher um nó do documento e incluir outro antes dele.
+Permite escolher um nó do documento e incluir outro antes dele.
 
 ```javascript
 pai.insertBefore(novoNo, noDeReferencia);
 ```
 
- Se tivéssemos um fragmento de um documento como este:
+Se tivéssemos um fragmento de um documento como este:
 
-```html
+```markup
 <div id="container">
     <p>Primeiro parágrafo.</p>
     <p>Segundo paragráfo.</p>
 </div>
 ```
 
- e quiséssemos adicionar um novo parágrafo antes do segundo, faríamos assim:
+e quiséssemos adicionar um novo parágrafo antes do segundo, faríamos assim:
 
 ```javascript
 // Criamos o novo parágrago com seu texto filho
@@ -99,10 +97,10 @@ container.insertBefore(newParagraph, secondParagraph);
 
 Este método é usado para substituir um nó secundário por outro. Tome como argumentos dois nós: um novo nó e o nó a ser substituído. O nó substituído deve ser um filho do elemento para o qual o método é chamado.
 
-*  Sintaxe:
+* Sintaxe:
 
   ```javascript
-    pai.replaceChild(novoNo, noParaSubstituir);
+   pai.replaceChild(novoNo, noParaSubstituir);
   ```
 
 Com o mesmo HTML do exemplo de `.insertBefore()`, se quiséssemos substituir o segundo parágrafo pelo qual criamos, faríamos assim:
@@ -123,10 +121,10 @@ Considerando que pode meio do DOM podemos criar um documento praticamente do nad
 
 Lembre-se de que o DOM é a interface que conecta o documento HTML ao JavaScript. É por isso que, ao usar `.createElement(),` o nó não ficará visível no navegador até que seja adicionado ao documento.
 
-*  Sintaxe:
+* Sintaxe:
 
   ```javascript
-    document.createElement('elemento');
+   document.createElement('elemento');
   ```
 
 Assim, criar um novo parágrafo é tão simples quanto `document.createElement('p');`, atenção às aspas simples. Dessa maneira, o item não estará visível, não será nada além de um fantasma que existe no documento. Enquanto você não atribuir a uma posição na árvore não será exibido para o usuário. Como incluí-lo na árvore, veremos na seção de _adicionar nós ao DOM_ .
@@ -161,10 +159,10 @@ Para trabalhar incorporando, modificando ou eliminando nós, temos os métodos q
 
 Por meio desse método, podemos adicionar um novo filho a um nó, desta maneira:
 
-*  Sintaxe
+* Sintaxe
 
   ```javascript
-    padre.appendChild(novoNo);
+   padre.appendChild(novoNo);
   ```
 
 O novo nó é incluído imediatamente após os filhos existentes, se houver algum e o nó pai tiver um novo filho.
@@ -193,10 +191,10 @@ Para remover um nó do documento, temos que selecionar o pai do nó e, a partir 
 
 Se não soubermos o pai do nó, podemos selecionar diretamente o nó, obter o pai \(com `.parentElement`\) e usar `.removeChild()` para excluí-lo.
 
-*  Sintaxe:
+* Sintaxe:
 
   ```javascript
-    pai.removeChild(noParaEliminacao);
+   pai.removeChild(noParaEliminacao);
   ```
 
 ```javascript
@@ -264,7 +262,7 @@ Cria um atributo e define um valor.
 
 Obtém o valor do atributo.
 
-```html
+```markup
 <img id='image'
   src="http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png"
   alt="DOM - innerHTML" width="100%"  />
@@ -298,15 +296,15 @@ Ao contrário da maioria dos outros atributos, a própria propriedade de estilo 
 
 ### style
 
- Esta propriedade é usada para exibir ou definir o estilo do nó no qual está sendo usado.
+Esta propriedade é usada para exibir ou definir o estilo do nó no qual está sendo usado.
 
-*  Sintaxe
+* Sintaxe
 
   ```javascript
-    elemento.style.propriedade = valor;
+   elemento.style.propriedade = valor;
   ```
 
- Tenha em mente que as propriedades CSS que são separadas por um hífen \(`font-family`, `font-size`, `border-bottom`\) deve ser escrito notação _lowerCamelCase_ \(`fontFamily`, `fontSize`, `borderBottom`\).
+  Tenha em mente que as propriedades CSS que são separadas por um hífen \(`font-family`, `font-size`, `border-bottom`\) deve ser escrito notação _lowerCamelCase_ \(`fontFamily`, `fontSize`, `borderBottom`\).
 
 ```javascript
 var paragraph  = document.getElementById('paragraph');
@@ -325,7 +323,7 @@ As mudanças são chamadas por um temporizador. Quando o intervalo do temporizad
 
 Para demonstrar como criar animações HTML com JavaScript, usaremos uma página web simples.
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
     <body>
@@ -335,9 +333,9 @@ Para demonstrar como criar animações HTML com JavaScript, usaremos uma página
 </html>
 ```
 
- Todas as animações devem ser relativas a um elemento contêiner.
+Todas as animações devem ser relativas a um elemento contêiner.
 
-```html
+```markup
 <div id="container" class="container">
     <div id="animate" class="animate">Minha animação será aqui</div>
 </div>
@@ -418,7 +416,7 @@ Ao contrário de `setInterval()`, essa função executará uma vez e somente a f
 setTimeout(minhaFuncao, 500);
 ```
 
- Da mesma forma que `setInterval()` , você também pode cancelar a execução de `setTimeout()` :
+Da mesma forma que `setInterval()` , você também pode cancelar a execução de `setTimeout()` :
 
 ```javascript
 var id = setTimeout(minhaFuncao, 500);

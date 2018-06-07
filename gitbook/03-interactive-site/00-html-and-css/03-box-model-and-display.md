@@ -1,8 +1,8 @@
-# 03 - Modelo de Caixa e Display
+# 03 - Box model and Display
 
-- Tipo: `leitura`
-- Formato: `ritmo próprio`
-- Duração: `1h`
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `1h`
 
 ## Objetivos de Aprendizagem
 
@@ -11,8 +11,6 @@
 * Utilizar corretamente a propriedade `box-sizing`
 * Aprender os diferentes tipos de `display`
 * Conhecer a diferença entre `display: none` e `visibility: hidden`
-
-***
 
 ## O modelo da caixa
 
@@ -40,14 +38,14 @@ As partes que compõem cada caixa consistem no **conteúdo real**, o **preenchim
 
 Explicação de cada parte que compõe cada caixa:
 
-* **Content \(_conteúdo_\):** Este é o conteúdo HTML do elemento \(as palavras de um parágrafo, uma imagem, o texto de uma lista de elementos, etc.\)
-* **Padding \(_preenchimento_\):** espaço livre opcional entre o conteúdo e a borda.
-* **Border \(_borda_\):** Linha que inclui o conteúdo e o preenchimento.
-* **Margin \(_margem_\):** separação opcional entre a caixa e o resto das caixas adjacentes.
+* **Content \(**_**conteúdo**_**\):** Este é o conteúdo HTML do elemento \(as palavras de um parágrafo, uma imagem, o texto de uma lista de elementos, etc.\)
+* **Padding \(**_**preenchimento**_**\):** espaço livre opcional entre o conteúdo e a borda.
+* **Border \(**_**borda**_**\):** Linha que inclui o conteúdo e o preenchimento.
+* **Margin \(**_**margem**_**\):** separação opcional entre a caixa e o resto das caixas adjacentes.
 
 ### Propriedades dos elementos da caixa
 
-CSS define 4 propriedades para controlar os elementos da caixa \(com exceção de  _width_ e  _height_\).
+CSS define 4 propriedades para controlar os elementos da caixa \(com exceção de _width_ e _height_\).
 
 * **Top**: lado superior
 * **Right**: lado direito
@@ -145,7 +143,7 @@ Isso significa que ele suporta entre um e quatro valores, com o seguinte signifi
 
 ![borda](http://image.ibb.co/nKwpab/border_Anchos.png)
 
-Para cada borda você pode definir sua largura ou espessura, sua cor e seu estilo, portanto, o CSS  define diferentes propriedades relacionadas às bordas.
+Para cada borda você pode definir sua largura ou espessura, sua cor e seu estilo, portanto, o CSS define diferentes propriedades relacionadas às bordas.
 
 #### Largura ou espessura
 
@@ -160,7 +158,6 @@ O **estilo** das bordas só pode ser indicado por algumas das palavras reservada
 Na imagem a seguir podemos ver os diferentes estilos de borda e a _palavra reservada_ para cada um deles:
 
 ![estilos das bordas](https://lenguajecss.com/p/css/propiedades/border-styles.png)
-
 
 #### Cor
 
@@ -195,7 +192,7 @@ div {
 
 > [Saiba mais sobre `border`.](http://librosweb.es/libro/css/capitulo_4/bordes.html)
 
-### Margin (___margem___)
+### Margin \(_**margem**_\)
 
 É a **separação opcional** existente entre a caixa e o resto das caixas adjacentes.
 
@@ -303,8 +300,7 @@ div {
 
 ### O que é a propriedade _display_?
 
-Estabelece o tipo de caixa gerada por um elemento.
-![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
+Estabelece o tipo de caixa gerada por um elemento. ![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
 
 ### Valores
 
@@ -370,3 +366,4 @@ Continue lendo e aprendendo sobre o modelo de caixa com os seguintes recursos:
 * [Modelo da caixa - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas)
 * [Modelo da Caixa - Web Books](http://librosweb.es/libro/css/capitulo_4.html)
 * [Exibir - Web Books](http://librosweb.es/referencia/css/display.html)
+

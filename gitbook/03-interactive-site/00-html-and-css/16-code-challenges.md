@@ -1,10 +1,8 @@
-# Desafios de Código
+# 16 - Code challenges
 
-- Tipo: `producto`
-- Formato: `individual`
-- Duração: `24h`
-
-***
+* Tipo: `producto`
+* Formato: `individual`
+* Duração: `24h`
 
 ## Objetivos
 

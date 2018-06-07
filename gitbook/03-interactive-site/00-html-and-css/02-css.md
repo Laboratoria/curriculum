@@ -1,10 +1,8 @@
-# Introdução a CSS
+# 02 - CSS
 
-- Tipo: `leitura`
-- Formato: `ritmo próprio`
-- Duração: `4h`
-
-***
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `4h`
 
 ## Objetivos de Aprendizagem
 
@@ -15,14 +13,7 @@
 * Entender como funcionam as regras de casacata e herança do CSS
 * Aprender os valores usuais de CSS e suas unidades
 
-<!-- link a slides de lab:
-https://docs.google.com/a/laboratoria.la/presentation/d/
-1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web
--->
-
 ## O que é CSS e como funciona?
-
-<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
 
 CSS significa _Cascading Style Sheets_ \(em português: folhas de estilo em cascata\). É uma linguagem usada para definir e criar a apresentação de um documento escrito em HTML. CSS descreve como os elementos na estrutura do documento devem ser apresentados na tela. Com CSS, damos estilo e design à páginas da web. Nós mudamos cores, tamanhos, espaços, adicionamos animações, etc.
 
@@ -32,7 +23,7 @@ Existem três opções para incluir CSS em um documento HTML:
 
 Já vimos como adicionar estilos aos nossos elementos HTML com o atributo _style_. Por exemplo:
 
-```html
+```markup
 <h1 style="color: blue;
 background-color: yellow;
 border: 1px solid black;">Olá Mundo!</h1>
@@ -46,9 +37,9 @@ Esta maneira de adicionar CSS é chamada de **CSS Inline**, mas não é muito re
 
 ### 2. CSS no head
 
-Outra opção é colocar os estilos dentro de um elemento html `<style>` que  colocamos no `head`. Por exemplo, para representar os mesmos estilos do `h1` anterior, teríamos o seguinte:
+Outra opção é colocar os estilos dentro de um elemento html `<style>` que colocamos no `head`. Por exemplo, para representar os mesmos estilos do `h1` anterior, teríamos o seguinte:
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,7 +70,7 @@ No caso do nosso exemplo anterior com os estilos para ele `h1`, teríamos dois a
 
 #### Arquivo `index.html`
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -168,7 +159,7 @@ No final da sua pesquisa, você deve saber o que é e como usar:
 
 ## Regras de cascata e herança
 
-Como vimos, regras CSS diferentes podem ser aplicadas a um número ilimitado de elementos. Isso pode gerar estilos que entram em conflito: instruções com diferentes estilos afetando o mesmo elemento. Felizmente O CSS possui um mecanismo conhecido como **cascata** que rege como os estilos interagem e quais estilos têm preferência quando há um conflito. Na verdade, esse mecanismo em cascata é a razão pela qual o CSS tem o seu nome:  _Cascading Style Sheets_ \(em português: folhas de estilo em cascata\).
+Como vimos, regras CSS diferentes podem ser aplicadas a um número ilimitado de elementos. Isso pode gerar estilos que entram em conflito: instruções com diferentes estilos afetando o mesmo elemento. Felizmente O CSS possui um mecanismo conhecido como **cascata** que rege como os estilos interagem e quais estilos têm preferência quando há um conflito. Na verdade, esse mecanismo em cascata é a razão pela qual o CSS tem o seu nome: _Cascading Style Sheets_ \(em português: folhas de estilo em cascata\).
 
 Outra característica do CSS é a **herança** de estilos. Herança é o processo pelo qual algumas instruções CSS aplicadas a um elemento passam automaticamente para os elementos que estão aninhados \(seus descendentes\).
 
@@ -228,3 +219,4 @@ Vejamos um exemplo:
 Agora que você sabe mais sobre a profundidade CSS você pode acompanhar Michelle no vídeo a seguir no qual ela termina de desenvolvar a página de Grace Hopper, usando uma estrutura semântica e todos os benefícios do CSS para representar o projeto o mais fiel possível.
 
 [![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+

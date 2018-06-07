@@ -1,10 +1,8 @@
-# Quiz #1
+# 12 - Quiz
 
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `30min`
-
-***
+* Tipo: `quiz`
+* Formato: `individual`
+* Duração: `30min`
 
 ## Objetivos
 
@@ -12,7 +10,7 @@
 
 ## Perguntas
 
-### 1) O que é HTML?
+### 1\) O que é HTML?
 
 #### Opções
 
@@ -21,9 +19,9 @@
 3. Folha de estilo
 4. Ferramenta de código aberto
 
-<solution style="display:none;">2</solution>
+2
 
-### 2) A que 'Aninhamento HTML' se refere?
+### 2\) A que 'Aninhamento HTML' se refere?
 
 #### Opções
 
@@ -32,9 +30,9 @@
 3. Adicione uma linha para que o `html` apareça na segunda linha
 4. Que um elemento pode conter outros elementos ou tags HTML
 
-<solution style="display:none;">4</solution>
+4
 
-### 3) Quais são as tags que não precisam de fechamento?
+### 3\) Quais são as tags que não precisam de fechamento?
 
 #### Opções
 
@@ -43,9 +41,9 @@
 3. img
 4. p
 
-<solution style="display:none;">3</solution>
+3
 
-### 4) Exemplo correto de aninhamento
+### 4\) Exemplo correto de aninhamento
 
 #### Opções
 
@@ -53,9 +51,9 @@
 2. `</p>Soy una </strong>excelente<strong> </em>coder<em><p>`
 3. `<p>Soy una <strong>excelente</strong> <em>coder</em></p>`
 
-<solution style="display:none;">3</solution>
+3
 
-### 5) Quais são as características de um elemento em bloco?
+### 5\) Quais são as características de um elemento em bloco?
 
 #### Opções
 
@@ -64,9 +62,9 @@
 3. Podem começar em qualquer parte de uma linha
 4. Podem conter elementos em linha e outros elementos de bloco
 
-<solution style="display:none;">2,4</solution>
+2,4
 
-### 6) Propriedades CSS são `case-sensitive` (levam em conta letras minúsculas e maiúsculas)
+### 6\) Propriedades CSS são `case-sensitive` \(levam em conta letras minúsculas e maiúsculas\)
 
 ```css
 ul {
@@ -79,9 +77,9 @@ ul {
 1. Verdadeiro
 2. Falso
 
-<solution style="display:none;">2</solution>
+2
 
-### 7) Qual é a diferença entre `display: inline-block` e `display: inline`?
+### 7\) Qual é a diferença entre `display: inline-block` e `display: inline`?
 
 #### Opções
 
@@ -90,9 +88,9 @@ ul {
 3. Não há diferenças entre os dois
 4. Um elemento _inline_ não aparece na tela, enquanto que um _inline-block_ sim
 
-<solution style="display:none;">1</solution>
+1
 
-### 8) Qual é a sintaxe correta para a tag `img`?
+### 8\) Qual é a sintaxe correta para a tag `img`?
 
 #### Opções
 
@@ -102,27 +100,27 @@ ul {
 4. `<img src="foto.jpg" alt="Foto">`
 5. `<img src="foto.jpg" alt="Foto"></img>`
 
-<solution style="display:none;">4</solution>
+4
 
-### 9) As propriedades `margin-top` e `margin-bottom` têm efeito em elementos _inline_?
-
-#### Opções
-
-1. Sim
-2. Não
-
-<solution style="display:none;">2</solution>
-
-### 10) Faça as propriedades `padding-top` e `padding-bottom` aumentam o tamanho de um elemento _inline_?
+### 9\) As propriedades `margin-top` e `margin-bottom` têm efeito em elementos _inline_?
 
 #### Opções
 
 1. Sim
 2. Não
 
-<solution style="display:none;">2</solution>
+2
 
-### 11) Dado o seguinte estilo CSS, que cor  terão os `<h3>`?
+### 10\) Faça as propriedades `padding-top` e `padding-bottom` aumentam o tamanho de um elemento _inline_?
+
+#### Opções
+
+1. Sim
+2. Não
+
+2
+
+### 11\) Dado o seguinte estilo CSS, que cor  terão os `<h3>`?
 
 ```css
 h3 {
@@ -144,9 +142,9 @@ h2 {
 2. blue
 3. yellow
 
-<solution style="display:none;">2</solution>
+2
 
-### 12) Qual ordem prevalece para atribuir um estilo?
+### 12\) Qual ordem prevalece para atribuir um estilo?
 
 #### Opções
 
@@ -154,9 +152,9 @@ h2 {
 2. Importância, especificidade e ordem do código
 3. Ordem de código, importância e especificidade
 
-<solution style="display:none;">2</solution>
+2
 
-### 13) De acordo com o seguinte código, qual será a cor do elemento `.phrase`?
+### 13\) De acordo com o seguinte código, qual será a cor do elemento `.phrase`?
 
 **HTML:**
 
@@ -187,11 +185,11 @@ h2 {
 
 1. `#FAB541`
 2. Azul
-3. Padrão do navegador (preto)
+3. Padrão do navegador \(preto\)
 
-<solution style="display:none;">3</solution>
+3
 
-### 14) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript**?
+### 14\) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -220,9 +218,9 @@ ul li {
 2. Azul
 3. Vermelho
 
-<solution style="display:none;">2</solution>
+2
 
-### 15) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript**?
+### 15\) Tendo em conta o seguinte código, qual é a cor do texto **JavaScript**?
 
 **HTML:**
 
@@ -251,9 +249,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 2. Preto
 3. Azul
 
-<solution style="display:none;">3</solution>
+3
 
-### 16) Levando em conta o `HTML` e o resultado, qual seria o `CSS` necessário para produzir o resultado?
+### 16\) Levando em conta o `HTML` e o resultado, qual seria o `CSS` necessário para produzir o resultado?
 
 **HTML:**
 
@@ -275,9 +273,9 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 3. `.red` com `position: absolute;` e `left: 200px;`
 4. `.red` com `position: relative;` e `left: 200px;`
 
-<solution style="display:none;">1</solution>
+1
 
-### 17) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo`?
+### 17\) Considerando o código a seguir, o que acontecerá com a posição de `#exemplo`?
 
 **HTML:**
 
@@ -299,18 +297,18 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 2. Todos os elementos começarão `5px` abaixo
 3. Nenhum
 
-<solution style="display:none;">2</solution>
+2
 
-### 18) O que acontece com os elementos em linha quando se torna flutuante?
+### 18\) O que acontece com os elementos em linha quando se torna flutuante?
 
 #### Opções
 
 1. Permanece como um elemento em linha
 2. Torna-se um elemento de bloco
 
-<solution style="display:none;">2</solution>
+2
 
-### 19) Selecione as propriedades que correspondem aos tipos de letra
+### 19\) Selecione as propriedades que correspondem aos tipos de letra
 
 #### Opções
 
@@ -320,5 +318,5 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 4. font-weight
 5. float
 
-<solution style="display:none;">1,3,4</solution>
+1,3,4
 

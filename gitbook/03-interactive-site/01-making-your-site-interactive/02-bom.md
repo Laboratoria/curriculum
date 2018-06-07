@@ -1,10 +1,8 @@
-# Browser Object Model \(BOM\)
+# 02 - BOM
 
-- Tipo: `leitura`
-- Formato: `ritmo próprio`
-- Duração: `30min`
-
-***
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
 ## Objetivos de Aprendizagem
 
@@ -15,7 +13,7 @@ Nesta leitura vamos aprender:
 * Qual é a relação entre  BOM e  DOM?
 * Para que serve o objeto _window_?
 
-![nó tipo texto - nó tipo elemento](http://librosweb.es/img/ajax/f0501.gif)
+![n&#xF3; tipo texto - n&#xF3; tipo elemento](http://librosweb.es/img/ajax/f0501.gif)
 
 ## BOM
 
@@ -34,3 +32,4 @@ Algumas dessas propriedades a serem modificadas pela lista de materiais são as 
 * O objeto [Location](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_location.html)
 * O objeto [Navigator](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_navigator.html)
 * O objeto de [screen](http://librosweb.es/libro/ajax/capitulo_5/el_objeto_screen.html)
+

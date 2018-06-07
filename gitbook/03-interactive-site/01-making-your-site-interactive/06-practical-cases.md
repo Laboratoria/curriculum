@@ -1,14 +1,12 @@
-# Casos Práticos \(vídeos\)
+# 06 - Practical Cases
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `6h`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `6h`
 
 ## Objetivos
 
 * Entender, por meio de casos práticos, como aplicar os conceitos de navegar e manipular o DOM e responder a eventos.
-
-***
 
 ## Enunciados
 
@@ -128,8 +126,6 @@ Vamos ver como a página deve ficar...
 
 ![Mini Zoo](https://fotos.subefotos.com/33a270779462a9ffe98ae8c2b528087co.gif)
 
-
-
 ### Soluções
 
 A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um dos exercícios anteriores.
@@ -137,7 +133,6 @@ A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um d
 #### 1. Companhia Aérea
 
 [![Solu&#xE7;&#xE3;o da companhia a&#xE9;rea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
-
 
 **2. Campo Minado**
 
@@ -157,4 +152,5 @@ A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um d
 
 **6. Mini zoológico**
 
-<https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>
+[https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ\_dMG\_VN\_FFw/edit\#slide=id.g1554294399\_1\_0](https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0)
+

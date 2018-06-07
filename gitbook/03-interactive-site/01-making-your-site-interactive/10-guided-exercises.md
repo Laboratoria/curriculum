@@ -1,4 +1,4 @@
-# Aula Prática
+# 10 - Guided Exercises
 
 * Tipo: `oficina`
 * Formato: `guiado`
@@ -8,8 +8,6 @@
 
 * Praticar programando com sua equipe de professoras, resolvendo problemas de estruturas condicionais, estruturas de repetição e funções
 * Praticar, praticar e praticar
-
-***
 
 ## Enunciados
 
@@ -55,7 +53,7 @@ No dia a dia usamos serviços que geram **CAPTCHA**. O mais usado é o do Google
 
 Inicialmente consistia em um conjunto de imagens que o usuário devia determinar o conteúdo e indicar ao sistema. Hoje em dia, avaliam seu comportamente no navegador e se tiver dúvidas, pede para você avaliar um conjunto de imagens maior.
 
-Faremos um Captcha \(como mostra a imagem abaixo\). Ele comprovará que o usuário escreva o mesmo que o Captcha que forneceremos. O valor digitado deverá ser testado no momento em que o usuário clique no símbolo  **✓** e geraremos outro código quando o usuário clicar no símbolo  **↻**.
+Faremos um Captcha \(como mostra a imagem abaixo\). Ele comprovará que o usuário escreva o mesmo que o Captcha que forneceremos. O valor digitado deverá ser testado no momento em que o usuário clique no símbolo **✓** e geraremos outro código quando o usuário clicar no símbolo **↻**.
 
 Dado: Gere os números e letras de maneira aleatória.
 

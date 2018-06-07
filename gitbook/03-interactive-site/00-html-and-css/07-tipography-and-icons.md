@@ -1,8 +1,8 @@
-# Tipografia, ícones e sprites
+# 07 - Tipography and Icons
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `1h`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `1h`
 
 ## Objetivos de Aprendizagem
 
@@ -11,8 +11,6 @@
 * Aprender a adicionar fontes de provedores externos
 * Usar fontes como ícones
 * Usar a técnica de CSS sprites
-
-***
 
 ## Tipografias
 
@@ -48,6 +46,6 @@ Em certas ocasiões, você deseja adicionar muitas imagens relacionadas \(por ex
 
 Você tem alguma dúvida sobre algum desses problemas? Talvez algumas dessas postagens possam ajudá-la a entendê-las melhor:
 
-* [Faça com estilo: tipografias, ícones e sprite - Medium](https://medium.com/laboratoria-how-to/hazlo-con-estilo-tipograf%C3%ADas-iconos-y-sprite-5a036a7b592a)
+* [Faça com estilo: tipografias, ícones e sprite - Medium](https://medium.com/laboratoria-how-to/hazlo-con-estilo-tipografías-iconos-y-sprite-5a036a7b592a)
 * [`@font-face`: Como usar qualquer fonte/tipografia em seu site](https://cybmeta.com/font-face-como-utilizar-cualquier-fuentetipografia-en-tu-web)
 

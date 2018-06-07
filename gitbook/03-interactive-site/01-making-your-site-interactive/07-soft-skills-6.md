@@ -1,10 +1,8 @@
-# Oficina HSE: Apresentações pessoais \(parte 1\)
+# 07 - Soft Skills 6
 
 * Tipo: `oficina`
 * Formato: `guiado`
 * Duração: `180min`
-
-***
 
 ## Objetivos
 

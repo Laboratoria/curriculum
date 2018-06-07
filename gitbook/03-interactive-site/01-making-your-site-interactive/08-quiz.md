@@ -1,18 +1,16 @@
-# Quiz #1
+# 08 - Quiz
 
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `30min`
+* Tipo: `quiz`
+* Formato: `individual`
+* Duração: `30min`
 
 ## Objetivos
 
 * Nesta sessão, terá a oportunidade de se autoavaliar, colocando seus conhecimentos à prova. É uma oportunidade para ajustar seu ritmo e certificar-se de que realmente esteja aprendendo. Sucesso!
 
-***
-
 ## Perguntas
 
-### 1) Complete o seguinte enunciado: `As tags HTML sempre serão nós de tipo _______.`
+### 1\) Complete o seguinte enunciado: `As tags HTML sempre serão nós de tipo _______.`
 
 #### Opções
 
@@ -21,11 +19,11 @@
 3. Elemento
 4. Atributo
 
-<solution style="display:none;">3</solution>
+3
 
-### 2) Na imagem a seguir
+### 2\) Na imagem a seguir
 
-```html
+```markup
         <body>
             <h1>Olá Mundo! Programar é muito cool :3 !</h1>
         </body>
@@ -40,9 +38,9 @@
 3. Elemento
 4. Atributo
 
-<solution style="display:none;">2</solution>
+2
 
-### 3) O DOM nos serve para
+### 3\) O DOM nos serve para
 
 #### Opções
 
@@ -51,20 +49,9 @@
 3. Dominar o mundo da programação
 4. Criar bucles e condições
 
-<solution style="display:none;">1</solution>
+1
 
-### 4)  Quando eu quiser acessar ou obter um elemento exclusivo da minha página da web por meio de seu identificador, que método/métodos de seleção de DOM eu posso usar?
-
-#### Opções
-
-1. `.getElementsByTagName();`
-2. `.getElementsByClassName();`
-3. `.getElementById();`
-4. `.querySelector();`
-
-<solution style="display:none;">3</solution>
-
-### 5)  Para acessar elementos da minha página da Web que possuem a mesma tag HTML, que método / métodos do DOM eu posso usar?
+### 4\)  Quando eu quiser acessar ou obter um elemento exclusivo da minha página da web por meio de seu identificador, que método/métodos de seleção de DOM eu posso usar?
 
 #### Opções
 
@@ -73,9 +60,20 @@
 3. `.getElementById();`
 4. `.querySelector();`
 
-<solution style="display:none;">1</solution>
+3
 
-### 6) Seleciona os objetos do BOM
+### 5\)  Para acessar elementos da minha página da Web que possuem a mesma tag HTML, que método / métodos do DOM eu posso usar?
+
+#### Opções
+
+1. `.getElementsByTagName();`
+2. `.getElementsByClassName();`
+3. `.getElementById();`
+4. `.querySelector();`
+
+1
+
+### 6\) Seleciona os objetos do BOM
 
 #### Opções
 
@@ -84,9 +82,9 @@
 3. HTMLtags
 4. Navigator
 
-<solution style="display:none;">1,2,4</solution>
+1,2,4
 
-### 7) BOM define **\_\_** métodos para manipular o tamanho e a posição da **\_\_**
+### 7\) BOM define **\_\_** métodos para manipular o tamanho e a posição da **\_\_**
 
 #### Opções
 
@@ -95,9 +93,9 @@
 3. três, tag
 4. dois, informação
 
-<solution style="display:none;">2</solution>
+2
 
-### 8)  Como posso usar os atributos _data_?
+### 8\)  Como posso usar os atributos _data_?
 
 #### Opções
 
@@ -106,34 +104,34 @@
 3. Para obter o valor de uma entrada de texto
 4. Para armazena dados nas tags HTML sem modificar a apresentação do documento
 
-<solution style="display:none;">4</solution>
+4
 
-### 9)  Qual das seguintes opções é a correta para usar os atributos _data_?
+### 9\)  Qual das seguintes opções é a correta para usar os atributos _data_?
 
 #### Opções
 
-1. ```html
+1. ```markup
     <ul>
       <li data-lista="frutas">Maça</li>
       <li data-lista="frutas">Peras</li>
       <li data-lista="frutas">Morangos</li>
     </ul>
    ```
-2. ```html
+2. ```markup
     <ul>
       <li data="frutas">Maça</li>
       <li data="frutas">Peras</li>
       <li data="frutas">Morangos</li>
     </ul>
    ```
-3. ```html
+3. ```markup
     <ul>
       <li data-lista-frutas>Maçã</li>
       <li data-lista-frutas>Peras</li>
       <li data-lista-frutas>Morangos</li>
     </ul>
    ```
-4. ```html
+4. ```markup
     <ul>
       <li data-lista(frutas)>Maçã</li>
       <li data-lista(frutas)>Peras</li>
@@ -141,11 +139,11 @@
     </ul>
    ```
 
-<solution style="display:none;">1</solution>
+1
 
-### 10)   Vendo o código a seguir, como podemos acessar nossos atributos _data_ por meio de js?
+### 10\)   Vendo o código a seguir, como podemos acessar nossos atributos _data_ por meio de js?
 
-```html
+```markup
 <p id="text" data-autor="Gustavo Monet">
   Aque está nosso texto
 </p>
@@ -170,41 +168,41 @@
     var text.dataset = autor;
    ```
 
-<solution style="display:none;">3</solution>
+3
 
-### 11)  Por qual método você exclui um nó do DOM?
-
-#### Opções
-
-1. elementoPai.removeAttribute(**nodo**);
-2. elementoPai.appendChild(**nodo**);
-3. elementoPai.removeChild(**nodo**);
-4. elementoPai.removeNode(**nodo**);
-
-<solution style="display:none;">3</solution>
-
-### 12)  Com que método você cria um evento?
+### 11\)  Por qual método você exclui um nó do DOM?
 
 #### Opções
 
-1. .addEventListener('_\_\__', **funcion**);
-2. .createEvent(' **\_**',**funcion**);
-3. .createElement('**\_**');
-4. .actionListener('**\_**');
+1. elementoPai.removeAttribute\(**nodo**\);
+2. elementoPai.appendChild\(**nodo**\);
+3. elementoPai.removeChild\(**nodo**\);
+4. elementoPai.removeNode\(**nodo**\);
 
-<solution style="display:none;">1</solution>
+3
 
-### 13)  O que são os eventos?
+### 12\)  Com que método você cria um evento?
+
+#### Opções
+
+1. .addEventListener\('_\_\_\_', **funcion**\);
+2. .createEvent\(' **\_**',**funcion**\);
+3. .createElement\('**\_**'\);
+4. .actionListener\('**\_**'\);
+
+1
+
+### 13\)  O que são os eventos?
 
 #### Opções
 
 1. Ações que o navegador realiza quando algo não está certo.
 2. Ações que são disparadas a partir da interação do usuário com um elemento da página web.
-3.  Datas importantes para o navegador.
+3. Datas importantes para o navegador.
 
-<solution style="display:none;">2</solution>
+2
 
-### 14)  Como você adiciona um evento a um elemento?
+### 14\)  Como você adiciona um evento a um elemento?
 
 #### Opções
 
@@ -225,9 +223,9 @@
    botao= document.addEventListener('click', funcao_a_executar);
    ```
 
-<solution style="display:none;">3</solution>
+3
 
-### 15)  Às vezes temos que usar e.preventDefault() para
+### 15\)  Às vezes temos que usar e.preventDefault\(\) para
 
 #### Opções
 
@@ -236,5 +234,5 @@
 3. Para que o evento execute automaticamente.
 4. Para evitar que se invoque o evento.
 
-<solution style="display:none;">1</solution>
+1
 

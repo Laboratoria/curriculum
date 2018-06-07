@@ -1,10 +1,8 @@
-# Introdução: HTML & CSS
+# 00 - Opening
 
-- Tipo: `leitura`
-- Formato: `ritmo próprio`
-- Duração: `15min`
-
-***
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `15min`
 
 ## Objetivos de Aprendizagem
 

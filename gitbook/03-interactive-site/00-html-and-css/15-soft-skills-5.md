@@ -1,10 +1,8 @@
-# Oficina HSE: Imaginário
+# 15 - Soft Skills 5
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `180min`
-
-***
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `180min`
 
 ## Objetivos
 

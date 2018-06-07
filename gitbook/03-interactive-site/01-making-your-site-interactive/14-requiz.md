@@ -1,4 +1,4 @@
-# Quiz \#2: _requizzing_
+# 14 - Requiz
 
 * Tipo: `quiz`
 * Formato: `guiado`
@@ -7,9 +7,8 @@
 ## Objetivos
 
 * Fazer um segundo quiz para garantir que terminamos a unidade com um
-  entendimento completo dos conceitos.
 
-***
+  entendimento completo dos conceitos.
 
 ## Perguntas
 
@@ -22,7 +21,7 @@
 3. Os nós `head` y `body`
 4. Não é pai de nenhum nó
 
-<solution style="display:none;">3</solution>
+3
 
 ### 2\) Propriedades dos nós do DOM
 
@@ -34,11 +33,11 @@
 4. `nodeValue`
 5. `nodeID`
 
-<solution style="display:none;">1,3,4</solution>
+1,3,4
 
 ### 3\) Para o elemento a seguir
 
-```html
+```markup
     <p id="paragraph">Olá, sou un parágrafo sensual</p>
 ```
 
@@ -59,7 +58,7 @@
       paragraph.backgroundColor='red';
    ```
 
-<solution style="display:none;">2</solution>
+2
 
 ### 4\) `document.getElementsByClassName('unaClase')`, retorna um
 
@@ -78,7 +77,7 @@ console.log(elementos);
 3. Todos os caracteres da string `unaClase`;
 4. Retorno somente o primeiro Elemento com classe `unaClase`;
 
-<solution style="display:none;">1</solution>
+1
 
 ### 5\) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
 
@@ -89,7 +88,7 @@ console.log(elementos);
 3. `.lastChild();`
 4. `.getElementsByTagName();`
 
-<solution style="display:none;">4</solution>
+4
 
 ### 6\) Qual função utilizamos para criar animações com JS?
 
@@ -100,7 +99,7 @@ console.log(elementos);
 3. `setInterval();`
 4. `confirm();`
 
-<solution style="display:none;">3</solution>
+3
 
 ### 7\) Por que é importante o objeto screen ?
 
@@ -111,7 +110,7 @@ console.log(elementos);
 3. Para adaptar os gráficos às resoluções mais utilizadas
 4. Para armazenar dados nas tags HTML sem modificar a apresentação do documento
 
-<solution style="display:none;">1,3</solution>
+1,3
 
 ### 8\) Como posso obter a URL da página anterior a que estou neste momento?
 
@@ -122,11 +121,11 @@ console.log(elementos);
 3. `document.title`
 4. `document.lastModified`
 
-<solution style="display:none;">1</solution>
+1
 
 ### 9\) Qual método utilizamos para adicionar à `listaDeCompras` um novo elemento chamado `elementoLista`?
 
-```html
+```markup
   <ul id="listaDeCompras">
     <li>Leite sem Lactose</li>
     <li>Arequipe</li>
@@ -141,7 +140,7 @@ console.log(elementos);
 2. listaDeCompras.appendChild\(elementoLista\);
 3. listaDeCompras.getElementByName\('elementoLista'\);
 
-<solution style="display:none;">2</solution>
+2
 
 ### 10\) Qual evento é disparado ao selecionar o texto de um _input_ ou _textarea_?
 
@@ -152,7 +151,7 @@ console.log(elementos);
 3. onmouseover
 4. ondblclick
 
-<solution style="display:none;">2</solution>
+2
 
 ### 11\) Para armazenar dados nas tags HTML sem modificar a apresentação do documento, usamos
 
@@ -163,7 +162,7 @@ console.log(elementos);
 3. Variáveis
 4. Dados-HTML
 
-<solution style="display:none;">1</solution>
+1
 
 ### 12\) Sintaxe dos atributos data
 
@@ -174,7 +173,7 @@ console.log(elementos);
 3. data="valor"
 4. nomeAtribuido-Datos\(valor\)
 
-<solution style="display:none;">2</solution>
+2
 
 ### 13\) O método addEventListener serve para
 
@@ -185,7 +184,7 @@ console.log(elementos);
 3. Criar um evento
 4. Criar um nó texto
 
-<solution style="display:none;">3</solution>
+3
 
 ### 14\) Quantos métodos definem o BOM para manipular a janela?
 
@@ -196,7 +195,7 @@ console.log(elementos);
 3. 3
 4. 4
 
-<solution style="display:none;">4</solution>
+4
 
 ### 15\) Seleciona os objetos do BOM
 
@@ -207,5 +206,5 @@ console.log(elementos);
 3. HTMLtags
 4. Navigator
 
-<solution style="display:none;">1,2,4</solution>
+1,2,4
 

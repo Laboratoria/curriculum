@@ -1,10 +1,8 @@
-# Aula de Conceitos
+# 09 - Seminar
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `120min`
-
-***
 
 ## Objetivos
 

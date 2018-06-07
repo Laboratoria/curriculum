@@ -1,60 +1,48 @@
-# UX vs UI
+# 03-ux-design-vs-ui-design
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+## UX vs UI
 
-## Objetivos de Aprendizaje
+* Tipo: `leitura`
+* Formato: `ritmo próprio`
+* Duração: `30min`
 
-En esta unidad aprenderemos:
+## Objetivos de Aprendizagem
 
-- La diferencia entre UX y UI.
+Nesta unidade aprenderemos:
 
-***
+* A diferença entre UX e UI.
 
 ## User Interface Design vs User Experience Design
 
-Para poder entender la diferencia, similitud y relación entre UI y UX, lee el
-siguiente artículo: [UX vs UI](http://blog.acantu.com/que-es-ux-y-ui/).
+Para entender a diferença, a similaridade e o relacionamento entre a interface do usuário e a experiência do usuário, leia o seguinte artigo: [UX vs UI](http://blog.acantu.com/que-es-ux-y-ui/) .
 
-Luego de leer este artículo, intenta responder las siguientes preguntas:
+Depois de ler este artigo, tente responder às seguintes perguntas:
 
-- ¿Qué es UX y qué es UI?
-- ¿Cuál es la relación entre UX y UI Design?
+* O que é UX e o que é UI?
+* Qual é a relação entre o UX e UI Design?
 
-### UX Designer vs UI Designer
+## UX Designer vs UI Designer
 
-Para dedicarnos a ser UX o UI Designer tenemos que tener ciertas características
-que puedes ver en el siguiente video:
+Para nos dedicarmos a ser UX ou UI Designer, temos que ter certas características que você pode ver no vídeo a seguir:
 
-[![UX vs UI Design roles](https://img.youtube.com/vi/ft5TzxG-LAc/0.jpg)](https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1)
+[https://www.youtube.com/watch?v=ft5TzxG-LAc&cc\_lang\_pref=es&cc\_load\_policy=1](https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1)
 
-Ahora, intenta responer estas preguntas:
+![Pap&#xE9;is do UX vs UI Design](https://camo.githubusercontent.com/c9e2acc628bd6467242742850d6763ca4f55e544/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f667435547a78472d4c41632f302e6a7067)
 
-- ¿Cómo es la personalidad de un UX Designer?
-- ¿Cómo es la personalidad de un UI Designer?
+Agora, tente responder a estas perguntas:
 
-### UX != UI
+* Como é a personalidade de um Designer UX?
+* Como é a personalidade de um Designer UI?
 
-Adicionalmente el autor Golden Krishna en su libro [The best interface is not interface](http://www.nointerface.com/book/)
-nos deja estos términos comunes usados en UX y en UI para resaltar que son
-términos distintos.
+## UX != UI
 
-#### UI
+Além disso, o autor Golden Krishna em seu livro  [The best interface is not interface](http://www.nointerface.com/book/) nos deixa esses termos comuns usados ​​em UX e UI para destacar que são termos diferentes.
 
-> Navegación, subnavegación, menús, desplegables, botones, enlaces / ligas /
-> links, ventanas, esquinas redondeadas, sombreado, mensajes de error, alertas,
-> actualizaciones, checkboxes, campos de contraseña, campos de búsqueda,
-> entradas de texto, selectores de radio, áreas de texto, estados de hover,
-> estados de selección, estados presionados, información sobre herramientas,
-> anuncios de banner, videos incrustados, animaciones de desplazamiento,
-> desplazamiento, clics, iconografía, colores, listas, presentaciones de
-> diapositivas, texto alternativo, insignias, notificaciones, degradados,
-> ventanas emergentes, carruseles, OK / Cancelar, etc., etc., etc.
+### **UI**
 
-#### UX
+> Navegação sub-navegação, menus, pop, botões, links / links / links, janelas, cantos arredondados, sombreamento, mensagens de erro, alertas, atualizações, caixas de seleção, campos de senha, campos de pesquisa, entradas de texto, seletores de rádio, áreas texto, estados hover, estados de seleção, os estados pressionadas, ferramenta, banners, vídeos incorporados, animações de rolagem, Deslizar, cliques, iconografia, cores, listas, slideshows, texto alternativo, logotipos, avisos, gradientes, pop-ups, carrosséis, OK / Cancelar, etc., etc., etc.
 
-> Gente, felicidad, resolución de problemas, entender necesidades, amor,
-> eficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez,
-> personalidad, alegría, satisfacción, gratificación, exaltación, euforia,
-> conveniencia,  eficacia, etc., etc., etc.
+### **UX**
+
+> Pessoas, Felicidade, resolução de problemas, entender necessidades, amor, eficiência, entretenimento, prazer, satisfação, sorrisos, alma, calor, personalidade, alegria, satisfação, gratificação, excitação, euforia, conveniência, eficiência, etc., etc., etc. .
+

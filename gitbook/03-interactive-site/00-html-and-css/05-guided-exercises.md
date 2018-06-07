@@ -1,10 +1,8 @@
-# Aula Prática
+# 05 - Guided Exercises
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `2h`
-
-***
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `2h`
 
 ## Objetivos
 
@@ -13,15 +11,9 @@
 
 ## Enunciados
 
-Aqui estão alguns exercícios práticos que serão resolvidos, passo a passo, pela
-sua equipe de professores em uma sessão presencial \(`oficina`\). Sugerimos que
-você tente resolver os exercícios sozinho \(ou em equipe\) **antes** da sessão
-presencial. Assim, você já virá com dúvidas específicas e estará familiarizada
-com os desafios. Talvez você possa apresentar sua solução para a turma e assim
-ajudar o restante de suas colegas :\)
+Aqui estão alguns exercícios práticos que serão resolvidos, passo a passo, pela sua equipe de professores em uma sessão presencial \(`oficina`\). Sugerimos que você tente resolver os exercícios sozinho \(ou em equipe\) **antes** da sessão presencial. Assim, você já virá com dúvidas específicas e estará familiarizada com os desafios. Talvez você possa apresentar sua solução para a turma e assim ajudar o restante de suas colegas :\)
 
-Você deve fazer o upload de todos os seus exercícios no `GitHub` e publicá-los
-em `gh-pages`.
+Você deve fazer o upload de todos os seus exercícios no `GitHub` e publicá-los em `gh-pages`.
 
 ### 1. CSS _Diner_
 
@@ -29,8 +21,7 @@ Pratique seletores CSS por meio [deste jogo](https://laboratoria.github.io/css-d
 
 ### 2. Sinalizadores de Exibição
 
-Replique as seguintes visualizações, utilizando seu conhecimento de `display`.
-Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
+Replique as seguintes visualizações, utilizando seu conhecimento de `display`. Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
 
 ![Banners Views1](https://fotos.subefotos.com/8157f58d3d2dcfcf689ec56554097266o.png)
 

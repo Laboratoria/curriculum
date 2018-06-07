@@ -1,4 +1,4 @@
-# Eventos
+# 04 - Events
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -12,8 +12,6 @@ Nesta unidade aprenderemos:
 2. Como usá-los?
 3. Gerenciamento e fluxo de eventos \(propagação\).
 4. Tipos
-
-***
 
 ## O que é um evento?
 
@@ -63,7 +61,7 @@ boton.addEventListener('click', olaMundo, false);
 
 > Este é o código para um formulário muito simples Há um _input_ para inserir o nome e outro para inserir o sobrenome. Finalmente, há um _inpu_ do tipo _submit_ \(botão de envio\)
 
-```html
+```markup
 <form>
   <div>
     <label for="fname">First name: </label>
@@ -99,7 +97,7 @@ boton.addEventListener('click', olaMundo, false);
 
 ## Fluxo de Eventos \(Propagação\)
 
-Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
+Quando um evento é executado, ele passa por diferentes fases: _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
 ![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
 

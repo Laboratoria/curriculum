@@ -1,10 +1,8 @@
-# Encerramento: tornando o seu site interativo
+# 15 - Closing
 
 * Tipo: `seminário`
 * Formato: `guiado`
 * Duración: `120min`
-
-***
 
 ## Agenda
 
