@@ -1,6 +1,6 @@
 # Produto final: Dashboard de Dados
 
-* Tipo: `prática`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `15h`
 
