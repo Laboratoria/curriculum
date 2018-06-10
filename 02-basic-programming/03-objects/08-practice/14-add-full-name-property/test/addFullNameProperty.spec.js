@@ -2,7 +2,7 @@ const Assert = require('chai').assert;
 const addFullNameProperty = require('../solution/addFullNameProperty');
 
 describe("addFullNameProperty()", function () {
-  it("debería regresar 'Kemal Mahmud', para { firstName : 'Kemal', lastName : 'Mahmud' }", function () {
+  it("deve devolver 'Kemal Mahmud', para { firstName : 'Kemal', lastName : 'Mahmud' }", function () {
     var name = { firstName: "Kemal", lastName: "Mahmud" };
     var full = { fullName: "Kemal Mahmud" };
 
