@@ -2,27 +2,27 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duração: `30min`
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué forma de modificar el flujo de un programa muestra la figura a continuación?
+### 1) Que forma de modificar o fluxo de um programa a figura a seguir revela?
 
 ![Flujo bucle](http://eloquentjavascript.net/img/controlflow-loop.svg)
 
-#### Opciones
+#### Opções
 
 1. while
-2. bucles en general
+2. loops em geral
 3. if
 4. if else
-5. if else "anidado" (nested)
+5. if else "aninhado" (nested)
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Cuál es el problema con el siguiente código?
+### 2) Qual é o problema com o seguinte código?
 
 ```js
 do {
@@ -30,17 +30,17 @@ do {
 } while (2 > 3);
 ```
 
-#### Opciones
+#### Opções
 
-1. Tiene un error de sintaxis
-2. No utiliza buenas prácticas
-3. La variable no está bien declarada
-4. Genera un bucle infinito
-5. Ninguno, funciona bien e imprime 'hello world' una vez en la consola
+1. Tem um erro de sintaxe
+2. Não utiliza boas práticas
+3. A variável não está bem declarada
+4. Gera um loop infinito
+5. Nenhum, funciona bem e imprime 'hello world' uma vez no console
 
 <solution style="display:none;">5</solution>
 
-### 3) Encuentra el error en la siguiente función
+### 3) Encontre o erro na seguinte função
 
 ```js
 var result = 0;
@@ -53,28 +53,28 @@ var showSum = function(num1, num2) {
 showSum(if, else);
 ```
 
-#### Opciones
+#### Opções
 
-1. La función no está siendo invocada
-2. Los parámetros no están siendo declarados
-3. alert no es una función
-4. Error de sintaxis. No se pueden utilizar keywords como argumentos
-
-<solution style="display:none;">4</solution>
-
-### 4) La diferencia entre undefined y null
-
-#### Opciones
-
-1. No existe, son lo mismo
-2. No importa
-3. `undefined` no tiene valor y `null` es un string vacio
-4. `undefined` significa que no se ha _asignado_ un valor, mientras que `null`
-   significa que hemos _asignado_ el valor `null`
+1. A função não está sendo chamada
+2. Os parâmetros não estão sendo declarados
+3. alert não é uma função
+4. Erro de sintaxe. Não se pode utilizar keywords como argumentos
 
 <solution style="display:none;">4</solution>
 
-### 5) Cuál es el resultado de
+### 4) A diferença entre undefined e null
+
+#### Opções
+
+1. Não existe, eles são a mesma coisa
+2. Não importa
+3. `undefined` não tem valor e `null` é um string vazio
+4. `undefined` significa que não foi _assinalado_ um valor, enquanto `null`
+   significa que _assinalamos_ o valor `null`
+
+<solution style="display:none;">4</solution>
+
+### 5) Qual é o resultado de
 
 ```js
 var number = 0;
@@ -84,18 +84,18 @@ while (number <= 12) {
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. imprime los números pares desde el 0 al 10 (inclusive)
-2. imprime los números pares desde el 0 al 12 (inclusive)
-3. imprime los números pares desde el 2 al 10 (inclusive)
-4. imprime los números pares desde el 2 al 12 (inclusive)
+1. imprime os números pares de 0 a 10 (inclusive)
+2. imprime os números pares de 0 a 12 (inclusive)
+3. imprime os números pares de 2 a 10 (inclusive)
+4. imprime os números pares de 2 a 12 (inclusive)
 
 <solution style="display:none;">2</solution>
 
-### 6) El resultado de "Hola" + "mundo" es
+### 6) O resultado de "Hola" + "mundo" é
 
-#### Opciones
+#### Opções
 
 1. "Hola Mundo"
 2. "Hola mundo"
@@ -104,7 +104,7 @@ while (number <= 12) {
 
 <solution style="display:none;">3</solution>
 
-### 7) Cuál es el resultado de
+### 7) Qual o resultado de
 
 ```js
 for (var number = 1; number < 8; number = number * 3) {
@@ -112,7 +112,7 @@ for (var number = 1; number < 8; number = number * 3) {
 }
 ```
 
-#### Opciones
+#### Opções
 
 1. 1
 2. 1, 3, 9
@@ -121,36 +121,36 @@ for (var number = 1; number < 8; number = number * 3) {
 
 <solution style="display:none;">4</solution>
 
-### 8) Al siguiente switch le faltan algunos "breaks". ¿Cuál sería el resultado de ejecutar el código así como está?
+### 8) Ao seguinte switch lhe faltam alguns "breaks". Qual seria o resultado de executar o código assim como está?
 
 ```js
 var weather = 'soleado';
 
 switch (weather) {
-  case 'lluvioso':
-    console.log('Recuerda levar un paraguas.');
+  case 'chuvoso':
+    console.log('Lembre-se de levar um guarda-chuvas.');
     break;
-  case 'soleado':
-    console.log('Viste ligero.');
+  case 'ensolarado':
+    console.log('Vista-se com roupas leves.');
   case 'nublado':
-    console.log('Sal a la calle');
+    console.log('Saia para a rua.');
 
   default:
-    console.log('Tipo de clima desconocido');
+    console.log('Tipo de clima desconhecido');
     break;
 }
 ```
 
 #### Opciones
 
-1. Imprime 'Sal a la calle.'
-2. Imprime 'Tipo de Clima desconocido.'
-3. Imprime 'Sal a la calle'" y 'Tipo de Clima desconocido.'
-4. Imprime 'Viste ligero.', 'Sal a la calle.' y 'Tipo de Clima desconocido.'
+1. Imprime 'Saia para a rua.'
+2. Imprime 'Tipo de Clima desconhecido.'
+3. Imprime 'Saia para a rua.'" e 'Tipo de Clima desconhecido.'
+4. Imprime 'Vista-se com roupas leves.', 'Saia para a rua.' e 'Tipo de Clima desconhecido.'
 
 <solution style="display:none;">4</solution>
 
-### 9) Cuál es el resultado de
+### 9) Qual é o resultado de
 
 ```js
 for (var i = 0; i <= 10; i++) {
@@ -162,18 +162,18 @@ for (var i = 0; i <= 10; i++) {
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. Imprime los números enteros del 0 al 10 (inclusive)
-2. Imprime los números enteros del 1 al 10 (inclusive)
-3. Imprime los números enteros del 0 al 10 (inclusive) y luego imprime el número
-   0 de nuevo
-4. Imprime los números enteros del 1 al 10 (inclusive) y luego imprime el número
-   0 de nuevo
+1. Imprime os números inteiros do 0 a 10 (inclusive)
+2. Imprime os números inteiros do 1 ao 10 (inclusive)
+3. Imprime os números inteiros do 0 ao 10 (inclusive) e depois imprime o número
+   0 denovo
+4. Imprime os números inteiros do 1 ao 10 (inclusive) e depois imprime o número
+   0 denovo
 
 <solution style="display:none;">2</solution>
 
-### 10) Cuál es el resultado de
+### 10) Qual o resultado de
 
 ```js
 var medalForScore = function(score) {
@@ -189,7 +189,7 @@ var medalForScore = function(score) {
 console.log(medalForScore(3));
 ```
 
-#### Opciones
+#### Opções
 
 1. Bronze
 2. Silver
@@ -198,20 +198,20 @@ console.log(medalForScore(3));
 
 <solution style="display:none;">2</solution>
 
-### 11) Una función puede retornar múltiples valores a la vez
+### 11) Uma função pode retornar múltiplos valores ao mesmo tempo.
 
-#### Opciones
+#### Opções
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">2</solution>
 
-### 12) Los comandos como alert(), prompt() y console.log() son realmente funciones
+### 12) Os comandos como alert(), prompt() e console.log() são realmente funções
 
-#### Opciones
+#### Opções
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">1</solution>

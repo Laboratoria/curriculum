@@ -18,7 +18,7 @@ O texto abaixo é baseada em grande parte, com alguns ajustes, no capítulo 4 de
 
 Os`objects`em JavaScript são muito parecidos com os`arrays`, mas com duas diferenças importantes:
 
-1. Como vimos, para acessar informações dentro de um `array`, nós usamos um número correspondente ao _índice_; isto é, a posição em que o valor está localizado. Os `objects`, por outro lado, utilizam `strings`ao invés de números para acessar os diferentes elementos. Essas `strings` são chamadas de chaves \(_keys_\) ou propriedades, e os elementos para os quais eles apontam são chamados de valores_ _\(_values_\). Juntas, essas informações são chamadas de_ pares de chave-valor_.
+1. Como vimos, para acessar informações dentro de um `array`, nós usamos um número correspondente ao _índice_; isto é, a posição em que o valor está localizado. Os `objects`, por outro lado, utilizam `strings`ao invés de números para acessar os diferentes elementos. Essas `strings` são chamadas de chaves (_keys_) ou propriedades, e os elementos para os quais eles apontam são chamados de valores_ _\(_values_\). Juntas, essas informações são chamadas de_ pares de chave-valor_.
 2. Como nos `arrays` é necessário o _índice_ para acessar informações, é importante manter uma determinada ordem de seus valores. No caso dos _pares de chave-valor_, as informações podem estar em qualquer ordem.
 
 Enquanto os `arrays` são usados ​​principalmente para representar listas de várias coisas, os objetos costumam ser usados ​​para representar elementos simples, mas com **várias características ou atributos**. Por exemplo, se quiséssemos agrupar os títulos dos nossos filmes favoritos, usaríamos um `array` assim:
@@ -206,4 +206,3 @@ console.log(student);
 A seguir, Michelle explica os principais conceitos de `object`com um exemplo:
 
 [![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
-

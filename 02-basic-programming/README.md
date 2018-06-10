@@ -28,25 +28,21 @@ Com este curso, você desenvolverá dois programas que têm aplicação em nosso
 1. **Cifra de César**: você criará um programa que criptografa e decodifica mensagens de acordo com o [algoritmo da Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) \(_Caesar cipher_\).
 2. **Validação de cartão de crédito**: você fará um programa capaz de verificar se um cartão de crédito é válido de acordo [com o algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-## Programa de Estudos
+## Syllabus
 
-### Unidade 01: [Boas-vindas](https://github.com/cemsbr/curricula-js/tree/ff541dfe3be8d642da32687aed9316c990370fc5/02-basic-programming/00-welcome/README.md)
-
-Receba as boas-vindas à essa nova etapa, conheça como se aprende na Laboratoria e inicie as aulas.
-
-### Unidade 02: [A linha de comandos e o Git](https://github.com/cemsbr/curricula-js/tree/ff541dfe3be8d642da32687aed9316c990370fc5/02-basic-programming/01-shell+git/README.md)
+### Unidade 01: [A linha de comandos e o Git](01-shell+git)
 
 ...
 
-### Unidade 03: [Arranjos \(vetores - _arrays_\)](https://github.com/cemsbr/curricula-js/tree/ff541dfe3be8d642da32687aed9316c990370fc5/02-basic-programming/02-arrays/README.md)
+### Unidade 02: [Arranjos (vetores - arrays)](02-arrays)
 
 ...
 
-### Unidade 04: [Objetos \(_objects_\)](https://github.com/cemsbr/curricula-js/tree/ff541dfe3be8d642da32687aed9316c990370fc5/02-basic-programming/03-objects/README.md)
+### Unidade 03: [Objetos (objects)](03-objects)
 
 ...
 
-### Unidade 05: [Produtos finais](https://github.com/cemsbr/curricula-js/tree/ff541dfe3be8d642da32687aed9316c990370fc5/02-basic-programming/04-final-products/README.md)
+### Unidade 04: [Produtos finais](04-final-products)
 
 Aplique o que você aprendeu criando dois programas que com aplicação em nosso dia-a-dia: validação de cartão de crédito e Cifra de César.
 
@@ -69,4 +65,3 @@ Aplique o que você aprendeu criando dois programas que com aplicação em nosso
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/) , Marijn Haverbeke de 2014
 * [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf), Nick Morgan, 2015
-

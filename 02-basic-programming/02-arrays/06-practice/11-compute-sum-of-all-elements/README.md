@@ -1,4 +1,4 @@
-## computeSumOfAllElements
+# computeSumOfAllElements
 
 Escreva uma função chamada `computeSumOfAllElements`.
 

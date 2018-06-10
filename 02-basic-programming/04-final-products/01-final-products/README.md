@@ -67,4 +67,3 @@ Crie um site que solicite, por meio de um `prompt()`, o número de um cartão de
 Aqui está um vídeo de Michelle que guia você pelo algoritmo de Luhn e dá dicas para concluir este projeto:
 
 [![Dicas de valida&#xE7;&#xE3;o de Cart&#xE3;o de Cr&#xE9;dito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-

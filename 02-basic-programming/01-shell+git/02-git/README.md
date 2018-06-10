@@ -13,12 +13,9 @@
 * Entender a diferença entre `Git` e `GitHub`
 * Instalar e configurar o `Git`
 * Aprender o _workflow_ de uma desenvolvedora
-* Compreender os conceitos básicos: repositórios local e remoto, \_working
-
-  directory_, \_staging area_ e _branches_
-
+* Compreender os conceitos básicos: repositórios local e remoto, _working
+  directory_, _staging area_ e _branches_
 * Saber utilizar os comandos essenciais: `init`,`status`, `add`, `commit`,
-
   `push` e `pull`
 
 O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes referências:
@@ -331,4 +328,3 @@ A seguir, temos uma lista de comandos do Git usados nesta aula:
 Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle de versões de seus projetos e colaborar com outras professoras da Laboratoria.
 
 [![Subindo o reposit&#xF3;rio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
-
