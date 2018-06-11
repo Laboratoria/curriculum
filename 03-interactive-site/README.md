@@ -42,7 +42,7 @@ Com este curso você desenvolverá seus primeiros produtos digitais. Você vai c
 
 ## Syllabus
 
-### Unidade 01: [Layout da Web com HTML & CSS](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/00-html-and-css)
+### Unidade 01: [Layout da Web com HTML & CSS](00-html-and-css)
 
 60-70h
 
@@ -72,7 +72,7 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 | 19 | Questionário | 15min | Auto-avaliação |
 | 20 | Seminário | 2h | Encerramento: HTML & CSS |
 
-### Unidade 02: [Criando Interação com JavaScript](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/01-making-your-site-interactive)
+### Unidade 02: [Criando Interação com JavaScript](01-making-your-site-interactive)
 
 30-35h
 
@@ -96,7 +96,7 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 | 13 | Questionário | 5min | Auto avaliação |
 | 14 | Seminário | 2h | Encerramento: Fazendo seu site web interativo |
 
-### Unidade 03: [Introdução a _User Experience Design_](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/02-ux-design)
+### Unidade 03: [Introdução a _User Experience Design_](02-ux-design)
 
 15-20h
 
@@ -119,7 +119,7 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a 
 | 12 | Questionário | 5min | Auto avaliação |
 | 13 | Seminário | 2h | Encerramento |
 
-### Unidade 04: [Data Dashboard](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/03-data-dashboard)
+### Unidade 04: [Data Dashboard](03-data-dashboard)
 
 20h
 

@@ -39,7 +39,7 @@ Um exemplo de um dashboard em outro contexto é o seguinte:
 
 ![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg)
 
-**Lembre-se** que este esboço é parte do [produto final](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/03-data-dashboard/01-final-product/README.md) desta unidade.
+**Lembre-se** que este esboço é parte do [produto final](01-final-product) desta unidade.
 
 Faça um esboço do dashboard da Laboratoria.
 
