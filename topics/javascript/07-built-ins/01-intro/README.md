@@ -8,8 +8,8 @@
 
 En esta unidad aprenderemos:
 
-- ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en JavaScript?
--¿Por qué utilizarlos?
+* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en JavaScript?
+* ¿Por qué utilizarlos?
 
 ***
 
@@ -18,11 +18,13 @@ En esta unidad aprenderemos:
 Todos los lenguajes de programación tienen objetos preconstruidos (built-in)
 que crean la funcionalidad escencial del lenguaje. Los objetos
 preconstruidos son la base del lenguaje en el que escribes código y sirven para
-potenciar la funcionalidad de tu código. 
+potenciar la funcionalidad de tu código.
 JavaScript tiene muchos objetos preconstruidos que lo definen como un lenguaje.
 El término "objetos globales" (u objetos preconstruidos estándar) no debe
 confundirse con el objeto global. Aquí, los objetos globales se refieren a
-objetos en el [ámbito global](https://msdn.microsoft.com/es-es/library/bzt2dkta(v=vs.94).aspx). Estos objetos y funciones especiales que vienen
+objetos en el
+[ámbito global](https://msdn.microsoft.com/es-es/library/bzt2dkta(v=vs.94).aspx).
+Estos objetos y funciones especiales que vienen
 con JavaScript pero que no son parte del lenguaje en sí, también se conocen
 como la _librería estándar_ (standard library) ya que siempre podemos contar
 con ellos. Son librerías que no tenemos que importar y siempre están
@@ -78,7 +80,7 @@ en entender librerías que consumes para una sola línea de código.
 
 Ejemplo:
 
-```
+```js
 Supongamos que quieres encontrar la raíz cuadrada de un número.
 Siempre puedes escribir tu propia pieza de código para encontrar la raíz
 cuadrada, pero este proceso lleva tiempo y puede no ser el más eficiente.
