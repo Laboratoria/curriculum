@@ -76,8 +76,9 @@ transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 _interfaz web_ donde podamos visualizar y manipular data.
 
-Esperamos que puedas pensar en el usuario, entender cuál es la mejor manera de visualizar la data según sus necesidades, y plasmar todo eso en tu diseño
-en la web.
+Esperamos que puedas pensar en el usuario, entender cuál es la mejor manera de
+visualizar la data según sus necesidades, y plasmar todo eso en tu diseño en la
+web.
 
 Además, este proyecto se debe "resolver" en parejas, por lo que un objetivo
 importante es ganar experiencia en trabajos colaborativos con entrega grupal.
@@ -477,6 +478,7 @@ continuación presentamos los niveles esperados para cada habilidad:
 | Color | 2 |
 
 ### Habilidades Blandas
+
 Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
 | Habilidad | Nivel esperado |
