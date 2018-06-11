@@ -74,6 +74,11 @@ O significado de cada um dos valores possíveis da propriedade `position` é o s
 
 É o posicionamento normal ou estático, que é aplicado pelo navegador de uma maneira predefinida a todos os elementos de uma página. Isto significa que eles aparecem de acordo com a sua ordem em _HTML_, e para mostrar cada elemento considera apenas o seu `display` \(ou seja, em linha, bloco, etc.\). Nada novo :\)
 
+
+<!-- Este valor não utiliza um eixo de coordenadas, por isso não leva em conta as propriedades `left`, `right`, `top` y `bottom`; se as pusermos, nada acontecerá com o elemento.
+
+![static](https://cdn-images-1.medium.com/max/800/1*oNAAc_CUeTsAqPpOZjRwKA.png) -->
+
 ### Relative
 
 É muito semelhante ao posicionamento estático, exceto que uma vez que o elemento posicionado tomou o seu lugar no arranjo de fluxo normal, pode modificar a sua posição final \(inclusive causando sobreposições com outros elementos da página\) por meio das propriedades: `top`, `bottom`, `left` e `right`.
@@ -85,6 +90,11 @@ Leia mais sobre a posição relativa aqui:
 ### Absolute
 
 Um elemento de posição absoluta não existe mais no fluxo normal do documento. O elemento fica em sua própria camada separada de todo o resto. Sua posição é definida em relação às arestas do primeiro ancestral **no-static** que ele possui. Se você não tiver ancestrais **no-static**, sua posição será definida em relação às arestas do `body`. Como posição _relative_, podemos modificar a posição final do elemento por meio das propriedades: `top`, `bottom`, `left` e `right`.
+
+<!-- ![absolute-code](https://cdn-images-1.medium.com/max/800/1*I-L5xJ7P8HLPs8b
+PfbMWTQ.png)
+![absolute](https://cdn-images-1.medium.com/max/800/1*j1j32f4xx26URfN99BjTmw.
+png) -->
 
 Leia mais da posição absoluta aqui:
 
@@ -100,11 +110,71 @@ Leia mais da posição _fixed_ aqui:
 
 * [Livros da Web - Posicionamento Fixo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_fijo.html)
 
+<!-- >A propriedade position não permite controlar o posicionamento flutuante, que se estabelece com outra propriedade chamada float e que explicamos mais adiante.
+Além disso, a propriedade position só indica como se posiciona uma caixa, e não o deslocamento. -->
+
 ## 3. Floats
 
 Float é uma propriedade de posicionamento em CSS, ou seja, como os elementos estão localizados em um documento HTML. O float faz os elementos se ajustarem à direita ou à esquerda. É inspirado em revistas nas quais os textos se encaixam em torno das imagens.
+
+<!-- Podemos observar um exemplo de float em um documento do word quando “enquadramos” a imagen, ou seja, que o texto se ajuste ao redor da imagem. Um exemplo:
+
+imagen -->
 
 Elementos flutuantes ainda fazem parte do fluxo de documentos. Isso é claramente diferente dos elementos que usam posicionamento absoluto. Elementos de página com posição absoluta são removidos do fluxo da página da web. Elementos de página com posição absoluta não afetarão a posição de outros elementos e outros elementos não os afetarão, sejam eles tocados ou não.
 
 Leia sobre os floats [aqui](http://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html)
 
+<! - ### Valores de float
+
+#### None
+O elemento não flutua. Este é o valor inicial.
+
+#### left
+o elemento flutua à esquerda do bloco do contêiner
+
+#### Right
+o elemento flutua à direita do bloco do contêiner
+
+#### Herdar
+O elemento herda a direção flutuante de seu pai
+
+### Float vs Position: Absolute
+Os elementos flutuantes ainda fazem parte do fluxo da página da Web. Isso é claramente difere dos elementos de página que usam posicionamento absoluto. Elementos da página com posição absoluta são removidos do fluxo de página, como quando a caixa de texto no design do impressão foi dita para ignorar o wrapper da página.
+
+### clear
+É uma propriedade usada para controlar o comportamento de elementos flutuantes.
+Como já sabemos, os elementos depois de um elemento flutuante flutuarão ao seu redor
+Caso não queiramos que isso aconteça, com clear especificamos que um elemento não suporta um float à sua esquerda, à sua direita ou de ambos os lados.
+
+#### Valores de clear
+
+- none: default, permite elementos flutuantes em ambos os lados.
+- left: elementos flutuantes não são permitidos no lado esquerdo.
+- right: elementos flutuantes não são permitidos no lado direito.
+- both: elementos flutuantes não são permitidos no lado esquerdo ou direito.
+- inherit: herda o valor de seu elemento pai.
+
+Vejamos um exemplo: queremos fazer um navegador de páginas. Então nós lhe damos a propriedade float e colocamos os valores dependendo de qual lado queremos que apareça.
+
+imagem aqui
+
+### Clearfix
+O maravilhoso hack clearfix serve-nos para recipientes de elementos flutuantes.
+
+#### Colapso do contêiner pai
+Normalmente, se tivermos um elemento flutuante dentro de um contêiner, este será reduzido e não colocará o elemento flutuante para cima. Como no caso seguinte:
+
+imagem aqui
+
+* Uma maneira de corrigir o código é adicionar um elemento invisível que você adiciona um clear both no final do código.
+
+#### Corrigindo o recolhimento: Overflow auto
+Uma maneira de corrigir o código e que devemos aplicar com grande cuidado é overflow: hidden ou overflow: auto.
+Nota: Às vezes isso gera uma barra de rolagem indesejada no código
+
+imagem
+
+#### Corrigindo o recolhimento: clearfix
+Retorna a capacidade para o container de elementos de bloco "flutuantes" de contê-los em um alinhamento horizontal.
+imagem ->
