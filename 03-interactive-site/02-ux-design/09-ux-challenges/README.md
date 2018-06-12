@@ -1,56 +1,48 @@
-# Retos
+# Desafios
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `8h`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `8h`
 
 ## Objetivos
 
-- A continuación te presentamos una serie de retos que debes completar para
-  poner tus conocimientos a prueba.
+* A seguir apresentamos uma série de desafios que você deve completar para colocar seu conhecimento à prova
 
 ***
 
-## 1. Elige una web de tu preferencia y explica qué partes conforman el UX y qué partes el UI
+## 1. Escolha uma web de sua preferência e explique quais partes compõem a UX e quais partes a UI
 
-- [Pinterest](https://www.pinterest.com/)
-- [Youtube](https://www.youtube.com/)
-- [Laboratoria](http://laboratoria.la/)
+* [Pinterest](https://www.pinterest.com/)
+* [YouTube](https://www.youtube.com/)
+* [Laboratório](http://laboratoria.la/)
 
-## 2. Identifica los elementos de navegación en los siguientes sites
+## 2. Identifique os elementos de navegação nos seguintes sites
 
-- [Breather](http://breather.com/)
-- [Github](https://github.com)
-- [Medium](http://medium.com)
+* [Breather](http://breather.com/)
+* [Github](https://github.com/)
+* [Medium](http://medium.com/)
 
-## 3. Crea un sketch para la herramienta del dashboard de Laboratoria
+## 3. Crie um esboço para a ferramenta de Dashboard da Laboratoria
 
-**El dashboard** es una herramienta utilizada por profesores, training managers,
-directores y gerentes de Laboratoria para ver rápidamente qué está pasando en el
-salón de clases de Laboratoria. En el dashboard, los usuarios mencionados pueden
-ver rápidamente estadísticas y datos en tiempo real como:
+**O dashboard** é uma ferramenta usada por professores, gerentes de treinamento, diretores e gerentes da Laboratoria para ver rapidamente o que está acontecendo na sala de aula da Laboratoria. No painel, os usuários mencionados podem ver rapidamente estatísticas e dados em tempo real, como:
 
-- \# de alumnas inscritas
-- \# de alumnas que desertaron
-- \# y % de alumnas que pasan el criterio mínimo de evaluación
-- Promedio de notas por sprint
-- Promedio de notas HSE
-- Promedio de notas técnicas
+* Número de alunas matriculados
+* \# de alunas que abandoaram
+* \# e% de alunas que passam pelo critério de avaliação mínima
+* Número médio de notas de sprint
+* Média de notas de HSE
+* Notas técnicas médias
 
-Además, dado que Laboratoria tiene muchas generaciones, regularmente 2
-generaciones por año (estas generaciones empezaron en el 2014), y que opera en 4
-sedes (Arequipa, Ciudad de México, Lima y Santiago de Chile), es posible que los
-usuarios quieran ver datos de sedes / generaciones anteriores para poder hacer
-comparaciones.
+Além disso, dado que Laboratoria tem muitas gerações, regularmente 2 gerações por ano \(estas gerações começou em 2014\), e opera em 4 locais \(Arequipa, Cidade do México, Lima e Santiago de Chile\), é possível que os usuários queiram ver dados de sites / gerações anteriores para poder fazer comparações.
 
-Un ejemplo de dashboard en otro contexto es este:
+Um exemplo de um dashboard em outro contexto é o seguinte:
 
 ![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg)
 
-**Recuerda** que este sketch es parte del [producto final](https://github.com/Laboratoria/curricula-js/blob/03-interactive/03-interactive-site/03-data-dashboard/01-final-product/README.md)
-de esta unidad.
+**Lembre-se** que este esboço é parte do [produto final](01-final-product) desta unidade.
 
-Haz un sketch del dashboard de Laboratoria.
+Faça um esboço do dashboard da Laboratoria.
 
-- Ten en cuenta los elementos de navegación en tus sketches.
-- Utiliza títulos y textos reales.
+* Tenha em mente os elementos de navegação nos seus esboços.
+* Use títulos e textos reais.
+

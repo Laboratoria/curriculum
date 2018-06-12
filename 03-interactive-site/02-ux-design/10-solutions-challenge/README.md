@@ -1,15 +1,16 @@
-# Solucionario Retos UX
+# Soluções dos Desafios de UX
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `120min`
 
 ## Objetivos
 
-- Revisar las soluciones de todos los retos
+* Revisar as soluções de todos os desafios
 
 ***
 
 ## Agenda
 
-- Resolver los retos, evaluar las diferentes maneras de alcanzar las soluciones.
+* Resolver os desafios, avaliar as diferentes maneiras de atingir as soluções.
+

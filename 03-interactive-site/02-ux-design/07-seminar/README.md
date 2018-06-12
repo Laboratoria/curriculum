@@ -1,98 +1,22 @@
-# Clase de Conceptos
+# Aula de Conceitos
 
-- Tipo: `seminario`
-- Formato: `guiado`
-- Duración: `120min`
+* Tipo: `seminário`
+* Formato: `guiado`
+* Duração: `120min`
 
 ## Objetivos
 
-- Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
-  equipo de profesores
-- ¡Aclarar todas las dudas que tengas!
+* Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua equipe de professoras
+* Esclarecer todas as suas dúvidas!
 
 ***
 
 ## Agenda
 
-1. Conversemos sobre los roles en un equipo de desarrollo con el ejemplo de
-   `Spotify`
+1. Conversemos sobre os papeis em uma equipe de desenvolvimento com o exemplo do `Spotify`
+2. Entendamos bem o conceito de UX e a diferença com UI
+3. Por meio de exemplos vamos garantir que entendemos como as pessoas encontram coisas na web
+4. Por meio de exemplos veremos ocasiões em que esboçar e ter protótipos tiveram um papel importante
+5. Revisemos los [exercícios guiados](https://github.com/cemsbr/curricula-js/blob/pt/03-interactive-site/02-ux-design/07-seminar/07-ejercicios-guiados.md) que resolveremos na próxima aula para que tente resolvê-los sozinha primeiro. Veremos algumas dicas :\)
+6. Revisar a Abertura respondendo às duvidas
 
-   <!--
-
-   Podemos empezar reflexionando con las estudiantes ¿Qué roles creemos que
-   podemos encontrar en Spotify?
-
-   Quién creemos que puede ser el encargado de que:
-
-   - El producto resuelva los problemas de los usuarios. Como por ejemplo, tener
-     cuentas familiares
-   - La interfaz sea fácil de usar y que tenga todo el branding característico de
-     Spotify (verde y negro)
-   - Todas las canciones sean fáciles de encontrar y que estén guardadas de una
-     forma en la que sea fácil su reproducción
-
-   Roles:
-
-   - UX Designer: es el encargado
-   - Visual Designer:
-   - Front-end developer:
-   - Back-end developer:
-   - QA:
-   - Data scientist:
-   - Product manager:
-   - Project manager:
-
-   -->
-
-2. Entendamos bien el concepto de UX y la diferencia con UI
-
-   <!--
-
-   Aquí explicamos qué es UI y hacemos la relación directamente con GUI. Un poco
-   de historia. Se empezó a usar GUI desde que Apple lanzó su primer computador.
-   Ya que al tener un mouse y una forma de interactuar distinta a la pantalla
-   negra + comandos, se empezó a referir a ella como Graphical User Interface.
-   Un término que fue cambiando con el pasar de los años a solo UI. Sin embargo,
-   eso puede traer mucha confusión ahora que estamos hablando de Voice UIs.
-
-    -->
-
-3. Por medio de ejemplos nos aseguramos que entendemos cómo encuentran las
-   personas cosas en la web
-
-   <!--
-
-   ¿Te acuerdas la última vez que quisiste ir al cine?
-
-   * Sabías qué película verías
-   * Sabías en qué cine la verías
-   * Sabías a qué hora la verías
-
-   Planeamos una visita al cine en ese momento y revisamos las distintas formas
-   en las que encontramos cosas en la web dependiendo del contexto.
-
-   -->
-
-4. Por medio de ejemplos veremos ocasiones en las sketchear y tener prototipos
-   en papel han sido importantes
-
-   <!--
-
-   Veamos los siguientes videos y discutamos: https://youtu.be/9wQkLthhHKA y
-   https://www.youtube.com/watch?v=r36NNGzNvjo. La principal reflexión es lo
-   económico y la cantidad de iteraciones que se pueden realizar en papel.
-
-   -->
-
-5. Revisemos los [ejercicios guiados](07-ejercicios-guiados.md) que resolveremos
-   en la próxima clase para que intentes resolverlos por tu cuenta primero.
-   Veamos un par de tips :)
-
-   <!--
-
-   Dejar claro que pueden traer sus propuestas. Y que su creatividad basada en la
-   teoría y su curiosidad son valoradas.
-
-   -->
-
-6. Revisar el Opening e ir respondiendo dudas

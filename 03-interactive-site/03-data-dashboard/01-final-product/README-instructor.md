@@ -1,364 +1,263 @@
-# Producto Final: Data Dashboard
+# Produto Final: Dashboard de Dados
 
-- Tipo: `practice`
-- Formato: `guiado`
-- Duración: `15h`
+* Tipo: `exercício`
+* Formato: `guiado`
+* Duração: `15h`
 
 ## Objetivos
 
-- A continuación te presentamos los casos planificados que pueden ocurrir
-  durante el desarrollo del producto.
+* Abaixo apresentamos os casos planejados que podem ocorrer durante o desenvolvimento do produto.
 
 ***
 
 ## Contexto
 
-Este producto no tiene un lineamiento específico y está orientado a que las
-estudiantes planifiquen, organicen y prioricen sus tareas en base a los
-requerimientos del cliente (las TMs :japanese_ogre: :sweat_smile:).
+Este produto não possui uma diretriz específica e foi projetado para que os alunos planejem, organizem e priorizem suas tarefas com base nos requisitos do cliente (TMs). :japanese_ogre: :sweat_smile:).
 
-## A tener en cuenta
+## A levar em consideração
 
-En muchos de los casos, esta será la primera vez que desarrollen un producto
-bajo esta narrativa, así que habrán muchas dudas :smiley:. Algo súper importante
-es que **LAS NOTAS NO IMPORTAN** para este producto (pero no significa que no
-revisaremos el progreso de las estudiantes).
+Em muitos casos, esta será a primeira vez que elas desenvolvem um produto sob esta narrativa, então haverá muitas dúvidas 😃. Algo muito importante é que as **NOTAS NÃO IMPORTAM** para este produto (mas isso não significa que não revisaremos o progresso dos alunos).
 
-Es muy probable que muchas (o tal vez todas) no puedan terminar el producto
-completo (no interesa, estamos seguros que aprenderán mucho :muscle:). Hay
-ciertas cosas que ellas tendrán que darse cuenta que necesitan aprender y que
-no les hemos enseñado (aquí entra la parte autodidacta, así que mucho :eyes:).
-Aquí un listado de las cosas que probablemente aprendan en la marcha:
+É muito provável que muitas (ou talvez todas) não possam concluir o produto inteiro (não importa, temos a certeza de que elas aprenderão muito 💪). Há certas coisas que elas terão que perceber que precisam aprender e que nós não as ensinamos (aqui vem a parte autodidata, então muito👀). Aqui está uma lista das coisas que você provavelmente aprendeu durante a marcha:
 
-- El producto es en parejas, esto significa que deberán aprender a trabajar
-  colaborativamente, esto significa sufrir con **Git** :sweat_smile:.
+* O produto será em duplas, isso significa que elas devem aprender a trabalhar de forma colaborativa, isso significa sofrer com o **Git** 😅.
 
-  > Aquí l@s profes podrán apoyar en resolver dudas mas no sugerir soluciones, es decir,
-  > si las estudiantes optan por darse permisos en un único repositorio o
-  > trabajar con Pull Requests, cualquiera es válido, solo apoyemos en dudas
-  > basadas en la decisión que ellas mismas tomaron.
+  > Aqui as professoras podem ajudar a resolver dúvidas, mas não sugerir soluções, ou seja, se as alunas optarem por dar permissões em um único repositório ou trabalhar com _Pull Requests_, é válido, apenas as apoiemos nas decisões que elas próprias tomaram.
 
-- Sobre el diseño, como ya han visto, hay una propuesta en Marvel. La idea no es que
-  lo repliquen tal cual pero tampoco que tomen mucho tiempo tratando de proponer
-  el mejor diseño posible y al final solo quede en eso, así que una revisión de
-  avance diario no estaría nada mal.
+* No design, como você já viu, há uma proposta na Marvel. A ideia não é replicá-lo como tal, mas também não levar muito tempo tentando propor o melhor projeto possível e, no final, apenas permanecer nele, portanto, uma revisão do progresso diário não seria ruim.
 
-  > En general, ellas no han visto temas de layouting ni responsive, por lo que
-  > es muy probable que usen margins y paddings para todo. En este punto,
-  > digamos que es aceptable :wink:. Si agregan grids, flexbox u otra forma de
-  > posicionar sus elementos, no es malo, siempre y cuando les quede claro que
-  > pudieron haberlo realizado con lo que ellas ya han visto.
+  > Em geral, elas não viram problemas de layout ou responsivos, então é muito provável que elas usem margins e paddings em tudo. Neste ponto, digamos que seja aceitável😉. Se adicionarem grades, _flexbox_ ou outra maneira de posicionar seus elementos, não é problema, desde que esteja claro para você que você poderia ter feito isso com o que elas já viram.
 
-- Representación de datos. En algunos casos será la primera vez que ellas
-  tendrán todos los datos necesarios para procesar en una variable predefinida,
-  por lo que se complicarán iterándolos y tratando de sacar los datos que ellas necesitan.
-  Esto implica mucha lógica y por ende causará estrés. Aconsejar que hagan un
-  pseudocódigo no sería una mala idea.
+* Representação de dados. Em alguns casos, será a primeira vez que elas terão todos os dados necessários para processar em uma variável predefinida, então elas podem ser complicar tentando obter os dados de que precisam. Isso implica muita lógica e, portanto, causará estresse. Avisar que elas fazerem um pseudocódigo não seria uma má ideia.
 
-  > Si las estudiantes deciden alterar la estructura de los datos otorgados,
-  > está súper bien, siempre y cuando se mantenga el mismo resultado a mostrar.
+  > Se as alunas decidirem alterar a estrutura dos dados fornecidos, isso é super bom, desde que o mesmo resultado seja mantido.
 
-- Las gráficas. Lo primero a tener en mente es que esto es un **ADICIONAL**,
-  pero si ellas deciden priorizar esto, no las detengamos, se darán cuenta que
-  si bien es algo cool de programar, no agrega valor inicial al cliente y
-  aprenderán a priorizar.
+* Os gráficos. A primeira coisa a ter em mente é que este é um **EXTRA** mas se decidirem dar prioridade a este, não podemos parar, elas vão perceber que embora seja algo legal para o programa, não adiciona valor inicial ao cliente e aprenderão a priorizar.
 
-  > Recordemos que no han visto Google Charts, D3 ni otra herramienta para hacer
-  > gráficos de datos, así que si no lo logran, no hay problema. Si encuentran
-  > un plugin de jQuery y logran poner un gráfico, no las limitemos a que no
-  > debieron usarlo, veamos su iniciativa y curiosidad por seguir aprendiendo.
+  > Lembre-se de que elas não viram o Google Charts, D3 ou outra ferramenta para fazer gráficos de dados, portanto, não há problema. Se você encontrar um plugin jQuery e conseguir colocar um gráfico, não o limite a não ter que usá-lo, vamos ver sua iniciativa e sua curiosidade em continuar aprendendo.
 
-## Flujo de trabajo
+## Fluxo de trabalho
 
-El producto final está pensado para 15 horas presenciales (3 días de clase), por
-lo cual debemos de medir el progreso de cada día para dar feedback y apoyar
-cuanto antes. A continuación, se detalla lo que _debería_ pasar cada uno de los
-días (esto no va a pasar :joy:), pero igual es para lo que deberíamos estar
-preparados :muscle:.
+O produto final é projetado para 15 horas de trabalho(3 dias de aula), por isso devemos medir o progresso de cada dia para dar feedback e apoio o mais rápido possível. Em seguida, detalhamos o que _deve_ acontecer a cada dia (isso não acontecerá😂), mas ainda é como devemos estar preparadas 💪.
 
-### Día 1: Entendimiento y planificación
+### Dia 1: Entendimento e planejamento
 
-Cuando se les entreguen las indicaciones, habrán muchas dudas en la clase y tal vez sientan
-incluso que no les quedó nada claro. **NO DESESPEREN**, para eso tenemos esta
-guía :smiley:. Tenemos que representar muy bien a los clientes, por lo cual, si
-no nos preguntan nada, asumimos que todo está claro. Entonces, analicemos la
-calidad de las preguntas, esto será subjetivo (pero... no hay de otra). Algo
-que debemos fomentar, es que planifiquen, dividan tareas y prioricen (debemos
-estar muy atentos a esto).
+Quando as instruções são dadas, haverá muitas dúvidas na turma e elas podem até sentir que nada ficou claro para elas. **NÃO DESESPERE**, pois temos este guia😃. Nós temos que representar clientes muito bem, então se você não nos perguntar nada, nós assumimos que tudo está claro. Então, vamos analisar a qualidade das perguntas, isso será subjetivo (mas ... não há outra forma). Algo que devemos encorajar é que elas planejem, dividam tarefas e priorizem (devemos estar muito atentas a isso).
 
-Algunas estudiantes se mandarán a codear directamente, no las detengamos, que
-se den cuenta por ellas mismas si eso funciona o no. Cada grupo es independiente,
-así que la manera de afrontar el reto será distinto.
+Algumas alunas serão enviadas para programar diretamente, não as impeçam, que percebam sozinhas se isso funciona ou não. Cada grupo é independente, então o caminho para enfrentar o desafio será diferente.
 
-### Día 2: Avance con dudas
+### Dia 2: Avance com dúvidas
 
-Acá probablemente ya habrán odiado a Git y si no, su odio será más intenso al
-final. En este segundo día debemos revisar sus avances y darles feedback de
-priorización, nos odiarán por no haberles dicho nada antes (pero... es parte de
-nuestro trabajo :wink:). Siéntanse libres de pedirles un cambio en su avance
-que les permita cambiar su dinámica de trabajo (recuerden que son los clientes,
-tienen el poder :japanese_ogre:, eso sí, todo con moderación y sentido para el
-reto). Aquí unas ideas:
+Aqui elas provavelmente já odiaram Git e se não, seu ódio será mais intenso no final. Neste segundo dia devemos rever o seu progresso e dar-lhes feedback de priorização, elas vão nos odiar por não ter dito nada antes (mas ... é parte do nosso trabalho😉). Sinta-se à vontade para pedir-lhes uma mudança no seu progresso que lhes permita mudar a sua dinâmica de trabalho (lembre-se de que elas são os clientes, elas têm o poder👹sim, tudo com moderação e sentido para o desafio). Aqui algumas ideias:
 
-- Las secciones que muestran resultados generales, se podrían filtrar por sprint.
-- Marcar una estudiante que desertó y alterar todos los resultados.
+* As seções que mostram resultados gerais podem ser filtradas por _sprint_.
+* Marque uma aluna que desistiu e alterou todos os resultados.
 
-### Día 3: Desesperación total
+### Dia 3: desespero total
 
-Uno de los errores más comunes cuando empezamos un trabajo en equipo es pensar
-que el avance por separado es mejor. Aquí es donde odiarán a GIT si no han
-intentado juntar sus avances hasta el momento. Además algo que se acostumbra
-dejar para el final es el `deployment` (Github Pages), si no hacen algo de lo
-anterior hasta 30 minutos antes de la entrega del producto,
-probablemente su producto no quede como ellas esperaban, y no tendrán un link que
-compartir en su presentación. Esto generará estrés y frustación, debemos estar
-atent@s a esto y dar nuestro mensaje de que deben valorar el aprendizaje
-obtenido. Seamos súper estrictos con los tiempos.
+Um dos erros mais comuns quando começamos um trabalho em equipe é pensar que o avanço separado é melhor. É aqui que elas irão odiar o GIT se não tentarem juntar o progresso até agora. Também algo que normalmente é deixado para o final é o `deployment` (Páginas do Github), se você não fizer algo dos itens acima até 30 minutos antes da entrega do produto, provavelmente seu produto não é como elas esperavam, e não terá um link para compartilhar sua apresentação. Isso gerará estresse e frustração, devemos estar cientes disso e dar nossa mensagem de que elas devem valorizar o aprendizado obtido. Vamos ser super rigorosos com os tempos.
 
-## Preguntas esperadas
+## Perguntas esperadas
 
-### ¿Cómo haré las gráficas?
+### Como farei os gráficos?
 
-Primero, tener en cuenta que es adicional y si queda solo una imagen es más que
-suficiente.
+Primeiro, tenha em mente que é adicional e se apenas uma imagem permanecer, é mais que suficiente.
 
-### ¿Qué es dropout?
+### O que é _dropout_?
 
-Es la deserción de estudiantes.
+É a deserção dos estudantes.
 
-### ¿Cómo se calcula el % de dropout?
+### Como o percentual de _dropout_ é calculado?
 
 ```text
-[Cantidad de estudiantes que dejaron el Bootcamp] / [Total Estudiantes] * 100
+[Quantidade de estudantes que deixaram o Bootcamp] / [Total Estudantes] * 100
 ```
 
-### ¿Por qué el dropout está en color rojo?
+### Por que o dropout é vermelho?
 
-Siempre está en rojo porque es algo que en el mundo ideal debería ser cero.
+Está sempre em vermelho porque é algo que no mundo ideal deveria ser zero.
 
-### ¿Qué significa _achievement_?
+### O que significa _achievement_?
 
-Es la sección de estudiantes que cumplen con la meta de puntos obtenidos en
-clase.
+É a seção de alunos que atende a meta de pontos ganhos na aula.
 
-### ¿Qué significa ese **105** de achievement?
+### O que esse **105** de conquista significa?
 
-Es el promedio de estudiantes que cumplieron la meta de puntos durante todos los
-sprints cursados. Es decir, si soy la estudiante "Ada Lovelace", y he cursado
-hasta el momento 3 sprints con las siguientes notas:
+É o número médio de alunos que atingiram a meta de pontos durante todos os sprints. Ou seja, se eu sou a aluna "Ada Lovelace", e estudei 3 sprints até agora com as seguintes notas:
 
-- Sprint 1 (S1):
+* Sprint 1 (S1):
 
-Técnico | HSE
-------- | ---
-1300    | 400
+| Técnica | HSE |
+| --- | --- |
+| 1300 | 400 |
 
-- Sprint 2 (S2):
+* Sprint 2 (S2):
 
-Técnico | HSE
-------- | ---
-1500    | 800
+| Técnica | HSE |
+| --- | --- |
+| 1500 | 800 |
 
-- Sprint 3 (S3):
+* Sprint 3 (S3):
 
-Técnico | HSE
-------- | ---
-1000    | 1200
+| Técnica | HSE |
+| --- | --- |
+| 1000 | 1200 |
 
-Lo primero que debemos de hacer es encontrar el promedio de puntaje técnico y
-de HSE:
+A primeira coisa que temos que fazer é encontrar a média de pontuação técnica e de HSE:
 
 ```text
-[Puntaje Técnico] = ([Técnico S1] + [Técnico S2] + [Técnico S3]) / [Cantidad Sprints]
-[Puntaje HSE] = ([HSE S1] + [HSE 2] + [HSE 3]) / [Cantidad Sprints]
+[Pontuação Técnica] = ([Técnica S1] + [Técnica S2] + [Técnica S3]) / [Quantidade Sprints]
+[Pontuação HSE] = ([HSE S1] + [HSE 2] + [HSE 3]) / [Quantidade Sprints]
 ```
 
-Aplicados a nuestra estudiante ejemplo, sería:
+Aplicado ao nosso aluno de exemplo, seria:
 
 ```text
-[Puntaje Técnico] = (1300 + 1500 + 1000) / 3 = 1266.67
-[Puntaje HSE] = (400 + 800 + 1200) / 3 = 800
+[Pontuação Técnica] = (1300 + 1500 + 1000) / 3 = 1266.67
+[Pontuação HSE] = (400 + 800 + 1200) / 3 = 800
 ```
 
-#### ¿Por qué tenemos que hacer todo eso?
+#### Por que temos que fazer tudo isso?
 
-Porque la _meta_ de una estudiante se basa tanto en su puntaje técnico como de
-HSE.
+Porque o _objetivo de_ uma aluna é baseado em suas pontuações técnicas e de HSE.
 
-#### ¿Cuánto es la meta?
+#### Qual é a meta?
 
-La meta es 70% de puntos disponibles tanto para ambos puntajes.
+A meta é 70% dos pontos disponíveis para ambas as pontuações.
 
-#### ¿Cuánto es el puntaje disponible?
+#### Qual é a pontuação disponível?
 
-Hasta el momento, los puntajes técnicos disponibles por sprint es 1800 para
-puntos técnicos y 1200 para puntos de HSE.
+Até agora, as pontuações técnicas disponíveis pelo sprint são 1800 para pontos técnicos e 1200 para pontos HSE.
 
-Esto quiere decir que la meta es:
+Isso significa que o objetivo é:
 
-- Meta puntos técnicos: **1260**
-- Meta puntos HSE: **840**
+* Meta dos pontos técnicos: **1260**
+* Meta dos Pontos de HSE: **840**
 
-#### Volviendo al ejemplo
+#### Voltando ao exemplo
 
-Si recordamos el puntaje obtenido por Ada, ella obtuvo `1266.67` en técnico (supera
-la meta) y `800` en HSE (no supera la meta).
+Se nos lembrarmos da pontuação obtida por Ada, ela obteve `1266.67` em técnico (supera a meta) e `800` em HSE (não ultrapassa a meta).
 
-Por lo tanto, esta estudiante **NO** es contada para mostrar el total de estudiantes
-que cumplen la meta :scream: :gun:.
+Portanto, esta aluna **NÃO** é contada para mostrar o número total de alunas que atingem a meta:scream :gun:.
 
-#### ¿Te pareció complejo?
+#### Você achou complicado?
 
-Bienvenid@ al mundo de las TMs :sweat_smile:. Trata de comunicarlo de la mejor
-manera posible a las estudiantes, este fue un ejemplo largo para detallar lo que
-se busca calcular y lo puedas tener súper claro al momento de transmitirlo
-:smiley: :muscle:.
+Bem vindo ao mundo das TMs 😅. Tente se comunicar da melhor maneira possível com as alunas, este foi um longo exemplo para detalhar o que você está procurando para calcular e você pode tê-lo super claro ao transmiti-lo 😃 💪.
 
-### ¿Qué significa el porcentaje de achievement?
+### O que significa a porcentagem de _achievement_?
 
-Es el porcentaje de estudiantes que cumplen la _meta_. Es decir, si son `120`
-estudiantes, y solo `80` cumplen la meta, el % de achievement sería `75%`
-:tada:.
+É a porcentagem de alunas que atingem a _meta_ . Ou seja, se elas são `120` estudantes, e só `80` atingem a meta, a% de aproveitamento seria `75%` :tada:.
 
-### ¿Tienen algún significado los colores?
+### As cores têm algum significado?
 
-Sí, básicamente es un semáforo que mejora la visibilidad de los resultados.
-Están basados en el porcentaje de estudiantes que cumplen la meta:
+Sim, é basicamente um semáforo que melhora a visibilidade dos resultados. Eles são baseados na porcentagem de alunas que atingem a meta:
 
-Color | Métrica
------ | -------
-Rojo | < 70%
-Amarillo | 70% a 80%
-Verde | > 80%
+| Cor | Métrica |
+| --- | --- | --- | --- |
+| Vermelho | < 70% |
+| Amarelo | 70% a 80% |
+| Verde | > 80% |
 
-### ¿Qué es el Net Promoter Score?
+### O que é o _Net Promoter Score_?
 
-Es el indicador de estudiantes que recomendarían a Laboratoria y normalmente se
-usa sus siglas NPS.
+É o indicador dos alunas que elas recomendariam à Laboratoria e seu acrônimo NPS é normalmente usado.
 
-### ¿Cómo se calcula el NPS?
+### Como o NPS é calculado?
 
-Las estudiantes reciben una encuesta donde se les pide indicar del 1 al 10,
-cuánto recomendarían Laboratoria a otra persona. En base a los resultados, se calcula
-el NPS bajo la siguiente fórmula (que se dio en las instrucciones para las estudiantes):
+As estudantes recebem uma pesquisa em que elas são solicitadas a indicar de 1 a 10, o quanto elas recomendariam Laboratoria a outra pessoa. Com base nos resultados, o NPS é calculado de acordo com a seguinte fórmula (fornecida nas instruções para as alunas):
 
 ```text
-[Promoters] = [Respuestas 9 o 10] / [Total respuestas] * 100
-[Passive] = [Respuestas 7 u 8] / [Total respuestas] * 100
-[Detractors] = [Respuestas entre 1 y 6] / [Total respuestas] * 100
+[Promoters] = [Respostas 9 ou 10] / [Total respostas] * 100
+[Passive] = [Respostas 7 ou 8] / [Total respostas] * 100
+[Detractors] = [Respostas entre 1 e 6] / [Total respostas] * 100
 
 [NPS] = [Promoters] - [Detractors]
 ```
 
-#### Entonces... ¿no se toman en cuenta las respuestas 7 y 8?
+#### Então... não são respostas 7 e 8 tomadas em consideração?
 
-No para el resultado final del NPS, pero si se toma en cuenta cuántas
-respondieron con esos valores.
+Não para o resultado final do NPS, mas se leva em conta quantos responderam com esses valores.
 
-### ¿Qué son los porcentajes al lado de promoters, passive, detractors?
+### O que são os percentuais próximos aos _promoters, passive, detractors_?
 
-Cada uno de esos valores es el porcentaje de estudiantes que terminan en cada
-una de dichas categorías (está en la fórmula del NPS :wink:).
+Cada um desses valores é a porcentagem de alunas que terminam em cada uma dessas categorias (é na fórmula do NPS 😉).
 
-### ¿El color del % de NPS significa algo?
+### A cor do NPS% significa alguma coisa?
 
-Sí, es un semáforo igual, en base al resultado obtenido.
+Sim, é um semáforo igual, baseado no resultado obtido.
 
-[:pray: Ayuda si alguien sabe cuáles son los indicadores :pray:]
+[:pray: Ajuda se alguém souber quais são os indicadores :pray:]
 
-### ¿Qué significa la sección de tech skills y soft skills?
+### O que significa as seções de _tech skills_ e _soft skills_?
 
-En unas preguntas anteriores, está la sección de `achievement` (puntos técnicos +
-HSE). En estas secciones, se saca el detalle de cada uno con los mismos
-indicadores (los colores siguen la misma lógica).
+Em questões anteriores, há a seção de `achievement` (pontos técnicos + HSE). Nestas seções, o detalhe de cada um é extraído com os mesmos indicadores (as cores seguem a mesma lógica).
 
-- Meta puntos técnicos: **1260**
-- Meta puntos HSE: **840**
+* Meta dos Pontos Técnicos: **1260**
+* Meta Pontos de HSE: **840**
 
-La gran diferencia es que se puede filtrar por sprint o ver el acumulado de
-todos los sprints cursados.
+A grande diferença é que você pode filtrar por _sprint_ ou ver o acumulado de todos os _sprints_ realizados.
 
-### ¿Qué es la satisfacción de estudiantes?
+### O que é a satisfação da aluna?
 
-En cada sprint, las estudiantes responden una encuesta en base a la satisfacción
-de estudiar en Laboratoria y sus expectativas. Los resultados posibles son:
-0 - No cumple, 1 - Cumple y 2 - Supera.
+Em cada _sprint_, as alunas respondem a uma pesquisa baseada na satisfação de estudar na Laboratoria e em suas expectativas. Os resultados possíveis são: 0 - Não atinge, 1 - Atinge e 2 - Supera.
 
-### ¿Cómo se calcula la satisfacción de estudiantes?
+### Como a satisfação da aluna é calculada?
 
-Se suma la cantidad de estudiantes que responden `1 - Cumple` y `2 - Supera`.
+Soma-se a quantidade de alunas que respondem `1 - Atinge` e `2 - Supera`.
 
-### ¿Qué representa entonces el número **140** en el diseño propuesto?
+### O que então representa o número **140** no projeto proposto?
 
-Primero, debería ser un porcentaje (digamos que fue un error intencional :joy:),
-por lo tanto, no basarse en el número.
+Primeiro, deve ser uma porcentagem (digamos que foi um erro intencional 😂), portanto, não confie no número.
 
-Lo que debería representar es el porcentaje de estudiantes que respondieron con
-los resultados expresados en el punto anterior, **PERO** solo del último sprint.
+O que deve representar é a porcentagem de alunas que responderam com os resultados expressos no ponto anterior, **MAS** somente a partir do último _sprint_.
 
-Es decir, si hay 3 sprints, solo muestra el % de satisfacción de estudiantes del
-último sprint :smiley:.
+Ou seja, se houver 3 _sprints_, isso só mostra a satisfação da aluna% do último sprint 😃.
 
-### ¿Cómo se calcula el _teacher rating_?
+### Como é calculado o _teaching rating_ ?
 
-Cada sprint, las estudiantes califican a sus profesores bajo una puntuación
-del 1 al 5. El promedio de la calificación de todos los profes es el teacher
-rating.
+A cada _sprint_, as alunas classificam suas professoras com uma pontuação de 1 a 5. A nota média para todos as professoras é o _teaching rating_.
 
-### ¿Qué representa 4.2 de teacher rating?
+### O que representa 4.2 de _teaching rating_?
 
-Es el promedio de la puntuación de todos los profes en el último sprint cursado.
+É a média da pontuação de todas as professoras no último _sprint_.
 
+### Como é calculado o _jedi master rating_ ?
 
-### ¿Cómo se calcula el _jedi master rating_?
+A cada _sprint_, as alunas qualificam seus Mestres Jedi com uma pontuação de 1 a 5. A classificação média de todos os Jedi é a classificação do Mestre Jedi.
 
-Cada sprint, las estudiantes califican a sus jedi masters bajo una puntuación
-del 1 al 5. El promedio de la calificación de todos los jedis es el jedi master
-rating.
+### O que 50 de classificação mestre de jedi representam?
 
-### ¿Qué representa 50 de jedi master rating?
+Mais uma vez, digamos que é um erro planejado 😅, deve ser 5.0 e, como a classificação do professor, representa a pontuação média de todos os Jedi do último _sprint_.
 
-Otra vez, digamos que es un error planificado :sweat_smile:, debería ser 5.0, y
-al igual que el teacher rating, representa el promedio de puntuación de todos
-los jedis del último sprint cursado.
+### A cor da classificação do mestre jedi é importante?
 
-### ¿Importa el color del jedi master rating?
+Se exceder a classificação 4,5, deve ficar verde, em qualquer outro caso, sua cor natural (preto).
 
-Si supera 4.5 de rating debería ir en verde, cualquier otro caso,
-su color natural (negro).
+### Se eu mudar a sede, os números calculados devem mudar?
 
-### ¿Si cambio de sede, deben cambiar los números calculados?
+Exatamente, os valores não são números que são colocados no HTML, tudo deve ser processado com base nos dados entregues nos inputs :scream.
 
-Exactamente, los valores no son números que se ponen en el HTML, todo debería
-ser procesado en base a la data entregada en el boilerplate :scream:.
+### E o que se faz com a guia de estudante?
 
-### ¿Y qué hay con el tab de estudiantes?
+A guia estudante deve mostrar apenas a lista de alunas da sede e da geração selecionada.
 
-El tab de estudiantes solo debería de mostrar la lista de estudiantes de la
-sede y generación seleccionada.
+### Quais dados das alunas serão exibidos?
 
-### ¿Qué dato de las estudiantes se va a mostrar?
+Você só precisa do seu nome, foto (placeholder), média de pontuação técnica e HSE acumulado.
 
-Solo es necesario su nombre, foto (placeholder), promedio de puntaje técnico y
-de HSE acumulado.
+#### E os outros dados?
 
-#### ¿Y los demás datos?
+A especialização da aluna, as tags de tecnologia, o nível de inglês e o link para ver os detalhes de uma aluna, são componentes que não são necessários para este painel.
 
-La especialización de la estudiante, los tags de tecnología, el nivel de inglés
-y el link a ver el detalle de una estudiante, son componentes que no se
-necesitan para este dashboard.
+### Qual funcionalidade a listagem de alunas deve ter?
 
-### ¿Qué funcionalidad debe tener el listado de estudiantes?
+Olhando para o design, parece haver um par: procure uma aluna e filtre por especialização (UX e JS). Somente a funcionalidade de pesquisa é solicitada para funcionar, a funcionalidade de filtro pode ser removida do design sem problemas.
 
-Viendo el diseño, parece que hay un par: buscar una estudiante y filtrar
-por especialización (UX y JS). Solo se solicita que la funcionalidad de búsqueda
-funcione, la del filtro se puede quitar del diseño sin problemas.
+A pesquisa deve ser apenas por nome e/ou sobrenome.
 
-La búsqueda debería ser solo por nombre y/o apellido.
+### Não mais por favor :pray:
 
-### Ya no más por favor :pray:
+A guia `Teachers` não é necessária (se for removida do design, tudo bem), o menu não tem uso neste momento (também pode ser removido do desenho).
 
-El tab de `Teachers` no es necesario (si se quita del diseño va bien), el menú
-no tiene utilidad en este momento (también puede ser quitado del diseño).
+Isso é tudo! :tada::tada::tada:
 
-Eso es todo! :tada::tada::tada:

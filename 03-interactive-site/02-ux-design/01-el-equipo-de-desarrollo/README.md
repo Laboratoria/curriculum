@@ -1,31 +1,30 @@
-# El equipo de desarrollo
+# A Equipe de Desenvolvimento
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+* Tipo: `Leitura`
+* Formato: `individual`
+* Duração: `15min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- Cuáles son las etapas del desarrollo de un producto digital
-- Cuáles son los roles involucrados en el proceso de desarrollo y qué papel
-  cumple cada rol
+* Quais são as etapas do desenvolvimento de um produto digital
+* Quais são os papeis envolvidos no processo de desenvolvimento e qual a função de cada um deles
 
 ***
 
-## Etapas y roles en el desarrollo de productos digitales
+## Etapas e papéis no desenvolvimento de produtos digitais
 
-Para poder entender cómo funciona un equipo de desarrollo de productos, mira el
-siguiente video:
+Para poder entender como funciona uma equipe de desenvolvimento de produtos, assista ao vídeo a seguir
 
-[![El equipo de desarrollo](https://lh5.googleusercontent.com/Nw1xRXhRhwllHgKL4m6xCFmPCubo7wgZ0bi7NSnRQk-FJm5AWPeJKbrF9yY3Uv8XJGbYcJhL6xDwBDkxYrf3fRjnp8__diJ8pJbnuTpD-KDTo4jXmu9QHkmjogOsOLfDpFN6AeIU9Hg)](https://www.youtube.com/watch?v=ge4h5uJN6KI)
+[![A equipe de desenvolvimento](https://lh5.googleusercontent.com/Nw1xRXhRhwllHgKL4m6xCFmPCubo7wgZ0bi7NSnRQk-FJm5AWPeJKbrF9yY3Uv8XJGbYcJhL6xDwBDkxYrf3fRjnp8__diJ8pJbnuTpD-KDTo4jXmu9QHkmjogOsOLfDpFN6AeIU9Hg)](https://www.youtube.com/watch?v=ge4h5uJN6KI)
 
-Luego de ver el video, intenta responder las siguientes preguntas:
+Após ver o vídeo, tente responder às perguntas a seguir:
 
-- ¿Qué hace un UX Designer?
-- ¿Qué hace un UI Designer?
-- ¿Qué hace un Front End Developer?
-- ¿Qué hace un Back End Developer?
-- ¿Qué hace un Product Manager?
-- ¿Qué hace un Growth Hacker?
+* O que faz um UX Designer?
+* O que faz um UI Designer?
+* O que faz um Front End Developer?
+* O que faz um Back End Developer?
+* O que faz um Product Manager?
+* O que faz um Growth Hacker?
+

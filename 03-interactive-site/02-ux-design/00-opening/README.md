@@ -1,53 +1,40 @@
-# Opening
+# Abertura
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderás:
+Nesta unidade você aprenderá:
 
-- Qué es UX y qué es UX Design
-- Cuál es la diferencia entre UX Design y UI Design
-- A identificar los distintos tipos de navegación que existen en productos
-  digitales
-- A externalizar tus ideas a través de sketches
+* O que é UX e o que é o UX Design
+* Qual é a diferença entre o design UX e o design UI
+* Identificar os diferentes tipos de navegação existentes em produtos digitais
+* Exprimir suas ideias através de esboços
 
 ***
 
-## ¿Por qué aprender esto?
+## Por que aprender isso?
 
-Aprender sobre esto nos permitirá crear mejores productos digitales, porque:
+Aprender sobre isso nos permitirá criar melhores produtos digitais, porque:
 
-- Al saber el rol que tiene cada uno dentro del desarrollo del producto
-  podremos trabajar mejor en equipo.
-- Conocer la diferencia y la relación entre UX y UI facilitará nuestro trabajo,
-  y nos permitirá comunicarnos y enfocarnos mejor.
-- Saber cómo es que la navegación ayuda a las personas a cumplir sus tareas
-  dentro de producto digital, nos permitirá crear productos más enfocados en
-  resolver problemas y más fáciles de usar.
-- Externalizar nuestras ideas a través de sketches nos permitirá construir un
-  mejor entendimiento entre el equipo y nos permitirá planear mejor nuestros
-  productos.
+* Conhecendo o papel que cada um tem no desenvolvimento do produto, podemos trabalhar melhor em equipe.
+* Conhecer a diferença e a relação entre a experiência do usuário e a interface do usuário facilitará nosso trabalho e nos permitirá nos comunicar e nos concentrar melhor.
+* Saber como a navegação ajuda as pessoas a realizarem suas tarefas em um produto digital nos permitirá criar produtos mais focados na solução de problemas e mais fáceis de usar.
+* Exprimir nossas ideias por meio de esboços nos permitirá construir um melhor entendimento entre a equipe e nos permitir planejar melhor nossos produtos.
 
+## Guia para perguntas e conceitos-chave
 
-## Guía de preguntas y conceptos clave
+Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos mais importantes sobre o que vamos aprender e as questões centrais às quais devemos prestar atenção particular.
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Aqui está uma série de perguntas que você deve ser capaz de responder no final desta unidade. Use essas perguntas como um guia para orientar seus esforços de aprendizado. Volte para elas constantemente enquanto você vai avançando para validar que você está indo na direção certa. Isso serve como uma "lista de verificação" que você marca conforme avança.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+* Quais papeis compõem a equipe de desenvolvimento de um produto digital?
+* Por que é importante aprender UX?
+* Por que os usuários não consomem produtos?
+* Qual é o papel de um Designer UX e qual é o papel de um Designer UI?
+* Como os usuários encontram coisas na web?
+* Quais tipos de navegação existem?
+* Por que os sketches são importantes?
 
-- ¿Qué roles conforman el equipo de desarrollo de un producto digital?
-- ¿Por qué es importante aprender UX?
-- ¿Por qué los usuarios no consumen productos?
-- ¿Cuál es el rol de un UX Designer y cuál el de un UI Designer?
-- ¿Cómo encuentran los usuarios cosas en la web?
-- ¿Qué tipos de navegación existen?
-- ¿Por qué son importantes los sketches?
