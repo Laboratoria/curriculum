@@ -8,7 +8,8 @@
 
 En esta unidad aprenderemos:
 
-* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en JavaScript?
+* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en
+  JavaScript?
 * ¿Por qué utilizarlos?
 
 ***
@@ -16,25 +17,23 @@ En esta unidad aprenderemos:
 ### JavaScript, indagando en el núcleo del lenguaje
 
 Todos los lenguajes de programación tienen objetos preconstruidos (built-in)
-que crean la funcionalidad escencial del lenguaje. Los objetos
-preconstruidos son la base del lenguaje en el que escribes código y sirven para
-potenciar la funcionalidad de tu código.
-JavaScript tiene muchos objetos preconstruidos que lo definen como un lenguaje.
+que ofrecen funcionalidad común más allá de lo que es el lenguaje en sí. Los
+objetos preconstruidos nos permiten ahorrar tiempo con funcionalidad disponible
+como parte del entorno del lenguaje.
+
+JavaScript tiene muchos [objetos preconstruidos](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales).
 El término "objetos globales" (u objetos preconstruidos estándar) no debe
-confundirse con el objeto global. Aquí, los objetos globales se refieren a
-objetos en el
-[ámbito global](https://msdn.microsoft.com/es-es/library/bzt2dkta(v=vs.94).aspx).
-Estos objetos y funciones especiales que vienen
-con JavaScript pero que no son parte del lenguaje en sí, también se conocen
-como la _librería estándar_ (standard library) ya que siempre podemos contar
-con ellos. Son librerías que no tenemos que importar y siempre están
-disponibles, independientemente del entorno donde se ejecute nuestro código
-(navegador, node, ...).
+confundirse con el objeto global en sí. Aquí, los objetos globales se refieren a
+objetos en el [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
+Estos objetos y funciones que vienen con JavaScript pero que no son parte del
+lenguaje en sí, también se conocen como la _librería estándar_ (standard
+library) ya que siempre podemos contar con ellos. Son librerías que no tenemos
+que importar y siempre están disponibles, independientemente del entorno donde
+se ejecute nuestro código (navegador, node, ...).
 
-*¿Por qué deberías de usar las funciones de la librería estándar disponibles en
-javascript?*
+### ¿Por qué usar la librería estándar?
 
-Hay muchas funciones disponibles  para ayudarte a escribir un programa bueno
+Hay muchas funciones disponibles para ayudarte a escribir un programa bueno
 y eficiente. Como desarrolladores de software, nuestro trabajo es encontrar
 la solución más simple a un problema. "Más simple" es un poco vago, así que
 vamos a definirlo como "funciona, es eficiente (suficiente), es relativamente
@@ -78,78 +77,35 @@ en entender librerías que consumes para una sola línea de código.
     igual en todos los dispositivos. Esto ahorra tiempo, esfuerzo y hace que tu
     programa sea compatible con otros navegadores.
 
-Ejemplo:
+### Ejemplo
 
-```js
-Supongamos que quieres encontrar la raíz cuadrada de un número.
-Siempre puedes escribir tu propia pieza de código para encontrar la raíz
-cuadrada, pero este proceso lleva tiempo y puede no ser el más eficiente.
+Supongamos que quieres encontrar la raíz cuadrada de un número. Siempre puedes
+escribir tu propia pieza de código para encontrar la raíz cuadrada, pero este
+proceso lleva tiempo y puede no ser el más eficiente.
 
 Sin embargo, en la programación javascript puedes encontrar la raíz cuadrada
-simplemente usando la función Math.sqrt() .
-```
+simplemente usando la función `Math.sqrt()`.
 
-#### Algunos de los objetos preconstruidos más utilizados
+### Algunos de los objetos preconstruidos más utilizados
 
-* Object
-* Function
-* Boolean
-* Symbol
-* Error
-* EvalError
-* InternalError
-* RangeError
-* ReferenceError
-* SyntaxError
-* TypeError
-* URIError
-* Number
-* Math
-* Date
-* String
-* RegExp
-* DataView
-* JSON
-* Proxy
-* Array.prototype methods
-
-Entre estas funciones están los constructores `Date`, `RegExp` o `Error`
-y el objeto `Math`.
-
-## `RegExp`
-
-Las expresiones regulares sirven para comprobar si una cadena de texto sigue un
-determinado patrón, o si contiene unos caracteres determinados. Se emplea, por
-ejemplo para comprobar en un formulario si el texto pasado por el usuario es un
-e-mail, o un número de teléfono, etc.
-
-Estas expresiones van encerradas entre las barras inclinadas `/.../` y tienen
-su propia sintaxis. Por ejemplo la siguiente expresión comprueba si el el texto
-pasado es una dirección de página web:
-
-```js
-const patron = /^http[s]?://\w[\.\w]+$/i;
-```
-
-Debido a su complejidad lo más cómodo es tener una lista de las expresiones
-regulares para los casos más comunes, tales como comprobar direcciones web,
-e-mail, números telefónicos, fechas, etc.
-
-Para declarar un objeto RegExp podemos hacerlo simplemente asignando a una
-variable una expresión regular, tal como en el ejemplo anterior, o mediante el
-método general de crear objetos:
-
-```js
-const patron = new RegExp('^http[s]?://\w[\.\w]+$', 'i');
-```
-
-Para efectuar las búsquedas y reemplazos, este objeto tiene varios métodos,
-algunos de los cuales son iguales que para las cadenas de texto:
-
-* `cadena.search(regexp)`: Comprueba si la cadena se ajusta al patrón, en tal
- caso devuelve verdadero (`true`).
-* `cadena.replace(regexp, remplazar)`: Reemplaza el trozo de cadena que se
- ajusta a la expresión regular por la cadena que se pasa como segundo argumento
- (`remplazar`).
-* `cadena.split(regexp)`: Devuelve un array en el que la cadena se ha separado
- según las coincidencias con la expresión regular.
+* [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
+* [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object)
+* [Function](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function)
+* [Boolean](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Boolean)
+* [Number](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number)
+* [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
+* [Date](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
+* [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String)
+* [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
+* [JSON](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON)
+* [Symbol](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Symbol)
+* [Error](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Error)
+* [EvalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/EvalError)
+* [InternalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/InternalError)
+* [RangeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RangeError)
+* [ReferenceError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/ReferenceError)
+* [SyntaxError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/SyntaxError)
+* [TypeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypeError)
+* [URIError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/URIError)
+* [DataView](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/DataView)
+* [Proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Proxy)
