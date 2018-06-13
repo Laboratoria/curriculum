@@ -1,8 +1,7 @@
-function getProductOfAllElementsAtProperty(obj, key) {
+const getProductOfAllElementsAtProperty = (obj, key) => {
   let product = 0;
   const array = obj[key];
 
-  // if (array instanceof Array) {
   if (Array.isArray(array) && (array.length > 0)) {
     [product] = array;
 
@@ -10,6 +9,6 @@ function getProductOfAllElementsAtProperty(obj, key) {
   }
 
   return product;
-}
+};
 
 module.exports = getProductOfAllElementsAtProperty;

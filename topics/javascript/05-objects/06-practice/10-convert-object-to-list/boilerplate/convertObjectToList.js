@@ -1,5 +1,5 @@
-function convertObjectToList(obj) {
+const convertObjectToList = (obj) => {
   // your code here
-}
+};
 
 module.exports = convertObjectToList;

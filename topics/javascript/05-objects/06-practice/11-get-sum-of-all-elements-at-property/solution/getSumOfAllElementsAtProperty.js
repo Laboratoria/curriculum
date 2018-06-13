@@ -1,8 +1,7 @@
-function getSumOfAllElementsAtProperty(obj, key) {
+const getSumOfAllElementsAtProperty = (obj, key) => {
   let sum = 0;
   const array = obj[key];
 
-  // if (array instanceof Array) {
   if (Array.isArray(array) && (array.length > 0)) {
     [sum] = array;
 
@@ -10,6 +9,6 @@ function getSumOfAllElementsAtProperty(obj, key) {
   }
 
   return sum;
-}
+};
 
 module.exports = getSumOfAllElementsAtProperty;

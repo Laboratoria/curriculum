@@ -1,5 +1,5 @@
-function getAllKeys(obj) {
+const getAllKeys = (obj) => {
   // your code here
-}
+};
 
 module.exports = getAllKeys;
