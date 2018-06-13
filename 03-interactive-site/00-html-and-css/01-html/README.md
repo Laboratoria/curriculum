@@ -167,7 +167,7 @@ Algumas tags não contêm conteúdo diretamente; em vez disso, eles recebem uma 
 
 ![Foto de Mari](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
 
-Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do MDN sobre `br`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/br). Para que serve `br`?
+Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do MDN sobre `br`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/br). Para que serve `br`?
 
 ## Comentários em HTML
 
