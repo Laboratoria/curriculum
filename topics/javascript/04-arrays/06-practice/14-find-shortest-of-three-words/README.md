@@ -10,6 +10,6 @@ Notas:
 - Si hay empate, debe devolver la primera palabra en la lista de parámetros.
 
 ```js
-var output = findShortestOfThreeWords('a', 'dos', 'tres');
+const = findShortestOfThreeWords('a', 'dos', 'tres');
 console.log(salida); // -> 'a'
 ```

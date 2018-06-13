@@ -1,4 +1,4 @@
-function findShortestOfThreeWords(word1, word2, word3) {
+const findShortestOfThreeWords = (word1, word2, word3) => {
   let strShort = word1;
 
   if (strShort.length > word2.length) {
@@ -10,6 +10,6 @@ function findShortestOfThreeWords(word1, word2, word3) {
   }
 
   return strShort;
-}
+};
 
 module.exports = findShortestOfThreeWords;
