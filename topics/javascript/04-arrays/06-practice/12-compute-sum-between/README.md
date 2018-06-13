@@ -11,6 +11,6 @@ Notas:
 * Si num2 no es mayor que num1, debe devolver 0.
 
 ```js
-var output = computeSumBetween (2, 5);
+const output = computeSumBetween (2, 5);
 console.log (salida); // -> 9
 ```

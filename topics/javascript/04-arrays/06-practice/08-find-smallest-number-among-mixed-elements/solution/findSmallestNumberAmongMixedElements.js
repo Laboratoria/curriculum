@@ -1,4 +1,4 @@
-function findSmallestNumberAmongMixedElements(arr) {
+const findSmallestNumberAmongMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }
@@ -20,6 +20,6 @@ function findSmallestNumberAmongMixedElements(arr) {
   }
 
   return arr[index];
-}
+};
 
 module.exports = findSmallestNumberAmongMixedElements;
