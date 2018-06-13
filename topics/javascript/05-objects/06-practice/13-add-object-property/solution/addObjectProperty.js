@@ -1,8 +1,4 @@
-const addObjectProperty = (obj1, key, obj2) => {
-  const myObj2 = obj1;
-  myObj2[key] = obj2;
-
-  return myObj2;
-};
+const addObjectProperty = (obj1, key, obj2) =>
+  Object.assign(obj1, { [key]: obj2 });
 
 module.exports = addObjectProperty;

@@ -1,10 +1,9 @@
 # addArrayProperty
 
-Escribe una función llamada "addArrayProperty(obj, key, array)".
+Escribe una función llamada `addArrayProperty(obj, key, array)`.
 
-Dado un objeto, una clave y un array, "addArrayProperty" establece una nueva
-propiedad  sobre el objeto en la clave dada, con su valor establecido en el
-array dado.
+Dado un objeto, una llave y un array, `addArrayProperty` asigna una nueva
+propiedad sobre el objeto en la lave dada, con el array dado como valor.
 
 Ejemplo de entrada:
 
@@ -14,5 +13,5 @@ const myStr = 'myProperty';
 const myArray = [1, 3];
 
 addArrayProperty(myObj, myStr, myArray);
-console.log(myObj.myProperty); // --> [1, 3]
+console.log(myObj.myProperty); // => [1, 3]
 ```

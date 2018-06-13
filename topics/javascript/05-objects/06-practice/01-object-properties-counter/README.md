@@ -8,5 +8,5 @@ Ejemplo:
 ```javascript
 const output = objectPropertiesCounter({ 'name': 'John', 'lastname': 'Doe' });
 
-console.log(ouput); // -> 2
+console.log(ouput); // => 2
 ```

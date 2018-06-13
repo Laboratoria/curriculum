@@ -1,10 +1,10 @@
 # transformFirstAndLast
 
-Escribe una función 'transformFirstAndLast' que toma un array y devuelve un
+Escribe una función `transformFirstAndLast` que toma un array y devuelve un
 objeto con:
 
-1. el primer elemento del array como la clave del objeto, y
-2. el último elemento del array como valor de esa clave.
+1. el primer elemento del array como la llave del objeto, y
+2. el último elemento del array como valor de esa llave.
 
 Ejemplo de entrada:
 

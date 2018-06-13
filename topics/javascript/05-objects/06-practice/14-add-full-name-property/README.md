@@ -16,7 +16,7 @@ const person = {
 
 const personWithFullName = addFullNameProperty(person);
 
-console.log(personWithFullName.fullName); // --> 'Jade Smith'
-console.log(personWithFullName.firstName); // --> 'Jade'
-console.log(personWithFullName.lastName); // --> 'Smith'
+console.log(personWithFullName.fullName); // => 'Jade Smith'
+console.log(personWithFullName.firstName); // => 'Jade'
+console.log(personWithFullName.lastName); // => 'Smith'
 ```

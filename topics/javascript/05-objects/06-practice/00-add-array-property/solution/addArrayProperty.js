@@ -1,8 +1,4 @@
-const addArrayProperty = (obj, key, arr) => {
-  const myObj = obj;
-  myObj[key] = arr;
+const addArrayProperty = (obj, key, arr) => Object.assign(obj, { [key]: arr });
 
-  return myObj;
-};
 
 module.exports = addArrayProperty;
