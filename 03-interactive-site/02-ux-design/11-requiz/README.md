@@ -57,7 +57,7 @@
 
 <solution style="display:none;">5</solution>
 
-### 5) Ter uma mentalidade artística e conhecimento técnico sobre os componentes dos produtos digitais são características de um designer \_\_\_\_\_\_\_\_\_\_\_.
+### 5) Ter uma mentalidade artística e conhecimento técnico sobre os componentes dos produtos digitais são características de um ___________ designer.
 
 #### Opções
 

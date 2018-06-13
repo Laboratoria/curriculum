@@ -1,4 +1,4 @@
-# Quiz #2: _requizzing_
+# Quiz #2: requizzing
 
 * Tipo: `quiz`
 * Formato: `guiado`

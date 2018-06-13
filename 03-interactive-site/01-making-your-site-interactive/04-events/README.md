@@ -114,7 +114,7 @@ Quando o usuário interage com o navegador, vários tipos de eventos podem ser a
 * Eventos de formulários
 * Eventos da janela
 
-Para mais informações sobre todos os eventos, acesse este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) e também este outro [link](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+Para mais informações sobre todos os eventos, acesse este [link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom) e também este outro [link](https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Principais eventos
 

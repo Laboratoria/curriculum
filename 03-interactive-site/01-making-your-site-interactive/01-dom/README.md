@@ -220,7 +220,7 @@ Os nós DOM possuem propriedades básicas, que são:
 
 ## Selecionando Elementos DOM
 
-Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html) , vemos como selecionar nós e o que é um nó no DOM.
+Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html), vemos como selecionar nós e o que é um nó no DOM.
 
 ## Recapitulando
 
@@ -230,7 +230,7 @@ Finalmente, veja o seguinte vídeo da Lulu onde ela menciona os conceitos de DOM
 
 [![Percorrendo o DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
 
-Também temos o [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
+Também temos o [link (português de Portugal - pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#O_que_.C3.A9_o_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
 
-Outro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
+Outro [link (pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#Como_eu_acesso_o_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
 

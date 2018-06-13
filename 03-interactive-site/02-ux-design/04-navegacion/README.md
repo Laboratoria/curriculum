@@ -42,7 +42,7 @@ Se os sinais ou os funcionários do supermercado não nos ajudarem o suficiente,
 ![](http://upload.wikimedia.org/wikipedia/commons/7/74/Planking_in_supermarket.jpg)
 
 - **Procuramos elementos conhecidos:** sabemos qual elemento queremos e sabemos onde encontrá-lo. Por exemplo:
-  * O botão de acesso à Internet / mobile banking do seu banco
+  * O botão de acesso à Internet/mobile banking do seu banco
   * O botão Curtir no Facebook
   * O botão para adicionar um filtro em uma foto no Instagram
 
