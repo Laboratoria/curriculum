@@ -1,4 +1,4 @@
-## Soluções dos Desafios de UX
+# Soluções dos Desafios de UX
 
 * Tipo: `seminário`
 * Formato: `guiado`
