@@ -5,7 +5,8 @@
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/javascript",
-    "pretest": "npm run mdlint && npm run eslint",
+    "parse": "cd topics && course-parser browser/README.md css/README.md css/README.md html/README.md javascript/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "pretest": "npm run mdlint && npm run eslint && npm run parse",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
   },
   "repository": "Laboratoria/curricula-js",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "course-parser": "Laboratoria/course-parser#1.1.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
