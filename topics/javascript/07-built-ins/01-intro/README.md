@@ -4,50 +4,108 @@
 * Formato: `self-paced`
 * Duración: `15min`
 
+## Objetivos de Aprendizaje
+
+En esta unidad aprenderemos:
+
+* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en
+  JavaScript?
+* ¿Por qué utilizarlos?
+
 ***
 
-Existen algunos objetos y funciones especiales que vienen con JavaScript pero
-que no son parte del lenguaje en sí. Se conocen como la _librería estándar_
-(standard library) ya que siempre podemos contar con ellos. Son como unas
-librerías que no tenemos que importar y siempre están disponibles,
-independientemente del entornos donde se ejecute nuestro código (navegador,
-node, ...). Entre estas funciones están los constructores `Date`, `RegExp` o
-`Error` y el objeto `Math`.
+### JavaScript, indagando en el núcleo del lenguaje
 
-## El constructor `RegExp`
+Todos los lenguajes de programación tienen objetos preconstruidos (built-in)
+que ofrecen funcionalidad común más allá de lo que es el lenguaje en sí. Los
+objetos preconstruidos nos permiten ahorrar tiempo con funcionalidad disponible
+como parte del entorno del lenguaje.
 
-Las expresiones regulares sirven para comprobar si una cadena de texto sigue un
-determinado patrón, o si contiene unos caracteres determinados. Se emplea, por
-ejemplo para comprobar en un formulario si el texto pasado por el usuario es un
-e-mail, o un número de teléfono, etc.
+JavaScript tiene muchos [objetos preconstruidos](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales).
+El término "objetos globales" (u objetos preconstruidos estándar) no debe
+confundirse con el objeto global en sí. Aquí, los objetos globales se refieren a
+objetos en el [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
+Estos objetos y funciones que vienen con JavaScript pero que no son parte del
+lenguaje en sí, también se conocen como la _librería estándar_ (standard
+library) ya que siempre podemos contar con ellos. Son librerías que no tenemos
+que importar y siempre están disponibles, independientemente del entorno donde
+se ejecute nuestro código (navegador, node, ...).
 
-Estas expresiones van encerradas entre las barras inclinadas `/.../` y tienen
-su propia sintaxis. Por ejemplo la siguiente expresión comprueba si el el texto
-pasado es una dirección de página web:
+### ¿Por qué usar la librería estándar?
 
-```js
-const patron = /^http[s]?://\w[\.\w]+$/i;
-```
+Hay muchas funciones disponibles para ayudarte a escribir un programa bueno
+y eficiente. Como desarrolladores de software, nuestro trabajo es encontrar
+la solución más simple a un problema. "Más simple" es un poco vago, así que
+vamos a definirlo como "funciona, es eficiente (suficiente), es relativamente
+fácil de entender y no tarda demasiado en implementarse".
 
-Debido a su complejidad lo más cómodo es tener una lista de las expresiones
-regulares para los casos más comunes, tales como comprobar direcciones web,
-e-mail, num teléfonos, fechas, etc.
+¿Cuánto tardarías en escribir una función que corte una cadena o verifique si
+un número es positivo? Muchas funciones que encontraras en una librería
+estándar son probablemente triviales por naturaleza, pero tener un estándar
+acordado para hacer las cosas acelerará la implementación del código (habrá
+menos instancias de "¿hay una función para esto o debería codificarla yo
+mismo?") Además otras personas que leen tu código pueden concentrarse en
+aprender sobre las dependencias que realmente importan y no invertir su tiempo
+en entender librerías que consumes para una sola línea de código.
 
-Para declarar un objeto RegExp podemos hacerlo simplemente asignando a una
-variable una expresión regular, tal como en el ejemplo anterior, o mediante el
-método general de crear objetos:
+### Ventajas más importantes de usar funciones de librería estándar
 
-```js
-const patron = new RegExp('^http[s]?://\w[\.\w]+$', 'i');
-```
+* Funcionan
 
-Para efectuar las búsquedas y reemplazos, este objeto tiene varios métodos,
-algunos de los cuales son iguales que para las cadenas de texto:
+    Una de las razones más importantes por las que debes usar las funciones de
+    la librería estándar es simplemente porque funcionan, ya han pasado por
+    múltiples pruebas rigurosas y son fáciles de usar.
 
-* `cadena.search(regexp)`: Comprueba si la cadena se ajusta al patrón, en tal
-  caso devuelve verdadero (`true`).
-* `cadena.replace(regexp, remplazar)`: Reemplaza el trozo de cadena que se
-  ajusta a la expresión regular por la cadena que se pasa como segundo argumento
-  (`remplazar`).
-* `cadena.split(regexp)`: Devuelve un array en el que la cadena se ha separado
-  según las coincidencias con la expresión regular.
+* Están optimizadas para el rendimiento
+
+    Un grupo dedicado de desarrollo las mejora constantemente. En el proceso,
+    estos equipos pueden crear el código más eficiente y optimizado para
+    obtener el máximo rendimiento.
+
+* Ahorran un considerable tiempo de desarrollo
+
+    Dado que las funciones generales como imprimir en una pantalla, calcular la
+    raíz cuadrada y muchas más ya están escritas. No debes preocuparte por
+    crearlas una vez más. Ahorrarás un tiempo valioso, además que tu código
+    puede no ser siempre el más eficiente.
+
+* Son soportadas en la mayoría de los navegadores
+
+    Con las cambiantes necesidades del mundo real, se espera que tu aplicación
+    funcione siempre, en cualquier lugar, en cualquier dispositivo.
+    Estas funciones de la biblioteca te ayudan a que tu aplicación funcione
+    igual en todos los dispositivos. Esto ahorra tiempo, esfuerzo y hace que tu
+    programa sea compatible con otros navegadores.
+
+### Ejemplo
+
+Supongamos que quieres encontrar la raíz cuadrada de un número. Siempre puedes
+escribir tu propia pieza de código para encontrar la raíz cuadrada, pero este
+proceso lleva tiempo y puede no ser el más eficiente.
+
+Sin embargo, en la programación javascript puedes encontrar la raíz cuadrada
+simplemente usando la función `Math.sqrt()`.
+
+### Algunos de los objetos preconstruidos más utilizados
+
+* [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
+* [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object)
+* [Function](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function)
+* [Boolean](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Boolean)
+* [Number](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number)
+* [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
+* [Date](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
+* [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String)
+* [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
+* [JSON](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON)
+* [Symbol](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Symbol)
+* [Error](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Error)
+* [EvalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/EvalError)
+* [InternalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/InternalError)
+* [RangeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RangeError)
+* [ReferenceError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/ReferenceError)
+* [SyntaxError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/SyntaxError)
+* [TypeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypeError)
+* [URIError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/URIError)
+* [DataView](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/DataView)
+* [Proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Proxy)
