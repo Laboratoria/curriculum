@@ -30,11 +30,11 @@ _Extracto de MDN WEB DOCS_
 >el servidor regresa una página totalmente nueva, el cliente carga y se
 >lo presenta nuevamente al usuario.
 
-_Hasta mediados de la década de los 2000, esta era básicamente la única forma
+Hasta mediados de la década de los 2000, esta era básicamente la única forma
 en que se producía la comunicación por Internet. La información residiría en
 el servidor, un cliente solicitaría esos datos, actualizaría la página y
 la mostraría. Este ciclo se repetiría para todas y cada una de las
-nuevas solicitudes._
+nuevas solicitudes.
 
 A finales de los años 90, el equipo de Microsoft Outlook agregó el componente
 XMLHTTP a Internet Explorer y compiló la versión web del cliente de correo de
@@ -48,7 +48,7 @@ medida que el usuario siguiera trabajando.
 ## AJAX
 
 En 2005, Jesse James Garrett acuñó el término AJAX para significar
-"Javascript y XML asincrónicos". Esta es esencialmente la técnica de usar
+"Javascript y XML asíncronos". Esta es esencialmente la técnica de usar
 XMLHTTPRequest para recuperar datos y luego modificar la página actual.
 
 AJAX tomó el mundo de la web por asalto, extendiéndose mucho más allá de

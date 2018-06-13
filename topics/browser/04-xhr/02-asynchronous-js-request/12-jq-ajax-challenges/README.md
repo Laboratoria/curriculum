@@ -1,4 +1,4 @@
-# Jugando con jQuery AJAX
+# Jugando con AJAX
 
 - Tipo: `taller`
 - Formato: `guiado`
@@ -8,12 +8,14 @@
 
 ## Objetivos
 
-- Practicar todo lo aprendido haciendo peticiones asíncronas con jQuery
+- Practicar todo lo aprendido haciendo peticiones asíncronas
 - Practicar, practicar y practicar
 
 ## Ejercicios
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`. Eres
+libre de elegir el método que más te acomode para ejecutar las llamadas a estas
+API, así descubrirás por ti misma las ventajas y desventajas de cada método.
 
 ### Pokedex
 
