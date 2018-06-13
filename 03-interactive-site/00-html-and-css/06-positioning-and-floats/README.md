@@ -177,4 +177,4 @@ imagem
 
 #### Corrigindo o recolhimento: clearfix
 Retorna a capacidade para o container de elementos de bloco "flutuantes" de contê-los em um alinhamento horizontal.
-imagem ->
+imagem -->
