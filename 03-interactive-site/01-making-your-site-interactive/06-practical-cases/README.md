@@ -157,3 +157,5 @@ A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um d
 #### 6. Mini zoológico
 
 <https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>
+
+[Google-docs presentation](https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0)

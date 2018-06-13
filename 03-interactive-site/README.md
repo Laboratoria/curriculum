@@ -96,7 +96,7 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 | 13 | Questionário | 5min | Auto avaliação |
 | 14 | Seminário | 2h | Encerramento: Fazendo seu site web interativo |
 
-### Unidade 03: [Introdução a _User Experience Design_](02-ux-design)
+### Unidade 03: [Introdução a User Experience Design](02-ux-design)
 
 15-20h
 

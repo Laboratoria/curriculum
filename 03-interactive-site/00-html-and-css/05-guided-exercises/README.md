@@ -23,7 +23,7 @@ ajudar o restante de suas colegas :\)
 Você deve fazer o upload de todos os seus exercícios no `GitHub` e publicá-los
 em `gh-pages`.
 
-### 1. CSS _Diner_
+### 1. CSS Diner
 
 Pratique seletores CSS por meio [deste jogo](https://laboratoria.github.io/css-diner).
 

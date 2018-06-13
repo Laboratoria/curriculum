@@ -11,6 +11,8 @@ Nesta unidade aprenderemos em profundidade:
 * Quais são os atributos de dados e para que servem?
 * Como eles são usados?
 
+***
+
 ## O que são os atributos de dados?
 
 Eles são atributos personalizados que nos permitem adicionar dados aos nossos elementos HTML, que não são necessariamente visíveis, mas que nos ajudam muito ao fornecer informações adicionais sobre esses elementos.

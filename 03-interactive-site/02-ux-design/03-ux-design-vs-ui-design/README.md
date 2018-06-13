@@ -38,9 +38,9 @@ Além disso, o autor Golden Krishna em seu livro  [The best interface is not int
 
 #### **UI**
 
-> Navegação sub-navegação, menus, pop, botões, links, janelas, cantos arredondados, sombreamento, mensagens de erro, alertas, atualizações, caixas de seleção, campos de senha, campos de pesquisa, entradas de texto, seletores de rádio, áreas texto, estados hover, estados de seleção, os estados pressionadas, ferramenta, banners, vídeos incorporados, animações de rolagem, Deslizar, cliques, iconografia, cores, listas, slideshows, texto alternativo, logotipos, avisos, gradientes, pop-ups, carrosséis, OK / Cancelar, etc., etc., etc.
+> Navegação sub-navegação, menus, pop, botões, links, janelas, cantos arredondados, sombreamento, mensagens de erro, alertas, atualizações, caixas de seleção, campos de senha, campos de pesquisa, entradas de texto, seletores de rádio, áreas texto, estados hover, estados de seleção, os estados pressionadas, ferramenta, banners, vídeos incorporados, animações de rolagem, Deslizar, cliques, iconografia, cores, listas, slideshows, texto alternativo, logotipos, avisos, gradientes, pop-ups, carrosséis, OK/Cancelar, etc, etc, etc.
 
 #### **UX**
 
-> Pessoas, Felicidade, resolução de problemas, entender necessidades, amor, eficiência, entretenimento, prazer, satisfação, sorrisos, alma, calor, personalidade, alegria, satisfação, gratificação, excitação, euforia, conveniência, eficiência, etc., etc., etc. .
+> Pessoas, Felicidade, resolução de problemas, entender necessidades, amor, eficiência, entretenimento, prazer, satisfação, sorrisos, alma, calor, personalidade, alegria, satisfação, gratificação, excitação, euforia, conveniência, eficiência, etc, etc, etc.
 
