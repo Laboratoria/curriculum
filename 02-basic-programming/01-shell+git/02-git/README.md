@@ -323,7 +323,18 @@ A seguir, você encontrará uma lista dos comandos mais comuns ao trabalhar com 
 
 A seguir, temos uma lista de comandos do Git usados nesta aula:
 
-![comandos-git](https://fotos.subefotos.com/f209b041b3f12e56d3e44984a92d1f44o.png)
+| Comando | Descrição |
+| --- | --- |
+| `git config --global user.name seu-username` | Configura o nome do usuário |
+| `git config --global user.email seu@email.com` | Configura o e-mail |
+| `git init` | Inicia o monitoramento do diretório indicado |
+| `git add arquivo.extensão` | Passa o arquivo do _working directory_ à _staging area_ |
+| `git add .` | Passa todos os arquivos do _working directory_ à _staging area_ |
+| `git commit -m 'Adicionando comentário'` | Confirma os arquivos **preparados** anteriormente com `git add` |
+| `git remote add nome-remoto URL` | Vincula o repositório local com o repositório da "nuvem" por meio da **URL** |
+| `git push nome-remoto master` | Envia a nova versão ao ramo (_branch_) _master_ do repositório remoto |
+| `git status` | Mostra o estado dos arquivos do diretório local |
+| `git pull nome-remoto master` | Atualiza o repositório local ao último _commit_ registrado no repositório remoto |
 
 Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle de versões de seus projetos e colaborar com outras professoras da Laboratoria.
 
