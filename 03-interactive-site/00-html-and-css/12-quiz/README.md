@@ -59,7 +59,7 @@
 
 #### Opções
 
-1. Não começam com uma nova linha.
+1. Não começam com uma nova linha
 2. Começam em uma nova linha
 3. Podem começar em qualquer parte de uma linha
 4. Podem conter elementos em linha e outros elementos de bloco
