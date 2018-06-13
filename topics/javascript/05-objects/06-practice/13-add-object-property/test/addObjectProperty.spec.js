@@ -1,8 +1,8 @@
 const Assert = require('chai').assert;
 const addObjectProperty = require('../solution/addObjectProperty');
 
-describe('addObjectProperty()', () => {
-  it("debería regresar { name : 'Fadel', role : 'Aaaahhhh' }, para { name : 'Medina', role : 'Euuuuhhh' }, 'bawahan' y { name : 'Fadel', role : 'Aaaahhhh' }", () => {
+describe('addObjectProperty(obj1, key, obj2)', () => {
+  it('debería asignar obj2 en obj1[key]', () => {
     const person1 = { name: 'Medina', role: 'Euuuuhhh' };
     const person2 = { name: 'Fadel', role: 'Aaaahhhh' };
 

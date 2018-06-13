@@ -1,7 +1,7 @@
 # getAllKeys
 
-Escribe una función llamada "getAllKeys" que devuelve un array de todas las
-claves del objeto de entrada.
+Escribe una función llamada `getAllKeys` que devuelve un array de todas las
+llaves del objeto de entrada.
 
 Ejemplo de entrada:
 
@@ -22,8 +22,7 @@ Valor de retorno de la función (salida):
 Ten en cuenta que tu función debe ser capaz de manejar cualquier objeto pasado
 en ella.
 
-P.ej.
-también debe manejar una entrada como:
+Por ejemplo, también debe manejar una entrada como:
 
 ```js
 {

@@ -15,6 +15,7 @@ Notas:
 const obj = {
   key: [1, 2, 3, 4];
 };
+
 const output = getProductOfAllElementsAtProperty(obj, 'key');
-console.log(output); // -> 24
+console.log(output); // => 24
 ```
