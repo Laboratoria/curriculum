@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizaje
 
-- Reflexionar sobre lo aprendido de AJAX con jQuery
+- Reflexionar sobre lo aprendido de AJAX, jQuery, fetch.
 
 ## Conclusiones
 

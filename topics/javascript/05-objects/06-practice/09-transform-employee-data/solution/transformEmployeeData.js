@@ -1,4 +1,4 @@
-function transformEmployeeData(array) {
+const transformEmployeeData = (array) => {
   const arrayMain = [];
 
   for (let i = 0; i < array.length; i += 1) {
@@ -14,6 +14,6 @@ function transformEmployeeData(array) {
   }
 
   return arrayMain;
-}
+};
 
 module.exports = transformEmployeeData;

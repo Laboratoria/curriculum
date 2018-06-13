@@ -1,11 +1,12 @@
-function removeStringValuesLongerThan(num, obj) {
-  const obj2 = { ...obj };
-  Object.keys(obj2).forEach((key) => {
-    if (obj2[key].length > num) {
-      delete obj2[key];
-    }
-  });
-  return obj2;
-}
+const removeStringValuesLongerThan = (num, obj) =>
+  Object.keys(obj).reduce(
+    (memo, key) => (
+      (obj[key].length > num)
+        ? memo
+        : { ...memo, [key]: obj[key] }
+    ),
+    {},
+  );
+
 
 module.exports = removeStringValuesLongerThan;

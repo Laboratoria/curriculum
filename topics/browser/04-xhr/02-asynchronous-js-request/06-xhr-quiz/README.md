@@ -49,7 +49,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 4) Ve a Google, abre tu `developer tools` y ejecuta lo siguiente en consola
+### 4) Si en tu consola del navegador pones este código, ¿qué sucede?
 
 ```javascript
 const req = new XMLHttpRequest();
@@ -99,7 +99,7 @@ bit anti-climactic… So let's actually send the request!
 
 <solution style="display:none;">2</solution>
 
-### 7) ¿Qué propiedad debemos establecer para el manejo de errores?
+### 7) ¿A qué propiedad hay que asignar una función para el manejo de errores?
 
 #### Opciones
 

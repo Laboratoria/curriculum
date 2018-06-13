@@ -13,7 +13,7 @@ const customerData = {
   },
 };
 
-function greetCustomer(firstName) {
+const greetCustomer = (firstName) => {
   if (!customerData[firstName]) {
     return 'Welcome! Is this your first time?';
   }
@@ -27,6 +27,6 @@ function greetCustomer(firstName) {
   }
 
   return undefined;
-}
+};
 
 module.exports = greetCustomer;

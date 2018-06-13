@@ -1,10 +1,10 @@
 # transformFirstAndLast
 
-Escriba una función 'transformFirstAndLast' que toma un array y devuelve un
+Escribe una función `transformFirstAndLast` que toma un array y devuelve un
 objeto con:
 
-1. el primer elemento del array como la clave del objeto, y
-2. el último elemento del array como valor de esa clave.
+1. el primer elemento del array como la llave del objeto, y
+2. el último elemento del array como valor de esa llave.
 
 Ejemplo de entrada:
 
@@ -20,10 +20,10 @@ Valor de retorno de la función (salida):
 }
 ```
 
-No cambie el array de entrada. Suponga que todos los elementos del array de
+No cambies el array de entrada. Piensa que todos los elementos del array de
 entrada serán del tipo `string`.
 
-Tenga en cuenta que el array de entrada puede tener un número variable de
+Ten en cuenta que el array de entrada puede tener un número variable de
 elementos. Tu código debería acomodarse de manera flexible.
 
 Ejemplo, debe manejar la entrada como:

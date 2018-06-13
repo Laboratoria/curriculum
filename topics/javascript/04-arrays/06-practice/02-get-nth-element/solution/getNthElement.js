@@ -1,9 +1,3 @@
-function getNthElement(array, n) {
-  if (!array.length) {
-    return undefined;
-  }
-
-  return array[n];
-}
+const getNthElement = (array, n) => array[n];
 
 module.exports = getNthElement;

@@ -8,10 +8,10 @@ propina.
 
 Notas:
 
-- Suponga que el impuesto de ventas es 9.5% y la propina es 15%.
-- NO incline el impuesto sobre las ventas, solo sobre la cantidad de propina.
+- Piensa que el impuesto de ventas es 9.5% y la propina es 15%.
+- NO inclines el impuesto sobre las ventas, solo sobre la cantidad de propina.
 
 ```js
-var output = calculateBillTotal(20);
+const output = calculateBillTotal(20);
 console.log(output); // -> 24,9
 ```

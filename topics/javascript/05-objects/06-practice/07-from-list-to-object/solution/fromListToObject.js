@@ -1,4 +1,4 @@
-function fromListToObject(array) {
+const fromListToObject = (array) => {
   const obj = {};
 
   for (let i = 0; i < array.length; i += 1) {
@@ -7,6 +7,6 @@ function fromListToObject(array) {
   }
 
   return obj;
-}
+};
 
 module.exports = fromListToObject;
