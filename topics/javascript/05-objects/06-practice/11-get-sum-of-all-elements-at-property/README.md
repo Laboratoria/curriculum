@@ -1,6 +1,6 @@
 # getSumOfAllElementsAtProperty
 
-Escriba una función llamada "getSumOfAllElementsAtProperty".
+Escribe una función llamada "getSumOfAllElementsAtProperty".
 
 Dado un objeto y una key, "getSumOfAllElementsAtProperty" devuelve la suma de
 todos los elementos del array.
@@ -12,9 +12,10 @@ Notas:
 - Si no hay ninguna propiedad en la key dada, debe devolver 0.
 
 ```js
-var obj = {
+const obj = {
   key: [4, 1, 8];
 };
-var output = getSumOfAllElementsAtProperty(obj, 'key');
+
+const output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 ```

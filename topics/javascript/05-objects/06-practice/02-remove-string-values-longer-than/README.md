@@ -9,7 +9,7 @@ número dado.
 Ejemplo de entrada:
 
 ```js
-var obj = {
+const obj = {
   name: 'Montana',
   age: 20,
   location: 'Texas'

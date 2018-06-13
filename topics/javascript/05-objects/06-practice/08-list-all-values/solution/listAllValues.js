@@ -1,4 +1,4 @@
-function listAllValues(obj) {
+const listAllValues = (obj) => {
   const arr = [];
   const arrKeys = Object.keys(obj);
 
@@ -7,6 +7,6 @@ function listAllValues(obj) {
   }
 
   return arr;
-}
+};
 
 module.exports = listAllValues;

@@ -1,5 +1,5 @@
-function addFullNameProperty(obj) {
+const addFullNameProperty = (obj) => {
   // your code here
-}
+};
 
 module.exports = addFullNameProperty;

@@ -19,7 +19,7 @@ Valor de retorno de la función (salida):
 ['Krysten', 33, false]
 ```
 
-Tenga en cuenta que la entrada puede tener un número diferente de claves y
+Ten en cuenta que la entrada puede tener un número diferente de claves y
 valores que la muestra dada.
 Por ejemplo, también debe manejar una entrada como:
 

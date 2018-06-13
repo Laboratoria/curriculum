@@ -1,4 +1,4 @@
-function convertObjectToList(obj) {
+const convertObjectToList = (obj) => {
   const arr = [];
   const arrKeys = Object.keys(obj);
 
@@ -7,6 +7,6 @@ function convertObjectToList(obj) {
   }
 
   return arr;
-}
+};
 
 module.exports = convertObjectToList;
