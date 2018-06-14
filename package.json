@@ -5,7 +5,7 @@
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/javascript",
-    "parse": "cd topics && course-parser {css,html,javascript,scm,shell}/README.md --track=js --locale=es-ES --validate",
+    "parse": "cd topics && course-parser {browser,css,html,javascript,scm,shell}/README.md --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run eslint && npm run parse",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
   },
