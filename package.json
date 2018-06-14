@@ -5,8 +5,8 @@
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/javascript",
-    "parse": "cd topics && course-parser {browser,css,html,javascript,scm,shell}/README.md --track=js --locale=es-ES --validate",
-    "pretest": "npm run mdlint && npm run eslint && npm run parse",
+    "validate": "cd topics && course-parser browser/README.md css/README.md html/README.md javascript/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "pretest": "npm run mdlint && npm run eslint && npm run validate",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
   },
   "repository": "Laboratoria/curricula-js",
