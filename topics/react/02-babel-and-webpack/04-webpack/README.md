@@ -78,16 +78,21 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
 
 1. Lo primero que vamos a hacer es instalar las dependencias a `React` como
    `node` manda.
+
    ```sh
    yarn add react react-dom
    ```
+
 2. Luego, instalamos `babel` y sus `presets` como dependencias de desarrollo
    (sumadas a las que ya teníamos anteriormente)
+
    ```sh
    yarn add -D babel-core babel-preset-es2015 babel-preset-react-boilerplate
    ```
+
 3. Instalamos `webpack`, sus `plugins`, `loaders` y utils, también como
    dependencias de desarrollo
+
    ```sh
    yarn add -D \
      webpack \
@@ -99,8 +104,10 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
      webpack-dev-server \
      react-hot-loader@3.0.0-beta.6
    ```
+
 4. Para decirle a `babel` cuáles `presets` utilizar, creamos un archivo
    `.babelrc` en el root de nuestra aplicación, con el siguiente contenido:
+
    ```json
    {
      "presets": [
@@ -113,7 +120,9 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
      ]
    }
    ```
+
 5. Limpiamos nuestro `html` hasta que quede de la siguiente forma
+
    ```html
    <!DOCTYPE html>
    <html>
@@ -126,12 +135,14 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
      </body>
    </html>
    ```
+
 6. Modificamos `page.js` para que importe a `React` en el scope, para que ya
    *no* se encargue de inyectar el resultado en el DOM, y para que se convierta
    en un módulo independiente, que exporte `Page` y `defaultPageProps`. En
    React, por convención los archivos donde viven los componentes, se llaman
    de la misma manera que los componentes que contienen. Entonces vamos a
    renombrar `page.js` por `Page.js`.
+
    ```js
    // page.js
    import React from 'react'
@@ -154,8 +165,10 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
    // exportamos por defecto el componente `Page`
    export default Page
    ```
+
 7. Creamos un archivo `index.js` que configuraremos como `entry` de `webpack`.
    El será el encargado de renderizar `Page` e inyectar el resultado en el `DOM`
+
    ```js
    // main.js
    import React from 'react';
@@ -195,7 +208,9 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
      });
    }
    ```
+
 8. Creamos el archivo de configuración de `webpack`: `webpack.config.js`
+
    ```js
    // webpack.config.js
 
@@ -275,8 +290,10 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
 
    module.exports = config;
    ```
+
 9. Reemplazas el `npm script` `start`, con el siguiente comando
    `webpack-dev-server`
+
 10. Desde tu terminal ejecutas `yarn start`
 
 ## Ejercicio

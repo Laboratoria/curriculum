@@ -83,9 +83,9 @@ Este es un extracto traducido de un [artículo de MDN sobre Third Party APIs](ht
 >   plantea la difícil decisión de cambiar de proveedor de servicios o
 >   implementarlos por tu cuenta, con el consiguiente sobrecoste.
 > - **Privacidad.** Las leyes son muy distintas en cada país, y algunas como la
->   Ley Orgánica de Protección de Datos española (LOPD), que es más restrictiva que las equivalentes de   otros países,
->   pueden impedirnos legalmente delegar ciertos datos o servicios para su trato
->   por terceros.
+>   Ley Orgánica de Protección de Datos española (LOPD), que es más restrictiva
+>   que las equivalentes de   otros países, pueden impedirnos legalmente delegar
+>   ciertos datos o servicios para su trato por terceros.
 
 Estos pros y contras son parte de un [post de GenbetaDev](https://www.genbetadev.com/programacion-en-la-nube/pros-y-contras-del-uso-de-apis-de-terceros).
 Nosotros nos enfocaremos en las cosas positivas en este momento y sacaremos

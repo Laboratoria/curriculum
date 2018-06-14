@@ -137,7 +137,7 @@ Fuente: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pr
 > de software usada para construir APIs que permitan comunicar a nuestro servidor
 > con sus clientes usando el protocolo HTTP mediante URIs lo suficientemente
 > inteligentes para poder satisfacer la necesidad del cliente.
-
+>
 > - REST es STATELESS, es decir que cada petición que reciba nuestra API debe
 >   perecer. Por ejemplo, no podemos RECORDAR un usuario logeado en el API
 >   usando una sesión, esto es un PECADO ya que agotaría la memoria RAM de

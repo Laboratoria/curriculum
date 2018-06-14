@@ -252,18 +252,26 @@ ul#awesome #must-use {
 
 #### Opciones
 
-1. ```css
+1. Snippet 1:
+
+   ```css
    { p = color: red;
      font-size: 15px;
    }
    ```
-2. ```css
+
+2. Snippet 2:
+
+   ```css
    p {
      color: red,
      font-size: 15px,
    }
    ```
-3. ```css
+
+3. Snippet 3:
+
+   ```css
    p {
      color: red;
      font-size: 15px;

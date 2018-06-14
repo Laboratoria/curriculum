@@ -62,8 +62,10 @@
 #### Opciones
 
 1. El principal protocolo de la web.
-2. Servicio web que se ejecuta en tu computadora para mostrar archivos json encontrados en la web.
-3. Arquitectura de software usada para construir APIs que permitan comunicar a nuestro servidor con sus clientes usando el protocolo HTTP mediante URIs
+2. Servicio web que se ejecuta en tu computadora para mostrar archivos json
+   encontrados en la web.
+3. Arquitectura de software usada para construir APIs que permitan comunicar a
+   nuestro servidor con sus clientes usando el protocolo HTTP mediante URIs
 
 <solution style="display:none;">3</solution>
 

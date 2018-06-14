@@ -6,8 +6,14 @@
 
 ***
 
-<iframe src="https://goo.gl/wBwVRr" frameborder="0" width="684" height="430" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-</iframe>
+<iframe
+  src="https://goo.gl/wBwVRr"
+  frameborder="0"
+  width="684"
+  height="430"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"></iframe>
 
 Un evento de JavaScript por sí mismo carece de utilidad. Para que los eventos
 resulten útiles, se deben asociar funciones o código JavaScript a cada evento.
@@ -26,15 +32,24 @@ manejadores:
 
 ## Manejadores como Atributos de XHTML
 
-Se trata del método más sencillo y a la vez menos profesional de indicar el código JavaScript que se debe ejecutar cuando se produzca un evento. En este caso, el código se incluye en un atributo del propio elemento XHTML. En el siguiente ejemplo, se quiere mostrar un mensaje cuando el usuario pinche con el ratón sobre un botón:
+Se trata del método más sencillo y a la vez menos profesional de indicar el
+código JavaScript que se debe ejecutar cuando se produzca un evento. En este
+caso, el código se incluye en un atributo del propio elemento XHTML. En el
+siguiente ejemplo, se quiere mostrar un mensaje cuando el usuario pinche con el
+ratón sobre un botón:
 
 ```html
 <input type="button" value="Pinchame y verás" onclick="console.log('Gracias por pinchar');" />
 ```
 
-En este método, se definen atributos XHTML con el mismo nombre que los eventos que se quieren manejar. El ejemplo anterior sólo quiere controlar el evento de pinchar con el ratón, cuyo nombre es onclick. Así, el elemento XHTML para el que se quiere definir este evento, debe incluir un atributo llamado onclick.
+En este método, se definen atributos XHTML con el mismo nombre que los eventos
+que se quieren manejar. El ejemplo anterior sólo quiere controlar el evento de
+pinchar con el ratón, cuyo nombre es onclick. Así, el elemento XHTML para el que
+se quiere definir este evento, debe incluir un atributo llamado onclick.
 
-El contenido del atributo es una cadena de texto que contiene todas las instrucciones JavaScript que se ejecutan cuando se produce el evento. En este caso, el código JavaScript es muy sencillo
+El contenido del atributo es una cadena de texto que contiene todas las
+instrucciones JavaScript que se ejecutan cuando se produce el evento. En este
+caso, el código JavaScript es muy sencillo
 
 ```js
 (console.log('Gracias por pinchar');) // ya que solamente se trata de mostrar un mensaje.
@@ -45,7 +60,11 @@ muestra un mensaje y cuando el usuario pasa el ratón por encima del elemento,
 se muestra otro mensaje:
 
 ```html
-<div onclick="console.log('Has pinchado con el ratón');" onmouseover="console.log('Acabas de  pasar el ratón por encima');"> Puedes pinchar sobre este elemento o simplemente pasar el ratón por encima
+<div
+  onclick="console.log('Has pinchado con el ratón');"
+  onmouseover="console.log('Acabas de  pasar el ratón por encima');"
+>
+  Puedes pinchar sobre este elemento o simplemente pasar el ratón por encima
 </div>
 ```
 
@@ -69,9 +88,14 @@ completamente.
 
 ## Manejadores de eventos y variable `this`
 
-JavaScript define una variable especial llamada this que se crea automáticamente y que se emplea en algunas técnicas avanzadas de programación. En los eventos, se puede utilizar la variable this para referirse al elemento XHTML que ha provocado el evento. Esta variable es muy útil para ejemplos como el siguiente:
+JavaScript define una variable especial llamada this que se crea automáticamente
+y que se emplea en algunas técnicas avanzadas de programación. En los eventos,
+se puede utilizar la variable this para referirse al elemento XHTML que ha
+provocado el evento. Esta variable es muy útil para ejemplos como el siguiente:
 
-Cuando el usuario pasa el ratón por encima del `<div>`, el color del borde se muestra de color negro. Cuando el ratón sale del `<div>`, se vuelve a mostrar el borde con el color gris claro original.
+Cuando el usuario pasa el ratón por encima del `<div>`, el color del borde se
+muestra de color negro. Cuando el ratón sale del `<div>`, se vuelve a mostrar el
+borde con el color gris claro original.
 
 ```html
 <div id="contenidos" style="width:150px; height:60px; border:thin solid silver">
@@ -83,8 +107,13 @@ Si no se utiliza la variable this, el código necesario para modificar el color
 de los bordes, sería el siguiente:
 
 ```html
-<div id="contenidos" style="width:150px; height:60px; border:thin solid silver" onmouseover="document.getElementById('contenidos').style.borderColor='black';" onmouseout="document.getElementById('contenidos').style.borderColor='silver';">
-    Sección de contenidos...
+<div
+  id="contenidos"
+  style="width:150px; height:60px; border:thin solid silver"
+  onmouseover="document.getElementById('contenidos').style.borderColor='black';"
+  onmouseout="document.getElementById('contenidos').style.borderColor='silver';"
+>
+  Sección de contenidos...
 </div>
 ```
 
@@ -94,8 +123,13 @@ Dentro del código de un evento, JavaScript crea automáticamente la variable
 el ejemplo anterior se puede reescribir de la siguiente manera:
 
 ```html
-<div id="contenidos" style="width:150px; height:60px; border:thin solid silver" onmouseover="this.style.borderColor='black';" onmouseout="this.style.borderColor='silver';">
-    Sección de contenidos...
+<div
+  id="contenidos"
+  style="width:150px; height:60px; border:thin solid silver"
+  onmouseover="this.style.borderColor='black';"
+  onmouseout="this.style.borderColor='silver';"
+>
+  Sección de contenidos...
 </div>
 ```
 
@@ -119,7 +153,11 @@ el evento.
 De esta forma, el siguiente ejemplo:
 
 ```html
-<input type="button" value="Pinchame y verás" onclick="console.log('Gracias por pinchar');" />
+<input
+  type="button"
+  value="Pinchame y verás"
+  onclick="console.log('Gracias por pinchar');"
+/>
 ```
 
 Se puede transformar en:
@@ -156,7 +194,10 @@ function resalta(elemento) {
 ```
 
 ```html
-<div style="padding: .2em; width: 150px; height: 60px; border: thin solid silver" onmouseover="resalta(this)" onmouseout="resalta(this)">
+<div
+  style="padding: .2em; width: 150px; height: 60px; border: thin solid silver"
+  onmouseover="resalta(this)" onmouseout="resalta(this)"
+>
   Sección de contenidos...
 </div>
 ```
@@ -189,7 +230,12 @@ eventos de JavaScript. Esta técnica consiste en asignar las funciones externas
 mediante las propiedades DOM de los elementos XHTML. Así, el siguiente ejemplo
 
 ```html
-<input id="pinchable" type="button" value="Pinchame y verás" onclick="console.log('Gracias por pinchar');" />
+<input
+  id="pinchable"
+  type="button"
+  value="Pinchame y verás"
+  onclick="console.log('Gracias por pinchar');"
+/>
 ```
 
 Se puede transformar en:
@@ -198,6 +244,7 @@ Se puede transformar en:
 function muestraMensaje() {
   console.log('Gracias por pinchar');
 }
+
 document.getElementById('pinchable').onclick = muestraMensaje;
 ```
 

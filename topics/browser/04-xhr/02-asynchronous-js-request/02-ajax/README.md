@@ -20,15 +20,15 @@
 > continuamente sin tener que volver a cargar la página completa. Esto crea
 > aplicaciones más rápidas y con mejor respuesta a las acciones del usuario.
 
-_Extracto de MDN WEB DOCS_
+Extracto de MDN WEB DOCS:
 
->En la aplicación web tradicional, la computadora cliente realiza una solicitud
->de una página web. El servidor crea y regresa la página para el cliente.
->Finalmente, el cliente carga la nueva página y muestra la información.
->Si interactúan con la página, digamos para agregar o eliminar algo o al enviar
->un formulario, vuelve a comenzar el ciclo. El cliente hará otra solicitud,
->el servidor regresa una página totalmente nueva, el cliente carga y se
->lo presenta nuevamente al usuario.
+> En la aplicación web tradicional, la computadora cliente realiza una solicitud
+> de una página web. El servidor crea y regresa la página para el cliente.
+> Finalmente, el cliente carga la nueva página y muestra la información.
+> Si interactúan con la página, digamos para agregar o eliminar algo o al enviar
+> un formulario, vuelve a comenzar el ciclo. El cliente hará otra solicitud,
+> el servidor regresa una página totalmente nueva, el cliente carga y se
+> lo presenta nuevamente al usuario.
 
 Hasta mediados de la década de los 2000, esta era básicamente la única forma
 en que se producía la comunicación por Internet. La información residiría en

@@ -25,8 +25,7 @@ a entrar un poco en contexto con la siguiente diapositiva:
   height="749"
   allowfullscreen="true"
   mozallowfullscreen="true"
-  webkitallowfullscreen="true"
-></iframe>
+  webkitallowfullscreen="true"></iframe>
 
 > ### Entonces, ¿qué es una API?
 >

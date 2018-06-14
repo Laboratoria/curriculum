@@ -34,7 +34,7 @@ peticiones asíncronas.
 El método `.ajax()` es el corazón de las peticiones asíncronas en la librería
 de jQuery. Hay 2 formas de usar este método:
 
-```javascript
+```js
 $.ajax(<url-a-realizar-la-petición>, <un-objeto-configuración>);
 
 // or
@@ -51,12 +51,12 @@ mirando la documentación), además de que toda la configuración lo puedes pone
 en un solo objeto.
 
 > ### Qué es un objeto de configuración?
-
+>
 > Es un objeto de JavaScript que se usa para configurar algo.
 >
 > Por ejemplo:
 >
-> ```javascript
+> ```js
 > var settings = {
 >    name: 'this is my name',
 >    colors: ['orange', 'blue'],
@@ -68,13 +68,13 @@ en un solo objeto.
 > El objeto de configuración puede ser pasado como parámetro de una función
 > constructora. Imaginemos la función constructora `MakeCake`:
 >
-> ```javascript
+> ```js
 > const myDeliciousCake = MakeCake( settings );
 > ```
 >
 > De igual manera, el objeto de configuración puede ser pasado directamente:
 >
- ```javascript
+> ```js
 > const myDeliciousCake = MakeCake({
 >    name: 'this is my name',
 >    colors: ['orange', 'blue'],
@@ -89,7 +89,7 @@ El método `.ajax()` de jQuery tiene que ser increíblemente versátil y poderos
 si es lo que le da vida a las peticiones asíncronas de jQuery. Una petición Ajax
 simple se vería así:
 
-```javascript
+```js
 $.ajax({
     url: `https://api.github.com/users/${searchedUser}`
 });
@@ -101,7 +101,7 @@ Vamos a probarlo:
 2. Abre el `Developer Tools` de tu navegador
 3. Asegúrate que estás en la pestaña `Network` y que el botón de grabación está
    encendido
-5. Agrega el script anterior en la consola y ejecútalo
+4. Agrega el script anterior en la consola y ejecútalo
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
@@ -120,7 +120,7 @@ podemos encadenar a la ejecución de éste, el método `.done()`. Vamos a pasar 
 función como argumento al método `.done()` que se ejecutará una vez que la
 llamada Ajax haya terminado:
 
-```javascript
+```js
 function handleResponse(data) {
     console.log('the ajax request has finished!');
     console.log(data);
@@ -140,7 +140,7 @@ Para ponernos a prueba, vamos a convertir esta petición asíncrona que usa `XHR
 a una llamada con el método `.ajax()` de jQuery. Esto es lo que tenemos
 actualmente:
 
-```javascript
+```js
 const githubRequest = new XMLHttpRequest();
 githubRequest.onload = addUser;
 githubRequest.open('GET', `https://api.github.com/users/${searchedUser}`);
@@ -150,7 +150,7 @@ githubRequest.send();
 Muchas de estas operaciones pueden ser manejadas internamente por jQuery, así
 que el primer paso de la conversión sería así:
 
-```javascript
+```js
 $.ajax({
     url: `https://api.github.com/users/${searchedUser}`
 }).done(addUser);
@@ -173,7 +173,7 @@ Ya hemos obtenido la respuesta en la consola, ahora vamos a ver cómo lo
 agregamos a nuestra página a través de jQuery. Primero veamos cómo lo
 tendríamos usando el objeto XHR:
 
-```javascript
+```js
 function addUser() {
     const user = JSON.parse(this.responseText);
     const firstImage = data.results[0];
@@ -196,7 +196,7 @@ function addUser() {
 
 Si usamos jQuery, podríamos cambiarlo de la siguiente manera:
 
-```javascript
+```js
 function addUser(user) {
     $userContainer.html(`<div class="card col-md-6 offset-md-3 col-xs-12">
         <img class="card-img-top" src="${user.avatar_url}" alt="Card image cap">
@@ -229,5 +229,15 @@ encontrado, puedes probarlo metiendo un error dentro de la URL por ejemplo.
 
 El código visto en esta lectura lo puedes encontrar en el siguiente pen:
 
-<iframe height='400' scrolling='no' title='AJAX con jQuery' src='//codepen.io/ivandevp/embed/vdxNMd/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/vdxNMd/'>AJAX con jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='400'
+  scrolling='no'
+  title='AJAX con jQuery'
+  src='//codepen.io/ivandevp/embed/vdxNMd/?height=265&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen [AJAX con jQuery](https://codepen.io/ivandevp/pen/vdxNMd/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
