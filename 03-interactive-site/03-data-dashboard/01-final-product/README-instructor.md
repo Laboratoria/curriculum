@@ -81,7 +81,7 @@ Está sempre em vermelho porque é algo que no mundo ideal deveria ser zero.
 
 É a seção de alunos que atende a meta de pontos ganhos na aula.
 
-### O que esse **105** de conquista significa?
+### O que esse **105** de achievement significa?
 
 É o número médio de alunos que atingiram a meta de pontos durante todos os sprints. Ou seja, se eu sou a aluna "Ada Lovelace", e estudei 3 sprints até agora com as seguintes notas:
 
@@ -158,7 +158,7 @@ Sim, é basicamente um semáforo que melhora a visibilidade dos resultados. Eles
 | Amarelo | 70% a 80% |
 | Verde | > 80% |
 
-### O que é o _Net Promoter Score_?
+### O que é o Net Promoter Score?
 
 É o indicador dos alunas que elas recomendariam à Laboratoria e seu acrônimo NPS é normalmente usado.
 

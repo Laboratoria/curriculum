@@ -251,7 +251,7 @@ div {
 }
 ```
 
-### Height (_altura)
+### Height (_altura_)
 
 Controla a altura da caixa ou um elemento.
 
@@ -265,7 +265,7 @@ div {
 }
 ```
 
-## _Box sizing_
+## Box sizing
 
 A propriedade `box-sizing` é usada para informar ao navegador quais devem ser as propriedades de tamanho \(largura e altura\).
 

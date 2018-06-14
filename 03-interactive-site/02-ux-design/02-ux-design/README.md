@@ -11,7 +11,7 @@
 
 ## O que é User Experience Design?
 
-Para começar, é bom saber o que entendemos por UX. Para isso, veja este vídeo, no qual [Don Norman](https://es.wikipedia.org/wiki/Donald_Norman), o primeiro a usar o termo, explica o que é UX.
+Para começar, é bom saber o que entendemos por UX. Para isso, veja este vídeo, no qual [Don Norman](https://pt.wikipedia.org/wiki/Donald_Norman), o primeiro a usar o termo, explica o que é UX.
 
 [![UX](https://lh3.googleusercontent.com/NXXihcbIZBiywCDP7TVRfZwUTiLONFyi-XhYIoz-2-f7l9QamUVtsu7Vg6Snv9qOmTX28AS90Bh6eVnF-FWf0Ggvog-Vfj6eIfL6VTz5lf5avx00hvC13gdwy31_X-eoMvqkp-nYW7U)](https://www.youtube.com/watch?v=9BdtGjoIN4E&cc_lang_pref=es&cc_load_policy=1)
 

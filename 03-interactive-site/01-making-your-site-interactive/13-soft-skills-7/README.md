@@ -4,6 +4,8 @@
 * Formato: `guiado`
 * Duración: `180min`
 
+***
+
 # Objetivos
 
 * Selecionar os eventos mais marcantes da história pessoal e localizá-los em um tempo e espaço específicos.
