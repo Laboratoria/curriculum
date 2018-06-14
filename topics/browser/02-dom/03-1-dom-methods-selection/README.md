@@ -9,12 +9,13 @@
 En esta unidad aprenderemos:
 
 * Métodos de selección del DOM:
+  - `document.getElementById()`
+  - `document.getElementsByClassName()`
+  - `document.getElementsByTagName()`
+  - `document.querySelector()`
+  - `document.querySelectorAll()`
 
-  * `document.getElementById()`
-  * `document.getElementsByClassName()`
-  * `document.getElementsByTagName()`
-  * `document.querySelector()`
-  * `document.querySelectorAll()`
+***
 
 ## Selección de nodos del DOM
 
@@ -48,7 +49,8 @@ completamente, es decir, después de que la página XHTML se cargue por
 completo. Más adelante se verá cómo asegurar que un código JavaScript
 solamente se ejecute cuando el navegador ha cargado entera la página XHTML.
 
-Por último, te recomendamos que pruebes los siguientes métodos replicando el código en tu editor favorito.
+Por último, te recomendamos que pruebes los siguientes métodos replicando el
+código en tu editor favorito.
 
 ### **getElementById()**
 
@@ -102,13 +104,13 @@ const items = document.getElementsByClassName("bolded");
 
 ### **getElementsByTagName()**
 
-Como sucede con todas las funciones que proporciona DOM, la función `
-getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
+Como sucede con todas las funciones que proporciona DOM, la función
+`getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
 autoexplicativo.
 
 La función `getElementsByTagName(nombreEtiqueta)` obtiene una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/).
-de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a
-la función.
+de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a la
+función.
 
 ```html
 <body>
@@ -139,7 +141,8 @@ console.log(listItems[2]);
 
 ### **querySelector()**
 
-Función que retorna el primer elemento que coincide con el selector CSS dado como parámetro.
+Función que retorna el primer elemento que coincide con el selector CSS dado
+como parámetro.
 
 ```html
 <body>
@@ -174,7 +177,8 @@ console.log(title);
 
 ### **querySelectorAll()**
 
-Función que retorna una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/) que coinciden con el selector CSS dado como parámetro.
+Función que retorna una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
+que coinciden con el selector CSS dado como parámetro.
 
 ```html
 <body>
@@ -203,7 +207,8 @@ console.log(items);
 
 ## Recapitulando
 
-Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y refuerza lo aprendido.
+Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
+refuerza lo aprendido.
 
 [![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
 

@@ -17,21 +17,21 @@ En esta unidad aprenderemos:
   * `setAttribute()`
 - Cómo modificar atributos CSS desde el DOM
   * `.style.property`
-***
 
+***
 
 ### Atributos
 
-Además de modificar el contenido del nodo o el nodo mismo, también podemos modificar
-los atributos del nodo, conocer el valor o valores que tienen y asignar valores
-distintos.
+Además de modificar el contenido del nodo o el nodo mismo, también podemos
+modificar los atributos del nodo, conocer el valor o valores que tienen y
+asignar valores distintos.
 
 Los atributos con los que podemos trabajar directamente son los que utilizan la
 interfaz `HTMLElement`.
 
 ![Nodos](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos.png)
 
-```javascript
+```js
 const paragraph = document.getElementById('paragraph');
 /*
  * Para obtener el valor asignado utilizamos el nodo seguido del atributo que
@@ -50,8 +50,8 @@ paragraph.className = 'nueva-clase';
 ```
 
 Habrá ocasiones en que necesitamos trabajar con atributos que no son parte de
-la interfaz `HTMLElement`. Para esos casos existen dos métodos: `.setAttribute()`
-y `.getAttribute()`.
+la interfaz `HTMLElement`. Para esos casos existen dos métodos:
+`.setAttribute()` y `.getAttribute()`.
 
 #### setAttribute('atributo', 'valor')
 
@@ -67,7 +67,7 @@ Obtiene el valor del atributo.
   alt="DOM - innerHTML" width="100%"  />
 ```
 
-```javascript
+```js
 const image = document.getElementById('image');
 
 // Devuelve el tamaño de la imagen en px
@@ -91,16 +91,17 @@ image.setAttribute('height', 'auto');
 
 ## Manipulando estilos CSS por Javascript
 
-A diferencia de la mayoría de los otros atributos, la propiedad de estilo en sí es un objeto, que contiene propiedades.
+A diferencia de la mayoría de los otros atributos, la propiedad de estilo en sí
+es un objeto, que contiene propiedades.
 
-####style
+### style
 
-Esta propiedad se utiliza para mostrar, para establecer, modoficar o elimiar el estilo del nodo
-sobre el que se esté utilizando.
+Esta propiedad se utiliza para mostrar, para establecer, modoficar o elimiar el
+estilo del nodo sobre el que se esté utilizando.
 
 - Sintaxis
 
-  ```javascript
+  ```js
   elemento.style.propiedad = valor;
   ```
 
@@ -108,7 +109,7 @@ Tomar en cuenta que las propiedades de CSS que están separadas por un guión
 (`font-family`, `font-size`, `border-bottom`) tienen que ser escritas con
 notación _lowerCamelCase_ (`fontFamily`, `fontSize`, `borderBottom`).
 
-```javascript
+```js
 const paragraph  = document.getElementById('paragraph');
 paragraph.style.padding = '5px';
 paragraph.style.color = 'rgb(242, 242, 242)';

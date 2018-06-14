@@ -20,16 +20,16 @@ Una buena manera de entender XHR es usando la siguiente analogía:
 > lista la mezcla la metemos al horno, aquí va a tardar un poco en lo que se
 > hornea pero mientras podemos ir preparando la cubierta del pastel.
 
-Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para 
+Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para
 hacer peticiones AJAX, es muy parecido a la parte de la preparación de la mezcla
-donde primero debemos "preparar" las configuraciones y luego mandar nuestra 
-petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer 
+donde primero debemos "preparar" las configuraciones y luego mandar nuestra
+petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer
 otras peticiones o tareas.
 
 > Cuando el horno nos regresa el pastel horneado podemos continuar con
 > decorarlo
 
-Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que 
+Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que
 hayamos dispuesto para esta "tarea".
 
 ## XMLHTTPRequest
@@ -60,13 +60,13 @@ Podemos acceder a sus métodos, uno de los más importantes es el método `.open
 
 asyncRequestObject.open();
 
-`.open()` toma una serie de parámetros, pero los más importantes son sus dos 
+`.open()` toma una serie de parámetros, pero los más importantes son sus dos
 primeros: el método HTTP y la URL para enviar la solicitud.
 
 ![sintax-open](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/04-xhr/sintax_open.png?raw=true)
 
-Si queremos solicitar de manera asíncrona la página de inicio del popular sitio 
-de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y 
+Si queremos solicitar de manera asíncrona la página de inicio del popular sitio
+de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y
 proporcionaremos la URL:
 
 ```javascript
@@ -113,12 +113,12 @@ function handleSuccess () {
 asyncRequestObject.onload = handleSuccess;
 ```
 
-Con esto nos damos cuenta que si `onload` no está configurado, la solicitud 
+Con esto nos damos cuenta que si `onload` no está configurado, la solicitud
 vuelve pero no ocurre nada con eso.
 
 ## En caso de error
 
-Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir, 
+Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir,
 entonces necesitamos usar la propiedad onerror:
 
 ```javascript
@@ -133,10 +133,10 @@ Al igual que con `onload`, si `onerror` no está configurado y se produce un
 error, ese error simplemente fallará en _silencio_ y tu código (¡y tu usuario!)
 no sabrá qué es lo que está mal ni cómo recuperarlo.
 
-Es una buena práctica el tener ambos casos, correcto y error, en control 
-siempre. Es nuestra responsabilidad de desarrolladoras el comunicar al usuario 
-qué es lo que sucede mientras espera. Y ofrecer opciones en caso de error, eso 
-hará que nuestras aplicaciones tengan una mejor UX (experiencia de usuario) y 
+Es una buena práctica el tener ambos casos, correcto y error, en control
+siempre. Es nuestra responsabilidad de desarrolladoras el comunicar al usuario
+qué es lo que sucede mientras espera. Y ofrecer opciones en caso de error, eso
+hará que nuestras aplicaciones tengan una mejor UX (experiencia de usuario) y
 sean más robustas, esto es, que no se caigan con nada.
 
 ## Juntando todo
@@ -170,37 +170,38 @@ Los datos que devuelve están en un formato que es extremadamente difícil de
 analizar y consumir.
 
 Sería mucho más fácil (y útil) si pudiéramos obtener solo los datos que
-queremos en una estructura de datos mejor ordenada, aquí entra **JSON** 
+queremos en una estructura de datos mejor ordenada, aquí entra **JSON**
 (_JavaScript Object Notation_).
 
 ### JSON
-Es un formato de texto, es una forma de ordenar los datos de manera que sea 
+
+Es un formato de texto, es una forma de ordenar los datos de manera que sea
 fácil procesarlos y manejarlos. Nace del problema de cómo podemos intercambiar
 datos entre aplicaciones, páginas o servicios de una manera cómoda.
 **JSON** ES texto, pero con una estructura bien definida, tal como ordenamos
-libros en capítulos, secciones, parrafos, lineas. Un JSON estará compuesto de 
-llaves y valores tal como en el siguiente ejemplo : 
+libros en capítulos, secciones, parrafos, lineas. Un JSON estará compuesto de
+llaves y valores tal como en el siguiente ejemplo:
 
-```
+```json
 {
-  título : La guía del viajero intergaláctico,
-  autor : Douglas Adams,
-  descripción : Triología de cinco partes
+  "título": "La guía del viajero intergaláctico",
+  "autor": "Douglas Adams",
+  "descripción": "Triología de cinco partes"
 }
 ```
 
-Título, autor y descripción son las llaves, mientras que el resto son los 
+Título, autor y descripción son las llaves, mientras que el resto son los
 valores de esas llaves.
 
 ### Comunicándose con una API-JSON
 
-Entonces, si estamos comunicándonos con una API a través de JSON, necesitamos 
+Entonces, si estamos comunicándonos con una API a través de JSON, necesitamos
 que nuestro código entienda el formato de este texto especial, a este proceso le
 llamaremos análisis o _parsing_ en inglés. Luego de este análisis, el texto pasa
-a ser un objeto de javascript, que podemos manipular y acceder como cualquier 
+a ser un objeto de javascript, que podemos manipular y acceder como cualquier
 otro objeto que hemos visto.
-Supongamos que la respuesta es el JSON que pusimos de ejemplo anteriormente, 
-veamos cómo podemos analizar o _parsear_ ésta : 
+Supongamos que la respuesta es el JSON que pusimos de ejemplo anteriormente,
+veamos cómo podemos analizar o _parsear_ ésta :
 
 ```javascript
 function handleSuccess () {

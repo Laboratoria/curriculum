@@ -22,7 +22,9 @@ re-flow.
 
 2.- Adición, eliminación o cambio de estilos CSS.
 
-> Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los elementos de la misma rama DOM y a los que la rodean.
+> Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede
+> alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los
+> elementos de la misma rama DOM y a los que la rodean.
 
 3.- Animaciones y transiciones CSS3.
 
@@ -30,11 +32,14 @@ re-flow.
 
 4.- Uso de `offsetWidth` y `offsetHeight`.
 
-> Curiosamente, leer la propiedad `offsetWidth` y `offsetHeight` de un elemento puede desencadenar un reflow inicial para calcular las cifras.
+> Curiosamente, leer la propiedad `offsetWidth` y `offsetHeight` de un elemento
+> puede desencadenar un reflow inicial para calcular las cifras.
 
 5.- Acciones de usuario
 
-> Finalmente, el usuario puede activar los re-flow activando un efecto `hover`, ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las dimensiones de fuente, cambiando hojas de estilo o fuentes.
+> Finalmente, el usuario puede activar los re-flow activando un efecto `hover`,
+> ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las
+> dimensiones de fuente, cambiando hojas de estilo o fuentes.
 
 El caudal de flujo de procesamiento de re-flow variará. Algunos navegadores
 son mejores que otros en ciertas operaciones. Algunos elementos generan más

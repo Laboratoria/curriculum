@@ -5,7 +5,7 @@
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/javascript",
-    "parse": "cd topics && course-parser browser/README.md css/README.md css/README.md html/README.md javascript/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "parse": "cd topics && course-parser css/README.md html/README.md javascript/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run eslint && npm run parse",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
   },
@@ -34,7 +34,7 @@
     "gulp": "4",
     "gulp-shell": "^0.6.5",
     "jdi": "^1.1.3",
-    "mdlint": "Laboratoria/mdlint",
+    "mdlint": "Laboratoria/mdlint#fb86be033bb5eb477cc3d49e473bfe6f8f4ad386",
     "mocha": "^5.1.1",
     "renamer": "^0.6.1",
     "sinon": "^5.0.3"

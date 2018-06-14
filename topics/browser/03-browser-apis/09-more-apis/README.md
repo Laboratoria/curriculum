@@ -34,7 +34,18 @@ personalizado a cada una.
 
 Ejemplo:
 
-<iframe height='265' scrolling='no' title='CSS Basic Shapes' src='//codepen.io/krystalcampioni/embed/bgYxQa/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/krystalcampioni/pen/bgYxQa/'>CSS Basic Shapes</a> by Krystal Campioni (<a href='https://codepen.io/krystalcampioni'>@krystalcampioni</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='265'
+  scrolling='no'
+  title='CSS Basic Shapes'
+  src='//codepen.io/krystalcampioni/embed/bgYxQa/?height=265&theme-id=0&default-tab=result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen [CSS Basic Shapes](https://codepen.io/krystalcampioni/pen/bgYxQa/)
+  by Krystal Campioni ([@krystalcampioni](https://codepen.io/krystalcampioni))
+  on [CodePen](https://codepen.io).
 </iframe>
 
 ##### Imágenes pixeleadas
@@ -51,10 +62,10 @@ Laboratoria](http://developers.laboratoria.la/).
 
 ### File
 
-Esta probablemente ya la haz conocido, ya sea a través del elemento `<input type="file" />`
-o cuando has querido adjuntar una imagen al momento de postear en tu red social.
-Cualquiera que haya sido el escenario, te habrás dado cuenta que es muy útil
-saber manipularla.
+Esta probablemente ya la haz conocido, ya sea a través del elemento `<input
+type="file" />` o cuando has querido adjuntar una imagen al momento de postear
+en tu red social. Cualquiera que haya sido el escenario, te habrás dado cuenta
+que es muy útil saber manipularla.
 
 #### Retos
 

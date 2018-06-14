@@ -58,13 +58,13 @@
 
 <solution style="display:none;">1</solution>
 
-### 5) Si queremos hacer una llamada fetch tras otra en orden, entonces : 
+### 5) Si queremos hacer una llamada fetch tras otra en orden, entonces
 
 #### Opciones
 
-1. Usamos un ciclo `for` que itere por cada llamada
-2. Usamos Funciones _callback_ dentro de otras
-3. Las guardamos en un arreglo y usamos `map` para ejecutar cada una de ellas
-4. Usamos promesas para hacer secuencialmente then().then()... catch()
+1. usamos un ciclo `for` que itere por cada llamada
+2. usamos Funciones _callback_ dentro de otras
+3. las guardamos en un arreglo y usamos `map` para ejecutar cada una de ellas
+4. usamos promesas para hacer secuencialmente then().then()... catch()
 
 <solution style="display:none;">4</solution>

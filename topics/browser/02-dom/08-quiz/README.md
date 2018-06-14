@@ -116,7 +116,9 @@
 
 #### Opciones
 
-1. ```html
+1. Snippet 1:
+
+   ```html
     <ul>
       <li data-lista="frutas">Manzana</li>
       <li data-lista="frutas">Peras</li>
@@ -124,7 +126,9 @@
     </ul>
    ```
 
-2. ```html
+2. Snippet 2:
+
+   ```html
     <ul>
       <li data="frutas">Manzana</li>
       <li data="frutas">Peras</li>
@@ -132,7 +136,9 @@
     </ul>
    ```
 
-3. ```html
+3. Snippet 3:
+
+   ```html
     <ul>
       <li data-lista-frutas>Manzana</li>
       <li data-lista-frutas>Peras</li>
@@ -140,7 +146,9 @@
     </ul>
    ```
 
-4. ```html
+4. Snippet 4:
+
+   ```html
     <ul>
       <li data-lista(frutas)>Manzana</li>
       <li data-lista(frutas)>Peras</li>
@@ -160,22 +168,32 @@
 
 #### Opciones
 
-1. ```javascript
-    var text = document.getElementById("text");
-    var autor = autor.dataset;
+1. Snippet 1:
+
+   ```js
+   var text = document.getElementById("text");
+   var autor = autor.dataset;
    ```
 
-2. ```javascript
-    var text = document.getElementById("text");
-    var autor = dataset.text.autor;
+2. Snippet 2:
+
+   ```js
+   var text = document.getElementById("text");
+   var autor = dataset.text.autor;
    ```
-3. ```javascript
-    var text = document.getElementById("text");
-    var autor = text.dataset.autor;
+
+3. Snippet 3:
+
+   ```js
+   var text = document.getElementById("text");
+   var autor = text.dataset.autor;
    ```
-4. ```javascript
-    var text = document.getElementById("text");
-    var text.dataset = autor;
+
+4. Snippet 4:
+
+   ```js
+   var text = document.getElementById("text");
+   var text.dataset = autor;
    ```
 
 <solution style="display:none;">3</solution>
@@ -217,19 +235,30 @@
 
 #### Opciones
 
-1. ```javascript
+1. Snippet 1:
+
+   ```js
    var boton = document.getElementById('boton');
    boton.createEventListener(click, funcion_a_ejecutar);
    ```
-2. ```javascript
+
+2. Snippet 2:
+
+   ```js
    var boton = document.getElementById('boton');
    boton.addEventListener = 'click' + 'funcion_a_ejecutar';
    ```
-3. ```javascript
+
+3. Snippet 3:
+
+   ```js
    var boton = document.getElementById('boton');
    boton.addEventListener('click', funcion_a_ejecutar);
    ```
-4. ```javascript
+
+4. Snippet 4:
+
+   ```js
    var boton = document.getElementById('boton');
    boton = document.addEventListener('click', funcion_a_ejecutar);
    ```

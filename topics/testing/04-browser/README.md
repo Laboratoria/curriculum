@@ -109,41 +109,56 @@ HTML con el nombre `test.html`.
 Este archivo HTML hace lo siguiente:
 
 1. Añade la hoja de estilos de `mocha` desde el CDN de [cdnjs](https://cdnjs.com/)
+
    ```html
    <link
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.css"
    />
    ```
+
 2. Añade un `<div>` con `id="mocha"` para que mocha escriba los resultados
+
    ```html
    <div id="mocha"></div>
    ```
+
 3. Añade `mocha` y `chai` desde CDN de [cdnjs](https://cdnjs.com/)
+
    ```html
    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.1.2/chai.min.js"></script>
    ```
+
 4. Incluímos el código que queremos testear (el archivo
    `makeVowelsUpperCase.js`) que acabamos de crear.
+
    ```html
    <script src="./makeVowelsUpperCase.js"></script>
    ```
+
 5. Guardamos una referencia a `chai.assert` en la constante `assert` en entorno
    global para poder usar directamente `assert` en los tests (en vez de
    `chai.assert`);
+
    ```js
    const { assert } = chai;
    ```
+
 6. Inicializa la interfaz BDD de `mocha`
+
    ```js
    mocha.setup('bdd');
    ```
+
 7. Incluimos todos los tests que queramos correr
+
    ```html
    <script src="./makeVowelsUpperCase.spec.js"></script>
    ```
+
 8. Finalmente ejecutamos los tests.
+
    ```js
    mocha.run();
    ```

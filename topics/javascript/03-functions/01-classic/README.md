@@ -105,6 +105,7 @@ se muestra una regla para diferenciarlos:
     // ...
   }
   ```
+
 * **Argumentos** son usados para invocar una función. En el siguiente ejemplo,
   `3` y `7` son argumentos:
 

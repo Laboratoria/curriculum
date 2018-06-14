@@ -352,11 +352,14 @@ Los strings son comparados caracter por caracter en orden alfabético.
 Pero existen algunos casos raros:
 
 1. Las minúsculas son siempre *"mayores"* que las mayúsculas:
+
    ```js
    console.assert('a' > 'Z');
    ```
+
 2. Los caracteres con signos diacríticos, son mayores que todos los otros
    caracteres:
+
    ```js
    console.assert('Ñandu' > 'Zebra');
    ```

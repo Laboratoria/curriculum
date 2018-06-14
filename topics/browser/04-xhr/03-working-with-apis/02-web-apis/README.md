@@ -44,7 +44,17 @@ o algo. simplemente haces una petición al endpoint especificado y listo. Ejempl
 de estas APIs pueden ser: Pokeapi, Swapi, entre otras. Aquí te dejamos un _pen_
 mostrando lo que puedes hacer con la API de [Lyrics.ovh](https://lyricsovh.docs.apiary.io/#).
 
-<iframe height='760' scrolling='no' title='Lyrics API' src='//codepen.io/ivandevp/embed/NyjmMm/?height=760&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/NyjmMm/'>Lyrics API</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='760'
+  scrolling='no'
+  title='Lyrics API'
+  src='//codepen.io/ivandevp/embed/NyjmMm/?height=760&theme-id=0&default-tab=css,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen [Lyrics API](https://codepen.io/ivandevp/pen/NyjmMm/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 ### Web APIs con `apiKey`
@@ -54,7 +64,17 @@ acompaña a todas las peticiones que se realizan hacia algún endpoint (recurso)
 En la mayoría de casos, deberás registrarte para obtener este `apiKey`. Aquí
 te dejamos un ejemplo con Google Maps.
 
-<iframe height='760' scrolling='no' title='Laboratoria en Google Maps' src='//codepen.io/ivandevp/embed/qxmGaY/?height=760&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/qxmGaY/'>Laboratoria en Google Maps</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='760'
+  scrolling='no'
+  title='Laboratoria en Google Maps'
+  src='//codepen.io/ivandevp/embed/qxmGaY/?height=760&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen[ Laboratoria en Google Maps](https://codepen.io/ivandevp/pen/qxmGaY/)
+  by Ivan ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 En algunas ocasiones, los API Keys generados deben de ir en las cabeceras HTTP
@@ -63,7 +83,17 @@ autenticarse correctamente. Por ejemplo, en la API de [CoinAPI.io](https://www.c
 el token se envía a través del header `X-CoinAPI-Key`, acá te mostramos un pen
 de cómo se haría la petición en este caso:
 
-<iframe height='760' scrolling='no' title='BYReOj' src='//codepen.io/ivandevp/embed/BYReOj/?height=760&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/BYReOj/'>BYReOj</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='760'
+  scrolling='no'
+  title='BYReOj'
+  src='//codepen.io/ivandevp/embed/BYReOj/?height=760&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen [BYReOj](https://codepen.io/ivandevp/pen/BYReOj/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 ### Web APIs con `OAuth`
@@ -73,7 +103,17 @@ aplicaciones de terceros para obtener datos y luego usar dichos datos para el
 registro o uso de un web service o API. Aquí dejamos un ejemplo para que veas
 a qué nos referimos:
 
-<iframe height='760' scrolling='no' title='YeQwOe' src='//codepen.io/ivandevp/embed/YeQwOe/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/YeQwOe/'>YeQwOe</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe
+  height='760'
+  scrolling='no'
+  title='YeQwOe'
+  src='//codepen.io/ivandevp/embed/YeQwOe/?height=265&theme-id=0&default-tab=js,result&embed-version=2'
+  frameborder='no'
+  allowtransparency='true'
+  allowfullscreen='true'
+  style='width: 100%;'>
+  See the Pen [YeQwOe](https://codepen.io/ivandevp/pen/YeQwOe/) by Ivan
+  ([@ivandevp](https://codepen.io/ivandevp)) on [CodePen](https://codepen.io).
 </iframe>
 
 ¿No notaste la diferencia? Si bien esta implementación es similar a las que
