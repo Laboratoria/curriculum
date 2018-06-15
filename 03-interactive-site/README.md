@@ -102,8 +102,8 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 
 Todo site da precisa ser projetado com o usuário em mente. Antes de começar a criar seu produto final, é importante que você conheça as técnicas de design da experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
-| \# | Tipo | Duração | Tópico |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| # | Tipo | Duração | Tópico |
+| --- | --- | --- | --- |
 | 00 | Leitura | 30min | Abertura |
 | 01 | Leitura | 15min | A equipe de desenvolvimento |
 | 02 | Leitura | 15min | UX Design |
