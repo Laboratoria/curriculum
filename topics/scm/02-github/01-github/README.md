@@ -186,3 +186,8 @@ Recomendamos los siguientes recursos:
 
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [GitHub Flow](https://services.github.com/on-demand/intro-to-github/)
+* [Learn git branching](https://learngitbranching.js.org/). Guía de temas un
+  poco más avanzados, especialmente los relacionados a branching y repositorios
+  remotos, no solo es visualmente atractivo y dinámico, sino que también es
+  interactivo.
+* [Otro tutorial interactivo y visual](http://www.ndpsoftware.com/git-cheatsheet.html)
