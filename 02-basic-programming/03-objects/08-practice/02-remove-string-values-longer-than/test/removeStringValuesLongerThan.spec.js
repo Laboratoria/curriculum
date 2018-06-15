@@ -3,7 +3,7 @@ const Assert = require('chai').assert;
 const removeStringValuesLongerThan = require('../solution/removeStringValuesLongerThan');
 
 describe("removeStringValuesLongerThan()", function () {
-  it("Prueba: key-value mayor a 1", function () {
+  it("Teste: key-value maior que 1", function () {
 
 	var obj = {
 	  name: 'Montana',
@@ -14,12 +14,12 @@ describe("removeStringValuesLongerThan()", function () {
 	var num = 1;
 	var hasil = {
 	  age: 20
-	}; 
+	};
 	Assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
 
   });
 
-  it("Prueba: key-value mayor a 6", function () {
+  it("Teste: key-value maior que 6", function () {
 
    var obj = {
 	  name: 'Montana',
@@ -32,8 +32,8 @@ describe("removeStringValuesLongerThan()", function () {
 	  age: 20,
 	  location: 'Texas'
 	};
-	Assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil); 
+	Assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
   });
-  
+
 
 });

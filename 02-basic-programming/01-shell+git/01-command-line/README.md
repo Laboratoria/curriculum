@@ -300,7 +300,15 @@ Se você quiser criar um arquivo já com algum conteúdo, pode usar o comando `e
 
 Segue uma lista dos comandos utilizados nesta aula:
 
-![comandos-cli](https://fotos.subefotos.com/e6a2257e5c80534c28d721c34390b20bo.png)
+| Comando (Windows) | Comando (Mac OS X, Linux) | Descrição |
+| --- | --- | --- |
+| `cd` | `pwd` | Mostra o caminho de onde estamos |
+| `cd nome-diretório` | `cd nome-diretório` | Entra no diretório indicado |
+| `cd ..` | `cd ..` | Volta um diretório |
+| `dir` | `ls` | Lista os diretórios e arquivos |
+| `mkdir nome-diretório` | `mkdir nome-diretório` | Cria um novo diretório |
+| `echo > nome-arquivo.ext` | `touch nome-arquivo.ext` | Cria um novo arquivo |
+| `exit` | `exit` | Encerra a linha de comandos |
 
 Agora vejamos como Michelle navega entre seus arquivos ou diretórios e cria pastas e arquivos a partir do terminal.
 

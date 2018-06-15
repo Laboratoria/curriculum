@@ -55,7 +55,7 @@ Podemos visualizar esse conceito de _aninhamento_ de html da seguinte maneira:
 
 ![Aninhamento HTML](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
 
-Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p` \( se você precisa de uma revisão sobre eles, sugerimos que leia novamente a lição sobre [criar seu primeiro site](https://github.com/Laboratoria/curricula-js/blob/master/01-intro/01-introduction/03-your-first-website.md) do curso _Introdução à Programação\)_. Alguns elementos adicionais que adicionamos são: o `em` que faz com que seu conteúdo seja exibido como texto em _itálico_ e `strong` que faz com que seu conteúdo seja exibido como texto em _negrito_.
+Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p` \( se você precisa de uma revisão sobre eles, sugerimos que leia novamente a lição sobre [criar seu primeiro site](https://lms.laboratoria.la/cohorts/spl-2018-05-bc-js-front-end-developer/courses/intro-pt/01-introduction/03-your-first-website) do curso _Introdução à Programação\)_. Alguns elementos adicionais que adicionamos são: o `em` que faz com que seu conteúdo seja exibido como texto em _itálico_ e `strong` que faz com que seu conteúdo seja exibido como texto em _negrito_.
 
 Ao abrir este documento no navegador, teremos o seguinte:
 
@@ -109,7 +109,7 @@ Para cada elemento anterior, entenda se ele se comporta como `inline` ou como `b
 
 ## Atributos
 
-Em sua pesquisa, você certamente se deparou com [o elemento `a` para adicionar um link ao seu site:](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a) e você deve ter notado que uma série de informações aparece na _tag_ de abertura:
+Em sua pesquisa, você certamente se deparou com [o elemento `a` para adicionar um link ao seu site:](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a) e você deve ter notado que uma série de informações aparece na _tag_ de abertura:
 
 ```html
 <a href="http://laboratoria.la/" target="_blank" title="Página inicial da Laboratoria">Ir para Laboratoria</a>
@@ -157,7 +157,7 @@ Na próxima lição sobre `css` aprofundaremos o conceito de estilizar seus elem
 
 ## Tags vazias
 
-Em sua pesquisa, você certamente se deparou com [o elemento `<img>` para adicionar uma imagem ao seu site](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) e você notou que ele não tem uma tag de fechamento e, portanto, não tem "conteúdo":
+Em sua pesquisa, você certamente se deparou com [o elemento `<img>` para adicionar uma imagem ao seu site](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img) e você notou que ele não tem uma tag de fechamento e, portanto, não tem "conteúdo":
 
 ```html
 <img src="http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg">
@@ -231,13 +231,13 @@ Ao visualizar o exemplo anterior no navegador, temos:
 
 ![Div e Span](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-div-and-span.png?raw=true)
 
-Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque ele cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas seções separadas permite que você forneça estilos diferentes para cada seção: a cor do plano de fundo e a cor da fonte variam para cada país. O mesmo acontece com as palavras que mostramos em amarelo. Graças a `span` nós podemos fazer com que certas partes do texto tenham um estilo diferente. 
+Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque ele cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas seções separadas permite que você forneça estilos diferentes para cada seção: a cor do plano de fundo e a cor da fonte variam para cada país. O mesmo acontece com as palavras que mostramos em amarelo. Graças a `span` nós podemos fazer com que certas partes do texto tenham um estilo diferente.
 
 ## HTML semântico
 
 Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira lógica e com a capacidade de fornecer estilos específicos a determinadas seções. Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No entanto, muitos sites tendem a ter uma estrutura semelhante e conter elementos comuns. Por exemplo, quase todos os produtos na Web têm um cabeçalho, um menu de navegação, um conteúdo principal, um conteúdo secundário, um rodapé etc.
 
-Revendo a documentação do MDN sobre [estrutura e documentação da web](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura), podemos extrair:
+Revendo a documentação do MDN sobre [estrutura e documentação da web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure), podemos extrair:
 
 > Em nosso código HTML, podemos criar seções de conteúdo baseadas em sua funcionalidade - utilizando elementos que representam diferentes secções do conteúdo descrito acima, sem ambiguidades, para que tecnologias assistivas e leitores de tela possam reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
 
