@@ -9,6 +9,8 @@
 * Entender o que é UX Design
 * Compreender o diamante duplo no processo de desenvolvimento
 
+***
+
 ## O que é User Experience Design?
 
 Para começar, é bom saber o que entendemos por UX. Para isso, veja este vídeo, no qual [Don Norman](https://pt.wikipedia.org/wiki/Donald_Norman), o primeiro a usar o termo, explica o que é UX.
@@ -31,7 +33,7 @@ O processo criativo e analítico para determinar qual e como será uma página w
 
 Para entender um pouco mais sobre o processo de UX Design veja este vídeo:
 
-[![User Experience](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://www.youtube.com/watch?v=SBIvPTSy1QM)
+[![User Experience](https://lh5.googleusercontent.com/OHW33sLkmWQv1eljJlycGHozE-ozx6WXVE-rnYKOmke4hqXzXyKhD67dGEDw_ILwsyFMiYT29n4ECRatw5Gfd4tnjs8Q3HZh5nT8qZOiffp7HuLZSDA_IMzD5MoGqvI_2f71IfGOgG4)](https://www.youtube.com/watch?v=wmmVhVIxW-A)
 
 ## Por que estamos aprendendo UX?
 
