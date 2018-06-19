@@ -113,22 +113,22 @@ social, la interfaz debe permitir lo siguiente:
 
 Otras consideraciones:
 
-- La aplicación no debe dejar hacer publicaciones vacías (textos, fotos,
+* La aplicación no debe dejar hacer publicaciones vacías (textos, fotos,
   videos, posts, etc).
-- El usuario debe poder agregar, editar y eliminar contenido de la red
+* El usuario debe poder agregar, editar y eliminar contenido de la red
   social
-- El usuario debe poder definir la privacidad de lo que pública
-- Al editar contenido, el contenido editado verá automáticamente, luego de
+* El usuario debe poder definir la privacidad de lo que pública
+* Al editar contenido, el contenido editado verá automáticamente, luego de
   darle guardar
-- Al recargar la página debo de poder ver los textos editados
+* Al recargar la página debo de poder ver los textos editados
 
 Para armar las interfaces visuales utiliza como base alguna de estas guías de
 componentes:
 
-- [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
-- [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
-- [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
-- [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
+* [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
+* [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
+* [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
+* [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
 
 Personaliza estas guías con los colores y/o tipografías que creas convenientes.
 Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
@@ -165,7 +165,7 @@ decisiones:
 Para completar el proyecto deberás:  
 
 * Hacer un benchamark de las principales redes sociales
-* Realizar al menos 2 o 3 entrevistas con usuarios  
+* Realizar al menos 2 o 3 entrevistas con usuarios
 * Hacer un  prototipo de alta fidelidad
 * Testear el prototipo con usuarios
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
