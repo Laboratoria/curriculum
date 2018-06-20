@@ -126,9 +126,9 @@ Neste exemplo, o blog do Hiperderecho suporta seu artigo com alguns links adicio
 
 ## Design de navegação
 
-Agora, leia [o Capítulo 6 - Sinais na rua e migalhas de pão](https://drive.google.com/open?id=0B0NdG2VNCDPzcU5qMG5SWnBpeEE) livro _"Não me faça pensar"_ por Steve Krug.
+Agora, leia [o Capítulo 6 - Sinais na rua e migalhas de pão -](https://drive.google.com/file/d/1q0T6oXmIUQk0Bv63adbrn8NP5ZpA_1aA/view) do livro _"Não me faça pensar"_ por Steve Krug.
+
 
 ## Referências
 
 * [Não me faça pensar](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515), Steve Krug, 2011.
-

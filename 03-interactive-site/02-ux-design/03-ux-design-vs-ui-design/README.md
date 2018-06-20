@@ -14,7 +14,7 @@ Nesta unidade aprenderemos:
 
 ## User Interface Design vs User Experience Design
 
-Para entender a diferença, a similaridade e o relacionamento entre a interface do usuário e a experiência do usuário, leia o seguinte artigo: [UX vs UI](http://blog.acantu.com/que-es-ux-y-ui/) .
+Para entender a diferença, a similaridade e o relacionamento entre a interface do usuário e a experiência do usuário, leia o seguinte artigo: [UX vs UI](https://medium.com/aela/qual-a-diferen%C3%A7a-entre-ux-e-ui-1ea8a4b4f747) .
 
 Depois de ler este artigo, tente responder às seguintes perguntas:
 
@@ -43,4 +43,3 @@ Além disso, o autor Golden Krishna em seu livro  [The best interface is not int
 #### **UX**
 
 > Pessoas, Felicidade, resolução de problemas, entender necessidades, amor, eficiência, entretenimento, prazer, satisfação, sorrisos, alma, calor, personalidade, alegria, satisfação, gratificação, excitação, euforia, conveniência, eficiência, etc, etc, etc.
-

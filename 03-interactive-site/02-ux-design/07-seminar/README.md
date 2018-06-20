@@ -70,7 +70,7 @@
 
    -->
 
-5. Revisemos los [exercícios guiados](07-seminar) que resolveremos na próxima aula para que tente resolvê-los sozinha primeiro. Veremos algumas dicas :\)
+5. Revisemos os [exercícios guiados](08-ejercicios-guiados) que resolveremos na próxima aula para que tente resolvê-los sozinha primeiro. Veremos algumas dicas :\)
 
    <!--
 
