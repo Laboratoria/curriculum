@@ -32,8 +32,6 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 _interfaz_ web responsive donde podamos leer y escribir data, además de agregar
 más de una sola vista de interacción.
 
-Tópicos: _mobile-first_, _responsive_, _multiple-views_, _crud_, _storage_, ...
-
 * Esperamos que en este proyecto puedas pensar en el usuario, entendiendo cuál
   es la red social que cambiará y alegrará sus vidas.
 * Nos interesa que logres entender a las necesidades de los usuarios para los
@@ -42,6 +40,47 @@ Tópicos: _mobile-first_, _responsive_, _multiple-views_, _crud_, _storage_, ...
   que lleven a una solución original y valiosa del problema.
 * Además, cuentas con el apoyo de tus compañeras, debes trabajar junto a ellas,
   buscando feedback constante para realizar el proyecto.
+
+Tópicos: _mobile-first_, [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive),
+_multiple-views_, _crud_, _storage_, ...
+
+### Mobile first
+
+El concepto de [_mobile first_](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
+hace referencia a un proceso de diseño y desarrollo donde partimos de cómo se ve
+y cómo funciona la aplicación en un dispositivo móvil primero, y más adelante se
+ve como adaptar la aplicación a pantallas progresivamente grandes y
+características específicas del entorno desktop. Esto es en contraposición al
+modelo tradicional, donde primero se diseñaban los websites (o webapps) para
+desktop y después se trataba de _arrugar_ el diseño para que entre en pantallas
+más chicas. La clave acá es asegurarse de que desde el principio diseñan usando
+la vista _responsive_ de las herramientas de desarrollador (developer tools) del
+navegador. De esa forma, partimos de cómo se ve y comporta la aplicación en una
+pantalla y entorno móvil.
+
+### Múltiples vistas
+
+En proyectos anteriores nuestras aplicaciones habían estado compuestas de una
+sola _vista_ principal (una sóla _página_). En este proyecto se introduce la
+necesidad de tener que dividir nuestra interfaz en varias _vistas_ o _páginas_
+y ofrecer una manera de navegar entre estas vistas. Este problema se puede
+afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
+URL) y links tradicionales, manteniendo estado en memoria y rederizando
+condicionalmente (sin refrescar la página), [manipulando el historial del
+navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
+con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history),
+usando una librería (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
+o [`vue-router`](https://router.vuejs.org/)). En este proyecto te invitamos a
+explorar opciones y decidir una opción de implementación.
+
+### Escritura de datos
+
+En los proyectos anteriores hemos consumido (leído) datos, pero todavía no
+habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
+proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
+modificar datos existentes. Estos datos se podrán guardar localmente usando
+[`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+o de forma remota usando [Firebase](https://firebase.google.com/).
 
 ## Consideraciones generales
 
@@ -358,3 +397,12 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 | Trabajo en equipo (trabajo colaborativo y responsabilidad) | 3
 | Comunicación eficaz | 3
 | Presentaciones | 3
+
+## Pistas / Tips / Lecturas complementarias
+
+* [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
+* [Mobile First: el enfoque actual del diseño web móvil - 1and1](https://www.1and1.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/)
+* [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
+* [Mobile First - ZURB](https://zurb.com/word/mobile-first)
+* [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
+* [Offline first manifesto](http://offlinefirst.org/)
