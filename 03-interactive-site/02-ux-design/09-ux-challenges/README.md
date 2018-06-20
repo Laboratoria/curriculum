@@ -14,7 +14,7 @@
 
 * [Pinterest](https://www.pinterest.com/)
 * [YouTube](https://www.youtube.com/)
-* [Laboratório](http://laboratoria.la/)
+* [Laboratória](http://laboratoria.la/)
 
 ## 2. Identifique os elementos de navegação nos seguintes sites
 
@@ -39,10 +39,9 @@ Um exemplo de um dashboard em outro contexto é o seguinte:
 
 ![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg)
 
-**Lembre-se** que este esboço é parte do [produto final](01-final-product) desta unidade.
+**Lembre-se** que este esboço é parte do [produto final](../03-data-dashboard/01-final-product) desta unidade.
 
 Faça um esboço do dashboard da Laboratoria.
 
 * Tenha em mente os elementos de navegação nos seus esboços.
 * Use títulos e textos reais.
-
