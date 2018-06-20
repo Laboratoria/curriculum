@@ -308,26 +308,26 @@ implementados correctamente. (Hint: testing
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | **JavaScript** | |
-| Estilo | 0
-| Nomenclatura/semántica | 0
-| Funciones/modularidad | 0
-| Estructuras de datos | 0
-| Tests | 0
+| Estilo | 3
+| Nomenclatura/semántica | 3
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
+| Tests | 2
 | **HTML** | |
-| Validación | 0
-| Estilo | 0
-| Semántica | 0
-| SEO | 0
+| Validación | 3
+| Estilo | 3
+| Semántica | 3
+| SEO | n/a
 | **CSS** | |
-| DRY | 0
-| Responsive | 0
+| DRY | 3
+| Responsive | 3
 | **SCM** | |
-| Git | 0
-| GitHub | 0
+| Git | 3
+| GitHub | 3
 | **CS** | |
-| Lógica | 0
-| Arquitectura | 0
-| Patrones/paradigmas | 0
+| Lógica | 2
+| Arquitectura | 2
+| Patrones/paradigmas | n/a
 
 ### UX
 
