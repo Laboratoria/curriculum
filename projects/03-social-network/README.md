@@ -7,6 +7,7 @@ mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemo
 la que mejor podamos y que luego lo convenzamos de que nuestra red social será
 la más exitosa. El emprendedor nos da ciertos tópicos en los que le gustaría
 invertir. Estos son:
+
 * Alimentación
 * Feminismo
 * Educación
@@ -38,8 +39,8 @@ Tópicos: _mobile-first_, _responsive_, _multiple-views_, _crud_, _storage_, ...
 * Nos interesa que logres entender a las necesidades de los usuarios para los
   que crearás el producto y los ayudes a resolver esas necesidades.
 * Para esto, deberás poner en juego tu creatividad, podrás generar nuevas ideas
-  que lleven a una solución original y valiosa del problema. 
-* Además, cuentas con el apoyo de tus compañeras, debes trabajar junto a ellas, 
+  que lleven a una solución original y valiosa del problema.
+* Además, cuentas con el apoyo de tus compañeras, debes trabajar junto a ellas,
   buscando feedback constante para realizar el proyecto.
 
 ## Consideraciones generales
@@ -189,16 +190,16 @@ sino que distribuirlas, considerando los recursos y el tiempo que dispones. La
 organización y gestión del proyecto son claves para el éxito.
 Para esto, te recomendamos realizar una planificación que te permita avanzar
 en los distintos aspectos del proyecto de forma paralela, realizando un tablero
-donde puedas ver en qué está trabajando cada compañera. 
+donde puedas ver en qué está trabajando cada compañera.
 Por otra parte, la división del trabajo debe permitir que todo el equipo entrene
-los aprendizajes esperados. 
+los aprendizajes esperados.
 
 Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e
 investigar. Tienes la oportunidad de que tu cliente, un emprendedor, invierta en
-tu idea, para eso no sólo debes intentar conocer sus intereses, sino mostrar un 
-producto que tenga viabilidad y que demuestra conocer a sus usuarios. 
-Para esto, debes ejercitar tus habilidades de comunicación y toma de decisiones. 
-Existen infinitas opciones, depende de ti el camino que escoges. 
+tu idea, para eso no sólo debes intentar conocer sus intereses, sino mostrar un
+producto que tenga viabilidad y que demuestra conocer a sus usuarios.
+Para esto, debes ejercitar tus habilidades de comunicación y toma de decisiones.
+Existen infinitas opciones, depende de ti el camino que escoges.
 
 Para que tu red social responda a las necesidades de sus usuarios, probablemente
 deberás adquirir nuevos conocimientos para implementar sus preferencias. Para
