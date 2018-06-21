@@ -43,10 +43,12 @@ una pantalla de escritorio.
 > los dispositivos con pantallas menores.
 
 
-Este es un extracto de un post de la página _desarrolloweb.com_, [aquí](https://desarrolloweb.com/articulos/mobile-first-responsive.html) puedes
-leer completo el post.
+Este es un extracto de un post de la página _desarrolloweb.com_,
+[aquí](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
+puedes leer completo el post.
 
-Y también es muy recomendable que leas
-[Mobile First ¿Qué es y cuáles son las ventajas de utilizar esa técnica para crear un sitio web?](https://www.hostgator.mx/blog/mobile-first/).
+Y también es muy recomendable que leas: _Mobile First ¿Qué es y cuáles son las
+ventajas de utilizar esa técnica para crear un sitio web?_
+[Aquí puedes leerlo](https://www.hostgator.mx/blog/mobile-first/).
 
 ![mobile-first2](http://www.initcoms.com/blog/wp-content/uploads/2017/04/14955251486_67b5880508_c-e1493291308968.jpg)
