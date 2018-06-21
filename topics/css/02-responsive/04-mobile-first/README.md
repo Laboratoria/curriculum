@@ -42,7 +42,6 @@ una pantalla de escritorio.
 > de facilitarnos la labor durante el diseño responsive, comenzando siempre por
 > los dispositivos con pantallas menores.
 
-
 Este es un extracto de un post de la página _desarrolloweb.com_,
 [aquí](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
 puedes leer completo el post.
