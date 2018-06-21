@@ -46,6 +46,5 @@ Puedes conocer un poco más sobre Responsive Web Design en los siguientes links:
 
 - Video: Introducción a RWD
   [Intro RWD](https://www.youtube.com/watch?v=vr-YtKTlyh8)
-- [Diseño web: Responsive Design y la importancia del mobile first](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
 - [Imágenes en diseño web responsive con CSS](https://www.silocreativo.com/imagenes-en-diseno-web-responsive-con-css/)
 - [Understanding the difference between mobile-first, adaptive and responsive design](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
