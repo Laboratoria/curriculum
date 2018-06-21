@@ -5,7 +5,14 @@
 Un emprendedor muy visionario nos ha encargado crear una red social. No nos da
 mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos
 la que mejor podamos y que luego lo convenzamos de que nuestra red social será
-la más exitosa.
+la más exitosa. El emprendedor nos da ciertos tópicos en los que le gustaría
+invertir. Estos son:
+
+* Alimentación
+* Feminismo
+* Educación
+* Salud
+* Energías Renovables
 
 ## Introducción
 
@@ -27,18 +34,18 @@ más de una sola vista de interacción.
 
 Tópicos: _mobile-first_, _responsive_, _multiple-views_, _crud_, _storage_, ...
 
-Habilidades blandas:
-
-* Esperamos que en este proyecto puedas pensar en el cliente, entendiendo cuál
+* Esperamos que en este proyecto puedas pensar en el usuario, entendiendo cuál
   es la red social que cambiará y alegrará sus vidas.
 * Nos interesa que logres entender a las necesidades de los usuarios para los
   que crearás el producto y los ayudes a resolver esas necesidades.
-* Además, que puedas trabajar de manera colaborativa con tu pareja, buscando
-  feedback constante para realizar el proyecto.
+* Para esto, deberás poner en juego tu creatividad, podrás generar nuevas ideas
+  que lleven a una solución original y valiosa del problema.
+* Además, cuentas con el apoyo de tus compañeras, debes trabajar junto a ellas,
+  buscando feedback constante para realizar el proyecto.
 
 ## Consideraciones generales
 
-Este proyecto se debe "resolver" en parejas.
+Este proyecto se debe "resolver" en trios.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto SI está permitido usar librerías o
@@ -171,13 +178,52 @@ Para completar el proyecto deberás:  
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
 * Realizar sesiones de testing con el producto en HTML.
 
+### Habilidades Blandas
+
+Para completar este proyecto deberás trabajar en equipo, para esto tienes que
+trabajar de manera colaborativa con tu trio. Esto es un gran desafío,
+porque coordinarse no es una tarea fácil.
+
+Igual que en otros proyectos, debes planificarte, pero para hacer una
+planificación que sea útil para el equipo, no sólo deberás enumerar las tareas,
+sino que distribuirlas, considerando los recursos y el tiempo que dispones. La
+organización y gestión del proyecto son claves para el éxito.
+Para esto, te recomendamos realizar una planificación que te permita avanzar
+en los distintos aspectos del proyecto de forma paralela, realizando un tablero
+donde puedas ver en qué está trabajando cada compañera.
+Por otra parte, la división del trabajo debe permitir que todo el equipo entrene
+los aprendizajes esperados.
+
+Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e
+investigar. Tienes la oportunidad de que tu cliente, un emprendedor, invierta en
+tu idea, para eso no sólo debes intentar conocer sus intereses, sino mostrar un
+producto que tenga viabilidad y que demuestra conocer a sus usuarios.
+Para esto, debes ejercitar tus habilidades de comunicación y toma de decisiones.
+Existen infinitas opciones, depende de ti el camino que escoges.
+
+Para que tu red social responda a las necesidades de sus usuarios, probablemente
+deberás adquirir nuevos conocimientos para implementar sus preferencias. Para
+esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu
+proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren
+realizar el hacker edition, para agregar mayor valor a tu proyecto.
+
+Para este proyecto busca instancias de code review, donde deberás buscar
+feedback de tu código con otro squad, para que puedas mejorar el producto.
+Mientras más feedback recibas, mejor será su producto.
+
+Para finalizar, deberás presentar tu red social, para esto debes presentar el
+proyecto que creaste, también al usuario que escogiste y las necesidades que
+lograste responder en este proceso. Como siempre, sabemos que presentar puede
+ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás
+lo comprendan.
+
 ## Hacker edition
 
 Un gran desafío de este proyecto es la coordinación y el trabajo en equipo. Para
 lograr esto con éxito debes apoyarte en las habilidades de comunicación y de dar
 y recibir feedback.
 
-Esperamos que logres comunicar tus ideas a tu equipo y a los demás, teniendo
+Esperamos que logres comunicar tus ideas a tu compañeras y a los demás, teniendo
 capacidad de síntesis y articulando tus ideas con claridad. Tratas de que tu
 equipo te entienda, facilitando siempre el diálogo en dentro del squad.
 
@@ -187,7 +233,7 @@ instancias de feedback, entregando siempre tu opinión de manera constructiva,
 fundamentada y coherente, con el propósito de ayudar a tus compañeras. Estos
 comentarios los debes hacer de manera honesta, empática e inmediata.
 
-Además, busca trabajar de manera coordinada y contribuye al objetivo común,
+Además, busca trabajar de manera coordinada y contribuir al objetivo común,
 entrega ideas para la construcción de la red social y respeta el trabajo de tus
 compañeras. Para esto, entrega tu trabajo a tiempo y colabora con el objetivo
 final del proyecto, lo que puede implicar ayudar a los demás miembros del equipo
@@ -255,40 +301,6 @@ lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo
 largo de la implementación que los elementos propuestos están siendo
 implementados correctamente. (Hint: testing
 
-### Habilidades Blandas
-
-Para completar este proyecto deberás trabajar en equipo, para esto tienes que
-trabajar de manera colaborativa con tu pareja. Esto es un gran desafío,
-porque coordinarse entre equipo no es una tarea fácil.
-
-Igual que en otros proyectos, debes planificarte, pero para hacer una
-planificación que sea útil para el equipo, no sólo deberás enumerar las tareas,
-sino que distribuirlas, considerando los recursos y el tiempo que dispones. La
-organización y gestión del proyecto son claves para el éxito, recuerda priorizar
-tus tareas.
-
-Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e
-investigar. Tienes la oportunidad de que un emprendedor invierta en tu idea,
-para eso no sólo debes intentar conocer sus intereses, sino mostrar un producto
-que tenga viabilidad y que demuestra conocer a sus usuarios.
-
-Para que tu red social responda a las necesidades de sus usuarios, probablemente
-deberás adquirir nuevos conocimientos para implementar sus preferencias. Para
-esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu
-proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren
-realizar el hacker edition, de esta manera podrás llevar tu producto al
-siguiente nivel.
-
-Para este proyecto busca instancias de code review, donde deberás buscar
-feedback de tu código con otro squad, para que puedas mejorar el producto.
-Mientras más feedback recibas, mejor será su producto.
-
-Para finalizar, deberás presentar tu red social, para esto debes presentar el
-proyecto que creaste, también al usuario que escogiste y las necesidades que
-lograste responder en este proceso. Como siempre, sabemos que presentar puede
-ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás
-lo comprendan.
-
 ## Evaluación
 
 ### Tech
@@ -296,26 +308,26 @@ lo comprendan.
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | **JavaScript** | |
-| Estilo | 0
-| Nomenclatura/semántica | 0
-| Funciones/modularidad | 0
-| Estructuras de datos | 0
-| Tests | 0
+| Estilo | 3
+| Nomenclatura/semántica | 3
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
+| Tests | 2
 | **HTML** | |
-| Validación | 0
-| Estilo | 0
-| Semántica | 0
-| SEO | 0
+| Validación | 3
+| Estilo | 3
+| Semántica | 3
+| SEO | n/a
 | **CSS** | |
-| DRY | 0
-| Responsive | 0
+| DRY | 3
+| Responsive | 3
 | **SCM** | |
-| Git | 0
-| GitHub | 0
+| Git | 3
+| GitHub | 3
 | **CS** | |
-| Lógica | 0
-| Arquitectura | 0
-| Patrones/paradigmas | 0
+| Lógica | 2
+| Arquitectura | 2
+| Patrones/paradigmas | n/a
 
 ### UX
 
@@ -343,6 +355,6 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 | Solución de Problemas | 3
 | Dar y recibir feedback | 3
 | Adaptabilidad | 3
-| Trabajo en equipo | 3
+| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 3
 | Comunicación eficaz | 3
 | Presentaciones | 3
