@@ -288,9 +288,6 @@ Features/características extra sugeridas:
   implementar una base de datos pero el tiempo podría jugar en contra, para ello
   existen algunos servicios como [Firebase](https://firebase.google.com/products/database/)
   que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
-* Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs,
-  manipular el DOM y hacer el render en base a condiciones, usar librerías para
-  manejar rutas o la que tu encuentres.
 
 ## Entrega
 
