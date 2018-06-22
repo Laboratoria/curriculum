@@ -1,12 +1,11 @@
 # Red Social
 
-## Preámbulo
+## Introducción
 
-Un emprendedor muy visionario nos ha encargado crear una red social. No nos da
-mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos
-la que mejor podamos y que luego lo convenzamos de que nuestra red social será
-la más exitosa. El emprendedor nos da ciertos tópicos en los que le gustaría
-invertir. Estos son:
+Una emprendedora nos ha encargado crear una red social. No nos da mucho detalle
+sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
+podamos y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
+en los que le gustaría invertir. Estos son:
 
 * Alimentación
 * Feminismo
@@ -14,23 +13,21 @@ invertir. Estos son:
 * Salud
 * Energías Renovables
 
-## Introducción
-
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han
-invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos
+invadido nuestras vidas. Las amamos, odiamos, idolatramos, y muchos no podemos
 vivir sin ellas.
 
-Un ejemplo, en una ronda de financiamiento se presentó un caso de una red social
-para químicos. En esta red social los químicos postean artículos sobre sus
-investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo
-reciente o lo más comentado. Además, pueden comentar en los artículos de sus
-colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
+Hay redes sociales de todo tipo, por ejemplo, en una ronda de financiamiento
+con inversionistas se presentó una red social para químicos. En esta red social
+los químicos pueden publicar artículos sobre sus investigaciones y pueden
+encontrar contenido de acuerdo a lo más popular, lo más reciente, o lo más
+comentado. Además, pueden comentar en los artículos de sus colegas y pueden
+filtrar artículos de acuerdo a determinadas etiquetas.
 
 ## Objetivos
 
-El objetivo principal de aprendizaje de este proyecto es construir una
-_interfaz_ web responsive donde podamos leer y escribir data, además de agregar
-más de una sola vista de interacción.
+El objetivo principal de aprendizaje de este proyecto es construir un sitio web _responsive_ de más de una sola vista de interacción en el que podamos leer y
+escribir datos.
 
 * Esperamos que en este proyecto puedas pensar en el usuario, entendiendo cuál
   es la red social que cambiará y alegrará sus vidas.
