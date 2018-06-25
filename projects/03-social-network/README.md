@@ -403,3 +403,32 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 * [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
 * [Offline first manifesto](http://offlinefirst.org/)
+
+## Checklist
+
+* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
+      y un mínimo del 50% de branches.
+* [ ] Pasa tests (y linter) (`yarn test`).
+* [ ] `README.md`
+      - [ ] Definición del producto.
+      - [ ] Benchamark de las principales redes sociales.
+      - [ ] Resumen de entrevistas con usuarios.
+      - [ ] Link/screenshots prototipo de alta fidelidad.
+      - [ ] Conclusiones de pruebas del prototipo con usuarios.
+      - [ ] Conclusiones de pruebas con el producto en HTML.
+* [ ] Producto final sigue los lineamientos del diseño.
+* [ ] Permite crear cuenta.
+      - [ ] Valida email.
+      - [ ] Valida password.
+      - [ ] Muestra mensajes de error.
+* [ ] Permite iniciar sesión.
+      - [ ] Valida email.
+      - [ ] Valida password.
+      - [ ] Muestra mensajes de error.
+* [ ] Muestra _muro_.
+* [ ] Permite publicar nuevos posts.
+* [ ] Permite eliminar posts.
+* [ ] Pide confirmación antes de borrar posts.
+* [ ] Permite editar posts (in place).
+* [ ] Permite filtrar posts por público/amigos.
+* [ ] Permite marcar posts como _gustados_ (like).
