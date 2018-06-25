@@ -7,9 +7,11 @@ sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos
 vivir sin ellas.
 
 Hay redes sociales de todo tipo y para todo tipo de intereses. Por ejemplo,
-en una ronda de financiamiento con inversionistas se presentó una red social
-para químicos en la que los usuarios podían publicar artículos sobre sus investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
-de acuerdo a determinadas etiquetas o lo más popular, lo más reciente, o lo más comentado.
+en una ronda de financiamiento con inversionistas, se presentó una red social
+para químicos en la que los usuarios podían publicar artículos sobre sus
+investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
+de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
+más comentado.
 
 ## Introducción
 
@@ -26,15 +28,16 @@ en los que le gustaría invertir:
 
 ## Objetivos
 
-El objetivo principal de aprendizaje de este proyecto es construir un sitio web _responsive_ de más de una sola vista de interacción, en el que podamos leer y
+El objetivo principal de aprendizaje de este proyecto es construir un sitio web
+_responsive_ de más de una sola vista de interacción, y en el que podamos leer y
 escribir datos.
 
 Algunos objetivos específicos:
 * Entender las necesidades de los usuarios para los que crearás el producto y
-  que los ayudes a resolverlas.
+  que ayudarás a resolver.
 * Poner en juego tu creatividad para generar ideas que lleven a una solución    
   original y valiosa del problema.
-* Cuentas con el apoyo de tus compañeras, debes trabajar en equipo buscando 
+* Cuentas con el apoyo de tus compañeras, debes trabajar en equipo buscando
   _feedback_ constante.
 
 ## Consideraciones generales
@@ -42,17 +45,17 @@ Algunos objetivos específicos:
 Este proyecto se debe "resolver" en trios.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto SÍ está permitido usar librerías o
+(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
 frameworks, pero **no es obligatorio** :smiley:.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
+Para comenzar tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
 
 ## Parte obligatoria
 
 ### General
 
-En este proyecto, no contamos con un _boilerplate_, por lo que deberás definir
+En este proyecto, no hay un _boilerplate_, por lo que deberás definir
 la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
 de los proyectos anteriores. Por lo tanto, los tests y el _setup_ necesario
 para ejecutarlos serán hechos por ti misma :smiley:.
@@ -80,7 +83,7 @@ La interfaz debe permitir lo siguiente:
 * **Creación de cuenta de usuario e inicio de sesión.**
  - Login con Firebase:
     + Solamente para el login es
-    obligatorio usar Firebase, no para las publicaciones en el muro ni las demás funcionalidades, pare eso puedes usar _localStorage_.
+    obligatorio usar Firebase, no para las publicaciones en el muro ni las demás funcionalidades, pare eso puedes usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
     + Autenticación con Facebook - Google.
   - Validaciones:.
     + No pueden haber usuarios repetidos.
@@ -90,14 +93,14 @@ La interfaz debe permitir lo siguiente:
     + Al enviarse un formulario de registro o inicio de sesión, debe validarse.
     + En caso haya errores, el sistema debe mostrar mensajes de error para
       ayudar al usuario a corregirlos.
-    + La aplicación solo permitirá acceder a usuarios con cuentas válidas.
-    + Al recargar la aplicación, se debe de verificar si el usuario está
-      logueado para poder mostrarle el contenido privado.
+    + La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
+    + Al recargar la aplicación, se debe verificar si el usuario está
+      logueado antes de mostrarle el contenido privado.
   - Perspectiva de interfaz:
     ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 * **Muro/timeline de la red social**
   - Validaciones:
-    + Al apretar el botón de publicar debe validar que exista contenido en el input.
+    + Al apretar el botón de publicar, debe validar que exista contenido en el input.
   - Comportamiento:
     + Poder publicar un post.
     + Poder poner like a una publicación.
@@ -140,7 +143,7 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 
 El corazón de este proyecto incluye:
 
-* Se deben separar la manipulación del DOM de la lógica (Separación de responsabilidades).
+* Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
 * Que el sitio sea responsive, ya dicho.
 * Alterar y persistir datos. Los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses
@@ -148,20 +151,19 @@ El corazón de este proyecto incluye:
   como primera opción para resolver este desafío, aun así, tú
   puedes optar por la que se acomode más a tu equipo.
 
-Además, podrías agregar algunas tareas nuevas en de acuerdo a tus decisiones:
+Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
-* Definir el boilerplate a usar, recuerda que puedes usar una librería o
-  framework si así lo desea el equipo, al navegar en internet te darás cuenta
-  de que algunas de estas construyen un boilerplate por ti, tenlo presente al
-  iniciar tu proyecto.
-* Tests, recuerda que no hay un setup de tests definido, esto podrá depender de
+* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
+  al navegar en internet te darás cuenta de que algunas de estas construyen un
+  **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
+* Recuerda que no hay un setup de **tests** definido, dependerá de
   la estructura de tu proyecto también, pero algo que no debes de olvidar es
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
 
 ### UX
 
-Desde el punto de vista de UX,, deberás:  
+Desde el punto de vista de UX, deberás:  
 
 * Hacer un _benchamark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
@@ -170,6 +172,18 @@ Desde el punto de vista de UX,, deberás:  
 * Asegurarte de que la implementación en código siga los lineamientos
 del diseño.
 * Hacer sesiones de testing con el producto en HTML.
+
+### Ágil
+Vamos a dar un paso importante para seguir aprendiendo de Ágil. Te será de mucha
+ayuda para ir avanzando tu proyecto de forma incremental y no en cascada.
+
+Esta vez te pedimos que los ítems de tu Backlog de Producto estén escritos
+como [Historias de Usuario](http://jmbeas.es/guias/historias-de-usuario/).
+Esta es una técnica muy simple que te ayudará a:
+- Organizar el trabajo en función del valor que le aporta al usuario.
+- Poder publicar partes completas y utilizables del producto al final
+del sprint.
+- Que el equipo trabaje de manera multidisciplinaria de manera natural.
 
 ### Habilidades Blandas
 
@@ -224,7 +238,7 @@ demás lo comprendan.
   podrías implementar una base de datos pero el tiempo podría jugar en contra, para ello
   existen algunos servicios como [Firebase](https://firebase.google.com/products/database/)
   que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
-  
+
 * Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs,
   manipular el DOM y hacer el render en base a condiciones, usar librerías para
   manejar rutas o la que tu encuentres.
@@ -377,6 +391,28 @@ proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
 modificar datos existentes. Estos datos se podrán guardar localmente usando
 [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
 o de forma remota usando [Firebase](https://firebase.google.com/).
+
+### Historias de usuario
+
+En el proyecto "Data Dashboard", la primera historia "épica" podría haber sido:
+
+Yo, como **Training Manager** quiero poder **ver el progreso de solución de
+ejercicios de JS de las estudiantes de mi(s) cohort(s)** para **entender
+cuánto están practicando y qué tan bien les está yendo**
+
+Esta la podríamos haber dividido en algunas más pequeñas, por ejemplo:
+
+1. Yo, como **Training Manager** quiero poder **seleccionar cada uno de los
+cohorts de mi ciudad** para **ver un listado de todas las estudiantes de ese
+cohort, y que incluya el % de progreso de solución de ejercicios de
+cada una de ellas**
+
+2. Yo, como **Training Manager** quiero poder **seleccionar a una estudiante
+en particular** para **ver el % de progreso de solución de todos los ejercicios
+y el resultado decada uno de ellos**
+
+Como ves, dividirla en 1 y 2, hace que sea mucho más fácil imaginar y entender
+lo que el equipo tiene que conseguir para completarla.
 
 Otras:
 * [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
