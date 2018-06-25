@@ -55,9 +55,9 @@ repositorio.
 
 ### General
 
-En este proyecto, no hay un _boilerplate_, por lo que deberás definir
+En este proyecto, no hay un _boilerplate_, por lo que tú deberás definir
 la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
-de los proyectos anteriores. Por lo tanto, los tests y el _setup_ necesario
+de los proyectos anteriores. Por lo tanto, los _tests_ y el _setup_ necesario
 para ejecutarlos serán hechos por ti misma :smiley:.
 
 En tu  `README.md`, cuéntanos cómo pensaste y te acercaste a los usuarios,
@@ -187,27 +187,26 @@ del sprint.
 
 ### Habilidades Blandas
 
-Trabajar en equipo de manera colaborativa con tu trio. Esto es un gran
-desafío porque coordinarse no es una tarea fácil, y es más difícil entre tres
-que entre dos. Trata que tu equipo te entienda, facilitando siempre el diálogo
-en dentro del squad.
+Trabajar en equipo es un gran desafío porque coordinarse no es una tarea fácil,
+y es más difícil entre tres que entre dos. Trata que tu equipo te entienda,
+facilitando siempre el diálogo en dentro del squad.
 
-Debes planificarte enumerando las tareas y distribuyéndolas, considerando los
-recursos y el tiempo del que dispones. La organización y gestión del proyecto
-son claves para el éxito. Te recomendamos realizar una planificación que te
-permita avanzar en los distintos aspectos del proyecto de forma paralela,
-realizando un tablero donde puedas ver en qué está trabajando cada compañera.
+Planifica enumerando las tareas y distribuyéndolas, considerando los
+recursos, las habilidades, y el tiempo del que dispones. Planifica de manera
+que te permita avanzar en los distintos aspectos del proyecto de forma paralela,
+teniendo un tablero donde puedas ver en qué está trabajando cada compañera.
 
 Entrega tu trabajo a tu equipo a tiempo y colabora con el objetivo
 final del proyecto, lo que puede implicar ayudar a los demás miembros del equipo
 con sus pendientes, con el fin de entregar una red social de calidad.
 
 **La división del trabajo debe permitir que todo el equipo
-practique el aprendizaje de todas las habilidades esperadas.**
+practique el aprendizaje de todas las habilidades esperadas. No se dividan el
+trabajo como en una fábrica**
 
-Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e
-investigar. Tienes que ejercitar tus habilidades de comunicación y toma de
-decisiones. Existen infinitas opciones, depende de ti el camino que escoges.
+Para conocer a los usuario para eso debes salir e investigar. Tienes que
+ejercitar tus habilidades de comunicación y toma de decisiones.
+Existen infinitas opciones, depende de ti el camino que escoges.
 Para que tu red social responda a las necesidades de sus usuarios, probablemente
 deberás adquirir nuevos conocimientos para implementar sus preferencias.
 
@@ -215,17 +214,16 @@ Esta vez, haz _code review_(feedback de tu código) con **otro squad**, para
 que puedas mejorar el producto. Mientras más feedback reciban, mejor.
 
 Esperamos que valores y escuches los comentarios y críticas de los demás,
-rescatando aquellos aspectos que sirven para tu crecimiento. Busca
-instancias de _feedback_, entregando siempre tu opinión de manera constructiva,
-fundamentada y coherente, con el propósito de ayudar a tus compañeras. Estos
-comentarios los debes hacer de manera honesta, empática e inmediata.
+rescatando aquellos aspectos que sirven para tu crecimiento. Entrega siempre
+tu opinión de manera constructiva, fundamentada y coherente, con el propósito
+de ayudar a tus compañeras. Estos comentarios los debes hacer de manera honesta,
+empática e inmediata.
 
-Finalmente, deberás presentar tu red social para esto debes presentar el
-proyecto que creaste, también al usuario que escogiste y las necesidades que
-lograste resolver en este proceso. Como siempre, sabemos que presentar puede
-ser una instancia difícil, esperamos que tengas capacidad de síntesis y
-articules tus ideas con claridad para que logres mostrar tu trabajo y que los
-demás lo comprendan.
+Finalmente, deberás presentar el proyecto que creaste, al usuario que escogiste
+y las necesidades que lograste resolver en este proceso. Como siempre, sabemos
+que presentar puede ser una tarea difícil, esperamos que tengas capacidad de
+síntesis y articules tus ideas con claridad para que logres mostrar tu trabajo
+y que los demás lo comprendan.
 
 ## Hacker edition
 
@@ -278,7 +276,8 @@ herramienta que funciona en el navegador y puedes crear una cuenta gratis. Sin
 embargo, eres libre de utilizar otros editores gráficos como Illustrator,
 Photoshop, PowerPoint, Keynote, etc.
 
-Este diseño debe representar la solución que se implementará finalmente en código.
+Este diseño debe representar la solución que se implementará finalmente
+en código.
 
 Tu diseño debe seguir los fundamentos de visual design, como: contraste,
 alineación, jerarquía, entre otros. Tip: revisa el contenido de UX de la unidad
