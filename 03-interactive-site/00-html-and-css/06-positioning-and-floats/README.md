@@ -85,7 +85,7 @@ O significado de cada um dos valores possíveis da propriedade `position` é o s
 
 Leia mais sobre a posição relativa aqui:
 
-* [Web Books - Posicionamento Relativo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_relativo.html)
+* [Posicionamento relativo - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Relative_positioning)
 
 ### Absolute
 
@@ -98,7 +98,7 @@ png) -->
 
 Leia mais da posição absoluta aqui:
 
-* [Web Books - Posicionamento absoluto](http://librosweb.es/libro/css/capitulo_5/posicionamiento_absoluto.html)
+* [Posicionamento absoluto - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Absolute_positioning)
 
 ### Fixed
 
@@ -108,7 +108,7 @@ _Fixed_ funciona da mesma maneira como o posicionamento _absolute_, com uma dife
 
 Leia mais da posição _fixed_ aqui:
 
-* [Livros da Web - Posicionamento Fixo](http://librosweb.es/libro/css/capitulo_5/posicionamiento_fijo.html)
+* [Posicionamento Fixo - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Fixed_positioning)
 
 <!-- >A propriedade position não permite controlar o posicionamento flutuante, que se estabelece com outra propriedade chamada float e que explicamos mais adiante.
 Além disso, a propriedade position só indica como se posiciona uma caixa, e não o deslocamento. -->
@@ -123,21 +123,14 @@ imagen -->
 
 Elementos flutuantes ainda fazem parte do fluxo de documentos. Isso é claramente diferente dos elementos que usam posicionamento absoluto. Elementos de página com posição absoluta são removidos do fluxo da página da web. Elementos de página com posição absoluta não afetarão a posição de outros elementos e outros elementos não os afetarão, sejam eles tocados ou não.
 
-Leia sobre os floats [aqui](http://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html)
+Leia sobre os floats [aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
 
-<! - ### Valores de float
+### Valores de float
 
-#### None
-O elemento não flutua. Este é o valor inicial.
-
-#### left
-o elemento flutua à esquerda do bloco do contêiner
-
-#### Right
-o elemento flutua à direita do bloco do contêiner
-
-#### Herdar
-O elemento herda a direção flutuante de seu pai
+- **none**: o elemento não flutua. Este é o valor inicial.
+- **left**: o elemento flutua à esquerda do bloco do contêiner
+- **right**: o elemento flutua à direita do bloco do contêiner
+- **inherit**: o elemento herda a direção flutuante de seu pai
 
 ### Float vs Position: Absolute
 Os elementos flutuantes ainda fazem parte do fluxo da página da Web. Isso é claramente difere dos elementos de página que usam posicionamento absoluto. Elementos da página com posição absoluta são removidos do fluxo de página, como quando a caixa de texto no design do impressão foi dita para ignorar o wrapper da página.
@@ -149,34 +142,42 @@ Caso não queiramos que isso aconteça, com clear especificamos que um elemento 
 
 #### Valores de clear
 
-- none: default, permite elementos flutuantes em ambos os lados.
-- left: elementos flutuantes não são permitidos no lado esquerdo.
-- right: elementos flutuantes não são permitidos no lado direito.
-- both: elementos flutuantes não são permitidos no lado esquerdo ou direito.
-- inherit: herda o valor de seu elemento pai.
-
-Vejamos um exemplo: queremos fazer um navegador de páginas. Então nós lhe damos a propriedade float e colocamos os valores dependendo de qual lado queremos que apareça.
-
-imagem aqui
+- **none**: default, permite elementos flutuantes em ambos os lados.
+- **left**: elementos flutuantes não são permitidos no lado esquerdo.
+- **right**: elementos flutuantes não são permitidos no lado direito.
+- **both**: elementos flutuantes não são permitidos no lado esquerdo ou direito.
+- **inherit**: herda o valor de seu elemento pai.
 
 ### Clearfix
-O maravilhoso hack clearfix serve-nos para recipientes de elementos flutuantes.
+O maravilhoso hack clearfix serve-nos para arrumar os elementos que contêm elementos flutuantes.
 
-#### Colapso do contêiner pai
-Normalmente, se tivermos um elemento flutuante dentro de um contêiner, este será reduzido e não colocará o elemento flutuante para cima. Como no caso seguinte:
+Leia sobre o porque usar e como usar _clearfix_ aqui:
 
-imagem aqui
+* [Para o que serve o clearfix? - Origamid](https://www.origamid.com/codex/para-que-serve-o-clearfix/)
+* [CSS Clearfix](https://blog.samuelsimoes.com/html-css/2013/05/12/css-clearfix.html)
 
-* Uma maneira de corrigir o código é adicionar um elemento invisível que você adiciona um clear both no final do código.
 
-#### Corrigindo o recolhimento: Overflow auto
-Uma maneira de corrigir o código e que devemos aplicar com grande cuidado é overflow: hidden ou overflow: auto.
-Nota: Às vezes isso gera uma barra de rolagem indesejada no código
+## Leituras complementares
 
-imagem
+Position:
 
-#### Corrigindo o recolhimento: clearfix
-Retorna a capacidade para o container de elementos de bloco "flutuantes" de contê-los em um alinhamento horizontal.
-imagem -->
+* [Position CSS - Devmedia](https://www.devmedia.com.br/position-css-definindo-a-posicao-de-elementos-com-fixed-relative-e-absolute/37700)
+* [Posicionamento relativo e absoluto - Maujor](http://www.maujor.com/tutorial/absrel.php)
 
-***
+Float:
+
+* [All about floats - CSS Tricks](https://css-tricks.com/all-about-floats/)
+
+Flexbox:
+
+* [Conheça o Flexbox](http://desenvolvimentoparaweb.com/css/flexbox/)
+* [Guia de Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Guia Flexbox - Origamid](https://origamid.com/projetos/flexbox-guia-completo/)
+* [Posicionamento elementos e o Flebox - Caelum](http://blog.caelum.com.br/o-drama-do-posicionamento-de-elementos-na-tela-e-o-flexbox/)
+* [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Flexbox Defense](http://www.flexboxdefense.com/)
+
+Grid:
+
+* [Grid CSS - Tableless](https://tableless.com.br/entendendo-sistemas-de-grid-css-do-zero/)
+* [Grid Layout - Chief Of Design](https://www.chiefofdesign.com.br/css-grid-layout/)
