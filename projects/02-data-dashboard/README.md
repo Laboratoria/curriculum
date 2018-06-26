@@ -581,3 +581,22 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 * [XMLHttpRequest en MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
+
+## Checklist
+
+* [ ] Usa VanillaJS.
+* [ ] No hace uso de `this`.
+* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
+      y un mínimo del 50% de branches.
+* [ ] Pasa tests (y linter) (`yarn test`)
+* [ ] Definición del producto en `README.md`.
+* [ ] Sketch de la solución (prototipo de baja fidelidad) en `README.md`.
+* [ ] Diseño de la Interfaz de Usuario (prototipo de alta fidelidad).
+* [ ] UI: Permitir al usuario seleccionar un cohort de una lista de cohorts.
+* [ ] UI: Al seleccionar un cohort, listar las estudiantes de ese cohort.
+* [ ] UI: Muestra porcentaje de completitud de todos los cursos por estudiante.
+* [ ] UI: Muestra completitud de lecturas, ejercicios autocorregidos y quizzes.
+* [ ] UI: Permite ordenar estudiantes por completitud general
+* [ ] UI: Permite ordenar estudiantes por completitud de lecturas, ejercicios y
+          quizzes).
+* [ ] UI: Permite filtrar/buscar estudiantes por nombre.
