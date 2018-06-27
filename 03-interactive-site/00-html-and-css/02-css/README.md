@@ -88,7 +88,6 @@ No caso do nosso exemplo anterior com os estilos para ele `h1`, teríamos dois a
     <link rel="stylesheet" href="style.css">
     <!--Link para o arquivo que está na internet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Olá, Mundo!</h1>
@@ -150,10 +149,10 @@ Em resumo, o bloco de instruções indica o que precisa ser feito e o seletor in
 
 Existem vários seletores. Leia a documentação a seguir para aprender mais sobre seletores:
 
-* [Seletores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
-* [Seletores Básicos - Livros da Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
-* [Seletores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
-* [Pseudo Seletores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
+* [CSS Básico - MDN](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico)
+* [Seletores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS)
+* [Combinação de Seletores- W3im](http://www.w3im.com/pt/css/css_combinators.html)
+* [Pseudo Seletores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 
 No final da sua pesquisa, você deve saber o que é e como usar:
 
@@ -172,11 +171,9 @@ Como vimos, regras CSS diferentes podem ser aplicadas a um número ilimitado de 
 
 Outra característica do CSS é a **herança** de estilos. Herança é o processo pelo qual algumas instruções CSS aplicadas a um elemento passam automaticamente para os elementos que estão aninhados \(seus descendentes\).
 
-Leia os artigos a seguir para entender os conceitos de cascata e herança em CSS:
+Leia o artigo a seguir para entender os conceitos de cascata e herança em CSS:
 
-* [Cascata e Herança - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia)
-* [Herança - Librosweb](http://librosweb.es/libro/css/capitulo_2/herencia.html)
-* [Colisões de estilos - Librosweb](http://librosweb.es/libro/css/capitulo_2/colisiones_de_estilos.html)
+* [Especificidade, Herança e Efeito Cascata - Emanuel G de Souza](https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173)
 
 Quando você terminar sua pesquisa, você deve ser capaz de entender os 3 fatores que determinam o mecanismo de cascata. Em particular, responda o seguinte:
 
@@ -194,9 +191,10 @@ Existe uma grande variedade de valores de CSS, que podem ser expressos com difer
 
 Faça sua pesquisa dos recursos a seguir e aprenda as várias maneiras de representar valores em CSS:
 
-* [Valores e unidades - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
-* [Unidades e medidas - Booksweb](http://librosweb.es/libro/css/capitulo_3/unidades_de_medida.html)
-* [Cores - Booksweb](http://librosweb.es/libro/css/capitulo_3/colores.html)
+* [Unidades e medidas](https://helio.me/quais-medidas-css-usar-e-quando-usar-8dfeed9f42f5)
+* [Unidades - W3](https://www.w3.org/Style/Examples/007/units.pt_BR.html)
+* [Cores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value)
+* [Gerador de Cores - W3](https://www.w3schools.com/colors/colors_mixer.asp)
 
 No final desta leitura, você deve saber como responder às seguintes perguntas:
 

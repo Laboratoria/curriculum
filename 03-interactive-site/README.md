@@ -58,19 +58,17 @@ Para criar um produto da Web interativo, precisamos primeiro aprender como proje
 | 05 | Oficina | 2h | Aula Prática |
 | 06 | Leitura | 2h | Positioning & Floats |
 | 07 | Leitura | 1h | Fontes e ícones |
-| 08 | Oficina | 3h | Gerenciamento de estresse: organização, planejamento e _mindfullness_ |
-| 09 | Seminário | 2h | Aula de Conceitos |
-| 10 | Oficina | 4h | Aula Prática |
-| 11 | Leitura | 2h | Caso prático \(vídeo\) |
-| 12 | Quiz | 30min | Quiz \#1 |
-| 13 | Seminário | 4h | Aula de Conceitos |
-| 14 | Oficina | 8h | Aula Prática |
-| 15 | Oficina | 3h | Oficina HSE: Imaginário |
-| 16 | Produto | 24h | Desafios de Código |
-| 17 | Seminário | 6h | Soluções Desafios de Código |
-| 18 | Quiz | 30min | Quiz \#2: requizzing |
-| 19 | Questionário | 15min | Auto-avaliação |
-| 20 | Seminário | 2h | Encerramento: HTML & CSS |
+| 08 | Seminário | 2h | Aula de Conceitos |
+| 09 | Oficina | 4h | Aula Prática |
+| 10 | Leitura | 2h | Caso prático \(vídeo\) |
+| 11 | Quiz | 30min | Quiz \#1 |
+| 12 | Seminário | 4h | Aula de Conceitos |
+| 13 | Oficina | 8h | Aula Prática |
+| 14 | Produto | 24h | Desafios de Código |
+| 15 | Seminário | 6h | Soluções Desafios de Código |
+| 16 | Quiz | 30min | Quiz \#2: requizzing |
+| 17 | Questionário | 15min | Auto-avaliação |
+| 18 | Seminário | 2h | Encerramento: HTML & CSS |
 
 ### Unidade 02: [Criando Interação com JavaScript](01-making-your-site-interactive)
 
@@ -167,4 +165,3 @@ O desafio final deste curso é criar uma página web interativa, de média compl
 * [LEAN UX](https://www.amazon.com/Lean-UX-Designing-Great-Products/dp/1491953608/ref=sr_1_1?ie=UTF8&qid=1500431693&sr=8-1&keywords=lean+ux), Jeff Gothelf & Josh Seiden, 2013
 * [About Face: The Essentials of Interaction Design](https://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/1118766571/ref=sr_1_2?ie=UTF8&qid=1500431746&sr=8-2&keywords=about+face), Alan Cooper, 2014
 * [Sprint](http://www.thesprintbook.com/), Jake Knapp / John Zeratsky / Braden Kowitz, 2016
-

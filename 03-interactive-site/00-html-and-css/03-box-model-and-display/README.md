@@ -22,7 +22,7 @@
 
 ### O que é o modelo da caixas?
 
-Retornando à nossa fonte MDN, no capítulo tutorial do [modelo da caixa](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas), ela explica o seguinte:
+Retornando à nossa fonte MDN, no capítulo tutorial do [modelo da caixa](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model), ela explica o seguinte:
 
 > O modelo de caixa é a base do design da web - cada elemento é representado como uma caixa retangular, com seu conteúdo, preenchimento \(espaço interno\), borda e margem construídas uma sobre a outra, como as camadas de uma cebola. O navegador, para interpretar o design de uma página, processa os estilos que serão aplicados a cada caixa, o tamanho das camadas da cebola e a localização de algumas caixas em relação a outras. Antes de entender como criar designs CSS, precisamos entender o modelo de caixas - que é o que veremos neste artigo.
 
@@ -166,7 +166,7 @@ Na imagem a seguir podemos ver os diferentes estilos de borda e a _palavra reser
 
 Define a **cor** de cada uma das quatro bordas dos elementos.
 
-Os valores que podem tomar são: [**valores de cor**](http://librosweb.es/referencia/css/colores.html), `transparent` ou `inherit`.
+Os valores que podem tomar são: [**valores de cor**](https://www.htmlprogressivo.net/2014/02/Cores-CSS-Propriedade-color-RGB-Hexadecimal-nome-Tutorial.html), `transparent` ou `inherit`.
 
 #### Propriedade shorthand "border"
 
@@ -193,7 +193,7 @@ div {
 }
 ```
 
-> [Saiba mais sobre `border`.](http://librosweb.es/libro/css/capitulo_4/bordes.html)
+> [Saiba mais sobre bordas.](https://javabeat.net/border-radius-box-shadow-css3/)
 
 ### Margin (___margem___)
 
@@ -365,8 +365,8 @@ Ambos os atributos permitem "ocultar" um elemento no navegador. No entanto, há 
 
 ## Leituras complementares
 
-Continue lendo e aprendendo sobre o modelo de caixa com os seguintes recursos:
+Continue lendo e aprendendo sobre o modelo de caixa e diplay com os seguintes recursos:
 
-* [Modelo da caixa - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas)
-* [Modelo da Caixa - Web Books](http://librosweb.es/libro/css/capitulo_4.html)
-* [Exibir - Web Books](http://librosweb.es/referencia/css/display.html)
+* [Modelo da caixa - W3](http://www.w3im.com/pt/css/css_boxmodel.html)
+* [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
+* [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
