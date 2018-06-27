@@ -31,5 +31,4 @@ Certifique-se de que entendemos bem os seguintes conceitos:
 
 Vamos revisar os exemplos de código da documentação do MDN \(exemplos no _codepen_\) e modificar alguns para garantir que entendemos bem o que lemos. _Escolha os tópicos para revisar com base nos resultados do questionário_
 
-### 3. Vamos rever os [exercícios guiados](14-guided-exercises)
-
+### 3. Vamos rever os [exercícios guiados](13-guided-exercises)
