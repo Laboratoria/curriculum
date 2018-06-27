@@ -142,18 +142,27 @@ social, la interfaz debe permitir lo siguiente:
 * Ver el muro/timeline de la red social
   - Validaciones:
     + Al apretar el botón de publicar debe validar que exista texto en el input.
-  - Comportamiento:
-    + Debo poder publicar un post
-    + Debo poder poner like a una publicación
-    + Debo poder llevar un conteo de los likes
-    + Debo poder eliminar un post específico
-    + Debo poder filtrar los posts solo para mis amigos y para todo público
-    + Debe confirmar antes de eliminar un post
-    + Al darle click en el botón editar debe cambiar el texto por un input con
-      texto y cambiar el link por guardar
-    + Al darle guardar debe cambiar de vuelta a un texto normal pero con la
-      información editada
-    + Al recargar la página debo de poder ver los textos editados
+  - Comportamiento (debe tener al menos 8):
+    + Debo poder publicar una entrada, post, imagen, etc...
+    + Debo poder poner me gusta o algo similar (estrella por ejemplo) a una de
+      esas publicaciones
+    + Debo poder ver cuántos me gusta (o similar) tiene una publicación
+    + Debo poder eliminar una publicación
+    + Debo poder ver publicaciones solo de amigos o públicos (con algún filtro
+      por ejemplo)
+    + Debe confirmar antes de eliminar una publicación
+    + Al darle click en el botón editar debo poder cambiar el texto, imagen, o
+      lo que contenga una publicación en tu red social
+    + Al darle guardar debe cambiar de vuelta a la forma que tenía antes la
+      publicación, pero con la información editada
+    + Al recargar la página debo de poder ver las publicaciones anteriores
+    + Debo poder agregar nuevos amigos
+    + Debo poder aceptar solicitudes de amigos
+    + Debo poder eliminar amigos
+    + Debo poder publicar solo para mis amigos
+    + Debo poder publicar públicamente, visible para todos los usuarios de la
+      red social
+    + Debo poder enviar mensajes privados a mis amigos
   - Perspectiva de interfaz:
     ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
 
