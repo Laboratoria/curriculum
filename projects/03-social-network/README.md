@@ -29,8 +29,8 @@ en los que le gustaría invertir:
 ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es construir un sitio web
-_responsive_ de más de una sola vista de interacción, y en el que podamos leer y
-escribir datos.
+[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
+con más de una vista (página), y en el que podamos leer y escribir datos.
 
 Algunos objetivos específicos:
 
@@ -75,57 +75,62 @@ al final).
 
 ### Tests
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_.
+Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
+_lines_, y _branches_.
 
 ### UI y comportamiento (User Interface / Interfaz de Usuario)
 
 La interfaz debe permitir lo siguiente:
 
-* **Creación de cuenta de usuario e inicio de sesión.**
-  - Login con Firebase:
-    + Solamente para el login es obligatorio usar Firebase, no para las
-      publicaciones en el muro ni las demás funcionalidades, pare eso puedes
-      usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
-    + Autenticación con Facebook - Google.
-  - Validaciones:.
-    + No pueden haber usuarios repetidos.
-    + La cuenta de usuario debe ser un correo electrónico válido.
-    + Lo que se escriba en el campo(_input_) de contraseña debe ser secreto.
-  - Comportamiento:
-    + Al enviarse un formulario de registro o inicio de sesión, debe validarse.
-    + En caso haya errores, el sistema debe mostrar mensajes de error para
-      ayudar al usuario a corregirlos.
-    + La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
-    + Al recargar la aplicación, se debe verificar si el usuario está
-      logueado antes de mostrarle el contenido privado.
-  - Perspectiva de interfaz:
-    ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
-* **Muro/timeline de la red social**
-  - Validaciones:
-    + Al apretar el botón de publicar, debe validar que exista contenido en el input.
-  - Comportamiento:
-    + Poder publicar un post.
-    + Poder poner like a una publicación.
-    + Llevar un conteo de los likes.
-    + Poder eliminar un post específico.
-    + Poder filtrar los posts sólo para mis amigos y para todo público.
-    + Pedir confirmación antes de eliminar un post.
-    + Al darle click en el botón editar, debe cambiar el texto por un input que
-      permita editar el texto y cambiar el link por guardar.
-    + Al darle guardar debe cambiar de vuelta a un texto normal pero con la
-      información editada.
-    + Al recargar la página debo de poder ver los textos editados
-  - Perspectiva de interfaz:
-    ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
-* **Otras consideraciones:**
-  - La aplicación no debe dejar hacer publicaciones vacías de ningun tipo.
-  - El usuario debe poder agregar, editar y eliminar contenido de la red
-    social.
-  - El usuario debe poder definir la privacidad de lo que pública.
-  - Al editar contenido, el contenido editado se verá automáticamente,
-    inmediatamente después de guardar.
-  - Al recargar la página se deben poder ver los contenidos editados.
+#### Creación de cuenta de usuario e inicio de sesión
+
+* Login con Firebase:
+  - Solamente para el login es obligatorio usar Firebase, no para las
+    publicaciones en el muro ni las demás funcionalidades, pare eso puedes
+    usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
+  - Autenticación con Facebook - Google.
+* Validaciones:.
+  - No pueden haber usuarios repetidos.
+  - La cuenta de usuario debe ser un correo electrónico válido.
+  - Lo que se escriba en el campo(_input_) de contraseña debe ser secreto.
+* Comportamiento:
+  - Al enviarse un formulario de registro o inicio de sesión, debe validarse.
+  - En caso haya errores, el sistema debe mostrar mensajes de error para
+    ayudar al usuario a corregirlos.
+  - La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
+  - Al recargar la aplicación, se debe verificar si el usuario está
+    logueado antes de mostrarle el contenido privado.
+* Perspectiva de interfaz:
+  ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
+
+#### Muro/timeline de la red social
+
+* Validaciones:
+  - Al apretar el botón de publicar, debe validar que exista contenido en el input.
+* Comportamiento:
+  - Poder publicar un post.
+  - Poder poner like a una publicación.
+  - Llevar un conteo de los likes.
+  - Poder eliminar un post específico.
+  - Poder filtrar los posts sólo para mis amigos y para todo público.
+  - Pedir confirmación antes de eliminar un post.
+  - Al darle click en el botón editar, debe cambiar el texto por un input que
+    permita editar el texto y cambiar el link por guardar.
+  - Al darle guardar debe cambiar de vuelta a un texto normal pero con la
+    información editada.
+  - Al recargar la página debo de poder ver los textos editados
+* Perspectiva de interfaz:
+  ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
+
+#### Otras consideraciones
+
+* La aplicación no debe dejar hacer publicaciones vacías de ningun tipo.
+* El usuario debe poder agregar, editar y eliminar contenido de la red
+  social.
+* El usuario debe poder definir la privacidad de lo que pública.
+* Al editar contenido, el contenido editado se verá automáticamente,
+  inmediatamente después de guardar.
+* Al recargar la página se deben poder ver los contenidos editados.
 
 Para armar la interfaz visual, utiliza como base alguna de estas guías de
 componentes:
@@ -347,8 +352,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 | Comunicación eficaz | 3
 | Presentaciones | 3
 
-Tópicos: _mobile-first_, [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive),
-_multiple-views_, _crud_, _storage_, ...
+***
 
 ## Pistas / Tips / Lecturas complementarias
 
@@ -420,27 +424,45 @@ Otras:
 * [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
 * [Offline first manifesto](http://offlinefirst.org/)
 
+***
+
 ## Checklist
 
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
-      y un mínimo del 50% de branches.
-* [ ] Pasa tests (y linter) (`yarn test`).
-* [ ] `README.md`
-      - [ ] Definición del producto.
-      - [ ] Benchamark de las principales redes sociales.
-      - [ ] Resumen de entrevistas con usuarios.
-      - [ ] Link/screenshots prototipo de alta fidelidad.
-      - [ ] Conclusiones de pruebas del prototipo con usuarios.
-      - [ ] Conclusiones de pruebas con el producto en HTML.
+### General
+
 * [ ] Producto final sigue los lineamientos del diseño.
+
+### `README.md`
+
+* [ ] Definición del producto.
+* [ ] Benchamark de las principales redes sociales.
+* [ ] Resumen de entrevistas con usuarios.
+* [ ] Link/screenshots prototipo de alta fidelidad.
+* [ ] Conclusiones de pruebas del prototipo con usuarios.
+* [ ] Conclusiones de pruebas con el producto en HTML.
+
+### Pruebas / tests
+
+* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
+  y branches.
+* [ ] Pasa tests (y linters) (`yarn test`).
+
+### Creación de cuenta (sign up)
+
 * [ ] Permite crear cuenta.
-      - [ ] Valida email.
-      - [ ] Valida password.
-      - [ ] Muestra mensajes de error.
+* [ ] Valida email.
+* [ ] Valida password.
+* [ ] Muestra mensajes de error.
+
+### Inicio de sesión (sign in)
+
 * [ ] Permite iniciar sesión.
-      - [ ] Valida email.
-      - [ ] Valida password.
-      - [ ] Muestra mensajes de error.
+* [ ] Valida email.
+* [ ] Valida password.
+* [ ] Muestra mensajes de error.
+
+### Muro (wall/feed)
+
 * [ ] Muestra _muro_.
 * [ ] Permite publicar nuevos posts.
 * [ ] Permite eliminar posts.
