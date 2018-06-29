@@ -15,10 +15,10 @@ llamamos LMS (Learning Management System). El LMS acumula data sobre quién
 leyó qué, qué ejercicios se han completado, los resultados de los quizzes, etc.
 
 A pesar de que la data de progreso del LMS (ej. lecturas leídas, ejercicios
-  completados, nota en quizzes, etc.) no impacta directamente en la evaluación
-  de una estudiante, sí es una pieza de información relevante que las TMs
-  quisieran visualizar para tener un mejor entendimiento de cómo va cada
-  estudiante en su proceso de aprendizaje.
+completados, nota en quizzes, etc.) no impacta directamente en la evaluación de
+una estudiante, sí es una pieza de información relevante que las TMs quisieran
+visualizar para tener un mejor entendimiento de cómo va cada estudiante en su
+proceso de aprendizaje.
 
 Así, el reto de este proyecto es crear una interfaz donde las TMs puedan
 _ver_ y _usar_ la data de progreso del LMS. Para ello, proponemos crear un
