@@ -1,6 +1,6 @@
 # getProductOfAllElementsAtProperty
 
-Escriba una función llamada `getProductOfAllElementsAtProperty`.
+Escribe una función llamada `getProductOfAllElementsAtProperty`.
 
 Dado un objeto y una key, `getProductOfAllElementsAtProperty` devuelve el
 producto de todos los elementos del array.
@@ -12,9 +12,10 @@ Notas:
 - Si no hay ninguna propiedad en la key dada, debe devolver 0.
 
 ```js
-var obj = {
+const obj = {
   key: [1, 2, 3, 4];
 };
-var output = getProductOfAllElementsAtProperty(obj, 'key');
-console.log(output); // -> 24
+
+const output = getProductOfAllElementsAtProperty(obj, 'key');
+console.log(output); // => 24
 ```

@@ -1,7 +1,4 @@
-function getElementOfArrayProperty(obj, key, index) {
-  // var output = getElementOfArrayProperty(obj, 'key', 0);
-  // console.log(output); // --> 'Jamil'
-
+const getElementOfArrayProperty = (obj, key, index) => {
   if (!obj[key]) {
     return undefined;
   }
@@ -15,6 +12,6 @@ function getElementOfArrayProperty(obj, key, index) {
   }
 
   return obj[key][index];
-}
+};
 
 module.exports = getElementOfArrayProperty;

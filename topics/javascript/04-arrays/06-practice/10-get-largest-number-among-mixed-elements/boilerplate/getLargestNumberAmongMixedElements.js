@@ -1,4 +1,5 @@
-function getLargestNumberAmongMixedElements(arr) {
+const getLargestNumberAmongMixedElements = (arr) => {
   // your code here
-}
+};
+
 module.exports = getLargestNumberAmongMixedElements;

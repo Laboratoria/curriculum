@@ -9,6 +9,6 @@ de longitud. De lo contrario, devuelve `false`.
 Ejemplo de entrada:
 
 ```js
-var output = areValidCredentials('Ritu', 'mylongpassword');
+const output = areValidCredentials('Ritu', 'mylongpassword');
 console.log(output); // --> true
 ```

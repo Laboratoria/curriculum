@@ -149,11 +149,11 @@
 > esto es debido a que lo que usamos en CSS son Device Independent Pixels (DIP)
 > que como infiere de su nombre, son independientes del hardware. Para calcular
 > los DIP de un dispositivo, usamos la siguiente fórmula:
-
-> ```
+>
+> ```text
 > DIP = Resolution / DPR
 > ```
-
+>
 > Sabiendo esta fórmula, ¿es suficiente para resolver esta pregunta?
 
 #### Opciones

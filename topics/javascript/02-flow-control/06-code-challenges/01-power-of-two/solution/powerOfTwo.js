@@ -3,7 +3,7 @@ const powerOfTwo = (number) => {
 
   while (number > 0) {
     result *= 2;
-    number--;
+    number -= 1;
   }
 
   return result;

@@ -1,4 +1,4 @@
-function convertScoreToGrade(score) {
+const convertScoreToGrade = (score) => {
   let str;
 
   switch (true) {
@@ -22,6 +22,6 @@ function convertScoreToGrade(score) {
       break;
   }
   return str;
-}
+};
 
 module.exports = convertScoreToGrade;

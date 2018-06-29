@@ -1,4 +1,4 @@
-function findShortestWordAmongMixedElements(arr) {
+const findShortestWordAmongMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }
@@ -20,6 +20,6 @@ function findShortestWordAmongMixedElements(arr) {
   }
 
   return arr[index];
-}
+};
 
 module.exports = findShortestWordAmongMixedElements;

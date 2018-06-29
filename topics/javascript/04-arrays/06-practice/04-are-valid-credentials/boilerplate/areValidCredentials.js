@@ -1,5 +1,5 @@
-function areValidCredentials(name, password) {
+const areValidCredentials = (name, password) => {
   // your code here
-}
+};
 
 module.exports = areValidCredentials;

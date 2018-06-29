@@ -35,7 +35,7 @@ Por ejemplo, supongamos que la terminal es nuestra "casa" y que queremos
 recorrerla. Ahora me encuentro en mi cuarto, pero ¿qué pasa si quiero ir al
 **baño**?
 
-![](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
+![plano](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
 
 Estoy en mi cuarto (n° 3) y si quiero ir al baño, primero, debo de entrar al
 clóset (n° 2) y luego entrar al baño (n°1). No puedo llegar al baño sin pasar

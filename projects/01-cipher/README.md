@@ -49,8 +49,8 @@ del DOM para mostrar (escribir) los resultados.
 
 Para completar el proyecto tendrás que familiarizarte con conceptos como
 [valores, tipos, variables](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/01-basics),
-[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control) y
-[tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
+[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control)
+y [tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
 
 Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
 y su necesidad. La idea es que logres entender qué necesita el usuario para el
@@ -73,11 +73,14 @@ No se debe utilizar la _pseudo-variable_ `this`.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test`.
+setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
+coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
+test`.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este repositorio
-que contiene el _boilerplate_.
+El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
+
+Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
+repositorio que contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
@@ -151,24 +154,24 @@ La interfaz debe permitir al usuario:
   - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la izquierda en el alfabeto y `string` el mensaje
     (texto) que queremos decifrar.
+  - `cipher.createCipherWithOffset(offset)`: recibe un `offset` y devuelve un
+    nuevo objeto con dos métodos (`encode` y `decode`) que solo necesitan
+    recibir el string y usen el `offset` que se pasó a `createCipherWithOffset`
+    a la hora de crear el objeto.
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-### Tests
-
-El _boilerplate_ incluye tests (pruebas) de ejemplo y todo el setup necesario
-para implementar y ejecutar los tests, así como _code coverage_ para ver el
-nivel de cobertura de los tests (ver consideraciones generales).
-
 ## Hacker edition
 
-No estás limitada a implementar solo la parte obligatoria. Te sugerimos crear
-también una función `cipher.createCipherWithOffset()` que reciba un `offset` y
-devuelva un nuevo objeto con dos métodos (`encode` y `decode`) que solo reciban
-el string y usen el `offset` que se pasó a `createCipherWithOffset` a la hora
-de crear el objeto.
+La descripción general de este _proyecto_ no menciona qué pasaría con las letras
+minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El
+_boilerplate_ incluye algunos tests (comentados en principio) que puedes usar
+como punto de partida para implementar soporte para estos casos.
+
+Tampoco se menciona qué pasaría si el `offset` fuera _negativo_. Como parte del
+_hacker edition_ te invitamos a explorar también esta caso por tu cuenta.
 
 Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
 agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
@@ -198,34 +201,34 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 | Característica/Habilidad | Nivel esperado |
 |--------------------------|----------------|
 | Completitud | 3
-| Investigación | 2/3
-| Documentación | 3
+| Investigación | 3
+| Documentación | 2
 
 ### Tech
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | **JavaScript** | |
-| Estilo | 2/3
-| Nomenclatura/semántica | 2/3
+| Estilo | 2
+| Nomenclatura/semántica | 2
 | Funciones/modularidad | 1
 | Estructuras de datos | 0
 | Tests | 2
 | **HTML** | |
 | Validación | 2
 | Estilo | 3
-| Semántica | 2/3
+| Semántica | 2
 | SEO | 0
 | **CSS** | |
-| DRY | 2/3
+| DRY | 2
 | Responsive | 2
 | **SCM** | |
 | Git | 1
-| GitHub | 2 |
+| GitHub | 2
 | **CS** | |
-| Lógica | 1/2
-| Arquitectura | 1/2
-| Patrones/paradigmas | 0 |
+| Lógica | 1
+| Arquitectura | 1
+| Patrones/paradigmas | 0
 
 ### UX
 
@@ -236,28 +239,46 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 ### Habilidades Blandas
 
 Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
+habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
+revisar la rúbrica.
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
-| Planificación y organización | 2
-| Autoaprendizaje | 2
-| Solución de problemas | 2
-| Dar y recibir feedback | 2
-| Adaptabilidad | 2
-| Trabajo en equipo | 1/2
-| Comunicación eficaz | 1/2
-| Presentaciones | 1/2
+| Planificación y organización | 2 |
+| Autoaprendizaje | 2 |
+| Solución de problemas | 2 |
+| Dar y recibir feedback | 2 |
+| Adaptabilidad | 2 |
+| Trabajo en equipo | 1/2 |
+| Comunicación eficaz | 1/2 |
+| Presentaciones | 1/2 |
 
 ***
 
 ## Primeros pasos
 
-1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
-2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install`.
-4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   proyecto.
+1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+   condiciones, algo como [Atom](https://atom.io/) o
+   [Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   que es un programita que interpreta líneas de comando (command-line
+   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
+   aunque recomendaría que consideres probar :penguin: GNU/Linux.
+3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
+   privado y te darán acceso de lectura en ese repo.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm
+   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
+   incluye [npm](https://docs.npmjs.com/)).
+6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+   pruebas unitarias (unit tests) con el comando `npm test`.
+7. A codear se ha dicho! :rocket:
 
 ***
 

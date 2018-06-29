@@ -17,12 +17,12 @@
 
 #### Opciones
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un
-modelo metodológico preestablecido
+1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera
+   un modelo metodológico preestablecido
 2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
 3. Hoja de estilo externa a nuestro proyecto
 4. Herramienta de organización que podemos usar en nuestros proyectos como si
-fuera un modelo pedagógico preestablecido
+   fuera un modelo pedagógico preestablecido
 
 <solution style="display:none;">1</solution>
 
@@ -62,10 +62,10 @@ fuera un modelo pedagógico preestablecido
 
 #### Opciones
 
-1. ` <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
-2. ` <link rei="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
-3. ` <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.scss">`
-4. ` <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">`
+1. `<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
+2. `<link rei="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
+3. `<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.scss">`
+4. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">`
 
 <solution style="display:none;">4</solution>
 

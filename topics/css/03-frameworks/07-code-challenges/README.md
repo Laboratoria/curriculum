@@ -23,6 +23,7 @@ tu máquina.
 ![Lab-car-web](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/desktop.png)
 
 ### 2. La versión movil
+
 Y obviamente no podemos dejar de lado la versión móvil, así que créala como
 segunda parte.
 
@@ -33,10 +34,10 @@ segunda parte.
 Como **extra** puedes añadir los modales necesarios en la versión web
 
 - Modal de Inicia Sesión
-![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
+  ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
 
 - Modal de Regístrate
-![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
+  ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
 
 - Y modal de Convierte en conductor
-![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)
+  ![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)

@@ -3,64 +3,95 @@
 ## Preámbulo
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
-mayor cantidad de datos posibles respecto al desempeño de las estudiantes para
+mayor cantidad de datos posibles respecto al progreso de las estudiantes para
 apoyarlas en su aprendizaje.
 
-Desde hace unos meses tenemos un sistema donde nuestras estudiantes acceden a
-contenidos de aprendizaje (lecturas, ejercicios, quizzes, ...), nuestro LMS, el
-cual acumula data sobre quién leyó qué, qué ejercicios se han completado y los
-resultados de los quizzes, ...
+La principal medida de progreso de una estudiante en Laboratoria es su avance
+completando los proyectos de la [Ruta de Aprendizaje](https://docs.google.com/spreadsheets/d/1AoXQjZnZ5MTPwJPNEGDyvn5vksiOUoPr932TjAldTE4/edit#gid=536983970)
+y su desempeño en función a la [Rúbrica de Niveles Esperados](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml).
+Sin embargo, para completar estos proyectos las estudiantes acceden a contenidos
+de aprendizaje (lecturas, videos, ejercicios y quizzes) en un sistema que
+llamamos LMS (Learning Management System). El LMS acumula data sobre quién
+leyó qué, qué ejercicios se han completado, los resultados de los quizzes, etc.
 
-Al ser todavía una aplicación en su infancia, el LMS por ahora no implementa una
-visualización de esta data que permita a las TMs ver fácilmente el avance de las
-estudiantes con respecto a estos contenidos. Así que nos han pedido que
-construyamos una interfaz donde pueden _ver_ y _usar_ esa data y que así puedan
-tomar decisiones de una forma más informada. Para ello hemos propuesto crear un
-data dashboard.
+A pesar de que la data de progreso del LMS (ej. lecturas leídas, ejercicios
+completados, nota en quizzes, etc.) no impacta directamente en la evaluación de
+una estudiante, sí es una pieza de información relevante que las TMs quisieran
+visualizar para tener un mejor entendimiento de cómo va cada estudiante en su
+proceso de aprendizaje.
+
+Así, el reto de este proyecto es crear una interfaz donde las TMs puedan
+_ver_ y _usar_ la data de progreso del LMS. Para ello, proponemos crear un
+**data dashboard** (_tablero de visualización de datos_).
 
 ## Introducción
 
-Sí pensamos en un dashboard podemos pensar en el tablero de control de un auto
-o el de un avión. Un espacio desde el cuál un usuario puede tener acceso a la
+Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
+el 90% de la data que existe hoy ha sido creada en los últimos dos años.
+Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
+
+Sin embargo, los datos por sí solos son de poca utilidad. Para transformar datos
+en **información** necesitamos procesarlos y entenderlos. Una manera muy
+sencilla de hacerlo es creando _visualizaciones_. Las
+empresas líderes de hoy generan visualizaciones dinámicas de su data
+que les permiten entender mejor su negocio y tomar decisiones apropiadas.
+
+En este proyecto tendrás tu primer acercamiento a transformar data en
+información creando tu primer **data dashboard**.
+
+Si pensamos en un _dashboard_ podemos pensar en el tablero de control de un auto
+o el de un avión. Un espacio desde el cual un usuario puede tener acceso a la
 información y controles más relevantes, en este caso, del vehículo que está
-utilizando. El dashboard de un auto le permite a quien conduce saber a qué
-velocidad está yendo, qué cambio está utilizando, cuánto combustible tiene
-disponible, qué tan caliente está el motor, cuántas revoluciones por minuto
-dan las ruedas, cuánta distancia has recorrido, etc.
+utilizando. El _dashboard_ de un auto le permite a quien conduce saber a qué
+velocidad está yendo, qué cambio/velocidad está utilizando, cuánto combustible
+tiene disponible, cuál es la temperatura del motor, cuántas revoluciones por
+minuto dan las ruedas, cuánta distancia ha recorrido, etc.
 
 ![car dashboard](https://img.buzzfeed.com/buzzfeed-static/static/2017-02/7/12/enhanced/buzzfeed-prod-fastlane-03/original-17515-1486490056-3.jpg?crop=2041:1068;80,248)
 
-En el mundo de la web, también se utilizan dashboards, de hecho wikipedia nos
-dice que un dashboard puede ser un resumen gráfico de varias piezas de
+## Aplicaciones en el mundo real
+
+En el mundo de la web es muy común el uso de _dashboards_. De hecho, [wikipedia](https://goo.gl/P7PF4y)
+nos dice que un _dashboard_ puede ser un resumen gráfico de varias piezas de
 información importante, generalmente utilizadas para dar una visión general de
-una empresa o de un servicio. Así tenemos dashboards como el de
-[Google Analytics](https://assets.econsultancy.com/images/resized/0003/3813/mobile_commerce_dashboard-blog-full.png)
-o el de [Mailchimp.](https://blog.mailchimp.com/wp-content/uploads/2016/11/Dashboard-view-3-Copy-1008x768.jpg)
+una empresa o de un servicio. Así, tenemos dashboards como los de:
 
-Para el proyecto #2 del bootcamp propondrás y crearás un dashboard.
+* [Google Analytics](https://assets.econsultancy.com/images/resized/0003/3813/mobile_commerce_dashboard-blog-full.png)
+  para visualizar la data de tráfico de sitios web.
 
-[Contexto sobre el tema, importancia, historia, ...: data (arreglos, objetos),
-JSON, DOM, XHR.]
+* [Mailchimp](https://blog.mailchimp.com/wp-content/uploads/2016/11/Dashboard-view-3-Copy-1008x768.jpg)
+  para visualizar el desempeño de campañas de mercadeo digital por correo
+  electrónico.
 
-## Objetivos
+* [Quickbooks](https://quickbooks.intuit.com/content/dam/intuit/quickbooks/branding/make-organization-easy-visual.png)
+  para visualizar la información financiera de una empresa.
 
-El objetivo principal de aprendizaje de este proyecto es construir una
-_interfaz_ web donde podamos visualizar y manipular data.
+Seguramente, a lo largo de tu carrera como diseñadora o desarrolladora, te
+tocará crear un _data dashboard_. Quizás sea para visualizar la data de un
+negocio de delivery de comida, o las rutas históricas de un negocio de
+transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
 
-Tópicos: [arrays](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/04-arrays), [objects](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/05-objects), [dom](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/02-dom), [xhr](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/browser/04-xhr), ...
+## Objetivos de aprendizaje
 
-Habilidades blandas:
+El objetivo principal de este proyecto es que aprendas a diseñar y construir una
+_interfaz web_ donde podamos visualizar y manipular data.
 
-* Esperamos que en este proyecto puedas pensar en el cliente, entendiendo cuál
-  es mejor sistema de visualización del data dashboard según sus necesidades.
-* Nos interesa que logres entender a las necesidades de los usuarios para los
-  que crearás el producto y los ayudes a resolver esas necesidades.
-* Además, que puedas trabajar de manera colaborativa con tu pareja, buscando
-  feedback constante para realizar el proyecto.
+Esperamos que puedas pensar en el usuario, entender cuál es la mejor manera de
+visualizar la data según sus necesidades, y plasmar todo eso en tu diseño en la
+web.
+
+Además, este proyecto se debe "resolver" en parejas, por lo que un objetivo
+importante es ganar experiencia en trabajos colaborativos con entrega grupal.
+
+## Tópicos a cubrir
+
+Tendrás que familiarizarte con conceptos como:
+_arrays_,_objects_, _dom_, _xhr_ y _visual design_.
+
+Además, reforzarás lo aprendido en el proyecto anterior: _valores, tipos,
+variables_, _control de flujo_ y _tests unitarios_.
 
 ## Consideraciones generales
-
-Este proyecto se debe "resolver" en parejas.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
@@ -73,8 +104,8 @@ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
 comando `npm test`.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
+Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio que
+contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
@@ -86,17 +117,17 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .gitignore
 ├── README.md
 ├── data
-│   ├── cohorts
-│   │   └── lim-2018-03-pre-core-pw
-│   │       ├── progress.json
-│   │       └── users.json
-│   └── cohorts.json
+│   ├── cohorts
+│   │   └── lim-2018-03-pre-core-pw
+│   │       ├── progress.json
+│   │       └── users.json
+│   └── cohorts.json
 ├── package.json
 ├── src
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 └── test
     ├── data.spec.js
     ├── fixtures.js
@@ -107,56 +138,96 @@ como toda la configuración de dependencias y tests de ejemplo:
 La carpeta `data/` dentro del _boilerplate_ incluye un extracto de la data que
 podemos usar tanto en los tests como en la interfaz en sí.
 
-## Parte obligatoria
+## Entregables
 
-### Definición del producto
+Los criterios mínimos de aceptación para considerar que has completado este
+proyecto son:
+
+### User Experience Design
+
+#### 1) Definición del producto
 
 En el `README.md` cuéntanos cómo pensaste y te acercaste a los usuarios al
-desarrollar tu producto y cuál fue tu proceso para definir el producto final a
-nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
-cuestionarios y/o sketches compártelos. Además, detalla:
+desarrollar tu producto (Tip: entrevistas) y cuál fue tu proceso para definir
+el producto final a nivel de experiencia y de interfaz. Es importante que
+detalles:
 
-* quiénes son los principales usarios de producto
-* cuáles son los objetivos de estos usarios en relación con el producto
-* cuáles son los dato más relevantes que el usuario quiere ver en la interfaz y
+* Quiénes son los principales usarios de producto.
+* Cuáles son los objetivos de estos usarios en relación con el producto.
+* Cuáles son los datos más relevantes que quieren ver en la interfaz y
   por qué. Cómo los descubriste.
-* cuándo es que el usuario revisar normalmente estos datos
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
-* cómo fue tu proceso de diseño
+* Cuándo revisan normalmente estos datos los usuarios.
+* Cómo crees que el producto les está resolviendo sus problemas.
+* Cómo fue tu proceso de diseño.
 
-### UI
+#### 2) Sketch de la solución (prototipo de baja fidelidad)
 
-La interfaz debe permitir al usuario:
+Debes hacer un _sketch_ (boceto) de tu solución usando papel y lápiz, tomarle
+una foto, subirla a tu repositorio y hacer mención del _sketch_ en tu `README.md`.
 
-* Listar/seleccionar cohorts
-* Dentro de cada cohort:
-  - Listar alumnas
-  - Para cada alumna:
-    + Calcular porcentaje de completitud de todos los _cursos_ por alumna.
-    + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
-      y _quizzes_.
-  - Ordenar alumnas por completitud _general_ (porcentaje consumido/completado
-    de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
-    autocorregidos_ y _quizzes_ (tanto por completitud - cuántos quizzes ha
-    completado del total - como por puntuación promedio de los quizzes
-    completados).
-  - Filtrar/buscar alumnas por nombre
-* Mostrar los datos más relevantes primero
-* Utiliza la interfaz sin problemas desde distintos tamaños de pantallas:
-  móviles, tablets, desktops
+#### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
-Además, la interfaz deberá seguir los fundamentos de visual design como
-contraste, alineación, jerarquía, entre otros.
+Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
+Para eso debes aprender a utilizar alguna herramienta de diseño visual.
+Nosotros te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
+que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
+embargo, eres libre de utilizar otros editores gráficos como
+Illustrator, Photoshop, PowerPoint, Keynote, etc.
 
-## Implementación
+El diseño debe representar tu _ideal_ de solución. Digamos que es lo que
+desearías implementar si tuvieras tiempo ilimitado para hackear.
+
+Tu diseño debe seguir los fundamentos de _visual design_, como:
+contraste, alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
+de la unidad de visual design.
+
+### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+
+Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
+Como mencionamos, **no** es necesario que construyas la interfaz tal como la
+diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás priorizar.
+
+Como mínimo, tu implementación debe:
+
+1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
+2. Al seleccionar un cohort:
+   - Listar las estudiantes de ese cohort
+   - Para cada estudiante:
+     + Calcular porcentaje de completitud de todos los _cursos_.
+     + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
+       y _quizzes_.
+   - Ordenar estudiantes por completitud _general_ (porcentaje consumido/completado
+     de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
+     autocorregidos_ y _quizzes_.
+   - Filtrar/buscar estudiantes por nombre.
+3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
+   tablets y desktops.
+4. Incluir pruebas unitarias.
+
+Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
+igual debe seguir los fundamentos de visual design, como: contraste,
+alineación, jerarquía, entre otros.
+
+## Detalles de Implementación
+
+### data.js
 
 El corazón de este proyecto es la manipulación de datos a través de arreglos y
-objetos. El _boilerplate_ incluye tests que esperan que implementes las
-siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
-script `src/data.js`:
+objetos. La idea de este archivo es contener toda la funcionalidad
+que corresponda a obtener, procesar y manipular datos.
 
-### `computeUsersStats(users, progress, courses)`
+Parte de un buen proyecto es que esté ordenado y que otras programadoras puedan
+acceder a el código rápidamente. Es por esto que este orden no es casualidad y
+es una convención que generalmente encontrarás en internet bajo el nombre MVC o
+Modelo Vista Controlador. En este proyecto Controlador y Modelo estarán bajo
+el archivo **data.js**.
+
+El _boilerplate_ incluye tests que esperan que implementes las
+siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
+script `src/data.js`, ten en cuenta que esto es solo lo básico, si necesitas más
+funciones puedes hacerlo :
+
+#### 1) `computeUsersStats(users, progress, courses)`
 
 Esta función es la responsable de "crear" la lista de usuarios (estudiantes)
 que vamos a "pintar" en la pantalla. La idea es "recorrer" el arreglo de
@@ -165,7 +236,7 @@ uno. La función debe devolver un nuevo arreglo de usuarios donde a cada objeto
 de usuario se le debe agregar una _propiedad_ con el nombre `stats` con las
 estadísticas calculadas.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos obtenido de la data en bruto.
 * `progress`: Objeto de progreso en bruto. Contiene una llave para cada usuario
@@ -174,10 +245,10 @@ estadísticas calculadas.
   cuestión. Esta data se puede extraer de la propiedad `coursesIndex` de los
   objetos que representan los _cohorts_.
 
-#### Valor de retorno
+##### Valor de retorno
 
-Un arreglo de objetos _usuario_ con la propiedad `stats`, la cual debe ser un
-objeto con las siguientes propiedades:
+Un arreglo de objetos `usersWithStats` con la propiedad `stats`, la cual debe
+ser un objeto con las siguientes propiedades:
 
 * `percent`: Número entero entre 0 y 100 que indica el porcentaje de completitud
   general del usuario con respecto a todos los cursos asignados a su cohort.
@@ -198,12 +269,12 @@ objeto con las siguientes propiedades:
     completados.
   - `scoreAvg`: Promedio de puntuaciones en quizzes completados.
 
-### `sortUsers(users, orderBy, orderDirection)`
+#### 2) `sortUsers(users, orderBy, orderDirection)`
 
 La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada con
 `computeUsersStats()` en base a `orderBy` y `orderDirection`.
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `orderBy`: String que indica el criterio de ordenado. Debe permitir ordenar
@@ -213,31 +284,31 @@ La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada co
 * `orderDirection`: La dirección en la que queremos ordenar. Posibles valores:
   `ASC` y `DESC` (ascendiente y descendiente).
 
-#### Valor de retorno
+##### Valor de retorno
 
 Arreglo de usuarios ordenado.
 
-### `filterUsers(users, search)`
+#### 3) `filterUsers(users, search)`
 
-#### Argumentos
+##### Argumentos
 
 * `users`: Arreglo de objetos creado con `computeUsersStats()`.
 * `search`: String de búsqueda.
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios incluyendo solo aquellos que complan la condición de
 filtrado, es decir, aquellos que contengan el string _search_ en el nombre
 (`name`) del usuario.
 
-### `processCohortData(options)`
+#### 4) `processCohortData(options)`
 
-Esta función es la que deberíamos estar al seleccionar un cohort y cada vez que
+Esta función es la que deberíamos usar al seleccionar un cohort y cada vez que
 el usuario cambia los criterios de ordenado y filtrado en la interfaz. Esta
 función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
 `filterUsers()`.
 
-#### Argumentos
+##### Argumentos
 
 * `options`: An object with the following keys:
   - `cohort`: Objeto cohort (de la lista de cohorts)
@@ -245,24 +316,77 @@ función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
     + `users`: Arreglo de usuarios miembros del cohort.
     + `progress`: Objeto con data de progreso de cada usuario en el contexto de
       un cohort en particular.
-  - `orderBy`: String con criterio de ordenado (ver `computeUsersStats`).
-  - `orderDirection`: String con dirección de ordenado (ver `computeUsersStats`).
+  - `orderBy`: String con criterio de ordenado (ver `sortUsers`).
+  - `orderDirection`: String con dirección de ordenado (ver `sortUsers`).
   - `search`: String de búsqueda (ver `filterUsers`)
 
-#### Valor de retorno
+##### Valor de retorno
 
 Nuevo arreglo de usuarios _ordenado_ y _filtrado_ con la propiedad `stats`
 añadida (ver `computeUsersStats`).
 
+### main.js
+
+Ten en cuenta también que existe otro archivo _main.js_ que no está solo por
+casualidad en la estructura del proyecto. En general es una buena idea ir
+separando la funcionalidad en varios archivos, ya que a medida que un proyecto
+crece, se vuelve insostenible dejar todo en un solo archivo. En este caso puedes
+usar _main.js_ para todo tu código que tenga que ver con mostrar los datos en la
+pantalla, y _data.js_ para todas las funciones que vimos que obtienen y
+manipulan los datos.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+### index.html
+
+Al igual que en el proyecto anterior, también existe un archivo `index.html`.
+Como ya sabrás, acá va la página que se mostrará al usuario de este tablero de
+información. También nos sirve para indicar qué scripts se usarán y unir todo lo
+que hemos hecho.
+
+### Data
+
+En esta carpeta están los datos de prueba del proyecto, contiene información
+sobre los cohortes (grupos de estudiantes de una generación y rama en particular),
+estudiantes y su progreso en cada uno de los cursos que son parte de cada cohorte.
+Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo método que
+usarías si es que estuvieses haciendo una llamada HTTP o a una API, pero usando
+una dirección **relativa**, ejemplo :
+
+```javascript
+"../data/cohorts.json"
+```
+
 ### Tests
 
 Tendrás también que completar las pruebas unitarias de estas funciones que se
-incluyen en el _boilerplate_.
+incluyen en el _boilerplate_, que encontrarás en el archivo `data.spec.js`.
+Si te fijas bien en la carpeta también encontrarás otros archivos, que
+detallaremos a continuación :
 
-### Habilidades blandas
+#### index.html
+
+No confundas este archivo con tu `index.html` del proyecto, este archivo es
+especial para los test y es una manera de ver el resultado de tus pruebas
+unitarias, pero en el navegador. Para arrancar las pruebas de esta forma,
+escribe en tu consola :
+
+```javascript
+npm run test-browser
+```
+
+Una página se abrirá en tu navegador conteniendo los resultados de las pruebas.
+
+#### fixtures.js
+
+Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es
+donde está el set de datos de prueba que se usarán para correr las pruebas.
+
+<!-- ### Habilidades blandas
 
 Para completar este proyecto deberás realizar una planificación general del
-proyecto, donde esperamos logres generar un plan paso a paso de cómo resolverás
+proyecto, donde esperamos que generes un plan paso a paso de cómo resolverás
 el proyecto. Deberás considerar las distintas secciones del data dashboard, los
 recursos y el tiempo que dispones.
 
@@ -283,115 +407,166 @@ Para finalizar, deberás presentar su data dashboard al resto del curso, para
 esto necesitarás que tu demo tenga acceso desde cualquier computador y que
 puedas realizar una presentación que permita a todos comprender lo realizado.
 Sabemos que puede ser una instancia difícil, esperamos que logres mostrar su
-trabajo y los demás lo comprendan.
+trabajo y los demás lo comprendan. -->
 
 ## Hacker edition
 
-Desde Laboratoria creemos que para llevar tu data dashboard al siguiente nivel
-necesitas trabajar en equipo y buscar feedback.
-
-Para eso buscas instancias de feedback o code review, entregando tu opinión a
-los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a
-los demás. Escuchas y valoras los comentarios y críticas de los demás,
-rescatando aspectos que te sirvan para su mejora.
-
-Además, realizas un excelente trabajo con tu pareja y squad. Trabajas de manera
-coordinada y contribuyes al objetivo común, entregando ideas para la
-construcción del producto, respetando el trabajo de tu compañera. Además,
-entregas tu trabajo a tiempo y colaboras con el objetivo final del data
-dashboard, ayudando a tu compañera con los pendientes, con el fin de entregar un
-proyecto de calidad.
-
-Para el lado de UX Design, puedes crear y testesar un prototipo usando
-softwares de diseño y prototipado como Marvel, Invision, Figma, entre otros.
-
 Features/características extra sugeridas:
 
-* [Live API](https://api.laboratoria.la/)
-* Gráficas
-* Detalle de progreso de cada alumna (por curso)
-* Estadísticas de progreso de todo el cohort
+* En lugar de consumir la data estática brindada en este repositorio, puedes
+  consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
+  Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
+* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
+* Brindar el detalle de progreso de cada estudiante _por curso_
+* Proveer estadísticas de progreso de todo el cohort
 
 ## Entrega
 
-El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages.
+En este proyecto deberás trabajar colaborativamente. Para ello, una de las
+integrantes del equipo deberá forkear el repositorio del cohort y la otra
+integrante **deberá hacer un fork del repositorio de su compañera**. Luego de
+esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+un `remote` hacia el repositorio del cual hiciste el fork.
+
+Para mandar cambios desde un repositorio forkeado al original debes crear un
+[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+y el propietario del repositorio original recibirá una notificación para
+[revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/)
+y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/).
+
+Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
+
+* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de
+  trabajo con dos ramas principales:
+  - `master`: rama que contiene las funcionalidades terminadas y sin errores.
+  - `develop`: rama dónde integrarás las funcionalidades conforme las vayas
+    desarrollando.
+
+* Además de tener las dos ramas anteriores, puedes trabajar cada nueva
+  funcionalidad en una rama individual (_feature branches_), estas ramas en
+  lugar de crearse a partir de `master`, tienen a `develop` como su rama de
+  origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`.
+  Las _feature branches_ no se deben integrar directamente a `master`.
+
+* Por último, te sugerimos codear usando la técnica de [pair programming](http://www.javiergarzas.com/2012/06/beneficios-pair-programming.html).
+
+¿Quieres saber más forks y pull requests?
+
+* Un [fork](https://help.github.com/articles/fork-a-repo/) es una copia de un
+  repositorio en el que puedes experimentar sin afectar al repositorio original.
+  Generalmente se usa para proponer cambios al proyecto de alguien más o para
+  usar el proyecto de otra persona como punto de partida para una idea que
+  quieras realizar.
+
+* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR)
+  te permite solicitar la inclusión de cambios al repositorio original (tu punto
+  de partida) en GitHub. Cuando un PR es abierto, este permite solicitar,
+  discutir y revisar los cambios realizados con todos los colaboradores y
+  agregar otros commits antes de que los cambios sean incluidos al repositorio
+  original.
 
 ## Evaluación
 
+Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. A
+continuación presentamos los niveles esperados para cada habilidad:
+
+### General
+
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
+| Completitud | 3
+| Investigación | 3
+| Documentación | 2
+
 ### Tech
 
-[tbd]
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 2
+| Nomenclatura/semántica | 3
+| Funciones/modularidad | 2
+| Estructuras de datos | 2
+| Tests | 2
+| **HTML** | |
+| Validación | 3
+| Estilo | 3
+| Semántica | 2
+| SEO | 0
+| **CSS** | |
+| DRY | 2
+| Responsive | 2
+| **SCM** | |
+| Git | 3
+| GitHub | 2
+| **CS** | |
+| Lógica | 1
+| Arquitectura | 2
+| Patrones/paradigmas | 0
 
 ### UX
 
-Para este proyecto queremos que intentes llegar al nivel 3 del skill User
-Centricity en tus UX skills. Adicionalmente, buscamos que llegues al nivel 2 en
-3 de las habilidades de visual design detalladas aquí y al nivel 3 en 2 de
-ellas. Te aconsejamos revisar la rúbrica.
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| User Centricity | 3 |
+| Entrevistas | 2 |
+| Contraste | 3 |
+| Alineación | 3 |
+| Jerarquía | 2 |
+| Tipografía | 2 |
+| Color | 2 |
 
-* **User centricity:** entiendes al usuario a través de la investigación,
-  realizas entrevistas y observas al usuario en ambientes controlados.
-* **Contraste:** diferencias colores de fondo y de texto en los componentes más
-  importantes como títulos y botones, diferenciándolos por su contraste.
-* **Alineación:** alineas los componentes más importantes como títulos, imágenes
-  y botones.
-* **Jerarquías:**  diferencias la importancia de algunos componentes en la
-  interfaz. Sin embargo, no hay consistencia en las jerarquías cuando se cambian
-  los tamaños de pantallas.
-* **Tipografías:** utilizas tipografías distintas a las que vienen por defecto.
-* **Color:** utilizas colores distintos a los que vienen por defecto. Usas
-  distintos colores para textos, botones, fondos, etc.
-* **Usabilidad:** aplicas al menos 3 de las 10 heurísticas de usabilidad de NN.
+### Habilidades Blandas
 
-### Habilidades blandas
+Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
-Para este proyecto esperamos que ya hayas alcanzado el nivel 2 en todas tus
-habilidades blandas. También esperamos que alcances nivel 3 en por lo menos tres
-de estas habilidades. Sabemos que no siempre es fácil pero puedes lograrlo.
-
-* **Trabajo en equipo:** trabajas de manera coordinada y contribuyes al objetivo
-  común, entregando ideas para la construcción del producto. Entregas tu trabajo
-  a tiempo y colaboras con el objetivo final del trabajo, con el fin de entregar
-  un producto de calidad.
-* **Dar y recibir feedback:** escuchas y valoras los comentarios y críticas de
-  los demás, rescatando aspectos que le sirvan para su mejora. Además, entregas
-  tu opinión a los demás de forma constructiva, fundamentada y coherente con el
-  fin de ayudar a tu squad o compañeras.
-* **Autoaprendizaje:** realizas preguntas sobre la materia, buscando aclarar
-  conceptos y resolver dudas. Además pides referencia de materiales que pueden
-  ser de utilidad para tu aprendizaje.
-* **Solución de problemas:** buscas soluciones alternativas a problemas de
-  diversa complejidad, a pesar de que no todas las soluciones puedan ser
-  correctas, buscas distintas fuentes para resolver el problema. Comienzas a
-  aplicar tu propia creatividad para resolver problemas independientemente.
-* **Planificación y manejo del tiempo:** utilizas herramientas de planificación,
-  como un calendario, trello, papelógrafo u otras, creando un plan paso a paso
-  de cómo quiere abarcar el reto o problema. Realizas una estimación realista
-  del tiempo.
-* **Adaptabilidad:** ante cambios inesperados o nuevos desafíos los recibes con
-  una actitud positiva, te adaptas y logras proponer soluciones creativas para
-  encontrar una nueva estrategia. De esta manera, logras asumir retos, enfrentas
-  los cambios repentinos, como trabajar con nuevos equipos o cambios en el
-  proyecto.
-* **Comunicación eficaz:** logras comunicar sus ideas a los demás, teniendo
-  capacidad de síntesis y articulando sus ideas con claridad.
-* **Presentaciones:** cualquier persona puede acceder al demo desde cualquier
-  equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar
-  en el demo, pudiendo enseñar algunas veces menos elementos pero funcionales.
-  Realizas algún contacto visual con la audiencia, te apropias del espacio
-  físico y hablas con un volumen y ritmo que no interfieren con el entendimiento
-  de la audiencia.
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| Planificación y organización | 2
+| Autoaprendizaje | 2
+| Solución de problemas | 2
+| Dar y recibir feedback | 2
+| Adaptabilidad | 2
+| Trabajo en equipo | 2
+| Comunicación eficaz | 2
+| Presentaciones | 2
 
 ***
 
+## Puntos de experiencia
+
+* Completando los requerimientos mínimos de este proyecto ganarás 250 XPs.
+* Completando el hacker edition de este proyecto ganarás 100 XPs adicionales.
+* Completando los ejercicios de manipulación de arreglos en el LMS (Añadir link)
+  ganarás otros 25 XPs.
+* Completando los ejercicios de manipulación de objetos en el LMS (Añadir link)
+  ganarás otros 25 XPs.
+
 ## Primeros pasos
 
-1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
-2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install`.
-4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   proyecto.
+1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+   condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   que es un programita que interpreta líneas de comando (command-line
+   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
+   aunque recomendaría que consideres probar :penguin: GNU/Linux.
+3. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
+   privado y te darán acceso de lectura en ese repo. La otra integrante del
+   equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
+   un `remote` hacia el mismo.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
+6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+   pruebas unitarias (unit tests) con el comando `npm test`.
+7. A codear se ha dicho! :rocket:
 
 ## Tips / Pistas
 
@@ -400,3 +575,28 @@ de estas habilidades. Sabemos que no siempre es fácil pero puedes lograrlo.
 * [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
 * [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
 * [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
+* [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
+* [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
+* [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
+* [XMLHttpRequest en MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+* [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [json.org](https://json.org/json-es.html)
+
+## Checklist
+
+* [ ] Usa VanillaJS.
+* [ ] No hace uso de `this`.
+* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
+      y un mínimo del 50% de branches.
+* [ ] Pasa tests (y linter) (`yarn test`)
+* [ ] Definición del producto en `README.md`.
+* [ ] Sketch de la solución (prototipo de baja fidelidad) en `README.md`.
+* [ ] Diseño de la Interfaz de Usuario (prototipo de alta fidelidad).
+* [ ] UI: Permitir al usuario seleccionar un cohort de una lista de cohorts.
+* [ ] UI: Al seleccionar un cohort, listar las estudiantes de ese cohort.
+* [ ] UI: Muestra porcentaje de completitud de todos los cursos por estudiante.
+* [ ] UI: Muestra completitud de lecturas, ejercicios autocorregidos y quizzes.
+* [ ] UI: Permite ordenar estudiantes por completitud general
+* [ ] UI: Permite ordenar estudiantes por completitud de lecturas, ejercicios y
+          quizzes).
+* [ ] UI: Permite filtrar/buscar estudiantes por nombre.

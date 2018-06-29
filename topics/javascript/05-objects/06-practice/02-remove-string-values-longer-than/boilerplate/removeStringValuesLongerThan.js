@@ -1,4 +1,5 @@
-function removeStringValuesLongerThan(num, obj) {
+const removeStringValuesLongerThan = (num, obj) => {
   // your code here
-}
+};
+
 module.exports = removeStringValuesLongerThan;

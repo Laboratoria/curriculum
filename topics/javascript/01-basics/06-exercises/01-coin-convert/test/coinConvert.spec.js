@@ -1,10 +1,7 @@
-'use strict';
-
 const Assert = require('chai').assert;
 const coinConvert = require('../solution/coinConvert');
 
 describe('coinConvert()', () => {
-
   it('debería regresar [162.5, 900, 33000], para $50', () => {
     const dollars = 50;
     const soles = dollars * 3.25;
@@ -28,5 +25,4 @@ describe('coinConvert()', () => {
     const pesosCl = dollars * 660;
     Assert.deepEqual(coinConvert(dollars), [soles, pesosMx, pesosCl]);
   });
-
 });

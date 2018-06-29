@@ -46,24 +46,32 @@
 
 #### Opciones
 
-1. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.background='red';
+1. Snippet 1:
+
+   ```js
+   var paragraph = document.getElementById('paragraph');
+   paragraph.style.background='red';
    ```
-2. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.backgroundColor='red';
+
+2. Snippet 2:
+
+   ```js
+   var paragraph = document.getElementById('paragraph');
+   paragraph.style.backgroundColor='red';
    ```
-3. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.backgroundColor='red';
+
+3. Snippet 3:
+
+   ```js
+   var paragraph = document.getElementById('paragraph');
+   paragraph.backgroundColor='red';
    ```
 
 <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
 
-```javascript
+```js
 var elementos = document.getElementsByClassName('unaClase');
 console.log(elementos);
 ```

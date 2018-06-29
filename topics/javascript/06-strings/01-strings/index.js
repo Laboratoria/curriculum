@@ -141,7 +141,8 @@ console.assert('I\'m the Walrus!' === "I'm the Walrus!");
 console.assert('My\n'.length === 3);
 
 //
-// Nota que los caracteres especiales, a pesar de estar compuestos por 2 caracteres, cuentan como un sólo caracter.
+// Nota que los caracteres especiales, a pesar de estar compuestos por 2
+// caracteres, cuentan como un sólo caracter.
 
 // ## Accediendo caracteres específicos
 

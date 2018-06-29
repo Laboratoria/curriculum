@@ -2,25 +2,26 @@
 
 Escriba una función llamada `getElementOfArrayProperty`.
 
-Dado un objeto, una clave y un índice numérico, `getElementOfArrayProperty`
-devuelve el valor del elemento en el índice dado del arreglo localizado dentro
-del objeto dado en la clave dada.
+Dado un objeto, una llave (nombre de una propiedad) y un índice numérico,
+`getElementOfArrayProperty` devuelve el valor del elemento en el índice dado del
+arreglo localizado dentro del objeto dado en la llave dada.
 
 Notas:
 
 - Si el arreglo está vacío, debería devolver `undefined`.
-- Si el índice dado está fuera de rango del arreglo ubicado en la clave dada,
+- Si el índice dado está fuera de rango del arreglo ubicado en la llave dada,
   debería devolver `undefined`.
-- Si la propiedad en la clave dada no es un arreglo, debería devolver
+- Si la propiedad en la llave dada no es un arreglo, debería devolver
   `undefined`.
-- Si no hay ninguna propiedad en la clave, debería devolverse `undefined`.
+- Si no hay ninguna propiedad en la llave, debería devolverse `undefined`.
 
 Ejemplo de entrada:
 
 ```js
-var obj = {
+const obj = {
  key: ['Jamil', 'Albrey']
 };
-var output = getElementOfArrayProperty(obj, 'key', 0);
-console.log(output); // --> 'Jamil'
+
+const output = getElementOfArrayProperty(obj, 'key', 0);
+console.log(output); // => 'Jamil'
 ```

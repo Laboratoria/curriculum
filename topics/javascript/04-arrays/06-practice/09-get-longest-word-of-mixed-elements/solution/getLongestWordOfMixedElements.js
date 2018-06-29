@@ -1,4 +1,4 @@
-function getLongestWordOfMixedElements(arr) {
+const getLongestWordOfMixedElements = (arr) => {
   if (arr.length === 0) {
     return '';
   }
@@ -20,6 +20,6 @@ function getLongestWordOfMixedElements(arr) {
   }
 
   return arr[index];
-}
+};
 
 module.exports = getLongestWordOfMixedElements;

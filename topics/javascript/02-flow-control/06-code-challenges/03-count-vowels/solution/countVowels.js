@@ -3,8 +3,8 @@ const countVowels = (str) => {
   const lowercased = str.toLowerCase();
   let counter = 0;
 
-  for (let i = 0; i < lowercased.length; i++) {
-    for (let j = 0; j < vowels.length; j++) {
+  for (let i = 0; i < lowercased.length; i += 1) {
+    for (let j = 0; j < vowels.length; j += 1) {
       if (lowercased[i] === vowels[j]) {
         counter += 1;
       }

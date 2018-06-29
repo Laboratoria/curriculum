@@ -12,12 +12,12 @@
 
 ## ¿Qué es Bootstrap?
 
-Bootstrap es un increíble framework que hace que el desarrollo web front-end
-sea más rápido y más fácil.
+Bootstrap es un increíble framework que hace que el desarrollo web front-end sea
+más rápido y más fácil.
 
-Inicialmente fue creado como una solución interna para Twitter y
-posteriormente fue liberado al público en agosto del 2011 como un proyecto
-Open Source en GitHub.
+Inicialmente fue creado como una solución interna para Twitter y posteriormente
+fue liberado al público en agosto del 2011 como un proyecto Open Source en
+GitHub.
 
 ![Bootstrap](https://cdn-images-1.medium.com/max/800/1*aJ_JLvfVyiQj5iYryIulhw.jpeg)
 
@@ -34,20 +34,21 @@ descargando Bootstrap de su página web.
 
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/c6232fc0a639688fc216c72d17e325a588abae9d/04-social-network/01-css-frameworks/02-bootstrap/bcdn.png)
 
-Si utilizamos las opción de descargar Bootstrap, debemos descomprimir y
-agregar los archivos del framework al proyecto. Además, debemos *linkear*
-todo en el HTML para que funcione.
+Si utilizamos las opción de descargar Bootstrap, debemos descomprimir y agregar
+los archivos del framework al proyecto. Además, debemos *linkear* todo en el
+HTML para que funcione.
 
 ![Bootstrap](https://cdn-images-1.medium.com/max/800/0*NuuR2bjpZck1wC6g.)
 
 Hablando de CDN, necesitamos entender: __¿Qué es CDN?__
 
 Imagina que quieres usar el CSS de Bootstrap o de alguna otra librería.
- Podríamos simplemente descargar el archivo .css o .js y agregarlo a nuestro HTML.
- Pero, ¿que pasa si este archivo __NO__ esta en nuestra computadora si
- no en algún lugar de internet?
+Podríamos simplemente descargar el archivo .css o .js y agregarlo a nuestro
+HTML. Pero, ¿que pasa si este archivo __NO__ esta en nuestra computadora si no
+en algún lugar de internet?
 
-Cuando tenemos el archivo en algún lugar de internet, en realidad está __en otra computadora__ alrededor del mundo.
+Cuando tenemos el archivo en algún lugar de internet, en realidad está __en otra
+computadora__ alrededor del mundo.
 
 ¿Que pasará si esta computadora esta al otro lado del mundo? ¿En China? ¿Korea?
 
@@ -62,7 +63,8 @@ Esto es por que conectarse a una computadora al otro lado del mundo es
 
 CDN significa __Content Delivery Network__ (Red de distribución de contenido).
 
-Imaginemos que la computadora que tiene el archivo de bootstrap.css esta originalmente en China.
+Imaginemos que la computadora que tiene el archivo de bootstrap.css está
+originalmente en China.
 
 Usando CDN ya no te conectas a China.
 
@@ -99,14 +101,14 @@ pantalla.
 | col-md-   | desktop  | >= 992 px |
 | col-lg-   | Desktop más grande| >= 1200 px |
 
-Además de la grid y lo mencionado antes, Bootstrap cuenta con muchos
-componentes que podemos reutilizar las veces que sean necesarias.
+Además de la grid y lo mencionado antes, Bootstrap cuenta con muchos componentes
+que podemos reutilizar las veces que sean necesarias.
 
 ### ¿Cómo hacemos uso de este gran poder?
 
-Para utilizar lo que ya nos ofrece nuestro framework, solo necesitamos ir a
-su página, buscar el componente que queremos usar y *copiar y pegar* en
-nuestro HTML el código que ahí nos viene.
+Para utilizar lo que ya nos ofrece nuestro framework, solo necesitamos ir a su
+página, buscar el componente que queremos usar y *copiar y pegar* en nuestro
+HTML el código que ahí nos viene.
 
 ![Bootstrap-btn](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/02-bootstrap/btn-example.PNG)
 

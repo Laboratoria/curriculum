@@ -52,6 +52,7 @@ Define los `PropTypes` para los siguientes tipos de `props`
 * Alguno de estos tres valores: `'manzanas'`, `'naranjas'`, `'plátanos'` o la
   siguiente forma `{ otro: '[cualquier otra fruta]' }`
 * una lista de `items` con identificadores únicos:
+
   ```js
   // valor valido
   const items = [

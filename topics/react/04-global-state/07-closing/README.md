@@ -23,11 +23,11 @@ simples. El secreto radica en el diseño de tus componentes.
 > Antes de comenzar a picar como unx locx, detente un segundo para diseñar tu
 > aplicación:
 >
-> - Define la jerarquía de tus componentes
-> - Define sus interfaces con sus props y prop-types
-> - Diseña la forma y partes de tu state
-> - Piensa en las actions que pueden suceder en tu app
-> - Y por último considera cómo evoluciona tu state: qué propiedades de tu state
+> * Define la jerarquía de tus componentes
+> * Define sus interfaces con sus props y prop-types
+> * Diseña la forma y partes de tu state
+> * Piensa en las actions que pueden suceder en tu app
+> * Y por último considera cómo evoluciona tu state: qué propiedades de tu state
 >   reccionan a qué actions
 >
 > Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y

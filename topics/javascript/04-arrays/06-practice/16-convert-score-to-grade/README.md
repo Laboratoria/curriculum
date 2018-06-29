@@ -16,6 +16,6 @@ Notas:
   'PUNTUACION INVALIDA'.
 
 ```js
-var output = convertScoreToGrade(91);
+const output = convertScoreToGrade(91);
 console.log(output); // -> 'A'
 ```
