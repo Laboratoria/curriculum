@@ -46,7 +46,7 @@ Quais outros você encontrou e gostaria de adicionar à sua página da web?
 Em certas ocasiões, você deseja adicionar muitas imagens relacionadas \(por exemplo, um menu com bandeiras de diferentes países\); No entanto, você já pensou em quão entediante seria adicionar cada imagem da bandeira de cada país? Para isso, existe uma técnica chamada `CSS sprites` que permitirá lidar com esse tipo de casos de maneira mais eficiente. Abaixo você pode aprender um pouco mais sobre o assunto nos seguintes links:
 
 * [Usando CSS Sprites](http://www.richardbarros.com.br/blog/design/usando-css-sprites-para-fazer-seu-site-carregar-mais-rapido)
-* [CSS Sprints - Maujor](http://www.maujor.com/tutorial/css-sprites.php)
+* [CSS Sprites - Maujor](http://www.maujor.com/tutorial/css-sprites.php)
 
 ## Referências
 
