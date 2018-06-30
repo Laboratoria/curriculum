@@ -124,7 +124,7 @@ en el apartado de entregables.
 #### Tomar pedidos
 
 * Seleccionar mesa
-* Agregar ítem al pedido
+* Agregar ítem al pedido (ver [requisitos del negocio](#requisitos-del-negocio))
 * Modificar pedido
 * Enviar a cocina (esto debe salvar el pedido)
 
@@ -250,6 +250,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 ### Serverless
 
 * [Qué es eso de serverless? - @PamRucinque en Medium](https://medium.com/@PamRucinque/qu%C3%A9-es-eso-de-serverless-f4f6c8949b87)
+* [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
 * [Firebase](https://firebase.google.com/)
 * [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
 
@@ -264,9 +265,11 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 * [Vue](https://vuejs.org/)
 * [Angular](https://angular.io/)
 
-### Lecturas complementarias
+### Herramientas
 
-* ...
+* [npm-scripts](https://docs.npmjs.com/misc/scripts)
+* [Babel](https://babeljs.io/)
+* [webpack](https://webpack.js.org/)
 
 ## Checklist
 
