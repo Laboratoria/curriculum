@@ -167,15 +167,11 @@ Algunas de las ideas que nos ha sugerido nuestros clientes son: agregar combos
 al menú, cupones de descuento, descuento por pago con efectivo, programa de
 fidelidad, etc.
 
-## Entrega
+## Entregables
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
-
-### Entregables
-
-[ tbd ]
 
 ## Evaluación
 
