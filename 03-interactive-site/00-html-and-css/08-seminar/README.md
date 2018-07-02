@@ -23,6 +23,6 @@ Certificar que entendemos bem os seguintes conceitos:
 
 ### 2. Revise os exemplos das leituras do MDN
 
-Revisemos os exemplos de código da documentação do MDN \(exemplos no codepen\) e modificar alguns para garantir que entendemos bem o que lemos.
+Revisemos os exemplos de código da documentação do MDN e modificar alguns para garantir que entendemos bem o que lemos.
 
 ### 3. Vamos rever os [exercícios guiados](09-guided-exercises)
