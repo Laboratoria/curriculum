@@ -81,7 +81,7 @@ La interfaz debe permitir lo siguiente:
 
 * Login con Firebase:
   - Solamente para el login es obligatorio usar Firebase, no para las
-    publicaciones en el muro ni las demás funcionalidades, pare eso puedes
+    publicaciones en el muro ni las demás funcionalidades, para eso puedes
     usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
   - Autenticación con Facebook - Google.
 * Validaciones:
@@ -167,11 +167,11 @@ Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
 ### UX
 
-Desde el punto de vista de UX, deberás:  
+Desde el punto de vista de UX, deberás:
 
 * Hacer un _benchmark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de alta fidelidad.
+* Hacer un  prototipo de alta fidelidad.
 * Testear el prototipo con usuarios.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
@@ -434,15 +434,15 @@ Otras:
 ### `README.md`
 
 * [ ] Definición del producto
-  * [ ] Cuáles son los elementos básicos que tiene una red social
-  * [ ] Quiénes son los principales usuarios de producto
-  * [ ] Cómo descubriste las necesidades de los usuarios
-  * [ ] Qué problema resuelve el producto para estos usuarios
-  * [ ] Cuáles son los objetivos de estos usuarios en relación con el producto
-  * [ ] Cuáles son las principales funcionalidades del producto y cuál es su
+  - [ ] Cuáles son los elementos básicos que tiene una red social
+  - [ ] Quiénes son los principales usuarios de producto
+  - [ ] Cómo descubriste las necesidades de los usuarios
+  - [ ] Qué problema resuelve el producto para estos usuarios
+  - [ ] Cuáles son los objetivos de estos usuarios en relación con el producto
+  - [ ] Cuáles son las principales funcionalidades del producto y cuál es su
     prioridad
-  * [ ] Cómo verificaste que el producto les está resolviendo sus problemas
-  * [ ] Cómo te asegurarás que estos usuarios usen este producto
+  - [ ] Cómo verificaste que el producto les está resolviendo sus problemas
+  - [ ] Cómo te asegurarás que estos usuarios usen este producto
 * [ ] Benchmark de las principales redes sociales.
 * [ ] Resumen de entrevistas con usuarios.
 * [ ] Link/screenshots prototipo de alta fidelidad.
