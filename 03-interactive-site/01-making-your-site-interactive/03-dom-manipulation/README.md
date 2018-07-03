@@ -387,6 +387,11 @@ function startAnimation() {
 
 Podemos ver esse exercício na próxima [pen](https://codepen.io/Si7v4n4/pen/OjdZer) .
 
+Veja o vídeo com mais algumas explicações sobre animação:
+
+[![Animando o HTML com Javascript](https://i.ytimg.com/vi/HdBKDbq_7QU/hqdefault.jpg)](https://www.youtube.com/watch?v=HdBKDbq_7QU&t=47s)
+
+
 ### Detalhe de JavaScript para animações
 
 Com DOM e Javascript temos várias formas de executar código ou agendar sua execução e agora veremos com mais detalhes as funções que nos permitem isso. Devemos lembrar que até as funções podem ser armazenadas como variáveis, assim como podemos passá-las como parâmetros de outras funções.
