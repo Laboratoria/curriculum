@@ -54,6 +54,7 @@ propuestos por empresas/empleadores externos.
 #### Proyecto: [Cipher](projects/01-cipher)
 
 * Duración estimada: 2 semanas.
+* Equipos: 1 estudiante
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
@@ -62,17 +63,19 @@ propuestos por empresas/empleadores externos.
 #### Proyecto: [Data Dashboard](projects/02-data-dashboard)
 
 * Duración estimada: 3 semanas.
+* Equipos: 2 estudiantes
 * Tópicos: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
   [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
 
-#### Proyecto: [Social Network](projects/03-social-network) (wip)
+#### Proyecto: [Social Network](projects/03-social-network)
 
 * Duración estimada: 3 semanas.
-* Tópicos: [Responsive](topics/css/02-responsive),
+* Equipos: 3 estudiantes
+* Tópicos: **Mobile first**, [Responsive](topics/css/02-responsive),
   [URL](topics/the-web/04-url), [HTTP](topics/the-web/05-http),
-  [Async](topics/javascript/08-async), [Errors](topics/javascript/09-errors),
-  [Debugging](topics/javascript/10-debugging).
+  [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
+  datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
 ### Etapa 2: Deep dive
 
@@ -82,17 +85,23 @@ proyectos en paralelo.
 
 #### Front End Dev (JavaScripters)
 
-##### Proyecto: Restaurant (tbd)
+Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
+[JavaScript Funcional](topics/functional).
+
+##### Proyecto: [Burger Queen](projects/04-burger-queen) (wip)
 
 * Duración estimada: 4 semanas.
-* Tópicos: Modules, [Paradigms](topics/paradigms),
-  [Functional JavaScript](topics/functional).
+* Equipos: 2-3 estudiantes
+* Tópicos: **Offline first**, Service Workers, Módulos, Serverless, Cloud
+  Functions, Frameworks, React, Redux, Vue, Angular.
 
-##### Proyecto: Library (tbd)
+##### Proyecto: [Markdown Links](projects/04-md-links) (wip)
 
 * Duración estimada: 4 semanas.
-* Tópicos: Modules, [Paradigms](topics/paradigms),
-  [Functional JavaScript](topics/functional).
+* Equipos: 1 estudiante
+* Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
+  Módulos, [Errores](topics/javascript/09-errors),
+  [Depuración](topics/javascript/10-debugging).
 
 #### UX
 
