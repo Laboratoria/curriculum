@@ -84,7 +84,7 @@ La interfaz debe permitir lo siguiente:
     publicaciones en el muro ni las demás funcionalidades, pare eso puedes
     usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
   - Autenticación con Facebook - Google.
-* Validaciones:.
+* Validaciones:
   - No pueden haber usuarios repetidos.
   - La cuenta de usuario debe ser un correo electrónico válido.
   - Lo que se escriba en el campo (_input_) de contraseña debe ser secreto.
