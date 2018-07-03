@@ -87,7 +87,7 @@ La interfaz debe permitir lo siguiente:
 * Validaciones:.
   - No pueden haber usuarios repetidos.
   - La cuenta de usuario debe ser un correo electrónico válido.
-  - Lo que se escriba en el campo(_input_) de contraseña debe ser secreto.
+  - Lo que se escriba en el campo (_input_) de contraseña debe ser secreto.
 * Comportamiento:
   - Al enviarse un formulario de registro o inicio de sesión, debe validarse.
   - En caso haya errores, el sistema debe mostrar mensajes de error para
@@ -477,4 +477,4 @@ Otras:
 * [ ] Pide confirmación antes de borrar posts.
 * [ ] Permite editar posts (in place).
 * [ ] Permite filtrar posts por público/amigos.
-* [ ] Permite marcar posts como _gustados_ (like) y llevar un conteo de los likes.
+* [ ] Permite dar _like_ a los posts y llevar un conteo de ellos.
