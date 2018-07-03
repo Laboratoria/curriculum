@@ -3,7 +3,7 @@
 *.log
 .vscode/
 node_modules/
-.idea
+.idea/
 
 #documents extensions
 **.[pP][dD][fF]
