@@ -48,7 +48,7 @@ Funciona de maneira semelhante ao textContent, mas, além de mostrar o texto que
 
  No vídeo a seguir, vemos de uma maneira prática, como usar `.innerHTML` e `.textContent`:
 
- [Modificando, substituindo e excluindo nós](https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16)
+ [Modificando, substituindo e excluindo nós](https://www.youtube.com/watch?v=jWpUT_dF8EA)
 
 ### value
 
@@ -440,4 +440,3 @@ Você pode combinar por meio de várias funções `setTimeout()` e `setInterval(
 * [https://developer.mozilla.org/es/docs/Referencia\_DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#Importancia_de_los_tipos_de_datos#Interfaces_esenciales_en_el_DOM)
 * [https://www.w3schools.com/jsref/met\_win\_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp)
 * [https://www.w3schools.com/jsref/met\_win\_settimeout.asp](https://www.w3schools.com/jsref/met_win_settimeout.asp)
-
