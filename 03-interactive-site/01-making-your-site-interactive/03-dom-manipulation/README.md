@@ -389,7 +389,7 @@ Podemos ver esse exercício na próxima [pen](https://codepen.io/Si7v4n4/pen/Ojd
 
 Veja o vídeo com mais algumas explicações sobre animação:
 
-[![Animando o HTML com Javascript](https://i.ytimg.com/vi/HdBKDbq_7QU/hqdefault.jpg)](https://www.youtube.com/watch?v=HdBKDbq_7QU&t=47s)
+[![Animando o HTML com Javascript](https://i.ytimg.com/vi/HdBKDbq_7QU/hqdefault.jpg)](https://www.youtube.com/watch?v=HdBKDbq_7QU&)
 
 
 ### Detalhe de JavaScript para animações

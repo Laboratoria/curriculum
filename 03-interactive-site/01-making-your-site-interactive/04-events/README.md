@@ -132,6 +132,11 @@ Estes são alguns dos eventos mais usados:
 
 [Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um exemplo sobre interação com eventos.
 
+Veja o vídeo com mais algumas explicações sobre eventos:
+
+[![Javascript: reagindo a eventos](https://i.ytimg.com/vi/bauo90jsVzk/hqdefault.jpg)](https://www.youtube.com/watch?v=bauo90jsVzk)
+
+
 > Guia de uso:
 >
 > 1. Observe como o fundo é branco
