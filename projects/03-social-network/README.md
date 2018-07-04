@@ -470,13 +470,13 @@ Otras:
 * [ ] Permite editar publicación en el mismo lugar.
 * [ ] Permite filtrar publicaciones por público/amigos.
 * [ ] Permite marcar publicaciones como _gustados_ (like, corazón, estrella,
- etc...).
+  etc...).
 * [ ] Permite agregar amigos.
 * [ ] Permite eliminar amigos.
 * [ ] Permite compartir publicación (en twitter esto es retwittear, en facebook
-   es compartir).
+  es compartir).
 * [ ] Permite comentar o responder una publicación.
 * [ ] Permite editar perfil.
 * [ ] Permite ver perfil o resumen desde el _muro_ o lista de publicaciones.
 * [ ] Permite ver cuántas marcas, likes, estrellas, corazones o lo que se haya
-  elegido, ha recibido una publicación. 
+  elegido, ha recibido una publicación.
