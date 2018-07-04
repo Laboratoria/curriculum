@@ -103,7 +103,9 @@ Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_,
 
 ![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
 
-Confira este [vídeo](https://youtu.be/lgkqf6hldEk?t=15m5s) onde você encontrará um exemplo prático do fluxo que os eventos seguem.
+Veja o vídeo com mais algumas explicações sobre eventos:
+
+[![Javascript: reagindo a eventos](https://i.ytimg.com/vi/bauo90jsVzk/hqdefault.jpg)](https://www.youtube.com/watch?v=bauo90jsVzk)
 
 ## Tipo de eventos
 
@@ -131,11 +133,6 @@ Estes são alguns dos eventos mais usados:
 * debouncing
 
 [Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um exemplo sobre interação com eventos.
-
-Veja o vídeo com mais algumas explicações sobre eventos:
-
-[![Javascript: reagindo a eventos](https://i.ytimg.com/vi/bauo90jsVzk/hqdefault.jpg)](https://www.youtube.com/watch?v=bauo90jsVzk)
-
 
 > Guia de uso:
 >
