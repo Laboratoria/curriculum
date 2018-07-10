@@ -1,7 +1,7 @@
 # Abertura: A Web em um Dispositivo Móvel
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `15min`
 
 ***

@@ -1,7 +1,7 @@
 # Grid System
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `30min`
 
 ***

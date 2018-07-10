@@ -1,7 +1,7 @@
 # Media Queries e Viewport
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `30min`
 
 ***

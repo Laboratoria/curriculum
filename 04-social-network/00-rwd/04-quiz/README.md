@@ -1,7 +1,7 @@
 # Quiz #1
 
 - Tipo: `quiz`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `15min`
 
 ## Objetivos

@@ -1,7 +1,7 @@
 # Abertura: Não reinvente a roda
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `15min`
 
 ***

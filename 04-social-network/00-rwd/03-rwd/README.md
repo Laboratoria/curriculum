@@ -1,7 +1,7 @@
 # Web Design Responsivo
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `20min`
 
 ***

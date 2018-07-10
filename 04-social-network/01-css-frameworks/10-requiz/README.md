@@ -23,20 +23,20 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Porqué usamos Frameworks?
+### 2) Por que usamos Frameworks?
 
-#### Opciones
+#### Opções
 
-1. Porque usándolos no hacemos código desde cero y ahorramos tiempo
-2. Porque nos ahorra hacer la maquetación de nuestra página
-3. Nos asegura que nuestro código va a ser flexible
-4. Nos asegura que nuestro código va a ser funcional
+1. Porque usando-os não fazemos códigos do zeo e economizamos tempo
+2. Porque nos economiza tempo para fazer o leiaute de nossa página
+3. Garante-nos que nosso código será flexível
+4. Garante-nos que nosso código será funcional
 
 <solution style="display:none;">1,4</solution>
 
-### 3) Ejemplos de componentes que podemos encontrar en un Framework
+### 3) Exemplos de componentes que podemos encontrar em um Framework
 
-#### Opciones
+#### Opções
 
 1. section.row
 2. grid
@@ -45,19 +45,19 @@
 
 <solution style="display:none;">2,4</solution>
 
-### 4) Ventaja de usar un Framework
+### 4) Vantagem de usar um Framework
 
-#### Opciones
+#### Opções
 
-1. Mejora la navegación del sitio en los distintos navegadores por el `reset`
-2. Mejora la compatibilidad del sitio en los distintos navegadores por el `reset`
-3. Los estilos los controlas 100% desde el `html`
+1. Melhorar a navegação do sítio web em diferentes navegaores por meio do `reset` 
+2. Melhorar a compatibilidade do sítio web em diferentes navegadores por meio do `reset`
+3. Controlar os estilos 100% pelo `html`
 
 <solution style="display:none;">2</solution>
 
-### 5) ¿Cómo se adjunta el cdn?
+### 5) Como se adiciona o CDN?
 
-#### Opciones
+#### Opções
 
 1. ` <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
 2. ` <link rei="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
@@ -66,31 +66,31 @@
 
 <solution style="display:none;">4</solution>
 
-### 6) Formas de agregar un Framework al área de tu trabajo
+### 6) Formas de adicionar un Framework à sua área de trabalho
 
-#### Opciones
+#### Opçõs
 
-1. Adjuntando una hoja de estilos
-2. Comprando una licencia de Bootstrap
-3. Vía remota agregando el `cdn` a nuestro `html`
-4. Descargando el Framework y enlazándolo
+1. Adicionando uma folha de estilos
+2. Comprando uma licença de Bootstrap
+3. Remotamente adicionando o `cdn` a nosso `html`
+4. Baixando o Framework e adicionando-o
 
 <solution style="display:none;">3,4</solution>
 
-### 7) Según el estándar CSS, ¿cuál es el número de columnas que componen la distribución de una página?
+### 7) De acordo com o padrão CSS, qual é o número de colunas que compõem a diagramação de uma página?
 
-#### Opciones
+#### Opções
 
 1. 11
 2. 10
 3. 12
-4. Según el diseño
+4. De acordo com o leiaute
 
 <solution style="display:none;">3</solution>
 
-### 8) Framework CSS desarrollado por Google
+### 8) Framework CSS desenvolvido pelo Google
 
-#### Opciones
+#### Opções
 
 1. Materialize
 2. Foundation
@@ -98,9 +98,9 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Framework desarrollado inicialmente para Twitter
+### 9) Framework desenvolvido inicialmente pelo Twitter
 
-#### Opciones
+#### Opções
 
 1. Materialize
 2. Foundation
@@ -108,9 +108,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) Según Bootstrap, ¿cuáles son las clases para el sistema de grid?
+### 10) De acordo com o Bootstrap, quais são as classes para o sistem de *grid*?
 
-#### Opciones
+#### Opções
 
 1. container, row, col-xs-12, col-sm-12, col-md-12, col-lg-12
 2. container, row, col s12, col m12, col l12 xl12
@@ -118,9 +118,9 @@
 
 <solution style="display:none;">1</solution>
 
-### 11) Contenedor que usa todo el ancho de la pantalla de nuestro dispositivo
+### 11) Contêiner que usa toda a largura da tela em nosso dispositivo
 
-#### Opciones
+#### Opções
 
 1. Container-all
 2. container
@@ -128,14 +128,14 @@
 
 <solution style="display:none;">3</solution>
 
-### 12) Dispositivos que se toman en cuenta en un framework
+### 12) Dispositivos que são levados em conta em um framework
 
-#### Opciones
+#### Opções
 
 1. Mobile
 2. Tablet
 3. Ipad
 4. Desktop
-5. Projector
+5. Projetor
 
 <solution style="display:none;">1,2,4</solution>

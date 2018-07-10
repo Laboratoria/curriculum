@@ -1,7 +1,7 @@
 # Desafios
 
 - Tipo: `prática`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `20h`
 
 ## Objetivos

@@ -1,7 +1,7 @@
 # Bootstrap
 
 - Tipo: `leitura`
-- Formato: `ritmo próprio`
+- Formato: `individual`
 - Duração: `60min`
 
 ***
