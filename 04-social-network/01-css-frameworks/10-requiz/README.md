@@ -6,23 +6,20 @@
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
-  entendimiento pleno de los conceptos.
+- Fazer um segundo quiz para garantir que terminamos a unidade com um entendimento completo dos conceitos. 
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es un Framework?
+### 1) O que é um Framework?
 
-#### Opciones
+#### Opções
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera un 
-modelo metodológico preestablecido
-2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
-3. Hoja de estilo externa a nuestro proyecto
-4. Herramienta de organización que podemos usar en nuestros proyectos como si 
-fuera un modelo pedagógico preestablecido
+1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um modelo metodológico pré-estabelecido
+2. Linguarem de programação baseada em CSS que ajuda a projetar mais rapidamente
+3. Folha de estilo externa a nosso projeto
+4. Ferramenta de organização que podemos usar em nosso projeto como se fosse um modelo pedagógico pré-estabelecido
 
 <solution style="display:none;">1</solution>
 
