@@ -1,23 +1,21 @@
-# Solucionario Red Social X
+# Solução Rede Social X
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `3h`
+- Duração: `3h`
 
 ## Objetivos
 
-- Revisar las soluciones de la red social X
-- Entender que existe más de una forma de resolver los problemas y analizar
-  las ventajas y desventajas de cada solución propuesta
+- Revisar as soluções da rede social X
+- Entender que existe más de uma maneira de resolver os problemas e analizar as vantagens e desvantagens de cada solução proposta
 
 ***
 
 ## Agenda
 
-1. Por medio de ejemplos nos aseguramos que entendemos:
-   - Qué es Responsive web design
-   - Usar un framework CSS
-   - Cómo agregar interacción ágilmente con jQuery
+1. Por meio de exemplos devemos garantir que entendemos:
+   - O que é Web Design Responsivo
+   - Usar um framework CSS
+   - Como adicionar integração agilmente com jQuery
 
-2. Resolver dudas de las partes más complejas del producto final en base a lo
-   percibido en la clase
+2. Resolver dúvidas das partes mais complexas do produto final com base no que foi observado pela turma
