@@ -1,4 +1,4 @@
-# Resolução dos Desafios de Código
+# Resolução dos Desafios
 
 - Tipo: `seminário`
 - Formato: `guiado`

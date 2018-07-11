@@ -1,23 +1,21 @@
-# Closing: Agiliza tu desarrollo
+# Encerramento: Agilize seu desenvolvimento
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `100min`
+- Duração: `100min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Revisemos o que aprendemos até agora
 
-### 2. Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
+### 2. Respondamos às perguntas da abertura
 
-### 3. Respondamos las preguntas del opening
+- O que é jQuery?
 
-- ¿Qué es jQuery?
+- O que é e como são utilizados os seletores de jQuery?
 
-- ¿Qué son y cómo se ocupan los selectores de jQuery?
+- É possível manipular o DOM com jQuery?
 
-- ¿Se puede manejar el DOM con jQuery?
-
-- ¿Cómo podemos crear Eventos con jQuery?
+- Como podemos criar Eventos com jQuery?

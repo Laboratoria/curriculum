@@ -1,109 +1,93 @@
 # jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-- Conocer quién es este nuevo amigo
-- Saber cómo lo incluimos en nuestros proyectos
+- Conhecer quem é este novo amigo
+- Saber como o incluir em nossos projetos
 
-## ¿Qué es jQuery?
+## O que é jQuery?
 
-Ya nos queda claro que este nuevo amigo se lleva súper bien con los frameworks
-de CSS, pero en realidad conocemos muy poco de él, así que en esta lección
-vamos a profundizar en su información para poder conocerlo mejor y entonces ver
-si lo incluimos en nuestro círculo de nuevas amistades o no.
+Já é claro para nós que este novo amigo funciona muito bem com os frameworks de CSS, mas na verdade o conhecemos pouco. Assim, nesta unidade vamos nos aprofundar em seu detalhe para poder conhecê-lo melhor e verificar se podemos incluí-lo em nosso círculo de novas amizades ou não.
 
-[jQuery](https://jquery.com/) es una librería de JavaScript (**no** es un
-**framework**) y nos ofrece las siguientes características:
+[jQuery](https://jquery.com/) é uma bliblioteca de JavaScript (**não** é um **framework**) e fornece as seguintes características:
 
-- Facilita la manera de interactuar con los documentos HTML
-- Manipulación del DOM
-- Manejar eventos
-- Desarrollar animaciones
-- Agregar interacciones con AJAX
+- Facilita a maneira de interagir com os documentos HTML
+- Manipulação do DOM
+- Manipular eventos
+- Desenvolver animações
+- Adicionar interações com AJAX
 
-### ¿Cómo lo incluimos?
+### Como o adicionamos?
 
-Para incluirlo en nuestro proyecto contamos con dos opciones:
+Para incluí-lo em nosso projeto temos duas opções:
 
-1. [Descargando](http://jquery.com/download/) la librería de jQuery e
-   incluirla en el proyecto.
+1. [Baixando](http://jquery.com/download/) a biblioteca de jQuery e incluindo-a no projeto.
 
    ```html
    <script src=”jquery-3.2.1.min.js”></script>
    ```
 
-2. Incluyendo el [CDN](https://code.jquery.com/) de jQuery.
+2. Incluindo a [CDN](https://code.jquery.com/) de jQuery.
 
    ```html
    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    ```
 
-Debemos recordar enlazar nuestro jQuery antes que otros scripts,
-ya que muchos frameworks e incluso nuestro propio código dependerán de
-esta librería.
+Devemos lembrar de linkar nosso jQuery antes de outros scripts, já que muitos frameworks e nosso próprio código dependerão desta biblioteca.
 
-### Ok, ya queremos usarlo
+### Ok, já queremos usá-lo
 
-Ya casi estamos listas para probar, equivocarnos, iterar y triunfar!
+E quase estamos prontas para testar, errar, repetir e vencer!
 
-La sintaxis de jQuery está hecha para seleccionar elementos de HTML y realizar
-alguna acción sobre el elemento.
+A sintaxe de jQuery está feita para selecionar elementos de HTML e realizar alguma ação sobre o elemento.
 
-La sintaxis básica de jQuery es:
+A sintaxe básica de jQuery é:
 
 ```js
 $('selector').evento();
 ```
 
-- El signo `$()` nos indica que estamos trabajando con jQuery
-- El `'selector'` es el/los elementos HTML a encontrar y/o consultar
-- El `.evento()` es la acción que se realizará con el elemento. El paréntesis
-  que lleva puede ir vacío o con una función o parámetros, según lo que se
-  esté utilizando.
+- O código `$()` indica que estamos trabalhando com jQuery
+- O `'selector'` é o/os elementos HTML para retornar e/ou consultar
+- O `.evento()` é a ação que será realizada com o elemento. O parênteses que o acompanha pode ir vazio ou com uma função ou parâmetros, de acordo com o que se está utilizando.
 
 ![menu-lateral](images/sintaxis-jquery.png)
-Ejemplos:
+Exemplos
 
 ```js
-$(this).hide() - oculta el elemento actual.
+$(this).hide() - oculta o elemento atual.
 
-$("p").hide() - oculta todos los elementos <p>.
+$("p").hide() - oculta todos os elementos <p>.
 
-$(".test").hide() - oculta todos los elementos con class = "test".
+$(".test").hide() - oculta todos os ementos com class = "test".
 
-$("#test").hide() - oculta el elemento con id = "prueba".
+$("#test").hide() - oculta o elementeo com id = "prova".
 ```
 
-Ya que incluimos jQuery en nuestro proyecto y tenemos clara la sintaxis,
-necesitamos indicar o esperar que nuestro documento este completamente cargado
-y listo antes de trabajar con él.
+Já que incluímos jQuery em nosso projeto e temos clara a sintaxe, precisamos indicaar ou esperar que nosso documento esteja completamente carregado e pronto antes de trabalhar com ele.
 
-Así que en nuestro archivo `js` usamos:
+Logo em nosso arquivo  `js` usamos:
 
 ```js
 $(document).ready(function() {
-  //código a ejecutar
+  //código a executar
 });
 ```
 
-- Tal como explicamos más arriba, al utilizar `$(document)` sabemos que estamos
-  utilizando jQuery y además, especificamos que vamos a manipular el documento
-  HTML.
+- Tal como explicamos mais acima, ao utilizar `$(document)` sabemos que estamos utilizando jQuery e, além disso, especificamos que vamos manipular o documento HTML.
 
-  > **Nota:** `document` no es un elemento HTML, por eso no va entre comillas.
+  > **Nota:** `document` não é um elemento HTML, por isso não aparece entre aspas.
 
-- `.ready()` es un método de jQuery que ejecuta una función hasta que se cargue
-  por completo el DOM.
+- `.ready()` é um método de jQuery que executar uma função apenas quando o DOM está completamente carregado.
 
-El código completo se utiliza para decirle a nuestro código que se ejecute
-en cuanto se cargue el documento de nuestra página.
+O código completo é utilizado para dizer a nosso código que seja executado quando se complete o carregamento de nossa página.
 
-#### La filosofía de jQuery es: *¨Write less, do more¨*
+#### A filosofia de jQuery é: *¨Write less, do more¨*
 
-Y no se tú, pero a mi parecer nuestro círculo de amigos va en aumento!
+Eu não sei você, mas para mim parece que nosso círculode amigos está aumentando!
