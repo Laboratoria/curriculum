@@ -58,4 +58,4 @@ Pode conseguir as fotografias [neste link](https://drive.google.com/drive/folder
 
 Você pode assistir ao vídeo a seguir para saber como criar e utilizar um *grid system*
 
-[![Criando un grid system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+[![Criando un grid system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=Ml36qp6Dmds)

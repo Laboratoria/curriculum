@@ -89,4 +89,4 @@ Para utilizar o que já nos oferece nosso framework, só necessitamos ir à sua 
 
 E assim fácil e maravilhosamente já temos nosso botões.
 
-Se quisermos saber um pouco mais sobre Bootstrap e como funciona [aquí](https://www.youtube.com/playlist?list=PLhSj3UTs2_yWTKvu1Aq3xUhzIJNBZ3MFW) há uma série de vídeos, mas sempre é mais divertido testá-lo nós mesmas.
+Se quisermos saber um pouco mais sobre Bootstrap e como funciona [aqui](https://www.youtube.com/watch?v=_0PL45xM__0&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR) há uma série de vídeos, mas sempre é mais divertido testá-lo nós mesmas.

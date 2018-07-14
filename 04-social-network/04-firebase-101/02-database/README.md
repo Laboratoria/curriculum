@@ -14,4 +14,4 @@ Uma base de dados é um "armazém" que nos permite guardar grandes quantidades d
 
 Firebase também nos oferece uma base de dados pronta para usarmos des que criemos nosso projeto no console. Nesta ocasião, para saber como fazer uso da base de dados usaremos o seguinte vídeo.
 
-[vídeo](https://youtu.be/HI4TH-Z-szU)
+[vídeo](https://www.youtube.com/watch?v=ML1f7uAf3L4)

@@ -20,4 +20,4 @@ Observamos que do lado esquerdo temos um menu lateral e podemos encontrar as op�
 
 Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é mas se já leu de toda forma sua documentação e continua sem encontrar o *segredo* para que funcione, aqui temos um vídeo que explica um pouco mais o passo a passo para que triunfemos!
 
-[vídeo](https://youtu.be/uRaeF7qtBXs)
+[vídeo](https://www.youtube.com/watch?v=Ao7zGGUypWI)

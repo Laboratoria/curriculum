@@ -29,7 +29,7 @@ Vamos criar um carrossel de imagens!
 O tema é totalmente livre. Devem funcionar tanto as setas de 
 El tema es totalmente libre, deben funcionar tanto las flechas de rolagens como com os botões indicadores, os quais devem corresponder a cada imagem.
 
-[Aqui](https://www.canva.com/design/DACpQdILjaY/Wmj5ueXGm1KML8EaWRI7tw/view?website) podemos ver o passo a passo de como resolvê-lo.
+[Aqui](http://www.drcode.com.br/jquery/como-fazer-um-carrossel-com-jquery/) podemos ver o passo a passo de como resolvê-lo.
 
 ### 2. Agenda de contatos
 

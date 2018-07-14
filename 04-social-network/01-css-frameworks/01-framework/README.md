@@ -27,8 +27,8 @@ Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito 
 Isso não significa que são substitutos para entender CCS ou que não mexeremos com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos e estilis incríveis e totalmente personalizados, e conhecer muito melhor CSS!
 
 Aqui deixamos alguns vídeos introdutórios a alguns frameworks.
-+ [Bootstrap](https://youtu.be/_2TLe8DyhEY)
-+ [Materialize](https://youtu.be/Plk9vbu7a3c?t=18s)
++ [Bootstrap](https://www.youtube.com/watch?v=wiq1Zs9-qMQ)
++ [Materialize](https://www.youtube.com/watch?v=JNTfjNCBl5c)
 
 Algumas das ferramentas que podemos encontrar nos frameworks de CSS são:
 

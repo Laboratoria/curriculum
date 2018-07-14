@@ -43,6 +43,6 @@ Exemplos:
 
 > **Nota:** Todos os seletores de jQuery começam com o símbolo de dólar e parênteses: `$()`.
 
-Neste [link](https://www.w3schools.com/jquery/jquery_ref_selectors.asp) há uma lista muito completa de diferentes seletores. Não vamos tentar aprender todos. Por enquanto nos basta saber que já há lugares onde essa informação está. Então apenas dê uma olhada nele e volte quando precisar de algo muito específico.
+Neste [link](http://www.w3im.com/pt/jquery/jquery_ref_selectors.html) há uma lista muito completa de diferentes seletores. Não vamos tentar aprender todos. Por enquanto nos basta saber que já há lugares onde essa informação está. Então apenas dê uma olhada nele e volte quando precisar de algo muito específico.
 
 Além disso, se desejar praticar os seletores que pode utilizar, [aqui](http://sk.kapsi.fi/interactive-jquery-tester.html) você pode escrever um *snippet* (pedaço de código) HTML e escrever os seletores que desejar e ele vai destacar os elementos que o seletor identificar.

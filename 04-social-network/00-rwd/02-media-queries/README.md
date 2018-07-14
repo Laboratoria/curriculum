@@ -63,10 +63,10 @@ Você pode se aprofundar um pouco mais em *Media Queries* e *Viewport* em:
 
 - Video: Media Queries
 
-[Media Queries](https://www.youtube.com/watch?v=VWL7I71pU2A)
+[Media Queries](https://www.youtube.com/watch?v=AltqAPZzAqo)
 
-- [Como utilizamos as *media queries*?](http://www.bytpher.com/c/1m/6-los-media-queries)
+- [Como utilizamos as *media queries*?](https://www.chiefofdesign.com.br/media-queries-css-introducao-a-diferentes-resolucoes-de-tela/)
 
 ### Material adicional
 
-Além disso, em seu tempo livre você pode ler um pouco sobre *Device Pixel Ratio* ou *DPR* como também é conhecido ;). [Veja aqui o conteúdo](https://binaria.com/blog/device-pixel-ratio-consejos-para-desarrolladores/).
+Além disso, em seu tempo livre você pode ler um pouco sobre *Device Pixel Ratio* ou *DPR* como também é conhecido ;). [Veja aqui o conteúdo](http://sergiolopes.org/resolucoes-dpi-pixel-ratio-retina/).

@@ -33,7 +33,7 @@ As vantagens de utilizar um Web Design Responsivo são:
 
 Você pode conhecer um pouco mais sobre Web Design Responsivo nos links a seguir:
  
-- [Introdução RWD](https://www.youtube.com/watch?v=vr-YtKTlyh8)
-- [Projeto web: Design Responsivo e a importância de *mobile first*](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
-- [Imagens em projeto responsivo web com CSS](https://www.silocreativo.com/imagenes-en-diseno-web-responsive-con-css/)
-- [Entendendo a diferença entre *mobile-first*, design responsivo e adaptativo](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
+- [Introdução RWD](https://www.youtube.com/watch?v=HZfESVi3Ebk)
+- [Projeto web: Design Responsivo e a importância de *mobile first*](https://www.360br.com.br/blog/mobile-first-entenda-importancia-de-ter-um-site-responsivo/)
+- [Imagens em projeto responsivo web com CSS](https://tableless.com.br/imagens-responsivas-de-alta-performance/)
+- [Entendendo a diferença entre *mobile-first*, design responsivo e adaptativo](https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181)
