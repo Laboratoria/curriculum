@@ -102,28 +102,34 @@ nuestra función. Para solucionar esto, primero atrapamos el error y después lo
 devlolvemos como argumento al _callback_.
 
 ```js
-const getLatestNodeInfo = (cb) =>
+const getLatestNodeInfo = (callback) =>
   http.get('http://nodejs.org/dist/index.json', (resp) => {
-    const { statusCode, headers } = resp;
-
+    const statusCode = resp.statusCode;
+    const headers = resp.headers;
+    const contentType = headers['content-type'];
+    
     if (statusCode !== 200) {
-      return cb(new Error(`Request Failed. Status Code: ${statusCode}`));
-    } else if (!/^application\/json/.test(headers['content-type'])) {
-      return cb(new Error(`Bad content-type. Expected application/json but got ${contentType}`));
+      // El protocolo no falló, pero servidor devolvió un código no favorable.
+      return callback(new Error(`Request Failed. Status Code: ${statusCode}`));
+    } else if (!/^application\/json/.test()) {
+      // El servidor envió un contenido, pero no es de tipo JSON.
+      return callback(new Error(`Bad content-type. Expected application/json but got ${contentType}`));
     }
 
     let rawData = '';
     resp.setEncoding('utf8');
+    // Evento que se ejecuta cada que se recibe un pedazo de código
     resp.on('data', (chunk) => { rawData += chunk; });
+    //Evento que se ejecuta una vez que se transmiten todos los pedazos de código
     resp.on('end', () => {
       try {
         const parsedData = JSON.parse(rawData);
-        cb(null, parsedData.shift());
       } catch (err) {
-        cb(err);
+        callback(err);
       }
+      callback(null, parsedData.shift());
     });
-  }).on('error', cb);
+  }).on('error', callback);// Hubo un error en el protocolo HTTP
 ```
 
 Esta nueva implementación nos asegura que los errores que puedan ocurrir en
