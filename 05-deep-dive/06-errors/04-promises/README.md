@@ -39,7 +39,7 @@ const getLatestNodeInfo = () => new Promise((resolve, reject) => {
     resp.on('end', () => {
       let parsedData = [];
       try {
-        parsedData = [] JSON.parse(rawData);
+        parsedData = JSON.parse(rawData);
       } catch (err) {
         reject(err);
         return;
