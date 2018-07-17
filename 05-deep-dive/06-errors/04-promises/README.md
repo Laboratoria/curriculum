@@ -37,12 +37,14 @@ const getLatestNodeInfo = () => new Promise((resolve, reject) => {
     resp.setEncoding('utf8');
     resp.on('data', (chunk) => { rawData += chunk; });
     resp.on('end', () => {
+      let parsedData = [];
       try {
-        const parsedData = JSON.parse(rawData);
-        resolve(parsedData.shift());
+        parsedData = [] JSON.parse(rawData);
       } catch (err) {
         reject(err);
+        return;
       }
+      resolve(parsedData.shift());
     });
   }).on('error', reject);
 });
