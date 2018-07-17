@@ -122,8 +122,9 @@ const getLatestNodeInfo = (callback) =>
     resp.on('data', (chunk) => { rawData += chunk; });
     //Evento que se ejecuta una vez que se transmiten todos los pedazos de código
     resp.on('end', () => {
+      let parsedData = [];
       try {
-        const parsedData = JSON.parse(rawData);
+        parsedData = JSON.parse(rawData);
       } catch (err) {
         callback(err);
       }
