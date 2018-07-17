@@ -127,6 +127,7 @@ const getLatestNodeInfo = (callback) =>
         parsedData = JSON.parse(rawData);
       } catch (err) {
         callback(err);
+        return;
       }
       callback(null, parsedData.shift());
     });
