@@ -128,4 +128,18 @@ const getLatestNodeInfo = (cb) =>
 
 Esta nueva implementación nos asegura que los errores que puedan ocurrir en
 nuestra función siempre se pasen como argumentos al _callback_ recibido por el
-usuario.
+usuario. Podemos ver un ejemplo de eso de esta función a continuación.
+
+```js
+//Pasamos un callback que recibe como parametros los posibles errores y la data.
+getLatestNodeInfo((error, data) => {
+    
+    if(error) {
+      //Manejamos el error aquí
+      return;
+    }
+    // En caso de éxito continuamos la ejecución
+    console.log(data);
+});
+```
+
