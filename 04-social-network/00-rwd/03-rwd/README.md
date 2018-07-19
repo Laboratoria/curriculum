@@ -1,50 +1,39 @@
-# Responsive Web Design
+# Web Design Responsivo
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Conocer Responsive Web Design
-- Entender las ventajas del uso de Responsive Web Design en nuestro sitio web
+- Conhecer o Web Design Responsivo
+- Entender as vantagens do uso de Web Design Responsivo em nosso sítio web
 
-## ¿Qué es Responsive Web Design?
+## O que é Web Design Responsivo?
 
-Responsive Web Design se trata de una técnica de diseño y desarrollo web por
-el que se consigue que un único sitio se adapte perfectamente a todos los
-dispositivos desde ordenadores de escritorio a tablets, teléfonos móviles, etc. 
+Web Design Responsivo se trata de uma técnica de projeto e desenvolvimento web pelo qual se consegue que um único sítio se adapte perfeitamente a todos os dispositivos como computadores de mesa, tablets, *smartphones*, etc.
 
-¿Cómo hace esto? Utilizando HTML y CSS para cambiar el tamaño, ocultar, reducir, ampliar o mover el contenido para que se vea bien en cualquier pantalla.
+Como se faz isto? Utilizando HTML e CSS para trocar o tamanho, ocultar, reduzir, ampliar ou mover o conteúdo para que se veja corretamente em qualquer tela.
 
-![Ejemplo Responsive Web Design](https://designmodo.com/wp-content/uploads/2011/10/4.jpg)
+![Exemplo de Web Design Responsivo](https://designmodo.com/wp-content/uploads/2011/10/4.jpg)
 
-Los elementos básicos necesarios para contruir una página con Responsive Web
-Design, son al menos los tres siguientes:
+Os elementos básicos necessários para construir uma página com Web Design Responsivo são ao menos os três a seguir:
 
-- Una estructura flexible, basada en Grid System.
-- Imágenes y multimedia flexible.
-- Media queries.
+- Uma estrutura flexível, baseada em *Grid System*.
+- Imagens e múltimídia flexíveis.
+- *Media queries*.
 
-Las ventajas de utilizar Responsive Web Design son:
+As vantagens de utilizar um Web Design Responsivo são:
 
-- Con una sola versión en HTML y CSS se cubren todas las resoluciones de
-  pantalla, es decir, el sitio web creado estará optimizado para todo tipo de
-  dispositivos. Esto mejora la experiencia de usuario a diferencia de lo que
-  ocurre, por ejemplo, con sitios web de ancho fijo cuando se acceden desde
-  dispositivos móviles.
+- Com só uma versão em HTML e CSS são atendidas todas as resoluções de tela, ou seja, o sítio web criado estará otimizado para todo tipo de dispositivos. Isso melhora a experiência do usuário diferente do que ocorre, por exemplo, com sítios web de largura fixa que são acessados de dispositivos móveis. 
 
-- Eficiencia en la actualización. El sitio solo se debe actualizar una vez y se
-  ve reflejado en todas las plataformas. Cuando tenemos los portales
-  independientes para Web y Mobile se debe realizar la actualización dos veces
-  lo que crea la necesidad de mayor cantidad de recursos y posibilidad de error.
+- Eficiência na atualização. O sítio web só precisa ser atualizado uma vez e funcionará em todas as plataformas. Quando temos os portais independentes para Web e Mobile é necessária a atualização duas vezes, o que cria uma necessidade maior de recursos e maior possibilidade de erros. 
 
-Puedes conocer un poco más sobre Responsive Web Design en los siguientes links:
+Você pode conhecer um pouco mais sobre Web Design Responsivo nos links a seguir:
  
-- Video: Introducción a RWD
-  [Intro RWD](https://www.youtube.com/watch?v=vr-YtKTlyh8)
-- [Diseño web: Responsive Design y la importancia del mobile first](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
-- [Imágenes en diseño web responsive con CSS](https://www.silocreativo.com/imagenes-en-diseno-web-responsive-con-css/)
-- [Understanding the difference between mobile-first, adaptive and responsive design](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
+- [Introdução RWD](https://www.youtube.com/watch?v=HZfESVi3Ebk)
+- [Projeto web: Design Responsivo e a importância de *mobile first*](https://www.360br.com.br/blog/mobile-first-entenda-importancia-de-ter-um-site-responsivo/)
+- [Imagens em projeto responsivo web com CSS](https://tableless.com.br/imagens-responsivas-de-alta-performance/)
+- [Entendendo a diferença entre *mobile-first*, design responsivo e adaptativo](https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181)

@@ -224,13 +224,16 @@ Nesta [leitura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a
 
 ## Recapitulando
 
-Finalmente, veja o seguinte vídeo da Lulu onde ela menciona os conceitos de DOM.
+Finalmente, veja os seguintes vídeos do Rafa e do Daniel, onde eles mencionam os conceitos de DOM.
 
-[![Revis&#xE3;o DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+[![Selecionando Elementos do DOM](https://img.youtube.com/vi/p6bFYISoD3s/hqdefault.jpg)](https://www.youtube.com/watch?v=p6bFYISoD3s)
 
-[![Percorrendo o DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
+[![Manipulando o HTML (parte 1)](https://i.ytimg.com/vi/6mzK28lEZsI/hqdefault.jpg)](https://www.youtube.com/watch?v=6mzK28lEZsI)
+
+[![Manipulando o HTML (parte 2)](https://i.ytimg.com/vi/fDz1IgduZxA/hqdefault.jpg)](https://www.youtube.com/watch?v=fDz1IgduZxA)
+
+[![Manipulando o HTML (parte 3)](https://i.ytimg.com/vi/7MKCrho0nho/hqdefault.jpg)](https://www.youtube.com/watch?v=7MKCrho0nho)
 
 Também temos o [link (português de Portugal - pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#O_que_.C3.A9_o_DOM.3F) para a documentação oficial do Mozilla sobre o que é o DOM.
 
 Outro [link (pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#Como_eu_acesso_o_DOM.3F) de como acessar elementos do DOM com JS da documentação oficial.
-

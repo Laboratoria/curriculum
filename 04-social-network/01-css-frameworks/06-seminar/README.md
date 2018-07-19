@@ -1,25 +1,24 @@
-# Clase de Conceptos
+# Aula de Conceitos
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
-  equipo de profesores
-- ¡Aclarar todas las dudas que tengas!
+- Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua equipe de professoras
+- Esclarecer todas as dúvidas que tenhas!
 
 ## Agenda
 
-### 1. Repaso de conceptos generales
+### 1. Revisão de conceitos gerais
 
-Asegurar que entendemos bien los siguientes temas:
+Garantir que entendemos bem os seguintes temas:
 
 - Frameworks css
-- Cómo lo incluyo en mi desarrollo
-- La funcionalidad en algunos componentes
+- Como o adiciono em meu desenvolvimento
+- A funcionalidade de alguns componentes
 
-### 2. Revisemos los [ejercicios guiados](07-guided-exercises)
+### 2. Revisemos os [exercícios guiados](07-guided-exercises)

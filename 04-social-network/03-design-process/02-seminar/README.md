@@ -1,33 +1,33 @@
-# Clase de Conceptos
+# Aula de Conceitos
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `1h`
+- Duração: `1h`
 
 ***
 
 ## Objetivos
 
-- Revisar y consolidar los conceptos aprendidos por medio de una clase con tu
-  equipo de profesores
-- ¡Aclarar todas las dudas que tengas!
+- Revisar e consolidar os conceitos aprendidos por meio de uma classe com sua equipe de professoras
+- Esclarecer todas as dúvidas que tenhas!
 
 ## Agenda
 
-### 1. El proceso de diseño
+### 1. O processo de design
 
-1. **Descubrimiento e investigación:** cuando identificamos las necesidades de los usuarios y buscamos data e inspiración para diseñar un producto.
-2. **Síntesis y definición:** usamos los datos coleccionados en la fase 1 buscando tendencias e insights valiosos para el desarrollo del producto, y entendemos los deseos y necesidades del público al que estará dirigido nuestro producto. Finalmente, definimos los componentes/funcionalidades que tendrá nuestro MVP.
+1. **Descobrimento e investigação:** quando identificamos as necessidades dos usuários e buscamos dados e inspiração para projetar um produto.
 
-3. **Ideación:** buscamos las mejores maneras para ejecutar/desarrollar las funcionalidades definidas en la fase 2. Se elaboran sketches y se decide qué propuesta se ejecutará.
+2. **Síntese e definição:** usamos os dados coletados na fase 1 buscando tendências e *insights* valiosos para o desenvolvimento do produto e entendemos os desejos e necessidades do público que ao qual será direcionado nosso produto. Finalmente, definimos os componentes/funcionalidades que terá nosso MVP.
 
-4. **Prototipado:** buscamos la mejor manera de acomodar los componentes del producto y elaboramos el MVP con distintas herramientas.
+3. **Criação:** buscamos as melhores maneiras para executar/desenvolver as funcionalidades definidas na fase 2. São elaborados desenhos e decide-se qual proposta será executada.
 
-5. **Testeo con usuarios:** en esta etapa probamos nuestros prototipos con usuarios para obtener su feedback.
+4. **Prototipação:** buscamos a melhor maneira de acomodar os componentes ddo produto e elaboramos o MVP com diferentes ferramentas.
+
+5. **Teste com usuários:** nesta etapa testamos nossos protótipos com os usuários para conseguir seu feedback.
 
 
-### 2. Reflexión sobre cómo fue cada etapa del proceso de diseño durante el ejercicio 
+### 2. Reflexão sobre como foi o processo de design durante o exercício
 
-### 3. Documental `Design Disruptors`
+### 3. Documentário `Design Disruptors`
 
 [![design disruptors](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/dd-thumb.jpg)](https://www.youtube.com/watch?v=W4AViRgrgkU)

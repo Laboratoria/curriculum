@@ -1,33 +1,23 @@
-# Firebase: Autenticación
+# Firebase: Autenticação
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## ¿Qué es y cómo podemos usar la autenticación?
+## O que é e como podemos usar a autenticação?
 
-La autenticación es una manera de identificar a los usuarios en nuestra
-app/desarrollo. En la lectura anterior vimos como integrar Firebase en nuestro
-proyecto, ahora vamos a ver que se necesita para integrar la autenticación y
-que nuestros usuarios puedan acceder de esta manera a  nuestra app.
+A autenticação é uma maneira de identificar os usuários em nosso app/desenvolvimento. Na leitura anterior vimos como integrar o Firebase em nosso projeto. Agora veremos o que é necessário para integrar a autenticação e que nossos usuário podem acessar dessa maneira o nosso app.
 
-Ya se mencionó que en la página de Firebase viene toda la info que necesitamos,
-solo es cosa de buscarla, pero para no perder tanto tiempo [aquí](https://firebase.google.com/docs/auth/?authuser=0)
-puedes leer acerca de la *Autenticación*.
+Já mencionamos em na página do Firebase vem toda a informação que necessitamos mas para não perdermos tanto tempo [aqui](https://firebase.google.com/docs/auth/?authuser=0) você pode ler sobre a *Autenticação*.
 
-Y en este otro [link](https://firebase.google.com/docs/auth/web/start?authuser=0)
-podemos ver los pasos necesarios para empezar.
+E neste outro [link](https://firebase.google.com/docs/auth/web/start?authuser=0) podemos ver os passos necessários para começar.
 
-Observamos que del lado izquierdo tenemos un menú lateral, ahí podemos
-encontrar las opciones que tenemos para que nuestros usuarios accedan:
+Observamos que do lado esquerdo temos um menu lateral e podemos encontrar as opções possívels para que nossos usuários acessem:
 
 ![menu-lateral](https://raw.githubusercontent.com/Laboratoria/curricula-js/4b5f150a38604e2f0854ec556edc48e53ef2b211/04-social-network/04-firebase-101/01-auth/images/menu-lateral.png)
 
-Ahora ya sólo debemos de seguir los pasos que ahí nos vienen. Muchas veces
-parece ser más rebuscado de lo que es pero si de todos modos ya te leíste su
-documentación y sigues sin dar con el *secreto* para que funcione, aquí tenemos
-un vídeo que nos explica un poco más el paso a paso para que triunfemos!
+Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é mas se já leu de toda forma sua documentação e continua sem encontrar o *segredo* para que funcione, aqui temos um vídeo que explica um pouco mais o passo a passo para que triunfemos!
 
-[vídeo](https://youtu.be/uRaeF7qtBXs)
+[vídeo](https://www.youtube.com/watch?v=Ao7zGGUypWI)

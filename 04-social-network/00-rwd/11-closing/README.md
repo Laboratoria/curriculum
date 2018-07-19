@@ -1,21 +1,19 @@
-# Closing: La web desde un móvil
+# Encerramento: A Web em um Dispositivo Móvel
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `120min`
+- Duração: `120min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Revisemos o que aprendemos até agora
 
-### 2. Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
+### 2. Respondamos às perguntas da abertura
 
-### 3. Respondamos las preguntas del opening
-
-- ¿Qué es Responsive Web Design?
-- ¿Cuál es la ventaja de utilizar Responsive Web Design en nuestra página web?
-- ¿Qué son los Media Queries y para qué se utilizan?
-- ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
-- ¿Para qué sirve la etiqueta meta viewport?
+- O que é Web Design Responsivo?
+- Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?
+- O que é *Grid System*? Explique com um exemplo e um diagrama
+- O que são *Media Queries* e para que servem?
+- Para que serve a tag *meta viewport*?
