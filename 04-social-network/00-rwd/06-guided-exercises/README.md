@@ -38,7 +38,7 @@ Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Voc�
 
 ### 3. Love Love Panda Desu
 
-Crie uma página web para os amantes dos pandas. Pode obter as imagens [neste link](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
+Crie uma página web para os amantes dos pandas. Pode obter as imagens [neste link](https://github.com/rafaelbcerri/love-panda).
 
 - Versão 1: Crie sua página utilizando um *grid system* da sua escolha (que não faça parte de um framework como Bootstrao ou Materialize).
 - Versão 2: Crie sua própria versão móvel da página.
@@ -48,7 +48,7 @@ Crie uma página web para os amantes dos pandas. Pode obter as imagens [neste li
 ### 4. Rock Site
 
 Replique as imagens a seguir colocando em prática seus conhecimentos de `grid system`.
-Pode conseguir as fotografias [neste link](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
+Pode conseguir as fotografias [neste link](https://github.com/rafaelbcerri/rock-site)
 
 ![Rock Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
 
@@ -56,6 +56,8 @@ Pode conseguir as fotografias [neste link](https://drive.google.com/drive/folder
 
 ***
 
-Você pode assistir ao vídeo a seguir para saber como criar e utilizar um *grid system*
+Você pode assistir aos vídeos a seguir para saber como criar e utilizar um *grid system*
 
-[![Criando un grid system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=Ml36qp6Dmds)
+[![Grid Layout • Crie layouts rapidamente com CSS3](https://img.youtube.com/vi/RNvQzo4DoOA/0.jpg)](https://www.youtube.com/watch?v=RNvQzo4DoOA)
+
+[![FrontInVale 2017 - CSS Grid Layout por Maujor](https://img.youtube.com/vi/6hBFRwpXQko/0.jpg)](https://www.youtube.com/watch?v=6hBFRwpXQko)

@@ -16,7 +16,7 @@ E neste outro [link](https://firebase.google.com/docs/auth/web/start?authuser=0)
 
 Observamos que do lado esquerdo temos um menu lateral e podemos encontrar as opções possívels para que nossos usuários acessem:
 
-![menu-lateral](https://raw.githubusercontent.com/Laboratoria/curricula-js/4b5f150a38604e2f0854ec556edc48e53ef2b211/04-social-network/04-firebase-101/01-auth/images/menu-lateral.png)
+![menu-lateral](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/04-firebase-101/side_menu.png?raw=true)
 
 Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é mas se já leu de toda forma sua documentação e continua sem encontrar o *segredo* para que funcione, aqui temos um vídeo que explica um pouco mais o passo a passo para que triunfemos!
 
