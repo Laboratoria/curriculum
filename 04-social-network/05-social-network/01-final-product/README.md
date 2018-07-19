@@ -1,6 +1,6 @@
 # Produto Final: Rede Social X
 
-- Tipo: `prática`
+- Tipo: `exercício`
 - Formato: `individual`
 - Duração: `15h`
 
