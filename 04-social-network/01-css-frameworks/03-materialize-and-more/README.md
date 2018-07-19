@@ -1,58 +1,35 @@
-# Materialize y otros
+# Materialize e outros
 
-- Tipo: `lectura`
-- Formato: `self-paced`
+- Tipo: `leitura`
+- Formato: `individual`
 - Duración: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Conocer y manipular otros frameworks.
+- Conhecer e manipular outros frameworks.
 
-## Materialize y otros frameworks
+## Materialize e outros frameworks
 
-Bootstrap no podía ser el único framework en existir. Aquí veremos otros que
-son bastante populares y fuertes competidores de Bootstrap:
+Bootstrap não poderia ser o único framework a existir. Aqui veremos outros que são bastante populares e fortes competidores de Bootstrap:
 
 ![Materializecss](https://i.pinimg.com/originals/11/32/de/1132de743af11b94448b08e4e69e7bdf.jpg)
 
-**Materialize** es un framework de CSS basado en Material Design. Cuenta con
-una serie de herramientas y componentes predefinidos como modales, botones,
-menús, formularios, preloaders entre otros. Además posee un sistema de grillas
-que facilita el desarrollo para distintos tamaños y dispositivos e integra la
-fuente Roboto propuesta por Google en su estilo de diseño.
+**Materialize** é um framework de CSS baseado em *Material Design*. Com com uma série de ferramentas e componentes predefinidos como boas práticas, botões, menus, formulários entre outros. Ele também tem um sistema de *grid* que facilita o desenvolvimento para diferentes tamanhos e dispositivos e integra o fonte Roboto proposto pelo Google em seu estilo de projeto.
 
-[Materialize](http://materializecss.com) también posee cuatro tipos diferentes
-de columnas: **s, m, l y xl**.
+[Materialize](http://materializecss.com) também possui quatro tipos diferentes de colunas: **s, m, l y xl**.
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
-**Foundation** es un framework responsive que incluye componentes de
-tipografía, formularios, botones, barras de navegación y otros, así como
-extensiones de Javascript opcionales. [Foundation](https://foundation.zurb.com)
-está mantenida por zurb.com y es un proyecto de código abierto.
-Foundation también posee un framework para email responsive.
+**Foundation** é um framework responsivo que inclui componentes de tipografia, formulários, botões, barras de navegação e outros, assim como extenções Javascript opcionais. [Foundation](https://foundation.zurb.com) é mantida por zurb.com e é um projeto de código aberto. Foundation também possui um framework para e-mail responsivo.
 
-### Y entonces, ¿cuál usamos?, ¿cuál es mejor?
+### E então, qual usamos? Qual é melhor?
 
-Aquí es a consideración de cada una y la única manera de saber cuál nos
-funciona o gusta más es haciendo uso de ellos. Probar y variar, a prueba y
-error!
+Aqui é uma escolha de cada uma e a única maneira de saber qual nos funciona ou gostamos mais é fazedo uso deles. Testar e variar, testar e errar!
 
 ### Material adicional
-<<<<<<< HEAD
-Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
+Se quiser praticar um pouco sobre como funcionam esses dois frameworks, aqui deixamos pequemos cursos que poderá fazerm em seu tempo livre
 
-1. [Materialize](https://codigofacilito.com/cursos/materialize)
-2. [Foundation](https://www.youtube.com/watch?v=SYf8O1vdqWk&list=PLPiMTe_552ODTFnYc2jD3SqwRAvq2GTPw)
-=======
-
-Si quieres practicar un poco sobre como funcionan estos 2 frameworks, acá te
-dejamos unos pequeños cursos que podrás hacer en tu tiempo libre ;)
-
-1. [Materialize](https://codigofacilito.com/cursos/materialize)
-2. Foundation
-
-   [![Foundation](https://img.youtube.com/vi/SYf8O1vdqWk/0.jpg)](https://www.youtube.com/watch?v=SYf8O1vdqWk)
->>>>>>> ff9f1bd3cbab6f582385e0b50fca83971de3fe9f
+1. [Materialize](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk)
+2. [Foundation](https://www.youtube.com/watch?v=y9MhCyDdJ8I&index=8&list=PLBg0qy4vMd5EyUcJF5roRM0WATzENxCaE)

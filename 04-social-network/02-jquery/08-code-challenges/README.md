@@ -1,82 +1,69 @@
-# Retos
+# Desafios
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `20h`
+- Tipo: `prática`
+- Formato: `individual`
+- Duração: `20h`
 
 ## Objetivos
 
-- A continuación te presentamos los retos que debes completar para poner tus
-  conocimientos a prueba. Recuerda que con estos ejercicios debes aplicar
-  manejo del DOM  y eventos con Jquery.
+- A seguir apresentamos os desafios que você deve completar para testar seus conhecimentos. Lembre-se que com estes exercícios você deve utilizar manipulação do DOM e eventos com jQuery.
 
 ***
 
 ### 1. F O O D M A P
 
-Crea una web-app que a través de un input pueda filtrar los restaurantes
-que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
-puedes crear una lista de restaurantes en un arreglo, en un objeto, de manera
-individual. El diseño es totalmente libre)*.
+Crie um web-app que por meio de um *input* seja possível filtrar os restaurantes que estejam próximos a você. *(Você deve decidir a estrutura que terão seus dados. Você pode criar uma lista de restaurantes com um *array* ou um objeto, de forma individual. O projeto é totalmente livre)*.
 
-#### Flujo de la aplicación.
+#### Fluxo da aplicação.
 
-Vista splash con duración de 2 a 5 segundos que redirecciona a tu vista
-principal.
+Tela *splash* com duração de 2 a 5 segundos que redireciona para a página principal.
+
 ![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
 
-En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección *(Los criterios de filtrado son decisión
-tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
+Na página principal são apresentados todos os restaurantes "perto de você" junto com o *input* para filtrar sua seleção *(os critérios de filtro são decisão sua; pode ser por tipo de comida, preço, ordem alfabética, etc.)*.
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
-![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+![Tela principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
+Uma vez feita a seleção do filtro devem ser exibidos unicamente os restaurantes que atendam à condição.
+
+![Tela filtrada](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+
+Ao selecionar algum dos restaurantes, será exibida a informação dele por meio de um modal.
+
 ![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
 
-Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+Uma vez fechado o modal, deve retornar à tela principal.
+
+![última tela](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
 
 ### 2. L Y F T
 
-Desarrolla una web-app que replique el sitio de **Lyft**, en este reto deberás
-cumplir los pasos necesarios para que tu usuario pueda registrarse.
+Desenvolva um web-app que reproduza o sítio de **Lyft**. Neste desafio você deverá cumprir os passos necessários para que seu usuário possa se registrar.
 
-#### Flujo de la aplicación.
+#### Fluxo da aplicação.
 
-Vista splash con duración de 2 a 5 segundos que redirecciona a
-tu vista de inicio. La vista de inicio cuenta con dos botones, en esta ocasión
-seguiremos el flujo de **SING UP**.
-![inicio](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ff67ceb625957cd36d4c16ba6e0408c727bd0682/04-social-network/02-jquery/08-code-challenges/lyft/splash.png)
+Tela *splash* com duração de 2 a 5 segundos que redireciona à pagina inicial. A página inicial conta com dois botões. Neste momento seguiremos o fluxo de **SING UP**.
 
-En la siguiente vista tenemos un formulario donde nuestro usuario puede
-escoger el país y debe ingresar su número de teléfono.
-El botón de **NEXT** debe estar deshabilitado hasta que se ingrese
-un número de 10 dígitos.
+![início](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ff67ceb625957cd36d4c16ba6e0408c727bd0682/04-social-network/02-jquery/08-code-challenges/lyft/splash.png)
+
+Na tela seguinte teremos um formulário no qual nosso usuário poderá escolher o país e deverá digitar o número de telefone. O botão **NEXT** deve estar desabilitado até que se ingresse um número de 10 dígitos. 
+
 ![registro](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/ingreso-numero.jpg?raw=true)
 
-Una vez ingresado el número de teléfono se habilita el botón y al dar *click*
-debe enviar una alerta con un código generado aleatoriamente (LAB-000) y
-redireccionar a la siguiente vista.
+Uma vez digitado o número do telefone, será habilitado o botão e ao dar um *click* deve enviar um alerta com um código gerado aleatoriamente (LAB-000) e redirecionar para a página a seguir.
+
 ![codigo](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/generacion-codigo.jpg?raw=true)
 
-En esta vista se debe ingresar el código dado anteriormente y una
-vez hecho esto se habilita el botón que redirecciona a nuestro usuario a la
-vista donde ingresa sus datos. *(Puede tener la opción de enviar otro código.)*
+Nesta página deve ser digitado o código informado anteriormente e uma vez digitado será habilitado o botão que redireciona nosso usuário à pagina na qual digitará seus dados. *(Pode ter a opção de enviar outro código)*.
+
 ![verificacion](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/lyft/verificacion-numero.jpg?raw=true)
 
-Para ingresar sus datos necesitamos un formulario que le pida su nombre,
-apellido y correo electrónico. Deberá también tener un checkbox para que se
-acepten los términos y condiciones del servicio.
+Para informar seus dados precisamos de um formulário que peça o nome, sobrenome e e-mail. Deverá também ter um *checkbox* para que se aceitem os termos e condições do serviço.
+
 ![datos](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ff67ceb625957cd36d4c16ba6e0408c727bd0682/04-social-network/02-jquery/08-code-challenges/lyft/ingreso-datos.png)
 
-Ya que se ha realizado lo anterior, sólo se deberá mostrar una vista al usuario
-que le indique que ha concluido con el registro exitosamente.
+Uma vez realizado o anterior, só deverá se exibida uma página ao usuário que indique que tenha concluído o registro com sucesso.
+
 ![final](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ff67ceb625957cd36d4c16ba6e0408c727bd0682/04-social-network/02-jquery/08-code-challenges/lyft/final.png)
 
-**NOTA:** Todas nuestras vistas deben de contar con una manera de regresar a
-la vista anterior
+**NOTA:** Todas as nossas páginas devem term uma maneira de voltar para a página anterior

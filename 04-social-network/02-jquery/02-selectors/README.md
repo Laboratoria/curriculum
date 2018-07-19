@@ -1,24 +1,23 @@
-# Selectores de jQuery
+# Seletores de jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-- ¿Qué son y cómo se usan los selectores en jQuery?
+- O que são e como se usam os seletores em jQuery?
 
-## Selectores
+## Seletores
 
-Los selectores de jQuery te permiten seleccionar y manipular uno o varios
-elementos de HTML.
+Os seletores de jQuery permitem selecionar e manipular um ou vários elementos de HTML.
 
-Y otra de las maravillas es que estos se basan en los selectores de CSS.
-Ejemplos:
+E outra de suas maravilhas é que eles se baseiam nos seletores de CSS.
+Exemplos:
 
-- Selector por elemento: `$('elementoHTML')`
+- Seletor por elemento: `$('elementoHTML')`
 
   ```javascript
   $('p');
@@ -26,7 +25,7 @@ Ejemplos:
   $('h2, section, p');
   ```
 
-- Selector por id: `$('#nombre-id')`
+- Seletor por id: `$('#nombre-id')`
 
   ```javascript
   $('#age');
@@ -34,7 +33,7 @@ Ejemplos:
   $('#lastname');
   ```
 
-- Selector por class: `$('.nombre-clase')`
+- Seletor por class: `$('.nombre-clase')`
 
   ```javascript
   $('.dogs');
@@ -42,15 +41,8 @@ Ejemplos:
   $('.pink .blue .red');
   ```
 
-> **Nota:** Todos los selectores de jQuery comienzan con el signo de dólar y
-> paréntesis: `$()`.
+> **Nota:** Todos os seletores de jQuery começam com o símbolo de dólar e parênteses: `$()`.
 
-En este [link](https://www.w3schools.com/jquery/jquery_ref_selectors.asp) hay
-una lista muy completa de diferentes selectores.
-No vamos a intentar aprenderlos de memoria, por ahora nos basta con saber que
-ya hay lugares donde esa información se encuentra. Así que solo échale un
-vistazo y vuelve cuando necesites algo muy específico de ellos.
+Neste [link](http://www.w3im.com/pt/jquery/jquery_ref_selectors.html) há uma lista muito completa de diferentes seletores. Não vamos tentar aprender todos. Por enquanto nos basta saber que já há lugares onde essa informação está. Então apenas dê uma olhada nele e volte quando precisar de algo muito específico.
 
-Además, si deseas practicar los selectores que puedes usar, [aquí](http://sk.kapsi.fi/interactive-jquery-tester.html)
-puedes escribir un snippet (pedazo de código) HTML y escribir los selectores que
-desees y éste resaltará los elementos que el selector identifique.
+Além disso, se desejar praticar os seletores que pode utilizar, [aqui](http://sk.kapsi.fi/interactive-jquery-tester.html) você pode escrever um *snippet* (pedaço de código) HTML e escrever os seletores que desejar e ele vai destacar os elementos que o seletor identificar.

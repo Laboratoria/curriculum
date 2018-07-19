@@ -1,35 +1,28 @@
-# Opening: El proceso de diseño
+# Abertura: O processo de design
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `10min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta lección aprenderemos:
+Nesta lição aprenderemos:
 
-- Cómo usar el feedback de usuarios reales para dar forma a un producto o servicio
-- Cuál es el estado actual y cuáles son las tendencias en UX Design
+- Como utilizar o feedback de usuários reais para dar forma a um produto ou serviço
+- Qual é o estado aual e quais são as tendências em UX Design
 
+## Por que passar pelo processo de design?
 
-## ¿Por qué pasar por el proceso de diseño?
+Porque ao vivenciar como se cria um produto passando por um processo completo de design, você conhecerá o valor que tem cada uma das partes deste processo.
 
-Porque al vivir cómo se crea un producto pasando por un proceso completo de diseño conocerás el valor que tiene cada una de las partes de este proceso .
+## Guia de perguntas e conceitos chave
 
-## Guía de preguntas y conceptos clave
+Quando começamos a estudar um tema novo, é útil ter uma ideia dos conceitos mais imporantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Utilize estas perguntas como gua para orientar seus esforços de aprendizagem. Retorne a elas constantemente para garantir que está indo na direção correta. Que lhe sirve como um "checklist" que você irá marcando conforme avança.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+- Quais são as fases de um processo de design?
 
-- ¿Cuáles son las fases de un proceso de diseño?
-
-- ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?
+- Qual é a vantagem de criar produtos centrados nas necessidades do usuário?

@@ -1,64 +1,62 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de avaliar-se e colocar seus conhecimentos à prova. É uma oportunidade para que verifique se realmente está aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es jQuery?
+### 1) O que é jQuery?
 
-#### Opciones
+#### Opções
 
-1. Un lenguaje de programación
-2. Una librería
-3. Un framework
-
-<solution style="display:none;">2</solution>
-
-### 2) ¿Qué te permite hacer jQuery?
-
-#### Opciones
-
-1. Hace cosas como el recorrido y testing de documentos HTML, manejo de eventos, animación, etc.
-2. Hace cosas como el recorrido y manipulación de etiquetas HTML / DOM, CSS, manejo de eventos, animación, etc.
-3. Hace cosas como el recorrido y manipulación de documentos CSS, manejo de eventos, animación digital, etc.
+1. Uma linguagem de programação
+2. Uma biblioteca
+3. Um framework
 
 <solution style="display:none;">2</solution>
 
-### 3) jQuery se basa en:
+### 2) O que o jQuery permite fazer?
 
-#### Opciones
+#### Opções
 
-1. ‘Escribe menos, haz más’
-2. ‘Primero funcional y luego visual’
+1. Faz coisas como o projeto e teste de documentos HTML, manipulação de eventos, animação, etc.
+2. Faz coisas como o projeto e manipulação de tags HTML / DOM, CSS, manipulação de eventos, animação, etc.
+3. Faz coisas como o projeto e manipulação de documentos CSS, manipulação de eventos, animação digital, etc.
+
+<solution style="display:none;">2</solution>
+
+### 3) jQuery se baseia em:
+
+#### Opções
+
+1. ‘Escrever menos, fazer mais’
+2. ‘Primeiro funcional e depois visual’
 3. ‘Keep it simple’
 
 <solution style="display:none;">1</solution>
 
-### 4) ¿Cómo podemos incluir jQuery a nuestro proyecto?
+### 4) Como podemos incluir jQuery em nosso projeto?
 
-#### Opciones
+#### Opções
 
-1. Descargando el CDN y agregandolo a nuestro HTML
-2. Descargando la librería jQuery
-3. Incluyendo jQuery desde un CDN
+1. Baixando o CDN e adicionando-o ao nosso HTML
+2. Baixando a biblioteca jQuery
+3. Incluindo jQuery a partid da CDN
 
 <solution style="display:none;">2,3</solution>
 
-### 5) Signo(s) con el(los) cual(es) definimos/accedemos en jQuery
+### 5) Símbolo(s) com o(s) qual(is) definimos/acessamos em jQuery
 
-#### Opciones
+#### Opções
 
 1. %
 2. $
@@ -66,9 +64,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) ¿Cuál es la sintaxis general de jQuery?
+### 6) Qual é a sintaxe geral de jQuery?
 
-#### Opciones
+#### Opções
 
 1. $(action).selector()
 2. $(selector).objeto()
@@ -76,9 +74,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) Si deseo seleccionar todos los elementos de la clase btn-blue, ¿Cuál es el selector correcto?
+### 7) Se desejo selecionar todos os elementos da classe btn-blue, qual é o seletor correto?
 
-#### Opciones
+#### Opções
 
 1. $(this).btn-blue
 2. $('.btn-blue')
@@ -86,9 +84,9 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) ¿Cuál es la forma de decirle a mi programa: ‘Cuando estés listo, haz esto’?
+### 8) Qual é a forma de dizer ao meu programa: ‘Quando estiver pronto, faça isto’?
 
-#### Opciones
+#### Opções
 
 1. $(document).ready(function(){ ..código });
 2. $(document).already(function(){ ..código });
@@ -96,9 +94,9 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Forma correcta de agregar un evento en jQuery:
+### 9) Forma correta de adicionar um evento em jQuery:
 
-#### Opciones
+#### Opções
 
 1. $(document).click(‘p’);
 2. $(document).addEventListener(‘click’, nombreFunción);
@@ -106,9 +104,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) ¿En qué opción todos los eventos son correctos?
+### 10) Em qual opção todos os eventos estão corretos?
 
-#### Opciones
+#### Opções
 
 1. .blur(), .dblclick(), event.isPropagationStopped(), .hover()
 2. .focusout(), .keyup(), .onclick(), .load(), .ready()
