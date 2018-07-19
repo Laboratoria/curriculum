@@ -67,7 +67,7 @@ Durante este curso você construirá uma rede social com as seguintes caracterí
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 2h | Encerramento
 
-### Unidade 03: Agilize seu desenvolvimento](02-jquery)
+### Unidade 03: [Agilize seu desenvolvimento](02-jquery)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------

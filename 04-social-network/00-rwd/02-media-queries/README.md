@@ -25,13 +25,13 @@ As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** 
 
 Os ***media types*** correspondem aos diferentes dispositivos nos quais se pode visualizar nossa página web. Na imagem a seguir, podemos ver os diferentes *media types* que podem ser utilizados.
 
-![*Media Types*](https://cdn-images-1.medium.com/max/800/1*5hk74pisbfEcsujBYEa1Mw.png)
+![*Media Types*](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/02-media-queries/media_type.png?raw=true)
 
 Os ***media features*** correspondem à condição que o dispositivo deve atender e a qual deve ser verdadeira para que se aplique o código contido em nossa *media query*.
 
 Os *media features* mais comuns são os referentes às dimensões de tela do dispositivo, podendo estabelecer a altura e largura que serão aplicadas (com *height* e *width*), ou o que é mais interessante, a partir de qual largura ou altura se aplicarão (com *min/max-width* e *min/max-height*).
 
-![Media Feature](https://github.com/Laboratoria/curricula-js/blob/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
+![Media Feature](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
 
 Os **operadores lógicos** são *and*, *not*, *only* e *lista separada por vírgulas* (que funciona como o operador lógico *or* do Javascript) e se encarregam de juntar nossos *media types* com os *media features*.
 

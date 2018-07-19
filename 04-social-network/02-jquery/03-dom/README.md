@@ -69,4 +69,4 @@ Para navegar por meio do DOM, jQuery também nos oferece vários métodos maravi
 
 Sim, pode parecer complicado, mas lembremos que não somos um USB para armazenar toda a informação, **somos desenvolvedoras** que sabemos onde procurar quando precisamos saber algo específico.
 
-Também é importante lembrar que a lista completa de métodos pode ser encontrada na [documentação oficial de jQuery](https://api.jquery.com/) na seççao de _manipulation_ y _traversing_.
+Também é importante lembrar que a lista completa de métodos pode ser encontrada na [documentação oficial de jQuery](https://api.jquery.com/) na seção de _manipulation_ y _traversing_.
