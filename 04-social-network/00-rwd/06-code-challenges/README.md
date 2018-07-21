@@ -2,7 +2,7 @@
 
 - Tipo: `exercício`
 - Formato: `individual`
-- Duração: `20h`
+- Duração: `9h`
 
 ## Objetivos
 
@@ -22,11 +22,9 @@ Crie uma página web na qual se mostre uma paisagem e um gatinho diferente a med
 
 O site web deve se comportar como as imagens anteriores. Pode encontrar os gatinhos e as paisagens [aqui]( https://github.com/rafaelbcerri/kitten).
 
-## 2. Minha página
+## 2. Minha página [Extra]
 
-Neste desafio, vamos criar uma página ao nosso gosto.
-
-Você pode realizar o projeto como melhor lhe aprouver, mas deve manter a estrutura da página e deve realizá-lo com uma *grid* (qualquer uma que não seja de um framework como Bootstrap ou Materialize). A estrutura da página é a seguinte:
+Neste desafio, vamos criar está página do Bootstrap, mas **sem** usar o Bootstrap.
 
 ![Desktop][4]  ![Responsivo][5]
 

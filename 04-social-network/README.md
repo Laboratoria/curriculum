@@ -1,7 +1,5 @@
 # Crie sua própria rede social
 
-[:construction: Este curso está em desenvolvimento :construction:]
-
 Neste curso você aprenderá tudo que é necessário para poder criar sua própria rede social - cuja temática será definida por você. Para tanto, você aprenderá a:
 
 1. Projetar a experiência de usuário que seu produto oferecerá, aplicando técnicas e conceitos de UX Design
@@ -38,17 +36,15 @@ Durante este curso você construirá uma rede social com as seguintes caracterí
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
-| 00 | leitura | 30min | Abertura
-| 01 | leitura | 15min | *Grid System*
-| 02 | leitura | 15min | *Media Queries* e *Viewport*
-| 03 | leitura | 30min | Web Design Responsivo
+| 00 | leitura | 15min | Abertura
+| 01 | leitura | 30min | *Grid System*
+| 02 | leitura | 30min | *Media Queries* e *Viewport*
+| 03 | leitura | 20min | Web Design Responsivo
 | 04 | quiz | 30min | Quiz #1
-| 05 | oficina | 2h | Aula de Conceitos
-| 06 | prática | 8h | Aula Prática
-| 07 | seminário | 2h | Desafios
-| 08 | seminário | 2h | Resolução dos Desafios
-| 09 | quiz | 15min | Quiz #2
-| 11 | seminário | 2h | Encerramento
+| 05 | oficina | 3h | Exercícios Guiados
+| 06 | seminário | 9h | Desafios
+| 07 | quiz | 30min | Quiz #2
+| 08 | seminário | 20min | Encerramento
 
 ### Unidade 02: [Não reinvente a roda](01-css-frameworks)
 

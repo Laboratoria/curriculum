@@ -2,18 +2,16 @@
 
 - Tipo: `seminário`
 - Formato: `guiado`
-- Duração: `120min`
+- Duração: `20min`
 
 ***
 
 ## Agenda
 
-### 1. Revisemos o que aprendemos até agora
-
-### 2. Respondamos às perguntas da abertura
+### 1. Respondamos às perguntas da abertura
 
 - O que é Web Design Responsivo?
 - Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?
-- O que é *Grid System*? Explique com um exemplo e um diagrama
+- O que é *Grid System*? Explique com um exemplo e um diagrama.
 - O que são *Media Queries* e para que servem?
 - Para que serve a tag *meta viewport*?
