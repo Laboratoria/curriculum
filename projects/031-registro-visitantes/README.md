@@ -171,3 +171,13 @@ Anexo I: Construyendo un MVP
 Una modelo mental común para representar el desarrollo de productos es visualizarlo como una pirámide: el producto que construyes consiste en una serie de funcionalidades que le dan beneficios al usuario, los cuales le generan valor. El detalles está en que no todas las funcionalidades que creas le agregan la misma cantidad de valor al usuario. Es más, muchas funcionalidades le agregan cero valor. Son cosas que creemos que generan valor, pero que no terminan haciéndolo (recuerda que vivimos en un mundo incierto, donde no podemos predecir). Por lo tanto, al definir tu producto mínimo viable (MVP), tu misión es crear las mínimas funcionalidades que maximicen el valor que entregas. Menos es más ;)
 
 ![](https://lh5.googleusercontent.com/Y0pAAgnYJcYs0DCK2vo28H0709vIJ4OvMkGs5P1xCS4_6k3XQS0jqOA3KQLKsFX1SrCcOqab9jMwuTCRZVATELmlhFr5VihRIrftA5Fj8q0PFQ8JDoktKfHTrZX5CG4ASzv7vyxL)
+
+Anexo II: Envío de emails
+=========================
+
+Para poder hacer envíos de email necesitas un servicio. Aquí te dejamos un acceso a una cuenta de [Mandrill](https://mandrillapp.com/) de Laboratoria para que la puedas utilizar en tu proyecto.
+
+Host: smtp.mandrillapp.com
+Port: 587
+SMTP Username: Laboratoria.La
+SMTP Password: Yjbhl-WzBGJbqv5w5n-y9w
