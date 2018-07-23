@@ -52,6 +52,7 @@ companies/employers.
 #### Project: [Cipher](projects/01-cipher)
 
 * Estimated duration: 2 weeks.
+* Teams: 1 student
 * Topics: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
@@ -60,17 +61,19 @@ companies/employers.
 #### Project: [Data Dashboard](projects/02-data-dashboard)
 
 * Estimated duration: 3 weeks.
+* Teams: 2 students
 * Topics: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
   [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
 
-#### Project: [Social Network](projects/03-social-network) (wip)
+#### Project: [Social Network](projects/03-social-network)
 
 * Estimated duration: 3 weeks.
-* Topics: [Responsive](topics/css/02-responsive),
+* Teams: 3 students
+* Topics: **Mobile-first**, [Responsive](topics/css/02-responsive),
   [URL](topics/the-web/04-url), [HTTP](topics/the-web/05-http),
-  [Async](topics/javascript/08-async), [Errors](topics/javascript/09-errors),
-  [Debugging](topics/javascript/10-debugging).
+  [Async](topics/javascript/08-async), Multiple views, Routing, Writing data,
+  `localStorage`, [Firebase](https://firebase.google.com/).
 
 ### Stage 2: Deep dive
 
@@ -80,17 +83,22 @@ in parallel.
 
 #### Front End Dev (JavaScripters)
 
-##### Project: Restaurant (tbd)
+Common topics: [Paradigms](topics/paradigms), [Functional JavaScript](topics/functional).
+
+##### Project: [Burger Queen](projects/04-burger-queen) (wip)
 
 * Estimated duration: 4 weeks.
-* Topics: Modules, [Paradigms](topics/paradigms),
-  [Functional JavaScript](topics/functional).
+* Teams: 2-3 estudiantes
+* Topics: **Offline first**, Service Workers, Módulos, Serverless, Cloud
+  Functions, Frameworks, React, Redux, Vue, Angular.
 
-##### Project: Library (tbd)
+##### Project: [Markdown Links](projects/04-md-links) (wip)
 
 * Estimated duration: 4 weeks.
-* Topics: Modules, [Paradigms](topics/paradigms),
-  [Functional JavaScript](topics/functional).
+* Teams: 1 student
+* Topics: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
+  Modules, [Errors](topics/javascript/09-errors),
+  [Debugging](topics/javascript/10-debugging).
 
 #### UX
 
