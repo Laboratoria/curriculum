@@ -1,4 +1,4 @@
-# Abertura: A Web em um Dispositivo Móvel
+# A Web em um Dispositivo Móvel
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -29,7 +29,7 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 
 - Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?
 
-- O que é *Grid System*? Explique com um exemplo e um diagrama
+- O que é *Grid System*? Explique com um exemplo e um diagrama.
 
 - O que são *Media Queries* e para que servem?
 

@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `individual`
-- Duração: `15min`
+- Duração: `30min`
 
 ## Objetivos
 
@@ -121,7 +121,7 @@
 1. Os estilos do parágrafo serão executados quando a tela do dispositivo móvel tiver 700px ou mais
 2. Os estilos do parágrafo serão executados quando a tela do dispositivo móvel tiver 700ox ou menos
 3. Os estilos do parágrafo serão executados quando a tela do laptop tiver 700px ou mais
-4. Os estilos do parágrafo serão executados quando a tela do laptop tiver 700px ou menos 
+4. Os estilos do parágrafo serão executados quando a tela do laptop tiver 700px ou menos
 
 <solution style="display:none;">4</solution>
 
