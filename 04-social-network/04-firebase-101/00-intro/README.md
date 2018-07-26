@@ -46,7 +46,7 @@ Podemos descrever o Firebase como uma suíte de diferentes aplicações que nos 
 
    ![script-js](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/script-js.png)
 
-6. E já com isso temos o Firebase em nosso projeto!!! Se olharmos nosso arquivos, eles ficaram da seguinte maneira:
+6. O Firebase ecm nosso projeto!!! Se olharmos nosso arquivos, eles ficaram da seguinte maneira:
 
   ![html](https://raw.githubusercontent.com/AnaSalazar/curricula-js/e59f0251f2f002c77afe96206ff02eb6ff35c005/04-social-network/04-firebase-101/00-intro/images/html.png)
 
