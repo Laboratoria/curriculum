@@ -6,7 +6,7 @@ El registro de visitantes en una empresa en América Latina es un proceso tedios
 
 ## Introducción
 
-En este proyecto la empresa de coworking donde opera Laboratoria en tu ciudad ha decidido contratarte a ti y a dos compañeras para reinventar su proceso de registro de visitantes. Con la entrada de [WeWork](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwilrK_T5KjcAhWCj7MKHexzAEgYABAAGgJxbg&ohost=www.google.cl&cid=CAASE-RoAxXTp1Cd0ErxEHpPSGuF4Hk&sig=AOD64_38ykNPf0QRtI9n4CFtpQpth-MrNQ&q=&ved=0ahUKEwjswKvT5KjcAhVkU98KHUcYCeMQ0QwIJA&adurl=) al mercado latinoamericano, tienen mucha más competencia y necesitan invertir en tecnología para mejorar su servicio; el registro de visitantes es un primer acercamiento. Te dan la referencia de [Envoy](https://envoy.com/) en EEUU (un servicio que ofrece un sistema digital de registro de visitantes) y ustedes tienen que desarrollar una versión mínima viable (ver [anexo I](https://docs.google.com/document/d/1dTLge6v1yJyDGVoHif9bkV0aQ9Qn8u19qFZMd6_okCQ/edit#heading=h.ah7d5ulnnm51)).
+En este proyecto la empresa de coworking donde opera Laboratoria en tu ciudad ha decidido contratarte a ti y a dos compañeras para reinventar su proceso de registro de visitantes. Con la entrada de [WeWork](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwilrK_T5KjcAhWCj7MKHexzAEgYABAAGgJxbg&ohost=www.google.cl&cid=CAASE-RoAxXTp1Cd0ErxEHpPSGuF4Hk&sig=AOD64_38ykNPf0QRtI9n4CFtpQpth-MrNQ&q=&ved=0ahUKEwjswKvT5KjcAhVkU98KHUcYCeMQ0QwIJA&adurl=) al mercado latinoamericano, tienen mucha más competencia y necesitan invertir en tecnología para mejorar su servicio; el registro de visitantes es un primer acercamiento. Te dan la referencia de [Envoy](https://envoy.com/) en EEUU (un servicio que ofrece un sistema digital de registro de visitantes) y ustedes tienen que desarrollar una versión mínima viable (ver anexo I abajo).
 
 ## Objetivos de aprendizaje
 
@@ -143,9 +143,9 @@ Features/características extra sugeridas:
 
 -   Como el WiFi a veces es nuestro peor enemigo, ¿es posible que tu aplicación pueda, sin Internet, registrar los datos del visitante, guardar los datos localmente y cuando tenga Internet mandarlos a la base de datos? Si te animas a hacer esto dale una revisada a los siguientes recursos:
 
--   [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
+    -   [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 
--   [Offline first manifesto](http://offlinefirst.org/)
+    -   [Offline first manifesto](http://offlinefirst.org/)
 
 -   También sería ideal poder registrar la firma del visitante en el registro.
 
