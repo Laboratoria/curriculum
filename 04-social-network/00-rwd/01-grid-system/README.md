@@ -53,7 +53,7 @@ Os *gutters* são os espaços entre as *columns* (colunas).
 
 ## Material complementar
 
-Se você quiser entender um pouco mais como funcionam as *grids*, leia este [artigo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e).
+Se você quiser entender um pouco mais como funcionam as *grids*, leia este [artigo](https://medium.com/@antonellaweyler/grid-system-e-seus-layouts-6cdf653943ba).
 
 Assista esses vídeos para conhecer mais sobre *CSS Grid*:
 
