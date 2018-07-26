@@ -13,85 +13,69 @@ En este proyecto la empresa de coworking donde opera Laboratoria en tu ciudad ha
 El objetivo principal de este proyecto es que pongas en práctica todo lo aprendido durante el common core, con foco en la calidad, trabajando en un equipo multifuncional y presentando tu solución a una audiencia.
 
 ## Consideraciones generales
-=========================
 
 Para completar este proyecto deberás trabajar en un equipo de tres y seguir las siguientes consideraciones:
 
-1.  Planificación y organización
-    ----------------------------
+### 1.  Planificación y organización
+  
 
-### Roles, squad multifuncional
+#### Roles, squad multifuncional
 
 Cada integrante del equipo debe asumir alguno de los siguientes "roles" (*) liderando las siguientes áreas de trabajo:
 
--   1 Diseñadora UX
+* 1 Diseñadora UX
 
--   Diseñar la experiencia de la aplicación (flujo, interacción, etc.).
+* * Diseñar la experiencia de la aplicación (flujo, interacción, etc.).
 
--   Identificar, documentar y priorizar las historias de usuario.
+* * Identificar, documentar y priorizar las historias de usuario.
 
--   Crear el diseño visual de la interfaz.
+* * Crear el diseño visual de la interfaz.
 
--   2 Desarrolladoras Front-end
+*  2 Desarrolladoras Front-end
 
--   Implementar la interfaz de usuario diseñada (HTML/CSS/JS).
+* * Implementar la interfaz de usuario diseñada (HTML/CSS/JS).
 
--   Deben dividirse las funcionalidades entre las dos desarrolladoras.
+* * Deben dividirse las funcionalidades entre las dos desarrolladoras.
 
--   Todas los desarrollos deben incluir pruebas unitarias.
+* * Todas los desarrollos deben incluir pruebas unitarias.
 
 (*) Al no haber rol de Product Manager, las responsabilidades de gestión son compartidas entre todas las integrantes.
 
-### Planificación inicial
+Planificación inicial
 
 Es muy importante que al dividirse/distribuir/repartir el trabajo, lo hagan pensando de manera ágil y no en cascada. Es decir, si una de ustedes está esperando a que otra termine "su parte" para empezar a trabajar, algo anda mal, ¡[eso se parece a la organización del trabajo industrial!](https://media.giphy.com/media/OQ872dEsRi8cU/source.gif). Todas son responsables del producto final y todas pueden (y deben) colaborar en el diseño, el desarrollo y la planificación.
 
 TIPS:
 
--   Recuerda a nuestras nuevas BFFs, [las historias de usuario](http://jmbeas.es/guias/historias-de-usuario/)
+* Recuerda a nuestras nuevas BFFs, [las historias de usuario](http://jmbeas.es/guias/historias-de-usuario/)
 
--   Ten siempre en mente evitar el desperdicio. Por ejemplo: ¿de qué sirve que tengas el prototipo del 100% de un proyecto en Figma (alta definición) si solamente implementas el 50% del proyecto? El otro 50% del prototipo se podría considerar como desperdicio.
+* Ten siempre en mente evitar el desperdicio. Por ejemplo: ¿de qué sirve que tengas el prototipo del 100% de un proyecto en Figma (alta definición) si solamente implementas el 50% del proyecto? El otro 50% del prototipo se podría considerar como desperdicio.
 
--   Limitar el trabajo en progreso. Si son 3 personas, procuren no tener más de 3 tareas a la vez en "doing".
+* Limitar el trabajo en progreso. Si son 3 personas, procuren no tener más de 3 tareas a la vez en "doing".
 
--   ¿Estás segura de que quieren seguir invirtiendo más minutos de tu vida (que no volverán) en discutir los colores del logotipo? [Aquí hay algo que te puede ayudar a decidir](https://play.google.com/store/apps/details?id=com.flip.war_daddy.flip_coin).
+* ¿Estás segura de que quieren seguir invirtiendo más minutos de tu vida (que no volverán) en discutir los colores del logotipo? [Aquí hay algo que te puede ayudar a decidir](https://play.google.com/store/apps/details?id=com.flip.war_daddy.flip_coin).
 
-2\. Detalles sobre la implementación
-------------------------------------
+### 2.  Detalles sobre la implementación
 
--   La lógica del proyecto debe estar implementada completamente en JavaScript (ES6), HTML y CSS.
+* La lógica del proyecto debe estar implementada completamente en JavaScript (ES6), HTML y CSS.
+* Está permitido usar librerías o frameworks tanto de CSS como de JS, pero no es obligatorio. Elige bien las batallas que quieres luchar.
+* En este proyecto, no contamos con un boilerplate, por lo que deberás definir la estructura de carpetas y archivos que consideres necesaria, puedes guiarte de los proyectos anteriores.
+* Los tests y el setup necesario para ejecutarlos serán hechos enteramente por ti.
+* Para armar las interfaces visuales utiliza como base alguna de estas guías de componentes:
+** [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
+** [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
+** [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
+** [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
+* Guardar la data de los visitantes de forma remota usando [Firebase](https://firebase.google.com/).
+* A nivel de arquitectura:
+** El uso de Firebase implica que debes trabajar bajo una arquitectura serverless.
+** Te sugerimos que desacoples el proyecto en componentes y manejo de estados para que trabajes de forma ordenada y facilite la implementación de tus tests. Revisa la [charla](https://www.youtube.com/watch?v=g_BxnUJTUSk) y el [blog post](https://medium.com/laboratoria-developers/arquitectura-de-interfaces-web-parte-1-a41053c2a1f2) de Lupo sobre este tema ;)
 
--   Está permitido usar librerías o frameworks tanto de CSS como de JS, pero no es obligatorio. Elige bien las batallas que quieres luchar.
-
--   En este proyecto, no contamos con un boilerplate, por lo que deberás definir la estructura de carpetas y archivos que consideres necesaria, puedes guiarte de los proyectos anteriores.
-
--   Los tests y el setup necesario para ejecutarlos serán hechos enteramente por ti.
-
--   Para armar las interfaces visuales utiliza como base alguna de estas guías de componentes:
-
--   [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
-
--   [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
-
--   [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
-
--   [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
-
--   Guardar la data de los visitantes de forma remota usando [Firebase](https://firebase.google.com/).
-
--   A nivel de arquitectura:
-
--   El uso de Firebase implica que debes trabajar bajo una arquitectura serverless.
-
--   Te sugerimos que desacoples el proyecto en componentes y manejo de estados para que trabajes de forma ordenada y facilite la implementación de tus tests. Revisa la [charla](https://www.youtube.com/watch?v=g_BxnUJTUSk) y el [blog post](https://medium.com/laboratoria-developers/arquitectura-de-interfaces-web-parte-1-a41053c2a1f2) de Lupo sobre este tema ;)
-
-3\. Tiempo
-----------
+### 3. Tiempo
 
 Tendrán 1 semana para trabajar en este proyecto. Este tiempo es un poco corto para iterar y hacer las ceremonias que usualmente hacemos. Puedes elegir hacer tus sprints de 2-3 días o simplemente correr un único sprint con "hitos" durante la semana. Es decisión del equipo. Lo que sí les recomendamos es asegurar que usan bien los dailys, esto les permitirá hacer "mini" iteraciones cada 24 horas.
 
-Entregables obligatorios
-========================
+## Entregables obligatorios
 
 Los criterios mínimos de aceptación para considerar que has completado este proyecto son:
 
