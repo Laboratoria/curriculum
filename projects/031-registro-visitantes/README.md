@@ -166,4 +166,4 @@ Para poder hacer envíos de email necesitas un servicio. Aquí te dejamos un acc
 Host: smtp.mandrillapp.com
 Port: 587
 SMTP Username: Laboratoria.La
-SMTP Password: Yjbhl-WzBGJbqv5w5n-y9w
+SMTP Password: Te lo daremos antes de comenzar
