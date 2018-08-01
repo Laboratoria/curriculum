@@ -38,7 +38,7 @@ Vocês tem 45 segundos para planejar e 3 minutos cada uma para nova rodada de en
 
 Tome 4 minutos para tentar registrar o que aprendeu na entrevista. Tente sintetizar o que aprendeu em quantas 'necessidades' pode ter descoberto e alguns 'insights' que poderiam ser interessantes.
 
-Responda estas perguntas.
+Responda a estas perguntas.
 
 - **Metas e Desejos:** o que está tentando conseguir com sua parceira ao dar um presente?
 - **Insights:** novas aprendizagems sobre os sentimentos e motivações de sua parceira. O que viu na experiência de sua parceira que ela não tenha visto?

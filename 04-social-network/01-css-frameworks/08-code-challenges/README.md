@@ -23,15 +23,15 @@ E obviamente não podemos deixar de lado a versão móvel, então crie-a em uma 
 
 ![Lab-car-movil](https://raw.githubusercontent.com/AnaSalazar/curricula-js/0b700308f0c6ed452596912fcef8103b8f88386b/04-social-network/01-css-frameworks/08-code-challenges/images/v-movil.png)
 
-### 3. Módulos
+### 3. Modais
 
-Como **extra** pode adicionar os módulos necessários na versão web
+Como **extra** pode adicionar os modais necessários na versão web
 
-- Módulo de Início de Sessão
+- Modal de Início de Sessão
 ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
 
-- Múdulo de Registro
+- Modal de Registro
 ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
 
-- Módulo (tornar-se condutor)
+- Modal _tornar-se condutor_
 ![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)

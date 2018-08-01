@@ -18,7 +18,7 @@
 
 ![Sintaxe de uma *media query*](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg "Sintaxe de uma *media query*")
 
-As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** e o bloco de código a ser executados se as condições definidas no *media type* são verdadeiras. Tudo isso  funciona graças aos **operadores lógicos** correspondentes.
+As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** e o bloco de código a ser executado se as condições definidas no *media type* são verdadeiras. Tudo isso  funciona graças aos **operadores lógicos** correspondentes.
 
 
 ![*Media Queries*](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)

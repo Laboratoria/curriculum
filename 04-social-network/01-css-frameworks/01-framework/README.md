@@ -22,11 +22,11 @@ Por enquanto vamos nos focar nos `frameworks CSS`, que são um conjunto de ferra
 
 #### Por que usamos frameworks?  
 
-Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e esforço de criação depois de toda pergunta. _Por que reinventar a roda se você pode projetar um carro melhor?_
+Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e esforço de criação e responder à pergunta _Por que reinventar a roda se você pode projetar um carro melhor?_
 
 Isso não significa que são substitutos para entender CCS ou que não mexeremos com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos e estilos incríveis e totalmente personalizados, e conhecer muito melhor CSS!
 
-Aqui deixamos alguns vídeos introdutórios e alguns frameworks.
+Aqui deixamos alguns vídeos introdutórios a alguns frameworks.
 + [Bootstrap](https://www.youtube.com/watch?v=wiq1Zs9-qMQ)
 + [Materialize](https://www.youtube.com/watch?v=JNTfjNCBl5c)
 

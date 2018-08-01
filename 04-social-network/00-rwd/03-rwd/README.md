@@ -27,7 +27,7 @@ Os elementos básicos necessários para construir uma página com Web Design Res
 
 As vantagens de utilizar um Web Design Responsivo são:
 
-- Com só uma versão em HTML e CSS são atendidas todas as resoluções de tela, ou seja, o site criado estará otimizado para todo tipo de dispositivos. Isso melhora a experiência do usuário diferente do que ocorre, por exemplo, com sites de largura fixa que são acessados de dispositivos móveis.
+- Com só uma versão em HTML e CSS são atendidas todas as resoluções de tela, ou seja, o site criado estará otimizado para todo tipo de dispositivo. Isso melhora a experiência do usuário que acessa sites com largura fixa, por dispositivos móveis.
 
 - Eficiência na atualização, o site só precisa ser atualizado uma vez e funcionará em todas as plataformas. Quando temos os portais independentes para Web e Mobile é necessária a atualização duas vezes, o que cria uma necessidade maior de recursos e maior possibilidade de erros.
 

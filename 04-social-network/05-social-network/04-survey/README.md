@@ -1,4 +1,4 @@
-# Encuestas de cierre de sprint
+# Pesquisa de encerramento de sprint
 
 - Tipo: `questionário`
 - Formato: `individual`
