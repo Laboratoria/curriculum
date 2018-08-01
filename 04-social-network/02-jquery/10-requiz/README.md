@@ -17,7 +17,7 @@
 #### Opções
 
 1. jQuery é uma biblioteca de JavaScript rápida, pequena e com muitas funções.
-2. jQuery é uma linguagem de programação inspirada em JavaScript que ajuda a programar de forma rápida e rica en funções.
+2. jQuery é uma linguagem de programação inspirada em JavaScript que ajuda a programar de forma rápida e rica em funções.
 3. jQuery é um framework de JavaScript que ajuda a programar de forma rápida e rica em funções.
 
 <solution style="display:none;">1</solution>
@@ -53,7 +53,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 5) Qual seletor aplicar uma ação a todos os elementos <p>?
+### 5) Qual seletor aplica uma ação a todos os elementos?
 
 #### Opções
 

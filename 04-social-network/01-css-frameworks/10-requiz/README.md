@@ -17,7 +17,7 @@
 #### Opções
 
 1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um modelo metodológico pré-estabelecido
-2. Linguarem de programação baseada em CSS que ajuda a projetar mais rapidamente
+2. Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente
 3. Folha de estilo externa a nosso projeto
 4. Ferramenta de organização que podemos usar em nosso projeto como se fosse um modelo pedagógico pré-estabelecido
 
@@ -27,25 +27,25 @@
 
 #### Opções
 
-1. Porque usando-os não fazemos códigos do zeo e economizamos tempo
-2. Porque nos economiza tempo para fazer o leiaute de nossa página
+1. Porque usando-os não fazemos códigos do zero e economizamos tempo
+2. Porque nos economiza tempo para fazer o layout de nossa página
 3. Garante-nos que nosso código será flexível
 4. Garante-nos que nosso código será funcional
 
 <solution style="display:none;">1,4</solution>
 
-### 3) Exemplos de componentes que podemos encontrar em um Framework
+### 3) Exemplos de componentes que podemos encontrar em um Framework:
 
 #### Opções
 
 1. section.row
 2. grid
-3. imágenes que carguen rápido
-4. imágenes responsive
+3. imagens que carreguem rápido
+4. imagens responsivas
 
 <solution style="display:none;">2,4</solution>
 
-### 4) Vantagem de usar um Framework
+### 4) Vantagem de usar um Framework:
 
 #### Opções
 
@@ -66,7 +66,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 6) Formas de adicionar un Framework à sua área de trabalho
+### 6) Formas de adicionar um Framework à sua área de trabalho:
 
 #### Opçõs
 
@@ -84,7 +84,7 @@
 1. 11
 2. 10
 3. 12
-4. De acordo com o leiaute
+4. De acordo com o layout
 
 <solution style="display:none;">3</solution>
 
@@ -98,7 +98,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Framework desenvolvido inicialmente pelo Twitter
+### 9) Framework desenvolvido inicialmente pelo Twitter:
 
 #### Opções
 
@@ -108,7 +108,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 10) De acordo com o Bootstrap, quais são as classes para o sistem de *grid*?
+### 10) De acordo com o Bootstrap, quais são as classes para o sistema de *grid*?
 
 #### Opções
 
@@ -118,7 +118,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 11) Contêiner que usa toda a largura da tela em nosso dispositivo
+### 11) Contêiner que usa toda a largura da tela em nosso dispositivo:
 
 #### Opções
 
@@ -128,7 +128,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 12) Dispositivos que são levados em conta em um framework
+### 12) Dispositivos que são levados em conta em um framework:
 
 #### Opções
 

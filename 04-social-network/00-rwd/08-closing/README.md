@@ -8,7 +8,7 @@
 
 ## Agenda
 
-### 1. Respondamos às perguntas da abertura
+### 1. Respondamos às perguntas da abertura:
 
 - O que é Web Design Responsivo?
 - Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?

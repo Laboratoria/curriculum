@@ -17,12 +17,12 @@
 #### Opções
 
 1. Técnica de projeto que permite que um único sítio web se adapte perfeitamente a todos os dispositivos
-2. Técnica de projeto em que se faz diferentes sítios para múltiplos dispositivos.
+2. Técnica de projeto em que se faz diferentes sítios para múltiplos dispositivos
 3. Técnica de projeto em que se faz estilos somente para um dispositivo, normalmente para desktop
 
 <solution style="display:none;">1</solution>
 
-### 2) Os componentes de uma *grid* são
+### 2) Os componentes de uma *grid* são:
 
 #### Opções
 
@@ -45,13 +45,13 @@
 
 <solution style="display:none;">2</solution>
 
-### 4) As regras *@media* são um tipo especial de regra CSS que permitem indicar
+### 4) As regras *@media* são um tipo especial de regra CSS que permitem indicar:
 
 #### Opções
 
-1. múltiplas combinações de *queries*
-2. características que, se verdadeiras, aplicarão os estilos informados na regra
-3. o meio em que se aplicam os estilos, incluindo o nome desse meio depois de *@media*
+1. Múltiplas combinações de *queries*
+2. Características que, se verdadeiras, aplicarão os estilos informados na regra
+3. O meio em que se aplicam os estilos, incluindo o nome desse meio depois de *@media*
 4. Nenhuma das anteriores
 
 <solution style="display:none;">2,3</solution>
@@ -67,7 +67,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) As *Media Queries* são formadas por
+### 6) As *Media Queries* são formadas por:
 
 #### Opções
 
@@ -141,6 +141,6 @@
 2. Os estilos da imagem serão executados quando qualquer uma das medias seja verdadeiras
 3. Os estilos da imagem serão executados quando **tv and (orientation: landscape)** for verdadeiro
 4. Os estilos da imagem serão executados quando **(min-width: 650px), tv and (orientation: landscape)** for verdadeiro
-5. No sucede nada
+5. Nada acontece
 
 <solution style="display:none;">4</solution>

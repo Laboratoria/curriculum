@@ -16,7 +16,7 @@ Nesta unidade aprenderemos:
 
 ## Por que aprender a usar Frameworks?
 
-Usar frameworks nas faz pessoas mais felizes já que nos ajuda a não escrever código repetitivo, ajuda-nos a desenvolver mais rápido e a utilizar boas práticas.
+Usar frameworks nos faz pessoas mais felizes já que nos ajuda a não escrever código repetitivo, ajuda-nos a desenvolver mais rápido e a utilizar boas práticas.
 
 O desafio que temos nesta unidade é aprender "em que, quando e como" utilizar os **frameworks**.
 

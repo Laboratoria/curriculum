@@ -2,9 +2,9 @@
 
 Neste curso você aprenderá tudo que é necessário para poder criar sua própria rede social - cuja temática será definida por você. Para tanto, você aprenderá a:
 
-1. Projetar a experiência de usuário que seu produto oferecerá, aplicando técnicas e conceitos de UX Design
-2. Prototipar uma aplicação web orientada a dispositivos móveis com técnicas como `mobile-first`
-3. Tornar o processo de desenvolvimento mais rápidos e reutilizar código existente na web utilizando frameworks de CSS e bibliotecas de JavaScript
+1. Projetar a experiência de usuário que seu produto oferecerá, aplicando técnicas e conceitos de UX Design.
+2. Prototipar uma aplicação web orientada a dispositivos móveis com técnicas como `mobile-first`.
+3. Tornar o processo de desenvolvimento mais rápido e reutilizar código existente na web utilizando frameworks de CSS e bibliotecas de JavaScript.
 
 ## Público alvo
 
@@ -16,19 +16,19 @@ Para fazer este curso você deve ter completado o curso de `Programação Básic
 
 ## Aprenderá
 
-- Como estruturar os elementos que tem em sua página web
-- Tornar sua página web adaptável à tela de dispositivos móveis
-- Usar bibliotecas e frameworks existentes para um desenvolvimento mais rápido
+- Como estruturar os elementos que há em sua página web.
+- Tornar sua página web adaptável à tela de dispositivos móveis.
+- Usar bibliotecas e frameworks existentes para um desenvolvimento mais rápido.
 
 ## Produto
 
 Durante este curso você construirá uma rede social com as seguintes características:
 
-* Adaptável à uma tela de um dispositivo móvel
-* Poder autenticar-se por meio do Facebook ou Google
-* Publicar conteúdo
-* Comentar as publicações
-* Dar *like* nas publicações
+* Adaptável à uma tela de um dispositivo móvel.
+* Poder autenticar-se por meio do Facebook ou Google.
+* Publicar conteúdo.
+* Comentar as publicações.
+* Dar *like* nas publicações.
 
 ## Syllabus
 

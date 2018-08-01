@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-- Revisar as soluções dos desafios que resolvemos
+- Revisar as soluções dos desafios que resolvemos.
 - Entender que existe mais de uma maneira de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta.
 
 ## Agenda
