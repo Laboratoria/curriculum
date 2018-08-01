@@ -18,6 +18,6 @@ Observamos que do lado esquerdo temos um menu lateral e podemos encontrar as op�
 
 ![menu-lateral](https://raw.githubusercontent.com/Laboratoria/curricula-js/4b5f150a38604e2f0854ec556edc48e53ef2b211/04-social-network/04-firebase-101/01-auth/images/menu-lateral.png)
 
-Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é mas se já leu de todas as forma sua documentação e continua sem encontrar o *segredo* para que funcione, aqui temos um vídeo que explica um pouco mais o passo a passo para que triunfemos!
+Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é mas se você já leu de todas as formas a documentação e continua sem encontrar o *segredo* para que funcione, aqui temos um vídeo que explica um pouco mais o passo a passo para que triunfemos!
 
 [vídeo](https://www.youtube.com/watch?v=Ao7zGGUypWI)
