@@ -2,14 +2,14 @@
 
 - Tipo: `oficina`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Praticar programando junto à sua equipe de professora resolvendo os exercícios com a ajuda de `frameworks css`
-- Testar, praticar e practicar mais.
+- Praticar programando junto à sua equipe de professoras resolvendo os exercícios com a ajuda de `frameworks css`
+- Testar, praticar e praticar mais.
 
 ## Enunciados
 

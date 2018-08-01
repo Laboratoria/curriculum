@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar programando com sua equipe de professoras, resolvendo exercícios `html` e `css`
-- Praticar, praticar e praticar
+- Praticar programando com sua equipe de professoras, resolvendo exercícios `html` e `css`.
+- Praticar, praticar e praticar.
 
 ## Enunciados
 
@@ -26,7 +26,7 @@ Tomando como base a imagen abaixo, replique a estrutura da *grid* usando as dife
 ### 2. De *desktop* para *mobile*
 
 Agora que você sabe fazer uma *grid* no desktop, vamos fazer um desafio mais divertido.
-Apresentamos três desafios. Em cada imagem, verá duas versões: desktop (à esquerda) e mobil (à direita).
+Apresentamos três desafios. Em cada imagem, verá duas versões: desktop (à esquerda) e mobile (à direita).
 
 Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você consegue!
 
@@ -48,7 +48,7 @@ Crie uma página web para os amantes dos pandas. Pode obter as imagens [neste li
 ### 4. Rock Site
 
 Replique as imagens a seguir colocando em prática seus conhecimentos de `grid system`.
-Pode conseguir as fotografias [neste link](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
+Pode conseguir as fotografias [neste link].(https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
 
 ![Rock Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
 
@@ -56,6 +56,6 @@ Pode conseguir as fotografias [neste link](https://drive.google.com/drive/folder
 
 ***
 
-Você pode assistir ao vídeo a seguir para saber como criar e utilizar um *grid system*
+Você pode assistir ao vídeo a seguir para saber como criar e utilizar um *grid system*.
 
 [![Criando un grid system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=Ml36qp6Dmds)

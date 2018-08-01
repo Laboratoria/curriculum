@@ -10,14 +10,14 @@
 
 Nesta unidade aprenderemos a:
 
-- criar una página web utilizando o enfoque de projeto `Web Design Responsivo`
+- criar uma página web utilizando o enfoque de projeto `Web Design Responsivo`.
 - utilizar *grid system* e *medias queries* para estruturar o site de uma maneira melhor.
 
 ## Por que aprender Web Design Responsivo?
 
 Atualmente existe uma ampla variedade de dispositivos (smartphone, tablet, computador, notebook...) com seus diferentes formatos de tela, condição que nos obriga a adaptar nossos produtos digitais à estrutura de cada um deles.
 
-O desafio que tem neste curso é aprender a criar produtos web **responsivos** que se adaptem e permitam mostrar a versão mais otimizadas para determinado dispositivo.
+O desafio que você tem neste curso é aprender a criar produtos web **responsivos** que se adaptem e permitam mostrar a versão mais otimizada para determinado dispositivo.
 
 ## Guia de perguntas e conceitos chave
 
@@ -29,7 +29,7 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 
 - Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?
 
-- O que é *Grid System*? Explique com um exemplo e um diagrama
+- O que é *Grid System*? Explique com um exemplo e um diagrama.
 
 - O que são *Media Queries* e para que servem?
 

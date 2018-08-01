@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-- Revisar e consolidar os conceitos aprendidos por meio de uma classe com sua equipe de professoras
+- Revisar e consolidar os conceitos aprendidos por meio de uma classe com sua equipe de professoras.
 - Esclarecer todas as dúvidas que tenhas!
 
 ## Agenda
@@ -21,12 +21,12 @@
 
 3. **Criação:** buscamos as melhores maneiras para executar/desenvolver as funcionalidades definidas na fase 2. São elaborados desenhos e decide-se qual proposta será executada.
 
-4. **Prototipação:** buscamos a melhor maneira de acomodar os componentes ddo produto e elaboramos o MVP com diferentes ferramentas.
+4. **Prototipação:** buscamos a melhor maneira de acomodar os componentes do produto e elaboramos o MVP com diferentes ferramentas.
 
 5. **Teste com usuários:** nesta etapa testamos nossos protótipos com os usuários para conseguir seu feedback.
 
 
-### 2. Reflexão sobre como foi o processo de design durante o exercício
+### 2. Reflexão sobre como foi o processo de design durante o exercício.
 
 ### 3. Documentário `Design Disruptors`
 

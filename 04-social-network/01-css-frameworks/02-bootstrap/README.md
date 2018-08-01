@@ -20,9 +20,9 @@ Inicialmente foi criado como uma solução interna para o Twitter e posteriormen
 
 Foi feito para que possa ser utilizado por pessoas de todos os níveis, por dispositivos de todas as formas e projetos de todos os tamanhos.
 
-Bootstrap tem duas versões para trabalhar atualmente (versão 3 e 4). A mais poppular é a versão 3 e é a que aprenderemos. Podemos encontrar o Bootstrap [aqui](https://getbootstrap.com/docs/3.3/).
+Bootstrap tem duas versões para trabalhar atualmente (versão 3 e 4). A mais popular é a versão 3 e é a que aprenderemos. Podemos encontrar o Bootstrap [aqui](https://getbootstrap.com/docs/3.3/).
 
-Podemos utilizar o Bootstrap em nosso projetos de diferentes formas, seja adicionando o código CDN ao nosso HTML para usá-lo de maneira remota ou baixando o Bootstrap na sua página web.
+Podemos utilizar o Bootstrap em nossos projetos de diferentes formas, seja adicionando o código CDN ao nosso HTML para usá-lo de maneira remota ou baixando o Bootstrap na sua página web.
 
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/c6232fc0a639688fc216c72d17e325a588abae9d/04-social-network/01-css-frameworks/02-bootstrap/bcdn.png)
 
@@ -32,7 +32,7 @@ Se utilizarmos as opções de baixar o Bootstrap, devemos descompactar e adicion
 
 Falando em CDN, precisamos entender: __O que é CDN?__
 
-Imagine que você queira usar o CSS de Bootstrap ou de alguma outra biblioteca. Poderíamos simplesmente baixar o arquivo .css ou .js e adicioná-lo a nosso HTML. Mas, o que acontecei se esse arquivo __NÃO__ está no nosso computador e sim em algum lugar da internet?
+Imagine que você queira usar o CSS de Bootstrap ou de alguma outra biblioteca. Poderíamos simplesmente baixar o arquivo .css ou .js e adicioná-lo a nosso HTML. Mas, o que acontece se esse arquivo __NÃO__ está no nosso computador e sim em algum lugar da internet?
 
 Quando temos o arquivo em algum lugar da internet, na verdade está __em outro computador__ em algum lugar do mundo.
 
@@ -87,6 +87,6 @@ Para utilizar o que já nos oferece nosso framework, só necessitamos ir à sua 
 
 ![Bootstrap-btn](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/02-bootstrap/btn-example.PNG)
 
-E assim fácil e maravilhosamente já temos nosso botões.
+E assim fácil e maravilhosamente já temos nossos botões.
 
 Se quisermos saber um pouco mais sobre Bootstrap e como funciona [aqui](https://www.youtube.com/watch?v=_0PL45xM__0&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR) há uma série de vídeos, mas sempre é mais divertido testá-lo nós mesmas.

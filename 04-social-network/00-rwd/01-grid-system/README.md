@@ -12,7 +12,7 @@
 
 ## O que é *Grid System*?
 
-Uma das formas mais simples de obter um design organizado é aplicar um *Grid System* (Sistema de Grade). É uma técnica que se originou no design gráfico para impressão de textos. As *grids* (grades) no Web Design Responsive Responsive Web Design ajudam a proporcionar uma experiência uniforme em vários dispositivos com diferentes tamanhos de tela.
+Uma das formas mais simples de obter um design organizado é aplicar um *Grid System* (Sistema de Grade). É uma técnica que se originou no design gráfico para impressão de textos. As *grids* (grades) no Web Design Responsivo ajudam a proporcionar uma experiência uniforme em vários dispositivos com diferentes tamanhos de tela.
 
 O sistema de grade ajuda a alinhar elementos de página com base em colunas e linhas
 sequenciadas. Usamos essa estrutura baseada em colunas para colocar texto,
@@ -36,7 +36,7 @@ O objetivo do *container* é estabelecer a largura de toda a *grid*. A largura d
 
 ![Row](http://j4n.co/content/4-blog/11-Creating-your-own-css-grid-system/row.png)
 
-O objetivo de *row* é impedir que as colunas dentro dela se ultrapassem outras *rows*.
+O objetivo de *row* é impedir que as colunas dentro dela ultrapassem outras *rows*.
 
 
 - Columns
