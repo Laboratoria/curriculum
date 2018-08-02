@@ -68,7 +68,7 @@ Debe verse bien en dispositivos de pantallas grandes
 sugerimos seguir la técnica de `mobile first` (más detalles sobre esta técnica
 al final).
 
-### Tests unitarios
+### Pruebas unitarias (unit tests)
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_, y _branches_.
@@ -434,15 +434,6 @@ Otras:
 ### `README.md`
 
 * [ ] Definición del producto
-  - [ ] Cuáles son los elementos básicos que tiene una red social
-  - [ ] Quiénes son los principales usuarios de producto
-  - [ ] Cómo descubriste las necesidades de los usuarios
-  - [ ] Qué problema resuelve el producto para estos usuarios
-  - [ ] Cuáles son los objetivos de estos usuarios en relación con el producto
-  - [ ] Cuáles son las principales funcionalidades del producto y cuál es su
-    prioridad
-  - [ ] Cómo verificaste que el producto les está resolviendo sus problemas
-  - [ ] Cómo te asegurarás que estos usuarios usen este producto
 * [ ] Benchmark de las principales redes sociales.
 * [ ] Resumen de entrevistas con usuarios.
 * [ ] Link/screenshots prototipo de alta fidelidad.
@@ -451,8 +442,8 @@ Otras:
 
 ### Pruebas / tests
 
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
-  y branches.
+* [ ] Pruebas unitarios cubren un mínimo del 70% de statements, functions,
+  lines, y branches.
 * [ ] Pasa tests (y linters) (`npm test`).
 
 ### Creación de cuenta (sign up)
