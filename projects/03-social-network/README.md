@@ -462,10 +462,22 @@ Otras:
 
 ### Muro (wall/feed)
 
-* [ ] Muestra _muro_.
-* [ ] Permite publicar nuevos posts.
-* [ ] Permite eliminar posts.
-* [ ] Pide confirmación antes de borrar posts.
-* [ ] Permite editar posts (in place).
-* [ ] Permite filtrar posts por público/amigos.
-* [ ] Permite dar _like_ a los posts y llevar un conteo de ellos.
+Debes elegir como mínimo 8 características.
+
+* [ ] Muestra _muro_, o lista de publicaciones.
+* [ ] Permite hacer nuevas publicaciones.
+* [ ] Permite eliminar publicaciones.
+* [ ] Pide confirmación antes de borrar publicación.
+* [ ] Permite editar publicación en el mismo lugar (in place).
+* [ ] Permite filtrar publicaciones por público/amigos.
+* [ ] Permite marcar publicaciones como _gustados_ (like, corazón, estrella,
+  etc...).
+* [ ] Permite agregar amigos.
+* [ ] Permite eliminar amigos.
+* [ ] Permite compartir publicación (en twitter esto es retwittear, en facebook
+  es compartir).
+* [ ] Permite comentar o responder una publicación.
+* [ ] Permite editar perfil.
+* [ ] Permite ver perfil o resumen desde el _muro_ o lista de publicaciones.
+* [ ] Permite ver cuántas marcas, likes, estrellas, corazones o lo que se haya
+  elegido, ha recibido una publicación.
