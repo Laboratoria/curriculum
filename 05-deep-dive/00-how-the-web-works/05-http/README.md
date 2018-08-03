@@ -67,3 +67,10 @@ solo es necesario que leas la primera parte "Familia de protocolos de Internet"
 para que conozcamos un poco más del tema de protocolos
 
 > Nota: Los demás verbos HTTP los verán cuando estén trabajando con APIs.
+
+
+Para seguir profundizando con este tema revisa este otro vídeo y enlace
+
+[video](https://www.youtube.com/watch?v=S975NVYbe2E)
+
+[Post](http://es.ccm.net/contents/264-el-protocolo-http)

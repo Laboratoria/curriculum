@@ -25,4 +25,4 @@ La web es un sistema de hipertexto, razón específica de porque HTML es de
 vital importancia para la web y con HTML5 la importancia es aun mayor por todas
 las novedades
 
-[importanciaHTML](https://lh3.googleusercontent.com/XJr1bEuGDRDFzyQvhANCQW2zRcTAABiWpzGiJPwGTRWR0p9cLMJhgJYEtUADdjx9Nocula9o5Wo_AzqKpJFkkx_Z9j1amQoWgD4QYkNkhLk_9hep46A)
+![importanciaHTML](https://lh3.googleusercontent.com/XJr1bEuGDRDFzyQvhANCQW2zRcTAABiWpzGiJPwGTRWR0p9cLMJhgJYEtUADdjx9Nocula9o5Wo_AzqKpJFkkx_Z9j1amQoWgD4QYkNkhLk_9hep46A)
