@@ -43,17 +43,7 @@ rentar es una gran opción económica, desarrollando las siguientes característ
 
 ## Syllabus
 
-### Unidad 01: [¿Cómo funciona internet?](00-how-the-web-works)
-
-Esta unidad es una introducción a la web, el objetivo es tener claro algunos
-conceptos sobre qué es la WWW (World Wide Web), qué es una  URL, HTTP y en
-qué nos ayuda entender esto al momento de realizar una Web App.
-
-Referencia:
-
-[![How the web works](https://img.youtube.com/vi/AkjMCbSvTto/0.jpg)](https://youtu.be/AkjMCbSvTto)
-
-### Unidad 02: [¿Qué hay de nuevo en HTML5?](01-html-5)
+### Unidad 01: [¿Qué hay de nuevo en HTML5?](01-html-5)
 
 En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
 las APIs que vienen integradas y que pueden ser accedidas por medio de
@@ -64,7 +54,24 @@ Referencia:
 
 [![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0)
 
-### Unidad 03: [¿Qué significa traer datos de un servidor asíncronamente?](02-asynchronous-js-request)
+
+### Unidad 02: [Asincronía: Callbacks, eventos y promesas](02-async)
+
+JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
+sin bloque del proceso, gracias a sus higher order functions y la propia
+arquitectura de los motores de JavaScript.
+
+Todo lo que sea interacción con usuarios, acceso de red, acceso a disco duro,
+... serán siempre operaciones asíncronas, done el resultado de una invocación no
+retorna immediatamente, sino después de un tiempo.
+
+Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
+aplicaciones web, estas alteraciones se realizan luego de cierta interacción
+por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
+entender aspectos importantes del comportamiento de eventos y como manejarlos.
+
+
+### Unidad 03: [¿Qué significa traer datos de un servidor asíncronamente?](03-asynchronous-js-request)
 
 El objetivo de esta unidad es llevar a la práctica el ciclo request/response de
 HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y
@@ -74,7 +81,15 @@ Referencia:
 
 [![Asynchronous Requests](https://img.youtube.com/vi/P5JlebbqzTQ/0.jpg)](https://youtu.be/P5JlebbqzTQ)
 
-### Unidad 04: [A jugar con Web APIs!](03-working-with-apis)
+
+### Unidad 04: [Manejo de errores](04-errors)
+
+El manejo de errores es importante dentro de todo desarrollo de software, y más
+aún cuando se piensa en construir un producto que se espera sea reusable y
+mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
+de nuestro código.
+
+### Unidad 05: [A jugar con Web APIs!](05-working-with-apis)
 
 En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el
 objetivo de experimentar la extracción de datos sin autenticación, con un token
@@ -85,7 +100,7 @@ Referencia:
 
 [![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
 
-### Unidad 05: [Mezclemos, practiquemos y aprendamos!](04-mixing-up)
+### Unidad 06: [Mezclemos, practiquemos y aprendamos!](06-mixing-up)
 
 Esta unidad es completamente práctica, el objetivo es realizar la mayor cantidad
 de ejercicios posibles para poner en práctica todos los conceptos aprendidos
@@ -95,7 +110,7 @@ Referencia:
 
 [![Move Planner](https://img.youtube.com/vi/Ab04b8PpzCQ/0.jpg)](https://youtu.be/Ab04b8PpzCQ)
 
-### Unidad 06: [Producto Final](05-final-product)
+### Unidad 07: [Producto Final](07-final-product)
 
 Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
 este curso, el único requisito será crear un Single Page Application haciendo
