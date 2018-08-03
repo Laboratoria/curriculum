@@ -8,7 +8,7 @@ veces con papel y lápiz - de cada visitante. Por razones de seguridad,
 usualmente piden a cada visitante dejar una identificación. Si vivimos en la era
 digital, ¿por qué seguimos registrando visitantes como si fuera 1985? ¿Qué tal
 si sustituimos a la persona en recepción por una tablet? ¿Qué tal si en lugar de
-pedir una identificación, tomamos una foto? ...  
+pedir una identificación, tomamos una foto? ...
 
 ## Introducción
 
