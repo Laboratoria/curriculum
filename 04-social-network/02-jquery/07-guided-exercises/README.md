@@ -9,8 +9,8 @@
 ## Objetivos
 
 - Testar, tentar e praticar mais.
-- Praticar programando e resolvendo exercícios com jQuery
-- Eliminar e resolver todas as dúvidas que você tenha
+- Praticar programando e resolvendo exercícios com jQuery.
+- Eliminar e resolver todas as dúvidas que você tenha.
 
 ## Enunciados
 
@@ -26,8 +26,7 @@ Vamos criar um carrossel de imagens!
 
 ![carrossel-2](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/carrusel-2.png)
 
-O tema é totalmente livre. Devem funcionar tanto as setas de 
-El tema es totalmente libre, deben funcionar tanto las flechas de rolagens como com os botões indicadores, os quais devem corresponder a cada imagem.
+O tema é totalmente livre. Deve funcionar tanto com as setas de rolagem, como com os botões indicadores, os quais devem corresponder a cada imagem.
 
 [Aqui](http://www.drcode.com.br/jquery/como-fazer-um-carrossel-com-jquery/) podemos ver o passo a passo de como resolvê-lo.
 

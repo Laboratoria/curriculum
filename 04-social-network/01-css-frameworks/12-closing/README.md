@@ -8,9 +8,9 @@
 
 ## Agenda
 
-### 1. Revisemos o que aprendemos até agora
+### 1. Revisemos o que aprendemos até agora.
 
-### 2. Respondamos às perguntas da abertura
+### 2. Respondamos às perguntas da abertura.
 
 - O que é um Framework?
 

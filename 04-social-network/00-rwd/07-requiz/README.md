@@ -6,13 +6,13 @@
 
 ## Objetivos
 
-- Nesta seção você terá a oportunidade de avaliar-se para coloque seus conhecimentos à prova. É uma oportunidade para que verifique e valide que realmente está aprendendo. Sucesso!
+- Nesta seção você terá a oportunidade de avaliar-se para colocar seus conhecimentos à prova. É uma oportunidade para que verifique e valide que realmente está aprendendo. Sucesso!
 
 ***
 
 ## Perguntas
 
-### 1) "Técnica de projeto que conseque que un único sítio se adapte perfeitamente a todos os dispositivos". Esta é uma definição que corresponde a:
+### 1) "Técnica de projeto que consegue que um único sítio se adapte perfeitamente a todos os dispositivos". Esta é uma definição que corresponde a:
 
 #### Opções
 
@@ -37,7 +37,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 3) Uma técnica que utiliza a regra `@media` para incluir blocos CSS que serão executados se as condições dadas forem verdadeiras. Esta é a definição de...
+### 3) Uma técnica que utiliza a regra `@media` para incluir blocos CSS que serão executados se as condições dadas forem verdadeiras. Esta é a definição de:
 
 #### Opções
 
@@ -129,7 +129,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Se for necessário adaptar estilos para dispositivos com tamanhos maiores ou iguals a um iPhone 6 (width: 375px), qual seria a *media feature* a ser utilizada?
+### 9) Se for necessário adaptar estilos para dispositivos com tamanhos maiores ou iguais a um iPhone 6 (width: 375px), qual seria a *media feature* a ser utilizada?
 
 #### Opções
 
@@ -140,10 +140,10 @@
 
 <solution style="display:none;">2</solution>
 
-### 10) Se desejarmos aplicar estilos a dispositivos con tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a *media query* a ser utilizada?
+### 10) Se desejarmos aplicar estilos a dispositivos com tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a *media query* a ser utilizada?
 
 > **Observação:**
-> Os pixels que usamos no CSS não são sempre a resolução do dispositivo. Isso acontece porque os que usamos em CSS são Device Independent Pixels (DIP), que como diz seu nome, são independentes do hardware. Para calcular o DIP de um dispositivo, usamos a seguinte fórmula
+> Os pixels que usamos no CSS não são sempre a resolução do dispositivo. Isso acontece porque os que usamos em CSS são Device Independent Pixels (DIP), que como diz seu nome, são independentes do hardware. Para calcular o DIP de um dispositivo, usamos a seguinte fórmula:
 
 > ```
 > DIP = Resolução / DPR

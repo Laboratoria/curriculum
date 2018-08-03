@@ -50,7 +50,7 @@
 
 1. Baixando o CDN e adicionando-o ao nosso HTML
 2. Baixando a biblioteca jQuery
-3. Incluindo jQuery a partid da CDN
+3. Incluindo jQuery a partir da CDN
 
 <solution style="display:none;">2,3</solution>
 

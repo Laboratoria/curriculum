@@ -26,26 +26,26 @@ A parte mais importante quando faz um projeto de produto para alguém é poder e
 
 O "partner A" terá 4 minutos para entrevistar o "Partner B" e depois trocarão de papéis. 
 
-Para compeçar pergunte à sua entrevistada _quado foi a última vez que deu um presente e como você se sentiu?_ Pergunte um pouco mais sobre a experiência, _para quem foi o presente? foi algo importante? como você teve a ideia de qual presente comprar?_
+Para compeçar pergunte à sua entrevistada: _Quando foi a última vez que deu um presente e como você se sentiu?_ Pergunte um pouco mais sobre a experiência, _Para quem foi o presente? Foi algo importante? Como você teve a ideia de qual presente comprar?_
 
 #### Aprofunde
 
 Durante a entrevista com sua parceira devem ter sido destacados certos temas, histórias, emoções. Nesta segunda parte da entrevista, tente aprofundar nessas questões. Pergunte sobre o que sentia sua parceira nesses momentos, pergunte por quê e faça mais perguntas.
 
-Vocês tÇem 45 segundos para planejar e 3 minutos cada uma para nova rodada de entrevistas.
+Vocês tem 45 segundos para planejar e 3 minutos cada uma para nova rodada de entrevistas.
 
 #### Registre o que você descobriu
 
 Tome 4 minutos para tentar registrar o que aprendeu na entrevista. Tente sintetizar o que aprendeu em quantas 'necessidades' pode ter descoberto e alguns 'insights' que poderiam ser interessantes.
 
-Responde estas perguntas.
+Responda a estas perguntas.
 
 - **Metas e Desejos:** o que está tentando conseguir com sua parceira ao dar um presente?
 - **Insights:** novas aprendizagems sobre os sentimentos e motivações de sua parceira. O que viu na experiência de sua parceira que ela não tenha visto?
 
 #### Defina os *problem statements*
 
-Agora escolha um dos problemas de sua parceira que acredita que vale a pena resolver e escreva-o no forma de folha.
+Agora escolha um dos problemas de sua parceira que acredita que vale a pena resolver e escreva-o em uma folha.
 
 _Nome ou descrição_ ____________________ **necessita de** ___________________ **porque** ______________. 
 
@@ -75,7 +75,7 @@ Em 4 minutos, apresente o protótipo à sua parceira e pegue o feedback dela.
 
 Baseado no feedback da sua parceira, faça melhorias/adaptações no protótipo. Você tem 5 minutos.
 
-Em 2 minutos, volte a mostrr o protótipo à sua parceira para ver o que ela diz.
+Em 2 minutos, volte a mostrar o protótipo à sua parceira para ver o que ela diz.
 
 ### 06: Reflexão
 
@@ -86,8 +86,8 @@ Perguntas sobre o protótipo:
 - Quem teve um parceira que criou um produto que gostou muito?
 - Quem se sente curiosa para explorar um pouco mais o protótipo que criou para sua parceira?
 
-Perguntas sobre a  metodologaa:
+Perguntas sobre a metodologia:
 
 - Como ter conversado/entrevistado sua parceira antes de começar a desenhar te ajudou?
-- Como testar e obter um feedback te ajudram no seu projeto?
+- Como testar e obter um feedback te ajudaram no seu projeto?
 - Qual foi a parte mais difícil desse processo? 

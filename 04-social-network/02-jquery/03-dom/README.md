@@ -12,7 +12,7 @@
 
 ### Manipulação do DOM
 
-jQuery nos proporciona muitos métodos para manipular elementos HTML. Os mais simples mas mais úteis são:
+jQuery nos proporciona muitos métodos para manipular elementos HTML. Os mais simples, mas mais úteis são:
 
 - `.text()`
 - `.html()`
@@ -32,14 +32,14 @@ A diferença é que em jQuery são funções e não propriedades.
 
 jQuery possui vários métodos para adicionar, eliminar ou modificar elementos do DOM facilmente.
 
-Vamos comprender um a um.. com seu exemplo.
+Vamos comprender um a um com seu exemplo.
 
 | Método | Descrição | Exemplo |
 | ------ | ----------- | ------- |
 | `.append()` | Insere conteúdo **ao final** do elemento de destino especificado no seletor. | `$('selector').append(conteudo);`
 | `.prepend()` | Insere conteúdo **no início** do elemento especificado. | `$('selector').prepend('conteudo');`
-| `.before()` | Insere conteúdo (elementos novos ouexistentes no DOM) **antes** do elemento de destino especificado no seletor. | `$('selector').before();`
-| `.after()` | Insere conteúdo (elementos novosou existentes no DOM) **depois** do elemento de destino que especifica com o seletor. | `$('selector').after();`
+| `.before()` | Insere conteúdo (elementos novos ou existentes no DOM) **antes** do elemento de destino especificado no seletor. | `$('selector').before();`
+| `.after()` | Insere conteúdo (elementos novos ou existentes no DOM) **depois** do elemento de destino que especifica com o seletor. | `$('selector').after();`
 | `.empty()` | Elimina os filhos do elemento selecionado. | `$('selector').empty();`
 | `.remove()` | Remove os elementos selecionados especificados pelo seletor. | `$('selector').remove();`
 | `.replaceAll()` | Substitue os elementos selecionados com novos elementos HTML. | `$('contenido').replaceAll(selector);`

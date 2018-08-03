@@ -8,9 +8,9 @@
 
 ## Agenda
 
-### 1. Repassemos o que aprendemos até agora
+### 1. Repassemos o que aprendemos até agora.
 
-### 2. Respondamos às perguntas da abertura
+### 2. Respondamos às perguntas da abertura:
 
 - Quais são as fases do processo de design?
 

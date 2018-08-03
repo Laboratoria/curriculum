@@ -14,7 +14,7 @@
 
 Primeiramente devemos ter claro que existem framweworks tão variados como sabores de sorvete. Existem frameworks para JavaScript, para CSS, para PHP, etc.
 
-Os frameworks são definidos como um conjunto padrão de conceitos, práticas e critérios (quadro de trabalho) que servem de referência para resolver problemas semlhantes (como os *popups* que avisam quando uma compra foi feita com sucesso!).
+Os frameworks são definidos como um conjunto padrão de conceitos, práticas e critérios (quadro de trabalho) que servem de referência para resolver problemas semelhantes (como os *popups* que avisam quando uma compra foi feita com sucesso!).
 
 Os frameworks servem como esqueletos que você pode modificar para obter os resultados que deseja. Eles fornecem ferramentas e também dizem a forma correta de utilizá-las.
 
@@ -22,9 +22,9 @@ Por enquanto vamos nos focar nos `frameworks CSS`, que são um conjunto de ferra
 
 #### Por que usamos frameworks?  
 
-Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e esforço de criação depois de todo _Por que reinventar a roda se você pode projeto um carro melhor?_
+Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e esforço de criação e responder à pergunta _Por que reinventar a roda se você pode projetar um carro melhor?_
 
-Isso não significa que são substitutos para entender CCS ou que não mexeremos com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos e estilis incríveis e totalmente personalizados, e conhecer muito melhor CSS!
+Isso não significa que são substitutos para entender CCS ou que não mexeremos com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos e estilos incríveis e totalmente personalizados, e conhecer muito melhor CSS!
 
 Aqui deixamos alguns vídeos introdutórios a alguns frameworks.
 + [Bootstrap](https://www.youtube.com/watch?v=wiq1Zs9-qMQ)
@@ -41,7 +41,7 @@ Algumas das ferramentas que podemos encontrar nos frameworks de CSS são:
 
 ![componentes de frameworks](https://lh3.googleusercontent.com/-VklSSe3lPpE/WXeOFf__wqI/AAAAAAAAGbI/RnPVJQHJbDoc-NHkJYSGzE-jBtYXMjL2QCLcBGAs/s620/bootstrap-02.png)
 
-> Utilizar um framework é só uma boa ideia se ele faz o que você que no sítio que você fizer. 
+> Utilizar um framework só é uma boa ideia se ele faz o que você quer no sítio que você fizer. 
 
 Alguns dos frameworks mais conhecidos são:
 

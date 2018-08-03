@@ -16,9 +16,9 @@ Bootstrap não poderia ser o único framework a existir. Aqui veremos outros que
 
 ![Materializecss](https://i.pinimg.com/originals/11/32/de/1132de743af11b94448b08e4e69e7bdf.jpg)
 
-**Materialize** é um framework de CSS baseado em *Material Design*. Com com uma série de ferramentas e componentes predefinidos como boas práticas, botões, menus, formulários entre outros. Ele também tem um sistema de *grid* que facilita o desenvolvimento para diferentes tamanhos e dispositivos e integra o fonte Roboto proposto pelo Google em seu estilo de projeto.
+**Materialize** é um framework de CSS baseado em *Material Design*. Com uma série de ferramentas e componentes predefinidos como boas práticas, botões, menus, formulários entre outros. Ele também tem um sistema de *grid* que facilita o desenvolvimento para diferentes tamanhos e dispositivos e integra o fonte Roboto proposto pelo Google em seu estilo de projeto.
 
-[Materialize](http://materializecss.com) também possui quatro tipos diferentes de colunas: **s, m, l y xl**.
+[Materialize](http://materializecss.com) também possui quatro tipos diferentes de colunas: **s, m, l y, xl**.
 
 ![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
 
@@ -26,10 +26,10 @@ Bootstrap não poderia ser o único framework a existir. Aqui veremos outros que
 
 ### E então, qual usamos? Qual é melhor?
 
-Aqui é uma escolha de cada uma e a única maneira de saber qual nos funciona ou gostamos mais é fazedo uso deles. Testar e variar, testar e errar!
+Aqui é uma escolha de cada uma e a única maneira de saber qual nos funciona ou gostamos mais é fazendo uso deles. Testar e variar, testar e errar!
 
 ### Material adicional
-Se quiser praticar um pouco sobre como funcionam esses dois frameworks, aqui deixamos pequemos cursos que poderá fazerm em seu tempo livre
+Se quiser praticar um pouco sobre como funcionam esses dois frameworks, aqui deixamos pequenos cursos que poderá fazer em seu tempo livre
 
 1. ![Materialize](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk)
 2. [Foundation](https://www.youtube.com/watch?v=y9MhCyDdJ8I&index=8&list=PLBg0qy4vMd5EyUcJF5roRM0WATzENxCaE)

@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Conhecer e entender o uso de *media queries* no contexto de Web Design Responsivo
+- Conhecer e entender o uso de *media queries* no contexto de Web Design Responsivo.
 
 ## O que são as *Media Queries*?
 
@@ -18,7 +18,7 @@
 
 ![Sintaxe de uma *media query*](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg "Sintaxe de uma *media query*")
 
-As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** e o bloco de código a ser executados se as condições definidas no *media type* são verdadeiras. Tudo isso se conversa graças aos **operadores lógicos** correspondentes.
+As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** e o bloco de código a ser executado se as condições definidas no *media type* são verdadeiras. Tudo isso  funciona graças aos **operadores lógicos** correspondentes.
 
 
 ![*Media Queries*](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)
@@ -55,7 +55,7 @@ maximum-scale=1">
 
 Suas propriedades são as seguintes:
 
-- **width**: controla a largura da área de visualização. Pode ser incializada com um número fixo de pixels ou com o valor especial `device-width` que indica atlargura toral do dispositivo em pixels, em uma escala de 100%.
+- **width**: controla a largura da área de visualização. Pode ser incializada com um número fixo de pixels ou com o valor especial `device-width` que indica a targura total do dispositivo em pixels, em uma escala de 100%.
 
 - **initial-scale**: controla o nível de *zoom* inicial ao carregar a página. As propriedades `maximum-scale`, `minimum-scale` e `user-scalable` controlam como o usuário pode realizar o *zoom* sobre a página.
 

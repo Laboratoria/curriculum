@@ -8,7 +8,8 @@
 
 ## Objetivos
 
-- Praticar, praticar e praticar
+- Praticar programando com sua equipe de mentores, resolvendo exercícios `html` e `css`.
+- Praticar, praticar e praticar.
 
 ## Enunciados
 

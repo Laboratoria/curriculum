@@ -19,8 +19,8 @@
 #### Opções
 
 1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um modelo metodológico pré-estabelecido
-2. Linguarem de programação baseada em CSS que ajuda a projetar mais rapidamente
-3. Folha de estilo externa a nosso projeto
+2. Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente
+3. Folha de estilo externa ao nosso projeto
 4. Ferramenta de organização que podemos usar em nossos projetos como se fosse um modelo pedagógico pré-estabelecido
 
 <solution style="display:none;">1</solution>
@@ -30,24 +30,24 @@
 #### Opções
 
 1. Porque usando-os não fazemos o código do zero e economizamos tempo
-2. Porque nos economiza fazer o leiaute de nossa página
+2. Porque nos economiza fazer o layout de nossa página
 3. Garante-nos que nosso design será funcional
-4. Porque assim evitamos a pensar no design
+4. Porque assim evitamos pensar no design
 
 <solution style="display:none;">1,3</solution>
 
-### 3) Exemplos de componentes que podemos encontrar em um Framework
+### 3) Exemplos de componentes que podemos encontrar em um Framework:
 
 #### Opções
 
 1. section
 2. grid
-3. imágenes responsive
+3. imagens responsivas
 4. div
 
 <solution style="display:none;">2,3</solution>
 
-### 4) Vantagem de usar um Framework
+### 4) Vantagem de usar um Framework:
 
 #### Opções
 
@@ -68,7 +68,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 6) Quais números de colunas são os que faltam?
+### 6) Quais números de colunas estão faltando?
 
 ![Frameworks](https://raw.githubusercontent.com/Laboratoria/curricula-js/b6a70152fb5675d12ddc797fb9a209f63eab1283/04-social-network/01-css-frameworks/05-quiz/grid.jpg)
 
@@ -81,7 +81,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) Formas de adicionar un Framework na área de trabalho
+### 7) Formas de adicionar un Framework na área de trabalho:
 
 #### Opções
 
@@ -99,7 +99,7 @@
 1. 11
 2. 12
 3. 10
-4. De acordo com o leiaute
+4. De acordo com o layout
 
 <solution style="display:none;">2</solution>
 
@@ -113,7 +113,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) Framework desenvolvido inicialmente pelo Twitter
+### 10) Framework desenvolvido inicialmente pelo Twitter:
 
 #### Opções
 
