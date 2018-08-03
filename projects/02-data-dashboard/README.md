@@ -235,6 +235,9 @@ usuarios (`users`) y calcular los indicadores necesarios de progreso para cada
 uno. La función debe devolver un nuevo arreglo de usuarios donde a cada objeto
 de usuario se le debe agregar una _propiedad_ con el nombre `stats` con las
 estadísticas calculadas.
+Ten en cuenta que los `users` pueden contar con diferentes roles (`role`)
+dependiendo cuál sea su perfil. En nuestro caso consideraremos
+*estudiantes* sólo a aquellos usuarios cuyo `role` sea `student`.
 
 ##### Argumentos
 

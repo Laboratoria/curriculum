@@ -43,7 +43,7 @@ Algunos objetivos específicos:
 
 ## Consideraciones generales
 
-Este proyecto se debe "resolver" en trios.
+Este proyecto se debe "resolver" en tríos.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
@@ -61,19 +61,14 @@ la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
 de los proyectos anteriores. Por lo tanto, los _tests_ y el _setup_ necesario
 para ejecutarlos serán hechos por ti misma :smiley:.
 
-En tu  `README.md`, cuéntanos cómo pensaste y te acercaste a los usuarios,
-y cuál fue tu proceso para definir el producto final en términos de experiencia
-y de interfaz. Si tienes fotos de entrevistas, cuestionarios y/o
-sketches(bocetos) compártelos.
-
 ### Responsive
 
 Debe verse bien en dispositivos de pantallas grandes
 (computadoras/es, laptops, etc.) y pequeñas (tablets, celulares, etc.). Te
-sugerimos Seguir la técnica de `mobile first` (más detalles sobre esta técnica
+sugerimos seguir la técnica de `mobile first` (más detalles sobre esta técnica
 al final).
 
-### Tests
+### Pruebas unitarias (unit tests)
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_, y _branches_.
@@ -86,13 +81,13 @@ La interfaz debe permitir lo siguiente:
 
 * Login con Firebase:
   - Solamente para el login es obligatorio usar Firebase, no para las
-    publicaciones en el muro ni las demás funcionalidades, pare eso puedes
+    publicaciones en el muro ni las demás funcionalidades, para eso puedes
     usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
   - Autenticación con Facebook - Google.
-* Validaciones:.
+* Validaciones:
   - No pueden haber usuarios repetidos.
   - La cuenta de usuario debe ser un correo electrónico válido.
-  - Lo que se escriba en el campo(_input_) de contraseña debe ser secreto.
+  - Lo que se escriba en el campo (_input_) de contraseña debe ser secreto.
 * Comportamiento:
   - Al enviarse un formulario de registro o inicio de sesión, debe validarse.
   - En caso haya errores, el sistema debe mostrar mensajes de error para
@@ -101,6 +96,7 @@ La interfaz debe permitir lo siguiente:
   - Al recargar la aplicación, se debe verificar si el usuario está
     logueado antes de mostrarle el contenido privado.
 * Perspectiva de interfaz:
+
   ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 
 #### Muro/timeline de la red social
@@ -120,6 +116,7 @@ La interfaz debe permitir lo siguiente:
     información editada.
   - Al recargar la página debo de poder ver los textos editados
 * Perspectiva de interfaz:
+
   ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
 
 #### Otras consideraciones
@@ -170,11 +167,11 @@ Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
 ### UX
 
-Desde el punto de vista de UX, deberás:  
+Desde el punto de vista de UX, deberás:
 
-* Hacer un _benchamark_ de las principales redes sociales.
+* Hacer un _benchmark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de alta fidelidad.
+* Hacer un  prototipo de alta fidelidad.
 * Testear el prototipo con usuarios.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
@@ -255,12 +252,14 @@ puedas haber encontrado en el camino.
 
 #### 1) Definición del producto
 
-En el `README.md` cómo conociste el mercado de las redes sociales, cómo
-descubriste las necesidades de los usuarios, cómo llegaste  la definición final
-de tu producto. Es importante que detalles:
+En el `README.md` colocar cómo conociste el mercado de las redes sociales, cómo
+descubriste las necesidades de los usuarios, cómo llegaste  la definición final
+de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
+(bocetos) compártelos. Es importante que detalles:
 
 * Cuáles son los elementos básicos que tiene una red social
 * Quiénes son los principales usuarios de producto
+* Cómo descubriste las necesidades de los usuarios
 * Qué problema resuelve el producto para estos usuarios
 * Cuáles son los objetivos de estos usuarios en relación con el producto
 * Cuáles son las principales funcionalidades del producto y cuál es su prioridad
@@ -434,8 +433,8 @@ Otras:
 
 ### `README.md`
 
-* [ ] Definición del producto.
-* [ ] Benchamark de las principales redes sociales.
+* [ ] Definición del producto
+* [ ] Benchmark de las principales redes sociales.
 * [ ] Resumen de entrevistas con usuarios.
 * [ ] Link/screenshots prototipo de alta fidelidad.
 * [ ] Conclusiones de pruebas del prototipo con usuarios.
@@ -443,9 +442,9 @@ Otras:
 
 ### Pruebas / tests
 
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
-  y branches.
-* [ ] Pasa tests (y linters) (`yarn test`).
+* [ ] Pruebas unitarios cubren un mínimo del 70% de statements, functions,
+  lines, y branches.
+* [ ] Pasa tests (y linters) (`npm test`).
 
 ### Creación de cuenta (sign up)
 
@@ -461,13 +460,15 @@ Otras:
 * [ ] Valida password.
 * [ ] Muestra mensajes de error.
 
-### Social (debes existir como mínimo 8 características)
+### Muro (wall/feed)
+
+Debes elegir como mínimo 8 características.
 
 * [ ] Muestra _muro_, o lista de publicaciones.
 * [ ] Permite hacer nuevas publicaciones.
 * [ ] Permite eliminar publicaciones.
 * [ ] Pide confirmación antes de borrar publicación.
-* [ ] Permite editar publicación en el mismo lugar.
+* [ ] Permite editar publicación en el mismo lugar (in place).
 * [ ] Permite filtrar publicaciones por público/amigos.
 * [ ] Permite marcar publicaciones como _gustados_ (like, corazón, estrella,
   etc...).
