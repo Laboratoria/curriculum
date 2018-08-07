@@ -1,8 +1,8 @@
-# Variables, Tipos de datos y Operadores
+# Variáveis, Tipos de dados e Operadores
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -10,25 +10,21 @@
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
-Una de las características más particulares de JavaScript, es el comportamiento
-de los tipos de datos, porque conociendo su comportamiento nos permite entender
-como se comportan nuestros datos durante la ejecución.
+Uma das características mais marcantes de JavaScript, é o comportamento dos tipos dados, porque conhecendo seu comportamento permite entender como se comportam nossos dados durante a execução.
 
-## ¿Qué es un tipo?
+## O que é um tipo?
 
-Básicamente los tipos definen el comportamiento que van a tener los datos.
+Basicamente os tipos definem o comportamento que os dados terão.
 
-> Un tipo es un conjunto integrado de características intrínsecas que
-identifican el comportamiento de un valor particular y lo distingue de otros
-valores, tanto para el motor (intérprete del lenguaje) y el desarrollador.
+> Um tipo é um conjunto integrado de características intrínsecas que identificam o comportamento de um valor particular e o distingue de outros valores, tanto para o motor (interpretador de linguagem) como para o desenvolvedor.
 
-### ¿Qué tipos existen?
+### Quais tipos existem?
 
-La especificación del lenguaje define los tipos:
+A especificação da linguagem define os tipos:
 
 #### string
 
-El tipo `string` de Javascript es usado para representar datos textuales o
+O tipo `string` de Javascript é utilizado para representar dados textuais o cadeias de caracteres. É um conjunto de elementos de valores inteiros es usado para representar datos textuales o
 cadenas de caracteres. Es un conjunto de "elementos", de valores enteros sin
 signo de 16 bits. Cada elemento ocupa una posición en el `string`. El primer
 elemento está en el índice 0, el próximo está en el índice 1, y así

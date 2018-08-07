@@ -1,13 +1,13 @@
 # Operadores
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-En esta lectura vamos a ver algunas peculiaridades sobre los operadoradores de
-igualdad (`==`, `!=`, `===`, `!==`). Al final de la lectura te dejamos como
+En esta leitura vamos a ver algunas peculiaridades sobre los operadoradores de
+igualdad (`==`, `!=`, `===`, `!==`). Al final de la leitura te dejamos como
 referencia el link a la documentación oficial de operadores y expresiones en MDN
 que recomendamos _leer_ (o por lo menos ojear).
 
@@ -94,6 +94,6 @@ Casos de uso:
 10 >= 10    // true, caso 3
 ```
 
-## Lecturas complementarias
+## leituras complementarias
 
 [Expresiones y Operadores - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)

@@ -1,8 +1,8 @@
 # Scope
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -26,7 +26,7 @@ variable podrá ser accedida desde dentro del cuerpo de la función `foo`, pero 
 fuera de ella.
 
 Tradicionalmente, en JavaScript solo podíamos crear un nuevo scope o ámbito
-creando una nueva función. Más adelante en esta lectura veremos cómo `let` y
+creando una nueva función. Más adelante en esta leitura veremos cómo `let` y
 `const` introducen el concepto de _block sope_ en ES6.
 
 ### Lexical scoping
@@ -171,11 +171,11 @@ el bloque del `if` se mantiene dentro de su ámbito.
 })();
 ```
 
-## Variables de solo lectura: `const`
+## Variables de solo leitura: `const`
 
-Las variables de solo lectura son otra de las novedades de ECMAScript 6,
+Las variables de solo leitura son otra de las novedades de ECMAScript 6,
 mediante la introducción de la nueva palabra reservada `const`. Cualquier
-variable declarada como constante, será de solo lectura y su valor no podrá ser
+variable declarada como constante, será de solo leitura y su valor no podrá ser
 modificado.
 
 Veamos un ejemplo:
@@ -184,7 +184,7 @@ Veamos un ejemplo:
 (function () {
   const HELLO = 'hello world';
   HELLO = 'hola mundo';
-  // Dará ERROR, ya que es de sólo lectura
+  // Dará ERROR, ya que es de sólo leitura
 })();
 ```
 

@@ -1,8 +1,8 @@
 # Objetos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -24,7 +24,7 @@ tipo de propiedad más común.
 
 ### Accesors (o propiedades de acceso)
 
-Son métodos especiales que su invocación luce como propiedades de lectura y
+Son métodos especiales que su invocación luce como propiedades de leitura y
 escritura. Las propiedades normales son lugares de almacenamiento para valorespm
 de propiedades; los `accesors` te permiten operar sobre los valores de esas
 propiedades. También puede ser _propiedades virtuales_ si se desea.

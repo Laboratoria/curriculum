@@ -1,8 +1,8 @@
 # Funciones
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `45min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `45min`
 
 ***
 

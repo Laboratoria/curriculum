@@ -1,7 +1,7 @@
 # Ejercicios
 
 * Formato: `ejercicio`
-* Duración: `10 min`
+* Duração: `10 min`
 
 ***
 

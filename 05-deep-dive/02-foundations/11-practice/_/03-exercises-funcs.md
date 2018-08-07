@@ -1,7 +1,7 @@
 # Ejercicios
 
 * Formato: `workshop`
-* Duración: `10 min`
+* Duração: `10 min`
 
 ***
 

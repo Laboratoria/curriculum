@@ -1,8 +1,8 @@
 # Tests en el navegador
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -222,4 +222,4 @@ pasa:
 
 ![image](https://user-images.githubusercontent.com/110297/34906409-37ba7ecc-f83b-11e7-9500-10b5d1b49842.png)
 
-En la siguiente lectura veremos como arreglar esto.
+En la siguiente leitura veremos como arreglar esto.

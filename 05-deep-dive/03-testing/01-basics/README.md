@@ -1,8 +1,8 @@
 # Qué es un test?
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `20min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `20min`
 
 ***
 
@@ -209,6 +209,6 @@ debería devolver false para letra b
 ... pedacitos chiquitos que puedan ser probados de forma aislada...
 -->
 
-## Lecturas complementarias
+## leituras complementarias
 
 [Unit Test - Martin Fowler](https://martinfowler.com/bliki/UnitTest.html)

@@ -1,69 +1,48 @@
-# JS Deep Dive: Crea tu propia librería usando JavaScript
+# JS *Deep Dive*: Crie sua própria biblioteca usando JavaScript
 
-Programar en JavaScript te hace ver _cool_, conocer las particularidades del
-lenguaje es aún mejor. Este curso no es una introducción a JavaScript, sino
-una profundización en el lenguaje. Verás temas que probablemente ya conozcas
-pero desde una perspectiva de performance y buenas prácticas conociendo ciertas
-peculiaridades de JavaScript que lo hace distinto a los demás lenguajes de
-programación.
+Programação em JavaScript faz você ver _cool_, conhecer as peculiaridades da linguagem é ainda melhor. Este curso não é uma introdução ao JavaScript, mas um aprofundamento da linguagem. Você verá tópicos que você provavelmente já conhece mas a partir de uma perspectiva de desempenho e boas práticas, tomando conhecimento de algumas peculiaridades de JavaScript que a torna diferente de outras linguagens de programação.
 
-El objetivo práctico de este curso es que aprendas como crear tu propia librería
-(o biblioteca - _library_) en JavaScript. Como desarrolladorxs, estamos
-constantemente usando _módulos_ de terceros, ya sean librerías, frameworks o la
-_librería estándar_ (standard library) tanto del lenguaje en sí como el
-entorno/motor de ejecución (el navegador, node.js, ...).
+O objetivo prático deste curso é que você aprender como criar sua própria biblioteca (_Library_) em JavaScript. Como programadoras, estamos constantemente utilizando _módulos_ de terceiros, sejam bibliotecas, *frameworks* ou a *biblioteca padrão* (_Standard Library_) tanto da linguagem em si quanto do entorno/motor de execução (o navegador, node.js, ...).
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador ya que te obliga a pensar en la interfaz (API) de tus módulos,
-cómo serán usados por otras personas, ... y tener especial consideración en
-peculiaridades del lenguaje, convenciones y buenas prácticas.
+Projetar sua própria biblioteca é uma experiência fundamental para qualquer programadora já que te obriga a pensar na interface (API) dos seus módulos, como serão utilizados por outras pessoas, ... e ter consideração especial em relação às peculiaridades da linguagem, convenções e boas práticas.
 
-En este curso se presentarán una serie de retos que requieren la implementación
-de una o más librerías.
+Neste curso será apresentada uma série de desaafios que requerem a implementação de uma ou mais bibliotecas. 
 
-Main tags: `types`, `operators`, `functions`, `objects`, `scope`, `closure`,
-`execution-context`, `linter`.
+Palavras-chave: `types`, `operators`, `functions`, `objects`, `scope`, `closure`, `execution-context`, `linter`.
 
-## Público objetivo
+## Público alvo
 
-Este curso asume que ya te has familiarizado con la programación en JavaScript y
-quieres llevar tu conocimiento sobre el lenguage a otro nivel, entendiendo
-sutilezas del lenguage e implicaciones de performance.
+Este curso presume que você já tenha se familiarizado com a programamção em JavaScript e você deseja levar seu conhecimento sobre a linguagem para outro nível, entendendo sutilezas da linguagem e implicações de desempenho.
 
-## Requerimientos previos
+## Requisitos prévios
 
-Experiencia básica usando JavaScript para manipular el DOM y familiaridad con
-`git` y `GitHub`.
+Experiência básico utilizando JavaScript para manipular o DOM e familiaridade com `git` e `GitHub`.
 
-## Aprenderás
+## Você aprenderá
 
-* Un poco de **historia sobre JavaScript/ECMAScript**
-* A diseñar e implementar un **UI Library**
-* A diseñar enfocado en **tests**
-* **Buenas prácticas** en el uso de JavaScript
-* A escribir código siguiendo una **guía de estilos**
-* A **documentar** tu código/librería
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
+* Um pouco da **história sobre JavaScript/ECMAScript**
+* A projetar e desenvolver uma **UI Library**
+* A projetar com foco nos **testes**
+* **Boas práticas** no uso de JavaScript
+* A escrever código seguindo um **guia de estilos**
+* A **documentar** seu código/biblioteca
+* A aprofundar o conhecimento de git e GitHub usando **issues**, **milestones**, **branches**, **forks** e **pull requests**
 
-## Producto
+## Produto
 
-El producto/reto en el que trabajaras es una pequeña librería para desarrollo de
-interfaces (UI Library), teniendo en cuenta el performance y consumo de memoria,
-además de buscar que pueda ser reusable para cualquier proyecto y mantenible a
-lo largo del tiempo.
+O produto/desafio no qual você trabalhará é uma pequena biblioteca para desenvolvimento de interfaces (*UI Library*), levando em consideração o desempenho e consumo de memória, além de permitir que possa ser reutilizada em qualquer projeto e fácil de fazer manutenção ao longo do tempo.
 
-Participar en el proyecto involucra lo siguiente:
+Participar do projeto envolve o seguinte:
 
-* Tener una cuenta en GitHub
-* Formar un equipo de trabajo (en parejas)
-* Elegir/proponer un reto
-* Crear un repositorio en GitHub para alojar tu producto
-* Mapear y dividir el trabajo con tu equipo
-* Implementar las funcionalidades listadas en el repo del proyecto
-* Enviar pull requests
-* Hacer code review y merges
-* Presentar el trabajo final con una demo
+* Ter uma conta no GitHub
+* Formar um grupo de trabalho (em duplas)
+* Escolher/propor um desafio
+* Criar um repositório no GitHub para hospedar seu projeto
+* Mapear e dividir o trabalho com seu grupo
+* Implementar as funcionalidades listadas no repositório do projeto
+* Enviar *pull requests*
+* Realizar revisão de código e *merges*
+* Aprensentar o trabalho final com um demo
 
 ***
 
@@ -71,82 +50,49 @@ Participar en el proyecto involucra lo siguiente:
 
 ### Unidade 01: [Como a internet funciona](00-how-the-web-works)
 
-Esta unidad es una introdución a la web, el objetivo es tener claro algunos
-conceptos sobre qué es la WWW (World Wide Web), qué es una  URL, HTTP y en
-qué nos ayuda entender esto al momento de realizar una Web App.
+Esta é uma introdução à internet. O objetivo é ter claro alguns conceitos sobre o que é a WWW (*World Wide Web*), o que é uma URL, HTTP e em que entender isso nos ajuda no momento de realizar uma aplicação web.
+
+### Unidade 02: [Ambiente de desenvolvimento](01-env)
+
+Uma vez introduzido o curso e os desafios, concentraremos os esforços no entorno do desenvolvimento, com uma breve introdução/revisão de conceiros sobre `sh`, `git`, `npm` e seu `editor` de texto favorito.
+
+### Unidade 03: [Fundamentos de JavaScript](02-foundations)
+
+Se os fundamentos de JavaScript vieram bem sedimentados desde o primeiro curso da Laboratoria, agora aprofundaremos o entendimento no que acontece por trás. Desta maneira, veremos um pouco de compiladores e aprofundaremos nos temas como `variáveis`, `valores`, `tipos de dados`, `controle de fluxo`, `funções`, `escopo`, `vetores`, `objetos`, `strings`, `built-ins`, ...
+
+Nesta unidade veremos também algumas novas características de ES6 em relação à sintaxe para começar a utilizá-la ao longo do curso.
+
+### Unidade 04: [*Unit Testing* / Teste unitários](03-testing)
+
+Neste curso daremos uma ênfase especial ao desenvolvimento orientado a testes (*Test Driven Development* - TDD). Nesta unidade, você poderá seguir os passos necessários para escrever seus primeiros testes e entender o valor considerável que produzem.
+
+Como ferramentas de exemplo usaremos `mocha`, `assert`, `chai` e `karma`.
 
 
-### Unidad 02: [Ambiente de desenvolvimento](01-env)
+### Unidade 05: [Autoaprendizagem - Browser APIs](04-browser-apis)
 
-Una vez introducido el curso y los retos, nos concentraremos en el entorno de
-desarrollo, con una breve introducción/repaso de conceptos sobre `sh`, `git`,
-`npm` y tu `editor` de texto favorito.
+Nesta unidade focaremos nas API's que os navegadores disponibilizam para interagir com o `DOM`assim como alguns objetos globais como `window.navigator`, `window.console`, `window.location`, `window.history` e outras API's introduzidas por HTML5.
 
+### Unidade 06: [Autoaprendizagem - jQuery](05-jquery)
 
-### Unidad 03: [Fundamentos de JavaScript](02-foundations)
-
-Si bien los fundamentos de JavaScript se vieron desde el primer curso de
-Laboratoria, ahora profundizaremos en entender todo lo que sucede por detrás, de
-esta manera veremos un poco de compiladores y profundización en los temas como
-`variables`, `valores`, `tipos de datos`, `control de flujo`, `funciones`,
-`scope`, `arreglos`, `objetos`, `strings`, `built-ins`, ...
-
-En esta unidad veremos tambien algunas nuevas características de ES6 a nivel de
-sintaxis para comenzar a utilizarlo a lo largo del curso.
+jQuery é uma biblioreca focada em fazer a manipulação do DOM mais fácil (além de outras funcionalidades). Nesta lição não veremos a sintaxes das propriedades e métodos que esta biblioteca oferece, mas veremos aspectos importantes para melhorar o desempenho no uso desta biblioteca, além de considerações de encapsulamento de códito por meio da criação de consider `plugins`.
 
 
-### Unidad 04: [Unit Testing / Pruebas unitarias](03-testing)
-
-En este curso pondremos especial énfasis en el diseño orientado a pruebas (Test
-Driven Development - TDD). En esta unidad podrás seguir los pasos necesarios
-para escribir tus primeros tests y entender el valor tan grande que aportan.
-
-Como herramientas de ejemplo usaremos `mocha`, `assert`, `chai` y `karma`.
-
-
-### Unidad 05: [Autoaprendizagem - Browser APIs](04-browser-apis)
-
-En esta unidad nos enfocaremos en las APIs que nos ofrece el navegador para
-interactuar con el `DOM` así como algunos objetos globales como
-`window.navigator`, `window.console`, `window.location`, `window.history` y
-otras APIs introducidas por HTML5.
-
-
-### Unidad 06: [Autoaprendizagem - jQuery](05-jquery)
-
-jQuery es una librería enfocada a hacer la manipulación del DOM más sencilla
-entre otras funcionalidades, en esta lección no veremos la sintaxis de las
-propiedades y métodos que esta librería nos brinda, sino, veremos aspectos
-importantes para mejorar el performance en el uso de esta librería además de
-consideraciones para el encapsulamiento de código a través de la creación de
-`plugins`.
-
-
-### Unidad 07: [Desafio - Biblioteca](06-challenge)
+### Unidade 07: [Desafio - Biblioteca](06-challenge)
 
 ***
 
-## Evaluación
+## Avaliação
 
-En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
-por el puntaje de tu producto/reto y tu equipo y el 40% restante será
-determinado por tu desempeño personal.
+Neste curso não teremos provas. Sua nota final será calculada em 60% pela nota do produto/desafio de seu grupo e os 40% restantes serão determinados por seu desempenho individual.
 
-Para determinar el puntaje de tu equipo/producto contaremos con sesiones
-períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el día de la demo, donde será evaluado por el
-equipo técnico y el resto de los equipos.
+Para determinar a nota de seu grupo/produto teremos sessões periódicas de revisão de código durante todo o processo e em seguinda com o desenpenho do produto no dia da demo, o qual será avaliado pela equipe técnica e pelas demais equipes.
 
-Tu desempeño personal estará determinado por tu participación dentro de las
-sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack (haciendo y/o contestando
-preguntas), etc.
+Seu desempenho individual será determinado por sua participação nas sessões presenciais, sua atividade no GitHub (escrevendo código, comentando, criando *issues*, ...), sua atividade no slack (fazendo e/ou respondendo perguntas), etc.
 
-Todos los equipos deberán exponer sus resultados durante el día de la demo,
-independientemente del estado de completitud del producto. Aquellos equipos que
-no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+Todas as equipes deverão apresentar seus resultados durante o dia da demo, independentemente do estado de conclusão do produto. Aqueles grupos que não tenham completado seu produto, terão um período extra para fazê-lo.
 
-Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
+Os exercícios extras além do projeto/produto não serão avaliados.
 
 ## Autor(es) / Colaboradores
 
@@ -154,13 +100,9 @@ Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
 * Iván Medina
 * Lupo Montero
 
-## Libros
+## Livros
 
-* [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do),
-  Douglas Crockford, O'Reilly Media
-* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS), Kyle Simpson,
-  O'Reilly Media
-* [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182/ref=as_li_ss_tl?ie=UTF8&redirect=true&linkCode=ll1&tag=eejs-20&linkId=4c5500843ce7dc958e290bdaeebd739b),
-  David Herman, 2013
-* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do),
-  David Flanagan, O'Reilly Media
+* [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do), Douglas Crockford, O'Reilly Media
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS), Kyle Simpson, O'Reilly Media
+* [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182/ref=as_li_ss_tl?ie=UTF8&redirect=true&linkCode=ll1&tag=eejs-20&linkId=4c5500843ce7dc958e290bdaeebd739b), David Herman, 2013
+* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do), David Flanagan, O'Reilly Media

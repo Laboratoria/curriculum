@@ -1,8 +1,8 @@
 # Frameworks
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 
@@ -211,7 +211,7 @@ describe('isVowel()', () => {
 
 Bueno, ya tenemos una estructura lista para implementar nuestros tests. Para
 continuar gradualmente con el ejemplo, simplemente copia las comprobaciones que
-hacíamos en la primera versión de los tests (lectura anterior) dentro de nuestra
+hacíamos en la primera versión de los tests (leitura anterior) dentro de nuestra
 nueva estructura:
 
 ```js
@@ -263,5 +263,5 @@ hagamos las comprobaciones usando _aserciones_, que puedan comunicar si una
 comprobación pasó o no a mocha para que este pueda manejar los resultados, en
 vez de tener que _manualmente_ imprimir mensajes a la consola.
 
-En la siguiente lectura veremos como usar _aserciones_ en tus tests, tanto en
+En la siguiente leitura veremos como usar _aserciones_ en tus tests, tanto en
 versión vanilla, con `assert` de Node.js y con `Chai.assert`.

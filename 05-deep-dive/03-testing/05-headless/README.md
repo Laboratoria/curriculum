@@ -1,8 +1,8 @@
 # Test runners
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 

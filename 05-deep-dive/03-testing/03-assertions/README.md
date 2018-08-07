@@ -1,12 +1,12 @@
 # Aserciones
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 
-En las lecturas anteriores hemos visto como usar `mocha` para construir la
+En las leituras anteriores hemos visto como usar `mocha` para construir la
 estructura de qué queremos probar/testear, pero todavía nos falta hacer las
 comprobaciones/aserciones que nos permitan verificar si el código que estamos
 probando se comporta como esperamos.
@@ -172,6 +172,6 @@ describe('isVowel()', () => {
 
 [Chai - Documentación oficial](http://chaijs.com/)
 
-## Lecturas complementarias
+## leituras complementarias
 
 * [BDD made simple in Node.JS with Mocha and Chai - @hbarcelos en medium.com](https://medium.com/@hbarcelos/bdd-made-simple-in-node-js-with-mocha-and-chai-3a3ce44ecce2)
