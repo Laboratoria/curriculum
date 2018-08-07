@@ -1,8 +1,8 @@
 # Editor de texto
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
@@ -34,6 +34,6 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
-## Lectura complementaria
+## leitura complementaria
 
 [Qué es .editorconfig y cómo usarlo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo).
