@@ -1,48 +1,41 @@
-# Opening: ¿Cómo funciona internet?
+# Abertura: Como a internet funciona?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-Esta unidad es una introducción a la web, nuestro objetivo es tener claro
-algunos conceptos sobre:
+Esta unidade é uma introdução à web. Nosso objetivo é ter claro alguns conceitos sobre:
 
-- Que es la WWW (World Wide Web)
-- Cuales son los componentes de la web
-- Que es HTTP
-- Que es una  URL
-- En que nos ayuda entender esto al momento de realizar una Web App.
+- O que é a WWW (World Wide Web)
+- Quais são os componentes da web
+- O que é HTTP
+- O que é uma URL
+- No que nos ajuda entender isso para desenvolver um Web App.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
 - Internet !== web
 
-- ¿Qué es la web?
+- O que é a web?
 
-- ¿Qué significa **www**?
+- O que significa **www**?
 
-- ¿Cómo se ve la web?
+- Como vemos a web?
 
-- ¿Cómo encajan sus piezas?
+- Como suas peças se encaixam?
 
-- ¿Por qué **HTML** es el documento principal de la web?
+- Por que **HTML** é o documento principal da web?
 
-- ¿Qué es **HTTP** y cuál es su funcionamiento?
+- O que é **HTTP** e qual é sua função?
 
-- ¿Qué es una **URL** y cómo está formada?
+- O que é uma **URL** e como ela está formada?
 
-- ¿Qué es SPA?
+- O que é SPA?

@@ -1,27 +1,26 @@
 # World Wide Web
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## ¿Qué es World Wide Web?
+## O que é a World Wide Web?
 
-Para respondernos esta pregunta vamos a leer los siguientes enlaces y ver el
-vídeo hasta el minuto 1:20.
+Para respondermos a esta pergunta vamos ler os seguintes links e ver o vídeo até o minuto 1:20.
 
 **[World Wide Web](http://www.masadelante.com/faqs/www)**
+
 **[World Wide Web 2](http://www.fotonostra.com/digital/paginasweb.htm)**
 
 [Vídeo](https://www.youtube.com/watch?v=9nJ4Fkt7o-I)
 
-Ya que hemos visto y revisado lo anterior, tenemos estos enlaces extras para
-conocer que es internet y porque es diferente de www.
-El vídeo se encuentra en inglés pero es muy visual y descriptivo, así que no es
-inconveniente que aun no entendamos en su totalidad lo que dice.
+Já que assistimos e revisamos os anteriores, temos estes links extras para conhecer o que é a internet e porque é diferente da www.
+O vídeo é em inglês, mas é muito visual e descritivo, de maneira que não é difícil entendermos totalmente o que é dito.
 
 **[Internet](https://developer.mozilla.org/es/docs/Learn/Common_questions/How_does_the_Internet_work)**
+
 **[Internet/pdf](https://si.ua.es/es/documentos/documentacion/pdf-s/mozilla1-pdf.pdf)**
 
 [Vídeo](https://www.youtube.com/watch?v=7_LPdttKXPc)

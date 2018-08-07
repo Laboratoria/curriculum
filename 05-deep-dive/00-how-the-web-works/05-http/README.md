@@ -1,76 +1,51 @@
 # HTTP
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `45min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `45min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- Que es **HTTP** y **HTTPS**
-- Como funciona y para que sirve
+- O que é **HTTP** e **HTTPS**
+- Como funcionam e para que servem
 
-## ¿Por qué es importante?
+## Por que são importantes?
 
-> Técnicamente, la web es solo una pequeña parte del internet. Sin embargo, es la
-> única parte que las personas utilizan sin tener en cuenta que lo que usan es la
-> web.
+> Tecnicament, a web é somente uma pequena parte da internet. Porém, é a única parte que as pessoas utilizam sem terem conta que o que estão utilizando é a web.
 >
-> La web es la plataforma que tú, la desarrolladora web, puedes usar para publicar
-> tus ideas al mundo. Es el lenguaje común entre los servidores y los cientes.
+> A web é a plataforma que você, desenvolvedora web, pode utilizar para publicar suas ideias ao mundo. É a linguagem comum entre os servidores e os clientes.
 >
-> Cada vez que abres un navegador, cuando descargas una app, o cada vez que
-> recibes un mensaje en WhatsApp o Facebook, estás usando la web.
+> Cada vez que você abre um navegador, quando baixa um aplicativo ou cada vez que recebe uma mensagem no WhatsApp ou no Facebook, você está utilizando a web.
 >
-> En general, en todos esos momentos, un cliente se está comunicando con el
-> servidor, y viceversa. ¿Pero qué significa esto realmente? ¿Qué sucede cuando
-> navegas en un website? ¿Cómo el smartphone sabe que te han enviado un mensaje?
-> ¿Qué capacidades tiene la web? Y más importante aun, ¿cuáles son sus
-> limitaciones?
+> Em geral, em todos esses momentos, um cliente está comunicando com o servidor e vice-versa. Mas o que isto significa realmente? O que acontece quando você navega em um website? Como o *smartphone* sabe que alguém lhe enviou uma mensagem? Quais funcionalidades a web possui? E mais importante, quais são suas limitações?
 >
-> Es importante entender qué es realmente la web, cómo puedes sacar ventaja de
-> ella y cómo puedes evitar errores que pueden hacer que tu usuario experimente
-> y sufra problemas de seguridad. Para pensar como una ingeniera, necesitamos
-> entender tanto la semántica que usa HTTP como su implementación dentro del
-> navegador.
+>É importante entender o que é realmente a web, como você pode tirar vantagem dela e como você pode evitar erros que podem fazer seu usuário ter e sofrer com problemas de segurança. Para pensar como uma engenheira, precisamos entender tanto a semântica que usa HTTP como sua implementação dentro do navegador.
 
-Lo anterior, es parte de lo que puedes encontrar en el siguiente video que es
-parte de un [curso en inglés sobre `comunicación cliente-servidor` ofrecido
-por Udacity](https://classroom.udacity.com/courses/ud897), así que prepara tus
-audífonos, activa la traducción automática a español si es necesario, y disfruta
-del siguiente video:
+O último item, é parte do que você pode encontrar no vídeo a seguir que é parte de um [curso em inglês sobre `comunicação cliente-servidor` oferecido
+pela Udacity](https://classroom.udacity.com/courses/ud897). Dessa forma, prepare seus fones de ouvido, ative a tradução automática para língua portuguesa se for necessário e assista ao seguinte vídeo:
 
 [![HTTP](https://img.youtube.com/vi/HBmOROFs8WM/0.jpg)](https://youtu.be/HBmOROFs8WM)
 
-## HTTP como estándar para comunicarnos
+## HTTP como padrão para comunicação
 
-Alguna vez te has preguntado cómo funciona el internet, en el sentido
-de *transportar* la información? Cómo sabe qué es lo que debe mostrar cuando
-escribo unas palabras en el buscador? De qué manera entiende cuál es la
-página que debe abrir en mi navegador?
+Alguma vez você se perguntou como funciona a internet, no sentido de *transportar* a informação? Como ela sabe o que é que precisa ser exibido quando escrevo palavras no buscador? De qual maneira entende qual é a página que o navegador deve abrir?
 
-Para responder estas respuestas y tener claro de que estamos hablando, aquí hay
-un vídeo que tiene una pequeña pero concreta explicación de lo que es el
-protocolo HTTP, no te preocupes si al final del video no se logra apreciar
-bien la imagen de lo que es un "Dialogo http" ya que Manu en su post nos
-explica más de este protocolo y nos muestra una imagen mucho más clara.
+Para responder a estas perguntas e ter claro de como estamos falando, aqui temos um vídeo que tem uma pequena explicação concreta do que é o protocolo HTTP. Não se preocupe se ao final do vídeo não for possível ver bem a imagem do que é um "Diálogo HTTP" já que Manu em seu post explicar com mais detalhe esse protocolo e apresenta uma imagem muito mais clara.
 
-[video](https://www.youtube.com/watch?v=iQkBZxBisO0)
+[Vídeo](https://www.youtube.com/watch?v=iQkBZxBisO0)
 
 [Post](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-http-6c8c5e078303)
 
-De este [enlace](https://es.wikipedia.org/wiki/Familia_de_protocolos_de_Internet)
-solo es necesario que leas la primera parte "Familia de protocolos de Internet"
-para que conozcamos un poco más del tema de protocolos
+Neste [link](https://es.wikipedia.org/wiki/Familia_de_protocolos_de_Internet) só é necessário que você leia a primeira parte "Família de protocolos de Internet" para que conheçamos um pouco mais do assunto de protocolos.
 
-> Nota: Los demás verbos HTTP los verán cuando estén trabajando con APIs.
+> Nota: Os outros comandos HTTP veremos quando estivermos trabalhando com API's.
 
+Para continuar aprofundando este tema, assista a este outro vídeo e leia o post.
 
-Para seguir profundizando con este tema revisa este otro vídeo y enlace
-
-[video](https://www.youtube.com/watch?v=S975NVYbe2E)
+[Vídeo](https://www.youtube.com/watch?v=S975NVYbe2E)
 
 [Post](http://es.ccm.net/contents/264-el-protocolo-http)

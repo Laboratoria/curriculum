@@ -1,24 +1,22 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de avaliar-se e colocar seus conhecimentos à prova. É uma oportunidade para que verifique se realmente está aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Cuál es el tipo principal de documentos en la web?
+### 1) Qual é o principal tipo de documento da web?
 
-#### Opciones
+#### Opções
 
 1. HTML
 2. Microsoft Word
@@ -27,69 +25,65 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Qué tipo de archivos pueden ser encontrados en la web?
+### 2) Quais tipos de arquivos podem ser encontrados na web?
 
-#### Opciones
+#### Opções
 
 1. Texto plano
 2. HTML
-3. Imágenes
-4. Videos
+3. Imagens
+4. Vídeos
 5. Música
 
 <solution style="display:none;">1, 2, 3, 4, 5</solution>
 
-### 3) ¿Qué es un navegador?
+### 3) O que é um navegador?
 
-#### Opciones
+#### Opções
 
-1. El principal protocolo de la web
-2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
-4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
-   en la web
+1. É o principal protocolo da web
+2. Computadores que hospedan os arquivos que compõe a web
+3. A maior rede de computadores do mundo
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
 
 <solution style="display:none;">4</solution>
 
-### 4) ¿Qué es internet?
+### 4) O que é a internet?
 
-#### Opciones
+#### Opções
 
-1. El principal protocolo de la web
-2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
-4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
-   en la web
+1. É o principal protocolo da web
+2. Computadores que hospedan os arquivos que compõe a web
+3. A maior rede de computadores do mundo
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
 
 <solution style="display:none;">3</solution>
 
-### 5) ¿Qué es HTTP?
+### 5) O que é HTTP?
 
-#### Opciones
+#### Opções
 
-1. El principal protocolo de la web
-2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
-4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
-   en la web
+1. É o principal protocolo da web
+2. Computadores que hospedan os arquivos que compõe a web
+3. A maior rede de computadores do mundo
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
 
 <solution style="display:none;">1</solution>
 
-### 6) ¿Qué son servidores?
+### 6) O que são servidores?
 
-#### Opciones
+#### Opções
 
-1. El principal protocolo de la web
-2. Computadoras que hospedan los archivos que componen la web
-3. La red de computadoras más grande del mundo 
-4. Un programa que se ejecuta en tu computadora para mostrar archivos encontrados
-   en la web
+1. É o principal protocolo da web
+2. Computadores que hospedan os arquivos que compõe a web
+3. A maior rede de computadores do mundo
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
 
 <solution style="display:none;">2</solution>
 
-### 7) Dado el protocolo `ftp`, el host `laboratoria.la`, y el path `/postula`, ¿cuál es la url?
+### 7) Dado o protocolo `ftp`, o host `laboratoria.la`, e o caminho `/postula`, qual é a url?
 
-#### Opciones
+#### Opções
 
 1. http://laboratoria.la/postula
 2. ftp://laboratoria.la/postula
@@ -98,11 +92,11 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) En la siguiente URL, ¿cuál es el valor del parámetro `s`?
+### 8) Na url abaixo, qual é o valor do parâmetro `s`?
 
 `http://www.omdbapi.com/?s=Batman&page=2`
 
-#### Opciones
+#### Opções
 
 1. Batman
 2. s
@@ -111,11 +105,11 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) En la siguiente URL, ¿cuál es el host?
+### 9) Na URL abaixo, qual é o host?
 
 `http://example.com:80/toys?p=foo#blah`
 
-#### Opciones
+#### Opções
 
 1. example.com
 2. http
@@ -125,11 +119,11 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) En la siguiente URL, ¿cuál es el protocolo?
+### 10) Na URL abaixo, qual é o protocolo?
 
 `http://example.com:80/toys?p=foo#blah`
 
-#### Opciones
+#### Opções
 
 1. example.com
 2. http
@@ -139,11 +133,11 @@
 
 <solution style="display:none;">2</solution>
 
-### 11) En la siguiente URL, ¿cuál es el query?
+### 11) Na URL abaixo, qual é a *query*?
 
 `http://example.com:80/toys?p=foo#blah`
 
-#### Opciones
+#### Opções
 
 1. example.com
 2. http
@@ -153,11 +147,11 @@
 
 <solution style="display:none;">4</solution>
 
-### 12) En la siguiente URL, ¿cuál es el fragment?
+### 12) Na URL abaixo, qual é o fragmento?
 
 `http://example.com:80/toys?p=foo#blah`
 
-#### Opciones
+#### Opções
 
 1. example.com
 2. http
@@ -167,11 +161,11 @@
 
 <solution style="display:none;">3</solution>
 
-### 13) En la siguiente URL, ¿cuál es el puerto?
+### 13) Na URL abaixo, qual é a porta?
 
 `http://example.com:80/toys?p=foo#blah`
 
-#### Opciones
+#### Opções
 
 1. example.com
 2. http
@@ -181,11 +175,11 @@
 
 <solution style="display:none;">5</solution>
 
-### 14) En la siguiente URL, ¿cuál es el `request line` para obtener (`GET`) esta URL usando `HTTP/1.1`?
+### 14) Na URL abaixo, qual é a `request line` para obter (`GET`) desta URL usando `HTTP/1.1`?
 
 `http://example.com/foo/logo.png?p=1#tricky`
 
-#### Opciones
+#### Opções
 
 1. GET http://example.com/foo/logo.png HTTP/1.1
 2. GET /foo/logo.png?p=1#tricky HTTP/1.1
@@ -194,9 +188,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 15) ¿Cuál método HTTP es el más usado para requerir un documento del servidor?
+### 15) Qual método HTTP é o mais usado para requisita um documento do servidor?
 
-#### Opciones
+#### Opções
 
 1. GET
 2. POST
@@ -205,13 +199,13 @@
 
 <solution style="display:none;">1</solution>
 
-### 16) ¿Cuáles de estos `requests` es para contenido dinámico?
+### 16) Quais destes `requests` serve para conteúdo dinâmico?
 
-#### Opciones
+#### Opções
 
-1. Tu página de Facebook
-2. El logo de Laboratoria
-3. La página principal de tu blog
-4. Los resultados de la búsqueda de Google
+1. Sua página do Facebook
+2. O logotipo da Laboratoria
+3. A página principal de seu blog
+4. Os resultados de uma busca do Google
 
 <solution style="display:none;">1, 3, 4</solution>
