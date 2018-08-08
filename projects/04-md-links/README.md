@@ -41,7 +41,7 @@ Tópicos: [Semver](https://semver.org/), [Node.js](https://nodejs.org/en/),
 
 ## Consideraciones generales
 
-Este proyecto se debe "resolver" en parejas.
+Este proyecto se debe "resolver" de forma individual.
 
 La librería debe estar implementada en JavaScript para ser ejecutada con
 Node.js. Está permitido usar librerías externas y te recomendamos echar un
@@ -61,8 +61,8 @@ Una vez creados los equipos, es hora de crear un plan de acción. Esto debería
 quedar detallado en el `README.md` de tu repo así como en una serie de _issues_
 y _milestones_ para coordinar el trabajo y poder hacer seguimiento del progreso.
 
-Dentro de cada _milestone_ se crearán y asignarán los _issues_ que cada equipo
-considere necesario. Como parte del proyecto, tendrás que:
+Dentro de cada _milestone_ se crearán y asignarán los _issues_ que cada
+estudiante considere necesario. Como parte del proyecto, tendrás que:
 
 * Hacer un _pre-release_ (una versión _alpha_ o _beta_)
 * Conseguir que algunos _usuarios_ usen la herramienta (valga la redundancia)
