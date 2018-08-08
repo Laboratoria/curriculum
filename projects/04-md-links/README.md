@@ -221,6 +221,48 @@ para usarlo programáticamente.
 
 ## Evaluación
 
+### Tech
+
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 4
+| Nomenclatura/semántica | 3
+| Funciones/modularidad | 3
+| Estructuras de datos | 2
+| Tests | 4
+| **HTML** | |
+| Validación | n/a
+| Estilo | n/a
+| Semántica | n/a
+| SEO | n/a
+| **CSS** | |
+| DRY | n/a
+| Responsive | n/a
+| **SCM** | |
+| Git | 3
+| GitHub | 3
+| **CS** | |
+| Lógica | 3
+| Arquitectura | 3
+| Patrones/paradigmas | n/a
+
+### Habilidades Blandas
+
+Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
+habilidades blandas. Te aconsejamos revisar la rúbrica:
+
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| Planificación y organización | 4
+| Autoaprendizaje | 4
+| Solución de Problemas | 4
+| Dar y recibir feedback | 4
+| Adaptabilidad | 4
+| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 4
+| Comunicación eficaz | 4
+| Presentaciones | 4
+
 ## Pistas / Tips
 
 ## Checklist
