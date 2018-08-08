@@ -69,11 +69,12 @@ const tokens = marked.lexer(data);
 tokens.forEach(console.log);
 ```
 
-Pueden ver un ejemplo real de este método [acá](https://github.com/Laboratoria/course-parser/blob/master/lib/common.js#L296) :wink:.
+Pueden ver un ejemplo real de este método [acá](https://github.com/Laboratoria/course-parser/blob/master/lib/common.js#L296)
+:wink:.
 
-La aplicación debe exponer un [ejecutable](https://docs.npmjs.com/files/package.json#bin) que podamos invocar
-en la línea de comando, además de una API programático para poder usar el módulo
-como dependencia desde otros scripts.
+La aplicación debe exponer un [ejecutable](https://docs.npmjs.com/files/package.json#bin)
+que podamos invocar en la línea de comando, además de una API programático para
+poder usar el módulo como dependencia desde otros scripts.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/) para
