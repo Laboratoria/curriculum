@@ -20,7 +20,15 @@ estadísticas.
 
 ## Introducción
 
-[sobre node, filesystem, parsing, markdown, open source, ...]
+[Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
+construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
+Esto nos va a permitir ejecura JavaScript en el entorno del sistema operativo,
+ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
+interactuar con el sistema operativo, sistema de archivos, redes, ...
+
+En este proyecto nos alejamos un poco del navegador para construir un programa
+que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
+sistema archivos, con el entorno (proceso, env, stdin/stdout/stderr), ...
 
 ## Objetivos
 
@@ -35,9 +43,14 @@ desarrollador ya que te obliga a pensar en la interfaz (API) de tus módulos,
 cómo serán usados por otras personas, ... y tener especial consideración en
 peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-Tópicos: [Semver](https://semver.org/), [Node.js](https://nodejs.org/en/),
-[File System](https://nodejs.org/api/fs.html), Parsing,
-[Markdown](https://daringfireball.net/projects/markdown/syntax), CLI, HTTP, ...
+Tópicos: [Node.js](https://nodejs.org/en/),
+[modules (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
+[file system](https://nodejs.org/api/fs.html),
+[http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
+parsing,
+[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
+[npm-scripts](https://docs.npmjs.com/misc/scripts),
+[semver](https://semver.org/), ...
 
 ## Consideraciones generales
 
@@ -70,10 +83,6 @@ considere necesario. Como parte del proyecto, tendrás que:
 * Preparar un primer release estable (`v1.0.0`)
 
 ## Parte obligatoria
-
-### Documentación
-
-[tbd]
 
 ### Archivos
 
@@ -222,5 +231,22 @@ para usarlo programáticamente.
 ## Evaluación
 
 ## Pistas / Tips
+
+### Tutoriales / NodeSchool workshoppers
+
+* [learnyounode](https://github.com/workshopper/learnyounode)
+* [how-to-npm](https://github.com/workshopper/how-to-npm)
+* [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
+
+### Otros recursos
+
+* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
+* [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
+* [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
+* [Node.js - Wikipedia](https://es.wikipedia.org/wiki/Node.js)
+* [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
+* [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
+* [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
+* [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
 
 ## Checklist
