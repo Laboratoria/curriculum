@@ -45,14 +45,39 @@ Este proyecto se debe "resolver" en parejas.
 
 La librería debe estar implementada en JavaScript para ser ejecutada con
 Node.js. Está permitido usar librerías externas y te recomendamos echar un
-vistazo a [marked](https://github.com/markedjs/marked).
+vistazo a [marked](https://github.com/markedjs/marked). En particular, este
+módulo nos ofrece el método [`marked.lexer(str)`](https://github.com/markedjs/marked/blob/master/docs/USING_PRO.md#access-to-lexer-and-parser),
+que recibe un string con el texto en formato markdown y retorna un arreglo de
+`tokens` que podemos iterar para encontrar los _links_.
 
-La aplicación debe exponer un ejecutable que podamos invocar en la línea de
-comando, además de una API programático para poder usar el módulo como
-dependencia desde otros scripts.
+```js
+const marked = require('marked');
+
+const data = `# Some markdown file
+
+Blah blah blah [blah](http://blah.blah/blah) blah.
+
+* blah
+* blah lbah
+* blah blah blah
+
+Blah blah: [blah.blah](blah.blah)
+`;
+
+const tokens = marked.lexer(data);
+
+tokens.forEach(console.log);
+```
+
+Pueden ver un ejemplo real de este método [acá](https://github.com/Laboratoria/course-parser/blob/master/lib/common.js#L296) :wink:.
+
+La aplicación debe exponer un [ejecutable](https://docs.npmjs.com/files/package.json#bin) que podamos invocar
+en la línea de comando, además de una API programático para poder usar el módulo
+como dependencia desde otros scripts.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_ y _branches_.
+_lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/) para
+tus pruebas unitarias.
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
