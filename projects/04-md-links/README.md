@@ -14,7 +14,7 @@ la información que se quiere compartir.
 
 Dentro de una comunidad de código abierto, nos han propuesto crear una
 herramienta usando [Node.js](https://nodejs.org/), que lea y analice archivos
-en formato `Markdown`, para verificar los links que contengan y reportar una
+en formato `Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
 
 ![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
@@ -23,8 +23,9 @@ algunas estadísticas.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
 construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecura JavaScript en el entorno del sistema operativo,
-ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder interactuar con el sistema operativo, sistema de archivos, redes, ...
+Esto nos va a permitir ejecuta JavaScript en el entorno del sistema operativo,
+ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder interactuar con
+el sistema operativo, sistema de archivos, redes, ...
 En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
 sistema archivos, con el entorno (proceso, env, stdin/stdout/stderr), ...
@@ -34,7 +35,8 @@ sistema archivos, con el entorno (proceso, env, stdin/stdout/stderr), ...
 El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
 **librería** (o biblioteca - _library_) en JavaScript.
 Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador porque que te obliga a pensar en la interfaz (API) de tus _módulos_ y como será usado por otros developers, debes tener especial consideración en
+desarrollador porque que te obliga a pensar en la interfaz (API) de tus _módulos_
+y como será usado por otros developers, debes tener especial consideración en
 peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ## Consideraciones generales
@@ -51,7 +53,8 @@ la línea de comando como una interfaz que podamos importar con `require`
 para usarlo programáticamente.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_ y _branches_. _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/) para tus pruebas unitarias.
+_lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
+para tus pruebas unitarias.
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
@@ -64,20 +67,14 @@ seguimiento de tu progreso.
 Dentro de cada _milestone_ se crearán y asignarán los _issues_ que cada quien
 considere necesarios.
 
-Como parte del proyecto, tendrás que:
-
-- Hacer un _pre-release_ (una versión _alpha_ o _beta_).
-- Conseguir que algunos _usuarios_ usen la herramienta (valga la redundancia).
-- Recibir feedback (feature requests, bugs, ...) y actuar sobre ese feedback.
-- Preparar un primer _release_ estable (`v1.0.0`).
-
 Para este proyecto necesitarás revisar los siguientes tópicos
 
 Tópicos:
 
 - [Node.js](https://nodejs.org/en/)
 - [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-- [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175) -[Módulos(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),)
+- [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
+- [Módulos(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
 - [Semver](https://semver.org/)
 - [Path](https://nodejs.org/api/path.html)
 - [File System](https://nodejs.org/api/fs.html)
@@ -117,15 +114,15 @@ Y todo lo relevante para que cualquier developer que quiera usar tu librería pu
 El módulo debe poder importarse en otros scripts de Node.js y debe ofrecer la
 siguiente interfaz:
 
-#### `Función: mdLinks(path, options)`
+#### `mdLinks(path, options)`
 
 ##### Argumentos
 
-- `path`: Ruta absoluta o relativa al archivo markdown. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node - _currentworking directory_).
+- `path`: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node - _currentworking directory_).
 
 - `options`: Un objeto con las siguientes propiedades:
-  - `validate`: Valor que determina si se desea validar los links encontrados en el archivo.
-  - `stats`: Valor que determina si se desea calcular los stats de de los links encontrados en el archivo.
+  - `validate`: Valor que determina si se desea validar los links encontrados en el archivo. (tipo de dato booleano)
+  - `stats`: Valor que determina si se desea calcular los stats de de los links encontrados en el archivo. (tipo de dato booleano)
 
 ##### Valor de retorno
 
@@ -159,12 +156,18 @@ mdLinks("./some/example.md", { stats: true })
     // => [{ href, text, file, total, unique, domains }]
   })
   .catch(console.error);
+
+mdLinks("./some/dir")
+  .then(links => {
+    // => [{ href, text, file }]
+  })
+  .catch(console.error);
 ```
 
 ### CLI (Línea de comando)
 
 El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
-manera a través de la consola:
+manera a través de la terminal:
 
 `md-links <path-to-file> [options]`
 
@@ -233,7 +236,8 @@ para usarlo programáticamente.
 
 ## Hacker edition
 
-- Implementar la librería para que pueda recibir como path(ruta )una carpeta/directorio con diversos archivos y obtengas los links de todos los archivos markdown.
+- Puedes agregar más estadísticas.
+- Integración continua con Travis o Circle CI.
 
 ## Pistas / Tips / Recursos
 
@@ -287,7 +291,7 @@ para usarlo programáticamente.
 
 ### Habilidades Blandas
 
-Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
+Para este proyecto esperamos que ya hayas alcanzado el nivel 4 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 | Habilidad                                                  | Nivel esperado |
@@ -305,16 +309,16 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 ### General
 
-- [ ] Entrega el link del modulo publicado en npm
+- [ ] Entrega el link del módulo publicado en npm
 
 ### `README.md`
 
 - [ ] Un board con el backlog para la implementación de la librería.
 - [ ] Documentación técnica de la librería.
-- [ ] Guia de uso e instalación de la librería
+- [ ] Guía de uso e instalación de la librería
 
 ### Pruebas / tests
 
-- [ ] Pruebas unitarios cubren un mínimo del 70% de statements, functions,
+- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
       lines, y branches.
 - [ ] Pasa tests (y linters) (`npm test`).
