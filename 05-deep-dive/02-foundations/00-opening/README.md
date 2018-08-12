@@ -1,4 +1,4 @@
-# Apertura
+# Abertura
 
 * Tipo: `leitura`
 * Formato: `individual`
