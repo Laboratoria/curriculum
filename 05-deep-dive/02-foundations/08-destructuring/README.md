@@ -1,4 +1,4 @@
-# Asignación desestructurada de arrays y objetos
+# Atribuição desestruturada de vetores e objetos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,40 +6,35 @@
 
 ***
 
-## Desestructuración de Arrays
+## Desestruturação de Vetores
 
-La sintaxis de _destructuring assignment_ es una expresión de JavaScript que
-hace posible la extracción de datos de arreglos u objetos usando una sintaxis
-que equivale a la construcción de arreglos y objetos literales.
-
-Algo particularmente útil que puedes hacer con destructuring assignment es leer
-una estructura completa en una sola sentencia, aunque también otras cosas
-interesantes que puedes hacer, como se muestra en los siguientes ejemplos:
+A sintaxe de _destructuring assignment_ é uma expressão de JavaScript que possibilita a extração de dados de vetores ou objeto usando uma sintaxe que equivale à construção de vetores e objetos literais.
+ 
+Algo particularmente útil que você pode fazer com _destructuring assignment_ é ler uma estrutura completa em uma única instrução, embora você possa fazer também outras coisas interessantes, como vemos nos exemplos seguintes:
 
 ```js
 const numbers = ["1", "2", "3"];
 
-// sin destructuring
+// sem destructuring
 const one   = numbers[0];
 const two   = numbers[1];
 const three = numbers[2];
 
-// con destructuring
-const [uno, dos, tres] = numbers;
+// com destructuring
+const [um, dois, tres] = numbers;
 
 console.log(one, two, three); // 1 2 3
-console.log(uno, dos, tres); // 1 2 3
+console.log(um, dois, tres); // 1 2 3
 ```
 
-Podemos asignar de forma desestructurada sin una declaración en la asignación:
+Podemos atribuir de maneira desestruturada sem uma declaração na atribuição:
 
 ```js
 let ichi, ni, san;
-[ichi, ni, san] = ['uno', 'dos', 'tres'];
+[ichi, ni, san] = ['um', 'dois', 'tres'];
 ```
 
-Yendo un poco más allá, podemos utilizar funciones para devolver un conjunto de
-valores y asignarlos de forma desestructurada:
+Indo um pouco mais além, podemos utilizar funções para retornar um conjunto de valores e atribuí-los de forma desestruturada:
 
 ```js
 function users(){
@@ -47,18 +42,16 @@ function users(){
 }
 ```
 
-De este modo podemos devolver cualquier número de valores de forma arbitraria.
-Hasta aquí ninguna novedad, pero si utilizamos la asignación desestructurada:
+Deste modo podemos retornar qualquer número de valores de forma arbitrária. Até aqui, nenhuma novidade, mas se utilizarmos a atribuição desestruturada:
 
 ```js
 let [joan, carlos, david, dani] = users();
 console.log(joan, carlos, david, dani); // 'joan' 'carlos' 'david' 'dani'
 ```
 
-La asignación de variables se realiza en orden, el primer valor se asigna a la
-primera variable, el segundo a la segunda... y así sucesivamente.
+A atribuição de variáveis é realizada em ordem; o primeiro valor é atribuído à primeira variável, o segundo à segunda e assim sucessivamente.
 
-Puedes ignorar los valores de retorno en los que no estás interesado:
+Você pode ignorar os valores de retorno nos quais você estiver mais interessada:
 
 ```js
 function f() {
@@ -66,8 +59,9 @@ function f() {
 }
 
 let [a, , b] = f();
-console.log(`A es ${a}, B es ${b}`); // 'A es 1, B es 3'
+console.log(`A es ${a}, B es ${b}`); // 'A é 1, B é 3'
 ```
 
-Después de correr este código a vale 1 y b vale 3. El valor 2 es ignorado.
-Puedes ignorar cualquiera de los valores retornados (o incluso todos).
+Depois de executar este código `a` vale 1 e `b` vale 3. O valor 2 é ignorado.
+Você pode ignorar qualquer dos valores retornados (ou todos).
+

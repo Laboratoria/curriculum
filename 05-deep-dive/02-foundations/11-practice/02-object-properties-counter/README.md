@@ -1,9 +1,8 @@
-# Contador de propiedades
+# Contador de propriedades
 
-Dado un objeto como parámetro, contar la cantidad de propiedades que este
-contiene y retornarlo.
+Dado um objeto como parâmetro, contar a quantidade de propriedades que ele contém e retorná-la.
 
-Ejemplo:
+Exemplo:
 
 ```javascript
 const output = objectPropertiesCounter({ 'name': 'John', 'lastname': 'Doe' });

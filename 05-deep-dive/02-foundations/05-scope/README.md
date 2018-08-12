@@ -1,4 +1,4 @@
-# Scope
+# Escopo
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -8,12 +8,12 @@
 
 ## Background
 
-Para el resto de la lección, es necesario tener claro los siguientes conceptos:
+Nesta lição, é preciso ter claro os seguintes conceitos:
 
-### El `scope` de una variable
+### O `escopo` de uma variável
 
-El `scope` de una variable son las ubicaciones desde donde puede ser accedida.
-Por ejemplo:
+O `escopo` de uma variável são os locais de onde pode ser acessada. 
+Por exemplo:
 
 ```js
 function foo() {
@@ -21,24 +21,17 @@ function foo() {
 }
 ```
 
-Aquí, el _direct scope_ (ámbito directo) de `x` es la función `foo`. Esta
-variable podrá ser accedida desde dentro del cuerpo de la función `foo`, pero no
-fuera de ella.
+Aqui, o _direct scope_ (escopo direto) de `x` é a função `foo`. Esta variável poderá ser acessada de dentro do corpo da função `foo`, mas não fora dela.
 
-Tradicionalmente, en JavaScript solo podíamos crear un nuevo scope o ámbito
-creando una nueva función. Más adelante en esta leitura veremos cómo `let` y
-`const` introducen el concepto de _block sope_ en ES6.
+Tradicionalmente, em JavaScript só poderiámos criar um novo escopo ou âmbito criando uma nova função. Mais a frente nesta lição, veremos como `let` e `const` introduzem o conceito de _block scope_ em ES6.
 
 ### Lexical scoping
 
-Las variables en `ES5` son _lexically scoped_ (de ámbito léxico), así que la
-estructura estática de un programa determina el ámbito de la variable (no es
-influenciada por dónde se invoca la función).
+As variáveis em `ES5` são  _lexically scoped_ (de âmbito léxico). Assim que a estrutura estática de um programa determina o âmbito da variável (não é influenciada por onde se invoca a função).
 
-### Nested Scopes (ámbitos anidados)
+### Nested Scopes (âmbitos aninhados)
 
-Si el ámbito está anidado dentro del ámbito directo de una variable, la variable
-será accesible en todos los ámbitos:
+Se o âmbito estiver aninhado dentro do âmbito direto de uma variável, a variável será acessível em todos os âmbitos.
 
 ```js
 function foo(arg) {
@@ -51,17 +44,11 @@ function foo(arg) {
 console.log(foo('hello')); // arg: hello
 ```
 
-El ámbito directo de `arg` es `foo`, pero es también accesible del ámbito
-anidado `bar`. Con respecto a la anidación, `foo` es el _outer scope_ (alcance o
-ámbito externo) y `bar` es el _inner scope_ (alcance o ámbito interno).
+O âmbito direto de `arg` é `foo`, mas é também acessível do âmbito aninhado `bar`. Com respeito ao aninhamento, `foo` é o _outer scope_ (alcance ou âmbito externo) e `bar` é o _inner scope_ (alcance ou âmbito interno).
 
 ### Shadowing (sombra)
 
-Si un scope declara una variable que tiene el mismo nombre que otra en un scope
-interno de una función, el acceso a la variable externa es bloqueado en el scope
-interno y todos los scopes anidados dentro de ella. Cambios a la variable
-interna no afecta a la variable externa, la cual es accesible nuevamente cuando
-el scope interno es dejado. Ejemplo:
+Se um escopo declara uma variável que tem o mesmo nome que outra em um escopo interno de uma função, o acesso à variável externa é bloqueado no escopo interno e todos os escopos aninhados dentro dela. Mudanças na variável interna não afetam a variável externa, a qual é acessível novamente quando o escopo interno é desejado. Exemplo:
 
 ```js
 var x = 'global';
@@ -73,54 +60,34 @@ f();
 console.log(x); // global
 ```
 
-Dentro de la función `f`, la variable `x` es sombreada por la variable local
-`x`.
+Dentro da função `f`, a variável `x` é sombreada pela variável local `x`.
 
 ***
 
 ## Block-Scoped Declarations
 
-Las declaraciones a nivel de bloque son aquellas que declaran variables
-inaccesibles fuera de un ámbito de bloque determinado. Los ámbitos de bloque,
-también llamados ámbitos léxicos, se crean:
+As declarações em nível de bloco são aquelas que declaram variáveis inacessíveis fora do âmbito de um bloco determinado. Os âmbitos de bloco, também chamados âmbitos léxicos, são criados:
 
-1. Dentro de una función
-2. Dentro de un bloque (indicado por los caracteres { })
+1. Dentro de uma função
+2. Dentro de um bloco (indicado pelo caracteres { })
 
-## Diferencia entre contexto y alcance
+## Diferença entre contexto e alcance
 
-Cada invocación de función tiene tanto un alcance como un contexto asociados a
-ella. Fundamentalmente, el alcance es un concepto asociado a funciones mientras
-que el contexto está asociado a objetos. En otras palabras, el alcance se
-refiere a la accesibilidad de variables de una función cuando es invocada y es
-único a cada invocación. En cambio, el contexto es siempre el valor de `this`
-cuya referencia es siempre el objeto que está ejecutando el código.
+Cada invocação de função tem tanto um alcance quanto um contexto associados. Fundamentalmente, o alcance é um conceito associado a funções enquanto que o contexto está associado a objetos. Em outras palavras, o alcance se refere à acessibilidade de variáveis de uma função quando é invocada e é único a cada invocação. Por outro lado, o contexto sempre é o valor de `this` cuja referência é sempre o objeto que está executando o código.
 
-### Alcance de variables
+### Alcance de variáveis
 
-Las variables pueden ser declaradas con **alcance local** o **alcance global**,
-lo cual establece su accesibilidad desde diferentes alcances en tiempo de
-ejecución. Cualquier variable definida como global será accesible en tiempo de
-ejecución por cualquier alcance, ya que se habrá declarado fuera del cuerpo de
-una función.
+As variáveis podem ser declaradas com **alcance local** ou **alcance global**, os quais estabelecem sua acessibilidade de diferentes alcannces em tempo de execução. Qualquer variável definida como global será acessível em tempo de execução de qualquer alcance, já que terá sido declarada fora do corpo de uma função.
 
-En cambio, las variables locales existen solamente dentro del cuerpo de una
-función. El alcance local de una variable solo se define a partir del cuerpo de
-la función que la contiene, ya que JavaScript hasta ahora no permitía definir un
-alcance local dentro de una condición `if`, bloques `switch`, o iteraciones
-`for` y `while`.
+Por outro lado, as variáveis locais existem somente dentro do corpo de uma função. O alcance local de uma variável só é definido a partir do corpo da função que a contém, já que JavaScript até agora não permitir definir um alcance local dentro de uma condição `if`, blocos `switch`, ou iterações `for` e `while`.
 
-## Declaración de variables de ámbito local: `let`
+## Declaração de variáveis de âmbito local: `let`
 
-La sentencia `let` declara una variable de alcance local, la cual,
-opcionalmente, puede ser inicializada con algún valor.
+A instrução `let` declara uma variável de alcance local a qual, opcionalmente, pode ser iniciada com algum valor.
 
-El alcance de `let` es local al bloque, declaración o expresión donde se está
-usando. Lo anterior diferencia la expresión `let` de la palabra reservada `var`,
-la cual define una variable global o local en una función sin importar el ámbito
-del bloque.
+O alcance de `let` é local no bloco, declaração ou expressão de onde se está usando-a. O anterior diferencia a expressão `let` da palavra reservada `var`, a qual define uma variável global ou local em uma função sem importar o âmbito do bloco.
 
-Veamos algunos ejemplos:
+Vejamos alguns exemplos:
 
 ```js
 if (x > y) {
@@ -129,7 +96,7 @@ if (x > y) {
 }
 ```
 
-En el ejemplo anterior, `gamma` solo existe dentro del bloque del `if`.
+No exemplo anterior, `gamma` só existe dentro do bloco do `if`.
 
 ```js
 for (let i = 0; i < students.length; i++) {
@@ -137,71 +104,61 @@ for (let i = 0; i < students.length; i++) {
 }
 ```
 
-Podemos utilizar `let` para que la variable sea local al alcance del bucle
-`for`. Si en su lugar usáramos `var`, la variable sería visible en toda la
-función que contiene dicho bucle.
+Podemos usar `let` para que a variável seja local ao alcance do laço `for`. Se em seu lugar usássemos `var`, a variável seria visível em toda a função que contém o referido laço.
 
 ```js
 (function () {
   if (true) {
-    let x = 'hola mundo';
+    let x = 'olá mundo';
   }
   console.log(x);
-  // Da error, porque "x" ha sido definida dentro del "if"
+  // Dá erro, porque "x" foi definida dentro do "if"
 })();
 ```
 
-A diferencia de ECMAScript 5, en ESCMAScript 6 el bloque de una sentencia
-condicional también actúa como ámbito de bloque. En el ejemplo `console.log(x)`
-no tiene acceso a `let x = "hola mundo"` y da error porque `x` ha sido
-definida dentro del bloque `if`.
+Diferente de ECMAScript 5, no ESCMAScript 6 o bloco de uma instrução condicional também atua como âmbito de bloco. No exemplo `console.log(x)` não há acesso a `let x = olá mundo` e ocorre erro porque `x` foi definida dentro do bloco `if`.
 
-En el siguiente ejemplo la consola imprime `Hola Ale`, ya que la variable `x` en
-el bloque del `if` se mantiene dentro de su ámbito.
+No exemplo a seguir o console imprime `Olá Ale`, já que a variável `x` no bloco do `if` se mantém no seu âmbito.
 
 ```js
 (function () {
-  let x = 'Hola Ale';
+  let x = 'Olá Ale';
 
   if (true) {
-    let x = 'Hola Joan';
+    let x = 'Olá Joan';
   }
   console.log(x);
-  // Imprime en consola Hola Ale
+  // Imprime no console Olá Ale
 })();
 ```
 
-## Variables de solo leitura: `const`
+## Variáveis de somente leitura: `const`
 
-Las variables de solo leitura son otra de las novedades de ECMAScript 6,
-mediante la introducción de la nueva palabra reservada `const`. Cualquier
-variable declarada como constante, será de solo leitura y su valor no podrá ser
-modificado.
+As variáveis de somente leitura são outra das novidades de ECMAScript 6, por meio da introdução da nova palavra reservada `const`. Qualquer variável declarada como constante, será de somente leitura e seu valor não poderá ser modificado. 
 
-Veamos un ejemplo:
+Vejamos um exemplo:
 
 ```js
 (function () {
-  const HELLO = 'hello world';
-  HELLO = 'hola mundo';
-  // Dará ERROR, ya que es de sólo leitura
+  const HELLO = 'Olá world';
+  HELLO = 'Olá mundo';
+  // Dará ERROR, já que é somente leitura
 })();
 ```
 
-En este ejemplo vemos cómo desde el momento en que declaramos la constante
-`HELLO`, su valor queda blindado y el intérprete lanzará error al tratar de
-modificarlo.
+Neste exemplo vemos como desde o momento em que delcaramos a constante `HELLO`, seu valor fica protegido e o interpretador disparará um erro ao tentar modificá-la.
 
 ```js
 (function () {
   const PI;
   PI = 3.15;
-  // Dará ERROR, ya que ha de asignarse un valor en la declaración
+  // Dará ERROR, já que você precisa atribuir um valor na declaração
 })();
 ```
 
-Pero, ¿qué pasa cuando la variable no se asigna a un valor, sino a un objeto?
-Veámoslo con un ejemplo:
+Mas, o que acontece quando a variável não tem um valor atribuído, mas sim um objeto?
+
+Vejamos um exemplo:
 
 ```js
 const USER = {
@@ -211,20 +168,20 @@ const USER = {
 };
 
 /**
- * La siguiente sentencia:
- * Funciona, ya que estamos modificando una propiedad
- * pero el objeto queda intacto
+ * A seguinte instrução:
+ * Funciona, já que estamos modificando uma propriedade
+ * mas o objeto continua intacto
  **/
 USER.name = 'Joan';
 
-USER.age = 'veinte'; // modificar el tipo de una propiedad también funciona
+USER.age = 'vinte'; // modificar o tipo de uma propriedade também funciona
 
-console.log(USER); // {name: 'Joan', surname: 'Covarrubias', age: 'veinte'}
+console.log(USER); // {name: 'Joan', surname: 'Covarrubias', age: 'vinte'}
 
 /**
- * Si quisieramos cambiar el tipo de dato de la constante USER
- * de un objeto a un string o cualquier otro tipo de dato distinto a un objeto,
- * falla, ya que el tipo de dato de una constante no puede ser modificado
+ * Se quiséssemos trocar o tipo de dado da constante USER
+ * de um objeto para uma string ou qualquer outro tipo de dado diferente de um objeto,
+ * teremos um erro, já que o tipo de dado de uma constante não pode ser modificado
  **/
-USER = 'Caro Covarrubias'; // Error, no esta permitido
+USER = 'Caro Covarrubias'; // Error, não é permitido
 ```

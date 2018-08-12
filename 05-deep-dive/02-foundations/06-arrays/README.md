@@ -1,4 +1,4 @@
-# Arreglos
+# Vetores
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,41 +6,34 @@
 
 ***
 
-Un arreglo es una colección de valores accedidos a través de índices (números
-naturales que empiezan en 0). Los valores son llamados _array elements_
-(elementos del arreglo). La manera más conveniente de crear un arreglo es a
-través de un arreglo literal. Este enumera los arreglos del elemento y su
-posición especifica su índice implicitamente.
+Um vetor é uma coleção de valores acessados por meio de índices (número naturais iniciando com 0). Os valores são chamados _array elements_ (elementos do vetor). A maneira mais fácil de criar um vetor é por meio de um vetor literal. Este enumera os vetores do elemento e usa posição especifica seu índice implicitamente.
 
-Como primer ejemplo, crearemos un arreglo `arr` con un arreglo literal y
-accederemos a sus elementos:
+Como primeiro exemplo, criaremos um vetor `arr` com um vetor literar e acessaremos seus elementos:
 
 ```js
-> var arr = [ 'a', 'b', 'c' ]; // arreglo literal
-> arr[0]; // obtiene el elemento en la posición 0
+> var arr = [ 'a', 'b', 'c' ]; // vetor literal
+> arr[0]; // obtém o elemento na posição 0
 'a'
-> arr[0] = 'x'; // cambia el valor del elemento en la posición 0
+> arr[0] = 'x'; // troca o valor do elemento na posição 0
 > arr;
 [ 'x', 'b', 'c' ]
 ```
 
-Podemos usar la propiedad `length` para obtener la longitud del arreglo, además
-podemos usarla para agregar y eliminar elementos:
+Podemos usar a propriedade `length` para obter o comprimento do vetor, além de podermos usá-la para adicionar ou eliminar elementos:
 
 ```js
 > var arr = [ 'a', 'b', 'c' ];
-> arr.length; // cantidad de elementos
+> arr.length; // quantidade de elementos
 3
-> arr.length = 2; // elimina el último elemento
+> arr.length = 2; // elimina o último elemento
 > arr;
 [ 'a', 'b' ]
-> arr[arr.length] = 'd'; // agrega un elemento al final
+> arr[arr.length] = 'd'; // adiciona un elemento ao final
 > arr;
 [ 'a', 'b', 'd' ]
 ```
 
-El método `.push()` provee otra manera de agregar elementos al final de un
-arreglo:
+O método `.push()` fornece outra maneira de adicionar elementos ao final de um vetor:
 
 ```js
 > var arr = [ 'a', 'b' ];

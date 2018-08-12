@@ -1,6 +1,6 @@
-# Ejercicios
+# Exercícios
 
-* Tipo: `practice`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `60min`
 

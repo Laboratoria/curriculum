@@ -1,32 +1,30 @@
-# Ejercicios
+# Exercícios
 
-* Formato: `ejercicio`
+* Formato: `exercício`
 * Duração: `10 min`
 
 ***
 
-En esta sección practicaremos los siguientes ejercicios:
+Nesta seção praticaremos os seguintes exercícios:
 
 ## Destructuring
 
-Corregir los siguientes `snippets` de código para que pasen las pruebas como se
-desea:
+Corrigir os seguintes `snippets` de código para passem nos testes como é desejado:
 
-* [Desestructurando arreglos](http://tddbin.com/#?kata=es6/language/destructuring/array)
-* [Desestructurando objetos](http://tddbin.com/#?kata=es6/language/destructuring/object)
+* [Desestruturando vetores](http://tddbin.com/#?kata=es6/language/destructuring/array)
+* [Desestruturando objetos](http://tddbin.com/#?kata=es6/language/destructuring/object)
 
 ## Arrow functions
 
-Corregir los siguientes `snippets` de código para que pasen las pruebas como se
-desea:
+Corrigir os seguintes `snippets` de código para passem nos testes como é desejado:
 
-* [Ejercicios de sintaxis](http://tddbin.com/#?kata=es6/language/arrow-functions/basics)
+* [Exercícios de sintaxe](http://tddbin.com/#?kata=es6/language/arrow-functions/basics)
 * [Function binding](http://tddbin.com/#?kata=es6/language/arrow-functions/binding)
 
 ## [Code challenges](https://github.com/Laboratoria/ec-js-deep-dive-exercises/tree/es6)
 
-Desarrollar los siguientes ejercicios:
+Desenvolver os seguintes exercícios:
 
-* Saludo
-* Cuadrado de pares
-* Inventario
+* Saudação
+* Quadrado de pares
+* Inventário

@@ -1,27 +1,20 @@
-# Ejercicios
+# Exercícios
 
-* Formato: `workshop`
+* Formato: `oficina`
 * Duração: `10 min`
 
 ***
 
-En esta sección practicaremos los siguientes ejercicios:
+Nesta seção praticaremos os seguintes exercícios:
 
 ## [1. JS Deep Dive](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/data-structures/data-structures/00-jsdd.js)
 
-Escribe un objeto `jsDeepDive` que tenga las propiedades `teacher` (`string`,
-nombre del profesor), `students` (`array` de estudiantes), `total` (`number`,
-número total de estudiantes en clase). Dicho objeto deberá implementar el método
-`.toString()` para que retorne `La clase de JS Deep Dive, la dicta el profesor X
-y tiene Y estudiantes.`.
+Escreva um objeto `jsDeepDive` que tenha as propriedades `teacher` (`string`, nome do professor), `students` (`array` de estudantes), `total` (`number`, número total de estudantes na turma). Tal objeto deverá implementar o método `.toString()` para que retorne `A turma de JS Deep Dive é ministrada pelo professor X e tem Y estudantes.`.
 
 ## [2. For...in](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/data-structures/data-structures/01-for-in.js)
 
-Dado un objeto como parámetro, implementa una función que retorne solo las
-propiedades que son únicas del elemento en un string separado por `,`s.
+Dado um objeto como parâmetro, implemente uma função que retorne somente as propriedades que são únicas do elemento de uma string separado por `,`s.
 
 ## [3. Biblioteca](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/data-structures/data-structures/02-library.js)
 
-Implementa los métodos a un objeto `library` que agregue y/o elimine libros de
-una biblioteca, además de realizar dichas operaciones, deberá de actualizar la
-propiedad `total` que almacena la cantidad de libros.
+Implemente os métodos em um objeto `library` que adicione e/ou elimine livros de uma biblioteca, além de realizar tais operações, deverá atualizar a propriedade `total` que armazena a quantidade de livros.
