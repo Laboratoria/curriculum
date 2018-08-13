@@ -109,16 +109,16 @@ siguiente interfaz:
   relativa, debe resolverse como relativa al directorio desde donde se invoca
   node - _current working directory_).
 - `options`: Un objeto con las siguientes propiedades:
-  - `validate`: Booleano que determina si se desea validar los links
+  * `validate`: Booleano que determina si se desea validar los links
     encontrados.
-  - `stats`: Booleano que determina si se desea calcular los stats de de los
+  * `stats`: Booleano que determina si se desea calcular los stats de de los
     links encontrados.
 
 ##### Valor de retorno
 
 La función debe retornar una promesa (`Promise`) que resuelva a un arreglo
-  (`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
-  las siguientes propiedades:
+(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
+las siguientes propiedades:
 
 - `href`: URL encontrada.
 - `text`: Texto que aparecía dentro del link (`<a>`).
