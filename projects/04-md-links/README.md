@@ -218,6 +218,8 @@ para usarlo programáticamente.
 
 ## Hacker edition
 
+- Puedes agregar la propiedad `line` a cada objeto `link` indicando en qué línea
+  del archivo se encontró el link.
 - Puedes agregar más estadísticas.
 - Integración continua con Travis o Circle CI.
 
