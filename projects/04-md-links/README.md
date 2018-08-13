@@ -117,8 +117,8 @@ siguiente interfaz:
 ##### Valor de retorno
 
 La función debe retornar una promesa (`Promise`) que resuelva a un arreglo
-(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
-las siguientes propiedades:
+  (`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
+  las siguientes propiedades:
 
 - `href`: URL encontrada.
 - `text`: Texto que aparecía dentro del link (`<a>`).
@@ -154,7 +154,7 @@ mdLinks("./some/dir")
   .catch(console.error);
 ```
 
-### CLI (Línea de comando)
+### CLI (Command Line Interface - Interfaz de Línea de Comando)
 
 El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
 manera a través de la terminal:
