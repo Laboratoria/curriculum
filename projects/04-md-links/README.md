@@ -23,34 +23,46 @@ algunas estadísticas.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
 construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecuta JavaScript en el entorno del sistema operativo,
-ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder interactuar con
-el sistema operativo, sistema de archivos, redes, ...
+Esto nos va a permitir ejecura JavaScript en el entorno del sistema operativo,
+ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
+interactuar con el sistema operativo, sistema de archivos, redes, ...
+
 En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
-sistema archivos, con el entorno (proceso, env, stdin/stdout/stderr), ...
+sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 
 ## Objetivos
 
 El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
 **librería** (o biblioteca - _library_) en JavaScript.
+
 Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador porque que te obliga a pensar en la interfaz (API) de tus _módulos_
-y como será usado por otros developers, debes tener especial consideración en
-peculiaridades del lenguaje, convenciones y buenas prácticas.
+desarrollador porque que te obliga a pensar en la interfaz (API) de tus
+_módulos_ y como será usado por otros developers, debes tener especial
+consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
+
+Tópicos: [Node.js](https://nodejs.org/en/),
+[módulos (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
+[file system](https://nodejs.org/api/fs.html),
+[path](https://nodejs.org/api/path.html),
+[http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
+parsing,
+[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
+[npm-scripts](https://docs.npmjs.com/misc/scripts),
+[semver](https://semver.org/), ...
 
 ## Consideraciones generales
 
 Este proyecto se debe "resolver" de manera individual.
+
 La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js.
+Node.js. Está permitido usar librerías externas.
 
 ## Parte obligatoria
 
 Módulo instalable via `npm install <github-user>/md-links`. Este módulo debe
-incluir tanto un ejecutable (_archivo cli_) que podamos invocar en
-la línea de comando como una interfaz que podamos importar con `require`
-para usarlo programáticamente.
+incluir tanto un _ejecutable_ que podamos invocar en la línea de comando como
+una interfaz que podamos importar con `require` para usarlo programáticamente.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
@@ -67,36 +79,11 @@ seguimiento de tu progreso.
 Dentro de cada _milestone_ se crearán y asignarán los _issues_ que cada quien
 considere necesarios.
 
-Para este proyecto necesitarás revisar los siguientes tópicos
-
-Tópicos:
-
-- [Node.js](https://nodejs.org/en/)
-- [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-- [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
-- [Módulos(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
-- [Semver](https://semver.org/)
-- [Path](https://nodejs.org/api/path.html)
-- [File System](https://nodejs.org/api/fs.html)
-- [marked](https://github.com/markedjs/marked)
-- [Asíncronía en js](https://carlosazaustre.com/manejando-la-asincronia-en-javascript/)
-
-### Documentación requerida
-
-En el archivo _README_ de tu proyecto tendrás que incluir:
-
-- Descripción general de la librería.
-- Instrucciones de instalación.
-- Versiones de la librería.
-- Documentación de la Librería (Features, link de Demo, test, etc...).
-- Ejemplos (_snippets_) de uso.
-
-Y todo lo relevante para que cualquier developer que quiera usar tu librería pueda hacerlo sin inconvenientes
-
 ### Archivos del proyecto
 
-- `README.md` con descripción del módulo, instrucciones de instalación, uso y
-  documentación del API.
+- `README.md` con descripción del módulo, instrucciones de instalación/uso,
+  documentación del API y ejemplos. Todo lo relevante para que cualquier
+  developer que quiera usar tu librería pueda hacerlo sin inconvenientes.
 - `index.js`: Desde este archivo debes exportar una función (`mdLinks`).
 - `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...)
@@ -118,16 +105,19 @@ siguiente interfaz:
 
 ##### Argumentos
 
-- `path`: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node - _currentworking directory_).
-
+- `path`: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es
+  relativa, debe resolverse como relativa al directorio desde donde se invoca
+  node - _current working directory_).
 - `options`: Un objeto con las siguientes propiedades:
-  - `validate`: Valor que determina si se desea validar los links encontrados en el archivo. (tipo de dato booleano)
-  - `stats`: Valor que determina si se desea calcular los stats de de los links encontrados en el archivo. (tipo de dato booleano)
+  * `validate`: Booleano que determina si se desea validar los links
+    encontrados.
+  * `stats`: Booleano que determina si se desea calcular los stats de de los
+    links encontrados.
 
 ##### Valor de retorno
 
 La función debe retornar una promesa (`Promise`) que resuelva a un arreglo
-(`Array`) de objetos (_Object_), donde cada objeto representa un link y contiene
+(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
 las siguientes propiedades:
 
 - `href`: URL encontrada.
@@ -287,7 +277,6 @@ para usarlo programáticamente.
 | **CS**                 |                |
 | Lógica                 | 3              |
 | Arquitectura           | 3              |
-| Patrones/paradigmas    | n/a            |
 
 ### Habilidades Blandas
 
@@ -304,6 +293,29 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 | Trabajo en equipo (trabajo colaborativo y responsabilidad) | 4              |
 | Comunicación eficaz                                        | 4              |
 | Presentaciones                                             | 4              |
+
+## Pistas / Tips
+
+### Tutoriales / NodeSchool workshoppers
+
+- [learnyounode](https://github.com/workshopper/learnyounode)
+- [how-to-npm](https://github.com/workshopper/how-to-npm)
+- [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
+
+### Otros recursos
+
+- [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
+- [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
+- [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
+- [Node.js - Wikipedia](https://es.wikipedia.org/wiki/Node.js)
+- [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
+- [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
+- [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
+- [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
+- [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
+- [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
+- [Asíncronía en js](https://carlosazaustre.com/manejando-la-asincronia-en-javascript/)
+- [marked](https://github.com/markedjs/marked)
 
 ## Checklist
 
