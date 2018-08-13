@@ -111,8 +111,6 @@ siguiente interfaz:
 - `options`: Un objeto con las siguientes propiedades:
   * `validate`: Booleano que determina si se desea validar los links
     encontrados.
-  * `stats`: Booleano que determina si se desea calcular los stats de de los
-    links encontrados.
 
 ##### Valor de retorno
 
@@ -138,12 +136,6 @@ mdLinks("./some/example.md")
 mdLinks("./some/example.md", { validate: true })
   .then(links => {
     // => [{ href, text, file, status, ok }]
-  })
-  .catch(console.error);
-
-mdLinks("./some/example.md", { stats: true })
-  .then(links => {
-    // => [{ href, text, file, total, unique, domains }]
   })
   .catch(console.error);
 
