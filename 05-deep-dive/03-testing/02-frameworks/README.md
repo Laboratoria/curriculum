@@ -1,4 +1,4 @@
-# Frameworks
+# *Frameworks*
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,69 +6,50 @@
 
 ***
 
-Ya hemos visto un poco de qué hacemos cuando testeamos y por qué lo hacemos.
-Ahora vamos a ir introduciendo algunas herramientas para facilitar ese proceso
-de tener que ejecutar algo y comprobar si ha ocurrido lo que esperábamos.
+Já vimos um pouco o que fazemos quando testamos e porque testamos. Agora vamos introduzir algumas ferramentas para facilitar esse processe de ter que executar algo e comprovar se aconteceu o que esperávamos.
 
-Hay un montón de frameworks y librerías buenísimas de testing para JavaScript:
-[Mocha](https://mochajs.org/), [Jest](https://facebook.github.io/jest/),
-[Jasmine](https://jasmine.github.io/), [Tape](https://github.com/substack/tape),
-... por mencionar algunas de las más populares.
+Existem vários frameworks e bibliotecas ótimas de *testing* para JavaScript: [Mocha](https://mochajs.org/), [Jest](https://facebook.github.io/jest/), [Jasmine](https://jasmine.github.io/), [Tape](https://github.com/substack/tape),... para falar só das mais populares.
 
-> Unit testing involves breaking your program into pieces, and subjecting each
-> piece to a series of tests.
+> Teste unitário envolve quebrar seu programa em pedaços e submeter cada pedaço a uma série de testes.
 >
-> Usually tests are run as separate programs, but the method of testing varies,
-> depending on the language, and type of software (GUI, command-line, library).
+> Normalmente testes são executados como programas a parte, mas o método de teste varia, dependendo da linguagem e do tipo de software (GUI, linha de comando, biblioteca).
 >
-> Most languages have unit testing frameworks, you should look into one for
-> yours.
+> A maior parte das linguagens possuem frameworks para testes unitários. Você deve olhar o framework da que você utiliza.
 >
-> Tests are usually run periodically, often after every change to the source
-> code. The more often the better, because the sooner you will catch problems.
+> Testes normalmente são executados periodicamente, frequentemente após cada mudança do código fonte. Quando mais frequente melhor, porque mais cedo você verá os problemas.
 >
-> Fuente: [Stack Overflow](https://stackoverflow.com/a/652309/374331)
+> Fonte: [Stack Overflow](https://stackoverflow.com/a/652309/374331)
 
-En este curso nos vamos a concentrar en **Mocha**, y en particular en la
-interfaz [BDD](https://mochajs.org/#bdd), que implementa una API para hacer
-[Behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development).
+Neste curso concentraremos os esforços no **Mocha** e em particular à interface [BDD](https://mochajs.org/#bdd), que implementa uma API para fazer [Behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development).
 
 ## Instalando Mocha
 
-Para empezar instalemos `mocha` globalmente usando `npm`.
+Para começar, instalaremos o `mocha` globalmente usando `npm`.
 
 ```sh
 npm install --global mocha
 ```
 
-Alternativamente, si te gustan las abreviaciones, puedes usar este otro comando,
-que hace exactamente lo mismo que el anterior, pero usando todos los atajos.
+Alternativamente, se você prefere abreviaturas, é possível usar este outro comando que faz exatamente o mesmo que o anterior, mas usando os atalhos.
 
 ```sh
 npm i -g mocha
 ```
 
-Si recibes un error que dice algo como `Error: EACCES: permission denied ...`,
-esto probablemente significa que no tienes permisos sobre la carpeta donde está
-instalado `Node.js` globalmente. En ese caso puedes probar a ejecutar el comando
-usando `sudo`:
+Se você receber um erro que diz algo como `Error: EACCES: permission denied ...`, provavelmente significa que você não possui permissão na pasta na qual está instalado `Node.js`. Nesse caso, você pode tentar executar o comando usando `sudo`:
 
 ```sh
 sudo npm i -g mocha
 ```
 
-Si todo ha ido bien, ya deberías tener `mocha` instalado como un comando que
-puedes ejecutar en tu terminal. Podemos usar el comando `which` para ver si se
-encuentra el ejecutable:
+Se tudo correu bem, você já deve ter o `mocha` instanado como um comando que você pode executar pelo terminal. Podemos usar o comando `which` para ver se ele encontrar o executável:
 
 ```sh
 $ which mocha
 /usr/local/bin/mocha
 ```
 
-Si `mocha` no estuviera instalado en tu `PATH` el comando `which` no mostraría
-nada. Por otro lado, ahora que sabemos que tenemos el ejecutable de `mocha`
-disponible, podemos ver la ayuda del comando ejecutando `mocha --help`:
+Se o `mocha` não estivesse instalado no seu `Path`o comando `which` não mostraria nada. Por outro lado, agora que sabemos que temos o executável de `mocha` disponível, podemos ver a ajuda executando o comanado `mocha --help`:
 
 ```sh
 $ mocha --help
@@ -95,40 +76,30 @@ $ mocha --help
     init <path>  initialize a client-side mocha setup at <path>
 ```
 
-## Nuestros primeros tests con la interfaz BDD
+## Nossos primeiros testes com a interface BDD
 
-Ahora que ya tenemos instalado `mocha`, podemos usar el comando para ejecutar
-scripts con nuestros tests, usando todo lo que nos ofrece la librería.
+Agora que já temos o `mocha` instalado, podemos usar o comando para executar scripts com nossos testes, usando tudo o que a biblioteca nos oferece.
 
-Para comenzar nos vamos a limitar a dos funciones que `mocha` inyecta en el
-entorno: `describe()` e `it()`. Estas dos funciones nos va a permitir construir
-la estructura de qué queremos testear.
+Para começar vamos nos limitar a duas funções que o `mocha` injeta no ambiente: `describe()` e `it()`. Estas duas funções permitirão construir a estrutura que queremos testar.
 
-En el ejemplo que venimos viendo, nuestros test dicen algo como: comprueba que
-_isVowel()_:
+No exemplo que vínhamos acompanhando, nossos testes dizem algo como: verifique que _isVowel()_:
 
-* retorna `true` cuando se invoca con el valor `a` (`isVowel('a') === true`)
-* retorna `false` cuando se invoca con el valor `b` (`isVowel('b') === false`)
+* retorna `true` quando é invocada com o valor `a` (`isVowel('a') === true`)
+* retornad `false`quando é invocada com o valor `b` (`isVowel('b') === false`)
 
-Esta lógica la podemos expresar usando `describe()` e `it()`. Con `describe()`
-vamos a decir qué cosa estamos testeando, y con `it()` vamos a ir especificando
-que características o comportamientos queremos comprobar/afirmar.
+Esta lógica pode ser expressada usando `describe()` e `it()`. Com `describe()` vamos dizer o que estamos testando e com `it()` especificaremos quais características ou comportamentos queremos conprovar/afirmar.
 
-Reescribamos nuestros tests usando esta API (`describe` e `it`). El primer paso
-es indicar qué queremos testear (la función `isVowel()` en nuestro caso) usando
-una llamada a `describe()`, que recibe dos argumentos, un string informativo
-para darle un nombre al grupo de tests y una función que contendrá todos los
-tests y aserciones para esta cosa que estamos testeando.
+Reescrevamos nossos testes usando esta API (`describe` e `it`). O primeiro passo é indicar que queremos testar (a função `isVowel()` neste caso) usando uma chamada `describe()`, que recebe argumentos, um string informativo para lhe dar um nome ao grupo de testes e uma função que terá todos os testes e `asserts` para esta coisa que estamos testando.
 
 ```js
-// Archivo `isVowel.spec.js`
+// Arquivo `isVowel.spec.js`
 
 describe('isVowel()', () => {
-  // Acá van los tests que describen el compartamiento de `isVowel()`
+  // Aqui vão os testes que descrevem o comportamento de `isVowel()`
 });
 ```
 
-Salva esto en el archivo `isVowel.spec.js` y ejecútalo con `mocha`:
+Salve isto no arquivo `isVowel.spec.js` e execute-o com o `mocha`:
 
 ```sh
 $ mocha ./isVowel.spec.js
@@ -138,35 +109,31 @@ $ mocha ./isVowel.spec.js
 
 ```
 
-No recibimos ningún error pero tampoco pasa nada interesante... solo vemos que
-`0` tests pasaron. A la hora de escribir tests (ya sea antes o después de
-implementar el código que queremos testear), es muy común plantear tests sin
-darles una implementación todavía. En nuestro caso, sabemos que queremos probar
-que `isVowel()`:
+Não recebemos nenhum erro porque tampouco aconteceu algo de interessante. Só vemos que `0` testes passaram. Na hora de escrever os testes (seja antes ou depois de implementar o código que queremos testar), é muito comum planejar os testes sem lhes dar uma implementação. No nosso caso, sabemos que queremos provar que `isVowel()`:
 
-* retorna `true` cuando se invoca con el valor `a`
-* retorna `false` cuando se invoca con el valor `b`
+* retorna `true` quando se invoca com o valor `a`
+* retorna `false` quando se invoca com o valor `b`
 
-Esto traducido a la semántica de BDD en Mocha, lo podemos expresar así:
+Isto traduzido para a semântica de BDD no Mocha, podemos expressar assim:
 
 ```js
-// Archivo `isVowel.spec.js`
+// Arquivo `isVowel.spec.js`
 
 describe('isVowel()', () => {
-  it('debería devolver true para letra a');
-  it('debería devolver false para letra b');
+  it('Deveria retornar true para a letra a');
+  it('Deveria retornar false para a letra b');
 });
 ```
 
-Volvamos a ejecutar los tests con el comando `mocha`:
+Votemos a executar os testes com o comando `mocha`:
 
 ```sh
 $ mocha ./isVowel.spec.js
 
 
   isVowel()
-    - debería devolver true para letra a
-    - debería devolver false para letra b
+    - Deveria retornar true para a letra a
+    - Deveria retornar false para a letra b
 
 
   0 passing (5ms)

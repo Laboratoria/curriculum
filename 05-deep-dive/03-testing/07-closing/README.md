@@ -1,4 +1,4 @@
-# Cierre
+# Encerramento
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,18 +6,15 @@
 
 ***
 
-## Resumen
+## Resumo
 
-Llegamos al final de la unidad ;-)
+Chegamos ao final da unidade ;-)
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas as perguntas da abertura
 
-* Qué es un test?
-* Qué es un framework de testing?
-* Cómo escribir tests usando la interfaz BDD (`describe()`, `it()`, ...) de
-  `mocha`.
-* Cómo usar la librería standard de Node.js para aserciones con el módulo
-  `assert`.
-* Cómo usar las aserciones de `chai`.
-* Cómo correr tests en un entorno de navegador de forma automatizada con
-  `karma`.
+* O que é um teste?
+* O que é um *framework* de *testing*?
+* Como escrever testes usando a interface BDD (`describe()`, `it()`, ...) do `mocha`.
+* Como usar a biblioteca padrão de Node.js para atribuições com o módulo `assert`.
+* Como usar os *asserts* do `chai`.
+* Como executar testes no ambiente do navegador de forma automatizada com `karma`.

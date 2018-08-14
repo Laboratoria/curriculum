@@ -28,5 +28,5 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 * Uso geral dos comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
 * Como instalar e adicionar o Node.js na sua variável `PATH`
 * Como instalar/desinstalar pacotes usando `npm`
-* Como converter código JavaScript usando `babel`
+* Como transpilar código JavaScript usando `babel`
 * Como configurar seu editor de texto para conseguir o melhor desempenho
