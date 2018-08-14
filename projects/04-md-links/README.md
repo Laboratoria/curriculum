@@ -23,9 +23,9 @@ algunas estadísticas.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
 construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecura JavaScript en el entorno del sistema operativo,
+Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
 ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
-interactuar con el sistema operativo, sistema de archivos, redes, ...
+interactuar con el sistema en sí, archivos, redes, ...
 
 En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
@@ -38,7 +38,7 @@ El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrollador porque que te obliga a pensar en la interfaz (API) de tus
-_módulos_ y como será usado por otros developers, debes tener especial
+_módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 Tópicos: [Node.js](https://nodejs.org/en/),
@@ -56,13 +56,14 @@ parsing,
 Este proyecto se debe "resolver" de manera individual.
 
 La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js. Está permitido usar librerías externas.
+Node.js. **Está permitido usar librerías externas**.
 
 ## Parte obligatoria
 
-Módulo instalable via `npm install <github-user>/md-links`. Este módulo debe
-incluir tanto un _ejecutable_ que podamos invocar en la línea de comando como
-una interfaz que podamos importar con `require` para usarlo programáticamente.
+Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
+módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
+comando como una interfaz que podamos importar con `require` para usarlo
+programáticamente.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
@@ -94,7 +95,7 @@ considere necesarios.
 - `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
   incluirse en control de versiones (`git`).
 - `test/md-links.spec.js` debe contener los tests unitarios para la función
-  `mdLinks()`tu inplementación debe pasar estos tets.
+  `mdLinks()`. Tu inplementación debe pasar estos tets.
 
 ### JavaScript API
 
