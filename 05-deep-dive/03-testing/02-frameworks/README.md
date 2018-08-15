@@ -141,54 +141,40 @@ $ mocha ./isVowel.spec.js
 
 ```
 
-Verás de que todavía no hemos especificado cómo hacer las comprobaciones, pero
-hemos ido igualmente describiendo el comportamiento esperado, y más tarde
-podemos ir rellenando la implementación según avancemos. Esto es super útil
-tanto para _documentar_ el comportamiento de nuestro código, como para ver el
-nivel de completitud de la implementación y qué casos tiene en cuenta (o no).
+Você verá que embora não tenhamos especificado como fazer as verificações, fomos descrevendo igualmente o comportamento esperado. Mais tarde poderemos refinar a implementação conforme avançamos. Isto é muito útil tanto para _documentar_ o comportamento de nosso código como para ver o nível de totalidade da implementação e quais casos consideramos (ou não).
 
-En el snippet anterior invocamos `it()` con un string que nos permite describir
-la característica o comportamiento esperado. Lo más común es que estos strings
-comiencen con la palabra _debería..._. De es forma se va articulando la
-semántica que después _leeremos_ como _is isVowel() debería ...._.
+No *snippet* anterior invocamos `it()` com uma string que permite descrever a característica ou comportamento esperado. O mais comum é que estas strings comecem com a palavra _deveria ..._. Desta maneira vamos articulando a semântica que depois _leremos) como _isVowel() deveria..._.
 
-Mocha nos muestra los tests que añadimos con `it()` pero nos dice que están
-_pendientes_. Esto es porque les dimos un nombre, pero no les dimos una
-implementación. Para añadir el código que de verdad ejecuta la prueba en sí,
-`it()` recibe un segundo argumento, una función que será invocada para ejecutar
-el test en cuestión.
+Mocha nos mostra os testes que adicionamos com `it()` mas nos diz que estão _pendentes_. Isto porque demos um nome mas fizemos uma implementação. Para adicionar o código que de fato executa o teste, `it()` recebe um segundo argumento, uma função que será invocada para executar o teste em questão.
 
 ```js
-// Archivo `isVowel.spec.js`
+// Arquivo `isVowel.spec.js`
 
 const isVowel = require('./isVowel');
 
 describe('isVowel()', () => {
 
-  it('debería devolver true para letra a', () => {
-    // Acá invocamos `isVowel()` y verificamos el resultado
+  it('Deveria retornar true para a letra a', () => {
+    // Aqui invocamos `isVowel()` e verificamos o resultado
   });
 
-  it('debería devolver false para letra b', () => {
-    // Acá invocamos `isVowel()` y verificamos el resultado
+  it('Deveria retornar false para a letra b', () => {
+    // Aqui invocamos `isVowel()` e verificamos o resultado
   });
 
 });
 ```
 
-Bueno, ya tenemos una estructura lista para implementar nuestros tests. Para
-continuar gradualmente con el ejemplo, simplemente copia las comprobaciones que
-hacíamos en la primera versión de los tests (leitura anterior) dentro de nuestra
-nueva estructura:
+Já temos uma estrutura pronta para implementar nossos testes. Para continuar gradualmente com o exemplo, simplesmente copie as verificações que fizemos na primeira versão dos testes (leitura anterior) dentro de nosso nova estrutura:
 
 ```js
-// Archivo `isVowel.spec.js`
+// Arquivo `isVowel.spec.js`
 
 const isVowel = require('./isVowel');
 
 describe('isVowel()', () => {
 
-  it('debería devolver true para letra a', () => {
+  it('Deveria retornar true para a letra a', () => {
     if (isVowel('a') !== true) {
       console.error('✗ fail');
     } else {
@@ -196,7 +182,7 @@ describe('isVowel()', () => {
     }
   });
 
-  it('debería devolver false para letra b', () => {
+  it('Deveria retornar false para a letra b', () => {
     if (isVowel('b') !== false) {
       console.error('✗ fail');
     } else {
@@ -206,8 +192,7 @@ describe('isVowel()', () => {
 
 });
 ```
-
-Ejecutemos los tests otra vez:
+Executemos os testes outra vez:
 
 ```sh
 $ mocha ./isVowel.spec.js
@@ -215,20 +200,15 @@ $ mocha ./isVowel.spec.js
 
   isVowel()
 ✓ ok
-    ✓ debería devolver true para letra a
+    ✓ Deveria retornar true para a letra a
 ✓ ok
-    ✓ debería devolver false para letra b
+    ✓ Deveria retornar false para a letra b
 
 
   2 passing (6ms)
 
 ```
 
-Hmmm... como puedes ver se ejecutaron nuestras comprobaciones, pero Mocha y
-nuestro código no parecen estar comunicándose. Eso es porque Mocha espera que
-hagamos las comprobaciones usando _aserciones_, que puedan comunicar si una
-comprobación pasó o no a mocha para que este pueda manejar los resultados, en
-vez de tener que _manualmente_ imprimir mensajes a la consola.
+Hmmm... como você pode ver nossas verificações foram executadas, mas o Mocha e nosso código não parecem estar se comunicando. Isso porque o Mocha espera que façamos as verificações usando _asserts_ que podem comunicar se uma verificação passou ou não com o Mocha para que ele possa tratar os resultados, ao invés de ter que _manualmente_ exibir as mensagens no console.
 
-En la siguiente leitura veremos como usar _aserciones_ en tus tests, tanto en
-versión vanilla, con `assert` de Node.js y con `Chai.assert`.
+Na leitura seguinte, veremos como utilizar _asserts_ nos seus testes, com `assert` de Node.js e com `Chai.assert`.
