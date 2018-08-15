@@ -1,121 +1,87 @@
-# Retos
+# Desafios
 
-* Tipo: `seminario`
+* Tipo: `seminário`
 * Formato: `guiado`
 * Duração: `30min`
 
 ***
 
-El objetivo central de este curso es construir una librería (_library_) que
-responda a los requisitos de uno de los retos detallados más abajo.
+O objetivo central deste curso é construir uma biblioteca (_library_) que atenda aos requisitos de um dos desafios detalhados mais abaixo.
 
-El reto se hará en grupos de dos alumnas y será presentado al final del curso en
-una demo al resto de la clase. A lo largo del curso tus instructorxs te guiarán
-en el proceso así como tus compañeras.
+O desafio será feito em grupos de duas alunas e será apresentado ao final do curso em uma demo para o resto da turma. Ao longo do curso suas instrutoras guiarão você e suas colegas no processo.
 
 ## Requisitos
 
-Todos los retos deben incluir por los menos los siguientes archivos:
+Todos os desafios devem incluir ao menos os seguintes arquivos:
 
-* `README.md` con descripción del módulo, instrucciones de instalación, uso y
-  documentación del API.
-* `index.js`: Librería debe exportar una función u objeto al entorno global
-  (`window`) y hacer uso de _features_ de ES6 donde sea apropiado.
-* `index.html`: Página web de la librería con ejemplo funcionando.
-* `package.json` con nombre, versión, descripción, autores, licencia,
-  dependencias, scripts (pretest, test, ...)
-* `.eslintrc` con configuración para linter (ver [guía de estilo de
-  JavaScript](https://github.com/Laboratoria/js-style-guide))
-* `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
-  incluirse en control de versiones (`git`).
+* `README.md` com descrição do módulo, instruções de instalação, uso e documentação da API.
+* `index.js`: Biblioteca deve exportar uma função ou objeto no escopo global (`window`) e fazer uso de _features_ de ES6 onde for apropriado.
+* `index.html`: Página web da biblioteca com exemplo funcionando.
+* `package.json` com nome, versão, descrição, autores, licença, dependências, scripts (pretes, test, ...)
+* `.eslintrc` com configiração para linter (ver [guía de estilo de JavaScript](https://github.com/Laboratoria/js-style-guide))
+* `.gitignore` para ignorar `node_modules` ou outras pastas que não devem ser incluídas no controle de versões (`git`).
 
-Hacker edition (opcional):
+*Hacker edition* (opcional):
 
-* Si la librería está dirigida al navegador, debe adherirse al patrón
-  [UMD](https://github.com/umdjs/umd) para poder ser usado con AMD, CommonJS y
-  como variable global del navegador.
-* Integración continua con Travis o Circle CI
+* Se a biblioteca está direcionada para o navegador, deve aderir ao padrão [UMD](https://github.com/umdjs/umd) para poder ser usado com AMD, CommonJS e como variável global do navegador.
+* Integração contínua con Travis ou Circle CI
 
-## Progreso
+## Progresso
 
-A modo orientativo te proponemos los siguientes _checklists_ de progreso para
-cada semana:
+Como orientação, propomos os seguintes _checklists_ de progresso para cada semana:
 
 ### Semana 1
 
-* Formar equipo.
-* Elegir reto.
-* Hacer fork de reto modelo o crear nuevo repo si has propuesto un reto no
-  propuesto por Laboratoria.
-* Escribir primera versión del `README.md` con una descripción general de la
-  librería así como ejemplos (snippets) de uso y configuración (si fuera
-  necesario).
-* Crear issues y milestones que sirvan como hoja de ruta (roadmap)
-* Inicializar proyecto con `npm init` y `git init`.
-* Crear `index.html` con ejemplo principal de uso.
+* Formar grupo.
+* Escolher o desafio.
+* Fazer um *fork* do desafio modelo ou criar um novo repositório se você propuser um desafio diferente dos da Laboratória.
+* Escrever uma primeira versão do `README.md` com uma descrição geral da biblioteca assim como exemplos (*snippets*) de uso e configuração (se for necessário)
+* Criar *issues* e *milestones* que sirvam como um mapa (roadmap)
+* Inicializar o projeto com `npm init` e `git init`.
+* Criar o `index.html` com exemplo principal de uso.
 
 ### Semana 2
 
-* Agregar tests que describan la `API` de tu librería y los casos de uso
-  esperados.
-* Implementar funcionalidad esencial.
-* Hacer code review con tus compañeras e instructorxs.
+* Adicionar testes que descrevam a `API` da sua biblioteca e os casos de uso esperados.
+* Implementar funcionalidade essencial.
+* Fazer revisão de código com suas colegas e instrutoras.
 
 ### Semana 3
 
-* Completar implementación de librería y ejemplo principal (usando la librería).
-* Hacer code review con tus compañeras e instructorxs.
-* Preparar tu demo/presentación.
-* Publicar el ejemplo principal (`index.html`) en GitHub pages.
+* Completar a implementação de sua biblioteca e o exemplo principal (usando a biblioteca).
+* Fazer revisão de código com suas colegas e instrutoras.
+* Preparar seu demo/apresentação.
+* Publicar o exemplo principal (`index.html`) no GitHub.
 
-## Retos modelo
+## Desafios modelo
 
-Cada equipo tendrá que seleccionar uno de los siguientes retos, o proponer un
-reto alternativo dentro del _scope_ de este curso. Si tienes alguna idea para
-alguna librería que crees que te pueda ser útil en otros proyectos futuros, no
-dudes en consultar con tus instructorxs para ver si tu propuesta puede valer
-como reto.
+Cada grupo terá que escolher um dos seguintes desafios ou propor um desafio alternativo dentro do escopo deste curso. Se tiver alguma ideia para alguma biblioteca que você acha que possa lhe ser útil em outros projetos futuros, não hesite em consultar suas instrutoras para ver se sua proposta pode valer como um desafio.
 
-### Reto 1: Validador de datos de tarjetas de crédito
+### Desafio 1: Validador de dados de cartões de crédito
 
-Implementar un validador de datos de tarjeta de crédito. La librería debería
-validar el número de tarjeta de crédito (usando algoritmo de Luhn), fecha de
-vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la
-tarjeta.
+Implementar um validador de dados de cartões de crédito. A biblioteca deverá validar o número do cartão de crédito (usando algoritmo de Luhn), data de vencimento, código de verificação (CVV) e nome completo que aparece no cartão.
 
-[Repo](https://github.com/Laboratoria-learning/card-validator)
+[Repositório](https://github.com/Laboratoria-learning/card-validator)
 
-### Reto 2: Cardify (muestra alt en vez de imagen en hover)
+### Desafio 2: Cardify (mostra _alt_ ao invés da imagem em _hover_)
 
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
-imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
-elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
-con el texto del atributo `alt` de la imagen.
+Implementar um plugin de jQuery que dado um _conteiner_ deve buscar todas as imagens que encontre dentro do _conteiner_ e substituí-las por um novo elemento `<figure>` que contenha a imagem (`<img>`) além de um `<figcaption>` com o texto do atributo `alt` da imagem.
 
-[Repo](https://github.com/Laboratoria-learning/cardify)
+[Repoistório](https://github.com/Laboratoria-learning/cardify)
 
-### Reto 3: Extracer links de archivos markdown (Node.js)
+### Desafio 3: Extrair links de arquivo *markdown* (Node.js)
 
-Implementar un módulo de Node.js que reciba un string (en formato Markdown) y
-extraiga todos los links encontrados. La implementación debe ser una función que
-recibe un `string` y devuelve un arreglo de objetos como se muestra en el
-este ejemplo:
+Implementar um módulo de Node.js que receba uma string (em formato *Markdown*) e extraia todos os links encontrados. A implementação deve ser uma função que recebe uma `string` e devolve um vetor de objetos como se mostrar neste exemplo:
 
 ```js
 const extractLinksFromMd = require('extract-links-from-md');
 const str = `# Lorem ipsum
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et
-[dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 [foo](http://foo.com)
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.`;
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
 
 const links = extractLinksFromMd(str);
 
@@ -127,4 +93,4 @@ console.log(links);
 // ]
 ```
 
-[Repo](https://github.com/Laboratoria-learning/extract-links-from-md)
+[Repositório](https://github.com/Laboratoria-learning/extract-links-from-md)

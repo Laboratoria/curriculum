@@ -1,15 +1,11 @@
-# Equipos
+# Grupos
 
-* Tipo: `taller`
+* Tipo: `Oficina`
 * Formato: `guiado`
 * Duração: `15min`
 
 ***
 
-Es hora de organizarse por equipos. Cada equipo debe estar formado por dos
-alumnas. En caso de ser impares se podrá hacer algún equipo de tres alumnas.
+É hora de organizarem-se em grupos. Cada grupo deve ser formado por duas alunas. No case de ímpares, poderá haver alguma equipe com três alunas.
 
-Una vez que hayas decidido con quién vas a trabajar, tendrás que comunicárselo
-a tus instructorxs para que puedan crear una rama específica para tu equipo en
-el repositorio del reto que hayan elegido. De esa forma, quedan formalizados los
-equipos para este curso.
+Uma vez que você tenha decidido com quem irá trabalhar, terá que notificar suas instrutoras para que possam criar um *branch* específico do seu grupo no repositório do desafio que vocês escolheram. Dessa forma, ficam formalizadas os grupos para este curso.

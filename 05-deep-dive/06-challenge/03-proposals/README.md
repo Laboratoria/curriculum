@@ -1,18 +1,14 @@
-# Propuesta de reto
+# Proposta de desafio
 
-* Tipo: `taller`
+* Tipo: `oficina`
 * Formato: `guiado`
 * Duração: `30min`
 
 ***
 
-Una vez creados los equipos, es hora de crear un plan de acción. Esto debería
-quedar detallado en el `README.md` de tu repo así como en una serie de _issues_
-y _milestones_ para coordinar el trabajo y poder hacer seguimiento del progreso.
+Uma vez criados os grupos, é hora de criar um plano de ação. Isto deveria ficar detalhado no `README.md` do seu repositório assim como uma série de _issues_ e _milestones_ para coordenar o trabalho e poder acompanhar o progresso.
 
-Dentro de cada _milestone_ se crearán y asignarán los _issues_ que cada equipo
-considere necesario para completar el reto.
+Dentro de cada _mileston_ serão criados e atribuídos os _isues_ que cada grupo considere necessário para completar o desafio.
 
-Una vez iniciado el curso, no dudes en añadir issues con preguntas o sugerencias
-tanto para tu equipo como para la clase en general incluyendo a lxs
-instructorxs.
+Uma vez iniciado o curso, não hesite em adicionar _issues_ com perguntas ou sugestões para para seu grupo como para a turma em geral, incluindo as instrutoras.
+
