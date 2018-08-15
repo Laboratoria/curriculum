@@ -1,4 +1,4 @@
-# Manipulación del DOM
+# Manipulação do DOM
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,224 +6,143 @@
 
 ***
 
-Una vez construido automáticamente el árbol completo de nodos DOM, ya es
-posible utilizar las funciones DOM para acceder de forma directa a cualquier
-nodo del árbol. Como acceder a un nodo del árbol es equivalente a acceder a
-"un trozo" de la página, una vez construido el árbol, ya es posible manipular
-e forma sencilla la página: acceder al valor de un elemento, establecer el
-valor de un elemento, mover un elemento de la página, crear y añadir nuevos
-elementos, etc.
+Uma vez construído automaticamente a árvore completa de nós do DOM, já é possível utilizar as funções DOM para acessar de maneira direta qualquer nó da árvore. Como acessar um nó da árvore equivale a acessar "um pedaço" da página, uma vez construída a árvore já é possível manipular de forma simples a página: acessar o valor de um elemento, estabelecer o valor de um elemento, mover um elemento da página, criar e adicionar novos elementos, etc.
 
-DOM proporciona dos métodos alternativos para acceder a un nodo específico:
-acceso a través de sus nodos padre y acceso directo.
+DOM fornece dois métodos alternativos para acessar um nó específico: acesso por meios de seus nós pais e acesso direto.
 
-Las funciones que proporciona DOM para acceder a un nodo a través de sus nodos
-padre consisten en acceder al nodo raíz de la página y después a sus nodos
-hijos y a los nodos hijos de esos hijos y así sucesivamente hasta el último
-nodo de la rama terminada por el nodo buscado. Sin embargo, cuando se quiere
-acceder a un nodo específico, es mucho más rápido acceder directamente a ese
-nodo y no llegar hasta él descendiendo a través de todos sus nodos padre.
+As funções que o DOM disponibiliza para acessar um nós por meio de seus nós pais consistem em acessar o nó raiz da página e depois seus nós filhos e os nós filhos desses filhos e assim sucessivamente até o último nó folha contendo o nó procurado. Porém, quando queremos acessar um nó específico, é muito mais rápido acessar diretamente esse nód e não chegar até ele caminhando por todos os seus nós pais.
 
-Por ese motivo, no se van a presentar las funciones necesarias para el acceso
-jerárquico de nodos y se muestran solamente las que permiten acceder de forma
-directa a los nodos.
+Por essa razão, não vamos apresentar as funções necessárias para o acesso hierárquico dos nós e mostraremos somente as que permitem acesso os nós de forma direta.
 
-Por último, es importante recordar que el acceso a los nodos, su modificación
-y su eliminación solamente es posible cuando el árbol DOM ha sido construido
-completamente, es decir, después de que la página XHTML se cargue por
-completo. Más adelante se verá cómo asegurar que un código JavaScript
-solamente se ejecute cuando el navegador ha cargado entera la página XHTML.
+Por fim, é importante lembrar que o acesso aos nós, sua modificação e sua eliminação somente são possíveis quando a árvore do DOM estiver construída completamente, ou seja, depois que a página XHTML estiver carregada completamente. Mais adiante veremos como garantir que um código JavaScript só seja executado quando o navegador tenha carregado toda a página XHTML.
 
 ## getElementsByTagName()
 
-Como sucede con todas las funciones que proporciona DOM, la función `
-getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
-autoexplicativo.
+Como acontece com todas as funções que o DOM disponibiliza, a função `getElementsByTagName` possui um nome comprido, mas que o deixa autoexplicativo. 
 
-La función `getElementsByTagName(nombreEtiqueta)` obtiene todos los elementos
-de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a
-la función.
+A função `getElementsByTagName(nomeDaTag)` obtém todos os elementos da página XHTML cuja tag seja igual ao parâmetro que é passado na função. 
 
-El siguiente ejemplo muestra cómo obtener todos los párrafos de una página
-XHTML:
+O exemplo seguinte monstra como obter todos os parágrafos de uma página XHTML:
 
 ```js
-var parrafos = document.getElementsByTagName("p");
+var paragrafos = document.getElementsByTagName("p");
 ```
+O valor que indicamos antes do nome da função (neste caso, `document`) é o nód a partir do qual será feita a busca dos elementos. Neste caso, como queremos obter todos os parágrafos da página, utilizamos o valor `document` como ponto de partida da busca.
 
-El valor que se indica delante del nombre de la función (en este caso,
-document) es el nodo a partir del cual se realiza la búsqueda de los
-elementos. En este caso, como se quieren obtener todos los párrafos de la
-página, se utiliza el valor document como punto de partida de la búsqueda.
+O valor que a função retorna é um vetor com todos os nós que cumprem a condição de que sua tag coincida com o parâmetro informado. O valor retornado é um vetor de nós DOM, não um array de cadeias de texto ou um vetor de objetos normais. Por outro lado, devemos processar cada valor do vetor da maneira que é mostrada nas seções a seguir.
 
-El valor que devuelve la función es un array con todos los nodos que cumplen
-la condición de que su etiqueta coincide con el parámetro proporcionado. El
-valor devuelto es un array de nodos DOM, no un array de cadenas de texto o un
-array de objetos normales. Por lo tanto, se debe procesar cada valor del array
-de la forma que se muestra en las siguientes secciones.
-
-De este modo, se puede obtener el primer párrafo de la página de la siguiente
-manera:
+Desta maneira, podemos obter o primeiro parágrafo da página da seguinte forma:
 
 ```js
-var primerParrafo = parrafos[0];
+var primeiroParagrafo = parrafos[0];
 
 for(var i=0; i<parrafos.length; i++) {
   var parrafo = parrafos[i];
 }
 ```
 
-De la misma forma, se podrían recorrer todos los párrafos de la página.
+Da mensa forma, poderíamos percorrer todos os parágrafos da página.
 
-La función `getElementsByTagName()` se puede aplicar de forma recursiva sobre
-cada uno de los nodos devueltos por la función.
-En el siguiente ejemplo, se obtienen todos los enlaces del primer párrafo de la
-página:
+A função `getElementsByTagName()` pode ser aplicada de forma recursiva sobre cada um dos nós retornados pela função. No exemplo a seguir, são obetidos todos so links do primeiro parágrafo da página:
 
 ```js
-var parrafos = document.getElementsByTagName("p");
-var primerParrafo = parrafos[0];
-var enlaces = primerParrafo.getElementsByTagName("a");
+var paragrafo = document.getElementsByTagName("p");
+var primeiroParagrafo = parrafos[0];
+var links = primerParrafo.getElementsByTagName("a");
 ```
 
 ## getElementsByName()
 
-La función `getElementsByName()` es similar a la anterior, pero
-en este caso se buscan los elementos cuyo atributo name sea igual al parámetro
-proporcionado. En el siguiente ejemplo, se obtiene directamente el único
-párrafo con el nombre indicado:
+A função `getElementsByName()` é similar à anterior, mas neste caso buscamos os elementos cujo atributo `name` seja igual ao parâmetro informado. No exemplo a seguir, obtêm-se diretamente o único parágrafo com o nome indicado:
 
 ```js
-var parrafoEspecial = document.getElementsByName("especial");
+var paragrafoEspecial = document.getElementsByName("especial");
 ```
 
 ```html
-<p name="prueba">...</p>
+<p name="prova">...</p>
 <p name="especial">...</p>
 <p>...</p>
 ```
 
-Normalmente el atributo name es único para los elementos HTML que lo definen,
-por lo que es un método muy práctico para acceder directamente al nodo
-deseado. En el caso de los elementos HTML radiobutton, el atributo name es
-común a todos los radiobutton que están relacionados, por lo que la función
-devuelve una colección de elementos.
+Normalmente o atributo `name` é único para os elementos HTML que o definem e, portanto, é um método muito prático para acessar diretamente o nó desejado. No caso dos elementos HTML `radiobutton`, o atributo `name` é comum a todos os `radiobutton`'s que estejam relacionados, motivo pelo qual a função retorna uma coleção de elementos.
 
-Internet Explorer 6.0 no implementa de forma correcta esta función, ya que
-sólo la tiene en cuenta para los elementos de tipo `<input>` y `<img>`.
-Además, también tiene en consideración los elementos cuyo atributo `id` sea
-igual al parámetro de la función.
+O Internet Explorer 6.0 não implementa de maneira correta esta função, já que só a considera para os elementos do tipo `<input>` e `<img>`. Além disso, também considera os elementos cujo atributo `id` seja igual ao parâmetros da função.
 
 ## getElementById()
 
-La función `getElementById()` es la más utilizada cuando se desarrollan
-aplicaciones web dinámicas. Se trata de la función preferida para acceder
-directamente a un nodo y poder leer o modificar sus propiedades.
+A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações web dinâmicas. É a função preferida para acessar diretamente um nós e poder ler suas propriedades.
 
-La función `getElementById()` devuelve el elemento XHTML cuyo atributo `id`
-coincide con el parámetro indicado en la función. Como el atributo id debe ser
-único para cada elemento de una misma página, la función devuelve únicamente
-el nodo deseado.
+A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coincide com o parâmetro informando na função. Como o atributo `id` deve ser único para cada elemento de uma mesma página, a função devolve somente o nó desejado.
 
 ```js
-var cabecera = document.getElementById("cabecera");
+var cabecalho = document.getElementById("cabecalho");
 ```
 
 ```html
-<div id="cabecera">
+<div id="cabecalho">
   <a href="/" id="logo">...</a>
 </div>
 ```
 
-La función `getElementById()` es tan importante y tan utilizada en todas las
-aplicaciones web, que casi todos los ejemplos y ejercicios que siguen la
-utilizan constantemente.
+A função `getElementById()` é tão importante e tão utilizada em todas as aplicações web que quase todos os exemplos e exercícios a seguir a utilizam constantemente.
 
-Internet Explorer 6.0 también interpreta incorrectamente esta función, ya que
-devuelve también aquellos elementos cuyo atributo `name` coincida con el
-parámetro proporcionado a la función.
+Internet Explorer 6.0 também interpreta incorretamente esta função, já que devolve também aqueles elementos cujo atributo `name` coincida com o parâmetro informado na função.
 
-Acceder a los nodos y a sus propiedades (que se verá más adelante) es sólo una
-parte de las manipulaciones habituales en las páginas. Las otras operaciones
-habituales son las de crear y eliminar nodos del árbol DOM, es decir, crear y
-eliminar "trozos" de la página web.
+Acessar todos os nós e suas propriedades (que veremos mais adiante) é só uma parte das manipulações habituais nas páginas. As outras operações comuns são criar e eliminar nós da árvore DOM, ou seja, criar e eliminar "pedaços" da página web.
 
-## Creación de elementos XHTML simples
+## Criação de elementos XHTML simples
 
-Como se ha visto, un elemento XHTML sencillo, como por ejemplo un párrafo,
-genera dos nodos: el primer nodo es de tipo Element y representa la etiqueta `<
-p>` y el segundo nodo es de tipo Text y representa el contenido textual de la
-etiqueta `<p>`.
+Como já vimos, um elemento XHTML simples, como por exemplo um parágrafo, gera dois nós: o primeiro nós é do tipo `Element` e representa a tag `<p>` e o segundo nó é do tipo `Text` e representa o conteúdo textual da tag `<p>`.
 
-Por este motivo, crear y añadir a la página un nuevo elemento XHTML sencillo
-consta de cuatro pasos diferentes:
+Por esta razão, criar e adicionar um novo elemento XHTML simples na página consiste em quatro passos diferentes:
 
-1 Creación de un nodo de tipo Element que represente al elemento
+1. Criação de um nó do tipoe `Element` que represente o elemento.
 
-2 Creación de un nodo de tipo Text que represente el contenido del elemento
+2. Criação de um nó do tipo `Text` que represente o conteúdo do elemento.
 
-3 Añadir el nodo Text como nodo hijo del nodo Element
+3. Adicionar o nó `Text` como nó filho do nó `Element`.
 
-4 Añadir el nodo Element a la página, en forma de nodo hijo del nodo
+4. Adicionar o nó `Element` na página, como um nó filho correspondente ao lugar que se quer inserir o elemento.
 
-Correspondiente al lugar en el que se quiere insertar el elemento.
-
-5 De este modo, si se quiere añadir un párrafo simple al final de una página
-
-XHTML, es necesario incluir el siguiente código JavaScript.
+Desta forma, se você quiser adicionar um parágrafo simples ao final de uma página XHTML, é necessário incluir o seguinte código JavaScript:
 
 ```js
-// Crear nodo de tipo Element
-var parrafo = document.createElement("p");
-// Crear nodo de tipo Text
-var contenido = document.createTextNode("Hola Mundo!");
-// Añadir el nodo Text como hijo del nodo Element
-parrafo.appendChild(contenido);
-// Añadir el nodo Element como hijo de la pagina
-document.body.appendChild(parrafo);
+// Criar um nó do tipoElement
+var paragrafo = document.createElement("p");
+// Criar um nó do tipo Text
+var conteudo = document.createTextNode("Olá Mundo!");
+// Adicionar o nó Text como filho do nó Element
+paragrafo.appendChild(conteudo);
+// Adicionar o nó Element como filho da página
+document.body.appendChild(paragrafo);
 ```
+O processo de criação de novos nós pode ser tedioso, já que implica na utilização de três funções do DOM:
 
-El proceso de creación de nuevos nodos puede llegar a ser tedioso, ya que
-implica la utilización de tres funciones DOM:
+1. `createElement(tag)`
 
-1 `createElement(etiqueta)`
+Cria um nó do tipo `Element`que representa o elemento XHTML cuja tag é informada como argumento.
 
-Crea un nodo de tipo Element que representa al elemento XHTML cuya etiqueta
-se pasa como parámetro.
+2, `createTextNode(conteudo)`
 
-2 `createTextNode(contenido)`
+Cria um nó do tipo `Text` que armazena o conteúdo textual dos elementos XHTML.
 
-Crea un nodo de tipo Text que almacena el contenido textual de los elementos
-XHTML.
+3 `noPai.appendChild(noFilho)`
 
-3 `nodoPadre.appendChild(nodoHijo)`
+Adiciona um nó como filho de outro nó. Deve ser utilizado ao menos duas vezes com os nós habituais: primeiro se adicionar o nó `Text` como nó filho da pagina.
 
-Añade un nodo como hijo de otro nodo.
-Se debe utilizar al menos dos veces.
-con los nodos habituales: en primer lugar se añade el nodo `Text` como hijo del
-nodo de la página.
+## Eliminação de nós
 
-## Eliminación de nodos
-
-Afortunadamente, eliminar un nodo del árbol DOM de la página es mucho más
-sencillo que añadirlo. En este caso, solamente es necesario utilizar la
+Felizmente, eliminar um nó da árvore DOM da página é muito mais simples do que adicioná-lo. Neste caso, só é necessário utilizar a função `removeChild()`:
 
 ```js
-función `removeChild()`:
-var parrafo = document.getElementById("provisional");
-parrafo.parentNode.removeChild(parrafo);
+var paragrafo = document.getElementById("provisional");
+paragrafo.parentNode.removeChild(paragrafo);
 ```
 
 ```html
 <p id="provisional">...</p>
 ```
+A função `removeChild()` exige como parâmetro o nó que será eliminado. Além disso, esta função deve ser invocada a partir do elemento pai do nó que se queira eliminar. A forma mais segura e rápida de acessar ao nó pai de um elemento é pela propriedade `noFilho.parentNode`.
 
-La función `removeChild()` requiere como parámetro el nodo que se va a
-eliminar. Además, esta función debe ser invocada desde el elemento padre de
-ese nodo que se quiere eliminar. La forma más segura y rápida de acceder al
-nodo padre de un elemento es mediante la propiedad nodoHijo.parentNode.
-
-Así, para eliminar un nodo de una página XHTML se invoca a la función
-`removeChild()` desde el valor parentNode del nodo que se quiere eliminar.
-Cuando se elimina un nodo, también se eliminan automáticamente todos los nodos
-hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
+Assim, para eliminar um nó de uma página XHTML, invocamos a função `removeChild()` a partir do valor do `parentNode` do nó que queremos eliminar. Quando um nó é eliminado, também são eliminados automaticamente todos os nós filhos que ele tenha, não sendo necessário apagar manualmente cada nó filho.

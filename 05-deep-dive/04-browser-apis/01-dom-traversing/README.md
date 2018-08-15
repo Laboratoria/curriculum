@@ -1,4 +1,4 @@
-# Recorrido del DOM
+# Viagem pelo DOM
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,82 +6,42 @@
 
 ***
 
-La creación del Document Object Model o `DOM` es una de las innovaciones
-que más ha influido en el desarrollo de las páginas web dinámicas y de las
-aplicaciones web más complejas.
+A criação do *Document Object Model*, o `DOM`, é uma das inovações que mais influenciaram no desenvolvimento de páginas web dinâmicas e de aplicações web mais complexas.
 
-`DOM` permite a los programadores web acceder y manipular las páginas XHTML
-como si fueran documentos XML. De hecho, DOM se diseñó originalmente para
-manipular de forma sencilla los documentos XML.
+`DOM` permite aos programadores web acessas e manipular as páginas XHTML como se fosse documentos XML. De fato, DOM foi projetado originalmente para manipular de forma mais simples os documentos XML.
 
-A pesar de sus orígenes, `DOM` se ha convertido en una utilidad disponible para
-la mayoría de lenguajes de programación (Java, PHP, JavaScript) y cuyas únicas
-diferencias se encuentran en la forma de implementarlo.
+Apesar de suas origens, o `DOM` se converteu em uma funcionalidade disponível para a maioria das linguagens de programação (Java, PHP, JavaScript) e cujas únicas diferenças estão na forma de implementá-lo.
 
-Una de las tareas habituales en la programación de aplicaciones web con
-JavaScript consiste en la manipulación de las páginas web. De esta forma,
-es habitual obtener el valor almacenado por algunos elementos (por ejemplo
-los elementos de un formulario), crear un elemento (párrafos, `<div>`, etc.)
-de forma dinámica y añadirlo a la página, aplicar una animación a un elemento
-(que aparezca/desaparezca, que se desplace, etc.).
+Uma das tarefas cotidianas na programação de aplicações web com JavaScript consiste na manipulação de páginas web. Desta maneira, é comum obter o valor armazenado por alguns elementos (por exemplo, os elementos de um formulário), criar um elemento (parágrafos, `<div>`, etc.) de forma dinâmica e adicioná-lo à página, aplicar uma animação a um elemento (que apareça/desapareça, que se mova, etc.).
 
-Todas estas tareas habituales son muy sencillas de realizar gracias a `DOM`.
-Sin embargo, para poder utilizar las utilidades de `DOM`, es necesario
-"transformar" la página original. Una página HTML normal no es más que una
-sucesión de caracteres, por lo que es un formato muy difícil de manipular.
-Por ello, los navegadores web transforman automáticamente todas las páginas web
-en una estructura más eficiente de manipular.
+Todas estas tarefas habituais são muito simples de se fazer graças ao `DOM`. Porém, para poder utilizar as funcionalidades de `DOM` é preciso "transformar" a página original. Uma página HTML normal não é mais que uma sucessão de caracteres e cujo formato é muito difícil de manipular. Por meio dele, os navegadores web transforma automaticamente todas as páginas web em uma estrutura mais eficiente para manipulação.
 
-Esta transformación la realizan todos los navegadores de forma automática y nos
-permite utilizar las herramientas de `DOM` de forma muy sencilla.
-El motivo por el que se muestra el funcionamiento de esta transformación
-interna es que condiciona el comportamiento de `DOM` y por tanto, la forma
-en la que se manipulan las páginas.
+Esta transformação é realizada por todos os navegadores de maneira automática e permite utilizar as ferramentas do `DOM` de maneira bastante simples. O motivo pelo qual essa transformação é feita internamente é que ela condiciona o comportamento do `DOM` e logo, a maneira como as páginas são manipuladas.
 
-`DOM` transforma todos los documentos XHTML en un conjunto de elementos
-llamados nodos, que están interconectados y que representan los contenidos de
-las páginas web y las relaciones entre ellos. Por su aspecto, la unión de todos
-los nodos se llama "árbol de nodos".
+`DOM` transforma todos os documentos XHTML em um conjunto de elementos chamados nós, que estão interligados e representam os conteúdos das páginas web e as relações entre eles. Por sua características, a união de todos os nós se chama "árvore de nós".
 
-Nodos generados automáticamente por DOM para una etiqueta XHTML con otras
-etiquetas XHTML en su interior.
+A transformação automática da página em uma árvore de nós sempre segue as mesmas regras.
 
-La transformación automática de la página en un árbol de nodos siempre
-sigue las mismas reglas.
+## As tags XHTML se transformam em dois nós
 
-## Las etiquetas XHTML se transforman en dos nodos
+O primeiro é a própria tag e o segundo nó é filho do primeiro e consite no conteúdo textual da etiqueta.
 
-El primero es la propia etiqueta y el segundo nodo es hijo del primero y
-consiste en el contenido textual de la etiqueta.
+## Se uma tag XHTML está dentro de outra
 
-## Si una etiqueta XHTML se encuentra dentro de otra
+O mesmo procedimento anterior é respeitado, mas os nós gerados serão nós filhos de sua tag pai.
 
-Se sigue el mismo procedimiento anterior, pero los nodos generados serán
-nodos hijo de su etiqueta padre.
+Como podemos supor, a spáginas XHTMl usuais produzem árvores com milhares de nós. Ainda assim, o processo de transformação é rápido e automático, sendo as funções fornecidas pelo DOM (que veremos mais adiante) são as únicas que permite acessar qualquer nó da página de forma simples e rápida.
 
-Como se puede suponer, las páginas XHTML habituales producen árboles con
-miles de nodos. Aun así, el proceso de transformación es rápido y automático,
-siendo las funciones proporcionadas por DOM (que se verán más adelante) las
-únicas que permiten acceder a cualquier nodo de la página de forma sencilla
-e inmediata.
+A especificação completa de `DOM`define 12 tipos de nós, embora as páginas XHTML usuais possam ser manipuladas utilizando somente quatro ou cinco tipos de nós:
 
-La especificación completa de `DOM` define 12 tipos de nodos, aunque las
-páginas XHTML habituales se pueden manipular manejando solamente cuatro
-o cinco tipos de nodos:
+1. `Document`: nó raiz do qual derivam todos os demais nós da árvore.
 
-1 `Document`, nodo raíz del que derivan todos los demás nodos del árbol.
+2. `Element`: representa cada uma das tags XHTML. É o único nó que pode conter atributos e o único do qual podem derivar outros nós.
 
-2 `Element`, representa cada una de las etiquetas XHTML. Se trata del único
+3. `Attr`: um nó deste tipo é definido para representar cada um dos atributos das tags XHTML, ou seja, um para para atributo=valor. 
 
-nodo que puede contener atributos y el único del que pueden derivar otros nodos.
+4. `Text`: nó que contém o texto contido em uma tag XHTML.
 
-3 `Attr`, se define un nodo de este tipo para representar cada uno de los
+5. `Comment`: representa os comentários incluídos na página XHTML.
 
-atributos de las etiquetas XHTML, es decir, uno por cada par atributo=valor.
-Text, nodo que contiene el texto encerrado por una etiqueta XHTML.
-
-4 `Comment`, representa los comentarios incluidos en la página XHTML.
-
-Los otros tipos de nodos existentes que no se van a considerar son
-`DocumentType`, `CDataSection`, `DocumentFragment`, `Entity`, `EntityReference`
-,`ProcessingInstruction` y `Notation`.
+Os outros tipos de nós existentes que não vamos considerar são `DocumentType`, `CDataSection`, `DocumentFragment`, `Entity`, `EntityReference`, `ProcessingInstruction` e `Notation`.
