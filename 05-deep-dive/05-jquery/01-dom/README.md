@@ -1,4 +1,4 @@
-# Manejo del DOM
+# Manipulação do DOM
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,50 +6,35 @@
 
 ***
 
-Ya aprendimos Javascript y por lo tanto, ya sabemos como manipular elementos
-del DOM. jQuery entonces viene a ayudarnos a manipular y crear los elementos
-que utilizaremos en nuestro sitio web.
-Con jQuery, es posible cambiar, mover, remover y duplicar elementos. También
-crear nuevos a través de una sintaxis simple.
-Los siguientes son algunos de los métodos utilizados para manipular el DOM:
+Já aprendemos JavaScript e portanto, já sabemos como manipular elementos do DOM. jQuery então vem a nos ajudar a manipular e criar os elementos que utilizaremos em nosso sítio web. Com jQuery, é possível mudar, mover, remover e duplicar elementos. Também criar novos por meio de sintaxe simples. Os seguintes são alguns dos métodos utilizados para manipular o DOM:
 
-* `$.fn.html`: Obtiene o establece el contenido HTML de un elemento.
+* `$.fn.html`: Obtém ou estabelece o conteúdo HTML de um elemento.
 
-* `$.fn.text`: Obtiene o establece el contenido en texto del elemento; en caso
+* `$.fn.text`: Obtém ou estabelece o conteúdo de texto do elemento; em case de ser passado como argumento um código HTML, este é ignorado.
 
-se pasarle como argumento código HTML, este es despojado.
+* `$.fn.attr`: Obtém ou estabelece o valor de um determinado atributo.
 
-* `$.fn.attr`: Obtiene o establece el valor de un determinado atributo.
+* `$.fn.width`: Obtém ou estabelece a largura em pixels do primeiro elemento da seleção como um todo.
 
-* `$.fn.width`: Obtiene o establece el ancho en pixeles del primer elemento de
+* `$.fn.height`: Obtém ou estabelece a altura em pixels do primeiro elemento da seleção como um todo.
 
-la selección como un entero.
+* `$.fn.val`: Obtém ou estabelece o valor (`value`) nos elementos de formulários.
 
-* `$.fn.height`: Obtiene o establece el alto en pixeles del primer elemento de
+* `$.fn.insertAfter`: Coloca o(s) elemento(s) selecionado(s) depois do elemento que foi passado como argumento.
 
-la selección como un entero.
+* `$.fn.after`: Coloca o elemento passado como argumento depois do elemento selecionado.
 
-* `$.fn.val`: Obtiene o establece el valor (value) en elementos de formularios.
+* `$.fn.append`: Adiciona texto ou código HTML ao final do elemento selecionado.
 
-* `$.fn.insertAfter`: Coloca a el/los elementos seleccionados después del
+* `$.fn.prepend`: Adiciona textou o código HTML ao início do elemento selecionado.
 
-elemento que se haya pasado como argumento.
+* `$.fn.remove`: é utilizado para remover por completo os elementos.
 
-* `$.fn.after`: Coloca al elemento pasado como argumento después del elemento
-
-seleccionado.
-
-* `$.fn.append`: Añade texto o código HTML al final del elemento seleccionado.
-
-* `$.fn.prepend`: Añade texto o código html al principio del elemento seleccionado.
-
-* `$.fn.remove`: se utiliza para remover por completo los elementos.
-
-También es muy sencillo crear nuevos elementos para nuestro sitio.
+Também é muito simples criar novos elementos para nosso sítio.
 
 ```js
-// creamos y guardamos el nuevo elemento en una variable
-var myNewElement = $('<p>Nuevo elemento</p>');
-// creamos e insertamos el nuevo elemento en su nodo padre
-$('ul').append('<li>item de la lista</li>');
+// criamos e armazenamos o novo elemento em uma variável
+var myNewElement = $('<p>Novo elemento</p>');
+// criamos e inserimos o novo elemento em seu pai
+$('ul').append('<li>item da lista</li>');
 ```
