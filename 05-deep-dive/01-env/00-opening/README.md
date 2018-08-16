@@ -6,7 +6,7 @@
 
 ***
 
-Nesta unidade veremos o ambiente de desenvolvimento que você terá que utilizar no seu projeto final deste curso (a biblioteca). Veremos superficialmente temas da [shell de UNIX](https://es.wikipedia.org/wiki/Shell_de_Unix), [git](https://git-scm.com/), [GitHub](https://github.com/), [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/), [babel](https://babeljs.io/) e editores de texto.
+Nesta unidade veremos o ambiente de desenvolvimento que você terá que utilizar no seu projeto final deste curso (a biblioteca). Veremos superficialmente temas da [shell de UNIX](https://pt.wikipedia.org/wiki/Shell_do_Unix), [git](https://git-scm.com/), [GitHub](https://github.com/), [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/), [babel](https://babeljs.io/) e editores de texto.
 
 ## Por que aprender isto?
 

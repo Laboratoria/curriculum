@@ -10,4 +10,4 @@ Nesta unidade focaremos nas API's que o navegador nos oferece para interagir com
 
 Quando o navegador obtém o HTML de uma página, ele constrói um modelo da estrutura do documento e o usa para desenhar a página na tela. Esta representação do documento é acessada por meio do JavaScript e torna possível adicionar interatividade aos nossos sítios web. Ainda assim, é necessário considerar o desempenho do navegador.
 
-[Window - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+[Window - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Window)

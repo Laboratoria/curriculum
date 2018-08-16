@@ -87,4 +87,4 @@ Situações de uso:
 
 ## leituras complementares
 
-[Expressões e Operadores - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)

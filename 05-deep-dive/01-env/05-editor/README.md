@@ -11,7 +11,7 @@
 >
 > Mas calma! Para isso existe o EditorConfig para ajudarmos a automatizar e centralizar os estilos de código. Utilizá-lo é simples como instalar um _plugin_ em nosso IDE e adicionar no nosso projeto um arquivo `.editorconfig` com todos os estilos que precisemos.
 >
-> Fonte: [O que é .editorconfig e como utilizá-lo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo)
+> Fonte: [O que é .editorconfig e como utilizá-lo](https://showmethecode.com.br/2017/03/29/editor-config/)
 
 Exemplo de `.editorconfig`:
 
@@ -28,4 +28,4 @@ insert_final_newline = true
 
 ## leitura complementar
 
-[O que é .editorconfig e como utilizá-lo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo).
+[O que é .editorconfig e como utilizá-lo](https://showmethecode.com.br/2017/03/29/editor-config/).

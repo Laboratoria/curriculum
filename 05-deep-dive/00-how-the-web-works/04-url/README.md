@@ -19,9 +19,9 @@ Agora veremos o que é e como é constituída uma URL:
 
 Assistamos a este vídeo a partir do segundo 00:22 até o minuto 01:30.
 
-[vídeo](https://www.youtube.com/watch?v=7DXNmEwdGy4)
+[vídeo](https://www.youtube.com/watch?v=BU6fzWxk9UM)
 
-No seguinte **[link](https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme#URL_en_el_uso_diario)** vamos enfocar no trecho de "_URL no uso diário_" e depois reforçaremos com os três links que temos abaixo.
+No seguinte **[link](https://pt.wikipedia.org/wiki/URL)** vamos ler sobre a URL e depois reforçaremos com os três links que temos abaixo.
 
 **[URL](https://escuelitadeinternet.wordpress.com/2012/11/17/como-son-las-direcciones-web-interpretarla/)**
 

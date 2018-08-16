@@ -36,16 +36,16 @@ Alguma vez você se perguntou como funciona a internet, no sentido de *transport
 
 Para responder a estas perguntas e ter claro de como estamos falando, aqui temos um vídeo com uma pequena explicação concreta do que é o protocolo HTTP. Não se preocupe se ao final do vídeo não for possível ver bem a imagem do que é um "Diálogo HTTP", já que Manu em seu post explica com mais detalhe esse protocolo e apresenta uma imagem muito mais clara.
 
-[Vídeo](https://www.youtube.com/watch?v=iQkBZxBisO0)
+[Vídeo](https://www.youtube.com/watch?v=CmmF2qKim8M)
 
 [Post](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-http-6c8c5e078303)
 
-Neste [link](https://es.wikipedia.org/wiki/Familia_de_protocolos_de_Internet) só é necessário que você leia a primeira parte "Família de protocolos de Internet" para que conheçamos um pouco mais do assunto de protocolos.
+Neste [link](https://pt.wikipedia.org/wiki/TCP/IP) só é necessário que você leia a parte "Protocolos de Internet" para que conheçamos um pouco mais do assunto de protocolos.
 
 > Nota: Os outros comandos HTTP veremos quando estivermos trabalhando com API's.
 
 Para continuar aprofundando este tema, assista a este outro vídeo e leia o post.
 
-[Vídeo](https://www.youtube.com/watch?v=S975NVYbe2E)
+[Vídeo](https://www.youtube.com/watch?v=fhAXgcD21iE)
 
-[Post](http://es.ccm.net/contents/264-el-protocolo-http)
+[Post](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol)

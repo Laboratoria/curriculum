@@ -20,7 +20,7 @@ Existem vários frameworks e bibliotecas ótimas de *testing* para JavaScript: [
 >
 > Fonte: [Stack Overflow](https://stackoverflow.com/a/652309/374331)
 
-Neste curso concentraremos os esforços no **Mocha** e em particular à interface [BDD](https://mochajs.org/#bdd), que implementa uma API para fazer [Behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development).
+Neste curso concentraremos os esforços no **Mocha** e em particular à interface [BDD](https://mochajs.org/#bdd), que implementa uma API para fazer [Behavior-driven development](https://pt.wikipedia.org/wiki/Behavior_Driven_Development).
 
 ## Instalando Mocha
 

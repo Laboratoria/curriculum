@@ -19,7 +19,7 @@ Escrevemos testes para:
 5. Para garantir que um _produto_ se comporte como esperamos;
 6. Para detectar problemas rapidamente, o que permite reduzir o custo de modificações.
 
-Neste curso teremos uma ênfase especial no desenvolvimento orientado a testes ([Test Drive Development - TDD](https://en.wikipedia.org/wiki/Test-driven_development)). Nesta unidade você poderá seguir os passos necessários para escrever seus primeiros testes e entender o valor inestimável que propiciam.
+Neste curso teremos uma ênfase especial no desenvolvimento orientado a testes ([Test Drive Development - TDD](https://pt.wikipedia.org/wiki/Test_Driven_Development)). Nesta unidade você poderá seguir os passos necessários para escrever seus primeiros testes e entender o valor inestimável que propiciam.
 
 Ao longo do curso usaremos testes não somente no _projeto final_ mas também como ferramentas para demonstrar as diferentes características da linguagem conforme formos avançando.
 
