@@ -29,7 +29,7 @@ Dentro de um emulador do terminal podemos executar diferentes shells, assim como
 
 Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições de UNIX). O terminal sempre _está_ em algum lugar do sistema de arquivos. Isso quer dizer que os comandos que executamos serão executados a partir desse _lugar_ (a pasta onde estamos).
 
-Para poder trabalhar com facilidade no terminal é importante conhecer alguns comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir a ordem dos exemplos você deve ver resultados iguais.
+Para poder trabalhar com facilidade no terminal é importante conhecer alguns comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir a ordem dos exemplos você deve ver resultados similares.
 
 * `pwd`: mostra o caminho de onde estamos atualmente (**P**rint **W**orking **D**irectory)
   ```sh
@@ -127,7 +127,6 @@ Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias 
   /usr/local/bin/node
   ```
 * `grep`: filtra texto, mostrando somente aquelas linhas que contenham um padrão de busca.
-* `curl`
 * ...
 -->
 

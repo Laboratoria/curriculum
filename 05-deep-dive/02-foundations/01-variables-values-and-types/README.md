@@ -98,7 +98,7 @@ Por isso, se mudamos a propriedade _nome_ de `obj2`, como as duas variáveis apo
 
 ```js
 obj2.nome = 'Xavier';
-console.log(obj.nombre); // Xavier
+console.log(obj.nome); // Xavier
 ```
 
 Como vimos nem tudo em JavaScript é um objeto, mas todos os valores se relacionam por meio de referências/ponteiros. Ter um entendimento sólido de como funcionam os diferentes tipos permitirá que nós entendamos como trabalhar com nossos valores, sem termos mutações inesperadas.
