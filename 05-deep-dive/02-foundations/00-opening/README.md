@@ -10,13 +10,13 @@
 
 Nesta unidade:
 
-* aprenderemos como utilizar o padrão mais recente aceito de JavaScript ES2015 || ES6.
-* conhecerremos as vantagens deste padrão assim como suas limitações e você aprenderá a lidar com elas para fazer cada mais um melhor desenvolvimento de produtos.
-* detalharemos as particularidades de JavaScript e entenderemos melhos os tipos de dados que utilizamos anteriormente
-* descobriremos que alguns conceitos como o escopo das funções mudam com JS ES6.
-* aprenderemos a desenvolver melhores estruturas de dados e usaremos todo o conjunto de objetos e vetores que você já conhece.
-* conheceremos a desestruturação dos vetores.
-* conhocerá uma nova imagem de todos os tipos de dados que existem, como objetos construtores.
+* Aprenderemos como utilizar o padrão mais recente aceito de JavaScript ES2015 || ES6.
+* Conheceremos as vantagens deste padrão assim como suas limitações e você aprenderá a lidar com elas para fazer cada mais um melhor desenvolvimento de produtos.
+* Detalharemos as particularidades de JavaScript e entenderemos melhor os tipos de dados que utilizamos anteriormente.
+* Descobriremos que alguns conceitos como o escopo das funções mudam com JS ES6.
+* Aprenderemos a desenvolver melhores estruturas de dados e usaremos todo o conjunto de objetos e vetores que você já conhece.
+* Conheceremos a desestruturação dos vetores.
+* Conheceremos uma nova imagem de todos os tipos de dados que existem, como objetos construtores.
 
 ## ES6: JavaScript com superpoderes
 
@@ -34,7 +34,7 @@ Este padrão da linguagem tem inúmeras características que lhe ajudarão a esc
 
 Está pronta?
 
-Os seguintes slides apresentam prevemente o que abordaremos nesta unidade:
+Os seguintes slides apresentam previamente o que abordaremos nesta unidade:
 
 <iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
@@ -58,14 +58,14 @@ Estes são alguns termos que são usados frequentemente quando falamos de ECMASc
 
 A seguir são listadas as versões do padrão e seu ano de publicação:
 
-* **ECMAScript 1**: 1997
-* **ECMAScript 2**: 1998
-* **ECMAScript 3**: 1999
-* **ECMAScript 4**: Abandonado
-* **ECMAScript 5**: 2009
-* **ECMAScript 6**: 2015
-* **ECMAScript 7**: 2016
-* **ECMAScript 8**: 2017
+* **ECMAScript 1**: 1997.
+* **ECMAScript 2**: 1998.
+* **ECMAScript 3**: 1999.
+* **ECMAScript 4**: Abandonado.
+* **ECMAScript 5**: 2009.
+* **ECMAScript 6**: 2015.
+* **ECMAScript 7**: 2016.
+* **ECMAScript 8**: 2017.
 
 ### Conclusões
 

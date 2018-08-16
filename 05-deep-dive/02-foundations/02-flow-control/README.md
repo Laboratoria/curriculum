@@ -10,7 +10,7 @@
 
 ### Mecanismos que podem ser usados com repetições
 
-Os mecanismos a seguir podem ser utilizados com repetições
+Os mecanismos a seguir podem ser utilizados com repetições:
 
 #### `break [label]`
 

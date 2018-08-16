@@ -6,7 +6,7 @@
 
 ***
 
-Nesta leitura veremos algumas particularidades sobre os operadores de igualdade (`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para você o link para a documentação oficinal de operadores e expressões no MDN que recomendamos que você *leia* (ou olhe pelo menos).
+Nesta leitura veremos algumas particularidades sobre os operadores de igualdade (`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para você o link para a documentação oficial de operadores e expressões no MDN que recomendamos que você *leia* (ou olhe pelo menos).
 
 ## Diferença entre `==` e `===`
 

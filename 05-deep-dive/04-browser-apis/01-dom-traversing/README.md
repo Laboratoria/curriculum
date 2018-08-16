@@ -8,7 +8,7 @@
 
 A criação do *Document Object Model*, o `DOM`, é uma das inovações que mais influenciaram no desenvolvimento de páginas web dinâmicas e de aplicações web mais complexas.
 
-`DOM` permite aos programadores web acessas e manipular as páginas XHTML como se fosse documentos XML. De fato, DOM foi projetado originalmente para manipular de forma mais simples os documentos XML.
+`DOM` permite aos programadores web acessar e manipular as páginas XHTML como se fossem documentos XML. De fato, DOM foi projetado originalmente para manipular de forma mais simples os documentos XML.
 
 Apesar de suas origens, o `DOM` se converteu em uma funcionalidade disponível para a maioria das linguagens de programação (Java, PHP, JavaScript) e cujas únicas diferenças estão na forma de implementá-lo.
 
@@ -24,15 +24,15 @@ A transformação automática da página em uma árvore de nós sempre segue as 
 
 ## As tags XHTML se transformam em dois nós
 
-O primeiro é a própria tag e o segundo nó é filho do primeiro e consite no conteúdo textual da etiqueta.
+O primeiro é a própria tag e o segundo nó é filho do primeiro e consiste no conteúdo textual da etiqueta.
 
 ## Se uma tag XHTML está dentro de outra
 
 O mesmo procedimento anterior é respeitado, mas os nós gerados serão nós filhos de sua tag pai.
 
-Como podemos supor, a spáginas XHTMl usuais produzem árvores com milhares de nós. Ainda assim, o processo de transformação é rápido e automático, sendo as funções fornecidas pelo DOM (que veremos mais adiante) são as únicas que permite acessar qualquer nó da página de forma simples e rápida.
+Como podemos supor, as páginas XHTMl usuais produzem árvores com milhares de nós. Ainda assim, o processo de transformação é rápido e automático, sendo as funções fornecidas pelo DOM (que veremos mais adiante) são as únicas que permite acessar qualquer nó da página de forma simples e rápida.
 
-A especificação completa de `DOM`define 12 tipos de nós, embora as páginas XHTML usuais possam ser manipuladas utilizando somente quatro ou cinco tipos de nós:
+A especificação completa de `DOM` define 12 tipos de nós, embora as páginas XHTML usuais possam ser manipuladas utilizando somente quatro ou cinco tipos de nós:
 
 1. `Document`: nó raiz do qual derivam todos os demais nós da árvore.
 

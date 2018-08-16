@@ -18,4 +18,4 @@ Implemente um plugin de jQuery que permita gerar um *tooltip* com um texto perso
 
 ## [3. Modal](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/jquery/jquery/02-modal.js)
 
-Desenvolva um plugun de jQuery que permitar dar um clique em um texto e apareça um modal com a imagem representativa do texto.
+Desenvolva um plugun de jQuery que permita dar um clique em um texto e apareça um modal com a imagem representativa do texto.

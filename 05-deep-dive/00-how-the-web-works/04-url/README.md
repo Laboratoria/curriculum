@@ -10,12 +10,12 @@
 
 Nesta unidade aprenderemos:
 
-- O que é uma **URL** e como ela é constituída
-- Como ela funciona e para que ela server
+- O que é uma **URL** e como ela é constituída;
+- Como ela funciona e para que ela serve.
 
 ## URL, a rota de nosso caminho
 
-Agora veremos o que é e como é constituída uma URL
+Agora veremos o que é e como é constituída uma URL:
 
 Assistamos a este vídeo a partir do segundo 00:22 até o minuto 01:30.
 

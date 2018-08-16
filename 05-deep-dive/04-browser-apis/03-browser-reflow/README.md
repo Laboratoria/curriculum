@@ -6,7 +6,7 @@
 
 ***
 
-Com a chegada das aplicações ricas da internet (RIA: *Rich Internet Applications*), nossas páginas exigem uma melhor experiência para o usuário, o que leva a uma maior manipulação do DOM com muitas instruções `javascript`, animações, etc. Mas isto ocasiona um problema que nem sempre é previsot antes do desenvolvimento e rapidamente tudo começa a funcionar lentamente ou consumindo muito memória na máquina do cliente.
+Com a chegada das aplicações ricas da internet (RIA: *Rich Internet Applications*), nossas páginas exigem uma melhor experiência para o usuário, o que leva a uma maior manipulação do DOM com muitas instruções `javascript`, animações, etc. Mas isto ocasiona um problema que nem sempre é previso antes do desenvolvimento e rapidamente tudo começa a funcionar lentamente ou consumindo muita memória na máquina do cliente.
 
 O problema com a web não é o `javascript` e sim o DOM:
 
@@ -73,9 +73,9 @@ Desta maneira, antes de adicionar os 100 novos parágrafos, limpamos o DOM utili
 
 ## É útil entender quando os *re-flow*'s são ativados
 
-1. Adção, eliminação ou mudança de elementos visíveis do DOM.
+1. Adição, eliminação ou mudança de elementos visíveis do DOM.
 
-A primeira é obvia: o uso de JavaScript para trocaro DOM provocará um *re-flow*.
+A primeira é obvia: o uso de JavaScript para trocar o DOM provocará um *re-flow*.
 
 2. Adição, eliminação ou mudança de estilos CSS.
 
@@ -87,10 +87,10 @@ Cada mudança da animação causará um *re-fow*.
 
 4. Uso de `offsetWidth` e `offsetHeight`.
 
-Curiosamente, ler as propriedades `offsetWidth` e `offsetHeight` de um elemento pode dispara um *re-flow* inicial para calcular os valoes.
+Curiosamente, ler as propriedades `offsetWidth` e `offsetHeight` de um elemento pode disparar um *re-flow* inicial para calcular os valores.
 
 5. Ações do usuário
 
 Finalmente, o usuário pode ativar os *re-flow* ativando um efeito `hover`, digitando texto em um campo, trocando o tamanho da janela, mudando o tamanhos da fonte, mudando folhas de estilos ou fontes.
 
-O fluxo de processamento do *re-flow* será variado. Alguns navegadores são melhores que outros em certas operações. Alguns elementos geram mais *re-flow* que outros. Felizmente, existem vários conselhos gerais que você pode utilizar para melhorar o desempenho, como o caso que vimos anteriormente
+O fluxo de processamento do *re-flow* será variado. Alguns navegadores são melhores que outros em certas operações. Alguns elementos geram mais *re-flow* que outros. Felizmente, existem vários conselhos gerais que você pode utilizar para melhorar o desempenho, como o caso que vimos anteriormente.

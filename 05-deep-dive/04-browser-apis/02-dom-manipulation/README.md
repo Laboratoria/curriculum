@@ -10,7 +10,7 @@ Uma vez construído automaticamente a árvore completa de nós do DOM, já é po
 
 DOM fornece dois métodos alternativos para acessar um nó específico: acesso por meios de seus nós pais e acesso direto.
 
-As funções que o DOM disponibiliza para acessar um nós por meio de seus nós pais consistem em acessar o nó raiz da página e depois seus nós filhos e os nós filhos desses filhos e assim sucessivamente até o último nó folha contendo o nó procurado. Porém, quando queremos acessar um nó específico, é muito mais rápido acessar diretamente esse nód e não chegar até ele caminhando por todos os seus nós pais.
+As funções que o DOM disponibiliza para acessar um nó por meio de seus nós pais consistem em acessar o nó raiz da página e depois seus nós filhos e os nós filhos desses filhos e assim sucessivamente até o último nó folha contendo o nó procurado. Porém, quando queremos acessar um nó específico, é muito mais rápido acessar diretamente esse nó e não chegar até ele caminhando por todos os seus nós pais.
 
 Por essa razão, não vamos apresentar as funções necessárias para o acesso hierárquico dos nós e mostraremos somente as que permitem acesso os nós de forma direta.
 
@@ -22,28 +22,28 @@ Como acontece com todas as funções que o DOM disponibiliza, a função `getEle
 
 A função `getElementsByTagName(nomeDaTag)` obtém todos os elementos da página XHTML cuja tag seja igual ao parâmetro que é passado na função. 
 
-O exemplo seguinte monstra como obter todos os parágrafos de uma página XHTML:
+O exemplo seguinte mostra como obter todos os parágrafos de uma página XHTML:
 
 ```js
-var paragrafos = document.getElementsByTagName("p");
+var parágrafos = document.getElementsByTagName("p");
 ```
-O valor que indicamos antes do nome da função (neste caso, `document`) é o nód a partir do qual será feita a busca dos elementos. Neste caso, como queremos obter todos os parágrafos da página, utilizamos o valor `document` como ponto de partida da busca.
+O valor que indicamos antes do nome da função (neste caso, `document`) é o nó a partir do qual será feita a busca dos elementos. Neste caso, como queremos obter todos os parágrafos da página, utilizamos o valor `document` como ponto de partida da busca.
 
 O valor que a função retorna é um vetor com todos os nós que cumprem a condição de que sua tag coincida com o parâmetro informado. O valor retornado é um vetor de nós DOM, não um array de cadeias de texto ou um vetor de objetos normais. Por outro lado, devemos processar cada valor do vetor da maneira que é mostrada nas seções a seguir.
 
 Desta maneira, podemos obter o primeiro parágrafo da página da seguinte forma:
 
 ```js
-var primeiroParagrafo = parrafos[0];
+var primeiroParagrafo = parágrafos[0];
 
-for(var i=0; i<parrafos.length; i++) {
-  var parrafo = parrafos[i];
+for(var i=0; i<parágrafos.length; i++) {
+  var parrafo = parágrafos[i];
 }
 ```
 
 Da mensa forma, poderíamos percorrer todos os parágrafos da página.
 
-A função `getElementsByTagName()` pode ser aplicada de forma recursiva sobre cada um dos nós retornados pela função. No exemplo a seguir, são obetidos todos so links do primeiro parágrafo da página:
+A função `getElementsByTagName()` pode ser aplicada de forma recursiva sobre cada um dos nós retornados pela função. No exemplo a seguir, são obtidos todos os links do primeiro parágrafo da página:
 
 ```js
 var paragrafo = document.getElementsByTagName("p");
@@ -71,7 +71,7 @@ O Internet Explorer 6.0 não implementa de maneira correta esta função, já qu
 
 ## getElementById()
 
-A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações web dinâmicas. É a função preferida para acessar diretamente um nós e poder ler suas propriedades.
+A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações web dinâmicas. É a função preferida para acessar diretamente um nó e poder ler suas propriedades.
 
 A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coincide com o parâmetro informando na função. Como o atributo `id` deve ser único para cada elemento de uma mesma página, a função devolve somente o nó desejado.
 
@@ -93,11 +93,11 @@ Acessar todos os nós e suas propriedades (que veremos mais adiante) é só uma 
 
 ## Criação de elementos XHTML simples
 
-Como já vimos, um elemento XHTML simples, como por exemplo um parágrafo, gera dois nós: o primeiro nós é do tipo `Element` e representa a tag `<p>` e o segundo nó é do tipo `Text` e representa o conteúdo textual da tag `<p>`.
+Como já vimos, um elemento XHTML simples, como por exemplo um parágrafo, gera dois nós: o primeiro nó é do tipo `Element` e representa a tag `<p>` e o segundo nó é do tipo `Text` e representa o conteúdo textual da tag `<p>`.
 
 Por esta razão, criar e adicionar um novo elemento XHTML simples na página consiste em quatro passos diferentes:
 
-1. Criação de um nó do tipoe `Element` que represente o elemento.
+1. Criação de um nó do tipo `Element` que represente o elemento.
 
 2. Criação de um nó do tipo `Text` que represente o conteúdo do elemento.
 
@@ -108,7 +108,7 @@ Por esta razão, criar e adicionar um novo elemento XHTML simples na página con
 Desta forma, se você quiser adicionar um parágrafo simples ao final de uma página XHTML, é necessário incluir o seguinte código JavaScript:
 
 ```js
-// Criar um nó do tipoElement
+// Criar um nó do tipo Element
 var paragrafo = document.createElement("p");
 // Criar um nó do tipo Text
 var conteudo = document.createTextNode("Olá Mundo!");
@@ -121,13 +121,13 @@ O processo de criação de novos nós pode ser tedioso, já que implica na utili
 
 1. `createElement(tag)`
 
-Cria um nó do tipo `Element`que representa o elemento XHTML cuja tag é informada como argumento.
+Cria um nó do tipo `Element` que representa o elemento XHTML cuja tag é informada como argumento.
 
-2, `createTextNode(conteudo)`
+2. `createTextNode(conteudo)`
 
 Cria um nó do tipo `Text` que armazena o conteúdo textual dos elementos XHTML.
 
-3 `noPai.appendChild(noFilho)`
+3. `noPai.appendChild(noFilho)`
 
 Adiciona um nó como filho de outro nó. Deve ser utilizado ao menos duas vezes com os nós habituais: primeiro se adicionar o nó `Text` como nó filho da pagina.
 

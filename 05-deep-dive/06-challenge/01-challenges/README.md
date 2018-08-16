@@ -17,14 +17,14 @@ Todos os desafios devem incluir ao menos os seguintes arquivos:
 * `README.md` com descrição do módulo, instruções de instalação, uso e documentação da API.
 * `index.js`: Biblioteca deve exportar uma função ou objeto no escopo global (`window`) e fazer uso de _features_ de ES6 onde for apropriado.
 * `index.html`: Página web da biblioteca com exemplo funcionando.
-* `package.json` com nome, versão, descrição, autores, licença, dependências, scripts (pretes, test, ...)
-* `.eslintrc` com configiração para linter (ver [guía de estilo de JavaScript](https://github.com/Laboratoria/js-style-guide))
+* `package.json` com nome, versão, descrição, autores, licença, dependências, scripts (pretest, test, ...)
+* `.eslintrc` com configuração para linter (ver [guia de estilo de JavaScript](https://github.com/Laboratoria/js-style-guide))
 * `.gitignore` para ignorar `node_modules` ou outras pastas que não devem ser incluídas no controle de versões (`git`).
 
 *Hacker edition* (opcional):
 
 * Se a biblioteca está direcionada para o navegador, deve aderir ao padrão [UMD](https://github.com/umdjs/umd) para poder ser usado com AMD, CommonJS e como variável global do navegador.
-* Integração contínua con Travis ou Circle CI
+* Integração contínua com Travis ou Circle CI
 
 ## Progresso
 
@@ -35,8 +35,8 @@ Como orientação, propomos os seguintes _checklists_ de progresso para cada sem
 * Formar grupo.
 * Escolher o desafio.
 * Fazer um *fork* do desafio modelo ou criar um novo repositório se você propuser um desafio diferente dos da Laboratória.
-* Escrever uma primeira versão do `README.md` com uma descrição geral da biblioteca assim como exemplos (*snippets*) de uso e configuração (se for necessário)
-* Criar *issues* e *milestones* que sirvam como um mapa (roadmap)
+* Escrever uma primeira versão do `README.md` com uma descrição geral da biblioteca assim como exemplos (*snippets*) de uso e configuração (se for necessário).
+* Criar *issues* e *milestones* que sirvam como um mapa (roadmap).
 * Inicializar o projeto com `npm init` e `git init`.
 * Criar o `index.html` com exemplo principal de uso.
 

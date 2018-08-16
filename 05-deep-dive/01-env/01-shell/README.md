@@ -6,8 +6,8 @@
 
 ## Objetivos de aprendizagem
 
-* Que todas tenham um emulador de terminal e *bash* ou *zsh* instalado
-* Conhecer a navegação pelo sistema de arquivos executando comandos
+* Que todas tenham um emulador de terminal e *bash* ou *zsh* instalado.
+* Conhecer a navegação pelo sistema de arquivos executando comandos.
 
 ***
 
@@ -46,7 +46,7 @@ Para poder trabalhar com facilidade no terminal é importante conhecer alguns co
   $ pwd
   /Users/lupo/exemplo
   ```
-* `touch`: Cria um arquivo em branco se não existe ou atualizar a data de modificação se existir.
+* `touch`: Cria um arquivo em branco se não existe, ou atualiza a data de modificação se existir.
   ```sh
   touch README.md
   touch index.js .gitignore
@@ -110,13 +110,13 @@ Para poder trabalhar com facilidade no terminal é importante conhecer alguns co
 
 Cada vez que apertamos as teclas _enter_ estamos pedindo ao terminal que execute a linha que escrevemos até aquele momento. É importante entender que todo comando é executado em um contexto (a pasta de onde estamos executando, as variáveis de ambiente, ...).
 
-## Entrada/Saída/Pipes/Redirecionamento
+## Entrada/Saída/Pipes/Redirecionamento;
 
-## Processos
+## Processos;
 
-## Variáveis de ambiente
+## Variáveis de ambiente;
 
-## Comandos comuns
+## Comandos comuns.
 
 Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias de linha de comando, é recomendável você se habituar com alguns comandos comuns (além dos programas que já conhecemos, como `git`, `node`, `npm`, ...). Aqui temos alguns exemplos de comandos úteis:
 
@@ -133,11 +133,11 @@ Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias 
 
 ## Outros temas de interesse
 
-Neste curso não temos intenção de aprofundar em Bash ou na shell de UNIX, mas se você tiver curiosidade (ou necessidade) de aprender um pouco mais te recomendaos ler sobre **entrada e saída** de comandos (**stdin**, **stdout**, **stderr**), **processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...), **variáveis de ambiente**, ...
+Neste curso não temos intenção de aprofundar em Bash ou na shell de UNIX, mas se você tiver curiosidade (ou necessidade) de aprender um pouco mais te recomendamos ler sobre **entrada e saída** de comandos (**stdin**, **stdout**, **stderr**), **processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...), **variáveis de ambiente**, ...
 
 ## Personalização
 
-Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de trabalho, com sua própria imagem de fundo, atalhos, ... os shells também permitem um grande quantidade de personalização. Os detalhes de como personalizar seu shell estão fora do escopo deste curso, mas convidamos você a explorar o seguinte:
+Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de trabalho com sua própria imagem de fundo, atalhos, ... os shells também permitem uma grande quantidade de personalização. Os detalhes de como personalizar seu shell estão fora do escopo deste curso, mas convidamos você a explorar o seguinte:
 
 * `.profile`
 * `.bashrc`

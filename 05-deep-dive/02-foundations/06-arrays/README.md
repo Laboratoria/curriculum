@@ -8,7 +8,7 @@
 
 Um vetor é uma coleção de valores acessados por meio de índices (número naturais iniciando com 0). Os valores são chamados _array elements_ (elementos do vetor). A maneira mais fácil de criar um vetor é por meio de um vetor literal. Este enumera os vetores do elemento e usa posição especifica seu índice implicitamente.
 
-Como primeiro exemplo, criaremos um vetor `arr` com um vetor literar e acessaremos seus elementos:
+Como primeiro exemplo, criaremos um vetor `arr` com um vetor literal e acessaremos seus elementos:
 
 ```js
 > var arr = [ 'a', 'b', 'c' ]; // vetor literal

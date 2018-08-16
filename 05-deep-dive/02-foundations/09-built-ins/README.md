@@ -12,9 +12,9 @@ Em JavaScript, tudo o que não é uma string, um número, true, false, null ou u
 
 Dado que um objeto também ocupa espaço de memória: em que se parecem e em que são diferentes um objeto de uma variável?
 
-Consideraremos que as variáveis são entidades elementares: um número um caractere, um valor verdadeiro ou falso; enquanto que os objetos são entidades complexas que podem estar formadas por muita informação. Mas ambos ocupam o mesmo: um espaço de memória (que pode ser maior ou menor).
+Consideraremos que as variáveis são entidades elementares: um número, um caractere, um valor verdadeiro ou falso; enquanto que os objetos são entidades complexas que podem estar formadas por muita informação. Mas ambos ocupam o mesmo: um espaço de memória (que pode ser maior ou menor).
 
-Existem alguns objetos especiais que podem ser considerados como _classes_ predefinidas JavaScript (como a classe Date para manipulação de datas, a classe RegExp para manipulação de expressões regulares e busca de padrões de texto e a classe Error para armazenar informação relacionada a erros e outros).
+Existem alguns objetos especiais que podem ser considerados como _classes_ predefinidas JavaScript (como a classe Date para manipulação de datas, a classe RegExp para manipulação de expressões regulares e busca de padrões de texto, e a classe Error para armazenar informação relacionada a erros e outros).
 
 Estes objetos representam basicamente funcionalidades ampliadas ou incorporadas à própria linguagem que nos permitirão manipular, entre outras coisas, estruturas de dados e novas utilidades. A seguir veremos algumas delas.
 
@@ -47,7 +47,7 @@ O objeto ou classe de objetos `Boolean` inclui as variáveis booleanas ou lógic
 ```js
 let booleano = new Boolean();
 ```
-Dependendo do valor do parâmetros que passamos dentro do parêntesis, o valor retornado será `true` ou `false`. Se passamos diretamente os valores `true` ou `false`, serão retornados esses valores. Se não passamos nenhum valor ou passamos como valor o número 0 ou uma cadeia de texto vazia, retornará `false`. Nos demais casos retornará `true`. O objeto `Boolean` não tem propriedades e métodos próprios. Possiu somente as propriedades e métodos herdados do objeto `Object`, o qual veremos mais adiante.
+Dependendo do valor do parâmetro que passamos dentro do parêntesis, o valor retornado será `true` ou `false`. Se passamos diretamente os valores `true` ou `false`, serão retornados esses valores. Se não passamos nenhum valor ou passamos como valor o número 0 ou uma cadeia de texto vazia, retornará `false`. Nos demais casos retornará `true`. O objeto `Boolean` não tem propriedades e métodos próprios. Possui somente as propriedades e métodos herdados do objeto `Object`, o qual veremos mais adiante.
 
 ## O objeto `Function`
 
@@ -93,4 +93,4 @@ Para efetuar as buscas e substituições, este objeto possui vários métodos, a
 O objeto `Object` é o qual está em um nível superior de hierarquia e do qual derivam todos os demais objetos de JavaScript. Para tal, permite criar novas classes de objetos. Seus métodos e propriedades são herdados pelos demais objetos JavaScript. Alguns deles já vimos anteriormente e outros explicaremos mais detalhadamente:
 
 * Os métodos são: `.toString();` o qual retorna sempre uma cadeia de texto com o nome do objeto (por exemplo transforma `true` em "true")  e `valueOf()` o qual dependendo do objeto devolve um valor ou outro, embora quase sempre seja o próprio objeto.
-* Suas propriedades são `constructor` e `prototype`, as quais veremos mais adinate quando olharmos com mais detalhes o objeto `Object`.
+* Suas propriedades são `constructor` e `prototype`, as quais veremos mais adiante quando olharmos com mais detalhes o objeto `Object`.

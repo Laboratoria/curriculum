@@ -6,8 +6,8 @@
 
 ## Objetivos de aprendizagem
 
-* Que todas tenham node (>= v8.0.0) e npm (>= v5.0.0) instalados
-* Habituar-se com a execução de scripts usando node
+* Que todas tenham node (>= v8.0.0) e npm (>= v5.0.0) instalados;
+* Habituar-se com a execução de scripts usando node.
 
 ***
 

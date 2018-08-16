@@ -23,7 +23,7 @@ function foo() {
 
 Aqui, o _direct scope_ (escopo direto) de `x` é a função `foo`. Esta variável poderá ser acessada de dentro do corpo da função `foo`, mas não fora dela.
 
-Tradicionalmente, em JavaScript só poderiámos criar um novo escopo ou âmbito criando uma nova função. Mais a frente nesta lição, veremos como `let` e `const` introduzem o conceito de _block scope_ em ES6.
+Tradicionalmente, em JavaScript só poderíamos criar um novo escopo ou âmbito criando uma nova função. Mais a frente nesta lição, veremos como `let` e `const` introduzem o conceito de _block scope_ em ES6.
 
 ### Lexical scoping
 
@@ -68,8 +68,8 @@ Dentro da função `f`, a variável `x` é sombreada pela variável local `x`.
 
 As declarações em nível de bloco são aquelas que declaram variáveis inacessíveis fora do âmbito de um bloco determinado. Os âmbitos de bloco, também chamados âmbitos léxicos, são criados:
 
-1. Dentro de uma função
-2. Dentro de um bloco (indicado pelo caracteres { })
+1. Dentro de uma função;
+2. Dentro de um bloco (indicado pelo caracteres { }).
 
 ## Diferença entre contexto e alcance
 
@@ -77,9 +77,9 @@ Cada invocação de função tem tanto um alcance quanto um contexto associados.
 
 ### Alcance de variáveis
 
-As variáveis podem ser declaradas com **alcance local** ou **alcance global**, os quais estabelecem sua acessibilidade de diferentes alcannces em tempo de execução. Qualquer variável definida como global será acessível em tempo de execução de qualquer alcance, já que terá sido declarada fora do corpo de uma função.
+As variáveis podem ser declaradas com **alcance local** ou **alcance global**, os quais estabelecem sua acessibilidade de diferentes alcances em tempo de execução. Qualquer variável definida como global será acessível em tempo de execução de qualquer alcance, já que terá sido declarada fora do corpo de uma função.
 
-Por outro lado, as variáveis locais existem somente dentro do corpo de uma função. O alcance local de uma variável só é definido a partir do corpo da função que a contém, já que JavaScript até agora não permitir definir um alcance local dentro de uma condição `if`, blocos `switch`, ou iterações `for` e `while`.
+Por outro lado, as variáveis locais existem somente dentro do corpo de uma função. O alcance local de uma variável só é definido a partir do corpo da função que a contém, já que JavaScript até agora não permite definir um alcance local dentro de uma condição `if`, blocos `switch`, ou iterações `for` e `while`.
 
 ## Declaração de variáveis de âmbito local: `let`
 
@@ -146,13 +146,13 @@ Vejamos um exemplo:
 })();
 ```
 
-Neste exemplo vemos como desde o momento em que delcaramos a constante `HELLO`, seu valor fica protegido e o interpretador disparará um erro ao tentar modificá-la.
+Neste exemplo vemos como desde o momento em que declaramos a constante `HELLO`, seu valor fica protegido e o interpretador disparará um erro ao tentar modificá-la.
 
 ```js
 (function () {
   const PI;
   PI = 3.15;
-  // Dará ERROR, já que você precisa atribuir um valor na declaração
+  // Dará ERROR, já que você precisa atribuir um valor na declaração.
 })();
 ```
 

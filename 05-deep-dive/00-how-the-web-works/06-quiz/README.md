@@ -18,10 +18,10 @@
 
 #### Opções
 
-1. HTML
-2. Microsoft Word
-3. PDF
-4. Texto plano
+1. HTML.
+2. Microsoft Word.
+3. PDF.
+4. Texto plano.
 
 <solution style="display:none;">1</solution>
 
@@ -29,11 +29,11 @@
 
 #### Opções
 
-1. Texto plano
-2. HTML
-3. Imagens
-4. Vídeos
-5. Música
+1. Texto plano.
+2. HTML.
+3. Imagens.
+4. Vídeos.
+5. Música.
 
 <solution style="display:none;">1, 2, 3, 4, 5</solution>
 
@@ -41,10 +41,10 @@
 
 #### Opções
 
-1. É o principal protocolo da web
-2. Computadores que hospedan os arquivos que compõe a web
-3. A maior rede de computadores do mundo
-4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
+1. É o principal protocolo da web.
+2. Computadores que hospedam os arquivos que compõe a web.
+3. A maior rede de computadores do mundo.
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web.
 
 <solution style="display:none;">4</solution>
 
@@ -52,10 +52,10 @@
 
 #### Opções
 
-1. É o principal protocolo da web
-2. Computadores que hospedan os arquivos que compõe a web
-3. A maior rede de computadores do mundo
-4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
+1. É o principal protocolo da web.
+2. Computadores que hospedam os arquivos que compõe a web.
+3. A maior rede de computadores do mundo.
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web.
 
 <solution style="display:none;">3</solution>
 
@@ -63,10 +63,10 @@
 
 #### Opções
 
-1. É o principal protocolo da web
-2. Computadores que hospedan os arquivos que compõe a web
-3. A maior rede de computadores do mundo
-4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
+1. É o principal protocolo da web.
+2. Computadores que hospedam os arquivos que compõe a web.
+3. A maior rede de computadores do mundo.
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web.
 
 <solution style="display:none;">1</solution>
 
@@ -74,10 +74,10 @@
 
 #### Opções
 
-1. É o principal protocolo da web
-2. Computadores que hospedan os arquivos que compõe a web
-3. A maior rede de computadores do mundo
-4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web
+1. É o principal protocolo da web.
+2. Computadores que hospedam os arquivos que compõe a web.
+3. A maior rede de computadores do mundo.
+4. Um programa que é executado em seu computador para mostrar arquivos encontrados na web.
 
 <solution style="display:none;">2</solution>
 
@@ -98,10 +98,10 @@
 
 #### Opções
 
-1. Batman
-2. s
-3. page
-4. 2
+1. Batman.
+2. s.
+3. page.
+4. 2.
 
 <solution style="display:none;">1</solution>
 
@@ -188,7 +188,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 15) Qual método HTTP é o mais usado para requisita um documento do servidor?
+### 15) Qual método HTTP é o mais usado para requisitar um documento do servidor?
 
 #### Opções
 
@@ -203,9 +203,9 @@
 
 #### Opções
 
-1. Sua página do Facebook
-2. O logotipo da Laboratoria
-3. A página principal de seu blog
-4. Os resultados de uma busca do Google
+1. Sua página do Facebook.
+2. O logotipo da Laboratória.
+3. A página principal de seu blog.
+4. Os resultados de uma busca do Google.
 
 <solution style="display:none;">1, 3, 4</solution>

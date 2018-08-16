@@ -10,7 +10,7 @@ Já aprendemos JavaScript e portanto, já sabemos como manipular elementos do DO
 
 * `$.fn.html`: Obtém ou estabelece o conteúdo HTML de um elemento.
 
-* `$.fn.text`: Obtém ou estabelece o conteúdo de texto do elemento; em case de ser passado como argumento um código HTML, este é ignorado.
+* `$.fn.text`: Obtém ou estabelece o conteúdo de texto do elemento; em caso de ser passado como argumento um código HTML, este é ignorado.
 
 * `$.fn.attr`: Obtém ou estabelece o valor de um determinado atributo.
 
@@ -26,7 +26,7 @@ Já aprendemos JavaScript e portanto, já sabemos como manipular elementos do DO
 
 * `$.fn.append`: Adiciona texto ou código HTML ao final do elemento selecionado.
 
-* `$.fn.prepend`: Adiciona textou o código HTML ao início do elemento selecionado.
+* `$.fn.prepend`: Adiciona texto o código HTML ao início do elemento selecionado.
 
 * `$.fn.remove`: é utilizado para remover por completo os elementos.
 

@@ -6,7 +6,7 @@
 
 ***
 
-Depois de um tempo trabalhando com jQuery é frequente que comecemos a ter funções de JavaScript próprias que sempre usamos. Uma boa forma de integrar tais pedaços de código em jQuery é criar uma biblioteca com um plugun, de maneira que a partir desse momento poderemos importar a biblioteca em nossos projetos e ela estará sempre disponível.Os desenvolvedores de jQuery têm definida uma API e uma lista de boas práticas que deveremos seguir quando criarmos um plugin.
+Depois de um tempo trabalhando com jQuery é frequente que comecemos a ter funções de JavaScript próprias que sempre usamos. Uma boa forma de integrar tais pedaços de código em jQuery é criar uma biblioteca com um plugin, de maneira que a partir desse momento poderemos importar a biblioteca em nossos projetos e ela estará sempre disponível. Os desenvolvedores de jQuery têm definida uma API e uma lista de boas práticas que deveremos seguir quando criarmos um plugin.
 
 ## Criação de um método
 
@@ -14,11 +14,11 @@ Criar um método que se integra com jQuey é tão fácil como adicionar uma fun�
 
 ```js
 jQuery.fn.nomeDoPlugin = function (args) {
-  // Código a executar pelo plugin
+  // Código a executar pelo plugin.
 }
 ```
 
-Também é possível substituir o objeto jQuery por o objeto dólar($) se incluímos a criação do plugin de uma função de invocação imedita (IIFE - *Immediately Invoked Function Expression*) na qual mapeamos o objeto jQuery ao símbolo.
+Também é possível substituir o objeto jQuery por o objeto dólar($) se incluímos a criação do plugin de uma função de invocação imediata (IIFE - *Immediately Invoked Function Expression*) na qual mapeamos o objeto jQuery ao símbolo.
 
 ```js
 (function ($) {
@@ -27,7 +27,7 @@ Também é possível substituir o objeto jQuery por o objeto dólar($) se inclu�
   };
 })(jQuery);
 ```
-É importante mencionar que no escopo imediato da aplicação do plugin, a palavra chave `this` faz referência ao objeto de jQuery e não ao objeto nativo do DOM, de maneira que não é necessário encapsulá-lo como se faz ao usuá-lo, por exemplo, em um *callback*. Isto é, usaremos `this` no lugar de `$(this)` e ainda assim teremos acesso aos métodos de jQuery.
+É importante mencionar que no escopo imediato da aplicação do plugin, a palavra chave `this` faz referência ao objeto de jQuery e não ao objeto nativo do DOM, de maneira que não é necessário encapsulá-lo como se faz ao usá-lo, por exemplo, em um *callback*. Isto é, usaremos `this` no lugar de `$(this)` e ainda assim teremos acesso aos métodos de jQuery.
 
 ## Invocação do plugin
 

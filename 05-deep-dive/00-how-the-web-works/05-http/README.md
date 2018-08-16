@@ -11,11 +11,11 @@
 Nesta unidade aprenderemos:
 
 - O que é **HTTP** e **HTTPS**
-- Como funcionam e para que servem
+- Como funcionam e para que servem.
 
 ## Por que são importantes?
 
-> Tecnicament, a web é somente uma pequena parte da internet. Porém, é a única parte que as pessoas utilizam sem terem conta que o que estão utilizando é a web.
+> Tecnicamente, a web é somente uma pequena parte da internet. Porém, é a única parte que as pessoas utilizam sem terem conta que o que estão utilizando é a web.
 >
 > A web é a plataforma que você, desenvolvedora web, pode utilizar para publicar suas ideias ao mundo. É a linguagem comum entre os servidores e os clientes.
 >
@@ -34,7 +34,7 @@ pela Udacity](https://classroom.udacity.com/courses/ud897). Dessa forma, prepare
 
 Alguma vez você se perguntou como funciona a internet, no sentido de *transportar* a informação? Como ela sabe o que é que precisa ser exibido quando escrevo palavras no buscador? De qual maneira entende qual é a página que o navegador deve abrir?
 
-Para responder a estas perguntas e ter claro de como estamos falando, aqui temos um vídeo que tem uma pequena explicação concreta do que é o protocolo HTTP. Não se preocupe se ao final do vídeo não for possível ver bem a imagem do que é um "Diálogo HTTP" já que Manu em seu post explicar com mais detalhe esse protocolo e apresenta uma imagem muito mais clara.
+Para responder a estas perguntas e ter claro de como estamos falando, aqui temos um vídeo com uma pequena explicação concreta do que é o protocolo HTTP. Não se preocupe se ao final do vídeo não for possível ver bem a imagem do que é um "Diálogo HTTP", já que Manu em seu post explica com mais detalhe esse protocolo e apresenta uma imagem muito mais clara.
 
 [Vídeo](https://www.youtube.com/watch?v=iQkBZxBisO0)
 

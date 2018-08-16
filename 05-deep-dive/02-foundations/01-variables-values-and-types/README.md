@@ -24,13 +24,13 @@ A especificação da linguagem define os tipos:
 
 #### string
 
-O tipo `string` de Javascript é utilizado para representar dados textuais o cadeias de caracteres. É um conjunto de elementos de valores inteiros de 16 bits sem sinal. Cada elemento ocupa uma posição na `string`. O primeiro elemento está no índice 0, o próximo está no índice 1 e assim por diante. O comprimento de uma `string` é o número de elementos que ela possui.
+O tipo `string` de Javascript é utilizado para representar dados textuais e cadeias de caracteres. É um conjunto de elementos de valores inteiros de 16 bits sem sinal. Cada elemento ocupa uma posição na `string`. O primeiro elemento está no índice 0, o próximo está no índice 1 e assim por diante. O comprimento de uma `string` é o número de elementos que ela possui.
 
 #### number
 
 De acordo com o padrão ECMAScript, só existe um tipo numérico: o valor de _dupla precisão_ de 64-bits IEEE 754 (um número entre -(253 -1) e 253 -1). Não existe um tipo específico para os números inteiros. Além de ser capaz de armazenar números com ponto flutuante, o tipo número possui três valores simbólicos: `+Infinity`, `-Infinity` e `NaN` (Not A Number ou Não É Um Número).
 
-Para comparar valores maiores ou menores que `+/-Infinity`, você pode usar as constantes `Number.MAX_VALUE` ou `Number.MIN_VALUE` e a partir de `ES6` também é possível revisar se um número está no intervalo de ponto flutuante de dupla precisão usando `Number.isSafeInteger()` assim como `Number.MAX_SAFE_INTEGER` e `Number.MIN_SAFE_INTEGER`. Fora deste intervalo os número em JavaScript não não são seguros para manipular.
+Para comparar valores maiores ou menores que `+/-Infinity`, você pode usar as constantes `Number.MAX_VALUE` ou `Number.MIN_VALUE` e a partir de `ES6` também é possível revisar se um número está no intervalo de ponto flutuante de dupla precisão usando `Number.isSafeInteger()` assim como `Number.MAX_SAFE_INTEGER` e `Number.MIN_SAFE_INTEGER`. Fora deste intervalo os número em JavaScript não são seguros para manipular.
 
 O tipo número só tem um valor inteiro que conta com duas representações: 0 é representado como -0 e +0 ("0" é um apelido de +0). Isso quase não possui nenhum impacto. Por exemplo, +0 === -0 é verdadeiro. Porém é possível verificar isso quando se divide por zero.
 
@@ -88,7 +88,7 @@ let obj = { nome: 'Sebastião' };
 
 O nome da variável é instanciado no seu escopo e ele faz referência ao objeto em memória, contendo uma lista de suas propriedades e que, por sua vez, fazer referência ao local de memória onde estão armazenados os valores.
 
-Agora, se atribuirmos `obj` a outra variável, o objetoao qual se faz referência não será copiado. O que vai acontecer é que a nova variável é outra referência ao mesmo objeto.
+Agora, se atribuirmos `obj` a outra variável, o objeto ao qual se faz referência não será copiado. O que vai acontecer é que a nova variável é outra referência ao mesmo objeto.
 
 ```js
 let obj2 = obj;
@@ -101,7 +101,7 @@ obj2.nome = 'Xavier';
 console.log(obj.nombre); // Xavier
 ```
 
-Como vimos nem tudo em JavaScript é um objeto, mas todos os valores se relacionam por meio de referências/ponteiros. Ter um entendimento sólido de como funcionam os diferentes tipos permitirá que nós entendamos como trabalhar com nossos valoes, sem termos mutações inesperadas.
+Como vimos nem tudo em JavaScript é um objeto, mas todos os valores se relacionam por meio de referências/ponteiros. Ter um entendimento sólido de como funcionam os diferentes tipos permitirá que nós entendamos como trabalhar com nossos valores, sem termos mutações inesperadas.
 
 Um dos que processos que todas fazemos enquanto programamos diariamente é comparar valores: se eles são iguais, diferentes, maiores, menores, etc., para poder realizar operações com eles. 
 
@@ -128,9 +128,9 @@ Uma das coisas que torna esse mecanismo complexo é a `coerção`, a qual conver
 Se não entendermos este mecanismo podemos produzir alguns resultados inesperados sem saber porque aconteceu desta maneira.
 
 ```js
-let numero = '24';              // string
-let explicita = Number(numero); // number
-let implicita = numero * 2;        // numero agora se usa como number
+let número = '24';              // string
+let explicita = Number(número); // number
+let implicita = número * 2;        // número agora se usa como number
 ```
 
 Existe valores que são implicitamente convertidos a `false`. São eles:

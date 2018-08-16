@@ -6,9 +6,9 @@
 
 ## Objetivos de aprendizagem
 
-* Que todas tenham o git instalado
-* Que todas tenham uma conta ativa e configurada no GitHub
-* Que todas tenham acesso aos repositórios necessários para o curso
+* Que todas tenham o git instalado;
+* Que todas tenham uma conta ativa e configurada no GitHub;
+* Que todas tenham acesso aos repositórios necessários para o curso.
 
 ***
 

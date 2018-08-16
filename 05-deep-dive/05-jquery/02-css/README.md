@@ -6,14 +6,14 @@
 
 ***
 
-jQuery inclui uma maneira útil de obter e estabelecer propriedades `CSS` aos elementos. As propriedades `CSS` que incluem como separador um hífen, em JavaScript devem ser transformadas para o estilo *CamelCase*. Por exemplo, quando é ela é utilizada como propriedade de um método, o estilo `CSS` `font-size` deverá ser informado como `fontSize`. Porém, esta regra não é aplicada quando passamos o nome da propriedade `CSS` para o método `$.fn.css`. Neste caso, os dois formatos (em *CamelCase* ou com o hífen) funcionarão.
+jQuery inclui uma maneira útil de obter e estabelecer propriedades `CSS` aos elementos. As propriedades `CSS` que incluem como separador um hífen, em JavaScript devem ser transformadas para o estilo *CamelCase*. Por exemplo, quando ela é utilizada como propriedade de um método, o estilo `CSS` `font-size` deverá ser informado como `fontSize`. Porém, esta regra não é aplicada quando passamos o nome da propriedade `CSS` para o método `$.fn.css`. Neste caso, os dois formatos (em *CamelCase* ou com o hífen) funcionarão.
 
 ## Obter propriedades CSS
 
 ```js
 $('h1').css('fontSize'); // retorna uma cadeia de caracteres como "19px"
 $('h1').css('font-size'); // também funciona
-Estabelecer propeiedades CSS
+Estabelecer propriedades CSS
 // estabelece uma propriedade individual CSS
 $('h1').css('fontSize', '100px');
 // estabelece múltiplas propriedades CSS
@@ -24,7 +24,7 @@ Note que o estilo do argumento utilizado na segunda linha do exemplo é um objet
 
 ## Utilizar classes para aplicar estilos CSS
 
-Para obter valores dos estilos aplicados a um elemeto, o método `$.fn.css` é muito útil, porém sua utilização como método estabelecedor deve ser evitada (já que, para aplicar estilos a um elemento, é possível fazer diretamente no `CSS`). Em seu lugar, o ideal é escever regras `CSS` que sejam aplicadas a classes que descrevam os diferentes estados visuais dos elementos e em seguida mudar a classe do elemento para aplicar o estilo que se deseja mostrar.
+Para obter valores dos estilos aplicados a um elemento, o método `$.fn.css` é muito útil, porém sua utilização como método estabelecedor deve ser evitada (já que, para aplicar estilos a um elemento, é possível fazer diretamente no `CSS`). Em seu lugar, o ideal é escrever regras `CSS` que sejam aplicadas a classes que descrevam os diferentes estados visuais dos elementos e em seguida mudar a classe do elemento para aplicar o estilo que se deseja mostrar.
 
 ## Trabalhar com classes
 

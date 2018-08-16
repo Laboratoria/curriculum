@@ -10,10 +10,10 @@
 
 Esta unidade é uma introdução à web. Nosso objetivo é ter claro alguns conceitos sobre:
 
-- O que é a WWW (World Wide Web)
-- Quais são os componentes da web
-- O que é HTTP
-- O que é uma URL
+- O que é a WWW (World Wide Web);
+- Quais são os componentes da web;
+- O que é HTTP;
+- O que é uma URL;
 - No que nos ajuda entender isso para desenvolver um Web App.
 
 ## Guia de perguntas e conceitos chave

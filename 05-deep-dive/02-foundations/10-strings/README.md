@@ -10,8 +10,8 @@ Com ECMAScript 6 foram dadas algumas respostas a algumas necessidades mais bási
 
 ## Sintaxe
 
-O construtor de um modelo de texto é invocado delimitando a string com o caracter de **acento grave:** (\`). Ou seja, antes de ES6 seria:
-El constructor de una plantilla de texto se invoca delimitando el string con el
+O construtor de um modelo de texto é invocado delimitando a string com o caractere de **acento grave:** (\`). Ou seja, antes de ES6 seria:
+
 
 ```js
 // ES5

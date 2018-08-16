@@ -55,7 +55,7 @@ describe('makeVowelsUpperCase()', () => {
 });
 ```
 
-Como ponto de partida para a implementação, por enquanto simplesmete criamos um arquivo com o nome `makeVowelsUpperCase.js` na mesma pasta onde você criou o arquivo anterior com os testes. Neste arquivo por enquanto só vamos declarar uma função que recebe um argumento e retorna o argumento tal como o recebeu.
+Como ponto de partida para a implementação, por enquanto simplesmente criamos um arquivo com o nome `makeVowelsUpperCase.js` na mesma pasta onde você criou o arquivo anterior com os testes. Neste arquivo por enquanto só vamos declarar uma função que recebe um argumento e retorna o argumento tal como o recebeu.
 
 ```js
 const makeVowelsUpperCase = function (string) {
@@ -140,7 +140,7 @@ Isto nos mostra que nossos testes foram executados, mas a implementação atual 
 
 Já estamos prontas para atribuir-lhe o trabalho de implementar a função com uma colega, a qual terá clara qual a intenção da função e seu comportamento esperado. Os testes permitirão saber se a implementação se adequa aos requerimentos.
 
-Continuemos imaginando... digamos que alguns dias se passara e Pepita, uma colega, envia-nos uma implementação de`makeVowelsUpperCase` para que revisemos. Antes de sequer lermos o código, primeiro vamos executar os testes. Tenha certeza de substituir o código no arquivo `makeVowelsUpperCase.js` com o enviado por Pepita:
+Continuemos imaginando... digamos que alguns dias se passará e Pepita, uma colega, envia-nos uma implementação de `makeVowelsUpperCase` para que revisemos. Antes de sequer lermos o código, primeiro vamos executar os testes. Tenha certeza de substituir o código no arquivo `makeVowelsUpperCase.js` com o enviado por Pepita:
 
 ```js
 const isVowel = function (char) {
@@ -178,11 +178,12 @@ Parece que o código de Pepita passa em todos os testes :tada:
 
 ***
 
-Mas aqui não termina a história... mais uns dias se passaram, o código de Pepita já está em produção e recebemos um chamado de um _bug_: as vogais com acento não estão sendo trocadas por maiúsculas! Como temos testes para esta função, podemos escrever rapidamente um novo teste para replicar e confimar o problema relatado, assim que adicionamos o seguinte teste em nosso arquivo `makeVowelsUpperCase.spec.js`:
+Mas aqui não termina a história... mais uns dias se passaram, o código de Pepita já está em produção e recebemos um chamado de um _bug_: as vogais com acento não estão sendo trocadas por maiúsculas! Como temos testes para esta função, podemos escrever rapidamente um novo teste para replicar e confirmar o problema relatado, assim que adicionamos o seguinte teste em nosso arquivo `makeVowelsUpperCase.spec.js`:
 
 ```js
+
 it('Deveria converter vogais com acento', () => {
-  assert.equal(makeVowelsUpperCase('como estás?'), 'cOmO EstÁs?');
+  assert.equal(makeVowelsUpperCase('como está?'), 'cOmO EstÁ?');
 });
 ```
 

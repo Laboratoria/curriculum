@@ -10,7 +10,7 @@
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
-Veremos com profundidade o tema das funções, aproveitando que JavaScript é fortemente influenciada pela programação funcional em seu projeto e oferece características importantes como atribuir funções a uma variável, passar como parâmetro de outra função, trocar o escopo de variáveis, atribuis como valor uma propriedade de objeto, etc.
+Veremos com profundidade o tema das funções, aproveitando que JavaScript é fortemente influenciada pela programação funcional em seu projeto e oferece características importantes como atribuir funções a uma variável, passar como parâmetro de outra função, trocar o escopo de variáveis, atribuir como valor uma propriedade de objeto, etc.
 
 As funções são blocos de construção de aplicações que englobam múltiplas sentenças de código. São particularmente importantes em JavaScript porque suportam características como `first-class functions`, `functions as objects`, `runtime function definition` e outras que veremos nesta lição.
 
@@ -79,7 +79,7 @@ Você pode chamar uma função diretamente como vimos até o momento. Aqui um ex
 id('hello');
 ```
 
-Por conveção, os nomes destas funções _normais_ começam com letra minúscula seguindo o estilo **lowerCamelCase**.
+Por convenção, os nomes destas funções _normais_ começam com letra minúscula seguindo o estilo **lowerCamelCase**.
 
 ### Construtor
 
@@ -99,11 +99,11 @@ Você pode armazenar uma função em uma propriedade de um objeto, o que o conve
 obj.method();
 ```
 
-Por conveção, os nomes dos métodos seguem o estilo das funções normais (_lowerCamelCase_).
+Por convenção, os nomes dos métodos seguem o estilo das funções normais (_lowerCamelCase_).
 
 ## Terminologia: "Parâmetro" vs. "Argumento"
 
-Os termos `parâmetro` e `argumento` são frequentemene usados para se referirem à mesma coisa já que é possível entender ao que se referem. Contudo, a seguir mostramos uma regra para diferenciá-los.
+Os termos `parâmetro` e `argumento` são frequentemente usados para se referirem à mesma coisa já que é possível entender ao que se referem. Contudo, a seguir mostramos uma regra para diferenciá-los.
 
 * **Parâmetros** são utilizados para definir uma função: No exemplo a seguir, `param1` e `param2` são parâmetros:
 
@@ -195,7 +195,7 @@ var add = function(x, y) {
 };
 ```
 
-Em outras palavras, uma _function declaration_ consiste na palavra chave reservada _function_, uma lista de parâmetros para a função, delimitados por parêntesis e vírgulas, e a senteça JavaScript que define a função, delimitada por chaves.
+Em outras palavras, uma _function declaration_ consiste na palavra chave reservada _function_, uma lista de parâmetros para a função, delimitados por parêntesis e vírgulas, e a sentença JavaScript que define a função, delimitada por chaves.
 
 ### Function Constructor
 
@@ -210,9 +210,6 @@ No entanto, esta maneira de definir uma função é lenta e deixa o código entr
 ## Hoisting
 
 **Hoisting** significa "elevar para o início do escopo". _Function declarations_ são elevadas (_hoisted_) completamente, enquanto as declarações de variáveis só parcialmente. 
-significa "mover al inicio del ámbito". _Function declarations_ son
-elevadas (_hoisted_) completamente, mientras las declaraciones de variables solo
-parcialmente.
 
 _Function declarations_ são completamente elevadas. Isso permite chamar uma função antes de sua declaração:
 
@@ -257,14 +254,14 @@ welcome = function welcome() {
 
 ### Diferenças entre _arrow functions_ e funções clássicas
 
-Uma das novidades mais interessantes de ES6 são as denominadas **funções seta**, ou *arrow functions*. As funções setas são, como seu nome indica, definidas por meio de uma nova sintaxe que utilizar uma "seta" (`=>`). As funções seta se comportam de maneira sensivelmente diferente das funções tradicionais de JavaScript. A seguir, algunas de suas diferenças:
+Uma das novidades mais interessantes de ES6 são as denominadas **funções seta**, ou *arrow functions*. As funções setas são, como seu nome indica, definidas por meio de uma nova sintaxe que utiliza uma "seta" (`=>`). As funções seta se comportam de maneira sensivelmente diferente das funções tradicionais de JavaScript. A seguir, algumas de suas diferenças:
 
 * **Não podem ser chamadas com `new`**: Como não possuem um método construtor, não podem ser executadas como construtores. As funções seta dispararão um erro se forem utilizadas com `new`.
 * **Não há protótipo**: Como não possuem construtor, tampouco é necessário um protótipo. Logo, não existirá a propriedade `prototype` e uma função seta.
 * **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e `new.target` dentro da função será o mesmo que na função tradicional (*non-arrow*) mais próxima.
-* **Não pode trocar `this`**: O valor de `hits` dentro da função seta permanece imutável ao longo de todo o ciclo de vida da função.
+* **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece imutável ao longo de todo o ciclo de vida da função.
 * **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a uma função seta mediante parâmetros nomeados e *rest parameters*.
-* **Não é possível duplicar parâmetros com o mesmo nombre**: Tanto no modo estricto como no não estricto, diferente das funções clássicas, que não permitem somente o modo estricto.
+* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo estricto como no não estricto, diferente das funções clássicas, que não permitem somente o modo estricto.
 
 ### Sintaxe
 
@@ -304,7 +301,7 @@ const greet = () => 'Olá, estrangeiro!';
 console.log(greet()); // Olá, estrangeiro!
 ```
 
-Se quisermos realizar operações mais complicadas, podemos usar chaves e definir um valor de retorna:
+Se quisermos realizar operações mais complicadas, podemos usar chaves e definir um valor de retorno:
 
 ```js
 const resize = ({x, y}, ratio) => {
@@ -317,7 +314,7 @@ const resize = ({x, y}, ratio) => {
 console.log(resize({x: 5, y: 15}, 100)); // { x: 500, y: 1500 }
 ```
 
-Uma função seta não cria um novo contexto. Uma de suas maiores fontes de erros em JavaScript vinha dada pela criação de diferentes contextos em uma função dependendo de quem a executa. Vejamos o exemplo a seguir:
+Uma função seta não cria um novo contexto. Uma de suas maiores fontes de erros em JavaScript acontecia pela criação de diferentes contextos em uma função dependendo de quem a executa. Vejamos o exemplo a seguir:
 
 ```js
 const randomWinner = function(drivers) {

@@ -18,8 +18,8 @@ São as propriedades normais em um objeto, isto é, as chaves e valores. _Names 
 
 ### Accesors (ou propriedades de acesso)
 
-São métodos especiais cuja invoncação parecem com propriedades de leitura e escrita. As propriedades normais são lugares de armazenamento para valores de propriedades. Os `acessors` permitem operar sobre os valores dessas propriedades. Também podem ser _propriedades virtuais_, se preferir.
+São métodos especiais cuja invocação parecem com propriedades de leitura e escrita. As propriedades normais são lugares de armazenamento para valores de propriedades. Os `acessors` permitem operar sobre os valores dessas propriedades. Também podem ser _propriedades virtuais_, se preferir.
 
 ### Internal properties
 
-Estas propriedades existem somente na especificação da linguagem ECMAScript. Não são diretamente acessíveis a partir do JavaScript, mas existem formas indiretas de acessá-las. As especificação escreve as chaves das propriedades internas entre colchetes [`[]`]. Por exemplo, `[[Prototype]]` armazena o protótipo de um objeto e pode ser lida por meio do método `Object.getPrototypeOf()`.
+Estas propriedades existem somente na especificação da linguagem ECMAScript. Não são diretamente acessíveis a partir do JavaScript, mas existem formas indiretas de acessá-las. As especificações escrevem as chaves das propriedades internas entre colchetes [`[]`]. Por exemplo, `[[Prototype]]` armazena o protótipo de um objeto e pode ser lida por meio do método `Object.getPrototypeOf()`.
