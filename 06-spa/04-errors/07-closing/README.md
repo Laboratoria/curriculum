@@ -1,19 +1,19 @@
-# Cierre
+# Encarramento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Resumen
+## Resumo
 
-Llegamos al final de la unidad ;-)
+Chegamos ao fim dessa unidade ;-)
 
-## Respondamos juntxs las preguntas de la apertura
+## Vamos responder juntas às perguntas da abertura
 
-* Qué es el modo estricto en JavaScript
-* Qué es un `Error` y tipos de errores
-* Cómo usar `try...catch` para manejar errores
-* Cómo manejar errores en callbacks
-* Cómo manejar errores en promesas
+* O que é o modo estrito em JavaScript
+* O que é um `Error` e tipos de erros
+* Como usar `try...catch` para tratar erros
+* Como tratar erros em callbacks
+* Como tratar erros em promessas
