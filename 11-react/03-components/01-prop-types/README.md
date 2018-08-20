@@ -73,7 +73,7 @@ Header.defaultProps = {
 ```
 
 Y bien, ¿qué tipo de estructuras podemos definir con `PropTypes`? En sentido
-estricto, la que necesites. Veamos más ejemplos.
+estrito, la que necesites. Veamos más ejemplos.
 
 ```js
 const unBooleano = true;

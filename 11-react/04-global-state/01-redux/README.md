@@ -183,7 +183,7 @@ qué es lo que sucedió).**
 Esto garantiza que ni las vistas ni las llamadas a servicios externos puedas
 realizar cambios en el _state_ directamente. En lugar de eso, expresan su
 intención de cambiar el _state_ a través de un action. Como todo los cambios
-están centralizados, y suceden en un orden estricto, no tenemos que preocuparnos
+están centralizados, y suceden en un orden estrito, no tenemos que preocuparnos
 por casos raros o dificiles de reproducir.
 
 ```js

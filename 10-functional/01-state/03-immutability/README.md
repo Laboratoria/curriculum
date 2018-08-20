@@ -204,7 +204,7 @@ JavaScrit son mutables, a menos que sean congelados.
 
 Versiones recientes de JavaScript proveen el método `Object#freeze`, que dado un
 objeto o _array_, causará que las siguientes mutaciones fallen. En el caso de
-estar usando el modo estricto, la falla generará una excepción `TypeError`, de
+estar usando el modo estrito, la falla generará una excepción `TypeError`, de
 lo contrario, cualquier mutación fallará silenciosamente.
 
 El método `freeze` funciona como sigue a continuación:

@@ -87,7 +87,7 @@ No exemplo que vínhamos acompanhando, nossos testes dizem algo como: verifique 
 * retorna `true` quando é invocada com o valor `a` (`isVowel('a') === true`)
 * retorna `false` quando é invocada com o valor `b` (`isVowel('b') === false`)
 
-Esta lógica pode ser expressada usando `describe()` e `it()`. Com `describe()` vamos dizer o que estamos testando e com `it()` especificaremos quais características ou comportamentos queremos conprovar/afirmar.
+Esta lógica pode ser expressada usando `describe()` e `it()`. Com `describe()` vamos dizer o que estamos testando e com `it()` especificaremos quais características ou comportamentos queremos comprovar/afirmar.
 
 Reescrevamos nossos testes usando esta API (`describe` e `it`). O primeiro passo é indicar que queremos testar (a função `isVowel()` neste caso) usando uma chamada `describe()`, que recebe argumentos, um string informativo para lhe dar um nome ao grupo de testes e uma função que terá todos os testes e `asserts` para esta coisa que estamos testando.
 

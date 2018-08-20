@@ -26,7 +26,7 @@ Para criar um novo objeto de uma classe já definida, a forma comum é escrever:
 let novoObjeto = new ClasseObjeto();
 ```
 
-Em que `novoObjeto` é um objeto novo que criamos. `new` é o operador que indica ao JavaScript que estamos criando um novo objeto. `ClasseObjeto` é a classe a qual pertencerá o novo objeto. Dentro dos parêntesis, e dependendo do tipo de objeto, podemos colocar algumas características do objeto. Por exemplo, nos vetores podemos colocar os elementos que o compõe.
+Em que `novoObjeto` é um objeto novo que criamos. `new` é o operador que indica ao JavaScript que estamos criando um novo objeto. `ClasseObjeto` é a classe a qual pertencerá o novo objeto. Dentro dos parênteses, e dependendo do tipo de objeto, podemos colocar algumas características do objeto. Por exemplo, nos vetores podemos colocar os elementos que o compõe.
 
 Contudo não é a única forma de criar um objeto, já que dependendo da classe a que se refira, pode haver outras formas de criá-lo. Por exemplo, ao atribuir um valor a uma nova variável, podemos estar criando um objeto tipo número (Number) ou cadeia de texto (String). Os vetores também podem ser criados de várias maneiras.
 
@@ -47,11 +47,11 @@ O objeto ou classe de objetos `Boolean` inclui as variáveis booleanas ou lógic
 ```js
 let booleano = new Boolean();
 ```
-Dependendo do valor do parâmetro que passamos dentro do parêntesis, o valor retornado será `true` ou `false`. Se passamos diretamente os valores `true` ou `false`, serão retornados esses valores. Se não passamos nenhum valor ou passamos como valor o número 0 ou uma cadeia de texto vazia, retornará `false`. Nos demais casos retornará `true`. O objeto `Boolean` não tem propriedades e métodos próprios. Possui somente as propriedades e métodos herdados do objeto `Object`, o qual veremos mais adiante.
+Dependendo do valor do parâmetro que passamos dentro do parênteses, o valor retornado será `true` ou `false`. Se passamos diretamente os valores `true` ou `false`, serão retornados esses valores. Se não passamos nenhum valor ou passamos como valor o número 0 ou uma cadeia de texto vazia, retornará `false`. Nos demais casos retornará `true`. O objeto `Boolean` não tem propriedades e métodos próprios. Possui somente as propriedades e métodos herdados do objeto `Object`, o qual veremos mais adiante.
 
 ## O objeto `Function`
 
-As classes também são consideradas objetos em JavaScropt e se forma a partir da classe `Function`. Já vimos a forma mais comum de declará-las:
+As classes também são consideradas objetos em JavaScript e se forma a partir da classe `Function`. Já vimos a forma mais comum de declará-las:
 
 ```js
 function minhaFuncao() { }
@@ -63,7 +63,7 @@ Também podemos criá-la da forma geral para construir objetos:
 const minhaFuncao = new Function();
 ```
 
-Tal como ocorre na forma comum de declará-las, dentro do parêntesis escrevemos, se houver necessidade, os parâmetros que a função precisa e o corpo da função. Não possui propriedades nem métodos próprios, exceto os herdados da classe `Object` que veremos mais adiante.
+Tal como ocorre na forma comum de declará-las, dentro do parênteses escrevemos, se houver necessidade, os parâmetros que a função precisa e o corpo da função. Não possui propriedades nem métodos próprios, exceto os herdados da classe `Object` que veremos mais adiante.
 
 ## O objeto `RegExp`
 
