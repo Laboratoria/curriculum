@@ -7,7 +7,7 @@
 
 Nesta seção praticaremos os seguintes exercícios:
 
-## [3. Objetos y comparação](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/02-structures.js)
+## [3. Objetos e comparação](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/02-structures.js)
 
 Comparação de objetos e estrutura aninhadas de objetos. Revisar que dois objetos são exatamente os mesmos.
 

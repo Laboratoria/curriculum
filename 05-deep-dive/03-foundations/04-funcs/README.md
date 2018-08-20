@@ -49,7 +49,7 @@ function id(x) {
 }
 ```
 
-A instruição `return` retorna um valor da função `id`. Você pode chamar uma função por meio de seu nome, seguida de seus `argumentos` entre parêntesis:
+A instrução `return` retorna um valor da função `id`. Você pode chamar uma função por meio de seu nome, seguida de seus `argumentos` entre parênteses:
 
 ```js
 // `>` emula o prompt que aparece no console do navegador
@@ -57,7 +57,7 @@ A instruição `return` retorna um valor da função `id`. Você pode chamar uma
 'hello'
 ```
 
-Se nada é retornado pela função, `undefined` é retornado (implícitamente):
+Se nada é retornado pela função, `undefined` é retornado (implicitamente):
 
 ```js
 > function f() { }
@@ -73,7 +73,7 @@ Uma vez definida uma função, ela pode realizar vários papéis:
 
 ### Nonmethod function (função normal)
 
-Você pode chamar uma função diretamente como vimos até o momento. Aqui um exemplo de invocação:
+Você pode chamar uma função diretamente como vimos até o momento. Aqui um exemplo de chamada:
 
 ```js
 id('hello');
@@ -195,7 +195,7 @@ var add = function(x, y) {
 };
 ```
 
-Em outras palavras, uma _function declaration_ consiste na palavra chave reservada _function_, uma lista de parâmetros para a função, delimitados por parêntesis e vírgulas, e a sentença JavaScript que define a função, delimitada por chaves.
+Em outras palavras, uma _function declaration_ consiste na palavra chave reservada _function_, uma lista de parâmetros para a função, delimitados por parênteses e vírgulas, e a sentença JavaScript que define a função, delimitada por chaves.
 
 ### Function Constructor
 
@@ -261,7 +261,7 @@ Uma das novidades mais interessantes de ES6 são as denominadas **funções seta
 * **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e `new.target` dentro da função será o mesmo que na função tradicional (*non-arrow*) mais próxima.
 * **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece imutável ao longo de todo o ciclo de vida da função.
 * **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a uma função seta mediante parâmetros nomeados e *rest parameters*.
-* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo estricto como no não estricto, diferente das funções clássicas, que não permitem somente o modo estricto.
+* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo estrito como no não estrito, diferente das funções clássicas, que não permitem somente o modo estrito.
 
 ### Sintaxe
 
@@ -340,7 +340,7 @@ const F1Race = {
 F1Race.init();
 ```
 
-`F1Race` é um objeto que inicia uma corrida de Fórmula 1 por meio de sua função `init()`. Após um segundo, será executada a função `randowWinner()`, que a partir de um arrya de pilotos, escolherá um aleatoriamente.
+`F1Race` é um objeto que inicia uma corrida de Fórmula 1 por meio de sua função `init()`. Após um segundo, será executada a função `randowWinner()`, que a partir de um array de pilotos, escolherá um aleatoriamente.
 
 Quando executamos a função `init()`, o programa escreve no console o seguinte:
 

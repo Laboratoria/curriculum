@@ -43,6 +43,11 @@ rentar es una gran opción económica, desarrollando las siguientes característ
 
 ## Syllabus
 
+### Unidade 01: [Como a internet funciona](00-how-the-web-works)
+
+Esta é uma introdução à internet. O objetivo é ter claro alguns conceitos sobre o que é a WWW (*World Wide Web*), o que é uma URL, HTTP e em que entender isso nos ajuda no momento de realizar uma aplicação web.
+
+
 ### Unidad 01: [¿Qué hay de nuevo en HTML5?](01-html-5)
 
 En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
@@ -82,12 +87,6 @@ Referencia:
 [![Asynchronous Requests](https://img.youtube.com/vi/P5JlebbqzTQ/0.jpg)](https://youtu.be/P5JlebbqzTQ)
 
 
-### Unidad 04: [Manejo de errores](04-errors)
-
-El manejo de errores es importante dentro de todo desarrollo de software, y más
-aún cuando se piensa en construir un producto que se espera sea reusable y
-mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
-de nuestro código.
 
 ### Unidad 05: [A jugar con Web APIs!](05-working-with-apis)
 

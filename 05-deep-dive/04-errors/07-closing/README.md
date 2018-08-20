@@ -1,4 +1,4 @@
-# Encarramento
+# Encerramento
 
 * Tipo: `leitura`
 * Formato: `individual`

@@ -230,7 +230,7 @@ original que usa _curry_:
 
 Nuestra pequeña función `curryIt` no puede manejar todos los casos de borde,
 como los parámetros faltantes u opcionales, pero hace un trabajo razonable
-siempre y cuando permanezcamos estrictos sobre la sintaxis para pasar
+siempre y cuando permanezcamos estritos sobre la sintaxis para pasar
 argumentos.
 
 Algunas bibliotecas funcionales de JavaScript como [Ramda][] tienen funciones de

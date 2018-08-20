@@ -19,11 +19,11 @@ Corrigir os seguintes `snippets` de código para que passem nos testes como devi
 Corrigir os seguintes `snippets` de código para que passem nos testes como devido:
 
 * [Exercícios básicos](http://tddbin.com/#?kata=es6/language/template-strings/basics)
-* [Exercícios multilínea](http://tddbin.com/#?kata=es6/language/template-strings/multiline)
+* [Exercícios multilinha](http://tddbin.com/#?kata=es6/language/template-strings/multiline)
 
 ## [Code Challenges](https://github.com/Laboratoria/ec-js-deep-dive-exercises/tree/es6)
 
 Desenvolver os sequintes exercícios:
 
-* Entedento o âmbito
+* Entendendo o âmbito
 * A equipe

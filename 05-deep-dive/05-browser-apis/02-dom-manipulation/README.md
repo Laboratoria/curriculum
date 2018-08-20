@@ -25,7 +25,7 @@ A função `getElementsByTagName(nomeDaTag)` obtém todos os elementos da págin
 O exemplo seguinte mostra como obter todos os parágrafos de uma página XHTML:
 
 ```js
-var parágrafos = document.getElementsByTagName("p");
+var paragrafos = document.getElementsByTagName("p");
 ```
 O valor que indicamos antes do nome da função (neste caso, `document`) é o nó a partir do qual será feita a busca dos elementos. Neste caso, como queremos obter todos os parágrafos da página, utilizamos o valor `document` como ponto de partida da busca.
 
@@ -34,10 +34,10 @@ O valor que a função retorna é um vetor com todos os nós que cumprem a condi
 Desta maneira, podemos obter o primeiro parágrafo da página da seguinte forma:
 
 ```js
-var primeiroParagrafo = parágrafos[0];
+var primeiroParagrafo = paragrafos[0];
 
-for(var i=0; i<parágrafos.length; i++) {
-  var parrafo = parágrafos[i];
+for(var i = 0; i < paragrafos.length; i++) {
+  var paragrafo = paragrafos[i];
 }
 ```
 
@@ -47,7 +47,7 @@ A função `getElementsByTagName()` pode ser aplicada de forma recursiva sobre c
 
 ```js
 var paragrafo = document.getElementsByTagName("p");
-var primeiroParagrafo = parrafos[0];
+var primeiroParagrafo = paragrafo[0];
 var links = primerParrafo.getElementsByTagName("a");
 ```
 
