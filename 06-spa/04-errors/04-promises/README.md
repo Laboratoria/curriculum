@@ -1,24 +1,17 @@
-# Errores en promesas
+# Erros em promessas
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-A partir de ECMAScript 6, JavaScript incluye objetos `Promise` que nos permiten
-controlar el flujo de operaciones diferidas y asíncronas.
+A partir do ECMAScript 6, o JavaScript incluiu objetos `Promise` que nos permitem controlar o fluxo de operações síncronas e assíncronas.
 
-Al igual que con los _callbacks_, a la hora de implementar _promesas_ también
-evitamos arrojar errores con `throw`. En el caso de las promesas tenemos una
-serie de funciones dedicadas especícamente a manejar errores. Desde el punto de
-vista de la implementación de _promesas_, tenemos la función `reject` y en el
-caso del consumo de promesas tenemos el método `promise.catch()`, así como la
-opción de un segundo argumento al método `promise.then(onSuccess, onError)`.
+Assim como com as _callbacks_, quando vamos implementar _promessas_ também evitamos lançar erros com `throw`. No caso das promessas temos uma série de funções dedicadas especialmente ao tratamento de erros. Do ponto de vista da implementação de _promessas_, temos a função `reject` e no caso do consumo de promessas temos o mẽtodo `promise.catch()`, assim como a opção de um segundo argumento do método `promise.then(onSuccess, onError)`.
 
-Continuando con el ejemplo de la lectura anterior, modifiquemos nuestra
-implementación de `getLatestNodeInfo()` para que retorne una promesa en vez de
-usar un simple _callback_:
+Continuando com o exemplo da leitura anterior, modificamos nossa implementação de `getLatestNodeInfo()` para que retorne uma promessa ao invés de usar uma _callback_ simples:
+
 
 ```js
 const http = require('http');
@@ -47,46 +40,35 @@ const getLatestNodeInfo = () => new Promise((resolve, reject) => {
   }).on('error', reject);
 });
 ```
+Nesta nova implementação nós substituímos as chamadas a `cb()` (a _callback_ que recebíamos como argumento) com chamadas para `reject()` (nos casos de erro) e `resolve()` (em caso de êxito). Isto no permite agora chamar nossa função `getLatestNodeInfo()` da seguinte maneira:
 
-En esta nueva implementación hemos reemplazado la invocaciones a `cb()` (el
-_callback_ que recibíamos como argumento) con invocaciones a `reject()` (en los
-casos de error) y `resolve()` (en caso de que completemos la tarea con éxito).
-Esto nos permitiría ahora invocar nuestra función `getLatestNodeInfo()` de la
-siguiente manera:
 
 ```js
 getLatestNodeInfo()
-  .then(data => console.log(`Versión más reciente de Node.js: ${data.version}`))
+  .then(data => console.log(`Versão mais recente de Node.js: ${data.version}`))
   .catch(err => console.error(err));
 ```
+Da mesma forma, poderíamos escrever:
 
-De forma equivalente podríamos haber escrito:
 
 ```js
 getLatestNodeInfo().then(
-  data => console.log(`Versión más reciente de Node.js: ${data.version}`),
+  data => console.log(`Versão mais recente de Node.js: ${data.version}`),
   err => console.error(err)
 );
 ```
 
-## Manejo de errores en promesas encadenadas
+## Tratamento de erros em promessas encadeadas
 
-Una de las grandes ventajas de las promesas es que podemos encadenarlas. Esto
-quiere decir que cuando invocamos el método `promise.then()` podemos retornar
+Uma das grandes vantagens das promessas é que podemos encadeá-las. Isso quer dizer que, quando invocamos o método `promise.then()`, podemos retornar:
 
-* o un valor al que resuelve la promesa
-* u otra promesa, que resolverá a otro valor
+* ou um valor que resolve a promessa
+* ou outra promessa, que resolverá outro valor
 
-El método `promise.then()` a su vez retorna una promesa sobre la cual podemos
-volver a invocar `then` y recibe como argumento el valor al que haya resuelto
-el `then` anterior.
+O método`promise.then()`, por sua vez, retorna uma promessa sobre a qual podemos invocar novamente `then` e recebe como argumento o valor resultado do `then` anterior.
 
-Para ilustrar este concepto, modifiquemos otra vez nuestra implementación de
-`getLatestNodeInfo()` para que haga un poco menos de trabajo, y en vez de
-parsear el texto recibido con `JSON.parse` y de ahí seleccionar la última
-versión, hagamos que directamente devuelva el texto recibido. Aprovechamos a
-cambiarle el nombre a la función, ya que ahora ya no devuelve la última version
-sino info sobre todos los releases (en texto JSON sin parsear):
+Para ilustrar este conceito, modifiquemos outra vez nossa implementação de `getLatestNodeInfo()` para que faça um pouco menos de trabalho, e ao invés de parsear o texto recebido com `JSON.parse` e de aí selecionar a última versão, façamos com que devolva diretamente o texto recebido. Aproveitamos para mudar o nome da função, que agora não devolve a última versão, mas sim informações sobre todos os releases (em JSON sem parsear):
+
 
 ```js
 const getNodeReleases = () => new Promise((resolve, reject) => {
@@ -106,8 +88,7 @@ const getNodeReleases = () => new Promise((resolve, reject) => {
   }).on('error', reject);
 });
 ```
-
-Invoquemos nuestra nueva función `getNodeReleases()`:
+Vamos chamar nossa nova função `getNodeReleases()`:
 
 ```js
 getNodeReleases()
@@ -115,9 +96,8 @@ getNodeReleases()
   .catch(err => console.error(err));
 ```
 
-Si no ocurre ningún error de red, esto debería resultar en que se invoque la
-función pasada a `.then()` con el texto recibido del request y no la pasada a
-`catch()`. El output debería ser algo así:
+Se não ocorrer nenhum erro de rede, isso deve resultar na invocação da função passada para `.then ()` com o texto recebido do request e não o último `catch ()`. A saída deve ser algo como isto:
+
 
 ```text
 [
@@ -127,27 +107,21 @@ función pasada a `.then()` con el texto recibido del request y no la pasada a
 ]
 ```
 
-Ahora para recuperar la funcionalidad que teníamos antes, podemos encadenar
-invocaciones a `.then()`, dónde cada una representa una transformación, que
-puede ser síncrona (simplemente retornando un valor) o asíncrona (retornando una
-promesa).
+Agora, para recuperar a funcionalidade que tínhamos antes, podemos encadear chamadas a `.then()`, onde cada uma representa uma transformação, que pode ser síncrona (simplesmente retornando um valor) ou assíncrona (retornando uma promessa).
+
 
 ```js
 getNodeReleases()
   .then(data => JSON.parse(data))
   .then(data => data.shift())
-  .then(data => console.log(`Versión más reciente de Node.js: ${data.version}`))
+  .then(data => console.log(`Versão mais recente de Node.js: ${data.version}`))
   .catch(err => console.error(err));
 ```
 
-Lo interesante desde el punto de vista del manejo de errores es que solo
-necesitamos un `.catch()`. Si cualquiera de los `.then()` retorna un error una
-promesa que resuelva a un error, directamente pasamos al `.catch()` (se hace
-un _corto circuito_ que impide que los siguientes `.then()` se ejecuten).
+O interessante, do ponto de vista do tratamento de erros, é que só é necessário um `.catch()`. Se qualquer um dos `.then ()` retornar um erro à promessa que resolve um erro, diretamente passamos para `.catch ()` (é feito um _curto-circuito_ que impede o seguinte `.then ()` de executar).
 
-Para completar el ejemplo, re-implementemos la función `getLatestNodeInfo()`,
-pero esta vez haciendo uso de nuestra nueva función `getNodeReleases()` y
-encadenando promesas.
+Para completar o exemplo, implantaremos novamente a função `getLatestNodeInfo()`, porém dessa vez fazendo uso de nessa nova função `getNodeReleases()` e encadeando promessas.
+
 
 ```js
 const getLatestNodeInfo = () =>
@@ -156,10 +130,8 @@ const getLatestNodeInfo = () =>
     .then(data => data.shift());
 ```
 
-Esta nueva implementación simplemente encadena un par de transformaciones a
-través de promesas que resuelven directamente a un valor y retorna una promesa
-nueva, lo cual nos va a permitir usar la función `getLatestNodeInfo()` de la
-misma manera que en el primer ejemplo de esta lectura:
+Esta nova implementação simplesmente encadeia algumas transformações através de promessas que resolvem diretamente um valor e retornam uma promessa nova, o que nos permitirá usar a função `getLatestNodeInfo ()` da mesma forma que no primeiro exemplo desta leitura:
+
 
 ```js
 getLatestNodeInfo()
@@ -169,6 +141,6 @@ getLatestNodeInfo()
 
 ***
 
-## Lecturas complemenentarias
+## Leituras complementares
 
 * [Promises - Jake Archibald - Google Developers](https://developers.google.com/web/fundamentals/primers/promises)
