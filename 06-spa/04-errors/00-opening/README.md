@@ -1,32 +1,23 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## ¿Por qué aprender esto?
+## Por que aprender?
 
-El manejo de errores quizás no sea el tema más sexy dentro de la programación,
-pero es sin duda uno de los más importantes. Un buen manejo de errores no solo
-nos garantiza mejor uso de nuestro código sino que nos debería ayudar a entender
-excepciones, dónde ocurrieron y por qué.
+O tratamento de erros talvez não seja o tema mais sexy dentro da programação, porém é sem dúvida um dos mais importantes. O bom tratamento dos erros não apenas garante um uso melhor do código, como também nos ajuda a entender exceções, onde estão ocorrendo e porquê.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos-chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil ter uma ideia dos conceitos mais importantes do que vamos aprender e dos temas centrais onde devemos prestar mais atenção.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao término dessa unidade. Utilize estas perguntas como guia para orientar seus esforços de aprendizagem. Volte a elas constantemente à medida em que avança para validar se está avançando na direção correta. Elas devem servir como um "checklist" que você marca enquanto vai avançando.
 
-* Qué es el modo estricto en JavaScript
-* Qué es un `Error` y tipos de errores
-* Cómo usar `try...catch` para manejar errores
-* Cómo manejar errores en callbacks
-* Cómo manejar errores en promesas
+* O que é o modo estrito no JavaScript
+* O que é um `Error` e tipos de erros
+* Como usar `try...catch` para tratar erros
+* Como tratar erros em callbacks
+* Como tratar erros em promessas (promises)
