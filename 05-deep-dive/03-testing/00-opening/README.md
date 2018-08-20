@@ -1,54 +1,37 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## ¿Por qué aprender esto?
+## Por que aprender isto?
 
-Testear tu código es importante para garantizar que funcione como un espera,
-pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
-a diseñar mejor nuestro código.
+Testar seu código é importante para garantir que funcione conforme o esperado, mas não somente isso. Escrever testes desde o início auxilia a criar e projetar códigos melhores.
 
-Escribimos tests para:
+Escrevemos testes para:
 
-1. Encontrar problemas en la implementación
-2. Para evitar que problemas/bugs lleguen a producción
-3. Para probar/demostrar que un programa no tiene fallas
-4. Para averiguar la fiabilidad de nuestro código
-5. Para asegurar que un _producto_ se comporte como esperamos
-6. Para detectar problemas pronto, lo que permite reducir el costo de
-   modificaciones
+1. Encontrar problemas na codificação;
+2. Evitar que problemas/bugs cheguem à produção;
+3. Para provar/demonstrar que um programa não possui falhas;
+4. Para verificar a confiabilidade de nosso código;
+5. Para garantir que um _produto_ se comporte como esperamos;
+6. Para detectar problemas rapidamente, o que permite reduzir o custo de modificações.
 
-En este curso pondremos especial énfasis en el diseño orientado a pruebas ([Test
-Driven Development - TDD](https://en.wikipedia.org/wiki/Test-driven_development)).
-En esta unidad podrás seguir los pasos necesarios para escribir tus primeros
-tests y entender el valor tan grande que aportan.
+Neste curso teremos uma ênfase especial no desenvolvimento orientado a testes ([Test Drive Development - TDD](https://pt.wikipedia.org/wiki/Test_Driven_Development)). Nesta unidade você poderá seguir os passos necessários para escrever seus primeiros testes e entender o valor inestimável que propiciam.
 
-A lo largo del curso usaremos tests no solo en el _proyecto final_ sino como
-herramienta para demostrar las diferentes características del lenguaje según
-vayamos avanzando.
+Ao longo do curso usaremos testes não somente no _projeto final_ mas também como ferramentas para demonstrar as diferentes características da linguagem conforme formos avançando.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Qué es un test?
-* Qué es un framework de testing?
-* Cómo escribir tests usando la interfaz BDD (`describe()`, `it()`, ...) de
-  `mocha`.
-* Cómo usar la librería standard de Node.js para aserciones con el módulo
-  `assert`.
-* Cómo usar las aserciones de `chai`.
-* Cómo correr tests en un entorno de navegador de forma automatizada con
-  `karma`.
+* O que é um teste?
+* O que é um *framework* de *testing*?
+* Como escrever testes usando a interface BDD (`describe()`, `it()`, ...) do `mocha`?
+* Como usar a biblioteca padrão de Node.js para atribuições com o módulo `assert`?
+* Como usar as *asserts* do `chai`?
+* Como executar testes no ambiente do navegador de forma automatizada com `karma`?

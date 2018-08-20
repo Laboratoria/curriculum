@@ -1,46 +1,32 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-En esta unidad veremos el entorno de desarrollo en que tendrás que desarrollar
-tu proyecto final de este curso (la librería). Veremos superficialmente temas
-de la [shell de UNIX](https://es.wikipedia.org/wiki/Shell_de_Unix),
-[git](https://git-scm.com/), [GitHub](https://github.com/),
-[Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/),
-[babel](https://babeljs.io/) y editores de texto.
+Nesta unidade veremos o ambiente de desenvolvimento que você terá que utilizar no seu projeto final deste curso (a biblioteca). Veremos superficialmente temas da [shell de UNIX](https://pt.wikipedia.org/wiki/Shell_do_Unix), [git](https://git-scm.com/), [GitHub](https://github.com/), [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/), [babel](https://babeljs.io/) e editores de texto.
 
-## ¿Por qué aprender esto?
+## Por que aprender isto?
 
-Todo proyecto de software se da en un entorno, en un _contexto_, que incluye
-el lenguaje de implementación, frameworks, herramientas, ... todo aquello que
-necesitamos para poder empezar a desarrollar nuestro proyecto.
+Todo projeto de software acontece em um ambiente, em um _contexto_, que inclui a linguagem de programação, *frameworks*, ferramentas..., tudo o que necessitamos para começar a desenvolver nosso projeto.
 
-El objetivo principal de esta unidad es que todas las alumnas queden con el
-entorno de desarrollo listo para empezar a trabajar en sus proyectos.
+O objetivo principal desta unidade é que todas as alunas tenham o ambiente de desenvolvimento pronto para começar a trabalhar em seus projetos.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Qué es la shell de UNIX?
-* Cómo ejecutar comandos en el terminal
-* Como _navegar_ el sistema de archivo en el terminal
-* Qué es un _fork_ y como _forkear_ un repo en GitHub
-* Cómo clonar un repo remoto
-* Uso general de los comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
-* Cómo instalar y agregar Node.js a tu `PATH`
-* Cómo instalar/desinstalar paquetes usando `npm`
-* Cómo transpilar código JavaScript usando `babel`
-* Cómo configurar tu editor de texto para sacarle mejor partido
+* O que é a *shell* do UNIX?
+* Como executar comandos no terminal?
+* Como _navegar_ pelo sistema de arquivos no terminal?
+* O que é um _fork_ e como _criar um fork_ em um repositório do GitHub?
+* Como clonar um repositório remoto?
+* Uso geral dos comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
+* Como instalar e adicionar o Node.js na sua variável `PATH`?
+* Como instalar/desinstalar pacotes usando `npm`?
+* Como transpilar código JavaScript usando `babel`?
+* Como configurar seu editor de texto para conseguir o melhor desempenho?

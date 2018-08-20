@@ -1,25 +1,21 @@
-# Ejercicios
+# Exercícios
 
-* Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `30min`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 
-En esta sección practicaremos los siguientes ejercicios:
+Nesta seção praticaremos os seguintes exercícios:
 
 ## [1. Blog](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/dom/dom/00-blog.js)
 
-Dado un arreglo de objetos, donde cada objeto es un post de un blog de
-tecnología, implementar la funcionalidad de mostrar cada uno de los posts en el
-HTML.
+Dado um vetor de objetos, no qual cada objeto é um post de um blog de tecnologia, implementar a funcionalidade de mostrar cada um dos posts no HTML.
 
 ## [2. Blog Tags](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/dom/dom/01-blog-tags.js)
 
-Dado una colección de posts, implementar un filtro que al dar click sobre un
-tag, solo muestre los posts que lo contenga.
+Dada uma coleção de posts, implementar um filtro no qual ao dar o click sobre uma tag, mostre somente o post que o contenha.
 
 ## [3. Blog Search](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/dom/dom/02-blog-search.js)
 
-Implementa la funcionalidad de buscar los posts con títulos relacionados a un
-criterio de búsqueda ingresado por el usuario.
+Implemente a funcionalidade de buscar os posts com títulos relacionados a um critério de busca digitado pelo usuário.

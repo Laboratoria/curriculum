@@ -1,38 +1,25 @@
 # Objetos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-Todos los objetos en JavaScript son mapas (diccionarios) de strings a valores.
-Una entrada (llave, valor) en un objeto es llamada una _propiedad_. La llave de
-la propiedad es siempre una cadena de texto (string). El valor de una propiedad
-puede ser cualquier valor en JavaScript, incluido una función. Los _métodos_ son
-propiedades cuyo valor es una función.
+Todos os objetos em JavaScript são mapas (dicionários) de strings e valores. Uma entrada (chave, valor) em um objeto é chamada uma _propriedade_. A chave da propriedade é sempre uma cadeia de caracteres (string). O valor da propriedade pode ser qualquer valor em JavaScript, incluindo uma função. Os _métodos_ são propriedades cujo valor é uma função.
 
-## Tipos de propiedades
+## Tipos de propriedades
 
-Existen 3 tipos de propiedades:
+Existem 3 tipos de propriedades:
 
-### Properties (o propiedades de datos con nombre)
+### Properties (ou propriedades de dados com nome)
 
-Son las propiedades normales en un objeto, eso es, las llaves y valores. _Named
-data properties_ (propiedades de datos con nombre) incluyen métodos. Esto es el
-tipo de propiedad más común.
+São as propriedades normais em um objeto, isto é, as chaves e valores. _Names data properties_ (propriedades de dados com nome) incluem métodos. Esta é o tipo de propriedade mais comum.
 
-### Accesors (o propiedades de acceso)
+### Accesors (ou propriedades de acesso)
 
-Son métodos especiales que su invocación luce como propiedades de lectura y
-escritura. Las propiedades normales son lugares de almacenamiento para valorespm
-de propiedades; los `accesors` te permiten operar sobre los valores de esas
-propiedades. También puede ser _propiedades virtuales_ si se desea.
+São métodos especiais cuja invocação parecem com propriedades de leitura e escrita. As propriedades normais são lugares de armazenamento para valores de propriedades. Os `acessors` permitem operar sobre os valores dessas propriedades. Também podem ser _propriedades virtuais_, se preferir.
 
 ### Internal properties
 
-Estas propiedades existen solo en la especificación del lenguaje ECMAScript. No
-son directamente accesibles desde JavaScript, pero existen formas indirectas de
-hacerlo. La especificación escribe las llaves de las propiedades internas entre
-corchetes (`[]`). Por ejemplo, `[[Prototype]]` almacena el prototipo de un
-objeto y se puede leer a través del método `Object.getPrototypeOf()`.
+Estas propriedades existem somente na especificação da linguagem ECMAScript. Não são diretamente acessíveis a partir do JavaScript, mas existem formas indiretas de acessá-las. As especificações escrevem as chaves das propriedades internas entre colchetes [`[]`]. Por exemplo, `[[Prototype]]` armazena o protótipo de um objeto e pode ser lida por meio do método `Object.getPrototypeOf()`.

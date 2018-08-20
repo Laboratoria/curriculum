@@ -1,8 +1,8 @@
-# Variables, Tipos de datos y Operadores
+# Variáveis, Tipos de dados e Operadores
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -10,85 +10,51 @@
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
-Una de las características más particulares de JavaScript, es el comportamiento
-de los tipos de datos, porque conociendo su comportamiento nos permite entender
-como se comportan nuestros datos durante la ejecución.
+Uma das características mais marcantes de JavaScript, é o comportamento dos tipos dados, porque conhecendo seu comportamento é possível entender como se comportam nossos dados durante a execução.
 
-## ¿Qué es un tipo?
+## O que é um tipo?
 
-Básicamente los tipos definen el comportamiento que van a tener los datos.
+Basicamente os tipos definem o comportamento que os dados terão.
 
-> Un tipo es un conjunto integrado de características intrínsecas que
-identifican el comportamiento de un valor particular y lo distingue de otros
-valores, tanto para el motor (intérprete del lenguaje) y el desarrollador.
+> Um tipo é um conjunto integrado de características intrínsecas que identificam o comportamento de um valor particular e o distingue de outros valores, tanto para o motor (interpretador de linguagem) como para o desenvolvedor.
 
-### ¿Qué tipos existen?
+### Quais tipos existem?
 
-La especificación del lenguaje define los tipos:
+A especificação da linguagem define os tipos:
 
 #### string
 
-El tipo `string` de Javascript es usado para representar datos textuales o
-cadenas de caracteres. Es un conjunto de "elementos", de valores enteros sin
-signo de 16 bits. Cada elemento ocupa una posición en el `string`. El primer
-elemento está en el índice 0, el próximo está en el índice 1, y así
-sucesivamente. La longitud de un `string` es el número de elementos en ella.
+O tipo `string` de Javascript é utilizado para representar dados textuais e cadeias de caracteres. É um conjunto de elementos de valores inteiros de 16 bits sem sinal. Cada elemento ocupa uma posição na `string`. O primeiro elemento está no índice 0, o próximo está no índice 1 e assim por diante. O comprimento de uma `string` é o número de elementos que ela possui.
 
 #### number
 
-De acuerdo al standard ECMAScript, sólo existe un tipo numérico: el valor de
-_doble precisión_ de 64-bits IEEE 754 (un número entre -(253 -1) y 253 -1). No
-existe un tipo específico para los números enteros. Adicionalmente al ser capaz
-de representar números de coma flotante, el tipo número tiene tres valores
-simbólicos: `+Infinity`, `-Infinity` y `NaN` (Not A Number o No Es Un Número).
+De acordo com o padrão ECMAScript, só existe um tipo numérico: o valor de _dupla precisão_ de 64-bits IEEE 754 (um número entre -(253 -1) e 253 -1). Não existe um tipo específico para os números inteiros. Além de ser capaz de armazenar números com ponto flutuante, o tipo número possui três valores simbólicos: `+Infinity`, `-Infinity` e `NaN` (Not A Number ou Não É Um Número).
 
-Para comparar valores mayores o menores que `+/-Infinity`, puedes usar las
-constantes `Number.MAX_VALUE` o `Number.MIN_VALUE` y comenzando con `ES6`
-también es posible revisar si un número está en el rango de coma flotante de
-doble precisión usando `Number.isSafeInteger()` así como
-`Number.MAX_SAFE_INTEGER` y `Number.MIN_SAFE_INTEGER`. Fuera de este rango los
-números en javascript ya no son seguros de manipular.
+Para comparar valores maiores ou menores que `+/-Infinity`, você pode usar as constantes `Number.MAX_VALUE` ou `Number.MIN_VALUE` e a partir de `ES6` também é possível revisar se um número está no intervalo de ponto flutuante de dupla precisão usando `Number.isSafeInteger()` assim como `Number.MAX_SAFE_INTEGER` e `Number.MIN_SAFE_INTEGER`. Fora deste intervalo os número em JavaScript não são seguros para manipular.
 
-El tipo número sólo tiene un valor entero que cuenta con dos representaciones: 0
-es representado como -0 y +0. ("0" es un alias +0). Esto casi no tiene ningún
-impacto. Por ejemplo +0 === -0 es true. Sin embargo, es posible notar esto
-cuando se divide por cero.
+O tipo número só tem um valor inteiro que conta com duas representações: 0 é representado como -0 e +0 ("0" é um apelido de +0). Isso quase não possui nenhum impacto. Por exemplo, +0 === -0 é verdadeiro. Porém é possível verificar isso quando se divide por zero.
 
 #### boolean
 
-Boolean representa una entidad lógica y puede tener dos valores: `true`, y
-`false`.
+Boolean representa uma entidade lógica e pode ter dois valores: `true` e `false`.
 
 #### null
 
-El tipo `null` tiene exactamente un valor: `null`.
+O tipo `null` tem exatamente um valor: `null`.
 
 #### undefined
 
-Una variable a la cual no se le haya asignado valor tiene entonces el valor
-`undefined`.
+Uma variável a qual não tenhamos atribuído valor possui então o valor `undefined`.
 
 #### object
 
-En JavaScript los objetos pueden ser vistos como una colección de propiedades.
-Con la sintaxis literal de objetos, un limitado grupo de propiedades son
-inicializadas; luego pueden ser agregadas o eliminadas otras propiedades. Los
-valores de las propiedades pueden ser de cualquier tipo, incluyendo otros
-objetos lo cual permite construir estructuras de datos complejas. Las
-propiedades se identifican usando claves. Una clave es un valor `string` o
-`symbol`.
+Em JavaScript os objetos podem ser vistos como uma coleção de propriedades. Com a sintaxe literal de objetos, um grupo limitado de propriedades são inicializadas; em seguida podem ser adicionadas ou eliminadas outras propriedades. Os valores das propriedades podem ser de qualquer tipo, incluindo outros objetos, o que nos permite construir estruturas de dados complexas. As propriedades se identificam por uso de chaves. Uma chave é um valor `string` ou `symbol`.
 
 #### symbol
 
-El `symbol` es un nuevo tipo en JavaScript introducido en la versión de `ES6`.
-Un `symbol` es un valor primitivo único e inmutable y puede ser usado como la
-clave de una propiedad de un objeto. En algunos lenguajes de programación, los
-symbols son llamados átomos. Se pueden comparar con enumeraciones de nombres
-(`enum`) en C.
+O `symbol` é um novo tipo em JavaScript introduzido na versão `ES6`. Um `symbol` é um valor primitivo único e imutável e pode ser usado como a chave de uma propriedade de um objeto. Em algumas linguagens de programação, os símbolos são chamados átomos. Podem ser comparados com enumerações (`enum`) en C.
 
-Antes de continuar, es preciso decir que en JavaScript, las variables no tienen
-tipos, Los valores son quienes los tienen. Las variables pueden almacenar
-cualquier tipo de valor.
+Antes de continuar é preciso dizer que em JavaScript as variáveis não têm tipos. Os valores são os que têm. As variáveis podem armazenar qualquer tipo de valor.
 
 ### Primitive vs. Reference
 
@@ -96,66 +62,50 @@ cualquier tipo de valor.
 
 `string`, `number`, `boolean`, `null`, `undefined`.
 
-Entendamos el comportamiento de estos. Cuando definimos un valor primitivo:
+Entendamos o comportamento deles. Quando definimos um valor primitivo:
 
 ```js
-let variable = 'hola'; // string
+let variable = 'olá'; // string
 ```
 
-El nombre de la variable se instancia en su scope, y este nombre hace referencia
-a la ubicación en memoria, donde está almacenado el valor.
+O nome da variável é declarado no seu escopo e este nome faz referência a um endereço de memória, onde está armazenado o valor.
 
-Ahora, si asignamos esta variable a otra, el valor se copia, a otra posición en
-memoria, y cada variable apunta a una ubicación distinta.
+Agora, se atribuirmos esta variável a outra, o valor se copia para outra posição da memória e cada variável aponta para um endereço diferente.
 
-Este comportamiento, hace que si nosotros declaramos un valor primitivo dentro
-de una variable con const, será inmutable, ya que este no podrá ser reasignado.
+Este comportamento faz que se nós declararmos um valor primitivo dentro de uma variável com const, ele será imutável, já que não poderá ser reatribuído.
 
-#### Por referencia
+#### Por referência
 
 ##### object
 
-Los objetos definen subtipos, los cuales son: `String`, `Number`, `Boolean`,
-`Object`, `Function`, `Array`, `Date`, `RegExp`, `Error`.
+Os objetos definem subtipos, que são: `String`, `Number`, `Boolean`, `Object`, `Function`, `Array`, `Date`, `RegExp`, `Error`.
 
-Cuando definimos un objeto:
+Quando definimos um objeto:
 
 ```js
-let obj = { nombre: 'Sebastián' };
+let obj = { nome: 'Sebastião' };
 ```
 
-El nombre de la variable se instancia en su scope, y este hace referencia al
-objeto en memoria, este contiene una lista de sus propiedades, que a su vez
-hacen referencia a donde están almacenados los valores.
+O nome da variável é instanciado no seu escopo e ele faz referência ao objeto em memória, contendo uma lista de suas propriedades e que, por sua vez, fazer referência ao local de memória onde estão armazenados os valores.
 
-Ahora, si asignamos `obj` a otra variable, el objeto al que hace referencia no
-se va a copiar, lo que va a suceder, es que la nueva variable, es otra
-referencia al mismo objeto.
+Agora, se atribuirmos `obj` a outra variável, o objeto ao qual se faz referência não será copiado. O que vai acontecer é que a nova variável é outra referência ao mesmo objeto.
 
 ```js
 let obj2 = obj;
 ```
 
-Por eso, si cambiamos la propiedad nombre de `obj2`, ambas variables apuntar al
-mismo objeto, se va a cambiar también en `obj`.
+Por isso, se mudamos a propriedade _nome_ de `obj2`, como as duas variáveis apontam para o mesmo objeto, também será alterada a propriedade _nome_ em `obj`.
 
 ```js
-obj2.nombre = 'Javier';
-console.log(obj.nombre); // Javier
+obj2.nome = 'Xavier';
+console.log(obj.nome); // Xavier
 ```
 
-Como vimos no todo en JavaScript es un objeto, pero si todos los valores se
-relacionan a través de referencias/punteros, tener un entendimiento sólido de
-como funcionan los diferentes tipos nos va a permitir entender como trabajar
-con nuestros valores, sin llegar a tener mutaciones inesperadas.
+Como vimos nem tudo em JavaScript é um objeto, mas todos os valores se relacionam por meio de referências/ponteiros. Ter um entendimento sólido de como funcionam os diferentes tipos permitirá que nós entendamos como trabalhar com nossos valores, sem termos mutações inesperadas.
 
-Uno de los procesos que todos realizamos mientras programamos cada día es
-comparar valores, si estos son iguales, diferentes, mayores, menores, etc, para
-poder realizar acciones con estos.
+Um dos que processos que todas fazemos enquanto programamos diariamente é comparar valores: se eles são iguais, diferentes, maiores, menores, etc., para poder realizar operações com eles. 
 
-Muchas veces en JavaScript obtenemos resultados de estas comparaciones que no
-esperábamos y esto puede conducir a bugs en nuestro código, por esto es
-importante entender el algoritmo que establece el lenguaje para esto.
+Muita vezes em JavaScript obtermos resultados destas comparações que não esperávamos e isto pode levar a *bugs* em nosso código; por isso é importante entender o algoritmo que a linguagem estabelece para isso.
 
 ```js
 21 == '21'          // true
@@ -169,40 +119,33 @@ NaN === NaN         // false
 [22] > [21]         // true
 ```
 
-Vamos paso a paso y entendamos esto.
+Sigamos passo a passo para entendermos isso.
 
-Existen dos tipos principales de comparaciones: igualdades y desigualdades, el
-resultado de cualquiera de estas es un booleano (`true` o `false`) reflejando la
-relación entre los valores evaluados.
+Existem dois tipos principais de comparações: igualdades e desigualdades. O resultado de qualquer uma delas é um valor booleano (`true` o `false`) refletindo a relação entre os dois valores avaliados.
 
-Una de las cosas que hace complejo este mecanismo es la `coerción`, la cual
-convierte los tipos de datos según su contexto de uso (si es posible la
-conversión).
+Uma das coisas que torna esse mecanismo complexo é a `coerção`, a qual converte os tipos de dados de acordo com algum contexto de uso (se a conversão for possível).
 
-Si no se entiende este mecanismos se pueden producir algunos resultados
-inesperados sin saber porque sucede de esta manera.
+Se não entendermos este mecanismo podemos produzir alguns resultados inesperados sem saber porque aconteceu desta maneira.
 
 ```js
-let numero = '24';              // string
-let explicita = Number(numero); // number
-let implicita = numero * 2;        // numero ahora se usa como number
+let número = '24';              // string
+let explicita = Number(número); // number
+let implicita = número * 2;        // número agora se usa como number
 ```
 
-Existen valores que son implícitamente convertidos a false, estos son:
+Existe valores que são implicitamente convertidos a `false`. São eles:
 
 ```js
-'' // string vacio
+'' // string vazia
 0, -0, NaN
 null, undefined
 ```
+Outro mecanismo que utilizamos nas comparações durante a conversão de objetos para tipos primitivos é quando os comparamos com um valor primitivo.
 
-Otro mecanismo que se utiliza en las comparaciones en la conversión de objetos a
-primitivos, es cuando se les compara a estos con un valor primitivo.
+O mecanismo que se utiliza para realizar esta conversão é:
 
-El mecanismo que se sigue para realizar esta conversión es:
+* Se `.valueOf()` pode ser usado, é invocado e retorna um valor primitivo.
+* Se `.toString()` pode ser usado, é invocado e retorna um valor primitivo.
+* Nos outros casos, retorna um erro.
 
-* Si `.valueOf()` se puede usar, es llamado y devuelve un valor primitivo.
-* Si `.toString()` se puede usar, es llamado y devuelve un valor primitivo.
-* En otros casos devuelve un error.
-
-> Nota: El mecanismo que normalmente se utiliza es `.toString()`.
+> Nota: O mecanismo que é normalmente utilizado é `.toString()`.

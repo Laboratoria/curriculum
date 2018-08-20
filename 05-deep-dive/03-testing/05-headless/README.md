@@ -1,19 +1,14 @@
-# Test runners
+# *Test runners*
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 
-Ya hemos visto (superficialmente) como plantear tests, cómo implementar tests
-usando la interfaz BDD de `mocha`, cómo escribir aserciones, y como ejecutar los
-tests tanto en la línea de comando con Node.js como en el navegador.
+Já vimos (superficialmente) como projetar testes, como implementar testes usando a interface BDD do `mocha`, como escrever declarações, e como executar os testes tanto na linha de comando com Node.js como no navegador.
 
-Ahora vamos a ver cómo podemos ejecutar los tests en un navegador _headless_
-(PhantomJS) en este caso, lo cual nos va a permitir automatizar la ejecución de
-tests incluso en servidores y sistemas de CI donde no tenemos un entorno gráfico
-donde correr un navegador normal.
+Agora veremos como podemos executar os testes em um navegador _headless_ (PhantomJS), o qual nos permitirá automatizar a execução de testes inclusive em servidores e sistemas de CI nos quais não temos um ambiente gráfico como no navegador normal.
 
 ...
 

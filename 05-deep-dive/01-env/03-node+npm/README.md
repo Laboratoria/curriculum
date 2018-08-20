@@ -1,21 +1,18 @@
 # Node.js + npm
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-* Que todas tengan node (>= v8.0.0) y npm (>= v5.0.0) instalado
-* Familiarizarse con la ejecución de scripts usando node
+* Que todas tenham node (>= v8.0.0) e npm (>= v5.0.0) instalados;
+* Habituar-se com a execução de scripts usando node.
 
 ***
 
-Durante esta sesión nos aseguraremos de que todxs tengan `node` y `npm`, además
-que se familiaricen con node en el terminal.
+Durante esta sessão garantiremos que todas tenham `node` e `npm`, além de que se habituem com node no terminal.
 
-Lxs instructorxs harán ejemplos en vivo de instalación/desintalación de módulos
-usando npm.
+As instrutoras farão exemplos ao vivo de instalação/desinstalação de módulos usando npm.
 
-Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
-problemas de instalación y resolver dudas con respecto a npm.
+Durante a oficina as instrutoras estarão disponíveis para ajudar a resolver problemas de instalação e resolver dúvidas com relação ao npm.

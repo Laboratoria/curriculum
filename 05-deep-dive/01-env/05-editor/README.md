@@ -1,27 +1,19 @@
 # Editor de texto
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-> Definir los estilos de código nos ayudará mucho como equipo para trabajar bajo
-> estandares, podríamos tener estilos de código muy generales como por ejemplo:
-> Usar tabs para las indentaciones de todos los archivos o muy especificos como
-> usar 4 columnas de indentación solo para los archivos HTML, pero aplicarlos
-> manualmente será un dolor de cabeza constante porque tocará revisar
-> constantemente que estilos debemos aplicar a cada archivo y mantener informado
-> al equipo para que lo apliquen en sus respectivos IDE’s.
+> Definir os estilos de código nos ajudará muito como equipe para trabalhar com padrões. Poderíamos ter estilos de código muito genéricos como por exemplo:
+> Usar tabs para as indentações de todos os arquivos ou muito específico como usar 4 colunas de indentação somente para os arquivos HTML, mas aplicá-los manualmente será uma dor de cabeça constante porque precisaremos revisar constantemente que estilos devemos aplicar a cada arquivo e manter informada a equipe para apliquem esses estilos nos seus respectivos IDE's.
 >
-> ¡Pero calma! Para eso existe EditorConfig, para ayudarnos a automatizar y
-> centralizar los estilos de código, usarlo es tan sencillo como instalar el
-> plugin respectivo a nuestro IDE y agregar a nuestro proyecto un archivo
-> `.editorconfig` con todos los estilos de códigos que necesitemos.
+> Mas calma! Para isso existe o EditorConfig para ajudarmos a automatizar e centralizar os estilos de código. Utilizá-lo é simples como instalar um _plugin_ em nosso IDE e adicionar no nosso projeto um arquivo `.editorconfig` com todos os estilos que precisemos.
 >
-> Fuente: [Qué es .editorconfig y cómo usarlo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo)
+> Fonte: [O que é .editorconfig e como utilizá-lo](https://showmethecode.com.br/2017/03/29/editor-config/)
 
-Ejemplo de `.editorconfig`:
+Exemplo de `.editorconfig`:
 
 ```text
 root = true
@@ -34,6 +26,6 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
-## Lectura complementaria
+## leitura complementar
 
-[Qué es .editorconfig y cómo usarlo](https://frontendlabs.io/3311--editorconfig-que-es-y-como-usarlo).
+[O que é .editorconfig e como utilizá-lo](https://showmethecode.com.br/2017/03/29/editor-config/).

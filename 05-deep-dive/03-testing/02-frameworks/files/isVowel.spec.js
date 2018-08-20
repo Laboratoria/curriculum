@@ -1,10 +1,10 @@
-// Archivo `isVowel.spec.js`
+// Arquivo `isVowel.spec.js`
 
 const isVowel = require('./isVowel');
 
 describe('isVowel()', () => {
 
-  it('debería devolver true para letra a', () => {
+  it('Deveria retornar true para a letra a', () => {
     if (isVowel('a') !== true) {
       console.error('✗ fail');
     } else {
@@ -12,7 +12,7 @@ describe('isVowel()', () => {
     }
   });
 
-  it('debería devolver false para letra b', () => {
+  it('Debería retornar false para a letra b', () => {
     if (isVowel('b') !== false) {
       console.error('✗ fail');
     } else {

@@ -1,24 +1,24 @@
-# Cierre
+# Encerramento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Resumen
+## Resumo
 
-Llegamos al final de la unidad ;-)
+Chegamos ao final da unidade ;-)
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Qué es la shell de UNIX?
-* Cómo ejecutar comandos en el terminal
-* Como _navegar_ el sistema de archivo en el terminal
-* Qué es un _fork_ y como _forkear_ un repo en GitHub
-* Cómo clonar un repo remoto
-* Uso general de los comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
-* Cómo instalar y agregar Node.js a tu `PATH`
-* Cómo instalar/desinstalar paquetes usando `npm`
-* Cómo transpilar código JavaScript usando `babel`
-* Cómo configurar tu editor de texto para sacarle mejor partido
+* O que é a *shell* do UNIX?
+* Como executar comandos no terminal?
+* Como _navegar_ pelo sistema de arquivos no terminal?
+* O que é um _fork_ e como _criar um fork_ em um repositório do GitHub?
+* Como clonar um repositório remoto?
+* Uso geral dos comandos `commit`, `push`, `pull`, `branch`, `merge`, ...
+* Como instalar e adicionar o Node.js na sua variável `PATH`?
+* Como instalar/desinstalar pacotes usando `npm`?
+* Como transpilar código JavaScript usando `babel`?
+* Como configurar seu editor de texto para conseguir o melhor desempenho?

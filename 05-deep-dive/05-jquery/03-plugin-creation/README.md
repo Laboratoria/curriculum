@@ -1,53 +1,37 @@
-# Creación de Plugin
+# Criação de Plugin
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Tras un tiempo trabajando con jQuery es frecuente que empecemos a tener
-funciones de javascript propias que siempre usamos.
-Una buena forma de integrar dichos trozos de código en jQuery es crear una
-librería con un plugin, de forma que a partir de ese momento podremos importar
-la librería en nuestros proyectos y que este siempre disponible.
-Los desarrolladores de jQuery tienen definida una API y un listado de buenas
-prácticas que deberemos seguir a la hora de crear un plugin.
+Depois de um tempo trabalhando com jQuery é frequente que comecemos a ter funções de JavaScript próprias que sempre usamos. Uma boa forma de integrar tais pedaços de código em jQuery é criar uma biblioteca com um plugin, de maneira que a partir desse momento poderemos importar a biblioteca em nossos projetos e ela estará sempre disponível. Os desenvolvedores de jQuery têm definida uma API e uma lista de boas práticas que deveremos seguir quando criarmos um plugin.
 
-## Creación de un método
+## Criação de um método
 
-Crear un método que se integre con jQuery es tan fácil como añadir una función
-al objeto jQuery.fn de la siguiente manera.
+Criar um método que se integra com jQuey é tão fácil como adicionar uma função ao objeto jQuery.fn da seguinte maneira:
 
 ```js
-jQuery.fn.nombreDelPlugin = function (args) {
-  // Código a ejecutar por el plugin
+jQuery.fn.nomeDoPlugin = function (args) {
+  // Código a executar pelo plugin.
 }
 ```
 
-También se puede sustituir el objeto jQuery por el objeto dólar ($) si
-incluimos la creación del plugin en una función de invocación inmediata (IIFE
-– Immediately Invoked Function Expression) en la que mapeemos el objeto jQuery
-a dicho símbolo.
+Também é possível substituir o objeto jQuery por o objeto dólar($) se incluímos a criação do plugin de uma função de invocação imediata (IIFE - *Immediately Invoked Function Expression*) na qual mapeamos o objeto jQuery ao símbolo.
 
 ```js
 (function ($) {
-  $.fn.nombreDelPlugin = function (args) {
-    // Código a ejecutar por el plugin
+  $.fn.nomeDoPlugin = function (args) {
+    // Código a executar pelo plugin
   };
 })(jQuery);
 ```
+É importante mencionar que no escopo imediato da aplicação do plugin, a palavra chave `this` faz referência ao objeto de jQuery e não ao objeto nativo do DOM, de maneira que não é necessário encapsulá-lo como se faz ao usá-lo, por exemplo, em um *callback*. Isto é, usaremos `this` no lugar de `$(this)` e ainda assim teremos acesso aos métodos de jQuery.
 
-Sólo queda mencionar que en el ámbito inmediato de aplicación del plugin, la
-palabra clave this hace referencia al objeto de jQuery y no al objeto nativo
-del DOM, de forma que no es necesario encapsularlo como se hace al usarlo, por
-ejemplo, en un callback. Es decir, se usará this en lugar de $(this) y aun así
-tendremos acceso a los métodos de jQuery.
+## Invocação do plugin
 
-## Invocación del plugin
-
-Una vez que sabemos cómo se define el plugin es hora de escribir el código que
-se ejecutará cuando sea invocado.
+Uma vez que sabemos como se define o plugin, é hora de escrever o código que será executado quando ele for invocado.
 
 ```js
 (function ($) {
@@ -61,22 +45,16 @@ se ejecutará cuando sea invocado.
 })(jQuery);
 ```
 
-Este plugin devuelve la altura del elemento más alto entre los elementos
-coincidentes.
-Para invocarlo, la sintaxis es la misma que para cualquier otro método de
-jQuery.
+Este plugin retorna a altura do elemento mais alto entre os elementos coincidentes. Para invocá-lo, a sintaxe é a mesma que para qualquer outro método de jQuery.
 
 ```js
-//Esto devolverá la altura del div más alto del documento.
+//Isto devolverá a altura do div mais alto do documento.
 var tallest = $('div').maxHeight();
 ```
 
-## Mantener los métodos encadenables
+## Manter os métodos encadeáveis
 
-Por convenio, todos los métodos de jQuery devuelven el objeto desde el cual
-han sido llamados siempre que no necesiten devolver otro dato. Es aconsejable
-mantener este comportamiento en los plugins y hacer que devuelvan el objeto
-que los invoca.
+Por convenção, todos os métodos de jQuery retornam o objeto a partir do qual foi chamado sempre que não necessitem devolver outro dado. É aconselhável manter este comportamento nos plugins e fazer que devolvam o objeto que os invoca.
 
 ```js
 (function ($) {
@@ -86,22 +64,15 @@ que los invoca.
   };
 })(jQuery);
 ```
-
-Este plugin podría ser encadenado de la siguiente manera, haciendo que el
-segundo método siguiere afectando al objeto original.
+Este plugin poderia ser encadeado da seguinte maneira, fazendo o segundo método seguir afetando o objeto original.
 
 ```js
 $("div").setBackgroundRed().height(500);
 ```
 
-## Opciones en los plugins
+## Opções nos plugins
 
-Es recomendable que los plugins que necesiten parametrización no tengan un
-gran número de argumentos, sino que tengan como parámetro un único objeto JSON
-con todas las propiedades a establecer. De esta forma podremos definir una
-configuración por defecto y extenderla ($.extend) con las opciones
-especificadas por el usuario, sobreescribiendo sólo las propiedades que hayan
-sido especificadas.
+É recomendável que os plugins que precisem de parâmetros não tenham um grande número de argumentos, mas tenham como parâmetro um único objeto JSON com todas a propriedades necessárias. Desta forma poderemos definir uma configuração por padrão e extendê-la (`$.extend`) com as opções especificadas pelo usuário, sobrescrevendo somente as propriedades que tenham sido especificadas. 
 
 ```js
 (function ($) {
@@ -119,8 +90,7 @@ sido especificadas.
 $("div").customPlugin({ textSize : 26, textColor : "white" });
 ```
 
-Como resultado de esta invocación, la configuración resultante en el plugin
-sería la siguiente.
+Como resultado desta invocação, a configuração resultante no plugin seria a seguinte:
 
 ```css
 {
@@ -131,12 +101,9 @@ sería la siguiente.
 }
 ```
 
-## Espacios de nombres
+## Tamanho de nomes
 
-Es importante mantener un correcto espacio de nombres que reduzcan las
-posibilidades de que nuestro plugin sea sobreescrito por un plugin de terceros.
-Para ello es una buena idea usar prefijos o sufijos, como por ejemplo el
-nombre de nuestra empresa.
+É importante manter um tamanho de nomes correto que reduzam as possibilidades de que nosso plugin seja reescrito por um plugin de terceiros. Para isso é uma boa ideia usar prefixos e sufixos, como por exemplo o nome de nossa empresa.
 
 ```js
 (function ($) {

@@ -1,77 +1,57 @@
 # Shell de UNIX
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-* Que todas tengan un emulador de terminal y bash o zsh instalado
-* Familiarizarse navegando el sistema de archivos y ejecutando comandos
+* Que todas tenham um emulador de terminal e *bash* ou *zsh* instalado.
+* Conhecer a navegação pelo sistema de arquivos executando comandos.
 
 ***
 
-## Qué es la shell de UNIX?
+## O que é a *shell* de UNIX?
 
-> Una Shell de Unix o también shell, es el término usado en informática para
-> referirse a un intérprete de comandos, el cual consiste en la interfaz de
-> usuario tradicional de los sistemas operativos basados en Unix y similares
-> como GNU/Linux.
+> Uma *Shell de Unix* ou também **shell**, é o terminal usado na informática para se referir a um intérprete de comandos, o qual consiste na interface de usuário tradicional dos sistemas operacionais baseados em Unix e similares como GNU/Linux.
 >
-> Fuente: [Shell de Unix - Wikipedia](https://es.wikipedia.org/wiki/Shell_de_Unix)
+> Fonte: [Shell de Unix - Wikipédia](https://pt.wikipedia.org/wiki/Shell_do_Unix)
 
-Básicamente, la shell es el _intérprete_ que se encarga de ejecutar los comandos
-que escribimos en el terminal (o emulador de terminal). Así como el motor de
-JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
-y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
-escribimos en la línea de comando.
+Basicamente, o shell é um _intérprete_ que é encarregado de executar os comandos que escrevemos no terminal (ou emulador de terminal). Assim como o motor do JavaScript (seja o do navegador, Node.js, ...) é o responsável por interpretar e executar nosso código JavaScript, a shell se encarrega dos comandos que escrevemos na linha de comando.
 
-## Shells comunes: bash, zsh, etc
+## Shells comuns: bash, zsh, etc
 
-La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
-pero no está de más mencionar que existen muchas shells distintas, que comparten
-gran parte de sus características, pero cada una con sus peculiaridades. Otras
-shells comunes son: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
+A shell mais comum é provavelmente `bash` ([Bourne Again SHell](https://pt.wikipedia.org/wiki/Bash)), mas não é demais mencionar que existem muitas shells distintas que compartilham grande parte de suas características, mas cada uma com suas peculiaridades. Outras shells comuns são: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
 
-Dentro de un emulador de terminal podemos ejecutar diferentes shells, así como
-configurar tu shell por defecto (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
+Dentro de um emulador do terminal podemos executar diferentes shells, assim como configurar sua shell por padrão (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
 
-## Interactuando con el sistema de archivos
+## Interagindo com o sistema de arquivos
 
-Cuando abrimos un emulador de terminal, normalmente nos encontramos (por
-defecto) en nuestra carpeta `HOME` (por ejemplo: `/home/<usuario>` en la mayoría
-de distribuciones de UNIX). El terminal siempre _está_ en el agun lugar del
-sistema de archivos. Esto quiere decir que los comandos que ejecutemos se
-ejecutarán desde ese _lugar_ (la carpeta donde estemos).
+Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições de UNIX). O terminal sempre _está_ em algum lugar do sistema de arquivos. Isso quer dizer que os comandos que executamos serão executados a partir desse _lugar_ (a pasta onde estamos).
 
-Para poder manejarse con facilidad en el terminal es importante familiarizarse
-con algunos comandos. Te recomendamos abrir tu terminal y ejecutar los comandos
-detallados más abajo (las líneas que empiezan con `$` en los bloques de código).
-Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
+Para poder trabalhar com facilidade no terminal é importante conhecer alguns comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir a ordem dos exemplos você deve ver resultados similares.
 
-* `pwd`: muestra la ruta donde estamos actualmente (**P**rint **W**orking
-  **D**irectory)
+* `pwd`: mostra o caminho de onde estamos atualmente (**P**rint **W**orking **D**irectory)
   ```sh
   $ pwd
   /Users/lupo
   ```
-* `mkdir`: crea una carpeta (**M**a**K**e **DIR**ectory)
+* `mkdir`: cria uma pasta (**M**a**K**e **DIR**ectory)
   ```sh
-  mkdir ejemplo
+  mkdir exemplo
   ```
-* `cd`: cambia de directorio a una nueva ruta (**C**hange **D**irectory)
+* `cd`: muda o diretório para uma nova rota (**C**hange **D**irectory)
   ```sh
-  $ cd ejemplo
+  $ cd exemplo
   $ pwd
-  /Users/lupo/ejemplo
+  /Users/lupo/exemplo
   ```
-* `touch`: Crea un archivo en blanco si no existe o actualiza la fecha de
-  modificación si existse.
+* `touch`: Cria um arquivo em branco se não existe, ou atualiza a data de modificação se existir.
   ```sh
   touch README.md
   touch index.js .gitignore
   ```
-* `ls`: lista los archivos (y directorios/carpetas) en la carpeta actual
+* `ls`: lista os arquivos (e diretórios/pastas) na pasta atual
   (**L**i**S**t)
   ```sh
   $ ls
@@ -88,100 +68,84 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   -rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 README.md
   -rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 index.js
   ```
-* `cat`: muestra el contenido de un archivo en el terminal (stdout)
+* `cat`: mostra o conteúdo de um arquivo no terminal (stdout)
   (con**CAT**enate)
   ```sh
-  $ echo 'hola mundo' > file.txt
+  $ echo 'olá mundo' > file.txt
   $ cat file.txt
-  hola mundo
+  olá mundo
   ```
-* `mv`: Mueve un archivo o carpeta de un lugar a otro en el sistema de archivos
+* `mv`: Move um arquivo ou pasta de um lugar para outro no sistema de arquivos
   (**M**o**V**e)
   ```sh
-  $ mv file.txt hola-mundo.txt
+  $ mv file.txt ola-mundo.txt
   $ ls -l
   total 8
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js
   ```
-* `cp`: Copia un archivo o carpeta de un lugar a otro (**C**o**P**y)
+* `cp`: Copia um arquivo ou pasta de um lugar para o outro (**C**o**P**y)
   ```sh
-  $ cp hola-mundo.txt hello-world.txt
+  $ cp ola-mundo.txt hello-world.txt
   $ ls -l
   total 16
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js
   ```
-* `rm`: Borra un archivo o carpeta (**R**e**M**ove)
+* `rm`: Apaga um arquivo ou pasta (**R**e**M**ove)
   ```sh
   $ rm index.js
   $ ls -l
   total 16
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   ```
 
 <!--
-## Ejecución de comandos
+## Execução de comandos
 
-Cada vez que apretamos la tecla _enter_ le estamos pidiendo al terminal que
-ejecute la línea que hayamos escrito hasta ese punto. Es importante entender
-que todo comando se ejecuta en un contexto (la carpeta desde la que ejecutamos,
-las variables de entorno, ...).
+Cada vez que apertamos as teclas _enter_ estamos pedindo ao terminal que execute a linha que escrevemos até aquele momento. É importante entender que todo comando é executado em um contexto (a pasta de onde estamos executando, as variáveis de ambiente, ...).
 
-## Entrada/Salida/Pipes/Redirección
+## Entrada/Saída/Pipes/Redirecionamento;
 
-## Procesos
+## Processos;
 
-## Variables de entorno
+## Variáveis de ambiente;
 
-## Comandos comunes
+## Comandos comuns.
 
-Además de manejarnos en el sistema de archivos, como desarrolladorxs web, y
-usuarixs de la línea de comando, es recomendable familiarizarse con algunos
-comandos comunes (además de los programas que ya conocemos, como `git`, `node`,
-`npm`, ...). Acá algunos ejemplos de comandos útiles:
+Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias de linha de comando, é recomendável você se habituar com alguns comandos comuns (além dos programas que já conhecemos, como `git`, `node`, `npm`, ...). Aqui temos alguns exemplos de comandos úteis:
 
-* `which`: averigua si un ejecutable se encuentra en nuestro `PATH`. Muy útil
-  para saber si un comando está disponible y dónde está ele ejecutable en el
-  sistema de archivos.
+* `which`: verifica se um executável está em nosso `PATH`. Muito útil para saber se um comando está disponível e onde o executável está no sistema de arquivos.
+
   ```sh
   which node
   /usr/local/bin/node
   ```
-* `grep`: filtra texto, mostrándonos solamente aquellas líneas que contengan un
-  patrón de búsqueda.
-* `curl`
+* `grep`: filtra texto, mostrando somente aquelas linhas que contenham um padrão de busca.
 * ...
 -->
 
-## Otros temas de interés
+## Outros temas de interesse
 
-En este curso no pretendemos profundizar en Bash o la shell de UNIX, pero si
-tienes curiosidad (o necesidad) de aprender un poco más te recomendamos leer
-sobre **entrada y salida** de comandos (**stdin**, **stdout**, **stderr**),
-**procesos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...),
-**variables de entorno**, ...
+Neste curso não temos intenção de aprofundar em Bash ou na shell de UNIX, mas se você tiver curiosidade (ou necessidade) de aprender um pouco mais te recomendamos ler sobre **entrada e saída** de comandos (**stdin**, **stdout**, **stderr**), **processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...), **variáveis de ambiente**, ...
 
-## Personalización
+## Personalização
 
-Para finalizar, cabe mencionar que así como uno puede configurar su escritorio,
-con tu propia imagen de fondo, shortcuts, ... los shells también permiten un
-montón de personalización. Los detalles de cómo personalizar tu shell quedan
-fuera del scope de este curso, pero te invitamos a que explores lo siguiente:
+Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de trabalho com sua própria imagem de fundo, atalhos, ... os shells também permitem uma grande quantidade de personalização. Os detalhes de como personalizar seu shell estão fora do escopo deste curso, mas convidamos você a explorar o seguinte:
 
 * `.profile`
 * `.bashrc`
 * `.bash_history`
 * `oh-my-zsh`
 
-## Lecturas complementarias
+## Leituras Complementares
 
-* [Shell de Unix - Wikipedia](https://es.wikipedia.org/wiki/Shell_de_Unix)
-* [Emulador de terminal - Wikipedia](https://es.wikipedia.org/wiki/Emulador_de_terminal)
-* [Bash_(Unix_shell) - Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+* [Shell de Unix - Wikipédia](https://pt.wikipedia.org/wiki/Shell_do_Unix)
+* [Emulador de terminal - Wikipédia](https://en.wikipedia.org/wiki/Terminal_emulator)
+* [Bash_(Unix_shell) - Wikipédia](https://pt.wikipedia.org/wiki/Bash)
 * [Shell Builtin Commands - gnu.org](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)

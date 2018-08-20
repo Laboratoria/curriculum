@@ -1,159 +1,96 @@
-# Objetos preconstruidos
+# Objetos pré-construídos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-El tipo de datos fundamental de JavaScript es el objeto. Un objeto es un dato
-complejo, una colección no ordenada de propiedades cada una formada por un
-nombre y un valor. Este valor es un tipo de dato primitivo o por referencia.
+O tipo de dado fundamental de JavaScript é o objeto. Um objeto é um dado complexo, uma coleção ordenada de propriedades, cada uma formada por um nome e um valor. Este valor é um tipo de dado primitivo ou por referência.
 
-En JavaScript todo lo que no es un string, un número, true, false, null o
-undefined es un objeto. Incluso los strings, números y booleanos se comportan
-como objetos inmutables (no podemos modificar sus propiedades).
+Em JavaScript, tudo o que não é uma string, um número, true, false, null ou undefined é um objeto. E as strings, números e booleanos se comportam como objetos imutáveis (não podemos modificar suas propriedades).
 
-Dado que un objeto también ocupa un espacio de memoria: ¿en qué se parecen y en
-qué se diferencia un objeto de una variable?.
+Dado que um objeto também ocupa espaço de memória: em que se parecem e em que são diferentes um objeto de uma variável?
 
-Consideraremos que las variables son entidades elementales: un número, un
-carácter, un valor verdadero o falso; mientras que los objetos son entidades
-complejas que pueden estar formadas por mucha información. Pero ambas cosas
-ocupan lo mismo: un espacio de memoria (que puede ser más o menos grande).
+Consideraremos que as variáveis são entidades elementares: um número, um caractere, um valor verdadeiro ou falso; enquanto que os objetos são entidades complexas que podem estar formadas por muita informação. Mas ambos ocupam o mesmo: um espaço de memória (que pode ser maior ou menor).
 
-Existen algunos objetos especiales que pueden ser considerados como _clases_
-predefinidas JavaScript (como la clase Date para manejo de fechas, la clase
-RegExp para manejo de expresiones regulares y búsqueda de patrones en texto, y
-la clase Error para almacenar información relacionada con los errores y otros).
+Existem alguns objetos especiais que podem ser considerados como _classes_ predefinidas JavaScript (como a classe Date para manipulação de datas, a classe RegExp para manipulação de expressões regulares e busca de padrões de texto, e a classe Error para armazenar informação relacionada a erros e outros).
 
-Estos objetos representan básicamente funcionalidades ampliadas o incorporadas
-al propio lenguaje que nos permitirán manejar, entre otras cosas, estructuras de
-datos y nuevas utilidades, a continuación veremos algunas de ellas.
+Estes objetos representam basicamente funcionalidades ampliadas ou incorporadas à própria linguagem que nos permitirão manipular, entre outras coisas, estruturas de dados e novas utilidades. A seguir veremos algumas delas.
 
-En realidad, más que de objetos deberíamos hablar de clases de objetos, ya que
-un objeto en sí sería por ejemplo una fecha, y la clase de objeto a la que
-pertenece sería la clase `Date`.
+Na realidade, deveríamos falar mais de classes de objetos do que de objetos, já que um objeto em si seria por exemplo uma data e a classe de objeto a que pertence seria a classe `Date`.
 
-Para crear un nuevo objeto de una clase ya definida, la forma habitual es
-escribir:
+Para criar um novo objeto de uma classe já definida, a forma comum é escrever:
 
 ```js
-let nuevoObjeto = new ClaseObjeto();
+let novoObjeto = new ClasseObjeto();
 ```
 
-Donde `nuevoObjeto` es el objeto nuevo que creamos. `new` es el operador que
-indica a JavaScript que estamos creando un nuevo objeto. `ClaseObjeto` es la
-clase a la que pertenecerá el nuevo objeto. Dentro de los paréntesis, y
-dependiendo del tipo de objeto, podremos poner algunas características del
-objeto, por ejemplo en los arrays podemos poner los elementos que lo componen.
+Em que `novoObjeto` é um objeto novo que criamos. `new` é o operador que indica ao JavaScript que estamos criando um novo objeto. `ClasseObjeto` é a classe a qual pertencerá o novo objeto. Dentro dos parêntesis, e dependendo do tipo de objeto, podemos colocar algumas características do objeto. Por exemplo, nos vetores podemos colocar os elementos que o compõe.
 
-Sin embargo no es la única forma de crear un objeto, ya que dependiendo de la
-clase que se trate, puede haber otras formas de crearlo. Por ejemplo al
-asignarle un valor a una nueva variable, podemos estar creando un objeto tipo
-número (Number) o cadena de texto (String), también los arrays podemos crearlos
-de varias maneras.
+Contudo não é a única forma de criar um objeto, já que dependendo da classe a que se refira, pode haver outras formas de criá-lo. Por exemplo, ao atribuir um valor a uma nova variável, podemos estar criando um objeto tipo número (Number) ou cadeia de texto (String). Os vetores também podem ser criados de várias maneiras.
 
-Algunas clases de objetos son:
+Algumas classes de objetos são:
 
 * `Number`: Números.
-* `Math`: Operaciones con números.
-* `Date`: Fechas.
-* `String`: Cadenas de texto.
-* `Array`: Colecciones de elementos.
+* `Math`: Operações con números.
+* `Date`: Datas.
+* `String`: Cadeias de texto.
+* `Array`: Coleções de elementos.
 
-Sin embargo nos faltan por ver algunas clases de objetos, los cuales aunque
-menos importantes desde el punto de vista de la programación debemos tenerlos en
-cuenta.
+Contudo ainda falta vermos algumas classes de objetos, as quais embora sejam menos importantes do ponto de vista da programação, devemos conhecê-los.
 
-## El objeto `Boolean`
+## O objeto `Boolean`
 
-El objeto o clase de objetos `Boolean` incluye las variables booleanas o lógicas
-que sólo pueden tomar los valores `true` y `false`. Para construir un objeto de
-clase `Boolean` basta con asignar un valor booleano a una variable, pero también
-podemos crearlo por el método general:
+O objeto ou classe de objetos `Boolean` inclui as variáveis booleanas ou lógicas que só podem receber os valores `true` e `false`. Para construir um objeto da classe `Boolean` basta atribuir um valor booleano a uma variável, mas também podemos criá-lo pelo método geral:
 
 ```js
 let booleano = new Boolean();
 ```
+Dependendo do valor do parâmetro que passamos dentro do parêntesis, o valor retornado será `true` ou `false`. Se passamos diretamente os valores `true` ou `false`, serão retornados esses valores. Se não passamos nenhum valor ou passamos como valor o número 0 ou uma cadeia de texto vazia, retornará `false`. Nos demais casos retornará `true`. O objeto `Boolean` não tem propriedades e métodos próprios. Possui somente as propriedades e métodos herdados do objeto `Object`, o qual veremos mais adiante.
 
-Dependiendo del valor del parámetro que le pasemos dentro del paréntesis el
-valor devuelto será `true` o `false`. Si pasamos directamente los valores `true`
-o `false`, nos devolverá esos valores. Si no pasamos ningún valor o pasamos como
-valor el número 0 o una cadena de texto vacía, devolverá false, en los demás
-casos devolverá true. El objeto Boolean no tiene propiedades y métodos propios,
-sino los heredados del objeto `Object`, el cual veremos más adelante.
+## O objeto `Function`
 
-## El objeto `Function`
-
-Las funciones también se consideran objetos en JavaScript, y se forman a partir
-de la clase `Function`. Aunque la forma más habitual de declararlas es la que
-hemos visto:
+As classes também são consideradas objetos em JavaScropt e se forma a partir da classe `Function`. Já vimos a forma mais comum de declará-las:
 
 ```js
-function miFuncion() { }
+function minhaFuncao() { }
 ```
 
-También lo podemos hacer mediante la forma general de construir objetos:
+Também podemos criá-la da forma geral para construir objetos:
 
 ```js
-const miFuncion = new Function();
+const minhaFuncao = new Function();
 ```
 
-Tal como ocurre en la forma habitual de declararlas, dentro del paréntesis
-escribiremos, si hace falta, los parámetros que necesite la función y el cuerpo
-de la función. No tiene propiedades ni métodos propios, sino los heredados del
-objeto `Object` que veremos más adelante.
+Tal como ocorre na forma comum de declará-las, dentro do parêntesis escrevemos, se houver necessidade, os parâmetros que a função precisa e o corpo da função. Não possui propriedades nem métodos próprios, exceto os herdados da classe `Object` que veremos mais adiante.
 
-## El objeto `RegExp`
+## O objeto `RegExp`
 
-Las expresiones regulares sirven para comprobar si una cadena de texto sigue un
-determinado patrón, o si contiene unos caracteres determinados. Se emplea, por
-ejemplo para comprobar en un formulario si el texto pasado por el usuario es un
-e-mail, o un número de teléfono, etc.
+As expressões regulares servem para verificar se uma cadeia de texto segue um determinado padrão ou se contém alguns caracteres determinados. É utilizada, por exemplo, para verificar em um formulário se o texto informado pelo usuário é um e-mail, um número de telefone, etc.
 
-Estas expresiones van encerradas entre las barras inclinadas `/.../` y tienen
-su propia sintaxis. Por ejemplo la siguiente expresión comprueba si el el texto
-pasado es una dirección de página web:
+Estas expressões são delimitadas pelas barras inclinadas `/.../` e possuem sua sintaxe própria. Por exemplo, a seguinte expressão verifica se o texto passado é um endereço de página web:
+```js
+const padrao = /^http[s]?://\w[\.\w]+$/i;
+```
+
+Devido a sua complexidade o mais cômodo é ter uma lista das expressões regulares para os casos mais comuns, tais como verificar endereços web, e-mail, número de telefone, datas, etc.
+
+Para declarar um objeto RegExp podemos fazê-lo simplesmente atribuindo a uma variável uma expressão regular, tal como o exemplo anterior, ou por meio do método geral de criar objetos:
 
 ```js
-const patron = /^http[s]?://\w[\.\w]+$/i;
+const padrao = new RegExp('^http[s]?://\w[\.\w]+$', 'i');
 ```
 
-Debido a su complejidad lo más cómodo es tener una lista de las expresiones
-regulares para los casos más comunes, tales como comprobar direcciones web,
-e-mail, num teléfonos, fechas, etc.
+Para efetuar as buscas e substituições, este objeto possui vários métodos, alguns dos quais são iguais para as cadeias de texto:
 
-Para declarar un objeto RegExp podemos hacerlo simplemente asignando a una
-variable una expresión regular, tal como en el ejemplo anterior, o mediante el
-método general de crear objetos:
+* `cadeia.search(regexp)`: Verifica se a cadeia respeita o padrão. Se respeitar retorna verdadeiro (`true`).
+* `cadeia.replace(regexp, substituir)`: Substitui o trecho da cadeia que respeita o padrão da expressão regular pela cadeia que é informada como segundo argumento (`substituir`).
+* `cadeia.split(regexp)`: Devolve um vetor no qual a cadeia é separada de acordo com as equivalências da expressão regular.
 
-```js
-const patron = new RegExp('^http[s]?://\w[\.\w]+$', 'i');
-```
+## O objeto `Object`
 
-Para efectuar las búsquedas y reemplazos, este objeto tiene varios métodos,
-algunos de los cuales son iguales que para las cadenas de texto:
+O objeto `Object` é o qual está em um nível superior de hierarquia e do qual derivam todos os demais objetos de JavaScript. Para tal, permite criar novas classes de objetos. Seus métodos e propriedades são herdados pelos demais objetos JavaScript. Alguns deles já vimos anteriormente e outros explicaremos mais detalhadamente:
 
-* `cadena.search(regexp)`: Comprueba si la cadena se ajusta al patrón, en tal
-  caso devuelve verdadero (`true`).
-* `cadena.replace(regexp, remplazar)`: Reemplaza el trozo de cadena que se
-  ajusta a la expresión regular por la cadena que se pasa como segundo argumento
-  (`remplazar`).
-* `cadena.split(regexp)`: Devuelve un array en el que la cadena se ha separado
-  según las coincidencias con la expresión regular.
-
-## El objeto `Object`
-
-El objeto `Object` es el que está en un nivel superior en la jerarquía, y del
-que se derivan todos los demás objetos de JavaScript. Permite por lo tanto crear
-nuevas clases de objetos. Sus métodos y propiedades son heredados por el resto
-de los objetos JavaScript. Algunos de ellos ya los hemos visto antes y otros los
-explicaremos más detenidamente.
-
-* Los métodos son: `.toString();` el cual devuelve siempre una cadena de texto
-  con el nombre del objeto (por ejemplo transforma true en "true") y `valueOf()`
-  el cual dependiendo del objeto devuelve un valor u otro, aunque casi siempre
-  es el propio objeto.
-* Sus propiedades son `constructor` y `prototype`, las cuales las veremos más
-  adelante cuando veamos con más detenimiento el objeto `Object`.
+* Os métodos são: `.toString();` o qual retorna sempre uma cadeia de texto com o nome do objeto (por exemplo transforma `true` em "true")  e `valueOf()` o qual dependendo do objeto devolve um valor ou outro, embora quase sempre seja o próprio objeto.
+* Suas propriedades são `constructor` e `prototype`, as quais veremos mais adiante quando olharmos com mais detalhes o objeto `Object`.

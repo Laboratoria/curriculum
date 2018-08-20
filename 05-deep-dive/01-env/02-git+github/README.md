@@ -1,14 +1,14 @@
 # Git + GitHub
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-* Que todas tengan git instalado
-* Que todas tengan cuenta activa y configurada en GitHub
-* Que todas tengan acceso a los repos necesarios para el curso
+* Que todas tenham o git instalado;
+* Que todas tenham uma conta ativa e configurada no GitHub;
+* Que todas tenham acesso aos repositórios necessários para o curso.
 
 ***
 
@@ -16,15 +16,11 @@
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
-Durante esta sesión nos aseguraremos de que todxs tengan `git` instalado, acceso
-al repo, así como su propio fork.
+Durante esta sessão garantiremos que todas tenham o `git` instalado, acesso ao repositório e acesso ao seu `fork`.
 
-Además, para recordar ciertos comandos y flujo que usaremos durante el
-desarrollo del curso, recomendamos los siguientes recursos:
+Além disso, para relembrar certos comandos e fluxo que usaremos durante o desenvolvimento do curso, recomendamos os seguintes recursos:
 
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [GitHub Flow](https://services.github.com/on-demand/intro-to-github/)
 
-Durante el workshop lxs instructorxs estarán disponibles para ayudar a resolver
-problemas de instalación y resolver dudas con respecto a configuraciones y
-workflow.
+Durante a oficina as instrutoras estarão disponíveis para ajudar a resolver problemas de instalação e resolver dúvidas relativas a configurações e `workflow`.

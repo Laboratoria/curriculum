@@ -1,12 +1,10 @@
-# Invertir un arreglo
+# Inverter un vetor
 
-Usar estructuras de control para invertir un arreglo de números. Como entrada
-recibirás un arreglo de números u objetos y como salida se espera un arreglo con
-el orden invertido de los elementos.
+Use estruturas de controle para inverter um vetor de números. Como entrada você receberá um vetor de números e objetos e como saída é esperado um vetor com a ordem invertida dos elementos.
 
-> No es válido usar `arr.reverse()`.
+> Não pode utilizar `arr.reverse()`.
 
-Ejemplo:
+Exemplo:
 
 ```javascript
 const output = reverse([1, 2, 3, 4]);

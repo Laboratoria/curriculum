@@ -1,48 +1,32 @@
 # CSS
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-jQuery incluye una manera útil de obtener y establecer propiedades `CSS` a los
-elementos.
-Las propiedades `CSS` que incluyen como separador un guión del medio, en
-JavaScript deben ser transformadas a su estilo CamelCase. Por ejemplo, cuando
-se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser
-expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se
-pasa el nombre de la propiedad `CSS` al método `$.fn.css` en este caso, los dos
-formatos (en CamelCase o con el guión del medio) funcionarán.
+jQuery inclui uma maneira útil de obter e estabelecer propriedades `CSS` aos elementos. As propriedades `CSS` que incluem como separador um hífen, em JavaScript devem ser transformadas para o estilo *CamelCase*. Por exemplo, quando ela é utilizada como propriedade de um método, o estilo `CSS` `font-size` deverá ser informado como `fontSize`. Porém, esta regra não é aplicada quando passamos o nome da propriedade `CSS` para o método `$.fn.css`. Neste caso, os dois formatos (em *CamelCase* ou com o hífen) funcionarão.
 
-## Obtener propiedades CSS
+## Obter propriedades CSS
 
 ```js
-$('h1').css('fontSize'); // devuelve una cadena de caracteres como "19px"
-$('h1').css('font-size'); // también funciona
-Establecer propiedades CSS
-// establece una propiedad individual CSS
+$('h1').css('fontSize'); // retorna uma cadeia de caracteres como "19px"
+$('h1').css('font-size'); // também funciona
+Estabelecer propriedades CSS
+// estabelece uma propriedade individual CSS
 $('h1').css('fontSize', '100px');
-// establece múltiples propiedades CSS
+// estabelece múltiplas propriedades CSS
 $('h1').css({ 'fontSize' : '100px', 'color' : 'red' });
 ```
 
-Notar que el estilo del argumento utilizado en la segunda línea del ejemplo es
-un objeto que contiene múltiples propiedades. Esta es una forma común de pasar
-múltiples argumentos a una función, y muchos métodos establecedores de la
-biblioteca aceptan objetos para fijar varias propiedades de una sola vez.
+Note que o estilo do argumento utilizado na segunda linha do exemplo é um objeto que contém múltiplas propriedades. Esta é uma forma comum de passar múltiplos argumentos para uma função e muitos métodos da biblioteca aceitam objetos para fixar várias propriedades de uma só vez.
 
-## Utilizar clases para aplicar estilos CSS
+## Utilizar classes para aplicar estilos CSS
 
-Para obtener valores de los estilos aplicados a un elemento, el método
-`$.fn.css` es muy útil, sin embargo, su utilización como método establecedor
-se debe evitar (ya que, para aplicar estilos a un elemento, se puede hacer
-directamente desde CSS). En su lugar, lo ideal, es escribir reglas CSS que se
-apliquen a clases que describan los diferentes estados visuales de los
-elementos y luego cambiar la clase del elemento para aplicar el estilo que se
-desea mostrar.
+Para obter valores dos estilos aplicados a um elemento, o método `$.fn.css` é muito útil, porém sua utilização como método estabelecedor deve ser evitada (já que, para aplicar estilos a um elemento, é possível fazer diretamente no `CSS`). Em seu lugar, o ideal é escrever regras `CSS` que sejam aplicadas a classes que descrevam os diferentes estados visuais dos elementos e em seguida mudar a classe do elemento para aplicar o estilo que se deseja mostrar.
 
-## Trabajar con clases
+## Trabalhar com classes
 
 ```js
 var $h1 = $('h1');
@@ -51,27 +35,22 @@ $h1.removeClass('big');
 $h1.toggleClass('big');
 if ($h1.hasClass('big')) { ... }
 ```
+As classes também podem ser úteis para armazenar informação do estado de um elemento. Por exemplo, para indicar que um elemento foi selecionado.
 
-Las clases también pueden ser útiles para guardar información del estado de un
-elemento, por ejemplo, para indicar que un elemento fue seleccionado.
+## Dimensões
 
-## Dimensiones
+jQuery oferece uma variedade de métodos para obter e modificar valores de dimensões e posição de um elemento.
 
-jQuery ofrece una variedad de métodos para obtener y modificar valores de
-dimensiones y posición de un elemento.
+O código mostrado no exemplo "Métodos básicos sobre Dimensões" é só um breve resumo das funcionalidades relacionadas a dimensões em jQuery; para um detalhe completo você pode consultar api.jquery.com/category/dimensions.
 
-El código mostrado en el ejemplo "Métodos básicos sobre Dimensiones" es solo
-un breve resumen de las funcionalidades relaciones a dimensiones en jQuery;
-para un completo detalle puede consultar api.jquery.com/category/dimensions.
-
-## Métodos básicos sobre Dimensiones
+## Métodos básicos sobre Dimensões
 
 ```js
-$('h1').width('50px');  // establece el ancho de todos los elementos H1
-$('h1').width();        // obtiene el ancho del primer elemento H1
-$('h1').height('50px'); // establece el alto de todos los elementos H1
-$('h1').height();       // obtiene el alto del primer elemento H1
-// devuelve un objeto conteniendo información sobre la posición
-// del primer elemento relativo al "offset" (posición) de su elemento padre
+$('h1').width('50px');  // estabelece a largura de todos os elementos H1
+$('h1').width();        // obtém a largura do primeiro elemento H1
+$('h1').height('50px'); // estabelece a altura de todos os elementos H1
+$('h1').height();       // obtém a altura do primeiro elemento H1
+// retorna um objeto contendo informação sobre a posição
+// do primeiro elemento relativo ao "offset" (posição) do seu elemento pai
 $('h1').position();
 ```
