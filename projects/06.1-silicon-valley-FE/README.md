@@ -20,14 +20,15 @@ Ten en cuenta que en estos procesos no existe ninguna receta mágica ni tampoco 
 
 * Debe completarse de manera individual. 
 * A menos que la descripción de alguna parte lo diga explícitamente, no está permitido el uso de librerías o frameworks.
-* Debes seguir la guía de estilos de Airbnb.
+* Debes seguir la [guía de estilos de Airbnb](https://github.com/airbnb/javascript).
 * Deberás avanzar paso a paso por el proceso de postulación. Si no has completado la primera parte, no puedes avanzar a la segunda y así sucesivamente.
 * Completar este proyecto es un requisito indispensable en el camino a obtener la recomendación de empleabilidad.
 
 ## Parte I: Envío de Currículum Vitae (CV)
 
-Cualquier proceso de reclutamiento inicia cuando envías tu CV solicitando que te consideren para  el cargo en la empresa que te interesa.  
-Tu compañera te ha enviado un mensaje con los elementos a considerar al escribir tu CV. Léelo con detenimiento y sigue sus recomendaciones. Un dato importante: tal como explica tu compañera, esta parte va más allá del CV, incluye también tu LinkedIn, GitHub y tu portafolio - a los cuales se accede a través de tu CV.
+Cualquier proceso de reclutamiento inicia cuando envías tu CV solicitando que te consideren para  el cargo en la empresa que te interesa. 
+Tu compañera te ha enviado un mensaje con los [elementos a considerar al escribir tu CV](https://drive.google.com/file/d/1TUHy3SxgalOWBqH-rtHKbejsKCXoLxWD/view?usp=sharing).
+Léelo con detenimiento y sigue sus recomendaciones. Un dato importante: tal como explica tu compañera, esta parte va más allá del CV, incluye también tu LinkedIn, GitHub y tu portafolio - a los cuales se accede a través de tu CV.
 Una vez que completes tu CV (con los links a tu portafolio, LinkedIn y GitHub actualizados), debes enviarlo a la coordinadora de desarrollo personal (psicóloga) de tu sede via e-mail incluyendo un breve párrafo indicando tu interés por el puesto. Ella revisará los documentos y te dirá si estás preparada para avanzar a la parte II o si debes mejorar algunas cosas. 
 En esta parte, específicamente se evaluará:
 * La calidad de tu CV 
@@ -40,9 +41,9 @@ Si la coordinadora de desarrollo personal de tu sede considera que has completad
 Aún cuando es de práctica, es importante que te prepares bien, dado que si no tienes un buen desempeño en este paso no podrás avanzar.
 
 Para esto, te recomendamos revisar los siguientes recursos:
-* La guía de Laboratoria sobre cómo prepararte para una entrevista laboral.
-* El material del taller de preparación para entrevistas profesionales de Laboratoria.
-* Un repositorio colaborativo en GitHub sobre preguntas frecuentes en procesos de reclutamiento para Front-End developers. 
+* La [guía de Laboratoria](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing) sobre cómo prepararte para una entrevista laboral.
+* El material del [taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing) profesionales de Laboratoria.
+* Un repositorio colaborativo en [GitHub](https://github.com/h5bp/Front-end-Developer-Interview-Questions)sobre preguntas frecuentes en procesos de reclutamiento para Front-End developers. 
 
 Al final de la entrevista, la coordinadora de desarrollo personal te dirá si estás preparada para avanzar a la parte III o si debes mejorar algunas cosas y repetir la entrevista de “práctica”.
 
@@ -58,4 +59,9 @@ Después de la entrevista, la coordinadora de desarrollo personal conversará co
 
 ## Parte V: Desafíos para resolver y entregar
 
-
+## Recursos externos
+* [Guía de estilos de Airbnb](https://github.com/airbnb/javascript).
+* [Elementos a considerar al escribir tu CV](https://drive.google.com/file/d/1TUHy3SxgalOWBqH-rtHKbejsKCXoLxWD/view?usp=sharing)
+* [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing)
+* [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing)
+* [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
