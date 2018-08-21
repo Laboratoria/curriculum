@@ -267,8 +267,8 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 Para que el módulo sea instalable desde GitHub solo tiene que:
 
-* Estar en un repo público de GitHub
-* Contener un `package.json` válido
+- Estar en un repo público de GitHub
+- Contener un `package.json` válido
 
 Con el comando `npm install githubname/reponame` podemos instalar directamente
 desde GitHub. Ver [docs oficiales de `npm install` acá](https://docs.npmjs.com/cli/install).
