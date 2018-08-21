@@ -263,7 +263,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 ### FAQs
 
-#### Cómo hago para que mi módulo sea _instalable_ desde GitHub?
+#### ¿Cómo hago para que mi módulo sea _instalable_ desde GitHub?
 
 Para que el módulo sea instalable desde GitHub solo tiene que:
 
