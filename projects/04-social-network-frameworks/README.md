@@ -15,6 +15,7 @@ Como desarrolladora Front-end, los _frameworks_ pueden resultarte de gran ayuda
 para implementar rápidamente características de los proyectos en los que trabajes.
 
 ![caracoles](http://www.animated-photography.com/images/portfolio/full/Evolution.jpg)
+
 ## Introducción
 
 Creemos que la mejor manera de enfrentearte a estos _frameworks_ es
@@ -22,11 +23,11 @@ eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
 cero, su alcance, sus particularidads, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
 
-El alcance del proyecto y el detalle de sus características es exactamente [el
-mismo que el original](https://github.com/Laboratoria/lim-2018-05-bc-core-am-socialnetwork), incluyendo la parte de Hacker Edition.
+El alcance del proyecto y el detalle de sus características es exactamente
+[el mismo que el original](https://github.com/Laboratoria/lim-2018-05-bc-core-am-socialnetwork),
+incluyendo la parte de Hacker Edition.
 
 ## Objetivos
-
 
 ## Consideraciones generales
 
@@ -51,7 +52,6 @@ repositorio.
 
 ### Tests
 
-
 ## Hacker edition
 
 Lo mismo que en proyecto original.
@@ -63,7 +63,6 @@ interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
 
 ### Entregables
-
 
 ## Evaluación
 
