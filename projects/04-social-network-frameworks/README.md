@@ -1,15 +1,21 @@
-# Rehaciendo tu red social usando frameworks de JavaScript
+# Rehaciendo tu red social usando librerías y frameworks
 
 ## Preámbulo
 
-React, Angular y Vue son algunos de los _frameworks_ de JavaScript más
-utilizados por lxs desarrolladorxs alrededor del mundo, y hay una razón para eso,
-¿por qué usarias el puño para clavar un clavo si puedes hacerlo con un martillo?
+[React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
+son algunos de los _frameworks_ de JavaScript más utilizados por lxs
+desarrolladorxs alrededor del mundo, y hay una razón para eso.
+En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
+es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
+Al elegir una _framework_ para nuestra interfaz, nos apoyamos en una serie de
+convenciones e implementaciones _probadas_ y _documentadas_ para resolver un
+problema común a toda interfaz web. Esto nos permite concentrarnos mejor
+(dedicar más tiempo) en las caractrísticas _específicas_ de nuestra aplicación.
 
-Un _framework_ es una librería que tiene el propósito básico de mostrar datos
-cuando ocurre una interacción del usuario. Digamos que algunas personas se han
-tomado la molestia de dejar muchas cosas listas para que tú las uses
-directamente.
+Cuando elegimos un _framework_ no solo importamos un pedacito de código para
+reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
+**arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
+**abstracciones**, un **vocabulario**, una **comunidad**, ...
 
 Como desarrolladora Front-end, los _frameworks_ pueden resultarte de gran ayuda
 para implementar rápidamente características de los proyectos en los que trabajes.
@@ -127,6 +133,9 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 ***
 
 ## Pistas / Tips / Lecturas complementarias
+
+* [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
+* [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
 
 ## Checklist
 
