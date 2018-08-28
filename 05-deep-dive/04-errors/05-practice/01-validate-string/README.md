@@ -1,27 +1,22 @@
 # validateString
 
-Escribe una función que reciba un string como argumento y arroje los siguientes
-errores:
+Escreva uma função que receba uma string como argumento e lance os seguintes erros:
 
-* `TypeError` con mensaje `El argumento str debe ser un string` cuando el
-  argumento recibido no es de tipo `string`.
-* `RangeError` con mensaje `El argumento str debe tener al menos 4 caracteres`
-  cuando el argumento recibido es un `string` de menos de 4 caracteres.
-* `RangeError` con mensaje
-  `El argumento str debe tener un máximo de 10 caracteres` cuando el argumento
-  recibido tiene más de 10 caracteres.
+* `TypeError` com a mensagem `O argumento str deve ser uma string` quando o argumento recebido não for do tipo `string`.
+* `RangeError` com a mensagem `O argumento str deve ter pelo menos 4 caracteres` quando o argumento recebido for uma `string` de menos de 4 caracteres.
+* `RangeError` com a mensagem `O argumento str deve ter no máximo 10 caracteres` quando o argumento recebido tiver mais de 10 caracteres.
 
-Ejemplo:
+Exemplo:
 
 ```js
-// TypeError: El argumento str debe ser un string
+// TypeError: O argumento str deve ser uma string
 validateString();
 
-// RangeError: El argumento str debe tener al menos 4 caracteres
+// RangeError: O argumento str deve ter pelo menos 4 caracteres
 validateString('');
 validateString('abc');
 
-// RangeError: El argumento str debe tener un máximo de 10 caracteres
+// RangeError: O argumento str deve ter no máximo 10 caracteres
 validateString('abcdefghijk');
-validateString('hola mundo cruel');
+validateString('olá mundo cruel');
 ```
