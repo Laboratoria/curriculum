@@ -48,8 +48,8 @@ Participar do projeto envolve o seguinte:
 
 ## Syllabus
 
-### Unidade 01: [Como a internet funciona](00-how-the-web-works)
 
+<<<<<<< HEAD
 Esta é uma introdução à internet. O objetivo é ter claro alguns conceitos sobre o que é a WWW (*World Wide Web*), o que é uma URL, HTTP e em que entender isso nos ajuda no momento de realizar uma aplicação web.
 
 ### Unidade 02: [Ambiente de desenvolvimento](01-env)
@@ -79,6 +79,42 @@ jQuery é uma biblioteca focada em fazer a manipulação do DOM mais fácil (al�
 
 
 ### Unidade 07: [Desafio - Biblioteca](06-challenge)
+=======
+### Unidade 01: [Ambiente de desenvolvimento](01-env)
+
+Uma vez introduzido o curso e os desafios, concentraremos os esforços no entorno do desenvolvimento, com uma breve introdução/revisão de conceitos sobre `sh`, `git`, `npm` e seu `editor` de texto favorito.
+
+
+### Unidade 02: [*Unit Testing* / Teste unitários](02-testing)
+
+Neste curso daremos uma ênfase especial ao desenvolvimento orientado a testes (*Test Driven Development* - TDD). Nesta unidade, você poderá seguir os passos necessários para escrever seus primeiros testes e entender o valor considerável que produzem.
+
+Como ferramentas de exemplo usaremos `mocha`, `assert`, `chai` e `karma`.
+
+
+### Unidade 03: [Fundamentos de JavaScript](03-foundations)
+
+Se os fundamentos de JavaScript vieram bem sedimentados desde o primeiro curso da Laboratória, agora aprofundaremos o entendimento no que acontece por trás. Desta maneira, veremos um pouco de compiladores e aprofundaremos nos temas como `variáveis`, `valores`, `tipos de dados`, `controle de fluxo`, `funções`, `escopo`, `vetores`, `objetos`, `strings`, `built-ins`, ...
+
+Nesta unidade veremos também algumas novas características de ES6 em relação à sintaxe para começar a utilizá-la ao longo do curso.
+
+
+### Unidade 04: [Tratamento de erros](04-errors)
+
+O tratamento de erros é importante dentro do desenvolvimento de software, ainda mais quando se trata de desenvolver um produto que se espera que seja reutilizável e de fácil manutenção. Nesta unidade veremos como tratar erros em diversas partes do nosso código.
+
+
+### Unidade 05: [Autoaprendizagem - Browser APIs](05-browser-apis)
+
+Nesta unidade focaremos nas API's que os navegadores disponibilizam para interagir com o `DOM` assim como alguns objetos globais como `window.navigator`, `window.console`, `window.location`, `window.history` e outras API's introduzidas por HTML5.
+
+### Unidade 06: [Autoaprendizagem - jQuery](06-jquery)
+
+jQuery é uma biblioteca focada em fazer a manipulação do DOM mais fácil (além de outras funcionalidades). Nesta lição não veremos a sintaxes das propriedades e métodos que esta biblioteca oferece, mas veremos aspectos importantes para melhorar o desempenho no uso desta biblioteca, além de considerações de encapsulamento de código por meio da criação de `plugins`.
+
+
+### Unidade 07: [Desafio - Biblioteca](07-challenge)
+>>>>>>> 9c6a6d4f95bba4232304d9d500841669202e68dd
 
 ***
 
