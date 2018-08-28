@@ -24,16 +24,31 @@ para implementar rápidamente características de los proyectos en los que traba
 
 ## Introducción
 
-Creemos que la mejor manera de enfrentearte a estos _frameworks_ es
+En este proyecto tendrás la oportunidad de _re-escribir_ tu proyecto anterior de
+la _red social_, pero esta vez usando un _framework_.
+
+Creemos que la mejor manera de enfrentarte a estos _frameworks_ es
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
 cero, su alcance, sus particularidads, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
 
 El alcance del proyecto y el detalle de sus características es exactamente
-[el mismo que el original](https://github.com/Laboratoria/lim-2018-05-bc-core-am-socialnetwork),
+[el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
 incluyendo la parte de Hacker Edition.
 
 ## Objetivos
+
+El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
+usando el _framework_ elegido, y todo lo que ello conlleva: **documentación**,
+**arquitectura**, **principios de diseño**, **paradigma**, **abstracciones**,
+**vocabulario**, **herramientas**, **comunidad**, ...
+
+Por otro lado, tener que _re-escribir_ un programa es una experiencia de
+aprendizaje muy valiosa en sí misma, llevándonos a re-evaluar e iterar sobre
+un producto o prototipo. Dada la velocidad a la que evoluciona la tecnología
+web, es muy común tener que enfrentarse a este tipo de escenario donde decidimos
+(o alguien decide por nosotros) que lo mejor para seguir evolucionando una
+aplicación es re-escribirla usando un nuevo _framework_ o tecnología.
 
 ## Consideraciones generales
 
@@ -52,15 +67,11 @@ repositorio.
 
 ## Parte obligatoria
 
-### General
-
-### Responsive
-
-### Tests
+Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#parte-obligatoria).
 
 ## Hacker edition
 
-Lo mismo que en proyecto original.
+Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#hacker-edition).
 
 ## Entrega
 
@@ -68,11 +79,7 @@ El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y l
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
 
-### Entregables
-
 ## Evaluación
-
-TBD
 
 ### Tech
 
@@ -156,7 +163,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 * [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
   y branches.
-* [ ] Pasa tests (y linters) (`yarn test`).
+* [ ] Pasa tests (y linters) (`npm test`).
 
 ### Creación de cuenta (sign up)
 
