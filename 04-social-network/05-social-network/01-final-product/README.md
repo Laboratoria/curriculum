@@ -1,53 +1,37 @@
-# Producto Final: Red Social X
+# Produto Final: Rede Social X
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `15h`
+- Tipo: `exercício`
+- Formato: `individual`
+- Duração: `15h`
 
 ## Objetivos
 
-- A continuación te presentamos el enunciado del reto final de este curso.
+- A seguir apresentamos o enunciado do desafio final deste curso.
 
 ***
 
-## Sobre el producto
+## Sobre o produto
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han
-invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos
-vivir sin ellas. Dado este contexto, un emprendedor muy visionario nos ha
-encargado crear una red social. No nos da mucho detalle sobre qué tipo de red
-social quiere, él solo nos dice que creemos la que mejor podamos y que luego lo
-convenzamos de que nuestra red social será la más exitosa.
+Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, as redes sociais têm invadido nossa vida. Amamos, odiamos, idolatramos e muitos não conseguem viver sem elas. Nesse contexto, um empreendedor muito visionário nos encarregou de criar uma rede social. Não nos é dado muito detalhe sobre que tipo de rede social ele quer, ele só nos disse que criemos a melhor que possamos e que o convençamos de que nossa rede social terá mais sucesso.
 
-Para él hay algunos puntos básicos que debe tener una red social:
+Para tanto, há alguns pontos básicos que uma rede social deve possuir:
 
-- Perfiles de usuarios
-- Un newsfeed donde puedes ver las actualizaciones de todos tus contactos
-- Un lugar donde poder escribir posts
-- Un lugar para subir fotos
-- Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de la red social
-- Ser mobile friendly
+- Perfis de usuários.
+- Um *newsfeed* onde pode-se ver as atualizações de todos os seus contatos.
+- Um lugar para poder escrever *posts*.
+- Um lugar para adicionar fotos.
+- Capacidade para poder ter amigos ou para poder seguir pessoas/marcas dentro da rede social.
+- Ser *mobile friendly*.
 
-Este emprendedor, además, sabe que los creadores de productos tienen que pensar
-siempre en los usuarios y espera que tengas en cuenta lo que necesitan los
-usuarios al momento de crear este producto, si piensas por ejemplo en una red
-social para compartir memes, o una para compartir cosas de mascotas o alguna
-otra para compartir tips sobre restaurantes o recetas, tendrás que tener en
-cuenta qué es lo que le gustaría encontrar a un usuario sobre estos temas en la
-red social.
+Este empreendedor, além disso, sabe que os criadores de produtos têm que pensar sempre nos usuários e espera que tenham em conta o que os usuários necessitam no momento de criar este produto, se pensam por exemplo em uma rede social para compartilhar memes ou uma para compartilhar coisas de animais de estimação ou alguma outra para compartilhar dicas de restaurantes ou receitas. Você terá que levar em conta o que o usuário gostaria de encontrar sobre estes temas em uma rede social.
 
-Un ejemplo: a este emprendedor le presentaron un caso de una red social para
-químicos. En esta red social los químicos postean artículos sobre sus
-investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo
-reciente o lo más comentado. Además, pueden comentar en los artículos de sus
-colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
+Um exemplo: a esse empreendedor apresentaram um caso de uma rede social para engenheiros químicos. Nesta rede social os químicos postam artigos sobre suas pesquisas e podem encontrar o conteúdo de acordo com a popularidade, o mais recente ou o mais comentado. Além disso, podem comentar nos artigos de seus colegas e podem pesquisar artigos de acordo com determinadas palavras-chave.
 
-## ¿Qué se requiere?
+## O que se pede?
 
-- Trabajar en parejas
-- Tener una planificación
-- La definición del diseño
-- Diseño mobile friendly
-- Desplegar el producto en Github Pages
-- Opcional, si se desarrolla un login o se desea almacenar la información en una
-  base de datos, usar [Firebase](https://firebase.google.com/).
+- Trabalhar em duplas.
+- Ter um planejamento.
+- A definição do layout.
+- Projeto *mobile friendly*.
+- Publicar o produto em Github Pages.
+- Opcionalmente, se criar um login ou se desejar armazenar a informação em uma base de dados, usar [Firebase](https://firebase.google.com/).

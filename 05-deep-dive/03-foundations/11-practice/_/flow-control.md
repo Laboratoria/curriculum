@@ -1,11 +1,11 @@
-# Ejercicios de flow control
+# Exercício de controle de fluxo
 
-## [1. Flujo](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/00-flow.js)
+## [1. Fluxo](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/00-flow.js)
 
-Calcula la potencia de 2 a un número especificado.
+Calcule a potência de 2 de um número especificado.
 
 ```markdown
-Datos de entrada:
+Dados de entrada:
 
 10
 
@@ -14,12 +14,12 @@ Resultado:
 1024
 ```
 
-## [2. Flujo y estructuras de control](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/01-flow.js)
+## [2. Fluxo e estruturas de controle](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/01-flow.js)
 
-Usar estructuras de control para invertir un arreglo de números.
+Use estruturas de controle para inverter um vetor de números.
 
 ```markdown
-Datos de entrada:
+Dados de entrada:
 
 [1,2,3,4,5]
 

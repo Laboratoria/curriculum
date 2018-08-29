@@ -1,82 +1,72 @@
 # DOM
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-- Aprender cómo podemos manipular el DOM a través de jQuery
+- Aprender como podemos manipular o DOM por meio do jQuery
 
-### Manipulación del DOM
+### Manipulação do DOM
 
-jQuery nos proporciona muchos métodos para manipular elementos HTML, los
-más simples pero muy útiles son:
+jQuery nos proporciona muitos métodos para manipular elementos HTML. Os mais simples, mas mais úteis são:
 
 - `.text()`
 - `.html()`
 - `.val()`
 
-Equivalentes a lo que en JavaScript son:
+Os equivalentes em JavaScript são:
 
 - `.textContent`
 - `.innerHTML`
 - `.value`
 
-La diferencia es que en jQuery son funciones y no propiedades.
+A diferença é que em jQuery são funções e não propriedades.
 
-![Ejemplo-text-html-val](https://raw.githubusercontent.com/Laboratoria/curricula-js/30b2d37a0714ed52d2b1ce924951bf61f96916ef/04-social-network/02-jquery/03-dom/text-html-val.png)
+![Exemplo-text-html-val](https://raw.githubusercontent.com/Laboratoria/curricula-js/30b2d37a0714ed52d2b1ce924951bf61f96916ef/04-social-network/02-jquery/03-dom/text-html-val.png)
 
-> Ya sabemos que el HTML no debe llevar nuestro script ahí mismo pero
-> esta imagen es solo para ejemplificar lo arriba mencionado.
+> Já sabemos que o HTML não deve conter nosso script aí mesmo, mas esta imagem é só para exemplificar o que mencionamos acima.
 
-jQuery tiene varios métodos para agregar, eliminar o modificar elementos
-del DOM fácilmente.
+jQuery possui vários métodos para adicionar, eliminar ou modificar elementos do DOM facilmente.
 
-Vamos a entenderlos uno a uno... con su ejemplo.
+Vamos comprender um a um com seu exemplo.
 
-| Método | Descripción | Ejemplo |
+| Método | Descrição | Exemplo |
 | ------ | ----------- | ------- |
-| `.append()` | Inserta contenido **al final** del elemento de destino que se especifica con el selector. | `$('selector').append(contenido);`
-| `.prepend()` | Inserta contenido **al principio** del elemento especificado. | `$('selector').prepend('contenido');`
-| `.before()` | Inserta contenido (elementos nuevos o existentes en el DOM) **antes** del elemento de destino que se especifica con el selector. | `$('selector').before();`
-| `.after()` | Inserta contenido (elementos nuevos o existentes en el DOM) **después** del elemento de destino que se especifica con el selector. | `$('selector').after();`
-| `.empty()` | Elimina los hijos del elemento seleccionado. | `$('selector').empty();`
-| `.remove()` | Remueve los elementos seleccionado especificados por el selector. | `$('selector').remove();`
-| `.replaceAll()` | Sustituye a los elementos seleccionados con nuevos elementos HTML | `$('contenido').replaceAll(selector);`
-| `.wrap()` | El método **envuelve** el elemento HTML especificado alrededor de cada elemento seleccionado | `$('p').wrap(' < div></ div>');`
+| `.append()` | Insere conteúdo **ao final** do elemento de destino especificado no seletor. | `$('selector').append(conteudo);`
+| `.prepend()` | Insere conteúdo **no início** do elemento especificado. | `$('selector').prepend('conteudo');`
+| `.before()` | Insere conteúdo (elementos novos ou existentes no DOM) **antes** do elemento de destino especificado no seletor. | `$('selector').before();`
+| `.after()` | Insere conteúdo (elementos novos ou existentes no DOM) **depois** do elemento de destino que especifica com o seletor. | `$('selector').after();`
+| `.empty()` | Elimina os filhos do elemento selecionado. | `$('selector').empty();`
+| `.remove()` | Remove os elementos selecionados especificados pelo seletor. | `$('selector').remove();`
+| `.replaceAll()` | Substitue os elementos selecionados com novos elementos HTML. | `$('contenido').replaceAll(selector);`
+| `.wrap()` | O método **envolve** o elemento HTML especificado ao redor de cada elemento selecionado. | `$('p').wrap(' < div></ div>');`
 
-### Navegando el DOM
+### Navegando pelo DOM
 
-Para navegar a través del DOM, jQuery también nos ofrece varios métodos
-maravillosos:
+Para navegar por meio do DOM, jQuery também nos oferece vários métodos maravilhosos:
 
-| Método | Descripción | Ejemplo |
+| Método | Descrição | Exemplo |
 | ------ | ----------- | ------- |
-| `.children()` | Devuelve un grupo de elementos que contienen **todos los hijos** inmediatos únicos de cada grupo de elementos previamente seleccionados | `$('selector').children();`
-| `.parent()` | Devuelve el padre directo de un elemento. Si la selección es de un grupo de elementos obtiene un grupo de sus padres directos únicos | `$('selector').parent();`
-| `.parents()` | Obtiene los ancestros de los elementos filtrados por el selector. | `$('selector').parents(selector);`
-| `.find()` | Devuelve una nueva selección que contiene aquellos elementos descendientes de la selección previa que cumplen la condición dada | `$('selector').find(selector para encontrar);`
-| `.each()` | Itera sobre cada elemento especificado (utilizando un selector) y ejecuta la función de devolución de llamada para cada elemento | `$('selector').each(function);`
-| `.first()` | Devuelve el **primer** elemento en el conjunto de los elementos coincidentes | `$('selector').first();`
-| `.next()` | Devuelve el hermano **inmediatamente siguiente** del elemento en el conjunto de los elementos coincidentes | `$('selector').next();`
-| `.prev()` | Devuelve el hermano **anterior** del elemento en el conjunto de los elementos coincidentes | `$('selector').prev();`
-| `.siblings()` | Devuelve **todos** los hermanos del elemento especificado | `$('selector').siblings();`
+| `.children()` | Devolve um grupo de elementos que contém **todos os filhos** imediatos únicos de cada grupos de elementos previamente selecionados. | `$('selector').children();`
+| `.parent()` | Devolve o pai direto de um elemento. Se a seleção é de um grupo de elemento, obtém um grupo de seus pais diretos únicos. | `$('selector').parent();`
+| `.parents()` | Obtém os elementos superiores filtrados pelo seletor. | `$('selector').parents(selector);`
+| `.find()` | Retorna uma nova seleção que contenha os elementos descendentes da seleção prévia que satisfazem a condição dada. | `$('selector').find(seletor para encontrar);`
+| `.each()` | Itera sobre cada elemento especificado (utilizando um seletor) e executa a função de devolução de chamada para cada elemento. | `$('selector').each(function);`
+| `.first()` | Retorna o **primeiro** elemento no conjunto dos elementos coincidentes. | `$('selector').first();`
+| `.next()` | Retorna o irmão **imediato** do elemento no conjunto dos elementos coincidentes. | `$('selector').next();`
+| `.prev()` | Retorna o irmão **anterior** do elemento no conjunto dos elementos coincidentes. | `$('selector').prev();`
+| `.siblings()` | Devolve **todos** os irmãos do elemento especificado. | `$('selector').siblings();`
 
-> **Nota:** Los métodos `.parents()` y `.parent()` son similares, excepto que
-> este ultimo sólo se desplaza un solo nivel en el árbol DOM.
+> **Nota:** Os métodos `.parents()` e `.parent()` são semelhantes, exceto que o último só desloca um nível na árvore DOM.
 
-> Además, `$('html').parent()` devuelve un conjunto que contiene el documento,
-> mientras que `$('html').parents()` devuelve un conjunto vacío.
+> Além disso, `$('html').parent()` retorna um conjunto que contém o documento, enquanto que `$('html').parents()` devolve um conjunto vazio.
 
-### Esto es mucha información
+### Isto é muita informação
 
-Sí, puede parecer algo complejo, pero recordemos que no somos una usb para
-almacenar toda la información, **somos desarrolladoras** que sabemos a
-donde regresar cuando se necesita buscar algo especifico.
+Sim, pode parecer complicado, mas lembremos que não somos um USB para armazenar toda a informação, **somos desenvolvedoras** que sabemos onde procurar quando precisamos saber algo específico.
 
-También es importante recordar que la lista completa de métodos la podemos
-encontrar en la [documentación oficial de jQuery](https://api.jquery.com/) en la
-sección de _manipulation_ y _traversing_.
+Também é importante lembrar que a lista completa de métodos pode ser encontrada na [documentação oficial de jQuery](https://api.jquery.com/) na seção de _manipulation_ y _traversing_.

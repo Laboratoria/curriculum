@@ -1,19 +1,18 @@
-# Ejercicios
+# Exercícios
 
-* Formato: `workshop`
-* Duración: `10 min`
+* Formato: `oficina`
+* Duração: `10 min`
 
 ***
 
-En esta sección practicaremos los siguientes ejercicios:
+Nesta seção praticaremos os seguintes exercícios:
 
-## [3. Objetos y comparación](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/02-structures.js)
+## [3. Objetos e comparação](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundations/foundations/02-structures.js)
 
-Comparación de objetos y estructuras anidadas de objetos. Revisar que dos
-objetos son exactamente los mismos.
+Comparação de objetos e estrutura aninhadas de objetos. Revisar que dois objetos são exatamente os mesmos.
 
 ```markdown
-Datos de entrada:
+Dados de entrada:
 
 let obj1 = { obj1: "elemento" };
 let obj2 = obj1;
@@ -23,16 +22,12 @@ Resultado:
 true
 ```
 
-## [4. Objetos preconstruidos](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundationsfoundations/03-objects.js)
+## [4. Objetos pré-construídos](https://github.com/Laboratoria/ec-js-deep-dive-exercises/blob/foundationsfoundations/03-objects.js)
 
-Escribe, a partir de una expresión regular, una funcion que permita validar los
-elementos de un arreglo que son números soportados por Javascript y entregue
-como salida un arreglo con los que sí son números. Por ejemplo, son números
-aquellos que tienen un sígno menor antes del número (-10), o aquellos que tienen
-un punto decimal después de un número (1.1).
+Escreva, a partir de uma expressão regular, uma função que permita validar os elementos de um vetor que são números suportados em JavaScript e entregue como saída um vetor com só os que são números. Por exemplo, são números aqueles que possuem um sinal de menos antes do número (-10) ou aqueles que possuem um ponto decimal depois de um número (1.1).
 
 ```markdown
-Datos de entrada:
+Dados de entrada:
 
 ['3', '.4', '.', '3+3']
 
@@ -41,6 +36,4 @@ Resultado:
 ['3', '.4']
 ```
 
-> **Hint:** Revisa sintaxis de [expresiones regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
-así como [RegExr](https://regexr.com/) para ayudarte a construir la expresión
-regular.
+> **Dica:** Revise a sintaxe de [expressões regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) assim como [RegExr](https://regexr.com/) para lhe ajudar a construir a expressão regular.

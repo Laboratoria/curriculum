@@ -2,61 +2,60 @@
 
 - Tipo: `quiz`
 - Formato: `guiado`
-- Duración: `30min`
+- Duração: `30min`
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
-  entendimiento pleno de los conceptos.
+- Fazer um segundo quiz para garantirmos que terminamos a unidade com um entendimento completo dos conceitos.
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es jQuery?
+### 1) O que é jQuery?
 
-#### Opciones
+#### Opções
 
-1. jQuery es una librería de JavaScript rápida, pequeña y con muchas funciones.
-2. jQuery un lenguaje de programación inspirado en JavaScript que ayuda a programar de forma rápida y rica en funciones.
-3. jQuery un framework de JavaScript que ayuda a programar de forma rápida y rica en funciones.
+1. jQuery é uma biblioteca de JavaScript rápida, pequena e com muitas funções.
+2. jQuery é uma linguagem de programação inspirada em JavaScript que ajuda a programar de forma rápida e rica em funções.
+3. jQuery é um framework de JavaScript que ajuda a programar de forma rápida e rica em funções.
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Qué te permite hacer jQuery?
+### 2) O que o jQuery permite fazer?
 
-#### Opciones
+#### Opções
 
 1. Manipular HTML / DOM
 2. CSS
-3. Animaciones
-4. Todas las anteriores
+3. Animações
+4. Todas as anteriores
 
 <solution style="display:none;">4</solution>
 
-### 3) jQuery se basa en:
+### 3) jQuery é baseado em:
 
-#### Opciones
+#### Opções
 
-1. ‘La funcionalidad lo es todo’
-2. ‘Menos es más’
-3. ‘Escribe menos, haz más’
+1. ‘A funcionalidade é tudo’
+2. ‘Menos é mais’
+3. ‘Escreva menos, faça mais’
 
 <solution style="display:none;">3</solution>
 
-### 4) ¿Cómo podemos incluir jQuery a nuestro proyecto?
+### 4) Como podemos adicionar jQuery a nosso projeto?
 
-#### Opciones
+#### Opções
 
-1. Descargando el CDN y agregando el link a nuestro HTML
-2. Descargando la librería jQuery
-3. Incluyendo jQuery desde un CDN local
+1. Baixando o CDN e adicionado o link ao nosso HTML
+2. Baixando a biblioteca jQuery
+3. Incluindo jQuery a partir de uma CDN local
 
 <solution style="display:none;">2</solution>
 
-### 5) ¿Qué selector le aplica una acción a todos los elementos <p>?
+### 5) Qual seletor aplica uma ação a todos os elementos?
 
-#### Opciones
+#### Opções
 
 1. $("p").hide();
 2. $("<p>").hide();
@@ -64,9 +63,9 @@
 
 <solution style="display:none;">1</solution>
 
-### 6) ¿Cuál es la sintaxis general de jQuery?
+### 6) Qual é a sintaxe geral de jQuery?
 
-#### Opciones
+#### Opções
 
 1. $(selector).objeto()
 2. $(action).selector()
@@ -74,9 +73,9 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) Si deseo seleccionar el elemento con id blue, ¿Cuál es el selector correcto?
+### 7) Se eu desejar selecionar o elemento com id blue, qual é o seletor correto?
 
-#### Opciones
+#### Opções
 
 1. $(this)·#blue
 2. $('#blue')
@@ -84,9 +83,9 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) ¿Cuál es la forma de decirle a mi programa: ‘Cuando estés listo, haz esto’?
+### 8) Qual a maneira de dizer ao meu programa: ‘Quando estiver pronto, faça isto’?
 
-#### Opciones
+#### Opções
 
 1. $(document).ready(function(){ ..código });
 2. $(document).already(function(){ ..código });
@@ -94,19 +93,19 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Forma correcta de agregar un evento en jQuery:
+### 9) Forma correta de adicionar un evento em jQuery:
 
-#### Opciones
+#### Opções
 
 1. $(document).click(‘p’);
-2. $(document).addEventListener(‘click’, nombreFunción);
+2. $(document).addEventListener(‘click’, nomeFunção);
 3. $(document).click(acción);
 
 <solution style="display:none;">3</solution>
 
-### 10) ¿Cuál de las siguientes opciones corresponde a un evento de jQuery?
+### 10) Qual das seguintes opções correspondem a um evento de jQuery?
 
-#### Opciones
+#### Opções
 
 1. .onclick()
 2. .blur()

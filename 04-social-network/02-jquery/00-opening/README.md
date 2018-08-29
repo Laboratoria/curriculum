@@ -1,43 +1,31 @@
-# Opening: Agiliza tu desarrollo
+# Abertura: Agilize seu desenvolvimento
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- A usar jQuery en nuestros desarrollo
-- A entender el uso de los selectores, manejo del DOM y eventos a través de
-  jQuery
+- A usar jQuery em nossos desenvolvimentos.
+- A entender o uso dos seletores, manipulação do DOM e eventos por meio de JQuery.
 
-## ¿Por qué aprender esto?
+## Por que aprender isto?
 
-En la lección anterior, nuestro nuevo mejor amigo (los frameworks de CSS) nos
-presentó a jQuery aunque nunca nos dijo todas las maravillas que tiene esta
-biblioteca (librería).
+Na lição anterior, nosso novo melhor amigo (os frameworks CSS) nos apresentaram o JQuery ainda que não tenha nos dito todas as maravilhas que esta biblioteca (*library*) possui.
 
-jQuery nos hace mucho más fácil el desarrollo de la funcionalidad y la
-interacción, por lo tanto eso significa que ahorramos tiempo, líneas de código
-y hasta nos puede ayudar a evitar malas prácticas.
+JQuery torna muito mais fácil o desenvolvimento da funcionalidade e da interação, de forma que isso significa que economizamos tempo, linhas de código e pode até nos ajudar a evitar más práticas.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Ya sabemos que cada vez que empezamos a estudiar un tema nuevo, es útil tener
-una idea de los conceptos más importantes que vamos a aprender y de los
-temas centrales a los que debemos prestar particular atención.
+Ja sabemos que cada vez que começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar maior atenção.
 
-Aquí hay una serie de preguntas que debemos ser capaces de responder al
-terminar esta unidad. Vamos a utilizar estas preguntas como guía para orientar
-nuestros esfuerzos de aprendizaje. Nos va a servir como un "checklist" que
-iremos marcando a medida que vayamos progresando, hay que regresar
-constantemente a revisar estas preguntas para validar que vamos avanzando en la
-dirección correcta.
+Aqui há uma série de perguntas que devemos ser capazes de responder ao fim desta unidade. Vamos utilizar estas perguntas como guia para orientar nossos esforços de aprendizagem. Servirá como um *checklist* que iremos marcando à medida que progridamos. Volte constantemente a estas perguntas para garantir que estamos avançando na direção correta.
 
-- ¿Qué es jQuery?
-- ¿Qué son y cómo se usan los selectores de jQuery?
-- ¿Se puede manejar el DOM con jQuery?
-- ¿Cómo podemos crear eventos con jQuery?
+- O que é jQuery?
+- O que são e como usamos os seletores de jQuery?
+- É possível manipular o DOM com jQuery?
+- Como podemos criar eventos com jQuery?

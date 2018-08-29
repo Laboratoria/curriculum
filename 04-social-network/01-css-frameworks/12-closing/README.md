@@ -1,23 +1,21 @@
-# Closing: No reinventes la rueda
+# Encerramento: Não reinvente a roda
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `120min`
+- Duração: `120min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Revisemos o que aprendemos até agora.
 
-### 2. Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
+### 2. Respondamos às perguntas da abertura.
 
-### 3. Respondamos las preguntas del opening
+- O que é um Framework?
 
-- ¿Qué es un Framework?
+- Qual é a diferença entre Bootstrap e Materialize?
 
-- ¿Cuál es la diferencia entre Bootstrap y Materialize?
+- Qual framework é o ideal?
 
-- ¿Qué framework es el ideal?
-
-- ¿Qué ventajas tiene el usarlos en nuestros proyectos?
+- Quais vantagens existem em usá-los em nossos projetos?

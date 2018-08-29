@@ -1,71 +1,62 @@
 # Grid System
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Conocer y entender la estructura de Grid System y cómo podemos crear nuestro
-  sitio con él.
+- Conhecer e entender a estrutura do *Grid System* e como podemos criar nosso site com ele.
 
-## ¿Qué es Grid System?
+## O que é *Grid System*?
 
-Una de las formas más sencillas de lograr un diseño organizado es aplicar un
-Grid System (sistema de cuadriculas). Es una técnica que se originó en el diseño
-gráfico para impresión de textos. Las grids en Responsive Web Design ayudan a
-proporcionar una experiencia uniforme en múltiples dispositivos con diferentes
-tamaños de pantalla.
+Uma das formas mais simples de obter um design organizado é aplicar um *Grid System* (Sistema de Grade). É uma técnica que se originou no design gráfico para impressão de textos. As *grids* (grades) no Web Design Responsivo ajudam a proporcionar uma experiência uniforme em vários dispositivos com diferentes tamanhos de tela.
 
-El grid system ayuda a alinear elementos de página basados ​​en columnas y filas
-secuenciadas. Utilizamos esta estructura basada en columnas para colocar texto,
-imágenes y funciones de manera consistente a lo largo del diseño. Cada elemento
-tiene su lugar que podemos ver al instante y reproducir en otro lugar. Imagina
-que las grid son como las cuadrículas que encontramos en los mapas. Las islas,
-pueblos y lagos aparecerán en una parte exacta de un mapa, en un conjunto de
-coordenadas Norte-Sur/Este-Oeste. Siempre aparecerán en el mismo lugar en otros
-mapas.
+O sistema de grade ajuda a alinhar elementos de página com base em colunas e linhas
+sequenciadas. Usamos essa estrutura baseada em colunas para colocar texto,
+imagens e funções de forma consistente em todo o design. Cada elemento tem o seu lugar que podemos ver instantaneamente e reproduzir em outro lugar.
 
 ![Grid](http://test.visitnorway.org/wp-content/uploads/sites/2/2013/02/Grid_3.png)
 
-Como mencionábamos, un grid consta generalmente de containers (contenedores),
-rows (filas), columns (columnas) y gutters.
+Como mencionamos, uma *grid* geralmente consiste em *containers* (contêineres), *rows* (linhas), *columns* (colunas) e *gutters* (calhas).
 
 ![Grid](https://mdn.mozillademos.org/files/13899/grid.png)
 
-## Elementos del Grid System
+## Elementos do *Grid System*
 
 - Container
 
 ![Container](http://j4n.co/content/4-blog/11-Creating-your-own-css-grid-system/container.png)
 
-El objetivo del container es establecer el ancho de toda la grid. El ancho del
-container generalmente es del 100%, pero también es posible que se desee
-establecer un ancho máximo para pantallas más grandes.
+O objetivo do *container* é estabelecer a largura de toda a *grid*. A largura do *container* é geralmente 100%, mas você também pode querer definir uma largura máxima para telas maiores.
 
 - Row
 
 ![Row](http://j4n.co/content/4-blog/11-Creating-your-own-css-grid-system/row.png)
 
-El propósito del row es evitar que las columns dentro de él se desborden en
-otras rows.
+O objetivo de *row* é impedir que as colunas dentro dela ultrapassem outras *rows*.
+
 
 - Columns
 
 ![Columns](http://j4n.co/content/4-blog/11-Creating-your-own-css-grid-system/column.png)
 
-El proposito de las columns es contener a los elementos que queremos mostrar en
-nuestro sitio web.
+O objetivo de *columns* é conter os elementos que queremos exibir em nosso sítio web.
 
 - Gutters
 
 ![Gutters](http://j4n.co/content/4-blog/11-Creating-your-own-css-grid-system/column-gutters.png)
 
-Los gutters son los espacios entre las columns.
+Os *gutters* são os espaços entre as *columns* (colunas).
 
-***
+## Material complementar
 
-Si quieres entender un poco más cómo funcionan las grids, lee el
-siguiente [artículo](https://medium.com/laboratoria-how-to/cien-por-ciento-divididos-grid-system-y-su-secuaz-el-layout-545e8a90d63e "artículo")
+Se você quiser entender um pouco mais como funcionam as *grids*, leia este [artigo](https://medium.com/@antonellaweyler/grid-system-e-seus-layouts-6cdf653943ba).
+
+Assista esses vídeos para conhecer mais sobre *CSS Grid*:
+
+[![Grid Layout • Crie layouts rapidamente com CSS3](https://img.youtube.com/vi/RNvQzo4DoOA/0.jpg)](https://www.youtube.com/watch?v=RNvQzo4DoOA)
+
+[![FrontInVale 2017 - CSS Grid Layout por Maujor](https://img.youtube.com/vi/6hBFRwpXQko/0.jpg)](https://www.youtube.com/watch?v=6hBFRwpXQko)

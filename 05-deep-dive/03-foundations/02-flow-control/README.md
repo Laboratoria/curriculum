@@ -1,32 +1,28 @@
-# Control de Flujo
+# Controle de Fluxo
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
 ## Loops
 
-### Mecanismos que pueden ser usados con ciclos
+### Mecanismos que podem ser usados com repetições
 
-Los siguientes mecanismos pueden ser usados con ciclos:
+Os mecanismos a seguir podem ser utilizados com repetições:
 
 #### `break [label]`
 
-Sale de un ciclo.
+Sai de uma repetição.
 
 #### `continue [label]`
 
-Detiene la iteración actual e inmediatamente ejecuta la siguiente.
+Interrompe a repetição (iteração) atual e é imediatamente executada a seguir.
 
 #### `Labels`
 
-Un `label`(etiqueta) es un identificador seguido por `:`. Al inicio de un ciclo,
-un label te permite hacer `break` o `continue` incluso si está dentro anidado de
-otro ciclo anidado. Cuando está al inicio de un bloque, te permite salir del
-mismo con la sentencia `break`. En ambos casos, el nombre del label se convierte
-en un argumento de `break` o `continue`. Aquí un ejemplo de `break`:
+Um `label`(etiqueta) é um identificador seguido por `:`. Ao iniciar uma repetição, um *label* permite executar `break` ou `continue` inclusive quando estiver aninhado dentro de outro ciclo aninhado. Quando estamos no início de um bloco, é possível sair dele com o comando `break`. Em ambos os casos, o nome do *label* é convertido em argumento de `break` ou `continue`. Aqui temos um exemplo de `break`:
 
 ```js
 const findEvenNumber = arr => {
@@ -34,36 +30,32 @@ const findEvenNumber = arr => {
     for (let i = 0, l = arr.length; i < l; i++) {
       let element = arr[i];
       if (element % 2 === 0) {
-        console.log(`Found: ${element}`);
+        console.log(`Encontrado: ${element}`);
         break loop;
       }
     }
-    console.log('No even number found.');
+    console.log('Nenhum número par encontrado');
   }
-  console.log('DONE');
+  console.log('TERMINADO');
 };
 ```
 
 ### while
 
-Un ciclo while:
+Uma repetição *while*:
 
 ```js
-while (condition) {
-  // statement
+while (condição) {
+  // instruções
 }
 ```
-
-Ejecuta `statement` tantas veces como la condición se cumpla. Si la condición es
-siempre `true`, entonces entra en un `infinite loop` (ciclo infinito).
+Executa `instruções` pelo número de vezes que a condição seja verdadeira. Se a condição é sempre `true`, então acontece um `infinite loop` (repetição infinita).
 
 ```js
-// infinite loop
+// repetição infinita
 while (1 === 1) { }
 ```
-
-En el siguiente ejemplo, eliminamos todos los elementos del arreglo y los
-mostramos en la consola:
+No exemplo a seguir, eliminados todos os elementos do vetor e os exibimos no console:
 
 ```js
 const arr = ['a', 'b', 'c'];
@@ -74,7 +66,7 @@ while (arr.length > 0) {
 
 /*
  *
- * La salida de este código será:
+ * A saída deste código será:
  * a
  * b
  * c
@@ -84,39 +76,36 @@ while (arr.length > 0) {
 
 ### do-while
 
-Un ciclo do-while:
+Uma repetição *do-while*:
 
 ```js
 do {
-  // statements
+  // instruções
 } while (condition);
 ```
 
-Ejecuta los `statements` al menos una vez y luego tantas veces como se cumpla la
-condición. Por ejemplo:
+Executa as `statements` ao menos uma vez e depois tantas vezes enquanto a condição for verdadeira. Por exemplo:
 
 ```js
 const pattern = /^[0-9]+$/;
 let line;
 do {
-  line = prompt('Enter a number:');
+  line = prompt('Digite um número:');
 } while(!pattern.test(line));
 ```
 
 ### for
 
-En un ciclo for:
+Em uma repetição *for*:
+
 
 ```js
 for ([init]; [condition]; [post_iteration]) {
-  // statements
+  // instruções
 }
 ```
 
-`init` es ejecuta una vez antes que inicie el ciclo, que ejecuta `statements`
-tantas veces como `condition` sea `true`. Puedes usar `let` para declarar
-variables, pero el scope de dicha variable solo será dentro del cliclo.
-`post_iteration` se ejecuta luego de cada iteración. Por ejemplo:
+`init` é executado uma vez antes que a repetição comece; as `instruções` serão executadas o número de vezes que a `condition` seja `true`. Você pode utilizar `let` para declarar variáveis, mas o escopo dessa variável será somente o interior da repetição. `post_iteration` é executado após cada iteração. Por exemplo:
 
 ```js
 const arr = ['a', 'b', 'c'];
@@ -127,7 +116,7 @@ for (let i = 0, l = arr.length; i < l; i++) {
 
 /*
  *
- * El resultado de este código es:
+ * O resultado deste código é:
  * a
  * b
  * c

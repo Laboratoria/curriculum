@@ -1,19 +1,17 @@
-# Closing: el proceso de diseño
+# Encerramento: O processo de design
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `10min`
+- Duração: `10min`
 
 ***
 
 ## Agenda
 
-### 1. Repasemos qué hemos aprendido hasta ahora
+### 1. Repassemos o que aprendemos até agora.
 
-### 2. Conversemos sobre el sentimiento de la clase (resultado del la `auto-evaluación`)
+### 2. Respondamos às perguntas da abertura:
 
-### 3. Respondamos las preguntas del opening
+- Quais são as fases do processo de design?
 
-- ¿Cuáles son las fases de un proceso de diseño?
-
-- ¿Cuál es la ventaja de crear productos centrados en las necesidades del usuario?
+- Qual é a vantagem de criar produtos centrados nas necessidades do usuário?

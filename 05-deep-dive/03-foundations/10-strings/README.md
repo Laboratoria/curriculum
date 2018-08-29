@@ -1,60 +1,57 @@
-# Template Strings
+# Modelo Strings
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-Con ECMAScript 6 se ha tratado de dar respuesta a algunas de las necesidades más
-básicas de los programadores a la hora de trabajar con strings, introduciendo la
-característica de las **plantillas de cadenas de texto**.
+Com ECMAScript 6 foram dadas algumas respostas a algumas necessidades mais básicas dos programadores no momento de trabalhar com strings, introduzindo a característica dos **modelos de cadeias de texto**.
 
-## Sintaxis
+## Sintaxe
 
-El constructor de una plantilla de texto se invoca delimitando el string con el
-carácter de **acento grave:** (\`). Es decir, lo que antes de ES6 hubiese sido:
+O construtor de um modelo de texto é invocado delimitando a string com o caractere de **acento grave:** (\`). Ou seja, antes de ES6 seria:
+
 
 ```js
 // ES5
-var hello = "Hola Mundo";
-// o bien
-var hello = 'Hola Mundo';
+var hello = "Olá Mundo";
+// o também
+var hello = 'Olá Mundo';
 ```
 
-Ahora, se puede expresar con:
+Agora podemos escrever:
 
 ```js
 // ES6
-let hello = `Hola Mundo`;
+let hello = `Olá Mundo`;
 ```
 
-## Cadenas de texto de varias líneas
+## Cadeias de texto de várias linhas
 
-Podemos disponer de cadenas de texto de múltiples líneas, y pasar de esto:
+Podemos dispor de cadeias de texto de múltiplas linhas e passar disto:
 
 ```js
 // ES5
 var text = [
-  'En un lugar',
-  'de la mancha,',
-  'de cuyo nombre',
-  'no quiero acordarme'
+  'Em um lugar',
+  'da mancha,',
+  'de cujo nome',
+  'não quero lembrar'
 ].join('\n');
 ```
 
-A esto:
+para isto:
 
 ```js
 // ES6
-var quijote = `En un lugar
- de la mancha,
- de cuyo nombre
- no quiero acordarme`;
+var quixote = `Em um lugar
+ da mancha,
+ de cujo nome
+ não quero lembrar`;
 ```
 
-En ES5, si queríamos crear un string con contenido no estático, no había muchas
-formas mejores de hacerlo que la siguiente:
+Em ES5 se quiséssemos criar uma string com conteúdo estático, não havia muitas maneiras de fazê-lo a não ser o seguinte:
 
 ```js
 // ES5
@@ -64,25 +61,23 @@ var dani = {
 };
 
 var greet = function(person) {
-    return 'Hello! My name is ' + person.name + ' and I\'m ' + person.age + ' years old';
+    return 'Olá! Meu nome é ' + person.name + ' e eu tenho ' + person.age + ' anos de idade.';
 };
 
 greet(dani);
 ```
 
-Sin embargo, con ES6 ahora podemos convertir la función `greet` en:
+Contudo, com ES6 agora podemos converter a função `greet` em:
 
 ```js
 // ES6
 var greet = function(person) {
-    return `Hello! My name is ${person.name} and I'm ${person.age} years old`;
+    return `Olá! Meu nome é ${person.name} e eu tenho ${person.age} anos de idade.`;
 };
 ```
 
-Esto tiene una ventaja añadida: la de poder hacer sustituciones no solo por un
-valor, sino por cualquier expresión válida en JavaScript dentro de los símbolos
-de interpolación (`${}`):
+Isto possui uma vantagem adicionada: a de poder fazer substituições não somente por um valor, mas por qualquer expressão válida em JavaScript dentro dos símbolos de interpolação (`${}`):
 
 ```js
-let myAge = `Mi edad es ${person.age + 3} años`;
+let minhaIdade = `Minha idade é ${person.age + 3} anos`;
 ```

@@ -1,48 +1,36 @@
-# Opening: La web desde un móvil
+# A Web em um Dispositivo Móvel
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos a:
 
-- A crear una página web utilizando el enfoque de diseño `Responsive Web Design`
-- A utilizar grid system y medias queries para
-  estructurar de mejor manera nuestro sitio.
+- criar uma página web utilizando o enfoque de projeto `Web Design Responsivo`.
+- utilizar *grid system* e *medias queries* para estruturar o site de uma maneira melhor.
 
-## ¿Por qué aprender Responsive Web Design?
+## Por que aprender Web Design Responsivo?
 
-En la actualidad existe una amplia variedad de dispositivos (smartphone,
-tablet, ordenador desktop, laptop...) con sus diferentes formatos de pantalla,
-situación que nos obliga a adaptar nuestros productos digitales a la estructura
-de cada uno de ellos.
+Atualmente existe uma ampla variedade de dispositivos (smartphone, tablet, computador, notebook...) com seus diferentes formatos de tela, condição que nos obriga a adaptar nossos produtos digitais à estrutura de cada um deles.
 
-El reto que tienes en este curso es aprender a crear productos web
-**responsivos** que se adapten y permitan mostrar la versión más optimizada
-para ese medio.
+O desafio que você tem neste curso é aprender a criar produtos web **responsivos** que se adaptem e permitam mostrar a versão mais otimizada para determinado dispositivo.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-- ¿Qué es Responsive Web Design?
+- O que é Web Design Responsivo?
 
-- ¿Cuál es la ventaja de utilizar Responsive Web Design en nuestra página web?
+- Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?
 
-- ¿Qué es Grid System? Explícalo con un ejemplo y un dibujo
+- O que é *Grid System*? Explique com um exemplo e um diagrama.
 
-- ¿Qué son los Media Queries y para qué se utilizan?
+- O que são *Media Queries* e para que servem?
 
-- ¿Para qué sirve la etiqueta meta viewport?
+- Para que serve a tag *meta viewport*?

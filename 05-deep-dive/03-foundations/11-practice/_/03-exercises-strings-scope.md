@@ -1,31 +1,29 @@
-# Ejercicios
+# Exercícios
 
-* Formato: `ejercicio`
-* Duración: `10 min`
+* Formato: `exercício`
+* Duração: `10 min`
 
 ***
 
-En esta sección practicaremos los siguientes ejercicios:
+Nesta seção praticaremos os seguintes exercícios:
 
 ## Block Scoped Declarations
 
-Corregir los siguientes `snippets` de código para que pasen las pruebas como se
-desea:
+Corrigir os seguintes `snippets` de código para que passem nos testes como devido:
 
-* [Ejercicios sobre let](http://tddbin.com/#?kata=es6/language/block-scoping/let)
-* [Ejercicios sobre const](http://tddbin.com/#?kata=es6/language/block-scoping/const)
+* [Exercícios sobre let](http://tddbin.com/#?kata=es6/language/block-scoping/let)
+* [Exercícios sobre const](http://tddbin.com/#?kata=es6/language/block-scoping/const)
 
 ## Template Strings
 
-Corregir los siguientes `snippets` de código para que pasen las pruebas como se
-desea:
+Corrigir os seguintes `snippets` de código para que passem nos testes como devido:
 
-* [Ejercicios básicos](http://tddbin.com/#?kata=es6/language/template-strings/basics)
-* [Ejercicios multilínea](http://tddbin.com/#?kata=es6/language/template-strings/multiline)
+* [Exercícios básicos](http://tddbin.com/#?kata=es6/language/template-strings/basics)
+* [Exercícios multilinha](http://tddbin.com/#?kata=es6/language/template-strings/multiline)
 
 ## [Code Challenges](https://github.com/Laboratoria/ec-js-deep-dive-exercises/tree/es6)
 
-Desarrollar los siguientes ejercicios:
+Desenvolver os sequintes exercícios:
 
-* Entendiendo el ámbito
-* El equipo
+* Entendendo o âmbito
+* A equipe

@@ -1,32 +1,26 @@
 # Operadores
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-En esta lectura vamos a ver algunas peculiaridades sobre los operadoradores de
-igualdad (`==`, `!=`, `===`, `!==`). Al final de la lectura te dejamos como
-referencia el link a la documentación oficial de operadores y expresiones en MDN
-que recomendamos _leer_ (o por lo menos ojear).
+Nesta leitura veremos algumas particularidades sobre os operadores de igualdade (`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para você o link para a documentação oficial de operadores e expressões no MDN que recomendamos que você *leia* (ou olhe pelo menos).
 
-## Diferencia entre `==` y `===`
+## Diferença entre `==` e `===`
 
 ### Algoritmo de `==`
 
-Cuando se evalúan dos valores con este operador, se sigue la secuencia a
-continuación para determinar el resultado:
+Quando avaliamos dois valores com este operador, a sequência a seguir é executada para determinar o resultado:
 
-* Si son del mismo tipo, entonces, se prueban con ===.
-* Si son de diferente tipo.
-  - Si uno es null y otro undefined, retorna true.
-  - Si uno es string y otro number, se convierte el string, y se evalúan como
-    números.
-  - Si uno es booleano, se transforma, true en 1 y false en 0, y se evalúan.
-  - Si uno es un object y otro un number o string, convierte el objeto a
-    primitivo.
-  - En otros casos, devuelve false.
+* Se são do mesmo tipo, então são comparados com ===.
+* Se são de tipos diferentes:
+  - Se um é `null` e outro é `undefined`, retorna `true`.
+  - Se um é uma `string` e outro é um `number`, ele é convertido para `string` e são comparados como números.
+  - Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se comparam.
+  - Se um é um objeto e outro é um `number` ou `string`, converte o objeto para um primitivo.
+  - Em outros casos, retorna `false`.
 
 ```js
 null == undefined // true
@@ -38,17 +32,16 @@ true == 1         // true
 
 ### Algoritmo de `===`
 
-Esta igualdad es más estricta con sus resultados, utilizando la siguiente
-secuencia para determinar el resultado:
+Esta igualdade é mais restrita com os resultados, utilizando a sequência a seguir para determinar o resultado:
 
-* Si tienen diferentes tipos, devuelve false.
-* Si ambos son null, devuelve true.
-* Si ambos son undefined, devuelve true.
-* Si uno o ambos son NaN, devuelve false.
-* Si ambos son true o false, devuelve true.
-* Si ambos son number y tienen el mismo valor, devuelve true.
-* Si ambos son string y tienen el mismo valor, devuelve true.
-* En otros casos, devuelve false.
+* Se possuem tipos diferentes, retorna `false`.
+* Se ambos são `null`, retorna `true`.
+* Se ambos são `undefined`, retorna `true`.
+* Se ambos são `NaN`, retorna `false`.
+* Se ambos são `true` ou `false`, retorna `true`
+* Se ambos são `number` e possuem o mesmo valor, retorna `true`.
+* Se ambos são `string` e possuem o mesmo valor, retorna `true`.
+* Em outros casos, retorna `false`.
 
 ```js
 21 === "21"         // false
@@ -60,33 +53,31 @@ true === 1           // false
 '10' === '10'       // true
 ```
 
-Podrías tener lo siguiente en cuenta para saber cuál operador utilizar:
+Você pode considerar o seguinte para saber qual operador utilizar:
 
-* Si cualquiera de los valores es boolean, utiliza `===`.
-* Si no tienes claro si los valores son convertidos por coerción, usa `===`.
-* En otros casos podrías usar con seguridad `==`.
+* Se qualquer dos valores é booleano, utilize `===`.
+* Se não tiver certeza se os valores podem ser convertidos por coerção, utilize `===`.
+* Nos outros casos pode utilizar `==` com certeza.
 
-> Nota: Por convención y una buena práctica la comunidad promueve el uso de
-`===`.
+> Nota: Por convenção, e uma boa prática a comunidade incentiva o uso de `===`.
 
 ## Desigualdades
 
-Siempre el resultado de evaluar una desigualdad es un booleano. Los siguientes
-operadores son utilizados para comparar desigualdades:
+Sempre o resultado de comparação de uma desigualdade é um booleano. Os operadores a seguir são utilizados para comparar desigualdades:
 
 ```js
 <  → Menor
->  → Mayor
+>  → Maior
 <= → Menor Igual
->= → Mayor Igual
+>= → Maior Igual
 ```
 
-Casos de uso:
+Situações de uso:
 
-* Si alguno es un `object`, se convierte a primitivo y se evalúa.
-* Si ambos son `string`, se evalúa el orden de los caracteres alfabéticamente.
-* Si ambos son `number`, se evalúa.
-* En otros casos es false.
+* Se algum é um `object`, converte-se para primitivo e é comparado.
+* Se ambos são `string`, é comparada a ordem dos caracteres alfabeticamente.
+* Se ambos são `number`, são comparados.
+* Em outros casos retorna `false`.
 
 ```js
 [10] < 9    // false, caso 1
@@ -94,6 +85,6 @@ Casos de uso:
 10 >= 10    // true, caso 3
 ```
 
-## Lecturas complementarias
+## leituras complementares
 
-[Expresiones y Operadores - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)

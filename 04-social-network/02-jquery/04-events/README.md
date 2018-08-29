@@ -1,67 +1,55 @@
 # Eventos
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `90min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de aprendizagem
 
-- Aprender cómo podemos trabajar los eventos a través de jQuery.
+- Aprender como podemos trabalhar com eventos por meio de jQuery.
 
-### Eventos con jQuery
+### Eventos com jQuery
 
-jQuery provee métodos para asociar controladores de eventos
-(en inglés _event handlers_) a selectores. Cuando un evento ocurre, la función
-provista es ejecutada.
+jQuery fornece métodos para associar controladores de eventos(em inglês _event handlers_) a seletores. Quando um evento ocorre a função associada é executada.
 
-La función del controlador de eventos puede recibir un objeto y este puede ser utilizado para determinar el origen de un evento, y/o en casos específicos nos permite prevenir el comportamiento predeterminado de éste.
+A função do controlador de eventos pode receber um objeto e este pode ser utilizado para determinar a origem de um evento e/ou em casos específicos permite evitar o comportamento previsto para ele.
 
-Para leer más a detalle sobre el objeto evento puedes visitar [este link](http://librosweb.es/libro/fundamentos_jquery/capitulo_5/el_objeto_del_evento.html) y este [otro](http://api.jquery.com/category/events/event-object/), no es necesario que los
-entendamos al 100%, ya que sólo leyendo se nos puede dificultar un poco pero a
-la hora que lo pongamos en práctica nos ayudará a entender diferentes
-comportamientos de nuestros eventos.
+Para ler mais detalhes sobre o objeto *evento* você pode visitar [este link](http://librosweb.es/libro/fundamentos_jquery/capitulo_5/el_objeto_del_evento.html) e este [outro](http://api.jquery.com/category/events/event-object/). Não é preciso entender tudo isso 100%, já que só lendo pode ser difícil. Mas quando colocarmos em prática será útil para entender diferentes comportamentos de nossos eventos.
 
 ```javascript
 $('selector').evento(function() {
-  // Instrucciones que serán ejecutadas al momento de ocurrir el evento
+  // Instruções que serão executadas no momento em que o evento for disparado
 });
 ```
 
-En el ejemplo anterior vemos que estamos seleccionando a todos los párrafos que
-podamos tener en nuestro HTML, enseguida le asignamos el evento que vamos a
-usar y por ultimo la serie de instrucciones que deben ocurrir.
+No exemplo anterior vimos que estamos selecionando todos os parágrafos que possamos ter em nosso HTML. Logo depois, atribuímos o evento que vamos usar e por último as instruções que devem ser executadas.
 
 ```javascript
 $('p').click(function() {
     console.log('click');
 });
 ```
-> En el siguiente [link](https://codepen.io/Si7v4n4/pen/OzQdzJ?editors=1010#0)
-podemos ver un ejemplo en donde utilizamos lo ya antes visto (selectores, dom,
-eventos, etc.).
-Puedes modificarlo como gustes,  ¡¡la practica hace a la maestra!!.
+> Neste [link](https://codepen.io/Si7v4n4/pen/OzQdzJ?editors=1010#0) podemos ver um exemplo de onde utilizamos o que já vimos anteriormente (seletores, DOM, eventos, etc.). Pode mexer como quiser, a prática leva à perfeição!
 
-Los eventos que son usados con más frecuencia son:
+Os eventos que são usados com mais frequência são:
 
-| EVENTO | DESCRIPCIÓN |
+| EVENTO | DESCRIÇÃO |
 | ------ | ----------- |
-| `.click()` | Pulsar una vez el ratón sobre un elemento|
-| `.mouseenter()` | El ratón se sitúa encima de un elemento|
-| `.mouseleave()` | El ratón, que estaba situado encima de un elemento, sale de él|
-| `.mousedown()` | Momento en que presiona el botón, independientemente de si se suelta o no, vale tanto para el botón izquierdo como para el derecho.|
-| `.mouseup()` | soltar un botón del ratón después de hacer click. El evento se produce sólo en el momento de soltar el botón. |
-| `.keydown()` | El evento se produce en el momento que se presiona una tecla, independientemente de si se libera la presión o se mantiene. Se produce una única vez en el momento exacto de la presión.|
-| `.keypress()` | Se produce al tener pulsada una tecla, Si se mantiene pulsada, el evento se produce varias veces, de la misma manera que se escriben varios caracteres al mantenerla pulsada. Se corresponde con el hecho de tener la tecla pulsada.|
-| `.keyup()` | El evento se produce en el momento de dejar de presionar una tecla que teníamos pulsada.|
-| `.focus()` | El elemento tiene el foco de la aplicación. igual que el evento "onfocus" de javascript.|
+| `.click()` | Clicar uma vez com o botão do mouse sobre um elemento.|
+| `.mouseenter()` | O cursor do mouse fica em cima de um elemento.|
+| `.mouseleave()` | O cursor do mouse, que estava sobre um elemento, é movido para fora.|
+| `.mousedown()` | Instante em que o botão do mouse é pressioando, independete se for solto ou não. Vale tanto para o botão esquerdo quanto para o botão direito.|
+| `.mouseup()` | Soltar o botão do mouse depois de realizar o click. O evento acontece no momento em que o botão é solto.|
+| `.keydown()` | O evento acontece no momento em que se pressiona uma tecla, independentemente se a mantiver pressionada ou se a soltar. Acontece uma única vez no exato momento em que se pressiona a tecla.|
+| `.keypress()` | Acontece quando uma tecla é pressionada. Se ela é mantida pressionada, o evento ocorre diversas vezes, da mesma forma que se escrevem vários caracteres ao mantê-la pressionada.|
+| `.keyup()` | O evento acontece no momento em que a tecla é liberada após ser pressionada.|
+| `.focus()` | O elemento possui o foco da aplicação. Equivalente ao evento "onfocus" do JavaScript.|
 
 
-Y aquí tenemos una lista de todos los eventos que se pueden usar en jQuery, para
-ejecutar métodos y funciones.
+E aqui temos uma lista de todos os eventos que podem ser utilizados no jQuery, para executar métodos e funções.
 
 ![lista-eventos](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/04-events/lista-eventos.png?raw=true)
 
-Si tienes curiosidad o alguna duda, tal vez este sitio didáctico te pueda ayudar
-a aclararlo: [Try jQuery](http://try.jquery.com/).
+Se você tiver curiosidade ou alguma dúvida, talvez este sítio educativo possa lhe ajudar a esclarecê-la: [Try jQuery](http://try.jquery.com/).

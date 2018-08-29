@@ -1,18 +1,17 @@
-# Solucionario Retos de Código
+# Resolução dos Desafios
 
-- Tipo: `seminario`
+- Tipo: `seminário`
 - Formato: `guiado`
-- Duración: `120min`
+- Duração: `120min`
 
 ***
 
 ## Objetivos
 
-- Revisar las soluciones de los retos que resolvimos
-- Entender que existe más de una forma de resolver los problemas y analizar las
-  ventajas y desventajas de cada solución propuesta
+- Revisar as soluções dos desafios que resolvemos.
+- Entender que existe mais de uma maneira de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta.
 
 ## Agenda
 
-1. Comparar y evaluar las diferentes soluciones y maneras de alcanzar el resultado.
-2. Discutir cuál es la más óptima y por qué
+1. Comparar e avaliar as diferentes soluções e maneira de atingir o resultado.
+2. Discutir qual é a melhor e por quê.

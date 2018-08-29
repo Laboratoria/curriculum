@@ -1,24 +1,17 @@
-# Firebase: Base de datos
+# Firebase: Base de dados
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## ¿Qué es y como podemos usar la base de datos?
+## O que é e como podemos usar a base de dados?
 
-Se le llama base de datos a los bancos de información que contienen datos
-relativos a diversas temáticas y categorizados de distinta manera, pero que
-comparten entre sí algún tipo de vínculo o relación que busca ordenarlos y
-clasificarlos en conjunto.
+Chamamos de base de dados os bancos de informação que contém dados relativos a diversas temáticas e são categorizados de diferentes maneiras, mas que dividem entre si algum tipo de vínculo ou relação que busca organizá-los e classificá-los em conjunto.
 
-Una base de datos es un “almacén” que nos permite guardar grandes cantidades de
-información de forma organizada para que luego la podamos encontrar y utilizar
-fácilmente.
+Uma base de dados é um "armazém" que nos permite guardar grandes quantidades de informação de maneira organizada para que possamos encontrá-la e usá-la facilmente.
 
-Firebase también nos ofrece una base de datos ya lista para usarse desde que
-creamos nuestro proyecto en la consola. En está ocasión, para saber como hacer
-uso de la base de datos nos apoyaremos del siguiente vídeo.
+Firebase também nos oferece uma base de dados pronta para usarmos desde que criemos nosso projeto no console. Nesta ocasião, para saber como fazer uso da base de dados usaremos o seguinte vídeo.
 
-[vídeo](https://youtu.be/HI4TH-Z-szU)
+[vídeo](https://www.youtube.com/watch?v=ML1f7uAf3L4)
