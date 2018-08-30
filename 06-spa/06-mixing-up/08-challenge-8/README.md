@@ -1,8 +1,8 @@
 # PETINDER
 
 - Tipo: `taller`
-- Formato: `self-paced`
-- Duración: `1h`
+- Formato: `individual`
+- Duração: `1h`
 
 ***
 

@@ -1,12 +1,12 @@
 # jQuery AJAX Recap
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Reflexionar sobre lo aprendido de AJAX con jQuery
 
@@ -18,7 +18,7 @@ esta es ahorrarnos tiempo y código para la configuración que se haría
 nativamente a través del objeto `XMLHTTPRequest` además de la verificación
 de compatibilidad entre navegadores.
 
-En una de las lecturas, se hizo la mención a que si era conveniente usar jQuery
+En una de las leituras, se hizo la mención a que si era conveniente usar jQuery
 para estas peticiones asíncronas y expresamos esto debido a que ésta librería
 no está dedicada a solo esto sino a más. La respuesta es que en la actualidad
 se prefiere usar microlibrerías (librerías mucho más pequeñas) que cumplan un

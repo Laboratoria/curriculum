@@ -1,8 +1,8 @@
 # Trivia
 
 - Tipo: `taller`
-- Formato: `self-paced`
-- Duración: `2h`
+- Formato: `individual`
+- Duração: `2h`
 
 ***
 

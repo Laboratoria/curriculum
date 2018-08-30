@@ -2,7 +2,7 @@
 
 - Tipo: `practice`
 - Formato: `pair-programming`
-- Duración: `15h`
+- Duração: `15h`
 
 ## Objetivos
 

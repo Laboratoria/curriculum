@@ -1,12 +1,12 @@
 # AJAX con jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Usar jQuery para hacer requests asíncronos y entender qué ventajas nos da
 
@@ -227,7 +227,7 @@ encontrado, puedes probarlo metiendo un error dentro de la URL por ejemplo.
 
 ## Código fuente de la demo
 
-El código visto en esta lectura lo puedes encontrar en el siguiente pen:
+El código visto en esta leitura lo puedes encontrar en el siguiente pen:
 
 <iframe height='400' scrolling='no' title='AJAX con jQuery' src='//codepen.io/ivandevp/embed/vdxNMd/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/vdxNMd/'>AJAX con jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

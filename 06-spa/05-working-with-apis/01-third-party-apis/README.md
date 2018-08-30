@@ -1,12 +1,12 @@
 # Third party APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender la diferencia entre las APIs del navegador y las APIs de terceros
 - Conocer las ventajas de usar APIs de terceros

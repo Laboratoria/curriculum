@@ -1,12 +1,12 @@
 # Código fuente de jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Revisar el código fuente de jQuery a través del debugger para entender que
   al final usa XHR para los requests asíncronos

@@ -1,8 +1,8 @@
 # Opening: ¿Single Page Application?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 

@@ -1,12 +1,12 @@
 # Project Demo con jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Hacer el mismo demo que se realizó con XHR usando jQuery
 

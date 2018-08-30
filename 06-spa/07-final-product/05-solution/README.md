@@ -2,7 +2,7 @@
 
 - Tipo: `seminario`
 - Formato: `guiado`
-- Duración: `3h`
+- Duração: `3h`
 
 ## Objetivos
 

@@ -1,12 +1,12 @@
 # Opening: A jugar con Web APIs!
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el 
 objetivo de experimentar la extracción de datos sin autenticación, con un token

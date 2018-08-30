@@ -1,8 +1,8 @@
 # Callbacks
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
@@ -22,7 +22,7 @@ console.log(contents);
 
 En este estilo vemos que para imprimir el contenido del archivo, se debe esperar
 a que `readFileSync` termine de leer, no muy eficiente desde el punto de vista
-del usuario, que tiene que esperar que se complete la lectura para empezar
+del usuario, que tiene que esperar que se complete la leitura para empezar
 a ver algo en la pantalla, pero sí desde el punto de vista del programador, que
 solo tiene que ocuparse de que esto funcione, y que con 3 lineas consigue
 obtener los datos, ... y que cada linea se ejecuta después de la otra, por lo
@@ -48,6 +48,6 @@ estamos en una página web). Para esto creamos una función, a la que comúnment
 se le llama *callback*, que será la que se ejecute una vez que lleguen los datos
 del proceso lento.
 
-## Lecturas complementarias
+## leituras complementarias
 
 * [Callback function - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)

@@ -1,12 +1,12 @@
 # RESTful APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender a grandes rasgos qué es REST y cómo detectar qué APIs son RESTful
 
@@ -157,7 +157,7 @@ Fuente: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pr
 >     registro en la base de datos. La información es enviado en el cuerpo de la 
 >     petición, es decir que los datos no son visibles al usuario.
 >     `POST /users`
->   * **GET (read):** es usado para modo lectura, por ejemplo: cuando queremos 
+>   * **GET (read):** es usado para modo leitura, por ejemplo: cuando queremos 
 >     listar a todos los usuarios de nuestra base de datos. Los parámetros son 
 >     enviados por la URL.
 >     `GET /users`

@@ -1,8 +1,8 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
