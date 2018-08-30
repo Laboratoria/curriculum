@@ -1,12 +1,12 @@
 # Comunicación Cliente Servidor
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender el flujo de request y response y qué significa que sea asíncrono
 

@@ -1,12 +1,12 @@
 # Más APIs!
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `40min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Incentivar a explorar otras APIs de HTML5
 

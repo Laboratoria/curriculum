@@ -1,12 +1,12 @@
 # XHR
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `90min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender qué es XHR
 

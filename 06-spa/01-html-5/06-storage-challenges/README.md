@@ -2,7 +2,7 @@
 
 - Tipo: `taller`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
@@ -33,8 +33,8 @@ Alguna vez te has puesto a leer un post de un blog pero te has sentido incómoda
 con la fuente, el tamaño o incluso los colores usados. Es hora de darle una 
 solución, crea un sitio responsive (esto no es necesario indicarlo, pero por si
 las dudas) con un post real (tu preferido, no Lorem Ipsum) y dale la opción a tu
-usuario de personalizar su modo de lectura de la mejor forma que creas 
+usuario de personalizar su modo de leitura de la mejor forma que creas 
 conveniente.
 
-Algo muy similar al ejemplo visto en [la lectura del self-learning anterior](https://mdn.github.io/dom-examples/web-storage/). 
+Algo muy similar al ejemplo visto en [la leitura del self-learning anterior](https://mdn.github.io/dom-examples/web-storage/). 
 Si deseas que se mantenga la configuración del usuario guardada, ¿qué usarás?

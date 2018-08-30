@@ -1,13 +1,13 @@
 # Promesas
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
 Hasta ahora hemos visto el uso de _callbacks_ para manejar tareas asíncronas. En
-esta lectura introducimos un tipo de dato nuevo (`Promise`), que está
+esta leitura introducimos un tipo de dato nuevo (`Promise`), que está
 específicamente diseñado para encapsular operaciones asíncronas y poder
 encadenarlas.
 
@@ -182,6 +182,6 @@ Una promesa puede encontrarse en estos estados:
 * **rejected**: operación fallida o rechazada.
 * **settled**: la Promise ha sido exitosa o rechazada, pero no está pendiente.
 
-## Lecturas complemenentarias
+## leituras complemenentarias
 
 * [Promises - Jake Archibald - Google Developers](https://developers.google.com/web/fundamentals/primers/promises)

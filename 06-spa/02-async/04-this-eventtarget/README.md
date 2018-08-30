@@ -1,8 +1,8 @@
 # `this` vs `event.target`
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
@@ -70,7 +70,7 @@ elementos dinámicamente, estos no se verán afectados por el evento. Por otro
 lado, si evitamos la iteración, podemos ganar rendimiento. Para eso utilizamos
 la Delegación de eventos que consiste en escuchar el evento en el elemento
 padre solamente para luego capturarlo cuando ocurra en sus hijos. Esto gracias
-a un comportamiento de los eventos que vimos en la lectura pasada `Bubbling`.
+a un comportamiento de los eventos que vimos en la leitura pasada `Bubbling`.
 
 ## Recordemos Bubbling
 
@@ -136,7 +136,7 @@ $('.gallery-container').on('eventType', '.gallery-item', () =>
 
 ## Sobre ES6 y this
 
-En esta lectura estamos usando `ES6` (si no lo estás usando, deberías). Ten en
+En esta leitura estamos usando `ES6` (si no lo estás usando, deberías). Ten en
 cuenta que si usas una `arrow function` para el `eventHandler` no podrás
 capturar el elemento que dispara el evento usando `this` (como en `ES5`) por
 eso se recomienda usar `e.target`

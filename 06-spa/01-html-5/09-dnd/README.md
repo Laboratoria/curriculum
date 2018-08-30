@@ -1,12 +1,12 @@
 # Drag and Drop
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `90min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 Entender a grandes rasgos qué es el Drag and Drop y cómo usar para
 algunas aplicaciones.

@@ -1,25 +1,25 @@
 # Creando tu propio SPA
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
 - Crear tu propio SPA de manera guiada y poniendo en práctica los conceptos
-  vistos en la lectura anterior.
+  vistos en la leitura anterior.
 
 ## ¿Cómo construir un SPA?
 
-En esta lectura, te vamos a dejar un poco libre, pero siempre con la mejor 
+En esta leitura, te vamos a dejar un poco libre, pero siempre con la mejor 
 intención, ¡qué aprendas!. Para construir un SPA, hay muchas formas de hacerlo y
 dependiendo de cada persona los gustos pueden ser variados y por lo tanto, las
 herramientas a usar no suelen ser las mismas. Para guiarte en el desarrollo de 
 tu producto de listaremos diversos recursos y esperamos puedas escoger con el
 que te sientas más cómoda, recuerda siempre que los componentes más comunes son
-los vistos en la lectura anterior. Así que aquí vamos.
+los vistos en la leitura anterior. Así que aquí vamos.
 
 ***
 
@@ -61,7 +61,7 @@ Entre los frameworks más populares puedes encontrar a [React](https://reactjs.o
 embargo, otros frameworks un poco más antiguos como [Backbone](http://backbonejs.org/),
 [AngularJS](https://angularjs.org/) o [Ember](https://www.emberjs.com/) no 
 están descartados. Esperamos que hayas podido revisar la página de [TodoMVC](http://todomvc.com/) 
-en la lectura anterior y hayas visto un poco la sintaxis/estructura peculiar y 
+en la leitura anterior y hayas visto un poco la sintaxis/estructura peculiar y 
 alguna de ellas te haya llamado la atención si quieres usar esta opción ;).
 
 > **Nota:** Al haber un mundo tan variado de tecnologías, es muy probable que

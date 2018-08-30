@@ -1,12 +1,12 @@
 # APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender qué es una API enfocado al entorno de AJAX y dónde podemos
   encontrarlas

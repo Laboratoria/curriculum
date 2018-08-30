@@ -1,68 +1,44 @@
 # HTML vs HTML5
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué siginifica HTML5
-- Dejar claro que HTML5 no hace referencia solo a HTML
+- Entender o que significa HTML5
+- Deixar claro que HTML5 não faz referência somente ao HTML
 
 ## HTML5
 
-> HTML5 es la última versión de HTML. El término representa dos conceptos 
-> diferentes:
+> HTML5 é a última versão de HTML. Ela apresenta dois conceitos diferentes:
 >
-> - Se trata de una nueva versión de HTML, con nuevos elementos, atributos y 
->   comportamientos.
-> - Contiene un conjunto más amplio de tecnologías que permite a los sitios Web 
->   y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se 
->   le llama _HTML5 y amigos_, a menudo reducido a **HTML5**.
+> - Trata-se de uma nova versão de HTML, com novos elementos, atributos e comportamentos.
+> - Contém um conjunto mais amplo de tecnologias que permite aos sítios web a às aplicações serem mais diversas e terem grande alcance. Este conjunto se chama _HTML5 e > amigos_ frequentemente reduzido para **HTML5**.
 >
-> Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta 
-> página referencía numerosos recursos sobre las tecnologías de HTML5, 
-> clasificados en varios grupos según su función.
+> Projetado para ser utilizável por todos os desenvolvedores da Open Web, esta página referencia numerosos recursos sobre as tecnologias de HTML5, classificados em vários grupos segundo sua função.
 
-> - **Semántica:** Permite describir con mayor precisión cual es su contenido.
-> - **Conectividad:** Permite comunicarse con el servidor de formas nuevas e 
->   innovadoras.
-> - **Sin conexión y almacenamiento:** Permite a las páginas web almacenar datos 
->   localmente en el lado del cliente y operar sin conexión de manera más eficiente.
-> - **Multimedia:** Nos otorga un excelente soporte para utilizar contenido 
->   multimedia como lo son audio y video nativamente.
-> - **Gráficos y efectos 2D/3D:** Proporciona una amplia gama de nuevas 
->   características que se ocupan de los gráficos en la web como lo son canvas 
->   2D, WebGL, SVG, etc.
-> - **Rendimiento e Integración:** Proporciona una mayor optimización de la 
->   velocidad y un mejor uso del hardware.
-> - **Acceso al dispositivo:** Proporciona APIs para el uso de varios 
->   compomentes internos de entrada y salida de nuestro dispositivo.
-> - **CSS3:** Nos ofrece una nueva gran variedad de opciones para hacer diseños 
->   más sofisticados.
+> - **Semântica:** Permite descrever com maior precisão qual é seu conteúdo.
+> - **Conectividade:** Permite comunicação com o servidor de maneiras novas e inovadoras.
+> - **Sem conexão e armazenamento:** Permite às páginas web armazenar dados localmente no lado do cliente e operar sem conexão de maneira mais eficiente.
+> - **Multimídia:** Fornece um excelente suporte para utilizar conteúdo multimídia como áudio e vídeo nativo.
+> - **Gráficos e efeitos 2D/3D:** Proporciona uma ampla gama de novas características que os gráficos da web utilizam como canvas, 2D, WebGL, SVG, etc.
+> - **Rendimento e Integração:** Proporciona uma maior otimização de velocidade e um melhor uso do hardware.
+> - **Acesso ao dispositivo:** Fornece API's para o uso de vários componentes internos de entrada e saída de nosso dispositivo.
+> - **CSS3:** Oferece uma nova e vasta variedade de opções para fazer projetos mais sofisticados.
  
-Este es un [extracto de la documentación de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5)
-que podemos encontrar sobre HTML5.
+Este é um [trecho da documentação de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5) que podemos encontrar sobre HTML5.
 
-## Entonces, ¿la diferencia es que es la última versión de HTML?
+## Então, a diferença é que é a última versão de HTML?
 
-Sí y no. Es cierto que HTML5 es la última versión de HTML, pero además engloba
-un conjunto de tecnologías que define el estándar en relación a la web, tales
-como CSS3 y un término que ahora escucharás muy seguido: **APIs**. Este último 
-nos dará a conocer los superpoderes del navegador y entenderemos porqué el 
-navegador se ha potenciado mucho desde sus inicios. 
+Sim e não. É correto que HTML5 é a última versão de HTML, mas além disso engloba um conjunto de tecnologias que define o padrão em relação à web, tais como CSS3 e um termo que você ouvirá frequentemtente: **API's**. Este último nos permitirá conhecer os superpoderes do navegador e entenderemos porque o navegador melhorou muito desde seu início.
 
-## Sabías que...
+## Você sabia que...
 
-En realidad ya se está trabajando en el primer borrador de la revisión del 
-estándar **HTML5.3** :scream:. En este [blog de la W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/) 
-puedes encontrar información al respecto.
+Na realidade já estão trabalhando no primeiro rascunho da revisão do padrão **HTML5.3**: _scream_. Neste [blog da W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/) você pode encontrar informação a respeito.
 
-Además, si quieres ir conociendo un poco más acerca de lo que HTML5 trae consigo,
-puedes revisar el siguiente video de nuestros amigos de Platzi, que si bien el 
-video ya tiene varios años en internet, todavía nos puede dar una gran 
-perspectiva del impacto que tuvo la llegada de este nuevo estándar.
+Também, se você quiser ir conhecendo um pouco mais sobre o que o HTML5 traz consigo, você pode revisar o seguinte vídeo de nossos amigos da Platzi. O vídeo tem vários anos na internet, mas pode nos dar uma grande perspectiva do impacto que houve com a chegada desse novo padrão.
 
 [![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0) 

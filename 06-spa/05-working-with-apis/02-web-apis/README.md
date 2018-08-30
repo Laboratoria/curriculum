@@ -1,12 +1,12 @@
 # Web APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `40min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Conocer e identificar los distintos tipos de Web APIs con los que podemos
   trabajar
@@ -22,7 +22,7 @@ dónde podemos ver cuáles existen. Para ello, te dejamos los siguientes recurso
 - [API Directory](https://www.programmableweb.com/apis/directory)
 - [API List](https://apilist.fun/)
 
-Para el objetivo de esta lectura, vamos a enfocarnos en un recurso que no hemos
+Para el objetivo de esta leitura, vamos a enfocarnos en un recurso que no hemos
 listado hace un momento: [Public APIs](https://github.com/toddmotto/public-apis).
 Este repositorio a diferencia de los demás, tiene una manera sintetizada de 
 mostrar la autenticación que requiere un API (los demás recursos también 
@@ -92,7 +92,7 @@ playlists y demás.
 
 ## Autenticación y Autorización
 
-Estos dos términos fueron mencionados a lo largo de esta lectura, es importante
+Estos dos términos fueron mencionados a lo largo de esta leitura, es importante
 hacer mención que son 2 aspectos de seguridad que las APIs toman en cuenta al
 momento del diseño e implementación.
 

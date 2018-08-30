@@ -1,12 +1,12 @@
 # Web Storage
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Aprender a almacenar datos en el navegador a través de la API de Web Storage
 
@@ -19,7 +19,7 @@ mucho más intuitiva que utilizando cookies.
 Los dos mecanismos en el almacenamiento web son los siguientes:
 
 - `sessionStorage` mantiene un área de almacenamiento separada para cada origen 
-  que está disponible por la duración de la sesión de la página (tanto si el 
+  que está disponible por la Duração de la sesión de la página (tanto si el 
   navegador esta abierto como si no, incluyendo recargas de página y 
   restablecimientos).
 - `localStorage` hace lo mismo, pero persiste incluso cuando el navegador es 

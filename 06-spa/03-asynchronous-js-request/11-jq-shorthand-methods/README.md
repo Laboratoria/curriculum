@@ -1,12 +1,12 @@
 # Métodos cortos de AJAX con jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Revisar los _shorthand methods_ que ofrece jQuery para hacer requests asíncronos
 

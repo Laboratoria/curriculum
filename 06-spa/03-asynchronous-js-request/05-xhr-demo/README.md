@@ -1,12 +1,12 @@
 # XHR Project Demo
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `120min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Usar XHR para construir una aplicación
 

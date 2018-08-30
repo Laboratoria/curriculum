@@ -1,12 +1,12 @@
 # Opening: ¿Qué significa traer datos de un servidor asíncronamente?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 El objetivo de esta unidad es llevar a la práctica el ciclo request/response de 
 HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y 

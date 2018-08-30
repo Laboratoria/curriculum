@@ -1,12 +1,12 @@
 # AJAX
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender qué significa AJAX
 
@@ -59,8 +59,8 @@ casi instantáneas fueron increíbles.
 
 [Video AJAX](https://www.youtube.com/watch?v=_ybgWmSCAu8)
 
-En la lectura y vídeo anterior se menciona JSON y XML, vayamos a este [enlace](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
+En la leitura y vídeo anterior se menciona JSON y XML, vayamos a este [enlace](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
 para leer al respecto.
 
-Y por último terminamos con esta [lectura](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72)
+Y por último terminamos con esta [leitura](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72)
 que nos resume y explica con otras palabras que es AJAX.

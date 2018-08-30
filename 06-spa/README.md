@@ -134,6 +134,6 @@ Referencia:
 
 ...
 
-## Lecturas complementarias
+## leituras complementarias
 
 ...

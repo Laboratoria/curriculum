@@ -1,8 +1,8 @@
 # Schedule builder
 
 - Tipo: `taller`
-- Formato: `self-paced`
-- Duración: `3h`
+- Formato: `individual`
+- Duração: `3h`
 
 ***
 
