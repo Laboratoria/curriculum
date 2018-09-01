@@ -150,17 +150,18 @@ queremos utilizar.
 
 Aquí una pequeña lista de presets populares:
 
-* [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
-* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (este usaremos nosotros)
+* [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada y recomendada)
+* [es2015](http://babeljs.io/docs/plugins/preset-2015/)
 * [es2016](http://babeljs.io/docs/plugins/preset-2016/)
 * [es2017](http://babeljs.io/docs/plugins/preset-2017/)
-* [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
+* [react](http://babeljs.io/docs/plugins/preset-react/)
 
 Si quieres saber más de [babel](http://babeljs.io/), visita su
 [documentación](https://babeljs.io/docs/setup/). Para conocer todos los
 *features* soportados, chequea las [lista de plugins y presets](https://babeljs.io/docs/plugins/).
 
-## Usando `Babel` en nuestro ejemplo
+
+## Usando `ES6` y `JSX`
 
 Ya tienes todos tus componentes declarados en `JSX`, ahora veremos algunas
 características de `ES6` que nos serán bien útiles en `React`.
@@ -256,11 +257,3 @@ const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion' };
 ```
 
 Ten en cuenta que **ambas expresiones** son **equivalentes**.
-
-## Ejercicio
-
-Continua con la conversión de todos tus componentes usando los características
-de ES6 que acabamos de ver.
-
-En la próxima lectura vamos a extraer nuestro código `React` fuera de nuestro
-archivo `html`, y así comenzar a modularizar nuestra aplicación.
