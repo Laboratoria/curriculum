@@ -47,7 +47,8 @@ Aquí es donde entra en acción Redux.
 
 ### Configurando el store
 
-Creamos un nuevo archivo `lib/store.js` que contendrá la configuración de nuestro Redux store
+Creamos un nuevo archivo `lib/store.js` que contendrá
+la configuración de nuestro `store`
 
 ```js
 // lib/store.js

@@ -4,12 +4,12 @@
 * Formato: `self-paced`
 * Duración: `5min`
 
-## Objetivos del seminario
+## Objetivos de Aprendizaje
 
-* Hacer un resumen de lo que vamos a aprender en esta unidad
-* Explicar los entregables que se esperan de las alumnas
-* Aclarar la _hoja de ruta_ de la unidad en el contexto del curso
-* Preguntas y conceptos clave de esta unidad
+* Enteder qué es y para que sirve `React`
+* Familiarizarse con las piezas claves de esta librería
+* Entender las diferencias, pros y contras de los enfoques
+  *statefull* y *stateless* en `React`
 
 ***
 

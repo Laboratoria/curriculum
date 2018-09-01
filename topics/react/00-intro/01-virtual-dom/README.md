@@ -6,7 +6,7 @@
 
 ***
 
-`React` es una librería (no un *framework*, una ***librería***) open source
+`React` es una librería (no un *framework*, una **librería**) open source
 desarrollada por Facebook para crear interfaces de usuario, a través de
 componentes dinámicos y reusables.
 
