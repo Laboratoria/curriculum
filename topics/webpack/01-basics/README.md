@@ -6,22 +6,6 @@
 
 ***
 
-## Intro
-
-Si miras hacia atrás verás las diferentes transformaciones que hemos ido
-aplicando a nuestro código. La anterior y las dos lecturas que siguen, ya no se
-enfocan en el código como tal, sino en la estructura de nuestra aplicación y el
-proceso de desarrollo.
-
-Si te pones a analizar, verás que tenemos una aplicación fragmentada:
-
-* por un lado tenemos un archivo `js` super moderno, transpilado y empaquetado
-  por `babel`, con todo lo que necesita
-* y por el otro tenemos nuestro `html` recontra vieja escuela, que se encarga de
-  importar el estilo por un lado, el código empaquetado por el otro, las
-  dependencias de react y además definir el `container` para los componentes de
-  `React`.
-
 ## ¿Qué es `Webpack` y para qué sirve?
 
 `Webpack` es un empaquetador (`bundler`) de módulos y archivos (`assets`) para
@@ -87,7 +71,7 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
    (sumadas a las que ya teníamos anteriormente)
 
    ```sh
-   yarn add -D babel-core babel-preset-es2015 babel-preset-react-boilerplate
+   yarn add -D babel-core babel-preset-env babel-preset-react
    ```
 
 3. Instalamos `webpack`, sus `plugins`, `loaders` y utils, también como
@@ -111,9 +95,8 @@ a funcionar para nosotros. Asi es que mejor comenzamos.
    ```json
    {
      "presets": [
-       "es2015",
+       "env",
        "react",
-       "react-boilerplate"
      ],
      "plugins": [
        "react-hot-loader/babel"
