@@ -1,4 +1,4 @@
-# Cierre
+# Encerramento
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,19 +6,19 @@
 
 ***
 
-## Resumen
+## Resumo
 
-Llegamos al final de la unidad ;-)
+Chegamos ao final da unidade ;-)
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Qué es una tarea asíncrona?
-* Qué significa bloquear el _hilo_ o _thread_
-* Qué es un _callback_
-* Qué es un _evento_
-* Cómo escuchar _eventos_
-* Cómo dejar de escuchar _eventos_
-* Qué es una promesa?
-* Cómo usar promesas?
-* Cómo implementar promesas nuevas
-* Cómo encadenar promesas
+* O que é uma tarefa assíncrona?
+* O que significa bloquear a *thread*?
+* O que é um _callback_
+* O que é um _evento_
+* Como ouvir _eventos_
+* Como deixar de ouvir _eventos_
+* O que é uma promessa?
+* Como usar promessas?
+* Como implementar novas promessas?
+* Como encadear promessas?
