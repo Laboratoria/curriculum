@@ -134,8 +134,26 @@ Te aconsejamos revisar la rúbrica:
 
 ## Pistas / Tips / Lecturas complementarias
 
+Antes de elegir un framework, te recomendamos leer los siguientes artículos:
+
 * [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
 * [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
+
+No dejes de explorar la documentación oficial de cada herramienta:
+
+* [React - docs oficiales](https://reactjs.org/)
+* [Angular - docs oficiales](https://angular.io/)
+* [Vue - docs oficiales](https://vuejs.org/)
+
+Independientemente de si eliges React, Vue o Angular, todos estas herramientes
+se usan muchas veces en conjunción con Redux.
+
+* [Redux - docs oficiales](https://redux.js.org/)
+
+Otros:
+
+* [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
+
 
 ## Checklist
 
