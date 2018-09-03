@@ -3,33 +3,35 @@
 ## Preámbulo
 
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
-son algunos de los _frameworks_ de JavaScript más utilizados por lxs
-desarrolladorxs alrededor del mundo, y hay una razón para eso.
+son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
+lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
 es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Al elegir una _framework_ para nuestra interfaz, nos apoyamos en una serie de
-convenciones e implementaciones _probadas_ y _documentadas_ para resolver un
-problema común a toda interfaz web. Esto nos permite concentrarnos mejor
-(dedicar más tiempo) en las caractrísticas _específicas_ de nuestra aplicación.
+Al elegir un _framework_ o _librería_ para nuestra interfaz, nos apoyamos en una
+serie de convenciones e implementaciones _probadas_ y _documentadas_ para 
+resolver un problema común a toda interfaz web. Esto nos permite concentrarnos
+mejor (dedicar más tiempo) en las caractrísticas _específicas_ de
+nuestra aplicación.
 
-Cuando elegimos un _framework_ no solo importamos un pedacito de código para
-reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
+Cuando elegimos una de estas tecnologías no solo importamos un pedacito de 
+código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
 **arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
 **abstracciones**, un **vocabulario**, una **comunidad**, ...
 
-Como desarrolladora Front-end, los _frameworks_ pueden resultarte de gran ayuda
-para implementar rápidamente características de los proyectos en los que trabajes.
+Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte 
+de gran ayuda para implementar rápidamente características de los proyectos en 
+los que trabajes.
 
 ![caracoles](http://www.animated-photography.com/images/portfolio/full/Evolution.jpg)
 
 ## Introducción
 
 En este proyecto tendrás la oportunidad de _re-escribir_ tu proyecto anterior de
-la _red social_, pero esta vez usando un _framework_.
+la _red social_, pero esta vez usando un _framework_ o una _librería_.
 
-Creemos que la mejor manera de enfrentarte a estos _frameworks_ es
+Creemos que la mejor manera de enfrentarte a estas herramientas es
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
-cero, su alcance, sus particularidads, el flujo, las validaciones, etc.
+cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
 
 El alcance del proyecto y el detalle de sus características es exactamente
@@ -39,16 +41,15 @@ incluyendo la parte de Hacker Edition.
 ## Objetivos
 
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
-usando el _framework_ elegido, y todo lo que ello conlleva: **documentación**,
-**arquitectura**, **principios de diseño**, **paradigma**, **abstracciones**,
-**vocabulario**, **herramientas**, **comunidad**, ...
+usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva: 
+**documentación**, **arquitectura**, **principios de diseño**, **paradigma**, **abstracciones**, **vocabulario**, **herramientas**, **comunidad**, ...
 
 Por otro lado, tener que _re-escribir_ un programa es una experiencia de
 aprendizaje muy valiosa en sí misma, llevándonos a re-evaluar e iterar sobre
 un producto o prototipo. Dada la velocidad a la que evoluciona la tecnología
 web, es muy común tener que enfrentarse a este tipo de escenario donde decidimos
 (o alguien decide por nosotros) que lo mejor para seguir evolucionando una
-aplicación es re-escribirla usando un nuevo _framework_ o tecnología.
+aplicación es re-escribirla usando una nueva tecnología.
 
 ## Consideraciones generales
 
@@ -57,7 +58,7 @@ Este proyecto se debe "resolver" en duplas.
 Discutan y pónganse de acuerdo sobre cuál de los proyectos van a hacer desde cero.
 Si no se pueden poner de acuerdo en 10 minutos, [aquí hay algo que puede ayudar](https://justflipacoin.com/)
 
-Investiguen un poco sobre estos tres _frameworks_ y elijan con cuál
+Investiguen un poco sobre estas tres herramientas y elijan con cuál
 quieren trabajar.
 
 TBD
