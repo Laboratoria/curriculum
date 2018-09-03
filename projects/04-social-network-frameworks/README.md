@@ -8,18 +8,18 @@ lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
 es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
 Al elegir un _framework_ o _librería_ para nuestra interfaz, nos apoyamos en una
-serie de convenciones e implementaciones _probadas_ y _documentadas_ para 
+serie de convenciones e implementaciones _probadas_ y _documentadas_ para
 resolver un problema común a toda interfaz web. Esto nos permite concentrarnos
 mejor (dedicar más tiempo) en las caractrísticas _específicas_ de
 nuestra aplicación.
 
-Cuando elegimos una de estas tecnologías no solo importamos un pedacito de 
+Cuando elegimos una de estas tecnologías no solo importamos un pedacito de
 código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
 **arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
 **abstracciones**, un **vocabulario**, una **comunidad**, ...
 
-Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte 
-de gran ayuda para implementar rápidamente características de los proyectos en 
+Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte
+de gran ayuda para implementar rápidamente características de los proyectos en
 los que trabajes.
 
 ![caracoles](http://www.animated-photography.com/images/portfolio/full/Evolution.jpg)
@@ -41,8 +41,9 @@ incluyendo la parte de Hacker Edition.
 ## Objetivos
 
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
-usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva: 
-**documentación**, **arquitectura**, **principios de diseño**, **paradigma**, **abstracciones**, **vocabulario**, **herramientas**, **comunidad**, ...
+usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva:
+**documentación**, **arquitectura**, **principios de diseño**, **paradigma**,
+**abstracciones**, **vocabulario**, **herramientas**, **comunidad**, ...
 
 Por otro lado, tener que _re-escribir_ un programa es una experiencia de
 aprendizaje muy valiosa en sí misma, llevándonos a re-evaluar e iterar sobre
