@@ -191,6 +191,6 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 ### Despliegue
 
-* [ ] webpack
-* [ ] Configura entorno de desarrollo
-* [ ] Configura entorno de producción
+* [ ] webpack.
+* [ ] Configura entorno de desarrollo.
+* [ ] Configura entorno de producción.
