@@ -107,25 +107,14 @@ puedas haber encontrado en el camino.
 | Arquitectura | 2
 | Patrones/paradigmas | n/a
 
-### UX
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 3
-| Entrevistas | 2 |
-| Testing | 2
-| User Flow | 2
-| Jerarquía | 3
-| Alineación | 3
-| Contraste | 3
-| Color | 3
-| Tipografía | 3
-
 ### Habilidades Blandas
 
-Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus habilidades blandas. 
-Igualmente para llevar tus habilidades al siguiente nivel, te invitamos a alcanzar un nivel 5 en ellas. 
-Particularmente entrena tu habilidad de autoaprendizaje, de planificación y organización, y también de dar y recibir feedback.
+Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus
+habilidades blandas. Igualmente para llevar tus habilidades al siguiente nivel,
+te invitamos a alcanzar un nivel 5 en ellas. Particularmente entrena tu
+habilidad de autoaprendizaje, de planificación y organización, y también de dar
+y recibir feedback.
+
 Te aconsejamos revisar la rúbrica:
 
 | Habilidad | Nivel esperado |
@@ -154,12 +143,7 @@ Te aconsejamos revisar la rúbrica:
 
 ### `README.md`
 
-* [ ] Definición del producto.
-* [ ] Benchamark de las principales redes sociales.
-* [ ] Resumen de entrevistas con usuarios.
-* [ ] Link/screenshots prototipo de alta fidelidad.
-* [ ] Conclusiones de pruebas del prototipo con usuarios.
-* [ ] Conclusiones de pruebas con el producto en HTML.
+* [ ] Información sobre instalación y despliegue de tu aplicación.
 
 ### Pruebas / tests
 
