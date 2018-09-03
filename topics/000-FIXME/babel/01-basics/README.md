@@ -150,7 +150,8 @@ queremos utilizar.
 
 Aquí una pequeña lista de presets populares:
 
-* [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada y recomendada)
+* [env](http://babeljs.io/docs/plugins/preset-env/)
+  (la última versión aprobada y recomendada)
 * [es2015](http://babeljs.io/docs/plugins/preset-2015/)
 * [es2016](http://babeljs.io/docs/plugins/preset-2016/)
 * [es2017](http://babeljs.io/docs/plugins/preset-2017/)
@@ -159,7 +160,6 @@ Aquí una pequeña lista de presets populares:
 Si quieres saber más de [babel](http://babeljs.io/), visita su
 [documentación](https://babeljs.io/docs/setup/). Para conocer todos los
 *features* soportados, chequea las [lista de plugins y presets](https://babeljs.io/docs/plugins/).
-
 
 ## Usando `ES6` y `JSX`
 
