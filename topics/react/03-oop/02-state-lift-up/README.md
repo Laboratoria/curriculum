@@ -58,7 +58,7 @@ class Calculadora extends React.Component {
 }
 ```
 
-[**Pruébalo en CodePen**](https://codepen.io/gaearon/pen/ZXeOBm?editors=0010)
+[**Pruébalo en CodePen**](https://codepen.io/merunga/pen/gdWove?editors=0010)
 
 ## Agregando un segundo input
 
@@ -117,7 +117,7 @@ class Calculadora extends React.Component {
 }
 ```
 
-[**Pruébalo en CodePen**](https://codepen.io/gaearon/pen/jGBryx?editors=0010)
+[**Pruébalo en CodePen**](https://codepen.io/merunga/pen/GXmyXd?editors=0010)
 
 Ya tenemos 2 inputs, pero si cambias uno el otro no se actualiza, y según
 nuestro requerimiento, necesitamos que estén sincronizados.
@@ -304,7 +304,7 @@ class Calculadora extends React.Component {
 }
 ```
 
-[**Pruébalo en CodePen**](https://codepen.io/gaearon/pen/WZpxpz?editors=0010)
+[**Pruébalo en CodePen**](https://codepen.io/merunga/pen/NLjXXE?editors=0010)
 
 Ahora, no importa qué input editemos, `this.state.temperatura` y
 `this.state.escala` en `Calculadora` se actualizan.
