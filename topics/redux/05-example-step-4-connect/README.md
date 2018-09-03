@@ -1,4 +1,4 @@
-# React + Redux = Awesome
+# Ejemplo Redux + React - Paso 4: `connect` HOC
 
 * Tipo: `lectura`
 * Formato: `self-paced`

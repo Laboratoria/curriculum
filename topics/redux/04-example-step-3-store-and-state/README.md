@@ -1,4 +1,4 @@
-# React + Redux = Awesome
+# Ejemplo Redux + React - Paso 3: Store & State
 
 * Tipo: `lectura`
 * Formato: `self-paced`

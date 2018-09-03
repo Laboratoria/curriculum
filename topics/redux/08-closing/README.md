@@ -1,4 +1,4 @@
-# Cierre
+# Ejemplo Redux + React: Cierre
 
 * Tipo: `lectura`
 * Formato: `self-paced`

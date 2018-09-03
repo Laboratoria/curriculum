@@ -1,4 +1,4 @@
-# React + Redux = Awesome
+# Ejemplo Redux + React - Paso 1: Diseño
 
 * Tipo: `lectura`
 * Formato: `self-paced`

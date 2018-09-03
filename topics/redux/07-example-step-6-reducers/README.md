@@ -1,4 +1,4 @@
-# React + Redux = Awesome
+# Ejemplo Redux + React - Paso 6: reducers
 
 * Tipo: `lectura`
 * Formato: `self-paced`
