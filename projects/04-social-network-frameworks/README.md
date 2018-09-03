@@ -143,13 +143,16 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [Vue - docs oficiales](https://vuejs.org/)
 
 Independientemente de si eliges React, Vue o Angular, todos estas herramientes
-se usan muchas veces en conjunción con Redux.
+se usan muchas veces en conjunción con Redux como manejador de _estado_.
 
 * [Redux - docs oficiales](https://redux.js.org/)
 
 Otros:
 
+* [create-react-app](https://github.com/facebook/create-react-app)
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
+* [Angular CLI](https://cli.angular.io/)
+* [Vue CLI](https://cli.vuejs.org/)
 
 
 ## Checklist
