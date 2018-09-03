@@ -109,9 +109,12 @@ puedas haber encontrado en el camino.
 
 ### Habilidades Blandas
 
-Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus habilidades blandas. 
-Igualmente para llevar tus habilidades al siguiente nivel, te invitamos a alcanzar un nivel 5 en ellas. 
-Particularmente entrena tu habilidad de autoaprendizaje, de planificación y organización, y también de dar y recibir feedback.
+Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus
+habilidades blandas. Igualmente para llevar tus habilidades al siguiente nivel,
+te invitamos a alcanzar un nivel 5 en ellas. Particularmente entrena tu
+habilidad de autoaprendizaje, de planificación y organización, y también de dar
+y recibir feedback.
+
 Te aconsejamos revisar la rúbrica:
 
 | Habilidad | Nivel esperado |
