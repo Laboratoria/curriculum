@@ -188,3 +188,9 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 * [ ] Permite editar posts (in place).
 * [ ] Permite filtrar posts por público/amigos.
 * [ ] Permite marcar posts como _gustados_ (like).
+
+### Despliegue
+
+* [ ] webpack
+* [ ] Configura entorno de desarrollo
+* [ ] Configura entorno de producción
