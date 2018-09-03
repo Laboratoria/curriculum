@@ -123,19 +123,21 @@ puedas haber encontrado en el camino.
 
 ### Habilidades Blandas
 
-Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
-habilidades blandas. Te aconsejamos revisar la rúbrica:
+Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus habilidades blandas. 
+Igualmente para llevar tus habilidades al siguiente nivel, te invitamos a alcanzar un nivel 5 en ellas. 
+Particularmente entrena tu habilidad de autoaprendizaje, de planificación y organización, y también de dar y recibir feedback.
+Te aconsejamos revisar la rúbrica:
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
-| Planificación y organización | 3
-| Autoaprendizaje | 3
-| Solución de Problemas | 3
-| Dar y recibir feedback | 3
-| Adaptabilidad | 3
-| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 3
-| Comunicación eficaz | 3
-| Presentaciones | 3
+| Planificación y organización | 4
+| Autoaprendizaje | 4
+| Solución de Problemas | 4
+| Dar y recibir feedback | 4
+| Adaptabilidad | 4
+| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 4
+| Comunicación eficaz | 4
+| Presentaciones | 4
 
 ***
 
