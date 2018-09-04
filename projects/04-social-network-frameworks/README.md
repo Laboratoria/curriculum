@@ -138,9 +138,25 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
 No dejes de explorar la documentación oficial de cada herramienta:
 
+### React
+
 * [React - docs oficiales](https://reactjs.org/)
+* [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
+* [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
+
+
+### Angular
+
 * [Angular - docs oficiales](https://angular.io/)
+* [Angular - tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
+* [Angular - crud](https://www.youtube.com/watch?v=6wVolJfXn1c)
+* [Angular - redux](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3FtoplJe0JOpiV6OyK30wd)
+
+### Vue
+
 * [Vue - docs oficiales](https://vuejs.org/)
+* [Vue- adicional](https://scotch.io/search?q=vue)
+* [Vue- school](https://vueschool.io/)
 
 Independientemente de si eliges React, Vue o Angular, todos estas herramientes
 se usan muchas veces en conjunción con Redux como manejador de _estado_.
@@ -153,7 +169,6 @@ Otros:
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 * [Angular CLI](https://cli.angular.io/)
 * [Vue CLI](https://cli.vuejs.org/)
-
 
 ## Checklist
 
@@ -194,9 +209,3 @@ Otros:
 * [ ] Permite editar posts (in place).
 * [ ] Permite filtrar posts por público/amigos.
 * [ ] Permite marcar posts como _gustados_ (like).
-
-### Despliegue
-
-* [ ] webpack.
-* [ ] Configura entorno de desarrollo.
-* [ ] Configura entorno de producción.
