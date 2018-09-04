@@ -56,7 +56,8 @@ aplicación es re-escribirla usando una nueva tecnología.
 
 Este proyecto se debe "resolver" en duplas.
 
-Discutan y pónganse de acuerdo sobre cuál de los proyectos van a hacer desde cero.
+Discutan y pónganse de acuerdo sobre cuál de los proyectos van a hacer desde
+cero.
 Si no se pueden poner de acuerdo en 10 minutos, [aquí hay algo que puede ayudar](https://justflipacoin.com/)
 
 Investiguen un poco sobre estas tres herramientas propuestas (React, Angular y
