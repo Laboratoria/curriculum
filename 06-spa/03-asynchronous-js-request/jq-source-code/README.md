@@ -1,4 +1,4 @@
-# Código fuente de jQuery
+# Código fonte de jQuery
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -8,10 +8,9 @@
 
 ## Objetivos de Aprendizagem
 
-- Revisar el código fuente de jQuery a través del debugger para entender que
-  al final usa XHR para los requests asíncronos
+- Revisar o código fonte de jQuery com o *debugger* para compreender que no fim ele utilizar XHR para as requisições assíncronas.
 
-Referencia:
+Referência:
 
 - https://classroom.udacity.com/courses/ud109/lessons/3cad9ae5-9def-458d-8c44-cc23cf7e37a3/concepts/9bac1c70-165c-4a41-853e-a063b83f64d1
 - https://classroom.udacity.com/courses/ud109/lessons/3cad9ae5-9def-458d-8c44-cc23cf7e37a3/concepts/005f9d90-3a7c-4ec9-b289-5f486c04cdff
