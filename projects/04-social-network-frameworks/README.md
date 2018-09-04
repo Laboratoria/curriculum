@@ -56,8 +56,7 @@ aplicación es re-escribirla usando una nueva tecnología.
 
 Este proyecto se debe "resolver" en duplas.
 
-Discutan y pónganse de acuerdo sobre cuál de los proyectos van a hacer desde
-cero.
+Discutan y pónganse de acuerdo sobre cuál de los proyectos van a hacer desde cero.
 Si no se pueden poner de acuerdo en 10 minutos, [aquí hay algo que puede ayudar](https://justflipacoin.com/)
 
 Investiguen un poco sobre estas tres herramientas propuestas (React, Angular y
@@ -144,7 +143,6 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [React - docs oficiales](https://reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
-
 
 ### Angular
 
