@@ -26,8 +26,8 @@ los que trabajes.
 
 ## Introducción
 
-En este proyecto tendrás la oportunidad de _re-escribir_ tu proyecto anterior de
-la _red social_, pero esta vez usando un _framework_ o una _librería_.
+En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
+la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
 
 Creemos que la mejor manera de enfrentarte a estas herramientas es
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
@@ -36,7 +36,7 @@ Concéntrate en aprender y utilizar estas nuevas tecnologías.
 
 El alcance del proyecto y el detalle de sus características es exactamente
 [el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
-incluyendo la parte de Hacker Edition.
+incluyendo la parte de Hacker Edition pero excluyendo la parte de UX.
 
 ## Objetivos
 
@@ -108,11 +108,17 @@ puedas haber encontrado en el camino.
 
 ### Habilidades Blandas
 
-Para este proyecto esperamos que ya hayas consolidado un nivel 4 en todas tus
-habilidades blandas. Igualmente para llevar tus habilidades al siguiente nivel,
-te invitamos a alcanzar un nivel 5 en ellas. Particularmente entrena tu
-habilidad de autoaprendizaje, de planificación y organización, y también de dar
-y recibir feedback.
+Para este proyecto esperamos que ya hayas consolidado el nivel 4 en todas tus
+habilidades blandas pero te invitamos que las lleves al siguiente nivel
+alcanzando el nivel 5 en todasvellas. Particularmente, entrena tu habilidad de
+autoaprendizaje, planificación y organización, y dar y recibir feedback.
+
+Recuerda la importancia de organizar, dividir y planificar tu trabajo.
+Particularmente lo que se refiere a probar/experimentar lo nuevo de manera
+aislada y no necesariamente en el mismo código que ya tienes implementado.
+Muchas cosas pueden interferir en lo que estás intentando hacer y puede parecer
+que no está bien lo que intentas cuando no es así. Revisa las diapos 15 y 16 de
+la [guia general para organizar, dividir y planificar tu ttrabajo](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
 Te aconsejamos revisar la rúbrica:
 
@@ -135,6 +141,13 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
 * [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
 * [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
+
+Hemos preparado algunos videos introductorios:
+
+* [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
+* [Introducción a Angula (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
+* [Introducción a React (Elizabeth)](https://reactjs.org/)
+* [Introducción a Vue (Luis)](https://vuejs.org/)
 
 No dejes de explorar la documentación oficial de cada herramienta:
 
