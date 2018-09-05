@@ -1,6 +1,6 @@
 # Code Review
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
 - Duração: `3h`
 
@@ -8,14 +8,11 @@
 
 ## Objetivos
 
-- Obtener feedback de tus compañeras sobre la limpieza y orden de tu código
-- Continuar con la práctica de cómo es presentar código ante el público
+- Obter feedback de suas companheiras sobre a limpeza e ordem de seu código
+- Continuar com a prática de como é apresentar código para o público
 
 ## Agenda
 
-1. En tu squad, cada pareja de las coders debe explicar brevemente el código que
-   desarrolló para el producto final y sus compañeras deben darle feedback
-2. Luego de haber revisado todos los productos realizados, cada pareja debe
-   decidir si implementyas los cambios mencionados durante el feedback
-3. Finalmente, deben prepararse para exponer ese código ante la clase y sus
-   profes.
+1. Na sua dupla, cada uma das programadoras deve explicar rapidamente o código que desenvolveu para o projeto final e suas colegas devem dar o feedback
+2. Após ter revisado todos os projetos realizados, cada dupla deve decidir se implementará as mudanças sugeridas no feedback
+3. Finalmente, devem se preparar para apresentar o código para a turma e suas professoras.

@@ -1,6 +1,6 @@
 # Retrospectiva
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
 - Duração: `2h`
 
@@ -8,11 +8,10 @@
 
 ## Objetivo
 
-- Reflexionar sobre la manera en la que estás aprendiendo
-- Identificar las cosas que están funcionando, las que no y las que debemos
-  empezar a hacer
+- Refletir sobre a maneira que você está aprendendo
+- Identificar as coisas que estão funcionando, as que não estão e as que devemos começar a fazer
 
 ## Agenda
 
-1. Revisar resultados de la encuesta de cierre
+1. Revisar resultados da pesquisa de encerramento
 2. Retrospectiva
