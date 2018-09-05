@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Aprender a armazenar dados no navegador por meio da API de Web Storage
+- Aprender a armazenar dados no navegador por meio da API de Web Storage.
 
 ## Armazenamento web
 
@@ -21,11 +21,11 @@ Os dois mecanismos de armazenamento web são os seguintes:
 
 Fonte: [MDN - API de armazenamento web](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web)
 
-Veja o seguinte link: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/), jogue com ele e recarregue a página, se deseja fechar a janela ou o navegador e volte a acessar. Ele dissie quantas mudanças suas permaneceram? Isto é o que a API de Web Storage (armazenamento web) permite que façamos facilmente.
+Veja o seguinte link: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/), jogue com ele e recarregue a página, se deseja fechar a janela ou o navegador e volte a acessar. Ele disse quantas mudanças suas permaneceram? Isto é o que a API de Web Storage (armazenamento web) permite que façamos facilmente.
 
 Ainda não está claro pra você? Aqui deixamos um [post de Medium](https://medium.com/laboratoria-how-to/api-web-storage-ad9b1efa9b01) escrito por nossa super professora Marcia no qual ela explica os métodos que temos disponíveis por meio desta API.
 
-Você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe permite ver um exemplo de como usar `localStorage`.
+Se você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe permite ver um exemplo de como usar `localStorage`.
 
 [![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)](https://youtu.be/hb8O0qRqiSk)
 
@@ -33,10 +33,10 @@ Você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe p
 
 Se você assistiu ao vídeo, percebeu que ele usa os métodos `JSON.stringify()` e `JSON.parse()`. Se não o viu, é bom que tenha em mente ambos os métodos.
 
-Como é mencionando na parte superior, esta API armazena elementos no formato de chave/valor. Exemplo: se tenho o nome do usuário em uma variável chamada `name` e quero armazená-la no navegador, você faria o seguitne:
+Como é mencionando na parte superior, esta API armazena elementos no formato de chave/valor. Exemplo: se tenho o nome do usuário em uma variável chamada `name` e quero armazená-la no navegador, você faria o seguinte:
 
 ```javascript
-const name = 'nome de usuario';
+const name = 'nome de usuário';
 /*
  * name é o identificador (chave), 
  * e o valor está armazenado na variável `name`
@@ -79,7 +79,7 @@ Isto acontece porque o interpretador trata de converter o objeto para uma string
 
 Enfim, como resolvemos esta inconveniência e conseguimos armazenar nosso objeto? Entendamos o que fazem os seguintes métodos:
 
-- `JSON.stringify()`: converte o objeto que é passado como argumento para uma string, serializando as propriedades e valore.
+- `JSON.stringify()`: converte o objeto que é passado como argumento para uma string, serializando as propriedades e valores.
 - `JSON.parse()`: converte a string passada como argumento para um objeto, desserializando as propriedades e valores.
 
 Exemplo:
@@ -93,7 +93,7 @@ const user = {
 };
 
 /*
- * Aqui guardamos o objeto em forma de string
+ * Aqui guardamos o objeto em forma de string.
  */
 sessionStorage.setItem('loggedUser', JSON.stringify(user));
 
@@ -103,10 +103,10 @@ console.log(sessionStorage.getItem('loggedUser'));
 
 // home.html
 /*
- * Aqui obtemos o objeto em forma de string  convertemos (parser) para objeto
+ * Aqui obtemos o objeto em forma de string  convertemos (parser) para objeto.
  */
 const loggedUser = JSON.parse(sessionStorage.getItem('loggedUser'));
 console.log(typeof loggedUser); // "object"
 ```
 
-> Para finalizar, não esqueça de que o que foi armazenado no localStorage é peristido mesmo quando fechamos o navegador. Logo, se desejamos limpar ou apagar o que temos armazenado, devemos usar os métodos `.removeItem()` ou `.clear()` dependendo se queremos eliminar uma chave específica ou todas.
+> Para finalizar, não esqueça de que o que foi armazenado no localStorage é persistido mesmo quando fechamos o navegador. Logo, se desejamos limpar ou apagar o que temos armazenado, devemos usar os métodos `.removeItem()` ou `.clear()` dependendo se queremos eliminar uma chave específica ou todas.

@@ -12,10 +12,10 @@
 
 Podemos fazê-lo com a API de Open Trivia DB.
 
-- Você escolhe o design
-- Deve ser *mobile first*
-- Você deve subir seu projeto nas `Github Pages`
-- Usar framework de CSS da sua escolha
+- Você escolhe o design.
+- Deve ser *mobile first*.
+- Você deve subir seu projeto nas `Github Pages`.
+- Usar framework de CSS da sua escolha.
 
 ### Recursos
 
@@ -29,7 +29,7 @@ _Agradecemos a [@yoobi55](https://github.com/yoobi55) por emprestar seu design p
 
 ### Hacker Edition
 
-- Fazer um Log In
+- Fazer um Log In.
 - O usuário pode escolher entre dois tipos de jogo:
-  * Verdadeiro/falso
-  * Múltipla escolha
+  * Verdadeiro/falso;
+  * Múltipla escolha.

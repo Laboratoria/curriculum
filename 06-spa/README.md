@@ -2,10 +2,10 @@
 
 Neste curso você aprenderá tudo o que é necessário para poder criar uma _Single Page Application_ que consuma dados de forma assíncrona. Para isso, você aprenderá a:
 
-1. Reconhecer o que acontece no ambiente web (HTTP)
-2. Comunicar-se com servidores por meio de API's e estruturação de dados em arquivos XML, JSON ou YAML
-4. Usar API's públicas como Google Maps
-3. Criar interações que não recarreguem a página por meio de requsições assíncronas
+1. Reconhecer o que acontece no ambiente web (HTTP);
+2. Comunicar-se com servidores por meio de API's e estruturação de dados em arquivos XML, JSON ou YAML;
+4. Usar API's públicas como Google Maps;
+3. Criar interações que não recarreguem a página por meio de requisições assíncronas.
 
 ## Público alvo
 
@@ -15,20 +15,20 @@ Este curso é dirigido a estudantes da Labortória. É o segundo curso da especi
 
 Para acompanhar este curso, você deve ter completado os curso do núcleo comum e `Crie sua própria biblioteca usando JavaScript: JS Deep Dive` da Laboratória. Presume-se que as alunas tenham conhecimentos de HTML, CSS, JavaScript e jQuery.
 
-## Você aprenderá a
+## Você aprenderá 
 
-- O que é o protocolo HTTP
-- Como obter dados de um servidor (API's)
-- Criar interações sem recarregar a página
+- O que é o protocolo HTTP;
+- Como obter dados de um servidor (API's);
+- Criar interações sem recarregar a página.
 
 ## Produto
 
 Ao longo deste curso, você construirá uma cópia de AIRDNA, um serviço que recupera dados do [Airbnb](https://www.airbnb.com/) para dar recomendações sobre lugares onde alugar é uma grande opção econômica, desenvolvendo as seguintes características:
 
-* Adaptável à tela de qualquer dispositivo
-* Recuperar dados de uma API pública e processá-la
-* Mostrar informação em um mapa interativo por meio do Google Maps
-* Realizar o fluxo de um sítio web completo em uma única página sem a necessidade de recarregar a página
+* Adaptável à tela de qualquer dispositivo;
+* Recuperar dados de uma API pública e processá-la;
+* Mostrar informação em um mapa interativo por meio do Google Maps;
+* Realizar o fluxo de um sítio web completo em uma única página sem a necessidade de recarregar a página.
 
 ## Syllabus
 
@@ -50,7 +50,7 @@ Referência:
 
 JavaScript é uma linguagem que por natureza serve para manipular assincronia sem bloqueio do processo, graças às suas funções de alta ordem e à própria arquitetura dos motores de JavaScript.
 
-Tudo o que seja interação com usuários, acesso de rede, acesso ao disco rígido, ... serão sempre operações assíncronas, em que o resultada de uma chamada não retorna imediatamente e sim após um tempo.
+Tudo o que seja interação com usuários, acesso de rede, acesso ao disco rígido, ... serão sempre operações assíncronas, em que o resultado de uma chamada não retorna imediatamente e sim após um tempo.
 
 Manipular o HTML por meio do DOM é genial, contudo no desenvolvimento de aplicações web estas alterações se realizam logo após certa interação por parte do usuário por meio de `eventos`. Nesta lição focaremos em entender aspectos importantes do comportamento de eventos e como manipulá-los.
 
@@ -75,7 +75,7 @@ Referência:
 
 ### Unidade 06: [Misturemos, pratiquemos e aprendamos!](06-mixing-up)
 
-Esta unidade é complementamente prática. O objetivo é realizar a maior quantidade de exercícios possíveis para colocar em prática todos os conceitos aprendidos neste curso.
+Esta unidade é completamente prática. O objetivo é realizar a maior quantidade de exercícios possíveis para colocar em prática todos os conceitos aprendidos neste curso.
 
 Referência:
 
@@ -91,8 +91,8 @@ Referência:
 
 ## Autor(es) / Colaboradores
 
-* Steph Salazar
-* Ivan Medina
+* Steph Salazar.
+* Ivan Medina.
 
 ## Libros
 

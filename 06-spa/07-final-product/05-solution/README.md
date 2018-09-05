@@ -6,8 +6,8 @@
 
 ## Objetivos
 
-- Revisar as soluções de SPA
-- Entender que existe mais de uma forma de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta
+- Revisar as soluções de SPA.
+- Entender que existe mais de uma forma de resolver os problemas e analisar as vantagens e desvantagens de cada solução proposta.
 
 ***
 
@@ -15,11 +15,11 @@
 
 1. Por meio de exemplos precisamos garantir que entendemos:
 
-  - Componentes da web
-  - API's de HTML5
-  - API's de terceiros
-  - Chamadas assíncronas
-  - CRUD e REST
-  - SPA
+  - Componentes da web;
+  - API's de HTML5;
+  - API's de terceiros;
+  - Chamadas assíncronas;
+  - CRUD e REST;
+  - SPA.
 
-2. Resolver dúvidas das partes mais complexas do produto final com base no percebido na turma
+2. Resolver dúvidas das partes mais complexas do produto final com base no percebido na turma.

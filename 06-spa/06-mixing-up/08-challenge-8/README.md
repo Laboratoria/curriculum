@@ -22,13 +22,13 @@ O gesto de tocar um elemento e arrastá-lo com os dedos, conhecido como *Swipe*.
 
 Nesta aplicação usaremos:
 
-- [API de Petfinder](https://www.petfinder.com/developers/api-docs)
-- [Hammer.js](https://hammerjs.github.io/), para controlar gesto no celular
-- Responsive Web Design
+- [API de Petfinder](https://www.petfinder.com/developers/api-docs);
+- [Hammer.js](https://hammerjs.github.io/), para controlar gesto no celular;
+- Responsive Web Design.
 
 ## Referência
 
-Deixamos aqui um vídeo como referência o qual mostra como você pode estrutura sua interface. Ele menciona React e constrói uma API usando Node.js e outras ferramentas. Para este desafio não é necessário que você as use, mas nada impede se você quiser testá-las ;)
+Deixamos aqui um vídeo como referência o qual mostra como você pode estruturar sua interface. Ele menciona React e constrói uma API usando Node.js e outras ferramentas. Para este desafio não é necessário que você as use, mas nada impede se você quiser testá-las ;)
 
 [![Whiskr](https://img.youtube.com/vi/qW5-C7skuU0/0.jpg)](https://youtu.be/qW5-C7skuU0)
 

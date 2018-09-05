@@ -12,7 +12,7 @@
 
 ## Obter dados
 
-Analisamos os conceitos de Ajax e que é a tecnologia que utilizaremos para adicionar dados a nosso projeto de forma assíncrona. Mas, de onde vêm esses dados? Como podemos acessá-los? Como nossa aplicação saberá como deve recuperar esses dados?
+Analisamos os conceitos de Ajax que é a tecnologia que utilizaremos para adicionar dados a nosso projeto de forma assíncrona. Mas, de onde vêm esses dados? Como podemos acessá-los? Como nossa aplicação saberá como deve recuperar esses dados?
 
 Usaremos uma API para interagir com várias fontes de dados.
 
@@ -26,4 +26,4 @@ Uma API é uma "chave de acesso" a funções que podemos utilizar de um serviço
 
 ![exemplosAPI](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/03-apis/ejemplos-apis.png?raw=true)
 
-[Google](https://developers.google.com/apis-explorer/#p/) conta com uma quantidade enorme de API's. POdemos fazer uso de algumas delas ou buscar outros sítios que oferecem ou usam API's.
+[Google](https://developers.google.com/apis-explorer/#p/) conta com uma quantidade enorme de API's. Podemos fazer uso de algumas delas ou buscar outros sítios que oferecem ou usam API's.

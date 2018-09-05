@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Revisar o código fonte de jQuery com o *debugger* para compreender que no fim ele utilizar XHR para as requisições assíncronas.
+- Revisar o código fonte de jQuery com o *debugger* para compreender que no fim ele utiliza XHR para as requisições assíncronas.
 
 Referência:
 

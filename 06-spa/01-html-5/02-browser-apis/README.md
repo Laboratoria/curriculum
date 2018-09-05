@@ -8,9 +8,9 @@
 
 ## Objetivos de Aprendizagem
 
-- O que é uma API
-- Quais API's o HTML5 oferece
-- Quais API's abordaremos
+- O que é uma API?
+- Quais API's o HTML5 oferece?
+- Quais API's abordaremos?
 
 ## HTML5 e a magia de suas API's
 
@@ -20,12 +20,12 @@ Na leitura anterior, descobrimos que HTML5 vem com um conjunto de API's. Vamos e
 
 > ### Então, o que é uma API?
 >
-> Uma interface de programação de aplicações é uma coleção de instruções e padrões de programação para acessar uma aplicação. Com uma API, é possível projetor produtos baseados nos serviçoes que a API disponibiliza.
+> Uma interface de programação de aplicações é uma coleção de instruções e padrões de programação para acessar uma aplicação. Com uma API, é possível projetar produtos baseados nos serviços que a API disponibiliza.
 >
 > HTML5 possui várias API's novas. Por exemplo:
 >
 > - Uma API de desenho em 2D utilizada com o novo elemento de canvas para representar gráficos e outras imagens visuais;
-> - Um mecanismo de API de memória cache que suporte aplicações web _offline_
+> - Um mecanismo de API de memória cache que suporte aplicações web _offline_;
 > - Uma API para reproduzir vídeo e áudio utilizado com os novos elementos de vídeo e áudio;
 > - Uma API de histórico que faz com que o histórico de navegação seja acessível e permita que as páginas a utilizem;
 > - Uma API para arrastar e soltar para ser utilizada com o atributo _draggable_;

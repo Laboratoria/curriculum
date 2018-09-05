@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Entender o que ´CRUD e como podemos gerar uma aplicação consumindo uma API RESTful
+- Entender o que é `CRUD` e como podemos gerar uma aplicação consumindo uma API RESTful.
 
 ## CRUD: Create, Read, Update and Delete
 
@@ -24,7 +24,7 @@ Estas são as operações mais comuns que queremos ter no caso de uma API, que m
 
 Para esclarecer o assunto, vamos assistir ao vídeo a seguir, até 3min15s.
 
-> Nota: O vídeo é bem longo (1h28min04s)!!! Os primeiros três minutos mostra o que é CRUD e que uso teria uma aplicação com Firebase. Depois, inicia com o desenvolvmento de uma aplicação e se você o acompanhar este é um excelente exercício guiado.
+> Nota: O vídeo é bem longo (1h28min04s)!!! Os primeiros três minutos mostra o que é CRUD e que uso teria uma aplicação com Firebase. Depois, inicia com o desenvolvimento de uma aplicação e se você o acompanhar este é um excelente exercício guiado.
 
 [Vídeo](https://www.youtube.com/watch?v=cQmwK306XaI)
 

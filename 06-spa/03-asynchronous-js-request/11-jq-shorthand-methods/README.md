@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Revisar os _shorthand methods_ que jQuery fornecer para fazer requisições assíncronas
+- Revisar os _shorthand methods_ que jQuery fornecer para fazer requisições assíncronas.
 
 ## Shorthand Methods
 

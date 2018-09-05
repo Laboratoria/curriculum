@@ -26,7 +26,7 @@ Trata-se do método mais simples e ao mesmo tempo menos profissional de indicar 
 <input type="button" value="Clique em mim e verás" onclick="console.log('Obrigado por clicar');" />
 ```
 
-Neste médodo, são definidos atributos XHTML com o mesmo nome dos eventos que desejamos manipular. O exemplo anterior só quer controlar o evento de clicar com o mouse, cujo nome é *onclick*. Assim, o elemento XHTML para o qual queremos definir esse evento deve incluir um atributo chamado *onclick*.
+Neste método, são definidos atributos XHTML com o mesmo nome dos eventos que desejamos manipular. O exemplo anterior só quer controlar o evento de clicar com o mouse, cujo nome é *onclick*. Assim, o elemento XHTML para o qual queremos definir esse evento deve incluir um atributo chamado *onclick*.
 
 O conteúdo do atributo é uma cadeia de texto que contém todas as instruções JavaScript que são executadas quando o evento é disparado. Neste caso, o código JavaScript é muito simples:
 
@@ -38,7 +38,7 @@ Neste outro exemplo, quando o usuário clica sobre o elemento `<div>`é mostrada
 
 ```html
 <div onclick="console.log('Você clicou com o mouse.');" onmouseover="console.log('Você passou com o mouse por cima de mim.');">
-Você pode clicar neste elemento ou simplesmente passar o mouse por cimda dele.
+Você pode clicar neste elemento ou simplesmente passar o mouse por cima dele.
 </div>
 ```
 
@@ -56,7 +56,7 @@ O evento *onload* é um dos mais utilizados já que, como vimos no capítulo sob
 
 ## Manipuladores de eventos e variável `this`
 
-JavaScript define uma variável especial chamada `this` que é criada automaticamente e que utiliza algumas técnicas avançadas de programação. Nos eventos, é possível utilizadr a variável `this` para se referir ao elemento XHTML que disparou o evento. Esta variável é muito útil para exemplos como o seguinte:
+JavaScript define uma variável especial chamada `this` que é criada automaticamente e que utiliza algumas técnicas avançadas de programação. Nos eventos, é possível utilizar a variável `this` para se referir ao elemento XHTML que disparou o evento. Esta variável é muito útil para exemplos como o seguinte:
 
 Quando o usuário passa o mouse por cima da `<div>`, a cor da borda se torna negra. Quando o mouse sai da `<div>`, volta a mostrar a cor cinza original.
 
@@ -133,9 +133,9 @@ function realcar(elemento) {
 </div>
 ```
 
-No exemplo anterior, passamos o parâmetro `this`na função externa, que dentro da função se chama _elemento_. Ao passar `this` como parâmetro, é possível acessar de forma direta a partir da função extrenar as propriedades do elemento que disparou o evento.
+No exemplo anterior, passamos o parâmetro `this` na função externa, que dentro da função se chama _elemento_. Ao passar `this` como parâmetro, é possível acessar de forma direta a partir da função externar as propriedades do elemento que disparou o evento.
 
-Por outro lado, o exemplo anterior é complicado devido à forma com a qual os diferentes navegadores armazenam o valor da propriedade `borderColor`. Enquanto o Firefox armazena (no caso das quatro bordas terem a mesma cor) o valor simples `black`, Internet Explorer armazena como `black` `black` `blac` `black` e o Opera armazena sua representação hexadecimal `#000000`.
+Por outro lado, o exemplo anterior é complicado devido à forma com a qual os diferentes navegadores armazenam o valor da propriedade `borderColor`. Enquanto o Firefox armazena (no caso das quatro bordas terem a mesma cor) o valor simples `black`, Internet Explorer armazena como `black` `black` `black` `black` e o Opera armazena sua representação hexadecimal `#000000`.
 
 ## Manipuladores de eventos semânticos
 
@@ -199,7 +199,7 @@ window.onload = function () {
 }
 ```
 
-A técnica anterior utiliza uma função anônima para atribuir algumas instruições ao evento `onload` da página (neste caso utilizando o objeto `window`). Desta forma, para garantir que certo código será executado após o carregamento da página, só é necessário incluí-lo no interior da seguinte estrutura:
+A técnica anterior utiliza uma função anônima para atribuir algumas instruções ao evento `onload` da página (neste caso utilizando o objeto `window`). Desta forma, para garantir que certo código será executado após o carregamento da página, só é necessário incluí-lo no interior da seguinte estrutura:
 
 ```js
 window.onload = function () {

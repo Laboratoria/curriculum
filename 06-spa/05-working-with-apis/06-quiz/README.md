@@ -61,7 +61,7 @@
 
 1. O principal protocolo da web.
 2. Serviço web que é executado em seu computador para exibir arquivos json encontrados na web.
-3. Arquitetura de software usada para construir APIs que permitam comunicar nosso servidor com seus clientes usando o protocolo HTTP por meio de URIs
+3. Arquitetura de software usada para construir APIs que permitam comunicar nosso servidor com seus clientes usando o protocolo HTTP por meio de URIs.
 
 <solution style="display:none;">3</solution>
 
@@ -71,7 +71,7 @@
 
 1. Extensible Markup Language (XML).
 2. Formato universal para dados e documentos estruturados.
-3. Desenvolvido em 1997
+3. Desenvolvido em 1997.
 4. Utiliza tags de identificação similar a HTML.
 5. Deriva de Javascript.
 
@@ -96,6 +96,6 @@
 1. Os verbos http: Create, Read, Update, Delete.
 2. Os verbos http: Close, Request, Update, Delete.
 3. Os verbos http: Close, Response, Update, Delete.
-4. Os verbos http: Post, Get, Put y Delete.
+4. Os verbos http: Post, Get, Put, Delete.
 
 <solution style="display:none;">4</solution>

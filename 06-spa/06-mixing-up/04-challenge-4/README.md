@@ -8,7 +8,7 @@
 
 ## Do que se trata?
 
-Você já usou o Uber ou algum outro aplicativo de transporte alguma vez? Se por acaso não uso, o Uber conta como nasceu essa ideia no seu [sítio web](https://www.uber.com/es-MX/our-story/). Extraímos um trecho para lhe dar o contexto:
+Você já usou o Uber ou algum outro aplicativo de transporte alguma vez? Se por acaso não usou, o Uber conta como nasceu essa ideia no seu [sítio web](https://www.uber.com/es-MX/our-story/). Extraímos um trecho para lhe dar o contexto:
 
 > ### A história de nossa viagem
 >
