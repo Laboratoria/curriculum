@@ -156,10 +156,13 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [React - docs oficiales](https://reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 
 ### Angular
 
 * [Angular - docs oficiales](https://angular.io/)
+* [Angular CLI](https://cli.angular.io/)
 * [Angular - tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
 * [Angular - crud](https://www.youtube.com/watch?v=6wVolJfXn1c)
 * [Angular - redux](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3FtoplJe0JOpiV6OyK30wd)
@@ -167,6 +170,7 @@ No dejes de explorar la documentación oficial de cada herramienta:
 ### Vue
 
 * [Vue - docs oficiales](https://vuejs.org/)
+* [Vue CLI](https://cli.vuejs.org/)
 * [Vue- adicional](https://scotch.io/search?q=vue)
 * [Vue- school](https://vueschool.io/)
 
@@ -174,13 +178,6 @@ Independientemente de si eliges React, Vue o Angular, todos estas herramientes
 se usan muchas veces en conjunción con Redux como manejador de _estado_.
 
 * [Redux - docs oficiales](https://redux.js.org/)
-
-Otros:
-
-* [create-react-app](https://github.com/facebook/create-react-app)
-* [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
-* [Angular CLI](https://cli.angular.io/)
-* [Vue CLI](https://cli.vuejs.org/)
 
 ## Checklist
 
