@@ -10,9 +10,9 @@
 
 Nesta lição aprenderemos:
 
-- O que é HTML5
-- O que é um _Browser API_
-- Como utilizar algumas _Browser APIs_
+- O que é HTML5?
+- O que é uma _Browser API_? 
+- Como utilizar algumas _Browser APIs_?
 
 ## Guia de perguntas e conceitos chave
 

@@ -8,21 +8,21 @@
 
 ## Enunciado
 
-Você é fã  dos quadrinhos e personagens da Marvel?
+Você é fã dos quadrinhos e personagens da Marvel?
 
 Com este desafio faremos uso da API da Marvel e aprenderemos rapidamente a usar `MD5`.
 
 Você tem liberdade para implementá-lo. O foco e design deste app você decide. Você só tem que cumprir alguns requisitos:
 
-- Deve ser desenvolvida pensando em *desktop first*
-- Você deve subir seu exercício para o `GitHub`e publicá-lo nas `Github Pages`
-- Escrever no seu REAMDE o _uso_, as _instruções_ ou o _passo a passo_ de como conseguiu usar MD5
+- Deve ser desenvolvida pensando em *desktop first*.
+- Você deve subir seu exercício para o `GitHub` e publicá-lo nas `Github Pages`.
+- Escrever no seu REAMDE o _uso_, as _instruções_ ou o _passo a passo_ de como conseguiu usar MD5.
 
 ## Recursos
 
-- [API da Marvel](https://developer.marvel.com)
-- [O que é MD5?](https://es.wikipedia.org/wiki/MD5)
-- Esse blog [desenvolvimentoweb.com](https://desarrolloweb.com/) possui um [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html) de "Como fazer MD5 com JavaScript"
+- [API da Marvel](https://developer.marvel.com).
+- [O que é MD5?](https://es.wikipedia.org/wiki/MD5).
+- Esse blog [desenvolvimentoweb.com](https://desarrolloweb.com/) possui um [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html) de "Como fazer MD5 com JavaScript".
 - Neste [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/) é apresentado um guia de como usar a API. Explica que se faz mediante _Clojure_ mas os passos básicos não são diferentes em JavaScript.
 
 ## NOTAS

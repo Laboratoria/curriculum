@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar tudo o que foi aprendido fazendo requisições assíncronas com jQuery
-- Praticar, praticar e praticar
+- Praticar tudo o que foi aprendido fazendo requisições assíncronas com jQuery.
+- Praticar, praticar e praticar.
 
 ## Exercícios
 

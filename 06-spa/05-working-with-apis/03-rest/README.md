@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Entender de forma geral o que é REST e como detectar quais API's são RESTful
+- Entender de forma geral o que é REST e como detectar quais API's são RESTful.
 
 ## Formato de conteúdo
 
@@ -119,12 +119,12 @@ Fonte: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pro
 
 > "Representational State Transfer" (ou traduzido para "Transferência de representação de estado") é o que se denomina REST. E o que é isso? É uma técnica de arquitetura de software para construir API's que permitam o nosso servidor comunicar-se com seus clientes usando protocolo HTTP mediante URI's suficientemente inteligentes para poder satisfazer a necessidade do cliente.
 
-> - REST é STATELESS, ou seja, cada requisição que nossa API recebe deve morrer. Por exmeplo, não podemos LEMBRAR um usuário logado na API usando uma sessão, isso é um PECADO já que usaria muita memória RAM de nosso servidor (10 mil usuários conectados em nossa API). O que é correto é assar um TOKEN para cada requisição realizada na API e a API deverá validar se ela está correta ou não (por enquanto, não vamos falar de técnicas para gerar o TOKEN, mas o mais comum é usar um COOKIE).
-> - São implementados RECURSOs para gerar comunicação, ou seja, criar URI's únicas que permitem ao cliente entender e utilizar o que estão expondo.
+> - REST é STATELESS, ou seja, cada requisição que nossa API recebe deve morrer. Por exemplo, não podemos LEMBRAR um usuário logado na API usando uma sessão, isso é um PECADO já que usaria muita memória RAM de nosso servidor (10 mil usuários conectados em nossa API). O que é correto é assar um TOKEN para cada requisição realizada na API e a API deverá validar se ela está correta ou não (por enquanto, não vamos falar de técnicas para gerar o TOKEN, mas o mais comum é usar um COOKIE).
+> - São implementados RECURSOS para gerar comunicação, ou seja, criar URI's únicas que permitem ao cliente entender e utilizar o que estão expondo.
 >   Por exemplo:
 >   * `api.anexsoft.com/users/`
 >   * `api.anexsoft.com/users/1405`
-> - Cada requisição realizada em nossa API responde a aum verbo e este a uma operação em comum. Por meio dos métodos HTTP, fazemos as requisições. O comum é GET e POST, PUT e DELETE.
+> - Cada requisição realizada em nossa API responde a um verbo e este a uma operação em comum. Por meio dos métodos HTTP, fazemos as requisições. O comum é GET e POST, PUT e DELETE.
 >   * **POST (create):** quando enviamos informação para inserir um registro na base de dados, por exemplo. A informação é enviada no corpo da requisição, ou seja, os dados não são visíveis ao usuário.
 >     `POST /users`
 >   * **GET (read):** é utilizado para o modo de leitura. Por exemplo: quando queremos listar todos os usuários de nossa base de dados. Os parâmetros são enviados pela URL.
@@ -134,7 +134,7 @@ Fonte: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pro
 >   * **DELETE (delete):** quando queremos apagar um registro. Eliminar um usuário X de nossa base de dados.
 >     `DELETE /uses/:userId`
 >
-> Com isso mencionamos algumas carecterísticas básicas do que é REST, as quais poderíamos dizer que são um padrão para criar uma API REST ou RESTFul.
+> Com isso mencionamos algumas características básicas do que é REST, as quais poderíamos dizer que são um padrão para criar uma API REST ou RESTFul.
 
 Fonte: [O que é REST? - Anexsoft](http://anexsoft.com/p/117/que-es-rest)
 
@@ -142,7 +142,7 @@ A seguir você pode ver um vídeo que resume SOAP e REST:
 
 [![Web Service Layer](https://img.youtube.com/vi/AyQboo5CycM/0.jpg)](https://youtu.be/AyQboo5CycM)
 
-Por convenção, cada um dos padrões usa um foramto de conteúdo particular. Em resumo, SOAP transfere informação por meio de XML, enquanto que REST transfere dados usando JSON. Aqui temos um vídeo que resume esta mensagem:
+Por convenção, cada um dos padrões usa um formato de conteúdo particular. Em resumo, SOAP transfere informação por meio de XML, enquanto que REST transfere dados usando JSON. Aqui temos um vídeo que resume esta mensagem:
 
 [![SOAP vs REST](https://img.youtube.com/vi/aI1DSeZAEMA/0.jpg)](https://youtu.be/aI1DSeZAEMA)
 

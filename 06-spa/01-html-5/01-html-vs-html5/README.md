@@ -8,8 +8,8 @@
 
 ## Objetivos de Aprendizagem
 
-- Entender o que significa HTML5
-- Deixar claro que HTML5 não faz referência somente ao HTML
+- Entender o que significa HTML5.
+- Deixar claro que HTML5 não faz referência somente ao HTML.
 
 ## HTML5
 
@@ -33,7 +33,7 @@ Este é um [trecho da documentação de MDN](https://developer.mozilla.org/es/do
 
 ## Então, a diferença é que é a última versão de HTML?
 
-Sim e não. É correto que HTML5 é a última versão de HTML, mas além disso engloba um conjunto de tecnologias que define o padrão em relação à web, tais como CSS3 e um termo que você ouvirá frequentemtente: **API's**. Este último nos permitirá conhecer os superpoderes do navegador e entenderemos porque o navegador melhorou muito desde seu início.
+Sim e não. É correto que HTML5 é a última versão de HTML, mas além disso engloba um conjunto de tecnologias que define o padrão em relação à web, tais como CSS3 e um termo que você ouvirá frequentemente: **API's**. Este último nos permitirá conhecer os superpoderes do navegador e entenderemos porque o navegador melhorou muito desde seu início.
 
 ## Você sabia que...
 

@@ -15,9 +15,9 @@ Dado que subimos muitos de nossos projetos para o GitHub, levando em conta que e
 
 ## Recursos
 
-- Para concluir este chat e não fazer a implementação do zero, usaremos uma biblioteca chamada [Socket.io](https://socket.io/)
-- [Tutorial de chat com Socket.io](https://socket.io/get-started/chat/)
-- Aqui você encontrará o material para [publicar o projeto no HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
+- Para concluir este chat e não fazer a implementação do zero, usaremos uma biblioteca chamada [Socket.io](https://socket.io/).
+- [Tutorial de chat com Socket.io](https://socket.io/get-started/chat/).
+- Aqui você encontrará o material para [publicar o projeto no HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d).
 
 ## Recomendações
 

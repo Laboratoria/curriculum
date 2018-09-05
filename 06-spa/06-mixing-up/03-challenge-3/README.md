@@ -14,7 +14,7 @@ Neste desafio, usaremos a [API de Zomato](https://developers.zomato.com) que lhe
 
 Lembre-se, o projeto é uma proposta e você pode usar sua imaginação para melhorá-lo ou modificá-lo com base nas suas preferências.
 
-Já ouvi falar de**Flexbox**? Alguns Frameworks de CSS o utilizam (Bootstrap 4) para manipular o layout da web de uma maneira mais simples. O que lhe parece se neste desafio você usá-lo sem a necessidade de um framework?
+Já ouvi falar de **Flexbox**? Alguns Frameworks de CSS o utilizam (Bootstrap 4) para manipular o layout da web de uma maneira mais simples. O que lhe parece se neste desafio você usá-lo sem a necessidade de um framework?
 
 Que alguns recursos para você ler:
 

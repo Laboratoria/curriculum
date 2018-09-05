@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Incentivar a explorar outras APIs de HTML5
+- Incentivar a explorar outras APIs de HTML5.
 
 ## Outras APIs
 
@@ -18,7 +18,7 @@ Aqui deixamos algumas com as quais você pode ir brincando:
 
 ### Canvas
 
-O elementeo HTML `<canvas>` é utilizado para desenhar gráficos por meio de JavaScript. No HTML, o elemento é só um contêiner de gráficos. A API fornecer diversos métodos para desenhar linhas, caixas, círculos, texto e adicionar imagens.
+O elemento HTML `<canvas>` é utilizado para desenhar gráficos por meio de JavaScript. No HTML, o elemento é só um contêiner de gráficos. A API fornece diversos métodos para desenhar linhas, caixas, círculos, texto e adicionar imagens.
 
 #### Desafios
 
@@ -44,7 +44,7 @@ Exemplo: Veja a seção de **Quem somos?** no sítio web das [Developers Laborat
 
 ### File
 
-Esta provavelmente você já conhece, por meio do elemento `<input type="file" />` ou quando você quiz adicionar uma imagem no momento de postar em sua rede social. Qualquer que tenha sido o cenário, você perceberá que é muito útil saber manipulá-la.
+Esta provavelmente você já conhece, por meio do elemento `<input type="file" />` ou quando você quis adicionar uma imagem no momento de postar em sua rede social. Qualquer que tenha sido o cenário, você perceberá que é muito útil saber manipulá-la.
 
 #### Desafios
 
@@ -85,7 +85,7 @@ Provavelmente você dirá que com Firebase já pode fazer um chat em tempo real,
 Você pode imaginar ter uma lousa compartilhada? Com canvas você pode criar uma tela e usando eventos de mouse para desenhar nela. Se esses desenhos forem enviados para um *socket* você poderia desenhá-los para todos os usuários conectados em tempo real (quase como um quadro mágico). Pense nisso, pode ajudá-la quando quiser
 ensinar ou estudar em conjunto com alguém.
 
-##### ¿Hangouts, Skype?
+##### Hangouts, Skype
 
 Se você pudesse acessar a câmera de seu notebook, exibi-la na web e transmitir a imagem por meio de um socket, você teria uma aplicação de vídeo-chamadas. Acha que ainda não pode? Como já lhe dissemos, com um par de API's associados a Web Sockets e com sua vontade de fazer, você consegue ;)
 
@@ -100,7 +100,7 @@ Calma, você terá que dedicar tempo, mas se estiver interessada, temos 100% de 
 - [Desenhando em tempo real com Canvas, Node.js e Socket.io](http://www.nazariglez.com/2012/07/08/dibujando-a-tiempo-real-con-canvas-node-js-y-socket-io/)
 - [Streaming de video com HTML5](http://html5facil.com/tutoriales/streaming-de-video-con-html5/)
 
-### Notifications
+### Notificações
 
 > A API de notificações permite que uma página web envie notificações que serão exibidas fora da web no nível de sistema. Isso permite às aplicações web enviar informações para o usuário embora estas estejam em segundo plano.
 
@@ -117,7 +117,7 @@ Você já tem seu chat ou rede social seja com Firebase ou com sua própria impl
 - [Notificações Web con HTML5](https://filisantillan.com/notificaciones-web-html5/) 
 - [Usando a API de Notificações](https://developer.mozilla.org/es/docs/Web/API/Notifications_API/Usando_la_API_de_Notificaciones)
 
-### Vibration
+### Vibração
 
 > A maioria dos dispositivos modernos podem vibrar utilizando o hardware. Isso permite que por meio do código de software se possa emitir essas vibrações. A Vibration API permite às aplicações web a capacidade de acessar esse hardware no caso de haver suporte para tal. Caso contrário, o dispositivo não faz nada.
 
@@ -138,7 +138,7 @@ Você já tem suas notificações. Agora, o que acha de adicionar a capacidade d
 
 Existem muitas API's que tornam o navegador cada vez mais poderoso e isso tem permitido grandes avanços na web. Só podemos lhe dizer que nunca teremos tempo de lhe mostrar todas, portanto você deve ser curiosa e começar a brincar com elas sem medo.
 
-Lembre-se que muitas deles possuem problemas de compatibilidade com dispositivos e navegadores específicos. Portanto, alguma falha pode estar acontecendo por falha de hardware e não por causa de seu software. Por outro lado, lembre-se que em [The HTML 5 JavaScript API Index](http://html5index.org/) você pode aprender um pouco mais sobre as API's existentes. 
+Lembre-se que muitas delas possuem problemas de compatibilidade com dispositivos e navegadores específicos. Portanto, alguma falha pode estar acontecendo por falha de hardware e não por causa de seu software. Por outro lado, lembre-se que em [The HTML 5 JavaScript API Index](http://html5index.org/) você pode aprender um pouco mais sobre as API's existentes. 
 
 E veja de forma interativa como a web tem evoluído em [www.evolutionoftheweb.com](http://www.evolutionoftheweb.com/#/evolution/day).
 

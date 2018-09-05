@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Usar jQuery para fazer requisições assíncronas e entender quais vantagens ele nos fornece
+- Usar jQuery para fazer requisições assíncronas e entender quais vantagens ele nos fornece.
 
 ## Analogia
 
@@ -72,9 +72,9 @@ A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de co
 > });
 > ```
 
-## Fazendo uma chamama AJAX
+## Fazendo uma chamada AJAX
 
-O método `.ajax()` de jQuery tem que ser incrivelmente versátil e poderoso se é o que dá vida às requisições assíncronas. Uma requsição AJAX simples seria assim:
+O método `.ajax()` de jQuery tem que ser incrivelmente versátil e poderoso se é o que dá vida às requisições assíncronas. Uma requisição AJAX simples seria assim:
 
 ```javascript
 $.ajax({
@@ -84,15 +84,14 @@ $.ajax({
 
 Vamos testá-lo:
 
-1. Vá para o sítio web de [jQuery](http://jquery.com/)
-2. Abra as `Developer Tools` do seu navegador
-3. Garanta que está na aba `Network` e que o botão gravação está ligado
-5. Adicione o script anterior na console e execute-o
+1. Vá para o sítio web de [jQuery](http://jquery.com/).
+2. Abra as `Developer Tools` do seu navegador.
+3. Garanta que está na aba `Network` e que o botão gravação está ligado.
+5. Adicione o script anterior na console e execute-o.
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
-Este `request`(requisição) está sendo realizada 
-Este `request` (petición o solicitud) esrá sendo feita para um recurso no GitHub (informação do usuário). O request pode ser acompanhando no painel de redes (aba `Network`no Dev Tools).
+Este `request` (requisição) está sendo realizado para um recurso no GitHub (informação do usuário). O request pode ser acompanhando no painel de redes (aba `Network`no Dev Tools). 
 
 Já sabemos como realizar uma requisição com `.ajax()` mas ainda não estamos controlando a resposta.
 
@@ -113,7 +112,7 @@ $.ajax({
 
 ![done method](https://media.giphy.com/media/xUOwGiAxN7tYlwAZyg/giphy.gif)
 
-A chamada assíncrona é realizada e controlada pelo método `.done()`assim que é finalizada. Neste caso, exibe a resposta no console.
+A chamada assíncrona é realizada e controlada pelo método `.done()` assim que é finalizada. Neste caso, exibe a resposta no console.
 
 Para testarmos isso, vamos converter essa requisição assíncrona que usa `XHR` em uma chamada com o método `.ajax()` de jQuery. Isso é que temos agora:
 
@@ -134,8 +133,8 @@ $.ajax({
 
 Usando jQuery para requisições assíncronas:
 
-- Não temos a necessidade de criar um objeto XHR
-- Ao invés de especificar que o _request_ é do método `GET`, jQuery o faz por padrão e só temos que indicar a URL do recurso que está sendo solicitado
+- Não temos a necessidade de criar um objeto XHR.
+- Ao invés de especificar que o _request_ é do método `GET`, jQuery o faz por padrão e só temos que indicar a URL do recurso que está sendo solicitado.
 - Ao invés de configurar o evento `.onload`, usamos o método `.done()`
 
 A requisição deve ser processada corretamente agora. Bom trabalho! Mas agora temos problemas com o `response` e como gerenciá-lo.
@@ -181,15 +180,15 @@ function addUser(user) {
 
 ### O que mudou?
 
-- A função agora tem um parâmetro (o usuário)
-- O parâmetro já foi convertido de JSON para um objeto JavaScript. Assim, não precisamos usar `JSON.parse()`
-- Aproveitamos os métodos de jQuery para manipular o DOM
+- A função agora tem um parâmetro (o usuário).
+- O parâmetro já foi convertido de JSON para um objeto JavaScript. Assim, não precisamos usar `JSON.parse()`.
+- Aproveitamos os métodos de jQuery para manipular o DOM.
 
-El código que agrega el HTML (plantilla) al contenedor no ha cambiado :).
+O código que adiciona o HTML (template) no contêiner não mudou :).
 
 ## E se ocorre um erro, como proceder?
 
-Acesse a documentação de jQuery e revise qual método (assi como `.done()`) você encadearia na requisição AJAX para controlar um possível erro. Uma vez encontrado, você pode testá-lo forçando um erro dentro da URL por exemplo.
+Acesse a documentação de jQuery e revise qual método (assim como `.done()`) você encadearia na requisição AJAX para controlar um possível erro. Uma vez encontrado, você pode testá-lo forçando um erro dentro da URL por exemplo.
 
 ## Código fonte do demo
 

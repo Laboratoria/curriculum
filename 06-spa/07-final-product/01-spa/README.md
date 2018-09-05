@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-- Entender o que é uma SPA e quais componentes a tornam única
+- Entender o que é uma SPA e quais componentes a tornam única.
 
 ## O que é uma SPA?
 
@@ -80,4 +80,4 @@ Se você deseja ter um pouco mais de detalhe sobre os componentes de uma SPA, e 
 
 [![Core Framework Components](https://img.youtube.com/vi/ZxnZj7UTw1c/0.jpg)](https://youtu.be/ZxnZj7UTw1c)
 
-Por fim, se você quiser revisar quais framworks existem ou começar a comparar alguns deles, existe um sítio chamado [TodoMVC](http://todomvc.com/) que tem uma aplicação (um *To Do List*) construída com diversasa bibliotecas e frameworks para que você analise o código fonte e veja qual lhe chama mais a atenção.
+Por fim, se você quiser revisar quais framworks existem ou começar a comparar alguns deles, existe um sítio chamado [TodoMVC](http://todomvc.com/) que tem uma aplicação (um *To Do List*) construída com diversas bibliotecas e frameworks para que você analise o código fonte e veja qual lhe chama mais a atenção.

@@ -13,9 +13,9 @@ const fs = require('fs');
 const contents = fs.readFileSync('assets/ajson.json').toString();
 console.log(contents);
 ```
-Nesse estilo vemos que para imprimir o conteúdo do arquivo, é preciso esperar que `readFileSync` termine de ler, o que não é muito eficiente do ponto de vista do usuário que precisa esperar essa tarefa ser concluída para começar a ver algo na tela. Mas é eficiente do ponto de vista do programador, que só precisa se preocupar que o programa funcione e que com 3 linhas consegue obter os dados e cada linha é executada uma após a outra, o que torna fácil de acompanhar o programa.
+Nesse estilo vemos que para imprimir o conteúdo do arquivo, é preciso esperar que `readFileSync` termine de ler, o que não é muito eficiente do ponto de vista do usuário que precisa esperar essa tarefa ser concluída para começar a ver algo na tela. Mas é eficiente do ponto de vista do programador, que só precisa se preocupar que o programa funcione, e que com 3 linhas consiga  obter os dados, e que cada linha é executada uma após a outra, o que torna fácil de acompanhar o programa.
 
-Com a chegada de JavaScript, também se popularizou um novo estilo de programação, chamado `assícrono`:
+Com a chegada de JavaScript, também se popularizou um novo estilo de programação, chamado `assíncrono`:
 ```js
 const fs = require('fs');
 

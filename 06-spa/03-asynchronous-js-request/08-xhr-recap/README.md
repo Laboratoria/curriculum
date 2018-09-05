@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Revisar o que foi aprendido sobre XHR
+- Revisar o que foi aprendido sobre XHR.
 
 ## Como usamos XHR
 
@@ -16,21 +16,21 @@ Há uma série de passos que devemos seguir para enviar uma solicitação HTTP d
 
 ### Para enviar una petição
 
-- Criamos um objeto XHR com a função do construtor XMLHttpRequest
+- Criamos um objeto XHR com a função do construtor XMLHttpRequest.
 
-- Utilizamos o método `.open()` e configuramos o método HTTP e a UTL do recurso que vamos buscar
+- Utilizamos o método `.open()` e configuramos o método HTTP e a UTL do recurso que vamos buscar.
 
 - Estabelecemos a propriedade `.onload` ao nosso objeto e a ele atribuímos uma função que será executada se houver sucesso na pesquisa.
 
-- Estabelecer a propriedade `.onerror` a nosso objeto e a este atribuímos uma função que será executada se acontecer um erro
+- Estabelecer a propriedade `.onerror` a nosso objeto e a este atribuímos uma função que será executada se acontecer um erro.
 
-- Usamos o método `.send()` para que envie a solicitação
+- Usamos o método `.send()` para que envie a solicitação.
 
 ### Para usar a resposta
 
-- Usamos a propriedade `.responseText`, que contém o texto da resposta da solicitação assíncrona
+- Usamos a propriedade `.responseText`, que contém o texto da resposta da solicitação assíncrona.
 
-- Podemos usá-la como nos é retornada ou no caso de ser retornada como um JSON podemos convertê-la em Objeto JavaScropt com `JSON.parse()`
+- Podemos usá-la como nos é retornada ou no caso de ser retornada como um JSON podemos convertê-la em Objeto JavaScript com `JSON.parse()`
 
 ## O que vem agora?
 

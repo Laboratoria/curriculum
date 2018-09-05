@@ -14,9 +14,9 @@
 
 Para entender isso, primeiro precisamos lembrar que existe um protocolo de comunicação que deixa claro de que maneira um cliente (navegador) solicita informações/dados de um servidor. Levando em conta isso vamos revisar com a imagem a seguir:
 
-![comunicação](http://www.solocodigoweb.com/wp-content/uploads/2017/06/clientserver.jpg)
+![Comunicação](http://www.solocodigoweb.com/wp-content/uploads/2017/06/clientserver.jpg)
 
-Na imagem podemos ver como um cliente (emissor) realizar uma solicitação HTTP (**HTTP Request**) para um servidor (receptor) e este último responde o pedido (**HTTP Response**).
+Na imagem podemos ver como um cliente (emissor) realiza uma solicitação HTTP (**HTTP Request**) para um servidor (receptor) e este último responde o pedido (**HTTP Response**).
 
 Esses _request_ e _response_ são transportados pela internet como intermediário.
 

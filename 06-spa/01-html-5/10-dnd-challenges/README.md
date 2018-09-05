@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Pratica tudo o que foi aprendido utilizando a API de Drag and Drop
-- Praticar, praticar e praticar
+- Praticar tudo o que foi aprendido utilizando a API de Drag and Drop.
+- Praticar, praticar e praticar.
 
 ## Exercícios
 

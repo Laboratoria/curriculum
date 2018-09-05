@@ -8,11 +8,11 @@
 
 ## Objetivos de Aprendizagem
 
-Entender o que é a geolocalização e como usar a API
+Entender o que é a geolocalização e como usar a API.
 
 ## Geolocalização
 
-Revisemos os seguintes conteúdos
+Revisemos os seguintes conteúdos:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbFDCCktoR42Inmp5jjBt-OkwBMPS-CxOI4k4FgHvQKEOkLvht3qTZc5bYz4X8Vjt--a3NepBgu2A-/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -22,4 +22,4 @@ Para finalizar, vejamos o vídeo a seguir. Você notará que coloca tudo no seu 
 
 [vídeo](https://www.youtube.com/watch?v=XX9Kmg3qLRk)
 
-Se já fazendo o anterior quiser algo mais, DevCode tem um **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)** para obter a geolocalização com Node.js.
+Se já está fazendo o anterior, e quiser algo mais, DevCode tem um **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)** para obter a geolocalização com Node.js.

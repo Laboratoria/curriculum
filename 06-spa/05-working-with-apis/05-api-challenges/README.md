@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar tudo o que foi aprendido com relação às API's
-- Praticar, praticar e praticar
+- Praticar tudo o que foi aprendido com relação às API's.
+- Praticar, praticar e praticar.
 
 ## Exercícios
 

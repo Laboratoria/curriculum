@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Fazer o mesmo demo que fizemos com XHR usando jQuery
+- Fazer o mesmo demo que fizemos com XHR usando jQuery.
 
 ## Demo
 

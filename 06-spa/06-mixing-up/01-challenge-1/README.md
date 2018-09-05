@@ -10,9 +10,9 @@
 
 Vamos criar um diário de bordo com o qual você poderá adicionar mensagem, áudio, vídeo, localizações e compromissos. Sugerimos o seguinte para você conseguir fazer este produto:
 
-- Usar **Materialize** como framework de css
+- Usar **Materialize** como framework de css.
 - Usar um FAB, Fixed Action Button que terá nossas opções.
-- Manipular o DOM, para criar de maneira dinâmica os elementos que serão adicionados ao nosso diário
+- Manipular o DOM, para criar de maneira dinâmica os elementos que serão adicionados ao nosso diário.
 
 ## Recursos
 
@@ -29,4 +29,4 @@ Neste app usaremos as seguintes API's de HTML5:
 
 ## Recomendações
 
-Não se esqueça de subir seu exercício no `GitHub`e publicá-lps nas `Github Pages`.
+Não se esqueça de subir seu exercício no `GitHub` e publicá-lps nas `Github Pages`.

@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Revisar o que foi aprendido sobre AJAX com jQuery
+- Revisar o que foi aprendido sobre AJAX com jQuery.
 
 ## Conclusões
 
@@ -20,7 +20,7 @@ Em uma das leituras, mencionamos que é conveniente usar jQuery para esta requis
 - **[SuperAgent](https://github.com/visionmedia/superagent)**: é uma micro-biblioteca especializada em fazer requisições HTTP assíncronas.
 - **[axios](https://github.com/axios/axios)**: é uma micro-biblioteca que diferente da anterior, está baseada em promessas.
 
-Estas não são as única ferramentas que existem para realizar requisições assíncronas mas sem dúvida são algumas das mais usadas hoje em dia. Você perceberá que ao usar uma, as outras são muito similares. Assim não perca a oportunidade de testá-las todas para que você decida loga qual te chama mais a atenção.
+Estas não são as única ferramentas que existem para realizar requisições assíncronas mas sem dúvida são algumas das mais usadas hoje em dia. Você perceberá que ao usar uma, as outras são muito similares. Assim não perca a oportunidade de testá-las todas para que você decida logo qual te chama mais a atenção.
 
 ## Recursos
 

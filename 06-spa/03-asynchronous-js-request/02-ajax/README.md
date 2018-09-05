@@ -12,19 +12,19 @@
 
 ## Um pouco de história
 
-> JavaScript Assíncrono e XML (AJAX) não é uma tecnologia por si mesma, mas um termo que descreve um novo modo de utilizar conjuntamente várias tecnologias existentes. Isso inclui: HTML ou XHTML, CSS, JavaScript, DOM, XML, XSLT e o objeto XMLHttpRequest. Quando essas tecnologias se combinam em um modelo AJAX, é possível fazer aplicações web capazes de atualização contínua sem precisar recarregar a página completamente. Isso criar aplicações mais rápidas e com melhor resposta às ações do usuário.
+> JavaScript Assíncrono e XML (AJAX) não são uma tecnologia por si mesma, mas um termo que descreve um novo modo de utilizar conjuntamente várias tecnologias existentes. Isso inclui: HTML ou XHTML, CSS, JavaScript, DOM, XML, XSLT e o objeto XMLHttpRequest. Quando essas tecnologias se combinam em um modelo AJAX, é possível fazer aplicações web capazes de atualização contínua sem precisar recarregar a página completamente. Isso cria aplicações mais rápidas e com melhor resposta às ações do usuário.
 
 _Trecho de MDN WEB DOCS_
 
->Na aplicação web tradicional, o computador cliente realizar uma solicitação de uma página web. O servidor cria e retornar a página para o cliente. Finalmente, o cliente carregar a nova página e mostra a informação. Há interação com a páginas, digamos para adicionar ou eliminar algo ou enviar um formulário e de novo começa o ciclo. O cliente fará outra solicitação, o servidor retorna uma página totalmente nova, o cliente carrega e a apresenta ao usuário.
+>Na aplicação web tradicional, o computador cliente realiza uma solicitação de uma página web. O servidor cria e retorna a página para o cliente. Finalmente, o cliente carrega a nova página e mostra a informação. Há interação com as páginas, digamos para adicionar ou eliminar algo ou enviar um formulário e de novo começa o ciclo. O cliente fará outra solicitação, o servidor retorna uma página totalmente nova, o cliente carrega e a apresenta ao usuário.
 
-_Até meados da década de 2000, esta era basicamente a única maneira em que se produzia comunicação pela Internet. A informação residiria no servidor, um cliente solicitaria esses dados, atualizaria a página e a mostraria. Esse clico se repetiria para toda nova solicitação._
+_Até meados da década de 2000, esta era basicamente a única maneira em que se produzia comunicação pela Internet. A informação residiria no servidor, um cliente solicitaria esses dados, atualizaria a página e a mostraria. Esse ciclo se repetiria para toda nova solicitação._
 
-No final dos anos 1990, a equipe do Microsoft Outlook adicionou o componente XMLHTTP ao Internet Explorer e compilou uma versão web do cliente de e-mail do Outlook. Esse código foi agregado a outros navegaores como **XMLHttpRequest**. Isso permitiu aos navegadores realizar solicitações HTTP a partir do JavaScript e atualizar a página sem buscá-la no servidor. No lugar do modelo síncrono de espera para uma página completa, a interface do usuário poderia ser atualizada de forma assíncrona a medida que o usuário seguisse trabalhando.
+No final dos anos 1990, a equipe do Microsoft Outlook adicionou o componente XMLHTTP ao Internet Explorer e compilou uma versão web do cliente de e-mail do Outlook. Esse código foi agregado a outros navegadores como **XMLHttpRequest**. Isso permitiu aos navegadores realizar solicitações HTTP a partir do JavaScript e atualizar a página sem buscá-la no servidor. No lugar do modelo síncrono de espera para uma página completa, a interface do usuário poderia ser atualizada de forma assíncrona a medida que o usuário seguisse trabalhando.
 
 ## AJAX
 
-Em 2005, Jesse James Garrett cunhou o termo AJAX como signficado de "JavaScript e XML assíncronos". Essa é essencialmente a técnica de utilizar XMLHttpRequest para recuperar dados e em seguida modificar a página atual.
+Em 2005, Jesse James Garrett cunhou o termo AJAX como significado de "JavaScript e XML assíncronos". Essa é essencialmente a técnica de utilizar XMLHttpRequest para recuperar dados e em seguida modificar a página atual.
 
 AJAX tomou de assalto o mundo da web, indo muito mais além do Microsoft Outlook. As aplicações web de vanguarda como Flickr, GMail e Google Maps adotaram AJAX rapidamente. No lugar de ter que esperar para obter dados e atualizar a página completa, essas novas aplicações quase instantâneas eram incríveis.
 

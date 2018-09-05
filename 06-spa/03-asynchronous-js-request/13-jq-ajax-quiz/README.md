@@ -14,7 +14,7 @@
 
 ## Perguntas
 
-### 1) Quais mudanças vocês faram para alterar o seguinte código utilizando jQuery?
+### 1) Quais mudanças vocês farão para alterar o seguinte código utilizando jQuery?
 
 ```javascript
 const movieRequest = new XMLHttpRequest();

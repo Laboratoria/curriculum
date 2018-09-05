@@ -8,7 +8,7 @@
 
 Até agora vimos o uso de _callbacks_ para manipular tarefas assíncronas. Nesta leitura introduzimos um tipo novo de dado (`Promise`), que é especificamente projetado para encapsular operações assíncronas e poder encadeá-las.
 
-Quando usamos _callbacks_, é comum nos depararmos com situações onde uma operação assíncrona depende de que outra tenha sido completado e assim vamos encadeando _callbacks_ e é fácil perder o fio da meada do que está sendo executado em um momento determinado. Mais ainda assim na vida real começam a existir *callbacks* para tudo:
+Quando usamos _callbacks_, é comum nos depararmos com situações onde uma operação assíncrona depende de que outra tenha sido completada e assim vamos encadeando _callbacks_ e é fácil perder o fio da meada do que está sendo executado em um momento determinado. Mais ainda assim na vida real começam a existir *callbacks* para tudo:
 
 ```js
 umProcessoLento(
@@ -72,7 +72,7 @@ Agora que sabemos o porquê das promessas, vamos ver como criá-las e usá-las.
 
 ## Criação de _Promises_
 
-Nesta seção nos colocamos ao lado do programador de processos lentos, motivo pelo qual precisamos de uma forma de ordenar nosso trabalho para que os outros programadores usem nosso processo lento. Vejamos uma processa qualquer por dentro e analisemos as partes que a compõem, para assim entendermos como podemos criá-las.
+Nesta seção nos colocamos ao lado do programador de processos lentos, motivo pelo qual precisamos de uma forma de ordenar nosso trabalho para que os outros programadores usem nosso processo lento. Vejamos um processo qualquer por dentro e analisemos as partes que a compõem, para assim entendermos como podemos criá-las.
 
 ```js
 let processoLento = new Promise((resolve, reject) => {

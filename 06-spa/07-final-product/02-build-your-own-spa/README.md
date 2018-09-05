@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-- Criar sua própria SPA de maneira guiada e colocando em prática os conceitos vistos na aula anterior.
+- Criar sua própria SPA de maneira guiada colocando em prática os conceitos vistos na aula anterior.
 
 ## Como construir uma SPA?
 
@@ -20,7 +20,7 @@ Se você é das que adoram JavaScript e preferem fazer a manipulação do DOM, e
 
 [Building a single page application with vanilla js](https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js)
 
-Aqui você encotrará a implementação de rotas por meio do evento `hashchange`, além de desenhar sua própria estrutura de pastas seguindo o padrão MVC. Inclusive os modelos podemo ser manipulados como strings dentro do código JavaScript e as requisições assíncronas são feitas por meio de `XMLHttpRequest`. Você pode optar por segui-lo ao pé da letra ou adaptá-lo ao seu gosto.
+Aqui você encontrará a implementação de rotas por meio do evento `hashchange`, além de desenhar sua própria estrutura de pastas seguindo o padrão MVC. Inclusive os modelos podem ser manipulados como strings dentro do código JavaScript e as requisições assíncronas são feitas por meio de `XMLHttpRequest`. Você pode optar por segui-lo ao pé da letra ou adaptá-lo ao seu gosto.
 
 ***
 
@@ -28,7 +28,7 @@ Se você gostou de jQuery e viu que existe potencial no sistema de *templating* 
 
 [Making a Single Page App Without a Framework](https://tutorialzine.com/2015/02/single-page-app-without-a-framework)
 
-Neste tutorial você verá que ele não segue um padrão de arquitetura específico mas utiliza várias funções e cada uma com um fim específico. Além de se basear em jQuery para manipulação do DOM e Handlebars para a manipulação do HTML, já que contrói uma lista de produtos.
+Neste tutorial você verá que ele não segue um padrão de arquitetura específico mas utiliza várias funções e cada uma com um fim específico. Além de se basear em jQuery para manipulação do DOM e Handlebars para a manipulação do HTML, já que constrói uma lista de produtos.
 
 ***
 

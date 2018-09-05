@@ -6,11 +6,11 @@
 
 ***
 
-Quando começamos a ter aplicações com muito JavaScript podem começar a surgir pequenos problemas de otimização, como lentidão de resposta ou consumo excessivo de memória. Um desses problemas pode esta nos eventos atribuídos ao DOM. 
+Quando começamos a ter aplicações com muito JavaScript podem começar a surgir pequenos problemas de otimização, como lentidão de resposta ou consumo excessivo de memória. Um desses problemas pode estar nos eventos atribuídos ao DOM. 
 
 Suponhamos que temos uma lista bastante grande de elementos. Ao fazer `click` em cada um desses elementos será executada uma função que mostra a informação do item selecionado. O código que implementamos percorrerá todos os elementos da lista, percorrendo-a com um *loop* e atribui a cada elemento um evento. É aí que podemos ter problemas. A cada elemento está sendo atribuído um evento, que por sua vez está recebendo uma função anônima. Isso quer dizer que se tivermos uma lista de 1000 elementos, estaremos atribuindo 1000 eventos, aumentando o uso de RAM de nossa aplicação.
 
-Para otimizar isso podemos fazer somente um evento sobre a lista inteira e quando se clica testar qual elemento foi clicado. Podemos obter esse elemenot com `event.target`.
+Para otimizar isso podemos fazer somente um evento sobre a lista inteira e quando se clica testar qual elemento foi clicado. Podemos obter esse elemento com `event.target`.
 
 Você já sabe que quando queremos ouvir eventos em JavaScript (por exemplo, quando alguém clica em um botão), a sintaxe é a seguinte:
 
@@ -25,9 +25,9 @@ $('elSelector').on('eventType', () =>
 );
 ```
 
-Em quem `eventType` é um tipo de evento (você pode encontrar isso na documento de JS) e o `eventHandler` é a função que será executado quando `eventType` é disparado.
+Em que `eventType` é um tipo de evento (você pode encontrar isso na documento de JS) e o `eventHandler` é a função que será executado quando `eventType` é disparado.
 
-Até aqui, perfeito. Poriém, se você quiser que vários elementos ouçam o mesmo `eventType`e executem o mesmo `eventHandler` (por exemplo, em uma galeria de fotos poder fazer um `click`em qualquer uma das miniaturas para mostrar a versão ampliada), nossa primeira ideia seria iterar sobre eles. 
+Até aqui, perfeito. Porém, se você quiser que vários elementos ouçam o mesmo `eventType` e executem o mesmo `eventHandler` (por exemplo, em uma galeria de fotos poder fazer um `click` em qualquer uma das miniaturas para mostrar a versão ampliada), nossa primeira ideia seria iterar sobre eles. 
 
 ```js
 var galleryImg = document.querySelectorAll('.gallery-item');
@@ -54,7 +54,7 @@ Contudo, o principal problema com essas estratégias é que só são aplicados a
 
 ## Delegação de eventos
 
-Agora que sabemos que se um evento ocorre em um flho, também ocorre em seus pais, voltemos ao exemplo da galeria. Agora não precisamos iterar sobre os elementos e sim ouvir o evento no pai.
+Agora que sabemos que se um evento ocorre em um filho, também ocorre em seus pais, voltemos ao exemplo da galeria. Agora não precisamos iterar sobre os elementos e sim ouvir o evento no pai.
 
 Consideremos o seguinte HTML
 
@@ -72,7 +72,7 @@ Consideremos o seguinte HTML
 </div>
 ```
 
-Temos nove elementos `gallery-item`. Mas poderiam ser mais. Contudo, como já conhecemos a delegação, ouviremos o evento somente uma vez no pai. Lembre-se que podemos passar o objeto `Event` como parâmetro (o chamaremos de `e` em nossos exemplos) no `eventHandler` para então obter o `target`que é o elemento que dispara o evento.
+Temos nove elementos `gallery-item`. Mas poderiam ser mais. Contudo, como já conhecemos a delegação, ouviremos o evento somente uma vez no pai. Lembre-se que podemos passar o objeto `Event` como parâmetro (o chamaremos de `e` em nossos exemplos) no `eventHandler` para então obter o `target` que é o elemento que dispara o evento.
 
 ```js
 let gallery = document.querySelector('.gallery-item');
@@ -81,7 +81,7 @@ gallery.addEventListener('eventType', e =>
 );
 ```
 
-E como em nosso caso queremos caputar o evento em todos os elementos com a classe `gallery-item`, faremos assim:
+E como em nosso caso queremos capturar o evento em todos os elementos com a classe `gallery-item`, faremos assim:
 
 ```js
 // vanilla

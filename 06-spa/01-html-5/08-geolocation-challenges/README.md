@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar tudo o que foi aprendido utilizando a API de geolocalização
-- Praticar, praticar e praticar
+- Praticar tudo o que foi aprendido utilizando a API de geolocalização.
+- Praticar, praticar e praticar.
 
 ## Exercícios
 

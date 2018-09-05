@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar tudo que foi aprendido fazendo uso da API de Áudio/Vídeo
-- Praticar, praticar e praticar
+- Praticar tudo que foi aprendido fazendo uso da API de Áudio/Vídeo.
+- Praticar, praticar e praticar.
 
 ## Exercícios
 
@@ -17,7 +17,7 @@ Você deve subir todos seus exercícios para o `GitHub` e publicá-los na `gh-pa
 
 ### Reprodutor de Música
 
-Faça seu reprodutor de música com seus próprios controles e design. Seu reprodutor deveria permitir iniciar, pausar, avançar e retrocede o áudio assim como poder controlar o volume. Para este exercício, você pode ter seu áudio predeterminado no HTML.
+Faça seu reprodutor de música com seus próprios controles e design. Seu reprodutor deveria permitir iniciar, pausar, avançar e retroceder o áudio assim como poder controlar o volume. Para este exercício, você pode ter seu áudio predeterminado no HTML.
 
 Você pode usar [este website](https://www.w3.org/2010/05/video/mediaevents.html) como referência interativa.
 
