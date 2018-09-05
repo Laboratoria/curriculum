@@ -1,45 +1,35 @@
 # PETINDER
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `individual`
 - Duração: `1h`
 
 ***
 
-## ¿Tinder?
+## Tinder?
 
-> Tinder es una aplicación geosocial que permite a los usuarios comunicarse con 
-> otras personas con base en sus preferencias para charlar y concretar citas o 
-> encuentros.
+> Tinder é um aplicativo geossocial que permite aos usuários conversarem com outras pessoas com base em suas preferências para conversar e concretizar namoros ou encontros.
 
-Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Tinder)
+Fonte: [Wikipedia](https://es.wikipedia.org/wiki/Tinder)
 
-Bueno, independientemente de lo que hace dicha aplicación, puso de modo un gesto
-en las aplicaciones móviles:
+Bem, independentemente do que faz a aplicação, ela colocou um gestual nas aplicações móveis:
 
 ![Swipe](https://media.giphy.com/media/26mkhMYkitO7DoJuU/giphy.gif)
 
-El gesto de  tocar un elemento y arrastrarlo con los dedos, conocido como Swipe.
-En este caso, aplicaremos este gesto a una web app orientada al móvil que 
-permita encontrar a los usuarios encontrar a las mascotas que hacen mejor match
-con ellos.
+O gesto de tocar um elemento e arrastá-lo com os dedos, conhecido como *Swipe*. Neste caso, aplicaremos esse gesto em um web app de celulares que permita aos usuários encontrar os mascotes que combinarem melhor com eles.
 
 ## Recursos
 
-En esta aplicación usaremos:
+Nesta aplicação usaremos:
 
 - [API de Petfinder](https://www.petfinder.com/developers/api-docs)
-- [Hammer.js](https://hammerjs.github.io/), para controlar los gestos en el móvil
+- [Hammer.js](https://hammerjs.github.io/), para controlar gesto no celular
 - Responsive Web Design
 
-## Referencia
+## Referência
 
-Te dejamos un video como referencia donde muestra cómo puedes estructurar tu
-interfaz, aquí menciona que usa React y construye un API usando NodeJS y otras
-herramientas, para este reto no es necesaria que uses lo mismo, pero nadie te
-limita por si lo quieres intentar ;) 
+Deixamos aqui um vídeo como referência o qual mostra como você pode estrutura sua interface. Ele menciona React e constrói uma API usando Node.js e outras ferramentas. Para este desafio não é necessário que você as use, mas nada impede se você quiser testá-las ;)
 
 [![Whiskr](https://img.youtube.com/vi/qW5-C7skuU0/0.jpg)](https://youtu.be/qW5-C7skuU0)
 
-¿Viste que las devs mencionan cosas que les gustaría implementar? ¿Qué te 
-parecen? ¿Qué otras más implementarías tú?
+Viu que as programadoras mencionam coisas que você gostaria de implementar? O que acha? Quais outras mais você implementaria?
