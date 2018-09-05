@@ -1,6 +1,6 @@
-# Fan de Marvel
+# Fã da Marvel
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `individual`
 - Duração: `2h`
 
@@ -8,34 +8,26 @@
 
 ## Enunciado
 
-¿Qué tan fan eres de los comics y personajes de Marvel?
+Você é fã  dos quadrinhos e personagens da Marvel?
 
-Con este reto haremos uso de su API y aprenderemos de paso a usar `MD5`.
+Com este desafio faremos uso da API da Marvel e aprenderemos rapidamente a usar `MD5`.
 
-Eres libre de implementarlo, el enfoque de esta APP y su diseño lo decides tú. 
-Solo debe cumplir algunos requisitos:
+Você tem liberdade para implementá-lo. O foco e design deste app você decide. Você só tem que cumprir alguns requisitos:
 
-- Debe estar desarrollada pensada en desktop first
-- Debes subir tu ejercicio a `GitHub` y publicarlo en `Github Pages`
-- Redactar en tu README el _uso_, las _instrucciones_ o el _paso a paso_ de
-  cómo lograste usar MD5
+- Deve ser desenvolvida pensando em *desktop first*
+- Você deve subir seu exercício para o `GitHub`e publicá-lo nas `Github Pages`
+- Escrever no seu REAMDE o _uso_, as _instruções_ ou o _passo a passo_ de como conseguiu usar MD5
 
 ## Recursos
 
-- [API de Marvel](https://developer.marvel.com)
-- ¿[Qué es MD5](https://es.wikipedia.org/wiki/MD5)?
-- Este blog de [desarrolloweb.com](https://desarrolloweb.com/) tiene un [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html)
-  de "Cómo hacer MD5 desde JavaScript"
-- En este [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/)
-  nos dan una guía de cómo usar el API, menciona que se hace mediante _Clojure_ 
-  pero los pasos bases no son diferentes en JavaScript.
+- [API da Marvel](https://developer.marvel.com)
+- [O que é MD5?](https://es.wikipedia.org/wiki/MD5)
+- Esse blog [desenvolvimentoweb.com](https://desarrolloweb.com/) possui um [tutorial](https://www.desarrolloweb.com/articulos/hacer-md5-javascript.html) de "Como fazer MD5 com JavaScript"
+- Neste [blog](http://blog.koalite.com/2014/06/consumiendo-el-api-rest-de-marvel-desde-clojure/) é apresentado um guia de como usar a API. Explica que se faz mediante _Clojure_ mas os passos básicos não são diferentes em JavaScript.
 
 ## NOTAS
 
-- Divide el problema en problemas pequeños, dando solución uno por uno.
-- Lee cuantas veces necesites la documentación de Marvel y recuerda que
-  eres una desarrolladora que ya tiene la gran habilidad de preguntar a
-  San Google las dudas concretas que te surgen.
+- Divida o problema em problemas menores, solucionando um por um.
+- Leia quantas vezes forem necessárias a documentação da Marvel e lembre-se que é uma desenvolvedora que já tem grande competência para perguntar ao São Google as dúvidas que surgirem.
 
-> **Consideración:** Se podrá hacer uso de esta información (API de Marvel) siempre que
-> se vaya a utilizar en webs y aplicaciones para uso personal y no comercial.
+> **Consideração:** Você sempre poderá fazer uso da informação (API da Marvel) sempre que for utilizar em aplicações web e aplicações de uso pessoal e não comercial.

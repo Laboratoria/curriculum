@@ -1,6 +1,6 @@
-# Chat en tiempo real
+# Chat em tempo real
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `individual`
 - Duração: `1h`
 
@@ -8,28 +8,19 @@
 
 ## Enunciado
 
-Ahora que aprendiste sobre peticiones AJAX, te invitamos a utilizar a recordar
-una tecnología que realiza comunicaciones con el servidor de una manera más 
-constante: [Web Sockets](https://developer.mozilla.org/es/docs/WebSockets-840092-dup/Writing_WebSocket_client_applications) 
-para implementar un chat. 
+Agora que você aprendeu sobre requisições AJAX, convidamos você a utilizar e relembrar uma tecnologia que faz comunicações com o servidor de uma maneira mais constante: use [Web Sockets](https://developer.mozilla.org/es/docs/WebSockets-840092-dup/Writing_WebSocket_client_applications) para implementar um chat. 
 
-Dado que ya hemos subido mucho de nuestros proyectos a Github Pages, y teniendo
-en cuenta que este servicio solo puede hostear archivos estáticos y para este
-reto necesitamos hacer un poco de Node.js (back-end), así que usaremos [Heroku](https://www.heroku.com/).
+Dado que subimos muitos de nossos projetos para o GitHub, levando em conta que este serviço só pode hospedar arquivos estáticos e que para este desafio precisamos de um pouco de Node.js (back-end), usaremos [Heroku](https://www.heroku.com/).
 
 
 ## Recursos
 
-- Para llevar a cabo este chat y no hacer la implementación desde cero, usaremos
-  una librería llamada [Socket.io](https://socket.io/)
-- [Tutorial de chat con Socket.io](https://socket.io/get-started/chat/)
-- Aqui encontrarás el material para [desplegar el proyecto en HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
+- Para concluir este chat e não fazer a implementação do zero, usaremos uma biblioteca chamada [Socket.io](https://socket.io/)
+- [Tutorial de chat com Socket.io](https://socket.io/get-started/chat/)
+- Aqui você encontrará o material para [publicar o projeto no HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
 
-## Recomendaciones
+## Recomendações
 
-Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
-y las buenas prácticas en tu código!
+Lembre sempre de seguir este [guia de estilos](https://github.com/Laboratoria/js-style-guide/) e boas práticas em seu código!
 
-No te limites a solo hacer el chat, con los conocimientos que tienes hasta el 
-momento, estamos seguras que se te ocurren muchas ideas locas y que creemos que
-puedes hacerlas realidad.
+Não se limite a fazer só o chat. Com os conhecimentos que você tem até agora, estamos certas de que você tem muitas ideias malucas e acreditamos que você torná-las realidade.
