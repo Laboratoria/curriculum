@@ -29,7 +29,7 @@
 > - **Acesso ao dispositivo:** Fornece API's para o uso de vários componentes internos de entrada e saída de nosso dispositivo.
 > - **CSS3:** Oferece uma nova e vasta variedade de opções para fazer projetos mais sofisticados.
  
-Este é um [trecho da documentação de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5) que podemos encontrar sobre HTML5.
+Este é um [trecho da documentação de MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) que podemos encontrar sobre HTML5.
 
 ## Então, a diferença é que é a última versão de HTML?
 

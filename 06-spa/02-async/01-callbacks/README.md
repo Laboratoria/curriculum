@@ -30,4 +30,4 @@ Com esta maneira de programar não nos preocupamos em esperar os dados. Podemos 
 
 ## Leituras complementares
 
-* [Callback function - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+* [Callback function - MDN](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)

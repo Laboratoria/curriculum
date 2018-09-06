@@ -16,7 +16,7 @@ Aprender de forma geral como usar a API de Áudio e Vídeo.
 > 
 > Uma solução nativa resolveria isto se fosse bem feita. Felizmente, alguns anos depois, a especificação de HTML5 incluiria estas _features_ com os elementos `<vídeo>` e `<áudio>` e algumas API's JavaScript para controlá-los.
 
-Este é um trecho da [documentação de MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content) sobre as *tags* de áudio e vídeo, para você entender o contexto de como foi importante adicionar suporte nativo no HTML5 com sua API de mídia.
+Este é um trecho da [documentação de MDN](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Multimedia_and_embedding/Video_and_audio_content) sobre as *tags* de áudio e vídeo, para você entender o contexto de como foi importante adicionar suporte nativo no HTML5 com sua API de mídia.
 
 ## Inserindo conteúdo multimídia na nossa página web
 

@@ -40,7 +40,7 @@ Exemplo: Veja a seção de **Quem somos?** no sítio web das [Developers Laborat
 #### Referências
 
 - [HTML5 Canvas](https://www.w3schools.com/html/html5_canvas.asp)
-- [Uso básico de Canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial/Basic_usage)
+- [Uso básico de Canvas](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Canvas_tutorial/Utilizacao_basica)
 
 ### File
 
