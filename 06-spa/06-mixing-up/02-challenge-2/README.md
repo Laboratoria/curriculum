@@ -1,29 +1,29 @@
-# Foro de Opinión
+# Fórum de Discussão
 
-- Tipo: `taller`
-- Formato: `self-paced`
-- Duración: `2h`
+- Tipo: `oficina`
+- Formato: `individual`
+- Duração: `2h`
 
 ***
 
 ## Enunciado
 
-Vamos a crear un foro donde podamos crear temas y responder a esos temas.
+Criaremos um fórum no qual podemos criar tópicos e responder a esses tópicos.
 
-Un tema tiene:
+Um tópico possui:
 
-- Un título
-- Un contador de número de respuestas
-- Un autor
+- Um título;
+- Um contador de número de respostas;
+- Um autor.
 
-Una respuesta tiene:
+Uma resposta tem:
 
-- Un topic_id (para saber de que tema es la respuesta)
-- El contenido de la respuesta
-- El autor
+- Um *topic_id* (para saber de qual tópico é a resposta);
+- O conteúdo da resposta;
+- O autor.
 
 ## Recursos
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTyxtk13Odw3QHMQQFphnmql4t670H4Ih2tIT57-LSi9T0-HCCrh_y_HOhPazdhZt0gFSL8FfZLcyLQ/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Debes subir tu ejercicio a `GitHub` y publicarlo en `gh-pages`.
+Você deve subir seu exercício no `GitHub` e publicá-lo nas `gh-pages`.

@@ -1,22 +1,20 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de se auto-avaliar para que teste seus conhecimentos. É uma oportunidade para ajustes e validação do seu aprendizado. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué cambios aplicarían para cambiar el siguiente código usando jQuery?
+### 1) Quais mudanças vocês farão para alterar o seguinte código utilizando jQuery?
 
 ```javascript
 const movieRequest = new XMLHttpRequest();
@@ -25,7 +23,7 @@ movieRequest.open('GET', `http://www.omdbapi.com/?apikey=[yourkey]&t=${movieTitl
 movieRequest.send();
 ```
 
-#### Opciones
+#### Opções
 
 1. ```javascript
    $.ajax({
@@ -50,9 +48,9 @@ movieRequest.send();
 
 <solution style="display:none;">3</solution>
 
-### 2) ¿Qué método podemos encadenar en una petición AJAX con jQuery para controlar los errores?
+### 2) Qual método podemos encadear em uma requisição AJAX com jQuery para controlar os erros?
 
-#### Opciones
+#### Opções
 
 1. `.fail()`
 2. `.done()`
@@ -61,9 +59,9 @@ movieRequest.send();
 
 <solution style="display:none;">1</solution>
 
-### 3) ¿Qué métodos podemos usar para hacer una petición GET?
+### 3) Que métodos podemos usar para fazer a requisição `GET`?
 
-#### Opciones
+#### Opções
 
 1. `$.get()`
 2. `$.post()`
@@ -72,9 +70,9 @@ movieRequest.send();
 
 <solution style="display:none;">1, 3, 4</solution>
 
-### 4) ¿Qué método usamos para hacer una petición GET y que el formato de respuesta sea JSON?
+### 4) Que método usamos para fazer uma requisição GET e que o formato da resposta seja JSON?
 
-#### Opciones
+#### Opções
 
 1. `$.get()`
 2. `$.post()`
@@ -83,9 +81,9 @@ movieRequest.send();
 
 <solution style="display:none;">3</solution>
 
-### 5) Los shorthand methods son métodos preconfigurados que se basan en:
+### 5) Os _shorthand methods_ são métodos pré-configurados que se baseiam em:
 
-#### Opciones
+#### Opções
 
 1. `$.get()`
 2. `$.post()`

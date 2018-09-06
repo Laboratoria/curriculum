@@ -1,92 +1,43 @@
-# Third party APIs
+# Third party API's
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender la diferencia entre las APIs del navegador y las APIs de terceros
-- Conocer las ventajas de usar APIs de terceros
+- Entender a diferença entre as API's do navegador e as API's de terceiros.
+- Conhecer as vantagens de utilizar API's de terceiros.
 
-## Recordemos qué es un web API
+## Lembremos o que é uma Web API
 
-Ya hemos visto muchas veces que el acrónimo de API significa Application 
-Programming Interface (Interfaz de programación de aplicaciones) y que la 
-podemos encontrar en distintos lugares como el navegador, la computadora, la 
-web y demás. También hemos escuchado que nos da interoperabilidad entre diversos
-sistemas, en esta unidad nos enfocaremos no en la comunicación con un único
-dispositivo sino entre miles o millones de esto, ¿cómo?. A través de internet,
-por ello, nos enfocaremos en las **Web APIs**. Alista tu subtítulos cone el
-traductor automático y mira este video:
+Já vimos muitas vezes que o acrônimo de API significa Application Programming Interface (Interface de programação de aplicações) e que podemos encontrá-las em diferentes lugares como o navegador, no computador, na web e outros. Também temos escutado que elas nos dão interoperabilidade entre diversos sistemas. Nesta unidade focaremos não na comunicação com um único dispositivo, mas sim entre milhares e milhões deles. Como? Por meio da internet, com **Web API's**. Ajuste as legendas ou o tradutor automático e veja este vídeo:
 
 [![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
 
-## APIs de terceros
+## API's de terceiros
 
-> Los APIs de terceros son APIs provistas por terceros (duh), estos terceros
-> son generalmente compañías como Google, Facebook, entre otras - que permiten
-> acceder a su funcionalidad a través de un lenguaje de programación (en nuestro
-> caso JavaScript) y usarlo en nuestra web app.
+> As API's de terceiros são API's fornecidas por terceiros (duh). Esses terceiros são geralmente companhias (como Google, Facebook e outras) que permitem acessar suas funcionalidades por meio de linguagem de programação (no nosso caso, JavaScript) e usá-las em nossa aplicação web.
 
-Este es un extracto traducido de un [artículo de MDN sobre Third Party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs).
+Este é um trecho traduzido de um [artigo da MDN sobre Third Party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs).
+## Prós e contras do uso de API's de Terceiros
 
-## Pros y contras del uso de APIs de Terceros
-
-> ### Pros del uso de APIs de terceros
+> ### Prós do uso de API's de terceiros
 >
-> - **Rapidez.** El poder integrar en cuestión de segundos mapas, imágenes o
->   servicios de autenticación en nuestras aplicaciones nos descarga de gran parte
->   de la programación y nos permite centrarnos rápidamente en nuestro dominio de
->   negocio.
-> - **Robustez.** La mayoría de APIs y servicios más populares están tan sumamente
->   extendidos que han sido probados en toda clase de situaciones de estrés, por
->   lo que podremos asegurar que su respuesta será adecuada en la inmensa mayoría
->   de los casos.
-> - **Imagen.** Cuando los usuarios usan a menudo un buen servicio, lo acaban
->   reconociendo, y el asociar nuestra imagen a la de un grande como Google,
->   Facebook o Twitter, puede ayudarnos a contagiarnos de la buena percepción que
->   los usuarios tienen de estos gigantes.
-> - **Mantenimiento.** Por norma general, las grandes empresas no dejarán que sus
->   productos se deterioren, por lo que es bastante común que los servicios
->   accedidos a través de las APIs estén en una constante mejora, que además en
->   muchos casos será totalmente transparente al programador que las usa.
-> - **Innovación.** Al hilo de lo anterior, es lógico pensar que empresas líderes
->   como Microsoft, eBay o Amazon no se conformarán con mantener sus aplicaciones
->   para que funcionen bien, sino que tratarán de mejorarlas constantemente, con
->   lo que los usuarios de sus APIs se verán beneficiados con todas las mejoras
->   que se vayan produciendo.
+> - **Rapidez.** Poder integrar em questão de segundos mapas, imagens ou serviços de autenticação em nossas aplicações e concentrar esforços nas regras de negócio.
+> - **Robustez.** A maioria de API's e serviços mais populares estão tão bem testadas que podemos garantir que a resposta virá corretamente na maioria dos casos.
+> - **Imagem.** Quando os usuários costumam usar um bom serviço, acabam reconhecendo isso e a associar a nossa imagem a de uma empresa grande como Google, Facebook ou Twitter. Isso pode nos ajudar a contarmos com a boa percepção que os usuários têm desses gigantes.
+> - **Manutenção.** De forma geral, as grandes empresas não deixarão que seus produtos se deteriorem, o que faz com que os serviços acessados por meio das API's estejam em constante melhora, que na maior parte dos casos é totalmente transparente para o programador que as utiliza.
+> - **Inovação.** É lógico pensar que empresas líderes como Microsoft, eBay ou Amazon não se satisfazem em manter suas aplicações funcionando bem, mas tratam de melhorá-las constantemente, o que fará com que os usuários de suas API's se vejam beneficiados com todas a melhorias que vão sendo produzidas.
 >
-> ### Contras del uso de APIs de terceros
+> ### Contras do uso de API's de terceiros
 >
-> - **Condiciones cambiantes.** Al ligarnos a una tercera empresa por un contrato
->   tan débil como es la licencia de uso de una API, normalmente estamos expuestos
->   a la voluntad de la otra parte, lo que puede suponer recortes en las
->   prestaciones, obsolescencia de métodos implementados o pérdida de la gratuidad
->   del servicio, tal y como acaba de ocurrir con Google Maps.
-> - **Disponibilidad.** Como si no fuera suficiente con preocuparnos de mantener
->   en funcionamiento nuestro propio servidor y aplicaciones, caídas de servicios
->   externos, como las ocurridas este año con Amazon, pueden dejar tus servicios
->   inutilizados. ¿Os imagináis tener una tienda virtual que funcione a la
->   perfección pero sólo admita pagos por PayPal y que éstos no funcionen?
-> - **Imagen.** Antes lo nombré como una ventaja, ya que podemos favorecernos del
->   prestigio de una buena marca al trabajar con ella, pero ¿Qué ocurre cuando la
->   reputación de nuestros partners desciende hasta el fango? Desgraciadamente es
->   muy difícil separar por completo la imagen de unos y otros, y nos veremos
->   perjudicados por los errores ajenos.
-> - **Falta de innovación.** Cuando los servicios de terceros que utilizamos van
->   por delante en progreso e innovación no suele haber quejas, pero también puede
->   ocurrir lo contrario: que se estanquen, nuestra aplicación avance más rápido
->   y su API ya no pueda cumplir nuestras exigencias. Ante situaciones así se
->   plantea la difícil decisión de cambiar de proveedor de servicios o
->   implementarlos por tu cuenta, con el consiguiente sobrecoste.
-> - **Privacidad.** Las leyes son muy distintas en cada país, y algunas como la
->   LOPD española, que es más restrictiva que las equivalentes de otros países,
->   pueden impedirnos legalmente delegar ciertos datos o servicios para su trato
->   por terceros.
+> - **Condições variáveis.** Ao nos associarmos a uma empresa por um contrato tão frágil como é uma licença de uso de uma API, normalmente estamos expostos à vontade de outra parte, o que pode levar à interrupção do serviço, obsolescência de métodos implementados ou perdida a gratuidade do serviço, tal e como acaba de ocorrer com Google Maps.
+> - **Disponibilidade.** Como se não fosse suficiente nos preocuparmos em manter o funcionamento de nosso próprio servidor e aplicações, quedas de serviços externos, como as ocorridas este ano com a Amazon, podem deixar seus serviços inutilizados. Você pode imaginar ter uma loja virtual que funciona perfeitamente, mas admite apenas pagamento por PayPal e este não funciona?
+> - **Imagem.** Anteriormente apontamos isso como uma vantagem, já que podemos nos favorecer do prestígio de uma boa marca ao trabalhar com ela, mas o que acontece quando a reputação de nossos parceiros vai à lama? Infelizmente é muito difícil separar por completo a imagem de um e outro e seremos prejudicados por erros alheios.
+> - **Falta de inovação.** Quando os serviços de terceiros que usamos são atualizados constantemente geralmente não há queixas, mas pode acontecer o contrário também: que fiquem estagnados e nosso aplicativo avance mais rápido e sua API possa não atender mais às nossas demandas. Em situações como esta, surge a difícil decisão de mudar de provedor de serviços ou implementá-los por conta próprio, com consequente custo adicional.
+> - **Privacidade.** As leis são muito diferentes em cada pais, e algumas como a LOPD espanhola, que é mais restritiva que as equivalentes em outros países, podem nos impedir legalmente de delegar certos dados ou serviços para seu processamento por terceiros.
 
-Estos pros y contras son parte de un [post de GenbetaDev](https://www.genbetadev.com/programacion-en-la-nube/pros-y-contras-del-uso-de-apis-de-terceros).
-Nosotros nos enfocaremos en las cosas positivas en este momento y sacaremos
-provecho de todo lo que nos ofrecen las APIs de terceros y hacer apps increíbles.
+Esse prós e contras são parte de um [post de GenbetaDev](https://www.genbetadev.com/programacion-en-la-nube/pros-y-contras-del-uso-de-apis-de-terceros). Nós focaremos nas coisas positivas neste momento e tiraremos proveito de tudo o que nos oferecem as API's de terceiros e fazer apps incríveis.

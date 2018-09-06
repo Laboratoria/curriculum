@@ -1,80 +1,41 @@
-# Creando tu propio SPA
+# Criando sua própria SPA
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- Crear tu propio SPA de manera guiada y poniendo en práctica los conceptos
-  vistos en la lectura anterior.
+- Criar sua própria SPA de maneira guiada colocando em prática os conceitos vistos na aula anterior.
 
-## ¿Cómo construir un SPA?
+## Como construir uma SPA?
 
-En esta lectura, te vamos a dejar un poco libre, pero siempre con la mejor 
-intención, ¡qué aprendas!. Para construir un SPA, hay muchas formas de hacerlo y
-dependiendo de cada persona los gustos pueden ser variados y por lo tanto, las
-herramientas a usar no suelen ser las mismas. Para guiarte en el desarrollo de 
-tu producto de listaremos diversos recursos y esperamos puedas escoger con el
-que te sientas más cómoda, recuerda siempre que los componentes más comunes son
-los vistos en la lectura anterior. Así que aquí vamos.
+Nesta leitura, vamos deixar você um pouco livre, mas sempre com a melhor intenção, que você aprenda! Para construir uma SPA, existem muitas formas de fazer e dependendo da cada pessoa o gosto pessoal pode variar e portanto, as ferramentas a serem usadas normalmente não são as mesmas. Para guiar você nesse desenvolvimento de produto listaremos diversos recursos e esperamos que possa escolher aquele com o qual se sinta mais confortável. Lembre sempre que os componentes mais comuns são os vistos na aula anterior. Lá vamos nós.
 
 ***
 
-Si eres de la que les fascina JavaScript y prefiere hacer el manejo de DOM, 
-eventos y todo lo que se pueda con VanillaJS, te recomentadomos el siguiente 
-blogpost:
+Se você é das que adoram JavaScript e preferem fazer a manipulação do DOM, eventos e tudo o que VanillaJS permite, recomendamos o seguinte blog:
 
 [Building a single page application with vanilla js](https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js)
 
-Aquí encontrarás que implementa el manejo de rutas a través del evento 
-`hashchange`, además que diseña su propia estructura de carpetas siguiendo el 
-patrón MVC. Inclusive las plantillas lo maneja como strings dentro del código
-JavaScript y que las peticiones asíncronas lo hace a través de `XMLHttpRequest`.
-Puedes optar por seguirlo al pie de la letra, o tu propia adaptación del mismo.
+Aqui você encontrará a implementação de rotas por meio do evento `hashchange`, além de desenhar sua própria estrutura de pastas seguindo o padrão MVC. Inclusive os modelos podem ser manipulados como strings dentro do código JavaScript e as requisições assíncronas são feitas por meio de `XMLHttpRequest`. Você pode optar por segui-lo ao pé da letra ou adaptá-lo ao seu gosto.
 
 ***
 
-Si te gustó jQuery y viste que hay potencial en el sistema de templating para
-evitar la redundancia de la estructura de tu web, aquí te dejamos el siguiente
-blogpost:
+Se você gostou de jQuery e viu que existe potencial no sistema de *templating* para evitar a redundância da estrutura da sua aplicação web, indicamos o seguinte blog:
 
 [Making a Single Page App Without a Framework](https://tutorialzine.com/2015/02/single-page-app-without-a-framework)
 
-En este tutorial encontrás que no sigue un patrón de arquitectura específico 
-sino que usa varias funciones y cada una con un fin específico. Además que se
-apoya de jQuery para la manipulación del DOM y Handlebars para el manejo de
-HTML ya que construye un listado de productos.
+Neste tutorial você verá que ele não segue um padrão de arquitetura específico mas utiliza várias funções e cada uma com um fim específico. Além de se basear em jQuery para manipulação do DOM e Handlebars para a manipulação do HTML, já que constrói uma lista de produtos.
 
 ***
 
-Por último, si no quieres crear algo desde cero, estás invitada a usar un 
-Framework existente, pero, para esto tendrás que dedicar un tiempo a investigar
-su documentación y muy probablemente ver algunos tutoriales de cómo lograr hacer
-funcionar ciertos aspectos particulares, no es nuestra recomendación sobretodo
-por el tiempo que tendrás para el producto final, pero no te limitamos tampoco :)
+Por fim, se você não quer criar algo do zero, está convidada a usar um framework existente. Mas para isso, terá que dedicar um tempo para estudar sua documentação e muito provavelmente ver alguns tutoriais de como conseguir fazer funcionar certos aspectos particulares. Não é nossa recomendação devido ao tempo que terá para o desafio final, mas não te proibimos :)
 
-Entre los frameworks más populares puedes encontrar a [React](https://reactjs.org/), 
-[Angular](https://angular.io/), [VueJS](https://vuejs.org/), entre otros. Sin 
-embargo, otros frameworks un poco más antiguos como [Backbone](http://backbonejs.org/),
-[AngularJS](https://angularjs.org/) o [Ember](https://www.emberjs.com/) no 
-están descartados. Esperamos que hayas podido revisar la página de [TodoMVC](http://todomvc.com/) 
-en la lectura anterior y hayas visto un poco la sintaxis/estructura peculiar y 
-alguna de ellas te haya llamado la atención si quieres usar esta opción ;).
+Entre os frameworks mais populares você pode usar o [React](https://reactjs.org/), [Angular](https://angular.io/), [VueJS](https://vuejs.org/), entre outros. Contudo, outros frameworks um pouco mais antigos como [Backbone](http://backbonejs.org/), [AngularJS](https://angularjs.org/) ou [Ember](https://www.emberjs.com/) não estão descartados. Esperamos que você tenha olhado a página do [TodoMVC](http://todomvc.com/) na aula anterior e tenha visto um pouco da sintaxe/estrutura peculiar e que alguma delas tenha chamado sua atenção se quiser usar esta opção ;).
 
-> **Nota:** Al haber un mundo tan variado de tecnologías, es muy probable que
-> tu profe/mentor no tenga la respuesta inmediata a la opción que hayas escogido
-> pero algo que debes tener por segura, es que siempre estará a tu disposición
-> para apoyarte. Así que antes de hacer una duda muy puntual, asegúrate de haber
-> googleado y/o buscado la solución en algún foro de programación como [Stack 
-> Overflow](https://es.stackoverflow.com/) u otro de preferencia.
+> **Nota:** Havendo um mundo tão variado de tecnologias, é muito possível que sua professora/tutora não tenha a resposta imediata para a opção que você tenha escolhido, mas você deve saber que ela estão sempre à sua disposição para lhe ajudar. Assim, antes de fazer uma pergunta sobre uma dúvida pontual, certifique-se de ter buscado no Google e/ou em algum fórum de programação[Stack Overflow](https://es.stackoverflow.com/) ou outro de sua preferência.
 
-> **Importante:** Decidimos incluir los tutoriales en inglés a propósito porque
-> a partir de este punto muchas de las cosas a realizar te guiarán probablemente
-> por la información en este idioma debido a que abunda más en internet. Ten en
-> cuenta que NO es excluyente ni limitante, si tu no entiendes al 100% lo que
-> indica estos tutoriales, puedes usar herramienta de traducción o apoyarte de
-> compañeras/profes/mentores. Además que si encuentras un buen tutorial/guía en 
-> español eres libre de seguirlo y mejor aun compartirlo :).
+> **Importante:** Decidimos incluir os tutoriais em inglês de propósito porque a partir deste ponto muitas das coisas a serem feitas lhe levarão provavelmente à informação neste idioma, dado que é o mais comum na internet. Leve em consideração que NÃO é excludente nem limitante. Se você não entende 100% do que os tutoriais apresentam, você pode usar uma ferramenta de tradução ou contar com o apoio de suas colegas/professoras/tutoras. Além disso, se encontrar algum tutorial em português você tem a liberdade de usá-lo e melhor ainda, compartilhá-lo :).

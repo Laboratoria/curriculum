@@ -1,99 +1,82 @@
-# XHR Project Demo
+# Projeto Demo XHR
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `120min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Usar XHR para construir una aplicación
+- Usar XHR para construir uma aplicação.
 
-## ¿Por dónde empezamos?
+## Por onde começamos?
 
-Lo primero y más importante es saber que queremos obtener.
+Primeiro e mais importante é saber o que queremos obter.
 
-Para este ejercicio guiado queremos hacer una petición a la página del NY Times
-y que con la respuesta podamos ocupar sus noticias.
+Para este exercício guiado queremos fazer uma requisição na página do NY Times e mostrar suas notícias.
 
-### Manos al teclado
+### Mãos no teclado
 
-1. Crea una cuenta de desarrollador aquí https://developer.nytimes.com/
-  Nos enviarán una clave de acceso, con ella haremos las peticiones
+1. Crie uma conta de desenvolvedor aqui https://developer.nytimes.com/
+  Será enviada uma chave de acesso que usaremos nas requisições.
 
-2. Crea un proyecto con sus archivos HTML, CSS y JS
-  (Nuestro HTML tiene una estructura sencilla pero tú puedes darle el estilo
-  que prefieras)
+2. Crie um projeto com seus arquivos HTML, CSS e JS (Nosso HTML tem uma estrutura simples, mas você pode dar-lhe o estilo que preferir).
 
   ![index](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/index-inicial.png)  
 
-  Así es como se ve en el navegador:
+  Assim é como você vê no navegador:
 
-  ![pantalla](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/pantalla-inicial.png)
+  ![tela](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/pantalla-inicial.png)
 
-3. En nuestro archivo app.js nos traemos los elementos que usaremos y creamos
-  un let sin asignarle valor por el momento
+3. Em nosso arquivo app.js colocamos os elementos que usaremos e criamos um let sem atribuí-lo por enquanto.
 
   ![elementos](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/traemos-elementos.png)
 
-4. A nuestro formulario le agregamos el evento `submit` y las instrucciones a
-  ejecutar
+4. No nosso formulário adicionamos o evento `submit` e as instruções a serem executadas.
 
   ![form](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/form-addEvent.png)
 
-5. Como ya te diste cuenta, está invocando la función `getNews()` y es en esta
-  función donde crearemos las peticiones
+5. Como você já percebeu, está invocando a função `getNews()` e é nesta função que criaremos as requisições.
 
   ![getnews](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/getnews.png)
 
-  - Creamos nuestro objeto _(línea 14)_
+  - Criamos nosso objeto _(linha 14)_.
 
-  - Hacemos uso del método `.open()` y es aquí donde debemos poner la clave que
-    llegó a nuestro correo, **sustituyendo** < TU KEY > por tu clave
-    _(linea 15)_
+  - Usamos o método `.open()` e aqui é onde devemos colocar a chave que chegou no nosso e-mail, **substituindo* < SUA CHAVE> por sua chave _(linha 15)_.
 
-  - Las propiedades `.onload` y `.onerror` tienen asignadas sus funciones
-    correspondientes
+  - As propriedades `.onload` e `.onerror` têm suas funções correspondentes atribuídas.
 
-  - Enviamos la petición con el método `.send()`
+  - Enviamos a requisição com o método `.send()`.
 
-6. La función `handleError()` quedará así
+6. A função `handleError()` ficará assim:
 
   ![handleError](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/handle-error.png)
 
-7. Vamos a empezar a trabajar con la función `addNews()`
+7. Comecemos a trabalhar com a função `addNews()`.
 
-  - Primero podemos hacer un console.log de `this.responseText` para saber que
-    nos va a entregar esta respuesta (Un JSON)
+  - Primeiro podemos fazer um console.log de `this.responseText` para saber o que será retornado nesta resposta (um JSON).
 
-  - Ya que vimos que tipo de información nos devolvió, podemos proceder con
-    guardarlo en una const y hacer de nuevo un console.log para entender mejor
-    la estructura de los datos
+  - Após vermos que tipo de informação nos retornou, podemos proceder armazenando-o em uma constante e e fazer novamente um console.log para entender melhor a estrutura de dados.
 
     ![addNews](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/add-news1.png)
 
     ![consola-data](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/consola-data.png)
 
-8. Observando detenidamente lo que nos regresa la consola vemos que este objeto
-  tiene la propiedad `response`
+8. Observando em detalhe o que é retornado no console vemos que esse objeto possui a propriedade `response`.
 
   ![addNews](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/add-news2.png)
 
   ![consola-data](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/consola-data2.png)
 
-9. A partir de este punto ya podemos jugar e investigar este JSON que tenemos
-  en consola y por lo tanto ya podemos hacer uso de sus propiedades.
+9. A partir deste ponto já podemos brincar e investigar este JSON que temos no console e portanto podemos fazer uso de suas propriedades.
 
-10. Creamos un `li`, le añadimos una clase para que tenga estilos, le agregamos
-  texto que obtuvimos del JSON y lo anexamos al `ul`
+10. Criamos um `li`,  adicionamos uma classe que tenha estilos, adicionamos o texto que obtivemos do JSON e o anexamos no `ul`.
 
   ![addNews](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/add-news3.png)
 
-11. Hecho todo esto, así debería verse en nuestro navegador
+11. Após fazer tudo isso, o navegador deveria aparecer assim:
 
   ![pantalla](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ivandevp-06-spa/06-spa/02-asynchronous-js-request/05-xhr-demo/imagenes/pantalla-final.png)
 
-> Recuerda que en este ejemplo nuestro _html_ y el _li_ que creamos tienen
-> estilos, asi que no te preocupes si se ve diferente. Lo importante es que te
-> muestre en pantalla el elemento con los valores
+> Lembre que neste exemplo nosso _html_ e o _li_ que criamos possuem estilos. Assim, não se preocupe se estiverem diferentes. O importante é que mostre na tela o elemento com os valores. 

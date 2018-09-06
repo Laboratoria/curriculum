@@ -1,29 +1,22 @@
 # Tasty Food
 
-- Tipo: `taller`
-- Formato: `self-paced`
-- Duración: `1h`
+- Tipo: `oficina`
+- Formato: `individual`
+- Duração: `1h`
 
 ***
 
-## ¿Qué haremos?
+## O que faremos?
 
-En este reto, usaremos el [API de Zomato](https://developers.zomato.com) que te
-permite obtener datos de restaurantes alrededor del mundo y con ciertos filtros.
-Así que mezclando nuestros poderes de Firebase y APIs, vamos a crear una lista
-de restaurantes preferidos de un usuario. A continuación te dejamos unos slides
-que te pueden dar mayor detalle de las cosas que puedes hacer:
+Neste desafio, usaremos a [API de Zomato](https://developers.zomato.com) que lhe permite obter dados de restaurantes ao redor do mundo e com certos filtros. Misturando nossos poderes de Firebase e API's, criaremos uma lista de restaurantes preferidos de um usuário. A seguir deixamos alguns slides que podem dar maior detalhe das coisa que você pode fazer:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAhFiKGcQyWJl-6NiCbB2N_wXKoK_7FRs3tuR-KOIDNUSd7x8rVPqDEgbMyRwBSRP1lsolou6rBDY6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Recuerda, el diseño es una propuesta y puedes usar tu imaginación para mejorarlo
-o cambiarlo en base a tus sugerencias.
+Lembre-se, o projeto é uma proposta e você pode usar sua imaginação para melhorá-lo ou modificá-lo com base nas suas preferências.
 
-¿Has escuchado de **Flexbox**? Algunos Frameworks de CSS lo usan (Bootstrap 4)
-para manejar el layout de la web de una manera más sencilla. ¿Qué te parece si
-para este reto lo usas sin la necesidad de un framework?
+Já ouvi falar de **Flexbox**? Alguns Frameworks de CSS o utilizam (Bootstrap 4) para manipular o layout da web de uma maneira mais simples. O que lhe parece se neste desafio você usá-lo sem a necessidade de um framework?
 
-Aquí unos recursos para que puedas leerlo:
+Que alguns recursos para você ler:
 
 - [Flexbox Froggy](https://laboratoria.github.io/flexboxfroggy/)
 

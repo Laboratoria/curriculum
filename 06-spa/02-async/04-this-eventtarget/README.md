@@ -1,31 +1,18 @@
 # `this` vs `event.target`
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Cuando empezamos a tener aplicaciones con mucho Javascript pueden empezar a
-surgir pequeños problemas de optimización, como que la aplicación tarde en
-responder o que tenga un consumo excesivo de memoria. Uno de esos problemas
-puede estar en los eventos asignados al DOM.
-Supongamos que tenemos una lista bastante grande de elementos. Al hacer `click`
-en cada uno de esos elementos se ejecutará una función que muestra la
-información del item elegido.
-El código que implementemos recogerá todos los elementos de la lista, la
-recorre mediante un bucle y asigna a cada elemento un evento.
-Es ahí donde podemos tener problemas. A cada elemento se le está asignando un
-evento, que a su vez está recibiendo una función anónima. Esto quiere decir
-que si tenemos una lista de 1000 elementos, estaremos asignando 1000
-eventos, incrementando el uso de RAM de nuestra aplicación.
+Quando começamos a ter aplicações com muito JavaScript podem começar a surgir pequenos problemas de otimização, como lentidão de resposta ou consumo excessivo de memória. Um desses problemas pode estar nos eventos atribuídos ao DOM. 
 
-Para optimizar esto podemos hacer un solo evento sobre la lista completa, y
-cuando se haga click comprobar el elemento que se ha pulsado. Podemos obtener
-ese elemento con `event.target`.
+Suponhamos que temos uma lista bastante grande de elementos. Ao fazer `click` em cada um desses elementos será executada uma função que mostra a informação do item selecionado. O código que implementamos percorrerá todos os elementos da lista, percorrendo-a com um *loop* e atribui a cada elemento um evento. É aí que podemos ter problemas. A cada elemento está sendo atribuído um evento, que por sua vez está recebendo uma função anônima. Isso quer dizer que se tivermos uma lista de 1000 elementos, estaremos atribuindo 1000 eventos, aumentando o uso de RAM de nossa aplicação.
 
-Ya saben que cuando queremos escuchar eventos en JavaScript (por ejemplo,
-cuando se hace click en un botón), la sintaxis es la siguiente.
+Para otimizar isso podemos fazer somente um evento sobre a lista inteira e quando se clica testar qual elemento foi clicado. Podemos obter esse elemento com `event.target`.
+
+Você já sabe que quando queremos ouvir eventos em JavaScript (por exemplo, quando alguém clica em um botão), a sintaxe é a seguinte:
 
 ```js
 //vaniila
@@ -38,14 +25,9 @@ $('elSelector').on('eventType', () =>
 );
 ```
 
-Donde `eventType` es un tipo de evento (o puedes encontrar en la documentación
-de JS) y el `eventHandler` es la función que se ejecutará cuando el `eventType`
-se dispare.
+Em que `eventType` é um tipo de evento (você pode encontrar isso na documento de JS) e o `eventHandler` é a função que será executado quando `eventType` é disparado.
 
-Hasta ahi, perfecto. Sin embargo, si quieres que varios elementos escuchen el
-mismo `eventType` y ejecuten el mismo `eventHandler` (por ejemplo, en una
-galería de fotos poder hacer clic en cualquiera de las miniaturas para mostrar
-la versión ampliada), nuestro primer razonamiento sería iterar sobre ellos.
+Até aqui, perfeito. Porém, se você quiser que vários elementos ouçam o mesmo `eventType` e executem o mesmo `eventHandler` (por exemplo, em uma galeria de fotos poder fazer um `click` em qualquer uma das miniaturas para mostrar a versão ampliada), nossa primeira ideia seria iterar sobre eles. 
 
 ```js
 var galleryImg = document.querySelectorAll('.gallery-item');
@@ -56,7 +38,7 @@ for(let i = 0; i < galleryImg.length; i++) {
 }
 ```
 
-Si usamos jQuery, es más sencillo aún, pues hace la iteración por nosotros
+Se usamos jQuery, é mais simples ainda, pois ele faz a iteração:
 
 ```js
 $('.gallery-item').on('eventType', () =>
@@ -64,30 +46,17 @@ $('.gallery-item').on('eventType', () =>
 )
 ```
 
-Sin embargo, el principal problema con estos enfoques es que solo aplica a los
-elementos existentes en el DOM al cargar la página. Con lo cual, si añadimos
-elementos dinámicamente, estos no se verán afectados por el evento. Por otro
-lado, si evitamos la iteración, podemos ganar rendimiento. Para eso utilizamos
-la Delegación de eventos que consiste en escuchar el evento en el elemento
-padre solamente para luego capturarlo cuando ocurra en sus hijos. Esto gracias
-a un comportamiento de los eventos que vimos en la lectura pasada `Bubbling`.
+Contudo, o principal problema com essas estratégias é que só são aplicados aos elementos existentes no DOM ao carregar a página. Com o qual, se adicionarmos elementos dinamicamente, estes não serão afetados pelo evento. Por outro lado, se evitamos a iteração, podemos ganhar desempenho. Para isso, utilizamos a delegação de eventos que consiste em ouvir o evento em um elemento pai somente para em seguida capturá-lo quando aconteça a seus filhos. Isso graças a um comportamento dos eventos que vimos na leitura passada `Bubbling`.
 
 ## Recordemos Bubbling
 
-`Bubbling` (burbujeo) es una fase de los eventos (la otra es capturing y ambos
-dan para un próximo post en más detalle) que significa que cuando un evento
-ocurre en el DOM, es capturado en el elemento HTML más profundo posible, y de
-ahí se va elevando hacia sus padres en orden de jerarquía hasta llegar al
-objeto global (`window`). Por lo tanto, cuando un evento ocurre en un elemento,
-también está ocurriendo en sus padres.
+`Bubbling` (borbulhando) é uma fase dos eventos (a outra é `capturing` e as duas serão vistas em um outro post com mais detalhes) que significa que quando um evento ocorre no DOM, captura-se o elemento HTML mais profundo possível e então vai-se voltando por seus pais pela ordem hierárquica até chegar ao objeto global (`window`). Por outro lado, quando um evento ocorre em um elemento, também está acontecendo com seus pais.
 
-## Delegación de eventos
+## Delegação de eventos
 
-Ahora que sabemos que si un evento ocurre  en un hijo, también está ocurriendo
-en sus padres. Volvamos al ejemplo de la galería. Ahora no necesitamos iterar
-sobre los elementos, sino escuchar el evento en el padre.
+Agora que sabemos que se um evento ocorre em um filho, também ocorre em seus pais, voltemos ao exemplo da galeria. Agora não precisamos iterar sobre os elementos e sim ouvir o evento no pai.
 
-Tomemos en cuenta el siguiente HTML
+Consideremos o seguinte HTML
 
 ```html
 <div class="gallery-container">
@@ -103,22 +72,16 @@ Tomemos en cuenta el siguiente HTML
 </div>
 ```
 
-Tenemos nueve elementos gallery-item. Pero podrían ser más. Sin embargo, como
-ya conocemos la delegación, escucharemos el evento una sola vez en el padre.
-Recuerda que podemos pasar el objeto Event como parámetro (lo nombraremos `e`
-en nuestros ejemplos), al `eventHandler` para así obtener el `target` que es
-el elemento que dispara el evento.
+Temos nove elementos `gallery-item`. Mas poderiam ser mais. Contudo, como já conhecemos a delegação, ouviremos o evento somente uma vez no pai. Lembre-se que podemos passar o objeto `Event` como parâmetro (o chamaremos de `e` em nossos exemplos) no `eventHandler` para então obter o `target` que é o elemento que dispara o evento.
 
 ```js
 let gallery = document.querySelector('.gallery-item');
 gallery.addEventListener('eventType', e =>
-  console.log(e.target) // nos imprime en consola el elemento que dispara el
-  evento
+  console.log(e.target) // imprime no console o elemento que dispara o evento
 );
 ```
 
-Y como en nuestro caso queremos capturar el evento en todos los elementos con
-la clase gallery-item, lo haremos así:
+E como em nosso caso queremos capturar o evento em todos os elementos com a classe `gallery-item`, faremos assim:
 
 ```js
 // vanilla
@@ -134,9 +97,6 @@ $('.gallery-container').on('eventType', '.gallery-item', () =>
 );
 ```
 
-## Sobre ES6 y this
+## Sobre ES6 e `this`
 
-En esta lectura estamos usando `ES6` (si no lo estás usando, deberías). Ten en
-cuenta que si usas una `arrow function` para el `eventHandler` no podrás
-capturar el elemento que dispara el evento usando `this` (como en `ES5`) por
-eso se recomienda usar `e.target`
+Nesta leitura estamos usando `ES6` (se não o está utilizando, deveria). Tenha em conta que se usar uma `arrow function` para o `eventHandler` não poderá capturar o elemento que dispara o evento usando `this` (como em `ES5`) e por isso se recomenda usar `e.target`.

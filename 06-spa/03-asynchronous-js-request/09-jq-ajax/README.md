@@ -1,60 +1,50 @@
-# AJAX con jQuery
+# AJAX com jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Usar jQuery para hacer requests asíncronos y entender qué ventajas nos da
+- Usar jQuery para fazer requisições assíncronas e entender quais vantagens ele nos fornece.
 
-## Analogía
+## Analogia
 
-Dejar que un experto prepare el pastel por ti.
+Deixe um profissional preparar a torta para você.
 
 [![XHR analogy](https://img.youtube.com/vi/NFGrayBZOVM/0.jpg)](https://youtu.be/NFGrayBZOVM)
 
-## ¿Por qué jQuery?
+## Por que jQuery?
 
-jQuery es una librería muy popular que ya has tenido la oportunidad de usar. El
-uso que le has dado hasta este momento ha sido para manipular y recorrer el DOM
-a través de métodos que hacen nuestro código más corto.
+jQuery é uma biblioteca muito popular que você já teve a oportunidade de usar. O uso que lhe demos até o momento foi para manipular o DOM por meio de métodos que fazem nosso código mais simples.
 
-Ahora, usaremos esta ventaja de usar métodos más pequeños y dejar la
-responsabilidad a jQuery de ver la compatibilidad de navegadores por nosotros
-en la implementación de AJAX.
+Agora, usaremos esta vantagem de utilizar métodos menores e deixar a responsabilidade para o jQuery de ver a compatibilidade dos navegadores na implementação do AJAX.
 
-Esto es posible gracias al método `.ajax()` que jQuery provee para realizar
-peticiones asíncronas.
+Isso é possível graças ao método `.ajax()` que jQuery fornece para realizar requisições assíncronas.
 
 ## Método `.ajax()`
 
-El método `.ajax()` es el corazón de las peticiones asíncronas en la librería
-de jQuery. Hay 2 formas de usar este método:
+O método`.ajax()` é o coração das requisições assíncronas na biblioteca de jQuery. Há duas formas de utilizar esse método:
 
 ```javascript
-$.ajax(<url-a-realizar-la-petición>, <un-objeto-configuración>);
+$.ajax(<url-a-realizar-a-requisicao>, <um-objeto-configuracao>);
 
 // or
 
-$.ajax(<solo un objeto de configuración>);
+$.ajax(<só um objeto de configuração>);
 ```
 
-Fuente: [Documentación de jQuery](https://api.jquery.com/jQuery.ajax/)
+Fonte: [Documentação de jQuery](https://api.jquery.com/jQuery.ajax/)
 
-La manera más común de usar el método `.ajax()` es usando solo el objeto de
-configuración, esto en parte es debido a que es la forma más antigua que está
-disponible (versión 1.0, a ver si encuentras de donde obtuvimos este dato
-mirando la documentación), además de que toda la configuración lo puedes poner
-en un solo objeto.
+A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de configuração, em parte devido a esta ser a forma mais antiga que está disponível (versão 1.0). Além disso, toda a configuração você pode estar somente em um objeto.
 
-> ### Qué es un objeto de configuración?
+> ### O que é um objeto de configuração?
 
-> Es un objeto de JavaScript que se usa para configurar algo.
+> É um objeto de JavaScript que utilizamos para configurar algo.
 >
-> Por ejemplo:
+> Por exemplo:
 >
 > ```javascript
 > var settings = {
@@ -65,14 +55,13 @@ en un solo objeto.
 > };
 > ```
 >
-> El objeto de configuración puede ser pasado como parámetro de una función
-> constructora. Imaginemos la función constructora `MakeCake`:
+> O objeto de configuração pode ser passado como parâmetro de uma função construtora. Imaginemos a função construtora `MakeCake`:
 >
 > ```javascript
 > const myDeliciousCake = MakeCake( settings );
 > ```
 >
-> De igual manera, el objeto de configuración puede ser pasado directamente:
+> Da mesma forma, o objeto de configuração pode ser passado diretamente:
 >
  ```javascript
 > const myDeliciousCake = MakeCake({
@@ -83,11 +72,9 @@ en un solo objeto.
 > });
 > ```
 
-## Haciendo una llamada AJAX
+## Fazendo uma chamada AJAX
 
-El método `.ajax()` de jQuery tiene que ser increíblemente versátil y poderoso
-si es lo que le da vida a las peticiones asíncronas de jQuery. Una petición Ajax
-simple se vería así:
+O método `.ajax()` de jQuery tem que ser incrivelmente versátil e poderoso se é o que dá vida às requisições assíncronas. Uma requisição AJAX simples seria assim:
 
 ```javascript
 $.ajax({
@@ -95,30 +82,22 @@ $.ajax({
 });
 ```
 
-Vamos a probarlo:
+Vamos testá-lo:
 
-1. Anda al sitio web de [jQuery](http://jquery.com/)
-2. Abre el `Developer Tools` de tu navegador
-3. Asegúrate que estás en la pestaña `Network` y que el botón de grabación está
-   encendido
-5. Agrega el script anterior en la consola y ejecútalo
+1. Vá para o sítio web de [jQuery](http://jquery.com/).
+2. Abra as `Developer Tools` do seu navegador.
+3. Garanta que está na aba `Network` e que o botão gravação está ligado.
+5. Adicione o script anterior na console e execute-o.
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
-Este `request` (petición o solicitud) está siendo realizada hacia un recurso en
-Github (información del usuario). El request puede ser revisado desde el panel
-de redes (pestaña `Network` en el Dev Tools).
+Este `request` (requisição) está sendo realizado para um recurso no GitHub (informação do usuário). O request pode ser acompanhando no painel de redes (aba `Network`no Dev Tools). 
 
-Ya sabemos cómo realizar una petición con `.ajax()` pero aun no estamos
-controlando la respuesta.
+Já sabemos como realizar uma requisição com `.ajax()` mas ainda não estamos controlando a resposta.
 
-## Manipular los datos retornados
+## Manipular os dados retornados
 
-Si recordamos cómo podemos lograr esto usando un objeto XHR, el `response` era
-controlado por una función. Para el método `.ajax()` es exactamente lo mismo,
-podemos encadenar a la ejecución de éste, el método `.done()`. Vamos a pasar una
-función como argumento al método `.done()` que se ejecutará una vez que la
-llamada Ajax haya terminado:
+Recordando como podemos fazer isso usando um objeto XHR, o `response` era controlado por uma função. Para o método `.ajax()` é exatamente o mesmo. Podemos encadear a execução dele com o método `.done()`. Passaremos uma função como argumento do método `.done()` que será executada quando a chamada AJAX estiver terminada:
 
 ```javascript
 function handleResponse(data) {
@@ -133,12 +112,9 @@ $.ajax({
 
 ![done method](https://media.giphy.com/media/xUOwGiAxN7tYlwAZyg/giphy.gif)
 
-La llamada asíncrona es realizada y controlada una vez que termina por el
-método `.done()`, en este caso, muestra el response en la consola.
+A chamada assíncrona é realizada e controlada pelo método `.done()` assim que é finalizada. Neste caso, exibe a resposta no console.
 
-Para ponernos a prueba, vamos a convertir esta petición asíncrona que usa `XHR`
-a una llamada con el método `.ajax()` de jQuery. Esto es lo que tenemos
-actualmente:
+Para testarmos isso, vamos converter essa requisição assíncrona que usa `XHR` em uma chamada com o método `.ajax()` de jQuery. Isso é que temos agora:
 
 ```javascript
 const githubRequest = new XMLHttpRequest();
@@ -147,8 +123,7 @@ githubRequest.open('GET', `https://api.github.com/users/${searchedUser}`);
 githubRequest.send();
 ```
 
-Muchas de estas operaciones pueden ser manejadas internamente por jQuery, así
-que el primer paso de la conversión sería así:
+Muitas destas operações podem ser manipuladas internamente por jQuery. O primeiro passo da conversão seria assim:
 
 ```javascript
 $.ajax({
@@ -156,22 +131,17 @@ $.ajax({
 }).done(addUser);
 ```
 
-Usando jQuery para peticiones asíncronas:
+Usando jQuery para requisições assíncronas:
 
-- No tenemos la necesidad de crear un objeto XHR
-- En vez de especificar que el request es de método `GET`, jQuery lo da por
-  defecto y solo tenemos que indicarle la URL del recurso que estamos
-  solicitando
-- En vez de configurar el evento `.onload`, usamos el método `.done()`
+- Não temos a necessidade de criar um objeto XHR.
+- Ao invés de especificar que o _request_ é do método `GET`, jQuery o faz por padrão e só temos que indicar a URL do recurso que está sendo solicitado.
+- Ao invés de configurar o evento `.onload`, usamos o método `.done()`
 
-La petición debe enviarse correctamente ahora. ¡Gran trabajo! Pero ahora tenemos
-problemas con el response y cómo se está controlando.
+A requisição deve ser processada corretamente agora. Bom trabalho! Mas agora temos problemas com o `response` e como gerenciá-lo.
 
-## Limpiando el callback de success
+## Limpando o _callback_ de _success_
 
-Ya hemos obtenido la respuesta en la consola, ahora vamos a ver cómo lo
-agregamos a nuestra página a través de jQuery. Primero veamos cómo lo
-tendríamos usando el objeto XHR:
+Já obtivemos nossa resposta no console. Agora veremos como o adicionamos em nossa página por meio de jQuery. Primeiro vejamos como o faríamos usando o objeto XHR:
 
 ```javascript
 function addUser() {
@@ -190,11 +160,9 @@ function addUser() {
 }
 ```
 
-> **Nota:** En este ejemplo, el HTML que se está agregando es un card de
-> Bootstrap 4, para fines de este ejemplo, el _markup_ puede tener otra
-> estructura y diseño.
+> **Nota:** Nesta exemplo, o HTML que estamos adicionar é um _card_ de Bootstrap 4. Para a finalidade deste exemplo, você pode usar outra estrutura e projeto.
 
-Si usamos jQuery, podríamos cambiarlo de la siguiente manera:
+Se usamos jQuery, poderíamos mudá-lo da seguinte maneira:
 
 ```javascript
 function addUser(user) {
@@ -210,24 +178,21 @@ function addUser(user) {
 }
 ```
 
-### ¿Qué cambió?
+### O que mudou?
 
-- La función ahora tienen un parámetro (el usuario)
-- El parámetro ya ha sido convertido de JSON a un objeto de JavaScript, así que
-  no necesitamos usar `JSON.parse()`
-- Aprovechamos los métodos de jQuery para manipular el DOM
+- A função agora tem um parâmetro (o usuário).
+- O parâmetro já foi convertido de JSON para um objeto JavaScript. Assim, não precisamos usar `JSON.parse()`.
+- Aproveitamos os métodos de jQuery para manipular o DOM.
 
-El código que agrega el HTML (plantilla) al contenedor no ha cambiado :).
+O código que adiciona o HTML (template) no contêiner não mudou :).
 
-## ¿Y si ocurre un error, cómo lo controlarías?
+## E se ocorre um erro, como proceder?
 
-Entra a la documentación de jQuery y revisa qué método (así como `.done()`)
-encadenarías a la petición AJAX para controlar un posible error. Una vez
-encontrado, puedes probarlo metiendo un error dentro de la URL por ejemplo.
+Acesse a documentação de jQuery e revise qual método (assim como `.done()`) você encadearia na requisição AJAX para controlar um possível erro. Uma vez encontrado, você pode testá-lo forçando um erro dentro da URL por exemplo.
 
-## Código fuente de la demo
+## Código fonte do demo
 
-El código visto en esta lectura lo puedes encontrar en el siguiente pen:
+O código visto nesta leitura pode ser encontrado aqui:
 
 <iframe height='400' scrolling='no' title='AJAX con jQuery' src='//codepen.io/ivandevp/embed/vdxNMd/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ivandevp/pen/vdxNMd/'>AJAX con jQuery</a> by Ivan (<a href='https://codepen.io/ivandevp'>@ivandevp</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

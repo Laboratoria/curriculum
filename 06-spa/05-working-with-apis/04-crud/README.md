@@ -1,56 +1,38 @@
 # CRUD
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué es CRUD y cómo podemos generar una aplicación consumiendo un API
-  RESTful
+- Entender o que é `CRUD` e como podemos gerar uma aplicação consumindo uma API RESTful.
 
 ## CRUD: Create, Read, Update and Delete
 
-¿Te has percatado que casi toda la interacción qué haces en la web tiene que ver
-con una base de datos? Cuando entras al perfil de la persona que stalkeas, todas
-sus fotos, publicaciones, comentarios y demás está almacenado en algún lugar 
-(base de datos), cuando subes una foto en Instagram o envías un e-mail, estás 
-creando un nuevo registro en la database, cuando cambias tu foto de perfil
-en Whatsapp, estás editando algo existente en la BD, por último, cuándo borras
-el mensaje cuando te equivocas de conversación o grupo, estás alterando tu DB.
+Você já notou que quase toda a interação que você faz na web tem a ver com uma base de dados? Quando você entra no perfil de uma pessoa que você segue, todas as suas fotos, publicações, comentários e demais itens estão armazenados em algum lugar (database). Quando sobe uma uma foto no Instagram ou envia um e-mail, você está criando um novo registro no DB. Quando você muda sua foto de perfil no WhatsApp, você está editando algo existente no banco de dados. Por último, quando você apaga a mensagem de uma conversa ou grupo, você está alterando seu DB.
 
-> El uso de distintas palabras para referirse a base de datos en el párrafo 
-> anterior fue intencional para saber que hacen referencia a lo mismo.
+> O uso de diferentes palavras para se referir à base de dados no parágrafo anterior foi intencional para você saber que fazem referência à mesma coisa.
 
-A todas las acciones descritas anteriormente que tienen interacción con la base
-de datos, tienen un acrónimo en programación: **CRUD**.
+A todas essas ações descritas anteriormente que têm interação com a base de dados, possuem um acrônimo na programação: **CRUD**.
 
-CRUD es el acrónimo de "_Crear, Leer, Actualizar y Eliminar_", palabras que
-corresponden respectivamente a los verbos HTTP más utilizados: **POST, GET,
-PUT y DELETE.**
+CRUD é o acrônimo de _criar, ler, atualizar e apagar_, palavras que correspondem respectivamente aos verbos do HTTP mais utilizados: **POST, GET, PUT e DELETE.**
 
-Estas son las operaciones más comunes que queremos tener en el caso de una API,
-que manipula datos.
+Estas são as operações mais comuns que queremos ter no caso de uma API, que manipula dados.
 
-Para aclararnos vamos a revisar el siguiente vídeo, solo hasta el minuto 3:15.
+Para esclarecer o assunto, vamos assistir ao vídeo a seguir, até 3min15s.
 
-> Nota: El vídeo dura muchísimo (1:28:04)!!! Los primeros tres minutos muestra
-> lo que es un CRUD y que uso tendría en un aplicación con Firebase.
-> Después, inicia con el desarrollo de la aplicación y si lo vas siguiendo
-> este es un excelente ejercicio guiado.
+> Nota: O vídeo é bem longo (1h28min04s)!!! Os primeiros três minutos mostra o que é CRUD e que uso teria uma aplicação com Firebase. Depois, inicia com o desenvolvimento de uma aplicação e se você o acompanhar este é um excelente exercício guiado.
 
 [Vídeo](https://www.youtube.com/watch?v=cQmwK306XaI)
 
-## Ejemplo
+## Exemplo
 
-Aquí un ejemplo de CRUD para una lista de tareas:
+Aqui um exemplo de CRUD para uma lista de tarefas:
 
 <iframe height='760' scrolling='no' title='Plain JS CRUD Frontend' src='//codepen.io/ianseabrook/embed/rxvByR/?height=760&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ianseabrook/pen/rxvByR/'>Plain JS CRUD Frontend</a> by Ian Seabrook (<a href='https://codepen.io/ianseabrook'>@ianseabrook</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Si bien el ejercicio anterior pierde los cambios al recargar la página, ésta 
-muestra el principio de las acciones que implica un CRUD. Al momento de 
-practicar (en las siguientes lecciones), ¡lo pondremos en práctica con una base 
-de datos real!
+Embora o exercício anterior perca as alterações ao recarregar a página, ele mostra o princípio das ações que um CRUD realiza. No momento da prática (nas seguintes lições), vamos colocá-lo em prática com uma base de dados reais!
