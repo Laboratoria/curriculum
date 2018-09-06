@@ -1,31 +1,24 @@
 # Promesas
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-Hasta ahora hemos visto el uso de _callbacks_ para manejar tareas asíncronas. En
-esta lectura introducimos un tipo de dato nuevo (`Promise`), que está
-específicamente diseñado para encapsular operaciones asíncronas y poder
-encadenarlas.
+Até agora vimos o uso de _callbacks_ para manipular tarefas assíncronas. Nesta leitura introduzimos um tipo novo de dado (`Promise`), que é especificamente projetado para encapsular operações assíncronas e poder encadeá-las.
 
-Cuando usamos _callbacks_, es común que nos encontremos con situaciones donde
-una operación asícrona depende de que otra se haya completado, y así vamos
-anidando callbacks y es fácil perder el hilo de lo que se está
-ejecutando en un momento determinado. Más aun si en la vida real comienzan a
-existir *callbacks* para todo:
+Quando usamos _callbacks_, é comum nos depararmos com situações onde uma operação assíncrona depende de que outra tenha sido completada e assim vamos encadeando _callbacks_ e é fácil perder o fio da meada do que está sendo executado em um momento determinado. Mais ainda assim na vida real começam a existir *callbacks* para tudo:
 
 ```js
-unProcesoLento(
-  (datos) => {
-    otroProcesoLento(
-      (otrosDatos) => {
-        yAunOtroProcesoLento(
-          (masDatos) => {
+umProcessoLento(
+  (dados) => {
+    outroProcessoLento(
+      (outrosDados) => {
+        eAindaOutroProcessoLento(
+          (maisDados) => {
             /*
-             * podemos seguir anidando callbacks...
+             * podemos seguir encadeando callbacks...
              */
           }
         );
@@ -35,14 +28,9 @@ unProcesoLento(
 );
 ```
 
-A esto se le llama el **callback hell** y ocurre cuando procesos lentos dependen
-del resultado de los anteriores por lo que terminamos anidando una dentro de
-otra las funciones que esperan por los datos que traen tales procesos.
+Isto se chama **callback hell** e ocorre quando processos lentos dependem do resultado de outros anteriores e acabamos encadeando uma dentro da outra as funções que esperam os dados que vêm desses processos.
 
-Para esto es que desde ES6 se crearon las `promesas` (*Promises* en inglés), que
-están diseñadas para representar a esos datos que están, estarán en el futuro o
-simplemente nunca llegarán (en caso de que haya alguna falla). Veamos un ejemplo
-de ellas:
+Para isso é que desde ES6 se criaram as `promessas` (*Promises* en inglês), que são projetadas para representar esses dados que estão, estarão ou simplesmente nunca chegarão (no caso de acontecer alguma falha.) Vejamos um exemplo delas:
 
 ```js
 const readFiles = require('read-files-promise');
@@ -55,133 +43,96 @@ readFiles([
     buffers;
   })
   .catch((error) => {
-    console.log('Falló este proceso muy lento');
+    console.log('Falha neste processo muito lento');
   });
 ```
 
-Mucho mejor, aunque se vean más lineas hay grandes diferencias con el
-acercamiento de *callbacks*, el primero es que hay un espacio para la función
-que recibirá los datos y otro para la que ejecutará el código de emergencia en
-caso de falla, pero la principal es que las promesas pueden anidarse como lo
-veremos en el siguiente ejemplo :
+Muito melhor, embora vejamos mais linhas, há grandes diferenças com a abordagem de *callbacks*. O primeiro é que há um espaço para a função que receberá os dados e outro para a que executará o código de emergência em caso de falha, mas a principal é que as promessas podem ser encadeadas como veremos no próximo exemplo:
 
 ```js
 const readFiles = require('read-files-promise');
 
 readFiles(['path/to/file0'], { encoding: 'utf8' })
   .then((buffers) => {
-    buffers; // [ContenidoDeArchivo0]
+    buffers; // [ConteudoDeArquivo0]
 
     return readFiles(['path/to/file1'], { encoding: 'utf8' });
   })
   .then((buffers) => {
-    buffers; // [ContenidoDeArchivo1]
+    buffers; // [ConteudoDeArquivo1]
   })
   .catch((error) => {
-    console.log("Fallamos al leer archivos")
+    console.log("Falhamos em ler os arquivos")
   });
 ```
 
-Ahora si, mucho más ordenado, claro y manteniendo la funcionalidad, en donde el
-otroProcesoLento depende de los datos del primer proceso lento. Notar que
-mantenemos solo una función de emergencia en caso de error para ambos procesos
-lo que ayuda en reducir el código basura y de estar pendientes de qué función en
-la cadena falló, cosa que tendría que haberse replicado en cada uno de los
-*callbacks* del **callback hell**.
+Agora sim, muito mais ordenado, claro e mantendo a funcionalidade, em que o `outroProcessoLento` depende dos dados do primeiro processo lento. Observe que mantivemos somente uma função de emergência no caso de um erro acontecer para ambos os processos, o que ajuda em reduzir o código poluído e de ser dependente da função que falhou na cadeia, coisa que teria que ser replicada em cada um dos *callbacks* do **callback hell**.
 
-Ahora que sabemos el por qué de las promesas, veamos su creación y uso más
-detallado.
+Agora que sabemos o porquê das promessas, vamos ver como criá-las e usá-las.
 
-## Creación de Promises
+## Criação de _Promises_
 
-En esta sección nos ponemos del lado del programador de procesos lentos, por lo
-que necesitamos una forma de ordenar nuestro trabajo para que los otros
-programadores usen nuestro proceso lento. Veamos
-una promesa cualquiera por dentro y analicemos las partes que la componen, para
-así entender cómo crearlas nosotros mismos.
+Nesta seção nos colocamos ao lado do programador de processos lentos, motivo pelo qual precisamos de uma forma de ordenar nosso trabalho para que os outros programadores usem nosso processo lento. Vejamos um processo qualquer por dentro e analisemos as partes que a compõem, para assim entendermos como podemos criá-las.
 
 ```js
-let procesoLento = new Promise((resolve, reject) => {
-  let datos = {};
+let processoLento = new Promise((resolve, reject) => {
+  let dados = {};
   //...
-  //muchas lineas de código
+  //muitas linhas de código
   //...
   if (error) {
-    //uh oh, las cosas no salieron tan bien
-    reject(new Error('Fallamos, lo siento'));
+    //uh oh, as coisas não foram tão bem
+    reject(new Error('Aconteceu um erro, sinto muito.'));
   }
   //...
-  resolve(datos);
+  resolve(dados);
 });
 ```
 
-### new Promise
+### _new Promise_
 
-Lo primero es la creación de una promesa a través del código
-`new Promise(...)`, como puedes ver es un objeto que representa a este dato
-que puede estar inmediatamente, en el futuro o simplemente no estar. Este objeto
-para ser creado recibe un *callback*, pero no como todos, sino que uno especial
-que tiene dos parámetros que veremos a continuación.
+A primeira coisa é a criação de uma promessa por meio do código `new Promise(...)`. Como você pode ver, é um objeto que representa esse dado que pode estar agora, no futuro ou simplesmente não estar. Para ser criado esse objeto recebe um *callback*, mas não como todos e sim com um especial que tem dois parâmetros que veremos a seguir.
 
-#### Parámetro resolve
+#### Parâmetro _resolve_
 
-El primer parámetro del *callback* la promesa es una función especial que
-llamaremos cuando el trabajo lento que hacemos se termina. Con esto se da por
-terminada la promesa y los datos que queramos retornar se ponen como parámetros
-de `resolve`.
+O primeiro parâmetro do *callback* da promessa é uma função especial que será invocada quando o trabalho lento que estamos fazendo termina. Com isso a promessa termina e os dados que queremos retornar se toram parâmetros de `resolve`.
 
-#### Parámetro reject
+#### Parâmetro _reject_
 
-Nuestro trabajo lento puede fallar, es obvio que todo puede fallar (muchas
-gracias Murphy), por esto tenemos que tener una forma de comunicar que nuestro
-proceso lento tuvo un error. Las promesas vienen al rescate y nos proveen de
-`reject`, una función que podemos llamar en caso de error y que recibe como
-parámetro... si ya lo adivinaron, un error de javascript.
+Nosso trabalho lento pode falhar e é óbvio que tudo pode falhar (muito obrigado Murphy) e por isso temos que ter uma forma de comunicar que nosso processo lento teve um erro. As promessas vêm ao resgate e nos fornecem `reject`, uma função que podemos chamar no case de erro e que recebe como parâmetros... se já adivinhou, um erro de JavaScript.
 
-## Uso de promesas
+## Uso de promessas
 
-El uso común es tal cuál como mostramos en el ejemplo anterior de código, pero
-ahora que estamos viendo con más detalle, expliquemos cada uno de los
-componentes del uso de la promesa que vimos con nuestro _procesoLento_ y
-_otroProcesoLento_.
+O uso comum é tal qual como mostramos no exemplo anterior de código, mas agora que estamos vendo com mais detalhe, expliquemos cada um dos componentes de uso da promessa que vimos com nosso _processoLento_ e _outroProcessoLento_.
 
-### then
+### _then_
 
-`then` es una función que el usuario de la promesa provee para cuando el proceso
-lento terminó de ejecutarse correctamente. El número de parámetros que recibe
-son variables y dependen del creador (es muy importante la comunicación entre
-ustedes programadoras), generalmente retornan un único parámetro con los datos
-resultantes.
-Si queremos anidar promesas, tal como vimos anteriormente, es importante al
-final de esta función retornar otra promesa. Si en cambio queremos retornar un
-valor para el siguiente paso, lo haremos de la siguiente forma:
+`then` é uma função que o usuário da promessa fornece para quando o processo lento termina de ser executado corretamente. O número de parâmetros que recebe são variáveis e depende do criador (é muito importante a comunicação entre vocês programadoras), geralmente retornam um único parâmetro com os dados resultantes. 
+Se queremos encadear promessas, tal como vimos anteriormente, é importante ao final desta função retornar outra promessa. Se ao contrário queremos retornar um valor para o passo seguinte, faremos da seguinte forma:
 
 ```js
-  //... mucho código antes ...
-  return Promise.resolve(dato);
+  //... muito código antes...
+  return Promise.resolve(dado);
 }.then(
-  (dato) => {
-    // Acá podemos usar el dato que retornamos en el then anterior
+  (dado) => {
+    // Aqui podemos usar o dado que retornamos no 'then' anterior
   }
 );
 ```
 
 ### catch
 
-`catch` en tanto, es una función que será ejecutada en caso de que **en
-cualquier paso de la cadena de then haya una falla**. Esto es muy importante,
-puesto que concentra todo el manejo de errores en solo una parte, aliviando a la
-programadora de tener que manejar errores en cada uno de los _callbacks_.
+`catch` no entanto é uma função que será executada no caso de que **em qualquer passo da cadeia haja uma falha**. Isto é muito importante, porque concentra toda a manipulação de erros em só uma parte, aliviando a programadora de ter que tratar erros em cada um dos _callbacks_.
 
-## Estado de promesas
+## Estado de promessas
 
-Una promesa puede encontrarse en estos estados:
+Uma promessa pode estar nestes estados:
 
-* **pending**: Estado inicial, ni terminada exitosamente o rechazada.
-* **fulfilled**: operación exitosa.
-* **rejected**: operación fallida o rechazada.
-* **settled**: la Promise ha sido exitosa o rechazada, pero no está pendiente.
+* **pending**: Estado inicial, nem terminada com sucesso ou fracassada.
+* **fulfilled**: operação ocorreu com sucesso.
+* **rejected**: operação com erro ou recusada.
+* **settled**: a *Promise* teve sucesso ou fracasso, mas não está pendente.
 
-## Lecturas complemenentarias
+## Leituras complementares
 
 * [Promises - Jake Archibald - Google Developers](https://developers.google.com/web/fundamentals/primers/promises)

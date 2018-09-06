@@ -16,4 +16,8 @@ npm install --global babel-cli
 
 Uma vez que tenhamos instalado `babel-cli` globalmente, podemos executar o comando `babel` na linha de comando para transpilar nosso código. Para tal você terá que instalar também um _preset_ (por exemplo, `babel-preset-env`) e criar um arquivo `.babelrc` com a configuração necessária.
 
+<<<<<<< HEAD
+Para mais detalhes sobre `babel` e `babel-cli` vela a [documentação oficial](https://babeljs.io).
+=======
 Para mais detalhes sobre `babel` e `babel-cli` veja a [documentação oficial](https://babeljs.io).
+>>>>>>> 9c6a6d4f95bba4232304d9d500841669202e68dd

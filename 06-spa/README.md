@@ -1,45 +1,34 @@
-# Construye una Single Page App (SPA) multi-usuario consumiendo data remota
+# Construa uma Single Page App (SPA) multi-usuário consumindo dados remotos
 
-[:construction: Este curso está en desarrollo :construction:]
+Neste curso você aprenderá tudo o que é necessário para poder criar uma _Single Page Application_ que consuma dados de forma assíncrona. Para isso, você aprenderá a:
 
-En este curso aprenderás todo lo necesario para poder crear una _Single Page
-Application_ que consuma datos de forma asíncrona. Para esto aprenderás a:
+1. Reconhecer o que acontece no ambiente web (HTTP);
+2. Comunicar-se com servidores por meio de API's e estruturação de dados em arquivos XML, JSON ou YAML;
+4. Usar API's públicas como Google Maps;
+3. Criar interações que não recarreguem a página por meio de requisições assíncronas.
 
-1. Reconocer que sucede en el entorno web (HTTP)
-2. Comunicarse con servidores a través de APIs y estructuración de datos en
-   archivos XML, JSON o YAML
-4. Usar APIs públicas como Google Maps
-3. Crear interacciones que no recarguen la página a través de peticiones
-   asíncronas
+## Público alvo
 
-## Público objetivo
+Este curso é dirigido a estudantes da Labortória. É o segundo curso da especialização de `Front-end Development`.
 
-Este curso está dirigido a estudiantes de Laboratoria. Es el segundo curso
-de la especialización de `Front-end Development`.
+## Requisitos prévios
 
-## Requerimientos previos
+Para acompanhar este curso, você deve ter completado os curso do núcleo comum e `Crie sua própria biblioteca usando JavaScript: JS Deep Dive` da Laboratória. Presume-se que as alunas tenham conhecimentos de HTML, CSS, JavaScript e jQuery.
 
-Para llevar este curso debes haber completado los cursos del common core y
-`Crea tu propia librería usando JavaScript: JS Deep Dive` de Laboratoria. Se
-asume que las alumnas tienen conocimientos de HTML, CSS, JavaScript y jQuery.
+## Você aprenderá 
 
-## Aprenderás
+- O que é o protocolo HTTP;
+- Como obter dados de um servidor (API's);
+- Criar interações sem recarregar a página.
 
-- Sobre el protocolo HTTP
-- Cómo obtener datos de un servidor (APIs)
-- Crear interacciones sin recargar la página
+## Produto
 
-## Producto
+Ao longo deste curso, você construirá uma cópia de AIRDNA, um serviço que recupera dados do [Airbnb](https://www.airbnb.com/) para dar recomendações sobre lugares onde alugar é uma grande opção econômica, desenvolvendo as seguintes características:
 
-Durante este curso construirás un clon de AIRDNA, un servicio que recupera datos
-de [Airbnb](https://www.airbnb.com/) para dar recomendaciones sobre lugares donde
-rentar es una gran opción económica, desarrollando las siguientes características:
-
-* Adaptable a la pantalla de cualquier dispositivo
-* Recuperar datos de un API público y procesarla
-* Mostrar infromación en un mapa interactivo a través de Google Maps
-* Realizar el flujo de un sitio web completo en una sola página sin la necesidad
-  de recargar la página
+* Adaptável à tela de qualquer dispositivo;
+* Recuperar dados de uma API pública e processá-la;
+* Mostrar informação em um mapa interativo por meio do Google Maps;
+* Realizar o fluxo de um sítio web completo em uma única página sem a necessidade de recarregar a página.
 
 ## Syllabus
 
@@ -48,85 +37,64 @@ rentar es una gran opción económica, desarrollando las siguientes característ
 Esta é uma introdução à internet. O objetivo é ter claro alguns conceitos sobre o que é a WWW (*World Wide Web*), o que é uma URL, HTTP e em que entender isso nos ajuda no momento de realizar uma aplicação web.
 
 
-### Unidad 01: [¿Qué hay de nuevo en HTML5?](01-html-5)
+### Unidade 01: [O que há de novo no HTML5?](01-html-5)
 
-En esta unidad, veremos qué trae el estándar de HTML5 como tal, enfocándonos en
-las APIs que vienen integradas y que pueden ser accedidas por medio de
-JavaScript. Prestaremos especial atención en `Audio/Video`, `Web Storage`,
-`Geolocation` y `DnD (Drag and Drop)`.
+Nesta unidade, veremos o que traz o padrão de HTML5, focando nas API's que vêm integradas e que podem ser acessadas por meio de JavaScript. Prestaremos especial atenção em `Audio/Video`, `Web Storage`, `Geolocalização` e `DnD (Drag and Drop)`.
 
-Referencia:
+Referência:
 
 [![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0)
 
 
-### Unidad 02: [Asincronía: Callbacks, eventos y promesas](02-async)
+### Unidade 02: [Assincronia: Callbacks, eventos e promessas](02-async)
 
-JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
-sin bloque del proceso, gracias a sus higher order functions y la propia
-arquitectura de los motores de JavaScript.
+JavaScript é uma linguagem que por natureza serve para manipular assincronia sem bloqueio do processo, graças às suas funções de alta ordem e à própria arquitetura dos motores de JavaScript.
 
-Todo lo que sea interacción con usuarios, acceso de red, acceso a disco duro,
-... serán siempre operaciones asíncronas, done el resultado de una invocación no
-retorna immediatamente, sino después de un tiempo.
+Tudo o que seja interação com usuários, acesso de rede, acesso ao disco rígido, ... serão sempre operações assíncronas, em que o resultado de uma chamada não retorna imediatamente e sim após um tempo.
 
-Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
-aplicaciones web, estas alteraciones se realizan luego de cierta interacción
-por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
-entender aspectos importantes del comportamiento de eventos y como manejarlos.
+Manipular o HTML por meio do DOM é genial, contudo no desenvolvimento de aplicações web estas alterações se realizam logo após certa interação por parte do usuário por meio de `eventos`. Nesta lição focaremos em entender aspectos importantes do comportamento de eventos e como manipulá-los.
 
 
-### Unidad 03: [¿Qué significa traer datos de un servidor asíncronamente?](03-asynchronous-js-request)
+### Unidade 03: [O que significa trazer dados de um servidor assincronamente?](03-asynchronous-js-request)
 
-El objetivo de esta unidad es llevar a la práctica el ciclo request/response de
-HTTP, y qué mejor que hacerlo asíncronamente a través de JS con XHR, AJAX y
-comunicándonos con el servidor a través de un API.
+O objetivo desta unidade é levar à prática o ciclo request/response de HTTP e que é melhor fazê-lo assincronamente por meio de JS com XHR, AJAX e comunicando-nos com o servidor por meio de uma API.
 
-Referencia:
+Referência:
 
 [![Asynchronous Requests](https://img.youtube.com/vi/P5JlebbqzTQ/0.jpg)](https://youtu.be/P5JlebbqzTQ)
 
 
 
-### Unidad 05: [A jugar con Web APIs!](05-working-with-apis)
+### Unidade 05: [Brincando com Web API's!](05-working-with-apis)
 
-En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el
-objetivo de experimentar la extracción de datos sin autenticación, con un token
-generado, enviando datos a través de cabeceras HTTP, identificar cuando son
-RESTful y otros detalles que te darán superpoderes.
+Nesta unidade praticaremos brincando com diferentes tipos de Web API's com o objetivo de experimentar a extração de dados sem autenticação, com um token gerado, enviando dados no cabeçalho HTTP, identificar quando são RESTful e outros detalhes que lhe darão superpoderes.
 
-Referencia:
+Referência:
 
 [![Web APIs](https://img.youtube.com/vi/_49_6pjTXiQ/0.jpg)](https://youtu.be/_49_6pjTXiQ)
 
-### Unidad 06: [Mezclemos, practiquemos y aprendamos!](06-mixing-up)
+### Unidade 06: [Misturemos, pratiquemos e aprendamos!](06-mixing-up)
 
-Esta unidad es completamente práctica, el objetivo es realizar la mayor cantidad
-de ejercicios posibles para poner en práctica todos los conceptos aprendidos
-en este curso.
+Esta unidade é completamente prática. O objetivo é realizar a maior quantidade de exercícios possíveis para colocar em prática todos os conceitos aprendidos neste curso.
 
-Referencia:
+Referência:
 
 [![Move Planner](https://img.youtube.com/vi/Ab04b8PpzCQ/0.jpg)](https://youtu.be/Ab04b8PpzCQ)
 
-### Unidad 07: [Producto Final](07-final-product)
+### Unidade 07: [Produto Final](07-final-product)
 
-Es momento de demostrar qué puedes lograr con los conocimientos adquiridos en
-este curso, el único requisito será crear un Single Page Application haciendo
-uso de un API distinto o adicional a los que hemos visto en clase y bajo el
-contexto que desees.
+É o momento de demonstrar que sabe usar corretamente os conhecimentos adquiridos neste curso. O único requisito será criar uma Single Page Application fazendo uso de uma API diferente ou adicional às que vimos em aula e dentro desse contexto.
 
-Referencia:
+Referência:
 
 [![Fullstack Academy Final Project](https://img.youtube.com/vi/uIoC2xaUXq8/0.jpg)](https://youtu.be/uIoC2xaUXq8)
 
 ## Autor(es) / Colaboradores
 
-* Steph Salazar
-* Ivan Medina
-* Otros colaboradores?
+* Steph Salazar.
+* Ivan Medina.
 
-## Libros
+## Livros
 
 ...
 
@@ -134,6 +102,6 @@ Referencia:
 
 ...
 
-## Lecturas complementarias
+## Leituras complementares
 
 ...

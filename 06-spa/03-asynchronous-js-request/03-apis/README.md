@@ -1,38 +1,29 @@
 # APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué es una API enfocado al entorno de AJAX y dónde podemos
-  encontrarlas
+- Entender o que é uma API focada no ambiente de AJAX e onde podemos encontrá-las.
 
-##  Obtener datos
+## Obter dados
 
-Hemos analizado los conceptos de Ajax y que es la tecnología que utilizaremos
-para agregar datos a nuestro proyecto de forma asíncrona. Pero, ¿De dónde
-provienen estos datos? ¿Cómo accedemos a ellos? ¿Cómo sabrá nuestra aplicación
-cómo debe recuperar esos datos?
+Analisamos os conceitos de Ajax que é a tecnologia que utilizaremos para adicionar dados a nosso projeto de forma assíncrona. Mas, de onde vêm esses dados? Como podemos acessá-los? Como nossa aplicação saberá como deve recuperar esses dados?
 
-Usaremos una API para interactuar con varias fuentes de datos.
+Usaremos uma API para interagir com várias fontes de dados.
 
-## Qué es una API?
+## O que é uma API?
 
-Anteriormente ya habíamos leído que es un **API**
-(Application Programming Interface = Interfaz de Programación de Aplicaciones)
+Anteriormente já havíamos lido o que é uma **API** (Application Programming Interface = Interface de Programação de Aplicações)
 
-Una API es una “llave de acceso” a funciones que podemos utilizar de un
-servicio web provisto por un tercero, dentro de nuestra propia aplicación web,
-de manerasegura y confiable.
+Uma API é uma "chave de acesso" a funções que podemos utilizar de um serviço web fornecido por terceiros, dentro de nossa própria aplicação web, de maneira segura e confiável.
 
-> **Hay datos por ahí que solo esperan ser utilizados.**
+> **Há dados por aí que só esperam para serem utilizados.**
 
-![ejemplosAPI](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/03-apis/ejemplos-apis.png?raw=true)
+![exemplosAPI](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/03-apis/ejemplos-apis.png?raw=true)
 
-[Google](https://developers.google.com/apis-explorer/#p/) cuenta con una
-cantidad enorme de APIs, podemos hacer uso de alguna de ellas o buscar que
-otros sitios ofrecen o usan APIs.
+[Google](https://developers.google.com/apis-explorer/#p/) conta com uma quantidade enorme de API's. Podemos fazer uso de algumas delas ou buscar outros sítios que oferecem ou usam API's.

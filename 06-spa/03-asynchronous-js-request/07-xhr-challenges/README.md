@@ -1,33 +1,30 @@
-# Jugando con XHR
+# Brincando con XHR
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Practicar todo lo aprendido haciendo uso de XHR
-- Practicar, practicar y practicar
+- Praticar tudo que foi aprendido fazendo uso de XHR.
+- Praticar, praticar e praticar.
 
-## Ejercicios
+## Exercícios
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir todos os seus exercícios para o `GitHub` e publicá-los nas `gh-pages`.
 
-### Algo más que solo una noticia
+### Algo mais que só uma notícia
 
-En el ejercicio demo, trabajamos con hacer peticiones al NY TIMES, pero nuestro
-ejercicio solo muestra una sola noticia de las muchas que nos manda en la
-respuesta.
+No exercício de demonstração, trabalhamos fazendo petições ao NY Times, mas nosso exercício só mostra uma única notícia das muitas que nos manda como resposta.
 
-En esta ocasión el reto es que logres que se visualicen por lo menos 5 de
-ellas.
+Neste caso, o desafio é que consiga que seja visualizadas pelo menos 5 dessas notícias. 
 
-  - Necesitas hacer más peticiones?
-  - Y si queremos agregar imágenes?
-  - Nos puede direccionar a cada nota de manera individual?
-  - Y si ahora nuestra petición fuera a otro periódico?
-  - Se puede tener diferentes peticiones a distintos sitios?
+  - Você precisa fazer mais requisições?
+  - E se quisermos adicionar imagens?
+  - Pode nos direcionar a cada nota de maneira individual?
+  - E se agora nossa requisição for para outro jornal?
+  - É possível ter diferentes requisições para diferentes sítios?
 
-![muestra](https://raw.githubusercontent.com/AnaSalazar/curricula-js/02c7691cd5325626c91a99f410fc8dddbc24b0fc/06-spa/02-asynchronous-js-request/07-xhr-challenges/muestra.png)
+![mostra](https://raw.githubusercontent.com/AnaSalazar/curricula-js/02c7691cd5325626c91a99f410fc8dddbc24b0fc/06-spa/02-asynchronous-js-request/07-xhr-challenges/muestra.png)

@@ -1,38 +1,32 @@
-# Opening: HTML5
+# Abertura: HTML5
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta lección aprenderemos:
+Nesta lição aprenderemos:
 
-- Qué es HTML5
-- Qué es un Browser API
-- A utilizar algunas Browser APIs
+- O que é HTML5?
+- O que é uma _Browser API_? 
+- Como utilizar algumas _Browser APIs_?
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-- ¿Qué es HTML5?
-- ¿Cuál es la diferencia entre HTML y HTML5?
-- ¿Qué son las  APIs del navegador?
-- ¿Cómo uso las APIs del navegador?
-- ¿Qué se necesita para la manipulación de audio y video?
-- ¿Cómo almaceno datos en el navegador?
-- ¿Cuál es la diferencia entre `localStorage` y `sessionStorage`?
-- ¿Cómo obtengo la ubicación actual del usuario?
-- ¿Qué significa DnD?
-- ¿Qué otras APIs del navegador conoces?
+- O que é HTML5?
+- Qual é a diferença entre HTML e HTML5?
+- O que são as API's do navegador?
+- Como utilizo as API's do navegador?
+- O que é necessário para a manipulação de áudio e vídeo?
+- Como armazeno dados no navegador?
+- Qual é a diferença entre `localStorage` e `sessionStorage`?
+- Como obtenho a localização atual do usuário?
+- O que significa DnD?
+- Quais outras API's do navegador você conhece?

@@ -1,26 +1,21 @@
-# Project Demo con jQuery
+# Projeto Demo com jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Hacer el mismo demo que se realizó con XHR usando jQuery
+- Fazer o mesmo demo que fizemos com XHR usando jQuery.
 
 ## Demo
 
 [![From XHR to jQuery](https://img.youtube.com/vi/hp7uqScG4tQ/0.jpg)](https://youtu.be/hp7uqScG4tQ)
 
-Usando el método `.ajax()` de jQuery, hay menos código de configuración que
-manejar. Eso es bueno, pero al usar jQuery estamos incluyendo la librería por
-completo y eso hace que nuestros usuarios lo descarguen cada vez que entran
-a la página.
+Usando o método `.ajax()` do jQuery, temos menos código de configuração para manipular. Isso é bom, mas ao usar jQuery estamos incluindo a biblioteca por completo e isso faz com que nossos usuários baixem-no toda vez que entram na página.
 
-Es cierto que existen técnicas para almacenarlo en caché, pero ¿realmente
-necesitamos jQuery? ¿No hay otras herramientas más óptimas que podamos usar?
+É verdade que existem técnicas para armazená-lo em cache, mas realmente precisamos de jQuery? Não há outras ferramentas melhores que possamos utilizar?
 
-Esta pregunta será respondida al final de la unidad, pero puedes ir averiguando
-al respecto ;).
+Essa pergunta será respondia ao final da unidade, mas você pode ir pesquisando a respeito ;).

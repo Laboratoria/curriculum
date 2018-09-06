@@ -1,59 +1,29 @@
 # Bubbling vs Capturing
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-Cuando un evento es lanzado, este pasa por 3 fases, en el siguiente orden,
-Capture phase, Target phase y Bubbling phase. El hecho de pasar por las 3
-fases es denominado event flow.
+Quando um evento é disparado, este passa por 3 fases, na seguinte ordem: *Capture phase*, *Targe phase* e *Bubbling phase*. O fato de passar pelas 3 fases é chamado *event flow*.
 
-Cuando se dispara un evento en un elemento que tiene elementos padres, los
-navegadores modernos ejecutan dos fases diferentes, la fase de `capturing` y
-la fase de `bubbling`.
+Quando um evento é disparado em um elemento que possui elementos pais, os navegadores modernos executam duas fases diferentes, a fase de `capturing` e a fase de `bubbling`.
 
-En la fase de captura el navegador comprueba si el antepasado más externo del
-elemento `<html>` tiene un controlador de eventos `onclick` registrado en él
-en la fase de `capturing` y lo ejecuta si es así.
-Luego pasa al siguiente elemento dentro de `<html>` y hace lo mismo, luego el
-siguiente, y así sucesivamente hasta que alcanza el elemento en el que se hizo
-`clic`.
+Na fase de captura o navegador comprova se o antepassado mais externo do elemento `<html>` tem um manipulador de eventos `onclick` registrando nele na fase de `capturing`, e o executa se sim. Logo passa para o elemento seguinte dentro do `<html>` e faz o mesmo, depois no seguinte e assim sucessivamente até que alcança o elemento no qual foi feito o `click`.
 
-En la fase de `bubbling` ocurre exactamente lo contrario, el navegador
-comprueba si el elemento en el que se ha hecho `clic` tiene un controlador de
-eventos `onclick` registrado en él en la fase de bubbling y lo ejecuta si es
-así.
-Luego se mueve al siguiente elemento que le sigue al antepasado y hace lo
-mismo, luego el siguiente, y así sucesivamente hasta que alcanza el elemento `<
-html>`.
+Na fase de `bubbling` ocorre exatamente o contrário. O navegador testa se o elemento no qual foi feito o `click` possui um manipulador de eventos `onclick` registrado nele na fase de `bubbling` e o executa se houver. Logo se move para o elemento seguinte do antepassado e faz o mesmo, depois o seguinte e assim sucessivamente até alcançar o elemento `<html>`
 
-En el event flow, cada evento lanzado en el DOM empieza en el contexto global
-(es decir, `window`), pasa por el `nodo raíz` del `document` y sigue un
-camino a través de una serie de nodos hijos (Capturing phase) que le permita
-llegar al elemento que lanza dicho evento (Target phase).
-En la `target phase`, el evento es lanzado. Luego, empieza la `bubbling phase`
-siguiendo el mismo camino de la `capturing phase`, pero en sentido inverso,
-hasta llegar al contexto global (`window`).
+No *event flow*, cada evento disparado no DOM começar no contexto global (ou seja, `window`), passa pelo `nó raiz` do `document` e segue o caminho pelos nós filhos (*Capturing phase*) para chegar ao elemento que dispara o evento (*Target phase*). Na `target` phase, o evento é disparado. Logo, começa a `bubbling phase` seguindo o mesmo caminho da `capturing phase`, mas em sentido contrário, até chegar ao contexto global (`window`).
 
-Cuando se registra un `listener`, se puede definir para que sea ejecutado en la
-`capturing phase` o en la `bubbling phase`. El orden en que un `listener` es
-ejecutado depende de la fase en la que está agregado.
-
+Quando registramos um `listener`, é possível definir que seja executado na `capturing phase` ou na `bubbling phase`. A ordem na qual um `listener` é executado depende da fase a qual está adicionado.
 ```js
 window.addEventListener('click', function() {
   console.log('Bubbling click event');
-}, false);// Este listener se ejecutará segundo
+}, false);// Este listener executará em segundo
 window.addEventListener('click', function() {
   console.log('Capturing click event');
-}, true);// Este listener se ejecutará primero
+}, true);// Este listener executará em primeiro
 ```
 
-Para definir la fase en la que se ejecutará un `listener` se pasa un tercer
-parámetro a `addEventListener`, el cual debe tener un valor `booleano`: si el
-parámetro es `true`, el `listener` se ejecutará en la `capturing phase`, y si
-es `false` el `listener` se ejecutará en la `bubbling phase`. Por defecto, el
-valor de este parámetro es `false`. Cabe señalar que también debe ser pasado a
-`removeEventListener` si existen dos listeners, uno para cada fase, que apunten
-al mismo evento y elemento.
+Para definir em qual fase será executado um `listener` é passado um terceiro parâmetro ao `addEventListener`, o qual deve conter um valor `booleano`: se o parâmetro é `true`, o `listener` será executado na `capturing phase` e se é `falso`, o `listener` será executado na `bubbling phase`. Por padrão, o valor desse parâmetro é `false`. Vale lembrar que também deve ser passado para o `removeEventListener` se existem dois `listeners`, um para cada fase, que apontem para o mesmo evento e elemento.
