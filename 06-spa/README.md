@@ -94,7 +94,7 @@ Referência:
 * Steph Salazar.
 * Ivan Medina.
 
-## Libros
+## Livros
 
 ...
 
@@ -102,6 +102,6 @@ Referência:
 
 ...
 
-## leituras complementarias
+## Leituras complementares
 
 ...

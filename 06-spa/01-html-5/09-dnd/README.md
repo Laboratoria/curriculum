@@ -16,7 +16,7 @@ Entender mais ou menos o que é o *Drag and Drop* e como usá-lo em algumas apli
 
 Este é um trecho de **html5rocks**. Vá para este **[link](https://www.html5rocks.com/es/tutorials/dnd/basics/)** para que você possa ler a explicação e veja o exemplo de *Drag and Drop*.
 
-Este **[link](https://developer.mozilla.org/es/docs/DragDrop/Drag_and_Drop)** contém a documentação da Mozilla e aqui você pode ter uma ideia do que é e o que faz esta fantástica API de HTML5.
+Este **[link](https://developer.mozilla.org/pt-BR/docs/DragDrop/Drag_and_Drop)** contém a documentação da Mozilla e aqui você pode ter uma ideia do que é e o que faz esta fantástica API de HTML5.
 
 E por último, vejamos este **[link](http://www.desarrollolibre.net/blog/tema/45/html/el-drag-and-drop-en-html5-javascript#.Wniowa6WbIU)**, já que é ótimo com os exemplos que apresenta e sua explicação.
 

@@ -19,7 +19,7 @@ Os dois mecanismos de armazenamento web são os seguintes:
 - `sessionStorage`: mantém uma área de armazenamento separada para cada origem que estiver disponível pela duração da sessão da página (tanto se o navegador estiver aberto como se estiver fechado, incluindo recarregamento de páginas e restabelecimentos).
 - `localStorage` faz o mesmo, mas persiste inclusive quando o navegador é fechado e reaberto.
 
-Fonte: [MDN - API de armazenamento web](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web)
+Fonte: [MDN - API de armazenamento web](https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API_pt_br)
 
 Veja o seguinte link: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/), jogue com ele e recarregue a página, se deseja fechar a janela ou o navegador e volte a acessar. Ele disse quantas mudanças suas permaneceram? Isto é o que a API de Web Storage (armazenamento web) permite que façamos facilmente.
 
@@ -75,7 +75,7 @@ const loggedUser = sessionStorage.getItem('loggedUser');
 console.log(loggedUser); // "[object Object]"
 ```
 
-Isto acontece porque o interpretador trata de converter o objeto para uma string e isto faz com que armazene como `"[object Object]"`. Se você quiser saber mais sobre porque o objeto é convertido para uma string dessa maneira, deve entender um pouco sobre como funciona a [coerção em JavaScript](https://jherax.wordpress.com/2014/07/05/javascript-coercion/) e entender sobre o método [`.toString()` dos objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/toString).
+Isto acontece porque o interpretador trata de converter o objeto para uma string e isto faz com que armazene como `"[object Object]"`. Se você quiser saber mais sobre porque o objeto é convertido para uma string dessa maneira, deve entender um pouco sobre como funciona a [coerção em JavaScript](https://jherax.wordpress.com/2014/07/05/javascript-coercion/) e entender sobre o método [`.toString()` dos objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects).
 
 Enfim, como resolvemos esta inconveniência e conseguimos armazenar nosso objeto? Entendamos o que fazem os seguintes métodos:
 
