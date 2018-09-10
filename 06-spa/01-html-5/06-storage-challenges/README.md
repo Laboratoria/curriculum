@@ -24,7 +24,7 @@ Implemente um login com Firebase, seja manual ou com alguma rede social, redirec
 
 ### Leitor personalizado
 
-Alguma vez você começou a ler um post de um blog, mas você se sentiu incomodada com a fonte, o tamanho ou as cores usados? Chegou a hora de resolver isso. Crie um sítio responsivo (não é preciso dizer, mas por via das dúvidas) com um post real (seu preferido, no Lorem Ipsum) e implemente a opção de que o usuário possa personalizar seu modo de leitura da forma que achar conveniente.
+Alguma vez você começou a ler um post de um blog, mas você se sentiu incomodada com a fonte, o tamanho ou as cores usados? Chegou a hora de resolver isso. Crie um sítio responsivo (não é preciso dizer, mas por via das dúvidas) com um post real (seu preferido, sem Lorem Ipsum) e implemente a opção para que o usuário possa personalizar seu modo de leitura da forma que achar conveniente.
 
 Algo muito similar ao exemplo visto na [leitura de self-learning anterior](https://mdn.github.io/dom-examples/web-storage/). 
 Se desejar armazenar a configuração do usuário, o que você usará?

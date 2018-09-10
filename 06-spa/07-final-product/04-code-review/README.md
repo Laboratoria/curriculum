@@ -9,7 +9,7 @@
 ## Objetivos
 
 - Obter feedback de suas companheiras sobre a limpeza e ordem de seu código.
-- Continuar com a prática de como é apresentar código para o público.
+- Continuar com a prática de apresentar código para o público.
 
 ## Agenda
 

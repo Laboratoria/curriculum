@@ -20,7 +20,7 @@ Deixe um profissional preparar a torta para você.
 
 jQuery é uma biblioteca muito popular que você já teve a oportunidade de usar. O uso que lhe demos até o momento foi para manipular o DOM por meio de métodos que fazem nosso código mais simples.
 
-Agora, usaremos esta vantagem de utilizar métodos menores e deixar a responsabilidade para o jQuery de ver a compatibilidade dos navegadores na implementação do AJAX.
+Agora, usaremos esta vantagem de utilizar métodos menores e deixar para o jQuery a responsabilidade de checar a compatibilidade dos navegadores na implementação do AJAX.
 
 Isso é possível graças ao método `.ajax()` que jQuery fornece para realizar requisições assíncronas.
 
@@ -29,7 +29,7 @@ Isso é possível graças ao método `.ajax()` que jQuery fornece para realizar 
 O método`.ajax()` é o coração das requisições assíncronas na biblioteca de jQuery. Há duas formas de utilizar esse método:
 
 ```javascript
-$.ajax(<url-a-realizar-a-requisicao>, <um-objeto-configuracao>);
+$.ajax(<url-a-realizar-a-requisicao>, <um-objeto-de-configuracao>);
 
 // or
 
@@ -38,7 +38,7 @@ $.ajax(<só um objeto de configuração>);
 
 Fonte: [Documentação de jQuery](https://api.jquery.com/jQuery.ajax/)
 
-A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de configuração, em parte devido a esta ser a forma mais antiga que está disponível (versão 1.0). Além disso, toda a configuração você pode estar somente em um objeto.
+A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de configuração, em parte devido a esta ser a forma mais antiga que está disponível (versão 1.0). Além disso, toda a configuração pode estar somente em um objeto.
 
 > ### O que é um objeto de configuração?
 
@@ -91,13 +91,13 @@ Vamos testá-lo:
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
-Este `request` (requisição) está sendo realizado para um recurso no GitHub (informação do usuário). O request pode ser acompanhando no painel de redes (aba `Network`no Dev Tools). 
+Esta `request` (requisição) está sendo realizada para um recurso no GitHub (informação do usuário). A requisição pode ser acompanhada no painel de redes (aba `Network`no Dev Tools). 
 
 Já sabemos como realizar uma requisição com `.ajax()` mas ainda não estamos controlando a resposta.
 
 ## Manipular os dados retornados
 
-Recordando como podemos fazer isso usando um objeto XHR, o `response` era controlado por uma função. Para o método `.ajax()` é exatamente o mesmo. Podemos encadear a execução dele com o método `.done()`. Passaremos uma função como argumento do método `.done()` que será executada quando a chamada AJAX estiver terminada:
+Recordando como podemos fazer isso usando um objeto XHR, a `response` era controlada por uma função. Para o método `.ajax()` é exatamente o mesmo. Podemos encadear a execução dele com o método `.done()`. Passaremos uma função como argumento do método `.done()` que será executada quando a chamada AJAX estiver terminada:
 
 ```javascript
 function handleResponse(data) {
@@ -134,14 +134,14 @@ $.ajax({
 Usando jQuery para requisições assíncronas:
 
 - Não temos a necessidade de criar um objeto XHR.
-- Ao invés de especificar que o _request_ é do método `GET`, jQuery o faz por padrão e só temos que indicar a URL do recurso que está sendo solicitado.
+- Ao invés de especificar que a _request_ é do método `GET`, jQuery o faz por padrão e só temos que indicar a URL do recurso que está sendo solicitado.
 - Ao invés de configurar o evento `.onload`, usamos o método `.done()`
 
-A requisição deve ser processada corretamente agora. Bom trabalho! Mas agora temos problemas com o `response` e como gerenciá-lo.
+A requisição deve ser processada corretamente agora. Bom trabalho! Mas agora temos problemas com a `response` e como gerenciá-la.
 
 ## Limpando o _callback_ de _success_
 
-Já obtivemos nossa resposta no console. Agora veremos como o adicionamos em nossa página por meio de jQuery. Primeiro vejamos como o faríamos usando o objeto XHR:
+Já obtivemos nossa resposta no console. Agora veremos como a adicionamos em nossa página por meio de jQuery. Primeiro vejamos como o faríamos usando o objeto XHR:
 
 ```javascript
 function addUser() {
@@ -160,7 +160,7 @@ function addUser() {
 }
 ```
 
-> **Nota:** Nesta exemplo, o HTML que estamos adicionar é um _card_ de Bootstrap 4. Para a finalidade deste exemplo, você pode usar outra estrutura e projeto.
+> **Nota:** Nesta exemplo, o HTML que estamos adicionando é um _card_ de Bootstrap 4. Para a finalidade deste exemplo, você pode usar outra estrutura e projeto.
 
 Se usamos jQuery, poderíamos mudá-lo da seguinte maneira:
 

@@ -18,8 +18,8 @@ Revisemos os seguintes conteúdos:
 
 Agora vamos ler este **[link](https://devcode.la/tutoriales/api-geolocalizacion-html5/)** de DevCode que além de ter informação importante também apresenta um exemplo prático para ser resolvido.
 
-Para finalizar, vejamos o vídeo a seguir. Você notará que coloca tudo no seu HTML, mas como é uma desenvolvedora que ama as boas práticas, quando estiver utilizando seu editor de texto, colocará cada coisa em seu arquivo correspondente.
+Para finalizar, vejamos o vídeo a seguir. Você notará que tudo é inserido no HTML, mas como uma desenvolvedora que ama as boas práticas, quando estiver utilizando seu editor de texto você colocará cada coisa em seu arquivo correspondente.
 
 [vídeo](https://www.youtube.com/watch?v=XX9Kmg3qLRk)
 
-Se já está fazendo o anterior, e quiser algo mais, DevCode tem um **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)** para obter a geolocalização com Node.js.
+Se já está fazendo o anterior e quiser algo mais, DevCode tem um **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)** para obter a geolocalização com Node.js.

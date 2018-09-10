@@ -16,10 +16,10 @@
 1. Por meio de exemplos precisamos garantir que entendemos:
 
   - Componentes da web;
-  - API's de HTML5;
-  - API's de terceiros;
-  - Chamadas assíncronas;
+  - APIs de HTML5;
+  - APIs de terceiros;
+  - Requisições assíncronas;
   - CRUD e REST;
   - SPA.
 
-2. Resolver dúvidas das partes mais complexas do produto final com base no percebido na turma.
+2. Resolver dúvidas das partes mais complexas do produto final com base no percebido pela turma.

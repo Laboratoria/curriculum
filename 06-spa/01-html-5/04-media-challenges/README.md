@@ -17,7 +17,7 @@ Você deve subir todos seus exercícios para o `GitHub` e publicá-los na `gh-pa
 
 ### Reprodutor de Música
 
-Faça seu reprodutor de música com seus próprios controles e design. Seu reprodutor deveria permitir iniciar, pausar, avançar e retroceder o áudio assim como poder controlar o volume. Para este exercício, você pode ter seu áudio predeterminado no HTML.
+Faça seu reprodutor de música com seus próprios controles e design. Seu reprodutor deve permitir iniciar, pausar, avançar e retroceder o áudio assim como controlar o volume. Para este exercício, você pode ter seu áudio predeterminado no HTML.
 
 Você pode usar [este website](https://www.w3.org/2010/05/video/mediaevents.html) como referência interativa.
 
@@ -27,7 +27,7 @@ Se você não tem ideia do design, pode utilizar este ou qualquer outro que enco
 
 ### Reproduzir em hover
 
-Procure seu(s) vídeo(s) favorito(s) e mostre-os no seu sítio web. Adicione a funcionalidade para que ao passar o mouse sobre o vídeo (`hover`), ele seja reproduzido. Quando sair dele, ele para.
+Procure seu(s) vídeo(s) favorito(s) e publique-os no seu sítio web. Adicione a funcionalidade para que ao passar o mouse sobre o vídeo (`hover`), ele seja reproduzido. Quando o mouse sair, o vídeo é pausado.
 
 Exemplo:
 
@@ -49,4 +49,4 @@ Não é necessário seguir a mesma estrutura. Você pode propor a que desejar. P
 
 ### Rede social de Música
 
-Como você proporcionaria a experiência a seus usuários para que possam montar sua própria playlist e que possam compartilhá-la com sua rede de amigos? Talvez, mesclando seus poderes com Firebase e fazendo uso de alguma API pública. :thinking_face:
+Como você proporcionaria a experiência a seus usuários para que possam montar sua própria playlist e compartilhá-la com sua rede de amigos? Talvez, mesclando seus poderes com Firebase e fazendo uso de alguma API pública. :thinking_face:

@@ -1,4 +1,4 @@
-# Brincando con API's
+# Brincando con APIs
 
 - Tipo: `oficina`
 - Formato: `guiado`
@@ -8,22 +8,22 @@
 
 ## Objetivos
 
-- Praticar tudo o que foi aprendido com relação às API's.
+- Praticar tudo o que foi aprendido com relação às APIs.
 - Praticar, praticar e praticar.
 
 ## Exercícios
 
-Você deve subir todos seus exercício para o `GitHub` nas `gh-pages`.
+Você deve subir todos seus exercícios para o `GitHub` nas `gh-pages`.
 
 ### Swapi
 
-_Que a força esteja com você_ neste exercício, revise os seguintes slides para que possa criar este app fenomenal para os amantes de Star Wars.
+_Que a força esteja com você_! Neste exercício, revise os seguintes slides e crie este app fenomenal para amantes de Star Wars.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGrO9hyhFU--4MSOJZgA8nRxfJ9qPdI6-2y25bTlBqo4T6C_VKfPm0IKEk-TIsx6a47Jk6lKgME-IS/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### A maior rede profissional do mundo
 
-Se você pensava que o LinkedIn só servia para manter seu CV atualizado, veja os seguintes slides para que você se surpreenda com todas as possibilidades que nos oferece para criar diferentes produtos.
+Se você pensava que o LinkedIn só servia para manter seu CV atualizado, veja os seguintes slides e surpreenda-se com todas as possibilidades que ele nos oferece para criar diferentes produtos.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSjQwnB8r8N5hFRhtE1wQ9a8GH13MDjhQhPYwmekE66Qtwrdlld582UwJr1EomzQxjLNKr3UpzwVkLp/embed?start=false&loop=false&delayms=5000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

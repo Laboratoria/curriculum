@@ -12,13 +12,13 @@
 
 ## Como construir uma SPA?
 
-Nesta leitura, vamos deixar você um pouco livre, mas sempre com a melhor intenção, que você aprenda! Para construir uma SPA, existem muitas formas de fazer e dependendo da cada pessoa o gosto pessoal pode variar e portanto, as ferramentas a serem usadas normalmente não são as mesmas. Para guiar você nesse desenvolvimento de produto listaremos diversos recursos e esperamos que possa escolher aquele com o qual se sinta mais confortável. Lembre sempre que os componentes mais comuns são os vistos na aula anterior. Lá vamos nós.
+Nesta leitura, vamos deixar você um pouco livre, mas sempre com a melhor intenção, que você aprenda! Para construir uma SPA, existem muitas formas de fazer e dependendo da cada pessoa o gosto pessoal pode variar e portanto, as ferramentas a serem usadas normalmente não são as mesmas. Para guiar você nesse desenvolvimento de produto listaremos diversos recursos e esperamos que possa escolher aquele com o qual se sinta mais confortável. Lembre-se sempre que os componentes mais comuns são os vistos na aula anterior. Lá vamos nós.
 
 ***
 
 Se você é das que adoram JavaScript e preferem fazer a manipulação do DOM, eventos e tudo o que VanillaJS permite, recomendamos o seguinte blog:
 
-[Building a single page application with vanilla js](https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js)
+[Building a single page application with VanillaJS](https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js)
 
 Aqui você encontrará a implementação de rotas por meio do evento `hashchange`, além de desenhar sua própria estrutura de pastas seguindo o padrão MVC. Inclusive os modelos podem ser manipulados como strings dentro do código JavaScript e as requisições assíncronas são feitas por meio de `XMLHttpRequest`. Você pode optar por segui-lo ao pé da letra ou adaptá-lo ao seu gosto.
 
@@ -28,11 +28,11 @@ Se você gostou de jQuery e viu que existe potencial no sistema de *templating* 
 
 [Making a Single Page App Without a Framework](https://tutorialzine.com/2015/02/single-page-app-without-a-framework)
 
-Neste tutorial você verá que ele não segue um padrão de arquitetura específico mas utiliza várias funções e cada uma com um fim específico. Além de se basear em jQuery para manipulação do DOM e Handlebars para a manipulação do HTML, já que constrói uma lista de produtos.
+Neste tutorial você verá que ele não segue um padrão de arquitetura específico, mas utiliza várias funções e cada uma com um fim específico, além de se basear em jQuery para manipulação do DOM e Handlebars para a manipulação do HTML, já que constrói uma lista de produtos.
 
 ***
 
-Por fim, se você não quer criar algo do zero, está convidada a usar um framework existente. Mas para isso, terá que dedicar um tempo para estudar sua documentação e muito provavelmente ver alguns tutoriais de como conseguir fazer funcionar certos aspectos particulares. Não é nossa recomendação devido ao tempo que terá para o desafio final, mas não te proibimos :)
+Por fim, se você não quer criar algo do zero, está convidada a usar um framework existente. Mas para isso, terá que dedicar um tempo para estudar sua documentação e muito provavelmente ver alguns tutoriais de como fazer funcionar certos aspectos particulares. Não é nossa recomendação devido ao tempo que terá para o desafio final, mas não te proibimos :)
 
 Entre os frameworks mais populares você pode usar o [React](https://reactjs.org/), [Angular](https://angular.io/), [VueJS](https://vuejs.org/), entre outros. Contudo, outros frameworks um pouco mais antigos como [Backbone](http://backbonejs.org/), [AngularJS](https://angularjs.org/) ou [Ember](https://www.emberjs.com/) não estão descartados. Esperamos que você tenha olhado a página do [TodoMVC](http://todomvc.com/) na aula anterior e tenha visto um pouco da sintaxe/estrutura peculiar e que alguma delas tenha chamado sua atenção se quiser usar esta opção ;).
 

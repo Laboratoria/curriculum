@@ -14,17 +14,17 @@
 
 > O termo "sigle-page application" (ou SPA) normalmente descreve aplicações que foram construídas para a web. Essas aplicações são acessadas por meio de um navegador como outros sítios web, mas oferece mais interações dinâmicas como se fosse uma aplicação de celular ou nativa de desktop.
 > 
-> A diferença mais notável entre um sítio web e uma SPA é a quantidade reduzida de atualizações da páginas. As SPA's têm um uso maior de AJAX - maneira de comunicar com servidores *back-end* sem fazer uma atualização completa da página - para trazer dados à nossa aplicação. Como resultado, o processo de renderização da página ocorre principalmente no lado do cliente (navegador).
+> A diferença mais notável entre um sítio web e uma SPA é a quantidade reduzida de atualizações da páginas. As SPAs têm um uso maior de AJAX - maneira de comunicar com servidores *back-end* sem fazer uma atualização completa da página - para trazer dados à nossa aplicação. Como resultado, o processo de renderização da página ocorre principalmente no lado do cliente (navegador).
 
 Este é um trecho traduzido do espanhol do blog sobre [Single-page Applications de CodeSchool](https://www.codeschool.com/beginners-guide-to-web-development/single-page-applications).
 
 ## Componentes de uma SPA
 
-As SPA's contam com alguns componentes que fazem que todo o desenvolvimento delas seja mais rápido e específico. São eles: *routing*, *templates* (modelos em português), manipulação de eventos e padrão de arquitetura de software (comumente MVC ou derivados).
+As SPAs contam com alguns componentes que fazem com que todo o desenvolvimento delas seja mais rápido e específico. São eles: *routing*, *templates* (modelos, em português), manipulação de eventos e padrão de arquitetura de software (comumente MVC ou derivados).
 
 ### *Routing*
 
-A particularidade dos SPA's é que cada link que redireciona para um sítio é manipulado pelo navegador e não necessita atualizar a página toda.
+A particularidade dos SPAs é que cada link que redireciona para um sítio é manipulado pelo navegador e não se necessita atualizar a página toda.
 
 #### Exemplo
 
@@ -34,7 +34,7 @@ Se formos à documentação de uma biblioteca para manipulação de rotas em Jav
 
 ### *Templates*
 
-Quando vamos criar um sítio completo, é comum encontrarmos coisas repetidas na estrutura de nosso sítio como o cabeçalho, rodapé, lista de posts em um blog ou outra seção de nosso sítio. O que acontece nesse casos é que nosso HTML em particular começa a ser redundante e muito repetitivo. Os frameworks de SPA normalmente usam um sistema de modelos ou *templates*. Para você ter uma ideia do que são esses sistemas, você pode olhar o [Pug](https://pugjs.org/api/getting-started.html) ou o [Handlebars](http://handlebarsjs.com/). Mais adiante você verá que cada framework implementa seu próprio sistema de modelos.
+Quando vamos criar um sítio completo, é comum encontrarmos coisas repetidas na estrutura de nosso sítio como o cabeçalho, rodapé, lista de posts em um blog ou outra seção. O que acontece nesse casos é que nosso HTML em particular começa a ser redundante e muito repetitivo. Os frameworks de SPA normalmente usam um sistema de modelos ou *templates*. Para você ter uma ideia do que são esses sistemas, você pode olhar o [Pug](https://pugjs.org/api/getting-started.html) ou o [Handlebars](http://handlebarsjs.com/). Mais adiante você verá que cada framework implementa seu próprio sistema de modelos.
 
 #### Exemplo
 
@@ -45,7 +45,7 @@ Neste exemplo, cada item que é adicionado está em um model e se quisermos muda
 
 ### Manipulação de Eventos
 
-Uma das particularidades dos frameworks de JavaScript que permitem criar SPA's é que não tem que se preocupar em fazer `.addEventListener` a cada instante ou como manipular o DOM. Geralmente, eles fornecem uma maneira mais direta e abstrata de como fazê-lo.
+Uma das particularidades dos frameworks de JavaScript que permitem criar SPAs é não ter que se preocupar em fazer `.addEventListener` a cada instante ou como manipular o DOM. Geralmente, eles fornecem uma maneira mais direta e abstrata de fazê-lo.
 
 #### Exemplo
 
@@ -56,11 +56,11 @@ O exemplo a seguir está usando um framework chamado [Vue.js](https://vuejs.org/
 
 ### MVC
 
-> O MVC ou Modelo-Visualização-Controlador é um padrão de arquitetura de software que utilizando 3 componentes (Visualizações, Modelos e Controladores) separa a lógica da aplicação da lógica da visualização de uma aplicação. É uma arquitetura importante porque é utilizada tanto em componentes gráficos básicos até sistemas empresariais; a maioria dos frameworks modernos utilizam MVC (ou alguma adaptação de MVC) na arquitetura. Entre eles, podemos mencionar Ruby on Rails, Django, AngularJS e muitos outros mais. Neste pequeno artigo tentamos introduzir os conceitos do MVC.
+> O MVC ou Modelo-Visualização-Controlador é um padrão de arquitetura de software que utilizando 3 componentes (Visualizações, Modelos e Controladores), separando a lógica da aplicação da lógica da visualização de uma aplicação. É uma arquitetura importante porque é utilizada tanto em componentes gráficos básicos até sistemas empresariais; a maioria dos frameworks modernos utilizam MVC (ou alguma adaptação de MVC) na arquitetura. Entre eles, podemos mencionar Ruby on Rails, Django, AngularJS e muitos outros mais. Neste pequeno artigo tentamos introduzir os conceitos do MVC.
 
 Este é um trecho de um blog sobre [MVC de Código Fácil](https://codigofacilito.com/articulos/mvc-model-view-controller-explicado).
 
-Embora tenhamos abordado aqui o padrão MVC, no desenvolvimento web devido à quantidade imensa de ferramentas que temos à disposição, existem muitos derivados desse padrão como MVM, MVT, MVP, entre outros. Por isso a sigla MV* ou MVW (Model-View-Whatever) tem sido utilizada para se referir a esses padrões.
+Embora tenhamos abordado aqui o padrão MVC, no desenvolvimento web, devido à quantidade imensa de ferramentas que temos à disposição, existem muitos derivados desse padrão como MVM, MVT, MVP, entre outros. Por isso a sigla MV* ou MVW (Model-View-Whatever) tem sido utilizada para se referir a esses padrões.
 
 #### Exemplo
 
@@ -71,13 +71,13 @@ Neste exemplo, podemos ver como nossos dados (vetor de objetos) está representa
 
 ## Recursos
 
-Aqui deixamos um vídeo que explica a grande diferença entre as SPA's e os sítios web comuns.
+Aqui deixamos um vídeo que explica a grande diferença entre as SPAs e os sítios web comuns.
 
 <iframe src="https://player.vimeo.com/video/76871491?color=00adef" width="760" height="570">
 </iframe>  
 
-Se você deseja ter um pouco mais de detalhe sobre os componentes de uma SPA, e em particular sobre os frameworks de JS que são usados nelas, aqui deixamos um vídeo (em inglês) de nossos amigos da Udacity.
+Se você deseja um pouco mais de detalhe sobre os componentes de uma SPA, e em particular sobre os frameworks de JS que são usados nelas, aqui deixamos um vídeo (em inglês) de nossos amigos da Udacity.
 
 [![Core Framework Components](https://img.youtube.com/vi/ZxnZj7UTw1c/0.jpg)](https://youtu.be/ZxnZj7UTw1c)
 
-Por fim, se você quiser revisar quais framworks existem ou começar a comparar alguns deles, existe um sítio chamado [TodoMVC](http://todomvc.com/) que tem uma aplicação (um *To Do List*) construída com diversas bibliotecas e frameworks para que você analise o código fonte e veja qual lhe chama mais a atenção.
+Por fim, se você quiser revisar quais frameworks existem ou começar a comparar alguns deles, existe um sítio chamado [TodoMVC](http://todomvc.com/) com uma aplicação (um *To Do List*) construída com diversas bibliotecas e frameworks para que você analise o código fonte e veja qual lhe chama mais a atenção.

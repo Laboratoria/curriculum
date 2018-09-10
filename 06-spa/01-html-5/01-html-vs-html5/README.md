@@ -16,7 +16,7 @@
 > HTML5 é a última versão de HTML. Ela apresenta dois conceitos diferentes:
 >
 > - Trata-se de uma nova versão de HTML, com novos elementos, atributos e comportamentos.
-> - Contém um conjunto mais amplo de tecnologias que permite aos sítios web a às aplicações serem mais diversas e terem grande alcance. Este conjunto se chama _HTML5 e > amigos_ frequentemente reduzido para **HTML5**.
+> - Contém um conjunto mais amplo de tecnologias que permite aos sítios web e às aplicações serem mais diversas e terem grande alcance. Este conjunto se chama _HTML5 e > amigos_ frequentemente reduzido para **HTML5**.
 >
 > Projetado para ser utilizável por todos os desenvolvedores da Open Web, esta página referencia numerosos recursos sobre as tecnologias de HTML5, classificados em vários grupos segundo sua função.
 
@@ -26,16 +26,16 @@
 > - **Multimídia:** Fornece um excelente suporte para utilizar conteúdo multimídia como áudio e vídeo nativo.
 > - **Gráficos e efeitos 2D/3D:** Proporciona uma ampla gama de novas características que os gráficos da web utilizam como canvas, 2D, WebGL, SVG, etc.
 > - **Rendimento e Integração:** Proporciona uma maior otimização de velocidade e um melhor uso do hardware.
-> - **Acesso ao dispositivo:** Fornece API's para o uso de vários componentes internos de entrada e saída de nosso dispositivo.
+> - **Acesso ao dispositivo:** Fornece APIs para o uso de vários componentes internos de entrada e saída de nosso dispositivo.
 > - **CSS3:** Oferece uma nova e vasta variedade de opções para fazer projetos mais sofisticados.
  
 Este é um [trecho da documentação de MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) que podemos encontrar sobre HTML5.
 
-## Então, a diferença é que é a última versão de HTML?
+## Então, a diferença é que se trata da última versão de HTML?
 
-Sim e não. É correto que HTML5 é a última versão de HTML, mas além disso engloba um conjunto de tecnologias que define o padrão em relação à web, tais como CSS3 e um termo que você ouvirá frequentemente: **API's**. Este último nos permitirá conhecer os superpoderes do navegador e entenderemos porque o navegador melhorou muito desde seu início.
+Sim e não. É correto que HTML5 é a última versão de HTML, mas além disso engloba um conjunto de tecnologias que define o padrão em relação à web, tais como CSS3 e um termo que você ouvirá frequentemente: **APIs**. Este último nos permitirá conhecer os superpoderes do navegador e entenderemos porque o navegador melhorou muito desde seu início.
 
-## Você sabia que...
+## Você sabia?
 
 Na realidade já estão trabalhando no primeiro rascunho da revisão do padrão **HTML5.3**: _scream_. Neste [blog da W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/) você pode encontrar informação a respeito.
 

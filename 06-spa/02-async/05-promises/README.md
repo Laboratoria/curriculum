@@ -30,7 +30,7 @@ umProcessoLento(
 
 Isto se chama **callback hell** e ocorre quando processos lentos dependem do resultado de outros anteriores e acabamos encadeando uma dentro da outra as funções que esperam os dados que vêm desses processos.
 
-Para isso é que desde ES6 se criaram as `promessas` (*Promises* en inglês), que são projetadas para representar esses dados que estão, estarão ou simplesmente nunca chegarão (no caso de acontecer alguma falha.) Vejamos um exemplo delas:
+Para isso é que desde ES6 se criaram as `promessas` (*Promises* en inglês), que são projetadas para representar esses dados que estão chegando, chegarão ou simplesmente nunca cheguem (no caso de acontecer alguma falha). Vejamos um exemplo delas:
 
 ```js
 const readFiles = require('read-files-promise');
@@ -72,7 +72,7 @@ Agora que sabemos o porquê das promessas, vamos ver como criá-las e usá-las.
 
 ## Criação de _Promises_
 
-Nesta seção nos colocamos ao lado do programador de processos lentos, motivo pelo qual precisamos de uma forma de ordenar nosso trabalho para que os outros programadores usem nosso processo lento. Vejamos um processo qualquer por dentro e analisemos as partes que a compõem, para assim entendermos como podemos criá-las.
+Nesta seção nos colocamos ao lado do programador de processos lentos, motivo pelo qual precisamos de uma forma de ordenar nosso trabalho para que os outros programadores usem nosso processo lento. Vejamos um processo qualquer por dentro e analisemos as partes que o compõem, para assim entendermos como podemos criá-las.
 
 ```js
 let processoLento = new Promise((resolve, reject) => {
@@ -122,13 +122,13 @@ Se queremos encadear promessas, tal como vimos anteriormente, é importante ao f
 
 ### catch
 
-`catch` no entanto é uma função que será executada no caso de que **em qualquer passo da cadeia haja uma falha**. Isto é muito importante, porque concentra toda a manipulação de erros em só uma parte, aliviando a programadora de ter que tratar erros em cada um dos _callbacks_.
+`catch` no entanto é uma função que será executada no caso de que **haja uma falha em qualquer passo da cadeia**. Isto é muito importante, porque concentra toda a manipulação de erros em só uma parte, aliviando a programadora de ter que tratar erros em cada um dos _callbacks_.
 
 ## Estado de promessas
 
 Uma promessa pode estar nestes estados:
 
-* **pending**: Estado inicial, nem terminada com sucesso ou fracassada.
+* **pending**: Estado inicial, nem terminada com sucesso nem fracassada.
 * **fulfilled**: operação ocorreu com sucesso.
 * **rejected**: operação com erro ou recusada.
 * **settled**: a *Promise* teve sucesso ou fracasso, mas não está pendente.

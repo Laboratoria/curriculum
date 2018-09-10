@@ -23,4 +23,4 @@ Dado que subimos muitos de nossos projetos para o GitHub, levando em conta que e
 
 Lembre sempre de seguir este [guia de estilos](https://github.com/Laboratoria/js-style-guide/) e boas práticas em seu código!
 
-Não se limite a fazer só o chat. Com os conhecimentos que você tem até agora, estamos certas de que você tem muitas ideias malucas e acreditamos que você torná-las realidade.
+Não se limite a fazer só o chat. Com os conhecimentos que tem até agora, estamos certas de que você tem muitas ideias malucas e acreditamos que você pode torná-las realidade.
