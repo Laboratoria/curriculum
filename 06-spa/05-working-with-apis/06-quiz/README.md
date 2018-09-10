@@ -22,7 +22,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Marque a opção onde só se encontrem API's do navegador.
+### 2) Marque a opção onde só se encontrem APIs do navegador.
 
 #### Opções
 
@@ -33,7 +33,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 3) Quais são os prós do uso de API's de terceiros?
+### 3) Quais são os prós do uso de APIs de terceiros?
 
 #### Opções
 
@@ -44,7 +44,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 4) Dependendo do meio de autenticação, como se classificam as web-api's de terceiros?
+### 4) Dependendo do meio de autenticação, como se classificam as web APIs de terceiros?
 
 #### Opções
 

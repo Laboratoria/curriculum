@@ -18,4 +18,4 @@ Usando o método `.ajax()` do jQuery, temos menos código de configuração para
 
 É verdade que existem técnicas para armazená-lo em cache, mas realmente precisamos de jQuery? Não há outras ferramentas melhores que possamos utilizar?
 
-Essa pergunta será respondia ao final da unidade, mas você pode ir pesquisando a respeito ;).
+Essa pergunta será respondida ao final da unidade, mas você pode ir pesquisando a respeito ;).

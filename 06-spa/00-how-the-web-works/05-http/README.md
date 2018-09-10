@@ -21,11 +21,11 @@ Nesta unidade aprenderemos:
 >
 > Cada vez que você abre um navegador, quando baixa um aplicativo ou cada vez que recebe uma mensagem no WhatsApp ou no Facebook, você está utilizando a web.
 >
-> Em geral, em todos esses momentos, um cliente está comunicando com o servidor e vice-versa. Mas o que isto significa realmente? O que acontece quando você navega em um website? Como o *smartphone* sabe que alguém lhe enviou uma mensagem? Quais funcionalidades a web possui? E mais importante, quais são suas limitações?
+> Em geral, em todos esses momentos, um cliente está se comunicando com o servidor e vice-versa. Mas o que isto significa realmente? O que acontece quando você navega em um website? Como o *smartphone* sabe que alguém lhe enviou uma mensagem? Quais funcionalidades a web possui? E mais importante, quais são suas limitações?
 >
 >É importante entender o que é realmente a web, como você pode tirar vantagem dela e como você pode evitar erros que podem fazer seu usuário ter e sofrer com problemas de segurança. Para pensar como uma engenheira, precisamos entender tanto a semântica que usa HTTP como sua implementação dentro do navegador.
 
-O último item, é parte do que você pode encontrar no vídeo a seguir que é parte de um [curso em inglês sobre `comunicação cliente-servidor` oferecido
+O último item é parte do que você pode encontrar no vídeo a seguir, que é um trecho de um [curso em inglês sobre `comunicação cliente-servidor` oferecido
 pela Udacity](https://classroom.udacity.com/courses/ud897). Dessa forma, prepare seus fones de ouvido, ative a tradução automática para língua portuguesa se for necessário e assista ao seguinte vídeo:
 
 [![HTTP](https://img.youtube.com/vi/HBmOROFs8WM/0.jpg)](https://youtu.be/HBmOROFs8WM)
@@ -42,7 +42,7 @@ Para responder a estas perguntas e ter claro de como estamos falando, aqui temos
 
 Neste [link](https://pt.wikipedia.org/wiki/TCP/IP) só é necessário que você leia a parte "Protocolos de Internet" para que conheçamos um pouco mais do assunto de protocolos.
 
-> Nota: Os outros comandos HTTP veremos quando estivermos trabalhando com API's.
+> Nota: Os outros comandos HTTP veremos quando estivermos trabalhando com APIs.
 
 Para continuar aprofundando este tema, assista a este outro vídeo e leia o post.
 

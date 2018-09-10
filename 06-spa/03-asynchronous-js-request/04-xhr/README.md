@@ -15,7 +15,7 @@
 Uma boa maneira de entender XHR é usando a seguinte analogia:
 
 > **Preparar uma torta!**
-> Para prepará-lo, precisamos de farinha, ovo, leite, manteiga e um forno. Acendemos o forno. Em seguida podemos misturar os 4 ingredientes e já pronta a massa a colocamos no forno. Aqui demora um pouco até que asse, mas enquanto isso podemos ir fazendo o recheio.
+> Para prepará-la, precisamos de farinha, ovo, leite, manteiga e um forno. Acendemos o forno. Em seguida podemos misturar os 4 ingredientes e já pronta a massa a colocamos no forno. Aqui demora um pouco até que asse, mas enquanto isso podemos ir fazendo o recheio.
 
 Um objeto XHR é fornecido pelo ambiente de JavaScript e é utilizado para fazer requisições AJAX. É muito parecido com a parte da preparação da massa em que primeiro devemos "preparar" as configurações e em seguida enviar nossa requisição. Uma vez isto feito, nosso código pode seguir adiante e fazer outras requisições ou tarefas.
 
@@ -23,11 +23,11 @@ Um objeto XHR é fornecido pelo ambiente de JavaScript e é utilizado para fazer
 
 Uma vez que nossa requisição tem uma resposta, o programa pode seguir em frente com o que programamos para esta "tarefa".
 
-## XMLHTTPRequest
+## XMLHttpRequest
 
 O ambiente de JavaScript proporciona uma forma de realizar requisições HTTP assíncronas. Isso é feito com um objeto `XMLHttpRequest`. Podemos usar este objeto com a função do construtor `XMLHttpRequest`.
 
-XMLHttpRequests (comummente abreviado como XHR ou xhr) podem ser utilizadas para requisitar qualquer tipo de arquivo (por exemplo, arquivos de texto puro, HTML, JSON, de imagem, etc.) ou dados de uma API.
+XMLHttpRequests (comummente abreviado como XHR ou xhr) podem ser utilizados para requisitar qualquer tipo de arquivo (por exemplo, arquivos de texto puro, HTML, JSON, de imagem, etc.) ou dados de uma API.
 
 Agora aprofundaremos o estudo no objeto XMLHttpRequest. Veremos como criá-lo, quais métodos e propriedades devem ser usadas e como enviar requisições assíncronas.
 
@@ -38,7 +38,7 @@ Agora aprofundaremos o estudo no objeto XMLHttpRequest. Veremos como criá-lo, q
 Construímos um objeto XHR chamado _asyncRequestObject_.
 
 ```javascript
-const asyncRequestObject = new XMLHttpRequest ();
+const asyncRequestObject = new XMLHttpRequest();
 ```
 
 Podemos acessar seus métodos. Um dos mais importantes é o método `.open()`
@@ -73,11 +73,11 @@ Já sabemos que não há melhor maneira de aprender do que fazendo. Para ver com
 
 No vídeo a seguir podemos ver o que acontece. Está em inglês, mas vá fazendo passo a passo com o vídeo e certamente você entenderá.
 
-[![XHR sened method analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
+[![XHR send method analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
 
 ## Manipulação dos sucessos
 
-Uma vez que a petição foi enviada, devemos estabelecer a propriedade `onload` no objeto a uma função que manejará a resposta exitosa da nossa requisição XHR:
+Uma vez que a petição foi enviada, devemos estabelecer a propriedade `onload` no objeto a uma função que manejará a resposta bem sucedida da nossa requisição XHR:
 XHR:
 
 ```javascript
@@ -129,7 +129,7 @@ asyncRequestObject.onerror = handleError;
 asyncRequestObject.send();
 ```
 
-## API's e JSON
+## APIs e JSON
 
 Obter o HTML de um sítio web é fácil, mas provavelmente não é muito útil. Os dados que retornam estão em um formato que é extremamente difícil de analisar e consumir.
 

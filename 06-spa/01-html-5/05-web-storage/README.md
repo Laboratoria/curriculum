@@ -12,7 +12,7 @@
 
 ## Armazenamento web
 
-A API de armazenamento web fornece os mecanismos pelos quais o navegador pode armazenar informação do tipo **chave/valor** de uma maneira muito mais intuitiva do que utilizando *cookies*.
+A API de armazenamento web fornece os mecanismos através do quais o navegador pode armazenar informação do tipo **chave/valor** de uma maneira muito mais intuitiva do que utilizando *cookies*.
 
 Os dois mecanismos de armazenamento web são os seguintes:
 
@@ -21,7 +21,7 @@ Os dois mecanismos de armazenamento web são os seguintes:
 
 Fonte: [MDN - API de armazenamento web](https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API_pt_br)
 
-Veja o seguinte link: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/), jogue com ele e recarregue a página, se deseja fechar a janela ou o navegador e volte a acessar. Ele disse quantas mudanças suas permaneceram? Isto é o que a API de Web Storage (armazenamento web) permite que façamos facilmente.
+Veja o seguinte link: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/), brinque com ele e recarregue a página ou, se desejar, feche a janela ou o navegador e volte a acessar. Ele informa quantas mudanças permaneceram? Isto é o que a API de Web Storage (armazenamento web) permite que façamos facilmente.
 
 Ainda não está claro pra você? Aqui deixamos um [post de Medium](https://medium.com/laboratoria-how-to/api-web-storage-ad9b1efa9b01) escrito por nossa super professora Marcia no qual ela explica os métodos que temos disponíveis por meio desta API.
 
@@ -33,7 +33,7 @@ Se você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lh
 
 Se você assistiu ao vídeo, percebeu que ele usa os métodos `JSON.stringify()` e `JSON.parse()`. Se não o viu, é bom que tenha em mente ambos os métodos.
 
-Como é mencionando na parte superior, esta API armazena elementos no formato de chave/valor. Exemplo: se tenho o nome do usuário em uma variável chamada `name` e quero armazená-la no navegador, você faria o seguinte:
+Como é mencionado na parte superior, esta API armazena elementos no formato de chave/valor. Exemplo: se tenho o nome do usuário em uma variável chamada `name` e quero armazená-la no navegador, você faria o seguinte:
 
 ```javascript
 const name = 'nome de usuário';
@@ -46,7 +46,7 @@ localStorage.setItem('name', name);
 // sessionStorage.setItem('name', name);
 ``` 
 
-> O valor sempre será armazenado como `string` independentemente do tipo dado que armazenem.
+> O valor sempre será armazenado como `string` independentemente do tipo de dado.
 
 ```javascript
 // signup.html
@@ -103,7 +103,7 @@ console.log(sessionStorage.getItem('loggedUser'));
 
 // home.html
 /*
- * Aqui obtemos o objeto em forma de string  convertemos (parser) para objeto.
+ * Aqui obtemos o objeto em forma de string e convertemos (parse) para objeto.
  */
 const loggedUser = JSON.parse(sessionStorage.getItem('loggedUser'));
 console.log(typeof loggedUser); // "object"

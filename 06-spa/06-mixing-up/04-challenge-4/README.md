@@ -20,11 +20,11 @@ Bem, agora que você tem uma ideia do que se trata, vamos testar com sua API e G
 
 O Uber já tem um [estimador de tarifas](https://www.uber.com/es-MX/fare-estimate/). Analise suas funcionalidades e melhore-o tanto em relação à experiência de usuário quanto em interface e funcionalidade.
 
-Para aprender algo novo, que tal se fizermos o *deployment* deste produto no Firebase? Você já usou GitHub Pages então provavelmente já ouviu sobre Heroku. Contudo, Firebase também possui um serviço de *hosting*. Logo, vamos aproveitar e testar essa funcionalidade.
+Que tal se fizermos o *deployment* deste produto no Firebase? Você já usou o serviço de *hosting* do Firebase em produtos anteriores. Logo, vamos aproveitar e praticar um pouco mais.
 
 ## Coisas para se levar em conta
 
-- Não use o Google Maps só para mostrar o mapa da sua localização atual. Existem outras funcionalidades. Quais acha que existem?
+- Explores outras funcionalidades do Google Maps. Quais acha que existem?
 - No caso do mapa, faça coisas personalizadas. Exemplo: seus marcadores não são os vermelhos que vêm por padrão.
 - Uber tem todo um design de marca. Se você pensa em melhorar algum aspecto visual, não o mude tanto. O Uber não é amarelo, por exemplo.
 

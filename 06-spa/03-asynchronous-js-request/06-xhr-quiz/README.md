@@ -69,7 +69,7 @@ O que acontece?
 
 Explicação:
 
-O método .open() do XHR não envia de fato a requisição! Ele seta o estado e dá ao objeto a informação que será necessária quando o request de fato acontece. Um pouco chato... então vamos enviar de fato a requisição.
+O método .open() do XHR não envia de fato a requisição! Ele configura o estado e dá ao objeto a informação que será necessária quando o request de fato acontece. Um pouco chato... então vamos enviar de fato a requisição.
 
 -->
 
@@ -80,7 +80,7 @@ O método .open() do XHR não envia de fato a requisição! Ele seta o estado e 
 1. `.open ()` não tem argumentos.
 2. Nome da função e parâmetro.
 3. método HTTP e URL.
-4. url e JSON.
+4. URL e JSON.
 
 <solution style="display:none;">3</solution>
 

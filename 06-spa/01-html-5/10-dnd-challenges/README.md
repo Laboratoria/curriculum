@@ -15,7 +15,7 @@
 
 Você deve subir todos os exercícios para o `GitHub` e publicá-los nas `gh-pages`.
 
-### Inta Collage
+### Insta Collage
 
 Revise os seguintes slides para resolver seu exercício.
 

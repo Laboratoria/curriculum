@@ -29,7 +29,7 @@ _Agradecemos a [@yoobi55](https://github.com/yoobi55) por emprestar seu design p
 
 ### Hacker Edition
 
-- Fazer um Log In.
+- Fazer um Login.
 - O usuário pode escolher entre dois tipos de jogo:
   * Verdadeiro/falso;
   * Múltipla escolha.

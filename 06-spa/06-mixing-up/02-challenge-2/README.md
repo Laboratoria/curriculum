@@ -14,13 +14,13 @@ Um tópico possui:
 
 - Um título;
 - Um contador de número de respostas;
-- Um autor.
+- Uma autora.
 
 Uma resposta tem:
 
 - Um *topic_id* (para saber de qual tópico é a resposta);
 - O conteúdo da resposta;
-- O autor.
+- A autora.
 
 ## Recursos
 

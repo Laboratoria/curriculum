@@ -20,11 +20,11 @@ A todas essas ações descritas anteriormente que têm interação com a base de
 
 CRUD é o acrônimo de _criar, ler, atualizar e apagar_, palavras que correspondem respectivamente aos verbos do HTTP mais utilizados: **POST, GET, PUT e DELETE.**
 
-Estas são as operações mais comuns que queremos ter no caso de uma API, que manipula dados.
+Estas são as operações mais comuns que queremos ter no caso de uma API que manipula dados.
 
 Para esclarecer o assunto, vamos assistir ao vídeo a seguir, até 3min15s.
 
-> Nota: O vídeo é bem longo (1h28min04s)!!! Os primeiros três minutos mostra o que é CRUD e que uso teria uma aplicação com Firebase. Depois, inicia com o desenvolvimento de uma aplicação e se você o acompanhar este é um excelente exercício guiado.
+> Nota: O vídeo é bem longo (1h28min04s)! Os primeiros três minutos mostram o que é CRUD e que uso teria uma aplicação com Firebase. Depois, inicia com o desenvolvimento de uma aplicação. Se você quiser acompanhar, este é um excelente exercício guiado.
 
 [Vídeo](https://www.youtube.com/watch?v=cQmwK306XaI)
 

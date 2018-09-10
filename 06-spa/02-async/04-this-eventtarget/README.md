@@ -8,26 +8,26 @@
 
 Quando começamos a ter aplicações com muito JavaScript podem começar a surgir pequenos problemas de otimização, como lentidão de resposta ou consumo excessivo de memória. Um desses problemas pode estar nos eventos atribuídos ao DOM. 
 
-Suponhamos que temos uma lista bastante grande de elementos. Ao fazer `click` em cada um desses elementos será executada uma função que mostra a informação do item selecionado. O código que implementamos percorrerá todos os elementos da lista, percorrendo-a com um *loop* e atribui a cada elemento um evento. É aí que podemos ter problemas. A cada elemento está sendo atribuído um evento, que por sua vez está recebendo uma função anônima. Isso quer dizer que se tivermos uma lista de 1000 elementos, estaremos atribuindo 1000 eventos, aumentando o uso de RAM de nossa aplicação.
+Suponhamos que temos uma lista bastante grande de elementos. Ao fazer `click` em cada um desses elementos será executada uma função que mostra a informação do item selecionado. O código que implementamos percorre todos os elementos da lista com um *loop* e atribui a cada elemento um evento. É aí que podemos ter problemas. A cada elemento está sendo atribuído um evento, que por sua vez está recebendo uma função anônima. Isso quer dizer que se tivermos uma lista de 1000 elementos, estaremos atribuindo 1000 eventos, aumentando o uso de RAM de nossa aplicação.
 
-Para otimizar isso podemos fazer somente um evento sobre a lista inteira e quando se clica testar qual elemento foi clicado. Podemos obter esse elemento com `event.target`.
+Para otimizar isso, podemos fazer somente um evento sobre a lista inteira e quando se clica testar qual elemento foi clicado. Podemos obter esse elemento com `event.target`.
 
 Você já sabe que quando queremos ouvir eventos em JavaScript (por exemplo, quando alguém clica em um botão), a sintaxe é a seguinte:
 
 ```js
-//vaniila
+//vanilla
 el.addEventListener('eventType', () =>
   // eventHandler
 );
 // jQuery
-$('elSelector').on('eventType', () =>
+$('seletor').on('eventType', () =>
   // eventHandler
 );
 ```
 
 Em que `eventType` é um tipo de evento (você pode encontrar isso na documento de JS) e o `eventHandler` é a função que será executado quando `eventType` é disparado.
 
-Até aqui, perfeito. Porém, se você quiser que vários elementos ouçam o mesmo `eventType` e executem o mesmo `eventHandler` (por exemplo, em uma galeria de fotos poder fazer um `click` em qualquer uma das miniaturas para mostrar a versão ampliada), nossa primeira ideia seria iterar sobre eles. 
+Até aqui, perfeito. Porém, se você quiser que vários elementos ouçam o mesmo `eventType` e executem o mesmo `eventHandler` (por exemplo, em uma galeria de fotos poder `click` em qualquer uma das miniaturas para mostrar a versão ampliada), nossa primeira ideia seria iterar sobre eles. 
 
 ```js
 var galleryImg = document.querySelectorAll('.gallery-item');
@@ -50,7 +50,7 @@ Contudo, o principal problema com essas estratégias é que só são aplicados a
 
 ## Recordemos Bubbling
 
-`Bubbling` (borbulhando) é uma fase dos eventos (a outra é `capturing` e as duas serão vistas em um outro post com mais detalhes) que significa que quando um evento ocorre no DOM, captura-se o elemento HTML mais profundo possível e então vai-se voltando por seus pais pela ordem hierárquica até chegar ao objeto global (`window`). Por outro lado, quando um evento ocorre em um elemento, também está acontecendo com seus pais.
+`Bubbling` (borbulhando) é uma fase dos eventos (a outra é `capturing` e as duas serão vistas em um outro post com mais detalhes) que significa que, quando um evento ocorre no DOM, captura-se o elemento HTML mais profundo possível e então vai-se voltando por seus pais pela ordem hierárquica até chegar ao objeto global (`window`). Por outro lado, quando um evento ocorre em um elemento, também está acontecendo com seus pais.
 
 ## Delegação de eventos
 

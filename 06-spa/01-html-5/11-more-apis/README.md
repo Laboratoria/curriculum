@@ -12,7 +12,7 @@
 
 ## Outras APIs
 
-Nesta unidade, focamos em algumas API's específicas, mas como mencionamos, não são as únicas. Convidamos você a explorar por conta próprias as outras.
+Nesta unidade, focamos em algumas APIs específicas, mas como mencionamos, não são as únicas. Convidamos você a explorar por conta própria as outras.
 
 Aqui deixamos algumas com as quais você pode ir brincando:
 
@@ -24,7 +24,7 @@ O elemento HTML `<canvas>` é utilizado para desenhar gráficos por meio de Java
 
 ##### Exercitando com formas
 
-Desenhe as diversas formas geométricas que você conheça e comece a dar um estilo personalizado em cada uma delas.
+Desenhe as diversas formas geométricas que você conhece e comece a dar um estilo personalizado a cada uma delas.
 
 Exemplo:
 
@@ -50,9 +50,9 @@ Esta provavelmente você já conhece, por meio do elemento `<input type="file" /
 
 ##### Editando foto de perfil
 
-Lembra do desafio de *web storage*, no qual você podia editar os dados do seu perfil? Que tal se agora você puder alterar também sua foto de perfil? E se recarregar a página, permanecer a imagem que acabou de trocar? Comece a mesclar as duas API's e vá até onde sua imaginação deixar. Lembre-se de que uma boa maneira de indicar ao usuário que sua edição está correta é exibindo como ficará antes de salvar efetivamente.
+Lembra do desafio de *web storage*, no qual você podia editar os dados do seu perfil? Que tal se agora você puder alterar também sua foto de perfil? E se recarregar a página, permanecer a imagem que acabou de trocar? Comece a mesclar as duas APIs e vá até onde sua imaginação deixar. Lembre-se de que uma boa maneira de indicar ao usuário que sua edição está correta é exibindo como ficará antes de salvar efetivamente.
 
-> Você deve testar isto no seu dispositivo móvel quanto terminar. Estamos confiantes que você perceberá que pode colocar uma selfie que tirou com sua câmera como foto de perfil. Ooopss, a ideia era que você percebesse isso sozinha ;)
+> Você deve testar isto no seu dispositivo móvel quando terminar. Estamos confiantes que você perceberá que pode colocar uma selfie que tirou com sua câmera como foto de perfil. Ooopss, a ideia era que você percebesse isso sozinha ;)
 
 ##### Instagram?
 
@@ -68,7 +68,7 @@ Se você já sabe como exibir imagens que estão armazenadas em seu PC ou celula
 
 ### WebSockets
 
-Algumas vez lhe perguntaram como funcionam as aplicações em tempo real? Como funciona o Facebook, WhatsApp e outras redes sociais para notificar que você recebeu uma mensagem imediatamente depois de que o remetente a tenha enviado? Um exemplo mais técnico seria por meio de Firebase. Você percebeu que se sua aplicação ouve as mudanças na base de dados, ela atualiza automaticamente?
+Algumas vez lhe perguntaram como funcionam as aplicações em tempo real? Como funciona o Facebook, WhatsApp e outras redes sociais para notificar que você recebeu uma mensagem imediatamente depois de que o remetente a tenha enviado? Um exemplo mais técnico seria por meio de Firebase. Você percebeu que, se sua aplicação ouve as mudanças na base de dados, ela atualiza automaticamente?
 
 Tudo isso é graças aos *Web Sockets*. HTML5 fornece esta API com a qual você pode estabelecer conexões _socket_ entre o navegador e um servidor. Isso significa que existe uma conexão persistente na qual você pode enviar dados a qualquer momento.
 
@@ -82,14 +82,13 @@ Provavelmente você dirá que com Firebase já pode fazer um chat em tempo real,
 
 ##### Canvas + Socket.io
 
-Você pode imaginar ter uma lousa compartilhada? Com canvas você pode criar uma tela e usando eventos de mouse para desenhar nela. Se esses desenhos forem enviados para um *socket* você poderia desenhá-los para todos os usuários conectados em tempo real (quase como um quadro mágico). Pense nisso, pode ajudá-la quando quiser
-ensinar ou estudar em conjunto com alguém.
+Você pode imaginar ter uma lousa compartilhada? Com canvas você pode criar uma tela e usando eventos de mouse para desenhar nela. Se esses desenhos forem enviados para um *socket* você poderia desenhá-los para todos os usuários conectados em tempo real (quase como um quadro mágico). Pense nisso, pode ajudá-la quando quiser ensinar ou estudar em conjunto com alguém.
 
 ##### Hangouts, Skype
 
-Se você pudesse acessar a câmera de seu notebook, exibi-la na web e transmitir a imagem por meio de um socket, você teria uma aplicação de vídeo-chamadas. Acha que ainda não pode? Como já lhe dissemos, com um par de API's associados a Web Sockets e com sua vontade de fazer, você consegue ;)
+Se você pudesse acessar a câmera de seu notebook, exibi-la na web e transmitir a imagem por meio de um socket, você teria uma aplicação de vídeo-chamadas. Acha que ainda não pode? Como já lhe dissemos, com um par de APIs associados a Web Sockets e com sua vontade de fazer, você consegue ;)
 
-As API's seriam [`getUserMedia`](https://davidwalsh.name/browser-camera) (parte de Media API) e Canvas. E provavelmente ao pesquisar sobre o assunto, você acabará encontrando o [WebRTC](https://webrtc.org/).
+As APIs seriam [`getUserMedia`](https://davidwalsh.name/browser-camera) (parte de Media API) e Canvas. E provavelmente ao pesquisar sobre o assunto, você acabará encontrando o [WebRTC](https://webrtc.org/).
 
 Calma, você terá que dedicar tempo, mas se estiver interessada, temos 100% de certeza de que você consegue :).
 
@@ -136,9 +135,9 @@ Você já tem suas notificações. Agora, o que acha de adicionar a capacidade d
 
 ## Conclusão
 
-Existem muitas API's que tornam o navegador cada vez mais poderoso e isso tem permitido grandes avanços na web. Só podemos lhe dizer que nunca teremos tempo de lhe mostrar todas, portanto você deve ser curiosa e começar a brincar com elas sem medo.
+Existem muitas APIs que tornam o navegador cada vez mais poderoso e isso tem permitido grandes avanços na web. Só podemos dizer que nunca teremos tempo de lhe mostrar todas, portanto você deve ser curiosa e começar a brincar com elas sem medo.
 
-Lembre-se que muitas delas possuem problemas de compatibilidade com dispositivos e navegadores específicos. Portanto, alguma falha pode estar acontecendo por falha de hardware e não por causa de seu software. Por outro lado, lembre-se que em [The HTML 5 JavaScript API Index](http://html5index.org/) você pode aprender um pouco mais sobre as API's existentes. 
+Lembre-se que muitas delas possuem problemas de compatibilidade com dispositivos e navegadores específicos. Portanto, alguma falha pode estar acontecendo por falha de hardware e não por causa de seu software. Por outro lado, lembre-se que em [The HTML 5 JavaScript API Index](http://html5index.org/) você pode aprender um pouco mais sobre as APIs existentes. 
 
 E veja de forma interativa como a web tem evoluído em [www.evolutionoftheweb.com](http://www.evolutionoftheweb.com/#/evolution/day).
 

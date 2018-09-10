@@ -34,7 +34,7 @@ O conteúdo do atributo é uma cadeia de texto que contém todas as instruções
 (console.log('Obrigado por clicar');) // já que só se trata de mostrar uma mensagem.
 ```
 
-Neste outro exemplo, quando o usuário clica sobre o elemento `<div>`é mostrada uma mensagem e quando o usuário passa o mouse por cima do elemento, outra mensagem é exibida:
+Neste outro exemplo, quando o usuário clica sobre o elemento `<div>` é mostrada uma mensagem e quando o usuário passa o mouse por cima do elemento, outra mensagem é exibida:
 
 ```html
 <div onclick="console.log('Você clicou com o mouse.');" onmouseover="console.log('Você passou com o mouse por cima de mim.');">
@@ -50,7 +50,7 @@ Este outro exemplo inclui uma das instruções mais utilizadas nas aplicações 
 </body>
 ```
 
-A mensagem anterior é exibia após a página ter sido totalmente carregada, ou seja, depois que todo seu código HTML, suas imagens e qualquer outro objeto da página tenham sido carregados.
+A mensagem anterior é exibida após a página ter sido totalmente carregada, ou seja, depois que todo seu código HTML, suas imagens e qualquer outro objeto da página tenham sido carregados.
 
 O evento *onload* é um dos mais utilizados já que, como vimos no capítulo sobre DOM, as funções que permitem acessar e manipular os nós da árvore DOM só estão disponíveis quando toda a página tenha sido carregada.
 
@@ -58,7 +58,7 @@ O evento *onload* é um dos mais utilizados já que, como vimos no capítulo sob
 
 JavaScript define uma variável especial chamada `this` que é criada automaticamente e que utiliza algumas técnicas avançadas de programação. Nos eventos, é possível utilizar a variável `this` para se referir ao elemento XHTML que disparou o evento. Esta variável é muito útil para exemplos como o seguinte:
 
-Quando o usuário passa o mouse por cima da `<div>`, a cor da borda se torna negra. Quando o mouse sai da `<div>`, volta a mostrar a cor cinza original.
+Quando o usuário passa o mouse por cima da `<div>`, a cor da borda se torna preta. Quando o mouse sai da `<div>`, volta a mostrar a cor cinza original.
 
 ```html
 <div id="conteudos" style="width:150px; height:60px; border:thin solid silver">
@@ -69,7 +69,7 @@ Quando o usuário passa o mouse por cima da `<div>`, a cor da borda se torna neg
 Se a variável `this` não é utilizada, o código necessário para modificar a cor das bordas seria o seguinte:
 
 ```html
-<div id="conteudos" style="width:150px; height:60px; border:thin solid silver" onmouseover="document.getElementById('contenidos').style.borderColor='black';" onmouseout="document.getElementById('contenidos').style.borderColor='silver';">
+<div id="conteudos" style="width:150px; height:60px; border:thin solid silver" onmouseover="document.getElementById('conteudos').style.borderColor='black';" onmouseout="document.getElementById('conteudos').style.borderColor='silver';">
     Seção de conteúdos ...
 </div>
 ```
@@ -93,7 +93,7 @@ Quando o código da função manipuladora é mais complexo, como por exemplo a v
 Desta forma, o exemplo a seguir:
 
 ```html
-<input type="button" value="Clique em mim e verás." onclick="console.log('Obrigado por clicar.');" />
+<input type="button" value="Clique em mim e verá." onclick="console.log('Obrigado por clicar.');" />
 ```
 
 pode ser transformado em:
@@ -105,7 +105,7 @@ function exibirMensagem() {
 ```
 
 ```html
-<input type="button" value="Clique em mim e verás" onclick="exibirMensagem()" />
+<input type="button" value="Clique em mim e verá" onclick="exibirMensagem()" />
 ```
 
 Nas funções externas não é possível utilizar a variável `this` da mesma forma em que fazemos nos manipuladores inseridos nos atributos XHTML. Logo, é necessário passar a variável `this` como parâmetros para a função manipuladora:
@@ -133,7 +133,7 @@ function realcar(elemento) {
 </div>
 ```
 
-No exemplo anterior, passamos o parâmetro `this` na função externa, que dentro da função se chama _elemento_. Ao passar `this` como parâmetro, é possível acessar de forma direta a partir da função externar as propriedades do elemento que disparou o evento.
+No exemplo anterior, passamos o parâmetro `this` na função externa, que dentro da função se chama _elemento_. Ao passar `this` como parâmetro, é possível acessar de forma direta a partir da função externa as propriedades do elemento que disparou o evento.
 
 Por outro lado, o exemplo anterior é complicado devido à forma com a qual os diferentes navegadores armazenam o valor da propriedade `borderColor`. Enquanto o Firefox armazena (no caso das quatro bordas terem a mesma cor) o valor simples `black`, Internet Explorer armazena como `black` `black` `black` `black` e o Opera armazena sua representação hexadecimal `#000000`.
 
@@ -146,7 +146,7 @@ Como sabemos, ao criar páginas web é recomendado separar os conteúdos (XHTML)
 Felizmente, existe um método alternativo para definir os manipuladores de eventos de JavaScript. Esta técnica consiste em alocar as funções externas por meio das propriedades DOM dos elementos XHTML. Assim, o exemplo a seguir:
 
 ```html
-<input id="clicavel" type="button" value="Clique em mim e verás." onclick="console.log('Obrigado por clicar.');" />
+<input id="clicavel" type="button" value="Clique em mim e verá." onclick="console.log('Obrigado por clicar.');" />
 ```
 pode ser transformado em:
 
@@ -158,7 +158,7 @@ document.getElementById('clicavel').onclick = exibirMensagem();
 ```
 
 ```html
-<input id="clicavel" type="button" value="Clique em mim e verás." />
+<input id="clicavel" type="button" value="Clique em mim e verá." />
 ```
 
 O código XHTML resultante é muito "limpo", já que não se mistura com o código JavaScript. A técnica dos manipuladores semânticos consiste em:
@@ -187,9 +187,9 @@ Por fim, atribuímos a função externa. Como já comentamos em capítulos anter
 document.getElementById('clicavel').onclick = exibirMensagem;
 ```
 
-Se os parêntesis são adicionados, na verdade estamos invocando a função e atribuindo o valor devolvido por a função ao evento `onclick` do elemento.
+Se os parênteses são adicionados, na verdade estamos invocando a função e atribuindo o valor devolvido pela função ao evento `onclick` do elemento.
 
-O único inconveniente deste método é que os manipuladores são atribuídos por meio das funções DOM, que somente pode ser utilizadas após o carregamento completo da página. Dessa maneira, para que a atribuição dos manipuladores não cause erro, é necessário ter certeza de que a página está carregada.
+O único inconveniente deste método é que os manipuladores são atribuídos por meio das funções DOM, que podem somente ser utilizadas após o carregamento completo da página. Dessa maneira, para que a atribuição dos manipuladores não cause erro, é necessário ter certeza de que a página está carregada.
 
 Uma das formas mais simples de garantir que certo código será executado após o carregamento total da página é utilizar o evento `onload`
 

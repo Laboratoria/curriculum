@@ -16,19 +16,19 @@ Bem, independentemente do que faz a aplicação, ela colocou um gestual nas apli
 
 ![Swipe](https://media.giphy.com/media/26mkhMYkitO7DoJuU/giphy.gif)
 
-O gesto de tocar um elemento e arrastá-lo com os dedos, conhecido como *Swipe*. Neste caso, aplicaremos esse gesto em um web app de celulares que permita aos usuários encontrar os mascotes que combinarem melhor com eles.
+O gesto de tocar um elemento e arrastá-lo com os dedos, conhecido como *Swipe*. Neste caso, aplicaremos esse gesto em um web app de celulares que permita aos usuários encontrar os mascotes que combinem melhor com eles.
 
 ## Recursos
 
 Nesta aplicação usaremos:
 
 - [API de Petfinder](https://www.petfinder.com/developers/api-docs);
-- [Hammer.js](https://hammerjs.github.io/), para controlar gesto no celular;
+- [Hammer.js](https://hammerjs.github.io/), para controlar gestos no celular;
 - Responsive Web Design.
 
 ## Referência
 
-Deixamos aqui um vídeo como referência o qual mostra como você pode estruturar sua interface. Ele menciona React e constrói uma API usando Node.js e outras ferramentas. Para este desafio não é necessário que você as use, mas nada impede se você quiser testá-las ;)
+Deixamos aqui um vídeo como referência que mostra como você pode estruturar sua interface. Ele menciona React e constrói uma API usando Node.js e outras ferramentas. Para este desafio não é necessário que você as use, mas nada impede se você quiser testá-las ;)
 
 [![Whiskr](https://img.youtube.com/vi/qW5-C7skuU0/0.jpg)](https://youtu.be/qW5-C7skuU0)
 

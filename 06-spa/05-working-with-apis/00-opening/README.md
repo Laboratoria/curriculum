@@ -1,4 +1,4 @@
-# Abertura: Brincando com Web API's!
+# Abertura: Brincando com Web APIs!
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-Nesta unidade vamos praticar brincando com diferentes tipos de Web API's, com o objetivo de experimentar a extração de dados sem autenticação, com um *token* gerado, enviando dados por meio de cabeçalhos HTTP, identificar quando são *RESTful* e outros detalhes que lhe darão superpoderes.
+Nesta unidade vamos praticar brincando com diferentes tipos de Web APIs, com o objetivo de experimentar a extração de dados sem autenticação, com um *token* gerado, enviando dados por meio de cabeçalhos HTTP, identificar quando são *RESTful* e outros detalhes que lhe darão superpoderes.
 
 ## Guia de perguntas e conceitos chave
 
@@ -19,8 +19,8 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 ## Guia de perguntas e conceitos chaves
 
 - O que é uma Web API?
-- Identificar quais API's são públicas sem autenticação.
-- Identificar quais API's são públicas mas necessita de uma API Key.
+- Identifique quais APIs são públicas sem autenticação.
+- Identifique quais APIs são públicas mas necessitam de uma API Key.
 - O que é autenticação baseada em *tokens*?
 - Como enviar dados nos cabeçalhos HTTP usando AJAX?
 - O que é OAuth?

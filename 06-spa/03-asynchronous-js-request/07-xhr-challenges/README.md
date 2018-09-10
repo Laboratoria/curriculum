@@ -17,9 +17,9 @@ Você deve subir todos os seus exercícios para o `GitHub` e publicá-los nas `g
 
 ### Algo mais que só uma notícia
 
-No exercício de demonstração, trabalhamos fazendo petições ao NY Times, mas nosso exercício só mostra uma única notícia das muitas que nos manda como resposta.
+No exercício de demonstração, trabalhamos fazendo requisições ao NY Times, mas nosso exercício só mostra uma única notícia das muitas que nos manda como resposta.
 
-Neste caso, o desafio é que consiga que seja visualizadas pelo menos 5 dessas notícias. 
+Neste caso, o desafio é que consiga que sejam visualizadas pelo menos 5 dessas notícias. 
 
   - Você precisa fazer mais requisições?
   - E se quisermos adicionar imagens?
