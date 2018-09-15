@@ -131,7 +131,7 @@ fecha/hora de la entrevista.
 No sabes cuáles son las preguntas y los retos de código que te harán.
 Sin embargo, no eres la primera egresada de Laboratoria que ha pasado por este
 proceso. Tu compañera te ha pasado este documento que recopila las [preguntas y
-retos de procesos anteriores] (https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32).
+retos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32).
 Lo más seguro es que la entrevista se base en ese documento, así que revísalo
 con detenimiento, contesta todas las preguntas y resuelve todos los retos para
 que estés lo mejor preparada posible.
