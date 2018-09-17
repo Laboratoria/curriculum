@@ -137,21 +137,22 @@ con detenimiento, contesta todas las preguntas y resuelve todos los retos para
 que estés lo mejor preparada posible.
 
 Durante la entrevista, tu coach te:
+
 * Hará algunas de las preguntas conceptuales y tendrán una conversación
-alrededor de eso. Puedes usar papel, lápiz o incluso abrir la consola de chrome
-para complementar tus ideas con un ejemplo.
+  alrededor de eso. Puedes usar papel, lápiz o incluso abrir la consola de
+  chrome para complementar tus ideas con un ejemplo.
 * Presentará algunos retos para que los completes en vivo (desde cero usando
-[jsbin](https://jsbin.com/?html,output), [jsfiddle](https://jsfiddle.net/) o cualquier otra plataforma) y te pedirá que narres en voz alta
-lo que estás pensando. Por ejemplo: “Voy a crear una función que haga
-esto porque …”
+  [jsbin](https://jsbin.com/?html,output), [jsfiddle](https://jsfiddle.net/) o
+  cualquier otra plataforma) y te pedirá que narres en voz alta lo que estás
+  pensando. Por ejemplo: “Voy a crear una función que haga esto porque ...”
 * Pedirá que expliques qué otras opciones se te ocurren para resolver el
-problema y por qué has decidido hacerlo de la manera que planteas. Tip: cuando
-te prepares, apunta a tener al menos dos formas de resolver cada reto y
-entender cuál es tu opción preferida y por qué.
+  problema y por qué has decidido hacerlo de la manera que planteas. Tip: cuando
+  te prepares, apunta a tener al menos dos formas de resolver cada reto y
+  entender cuál es tu opción preferida y por qué.
 * Hará preguntas sobre tu solución para saber si entiendes a profundidad lo que
-estás haciendo. Ven preparada a responder preguntas al estilo: * “Veo que estás
-haciendo esto … ¿por qué has decidido hacerlo así?” * “Explícame qué hacen
-estas líneas de código”
+  estás haciendo. Ven preparada a responder preguntas al estilo: “Veo que estás
+  haciendo esto... ¿por qué has decidido hacerlo así?”, “Explícame qué hacen
+  estas líneas de código”, etc.
 
 Al final de la entrevista, que debe durar máximo 1 hora, tu coach te dirá si
 estás preparada para el siguiente paso del proceso de postulación, o si deberás
@@ -178,10 +179,10 @@ Tal como en la parte IV, no sabes cuáles son los desafíos que te asignarán.
 Sin embargo, gracias a la comunidad de egresadas de Laboratoria, sabes los retos
 que han sido asignados en el pasado. Tu compañera te ha pasado este documento
 que recopila los desafíos que se han utilizado en procesos anteriores. Lo más
-seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32) que se muestran
-en ese documento, así que lo más recomendable es que completes todos con
-anticipación. Recuerda que estás aquí para aprender. Nada mejor para tu
-preparación profesional que completes absolutamente todos ;)
+seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
+que se muestran en ese documento, así que lo más recomendable es que completes
+todos con anticipación. Recuerda que estás aquí para aprender. Nada mejor para
+tu preparación profesional que completes absolutamente todos ;)
 
 ## Recursos externos
 
