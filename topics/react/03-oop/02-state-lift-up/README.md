@@ -25,7 +25,7 @@ const VeredictoHervor = ({ celsius }) => (
 ```
 
 Luego, crearemos un componente llamado `Calculadora`, que renderiza un
-`<input>` que permite ingresar la temperatura y mantienen el valor
+`<input>` que permite ingresar la temperatura y mantiene el valor
 en `this.state.temperatura`.
 
 Además, renderiza `VeredictoHervor` para el valor actual del input.
@@ -179,6 +179,8 @@ class TemperaturaInput extends React.Component {
   render() {
     const { temperatura } = this.state;
     // ...
+  }
+}
 ```
 
 sin embargo, nosotros queremos que ambos inputs se sincronicen.
@@ -186,7 +188,7 @@ sin embargo, nosotros queremos que ambos inputs se sincronicen.
 En React, los estados compartidos se consiguen _elevando_ los valores
 del state local al **ancestro mas cercano en común dentro del Virtual DOM**.
 A esta técnica se la conoce como "lifting state up": Convertiremos el
-componente `TemperaturaInput` en stateless y moveremos su estado `Calculadora`
+componente `TemperaturaInput` en stateless y moveremos su estado a `Calculadora`
 (el primer ancestro en común de ambos `TemperaturaInput`).
 
 Ahora que `Calculadora` es dueña del estado compartido, se convierte en el
@@ -232,7 +234,7 @@ Ahora la prop `onTemperaturaChange` será provista conjuntamente con
 de manejar los cambios de los inputs, modificando su propio estado local.
 
 Como te imaginarás guardaremos los valores del estado que elevamos,
-`temperatura` y `escala` en su estado local.
+`temperatura` y `escala` en el estado local de `Calculadora`.
 Esta es la representación mínima de estado que necesitamos para mostrar
 ambos inputs.
 
@@ -321,7 +323,7 @@ Recapitulemos qué sucede cuando editamos un input:
   Análogamente `onTemperaturaChange` para el `TemperaturaInput`
   de Fahrenheit es el método `handleFahrenheitChange`. De esta manera,
   dependiendo del input que se modifique es el método que se llama.
-* Dentro de estos métodos , el componente`Calculadora` solicita un
+* Dentro de estos métodos , el componente `Calculadora` solicita un
   re-renderizado al llamar `this.setState()` con el nuevo valor
   y la escala del input editado.
 * React ejecuta el método `render` del componente `Calculadora` para
@@ -341,11 +343,11 @@ y así se mantienen los inputs sincronizados.
 ## ¿Qué hemos aprendido?
 
 Debe existir una "single source of truth" (en lugar de "copias") para cada
-pieza información que cambia dentro de una aplicación React.
+pieza de información que cambia dentro de una aplicación React.
 En general, esta información se coloca en el state del primer componente que
 la necesita, y luego, si otro componente necesita la misma
-información, se **_eleva_** el estado al primer ancentro que estos componentes
-tengan en común.
+información, se **_eleva_** esa información al estado del primer
+ancentro que estos componentes tengan en común.
 La recomendación es que en lugar de sumergirte en el infierno de intentar de
 mantener sincornizadas copias de una misma información, deberías aprovechar en
 el principio de _top-down data flow_ de React.
@@ -357,10 +359,11 @@ el área donde puede encontrarse el bug, se reduce considerablemente.
 Adicionalmente, te permite implementar lógica a medida, para validar o
 transformar input del usuario en un sólo lugar.
 
-Si algo se puede inferir de las props o el state, entonces probablemente
-no debería estar en el state. En nuestro ejemplo, en lugar de guardar
-`temperaturaCelsius` y `temperaturaFahrenheit`, guardaos sólo la última
-`temperatura` y su `escala`.
+Si algo se puede inferir de las props o el state que ya tenemos,
+entonces probablemente no debería estar en el state.
+En nuestro ejemplo, en lugar de guardar `temperaturaCelsius` y
+`temperaturaFahrenheit`, guardamos sólo la última `temperatura` y
+su `escala`.
 El valor del otro input siempre se puede calcular, a partir de esa
 información en el método `render()`.
 
