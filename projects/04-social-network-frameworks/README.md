@@ -145,7 +145,7 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 Hemos preparado algunos videos introductorios:
 
 * [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
-* [Introducción a Angula (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
+* [Introducción a Angular (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
 * [Introducción a React (Elizabeth)](https://reactjs.org/)
 * [Introducción a Vue (Luis)](https://vuejs.org/)
 
