@@ -190,5 +190,5 @@ preparación profesional que completes absolutamente todos ;)
 * [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing).
 * [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing).
 * [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
-* [Preguntas y retos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
-* [Desafíos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
+* [Preguntas y retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing)
+* [Desafíos de procesos anteriores](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)
