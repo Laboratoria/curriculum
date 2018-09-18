@@ -51,9 +51,3 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 * ¿Cómo añadimos React a una página web?
 * ¿Qué es `react-dom` y qué son los diferentes renderers?
 * ¿Cómo decide React qué nodos actualizar del DOM?
-* ¿Qué es `JSX`?
-* ¿Qué es una expresión?
-* ¿Cómo funciona el renderizado condicional?
-* ¿Cómo manejar listas/colecciones en `React`?
-* ¿Qué es el `key` en los componentes renderizados dentro de un `map` y por qué
-  es importante?

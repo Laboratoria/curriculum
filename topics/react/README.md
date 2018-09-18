@@ -19,11 +19,10 @@ móvil.
 
 En este curso continuarás construirás un Single Page App (SPA), usando
 [React](https://reactjs.org/), [JSX](https://facebook.github.io/jsx/),
-[Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/) y
-[Redux](https://redux.js.org/).
+[Babel](https://babeljs.io/) y [Webpack](https://webpack.js.org/).
 
 ***Tags***: `react`, `components`, `ui`, `stateless`, `HOCs`, `babel`,
-`encapsulamiento`, `modularización`, `jsx`, `webpack`, `redux`
+`encapsulamiento`, `modularización`, `jsx`, `webpack`
 
 ## Público objetivo
 
@@ -56,83 +55,19 @@ También recomendamos haber completado nuestro curso **JavaScript Funcional**.
 * **JSX**: Un lenguaje que extiende a JavaScript, permitiendo la inclusión de
   estructuras declarativas para construir interfaces.
 * Definición de propiedades (`props`) para los componentes y sus tipos.
-* Manejo de `state` global.
 * Componentes `statefull`:
   - Su ciclo de vida.
   - Manejo de `state` interno.
   - Referencias entre componentes (`refs`)
 
-## Formato del curso
-
-En este curso proponemos una especia de "simulacro" de la vida real. Un enfoque
-orientado al producto, desarrollando nuestro proyecto como se hace hoy por hoy
-en los equipos de trabajo profesionales.
-
-Haremos foco en el aprendizaje de `React` como herramienta profesional para el
-desarrollo de interfaces (en este caso web), pero además practicaremos otras
-capacidades, como pueden ser el análisis, la capacidad de trabajar en equipo y
-auto-gestionarse, las prácticas de documentación, capacidad de comunicarse para
-expresar puntos de vista e ideas, etc.
-
-Todo esto buscaremos aprenderlo practicando, haciendo, golpéandonos la cabeza
-contra el teclado, conversando con nuestrxs compañerxs, consultando a nuestrxs
-tutorxs y los recursos online que ellxs nos recomienden, y principalmente,
-dedicando muchas horas a desarrollar un producto del que podamos sentirnos
-orgullosxs.
-
-## Evaluación
-
-En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
-por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
-tu desempeño personal.
-
-Para determinar el puntaje de tu equipo/producto contaremos con sesiones
-períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el día de la demo, donde será evaluado por el
-equipo técnico y el resto de los equipos.
-
-Tu desempeño personal estará determinado por tu participación dentro de las
-sesiones presenciales, tu actividad en GitHub (escribiendo código, comentando,
-creando issues, ...), tu actividad en Slack (haciendo y/o contestando
-preguntas), etc.
-
-Todos los equipos deberán exponer sus resultados durante el día de la demo,
-independientemente del estado de completitud del producto. Aquellos equipos que
-no hayan completado sus productos, tendrán un período de gracia para hacerlo.
-
-Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
-
-## Producto
-
-Durante este curso construirás un "Single page app" con las siguientes
-características:
-
-* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
-  con `babel` o `webpack`
-* Utilizando `React` y `Redux`
-* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
-  no atomicos (JSON) y 3 actions
-* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
-  empaquetar y desplegar la aplicación respectivamente.
-* Despeglado en Github pages
-* Haber administrado y documentado todo el proceso de creación de la aplicación
-  en github.
-* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
-  universalmente.
-* No es necesario implementar rutas
-* No es necesario implementar persistencia
-* No es necesario implementar conexiones remotas
-
 ## Syllabus
 
 ### Unidad 01: [Intro a React y el DOM virtual](00-intro)
 
-...
-
-### Unidad 02: [JSX, renderizado condicional y listas](01-basics)
-
 En esta primera unidad veremos qué hace exactamente `React`, cómo integrarlo en
 tiempo cero en una página web existente y cómo construir interfaces con el.
+
+### Unidad 02: [JSX, renderizado condicional y listas](01-basics)
 
 React puede desarrollarse en ES5, pero por su naturaleza declarativa, esto es
 muy engorroso. Es por eso que `React` usa `JSX` como su `templating language`
