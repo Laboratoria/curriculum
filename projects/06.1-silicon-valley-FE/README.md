@@ -131,7 +131,7 @@ fecha/hora de la entrevista.
 No sabes cuáles son las preguntas y los retos de código que te harán.
 Sin embargo, no eres la primera egresada de Laboratoria que ha pasado por este
 proceso. Tu compañera te ha pasado este documento que recopila las [preguntas y
-retos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32).
+retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing).
 Lo más seguro es que la entrevista se base en ese documento, así que revísalo
 con detenimiento, contesta todas las preguntas y resuelve todos los retos para
 que estés lo mejor preparada posible.
@@ -191,5 +191,5 @@ tu preparación profesional que completes absolutamente todos ;)
 * [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing).
 * [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing).
 * [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
-* [Preguntas y retos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
-* [Desafíos de procesos anteriores](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
+* [Preguntas y retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing)
+* [Desafíos de procesos anteriores](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)
