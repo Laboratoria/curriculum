@@ -144,6 +144,8 @@ En uso (`v2.x`):
 * [Browser](topics/browser)
 * [SCM: Git + GitHub](topics/scm)
 * [UNIX Shell](topics/shell)
+* [Paradigmas de programación](topics/paradigms)
+* [JavaScript Funcional](topics/functional)
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
 

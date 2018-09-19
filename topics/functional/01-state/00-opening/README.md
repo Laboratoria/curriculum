@@ -1,15 +1,8 @@
 # Apertura
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `15min`
-
-## Objetivos del seminario
-
-* Hacer un resumen de lo que vamos a aprender en esta unidad
-* Explicar los entregables que se esperan de las alumnas
-* Aclarar la _hoja de ruta_ de la unidad en el contexto del curso
-* Preguntas y conceptos clave de esta unidad
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
@@ -35,41 +28,6 @@ importantes.
 * Es mucho más sencillo el desarrollo de pruebas unitarias contra funciones
   puras.
 * Las funciones puras representan la base de la programación funcional.
-
-## Entregables y evaluación
-
-* **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
-  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
-  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
-  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
-  será calificada.
-* **Cuestionarios**: Al igual que los ejercicios, a lo largo de la unidad
-  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
-  para la nota final.
-
-## Hoja de ruta
-
-### Semana 1
-
-* **Sesión 1: presencial 3h => Funciones puras e inmutabilidad**
-* Sesión 2: self-paced 2h => Refactorizar `Loader`
-
-### Semana 2
-
-* Pre-tarea: Lectura _Higher Order Functions_ (Unidad 03)
-* Sesión 3: presencial 3h => Higher Order Functions
-* Sesión 4: self-paced 2h => Refactorizar ???
-
-### Semana 3
-
-* Pre-tarea: Lectura _Recursividad_ (Unidad 05)
-* Sesión 5: presencial 3h => Control de flujo (recursión y asincronía)
-* Sesión 6: self-paced 2h => Refactorizar ???
-
-### Semana 4
-
-* Pre-tarea: Implementación, refactoring, pull request
-* Sesión 7: presencial 3h => Code review + Demos de proyectos
 
 ## Guía de preguntas y conceptos clave
 
