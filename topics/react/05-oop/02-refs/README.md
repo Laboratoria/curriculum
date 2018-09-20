@@ -54,13 +54,12 @@ const CustomTextInput = () => {
         type="button"
         value="Focus the text input"
         onClick={() => {
-          if(textInput) {
+          if (textInput) {
             textInput.focus();
           }
-        })}
+        }}
       />
     </div>
   );
-  }
-}
+};
 ```

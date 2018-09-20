@@ -62,12 +62,10 @@ También recomendamos haber completado nuestro curso **JavaScript Funcional**.
 
 ## Syllabus
 
-### Unidad 01: [Intro a React y el DOM virtual](00-intro)
+### Unidad 01: [Intro a React y JSX](01-intro)
 
 En esta primera unidad veremos qué hace exactamente `React`, cómo integrarlo en
 tiempo cero en una página web existente y cómo construir interfaces con el.
-
-### Unidad 02: [JSX, renderizado condicional y listas](01-basics)
 
 React puede desarrollarse en ES5, pero por su naturaleza declarativa, esto es
 muy engorroso. Es por eso que `React` usa `JSX` como su `templating language`
@@ -77,7 +75,7 @@ En esta unidad también introduciremos `JSX`, qué beneficios introduce, por qu�
 es una pieza fundamental de `React`. Además construiremos nuestros primeros
 componentes "de verdad".
 
-### Unidad 03: [Componentes](02-components)
+### Unidad 03: [Componentes](03-components)
 
 Gracias a los parámetros nombradors y al *desestructuring*, ya hemos aprendido
 como especificar nuestras `props` en la signatura misma de nuestros componentes.
@@ -87,7 +85,7 @@ y valores por defectos.
 Luego analizaremos la propiedad especial `children` y como manipularla con
 `.map` y `.filter`.
 
-### Unidad 04: [OOP: ciclo de vida, estado interno y refs](03-oop)
+### Unidad 04: [OOP: ciclo de vida, estado interno](05-oop)
 
 `React` define sólo 9 métodos muy simples para controlar el ciclo de vida de los
 componentes. En esta unidad nos empaparemos de la compacta documentación de
