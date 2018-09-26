@@ -85,7 +85,6 @@ agregar y la interfaz debe ir mostrando el _resumen del pedido_ con el total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
-
 ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es construir una
@@ -99,9 +98,10 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 Como objetivo secundario, la implementación debe además seguir las
 recomendaciones para PWAs (_Progressive Web Apps_), lo cual incluye conceptos
 como **offline**. Para guiarte con respecto a este tema te recomendamos usar
-[Lighthouse](#), que es una herramienta de Google que nos ayuda a asegurar que
-nuestras web apps sigan buenas prácticas. De hecho, usaremos Lighthouse a la
-hora de evaluar el proyecto.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es), que es
+una herramienta de Google que nos ayuda a asegurar que nuestras web apps sigan
+buenas prácticas. De hecho, usaremos Lighthouse a la hora de evaluar el
+proyecto.
 
 Finalmente, la interfaz debe estar diseñada específicamente para correr en
 **tablets**.
@@ -140,7 +140,7 @@ la parte de backend ya resuelta. El _boilerplate_ incluye los siguientes
 archivos/carpetas con la configuración de Fierbase (hosting, firestore y
 functions):
 
-```
+```text
 ./04-burger-queen/
 ├── firebase.json
 ├── firestore.indexes.json
@@ -281,37 +281,52 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 ## Primeros pasos
 
 1. Haz un _fork_ de este repo (en GitHub).
+
 2. Clona tu _fork_ en tu computadora:
+
    ```sh
    git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
    cd <cohortid>-burger-queen
    ```
+
 3. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
+
    ```sh
    git checkout -b develop
    ```
+
 4. Crear proyecto en [Firebase](https://firebase.google.com/)
+
 5. Habilitar Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
    Datos" de [Firebase console](https://console.firebase.google.com/).
+
 6. Instalar utilidad de línea de comando de Firebase:
+
    ```sh
    npm i -g firebase-tools
    ```
+
 7. Agregamos entorno de producción para desplegar:
+
    ```sh
    firebase use --add
    ```
+
 8. Instalar dependencias de cloud functions:
+
    ```sh
    # usando yarn
    cd functions && yarn && cd ..
    # alternativamente, usando npm
    cd functions && npm install && cd ..
    ```
+
 9. Desplegar:
+
    ```sh
    firebase deploy
    ```
+
 10. Llegado a este punto ya puedes comenzar con el _front-end_ :wink:
 
 ***
@@ -335,7 +350,6 @@ cd burger-queen
 ```
 
 ***
-
 
 ## Pistas / Tips
 
@@ -385,44 +399,44 @@ cd burger-queen
 
 ### Lighthouse
 
-- [ ] 80% o más en sección _Performance_.
-- [ ] 80% o más en sección _Progressive Web App_.
-- [ ] 80% o más en sección _Accessibility_.
-- [ ] 80% o más en sección _Best Practices_.
+* [ ] 80% o más en sección _Performance_.
+* [ ] 80% o más en sección _Progressive Web App_.
+* [ ] 80% o más en sección _Accessibility_.
+* [ ] 80% o más en sección _Best Practices_.
 
 ### Tests
 
-- [ ] 70% o más en cobertura de _statements_.
-- [ ] 70% o más en cobertura de _functions_.
-- [ ] 70% o más en cobertura de _lines_.
-- [ ] 70% o más en cobertura de _branches_.
+* [ ] 70% o más en cobertura de _statements_.
+* [ ] 70% o más en cobertura de _functions_.
+* [ ] 70% o más en cobertura de _lines_.
+* [ ] 70% o más en cobertura de _branches_.
 
 ### UI
 
 #### Hito 1: Tomar pedidos
 
-- [ ] Ingresar nombre del cliente.
-- [ ] Filtrar _menú_ por _desayuno_ y _resto del día_.
-- [ ] Agregar ítem al pedido.
-- [ ] Eliminar ítem del pedido.
-- [ ] Mostrar _resumen_ de pedido con todos los items y el total.
-- [ ] Enviar a cocina (esto debe guardar el pedido).
+* [ ] Ingresar nombre del cliente.
+* [ ] Filtrar _menú_ por _desayuno_ y _resto del día_.
+* [ ] Agregar ítem al pedido.
+* [ ] Eliminar ítem del pedido.
+* [ ] Mostrar _resumen_ de pedido con todos los items y el total.
+* [ ] Enviar a cocina (esto debe guardar el pedido).
 
 #### Hito 2: Ver/atender pedidos
 
-- [ ] Vista de pedidos pendientes.
-- [ ] Marcar pedido como listo.
-- [ ] Ver historial de pedidos.
+* [ ] Vista de pedidos pendientes.
+* [ ] Marcar pedido como listo.
+* [ ] Ver historial de pedidos.
 
 #### Hito 3: Autenticación
 
-- [ ] Inicio de sesión.
-- [ ] Restaurar contraseña.
+* [ ] Inicio de sesión.
+* [ ] Restaurar contraseña.
 
 ### UX
 
-- [ ] Se _ve_ bien y _funciona_ bien en tablets.
-- [ ] Se puede _agregar a la pantalla de inicio_ como web app (tiene manifest,
+* [ ] Se _ve_ bien y _funciona_ bien en tablets.
+* [ ] Se puede _agregar a la pantalla de inicio_ como web app (tiene manifest,
   íconos, ...) en iOS y Android.
-- [ ] Uso fácil en pantallas táctiles (touch screens).
-- [ ] Estado actual del pedido siempre visible mientras tomamos un pedido.
+* [ ] Uso fácil en pantallas táctiles (touch screens).
+* [ ] Estado actual del pedido siempre visible mientras tomamos un pedido.
