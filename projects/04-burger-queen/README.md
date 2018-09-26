@@ -3,7 +3,7 @@
 ## Preámbulo
 
 Nos acaban de enviar un correo con una solicitud para un nuevo proyecto. Hay un
-restautante que nos ha contactado porque quieren que alguien les construya una
+restaurante que nos ha contactado porque quieren que alguien les construya una
 interfaz donde puedan tomar pedidos usando una tablet.
 
 ![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
@@ -106,8 +106,7 @@ proyecto.
 Finalmente, la interfaz debe estar diseñada específicamente para correr en
 **tablets**.
 
-Tópicos: _react_, _redux_, _angular_, _vue_, _pwa_, _offline-first_,
-_service-worker_.
+Tópicos: _react_, _angular_, _vue_, _pwa_, _offline-first_, _service-worker_.
 
 ## Consideraciones generales
 
@@ -356,7 +355,6 @@ cd burger-queen
 ### Frameworks / libraries
 
 * [React](https://reactjs.org/)
-* [Redux](https://redux.js.org/)
 * [Vue](https://vuejs.org/)
 * [Angular](https://angular.io/)
 
