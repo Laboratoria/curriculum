@@ -4,12 +4,12 @@
 * Formato: `self-paced`
 * Duración: `5min`
 
-## Objetivos del seminario
+## Objetivos de Aprendizaje
 
-* Hacer un resumen de lo que vamos a aprender en esta unidad
-* Explicar los entregables que se esperan de las alumnas
-* Aclarar la _hoja de ruta_ de la unidad en el contexto del curso
-* Preguntas y conceptos clave de esta unidad
+* Enteder qué es y para que sirve `React`
+* Familiarizarse con las piezas claves de esta librería
+* Entender las diferencias, pros y contras de los enfoques
+  *statefull* y *stateless* en `React`
 
 ***
 
@@ -32,6 +32,13 @@ aparición de los **clientes móbiles**, ha sido necesaria la creación de nueva
 estrategias y herramientas, que nos permitan lidiar con esta complejidad
 creciente en el desarrollo de interfaces, de una manera **ordenada**,
 **uniforme** y **sostenible**.
+
+React es una librería de JavaScript, pero normalmente la vamos a usar junto con
+`JSX`, que es una extensión al lenguage, que nos permite expresar pedacitos de
+Virtual DOM como HTML (más o menos), haciéndonos la vida más fácil y familiar.
+
+`JSX` no es _teóricamente_ parte de React, pero en la práctica es una parte
+integral del desarrollo con React.
 
 ## Guía de preguntas y conceptos clave
 

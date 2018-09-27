@@ -120,7 +120,69 @@ qué plan de acción debes implementar.
 
 ## Parte IV: Entrevista técnica
 
+El paso siguiente es una entrevista técnica de 1 hora donde un/una coach te
+hará una serie de preguntas conceptuales y te pedirá codear “en vivo” algunos
+retos cortos (usando jsbin, jsfiddle o cualquier otra plataforma) para evaluar
+cómo enfrentas un problema y cómo llegas a la solución. El/la coach se
+contactará contigo, ya sea a través del correo electrónico o vía telefónica;
+recuerda nuevamente estar atenta a tu correo o teléfono para poder coordinar la
+fecha/hora de la entrevista.
+
+No sabes cuáles son las preguntas y los retos de código que te harán.
+Sin embargo, no eres la primera egresada de Laboratoria que ha pasado por este
+proceso. Tu compañera te ha pasado este documento que recopila las [preguntas y
+retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing).
+Lo más seguro es que la entrevista se base en ese documento, así que revísalo
+con detenimiento, contesta todas las preguntas y resuelve todos los retos para
+que estés lo mejor preparada posible.
+
+Durante la entrevista, tu coach te:
+
+* Hará algunas de las preguntas conceptuales y tendrán una conversación
+  alrededor de eso. Puedes usar papel, lápiz o incluso abrir la consola de
+  chrome para complementar tus ideas con un ejemplo.
+* Presentará algunos retos para que los completes en vivo (desde cero usando
+  [jsbin](https://jsbin.com/?html,output), [jsfiddle](https://jsfiddle.net/) o
+  cualquier otra plataforma) y te pedirá que narres en voz alta lo que estás
+  pensando. Por ejemplo: “Voy a crear una función que haga esto porque ...”
+* Pedirá que expliques qué otras opciones se te ocurren para resolver el
+  problema y por qué has decidido hacerlo de la manera que planteas. Tip: cuando
+  te prepares, apunta a tener al menos dos formas de resolver cada reto y
+  entender cuál es tu opción preferida y por qué.
+* Hará preguntas sobre tu solución para saber si entiendes a profundidad lo que
+  estás haciendo. Ven preparada a responder preguntas al estilo: “Veo que estás
+  haciendo esto... ¿por qué has decidido hacerlo así?”, “Explícame qué hacen
+  estas líneas de código”, etc.
+
+Al final de la entrevista, que debe durar máximo 1 hora, tu coach te dirá si
+estás preparada para el siguiente paso del proceso de postulación, o si deberás
+estudiar un poco más y repetir la entrevista. Si has dado dos intentos a la
+entrevista y no has podido avanzar, es una señal de que algo anda mal y deberás
+comunicarte con tu Training Manager para entender qué plan de acción debes
+implementar. Una vez que hayas pasado exitosamente tu entrevista tech, debes
+avanzar a la quinta y última parte del proceso de postulación.
+
 ## Parte V: Desafíos para resolver y entregar
+
+La última parte del proceso de postulación consiste en hacer algunos desafíos
+de tarea y tener nuevamente una entrevista con un/una coach en la que le
+defiendas tus soluciones. Los desafíos serán enviados a tu correo electrónico
+y la entrevista será fijada con un plazo de 1.5 semanas. Es decir, debes
+completar los desafíos que te asignen en ese tiempo. Es importante que respetes
+los plazos que te dan, ya que esto demuestra responsabilidad e interés en el
+proceso. A diferencia de los retos de la etapa anterior, aquí debes enviar tu
+código con al menos un día de anticipación. Debes alojar tus soluciones en un
+repositorio de GitHub y debes enviar la dirección url del repositorio a
+tu coach.
+
+Tal como en la parte IV, no sabes cuáles son los desafíos que te asignarán.
+Sin embargo, gracias a la comunidad de egresadas de Laboratoria, sabes los retos
+que han sido asignados en el pasado. Tu compañera te ha pasado este documento
+que recopila los desafíos que se han utilizado en procesos anteriores. Lo más
+seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
+que se muestran en ese documento, así que lo más recomendable es que completes
+todos con anticipación. Recuerda que estás aquí para aprender. Nada mejor para
+tu preparación profesional que completes absolutamente todos ;)
 
 ## Recursos externos
 
@@ -129,3 +191,5 @@ qué plan de acción debes implementar.
 * [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing).
 * [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing).
 * [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
+* [Preguntas y retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing)
+* [Desafíos de procesos anteriores](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)

@@ -1,8 +1,8 @@
 # Cierre
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `15min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
@@ -33,8 +33,3 @@ potentes.
 * Qué es una función de primer orden
 * Qué es la técnica de la aplicación parcial
 * Qué es el _currying_ en programación funcional
-
-## Auto-evaluación
-
-Tus instructorxs te compartirán un link al cuestionario de _auto evaliación_.
-Este cuestionario no es calificado.

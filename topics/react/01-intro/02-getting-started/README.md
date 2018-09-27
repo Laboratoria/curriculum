@@ -60,7 +60,7 @@ permita identificarlo unívocamente.
 
 Como con cualquier otra librería (por ejemplo `jQuery`), antes de poder utilizar
 `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
-una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1)
+una [copia de `React`](https://github.com/facebook/react/releases/latest)
 y referenciar localmente los scripts; o, como haremos nosotros en este ejemplo,
 puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
 [unpkg](https://unpkg.com).

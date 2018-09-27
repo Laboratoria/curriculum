@@ -1,15 +1,8 @@
 # Apertura
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `15min`
-
-## Objetivos del seminario
-
-* Hacer un resumen de lo que vamos a aprender en esta unidad
-* Explicar los entregables que se esperan de las alumnas
-* Aclarar la _hoja de ruta_ de la unidad en el contexto del curso
-* Preguntas y conceptos clave de esta unidad
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
@@ -37,30 +30,6 @@ asincrónico, que puede ser confuso para los programadores que sólo tienen
 experiencia con código síncrono. A continuación se explicará qué es código
 asíncrono, algunas de las dificultades de usar código asíncrono, y maneras de
 manejar estas dificultades.
-
-## Hoja de ruta
-
-### Semana 1
-
-* Sesión 1: presencial 3h => Funciones puras e inmutabilidad**
-* Sesión 2: self-paced 2h => Refactorizar `Loader`
-
-### Semana 2
-
-* Pre-tarea: Lectura _Higher Order Functions_ (Unidad 03)
-* Sesión 3: presencial 3h => Higher Order Functions
-* Sesión 4: self-paced 2h => Refactorizar
-
-### Semana 3
-
-* Pre-tarea: Lectura _Recursividad_ (Unidad 05)
-* **Sesión 5: presencial 3h => Control de flujo (recursión y asincronía)**
-* Sesión 6: self-paced 2h => Refactorizar
-
-### Semana 4
-
-* Pre-tarea: Implementación, refactoring, pull request
-* Sesión 7: presencial 3h => Code review + Demos de proyectos
 
 ## Guía de preguntas y conceptos clave
 

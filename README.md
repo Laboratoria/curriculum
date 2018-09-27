@@ -150,7 +150,7 @@ entrevistado a egresadas de Laboratoria.
 * Equipos: 1 estudiante
 * Tópicos: Todo lo visto en el _common core_.
 
-##### Proyecto: [Burger Queen](projects/04-burger-queen) (wip)
+##### Proyecto: [Burger Queen](projects/04-burger-queen)
 
 En este _proyecto_ tendrás que implementar un sistema para que lxs meserxs de un
 restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
@@ -161,10 +161,10 @@ _aplicación web_ **offline first**, usando una arquitectura _serverless_ (algo
 como [Firebase](https://firebase.google.com/)) y con una interfaz que debe
 correr en dispositivos móviles (celulares y tablets).
 
-* Duración estimada: 4 semanas.
-* Equipos: 2-3 estudiantes
-* Tópicos: **Offline first**, Service Workers, Módulos, Serverless, Cloud
-  Functions, Frameworks, React, Redux, Vue, Angular.
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes
+* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline first, Service Workers,
+  Serverless, Cloud Functions.
 
 ##### Proyecto: [Markdown Links](projects/04-md-links)
 
@@ -181,7 +181,7 @@ desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-* Duración estimada: 4 semanas.
+* Duración estimada: 3 semanas.
 * Equipos: 1 estudiante
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
   Módulos, [Errores](topics/javascript/09-errors),
@@ -205,7 +205,7 @@ tópicos sugeridos (electivos).
 
 ##### Proyecto: Capstone
 
-* Duración estimada: 4 semanas.
+* Duración estimada: 2 semanas.
 * Tópicos: Node server?, Mobile?, Open Source?, Data?, WebOps?, Backend (Rails,
   Django, Laravel)? (tbd)
 
@@ -228,22 +228,26 @@ En uso (`v2.x`):
 * [Browser](topics/browser)
 * [SCM: Git + GitHub](topics/scm)
 * [UNIX Shell](topics/shell)
+* [Paradigmas de programación](topics/paradigms)
+* [JavaScript Funcional](topics/functional)
+* [React](topics/react)
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
 
 Work in progress:
 
+* Node
+* Redux
+
+Wish list:
+
 * Algorithms
 * Angular
-* Chatbot?
 * Data Structures
 * Databases
 * Editors
 * ESNext
 * Modules
-* Node
-* React
-* Redux
 * Serverless
 * Styleguides
 * The web stack

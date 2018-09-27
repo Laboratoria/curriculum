@@ -1,8 +1,8 @@
 # Apertura
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `10min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
@@ -25,43 +25,6 @@ distintos, e identificar y adaptarse a bases de código existentes.
 
 En este curso nos concentraremos en los paradigmas más relevantes para
 JavaScript y cómo se materializan en este contexto.
-
-## Hoja de ruta
-
-### Semana 1
-
-* **Sesión 1: presencial 3h**
-  - Unidad 1: Unidad 1: Introducción a Paradigmas de Programación
-* Sesión 2: webinar 1h
-  - Unidad 2: Entorno y metodología de trabajo
-
-### Semana 2
-
-* Pre-tarea
-  - Lecturas y ejercicios de Unidad 3: OOP y herencia prototipal
-* Sesión 3: presencial 3h
-  - Solucionario de Unidad 3 (cont.): OOP y herencia prototipal (1h)
-  - Unidad 4: Proyecto (implementación OOP) (2h)
-* Sesión 4: webinar 1h
-  - Unidad 4: Proyecto (implementación OOP) cont. (2h)
-
-### Semana 3
-
-* Pre-tarea
-  - Lecturas y ejercicios de Unidad 6: Object factories and composition
-* Sesión 5: presencial 3h
-  - Unidad 6 (cont.): Solucionario de Object factories and composition
-  - Unidad 5: Hacking (proyecto libre)
-* Sesión 6: webinar 1h
-  - Unidad 7: Proyecto (implementación FP) (1h)
-
-### Semana 4
-
-* Pre-tarea
-  - Implementación de proyecto
-* Sesión 7: presencial 3h
-  - Unidad 7: Proyecto (implementación FP) (2h)
-  - Unidad 8: Hacking (proyecto libre)
 
 ## Guía de preguntas y conceptos clave
 
@@ -86,13 +49,3 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
 * Cómo se aplican los diferentes paradigmas al mundo de JavaScript?
 * Cómo se comparan los diferentes paradigmas (diferencias, similitudes, ...)?
 * Cómo programar en los diferentes estilos
-
-## Entregables
-
-* **Ejercicios**: Durante esta unidad completarás varios ejercicios en el LMS.
-  Estos ejercicios incluyen tests automatizados con feedback immediato.
-
-## Evaluación
-
-* Ejercicios LMS: 40%
-* Proyectos/Demos: 60%

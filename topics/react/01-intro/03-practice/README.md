@@ -2,7 +2,7 @@
 
 * Tipo: `práctica`
 * Formato: `self-paced`
-* Duración: `10min`
+* Duración: `30min`
 
 ***
 

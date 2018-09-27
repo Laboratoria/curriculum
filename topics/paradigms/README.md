@@ -24,25 +24,16 @@ programación orientada a objetos, no sólo te hará una mejor coder, si no que
 podrás entender cómo se pueden enfrentar los mismos problemas con enfoques
 distintos, e identificar y adaptarse a bases de código existentes.
 
-En este curso formarás parte de un equipo responsable de extender la
-funcionalidad de un juego de dos dimensiones escrito en JavaScript. **Tu equipo
-tendrá que dividir tareas, trabajar en parejas y en parelalo y hacer code
-reviews**. Todo el flujo de trabajo será a través de un repositorio alojado en
-GitHub. Durante la primera semana tu equipo tendrá que extender el juego
-_heredando_ del prototipo de un constructor ya implementado, mientras que en la
-segunda semana tendrán que refactorizar el código de la primera semana usando
-el paradigma funcional.
-
 ## Público objetivo
 
-Este curso está pensado para alumnas que ya se han familiarizado con la
+Este curso está pensado para estudiantes que ya se han familiarizado con la
 programación en JavaScript y quieren llevar su conocimiento sobre el lenguaje
 a otro nivel, entendiendo diferentes formas de "pensar" en cómo se estructura
 un programa.
 
 ## Requerimientos previos
 
-Se asume que las alumnas ya han trabajado con variables, valores (tipos de
+Se asume que las estudiantes ya han trabajado con variables, valores (tipos de
 datos), arreglos, objetos y funciones así como estructuras de control de flujo
 (bucles, condicionales, ...).
 
@@ -59,32 +50,6 @@ _deconstrucción_ de objetos y la notación _shorthand_ de objetos son un plus.
 * Cómo implementar **herencia prototipal**
 * Los principios básicos de la **programación funcional**
 * A usar **composición** como alternativa a la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
-
-## Producto
-
-El _producto_ en el que trabajarás es un
-[videojuego de ejemplo](https://laboratoria.github.io/game/), con una
-[base de código](https://github.com/Laboratoria/game) existente y que
-funciona. La idea es que un jefe ficticio le ha pedido a tu equipo que añada
-una serie de _personajes_ y _niveles_ nuevos.
-
-Participar en el proyecto involucra lo siguiente:
-
-* Tener una cuenta en **GitHub**
-* Hacer un **fork** del repo _upstream_
-* **Mapear y dividir el trabajo** con tu equipo
-* Setear **milestones**
-* Implementar nuevos personajes y mapas usando **herencia**
-* Implementar nuevos personajes y mapas usando **composición**
-* Enviar **pull requests**
-* Hacer **code review** y **merges**
-
-El juego está inspirado en el ejemplo de
-[js-tiles de mozdevs](https://github.com/mozdevs/gamedev-js-tiles).
 
 ***
 
@@ -99,7 +64,7 @@ procedimientos, orientado a objetos (OOP), funcional (FP), ...
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     |   10min  | [Apertura](01-paradigms/00-opening)
+| 00 | lectura   | self-paced |    5min  | [Apertura](01-paradigms/00-opening)
 | 01 | lectura   | self-paced |    5min  | [¿Qué son los paradigmas de programación?](01-paradigms/01-overview)
 | 02 | lectura   | self-paced |    5min  | [Historia](01-paradigms/02-history)
 | 03 | lectura   | self-paced |   15min  | [Declarativo vs Imperativo](01-paradigms/03-declarative-vs-imperative)
@@ -111,26 +76,9 @@ procedimientos, orientado a objetos (OOP), funcional (FP), ...
 | 09 | práctica  | self-paced |   10min  | [Ejercicio OOP](01-paradigms/09-oop-exercise)
 | 10 | lectura   | self-paced |   10min  | [Funcional](01-paradigms/10-fp)
 | 11 | práctica  | self-paced |   10min  | [Ejercicio funcional](01-paradigms/11-fp-exercise)
-| 12 | seminario | guiado     |   45min  | [Solucionario](01-paradigms/12-seminar)
-| 13 | seminario | guiado     |   10min  | [Cierre](01-paradigms/13-closing)
+| 13 | lectura   | self-paced |    5min  | [Cierre](01-paradigms/13-closing)
 
-### Unidad 02: [Entorno y metodología de trabajo](02-workshop)
-
-Antes de empezar con la teoría o la práctica, en esta unidad se hará una
-presentación sobre el curso en sí, los objetivos de aprendizaje, el proyecto, la
-metodología de aprendizaje, requisitos previos y metodología de evaluación.
-
-Durante esta sesión también nos aseguraremos que todas tienen git y node
-instalado, acceso al repo, su propio fork, ...
-
-|  # |  Tipo     | Formato | Duración | Descripción
-|----|-----------|---------|----------|------------
-| 00 | seminario | guiado  |   10min  | [Apertura](02-workshop/00-opening)
-| 01 | taller    | guiado  |   15min  | [Entorno: Git + GitHub](02-workshop/01-git+github)
-| 02 | taller    | guiado  |   15min  | [Creación de equipos](02-workshop/02-teams)
-| 03 | taller    | guiado  |   15min  | [Tareas y división de trabajo](02-workshop/03-tasks)
-
-### Unidad 03: [OOP y herencia prototipal](03-proto)
+### Unidad 02: [OOP y herencia prototipal](03-proto)
 
 Después de haber completado la introducción a paradigmas, te introdicirás en los
 detalles de cómo usar contructores y prototipos para crear jerarquías de
@@ -138,26 +86,14 @@ herencia.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     |   15min  | [Apertura](03-proto/00-opening)
+| 00 | lectura   | self-paced |    5min  | [Apertura](03-proto/00-opening)
 | 01 | lectura   | self-paced |   10min  | [`this` y `bind`](03-proto/01-this-and-bind)
 | 02 | lectura   | self-paced |   10min  | [`Object.create`](03-proto/02-object-create)
 | 03 | lectura   | self-paced |   12min  | [Herencia prototipal](03-proto/03-prototypal-inheritance)
 | 04 | práctica  | self-paced |   60min  | [Ejercicios planetproto](03-proto/04-ejercicios-planetproto)
-| 05 | seminario | guiado     |   15min  | [Solucionario](03-proto/05-seminar)
-| 06 | seminario | guiado     |   15min  | [Cierre](03-proto/06-closing)
+| 06 | lectura   | self-paced |    5min  | [Cierre](03-proto/06-closing)
 
-### Unidad 04: [Proyecto (implementación OOP)](04-game-oop)
-
-En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes. La
-implementación será usando herencia prototipal.
-
-### Unidad 05: [Hacking (proyecto libre)](05-hacking)
-
-Esta sesión la dedicaremos a _hacking_ libre. Tus instructorxs propondrán retos
-y ejemplos para ver todxs juntxs.
-
-### Unidad 06: [Object factories and composition](06-composition)
+### Unidad 03: [Object factories and composition](06-composition)
 
 En esta lección veremos en detalle cómo usar composición como una alternativa a
 las jerarquías de herencia, y así poder comparar el enfoque funcional frente al
@@ -165,25 +101,13 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     |   15min  | [Apertura](06-composition/00-opening)
+| 00 | lectura   | self-paced |    5min  | [Apertura](06-composition/00-opening)
 | 01 | lectura   | self-paced |    3min  | [Closures](06-composition/01-closures)
 | 02 | lectura   | self-paced |    5min  | [Factories](06-composition/02-factories)
 | 03 | lectura   | self-paced |    5min  | [Object.assign](06-composition/03-object-assign)
 | 04 | lectura   | self-paced |   10min  | [Composition over inheritance](06-composition/04-composition-over-inheritance)
 | 05 | práctica  | self-paced |   60min  | [Ejercicios](06-composition/05-exercises)
-| 06 | seminario | guiado     |   15min  | [Solucionario](06-composition/06-seminar)
-| 07 | seminario | guiado     |   15min  | [Cierre](06-composition/07-closing)
-
-### Unidad 07: [Proyecto (implementación FP)](07-game-fp)
-
-En esta sesión te dedicarás a hackear :construction:! Junto con una compañera,
-tendrás que extender el video juego añadiendo 2 ó más personajes. La
-implementación será usando el estilo funcional (composición).
-
-### Unidad 08: [Hacking (proyecto libre)](08-hacking)
-
-Esta sesión la dedicaremos a _hacking_ libre. Tus instructorxs propondrán retos
-y ejemplos para ver todxs juntxs.
+| 07 | lectura   | self-paced |    5min  | [Cierre](06-composition/07-closing)
 
 ***
 

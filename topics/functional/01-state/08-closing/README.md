@@ -1,8 +1,8 @@
 # Cierre
 
-* Tipo: `seminario`
-* Formato: `guiado`
-* Duración: `15min`
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `5min`
 
 ***
 
@@ -40,8 +40,3 @@ lo veremos en una siguiente lección.
 * Cómo usar métodos de objetos (por ejemplo `Object.assign()`) para copiar
   propiedades y así _clonar_ objetos?
 * Cómo usar el _spread operator_ (`...`) para copiar objetos y arreglos?
-
-## Auto-evaluación
-
-Tus instructorxs te compartirán un link al cuestionario de _auto evaluación_.
-Este cuestionario no es calificado.

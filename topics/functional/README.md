@@ -17,7 +17,8 @@ declarativo se han convertido en una necesidad para cualquier desarrollador de
 JavaScript.
 
 Familiarizarnos con la programción funcional en JavaScript y ES2015 nos
-permitirá más adelante desenvolvernos con naturalidad en React.
+permitirá más adelante desenvolvernos con naturalidad con herramientas como
+React o Redux.
 
 ***Tags***: `functional`, `es6`, ...
 
@@ -45,17 +46,6 @@ siguientes conocimientos previos:
 * Recursión
 * _Higher Order Functions_
 * Composición de funciones
-* Refactorización
-* Trabajo en equipo
-* Revisión en pares o _Peer-review_
-* Github issues, branches, pull requests, entre otros.
-
-## Producto
-
-* Refactorizar juego usado en lección 9 usando principios de programación
-  funcional, ES6 y añadiendo un conjunto de pruebas.
-* El "proyecto" está basado en iterar una aplicación existente y llevar a cabo
-  su siguiente release usando metodología ágil.
 
 ***
 
@@ -69,29 +59,15 @@ concepto de **inmutabilidad**.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
+| 00 | lectura   | self-paced |  5min    | Apertura
 | 01 | lectura   | self-paced | 30min    | Funciones puras
 | 02 | practice  | self-paced | 10min    | Ejercicios de funciones puras
 | 03 | lectura   | self-paced | 30min    | Inmutabilidad
 | 04 | practice  | self-paced | 10min    | Ejercicios de inmutabilidad
-| 05 | quiz      | self-paced | 10min    | Cuestionario
-| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
-| 07 | quiz      | self-paced | 10min    | Cuestionario
-| 08 | seminario | guiado     | 15min    | Cierre
+| 05 | quiz      | self-paced | 20min    | Cuestionario
+| 08 | lectura   | self-paced |  5min    | Cierre
 
-### Unidad 02: [Hacking: refactoring](02-workshop)
-
-Esta unidad es básicamente una sesión de programación por pares. La tarea a
-realizar será refactorizar varias funciones de un videojuego existente haciendo
-uso de **funciones puras** y **estructuras inmutables**.
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
-| 01 | taller    | self-paced | 90min    | Implementación por pares
-| 02 | seminario | guiado     | 15min    | Cierre
-
-### Unidad 03: [Higher Order Functions](03-hof)
+### Unidad 02: [Higher Order Functions](03-hof)
 
 Las **funciones de orden superior** (_Higher Order Functions_ en inglés), no son
 más que funciones que reciben otras funciones como argumentos o que retornan una
@@ -100,29 +76,17 @@ usos más avanzados como **aplicación parcial** y **currying**.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
+| 00 | lectura   | self-paced |  5min    | Apertura
 | 01 | lectura   | self-paced | 30min    | Higher Order Functions
 | 02 | practice  | self-paced | 10min    | Ejercicios de HOF
 | 03 | lectura   | self-paced | 10min    | Aplicación parcial
 | 04 | practice  | self-paced | 10min    | Ejercicios de aplicación parcial
 | 05 | lectura   | self-paced | 30min    | Currying
 | 06 | practice  | self-paced | 10min    | Ejercicios de currying
-| 07 | quiz      | self-paced | 10min    | Cuestionario
-| 08 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
-| 09 | quiz      | self-paced | 10min    | Cuestionario
-| 10 | seminario | guiado     | 15min    | Cierre
+| 07 | quiz      | self-paced | 20min    | Cuestionario
+| 10 | lectura   | self-paced |  5min    | Cierre
 
-### Unidad 04: [Hacking: refactoring](04-workshop)
-
-Taller de implementación por pares.
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
-| 01 | taller    | self-paced | 90min    | Implementación por pares
-| 02 | seminario | guiado     | 15min    | Cierre
-
-### Unidad 05: [Control de flujo](05-flow-control)
+### Unidad 03: [Control de flujo](05-flow-control)
 
 Como paradigma declarativo, la programación funcional se caracteriza, entre
 otras cosas, por expresar "repetición" usando recursión en vez de iteración. En
@@ -132,51 +96,15 @@ asincronía, que es una característica fundamental de JavaScript.
 
 |  # |  Tipo     | Formato    | Duración | Descripción
 |----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
+| 00 | lectura   | self-paced |  5min    | Apertura
 | 01 | lectura   | self-paced | 50min    | Recursión
 | 02 | practice  | self-paced | 10min    | Ejercicios de recursión
 | 03 | lectura   | self-paced | 30min    | Asincronía
 | 04 | practice  | self-paced | 10min    | Ejercicios de asincronía
-| 05 | quiz      | self-paced | 10min    | Cuestionario
-| 06 | seminario | guiado     | 45min    | Solucionarios y ejercicios guiados
-| 07 | quiz      | self-paced | 10min    | Cuestionario
-| 08 | seminario | guiado     | 15min    | Cierre
-
-### Unidad 06: [Hacking: refactoring](06-workshop)
-
-Taller de implementación por pares.
-
-|  # |  Tipo     | Formato    | Duración | Descripción
-|----|-----------|------------|----------|------------
-| 00 | seminario | guiado     | 15min    | Apertura
-| 01 | taller    | self-paced | 90min    | Implementación por pares
-| 02 | seminario | guiado     | 15min    | Cierre
-
-### Unidad 07: [Code review + Demos de proyectos](07-demos)
-
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+| 05 | quiz      | self-paced | 20min    | Cuestionario
+| 08 | lectura   | self-paced |  5min    | Cierre
 
 ***
-
-## Entregables y evaluación
-
-* **Ejercicios**: Durante el curso completarás varios ejercicios en el LMS.
-  Estos ejercicios incluyen tests automatizados con la intención de dar feedback
-  immediato, pero los ejercicios en sí no serán calificados. Se elegirá uno o
-  dos ejercicios junto con el proyecto para la sesión de _code review_, que sí
-  será calificada.
-* **Cuestionarios**: Al igual que los ejercicios, a lo largo del curso
-  responderás varios cuestionarios con feedback immediato, y éstos no cuentan
-  para la nota final.
-* **Proyecto**: Antes de la sesión de _code review_ y las demos, cada alumna
-  debe entregar (via pull request) el código de su proyecto. El proyecto incluye
-  refactorizar varios módulos de una base de código existente.
-* **Code review**: **(50%)** La última semana del curso tendrás una sesión de
-  _code review_ con uno de lxs instructorxs. En esta sesión se revisará el
-  código del proyecto así como uno o dos ejercicios realizados durante el curso.
-* **Demo**: **(50%)** El curso cerrará con una demo en la que tendrás que
-  presentar al resto de la clase el trabajo realizado y lo aprendido en el
-  proyecto.
 
 ## Autor(es) / Colaboradores
 
