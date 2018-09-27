@@ -157,9 +157,11 @@ restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
 _tablet_.
 
 El objetivo principal de aprendizaje de este proyecto es construir una
-_aplicación web_ **offline first**, usando una arquitectura _serverless_ (algo
-como [Firebase](https://firebase.google.com/)) y con una interfaz que debe
-correr en dispositivos móviles (celulares y tablets).
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
+
+Como objetivo secundario, la implementación debe además seguir las
+recomendaciones para PWAs (_Progressive Web Apps_), lo cual incluye conceptos
+como **offline**.
 
 * Duración estimada: 3 semanas.
 * Equipos: 1-2 estudiantes
