@@ -1,7 +1,7 @@
 # Quiz 1
 
 - Tipo: `quiz`
-- Formato: `self-paced`
+- Formato: `individual`
 - Duración: `15min`
 
 ***

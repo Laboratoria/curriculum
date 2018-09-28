@@ -1,8 +1,8 @@
 # Ejercicios: propTypes y defaultProps
 
 * Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `15min`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 

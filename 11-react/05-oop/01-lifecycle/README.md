@@ -1,8 +1,8 @@
 # Estado local y ciclo de vida
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `20min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `20min`
 
 ***
 

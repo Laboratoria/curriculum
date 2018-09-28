@@ -1,8 +1,8 @@
 # Getting Started
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `12min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `12min`
 
 ***
 

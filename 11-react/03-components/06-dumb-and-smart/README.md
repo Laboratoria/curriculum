@@ -1,8 +1,8 @@
 # Componentes presentacionales vs. Componentes contenedores
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 

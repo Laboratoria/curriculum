@@ -1,8 +1,8 @@
 # Ejercicio
 
 * Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `10min`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 

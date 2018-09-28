@@ -1,8 +1,8 @@
 # Ejercicios: children
 
 * Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `30min`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 

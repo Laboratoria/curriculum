@@ -1,8 +1,8 @@
 # ¿Qué es `React`?
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `4min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `4min`
 
 ***
 

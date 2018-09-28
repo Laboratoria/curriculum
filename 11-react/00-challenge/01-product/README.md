@@ -1,52 +1,50 @@
-# El producto
+# O Produto
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-## Sobre el cliente
+## Sobre o cliente
 
-Somos **Burguer Queen**, una cadena de comida rápida 24hrs.
+Somos **Burguer Queen**, uma rede de *fast food* 24h.
 
-## Requisitos del negocio
+## Requisitos do negócio
 
-Nuestra propuesta de servicio 24hrs ha tenido muy buena acogida, y para
-expandirnos necesitamos un sistema que nos ayude a tomar los pedidos de los
-clientes.
+Nosso proposta de serviço 24h tem sido muito bem recebida e para expandirmos precisamos de um sistema que nos ajude a registrar os pedidos dos clientes.
 
-Tenemos 2 menús: uno para el desayuno, que es bien sencillo:
+Teremos 2 cardápios: um para o café da manhã, que é bem simples:
 
-| Item                      |Precio|
+| Item                      |Preço |
 |---------------------------|------|
-| Cafe americano            |    5 |
-| Cafe con leche            |    7 |
-| Sandwich de jamón y queso |   10 |
-| Jugo natural              |    7 |
+| Café americano            |    5 |
+| Café con leite            |    7 |
+| Misto                     |   10 |
+| Suco natural              |    7 |
 
-Y un menú para el resto del dia:
+E um cardápio para o resto do dia:
 
 <table width="100%">
   <tbody>
     <tr>
-      <td colspan="2" rowspan="1">Hamburguesas</td>
-      <td>Acompañamientos (S/.5)</td>
+      <td colspan="2" rowspan="1">Hambúrgueres</td>
+      <td>Acompanhamentos (S/.5)</td>
       <td colspan="3" rowspan="1">Bebidas</td>
     </tr>
     <tr>
-      <td>Simple</td>
+      <td>Simples</td>
       <td>10</td>
-      <td>Papas fritas</td>
+      <td>Batata fritas</td>
       <td></td>
       <td>500ml</td>
       <td>750ml</td>
     </tr>
     <tr>
-      <td>Doble</td>
+      <td>Duplo</td>
       <td>15</td>
-      <td>Onion Rings</td>
-      <td>Agua</td>
+      <td>*Onion Rings*</td>
+      <td>Água</td>
       <td>5</td>
       <td>8</td>
     </tr>
@@ -54,68 +52,42 @@ Y un menú para el resto del dia:
       <td></td>
       <td></td>
       <td></td>
-      <td>Gaseosa</td>
+      <td>Refrigerante</td>
       <td>7</td>
       <td>10</td>
     </tr>
   </tbody>
 </table>
 
-Los clientes pueden escoger entre hamburguesas de res, de pollo, o vegetariana.
-**Y por S/. 1 pueden agregarle queso o huevo.**
+Os clientes tem opção de escolher hambúrgueres bovinos, de frango ou vegetariano.
+**E por S/. 1 pode adicionar queijo ou ovo.**
 
-Nuestros clientes son bastante indecisos, por lo que es muy común que cambien el
-pedido varias veces antes de finalizarlo.
+Nossos clientes são muito indecisos e é comum que mudem muitas vezes o pedidos antes de finalizá-lo.
 
-## Diseño
+## Projeto
 
-Este diseño nos gusta porque nuestros pedidos los tomaremos desde una tablet,
-pero no queremos una app nativa. Necesitamos botones grandes para escoger los
-productos, y el estado actual del pedido siempre visible para poder confirmar
-con el cliente su pedido.
+Este projeto nos agrada porque nossos pedidos serão registrados por um tablet e não queremos um *app* nativo. O estado atual do pedido deve ser sempre visível para poder confirmar com o cliente seu pedido.
 
 [missing image]
 
-## Adicionales
+## Extras
 
-Una vez que tengamos el sistema básico implementado, nos gustaría explorar
-nuevas posibilidades, y estamos abiertos a cualquier sugerencia que tengan.
-Algunas de las ideas que nos ha sugerido nuestros clientes son: agregar combos
-al menú, cupones de descuento, descuento por pago con efectivo, programa de
-fidelidad, etc.
+Uma vez que tenhamos o sistema básico implementado, gostaríamos de explorar novas possibilidades e estamos abertos à qualquer sugestão que tenham. Algumas das ideias que nossos clientes sugerirão são: adicionar combos nos menus, cupons de desconto, desconto por pagamento em dinheiro, programa de fidelidade, etc.
 
 ***
 
 ## Requisitos técnicos
 
-Tu "Single page app" debe tener las siguientes características:
+Sua "Single page app" deve respeitar os sequintes requisitos:
 
-* Estar desarrollada íntegramente en `ES6` y empaquetada de manera automatizada
-  con `babel` o `webpack`
-* Utilizar `React` y `Redux`
-* Con por lo menos 10 componentes que especifiquen todas sus props, 3 reducers
-  no atomicos (JSON) y 3 actions
-* Contar con scripts `run`, `build` y `deploy`, que se encarguen de correr,
-  empaquetar y desplegar la aplicación respectivamente.
-* Diseño *responsive* y *mobile*. El cliente va a usar el sistema en un
-  **navegador**, pero en **tablets**.
-* Despeglado en Github pages
-* Haber administrado y documentado todo el proceso de creación de la aplicación
-  en github.
-* Al día de la demo, la aplicación deberá estar publicada en una URL accesible
-  universalmente.
-* No es necesario implementar rutas
-* No es necesario implementar persistencia
-* No es necesario implementar conexiones remotas
-
-<!--
-***
-
-Ejemplos (inspiración):
-
-* [todomvc](https://github.com/reactjs/redux/tree/master/examples/todomvc)
-* [tetris](https://github.com/slugo/redux-tetris)
-* [pokedex](https://github.com/davidchang/redux-pokedex)
-* [solitario 1](https://github.com/gcedo/react-solitaire)
-* [solitario 2](https://github.com/pl12133/react-solitaire)
--->
+* Ser desenvolvida inteiramente com `ES6` e empacotada de maneira automatizada com `babel` ou `webpack`.
+* Utilizar `React` e `Redux`
+* Conter pelo menos 10 componentes que especifiquem todas as suas `props`, 3 `reducers` não atômicos (JSON) e 3 `actions`
+* Conter scripts `run`, `build` e `deploy`, que se encarreguem de executar, empacotar e publicar a aplicação, respectivamente.
+* Design *responsive* e *mobile*. O cliente usará o sistemas em um **navegador**, mas em **tablets**.
+* Publicar nas Github pages
+* Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub
+* No dia do demo, a aplicação deverá estar publicade em uma URL acessível universalmente
+* Não é necessário implementar rotas
+* Não é necessário implementar persistência
+* Não é necessário implementar conexões remotas

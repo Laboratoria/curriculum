@@ -1,8 +1,8 @@
 # Ejercicios libres
 
 * Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `40min`
+* Formato: `individual`
+* Duração: `40min`
 
 ***
 
