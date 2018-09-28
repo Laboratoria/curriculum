@@ -106,8 +106,7 @@ de entender las necesidades de los usuarios para los que crearás el producto.
 
 * Duración estimada: 3 semanas.
 * Equipos: 3 estudiantes
-* Tópicos: **Mobile first**, [Responsive](topics/css/02-responsive),
-  [URL](topics/the-web/04-url), [HTTP](topics/the-web/05-http),
+* Tópicos: **Mobile first**, [Responsive](topics/css/02-responsive), URL, HTTP,
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
@@ -165,8 +164,8 @@ como **offline**.
 
 * Duración estimada: 3 semanas.
 * Equipos: 1-2 estudiantes
-* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline first, Service Workers,
-  Serverless, Cloud Functions.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline first,
+  Service Workers, Serverless.
 
 ##### Proyecto: [Markdown Links](projects/04-md-links)
 
@@ -186,8 +185,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Duración estimada: 3 semanas.
 * Equipos: 1 estudiante
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
-  Módulos, [Errores](topics/javascript/09-errors),
-  [Depuración](topics/javascript/10-debugging).
+  Módulos, [Errores](topics/javascript/09-errors).
 
 #### UX
 
@@ -208,8 +206,7 @@ tópicos sugeridos (electivos).
 ##### Proyecto: Capstone
 
 * Duración estimada: 2 semanas.
-* Tópicos: Node server?, Mobile?, Open Source?, Data?, WebOps?, Backend (Rails,
-  Django, Laravel)? (tbd)
+* Tópicos: Node server?, Mobile?, Open Source?, Data?, WebOps?, Backend? (tbd)
 
 #### UX
 
