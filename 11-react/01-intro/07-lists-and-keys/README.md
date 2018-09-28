@@ -1,4 +1,4 @@
-# JSX: Listas y keys
+# JSX: Listas e `keys`
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,11 +6,9 @@
 
 ***
 
-Primero recordemos cómo manipular listas en JavaScript.
+Primeiro, recordemos como manipular listas no JavaScript.
 
-Dado el código de abajo, usamos la función [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-para tomar un array de números y duplicarlos. Asignamos el nuevo array resultado
-del `map()` a la variable `doubled` y lo imprimimos:
+Dado o código abaixo, usamos a função [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map) para tomar um array de números e dobrá-los. Atribuímos o novo array resultante do `map()` à variável `doubled` e o imprimimos:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
@@ -18,26 +16,22 @@ const doubled = numbers.map(number => number * 2);
 console.log(doubled);
 ```
 
-Esto imprime `[2, 4, 6, 8, 10]` en la consola.
+Isso imprime `[2, 4, 6, 8, 10]` no console.
 
-En `React`, transformar arrays en lista de elementos, es casi idéntico.
+En `React`, transformar arrays em lista de elementos é quase idêntico.
 
-## Renderizando múltiples componentes
+## Renderizando múltiplos componentes
 
-El valor de un array es una expresión válida de Javascript, por lo tanto podemos
-incluirlas en nuestro JSX usando llaves `{}`.
+O valor de um array é uma expressão válida de JavaScript. Portanto, podemos incluí-las em nosso `JSX` utilizando chaves `{}`.
 
-En el código de abajo, iteramos sobre el array `numbers` y devolvemos un
-elemento `<li>` para cada item. Finalmente, asignamos el array de elementos
-resultante a `listItems`:
+No código abaixo, iteramos sobre o array `numbers` e retornamos um elemento `<li>` para cada item. Finalmente, atribuímos o array de elementos resultante ao `listItems`.
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
 const listItems = numbers.map(number => (<li>{number}</li>));
 ```
 
-Luego incluimos todo el array `listItems` dentro de un elemento `<ul>` y lo
-renderizamos en el DOM:
+Então incluímos todo o erray `listItems` dentro de um elemento `<ul>` e o renderizamos no `DOM`:
 
 ```js
 ReactDOM.render(
@@ -46,14 +40,13 @@ ReactDOM.render(
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
+[Teste no CodePen](https://codepen.io/gaearon/pen/GjPyQr?editors=0011)
 
 ## Componente Lista Básico
 
-Es usual renderizar listas dentro de nuestros componentes.
+É comum renderizar listas dentro de nosso componentes.
 
-Vamos a refactorizar el ejemplo anterior, en un componente que acepte un array
-de números y devuelva una lista de viñetas.
+Vamos refatorar o exemplo anterior em um componente que aceite um array de número e retorne uma lista de quadrinhos.
 
 ```js
 function NumberList(props) {
@@ -69,13 +62,9 @@ ReactDOM.render(
 );
 ```
 
-Cuando ejecutes este código, verás que aparecerá una advertencia en la consola,
-diciendo que deberías proveer un *key* para los items de tu lista. Un "key" es
-un atributo especial que necesitas incluir cuando creas una lista de elementos.
-En la próxima sección, veremos por qué es importante hacerlo.
+Quando você executar esse código, verá que aparecerá uma advertência no console, dizendo que você deveria fornecer uma *key* quando cria uma lista de elementos. Na próxima seção, veremos por que é importante fazê-lo.
 
-Entonces, asignemos un `key` a los items de nuestra lista dentro de
-`props.numbers.map()` y asi deshacernos del mensaje.
+Então, atribuímos uma `key` aos item de nossa lista dentro de `props.numbers.map()` e assim eliminamos a mensagem:
 
 ```js
 function NumberList(props) {
@@ -95,13 +84,11 @@ ReactDOM.render(
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
+[Teste no CodePen](https://codepen.io/gaearon/pen/jrXYRR?editors=0011)
 
 ## Keys
 
-Las ***"keys"*** ayudan a React a identificar cuáles elementos de una lista han
-cambiado, se han agregado o quitado. Las keys deben indicarse dentro de los
-elementos de un array, para asignarles así una identidad estable:
+As ***"keys"*** ajudam a identificar quais elementos de uma lista foram alterados, se foram adicionados ou excluídos. As *keys* devem ser indicadas dentro dos elementos de um array para atribuir-lhes uma identidade única:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
@@ -112,9 +99,7 @@ const listItems = numbers.map(number =>
 );
 ```
 
-La mejor manera de elegir un key, es usando un string que represente
-unívocamente a cada ítem dentro del array. En general utilizaremos los IDs de la
-misma data como keys:
+A melhor maneira de escolher uma *key* é utilizando uma string que represente univocamente cada item do array. Em geral utilizaremos os ID's dos dados como *keys*:
 
 ```js
 const todoItems = todos.map(todo =>
@@ -124,38 +109,32 @@ const todoItems = todos.map(todo =>
 );
 ```
 
-Como último recurso, cuando no tienes un ID estable, puedes utilizar el índice
-del elemento dentro del array:
+Como último recurso, quando você não tem um ID único, você pode utilizar o índice do elemento dentro do array:
 
 ```js
 const todoItems = todos.map((todo, index) =>
-  // Only do this if items have no stable IDs
+  // Only do this if items have no unique IDs
   <li key={index}>
     {todo.text}
   </li>
 );
 ```
 
-El uso de índices como keys es **no** recomendado, ya que puede ser muy lento,
-además de ser inconsistente en escenarios donde el orden de los elementos puede
-cambiar. Si quieres saber más, chequea
-[la explicación al detalle de por qué los keys son necesarios](https://facebook.github.io/react/docs/reconciliation.html#recursing-on-children).
+O uso de índices como *keys* **não** é recomendado, já que pode ser muito lento. Além disso, pode ser inconsistente em cenários nos quais a ordem dos elementos pode mudar. Se você quiser saber mais, veja [a explicação detalhada do porquê as *keys* são necessárias](https://facebook.github.io/react/docs/reconciliation.html#recursing-on-children).
 
-## Extrayendo componentes con keys
+## Extraindo componentes com *keys*
 
-Los keys sólo tienen sentido en el contexto del array.
+As *keys* só têm sentido no contexto do array.
 
-Por ejemplo, si creamos un componente `ListItem`, el key debe ser indicado en
-cada `<ListItem />` del array, en lugar de dentro del elemento `<li>` dentro de
-`ListItem`.
+Por exemplo, se criarmos um componente `ListItem`, a chave deve ser indicada em cada `<ListItem />` do array em lugar do elemento `<li>` dentro de `ListItem`.
 
-### Ejemplo de uso incorrecto
+### Exemplo de uso incorreto
 
 ```js
 function ListItem(props) {
   const value = props.value;
   return (
-    // Mal! aquí no me hace falta ningún key, el elemento <li> ya tiene una identidad
+    // Errado! aqui não me faz falta alguma a *key*; o elemeno <li> já tem uma identidade
     <li key={value.toString()}>
       {value}
     </li>
@@ -165,7 +144,7 @@ function ListItem(props) {
 function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
-    // Mal! Aquí es donde necesitamos el key
+    // Errado! Aqui é onde precisamos da *key*
     <ListItem value={number} />
   );
   return (
@@ -181,18 +160,18 @@ ReactDOM.render(
 );
 ```
 
-### Ejemplo de uso correcto
+### Exemplo de uso correto
 
 ```js
 function ListItem(props) {
-  // Bien! No hay necesidad de especificar un key
+  // Correto! Não há necessidade de especificar uma *key*
   return <li>{props.value}</li>;
 }
 
 function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
-    // Bien! Aquí es donde lo necesitamos
+    // Correto! Aqui é onde precisamos da *key*
     <ListItem key={number.toString()} value={number} />
   );
   return (
@@ -208,11 +187,8 @@ ReactDOM.render(
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
+[Teste no CodePen](https://codepen.io/rthor/pen/QKzJKG?editors=0010)
 
-Como regla general considera que los elementos dentro de un `map()` siempre
-necesitan keys.
+Como regra geral, considere que os elementos dentro de um `map()` sempre necessitam de *keys*.
 
-> Más adelante en el curso veremos algunas características de ES6 que, sumadas a
-`JSX`, nos permitirán desarrollar nuestra aplicaciones, de una manera mucho mas
-"natural".
+> Mais adiante no curso veremos algumas características de ES6 que, somadas ao `JSX`, permitirão desenvolver aplicações de uma maneira mais "natural".

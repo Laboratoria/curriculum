@@ -1,6 +1,6 @@
 # Ejercicio
 
-* Tipo: `práctica`
+* Tipo: `prática`
 * Formato: `individual`
 * Duração: `10min`
 

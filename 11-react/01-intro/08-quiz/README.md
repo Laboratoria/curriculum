@@ -8,40 +8,37 @@
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de colocar seus conhecimentos à prova. É uma oportunidade para que você verifique e valide que realmente está aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es React?
+### 1) O que é React?
 
-#### Opciones
+#### Opções
 
-1. Un lenguaje de programación
-2. Un framework
-3. Una hoja de estilo
-4. Una librería open source desarrollada por Facebook
+1. Uma linguagem de programação
+2. Um _framework_
+3. Uma folha de estilo
+4. Uma biblioteca _open source_ desenvolvida pelo Facebook
 
 <solution style="display:none;">4</solution>
 
-### 2) ¿Qué es el 'Virtual DOM'?
+### 2) O que é o `Virtual DOM`?
 
-#### Opciones
+#### Opções
 
-1. Una nueva implementación del DOM
-2. Una estructura de datos que react usa para representar la jerarquía de
-   componentes como un árbol análogo al DOM
-3. Una referencia al DOM del navegador
-4. Una acción especial de React que sólo se ejecuta cuando hay cambios
+1. Uma nova implementação do DOM
+2. Uma estrutura de dados que `React` usa para representar a hierarquia de componentes como uma árvore análoga ao `DOM`
+3. Uma referência ao `DOM` do navegador
+4. Uma ação especial de React que só é executada quando ocorrem mudanças
 
 <solution style="display:none;">2</solution>
 
-### 3) ¿Cuál de las siguientes etiquetas no necesita cierre?
+### 3) Qual das seguintes *tags* não necessitam de fechamento?
 
-#### Opciones
+#### Opções
 
 1. em
 2. div
@@ -50,23 +47,22 @@
 
 <solution style="display:none;">3</solution>
 
-### 4) ¿Qué es JSX?
+### 4) O que é `JSX`?
 
-#### Opciones
+#### Opções
 
-1. Un lenguaje de programación
-2. La versión anterior a JavaScript
-3. Una extensión al lenguage JavaScript
+1. Uma linguagem de programação
+2. Uma versão anterior a JavaScript
+3. Uma extensão da linguagem JavaScript
 
 <solution style="display:none;">3</solution>
 
-### 5) El renderizado condicional
+### 5) O renderizado condicional
 
-#### Opciones
+#### Opções
 
-1. Usa sentencias como `if` u operadores condicionales para determinar qué
-   elementos incluir para representar el estado actual.
-2. Nos permite modificar el estado de otros componentes
-3. Usa operadores condicionales, y actualiza la interfaz del usuario sin React
+1. utiliza sentenças como `if` ou operadores condicionais para determinar quais elementos será incluídos para representar o estado atual.
+2. permite modificar o estado de outros componentes.
+3. utiliza operadores condicionais e atualiza a interface do usuário sem `React`.
 
 <solution style="display:none;">1</solution>

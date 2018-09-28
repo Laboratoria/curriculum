@@ -1,6 +1,6 @@
 # Ejercicios: propTypes y defaultProps
 
-* Tipo: `práctica`
+* Tipo: `prática`
 * Formato: `individual`
 * Duração: `15min`
 

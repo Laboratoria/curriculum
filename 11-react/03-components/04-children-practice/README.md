@@ -1,6 +1,6 @@
 # Ejercicios: children
 
-* Tipo: `práctica`
+* Tipo: `prática`
 * Formato: `individual`
 * Duração: `30min`
 
