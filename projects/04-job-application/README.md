@@ -179,7 +179,7 @@ Tal como en la parte IV, no sabes cuáles son los desafíos que te asignarán.
 Sin embargo, gracias a la comunidad de egresadas de Laboratoria, sabes los retos
 que han sido asignados en el pasado. Tu compañera te ha pasado este documento
 que recopila los desafíos que se han utilizado en procesos anteriores. Lo más
-seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/drive/u/0/folders/11Bvdt5Q3xnJduv2oBrQJOFUZ5wJZUxd2?ogsrc=32)
+seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)
 que se muestran en ese documento, así que lo más recomendable es que completes
 todos con anticipación. Recuerda que estás aquí para aprender. Nada mejor para
 tu preparación profesional que completes absolutamente todos ;)
