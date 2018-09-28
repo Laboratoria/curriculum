@@ -111,7 +111,7 @@ de entender las necesidades de los usuarios para los que crearás el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Coworking Visitors](03-visitors)
+#### Proyecto: [Coworking Visitors](projects/03-visitors)
 
 En este _proyecto_ tendrás que implementar un sistema web de registro de
 visitantes para un _coworking_.
@@ -135,7 +135,7 @@ proyectos en paralelo.
 Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
 [JavaScript Funcional](topics/functional).
 
-##### Proyecto: [Applying for a job](04-job-application)
+##### Proyecto: [Applying for a job](projects/04-job-application)
 
 En este _proyecto_ simulamos una postulación a una empresa como Front-end
 Developer.
