@@ -8,66 +8,64 @@
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de colocar seus conhecimentos à prova. É uma oportunidade para que você verifique e valide que realmente está aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es un transpilador?
+### 1) O que é um transpilador?
 
-#### Opciones
+#### Opções
 
-1. Es una librería de Javascript
-2. Es una herramienta que nos permite escribir pseudo-código
-3. Es una herramienta que traduce código de un lenguaje a otro
-4. Es una librería open source desarrollada por Facebook
+1. É uma biblioteca de JavaScript
+2. É uma ferramenta que permite escrever pseudo-código
+3. É uma ferramenta que traduz código de uma linguagem para outra
+4. É uma biblioteca *open source* desenvolvida pelo Facebook
 
 <solution style="display:none;">3</solution>
 
-### 2) ¿Qué es Webpack?
+### 2) O que é Webpack?
 
-#### Opciones
+#### Opções
 
-1. Es un editor de código multiplataforma y ligero
-2. Es una consola de comandos Unix escrita para el proyecto GNU
-3. Es un sistema operativo libre, multiplataforma, multiusuario y multitarea
-4. Es un empaquetador de módulos y archivos para aplicaciones de JS modernas
+1. É um editor de código multiplataforma e veloz
+2. É um console de comandos Unix escrita para o projeto GNU
+3. É um sistema operacional livre, multiplataforma, multiusuário e multiárea.
+4. É um empacotador de módulos e arquivos para aplicações de JS modernas
 
 <solution style="display:none;">4</solution>
 
-### 3) ¿Qué es Babel?
+### 3) O que é Babel?
 
-#### Opciones
+#### Opções
 
-1. Es un transpilador que transforma ES5 en ES6
-2. Es un transpilador que transforma Javascript vanilla en jQuery
-3. Es un transpilador que nos permite transformar ES6, entre otros, en ES5
-4. Es un transpilador que transforma Javascript en Java
+1. É um transpilador que transforma ES5 em ES6
+2. É um transpilador que transforma JavaScript simples em jQuery
+3. É um transpilador que permite transformar ES6, entre outros, em ES5
+4. É um transpilador que permite transformar JavaScript em Java
 
 <solution style="display:none;">3</solution>
 
-### 4) ¿Cuál de todas las opciones corresponde a Interpolación de Strings?
+### 4) Qual das opções corresponde à Interpolação de Strings?
 
-#### Opciones
+#### Opções
 
-1. <pre>`Hey name, tomemos un drink?`;</pre>
-2. <pre>`Hey ${name}, tomemos un ${drink}?`;</pre>
-3. <pre>`Hey ` + name + `, tomemos un ` + drink + `?`;</pre>
-4. <pre>`Hey {name}, tomemos un {drink}?`;</pre>
+1. <pre>`Olá, name, tomamos un drink?`;</pre>
+2. <pre>`Olá, ${name}, tomamos um ${drink}?`;</pre>
+3. <pre>`Olá, ` + name + `, tomamos um ` + drink + `?`;</pre>
+4. <pre>`Olá, {name}, tomamos un {drink}?`;</pre>
 
 <solution style="display:none;">2</solution>
 
-### 5) ¿Cuales son los 3 principales beneficios de la funciones flechas?
+### 5) Quais são os 3 principais benefícios das funções flecha?
 
-#### Opciones
+#### Opções
 
-1. Tienen retorno implícito cuando el cuerpo de la función es solo una expresión
-2. Posee soporte para php
-3. Tiene soporte para múltiples lenguajes
-4. No efectúan un re-bind de this, cuando son usadas dentro de otra función
-5. Definen una sintaxis concisa
+1. Possuem retorno implícito quando o corpo da função é somente uma expressão
+2. Possui suporte para `php`
+3. Possui suporte para múltiplas linguagens
+4. Não efetuam um `re-bind` de `this` quando são usadas dentro de outra função
+5. Definem uma sintaxe concisa
 
 <solution style="display:none;">1,4,5</solution>

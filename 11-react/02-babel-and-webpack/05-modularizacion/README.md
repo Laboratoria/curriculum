@@ -1,4 +1,4 @@
-# Modularización
+# Modularização
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,9 +6,9 @@
 
 ***
 
-## Intro
+## Introdução
 
-Analicemos un segundo la estructura de nuestra aplicación:
+Analisemos um instante a estrutura de nossa aplicação:
 
 ```text
 ├── .babelrc
@@ -21,12 +21,11 @@ Analicemos un segundo la estructura de nuestra aplicación:
 └── yarn.lock
 ```
 
-¿No hay algo que te hace ruido? ¿No te parece algo desordenado que los archivos
-de configuración y el código fuente, estén todos revueltos?
+Não há algo que está estranho? Não lhe parecer algo bagunçado os arquivos de configuração e o código fonte estejam todos misturados?
 
-## Ejercicio
+## Exercício
 
-Modifica tu aplicación para que quede con la siguiente estructura:
+Modifique sua aplicação para que fique com a seguinte estrutura:
 
 ```text
 ├── src
@@ -45,14 +44,14 @@ Modifica tu aplicación para que quede con la siguiente estructura:
 └── yarn.lock
 ```
 
-### Ayuda
+### Ajuda
 
-Configura dentro de `webpack` a la carpeta `src` como tu root
+Configure dentro do `webpack` a pasta `src` como seu *root*
 
 ```js
 const config = {
   context: resolve(__dirname, 'src'),
 
-  // ... el resto de la configuracion
+  // ... o resto da configuração
 }
 ```

@@ -23,7 +23,7 @@ Adicionando ao "hype" de `React`, vale lembrar que companhias como Netflix, PayP
 
 À medida que a web foi evoluindo e passou de páginas estáticas para aplicações web cada vez mais **interativas e dinâmicas**, somado a isso o surgimento de **clientes móveis**, foi necessário a criação de novas estratégias e ferramentas que nos permitam lidar com essa complexidade crescente no desenvolvimento de interfaces de uma maneira **ordenada**, **uniforme** e **sustentável**.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
 Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
