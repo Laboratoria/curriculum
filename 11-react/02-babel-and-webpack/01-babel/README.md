@@ -1,4 +1,4 @@
-# Babel y ES6
+# Babel e ES6
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,25 +6,17 @@
 
 ***
 
-## ¿Qué es `Babel` y para qué sirve?
+## O que é `Babel` e para que serve?
 
-`Babel` es un ***transpilador***. Un *transpilador* es un tipo de compilador que
-toma como input código escrito en un lenguaje de programación y como resultado
-nos da un código análogo al original, pero en otro lenguaje de programación.
+`Babel` é um ***transpilador***. Um *transpilador* é um tipo de compilador que toma como entrada um código escrito em uma linguagem de programação e retorna um código análogo ao original, mas em outra linguagem de programação.
 
-`Babel` en particular es un transpilador que toma como input código `ES6`
-(lenguajes soportados de manera parcial por los navegadores modernos y nodejs) y
-nos da como resultado código `ES5` standard que podemos ejecutar en cualquier
-entorno JavaScript. Esto nos permite comenzar a utilizar todos los beneficios y
-extensiones que proponen las nuevas versiones de `ECMAScript`, **hoy**.
+`Babel` em particular é um transpilador que recebe como entrar código `ES6` (linguagens suportadas de maneira parcial pelos navegadores modernos e node.js) e retona como resultado código `ES5` padrão que podemos executar em qualquer ambiente JavaScript. Isso permite começar a utilizar todas a vantagens e extensões que propõem as novas versões de `EMACScript`, **hoje**.
 
 ***
 
 **NOTA:**
 
-En este curso sólo exploraremos las características de `ES6`, que son
-especialmente útiles para el desarrollo en `React`, pero `ECMAScript` es
-muchísimo más que eso. Aquí te dejamos unos recursos por si quieres profundizar
+Neste curso somente exploramos as caracterísitcas de `ES6`, que são especialmente úteis para o desenvolvimento com `React`, mas `EMACScript` é muito mais que isso. Aqui deixamos algumas referências se você quiser se aprofundar no tema:
 en el tema:
 
 * [es6-features.org](http://es6-features.org)
@@ -32,9 +24,9 @@ en el tema:
 
 ***
 
-Veamos algunos ejemplos:
+Vejamos alguns exemplos:
 
-* Funciones "flecha" (arrow functions)
+* Funções "flecha" _(arrow functions_)
 
   input:
 
@@ -50,7 +42,7 @@ Veamos algunos ejemplos:
   });
   ```
 
-* Asignación "desestructurada" (destructuring):
+* Atribuição "desestruturada" (_destructuring_):
 
   input:
 
@@ -66,7 +58,7 @@ Veamos algunos ejemplos:
     b = _ref[2];
   ```
 
-* Operador de propagación (spread operator):
+* Operador de propagação (*spread operator*):
 
   input:
 
@@ -82,7 +74,7 @@ Veamos algunos ejemplos:
   foo([].concat(x));
   ```
 
-* Definiciones abreviadas de Objetos (shorthand properties):
+* Definições abreviadas de Objetos (*shorthand properties*):
 
   input:
 
@@ -106,161 +98,144 @@ Veamos algunos ejemplos:
   };
   ```
 
-* Interpolación de `Strings`:
+* Interpolação de `Strings`:
 
   input:
 
   ```js
-  var nombre = 'World';
+  var nome = 'World';
   var lugar = 'Lima';
 
-  `Hello ${nombre}, vamos pa' ${lugar}?`;
+  `Olá, ${nome}. vamos para ${lugar}?`;
   ```
 
   output:
 
   ```js
-  var nombre = 'World';
+  var nome = 'World';
   var lugar = 'Lima';
 
-  'Hello ' + nombre + ', vamos pa\' ' + lugar + '?';
+  'Olá, ' + nome + '. Vamos para ' + lugar + '?';
   ```
 
-* Declaración de variables con `let` y `const`:
+* Declaração de variables com `let` e `const`:
 
   input:
 
   ```js
-  let referenciaVariable = 'Este string se puede modificar';
-  const referenciaFija = 'Este string no se puede modificar';
+  let referenciaVariavel = 'Esta string pode ser modificada';
+  const referenciaFixa = 'Esta string não pode ser modificada';
   ```
 
   output:
 
   ```js
-  var referenciaVariable = 'Este string se puede modificar';
-  var referenciaFija = 'Este string no se puede modificar';
+  var referenciaVariavel = 'Esta string pode ser modificada';
+  var referenciaFixa = 'Esta string não pode ser modificada';
   ```
 
-### Presets
+### *Presets*
 
-Para agrupar los diferentes features que queremos que `babel` entienda, usamos
-los *presets*. Los presets nos permiten especificar qué versión de `ECMAScript`
-queremos utilizar.
+Para agrupar as difentes funcionalidades que queremos que `babel` entenda, utilizamos os *presets*. Os _presets_ permitem especificar qual versão de `EMACScript` queremos utilizar.
 
-Aquí una pequeña lista de presets populares:
+Aqui há uma pequena lista de *presets* populares:
 
-* [env](http://babeljs.io/docs/plugins/preset-env/) (la última versión aprobada)
-* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (este usaremos nosotros)
+* [env](http://babeljs.io/docs/plugins/preset-env/) (a última versão liberada)
+* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (usaremos este)
 * [es2016](http://babeljs.io/docs/plugins/preset-2016/)
 * [es2017](http://babeljs.io/docs/plugins/preset-2017/)
-* [react](http://babeljs.io/docs/plugins/preset-env/) (este también usaremos nosotros)
+* [react](http://babeljs.io/docs/plugins/preset-env/) (também usaremos este)
 
-Si quieres saber más de [babel](http://babeljs.io/), visita su
-[documentación](https://babeljs.io/docs/setup/). Para conocer todos los
-*features* soportados, chequea las [lista de plugins y presets](https://babeljs.io/docs/plugins/).
+Se você quiser saber mais sobre [babel](http://babeljs.io/), visite sua [documentação](https://babeljs.io/docs/setup/). Para conhecer todos os *features* suportados, veja a [lista de plugins e presets](https://babeljs.io/docs/plugins/).
 
-## Usando `Babel` en nuestro ejemplo
+## Usando `Babel` em nosso exemplo
 
-Ya tienes todos tus componentes declarados en `JSX`, ahora veremos algunas
-características de `ES6` que nos serán bien útiles en `React`.
+Você já tem todos os seu componentes declarados no `JSX`. Agora veremos algumas características de `ES6` que serão bem úteis com `React`.
 
-La primera herramienta que usaremos, son las funciones flecha (*arrow
-functions*), esta mejora sintáctica nos permite escribir nuestras funciones de
-una manera mas concisa.
+A primeira ferramenta que usaremos é as funções flecha (*arrow functions*). Esta melhoria sintática permite escrever nossas funções de maneira mais concisa.
 
-Entonces, por ejemplo, la siguiente función:
+Então, por exemplo, a seguinte função:
 
 ```js
 function Header(props) {
   return (
     <header>
       <h1>{props.titulo}</h1>
-      <p>{props.descripcion}</p>
+      <p>{props.descricao}</p>
     </header>
   );
 };
 ```
 
-se convierte en
+é convertida em
 
 ```js
 const Header = props => (
   <header>
     <h1>{props.titulo}</h1>
-    <p>{props.descripcion}</p>
+    <p>{props.descricao}</p>
   </header>
 );
 ```
 
-Las *funciones flecha* otorgan principalmente 3 beneficios:
+As *funções flecha* propicianm pricipalmente 3 benefícios:
 
-1. Definen una **sintaxis concisa**
-2. Tienen **retorno implícito** cuando el cuerpo de la función es solo una expresión
-3. **No efectúan un `re-bind` de `this`**, cuando son usadas dentro de otra función
+1. Definem una **sintaxe concisa**
+2. Possuem **retorno implícito** quando o corpo da função é somente uma expressão
+3. **Não efetuam um `re-bind` de `this`** quando são usadas dentro de outra função
 
 ***
 
 **NOTA:**
 
-Para conocer más al detalle los beneficios y características de las *funciones
-flecha*, te recomendamos los siguientes recursos:
+Para conhecer com mais detalhes os benefícios e características das *funções flecha* recomendamos os seguintes recursos:
 
-* [*Funciones Flecha* en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
+* [*Funções Flecha* no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
 * [*JavaScript Arrow Functions Introduction* por Wes Bos](http://wesbos.com/arrow-functions/)
 
 ***
 
-Luego, para detallar en la cabecera de nuestros componentes, cuáles son las
-`props` que espera, usaremos parámetros nombrados (*named parameters*).
-Utilizando esta técnica, el código anterior se convierte en lo siguiente:
+Em seguida, para detalhar o cabeçalho de nossos componentes e quais são as `props` que recebe, usaremos parâmetros nomeados (*named parameters*). Utilizando esta técnica, o código anterior é convertido no seguinte:
 
 ```js
-const Header = ({ titulo, descripcion }) => (
+const Header = ({ titulo, descricao }) => (
   <header>
     <h1>{titulo}</h1>
-    <p>{descripcion}</p>
+    <p>{descricao}</p>
   </header>
 );
 ```
 
-Hemos reemplazando la definición del parámetro `props`, por una definición de su
-forma, lo cual agrega legibilidad a la definición de nuestro componente,
-estableciendo claramente cuales son las `props` que espera, en este caso
-`titulo` y `descripcion`.
+Substituímos a definição do parâmetros `props` por uma definição de sua forma, a qual adiciona uma legilibilidade à definição de nosso componente, estabelecendo claramente qual são as `props` que recebe (neste caso, `titulo` e `descricao`).
 
-Y por último haremos uso del operador de propagación (*spread operator*), para
-facilitar la inyección dinámica de propiedades a nuestros componentes.
+E por fim usaremos o operador de propagação (*spread operator*) para facilitar a injeção dinâmica de propriedades nos nossos componentes.
 
-Por ejemplo, dado el siguiente caso
+Por exemplo, dado o seguinte caso
 
 ```js
-const Header = ({ titulo, descripcion }) => (
+const Header = ({ titulo, descricao }) => (
   <header>
     <h1>{titulo}</h1>
-    <p>{descripcion}</p>
+    <p>{descricao}</p>
   </header>
 );
 
-// Estas son las props que queremos inyectar
-const headerProps = { titulo: 'Titulo', descripcion: 'Descripcion' };
+// Estas são as props que queremos injetar
+const headerProps = { titulo: 'Título', descricao: 'Descrição' };
 
-// La manera directa de inyectarle las propiedades al componente seria la sgte:
-<Header titulo={headerProps.titulo} descripcion={headerProps.descripcion} />
+// A maneira direta de injetar as propriedades no componente seria assim:
+<Header titulo={headerProps.titulo} descricao={headerProps.descricao} />
 
-// Una manera más directa y menos verborrágica de hacerlo, es la sgte:
+// Uma forma mais direta e menos prolixa de fazer é assim:
 <Header {...headerProps} />
 
-// Esta última opción es particularmente útil cuando no sabemos a priori
-// qué estructura tiene `headerProps`
+// Esta última opção é particularmente útil quando não sabemos a priori qual estrutura possui `headerProps`
 ```
 
-Ten en cuenta que **ambas expresiones** son **equivalentes**.
+Considera que **ambas expressões** são **equivalentes**.
 
-## Ejercicio
+## Exercício
 
-Continua con la conversión de todos tus componentes usando los características
-de ES6 que acabamos de ver.
+Continuar com a conversão de todos seus componentes usando as características que acabamos de ver.
 
-En la próxima lectura vamos a extraer nuestro código `React` fuera de nuestro
-archivo `html`, y así comenzar a modularizar nuestra aplicación.
+Na próxima leitura extrairemos nosso código `React` do nosso arquivo `html` e começaremos a modularizar nossa aplicação.

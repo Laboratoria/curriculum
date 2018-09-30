@@ -1,4 +1,4 @@
-# Extrayendo el código js a su propio archivo
+# Extraindo o código js para seu próprio arquivo
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,54 +6,42 @@
 
 ***
 
-## Intro
+## Introdução
 
-Imagínate una aplicación realmente compleja, con cientos de componentes, hojas
-de estilos e imágenes. Así son las aplicaciones en el mundo real, con miles de
-líneas de código.
+Imagine uma aplicação realmente complexa, com centenas de componentes, folhas de estilos e imagens. Assim são as aplicações no mundo real, com milhares de linhas de código.
 
-La estrucutra de nuestra aplicación hasta ahora consta de un solo archivo
-`html`, que contiene todo nuestro código.
+A estrutura de nossa aplicação até agora consta somente com um arquivo `html` que contém nosso código.
 
-Como te imaginarás, a medida que la complejidad de nuestra aplicación crece,
-tener todo nuestro código junto en un solo archivo, deja de ser una alternativa
-válida y mantenible.
+Como você pode imaginar, a medida que a complexidade de nossa aplicação aumenta, ter todo nosso código em um único arquivo deixa de ser uma alternativa válida e sustentável.
 
-En esta lectura veremos cómo separar nuestro código `html` de nuestro código
-`javascript`.
+Nesta leitura veremos como separar nosso código `html` de nosso código `javascript`.
+
 
 ## Setup
 
-Para poder referenciar archivos externos a procesar desde nuestra aplicación, ya
-no nos alcanza con cargar el archivo estáticamente, sino que necesitamos
-configurar un servidor local para servir los archivos en cuestión.
+Para poder refernciar os arquivos externos a serem utilizados em nossa aplicação, já não podemos carregar o arquivo estaticamente. Precisamos configurar um servidor local para hospedar os arquivos em questão.
 
-Para esto lo primero que vamos a hacer es convertir a nuestro proyecto en una
-aplicación de `node`.
+Para isso a primeira coisa a fazer é converter nosso projeto em uma aplicação de `node`.
 
-Para eso, desde el root de aplicación, ejecutamos el siguiente comando:
+Para isso, a partir da raiz da aplicação executamos o seguinte comando:
 
 ```sh
 yarn init
 ```
 
-Sigue las instrucciones y completa la información que se te va solicitando.
+Siga as intruções e complete a informação que vai sendo solicitada.
 
-Esto creará un archivo `package.json` que contiene la configuración que acabas
-de detallar.
+Isso criará um arquivo `package.json` que contém a configuração que você acabou de fazer.
 
-Ahora, vamos a instalar una dependencia que nos permita levantar un servidor
-local. Para ello vamos a usar el paquete [`node-static`](https://github.com/cloudhead/node-static)
-y vamos a crear nuestro primer `npm script` (`start`) que se encargue de llamar
-al paquete.
+Agora, vamos instalar uma dependência que permita subir um servidor local. Para tal, utilizaremos o pacote [`node-static`](https://github.com/cloudhead/node-static) e vamos criar nosso primeiro `npm script` (`start`) que será responsável por chamar o pacote.
 
-Entonces, primero instalamos la dependencia con `yarn`.
+Então, instalamos primeiramente a dependência com `yarn`.
 
 ```sh
 yarn add node-static
 ```
 
-Y luego abrimos el archivo `package.json` y agregamos la siguiente propiedad:
+E em seguida abrimos o arquivo `package.json` e adicionamos a seguinte propriedade:
 
 ```json
 {
@@ -63,27 +51,22 @@ Y luego abrimos el archivo `package.json` y agregamos la siguiente propiedad:
 }
 ```
 
-Y por último para levantar tu servidor, solo tienes que ejecutar el siguiente
-comando:
+E por fim para subir seu servidor, você só tem que executar o seguinte comando:
 
 ```sh
 yarn start
 ```
 
-... y visitar la siguiente url: [127.0.0.1:8080](http://127.0.0.1:8080/)
+... e acessar a seguinte url: [127.0.0.1:8080](http://127.0.0.1:8080/)
 
-Aquí unos recursos para entender más sobre el archivo
-[`package.json`](https://docs.npmjs.com/files/package.json) y los
-[`npm scripts`](https://docs.npmjs.com/misc/scripts).
+Aqui há alguns recuros para entender mais sobre o arquivo [`package.json`](https://docs.npmjs.com/files/package.json) e os [`npm scripts`](https://docs.npmjs.com/misc/scripts).
 
-## Ejercicio
+## Exercício
 
-Ahora que ya tienes tu aplicación configurada, extrae todo el código de tu tag
-`script` a su propio archivo `page.js` y referencialo desde tu `html` como
-harías con cualquier `js` externo:
+Agora que você já tem sua aplicação configurada, extraia todo o código de sua tag `script` para um arquivo `page.js` e referencie-o no seu `html` como você faria com qualquer `js` externo:
 
 ```html
 <script type="text/babel" src="page.js" ></script>
 ```
 
-En la próxima lectura vamos a ver cómo se utiliza `babel` en el "mundo real".
+Na próxima leitura veremos como utilizamos `babel` no "mundo real".

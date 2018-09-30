@@ -1,4 +1,4 @@
-# Cierre
+# Encerramento
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,29 +6,25 @@
 
 ***
 
-## Resumen
+## Resumo
 
-En esta unidad hemos visto cómo podemos usar `Babel` para procesar nuestro JSX y
-permitirnos usar todos los últimos features de ES6, y además cómo empaquetar
-nuestras aplicaciones con `Webpack`, facilitando también en el proceso de tener
-que estar transpilando el código mientras desarrollamos, entre otras cosas.
+Nesta unidade vimos como podemos usar `Babel` para processar nosso `JSX` e permitir que sejam usados todas a últimas funcionalidades de ES6, além de empacotar nossas aplicações com `Webpack`, facilitando também o processo de ter o código transpilado enquanto desenvolvemos, entre outras coisas.
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* `Babel` es un transpilador
-* Qué es un transpilador?
-* Funciones "flecha" (arrow functions)
-* Cómo funcionan los siguientes _features_ de ES6?
-  - Asignación "desestructurada" (destructuring):
-  - Operador de propagación (spread operator):
-  - Definiciones abreviadas de Objetos (shorthand properties):
-  - Interpolación de Strings:
-  - Declaración de variables con let y const
-* Cómo usar `yarn init` para inicializar un proyecto de Node.js
-* Cómo usar `yarn add` para añadir dependencias
-* Cómo usar `yarn start` para arrancar tu acplicación
-* Cómo usar `babel-cli` para transpilar tu código fuente
-* `Webpack` es un empaquetador (bundler) de módulos y archivos
-* Cómo configurar `Webpack` para procesar y empaquetar nuestra aplicación
-* Cómo organizar el código fuente y assets de tu aplicación en diferentes
-  carpetas y archivos
+* `Babel` é um transpilador
+* O que é um transpilador?
+* Funções "flecha" (*arrow functions*)
+* Como funcionam as seguintes _features_ de ES6?
+  - Atribuição "desestruturada" (_destructuring_):
+  - Operador de propagação (_spread operator_):
+  - Definições abreviadas de Objetos (_shorthand properties_):
+  - Interpolação de Strings:
+  - Declaração de variáveis com _let_ e _const_
+* Como utilizar `yarn init` para inicializar um projeto de Node.js
+* Como utilizar `yarn add` para adicionar dependências
+* Como utilizar `yarn start` para executar sua aplicação
+* Como utilizar `babel-cli` para transpilar seu código fonte
+* `Webpack` é um empacotador(_bundler_) de módulos e arquivos
+* Como configurar `Webpack` para processar e empacotar nossa aplicação
+* Como organizar o código fonte e _assets_ de sua aplicação em diferentes pastas e arquivos
