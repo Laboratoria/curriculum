@@ -31,7 +31,7 @@ const numbers = [1, 2, 3, 4, 5];
 const listItems = numbers.map(number => (<li>{number}</li>));
 ```
 
-Então incluímos todo o erray `listItems` dentro de um elemento `<ul>` e o renderizamos no `DOM`:
+Então incluímos todo o array `listItems` dentro de um elemento `<ul>` e o renderizamos no `DOM`:
 
 ```js
 ReactDOM.render(
@@ -64,7 +64,7 @@ ReactDOM.render(
 
 Quando você executar esse código, verá que aparecerá uma advertência no console, dizendo que você deveria fornecer uma *key* quando cria uma lista de elementos. Na próxima seção, veremos por que é importante fazê-lo.
 
-Então, atribuímos uma `key` aos item de nossa lista dentro de `props.numbers.map()` e assim eliminamos a mensagem:
+Então, atribuímos uma `key` aos itens de nossa lista dentro de `props.numbers.map()` e assim eliminamos a mensagem:
 
 ```js
 function NumberList(props) {
@@ -134,7 +134,7 @@ Por exemplo, se criarmos um componente `ListItem`, a chave deve ser indicada em 
 function ListItem(props) {
   const value = props.value;
   return (
-    // Errado! aqui não me faz falta alguma a *key*; o elemeno <li> já tem uma identidade
+    // Errado! aqui não me faz falta alguma a *key*; o elemento <li> já tem uma identidade
     <li key={value.toString()}>
       {value}
     </li>

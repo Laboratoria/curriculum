@@ -47,7 +47,7 @@ Este exemplo renderiza diferentes mensagens, dependendo do valor da `prop` `isLo
 
 Como em JavaScript, você pode utilizar variáveis para armazenar uma referência aos seus elementos. Isso pode lhe ajudar a renderizar condicionalmente uma parte do componente, enquanto que o resto se mantém igual.
 
-Considere estes dois componentes que representam os botões de *Login* e *Logout*
+Considere estes dois componentes que representam os botões de *Login* e *Logout*:
 
 ```js
 function LoginButton(props) {
@@ -143,7 +143,7 @@ function Message(props) {
 
 ## Evitar que um componente renderize
 
-Em alguns casos talvez você queira que um componente fique oculto, inclusive se tive sido renderizado por fora. Para conseguir isso a única coisa que precisa é devolver `null`.
+Em alguns casos talvez você queira que um componente fique oculto, inclusive se tiver sido renderizado por fora. Para conseguir isso a única coisa que precisa é devolver `null`.
 
 No exemplo abaixo, `<WarningBanner />` é renderizado dependendo do valor da propriedade chamada `warn`. Se o valor de `warn` é `false`, então o componente não aparecerá na saída.
 

@@ -12,14 +12,14 @@ Somos **Burguer Queen**, uma rede de *fast food* 24h.
 
 ## Requisitos do negócio
 
-Nosso proposta de serviço 24h tem sido muito bem recebida e para expandirmos precisamos de um sistema que nos ajude a registrar os pedidos dos clientes.
+Nossa proposta de serviço 24h tem sido muito bem recebida e para expandirmos precisamos de um sistema que nos ajude a registrar os pedidos dos clientes.
 
 Teremos 2 cardápios: um para o café da manhã, que é bem simples:
 
 | Item                      |Preço |
 |---------------------------|------|
 | Café americano            |    5 |
-| Café con leite            |    7 |
+| Café com leite            |    7 |
 | Misto                     |   10 |
 | Suco natural              |    7 |
 
@@ -78,16 +78,16 @@ Uma vez que tenhamos o sistema básico implementado, gostaríamos de explorar no
 
 ## Requisitos técnicos
 
-Sua "Single page app" deve respeitar os sequintes requisitos:
+Sua "Single page app" deve respeitar os seguintes requisitos:
 
 * Ser desenvolvida inteiramente com `ES6` e empacotada de maneira automatizada com `babel` ou `webpack`.
-* Utilizar `React` e `Redux`
-* Conter pelo menos 10 componentes que especifiquem todas as suas `props`, 3 `reducers` não atômicos (JSON) e 3 `actions`
+* Utilizar `React` e `Redux`.
+* Conter pelo menos 10 componentes que especifiquem todas as suas `props`, 3 `reducers` não atômicos (JSON) e 3 `actions`.
 * Conter scripts `run`, `build` e `deploy`, que se encarreguem de executar, empacotar e publicar a aplicação, respectivamente.
 * Design *responsive* e *mobile*. O cliente usará o sistemas em um **navegador**, mas em **tablets**.
-* Publicar nas Github pages
-* Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub
-* No dia do demo, a aplicação deverá estar publicade em uma URL acessível universalmente
-* Não é necessário implementar rotas
-* Não é necessário implementar persistência
-* Não é necessário implementar conexões remotas
+* Publicar nas Github pages.
+* Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub.
+* No dia do demo, a aplicação deverá estar publicade em uma URL acessível universalmente.
+* Não é necessário implementar rotas.
+* Não é necessário implementar persistência.
+* Não é necessário implementar conexões remotas.

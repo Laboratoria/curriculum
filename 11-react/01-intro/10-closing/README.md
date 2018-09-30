@@ -15,7 +15,7 @@ Vimos como adicionar `React` e `React DOM` em uma página web e, o mais importan
 ## Respondamos juntas às perguntas da abertura
 
 * Qual a diferença entre uma *biblioteca* e um *framework*?
-* O que é o `React`e para que serve?
+* O que é o `React` e para que serve?
 * Por que dizemos que `React` permite definir interfaces de uma maneira "declarativa"?
 * O que é o `Virtual DOM`?
 * Como adicionamos o `React` a uma página web?
@@ -25,4 +25,4 @@ Vimos como adicionar `React` e `React DOM` em uma página web e, o mais importan
 * O que é uma expressão?
 * Como funciona o renderizado condicional?
 * Como manipular listas/coleções no `React`?
-* O que é a `key`nos componentes renderizados dentro de um `map` e por que ela é importante?
+* O que é a `key` nos componentes renderizados dentro de um `map` e por que ela é importante?

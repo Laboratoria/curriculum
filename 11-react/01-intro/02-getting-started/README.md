@@ -41,7 +41,7 @@ Como vimos anteriormente, `React` tem sua própria **cópia inteligente** do `DO
   <h1>Getting Started</h1>
   <h2>Descrição</h2>
   <p>
-    Como integrar react a páginas estáticas existentes
+    Como integrar react a páginas estáticas existentes:
   </p>
   <!-- NOSSO CONTAINER -->
   <div id="react-container">
@@ -50,7 +50,7 @@ Como vimos anteriormente, `React` tem sua própria **cópia inteligente** do `DO
 </body>
 ```
 
-Como com qualquer outra biblioteca (por exemplo, `jQuery`), antes de podermos utilizar `React`, precisamos importá-lo em nossa página. Você pode baixar uma [cópia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) e referenciar localmente os scripts; ou, como nós faremos neste exeplo, você pode ligar diretamente aos arquivos publicados em um CDN, como por exemplo [unpkg](https://unpkg.com).
+Como com qualquer outra biblioteca (por exemplo, `jQuery`), antes de podermos utilizar `React`, precisamos importá-lo em nossa página. Você pode baixar uma [cópia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) e referenciar localmente os scripts; ou, como nós faremos neste exemplo, você pode ligar diretamente aos arquivos publicados em um CDN, como por exemplo [unpkg](https://unpkg.com).
 
 ```html
 <head>
@@ -113,14 +113,14 @@ function Cabecalho() {
     h2(null, titulo),
   );
 
-  // e esse é o resultado de nossa função/componente
+  // e esse é o resultado de nossa função/componente:
   return elemento;
 }
 ```
 
 As funções `div()` e `h2()` estão esperando dois parâmetros:
 
-* O primeiro é um objeto com atributos de configuração HTML (`className`, `src`, `alt`, `href`, etc) e que por enquanto está nulo
+* O primeiro é um objeto com atributos de configuração HTML (`className`, `src`, `alt`, `href`, etc) e que por enquanto está nulo.
 * O segundo está recebendo o conteúdo (`innerHTML`) que será colocado na tag.
 
 Isso é análogo ao seguinte código HTML:
@@ -131,7 +131,7 @@ Isso é análogo ao seguinte código HTML:
 </div>
 ```
 
-E por último, para que o usário possa vê-lo, inserimos o resultado no DOM:
+E por último, para que o usuário possa vê-lo, inserimos o resultado no DOM:
 
 ```js
 ReactDOM.render(
@@ -178,7 +178,7 @@ No numo `React` os parâmetros dos componentes são denominados ***propriedades*
 </body>
 ```
 
-Agora nossa função recebe um parâmetros `props` que é um objeto. Cada chave de `props` é uma propriedade de nosso componente.
+Agora nossa função recebe um parâmetro `props` que é um objeto. Cada chave de `props` é uma propriedade de nosso componente.
 
 Assim como o `DOM` as tags têm *atributos*, em `React` os componentes têm ***propriedades***:
 

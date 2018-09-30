@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `individual`
-- Duración: `15min`
+- Duração: `15min`
 
 ***
 
@@ -18,10 +18,10 @@
 
 #### Opções
 
-1. Uma linguagem de programação
-2. Um _framework_
-3. Uma folha de estilo
-4. Uma biblioteca _open source_ desenvolvida pelo Facebook
+1. Uma linguagem de programação.
+2. Um _framework_.
+3. Uma folha de estilo.
+4. Uma biblioteca _open source_ desenvolvida pelo Facebook.
 
 <solution style="display:none;">4</solution>
 
@@ -29,10 +29,10 @@
 
 #### Opções
 
-1. Uma nova implementação do DOM
-2. Uma estrutura de dados que `React` usa para representar a hierarquia de componentes como uma árvore análoga ao `DOM`
-3. Uma referência ao `DOM` do navegador
-4. Uma ação especial de React que só é executada quando ocorrem mudanças
+1. Uma nova implementação do DOM.
+2. Uma estrutura de dados que `React` usa para representar a hierarquia de componentes como uma árvore análoga ao `DOM`.
+3. Uma referência ao `DOM` do navegador.
+4. Uma ação especial de React que só é executada quando ocorrem mudanças.
 
 <solution style="display:none;">2</solution>
 
@@ -51,9 +51,9 @@
 
 #### Opções
 
-1. Uma linguagem de programação
-2. Uma versão anterior a JavaScript
-3. Uma extensão da linguagem JavaScript
+1. Uma linguagem de programação.
+2. Uma versão anterior a JavaScript.
+3. Uma extensão da linguagem JavaScript.
 
 <solution style="display:none;">3</solution>
 
@@ -61,8 +61,8 @@
 
 #### Opções
 
-1. utiliza sentenças como `if` ou operadores condicionais para determinar quais elementos será incluídos para representar o estado atual.
-2. permite modificar o estado de outros componentes.
-3. utiliza operadores condicionais e atualiza a interface do usuário sem `React`.
+1. Utiliza sentenças como `if` ou operadores condicionais para determinar quais elementos serão incluídos para representar o estado atual.
+2. Permite modificar o estado de outros componentes.
+3. Utiliza operadores condicionais e atualiza a interface do usuário sem `React`.
 
 <solution style="display:none;">1</solution>

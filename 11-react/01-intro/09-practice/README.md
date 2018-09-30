@@ -116,7 +116,7 @@ Suponhamos que administremos uma página web simples que possui a seguinte estru
 </div>
 ```
 
-Após alguns meses, nosso cliente disse que quer atualizar seu sítio web para que seja mais semântica e solicita que a convertamos para esta outra estrutura:
+Após alguns meses, nosso cliente disse que quer atualizar seu sítio web para que seja mais semântico e solicita que o convertamos para esta outra estrutura:
 
 ```html
 <section id="main">

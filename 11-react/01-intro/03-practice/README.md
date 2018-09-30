@@ -6,7 +6,7 @@
 
 ***
 
-Converta a seguinte página HTML em uma página que utilize intgralmente `React` e `ReactDOM`. Este exercício pode ser feito em seu editor favorito ou em um ambiente web como JS Bin ou CodePen.
+Converta a seguinte página HTML em uma página que utilize integralmente `React` e `ReactDOM`. Este exercício pode ser feito em seu editor favorito ou em um ambiente web como JS Bin ou CodePen.
 
 ```html
 <!DOCTYPE html>
