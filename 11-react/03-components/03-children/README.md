@@ -1,4 +1,4 @@
-# Children (componentes hijos)
+# *Children* (componentes filhos)
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,77 +6,58 @@
 
 ***
 
-## Intro
+## Introdução
 
-Si hacemos una analogía entre `React` y `HTML`, podemos decir que las `props`
-de `React` es el mecanísmo análogo que usamos en `HTML` para definir los
-atributos de los tags. Pero ahora bien, ¿qué sucede con las etiquetas anidadas
-dentro de otras etiquetas que teníamos en `HTML`? Para ello existe la propiedad
-especial `children`.
+Se fizermos uma analogia entre `React` e `HTML`, podemos dizer que as `props` de `React` são o mecanismo análogo ao que usamos em `HTML` para definir os atributos das tags. Até agora tudo bem, mas o que acontece com as tags aninhadas dentro de outras tags que temos no `HTML`? Para isso existe a propriedade especial `children`.
 
-`React` tiene un modelo de composición muy poderoso, que nos permite anidar
-`componentes`, como si anidáramos tags `HTML`. La composición es el método
-indicado para reusar al máximo nuestros componentes.
+`React` possui um modelo de composição muito poderoso que permite aninhar `componentes` como se aninhássemos tags `HTML`. A composição é o método indicado para reutilizar ao máximo nosso componentes.
 
-A diferencia de los `children` del `DOM` y como estamos trabajando en el mundo
-`JavaScript`, podemos manipular los *"hijos"* (`children`) de nuestro
-componentes: enviarles nuevas `props` o modificarlas, decidir cuál de ellos
-queremos renderizar y cuáles no y, en general, clonarlos y modificarlos como nos
-de la gana.
+Diferentemente dos `chilren` do `DOM` e como estamos trabalhando no mudno `JavaScript`, podemos manipular os *"filhos"* (`children`) de nosso componente: enviar-lhes novas `props`ou modificá-las, decidir qual deles queremos renderizar ou não e, no geral, cloná-los e modificá-los como quisermos.
 
-## Composición sobre Herencia
+## Composição contra Herança
 
-Si hablamos de reutilización de código a través de composición, un caso muy
-común son por ejemplo un *Sidebar* o un *Diálogo* que representan *cajas*
-genéricas donde el usuario decide qué contenido colocar.
+Se falamos de reutilização de código por meio de composição, um caso muito como por exemplo são um *Sidebar* ou um *Diálogo* que representam *caixas* genéricas na qual o usuário decide qual conteúdo colocar.
 
-A la hora de definir nosotros un componente *contenedor* no sabemos a ciencia
-cierta, qué tipo de *hijos* nos van a enviar el usuario a la hora de usarlo.
+Na nora de definirmos nosso componente *contêiner* não sabemos com certeza que tipo de *filhos* o usuário enviará na hora de usá-lo.
 
-Es en este tipo de casos en el que es recomendado el uso de la propiedad
-especial `children`, donde sabemos que esperamos componentes *hijos*, pero no
-sabemos exactamente cuáles o cómo son.
+É neste tipo de caso em que é recomendado o uso da propriedade especial `children`, no qual sabemos que esperamos componentes *filhos* mas não sabemos exatamente quais como são.
 
-Veamos un ejemplo.
+Vejamos um exemplo:
 
-Tenemos el siguiente componente `ConBorde`
+Temos o seguinte componente `ComBorda`
 
 ```js
-// Componente que agrega un borde del color deseado alrededor de los `children`
-const ConBorde = ({ color, children }) => (
+// Componente que adiciona uma borda da cor desejar ao redor dos `children`
+const ComBorda = ({ color, children }) => (
   <div style={{ border: `solid 3px ${color}`}}>
     {children}
   </div>
 );
 ```
 
-Entonces el siguiente elemento `jsx`
+Então o seguinte elemento `JSX`
 
 ```js
-  <ConBorde color="blue">
-    <h1>Bienvenido</h1>
-    <p>Gracias por la visita</p>
-  </ConBorde>
+  <ComBorda color="blue">
+    <h1>Bem-vinda</h1>
+    <p>Obrigada pela visita</p>
+  </ComBorda>
 ```
 
-produce el siguiente `DOM`
+produz o seguinte `DOM`
 
 ```html
 <div style="border: solid 3px blue">
-  <h1>Bienvenido</h1>
-  <p>Gracias por la visita</p>
+  <h1>Bem-vinda</h1>
+  <p>Obrigada pela visita</p>
 </div>
 ```
 
-### ¿Qué está sucediendo?
+### O que está acontecendo?
 
-Cualquier cosa dentro del tag `jsx` `<ConBorde>` se pasa como parámetro al
-componente a través de la propiedad `children`. En este caso `ConBorde` lo único
-que hace es renderizar los `children` dentro de un `<div>` con un style
-configurado en parte a través de una `prop` `color`.
+Qualquer coisa dentro da tag `JSX` `<ComBorda>` é passado como parâmetros para o componente por meio da propriedade `children`. Nesta caso `ComBorda` só renderiza os `children` dentro de um `<div>` com um estilo configurado por meio de uma `prop` `color`.
 
-En casos donde necesitas diferentes *"huecos"* en un componente, es mejor
-utilizar tu propia convención en lugar de los `children`. Por ejemplo
+No caso em que você necessite de diferentes *"espaços"* em um componente, é melhor utilizar sua própria convenção em lugar dos `children`. Por exemplo:
 
 ```js
 const SplitPane = ({ left, right }) => (
@@ -94,33 +75,28 @@ const App = () => (
 );
 ```
 
-Elementos `React` como `<Contacts />` y `<Chat />` son solo objetos, por lo
-tanto puedes pasarlos como una propiedad, al igual que cualquier otro tipo de
-datos.
+Elementos `React` como `<Contacts />` e `<Chat />` são somente objetos e portanto podem ser passados como uma propriedade, como qualquer outro tipo de dado.
 
-## Cualquier cosa puede ser un *hijo*
+## Qualquer coisa pode ser um *filho*
 
-Podemos pasar **cualquier** expresión válida como `children`, esto incluye por
-supuesto a las funciones.
+Podemos passar **qualquer** expressão válidar como `children`, o que inclui também as funções.
 
-Aquí un ejemplo de un componente que ejecuta un función pasada como parámetro:
+Aqui temos um exemplo de um componente que executa uma função passada como parâmetro:
 
 ```js
-const Evaluador = ({ children }) => {
-  // `children` es una función, simplemente la llamamos
+const Avaliador = ({ children }) => {
+  // `children` é uma função e simplesmente a chamamos
   //             ↓
   return children();
 };
 
-/// y asi lo usaríamos
-<Evaluador>
-  {() => <h1>Hello World!</h1>}
-</Evaluador>
+/// e o usuaríamos assim
+<Avaliador>
+  {() => <h1>Olá, Mundo!</h1>}
+</Avaliador>
 ```
 
-Veamos un ejemplo más interesante con el mismo patrón. Imagínate un componente
-que tiene que extraer información de un servicio externo. Una forma muy elegante
-de hacerlo, sería la siguiente:
+Vejamos um exemplo mais interessante com o mesmo padrão. Imagine um componente que precisa extrair informação de um serviço externo. Uma forma muito elegante de fazê-lo seria a seguinte:
 
 ```js
 <Fetch url="api.example.com">
@@ -128,32 +104,23 @@ de hacerlo, sería la siguiente:
 </Fetch>
 ```
 
-No esperamos que a esta altura tu puedas ser capaz de implementar algo así, lo
-importante es que entiendas que **cualquier cosa** puede ir dentro de
-`children`.
+Não esperamos que a esta altura você seja capaz de implementar algo assim. O importante é que você entenda que **qualquer coisa** pode ir dentro de um `children`.
 
 ## Manipulando `children`
 
-Esta afirmación de que "**cualquier cosa** puede ir dentro de `children`",
-hace que `children` sea una estructura de datos *"opaca"*. Como puede recibir
-cualquier cosa, uno nunca puede asumir nada en relación a la forma que tendrá.
+Esta afirmação de que "**qualquer coisa** pode ir dentro de um `children`" faz com que `children` seja uma estrutura de dados *"opaca"*. Como pode receber qualquer coisa, não podemos assumir nunca nada em relação à forma que terá.
 
-Para poder trabajar con la propiedad `children`, `React` provee un grupo de
-funciones de ayuda para poder hacerlo de una manera "estándar",
-independientemente del tipo final de `children`. Todas ellas son accesibles a
-través de `React.Children`.
+Para poder trabalhar com a propriedae `children`, `React` fornece um grupo de funções de ajudar para poder fazê-lo de uma maneira "padrão", independentemente do tipo final de `children`. Todas elas são acessíveis por meio de `React.Children`.
 
-### Iteración de `children`
+### Iteração de `children`
 
-Las funciones mas "obvias" son `React.Children.map` y `React.Children.forEach`.
-Funcionan exactamente como sus análogas de `Array`, con la diferencia de que
-funcionan con cualquier tipo de datos, no solamente arrays.
+As funções mais "óbvias" são `React.Children.map` e `React.Children.forEach`. Funcionam exatamente como suas análogas de `Array` com a diferença de que funcionam com qualquer tipo de dados, não somente arrays.
 
 ```js
-const IgnorarPrimerHijo = ({ children }) => (
+const IgnorarPrimeiroFilho = ({ children }) => (
   <div>
     {React.Children.map(children, (child, i) => {
-      // Ignoramos el primer hijo
+      // Ignoramos o primeiro filho
       if (i < 1) {
         return;
       }
@@ -162,64 +129,54 @@ const IgnorarPrimerHijo = ({ children }) => (
   </div>
 );
 
-<IgnorarPrimerHijo>
-  <h1>Primero</h1>
+<IgnorarPrimeiroFilho>
+  <h1>Primeiro</h1>
   <h1>Segundo</h1> // <- Solo esto se muestra
-</IgnorarPrimerHijo>
+</IgnorarPrimeiroFilho>
 ```
-
-Fijate que en este caso nosotros podríamos haber usado directamente
-`children.map` ya que hemos recibido un array de nodos, pero si en lugar de eso
-hubiéramos recibido una función, el componente hubiera lanzado un error.
+Observe que, neste caso, poderíamos ter usado diretamente `children.map` já que recebemos um array de nós, mas se no lugar houvéssemos recebido uma função, o componente teria disparado um erro.
 
 ```text
 TypeError: children.map is not a function
 ```
 
-### Contando hijos
+### Contando filhos
 
-Como `children` puede ser de cualquier tipo, chequear cuántos `children` tiene
-nuestro componente, se puede convertir en un problema. Al igual que en el caso
-anterior, con solo llamar a `children.length` no alcanza para garantizar que no
-haya error o el resultado sea el indicado.
+Como `children` pode ser de qualquer tipo, verificar quantos `children` tem nosso componente pode ser um problema. Como no caso anterior, usando somente a chamada `children.length` não consegue garantir que não haja erro ou o resultado seja o esperado.
 
-Por ejemplo si pasamos como `children` el string *"Hello World!"*,
-`children.length` devuelve 12!
+Por exemplo, se passamos como `children` a string *"Olá, Mundo!"*, `children.length` retorna 12!
 
-Por eso es que existe `React.Children.count`:
+Por isso é que existe `React.Children.count`:
 
 ```js
-const ContadorDeHijos = ({ children }) => (
+const ContadorDeFilhos = ({ children }) => (
   <p>{React.Children.count(children)}</p>
 );
 
-// Devuelve la candidad de `children` idenpendientemente el tipo
+// retorna a quantidade de `children` independentemente do tipo
 
 // Renderiza "1"
-<ContadorDeHijos>
-  Uno!
-</ContadorDeHijos>
+<ContadorDeFilhos>
+  Um!
+</ContadorDeFilhos>
 
 // Renderiza "2"
-<ContadorDeHijos>
-  <p>Primero</p>
-  <ComponenteHijo />
-</ContadorDeHijos>
+<ContadorDeFilhos>
+  <p>Primeiro</p>
+  <ComponenteFilho />
+</ContadorDeFilhos>
 
 // Renderiza "3"
-<ContadorDeHijos>
-  {() => <h1>Primero!</h1>}
+<ContadorDeFilhos>
+  {() => <h1>Primeiro!</h1>}
   Segundo!
-  <p>Tercero!</p>
-</ContadorDeHijos>
+  <p>Terceiro!</p>
+</ContadorDeFilhos>
 ```
 
-### Convirtiendo `children` en un auténtico `array`
+### Convertendo `children` em um autêntico `array`
 
-Como último recurso si nada de lo anterior te funciona, siempre existe la opción
-de forzar la transformación de los `children` en un `array` con
-`React.Children.toArray`. De ahí ya puedes utilizar cualquier función o
-estrategia propia de arrays. Esto puede ser útil por ejemplo para ordenarlos:
+Como último recurso se nada do que mostramos funcionar, sempre existe a opção de forçar a transformação dos `children` em um `array` com `React.Children.toArray`. Então você pode utilizar qualquer função ou estratégia própria de arrays. Isso pode ser útil, por exemplo, para ordená-los:
 
 ```js
 const Ordenados = ({ children }) => {
@@ -228,53 +185,42 @@ const Ordenados = ({ children }) => {
 };
 
 <Sort>
-  // Aquí usamos expresiones para garantizarnos
-  // de recibir 3 strings,
-  // en lugar de uno solo con todo concatenado
-  {'naranjas'}
-  {'plátanos'}
-  {'manzanas'}
+  // Aqui usamos expressões para garantir
+  // receber 3 strings,
+  // ao invés de somente uma concatenada
+  {'laranjas'}
+  {'bananas'}
+  {'maçãs'}
 </Sort>
 
 // Renderiza
-// manzanas naranjas plátanos
+// bananas laranjas maçãs 
 ```
 
-## Forzar un único `children`
+## Forçar um único `children`
 
-Analicemos el componente `<Evaluador />` de antes, que espera un sólo `children`
-de tipo función.
+Analizemos o componente `<Avaliador />` anterior que espera somente `children` como tipo de função.
 
 ```js
-const Evaluador = ({ children }) => children();
+const Avaliador = ({ children }) => children();
 ```
 
-Nosotros podemos definir a través de nuestro `propTypes` que esperamos que
-`children` cumpla esas condiciones:
+Nós podemos definir por meio de nossa `propTypes` que esperamos que `children` cumpra essas condições:
 
 ```js
-Evaluador.propTypes = {
+Avaliador.propTypes = {
   children: PropTypes.func.isRequired,
 }
 ```
 
-En el caso de que el desarrollador usando nuestro componente, no cumpla con esa
-condición, el componente intentará de seguir funcionando y solamente aparecerá
-un mensaje de error en la consola, algo que es muy fácil de ignorar. Si para
-nuestro componente es crítico que tenga uno y sólo un `children`, entonces
-usamos `React.Children.only`.
+No caso de um desenvolvedor utilizando nosso componente não cumprir essa condição, o componente tentará seguir funcionando e somente exibirá uma mensagem de erro no console, algo que é muito fácil de ignorar. Se para nosso componente é crítico que tenha somente um `children`, então usamos `React.Children.only`.
 
 ```js
-const Evaluador = ({ children }) => React.Children.only(children)();
+const Avaliador = ({ children }) => React.Children.only(children)();
 ```
 
-Esta función devuelve el único hijo presente en `children`. Si hay más de uno
-lanza un **error** que **bloquea** el ciclo de **renderizado**, una
-advetertencia imposible de ignorar.
+Esta função retorna o único filho presente no `children`. Se houver mais de um, dispara um **error** que **bloqueia** o ciclo de **renderização**, uma advertência impossível de ser ignorada.
 
-## Resumen
+## Resumo
 
-Los `children` hacen que `React` se sienta como un auténtico lenguaje de markup
-y no como un montón de entidades sueltas escritas en `jsx`. Usar las funciones
-de `React.Children` nos permite tomar completo control sobre nuestro componente,
-permitiéndonos crear APIs más declarativas y menos propensas a errores.
+Os `children` fazem que `React` se comporte como uma autêntica linguagem de markup e não como um montão de entidades soltas escritas em `JSX`. Usar as funções de `React.Children` permite ter controle total sobre nosso componente, permitindo criar API's mais declarativas e menos propensas a erros.

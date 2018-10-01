@@ -1,4 +1,4 @@
-# Ejercicios: children
+# Exercício: `children`
 
 * Tipo: `prática`
 * Formato: `individual`
@@ -6,53 +6,45 @@
 
 ***
 
-Implementa composción, a través de `children`, en los componentes que consideres
-necesario del ejemplo que venimos siguiendo. Por ejemplo, imáginemos que tenemos
-un componente `Page` que renderiza un `<div>` con otros componentes dentro. Algo
+Implemente uma composição por meio de `children` nos componentes que você considera necessário no exemplo que vínhamos trabalhando. Por exemplo, imagine que tenhamos um componente `Page` que renderiza un `<div>` com outros componentes dentro. Algo assim:
 así:
 
 ```js
 const Page = ({
   headerTitulo,
-  headerDescripcion,
+  headerDescricao,
   mainSectionTitulo,
   mainSectionArticles,
   asideTitulo,
   asideLinks
 }) => (
   <div style={{ background: 'pink', padding: 20 }}>
-    <Header titulo={headerTitulo} descripcion={headerDescripcion} />
+    <Header titulo={headerTitulo} descricao={headerDescricao} />
     <MainSection titulo={mainSectionTitulo} articles={mainSectionArticles} />
     <Aside titulo={asideTitulo} links={asideLinks} />
   </div>
 );
 ```
 
-Ahora queremos que `Page` puede en realidad mostrar cualquier cosa, no solamente
-la estructura que tenemos de `Header`, `MainSection` y `Aside`. Para ello
-podemos refactorizar el componente en un contenedor que reciba el _contenido_
-dinámicamente como `children`. De esta forma podemos anidar etiquetas JSX de
-forma natural y definir el contenido de `Page` desde afuera (en este ejemplo
-desde un componente llamado `Main`):
-
+Agora queremos que `Page` possa na verdade mostrar qualquer coisa e não somente a estrutura que temos de `Header`, `MainSection` e `Aside`. Para isso podemos refatorar o componente em um contêiner que receba o _conteúdo_ dinamicamente como `children`. Desta forma podemos aninhar tags `JSX` de maneira natural e definir o conteúdo de `Page` de fora (neste exemplo a partir de um componente chamado `Main`):
 ```js
 const Main = ({
   headerTitulo,
-  headerDescripcion,
+  headerDescricao,
   mainSectionTitulo,
   mainSectionArticles,
   asideTitulo,
   asideLinks
 }) => (
   <Page>
-    <Header titulo={headerTitulo} descripcion={headerDescripcion} />
+    <Header titulo={headerTitulo} descricao={headerDescricao} />
     <MainSection titulo={mainSectionTitulo} articles={mainSectionArticles} />
     <Aside titulo={asideTitulo} links={asideLinks} />
   </Page>
 );
 ```
 
-La implementación del componente `Page` quedaría así:
+A implementação do componente `Page` ficaria assim:
 
 ```js
 const Page = ({ children }) => (
@@ -64,9 +56,9 @@ const Page = ({ children }) => (
 
 ***
 
-## Distintos `hijos` con comportamiento similar
+## `Filhos` diferentes com comportamento similar
 
-Desarrolla un componente `Lista` que dado el siguiente código `jsx`
+Desenvolva um componente `Lista` que dado o seguinte código `JSX`
 
 ```html
   <Lista>
@@ -90,40 +82,38 @@ retorne
 
 ***
 
-## Plantilla
+## *Template*
 
-Desarrolla una plantilla que permita crear múltiples `Paginas` distintas que
-compartan un `Header` y un `Footer`, solo definiendo el contenido que es
-diferentes. Por ejemplo:
+Desenvolva um *template* que permita criar múltiplas `Paginas` distintas que compartilhem um `Header` e um `Footer`, somente definindo o conteúdo que é diferente. Por exemplo:
 
 ```html
-<Pagina titulo="Seccion">
+<Pagina titulo="Secao">
   <section>
-    <h3>Titulo de una seccion</h3>
+    <h3>Título de uma seção</h3>
     <p>Lorem...</p>
   </section>
 </Pagina>
 ```
 
-retorna algo parecido a esto
+retorna algo assim
 
 ```html
   <div class="pagina">
     <header>
-      <h1 class="brand">Nombre fijo</h1>
-      <h2 class="titulo">Seccion</h2>
+      <h1 class="brand">Nome fixo</h1>
+      <h2 class="titulo">Seção</h2>
     </header>
     <section>
-      <h3>Titulo de una seccion</h3>
+      <h3>Título de uma seção</h3>
       <p>Lorem...</p>
     </section>
     <footer>
-      <small>Algunos derechos reservados</small>
+      <small>Alguns direitos reservados</small>
     </footer>
   </div>
 ```
 
-Y lo siguiente
+e o seguinte
 
 ```html
 <Pagina titulo="Lista de elementos">
@@ -140,8 +130,8 @@ retorna
 ```html
   <div class="pagina">
     <header>
-      <h1 class="brand">Nombre fijo</h1>
-      <h2 class="titulo">Seccion</h2>
+      <h1 class="brand">Nome fixo</h1>
+      <h2 class="titulo">Seção</h2>
     </header>
     <ul>
       <li>elemento 1</li>
@@ -149,7 +139,7 @@ retorna
       <li>elemento 3</li>
     </ul>
     <footer>
-      <small>Algunos derechos reservados</small>
+      <small>Alguns direitos reservados</small>
     </footer>
   </div>
 ```
