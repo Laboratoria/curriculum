@@ -6,19 +6,17 @@
 
 ***
 
-## Paso 5: Determina cómo reacciona tu state a las actions disparadas
+## Passo 5: Determine como reage seu state com suas ações disparadas
 
-Ya tenemos a las acciones disparándose, ahora analicemos cómo queremos que el
-state se modifique ante cada una de ellas. Como lo establece nuestro principio
-de **Changes are made with pure functions**, vamos a modificar nuestro reducer.
+Já temos as ações sendo disparadas e agora analisemos como queremos que o `state` seja modificado a cada uma delas. Como estabelece nosso princípio de **Changes are made with pure functions**, vamos modificar nosso `reducer`.
 
 ```js
 // lib/reducer.js
 
-// importamos los `actionTypes` que definimos en el paso anterior
+// importamos as `actionTypes` que definimos no passo anterior
 import { actionTypes } from './actions'
 
-// Supongamos que estos son los productos que recibimos de nuestra API JSON
+// Suponhamos que estes são os produtos que recebemos de nossa API JSON
 const PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
   {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -28,7 +26,7 @@ const PRODUCTS = [
   {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'}
 ];
 
-// El state inicial
+// O state inicial
 const INIT_STATE = {
   originalProducts: PRODUCTS,
   filterText: '',
@@ -44,56 +42,55 @@ const INIT_STATE = {
   ]
 }
 
-// nuestro reducer
+// nosso reducer
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
-    // Si el action es `FILTER_TEXT_CHANGED`
+    // Se a ação é  `FILTER_TEXT_CHANGED`
     case actionTypes.FILTER_TEXT_CHANGED:
       state = {
         ...state,
-        // actualizamos `filterText` en el state con el `text` del action
+        // atualizamos `filterText` no state com o `text` da ação
         filterText: action.text
       }
       break;
-    // Si el action es `IN_STOCK_ONLY_CHANGED`
+    // Se a ação é `IN_STOCK_ONLY_CHANGED`
     case actionTypes.IN_STOCK_ONLY_CHANGED:
       state = {
         ...state,
-        // actualizamos `inStockOnly` en el state con el `value` del action
+        // atualizamos `inStockOnly` no state  com o `value` da ação
         inStockOnly: action.value
       }
       break;
   }
 
-  // Y que sucede con los `filteredProducts`?
-  // `filteredProducts` se actualiza cuando cualquiera de las dos acciones
-  // es ejecutada
+  // E o que acontece com os `filteredProducts`?
+  // `filteredProducts` é atualizado com qualquer das ações é executada
   if (
     action.type === actionTypes.FILTER_TEXT_CHANGED ||
     action.type === actionTypes.IN_STOCK_ONLY_CHANGED
   ) {
     const filteredProducts = state.originalProducts.filter(p => {
       const filterText =
-        // si el action es `FILTER_TEXT_CHANGED`
+        // se a ação é `FILTER_TEXT_CHANGED`
         (action.type === actionTypes.FILTER_TEXT_CHANGED ?
-          // usamos el `text` del action
+          // usamos o `text` da ação
           action.text :
           // si no usamos el `filterText` del `state`
           state.filterText).trim()
       const inStockOnly =
-        // si el action es `IN_STOCK_ONLY_CHANGED`
+        // se a ação é `IN_STOCK_ONLY_CHANGED`
         action.type === actionTypes.IN_STOCK_ONLY_CHANGED ?
-          // usamos el `value` del action
+          // usamos o `value` da ação
           action.value :
-          // si no usamos el `inStockOnly` del `state`
+          // se não usamos o `inStockOnly` do `state`
           state.inStockOnly
 
-      // el producto `p` va a la lista de `filteredProducts` si:
+      // o produto `p` vai para a lista de `filteredProducts` se:
       return (
-        // el checkbox esta prendido y `p.stocked === true`
-        // si el checkbox esta apagado siempre true
+        // o checkbox está marcado e `p.stocked === true`
+        // se o checkbox está marcado
         (inStockOnly ? p.stocked : true) &&
-        // y el `p.name` matchea `filterText` case insensitive
+        // e o `p.name` casa com o `filterText` case insensitive
         p.name.match(new RegExp(filterText, 'ig'))
       )
     })
@@ -104,9 +101,9 @@ export default (state = INIT_STATE, action) => {
     }
   }
 
-  // Siempre, siempre, siempre, un reducer debe retornar un `state`.
-  // En el caso que no reaccione al `action` actual, debe explícitamente
-  // devolver el `state` anterior
+  // Sempre, sempre, sempre, um reducer deve retornar um `state`.
+  // No caso que não reaja à `action` atual, deve explicitamente
+  // devolver o `state` anterior
   return state
 }
 
@@ -114,7 +111,7 @@ export default (state = INIT_STATE, action) => {
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
-* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Thinking in React - Documentação oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentação oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

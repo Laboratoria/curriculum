@@ -1,4 +1,4 @@
-# Ejercicios: propTypes y defaultProps
+# Exercícios: propTypes e defaultProps
 
 * Tipo: `prática`
 * Formato: `individual`
@@ -6,67 +6,60 @@
 
 ***
 
-Define los `propTypes` y `defaultProps` para los componentes declarados en los
-ejercicios de las unidades anteriores así como tu proyecto final.
+Defina os  `propTypes` e `defaultProps` para os componentes declarados nos exercícios das unidades anteriores como também de seu projeto final.
 
-En la unidad anterior probablemente hayas terminado con varios componentes, algo
-como: `Article`, `Aside`, `AsideLink`, `Header`, `MainSection` y `Page`. Si, por
-ejemplo, la implementación de `Article` es:
+Na unidade anterior, provavelmente você terminou com vários componentes como: `Article`, `Aside`, `AsideLink`, `Header`, `MainSection` e `Page`. Se, por exemplo, a implementação de `Article` é:
 
 ```js
-const Article = ({ titulo, descripcion }) => (
+const Article = ({ titulo, descricao }) => (
   <article>
     <h3>{titulo}</h3>
-    {descripcion && (<p>{descripcion}</p>)}
+    {descricao && (<p>{descricao}</p>)}
     <hr />
   </article>
 );
 ```
 
-Entonces deberíamos añadir los siguientes `propTypes` y `defaultProps`:
+Então deveríamos adicionar as seguintes `propTypes` e `defaultProps`:
 
 ```js
 Article.propTypes = {
   titulo: PropTypes.string.isRequired,
-  descripcion: PropTypes.string,
+  descricao: PropTypes.string,
 };
 
 Article.defaultProps = {
-  descripcion: '',
+  descricao: '',
 };
 ```
 
-Una vez que hayas implementado `propTypes` y `defaultProps` comprueba que
-efectivamente recibimos los _warnings_ esperados en la consola del navegador
-cuando nuestros componentes reciben props de tipos inesperados, o cuando no
-reciben props que esperaban recibir.
+Assim que você implementar `propTypes` e `defaultProps`, teste se de fato estamos recebendo os _warnings_ esperados no console do navegador quando nossos componentes recebem `props` de tipos inesperados ou quando não recebem `props` que esperavam receber.
 
 ***
 
-Define los `PropTypes` para los siguientes tipos de `props`
+Defina as `propTypes` para os seguintes tipos de `props`
 
-* Cualquier tipo
-* `String` o `boolean`
-* Una fecha
-* Un elemento `JSX`
-* Alguno de estos tres valores: `'manzanas'`, `'naranjas'`, `'plátanos'` o la
-  siguiente forma `{ otro: '[cualquier otra fruta]' }`
-* una lista de `items` con identificadores únicos:
+* Qualquer tipo
+* `String` ou `boolean`
+* Uma data
+* Um elemento `JSX`
+* Algum destes três valores: `'maçãs'`, `'laranjas'`, `'bananas'` ou a seguinte forma: `{ outro: '[qualquer outra fruta]' }`
+* uma lista de `items` com identificadores únicos:
   ```js
-  // valor valido
+  // valor válido
   const items = [
-    { id: 'id-1', texto: 'Un texto' },
-    { id: 'id-2', texto: 'Otro texto' },
-    // el texto puede repetirse
-    { id: 'id-3', texto: 'Otro texto' },
+    { id: 'id-1', texto: 'Um texto' },
+    { id: 'id-2', texto: 'Outro texto' },
+    // o texto pode ser repetido
+    { id: 'id-3', texto: 'Outro texto' },
   ]
 
   // valor inválido
   const items = [
-    { id: 'id-1', texto: 'Un texto' },
-    { id: 'id-2', texto: 'Otro texto' },
+    { id: 'id-1', texto: 'Um texto' },
+    { id: 'id-2', texto: 'Outro texto' },
     // id repetido
     //      ↓
-    { id: 'id-2', texto: 'Otro texto' },
+    { id: 'id-2', texto: 'Outro texto' },
   ]
   ```

@@ -6,28 +6,20 @@
 
 ***
 
-## Paso 4: Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
+## Passo 4: Identifique suas ações e agregue _Inverse Data Flow_ (_**State is read-only**_)
 
-Hasta ahora, tenemos una aplicación que configura su store de Redux, toma esos
-valores y los pasa a la interfaz para renderizarlo. Ahora necesitamos conseguir
-que la información fluya en la otra dirección: de los componentes al state. Como
-habíamos definido al comienzo, en el mundo de Redux, la única forma de
-conseguirlo es a través de actions.
+Até agora, temos uma aplicação que configura sua _store_ de `Redux`, recebe esses valores e os transfere para a interface para renderização. Agora necessitamos conseguir que a informação flua na outra direção: dos componentes para o `state`. Como havíamos definido no começo, no mundo do `Redux` a única forma de conseguir é por meio de _actions_.
 
-Asi como en nuestro state inicial, definimos los "sustantivos" de nuestra
-aplicación, las actions son nuestros "verbos".
+Assim como em nosso `state` inicial, definimos os "substantivos" de nossa aplicação, as _actions_ são nossos "verbos".
 
-Entonces, ¿cuáles son las acciones que un usuario puede realizar en nuestra
-aplicación?
+Então, quais são as ações que um usuário pode realizar em nossa aplicação?
 
-* escribir en el input
-* seleccionar o limpiar el checkbox
+* escrever o input
+* selecionar ou limpar o checkbox
 
-Tomemos estas acciones y veamos como las definimos en Redux.
+Tomemos estas ações e vejamos como as definimos no `Redux`.
 
-Lo primero que vamos a necesitar, es una archivo `lib/actions.js` donde
-definiremos nuestros `action types` y `action creators` (funciones que devuelven
-acciones).
+A primeira coisa que vamos precisar é de um arquivo `lib/actions.js` no qual definiremos nossos `action types` e `action creators` (funções que retornam funções).
 
 ```js
 export const actionTypes = {
@@ -46,15 +38,9 @@ export const inStockOnlyChanged = value => ({
 })
 ```
 
-Y luego necesitamos dotar a `SearchBar` de la capacidad para disparar estas
-acciones. Para eso, vamos a crear un nuevo HOC `SearchBarWithRedux`.
+E em seguida precisamos fazer a `SearchBar` disparar essas ações. Para isso, criaremos um novo _HOC_ `SearchBarWithRedux`.
 
-> Nosotros podríamos crear un container que englobea todo el
-> `FilterableProductTable`, pero hemos elegido hacerlo en `SearchBar` porque es
-> el mínimo componente que recibe interacciones del usuario. A qué nivel tu
-> defines tus contenedores es totalmente arbitrario y suele ser uno de los
-> puntos más complicados si eres nuevx con HOCs y Redux. Como regla general
-> considera cuál es el mínimo componente que es "dueño" del contexto.
+> Nós poderíamos criar um contêiner que englobasse todo o `FilterableProductTable`, mas escolhemos fazê-lo no `SearchBar` porque é o menor componente que recebe interação do usuário. O nível que você define seus contêineres é totalmente arbitrário e normalmente é um dos pontos mais complicados se você for novata com _HOCs_ e `Redux`. Como regra geral, considere qual é o menor componente que é "dono" do contexto.
 
 ```js
 // lib/FilterableProductTable/SearchBar
@@ -64,25 +50,25 @@ import { filterTextChanged, inStockOnlyChanged } from '../actions'
 
 const SearchBarWithRedux = connect(
   function mapStateToProps(state) {
-    // buscamos los valores que nos interesan para el SearchBar
-    // fíjate que el SearchBar no tiene por qué saber nada de los productos
+    // buscamos os valores que nos interessam para a SearchBar
+    // observe que a SearchBar não tem porque saber nada dos produtos
     const {
       filterText,
       inStockOnly
     } = state.AppReducer
 
-    // y devolvemos las nuevas props
+    // e devolvemos as novas props
     return {
       filterText,
       inStockOnly
     }
   },
-  // El segundo parámetro de `connect` es `mapDispatchToProps`.
-  // El el mundo Redux al llamar a un `action creator` lo único que obtenemos
-  // es un objeto que expresa que es lo que ha sucedido, pero no dispara la acción.
-  // Para esto necesitas llamar a la función `dispatch` del store.
-  // Esto es lo que hace `mapDispatchToProps` mapea llamadas a `dispatch` para
-  // tus `action creators`
+  // O segundo parâmetro de `connect` é `mapDispatchToProps`.
+  // No mundo `Redux` ao chamar um 'criador de ação' a única coisa que conseguimos é
+  // um objeto que representa que teve sucesso, mas não dispara a ação.
+  // Para isso precisa chamar a função `dispatch` do `store`.
+  // Isso pe que o o `mapDispatchToProps` faz, mapeando chamadas de `dispatch` para
+  // seus `action creators`
   function mapDispatchToProps(dispatch) {
     return {
       setFilterText(newFilterText) {
@@ -98,11 +84,9 @@ const SearchBarWithRedux = connect(
 export default SearchBarWithRedux
 ```
 
-Modificamos `FilterableProductTable` para que en lugar de usar el componente
-`SearchBar` utilice el contenedor `SearchBarWithRedux`.
+Modificamos `FilterableProductTable` para que ao invés de usar o componente `SearchBar` utilize o conteúdo `SearchBarWithRedux`.
 
-Y ahora si, hacemos que nuestro componente `SearchBar` entienda todas estas
-nuevas capacidades:
+E agora sim, fazemos com que nosso componente `SearchBar` entenda todas esta novas capacidades:
 
 ```js
 // lib/components/SearchBar
@@ -110,9 +94,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const SearchBar = ({
-  // Los datos que necesita nuestro SearchBar
+  // Os dados de que nossa SearchBar precisam
   filterText, inStockOnly,
-  // Las acciones que puede realizar
+  // As ações que pode realizar
   setFilterText, setInStockOnly
 }) => {
   return (
@@ -145,20 +129,16 @@ SearchBar.propTypes = {
   setFilterText: PropTypes.func.isRequired,
   setInStockOnly: PropTypes.func.isRequired
 }
-// Cuando los componentes son "controlados" por un contenedor, el valor por defecto
-// de las props, es determinado por el state, es por eso
-// que suele ser buena práctica establecer todas tus props como required
+// Qual os componentes são "controlados" por um contêiner, o valor por padrão das `props` é determinado pelo state e é por sso que normalmente é uma boa prática estabelecer todas suas props obrigatórias
 
 export default SearchBar
 ```
 
-> Ve a tu navegador y usa el checkbox y escribe en el input. Fijate que en tu
-> interfaz nada cambia, pero si ves dentro de Redux Dev Tools, verás cómo las
-> acciones se van disparando
+> Vá ao seu navegador, use o checkbox e escreva no input. Observe que em sua interface nada muda, mas dentro se você vir pelo Redux Dev Tools, verá como as ações vão sendo disparados.
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
-* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Thinking in React - Documentação oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentação oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
