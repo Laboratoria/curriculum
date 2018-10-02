@@ -1,4 +1,4 @@
-# Build & deploy
+# _Build_ & _deploy_
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,11 +6,9 @@
 
 ***
 
-## Build
+## _Build_
 
-1 - Así como creamos un `webpack.config.js` para nuestro entorno de
-*desarrollo*, crearemos nuestro `webpack.config.prod.js` para nuestro entorno
-de *producción*.
+1 - Assim como criamos um `webpack.config.js` para nosso ambiente de *desenvolvimento*, criaremos nosso `webpack.config.prod.js` para nosso ambiente de *produção*.
 
 ```js
 const { resolve } = require('path');
@@ -18,16 +16,16 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-  // ahora el entry es exclusivamente al archivo principal
+  // agora a entrada é exclusivamente o arquivo principal
   entry: [
     './main.js'
   ],
 
-  // el contexto se mantiene igual
+  // o contexto se mantém o mesmo
   context: resolve(__dirname, 'src'),
 
-  // establecemos a qué carpeta y con qué nombre de archivo se creará nuestro
-  // `bundle`; en nuestro caso `./dist/bundle.js`
+  // estabelecemos qual pasta e qual nome de arquivos se criará nosso
+  // `bundle`; em nosso caso, `./dist/bundle.js`
   output: {
     filename: 'bundle.js',
     path: resolve(__dirname, 'dist'), // `dist` de "distribution"
@@ -35,26 +33,26 @@ const config = {
   },
 
   plugins: [
-    // concatena los modulos importados
+    // concatena os módulos importados
     new webpack.optimize.ModuleConcatenationPlugin(),
-    // inyecta el codigo dentro del `index.html`
+    // injeta o código no `index.html`
     new HtmlWebpackPlugin({
       template: `${__dirname}/src/index.html`,
       filename: 'index.html',
       inject: 'body'
     }),
-    // optimizacion 1
+    // otimização 1
     new webpack.optimize.OccurrenceOrderPlugin(),
-    // optimizacion 2
+    // otimização 2
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false,
     }),
-    // optimizacion 3
+    // otimização 3
     new webpack.optimize.UglifyJsPlugin({
       beautify: false
     }),
-    // definimos variable global de **entorno de producción**
+    // definimos a variável global de **ambiente de produção**
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify('production')
@@ -62,7 +60,7 @@ const config = {
     })
   ],
 
-  // las reglas siguen siendo las mismas
+  // as regras continuam sendo as mesmas
   module: {
     rules: [
       {
@@ -86,8 +84,7 @@ const config = {
 module.exports = config;
 ```
 
-2 - Crearemos un `npm script` con el nombre `build` dentro de `package.json` que
-se encargue de ejecutar `webpack` con la configuración del punto anterior.
+2 - Criaremos um `npm script` com o nome `build` dentro de `package.json` que ficará encarregado de executar o `webpack` com a configuração do ponto anterior.
 
 ```js
 // package.json
@@ -97,21 +94,13 @@ se encargue de ejecutar `webpack` con la configuración del punto anterior.
 }
 ```
 
-¿Qué hacen esos parámetros de `progress`, `profile` y `colors`? Para no quedarte
-con dudas te recomendamos que eches un vistazo a la [documentación oficial de la
-herramienta de línea de comando (CLI) de `webpack`](https://webpack.js.org/api/cli/).
+O que fazem esses parâmetros de `progress`, `profile` e `colors`? Para você não ficar com dúvidas recomendamos que faça uma consulta à [documentação oficial da ferramenta de linha de comando (CLI) do `webpack`](https://webpack.js.org/api/cli/).
 
-## Deploy
+## _Deploy_
 
-3 - Instalaremos un [módulo](https://github.com/tschaub/gh-pages) que nos
-permite desplegar fácilmente a `gh-pages` (`yarn add -D gh-pages`). Gihub
-pages publicará en una url de la siguiente forma
-`http://username.github.io/repo-name` el contenido que se encuentre en el
-branch `gh-pages` de nuestro repo
+3 - Instalaremos um [módulo](https://github.com/tschaub/gh-pages) que permite implantar facilmente nas `gh-pages` (`yarn add -D gh-pages`). GiHub pages publicará uma URL com a seguinte estrutura`http://username.github.io/repo-name` com o conteúdo que estiver no `branch` `gh-pages` de nosso repositório.
 
-4 - Crearemos un `npm script` con el nombre `deploy` que primero ejecute `build`
-y luego publique el contenido de la  carpeta `dist`, usando el módulo
-`gh-pages`.
+4 -  Criaremos um `npm script` com o nome `deploy` que primeiro executa `build` e em seguida publique o conteúdo da pasta `dist`, usando o módulo `gh-pages`.
 
 ```js
 // package.json
@@ -122,14 +111,10 @@ y luego publique el contenido de la  carpeta `dist`, usando el módulo
 }
 ```
 
-Ejecuta `yarn deploy` y chequea los resultados en github.
+Execute `yarn deploy` e verifique os resultados no GitHub.
 
 ***
 
 **NOTA**:
 
-El proceso de desarrollo es un ciclo constante de desarrollo, prueba,
-empaquetado y despliegue. Encapsular estos pasos con scripts para `start`,
-`build` y `deploy`, no sólo contribute a nuestra DX, sino que además permite
-automatizar los procesos de `empaquetado` y `despliegue` para llegar a lo que se
-llama en la industria como ***[delivery continuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.
+O processo de desenvolvimento é um ciclo constante de desenvolvimento, teste, empacotamento e implantação. Encapsular esses passos com scripts para `start`, `build` e `deploy` não só contribui com nossa DX como também permite automatizar os processos de `empacotamento` e `implantação` para chegar aos que a indústria chama de ***[delivery continuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.

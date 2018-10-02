@@ -1,4 +1,4 @@
-# Cierre
+# Encerramento
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,23 +6,17 @@
 
 ***
 
-## Resumen
+## Resumo
 
-En esta unidad hemos introducido la implementación de componentes como clases,
-lo cual nos brinda una nueva gama de posibilidades para casos que no podemos
-resolver fácilmente con componentes implementados como funciones.
+Nesta unidade introduzimos a implementação de componentes como classes, a qual nos fornece uma nova gama de possibilidades para casos que não podemos resolver facilmente utilizando componentes implementados como funções.
 
-Hemos explorado el concepto y uso de estado interno de los componentes, el ciclo
-de vida (_life cycle_) de los componentes y cómo ejecutar código arbitrario al
-dispararse cualquiera de los eventos de este ciclo de vida, y finalmente vimos
-cómo hacer referencia a nodos producidos por nuestro componente.
+Exploramos o conceito e uso de estado interno dos componentes, o ciclo de vida (_life cycle_) dos componentes e como executar código específico ao disparar qualquer dos eventos do ciclo de vida. Finalmente, vimos como fazer referência aos nós produzidos por nosso componente.
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Cómo implementar un componente como clase (`class`)?
-* Diferencias entre estado global o externo y estado interno
-* Cuál es el _ciclo de vida_ de un coponente?
-* Cómo _interceptar_ eventos del ciclo de vida para ejecutar código arbitrario?
-* Qué es y cómo funciona la propiedad especial `ref` en nodos renderizados por
-  un componente _statefull_?
-* Cuándo usar referencias (refs)?
+* Como implementar um componente como classe (`class`)?
+* Diferenças entre o estado global ou externo e estado interno
+* Qual é o _ciclo de vida_ de um componente?
+* Como _interceptar_ eventos do ciclo de vira para executar código específico?
+* O que é e como funciona a propriedade especial `ref` nos nós renderizados por um componente _statefull_?
+* Quando usar referências (`refs`)?

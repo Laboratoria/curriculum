@@ -1,4 +1,4 @@
-# Ciclo de desarrollo de software
+# Ciclo de desenvolvimento de software
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,21 +6,16 @@
 
 ***
 
-Si simplificamos al mínimo el proceso de desarrollo de software, podríamos
-establecer 3 etapas básicas: **desarrollo**, **empaquetado** y **despliegue**.
+Se simplificarmos ao mínimo o processo de desenvolvimento de software, poderíamos estabelecer 3 etapas básicas: **desenvolvimento**, **empacotamento** e **implantação**.
 
-## Desarrollo
+## Desenvolvimento
 
-Durante esta etapa creamos el producto que tenemos en mente (o iteramos sobre
-él). Para ese fin, es importante contar con herramientas que nos permitan
-**reconocer rápidamente un error** e **identificar dónde ocurre** para poder
-corregirlo, que nos permitan obtener feedback de nuestros cambios tan rápido
-como sea posible.
+Durante esta etapa criamos o produto que que temos em mente (ou iteramos sobre ele). Para esse fim, é importante contar com ferramentas que permitam **reconhecer rapidamente um erro** e **identificar onde ele ocorre** para podermos corrigi-lo e que permitam obter um _feedback_ de nossas alterações tão rápido quanto possível.
 
-Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
+Por exemplo, em nossa aplicação, configuramos o `webpack`para que:
 
-1. abra un navegador cuando el código sea "compilado" por primera vez
-2. refresque el contenido cada vez que realizamos un cambio.
+1. abra um navegador quando o código seja "compilado" pela primeira vez
+2. atualize o conteúdo cada vez que realizamos uma alteração.
 
 ***
 
@@ -28,54 +23,37 @@ Por ejemplo, en nuestra app, hemos configurado a `webpack` para que:
 
 `webpack`
 
-* nos avisa cuando el contenido esta disponible (en lugar de presionar F5
-  hasta que la página esté disponible)
-* ahorra el paso extra de refrescar manualmente el navegador para comprobar un
-  cambio
-* modifica el DOM con los cambios sin ni siquiera refrescar la página.
+* notifica quando o conteúdo está disponível (ao invés de pressionar F5 até que a página esteja disponível)
+* evita a etapa extra de atualizar manualmente o navegador para verificar a alteração
+* modifica o `DOM` com as alterações sem sequer atualizar a página.
 
-Estos pequeños ahorros de "tiempos muertos" repercuten en una experiencia de
-desarrollo (DX) mucho mas fluída.
+Estas pequenas economias de "tempos perdidos" refletem em uma experiência de desenvolvimento (DX) muito mais dinâmica.
 
 ***
 
-## Empaquetado
+## Empacotamento
 
-Durante la etapa de desarrollo cuando ejecutamos nuestra aplicación necesitamos
-mucha información, y mucha de ella es agregada exclusivamente con esos fines.
+Durante a etapa de desenvolvimento, quando executamos nossa aplicação,  precisamos de muita informação e muitas delas são adicionadas exclusivamente com esses fins.
 
-Pero cuando queremos empaquetar nuestra aplicación para publicarla al mundo,
-necesitamos que sea tan **pequeña** como sea posible y que se ejecute lo más
-**rápido** posible.
+Mas quando queremos empacotar nossa aplicação para publicá-la ao mundo, precisamos que seja tão **pequena** quanto possível e que seja executada o mais **rápido** possível.
 
-En este escenario, decimos que nuestra aplicación debe estar **optimizada**
-para un entorno de *producción*.
+Neste cenário, dizemos que nossa aplicação deve estar **otimizada** para um ambiente de *produção*.
 
-Estos procesos de *empaquetado* (`bundling`) puede tener infinidad de pasos,
-algunos comunes:
+Estes processos de *empacotamento* (`bundling`) pode possuir uma infinidade de passos. Alguns que são comuns:
 
-* concatenar, *minificar* y *uglifycar* todo el codigo de un mismo tipo en un
-  solo archivo
-* optimizar imágenes, audio y video
-* crear sprites o versiones *retina* y *standard* para las iḿágenes de fondo
-* ... infinidad de cosas mas
+* concatenar, *minimizar* e *enfeiar* todo o código de un mesmo tipo em um só arquivo
+* otimizar imagens, áudio e vídeo
+* criar *sprites* ou versões *retina* e *standard* das imagens de fundo
+* ... uma infinidade de outras coisas
 
-## Despliegue (`deployment`)
+## Implantação (`deployment`)
 
-Pero nada de todo lo que hemos realizado hasta aquí tiene sentido, si no se lo
-podemos mostrar al mundo (o por lo menos a nuestrxs amigxs).
+Mas nada de tudo que fizemos até aqui tem sentido se não podermos mostrar o que fizemos ao mundo (ou pelo menos a nossas amigas).
 
-Una vez que tenemos nuestro *bundle* tenemos que decidir dónde lo publicamos.
-Existen *millones de alternativas*, para *millones de tecnologías*, **tanto de
-pago como gratuitas**.
+Uma vez que temos nosso *bundle* temos que decidir onde publicá-lo. Existem *milhões de alternativas*, para *milhares de tecnologias*, **tanto pagas quanto gratuitas**.
 
-Como nosotros sólo necesitamos desplegar recursos estáticos, usaremos
-[Github Pages](https://pages.github.com/). Github Pages (`gh-pages`) te
-permite publicar contenido web asociado a tus proyectos.
+Como nós só precisamos implantar recursos estáticos, usaremos as [Github Pages](https://pages.github.com/). Github Pages (`gh-pages`) permitem publicar conteúdo web associado a seus projetos.
 
 ***
 
-Ya contamos con la configuración para nuestro proceso de **desarrollo** en
-`webpack.config.js`, en el resto de las lecturas de esta unidad, veremos cómo
-usar `webpack`, `npm scripts` y `gh-pages` para **empaquetar** y **desplegar**
-nuestra aplicación.
+Já temos a configuração para nosso processo de **desenvolvimento** no `webpack.config.js`. Nas demais leituras desta unidade, veremos como usar `webpack`, `npm-scripts` e `gh-pages` para **empacotar** e **implantar** nossa aplicação.

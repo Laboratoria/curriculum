@@ -1,4 +1,4 @@
-# Referencias
+# Referências
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,39 +6,29 @@
 
 ***
 
-En el flujo estándar de `React`, las `props` son la única forma que tienen los
-componentes padre, de interactuar con sus `children`. Si quieres modificar un
-nodo hijo, lo re-renderizas con nuevas `props` y listo.
+No fluxo padrão do `React`, as `props` são a única forma que possuem os componentes pai para interagir com seus `children`. Se você quiser modificar um nó filho, você o renderiza com novas `props` e pronto.
 
-Sin embargo, hay ciertas situaciones en las que necesitas poder modificar un
-nodo hijo de manera imperativa. El nodo a modificar puede ser tanto una
-instancia de un componente definido como clase, como un elemento del DOM.
+Contudo, existem certas situações nas quais você precisa poder modificar um nó filho de maneira imperativa. O nó a ser modificado pode ser tanto uma instância de um componente definido como classe como um elemento `DOM`.
 
-## Cuándo usar referencias?
+## Quando utilizar referências?
 
-Hay un par de casos de uso válidos para usar refs:
+Existem alguns casos de uso válidos para utilização de `refs`:
 
-* Manejar el foco, la selección de texto, o la reproducción de contenido
-  multimedia.
-* Disparar animaciones imperativas.
-* Integrarnos con librerías externas.
+* Manipular o foco, a seleção de texto ou a reprodução de conteúdo multimídia.
+* Disparar animações imperativas.
+* Integrar com bibliotecas externas.
 
 > NOTA:
 >
-> Evita usar refs para cualquier cosa que puedas hacer de manera declarativa.
+> Evite utilizar `refs` para qualquer coisa que você possa fazer de maneira declarativa.
 >
-> Por ejemplo, si tienes un componente `Dialogo` en lugar de exponer métodos
-> `abrir()` y `cerrar()`, pásale una `prop` booleana `abierto`.
+> Por exemplo, se você tiver um componente `Dialogo` no lugar de expor os métodos `abrir()` e `fechar()`, informe uma `prop` booleana `aberto`.
 
-## Agregar una referencia a un elemento del DOM
+## Adicionar uma referência a um elemento DOM
 
-`React` soporta un atributo especial que puede ser asignado a cualquier
-componente implementado como clase: `ref`. El atributo `ref` recibe una función
-callback, la cual se ejecutará inmediatamente después de que el componente se
-monte o desmonte.
+`React` prevê suporte para um atributo especial que pode ser atribuído a qualquer componente implementado como classe: `ref`. O Atributo `ref` recebe uma função _callback_, a qual será executada imediatamente depois do componente seja desmontado.
 
-Cuando el atributo `ref` es usado en un elemento HTML, la función callback
-recibe el elemento DOM como argumento:
+Quando o atributo `ref` é utilizado em um elemento `HTML`, a função _callback_ receber o elemento `DOM` como argumento:
 
 ```js
 class CustomTextInput extends React.Component {
@@ -48,13 +38,13 @@ class CustomTextInput extends React.Component {
   }
 
   focus() {
-    // Explicitamente hacemos focos en el input a través de la API de DOM
+    // Explicitamente damos o foco no input por meio da API do DOM
     this.textInput.focus();
   }
 
   render() {
-    // Usamos `ref` para capturar la referencia al elemnto input del DOM
-    // en un campo de esta instancia de `CustomTextInput`
+    // Usamos `ref` para capturar a referência ao elemento input do DOM
+    // em um campo desta instância de `CustomTextInput`
     return (
       <div>
         <input
@@ -71,16 +61,11 @@ class CustomTextInput extends React.Component {
 }
 ```
 
-`React` se encargará de ejecutar el callback con el elemento DOM correspondiente
-cuando el componente se monte, y lo reemplazará por `null` cuando se desmonte.
+O `React` será encarregado de executar o callback com o elemento DOM correspondente quando o componente for montado e o substituirá quando for desmontado.
 
-## Agregando una referencia a un componente `statefull`
+## Adicionando uma referência a um componente `statefull`
 
-Cuando usamos `ref` en un componente declarado con una clase, el callback recibe
-como argumento la instancia montada del componente. Por ejemplo, si queremos
-hacer autofocus en el componente `CustomTextInput`, podemos renderizarlo dentro
-de un componente padre, que ejecute el método `CustomTextInput.focus()` cuando
-se monte:
+Quando utilizamos `ref` em um componente declarado como uma classe, o _callback_ recebe como argumento a instância montada do componente. Por exemplo, se quisermos dar o foco no componente `CustomTextInput`, podemos renderizá-lo dentro de um componente pai que execute o método `CustomTextInput.focus()` quando for montado:
 
 ```js
 class AutoFocusTextInput extends React.Component {
@@ -101,9 +86,6 @@ class AutoFocusTextInput extends React.Component {
 
 **NOTA**:
 
-Ten en cuenta que esto **solo funciona** si `CustomTextInput` está declarado
-como clase.
+Tenha em mente que isso **só funciona** se `CustomTextInput` estiver declarado como classe.
 
-**Nunca** deberías usar `ref` en un componente `stateless` porque **no tienen
-instancias**. Si necesitas usar `ref` con un componente `stateless`, debes
-convertirlo en `statefull`.
+Você **nunca** deveria usar `ref` em um componente `stateless` por que **eles não têm instâncias**. Se você precisar usar `ref` com um componente `stateless`, você deve convertê-lo em `statefull`.
