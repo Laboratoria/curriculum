@@ -6,26 +6,22 @@
 
 ***
 
-En esta lectura vamos a hacer el proceso completo de diseñar una aplicación
-usando React y Redux.
+Nesta leitura faremos o processo completo de projetar uma aplicação utilizando `React` e `Redux`.
 
-Usaremos como base nuestro proyecto de las lecciones anteriores, pero
-reemplazaremos el `MainSection` por un nuevo componente `FilterableProductTable`
-que nos muestre una tabla filtrable de productos.
+Usaremos como base nosso projeto das lições anteriores, mas substituiremos o `MainSection` por um novo componente `FilterableProductTable` que nos mostre uma tabela filtrável de produtos.
 
 ## Setup
 
-Antes que nada vamos a instalar nuestras nuevas dependencias.
+Antes de tudo, instalemos nossas novas dependências.
 
 ```sh
 yarn add redux react-redux
 yarn add -D redux-devtools
 ```
 
-Y desde tu navegador instala la [extensión](http://extension.remotedev.io/).
+E a partir de seu navegador instale a [_extension_](http://extension.remotedev.io/).
 
-Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente
-presentacional:
+Em seguida, converteremos a `lib/components/Main.js` em um componente puramente de apresentação:
 
 ```js
 // lib/components/Main.js
@@ -35,14 +31,14 @@ import PropTypes from 'prop-types';
 
 import Page from './Page';
 import Header from './Header';
-// Nos quitamos de encima el `MainSection`
-// y ahora importamos nuestro nuevo componente
+// Substituímos a `MainSection`
+// e agora importamos nosso novo componente
 import FilterableProductTable from '../FilterableProductTable/components';
 import Aside from './Aside';
 
-// toda los datos que Main necesita, ahora los recibimos como props
+// todos os dados que Main precisa recebemos agora via `props`
 const Main = ({ products, asideTitulo, asideLinks }) => {
-  // TODO: Hack para que renderice. Quitar luego de setear Redux.
+  // TODO: Hack para renderizar. Remover após setar Redux.
   products = []
   asideLinks = []
 
@@ -63,10 +59,9 @@ Main.propTypes = {
 export default Main
 ```
 
-`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo
-`lib/FilterableProductTable/components/index.js` con el siguiente contenido.
+`FilterableProductTable` será nossa biblioteca. Logo, criamo um arquivo `lib/FilterableProductTable/components/index.js` com o seguinte conteúdo.
 
-> Más adelante entederás por qué elegimos esta estructura de carpetas.
+> Mais adiante você entenderá porque escolhemos esta estrutura de pastas.
 
 ```js
 import React from 'react'
@@ -86,41 +81,38 @@ const FilterableProductTable = () => {
 export default FilterableProductTable
 ```
 
-y por últimos limpiamos un poco nuestro `index.html`
+e por fim limpamos um pouco nosso `index.html`
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ejemplo React + Redux</title>
+    <title>Exemplo de React + Redux</title>
   </head>
   <body>
-    <h1>Ejemplo React + Redux</h1>
+    <h1>Exemplo de React + Redux</h1>
     <div id="container">
       <p>
-        Si ves esto React <strong>no</strong> está funcionando.
+        Se você vir isto, React <strong>não</strong> está funcionando.
       </p>
   </body>
 </html>
 ```
 
-A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu
-consola de props no indicadas) y esto es porque `Main` está esperando props que
-todavia no le estamos proveyendo. Con esta base comenzamos nuestra
-implementación.
+A esta altura sua aplicação estará vazia (e haverá alguns erros no conssole de `props` não indicadas) e isso é porque `Main` está esperando `props` que contudo não estamos informando. Com esta base iniciamos nossa implementação.
 
-## Implementación
+## Implementação
 
-Entonces vamos a simular un flujo habitual de tareas de la vida real.
+Então vamos simular um fluxo habitual de tarefas da vida rea.
 
-## Paso 0: Comienza con un Mock
+## Passo 0: Comece com um _Mock_
 
-Imagina que ya tenemos un mock de nuestrx diseñadorx que se ve asi:
+Imagine que já temos um mock de nossa desenvolvedora que está assim:
 
 ![Mockup](https://reactjs.org/static/thinking-in-react-mock-1071fbcc9eed01fddc115b41e193ec11-4dd91.png)
 
-Y nuestra API JSON nos devuelve data con la siguiente estructura:
+E nossa API JSON retorna dados com a seguinte estrutura:
 
 ```js
 [
@@ -133,51 +125,28 @@ Y nuestra API JSON nos devuelve data con la siguiente estructura:
 ];
 ```
 
-## Paso 1: Divide la interfaz (UI) en una jerarquía de componentes
+## Passo 1: Divida a interface (UI) em uma hierarquia de componentes
 
-Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los
-componentes (y sub componentes) y les das nombres. Si trabajas con unx
-diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu
-diseñadorx es buenx con la semántica, entonces los nombres de los Layers de
-Photoshop pueden ser buenos nombres para tus componentes de React!
+A primeira coisa que você deveria fazer é desenhar caixinhas em torno de cada um dos componentes (e sub-componentes) e dar-lhes nomes. Se você trabalha com uma designer, provavelmente ela já fez isso então pergunte para ela! Se sua designer é boa com a semântica, então os nomes das _layers_ do Photoshop podem ser bons nomes para seus componentes de `React`!
 
-Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos
-criterios que utilizas para decidir si debes crear una nueva función u objecto.
-Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle),
-que en React sería que un componente debe idealmente hacer una sola cosa. Si
-comienza a crecer es hora de decomponerlos en componentes mas pequeños.
+Mas como determino que deveria possuir seu próprio componente? Simplesmente use os mesmos critérios que você utilizar para decidir se deve criar uma nova função ou objeto. Uma destas técnicas é o [princípio de única responsabilidade](https://en.wikipedia.org/wiki/Single_responsibility_principle), que em `React` seria que um componente deve idealmente fazer somente uma coisa. Se começar a crescer é hora de decompô-los em componentes menores.
 
-Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás
-que cuando has modelado correctamente tu `state`, tu UI (y con ella la
-estructura de tus componentes) se amoldará si problemas. Esto es porque tu UI y
-tu `state` suelen adherirse a la misma *arquitectura de la información*, lo que
-implica que en general separar tu UI de tu data es trivial: divide tus
-componentes de tal manera que representen exactamente una porción de la
-información.
+Como usalmente você estará projetando um objeto JSON na interface, você entenderá que quando houver modelado corretamente seu `state`, sua UI (e com ela a estrutura de seus componentes) será ajustada sem problemas. Isso porque sua UI e seu `state` normalmente utilizam a mesma  "arquitetura da informação", o que implica que geralmente separar sua UI de seus dados é trivial: divida seus componentes de tal forma que representem exatamente uma parte da informação.
+
 
 ![Component diagram](https://reactjs.org/static/thinking-in-react-components-eb8bda25806a89ebdc838813bdfa3601-82965.png)
 
-Aquí verás que tenemos 5 componentes:
+Aqui você verá que temos 5 componentes:
 
-1. **`FilterableProductTable` (naranja):** contiene el bloque completo
-2. **`SearchBar` (azul):** recibe el *input del usuario*
-3. **`ProductTable` (verde):** muestra y filtra la *colección* según el *input
-   del usuario*
-4. **`ProductCategoryRow` (turquesa):** muestra la cabecera para cada
-   *categoría*
-5. **`ProductRow` (rojo):** muestra una fila para cada *producto*
+1. **`FilterableProductTable` (laranja):** contêm o bloco completo
+2. **`SearchBar` (azul):** recebe o *input do usuário*
+3. **`ProductTable` (verde):** exibe e filtra a *coleção* de acordo com o *input do usuário*
+4. **`ProductCategoryRow` (turquesa):** mostra o cabeçalho para cada *categoria*
+5. **`ProductRow` (vermelho):** mostra uma fila para cada *produto*
 
-Si observas a `ProductTable`, verás que la cabecera de la tabla (que tiene los
-labels "Name" y "Price") no están en su propio componente. Esto es según la
-preferencia de cada uno. En este ejemplo, los dejamos como parte de
-`ProductTable` porque es parte de la lógica de renderizado de la *colección*,
-que es responsabilidad de `ProductTable`. Sin embargo si con el tiempo este
-header crece y se complejiza (por ejemplo para permitir ordenamiento),
-probablemente tenga sentido crearle su propio componente `ProductTableHeader`.
+Se você observar a `ProductTable`, verá que o cabeçalho da tabela (que possui os nomes "Name" e "Price") não estão em seu próprio componente. Isso vai da preferência de cada um. Neste exemplo, deixamos como parte de `ProductTable` porque é parte da lógica de renderização da *coleção*, que é responsabilidade de `ProductTable`. Contudo se com o tempo este cabeçalho cresce e se torna complexo (por exemplo, para permitir ordenação), provavelmente haverá sentido em criar seu próprio componente `ProductTableHeader`.
 
-Ahora que hemos identificado cuáles son nuestro componentes, vamos a ordenarlos
-en una jerarquía. Esto es simple, si un componente aparece dentro de otro
-componente en el mock, entonces debería aparecer como hijo en la jerarquía:
+Agora que indentificamos quais são nossos componentes, vamos organizá-los em uma hierarquia. Isso é simples. Se um componente aparece dentro de outro componente no _mock_, então deveria aparacer como filho na hierarquia:
 
 * `FilterableProductTable`
   - `SearchBar`
@@ -187,7 +156,7 @@ componente en el mock, entonces debería aparecer como hijo en la jerarquía:
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
-* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Thinking in React - Documentação oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentação oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

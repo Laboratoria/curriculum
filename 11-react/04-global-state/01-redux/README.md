@@ -1,4 +1,4 @@
-# Redux: introducción
+# Redux: introdução
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,45 +6,30 @@
 
 ***
 
-`Redux` es un manejador de estado predecible para aplicaciones JavaScript.
+`Redux` é um manipulador previsível de estados para aplicações JavaScript.
 
-Nos ayuda a escribir aplicaciones que:
+Ele ajuda a escrever aplicações que:
 
-* se comportan consistentemente
-* corren en diferentes entornos (cliente, servidor, and nativo)
-* son fáciles de testear
+* se comportam consistentemente
+* executam em diferentes ambientes (cliente, servidor e nativo)
+* são fáceis de testar
 
-Y además nos provee de una gran experiencia de desarrollo con, por ejemplo,
-[*"live coding"* y *"time traveling debugger"*](https://github.com/gaearon/redux-devtools).
+E além disso, fornece uma grande experiência de desenvolvimento com, por exemplo, [*"live coding"* e *"time traveling debugger"*](https://github.com/gaearon/redux-devtools).
 
-Como `Redux` es una librería, puede manejar el estado de cualquier tipo de
-aplicación en JavaScript, y si bien no necesita de `React` para funcionar,
-`React` + `Redux` forman el tandem perfecto. Y además `Redux` es una librería
-diminuta (2kb).
+Como `Redux` é uma biblioteca, você pode manipular o estado de qualquer tipo de aplicação em JavaScript e se necessitar de `React` para funcionar, `React` + `Redux` formam um par perfeito. Além disso, `Redux` é uma biblioteca enxuta (2kb).
 
-El patrón de diseño de "UI manager" + "State manager" es muy popular actualmente
-en la comunidad de JavaScript, porque ha demostrado que es una forma consistente
-de organizar nuestras aplicaciones.
+O padrão de projeto de "_UI manager_" + "_State manager_" é muito popular atualmente na comunidade JavaScript porque demonstrou que é uma forma consistente de organizar nossas aplicações.
 
-Hoy por hoy hay infinidad de librerías para elegir, y por ejemplo podríamos
-cambiar `React` por otra librería para UI como [Vue](https://github.com/vuejs/vue)
-o [Polymer](https://github.com/Polymer/polymer). Y de la misma manera con
-`Redux`, podríamos usar [mobx](https://github.com/mobxjs/mobx) o
+Atualmente existe uma infinidade de bibliotecas para escolher e, por exemplo, poderíamos mudar `React` por outra biblioteca para UI como [Vue](https://github.com/vuejs/vue) ou [Polymer](https://github.com/Polymer/polymer). E da mesma forma com `Redux`, poderíamos usar [mobx](https://github.com/mobxjs/mobx) ou
 [cerebral](https://github.com/cerebral/cerebral)
 
-`Redux` está fuertemente inspirado en [Flux](http://facebook.github.io/flux/),
-que podemos decir es su predecesor, pero simplificando el enfoque orignal usando
-conceptos de [Elm](https://github.com/evancz/elm-architecture-tutorial/). Sepas
-o no que son `Flux` y `Elm`, comenzar con `Redux` solo toma unos minutos.
+`Redux` está fortemente inspirado em [Flux](http://facebook.github.io/flux/), que podemos dizer que é seu antecessor, mas simplificando o enfoque original utilizando conceitos de [Elm](https://github.com/evancz/elm-architecture-tutorial/). Começar a utilizar `Redux` leva somente alguns minutos.
 
-## Conceptos base
+## Conceitos base
 
-`Redux` en sí es muy simple.
+`Redux` em si é muito simples.
 
-Imagina que tienes una aplicación que lleva tracking de tus tareas pendientes:
-una versión simplificada del popular [Todo](http://todomvc.com). Ahora
-describamos el estado de esta app como un objeto en JavaScript. Por ejemplo
-podría tener esta forma:
+Imagina que você tenha uma aplicação que controla suas tarefas pendentes: uma versão simplificada do popular [Todo](http://todomvc.com). Agora descrevamos o estado dessa aplicação como um objeto em JavaScript. Por exemplo, ela poderia ter essa forma:
 
 ```js
 {
@@ -62,13 +47,9 @@ podría tener esta forma:
 }
 ```
 
-Este es tu `state`, y en `Redux` este objeto es _read-only_, esto es así para
-que las diferentes partes de tu código no puedan cambiar el estado
-arbitrariamente, causando bugs díficiles de reproducir.
+Este é seu `state` e em `Redux` este objeto é _read-only_. Isso é assim para que as diferentes partes de seu código não possam mudar o estado arbitrariamente, causando buvs difícies de reproduzir. 
 
-Entonces, para cambiar algún valor del `state`, la única forma de hacerlo es
-disparando una acción (_action_). Las acciones a su vez, son objetos que
-describen que ha sucedido. Por ejemplo:
+Portanto, para mudar algum valor do `state`, a única maneira de fazê-lo é disparando uma ação (_action_). As ações por sua vez são objetos que descrevem o que aconteceu. Por exemplo:
 
 ```js
 { type: 'ADD_TODO', text: 'Go to swimming pool' }
@@ -76,26 +57,13 @@ describen que ha sucedido. Por ejemplo:
 { type: 'SET_VISIBILITY_FILTER', filter: 'SHOW_ALL' }
 ```
 
-Por convención todas las _actions_ necesitan de una propiedad `type` de tipo
-string. Este es el identificador de tu acción y dos acciones que conceptualmente
-puedan ser distintas, pero tengan un mismo valor de type, son consideradas el
-mismo tipo. Usa tipos claros, que expresen claramente cual es su intención y que
-sean dificiles de repetir, inclusive si tienen muchos caracteres
+Por convenção todas as _actions_ precisam de uma propriedade `type` de tipo string. Esse é o identificador de sua ação e das ações que conceitualmente possam ser distintas mas tenham um mesmo valor de type. Logo, são consideradas do mesmo tipo. Use tipos claros que expressem claramente qual é sua intenção e que sejam difíceis de repetir, inclusive se possuírem muitos caracteres.
 
-Forzando que todos los cambios deban ser descritos como una acción, nos permite
-tener una idea clara de qué es lo que esta sucediendo en nuestra aplicación. Si
-algo cambia, sabemos exactamente por qué cambió. Las actions van dejando rastro
-de cada cosa que ha sucedido.
+Forçando que todas as mudanças devam ser descritas como uma ação, isso permite ter uma ideia clara de que é o que está acontencendo em nossa aplicação. Se algo muda, sabemos exatamente por que mudou. As ações vão deixando rastro de cada coisa que aconteceu.
 
-Y por último, para relacionar el estado con las _actions_, escribimos funciones
-puras que llamaremos **reducers**. De nuevo, ninguna magia, un reducer es una
-función que recibe el `state` y una `action` como parámetros y retorna el nuevo
-`state` de la aplicación. Cada vez que sucede un action, **todos** los reducers
-de tu store se ejecutan con el action como parametro.
+E por último, para relacionar o estado com as _actions_, escrevemos funções puras que chamaremos **reducers**. De novo, nenhuma mágica. Um *reducer* é uma função que recebe o `state` e uma `action` como parâmetros e retorna o novo `state` da aplicação. Cada vez que acontece uma _action_, **todos** os *reducers* de seu armazenamento são executados com a _action_ como parâmetro.
 
-Sería bien complicado escribir una sola función para manejar todo el estado de
-una aplicación grande, es por eso que escribimos funciones mas pequeñas para las
-diferentes partes del state:
+Seria bem complicado escrever somente uma função para manipular todo o estado de uma aplicação grande. É por isso que escrevemos funções menores para as diferentes partes do `state`:
 
 ```js
 function visibilityFilter(state = 'SHOW_ALL', action) {
@@ -123,8 +91,7 @@ function todos(state = [], action) {
 }
 ```
 
-Y escribimos un último _reducer_ que maneja el estado completo de nuestra
-aplicación, usando los dos reducers anteriores:
+E escrevemos um último _reducer_ que manipula o estado completo de nossa aplicação utilizando os _reducers_ anteriores:
 
 ```js
 function todoApp(state = {}, action) {
@@ -135,56 +102,27 @@ function todoApp(state = {}, action) {
 }
 ```
 
-Y esto es básicamente `Redux`. Fíjate que para hacer esto no hemos usado ni una
-sola función de la librería. Redux provee algunas _herramientas_ que facilitan
-trabajar con este patrón, pero la idea principal es que puedas describir como va
-evolucionando el _estado_ de tu aplicación en respuesta a los actions. Alrededor
-del 90% de tu código será _Vanilla Javascript_, sin usar ninguna funcionalidad
-de `Redux`.
+E basicamente isto é `Redux`. Observe que para fazer isso não usamos nenhuma função da biblioteca. `Redux` fornece algumas _ferramentas_ que facilitam o trabalho com este padrão, mas a ideia principal é que você possa escrever como o _estado_ de sua aplicação vai se alterando em resposta às _actions_. Em torno de 90% de seu código será _Vanilla JavaScript_ sem utilizar nenhuma funcionalidade de `Redux`.
 
-### Los tres principios de Redux
+### Os três princípios de Redux
 
-### Una sóla fuente de verdad
+### Somente uma fonte de verdade
 
-> Single source of truth
+> _Single source of truth_
 
-**El [state](http://redux.js.org/docs/Glossary.html#state) de toda tu aplicación
-es guardado en un objeto dentro de un único
-[store](http://redux.js.org/docs/Glossary.html#store).**
+**O [_state_](http://redux.js.org/docs/Glossary.html#state) de toda sua aplicação é armazenado em um objeto dentro de um único [store](http://redux.js.org/docs/Glossary.html#store).**
 
 ```js
 console.log(store.getState())
-
-/* Prints
-{
-  visibilityFilter: 'SHOW_ALL',
-  todos: [
-    {
-      text: 'Consider using Redux',
-      completed: true,
-    },
-    {
-      text: 'Keep all state in a single tree',
-      completed: false
-    }
-  ]
-}
-*/
 ```
 
-### El estado es de "sólo-lectura"
+### O estado é de "somente-leitura"
 
-> State is read-only
+> _State is read-only_
 
-**La única forma de cambiar el estado, es disparando una
-[acción](http://redux.js.org/docs/Glossary.html#action) (un objeto describiendo
-qué es lo que sucedió).**
+**A única maneira de mudar o estado é disparando uma [ação](http://redux.js.org/docs/Glossary.html#action) (um objeto descrevendo o que aconteceu)**
 
-Esto garantiza que ni las vistas ni las llamadas a servicios externos puedas
-realizar cambios en el _state_ directamente. En lugar de eso, expresan su
-intención de cambiar el _state_ a través de un action. Como todo los cambios
-están centralizados, y suceden en un orden estrito, no tenemos que preocuparnos
-por casos raros o dificiles de reproducir.
+Isso garante que não as visualizações nem as chamadas a serviços externos podem realizar mudanças no _state_ diretamente. No lugar disso, expressam sua intenção de alterar o _state_ por meio de uma _action_. Como todas as mudanças estão centralizadas e ocorrem em uma ordem específica, não temos que nos preocupas com situações raras ou difíceis de reproduzir.
 
 ```js
 store.dispatch({
@@ -198,17 +136,13 @@ store.dispatch({
 })
 ```
 
-### Los cambios de estado, se realizan a través de funciones puras
+### As mudanças de estados são realizadas por meio de funções puras
 
-> Changes are made with pure functions
+> _Changes are made with pure functions_
 
-**Para detallar la manera en la que cambia el state en respuesta a los actions,
-usas un [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**
+**Para detalhar a maneira na qual se muda o _state_ em resposta às _actions_, utilize um [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**
 
-Los reducers son sólo funciones puras que toman el state anterior y el action
-que se acaba de disparar, y retornan el nuevo state. Tanto el state anterior
-como el action recibido, deben ser inmutables, por eso recuerda **siempre
-retornar nuevos objetos**, en lugar de realizar cambios al state original.
+Os _reducers_ simplesmente são funções puras que tomam o _state_ anterior e a ação que foi disparada e retornam o novo estado. Tanto o _state_ anterior como a _action_ recebida devem ser imutáveis. Por isso, lembre-se de **sempre retornar novos objetos** ao invés de fazer mudanças no estado original.
 
 ```js
 function visibilityFilter(state = 'SHOW_ALL', action) {
@@ -249,12 +183,9 @@ const reducer = combineReducers({ visibilityFilter, todos })
 const store = createStore(reducer)
 ```
 
-Y eso es todo! Ahora ya tienes un panorama completo de qué se trata Redux. Si
-quieres convertirte en un auténtico redux ninja chequea la documentación
-oficial, algunos proyectos interesantes que extienden Redux con otros casos de
-uso como sagas, thunks o redux offline)
+E isso é tudo! Agora você já tem um panorama completo do que é `Redux`. Se você quiser se tornar uma autêntica _ninja redux_ verifique a documentação oficial que contém alguns projetos interessantes que estendem `Redux` com outros casos de uso como sagas, _thunks_ ou _redux offline_.
 
-## Referencias complementarias
+## Referências complementares
 
 * Learn Redux from its creator:
   - [Part 1: Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
@@ -265,13 +196,13 @@ uso como sagas, thunks o redux offline)
 
 ***
 
-Fuentes:
+Fontes:
 
 * [Redux - react community](https://github.com/reactjs/redux/blob/master/README.md)
 * [Redux Core Concepts - redux.js.org](http://redux.js.org/docs/introduction/CoreConcepts.html)
 * [Redux Three Principles - redux.js.org](http://redux.js.org/docs/introduction/ThreePrinciples.html)
 
-Referencias:
+Referências:
 
 * [Redux documentation - redux.js.org](http://redux.js.org/)
 * [Getting Started with Redux - scotch.io](https://scotch.io/bar-talk/getting-started-with-redux-an-intro)
