@@ -1,46 +1,45 @@
-# Ejercicios libres
+# Exercícios livres
 
-* Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `40min`
-
-***
-
-Te dejamos también con una serie de ejercicios abiertos para que sigas
-explorando por tu cuenta ;-)
+* Tipo: `prática`
+* Formato: `individual`
+* Duração: `40min`
 
 ***
 
-Dado el siguiente código:
+Deixamo-lhe também com uma série de exercícios abertos para que você siga explorando por conta própria ;-)
+
+***
+
+Dado o seguinte código:
 
 ```html
 <body>
   <div id="react-container">
     <p>
-      Si ves esto React <strong>no</strong> está funcionando.
+      Se você vir isto, React <strong>não</strong> está funcionando.
     </p>
   </div>
 
   <script>
     const DOM = React.DOM
 
-    function Saludo(props) {
-      return DOM.h1(null, 'Hola '+props.nombre)
+    function Saudacao(props) {
+      return DOM.h1(null, 'Olá, '+props.nome)
     }
 
     ReactDOM.render(
-      Saludo({ nombre: 'Mundo' }),
+      Saudacao({ nome: 'Mundo' }),
       document.getElementById('react-container')
     );
   </script>
 </body>
 ```
 
-Explica por qué no se ve el mensaje *"Si ves esto React **no** está funcionando"*
+Explique por que não se vê a mensagem: *Se você vir isto, React **não** está funcionando.*
 
 ***
 
-Dado el siguiente codigo en `React`
+Dado o seguinte código em `React`
 
 ```html
 <body>
@@ -50,100 +49,96 @@ Dado el siguiente codigo en `React`
   <script>
     const DOM = React.DOM
 
-    function Cabecera(props) {
-      const saludo = props.saludo;
+    function Cabecalho(props) {
+      const Saudacao = props.Saudacao;
 
       return DOM.div(null,
-        DOM.h2(null, 'Cabecera'),
-        DOM.h3(null, saludo)
+        DOM.h2(null, 'Cabecalho'),
+        DOM.h3(null, Saudacao)
         DOM.p(null,
-          saludo,
+          Saudacao,
           DOM.hr(null)
         )
-        DOM.div(null, 'Chau!')
+        DOM.div(null, 'Tchau!')
       )
     }
 
-    const saludo = 'Mundo'
+    const Saudacao = 'Mundo'
 
     ReactDOM.render(
-      Cabecera({ saludo: saludo }),
+      Cabecalho({ Saudacao: Saudacao }),
       document.getElementById('react-container')
     );
   </script>
 </body>
 ```
 
-Desarrolla en `html` el `DOM` resultante
+Desenvolva em `HTML` o `DOM` resultante
 
 ***
 
-Si en el código anterior modificamos
+Se no código anterior modificarmos
 
 ```js
-const saludo = 'Mundo'
+const Saudacao = 'Mundo'
 ```
 
 por
 
 ```js
-const saludo = 'Amigx'
+const Saudacao = 'Amiga'
 ```
 
-indica que sub-árboles serán reemplazados en el proceso de "reconciliación".
+indique quais sub-árvores serão substituídas no processo de "reconciliação".
 
 ***
 
-Implementa un ejemplo de composición con `React`
+Implemente um exemplo de composição com `React`.
 
 ***
 
-Supongamos que administramos una página web simple, que tiene la siguiente
-estructura.
+Suponhamos que administremos uma página web simples que possui a seguinte estrutura:
 
 ```html
 <div id="main">
   <p>
-    <h3>Titulo 1</h3>
-    Descripcion 1
+    <h3>Título 1</h3>
+    Descrição 1
   </p>
   <p>
-    <h3>Titulo 2</h3>
-    Descripcion 2
+    <h3>Título 2</h3>
+    Descrição 2
   </p>
   <p>
-    <h3>Titulo 3</h3>
-    Descripcion 3
+    <h3>Título 3</h3>
+    Descrição 3
   </p>
 </div>
 ```
 
-Luego de algunos meses, nuestro cliente dice que quiere actualizar su web, para
-que sea más semantica y nos solicita que la convirtamos a esta otra estructura:
+Após alguns meses, nosso cliente disse que quer atualizar seu sítio web para que seja mais semântico e solicita que o convertamos para esta outra estrutura:
 
 ```html
 <section id="main">
   <article>
-    <h3>Titulo 1</h3>
-    <p>Descripcion 1</p>
+    <h3>Título 1</h3>
+    <p>Descrição 1</p>
   </article>
   <article>
-    <h3>Titulo 2</h3>
-    <p>Descripcion 2</p>
+    <h3>Título 2</h3>
+    <p>Descrição 2</p>
   </article>
   <article>
-    <h3>Titulo 3</h3>
-    <p>Descripcion 3</p>
+    <h3>Título 3</h3>
+    <p>Descrição 3</p>
   </article>
 </section>
 ```
 
-¿Con qué problema nos encontramos? ¿Y si en lugar de 3 `articles` en una
-`section` hubieran sido 100 `articles` en `40` `sections`?
+Com qual problema nos deparamos? E se em lugar de 3 `articles` em uma `section` fossem 100 `articles` em 40 `sections`? 
 
-Propón una solución a ese problema con `React`.
+Proponha uma solução para esse problema com `React`.
 
 ***
 
-Agrega comentarios al código de los ejercicios de esta unidad, para clarificar
-qué esta sucediendo.
+Adicione comentários no código dos exercícios desta unidade para esclarecer o que está acontecendo.

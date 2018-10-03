@@ -1,52 +1,37 @@
-# ¿Qué es `React`?
+# O que é o `React`?
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `4min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `4min`
 
 ***
 
-`React` es una librería (no un *framework*, una ***librería***) open source
-desarrollada por Facebook para crear interfaces de usuario, a través de
-componentes dinámicos y reusables.
+`React` é uma biblioteca (não um *framework*, uma **biblioteca**) _open source_ desenvolvida pelo Facebook para criar interfaces de usuários por meio de componentes dinâmicos e reutilizáveis.
 
-Uno de los principales beneficios de `React` es que nos permite crear ***single
-page apps*** de una manera ordenada, más simple y mantenible.
+Um dos principais benefícios de `React` é que nos permite criar ***single page apps*** de uma maneira ordenada, simples e sustentável.
 
-`React` es uno de los principales actores en el movimiento de la programación
-funcional dentro del mundo JavaScript. Es decir que en `React` preferimos la
-composición por sobre la herencia y nos alineamos con los principios de
-inmutabilidad.
+`React` é um dos principais atores no movimento da programação funcional dentro do mundo JavaScript. Ou seja, em `React` preferimos a composição à herança, além de ser alinhado com os princípios da imutabilidade.
 
-Por debajo, `React` usa una estructura llamada `Virtual DOM` que se encarga de
-renderizar granularmente los nodos, dependiendo de los cambios de estado de la
-aplicación, realizando la menor cantidad posible de modificaciones al `DOM`,
-para mantener la interfaz actualizada.
+Por trás, `React` utiliza uma estrutura chamada `Virtual DOM`  que é encarregada de renderizar de forma granular os nós, em função do estado da aplicação, realizando a menor quantidade possível de modificações no `DOM` para manter a interface atualizada.
 
-## ¿Cómo funciona el `Virtual DOM`?
+## Como funciona o `Virtual DOM`?
 
-Piensa en el `Virtual DOM` como un espejo del estado actual del `DOM`.
+Pense no `Virtual DOM` como um espelho do estado atual do `DOM`.
 
-Cada vez que sucede una acción, `React` se encarga de tres cosas:
+Cada vez que ocorre uma ação, o `React` se encarrega de três coisas:
 
-1. propaga los efectos colaterales de esas acciones en el `Virtual DOM`
-2. análiza las diferencias (`diff`) para ver qué sub-árboles han cambiado en
-   relación a la "versión anterior"
-3. y por último realiza una "reconciliación", donde actualiza el `DOM` con el
-   resultado del `diff`
+1. Propaga os efeitos colaterais dessas ações no `Virtual DOM`;
+2. Analisa as diferenças (`diff`) para ver quais sub-árvores mudaram em relação à "versão anterior";
+3. Por último, realiza uma "reconciliação", na qual atualiza o `DOM` com o resultado do `diff`.
 
-Esto quiere decir que cuando hay un cambio en el `Virtual DOM`, solo los
-sub-árboles modificados son reemplazados en el `DOM`. Entonces, si por ejemplo
-tenemos un `input`, donde el usuario ha ingresado un valor y hay un cambio en el
-`Virtual DOM`, mientras ningún nodo padre del `input` haya sido marcado para
-"reconciliación", el texto queda inalterado.
+Isso quer dizer que quando ocorre uma mudança no `Virtual DOM` somente as sub-árvores modificadas são substituídas no `DOM`. 
+Então, se por exemplo temos um `input` no qual o usuário digitou um valor e haja uma mudança no `Virtual DOM`, enquanto nenhum nó pai do `input` tiver sido marcado para "reconciliação", o texto continuará inalterado.
 
-En el siguiente video puedes ver por que `React` (Virtual DOM) y `HTML` se
-llevan tan bien:
+No vídeo a seguir você pode ver por que `React` (Virtual DOM) e `HTML` se dão tão bem.
 
-[![React y HTML](https://img.youtube.com/vi/BYbgopx44vo/0.jpg)](https://www.youtube.com/watch?v=BYbgopx44vo)
+[![React e HTML](https://img.youtube.com/vi/BYbgopx44vo/0.jpg)](https://www.youtube.com/watch?v=BYbgopx44vo)
 
 ## Recursos recomendados
 
-* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
-* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
+* [Documentação oficial](https://facebook.github.io/react/) (em inglês)
+* [Recursos de `React` em espanhol](https://github.com/jlobos/react-espanol)

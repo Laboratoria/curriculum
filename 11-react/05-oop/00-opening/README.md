@@ -1,48 +1,32 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Por qué aprender esto?
+## Por que aprender isto?
 
-Hasta ahora nos hemos concentrado en la implementación de componentes como
-funciones, lo que en el mundo de `React` normalmente llamamos _stateless
-components_. Pero a estas alturas probablemente te habrás dado cuenta de que
-muchos de los ejemplos de `React` en la web muestran la implementación de
-componentes como clases (usando el keyword `class`).
+Até agora concentramos nossos esforços na implementação de componentes como funções, o que no mundo do `React` normalmente chamamos de _stateless components_. Mas a esta altura você provavelmente terá se dado conta de que muito dos exemplos do `React` na web mostram a implementação de componentes como classes (utilizando a _keyword_ `class`).
 
-El motivo por el que hemos comenzado con componentes _stateless_ es porque su
-implementación es más sencilla y demuestran la funcionalidad y patrones comunes
-con mucho menos _boilerplate_. De hecho, en el mundo real normalmente tratamos
-de evitar la implementación con clases a menos de que necesitemos features
-(características) que no nos ofrezcan las funciones. En particular:
+O motivo pelo qual começamos com componentes _stateless_ é por que sua implementação é mais simples e demonstra a funcionalidade e padrões comuns com muito menos _boilerplate_. De fato, no mundo real normalmente tratamos de evitar a implementação com classe a não ser que necessitemos de _features_ (funcionalidades) que as funções não nos oferecem. Em particular:
 
-* Estado interno
-* Life-cycle hooks
-* Refs
+* Estado interno;
+* _Life-cycle hooks_;
+* Refs.
 
-En esta unidad veremos como podemos usar clases para acceder a estos features
-en los casos que sea necesario.
+Nesta unidade veremos como podemos usar classes para acessar estas _features_ nos casos em que forem necessárias.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Cómo implementar un componente como clase (`class`)?
-* Diferencias entre estado global o externo y estado interno
-* Cuál es el _ciclo de vida_ de un coponente?
-* Cómo _interceptar_ eventos del ciclo de vida para ejecutar código arbitrario?
-* Qué es y cómo funciona la propiedad especial `ref` en nodos renderizados por
-  un componente _statefull_?
-* Cuándo usar referencias (refs)?
+* Como implementar um componente como classe (`class`)?
+* Diferenças entre o estado global ou externo e estado interno.
+* Qual é o _ciclo de vida_ de um componente?
+* Como _interceptar_ eventos do ciclo de vida para executar código específico?
+* O que é e como funciona a propriedade especial `ref` nos nós renderizados por um componente _statefull_?
+* Quando usar referências (`refs`)?

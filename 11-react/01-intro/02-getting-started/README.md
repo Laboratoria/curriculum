@@ -1,15 +1,14 @@
 # Getting Started
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `12min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `12min`
 
 ***
 
-Veamos como podemos comenzar a usar `React` inmediatamente dentro de nuestro
-`html` existente.
+Vejamos como podemos começar a usar `React` imediatamente dentro de nosso `html` existente.
 
-En este ejemplo, éste será nuestro `html` base:
+Neste exemplo, este será nosso `html` base:
 
 ```html
 <!DOCTYPE html>
@@ -17,15 +16,15 @@ En este ejemplo, éste será nuestro `html` base:
   <head>
     <meta charset="utf-8">
     <title>React: Getting Started</title>
-    <!-- importamos unos estilos -->
+    <!-- importamos alguns estilos -->
     <!-- TODO: link base.css -->
     <link rel="stylesheet" href="../shared/css/base.css" />
   </head>
   <body>
     <h1>Getting Started</h1>
-    <h2>Descripción</h2>
+    <h2>Descrição</h2>
     <p>
-      Cómo integrar react a páginas estáticas existentes
+      Como integrar react a páginas estáticas existentes:
     </p>
   </body>
 </html>
@@ -33,37 +32,25 @@ En este ejemplo, éste será nuestro `html` base:
 
 > NOTA:
 >
-> Para seguir esta lectura, abre tu editor de texto favorito (o algo tipo
-> [JS Bin](https://jsbin.com/) o [CodePen](https://codepen.io)) y copia el html
-> de arriba. Según vayamos avanzando modifica el código y ejecútalo para ver los
-> resultados en tu navegador.
+> Para continuar nesta leitura, abra seu editor de texto favorito (algo como [JS Bin](https://jsbin.com/) ou [CodePen](https://codepen.io)) e copie o HTML acima. Conforme formos avançando, modifique o código e execute-o para ver os resultados em seu navegador.
 
-Como vimos anteriormente, `React` tiene su propia **"copia inteligente"** del
-`DOM`, el `Virtual DOM`. Para poder mostrar al usuario el resultado de cada
-cambio en el `Virtual DOM`, necesitamos definir un elemento contenedor
-(`container`). Generalmente utilizamos un elemento `div` con un `id` que nos
-permita identificarlo unívocamente.
+Como vimos anteriormente, `React` tem sua própria **cópia inteligente** do `DOM`, o `Virtual DOM`. Para poder mostrar ao usuário o resultado de cada mudança no `Virtual DOM`, precisamos definir um elemento contêiner (`container`). Geralmente utilizamos um elemento `div` com um `id` que nos permita identificá-lo univocamente. 
 
 ```html
 <body>
   <h1>Getting Started</h1>
-  <h2>Descripción</h2>
+  <h2>Descrição</h2>
   <p>
-    Cómo integrar react a páginas estáticas existentes
+    Como integrar react a páginas estáticas existentes:
   </p>
-  <!-- NUESTRO CONTAINER -->
+  <!-- NOSSO CONTAINER -->
   <div id="react-container">
 
   </div>
 </body>
 ```
 
-Como con cualquier otra librería (por ejemplo `jQuery`), antes de poder utilizar
-`React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
-una [copia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1)
-y referenciar localmente los scripts; o, como haremos nosotros en este ejemplo,
-puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
-[unpkg](https://unpkg.com).
+Como com qualquer outra biblioteca (por exemplo, `jQuery`), antes de podermos utilizar `React`, precisamos importá-lo em nossa página. Você pode baixar uma [cópia de `React`](https://facebook.github.io/react/downloads/https://github.com/facebook/react/releases/tag/v15.6.1) e referenciar localmente os scripts; ou, como nós faremos neste exemplo, você pode ligar diretamente aos arquivos publicados em um CDN, como por exemplo [unpkg](https://unpkg.com).
 
 ```html
 <head>
@@ -74,11 +61,9 @@ puedes linkear directamente a los archivos publicados en un CDN, por ejemplo
 </head>
 ```
 
-¡Ahora a crear nuestro primer componente!
+Agora vamos criar nosso primeiro componente!
 
-Así como el `DOM` tiene *tags*, `React` tiene ***componentes***. Los componentes
-son las *"piezas"* para construir nuestras interfaces y los declaramos a través
-de ***funciones*** (o clases como veremos más adelante).
+Assim como o `DOM` possui *tags*, `React` possui ***componentes***. Os componentes são as *"peça"* para construir nossas interfaces a os declaramos por meio de ***funções*** (ou classes como veremos mais à frente).
 
 ```html
 <body>
@@ -90,8 +75,8 @@ de ***funciones*** (o clases como veremos más adelante).
     const div = React.DOM.div;
     const h2 = React.DOM.h2;
 
-    function Cabecera() {
-      const titulo = 'Hola Mundo';
+    function Cabecalho() {
+      const titulo = 'Olá, Mundo';
 
       const elemento = div(null,
         h2(null, titulo),
@@ -101,84 +86,77 @@ de ***funciones*** (o clases como veremos más adelante).
     }
 
     ReactDOM.render(
-      Cabecera(),
+      Cabecalho(),
       document.getElementById('react-container')
     );
   </script>
 </body>
 ```
 
-Veamos qué está sucediendo aquí:
+Vejamos o que está acontecendo aqui:
 
-Cada tag del DOM tiene un componente que lo representa en el mundo React.
+Cada *tag* do DOM possui um componente que o representa no mundo React.
 
 ```js
 const div = React.DOM.div;
 const h2 = React.DOM.h2;
 ```
 
-Los componentes normalmente los definimos como funciones puras. Nuestro primer
-componente será la `Cabecera` de la página.
+Os componentes normalmente são definidos como funções puras. Nosso primeiro componente será o `Cabeçalho` da página.
 
 ```js
-function Cabecera() {
-  const titulo = 'Hola Mundo';
+function Cabecalho() {
+  const titulo = 'Olá, Mundo';
 
-  // Creamos un elemento `div` "the React way"
+  // Criamos um elemento `div` "the React way"
   const elemento = div(null,
     h2(null, titulo),
   );
 
-  // y ese es el resultado de nuestra funcion / componente
+  // e esse é o resultado de nossa função/componente:
   return elemento;
 }
 ```
 
-Las funciones `div()` y `h2()` están esperando dos parámetros:
+As funções `div()` e `h2()` estão esperando dois parâmetros:
 
-* El primero es un objeto con atributos de configuración HTML (`className`,
-  `src`, `alt`, `href`, etc) y que por ahora es nulo
-* Y el segundo está recibiendo el contenido (`innerHTML`) que va a ir en el tag.
+* O primeiro é um objeto com atributos de configuração HTML (`className`, `src`, `alt`, `href`, etc) e que por enquanto está nulo.
+* O segundo está recebendo o conteúdo (`innerHTML`) que será colocado na tag.
 
-Esto es análogo al siguiente codigo html:
+Isso é análogo ao seguinte código HTML:
 
 ```html
 <div>
-  <h2>Hola Mundo</h2>
+  <h2>Olá, Mundo</h2>
 </div>
 ```
 
-Y por último, para que el usuario pueda verlo, insertamos el resultado en el
-DOM:
+E por último, para que o usuário possa vê-lo, inserimos o resultado no DOM:
 
 ```js
 ReactDOM.render(
-  Cabecera(),
+  Cabecalho(),
   document.getElementById('react-container')
 );
 ```
 
-Verás que nuestro componente es una función sin parámetros. Uno de los mayores
-beneficios que otorga el enfoque de componentes como funciones, es que a través
-de los parametros que nosotros le pasemos a nuestra función, podemos modificar
-dinámicamente el comportamiento del componente, permitiéndonos reutilizarlo.
+Você verá que nosso componente é uma função sem parâmetros. Um dos maiores benefícios que oferece a abordagem de componentes como funções é que por meio dos parâmetros que passamos para a função podemos modificar dinamicamente o comportamento do componente, permitindo reutilizá-lo.
 
-En el mundo `React` a los parámetros de los componentes los denominamos
-***propiedades*** (`props`).
+No mundo `React` os parâmetros dos componentes são denominados ***propriedades*** (`props`).
 
 ```html
 <body>
   ...
-  <!-- ahora tendremos 2 contenedores -->
-  <div id="cabecera-1"></div>
-  <div id="cabecera-2"></div>
+  <!-- agora teremos 2 contêineres -->
+  <div id="cabecalho-1"></div>
+  <div id="cabecalho-2"></div>
 
   <script>
     const div = React.DOM.div;
     const h2 = React.DOM.h2;
 
-    function Cabecera(props) {
-      const titulo = 'Hola ' + props.saludo;
+    function Cabecalho(props) {
+      const titulo = 'Olá, ' + props.saudacao;
 
       const elemento = div(null,
         h2(null, titulo),
@@ -188,28 +166,26 @@ En el mundo `React` a los parámetros de los componentes los denominamos
     }
 
     ReactDOM.render(
-      Cabecera({ saludo: 'Mundo' }),
-      document.getElementById('cabecera-1')
+      Cabecalho({ saudacao: 'Mundo' }),
+      document.getElementById('cabecalho-1')
     );
 
     ReactDOM.render(
-      Cabecera({ saludo: 'Amigx' }),
-      document.getElementById('cabecera-2')
+      Cabecalho({ cabecalho: 'Amiga' }),
+      document.getElementById('cabecalho-2')
     );
   </script>
 </body>
 ```
 
-Ahora nuestra función recibe un parametro `props`, que es un objecto. Cada llave
-de `props`, es una propiedad de nuestro componente.
+Agora nossa função recebe um parâmetro `props` que é um objeto. Cada chave de `props` é uma propriedade de nosso componente.
 
-Así como en el `DOM` los tags tienen *atributos*, en `React` los componentes
-tienen ***propiedades***:
+Assim como o `DOM` as tags têm *atributos*, em `React` os componentes têm ***propriedades***:
 
 ```js
-function Cabecera(props) {
-  // usamos la propiedad "saludo"
-  const titulo = 'Hola ' + props.saludo;
+function Cabecalho(props) {
+  // usamos a propriedade "saudacao":
+  const titulo = 'Olá, ' + props.saudacao;
 
   const elemento = div(null,
     h2(null, titulo),
@@ -219,36 +195,31 @@ function Cabecera(props) {
 }
 ```
 
-Una vez que nuestro componente está parametrizado, podemos reutilizarlo
-modificando el valor de `saludo`:
+Uma vez que nosso componente está parametrizado, podemos reutilizá-lo modificando o valor de `saudacao`:
 
 ```js
 ReactDOM.render(
-  Cabecera({ saludo: 'Mundo' }),
-  document.getElementById('cabecera-1')
+  Cabecalho({ saudacao: 'Mundo' }),
+  document.getElementById('cabecalho-1')
 );
 
 ReactDOM.render(
-  Cabecera({ saludo: 'Amigx' }),
-  document.getElementById('cabecera-2')
+  Cabecalho({ saudacao: 'Amiga' }),
+  document.getElementById('cabecalho-2')
 );
 ```
 
-## Ejemplos
+## Exemplos
 
-Y por último te dejamos 2 ejemplos más entrenidos para que analices cómo
-funcionan. Copia o escribe el código de cada ejemplo en tu editor favorito,
-ejecútalo, juega y añade `console.log`s para ver qué está ocurriendo. Toma nota
-de tus preguntas para compartirlas con el resto de la clase más adelante en
-el solucionario de esta unidad.
+E por fim lhe deixamos 2 exemplos mais completos para que você analise como funcionam. Copie ou escreva o código de cada exemplo em seu editor favorito, execute-o, utilize o `consolo.log` para ver o que está acontecendo. Tome nota de suas dúvidas para compartilhá-las com o restante da turma mais adiante no fechamento desta unidade.
 
-### Elementos nativos anidados
+### Elementos nativos aninhados
 
 ```html
 <body>
-  <div id="cabecera">
+  <div id="cabecalho">
     <p>
-      Si ves esto React <strong>no</strong> está funcionando.
+      Se você vir isto, React <strong>não</strong> está funcionando.
     </p>
   </div>
 
@@ -260,34 +231,34 @@ el solucionario de esta unidad.
     const b = React.DOM.b;
     const br = React.DOM.br;
 
-    function Cabecera(props) {
-      const titulo = 'Saludo';
+    function Cabecalho(props) {
+      const titulo = 'Saudação';
 
       return div(null,
         h2(null, titulo),
         p(null,
-          "Hola ", b(null, props.saludo), ".", br(null),
-          "Un link? ", br(null),
+          "Olá, ", b(null, props.saudacao), ".", br(null),
+          "Um link? ", br(null),
           a({href:"http://laboratoria.la"}, "Laboratoria"), "!"
         )
       );
     }
 
     ReactDOM.render(
-      Cabecera({ saludo: 'Mundo' }),
-      document.getElementById('cabecera')
+      Cabecalho({ saudacao: 'Mundo' }),
+      document.getElementById('cabecalho')
     );
   </script>
 </body>
 ```
 
-### Renderizado dinámico con atributos
+### Renderizado dinâmico com atributos
 
 ```html
 <body>
   <div id="timer">
     <p>
-      Si ves esto React <strong>no</strong> está funcionando.
+      Se você vir isto, React <strong>não</strong> está funcionando.
     </p>
   </div>
 
@@ -297,11 +268,11 @@ el solucionario de esta unidad.
     const p = React.DOM.p;
 
     function Timer(props) {
-      const transcurrido = Math.round(props.transcurrido  / 100);
-      const segundos = transcurrido / 10 + (transcurrido % 10 ? '' : '.0' );
-      const mensaje = 'React ha estado corriendo por ' + segundos + ' segundos.';
+      const transcorrido = Math.round(props.transcorrido  / 100);
+      const segundos = transcorrido / 10 + (transcorrido % 10 ? '' : '.0' );
+      const mensagem = 'React está executando por ' + segundos + ' segundos.';
 
-      const borderColor = transcurrido % 2 === 0 ? 'red' : 'blue';
+      const borderColor = transcorrido % 2 === 0 ? 'red' : 'blue';
       const containerStyle = {
         border: '3px solid ' + borderColor,
         padding: 10
@@ -309,14 +280,14 @@ el solucionario de esta unidad.
 
       return div({ style: containerStyle },
         h2(null, "Timer"),
-        p(null, mensaje)
+        p(null, mensagem)
       );
     }
 
     const start = new Date().getTime();
     setInterval(function () {
       ReactDOM.render(
-        Timer({ transcurrido: new Date().getTime() - start }),
+        Timer({ transcorrido: new Date().getTime() - start }),
         document.getElementById('timer')
       );
     }, 50);
@@ -324,7 +295,7 @@ el solucionario de esta unidad.
 </body>
 ```
 
-## Referencias
+## Referências
 
-* [Documentacion oficial](https://facebook.github.io/react/) (en inglés)
-* [Recursos de `React` en español](https://github.com/jlobos/react-espanol)
+* [Documentação oficial](https://facebook.github.io/react/) (em inglês)
+* [Recursos de `React` em espanhol](https://github.com/jlobos/react-espanol)

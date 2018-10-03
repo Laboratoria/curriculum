@@ -1,53 +1,31 @@
-# Bienvenida
+# Bem-vinda!
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-En este curso proponemos una especia de "simulacro" de la vida real. Un enfoque
-orientado al producto, desarrollando nuestro proyecto como se hace hoy por hoy
-en los equipos de trabajo profesionales.
+Neste curso propomos uma espécie de "simulação" da vida real. Um enfoque orientado ao produto, desenvolvendo nosso projeto como se faz hoje em dia nas equipes de trabalho profissionais.
 
-Haremos foco en el aprendizaje de `React` como herramienta profesional para el
-desarrollo de interfaces (en este caso web), pero además practicaremos otras
-capacidades, como pueden ser el análisis, la capacidad de trabajar en equipo y
-auto-gestionarse, las prácticas de documentación, capacidad de comunicarse para
-expresar puntos de vista e ideas, etc.
+Teremos foco na aprendizagem de `React` como ferramenta profissional para o desenvolvimento de interfaces (neste caso web) mas também praticaremos outras habilidades como análise de requisitos, a capacidade de trabalhar em grupo e auto-gerenciamento, as práticas de documentação, capacidade de comunicação para expressar seus pontos de vista, ideias, etc.
 
-Todo esto buscaremos aprenderlo practicando, haciendo, golpéandonos la cabeza
-contra el teclado, conversando con nuestrxs compañerxs, consultando a nuestrxs
-tutorxs y los recursos online que ellxs nos recomienden, y principalmente,
-dedicando muchas horas a desarrollar un producto del que podamos sentirnos
-orgullosxs.
+Tudo isso aprenderemos praticando, fazendo, batendo a cabeça no teclado, conversando com nossas companheiras, consultando nossas tutoras e os recursos online que elas nos recomendarem e, principalmente, dedicando muitas horas para desenvolver um produto que possamos nos sentir orgulhosas.
 
-## Entregables
+## Entregáveis
 
-Cada equipo manejará el código fuente de su proyecto en un repositorio creado
-por sus instructorxs. Cada alumna tendrá su propio _fork_.
+Cada equipe gerenciará o código fonte de seu projeto em um repositório criado por suas instrutoras. Cada aluna terá seu próprio _fork_.
 
-Antes de finalizar el curso, tu equipo deberá enviar uno a más _pull requests_
-al repo _upstream_ para ser revisado por tus instructorxs.
+Antes de finalizar o curso, seu grupo deverá enviar um ou mais _pull requests_ para o respositório _upstream_ para ser revisado por suas instrutoras.
 
-## Evaluación
+## Avaliação
 
-En este curso no tendremos exámenes, tu puntaje final será conformado en un 60%
-por el puntaje de tu producto y tu equipo y el 40% restante será determinado por
-tu desempeño personal.
+Neste curso não teremos provas. Sua nota final será constituída de 60% da pontuação de seu produto e sua equipe e os 40% restantes serão determinados por seu desempenho pessoal.
 
-Para determinar el puntaje de tu equipo/producto contaremos con sesiones
-períodicas de revisión de código durante todo el proceso y luego con el
-desempeño del producto durante el día de la demo, donde será evaluado por el
-equipo técnico y el resto de los equipos.
+Para determinar a pontuação de seu grupo/produto contaremos com sessões periódicas de revisão de código durante todo o processo e com o desempenho do produto durante o dia da demo, o qual será avaliado pela equipe técnica e pelos demais grupos.
 
-Tu desempeño personal estará determinado por tu participación dentro de las
-sesiones presenciales, tu actividad en github (escribiendo código, comentando,
-creando issues, ...), tu actividad en slack (haciendo y/o contestando
-preguntas), etc.
+Seu desempenho pessoal será determinado por sua participação nas sessões presenciais, sua atividade no GitHub (escrevendo código, comentando, criando *issues*, ...), sua atividade no Slack (fazendo e/ou respondendo a perguntas), etc.
 
-Todos los equipos deberán exponer sus resultados durante el día de la demo,
-independientemente del estado de completitud del producto. Aquellos equipos que
-no hayan completado sus productos, tendrán un período de gracia para hacerlo.
+Todos os grupos deverão apresentar seus resultados durante o dia do demo, independentemente do estado do produto. As equipes que não tenham terminado os seus produtos terão um período extra para fazê-lo.
 
-Los ejercicios fuera de lo que es el proyecto/producto no serán calificados.
+Os exercícios fora do escopo deste projeto/produto não serão avaliados.

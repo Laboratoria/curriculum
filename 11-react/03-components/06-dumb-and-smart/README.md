@@ -1,117 +1,92 @@
-# Componentes presentacionales vs. Componentes contenedores
+# Componentes de apresentação vs. Componentes contêineres
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-La forma en la que se integran `React` y `Redux`, adopta la idea de la
-**separación entre componentes meramente presentacionales y componentes
-contenedores**.
+A forma em que integramos `React` e `Redux` é baseada na ideia da **separação entre componentes meramente de apresentação e componentes contêineres**.
 
-Con la práctica en `React`, notarás que es mucho más fácil reusar y diseñar tus
-componentes si los clasificas en dos categorías. Formalmente estas categorías
-son los *Componentes presentacionales* y los *Componentes contendores*, pero
-también se habla de componentes *Flacos y Gordos (Fat and Skinny), Tontos y
-Listos (Smart and Dumb), Stateless y Stateful, Componentes y Screens*, etc. No
-todos se refieren exáctamente a lo mismo, pero la idea central es la misma.
+Com a prática no `React`, você notará que é muito mais fácil reutilizar e projetar seus componentes se os classificar em duas categorias. Formalmente essas categorias são os *Componentes de apresentação* e os *Componentes contêineres*, mas também são usados os termos de componentes **Magros e Gordos (*Fat and Skinny*)**, **Espertos e Burros (*Smart and Dumb*)**, *Stateless* e *Stateful*, Componentes e *Screens*, etc. Nem todos se referem exatamente ao mesmo, mas a ideia central é a mesma.
 
-## Componentes presentacionales
+## Componentes de apresentação
 
-¿Qué características tiene un componente presentacional?
+Quais características um componente de apresentação possui?
 
-* Se ocupan de cómo **se ven** las cosas
-* Suelen componerse usando otros componentes (presentacionales o contenedores) y
-  generalmente contiene markup y estilos.
-* Suelen hacer uso de la prop `children`
-* No tienen dependencias con el resto de la aplicación
-* No especifican cómo se obtiene la información que usan ni cómo se modifica,
-  sólo la usan.
-* Todo lo que saben y pueden hacer lo hacen a través de sus `props`
-* Predomina el código **JSX**
+* São responsáveis por como as coisas **são vistas**.
+* Normalmente são compostos usando outros componentes (de apresentação ou contêineres) e geralmente contêm *markup* e estilos.
+* Normalmente fazem uso da `prop` `children`.
+* Não possuem dependências com o resto da aplicação.
+* Não especificam como obtém a informação que utilizam nem como a modificam, somente a usam.
+* Tudo o que sabem e podem fazer o fazem por meio de suas `props`.
+* Predomina o código **JSX**.
 
-## Componentes contenedores
+## Componentes contêineres
 
-¿Y cómo puedo reconocer a un componente contenedor?
+Como posso reconhecer um componente contêiner?
 
-* Se ocupan de cómo **funcionan** las cosas
-* Suelen componerse usando otros componentes (presentacionales o contenedores),
-  pero generalmente no contienen markup (exceptuando quizás divs para wrapping)
-  y nunca nunca contienen estilos.
-* Proveen la data y el comportamiento a componentes presentacionales o a otros
-  contenedores.
-* Usa actions de Redux para injectar callbacks a los eventos de los componentes
-  presentacionales
-* Son stateful al conectarse al `state` de Redux
-* Y en nuestro caso, se generan usando la función `connect()` de `Redux`
-* Predomina el código **JavaScript**
+* São responsáveis por como as coisas **funcionam**.
+* Normalmente são compostos utilizando outros componentes (de apresentação ou contêineres), mas geralmente não possuem markup (excetuando talvez `divs` para `wrapping`) e nunca contêm estilos.
+* Fornecem os dados e o comportamento para componentes de apresentação e a outros contêineres.
+* Utiliza *actions* de `Redux` para injetar *callbacks* nos eventos do componentes de apresentação.
+* São *stateful* quando se conectam ao `state` de `Redux`.
+* E no nosso caso, são geradas usando a função `connect()` de `Redux`.
+* Predomina o código **JavaScript**.
 
-## Beneficios de este enfoque
+## Benefícios deste enfoque
 
-* **Mejor separación de intereses (separation of concerns):** Tienes un mejor
-  entendimiento de tu aplicación y tu interfaz desarrollando de esta manera.
-* **Mayor reusabilidad:** Puedes reutilizar tus componentes presentacionales con
-  diferentes data sources y crear así nuevos componentes que a su vez pueden ser
-  reutilizados...
-* **Los componentes presentacionales son la "cara" de tu aplicación.** Puedes
-  extraerlos todos en una sólo pantalla, y así los diseñadores pueden modificar
-  la plantilla sin alterar la lógica de tu aplicación.
-* Te fuerza a extraer componetes puramente de *layout* como los Sidebar, Header
-  o Footer y usar `children`, en lugar de duplicar ese markup en diferentes
-  contenedores.
+* **Melhor separação de interesses (*separation of concerns*):** Possui um entendimento melhor de sua aplicação e de sua interface desenvolvendo desta maneira.
+* **Maior reusabilidade:**  Você pode reutilizar seus componentes de apresentação com diferentes *data sources* e criar assim novos componentes que por sua vez podem ser reutilizados...
+* **Os componentes de apresentação são a "cara" de sua aplicação.** Você pode extraí-los todos em uma única tela e assim os projetistas podem modificar o *template* sem alterar a lógica de sua aplicação.
+* Força você a extrair componentes puramente de *Layout* como os `Sidebar`, `Header` ou `Footer` e a usar `children` no lugar de duplicar esse *markup* em diferentes contêineres.
 
-Es importante que recuerdes que los componentes no tienen la obligación de
-retornar markup, sólo una función que siga las reglas de `React`.
+É importante que você se lembre que os componentes não têm a obrigação de retornar *markup*, somente uma função que siga as regras de `React`.
 
-## Componentes presentacionales vs. Componentes contenedores
+## Componentes de apresentação vs. Componentes contêineres
 
 <table>
   <thead>
     <tr>
       <th></th>
-      <th scope="col" style="text-align:left">Presentacionales (components)</th>
-      <th scope="col" style="text-align:left">Contenedores (containers)</th>
+      <th scope="col" style="text-align:left">De Apresentação (*components*)</th>
+      <th scope="col" style="text-align:left">Contêineres (*containers*)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row" style="text-align:right">Propósito</th>
-      <td>Como **se ven** las cosas  (markup, estilos)</td>
-      <td>Como **funcionan** las cosas (data fetching, state updates)</td>
+      <td>Como <b>vemos</b> as coisas  (<i>markup</i>, estilos)</td>
+      <td>Como <b>funcionam</b> as coisas (<i>data fetching</i>, *state updates*)</td>
     </tr>
     <tr>
-      <th scope="row" style="text-align:right">Saben de Redux</th>
-      <td>No</th>
-      <td>Si</th>
+      <th scope="row" style="text-align:right">Sabem de Redux</th>
+      <td>Não</th>
+      <td>Sim</th>
     </tr>
     <tr>
-      <th scope="row" style="text-align:right">Data sourcing</th>
-      <td>props</td>
-      <td>Redux state</td>
+      <th scope="row" style="text-align:right"><i>Data sourcing</i></th>
+      <td>`props`</td>
+      <td>`Redux state`</td>
     </tr>
     <tr>
-      <th scope="row" style="text-align:right">Para modificar la data</th>
-      <td>Callbacks oftenidas a través de las props</td>
-      <td>Dispatch Redux actions</td>
+      <th scope="row" style="text-align:right">Para modificar o dado</th>
+      <td><i>Callbacks</i> muitas vezes por meio das `props`</td>
+      <td><i>Dispatch Redux actions</i></td>
     </tr>
     <tr>
-      <th scope="row" style="text-align:right">Definición</th>
-      <td>Desarrolladas "a mano"</td>
-      <td>Generadas con `react-redux`</td>
+      <th scope="row" style="text-align:right">Definição</th>
+      <td>Desenvolvidas "manualmente"</td>
+      <td>Geradas com `react-redux`</td>
     </tr>
   </tbody>
 </table>
 
-Cuando un contenedor se vuelva muy complejo (por ejemplo si tiene muchos
-componentes anidados, y recibe una gran cantidad de props para sólo traspasarlas
-a sus múltiples children), introduce un nuevo container en algún punto del sub
-árbol para reducir la complejidad como se explica en el
-[FAQ de Redux](http://redux.js.org/docs/faq/ReactRedux.html#react-multiple-components).
+Quando um contêiner se torna muito complexo (por exemplo se houver muitos componentes aninhados e receber uma grande quantidade de propostas para somente transferi-las aos seus múltiplos `children`), introduza um novo contêniner em algum ponto da sub-árvores para reduzir a complexidade como é explicado na [FAQ de Redux](http://redux.js.org/docs/faq/ReactRedux.html#react-multiple-components).
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Documentación oficial de Redux - Usage with React](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Documentação oficial de Redux - Usage with React](http://redux.js.org/docs/basics/UsageWithReact.html)
 * [Smart and dump components - @dan_abramov en Medium](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)

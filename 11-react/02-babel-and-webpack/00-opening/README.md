@@ -1,54 +1,40 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Por qué aprender esto?
+## Por que aprender isto?
 
-En esta unidad veremos principalmente `Babel` y `Webpack`, que son dos piezas
-fundamentales en el ecosistema de `React`.
+Nesta unidade veremos principalmente `Babel` e `Webpack`, que são duas peças fundamentais no ecossistema do `React`.
 
-Por un lado `Babel`, que es un un _transpilador_, nos va a permitir escribir
-nuestro código usando `JSX` así como todos los últimos features de ES6 (o
-incluso ES7).
+Por um lado `Babel`, que é um _transpilador_, permitirá escrever nosso código usando `JSX` assim como todos os últimos features de ES6 (ou também ES7).
 
-Por otro lado, `Webpack` es la herramienta que nos va ayudar a empaquetar
-nuestra aplicación, transpilando y transformando tanto código fuente como assets,=
-pero no solo eso, también nos va a ofrecer features como hot reloading (con
-`webpack-dev-server`) y la posibilidad de automatizar varios procesos.
+Por outro lado, `Webpack` é a ferramenta que nos ajudará a empacotar nossa aplicação, transpilando e transformando tanto o código fonte como _assets_, mas não só isso. Também oferece funcionalidades como *hot reloading* (com `webpack-dev-server`) e a possibilidade de automatizar diversos processos.
 
-La gran mayoría de aplicaciones web usan algún tipo de _bundler_, y en el
-contexto de `React`, `Webpack` y `Babel` son casi de uso obligado.
+A grande maioria de aplicações web utilizam algum tipo de _bundler_ e no contexto de `React`, `Webpack` e `Babel` são quase obrigados.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* `Babel` es un transpilador
-* Qué es un transpilador?
-* Funciones "flecha" (arrow functions)
-* Cómo funcionan los siguientes _features_ de ES6?
-  - Asignación "desestructurada" (destructuring):
-  - Operador de propagación (spread operator):
-  - Definiciones abreviadas de Objetos (shorthand properties):
-  - Interpolación de Strings:
-  - Declaración de variables con let y const
-* Cómo usar `yarn init` para inicializar un proyecto de Node.js
-* Cómo usar `yarn add` para añadir dependencias
-* Cómo usar `yarn start` para arrancar tu acplicación
-* Cómo usar `babel-cli` para transpilar tu código fuente
-* `Webpack` es un empaquetador (bundler) de módulos y archivos
-* Cómo configurar `Webpack` para procesar y empaquetar nuestra aplicación
-* Cómo organizar el código fuente y assets de tu aplicación en diferentes
-  carpetas y archivos
+* `Babel` é um transpilador?
+* O que é um transpilador?
+* Funções "flecha" (*arrow functions*).
+* Como funcionam as seguintes _features_ de ES6?
+  - Atribuição "desestruturada" (_destructuring_);
+  - Operador de propagação (_spread operator_);
+  - Definições abreviadas de Objetos (_shorthand properties_);
+  - Interpolação de Strings;
+  - Declaração de variáveis com _let_ e _const_.
+* Como utilizar `yarn init` para inicializar um projeto de Node.js.
+* Como utilizar `yarn add` para adicionar dependências.
+* Como utilizar `yarn start` para executar sua aplicação.
+* Como utilizar `babel-cli` para transpilar seu código fonte.
+* `Webpack` é um empacotador(_bundler_) de módulos e arquivos.
+* Como configurar `Webpack` para processar e empacotar nossa aplicação.
+* Como organizar o código fonte e _assets_ de sua aplicação em diferentes pastas e arquivos.

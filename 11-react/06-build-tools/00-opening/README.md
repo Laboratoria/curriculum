@@ -1,40 +1,25 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Por qué aprender esto?
+## Por que aprender isto?
 
-En las unidades anteriores hemos cubierto un montón de conceptos, pero nuestro
-_entorno_ en todo momento ha estado enfocado a _desarrollo_. Con esto queremos
-decir que hemos configurado nuestra aplicación para que incluya _hot reloading_
-y otros features de _debugging_ que solo queremos usar en un entorno de
-_desarrollo_ y nunca en uno de _producción_ (entorno en el que publicamos
-nuestra aplicación al resto del mundo).
+Nas unidades anteriores cobrimos vários conceitos, mas nosso _ambiente_ esteve focado no _desenvolvimento_ durante todo o tempo. Com isso queremos dizer que configuramos nossa aplicação para que inclua  _hot reloading_ e outras _features_ de _debugging_ que somente queremos utilizar no ambiente de _desenvolvimento_ e nunca em um ambiente de _produção_ (ambiente no qual publicamos nossa aplicação para o restante do mundo).
 
-En esta unidad veremos los conceptos de entornos de _desarrollo_ y _producción_
-así como formas de mantener configuraciones separadas para diferentes entornos
-y cómo encapsular y automatizar los procesos de _build_ (construcción) y
-_deploy_ (despliegue).
+Nesta unidade veremos os conceitos de ambiente de _desenvolvimento_ e de _produção_, assim como maneiras de manter configurações separadas para diferentes ambientes e como encapsular e automatizar os processos de _build_ (construção) e _deploy_ (implantação).
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Cuáles son las diferencias entre los entornos de _desarrollo_ y _producción_?
-* Qué es el proceso de empaquetado?
-* Qué es el proceso de despliegue?
-* Cómo configurar diferentes configuraciones de `webpack` para diferentes
-  entornos?
-* Cómo configurar `npm-scripts` para invocar tareas?
+* Quais são as diferenças entre os ambientes de _desenvolvimento_ e de _produção_?
+* Qual é o processo de empacotamento?
+* Qual é o processo de implantação? 
+* Como configurar diferentes configurações de `webpack` para diferentes ambientes?
+* Como configurar `npm-scripts` para invocar tarefas?

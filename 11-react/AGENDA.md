@@ -1,52 +1,35 @@
-# Propuesta de agenda de sesiones presenciales
+#Proposta de Agenda de Sessões Presenciais
 
-## Proyecto: Kickstart
+## Projeto: Kickstart
 
-Durante esta sesión se presentará el reto principal del curso, formaremos los
-equipos e identificaremos las tareas que tú y tu equipo deben realizar para
-cumplir con el objetivo del curso.
+Durante esta sessão será apresentado o desafio principal do curso. Montaremos os grupos e identificaremos as tarefas que você e seu grupo devem realizar para alcançar o objetivo do curso.
 
-## Proyecto: Revisión de código, Hackeo y QA
+## Projeto: Revisão de Código, Hackeo e QA
 
-A partir de ahora ya es sólo profundizar en los conceptos aprendidos, practicar
-y enfocarte en tu producto.
+A partir de agora é só aprofundar os conceitos aprendidos, praticar e focar no seu produto.
 
-Durante esta sesión realizaremos nuestra primera revisión del código.
-Identificaremos los retos a resolver durante la siguiente semana y podremos
-hacer todas las preguntas que tengamos al equipo técnico.
+Durante esta sessão, realizaremos nossa primeira revisão de código. Identificaremos os desafios a serem resolvidos durante a próxima semana e poderemos fazer todas as perguntas que tenhamos para a equipe técnica.
 
-Repensaremos los problemas pendientes y pasados con los nuevos conceptos que
-hemos aprendido. Vamos a empezar a convertir a nuestra aplicación, en una
-aplicación verdaderamente profesional.
+Repensaremos os problemas pendentes e passados com os novos conceitos que aprendemos. Vamos começar a converter nossa aplicação em uma aplicação profissional de fato.
 
-## Proyecto: Revisión de código y QA
+## Projeto: Revisão de Código e QA
 
-Durante estas sesión realizaremos nuestra segunda y ante-ultima revisión del
-código, veremos si hemos cumplido o no con lo planeado, y por qué.
+Durante esta sessão realizaremos nossa segunda e penúltima revisão de código. Veremos se conseguimos cumprir o planejado e por quê.
 
-Decidiremos si tenemos tiempo de terminar todo, y si no es asi, priorizaremos
-las tareas que mayor efecto tengan en nuestro producto final.
+Decidiremos se temos de terminar tudo e, em caso negativo, priorizaremos as tarefas que tenham mais impacto em nosso produto final.
 
-## Proyecto: Revisión de código, QA y Tips para demos
+## Projeto: Revisão de Código, QA e Dicas para Demos
 
-Durante estas sesión realizaremos nuestra útlima revisión de código, donde ya
-deberías haber cerrado tu proyecto, y deberías estar solamente ajustando
-detalles, enfocado en tu demo.
+Nesta sessão realizaremos nossa última revisão de código, na qual você já deveria ter finalizado seu projeto e deveria estar cuidando somente de detalhes, focada em seu demo.
 
-Y tendrás una última oportunidad de aprovechar al máximo de nuestro equipo
-técnico, y resolver dudas de último minuto.
+Você terá uma última oportunidade de aproveitar ao máximo nossa equipe técnica e resolver dúvidas de última hora.
 
-## Día de la demo
+## Dia do Demo
 
-Llegó el gran día, durante el día de la demo, cada equipo contará con 10 minutos
-para hablar de su proyecto, 5 mins para hacer la demo y luego 5 mins para
-preguntas del jurado y los miembros de los otros equipos.
+Chegou o grande dia! Durante o dia do demo, cada equipe terá 10 minutos para falar de seu projeto, 5 minutos para executar o demo e 5 minutos para perguntas da banca de avaliação e dos membros das outras equipes.
 
-El orden de presentación se determinará aleatoriamente y se dará a conocer el
-mismo día.
+A ordem de apresentação será aleatória e será informada no mesmo dia.
 
-Los jurados contarán con una tabla de punteo, para valuar a los equipos y sus
-demos.
+Os avaliadores terão uma tabela de pontuação para avaliar as equipes e as demos.
 
-Luego de cotejados los puntos, se establecerá un equipo ganador (y si podemos
-dar premios baratos pero cheveres estaria genial, e incluimos un 2ndo premio).
+Após a apuração dos pontos, será informada a equipe vencedora (e sim, podemos dar prêmios baratos mas especiais e incluímos um prêmio para o segundo lugar).

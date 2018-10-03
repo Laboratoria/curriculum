@@ -1,59 +1,43 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
-## Objetivos del seminario
+## Objetivos do seminário
 
-* Hacer un resumen de lo que vamos a aprender en esta unidad
-* Explicar los entregables que se esperan de las alumnas
-* Aclarar la _hoja de ruta_ de la unidad en el contexto del curso
-* Preguntas y conceptos clave de esta unidad
+* Fazer um resumo do que vamos aprender nesta unidade.
+* Explicar os entregáveis esperados das alunas.
+* Esclarecer _roteiro_ da unidade no contexto do curso.
+* Perguntas e conceitos chave desta unidade.
 
 ***
 
-## Por qué aprender esto?
+## Por que aprender isto?
 
-**React** es una tecnología realmente revolucionaria en el mundo del desarrollo
-web y representa un cambio de paradigma que va mucho más allá del navegador o
-incluso la web.
+**React** é uma tecnologia revolucionária no mundo de desenvolvimento web e representa uma mudança de paradigma que vai além do navegador e da web.
 
-Hoy por hoy, como desarrolladora es esencial conocer `React` y su ecosistema,
-tanto para desarrollo de aplicaciones web, nativas, desktop, ...
+Como desenvolvedora, hoje é essencial conhecer `React' e seu ecossistema para desenvolvimento de aplicações web, nativas, desktop, ...
 
-Añadiendo al "hype" de `React`, cabe mencionar que compañías como
-Netflix, PayPal, AirBnB, Apple, Instagram o Facebook usan `React` en sus
-productos.
+Adicionando ao "hype" de `React`, vale lembrar que companhias como Netflix, PayPal, AirBnb, Apple, Instagram ou Facebook usam `React` em seus produtos.
 
-A medida que la web ha ido evolucionando y hemos pasado de páginas estáticas a
-aplicaciones web cada vez más **interactivas y dinámicas**, sumado eso a la
-aparición de los **clientes móbiles**, ha sido necesaria la creación de nuevas
-estrategias y herramientas, que nos permitan lidiar con esta complejidad
-creciente en el desarrollo de interfaces, de una manera **ordenada**,
-**uniforme** y **sostenible**.
+À medida que a web foi evoluindo e passou de páginas estáticas para aplicações web cada vez mais **interativas e dinâmicas**, somado a isso o surgimento de **clientes móveis**, foi necessário a criação de novas estratégias e ferramentas que nos permitam lidar com essa complexidade crescente no desenvolvimento de interfaces de uma maneira **ordenada**, **uniforme** e **sustentável**.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* ¿Que diferencia hay entre una *librería* y un *framework*?
-* ¿Qué es `React` y para qué sirve?
-* ¿Qué es el `Virtual DOM`?
-* ¿Cómo añadimos React a una página web?
-* ¿Qué es `react-dom` y qué son los diferentes renderers?
-* ¿Cómo decide React qué nodos actualizar del DOM?
-* ¿Qué es `JSX`?
-* ¿Qué es una expresión?
-* ¿Cómo funciona el renderizado condicional?
-* ¿Cómo manejar listas/colecciones en `React`?
-* ¿Qué es el `key` en los componentes renderizados dentro de un `map` y por qué
-  es importante?
+* Qual a diferença entre uma *biblioteca* e um *framework*?
+* O que é o `React` e para que serve?
+* Por que dizemos que `React` permite definir interfaces de uma maneira "declarativa"?
+* O que é o `Virtual DOM` ?
+* Como adicionamos o `React` a uma página web?
+* O que é o `react-dom` e o que são os diferentes *renderers*?
+* Como o `React` decide quais nós atualizar no DOM?
+* O que é `JSX`?
+* O que é uma expressão?
+* Como funciona o renderizado condicional?
+* Como manipular listas/coleções no `React`?
+* O que é a `key` nos componentes renderizados dentro de um `map` e por que ela é importante?

@@ -1,35 +1,26 @@
-# Cierre
+# Encerramento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Resumen
+## Resumo
 
-En esta unidad hemos visto todos los conceptos fundamentales de los
-_componentes_ en `React`: cómo implementar componentes, cómo definir sus
-propiedades (`props`) usando `prop-types`, el concepto y manejo de la propiedad
-especial `children`, los _Higher-order Components_ y convenciones comunes en la
-comunidad de `React`.
+Nesta unidade vimos todos os conceitos fundamentais dos _componentes_ em `React`: como implementar componentes, como definir suas propriedades (`props`) usando `prop-types`, o conceito e manipulação da propriedade especial `children`, os _High-order Componentes_ e convenções comuns na comunidade de `React`. 
 
-Llegado a este punto, tenemos las herramientas para construir interfaces de
-forma declarativa usando componentes y _HOCs_. Esa es la abstracción más
-poderosa de `React`, y la que lo hace tan versátil.
+Chegado a este ponto, temos as ferramentas para construir interfaces de forma declarativa utilizando componentes e _HOCs_. Essa é a abstração mais poderosa de `React` e é o que a faz tão versátil.
 
-En las siguientes unidades introduciremos conceptos más avanzados de manejo de
-estado, implementación de componentes con clases (OOP), ciclo de vida de
-componentes y herramientas de _build_.
+Nas próximas unidades introduziremos conceitos mais avançados de manipulação de estado, implementação de componentes com classes (OOP), ciclo de vida de componentes e ferramentas de _build_.
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Cómo usar `prop-types` para definir las propiedades que acepta/espera un
-  componente.
-* Qué es y cómo funciona la propiedad `children`.
-* Cómo manipular (filtrar, transformar, ...) los `children`
-* Cómo componer una interfaz anidando componentes
-* Qué son los Higher-order Components?
-* Cómo usar _HOCs_ para componer components
-* Cómo implementar _HOCs_
-* Diferencias entre componentes presentacionales vs contenedores
+* Como usar `prop-types` para definir as propriedades que aceitam/esperam um componente?
+* O que é e como funciona a propriedade `children`?
+* Como manipular (filtrar, transformar, ...) os `children`?
+* Como compor uma interface aninhando componentes?
+* O que são os *High-order Components*?
+* Como utilizar _HOCs_ para compor *components*?
+* Como implementar _HOCs_?
+* Diferenças entre componentes de apresentação e de contêineres.

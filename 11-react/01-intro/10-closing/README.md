@@ -1,34 +1,28 @@
-# Cierre
+# Encerramento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Resumen
+## Resumo
 
-En esta unidad introducimos `React` en general, cómo funciona a nivel conceptual
-la librería, y cómo podemos usar JSX para trabajar más fácilmente y de una
-manera más natural con el código de `React`.
+Nesta unidade introduzimos `React` em geral, como a biblioteca funciona em nível conceitual e como podemos utilizar `JSX` para trabalhar mais facilmente e de uma maneira mais natural com o código de `React`.
 
-Hemos visto cómo añadir React y React DOM a una página web, y lo más importante,
-hemos introducido el concepto de _componente_ y la manera de pensar en
-interfaces compuestas de componentes.
+Vimos como adicionar `React` e `React DOM` em uma página web e, o mais importante, introduzimos o conceito de _componente_ e a maneira de pensar em interfaces formadas por componentes.
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* ¿Que diferencia hay entre una *librería* y un *framework*?
-* ¿Qué es `React` y para qué sirve?
-* ¿Por qué decimos que `React` nos permite definir interfaces de una manera
-  "declarativa"?
-* ¿Qué es el `Virtual DOM`?
-* ¿Cómo añadimos React a una página web?
-* ¿Qué es `react-dom` y qué son los diferentes renderers?
-* ¿Cómo decide React qué nodos actualizar del DOM?
-* ¿Qué es `JSX`?
-* ¿Qué es una expresión?
-* ¿Cómo funciona el renderizado condicional?
-* ¿Cómo manejar listas/colecciones en `React`?
-* ¿Qué es el `key` en los componentes renderizados dentro de un `map` y por qué
-  es importante?
+* Qual a diferença entre uma *biblioteca* e um *framework*?
+* O que é o `React` e para que serve?
+* Por que dizemos que `React` permite definir interfaces de uma maneira "declarativa"?
+* O que é o `Virtual DOM`?
+* Como adicionamos o `React` a uma página web?
+* O que é o `react-dom` e o que são os diferentes *renderers*?
+* Como o `React` decide quais nós atualizar no DOM?
+* O que é `JSX`?
+* O que é uma expressão?
+* Como funciona o renderizado condicional?
+* Como manipular listas/coleções no `React`?
+* O que é a `key` nos componentes renderizados dentro de um `map` e por que ela é importante?

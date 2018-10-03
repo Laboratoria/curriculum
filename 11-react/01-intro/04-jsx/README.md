@@ -1,57 +1,53 @@
 # JSX
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `4min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `4min`
 
 ***
 
-## ¿Qué es y para qué sirve?
+## O que é e para que serve?
 
-`JSX` es una extensión al lenguage JavaScript, que agrega estructuras
-sintácticas que nos permiten trabajar más fácilmente y de una manera más natural
-con el código de `React`.
+`JSX` é uma extensão da linguagem JavaScript que adiciona estruturas sintáticas que permitem trabalhar mais facilmente e de uma maneira mais natural com o código de `React`.
 
-Gracias a `JSX,` desarrollar interfaces con componentes se vuelve tan natural
-como escribir `HTML`.
+Graças à `JSX`, desenvolver interfaces com componentes se torna tão natural quanto escrever `HTML`.
 
-## Migrando a JSX
+## Migrando para JSX
 
-Continuando con el ejemplo con el que empezamos esta unidad, nuestra primera
-implementación del componente `Cabecera` era algo así:
+Continuando com o exemplo com o que começamos nesta unidade, nossa primeira implementação do componente `Cabecalho` era mais ou menos assim:
 
 ```js
-function Cabecera(props) {
-  const titulo = 'Saludo';
+function Cabecalho(props) {
+  const titulo = 'Saudação';
 
   return React.DOM.div({ style: { borderColor: 'red' } },
     React.DOM.h2(null, titulo),
     React.DOM.p(null,
-      "Hola ", React.DOM.b(null, props.nombre), ".", React.DOM.br(null),
-      "Un link? ", React.DOM.br(null),
+      "Olá ", React.DOM.b(null, props.nome), ".", React.DOM.br(null),
+      "Um link? ", React.DOM.br(null),
       React.DOM.a({ href:"http://laboratoria.la" }, "Laboratoria")
     )
   );
 }
 
 ReactDOM.render(
-  Cabecera({ nombre: 'Mundo' }),
-  document.getElementById('cabecera')
+  Cabecalho({ nome: 'Mundo' }),
+  document.getElementById('cabecalho')
 );
 ```
 
-Con `JSX` lo expresaríamos de la siguiente manera:
+Com `JSX` escreveríamos desta maneira:
 
 ```jsx
-function Cabecera(props) {
-  const titulo = 'Saludo';
+function Cabecalho(props) {
+  const titulo = 'Saudação';
 
   return (
     <div style={{ borderColor: 'red' }}>
       <h2>{titulo}</h2>
       <p>
-        Hola <b>{props.nombre}</b>.<br />
-        Un link? <br />
+        Olá, <b>{props.nome}</b>.<br />
+        Um link? <br />
         <a href="http://laboratoria.la">Laboratoria</a>
       </p>
     </div>
@@ -59,28 +55,25 @@ function Cabecera(props) {
 }
 
 ReactDOM.render(
-  <Cabecera nombre="Mundo" />,
+  <Cabecalho nome="Mundo" />,
   document.getElementById('cabecera')
 );
 ```
 
-Mucho más elegante, ¿verdad?
+Muito mais elegante, não?
 
 ***
 
-Por cierto, si intentas ejecutar el script anterior, el navegador te arrojará un
-error. Esto es porque el navegador aún no entiende `JSX`. En la próxima lectura
-veremos como hacer que el navegador entienda `JSX`.
+Certamente, se você tentar executar o script anterior, o navegador disparará um erro. Isso acontece porque o navegador ainda não entende `JSX`. Na próxima leitura veremos como fazer o navegador entender `JSX`.
 
 ***
 
-## Expresiones
+## Expressões
 
-Fíjate como injectamos [expresiones JavasScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
-dentro de nuestros tags, usando llaves (`{}`), en este caso `titulo`:
+Olhe como injetamos [expressões JavasScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) dentro de nossas tags, usando chaves (`{}`). Neste caso, `titulo`:
 
 ```jsx
-const titulo = 'Saludo';
+const titulo = 'Saudação';
 
 return (
   // ...
@@ -89,6 +82,4 @@ return (
 )
 ```
 
-Una expresión es básicamente cualquier unidad de código que resuelva a un valor.
-Todas las siguientes son expresiones válidas: `2 + 2`, `user.email`,
-`formatDate(new Date())`.
+Uma expressão é basicamente qualquer unidade de código que referencia um valor. Todas as seguintes são expressões válidas: `2 + 2`, `user.email`, `formatDate(new Date())`.

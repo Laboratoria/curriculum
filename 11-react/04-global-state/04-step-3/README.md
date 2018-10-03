@@ -1,52 +1,33 @@
 # React + Redux = Awesome
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
+## Passo 3: Identifique a representação mínima (mas completa) do estado de sua UI
 
-Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes que
-necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
-Identifica la representación absolutamente mínima del `state` de tu aplicación y
-toda la información derivada la calculas bajo demanda. Por ejemplo si en nuestro
-ejemplo quisieramos mostrar la suma total de items disponibles, sólo nos alcanza
-con tener la lista de productos e iterarla para contabilizar la disponibilidad,
-sin necesidad de tener otra propiedad en nuestro `state` para guardar el
-cálculo.
+Pense em qual é o mínimo conjunto de dados mutuamente excludentes que sua aplicação precisa. A chave aqui é DRY: *Don't repeat yourself*. Identifique a representação absolutamente mínima do `state` de sua aplicação e toda a informação derivada que você calcula sob demanda. Por exemplo, se em nosso exemplo quiséssemos mostrar a soma total de itens disponíveis, nós só temos que ter uma lista de produtos e iterá-la para considerar a disponibilidade, sem necessidade de ter outra propriedade em nosso `state` para armazenar o cálculo.
 
-A veces uno pensaría que es ineficiente recomputar un valor cada vez que se
-necesita, pero el impacto en performance es mínimo en relación a la complejidad
-de mantener dos propiedades de nuestro estado sincronizadas a través del tiempo.
-Recuerda, identifica el *mínimo conjunto* de datos que necesita tu *aplicación*,
-y *solo eso*, ni una propiedad más en el `state`.
+Às vezes alguém pensaria que é ineficiente recalcular um valor cada vez que seja necessário, mas o impacto em desempenho é mínimo em relação à complexidade de manter duas propriedades de nosso estado sincronizadas ao longo do tempo. Lembre-se, identifique o *conjunto mínimo* de dados que sua *aplicação* precisa e *somente esse conjunto*, nem uma propriedade a mais no `state`.
 
-Entonces, con eso en mente, piensa en el conjunto mínimo de piezas de
-información, que tiene que tener nuestra aplicación, para ser completamente
-funcional:
+Então, com isso em mente, pense no conjunto mínimo de peças de informação que nossa aplicação precisa ter para ser completamente funcional:
 
-* La lista de productos
-* El texto de búsqueda que ingresa el usuario
-* El valor del checkbox
+* A lista de produtos;
+* O texto de busca que o usuário digita;
+* O valor do *checkbox*.
 
-> Uno podría decir que es necesario mantener dos
-copias de la lista: la original y la filtrada.
-Pero recuerda que el conjunto es el mínimoÑ la lista filtrada de productos
-se obtiene filtrando la lista original, segun el valor del checkbox, es decir
-que es una propiedad derivada de otras dos, por lo tanto no pertenece al `state`.
+> Alguém poderia dizer que é necessário manter duas cópias da lista: a original e a filtrada. Mas lembre-se que o conjunto é o mínimo: a lista filtrada de produtos
+é obtida filtrando a lista original, de acordo com o valor do _checkbox_. Ou seja, é uma propriedade derivada de outras duas e portanto não pertence ao `estado`.
 
-Ahora hacemos la integración de React con Redux para comenzar con este estado
-global.
+Agora fazemos a integração do `React` com `Redux` para começar com este estado global.
 
-> No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas
-> luego desarrollar tus propios actions y reducers
+> Não esperamos que você entenda tudo que está acontecendo aqui, mas entenda que você pode desenvolver suas próprias _actions_ e _reducers_. 
 
-Aquí es donde entra en acción Redux.
+Aqui é onde entra em ação o `Redux`.
 
-Primero (3.1) creamos un nuevo archivo `lib/store.js` que contendrá la
-configuración de nuestro Redux store
+Primeiro (3.1) criamos um novo arquivo `lib/store.js` que conterá a configuração de nosso `Redux store`:
 
 ```js
 // lib/store.js
@@ -56,26 +37,25 @@ import { createStore, combineReducers } from 'redux';
 import AppReducer from './reducer';
 
 const rootReducer = combineReducers({
-  // aquí puedes ir agregando entradas de tu store
+  // Aqui você pode ir adicionando entrada de sua store.
   AppReducer,
 });
 
 const store = createStore(
   rootReducer,
-  // inyectamos la capacidad de usar Redux Dev Tools
+  // Injetamos a capacidade de usar Redux Dev Tools.
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
 
 export default store;
 ```
 
-y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de
-nuestra aplicación, como lo definimos más arriba.
+Em seguida criamos nosso `lib/reducer.js` que conterá o estado inicial de nossa aplicação, como definimos mais acima.
 
 ```js
 // lib/reducer.js
 
-// Supongamos que estos son los productos que recibimos de nuestra API JSON
+// Suponhamos que estes são os produtos que recebemos de nossa API JSON.
 const PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
   {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -86,14 +66,14 @@ const PRODUCTS = [
 ];
 
 const INIT_STATE = {
-  // La de productos
+  // A de produtos:
   products: PRODUCTS,
-  // El texto de búsqueda que ingresa el usuario
+  // O texto de busca que o usuário digita:
   filterText: '',
-  // El valor del checkbox
+  // O valor do checkbox:
   inStockOnly: false,
 
-  // y heredamos las propiedades para la barra lateral
+  // E herdamos as propriedades para a barra lateral:
   asideTitulo: 'Links',
   asideLinks: [
    { href: '#', texto: 'Link 1'},
@@ -104,8 +84,7 @@ const INIT_STATE = {
  ],
 };
 
-// nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor
-// inicial
+// Nosso reducer contudo não realiza nenhuma ação, mas já possui um valor inicial.
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
 
@@ -115,16 +94,16 @@ export default (state = INIT_STATE, action) => {
 };
 ```
 
-y modificamos el `index.js` para que haga el setup inicial del store.
+E modificamos o `index.js` para que faça o setup inicial do `store`.
 
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
-// El componente Provider que expone `react-redux`
+// O componente Provider que expõe `react-redux`:
 import { Provider } from 'react-redux';
-// El que acabamos de crear
+// O que acabamos de criar:
 import store from './lib/store';
 
 import Main from './lib/components/Main';
@@ -134,7 +113,7 @@ require("./styles.css");
 const render = (Component, props = {}) => {
   ReactDOM.render(
     <AppContainer>
-      <Provider store={store}> {/* <---- wrapping con el store */}
+      <Provider store={store}> {/* <---- wrapping con o store */}
         <Component {...props} />
       </Provider>
     </AppContainer>,
@@ -152,43 +131,39 @@ if (module.hot) {
 }
 ```
 
-Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con
-la info indicada en INIT_STATE
+Se verificar o `Redux Dev Tools` você verá como o estado da aplicação já conta com a informação indicada no INIT_STATE.
 
 ![State en Redux Dev Tools](https://user-images.githubusercontent.com/110297/37154993-b3cfd14e-22af-11e8-9336-7ba13ab31815.png)
 
-Luego (3.2), quitemos el hack que colocamos en `lib/components/Main.js` e
-inyectemos la magia de Redux a nuestros componentes.
+Em seguida (3.2), vamos remover o _hack_ que colocamos em `lib/components/Main.js` e injetemos a magia de `Redux` em nossos componentes.
 
-Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro
-HOC a la altura de la carpeta `components` que se encargará de setear la data
-que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
+Para isso necessitamos fazer somente duas coisas. Primeira vamos criar nosso _HOC_ no nível da pasta `components` que será encarregado de setar o dado que `lib/components/Main.js` necessita  e criaremos em `lib/Main.js`
 
 ```js
 // lib/Main.js
 
-// te acuerdas que hablamos de `connect` al comienzo de la lección?
-// Finalmente esta aquí!!!
+// Lembra que falamos de `connect` no começo da lição?
+// Finalmente esta aqui!!!
 import { connect } from 'react-redux';
-// Y el componente puramente presentacional de Main, ya sin hack
+// E o componente puramente de apresentação de Main, já sem o hack:
 import MainComponent from './components/Main';
 
 const MainWithRedux = connect(
-  // `connect` recibe dos parámetros. El primero de ellos es
-  // `mapStateToProps` que justamente lo que haces es mapear valores del state
-  // a props que recibirá `MainComponent`
+  // `connect` recebe dois parâmetros. O primeiro deles é
+  // `mapStateToProps` que faz justamente o mapeamento de valores do state para 
+  // as props que receberão `MainComponent`.
   function mapStateToProps(state) {
-    // buscamos los 3 valores que nos interesan
+    // Buscamos os 3 valores que nos interessam:
     const {
       filteredProducts,
       asideTitulo,
       asideLinks,
     } = state.AppReducer;
 
-    // y devolvemos las nuevas props
+    // E retornamos as novas props.
     return {
-      // fijate q los productos filtrados en el state se llaman `filteredProducts`
-      // pero que la props del componente `Main` se llama `products`
+      // Observe que os produtos filtrados no store se chamam `filteredProducts`,
+      // mas que as props do componente `Main` se chamam `products`.
       products: filteredProducts,
       asideTitulo,
       asideLinks,
@@ -199,15 +174,13 @@ const MainWithRedux = connect(
 export default MainWithRedux;
 ```
 
-Y lo segundo es indicar en `index.js` que ya no queremos usar
-`lib/components/Main`, sino su versión mejorada `lib/Main`.
+E a segunda coisa é indicar no `index.js` que já não queremos utilizar `lib/components/Main` mas sim sua versão melhorada `lib/Main`.
 
-> Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate
-> cómo eso se refleja en tu interfaz!
+> Teste a mudança dos valores de INIT_STATE no `./lib/reducer.js` e observe como isso se reflete em sua interface!
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
-* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Thinking in React - Documentação oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentação oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
