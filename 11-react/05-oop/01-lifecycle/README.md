@@ -62,7 +62,7 @@ Os componentes definidos como `class` possuem algumas `features` adicionais que 
 Para converter um componente `stateless` como `Relogio` em uma classe, você deve seguir estes 4 passos:
 
 
-1. Crie uma [classe de `ES6`]([ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) (`class`) e faça com que herde de `React.Component`.
+1. Crie uma [classe de `ES6`]([ES6 class](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes) (`class`) e faça com que herde de `React.Component`.
 
 2. Crie um método em sua classe chamado `render()`.
 
@@ -108,7 +108,7 @@ Agora, moveremos a `data` de `props` para o `state` em 3 passos:
    }
    ```
 
-2. Adicionamos um [construtor](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Constructor) que atribui o valor inicial de `this.state`:
+2. Adicionamos um [construtor](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes) que atribui o valor inicial de `this.state`:
 
    ```js
    class Relogio extends React.Component {
@@ -184,7 +184,7 @@ Agora faremos com que `Relogio` configure seu próprio _timer_ e se auto atualiz
 
 Nas aplicações com muitos componentes, é muito importante liberar os recursos bloqueados, uma vez que o componente precisa que eles sejam liberados.
 
-Então, nós queremos [configurar um _timer_](https://developer.mozilla.org/es-ES/docs/Web/API/WindowTimers/setInterval) no momento em que `Relogio` é injetado no `DOM` na primeira vez. Isso se chama *montar* (`mount`) um componente no jargão do `React`.
+Então, nós queremos [configurar um _timer_](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) no momento em que `Relogio` é injetado no `DOM` na primeira vez. Isso se chama *montar* (`mount`) um componente no jargão do `React`.
 
 E a de maneira análoga, queremos [limpar o  timer](https://developer.mozilla.org/es-ES/docs/Web/API/WindowTimers/clearInterval) quando o `DOM` produzido por `Relogio` for removido. Isso se chama *desmontar* (`unmount`) um componente.
 

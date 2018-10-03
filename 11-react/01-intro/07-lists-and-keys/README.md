@@ -8,7 +8,7 @@
 
 Primeiro, recordemos como manipular listas no JavaScript.
 
-Dado o código abaixo, usamos a função [`map()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map) para tomar um array de números e dobrá-los. Atribuímos o novo array resultante do `map()` à variável `doubled` e o imprimimos:
+Dado o código abaixo, usamos a função [`map()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map) para tomar um array de números e dobrá-los. Atribuímos o novo array resultante do `map()` à variável `doubled` e o imprimimos:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];

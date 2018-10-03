@@ -70,7 +70,7 @@ Certamente, se você tentar executar o script anterior, o navegador disparará u
 
 ## Expressões
 
-Olhe como injetamos [expressões JavasScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) dentro de nossas tags, usando chaves (`{}`). Neste caso, `titulo`:
+Olhe como injetamos [expressões JavasScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) dentro de nossas tags, usando chaves (`{}`). Neste caso, `titulo`:
 
 ```jsx
 const titulo = 'Saudação';

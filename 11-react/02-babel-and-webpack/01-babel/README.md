@@ -189,7 +189,7 @@ As *funções flecha* propiciam principalmente 3 benefícios:
 
 Para conhecer com mais detalhes os benefícios e características das *funções flecha* recomendamos os seguintes recursos:
 
-* [*Funções Flecha* no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)
+* [*Funções Flecha* no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * [*JavaScript Arrow Functions Introduction* por Wes Bos](http://wesbos.com/arrow-functions/)
 
 ***

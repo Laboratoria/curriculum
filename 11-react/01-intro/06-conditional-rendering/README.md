@@ -8,7 +8,7 @@
 
 No `React`, você pode construir diferentes componentes para encapsular o comportamento necessário. Logo, você pode renderizar somente alguns desses componentes, dependendo do estado de sua aplicação.
 
-> O *renderizado condicional* funciona da mesma forma que funcionam as condições em JavaScript. Utiliza sentenças como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) ou o [operador condicional](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator) para criar elementos que representam o estado atual e deixa que o `React` atualize a interface do usuário.
+> O *renderizado condicional* funciona da mesma forma que funcionam as condições em JavaScript. Utiliza sentenças como [`if`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else) ou o [operador condicional](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operador_Condicional) para criar elementos que representam o estado atual e deixa que o `React` atualize a interface do usuário.
 
 Considere os seguintes componentes:
 
@@ -127,7 +127,7 @@ Logo, se a condição é `true`, o elemento à direita do `&&` aparece no _outpu
 
 ## Operador condicional ternário
 
-Outro método para renderizar condicionalmente elementos com uma expressão é utilizando o operador ternário [`condition ? true : false`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator).
+Outro método para renderizar condicionalmente elementos com uma expressão é utilizando o operador ternário [`condition ? true : false`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operador_Condicional).
 
 No exemplo abaixo, utilizamo-lo para renderizar condicionalmente só uma palavra.
 
