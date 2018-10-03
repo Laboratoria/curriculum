@@ -8,13 +8,13 @@
 
 ## Por que aprender isto?
 
-Até agora concentramos nossos esforços na implementação de componentes como funções, o que no mundo do `React` normalmente chamaos de _stateless components_. Mas a esta altura você provavelmente terá se dado conta de que muito dos exemplos do `React` na web mostram a implementação de componentes como classes (utilizando a _keyword_ `class`).
+Até agora concentramos nossos esforços na implementação de componentes como funções, o que no mundo do `React` normalmente chamamos de _stateless components_. Mas a esta altura você provavelmente terá se dado conta de que muito dos exemplos do `React` na web mostram a implementação de componentes como classes (utilizando a _keyword_ `class`).
 
 O motivo pelo qual começamos com componentes _stateless_ é por que sua implementação é mais simples e demonstra a funcionalidade e padrões comuns com muito menos _boilerplate_. De fato, no mundo real normalmente tratamos de evitar a implementação com classe a não ser que necessitemos de _features_ (funcionalidades) que as funções não nos oferecem. Em particular:
 
-* Estado interno
-* _Life-cycle hooks_
-* Refs
+* Estado interno;
+* _Life-cycle hooks_;
+* Refs.
 
 Nesta unidade veremos como podemos usar classes para acessar estas _features_ nos casos em que forem necessárias.
 
@@ -25,8 +25,8 @@ Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceito
 A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
 * Como implementar um componente como classe (`class`)?
-* Diferenças entre o estado global ou externo e estado interno
+* Diferenças entre o estado global ou externo e estado interno.
 * Qual é o _ciclo de vida_ de um componente?
-* Como _interceptar_ eventos do ciclo de vira para executar código específico?
+* Como _interceptar_ eventos do ciclo de vida para executar código específico?
 * O que é e como funciona a propriedade especial `ref` nos nós renderizados por um componente _statefull_?
 * Quando usar referências (`refs`)?

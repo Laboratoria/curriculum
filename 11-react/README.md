@@ -1,6 +1,6 @@
 # React
 
-**React** é uma tecnologia realmente revolucionário que além de permitir criar interfaces utilizando lindos componentes, também apresenta uma mudança de paradigma que vai muito além do navegador e da web.
+**React** é uma tecnologia realmente revolucionária que além de permitir criar interfaces utilizando lindos componentes, também apresenta uma mudança de paradigma que vai muito além do navegador e da web.
 
 A medida que a web foi evoluindo e passamos de páginas estáticas para aplicações web cada vez mais **interativas e dinâmicas**, incluindo também o surgimento dos **clientes *mobiles***, foi necessária a criação de novas estratégias e ferramentas que nos permitam lidar com esta complexidade crescente no desenvolvimento de interfaces de uma maneira **ordenada**, **uniforme** e **sustentável**.
 
@@ -18,35 +18,35 @@ Este curso é destinado a pessoas com conhecimentos prévios de **programação 
 
 Para seguir adiante com este curso sem frustração é recomendável os seguintes conhecimentos prévios:
 
-* Manipulação de linha de comandos (\*nix) 8 git
-* JavaScript funcional: ES6, imutabilidade, node e npm
-* Desenvolvimento web padrão: HTML e DOM + CSS
+* Manipulação de linha de comandos (\*nix) 8 git;
+* JavaScript funcional: ES6, imutabilidade, node e npm;
+* Desenvolvimento web padrão: HTML e DOM + CSS.
 
 Também recomendamos ter completado nosso curso  **JavaScript Funcional**.
 
 ## Você aprenderá
 
 * Fundamentos de **React**:
-  - Virtual DOM
-  - One-way data binding
-  - Learn once, write anywhere
-* Componentes `stateless` (sem estado)
+  - Virtual DOM;
+  - One-way data binding;
+  - Learn once, write anywhere;
+* Componentes `stateless` (sem estado).
 * **ES2015**: Utilizar as últimas especificações e extenções de javascript (ES2015) de maneira "universal" por meio das transpilação e o uso de *polyfills*. Ferramentas: `yarn`, `babel`.
 * **JSX**: Uma linguagem que extende JavaScript permitindo a inclusão de estruturas declarativas para construir interfaces.
-* Definição de propriedadas (`props`) para os componentes e seus tipos.
+* Definição de propriedades (`props`) para os componentes e seus tipos.
 * Manipulação de `state` global.
 * Componentes `statefull`:
   - Seu ciclo de vida.
   - Manipulação de `state` interno.
-  - Referências entre componentes (`refs`)
+  - Referências entre componentes (`refs`).
 
 ## Formato do curso
 
 Neste curso propomos uma espécie de "simulação" da vida real. Um enfoque orientado ao produto, desenvolvendo nosso projeto como se faz hoje pelas equipes de trabalho profissionais.
 
-Teremos o foco na aprendizagem de `React` como uma ferramenta profssional para o desenvolvimento de interfaces (neste caso web), mas também praticaremos outras habilidades, como a análise de requisitos, a capacidade de trabalhar em equipe e auto-gerenciamento, as práticas de documentação, capacidade de comunicação para expressar pontos de vista e ideias, etc.
+Teremos o foco na aprendizagem de `React` como uma ferramenta profissional para o desenvolvimento de interfaces (neste caso web), mas também praticaremos outras habilidades, como a análise de requisitos, a capacidade de trabalhar em equipe e auto-gerenciamento, as práticas de documentação, capacidade de comunicação para expressar pontos de vista e ideias, etc.
 
-Tudo isso vamos aprender praticando, fazendo, batendo a cabeça no teclado, conversando com nossas companheiras, consultando nossas tutoras e os recursos *online* que elas nos recomendarem e, principalmente, dedicando muitas horas ao desenvolvimento de um produto do que poderemos nos sentir orgulhosas.
+Tudo isso vamos aprender praticando, fazendo, batendo a cabeça no teclado, conversando com nossas companheiras, consultando nossas tutoras e os recursos *online* que elas nos recomendarem e, principalmente, dedicando muitas horas ao desenvolvimento de um produto que poderemos nos sentir orgulhosas.
 
 ## Avaliação
 
@@ -54,7 +54,7 @@ Neste curso não teremos provas. Sua nota final será formada por 60% referente 
 
 Para determinar a nota de sua equipe/produto teremos sessões periódicas de revisão de código durante todo o processo e com o desempenho do produto durante o dia da demo, o qual será avaliado pela equipe técnica e pelas demais equipes.
 
-Seu desempenho pessoa será determinado por sua participação dentro das sessões presenciais, suas atividades no GitHub (escrevendo código, comentando, criando *issues*, ...), sua atividade no Slack (fazendo e/ou respondendo a perguntas), etc. 
+Seu desempenho pessoal será determinado por sua participação dentro das sessões presenciais, suas atividades no GitHub (escrevendo código, comentando, criando *issues*, ...), sua atividade no Slack (fazendo e/ou respondendo a perguntas), etc. 
 
 Todos os grupos deverão apresentar seus resultados no dia do demo, independentemente do estado de desenvolvimento do produto. Os grupos que não tiverem completado os produtos terão um período extra para fazê-lo.
 
@@ -64,16 +64,16 @@ Os exercícios fora do escopo deste projeto/produto não serão avaliados.
 
 Neste curso você construirá uma "Single page app" com os seguintes requisitos:
 
-* Ser totalmente desenvolvida em `ES6` e empacotada de maneira automatizada com `babel`  ou `webpack`
-* Utilizando `React` e `Redux`
-* Com ao menos 10 componentes que especifiquem todas as suas propriedades, 3 *reducers* não atômicos (JSON) e 3 *actions*
-* Conter scripts `run`, `build` e `deploy` que se encarreguem de executar, empacotar e publicar a aplicação respectivamente
-* Publicar nas GitHub pages
-* Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub
-* No dia do demo, a aplicação deverá estar publicada em uma URL acessível universalmente
-* Não é necessário implementar rotas
-* Não é necessário implementar persistência
-* Não é necessário implementar conexões remotas
+* Ser totalmente desenvolvida em `ES6` e empacotada de maneira automatizada com `babel`  ou `webpack`;
+* Utilizando `React` e `Redux`;
+* Com ao menos 10 componentes que especifiquem todas as suas propriedades, 3 *reducers* não atômicos (JSON) e 3 *actions*;
+* Conter scripts `run`, `build` e `deploy` que se encarreguem de executar, empacotar e publicar a aplicação respectivamente;
+* Publicar nas GitHub pages;
+* Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub;
+* No dia do demo, a aplicação deverá estar publicada em uma URL acessível universalmente;
+* Não é necessário implementar rotas;
+* Não é necessário implementar persistência;
+* Não é necessário implementar conexões remotas.
 
 ## Syllabus
 
@@ -83,7 +83,7 @@ Esta primeira unidade contém tudo o que você necessita saber a respeito do _de
 
 ### Unidade 02: [Introdução a React e JSX](01-intro)
 
-Nesta primeira unidade veremos o o `React` faz exatamente, como integrá-lo em tempo zero em uma página web existente e como construir interfaces com ele.
+Nesta primeira unidade veremos o que o `React` faz exatamente, como integrá-lo em tempo zero em uma página web existente e como construir interfaces com ele.
 
 `React` pode ser desenvolvimento em ES5, mas por sua natureza declarativa, isso é muito pesado. É por isso que `React` usa `JSX` por padrão como sua `templating language`.
 
@@ -97,7 +97,7 @@ Agora que você já teve a oportunidade de ver o básico de `React` em ação, n
 
 Graças aos parâmetros de nomeação e ao  *desestructuring*, já aprendemos como especificar nossas `props` na assinatura de nossos componentes. Nesta unidade focaremos na especificação de seus tipos, opcionalidade e valores por padrão.
 
-Logo analizaremos a propriedade especial `childre` e como manipulá-la com `.map` e `.filter`.
+Logo analizaremos a propriedade especial `children` e como manipulá-la com `.map` e `.filter`.
 
 ### Unidade 05: [Estado global](04-global-state)
 
@@ -105,7 +105,7 @@ Até aqui podemos dizer que `React` pode ser uma ferramenta muito boa, mas realm
 
 Nesta unidade vamos mergulhar no que realmente faz o `React` e seus amigos um conjunto de ferramentas **único**: um novo padrão de projeto de aplicações que desencadeou uma autêntica revolução e o surgimento de todo um ecossistema de ferramentas.
 
-Veremos como projetar nossas aplicações orientadas ao fluxo de dados em um única direção, separando nossos componentes em duas categorias, definindo o estado de nossos componentes com um estado global e disparando alterações de maneira homogênea por meio de ações com `redux`.
+Veremos como projetar nossas aplicações orientadas ao fluxo de dados em uma única direção, separando nossos componentes em duas categorias, definindo o estado de nossos componentes com um estado global e disparando alterações de maneira homogênea por meio de ações com `redux`.
 
 Então faremos um exemplo em que veremos do início ao fim todas as etapas de projeto e implementação de uma biblioteca de componentes com `React` e `Redux`.
 
@@ -113,7 +113,7 @@ Então faremos um exemplo em que veremos do início ao fim todas as etapas de pr
 
 `React` define só 9 métodos muito simples para controlar o ciclo de vida dos componentes. Nesta unidade mergulharemos na compacta documentação de `React`.
 
-Então analizaremos casos nos que precisamos de que os componentes tenham um estado próprio e encapsulado.
+Então analisaremos casos em que precisamos que os componentes tenham um estado próprio e encapsulado.
 
 E, finalmente, veremos casos em que dois componentes não compartilham um estado, mas precisam de uma referência explícita de um para outro.
 

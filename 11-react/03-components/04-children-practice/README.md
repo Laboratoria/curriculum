@@ -7,7 +7,7 @@
 ***
 
 Implemente uma composição por meio de `children` nos componentes que você considera necessário no exemplo que vínhamos trabalhando. Por exemplo, imagine que tenhamos um componente `Page` que renderiza un `<div>` com outros componentes dentro. Algo assim:
-así:
+
 
 ```js
 const Page = ({
@@ -16,7 +16,7 @@ const Page = ({
   mainSectionTitulo,
   mainSectionArticles,
   asideTitulo,
-  asideLinks
+  asideLinks,
 }) => (
   <div style={{ background: 'pink', padding: 20 }}>
     <Header titulo={headerTitulo} descricao={headerDescricao} />
@@ -34,7 +34,7 @@ const Main = ({
   mainSectionTitulo,
   mainSectionArticles,
   asideTitulo,
-  asideLinks
+  asideLinks,
 }) => (
   <Page>
     <Header titulo={headerTitulo} descricao={headerDescricao} />
@@ -58,7 +58,7 @@ const Page = ({ children }) => (
 
 ## `Filhos` diferentes com comportamento similar
 
-Desenvolva um componente `Lista` que dado o seguinte código `JSX`
+Desenvolva um componente `Lista` que dado o seguinte código `JSX`:
 
 ```html
   <Lista>
@@ -69,7 +69,7 @@ Desenvolva um componente `Lista` que dado o seguinte código `JSX`
   </Lista>
 ```
 
-retorne
+retorne:
 
 ```html
 <ul>
@@ -95,7 +95,7 @@ Desenvolva um *template* que permita criar múltiplas `Paginas` distintas que co
 </Pagina>
 ```
 
-retorna algo assim
+retorna algo assim:
 
 ```html
   <div class="pagina">
@@ -113,7 +113,7 @@ retorna algo assim
   </div>
 ```
 
-e o seguinte
+e o seguinte:
 
 ```html
 <Pagina titulo="Lista de elementos">
@@ -125,7 +125,7 @@ e o seguinte
 </Pagina>
 ```
 
-retorna
+retorna:
 
 ```html
   <div class="pagina">

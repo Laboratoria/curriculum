@@ -21,7 +21,7 @@ Analisemos um instante a estrutura de nossa aplicação:
 └── yarn.lock
 ```
 
-Não há algo que está estranho? Não lhe parecer algo bagunçado os arquivos de configuração e o código fonte estejam todos misturados?
+Não há algo que está estranho? Não lhe parece algo bagunçado que os arquivos de configuração e o código fonte estejam todos misturados?
 
 ## Exercício
 
@@ -46,12 +46,12 @@ Modifique sua aplicação para que fique com a seguinte estrutura:
 
 ### Ajuda
 
-Configure dentro do `webpack` a pasta `src` como seu *root*
+Configure dentro do `webpack` a pasta `src` como seu *root*.
 
 ```js
 const config = {
   context: resolve(__dirname, 'src'),
 
-  // ... o resto da configuração
+  // ... O resto da configuração.
 }
 ```

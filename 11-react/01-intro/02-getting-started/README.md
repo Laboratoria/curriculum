@@ -24,7 +24,7 @@ Neste exemplo, este será nosso `html` base:
     <h1>Getting Started</h1>
     <h2>Descrição</h2>
     <p>
-      Como integrar react a páginas estáticas existentes
+      Como integrar react a páginas estáticas existentes:
     </p>
   </body>
 </html>
@@ -142,7 +142,7 @@ ReactDOM.render(
 
 Você verá que nosso componente é uma função sem parâmetros. Um dos maiores benefícios que oferece a abordagem de componentes como funções é que por meio dos parâmetros que passamos para a função podemos modificar dinamicamente o comportamento do componente, permitindo reutilizá-lo.
 
-No numo `React` os parâmetros dos componentes são denominados ***propriedades*** (`props`).
+No mundo `React` os parâmetros dos componentes são denominados ***propriedades*** (`props`).
 
 ```html
 <body>
@@ -184,7 +184,7 @@ Assim como o `DOM` as tags têm *atributos*, em `React` os componentes têm ***p
 
 ```js
 function Cabecalho(props) {
-  // usamos a propriedade "saudacao"
+  // usamos a propriedade "saudacao":
   const titulo = 'Olá, ' + props.saudacao;
 
   const elemento = div(null,

@@ -8,7 +8,7 @@
 
 ## Resumo
 
-Congratulçaões... você chegou ao final do curso!
+Congratulações... você chegou ao final do curso!
 
 Ao completar esta unidade você já deverá estar pronta para configurar seu projeto para um ambiente de produção e publicá-lo nas GitHub Pages.
 
@@ -19,5 +19,5 @@ Ao completar esta unidade você já deverá estar pronta para configurar seu pro
 * Quais são as diferenças entre os ambientes de _desenvolvimento_ e de _produção_?
 * Qual é o processo de empacotamento?
 * Qual é o processo de implantação? 
-* Como configurar diferentes configuraçoes de `webpack` para diferentes ambientes?
+* Como configurar diferentes configurações de `webpack` para diferentes ambientes?
 * Como configurar `npm-scripts` para invocar tarefas?

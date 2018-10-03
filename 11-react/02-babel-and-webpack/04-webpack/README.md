@@ -8,12 +8,12 @@
 
 ## Introdução
 
-Se você olhar pra trás verá as diferentes transformações que fomos fazendo em nosso código. Na anterior e nas leituras seguintes, já não enfocamos o código como tal mas como uma estrutura de nossa aplicação e do processo de desenvolvimento.
+Se você olhar pra trás verá as diferentes transformações que fomos fazendo em nosso código. Na leitura anterior e nas seguintes, já não enfocamos o código como tal mas como uma estrutura de nossa aplicação e do processo de desenvolvimento.
 
 Se você analisar, verá que temos uma aplicação fragmentada:
 
-* por um lado temos um arquivo `js` super moderno, transpilado e empactoda por `babel` com todo o necessário
-* e por outro lado temos nosso `html` clássico que é encarregado de importar o estilo, o código empacotado as dependências de `React` e definir o `container` para os componentes de `React`.
+* Por um lado temos um arquivo `js` super moderno, transpilado e empacotado por `babel` com todo o necessário;
+* Por outro lado, temos nosso `html` clássico que é encarregado de importar o estilo, o código empacotado, as dependências de `React`, e definir o `container` para os componentes de `React`.
 
 ## O que é `Webpack` e para que serve?
 
@@ -21,7 +21,7 @@ Se você analisar, verá que temos uma aplicação fragmentada:
 
 ![webpack](https://raw.githubusercontent.com/Laboratoria/curricula-js/11-react/11-react/03-babel-and-webpack/static/images/webpack.jpg)
 
-Deta maneira, proporciona uma única via para importar e transformar todos os recursos de nossa aplicação, independentemente se o código é `js`, uma folha de estilos, `html`, web fonts, dados ou imagens.
+Desta maneira, proporciona uma única via para importar e transformar todos os recursos de nossa aplicação, independentemente se o código é `js`, uma folha de estilos, `html`, web fonts, dados ou imagens.
 
 `Webpack` é extremamente configurável, mas para o escopo desta lição, faremos somente uma análise de seus 4 conceitos principais:
 
@@ -56,12 +56,12 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
    ```sh
    yarn add react react-dom
    ```
-2. Na sequência, instalamos `babel` e seus `presets` como dependências de desenvolvimento (somadas às que já tínhamos anteriormente)
+2. Na sequência, instalamos `babel` e seus `presets` como dependências de desenvolvimento (somadas às que já tínhamos anteriormente).
 
    ```sh
    yarn add -D babel-core babel-preset-es2015 babel-preset-react-boilerplate
    ```
-3. Instalamos `webpack`, seus `plugins`, `loaders` e `utils`, também como dependências de desenvolvimento
+3. Instalamos `webpack`, seus `plugins`, `loaders` e `utils`, também como dependências de desenvolvimento.
 
    ```sh
    yarn add -D \
@@ -88,7 +88,7 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
      ]
    }
    ```
-5. Limpamos nosso `html` até que fique desta forma
+5. Limpamos nosso `html` até que fique desta forma:
 
    ```html
    <!DOCTYPE html>
@@ -108,10 +108,10 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
    // page.js
    import React from 'react'
 
-   // ... aqui vai a definição de seus componentes
-   // e as `pageProps` por padrão
+   // ... Aqui vai a definição de seus componentes
+   // e as `pageProps` por padrão.
 
-   // Eliminamos o seguinte código
+   // Eliminamos o seguinte código:
    /*
    ReactDOM.render(
      <Page {...pageProps} />,
@@ -119,33 +119,33 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
    );
    */
 
-   // exportamos as propriedades dinâmicas por padrão da página
-   // com o nome "defaultPageProps"
+   // Exportamos as propriedades dinâmicas por padrão da página
+   // com o nome "defaultPageProps".
    export const defaultPageProps = pageProps
 
-   // exportamos por padrão o componente `Page`
+   // Exportamos por padrão o componente `Page`.
    export default Page
    ```
-7. Criamos um arquivo `index.js` que configuraremos como `entry` de `webpack`. Ele ser responsável por renderizar `Page` e injetar o resultado no `DOM`.
+7. Criamos um arquivo `index.js` que configuraremos como `entry` de `webpack`. Ele é responsável por renderizar `Page` e injetar o resultado no `DOM`.
 
    ```js
    // main.js
    import React from 'react';
    import ReactDOM from 'react-dom';
 
-   // Usamos um componente pai, para poder desenvolver mas agilmente
+   // Usamos um componente pai, para poder desenvolver mas agilmente.
    import { AppContainer } from 'react-hot-loader';
 
-   // Importamos o componente `Page` e as `defaultPageProps`
+   // Importamos o componente `Page` e as `defaultPageProps`.
    import Page, { defaultPageProps  } from './page';
 
-   // Aqui vemos um pouco da magia de webpack
-   // esta instrução será encarregada de injetar o código de `styles.css`
-   // dentro de uma tag `<style>` no nosso `html` resultante
+   // Aqui vemos um pouco da magia de webpack:
+   // Esta instrução será encarregada de injetar o código de `styles.css`
+   // dentro de uma tag `<style>` no nosso `html` resultante.
    require("./styles.css");
 
    // Criamos uma função auxiliar para renderizar todos nossos componentes
-   // usando o componente pai, previamente importado
+   // usando o componente pai, previamente importado:
    const render = (Component, props = {}) => {
      ReactDOM.render(
        <AppContainer>
@@ -155,11 +155,11 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
      );
    };
 
-   // renderizamos a página
+   // Renderizamos a página
    render(Page, defaultPageProps);
 
-   // e se houver alguma mudança, recarregamos a página "on-the-fly"
-   // sem necessidade de atualizar o navegador
+   // E se houver alguma mudança, recarregamos a página "on-the-fly"
+   // sem necessidade de atualizar o navegador.
    if (module.hot) {
      module.hot.accept('./page', () => {
        const newApp = require('./page').default;
@@ -174,70 +174,70 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
 
    const { resolve } = require('path');
 
-   // importamos webpack
+   // Importamos webpack
    const webpack = require('webpack');
-   // ... e os plugins que havíamos instalado
+   // ... e os plugins que havíamos instalado:
    const OpenBrowserPlugin = require('open-browser-webpack-plugin');
    const HtmlWebpackPlugin = require('html-webpack-plugin');
 
    const config = {
      devtool: 'cheap-module-eval-source-map',
 
-     // definimos as entradas de nossa aplicação
+     // Definimos as entradas de nossa aplicação:
      entry: [
-       // as 3 primeiras são para o *hot reload*
+       // As 3 primeiras são para o *hot reload*.
        'react-hot-loader/patch',
        'webpack-dev-server/client?http://localhost:8080',
        'webpack/hot/only-dev-server',
-       // este é o que definimos anteriormente
+       // Este é o que definimos anteriormente:
        './main.js'
      ],
 
-     // estabelecemos o output
+     // Estabelecemos o output:
      output: {
        filename: 'bundle.js',
        path: resolve(__dirname, 'build'),
        publicPath: '/',
      },
 
-     // configuramos o servidor local de desenvolvimento
+     // Configuramos o servidor local de desenvolvimento:
      devServer: {
        hot: true,
        contentBase: resolve(__dirname, 'build'),
        publicPath: '/'
      },
 
-     // e definimos que tipos de arquivos processaremos e como
+     // E definimos que tipos de arquivos processaremos e como:
      module: {
        rules: [
          {
-           test: /\.js$/, // todos los `js`
+           test: /\.js$/, // todos os `js`
            loaders: [
-             'babel-loader', // processamos com o loader de `babel`
+             'babel-loader', // Processamos com o loader de `babel`.
            ],
-           exclude: /node_modules/, // ignoramos arquivos dentro de node_modules
+           exclude: /node_modules/, // Ignoramos arquivos dentro de node_modules.
          },
 
-         // luego
+         // Logo:
          {
-           test: /\.css$/, // todos os arquivos `csss`
+           test: /\.css$/, // Todos os arquivos `csss`.
            use: [
-             { loader: "style-loader" }, // primeiro criamos uma tag `style`
-             { loader: "css-loader" } // e injetamos o `css`
+             { loader: "style-loader" }, // Primeiro criamos uma tag `style`
+             { loader: "css-loader" } // e injetamos o `css`.
            ]
          }
        ]
      },
 
-     // ... finalmente
+     // ... Finalmente:
      plugins: [
-       // concatena os módulos importados
+       // Concatena os módulos importados:
        new webpack.optimize.ModuleConcatenationPlugin(),
-       // abre um navegador com o caminho de desenvolvimento
+       // Abre um navegador com o caminho de desenvolvimento:
        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
-       // habilita a opção de hot module replacement (hot reload)
+       // Habilita a opção de hot module replacement (hot reload):
        new webpack.HotModuleReplacementPlugin(),
-       // e por fim, injeta o código dentro do `index.html`
+       // E por fim, injeta o código dentro do `index.html`:
        new HtmlWebpackPlugin({
          template: './index.html',
          filename: 'index.html',
@@ -249,8 +249,8 @@ Se você quiser saber tudo o que pode ser feito com `webpack`, verifique a lista
    module.exports = config;
    ```
 9. Substitua o `npm script` `start`, com o seguinte comando
-   `webpack-dev-server`
-10. Acesse seu terminal e execute `yarn start`
+   `webpack-dev-server`.
+10. Acesse seu terminal e execute `yarn start`.
 
 ## Exercício
 

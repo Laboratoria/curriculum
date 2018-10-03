@@ -16,7 +16,7 @@ Repensaremos os problemas pendentes e passados com os novos conceitos que aprend
 
 Durante esta sessão realizaremos nossa segunda e penúltima revisão de código. Veremos se conseguimos cumprir o planejado e por quê.
 
-Decidiremos se temos temos de terminar tudo e, em caso negativo, priorizaremos as tarefas que tenham mais impacto em nosso produto final.
+Decidiremos se temos de terminar tudo e, em caso negativo, priorizaremos as tarefas que tenham mais impacto em nosso produto final.
 
 ## Projeto: Revisão de Código, QA e Dicas para Demos
 
@@ -32,4 +32,4 @@ A ordem de apresentação será aleatória e será informada no mesmo dia.
 
 Os avaliadores terão uma tabela de pontuação para avaliar as equipes e as demos.
 
-Após a apuração dos pontos, será informada a equipe vencedora (e sim, podemos dar prêmios baratos mas especial e incluímos um prêmio para o segundo lugar).
+Após a apuração dos pontos, será informada a equipe vencedora (e sim, podemos dar prêmios baratos mas especiais e incluímos um prêmio para o segundo lugar).

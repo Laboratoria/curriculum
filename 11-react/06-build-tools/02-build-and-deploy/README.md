@@ -16,43 +16,43 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-  // agora a entrada é exclusivamente o arquivo principal
+  // Agora a entrada é exclusivamente o arquivo principal.
   entry: [
     './main.js'
   ],
 
-  // o contexto se mantém o mesmo
+  // O contexto se mantém o mesmo:
   context: resolve(__dirname, 'src'),
 
-  // estabelecemos qual pasta e qual nome de arquivos se criará nosso
-  // `bundle`; em nosso caso, `./dist/bundle.js`
+  // Estabelecemos qual pasta e qual nome de arquivos se criará nosso
+  // `bundle`; em nosso caso, `./dist/bundle.js`.
   output: {
     filename: 'bundle.js',
-    path: resolve(__dirname, 'dist'), // `dist` de "distribution"
+    path: resolve(__dirname, 'dist'), // `dist` de "distribution".
     publicPath: '',
   },
 
   plugins: [
-    // concatena os módulos importados
+    // Concatena os módulos importados:
     new webpack.optimize.ModuleConcatenationPlugin(),
-    // injeta o código no `index.html`
+    // Injeta o código no `index.html`:
     new HtmlWebpackPlugin({
       template: `${__dirname}/src/index.html`,
       filename: 'index.html',
       inject: 'body'
     }),
-    // otimização 1
+    // Otimização 1
     new webpack.optimize.OccurrenceOrderPlugin(),
-    // otimização 2
+    // Otimização 2
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false,
     }),
-    // otimização 3
+    // Otimização 3
     new webpack.optimize.UglifyJsPlugin({
       beautify: false
     }),
-    // definimos a variável global de **ambiente de produção**
+    // Definimos a variável global de **ambiente de produção**:
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify('production')
@@ -60,7 +60,7 @@ const config = {
     })
   ],
 
-  // as regras continuam sendo as mesmas
+  // As regras continuam sendo as mesmas:
   module: {
     rules: [
       {
@@ -98,7 +98,7 @@ O que fazem esses parâmetros de `progress`, `profile` e `colors`? Para você n�
 
 ## _Deploy_
 
-3 - Instalaremos um [módulo](https://github.com/tschaub/gh-pages) que permite implantar facilmente nas `gh-pages` (`yarn add -D gh-pages`). GiHub pages publicará uma URL com a seguinte estrutura`http://username.github.io/repo-name` com o conteúdo que estiver no `branch` `gh-pages` de nosso repositório.
+3 - Instalaremos um [módulo](https://github.com/tschaub/gh-pages) que permite implantar facilmente nas `gh-pages` (`yarn add -D gh-pages`). GiHub pages publicará uma URL com a seguinte estrutura `http://username.github.io/repo-name` com o conteúdo que estiver no `branch` `gh-pages` de nosso repositório.
 
 4 -  Criaremos um `npm script` com o nome `deploy` que primeiro executa `build` e em seguida publique o conteúdo da pasta `dist`, usando o módulo `gh-pages`.
 

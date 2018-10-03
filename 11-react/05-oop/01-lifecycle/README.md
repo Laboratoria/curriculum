@@ -6,7 +6,7 @@
 
 ***
 
-Existem situações nas quais o uso de um estado global e compartilhado não é a forma idela de expressar o estado de nosso componente, seja porque é muito complicado ou porque não queremos contaminar o estado global com estados internos de muito baixo nível, além de outros motivos.
+Existem situações nas quais o uso de um estado global e compartilhado não é a forma ideal de expressar o estado de nosso componente, seja porque é muito complicado ou porque não queremos contaminar o estado global com estados internos de muito baixo nível, além de outros motivos.
 
 Vejamos o exemplo a seguir:
 
@@ -38,7 +38,7 @@ Nesta seção veremos como fazer de `Relogio` um componente reutilizável e enca
 
 Dica Profissional:
 
-Uma das principais diferençaas entre o paradigma funcional e o orientado a objetos é a manipulação do _estado_. Com isso estamos nos referindo ao _contexto_ de uma função (ou método). Na programação funcional, sempre fazemos com que o _estado_ seja explícito e externo (normalmente por meio da utilização de argumentos), enquanto que em OOP o _estado_ normalmente se mantém no contexto de um objeto gerado por meio de uma classe (utilizando a pseudo-variável `this`).
+Uma das principais diferenças entre o paradigma funcional e o orientado a objetos é a manipulação do _estado_. Com isso estamos nos referindo ao _contexto_ de uma função (ou método). Na programação funcional, sempre fazemos com que o _estado_ seja explícito e externo (normalmente por meio da utilização de argumentos), enquanto que em OOP o _estado_ normalmente se mantém no contexto de um objeto gerado por meio de uma classe (utilizando a pseudo-variável `this`).
 
 ***
 
@@ -53,7 +53,7 @@ ReactDOM.render(
 
 ... e que `Relogio` fique ele próprio encarregado de tudo o que for necessário para continuar funcionando.
 
-Para implementar isso, precisamos adicionar um **estado local** (`state`) no componente `Relogio`. O `state` local é similar às `props`, com a diferença de que o estado local é privado e complementamente controlado pelo componente.
+Para implementar isso, precisamos adicionar um **estado local** (`state`) no componente `Relogio`. O `state` local é similar às `props`, com a diferença de que o estado local é privado e completamente controlado pelo componente.
 
 Os componentes definidos como `class` possuem algumas `features` adicionais que não estão presentes nos componentes `stateless` (aqueles que declaramos como funções). O `state` local é uma delas.
 
@@ -93,7 +93,7 @@ class Relogio extends React.Component {
 
 Agora, moveremos a `data` de `props` para o `state` em 3 passos:
 
-1. Substituímos as atribuição de `this.props` para `this.state`
+1. Substituímos as atribuição de `this.props` para `this.state`:
    ```js
    class Relogio extends React.Component {
      render() {
@@ -141,7 +141,7 @@ Agora, moveremos a `data` de `props` para o `state` em 3 passos:
    NOTA: Os componentes `statefull` **sempre** deveriam invocar o construtor de sua superclasse com as `props` como parâmetro.
    
 
-3. Remova a a propiedad `data` do elemento `<Relogio />`:
+3. Remova a propriedade `data` do elemento `<Relogio />`:
 
    ```js
    ReactDOM.render(
@@ -182,7 +182,7 @@ Agora faremos com que `Relogio` configure seu próprio _timer_ e se auto atualiz
 
 ## Adicionando métodos do ciclo de vida (_lifecycle_)
 
-Nos aplicações com muitos componentes, é muito importante liberar os recursos bloqueados, uma vez que o componente que precisa que eles sejam destruídos.
+Nas aplicações com muitos componentes, é muito importante liberar os recursos bloqueados, uma vez que o componente precisa que eles sejam liberados.
 
 Então, nós queremos [configurar um _timer_](https://developer.mozilla.org/es-ES/docs/Web/API/WindowTimers/setInterval) no momento em que `Relogio` é injetado no `DOM` na primeira vez. Isso se chama *montar* (`mount`) um componente no jargão do `React`.
 
@@ -218,7 +218,7 @@ class Relogio extends React.Component {
 
 Esses métodos se chamam "_lifecycle hooks_".
 
-O _hook_`componentDidMount()` é executado após o output do componente ter sido renderizado no `DOM`. Este é um bom lugar para inicializar nosso _timer_:
+O _hook_ `componentDidMount()` é executado após o output do componente ter sido renderizado no `DOM`. Este é um bom lugar para inicializar nosso _timer_:
 
 ```js
   componentDidMount() {
@@ -289,11 +289,11 @@ ReactDOM.render(
 
 [Teste o código no CodePen](https://codepen.io/merunga/pen/prOBNE?editors=0010)
 
-## Recomendações para utiliizar `state` corretamente
+## Recomendações para utilizar `state` corretamente
 
 Existem 3 coisas que você deve saber sobre `setState()`.
 
-### Nunca altere o `state` direamente
+### Nunca altere o `state` diretamente.
 
 ```js
 // Errado
@@ -307,7 +307,7 @@ this.setState({ saudacao: 'Hello' });
 
 O único lugar no qual você poderia atribuir `this.state` diretamente é no construtor.
 
-### As modificações no `state` pode ser assíncronas
+### As modificações no `state` pode ser assíncronas.
 
 Por questão de desempenho, `React` pode juntar múltiplas chamadas `setState()` em somente um _update_.
 
@@ -335,7 +335,7 @@ this.setState((prevState, props) => ({
 
 Cada vez que você invoca `setState()`, o `React` toma como base o estado atual e passa as propriedades definidas em seu objeto.
 
-Por exemplo, temos um estado com duas propriedades independentes
+Por exemplo, temos um estado com duas propriedades independentes:
 
 ```js
   constructor(props) {
@@ -347,7 +347,7 @@ Por exemplo, temos um estado com duas propriedades independentes
   }
 ```
 
-que podemos modificar granularmente
+Que podemos modificar granularmente:
 
 ```js
   componentDidMount() {
@@ -396,7 +396,7 @@ Como você pode ver, cada `Relogio` inicia seu próprio timer e é atualizado de
 
 No `React` se um componente é `statefull` ou `stateless` é considerado um detalhe da implementação do componente e esta condição pode variar com o tempo. Isso quer dizer que você pode utilizar componentes `stateless` dentro de components `statefull` e vice-versa.
 
-O estado local de um componente só deve ser utilizando quendo você **puder garantir** que não haverá necessidade de compartilhar informação com o "exterior".
+O estado local de um componente só deve ser utilizando quando você **puder garantir** que não haverá necessidade de compartilhar informação com o "exterior".
 
 Verifique todos os *hooks* disponíveis na [documentação de `React`](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
 

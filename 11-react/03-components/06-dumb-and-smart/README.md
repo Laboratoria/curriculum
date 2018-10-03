@@ -8,31 +8,31 @@
 
 A forma em que integramos `React` e `Redux` é baseada na ideia da **separação entre componentes meramente de apresentação e componentes contêineres**.
 
-Com a prática no `React`, você notará que é muito mais fácil reutilziar e projetar seus componentes se os classificar em duas categorias. Formalmente essas categorias são os *Componentes de apresentação* e os *Componentes contêineres*, mas também são usados os termos de componentes **Magros e Gordos (*Fat and Skinny*)**, **Espertos e Burros (*Smart and Dumb*)**, *Stateless* e *Stateful*, Componentes e *Screens*, etc. Nem todos se referem exatamente ao mesmo mas a ideia central é a mesma.
+Com a prática no `React`, você notará que é muito mais fácil reutilizar e projetar seus componentes se os classificar em duas categorias. Formalmente essas categorias são os *Componentes de apresentação* e os *Componentes contêineres*, mas também são usados os termos de componentes **Magros e Gordos (*Fat and Skinny*)**, **Espertos e Burros (*Smart and Dumb*)**, *Stateless* e *Stateful*, Componentes e *Screens*, etc. Nem todos se referem exatamente ao mesmo, mas a ideia central é a mesma.
 
 ## Componentes de apresentação
 
 Quais características um componente de apresentação possui?
 
-* São responsáveis por como as coisas **são vistas**
+* São responsáveis por como as coisas **são vistas**.
 * Normalmente são compostos usando outros componentes (de apresentação ou contêineres) e geralmente contêm *markup* e estilos.
-* Normalmente fazem uso da `prop` `children`
-* Não possuem dependências com o resto da aplicação
+* Normalmente fazem uso da `prop` `children`.
+* Não possuem dependências com o resto da aplicação.
 * Não especificam como obtém a informação que utilizam nem como a modificam, somente a usam.
-* Tudo o que sabem e podem fazer o fazem por meio de suas `props`
-* Predomina o código **JSX**
+* Tudo o que sabem e podem fazer o fazem por meio de suas `props`.
+* Predomina o código **JSX**.
 
 ## Componentes contêineres
 
 Como posso reconhecer um componente contêiner?
 
-* São responsáveis por como as coisas **funcionam**
+* São responsáveis por como as coisas **funcionam**.
 * Normalmente são compostos utilizando outros componentes (de apresentação ou contêineres), mas geralmente não possuem markup (excetuando talvez `divs` para `wrapping`) e nunca contêm estilos.
 * Fornecem os dados e o comportamento para componentes de apresentação e a outros contêineres.
 * Utiliza *actions* de `Redux` para injetar *callbacks* nos eventos do componentes de apresentação.
-* São *stateful* quando se conectam ao `state` de `Redux`
-* E no nosso caso, são geradas usando a função `connect()` de `Redux`
-* Predomina o código **JavaScript**
+* São *stateful* quando se conectam ao `state` de `Redux`.
+* E no nosso caso, são geradas usando a função `connect()` de `Redux`.
+* Predomina o código **JavaScript**.
 
 ## Benefícios deste enfoque
 
@@ -75,7 +75,7 @@ Como posso reconhecer um componente contêiner?
       <td><i>Dispatch Redux actions</i></td>
     </tr>
     <tr>
-      <th scope="row" style="text-align:right">Definición</th>
+      <th scope="row" style="text-align:right">Definição</th>
       <td>Desenvolvidas "manualmente"</td>
       <td>Geradas com `react-redux`</td>
     </tr>

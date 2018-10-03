@@ -35,7 +35,7 @@ Dado o seguinte código:
 </body>
 ```
 
-Explique por que não se vê a mensagem *Se você vir isto, React **não** está funcionando.*
+Explique por que não se vê a mensagem: *Se você vir isto, React **não** está funcionando.*
 
 ***
 

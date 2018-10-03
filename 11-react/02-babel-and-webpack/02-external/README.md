@@ -19,7 +19,7 @@ Nesta leitura veremos como separar nosso código `html` de nosso código `javasc
 
 ## Setup
 
-Para poder refernciar os arquivos externos a serem utilizados em nossa aplicação, já não podemos carregar o arquivo estaticamente. Precisamos configurar um servidor local para hospedar os arquivos em questão.
+Para poder referenciar os arquivos externos a serem utilizados em nossa aplicação, já não podemos carregar o arquivo estaticamente. Precisamos configurar um servidor local para hospedar os arquivos em questão.
 
 Para isso a primeira coisa a fazer é converter nosso projeto em uma aplicação de `node`.
 
@@ -29,7 +29,7 @@ Para isso, a partir da raiz da aplicação executamos o seguinte comando:
 yarn init
 ```
 
-Siga as intruções e complete a informação que vai sendo solicitada.
+Siga as instruções e complete a informação que vai sendo solicitada.
 
 Isso criará um arquivo `package.json` que contém a configuração que você acabou de fazer.
 
@@ -59,7 +59,7 @@ yarn start
 
 ... e acessar a seguinte url: [127.0.0.1:8080](http://127.0.0.1:8080/)
 
-Aqui há alguns recuros para entender mais sobre o arquivo [`package.json`](https://docs.npmjs.com/files/package.json) e os [`npm scripts`](https://docs.npmjs.com/misc/scripts).
+Aqui há alguns recursos para entender mais sobre o arquivo [`package.json`](https://docs.npmjs.com/files/package.json) e os [`npm scripts`](https://docs.npmjs.com/misc/scripts).
 
 ## Exercício
 

@@ -32,11 +32,11 @@ import PropTypes from 'prop-types';
 import Page from './Page';
 import Header from './Header';
 // Substituímos a `MainSection`
-// e agora importamos nosso novo componente
+// e agora importamos nosso novo componente.
 import FilterableProductTable from '../FilterableProductTable/components';
 import Aside from './Aside';
 
-// todos os dados que Main precisa recebemos agora via `props`
+// Todos os dados que Main precisa recebemos agora via `props`
 const Main = ({ products, asideTitulo, asideLinks }) => {
   // TODO: Hack para renderizar. Remover após setar Redux.
   products = []
@@ -59,7 +59,7 @@ Main.propTypes = {
 export default Main
 ```
 
-`FilterableProductTable` será nossa biblioteca. Logo, criamo um arquivo `lib/FilterableProductTable/components/index.js` com o seguinte conteúdo.
+`FilterableProductTable` será nossa biblioteca. Logo, criamos um arquivo `lib/FilterableProductTable/components/index.js` com o seguinte conteúdo:
 
 > Mais adiante você entenderá porque escolhemos esta estrutura de pastas.
 
@@ -81,7 +81,7 @@ const FilterableProductTable = () => {
 export default FilterableProductTable
 ```
 
-e por fim limpamos um pouco nosso `index.html`
+e por fim limpamos um pouco nosso `index.html`.
 
 ```html
 <!DOCTYPE html>
@@ -100,11 +100,11 @@ e por fim limpamos um pouco nosso `index.html`
 </html>
 ```
 
-A esta altura sua aplicação estará vazia (e haverá alguns erros no conssole de `props` não indicadas) e isso é porque `Main` está esperando `props` que contudo não estamos informando. Com esta base iniciamos nossa implementação.
+A esta altura sua aplicação estará vazia (e haverá alguns erros no console de `props` não indicados) e isso é porque `Main` está esperando `props` que contudo não estamos informando. Com esta base iniciamos nossa implementação.
 
 ## Implementação
 
-Então vamos simular um fluxo habitual de tarefas da vida rea.
+Então vamos simular um fluxo habitual de tarefas da vida real.
 
 ## Passo 0: Comece com um _Mock_
 
@@ -125,28 +125,28 @@ E nossa API JSON retorna dados com a seguinte estrutura:
 ];
 ```
 
-## Passo 1: Divida a interface (UI) em uma hierarquia de componentes
+## Passo 1: Divida a interface (UI) em uma hierarquia de componentes.
 
 A primeira coisa que você deveria fazer é desenhar caixinhas em torno de cada um dos componentes (e sub-componentes) e dar-lhes nomes. Se você trabalha com uma designer, provavelmente ela já fez isso então pergunte para ela! Se sua designer é boa com a semântica, então os nomes das _layers_ do Photoshop podem ser bons nomes para seus componentes de `React`!
 
-Mas como determino que deveria possuir seu próprio componente? Simplesmente use os mesmos critérios que você utilizar para decidir se deve criar uma nova função ou objeto. Uma destas técnicas é o [princípio de única responsabilidade](https://en.wikipedia.org/wiki/Single_responsibility_principle), que em `React` seria que um componente deve idealmente fazer somente uma coisa. Se começar a crescer é hora de decompô-los em componentes menores.
+Mas como determino quem deveria possuir seu próprio componente? Simplesmente use os mesmos critérios que você utilizar para decidir se deve criar uma nova função ou objeto. Uma destas técnicas é o [princípio de única responsabilidade](https://en.wikipedia.org/wiki/Single_responsibility_principle), que em `React` seria que um componente deve idealmente fazer somente uma coisa. Se começar a crescer é hora de decompô-los em componentes menores.
 
-Como usalmente você estará projetando um objeto JSON na interface, você entenderá que quando houver modelado corretamente seu `state`, sua UI (e com ela a estrutura de seus componentes) será ajustada sem problemas. Isso porque sua UI e seu `state` normalmente utilizam a mesma  "arquitetura da informação", o que implica que geralmente separar sua UI de seus dados é trivial: divida seus componentes de tal forma que representem exatamente uma parte da informação.
+Como usualmente você estará projetando um objeto JSON na interface, você entenderá que quando houver modelado corretamente seu `state`, sua UI (e com ela a estrutura de seus componentes) será ajustada sem problemas. Isso porque sua UI e seu `state` normalmente utilizam a mesma  "arquitetura da informação", o que implica que geralmente separar sua UI de seus dados é trivial: divida seus componentes de tal forma que representem exatamente uma parte da informação.
 
 
 ![Component diagram](https://reactjs.org/static/thinking-in-react-components-eb8bda25806a89ebdc838813bdfa3601-82965.png)
 
 Aqui você verá que temos 5 componentes:
 
-1. **`FilterableProductTable` (laranja):** contêm o bloco completo
-2. **`SearchBar` (azul):** recebe o *input do usuário*
-3. **`ProductTable` (verde):** exibe e filtra a *coleção* de acordo com o *input do usuário*
-4. **`ProductCategoryRow` (turquesa):** mostra o cabeçalho para cada *categoria*
-5. **`ProductRow` (vermelho):** mostra uma fila para cada *produto*
+1. **`FilterableProductTable` (laranja):** contêm o bloco completo.
+2. **`SearchBar` (azul):** recebe o *input do usuário*.
+3. **`ProductTable` (verde):** exibe e filtra a *coleção* de acordo com o *input do usuário*.
+4. **`ProductCategoryRow` (turquesa):** mostra o cabeçalho para cada *categoria*.
+5. **`ProductRow` (vermelho):** mostra uma fila para cada *produto*.
 
 Se você observar a `ProductTable`, verá que o cabeçalho da tabela (que possui os nomes "Name" e "Price") não estão em seu próprio componente. Isso vai da preferência de cada um. Neste exemplo, deixamos como parte de `ProductTable` porque é parte da lógica de renderização da *coleção*, que é responsabilidade de `ProductTable`. Contudo se com o tempo este cabeçalho cresce e se torna complexo (por exemplo, para permitir ordenação), provavelmente haverá sentido em criar seu próprio componente `ProductTableHeader`.
 
-Agora que indentificamos quais são nossos componentes, vamos organizá-los em uma hierarquia. Isso é simples. Se um componente aparece dentro de outro componente no _mock_, então deveria aparacer como filho na hierarquia:
+Agora que identificamos quais são nossos componentes, vamos organizá-los em uma hierarquia. Isso é simples. Se um componente aparece dentro de outro componente no _mock_, então deveria aparecer como filho na hierarquia:
 
 * `FilterableProductTable`
   - `SearchBar`

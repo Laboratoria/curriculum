@@ -14,8 +14,8 @@ Assim como em nosso `state` inicial, definimos os "substantivos" de nossa aplica
 
 Então, quais são as ações que um usuário pode realizar em nossa aplicação?
 
-* escrever o input
-* selecionar ou limpar o checkbox
+* Escrever o input;
+* Selecionar ou limpar o checkbox.
 
 Tomemos estas ações e vejamos como as definimos no `Redux`.
 
@@ -50,14 +50,14 @@ import { filterTextChanged, inStockOnlyChanged } from '../actions'
 
 const SearchBarWithRedux = connect(
   function mapStateToProps(state) {
-    // buscamos os valores que nos interessam para a SearchBar
-    // observe que a SearchBar não tem porque saber nada dos produtos
+    // Buscamos os valores que nos interessam para a SearchBar.
+    // Observe que a SearchBar não tem porque saber nada dos produtos.
     const {
       filterText,
       inStockOnly
     } = state.AppReducer
 
-    // e devolvemos as novas props
+    // E devolvemos as novas props:
     return {
       filterText,
       inStockOnly
@@ -67,8 +67,8 @@ const SearchBarWithRedux = connect(
   // No mundo `Redux` ao chamar um 'criador de ação' a única coisa que conseguimos é
   // um objeto que representa que teve sucesso, mas não dispara a ação.
   // Para isso precisa chamar a função `dispatch` do `store`.
-  // Isso pe que o o `mapDispatchToProps` faz, mapeando chamadas de `dispatch` para
-  // seus `action creators`
+  // Isso é o que o `mapDispatchToProps` faz, mapeando chamadas de `dispatch` para
+  // seus `action creators`.
   function mapDispatchToProps(dispatch) {
     return {
       setFilterText(newFilterText) {
@@ -94,9 +94,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const SearchBar = ({
-  // Os dados de que nossa SearchBar precisam
+  // Os dados de que nossa SearchBar precisam:
   filterText, inStockOnly,
-  // As ações que pode realizar
+  // As ações que pode realizar:
   setFilterText, setInStockOnly
 }) => {
   return (
@@ -129,7 +129,7 @@ SearchBar.propTypes = {
   setFilterText: PropTypes.func.isRequired,
   setInStockOnly: PropTypes.func.isRequired
 }
-// Qual os componentes são "controlados" por um contêiner, o valor por padrão das `props` é determinado pelo state e é por sso que normalmente é uma boa prática estabelecer todas suas props obrigatórias
+// Quais os componentes são "controlados" por um contêiner, o valor por padrão das `props` é determinado pelo state e é por isso que normalmente é uma boa prática estabelecer todas suas props obrigatórias.
 
 export default SearchBar
 ```

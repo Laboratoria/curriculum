@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Na unidade anterior vimos como por meio dos benefícios da atribuição destruturada em `ES6`, podemos definir de uma maneira descritiva os nomes das propriedades que nosso componente recebe.
+Na unidade anterior vimos como por meio dos benefícios da atribuição desestruturada em `ES6`, podemos definir de uma maneira descritiva os nomes das propriedades que nosso componente recebe.
 
 Nesta unidade veremos como ir além e definir também o tipo dessas `props`, assim como se são obrigatórias ou opcionais. Para isso utilizaremos o pacote [`prop-types`](https://github.com/facebook/prop-types).
 
@@ -31,10 +31,10 @@ const Header = ({ titulo, descricao }) => (
 );
 ```
 
-Queremos estabelecer que a propriedade `titulo` é obrigatória e a `descricao` é opcional e que ambas propriedades são do tipo `String`. Agora vejamos como declará-los usando `prop-types`
+Queremos estabelecer que a propriedade `titulo` é obrigatória e a `descricao` é opcional e que ambas propriedades são do tipo `String`. Agora vejamos como declará-los usando `prop-types`.
 
 ```js
-// primeiramente, importamos a dependência
+// Primeiramente, importamos a dependência:
 import PropTypes from 'prop-types';
 
 const Header = ({ titulo, descricao }) => (
@@ -42,30 +42,30 @@ const Header = ({ titulo, descricao }) => (
     <h1>{titulo}</h1>
     {/*
       Como `descricao` é opcional, vamos criar o nó `<p>`
-      somente quando  `descricao` contiver um valor
+      somente quando  `descricao` contiver um valor.
     */}
     {descricao && <p>{descricao}</p>}
   </header>
 );
 
-// E agora realizamos a definição dos tipos
+// E agora realizamos a definição dos tipos:
 
 Header.propTypes = {
-  // `titulo` é do tipo `string` e é obrigatório
+  // `titulo` é do tipo `string` e é obrigatório.
   titulo: PropTypes.string.isRequired,
-  // `descricao` também do do tipo `string`
-  // e é opcional (somente omitimos o `isRequired`)
+  // `descricao` também do do tipo `string`.
+  // e é opcional (somente omitimos o `isRequired`).
   descricao: PropTypes.string,
 };
 
 Header.defaultProps = {
   // Como  `descricao` é opcional, é uma prática recomendada estabelecer
-  // un valor padrão. No nosso caso "string vazia"
+  // um valor padrão. No nosso caso "string vazia".
   descricao: '',
 };
 ```
 
-Muito bem, que tipo de estruturas podemos definir com  `PropTypes`? No sentido estrito, as que você precisar. Vejamos mais exemplos.
+Muito bem, que tipo de estruturas podemos definir com  `PropTypes`? No sentido estrito, as que você precisar. Vejamos mais exemplos:
 
 ```js
 const umBooleano = true;
@@ -80,16 +80,16 @@ const umArrayDeObjetos = [
   { outroTexto: 'novo texto', outroNumero: 5 },
 ];
 
-// ... definimos nosso `Componente` ...
+// ... Definimos nosso `Componente` ...
 
 Componente.propTypes = {
   umBooleano: PropTypes.bool.isRequired,
   umObjeto: PropTypes.shape({
-    // tb podemos definir se uma propriedade interna é obrigatória ou não
+    // Tb podemos definir se uma propriedade interna é obrigatória ou não.
     texto: PropTypes.string.isRequired,
     numero: PropTypes.number,
   }),
-  // de uma lista de valores fixos
+  // De uma lista de valores fixos.
   umaCorComoString: PropTypes.oneOf(['red', 'white', 'black']),
   umaFuncao: PropTypes.func,
   umArrayDeObjetos: PropTypes.arrayOf(
@@ -115,4 +115,4 @@ E se por exemplo você passa um número no lugar de um booleano, a mensagem ser�
 Warning: Failed prop type: Invalid prop `umBooleano` of type `number` supplied to `Componente`, expected `boolean`
 ```
 
-Verifique a lista completa de tipos validáveis com `PropTypes` na documentação [oficial de `React`](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
+Verifique a lista completa de tipos validáveis com `PropTypes` na documentação [oficial de `React`]: (https://facebook.github.io/react/docs/typechecking-with-proptypes.html)

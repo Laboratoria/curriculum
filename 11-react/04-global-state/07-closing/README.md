@@ -14,12 +14,12 @@ Se você pensar, na verdade, `React` e `Redux` não são nada mais que um montã
 
 > Você passa muitas horas no transporte público? Use esse tempo para projetar sua aplicação com papel e lápis!!!
 >
-> Antes de começara a programar como uma louca, pare um segundo para projetar sua aplicação:
+> Antes de começar a a programar como uma louca, pare um segundo para projetar sua aplicação:
 >
-> - Defina a hierarquia de seus componentes
-> - Defina suas interfaces com suas props e prop-types
-> - Projete a forma e partes de seu state
-> - Pense nas ações que podem acontecer na sua aplicação
+> - Defina a hierarquia de seus componentes;
+> - Defina suas interfaces com suas props e prop-types;
+> - Projete a forma e partes de seu state;
+> - Pense nas ações que podem acontecer na sua aplicação;
 > - E por fim considere como mudar seu state: quais propriedades de seu state relacionam a quais ações.
 >
 > Quando você tiver tudo isso claro, verá que o desenvolvimento será bem mais fluído e
@@ -31,10 +31,10 @@ Se você pensar, na verdade, `React` e `Redux` não são nada mais que um montã
 * O que é uma ação?
 * O que é um redutor (_reducer_)?
 * Os princípios de `Redux`:
-  - _Single source of truth_
-  - _State is read-only_
-  - Mudanças de estado por meio de funções puras
+  - _Single source of truth_.
+  - _State is read-only_.
+  - Mudanças de estado por meio de funções puras.
 * Como integrar `Redux` e `React`?
 * Como conectar componentes para acessar o *store global*?
 * Domo definir e _disparar_ ações a partir de nossos componentes?
-* Como implementar redutores para modificar o estado como resposta às ações
+* Como implementar redutores para modificar o estado como resposta às ações?

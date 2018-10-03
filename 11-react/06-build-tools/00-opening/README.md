@@ -8,7 +8,7 @@
 
 ## Por que aprender isto?
 
-Nas unidades anteriores cobrimos vários conceitos, mas nosso _ambiente_ esteve focado no _desenvolvimento_ durante todo o tempo. Com isso queremos dizer que configuramos nossa aplicação para inclua  _hot reloading_ e outras _features_ de _debugging_ que somente queremos utilizar no ambiente de _desenvolvimento_ e nunca em um ambiente de _produção_ (ambiente no qual publicamos nossa aplicação para o restante do mundo).
+Nas unidades anteriores cobrimos vários conceitos, mas nosso _ambiente_ esteve focado no _desenvolvimento_ durante todo o tempo. Com isso queremos dizer que configuramos nossa aplicação para que inclua  _hot reloading_ e outras _features_ de _debugging_ que somente queremos utilizar no ambiente de _desenvolvimento_ e nunca em um ambiente de _produção_ (ambiente no qual publicamos nossa aplicação para o restante do mundo).
 
 Nesta unidade veremos os conceitos de ambiente de _desenvolvimento_ e de _produção_, assim como maneiras de manter configurações separadas para diferentes ambientes e como encapsular e automatizar os processos de _build_ (construção) e _deploy_ (implantação).
 
@@ -21,5 +21,5 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 * Quais são as diferenças entre os ambientes de _desenvolvimento_ e de _produção_?
 * Qual é o processo de empacotamento?
 * Qual é o processo de implantação? 
-* Como configurar diferentes configuraçoes de `webpack` para diferentes ambientes?
+* Como configurar diferentes configurações de `webpack` para diferentes ambientes?
 * Como configurar `npm-scripts` para invocar tarefas?

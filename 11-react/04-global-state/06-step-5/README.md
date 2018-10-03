@@ -13,10 +13,10 @@ Já temos as ações sendo disparadas e agora analisemos como queremos que o `st
 ```js
 // lib/reducer.js
 
-// importamos as `actionTypes` que definimos no passo anterior
+// Importamos as `actionTypes` que definimos no passo anterior.
 import { actionTypes } from './actions'
 
-// Suponhamos que estes são os produtos que recebemos de nossa API JSON
+// Suponhamos que estes são os produtos que recebemos de nossa API JSON.
 const PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
   {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -26,7 +26,7 @@ const PRODUCTS = [
   {category: 'Electronics', price: '$1699.99', stocked: true, name: 'Nexus 7'}
 ];
 
-// O state inicial
+// O state inicial:
 const INIT_STATE = {
   originalProducts: PRODUCTS,
   filterText: '',
@@ -42,55 +42,55 @@ const INIT_STATE = {
   ]
 }
 
-// nosso reducer
+// Nosso reducer:
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
-    // Se a ação é  `FILTER_TEXT_CHANGED`
+    // Se a ação é  `FILTER_TEXT_CHANGED`:
     case actionTypes.FILTER_TEXT_CHANGED:
       state = {
         ...state,
-        // atualizamos `filterText` no state com o `text` da ação
+        // Atualizamos `filterText` no state com o `text` da ação:
         filterText: action.text
       }
       break;
-    // Se a ação é `IN_STOCK_ONLY_CHANGED`
+    // Se a ação é `IN_STOCK_ONLY_CHANGED`:
     case actionTypes.IN_STOCK_ONLY_CHANGED:
       state = {
         ...state,
-        // atualizamos `inStockOnly` no state  com o `value` da ação
+        // Atualizamos `inStockOnly` no state  com o `value` da ação:
         inStockOnly: action.value
       }
       break;
   }
 
   // E o que acontece com os `filteredProducts`?
-  // `filteredProducts` é atualizado com qualquer das ações é executada
+  // `filteredProducts` é atualizado com qualquer das ações é executada:
   if (
     action.type === actionTypes.FILTER_TEXT_CHANGED ||
     action.type === actionTypes.IN_STOCK_ONLY_CHANGED
   ) {
     const filteredProducts = state.originalProducts.filter(p => {
       const filterText =
-        // se a ação é `FILTER_TEXT_CHANGED`
+        // Se a ação é `FILTER_TEXT_CHANGED`
         (action.type === actionTypes.FILTER_TEXT_CHANGED ?
-          // usamos o `text` da ação
+          // usamos o `text` da ação.
           action.text :
-          // si no usamos el `filterText` del `state`
+          // Se não usamos o `filterText` do `state`
           state.filterText).trim()
       const inStockOnly =
-        // se a ação é `IN_STOCK_ONLY_CHANGED`
+        // Se a ação é `IN_STOCK_ONLY_CHANGED`,
         action.type === actionTypes.IN_STOCK_ONLY_CHANGED ?
-          // usamos o `value` da ação
+          // Usamos o `value` da ação.
           action.value :
-          // se não usamos o `inStockOnly` do `state`
+          // Se não usamos o `inStockOnly` do `state`,
           state.inStockOnly
 
-      // o produto `p` vai para a lista de `filteredProducts` se:
+      // O produto `p` vai para a lista de `filteredProducts` se:
       return (
-        // o checkbox está marcado e `p.stocked === true`
-        // se o checkbox está marcado
+        // O checkbox está marcado e `p.stocked === true`;
+        // Se o checkbox está marcado;
         (inStockOnly ? p.stocked : true) &&
-        // e o `p.name` casa com o `filterText` case insensitive
+        // E o `p.name` casa com o `filterText` case insensitive.
         p.name.match(new RegExp(filterText, 'ig'))
       )
     })
@@ -103,7 +103,7 @@ export default (state = INIT_STATE, action) => {
 
   // Sempre, sempre, sempre, um reducer deve retornar um `state`.
   // No caso que não reaja à `action` atual, deve explicitamente
-  // devolver o `state` anterior
+  // devolver o `state` anterior.
   return state
 }
 

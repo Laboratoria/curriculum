@@ -72,7 +72,7 @@ Este projeto nos agrada porque nossos pedidos serão registrados por um tablet e
 
 ## Extras
 
-Uma vez que tenhamos o sistema básico implementado, gostaríamos de explorar novas possibilidades e estamos abertos à qualquer sugestão que tenham. Algumas das ideias que nossos clientes sugerirão são: adicionar combos nos menus, cupons de desconto, desconto por pagamento em dinheiro, programa de fidelidade, etc.
+Uma vez que tenhamos o sistema básico implementado, gostaríamos de explorar novas possibilidades e estamos abertos à qualquer sugestão que tenham. Algumas das ideias que nossos clientes sugeriram são: adicionar combos nos menus, cupons de desconto, desconto por pagamento em dinheiro, programa de fidelidade, etc.
 
 ***
 
@@ -87,7 +87,7 @@ Sua "Single page app" deve respeitar os seguintes requisitos:
 * Design *responsive* e *mobile*. O cliente usará o sistemas em um **navegador**, mas em **tablets**.
 * Publicar nas Github pages.
 * Ter gerenciado e documentado todo o processo de criação da aplicação no GitHub.
-* No dia do demo, a aplicação deverá estar publicade em uma URL acessível universalmente.
+* No dia do demo, a aplicação deverá estar publicada em uma URL acessível universalmente.
 * Não é necessário implementar rotas.
 * Não é necessário implementar persistência.
 * Não é necessário implementar conexões remotas.

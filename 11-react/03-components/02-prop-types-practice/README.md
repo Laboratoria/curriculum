@@ -37,28 +37,28 @@ Assim que você implementar `propTypes` e `defaultProps`, teste se de fato estam
 
 ***
 
-Defina as `propTypes` para os seguintes tipos de `props`
+Defina as `propTypes` para os seguintes tipos de `props`:
 
-* Qualquer tipo
-* `String` ou `boolean`
-* Uma data
-* Um elemento `JSX`
-* Algum destes três valores: `'maçãs'`, `'laranjas'`, `'bananas'` ou a seguinte forma: `{ outro: '[qualquer outra fruta]' }`
-* uma lista de `items` com identificadores únicos:
+* Qualquer tipo;
+* `String` ou `boolean`;
+* Uma data;
+* Um elemento `JSX`;
+* Algum destes três valores: `'maçãs'`, `'laranjas'`, `'bananas'` ou a seguinte forma: `{ outro: '[qualquer outra fruta]' }`;
+* Uma lista de `items` com identificadores únicos:
   ```js
-  // valor válido
+  // Valor válido:
   const items = [
     { id: 'id-1', texto: 'Um texto' },
     { id: 'id-2', texto: 'Outro texto' },
-    // o texto pode ser repetido
+    // O texto pode ser repetido:
     { id: 'id-3', texto: 'Outro texto' },
   ]
 
-  // valor inválido
+  // Valor inválido:
   const items = [
     { id: 'id-1', texto: 'Um texto' },
     { id: 'id-2', texto: 'Outro texto' },
-    // id repetido
+    // Id repetido:
     //      ↓
     { id: 'id-2', texto: 'Outro texto' },
   ]

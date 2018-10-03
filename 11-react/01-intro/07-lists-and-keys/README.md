@@ -113,7 +113,7 @@ Como último recurso, quando você não tem um ID único, você pode utilizar o 
 
 ```js
 const todoItems = todos.map((todo, index) =>
-  // Only do this if items have no unique IDs
+  // Only do this if items have no unique IDs.
   <li key={index}>
     {todo.text}
   </li>
@@ -134,7 +134,7 @@ Por exemplo, se criarmos um componente `ListItem`, a chave deve ser indicada em 
 function ListItem(props) {
   const value = props.value;
   return (
-    // Errado! aqui não me faz falta alguma a *key*; o elemento <li> já tem uma identidade
+    // Errado! aqui não me faz falta alguma a *key*; o elemento <li> já tem uma identidade.
     <li key={value.toString()}>
       {value}
     </li>
@@ -164,14 +164,14 @@ ReactDOM.render(
 
 ```js
 function ListItem(props) {
-  // Correto! Não há necessidade de especificar uma *key*
+  // Correto! Não há necessidade de especificar uma *key*.
   return <li>{props.value}</li>;
 }
 
 function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
-    // Correto! Aqui é onde precisamos da *key*
+    // Correto! Aqui é onde precisamos da *key*.
     <ListItem key={number.toString()} value={number} />
   );
   return (

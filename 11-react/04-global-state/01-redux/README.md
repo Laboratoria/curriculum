@@ -10,18 +10,18 @@
 
 Ele ajuda a escrever aplicações que:
 
-* se comportam consistentemente
-* executam em diferentes ambientes (cliente, servidor e nativo)
-* são fáceis de testar
+* Se comportam consistentemente;
+* Executam em diferentes ambientes (cliente, servidor e nativo);
+* São fáceis de testar.
 
 E além disso, fornece uma grande experiência de desenvolvimento com, por exemplo, [*"live coding"* e *"time traveling debugger"*](https://github.com/gaearon/redux-devtools).
 
-Como `Redux` é uma biblioteca, você pode manipular o estado de qualquer tipo de aplicação em JavaScript e se necessitar de `React` para funcionar, `React` + `Redux` formam um par perfeito. Além disso, `Redux` é uma biblioteca enxuta (2kb).
+Como `Redux` é uma biblioteca, você pode manipular o estado de qualquer tipo de aplicação em JavaScript, e se necessitar de `React` para funcionar, `React` + `Redux` formam um par perfeito. Além disso, `Redux` é uma biblioteca enxuta (2kb).
 
 O padrão de projeto de "_UI manager_" + "_State manager_" é muito popular atualmente na comunidade JavaScript porque demonstrou que é uma forma consistente de organizar nossas aplicações.
 
 Atualmente existe uma infinidade de bibliotecas para escolher e, por exemplo, poderíamos mudar `React` por outra biblioteca para UI como [Vue](https://github.com/vuejs/vue) ou [Polymer](https://github.com/Polymer/polymer). E da mesma forma com `Redux`, poderíamos usar [mobx](https://github.com/mobxjs/mobx) ou
-[cerebral](https://github.com/cerebral/cerebral)
+[cerebral](https://github.com/cerebral/cerebral).
 
 `Redux` está fortemente inspirado em [Flux](http://facebook.github.io/flux/), que podemos dizer que é seu antecessor, mas simplificando o enfoque original utilizando conceitos de [Elm](https://github.com/evancz/elm-architecture-tutorial/). Começar a utilizar `Redux` leva somente alguns minutos.
 
@@ -47,7 +47,7 @@ Imagina que você tenha uma aplicação que controla suas tarefas pendentes: uma
 }
 ```
 
-Este é seu `state` e em `Redux` este objeto é _read-only_. Isso é assim para que as diferentes partes de seu código não possam mudar o estado arbitrariamente, causando buvs difícies de reproduzir. 
+Este é seu `state` e em `Redux` este objeto é _read-only_. Isso é assim para que as diferentes partes de seu código não possam mudar o estado arbitrariamente, causando bugs difícies de reproduzir. 
 
 Portanto, para mudar algum valor do `state`, a única maneira de fazê-lo é disparando uma ação (_action_). As ações por sua vez são objetos que descrevem o que aconteceu. Por exemplo:
 
@@ -118,11 +118,11 @@ console.log(store.getState())
 
 ### O estado é de "somente-leitura"
 
-> _State is read-only_
+> _State is read-only_.
 
 **A única maneira de mudar o estado é disparando uma [ação](http://redux.js.org/docs/Glossary.html#action) (um objeto descrevendo o que aconteceu)**
 
-Isso garante que não as visualizações nem as chamadas a serviços externos podem realizar mudanças no _state_ diretamente. No lugar disso, expressam sua intenção de alterar o _state_ por meio de uma _action_. Como todas as mudanças estão centralizadas e ocorrem em uma ordem específica, não temos que nos preocupas com situações raras ou difíceis de reproduzir.
+Isso garante que não as visualizações nem as chamadas a serviços externos podem realizar mudanças no _state_ diretamente. No lugar disso, expressam sua intenção de alterar o _state_ por meio de uma _action_. Como todas as mudanças estão centralizadas e ocorrem em uma ordem específica, não temos que nos preocupar com situações raras ou difíceis de reproduzir.
 
 ```js
 store.dispatch({
@@ -136,11 +136,11 @@ store.dispatch({
 })
 ```
 
-### As mudanças de estados são realizadas por meio de funções puras
+### As mudanças de estados são realizadas por meio de funções puras.
 
-> _Changes are made with pure functions_
+> _Changes are made with pure functions_.
 
-**Para detalhar a maneira na qual se muda o _state_ em resposta às _actions_, utilize um [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**
+**Para detalhar a maneira na qual se muda o _state_ em resposta às _actions_, utilize um [reducer](http://redux.js.org/docs/Glossary.html#reducer) puro**.
 
 Os _reducers_ simplesmente são funções puras que tomam o _state_ anterior e a ação que foi disparada e retornam o novo estado. Tanto o _state_ anterior como a _action_ recebida devem ser imutáveis. Por isso, lembre-se de **sempre retornar novos objetos** ao invés de fazer mudanças no estado original.
 

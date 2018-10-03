@@ -10,14 +10,13 @@
 
 `Babel` é um ***transpilador***. Um *transpilador* é um tipo de compilador que toma como entrada um código escrito em uma linguagem de programação e retorna um código análogo ao original, mas em outra linguagem de programação.
 
-`Babel` em particular é um transpilador que recebe como entrar código `ES6` (linguagens suportadas de maneira parcial pelos navegadores modernos e node.js) e retona como resultado código `ES5` padrão que podemos executar em qualquer ambiente JavaScript. Isso permite começar a utilizar todas a vantagens e extensões que propõem as novas versões de `EMACScript`, **hoje**.
+`Babel` em particular é um transpilador que recebe como entrar código `ES6` (linguagens suportadas de maneira parcial pelos navegadores modernos e node.js) e retorna como resultado código `ES5` padrão que podemos executar em qualquer ambiente JavaScript. Isso permite começar a utilizar todas a vantagens e extensões que propõem as novas versões de `EMACScript`, **hoje**.
 
 ***
 
 **NOTA:**
 
-Neste curso somente exploramos as caracterísitcas de `ES6`, que são especialmente úteis para o desenvolvimento com `React`, mas `EMACScript` é muito mais que isso. Aqui deixamos algumas referências se você quiser se aprofundar no tema:
-en el tema:
+Neste curso somente exploramos as características de `ES6`, que são especialmente úteis para o desenvolvimento com `React`, mas `EMACScript` é muito mais que isso. Aqui deixamos algumas referências se você quiser se aprofundar no tema:
 
 * [es6-features.org](http://es6-features.org)
 * [Exploring ES6](http://exploringjs.com/es6/index.html)
@@ -136,15 +135,15 @@ Vejamos alguns exemplos:
 
 ### *Presets*
 
-Para agrupar as difentes funcionalidades que queremos que `babel` entenda, utilizamos os *presets*. Os _presets_ permitem especificar qual versão de `EMACScript` queremos utilizar.
+Para agrupar as diferentes funcionalidades que queremos que `babel` entenda, utilizamos os *presets*. Os _presets_ permitem especificar qual versão de `EMACScript` queremos utilizar.
 
 Aqui há uma pequena lista de *presets* populares:
 
-* [env](http://babeljs.io/docs/plugins/preset-env/) (a última versão liberada)
-* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (usaremos este)
-* [es2016](http://babeljs.io/docs/plugins/preset-2016/)
-* [es2017](http://babeljs.io/docs/plugins/preset-2017/)
-* [react](http://babeljs.io/docs/plugins/preset-env/) (também usaremos este)
+* [env](http://babeljs.io/docs/plugins/preset-env/) (a última versão liberada);
+* [es2015](http://babeljs.io/docs/plugins/preset-2015/) (usaremos este);
+* [es2016](http://babeljs.io/docs/plugins/preset-2016/);
+* [es2017](http://babeljs.io/docs/plugins/preset-2017/);
+* [react](http://babeljs.io/docs/plugins/preset-env/) (também usaremos este).
 
 Se você quiser saber mais sobre [babel](http://babeljs.io/), visite sua [documentação](https://babeljs.io/docs/setup/). Para conhecer todos os *features* suportados, veja a [lista de plugins e presets](https://babeljs.io/docs/plugins/).
 
@@ -178,11 +177,11 @@ const Header = props => (
 );
 ```
 
-As *funções flecha* propicianm pricipalmente 3 benefícios:
+As *funções flecha* propiciam principalmente 3 benefícios:
 
-1. Definem una **sintaxe concisa**
-2. Possuem **retorno implícito** quando o corpo da função é somente uma expressão
-3. **Não efetuam um `re-bind` de `this`** quando são usadas dentro de outra função
+1. Definem uma **sintaxe concisa**;
+2. Possuem **retorno implícito** quando o corpo da função é somente uma expressão;
+3. **Não efetuam um `re-bind` de `this`** quando são usadas dentro de outra função.
 
 ***
 
@@ -210,7 +209,7 @@ Substituímos a definição do parâmetros `props` por uma definição de sua fo
 
 E por fim usaremos o operador de propagação (*spread operator*) para facilitar a injeção dinâmica de propriedades nos nossos componentes.
 
-Por exemplo, dado o seguinte caso
+Por exemplo, dado o seguinte caso:
 
 ```js
 const Header = ({ titulo, descricao }) => (
@@ -220,7 +219,7 @@ const Header = ({ titulo, descricao }) => (
   </header>
 );
 
-// Estas são as props que queremos injetar
+// Estas são as props que queremos injetar:
 const headerProps = { titulo: 'Título', descricao: 'Descrição' };
 
 // A maneira direta de injetar as propriedades no componente seria assim:
@@ -229,7 +228,7 @@ const headerProps = { titulo: 'Título', descricao: 'Descrição' };
 // Uma forma mais direta e menos prolixa de fazer é assim:
 <Header {...headerProps} />
 
-// Esta última opção é particularmente útil quando não sabemos a priori qual estrutura possui `headerProps`
+// Esta última opção é particularmente útil quando não sabemos a priori qual estrutura possui `headerProps`.
 ```
 
 Considera que **ambas expressões** são **equivalentes**.

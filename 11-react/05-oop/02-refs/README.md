@@ -38,13 +38,13 @@ class CustomTextInput extends React.Component {
   }
 
   focus() {
-    // Explicitamente damos o foco no input por meio da API do DOM
+    // Explicitamente damos o foco no input por meio da API do DOM:
     this.textInput.focus();
   }
 
   render() {
     // Usamos `ref` para capturar a referência ao elemento input do DOM
-    // em um campo desta instância de `CustomTextInput`
+    // em um campo desta instância de `CustomTextInput`.
     return (
       <div>
         <input

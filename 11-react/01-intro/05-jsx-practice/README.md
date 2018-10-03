@@ -47,7 +47,7 @@ E anotar nossa tag `script` na qual podemos implementar nosso código como type 
 
 ```html
 <script type="text/babel">
-  // aqui o código de seus componentes
+  // Aqui o código de seus componentes:
 </script>
 ```
 
@@ -110,7 +110,7 @@ const children = props.articles.map(function (a) {
     <div>
       <h4>Detalhes</h4>
       <p>
-        Esta aplicação é escrita utilizando JSX e transformada pelo Babel em ES5 diretamente no navegador
+        Esta aplicação é escrita utilizando JSX e transformada pelo Babel em ES5 diretamente no navegador:
       </p>
     </div>
     <hr />

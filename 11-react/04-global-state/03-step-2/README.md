@@ -114,9 +114,9 @@ const ProductTable = ({ products }) => {
 export default ProductTable
 ```
 
-> Sua tarefa é indicar os `prop-types` correspondentes
+> Sua tarefa é indicar os `prop-types` correspondentes.
 
-E agora que temos um `FilterableProductTable` mais interessante. Vamos criar um pouco de dados fictícios para ver como aparece:
+E agora que temos um `FilterableProductTable` mais interessante, vamos criar um pouco de dados fictícios para ver como aparece:
 
 ```js
 // lib/components/Main.js
@@ -131,7 +131,7 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
     { href: '#', texto: 'Link 5'}
   ]
 
-  // Definimos estaticamente os produtos
+  // Definimos estaticamente os produtos:
   products = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
     {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},

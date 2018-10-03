@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Tomemos um segundo para analizar o que faz e como o `babel` está funcionando:
+Tomemos um segundo para analisar o que faz e como o `babel` está funcionando:
 
 1. Primeiro importamos a versão para navegadores de `babel`:
    ```html
@@ -16,7 +16,7 @@ Tomemos um segundo para analizar o que faz e como o `babel` está funcionando:
    ```
    Isso carrega uma versão de `babel` que fica encarregada de "escutar" qualquer tag `script` que esteja marcada como `text/babel`. Tenha em conta que essas tags não serão processadas por seu navegador, já que seu tipo não está configurado como uma dos "interpretáveis" por padrão.
 
-2. Em seguida carregamos um arquivo externo processando-o com a versão de `babel` importada anteriormente
+2. Em seguida carregamos um arquivo externo processando-o com a versão de `babel` importada anteriormente:
    ```html
    <script type="text/babel" src="page.js" ></script>
    ```
@@ -30,19 +30,19 @@ Nesta leitura vamos configurar nossa aplicação para re-transpilar nosso códig
 
 1. Primeiro vamos eliminar de nosso `html` o _import_ de `babel`.
 
-2. Em seguida, convertemos o `babel´ para uma dependência de nossa aplicação por meio de `package.json`
+2. Em seguida, convertemos o `babel` para uma dependência de nossa aplicação por meio de `package.json`
 
    ```sh
    yarn add -D babel-cli babel-preset-react
    ```
 
-   > o parâmetro `-D` indica que são dependências de desenvolvimento
+   > o parâmetro `-D` indica que são dependências de desenvolvimento.
 
 3. Criamos um `npm script` `build` para que:
 
-   - execute `babel` sobre nosso arquivo `page.js`
-   - usando o [--preset `react`](https://babeljs.io/docs/plugins/preset-react/)
-   - e coloque o resultado na pasta `build` ([`our-dir`](https://babeljs.io/docs/usage/cli/#babel-compile-files))
+   - execute `babel` sobre nosso arquivo `page.js`;
+   - usando o [--preset `react`](https://babeljs.io/docs/plugins/preset-react/);
+   - e coloque o resultado na pasta `build` ([`our-dir`];(https://babeljs.io/docs/usage/cli/#babel-compile-files)).
 
    Tudo isso expressamos com o seguinte comando:
 
@@ -62,7 +62,7 @@ Nesta leitura vamos configurar nossa aplicação para re-transpilar nosso códig
    <script src="build/page.js"></script>
    ```
 
-5. Execute `yarn start` e acesse sua aplicação
+5. Execute `yarn start` e acesse sua aplicação.
 
 Agora cada vez que você faça uma mudança no código da página, você deve executar `yarn build` para a última versão seja refletida na sua página.
 

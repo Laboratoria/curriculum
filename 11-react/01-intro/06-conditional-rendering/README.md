@@ -71,7 +71,7 @@ No exemplo abaixo, vamos criar um componente que renderize `<LoginButton />` ou 
 
 ```js
 function LoginControl = ({ isLoggedIn, handleLogoutClick, handleLoginClick}) => {
-  let button = null; // aqui guardaremos nosso elemento
+  let button = null; // aqui guardaremos nosso elemento:
   if (isLoggedIn) {
     button = <LogoutButton onClick={handleLogoutClick} />;
   } else {

@@ -10,12 +10,12 @@ Se simplificarmos ao mínimo o processo de desenvolvimento de software, podería
 
 ## Desenvolvimento
 
-Durante esta etapa criamos o produto que que temos em mente (ou iteramos sobre ele). Para esse fim, é importante contar com ferramentas que permitam **reconhecer rapidamente um erro** e **identificar onde ele ocorre** para podermos corrigi-lo e que permitam obter um _feedback_ de nossas alterações tão rápido quanto possível.
+Durante esta etapa criamos o produto que temos em mente (ou iteramos sobre ele). Para esse fim, é importante contar com ferramentas que permitam **reconhecer rapidamente um erro** e **identificar onde ele ocorre** para podermos corrigi-lo e que permitam obter um _feedback_ de nossas alterações tão rápido quanto possível.
 
-Por exemplo, em nossa aplicação, configuramos o `webpack`para que:
+Por exemplo, em nossa aplicação, configuramos o `webpack` para que:
 
-1. abra um navegador quando o código seja "compilado" pela primeira vez
-2. atualize o conteúdo cada vez que realizamos uma alteração.
+1. Abra um navegador quando o código seja "compilado" pela primeira vez.
+2. Atualize o conteúdo cada vez que realizamos uma alteração.
 
 ***
 
@@ -23,9 +23,9 @@ Por exemplo, em nossa aplicação, configuramos o `webpack`para que:
 
 `webpack`
 
-* notifica quando o conteúdo está disponível (ao invés de pressionar F5 até que a página esteja disponível)
-* evita a etapa extra de atualizar manualmente o navegador para verificar a alteração
-* modifica o `DOM` com as alterações sem sequer atualizar a página.
+* Notifica quando o conteúdo está disponível (ao invés de pressionar F5 até que a página esteja disponível);
+* Evita a etapa extra de atualizar manualmente o navegador para verificar a alteração;
+* Modifica o `DOM` com as alterações sem sequer atualizar a página.
 
 Estas pequenas economias de "tempos perdidos" refletem em uma experiência de desenvolvimento (DX) muito mais dinâmica.
 
@@ -41,10 +41,10 @@ Neste cenário, dizemos que nossa aplicação deve estar **otimizada** para um a
 
 Estes processos de *empacotamento* (`bundling`) pode possuir uma infinidade de passos. Alguns que são comuns:
 
-* concatenar, *minimizar* e *enfeiar* todo o código de un mesmo tipo em um só arquivo
-* otimizar imagens, áudio e vídeo
-* criar *sprites* ou versões *retina* e *standard* das imagens de fundo
-* ... uma infinidade de outras coisas
+* Concatenar, *minimizar* e *enfeiar* todo o código de um mesmo tipo em um só arquivo;
+* Otimizar imagens, áudio e vídeo;
+* Criar *sprites* ou versões *retina* e *standard* das imagens de fundo;
+* ... Uma infinidade de outras coisas.
 
 ## Implantação (`deployment`)
 

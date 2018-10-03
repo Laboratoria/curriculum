@@ -15,8 +15,8 @@ Exploramos o conceito e uso de estado interno dos componentes, o ciclo de vida (
 ## Respondamos juntas às perguntas da abertura
 
 * Como implementar um componente como classe (`class`)?
-* Diferenças entre o estado global ou externo e estado interno
+* Diferenças entre o estado global ou externo e estado interno.
 * Qual é o _ciclo de vida_ de um componente?
-* Como _interceptar_ eventos do ciclo de vira para executar código específico?
+* Como _interceptar_ eventos do ciclo de vida para executar código específico?
 * O que é e como funciona a propriedade especial `ref` nos nós renderizados por um componente _statefull_?
 * Quando usar referências (`refs`)?
