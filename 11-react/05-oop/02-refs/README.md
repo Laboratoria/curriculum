@@ -6,9 +6,9 @@
 
 ***
 
-No fluxo padrão do `React`, as `props` são a única forma que possuem os componentes pai para interagir com seus `children`. Se você quiser modificar um nó filho, você o renderiza com novas `props` e pronto.
+No fluxo padrão do `React`, as `props` são a única forma que os componentes pai possuem para interagir com seus `children`. Se você quiser modificar um nó filho, você o renderiza com novas `props` e pronto.
 
-Contudo, existem certas situações nas quais você precisa poder modificar um nó filho de maneira imperativa. O nó a ser modificado pode ser tanto uma instância de um componente definido como classe como um elemento `DOM`.
+Contudo, existem certas situações nas quais você precisa poder modificar um nó filho de maneira imperativa. O nó a ser modificado pode ser tanto uma instância de um componente definido como classe, como um elemento `DOM`.
 
 ## Quando utilizar referências?
 
@@ -22,13 +22,13 @@ Existem alguns casos de uso válidos para utilização de `refs`:
 >
 > Evite utilizar `refs` para qualquer coisa que você possa fazer de maneira declarativa.
 >
-> Por exemplo, se você tiver um componente `Dialogo` no lugar de expor os métodos `abrir()` e `fechar()`, informe uma `prop` booleana `aberto`.
+> Por exemplo, se você tiver um componente `Dialogo`, no lugar de expor os métodos `abrir()` e `fechar()`, informe uma `prop` booleana `aberto`.
 
 ## Adicionar uma referência a um elemento DOM
 
-`React` prevê suporte para um atributo especial que pode ser atribuído a qualquer componente implementado como classe: `ref`. O Atributo `ref` recebe uma função _callback_, a qual será executada imediatamente depois do componente seja desmontado.
+`React` prevê suporte para um atributo especial que pode ser atribuído a qualquer componente implementado como classe: `ref`. O Atributo `ref` recebe uma função _callback_, que será executada imediatamente após o componente ser desmontado.
 
-Quando o atributo `ref` é utilizado em um elemento `HTML`, a função _callback_ receber o elemento `DOM` como argumento:
+Quando o atributo `ref` é utilizado em um elemento `HTML`, a função _callback_ recebe o elemento `DOM` como argumento:
 
 ```js
 class CustomTextInput extends React.Component {
@@ -88,4 +88,4 @@ class AutoFocusTextInput extends React.Component {
 
 Tenha em mente que isso **só funciona** se `CustomTextInput` estiver declarado como classe.
 
-Você **nunca** deveria usar `ref` em um componente `stateless` por que **eles não têm instâncias**. Se você precisar usar `ref` com um componente `stateless`, você deve convertê-lo em `statefull`.
+Você **nunca** deveria usar `ref` em um componente `stateless` porque **eles não têm instâncias**. Se você precisar usar `ref` com um componente `stateless`, você deve convertê-lo em `statefull`.

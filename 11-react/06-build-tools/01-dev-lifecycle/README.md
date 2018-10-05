@@ -27,7 +27,7 @@ Por exemplo, em nossa aplicação, configuramos o `webpack` para que:
 * Evita a etapa extra de atualizar manualmente o navegador para verificar a alteração;
 * Modifica o `DOM` com as alterações sem sequer atualizar a página.
 
-Estas pequenas economias de "tempos perdidos" refletem em uma experiência de desenvolvimento (DX) muito mais dinâmica.
+Estas pequenas economias de "tempo perdido" refletem em uma experiência de desenvolvimento (DX) muito mais dinâmica.
 
 ***
 
@@ -41,16 +41,16 @@ Neste cenário, dizemos que nossa aplicação deve estar **otimizada** para um a
 
 Estes processos de *empacotamento* (`bundling`) pode possuir uma infinidade de passos. Alguns que são comuns:
 
-* Concatenar, *minimizar* e *enfeiar* todo o código de um mesmo tipo em um só arquivo;
+* Concatenar, *minimizar* e *enfeiar* ("uglify") todo o código de um mesmo tipo em um só arquivo;
 * Otimizar imagens, áudio e vídeo;
 * Criar *sprites* ou versões *retina* e *standard* das imagens de fundo;
 * ... Uma infinidade de outras coisas.
 
 ## Implantação (`deployment`)
 
-Mas nada de tudo que fizemos até aqui tem sentido se não podermos mostrar o que fizemos ao mundo (ou pelo menos a nossas amigas).
+Mas nada de tudo que fizemos até aqui tem sentido se não pudermos mostrar o que fizemos ao mundo (ou pelo menos para as nossas amigas).
 
-Uma vez que temos nosso *bundle* temos que decidir onde publicá-lo. Existem *milhões de alternativas*, para *milhares de tecnologias*, **tanto pagas quanto gratuitas**.
+Uma vez que temos nosso *bundle*, temos que decidir onde publicá-lo. Existem *milhões de alternativas*, para *milhares de tecnologias*, **tanto pagas quanto gratuitas**.
 
 Como nós só precisamos implantar recursos estáticos, usaremos as [Github Pages](https://pages.github.com/). Github Pages (`gh-pages`) permitem publicar conteúdo web associado a seus projetos.
 

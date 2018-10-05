@@ -84,7 +84,7 @@ const config = {
 module.exports = config;
 ```
 
-2 - Criaremos um `npm script` com o nome `build` dentro de `package.json` que ficará encarregado de executar o `webpack` com a configuração do ponto anterior.
+2 - Criaremos um `npm script` com o nome `build` dentro de `package.json`, que ficará encarregado de executar o `webpack` com a configuração do ponto anterior.
 
 ```js
 // package.json
@@ -100,7 +100,7 @@ O que fazem esses parâmetros de `progress`, `profile` e `colors`? Para você n�
 
 3 - Instalaremos um [módulo](https://github.com/tschaub/gh-pages) que permite implantar facilmente nas `gh-pages` (`yarn add -D gh-pages`). GiHub pages publicará uma URL com a seguinte estrutura `http://username.github.io/repo-name` com o conteúdo que estiver no `branch` `gh-pages` de nosso repositório.
 
-4 -  Criaremos um `npm script` com o nome `deploy` que primeiro executa `build` e em seguida publique o conteúdo da pasta `dist`, usando o módulo `gh-pages`.
+4 -  Criaremos um `npm script` com o nome `deploy` que primeiro executa `build` e em seguida publica o conteúdo da pasta `dist`, usando o módulo `gh-pages`.
 
 ```js
 // package.json
@@ -117,4 +117,4 @@ Execute `yarn deploy` e verifique os resultados no GitHub.
 
 **NOTA**:
 
-O processo de desenvolvimento é um ciclo constante de desenvolvimento, teste, empacotamento e implantação. Encapsular esses passos com scripts para `start`, `build` e `deploy` não só contribui com nossa DX como também permite automatizar os processos de `empacotamento` e `implantação` para chegar aos que a indústria chama de ***[delivery continuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.
+O processo de desenvolvimento é um ciclo constante de desenvolvimento, teste, empacotamento e implantação. Encapsular esses passos com scripts para `start`, `build` e `deploy` não só contribui com nossa DX como também permite automatizar os processos de `empacotamento` e `implantação` para chegar aos que a indústria chama de ***[delivery contínuo](https://en.wikipedia.org/wiki/Continuous_delivery)***.
