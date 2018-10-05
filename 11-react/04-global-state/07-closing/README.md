@@ -1,48 +1,40 @@
-# Cierre
+# Fechamento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Wrap up
+## _Wrap up_
 
-Esta unidad ha sido intensa, con varios conceptos nuevos y mágicamente útiles.
-Mientras vas agarrando práctica con `Redux`, intenta realizar conscientemente
-los pasos que hemos visto en esta unidad.
+Esta unidade foi intensa, com vários conceitos novos e magicamente úteis. Enquanto você vai pegando prática com `Redux`, tente fazer conscientemente os passos que vimos nesta unidade.
 
-Si lo piensas, en realidad, `React` y `Redux` no son más que un montón de
-funciones y objetos simples que organizados de una manera específica, que nos
-permiten realizar tareas muy complejas de la misma manera que realizas las
-simples. El secreto radica en el diseño de tus componentes.
+Se você pensar, na verdade, `React` e `Redux` não são nada mais que um montão de funções e objetos simples que organizados de uma maneira específica, que permitem realizar tarefas muito complexas da mesma maneira que são realizadas as simples. O segredo está no projeto de seus componentes.
 
-> Pasas muchas horas al día en el transporte público? Usa ese tiempo para
-> diseñar tu aplicación en papel y lapiz!!!
+> Você passa muitas horas no transporte público? Use esse tempo para projetar sua aplicação com papel e lápis!!!
 >
-> Antes de comenzar a picar como unx locx, detente un segundo para diseñar tu
-> aplicación:
+> Antes de começar a a programar como uma louca, pare um segundo para projetar sua aplicação:
 >
-> - Define la jerarquía de tus componentes
-> - Define sus interfaces con sus props y prop-types
-> - Diseña la forma y partes de tu state
-> - Piensa en las actions que pueden suceder en tu app
-> - Y por último considera cómo evoluciona tu state: qué propiedades de tu state
->   reccionan a qué actions
+> - Defina a hierarquia de seus componentes;
+> - Defina suas interfaces com suas props e prop-types;
+> - Projete a forma e partes de seu state;
+> - Pense nas ações que podem acontecer na sua aplicação;
+> - E por fim considere como mudar seu state: quais propriedades de seu state relacionam a quais ações.
 >
-> Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y
-> claro, resumido solamente a escribir bloques de markup o lógica muy simple.
+> Quando você tiver tudo isso claro, verá que o desenvolvimento será bem mais fluído e
+> claro, resumido somente a escrever blocos de markup ou lógica muito simples.
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Qué es `Redux`?
-* Qué es una acción?
-* Qué es un reductor (reducer)?
-* Los principios de Redux:
-  - Single source of truth
-  - State is read-only
-  - Cambios de state a través de funciones puras
-* Cómo integrar `Redux` y `React`?
-* Cómo conectar componentes para acceder al store global?
-* Cómo definir y _disparar_ acciones desde nuestros componentes?
-* Cómo implementar reductores para modificar el estado como respuesta a acciones
+* O que é `Redux`?
+* O que é uma ação?
+* O que é um redutor (_reducer_)?
+* Os princípios de `Redux`:
+  - _Single source of truth_.
+  - _State is read-only_.
+  - Mudanças de estado por meio de funções puras.
+* Como integrar `Redux` e `React`?
+* Como conectar componentes para acessar o *store global*?
+* Domo definir e _disparar_ ações a partir de nossos componentes?
+* Como implementar redutores para modificar o estado como resposta às ações?

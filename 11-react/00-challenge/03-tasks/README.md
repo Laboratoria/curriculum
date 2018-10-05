@@ -1,18 +1,13 @@
-# Identificación de tareas y división de trabajo
+# Identificação de tarefas e divisão do trabalho
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-Una vez creados los equipos, es hora de crear una serie de _issues_ y
-_milestones_ para coordinar el trabajo y poder hacer seguimiento del progreso.
+Uma vez criadas as equipes, é hora de criar uma série de _issues_ e _milestones_ para gerenciar o trabalho e poder acompanhar o andamento.
 
-Los _milestones_ tendrán fechas de entrega coincidiendo con las sesiones
-prácticas de este curso. Tus instructorxs y/o training managers te pueden
-confirmar las fechas de estas sesiones.
+Os _milestones_ terão datas de entrega coincidindo com as sessões práticas deste curso. Suas instrutoras e/ou *training managers* poderão confirmar as datas destas sessões.
 
-Una vez iniciado el curso, no dudes en añadir issues con preguntas o sugerencias
-tanto para tu equipo como para la clase en general incluyendo a lxs
-instructorxs.
+Uma vez iniciado o curso, não deixe de adicionar _issues_ com perguntas ou sugestões tanto para sua equipe como para a turma em geral incluindo as instrutoras.

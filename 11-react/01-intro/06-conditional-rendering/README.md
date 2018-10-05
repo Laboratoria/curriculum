@@ -1,35 +1,28 @@
 # JSX: Renderizado condicional
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-En `React`, puedes construir distintos componentes para encapsular el
-comportamiento que necesites. Luego, puedes renderizar solo algunos de esos
-componentes, dependiendo del estado de tu aplicación.
+No `React`, você pode construir diferentes componentes para encapsular o comportamento necessário. Logo, você pode renderizar somente alguns desses componentes, dependendo do estado de sua aplicação.
 
-> El *renderizado coindicional* funciona de la misma manera que funcionan las
-condiciones en JavaScript. Usa sentencias como [`if`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else)
-o el [operador condicional](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator)
-para crear elementos que representen el estado actual, y deja que React
-actualice la interfaz de usuario.
+> O *renderizado condicional* funciona da mesma forma que funcionam as condições em JavaScript. Utiliza sentenças como [`if`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else) ou o [operador condicional](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operador_Condicional) para criar elementos que representam o estado atual e deixa que o `React` atualize a interface do usuário.
 
-Considera los siguientes componentes:
+Considere os seguintes componentes:
 
 ```js
 function UserGreeting(props) {
-  return <h1>Welcome back!</h1>;
+  return <h1>Bem-vindo de volta!</h1>;
 }
 
 function GuestGreeting(props) {
-  return <h1>Please sign up.</h1>;
+  return <h1>Por favor, faça o login.</h1>;
 }
 ```
 
-Vamos a crear un componente `Greeting` que muestre el componente que
-corresponda, dependiendo de si el usuario esta loggeado o no:
+Vamos criar um componente `Greeting` que mostre o componente correspondente dependendo se o usuário está logado ou não:
 
 ```js
 function Greeting(props) {
@@ -40,24 +33,21 @@ function Greeting(props) {
 }
 
 ReactDOM.render(
-  // Cambia isLoggedIn={true} para ver qué pasa ;-)
+  // Mude isLoggedIn={true} para ver o que acontece ;-)
   <Greeting isLoggedIn={false} />,
   document.getElementById('root')
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
+[Teste no CodePen](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011)
 
-Este ejemplo renderiza diferentes mensajes, dependiendo del valor de la prop
-`isLoggedIn`.
+Este exemplo renderiza diferentes mensagens, dependendo do valor da `prop` `isLoggedin`.
 
-## Elementos como variables
+## Elementos como variáveis
 
-Al igual que en Javascript, puedes usar variables para guardar una referencia a
-tus elementos. Esto puede ayudarte a renderizar condicionalmente una parte del
-componente, mientras que el resto se mantiene igual.
+Como em JavaScript, você pode utilizar variáveis para armazenar uma referência aos seus elementos. Isso pode lhe ajudar a renderizar condicionalmente uma parte do componente, enquanto que o resto se mantém igual.
 
-Considera estos dos componente que representan botones de *Login* y *Logout*
+Considere estes dois componentes que representam os botões de *Login* e *Logout*:
 
 ```js
 function LoginButton(props) {
@@ -77,13 +67,11 @@ function LogoutButton(props) {
 }
 ```
 
-En el ejemplo de abajo, vamos a crear un componente que renderice
-`<LoginButton />` o `<LogoutButton />` según corresponda. Además renderizará un
-`<Greeting />` del ejemplo anterior:
+No exemplo abaixo, vamos criar um componente que renderize `<LoginButton />` ou `<LogoutButton />` de acordo com a necessidade. Além disso, renderizará um `<Greeting />` do exemplo anterior:
 
 ```js
 function LoginControl = ({ isLoggedIn, handleLogoutClick, handleLoginClick}) => {
-  let button = null; // aqui guardaremos nuestro elemento
+  let button = null; // aqui guardaremos nosso elemento:
   if (isLoggedIn) {
     button = <LogoutButton onClick={handleLogoutClick} />;
   } else {
@@ -106,9 +94,7 @@ ReactDOM.render(
 
 ## Operadores booleanos
 
-Como ya vimos antes, puedes incrustar cualquier tipo de expresiones en JSX,
-solo con colocarlas dentro de llaves `{}`. Esto tambien aplica para el operador
-`&&`, el cual puede ser muy útil para incluir un elemento condicionalmente:
+Como já vimos antes, você pode adicionar qualquer tipo de expressão em `JSX`, bastando colocá-las entre `{}`. Isso também se aplica para o operador `&&`, o que pode ser útil para incluir um elemento condicionalmente:
 
 ```js
 function Mailbox(props) {
@@ -132,22 +118,18 @@ ReactDOM.render(
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
+[Teste no CodePen](https://codepen.io/gaearon/pen/ozJddz?editors=0010)
 
-Esto funciona porque en JavaScript los operadores booleanos son *lazy*:
-`true && expression` siempre evalúa a `expression`, y `false && expression`
-siempre evalua a `false`.
+Isso funciona porque no JavaScript os operadores booleanos são *lazy*: `true && expression` sempre avalia a `expression`, e `false && expression`
+sempre avalia para `false`.
 
-Entonces, si la condición es `true`, el elemento a la derecha del `&&` aparece
-en el output. En cambio si es`false`, React lo ignora.
+Logo, se a condição é `true`, o elemento à direita do `&&` aparece no _output_. Em caso de ser `false`, `React` o ignora.
 
-## Operador condicional ternario
+## Operador condicional ternário
 
-Otro método para renderizar condicionalmente elementos con una expresión, es
-usando el operador ternario [`condition ? true : false`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator).
+Outro método para renderizar condicionalmente elementos com uma expressão é utilizando o operador ternário [`condition ? true : false`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operador_Condicional).
 
-En el ejemplo de abajo, lo utilizamos para renderizar condicionalmente sólo una
-palabra.
+No exemplo abaixo, utilizamo-lo para renderizar condicionalmente só uma palavra.
 
 ```js
 function Message(props) {
@@ -159,15 +141,11 @@ function Message(props) {
 }
 ```
 
-## Evitar que un componente se renderice
+## Evitar que um componente renderize
 
-En algunos casos quizás quieras que un componente se oculte, inclusive si ha
-sido renderizado desde afuera. Para lograr esto lo único que necesitas es
-devolver `null`.
+Em alguns casos talvez você queira que um componente fique oculto, inclusive se tiver sido renderizado por fora. Para conseguir isso a única coisa que precisa é devolver `null`.
 
-En el ejemplo de abajo, `<WarningBanner />` es renderizado dependiendo del valor
-de la propiedad llamada `warn`. Si el valor de `warn` es `false`, entonces el
-componente no aparecerá en la salida.
+No exemplo abaixo, `<WarningBanner />` é renderizado dependendo do valor da propriedade chamada `warn`. Se o valor de `warn` é `false`, então o componente não aparecerá na saída.
 
 ```js
 function WarningBanner(props) {
@@ -188,4 +166,4 @@ ReactDOM.render(
 );
 ```
 
-[Pruébalo en CodePen](https://codepen.io/merunga/pen/QMVPbb?editors=0010)
+[Teste no CodePen](https://codepen.io/merunga/pen/QMVPbb?editors=0010)

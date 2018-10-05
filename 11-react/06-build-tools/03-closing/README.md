@@ -1,25 +1,23 @@
-# Cierre
+# Encerramento
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Resumen
+## Resumo
 
-Felicitaciones... llegaste al final de este curso!
+Congratulações... você chegou ao final do curso!
 
-Habiendo completado esta unidad ya deberías estar lista para configurar tu
-proyecto para un entorno de producción y publicarlo en Github Pages.
+Ao completar esta unidade você já deverá estar pronta para configurar seu projeto para um ambiente de produção e publicá-lo nas GitHub Pages.
 
-Es hora de lanzar nuestro producto!
+É hora de publicar nosso produto!
 
-## Respondamos juntxs las preguntas de la apertura
+## Respondamos juntas às perguntas da abertura
 
-* Cuáles son las diferencias entre los entornos de _desarrollo_ y _producción_?
-* Qué es el proceso de empaquetado?
-* Qué es el proceso de despliegue?
-* Cómo configurar diferentes configuraciones de `webpack` para diferentes
-  entornos?
-* Cómo configurar `npm-scripts` para invocar tareas?
+* Quais são as diferenças entre os ambientes de _desenvolvimento_ e de _produção_?
+* Qual é o processo de empacotamento?
+* Qual é o processo de implantação? 
+* Como configurar diferentes configurações de `webpack` para diferentes ambientes?
+* Como configurar `npm-scripts` para invocar tarefas?

@@ -1,20 +1,13 @@
-# Ejercicio
+# Exercício
 
-* Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `prática`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Vamos a crear un componente `CuentaRegresiva` que esté compuesto por un
-componente `BarraDeProgreso` que implemente un método `setProgreso(progreso)` y
-muestre una barra de diferente longitud, dependiendo del porcentaje, que indique
-ese `progreso`. Si la duración es 60 segundos y han trancurrido 30, la barra
-debería estar pintada en un 50%.
+Vamos criar um componente `ContagemRegressiva`, composto por um componente `BarraDeProgresso` que implementa um método `setProgresso(progresso)` e mostra uma barra de comprimento variável, dependendo da porcentagem, indicando esse `progress`. Se a duração é de 60 segundos e já se passaram 30, a barra deveria estar preenchida em 50%.
 
-Ademas `CuentaRegresiva`, al igual que en nuestro ejemplo de la unidad, debe
-iniciar y liberar un timer a la hora de ser montado y desmontado respectivamente
-(en lugar de cada un segundo, cada medio). En cada tick del timer debe ejecutar
-`BarraDeProgreso.setProgreso()`.
+Além disso, `ContagemRegressiva` (como em nosso exemplo da unidade) deve iniciar e liberar um _timer_ no momento em que for montado e desmontado, respectivamente (ao invés de cada segundo, cada momento). Em cada _tick_ do _timer_ você deve executar (`BarraDeProgresso.setProgresso()`).
 
-Tu estableces la duración por defecto del timer.
+Você define a duração por padrão do _timer_.

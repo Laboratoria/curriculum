@@ -1,36 +1,22 @@
 # React + Redux = Awesome
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-## Step 2: Construye una versión estática en React
+## Step 2: Construa uma versão estática no `React`
 
-Ahora que ya tenemos los componentes es hora de comenzar a implementar la
-aplicación. El paso más simple es comenzar con una versión estática, sin
-interactividad. Es mejor separar estos procesos porque la construcción de la
-versión estática es mas que nada tipear pero no pensar, en cambio agregar
-interacciones require más de pensar que de tipear. Veremos por qué.
+Agora que já temos os componentes é hora de começar a implementar a aplicação. O passo mais simples é começar com uma versão estática, sem interatividade. É melhor separar estes processos porque a construção da versão estática é mais codificar do que pensar e adicionar interatividade é mais pensar do codificar. Veremos o porquê.
 
-Para construir una versión estática querrás contruir componentes que reusen
-otros componentes pasando información entre unos y otros usando sus `props`.
+Para construir uma versão estática você desejará construir componentes que reutilizem outros componentes passando informação entre um e outro utilizando suas `props`.
 
-Puedes construir tu aplicación top-down o bottom-up. Esto quiere decir que
-puedes comenzar con los componentes más arriba en la jerarquía (i.e. comenzar
-con `FilterableProductTable`) o con los que están mas abajo (`ProductRow`). En
-casos simples es generalmente más rápido comenzar de arriba hacia abajo, y en
-proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test a
-medida que vas subiendo escalones.
+Você pode construir sua aplicação _top-down_ ou _bottom-up_. Isso quer dizer que você pode começar com os componentes mais acima na hierarquia (isto é, começar com `FilterableProductTable`) ou com os que estão mais abaixo (`ProductRow`). Em casos simples é geralmente mais rápido começar de cima para baixo e em projetos maiores, é mais simples começar de baixo e ir escrevendo testes a medida que você vai subindo pelas camadas.
 
-Al final de este proceso tendras una librería de componentes reusables que
-renderizan tus datos. El componente más arriba en la jerarquía
-(`FilterableProductTable`) recibirá la data como una prop. Si realizas un
-cambio en el JSON de productos, estos cambios se verán inmediatamente reflejados
-en tu interfaz. Esta es la maravilla del **one-way data flow**.
+Ao final desse processo você terá uma biblioteca de componentes reutilizáveis que renderizam seus dados. O componente mais acima na hierarquia (`FilterableProductTable`) receberá os dados como uma `prop`. Se você realizar uma mudança no JSON de produtos, estas mudanças serão imediatamente refletidas em sua interface. Esta é a maravilha do _**one-way data flow**_.
 
-[Pruébalo en CodePen](https://codepen.io/merunga/pen/NvLbjX)
+[Faça um teste no CodePen](https://codepen.io/merunga/pen/NvLbjX)
 
 ```js
 // lib/FilterableProductTable/components/index.js
@@ -128,10 +114,9 @@ const ProductTable = ({ products }) => {
 export default ProductTable
 ```
 
-> Tu tienes como tarea indicar los prop-types correspondientes
+> Sua tarefa é indicar os `prop-types` correspondentes.
 
-Y ahora que tenemos un `FilterableProductTable` mas interesante, vamos a crear
-un poco de data ficticia para ver cómo se muestra:
+E agora que temos um `FilterableProductTable` mais interessante, vamos criar um pouco de dados fictícios para ver como aparece:
 
 ```js
 // lib/components/Main.js
@@ -146,7 +131,7 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
     { href: '#', texto: 'Link 5'}
   ]
 
-  // Definimos estaticamente los productos
+  // Definimos estaticamente os produtos:
   products = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
     {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -168,7 +153,7 @@ const Main = ({ products, asideTitulo, asideLinks }) => {
 
 ***
 
-Fuentes:
+Fontes:
 
-* [Thinking in React - Documentación oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
-* [Usage with React - Documentación oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Thinking in React - Documentação oficial de React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Usage with React - Documentação oficial de Redux](http://redux.js.org/docs/basics/UsageWithReact.html)

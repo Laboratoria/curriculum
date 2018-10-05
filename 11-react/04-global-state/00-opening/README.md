@@ -1,53 +1,35 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Por qué aprender esto?
+## Por que aprender isto?
 
-`React` es una tecnología hermosa para componer interfaces, caracterizada por su
-simpleza, su enfoque declarativo y funcional. `React` nos ofrece herramientas
-para construir interfaces usando componentes, y los componentes incluyen
-funcionalidades (o convenciones) básicas para manejar _estado_ interno de los
-componentes (implementando componentes como clases, que veremos más adelante),
-así como un mecanismo para propagar estado a través de `props`. Para casos de
-manejo de estado simple, esto muchas veces es suficiente, pero en el mundo real
-normalmente usamos otro patrón ("UI manager" + "State manager") para manejar
-estado a nivel de toda la aplicación y separar el manejo de estado de los
-propios componentes de la interfaz.
+`React` é uma tecnologia elegante para compor interfaces, caracterizada por sua simplicidade e seu enfoque declarativo e funcional. `React` fornece ferramentas para construir interfaces utilizando componentes, e os componentes incluem funcionalidades (ou convenções) básicas para manipular o _estado_ interno dos componentes (implementando componentes como classes, que veremos mais adiante), assim como um mecanismo para propagar o estado por meio de `props`. Para casos de manipulação mais simples, isso muitas vezes é suficiente, mas no mundo real normalmente usamos outro padrão ("_UI Manager_" + "_State Manager_") para manipular o estado no nível de toda a aplicação e separar a manipulação do estado dos próprios componentes da interface.
 
-Dentro de este contexto, en el mundo real es muy común encontrar aplicaciones
-que combinan `React` con `Redux`: un enfoque parecido (simplicidad, declarativo,
-funcional, ...) tanto en UI como en manejo de estado.
+Dentro deste contexto, no mundo real é muito comum encontrar aplicações que combinam `React` com `Redux`: um enfoque parecido (simplicidade, declarativo, funcional, ...) tanto em UI como em manipulação de estado.
 
-Como desarrolladora Front End, entender los conceptos de _estado_ y _manejo de
-estado_ son fundamentales para poder contruir interfaces dinámicas y reactivas.
+Como desenvolvedora _Front End_, entender os conceitos de _estado_ e _manipulação de estado_ são fundamentais para poder construir interfaces dinâmicas e interativas.
 
-En esta unidad exlporaremos qué es `Redux` y cómo usarlo junto con `React`.
+Nesta unidade exploraremos o que é `Redux` e como usá-lo com `React`.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Qué es `Redux`?
-* Qué es una acción?
-* Qué es un reductor (reducer)?
-* Los principios de Redux:
-  - Single source of truth
-  - State is read-only
-  - Cambios de state a través de funciones puras
-* Cómo integrar `Redux` y `React`?
-* Cómo conectar componentes para acceder al store global?
-* Cómo definir y _disparar_ acciones desde nuestros componentes?
-* Cómo implementar reductores para modificar el estado como respuesta a acciones
+* O que é `Redux`?
+* O que é uma ação?
+* O que é um redutor (_reducer_)?
+* Os princípios de `Redux`:
+  - _Single source of truth_.
+  - _State is read-only_.
+  - Mudanças de estado por meio de funções puras.
+* Como integrar `Redux` e `React`?
+* Como conectar componentes para acessar o *store global*?
+* Domo definir e _disparar_ ações a partir de nossos componentes?
+* Como implementar redutores para modificar o estado como resposta às ações?

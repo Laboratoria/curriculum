@@ -1,24 +1,17 @@
-# Creación de equipos
+# Criação das Equipes
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-Es hora de organizarse por equipos. Cada equipo debe estar formado por dos
-alumnas. En caso de ser impares se podrá hacer algún equipo de tres alumnas.
+É hora de se organizar em equipes. Cada grupo deverá ser formado por duas alunas. No caso de número ímpar, poderá haver um grupo com três alunas.
 
-Una vez que hayas decidido con quién vas a trabajar, tu equipo tendrá que
-informar a tus instructorxs quiénes con las integrantes del equipo y cuál es su
-propuesta de producto.
+Uma vez que você tenha decidido com quem vai trabalhar, sua equipe terá que informar a suas instrutoras quem são as integrantes do grupo e qual é sua proposta de produto.
 
-Los instructorxs crearán un repositorio en Github bajo la organización
-[Laboratoria](https://github.com/Laboratoria) y asignarán permisos de escritura
-a los miembros del equipo.
+As instrutoras criarão um repositório no GitHub sob a organização [Laboratoria](https://github.com/Laboratoria) e atribuirão permissões de escrita às participantes do grupo.
 
-Cada miembro del equipo debe hacer su propio _fork_ del repo de su equipo y
-clonar el proyecto localmente para poder trabajar.
+Cada participante do grupo deverá fazer seu próprio _fork_ do repositório de sua equipe e clonar o projeto localmente para poder trabalhar.
 
-De esa forma, una vez creados los repos y asignados los usuarios de GitHub
-quedan formalizados los equipos para este curso.
+Desta maneira, uma vez criados os repositórios e atribuídos os usuários de GitHub ficam formalizadas as equipes para este curso.

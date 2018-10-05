@@ -1,25 +1,22 @@
-# Ejercicio: Migrar a JSX
+# Exercício: Migrar para `JSX`
 
-* Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `prática`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Vamos a continuar con el ejercicio anterior, donde construimos una interfaz
-usando `React` y `ReactDOM` a partir de un HTML. En este ejemplo, la _data_ que
-estamos representando en nuestra interfaz se podría organizar de la siguiente
-manera:
+Vamos continuar o exercício anterior, no qual construímos uma interface usando `React` e `ReactDOM` a partir de um HTML. Neste exemplo, a _data_ que estamos representando em nossa interface poderia ser organizada da seguinte forma:
 
 ```js
 const data = {
   headerTitulo: 'Getting Started',
-  headerDescripcion: 'Descripcion',
+  headerDescripcion: 'Descrição',
   mainSectionTitulo: 'Main Section',
   articles: [
-    { titulo: 'Titulo 1', descripcion: 'Descripcion 1'},
-    { titulo: 'Titulo 2', descripcion: 'Descripcion 2'},
-    { titulo: 'Titulo 3', descripcion: 'Descripcion 3'}
+    { titulo: 'Título 1', descripcion: 'Descrição 1'},
+    { titulo: 'Título 2', descripcion: 'Descrição 2'},
+    { titulo: 'Título 3', descripcion: 'Descrição 3'}
   ],
   asideTitulo: 'Links',
   links: [
@@ -32,67 +29,57 @@ const data = {
 };
 ```
 
-El reto ahora es re-escribir la misma página que en el ejercicio anterior,
-usando este objeto de datos como punto de partida, y esta vez haciendo uso
-de `JSX` en vez de usar `React.DOM.div` y compañía.
+O desafio agora é reescrever a mesma página do exercício anterior usando esse objeto de dados como ponto de partida e desta vez utilizando `JSX` ao invés de `React.DOM.div` e companhia.
 
-El resultado se debería ver algo similar a esto:
+O resultado deveria ser algo similar a isto:
 
 ![Screenshot de resultado](https://image.ibb.co/dXaJEc/html.png)
 
-Continuando el ejercicio anterior, ahora nos toca configurar la página, para que
-comience a entender `JSX`. Hay varias formas de hacer esto, pero nosotros lo que
-haremos es incluir una dependencia a un script de `babel`, que entre otras cosas
-entiende `JSX`, y crearemos nuestro `script`, con una anotación especial, para
-que `babel` entienda que es su responsabilidad procesarlo.
+Continuando o exercício anterior, agora temos que configurar a página que comece a entender `JSX`. Há várias formas de fazer isto, mas o faremos incluindo uma dependência de um script de `babel` que, entre outras coisas, entende `JSX` e criaremos nosso `script` com uma notação especial, para que `babel` entenda que é sua responsabilidade processá-lo.
 
-Entoces, necesitamos agregar la siguiente dependencia:
+Então, precisamos adicionar a seguinte dependência:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
 ```
 
-Y anotar nuestro tag `script` donde vamos a implementar nuestro código, como
-type `text/babel`:
+E anotar nossa tag `script` na qual podemos implementar nosso código como type `text/babel`:
 
 ```html
 <script type="text/babel">
-  // aqui el codigo de tus componentes
+  // Aqui o código de seus componentes:
 </script>
 ```
 
-Si refrescas tu página, nada debería haber cambiado, ya que todo el código ES5
-es compatible con ES6.
+Se atualizar sua página, nada deve ter mudado, já que todo o código ES5 é compatível com ES6.
 
-Terminada la configuración, ahora nuestra tarea será deshacernos de todas las
-referencias a `React.DOM` y las llamadas directas a nuestros componentes,
-reemplazando todas ellas por código `JSX`.
+Terminada a configuração, agora nossa tarefa será nos livrar de todas as referências a `React.DOM` e às chamadas diretas a nossos componentes, substituindo-as por código `JSX`.
 
-Entonces, por ejemplo, el siguiente código
+Então, por exemplo, o seguinte código
 
 ```js
 function Header(props) {
   return DOM.header(null,
     DOM.h1(null, props.titulo),
-    DOM.p(null, props.descripcion)
+    DOM.p(null, props.descricao)
   );
 }
 ```
 
-se convierte en
+é convertido para
 
 ```js
 function Header(props) {
   return (
     <header>
       <h1>{props.titulo}</h1>
-      <p>{props.descripcion}</p>
+      <p>{props.descricao}</p>
     </header>
   )
 }
 ```
 
-y
+e
 
 ```js
 const articles = props.articles.map(function (it) {
@@ -100,11 +87,11 @@ const articles = props.articles.map(function (it) {
 })
 ```
 
-se convierte en
+é convertido para
 
 ```jsx
 const children = props.articles.map(function (a) {
-  return <Article titulo={a.titulo} descripcion={a.descripcion} />
+  return <Article titulo={a.titulo} descripcion={a.descricao} />
 })
 ```
 
@@ -115,22 +102,21 @@ const children = props.articles.map(function (a) {
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ejemplo básico con JSX</title>
+    <title>Exemplo básico com JSX</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Ejemplo básico con JSX</h1>
+    <h1>Exemplo básico com JSX</h1>
     <div>
-      <h4>Detalles</h4>
+      <h4>Detalhes</h4>
       <p>
-        Esta aplicación esta escrita usando JSX y transformada a través de Babel
-        en es5 directamente desde el navegador
+        Esta aplicação é escrita utilizando JSX e transformada pelo Babel em ES5 diretamente no navegador:
       </p>
     </div>
     <hr />
     <div id="container">
       <p>
-        Si ves esto React <strong>no</strong> está funcionando.
+        Se você vir isto, React <strong>não</strong> está funcionando.
       </p>
     </div>
     <script src="https://unpkg.com/react@15/dist/react.js"></script>
@@ -139,12 +125,12 @@ const children = props.articles.map(function (a) {
     <script type="text/babel">
       const data = {
         headerTitulo: 'Getting Started',
-        headerDescripcion: 'Descripcion',
+        headerDescripcion: 'Descrição',
         mainSectionTitulo: 'Main Section',
         articles: [
-          { titulo: 'Titulo 1', descripcion: 'Descripcion 1'},
-          { titulo: 'Titulo 2', descripcion: 'Descripcion 2'},
-          { titulo: 'Titulo 3', descripcion: 'Descripcion 3'}
+          { titulo: 'Título 1', descripcion: 'Descrição 1'},
+          { titulo: 'Título 2', descripcion: 'Descrição 2'},
+          { titulo: 'Título 3', descripcion: 'Descrição 3'}
         ],
         asideTitulo: 'Links',
         links: [
@@ -159,7 +145,7 @@ const children = props.articles.map(function (a) {
       ReactDOM.render(
         <Page
           headerTitulo={data.headerTitulo}
-          headerDescripcion={data.headerDescripcion}
+          headerDescricao={data.headerDescricao}
           mainSectionTitulo={data.mainSectionTitulo}
           mainSectionArticles={data.articles}
           asideTitulo={data.asideTitulo}

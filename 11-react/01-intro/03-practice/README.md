@@ -1,14 +1,12 @@
-# Ejercicio: Nuestra primera interfaz
+# Exercício: Nossa primeira interface
 
-* Tipo: `práctica`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `prática`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Convierte la siguiente página HTML a una página que utilice integramente
-`React` y `ReactDOM`. Este ejercicio lo puedes realizar en tu editor favorito o
-un entorno web como JS Bin o CodePen.
+Converta a seguinte página HTML em uma página que utilize integralmente `React` e `ReactDOM`. Este exercício pode ser feito em seu editor favorito ou em um ambiente web como JS Bin ou CodePen.
 
 ```html
 <!DOCTYPE html>
@@ -21,24 +19,24 @@ un entorno web como JS Bin o CodePen.
   <body>
     <header>
       <h1>Getting Started</h1>
-      <p>Descripción</p>
+      <p>Descrição</p>
     </header>
 
     <section id="main" style="width: 70%; float: left">
       <h2>Main Section</h2>
       <article>
-        <h3>Titulo 1</h3>
-        <p>Descripcion 1</p>
+        <h3>Título 1</h3>
+        <p>Descrição 1</p>
         <hr />
       </article>
       <article>
-        <h3>Titulo 2</h3>
-        <p>Descripcion 2</p>
+        <h3>Título 2</h3>
+        <p>Descrição 2</p>
         <hr />
       </article>
       <article>
-        <h3>Titulo 3</h3>
-        <p>Descripcion 2</p>
+        <h3>Título 3</h3>
+        <p>Descrição 2</p>
         <hr />
       </article>
     </section>
