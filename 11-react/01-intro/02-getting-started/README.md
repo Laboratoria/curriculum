@@ -171,7 +171,7 @@ No mundo `React` os parâmetros dos componentes são denominados ***propriedades
     );
 
     ReactDOM.render(
-      Cabecalho({ cabecalho: 'Amiga' }),
+      Cabecalho({ saudacao: 'Amiga' }),
       document.getElementById('cabecalho-2')
     );
   </script>
