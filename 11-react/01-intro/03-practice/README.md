@@ -36,7 +36,7 @@ Converta a seguinte página HTML em uma página que utilize integralmente `React
       </article>
       <article>
         <h3>Título 3</h3>
-        <p>Descrição 2</p>
+        <p>Descrição 3</p>
         <hr />
       </article>
     </section>
