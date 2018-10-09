@@ -335,11 +335,11 @@ puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
 
 #### `/users`
 
-* [ ] `GET /users`
+* [x] `GET /users`
 * [x] `GET /users/:uid`
 * [x] `POST /users`
-* [ ] `PUT /users/:uid`
-* [ ] `DELETE /users/:uid`
+* [x] `PUT /users/:uid`
+* [x] `DELETE /users/:uid`
 
 #### `/products`
 
