@@ -55,17 +55,19 @@ setup y configuración necesaria para ejecutar los tests (pruebas) así como _co
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
 
-El _boilerplate_ incluye pruebas unitarias como punto de partida?? Supertest??
+El _boilerplate_ incluye NO pruebas unitarias. Si quieres puedes usar pruebas
+unitarias para las funciones que implementes, pero en este proyecto no son
+obligatorias.
 
-El _boilerplate_ también incluye una serie de pruebas _end-to-end_ que usaremos
-para verificar el comportamiento desde el punto de vista de HTTP, desde afuera
-del servidor. Estos tests, a diferencia de las pruebas unitarias, no prueban
-cada pieza por separado sino que prueban la aplicación completa, de principio a
-fin. Estas pruebas, al no hacer uso directo del código fuente de la aplicación,
-pueden ejecutarse directamente sobre una URL remota, ya que la interfaz sometida
-a pruebas es HTTP.
+El _boilerplate_ no incluye pruebas unitarias pero sí pruebas _end-to-end_, que
+usaremos para verificar el comportamiento desde el punto de vista de HTTP, desde
+afuera del servidor. Estos tests, a diferencia de las pruebas unitarias, no
+prueban cada pieza por separado sino que prueban la aplicación completa, de
+principio a fin. Estas pruebas, al no hacer uso directo del código fuente de la
+aplicación, pueden ejecutarse directamente sobre una URL remota, ya que la
+interfaz sometida a pruebas es HTTP.
 
-```
+```sh
 # Corre pruebas e2e sobre instancia local. Esto levanta la aplicación con npm
 # start y corre los tests contra la URL de esta instancia (por defecto
 # http://127.0.0.1:8080).
@@ -74,6 +76,9 @@ yarn e2e
 # Corre pruebas e2e sobre URL remota
 REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh yarn e2e
 ```
+
+Las pruebas _end-to-end_ ya están completas en el _boilerplate_, así que puedes
+usarlas como guía de implementación y checklist de completitud.
 
 ## Parte obligatoria
 
@@ -181,7 +186,7 @@ $ curl -i \
   --url http://127.0.0.1:8080/users/admin@localhost
 ```
 
-```
+```text
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -212,7 +217,7 @@ HTTP `Link` en la respuestas (como hace el [API de GitHub](https://developer.git
 Por ahora nuestra aplicación nos permite autenticarnos por medio de tokens.
 
 ```sh
-$ curl -u username:password http://127.0.0.1:8080/users
+curl -u username:password http://127.0.0.1:8080/users
 ```
 
 Más info acá: [Autenticación de acceso básica - Wikipedia](https://es.wikipedia.org/wiki/Autenticaci%C3%B3n_de_acceso_b%C3%A1sica#Lado_Cliente)
@@ -265,17 +270,17 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 1. Instala [MongoDB](https://www.mongodb.com/) localmente.
 2. Crea un cluster gratuito en [cloud.mongodb.com](https://cloud.mongodb.com/).
 3. Creo un usuario en la base datos (MongoDB Users).
-3. Crea un cuenta en [zeit.co](https://zeit.co/).
-4. Instala herramienta de línea de comando `now`: `npm i -g now`
+4. Crea un cuenta en [zeit.co](https://zeit.co/).
+5. Instala herramienta de línea de comando `now`: `npm i -g now`
 
 ### Copia local del proyecto
 
-5. Haz un fork de este repo.
-6. Clona el repo en tu computadora.
-7. Instala dependencias (`yarn` o `npm install`).
-8. Arranca la aplicación `yarn start`.
-9. Ejecuta pruebas unitarias y linter: `yarn test` o `npm test`.
-9. Ejecuta tests e2e (end-to-end): `yarn e2e` o `npm run e2e`.
+1. Haz un fork de este repo.
+2. Clona el repo en tu computadora.
+3. Instala dependencias (`yarn` o `npm install`).
+4. Arranca la aplicación `yarn start`.
+5. Ejecuta pruebas unitarias y linter: `yarn test` o `npm test`.
+6. Ejecuta tests e2e (end-to-end): `yarn e2e` o `npm run e2e`.
 
 ### Despliegue
 
@@ -288,9 +293,13 @@ add <key> <balue>`. Por ejemplo:
 
 ```sh
 $ now secrets add mongo-url "mongodb://system:<PASSWORD>@foo-shard-00-00-ust2z.gcp.mongodb.net:27017,foo-shard-00-01-ust2z.gcp.mongodb.net:27017,foo-shard-00-02-ust2z.gcp.mongodb.net:27017/test?ssl=true&replicaSet=bq-shard-0&authSource=admin&retryWrites=true"
+> Success! Secret mongo-url added (lupomontero) [1s]
 $ now secrets add jwt-secret "this is actually supposed to be a secret"
+> Success! Secret jwt-secret added (lupomontero) [1s]
 $ now secrets add admin-email "admin@localhost"
+> Success! Secret admin-email added (lupomontero) [1s]
 $ now secrets add admin-password "changeme"
+> Success! Secret admin-password added (lupomontero) [1s]
 ```
 
 Recurda que solo necesitas _crear_ los secretos una vez. No es necesario
@@ -300,7 +309,7 @@ Una vez configurados los _secretos_ en el servidor, podemos proceder con el
 despliegue:
 
 ```sh
-$ now \
+now \
   -e MONGO_URL=@mongo-url \
   -e JWT_SECRET=@jwt-secret \
   -e ADMIN_EMAIL=@admin-email \
@@ -321,7 +330,6 @@ puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
 * [MongoDB Cloud](https://cloud.mongodb.com/)
 * [Zeit](http://zeit.co/)
 * [Postman](https://www.getpostman.com)
-* [Supertest](https://github.com/visionmedia/supertest)
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
 
