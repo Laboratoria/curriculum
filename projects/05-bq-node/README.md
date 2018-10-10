@@ -204,7 +204,6 @@ crear usuarios. Ver docs para más información.
 Puedes ejecutar estas pruebas en [Postman](https://www.getpostman.com) si así
 lo prefieres o si no tienes curl instalado.
 
-
 ## Hacker edition
 
 Como _hacker edition_, te proponemos que elijas una o más de las siguientes
