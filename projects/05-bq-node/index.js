@@ -11,7 +11,7 @@ const { port, mongoUrl, secret } = config;
 const app = express();
 
 
-// Set up Mongo configuration
+// Conectar aplicación a MongoDB
 mongoose.connect(mongoUrl, { useNewUrlParser: true });
 
 
@@ -23,13 +23,13 @@ app.use(express.json());
 app.use(authMiddleware(secret));
 
 
-// register routes
+// Registrar rutas
 routes(app, (err) => {
   if (err) {
     throw err;
   }
 
-  // Add the error handler last.
+  // Registro de "middleware" que maneja posibles errores
   app.use(errorHandler);
 
   app.listen(port, () => console.log(`App listening on port ${port}`));

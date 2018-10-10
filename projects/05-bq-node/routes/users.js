@@ -37,7 +37,34 @@ const initAdminUser = (app, next) => {
 };
 
 
+/*
+ * Diagrama de flujo de una aplicación y petición en node - express : 
+ * 
+ * request  -> middleware1 -> middleware2 -> route
+ *                                             | 
+ * response <- middleware4 <- middleware3   <---
+ * 
+ * la gracia es que la petición va pasando por cada una de las funciones 
+ * intermedias o "middlewares" hasta llegar a la función de la ruta, luego esa
+ * función genera la respuesta y esta pasa nuevamente por otras funciones 
+ * intermedias hasta responder finalmente al usuario.
+ * 
+ * Un ejemplo de middleware podría ser una función que verifique que un usuario 
+ * está realmente registrado en la aplicación y que tiene permisos para usar la
+ * ruta. O también un middleware de traducción, que cambie la respuesta 
+ * dependiendo del idioma del usuario.
+ * 
+ * Es por lo anterior que siempre veremos un req, res o un next. Cosa de que la
+ * petición vaya pasando a través de las funciones, así como también res.
+ */
+
+
 module.exports = (app, next) => {
+  /*
+   * Cuando la ruta llamada tenga entre sus parámetros uid, ejecutará la función
+   * que cargará el usuario desde la base de datos, dejándo disponible esa 
+   * Información para las rutas que están acá.
+   */
   app.param('uid', (req, res, next, uid) => {
     const { auth } = req;
 
