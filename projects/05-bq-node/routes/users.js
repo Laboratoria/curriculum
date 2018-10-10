@@ -54,8 +54,13 @@ const initAdminUser = (app, next) => {
  * ruta. O también un middleware de traducción, que cambie la respuesta 
  * dependiendo del idioma del usuario.
  * 
- * Es por lo anterior que siempre veremos un req, res o un next. Cosa de que la
- * petición vaya pasando a través de las funciones, así como también res.
+ * Es por lo anterior que siempre veremos los argumentos request, response y
+ * next en nuestros middlewares y rutas. Cada una de estas funciones tendrá
+ * la oportunidad de acceder a la consulta (request) y hacerse cargo de enviar
+ * una respuesta (rompiendo la cadena), o delegar la consulta a la siguiente
+ * función en la cadena (invocando next). De esta forma, la petición (request)
+ * va pasando a través de las funciones, así como también la respuesta
+ * (response).
  */
 
 
