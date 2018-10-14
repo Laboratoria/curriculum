@@ -1,4 +1,4 @@
-# Cierre: Guía de Estilos
+# Encerramento: Guia de Estilos
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -8,13 +8,13 @@
 
 ## Agenda
 
-### 1. Responde a las preguntas del opening
+### 1. Responda às perguntas da abertura
 
-- ¿Por qué es importante seguir una guía de estilos?
-- ¿Qué es un code review y qué nos aporta como desarrolladores?
-- ¿Cómo afecta el uso de una guía de estilos en el code review?
-- ¿Cómo agregamos la guía de estilos a nuestro flujo de trabajo?
-- ¿Qué es un linter y cómo nos ayuda?
+- Por que é importante seguir um guia de estilos?
+- O que é um _code review_ e o que nos ajuda como desenvolvedoras?
+- Como o uso do guia de estilos influencia o _code review_?
+- Como adicionamos o guia de estilo no nosso fluxo de trabalho?
+- O que é um linter e como nos ajuda?
 
 ### 2. Felicidades
 

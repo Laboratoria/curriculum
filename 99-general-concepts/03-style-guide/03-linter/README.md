@@ -6,7 +6,7 @@
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - ...
 
