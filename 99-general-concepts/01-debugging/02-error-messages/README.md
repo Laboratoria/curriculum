@@ -20,7 +20,7 @@ Há muitos tipos de erros, mas há alguns que são mais comuns. Leia estas refer
 
 ### ReferenceError: "x" is not defined
 
-[ReferenceError: "x" is not defined - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Errors/Not_defined)
+[ReferenceError: "x" is not defined - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors/N%C3%A3o_definido)
 
 ### SyntaxError: Unexpected token
 
@@ -28,7 +28,7 @@ Um "token" é uma peça pequena do código. Por exemplo, variáveis, funções, 
 
 A palavra "unexpected" significa "inesperado". Logo, se você tiver um token inesperado signfica que o navegador estava lendo o código até que chegou a algo que não deveria esta ali. Usualmente isso significa que está faltando algo (como uma vírgula ou um `+`) logo antes do token inesperado.
 
-[SyntaxError: Unexpected token - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Errors/Unexpected_token)
+[SyntaxError: Unexpected token - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors/Unexpected_token)
 
 Exemplos:
 
@@ -62,11 +62,11 @@ var data = [{foo: 'bar'} {bar: 'foo'}];
 
 ### TypeError: "x" is not a function
 
-[TypeError: "x" is not a function - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Errors/Not_a_function)
+[TypeError: "x" is not a function - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors/Not_a_function)
 
 ### SyntaxError: missing ) after argument list
 
-[SyntaxError: missing ) after argument list - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list)
+[SyntaxError: missing ) after argument list - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors/Fata_par%C3%AAnteses_ap%C3%B3s_lista_argumento)
 
 ### Assignment in Conditional Expression
 
@@ -86,4 +86,4 @@ if (x = 5) {
 
 É importante considerar que as mensagens de erros podem variar entre os navegadores. O guia de referência do MDN descreve mensagens do Firefox. As mensagens de erros dos outros navegadores são similares, mas não exatamente as mesmas. Nesta leitura, focamos nas mensagens do Chrome e `repl.it`.
 
-[Referência MDN de Erros](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Errors)
+[Referência MDN de Erros](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors)

@@ -32,7 +32,7 @@ Agora vamos discutir essas estratégias de testes no contexto de algumas falhas 
 
 Em 1968, Margaret Hamilton era uma engenheira trabalhando na missão da Apollo 8. Um dia ela percebeu que era possível apagar acidentalmente todos os dados de navegação da nave quando sua filha de 4 anos estava usando o simulador de vôo para fazer um **teste do macaco** (também conhecido como "pressionar os botões aleatoriamente"). Embora Hamilton tenha apontado esse problema aos seus supervisores, eles acharam desnecessário resolver o problema uma vez que os astronautas eram mais espertos que uma menina de 4 anos e não pressionariam os botões daquela forma. Como o destino previu, após cinco dias na missão, um astronauta fez o que a filha de Hamilton fizera e apagou acidentalmente todos os dados de navegação da nave. Felizmente, os programadores em terra conseguiram remediar a situação e trazer os astronautas para casa com segurança, mas talvez mais **testes de usuabilidade** explorando como os astronautas interagiriam com o programa poderia ter poupado todos de muito estresse.
 
-[Leitura opcional adicional.](http://sheromargarethamilton.wordpress.com)
+[Leitura opcional adicional.](https://pt.wikipedia.org/wiki/Margaret_Hamilton_(cientista_da_computa%C3%A7%C3%A3o))
 
 ![Margaret Hamilton poses with her code](http://www.grafoso.com/dc/wp-content/uploads/2016/07/ella-1.jpg)
 
@@ -40,7 +40,7 @@ Em 1968, Margaret Hamilton era uma engenheira trabalhando na missão da Apollo 8
 
 Em 1996, o foguete de 500 milhões de dólares Ariane V explodiu 40 segundos após o lançamento quando uma variável destinada a armazenar a velocidade do foguete não foi capaz de armazenar o valor real. Alguns tipos de dados numéricos só podem armazenar valores até um certo número finito de bits destinados à variável. O software fora escrito para o foguete anterior Ariane IV que não viajava tão rápido quanto o Ariane V. O lançamento se tornou uma falha bem cara de um **teste de integração** de como o novo hardware funcionaria com o programa antigo. Como diferentes estratégias de testes poderiam ter evitado o desastre? **Testes baseados em requisitos** poderiam ter exposta a necessidade de armazenar velocidades mais altas. **Testes unitários** que consideravam velocidades maiores poderia garantir que o programa continuaria funcionando mesmo com o novo requisito de velocidade.
 
-[Leitura opcional adicional.](http://www.microsiervos.com/archivo/espacio/veinte-anos-explosion-primer-ariane-5-por-fallo-software.html)
+[Leitura opcional adicional.](http://www.sbmac.org.br/bol/bol-2/artigos/ariane5.html)
 
 ![Space rocket explodes](https://www.viva64.com/media/images/content/b/0426_Space_error/image1.png)
 
@@ -51,7 +51,7 @@ Nos anos 1980, diversos pacientes de câncer receberem pesadas doses de radiaç�
 
 **Testes de usabilidade** como profissionais reais da área de saúde provavelmente teriam exposto esse comportamento inesperado dos operadores da máquina. Além disso, uma revisão dos incidentes revelou que não houve **testes de integração** do software e do hardware juntos antes da montagem do Therac-25 no hospital para uso dos pacientes. Antigas versões da máquina possuíam dispositivos mecânicos para prevenir doses pesadas de radiação que o Therac-25 não possuía. A revisão também descobriu um bug que acontecia somente quando o operador pressionava um conjunto muito improvável de teclas no intervalo de 8 segundos. O **teste automatizado do macaco** é uma estratégia que pode identificar esses cenários altamente improváveis.
 
-[Leitura opcional adicional.](https://es.wikipedia.org/wiki/Therac-25)
+[Leitura opcional adicional.](https://pt.wikipedia.org/wiki/Therac-25)
 
 ## Encerramento
 
