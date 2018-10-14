@@ -1,4 +1,4 @@
-# Cierre: Testing
+# Fechamento: _Testing_
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -8,8 +8,9 @@
 
 ## Agenda
 
-### Responde a las preguntas del opening
+### Responda às perguntas da abertura
 
-- ¿Por qué es importante testing?
-- ¿Qué tipos diferentes de testing podemos usar en el desarrollo de software?
-- ¿What are the key principles to remember when writing unit tests?
+- Por que é importante testar?
+- Quais tipos diferentes de testes podemos usar no desenvolvimento de software?
+- Quais são os princípios chave para lembrar quando escrevemos testes de unidade?
+
