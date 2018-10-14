@@ -1,4 +1,4 @@
-# Code Review
+# _Code Review_
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -6,46 +6,26 @@
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Understand why code reviews are important
-- Understand what to expect when receieving code reviews
+- Entender porque _code reviews_ são importantes
+_ Entender o que esperar quando receber _code reviews_
 
 ***
 
-While programming may not always seem collaborative, creating great code
-requires a lot of communication. Discussion and negotiation are critical when
-teams decide what changes to commit into a code base. While these back and
-forths introduce a lot of additional work and overhead into the development
-process, they greatly enhance code quality.
+Mesmo que programar nem sempre pareça algo colaborativo, criar código excelente requer muito comunicação. Discutir e negociar são nevrálgicos quando equipes decidem quais mudanças commitar na base de código. Enquanto esse vai e vem introduz trabalho extra e sobrecarga no processo de desenvolvimento, a qualidade do código melhora muito.
 
-Code reviews are one of the primary ways developers collaborate. Typically one
-programmer works independently on some code changes then asks one or more
-teammates to do a code review on their work before submitting. The author and
-reviewers should agree on all the changes before the code is submitted. In this
-lesson, we'll explore the content of what a reviewer looks for when conducting a
-code review.
+Revisões de código (_code reviews_) são uma das formas primárias de colaboração entre desenvolvedores. Tipicamente um programador trabalha sozinho em alguma alteração no código e então pede para um ou mais colegas de equipe fazerem uma revisão do código antes de submeter as alterações. O autor e os revisores devem concordar com todas as alterações antes do código ser submetido. Nesta lição, exploraremos o conteúdo que um revisor deve olhar quando fizer uma revisão de código.
 
-These concepts are things you will likely see when you recieve code reviews here
-at Laboratoria and in your future jobs. It's important to remember when
-recieving (and giving!) code reviews that the goal is not to criticize the
-author. The goal is to produce the best code possible. Also remember that code
-reviews are a great opportunity to learn. Critiques you recieve can often be
-applied to your programming habits beyond just the specific code change.
+Esses conceitos são coisas que você provavelmente verá quando receber revisões de código aqui na Laboratoria e em seus futuros empregos. É importante lembrar que ao receber (e fazer) revisão de código que o objetivo não é criticar o autor. O objetivo é produzir o melhor código possível. Também lembre que revisões de código são uma ótima oportunidade para aprender. Críticas que você receber podem frequentemente serem aplicadas nos seus hábitos de programação só alterando um código específico.
 
-Let's now look at some specific things code reviewers evaluate.
+Vamos ver então algumas coisas específicas que revisores de código avaliam.
 
-## Mistakes and Improvements
+## Erros e Melhorias
 
-The last thing anyone wants is to submit broken code. Your reviewers will likely
-start by ensuring that your code does what you say it does. They may ask for a
-demo or run your code themselves to see if they can find any flaws. Sometimes we
-may miss subtle edge cases that our code reviewers will find.
+A última coisa que qualquer quer é submeter código quebrado. Seus revisores provavelmente começarão garantindo que seu código faz o que ele diz que faz. Eles podem pedir um demo ou executar o código eles mesmos para ver se encontram alguma falha. Às vezes podemos deixar passar coisas sutis que nossos revisores identificarão.
 
-Additionally your reviewer will be analyzing the design of your code. They want
-to see that not only did it work, but it works in the most efficient and
-thoughtful way possible. Consider the following code that prints even numbers
-between 0 and 20:
+Adicionalmente seu revisor analisará o projeto do seu código. Eles querem ver que além de fazer o trabalho corretamente, ele faz da maneira mais eficiente e inteligente possível. Considere o código a seguir que imprime números pares entre 0 e 20:
 
 ```javascript
 for (var i = 0; i <= 20; i++) {
@@ -55,7 +35,7 @@ for (var i = 0; i <= 20; i++) {
 }
 ```
 
-While this code is correct, a reviewer might make the following suggestion:
+Embora esse código esteja correto, um revisor pode fazer a seguinte sugestão:
 
 ```javascript
 for (i = 0; i <= 20; i = i + 2) {
@@ -63,28 +43,20 @@ for (i = 0; i <= 20; i = i + 2) {
 }
 ```
 
-Notice how the reviewer's suggestion is more efficient since it makes fewer
-calculations. The initial code wasn't wrong, the suggestion just offers an
-improved alternative.
+Note como a sugestão do revisor é muito mais eficiente uma vez que faz menos cálculos. O código inicial não estava errado, a sugestão apenas oferecer uma alternativa melhorada.
 
-For frontend work, code reviews may also serve as a UI review. Reviewers may
-suggest improvements to your UI design. Keep in mind that code reviews are a
-conversation. It's okay to have a discussion if you have doubts or concerns
-about your reviewer's suggestions. But do remember to keep an open mind when
-recieving critiques.
+Para o trabalho de _frontend_, revisões de código podem servir como _UI review_. Revisores podem sugerir melhorias nos projeto de UI. Tenha em mente que revisões de código são uma conversa. Tudo bem ter uma discussão se você tiver dúvidas ou preocupações sobre as sugestões do seu revisor. Mas lembre-se de manter a mente aberta quando receber críticas.
 
-## Readability
+## Legibilidade
 
-Since code is a collaborative process, it's important that we are all able to
-understand each other's work. Code reviewers will also be evaluating how easy
-your code is to understand. Some things they'll be on the look out for:
+Uma vez que programar é um processo colaborativo, é importante que todos nós sejamos capazes de entender o código do outro. Revisores de código também avaliarão o quão fácil é entender seu código. Algumas coisas que eles estarão procurando:
 
-- **Style** - Does your code conform to the agreed upon style guide?
-- **Naming** - Are the names of your variables and methods clear and informative?
-- **Comments** - Did you add comments where appropriate to explain your code?
-- **Documentation** - Have you updated any relevant documentation for this code base?
+- **Estilo** - O seu código atende ao código de estilo?
+- **Nomeclatura** - Os nomes das suas variáveis e funções são claros e informativos?
+- **Comentários** - Você adicionou comentários quando necessário para explicar seu código?
+- **Documentação** - Você atualizou alguma documentação relevante para essa base de código?
 
-Consider the following example:
+Considere o exemplo a seguir:
 
 ```javascript
 var classrooms = getClassrooms();
@@ -96,14 +68,12 @@ for (var i = 0; i < classrooms.length; i++) {
 }
 ```
 
-A reviewer may find this unclear and suggest adding a comment, so you may make a
-modification like so:
-
+Um revisor pode achar esse código meio nebuloso e sugerir adicionar um comentário, de forma que você pode fazer uma modificação como:
 ```javascript
 var classrooms = getClassrooms();
-// Iterate over all classrooms
+// Itera sobre todas as salas de aula
 for (var i = 0; i < classrooms.length; i++) {
-  // Add a sample student profile to each classroom
+  // Adicionar um perfil de estudante como exemplo a cada sala de aula
   classrooms[i].push({
     'name': 'Laura',
     'grade': 99
@@ -111,8 +81,7 @@ for (var i = 0; i < classrooms.length; i++) {
 }
 ```
 
-But some readability suggestions may come in the form of code changes. Perhaps a
-reviewer makes a suggestion to change the code like so:
+Mas algumas sugestões de legibilidade podem vir em forma de mudança de código. Talvez um revisor faça uma sugestão de mudança do código para:
 
 ```javascript
 var classrooms = getClassroomsOfStudents();
@@ -125,52 +94,32 @@ for (students in classrooms) {
 }
 ```
 
-Small code changes like these may not affect the code behavior or efficiency,
-but do make it easier for future programmers to quickly understand what the code
-is doing.
+Pequenas mudanças de código como essas podem não afetar o comportamento ou eficiência do código, mas deixam muito mais fácil para que futuros programadores entendam rapidamente o que o código está fazendo.
 
-Remember that there is no "right" answer when it comes to code reviews. Reviews
-are a conversation with many potential solutions. While there is a lot of
-science to creating good code, there is an art to it as well.
+Lembre-se de que não existe uma resposta "certa" quando falamos de revisão de código. Revisões são uma conversa com muitas soluções em potencial. Ao mesmo tempo que existe muita ciência para criar um código bom, também há arte.
 
-## Test Coverage
+## Cobertura do Teste
 
-Code reviewers will also be looking at your tests. Here are some things they'll
-consider when reviewing testing:
+Revisores de código estarão olhando também os seus testes. Aqui temos algumas coisas que eles considerarão quando revisarem os testes:
 
-- **Unit test quality** - Does each test isolate and verify a specific component
-  of the code? Does each test actually verify what it claims to test? Have you
-  updated all tests that may have been affected by your changes?
-- **Readability** - Are the names of your tests clear and accurate? Is the
-  purpose of each test easy to understand?
-- **High test coverage** - Have you written tests for as much of the code base
-  as possible?
-- **Passing** - Do your tests pass? Code with failing tests should not be
-  committed.
+- **Qualidade do teste unitário** - Cada teste isola e verifica um componente específico do código? Cada teste verifica de fato o que ele diz testar? Você atualizou todos os testes que podem ser afetados por suas alterações?
+- **Legibilidade** - Os nomes dos seus testes estão claros e precisos? O objetivo de cada teste é fácil de entender?
+- **Alta cobertura de teste** - Você escreveu testes para o máximo de código possível?
+- **Passing** - Os seus testes passam? Código com falhas nos testes não devem ser commitados.
 
 ## TODOs
 
-Sometimes your code reviewer may notice an issue in the code that doesn't need
-to be addressed immediately but should not be forgotten. In this case, reviewers
-may suggest adding a "to-do". TODOs are comments left in the code that highlight
-things that should eventually be done so that they aren't forgotten. These may
-be tasks specifically for you to do, specifically for your reviewer to do, or
-generally for someone on the team to do.
+Às vezes seu revisor de código pode perceber um problema no código que não precisa ser resolvido imediatamente mas não deve ser esquecido. Nesse caso, revisores podem sugeris adicionar um "_to-do_". _TODOs_ são comentários deixados no código para lembrar de coisas que devem ser implementadas em algum momento, de forma que não ficam esquecidos. Podem ser tarefas especificamente para você fazer, especificamente para o revisor fazer ou normalmente para alguém da equipe fazer.
 
-Suppose Laura's code uses a library called `mathLibrary` that was recently
-updated. She might leave herself TODO as a reminder to eventually migrate her
-code to using the updated library.
+Imagine que o código de Laura utiliza uma biblioteca chamada `mathLibrary` que foi recentemente atualizada. Ela pode deixar para ela um _TODO_ como lembrete para em algum moemento migrar o código utilizando a biblioteca atualizada. 
 
 ```javascript
 // TODO(laura): Update mathLibrary to newest version
 var calculation = mathLibrary.calculate(a, b, c);
 ```
 
-Usually TODOs are reserved for when there are deadlines or the scope of the
-suggested change is too large for the code change being reviewed.
+Normalmente _TODOs_ são reservados para quando há prazos ou o escopo da mudança sugerida é muito grande para a mudança de código sendo revisada.
 
-## Closing
+## Encerramento
 
-Code reviews may be intimidating at first but they become easier with time. Keep
-in mind that every code review is an opportunity for you to grow as a programmer
-and produce the best code possible.
+Revisões de código podem ser intimidadoras no início mas elas se tornam fáceis com o tempo. Tenha em mente que toda revisão de código é uma oportunidade para você crescer enquanto programadora e produzir o melhor código possível.

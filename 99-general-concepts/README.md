@@ -1,77 +1,66 @@
-# Lo que todo programador debe saber
+# Aquilo que toda programadora deve saber
 
-En este curso aprenderás diversos temas relacionados a desarrollo web que
-aportarán metodologías y herramientas a tu flujo de trabajo. Para esto
-aprenderás a:
+Neste curso você aprenderá temas relacionados ao desenvolvimento web que adicionarão metodologias e ferramentas ao seu fluxo de trabalho. Para isso, você aprenderá a:
 
-1. Depurar tu código para detectar y corregir errores
-2. Probar tu código y entender las diversas maneras de cómo lograrlo
+1. Depurar seu código para detectar e corrigir erros
+2. Testar seu código e entender as diversas maneiras de fazê-lo
 
-## Público objetivo
+## Público alvo
 
-Este curso está dirigido a estudiantes de Laboratoria. No es calificable y está
-disponible para ser consultado durante cualquier momento del proceso de
-aprendizaje.
+Este curso é destinado às estudantes da Laboratoria. Não possui avaliação e está disponível para ser consultado a qualquer momento do processo de aprendizagem.
 
-## Requerimientos previos
+## Requisitos prévios
 
-Para llevar este curso debes haber completado el curso `programación básica
-con JavaScript` de Laboratoria. Se asume que las alumnas saben crear programas
-básicos, haciendo uso de: variables, funciones, bucles, condicionales, arreglos
-y objetos.
+Para fazer este curso você deve ter completado o curso `Programação Básica com JavaScript` da Laboratoria. Assumimos que as alunas sabem criar programas básicos, fazendo uso de variáveis, funções, condições, vetores e objetos.
 
-## Aprenderás
 
-* Cómo reaccionar ante mensajes de errores comunes
-* Cómo depurar tu código a través del Dev Tools
-* A detectar y corregir diversos tipos de errores en tu código
+## Você aprenderá
 
-## Producto
+* a como reagir a mensagens de erros comuns
+* a como depurar seu código por meio do Dev Tools
+* a detectar e corrigir diversos tipos de erros no seu código
 
-Este curso no tiene producto, el objetivo es que sea un material disponible en
-todo momento y estudiado al ritmo de la estudiante.
+## Produto
+
+Este curso não tem um produto. O objetivo é que seja um material disponível em todo o momento e estudado no ritmo da estudante.
 
 ## Syllabus
 
-### [Depuración](01-debugging)
+### [Depuração](01-debugging)
 
-Corregir errores es parte del trabajo de todos los programadores, en esta unidad
-nos enfocaremos en ver las cómo llevar a cabo dicho proceso: `debugging`.
+Corrigir erros é parte do trabalho de todos os programadores. Nesta unidade focaremos em ver como conduzir esse processo: `debugging`.
 
-| # | Tipo | Formato | Duración | Tópico
+| # | Tipo | Formato | Duração | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | 10min | [Apertura](01-debugging/00-opening)
-| 01 | lectura | self-paced | 30min | [¿Qué es debugging?](01-debugging/01-intro)
-| 02 | lectura | self-paced | 60min | [Mensajes de Error](01-debugging/02-error-messages)
-| 03 | práctica | self-paced | 60min | [Retos de código](01-debugging/03-code-challenges)
-| 04 | lectura | self-paced | 40min | [¿Cómo debuggear?](01-debugging/04-breakpoints)
-| 05 | lectura | self-paced | 10min | [Cierre](01-debugging/05-closing)
+| 00 | leitura | individual | 10min | [Abertura](01-debugging/00-opening)
+| 01 | leitura | individual | 30min | [O que é _debugging_?](01-debugging/01-intro)
+| 02 | leitura | individual | 60min | [Mensagens de erro](01-debugging/02-error-messages)
+| 03 | prática | individual | 60min | [Desafios de código](01-debugging/03-code-challenges)
+| 04 | leitura | individual | 40min | [Como debugar?](01-debugging/04-breakpoints)
+| 05 | leitura | individual | 10min | [Encerramento](01-debugging/05-closing)
 
-### [Pruebas](02-testing)
+### [Testes](02-testing)
 
-Las pruebas nos ayudan a identificar y resolver problemas en software antes de
-lanzar un entregable, asegurando que los usuarios finales puedan tener la mejor
-experiencia posible.
+Os testes nos ajudam a identificar e resolver problemas no software antes de publicar um entregável, garantindo que os usuários finais possam ter a melhor experiência possível.
 
-| # | Tipo | Formato | Duración | Tópico
+| # | Tipo | Formato | Duração | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
-| 01 | lectura | self-paced | 30min | [Testing](02-testing/01-intro)
-| 02 | lectura | self-paced | 40min | [Unit Tests](02-testing/02-unit-tests)
-| 03 | lectura | self-paced | 10min | [Cierre](02-testing/03-closing)
+| 00 | leitura | individual | 10min | [Abertura](02-testing/00-opening)
+| 01 | leitura | individual | 30min | [_Testing_](02-testing/01-intro)
+| 02 | leitura | individual | 40min | [Testes unitários](02-testing/02-unit-tests)
+| 03 | leitura | individual | 10min | [Encerramento](02-testing/03-closing)
 
-### [Guía de Estilos](03-style-guide)
+### [Guia de Estilos](03-style-guide)
 
-Escribir código que resuelva un problema es genial, usando una guía de estilo te
-ayudará a ser más consistente y tener un código aun mucho más legible.
+Escrever código que resolva o problema é sensacional. Usar um guia de estilo ajudar você a ser mais consistente e ter um código muito mais legível.
 
-| # | Tipo | Formato | Duración | Tópico
+| # | Tipo | Formato | Duração | Tópico
 | - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | 10min | [Apertura](02-testing/00-opening)
-| 01 | lectura | self-paced | 30min | [Guía de estilos](02-testing/01-style-guide)
-| 02 | lectura | self-paced | 40min | [Code review](02-testing/02-unit-tests)
-| 02 | lectura | self-paced | 40min | [Linter](02-testing/03-linter)
-| 04 | lectura | self-paced | 10min | [Cierre](02-testing/04-closing)
+| 00 | leitura | individual | 10min | [Abertura](02-testing/00-opening)
+| 01 | leitura | individual | 30min | [Guia de estilos](02-testing/01-style-guide)
+| 02 | leitura | individual | 40min | [_Code review_](02-testing/02-unit-tests)
+| 02 | leitura | individual | 40min | [Linter](02-testing/03-linter)
+| 04 | leitura' | individual | 10min | [Encerramento](02-testing/04-closing)
 
 ## Autor(es) / Colaboradores
 
