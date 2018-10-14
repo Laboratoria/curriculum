@@ -1,57 +1,44 @@
-# ¿Cómo debuggear en JS?
+# Como debuggar em JS?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
-
-## Objetivos de Aprendizaje
-
-- Aprender a depurar a través del Dev Tools
-- Aprender a usar el `debugger statement`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `40min`
 
 ***
 
-Para depurar en JavaScript podemos hacer uso de 2 herramientas: DevTools del
-navegador y el debugger statement.
+## Objetivos de Aprendizagem
+
+- Aprender a depurar com o Dev Tools
+- Aprender a usar o `debugger statement`
+
+***
+
+Para depurar em JavaScript podemos utilizar 2 ferramentas: DevTools do navegador e o `debugger statement`.
 
 ## DevTools
 
-El DevTools (así se llama en Chrome pero existe lo mismo en otros navegadores)
-es una herramienta usada para la inspección y depuración de todo lo que ocurre
-en nuestra aplicación web.
+O DevTools (é chamado assim no Chrome mas existe o mesmo em outros navegadores) é uma ferramenta utilizada para inspecionar e depurar tudo o que acontece em nossa aplicação web.
 
-Para acceder a ella existen diversos métodos, uno de los más sencillos es abrir
-la web app que deseas depurar, dar clic derecho en cualquier parte de dicha
-página y seleccionar la opción _Inspect_ o _Inspeccionar_.
+Para acessá-la existem diversos métodos. Um dos mais simples é abrir a página web que você deseja depurar, clicar com o botão direito em qualquer parte da página e selecionar a opção _Inspect_ ou _Inspecionar_.
 
-Por defecto, abrirá en una pestaña llamada Elements o Elementos; sin embargo,
-para hacer debug de nuestro código JavaScript debemos de cambiar a la pestaña
-_Sources_ o _Fuente_.
+Por padrão, será aberta uma aba chamada _Elements_ ou _Elementos_; contudo, para fazer o debug de nosso código JavaScript devemos mudar para a aba _Sources_ ou _Fonte_.
 
-Probablemente, al ver el contenido de la pestaña _Sources_, solo verás un
-archivo HTML y ningún archivo JS por más que sepamos que si se está usando. Para
-poder visualizar los archivos JS que usa nuestra web app, solo es necesario
-recargar la página.
+Provavelmente, ao ver o conteúdo da aba _Sources_, você verá um arquivo HTML e nenhum arquivo JS por mais saibamos que o estamos utilizando. Para poder visualizar os arquivos JS que nossa web app utiliza, só é necessário recarregar a página.
 
-¿No te quedó claro lo anterior? No te preocupes, a continuación verás un GIF en
-el cual muestra todo lo mencionado anteriormente.
+Não ficou claro? Não se preocupe. Em seguida temos um GIF que mostra tudo o que mencionamos acima.
 
 ![Chrome Dev Tools: Sources](https://cdn-images-1.medium.com/max/800/1*JhVFiJNoGZAAmlnk00y6TA.gif)
 
-Para la depuración del código JS, podemos hacer uso de **breakpoints**, que son
-puntos donde queremos que nuestro código se detenga en tiempo de ejecución.
+Para a depuração do código JS, podemos fazer uso de **breakpoints**, que são pontos onde queremos que nosso código pare durante o tempo de execução.
 
-En el siguiente ejemplo, tenemos un código que verifica si el número ingresado
-por un usuario es cero, positivo o negativo.
+No exemplo a seguir, temos um código que verifica se o número digitado por um usuário é zero, positivo ou negativo.
 
 ```javascript
-var number = prompt('Ingrese un número');
+var number = prompt('Digite um número');
 number = Number(numero);
 
 if (number === 0) {
-  alert('Cero');
+  alert('Zero');
 } else if (number > 0) {
   alert('Positivo');
 } else {
@@ -59,34 +46,20 @@ if (number === 0) {
 }
 ```
 
-Para poner un breakpoint en el DevTools solo tienes que dar clic en el número
-que indica la línea de código donde queremos detener el script. Una vez puesto
-el breakpoint debemos de recargar la página para que se detenga donde le
-indicamos.
+Para adicionar um _breakpoint_ no DevTools você só tem que clicar no número indicador da linha de código onde queremos parar o script. Uma vez colocado o breakpoint, devemos recarregas a página para que pare onde indicamos.
 
-Una vez detenido, la línea de código donde pusimos el breakpoint se sombreará,
-mientras que la web se pondrá opaco y mostrará un mensaje _Paused in debugger_
-junto a 2 botones, el primero (color azul) llamado _Resume Script Execution_
-hace referencia a seguir la ejecución hasta un siguiente breakpoint o hasta que
-termine el script, y el segundo (color gris) llamado _Step over next function call_
-refiere a seguir el flujo de ejecución del programa.
+Uma vez parado, a linha de código onde colocamos o _breakpoint_ ficará destacada, enquanto que a páginaweb ficará opaca e mostrará uma mensagem _Paused in debugger_ 
+ao lado de 2 botões. O primeiro (cor azul), chamado  _Resume Script Execution_, determina que a execução continue até o próximo _breakpoint_ ou até que termine o script. O segundo (cor cinza), chamado _Step over next function call_, continua a seguir o fluxo de execução do programa.
 
-A continuación puedes ver lo mencionado en un GIF:
+A seguir você pode ver esse processo em um GIF:
 
 ![Chrome Dev Tools: Breakpoints](https://cdn-images-1.medium.com/max/800/1*DbS6jAUYz3mPJjyv8MMU-w.gif)
 
-Un par de botones que nos ayudan a depurar nuestro código son:
-_Step into next function call_ y _Step out of current function_. El primero lo
-que nos permite es ingresar al código de una función que usamos en tiempo de
-ejecución, mientras que el segundo nos permite salir de la función en la que
-nos encontramos depurando.
+Dois botões que nos ajudam a depurar nosso código são: _Step into next function call_ e _Step out of current function_. O primeiro permite entrar no código de uma função em tempo de execução, enquanto o segundo permite sair da função na qual estamos depurando.
 
-En el siguiente ejemplo, si tuviéramos un breakpoint en la línea 8, y usáramos
-el botón de _Step over next function_, se iría hacia la línea 9; no obstante, si
-usamos el botón de _Step into next function call_, ingresaría a la línea de
-código número 2 ya que es el código que está dentro de nuestra función.
+No exemplo a seguir, se tivéssemos um breakpoint na linha 8, e usássemos o botão _Step over next function_, iríamos para a linha 9; contudo, se usamos o botão de _Step into next function call_, entraria na linha de código número 2 já que esse é o código que está dentro de nossa função.
 
-Es momento de probarlo:
+Chegou a hora de testarmos:
 
 ```javascript
 function factorial(number) {
@@ -104,39 +77,35 @@ console.log(result);
 
 ## Debugger Statement
 
-El segundo método para depurar un código es usando una palabra reservada en JS
-llamada `debugger`. Esta sentencia lo que nos permite es especificar en el
-código la línea exacta donde queremos que se detenga nuestra aplicación web para
-ser depurada.
+O segundo método para depurar um código é utilizando uma palavra reservada em JS chamada `debugger`. Esta palavra permite especificar no código a linha exata em que queremos que nosso aplicativo web seja depurado.
 
-> Nota: Para que el script se detenga en la sentencia debugger debemos de tener
-> el Dev Tools abierto y luego recargar la página.
+> Nota: Para que o script para na palavra `debugger`, precisamos ter o Dev Tools aberto e então recarregar a página.
 
-A continuación una demostración usando el siguiente script:
+A seguir temos uma demonstração usando  o seguinte script:
 
 ```javascript
-var number = parseInt(prompt('Ingresa un número (del 1 al 10):'));
+var number = parseInt(prompt('Digite um número (de 1 a 10):'));
 var randomNumber = Math.floor(Math.random() * 10);
 
 debugger;
 if (randomNumber === number) {
-    console.log('Adivinaste!');
+    console.log('Adivinhou!');
 } else {
-    console.log('Perdiste! El número es ' + randomNumber);
+    console.log('Perdeu! O número é ' + randomNumber);
 }
 ```
 
 ![Debugger statement](https://cdn-images-1.medium.com/max/800/1*RcPHfLBSK1Bh8FzfqJlqpQ.gif)
 
-## Ahora es tu turno
+## Agora é sua vez
 
-Para poner en práctica esta lectura, puedes depurar el siguiente código:
+Para colocar em prática esta leitura, você pode depurar o código a seguir:
 
 ```javascript
 /*
- * Corrige el siguiente código de tal forma que obtengas el resultado esperado,
- * usa las técnicas de depuración que conoces para encontrar y solucionar
- * el error.
+ * Corrija o seguinte código de maneira que obtenha o resultado esperado.
+ * Utilize as técnicas de depuração que você conhece para encontrar e resolver
+ * o erro.
  */
 
 var reverse = function(text) {
@@ -149,13 +118,13 @@ var reverse = function(text) {
 };
 
 var result = reverse('Laboratoria');
-// Resultado actual: airotaroba
+// Resultado atual: airotaroba
 // Resultado esperado: airotarobaL
 console.log(result);
 
-// HINT: Son 2 cambios para que quede correctamente ;)
+// HINT: São duas alterações para que fique correto ;)
 ```
 
-Así que a partir de ahora…
+Assim, a partir de agora...
 
 ![Debug all the things](https://cdn-images-1.medium.com/max/800/1*znr2Wn2kXro7XkimgplRCg.jpeg)
