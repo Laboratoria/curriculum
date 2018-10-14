@@ -1,8 +1,8 @@
 # Unit Testing
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `40min`
 
 ***
 

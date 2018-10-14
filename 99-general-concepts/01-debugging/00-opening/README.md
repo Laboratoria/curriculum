@@ -1,40 +1,32 @@
-# Apertura: Debugging
+# Abertura: Debugging
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `10min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos sobre depuración (`debugging`):
+Nesta unidade aprenderemos sobre depuração (`debugging`):
 
-- Por qué es importante saber depurar
-- Qué debemos tener en cuenta para depurar código en JavaScript
-- Qué herramienta del navegador nos puede ayudar a depurar código
+- Por que é importante saber depurar
+- O que devemos levar em conta para depurar código em JavaScript
+- Qual ferramenta do navegador pode nos ajudar a depurar código
 
-## Por qué aprender `debugging`
+## Por que aprender `debugging`
 
-La depuración es un aspecto importante en programación, trata de encontrar y
-corregir diferentes tipos de errores que pueden suceder al momento de programar.
+A depuração é um aspecto importante em programação. Trata de encontrar e corrigir diferentes tipos de erros que podem acontecer no momento de programar.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-- ¿Por qué es importante la depuración?
-- ¿Qué tipos de errores podemos encontrar en el desarrollo de software?
-- ¿Por qué es importante reconocer los mensajes de error? Identifica algunos
-  que te hayan sucedido
-- ¿Qué es el Dev Tools?
-- ¿Qué son los breakpoints?
-- ¿Cómo depurar en el Dev Tools?
+- Por que a depuração é importante?
+- Que tipos de erros podemos encontrar no desenvolvimento de software?
+- Por que é importante reconhecer as mensagens de erros? Identifique algumas que você já viu
+- O que é o Dev Tools?
+- O que são `breakpoints`?
+- Como depurar no Dev Tools?

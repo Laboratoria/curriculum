@@ -4,9 +4,9 @@ function createArray() {
 }
 
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * ESCRIBA SU RESPUESTA AQUÍ.
+ * ESCREVA SUA RESPOSTA AQUI.
  */
 
 module.exports = createArray;

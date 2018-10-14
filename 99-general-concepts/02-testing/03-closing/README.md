@@ -1,8 +1,8 @@
 # Cierre: Testing
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `10min`
 
 ***
 

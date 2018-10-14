@@ -4,9 +4,9 @@ function createArray() {
 }
 
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * Al arreglo le faltaban dos comas.
+ * Faltavam duas aspas no vetor.
  */
 
 module.exports = createArray;

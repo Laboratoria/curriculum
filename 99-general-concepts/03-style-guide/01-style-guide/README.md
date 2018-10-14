@@ -1,8 +1,8 @@
 # Guía de estilos
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
