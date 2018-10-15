@@ -1,6 +1,6 @@
 const Assert = require('chai').assert;
 const powerOfTwo = require('../solution/powerOfTwo');
-const parse = require('./parse');
+const parse = require('../solution/parse');
 
 describe('powerOfTwo()', () => {
   it('debería ser implementado con estructuras de control para calcular la potencia de 2', () => {

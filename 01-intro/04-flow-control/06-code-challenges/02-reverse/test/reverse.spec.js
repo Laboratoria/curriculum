@@ -1,6 +1,6 @@
 const Assert = require('chai').assert;
 const reverse = require('../solution/reverse');
-const parse = require('./parse');
+const parse = require('../solution/parse');
 
 describe('reverse()', () => {
   it('debería ser implementado con estructuras de control para invertir los elementos de una arreglo', ()=> {
