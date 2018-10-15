@@ -1,11 +1,11 @@
 const reverse = (array) => {
-  const result = [];
+ const result = [];
 
-  for (let i = array.length - 1; i >= 0; i--) {
-    result.push(array[i]);
-  }
+ for (let i = array.length - 1; i >= 0; i--) {
+   result.push(array[i]);
+ }
 
-  return result;
+ return result;
 };
 
 module.exports = reverse;
