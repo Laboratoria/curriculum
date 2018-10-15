@@ -6,7 +6,8 @@ const parse = (str) => {
     encoding: 'utf8'
   });
 
-  return buffer.indexOf('Math.pow()');
+  return buffer.indexOf('.Math.pow');
 }
 
 module.exports = parse
+

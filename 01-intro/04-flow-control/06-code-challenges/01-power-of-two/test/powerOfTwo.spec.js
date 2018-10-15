@@ -1,5 +1,5 @@
 const Assert = require('chai').assert;
-const powerOfTwo = require('../solution/powerOftwo');
+const powerOfTwo = require('../solution/powerOfTwo');
 const parse = require('../solution/parse');
 
 describe('powerOfTwo()', () => {
