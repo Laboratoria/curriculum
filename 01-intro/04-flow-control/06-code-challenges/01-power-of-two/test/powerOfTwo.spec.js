@@ -1,5 +1,5 @@
 const Assert = require('chai').assert;
-const powerOfTwo = require('../solution/powerOfTwo');
+const powerOfTwo = require('../solution/powerOftwo');
 const parse = require('../solution/parse');
 
 describe('powerOfTwo()', () => {
@@ -7,7 +7,7 @@ describe('powerOfTwo()', () => {
     const output = parse('../solution/powerOfTwo.js');
     Assert.deepEqual(output, -1);
   });
-  
+
   it('debería regresar la potencia de 2 elevado al número ingresado cuando es positivo', () => {
     const output = powerOfTwo(10);
     Assert.deepEqual(output, 1024);
