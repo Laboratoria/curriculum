@@ -48,7 +48,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 5) A função de <!DOCTYPE html>  é:
+### 5) A função de `<!DOCTYPE html>`  é:
 
 #### Opciones
 
