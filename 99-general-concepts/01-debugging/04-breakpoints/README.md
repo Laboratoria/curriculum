@@ -8,8 +8,8 @@
 
 ## Objetivos de Aprendizagem
 
-- Aprender a depurar com o Dev Tools
-- Aprender a usar o `debugger statement`
+- Aprender a depurar com o Dev Tools.
+- Aprender a usar o `debugger statement`.
 
 ***
 
@@ -23,7 +23,7 @@ Para acessá-la existem diversos métodos. Um dos mais simples é abrir a págin
 
 Por padrão, será aberta uma aba chamada _Elements_ ou _Elementos_; contudo, para fazer o debug de nosso código JavaScript devemos mudar para a aba _Sources_ ou _Fonte_.
 
-Provavelmente, ao ver o conteúdo da aba _Sources_, você verá um arquivo HTML e nenhum arquivo JS por mais saibamos que o estamos utilizando. Para poder visualizar os arquivos JS que nossa web app utiliza, só é necessário recarregar a página.
+Provavelmente, ao ver o conteúdo da aba _Sources_, você verá um arquivo HTML e nenhum arquivo JS por mais que saibamos o que estamos utilizando. Para poder visualizar os arquivos JS que nossa web app utiliza, só é necessário recarregar a página.
 
 Não ficou claro? Não se preocupe. Em seguida temos um GIF que mostra tudo o que mencionamos acima.
 
@@ -79,7 +79,7 @@ console.log(result);
 
 O segundo método para depurar um código é utilizando uma palavra reservada em JS chamada `debugger`. Esta palavra permite especificar no código a linha exata em que queremos que nosso aplicativo web seja depurado.
 
-> Nota: Para que o script para na palavra `debugger`, precisamos ter o Dev Tools aberto e então recarregar a página.
+> Nota: Para que o script pare na palavra `debugger`, precisamos ter o Dev Tools aberto e então recarregar a página.
 
 A seguir temos uma demonstração usando  o seguinte script:
 

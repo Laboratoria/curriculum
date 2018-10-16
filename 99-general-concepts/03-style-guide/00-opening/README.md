@@ -8,11 +8,11 @@
 
 ## Objetivos de Aprendizagem
 
-Nesta uniddade aprenderemos sobre o guia de estilos:
+Nesta unidade aprenderemos sobre o guia de estilos:
 
-- Por que é importante seguir um guia de estilos
-- Como ele ajuda no processo de **code review**
-- Como automatizar o uso de um guia de estilos
+- Por que é importante seguir um guia de estilos?
+- Como ele ajuda no processo de **code review**?
+- Como automatizar o uso de um guia de estilos?
 
 ## Por que aprender a usar um guia de estilos
 

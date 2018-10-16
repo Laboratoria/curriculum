@@ -8,9 +8,8 @@
 
 ## Objetivos de Aprendizagem
 Nesta unidade aprenderemos sobre _testing_:
-En esta unidad aprenderemos sobre testing:
 
-- Por que é importante testar
+- Por que é importante testar?
 - Como diferentes tipos de testes podem identificar diferentes tipos de problemas de software?
 - Como eu posso incorporar os testes no meu processo de desenvolvimento?
 

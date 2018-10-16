@@ -10,9 +10,9 @@
 
 Nesta unidade aprenderemos sobre depuração (`debugging`):
 
-- Por que é importante saber depurar
-- O que devemos levar em conta para depurar código em JavaScript
-- Qual ferramenta do navegador pode nos ajudar a depurar código
+- Por que é importante saber depurar;
+- O que devemos levar em conta para depurar código em JavaScript;
+- Qual ferramenta do navegador pode nos ajudar a depurar código.
 
 ## Por que aprender `debugging`
 
@@ -26,7 +26,7 @@ A seguir apresentamos uma série de perguntas que você deve ser capaz de respon
 
 - Por que a depuração é importante?
 - Que tipos de erros podemos encontrar no desenvolvimento de software?
-- Por que é importante reconhecer as mensagens de erros? Identifique algumas que você já viu
+- Por que é importante reconhecer as mensagens de erros? Identifique algumas que você já viu.
 - O que é o Dev Tools?
 - O que são `breakpoints`?
 - Como depurar no Dev Tools?

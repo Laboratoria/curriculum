@@ -2,8 +2,8 @@
 
 Neste curso você aprenderá temas relacionados ao desenvolvimento web que adicionarão metodologias e ferramentas ao seu fluxo de trabalho. Para isso, você aprenderá a:
 
-1. Depurar seu código para detectar e corrigir erros
-2. Testar seu código e entender as diversas maneiras de fazê-lo
+1. Depurar seu código para detectar e corrigir erros.
+2. Testar seu código e entender as diversas maneiras de fazê-lo.
 
 ## Público alvo
 
@@ -16,9 +16,9 @@ Para fazer este curso você deve ter completado o curso `Programação Básica c
 
 ## Você aprenderá
 
-* a como reagir a mensagens de erros comuns
-* a como depurar seu código por meio do Dev Tools
-* a detectar e corrigir diversos tipos de erros no seu código
+* a como reagir a mensagens de erros comuns;
+* a como depurar seu código por meio do Dev Tools;
+* a detectar e corrigir diversos tipos de erros no seu código.
 
 ## Produto
 
@@ -52,7 +52,7 @@ Os testes nos ajudam a identificar e resolver problemas no software antes de pub
 
 ### [Guia de Estilos](03-style-guide)
 
-Escrever código que resolva o problema é sensacional. Usar um guia de estilo ajudar você a ser mais consistente e ter um código muito mais legível.
+Escrever código que resolva o problema é sensacional. Usar um guia de estilo ajuda você a ser mais consistente e ter um código muito mais legível.
 
 | # | Tipo | Formato | Duração | Tópico
 | - | ---- | ------- | -------- | ------
