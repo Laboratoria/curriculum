@@ -8,14 +8,14 @@
 
 ## Objetivos de Aprendizagem
 
-- Entender porque _code reviews_ são importantes
-_ Entender o que esperar quando receber _code reviews_
+- Entender porque _code reviews_ são importantes.
+_ Entender o que esperar quando receber _code reviews_.
 
 ***
 
-Mesmo que programar nem sempre pareça algo colaborativo, criar código excelente requer muito comunicação. Discutir e negociar são nevrálgicos quando equipes decidem quais mudanças commitar na base de código. Enquanto esse vai e vem introduz trabalho extra e sobrecarga no processo de desenvolvimento, a qualidade do código melhora muito.
+Mesmo que programar nem sempre pareça algo colaborativo, criar código excelente requer muita comunicação. Discutir e negociar são nevrálgicos quando equipes decidem quais mudanças commitar na base de código. Enquanto esse vai e vem introduz trabalho extra e sobrecarga no processo de desenvolvimento, a qualidade do código melhora muito.
 
-Revisões de código (_code reviews_) são uma das formas primárias de colaboração entre desenvolvedores. Tipicamente um programador trabalha sozinho em alguma alteração no código e então pede para um ou mais colegas de equipe fazerem uma revisão do código antes de submeter as alterações. O autor e os revisores devem concordar com todas as alterações antes do código ser submetido. Nesta lição, exploraremos o conteúdo que um revisor deve olhar quando fizer uma revisão de código.
+Revisões de código (_code reviews_) são uma das formas primárias de colaboração entre desenvolvedores. Tipicamente um programador trabalha sozinho em alguma alteração no código, e então pede para um ou mais colegas de equipe fazerem uma revisão do código antes de submeter as alterações. O autor e os revisores devem concordar com todas as alterações antes do código ser submetido. Nesta lição, exploraremos o conteúdo que um revisor deve olhar quando fizer uma revisão de código.
 
 Esses conceitos são coisas que você provavelmente verá quando receber revisões de código aqui na Laboratoria e em seus futuros empregos. É importante lembrar que ao receber (e fazer) revisão de código que o objetivo não é criticar o autor. O objetivo é produzir o melhor código possível. Também lembre que revisões de código são uma ótima oportunidade para aprender. Críticas que você receber podem frequentemente serem aplicadas nos seus hábitos de programação só alterando um código específico.
 
@@ -23,7 +23,7 @@ Vamos ver então algumas coisas específicas que revisores de código avaliam.
 
 ## Erros e Melhorias
 
-A última coisa que qualquer quer é submeter código quebrado. Seus revisores provavelmente começarão garantindo que seu código faz o que ele diz que faz. Eles podem pedir um demo ou executar o código eles mesmos para ver se encontram alguma falha. Às vezes podemos deixar passar coisas sutis que nossos revisores identificarão.
+A última coisa que qualquer um quer é submeter código quebrado. Seus revisores provavelmente começarão garantindo que seu código faz o que ele diz que faz. Eles podem pedir um demo ou executar o código eles mesmos para ver se encontram alguma falha. Às vezes podemos deixar passar coisas sutis que nossos revisores identificarão.
 
 Adicionalmente seu revisor analisará o projeto do seu código. Eles querem ver que além de fazer o trabalho corretamente, ele faz da maneira mais eficiente e inteligente possível. Considere o código a seguir que imprime números pares entre 0 e 20:
 
@@ -43,7 +43,7 @@ for (i = 0; i <= 20; i = i + 2) {
 }
 ```
 
-Note como a sugestão do revisor é muito mais eficiente uma vez que faz menos cálculos. O código inicial não estava errado, a sugestão apenas oferecer uma alternativa melhorada.
+Note como a sugestão do revisor é muito mais eficiente uma vez que faz menos cálculos. O código inicial não estava errado, a sugestão é apenas oferecer uma alternativa melhorada.
 
 Para o trabalho de _frontend_, revisões de código podem servir como _UI review_. Revisores podem sugerir melhorias nos projeto de UI. Tenha em mente que revisões de código são uma conversa. Tudo bem ter uma discussão se você tiver dúvidas ou preocupações sobre as sugestões do seu revisor. Mas lembre-se de manter a mente aberta quando receber críticas.
 
@@ -71,9 +71,9 @@ for (var i = 0; i < classrooms.length; i++) {
 Um revisor pode achar esse código meio nebuloso e sugerir adicionar um comentário, de forma que você pode fazer uma modificação como:
 ```javascript
 var classrooms = getClassrooms();
-// Itera sobre todas as salas de aula
+// Itera sobre todas as salas de aula.
 for (var i = 0; i < classrooms.length; i++) {
-  // Adicionar um perfil de estudante como exemplo a cada sala de aula
+  // Adicionar um perfil de estudante como exemplo a cada sala de aula.
   classrooms[i].push({
     'name': 'Laura',
     'grade': 99
@@ -109,12 +109,12 @@ Revisores de código estarão olhando também os seus testes. Aqui temos algumas
 
 ## TODOs
 
-Às vezes seu revisor de código pode perceber um problema no código que não precisa ser resolvido imediatamente mas não deve ser esquecido. Nesse caso, revisores podem sugeris adicionar um "_to-do_". _TODOs_ são comentários deixados no código para lembrar de coisas que devem ser implementadas em algum momento, de forma que não ficam esquecidos. Podem ser tarefas especificamente para você fazer, especificamente para o revisor fazer ou normalmente para alguém da equipe fazer.
+Às vezes seu revisor de código pode perceber um problema no código que não precisa ser resolvido imediatamente mas não deve ser esquecido. Nesse caso, revisores podem sugerir adicionar um "_to-do_". _TODOs_ são comentários deixados no código para lembrar de coisas que devem ser implementadas em algum momento, de forma que não ficam esquecidos. Podem ser tarefas especificamente para você fazer, especificamente para o revisor fazer, ou normalmente para alguém da equipe fazer.
 
-Imagine que o código de Laura utiliza uma biblioteca chamada `mathLibrary` que foi recentemente atualizada. Ela pode deixar para ela um _TODO_ como lembrete para em algum moemento migrar o código utilizando a biblioteca atualizada. 
+Imagine que o código de Laura utiliza uma biblioteca chamada `mathLibrary` que foi recentemente atualizada. Ela pode deixar para ela um _TODO_ como lembrete para em algum momento migrar o código utilizando a biblioteca atualizada. 
 
 ```javascript
-// TODO(laura): Update mathLibrary to newest version
+// TODO(laura): Update mathLibrary to newest version.
 var calculation = mathLibrary.calculate(a, b, c);
 ```
 

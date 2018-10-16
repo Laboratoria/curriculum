@@ -26,7 +26,7 @@ Há muitos tipos de erros, mas há alguns que são mais comuns. Leia estas refer
 
 Um "token" é uma peça pequena do código. Por exemplo, variáveis, funções, operadores e palavras chave (como `if` ou `while`), todos são tokens.
 
-A palavra "unexpected" significa "inesperado". Logo, se você tiver um token inesperado signfica que o navegador estava lendo o código até que chegou a algo que não deveria esta ali. Usualmente isso significa que está faltando algo (como uma vírgula ou um `+`) logo antes do token inesperado.
+A palavra "unexpected" significa "inesperado". Logo, se você tiver um token inesperado significa que o navegador estava lendo o código até que chegou a algo que não deveria esta ali. Usualmente isso significa que está faltando algo (como uma vírgula ou um `+`) logo antes do token inesperado.
 
 [SyntaxError: Unexpected token - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Errors/Unexpected_token)
 
@@ -34,8 +34,8 @@ Exemplos:
 
 ```javascript
 var foo = 'Nicole's code';
-// Uncaught SyntaxError: Unexpected identifier (Chrome)
-// SyntaxError: Unexpected token, expected ; (repl.it)
+// Uncaught SyntaxError: Unexpected identifier (Chrome).
+// SyntaxError: Unexpected token, expected ; (repl.it).
 ```
 
 ```javascript
@@ -44,21 +44,21 @@ var list = [1, 2,
 var instruments = [
   'Ukulele',
   'Guitar',
-  'Piano'
+  'Piano'.
 };
-// Uncaught SyntaxError: Unexpected token var (Chrome)
-// SyntaxError: Unexpected token (repl.it)
+// Uncaught SyntaxError: Unexpected token var (Chrome).
+// SyntaxError: Unexpected token (repl.it).
 ```
 
 ```javascript
 var data = [{foo: 'bar'} {bar: 'foo'}];
-// Uncaught SyntaxError: Unexpected token { (Chrome)
-// SyntaxError: Unexpected token, expected , (repl.it)
+// Uncaught SyntaxError: Unexpected token { (Chrome).
+// SyntaxError: Unexpected token, expected , (repl.it).
 ```
 
 Às vezes, ao invés de "Unexpected Token", será exibido algo como "Unexpected Identifier" ou "Unexpected Number". Estes são erros similares e também quase sempre significam que você esqueceu de adicionar algo logo antes do token inesperado. Felizmente, Chrome DevTools dirá o número da linha na qual está o erro e `repl.it` dirá não só o número da linha como também o número da coluna.
 
-![repl.it screenshot](img-line-number.png)
+![repl.it screenshot](img-line-number.png).
 
 ### TypeError: "x" is not a function
 

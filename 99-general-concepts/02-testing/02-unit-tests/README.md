@@ -8,8 +8,8 @@
 
 ## Objetivos de Aprendizagem
 
-- Entender como escrever testes unitários efetivos
-- Entender os princípios por trás do _Test Driven Development_
+- Entender como escrever testes unitários efetivos.
+- Entender os princípios por trás do _Test Driven Development_.
 
 ***
 
@@ -19,7 +19,7 @@ Você já deve ter reparado que ao final de cada desafio de código você teve q
 
 Por exemplo, considere uma função que soma dois números: `soma(a, b)`.
 
-Para testar `soma(a, b)`, podemos selecionar quaiquer dois números e atribuir que o resultado esperado é igual a soma dos dois:
+Para testar `soma(a, b)`, podemos selecionar quaisquer dois números e atribuir que o resultado esperado é igual a soma dos dois:
 
 
 ```javascript
@@ -34,7 +34,7 @@ Para explorar mais profundamente testes unitários, vamos analisar o desafio `ar
 
 > Escreva uma função chamada `areValidCredentials`.
 >
-> Informando um usuário e uma senha, `areValidCredentials` retorna `true` se o nome tem mais que 3 caracteres E a senha tem ao menos 8 caracteres de comprimento. Do contrário, retorna `false`.
+> Informando um usuário e uma senha, `areValidCredentials` retorna `true` se o nome tiver mais que 3 caracteres e a senha tiver ao menos 8 caracteres de comprimento. Do contrário, retorna `false`.
 
 Vamos olhar o teste unitário associado a este desafio:
 
@@ -84,7 +84,7 @@ Vamos imaginar que um novo requisito foi adicionado a `areValidCredentials`. **S
 Uma vez que estamos adicionando um novo comportamento ao código e cada comportamento deveria ser testado de forma independente, precisaremos adicionar um novo teste unitário para o novo requisito. Nosso novo teste deveria isolar e verificar somente o requisito do número, então o usuário e a senha devem considerar os requisitos de comprimento já definidos.
 
 ```javascript
-it('deveria retornar false quando a senha na tem número', () => {
+it('deveria retornar false quando a senha não tem número', () => {
   const output = areValidCredentials('Kemal', 'senha');
   Assert.deepEqual(output, false);
 });
