@@ -6,7 +6,8 @@
 
 Implementa una función que determine si dos número son pares.
 
-Sigue los pasos a continuación para que completes el programa:
+La función recibirá como input dos números
+(n y m)
 
 1. Si `n` y `m` son pares retornar `true`; en caso contrario retornar `false`.
 
