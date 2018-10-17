@@ -1,7 +1,13 @@
 const Assert = require('chai').assert;
 const reverse = require('../solution/reverse');
+const parse = require('../solution/parse');
 
 describe('reverse()', () => {
+  it('debería ser implementado con estructuras de control para invertir los elementos de una arreglo', ()=> {
+    const output = parse('../solution/reverse.js');
+    Assert.deepEqual(output, -1)
+  });
+  
   it('debería regresar el arreglo invertido cuando es un arreglo de números', () => {
     const output = reverse([1, 2, 3, 4]);
     Assert.deepEqual(output, [4, 3, 2, 1]);
