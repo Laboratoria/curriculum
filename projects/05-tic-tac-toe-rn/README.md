@@ -39,13 +39,15 @@ vista _web_.
 ## Objetivos
 
 El objetivo principal de aprendizaje es tener una primera experiencia en
-desarrollo de aplicaciones con React Native.
+desarrollo de aplicaciones nativas con React Native.
 
 En este proyecto tendrás que construir una aplicación usando React Native y
 Expo, y publicarla en tu cuenta de Expo, para que se pueda instalar en cualquier
 dispositivo Android o iOS.
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como ...
+Para completar el proyecto tendrás que familiarizarte con conceptos como `View`,
+`Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
+nativas.
 
 ## Consideraciones generales
 
