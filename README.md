@@ -226,6 +226,23 @@ familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
   response, headers, body, status codes...), JSON, MongoDB,
   _variables de entorno_, JWT (_JSON Web Tokens_)...
 
+##### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
+
+El objetivo principal de aprendizaje es tener una primera experiencia en
+desarrollo de aplicaciones nativas con React Native.
+
+En este proyecto tendrás que construir una aplicación usando React Native y
+Expo, y publicarla en tu cuenta de Expo, para que se pueda instalar en cualquier
+dispositivo Android o iOS.
+
+Para completar el proyecto tendrás que familiarizarte con conceptos como `View`,
+`Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
+nativas.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1 estudiante
+* Tópicos: React Native, Expo, componentes nativos, touch events, ...
+
 #### UX
 
 ##### Proyecto: (tbd)
