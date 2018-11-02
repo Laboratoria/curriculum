@@ -1,7 +1,7 @@
 # Babel
 
 Javascript es un lenguage vivo, que año a año se va actualizando
-con nuevas APIs y herramientas sintácticas.
+con nuevas APIs y estructuras sintácticas.
 
 Este proceso evolutivo hace que exista una ventana de tiempo entre
 el momento en que una nueva funcionalidad queda aprobada en el lenguaje,
@@ -17,8 +17,8 @@ Tags: `babel`, `compiler`, `transpiler`, `js`, `jsx`, `es6`
 ## Público objetivo
 
 Este curso está dirigido a personas con conocimientos previos de **javascript**,
-que desean poder utilizar nuevos aspectos del lenguaje en sus proyectos
-del día a día, sin necesidad de esperar a que estos lleguen a ser implementados
+que desean poder utilizar nuevos aspectos del lenguaje en sus proyectos,
+sin necesidad de tener que esperar a que estos lleguen a ser implementados
 en los entornos que utilizan.
 
 ## Requerimientos previos
@@ -27,7 +27,7 @@ Para poder llevar adelante este curso sin frustración, es recomendable los
 siguientes conocimientos previos:
 
 * Manejo de línea de comandos (\*nix)
-* Javascript básico: node y npm
+* Javascript básico en entorno servidor: `node` y `npm`
 
 ## Aprenderás
 
@@ -50,4 +50,4 @@ siguientes conocimientos previos:
 ## Lecturas complementarias
 
 * [Docs](https://babeljs.io/docs)
-* [Try irt out!](https://babeljs.io/repl)
+* [Try it out!](https://babeljs.io/repl)
