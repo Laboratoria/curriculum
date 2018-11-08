@@ -110,7 +110,7 @@ puedas haber encontrado en el camino.
 
 Para este proyecto esperamos que ya hayas consolidado el nivel 4 en todas tus
 habilidades blandas pero te invitamos que las lleves al siguiente nivel
-alcanzando el nivel 5 en todasvellas. Particularmente, entrena tu habilidad de
+alcanzando el nivel 5 en todas ellas. Particularmente, entrena tu habilidad de
 autoaprendizaje, planificación y organización, y dar y recibir feedback.
 
 Recuerda la importancia de organizar, dividir y planificar tu trabajo.
