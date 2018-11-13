@@ -322,6 +322,8 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 
 ## Checklist
 
+### Parte Obligatoria
+
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
@@ -343,7 +345,7 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 * [ ] Interfaz permite escribir un texto para ser descifrado.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
-### Hacker edition
+### Parte Opcional: "Hacker edition"
 
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
