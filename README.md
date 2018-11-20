@@ -149,7 +149,7 @@ entrevistado a egresadas de Laboratoria.
 * Equipos: 1 estudiante
 * Tópicos: Todo lo visto en el _common core_.
 
-##### Proyecto: [Burger Queen](projects/04-burger-queen)
+##### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
 
 En este _proyecto_ tendrás que implementar un sistema para que lxs meserxs de un
 restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
@@ -194,7 +194,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Duración estimada: 4 semanas.
 * Tópicos: (tbd)
 
-### Etapa 3: Capstone / Elective
+### Etapa 3: Capstone / Electivos
 
 El último mes del Bootcamp - más o menos, cada una avanza a su ritmo - se espera
 que construyas tu proyecto _final_ o _capstone_, que puede estar basado en los
@@ -203,10 +203,45 @@ tópicos sugeridos (electivos).
 
 #### Front End Dev (JavaScripters)
 
-##### Proyecto: Capstone
+##### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
+
+El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
+como herramienta para desarrollar _aplicaciones de servidor_, junto con una
+serie de herramientas comunes usadas en este tipo de contexto (Express como
+framework, MongoDB como base datos, ...).
+
+En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
+sobre `HTTP`.
+
+En este proyecto partimos de un _boilerplate_ que ya contiene una serie de
+_endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
+Esto implica que tendremos que partir por leer la implementación existente, y
+familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
+[Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/),
+[mongoose](https://mongoosejs.com/), ...
 
 * Duración estimada: 2 semanas.
-* Tópicos: Node server?, Mobile?, Open Source?, Data?, WebOps?, Backend? (tbd)
+* Equipos: 1 estudiante
+* Tópicos: Node.js, Express, _rutas_ (_routes_), URLs, HTTP (verbs, request,
+  response, headers, body, status codes...), JSON, MongoDB,
+  _variables de entorno_, JWT (_JSON Web Tokens_)...
+
+##### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
+
+El objetivo principal de aprendizaje es tener una primera experiencia en
+desarrollo de aplicaciones nativas con React Native.
+
+En este proyecto tendrás que construir una aplicación usando React Native y
+Expo, y publicarla en tu cuenta de Expo, para que se pueda instalar en cualquier
+dispositivo Android o iOS.
+
+Para completar el proyecto tendrás que familiarizarte con conceptos como `View`,
+`Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
+nativas.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1 estudiante
+* Tópicos: React Native, Expo, componentes nativos, touch events, ...
 
 #### UX
 

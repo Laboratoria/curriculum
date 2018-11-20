@@ -1,0 +1,28 @@
+{
+  "name": "bq-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest --verbose --testPathIgnorePatterns e2e",
+    "start": "node index.js",
+    "e2e": "jest --verbose --testPathPattern e2e --globalSetup ./e2e/globalSetup --globalTeardown ./e2e/globalTeardown",
+    "deploy": "now -e MONGO_URL=@mongo-url -e JWT_SECRET=@jwt-secret -e ADMIN_EMAIL=@admin-email -e ADMIN_PASSWORD=@admin-password"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.1",
+    "mongoose-paginate": "^5.0.3",
+    "node-fetch": "^2.2.0",
+    "tree-kill": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
