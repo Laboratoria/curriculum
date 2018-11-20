@@ -4,6 +4,8 @@
 - Formato: `self-paced`
 - Duración: `30min`
 
+***
+
 ## Objetivos de Aprendizaje
 
 En esta unidad aprenderemos:
