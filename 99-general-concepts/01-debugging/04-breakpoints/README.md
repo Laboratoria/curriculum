@@ -81,7 +81,7 @@ O segundo método para depurar um código é utilizando uma palavra reservada em
 
 > Nota: Para que o script pare na palavra `debugger`, precisamos ter o Dev Tools aberto e então recarregar a página.
 
-A seguir temos uma demonstração usando  o seguinte script:
+A seguir temos uma demonstração usando o seguinte script:
 
 ```javascript
 var number = parseInt(prompt('Digite um número (de 1 a 10):'));

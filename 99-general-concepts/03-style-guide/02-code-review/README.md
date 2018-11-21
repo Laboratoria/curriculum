@@ -9,11 +9,11 @@
 ## Objetivos de Aprendizagem
 
 - Entender porque _code reviews_ são importantes.
-_ Entender o que esperar quando receber _code reviews_.
+- Entender o que esperar quando receber _code reviews_.
 
 ***
 
-Mesmo que programar nem sempre pareça algo colaborativo, criar código excelente requer muita comunicação. Discutir e negociar são nevrálgicos quando equipes decidem quais mudanças commitar na base de código. Enquanto esse vai e vem introduz trabalho extra e sobrecarga no processo de desenvolvimento, a qualidade do código melhora muito.
+Mesmo que programar nem sempre pareça algo colaborativo, criar código excelente requer muita comunicação. Discutir e negociar são atividades cruciais para as equipes decidem quais mudanças commitar na base de código. Enquanto esse vai e vem introduz trabalho extra e sobrecarga no processo de desenvolvimento, a qualidade do código melhora muito.
 
 Revisões de código (_code reviews_) são uma das formas primárias de colaboração entre desenvolvedores. Tipicamente um programador trabalha sozinho em alguma alteração no código, e então pede para um ou mais colegas de equipe fazerem uma revisão do código antes de submeter as alterações. O autor e os revisores devem concordar com todas as alterações antes do código ser submetido. Nesta lição, exploraremos o conteúdo que um revisor deve olhar quando fizer uma revisão de código.
 
@@ -23,9 +23,9 @@ Vamos ver então algumas coisas específicas que revisores de código avaliam.
 
 ## Erros e Melhorias
 
-A última coisa que qualquer um quer é submeter código quebrado. Seus revisores provavelmente começarão garantindo que seu código faz o que ele diz que faz. Eles podem pedir um demo ou executar o código eles mesmos para ver se encontram alguma falha. Às vezes podemos deixar passar coisas sutis que nossos revisores identificarão.
+A última coisa que qualquer um quer é submeter um código quebrado. Seus revisores provavelmente começarão garantindo que seu código faz o que ele diz que faz. Eles podem pedir um demo ou executar o código eles mesmos para ver se encontram alguma falha. Às vezes podemos deixar passar coisas sutis que nossos revisores identificarão.
 
-Adicionalmente seu revisor analisará o projeto do seu código. Eles querem ver que além de fazer o trabalho corretamente, ele faz da maneira mais eficiente e inteligente possível. Considere o código a seguir que imprime números pares entre 0 e 20:
+Adicionalmente seu revisor analisará o seu código. Eles querem ver que além de fazer o trabalho corretamente, ele faz da maneira mais eficiente e inteligente possível. Considere o código a seguir que imprime números pares entre 0 e 20:
 
 ```javascript
 for (var i = 0; i <= 20; i++) {
@@ -68,20 +68,7 @@ for (var i = 0; i < classrooms.length; i++) {
 }
 ```
 
-Um revisor pode achar esse código meio nebuloso e sugerir adicionar um comentário, de forma que você pode fazer uma modificação como:
-```javascript
-var classrooms = getClassrooms();
-// Itera sobre todas as salas de aula.
-for (var i = 0; i < classrooms.length; i++) {
-  // Adicionar um perfil de estudante como exemplo a cada sala de aula.
-  classrooms[i].push({
-    'name': 'Laura',
-    'grade': 99
-  });
-}
-```
-
-Mas algumas sugestões de legibilidade podem vir em forma de mudança de código. Talvez um revisor faça uma sugestão de mudança do código para:
+Um revisor pode dar algumas sugestões para melhorar a legibilidade, sugerindo assim que faça alguma mudança no código.
 
 ```javascript
 var classrooms = getClassroomsOfStudents();

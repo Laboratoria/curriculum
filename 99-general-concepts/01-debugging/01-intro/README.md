@@ -49,7 +49,7 @@ if (numero = 0) {
    * e não uma variável definida anteriormente.
    *
    */
-  console.log(Positivo);
+  console.log(positivo);
 } else {
   /*
    *

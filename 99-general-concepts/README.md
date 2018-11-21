@@ -13,7 +13,6 @@ Este curso é destinado às estudantes da Laboratoria. Não possui avaliação e
 
 Para fazer este curso você deve ter completado o curso `Programação Básica com JavaScript` da Laboratoria. Assumimos que as alunas sabem criar programas básicos, fazendo uso de variáveis, funções, condições, vetores e objetos.
 
-
 ## Você aprenderá
 
 * a como reagir a mensagens de erros comuns;
@@ -59,8 +58,7 @@ Escrever código que resolva o problema é sensacional. Usar um guia de estilo a
 | 00 | leitura | individual | 10min | [Abertura](02-testing/00-opening)
 | 01 | leitura | individual | 30min | [Guia de estilos](02-testing/01-style-guide)
 | 02 | leitura | individual | 40min | [_Code review_](02-testing/02-unit-tests)
-| 02 | leitura | individual | 40min | [Linter](02-testing/03-linter)
-| 04 | leitura' | individual | 10min | [Encerramento](02-testing/04-closing)
+| 03 | leitura | individual | 10min | [Encerramento](02-testing/03-closing)
 
 ## Autor(es) / Colaboradores
 
