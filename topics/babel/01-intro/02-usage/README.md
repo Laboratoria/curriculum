@@ -173,7 +173,7 @@ Veamos otra forma de pasar opciones: _archivos de configuración_.
 > Existen algunas formas diferentes de usar archivos de configuración
 > dependiendo de tus necesidades. Para más información asegúrate de leer la
 > guía extendida sobre cómo
-> [configurar Babel](https://babeljs.io/docs/en/configuration).
+> [configurar Babel](../03-configuration).
 
 Por ahora comencemos creando un archivo que se llame `babel.config.js` con el
 siguiente contenido:

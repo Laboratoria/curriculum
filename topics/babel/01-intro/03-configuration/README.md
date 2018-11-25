@@ -1,30 +1,37 @@
----
-id: configuration
-title: Configure Babel
----
+# Guía de uso
 
-Babel can be configured! Many other tools have similar configs: ESLint (`.eslintrc`), Prettier (`.prettierrc`).
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `10min`
 
-All Babel API [options](options.md) are allowed. However, if the option requires JavaScript, you may want to use a Javascript [configuration file](config-files.md).
+***
 
-## What's your use case?
+Babel se puede configurar! Y de varias maneras. En esta unidad visitaremos
+todas las alternativas de configuración que Babel provee y veremos ejemplos
+simples para cada caso.
 
-- You want to programmatically create the configuration?
-- You want to compile `node_modules`?
+Hay varias otras herramientas que tienen esquemas
+similares de configuración: ESLint (`.eslintrc`), Prettier (`.prettierrc`).
 
-> [`babel.config.js`](#babelconfigjs) is for you!
+## ¿Cuál es tu caso de uso?
 
-- You have a static configuration that only applies to your simple single package?
+* ¿Quieres crear la configuración programáticamente?
+* ¿Quieres compilar `node_modules`?
 
-> [`.babelrc`](#babelrc) is for you!
+**Entonces [`babel.config.js`](#babelconfigjs) es para tí!**
 
-- The Guy Fieri is your hero?
+* ¿Tienes una configuración estática que solo aplica
+  para tu única aplicación/módulo?
 
-> We recommend to use the [`babel.config.js`](config-files.md#project-wide-configuration) format. [Babel itself is using it](https://github.com/babel/babel/blob/master/babel.config.js).
+**Entonces [`.babelrc`](#babelrc) es lo que necesitas!**
+
+> Babel recomienda el uso del formato [`babel.config.js`](config-files.md#project-wide-configuration).
+> [Babel mismo lo utiliza](https://github.com/babel/babel/blob/master/babel.config.js).
 
 ## `babel.config.js`
 
-Create a file called `babel.config.js` with the following content at the root of your project (where the `package.json` is).
+Crea un archivo `babel.config.js` con el siguiente contenido en el
+directorio raiz de tu proyecto (a la altura de `package.json`).
 
 ```js
 module.exports = function () {
@@ -38,11 +45,12 @@ module.exports = function () {
 }
 ```
 
-Check out the [`babel.config.js` documentation](config-files.md#project-wide-configuration) to see more configuration options.
+Cheque la [documentación de `babel.config.js`](https://babeljs.io/docs/en/config-files#project-wide-configuration)
+para ver todas las opciones de configuración.
 
 ## `.babelrc`
 
-Create a file called `.babelrc` with the following content in your project.
+Crea en tu proyecto, un archivo `.babelrc` con el siguiente contenido:
 
 ```json
 {
@@ -51,11 +59,13 @@ Create a file called `.babelrc` with the following content in your project.
 }
 ```
 
-Check out the [.babelrc documentation](config-files.md#file-relative-configuration) to see more configuration options.
+Chequea la [documentación de `.babelrc`](https://babeljs.io/docs/en/config-files#file-relative-configuration)
+para ver todas las opciones de configuración.
 
 ### `package.json`
 
-Alternatively, you can choose to specify your [`.babelrc`](#babelrc) config from within `package.json` using the `babel` key like so:
+Alternativamente, puedes elegir especificar tu configuración de [`.babelrc`](#babelrc)
+dentro del mismo `package.json` usando la entrada `babel`:
 
 ```json
 {
@@ -70,7 +80,8 @@ Alternatively, you can choose to specify your [`.babelrc`](#babelrc) config from
 
 ### `.babelrc.js`
 
-The configuration is the same as [`.babelrc`](#babelrc), but you can write it using JavaScript.
+Esta configuración es análoga a [`.babelrc`](#babelrc), sólo que escrita
+en usando JavaScript.
 
 ```js
 const presets = [ ... ];
@@ -79,7 +90,8 @@ const plugins = [ ... ];
 module.exports = { presets, plugins };
 ```
 
-You are allowed to access any Node.js APIs, for example a dynamic configuration based on the process environment:
+Aquí puedes acceder a todas las APIs de Node.js, por ejemplo para crear una
+configuración dinámica basada en las variables de entorno:
 
 ```js
 const presets = [ ... ];
@@ -92,15 +104,16 @@ if (process.env["ENV"] === "prod") {
 module.exports = { presets, plugins };
 ```
 
-## Using the CLI (`@babel/cli`)
+## Usando la línea de comandos (`@babel/cli`)
 
 ```sh
 babel --plugins @babel/plugin-transform-arrow-functions script.js
 ```
 
-Check out the [babel-cli documentation](cli.md) to see more configuration options.
+Chequea la [documentación de `@babel/cli`](https://babeljs.io/docs/en/babel-cli)
+para ver todas las opciones de configuración.
 
-## Using the API (`@babel/core`)
+## Usando la API (`@babel/core`)
 
 ```js
 require("@babel/core").transform("code", {
@@ -108,4 +121,5 @@ require("@babel/core").transform("code", {
 });
 ```
 
-Check out the [babel-core documentation](core.md) to see more configuration options.
+Chequea la [documentación de `@babel/core`](https://babeljs.io/docs/en/babel-core)
+para ver todas las opciones de configuración.
