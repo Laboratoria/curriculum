@@ -1,26 +1,37 @@
----
-id: usage
-title: Usage Guide
----
+# Guía de uso
 
-There are quite a few tools in the Babel toolchain that try to make it easy for you to use Babel whether you're an "end-user" or building an integration of Babel itself. This will be a quick introduction to those tools and you can read more about them in the "Usage" section of the docs.
+* Tipo: `lectura`
+* Formato: `self-paced`
+* Duración: `20min`
 
-> If you're using a framework, the work of configuring Babel might be different or actually already handled for you. Check out our [interactive setup guide](/setup.html) instead.
+***
+
+En esta unidad haremos una introducción a todas las herramientas que
+provee Babel.
+
+> Si estás usando un framework en particular,
+> seguramente alguien ya se encargó de crear una configuración de babel para ti.
+> Chequea la [guia interactiva de setup](https://babeljs.io/setup.html) antes de
+> comenzar desde cero.
 
 ## Overview
 
-This guide will show you how to compile your JavaScript application code that uses ES2015+ syntax into code that works in current browsers. That will involve both transforming new syntax and polyfilling missing features.
+Esta guía te acompañará a través de los pasos necesarios para compilar
+tu aplicación JavaScript que usa sintaxis ES2015+, en código que funcione
+en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis, como
+aplicar polyfills para las funcionalidades inexistentes.
 
-The entire process to set this up involves:
+El proceso completo para configurar esto implica lo siguiente:
 
-1. Running these commands to install the packages:
+1. Ejecutar los siguientes comandos para instalar los paquetes necesarios:
 
    ```sh
    npm install --save-dev @babel/core @babel/cli @babel/preset-env
    npm install --save @babel/polyfill
    ```
 
-2. Creating a config file named `babel.config.js` in the root of your project with this content:
+2. Crear un archivo de configuración `babel.config.js` en la raíz de tu
+   proyecto con el siguiente contenido:
 
    ```js
    const presets = [
@@ -41,31 +52,40 @@ The entire process to set this up involves:
    module.exports = { presets };
    ```
 
-   > The browsers list above is just an arbitrary example. You will have to adapt it for the browsers you want to support.
+   > La lista de navegadores seleccionada, es completamente arbitraria.
+   > Deberás adaptarla según tus propios requerimientos.
 
-3. And running this command to compile all your code from the `src` directory to `lib`:
+3. Y ejecutar el siguiente comando para compilar tu código del directoria `src`
+   a `lib`:
 
    ```sh
    ./node_modules/.bin/babel src --out-dir lib
    ```
 
-   > You can use the npm package runner that comes with npm@5.2.0 to shorten that command by replacing `./node_modules/.bin/babel` with `npx babel`
+   > Puede usar el package runner que viene incluído en npm@5.2.0 para acortar
+   > este comando, reemplazando `./node_modules/.bin/babel` por `npx babel`
 
-Read on for a step-by-step explanation of how this works and an introduction to each of the tools used.
+Continúa leyendo para una explicación detallada de cada una de estos pasos.
 
-## Basic usage with CLI
+## Uso básico de la línea de comando
 
-All the Babel modules you'll need are published as separate npm packages scoped under `@babel` (since version 7). This modular design allows for various tools each designed for a specific use case. Here we'll look at `@babel/core` and `@babel/cli`.
+Todos los módulos de Babel que vayas a necesitar, se encuentran publicados
+como paquetes independientes de npm, dentro del namespace `@babel`
+(desde la versión 7).
+Este diseño modular expone diferentes heramientas, cada una diseñadas para un
+uso específico. En esta sección analizaremos `@babel/core` y `@babel/cli`.
 
 ### Core Library
 
-The core functionality of Babel resides at the [@babel/core](core.md) module. After installing it:
+La funcionalidad central de Babel reside dentro del módulo
+[@babel/core](https://babeljs.io/docs/en/babel-core). Luego de instalarlo:
 
 ```sh
 npm install --save-dev @babel/core
 ```
 
-you can `require` it directly in your JavaScript program and use it like this:
+puedes usar `require` directamente en tu programa
+y usarlo de la siguiente forma:
 
 ```js
 const babel = require("@babel/core");
@@ -73,11 +93,16 @@ const babel = require("@babel/core");
 babel.transform("code", optionsObject);
 ```
 
-As an end-user though, you'll probably want to install other tools that serve as an interface to `@babel/core` and integrate well with your development process. Even so, you might still want to check its documentation page to learn about the options, most of which can be set from the other tools as well.
+> Como usuario final, probablemente lo que quieras hacer es instalar otras
+> herramientans que sirvan de interfaz con `@babel/core`. Inclusive si este
+> es el caso, quizás todavia quieras chequear su documentación para aprender
+> que opciones puede recibir.
 
-### CLI tool
+### Línea de comando
 
-[@babel/cli](cli.md) is a tool that allows you to use babel from the terminal. Here's the installation command and a basic usage example:
+[@babel/cli](https://babeljs.io/docs/en/babel-cli) es la herramienta que te
+permite usar babel desde tu terminal. Aquí cómo instalarla y un ejemplo
+básico de cómo usarla:
 
 ```sh
 npm install --save-dev @babel/core @babel/cli
@@ -85,13 +110,25 @@ npm install --save-dev @babel/core @babel/cli
 ./node_modules/.bin/babel src --out-dir lib
 ```
 
-This will parse all the JavaScript files in the `src` directory, apply any transformations we have told it to, and output each file to the `lib` directory. Since we haven't told it to apply any transformations yet, the output code will be identical to the input (exact code styling is not preserved). We can specify what transformations we want by passing them as options.
+Este comando se encargará de parsear todos los archivos JavaScript dentro del
+directorio `src`, aplicar todas las transformaciones que hayamos configurado
+y colocar cada archivo transformado dentro del directorio `lib`. Como todavía
+no le hemos indicado qué transformaciones aplicar, el resultado será idéntico
+al original (exceptuando el formato). Podemos especificar qué transformaciones
+queremos aplicar, pasándolas como opciones.
 
-We used the `--out-dir` option above. You can view the rest of the options accepted by the cli tool by running it with `--help`. But the most important to us right now are `--plugins` and `--presets`.
+Arriba usamos la opción `--out-dir`. Puedes ver el resto de opciones disponibles
+pasando la opción`--help`. Pero las opciones más relevantes a esta altura son
+`--plugins` y `--presets`.
 
-## Plugins & Presets
+## Plugins y Presets
 
-Transformations come in the form of plugins, which are small JavaScript programs that instruct Babel on how to carry out transformations to the code. You can even write your own plugins to apply any transformations you want to your code. To transform ES2015+ syntax into ES5 we can rely on official plugins like `@babel/plugin-transform-arrow-functions`:
+Las transformaciones se presentan en forma de plugins, que son pequeños
+programas en JavaScript, que le indican a Babel cómo transformar tu código.
+Recuerda que puedes escribir tus propios plugins para aplicar las
+transformaciones que quieras a tu código. Pero para transformar sintaxis
+ES2015+ en ES5 te recomendamos utilizar plugins oficiales como por ejemplo
+`@babel/plugin-transform-arrow-functions`:
 
 ```sh
 npm install --save-dev @babel/plugin-transform-arrow-functions
@@ -99,21 +136,26 @@ npm install --save-dev @babel/plugin-transform-arrow-functions
 ./node_modules/.bin/babel src --out-dir lib --plugins=@babel/plugin-transform-arrow-functions
 ```
 
-Now any arrow functions in our code will be transformed into ES5 compatible function expressions:
+Ahora cualquier función flecha en tu código será transformada en una
+expresión compatible de ES5:
 
 ```js
 const fn = () => 1;
 
-// converted to
+// se convierte en
 
 var fn = function fn() {
   return 1;
 };
 ```
 
-That's a good start! But we also have other ES2015+ features in our code that we want transformed. Instead of adding all the plugins we want one by one, we can use a "preset" which is just a pre-determined set of plugins.
+Buen comienzo! Pero hay otras funcionalidades de ES2015+ en nuestro código
+que quermos transformar. Entonces en lugar de especificar los plugins que
+queremos utilizar uno por uno, podemos usar un "preset" que ya viene con un
+conjunto predeterminado de plugins a utilizar.
 
-Just like with plugins, you can create your own presets too to share any combination of plugins you need. For our use case here, there's an excellent preset named `env`.
+De la misma manera que con los plugins, tu puedes crear tus propios presets.
+Para nuestro caso, hay un excelente preset llamado `env`.
 
 ```sh
 npm install --save-dev @babel/preset-env
@@ -121,13 +163,20 @@ npm install --save-dev @babel/preset-env
 ./node_modules/.bin/babel src --out-dir lib --presets=@babel/env
 ```
 
-Without any configuration, this preset will include all plugins to support modern JavaScript (ES2015, ES2016, etc.). But presets can take options too. Rather than passing both cli and preset options from the terminal, let's look at another way of passing options: configuration files.
+Sin espeficifar ninguna configuración, por defecto, este preset incluirá todos
+los plugins que dan soporte a código JavaScript moderno (ES2015, ES2016, etc.).
+Pero además, los presets también pueden recibir opciones desde la terminal.
+Veamos otra forma de pasar opciones: _archivos de configuración_.
 
-## Configuration
+## Configuración
 
-> There are a few different ways to use configuration files depending on your needs. Be sure to read our in-depth guide on how to [configure Babel](configuration.md) for more information.
+> Existen algunas formas diferentes de usar archivos de configuración
+> dependiendo de tus necesidades. Para más información asegúrate de leer la
+> guía extendida sobre cómo
+> [configurar Babel](https://babeljs.io/docs/en/configuration).
 
-For now, let's create a file called `babel.config.js` with the following content:
+Por ahora comencemos creando un archivo que se llame `babel.config.js` con el
+siguiente contenido:
 
 ```js
 const presets = [
@@ -147,27 +196,48 @@ const presets = [
 module.exports = { presets };
 ```
 
-Now the `env` preset will only load transformation plugins for features that are not available in our target browsers. We're all set for syntax. Let's look at polyfills next.
+A diferencia de antes, ahora `env` sólo cargará los plugins de transformación
+para las funcionalidades que ***no*** están disponibles en nuestros navegadores
+objetivo. Y listo! Eso es todo lo que necesitamos en relación a sintaxis.
+Ahora veamos `polyfills`.
 
 ## Polyfill
 
-The [@babel/polyfill](polyfill.md) module includes [core-js](https://github.com/zloirock/core-js) and a custom [regenerator runtime](https://github.com/facebook/regenerator/blob/master/packages/regenerator-runtime/runtime.js) to emulate a full ES2015+ environment.
+El módulo [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill) incluye
+[core-js](https://github.com/zloirock/core-js) y un [regenerator runtime](https://github.com/facebook/regenerator/blob/master/packages/regenerator-runtime/runtime.js)
+para emular un entorno ES2015+ completo.
 
-This means you can use new built-ins like `Promise` or `WeakMap`, static methods like `Array.from` or `Object.assign`, instance methods like `Array.prototype.includes`, and generator functions (provided you use the [regenerator](plugin-transform-regenerator.md) plugin). The polyfill adds to the global scope as well as native prototypes like `String` in order to do this.
+Esto implica que puedes usar nuevas APIs como `Promise` o `WeakMap`,
+métodos estáticos como `Array.from` o `Object.assign`, métodos de instancias
+como `Array.prototype.includes`, y funciones generadoras (usando el plugin
+[regenerator](https://babeljs.io/docs/en/babel-plugin-transform-regenerator)).
+El polyfill logra esto inyectando nuevas funcionalidades en el scope
+global y en los prototypes nativos, como por ejemplo `String`.
 
-For library/tool authors this may be too much. If you don't need the instance methods like `Array.prototype.includes` you can do without polluting the global scope altogether by using the [transform runtime](plugin-transform-runtime.md) plugin instead of `@babel/polyfill`.
+> Para los autores de librerías/herramientas quizás todo eso sea demasiado.
+> Si no necesitas métodos de instancias como `Array.prototype.includes` puedes
+> usar el plugin [transform runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
+> en lugar de `@babel/polyfill` y así no contaminar el scope global.
 
-To go one step further, if you know exactly what features you need polyfills for, you can require them directly from [core-js](https://github.com/zloirock/core-js#commonjs).
+Para ir un paso más allá, si tu sabes exáctamente para qué funcionalidades
+necesitas un polyfill, puedes requerirlas directamente desde
+[core-js](https://github.com/zloirock/core-js#commonjs).
 
-Since we're building an application we can just install `@babel/polyfill`:
+Como en nuestro ejemplo estamos desarrollando una aplicación, entonces
+instalaremos `@babel/polyfill`:
 
 ```sh
 npm install --save @babel/polyfill
 ```
 
-> Note the `--save` option instead of `--save-dev` as this is a polyfill that needs to run before your source code.
+> Fíjate que instalamos este móduluo con la opción `--save` en lugar de
+> `--save-dev` ya que esto es un polyfill que necesita inyectarse dentro de
+> código fuente.
 
-Now luckily for us, we're using the `env` preset which has a `"useBuiltIns"` option that when set to `"usage"` will practically apply the last optimization mentioned above where you only include the polyfills you need. With this new option the configuration changes like this:
+Por suerte para nosotros, estamos usando en preset `env` que tiene una opción
+`"useBuiltIns"` que cuando la seteamos a `"usage"` va a incluir en cada archivo
+sólo los polyfills necesarios que estén siendo usado. Con esta nueva opción
+nuestra configuración queda de la siguiente manera:
 
 ```js
 const presets = [
@@ -188,13 +258,16 @@ const presets = [
 module.exports = { presets };
 ```
 
-Babel will now inspect all your code for features that are missing in your target environments and include only the required polyfills. For example this code:
+Babel ahora va a inspeccionar tu código para encontrar las funcionalidades
+faltantes en tus entornos objetivo e incluir sólo los polyfills necesarios.
+Por ejemplo en el siguiente código:
 
 ```js
 Promise.resolve().finally();
 ```
 
-would turn into this (because Edge 17 doesn't have `Promise.prototype.finally`):
+se transformará en esto (ya que Edge 17 no implementa
+`Promise.prototype.finally`):
 
 ```js
 require("core-js/modules/es.promise.finally");
@@ -202,10 +275,20 @@ require("core-js/modules/es.promise.finally");
 Promise.resolve().finally();
 ```
 
-If we weren't using the `env` preset with the `"useBuiltIns"` option set to `"usage"` we would've had to require the full polyfill _only once_ in our entry point before any other code.
+Si no estuvieramos usando el preset `env` con la opción `"useBuiltIns"`
+seteada a `"usage"` hubieramos tenido que hacer un `require` de todos los
+polyfill _una sola vez_ en el punto de entrada de nuestro código.
 
-## Summary
+```js
+import "@babel/polyfill";
+```
 
-We used `@babel/cli` to run Babel from the terminal, `@babel/polyfill` to polyfill all the new JavaScript features, and the `env` preset to only include the transformations and polyfills for the features that we use and that are missing in our target browsers.
+## Resumen
 
-For more information on setting up Babel with your build system, IDE, and more, check out our [interactive setup guide](/setup.html).
+En esta unidad, usamos `@babel/cli` para correr Babel desde la terminal,
+`@babel/polyfill` para inyectar los polyfills de todas las nuevas APIs de
+JavaScript, y el preset `env` para sólo incluir las transformaciones y
+polyfills de las funcionalidades faltantes en nuestros navegadores objetivo.
+
+Para más información sobre cómo integrar Babel con tu propio entorno, IDE y
+demás, recuerda visitar la [guía interactiva de setup](https://babeljs.io/setup.html).

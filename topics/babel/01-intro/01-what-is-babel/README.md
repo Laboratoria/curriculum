@@ -143,21 +143,20 @@ Usa fácilmente un conjuto de plugin usando o creando presets
 
 Para saber más sobre plugins → [https://babeljs.io/docs/en/plugins](https://babeljs.io/docs/en/plugins)
 
-Si quieres crear tu propio plugin, te recomendamos
-comenzar usando el
-[generator-babel-plugin](https://github.com/babel/generator-babel-plugin)
-para generar una plantilla.
-
-```javascript
-// Un plugin no es más que una función
-export default function ({types: t}) {
-  return {
-    visitor: {
-      Identifier(path) {
-        let name = path.node.name; // invierte el nombre: JavaScript -> tpircSavaJ
-        path.node.name = name.split('').reverse().join('');
-      }
-    }
-  };
-}
-```
+> Si quieres crear tu propio plugin, te recomendamos
+> comenzar usando el
+> [generator-babel-plugin](https://github.com/babel/generator-babel-plugin)
+> para generar una plantilla.
+> ```javascript
+> // Un plugin no es más que una función
+> export default function ({types: t}) {
+>   return {
+>     visitor: {
+>       Identifier(path) {
+>         let name = path.node.name; // invierte el nombre: JavaScript -> > tpircSavaJ
+>         path.node.name = name.split('').reverse().join('');
+>       }
+>     }
+>   };
+> }
+> ```
