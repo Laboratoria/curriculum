@@ -1,4 +1,4 @@
-/* Regresa num1 por ciento de num2. */
+/* Retorna num1 percentual de num2. */
 function calculatePercent(num1, num2) {
   return num1 / 100 * num2;
 }
@@ -11,10 +11,9 @@ function calculateTip(billAmount) {
 calculateTip(100);
 
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * La variable en la línea 11 tiene el mismo nombre que la función en la línea
- * 2.
+ * A variável na linha 11 tem o mesmo nome que a função na linha 2.
  */
 
 module.exports = calculateTip;

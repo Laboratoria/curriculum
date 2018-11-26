@@ -1,9 +1,8 @@
 # ReferenceError: calculateTip
 
-Corrige los errores en la función y explique cuál fue el problema en un
-comentario.
+Corrija os erros na função e explique em um comentário qual foi o problema.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
 ```javascript
 var tip = calculateTip(100);

@@ -1,38 +1,28 @@
-# Apertura: Testing
+# Abertura: _Testing_
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `10min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
+Nesta unidade aprenderemos sobre _testing_:
 
-En esta unidad aprenderemos sobre testing:
+- Por que é importante testar?
+- Como diferentes tipos de testes podem identificar diferentes tipos de problemas de software?
+- Como eu posso incorporar os testes no meu processo de desenvolvimento?
 
-- Por qué es importante to test
-- How can different kinds of testing identify different kinds of software issues?
-- How can I incorporate testing into my development process?
+## Por que aprender `testing`
 
-## Por qué aprender `testing`
+Bugs são uma parte inevitável da programação - mas o bug não pode chegar aos usuários! Testar nos ajuda a identificar e resolver os problemas do programa antes do lançamento, garantindo que nossos usuários tenham a experiência mais transparente possível. Testar é uma parte crítica da produção de produtos de alta qualidade.
 
-Bugs are an inevitable part of programming- but bug reaching end users doesn't
-have to be! Testing helps us identify and resolve software problems before
-launch time, ensuring our users have the smoothest experience possible. Testing
-is a critical part of producing high quality products.
+## Guia de perguntas e conceitos chave
 
-## Guía de preguntas y conceptos clave
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
-
-- ¿Por qué es importante testing?
-- ¿Qué tipos diferentes de testing podemos usar en el desarrollo de software?
-- ¿What are the key principles to remember when writing unit tests?
+- Por que é importante testar?
+- Quais tipos diferentes de testes podemos usar no desenvolvimento de software?
+- Quais são os princípios chave para lembrar quando escrevemos testes de unidade?

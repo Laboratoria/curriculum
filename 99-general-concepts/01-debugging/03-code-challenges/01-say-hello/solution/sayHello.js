@@ -3,9 +3,9 @@ function sayHello() {
 }
 
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * A la palabra 'hola' le faltaban comillas.
+ * Faltavam aspas na palavra 'olá'.
  */
 
 module.exports = sayHello;

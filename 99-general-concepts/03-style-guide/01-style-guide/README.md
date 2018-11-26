@@ -1,39 +1,28 @@
-# Guía de estilos
+# Guia de estilos
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-***
-
-## Objetivos de Aprendizaje
-
-- Usar una guía de estilos para escribir código más legible.
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-Una guía de estilo es una lista de reglas para formatear tu código. Muchas
-empresas usan una guía de estilo para que toda su base de código parezca escrita
-por el mismo desarrollador, en lugar de que los desarrolladores diseñen el
-código de acuerdo a sus propias preferencias. Esto hace que el código sea más
-fácil de leer para todos.
+## Objetivos de Aprendizagem
 
-## La guía de estilos Laboratoria
+- Usar um guia de estilos para escrever código mais legível.
 
-En Laboratoria, hemos preparado una guía de estilos para que la sigas a partir
-de ahora en todos tus ejercicios, lo puedes encontrar [aquí](https://github.com/Laboratoria/js-style-guide).
-Por favor léelo ahora. No te preocupes - no necesitas memorizarlos todos ahora -
-puedes usar un linter (explicado en la siguiente sección) como ayuda. Pero
-debes revisar todo tu código con la guía de estilo antes de enviarlo, y con el
-tiempo te acostumbrarás a seguir estas reglas sin tener que pensar en ello.
+***
 
-### Código antes y después
+Um guia de estilo é uma lista de regras para formatar seu código. Muitas empresas usam um guia de estilo para que toda sua base de código pareça escrita pelo mesmo desenvolvedor, ao invés dos desenvolvedores projetarem o código de acordo com suas próprias preferências. Isso faz com que o código seja mais fácil de ler para todos.
 
-Aquí hay una muestra de código que no sigue la guía de estilo. Cópialo en tu
-editor e intenta solucionarlo de acuerdo con la guía, y luego verifique tu
-trabajo a continuación.
+## O guia de estilos da Laboratoria
 
-#### Ejemplo
+Na Laboratoria, preparamos um guia de estilos para que você o siga a partir de agora em todos os seus exercícios. Você pode encontrá-lo [aqui](https://github.com/Laboratoria/js-style-guide). Por favor, leia-o agora. Não se preocupe, você não precisa memorizar tudo agora. Você pode usar um _linter_ para ajudar. Mas você deve revisar todo o seu código com o guia de estilo antes de enviá-lo. Com o tempo, você se acostumará a seguir essas regras sem ter que pensar nelas.
+
+### Código antes e depois
+
+Aqui temos um exemplo de código que não segue o guia de estilo. Copie-o em seu editor e tente formatá-lo de acordo com o guia e então verifique o trabalho seguinte.
+
+#### Exemplo
 
 ```javascript
 var ASCII_UPPERCASE_A = 65;
@@ -56,7 +45,7 @@ function cipher (word,offset)
     }
     else
     {
-      alert('Ingresar solo letras');
+      alert('Digitar somente letras');
       return; // --> undefined
     }
   }
@@ -64,10 +53,10 @@ function cipher (word,offset)
   return output;
 }
 
-cipher ('Hola', 33)
+cipher ('Olá', 33)
 ```
 
-#### Solución
+#### Solução
 
 ```javascript
 var ASCII_UPPERCASE_A = 65;
@@ -97,21 +86,14 @@ function cipher(word, offset) {
   return output;
 }
 
-cipher('Hola', 33);
+cipher('Olá', 33);
 ```
 
-## Guías de estilos populares
+## Guias de estilos populares
 
-Escribimos la guía de estilo Laboratoria para que sea una versión más simple de
-dos de las guías de estilo más populares:
+Escrevemos o guia de estilo da Laboratoria para que seja uma versão mais simples de dois dos guias de estilos mais populares:
 
-- [Guía de estilos JavaScript de AirBnb](https://github.com/paolocarrasco/javascript-style-guide)
-- [Guía de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
+- [Guia de estilos JavaScript de AirBnb](https://github.com/airbnb/javascript)
+- [Guia de estilos JavaScript de Google](https://google.github.io/styleguide/jsguide.html)
 
-Cuando trabajas como desarrollador profesional, es muy probable que se te pida
-que sigas una de estas dos guías, por lo que escribimos nuestra guía como un
-subconjunto de estas; es posible que debas aprender algunas reglas adicionales,
-pero no deberás romper muchos viejos hábitos para lograrlo. Una vez que te
-sientas cómoda usando la guía de estilo Laboratoria, tal vez quieras volver y
-echar un vistazo a estas guías y comenzar a adoptar algunas de estas prácticas
-en tu código.
+Quando você trabalha como desenvolvedora profissional, é muito provável que lhe peçam para seguir um desses dois guias e por isso escrevemos nossas regras como um subconjunto delas; é possível que você precise aprender algumas regras adicionas, mas você não deverá superar muitos hábitos velhos para consegui-lo. Uma vez que você se sinta confortável usando o guia de estilo da Laboratoria, você talvez queira voltar e dar uma olhada nesses guias e começar a adotar algumas destas práticas no seu código.
