@@ -1,30 +1,21 @@
 # Data Dashboard
 
+## Índice
+
+* [Preámbulo](#preámbulo)
+* [Descripción](#descripción)
+* [Consideraciones generales](#consideraciones-generales)
+* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+* [Parte obligatoria](#parte-obligatoria)
+* [Parte opcional](#parte-opcional-hacker-edition)
+* [Consideraciones técnicas](#consideraciones-técnicas)
+* [Primeros pasos](#primeros-pasos)
+* [Contenido de referencia](#contenido-de-referencia)
+* [Checklist](#checklist)
+
+***
+
 ## Preámbulo
-
-En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
-mayor cantidad de datos posibles respecto al progreso de las estudiantes para
-apoyarlas en su aprendizaje.
-
-La principal medida de progreso de una estudiante en Laboratoria es su avance
-completando los proyectos de la [Ruta de Aprendizaje](https://docs.google.com/spreadsheets/d/1AoXQjZnZ5MTPwJPNEGDyvn5vksiOUoPr932TjAldTE4/edit#gid=536983970)
-y su desempeño en función a la [Rúbrica de Niveles Esperados](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml).
-Sin embargo, para completar estos proyectos las estudiantes acceden a contenidos
-de aprendizaje (lecturas, videos, ejercicios y quizzes) en un sistema que
-llamamos LMS (Learning Management System). El LMS acumula data sobre quién
-leyó qué, qué ejercicios se han completado, los resultados de los quizzes, etc.
-
-A pesar de que la data de progreso del LMS (ej. lecturas leídas, ejercicios
-completados, nota en quizzes, etc.) no impacta directamente en la evaluación de
-una estudiante, sí es una pieza de información relevante que las TMs quisieran
-visualizar para tener un mejor entendimiento de cómo va cada estudiante en su
-proceso de aprendizaje.
-
-Así, el reto de este proyecto es crear una interfaz donde las TMs puedan
-_ver_ y _usar_ la data de progreso del LMS. Para ello, proponemos crear un
-**data dashboard** (_tablero de visualización de datos_).
-
-## Introducción
 
 Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
 el 90% de la data que existe hoy ha sido creada en los últimos dos años.
@@ -36,6 +27,7 @@ sencilla de hacerlo es creando _visualizaciones_. Las
 empresas líderes de hoy generan visualizaciones dinámicas de su data
 que les permiten entender mejor su negocio y tomar decisiones apropiadas.
 
+<!--
 En este proyecto tendrás tu primer acercamiento a transformar data en
 información creando tu primer **data dashboard**.
 
@@ -46,9 +38,11 @@ utilizando. El _dashboard_ de un auto le permite a quien conduce saber a qué
 velocidad está yendo, qué cambio/velocidad está utilizando, cuánto combustible
 tiene disponible, cuál es la temperatura del motor, cuántas revoluciones por
 minuto dan las ruedas, cuánta distancia ha recorrido, etc.
+-->
 
 ![car dashboard](https://img.buzzfeed.com/buzzfeed-static/static/2017-02/7/12/enhanced/buzzfeed-prod-fastlane-03/original-17515-1486490056-3.jpg?crop=2041:1068;80,248)
 
+<!--
 ## Aplicaciones en el mundo real
 
 En el mundo de la web es muy común el uso de _dashboards_. De hecho, [wikipedia](https://goo.gl/P7PF4y)
@@ -70,28 +64,152 @@ Seguramente, a lo largo de tu carrera como diseñadora o desarrolladora, te
 tocará crear un _data dashboard_. Quizás sea para visualizar la data de un
 negocio de delivery de comida, o las rutas históricas de un negocio de
 transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
+-->
+
+## Descripción
+
+En este proyecto **construirás una _página web_ a partir de un _set de datos_**.
+
+Como punto de partida, te ofrecemos una serie de _temáticas_ para que explores y
+decidas qué te interesa. Una vez definas tu área de interés tendrás que
+investigar el set de datos elegido y ver qué historias de usuario y qué
+preguntas podrían ser respondidas con ayuda de la data, y cómo una interfaz
+puede ayudarnos a interactuar con la data y entenderla mejor.
+
+Como entregable final tendrás una página web (publicada en GitHub Pages) que
+permita visualizar la data, filtrarla y ordenarla.
+
+### Temáticas
+
+[TODO: Presentar _temáticas_ en vez de fuentes de datos directamente @gaposx]
+
+* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru):
+  ...
+* [Pokemon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
+  ...
+* [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
+  ...
+* [League of Legends - Challenger leaderboard](https://la2.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-eda9db39-e649-4fe4-a036-336890fc4305):
+  ...
+
+## Consideraciones generales
+
+* Este proyecto se debe resolver en duplas.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando GitHub pages.
+* Tiempo para completarlo: Toma como referencia 3 semanas. Trabaja durante el
+  primer Sprint (una semana) y al  final, trata de fijar un estimado de cuándo
+  lo terminarás.
 
 ## Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-_interfaz web_ donde podamos visualizar y manipular data.
+interfaz web donde podamos visualizar y manipular data.
 
-Esperamos que puedas pensar en el usuario, entender cuál es la mejor manera de
-visualizar la data según sus necesidades, y plasmar todo eso en tu diseño en la
-web.
+Dicho en palabras sencillas, aprenderás a:
 
-Además, este proyecto se debe "resolver" en parejas, por lo que un objetivo
-importante es ganar experiencia en trabajos colaborativos con entrega grupal.
+* Entender a los usuarios a través de **entrevistas**
+* Definir qué data y de qué forma mostrar esta data en el producto, basadas en
+  el **entendimiento del usuario**.
+* Crear productos que sigan los **principios básicos de diseño visual**.
+* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
+* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
+* **Manejar eventos del DOM** para permitir filtrado y ordenado.
+* **Trabajar en duplas**??? @rocioalberdi
 
-## Tópicos a cubrir
+## Parte obligatoria
 
-Tendrás que familiarizarte con conceptos como:
-_arrays_,_objects_, _dom_, _xhr_ y _visual design_.
+Los criterios mínimos de aceptación para considerar que has completado este
+proyecto son:
 
-Además, reforzarás lo aprendido en el proyecto anterior: _valores, tipos,
-variables_, _control de flujo_ y _tests unitarios_.
+### User Experience Design
 
-## Consideraciones generales
+#### 1) Definición del producto
+
+Te recomendamos pensar y acercarte a un usuario real para poder crear el
+producto basándote en sus necesidades.
+
+Estas preguntas te pueden ayudar:
+
+* ¿Quiénes son los principales usuarios de producto?
+* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+* ¿Cuándo utilizan o utilizarían el producto?
+
+Te sugerimos que documentes esto en un archivo README.md en tu repositorio.
+Mostrando cómo fue tu proceso de diseño y contando cómo crees que el producto
+les está resolviendo los problemas a los usuarios.
+
+#### 2) Sketch de la solución (prototipo de baja fidelidad)
+
+Debes hacer un sketch (boceto) de tu solución usando papel y lápiz.
+
+Te recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
+sketch en tu `README.md`.
+
+#### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
+
+Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
+Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotros
+te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
+que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
+embargo, eres libre de utilizar otros editores gráficos como
+Illustrator, Photoshop, PowerPoint, Keynote, etc.
+
+El diseño debe representar tu _ideal_ de solución. Digamos que es lo que
+desearías implementar si tuvieras tiempo ilimitado para hackear.
+
+Tu diseño debe seguir los fundamentos de _visual design_, como:
+contraste, alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
+de la unidad de visual design.
+
+### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+
+Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
+Como mencionamos, **no** es necesario que construyas la interfaz tal como la
+diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás priorizar.
+
+Como mínimo, tu implementación debe:
+
+[TBD]
+
+<!--
+1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
+2. Al seleccionar un cohort:
+   - Listar las estudiantes de ese cohort
+   - Para cada estudiante:
+     + Calcular porcentaje de completitud de todos los _cursos_.
+     + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
+       y _quizzes_.
+   - Ordenar estudiantes por completitud _general_ (porcentaje consumido/completado
+     de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
+     autocorregidos_ y _quizzes_.
+   - Filtrar/buscar estudiantes por nombre.
+3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
+   tablets y desktops.
+4. Incluir pruebas unitarias.
+-->
+
+Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
+igual debe seguir los fundamentos de visual design, como: contraste,
+alineación, jerarquía, entre otros.
+
+## Parte opcional (Hacker edition)
+
+[TBD]
+
+<!--
+Features/características extra sugeridas:
+
+* En lugar de consumir la data estática brindada en este repositorio, puedes
+  consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
+  Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
+* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
+* Brindar el detalle de progreso de cada estudiante _por curso_
+* Proveer estadísticas de progreso de todo el cohort
+-->
+
+## Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
@@ -99,10 +217,10 @@ frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vani
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test`.
+Las pruebas unitarias deben cubrir un mínimo del 70% de _statements_,
+_functions_ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya
+contiene el setup y configuración necesaria para ejecutar los tests (pruebas)
+usando el comando `npm test`.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio que
 contiene el _boilerplate_.
@@ -110,6 +228,9 @@ contiene el _boilerplate_.
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
 
+[TBD]
+
+<!--
 ```text
 ./
 ├── .editorconfig
@@ -137,79 +258,9 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 La carpeta `data/` dentro del _boilerplate_ incluye un extracto de la data que
 podemos usar tanto en los tests como en la interfaz en sí.
+-->
 
-## Entregables
-
-Los criterios mínimos de aceptación para considerar que has completado este
-proyecto son:
-
-### User Experience Design
-
-#### 1) Definición del producto
-
-En el `README.md` cuéntanos cómo pensaste y te acercaste a los usuarios al
-desarrollar tu producto (Tip: entrevistas) y cuál fue tu proceso para definir
-el producto final a nivel de experiencia y de interfaz. Es importante que
-detalles:
-
-* Quiénes son los principales usarios de producto.
-* Cuáles son los objetivos de estos usarios en relación con el producto.
-* Cuáles son los datos más relevantes que quieren ver en la interfaz y
-  por qué. Cómo los descubriste.
-* Cuándo revisan normalmente estos datos los usuarios.
-* Cómo crees que el producto les está resolviendo sus problemas.
-* Cómo fue tu proceso de diseño.
-
-#### 2) Sketch de la solución (prototipo de baja fidelidad)
-
-Debes hacer un _sketch_ (boceto) de tu solución usando papel y lápiz, tomarle
-una foto, subirla a tu repositorio y hacer mención del _sketch_ en tu `README.md`.
-
-#### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
-
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
-Para eso debes aprender a utilizar alguna herramienta de diseño visual.
-Nosotros te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
-que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc.
-
-El diseño debe representar tu _ideal_ de solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear.
-
-Tu diseño debe seguir los fundamentos de _visual design_, como:
-contraste, alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
-de la unidad de visual design.
-
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
-
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-Como mencionamos, **no** es necesario que construyas la interfaz tal como la
-diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás priorizar.
-
-Como mínimo, tu implementación debe:
-
-1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
-2. Al seleccionar un cohort:
-   - Listar las estudiantes de ese cohort
-   - Para cada estudiante:
-     + Calcular porcentaje de completitud de todos los _cursos_.
-     + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
-       y _quizzes_.
-   - Ordenar estudiantes por completitud _general_ (porcentaje consumido/completado
-     de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
-     autocorregidos_ y _quizzes_.
-   - Filtrar/buscar estudiantes por nombre.
-3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
-   tablets y desktops.
-4. Incluir pruebas unitarias.
-
-Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-igual debe seguir los fundamentos de visual design, como: contraste,
-alineación, jerarquía, entre otros.
-
-## Detalles de Implementación
-
+<!--
 ### data.js
 
 El corazón de este proyecto es la manipulación de datos a través de arreglos y
@@ -385,6 +436,7 @@ Una página se abrirá en tu navegador conteniendo los resultados de las pruebas
 
 Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es
 donde está el set de datos de prueba que se usarán para correr las pruebas.
+--->
 
 <!-- ### Habilidades blandas
 
@@ -412,17 +464,7 @@ puedas realizar una presentación que permita a todos comprender lo realizado.
 Sabemos que puede ser una instancia difícil, esperamos que logres mostrar su
 trabajo y los demás lo comprendan. -->
 
-## Hacker edition
-
-Features/características extra sugeridas:
-
-* En lugar de consumir la data estática brindada en este repositorio, puedes
-  consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
-  Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
-* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
-* Brindar el detalle de progreso de cada estudiante _por curso_
-* Proveer estadísticas de progreso de todo el cohort
-
+<!--
 ## Entrega
 
 En este proyecto deberás trabajar colaborativamente. Para ello, una de las
@@ -467,7 +509,9 @@ Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañ
   discutir y revisar los cambios realizados con todos los colaboradores y
   agregar otros commits antes de que los cambios sean incluidos al repositorio
   original.
+-->
 
+<!--
 ## Evaluación
 
 Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
@@ -534,19 +578,14 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 | Trabajo en equipo | 2
 | Comunicación eficaz | 2
 | Presentaciones | 2
+-->
 
 ***
 
-## Puntos de experiencia
-
-* Completando los requerimientos mínimos de este proyecto ganarás 250 XPs.
-* Completando el hacker edition de este proyecto ganarás 100 XPs adicionales.
-* Completando los ejercicios de manipulación de arreglos en el LMS (Añadir link)
-  ganarás otros 25 XPs.
-* Completando los ejercicios de manipulación de objetos en el LMS (Añadir link)
-  ganarás otros 25 XPs.
-
 ## Primeros pasos
+
+Previamente a empezar a escribir código deberás poder definir qué deberá hacer
+el producto, en base al conocimiento que puedas tener de tu usuario.
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
@@ -571,7 +610,35 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. A codear se ha dicho! :rocket:
 
-## Tips / Pistas
+***
+
+## Contenido de referencia
+
+<!--
+## Tópicos a cubrir
+
+Tendrás que familiarizarte con conceptos como:
+_arrays_,_objects_, _dom_, _xhr_ y _visual design_.
+
+Además, reforzarás lo aprendido en el proyecto anterior: _valores, tipos,
+variables_, _control de flujo_ y _tests unitarios_.
+-->
+
+### Diseño de experiencia de usuario (User Experience Design)
+
+* Investigación con usuarios / entrevistas
+* Principios de diseño visual
+
+### Desarrollo Front-end, Javascript específicamente
+
+* TBD...
+
+### Herramientas
+
+* GitHub y GitHub Pages.
+* TBD...
+
+### Más información relevante
 
 * [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 * [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
@@ -585,12 +652,14 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
 
+***
+
 ## Checklist
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.
 * [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
-      y un mínimo del 50% de branches.
+  y un mínimo del 50% de branches.
 * [ ] Pasa tests (y linter) (`yarn test`)
 * [ ] Definición del producto en `README.md`.
 * [ ] Sketch de la solución (prototipo de baja fidelidad) en `README.md`.
@@ -601,5 +670,5 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 * [ ] UI: Muestra completitud de lecturas, ejercicios autocorregidos y quizzes.
 * [ ] UI: Permite ordenar estudiantes por completitud general
 * [ ] UI: Permite ordenar estudiantes por completitud de lecturas, ejercicios y
-          quizzes).
+  quizzes).
 * [ ] UI: Permite filtrar/buscar estudiantes por nombre.
