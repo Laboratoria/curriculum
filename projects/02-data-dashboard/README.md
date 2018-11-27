@@ -71,26 +71,33 @@ transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
 En este proyecto **construirás una _página web_ a partir de un _set de datos_**.
 
 Como punto de partida, te ofrecemos una serie de _temáticas_ para que explores y
-decidas qué te interesa. Una vez definas tu área de interés tendrás que
-investigar el set de datos elegido y ver qué historias de usuario y qué
-preguntas podrían ser respondidas con ayuda de la data, y cómo una interfaz
-puede ayudarnos a interactuar con la data y entenderla mejor.
+decidas qué te interesa. Una vez que definas tu área de interés, tendrás que 
+examinar el set de datos elegido y pensar en qué preguntas que podrían ser 
+respondidas con ayuda de la data y cómo una interfaz puede ayudarnos a
+interactuar con ella y entenderla mejor.
 
-Como entregable final tendrás una página web (publicada en GitHub Pages) que
-permita visualizar la data, filtrarla y ordenarla.
+Como entregable final tendrás una página web que permita visualizar la data, filtrarla y ordenarla.
 
 ### Temáticas
 
-[TODO: Presentar _temáticas_ en vez de fuentes de datos directamente @gaposx]
+Estos son los temas con los cuales puedes trabajar en este proyecto:
 
-* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru):
-  ...
-* [Pokemon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
-  ...
+* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru): 
+Este set de datos incluye indicadores demográficos, económicos y comerciales 
+sobre Perú.
+  
+* [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
+En este set encontrarás una lista con los 151 Pokémon de la región de Kanto 
+junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
 * [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
-  ...
+  Lista noticias relacionadas a los videojuegos presentes en la
+  plataforma de [Steam](https://store.steampowered.com/).
 * [League of Legends - Challenger leaderboard](https://la2.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-eda9db39-e649-4fe4-a036-336890fc4305):
-  ...
+  Este set de datos muestra la lista de jugadores en una liga del
+  juego League of Legends (LoL).
+
+[TODO: Creo que estamos muy game-oriented]
+
 
 ## Consideraciones generales
 
@@ -126,25 +133,22 @@ proyecto son:
 
 #### 1) Definición del producto
 
-Te recomendamos pensar y acercarte a un usuario real para poder crear el
-producto basándote en sus necesidades.
-
-Estas preguntas te pueden ayudar:
+Concocer y acercarte a un usuario real para poder crear el producto basándote 
+en sus necesidades. Para ello, estas preguntas te pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
 
-Te sugerimos que documentes esto en un archivo README.md en tu repositorio.
-Mostrando cómo fue tu proceso de diseño y contando cómo crees que el producto
-les está resolviendo los problemas a los usuarios.
+Documenta tu trabajo en el archivo README.md de tu repositorio mostrando cómo 
+fue tu proceso de diseño y contando cómo crees que el producto resuelve el 
+problema que tiene tu usuario.
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
 
-Debes hacer un sketch (boceto) de tu solución usando papel y lápiz.
-
-Te recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
+Debes hacer un sketch (boceto) de tu solución usando papel y lápiz. Te 
+recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
 sketch en tu `README.md`.
 
 #### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
@@ -153,14 +157,13 @@ Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
 Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotros
 te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
 que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc.
+embargo, eres libre de utilizar otros editores gráficos como Illustrator, 
+Photoshop, PowerPoint, Keynote, etc.
 
-El diseño debe representar tu _ideal_ de solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear.
-
-Tu diseño debe seguir los fundamentos de _visual design_, como:
-contraste, alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
+El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
+desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu 
+diseño debe seguir los fundamentos de _visual design_, como: contraste, 
+alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
 de la unidad de visual design.
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
@@ -191,8 +194,7 @@ Como mínimo, tu implementación debe:
 -->
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-igual debe seguir los fundamentos de visual design, como: contraste,
-alineación, jerarquía, entre otros.
+igual debe seguir los fundamentos de visual design.
 
 ## Parte opcional (Hacker edition)
 
@@ -222,8 +224,8 @@ _functions_ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya
 contiene el setup y configuración necesaria para ejecutar los tests (pruebas)
 usando el comando `npm test`.
 
-Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio que
-contiene el _boilerplate_.
+<!-- Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio que
+contiene el _boilerplate_. -->
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
@@ -586,7 +588,7 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
 Previamente a empezar a escribir código deberás poder definir qué deberá hacer
 el producto, en base al conocimiento que puedas tener de tu usuario.
-
+<!-- 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
@@ -597,9 +599,10 @@ el producto, en base al conocimiento que puedas tener de tu usuario.
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
-   privado y te darán acceso de lectura en ese repo. La otra integrante del
+   -->
+1. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
+   darán acceso de lectura en ese repo. La otra integrante del
    equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
    un `remote` hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
