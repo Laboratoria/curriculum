@@ -59,7 +59,7 @@ Crea en tu proyecto, un archivo `.babelrc` con el siguiente contenido:
 }
 ```
 
-Chequea la [documentación de `.babelrc`](https://babeljs.io/docs/en/config-files#file-relative-configuration)
+Revisa la [documentación de `.babelrc`](https://babeljs.io/docs/en/config-files#file-relative-configuration)
 para ver todas las opciones de configuración.
 
 ### `package.json`
@@ -110,7 +110,7 @@ module.exports = { presets, plugins };
 babel --plugins @babel/plugin-transform-arrow-functions script.js
 ```
 
-Chequea la [documentación de `@babel/cli`](https://babeljs.io/docs/en/babel-cli)
+Revisa la [documentación de `@babel/cli`](https://babeljs.io/docs/en/babel-cli)
 para ver todas las opciones de configuración.
 
 ## Usando la API (`@babel/core`)
@@ -121,5 +121,5 @@ require("@babel/core").transform("code", {
 });
 ```
 
-Chequea la [documentación de `@babel/core`](https://babeljs.io/docs/en/babel-core)
+Revisa la [documentación de `@babel/core`](https://babeljs.io/docs/en/babel-core)
 para ver todas las opciones de configuración.

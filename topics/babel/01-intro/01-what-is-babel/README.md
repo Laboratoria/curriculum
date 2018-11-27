@@ -29,7 +29,7 @@ Estas son los principales tareas que puedes realizar con Babel:
 });
 ```
 
-> Para saber más de compiladores, chequea el increíble tutorial
+> Para saber más de compiladores, revisa el increíble tutorial
 > [the-super-tiny-compiler](https://github.com/thejameskyle/the-super-tiny-compiler),
 > que también explica a grandes rasgos cómo funciona Babel.
 
@@ -44,7 +44,7 @@ que los navegadores o entornos brinden soporte.
 
 ## JSX y React
 
-Babel también puede transformar sintaxis JSX! Chequea el [preset para React](https://babeljs.io/docs/en/babel-preset-react)
+Babel también puede transformar sintaxis JSX! Revisa el [preset para React](https://babeljs.io/docs/en/babel-preset-react)
 para comenzar.
 
 Puedes instalar el preset con el siguiente comando

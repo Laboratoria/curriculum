@@ -11,7 +11,7 @@ provee Babel.
 
 > Si estás usando un framework en particular,
 > seguramente alguien ya se encargó de crear una configuración de babel para ti.
-> Chequea la [guia interactiva de setup](https://babeljs.io/setup.html) antes de
+> Revisa la [guia interactiva de setup](https://babeljs.io/setup.html) antes de
 > comenzar desde cero.
 
 ## Overview
@@ -95,7 +95,7 @@ babel.transform("code", optionsObject);
 
 > Como usuario final, probablemente lo que quieras hacer es instalar otras
 > herramientans que sirvan de interfaz con `@babel/core`. Inclusive si este
-> es el caso, quizás todavia quieras chequear su documentación para aprender
+> es el caso, quizás todavia quieras revisar su documentación para aprender
 > que opciones puede recibir.
 
 ### Línea de comando
