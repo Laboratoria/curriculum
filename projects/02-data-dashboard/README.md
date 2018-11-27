@@ -133,16 +133,8 @@ proyecto son:
 
 #### 1) Definición del producto
 
-Concocer y acercarte a un usuario real para poder crear el producto basándote 
-en sus necesidades. Para ello, estas preguntas te pueden ayudar:
-
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-
-Documenta tu trabajo en el archivo README.md de tu repositorio mostrando cómo 
-fue tu proceso de diseño y contando cómo crees que el producto resuelve el 
+Debes documentar tu trabajo en el archivo README.md de tu repositorio mostrando 
+cómo fue tu proceso de diseño y contando cómo crees que el producto resuelve el 
 problema que tiene tu usuario.
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
@@ -584,10 +576,16 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
 ***
 
-## Primeros pasos
+## Pistas sobre cómo empezar a trabajar en el proyecto
 
-Previamente a empezar a escribir código deberás poder definir qué deberá hacer
-el producto, en base al conocimiento que puedas tener de tu usuario.
+Antes de empezar a escribir código, debes definir qué deberá hacer el producto 
+en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te 
+pueden ayudar:
+
+* ¿Quiénes son los principales usuarios de producto?
+* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+* ¿Cuándo utilizan o utilizarían el producto?
 <!-- 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
@@ -600,6 +598,8 @@ el producto, en base al conocimiento que puedas tener de tu usuario.
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
    -->
+
+Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 1. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
    del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo. La otra integrante del
