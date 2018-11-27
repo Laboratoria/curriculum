@@ -437,7 +437,6 @@ puedas realizar una presentación que permita a todos comprender lo realizado.
 Sabemos que puede ser una instancia difícil, esperamos que logres mostrar su
 trabajo y los demás lo comprendan. -->
 
-<!--
 ## Evaluación
 
 Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
@@ -446,65 +445,58 @@ continuación presentamos los niveles esperados para cada habilidad:
 
 ### General
 
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud | 3
-| Investigación | 3
-| Documentación | 2
+| Característica/Habilidad |
+|--------------------------|
+| Completitud |
 
 ### Tech
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 2
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 2
-| Estructuras de datos | 2
-| Tests | 2
-| **HTML** | |
-| Validación | 3
-| Estilo | 3
-| Semántica | 2
-| SEO | 0
-| **CSS** | |
-| DRY | 2
-| Responsive | 2
-| **SCM** | |
-| Git | 3
-| GitHub | 2
-| **CS** | |
-| Lógica | 1
-| Arquitectura | 2
-| Patrones/paradigmas | 0
+| Habilidad |
+|-----------|
+| **JavaScript** |
+| Estilo |
+| Nomenclatura/semántica |
+| Funciones/modularidad |
+| Estructuras de datos |
+| Tests |
+| **HTML** |
+| Validación |
+| Estilo |
+| Semántica |
+| **CSS** |
+| DRY |
+| Responsive |
+| **SCM** |
+| Git |
+| GitHub |
+| **CS** |
+| Lógica |
+| Arquitectura |
 
 ### UX
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 3 |
-| Entrevistas | 2 |
-| Contraste | 3 |
-| Alineación | 3 |
-| Jerarquía | 2 |
-| Tipografía | 2 |
-| Color | 2 |
+| Habilidad |
+|-----------|
+| User Centricity |
+| Entrevistas |
+| Contraste |
+| Alineación |
+| Jerarquía |
+| Tipografía |
+| Color |
 
 ### Habilidades Blandas
 
-Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 2
-| Autoaprendizaje | 2
-| Solución de problemas | 2
-| Dar y recibir feedback | 2
-| Adaptabilidad | 2
-| Trabajo en equipo | 2
-| Comunicación eficaz | 2
-| Presentaciones | 2
--->
+| Habilidad |
+|-----------|
+| Planificación y organización |
+| Autoaprendizaje |
+| Solución de problemas |
+| Dar y recibir feedback |
+| Adaptabilidad |
+| Trabajo en equipo |
+| Comunicación eficaz |
+| Presentaciones |
 
 ***
 
@@ -518,19 +510,6 @@ pueden ayudar:
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
-
-<!--
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-   -->
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
