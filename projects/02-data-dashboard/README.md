@@ -43,23 +43,6 @@ minuto dan las ruedas, cuánta distancia ha recorrido, etc.
 ![car dashboard](https://img.buzzfeed.com/buzzfeed-static/static/2017-02/7/12/enhanced/buzzfeed-prod-fastlane-03/original-17515-1486490056-3.jpg?crop=2041:1068;80,248)
 
 <!--
-## Aplicaciones en el mundo real
-
-En el mundo de la web es muy común el uso de _dashboards_. De hecho, [wikipedia](https://goo.gl/P7PF4y)
-nos dice que un _dashboard_ puede ser un resumen gráfico de varias piezas de
-información importante, generalmente utilizadas para dar una visión general de
-una empresa o de un servicio. Así, tenemos dashboards como los de:
-
-* [Google Analytics](https://assets.econsultancy.com/images/resized/0003/3813/mobile_commerce_dashboard-blog-full.png)
-  para visualizar la data de tráfico de sitios web.
-
-* [Mailchimp](https://blog.mailchimp.com/wp-content/uploads/2016/11/Dashboard-view-3-Copy-1008x768.jpg)
-  para visualizar el desempeño de campañas de mercadeo digital por correo
-  electrónico.
-
-* [Quickbooks](https://quickbooks.intuit.com/content/dam/intuit/quickbooks/branding/make-organization-easy-visual.png)
-  para visualizar la información financiera de una empresa.
-
 Seguramente, a lo largo de tu carrera como diseñadora o desarrolladora, te
 tocará crear un _data dashboard_. Quizás sea para visualizar la data de un
 negocio de delivery de comida, o las rutas históricas de un negocio de
@@ -84,11 +67,11 @@ filtrarla y ordenarla.
 Estos son los temas con los cuales puedes trabajar en este proyecto:
 
 * [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru):
-Este set de datos incluye indicadores demográficos, económicos y comerciales
-sobre Perú.
+  Este set de datos incluye indicadores demográficos, económicos y comerciales
+  sobre Perú.
 * [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
-En este set encontrarás una lista con los 151 Pokémon de la región de Kanto
-junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
+  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto
+  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
 * [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
   Lista noticias relacionadas a los videojuegos presentes en la
   plataforma de [Steam](https://store.steampowered.com/).
@@ -172,7 +155,7 @@ Como mínimo, tu implementación debe:
 3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
    máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
    un determinado valor.
-3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
+4. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
    tablets y desktops.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
@@ -463,53 +446,6 @@ Sabemos que puede ser una instancia difícil, esperamos que logres mostrar su
 trabajo y los demás lo comprendan. -->
 
 <!--
-## Entrega
-
-En este proyecto deberás trabajar colaborativamente. Para ello, una de las
-integrantes del equipo deberá forkear el repositorio del cohort y la otra
-integrante **deberá hacer un fork del repositorio de su compañera**. Luego de
-esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
-un `remote` hacia el repositorio del cual hiciste el fork.
-
-Para mandar cambios desde un repositorio forkeado al original debes crear un
-[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
-y el propietario del repositorio original recibirá una notificación para
-[revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/)
-y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/).
-
-Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
-
-* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de
-  trabajo con dos ramas principales:
-  - `master`: rama que contiene las funcionalidades terminadas y sin errores.
-  - `develop`: rama dónde integrarás las funcionalidades conforme las vayas
-    desarrollando.
-
-* Además de tener las dos ramas anteriores, puedes trabajar cada nueva
-  funcionalidad en una rama individual (_feature branches_), estas ramas en
-  lugar de crearse a partir de `master`, tienen a `develop` como su rama de
-  origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`.
-  Las _feature branches_ no se deben integrar directamente a `master`.
-
-* Por último, te sugerimos codear usando la técnica de [pair programming](http://www.javiergarzas.com/2012/06/beneficios-pair-programming.html).
-
-¿Quieres saber más forks y pull requests?
-
-* Un [fork](https://help.github.com/articles/fork-a-repo/) es una copia de un
-  repositorio en el que puedes experimentar sin afectar al repositorio original.
-  Generalmente se usa para proponer cambios al proyecto de alguien más o para
-  usar el proyecto de otra persona como punto de partida para una idea que
-  quieras realizar.
-
-* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR)
-  te permite solicitar la inclusión de cambios al repositorio original (tu punto
-  de partida) en GitHub. Cuando un PR es abierto, este permite solicitar,
-  discutir y revisar los cambios realizados con todos los colaboradores y
-  agregar otros commits antes de que los cambios sean incluidos al repositorio
-  original.
--->
-
-<!--
 ## Evaluación
 
 Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
@@ -590,6 +526,7 @@ pueden ayudar:
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
+
 <!--
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
@@ -604,18 +541,64 @@ pueden ayudar:
    -->
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
+
 1. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
    del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo. La otra integrante del
    equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
    un `remote` hacia el mismo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
-7. A codear se ha dicho! :rocket:
+5. A codear se ha dicho! :rocket:
+
+<!--
+En este proyecto deberás trabajar colaborativamente. Para ello, una de las
+integrantes del equipo deberá forkear el repositorio del cohort y la otra
+integrante **deberá hacer un fork del repositorio de su compañera**. Luego de
+esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+un `remote` hacia el repositorio del cual hiciste el fork.
+
+Para mandar cambios desde un repositorio forkeado al original debes crear un
+[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+y el propietario del repositorio original recibirá una notificación para
+[revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/)
+y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/).
+
+Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
+
+* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de
+  trabajo con dos ramas principales:
+  - `master`: rama que contiene las funcionalidades terminadas y sin errores.
+  - `develop`: rama dónde integrarás las funcionalidades conforme las vayas
+    desarrollando.
+
+* Además de tener las dos ramas anteriores, puedes trabajar cada nueva
+  funcionalidad en una rama individual (_feature branches_), estas ramas en
+  lugar de crearse a partir de `master`, tienen a `develop` como su rama de
+  origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`.
+  Las _feature branches_ no se deben integrar directamente a `master`.
+
+* Por último, te sugerimos codear usando la técnica de [pair programming](http://www.javiergarzas.com/2012/06/beneficios-pair-programming.html).
+
+¿Quieres saber más forks y pull requests?
+
+* Un [fork](https://help.github.com/articles/fork-a-repo/) es una copia de un
+  repositorio en el que puedes experimentar sin afectar al repositorio original.
+  Generalmente se usa para proponer cambios al proyecto de alguien más o para
+  usar el proyecto de otra persona como punto de partida para una idea que
+  quieras realizar.
+
+* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR)
+  te permite solicitar la inclusión de cambios al repositorio original (tu punto
+  de partida) en GitHub. Cuando un PR es abierto, este permite solicitar,
+  discutir y revisar los cambios realizados con todos los colaboradores y
+  agregar otros commits antes de que los cambios sean incluidos al repositorio
+  original.
+-->
 
 ***
 
@@ -650,7 +633,6 @@ variables_, _control de flujo_ y _tests unitarios_.
 * [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
 * [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
 * [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [XMLHttpRequest en MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
 
