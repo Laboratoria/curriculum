@@ -71,23 +71,23 @@ transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
 En este proyecto **construirás una _página web_ a partir de un _set de datos_**.
 
 Como punto de partida, te ofrecemos una serie de _temáticas_ para que explores y
-decidas qué te interesa. Una vez que definas tu área de interés, tendrás que 
-examinar el set de datos elegido y pensar en qué preguntas que podrían ser 
+decidas qué te interesa. Una vez que definas tu área de interés, tendrás que
+examinar el set de datos elegido y pensar en qué preguntas podrían ser
 respondidas con ayuda de la data y cómo una interfaz puede ayudarnos a
 interactuar con ella y entenderla mejor.
 
-Como entregable final tendrás una página web que permita visualizar la data, filtrarla y ordenarla.
+Como entregable final tendrás una página web que permita visualizar la data,
+filtrarla y ordenarla.
 
 ### Temáticas
 
 Estos son los temas con los cuales puedes trabajar en este proyecto:
 
-* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru): 
-Este set de datos incluye indicadores demográficos, económicos y comerciales 
+* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru):
+Este set de datos incluye indicadores demográficos, económicos y comerciales
 sobre Perú.
-  
 * [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
-En este set encontrarás una lista con los 151 Pokémon de la región de Kanto 
+En este set encontrarás una lista con los 151 Pokémon de la región de Kanto
 junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
 * [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
   Lista noticias relacionadas a los videojuegos presentes en la
@@ -95,9 +95,6 @@ junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemon
 * [League of Legends - Challenger leaderboard](https://la2.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-eda9db39-e649-4fe4-a036-336890fc4305):
   Este set de datos muestra la lista de jugadores en una liga del
   juego League of Legends (LoL).
-
-[TODO: Creo que estamos muy game-oriented]
-
 
 ## Consideraciones generales
 
@@ -129,21 +126,21 @@ Dicho en palabras sencillas, aprenderás a:
 Los criterios mínimos de aceptación para considerar que has completado este
 proyecto son:
 
-<!-- ### User Experience Design -->
-
 ### Definición del producto
 
-Debes documentar tu trabajo en el archivo README.md de tu repositorio mostrando 
-cómo fue tu proceso de diseño y contando cómo crees que el producto resuelve el 
+Debes documentar tu trabajo en el archivo README.md de tu repositorio mostrando
+cómo fue tu proceso de diseño y contando cómo crees que el producto resuelve el
 problema que tiene tu usuario.
 
 ### Historias de usuario
+
 [TBD]
 
 ### Diseño de la Interfaz de Usuario
+
 #### Prototipo de baja fidelidad
 
-Debes hacer un sketch (boceto) de tu solución usando papel y lápiz. Te 
+Debes hacer un sketch (boceto) de tu solución usando papel y lápiz. Te
 recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
 sketch en tu `README.md`.
 
@@ -153,12 +150,12 @@ Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
 Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotros
 te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
 que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como Illustrator, 
+embargo, eres libre de utilizar otros editores gráficos como Illustrator,
 Photoshop, PowerPoint, Keynote, etc.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu 
-diseño debe seguir los fundamentos de _visual design_, como: contraste, 
+desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
+diseño debe seguir los fundamentos de _visual design_, como: contraste,
 alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
 de la unidad de visual design.
 
@@ -170,42 +167,45 @@ diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás prior
 
 Como mínimo, tu implementación debe:
 
-[TBD]
-
-<!--
-1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
-2. Al seleccionar un cohort:
-   - Listar las estudiantes de ese cohort
-   - Para cada estudiante:
-     + Calcular porcentaje de completitud de todos los _cursos_.
-     + Calcular grado de completitud de _lecturas_, _ejercicios autocorregidos_,
-       y _quizzes_.
-   - Ordenar estudiantes por completitud _general_ (porcentaje consumido/completado
-     de todos los cursos del cohort en cuestión), de _lecturas_, _ejercicios
-     autocorregidos_ y _quizzes_.
-   - Filtrar/buscar estudiantes por nombre.
+1. Mostrar una tabla o lista con data o indicadores.
+2. Permitir al usuario filtrar y ordenar la data.
+3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
+   máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
+   un determinado valor.
 3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
    tablets y desktops.
-4. Incluir pruebas unitarias.
--->
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
 igual debe seguir los fundamentos de visual design.
 
+### Pruebas unitarias
+
+El _boilerplate_ de este proyecto no incluye pruebas unitarias, pero esperamos
+que escribas tu propias pruebas unitarias para las funciones encargadas de
+_procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
+Para ello te recomendamos implementar las siguientes funciones en el archivo
+`src/data.js`:
+
+* `filterData(data, condition)`
+* `sortData(data, sortBy, sortOrder)`
+* `computeStats(data)`
+
+El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_,
+_functions_ y _lines_, y _branches_.
+
+Estas funciones deben ser _puras_ y ser independientes del DOM. Estas funciones
+serán después usadas desde el archivo `src/main.js`, al cargar la página, y
+cada vez que el usuario interactúe (click, filtrado, ordenado, ...).
+
 ## Parte Opcional (Hacker edition)
 
-[TBD]
-
-<!--
 Features/características extra sugeridas:
 
 * En lugar de consumir la data estática brindada en este repositorio, puedes
-  consumir la data del [Live API de Laboratoria](https://api.laboratoria.la/).
-  Lee la [documentación aquí](https://laboratoria.github.io/api.laboratoria.la/).
+  consumir la data de forma dinámica, cargando un archivo JSON por medio de
+  `fetch`.
 * Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
-* Brindar el detalle de progreso de cada estudiante _por curso_
-* Proveer estadísticas de progreso de todo el cohort
--->
+* 100% Coverage
 
 ## Consideraciones técnicas
 
@@ -582,15 +582,15 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
 
 ## Pistas sobre cómo empezar a trabajar en el proyecto
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto 
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te 
+Antes de empezar a escribir código, debes definir qué deberá hacer el producto
+en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
 pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
-<!-- 
+<!--
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
@@ -636,17 +636,12 @@ variables_, _control de flujo_ y _tests unitarios_.
 * Investigación con usuarios / entrevistas
 * Principios de diseño visual
 
-### Desarrollo Front-end, Javascript específicamente
+### Desarrollo Front-end
 
-* TBD...
-
-### Herramientas
-
-* GitHub y GitHub Pages.
-* TBD...
-
-### Más información relevante
-
+* Unidad de testing en curso de JavaScript en LMS.
+* Unidad de arreglos en curso de JavaScript en LMS.
+* Unidad de objetos en curso de JavaScript en LMS.
+* Unidad de funciones en curso de JavaScript en LMS.
 * [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 * [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
 * [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
@@ -658,6 +653,13 @@ variables_, _control de flujo_ y _tests unitarios_.
 * [XMLHttpRequest en MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
+
+### Herramientas
+
+* Git
+* GitHub y GitHub Pages.
+* Node.js + NPM
+* Jest
 
 ***
 
