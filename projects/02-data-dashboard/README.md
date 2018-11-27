@@ -124,26 +124,30 @@ Dicho en palabras sencillas, aprenderás a:
 * **Manejar eventos del DOM** para permitir filtrado y ordenado.
 * **Trabajar en duplas**??? @rocioalberdi
 
-## Parte obligatoria
+## Parte Obligatoria
 
 Los criterios mínimos de aceptación para considerar que has completado este
 proyecto son:
 
-### User Experience Design
+<!-- ### User Experience Design -->
 
-#### 1) Definición del producto
+### Definición del producto
 
 Debes documentar tu trabajo en el archivo README.md de tu repositorio mostrando 
 cómo fue tu proceso de diseño y contando cómo crees que el producto resuelve el 
 problema que tiene tu usuario.
 
-#### 2) Sketch de la solución (prototipo de baja fidelidad)
+### Historias de usuario
+[TBD]
+
+### Diseño de la Interfaz de Usuario
+#### Prototipo de baja fidelidad
 
 Debes hacer un sketch (boceto) de tu solución usando papel y lápiz. Te 
 recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
 sketch en tu `README.md`.
 
-#### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
+#### Prototipo de alta fidelidad
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
 Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotros
@@ -188,7 +192,7 @@ Como mínimo, tu implementación debe:
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
 igual debe seguir los fundamentos de visual design.
 
-## Parte opcional (Hacker edition)
+## Parte Opcional (Hacker edition)
 
 [TBD]
 
