@@ -154,7 +154,7 @@ Como mínimo, tu implementación debe:
 2. Permitir al usuario filtrar y ordenar la data.
 3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
    máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
-   un determinado valor.
+   un determinado valor, por ejemplo.
 4. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
    tablets y desktops.
 
@@ -176,9 +176,9 @@ Para ello te recomendamos implementar las siguientes funciones en el archivo
 El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_,
 _functions_ y _lines_, y _branches_.
 
-Estas funciones deben ser _puras_ y ser independientes del DOM. Estas funciones
-serán después usadas desde el archivo `src/main.js`, al cargar la página, y
-cada vez que el usuario interactúe (click, filtrado, ordenado, ...).
+Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
+e independientes del DOM. Estas funciones serán después usadas desde el archivo
+`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click, filtrado, ordenado, ...).
 
 ## Parte Opcional (Hacker edition)
 
@@ -198,16 +198,8 @@ frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vani
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
-Las pruebas unitarias deben cubrir un mínimo del 70% de _statements_,
-_functions_ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya
-contiene el setup y configuración necesaria para ejecutar los tests (pruebas)
-usando el comando `npm test`.
-
-<!-- Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio que
-contiene el _boilerplate_. -->
-
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
+como toda la configuración de dependencias:
 
 [TBD]
 
@@ -649,17 +641,15 @@ variables_, _control de flujo_ y _tests unitarios_.
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions y lines,
-  y un mínimo del 50% de branches.
-* [ ] Pasa tests (y linter) (`yarn test`)
-* [ ] Definición del producto en `README.md`.
-* [ ] Sketch de la solución (prototipo de baja fidelidad) en `README.md`.
-* [ ] Diseño de la Interfaz de Usuario (prototipo de alta fidelidad).
-* [ ] UI: Permitir al usuario seleccionar un cohort de una lista de cohorts.
-* [ ] UI: Al seleccionar un cohort, listar las estudiantes de ese cohort.
-* [ ] UI: Muestra porcentaje de completitud de todos los cursos por estudiante.
-* [ ] UI: Muestra completitud de lecturas, ejercicios autocorregidos y quizzes.
-* [ ] UI: Permite ordenar estudiantes por completitud general
-* [ ] UI: Permite ordenar estudiantes por completitud de lecturas, ejercicios y
-  quizzes).
-* [ ] UI: Permite filtrar/buscar estudiantes por nombre.
+* [ ] Pasa linter (`npm pretest`)
+* [ ] Pasa tests (`npm test`)
+* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+  lines y branches.
+* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+  `README.md`.
+* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+  en `README.md`.
+* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
+* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
+* [ ] UI: Permite filtrar data en base a una condición.
