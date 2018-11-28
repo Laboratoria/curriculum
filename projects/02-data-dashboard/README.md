@@ -117,7 +117,9 @@ problema que tiene tu usuario.
 
 ### Historias de usuario
 
-[TBD]
+Basado en la investigación que hagas sobre las necesidades que tiene el usuario
+y la solución que propones para resolver esta necesidad, debes definir las 
+[historias de usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que describan la funcionalidad de tu solución.
 
 ### Diseño de la Interfaz de Usuario
 
@@ -625,6 +627,7 @@ variables_, _control de flujo_ y _tests unitarios_.
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
 * [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [ ] Incluye historias de usuario en `README.md`.
 * [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
 * [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
