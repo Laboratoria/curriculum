@@ -162,7 +162,7 @@ Como mínimo, tu implementación debe:
    tablets y desktops.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-seiga los fundamentos de _visual design_.
+siga los fundamentos de _visual design_.
 
 ### Pruebas unitarias
 
