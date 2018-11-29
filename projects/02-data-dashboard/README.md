@@ -3,7 +3,7 @@
 ## Índice
 
 * [Preámbulo](#preámbulo)
-* [Descripción](#descripción)
+* [Descripción](#resumen-del-proyecto)
 * [Consideraciones generales](#consideraciones-generales)
 * [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 * [Parte obligatoria](#parte-obligatoria)
@@ -18,59 +18,35 @@
 ## Preámbulo
 
 Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
-el 90% de la data que existe hoy ha sido creada en los últimos dos años.
+el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
 Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
 
-Sin embargo, los datos por sí solos son de poca utilidad. Para transformar datos
-en **información** necesitamos procesarlos y entenderlos. Una manera muy
-sencilla de hacerlo es creando _visualizaciones_. Las
-empresas líderes de hoy generan visualizaciones dinámicas de su data
-que les permiten entender mejor su negocio y tomar decisiones apropiadas.
+No obstante, los datos por sí mismos son de poca utilidad. Para que esas
+grandes cantidades de datos se conviertan en **información** para personas,
+necesitamos entenderlos y procesarlos. Una manera simple de hacerlo es creando _visualizaciones_.
 
-<!--
-En este proyecto tendrás tu primer acercamiento a transformar data en
-información creando tu primer **data dashboard**.
+![dashboard](http://adilmoujahid.com/images/data-viz-talkingdata.gif)
 
-Si pensamos en un _dashboard_ podemos pensar en el tablero de control de un auto
-o el de un avión. Un espacio desde el cual un usuario puede tener acceso a la
-información y controles más relevantes, en este caso, del vehículo que está
-utilizando. El _dashboard_ de un auto le permite a quien conduce saber a qué
-velocidad está yendo, qué cambio/velocidad está utilizando, cuánto combustible
-tiene disponible, cuál es la temperatura del motor, cuántas revoluciones por
-minuto dan las ruedas, cuánta distancia ha recorrido, etc.
--->
+## Resumen del proyecto
 
-![car dashboard](https://img.buzzfeed.com/buzzfeed-static/static/2017-02/7/12/enhanced/buzzfeed-prod-fastlane-03/original-17515-1486490056-3.jpg?crop=2041:1068;80,248)
+En este proyecto **construirás una _página web_ para visualizar un
+_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
+necesita.
 
-<!--
-Seguramente, a lo largo de tu carrera como diseñadora o desarrolladora, te
-tocará crear un _data dashboard_. Quizás sea para visualizar la data de un
-negocio de delivery de comida, o las rutas históricas de un negocio de
-transporte, o simplemente los indicadores clave de tu propio emprendimiento ;)
--->
+Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
+explores y decidas con qué te interesa trabajar. Hemos elegido específicamente
+estos porque creemos que se adecúan bien e esta etapa de tu aprendizaje.
 
-## Descripción
+Una vez que definas tu área de interés, entiende quién es tu usuario y qué
+necesita saber o ver exactamente; luego podrás construir la interfaz que le
+ayude a interactuar y entender mejor esos datos.
 
-En este proyecto **construirás una _página web_ a partir de un _set de datos_**.
+Estos son datos que te proponemos:
 
-Como punto de partida, te ofrecemos una serie de _temáticas_ para que explores y
-decidas qué te interesa. Una vez que definas tu área de interés, tendrás que
-examinar el set de datos elegido y pensar en qué preguntas podrían ser
-respondidas con ayuda de la data y cómo una interfaz puede ayudarnos a
-interactuar con ella y entenderla mejor.
-
-Como entregable final tendrás una página web que permita visualizar la data,
-filtrarla y ordenarla.
-
-### Temáticas
-
-Estos son los temas con los cuales puedes trabajar en este proyecto:
-
-* [Indicadores de desarrollo del Banco Mundial](https://datos.bancomundial.org/pais/peru):
-  Este set de datos incluye indicadores demográficos, económicos y comerciales
-  sobre Perú.
+* Indicadores de desarrollo del Banco Mundial de alguno de estos países:  [Brasil](https://datos.bancomundial.org/pais/brasil), [Chile](https://datos.bancomundial.org/pais/chile), [México](https://datos.bancomundial.org/pais/mexico) y [Perú](https://datos.bancomundial.org/pais/peru).
+Estos datos incluyen indicadores demográficos, económicos y comerciales.
 * [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto
+  En este set encontrarás una lista con los 151 Pokémones de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
 * [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
   Lista noticias relacionadas a los videojuegos presentes en la
@@ -79,47 +55,54 @@ Estos son los temas con los cuales puedes trabajar en este proyecto:
   Este set de datos muestra la lista de jugadores en una liga del
   juego League of Legends (LoL).
 
+Como entregable final tendrás una página web que permita visualizar la data,
+filtrarla y ordenarla.
+
 ## Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages.
 * Tiempo para completarlo: Toma como referencia 3 semanas. Trabaja durante el
-  primer Sprint (una semana) y al  final, trata de fijar un estimado de cuándo
-  lo terminarás.
+  primer Sprint (una semana) y al  final, decide en cuántas semanas lo
+  terminarás.
 
 ## Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde podamos visualizar y manipular data.
+interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
+usuario necesita.
 
 Dicho en palabras sencillas, aprenderás a:
 
-* Entender a los usuarios a través de **entrevistas**
-* Definir qué data y de qué forma mostrar esta data en el producto, basadas en
+* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
+* Entender a los usuarios a través de **entrevistas**.
+* Definir qué data y de qué forma mostrarla en el producto, basándote en
   el **entendimiento del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual**.
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
 * **Manejar eventos del DOM** para permitir filtrado y ordenado.
-* **Trabajar en duplas**??? @rocioalberdi
+* Entender los beneficios y complejidades de **Trabajar en equipo** en un
+ambiente de incertidumbre.
+* Escribir y trabajar con **Historias de Usuario** y sus definiciones de
+terminado en la organización y planificación de tu trabajo.
 
 ## Parte Obligatoria
 
-Los criterios mínimos de aceptación para considerar que has completado este
-proyecto son:
+Los criterios para considerar que has completado este proyecto son:
 
 ### Definición del producto
 
-Debes documentar tu trabajo en el archivo README.md de tu repositorio mostrando
-cómo fue tu proceso de diseño y contando cómo crees que el producto resuelve el
-problema que tiene tu usuario.
+Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
+contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
+el(los) problema(s) que tiene tu usuario.
 
 ### Historias de usuario
 
-Basado en la investigación que hagas sobre las necesidades que tiene el usuario
-y la solución que propones para resolver esta necesidad, debes definir las 
-[historias de usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que describan la funcionalidad de tu solución.
+Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
+de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen todo lo que el usuario necesita hacer/ver. Asegúrate
+de incluir una definición de terminado para cada una.
 
 ### Diseño de la Interfaz de Usuario
 
@@ -161,7 +144,7 @@ Como mínimo, tu implementación debe:
    tablets y desktops.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-igual debe seguir los fundamentos de visual design.
+siga los fundamentos de _visual design_.
 
 ### Pruebas unitarias
 
@@ -441,9 +424,10 @@ trabajo y los demás lo comprendan. -->
 
 ## Evaluación
 
-Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. A
-continuación presentamos los niveles esperados para cada habilidad:
+Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada habilidad y cada nivel. Esta es una
+lista de todas las habilidades involucradas en este proyecto y que evaluaremos
+cuando lo completes:
 
 ### General
 
