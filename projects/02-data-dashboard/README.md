@@ -87,7 +87,7 @@ Estos datos incluyen indicadores demográficos, económicos y comerciales.
 ## Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde podamos visualizar y manipular data, entendiendo lo que el
+interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
 
 Dicho en palabras sencillas, aprenderás a:
@@ -100,7 +100,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
 * **Manejar eventos del DOM** para permitir filtrado y ordenado.
-* Entender los beneficios y coplejidades de **Trabajar en equipo** en un
+* Entender los beneficios y complejidades de **Trabajar en equipo** en un
 ambiente de incertidumbre.
 * Escribir y trabajar con **Historias de Usuario** y sus definiciones de
 terminado en la organización y planificación de tu trabajo.
@@ -118,8 +118,8 @@ el(los) problema(s) que tiene tu usuario.
 
 ### Historias de usuario
 
-Una vez que entiendas las necesidades de tu usuario, escribe todas las historias
-de usuario que representen todo lo que el usuario necesita hacer/ver. Asegúrate
+Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
+de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen todo lo que el usuario necesita hacer/ver. Asegúrate
 de incluir una definición de terminado para cada una.
 
 ### Diseño de la Interfaz de Usuario
