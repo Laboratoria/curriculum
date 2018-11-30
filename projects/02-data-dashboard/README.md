@@ -58,6 +58,9 @@ Estos datos incluyen indicadores demográficos, económicos y comerciales.
 Como entregable final tendrás una página web que permita visualizar la data,
 filtrarla y ordenarla.
 
+Cada set de datos tiene una identidad gráfica que deberás utilizar en la interfaz.
+La identidad gráfica de cada set la podrás encontrar en el siguiente [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
+
 ## Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
@@ -76,10 +79,13 @@ usuario necesita.
 Dicho en palabras sencillas, aprenderás a:
 
 * Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Entender a los usuarios a través de **entrevistas**.
+* Pensar en las necesidades de los usuarios para crear historias de usuario.
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
-  el **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual**.
+  tu del **entendimiento del usuario**.
+* Crear productos que sigan los **principios básicos de diseño visual** y 
+  las **heurísticas de usabilidad**
+* Iterar el diseño del producto, basadandote en los resultados de los
+  **tests de usabilidad.**
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
 * **Manejar eventos del DOM** para permitir filtrado y ordenado.
@@ -101,8 +107,8 @@ el(los) problema(s) que tiene tu usuario.
 ### Historias de usuario
 
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
-de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen todo lo que el usuario necesita hacer/ver. Asegúrate
-de incluir una definición de terminado para cada una.
+de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen todo lo que el usuario necesita hacer/ver. 
+Asegúrate de incluir una definición de terminado para cada una.
 
 ### Diseño de la Interfaz de Usuario
 
@@ -119,13 +125,21 @@ Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotro
 te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
 que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
 embargo, eres libre de utilizar otros editores gráficos como Illustrator,
-Photoshop, PowerPoint, Keynote, etc.
+Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad gráfica
+correspondiente a cada set de datos que elijas.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
-diseño debe seguir los fundamentos de _visual design_, como: contraste,
-alineación, jerarquía, entre otros. Tip: revisa el contenido de UX
-de la unidad de visual design.
+diseño debe seguir los fundamentos de _visual design_. También, deberás exportar
+tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de estilo
+que te dé Zeplin al momento de implementar tus diseños en código.
+
+#### Testeos de usabilidad
+
+Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
+en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
+qué problemas de usabilidad detectaste a través de los tests y cómo los mejoraste
+en tu propuesta final.
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
@@ -616,6 +630,8 @@ variables_, _control de flujo_ y _tests unitarios_.
   `README.md`.
 * [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
+* [ ] Incluye link a Zeplin en `README.md`.
+* [ ] Incluye el listado de problemas que detectaste a través de tests de usabilidad en el `README.md`.
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [ ] UI: Permite filtrar data en base a una condición.
