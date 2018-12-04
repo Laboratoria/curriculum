@@ -45,26 +45,26 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidade 01: [Introducão](01-introduction)
+### Unidade 01: [Introducão](00-introduction)
 
 Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
 de boas vindas começaremos a explicar por que programar e você vai criar sua
 primeira página web !
 
-### Unidade 02: [Conteúdo](02-content)
+### Unidade 02: [Conteúdo](01-content)
 
 Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você
 irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas
 usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais
 interativas.
 
-### Unidade 03: [UX design](03-ux-design)
+### Unidade 03: [UX design](02-ux-design)
 
 Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
 criar seu produto final, é importante que você conheça as técnicas de design da
 experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
-### Unidade 04: [Exercícios](04-exercises)
+### Unidade 04: [Exercícios](03-exercises)
 
 Esta unidade possui exercícios de JavaScript para você praticar e fixar o conteúdo.
 
