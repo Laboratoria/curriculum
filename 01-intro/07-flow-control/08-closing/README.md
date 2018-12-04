@@ -15,8 +15,8 @@
 - Qual a diferença entre um `while` e um `do`?
 - Quais são as 3 partes (sentenças) essenciais de um `for`? De um exemplo
 - Para que utilizamos `break` e `continue` em um `for`? De um exemplo
-- Explique, com uma analogia e com as suas próprias palavras, o que é uma `function` (uma
-  função). Desenhe o conceito de uma função
+- Explique, com uma analogia e com as suas próprias palavras, o que é uma
+  `function` (uma função). Desenhe o conceito de uma função
 - Por que são importantes as funções na programação?
 - O que se entende por `DRY`?
 - O que significa "chamar" a uma função?

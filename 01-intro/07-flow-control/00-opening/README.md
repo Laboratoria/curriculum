@@ -13,7 +13,6 @@ Nsta unidade aprenderemos:
 * Como funcionam e para que servem as `estruturas condicionais`
 * Como funcionam e para que servem as `estruturas repetitivas`
 * O que são as `funções`, como se usam e por que são essenciais para a programação
-  
 
 ***
 
@@ -25,9 +24,9 @@ que devemos prestar especial atenção.
 
 A seguir te apresentamos uma série de perguntas que você deve ser capaz de
 responder ao terminar esta unidade. Utilize estas perguntas como guia para
-orientar os seus esforços de aprendizagem. Revisite este conteúdo constantemente à medida
-que avance, pois assim poderá validar se está avançando na direção correta. Isto te
-servirá como um "checklist" conforme você avança:
+orientar os seus esforços de aprendizagem. Revisite este conteúdo constantemente
+à medida que avance, pois assim poderá validar se está avançando na direção
+correta. Isto te servirá como um "checklist" conforme você avança:
 
 * Por que modificar o controle de fluxo de um programa?
 * Quais são as formas de modificar o fluxo de um programa? Desenhe uma

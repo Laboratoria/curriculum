@@ -24,15 +24,16 @@ Nick Morgan, 2015;
 
 ## DRY
 
-Na programação, existe um conceito que você escutará mais de uma vez. Ele diz o seguinte:
+Na programação, existe um conceito que você escutará mais de uma vez. Ele diz o
+seguinte:
 _"Don't Repeat Yourself"_, e é comumente conhecido como `DRY`. Em português
-significa _"não se repita"_. Se você estiver copiando e colando pedaços de código, ou se
-tiver sentenças de código similares ao longo do seu programa, significa que
+significa _"não se repita"_. Se você estiver copiando e colando pedaços de código,
+ou se tiver sentenças de código similares ao longo do seu programa, significa que
 você está se repetindo. Já vimos este conceito em prática com o uso de
 `estruturas repetitivas` (loop): ao invés de ter um mesmo bloco de código
-repetido, você pode sustituí-lo por um `for` ou um `while`. Com as funções você pode
-alcançar o mesmo objetivo. Vejamos quais são as `funções`, como usá-las e por
-que são importantes.
+repetido, você pode sustituí-lo por um `for` ou um `while`. Com as funções você
+pode alcançar o mesmo objetivo. Vejamos quais são as `funções`, como usá-las e
+por que são importantes.
 
 ## O que é uma função?
 
@@ -52,15 +53,16 @@ são de fato funções.
 As funções são o pão de cada dia na programação com JavaScript.
 
 A aplicação mais óbvia das funções é a de definir um novo vocabulário.
-Criar novas palavras em uma linguagem humana comum (como o português, inglês ou o espanhol)
-é tipicamente algo de mal gosto. Contudo, na programação isto é
+Criar novas palavras em uma linguagem humana comum (como o português, inglês ou
+o espanhol) é tipicamente algo de mal gosto. Contudo, na programação isto é
 indispensável.
 
 Um adulto médio possui umas 20.000 palavras em seu vocabulário. Poucas linguagens
 de programação possuem 20.000 comandos incorporados. E o vocabulário que
-está disponível na programação tende a ser definido de forma mais precisa, e portanto menos
-flexível que em uma linguagem humana. Como consequência, usualmente _precisamos_ 
-agregar algo do nosso próprio vocabulário para evitar muitas repetições.
+está disponível na programação tende a ser definido de forma mais precisa, e
+portanto menos flexível que em uma linguagem humana. Como consequência,
+usualmente _precisamos_ agregar algo do nosso próprio vocabulário para evitar
+muitas repetições.
 
 Agrupando fragmentos de código em uma função com um **nome fácil de
 entender** (dado que será parte do vocabulário que você está construindo) podemos
@@ -68,7 +70,7 @@ estruturar melhor nosso código. Isto porque nos enfocamos em organizar as
 funções, ao invés de cada linha de código que as compõem. Ao dividir nosso
 código em peças menores e portanto mais fáceis de lidar, podemos ter uma
 visão mais completa do que estamos fazendo. Nos permite elevar-nos a um nível
-superior de abstração. Como diz o ditado: podemos visualizar a floresta 
+superior de abstração. Como diz o ditado: podemos visualizar a floresta
 completa, vendo além das árvores.
 
 ## Definindo uma função
@@ -86,11 +88,11 @@ var square = function(num) {
 
 Uma função é criada por uma expressão que começa com o keyword `function`.
 As funções possuem um conjunto de _parâmetros_ (no exemplo anterior só
-  temos **um** parâmetro: `num`) e um _corpo_, que contêm as sentenças a
-  serem executadas. Os parâmetros servem para "transmitir" valores à função e,
-  assim, mudar seu comportamento segundo os valores oferecidos. O corpo da
-  função precisa estar sempre fechado em chaves, inclusive quando
-  houver uma única instrução (como no exemplo anterior).
+temos **um** parâmetro: `num`) e um _corpo_, que contêm as sentenças a
+serem executadas. Os parâmetros servem para "transmitir" valores à função e,
+assim, mudar seu comportamento segundo os valores oferecidos. O corpo da
+função precisa estar sempre fechado em chaves, inclusive quando
+houver uma única instrução (como no exemplo anterior).
 
 ## Chamando uma função
 

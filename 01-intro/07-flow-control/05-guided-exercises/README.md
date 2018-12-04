@@ -14,12 +14,13 @@
 
 ## Enunciados
 
-A seguir você encontrará mais problemas de prática. 
+A seguir você encontrará mais problemas de prática.
 
-Sugerimos que você tente resolver os exercícios por sua própria cuenta (ou em equipe)
-**antes** da sessão presencial com os mentores em sala. Assim, você já vem com dúvidas específicas e
-estará familiarizada com os desafios. Talvez, você mesma poderá apresentar a sua solução
-frente à sala e assim ajudar suas companheiras :)
+Sugerimos que você tente resolver os exercícios por sua própria cuenta (ou em
+equipe) **antes** da sessão presencial com os mentores em sala. Assim, você já
+vem com dúvidas específicas e
+estará familiarizada com os desafios. Talvez, você mesma poderá apresentar a sua
+solução frente à sala e assim ajudar suas companheiras :)
 
 ### 1. Funções matemáticas
 
@@ -31,8 +32,9 @@ funções, resolva este simples problema matemático: 36325 * (9824 + 777).
 ### 2. Organizando comida
 
 Imagine que você está pedindo comida em um restaurante. O seu prato favorito é
-`ceviche` e por isso você o escolheria se houvesse no menú. Se não houver `ceviche`,
-escolheria `tacos al pastor`. Se este último não houver, você então pediria `empanada chilena`.
+`ceviche` e por isso você o escolheria se houvesse no menú. Se não houver
+`ceviche`, escolheria `tacos al pastor`. Se este último não houver, você então
+pediria `empanada chilena`.
 No caso raro que nenhuma destas opções esteja disponível, você iria por um
 `hamburguer`. Escreva uma função, que de acordo com a disponibilidade dos
 pratos no menú, você decida o que pedir.

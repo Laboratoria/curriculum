@@ -53,7 +53,8 @@ primeira página web !
 
 ### Unidade 02: [HTML](02-html)
 
-Para criar um produto da Web interativo, precisamos primeiro aprender como projetar. Nesta unidade vamos ver como criar a estrutura de um site com `html`.
+Para criar um produto da Web interativo, precisamos primeiro aprender como
+projetar. Nesta unidade vamos ver como criar a estrutura de um site com `html`.
 
 ### Unidade 03: [CSS: introdução](03-css)
 
@@ -65,7 +66,9 @@ Durante essa unidade aprenderemos a estilizar as nossas páginas utilizando `css
 
 ### Unidade 05: [UX design](05-ux-design)
 
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a criar seu produto final, é importante que você conheça as técnicas de design da experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
+Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
+criar seu produto final, é importante que você conheça as técnicas de design da
+experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
 ### Unidade 06: [JS: variáveis e tipos de dados ](06-variables-and-data-types)
 
