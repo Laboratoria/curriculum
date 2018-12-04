@@ -27,23 +27,23 @@ A razão pela qual criamos programas de computador é para **resolver
 problemas**. Um programa, como vimos, é simplemente um conjunto de
 "instruções" que os computadores seguem. Esse conjunto de instruções
 resolve um problema. Até agora, aprendemos a obter, representar,
-manipular e armazenar dados em `variáveis`. Com isso, conseguimos 
-criar programas que resolvem problemas muito simples. Este é o caso, por exemplo,
-do programa que fizemos para transformar a temperatura de graus Celsius (°C) 
-para Farenheit (°F). No entanto, para criar programas mais complexos, 
-é necessário expandir nosso conhecimento sobre o _controle de fluxo de um programa_ 
-e as estruturas existentes para modificar esse fluxo.
+manipular e armazenar dados em `variáveis`. Com isso, conseguimos criar programas
+que resolvem problemas muito simples. Este é o caso, por exemplo, do programa que
+fizemos para transformar a temperatura de graus Celsius (°C) para Farenheit (°F).
+No entanto, para criar programas mais complexos, é necessário expandir nosso
+conhecimento sobre o _controle de fluxo de um programa_ e as estruturas existentes
+para modificar esse fluxo.
 
-Para usar a terminologia correta de JavaScript, a partir de agora, 
-substituiremos a palavra "instruções" pela palavra "sentenças". 
-Uma instrução JavaScript é o equivalente a uma sentença em linguagem humana. 
-Entendemos, portanto, que um programa em JavaScript é uma lista de "instruções 
+Para usar a terminologia correta de JavaScript, a partir de agora,
+substituiremos a palavra "instruções" pela palavra "sentenças".
+Uma instrução JavaScript é o equivalente a uma sentença em linguagem humana.
+Entendemos, portanto, que um programa em JavaScript é uma lista de "instruções
 JavaScript", isto é, um conjunto de sentenças que informa ao computador o que fazer.
 
 ### 1. Fluxo em linha reta
 
 Quando um programa contém mais de uma frase, elas são executadas de cima para baixo,
-uma por uma. Por exemplo, o programa a seguir tem três sentenças: a primeira 
+uma por uma. Por exemplo, o programa a seguir tem três sentenças: a primeira
 declara uma variável chamada `name` com o valor do string 'Michelle'; a segunda exibe
 no terminal uma mensagem de saudação personalizada: "Olá Michelle";
 e a terceira exibe "Que nome longo você tem!".
@@ -62,23 +62,23 @@ Uma representação trivial esquemática de um fluxo de controle direto seria:
 
 ### 2. Fluxo condicional
 
-A execução de frases em linha reta não é a única opção que temos. 
-Uma alternativa é a execução condicional, em que escolhemos entre duas rotas 
+A execução de frases em linha reta não é a única opção que temos.
+Uma alternativa é a execução condicional, em que escolhemos entre duas rotas
 diferentes com base em um valor `Boolean`, assim:
 
-![Flujo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
+![Fluxo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
 
 A execução condicional é escrita com a palavra-chave `if` en JavaScript. A
-instrução `if` é a mais simples das estruturas de controle dessa linguagem. 
-Ela é usada para executar código se, e somente se, uma condição for verdadeira. 
-Uma condicional diz: "Se algo é verdade, faça isso". Por exemplo, se você 
+instrução `if` é a mais simples das estruturas de controle dessa linguagem.
+Ela é usada para executar código se, e somente se, uma condição for verdadeira.
+Uma condicional diz: "Se algo é verdade, faça isso". Por exemplo, se você
 fez sua lição de casa, recebe um sorvete, mas se você não fez sua lição, não o recebe.
 
-Como o exemplo abaixo mostra, uma sentença `if` em duas partes principais: 
+Como o exemplo abaixo mostra, uma sentença `if` em duas partes principais:
 a condição e o corpo. A condição deve ser um valor `Boolean`
-entre parênteses. O corpo consiste em uma ou mais instruções JavaScript 
-que serão executadas se, e somente se, a condição for verdadeira (`Boolean` igual a
-`true`).
+entre parênteses. O corpo consiste em uma ou mais instruções JavaScript
+que serão executadas se, e somente se, a condição for verdadeira (`Boolean` igual
+a `true`).
 
 ```js
 if (condição) {
@@ -87,16 +87,16 @@ if (condição) {
 ```
 
 Quando precisamos executar várias instruções, podemos colocá-las entre chaves
-({ y }). As chaves agrupam as sentenças, tornando-as apenas uma. Uma sequência 
-de sentenças entre chaves é chamada de **bloco** (de código). Muitos programadores 
-JavaScript incluem chaves em todo corpo de  `if` (e nos loops, como você verá mais adiante). 
-Eles fazem isso em nome da consistência e para não ter que adicionar ou remover 
-as chaves quando o número de sentenças no corpo mudar. Outros, valorizam a brevidade 
-e no caso do `if` não utilizam as chaves. Neste curso, sempre usaremos as chaves 
-para nos ajudar a organizar nosso código.
+({ }). As chaves agrupam as sentenças, tornando-as apenas uma. Uma sequência
+de sentenças entre chaves é chamada de **bloco** (de código). Muitos programadores
+JavaScript incluem chaves em todo corpo de  `if` (e nos loops, como você verá
+mais adiante). Eles fazem isso em nome da consistência e para não ter que
+adicionar ou remover as chaves quando o número de sentenças no corpo mudar.
+Outros, valorizam a brevidade e no caso do `if` não utilizam as chaves. Neste
+curso, sempre usaremos as chaves para nos ajudar a organizar nosso código.
 
-Vamos voltar ao exemplo anterior e adicionar uma condição antes da frase que imprime 
-a segunda mensagem:
+Vamos voltar ao exemplo anterior e adicionar uma condição antes da frase que
+imprime a segunda mensagem:
 
 ```js
 var name = 'Michelle';
@@ -108,10 +108,10 @@ if (name.length > 7) {
 //           Que nome longo você tem!
 ```
 
-Com esta modificação, antes de imprimir no terminal a segunda mensagem 
+Com esta modificação, antes de imprimir no terminal a segunda mensagem
 ('Que nome longo você tem!'), o programa verifica se o tamanho da string
-`name` é maior que 7. Se sim, a segunda mensagem é impressa. Caso contrário, 
-essa sentença não é executada. Neste caso, como Michelle tem 8 caracteres, 
+`name` é maior que 7. Se sim, a segunda mensagem é impressa. Caso contrário,
+essa sentença não é executada. Neste caso, como Michelle tem 8 caracteres,
 a condição é `true`. Portanto, a segunda mensagem é impressa.
 
 Vamos mudar um pouco este exemplo, modificando o valor de `name` para 'Ana'.
@@ -127,15 +127,15 @@ if (name.length > 7) {
 
 Nesta ocasião, a condição **não** é `true` (é `false`) porque o comprimento
 do nome é 3, que **não** é maior que 7. Portanto, o corpo do `if`
-**não** se executa. Desta forma, apenas a primeira mensagem 'Olá Ana' 
-é executada. 
+**não** se executa. Desta forma, apenas a primeira mensagem 'Olá Ana'
+é executada.
 
 #### _Sentença `if... else`_
 
-Muitas vezes, você não só terá o código que é executado quando uma condição 
+Muitas vezes, você não só terá o código que é executado quando uma condição
 é verdadeira, mas também quando acontece o outro caso. Esse caminho alternativo
-é representado pela segunda seta no diagrama de fluxo. A palavra-chave 
-`else` pode ser usada, junto com `if`, para criar dois caminhos de execução 
+é representado pela segunda seta no diagrama de fluxo. A palavra-chave
+`else` pode ser usada, junto com `if`, para criar dois caminhos de execução
 separados e alternativos.
 
 Adicionemos uma sentença `else` ao nosso exemplo:
@@ -154,14 +154,13 @@ if (name.length > 7) {
 ```
 
 Como você pode ver, o resultado deste caso é similar ao anterior, mas se `name`
-**não** tiver um comprimento maior que 7, existe uma "mensagem alternativa" 
+**não** tiver um comprimento maior que 7, existe uma "mensagem alternativa"
 que é executada.
 
-Como o exemplo abaixo mostra, as sentenças `if ... else` são semelhantes às sentenças
-`if`, mas incluem dois corpos. Se a condição é 
-`true`, as sentenças do primeiro corpo são executadas; 
-caso contrário, as sentenças do segundo corpo são executadas.
-
+Como o exemplo abaixo mostra, as sentenças `if ... else` são semelhantes à
+sentenças `if`, mas incluem dois corpos. Se a condição é `true`, as sentenças do
+primeiro corpo são executadas; caso contrário, as sentenças do segundo corpo são
+executadas.
 
 ```js
 if (condição) {
@@ -171,7 +170,7 @@ if (condição) {
 }
 ```
 
-Se tivermos mais de dois caminhos para escolher, vários pares if... else 
+Se tivermos mais de dois caminhos para escolher, vários pares if... else
 podem ser "encadeados". Aqui está um exemplo:
 
 ```js
@@ -188,19 +187,20 @@ else {
 }
 ```
 
-O programa primeiro verificará se `num` é menor que 10. Se for, ele escolhe esse caminho, 
-mostra "Você digitou um número pequeno" em uma caixa de alerta e termina. 
-Se não for, toma o caminho do  `else`, que em si mesmo contém um segundo `if`. Se a
-segunda condição (< 100) for atendida, significa que o número está entre 10 e 100, 
-e "Você digitou um número médio" é exibido em uma caixa de alerta. 
-Se não for, o segundo e último `else` é escolhido, mostrando "Você digitou um número grande".
+O programa primeiro verificará se `num` é menor que 10. Se for, ele escolhe esse
+caminho, mostra "Você digitou um número pequeno" em uma caixa de alerta e termina.
+Se não for, toma o caminho do  `else`, que em si mesmo contém um segundo `if`.
+Se a segunda condição (< 100) for atendida, significa que o número está entre 10
+e 100, e "Você digitou um número médio" é exibido em uma caixa de alerta.
+Se não for, o segundo e último `else` é escolhido, mostrando "Você digitou um
+número grande".
 
 O fluxograma deste programa é algo assim:
 
 ![Flujo condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 
-Vamos ver outro exemplo da aplicação da sentença  `if...else`. Desta vez, com um vídeo
-de outra excelente professora da Laboratoria, Alexandra :)
+Vamos ver outro exemplo da aplicação da sentença  `if...else`. Desta vez, com um
+vídeo de outra excelente professora da Laboratoria, Alexandra :)
 
 [![ejercicio guiado if...else JS for Kids pg 94](https://img.youtube.com/vi/-rNwUIEQJnc/0.jpg)](https://www.youtube.com/watch?v=-rNwUIEQJnc)
 
@@ -223,9 +223,9 @@ else {
 }
 ```
 
-Existe uma estrutura chamada `switch` que serve para "decidir" de maneira mais 
-direta. Infelizmente, a sintaxe que o JavaScript usa para isso (que é herdada 
-da linha da linguagem de programação C/Java) é um pouco estranha. Uma sequência 
+Existe uma estrutura chamada `switch` que serve para "decidir" de maneira mais
+direta. Infelizmente, a sintaxe que o JavaScript usa para isso (que é herdada
+da linha da linguagem de programação C/Java) é um pouco estranha. Uma sequência
 de frases `if` geralmente parece melhor. Aqui está um exemplo:
 
 ```js
@@ -246,13 +246,13 @@ switch (prompt('Como está o clima?')) {
 
 Você pode colocar qualquer número de etiquetas `case` dentro do bloco `switch`.
 O programa irá pular para o rótulo correspondente ao valor que foi dado ao
-`switch` ou ao default se não houver nenhum valor igual. Daí, eles começam a 
-executar as sentenças, incluindo os abaixo de outro rótulo, até que uma sentença 
+`switch` ou ao default se não houver nenhum valor igual. Daí, eles começam a
+executar as sentenças, incluindo os abaixo de outro rótulo, até que uma sentença
 `break` seja alcançada (o que em português significa "pare").
 
-Em alguns casos, como no caso de "ensolarado" no exemplo, é possível compartilhar 
-o código entre os casos (é recomendado ir ao ar livre tanto para tempo ensolarado 
-quanto nublado). Mas cuidado: é fácil esquecer o break, o que fará com que o programa 
+Em alguns casos, como no caso de "ensolarado" no exemplo, é possível compartilhar
+o código entre os casos (é recomendado ir ao ar livre tanto para tempo ensolarado
+quanto nublado). Mas cuidado: é fácil esquecer o break, o que fará com que o programa
 execute um código que você não deseja executar.
 
 A seguir, Michelle ajuda você a entender esse caso um pouco melhor:
@@ -283,11 +283,11 @@ console.log(12);
 //   … etcetera
 ```
 
-Isso funciona, mas a ideia de escrever um programa é trabalhar menos, e não mais. Se
-necessitamos todos os números menores que 1,000, o modo anterior seria impossível de
-trabalhar. O que necessitamos é uma forma de repetir partes de código. Esta forma
-de **controle de fluxo** é chamada loop. O controle de fluxo por loops nos
-permite voltar a certo ponto no programa em que estivemos antes e
+Isso funciona, mas a ideia de escrever um programa é trabalhar menos, e não mais.
+Se necessitamos todos os números menores que 1,000, o modo anterior seria
+impossível de trabalhar. O que necessitamos é uma forma de repetir partes de
+código. Esta forma de **controle de fluxo** é chamada loop. O controle de fluxo
+por loops nos permite voltar a certo ponto no programa em que estivemos antes e
 repetí-lo com nosso estado atual, como descreve o seguinte diagrama:
 
 ![Fluxo loop](http://eloquentjavascript.net/img/controlflow-loop.svg)
@@ -310,7 +310,7 @@ que a condição eventualmente seja falsa. Do contrário, criaria um
 ciclo infinito que nunca termina, e isto usualmente é ruim.
 
 ```js
-while (condición) {
+while (condição) {
   // Conjunto de sentenças, onde
   // se inclui algo que "muda" para
   // que a condição eventualmente seja FALSA
@@ -494,7 +494,8 @@ loop termine. Podemos usar a sentença especial `break`, utilizada en
 fechando.
 
 O programa a seguir ilustra o uso da sentença `break` para sair de um
-loop. Queremos fazer um programa que encontre o primeiro número que é maior ou igual a 20 e divisível por 7.
+loop. Queremos fazer um programa que encontre o primeiro número que é maior ou
+igual a 20 e divisível por 7.
 
 ```js
 for (var current = 20; current++) {

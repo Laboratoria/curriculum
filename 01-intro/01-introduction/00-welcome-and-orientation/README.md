@@ -21,7 +21,6 @@ forma independente.
 
 A duração aproximada do curso é de 15-20 horas. Você pode avançar conforme o seu
 ritmo, mas recomendamos que organize o seu tempo para ir fazendo gradualmente.
-Você tem até dia xxx para terminar.
 
 Nele pedimos que veja vídeos e faça leituras básicas sobre os temas que vai
 estudar durante o bootcamp. Estas informações vão te ajudar fazer alguns
@@ -92,45 +91,3 @@ sua carreira no mundo da tecnologia.
 
 Nenhum conhecimento prévio de programação é necessário para concluir este curso.
 Ele foi desenhado para iniciantes.
-
-<!-- ## Syllabus
-
-Este pré-trabalho tem 2 unidades principais:
-
-### Módulo 1: Introdução
-
-Queremos que você aprenda a programar, e para isso, iremos te passar mais
-informações sobre como, através da programação, pode transformar o seu futuro.
-Além disso,  nós vamos dar algumas dicas para aprender a aprender. Depois disso,
-vamos mostrar-lhe como criar o seu primeiro site!
-
-* Sessão 1: Leitura
-  - Unidad 1: Boas-vindas e orientação
-* Sesión 2: Leitura
-  - Unidad 1: Growth Mindset
-* Sesión 3: Leitura
-  - Unidad 1: O que é programação e por quê aprender a programar?
-* Sesión 4: Leitura
-  - Unidad 1: Seu primeiro site
-* Sesión 5: Teste
-  - Unidad 1: Teste o seu conhecimento
-
-### Módulo 2: Variáveis e Tipos de Dados
-
-O segundo módulo vai detalhar melhor alguns conceitos básicos de programação,
-como são as variáveis, os tipos de dados e os operadores.
-
-* Sessão 1: Leitura
-  - Unidad 2: Valores, tipos de dados e operadores
-* Sesión 2: Leitura
-  - Unidad 2: Variáveis
-* Sesión 3: Leitura
-  - Unidad 2: Manipulando strings e numbers
-* Sesión 4: Leitura
-  - Unidad 2: Comentários em JavaScript
-* Sesión 5: Seminário
-  - Unidad 2: Praticando com exercícios de variáveis e tipos de dados
-* Sesión 6: Teste
-  - Unidad 2: Teste o seu conhecimento
-* Sesión 7: Praticar
-  - Unidad 2: Exercícios -->

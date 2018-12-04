@@ -6,7 +6,7 @@
 
 ## Objetivos do aprendizado
 
-* Entender o que é Growth Mindset (mentalidade de crescimento )  e adotá-la
+* Entender o que é Growth Mindset (mentalidade de crescimento)  e adotá-la
   antes de iniciar este curso.
 
 ***

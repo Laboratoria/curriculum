@@ -54,9 +54,10 @@ Passar este `string` a console.log deve mostrar algo assim:
 # # # #
 ```
 
-Quando você tiver um programa que gere este padrão, defina uma variável `size` = 8
-e mude o programa de tal forma que trabalhe para qualquier tamanho, que seja
-proporcionado por um `prompt()` produzindo um quadrado com as medidas indicadas.
+Quando você tiver um programa que gere este padrão, defina uma variável
+`size` = 8 e mude o programa de tal forma que trabalhe para qualquier tamanho,
+que seja proporcionado por um `prompt()` produzindo um quadrado com as medidas
+indicadas.
 
 ## Gabaritos
 

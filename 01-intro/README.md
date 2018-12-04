@@ -45,18 +45,28 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidad 01: [Introducão](01-introduction)
+### Unidade 01: [Introducão](01-introduction)
 
 Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
 de boas vindas começaremos a explicar por que programar e você vai criar sua
 primeira página web !
 
-### Unidad 02: [Valores, tipos de dados e operadores](02-variables-and-data-types)
+### Unidade 02: [Conteúdo](02-content)
 
-Aprenda a usar variáveis ​​para armazenar informações que mudam conforme você
-programa e os diferentes tipos de dados em JavaScript.
+Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você
+irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas
+usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais
+interativas.
 
-### Unidad 03: [Controle de Fluxo](04-flow-control)
+### Unidade 03: [UX design](03-ux-design)
+
+Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
+criar seu produto final, é importante que você conheça as técnicas de design da
+experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
+
+### Unidade 04: [Exercícios](04-exercises)
+
+Esta unidade possui exercícios de JavaScript para você praticar e fixar o conteúdo.
 
 ...
 

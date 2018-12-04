@@ -50,7 +50,7 @@ que diz, vamos explicar passo a passo mais abaixo):
 Ao abrir este mesmo documento HTML em um navegador (como o Chrome), vemos o
 seguinte:
 
-![Vista en Chrome](https://user-images.githubusercontent.com/25912510/37315484-fdd43c6e-2627-11e8-835d-1b7b71a7913b.png)
+![Visualizar no Chrome](https://user-images.githubusercontent.com/25912510/37315484-fdd43c6e-2627-11e8-835d-1b7b71a7913b.png)
 
 O navegador “lê” o arquivo HTML (o texto e os marcadores) e o apresenta de acordo
 com as regras da linguagem. Por exemplo, o texto que está entre esses marcadores
@@ -71,11 +71,11 @@ para resolver os exercícios:
 No próximo vídeo a Thaissa te guiará pelos seguintes passos para que você crie
 a sua primeira página:
 
-1. Baixe o editor de texto: [Descargar](https://atom.io/). Se houver algum
+1. Baixe o editor de texto: [Atom](https://atom.io/). Se houver algum
    problema e não conseguir baixá-lo, tente outro editor de texto, o Sublime
    Text. Há versões deste para Mac e Windows. TEmbora a Thaissa se baseie no
    Atom para dar suas explicações, esteja ciente de que o mesmo pode ser feito
-   através do Sublime Text. [Descarga Sublime](https://www.sublimetext.com/3)
+   através do Sublime Text. [Sublime](https://www.sublimetext.com/3)
 2. Crie um documento HTML chamado `index.html`
 3. Utilize alguns elementos HTML no documento (como um cabeçalho e um parágrafo)
 4. Salve o documento HTML
@@ -93,8 +93,8 @@ terminam com um `marcador final`. Por exemplo, no arquivo anterior temos o
 elemento `p`, que começa com o marcador inicial `<p>` e termina com o marcador
 final `</p>`. O texto entre tais marcadores é o _conteúdo_ do elemento `p`.
 
-> El elemento `p` (párrafo) como ejemplo:
-![Ejemplo etiqueta](https://user-images.githubusercontent.com/25912510/37315511-1c0f070e-2628-11e8-8935-928fb17d6747.png)
+> O elemento `p` (parágrafo) por exemplo:
+![Exemplo de tag](https://user-images.githubusercontent.com/25912510/37315511-1c0f070e-2628-11e8-8935-928fb17d6747.png)
 
 Façamos uma breve análise de todos os elementos do nosso documento:
 

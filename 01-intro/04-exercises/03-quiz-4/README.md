@@ -198,7 +198,7 @@ console.log(medalForScore(3));
 
 <solution style="display:none;">2</solution>
 
-### 11) Uma função pode retornar múltiplos valores ao mesmo tempo.
+### 11) Uma função pode retornar múltiplos valores ao mesmo tempo
 
 #### Opções
 
