@@ -53,7 +53,10 @@ primeira página web !
 
 ### Unidade 02: [Conteúdo](02-content)
 
-Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais interativas.
+Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você
+irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas
+usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais
+interativas.
 
 ### Unidade 03: [UX design](03-ux-design)
 
