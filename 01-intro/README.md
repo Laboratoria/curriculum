@@ -70,7 +70,7 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
 criar seu produto final, é importante que você conheça as técnicas de design da
 experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
-### Unidade 06: [JS: variáveis e tipos de dados ](06-variables-and-data-types)
+### Unidade 06: [JS: variáveis e tipos de dados](06-variables-and-data-types)
 
 Aprenda a usar variáveis ​​para armazenar informações que mudam conforme você
 programa e os diferentes tipos de dados em JavaScript.
