@@ -66,7 +66,7 @@ A execução de frases em linha reta não é a única opção que temos.
 Uma alternativa é a execução condicional, em que escolhemos entre duas rotas
 diferentes com base em um valor `Boolean`, assim:
 
-![Flujo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
+![Fluxo condicional](http://eloquentjavascript.net/img/controlflow-if.svg)
 
 A execução condicional é escrita com a palavra-chave `if` en JavaScript. A
 instrução `if` é a mais simples das estruturas de controle dessa linguagem.
@@ -87,7 +87,7 @@ if (condição) {
 ```
 
 Quando precisamos executar várias instruções, podemos colocá-las entre chaves
-({ y }). As chaves agrupam as sentenças, tornando-as apenas uma. Uma sequência
+({ }). As chaves agrupam as sentenças, tornando-as apenas uma. Uma sequência
 de sentenças entre chaves é chamada de **bloco** (de código). Muitos programadores
 JavaScript incluem chaves em todo corpo de  `if` (e nos loops, como você verá
 mais adiante). Eles fazem isso em nome da consistência e para não ter que
@@ -310,7 +310,7 @@ que a condição eventualmente seja falsa. Do contrário, criaria um
 ciclo infinito que nunca termina, e isto usualmente é ruim.
 
 ```js
-while (condición) {
+while (condição) {
   // Conjunto de sentenças, onde
   // se inclui algo que "muda" para
   // que a condição eventualmente seja FALSA

@@ -16,7 +16,7 @@ O texto abaixo é uma tradução para o português, com alguns ajustes, do capí
 1 do [JavaScript for crianças,](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015.
 
-## ¿O que é programação?
+## O que é programação?
 
 Os computadores são incrivelmente poderosos, máquinas capazes de realizar feitos
 incríveis, como jogar xadrez competitivo, ter milhares de páginas da internet ou
@@ -85,7 +85,7 @@ Carol (Perú)
 > Carol trabalha como desenvolvedora web em 54 solutions, uma agência de mídia
 > digital com um ambiente de trabalho positivo, e ganha mais do que nunca.
 
-## ¿O que é JavaScript?
+## O que é JavaScript?
 
 Computadores são tão bobos que não podemos dar nossas instruções em Inglês,
 Espanhol ou qualquer outra língua falada. Nós temos que escrever nossos programas
@@ -99,7 +99,7 @@ responder quando um usuário clica em um botão ou move o mouse. Sites como Gmai
 Facebook e Twitter usam o JavaScript para facilitar o envio de e-mail, postar
 comentários ou navegar em sites.
 
-## ¿Por que JavaScript?
+## Por que JavaScript?
 
 JavaScript não é a única linguagem de programação que existe - na verdade,
 existem literalmente centenas de linguagens de programação. Mas há muitas razões

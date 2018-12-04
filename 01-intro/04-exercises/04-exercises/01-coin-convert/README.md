@@ -6,9 +6,9 @@ para reais, pesos mexicanos e pesos chilenos.
 Use as seguintes taxas de câmbio:
 
 ```js
-reais = dólares * 3.25
-pesosMexicanos = dólares * 18
-pesosChilenos = dólares * 660
+reais = dolares * 3.25
+pesosMexicanos = dolares * 18
+pesosChilenos = dolares * 660
 ```
 
 Exemplo

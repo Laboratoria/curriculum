@@ -51,33 +51,19 @@ Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
 de boas vindas começaremos a explicar por que programar e você vai criar sua
 primeira página web !
 
-### Unidade 02: [HTML](02-html)
+### Unidade 02: [Conteúdo](02-content)
 
-Para criar um produto da Web interativo, precisamos primeiro aprender como
-projetar. Nesta unidade vamos ver como criar a estrutura de um site com `html`.
+Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais interativas.
 
-### Unidade 03: [CSS: introdução](03-css)
-
-Durante essa unidade aprenderemos a estilizar as nossas páginas utilizando `css`.
-
-### Unidade 04: [CSS: display e box model](04-box-model-and-display)
-
-Durante essa unidade aprenderemos a estilizar as nossas páginas utilizando `css`.
-
-### Unidade 05: [UX design](05-ux-design)
+### Unidade 03: [UX design](03-ux-design)
 
 Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
 criar seu produto final, é importante que você conheça as técnicas de design da
 experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
-### Unidade 06: [JS: variáveis e tipos de dados](06-variables-and-data-types)
+### Unidade 04: [Exercícios](04-exercises)
 
-Aprenda a usar variáveis ​​para armazenar informações que mudam conforme você
-programa e os diferentes tipos de dados em JavaScript.
-
-### Unidade 07: [Controle de Fluxo](07-flow-control)
-
-Nesta unidade você irá aprender a controlar o fluxo do seu código.
+Esta unidade possui exercícios de JavaScript para você praticar e fixar o conteúdo.
 
 ...
 
