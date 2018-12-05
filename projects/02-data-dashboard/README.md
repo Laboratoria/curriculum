@@ -43,8 +43,12 @@ ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
-* Indicadores de desarrollo del Banco Mundial de alguno de estos países:  [Brasil](https://datos.bancomundial.org/pais/brasil), [Chile](https://datos.bancomundial.org/pais/chile), [México](https://datos.bancomundial.org/pais/mexico) y [Perú](https://datos.bancomundial.org/pais/peru).
-Estos datos incluyen indicadores demográficos, económicos y comerciales.
+* Indicadores de desarrollo del Banco Mundial de alguno de estos países:
+  [Brasil](https://datos.bancomundial.org/pais/brasil),
+  [Chile](https://datos.bancomundial.org/pais/chile),
+  [México](https://datos.bancomundial.org/pais/mexico) y
+  [Perú](https://datos.bancomundial.org/pais/peru). Estos datos incluyen
+  indicadores demográficos, económicos y comerciales.
 * [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
   En este set encontrarás una lista con los 151 Pokémones de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
@@ -58,8 +62,9 @@ Estos datos incluyen indicadores demográficos, económicos y comerciales.
 Como entregable final tendrás una página web que permita visualizar la data,
 filtrarla y ordenarla.
 
-Cada set de datos tiene una identidad gráfica que deberás utilizar en la interfaz.
-La identidad gráfica de cada set la podrás encontrar en el siguiente [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
+Cada set de datos tiene una identidad gráfica que deberás utilizar en la
+interfaz. La identidad gráfica de cada set la podrás encontrar en el siguiente
+[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## Consideraciones generales
 
@@ -82,7 +87,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Pensar en las necesidades de los usuarios para crear historias de usuario.
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
   tu del **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y 
+* Crear productos que sigan los **principios básicos de diseño visual** y
   las **heurísticas de usabilidad**
 * Iterar el diseño del producto, basadandote en los resultados de los
   **tests de usabilidad.**
@@ -90,9 +95,9 @@ Dicho en palabras sencillas, aprenderás a:
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
 * **Manejar eventos del DOM** para permitir filtrado y ordenado.
 * Entender los beneficios y complejidades de **Trabajar en equipo** en un
-ambiente de incertidumbre.
+  ambiente de incertidumbre.
 * Escribir y trabajar con **Historias de Usuario** y sus definiciones de
-terminado en la organización y planificación de tu trabajo.
+  terminado en la organización y planificación de tu trabajo.
 
 ## Parte Obligatoria
 
@@ -107,8 +112,9 @@ el(los) problema(s) que tiene tu usuario.
 ### Historias de usuario
 
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
-de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen todo lo que el usuario necesita hacer/ver. 
-Asegúrate de incluir una definición de terminado para cada una.
+de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
+todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
+de terminado para cada una.
 
 ### Diseño de la Interfaz de Usuario
 
@@ -131,21 +137,22 @@ correspondiente a cada set de datos que elijas.
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
 diseño debe seguir los fundamentos de _visual design_. También, deberás exportar
-tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de estilo
-que te dé Zeplin al momento de implementar tus diseños en código.
+tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
+estilo que te dé Zeplin al momento de implementar tus diseños en código.
 
 #### Testeos de usabilidad
 
 Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
 en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los mejoraste
-en tu propuesta final.
+qué problemas de usabilidad detectaste a través de los tests y cómo los
+mejoraste en tu propuesta final.
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
 Como mencionamos, **no** es necesario que construyas la interfaz tal como la
-diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás priorizar.
+diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás
+priorizar.
 
 Como mínimo, tu implementación debe:
 
@@ -177,7 +184,8 @@ _functions_ y _lines_, y _branches_.
 
 Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
 e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click, filtrado, ordenado, ...).
+`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
+filtrado, ordenado, ...).
 
 ## Parte Opcional (Hacker edition)
 
