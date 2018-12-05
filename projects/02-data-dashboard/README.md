@@ -41,7 +41,7 @@ necesita.
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
 explores y decidas con qué te interesa trabajar. Hemos elegido específicamente
-estos porque creemos que se adecúan bien e esta etapa de tu aprendizaje.
+estos porque creemos que se adecúan bien a esta etapa de tu aprendizaje.
 
 Una vez que definas tu área de interés, entiende quién es tu usuario y qué
 necesita saber o ver exactamente; luego podrás construir la interfaz que le
@@ -63,13 +63,13 @@ Estos son datos que te proponemos:
   plataforma de [Steam](https://store.steampowered.com/).
 * [League of Legends - Challenger leaderboard](https://la2.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-eda9db39-e649-4fe4-a036-336890fc4305):
   Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL).
+  juego League of Legends (LoL), puedes revisar la documentación de su API en este [link](https://developer.riotgames.com/api-methods/).
 
-Como entregable final tendrás una página web que permita visualizar la data,
-filtrarla y ordenarla.
+Como entregable final tendrás una página web que permita **visualizar la data,
+filtrarla y ordenarla.**
 
 Cada set de datos tiene una identidad gráfica que deberás utilizar en la
-interfaz. La identidad gráfica de cada set la podrás encontrar en el siguiente
+interfaz. La identidad gráfica; o también conocido como guía de estilos en diseño, de cada set la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## Consideraciones generales
@@ -92,10 +92,10 @@ Dicho en palabras sencillas, aprenderás a:
 * Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
 * Pensar en las necesidades de los usuarios para crear historias de usuario.
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu del **entendimiento del usuario**.
+  tu **entendimiento del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual** y
   las **heurísticas de usabilidad**
-* Iterar el diseño del producto, basadandote en los resultados de los
+* Iterar el diseño del producto, basándote en los resultados de los
   **tests de usabilidad.**
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
