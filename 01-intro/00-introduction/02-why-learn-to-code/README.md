@@ -1,4 +1,4 @@
-# ¿Por que aprender programação?
+# Por que aprender programação?
 
 - Tipo: `lectura`
 - Formato: `self-paced`
@@ -13,7 +13,7 @@
 ***
 
 O texto abaixo é uma tradução para o português, com alguns ajustes, do capítulo
-1 do [JavaScript for crianças,](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+1 do [JavaScript para Crianças](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015.
 
 ## O que é programação?

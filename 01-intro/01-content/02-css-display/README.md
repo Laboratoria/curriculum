@@ -6,7 +6,7 @@
 
 ## Objetivos de Aprendizagem
 
-* Aprender o `modelo da caixa` e suas propriedades
+* Aprender o `modelo de caixa` e suas propriedades
 * Entender a diferença entre  _padding_, _border_ e  _margin_; e suas propriedades
 * Utilizar corretamente a propriedade `box-sizing`
 * Aprender os diferentes tipos de `display`
@@ -14,17 +14,17 @@
 
 ***
 
-## O modelo da caixa
+## O modelo de caixa
 
 É hora de conhecer um dos fundamentos mais importantes do CSS: `box model`
-\(modelo da caixa\). É muito fácil, mas entendê-lo bem é vital para poder fazer
+\(modelo de caixa\). É muito fácil, mas entendê-lo bem é vital para poder fazer
 um bom layout do site.
 
-![modelo de caixa](https://fotos.subefotos.com/e1001df7d218a9a8a8670d88628f0cc5o.png)
+![modelo de caixa](https://i.imgur.com/SsL5Lr6.png)
 
-### O que é o modelo da caixas?
+### O que é o modelo de caixa?
 
-Retornando à nossa fonte MDN, no capítulo tutorial do [modelo da caixa](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model),
+Retornando à nossa fonte MDN, no capítulo tutorial do [modelo de caixa](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model),
 ela explica o seguinte:
 
 > O modelo de caixa é a base do design da web - cada elemento é representado como
@@ -42,9 +42,9 @@ uma nova caixa, que inclui o conteúdo desse elemento.
 Como um exemplo, temos o seguinte quadro, que mostra três caixas retangulares que
 são criados pelos três tags HTML usados: `<p>`, `<strong>` e novamente `<p>`.
 
-![modelo de caixa](https://fotos.subefotos.com/bf683e9aa7e08dcc951b9b9e529ae627o.gif)
+![modelo de caixa](https://i.imgur.com/HHwyrrZ.gif)
 
-### Elementos que compõem o modelo de caixas
+### Elementos que compõem o modelo de caixa
 
 As partes que compõem cada caixa consistem no **conteúdo real**, o
 **preenchimento**, as **bordas** e as **margens**; podemos ver a imagem abaixo
@@ -62,9 +62,9 @@ Explicação de cada parte que compõe cada caixa:
 * **Margin \(_margem_\):** separação opcional entre a caixa e o resto das caixas
   adjacentes.
 
-### Propriedades dos elementos da caixa
+### Propriedades dos elementos de caixa
 
-CSS define 4 propriedades para controlar os elementos da caixa \(com exceção de
+CSS define 4 propriedades para controlar os elementos de caixa \(com exceção de
 _width_ e  _height_\).
 
 * **Top**: lado superior
@@ -72,7 +72,7 @@ _width_ e  _height_\).
 * **Bottom**: lado inferior
 * **Left**: lado esquerdo
 
-![modelo de caixa](https://fotos.subefotos.com/46cd99b85adea7f3106700cd9ffa473fo.png)
+![modelo de caixa](https://i.imgur.com/rFT7JpK.png)
 
 ## Preenchimento, Borda e Margem
 
@@ -81,7 +81,7 @@ _width_ e  _height_\).
 _Padding_ é o **preenchimento**, ou seja, o espaço livre opcional entre o
 _conteúdo_ e a _borda_.
 
-![preenchimento](https://fotos.subefotos.com/179d7bd111acebc38e6b29ed62a5522eo.png)
+![preenchimento](https://i.imgur.com/K1L0YJc.png)
 
 Seu valor pode ser definido em: **unidades de medida**, **porcentagem** ou com o
 valor `inherit` \(especifica que o _padding_ deve ser herdado do elemento pai\).
@@ -214,7 +214,7 @@ div {
 ```
 
 > Desta forma, com a propriedade `border`, atribuímos a **largura**, o **estilo**
-e a **cor** da borda para todos os quatro lados da caixa do elemento `div`.
+e a **cor** da borda para todos os quatro lados de caixa do elemento `div`.
 
 Além disso, temos a possibilidade de atribuir os valores \(largura, estilo e
 cor\) a um determinado lado da seguinte maneira:
@@ -284,8 +284,7 @@ mais prioridade e é a que é exibida.
 ### Width (_largura_)
 
 Controla a largura da caixa ou um elemento.
-
-![largura](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
+![largura](https://i.imgur.com/jlYsezK.png)
 
 O seu valor pode ser definido em: **unidades de medida**, **porcentagem**, `auto`
 ou `inherit`. Sendo como valor inicial `auto`. A propriedade **width** não
@@ -302,7 +301,7 @@ div {
 
 Controla a altura da caixa ou um elemento.
 
-![altura](https://fotos.subefotos.com/4395164aa663621f860b4d12c2d8fcd5o.png)
+![altura](https://i.imgur.com/ZsShqqZ.png)
 
 Seu valor pode ser definido em: **Unidades de Medida**, **porcentagem**, `auto`
 ou `inherit`. Sendo como valor inicial `auto`. Como em _width_, a propriedade
@@ -336,7 +335,7 @@ div {
 }
 ```
 
-![content-box](https://fotos.subefotos.com/9958eea0026f6d90ae1cd9be0f47f2ebo.png)
+![content-box](https://i.imgur.com/zakQW4N.png)
 
 #### Valor "border-box"
 
@@ -359,7 +358,7 @@ de seu elemento pai.
 ### O que é a propriedade _display_?
 
 Estabelece o tipo de caixa gerada por um elemento.
-![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
+![display](https://i.imgur.com/q2g5XHF.png)
 
 ### Valores
 
@@ -369,7 +368,7 @@ A propriedade `display: inline` faz com que o elemento tenha como natureza se
 posicionar em linha, ou seja, um elemento é colocado ao lado do outro e,
 portanto, ocupa apenas o espaço necessário para mostrar seu conteúdo:
 
-![inline](https://fotos.subefotos.com/46ddc8db6addcac25aaf5d1b79275232o.png)
+![inline](https://i.imgur.com/hW9oR3k.png)
 
 Suas características são:
 
@@ -387,7 +386,7 @@ A propriedade `display: block` faz com que o elemento tenha uma natureza
 posicionada em blocos, para que sempre inicie em uma nova linha e ocupe todo o
 espaço disponível na linha, mesmo que seu conteúdo não ocupe todo o site:
 
-![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
+![block](https://i.imgur.com/Zl6oKEL.png)
 
 Suas características são:
 
@@ -404,7 +403,7 @@ A propriedade `display: inline-block` combina o melhor dos dois mundos, fazendo
 com que os elementos se posicionem em linha, mas mantendo sua natureza de bloco,
 ou seja, eles podem ser alinhados:
 
-![inline-block](https://fotos.subefotos.com/7892f0763915a586528d36559d76a451o.png)
+![inline-block](https://i.imgur.com/yBX4rsw.png)
 
 #### Valor "none"
 
@@ -418,23 +417,23 @@ uma diferença muito importante:
 
 * `display: none` remove o elemento definitivamente do espaço ocupado e é
   substituído pelos elementos adjacentes, como se o elemento não existisse mais.
-
-  ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
+  
+  ![none](https://i.imgur.com/boe3A16.png)
 
 * `visibility: hidden` oculta o elemento, mas ainda mantém o espaço ocupado,
   enquanto os elementos adjacentes mantêm sua localização.
 
-  ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
+  ![hidden](https://i.imgur.com/sdJlVO6.png)
 
 #### Resumo das características do Display
 
-![Resumo Display](https://fotos.subefotos.com/5bddcb7ef810c7290e982d0ad17e4941o.png)
+![Resumo Display](https://i.imgur.com/SQdj4FY.png)
 
 ## Leituras complementares
 
 Continue lendo e aprendendo sobre o modelo de caixa e diplay com os seguintes
 recursos:
 
-* [Modelo da caixa - W3](http://www.w3im.com/pt/css/css_boxmodel.html)
+* [Modelo de caixa - W3](http://www.w3im.com/pt/css/css_boxmodel.html)
 * [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
 * [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)

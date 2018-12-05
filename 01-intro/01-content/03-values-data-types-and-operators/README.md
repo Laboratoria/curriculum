@@ -12,10 +12,8 @@
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](https://github.com/hectorip).
+O texto em seguida se baseia em grande parte, com certos ajustes, ao capítulo 1 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
+Haverbeke, 2014. Tradução em [Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
 
 ## Vivemos num mundo de Dados
 

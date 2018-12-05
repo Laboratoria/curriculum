@@ -44,9 +44,9 @@ etapa através do apoio de vários canais ao longo do curso.
 
 Junte-se ao grupo de Facebook correspondente ao lugar para o qual você está se
 candidatando. Lá você pode fazer e responder perguntas em conjunto com outras
-candidatas, com a ajuda da equipe de professores Laboratória.
+candidatas, com a ajuda da equipe da Laboratória.
 
-* [Sao Paulo](https://www.facebook.com/groups/laboratoriaSP2018turma1/)
+* [Grupo Laboratória São Paulo](https://www.facebook.com/groups/laboratoriaSP2018turma1/)
 
 ### 2. Mail
 

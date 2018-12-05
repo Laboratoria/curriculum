@@ -1,9 +1,6 @@
-# Introdução à programação (con JavaScript)
+# Introdução à programação (com JavaScript)
 
-En un mundo que rápidamente se está digitalizando, aprender a programar abre
-nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
-pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
-fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
+Em um mundo que rápidamente está se digitalizando, aprender a programar abre novas (e muitas vezes melhores) oportunidades. Com este curso você dará os seus primeiros passos no mundo da programação.
 
 ## Público Objetivo
 
@@ -45,7 +42,7 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidade 01: [Introducão](00-introduction)
+### Unidade 01: [Introdução](00-introduction)
 
 Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
 de boas vindas começaremos a explicar por que programar e você vai criar sua
@@ -58,15 +55,9 @@ irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas
 usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais
 interativas.
 
-### Unidade 03: [UX design](02-ux-design)
+### Unidade 03: [Exercícios](02-exercises)
 
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
-criar seu produto final, é importante que você conheça as técnicas de design da
-experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
-
-### Unidade 04: [Exercícios](03-exercises)
-
-Esta unidade possui exercícios de JavaScript para você praticar e fixar o conteúdo.
+Esta unidade possui exercícios de JavaScript para você avaliar o seu conhecimento adquirido.
 
 ...
 

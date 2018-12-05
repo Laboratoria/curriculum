@@ -253,7 +253,7 @@ vamos encontrar a foto de Mariana com Mark e Barack :\)
 ![Foto de Mari](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
 
 Outro item que não tem uma tag de fechamento é `br`.
-[Leia a documentação do MDN sobre `br`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/br).\
+[Leia a documentação do MDN sobre `br`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/br).
 Para que serve `br`?
 
 ## Comentários em HTML
@@ -275,7 +275,7 @@ construir uma réplica da [página da Wikipédia de Grace Hopper](https://en.wik
 
 [![Grace Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
 
-## Os elementos `div`e`span`
+## Os elementos `div` e `span`
 
 Muitas vezes, ao criar nossa estrutura HTML, torna-se necessário "agrupar"
 elementos para dividir nossa página web em seções ou partes lógicas. Por exemplo,
