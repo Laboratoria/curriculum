@@ -194,9 +194,23 @@ _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
 Para ello te recomendamos implementar las siguientes funciones en el archivo
 `src/data.js`:
 
-* `filterData(data, condition)`
-* `sortData(data, sortBy, sortOrder)`
-* `computeStats(data)`
+* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
+  data, y nos retornaría aquellos datos que sí cumplan con la condición.
+
+* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
+  recibe tres parámetros.
+  El primer parámetro, `data`, nos entrega los datos.
+  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
+  la data se quiere ordenar.
+  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
+  ascendente o descendente.
+
+* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
+   cálculos estadísticos básicos para ser mostrados de acuerdo a la data
+   proporcionada.
+
+Estas son ideas de funciones que podrías implementar, pero esto depende de tu
+propia implementación.
 
 El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_,
 _functions_ y _lines_, y _branches_.
