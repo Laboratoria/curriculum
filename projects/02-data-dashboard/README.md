@@ -22,16 +22,17 @@ el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
 Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** digerible para personas,
-necesitamos entenderlos y procesarlos. Una manera simple de hacerlo es creando _interfaces_ y 
-_visualizaciones_.
+grandes cantidades de datos se conviertan en **información** digerible para
+personas, necesitamos entenderlos y procesarlos. Una manera simple de hacerlo es
+creando _interfaces_ y _visualizaciones_.
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte izquierda se
-puede construir una interfaz amigable y entendible por el usuario.
+En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
+izquierda se puede construir una interfaz amigable y entendible por el usuario.
 
 ![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
-*Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json) y la interfaz construida en este [link.](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2) 
+\* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
+y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
 ## Resumen del proyecto
 
@@ -50,26 +51,38 @@ ayude a interactuar y entender mejor esos datos.
 Estos son datos que te proponemos:
 
 * Indicadores de desarrollo del Banco Mundial de alguno de estos países:
-  [Brasil](https://datos.bancomundial.org/pais/brasil),
-  [Chile](https://datos.bancomundial.org/pais/chile),
-  [México](https://datos.bancomundial.org/pais/mexico) y
-  [Perú](https://datos.bancomundial.org/pais/peru). Estos datos incluyen
-  indicadores demográficos, económicos y comerciales.
-* [Pokémon](https://gist.github.com/lupomontero/2f0b18ef0f6131321bd8f5c5c48a4138):
+  [Brasil](src/data/worldbank/brazil.json),
+  [Chile](src/data/worldbank/chile.json),
+  [México](src/data/worldbank/mexico.json) y
+  [Perú](src/data/worldbank/peru.json). Estos datos incluyen indicadores
+  demográficos, económicos y comerciales.
+* [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémones de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
-* [Steam noticias](http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=10&maxlength=300&format=json):
+* [Steam noticias](src/data/steam/steam.json):
   Lista noticias relacionadas a los videojuegos presentes en la
   plataforma de [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](https://la2.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-eda9db39-e649-4fe4-a036-336890fc4305):
+* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
   Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en este [link](https://developer.riotgames.com/api-methods/).
+  juego League of Legends (LoL), puedes revisar la documentación de su API en
+  este [link](https://developer.riotgames.com/api-methods/).
+* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
+  Este set nos muestra el número de personas heridas en accidentes de
+  transporte, con data anual desde 1960 y categorizada por tipo de transporte
+  (aire, barco, automóvil, moto, bicileta, ...).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla y ordenarla.**
+filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración, con
+cálculo agregado nos referimos a estadísticas como promedios, medianas, mínimos,
+máximos, así como otros cálculos que requieran recorrer y agregar la colección
+para producir un resultado. Por ejemplo, si tenemos una colección que representa
+a un grupo de personas, y cada persona está representada como un _objeto_ con
+una _propiedad_ `altura`, podríamos elegir calcular la altura promedio en el
+grupo entre otras cosas.
 
 Cada set de datos tiene una identidad gráfica que deberás utilizar en la
-interfaz. La identidad gráfica; o también conocido como guía de estilos en diseño, de cada set la podrás encontrar en el siguiente
+interfaz. La identidad gráfica; o también conocido como guía de estilos en
+diseño, de cada set la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## Consideraciones generales
@@ -527,10 +540,11 @@ pueden ayudar:
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
-1. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-   darán acceso de lectura en ese repo. La otra integrante del
-   equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
+1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
+   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
+   en ese repo. La otra integrante del equipo deber hacer un fork **del
+   repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
    un `remote` hacia el mismo.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -645,7 +659,8 @@ variables_, _control de flujo_ y _tests unitarios_.
 * [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
 * [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de usabilidad en el `README.md`.
+* [ ] Incluye el listado de problemas que detectaste a través de tests de
+  usabilidad en el `README.md`.
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [ ] UI: Permite filtrar data en base a una condición.
