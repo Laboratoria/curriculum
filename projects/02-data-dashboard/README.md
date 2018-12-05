@@ -22,8 +22,8 @@ el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
 Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** digerible para
-personas, necesitamos entenderlos y procesarlos. Una manera simple de hacerlo es
+grandes cantidades de datos se conviertan en **información** fácil de leer para
+los usuarios, necesitamos entender y procesar estos datos. Una manera simple de hacerlo es
 creando _interfaces_ y _visualizaciones_.
 
 En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
@@ -41,8 +41,8 @@ _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué te interesa trabajar. Hemos elegido específicamente
-estos porque creemos que se adecúan bien a esta etapa de tu aprendizaje.
+explores y decidas con qué temática te interesa trabajar. Hemos elegido específicamente
+estos sets de datos porque creemos que se adecúan bien a esta etapa de tu aprendizaje.
 
 Una vez que definas tu área de interés, entiende quién es tu usuario y qué
 necesita saber o ver exactamente; luego podrás construir la interfaz que le
@@ -72,13 +72,13 @@ Estos son datos que te proponemos:
   (aire, barco, automóvil, moto, bicileta, ...).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración, con
-cálculo agregado nos referimos a estadísticas como promedios, medianas, mínimos,
-máximos, así como otros cálculos que requieran recorrer y agregar la colección
-para producir un resultado. Por ejemplo, si tenemos una colección que representa
-a un grupo de personas, y cada persona está representada como un _objeto_ con
-una _propiedad_ `altura`, podríamos elegir calcular la altura promedio en el
-grupo entre otras cosas.
+filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
+con cálculo agregado nos referimos a distintos cálculos que puedes hacer con
+la data que tienes para mostrar información aún más relevante a los usuarios.
+Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
+por ejemplo, si tenemos una colección que representa a un grupo de personas,
+y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
+podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 
 Cada set de datos tiene una identidad gráfica que deberás utilizar en la
 interfaz. La identidad gráfica; o también conocido como guía de estilos en
@@ -107,7 +107,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
   tu **entendimiento del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**
+  las **heurísticas de usabilidad.**
 * Iterar el diseño del producto, basándote en los resultados de los
   **tests de usabilidad.**
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
@@ -139,9 +139,9 @@ de terminado para cada una.
 
 #### Prototipo de baja fidelidad
 
-Debes hacer un sketch (boceto) de tu solución usando papel y lápiz. Te
-recomendamos tomar una foto, subirla a tu repositorio y hacer mención del
-sketch en tu `README.md`.
+Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu solución usando
+papel y lápiz. Te recomendamos tomar fotos de todas las iteraciones que realices, y 
+las subas a tu repositorio, y las menciones en tu `README.md`.
 
 #### Prototipo de alta fidelidad
 
@@ -175,7 +175,7 @@ priorizar.
 
 Como mínimo, tu implementación debe:
 
-1. Mostrar una tabla o lista con data o indicadores.
+1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista, etc.
 2. Permitir al usuario filtrar y ordenar la data.
 3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
    máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
@@ -194,23 +194,9 @@ _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
 Para ello te recomendamos implementar las siguientes funciones en el archivo
 `src/data.js`:
 
-* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
-  data, y nos retornaría aquellos datos que sí cumplan con la condición.
-
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-   cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-   proporcionada.
-
-Estas son ideas de funciones que podrías implementar, pero esto depende de tu
-propia implementación.
+* `filterData(data, condition)`
+* `sortData(data, sortBy, sortOrder)`
+* `computeStats(data)`
 
 El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_,
 _functions_ y _lines_, y _branches_.
