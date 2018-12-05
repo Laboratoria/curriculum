@@ -1,6 +1,8 @@
 # Introdução à programação (com JavaScript)
 
-Em um mundo que rápidamente está se digitalizando, aprender a programar abre novas (e muitas vezes melhores) oportunidades. Com este curso você dará os seus primeiros passos no mundo da programação.
+Em um mundo que rápidamente está se digitalizando, aprender a programar abre
+novas (e muitas vezes melhores) oportunidades. Com este curso você dará os seus
+primeiros passos no mundo da programação.
 
 ## Público Objetivo
 
@@ -46,7 +48,7 @@ que calcule el cubo de un número, etc.
 
 Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
 de boas vindas começaremos a explicar por que programar e você vai criar sua
-primeira página web !
+primeira página web!
 
 ### Unidade 02: [Conteúdo](01-content)
 
@@ -57,7 +59,8 @@ interativas.
 
 ### Unidade 03: [Exercícios](02-exercises)
 
-Esta unidade possui exercícios de JavaScript para você avaliar o seu conhecimento adquirido.
+Esta unidade possui exercícios de JavaScript para você avaliar o seu conhecimento
+adquirido.
 
 ...
 
