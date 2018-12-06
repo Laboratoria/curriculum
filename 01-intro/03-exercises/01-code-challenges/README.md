@@ -1,4 +1,4 @@
-# Retos de Código
+# Desafios de Código
 
 * Tipo: `practice`
 * Formato: `self-paced`
