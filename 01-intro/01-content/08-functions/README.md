@@ -15,10 +15,11 @@
 
 ***
 
-O texto a seguir se baseia em grande medida, com certos ajustes, aos
-capítulos 2 e 3 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
-Haverbeke, 2014. Tradução em [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponível graças a [hectorip](http://hectorip.github.io), e capítulo 8 do
+O texto a seguir se baseia em grande medida, com alguns ajustes, aos
+capítulos 2 e 3 do [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+Haverbeke, 2014. Tradução em
+[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores)
+, e ao capítulo 6 do
 [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015;
 
