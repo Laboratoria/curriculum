@@ -41,8 +41,9 @@ _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido específicamente
-estos sets de datos porque creemos que se adecúan bien a esta etapa de tu aprendizaje.
+explores y decidas con qué temática te interesa trabajar. Hemos elegido
+específicamente estos sets de datos porque creemos que se adecúan bien a esta
+etapa de tu aprendizaje.
 
 Una vez que definas tu área de interés, entiende quién es tu usuario y qué
 necesita saber o ver exactamente; luego podrás construir la interfaz que le
@@ -89,7 +90,7 @@ diseño, de cada set la podrás encontrar en el siguiente
 
 * Este proyecto se debe resolver en duplas.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages.
+  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 * Tiempo para completarlo: Toma como referencia 3 semanas. Trabaja durante el
   primer Sprint (una semana) y al  final, decide en cuántas semanas lo
   terminarás.
@@ -103,20 +104,22 @@ usuario necesita.
 Dicho en palabras sencillas, aprenderás a:
 
 * Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las necesidades de los usuarios para crear historias de usuario.
+* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
+* Escribir y trabajar con **historias de usuario**, sus definiciones de
+  terminado (_definition of done_) en la organización y planificación de tu
+  trabajo.
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
   tu **entendimiento del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad.**
+  las **heurísticas de usabilidad**.
 * Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad.**
+  **tests de usabilidad**.
 * Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
 * **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir filtrado y ordenado.
-* Entender los beneficios y complejidades de **Trabajar en equipo** en un
+* **Manejar eventos del DOM** para permitir interacción con el usuario
+  (filtrado, ordenado, ...).
+* Entender los beneficios y complejidades de **trabajar en equipo** en un
   ambiente de incertidumbre.
-* Escribir y trabajar con **Historias de Usuario** y sus definiciones de
-  terminado en la organización y planificación de tu trabajo.
 
 ## Parte Obligatoria
 
@@ -126,32 +129,32 @@ Los criterios para considerar que has completado este proyecto son:
 
 Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el(los) problema(s) que tiene tu usuario.
+el problema (o problemas) que tiene tu usuario.
 
 ### Historias de usuario
 
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
 todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
-de terminado para cada una.
+de terminado (_definition o done_) para cada una.
 
 ### Diseño de la Interfaz de Usuario
 
 #### Prototipo de baja fidelidad
 
 Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu solución usando
-papel y lápiz. Te recomendamos tomar fotos de todas las iteraciones que realices, y 
+papel y lápiz. Te recomendamos tomar fotos de todas las iteraciones que realices, y
 las subas a tu repositorio, y las menciones en tu `README.md`.
 
 #### Prototipo de alta fidelidad
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
-Para eso debes aprender a utilizar alguna herramienta de diseño visual. Nosotros
-te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
-que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como Illustrator,
-Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad gráfica
-correspondiente a cada set de datos que elijas.
+Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
+_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
+diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
+una herramienta que funciona en el navegador y, además, puedes crear una cuenta
+gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
+Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad
+gráfica correspondiente a cada set de datos que elijas.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
@@ -194,12 +197,27 @@ _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
 Para ello te recomendamos implementar las siguientes funciones en el archivo
 `src/data.js`:
 
-* `filterData(data, condition)`
-* `sortData(data, sortBy, sortOrder)`
-* `computeStats(data)`
+* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
+  data, y nos retornaría aquellos datos que sí cumplan con la condición.
 
-El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_,
-_functions_ y _lines_, y _branches_.
+* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
+  recibe tres parámetros.
+  El primer parámetro, `data`, nos entrega los datos.
+  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
+  la data se quiere ordenar.
+  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
+  ascendente o descendente.
+
+* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
+  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
+  proporcionada.
+
+Estas son ideas de funciones que podrías implementar, pero esto depende de tu
+propia implementación.
+
+El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_
+(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
+(_ramas_).
 
 Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
 e independientes del DOM. Estas funciones serán después usadas desde el archivo
@@ -212,15 +230,19 @@ Features/características extra sugeridas:
 
 * En lugar de consumir la data estática brindada en este repositorio, puedes
   consumir la data de forma dinámica, cargando un archivo JSON por medio de
-  `fetch`.
-* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas.
+  `fetch`. La carpeta `src/data` contiene una versión `.js` y una `.json` de
+  de cada set datos.
+* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas. Para
+  ello te recomendamos explorar librerías de gráficas como [Chart.js](https://www.chartjs.org/)
+  o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
 ## Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e), con la excepción de librerías para hacer gráficas (charts); ver
+_Parte opcional_ más arriba.
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
@@ -637,10 +659,11 @@ variables_, _control de flujo_ y _tests unitarios_.
 
 ### Herramientas
 
-* Git
-* GitHub y GitHub Pages.
-* Node.js + NPM
-* Jest
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [GitHub Pages](https://pages.github.com/)
+* [Node.js](https://nodejs.org/)
+* [Jest](https://jestjs.io/)
 
 ***
 
