@@ -1,13 +1,12 @@
-# Potencia de 2
+# Potência de 2
 
 * Environment: `js`
 
 ***
 
-Calcula la potencia de 2 elevado a un número específico. Debes de usar un loop
-(no `Math.pow()`).
+Calcule a potência de 2 elevado a um número específico. Deve usar um loop (não usar `Math.pow()`).
 
-Ejemplo:
+Exemplo:
 
 ```js
 const output = powerOfTwo(10);
