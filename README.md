@@ -72,10 +72,10 @@ del DOM para mostrar (escribir) los resultados.
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
   [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
 
-#### Proyecto: [Data Dashboard](projects/02-data-dashboard)
+#### Proyecto: [Data Lovers](projects/02-data-lovers)
 
 En este proyecto tendrás tu primer acercamiento a transformar data en
-información creando tu primer **data dashboard**.
+información creando tu primera interfaz basada en data.
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 _interfaz web_ donde podamos visualizar y manipular data.
