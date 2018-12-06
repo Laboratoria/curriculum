@@ -1,16 +1,14 @@
-# Invertir un arreglo
+# Inverter uma array
 
 * Environment: `js`
 
 ***
 
-Usar estructuras de control para invertir un arreglo de números. Como entrada
-recibirás un arreglo de números u objetos y como salida se espera un arreglo con
-el orden invertido de los elementos.
+Use estruturas de controle para inverter uma array de inteiros. Como entrada receberá uma array de números ou objetos e como saída é esperada uma array com a ordem dos elementos invertida.
 
-> No es válido usar `arr.reverse()`.
+> Não é válido utilizar `arr.reverse()`.
 
-Ejemplo:
+Exemplo:
 
 ```javascript
 const output = reverse([1, 2, 3, 4]);
