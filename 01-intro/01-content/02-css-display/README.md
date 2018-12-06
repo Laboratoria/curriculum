@@ -284,6 +284,7 @@ mais prioridade e é a que é exibida.
 ### Width (_largura_)
 
 Controla a largura da caixa ou um elemento.
+
 ![largura](https://i.imgur.com/jlYsezK.png)
 
 O seu valor pode ser definido em: **unidades de medida**, **porcentagem**, `auto`
