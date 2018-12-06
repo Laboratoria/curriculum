@@ -4,7 +4,8 @@
 
 ***
 
-Calcule a potência de 2 elevado a um número específico. Deve usar um loop (não usar `Math.pow()`).
+Calcule a potência de 2 elevado a um número específico.
+Deve usar um loop (não usar `Math.pow()`).
 
 Exemplo:
 

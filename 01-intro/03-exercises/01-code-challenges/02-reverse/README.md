@@ -4,7 +4,9 @@
 
 ***
 
-Use estruturas de controle para inverter uma array de inteiros. Como entrada receberá uma array de números ou objetos e como saída é esperada uma array com a ordem dos elementos invertida.
+Use estruturas de controle para inverter uma array de inteiros.
+Como entrada receberá uma array de números ou objetos e como
+saída é esperada uma array com a ordem dos elementos invertida.
 
 > Não é válido utilizar `arr.reverse()`.
 
