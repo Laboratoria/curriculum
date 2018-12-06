@@ -1,14 +1,14 @@
-# Contar vocales
+# Contar vogais
 
 * Environment: `js`
 
 ***
 
-Crea una función que cuente el número de vocales de un `string`. Sigue los pasos
-a continuación para que completes el programa.
+Crie uma função que conte o número de vogais em uma `string`. 
+Siga os passos a seguir para completar o programa.
 
-1. Implementar la función `countVowels(str)` que retorne el número de vocales.
-2. Iniciar un contador en `counter = 0`
-3. Iterar los caracteres de string, si el elemento actual es una vocal entonces
-   incrementar el contador `counter`.
-4. Retornar `counter`, el cual contiene el número de vocales.
+1. Implementar a função `countVowels(str)` que retorne o número de vogais.
+2. Iniciar um contador em `counter = 0`
+3. Iterar os caracteres da string; se o elemento atual é uma vogal então
+incrementar o contador `counter`.
+4. Retornar `counter`, que contẽm o número de vogais.
