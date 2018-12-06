@@ -23,8 +23,8 @@ Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
 grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de hacerlo es
-creando _interfaces_ y _visualizaciones_.
+los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
+hacerlo es creando _interfaces_ y _visualizaciones_.
 
 En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
 izquierda se puede construir una interfaz amigable y entendible por el usuario.
@@ -142,9 +142,10 @@ de terminado (_definition o done_) para cada una.
 
 #### Prototipo de baja fidelidad
 
-Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu solución usando
-papel y lápiz. Te recomendamos tomar fotos de todas las iteraciones que realices, y
-las subas a tu repositorio, y las menciones en tu `README.md`.
+Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
+solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
+iteraciones que realices, y las subas a tu repositorio, y las menciones en tu
+`README.md`.
 
 #### Prototipo de alta fidelidad
 
@@ -241,8 +242,9 @@ Features/características extra sugeridas:
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e), con la excepción de librerías para hacer gráficas (charts); ver
-_Parte opcional_ más arriba.
+frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
+con la excepción de librerías para hacer gráficas (charts); ver
+[_Parte opcional_](#parte-opcional-hacker-edition) más arriba.
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
@@ -435,16 +437,18 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 En este proyecto deberás trabajar colaborativamente. Para ello, una de las
 integrantes del equipo deberá forkear el repositorio del cohort y la otra
 integrante **deberá hacer un fork del repositorio de su compañera**. Luego de
-esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+esto, deberás
+[configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 un `remote` hacia el repositorio del cual hiciste el fork.
 
 Para mandar cambios desde un repositorio forkeado al original debes crear un
-[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+[pull request](https://goo.gl/4bYnuh)
 y el propietario del repositorio original recibirá una notificación para
-[revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/)
-y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/).
+[revisar el pull request](https://goo.gl/XSFcT5)
+y [aceptar los cambios](https://goo.gl/HLJtqN).
 
-Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
+Aquí algunas recomendaciones para que organices mejor el trabajo con tu
+compañera:
 
 * En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de
   trabajo con dos ramas principales:
@@ -458,7 +462,8 @@ Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañ
   origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`.
   Las _feature branches_ no se deben integrar directamente a `master`.
 
-* Por último, te sugerimos codear usando la técnica de [pair programming](http://www.javiergarzas.com/2012/06/beneficios-pair-programming.html).
+* Por último, te sugerimos codear usando la técnica de
+  [pair programming](https://goo.gl/uAMBX2).
 
 ¿Quieres saber más forks y pull requests?
 
