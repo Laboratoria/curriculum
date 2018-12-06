@@ -323,7 +323,7 @@ objetos. La idea de este archivo es contener toda la funcionalidad
 que corresponda a obtener, procesar y manipular datos.
 
 En este archivo esperamos que implementes las funciones detalladas en la sección
-de _Pruebas Unitarias_.
+de [_Pruebas Unitarias_](#pruebas-unitarias).
 
 ### `src/data`
 
@@ -333,7 +333,7 @@ extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
 diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
 mientras que el `.json` está ahí para opcionalmente cargar la data de forma
 asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de _Parte Opcional_).
+(ver sección de [_Parte Opcional_](#parte-opcional-hacker-edition)).
 
 ### `test/data.spec.js`
 
