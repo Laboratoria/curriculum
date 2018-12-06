@@ -1,14 +1,13 @@
-# Función par/impar
+# Funcão par/impar
 
 * Environment: `js`
 
 ***
 
-Crea una función que compruebe si un número es par o impar.
+Crie uma função que verifique se um número é par ou ímpar.
+Siga os passos a seguir para completar o programa.
 
-Sigue los pasos a continuación para que completes el programa.
-
-1. Implementa una función `comprobar(n)`. Nota: Puedes usar el operador modulo:
-   `%`.
-2. Si el número es par retornar `0`.
-3. Si el número es impar  retornar `1`.
+1. Declare uma função `comprobar(n)`. Nota: pode utilizar o
+operador de módulo: `%`.
+2. Se o número é par, retornar `0`.
+3. Se o número é ímpar, retornar `1`.
