@@ -15,19 +15,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/110297?v=4",
       "profile": "https://www.youtube.com/user/lupomontero",
       "contributions": [
-        "question",
-        "bug",
         "code",
-        "doc",
-        "example",
-        "ideas",
-        "platform",
-        "plugin",
-        "review",
-        "test",
-        "tool",
-        "tutorial",
-        "video"
+        "doc"
       ]
     }
   ]

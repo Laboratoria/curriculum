@@ -295,6 +295,9 @@ Toda contribución es **gratamente bienvenida**.
 Pero **POR FAVOR** no olvides leer detalladamente la
 [guía para contribuidores](CONTRIBUTING.md) antes de enviar un PR.
 
+<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Licencia & Copyright
 
 Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
