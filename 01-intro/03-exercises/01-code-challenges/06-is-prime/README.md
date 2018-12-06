@@ -1,14 +1,14 @@
-# Determinar si un número es primo
+# Determinar se um número é primo
 
 * Environment: `js`
 
 ***
 
-Crea una función que determine si un número es primo. En matemáticas, un número
-primo es un número natural mayor que 1 que tiene únicamente dos divisores
-distintos: él mismo y el 1.
+Crie uma função que determine se um número é primo. Em matemática,
+um número primo é um número natural maior que 1 que é divisível somente
+por ele mesmo e 1.
 
 Tips:
 
-1. Utilizar el operador  modulo (`%`) para determinar si un número es divisor de
-   otro.
+1. Utilizar o operador módulo (`%`) para determinar se um número é 
+divisível por outro.
