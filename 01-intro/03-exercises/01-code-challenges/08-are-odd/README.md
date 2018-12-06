@@ -1,13 +1,13 @@
-# Determinar si dos números son pares
+# Determinar se dois números são pares
 
 * Environment: `js`
 
 ***
 
-Implementa una función que determine si dos número son pares.
+Implemente uma função que determina se dois números são pares.
 
-Sigue los pasos a continuación para que completes el programa:
+Siga os passos a seguir para completar o programa:
 
-1. Si `n` y `m` son pares retornar `true`; en caso contrario retornar `false`.
+1. Se `n` e `m` são pares retornar `true`; caso contrário retornar `false`.
 
-Tip: Usar el operador modulo (`%`)
+Dica: Usar o operador módulo (`%`)
