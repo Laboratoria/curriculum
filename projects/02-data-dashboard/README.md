@@ -249,241 +249,96 @@ No se debe utilizar la _pseudo-variable_ `this`.
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
 
-[TBD]
-
-<!--
 ```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── data
-│   ├── cohorts
-│   │   └── lim-2018-03-pre-core-pw
-│   │       ├── progress.json
-│   │       └── users.json
-│   └── cohorts.json
+.
 ├── package.json
+├── README.md
 ├── src
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+│   ├── data
+│   │   ├── injuries
+│   │   │   ├── injuries.js
+│   │   │   └── injuries.json
+│   │   ├── lol
+│   │   │   ├── lol.js
+│   │   │   └── lol.json
+│   │   ├── pokemon
+│   │   │   ├── pokemon.js
+│   │   │   └── pokemon.json
+│   │   ├── steam
+│   │   │   ├── steam.js
+│   │   │   └── steam.json
+│   │   └── worldbank
+│   │       ├── worldbank.js
+│   │       └── worldbank.json
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 └── test
-    ├── data.spec.js
-    ├── fixtures.js
-    ├── headless.js
-    └── index.html
+    └── data.spec.js
+
+8 directories, 17 files
 ```
 
-La carpeta `data/` dentro del _boilerplate_ incluye un extracto de la data que
-podemos usar tanto en los tests como en la interfaz en sí.
--->
+### `src/index.html`
 
-<!--
-### data.js
+Al igual que en el proyecto anterior, existe un archivo `index.html`. Como ya
+sabrás, acá va la página que se mostrará al usuario. También nos sirve para
+indicar qué scripts se usarán y unir todo lo que hemos hecho.
+
+En este archivo encontrarás una serie de _etiquetas_ (_tags_) `<script>`
+_comentadas_. Para _cargar_ las diferentes fuentes de datos tendrás que
+_descomentar_ estas _etiquetas_. Cada uno estos scripts asignará una variable
+global con la data correspondiente a esa fuente de datos.
+
+Por ejemplo, si descomentamos la siguiente línea:
+
+```html
+<!-- <script src="./data/worldbank/worldbank.js"></script> -->
+```
+
+La línea quedaría así:
+
+```html
+<script src="./data/worldbank/worldbank.js"></script>
+```
+
+Y ahora tendríamos la variable global `WORLDBANK` disponible en nuestros otros
+scripts (como `src/data.js` o `src/main.js`).
+
+### `src/main.js`
+
+Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
+mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
+interacción con el DOM. Operaciones como creación de nodos, registro de
+manejadores de eventos (_event listeners_ o _event handlers_), ....
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+### `src/data.js`
 
 El corazón de este proyecto es la manipulación de datos a través de arreglos y
 objetos. La idea de este archivo es contener toda la funcionalidad
 que corresponda a obtener, procesar y manipular datos.
 
-Parte de un buen proyecto es que esté ordenado y que otras programadoras puedan
-acceder a el código rápidamente. Es por esto que este orden no es casualidad y
-es una convención que generalmente encontrarás en internet bajo el nombre MVC o
-Modelo Vista Controlador. En este proyecto Controlador y Modelo estarán bajo
-el archivo **data.js**.
+En este archivo esperamos que implementes las funciones detalladas en la sección
+de _Pruebas Unitarias_.
 
-El _boilerplate_ incluye tests que esperan que implementes las
-siguientes 4 funciones y las _exportes_ al entorno global (`window`) dentro del
-script `src/data.js`, ten en cuenta que esto es solo lo básico, si necesitas más
-funciones puedes hacerlo :
+### `src/data`
 
-#### 1) `computeUsersStats(users, progress, courses)`
+En esta carpeta están los datos de las diferentes fuentes. Encontrarás una
+carpeta por cada fuente, y dentro de cada carpeta dos archivos: uno con la
+extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
+diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
+mientras que el `.json` está ahí para opcionalmente cargar la data de forma
+asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+(ver sección de _Parte Opcional_).
 
-Esta función es la responsable de "crear" la lista de usuarios (estudiantes)
-que vamos a "pintar" en la pantalla. La idea es "recorrer" el arreglo de
-usuarios (`users`) y calcular los indicadores necesarios de progreso para cada
-uno. La función debe devolver un nuevo arreglo de usuarios donde a cada objeto
-de usuario se le debe agregar una _propiedad_ con el nombre `stats` con las
-estadísticas calculadas.
-Ten en cuenta que los `users` pueden contar con diferentes roles (`role`)
-dependiendo cuál sea su perfil. En nuestro caso consideraremos
-*estudiantes* sólo a aquellos usuarios cuyo `role` sea `student`.
+### `test/data.spec.js`
 
-##### Argumentos
-
-* `users`: Arreglo de objetos obtenido de la data en bruto.
-* `progress`: Objeto de progreso en bruto. Contiene una llave para cada usuario
-  (`uid`) con un objeto que contiene el progreso del usuario para cada curso.
-* `courses`: Arreglo de _strings_ con los _ids_ de los cursos del cohort en
-  cuestión. Esta data se puede extraer de la propiedad `coursesIndex` de los
-  objetos que representan los _cohorts_.
-
-##### Valor de retorno
-
-Un arreglo de objetos `usersWithStats` con la propiedad `stats`, la cual debe
-ser un objeto con las siguientes propiedades:
-
-* `percent`: Número entero entre 0 y 100 que indica el porcentaje de completitud
-  general del usuario con respecto a todos los cursos asignados a su cohort.
-* `exercises`: Objeto con tres propiedades:
-  - `total`: Número total de ejercicios autocorregidos presentes en cursos del
-    cohort.
-  - `completed`: Número de ejercicios autocorregidos completados por el usuario.
-  - `percent`: Porcentaje de ejercicios autocorregidos completados.
-* `reads`: Objeto con tres propiedades:
-  - `total`: Número total de lecturas presentes en cursos del cohort.
-  - `completed`: Número de lecturas completadas por el usuario.
-  - `percent`: Porcentaje de lecturas completadas.
-* `quizzes`: Objeto con cinco propiedades:
-  - `total`: Número total de quizzes presentes en cursos del cohort.
-  - `completed`: Número de quizzes completadas por el usuario.
-  - `percent`: Porcentaje de quizzes completadas.
-  - `scoreSum`: Suma de todas las puntuaciones (score) de los quizzes
-    completados.
-  - `scoreAvg`: Promedio de puntuaciones en quizzes completados.
-
-#### 2) `sortUsers(users, orderBy, orderDirection)`
-
-La función `sortUsers()` se encarga de _ordenar_ la lista de usuarios creada con
-`computeUsersStats()` en base a `orderBy` y `orderDirection`.
-
-##### Argumentos
-
-* `users`: Arreglo de objetos creado con `computeUsersStats()`.
-* `orderBy`: String que indica el criterio de ordenado. Debe permitir ordenar
-  por nombre, porcentaje de completitud total, porcentaje de ejercicios
-  autocorregidos completados, porcentaje de quizzes completados, puntuación
-  promedio en quizzes completados, y porcentaje de lecturas completadas.
-* `orderDirection`: La dirección en la que queremos ordenar. Posibles valores:
-  `ASC` y `DESC` (ascendiente y descendiente).
-
-##### Valor de retorno
-
-Arreglo de usuarios ordenado.
-
-#### 3) `filterUsers(users, search)`
-
-##### Argumentos
-
-* `users`: Arreglo de objetos creado con `computeUsersStats()`.
-* `search`: String de búsqueda.
-
-##### Valor de retorno
-
-Nuevo arreglo de usuarios incluyendo solo aquellos que complan la condición de
-filtrado, es decir, aquellos que contengan el string _search_ en el nombre
-(`name`) del usuario.
-
-#### 4) `processCohortData(options)`
-
-Esta función es la que deberíamos usar al seleccionar un cohort y cada vez que
-el usuario cambia los criterios de ordenado y filtrado en la interfaz. Esta
-función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
-`filterUsers()`.
-
-##### Argumentos
-
-* `options`: An object with the following keys:
-  - `cohort`: Objeto cohort (de la lista de cohorts)
-  - `cohortData`: Objeto con dos propiedades:
-    + `users`: Arreglo de usuarios miembros del cohort.
-    + `progress`: Objeto con data de progreso de cada usuario en el contexto de
-      un cohort en particular.
-  - `orderBy`: String con criterio de ordenado (ver `sortUsers`).
-  - `orderDirection`: String con dirección de ordenado (ver `sortUsers`).
-  - `search`: String de búsqueda (ver `filterUsers`)
-
-##### Valor de retorno
-
-Nuevo arreglo de usuarios _ordenado_ y _filtrado_ con la propiedad `stats`
-añadida (ver `computeUsersStats`).
-
-### main.js
-
-Ten en cuenta también que existe otro archivo _main.js_ que no está solo por
-casualidad en la estructura del proyecto. En general es una buena idea ir
-separando la funcionalidad en varios archivos, ya que a medida que un proyecto
-crece, se vuelve insostenible dejar todo en un solo archivo. En este caso puedes
-usar _main.js_ para todo tu código que tenga que ver con mostrar los datos en la
-pantalla, y _data.js_ para todas las funciones que vimos que obtienen y
-manipulan los datos.
-
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
-
-### index.html
-
-Al igual que en el proyecto anterior, también existe un archivo `index.html`.
-Como ya sabrás, acá va la página que se mostrará al usuario de este tablero de
-información. También nos sirve para indicar qué scripts se usarán y unir todo lo
-que hemos hecho.
-
-### Data
-
-En esta carpeta están los datos de prueba del proyecto, contiene información
-sobre los cohortes (grupos de estudiantes de una generación y rama en particular),
-estudiantes y su progreso en cada uno de los cursos que son parte de cada cohorte.
-Para poder usar cada uno de los archivos JSON, puedes ocupar el mismo método que
-usarías si es que estuvieses haciendo una llamada HTTP o a una API, pero usando
-una dirección **relativa**, ejemplo :
-
-```javascript
-"../data/cohorts.json"
-```
-
-### Tests
-
-Tendrás también que completar las pruebas unitarias de estas funciones que se
-incluyen en el _boilerplate_, que encontrarás en el archivo `data.spec.js`.
-Si te fijas bien en la carpeta también encontrarás otros archivos, que
-detallaremos a continuación :
-
-#### index.html
-
-No confundas este archivo con tu `index.html` del proyecto, este archivo es
-especial para los test y es una manera de ver el resultado de tus pruebas
-unitarias, pero en el navegador. Para arrancar las pruebas de esta forma,
-escribe en tu consola :
-
-```javascript
-npm run test-browser
-```
-
-Una página se abrirá en tu navegador conteniendo los resultados de las pruebas.
-
-#### fixtures.js
-
-Muy importante archivo, aunque no siempre estará (depende del proyecto). Acá es
-donde está el set de datos de prueba que se usarán para correr las pruebas.
---->
-
-<!-- ### Habilidades blandas
-
-Para completar este proyecto deberás realizar una planificación general del
-proyecto, donde esperamos que generes un plan paso a paso de cómo resolverás
-el proyecto. Deberás considerar las distintas secciones del data dashboard, los
-recursos y el tiempo que dispones.
-
-Para lograrlo, deberás trabajar de manera colaborativa con tu compañera, para
-esto tienen que coordinarse en la construcción del producto, viendo de qué
-manera quieren trabajar y qué responsabilidades tendrá cada una para que así
-cumplan con los tiempos de entrega y ejecución.
-
-Para este proyecto busca instancias de code review, donde deberás buscar
-feedback de tu código con otro dupla, para que puedas mejorar el producto.
-Mientras más feedback recibas, mejor será su producto.
-
-Nos interesa ver tu capacidad de autoaprendizaje, por lo que esperamos que
-logren realizar el hacker edition, de esta manera podrás llevar tu producto al
-siguiente nivel.
-
-Para finalizar, deberás presentar su data dashboard al resto del curso, para
-esto necesitarás que tu demo tenga acceso desde cualquier computador y que
-puedas realizar una presentación que permita a todos comprender lo realizado.
-Sabemos que puede ser una instancia difícil, esperamos que logres mostrar su
-trabajo y los demás lo comprendan. -->
+Tendrás también que completar las pruebas unitarias de las funciones
+implementadas en el archivo `data.js`.
 
 ## Evaluación
 
@@ -625,16 +480,6 @@ Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañ
 
 ## Contenido de referencia
 
-<!--
-## Tópicos a cubrir
-
-Tendrás que familiarizarte con conceptos como:
-_arrays_,_objects_, _dom_, _xhr_ y _visual design_.
-
-Además, reforzarás lo aprendido en el proyecto anterior: _valores, tipos,
-variables_, _control de flujo_ y _tests unitarios_.
--->
-
 ### Diseño de experiencia de usuario (User Experience Design)
 
 * Investigación con usuarios / entrevistas
@@ -646,6 +491,7 @@ variables_, _control de flujo_ y _tests unitarios_.
 * Unidad de arreglos en curso de JavaScript en LMS.
 * Unidad de objetos en curso de JavaScript en LMS.
 * Unidad de funciones en curso de JavaScript en LMS.
+* Unidad de DOM en curso de Browser JavaScript en LMS.
 * [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 * [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
 * [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
