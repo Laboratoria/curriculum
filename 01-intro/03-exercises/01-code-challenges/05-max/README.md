@@ -1,14 +1,14 @@
-# Número mayor que otro
+# Número maior que outro
 
 * Environment: `js`
 
 ***
 
-Implementa una función que determine si un número es mayor a otro.
+Implementa uma função que determine se um número é maior que outro.
 
-Sigue los pasos a continuación para que completes el programa:
+Siga os passos a seguir para completar o programa:
 
-1. Retornar el numero mayor entre A, B y C
+1. Retornar o maior número entre A, B e C
 
 Input: A = 10, B = 30, C = 5
 Output: 30
