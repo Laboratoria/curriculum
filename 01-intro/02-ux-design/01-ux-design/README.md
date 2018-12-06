@@ -34,7 +34,9 @@ antes ou durante a execução do conteúdo que quisermos ver.
 
 ## O que é UX Design?
 
-> UX Design é o trabalho dos profissionais "UX Designers". É o processo mediante o qual se projetam as experiências que viverá um usuário ao utilizar um produto.
+> UX Design é o trabalho dos profissionais "UX Designers".
+É o processo mediante o qual se projetam as experiências que viverá um
+usuário ao utilizar um produto.
 
 ### Definição formal de UX Design
 

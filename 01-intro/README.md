@@ -59,7 +59,9 @@ interativas.
 
 ### Unidade 03: [Introdução a UX Design](02-ux-design)
 
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a criar seu produto final, é importante que você conheça as técnicas de design da experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
+Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
+criar seu produto final, é importante que você conheça as técnicas de design da
+experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
 ### Unidade 04: [Exercícios](03-exercises)
 
