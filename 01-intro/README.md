@@ -63,11 +63,6 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
 criar seu produto final, é importante que você conheça as técnicas de design da
 experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
 
-### Unidade 04: [Exercícios](03-exercises)
-
-Esta unidade possui exercícios de JavaScript para avaliar o seu conhecimento
-adquirido.
-
 ...
 
 ***
