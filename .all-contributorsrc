@@ -159,6 +159,19 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "FabianBravoA",
+      "name": "Fabian Alexis Bravo Abarca",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7809496?v=4",
+      "profile": "https://github.com/FabianBravoA",
+      "contributions": [
+        "bug",
+        "code",
+        "example",
+        "ideas",
+        "review"
+      ]
     }
   ]
 }
