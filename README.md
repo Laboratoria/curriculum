@@ -1,6 +1,6 @@
 # Bootcamp @Laboratoria
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/Laboratoria/curricula-js.svg?branch=master)](https://travis-ci.org/Laboratoria/curricula-js)
 
 ## Introducción
@@ -21,18 +21,17 @@ blandas_, _habilidades técnicas_ y _ux_.
 ## Mapa de aprendizaje
 
 El _mapa de aprendizaje/proyectos_ se divide en 4 _etapas_: **Admisión**,
-**Common Core**, **Deep dive** (tracks de Front End Dev y UX Designer) y
-**Capstone**.
+**Common Core**, **Track** (Front End Dev y UX Designer) y **Electivos**.
 
 ```text
-                         => Front End Dev => Capstone
+                         => Track de Front End Dev => Electivos
                        //
 Admisión => Common Core
                        \\
-                         => UX Designer => Capstone
+                         => Track de UX Designer => Electivos
 ```
 
-### Etapa 0: Admission
+### Etapa 0: Admisión
 
 La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro Bootcamp. Al
 final de cada _proceso de admisión_ invitaremos a candidatas seleccionadas a
@@ -296,18 +295,7 @@ Toda contribución es **gratamente bienvenida**.
 Pero **POR FAVOR** no olvides leer detalladamente la
 [guía para contribuidores](CONTRIBUTING.md) antes de enviar un PR.
 
-## Licencia & Copyright
-
-Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-Este trabajo está publicado bajo la licencia [Creative commons
-Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -318,7 +306,18 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 | [<img src="https://avatars2.githubusercontent.com/u/25912346?v=4" width="100px;"/><br /><sub><b>Karla Nava </b></sub>](https://www.linkedin.com/in/karlanavamuci%C3%B1o/)<br />[🤔](#ideas-karlanavam "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/17767965?v=4" width="100px;"/><br /><sub><b>Allison Guzmán</b></sub>](https://medium.com/@BosqueInvierno)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Abosqueinvierno "Bug reports") [🤔](#ideas-bosqueinvierno "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/30906042?v=4" width="100px;"/><br /><sub><b>Alejandra Ramirez</b></sub>](https://github.com/alejandrarv)<br />[🤔](#ideas-alejandrarv "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/3615859?v=4" width="100px;"/><br /><sub><b>Alexander Ocsa</b></sub>](https://www.linkedin.com/in/aocsa/)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Aaocsa "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/29586691?v=4" width="100px;"/><br /><sub><b>Rocío Alberdi</b></sub>](https://github.com/rocioalberdi)<br />[🤔](#ideas-rocioalberdi "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/25912393?v=4" width="100px;"/><br /><sub><b>Ameli C. Gavante</b></sub>](https://memecast.github.io/)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Amemecast "Bug reports") [🤔](#ideas-memecast "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/25912534?v=4" width="100px;"/><br /><sub><b>IntiDev</b></sub>](https://github.com/IntiDev)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3AIntiDev "Bug reports") [🤔](#ideas-IntiDev "Ideas, Planning, & Feedback") |
 | [<img src="https://avatars3.githubusercontent.com/u/5270810?v=4" width="100px;"/><br /><sub><b>Emmanuel Orozco</b></sub>](http://emmanuelorozco.com)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Aindie-rok "Bug reports") [💻](https://github.com/Laboratoria/curricula-js/commits?author=indie-rok "Code") [🤔](#ideas-indie-rok "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/1126193?v=4" width="100px;"/><br /><sub><b>Nicole Stein</b></sub>](http://www.nicolethenerd.com)<br />[💻](https://github.com/Laboratoria/curricula-js/commits?author=nicolethenerd "Code") [💡](#example-nicolethenerd "Examples") [🤔](#ideas-nicolethenerd "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/501129?v=4" width="100px;"/><br /><sub><b>Giancarlo Corzo</b></sub>](https://github.com/giancorzo)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Agiancorzo "Bug reports") [🤔](#ideas-giancorzo "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/9292999?v=4" width="100px;"/><br /><sub><b>Alejandro Rodriguez Cuellar</b></sub>](https://github.com/arcuellar88)<br />[💻](https://github.com/Laboratoria/curricula-js/commits?author=arcuellar88 "Code") [🤔](#ideas-arcuellar88 "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/539819?v=4" width="100px;"/><br /><sub><b>Gonzalo Parra</b></sub>](https://github.com/gaposx)<br />[💬](#question-gaposx "Answering Questions") [🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Agaposx "Bug reports") [💡](#example-gaposx "Examples") [🤔](#ideas-gaposx "Ideas, Planning, & Feedback") [👀](#review-gaposx "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/25645113?v=4" width="100px;"/><br /><sub><b>Cristian K. Cárdenas</b></sub>](https://cristiancardenas.cl)<br />[💡](#example-ccardensa "Examples") | [<img src="https://avatars1.githubusercontent.com/u/25328635?v=4" width="100px;"/><br /><sub><b>Jonhks</b></sub>](https://github.com/Jonhks)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3AJonhks "Bug reports") [💻](https://github.com/Laboratoria/curricula-js/commits?author=Jonhks "Code") [🤔](#ideas-Jonhks "Ideas, Planning, & Feedback") |
 | [<img src="https://avatars1.githubusercontent.com/u/16655830?v=4" width="100px;"/><br /><sub><b>Gabriela Segura</b></sub>](https://github.com/Gabx04)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3AGabx04 "Bug reports") [🤔](#ideas-Gabx04 "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/2304451?v=4" width="100px;"/><br /><sub><b>Rod Fuenzalida</b></sub>](https://rodrwan.github.io)<br />[🤔](#ideas-rodrwan "Ideas, Planning, & Feedback") | [<img src="https://avatars1.githubusercontent.com/u/368578?v=4" width="100px;"/><br /><sub><b>Rodrigo Lazo</b></sub>](https://github.com/rlazo)<br />[💡](#example-rlazo "Examples") [🤔](#ideas-rlazo "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/497197?v=4" width="100px;"/><br /><sub><b>Aldo Román Nureña</b></sub>](https://github.com/aldo-roman)<br />[💡](#example-aldo-roman "Examples") [🤔](#ideas-aldo-roman "Ideas, Planning, & Feedback") | [<img src="https://avatars1.githubusercontent.com/u/20929440?v=4" width="100px;"/><br /><sub><b>Nadia Tapia</b></sub>](https://github.com/nadiatapm)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Anadiatapm "Bug reports") [🤔](#ideas-nadiatapm "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/29587100?v=4" width="100px;"/><br /><sub><b>Daniela Sarzosa</b></sub>](https://github.com/danielasarzosa)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Adanielasarzosa "Bug reports") [🤔](#ideas-danielasarzosa "Ideas, Planning, & Feedback") | [<img src="https://avatars1.githubusercontent.com/u/6402808?v=4" width="100px;"/><br /><sub><b>kkatzen</b></sub>](https://github.com/kkatzen)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Akkatzen "Bug reports") [💡](#example-kkatzen "Examples") |
-| [<img src="https://avatars1.githubusercontent.com/u/31043587?v=4" width="100px;"/><br /><sub><b>LucileBaratier</b></sub>](https://github.com/LucileBaratier)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3ALucileBaratier "Bug reports") |
+| [<img src="https://avatars1.githubusercontent.com/u/31043587?v=4" width="100px;"/><br /><sub><b>LucileBaratier</b></sub>](https://github.com/LucileBaratier)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3ALucileBaratier "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/32286663?v=4" width="100px;"/><br /><sub><b>Daniela Gonzales</b></sub>](https://danielalab.github.io/Daniela-Gonzales/)<br />[🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3ADanielalab "Bug reports") [🤔](#ideas-Danielalab "Ideas, Planning, & Feedback") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+Este proyecto sigue la especificación de
+[all-contributors](https://github.com/kentcdodds/all-contributors). Todo tipo de
+contribuciones son bienvenidas.
+
+## Licencia & Copyright
+
+Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+Este trabajo está publicado bajo la licencia [Creative commons
+Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
