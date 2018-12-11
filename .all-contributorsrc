@@ -428,6 +428,16 @@
         "example",
         "ideas"
       ]
+    },
+    {
+      "login": "nadiatapm",
+      "name": "Nadia Tapia",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20929440?v=4",
+      "profile": "https://github.com/nadiatapm",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ]
 }
