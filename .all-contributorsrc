@@ -98,6 +98,16 @@
         "design",
         "ideas"
       ]
+    },
+    {
+      "login": "milmazz",
+      "name": "Milton Mazzarri",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/34700?v=4",
+      "profile": "http://milmazz.uno",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ]
 }
