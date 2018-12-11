@@ -369,6 +369,15 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "ccardensa",
+      "name": "Cristian K. Cárdenas",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25645113?v=4",
+      "profile": "https://cristiancardenas.cl",
+      "contributions": [
+        "example"
+      ]
     }
   ]
 }
