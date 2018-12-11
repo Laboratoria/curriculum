@@ -1,6 +1,6 @@
 {
   "projectName": "curricula-js",
-  "projectOwner": "lupomontero",
+  "projectOwner": "Laboratoria",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -15,8 +15,18 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/110297?v=4",
       "profile": "https://www.youtube.com/user/lupomontero",
       "contributions": [
+        "question",
+        "bug",
         "code",
-        "doc"
+        "doc",
+        "example",
+        "ideas",
+        "infra",
+        "plugin",
+        "review",
+        "test",
+        "tool",
+        "video"
       ]
     }
   ]
