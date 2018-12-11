@@ -205,6 +205,18 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "michellesegv",
+      "name": "Michelle Seguil",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10764912?v=4",
+      "profile": "https://michellesegv.github.io/",
+      "contributions": [
+        "bug",
+        "code",
+        "example",
+        "ideas"
+      ]
     }
   ]
 }
