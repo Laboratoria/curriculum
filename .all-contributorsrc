@@ -276,6 +276,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "aocsa",
+      "name": "Alexander Ocsa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3615859?v=4",
+      "profile": "https://www.linkedin.com/in/aocsa/",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
