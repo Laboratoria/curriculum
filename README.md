@@ -1,6 +1,6 @@
 # Bootcamp @Laboratoria
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/Laboratoria/curricula-js.svg?branch=master)](https://travis-ci.org/Laboratoria/curricula-js)
 
 ## Introducción
@@ -296,9 +296,6 @@ Toda contribución es **gratamente bienvenida**.
 Pero **POR FAVOR** no olvides leer detalladamente la
 [guía para contribuidores](CONTRIBUTING.md) antes de enviar un PR.
 
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ## Licencia & Copyright
 
 Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
@@ -314,8 +311,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/110297?v=4" width="100px;"/><br /><sub><b>Lupo Montero</b></sub>](https://www.youtube.com/user/lupomontero)<br />[💬](#question-lupomontero "Answering Questions") [🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Alupomontero "Bug reports") [💻](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Code") [📖](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Documentation") [💡](#example-lupomontero "Examples") [🤔](#ideas-lupomontero "Ideas, Planning, & Feedback") [🚇](#infra-lupomontero "Infrastructure (Hosting, Build-Tools, etc)") [🔌](#plugin-lupomontero "Plugin/utility libraries") [👀](#review-lupomontero "Reviewed Pull Requests") [⚠️](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Tests") [🔧](#tool-lupomontero "Tools") [📹](#video-lupomontero "Videos") |
-| :---: |
+| [<img src="https://avatars3.githubusercontent.com/u/110297?v=4" width="100px;"/><br /><sub><b>Lupo Montero</b></sub>](https://www.youtube.com/user/lupomontero)<br />[💬](#question-lupomontero "Answering Questions") [🐛](https://github.com/Laboratoria/curricula-js/issues?q=author%3Alupomontero "Bug reports") [💻](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Code") [📖](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Documentation") [💡](#example-lupomontero "Examples") [🤔](#ideas-lupomontero "Ideas, Planning, & Feedback") [🚇](#infra-lupomontero "Infrastructure (Hosting, Build-Tools, etc)") [🔌](#plugin-lupomontero "Plugin/utility libraries") [👀](#review-lupomontero "Reviewed Pull Requests") [⚠️](https://github.com/Laboratoria/curricula-js/commits?author=lupomontero "Tests") [🔧](#tool-lupomontero "Tools") [📹](#video-lupomontero "Videos") | [<img src="https://avatars3.githubusercontent.com/u/25286921?v=4" width="100px;"/><br /><sub><b>chamodev</b></sub>](https://github.com/chamodev)<br />[🤔](#ideas-chamodev "Ideas, Planning, & Feedback") [🌍](#translation-chamodev "Translation") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

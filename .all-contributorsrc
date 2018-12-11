@@ -28,6 +28,16 @@
         "tool",
         "video"
       ]
+    },
+    {
+      "login": "chamodev",
+      "name": "chamodev",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25286921?v=4",
+      "profile": "https://github.com/chamodev",
+      "contributions": [
+        "ideas",
+        "translation"
+      ]
     }
   ]
 }
