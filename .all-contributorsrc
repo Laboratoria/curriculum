@@ -356,6 +356,19 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "gaposx",
+      "name": "Gonzalo Parra",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/539819?v=4",
+      "profile": "https://github.com/gaposx",
+      "contributions": [
+        "question",
+        "bug",
+        "example",
+        "ideas",
+        "review"
+      ]
     }
   ]
 }
