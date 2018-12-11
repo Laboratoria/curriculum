@@ -408,6 +408,16 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "rlazo",
+      "name": "Rodrigo Lazo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/368578?v=4",
+      "profile": "https://github.com/rlazo",
+      "contributions": [
+        "example",
+        "ideas"
+      ]
     }
   ]
 }
