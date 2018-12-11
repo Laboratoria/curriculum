@@ -139,6 +139,16 @@
         "code",
         "example"
       ]
+    },
+    {
+      "login": "brecabal",
+      "name": "Belén Recabal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20929277?v=4",
+      "profile": "https://github.com/brecabal",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ]
 }
