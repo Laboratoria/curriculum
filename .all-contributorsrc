@@ -336,6 +336,16 @@
         "example",
         "ideas"
       ]
+    },
+    {
+      "login": "giancorzo",
+      "name": "Giancarlo Corzo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/501129?v=4",
+      "profile": "https://github.com/giancorzo",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ]
 }
