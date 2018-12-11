@@ -118,6 +118,17 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "MaiaRojas",
+      "name": "Maricarmen Rojas Tinco",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25912510?v=4",
+      "profile": "https://maiarojas.github.io/Portafolio_v1/",
+      "contributions": [
+        "bug",
+        "code",
+        "test"
+      ]
     }
   ]
 }
