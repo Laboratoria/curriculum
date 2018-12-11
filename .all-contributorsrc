@@ -76,6 +76,17 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "AnaSalazar",
+      "name": "Ana Steph",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25916511?v=4",
+      "profile": "https://anasalazar.github.io/",
+      "contributions": [
+        "question",
+        "bug",
+        "code"
+      ]
     }
   ]
 }
