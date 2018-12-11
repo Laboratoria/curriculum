@@ -325,6 +325,17 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "nicolethenerd",
+      "name": "Nicole Stein",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1126193?v=4",
+      "profile": "http://www.nicolethenerd.com",
+      "contributions": [
+        "code",
+        "example",
+        "ideas"
+      ]
     }
   ]
 }
