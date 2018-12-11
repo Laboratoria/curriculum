@@ -66,6 +66,16 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "diegovelezg",
+      "name": "Diego",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28717078?v=4",
+      "profile": "https://github.com/diegovelezg",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ]
 }
