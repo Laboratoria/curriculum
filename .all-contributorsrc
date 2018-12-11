@@ -314,6 +314,17 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "indie-rok",
+      "name": "Emmanuel Orozco",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5270810?v=4",
+      "profile": "http://emmanuelorozco.com",
+      "contributions": [
+        "bug",
+        "code",
+        "ideas"
+      ]
     }
   ]
 }
