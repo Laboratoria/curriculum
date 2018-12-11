@@ -378,6 +378,17 @@
       "contributions": [
         "example"
       ]
+    },
+    {
+      "login": "Jonhks",
+      "name": "Jonhks",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25328635?v=4",
+      "profile": "https://github.com/Jonhks",
+      "contributions": [
+        "bug",
+        "code",
+        "ideas"
+      ]
     }
   ]
 }
