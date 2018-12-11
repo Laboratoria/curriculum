@@ -195,6 +195,16 @@
         "example",
         "ideas"
       ]
+    },
+    {
+      "login": "nerdale",
+      "name": "Alexandra Neira",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20868992?v=4",
+      "profile": "https://github.com/nerdale",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ]
 }
