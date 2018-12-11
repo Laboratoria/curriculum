@@ -51,6 +51,21 @@
         "example",
         "review"
       ]
+    },
+    {
+      "login": "merunga",
+      "name": "Mariano Crowe",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/211721?v=4",
+      "profile": "https://github.com/merunga",
+      "contributions": [
+        "question",
+        "bug",
+        "code",
+        "doc",
+        "example",
+        "ideas",
+        "review"
+      ]
     }
   ]
 }
