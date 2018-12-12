@@ -51,16 +51,9 @@ ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
-<!-- * Indicadores de desarrollo del Banco Mundial de alguno de estos países:
-  [Brasil](src/data/worldbank/brazil.json),
-  [Chile](src/data/worldbank/chile.json),
-  [México](src/data/worldbank/mexico.json) y
-  [Perú](src/data/worldbank/peru.json). Estos datos incluyen indicadores
-  demográficos, económicos y comerciales.
-  -->
-* Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile,
-  México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
-  comerciales.
+* [Indicadores de desarrollo del Banco Mundial](src/data/worldbank/worldbank.json)
+  de algunos países (Brasil, Chile, México y Perú). Estos datos incluyen
+  indicadores demográficos, económicos y comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
