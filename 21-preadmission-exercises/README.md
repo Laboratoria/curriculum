@@ -1,4 +1,4 @@
-# Introdução à programação (com JavaScript)
+# Exercícios de JavaScript
 
 Em um mundo que rápidamente está se digitalizando, aprender a programar abre
 novas (e muitas vezes melhores) oportunidades. Com este curso você dará os seus
@@ -44,24 +44,10 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidade 01: [Introdução](00-introduction)
+### Unidade 01: [Exercícios](00-exercises)
 
-Seu primeiro contato com o mundo da tecnologia. Depois de uma breve introdução
-de boas vindas começaremos a explicar por que programar e você vai criar sua
-primeira página web!
-
-### Unidade 02: [Conteúdo](01-content)
-
-Esta unidade possui todo o conteúdo que será visto durante a pré-adimissão. Você
-irá aprender a estrutura de um site usando `HTML`, estilizar as suas páginas
-usando `CSS` e lógica de programação `JS` para deixar as suas páginas mais
-interativas.
-
-### Unidade 03: [Introdução a UX Design](02-ux-design)
-
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
-criar seu produto final, é importante que você conheça as técnicas de design da
-experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
+Esta unidade possui exercícios de JavaScript para avaliar o seu conhecimento
+adquirido.
 
 ...
 
