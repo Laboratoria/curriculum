@@ -8,7 +8,7 @@
 
 Cuando abrimos un emulador de terminal, normalmente nos encontramos (por
 defecto) en nuestra carpeta `HOME` (por ejemplo: `/home/<usuario>` en la mayoría
-de distribuciones de UNIX). El terminal siempre _está_ en el agun lugar del
+de distribuciones de UNIX). El terminal siempre _está_ en el algún lugar del
 sistema de archivos. Esto quiere decir que los comandos que ejecutemos se
 ejecutarán desde ese _lugar_ (la carpeta donde estemos).
 

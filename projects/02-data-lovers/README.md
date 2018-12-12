@@ -31,7 +31,7 @@ izquierda se puede construir una interfaz amigable y entendible por el usuario.
 
 ![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
-\* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
+\* Puedes ver el detalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
 y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
 ## Resumen del proyecto
@@ -51,14 +51,18 @@ ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
-* Indicadores de desarrollo del Banco Mundial de alguno de estos países:
+<!-- * Indicadores de desarrollo del Banco Mundial de alguno de estos países:
   [Brasil](src/data/worldbank/brazil.json),
   [Chile](src/data/worldbank/chile.json),
   [México](src/data/worldbank/mexico.json) y
   [Perú](src/data/worldbank/peru.json). Estos datos incluyen indicadores
   demográficos, económicos y comerciales.
+  -->
+* Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile,
+  México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
+  comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémones de la región de Kanto,
+  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
 * [Steam noticias](src/data/steam/steam.json):
   Lista noticias relacionadas a los videojuegos presentes en la
@@ -70,7 +74,7 @@ Estos son datos que te proponemos:
 * [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
   Este set nos muestra el número de personas heridas en accidentes de
   transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicileta, ...).
+  (aire, barco, automóvil, moto, bicicleta, ...).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
@@ -136,7 +140,7 @@ el problema (o problemas) que tiene tu usuario.
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
 todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
-de terminado (_definition o done_) para cada una.
+de terminado (_definition of done_) para cada una.
 
 ### Diseño de la Interfaz de Usuario
 
