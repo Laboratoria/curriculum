@@ -8,17 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-* Entender o que é `Git` e por que ele é importante
-* Criar sua conta no `GitHub`
-* Entender a diferença entre `Git` e `GitHub`
-* Instalar e configurar o `Git`
-* Aprender o _workflow_ de uma desenvolvedora
-* Compreender os conceitos básicos: repositórios local e remoto, _working
-  directory_, _staging area_ e _branches_
-* Saber utilizar os comandos essenciais: `init`,`status`, `add`, `commit`,
-  `push` e `pull`
-
-O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes referências:
+* Conteúdo sobre editores de texto usar VSCode
 
 * [Pro Git book](https://git-scm.com/book/en/v2)
 * [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
@@ -136,6 +126,10 @@ Para criar sua conta no GitHub, siga estes passos:
 
 E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
 
+Agora a Michelle, seguindo os passos acima, criará sua conta no GitHub.
+
+[![Criando uma conta no GitHub](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
+
 ## Como criamos um repositório remoto no GitHub?
 
 Siga os passos de Michelle para criar um repositório no GitHub:
@@ -152,53 +146,45 @@ Se estivermos usando Linux ou Mac OS X, não será necessário instalar o Git po
 
 Quando terminar o download do nosso programa, começaremos a instalação com um duplo clique no arquivo que acabamos de baixar e, em seguida, aparecerão as seguintes telas:
 
-1. Clique no botão "Next &gt;"
+1. Clique no botão "Run"
 
-   ![Passo 1 Git](https://i.imgur.com/6TZ7Mcv.png)
+   ![Passo 1, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
 
-2. Selecione o local da instalação e clique em "Next &gt;"
+2. Agora em "Next &gt;"
 
-   ![Passo 2 Git](https://i.imgur.com/leLJIjh.png)
+   ![Passo 2, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
 
-3. Selecione as mesmas opções e clique em "Next &gt;"
+3. Na tela que surgir, selecione as seguintes opções e clique em "Next &gt;":
 
-   ![Passo 3 Git](https://i.imgur.com/UtgDxYc.png)
+   ![Passo 3, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
 
-4. Clique em "Next &gt;"
+4. Selecione a opção "Use Git and optional Unix tools from the Windows Command Prompt" e clique em "Next &gt;"
 
-   ![Passo 4 Git](https://i.imgur.com/TRRtH3z.png)
+   ![Passo 4, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
 
-5. Selecione o Nano como o seu editor padrão e clique em "Next &gt;":
+5. Selecione a opção "Use the OpenSSL library" e continue \("Next &gt;"\)
 
-   ![Passo 5 Git](https://i.imgur.com/YhmQ2KV.png)
+   ![Passo 5, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
 
-6. Selecione a opção "Use Git from Git Bash only" e clique em "Next &gt;"
+6. Escolha a primeira opção e prossiga
 
-   ![Passo 6 Git](https://i.imgur.com/QcGk1Me.png)
+   ![Passo 6, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
 
-7. Selecione a opção "Use the OpenSSL library" e continue \("Next &gt;"\)
-   
-   ![Passo 7 Git](https://i.imgur.com/K3NfUUc.png)
+7. Certifique-se de escolher a opção "Use MinTTY"
 
-8. Selecione a segunda opção e prossiga
+   ![Passo 7, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
 
-   ![Passo 8 Git](https://i.imgur.com/v38efAw.png)
+8. Selecione as duas primeiras opções e clique em "Install"
 
-9. Certifique-se de escolher a opção "Use MinTTY"
+   ![Passo 8, instal&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
 
-   ![Passo 9 Git](https://i.imgur.com/PhUkeXX.png)
+9. Finalmente, a instalação começará
 
-10. Selecione as duas primeiras opções e clique em "Install"
+   ![Passo 9, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
 
-   ![Passo 10 Git](https://i.imgur.com/9JKkZjy.png)
+10. Com o Git já instalado em nosso computador, clique em "Finish"
 
-11. Finalmente, a instalação começará
-
-   ![Passo 11 Git](https://i.imgur.com/Lz06hWy.png)
-
-12. Com o Git já instalado em nosso computador, clique em "Finish"
-
-    ![Passo 12 Git](https://i.imgur.com/bd6QhOS.png)
+    ![Passo 10, instala&#xE7;&#xE3;o do Git](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
 
 ### O que é Git Bash?
 

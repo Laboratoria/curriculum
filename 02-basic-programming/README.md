@@ -34,11 +34,11 @@ Com este curso, você desenvolverá dois programas que têm aplicação em nosso
 
 ...
 
-### Unidade 02: [Arranjos (vetores - arrays)](02-arrays)
+### Unidade 02: [Arrays](02-arrays)
 
 ...
 
-### Unidade 03: [Objetos (objects)](03-objects)
+### Unidade 03: [Objects](03-objects)
 
 ...
 
