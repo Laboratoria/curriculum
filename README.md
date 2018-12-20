@@ -6,12 +6,25 @@
 ## Introducción
 
 Nuestro _bootcamp_ es un programa de formación inmersivo de 6 meses enfocado en
-**Front End Development** y **UX Design**. Nuestra metodología de aprendizaje
-trata de imitar el entorno de trabajo real y se centra en completar una serie de
-_proyectos_ de complejidad gradualmente creciente.
+**Front End Development** y **UX Design**. En Laboratoria, desde el 2016 
+identificamos que teníamos que introducir los valores y principios ágiles en el
+ aula y crear un modelo educativo diferente: uno que simule un entorno laboral 
+ ágil. Decidimos experimentar con un nuevo paradigma educativo que llamamos el 
+ [Salón de Clases Ágil](https://medium.com/laboratoria/agilidad-en-educaci%C3%B3n-6e92980fe200) .
 
-Cada _proyecto_ se acompaña con una serie de _tópicos_ sugeridos incluyendo
-materiales de aprendizaje por cuenta propia (_self-paced_).
+Nuestra metodología de aprendizaje se centra principalmente en completar una 
+serie de _proyectos_ de complejidad gradualmente creciente. Estos proyectos
+permiten a la estudiante ir desarrollando habilidades técnicas en complemento
+con habilidades socioemocionales. Dentro de estas últimas el 
+**Autoaprendizaje** es la más destacada para Laboratoria. Para nosotros es la 
+mejor manera de que nuestras estudiantes puedan no sólo obtener un trabajo al
+salir del bootcamp, si no que representa la mejor herramienta para 
+empezar una carrera en esta industria.
+
+En el siguiente esquema se grafican las habilidades que las estudiantes 
+desarrollan durante el Bootcamp.
+
+![maslow](http://i68.tinypic.com/14j2kgj.jpg)
 
 Los proyectos son evaluados por _coaches_ y _pares_ (_peers_) usando una
 [rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
@@ -23,13 +36,7 @@ blandas_, _habilidades técnicas_ y _ux_.
 El _mapa de aprendizaje/proyectos_ se divide en 4 _etapas_: **Admisión**,
 **Common Core**, **Track** (Front End Dev y UX Designer) y **Electivos**.
 
-```text
-                         => Track de Front End Dev => Electivos
-                       //
-Admisión => Common Core
-                       \\
-                         => Track de UX Designer => Electivos
-```
+![mapaproyectos](http://i64.tinypic.com/20fcnx0.jpg)
 
 ### Etapa 0: Admisión
 
