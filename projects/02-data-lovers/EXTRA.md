@@ -21,6 +21,12 @@ Para esta _segunda parte_, te planteamos las siguientes _reglas_:
      del hacker edition: _cargar la data usando `fetch`_ y/o _agregar gráficas
      con [`Chart.js`](https://www.chartjs.org/) o
      [`Google Charts`](https://developers.google.com/chart/)_.
+   - Si has _completado_ el proyecto y te gustaría explorar un poco más sobre
+     diseño de experiencia de usuario (UX Design), te proponemos hacer sesiones
+     de _testeos de usabilidad con usuarios_ e iteres el diseño del producto
+     basándote en el feedback de los usuarios, así podrás, además, reforzar 
+     tus conocimientos sobre heurísticas de usabilidad y principios de diseño
+     visual.
    - Si has avanzado más rápido y completado todo lo anterior, te propondremos
      que elijas una segunda [fuente de datos](README.md#resumen-del-proyecto)
      para hacer una nueva visualización o alternativamente refactorizar tu
