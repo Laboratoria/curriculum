@@ -24,7 +24,7 @@ bots. Puedes usarlo para crear una amplia variedad de interfaces de usuario
 conversacionales, desde simples avisos hasta conversaciones complejas.
 
 La lógica conversacional de los bot está alojada como un servicio web. El SDK de
-Bot Builder usa restify, una librería muy popular para crear servicios web, en
+Bot Builder usa restify, una biblioteca muy popular para crear servicios web, en
 este caso nos ayudará a crear el servicio web de nuestros bots.
 
 Con el SDK, puedes aprovechar las siguientes características:

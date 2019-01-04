@@ -20,7 +20,7 @@ reto necesitamos hacer un poco de Node.js (back-end), así que usaremos [Heroku]
 ## Recursos
 
 - Para llevar a cabo este chat y no hacer la implementación desde cero, usaremos
-  una librería llamada [Socket.io](https://socket.io/)
+  una biblioteca llamada [Socket.io](https://socket.io/)
 - [Tutorial de chat con Socket.io](https://socket.io/get-started/chat/)
 - Aqui encontrarás el material para [desplegar el proyecto en HEROKU](https://medium.com/laboratoria-how-to/heroku-con-haikus-dab32b5c428d)
 

@@ -114,7 +114,7 @@ Este proyecto se debe "resolver" de forma individual.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
-En este proyecto SI está permitido usar librerías o frameworks
+En este proyecto SI está permitido usar bibliotecas o frameworks
 (debes elegir entre [React](https://reactjs.org/), [Vue](https://vuejs.org/) o
 [Angular](https://angular.io/)).
 

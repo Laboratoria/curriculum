@@ -231,16 +231,16 @@ Features/características extra sugeridas:
   `fetch`. La carpeta `src/data` contiene una versión `.js` y una `.json` de
   de cada set datos.
 * Agregarle a tu interfaz de usuario implementada visualizaciones gráficas. Para
-  ello te recomendamos explorar librerías de gráficas como [Chart.js](https://www.chartjs.org/)
+  ello te recomendamos explorar bibliotecas de gráficas como [Chart.js](https://www.chartjs.org/)
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
 ## Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
+(ES6), HTML y CSS. En este proyecto NO está permitido usar bibliotecas o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-con la excepción de librerías para hacer gráficas (charts); ver
+con la excepción de bibliotecas para hacer gráficas (charts); ver
 [_Parte opcional_](#parte-opcional-hacker-edition) más arriba.
 
 No se debe utilizar la _pseudo-variable_ `this`.

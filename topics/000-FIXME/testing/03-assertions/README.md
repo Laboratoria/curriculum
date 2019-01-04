@@ -111,14 +111,14 @@ Como vemos los tests se comportan como esperábamos!
 
 Este ejemplo es ilustrativo, pero en el mundo real probablemente no vas a querer
 implementar tu propio código de aserciones (no solo de igualdad, si no todo tipo
-de comparaciones). Lo más común es usar una dependencia externa (una librería o
+de comparaciones). Lo más común es usar una dependencia externa (una biblioteca o
 módulo) como veremos en los próximos ejemplos.
 
 ## Módulo assert de Node.js
 
 Node.js incluye su propio módulo de aserciones sin necesidad de tener que
 instalar ninguna dependencia. Si estás corriendo tus tests en Node.js, es muy
-común usar este módulo (`assert`), a menos de que la librería o framework que
+común usar este módulo (`assert`), a menos de que la biblioteca o framework que
 estés usando ya incluya su propio sistema de aserciones (por ejemplo `Jest`).
 
 Reemplacemos nuestra función `assertEqual` con el módulo `assert` de Node.js:
@@ -148,7 +148,7 @@ describe('isVowel()', () => {
 
 Mocha no incluye una interfaz para aserciones, y en el navegador no tenemos el
 módulo `assert` de Node.js. Así que es muy común usar Mocha en conjunto con
-`Chai`, que es una librería de aserciones que nos ofrece varias interfaces,
+`Chai`, que es una biblioteca de aserciones que nos ofrece varias interfaces,
 entre ellas una muy parecida al `assert` de Node.js:
 
 ```js

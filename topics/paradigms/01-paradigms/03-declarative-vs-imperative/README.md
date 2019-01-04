@@ -81,7 +81,7 @@ También podemos ver cómo "encadenamos" (method chaining) las invocaciones de
 `filter` y `map` ya que ambas retornan un array, que a su vez tiene todos los
 métodos de `Array.prototype`.
 
-El estilo declarativo depende de que el lenguaje (o librerías) nos ofrezcan este
+El estilo declarativo depende de que el lenguaje (o bibliotecas) nos ofrezcan este
 tipo de herramientas o abstracciones con las que poder expresar nuestra lógica
 sin preocuparnos tanto sobre los detalles de implementación.
 

@@ -77,7 +77,7 @@ TIPS:
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript
   (ES6), HTML y CSS.
-* Está permitido usar librerías o frameworks tanto de CSS como de JS, pero no es
+* Está permitido usar bibliotecas o frameworks tanto de CSS como de JS, pero no es
   obligatorio. Elige bien las batallas que quieres luchar.
 * En este proyecto, no contamos con un boilerplate, por lo que deberás definir
   la estructura de carpetas y archivos que consideres necesaria, puedes guiarte

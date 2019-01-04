@@ -8,7 +8,7 @@
 
 En esta unidad aprenderemos:
 
-* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en
+* ¿Qué son los objetos globales, objetos preconstruidos o bibliotecas estándar en
   JavaScript?
 * ¿Por qué utilizarlos?
 
@@ -26,12 +26,12 @@ El término "objetos globales" (u objetos preconstruidos estándar) no debe
 confundirse con el objeto global en sí. Aquí, los objetos globales se refieren a
 objetos en el [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
 Estos objetos y funciones que vienen con JavaScript pero que no son parte del
-lenguaje en sí, también se conocen como la _librería estándar_ (standard
-library) ya que siempre podemos contar con ellos. Son librerías que no tenemos
+lenguaje en sí, también se conocen como la _biblioteca estándar_ (standard
+library) ya que siempre podemos contar con ellos. Son bibliotecas que no tenemos
 que importar y siempre están disponibles, independientemente del entorno donde
 se ejecute nuestro código (navegador, node, ...).
 
-### ¿Por qué usar la librería estándar?
+### ¿Por qué usar la biblioteca estándar?
 
 Hay muchas funciones disponibles para ayudarte a escribir un programa bueno
 y eficiente. Como desarrolladores de software, nuestro trabajo es encontrar
@@ -40,20 +40,20 @@ vamos a definirlo como "funciona, es eficiente (suficiente), es relativamente
 fácil de entender y no tarda demasiado en implementarse".
 
 ¿Cuánto tardarías en escribir una función que corte una cadena o verifique si
-un número es positivo? Muchas funciones que encontraras en una librería
+un número es positivo? Muchas funciones que encontraras en una biblioteca
 estándar son probablemente triviales por naturaleza, pero tener un estándar
 acordado para hacer las cosas acelerará la implementación del código (habrá
 menos instancias de "¿hay una función para esto o debería codificarla yo
 mismo?") Además otras personas que leen tu código pueden concentrarse en
 aprender sobre las dependencias que realmente importan y no invertir su tiempo
-en entender librerías que consumes para una sola línea de código.
+en entender bibliotecas que consumes para una sola línea de código.
 
-### Ventajas más importantes de usar funciones de librería estándar
+### Ventajas más importantes de usar funciones de biblioteca estándar
 
 * Funcionan
 
     Una de las razones más importantes por las que debes usar las funciones de
-    la librería estándar es simplemente porque funcionan, ya han pasado por
+    la biblioteca estándar es simplemente porque funcionan, ya han pasado por
     múltiples pruebas rigurosas y son fáciles de usar.
 
 * Están optimizadas para el rendimiento

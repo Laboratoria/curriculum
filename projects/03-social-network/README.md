@@ -46,7 +46,7 @@ Algunos objetivos específicos:
 Este proyecto se debe "resolver" en tríos.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
+(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar bibliotecas o
 frameworks, pero **no es obligatorio** :smiley:.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
@@ -157,7 +157,7 @@ El corazón de este proyecto incluye:
 
 Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
-* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
+* Recuerda que puedes usar una biblioteca o  framework si así lo desea el equipo,
   al navegar en internet te darás cuenta de que algunas de estas construyen un
   **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
 * Recuerda que no hay un setup de **tests** definido, dependerá de
@@ -380,7 +380,7 @@ URL) y links tradicionales, manteniendo estado en memoria y rederizando
 condicionalmente (sin refrescar la página), [manipulando el historial del
 navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
 con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history),
-usando una librería (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
+usando una biblioteca (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
 o [`vue-router`](https://router.vuejs.org/)). En este proyecto te invitamos a
 explorar opciones y decidir una opción de implementación.
 

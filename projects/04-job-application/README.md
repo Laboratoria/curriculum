@@ -41,7 +41,7 @@ la suerte, sólo la práctica y el esfuerzo te ayudarán a conseguir un trabajo.
 
 * Debe completarse de manera individual.
 * A menos que la descripción de alguna parte lo diga explícitamente, no está
-  permitido el uso de librerías o frameworks.
+  permitido el uso de bibliotecas o frameworks.
 * Debes seguir la [guía de estilos de Airbnb](https://github.com/airbnb/javascript).
 * Deberás avanzar paso a paso por el proceso de postulación. Si no has
   completado la primera parte, no puedes avanzar a la segunda y así

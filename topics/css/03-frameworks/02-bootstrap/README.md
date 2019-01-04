@@ -42,7 +42,7 @@ HTML para que funcione.
 
 Hablando de CDN, necesitamos entender: __¿Qué es CDN?__
 
-Imagina que quieres usar el CSS de Bootstrap o de alguna otra librería.
+Imagina que quieres usar el CSS de Bootstrap o de alguna otra biblioteca.
 Podríamos simplemente descargar el archivo .css o .js y agregarlo a nuestro
 HTML. Pero, ¿que pasa si este archivo __NO__ esta en nuestra computadora si no
 en algún lugar de internet?

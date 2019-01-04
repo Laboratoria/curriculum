@@ -13,15 +13,15 @@
 ## Conclusiones
 
 En esta segunda parte de la unidad, hemos visto cómo realizar una petición HTTP
-asíncrona a través de jQuery. Las ventajas que nos da usar una librería como
+asíncrona a través de jQuery. Las ventajas que nos da usar una biblioteca como
 esta es ahorrarnos tiempo y código para la configuración que se haría
 nativamente a través del objeto `XMLHTTPRequest` además de la verificación
 de compatibilidad entre navegadores.
 
 En una de las lecturas, se hizo la mención a que si era conveniente usar jQuery
-para estas peticiones asíncronas y expresamos esto debido a que ésta librería
+para estas peticiones asíncronas y expresamos esto debido a que ésta biblioteca
 no está dedicada a solo esto sino a más. La respuesta es que en la actualidad
-se prefiere usar microlibrerías (librerías mucho más pequeñas) que cumplan un
+se prefiere usar microbibliotecas (bibliotecas mucho más pequeñas) que cumplan un
 propósito específico como manejar peticiones asíncronas. Además de esto, HTML5
 provee una nueva API como reemplazo a `XMLHTTPRequest` que hace el manejo de
 estas peticiones mucho más sencillas. Acá te dejamos una lista para que
@@ -32,8 +32,8 @@ retos con estas nuevas herramientas?
   esta es la nueva API que provee HTML5 para realiar peticiones asíncronas y
   está basada en `promises`.
 - **[SuperAgent](https://github.com/visionmedia/superagent)** es una
-  microlibrería especializada en hacer peticiones HTTP asíncronas.
-- **[axios](https://github.com/axios/axios)** es una microlibrería que a
+  microbiblioteca especializada en hacer peticiones HTTP asíncronas.
+- **[axios](https://github.com/axios/axios)** es una microbiblioteca que a
   diferencia de la anterior, esta está basada en promesas.
 
 Estas no son las únicas herramientas que existen para realizar peticiones

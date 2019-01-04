@@ -18,20 +18,20 @@ pero desde una perspectiva de performance y buenas prácticas conociendo ciertas
 peculiaridades de JavaScript que lo hace distinto a los demás lenguajes de
 programación.
 
-El objetivo práctico de este reto es que aprendas cómo crear tu propia librería
-(o biblioteca - _library_) en JavaScript. Como desarrolladorxs, estamos
-constantemente usando _módulos_ de terceros, ya sean librerías, frameworks o la
-_librería estándar_ (standard library) tanto del lenguaje en sí como el
+El objetivo práctico de este reto es que aprendas cómo crear tu propia biblioteca
+en JavaScript. Como desarrolladorxs, estamos
+constantemente usando _módulos_ de terceros, ya sean bibliotecas, frameworks o la
+_biblioteca estándar_ (standard library) tanto del lenguaje en sí como el
 entorno/motor de ejecución (el navegador, node.js, ...).
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
+Diseñar tu propia biblioteca es una experiencia fundamental para cualquier
 desarrollador ya que te obliga a pensar en la interfaz (API) de tus módulos,
 cómo serán usados por otras personas, ... y tener especial consideración en
 peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ## ...
 
-El objetivo central de este curso es construir una librería (_library_) que
+El objetivo central de este curso es construir una biblioteca que
 responda a los requisitos de uno de los retos detallados más abajo.
 
 El reto se hará en grupos de dos alumnas y será presentado al final del curso en
@@ -48,7 +48,7 @@ Todos los retos deben incluir por los menos los siguientes archivos:
   documentación del API.
 * `index.js`: Librería debe exportar una función u objeto al entorno global
   (`window`) y hacer uso de _features_ de ES6 donde sea apropiado.
-* `index.html`: Página web de la librería con ejemplo funcionando.
+* `index.html`: Página web de la biblioteca con ejemplo funcionando.
 * `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...)
 * `.eslintrc` con configuración para linter (ver [guía de estilo de
@@ -58,7 +58,7 @@ Todos los retos deben incluir por los menos los siguientes archivos:
 
 Hacker edition (opcional):
 
-* Si la librería está dirigida al navegador, debe adherirse al patrón
+* Si la biblioteca está dirigida al navegador, debe adherirse al patrón
   [UMD](https://github.com/umdjs/umd) para poder ser usado con AMD, CommonJS y
   como variable global del navegador.
 * Integración continua con Travis o Circle CI

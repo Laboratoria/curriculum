@@ -81,7 +81,7 @@ más popularmente conocidas como `strings`.
 ### Unidad 07: [Built-ins (standard library)](07-built-ins)
 
 Existen algunos objetos y funciones especiales que vienen con JavaScript pero
-que no son parte del lenguaje en sí. Se conocen como la _librería estándar_
+que no son parte del lenguaje en sí. Se conocen como la _biblioteca estándar_
 (standard library) ya que siempre podemos contar con ellos.
 
 ### Unidad 08: [Asincronía](08-async)

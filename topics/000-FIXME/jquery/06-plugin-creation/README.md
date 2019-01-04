@@ -9,8 +9,8 @@
 Tras un tiempo trabajando con jQuery es frecuente que empecemos a tener
 funciones de javascript propias que siempre usamos.
 Una buena forma de integrar dichos trozos de código en jQuery es crear una
-librería con un plugin, de forma que a partir de ese momento podremos importar
-la librería en nuestros proyectos y que este siempre disponible.
+biblioteca con un plugin, de forma que a partir de ese momento podremos importar
+la biblioteca en nuestros proyectos y que este siempre disponible.
 Los desarrolladores de jQuery tienen definida una API y un listado de buenas
 prácticas que deberemos seguir a la hora de crear un plugin.
 

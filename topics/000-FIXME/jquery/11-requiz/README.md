@@ -17,7 +17,7 @@
 
 #### Opciones
 
-1. jQuery es una librería de JavaScript rápida, pequeña y con muchas funciones.
+1. jQuery es una biblioteca de JavaScript rápida, pequeña y con muchas funciones.
 2. jQuery un lenguaje de programación inspirado en JavaScript que ayuda a programar de forma rápida y rica en funciones.
 3. jQuery un framework de JavaScript que ayuda a programar de forma rápida y rica en funciones.
 
@@ -49,7 +49,7 @@
 #### Opciones
 
 1. Descargando el CDN y agregando el link a nuestro HTML
-2. Descargando la librería jQuery
+2. Descargando la biblioteca jQuery
 3. Incluyendo jQuery desde un CDN local
 
 <solution style="display:none;">2</solution>

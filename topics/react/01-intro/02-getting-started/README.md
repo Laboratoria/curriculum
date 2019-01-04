@@ -58,7 +58,7 @@ permita identificarlo unívocamente.
 </body>
 ```
 
-Como con cualquier otra librería (por ejemplo `jQuery`), antes de poder utilizar
+Como con cualquier otra biblioteca (por ejemplo `jQuery`), antes de poder utilizar
 `React`, necesitamos importarlo en nuestra página. Para ello puedes descargarte
 una [copia de `React`](https://github.com/facebook/react/releases/latest)
 y referenciar localmente los scripts; o, como haremos nosotros en este ejemplo,

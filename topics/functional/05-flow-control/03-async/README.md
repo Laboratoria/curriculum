@@ -365,7 +365,7 @@ performTasks(fileName,
 ### Librerías Async
 
 Si estás utilizando un montón de funciones asíncronas, puede valer la pena
-utilizar una librería o biblioteca de funciones asíncronas, en lugar de tener
+utilizar una biblioteca o biblioteca de funciones asíncronas, en lugar de tener
 que crear tus propias funciones de utilidad.
 [Async.js](https://github.com/caolan/async) es una biblioteca popular
 que tiene muchas herramientas útiles para tratar el código asíncrono.
@@ -374,7 +374,7 @@ que tiene muchas herramientas útiles para tratar el código asíncrono.
 
 Las promesas o _promises_ son una forma popular de deshacerse del infierno de
 _callback_. Originalmente se trataba de un tipo de constructo introducido por
-librerías _JavaScript_ como `Q` y `when.js`, pero estos tipos de librerías
+bibliotecas _JavaScript_ como `Q` y `when.js`, pero estos tipos de bibliotecas
 se volvieron lo suficientemente populares como para que _promises_ se
 proporcionan de forma nativa en ECMAScript 2015.
 

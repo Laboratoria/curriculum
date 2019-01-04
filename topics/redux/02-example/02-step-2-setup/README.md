@@ -24,7 +24,7 @@ casos simples es generalmente más rápido comenzar de arriba hacia abajo, y en
 proyectos mas grandes, es más simple comenzar por abajo e ir escribiendo test a
 medida que vas subiendo escalones.
 
-Al final de este proceso tendras una librería de componentes reusables que
+Al final de este proceso tendras una biblioteca de componentes reusables que
 renderizan tus datos. El componente más arriba en la jerarquía
 (`FilterableProductTable`) recibirá la data como una prop. Si realizas un
 cambio en el JSON de productos, estos cambios se verán inmediatamente reflejados

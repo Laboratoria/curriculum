@@ -16,7 +16,7 @@ Llegamos al final de la unidad ;-)
 * Qué es un framework de testing?
 * Cómo escribir tests usando la interfaz BDD (`describe()`, `it()`, ...) de
   `mocha`.
-* Cómo usar la librería standard de Node.js para aserciones con el módulo
+* Cómo usar la biblioteca standard de Node.js para aserciones con el módulo
   `assert`.
 * Cómo usar las aserciones de `chai`.
 * Cómo correr tests en un entorno de navegador de forma automatizada con

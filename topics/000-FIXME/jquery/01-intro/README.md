@@ -18,7 +18,7 @@ de CSS, pero en realidad conocemos muy poco de él, así que en esta lección
 vamos a profundizar en su información para poder conocerlo mejor y entonces ver
 si lo incluimos en nuestro círculo de nuevas amistades o no.
 
-[jQuery](https://jquery.com/) es una librería de JavaScript (**no** es un
+[jQuery](https://jquery.com/) es una biblioteca de JavaScript (**no** es un
 **framework**) y nos ofrece las siguientes características:
 
 - Facilita la manera de interactuar con los documentos HTML
@@ -31,7 +31,7 @@ si lo incluimos en nuestro círculo de nuevas amistades o no.
 
 Para incluirlo en nuestro proyecto contamos con dos opciones:
 
-1. [Descargando](http://jquery.com/download/) la librería de jQuery e
+1. [Descargando](http://jquery.com/download/) la biblioteca de jQuery e
    incluirla en el proyecto.
 
    ```html
@@ -46,7 +46,7 @@ Para incluirlo en nuestro proyecto contamos con dos opciones:
 
 Debemos recordar enlazar nuestro jQuery antes que otros scripts,
 ya que muchos frameworks e incluso nuestro propio código dependerán de
-esta librería.
+esta biblioteca.
 
 ### Ok, ya queremos usarlo
 

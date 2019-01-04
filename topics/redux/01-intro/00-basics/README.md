@@ -17,17 +17,17 @@ Nos ayuda a escribir aplicaciones que:
 Y además nos provee de una gran experiencia de desarrollo con, por ejemplo,
 [*"live coding"* y *"time traveling debugger"*](https://github.com/gaearon/redux-devtools).
 
-Como `Redux` es una librería, puede manejar el estado de cualquier tipo de
+Como `Redux` es una biblioteca, puede manejar el estado de cualquier tipo de
 aplicación en JavaScript, y si bien no necesita de `React` para funcionar,
-`React` + `Redux` forman el tandem perfecto. Y además `Redux` es una librería
+`React` + `Redux` forman el tandem perfecto. Y además `Redux` es una biblioteca
 diminuta (2kb).
 
 El patrón de diseño de "UI manager" + "State manager" es muy popular actualmente
 en la comunidad de JavaScript, porque ha demostrado que es una forma consistente
 de organizar nuestras aplicaciones.
 
-Hoy por hoy hay infinidad de librerías para elegir, y por ejemplo podríamos
-cambiar `React` por otra librería para UI como [Vue](https://github.com/vuejs/vue)
+Hoy por hoy hay infinidad de bibliotecas para elegir, y por ejemplo podríamos
+cambiar `React` por otra biblioteca para UI como [Vue](https://github.com/vuejs/vue)
 o [Polymer](https://github.com/Polymer/polymer). Y de la misma manera con
 `Redux`, podríamos usar [mobx](https://github.com/mobxjs/mobx) o
 [cerebral](https://github.com/cerebral/cerebral)
@@ -136,7 +136,7 @@ function todoApp(state = {}, action) {
 ```
 
 Y esto es básicamente `Redux`. Fíjate que para hacer esto no hemos usado ni una
-sola función de la librería. Redux provee algunas _herramientas_ que facilitan
+sola función de la biblioteca. Redux provee algunas _herramientas_ que facilitan
 trabajar con este patrón, pero la idea principal es que puedas describir como va
 evolucionando el _estado_ de tu aplicación en respuesta a los actions. Alrededor
 del 90% de tu código será _Vanilla Javascript_, sin usar ninguna funcionalidad

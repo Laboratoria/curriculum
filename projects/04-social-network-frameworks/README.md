@@ -1,13 +1,13 @@
-# Rehaciendo tu red social usando librerías y frameworks
+# Rehaciendo tu red social usando bibliotecas y frameworks
 
 ## Preámbulo
 
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
-son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
+son algunos de los _frameworks_ y _bibliotecas_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
 es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Al elegir un _framework_ o _librería_ para nuestra interfaz, nos apoyamos en una
+Al elegir un _framework_ o _biblioteca_ para nuestra interfaz, nos apoyamos en una
 serie de convenciones e implementaciones _probadas_ y _documentadas_ para
 resolver un problema común a toda interfaz web. Esto nos permite concentrarnos
 mejor (dedicar más tiempo) en las caractrísticas _específicas_ de
@@ -27,7 +27,7 @@ los que trabajes.
 ## Introducción
 
 En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
-la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
+la _Red Social_, pero esta vez usando un _framework_ o una _biblioteca_.
 
 Creemos que la mejor manera de enfrentarte a estas herramientas es
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
@@ -41,7 +41,7 @@ incluyendo la parte de Hacker Edition pero excluyendo la parte de UX.
 ## Objetivos
 
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
-usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva:
+usando el _framework_ o _biblioteca_ elegido, y todo lo que ello conlleva:
 **documentación**, **arquitectura**, **principios de diseño**, **paradigma**,
 **abstracciones**, **vocabulario**, **herramientas**, **comunidad**, ...
 

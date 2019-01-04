@@ -47,7 +47,7 @@ una base datos** (MongoDB), **variables de entorno**, ...
 ## Consideraciones generales
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto está permitido usar librerías o frameworks.
+En este proyecto está permitido usar bibliotecas o frameworks.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 70% de _branches_. El _boilerplate_ ya contiene el

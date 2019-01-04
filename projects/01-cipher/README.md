@@ -66,7 +66,7 @@ integral.
 ## Consideraciones generales
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto NO está permitido usar librerías o frameworks, sólo
+En este proyecto NO está permitido usar bibliotecas o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.

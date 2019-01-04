@@ -23,7 +23,7 @@
 1. Un lenguaje de programación
 2. Un framework
 3. Una hoja de estilo
-4. Una librería open source desarrollada por Facebook
+4. Una biblioteca open source desarrollada por Facebook
 
 <solution style="display:none;">4</solution>
 

@@ -63,7 +63,7 @@ Main.propTypes = {
 export default Main
 ```
 
-`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo
+`FilterableProductTable` va a ser nuestra biblioteca, así que creamos un archivo
 `lib/FilterableProductTable/components/index.js` con el siguiente contenido.
 
 > Más adelante entederás por qué elegimos esta estructura de carpetas.

@@ -21,7 +21,7 @@
 #### Opciones
 
 1. Un lenguaje de programación
-2. Una librería
+2. Una biblioteca
 3. Un framework
 
 <solution style="display:none;">2</solution>
@@ -51,7 +51,7 @@
 #### Opciones
 
 1. Descargando el CDN y agregandolo a nuestro HTML
-2. Descargando la librería jQuery
+2. Descargando la biblioteca jQuery
 3. Incluyendo jQuery desde un CDN
 
 <solution style="display:none;">2,3</solution>

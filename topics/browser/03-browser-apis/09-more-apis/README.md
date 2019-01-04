@@ -116,7 +116,7 @@ el servidor y en el cliente para establecer una conexión de Web Sockets. Esto
 puede ser un poco complicado sobre todo porque la implementación varía en el
 back-end dependiendo del lenguaje y varía en el cliente por la compatibilidad
 entre navegadores. Para hacer probar esta API de una manera sencilla, podrías
-usar Node.js (JavaScript del lado del servidor) y una librería que funcione en
+usar Node.js (JavaScript del lado del servidor) y una biblioteca que funcione en
 ambos lados (cliente y servidor) como [socket.io](https://socket.io/).
 
 #### Retos

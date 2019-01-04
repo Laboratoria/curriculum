@@ -18,7 +18,7 @@ En esta unidad aprenderemos:
 
 En la lección anterior, nuestro nuevo mejor amigo (los frameworks de CSS) nos
 presentó a jQuery aunque nunca nos dijo todas las maravillas que tiene esta
-biblioteca (librería).
+biblioteca.
 
 jQuery nos hace mucho más fácil el desarrollo de la funcionalidad y la
 interacción, por lo tanto eso significa que ahorramos tiempo, líneas de código

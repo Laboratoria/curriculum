@@ -10,7 +10,7 @@ programación reactiva entre otros. La programación funcional (_Functional
 Programming_ o FP por sus siglas en inglés) no es realmente un paradigma nuevo,
 existe desde hace medio siglo, pero recientemente, y en particular en el mundo
 de JavaScript, se ha convertido en tanto una moda como una necesidad. Poco a
-poco, desde la proliferación de librerías como [underscore][] y [lodash][],
+poco, desde la proliferación de bibliotecas como [underscore][] y [lodash][],
 después la adición de `map()`, `filter()`, `reduce()` y compañía, y ahora con
 _frameworks_ como [React][] y [Redux][], conocer el paradigma funcional y estilo
 declarativo se han convertido en una necesidad para cualquier desarrollador de

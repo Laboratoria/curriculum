@@ -58,7 +58,7 @@ definiendo los colores o fuentes. Por último puedes replicar el diseño de la
 1. Agregar la hora en que se publicó el tweet. En el formato de 24 horas: `hh:mm`.
 
 > Nota: Para dar formato a la fecha y hora, puedes crear tu propia función o
-> usar una librería como [`moment.js`](https://momentjs.com/).
+> usar una biblioteca como [`moment.js`](https://momentjs.com/).
 
 ## 2. Trello
 

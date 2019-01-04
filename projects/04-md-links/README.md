@@ -34,9 +34,9 @@ sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 ## Objetivos
 
 El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
-**librería** (o biblioteca - _library_) en JavaScript.
+**biblioteca** en JavaScript.
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
+Diseñar tu propia biblioteca es una experiencia fundamental para cualquier
 desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
@@ -55,8 +55,8 @@ parsing,
 
 Este proyecto se debe "resolver" de manera individual.
 
-La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js. **Está permitido usar librerías externas**.
+La biblioteca debe estar implementada en JavaScript para ser ejecutada con
+Node.js. **Está permitido usar bibliotecas externas**.
 
 ## Parte obligatoria
 
@@ -84,7 +84,7 @@ considere necesarios.
 
 - `README.md` con descripción del módulo, instrucciones de instalación/uso,
   documentación del API y ejemplos. Todo lo relevante para que cualquier
-  developer que quiera usar tu librería pueda hacerlo sin inconvenientes.
+  developer que quiera usar tu biblioteca pueda hacerlo sin inconvenientes.
 - `index.js`: Desde este archivo debes exportar una función (`mdLinks`).
 - `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...)
@@ -283,7 +283,7 @@ Laboratoria/course-parser`.
 La implementación de este proyecto tiene varias partes: leer del sistema de
 archivos, recibir argumentos a través de la línea de comando, analizar texto,
 hacer consultas HTTP, ... y todas estas cosas pueden enfocarse de muchas formas,
-tanto usando librerías como implementando en VanillaJS.
+tanto usando bibliotecas como implementando en VanillaJS.
 
 Por poner un ejemplo, el _parseado_ (análisis) del markdown para extraer los
 links podría plantearse de las siguientes maneras (todas válidas):
@@ -295,7 +295,7 @@ links podría plantearse de las siguientes maneras (todas válidas):
   [expresiones regulares (`RegExp`)](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions).
 - También podríamos usar una combinación de varios _módulos_ (podría ser válido
   transformar el markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
-  y de ahí extraer los link con una librería de DOM como [JSDOM](https://github.com/jsdom/jsdom)
+  y de ahí extraer los link con una biblioteca de DOM como [JSDOM](https://github.com/jsdom/jsdom)
   o [Cheerio](https://github.com/cheeriojs/cheerio) entre otras).
 - Usando un _custom renderer_ de [marked](https://github.com/markedjs/marked)
   (`new marked.Renderer()`).
@@ -321,7 +321,7 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 - [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
 - [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
 - [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-- [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
+- [Módulos, bibliotecas, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
 - [Asíncronía en js](https://carlosazaustre.com/manejando-la-asincronia-en-javascript/)
 - [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
 - [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
@@ -339,9 +339,9 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 
 ### `README.md`
 
-- [ ] Un board con el backlog para la implementación de la librería.
-- [ ] Documentación técnica de la librería.
-- [ ] Guía de uso e instalación de la librería
+- [ ] Un board con el backlog para la implementación de la biblioteca.
+- [ ] Documentación técnica de la biblioteca.
+- [ ] Guía de uso e instalación de la biblioteca
 
 ### API `mdLinks(path, opts)`
 

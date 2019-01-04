@@ -21,7 +21,7 @@ Hay un par de casos de uso válidos para usar refs:
 * Manejar el foco, la selección de texto, o la reproducción de contenido
   multimedia.
 * Disparar animaciones imperativas.
-* Integrarnos con librerías externas.
+* Integrarnos con bibliotecas externas.
 
 > NOTA:
 >

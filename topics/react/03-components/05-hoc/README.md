@@ -291,7 +291,7 @@ const enhance = compose(
 const EnhancedComponent = enhance(WrappedComponent);
 ```
 
-El utilitario `compose` es provisto por varias librerías incluyendo lodash
+El utilitario `compose` es provisto por varias bibliotecas incluyendo lodash
 ([`lodash.flowRight`](https://lodash.com/docs/#flowRight)),
 [Redux](http://Redux.js.org/docs/api/compose.html), y
 [Ramda](http://ramdajs.com/docs/#compose).

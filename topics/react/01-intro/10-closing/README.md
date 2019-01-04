@@ -9,7 +9,7 @@
 ## Resumen
 
 En esta unidad introducimos `React` en general, cómo funciona a nivel conceptual
-la librería, y cómo podemos usar JSX para trabajar más fácilmente y de una
+la biblioteca, y cómo podemos usar JSX para trabajar más fácilmente y de una
 manera más natural con el código de `React`.
 
 Hemos visto cómo añadir React y React DOM a una página web, y lo más importante,
@@ -18,7 +18,7 @@ interfaces compuestas de componentes.
 
 ## Respondamos juntxs las preguntas de la apertura
 
-* ¿Que diferencia hay entre una *librería* y un *framework*?
+* ¿Que diferencia hay entre una *biblioteca* y un *framework*?
 * ¿Qué es `React` y para qué sirve?
 * ¿Por qué decimos que `React` nos permite definir interfaces de una manera
   "declarativa"?

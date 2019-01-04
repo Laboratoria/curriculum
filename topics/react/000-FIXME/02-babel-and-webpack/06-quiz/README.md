@@ -20,10 +20,10 @@
 
 #### Opciones
 
-1. Es una librería de Javascript
+1. Es una biblioteca de Javascript
 2. Es una herramienta que nos permite escribir pseudo-código
 3. Es una herramienta que traduce código de un lenguaje a otro
-4. Es una librería open source desarrollada por Facebook
+4. Es una biblioteca open source desarrollada por Facebook
 
 <solution style="display:none;">3</solution>
 

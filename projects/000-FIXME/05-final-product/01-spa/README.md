@@ -40,7 +40,7 @@ manejado por el navegador y no necesita refrescar la página entera.
 
 #### Ejemplo
 
-Si vamos a la documentación de una librería para manejo de rutas en JavaScript
+Si vamos a la documentación de una biblioteca para manejo de rutas en JavaScript
 como [Page.js](https://visionmedia.github.io/page.js/) podemos encontrar
 ejemplos como el siguiente. Presta especial atención a la URL que muestra en el
 navegador en cada interacción con los enlaces.
@@ -159,6 +159,6 @@ dejamos un video (en inglés) de nuestros amigos de Udacity.
 
 Por último, por si quieres revisar qué frameworks existen o comenzar a comparar
 algunos de estos, te comentamos que existe un sitio llamado [TodoMVC](http://todomvc.com/)
-que tiene una aplicación (un To Do List) construida con diversas librerías y
+que tiene una aplicación (un To Do List) construida con diversas bibliotecas y
 frameworks para que analices su código fuente y vayas viendo cuál te llama más
 la atención.

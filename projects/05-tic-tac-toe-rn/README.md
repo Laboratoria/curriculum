@@ -52,7 +52,7 @@ nativas.
 ## Consideraciones generales
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto está permitido usar librerías o frameworks.
+En este proyecto está permitido usar bibliotecas o frameworks.
 
 Este proyecto no incluye un _boilerplate_ per se. En vez de un _boilerplate_ te
 ofrecemos una serie de instrucciones (ver sección "Primeros pasos" más abajo)

@@ -10,7 +10,7 @@ Ya hemos visto un poco de qué hacemos cuando testeamos y por qué lo hacemos.
 Ahora vamos a ir introduciendo algunas herramientas para facilitar ese proceso
 de tener que ejecutar algo y comprobar si ha ocurrido lo que esperábamos.
 
-Hay un montón de frameworks y librerías buenísimas de testing para JavaScript:
+Hay un montón de frameworks y bibliotecas buenísimas de testing para JavaScript:
 [Mocha](https://mochajs.org/), [Jest](https://facebook.github.io/jest/),
 [Jasmine](https://jasmine.github.io/), [Tape](https://github.com/substack/tape),
 ... por mencionar algunas de las más populares.
@@ -98,7 +98,7 @@ $ mocha --help
 ## Nuestros primeros tests con la interfaz BDD
 
 Ahora que ya tenemos instalado `mocha`, podemos usar el comando para ejecutar
-scripts con nuestros tests, usando todo lo que nos ofrece la librería.
+scripts con nuestros tests, usando todo lo que nos ofrece la biblioteca.
 
 Para comenzar nos vamos a limitar a dos funciones que `mocha` inyecta en el
 entorno: `describe()` e `it()`. Estas dos funciones nos va a permitir construir

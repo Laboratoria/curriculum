@@ -23,7 +23,7 @@ servicio que queramos ofrecer o la problemática que queramos solucionar. Tambi�
 contará con una lógica de conversación, la cual se puede implementar con _Bot
 Builder SDK_.
 
-_Bot Builder SDK_ es una librería con la cual puedes desarrollar tus bots tanto
+_Bot Builder SDK_ es una biblioteca con la cual puedes desarrollar tus bots tanto
 en `Node.js` como con `C#`. El código que generamos estará incorporado en el
 proyecto del bot y se encargará de gestionar las conversaciones. También
 podemos agregar a `LUIS` (Languaje Understanding Intelligent Service), LUIS se

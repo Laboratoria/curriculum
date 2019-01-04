@@ -7,7 +7,7 @@
 ## Objetivos de Aprendizaje
 
 * Enteder qué es y para que sirve `React`
-* Familiarizarse con las piezas claves de esta librería
+* Familiarizarse con las piezas claves de esta biblioteca
 * Entender las diferencias, pros y contras de los enfoques
   *statefull* y *stateless* en `React`
 
@@ -33,7 +33,7 @@ estrategias y herramientas, que nos permitan lidiar con esta complejidad
 creciente en el desarrollo de interfaces, de una manera **ordenada**,
 **uniforme** y **sostenible**.
 
-React es una librería de JavaScript, pero normalmente la vamos a usar junto con
+React es una biblioteca de JavaScript, pero normalmente la vamos a usar junto con
 `JSX`, que es una extensión al lenguage, que nos permite expresar pedacitos de
 Virtual DOM como HTML (más o menos), haciéndonos la vida más fácil y familiar.
 
@@ -52,7 +52,7 @@ orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
 que avanzas para validar que estás avanzando en la dirección correcta. Que te
 sirva como un "checklist" que vas marcando a medida que vas progresando.
 
-* ¿Que diferencia hay entre una *librería* y un *framework*?
+* ¿Que diferencia hay entre una *biblioteca* y un *framework*?
 * ¿Qué es `React` y para qué sirve?
 * ¿Qué es el `Virtual DOM`?
 * ¿Cómo añadimos React a una página web?
