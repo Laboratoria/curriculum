@@ -8,18 +8,17 @@
 
 ## Objetivos de Aprendizagem
 
-Nesta unidade, vamos aprender a usar:
+Nesta unidade, vamos aprender:
 
-* Criar o contúdo aqui Lógica sem código
+* O que é a lógica de programação
+* Criar sequências lógicas
+* O que são algoritmos e como construir um
+* Usar diagramas de blocos
 
 
 ## Por que aprender isto?
 
-.......
-
-## Guia de perguntas e conceitos-chave
-
-......
-
-* Lalalalal
+Está unidade te dará a base para começar a programar. Entender lógica de
+programação e a construir algoritmos, são conhecimentos essenciais para
+programar. 
 
