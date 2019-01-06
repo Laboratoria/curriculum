@@ -2,7 +2,7 @@
 
 * Tipo: `exercício`
 * Formato: `individual`
-* Duração: `3 h`
+* Duração: `4h`
 
 ***
 

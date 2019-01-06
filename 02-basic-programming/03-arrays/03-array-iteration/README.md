@@ -47,7 +47,7 @@ while(i < itens.length) {
 O ES6 trouxe mais duas formas de iteração para facilitar as nossas vidas. O
 `for .. of` que é ideal para _arrays_ e para _strings_ e o `for .. in` que
 também funciona para _arrays_ e _strings_, mas normalmente é utilizado em 
-_objects_, que iremos ver mais a frente.
+_objects_.
 
 Essas novas iteração são muito similares ao `for` normal, mas além de
 simplificar o jeito de usar elas diminuem a syntax.
@@ -79,7 +79,7 @@ _array_ no qual irá fazer a iteração.
 ### for .. in
 
 O `for .. in` interage sobre a propriedade do _array_, isso quer dizer que ele
-irá interagir pelo indicie do _array_.
+irá interagir pelo índice do _array_.
 
 ```js
 // ES5
@@ -98,5 +98,5 @@ for (let i in itens) {
 ```
 
 Esse tipo de _loop_ se assemelha mais ao `for` normal, pois ele faz a iteração
-sobre o indicie do _array_. Porém assim como no `for .. of` você não precisa
+sobre o índice do _array_. Porém assim como no `for .. of` você não precisa
 saber o tamanho do _array_ e também terá um syntax reduzida.
