@@ -1,12 +1,8 @@
 # Comentários
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
-
-## Objetivos de Aprendizajem
-
-- Aprender o que são os _comentários_ e sua utilidade.
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 

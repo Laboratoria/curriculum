@@ -1,38 +1,31 @@
-# Valores, tipos de dados e operadores
+# Tipos de dados e Operadores
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-## Objetivos de Aprendizaje
-
-- Entender o que são _values_ (valores) em JavaScript.
-- Conhecer os diferentes _data types_ (tipos de dados) em JavaScript.
-- Aprender como manipular e transformar valores com operadores em JavaScript.
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `50min`
 
 ***
 
-O texto em seguida se baseia em grande parte, com certos ajustes, ao capítulo 1
-de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
-Haverbeke, 2014. Tradução em [Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
+O texto abaixo foi tirado do capítulo 1 do livro
+[Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke
+, 2014. Tradução em [Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
 
 ## Vivemos num mundo de Dados
 
-Em 2010, o então CEO da Google, Eric Schmidt,([mencionava](https://techcrunch.com/2010/08/04/schmidt-data/))
-que num período de dois dias nós criávamos tantos dados quanto no período que
-compreende desde o início da civilização até o ano de 2003. As compras que você
-faz são dados, as suas notas na escola são dados, seu perfil do Facebook está
-repleto de dados. Suas buscas no Google, os sinais de GPS do seu celular, os
-vídeos que você assiste e envia para o YouTube, as fotos que você vê no
-Instagram, o histórico do clima, os e-mails trocados… tudo são dados!
+Em 2010, o então CEO da Google, Eric Schmidt, [falou que num período de dois](https://techcrunch.com/2010/08/04/schmidt-data/)
+dias nós criávamos mais dados do que no período desde o início da civilização
+até o ano de 2003. As compras que você faz são dados, as suas notas na escola
+são dados, seu perfil do Facebook está repleto de dados. Suas buscas no Google
+, os sinais de GPS do seu celular, os vídeos que você assiste e envia para o
+YouTube, as fotos que você vê no Instagram, o histórico do clima, os e-mails
+trocados… tudo são dados!
 
 Os dados são cruciais porque eles nos ajudam a tomar decisões e a entender o
 mundo que nos cerca. Dados são informações, informação é conhecimento, e
-conhecimento leva à tomada de decisões melhores: desde simples, como escolher um
-lugar para almoçar baseando-se nos comentários do Yelp; à complexas, como
-([predizer](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4))
-se uma mulher está grávida, baseando-se no seu histórico de compra em um
-supermercado.
+conhecimento leva à tomada de decisões melhores; desde decisões simples, como
+escolher um lugar para almoçar baseando-se nos comentários do Yelp; à complexas
+, como [predizerse uma mulher está grávida](http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4)
+, baseando-se no seu histórico de compra em um supermercado.
 
 ## Tipos de dados
 
@@ -40,25 +33,21 @@ Os computadores são excelentes instrumentos para trabalhar com grandes
 quantidades de dados. De fato, no universo dos computadores existem somente
 dados. Com os computadores podemos ler dados, modificar dados e criar novos
 dados. Todos os dados são armazenados em longas sequências dos famosos _bits_
-as sequências de 0s e 1s que você provavelmente já viu no filme Matrix.
+as sequências de 0 e 1 que você provavelmente já viu no filme Matrix.
 
 Os computadores manipulam bilhões de bits. Para que o manejo destas grandes
 quantidades de informação seja mais fácil, eles são divididos em “pedaços” que
 representam partes de informação. No contexto do JavaScript, esses pedaços são
-chamados de _**values**_ (valores, em português). Cada _value_ possui um
-_data type_ (tipo de dado) que determina qual a sua funcionalidade. Em JavaScript
-existem cinco tipos de dados primitivos:
+chamados de _values_ (valores, em português). Cada _value_ possui um
+_data type_ (tipo de dado) que determina qual a sua funcionalidade. Basicamente
+os tipos definem o comportamento que os dados terão. No JavaScript existem
+cinco tipos de dados primitivos:
 
 1. `numbers` (números).
 2. `strings` (cadeias de caracteres).
 3. `booleans` (booleanos).
 4. `undefined` (indefinido).
 5. `null` (nulo).
-
-s dados e os tipos de dados formam as bases de qualquer linguagem de
-programação. Eles nos permitem organizar a informação e determinar como o
-programa deve ser executado. Nesta seção você aprenderá a definir e manipular
-esses tipos de dados.
 
 ## 1. Numbers
 
@@ -69,7 +58,7 @@ decimais. Além disso, o tipo de dado `number` possui três valores simbólicos:
 +Infinity infinito positivo), -Infinity (infinito negativo) e NaN (not a number,
 ou “não-número”, em português).
 
-Vejamos alguns exemplos. Abra o seu console (lembre-se: clique com o botão
+Vejamos alguns exemplos. Abra o console no navegador (lembre-se: clique com o botão
 direito do mouse > inspect > console) e escreva os seguintes números. Ao tentar,
 o console retornará o próprio número de volta.
 
@@ -225,15 +214,16 @@ concatena, ou seja, junta duas strings. A linha a seguir produz a string
 // returns > "concatenar"
 ```
 
-Tome cuidado ao misturar _numbers_ e _strings_ em uma operação. Por exemplo,
-multiplicar um _número_ por uma _string_ resulta em NaN.
+Mas lembre que ao concatenar dados, você tem que tomar cuidado ao misturar
+_numbers_ e _strings_ em uma operação. Por exemplo, multiplicar um _número_ 
+por uma _string_ resulta em NaN.
 
 ```js
 "oi" * 3
 // returns > NaN
 ```
 
-Há outras maneiras de manipular `strings`, como veremos mais adiante.
+Há outras maneiras de manipular `strings`, mas veremos mais adiante.
 
 ### Operadores Unários
 
@@ -402,7 +392,7 @@ interrogação "escolhe" qual dos outros dois valores será o resultado. Quando 
 verdadeiro, o valor central é escolhido, e quando é falso, o valor da direita é
 o resultado.
 
-## 4. Null e undefined ( nulo e indefinido)
+## 4. Null e undefined (nulo e indefinido)
 
 Existem dois valores especiais, escritos como `null` e `undefined`, que são
 usados para denotar a ausência de um valor significativo. São valores por si

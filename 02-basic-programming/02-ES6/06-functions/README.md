@@ -1,17 +1,8 @@
 # Funções
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duração: `30min`
-
-## Objetivos
-
-- Conhecer o conceito de _Don't Repeat Yourself (DRY)_
-- Entender o que são as funções e como afetam o controle de fluxo de um
-  programa
-- Conhecer a estrutura das funções em JavaScript
-- Entender como transmitir argumentos a uma função
-- Entender o conceito de `return` das funções
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
@@ -22,19 +13,6 @@ Haverbeke, 2014. Tradução em
 , e ao capítulo 6 do
 [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015;
-
-## DRY
-
-Na programação, existe um conceito que você escutará mais de uma vez. Ele diz o
-seguinte:
-_"Don't Repeat Yourself"_, e é comumente conhecido como `DRY`. Em português
-significa _"não se repita"_. Se você estiver copiando e colando pedaços de código,
-ou se tiver sentenças de código similares ao longo do seu programa, significa que
-você está se repetindo. Já vimos este conceito em prática com o uso de
-`estruturas repetitivas` (loop): ao invés de ter um mesmo bloco de código
-repetido, você pode sustituí-lo por um `for` ou um `while`. Com as funções você
-pode alcançar o mesmo objetivo. Vejamos quais são as `funções`, como usá-las e
-por que são importantes.
 
 ## O que é uma função?
 
@@ -74,17 +52,46 @@ visão mais completa do que estamos fazendo. Nos permite elevar-nos a um nível
 superior de abstração. Como diz o ditado: podemos visualizar a floresta
 completa, vendo além das árvores.
 
-## Definindo uma função
+## Principios para funções bem escritas
 
-A definição de uma função é simplesmente uma definição regular de uma
-variável, mas onde o valor dado à variável é uma função. Por exemplo, o
-código a seguir define a variável `square` para se referir à _função_ que
-produz o quadrado de um número dado:
+* **Don't Repeat Yourself (DRY)**: É muito comum que ao longo do 
+  desenvolvimento de uma solução encontremos um padrão que se repete ao longo
+  de nosso código. Uma vez identificado um padrão, é hora de escrever uma
+  função, objeto ou módulo que encapsule o padrão encontrado para que seja
+  reutilizado facilmente. Isso ajuda também se encontrarmos algum *bug* ou
+  quisermos adicionar alguma funcionalidade, só precisaremos fazer em um lugar.
+  Além disso, escrevendo uma função reutilizável obriga você a analisar o
+  padrão do problema, o que ajudar ter a funcionalidade relacionada de maneira
+  agrupada.
+
+* **Do One Thing (DOT)**: Cada função deve fazer somente uma coisa e fazê-la o
+  melhor possível. Seguindo este princípio, você escreverá funções mais
+  reutilizáveis, legíveis e fáceis de depurar.
+
+* **Keep It Simple Stupid (KISS)**: Se as funções devem fazer somente uma
+  coisa, é melhor fazê-la claramente mantendo a simplicidade e não adicionando
+  complexidade desnecessária para resolver um problema. Isto não quer dizer que
+  a solução seja ótima, mas que pode ser legível para poder dar manutenção ao
+  longo do tempo.
+
+* **Less Is More**: Para alcançar a maior legibilidade possível e reduzir a
+  tentação de fazer mais de uma coisa, as funções devem ser tão pequenas quanto
+  possível. Se a função se torna muito longa, é melhor considerar separá-la em
+  subtarefas e dados ao longo de funções e objetos.
+
+
+
+## Declarando uma função
+
+A declaração de uma função é simplesmente a declaração de uma variável comum na qual o valor dado a tal variável resulta ser uma função. Por exemplo, o código a seguir define a variável `square` para fazer referência à função que retorna o quadrado de um dado número:
 
 ```js
-var square = function(num) {
-  return num * num;
-};
+  function square(num) {
+    return num * num;
+  };
+
+  console.log(square(12));
+  // -> 144
 ```
 
 Uma função é criada por uma expressão que começa com o keyword `function`.
@@ -107,7 +114,7 @@ Agregando ao exemplo anterior um chamado à função `square` transmitindo-lhe c
 argumento o valor `12` vemos que nos devolve `144` (ou seja, 12 ao quadrado).
 
 ```js
-var square = function(num) {
+function square(num) {
   return num * num;
 };
 
@@ -132,7 +139,7 @@ Adicionemos uma outra sentença ao exemplo anterior na qual se utilize o
 valor de retorno da função `square`:
 
 ```js
-var square = function(num) {
+function square(num) {
   return num * num;
 };
 
@@ -153,14 +160,14 @@ seguinte exemplo, `makeNoise` não tem parâmetros, enquanto `power` tem
 dois:
 
 ```js
-var makeNoise = function() {
+function makeNoise() {
   console.log('Pling!');
 };
 
 makeNoise();
 // → Pling!
 
-var power = function(base, exponent) {
+function power(base, exponent) {
   var result = 1;
   for (var count = 0; count < exponent; count++)
   result *= base;
@@ -193,7 +200,7 @@ Isto significa que a declaração de devolução ao final, que te diz a quinta
 letra do seu nome, nunca se executa.
 
 ```js
-var fifthLetter = function (name) {
+function fifthLetter(name) {
   if (name.length < 5) {
     return;
   }
@@ -227,7 +234,7 @@ meio é prata. Você poderia utilizar uma função como `medalForScore` para
 avaliar uma pontuação e dar o tipo de medalha, como se mostra aqui:
 
 ```js
-var medalForScore = function (score) {
+function medalForScore(score) {
   if (score < 3) {
     return 'Bronze';
   }
@@ -244,3 +251,174 @@ garantir que somente uma das sentenças se execute. Quando cada
 uma das opções possui sua própria sentença de `return`,  garantimos que se
 execute somente uma das opções --- porque, lembre-se, **as funções só
 podem devolver uma vez**.
+
+## Avançando com funções
+
+### Terminologia: "Parâmetro" vs. "Argumento"
+
+Os termos `parâmetro` e `argumento` são frequentemente usados para se referirem
+à mesma coisa já que é possível entender ao que se referem. Contudo, a seguir
+mostramos uma regra para diferenciá-los.
+
+* **Parâmetros** são utilizados para definir uma função: No exemplo a seguir,
+  `param1` e `param2` são parâmetros:
+
+  ```js
+  function foo(param1, param2) {
+    // ...
+  }
+  ```
+* **Argumentos** são utilizados para invocar uma função. No exemplo a seguir,
+  `3` e `7` são argumentos:
+
+  ```js
+  foo(3, 7);
+  ```
+
+### Criação de Funções
+
+Nesta seção veremos 2 maneiras de criar uma função:
+
+* Por meio de uma _function declaration_ (declaração de uma função).
+* Por meio de uma _function expression_ (função como expressão).
+
+#### Function Declarations
+
+A seguir temos uma declaração de função:
+
+```js
+function add(x, y) {
+  return x + y;
+}
+
+console.log(add(2, 3)); // 5
+```
+
+Em outras palavras, uma _function declaration_ consiste na palavra chave
+reservada _function_, uma lista de parâmetros para a função, delimitados por
+parênteses e vírgulas, e a sentença JavaScript que define a função, delimitada
+por chaves.
+
+
+### Function Expressions
+
+Uma _function expression_ produz um valor - um objeto de função. Por exemplo:
+
+```js
+var add = function(x, y) {
+  return x + y;
+};
+
+console.log(add(2, 3)); // 5
+```
+
+O código anterior atribui o resultado de uma função como expressão para a
+variável `add` e pode ser chamada por meio desta variável. Neste tipo de função
+é possível atribuir uma função a uma variável, passar como parâmetros de outra
+função e outras coisas mais. Devido a este tipo de função não possuir um nome,
+podem ser chamadas de _anonymous function expressions_ (funções anônimas).
+
+**Named Function Expressions** 
+
+É possível nomear uma função como uma expressão. As
+_named function expressions_ (funções que se expressam por nome) permitem à
+função fazer referências a si mesma. Vemos refletida sua utilidade quando
+desejamos aplicar recursividade. Por exemplo:
+
+```js
+var factorial = function fact(number) {
+  if (number <= 1) {
+    return 1;
+  }
+  return number * fact(number - 1);
+};
+
+console.log(factorial(3)); // 6
+```
+
+### Arrow Functions
+
+#### Diferenças entre _arrow functions_ e funções clássicas
+
+Uma das novidades mais interessantes de ES6 são as denominadas
+**funções seta**, ou *arrow functions*. As funções setas são, como seu nome
+indica, definidas por meio de uma nova sintaxe que utiliza uma "seta" (`=>`).
+As funções seta se comportam de maneira sensivelmente diferente das funções
+tradicionais de JavaScript. A seguir vamos mostrar as suas diferenças, mas não
+se importe se não entender elas agora, iremos voltar para elas ao decorrer
+do bootcamp:
+
+* **Não podem ser chamadas com `new`**: Como não possuem um método construtor,
+  não podem ser executadas como construtores. As funções seta dispararão um
+  erro se forem utilizadas com `new`.
+* **Não há protótipo**: Como não possuem construtor, tampouco é necessário um
+  protótipo. Logo, não existirá a propriedade `prototype` e uma função seta.
+* **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e
+  `new.target` dentro da função será o mesmo que na função tradicional
+  (*non-arrow*) mais próxima.
+* **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece
+  imutável ao longo de todo o ciclo de vida da função.
+* **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a
+  uma função seta mediante parâmetros nomeados e *rest parameters*.
+* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo
+  estrito como no não estrito, diferente das funções clássicas, que não
+  permitem somente o modo estrito.
+
+### Sintaxe
+
+O exemplo mais simples de uma *arrow functions* é o a seguir, embora vejamos
+nos exemplos seguintes que podem existir diversas variações.
+
+```js
+// ES6
+const echo = text => text;
+
+echo("banana");
+//return "banana"
+```
+
+Esta função seria equivalente a seguinte:
+
+```js
+// ES5
+var echo = function(text) {
+  return text;
+};
+
+echo("banana");
+//return "banana"
+```
+
+Como com qualquer função, podemos passar tantos argumentos quanto quisermos
+para a função:
+
+```js
+const sum = (a, b) => a + b;
+console.log(sum(1, 1)); // 2
+```
+
+Ou nenhum, claro:
+
+```js
+const greet = () => 'Olá, estrangeiro!';
+console.log(greet()); // Olá, estrangeiro!
+```
+
+Se quisermos realizar operações mais complicadas, podemos usar chaves e definir
+um valor de retorno:
+
+```js
+const bhaskara = (a, b, c) => {
+  const delta = b * b - 4 * a * c;
+  if (delta < 0) {
+    return "Não tem raízes reais";
+  } else if (delta === 0) {
+    return `Só tem uma raiz: ${-b / (2 * a)}`
+  } else {
+    const raiz1 = (-b + Math.sqrt(delta)) / (2 * a);
+    const raiz2 = (-b - Math.sqrt(delta)) / (2 * a);
+    return `Raiz 1:${raiz1} - Raiz 2:${raiz2}`;
+  }
+};
+
+bhaskara(1, -5, 6); // 'Raiz 1:3 - Raiz 2:2'

@@ -6,14 +6,6 @@
 
 ***
 
-## Objetivos
-
-- Entender o que é o controle de fluxo de um programa
-- Entender o que são `estruturas condicionais` e como eles afetam o fluxo do programa
-- Entender o que são `estruturas repetitivas` e como afetam o fluxo do programa
-
-***
-
 O texto a seguir se baseia em grande medida, com alguns ajustes, ao
 capítulo 2 do [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Tradução em
@@ -59,7 +51,7 @@ console.log('Que nome longo você tem!');
 
 Uma representação trivial esquemática de um fluxo de controle direto seria:
 
-![Flujo recto](http://eloquentjavascript.net/img/controlflow-straight.svg)
+![Fluxo reto](http://eloquentjavascript.net/img/controlflow-straight.svg)
 
 ### 2. Fluxo condicional
 
@@ -258,7 +250,8 @@ execute um código que você não deseja executar.
 
 A seguir, Michelle ajuda você a entender esse caso um pouco melhor:
 
-[![ejemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com//watch?v=Aa0JhU6KZXs)
+
+[![exemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com/watch?v=Aa0JhU6KZXs)
 
 ### 3. Fluxo repetitivo: Loops
 
@@ -356,7 +349,7 @@ Vejamos algumas variantes deste mesmo problema para assegurar que entendemos
 bem como funciona o ciclo `while`:
 
 - Como fazemos para imprimir os números **pares** do 1 ao 100?: Modificamos
-  a condição para que o loop aconteça enquanto `number` seja <= 100.
+  a condição para que o loop aconteça enquanto `number` seja <= 100.
 
 ```js
 var number = 0;
@@ -370,7 +363,7 @@ while (number <= 100) {
 ```
 
 - Como fazemos para imprimir os números **ímpares** do 1 a 12?:
-  Iniciamos o valor de `number` com o valor de 1 (ao invés de 0).
+  Iniciamos o valor de `number` com o valor de 1 (ao invés de 0).
 
 ```js
 var number = 1;
@@ -384,7 +377,7 @@ while (number <= 12) {
 ```
 
 - Como fazemos para imprimir todos os números **pares** e **ímpares** do 1 ao
-  12?: Na segunda sentença do while, incrementamos `number` em 1 (no lugar
+  12?: Na segunda sentença do while, incrementamos `number` em 1 (no lugar
   de 2) a cada ciclo.
 
 ```js
@@ -486,6 +479,9 @@ A seguir Alexandra te ajudará a entender o fluxo de um loop `for` que
 imprime o texto 'Hola mundo!' várias vezes:
 
 [![loop for](https://img.youtube.com/vi/lKwx1RAxTfo/0.jpg)](https://www.youtube.com/watch?v=lKwx1RAxTfo)
+
+Existem também o `for .. in` e o `for .. of` que foram adicionados no ES6, nós
+vamos mostrar eles para você quando falarmos de `arrays` e `objects`.
 
 #### _Forçando a saída de um loop_
 

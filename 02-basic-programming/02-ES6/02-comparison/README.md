@@ -1,4 +1,4 @@
-# Operadores
+# Comparações e Operadores lógicos
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -6,7 +6,10 @@
 
 ***
 
-Nesta leitura veremos algumas particularidades sobre os operadores de igualdade (`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para você o link para a documentação oficial de operadores e expressões no MDN que recomendamos que você *leia* (ou olhe pelo menos).
+Nesta leitura veremos algumas particularidades sobre os operadores de igualdade
+(`==`, `!=`, `===`, `!==`). Ao fim da leitura deixaremos como referência para
+você o link para a documentação oficial de operadores e expressões no MDN que
+recomendamos que você *leia* (ou olhe pelo menos).
 
 ## Diferença entre `==` e `===`
 
@@ -28,6 +31,7 @@ null == undefined // true
 true == 1         // true
 [10] == 10        // true
 [] == []          // false
+{} == {}          // false
 ```
 
 ### Algoritmo de `===`
@@ -50,6 +54,7 @@ NaN === NaN         // false
 [10] === 10          // false
 true === 1           // false
 [] === []           // false
+{} === {}           // false
 '10' === '10'       // true
 ```
 
@@ -85,6 +90,6 @@ Situações de uso:
 10 >= 10    // true, caso 3
 ```
 
-## leituras complementares
+## Leituras complementares
 
 [Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)

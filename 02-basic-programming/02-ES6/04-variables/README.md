@@ -1,13 +1,8 @@
 # Variáveis
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-## Objetivos de Aprendizagem
-
-- Aprender o que são _variáveis_ e sua utilidade.
-- Conhecer as boas práticas de nomeação de variáveis.
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `60min`
 
 ***
 
@@ -25,13 +20,13 @@ imediato. Ou seja, os novos valores que geramos devem ser imediatamente
 utilizados ou se perdem. Segue no seu console o seguinte exemplo:
 
 ```js
-'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + 19 + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 19 anos"
+'Oi, meu nome é ' + 'Paloma' + ' e tenho ' + 19 + ' anos';
+// returns: "Oi, meu nome é Paloma e tenho 19 anos"
 ```
 
-Se quisesse utilizar esse `string` de novo, talvez porque Michelle fez
-aniversário e agora queremos que apareça 20 anos no lugar de 19, não poderíamos
-fazê-lo. O valor foi perdido.
+Se quisesse utilizar esse `string` de novo, talvez porque a Paloma fez
+aniversário e agora queremos que apareça 20 anos no lugar de 19, não teria
+como fazer, pois o valor foi perdido.
 
 Para capturar e manter os valores, o JavaScript fornece algo chamado `variável`.
 É utilizada assim:
@@ -46,21 +41,22 @@ A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variáv
 imediatamente um valor, é seguido do operador `=` e uma expressão (o número 19).
 
 A declaração anterior cria uma variável chamada age (ou idade no português) e é
-usada para reter o número 19. A console devolve undefined, mas não pense que é
-um erro. É o que o JavaScript faz quando um comando não devolve nenhum valor.
+usada para reter o número 19. A console devolve `undefined`, mas não pense que
+é um erro. É o que o JavaScript faz quando um comando não devolve nenhum valor.
 Quando você escreve 12 + 5, o console devolve 17. Mas ao declarar uma variável
-chamada age atribuindo o valor 19, não há um valor fornecido. É por isso que a
-console simplesmente devolve undefined (no restante dos exemplos vamos a omitir
-esse undefined devolvido porque não adiciona muito valor na explicação).
+chamada age atribuindo o valor 19, não há um valor fornecido. É por isso que o
+console simplesmente devolve `undefined` (no restante dos exemplos vamos a
+omitir esse `undefined` devolvido porque não adiciona muito valor na 
+explicação).
 
-Depois que uma variável tem sido definida, o nome dela pode ser usada como uma
-expressão. O valor da expressão é o valor que a variável contém atualmente.
+Depois que uma variável tenha sido definida, o nome dela pode ser usada como
+uma expressão. O valor da expressão é o valor que a variável contém atualmente.
 Continuemos com o exemplo anterior:
 
 ```js
 var age = 19;
-'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 19 anos"
+'Oi, meu nome é ' + 'Paloma' + ' e tenho ' + age + ' anos';
+// returns: "Oi, meu nome é Paloma e tenho 19 anos"
 ```
 
 O console nos ajuda a saber o valor de uma variável. Se escrevemos o nome de uma
@@ -92,23 +88,27 @@ var age = 19;
 // returns: undefined
 age = 20;
 // returns: 20
-'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 20 anos"
+'Oi, meu nome é ' + 'Paloma' + ' e tenho ' + age + ' anos';
+// returns: "Oi, meu nome é Paloma e tenho 20 anos"
 ```
 
 Leve em consideração que para atribuir um novo valor, você não tem que utilizar
 a _keyword_ `var` novamente. Você só utiliza ela quando precisa _criar_ novas
 variáveis.
 
-Muitas vezes é explicado o conceito de variáveis com a analogia de uma caixa: as
-variáveis são como "caixa" nas quais você pode colocar algum valor que depois
-pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis como
-sendo **tentáculos**. As variáveis realmente não "contém" os valores (como uma
-caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis podem
-se referir a um mesmo valor. Um programa pode acessar apenas os valores que
-ainda mantém "segurados". Quando você precisa lembrar algo, você cria um novo
-tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para segurar
-o novo.
+Mostramos aqui como concatenar variáveis no ES5. Essa maneira ainda funciona
+perfeitamente no ES6, porém existe uma maneira um pouco mais simples, que é
+utilizando a crase (\`) para definir uma _string_ e os símbolos `${}` para
+adicionar a variáveis na _string_, veja o exemplo a baixo:
+
+```js
+var age = 19;
+// returns: undefined
+age = 20;
+// returns: 20
+`Oi, meu nome é Paloma e tenho ${age} anos`;
+// returns: "Oi, meu nome é Paloma e tenho 20 anos"
+```
 
 ## Nomeando Variáveis
 
@@ -116,7 +116,8 @@ No JavaScript, existem certas regras para nomear variáveis. Os nomes das
 variáveis:
 
 1. **Não** podem incluir espaços
-2. **Não** podem ser palavras reservadas (ou _keywords_), como a palavra `var`
+2. **Não** podem ser palavras reservadas (ou _keywords_), como a palavra `var`,
+   `let` ou `const`
 3. **Não** podem começar com números, ainda que podem haver números dentro do
    nome (só não pode no início)
 4. **Não** podem conter sinais de pontuação, salvo os símbolos `$` e `_`
@@ -223,3 +224,11 @@ balloons /= 4;
 balloons
 // returns > 25
 ```
+
+## Let e Const
+
+O ES6 trouxe mais dois tipos de variáveis além do `var`, são eles o `let` e
+o `const`. Cada uma delas tem a sua maneira correta de ser utilizada. Elas
+foram criadas para trazer o escopo de bloco, que é tão utilizado em outras
+linguagens para o JavaScript. Iremos explicar melhor o funcionamento delas mais
+a adiante, por enquanto não se preocupem com isso.
