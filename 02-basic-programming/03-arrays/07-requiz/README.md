@@ -8,7 +8,8 @@
 
 ## Objetivos
 
-* Faça um segundo teste para garantir que terminamos a unidade com total compreensão dos conceitos.
+* Faça um segundo teste para garantir que terminamos a unidade com total
+  compreensão dos conceitos.
 
 ## Perguntas
 
