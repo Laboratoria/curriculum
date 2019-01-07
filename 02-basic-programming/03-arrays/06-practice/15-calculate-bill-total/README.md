@@ -2,7 +2,9 @@
 
 Escreva uma função chamada `calculateBillTotal`.
 
-Dado o imposto e a quantia antes da gorjeta de uma refeição, `calculateBillTotal`devolve a quantia total devida depois de impostos e gorjeta.
+Dado o imposto e a quantia antes da gorjeta de uma refeição,
+`calculateBillTotal` devolve a quantia total devida depois de impostos e
+gorjeta.
 
 Notas:
 

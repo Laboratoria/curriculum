@@ -15,14 +15,18 @@ recomendamos que você *leia* (ou olhe pelo menos).
 
 ### Algoritmo de `==`
 
-Quando avaliamos dois valores com este operador, a sequência a seguir é executada para determinar o resultado:
+Quando avaliamos dois valores com este operador, a sequência a seguir é
+executada para determinar o resultado:
 
 * Se são do mesmo tipo, então são comparados com ===.
 * Se são de tipos diferentes:
   - Se um é `null` e outro é `undefined`, retorna `true`.
-  - Se um é uma `string` e outro é um `number`, ele é convertido para `string` e são comparados como números.
-  - Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se comparam.
-  - Se um é um objeto e outro é um `number` ou `string`, converte o objeto para um primitivo.
+  - Se um é uma `string` e outro é um `number`, ele é convertido para `string`
+    e são comparados como números.
+  - Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se
+    comparam.
+  - Se um é um objeto e outro é um `number` ou `string`, converte o objeto para
+    um primitivo.
   - Em outros casos, retorna `false`.
 
 ```js
@@ -36,7 +40,8 @@ true == 1         // true
 
 ### Algoritmo de `===`
 
-Esta igualdade é mais restrita com os resultados, utilizando a sequência a seguir para determinar o resultado:
+Esta igualdade é mais restrita com os resultados, utilizando a sequência a
+seguir para determinar o resultado:
 
 * Se possuem tipos diferentes, retorna `false`.
 * Se ambos são `null`, retorna `true`.
@@ -61,14 +66,16 @@ true === 1           // false
 Você pode considerar o seguinte para saber qual operador utilizar:
 
 * Se qualquer dos valores é booleano, utilize `===`.
-* Se não tiver certeza se os valores podem ser convertidos por coerção, utilize `===`.
+* Se não tiver certeza se os valores podem ser convertidos por coerção,
+  utilize `===`.
 * Nos outros casos pode utilizar `==` com certeza.
 
 > Nota: Por convenção, e uma boa prática a comunidade incentiva o uso de `===`.
 
 ## Desigualdades
 
-Sempre o resultado de comparação de uma desigualdade é um booleano. Os operadores a seguir são utilizados para comparar desigualdades:
+Sempre o resultado de comparação de uma desigualdade é um booleano. Os
+operadores a seguir são utilizados para comparar desigualdades:
 
 ```js
 <  → Menor

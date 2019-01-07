@@ -26,7 +26,8 @@ compare suas soluções com as de Lourdes.
 Crie uma função que inverta a ordem dos elementos de um vetor \(_array_\).
 Complete este desafio de duas maneiras: em uma, o vetor invertido é um **novo**
 vetor; na segunda, modifique o **mesmo** _array_ que é fornecido como argumento
-\(_in place_\). Pesquise o método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse). O que você pode concluir?
+\(_in place_\). Pesquise o método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse).
+O que você pode concluir?
 
 ### Search
 
@@ -49,8 +50,7 @@ anteriores.
 
 [![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
 
-
-Reverse 
+Reverse
 https://repl.it/@rafaelbcerri/Reverse
 
 Search

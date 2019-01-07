@@ -126,7 +126,7 @@ informações relacionadas registradas no sistema \(`nome e sobrenome`,
 
 Se o usuário digitar -1, sua aplicação deve sair do sistema.
 
-**Dicas para a solução**
+#### Dicas para a solução
 
 \[Dica 1. \| Os assentos\]
 

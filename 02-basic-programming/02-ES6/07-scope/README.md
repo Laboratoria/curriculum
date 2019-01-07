@@ -8,7 +8,7 @@
 
 ## O `escopo` de uma variável
 
-O `escopo` de uma variável são os locais de onde pode ser acessada. 
+O `escopo` de uma variável são os locais de onde pode ser acessada.
 Por exemplo:
 
 ```js
@@ -82,7 +82,7 @@ Cada invocação de função tem tanto um alcance quanto um contexto associados.
 Fundamentalmente, o alcance é um conceito associado a funções enquanto que o
 contexto está associado a objetos. Em outras palavras, o alcance se refere à
 acessibilidade de variáveis de uma função quando é invocada e é único a cada
-invocação. 
+invocação.
 
 ### Alcance de variáveis
 
@@ -170,7 +170,7 @@ ola();
 As variáveis de somente leitura são outra das novidades de ECMAScript 6, por
 meio da introdução da nova palavra reservada `const`. Qualquer variável
 declarada como constante, será de somente leitura e seu valor não poderá ser
-modificado. 
+modificado.
 
 Vejamos um exemplo:
 
@@ -237,7 +237,8 @@ _function declarations_ são elevadas (_hoisted_) completamente, enquanto as
 _function expression_ não, pois são declaradas em variáveis fazendo com que
 sejam particalmente elevadas.
 
-_Function declarations_ são completamente elevadas. Isso permite chamar uma função antes de sua declaração:
+_Function declarations_ são completamente elevadas. Isso permite chamar uma
+função antes de sua declaração:
 
 ```js
 welcome(); // 'Welcome to CE - JS Deep Dive'
@@ -247,7 +248,9 @@ function welcome() { // esta função é elevada - hoisting
 }
 ```
 
-A razão pela qual o código anterior funciona é que o motor de JavaScript move a declaração da função `welcome` para o início do escopo. Ele acaba executando como se estivesse escrito da seguinte maneira:
+A razão pela qual o código anterior funciona é que o motor de JavaScript move a
+ declaração da função `welcome` para o início do escopo. Ele acaba executando
+ como se estivesse escrito da seguinte maneira:
 
 ```js
 function welcome() { // esta função é elevada - hoisting
@@ -256,7 +259,9 @@ function welcome() { // esta função é elevada - hoisting
 welcome(); // 'Welcome to CE - JS Deep Dive'
 ```
 
-As declarações de variáveis são elevadas também, mas somente as declarações mas não as atribuições. Portanto, definir uma função como expressão atribuindo a uma variável acaba em um erro no exemplo anterior:
+As declarações de variáveis são elevadas também, mas somente as declarações mas
+não as atribuições. Portanto, definir uma função como expressão atribuindo a
+uma variável acaba em um erro no exemplo anterior:
 
 ```js
 welcome(); // TypeError: undefined is not a function
@@ -265,7 +270,8 @@ var welcome = function welcome() {
 };
 ```
 
-Somente as declarações são elevadas. O motor de JavaScript executa o código anterior como se estivesse escrito da seguinte maneira:
+Somente as declarações são elevadas. O motor de JavaScript executa o código
+anterior como se estivesse escrito da seguinte maneira:
 
 ```js
 var welcome; // undefined

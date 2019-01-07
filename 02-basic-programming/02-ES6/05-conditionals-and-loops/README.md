@@ -250,7 +250,6 @@ execute um código que você não deseja executar.
 
 A seguir, Michelle ajuda você a entender esse caso um pouco melhor:
 
-
 [![exemplo de Switch](https://img.youtube.com/vi/Aa0JhU6KZXs/0.jpg)](https://www.youtube.com/watch?v=Aa0JhU6KZXs)
 
 ### 3. Fluxo repetitivo: Loops

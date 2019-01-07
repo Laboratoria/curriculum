@@ -46,7 +46,7 @@ usada para reter o número 19. A console devolve `undefined`, mas não pense que
 Quando você escreve 12 + 5, o console devolve 17. Mas ao declarar uma variável
 chamada age atribuindo o valor 19, não há um valor fornecido. É por isso que o
 console simplesmente devolve `undefined` (no restante dos exemplos vamos a
-omitir esse `undefined` devolvido porque não adiciona muito valor na 
+omitir esse `undefined` devolvido porque não adiciona muito valor na
 explicação).
 
 Depois que uma variável tenha sido definida, o nome dela pode ser usada como

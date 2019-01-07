@@ -8,7 +8,8 @@
 
 ## Desafios de código extras
 
-* Se você já tiver concluído todos os desafios de código da unidade e quiser continuar praticando, faça os desafios abaixo:
+* Se você já tiver concluído todos os desafios de código da unidade e quiser
+  continuar praticando, faça os desafios abaixo:
 
 ## Replit
 

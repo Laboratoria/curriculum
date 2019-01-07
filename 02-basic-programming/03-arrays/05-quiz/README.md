@@ -14,7 +14,7 @@
 
 ## Perguntas
 
-### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
+### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados
 
 #### Opções
 
@@ -52,7 +52,7 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 
 <solution style="display:none;">4</solution>
 
-### 4\) No código a seguir,
+### 4\) No código a seguir
 
 ```javascript
 var listOfNumbers = [2, 3, 4, 5, 6];
@@ -70,7 +70,7 @@ se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 
 <solution style="display:none;">4</solution>
 
-### 5\) No código a seguir,
+### 5\) No código a seguir
 
 ```javascript
 var questions = [
@@ -92,7 +92,7 @@ como obtenho o elemento `Lima`?
 
 <solution style="display:none;">1</solution>
 
-### 6\) Os elementos de um Array são armazenados em propriedades.
+### 6\) Os elementos de um Array são armazenados em propriedades
 
 #### Opções
 
@@ -174,7 +174,7 @@ console.log(listOfNumbers.length);
 
 <solution style="display:none;">4</solution>
 
-### 11\) No código a seguir, preencha a lacuna.
+### 11\) No código a seguir, preencha a lacuna
 
 ```javascript
 var course1 = 'Intro JS, ' ;
@@ -293,7 +293,7 @@ console.log(array);
 
 <solution style="display:none;">2</solution>
 
-### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
+### 17\) No código a seguir, o que devemos comparar? Complete as lacunas
 
 ```javascript
 function search(array, element) {
@@ -316,4 +316,3 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 4. `element[i]` - `array`
 
 <solution style="display:none;">1</solution>
-

@@ -54,7 +54,7 @@ completa, vendo além das árvores.
 
 ## Principios para funções bem escritas
 
-* **Don't Repeat Yourself (DRY)**: É muito comum que ao longo do 
+- **Don't Repeat Yourself (DRY)**: É muito comum que ao longo do
   desenvolvimento de uma solução encontremos um padrão que se repete ao longo
   de nosso código. Uma vez identificado um padrão, é hora de escrever uma
   função, objeto ou módulo que encapsule o padrão encontrado para que seja
@@ -64,26 +64,27 @@ completa, vendo além das árvores.
   padrão do problema, o que ajudar ter a funcionalidade relacionada de maneira
   agrupada.
 
-* **Do One Thing (DOT)**: Cada função deve fazer somente uma coisa e fazê-la o
+- **Do One Thing (DOT)**: Cada função deve fazer somente uma coisa e fazê-la o
   melhor possível. Seguindo este princípio, você escreverá funções mais
   reutilizáveis, legíveis e fáceis de depurar.
 
-* **Keep It Simple Stupid (KISS)**: Se as funções devem fazer somente uma
+- **Keep It Simple Stupid (KISS)**: Se as funções devem fazer somente uma
   coisa, é melhor fazê-la claramente mantendo a simplicidade e não adicionando
   complexidade desnecessária para resolver um problema. Isto não quer dizer que
   a solução seja ótima, mas que pode ser legível para poder dar manutenção ao
   longo do tempo.
 
-* **Less Is More**: Para alcançar a maior legibilidade possível e reduzir a
+- **Less Is More**: Para alcançar a maior legibilidade possível e reduzir a
   tentação de fazer mais de uma coisa, as funções devem ser tão pequenas quanto
   possível. Se a função se torna muito longa, é melhor considerar separá-la em
   subtarefas e dados ao longo de funções e objetos.
 
-
-
 ## Declarando uma função
 
-A declaração de uma função é simplesmente a declaração de uma variável comum na qual o valor dado a tal variável resulta ser uma função. Por exemplo, o código a seguir define a variável `square` para fazer referência à função que retorna o quadrado de um dado número:
+A declaração de uma função é simplesmente a declaração de uma variável comum na
+qual o valor dado a tal variável resulta ser uma função. Por exemplo, o código
+a seguir define a variável `square` para fazer referência à função que retorna
+o quadrado de um dado número:
 
 ```js
   function square(num) {
@@ -260,27 +261,28 @@ Os termos `parâmetro` e `argumento` são frequentemente usados para se referire
 à mesma coisa já que é possível entender ao que se referem. Contudo, a seguir
 mostramos uma regra para diferenciá-los.
 
-* **Parâmetros** são utilizados para definir uma função: No exemplo a seguir,
+- **Parâmetros** são utilizados para definir uma função: No exemplo a seguir,
   `param1` e `param2` são parâmetros:
 
-  ```js
-  function foo(param1, param2) {
-    // ...
-  }
-  ```
-* **Argumentos** são utilizados para invocar uma função. No exemplo a seguir,
+```js
+function foo(param1, param2) {
+  // ...
+}
+```
+
+- **Argumentos** são utilizados para invocar uma função. No exemplo a seguir,
   `3` e `7` são argumentos:
 
-  ```js
-  foo(3, 7);
-  ```
+```js
+foo(3, 7);
+```
 
 ### Criação de Funções
 
 Nesta seção veremos 2 maneiras de criar uma função:
 
-* Por meio de uma _function declaration_ (declaração de uma função).
-* Por meio de uma _function expression_ (função como expressão).
+- Por meio de uma _function declaration_ (declaração de uma função).
+- Por meio de uma _function expression_ (função como expressão).
 
 #### Function Declarations
 
@@ -298,7 +300,6 @@ Em outras palavras, uma _function declaration_ consiste na palavra chave
 reservada _function_, uma lista de parâmetros para a função, delimitados por
 parênteses e vírgulas, e a sentença JavaScript que define a função, delimitada
 por chaves.
-
 
 ### Function Expressions
 
@@ -318,7 +319,7 @@ variável `add` e pode ser chamada por meio desta variável. Neste tipo de funç
 função e outras coisas mais. Devido a este tipo de função não possuir um nome,
 podem ser chamadas de _anonymous function expressions_ (funções anônimas).
 
-**Named Function Expressions** 
+#### Named Function Expressions
 
 É possível nomear uma função como uma expressão. As
 _named function expressions_ (funções que se expressam por nome) permitem à
@@ -348,19 +349,19 @@ tradicionais de JavaScript. A seguir vamos mostrar as suas diferenças, mas não
 se importe se não entender elas agora, iremos voltar para elas ao decorrer
 do bootcamp:
 
-* **Não podem ser chamadas com `new`**: Como não possuem um método construtor,
+- **Não podem ser chamadas com `new`**: Como não possuem um método construtor,
   não podem ser executadas como construtores. As funções seta dispararão um
   erro se forem utilizadas com `new`.
-* **Não há protótipo**: Como não possuem construtor, tampouco é necessário um
+- **Não há protótipo**: Como não possuem construtor, tampouco é necessário um
   protótipo. Logo, não existirá a propriedade `prototype` e uma função seta.
-* **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e
+- **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e
   `new.target` dentro da função será o mesmo que na função tradicional
   (*non-arrow*) mais próxima.
-* **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece
+- **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece
   imutável ao longo de todo o ciclo de vida da função.
-* **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a
+- **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a
   uma função seta mediante parâmetros nomeados e *rest parameters*.
-* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo
+- **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo
   estrito como no não estrito, diferente das funções clássicas, que não
   permitem somente o modo estrito.
 

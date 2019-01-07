@@ -6,11 +6,11 @@
 
 ***
 
-## O que é a lógica? 
+## O que é a lógica?
 
 A lógica está presente a todo momento do nosso dia a dia, pois ela é a
 responsável por ordenar os nossos pensamentos, gerar conclusões e a tomar
-decisões, como por exemplo vir estudar na Laboratória. 
+decisões, como por exemplo vir estudar na Laboratória.
 
 ## Lógica de programação
 
@@ -25,19 +25,19 @@ Um algoritmo nada mais é do que uma sequência de passos que levam a execução
 uma tarefa. Um exemplo disso seria uma receita de um bolo. A baixo temos dois
 exemplos bem simples de algoritmos:
 
-**Chupar uma bala**
+Chupar uma bala
 
-1. Pegar a bala
-2. Retirar o papel
-3. Chupar a bala
-4. Jogar o papel no lixo
+* Pegar a bala
+* Retirar o papel
+* Chupar a bala
+* Jogar o papel no lixo
 
-**Somar dois números quaisquer**
+Somar dois números quaisquer
 
-1. Escreva o primeiro número
-2. Escreva o segundo número
-3. Some o primeiro número com o segundo número
-3. Escreva o resultado
+* Escreva o primeiro número
+* Escreva o segundo número
+* Some o primeiro número com o segundo número
+* Escreva o resultado
 
 ## Programas de computadores
 

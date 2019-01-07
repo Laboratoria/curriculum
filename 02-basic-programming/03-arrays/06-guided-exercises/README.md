@@ -46,7 +46,7 @@ também funciona com passos negativos, de modo que `range(5, 2, -1)` devolva
 
 Crie uma função que ordene um vetor de números, do menor para o maior. Dica:
 use o algoritmo [_selection sort_](https://pt.wikipedia.org/wiki/Selection_sort).
-Pesquise outros algoritmos de ordenação \(por exemplo: [_insertion sort_](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif) 
+Pesquise outros algoritmos de ordenação \(por exemplo: [_insertion sort_](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif)
 e [_bubble sort_](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)\).
 
 Agora que você já sabe ordenar um _array_, escreva uma função que busque um
@@ -67,5 +67,4 @@ argumentos. Ela deve devolver verdadeiro se ambos os _arrays_ forem iguais
 forem diferentes.
 
 > _Nota: Todos os desafios devem verificar as entradas antes de executar o
-  programa._
-
+programa._

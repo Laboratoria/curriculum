@@ -1,6 +1,7 @@
 # listAllValues
 
-Escreva uma função chamada `listAllValues` que retorna um _array_ de todos os valores do objeto de entrada.
+Escreva uma função chamada `listAllValues` que retorna um _array_ de todos os
+valores do objeto de entrada.
 
 Exemplo de entrada:
 
@@ -18,7 +19,8 @@ Valor devolvido pela função \(saída\):
 ['Krysten', 33, false]
 ```
 
-Observe que a entrada pode ter um número diferente de chaves e valores que a amostra fornecida. Por exemplo, você também deve manipular uma entrada como:
+Observe que a entrada pode ter um número diferente de chaves e valores que a
+amostra fornecida. Por exemplo, você também deve manipular uma entrada como:
 
 ```javascript
 {

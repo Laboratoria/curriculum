@@ -42,9 +42,9 @@ escrever um código mais limpo e mais bacana.
 
 ## Outros dados para ter em conta
 
-### Terminologia.
+### Terminologia
 
-Estes são alguns termos que são usados frequentemente quando falamos de 
+Estes são alguns termos que são usados frequentemente quando falamos de
 ECMAScript:
 
 * **JavaScript**: Nome da linguagem de programação.
@@ -72,12 +72,12 @@ A seguir são listadas as versões do padrão e seu ano de publicação:
 
 * ECMAScript é o padrão que define a linguagem de programação JavaScript.
 * A primeira versão do padrão foi publicada em 1997.
-* A quarta edição do padrão foi desenvolvida mas não foi terminada; muito 
+* A quarta edição do padrão foi desenvolvida mas não foi terminada; muito
   desse trabalho foi usado como parte da sexta edição.
 * ECMAScript 5 é a edição do padrão que atualmente é suportada pela maioria
   dos navegadores modernos (>= Internet Explorer 11).
 * ECMAScript 6 é o padrão que acumulou mais mudanças e por isso mesmo
   atualizando o padrão nos anos seguintes, manteve-se como ponto de referência
   para falar do JavaScript do futuro.
-* ECMAScript 6 pode ser conhecido como ES6 ou ES2015 por ser o ano da 
+* ECMAScript 6 pode ser conhecido como ES6 ou ES2015 por ser o ano da
   publicação.

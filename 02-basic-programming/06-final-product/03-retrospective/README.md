@@ -2,7 +2,7 @@
 
 * Tipo: `oficina`
 * Formato: `guiado`
-* Duração: `2 h`
+* Duração: `2h`
 
 ***
 
@@ -15,4 +15,3 @@
 
 1. Analisar os resultados da enquete de encerramento
 2. Retrospectiva
-

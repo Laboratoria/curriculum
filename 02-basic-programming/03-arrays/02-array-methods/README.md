@@ -46,7 +46,8 @@ O JavaScript nos fornece um monte de métodos para manipular arranjos,
 iterá-los, etc. Não se preocupe em memorizar a lista completa \(não acredito
 que alguém saiba de cabeça\), pois você irá se familiarizar com eles conforme
 o uso,  aprendendo a tirar vantagem de seus benefícios. Lembre-se de que sempre
-há a [documentação oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array) 
+há a
+[documentação oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 disponível. Faça uso dela, é a melhor referência.
 
 Vejamos alguns métodos comuns dos arranjos.
@@ -88,8 +89,8 @@ códigos mais expressivos, concisos e, por que não, bonitos.
 ### Array.prototype.pop
 
 Esse método não recebe nenhum argumento. Ele simplesmente extrai o último
-elemento do arranjo e o retorna\(modificando o arranjo diretamente
-- _in place_\).
+elemento do arranjo e o retorna\(modificando o arranjo diretamente -
+_in place_\).
 
 ```javascript
 const arr = ['oh', 'my', 'god'];
@@ -150,4 +151,3 @@ interfaces \(quais argumentos eles esperam, o que devolvem, ...\).
 
 * [Array na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Object.prototype na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
-

@@ -215,7 +215,7 @@ concatena, ou seja, junta duas strings. A linha a seguir produz a string
 ```
 
 Mas lembre que ao concatenar dados, você tem que tomar cuidado ao misturar
-_numbers_ e _strings_ em uma operação. Por exemplo, multiplicar um _número_ 
+_numbers_ e _strings_ em uma operação. Por exemplo, multiplicar um _número_
 por uma _string_ resulta em NaN.
 
 ```js

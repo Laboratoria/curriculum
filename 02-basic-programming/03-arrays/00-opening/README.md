@@ -6,7 +6,7 @@
 
 ***
 
-# Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade, aprenderemos:
 
@@ -14,16 +14,16 @@ Nesta unidade, aprenderemos:
 * A usar novos conceitos para resolver problemas ainda mais complexos e criar
   produtos mais elaborados na web.
 
-# Por que aprender isso?
+## Por que aprender isso?
 
-À medida que criamos programas mais complexos, precisamos conhecer as 
+À medida que criamos programas mais complexos, precisamos conhecer as
 estruturas que facilitam nosso trabalho. Como vimos anteriormente, uma grande
 parte da programação é sobre converter dados em informação. Nesta unidade, nós
 veremos _arrays_ e na próxima, _objetos_, duas estruturas para agrupar dados de
 uma maneira mais eficiente. Fazendo uso dessas estruturas de dados, podemos
 criar programas e produtos digitais mais complexos.
 
-# Guia para perguntas e conceitos-chave
+## Guia para perguntas e conceitos-chave
 
 Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos
 mais importantes que vamos aprender e as principais questões que devemos
@@ -39,4 +39,3 @@ _checklist_ que você vai marcando enquanto aprende.
   complexos?
 * O que se entende por um `array 2D`?
 * Como criar e manipular arranjos?
-

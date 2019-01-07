@@ -11,7 +11,9 @@
 * Entender, por meio de um exemplo, como combinar as duas estruturas de dados
   estudadas nesta unidade: `array` e `object`
 
-O texto abaixo é amplamente baseado, com alguns ajustes, em 4 de [JavaScript for Kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf) , Nick Morgan, 2015.
+O texto abaixo é amplamente baseado, com alguns ajustes, em 4 de
+[JavaScript for Kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf)
+, Nick Morgan, 2015.
 
 ## Combinando _arrays_ com _objects_
 

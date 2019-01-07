@@ -2,7 +2,8 @@
 
 Escreva uma função chamada `getLongestOfThreeWords`.
 
-Com 3 palavras, `getLongestOfThreeWords` devolve a mais longa das três palavras.
+Com 3 palavras, `getLongestOfThreeWords` devolve a mais longa das três
+palavras.
 
 Notas:
 

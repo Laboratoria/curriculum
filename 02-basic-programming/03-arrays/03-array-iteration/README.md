@@ -22,8 +22,8 @@ console.log(cidades.length); // 4
 Agora que você ja entendeu como o `.length` funciona, vamos ver como fazer
 iterações utilizando o `for` e o `while`:
 
-**for**
 ```js
+// for
 const itens = ["banana", "peixinho", "bolo"];
 
 for(let i = 0; i < itens.length; i++) {
@@ -31,8 +31,8 @@ for(let i = 0; i < itens.length; i++) {
 }
 ```
 
-**while**
 ```js
+// while
 const itens = ["banana", "peixinho", "bolo"];
 
 let i = 0;
@@ -46,7 +46,7 @@ while(i < itens.length) {
 
 O ES6 trouxe mais duas formas de iteração para facilitar as nossas vidas. O
 `for .. of` que é ideal para _arrays_ e para _strings_ e o `for .. in` que
-também funciona para _arrays_ e _strings_, mas normalmente é utilizado em 
+também funciona para _arrays_ e _strings_, mas normalmente é utilizado em
 _objects_.
 
 Essas novas iteração são muito similares ao `for` normal, mas além de
@@ -74,7 +74,6 @@ Como você pode perceber a cima a variável `item` é o próprio item e a cada
 iteração ela muda para o próximo. Dessa forma você não precisa criar uma
 variável extra para fazer a iteração e também não precisa saber o tamanho do
 _array_ no qual irá fazer a iteração.
-
 
 ### for .. in
 

@@ -6,7 +6,7 @@
 
 ***
 
-Uma forma para representar os algoritmos que você criar é utilizando o 
+Uma forma para representar os algoritmos que você criar é utilizando o
 pseudocódigo, que é um meio termo entre a linguagem falada e uma linguagem de
 programação. Ele é utilizado para escrever um algoritmo de uma forma genérica,
 utilizando um linguagem simples sem a necessidade de conhecer a sintaxe de
@@ -23,7 +23,6 @@ regras:
 * Usar frases curtas e simples
 * Ser objetivo
 * Procurar usar palavras que não tenham sentido dúbio
-
 
 ### Exemplo
 
@@ -50,7 +49,7 @@ Mostre o resultado da divisão
 
 Agora é sua vez de montar o pseudocódigo. Faça um algoritmo para “Calcular o
 estoque médio de uma peça”, sendo que ESTOQUEMÉDIO = (QUANTIDADE MÍNIMA +
-QUANTIDADE MÁXIMA) /2 
+QUANTIDADE MÁXIMA) /2
 
 ***
 

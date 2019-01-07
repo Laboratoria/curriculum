@@ -2,7 +2,8 @@
 
 Escreva uma função chamada "computeSumBetween".
 
-Com 2 inteiros, por exemplo `num1` e `num2`, "computeSumBetween" devolve a soma de todos os números entre eles, começando em `num1` e excluindo `num2`.
+Com 2 inteiros, por exemplo `num1` e `num2`, "computeSumBetween" devolve a soma
+de todos os números entre eles, começando em `num1` e excluindo `num2`.
 
 Notas:
 

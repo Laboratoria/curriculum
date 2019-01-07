@@ -6,8 +6,6 @@
 
 ***
 
-Diagrama de blocos
-
 ## O que é um diagrama de bloco?
 
 Diagramas de blocos é outra forma de representar algoritmos assim como o
