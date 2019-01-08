@@ -44,16 +44,15 @@ sobre Pokémon.
 la cobertura de _tests_ (incluyendo pruebas para componentes de interfaz).
 
 ## Considraciones generales
-- Esta segunda parte del proyecto es _individual_, con la excepción de alguna
-dupla que proponga continuar trabajando junta y con la aprobación de lxs
-coaches y la _Training Manager_. No se formarán nuevas duplas.
+- Esta segunda parte del proyecto es _individual_, salvo alguna excepción que
+ decida tu _Training Manager_.
 
 - Es responsabilidad de lxs _coaches_ y la _Training Manager_, después de las
-entrevistas de final de proyecto, aconsejar y validar los siguientes pasos para
-cada estudiante.
+entrevistas del final del proyecto original "Data Lovers", aconsejar y validar
+qué opciones de todas las detalladas en este READ.me, se adecúan más
+a cada estudiante.
 
 ## Cómo empezar a trabajar en el proyecto
-
 Para actualizar tu fork/rama de este proyecto con este archivo (`EXTRA.md`),
 puedes hacer _pull_ de los cambios desde la rama `master` del remoto de
 `Laboratoria` con un comando como el siguiente:
