@@ -21,7 +21,7 @@ la [parte obligatoria](README.md#parte-obligatoria).
 ## 2. Si completaste la "Parte Obligatoria"
 Tienes estas opciones:
 
-2.1. Haz la "parte Opcional" [(Hacker Edition)](README.md#parte-opcional-hacker-edition). Enfócate en los dos puntos principales: _cargar la data usando `fetch`_ y/o _agregar gráficas con [`Chart.js`](https://www.chartjs.org/)
+2.1. Haz la "Parte Opcional" [(Hacker Edition)](README.md#parte-opcional-hacker-edition). Enfócate en los dos puntos principales: _cargar la data usando `fetch`_ y/o _agregar gráficas con [`Chart.js`](https://www.chartjs.org/)
 o [`Google Charts`](https://developers.google.com/chart/)_. Si ya hiciste esto,
  pasa a las siguientes opciones (obviamente).
 
@@ -34,9 +34,11 @@ o preferencias personales.
 Así podrás, además, reforzar tus conocimientos sobre _heurísticas de usabilidad_
  y principios de diseño visual.
 
-2.3 Si quieres profundizar sobre lo ya aprendido, elige otra [fuente de datos](README.md#resumen-del-proyecto) para hacer otro "Producto". Por ejemplo, si hiciste una visualización
-con datos del Banco Mundial, puedes aplicar todo lo aprendido para, esta vez,
- hacer una sobre Pokémon.
+2.3 Si quieres profundizar sobre lo ya aprendido de Front-end y codear
+un poco más, elige otra [fuente de datos](README.md#resumen-del-proyecto) para hacer
+otro "Producto". Por ejemplo, si hiciste una visualización con datos del
+Banco Mundial, puedes aplicar todo lo aprendido para, esta vez, hacer una
+sobre Pokémon.
 
 2.4 [Refactoriza](https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) tu código para aumentar
 la cobertura de _tests_ (incluyendo pruebas para componentes de interfaz).
