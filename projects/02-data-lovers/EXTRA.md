@@ -18,7 +18,7 @@ Para esta _segunda parte_, te planteamos las siguientes _reglas_:
    - Si has _completado_ el proyecto, pero sin
      [_hacker edition_](README.md#parte-opcional-hacker-edition) (parte
      opcional), te sugeriremos que te enfoques en los dos puntos principales
-     del hacker edition: _cargar la data usando `fetch`_ y/o _agregar gráficas
+     del hacker edition: _cargar la data usando [`fetch`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)_ y/o _agregar gráficas
      con [`Chart.js`](https://www.chartjs.org/) o
      [`Google Charts`](https://developers.google.com/chart/)_.
    - Si has _completado_ el proyecto y te gustaría explorar un poco más sobre
