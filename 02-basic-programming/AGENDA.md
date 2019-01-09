@@ -28,8 +28,15 @@
 3. Laboratória: fazer login com sua conta
 4. gmail: enviar um e-mail para paloma@laboratoria.la
 
+-------------------------------------
 
 ## fluxogramas - algoritmos
 
-* calcular média
+* cálculo de deslocamento
+* verificar se o número é primo
+
+## JS
+
+* cálculo de deslocamento
+* verificar se o número é primo
 
