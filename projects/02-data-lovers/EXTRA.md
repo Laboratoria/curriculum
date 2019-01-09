@@ -26,10 +26,12 @@ o [`Google Charts`](https://developers.google.com/chart/)_. Si ya hiciste esto,
  pasa a las siguientes opciones (obviamente).
 
 2.2. Si quieres explorar un poco más sobre el Diseño de Experiencia de Usuario
-(_UX Design_), te proponemos hacer sesiones de _testeo de usabilidad con usuarios_.
-Hacerlo te permitirá pensar y entender mejor en el diseño de tu producto pero
-basándote en el _feedback_ de los usuarios y no en tus asunciones, hipótesis
-o preferencias personales.
+(_UX Design_), te proponemos hacer sesiones de _testeo de usabilidad con
+usuarios_ y una evaluación heurística de tu sitio completo. Recuerda incorporar
+aprendizajes y oportunidades de mejora en tu _readme_. Haz una búsqueda de
+referentes de diseño visual para tu sitio que te sirvan de inspiración para
+resolver desafíos de interfaz. A partir de todos estos aprendizajes de
+usabilidad y diseño visual, trabaja en una iteración de la interfaz de tu sitio.
 
 Así podrás, además, reforzar tus conocimientos sobre _heurísticas de usabilidad_
  y principios de diseño visual.
