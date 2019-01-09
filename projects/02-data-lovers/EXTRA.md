@@ -55,7 +55,7 @@ la cobertura de _tests_ (incluyendo pruebas para componentes de interfaz).
 
 - Es responsabilidad de lxs _coaches_ y la _Training Manager_, después de las
   entrevistas del final del proyecto original "Data Lovers", aconsejar y validar
-  qué opciones de todas las detalladas en este READ.me, se adecúan más
+  qué opciones de todas las detalladas en este `README.md`, se adecúan más
   a cada estudiante.
 
 ## Cómo empezar a trabajar en el proyecto
