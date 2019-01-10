@@ -1,6 +1,6 @@
 # Cifrado César
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) 
+Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
 batalla.
@@ -50,7 +50,7 @@ una zona de conflicto.
 interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
 te preocupes, lo aprenderás durante este proyecto.
 - Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-primer Sprint (una semana) y al  final, trata de fijar un estimado de cuándo lo
+primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
 terminarás.
 
 ## Objetivos de aprendizaje
@@ -60,8 +60,8 @@ usuario a través del navegador y la lógica basada en esa interacción. Dicho e
 palabras sencillas, aprenderás a:
 
 - Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando
-ocurran dichos eventos (cifrar/descifrar).
+- Permitir al usuario interactuar con elementos del DOM y hacer que la
+  aplicación responda (cifrar/descifrar) cuando ocurran esos **eventos del DOM**.
 - Manipular _**strings**_ (cadenas de texto).
 - Usar **control de flujo** (bucles, condicionales, ...).
 - Actualizar la pantalla con los resultados (**manipular el DOM**).
@@ -253,7 +253,7 @@ evaluaremos cuando lo  completes:
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -295,7 +295,8 @@ Herramientas:
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
 ## Checklist
-Esta sección está  para ayudarte a llevar un control de lo que vas completando.
+
+Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
