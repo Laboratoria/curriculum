@@ -14,10 +14,10 @@ es reemplazada por otra que se encuentra un número fijo de posiciones
 
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+* La letra A se cifra como D.
+* La palabra CASA se cifra como FDVD.
+* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con
 mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
@@ -36,22 +36,21 @@ necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
 (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
 ejemplo:
 
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en
-una zona de conflicto.
-- Mensajería secreta para parejas.
-
+* Crear claves seguras para el email.
+* Encriptar/cifrar una tarjeta de crédito.
+* Herramienta de mensajería interna de una organización de derechos humanos en
+  una zona de conflicto.
+* Mensajería secreta para parejas.
 
 ## Consideraciones generales
 
-- Este proyecto se debe resolver de manera individual.
-- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-terminarás.
+* Este proyecto se debe resolver de manera individual.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
+  te preocupes, lo aprenderás durante este proyecto.
+* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
+  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
+  terminarás.
 
 ## Objetivos de aprendizaje
 
@@ -59,43 +58,44 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 usuario a través del navegador y la lógica basada en esa interacción. Dicho en
 palabras sencillas, aprenderás a:
 
-- Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar con elementos del DOM y hacer que la
+* Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+* Permitir al usuario interactuar con elementos del DOM y hacer que la
   aplicación responda (cifrar/descifrar) cuando ocurran esos **eventos del DOM**.
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
-- **Implementar funciones** dada una descripción de su comportamiento.
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+* Manipular _**strings**_ (cadenas de texto).
+* Usar **control de flujo** (bucles, condicionales, ...).
+* Actualizar la pantalla con los resultados (**manipular el DOM**).
+* **Implementar funciones** dada una descripción de su comportamiento.
+* Verificar tu implementación con **pruebas unitarias**.
+* Entender las **necesidades del usuario** y cómo proponer una solución.
+* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
 ## Parte Obligatoria
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-#### Definición del producto
+### Definición del producto
 
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* Quiénes son los principales usuarios de producto.
+* Cuáles son los objetivos de estos usuarios en relación con tu producto.
+* Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-#### Interfaz de usuario (UI)
+### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
-- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-el cifrado desplace cada caracter.
-- Insertar un mensaje (texto) que queremos cifrar.
-- Ver el resultado del mensaje cifrado.
-- Insertar un mensaje (texto) a descifrar.
-- Ver el resultado del mensaje descifrado.
 
-#### Scripts / Archivos
+* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
+  el cifrado desplace cada caracter.
+* Insertar un mensaje (texto) que queremos cifrar.
+* Ver el resultado del mensaje cifrado.
+* Insertar un mensaje (texto) a descifrar.
+* Ver el resultado del mensaje descifrado.
+
+### Scripts / Archivos
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
@@ -274,9 +274,9 @@ resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 Diseño de experiencia de usuario (User Experience Design):
 
-- Ideación
-- Prototipado (sketching)
-- Testeo e Iteración
+* Ideación
+* Prototipado (sketching)
+* Testeo e Iteración
 
 Desarrollo Front-end:
 
@@ -291,14 +291,17 @@ Desarrollo Front-end:
 * [Documentación de NPM](https://docs.npmjs.com/)
 
 Herramientas:
-- GitHub y GitHub Pages.
-- [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
+
+* GitHub y GitHub Pages.
+* [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf):
+  solamente para comenzar a entender cómo organizar tu trabajo.
 
 ## Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
+
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
@@ -320,6 +323,7 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
+
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
