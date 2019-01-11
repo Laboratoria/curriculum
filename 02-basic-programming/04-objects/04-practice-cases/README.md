@@ -51,4 +51,4 @@ A seguir, Lourdes explica como ela resolveu o exercício:
 
 ### 1. _Array_ para _Object_
 
-[![Solu&#xE7;&#xE3;o ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE)
+[![Solu&#xE7;&#xE3;o ArrayToObject](https://img.youtube.com/vi/yQcNA41PMco/0.jpg)](https://www.youtube.com/watch?v=yQcNA41PMco)

@@ -77,4 +77,4 @@ _estruturas condicionais_ para imprimir no console:
 2. O total de pontos da turma
 3. Os nomes das alunas que fizeram o curso **"JS avançado"**
 
-[![Vide sobre arrays com objects](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)
+[![Vídeo sobre arrays com objects](https://img.youtube.com/vi/lGWownaVeB8/0.jpg)](https://www.youtube.com/watch?v=lGWownaVeB8)

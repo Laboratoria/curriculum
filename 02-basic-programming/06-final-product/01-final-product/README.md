@@ -46,7 +46,7 @@ Abaixo está um vídeo que guia você pela fórmula matemática da Cifra de Cés
 algumas outras dicas que você deve saber para resolver este desafio. Ouça com
 atenção e siga os conselhos! :\)
 
-[![Dicas Cifra de C&#xE9;sar](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+[![Dicas Cifra de C&#xE9;sar](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
 
 Também compartilhamos mais informações do que foi explicado no vídeo anterior:
 
