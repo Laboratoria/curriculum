@@ -41,7 +41,8 @@ Dicho en palabras sencillas, aprenderás a:
   original y valiosa del problema.
 * Contar con el apoyo de tus compañeras, debes trabajar en equipo buscando
   _feedback_ constante.
-* Definir como crear la estructura de tu propia data y de qué forma mostrarla en el producto.
+* Definir como crear la estructura de tu propia data y de qué forma mostrarla en
+  el producto.
 
 ## Consideraciones generales
 
@@ -58,7 +59,9 @@ repositorio.
 
 ### General
 
-En este proyecto, tú junto a tus compañeras de equipo deberán definir la estructura de carpetas y archivos  al igual que los _tests_ que consideren necesaria; puedes guiarte de los proyectos anteriores :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir la estructura de
+carpetas y archivos al igual que los _tests_ que consideren necesaria; puedes guiarte
+de los proyectos anteriores :smiley:.
 
 ### Definición del producto
 
@@ -365,7 +368,8 @@ explorar opciones y decidir una opción de implementación.
 En los proyectos anteriores hemos consumido (leído) datos, pero todavía no
 habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
 proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
-modificar datos existentes. Estos datos se podrán guardar de forma remota usando [Firebase](https://firebase.google.com/).
+modificar datos existentes. Estos datos se podrán guardar de forma remota
+usando [Firebase](https://firebase.google.com/).
 
 Otras:
 
