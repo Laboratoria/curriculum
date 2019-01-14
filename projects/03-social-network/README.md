@@ -29,7 +29,8 @@ en los que le gustaría invertir:
 ## Objetivos de Aprendizaje
 
 El objetivo principal de aprendizaje de este proyecto es construir una interfaz web
-[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive) (con mas de una vista / pagina) en el que podamos **leer y escribir datos.**
+[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
+ (con más de una vista / página) en el que podamos **leer y escribir datos.**
 
 Dicho en palabras sencillas, aprenderás a:
 
@@ -57,10 +58,7 @@ repositorio.
 
 ### General
 
-En este proyecto, no hay un _boilerplate_, por lo que tú deberás definir
-la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
-de los proyectos anteriores. Por lo tanto, los _tests_ y el _setup_ necesario
-para ejecutarlos serán hechos por ti misma :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir la estructura de carpetas y archivos  al igual que los _tests_ que consideren necesaria; puedes guiarte de los proyectos anteriores :smiley:.
 
 ### Definición del producto
 
@@ -83,7 +81,9 @@ entrevistas con usuarios y tests de usabilidad.
 
 ### Historias de usuario
 
-Una vez que entiendas las necesidades de tu usuario, escribe las Historias de Usuario que representen todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición de terminado (definition o done) para cada una.
+Una vez que entiendas las necesidades de tu usuario, escribe las Historias de
+Usuario que representen todo lo que el usuario necesita hacer/ver. Asegúrate
+de incluir una definición de terminado (definition o done) para cada una.
 
 ### Diseño de la Interfaz de Usuario (prototipo de baja/alta fidelidad)
 
@@ -206,25 +206,22 @@ El corazón de este proyecto incluye:
 * Que el sitio sea responsive, ya dicho.
 * Alterar y persistir datos. Los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses
-  [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web)
-  como primera opción para resolver este desafío, aun así, tú
-  puedes optar por la que se acomode más a tu equipo.
+  [Firebase](https://firebase.google.com/).
 
 Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
-* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
-  al navegar en internet te darás cuenta de que algunas de estas construyen un
-  **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
 * Recuerda que no hay un setup de **tests** definido, dependerá de
   la estructura de tu proyecto también, pero algo que no debes de olvidar es
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
+* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
+  al navegar en internet te darás cuenta de que algunas de estas construyen un
+  **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
 
 ### Consideraciones UX
 
 Desde el punto de vista de UX, deberás:
 
-* Hacer un _benchmark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
 * Hacer un  prototipo de alta fidelidad.
 * Testear el prototipo con usuarios.
@@ -315,21 +312,13 @@ puedas haber encontrado en el camino.
 | **CS** | |
 | Lógica | 2
 | Arquitectura | 2
-| Patrones/paradigmas | n/a
 
 ### UX
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | User Centricity | 3
-| Entrevistas | 2 |
-| Testing | 2
-| User Flow | 2
-| Jerarquía | 3
-| Alineación | 3
-| Contraste | 3
-| Color | 3
-| Tipografía | 3
+| Visual Desing | 2
 
 ### Habilidades Blandas
 
@@ -391,12 +380,13 @@ o de forma remota usando [Firebase](https://firebase.google.com/).
 
 Otras:
 
+* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
+* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 * [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
 * [Mobile First: el enfoque actual del diseño web móvil - 1and1](https://www.1and1.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/)
 * [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
 * [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-* [Offline first manifesto](http://offlinefirst.org/)
 
 ***
 
