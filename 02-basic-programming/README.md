@@ -41,22 +41,33 @@ cotidiano:
 
 ## Syllabus
 
-### Unidade 01: [A linha de comandos e o Git](01-shell+git)
-
-Arrumar aqui
-
-### Unidade 02: [Arrays](02-arrays)
-
-TODO
-
-### Unidade 03: [Objects](03-objects)
+### Unidade 01: [Lógica](00-logic)
 
 ...
 
-### Unidade 04: [Produtos finais](04-final-products)
+### Unidade 02: [Shell e git](01-shell-git)
 
-Aplique o que você aprendeu criando dois programas que com aplicação em nosso
-dia-a-dia: validação de cartão de crédito e Cifra de César.
+...
+
+### Unidade 03: [ES6](02-es6)
+
+...
+
+### Unidade 04: [Arrays](03-arrays)
+
+...
+
+### Unidade 05: [Objects](04-objects)
+
+...
+
+### Unidade 06: [Testes](05-tests)
+
+...
+
+### Unidade 07: [Produto final](06-final-product)
+
+...
 
 ## Contribuidores
 
