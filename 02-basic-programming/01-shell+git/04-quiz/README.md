@@ -8,11 +8,13 @@
 
 ## Objetivos
 
-Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e fazer uma auto-avaliação. É uma oportunidade para verificar que realmente está aprendendo. Boa sorte!
+Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e fazer
+uma auto-avaliação. É uma oportunidade para verificar que realmente está
+aprendendo. Boa sorte!
 
 ## Preguntas
 
-### 1\) **`Git`** é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+### 1\) **`Git`** é um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 #### Opções
 
@@ -34,7 +36,7 @@ Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e f
 
 <solution style="display:none;">1</solution>
 
-### 3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão**_** ao nosso repositório remoto, enquanto que **_**\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao **_**último commit**_** registrado no repositório remoto.
+### 3\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, enviaremos nossa nova versão **_** ao nosso repositório remoto, enquanto que **_**\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar nosso repositório local ao **_**último commit**_** registrado no repositório remoto
 
 #### Opções
 
@@ -45,7 +47,7 @@ Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e f
 
 <solution style="display:none;">3</solution>
 
-### 4\) Qual dos seguintes comandos são do **`Git`**? Você pode escolhar mais do que um.
+### 4\) Qual dos seguintes comandos são do **`Git`**? Você pode escolhar mais do que um
 
 #### Opções
 
@@ -64,8 +66,10 @@ Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e f
 
 1. Para usar os comandos e transformar nossos archivos `.js` em `.git`
 2. Para refatorar nosso código e enviá-lo sem a necessidade de usar `GitHub`
-3. Para criar novos comandos de `Git` e `GitHub` e, posteriormente, dar suporte a eles
-4. Para visualizar, gerenciar e manipular arquivos de nosso computador por meio de comandos
+3. Para criar novos comandos de `Git` e `GitHub` e, posteriormente, dar suporte
+   a eles
+4. Para visualizar, gerenciar e manipular arquivos de nosso computador por meio
+   de comandos
 
 <solution style="display:none;">4</solution>
 
@@ -93,7 +97,7 @@ Nesta seção, você terá a oportunidade de pôr seus conhecimentos a prova e f
 
 <solution style="display:none;">4</solution>
 
-### 8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior.
+### 8\) Por meio de \_\_\_\_\_\_\_\_\_\_\_\_\_, indicamos quais arquivos queremos que passem de nosso **_**working directory**_** para a **_**staging area**_**, enquanto que com \_\_\_\_\_\_\_\_\_\_\_, confirmamos os arquivos que declaramos como preparados através do comando anterior
 
 #### Opções
 

@@ -44,14 +44,8 @@ anteriores.
 
 ### Reverse
 
-[![Solu&#xE7;&#xE3;o para Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
+[![Solução para Reverse](https://img.youtube.com/vi/ErS_iFp8eFc/0.jpg)](https://www.youtube.com/watch?v=ErS_iFp8eFc)
 
 ### Search
 
-[![Solu&#xE7;&#xE3;o para Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
-
-Reverse
-https://repl.it/@rafaelbcerri/Reverse
-
-Search
-https://repl.it/@rafaelbcerri/Linear-Search
+[![Solução para Search](https://img.youtube.com/vi/AJCWkJgTCj0/0.jpg)](https://www.youtube.com/watch?v=AJCWkJgTCj0)

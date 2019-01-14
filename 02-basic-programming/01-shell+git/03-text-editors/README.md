@@ -13,7 +13,6 @@ Nesta unidade:
 * Aprenderemos um pouco mais sobre editores de código e como funcionam
 * Veremos algumas ótimas opções de editores.
 
-
 ## Um pouco sobre editores de código e porque são úteis
 
 Os editores de código são a principal ferramenta da desenvolvedora, afinal de
@@ -64,7 +63,6 @@ partir da extensão do arquivo) e ativar uma série de ferramentas úteis, como:
 Estas são apenas algumas das ferramentas que os editores de código oferecem.
 Existem várias outras que vamos descobrir à medida em que avançamos.
 
-
 ## Como escolher um editor?
 
 Na maior parte das vezes, trata-se de escolha pessoal: costume, interesse por
@@ -92,7 +90,6 @@ O funcionamento básico dos editores de código é sempre muito similar, porém
 eles diferem em uso de atalhos, funcionalidades extras, _plug-ins_ e etc. Aqui
 na Laboratória, para facilitar nosso dia-a-dia, escolhemos utilizar o
 **Visual Studio Code**.
-
 
 ## Escrevendo código sem um editor
 

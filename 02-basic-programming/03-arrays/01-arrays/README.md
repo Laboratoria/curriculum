@@ -207,7 +207,7 @@ para procurar o índice 3 do _array_ `questions` \(o qual também é, por sua ve
 um _array_: _ _`['Qual é a moeda do México?', 'Peso']`  e, dentro desse vetor,
 acessar o índice 1 \(_string_ `'Peso'`\) e imprimir o elemento no console.
 
-A seguir, Michelle nos explica os principais conceitos de _arrays_ através de
+A seguir a Ju vai explica os principais conceitos de _arrays_ através de
 um exemplo:
 
-[![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)
+[![Exemplo: array &quot;dinossauros&quot; - pg. 44 - JS for Kids](https://img.youtube.com/vi/joMxeCl6ppg/0.jpg)](https://www.youtube.com/watch?v=joMxeCl6ppg)

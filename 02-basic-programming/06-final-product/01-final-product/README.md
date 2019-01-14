@@ -8,29 +8,13 @@
 
 ## Objetivos
 
-É hora de testar o que aprendeu: você deverá criar um programa usado para
+É hora de testar o que aprendeu: você deverá criar um programa para
 criptografar mensagens.
 
 ## Entrega
 
-Você deve entregar **um repositório no GitHub** que contenha:
-
-1. Arquivo `README.md` que explica o **pseudocódigo** de sua solução e seu
-   **diagrama de fluxo**
-2. Arquivo `app.js` com o **código** da sua solução
-3. Arquivo `index.html` vinculado ao seu `app.js`
-
-## Critérios de avaliação
-
-As considerações a seguir serão levadas em conta ao avaliar sua solução:
-
-1. Nomenclatura de variáveis
-2. Indentação
-3. Validação de entrada: o usuário não deve ser capaz de inserir um campo vazio
-   ou de um tipo incorreto
-4. Estrutura dos seus arquivos
-5. Arquivo `README.md` escrito corretamente
-6. O programa deve cumprir o objetivo exigido
+Para entregar o projeto, você deve subir seu código para o GitHub
+(`add`/`commit`/`push`)..
 
 ## Cifra de César
 
@@ -46,30 +30,10 @@ Abaixo está um vídeo que guia você pela fórmula matemática da Cifra de Cés
 algumas outras dicas que você deve saber para resolver este desafio. Ouça com
 atenção e siga os conselhos! :\)
 
-[![Dicas Cifra de C&#xE9;sar](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
+[![Dicas Cifra de César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
 
 Também compartilhamos mais informações do que foi explicado no vídeo anterior:
 
 * [Saiba mais sobre `charCodeAt()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 * [Saiba mais sobre `String.fromCharCode()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 * [Saiba mais sobre `ASCII`](http://www.bosontreinamentos.com.br/hardware/tabela-ascii/)
-
-> Considerações Específicas
->
-> 1. Seu programa deve ser capaz de criptografar e descriptografar letras
-> maiúsculas e minúsculas;
-> 2. O programa deve executar corretamente independente do número informado
-> como índice de deslocamento;
-> 3. O código deve ser composto por no mínimo 2 funções de saída com os
-> seguintes nomes: `cipher` e `decipher`;
-> 4. O programa deve possuir tratamento de dados, como por exemplo, tratar um
-> campo vazio;
-> 5. Criar funções de testes para validar as saídas das funções
-> `cipher` e `decipher`.
->
-> Hacker Edition
->
-> 1. Permitir a criptografia utilizando como índice de deslocamento um número
-> negativo;
-> 2. Tratamento de entrada de dados que identifique palavras com acentos e/ou
-> caracteres especiais e notifique o usuário.

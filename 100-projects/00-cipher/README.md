@@ -5,9 +5,9 @@
 O aniversário da sua mãe está se aproximando e você está organizando uma festa
 surpresa. Para manter a festa em segredo foi criado um grupo de Whatsapp com
 amigxs e familiares. O problema é que as vezes sua mãe utiliza o seu celular
-para e pode ser que ela veja as suas mensagens. Como a festa é surpresa, você
+e pode ser que ela veja as suas mensagens. Como a festa é surpresa, você
 decide criar uma aplicação que permita enviar mensagens criptografadas e depois
-descriptografar. Então agoa é a hora de aplicar os seus super poderes 😎
+descriptografar. Então agora é a hora de aplicar os seus super poderes 😎
 
 ## Introdução
 
@@ -19,330 +19,202 @@ seguindo um número fixo para essa subtituição.
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 O imperador Júlio César usou essa cifra para enviar ordens aos seus generais no
-campo de batalha, essa é uma das técnicas mais simples e mais usadas para cifrar mensagens.
+campo de batalha. Essa é uma das técnicas mais simples e mais usadas para
+cifrar mensagens.
 
 Por exemplo se usarmos o deslocamento de 3:
 
 * Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 * Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-Atualmente todos as cifras de substituição alfabética simples, são descifradas
+Atualmente todas as cifras de substituição alfabética simples, são descifradas
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de
 César muitas vezes pode fazer parte de um sistema mais complexo de
 criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
--------
-
 ## Objetivos
 
-El objetivo principal de aprendizaje de este proyecto es tener tu primera
-experiencia construyendo una aplicación web usando tus conocimientos de **User
-Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
-pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
-DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
-básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
-del DOM para mostrar (escribir) los resultados.
+O objetivo principal de aprendizagem deste projeto é que você tenha sua
+primeira experiência construindo uma aplicação web, usando os seus
+conhecimentos de **User Experience Design** e de **JavaScript**. Isso
+inclui desenhar um produto pensando nos usuários, construir uma interface,
+escutar eventos básicos do DOM, escrever a lógica que cifra e descifra
+mensagens, realizar testes básicos que comprovem (e documentem) esta lógica,
+e finalmente manipular o DOM para que ele mostre e imprima os resultados.
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como
-[valores, tipos, variables](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/01-basics),
-[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control)
-y [tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
+Esperamos que neste projeto você possa pensar no usuário, entendendo quem ele
+é e suas necessidades. A ideia é que consiga entender o que o usuário
+necessita para criar o produto e o ajudar a resolver suas necessidades da
+melhor maneira possível.
 
-Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
-y su necesidad. La idea es que logres entender qué necesita el usuario para el
-que crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
-posible.
+Também é esperado que você possa se organizar, tendo em conta o tempo e os
+recursos disponíveis. Essa é a primeira vez que avaliaremos suas soft skills,
+mas deve considerar que são habilidades que provavelmente já deve ter
+utilizado em diversas experiências em sua vida. O importante é que realize
+o projeto de forma integral.
 
-Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
-disponibles. Es la primera vez que evaluaremos tus habilidades blandas, pero debes
-considerar que son habilidades que probablemente ya has utilizado en distintas
-experiencias de tu vida. Lo importante es que realices el proyecto de manera
-integral.
+## Considerações gerais
 
-## Consideraciones generales
-
-La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto NO está permitido usar librerías o frameworks, sólo
+A lógica do projeto deve estar implementada inteiramente em JavaScript(ES6).
+Nesse projeto NÃO está permitido usar bibliotecas ou frameworks, só
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
-No se debe utilizar la _pseudo-variable_ `this`.
+Para começar este projeto você terá que fazer um _fork_ e _clonar_ este
+repositório que contém o _boilerplate_.
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
-test`.
-
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
+O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, assim
+como toda a configuração de dependência:
 
 ```text
 ./
-├── .editorconfig
-├── .eslintrc
 ├── .gitignore
 ├── README.md
-├── package.json
 ├── src
 │   ├── cipher.js
 │   ├── index.html
-│   ├── index.js
+│   ├── tests.js
 │   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
 ```
 
-El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
-`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
-configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+## Parte obrigatória
 
-## Parte obligatoria
+### Definição do produto
 
-### Definición del producto
-
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
-producto y cuál fue tu proceso para definir el producto final a nivel de
-experiencia y de interfaz.
-
-* quiénes son los principales usuarios de producto
-* cuáles son los objetivos de estos usuarios en relación con el producto
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
+No `README.md` descreva o seu processo de desenvolvimento utilizando os
+diagramas de bloco e como definiu os usuários quando estava desenvolvendo
+seu projeto.
 
 ### UI
 
-La interfaz debe permitir al usuario:
+A interface deve permitir ao usuário:
 
-* elegir un `offset` indicando cuántas posiciones queremos que el cifrado
-  desplace cada caracter
-* insertar un mensaje (texto) que queremos cifrar
-* ver el resultado del mensaje cifrado
-* insertar un mensaje (texto) a descifrar
-* ver el resultado del mensaje descifrado
+* eleger um `offset` indicando quantas posições de deslocamento de caracteres
+  queremos que a cifra utilize
+* inserir uma mensagem (letras maiúsculas e minúsculas) que queremos cifrar
+* ver o resultado da mensagem cifrada
+* inserir uma mensagem (letras maiúsculas e minúsculas) para ser decifrada
+* ver o resultado da mensagem decifrada
 
-### Scripts / Archivos
+### Scripts / Arquivos
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener to _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
-  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos decifrar.
-  - `cipher.createCipherWithOffset(offset)`: recibe un `offset` y devuelve un
-    nuevo objeto con dos métodos (`encode` y `decode`) que solo necesitan
-    recibir el string y usen el `offset` que se pasó a `createCipherWithOffset`
-    a la hora de crear el objeto.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
+* `src/index.html`: este é o ponto de entrada da sua aplicação. Este arquivo
+  deve conter o _markup_ (HTML) e incluir o CSS e JavaScript necessário.
+* `src/cipher.js`: aqui você deve implementar o objeto cipher, o qual deve
+  estar _exportado_ no objeto global (`window`). Este objeto (`cipher`) deve
+  conter dois métodos:
+    - `cipher.encode(offset, string)`: `offset` é o número de posições que
+    queremos mover para a direita no alfabeto e `string` a mensagem (texto)
+    que quemos cifrar.
+    - `cipher.decode(offset, string)`: `offset` é o número de posições que
+    queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
+    que queremos decifrar.
+* `src/tests.js`: este arquivo deve conter os testes que você irá implementar
 
 ## Hacker edition
 
-La descripción general de este _proyecto_ no menciona qué pasaría con las letras
-minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El
-_boilerplate_ incluye algunos tests (comentados en principio) que puedes usar
-como punto de partida para implementar soporte para estos casos.
-
-Tampoco se menciona qué pasaría si el `offset` fuera _negativo_. Como parte del
-_hacker edition_ te invitamos a explorar también esta caso por tu cuenta.
-
-Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
-agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
-
-Para el diseño de la experiencia de usuario, puedes investigar y aplicar algunas
-de las técnicas y herramientas relacionadas al proceso de diseño como
-entrevistas y testeos con usuarios o sketching y prototipado.
-
-Lo mismo en habilidades blandas, puedes realizar una planificación experta
-teniendo en consideración la utilización de herramientas de planificación, como
-un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
-quiere abarcar el reto o problema. Realizando una estimación realista del
-tiempo.
-
-## Entrega
-
-El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages.
-
-## Evaluación
-
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
-
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud | 3
-| Investigación | 3
-| Documentación | 2
-
-### Tech
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 2
-| Nomenclatura/semántica | 2
-| Funciones/modularidad | 1
-| Estructuras de datos | 0
-| Tests | 2
-| **HTML** | |
-| Validación | 2
-| Estilo | 3
-| Semántica | 2
-| SEO | 0
-| **CSS** | |
-| DRY | 2
-| Responsive | 2
-| **SCM** | |
-| Git | 1
-| GitHub | 2
-| **CS** | |
-| Lógica | 1
-| Arquitectura | 1
-| Patrones/paradigmas | 0
-
-### UX
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 2 |
-
-### Habilidades Blandas
-
-Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades. Te aconsejamos
-revisar la rúbrica.
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 2 |
-| Autoaprendizaje | 2 |
-| Solución de problemas | 2 |
-| Dar y recibir feedback | 2 |
-| Adaptabilidad | 2 |
-| Trabajo en equipo | 1/2 |
-| Comunicación eficaz | 1/2 |
-| Presentaciones | 1/2 |
-
-***
-
-## Primeros pasos
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo
-   privado y te darán acceso de lectura en ese repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-   incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. A codear se ha dicho! :rocket:
-
-***
-
-## Tips / Pistas
-
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
-
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-También te compartimos más información de lo que Michelle te ha explicado en el
-video anterior:
-
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
-
-Estos son algunos tips que te pueden ayudar en la organización y realización de
-tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
-
-* Para comenzar realiza una organización de tu proyecto, ve con qué recursos
-  cuentas y el tiempo que tienes para completarlo.
-* Si hay algo que no sepas pregunta e intenta resolverlo; puedes comenzar con
-  una búsqueda en google, luego consultando a tu squad y por último a tus
-  coaches. Si hay algo que yo no sé, otro me puede ayudar. El aprendizaje es un
-  proceso colaborativo.
-* Una vez que empieces a avanzar pide feedback, tus compañeras pueden tener
-  excelentes ideas o formas de resolver el proyecto que te pueden ayudar.
-* Cuando te topes con un problema, busca alternativas, y para eso consulta
-  diferentes fuentes.
-* Si ya te ves invirtiendo mucho tiempo en detalles debes saber priorizar y
-  seguir con lo más importante, los proyectos tienen tiempo limitado y debes
-  saber administrarlo.
-* Trabaja en equipo, pregunta e intenta completar el proyecto sin rendirte.
-* Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
-  podrá apreciar todo el esfuerzo y trabajo que invertiste.
-
-***
-
-## Checklist
-
-### Parte Obligatoria
-
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Implementa `cipher.createCipherWithOffset`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+A descrição geral deste projeto não menciona o que aconteceria com as outros
+caracteres (como espaços, pontuação, acentos, etc.). Também não foi mencionado
+o que aconteceria se o `offset` fosse negativo. Como parte do hacker edition te
+convidamos a explorar este caso por conta própria.
+
+O desafio anterior nos ajuda a observar sua capacidade de autoaprendizagem,
+podemos agregar aos seu trabalho um elemento que te leva à um novo nível.
+
+O mesmo em habilidades socioemocionais. Você pode realizar um planejamento
+tendo em consideração a utilização de ferramentas de planejamento como um
+calendário, trello, flip chart entre outros, criando um plano passo a passo de
+como quer enfrentar o seu desafio ou problema. Realizando uma estimação
+realista do tempo.
+
+## Entrega
+
+Para entregar o projeto, você deve subir seu código para o GitHub
+(`add`/`commit`/`push`)..
+
+## Avaliação
+
+Aconselhamos você a revisar [a rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+para ver a descrição detalhada de cada _habilidade_ e cada _nível_.
+
+***
+
+## Primeros passos
+
+1. Antes de mais nada, se assegure de ter um bom :pencil: editor de texto,
+  algo como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
+2. Para executar os comando você precisará de um :shell: UNIX Shell,
+  que é um programa que interpreta linhas de comando (command-line interpreter) e
+  também deve ter git instalado. Se você usa um sistema operacional "UNIX-like",
+  como GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
+  provavelmente o `git` também). Se você usa Windows você pode usar o
+  [Git bash](https://git-scm.com/download/win), embora seja recomendado que
+  você teste :penguin: GNU/Linux.
+3. Faça seu próprio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+  do repositório. Seus _mentores_ compartilharão com você um _link_ para um repositório privado e te darão acesso a este repositório.
+4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
+  o _fork_ para seu computador (cópia local).
+5. Let's Code ! :rocket:
+
+***
+
+## Dicas
+
+A seguir um vídeo do Daniel que te ajudará a entender a fórmula matemática
+usada pela Cifra de César e algumas coisas mais que deve saber para resolver
+o seu projeto. Escute com atenção e siga seus conselhos ! :)
+
+[![Dicas Cifra de César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
+
+Também compartilhamos com vocês mais informações sobre o que foi explicado no
+vídeo anterior:
+
+* [Aprenda mais sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+* [Aprenda mais sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+* [Aprenda mais sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+
+
+Estas são algumas dicas que podem te ajudar na organização e relização do seu
+projeto, tendo em conta o desenvolvimento de suas _habilidades socioemocionais_:
+
+* Para começar, realize a organização de seu projeto. Veja quais recursos você
+  tem disponíveis e o tempo que tem para completar o desafio.
+* Se tiver algo que você não saiba, pergunte e tente entender o problema; pode
+  começar com uma busca no google, depois consultando seu squad e por último a
+  seus coaches. Se existe algo que eu não sei, outra pessoa pode me ajudar. O
+  aprendizado é um processo colaborativo.
+* Assim que começar a avançar em seu projeto, peça feedbacks. Suas companheiras
+  podem ter excelentes ideias ou formas de resolver o projeto que podem te ajudar.
+* Quando se deparar com um problema, busque alternativas e, para isso, consulte
+  várias fontes.
+* Se você perceber que já faz muito tempo que está presa em detalhes, pare e
+  priorize o que é mais importante. Os projetos têm tempo limitado e você deve
+  saber administrá-lo.
+* Trabalhe em equipe, pergunte e tente completar o projeto sem se render.
+* Prepare sua apresentação. Se não consigo passar minhas ideiais aos demais,
+  não será possível apreciar todo o esforço e trabalho investido.
+
+## Checklist
+
+### Parte Obrigatória
+
+* [ ] `README.md` com explicações e desenho do projeto
+* [ ] Usar VanillaJS.
+* [ ] Permitir escrever um texto, com letras maiúsculas e minúsculas, para ser
+  cifrado.
+* [ ] Mostrar o resultado da cifra corretamente.
+* [ ] Permitir escrever um texto, com letras maiúsculas e minúsculas, para ser
+  descifrado.
+* [ ] Mostrar o resultado descifrado corretamente.
+* [ ] Permitir escolher o `offset` (_deslocamento_) a ser usado na
+  cifragem/descifragem.
+* [ ] Implementa `cipher.encode`.
+* [ ] Implementa `cipher.decode`.
+* [ ] Criar testes unitários.
+
+### Parte Opcional: "Hacker edition"
+
+* [ ] Permite usar um `offset` (_deslocamento_) negativo
+* [ ] Cifra/descifra _outros_ caracteres (espaços, pontuação, `ã`, `á`, ...)
