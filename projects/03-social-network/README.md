@@ -59,9 +59,9 @@ repositorio.
 
 ### General
 
-En este proyecto, tú junto a tus compañeras de equipo deberán definir la estructura de
-carpetas y archivos al igual que los _tests_ que consideren necesaria; puedes guiarte
-de los proyectos anteriores :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir la
+estructura de carpetas y archivos al igual que los _tests_ que consideren
+necesaria; puedes guiarte de los proyectos anteriores :smiley:.
 
 ### Definición del producto
 
