@@ -126,9 +126,7 @@ La interfaz debe permitir lo siguiente:
 #### Creación de cuenta de usuario e inicio de sesión
 
 * Login con Firebase:
-  - Solamente para el login es obligatorio usar Firebase, no para las
-    publicaciones en el muro ni las demás funcionalidades, para eso puedes
-    usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
+  - Para el login y las publicaciones en el muro puedes utilizar [Firebase](https://firebase.google.com/products/database/)
   - Autenticación con Facebook - Google.
 * Validaciones:
   - No pueden haber usuarios repetidos.
@@ -190,13 +188,6 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 ### Hacker edition
 
 * Crear posts con imágenes
-* Reemplazar `localStorage`, ¿le has compartido tu red social a tus amigxs? Si
-  lo has hecho, te darás cuenta de que ellxs no pueden ver tus posts ni tú el de
-  ellxs. Esto es debido a que `localStorage` almacena los datos localmente
-  (en tu navegador) por lo que esos datos no se comparten. Para resolver esto
-  podrías implementar una base de datos pero el tiempo podría jugar en contra,
-  para ello existen algunos servicios como [Firebase](https://firebase.google.com/products/database/)
-  que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
 
 ### Consideraciones técnicas
 
@@ -374,9 +365,7 @@ explorar opciones y decidir una opción de implementación.
 En los proyectos anteriores hemos consumido (leído) datos, pero todavía no
 habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
 proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
-modificar datos existentes. Estos datos se podrán guardar localmente usando
-[`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-o de forma remota usando [Firebase](https://firebase.google.com/).
+modificar datos existentes. Estos datos se podrán guardar de forma remota usando [Firebase](https://firebase.google.com/).
 
 Otras:
 
