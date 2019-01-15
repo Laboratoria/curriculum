@@ -47,7 +47,7 @@ chave-valor de um `object` em um vetor.
 
 ## Resolução
 
-A seguir, Lourdes explica como ela resolveu o exercício:
+A seguir, Daniel explica como ele resolveu o exercício:
 
 ### 1. _Array_ para _Object_
 

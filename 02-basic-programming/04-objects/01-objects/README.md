@@ -262,6 +262,6 @@ console.log(student);
 // → Objeto {nome: 'Carolina', pontos: 3500, cursos: Matriz (2), isActive: true}
 ```
 
-A seguir, Michelle explica os principais conceitos de `object`com um exemplo:
+A seguir, Daniel explica os principais conceitos de `object`com um exemplo:
 
 [![exemplo de cria&#xE7;&#xE3;o e modifica&#xE7;&#xE3;o de um objeto](https://img.youtube.com/vi/_P1kAhq7W38/0.jpg)](https://www.youtube.com/watch?v=_P1kAhq7W38)

@@ -423,3 +423,4 @@ const bhaskara = (a, b, c) => {
 };
 
 bhaskara(1, -5, 6); // 'Raiz 1:3 - Raiz 2:2'
+```

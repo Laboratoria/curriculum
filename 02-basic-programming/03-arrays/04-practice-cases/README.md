@@ -39,7 +39,7 @@ que é um algoritmo, confira os seguintes vídeos:
 
 ## Soluções
 
-A seguir, Lourdes lhe explicará como ela resolveu cada um dos exercícios
+A seguir, o Rafael lhe explicará como resolver cada um dos exercícios
 anteriores.
 
 ### Reverse

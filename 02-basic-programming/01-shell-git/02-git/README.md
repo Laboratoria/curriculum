@@ -28,7 +28,7 @@ referências:
 
 `Git` é um _Sistema de Controle de Versões_.
 
-> ** O que é um Sistema de Controle de Versões? **
+**O que é um Sistema de Controle de Versões**?
 
 Um _Sistema de Controle de Versões_ \(VCS em inglês\) é um sistema que registra
 as alterações de um, dois ou mais arquivos o tempo todo para, caso necessário,
@@ -155,15 +155,6 @@ Para criar sua conta no GitHub, siga estes passos:
 
 E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
 
-## Como criamos um repositório remoto no GitHub?
-
-Siga os passos de Michelle para criar um repositório no GitHub:
-
-[![Criando reposit&#xF3;rio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
-
-Por último, temos a tela onde encontramos a _URL_ do nosso repositório remoto
-que, mais adiante, será vinculada ao nosso repositório local.
-
 ## Como instalar o Git?
 
 Se estivermos usando Linux ou Mac OS X, não será necessário instalar o Git
@@ -280,8 +271,6 @@ Agora, vamos definir o nosso ambiente de `Git`:
 Os dados das linhas acima devem ser os mesmos que você usou ao criar a sua
 conta no GitHub, pois eles ficarão gravados nos _commits_ e farão parte do
 histórico do projeto que está armazenado no GitHub.
-
-[![Configurando o Git](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)](https://www.youtube.com/watch?v=g9iNK_11KV4)
 
 ## Como usar o Git e GitHub?
 
@@ -430,8 +419,3 @@ A seguir, temos uma lista de comandos do Git usados nesta aula:
 | `git push nome-remoto master` | Envia o conteúdo local no repositório remoto|
 | `git status` | Mostra o estado dos arquivos do diretório local |
 | `git pull nome-remoto master` | Atualiza o repositório local |
-
-Agora, vejamos como Michelle usa o Git e GitHub para lidar com o controle
-versões de seus projetos e colaborar com outras professoras da Laboratoria.
-
-[![Subindo o reposit&#xF3;rio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)

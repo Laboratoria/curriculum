@@ -1,4 +1,4 @@
-# Arranjos
+# Arrays
 
 * Tipo: `leitura`
 * Formato: `individual`
