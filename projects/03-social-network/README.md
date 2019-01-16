@@ -28,7 +28,7 @@ en los que le gustaría invertir:
 
 ## Objetivos de Aprendizaje
 
-El objetivo principal de aprendizaje de este proyecto es construir una interfaz web
+El objetivo principal de aprendizaje de este proyecto es construir una [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
  (con más de una vista / página) en el que podamos **leer y escribir datos.**
 
@@ -49,8 +49,7 @@ Dicho en palabras sencillas, aprenderás a:
 Este proyecto se debe "resolver" en tríos.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
-frameworks, pero **no es obligatorio** :smiley:.
+(ES6), HTML y CSS :smiley:. Para este proyecto no está permitido utilizar frameworks o librerías de CSS y JS.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
@@ -59,9 +58,7 @@ repositorio.
 
 ### General
 
-En este proyecto, tú junto a tus compañeras de equipo deberán definir la
-estructura de carpetas y archivos al igual que los _tests_ que consideren
-necesaria; puedes guiarte de los proyectos anteriores :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir los _tests_ que consideren necesarios; puedes guiarte de los proyectos anteriores. Igualmente el proyecto cuenta con una estructura de carpetas y archivos ya definida pero pueden modificarla de acuerdo a como desean trabajar la estructura de su proyecto :smiley:.
 
 ### Definición del producto
 
@@ -79,8 +76,7 @@ de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
 * Cómo verificaste que el producto les está resolviendo sus problemas
 * Cómo te asegurarás que estos usuarios usen este producto
 
-Para poder llegar a estas definiciones te recomendamos ver: benchmarks,
-entrevistas con usuarios y tests de usabilidad.
+Para poder llegar a estas definiciones te recomendamos ver: entrevistas con usuarios y tests de usabilidad.
 
 ### Historias de usuario
 
@@ -197,6 +193,7 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 El corazón de este proyecto incluye:
 
 * Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
+* Contar con multiples vistas para esto tu aplicacion debera ser una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 * Que el sitio sea responsive, ya dicho.
 * Alterar y persistir datos. Los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses
@@ -208,9 +205,6 @@ Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
   la estructura de tu proyecto también, pero algo que no debes de olvidar es
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
-* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
-  al navegar en internet te darás cuenta de que algunas de estas construyen un
-  **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
 
 ### Consideraciones UX
 
@@ -358,9 +352,7 @@ afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
 URL) y links tradicionales, manteniendo estado en memoria y rederizando
 condicionalmente (sin refrescar la página), [manipulando el historial del
 navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
-con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history),
-usando una librería (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
-o [`vue-router`](https://router.vuejs.org/)). En este proyecto te invitamos a
+con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history). En este proyecto te invitamos a
 explorar opciones y decidir una opción de implementación.
 
 ### Escritura de datos
