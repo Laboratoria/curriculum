@@ -70,7 +70,7 @@ Que legal quando vemos tudo o que aprendemos aplicado em um único bloco de
 código, né? :\) A melhor parte é que, com essa estrutura, podemos acessar os
 dados de maneira simples.
 
-Em seguida, Michelle dirá como usar _funções_, _estruturas de repetição_ e
+Em seguida, Daniel dirá como usar _funções_, _estruturas de repetição_ e
 _estruturas condicionais_ para imprimir no console:
 
 1. Os nomes de todos as alunas ativas
