@@ -28,7 +28,8 @@ en los que le gustaría invertir:
 
 ## Objetivos de Aprendizaje
 
-El objetivo principal de aprendizaje de este proyecto es construir una [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
+El objetivo principal de aprendizaje de este proyecto es construir una
+[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
  (con más de una vista / página) en el que podamos **leer y escribir datos.**
 
@@ -49,7 +50,8 @@ Dicho en palabras sencillas, aprenderás a:
 Este proyecto se debe "resolver" en tríos.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS :smiley:. Para este proyecto no está permitido utilizar frameworks o librerías de CSS y JS.
+(ES6), HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
+frameworks o librerías de CSS y JS.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
@@ -76,7 +78,8 @@ de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
 * Cómo verificaste que el producto les está resolviendo sus problemas
 * Cómo te asegurarás que estos usuarios usen este producto
 
-Para poder llegar a estas definiciones te recomendamos ver: entrevistas con usuarios y tests de usabilidad.
+Para poder llegar a estas definiciones te recomendamos ver: entrevistas con
+usuarios y tests de usabilidad.
 
 ### Historias de usuario
 
@@ -352,8 +355,9 @@ afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
 URL) y links tradicionales, manteniendo estado en memoria y rederizando
 condicionalmente (sin refrescar la página), [manipulando el historial del
 navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
-con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history). En este proyecto te invitamos a
-explorar opciones y decidir una opción de implementación.
+con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history).
+En este proyecto te invitamos a explorar opciones y decidir una opción
+de implementación.
 
 ### Escritura de datos
 
