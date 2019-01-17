@@ -49,8 +49,8 @@ Dicho en palabras sencillas, aprenderás a:
 
 Este proyecto se debe "resolver" en tríos.
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
+La lógica del proyecto debe estar implementada completamente en JavaScript,
+HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
 frameworks o librerías de CSS y JS.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
@@ -194,6 +194,13 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 ### Hacker edition
 
 * Crear posts con imágenes
+* Permite agregar amigos.
+* Permite eliminar amigos.
+* Permite compartir publicación (en twitter esto es retwittear, en facebook
+  es compartir).
+* Permite comentar o responder una publicación.
+* Permite editar perfil.
+* Permite ver perfil o resumen desde el _muro_ o lista de publicaciones.
 
 ### Consideraciones técnicas
 
@@ -421,16 +428,19 @@ Otras:
 
 ### Muro (wall/feed)
 
-Debes elegir como mínimo 8 características.
-
 * [ ] Muestra _muro_, o lista de publicaciones.
 * [ ] Permite hacer nuevas publicaciones.
 * [ ] Permite eliminar publicaciones.
 * [ ] Pide confirmación antes de borrar publicación.
 * [ ] Permite editar publicación en el mismo lugar (in place).
-* [ ] Permite filtrar publicaciones por público/amigos.
+* [ ] Permite filtrar publicaciones por público/privado.
 * [ ] Permite marcar publicaciones como _gustados_ (like, corazón, estrella,
   etc...).
+* [ ] Permite ver cuántas marcas, likes, estrellas, corazones o lo que se haya
+  elegido, ha recibido una publicación.
+
+### Hacker Edition
+
 * [ ] Permite agregar amigos.
 * [ ] Permite eliminar amigos.
 * [ ] Permite compartir publicación (en twitter esto es retwittear, en facebook
