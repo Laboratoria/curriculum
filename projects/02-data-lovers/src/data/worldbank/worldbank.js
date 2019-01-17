@@ -1,4 +1,4 @@
-var WORLDBANK = {
+const WORLDBANK = {
   "PER": {
     "indicators": [
       {
