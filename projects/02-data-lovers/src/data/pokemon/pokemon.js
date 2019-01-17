@@ -1,4 +1,4 @@
-var POKEMON = {
+const POKEMON = {
   "pokemon": [{
     "id": 1,
     "num": "001",
