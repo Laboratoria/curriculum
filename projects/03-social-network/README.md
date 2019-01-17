@@ -60,7 +60,11 @@ repositorio.
 
 ### General
 
-En este proyecto, tú junto a tus compañeras de equipo deberán definir los _tests_ que consideren necesarios; puedes guiarte de los proyectos anteriores. Igualmente el proyecto cuenta con una estructura de carpetas y archivos ya definida pero pueden modificarla de acuerdo a como desean trabajar la estructura de su proyecto :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir los
+_tests_ que consideren necesarios; puedes guiarte de los proyectos
+anteriores. Igualmente el proyecto cuenta con una estructura de carpetas
+y archivos ya definida pero pueden modificarla de acuerdo a como desean
+trabajar la estructura de su proyecto :smiley:.
 
 ### Definición del producto
 
@@ -196,7 +200,8 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 El corazón de este proyecto incluye:
 
 * Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
-* Contar con multiples vistas para esto tu aplicacion debera ser una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
+* Contar con multiples vistas para esto tu aplicacion debera ser una
+ [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 * Que el sitio sea responsive, ya dicho.
 * Alterar y persistir datos. Los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses
