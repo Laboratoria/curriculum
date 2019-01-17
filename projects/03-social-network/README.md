@@ -91,22 +91,13 @@ Una vez que entiendas las necesidades de tu usuario, escribe las Historias de
 Usuario que representen todo lo que el usuario necesita hacer/ver. Asegúrate
 de incluir una definición de terminado (definition o done) para cada una.
 
-### Diseño de la Interfaz de Usuario (prototipo de baja/alta fidelidad)
+### Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
 
 Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y
 con eso deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de
-esta red social que siga este flujo. Para esto debes utilizar la herramienta de
-diseño visual de tu preferencia. Nosotros te recomendamos Figma dado que es una
-herramienta que funciona en el navegador y puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como Illustrator,
-Photoshop, PowerPoint, Keynote, etc.
-
+esta red social que siga este flujo.
 Este diseño debe representar la solución que se implementará finalmente en
 código.
-
-Tu diseño debe seguir los fundamentos de visual design, como: contraste,
-alineación, jerarquía, entre otros. Tip: revisa el contenido de UX de la unidad
-de visual design.
 
 ### Responsive
 
@@ -179,14 +170,6 @@ La interfaz debe permitir lo siguiente:
   inmediatamente después de guardar.
 * Al recargar la página se deben poder ver los contenidos editados.
 
-Para armar la interfaz visual, utiliza como base alguna de estas guías de
-componentes:
-
-* [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
-* [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
-* [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
-* [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
-
 Personaliza estas guías con los colores y/o tipografías que creas convenientes.
 Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
 _visual design_ como contraste, alineación, jerarquía, entre otros.
@@ -226,8 +209,7 @@ Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 Desde el punto de vista de UX, deberás:
 
 * Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de alta fidelidad.
-* Testear el prototipo con usuarios.
+* Hacer un  prototipo de baja fidelidad.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
 * Hacer sesiones de testing con el producto en HTML.
@@ -312,7 +294,7 @@ puedas haber encontrado en el camino.
 | **SCM** | |
 | Git | 3
 | GitHub | 3
-| **CS** | |
+| **CSS** | |
 | Lógica | 2
 | Arquitectura | 2
 
@@ -400,10 +382,8 @@ Otras:
 ### `README.md`
 
 * [ ] Definición del producto
-* [ ] Benchmark de las principales redes sociales.
 * [ ] Resumen de entrevistas con usuarios.
-* [ ] Link/screenshots prototipo de alta fidelidad.
-* [ ] Conclusiones de pruebas del prototipo con usuarios.
+* [ ] Link/screenshots prototipo de baja fidelidad.
 * [ ] Conclusiones de pruebas con el producto en HTML.
 
 ### Pruebas / tests
