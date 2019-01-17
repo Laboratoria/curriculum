@@ -31,7 +31,7 @@ en los que le gustaría invertir:
 El objetivo principal de aprendizaje de este proyecto es construir una
 [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
- (con más de una vista / página) en el que podamos **leer y escribir datos.**
+ (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
 Dicho en palabras sencillas, aprenderás a:
 
