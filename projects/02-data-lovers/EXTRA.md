@@ -3,7 +3,7 @@
 ![Travel pic](https://assets-auto.rbl.ms/5fefc7fee587f0e4aca6794810f346d3c555463eed4e21eaa015d6fc9e6bcb5d)
 [Fuente](https://www.theodysseyonline.com/road-trips-worthwhile)
 
-## Resumen del proyecto
+## Resumen
 
 Después de unas semanas trabajando en el proyecto, queremos proponerte una
 _segunda parte_ que se adapte a tu proceso de aprendizaje **individual**.
@@ -47,8 +47,9 @@ otro "Producto". Por ejemplo, si hiciste una visualización con datos del
 Banco Mundial, puedes aplicar todo lo aprendido para, esta vez, hacer una
 sobre Pokémon.
 
-2.4 [Refactoriza](https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) tu código para aumentar
-la cobertura de _tests_ (incluyendo pruebas para componentes de interfaz).
+2.4 [Refactoriza](https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) tu código
+para aumentar la cobertura de _tests_ (incluyendo pruebas para componentes de
+interfaz).
 
 ## Consideraciones generales
 
@@ -60,7 +61,7 @@ la cobertura de _tests_ (incluyendo pruebas para componentes de interfaz).
   qué opciones de todas las detalladas en este `README.md`, se adecúan más
   a cada estudiante.
 
-## Cómo empezar a trabajar en el proyecto
+## ¿Cómo empezar?
 
 Para actualizar tu fork/rama de este proyecto con este archivo (`EXTRA.md`),
 puedes hacer _pull_ de los cambios desde la rama `master` del remoto de
