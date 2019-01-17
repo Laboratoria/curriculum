@@ -13,7 +13,7 @@ ECMAScript 2015+ en código compatible hacia atrás con versiones de JavaScript
 actualmente soportadas por navegadores antiguos y otros entornos.
 Estas son los principales tareas que puedes realizar con Babel:
 
-* Transformar syntaxis
+* Transformar sintaxis
 * Aplicar "Polyfills" de funcionalidades faltantes en ciertos entornos
   (a través de [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill))
 * Transformar tu código fuente (codemods)

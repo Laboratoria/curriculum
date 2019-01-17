@@ -11,7 +11,7 @@ provee Babel.
 
 > Si estás usando un framework en particular,
 > seguramente alguien ya se encargó de crear una configuración de babel para ti.
-> Revisa la [guia interactiva de setup](https://babeljs.io/setup.html) antes de
+> Revisa la [guía interactiva de setup](https://babeljs.io/setup.html) antes de
 > comenzar desde cero.
 
 ## Overview
@@ -62,7 +62,7 @@ El proceso completo para configurar esto implica lo siguiente:
    ./node_modules/.bin/babel src --out-dir lib
    ```
 
-   > Puede usar el package runner que viene incluído en npm@5.2.0 para acortar
+   > Puedes usar el package runner que viene incluído en npm@5.2.0 para acortar
    > este comando, reemplazando `./node_modules/.bin/babel` por `npx babel`
 
 Continúa leyendo para una explicación detallada de cada una de estos pasos.
@@ -72,7 +72,7 @@ Continúa leyendo para una explicación detallada de cada una de estos pasos.
 Todos los módulos de Babel que vayas a necesitar, se encuentran publicados
 como paquetes independientes de npm, dentro del namespace `@babel`
 (desde la versión 7).
-Este diseño modular expone diferentes heramientas, cada una diseñadas para un
+Este diseño modular expone diferentes herramientas, cada una diseñada para un
 uso específico. En esta sección analizaremos `@babel/core` y `@babel/cli`.
 
 ### Core Library
@@ -219,7 +219,7 @@ global y en los prototypes nativos, como por ejemplo `String`.
 > usar el plugin [transform runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
 > en lugar de `@babel/polyfill` y así no contaminar el scope global.
 
-Para ir un paso más allá, si tu sabes exáctamente para qué funcionalidades
+Para ir un paso más allá, si tú sabes exáctamente para qué funcionalidades
 necesitas un polyfill, puedes requerirlas directamente desde
 [core-js](https://github.com/zloirock/core-js#commonjs).
 

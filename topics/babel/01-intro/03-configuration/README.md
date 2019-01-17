@@ -1,4 +1,4 @@
-# Guía de uso
+# Guía de configuración
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -45,7 +45,7 @@ module.exports = function () {
 }
 ```
 
-Cheque la [documentación de `babel.config.js`](https://babeljs.io/docs/en/config-files#project-wide-configuration)
+Consulta la [documentación de `babel.config.js`](https://babeljs.io/docs/en/config-files#project-wide-configuration)
 para ver todas las opciones de configuración.
 
 ## `.babelrc`
