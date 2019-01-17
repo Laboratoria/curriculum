@@ -49,7 +49,7 @@ Dicho en palabras sencillas, aprenderás a:
 
 Este proyecto se debe "resolver" en tríos.
 
-La lógica del proyecto debe estar implementada completamente en JavaScript,
+La lógica del proyecto debe estar implementada completamente en JavaScript (ES6+),
 HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
 frameworks o librerías de CSS y JS.
 
