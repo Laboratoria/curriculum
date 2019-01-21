@@ -18,8 +18,8 @@ provee Babel.
 
 Esta guía te acompañará a través de los pasos necesarios para compilar
 tu aplicación JavaScript que usa sintaxis ES2015+, en código que funcione
-en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis, como
-aplicar polyfills para las funcionalidades inexistentes.
+en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis,
+como aplicar polyfills para las funcionalidades inexistentes.
 
 El proceso completo para configurar esto implica lo siguiente:
 
@@ -110,12 +110,13 @@ npm install --save-dev @babel/core @babel/cli
 ./node_modules/.bin/babel src --out-dir lib
 ```
 
-Este comando se encargará de parsear todos los archivos JavaScript dentro del
-directorio `src`, aplicar todas las transformaciones que hayamos configurado
-y colocar cada archivo transformado dentro del directorio `lib`. Como todavía
-no le hemos indicado qué transformaciones aplicar, el resultado será idéntico
-al original (exceptuando el formato). Podemos especificar qué transformaciones
-queremos aplicar, pasándolas como opciones.
+Este comando se encargará de _parsear_ (del inglés _parse_: análisis de
+sintaxis) todos los archivos JavaScript dentro del directorio `src`, aplicar
+todas las transformaciones que hayamos configurado y colocar cada archivo
+transformado dentro del directorio `lib`. Como todavía no le hemos indicado qué
+transformaciones aplicar, el resultado será idéntico al original (exceptuando el
+formato). Podemos especificar qué transformaciones queremos aplicar, pasándolas
+como opciones.
 
 Arriba usamos la opción `--out-dir`. Puedes ver el resto de opciones disponibles
 pasando la opción`--help`. Pero las opciones más relevantes a esta altura son
@@ -173,7 +174,7 @@ Veamos otra forma de pasar opciones: _archivos de configuración_.
 > Existen algunas formas diferentes de usar archivos de configuración
 > dependiendo de tus necesidades. Para más información asegúrate de leer la
 > guía extendida sobre cómo
-> [configurar Babel](../03-configuration).
+> [configurar Babel](./03-configuration).
 
 Por ahora comencemos creando un archivo que se llame `babel.config.js` con el
 siguiente contenido:

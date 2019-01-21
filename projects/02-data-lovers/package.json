@@ -1,5 +1,5 @@
 {
-  "name": "cipher",
+  "name": "data-lovers",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
@@ -7,16 +7,12 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test-browser": "opener ./test/index.html",
-    "test-node": "nyc mocha ./test/headless.js",
-    "test": "npm run test-node --silent && npm run test-browser"
+    "test": "jest"
   },
   "dependencies": {
-    "chai": "^4.1.2",
     "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
-    "mocha": "^5.1.1",
-    "nyc": "^13.1.0",
-    "opener": "^1.4.3"
+    "jest": "^23.6.0"
   }
 }
