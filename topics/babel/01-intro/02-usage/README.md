@@ -110,12 +110,13 @@ npm install --save-dev @babel/core @babel/cli
 ./node_modules/.bin/babel src --out-dir lib
 ```
 
-Este comando se encargará de parsear todos los archivos JavaScript dentro del
-directorio `src`, aplicar todas las transformaciones que hayamos configurado
-y colocar cada archivo transformado dentro del directorio `lib`. Como todavía
-no le hemos indicado qué transformaciones aplicar, el resultado será idéntico
-al original (exceptuando el formato). Podemos especificar qué transformaciones
-queremos aplicar, pasándolas como opciones.
+Este comando se encargará de _parsear_ (del inglés _parse_: análisis de
+sintaxis) todos los archivos JavaScript dentro del directorio `src`, aplicar
+todas las transformaciones que hayamos configurado y colocar cada archivo
+transformado dentro del directorio `lib`. Como todavía no le hemos indicado qué
+transformaciones aplicar, el resultado será idéntico al original (exceptuando el
+formato). Podemos especificar qué transformaciones queremos aplicar, pasándolas
+como opciones.
 
 Arriba usamos la opción `--out-dir`. Puedes ver el resto de opciones disponibles
 pasando la opción`--help`. Pero las opciones más relevantes a esta altura son
