@@ -18,8 +18,8 @@ provee Babel.
 
 Esta guía te acompañará a través de los pasos necesarios para compilar
 tu aplicación JavaScript que usa sintaxis ES2015+, en código que funcione
-en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis, como
-aplicar polyfills para las funcionalidades inexistentes.
+en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis,
+como aplicar polyfills para las funcionalidades inexistentes.
 
 El proceso completo para configurar esto implica lo siguiente:
 
@@ -173,7 +173,7 @@ Veamos otra forma de pasar opciones: _archivos de configuración_.
 > Existen algunas formas diferentes de usar archivos de configuración
 > dependiendo de tus necesidades. Para más información asegúrate de leer la
 > guía extendida sobre cómo
-> [configurar Babel](../03-configuration).
+> [configurar Babel](./03-configuration).
 
 Por ahora comencemos creando un archivo que se llame `babel.config.js` con el
 siguiente contenido:
