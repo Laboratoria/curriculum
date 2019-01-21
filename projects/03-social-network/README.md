@@ -26,28 +26,32 @@ en los que le gustaría invertir:
 * Salud
 * Energías Renovables
 
-## Objetivos
+## Objetivos de Aprendizaje
 
-El objetivo principal de aprendizaje de este proyecto es construir un sitio web
+El objetivo principal de aprendizaje de este proyecto es construir una
+[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-con más de una vista (página), y en el que podamos leer y escribir datos.
+ (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
-Algunos objetivos específicos:
+Dicho en palabras sencillas, aprenderás a:
 
+* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
 * Entender las necesidades de los usuarios para los que crearás el producto y
   que ayudarás a resolver.
 * Poner en juego tu creatividad para generar ideas que lleven a una solución
   original y valiosa del problema.
-* Cuentas con el apoyo de tus compañeras, debes trabajar en equipo buscando
+* Contar con el apoyo de tus compañeras, debes trabajar en equipo buscando
   _feedback_ constante.
+* Definir como crear la estructura de tu propia data y de qué forma mostrarla en
+  el producto.
 
 ## Consideraciones generales
 
 Este proyecto se debe "resolver" en tríos.
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
-frameworks, pero **no es obligatorio** :smiley:.
+La lógica del proyecto debe estar implementada completamente en JavaScript (ES6+),
+HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
+frameworks o librerías de CSS y JS.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
@@ -56,10 +60,44 @@ repositorio.
 
 ### General
 
-En este proyecto, no hay un _boilerplate_, por lo que tú deberás definir
-la estructura de carpetas y archivos que consideres necesaria, puedes guiarte
-de los proyectos anteriores. Por lo tanto, los _tests_ y el _setup_ necesario
-para ejecutarlos serán hechos por ti misma :smiley:.
+En este proyecto, tú junto a tus compañeras de equipo deberán definir los
+_tests_ que consideren necesarios; puedes guiarte de los proyectos
+anteriores. Igualmente el proyecto cuenta con una estructura de carpetas
+y archivos ya definida pero pueden modificarla de acuerdo a como desean
+trabajar la estructura de su proyecto :smiley:.
+
+### Definición del producto
+
+En el `README.md` colocar cómo conociste el mercado de las redes sociales, cómo
+descubriste las necesidades de los usuarios, cómo llegaste  la definición final
+de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
+(bocetos) compártelos. Es importante que detalles:
+
+* Cuáles son los elementos básicos que tiene una red social
+* Quiénes son los principales usuarios de producto
+* Cómo descubriste las necesidades de los usuarios
+* Qué problema resuelve el producto para estos usuarios
+* Cuáles son los objetivos de estos usuarios en relación con el producto
+* Cuáles son las principales funcionalidades del producto y cuál es su prioridad
+* Cómo verificaste que el producto les está resolviendo sus problemas
+* Cómo te asegurarás que estos usuarios usen este producto
+
+Para poder llegar a estas definiciones te recomendamos ver: entrevistas con
+usuarios y tests de usabilidad.
+
+### Historias de usuario
+
+Una vez que entiendas las necesidades de tu usuario, escribe las Historias de
+Usuario que representen todo lo que el usuario necesita hacer/ver. Asegúrate
+de incluir una definición de terminado (definition o done) para cada una.
+
+### Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
+
+Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y
+con eso deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de
+esta red social que siga este flujo.
+Este diseño debe representar la solución que se implementará finalmente en
+código.
 
 ### Responsive
 
@@ -73,16 +111,19 @@ al final).
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_, y _branches_.
 
-### UI y comportamiento (User Interface / Interfaz de Usuario)
+### Implementación de la Interfaz de Usuario (UI y comportamiento de Interfaz de Usuario)
+
+La idea para este producto es que el producto a desarrollar siga los
+lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo
+largo de la implementación que los elementos propuestos están siendo
+implementados correctamente.
 
 La interfaz debe permitir lo siguiente:
 
 #### Creación de cuenta de usuario e inicio de sesión
 
 * Login con Firebase:
-  - Solamente para el login es obligatorio usar Firebase, no para las
-    publicaciones en el muro ni las demás funcionalidades, para eso puedes
-    usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
+  - Para el login y las publicaciones en el muro puedes utilizar [Firebase](https://firebase.google.com/products/database/)
   - Autenticación con Facebook - Google.
 * Validaciones:
   - No pueden haber usuarios repetidos.
@@ -129,60 +170,53 @@ La interfaz debe permitir lo siguiente:
   inmediatamente después de guardar.
 * Al recargar la página se deben poder ver los contenidos editados.
 
-Para armar la interfaz visual, utiliza como base alguna de estas guías de
-componentes:
-
-* [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
-* [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
-* [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
-* [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
-
 Personaliza estas guías con los colores y/o tipografías que creas convenientes.
 Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
 _visual design_ como contraste, alineación, jerarquía, entre otros.
 
-## Implementación
+### Hacker edition
 
-### Front end
+* Crear posts con imágenes
+* Permite agregar amigos.
+* Permite eliminar amigos.
+* Permite compartir publicación (en twitter esto es retwittear, en facebook
+  es compartir).
+* Permite comentar o responder una publicación.
+* Permite editar perfil.
+* Permite ver perfil o resumen desde el _muro_ o lista de publicaciones.
+
+### Consideraciones técnicas
 
 El corazón de este proyecto incluye:
 
 * Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
+* Contar con multiples vistas para esto tu aplicacion debera ser una
+ [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 * Que el sitio sea responsive, ya dicho.
 * Alterar y persistir datos. Los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses
-  [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web)
-  como primera opción para resolver este desafío, aun así, tú
-  puedes optar por la que se acomode más a tu equipo.
+  [Firebase](https://firebase.google.com/).
 
 Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
 
-* Recuerda que puedes usar una librería o  framework si así lo desea el equipo,
-  al navegar en internet te darás cuenta de que algunas de estas construyen un
-  **boilerplate** por ti, tenlo presente al iniciar tu proyecto.
 * Recuerda que no hay un setup de **tests** definido, dependerá de
   la estructura de tu proyecto también, pero algo que no debes de olvidar es
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
 
-### UX
+### Consideraciones UX
 
 Desde el punto de vista de UX, deberás:
 
-* Hacer un _benchmark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de alta fidelidad.
-* Testear el prototipo con usuarios.
+* Hacer un  prototipo de baja fidelidad.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
 * Hacer sesiones de testing con el producto en HTML.
 
-### Ágil
+### Consideraciones Ágil
 
-Vamos a dar un paso importante para seguir aprendiendo de Ágil. Te será de mucha
-ayuda para ir avanzando tu proyecto de forma incremental y no en cascada.
-
-Esta vez te pedimos que los ítems de tu Backlog de Producto estén escritos
+Esta vez te recomendamos que los ítems de tu Backlog de Producto estén escritos
 como [Historias de Usuario](http://jmbeas.es/guias/historias-de-usuario/).
 Esta es una técnica muy simple que te ayudará a:
 
@@ -231,67 +265,11 @@ que presentar puede ser una tarea difícil, esperamos que tengas capacidad de
 síntesis y articules tus ideas con claridad para que logres mostrar tu trabajo
 y que los demás lo comprendan.
 
-## Hacker edition
-
-* Crear posts con imágenes
-* Reemplazar `localStorage`, ¿le has compartido tu red social a tus amigxs? Si
-  lo has hecho, te darás cuenta de que ellxs no pueden ver tus posts ni tú el de
-  ellxs. Esto es debido a que `localStorage` almacena los datos localmente
-  (en tu navegador) por lo que esos datos no se comparten. Para resolver esto
-  podrías implementar una base de datos pero el tiempo podría jugar en contra,
-  para ello existen algunos servicios como [Firebase](https://firebase.google.com/products/database/)
-  que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
-
 ## Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
-
-### Entregables
-
-#### 1) Definición del producto
-
-En el `README.md` colocar cómo conociste el mercado de las redes sociales, cómo
-descubriste las necesidades de los usuarios, cómo llegaste  la definición final
-de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
-(bocetos) compártelos. Es importante que detalles:
-
-* Cuáles son los elementos básicos que tiene una red social
-* Quiénes son los principales usuarios de producto
-* Cómo descubriste las necesidades de los usuarios
-* Qué problema resuelve el producto para estos usuarios
-* Cuáles son los objetivos de estos usuarios en relación con el producto
-* Cuáles son las principales funcionalidades del producto y cuál es su prioridad
-* Cómo verificaste que el producto les está resolviendo sus problemas
-* Cómo te asegurarás que estos usuarios usen este producto
-
-Para poder llegar a estas definiciones te recomendamos ver: benchmarks,
-entrevistas con usuarios y tests de usabilidad.
-
-#### 2) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
-
-Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y
-con eso deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de
-esta red social que siga este flujo. Para esto debes utilizar la herramienta de
-diseño visual de tu preferencia. Nosotros te recomendamos Figma dado que es una
-herramienta que funciona en el navegador y puedes crear una cuenta gratis. Sin
-embargo, eres libre de utilizar otros editores gráficos como Illustrator,
-Photoshop, PowerPoint, Keynote, etc.
-
-Este diseño debe representar la solución que se implementará finalmente en
-código.
-
-Tu diseño debe seguir los fundamentos de visual design, como: contraste,
-alineación, jerarquía, entre otros. Tip: revisa el contenido de UX de la unidad
-de visual design.
-
-#### 3) Implementación de la Interfaz de Usuario
-
-La idea para este producto es que el producto a desarrollar siga los
-lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo
-largo de la implementación que los elementos propuestos están siendo
-implementados correctamente. (Hint: testing
 
 ## Evaluación
 
@@ -319,21 +297,13 @@ implementados correctamente. (Hint: testing
 | **CS** | |
 | Lógica | 2
 | Arquitectura | 2
-| Patrones/paradigmas | n/a
 
 ### UX
 
 | Habilidad | Nivel esperado |
 |-----------|----------------|
 | User Centricity | 3
-| Entrevistas | 2 |
-| Testing | 2
-| User Flow | 2
-| Jerarquía | 3
-| Alineación | 3
-| Contraste | 3
-| Color | 3
-| Tipografía | 3
+| Visual Desing | 2
 
 ### Habilidades Blandas
 
@@ -379,49 +349,27 @@ afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
 URL) y links tradicionales, manteniendo estado en memoria y rederizando
 condicionalmente (sin refrescar la página), [manipulando el historial del
 navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
-con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history),
-usando una librería (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
-o [`vue-router`](https://router.vuejs.org/)). En este proyecto te invitamos a
-explorar opciones y decidir una opción de implementación.
+con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history).
+En este proyecto te invitamos a explorar opciones y decidir una opción
+de implementación.
 
 ### Escritura de datos
 
 En los proyectos anteriores hemos consumido (leído) datos, pero todavía no
 habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
 proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
-modificar datos existentes. Estos datos se podrán guardar localmente usando
-[`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-o de forma remota usando [Firebase](https://firebase.google.com/).
-
-### Historias de usuario
-
-En el proyecto "Data Dashboard", la primera historia "épica" podría haber sido:
-
-Yo, como **Training Manager** quiero poder **ver el progreso de solución de
-ejercicios de JS de las estudiantes de mi(s) cohort(s)** para **entender
-cuánto están practicando y qué tan bien les está yendo**
-
-Esta la podríamos haber dividido en algunas más pequeñas, por ejemplo:
-
-1. Yo, como **Training Manager** quiero poder **seleccionar cada uno de los
-   cohorts de mi ciudad** para **ver un listado de todas las estudiantes de ese
-   cohort, y que incluya el % de progreso de solución de ejercicios de cada una
-   de ellas**
-2. Yo, como **Training Manager** quiero poder **seleccionar a una estudiante en
-   particular** para **ver el % de progreso de solución de todos los ejercicios
-   y el resultado decada uno de ellos**
-
-Como ves, dividirla en 1 y 2, hace que sea mucho más fácil imaginar y entender
-lo que el equipo tiene que conseguir para completarla.
+modificar datos existentes. Estos datos se podrán guardar de forma remota
+usando [Firebase](https://firebase.google.com/).
 
 Otras:
 
+* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
+* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 * [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
 * [Mobile First: el enfoque actual del diseño web móvil - 1and1](https://www.1and1.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/)
 * [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
 * [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-* [Offline first manifesto](http://offlinefirst.org/)
 
 ***
 
@@ -434,10 +382,8 @@ Otras:
 ### `README.md`
 
 * [ ] Definición del producto
-* [ ] Benchmark de las principales redes sociales.
 * [ ] Resumen de entrevistas con usuarios.
-* [ ] Link/screenshots prototipo de alta fidelidad.
-* [ ] Conclusiones de pruebas del prototipo con usuarios.
+* [ ] Link/screenshots prototipo de baja fidelidad.
 * [ ] Conclusiones de pruebas con el producto en HTML.
 
 ### Pruebas / tests
@@ -462,16 +408,19 @@ Otras:
 
 ### Muro (wall/feed)
 
-Debes elegir como mínimo 8 características.
-
 * [ ] Muestra _muro_, o lista de publicaciones.
 * [ ] Permite hacer nuevas publicaciones.
 * [ ] Permite eliminar publicaciones.
 * [ ] Pide confirmación antes de borrar publicación.
 * [ ] Permite editar publicación en el mismo lugar (in place).
-* [ ] Permite filtrar publicaciones por público/amigos.
+* [ ] Permite filtrar publicaciones por público/privado.
 * [ ] Permite marcar publicaciones como _gustados_ (like, corazón, estrella,
   etc...).
+* [ ] Permite ver cuántas marcas, likes, estrellas, corazones o lo que se haya
+  elegido, ha recibido una publicación.
+
+### Hacker Edition
+
 * [ ] Permite agregar amigos.
 * [ ] Permite eliminar amigos.
 * [ ] Permite compartir publicación (en twitter esto es retwittear, en facebook
