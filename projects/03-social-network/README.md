@@ -294,7 +294,7 @@ puedas haber encontrado en el camino.
 | **SCM** | |
 | Git | 3
 | GitHub | 3
-| **CSS** | |
+| **CS** | |
 | Lógica | 2
 | Arquitectura | 2
 
