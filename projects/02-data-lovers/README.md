@@ -519,7 +519,7 @@ compañera:
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm pretest`)
+* [ ] Pasa linter (`npm run pretest`)
 * [ ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
