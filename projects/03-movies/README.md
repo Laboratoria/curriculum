@@ -31,7 +31,7 @@ uno de pelis de terror... o... ¡lo que quieras!
 
 ## Consideraciones generales
 
-* Este proyecto se debe resolver en equipos de hasta 4 personas.
+* Este proyecto se debe resolver en equipos de 3 a 4 personas (ni más ni menos).
 * Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
 * Tiempo para completar el reto: 4 días.
 * Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
@@ -56,6 +56,6 @@ proyecto.
 ## Consideraciones técnicas
 
 * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso Walmart.
+sin embargo, si no quieren crearlo desde cero, pueden utilizar como referencia
+ [el propuesto por Walmart en una hackathon pasada](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
 * Deberán usar al menos un framework de css.
