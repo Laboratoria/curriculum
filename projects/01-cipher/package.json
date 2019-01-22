@@ -9,7 +9,7 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test-browser": "opener ./test/index.html",
     "test-node": "nyc mocha ./test/headless.js",
-    "test": "npm run test-node && npm run test-browser"
+    "test": "npm run test-node --silent && npm run test-browser"
   },
   "dependencies": {
     "chai": "^4.1.2",
