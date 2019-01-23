@@ -11,15 +11,15 @@ provee Babel.
 
 > Si estás usando un framework en particular,
 > seguramente alguien ya se encargó de crear una configuración de babel para ti.
-> Revisa la [guia interactiva de setup](https://babeljs.io/setup.html) antes de
+> Revisa la [guía interactiva de setup](https://babeljs.io/setup.html) antes de
 > comenzar desde cero.
 
 ## Overview
 
 Esta guía te acompañará a través de los pasos necesarios para compilar
 tu aplicación JavaScript que usa sintaxis ES2015+, en código que funcione
-en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis, como
-aplicar polyfills para las funcionalidades inexistentes.
+en navegadores actuales. Esto involucrará tanto transformar la nueva sintaxis,
+como aplicar polyfills para las funcionalidades inexistentes.
 
 El proceso completo para configurar esto implica lo siguiente:
 
@@ -62,7 +62,7 @@ El proceso completo para configurar esto implica lo siguiente:
    ./node_modules/.bin/babel src --out-dir lib
    ```
 
-   > Puede usar el package runner que viene incluído en npm@5.2.0 para acortar
+   > Puedes usar el package runner que viene incluído en npm@5.2.0 para acortar
    > este comando, reemplazando `./node_modules/.bin/babel` por `npx babel`
 
 Continúa leyendo para una explicación detallada de cada una de estos pasos.
@@ -72,7 +72,8 @@ Continúa leyendo para una explicación detallada de cada una de estos pasos.
 Todos los módulos de Babel que vayas a necesitar, se encuentran publicados
 como paquetes independientes de npm, dentro del namespace `@babel`
 (desde la versión 7).
-Este diseño modular expone diferentes heramientas, cada una diseñadas para un
+
+Este diseño modular expone diferentes herramientas, cada una diseñada para un
 uso específico. En esta sección analizaremos `@babel/core` y `@babel/cli`.
 
 ### Core Library
@@ -110,12 +111,13 @@ npm install --save-dev @babel/core @babel/cli
 ./node_modules/.bin/babel src --out-dir lib
 ```
 
-Este comando se encargará de parsear todos los archivos JavaScript dentro del
-directorio `src`, aplicar todas las transformaciones que hayamos configurado
-y colocar cada archivo transformado dentro del directorio `lib`. Como todavía
-no le hemos indicado qué transformaciones aplicar, el resultado será idéntico
-al original (exceptuando el formato). Podemos especificar qué transformaciones
-queremos aplicar, pasándolas como opciones.
+Este comando se encargará de _parsear_ (del inglés _parse_: análisis de
+sintaxis) todos los archivos JavaScript dentro del directorio `src`, aplicar
+todas las transformaciones que hayamos configurado y colocar cada archivo
+transformado dentro del directorio `lib`. Como todavía no le hemos indicado qué
+transformaciones aplicar, el resultado será idéntico al original (exceptuando el
+formato). Podemos especificar qué transformaciones queremos aplicar, pasándolas
+como opciones.
 
 Arriba usamos la opción `--out-dir`. Puedes ver el resto de opciones disponibles
 pasando la opción`--help`. Pero las opciones más relevantes a esta altura son
@@ -173,7 +175,7 @@ Veamos otra forma de pasar opciones: _archivos de configuración_.
 > Existen algunas formas diferentes de usar archivos de configuración
 > dependiendo de tus necesidades. Para más información asegúrate de leer la
 > guía extendida sobre cómo
-> [configurar Babel](../03-configuration).
+> [configurar Babel](./03-configuration).
 
 Por ahora comencemos creando un archivo que se llame `babel.config.js` con el
 siguiente contenido:
@@ -219,7 +221,7 @@ global y en los prototypes nativos, como por ejemplo `String`.
 > usar el plugin [transform runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
 > en lugar de `@babel/polyfill` y así no contaminar el scope global.
 
-Para ir un paso más allá, si tu sabes exáctamente para qué funcionalidades
+Para ir un paso más allá, si tú sabes exáctamente para qué funcionalidades
 necesitas un polyfill, puedes requerirlas directamente desde
 [core-js](https://github.com/zloirock/core-js#commonjs).
 
