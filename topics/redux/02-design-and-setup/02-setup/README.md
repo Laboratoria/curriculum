@@ -8,7 +8,34 @@
 
 ## Setup
 
-Antes que nada vamos a instalar nuestras nuevas dependencias.
+Ahora que ya tenemos una idea de cómo debe ser nuestra interfaz, qué componentes
+necesitamos implementar y cómo se ve nuestra data, estamos listos para empezar
+con la implementación!
+
+Por simplicidad, para nuestro ejemplo vamos a crear un proyecto nuevo usando
+[`create-react-app`](https://github.com/facebook/create-react-app).
+
+```sh
+# instala `create-react-app` globalmente usando `npm`
+npm i -g create-react-app
+
+# una vez inatalado `create-react-app` (y disponible en tu PATH), creamos un
+# nuevo proyecto...
+create-react-app react-redux-example
+
+# entramos dentro de la carpeta del proyecto
+cd react-redux-example
+
+# abrimos carpeta en editor de texto
+atom . # o `code .`, `vim .`, ...
+
+# arrancamos aplicación
+yarn start
+```
+
+![image](https://user-images.githubusercontent.com/110297/51616819-e9845f80-1ef8-11e9-83b5-e3ece013c54d.png)
+
+Ahora instalemos `redux`, `react-redux` y `redux-devtools` como dependencias.
 
 ```sh
 yarn add redux react-redux
@@ -17,88 +44,81 @@ yarn add -D redux-devtools
 
 Y desde tu navegador instala la [extensión](http://extension.remotedev.io/).
 
-Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente
-presentacional:
+En la lectura anterior habíamos decidido que nuestro componente principal se
+iba a llamar `FilterableProductTable`, así que empecemos por crear un archivo
+donde implementar nuestro componente.
 
-```js
-// lib/components/Main.js
-
-import React from 'react';
-import PropTypes from 'prop-types';
-
-import Page from './Page';
-import Header from './Header';
-// Nos quitamos de encima el `MainSection`
-// y ahora importamos nuestro nuevo componente
-import FilterableProductTable from '../FilterableProductTable/components';
-import Aside from './Aside';
-
-// toda los datos que Main necesita, ahora los recibimos como props
-const Main = ({ products, asideTitulo, asideLinks }) => {
-  // TODO: Hack para que renderice. Quitar luego de setear Redux.
-  products = [];
-  asideLinks = [];
-
-  return (
-    <Page>
-      <FilterableProductTable products={products} />
-      <Aside titulo={asideTitulo} links={asideLinks} />
-    </Page>
-  );
-};
-
-Main.propTypes = {
-  products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  asideTitulo: PropTypes.string.isRequired,
-  asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-};
-
-export default Main;
+```sh
+mkdir -p src/components/FilterableProductTable
+touch src/components/FilterableProductTable/index.js
 ```
 
-`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo
-`lib/FilterableProductTable/components/index.js` con el siguiente contenido.
+> Más adelante irá quedando más claro por qué elegimos esta estructura de
+> carpetas.
 
-> Más adelante entederás por qué elegimos esta estructura de carpetas.
+Agreguemos una implementación _dummy_ de nuestro componente:
 
 ```js
+// src/components/FilterableProductTable/index.js
 import React from 'react';
 
-const FilterableProductTable = () => {
-  const style = {
-    width: '70%',
-    float: 'left'
-  };
-  return (
-    <div style={style}>
-      <h2>Filterable Product Table</h2>
-    </div>
-  );
-};
+const FilterableProductTable = () => (
+  <div>
+    <h2>Filterable Product Table</h2>
+  </div>
+);
 
 export default FilterableProductTable;
 ```
 
-y por últimos limpiamos un poco nuestro `index.html`
+Simplificamos el componente `App` y quitamos el _boilerplate_ de
+`create-react-app`.
+
+```js
+// src/App.js
+import React from 'react';
+import FilterableProductTable from './components/FilterableProductTable';
+
+const App = () => (
+  <div className="App">
+    <FilterableProductTable />
+  </div>
+);
+
+export default App;
+```
+
+Borramos archivos innecesarios:
+
+```sh
+rm src/logo.svg src/App.css
+```
+
+y por últimos limpiamos un poco nuestro `public/index.html`
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Ejemplo React + Redux</title>
   </head>
   <body>
-    <h1>Ejemplo React + Redux</h1>
-    <div id="container">
-      <p>
-        Si ves esto React <strong>no</strong> está funcionando.
-      </p>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
   </body>
 </html>
 ```
 
-A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu
-consola de props no indicadas) y esto es porque `Main` está esperando props que
-todavia no le estamos proveyendo. Con esta base comenzamos nuestra
-implementación.
+Si vemos la aplicación en el navegador, usando [`react-devtools`](https://github.com/facebook/react-devtools), deberíamos ver como nuestro componente aparece dentro de `App`.
+
+![image](https://user-images.githubusercontent.com/110297/51619171-c27c5c80-1efd-11e9-96ec-9e05c2c3e213.png)
+
+Con esta base comenzamos nuestra implementación.

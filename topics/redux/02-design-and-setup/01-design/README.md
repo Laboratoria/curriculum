@@ -6,13 +6,13 @@
 
 ***
 
-En esta lectura vamos a hacer el proceso completo de diseñar una aplicación
-usando `React` y `Redux`.
+En las siguientes lecturas vamos a ir siguiendo el proceso completo de diseñar
+una aplicación usando `React` y `Redux`. Trataremos de simular un flujo habitual
+de tareas de la vida real.
 
-[...] componente `FilterableProductTable` que nos muestre una tabla filtrable de
-productos.
-
-Vamos a simular un flujo habitual de tareas de la vida real.
+La aplicación (componente en este caso) que vamos a construir es una tabla
+filtrable de productos para una tienda online. El usuario debe poder filtrar por
+artículos "en stock" además de buscar por texto.
 
 ## Comienza con un Mock
 
@@ -37,15 +37,15 @@ Y nuestra API JSON nos devuelve data con la siguiente estructura:
 
 Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los
 componentes (y sub componentes) y les das nombres. Si trabajas con unx
-diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu
+diseñadrx, probablemente ya haya hecho esto, asi que ve a preguntarle! Si tu
 diseñadorx es buenx con la semántica, entonces los nombres de los Layers de
 Photoshop pueden ser buenos nombres para tus componentes de React!
 
-Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos
+Pero ¿cómo determino qué debería tener su propio componente? Sólo usa los mismos
 criterios que utilizas para decidir si debes crear una nueva función u objecto.
 Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle),
 que en React sería que un componente debe idealmente hacer una sola cosa. Si
-comienza a crecer es hora de decomponerlos en componentes mas pequeños.
+comienza a crecer es hora de decomponerlos en componentes más pequeños.
 
 Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás
 que cuando has modelado correctamente tu `state`, tu UI (y con ella la
