@@ -80,7 +80,7 @@ Por convención todas las _actions_ necesitan de una propiedad `type` de tipo
 string. Este es el identificador de tu acción y dos acciones que conceptualmente
 puedan ser distintas, pero tengan un mismo valor de type, son consideradas el
 mismo tipo. Usa tipos claros, que expresen claramente cual es su intención y que
-sean dificiles de repetir, inclusive si tienen muchos caracteres
+sean dificiles de repetir, inclusive si tienen muchos caracteres.
 
 Forzando que todos los cambios deban ser descritos como una acción, nos permite
 tener una idea clara de qué es lo que está sucediendo en nuestra aplicación. Si
@@ -98,41 +98,38 @@ una aplicación grande, es por eso que escribimos funciones mas pequeñas para l
 diferentes partes del estado:
 
 ```js
-function visibilityFilter(state = 'SHOW_ALL', action) {
+const visibilityFilter = (state = 'SHOW_ALL', action) => {
   if (action.type === 'SET_VISIBILITY_FILTER') {
-    return action.filter
+    return action.filter;
   } else {
-    return state
+    return state;
   }
-}
+};
 
-function todos(state = [], action) {
+const todos = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':
-      return state.concat([{ text: action.text, completed: false }])
+      return state.concat([{ text: action.text, completed: false }]);
     case 'TOGGLE_TODO':
-      return state.map(
-        (todo, index) =>
-          action.index === index
-            ? { text: todo.text, completed: !todo.completed }
-            : todo
-      )
+      return state.map((todo, index) => (
+        (action.index === index)
+          ? { text: todo.text, completed: !todo.completed }
+          : todo
+      ));
     default:
-      return state
+      return state;
   }
-}
+};
 ```
 
 Y escribimos un último _reducer_ que maneja el estado completo de nuestra
 aplicación, usando los dos reducers anteriores:
 
 ```js
-function todoApp(state = {}, action) {
-  return {
-    todos: todos(state.todos, action),
-    visibilityFilter: visibilityFilter(state.visibilityFilter, action)
-  }
-}
+const todoApp = (state = {}, action) => ({
+  todos: todos(state.todos, action),
+  visibilityFilter: visibilityFilter(state.visibilityFilter, action)
+});
 ```
 
 Y esto es básicamente `Redux`. Fíjate que para hacer esto no hemos usado ni una
