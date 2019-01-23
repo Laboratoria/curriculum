@@ -8,50 +8,42 @@
 
 ## Conectando el `state` con usando el HOC `connect`
 
-Quitemos el hack que colocamos en `lib/components/Main.js` e inyectemos la magia
-de Redux a nuestros componentes.
+Si vienes siguiendo los pasos anteriores, ahora tenemos la data de productos en
+dos sitios distintos: en `src/App.js` (la pusimos acá temporalmente para hacer
+la versión estática), y en `src/reducer.js`.
 
-Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro
-HOC a la altura de la carpeta `components` que se encargará de setear la data
-que necesita `lib/components/Main.js`, lo crearemos en `lib/Main.js`
+Quitemos la data de `App` y conectemos el componente al `store` para acceder a
+la data que ya está en el estado del store (la que inicializamos en
+`src/reducer.js`).
+
+Para ello, vamos a usar el _HOC_ (_Higher-Order Component_) `connect`, que
+cepta dos argumentos (`mapStateToProps` y `mapDispatchToProps`) y retorna una
+función a la que le pasamos el componente que queremos _conectar_ al store y a
+su vez retorna un nuevo componente (el ya conectado).
 
 ```js
-// lib/Main.js
-
-// te acuerdas que hablamos de `connect` al comienzo de la lección?
-// Finalmente esta aquí!!!
+import React from 'react';
 import { connect } from 'react-redux';
-// Y el componente puramente presentacional de Main, ya sin hack
-import MainComponent from './components/Main';
+import FilterableProductTable from './components/FilterableProductTable';
 
-const MainWithRedux = connect(
-  // `connect` recibe dos parámetros. El primero de ellos es
-  // `mapStateToProps` que justamente lo que haces es mapear valores del state
-  // a props que recibirá `MainComponent`
-  function mapStateToProps(state) {
-    // buscamos los 3 valores que nos interesan
-    const {
-      filteredProducts,
-      asideTitulo,
-      asideLinks,
-    } = state.AppReducer;
+const App = ({ products }) => (
+  <div className="App">
+    <FilterableProductTable products={products} />
+  </div>
+);
 
-    // y devolvemos las nuevas props
-    return {
-      // fijate q los productos filtrados en el state se llaman `filteredProducts`
-      // pero que la props del componente `Main` se llama `products`
-      products: filteredProducts,
-      asideTitulo,
-      asideLinks,
-    };
-  }
-)(MainComponent);
+const mapStateToProps = ({ AppReducer }) => ({
+  products: AppReducer.products,
+});
 
-export default MainWithRedux;
+export default connect(mapStateToProps)(App);
 ```
 
-Y lo segundo es indicar en `index.js` que ya no queremos usar
-`lib/components/Main`, sino su versión mejorada `lib/Main`.
+Fíjate que ya no _exportamos_ `App` directamente, sino que exportamos el
+resultado de invocar el HOC que creamos invocando a `connect` (pasándole
+`mapStateToProps`). Podríamos decir que estamos exportando _ConnectedApp_ o el
+componente `App` ya conectado, en este caso con acceso al valor
+`state.AppReducer.products`, que tiene disponible a través de sus `props`.
 
 > Prueba de cambiar los valores de INIT_STATE en `./lib/reducer.js` y fíjate
 > cómo eso se refleja en tu interfaz!

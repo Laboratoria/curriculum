@@ -8,12 +8,12 @@
 
 ## Wrap up
 
-Esta unidad ha sido intensa, con varios conceptos nuevos y mágicamente útiles.
-Mientras vas agarrando práctica con `Redux`, intenta realizar conscientemente
-los pasos que hemos visto en esta unidad.
+Estas lecturas han sido intensas, con varios conceptos nuevos y mágicamente
+útiles. Mientras vas agarrando práctica con `Redux`, intenta realizar
+conscientemente los pasos que hemos visto en esta unidad.
 
 Si lo piensas, en realidad, `React` y `Redux` no son más que un montón de
-funciones y objetos simples que organizados de una manera específica, que nos
+funciones y objetos simples que organizados de una manera específica, nos
 permiten realizar tareas muy complejas de la misma manera que realizas las
 simples. El secreto radica en el diseño de tus componentes.
 
@@ -28,7 +28,7 @@ simples. El secreto radica en el diseño de tus componentes.
 > * Diseña la forma y partes de tu state
 > * Piensa en las actions que pueden suceder en tu app
 > * Y por último considera cómo evoluciona tu state: qué propiedades de tu state
->   reccionan a qué actions
+>   reaccionan a qué actions
 >
 > Cuando tengas todo esto claro, verás que el desarrollo será mucho más fluido y
 > claro, resumido solamente a escribir bloques de markup o lógica muy simple.
