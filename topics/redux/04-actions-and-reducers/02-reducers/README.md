@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 6: reducers
+# Reducers
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,7 +6,7 @@
 
 ***
 
-## Paso 5: Determina cómo reacciona tu state a las actions disparadas
+## Determina cómo reacciona tu state a las actions disparadas
 
 Ya tenemos a las acciones disparándose, ahora analicemos cómo queremos que el
 state se modifique ante cada una de ellas. Como lo establece nuestro principio
@@ -109,5 +109,4 @@ export default (state = INIT_STATE, action) => {
   // devolver el `state` anterior
   return state
 }
-
 ```

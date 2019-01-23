@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 5: actions
+# Actions
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,7 +6,7 @@
 
 ***
 
-## Paso 4: Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
+## Identifica tus acciones y agrega Inverse Data Flow (**State is read-only**)
 
 Hasta ahora, tenemos una aplicación que configura su store de Redux, toma esos
 valores y los pasa a la interfaz para renderizarlo. Ahora necesitamos conseguir

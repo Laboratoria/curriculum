@@ -1,12 +1,10 @@
-# Ejemplo Redux + React - Paso 2: Mockup
+# Construye una versión estática en React
 
 * Tipo: `lectura`
 * Formato: `self-paced`
 * Duración: `10min`
 
 ***
-
-## Step 2: Construye una versión estática en React
 
 Ahora que ya tenemos los componentes es hora de comenzar a implementar la
 aplicación. El paso más simple es comenzar con una versión estática, sin

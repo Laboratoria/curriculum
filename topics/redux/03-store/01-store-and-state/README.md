@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 3: Store & State
+# Store & State
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,7 +6,7 @@
 
 ***
 
-## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
+## Identifica la representación mínima (pero completa) del estado de tu UI
 
 Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes que
 necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
@@ -45,7 +45,7 @@ global.
 
 Aquí es donde entra en acción Redux.
 
-### Configurando el store
+## Configurando el store
 
 Creamos un nuevo archivo `lib/store.js` que contendrá
 la configuración de nuestro `store`

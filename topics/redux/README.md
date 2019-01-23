@@ -8,6 +8,9 @@ consistente y predecible.
 Como referencia, `Redux` es una evolución de ideas presenadas por `Flux` de
 Facebook.
 
+En este curso veremos un ejemplo práctico **paso a paso** de como diseñar e
+implementar una aplicación usando React y Redux.
+
 Tags: `redux`, `react`, `react-redux`
 
 ## Público objetivo
@@ -36,21 +39,35 @@ siguientes conocimientos previos:
 
 ## Syllabus
 
-### Unidad 01: [Conceptos básicos](01-intro)
+### Unidad 01: [Conceptos básicos](01-basics)
 
 En esta primera unidad revisaremos los 3 conceptos básicos de `redux`,
 que articulan todo su funcionamiento:
 
-* Una sóla fuente de verdad
-* El estado es de "sólo-lectura"
-* Los cambios de estado, se realizan a través de funciones puras
+- Una sóla fuente de verdad
+- El estado es de "sólo-lectura"
+- Los cambios de estado, se realizan a través de funciones puras
 
-### Unidad 02: [Ejemplo paso a paso](02-example)
+### Unidad 02: [Diseño y mockup](02-design-and-setup)
 
-En esta segunda parte, veremos un ejemplo práctico **paso a paso** de como diseñar
-e implementar una aplicación usando react y redux
+Una vez vistos los conceptos básicos, en esta unidad arrancamos con una
+implementación de ejemplo, paso a paso, empezando con el _boceto
+visual/conceptual_ (storyboarding) y el set up necesario para trabajar con
+Redux y React.
 
-### Unidad 08: [Cierre](08-closing)
+### Unidad 03: [Store, state y connect](03-store)
+
+En esta unidad continuamos con el ejemplo guiado, pasando a ahora a _diseñar_ el
+estado de nuestra aplicación, implementarlo con un store y conectarlo a nuestros
+componentes de React.
+
+### Unidad 04: [Actions y reducers](04-actions-and-reducers)
+
+Ahora que ya tenemos una descripción del estado de la aplicación, es hora de
+centrarnos en las acciones (_actions_) y reductores (_reducers_) que nos
+permitan expresar qué cambios pueden ocurrir y cómo se reflejan en el estado.
+
+### Unidad 05: [Cierre](05-closing)
 
 Por último recapitularemos todos los conceptos visitados, cuáles son
 las conclusiones y recomendaciones generales

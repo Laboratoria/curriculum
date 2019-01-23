@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 4: `connect` HOC
+# `connect` HOC
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,10 +6,10 @@
 
 ***
 
-## Paso 4: Conectamos el `state` con usanod el HOC `connect`
+## Conectando el `state` con usando el HOC `connect`
 
-Quitemos el hack que colocamos en `lib/components/Main.js` e
-inyectemos la magia de Redux a nuestros componentes.
+Quitemos el hack que colocamos en `lib/components/Main.js` e inyectemos la magia
+de Redux a nuestros componentes.
 
 Para ello necesitamos hacer solamente dos cosas. Primero vamos a crear nuestro
 HOC a la altura de la carpeta `components` que se encargará de setear la data
