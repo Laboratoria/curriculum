@@ -5,75 +5,75 @@
 
 ## Introducción
 
-Nuestro _bootcamp_ es un programa de formación inmersivo de 6 meses enfocado en
-**Front End Development** y **UX Design**. En Laboratoria, desde el 2016 
-identificamos que teníamos que introducir los valores y principios ágiles en el
- aula y crear un modelo educativo diferente: uno que simule un entorno laboral 
- ágil. Decidimos experimentar con un nuevo paradigma educativo que llamamos el 
- [Salón de Clases Ágil](https://medium.com/laboratoria/agilidad-en-educaci%C3%B3n-6e92980fe200) .
+El _bootcamp_ de Laboratoria es un programa de aprendizaje inmersivo de 6 meses
+enfocado en los perfiles de **Front-end Development** y **UX Design**. Nuestro
+modelo de aprendizaje se basa en emular un ambiente laboral que prepare a
+nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
+que necesitan para comenzar a trabajar.
 
-Nuestra metodología de aprendizaje se centra principalmente en completar una 
-serie de _proyectos_ de complejidad gradualmente creciente. Estos proyectos
-permiten a la estudiante ir desarrollando habilidades técnicas en complemento
-con habilidades socioemocionales. Dentro de estas últimas el 
-**Autoaprendizaje** es la más destacada para Laboratoria. Para nosotros es la 
-mejor manera de que nuestras estudiantes puedan no sólo obtener un trabajo al
-salir del bootcamp, si no que representa la mejor herramienta para 
-empezar una carrera en esta industria.
+* [Perfil de Front-end Developer]()
+* [Perfil de UX Designer]()
 
-En el siguiente esquema se grafican las habilidades que las estudiantes 
-desarrollan durante el Bootcamp.
+El aprendizaje basado en proyectos es el eje central sobre el que se articula
+la experiencia de aprendizaje. Completar una serie de _proyectos_, de
+complejidad gradualmente creciente, permite a las estudiantes ir desarrollando
+las habilidades necesarias. De todas habilidades, el **Autoaprendizaje** es la
+más importante; creemos firmemente que, no solamente es una habilidad
+indispensable para el mundo laboral que les espera, si no  que es también una
+poderosa herramienta para que sean mujeres autosuficientes, seguras de su
+talento y habilidades y, finalmente, agentes de cambio a largo plazo.
+
+Esta es una representación de la importancia de las habilidades que buscamos
+desarrollen nuestras estudiantes. Se van construyendo sobre la base de la(s)
+indispensable(s).
 
 ![maslow](http://i68.tinypic.com/14j2kgj.jpg)
 
-Los proyectos son evaluados por _coaches_ y _pares_ (_peers_) usando una
-[rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-estandarizada que siempre incluye componentes _generales_, _habilidades
-blandas_, _habilidades técnicas_ y _ux_.
+Los proyectos son evaluados por _coaches_ en función de la siguiente ["rúbrica"](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#).
 
 ## Mapa de aprendizaje
 
-El _mapa de aprendizaje/proyectos_ se divide en 4 _etapas_: **Admisión**,
-**Common Core**, **Track** (Front End Dev y UX Designer) y **Electivos**.
+El _mapa de aprendizaje/proyectos_ se divide en 4 _etapas_: **Preadmisión**,
+**Common Core**, **Track** (Front-end Development y UX Design) y **Electivos**.
 
 ![mapaproyectos](http://i64.tinypic.com/20fcnx0.jpg)
 
-### Etapa 0: Admisión
+### Etapa 0: Preadmisión
 
 La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro Bootcamp. Al
-final de cada _proceso de admisión_ invitaremos a candidatas seleccionadas a
+final de cada _proceso de admisión_ invitaremos a candidatas preseleccionadas a
 completar un _proyecto_ presencialmente en una de nuestras sedes.
 
 #### Proyecto: Trivia (necesita refactorización)
 
-* Duración estimada: 1 semana.
+* Duración estimada: 3 días.
 * Equipos: 1 estudiante
 * Tópicos: [JavaScript Basics](topics/javascript/01-basics),
   [HTML Intro](topics/html/01-intro), [CSS](topics/css/01-css).
 
-### Etapa 1: Common core
+### Etapa 1: Common Core
 
-Una vez admitida a nuestro Bootcamp, todas comienzan con el _common core_. En
-esta etapa completarás los siguientes _proyectos_ en orden, cada uno
-desbloqueando el siguiente. Al final del _common core_ las estudiantes
-participan en una serie de _hackathones_ trabajando en proyectos más chicos
-propuestos por empresas/empleadores externos.
+Todas las estudiantes admitidas, comienzan con el _common core_. En esta etapa
+completarán los siguientes _proyectos_ en orden; cada uno desbloquea el
+siguiente. Al final del _common core_ las estudiantes participan en una o más
+_hackathones_ trabajando en proyectos más pequeños propuestos por Laboratoria
+y/o empresas/empleadores externos.
 
-#### Proyecto: [Cipher](projects/01-cipher)
+#### Proyecto: [Cifrado César](projects/01-cipher)
 
-En este _proyecto_ implementarás una aplicación web basada un boilerplate que
+En este _proyecto_ implementan una aplicación web basada un _boilerplate_ que
 permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
 
-El objetivo principal de aprendizaje de este proyecto es tener tu primera
-experiencia construyendo una aplicación web usando tus conocimientos de **User
-Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
-pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
-DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
-básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
-del DOM para mostrar (escribir) los resultados.
+El principal objetivo de aprendizaje de este proyecto es tener una primera
+experiencia construyendo una aplicación web, utilizando los conocimientos
+adequiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
+diseñar un producto pensando en los usuarios, construir una interfaz, escuchar
+eventos básicos del DOM, escribir lógica para llevar a cabo el cifado y
+descifrado, _tests_ unitarios básicos para comprobar (y documentar) dicha
+lógica, y manipulación del DOM para mostrar (escribir) los resultados.
 
 * Duración estimada: 2 semanas.
-* Equipos: 1 estudiante
+* Equipos: 1 estudiante.
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
@@ -81,120 +81,117 @@ del DOM para mostrar (escribir) los resultados.
 
 #### Proyecto: [Data Lovers](projects/02-data-lovers)
 
-En este proyecto tendrás tu primer acercamiento a transformar data en
-información creando tu primera interfaz basada en data.
+En este proyecto tendrán su primer acercamiento a transformar _data_ en
+información. El objetivo principal de este proyecto es aprender a diseñar y
+construir una _interfaz web_ donde podamos visualizar y manipular _data_.
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-_interfaz web_ donde podamos visualizar y manipular data.
+Esperamos que puedan pensar en el usuario, entender cuál es la mejor manera de
+visualizar la data según sus necesidades, y plasmar todo eso en el diseño en
+la web.
 
-Esperamos que puedas pensar en el usuario, entender cuál es la mejor manera de
-visualizar la data según sus necesidades, y plasmar todo eso en tu diseño en la
-web.
-
-Además, este proyecto se debe "resolver" en parejas, por lo que un objetivo
-importante es ganar experiencia en trabajos colaborativos con entrega grupal.
+Este proyecto se debe "resolver" en parejas, por lo que un objetivo importante
+es ganar experiencia en trabajos colaborativos con toda la complejidad que
+eso implica.
 
 * Duración estimada: 3 semanas.
-* Equipos: 2 estudiantes
+* Equipos: 2 estudiantes.
 * Tópicos: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
   [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
 
 #### Proyecto: [Social Network](projects/03-social-network)
 
-En este _proyecto_ partimos del supuesto que una empresa nos ha pedido hacer un
-prototipo para una _red social_, y nos dan a elegir un tema que nos interese
-para la _red social_ entre algunas sugerencias.
+En este _proyecto_ partimos del supuesto que una emprendedora ha pedido hacer
+un prototipo para una _red social_ sobre algunos temas de entre los cuales las
+estudiantes deberán elegir.
 
 El objetivo principal de aprendizaje de este proyecto es construir un sitio web
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-con más de una vista (página), y en el que podamos leer y escribir datos, además
-de entender las necesidades de los usuarios para los que crearás el producto.
+con más de una vista (página), y en el que podamos leer y escribir datos,
+entendiendo las necesidades de los usuarios para los que sw creará el producto.
 
 * Duración estimada: 3 semanas.
-* Equipos: 3 estudiantes
+* Equipos: 3 estudiantes.
 * Tópicos: **Mobile first**, [Responsive](topics/css/02-responsive), URL, HTTP,
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Coworking Visitors](projects/03-visitors)
+#### Proyecto: [Registro de Visitantes](projects/03-visitors)
 
-En este _proyecto_ tendrás que implementar un sistema web de registro de
+En este _proyecto_ tendrán que implementar un sistema web de registro de
 visitantes para un _coworking_.
 
-El objetivo principal de este proyecto es que pongas en práctica todo lo
-aprendido durante el common core, con foco en la calidad, trabajando en un
-equipo multifuncional y presentando tu solución a una audiencia.
+El objetivo principal de este proyecto es poner en práctica todo lo
+aprendido durante el _Common Core_, con foco en la calidad, trabajando en un
+equipo multifuncional y presentando el resultado final a una audiencia.
 
-* Duración estimada: 1 semana
-* Equipos: 3 estudiantes
+* Duración estimada: 1 semana.
+* Equipos: 3 estudiantes.
 * Tópicos: Todo lo visto hasta este punto.
 
-### Etapa 2: Deep dive
+### Etapa 2: Tracks
 
-Después del _common core_ cada grupo se separa en _tracks especializados_:
-_JavaScripters_ y _UXers_. Durante esta etapa las estudiantes trabajarán en dos
-proyectos en paralelo.
+Después del _common core_ cada grupo se separa en _tracks especializados_ y
+paralelos: _Front-end Development y UX Design_.
 
-#### Front End Dev (JavaScripters)
+#### Track Front End Dev (JavaScript)
 
 Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
 [JavaScript Funcional](topics/functional).
 
-##### Proyecto: [Applying for a job](projects/04-job-application)
+##### Proyecto: [Postulación a un trabajo](projects/04-job-application)
 
 En este _proyecto_ simulamos una postulación a una empresa como Front-end
 Developer.
 
-El objetivo principal de este reto es que conozcas un proceso de reclutamiento
-para una posición de Front-End development y estés preparada para enfrentar los
-meses de colocación laboral. El 100% de las preguntas, retos, desafíos, etc. que
-se plantean en este proyecto son casos reales de empresas que han contratado y/o
-entrevistado a egresadas de Laboratoria.
+El objetivo principal de este reto es que conozcan un proceso de reclutamiento
+y estén preparadas para enfrentar los meses de colocación laboral al final del
+_Bootcamp_. El 100% de las preguntas, retos, desafíos, etc. que se plantean en
+este proyecto son casos reales de empresas que han contratado y/o entrevistado
+a egresadas de Laboratoria.
 
 * Duración estimada: ?
-* Equipos: 1 estudiante
+* Equipos: 1 estudiante.
 * Tópicos: Todo lo visto en el _common core_.
 
 ##### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
 
-En este _proyecto_ tendrás que implementar un sistema para que lxs meserxs de un
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
 restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
 _tablet_.
 
 El objetivo principal de aprendizaje de este proyecto es construir una
 _interfaz web_ usando un _framework_ (React, Vue o Angular).
 
-Como objetivo secundario, la implementación debe además seguir las
-recomendaciones para PWAs (_Progressive Web Apps_), lo cual incluye conceptos
-como **offline**.
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
 * Duración estimada: 3 semanas.
-* Equipos: 1-2 estudiantes
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline first,
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
   Service Workers, Serverless.
 
 ##### Proyecto: [Markdown Links](projects/04-md-links)
 
-Dentro de una comunidad de código abierto, nos han propuesto crear una
-herramienta usando [Node.js](https://nodejs.org/), que lea y analice archivos
-en formato `Markdown`, para verificar los links que contengan y reportar
+Dentro de una comunidad de código abierto, proponen crear una herramienta
+usando [Node.js](https://nodejs.org/), que lea y analice archivos en formato
+`Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
 
-El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
-**librería** (o biblioteca - _library_) en JavaScript.
+El objetivo práctico de este proyecto es aprender a crear una **librería**
+(o biblioteca - _library_) en JavaScript.
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador porque que te obliga a pensar en la interfaz (API) de tus
-_módulos_ y cómo será usado por otros developers. Debes tener especial
+Diseñar una librería es una experiencia fundamental para cualquier
+desarrolladora porque que le obliga a pensar en la interfaz (API) de sus
+_módulos_ y cómo será usada por otros developers. Se necesita tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Duración estimada: 3 semanas.
-* Equipos: 1 estudiante
+* Equipos: 1 estudiante.
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
   Módulos, [Errores](topics/javascript/09-errors).
 
-#### UX
+#### Track UX Design
 
 ##### Proyecto: (tbd)
 
