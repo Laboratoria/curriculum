@@ -2,7 +2,7 @@
 
 Neste curso, você aprenderá sobre User Experience (UX).
 
-## Público alvo
+## Público-alvo
 
 Este curso é destinado às estudantes da Laboratoria. É o segundo curso que é tomado como parte do _bootcamp_.
 
@@ -44,10 +44,10 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a 
 * Requizzes: 10%
 * Desafios
   * Lyft: 5%
-  * Freelacer: 5%
+  * Freelancer: 5%
   * Labirinto: 10%
   * Trello: 10%
-  * Twitter interactivo: 10%
+  * Twitter interativo: 10%
   * Desafio UX: 10%
 * Site final \(Data Dashboard\): 35%
 

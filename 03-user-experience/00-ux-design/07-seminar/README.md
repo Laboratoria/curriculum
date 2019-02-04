@@ -13,7 +13,7 @@
 
 ## Agenda
 
-1. Conversemos sobre os papeis em uma equipe de desenvolvimento com o exemplo do `Spotify`
+1. Conversemos sobre os papéis em uma equipe de desenvolvimento com o exemplo do `Spotify`
 
    <!--
 
@@ -62,7 +62,7 @@
 
    -->
 
-4. Por meio de exemplos veremos ocasiões em que esboçar e ter protótipos tiveram um papel importante
+4. Por meio de exemplos veremos ocasiões em que esboçar e fazer protótipos tiveram um papel importante
 
    <!--
 

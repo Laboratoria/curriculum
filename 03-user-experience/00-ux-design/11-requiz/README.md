@@ -6,7 +6,7 @@
 
 ## Objetivos
 
-* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
+* Nesta sessão, você terá a oportunidade de avaliar-se, colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
 
 ***
 
@@ -51,8 +51,8 @@
 
 1. Um livro
 2. Uma garrafa de ketchup
-3. Uma teia
-4. Uma aplicação móvel
+3. Uma página web
+4. Um app para celular
 5. Todas as anteriores
 
 <solution style="display:none;">5</solution>
@@ -92,7 +92,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) Os seguintes termos: `resolução de problemas`, `entender necessidades`, estão mais relacionadas com:
+### 8) Os seguintes termos: `resolução de problemas`, `entender necessidades`, estão mais relacionados com:
 
 #### Opções
 
@@ -103,7 +103,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 9) Preencha os espaços em branco:  `___ é o que te faz  sentir uma marca ou produto no momento de interagir com ele, enquanto que ____ é uma camada visual de cores, texturas, formas e elementos.`
+### 9) Preencha os espaços em branco:  `___ é o que te faz sentir uma marca ou produto no momento de interagir com ele, enquanto que ____ é uma camada visual de cores, texturas, formas e elementos.`
 
 #### Opções
 

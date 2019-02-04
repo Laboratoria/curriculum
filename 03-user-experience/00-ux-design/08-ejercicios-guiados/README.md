@@ -6,7 +6,7 @@
 
 ## Objetivos
 
-* Praticar programando junto com sua equipe de professoras, resolvendo problemas de UX/UI, navegação e sketching em grupo
+* Praticar programando junto com sua equipe de professoras, resolvendo problemas de UX/UI, navegação e rascunhos em grupo
 * Praticar, praticar e praticar
 
 ***
@@ -52,13 +52,13 @@ Elementos da interface do usuário:
 
 Existem muitos elementos de navegação nesses sites. A ideia é dar às alunas um tempo para que elas visitem os sites e identifiquem os elementos.
 
-Neste link estão os principais elementos que identificamos. De qualquer maneiravalorize muito a discussão proposta das meninas.
+Neste link estão os principais elementos que identificamos. De qualquer maneira valorize muito a discussão proposta das meninas.
 
 -->
 
 ## 3. Criemos um sketch para a biblioteca de Laboratoria
 
-Entre estudantes, professores e membros da Laboratoria temos muitos livros que queremos compartilhas e queremos imaginar como seria a biblioteca da Laboratoria. Nesta biblioteca cada um poderá adicionar seus livros e poderá conversar com os que quiserem pedir o livro emprestado e combinar como devolvê-lo. Além disso, o dono dos livros poderá te um registro para quem emprestou o livro "x" ou "y".
+Entre estudantes, professores e membros da Laboratoria temos muitos livros que gostaríamos de compartilhar e queremos imaginar como seria a biblioteca da Laboratoria. Nesta biblioteca, cada uma poderá adicionar seus livros, conversar com quem quiser pedir o livro emprestado e combinar como devolvê-lo. Além disso, a dona dos livros poderá ter um registro para quem emprestou este ou aquele livro.
 
 <!--
 

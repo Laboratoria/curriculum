@@ -20,5 +20,5 @@
 * Qual é o papel de um Designer UX e qual é o papel de um Designer UI?
 * Como os usuários encontram coisas na web?
 * Quais tipos de navegação existem?
-* Por que os sketches são importantes?
+* Por que os esboços são importantes?
 

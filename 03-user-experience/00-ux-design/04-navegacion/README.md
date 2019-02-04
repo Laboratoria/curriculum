@@ -6,7 +6,7 @@
 
 ## Objetivos de Aprendizagem
 
-* Reconhecer como as pessoas pesquisam / encontram coisas na web e como os elementos de Navegação colaboram nessa tarefa.
+* Reconhecer como as pessoas pesquisam / encontram coisas na web e como os elementos de navegação colaboram nessa tarefa.
 
 ***
 
@@ -29,32 +29,32 @@ Agora, _imagine que em vez de ir ao supermercado que você vai regularmente, voc
 
 Se formos a um lugar diferente, podemos demorar um pouco mais para encontrar a lista completa, mas é provável que consigamos achá-la.
 
-Com base na nossa experiência, vamos procurar as coisas diretamente, por exemplo, no salão de bebidas.
+Com base na nossa experiência, vamos procurar as coisas diretamente, por exemplo, na seção de bebidas.
 
 Ou procuramos a sinalização dos corredores para nos ajudar a encontrar o que queremos.
 
 ![](https://cex-thechristianpost.netdna-ssl.com/full/5105/target-under-fire-for-gender-neutral-signage.png)
 
-Em alguns casos, será mais complicado. Cervejas podem estar ao lado de refrigerantes e outras bebidas ou podem estar em um salão especial de bebidas alcoólicas. Ou, no caso dos _adoçantes_ , nem sequer sabemos quais adoçantes existem e que marca ou apresentação é a que queremos. Nesse caso, talvez a sinalização do supermercado não nos ajude muito e tenhamos que recorrer a um funcionário.
+Em alguns casos, será mais complicado. Cervejas podem estar ao lado de refrigerantes e outras bebidas ou podem estar em uma seção especial de bebidas alcoólicas. Ou, no caso dos _adoçantes_ , nem sequer sabemos quais adoçantes existem e que marca ou tipo é o que queremos. Nesse caso, talvez a sinalização do supermercado não nos ajude muito e tenhamos que recorrer a um funcionário.
 
-Se os sinais ou os funcionários do supermercado não nos ajudarem o suficiente, podemos acabar assim:
+Se as placas ou os funcionários do supermercado não nos ajudarem o suficiente, podemos acabar assim:
 
 ![](http://upload.wikimedia.org/wikipedia/commons/7/74/Planking_in_supermarket.jpg)
 
 - **Procuramos elementos conhecidos:** sabemos qual elemento queremos e sabemos onde encontrá-lo. Por exemplo:
-  * O botão de acesso à Internet/mobile banking do seu banco
+  * O botão de acesso à internet/mobile banking do seu banco
   * O botão Curtir no Facebook
   * O botão para adicionar um filtro em uma foto no Instagram
 
   ![](https://lh4.googleusercontent.com/Y4yNV-FOW8K2MFwCZ9dHLE2ECW_i3bJ8tz7-6QDmuE6mZmR4tmDSBExTpCAVswB9hLrCaQge-Pm8ZMo0NTpEUw6fqdMdYt5rQq0VLd3m3LvQxbhV3yLqaFgsSEMUxzpeMULndwzUTQA)
 
 * **Nós exploramos:** sabemos o que queremos, mas não sabemos ou não temos certeza de onde encontrar o que procuramos. Exemplo:
-  * Se procurarmos uma conta poupança de um banco
+  * Se procurarmos uma conta-poupança de um banco
   * Se procurarmos por um filme no Netflix
 
   ![](https://lh6.googleusercontent.com/rGIccV19X6k6QicicJCyquZpOn6SbD6CqZZaU9oSLzrEcAM5DzlRk1f8zS2XHli51a__zBd8c4ZxNsSfieh5n7vf59Fx4iS5thK2T5mHltMkb86d44U6Y35qfM_SDDvmkHN6rccUcr8)
 
-* **Procuramos elementos desconhecidos:** este caso pode ser semelhante ao dos adoçantes, não temos certeza do que queremos saber onde procurá-lo. Nesse caso, é melhor perguntar a alguém.
+* **Procuramos elementos desconhecidos:** este caso pode ser semelhante ao dos adoçantes, não temos certeza do que queremos para saber onde procurá-lo. Nesse caso, é melhor perguntar a alguém.
 
   ![](https://lh3.googleusercontent.com/lryDFVjO96TzF9ifO1mlKQEZzcV6oWq6sTEUWDVEkpO7cmhZ9f_W_eEoTU8HzZfb8rYuF-IWejT0jVygNkskbYtTUoPO4oRvHYR4ewN7lyIQn-L8FbH4prdUSiiCq5F75MYFOa_D84M)
 
@@ -74,7 +74,7 @@ Se os sinais ou os funcionários do supermercado não nos ajudarem o suficiente,
 
 Neste exemplo do site da Apple, vemos suas opções de navegação global.
 
-![Navegación global](https://lh3.googleusercontent.com/PEtCNfg03TcN68uFgfKZbei0Kx95IsNnNl-JwjC9HYboD6yI5jI0vXnC0a_zscmUGFNLltjGDDsON-FKHBBCIyHbCOdEl0hxZP-8qBEnohaHuWwa-SMPtzrTZ5uiZzefh69e1dEg73U)
+![Navegação global](https://lh3.googleusercontent.com/PEtCNfg03TcN68uFgfKZbei0Kx95IsNnNl-JwjC9HYboD6yI5jI0vXnC0a_zscmUGFNLltjGDDsON-FKHBBCIyHbCOdEl0hxZP-8qBEnohaHuWwa-SMPtzrTZ5uiZzefh69e1dEg73U)
 
 ### Local
 

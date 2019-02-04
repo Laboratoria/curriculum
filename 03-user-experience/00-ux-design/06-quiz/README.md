@@ -6,7 +6,9 @@
 
 ## Objetivos
 
-* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
+* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos 
+à prova. É uma oportunidade para que se ajuste e valide que realmente esteja 
+aprendendo. Sucesso!
 
 ***
 

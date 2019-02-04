@@ -12,5 +12,5 @@
 
 ## Agenda
 
-* Resolver os desafios, avaliar as diferentes maneiras de atingir as soluções.
+* Resolver os desafios e avaliar as diferentes soluções.
 
