@@ -13,4 +13,3 @@
 ## Agenda
 
 * Resolver os desafios e avaliar as diferentes soluções.
-

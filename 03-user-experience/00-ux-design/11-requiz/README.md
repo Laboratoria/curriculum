@@ -6,7 +6,9 @@
 
 ## Objetivos
 
-* Nesta sessão, você terá a oportunidade de avaliar-se, colocando seus conhecimentos à prova. É uma oportunidade para que se ajuste e valide que realmente esteja aprendendo. Sucesso!
+* Nesta sessão, você terá a oportunidade de avaliar-se, colocando seus
+  conhecimentos à prova. É uma oportunidade para que se ajuste e valide que
+  realmente esteja aprendendo. Sucesso!
 
 ***
 
@@ -23,7 +25,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 2) UX Designers estão constantemente conversando e observando os usuários para ...
+### 2) UX Designers estão constantemente conversando e observando os usuários para
 
 #### Opções
 
@@ -57,7 +59,7 @@
 
 <solution style="display:none;">5</solution>
 
-### 5) Ter uma mentalidade artística e conhecimento técnico sobre os componentes dos produtos digitais são características de um ___________ designer.
+### 5) "Ter uma mentalidade artística e conhecimento técnico sobre os componentes dos produtos digitais são características de um ___________ designer."
 
 #### Opções
 
@@ -92,7 +94,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 8) Os seguintes termos: `resolução de problemas`, `entender necessidades`, estão mais relacionados com:
+### 8) Os seguintes termos: `resolução de problemas`, `entender necessidades`, estão mais relacionados com
 
 #### Opções
 
@@ -103,7 +105,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 9) Preencha os espaços em branco:  `___ é o que te faz sentir uma marca ou produto no momento de interagir com ele, enquanto que ____ é uma camada visual de cores, texturas, formas e elementos.`
+### 9) Preencha os espaços em branco:  "___ é o que te faz sentir uma marca ou produto no momento de interagir com ele, enquanto que ____ é uma camada visual de cores, texturas, formas e elementos."
 
 #### Opções
 
@@ -112,7 +114,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) São atividades realizadas por um Designer UI:
+### 10) São atividades realizadas por um Designer UI
 
 #### Opções
 
@@ -126,7 +128,7 @@
 
 ### 11) Nesta busca no `Youtube`, que tipo de navegação é aquela indicada em vermelho?
 
-![Navega&#xE7;&#xE3;o do YouTube](https://lh3.googleusercontent.com/K_m6buhGG2DAr2GuQiq-vEL-dsHsBMfRYdrGSW6QXbl4eDDZIBW_ygvI6H_2h3yh4OPBWQXofy5uo5Pt-4Yt3554Q6fL3I2PHk3BTsgK2frCrhMo23llJdkeBZSjtxoM7PL4uZgErLw)
+![Navegação do YouTube](https://lh3.googleusercontent.com/K_m6buhGG2DAr2GuQiq-vEL-dsHsBMfRYdrGSW6QXbl4eDDZIBW_ygvI6H_2h3yh4OPBWQXofy5uo5Pt-4Yt3554Q6fL3I2PHk3BTsgK2frCrhMo23llJdkeBZSjtxoM7PL4uZgErLw)
 
 #### Opções
 
@@ -148,4 +150,3 @@
 5. Resolver as necessidades do usuário
 
 <solution style="display:none;">2,5</solution>
-

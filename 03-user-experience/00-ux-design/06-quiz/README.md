@@ -6,9 +6,9 @@
 
 ## Objetivos
 
-* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos 
-à prova. É uma oportunidade para que se ajuste e valide que realmente esteja 
-aprendendo. Sucesso!
+* Nesta sessão, terá a oportunidade de avaliar-se colocando seus conhecimentos
+  à prova. É uma oportunidade para que se ajuste e valide que realmente esteja
+  aprendendo. Sucesso!
 
 ***
 
@@ -19,7 +19,7 @@ aprendendo. Sucesso!
 #### Opções
 
 1. É uma etapa no processo de desenvolvimento de produtos digitais
-2. São todas as experiências que uma pessoa vive / experimenta ao usar um produto
+2. São todas as experiências que uma pessoa vive/experimenta ao usar um produto
 3. É um papel dentro da equipe de desenvolvimento de produtos digitais
 4. É o resultado de um processo de design
 
@@ -37,7 +37,7 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">2,5</solution>
 
-### 3) Para criar um produto digital no mundo atual, você precisa de ________.
+### 3) "Para criar um produto digital no mundo atual, você precisa de ________"
 
 #### Opções
 
@@ -60,7 +60,7 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">1,3,4</solution>
 
-### 5) A facilidade para as relações sociais e para a análise é característica de um ___________ designer.
+### 5) "A facilidade para as relações sociais e para a análise é característica de um _______ designer."
 
 #### Opções
 
@@ -71,9 +71,9 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">3</solution>
 
-### 6) Quando tocamos ou clicamos neste ícone para ver nossas notificações, estamos:
+### 6) Quando tocamos ou clicamos neste ícone para ver nossas notificações, estamos
 
-![](https://lh3.googleusercontent.com/jc8Aumvx6icMIfCo_NGlJ4i3A-9AHS-wlvXkBrjIuwK5Oe4VEMMQtjYdprUz7mOcYl3RsA5ipCKPG60HSCShPKt0Ez7zNUJallBvlPR0obj8FbYMAD-fZLsPAjzpyO2KzOGDH95LeBc)
+![página inicial do Facebook versão mobile, com o ícone do sino circulado](https://lh3.googleusercontent.com/jc8Aumvx6icMIfCo_NGlJ4i3A-9AHS-wlvXkBrjIuwK5Oe4VEMMQtjYdprUz7mOcYl3RsA5ipCKPG60HSCShPKt0Ez7zNUJallBvlPR0obj8FbYMAD-fZLsPAjzpyO2KzOGDH95LeBc)
 
 #### Opções
 
@@ -85,7 +85,7 @@ aprendendo. Sucesso!
 
 ### 7) Que tipo de navegação é essa que apontamos no Buzzfeed?
 
-![](https://lh4.googleusercontent.com/g9vSNX42gP5zHrE3jdAsmzDmARyqYNBt-7jkLMIWBoDxv4HYA3c_RXXnhq9qMd7EcM8HTt2W7IxZxRgctU6LTgKKpudZBqsr-xAmgoSKjEITiX0Z71vN5TFdqOJe257rzFMWpbBDojw)
+![página do Buzzfeed com a aba de navegação lateral circulada](https://lh4.googleusercontent.com/g9vSNX42gP5zHrE3jdAsmzDmARyqYNBt-7jkLMIWBoDxv4HYA3c_RXXnhq9qMd7EcM8HTt2W7IxZxRgctU6LTgKKpudZBqsr-xAmgoSKjEITiX0Z71vN5TFdqOJe257rzFMWpbBDojw)
 
 #### Opções
 
@@ -120,7 +120,7 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">4</solution>
 
-### 10) Os seguintes termos: `botões`, `janelas`, `bordas arredondeadas`, `checkboxes`, estão mais relacionadas com:
+### 10) Os termos `botões`, `janelas`, `bordas arredondeadas`, `checkboxes`, estão mais relacionadas com
 
 #### Opções
 
@@ -131,7 +131,7 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">3</solution>
 
-### 11) Com quais termos você preencheria os espaços em branco: `Uma boa _______ nos permite dar uma boa ________.`
+### 11) Com quais termos você preencheria os espaços em branco: "Uma boa _______ nos permite dar uma boa ________."
 
 #### Opções
 
@@ -142,7 +142,7 @@ aprendendo. Sucesso!
 
 <solution style="display:none;">1</solution>
 
-### 12) Estas são atividades realizadas por um UX Designer:
+### 12) São atividades realizadas por uma UX Designer
 
 #### Opções
 
@@ -153,4 +153,3 @@ aprendendo. Sucesso!
 5. Guias de estilo \(paletas de cores, fontes\)
 
 <solution style="display:none;">1,4</solution>
-

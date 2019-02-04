@@ -21,4 +21,3 @@
 * Como os usuários encontram coisas na web?
 * Quais tipos de navegação existem?
 * Por que os esboços são importantes?
-

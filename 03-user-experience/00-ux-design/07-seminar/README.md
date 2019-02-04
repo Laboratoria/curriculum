@@ -6,24 +6,30 @@
 
 ## Objetivos
 
-* Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua equipe de professoras
+* Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua
+  equipe de mentores.
 * Esclarecer todas as suas dúvidas!
 
 ***
 
 ## Agenda
 
-1. Conversemos sobre os papéis em uma equipe de desenvolvimento com o exemplo do `Spotify`
+1. Conversemos sobre os papéis em uma equipe de desenvolvimento com o exemplo
+   do `Spotify`
 
    <!--
 
-   Podemos começar refletindo com as alunas: que papéis podemos encontrar no Spotify?
+   Podemos começar refletindo com as alunas: que papéis podemos encontrar no
+   Spotify?
 
    Quem achamos que pode ser responsável por:
 
-   - O produto resolva os problemas dos usuários. Como por exemplo, ter contas familiares
-   - A interface seja fácil de usar e tenha toda a marca característica do Spotify (verde e preto)
-   - Todas as músicas sejam fáceis de encontrar e sejam salvas de uma maneira que sua reprodução seja fácil
+   - O produto resolva os problemas dos usuários. Como por exemplo, ter contas
+     familiares
+   - A interface seja fácil de usar e tenha toda a marca característica do
+     Spotify (verde e preto)
+   - Todas as músicas sejam fáceis de encontrar e sejam salvas de uma maneira
+     que sua reprodução seja fácil
 
    Papéis:
 
@@ -48,7 +54,8 @@
 
    -->
 
-3. Por meio de exemplos vamos garantir que entendemos como as pessoas encontram coisas na web
+3. Por meio de exemplos vamos garantir que entendemos como as pessoas encontram
+   coisas na web
 
    <!--
 
@@ -62,7 +69,8 @@
 
    -->
 
-4. Por meio de exemplos veremos ocasiões em que esboçar e fazer protótipos tiveram um papel importante
+4. Por meio de exemplos veremos ocasiões em que esboçar e fazer protótipos
+   tiveram um papel importante
 
    <!--
 
@@ -70,7 +78,9 @@
 
    -->
 
-5. Revisemos os [exercícios guiados](08-ejercicios-guiados) que resolveremos na próxima aula para que tente resolvê-los sozinha primeiro. Veremos algumas dicas :\)
+5. Revisemos os [exercícios guiados](08-ejercicios-guiados) que resolveremos na
+   próxima aula para que tente resolvê-los sozinha primeiro.
+   Veremos algumas dicas :\)
 
    <!--
 
