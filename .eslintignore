@@ -1,3 +1,8 @@
 **/node_modules/*
+**/*FIXME/*
 topics/javascript/09-errors
 topics/javascript/10-debugging
+topics/functional
+topics/paradigms
+topics/react
+topics/redux

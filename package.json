@@ -4,10 +4,11 @@
   "description": "Malla curricular Full Stack JavaScript @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
-    "eslint": "eslint topics/javascript",
-    "validate": "cd topics && course-parser babel/README.md browser/README.md css/README.md functional/README.md html/README.md javascript/README.md paradigms/README.md react/README.md redux/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "eslint": "eslint topics/",
     "pretest": "npm run mdlint && npm run eslint && npm run validate",
-    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
+    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
+    "validate": "./scripts/build.sh --validate",
+    "build": "./scripts/build.sh"
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [
@@ -23,8 +24,9 @@
     "url": "https://github.com/Laboratoria/curricula-js/issues"
   },
   "devDependencies": {
+    "all-contributors-cli": "^5.10.1",
     "chai": "^4.2.0",
-    "course-parser": "Laboratoria/course-parser#1.1.1",
+    "curriculum-parser": "Laboratoria/curriculum-parser#2.0.0-alpha.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.2",
@@ -37,6 +39,7 @@
     "mdlint": "Laboratoria/mdlint#v1.0.0",
     "mocha": "^6.1.4",
     "renamer": "^1.1.1",
+    "rubric": "Laboratoria/rubric#v2.0.0",
     "sinon": "^7.3.2"
   }
 }
