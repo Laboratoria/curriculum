@@ -136,7 +136,7 @@ Ao visualizar o documento anterior no navegador, teremos:
 ![Bloco vs.
 inline](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
 
-Tanto `em` quanto eles `strong` são elementos online. Portanto, os primeiros
+Tanto `em` quanto eles `strong` são elementos inline. Portanto, os primeiros
 três elementos são colocados na mesma linha, um após o outro, sem espaço entre
 eles. Por outro lado, `p` é um elemento no nível do bloco, então cada elemento
 aparece em uma nova linha, com espaço acima e abaixo de cada um `p`.
@@ -386,3 +386,10 @@ investigue o uso dos seguintes elementos semânticos:
 - `<article>`
 - `<section>`
 - `<footer>`
+
+### Leitura complementar
+
+- [Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+- [HTML Semântico](https://codefica.com/html-semantico/)
+- [Meu HTML é semântico e o
+  seu?](https://medium.com/collabcode/meu-html-%C3%A9-sem%C3%A2ntico-e-o-seu-4e97c81c0c49)
