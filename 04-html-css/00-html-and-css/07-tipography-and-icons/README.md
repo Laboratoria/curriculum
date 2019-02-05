@@ -10,7 +10,6 @@
 - Saber quais são as fontes padrão dos navegadores
 - Aprender a adicionar fontes de provedores externos
 - Usar fontes como ícones
-- Usar a técnica de CSS sprites
 
 ***
 
@@ -48,22 +47,6 @@ não é a única opção, você pode encontrar mais como:
 
 Quais outros você encontrou e gostaria de adicionar à sua página da web?
 
-## Sprites
+## Link extra
 
-Em certas ocasiões, você deseja adicionar muitas imagens relacionadas \(por
-exemplo, um menu com bandeiras de diferentes países\); No entanto, você já
-pensou em quão entediante seria adicionar cada imagem da bandeira de cada país?
-Para isso, existe uma técnica chamada `CSS sprites` que permitirá lidar com esse
-tipo de casos de maneira mais eficiente. Abaixo você pode aprender um pouco mais
-sobre o assunto nos seguintes links:
-
-- [Usando CSS Sprites](http://www.richardbarros.com.br/blog/design/usando-css-sprites-para-fazer-seu-site-carregar-mais-rapido)
-- [CSS Sprites - Maujor](http://www.maujor.com/tutorial/css-sprites.php)
-
-## Referências
-
-Você tem alguma dúvida sobre algum desses problemas? Talvez algumas dessas
-postagens possam ajudá-la a entendê-las melhor:
-
-- [Hazlo con estilo : Tipografías, iconos y sprite - Laboratoria](https://medium.com/laboratoria-how-to/hazlo-con-estilo-tipograf%C3%ADas-iconos-y-sprite-5a036a7b592a)
 - [@font-face](https://tableless.com.br/font-face-fonts-externas-na-web/)
