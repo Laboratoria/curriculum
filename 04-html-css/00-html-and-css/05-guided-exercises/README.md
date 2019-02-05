@@ -8,8 +8,9 @@
 
 ## Objetivos
 
-* Praticar programando junto com sua equipe de professores, resolvendo exercícios de `html` e `css`
-* Praticar, pratica e praticar
+- Praticar programando junto com sua equipe de professores, resolvendo
+  exercícios de `html` e `css`
+- Praticar, pratica e praticar
 
 ## Enunciados
 
@@ -39,4 +40,3 @@ Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
 ![Exibi&#xE7;&#xF5;es Flags3](https://fotos.subefotos.com/ea2ba0950028f26c289e7ae55f2438d2o.png)
 
 ![Exibi&#xE7;&#xF5;es Banners4](https://fotos.subefotos.com/ce40c790a0ddf23ff36a075bf91d59c6o.png)
-

@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-* Resolver dúvidas
-* Entender as boas práticas
+- Resolver dúvidas
+- Entender as boas práticas
 
 ## Agenda
 
@@ -22,4 +22,3 @@
    * Não posicionar os elementos _"à força"_ \(hard-coding\)
    * Uso correto de seletores
    * Uso de comentários
-

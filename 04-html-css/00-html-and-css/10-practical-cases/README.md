@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-* Entender, por meio de um estudo de caso, como criar estruturas na web com
+- Entender, por meio de um estudo de caso, como criar estruturas na web com
   `html` e dar estilos com `css`
 
 ## Enunciado
@@ -39,4 +39,3 @@ Em seguida, Lulu explica como resolveu esse desafio:
 ### 2. Menu Horizontal da Solução
 
 [![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
-

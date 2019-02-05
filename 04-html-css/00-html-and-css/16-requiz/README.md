@@ -6,7 +6,8 @@
 
 ## Objetivos
 
-- Fazer um segundo teste para garantir que terminamos a unidade com uma compreensão total dos conceitos.
+- Fazer um segundo teste para garantir que terminamos a unidade com uma
+  compreensão total dos conceitos.
 
 ***
 
@@ -55,7 +56,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 5) São características de um elemento em linha:
+### 5) São características de um elemento em linha
 
 #### Opções
 
@@ -70,8 +71,10 @@
 
 #### Opções
 
-1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um _inline-block_ sim
-2. Em um elemento _inline-block_ não se pode determinar dimensões, enquanto que _inline_ sim
+1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um
+   _inline-block_ sim
+2. Em um elemento _inline-block_ não se pode determinar dimensões, enquanto que
+   _inline_ sim
 3. Não há diferenças entre os dois
 4. Um elemento _inline_ não aparece na tela, enquanto um _inline-block_ sim
 
@@ -247,25 +250,30 @@ ul#awesome #must-use {
 
 ### 14) Qual é a sintaxe do css?
 
+```css
+  /* Opção 1 */
+  { p = color: red;
+    font-size: 15px;
+  }
+
+  /* Opção 2 */
+  p {
+    color: red,
+    font-size: 15px,
+  }
+
+  /* Opção 3 */
+  p {
+    color: red;
+    font-size: 15px;
+  }
+```
+
 #### Opções
 
-1. ```css
-   { p = color: red;
-     font-size: 15px;
-   }
-   ```
-2. ```css
-   p {
-     color: red,
-     font-size: 15px,
-   }
-   ```
-3. ```css
-   p {
-     color: red;
-     font-size: 15px;
-   }
-   ```
+1. Opção 1
+2. Opção 2
+3. Opção 3
 
 <solution style="display:none;">3</solution>
 
@@ -357,4 +365,3 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 5. `float`
 
 <solution style="display:none;">1</solution>
-

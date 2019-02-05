@@ -8,7 +8,9 @@
 
 ## Objetivos
 
-* Nesta seção você terá a oportunidade de avaliar a si mesma para colocar seu conhecimento à prova. É uma oportunidade para você se refletir e validar se você está realmente aprendendo. Sucesso!
+- Nesta seção você terá a oportunidade de avaliar a si mesma para colocar seu
+  conhecimento à prova. É uma oportunidade para você se refletir e validar se
+  você está realmente aprendendo. Sucesso!
 
 ## Perguntas
 
@@ -85,8 +87,10 @@ ul {
 
 #### Opções
 
-1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um _inline-block_ sim
-2. Você não pode determinar dimensões em um elemento _inline-block_, enquanto que _inline_ sim
+1. Em um elemento _inline_ não se pode determinar dimensões, enquanto um um
+   _inline-block_ sim
+2. Você não pode determinar dimensões em um elemento _inline-block_, enquanto
+   que _inline_ sim
 3. Não há diferenças entre os dois
 4. Um elemento _inline_ não aparece na tela, enquanto que um _inline-block_ sim
 
@@ -266,11 +270,13 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 
 **RESULTADO:**
 
-![Posicionamento - Pergunta](https://github.com/Laboratoria/curricula-js/raw/fd8b393634106b9b966c5e7d2637afe951b8a81e/03-interactive-site/00-html-and-css/12-quiz/positioning.png?raw=true)
+![Posicionamento -
+Pergunta](https://github.com/Laboratoria/curricula-js/raw/fd8b393634106b9b966c5e7d2637afe951b8a81e/03-interactive-site/00-html-and-css/12-quiz/positioning.png?raw=true)
 
 #### Opções
 
-1. `.container` com `position: relative;` e `.red` com `position: absolute;` e `left: 200px;`
+1. `.container` com `position: relative;` e `.red` com `position: absolute;` e
+   `left: 200px;`
 2. `.container` com `position: fixed;` e `.red` com `left: 200px;`
 3. `.red` com `position: absolute;` e `left: 200px;`
 4. `.red` com `position: relative;` e `left: 200px;`
@@ -321,4 +327,3 @@ ul.programming-languages li .highlight:nth-of-type(odd) {
 5. float
 
 <solution style="display:none;">1,3,4</solution>
-

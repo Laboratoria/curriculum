@@ -8,8 +8,9 @@
 
 ## Objetivos
 
-* Revisar e consolidar os conceitos aprendidos em uma aula com sua equipe de professores
-* Esclarecer todas as suas dúvidas!
+- Revisar e consolidar os conceitos aprendidos em uma aula com sua equipe de
+  professores
+- Esclarecer todas as suas dúvidas!
 
 ## Agenda
 
@@ -17,12 +18,13 @@
 
 Certificar que entendemos bem os seguintes conceitos:
 
-* Positioning
-* Floats
-* Tipografia e ícones
+- Positioning
+- Floats
+- Tipografia e ícones
 
 ### 2. Revise os exemplos das leituras do MDN
 
-Revisemos os exemplos de código da documentação do MDN e modificar alguns para garantir que entendemos bem o que lemos.
+Revisemos os exemplos de código da documentação do MDN e modificar alguns para
+garantir que entendemos bem o que lemos.
 
 ### 3. Vamos rever os [exercícios guiados](09-guided-exercises)
