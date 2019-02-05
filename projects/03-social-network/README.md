@@ -273,53 +273,66 @@ puedas haber encontrado en el camino.
 
 ## Evaluación
 
-### Tech
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 3
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 2
-| Estructuras de datos | 2
-| Tests | 2
-| **HTML** | |
-| Validación | 3
-| Estilo | 3
-| Semántica | 3
-| SEO | n/a
-| **CSS** | |
-| DRY | 3
-| Responsive | 3
-| **SCM** | |
-| Git | 3
-| GitHub | 3
-| **CS** | |
-| Lógica | 2
-| Arquitectura | 2
+### General
 
-### UX
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 3
-| Visual Desing | 2
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
 
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 3
-| Autoaprendizaje | 3
-| Solución de Problemas | 3
-| Dar y recibir feedback | 3
-| Adaptabilidad | 3
-| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 3
-| Comunicación eficaz | 3
-| Presentaciones | 3
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 3              |
+| Autoaprendizaje              | 3              |
+| Presentaciones               | 3              |
+| Adaptabilidad                | 3              |
+| Solución de problemas        | 3              |
+| **Relaciones interpersonales**                |
+| Trabajo en equipo            | 3              |
+| Responsabilidad              | 3              |
+| Dar y recibir feedback       | 3              |
+| Comunicación eficaz          | 3              |
+
+### Tech
+
+| Habilidad              | Nivel esperado |
+|------------------------|----------------|
+| **CS**                                  |
+| Lógica                 | 2              |
+| Arquitectura           | 2              |
+| **SCM**                                 |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**                          |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 2              |
+| Estructuras de datos   | 2              |
+| Tests                  | 2              |
+| **HTML**                                |
+| Validación             | 3              |
+| Estilo                 | 3              |
+| Semántica              | 3              |
+| **CSS**                                 |
+| DRY                    | 3              |
+| Responsive             | 3              |
+
+### UX
+
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 3              |
+| Visual Design   | 2              |
 
 ***
 

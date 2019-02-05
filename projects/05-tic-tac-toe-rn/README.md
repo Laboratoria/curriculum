@@ -83,25 +83,48 @@ Como entregables, al final del proyeto debes presentar:
 
 ## Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
+
+### General
+
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
+
+### Habilidades Blandas
+
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 4              |
+| Autoaprendizaje              | 4              |
+| Presentaciones               | 4              |
+| Adaptabilidad                | 4              |
+| Solución de problemas        | 4              |
+| **Relaciones interpersonales**                |
+| Responsabilidad              | 4              |
+| Dar y recibir feedback       | 4              |
+| Comunicación eficaz          | 4              |
 
 ### Tech
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 5
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 3
-| Estructuras de datos | 2
-| Tests | 4
-| **SCM** | |
-| Git | 3
-| GitHub | 3
-| **CS** | |
-| Lógica | 3
-| Arquitectura | 3
+| Habilidad              | Nivel esperado |
+| ---------------------- | -------------- |
+| **CS**                 |                |
+| Lógica                 | 2              |
+| Arquitectura           | 3              |
+| **SCM**                |                |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**         |                |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 4              |
+| Estructuras de datos   | 3              |
+| Tests                  | 3              |
 
 ***
 

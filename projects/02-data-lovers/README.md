@@ -341,65 +341,64 @@ implementadas en el archivo `data.js`.
 
 ## Evaluación
 
-Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada habilidad y cada nivel. Esta es una
-lista de todas las habilidades involucradas en este proyecto y que evaluaremos
-cuando lo completes:
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica/Habilidad |
-|--------------------------|
-| Completitud |
-
-### Tech
-
-| Habilidad |
-|-----------|
-| **JavaScript** |
-| Estilo |
-| Nomenclatura/semántica |
-| Funciones/modularidad |
-| Estructuras de datos |
-| Tests |
-| **HTML** |
-| Validación |
-| Estilo |
-| Semántica |
-| **CSS** |
-| DRY |
-| Responsive |
-| **SCM** |
-| Git |
-| GitHub |
-| **CS** |
-| Lógica |
-| Arquitectura |
-
-### UX
-
-| Habilidad |
-|-----------|
-| User Centricity |
-| Entrevistas |
-| Contraste |
-| Alineación |
-| Jerarquía |
-| Tipografía |
-| Color |
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
 
 ### Habilidades Blandas
 
-| Habilidad |
-|-----------|
-| Planificación y organización |
-| Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
-| Presentaciones |
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 2              |
+| Autoaprendizaje              | 2              |
+| Presentaciones               | 2              |
+| Adaptabilidad                | 2              |
+| Solución de problemas        | 2              |
+| **Relaciones interpersonales**                |
+| Trabajo en equipo            | 2              |
+| Responsabilidad              | 2              |
+| Dar y recibir feedback       | 2              |
+| Comunicación eficaz          | 2              |
+
+### Tech
+
+| Habilidad              | Nivel esperado |
+|------------------------|----------------|
+| **CS**                                  |
+| Lógica                 | 1              |
+| Arquitectura           | 2              |
+| Patrones/Paradigmas    | 1              |
+| **SCM**                                 |
+| Git                    | 2              |
+| GitHub                 | 2              |
+| **JavaScript**                          |
+| Estilo                 | 2              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 2              |
+| Estructuras de datos   | 2              |
+| Tests                  | 2              |
+| **HTML**                                |
+| Validación             | 3              |
+| Estilo                 | 3              |
+| Semántica              | 2              |
+| **CSS**                                 |
+| DRY                    | 3              |
+| Responsive             | 2              |
+
+### UX
+
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 3              |
+| Visual Design   | 2              |
 
 ***
 

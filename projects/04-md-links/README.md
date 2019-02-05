@@ -226,38 +226,51 @@ para usarlo programáticamente.
 
 ## Evaluación
 
-### Tech
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
 
-| Habilidad              | Nivel esperado |
-| ---------------------- | -------------- |
-| **JavaScript**         |                |
-| Estilo                 | 4              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 3              |
-| Estructuras de datos   | 2              |
-| Tests                  | 4              |
-| **SCM**                |                |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **CS**                 |                |
-| Lógica                 | 3              |
-| Arquitectura           | 3              |
+### General
+
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
 
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 4 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-| Habilidad                                                  | Nivel esperado |
-| ---------------------------------------------------------- | -------------- |
-| Planificación y organización                               | 4              |
-| Autoaprendizaje                                            | 4              |
-| Solución de Problemas                                      | 4              |
-| Dar y recibir feedback                                     | 4              |
-| Adaptabilidad                                              | 4              |
-| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 4              |
-| Comunicación eficaz                                        | 4              |
-| Presentaciones                                             | 4              |
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 4              |
+| Autoaprendizaje              | 4              |
+| Presentaciones               | 4              |
+| Adaptabilidad                | 4              |
+| Solución de problemas        | 4              |
+| **Relaciones interpersonales**                |
+| Responsabilidad              | 4              |
+| Dar y recibir feedback       | 4              |
+| Comunicación eficaz          | 4              |
+
+### Tech
+
+| Habilidad              | Nivel esperado |
+| ---------------------- | -------------- |
+| **CS**                 |                |
+| Lógica                 | 2              |
+| Arquitectura           | 3              |
+| **SCM**                |                |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**         |                |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 4              |
+| Estructuras de datos   | 3              |
+| Tests                  | 3              |
 
 ## Pistas / Tips
 
