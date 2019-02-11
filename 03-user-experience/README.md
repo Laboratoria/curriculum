@@ -1,6 +1,9 @@
 # User Experience
 
-Neste curso, você aprenderá sobre User Experience (UX).
+Neste curso, você aprenderá e aprimorará seu conhecimentos sobre User Experience
+(UX) e User Interface (UI).
+
+Tags: ux, ui, user, user experience, prototype, iterface
 
 ## Público-alvo
 
