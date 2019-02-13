@@ -24,6 +24,7 @@ Contruir a página do Freelancer usando os seus conhecimento de HTML e CSS.
 
 ## Hacker Edition
 
-A versão hacker desse desafio é criar uma outra página, mas dessa vez se baseando no repositorio do Lyft:
+A versão hacker desse desafio é criar uma outra página, mas dessa vez se
+baseando no repositorio do Lyft:
 
 - [Instruções Desafio Lyft](https://github.com/rafaelbcerri/lyft)

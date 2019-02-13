@@ -8,9 +8,9 @@
 
 ## Objetivos
 
-- Praticar programando junto com sua equipe de professores, resolvendo
+* Praticar programando junto com sua equipe de professores, resolvendo
   exercícios de `html` e `css`
-- Praticar, pratica e praticar
+* Praticar, pratica e praticar
 
 ## Enunciados
 

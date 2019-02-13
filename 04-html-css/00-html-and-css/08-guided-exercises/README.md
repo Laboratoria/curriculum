@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- Praticar com sua equipe de profissionais, resolvendo exercícios `html` e `css`
-- Praticar, pratica e praticar
+* Praticar com sua equipe de profissionais, resolvendo exercícios `html` e `css`
+* Praticar, pratica e praticar
 
 ## Enunciados
 
@@ -19,7 +19,6 @@ você tente resolver os exercícios sozinho \(ou em equipe\) **antes** da sessã
 presencial. Então, você já virá com dúvidas específicas e você estará
 familiarizada com os desafios. Talvez você possa apresentar sua solução para a
 turma e assim ajudar o restante de suas colegas :\)
-
 
 ### 1. A quadra
 

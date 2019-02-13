@@ -3,11 +3,12 @@
 * Tipo: `exercício`
 * Formato: `individual`
 * Duração: `4h`
+
 ***
 
 ## Objetivos
 
-- Pratica, pratica e praticar
+* Pratica, pratica e praticar
 
 ## Enunciados
 
