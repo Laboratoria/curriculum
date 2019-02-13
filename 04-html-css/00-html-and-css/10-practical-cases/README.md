@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-* Pratica, pratica e praticar
+* Praticar, praticar e praticar
 
 ## Enunciados
 
@@ -25,7 +25,7 @@ as imagens que você mais gosta :\)
 
 ### 2. Applove
 
-Siga as etapas do professor para criar uma réplica do site da
+Crie uma réplica do site da
 [Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png).
 
 Para completar este exercício, criamos um [repositório

@@ -1,4 +1,4 @@
-# Introdução a CSS
+# CSS
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -343,10 +343,10 @@ Vejamos um exemplo:
 
 ## Continuando a página de Grace Hopper da wikipedia
 
-Agora que você sabe mais sobre a profundidade CSS você pode acompanhar Michelle
-no vídeo a seguir no qual ela termina de desenvolvar a página de Grace Hopper,
-usando uma estrutura semântica e todos os benefícios do CSS para representar o
-projeto o mais fiel possível.
+Agora que você sabe mais sobre a profundidade CSS você pode acompanhar a
+Palomita no vídeo a seguir no qual ela termina de desenvolvar a página de Grace
+Hopper, usando uma estrutura semântica e todos os benefícios do CSS para
+representar o projeto o mais fiel possível.
 
 [![Grace
-Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+Hopper](https://img.youtube.com/vi/CJtJbWs3qjQ/0.jpg)](https://www.youtube.com/watch?v=CJtJbWs3qjQ)

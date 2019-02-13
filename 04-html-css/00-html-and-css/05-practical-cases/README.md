@@ -1,4 +1,4 @@
-# Caso Prático (vídeo)
+# Casos Prático (vídeo)
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -22,11 +22,11 @@ replicar:
 
 ### 1. Menu Vertical
 
-![Menu vertical](https://i.imgur.com/m6WSYHE.gifv)
+![Menu vertical](https://i.imgur.com/m6WSYHE.gif)
 
 ### 2. Menu horizontal
 
-![Menu horizontal](https://i.imgur.com/S8KxWcj.gifv)
+![Menu horizontal](https://i.imgur.com/S8KxWcj.gif)
 
 ## Soluções
 

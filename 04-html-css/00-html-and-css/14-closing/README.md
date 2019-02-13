@@ -1,7 +1,7 @@
-# Encerramento: HTML & CSS
+# Encerramento
 
 - Tipo: `seminário`
-- Formato: `guiado`
+- Formato: `individual`
 - Duração: `120min`
 
 ***

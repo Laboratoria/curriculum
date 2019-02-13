@@ -278,12 +278,12 @@ o comentário e `-->` para fechá-lo.
 ## Recriando a página de Grace Hopper da Wikipédia
 
 Agora que você tem uma ideia dos elementos `html` mais comuns, seu comportamento
-\(em linha ou em bloco\) e seus principais atributos, Michelle explicará como
+\(em linha ou em bloco\) e seus principais atributos, a Paloma explicará como
 construir uma réplica da [página da Wikipédia de Grace
 Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) :
 
 [![Grace
-Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
+Hopper](https://img.youtube.com/vi/FM9aK638ICA/0.jpg)](https://www.youtube.com/watch?v=FM9aK638ICA)
 
 ## Os elementos `div`e`span`
 

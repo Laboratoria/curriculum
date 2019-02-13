@@ -1,4 +1,4 @@
-# Desafios de Código
+# Desafio
 
 - Tipo: `producto`
 - Formato: `individual`
@@ -8,8 +8,8 @@
 
 ## Objetivos
 
-- A seguir, apresentamos um um desagio que você deve completar para colocar o
-  seu conhecimento para à prova.
+- A seguir, apresentamos um defasio que você deve completar para colocar o seu
+  conhecimento para à prova.
 
 ## Estrutura de trabalho
 
