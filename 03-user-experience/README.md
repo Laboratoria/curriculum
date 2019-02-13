@@ -49,6 +49,8 @@ criar seu produto final, é importante que você conheça as técnicas de design
 experiência do usuário para que seu produto seja algo que as pessoas desejem
 usar.
 
+***
+
 ## Avaliação técnica
 
 * Quizzes: 5%

@@ -79,14 +79,10 @@ Podemos visualizar esse conceito de _aninhamento_ de html da seguinte maneira:
 HTML](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
 
 Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe
-sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p` \( se você
-precisa de uma revisão sobre eles, sugerimos que leia novamente a lição sobre
-[criar seu primeiro
-site](https://lms.laboratoria.la/cohorts/spl-2018-05-bc-js-front-end-developer/courses/intro-pt/01-introduction/03-your-first-website)
-do curso _Introdução à Programação\)_. Alguns elementos adicionais que
-adicionamos são: o `em` que faz com que seu conteúdo seja exibido como texto em
-_itálico_ e `strong` que faz com que seu conteúdo seja exibido como texto em
-_negrito_.
+sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p`. Alguns
+elementos adicionais que adicionamos são: o `em` que faz com que seu conteúdo
+seja exibido como texto em _itálico_ e `strong` que faz com que seu conteúdo
+seja exibido como texto em _negrito_.
 
 Ao abrir este documento no navegador, teremos o seguinte:
 

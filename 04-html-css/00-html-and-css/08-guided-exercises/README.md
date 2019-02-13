@@ -1,8 +1,8 @@
-# Aula Prática
+# Exercícios Guiados
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `4h`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `2h`
 
 ***
 
@@ -20,8 +20,6 @@ presencial. Então, você já virá com dúvidas específicas e você estará
 familiarizada com os desafios. Talvez você possa apresentar sua solução para a
 turma e assim ajudar o restante de suas colegas :\)
 
-Você deve fazer o upload de todos os seus exercícios `GitHub` e publicá-los
-`gh-pages`.
 
 ### 1. A quadra
 
@@ -37,18 +35,13 @@ Replique as seguintes imagens colocando em prática o seu conhecimento de
 
 ![6 cajas](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
 
-### 3. CSS Positioning 101, por [Noah Stokes](https://alistapart.com/author/nstokes)
-
-Replicar todos os exemplos de layouts \(`Examples A - J`\) do seguinte artigo:
-[CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
-
-### 4. O tríptico
+### 3. O tríptico
 
 Replique a seguinte imagem colocando em prática o seu conhecimento de `float`:
 
 ![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
 
-### 5. Tipografias e ícones
+### 4. Tipografias e ícones
 
 Desenvolva o menu a seguir. Você deve usar pelo menos dois estilos de fontes da
 Web \(sugestão: Google Fonts\). Você pode usar os tipos de letra iconográficos
