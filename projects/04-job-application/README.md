@@ -42,13 +42,13 @@ que enfrentarás al salir del bootcamp..
 * A menos que la descripción de alguna parte lo diga explícitamente, no está
   permitido el uso de librerías o frameworks.
 * Debes seguir la [guía de estilos de Airbnb](https://github.com/airbnb/javascript).
-* Deberás avanzar paso a paso por el proceso de postulación. Tu training manager
-y/o la encargada de desarrollo personal será quien te desbloqueará el siguiente
-paso.
+* No todos los pasos de este proyecto son necesariamente secuenciales. 
+Tu training manager y/o la encargada de desarrollo personal será quien 
+te irá guiando en el orden de ellos.
 * Este proyecto funciona como cualquier otro, tendrás que desarrollarlo con 
-éxito. Igual esperamos que sea un proyecto muy entretenido, así que ni te darás
+éxito. Para completarlo, tendrás que haber terminado cada uno de los pasos aquí 
+descritos. Igual esperamos que sea un proyecto muy entretenido, así que ni te darás
 cuenta cuando ya estés en la última etapa ;).
-* La parte IV y V no son secuenciales.
 
 Recuerda siempre la importancia de la iteración. Si ya "pasaste" por una etapa
 siempre puedes volver, revisar, actualizar, mejorar, iterar, etc. Pide feedback, 
@@ -69,7 +69,8 @@ LinkedIn, GitHub y tu portafolio - a los cuales se accede a través de tu CV.
 Una vez que completes tu CV (con los links a tu portafolio, LinkedIn y GitHub
 actualizados), tendrás que:
 * Pedirle a una compañera que te entregue feedback de tu CV.
-* Revisar el check list antes de entregarlo.
+* Revisar el [check list](https://docs.google.com/spreadsheets/d/1MyOE5v1TxOMovsTiMQ21QzRPxCRXIKpaOOLS99y3MKQ/edit#gid=1386834576)
+antes de entregarlo.
 * Una vez que sientas que está listo, envíalo a la coordinadora de desarrollo 
 personal(psicóloga) de tu sede via e-mail incluyendo un breve párrafo indicando
  tu interés por el puesto. Ella revisará los documentos y te dirá si estás 
@@ -170,6 +171,7 @@ antes?
 
 * [Guía de estilos de Airbnb](https://github.com/airbnb/javascript).
 * [Elementos a considerar al escribir tu CV](https://drive.google.com/file/d/1TUHy3SxgalOWBqH-rtHKbejsKCXoLxWD/view?usp=sharing).
+* [Check list CV](https://docs.google.com/spreadsheets/d/1MyOE5v1TxOMovsTiMQ21QzRPxCRXIKpaOOLS99y3MKQ/edit#gid=1386834576)
 * [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing).
 * [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing).
 * [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
