@@ -21,8 +21,6 @@ Nesta unidade aprenderemos:
 Cada evento é associado a um manipulador \(_conhecidos como eventHandlers ou
 eventListener_\), que será executado quando o evento ocorrer.
 
-Aqui está um [vídeo](https://www.youtube.com/watch?v=gyICdb1iwII) de referência.
-
 ## Como usar os eventos?
 
 Para poder fazer uso da magia dos eventos é necessário saber primeiro como
@@ -33,13 +31,6 @@ A sintaxe é muito simples:
 ```javascript
   elemento_que_escucha.addEventListener('evento', funcao_para_escutar);
 ```
-
-Aqui um [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de referência.
-
-Existem diferentes formas de associar um evento a elementos do DOM. Para saber
-mais visite este
-[link](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html)
-\(a partir de 6.2\).
 
 ## Tratamento de eventos
 
@@ -142,8 +133,6 @@ acionados. Alguns dos mais comuns são:
 - Eventos da janela
 
 Para mais informações sobre todos os eventos, acesse este
-[link](https://sites.google.com/site/dwebtodojs/referencia/modelo-de-eventos-del-dom)
-e também este outro
 [link](https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Principais eventos
@@ -172,5 +161,5 @@ exemplo sobre interação com eventos.
 >   divirta-se;\)
 
 Finalmente, anexamos o
-[link](https://developer.mozilla.org/es/docs/Web/Reference/Events) da
+[link](https://developer.mozilla.org/pt-BR/docs/Web/Events) da
 documentação oficial explicando tudo sobre os eventos:

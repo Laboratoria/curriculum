@@ -52,8 +52,8 @@ você acha de vermos o vídeo a seguir, no qual um exercício é mostrado fazend
 uso deles.
 
 [![Atributos de
-dados](https://img.youtube.com/vi/fnn6mqN1S8Q/0.jpg)](https://www.youtube.com/watch?v=fnn6mqN1S8Q)
+dados](https://img.youtube.com/vi/5EDRCWRIsnw/0.jpg)](https://www.youtube.com/watch?v=5EDRCWRIsnw)
 
 Para ler mais sobre os atributos de dados, verifique este
-[link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
-e este outro [link](https://www.w3schools.com/tags/att_global_data.asp).
+[link](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Using_data_attributes)
+e este outro [link](http://www.maujor.com/blog/2012/10/11/uso-do-atributo-data-em-javascript-e-css/).

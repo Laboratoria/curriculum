@@ -26,7 +26,8 @@ Nesta unidade aprenderemos:
 
 ***
 
-[Aqui, outra leitura sobre o DOM](http://eloquentjavascript.net/13_dom.html)
+[Aqui, outra leitura sobre o
+DOM](http://braziljs.github.io/eloquente-javascript/chapters/o-document-object-model/)
 
 ## Modificando elementos e conteúdo do DOM
 
@@ -259,24 +260,6 @@ container.removeChild(paragraph);
 var paragraph = document.getElementById('paragraph');
 paragraph.parentElement.removeChild(paragraph);
 ```
-
-## AGORA, PRATIQUEMOS UM POUCO
-
-Nos vídeos a seguir vamos colocar em prática a parte teórica já que eles usam os
-métodos como criar, adicionar e eliminar os nós do DOM por meio do Javascript e
-assim poder criar páginas dinâmicas. sugerimos que você faça o exercício junto
-com o vídeo e se necessário, você pode ir pausando.
-
-- Este vídeo dura 8:18, no minuto 2:25 começa a usar os métodos
-  `.createElement()` e `.createTextNode()`.
-
-  [Criando nós
-  DOM](https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
-
-- Este outro vídeo adiciona os nós criados ao DOM.
-
-  [Agregação de nós ao
-  DOM](https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
 
 ## Modificando atributos
 
@@ -514,15 +497,3 @@ clearTimeout(id);
 
 Você pode combinar por meio de várias funções `setTimeout()` e `setInterval()`
 animações que são executadas uma ou mais vezes e para controlar a sua ação.
-
-## Referências
-
-- [http://blog.eamexicano.com/dom/manipular-nodos/](http://blog.eamexicano.com/dom/manipular-nodos/)
-- [http://www.codexexempla.org/curso/curso\_4\_3\_c.php](http://www.codexexempla.org/curso/curso_4_3_c.php)
-- [http://www.codexexempla.org/curso/curso\_4\_3\_c.php](http://www.codexexempla.org/curso/curso_4_3_c.php)
-- [http://blog.eamexicano.com/dom/modificar-estilo-contenido/](http://blog.eamexicano.com/dom/modificar-estilo-contenido/)
-- [http://www.codexexempla.org/curso/curso\_4\_3\_d.php](http://www.codexexempla.org/curso/curso_4_3_d.php)
-- [https://www.w3schools.com/js/js\_htmldom\_animate.asp](https://www.w3schools.com/js/js_htmldom_animate.asp)
-- [https://developer.mozilla.org/es/docs/Referencia\_DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducción#Importancia_de_los_tipos_de_datos#Interfaces_esenciales_en_el_DOM)
-- [https://www.w3schools.com/jsref/met\_win\_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp)
-- [https://www.w3schools.com/jsref/met\_win\_settimeout.asp](https://www.w3schools.com/jsref/met_win_settimeout.asp)

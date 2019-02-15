@@ -6,7 +6,7 @@
 
 ***
 
-## Objetivos de A∑prendizagem
+## Objetivos de Aprendizagem
 
 Nesta unidade aprenderemos:
 

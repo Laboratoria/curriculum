@@ -152,16 +152,6 @@ Algo assim:
 ![Menu drop
 down](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
 
-#### 6. Mini zoológico
-
-Esta página permite escolher efeitos como **sépia** , **preto e branco** e
-**inverter as cores** que queremos que as nossas imagens apresentem. Você terá
-que replicá-lo usando DOM e CSS.
-
-Vamos ver como a página deve ficar...
-
-![Mini Zoo](https://fotos.subefotos.com/33a270779462a9ffe98ae8c2b528087co.gif)
-
 ### Soluções
 
 A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um
@@ -191,10 +181,3 @@ solu&#xE7;&#xE3;o](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.yo
 
 [![Menu dropdown da
 solu&#xE7;&#xE3;o](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
-
-#### 6. Mini zoológico
-
-<https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0>
-
-[Google-docs
-presentation](https://docs.google.com/presentation/d/1LM2RPWTuo2SmrWT6nId2UrLyK5IXGeBQ_dMG_VN_FFw/edit#slide=id.g1554294399_1_0)

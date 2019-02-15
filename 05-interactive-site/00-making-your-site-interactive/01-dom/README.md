@@ -30,9 +30,8 @@ Nesta unidade aprenderemos:
 ## O que é o DOM?
 
 Nesta
-[leitura](http://librosweb.es/libro/javascript/capitulo_5/arbol_de_nodos.html) ,
-podemos ver o que é o DOM. Esta informação é um extrato da LibrosWeb, pioneira
-na criação de conteúdo educacional para desenvolvimento web.
+[leitura](https://tableless.com.br/entendendo-o-dom-document-object-model/) ,
+podemos ver o que é o DOM.
 
 ## Navegando no DOM (DOM Tree)
 
@@ -57,7 +56,7 @@ nós têm relacionamentos familiares. Assim como você tem irmãos, pai ou filho
 
 ### Relação pais e filhos
 
-#### Analisemos esta imagem
+#### Vamos analisar está imagem
 
 ![Árvore DOM](https://www.w3schools.com/js/pic_htmltree.gif)
 
@@ -252,12 +251,6 @@ Os nós DOM possuem propriedades básicas, que são:
 - **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada
   apenas para nós do tipo 3 e nós do tipo comentário `8`.
 
-## Selecionando Elementos DOM
-
-Nesta
-[leitura](http://librosweb.es/libro/javascript/capitulo_5/acceso_directo_a_los_nodos.html),
-vemos como selecionar nós e o que é um nó no DOM.
-
 ## Recapitulando
 
 Finalmente, veja os seguintes vídeos do Rafa e do Daniel, onde eles mencionam os
@@ -274,11 +267,3 @@ DOM](https://img.youtube.com/vi/p6bFYISoD3s/hqdefault.jpg)](https://www.youtube.
 
 [![Manipulando o HTML (parte
 3)](https://i.ytimg.com/vi/7MKCrho0nho/hqdefault.jpg)](https://www.youtube.com/watch?v=7MKCrho0nho)
-
-Também temos o [link (português de Portugal -
-pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#O_que_.C3.A9_o_DOM.3F)
-para a documentação oficial do Mozilla sobre o que é o DOM.
-
-Outro [link
-(pt-PT)](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction#Como_eu_acesso_o_DOM.3F)
-de como acessar elementos do DOM com JS da documentação oficial.
