@@ -418,7 +418,7 @@ uma diferença muito importante:
 
 * `display: none` remove o elemento definitivamente do espaço ocupado e é
   substituído pelos elementos adjacentes, como se o elemento não existisse mais.
-  
+
   ![none](https://i.imgur.com/boe3A16.png)
 
 * `visibility: hidden` oculta o elemento, mas ainda mantém o espaço ocupado,

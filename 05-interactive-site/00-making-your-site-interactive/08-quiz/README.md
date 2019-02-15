@@ -6,7 +6,9 @@
 
 ## Objetivos
 
-* Nesta sessão, terá a oportunidade de se autoavaliar, colocando seus conhecimentos à prova. É uma oportunidade para ajustar seu ritmo e certificar-se de que realmente esteja aprendendo. Sucesso!
+- Nesta sessão, terá a oportunidade de se autoavaliar, colocando seus
+  conhecimentos à prova. É uma oportunidade para ajustar seu ritmo e
+  certificar-se de que realmente esteja aprendendo. Sucesso!
 
 ***
 
@@ -112,34 +114,45 @@
 
 #### Opções
 
-1. ```html
-    <ul>
-      <li data-lista="frutas">Maça</li>
-      <li data-lista="frutas">Peras</li>
-      <li data-lista="frutas">Morangos</li>
-    </ul>
-   ```
-2. ```html
-    <ul>
-      <li data="frutas">Maça</li>
-      <li data="frutas">Peras</li>
-      <li data="frutas">Morangos</li>
-    </ul>
-   ```
-3. ```html
+- Opção 1
+
+```html
+   <ul>
+   <li data-lista="frutas">Maça</li>
+   <li data-lista="frutas">Peras</li>
+   <li data-lista="frutas">Morangos</li>
+   </ul>
+```
+
+- Opção 2
+
+```html
+   <ul>
+   <li data="frutas">Maça</li>
+   <li data="frutas">Peras</li>
+   <li data="frutas">Morangos</li>
+   </ul>
+```
+
+- Opção 3
+
+```html
     <ul>
       <li data-lista-frutas>Maçã</li>
       <li data-lista-frutas>Peras</li>
       <li data-lista-frutas>Morangos</li>
     </ul>
    ```
-4. ```html
-    <ul>
-      <li data-lista(frutas)>Maçã</li>
-      <li data-lista(frutas)>Peras</li>
-      <li data-lista(frutas)>Morangos</li>
-    </ul>
-   ```
+
+- Opção 4
+
+```html
+   <ul>
+   <li data-lista(frutas)>Maçã</li>
+   <li data-lista(frutas)>Peras</li>
+   <li data-lista(frutas)>Morangos</li>
+   </ul>
+```
 
 <solution style="display:none;">1</solution>
 
@@ -153,22 +166,33 @@
 
 #### Opções
 
-1. ```javascript
-    var text = document.getElementById("text");
-    var autor = autor.dataset;
-   ```
-2. ```javascript
-    var text = document.getElementById("text");
-    var autor = dataset.text.autor;
-   ```
-3. ```javascript
-    var text = document.getElementById("text");
-    var autor = text.dataset.autor;
-   ```
-4. ```javascript
-    var text = document.getElementById("text");
-    var text.dataset = autor;
-   ```
+- Opção 1
+
+```javascript
+   var text = document.getElementById("text");
+   var autor = autor.dataset;
+```
+
+- Opção 2
+
+```javascript
+   var text = document.getElementById("text");
+   var autor = dataset.text.autor;
+```
+
+- Opção 3
+
+```javascript
+   var text = document.getElementById("text");
+   var autor = text.dataset.autor;
+```
+
+- Opção 4
+
+```javascript
+   var text = document.getElementById("text");
+   var text.dataset = autor;
+```
 
 <solution style="display:none;">3</solution>
 
@@ -199,8 +223,9 @@
 #### Opções
 
 1. Ações que o navegador realiza quando algo não está certo.
-2. Ações que são disparadas a partir da interação do usuário com um elemento da página web.
-3.  Datas importantes para o navegador.
+2. Ações que são disparadas a partir da interação do usuário com um elemento da
+   página web.
+3. Datas importantes para o navegador.
 
 <solution style="display:none;">2</solution>
 
@@ -208,22 +233,33 @@
 
 #### Opções
 
-1. ```javascript
+- Opção 1
+
+```javascript
    var botao = document.getElementById('boton');
    botao.createEventListener(click, funcao_a_executar);
-   ```
-2. ```javascript
+```
+
+- Opção 2
+
+```javascript
    var botao = document.getElementById('boton');
    botao.addEventListener = 'click' + 'funcao_a_executar';
-   ```
-3. ```javascript
+```
+
+- Opção 3
+
+```javascript
    var botao = document.getElementById('boton');
    botao.addEventListener('click', funcao_a_executar);
-   ```
-4. ```javascript
+```
+
+- Opção 4
+
+```javascript
    var botao = document.getElementById('boton');
    botao= document.addEventListener('click', funcao_a_executar);
-   ```
+```
 
 <solution style="display:none;">3</solution>
 
@@ -237,4 +273,3 @@
 4. Para evitar que se invoque o evento.
 
 <solution style="display:none;">1</solution>
-

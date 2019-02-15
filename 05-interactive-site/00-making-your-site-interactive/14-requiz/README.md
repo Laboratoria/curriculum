@@ -46,24 +46,32 @@
 
 #### Opções
 
-1. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.background='red';
-   ```
-2. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.style.backgroundColor='red';
-   ```
-3. ```javascript
-      var paragraph = document.getElementById('paragraph');
-      paragraph.backgroundColor='red';
-   ```
+* Opção 1
 
-<solution style="display:none;">2</solution>
+```javascript
+   var paragraph = document.getElementById('paragraph');
+   paragraph.style.background='red';
+```
+
+* Opção 2
+
+```javascript
+   var paragraph = document.getElementById('paragraph');
+   paragraph.style.backgroundColor='red';
+```
+
+* Opção 3
+
+```javascript
+   var paragraph = document.getElementById('paragraph');
+   paragraph.backgroundColor='red';
+```
+
+   <solution style="display:none;">2</solution>
 
 ### 4) `document.getElementsByClassName('unaClase')`, retorna um
 
-```javascript
+   ```javascript
 var elementos = document.getElementsByClassName('unaClase');
 console.log(elementos);
 ```
@@ -80,7 +88,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 5) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
+### 5) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo
 
 #### Opções
 
@@ -208,4 +216,3 @@ console.log(elementos);
 4. Navigator
 
 <solution style="display:none;">1,2,4</solution>
-
