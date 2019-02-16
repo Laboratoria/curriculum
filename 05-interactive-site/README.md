@@ -62,38 +62,7 @@ web:
 
 ## Syllabus
 
-### Unidade 01: [Layout da Web com HTML & CSS](00-html-and-css)
-
-60-70h
-
-Para criar um produto da Web interativo, precisamos primeiro aprender como
-projetar. Nesta unidade vamos ver como criar a estrutura de um site com `html` e
-como dar estilos com `css`. Com isso, você aprenderá a criar páginas da Web
-estáticas, sem interação com o usuário. Mais tarde daremos interação com `js`.
-
-| # | Tipo | Duração | Tópico |
-| --- | --- | --- | --- |
-| 00 | Leitura | 15min | Abertura: HTML & CSS |
-| 01 | Leitura | 4h | HTML |
-| 02 | Leitura | 4h | Intro a CSS |
-| 03 | Leitura | 1h | Box Model & Display |
-| 04 | Seminário | 2h | Aula de Conceitos |
-| 05 | Oficina | 2h | Aula Prática |
-| 06 | Leitura | 2h | Positioning & Floats |
-| 07 | Leitura | 1h | Fontes e ícones |
-| 08 | Seminário | 2h | Aula de Conceitos |
-| 09 | Oficina | 4h | Aula Prática |
-| 10 | Leitura | 2h | Caso prático \(vídeo\) |
-| 11 | Quiz | 30min | Quiz \#1 |
-| 12 | Seminário | 4h | Aula de Conceitos |
-| 13 | Oficina | 8h | Aula Prática |
-| 14 | Produto | 24h | Desafios de Código |
-| 15 | Seminário | 6h | Soluções Desafios de Código |
-| 16 | Quiz | 30min | Quiz \#2: requizzing |
-| 17 | Questionário | 15min | Auto-avaliação |
-| 18 | Seminário | 2h | Encerramento: HTML & CSS |
-
-### Unidade 02: [Criando Interação com JavaScript](01-making-your-site-interactive)
+### Unidade 01: [Criando Interação com JavaScript](00-making-your-site-interactive)
 
 30-35h
 

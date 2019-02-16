@@ -76,48 +76,7 @@ Se não, você deve exibir a mensagem "O próximo vôo sai em 3 horas".
 
 ![Reserva de assentos](https://image.ibb.co/d2Hpmv/avion_7.jpg)
 
-### 2. Campo Minado
-
-O jogo campo minado funciona da seguinte maneira:
-
-Uma tabela é mostrada onde são encontradas células vazias, com número ou com
-minas. No caso de pressionar uma mina, o jogo termina, se você pressionar
-lugares sem minas \(vazio ou número\), o jogo continua.
-
-![Campo
-minado](https://lh4.googleusercontent.com/c4jnMEV2CirXxh8CRzP1y6_VSqfPOLNQnTGyv2uKyPzEMfa42ztBClyMCigW7K3dJqNWacIJDjaj-kfVDFWtQbHySxNhSSRBPVnf2Q2SbHK3MUkWD0WMpsVyXeUAfrI11ya9heW5lng)
-
-#### Perguntas guia
-
-- Como você pode estruturar o campo no navegador? \(dica: HTML\)
-- Como você pode diferenciar uma bomba de um número ou de uma célula vazia no
-  HTML?
-- Qual evento você precisa para capturar o clique do usuário?
-- Quando o usuário clica na "célula", o que precisa acontecer?
-- Como podemos fazer elementos aparecerem e desaparecerem em HTML?
-- Como fazemos para que os cliques do usuário não possam mais ser inseridos?
-  \(dica: removeEventListener\)
-
-#### Requisitos
-
-- Exibir uma tabela 4 x 4 \(com bombas, células vazias e números em posição
-  fixa\)
-- Ao clicar em uma célula vazia, mude a cor da célula.
-- Ao clicar em uma célula com uma bomba, termine o jogo \(não se pode clicar em
-  mais células\) e mostre a mensagem: "Explodiu!"
-- Quando você clica em uma célula com um número, mostre o número que você tem.
-- Crie um botão Reset que inicie o jogo novamente.
-
-#### Pontos extras
-
-- Quando você clicar fora da tabela, mostre a mensagem: "Continue jogando".
-  \(inner html ou alert\).
-- Pergunte o tamanho do campo para o jogo.
-- Peça o nível de dificuldade desejado \(fácil ou difícil e significa o número
-  de bombas no jogo\)
-- Preencha automaticamente tudo \(bombas, células vazias e números\)
-
-#### 3. Crie um menu de hambúrguer
+#### 2. Crie um menu de hambúrguer
 
 Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão
 \(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as
@@ -130,7 +89,7 @@ Algo assim:
 Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais",
 apenas foque na funcionalidade\)
 
-#### 4. Crie abas
+#### 3. Crie abas
 
 As abas são usadas para agrupar conteúdo semelhante usando apenas um espaço.
 
@@ -142,19 +101,9 @@ tabs](https://diypm8fk7dlz0.cloudfront.net/support/wp-content/uploads/2014/06/si
 Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais",
 apenas foque na funcionalidade\)
 
-#### 5. Crie um menu suspenso
-
-O menu suspenso nos ajuda a economizar espaço em um menu, pois agrupa elementos
-semelhantes.
-
-Algo assim:
-
-![Menu drop
-down](https://cdn.codemyui.com/wp-content/uploads/2016/06/jQuery-Dropdown-Navigation-Menu.gif)
-
 ### Soluções
 
-A seguir, Silvana, Meme, Amalia, Karla e Inti explicam como resolveram cada um
+A seguir, Amalia, Karla e Inti explicam como resolveram cada um
 dos exercícios anteriores.
 
 #### 1. Companhia Aérea
@@ -162,22 +111,12 @@ dos exercícios anteriores.
 [![Solu&#xE7;&#xE3;o da companhia
 a&#xE9;rea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
-#### 2. Campo Minado
-
-[![Solu&#xE7;&#xE3;o de
-ca&#xE7;a-minas](https://img.youtube.com/vi/ZtnY3ojz91k/0.jpg)](https://www.youtube.com/watch?v=ZtnY3ojz91k)
-
-#### 3. Menu Hamburger
+#### 2. Menu Hamburger
 
 [![Menu de Solu&#xE7;&#xE3;o
 Hamburger](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
 
-#### 4. Abas
+#### 3. Abas
 
 [![Guias do menu de
 solu&#xE7;&#xE3;o](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
-
-#### 5. Menu dropdown
-
-[![Menu dropdown da
-solu&#xE7;&#xE3;o](https://img.youtube.com/vi/yV7L6r6D464/0.jpg)](https://www.youtube.com/watch?v=yV7L6r6D464)
