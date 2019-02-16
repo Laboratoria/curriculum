@@ -62,7 +62,7 @@ web:
 
 ## Syllabus
 
-### Unidade 01: [Criando Interação com JavaScript](00-making-your-site-interactive)
+### Unidade 01: [Criando Interação com JavaScript](01-making-your-site-interactive)
 
 30-35h
 
@@ -86,49 +86,6 @@ estáticos interativos usando `JavaScript`.
 | 12 | Quiz | 30min | Quiz \#2: _requizzing_ |
 | 13 | Questionário | 5min | Auto avaliação |
 | 14 | Seminário | 2h | Encerramento: Fazendo seu site web interativo |
-
-### Unidade 03: [Introdução a User Experience Design](02-ux-design)
-
-15-20h
-
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
-criar seu produto final, é importante que você conheça as técnicas de design da
-experiência do usuário para que seu produto seja algo que as pessoas desejem
-usar.
-
-| # | Tipo | Duração | Tópico |
-| --- | --- | --- | --- |
-| 00 | Leitura | 30min | Abertura |
-| 01 | Leitura | 15min | A equipe de desenvolvimento |
-| 02 | Leitura | 15min | UX Design |
-| 03 | Leitura | 30min | UX vs UI |
-| 04 | Leitura | 30min | Navegação |
-| 05 | Oficina | 15min | Sketching |
-| 06 | Quiz | 30min | Quiz #1 |
-| 07 | Seminário | 2h | Aula de Conceitos |
-| 08 | Oficina | 2h | Aula Prática |
-| 09 | Prática | 8h | Desafios |
-| 10 | Seminário | 2h | Soluções de Desafios UX |
-| 11 | Quiz | 30min | Quiz #2 |
-| 12 | Questionário | 5min | Auto avaliação |
-| 13 | Seminário | 2h | Encerramento |
-
-### Unidade 04: [Data Dashboard](03-data-dashboard)
-
-20h
-
-O desafio final deste curso é criar uma página web interativa, de média
-complexidade, que mostre os dados e o perfil de uma estudante da Laboratoria.
-Você deve fazer o UX da sua página, o layout e programar sua interação com o
-JavaScript. Vamos com tudo!
-
-| # | Tipo | Duração | Tópico |
-| --- | --- | --- | --- |
-| 00 | Prática | 14h | Data Dashboard |
-| 01 | Oficina | 2h | Code Review \(Peer + Teacher\) |
-| 02 | Seminário | 2h | Resoluções |
-| 03 | Questionário | 2h | Pesquisas para fechamento de sprint |
-| 04 | Oficina | 1h | Revisão |
 
 ## Avaliação técnica
 
