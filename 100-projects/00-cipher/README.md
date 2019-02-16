@@ -102,16 +102,15 @@ A interface deve permitir ao usuário:
 * `src/cipher.js`: aqui você deve implementar o objeto cipher, o qual deve
   estar _exportado_ no objeto global (`window`). Este objeto (`cipher`) deve
   conter dois métodos:
-    - `cipher.encode(offset, string)`: `offset` é o número de posições que
+  - `cipher.encode(offset, string)`: `offset` é o número de posições que
     queremos mover para a direita no alfabeto e `string` a mensagem (texto)
     que quemos cifrar.
-    - `cipher.decode(offset, string)`: `offset` é o número de posições que
+  - `cipher.decode(offset, string)`: `offset` é o número de posições que
     queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
     que queremos decifrar.
 * `src/tests.js`: este arquivo deve conter os testes que você irá implementar
 
 ## Hacker edition
-
 
 ### Parte Opcional: "Hacker edition"
 
@@ -152,10 +151,12 @@ para ver a descrição detalhada de cada _habilidade_ e cada _nível_.
   provavelmente o `git` também). Se você usa Windows você pode usar o
   [Git bash](https://git-scm.com/download/win), embora seja recomendado que
   você teste :penguin: GNU/Linux.
-3. Faça seu próprio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-  do repositório. Seus _mentores_ compartilharão com você um _link_ para um repositório privado e te darão acesso a este repositório.
+3. Faça seu próprio :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus
+   _mentores_ compartilharão com você um _link_ para um repositório privado e te
+   darão acesso a este repositório.
 4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-  o _fork_ para seu computador (cópia local).
+   o _fork_ para seu computador (cópia local).
 5. Let's Code ! :rocket:
 
 ***
@@ -174,7 +175,6 @@ vídeo anterior:
 * [Aprenda mais sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 * [Aprenda mais sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprenda mais sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-
 
 Estas são algumas dicas que podem te ajudar na organização e relização do seu
 projeto, tendo em conta o desenvolvimento de suas _habilidades socioemocionais_:

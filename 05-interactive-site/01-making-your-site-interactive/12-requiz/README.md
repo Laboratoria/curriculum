@@ -71,9 +71,9 @@
 
 ### 4) `document.getElementsByClassName('unaClase')`, retorna um
 
-   ```javascript
-var elementos = document.getElementsByClassName('unaClase');
-console.log(elementos);
+```javascript
+   var elementos = document.getElementsByClassName('unaClase');
+   console.log(elementos);
 ```
 
 #### Opções

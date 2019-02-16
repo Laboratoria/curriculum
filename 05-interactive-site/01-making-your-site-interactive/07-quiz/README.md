@@ -147,11 +147,13 @@
 - Opção 4
 
 ```html
+
    <ul>
-   <li data-lista(frutas)>Maçã</li>
-   <li data-lista(frutas)>Peras</li>
-   <li data-lista(frutas)>Morangos</li>
+      <li data-lista(frutas)>Maçã</li>
+      <li data-lista(frutas)>Peras</li>
+      <li data-lista(frutas)>Morangos</li>
    </ul>
+
 ```
 
 <solution style="display:none;">1</solution>
@@ -159,9 +161,11 @@
 ### 10)   Vendo o código a seguir, como podemos acessar nossos atributos _data_ por meio de js?
 
 ```html
+
 <p id="text" data-autor="Gustavo Monet">
   Aque está nosso texto
 </p>
+
 ```
 
 #### Opções
@@ -169,29 +173,37 @@
 - Opção 1
 
 ```javascript
+
    var text = document.getElementById("text");
    var autor = autor.dataset;
+
 ```
 
 - Opção 2
 
 ```javascript
+
    var text = document.getElementById("text");
    var autor = dataset.text.autor;
+
 ```
 
 - Opção 3
 
 ```javascript
+
    var text = document.getElementById("text");
    var autor = text.dataset.autor;
+
 ```
 
 - Opção 4
 
 ```javascript
+
    var text = document.getElementById("text");
    var text.dataset = autor;
+
 ```
 
 <solution style="display:none;">3</solution>
@@ -236,29 +248,37 @@
 - Opção 1
 
 ```javascript
+
    var botao = document.getElementById('boton');
    botao.createEventListener(click, funcao_a_executar);
+
 ```
 
 - Opção 2
 
 ```javascript
+
    var botao = document.getElementById('boton');
    botao.addEventListener = 'click' + 'funcao_a_executar';
+
 ```
 
 - Opção 3
 
 ```javascript
+
    var botao = document.getElementById('boton');
    botao.addEventListener('click', funcao_a_executar);
+
 ```
 
 - Opção 4
 
 ```javascript
+
    var botao = document.getElementById('boton');
    botao= document.addEventListener('click', funcao_a_executar);
+
 ```
 
 <solution style="display:none;">3</solution>
