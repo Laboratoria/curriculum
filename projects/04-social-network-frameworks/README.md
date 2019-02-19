@@ -87,9 +87,9 @@ evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
+| Característica
+|----------------
+| Completitud
 
 ### Habilidades Blandas
 
@@ -107,44 +107,44 @@ la [guia general para organizar, dividir y planificar tu ttrabajo](https://docs.
 
 Te aconsejamos revisar la rúbrica:
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
+| Habilidad
+|------------------------------
+| **Autogestión**
+| Planificación y organización
+| Autoaprendizaje
+| Presentaciones
+| Adaptabilidad
+| Solución de problemas
+| **Relaciones interpersonales**
+| Trabajo en equipo
+| Responsabilidad
+| Dar y recibir feedback
+| Comunicación eficaz
 
 ### Tech
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **CS**                                  |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| Patrones/Paradigmas    | 2              |
-| **SCM**                                 |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 4              |
-| **CSS**                                 |
-| DRY                    | 4              |
-| Responsive             | 4              |
+| Habilidad
+|------------------------
+| **CS**
+| Lógica
+| Arquitectura
+| Patrones/Paradigmas
+| **SCM**
+| Git
+| GitHub
+| **JavaScript**
+| Estilo
+| Nomenclatura/semántica
+| Funciones/modularidad
+| Estructuras de datos
+| Tests
+| **HTML**
+| Validación
+| Estilo
+| Semántica
+| **CSS**
+| DRY
+| Responsive
 
 ***
 

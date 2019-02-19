@@ -233,44 +233,44 @@ evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
+| Característica
+|----------------
+| Completitud
 
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 4 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
+| Habilidad
+|------------------------------
+| **Autogestión**
+| Planificación y organización
+| Autoaprendizaje
+| Presentaciones
+| Adaptabilidad
+| Solución de problemas
+| **Relaciones interpersonales**
+| Responsabilidad
+| Dar y recibir feedback
+| Comunicación eficaz
 
 ### Tech
 
-| Habilidad              | Nivel esperado |
-| ---------------------- | -------------- |
-| **CS**                 |                |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| **SCM**                |                |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**         |                |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
+| Habilidad
+| ---------------------- 
+| **CS**
+| Lógica
+| Arquitectura
+| **SCM**
+| Git
+| GitHub
+| **JavaScript**
+| Estilo
+| Nomenclatura/semántica
+| Funciones/modularidad
+| Estructuras de datos
+| Tests
 
 ## Pistas / Tips
 

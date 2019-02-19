@@ -280,59 +280,59 @@ evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
+| Característica 
+|----------------
+| Completitud
 
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 3              |
-| Autoaprendizaje              | 3              |
-| Presentaciones               | 3              |
-| Adaptabilidad                | 3              |
-| Solución de problemas        | 3              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 3              |
-| Responsabilidad              | 3              |
-| Dar y recibir feedback       | 3              |
-| Comunicación eficaz          | 3              |
+| Habilidad                    
+|------------------------------
+| **Autogestión**
+| Planificación y organización
+| Autoaprendizaje
+| Presentaciones
+| Adaptabilidad
+| Solución de problemas
+| **Relaciones interpersonales**
+| Trabajo en equipo
+| Responsabilidad
+| Dar y recibir feedback
+| Comunicación eficaz
 
 ### Tech
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **CS**                                  |
-| Lógica                 | 2              |
-| Arquitectura           | 2              |
-| **SCM**                                 |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 2              |
-| Estructuras de datos   | 2              |
-| Tests                  | 2              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 3              |
-| **CSS**                                 |
-| DRY                    | 3              |
-| Responsive             | 3              |
+| Habilidad              
+|------------------------
+| **CS**
+| Lógica
+| Arquitectura
+| **SCM**
+| Git
+| GitHub
+| **JavaScript**
+| Estilo
+| Nomenclatura/semántica
+| Funciones/modularidad
+| Estructuras de datos
+| Tests
+| **HTML**
+| Validación
+| Estilo
+| Semántica
+| **CSS**
+| DRY
+| Responsive
 
 ### UX
 
-| Habilidad       | Nivel esperado |
-|-----------------|----------------|
-| User Centricity | 3              |
-| Visual Design   | 2              |
+| Habilidad
+|-----------------
+| User Centricity
+| Visual Design
 
 ***
 
