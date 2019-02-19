@@ -2,10 +2,10 @@
 
 ## Antecedentes
 
-Una egresada de Laboratoria que trabaja de manera remota para una empresa en 
+Una egresada de Laboratoria que trabaja de manera remota para una empresa en
 Estados Unidos te ha recomendado para postular a una vacante de Front-End
 Developer que se acaba de abrir. Es un proceso competitivo, pero tu compañera se
-ha ofrecido a ayudarte. 
+ha ofrecido a ayudarte.
 
 Tu compañera te asegura que, con la experiencia que tienes del bootcamp y su
 coaching para esta postulación, tienes alta posibilidad de entrar. ¡Uff, qué
@@ -25,15 +25,15 @@ Antes de empezar, tu compañera te deja muy claro lo siguiente:
 ## Objetivos de aprendizaje
 
 El objetivo principal de este reto es que conozcas un proceso de reclutamiento
-para una posición de Front-End development y que estés más preparada para 
-enfrentar los meses de colocación laboral. **El 100% de las preguntas, retos, 
+para una posición de Front-End development y que estés más preparada para
+enfrentar los meses de colocación laboral. **El 100% de las preguntas, retos,
 desafíos, etc. que se plantean en este proyecto son casos reales de empresas que
 han contratado y/o entrevistado a egresadas de Laboratoria**. Esta “simulación”
-es muy cercana a lo que pasará pronto en tu vida, así que sácale el máximo 
+es muy cercana a lo que pasará pronto en tu vida, así que sácale el máximo
 provecho;).
 
 Ten en cuenta que en estos procesos no existe ninguna receta mágica ni tampoco
-la suerte, pero la práctica y el esfuerzo te podrán ayudar mucho en el proceso 
+la suerte, pero la práctica y el esfuerzo te podrán ayudar mucho en el proceso
 que enfrentarás al salir del bootcamp..
 
 ## Consideraciones Generales
@@ -42,18 +42,17 @@ que enfrentarás al salir del bootcamp..
 * A menos que la descripción de alguna parte lo diga explícitamente, no está
   permitido el uso de librerías o frameworks.
 * Debes seguir la [guía de estilos de Airbnb](https://github.com/airbnb/javascript).
-* No todos los pasos de este proyecto son necesariamente secuenciales. 
-Tu training manager y/o la encargada de desarrollo personal será quien 
-te irá guiando en el orden de ellos.
-* Este proyecto funciona como cualquier otro, tendrás que desarrollarlo con 
-éxito. Para completarlo, tendrás que haber terminado cada uno de los pasos aquí 
-descritos. Igual esperamos que sea un proyecto muy entretenido, así que ni te darás
-cuenta cuando ya estés en la última etapa ;).
+* No todos los pasos de este proyecto son necesariamente secuenciales. Tu
+  training manager y/o la encargada de desarrollo personal será quien te irá
+  guiando en el orden de ellos.
+* Este proyecto funciona como cualquier otro, tendrás que desarrollarlo con
+  éxito. Para completarlo, tendrás que haber terminado cada uno de los pasos
+  aquí descritos. Igual esperamos que sea un proyecto muy entretenido, así que
+  ni te darás cuenta cuando ya estés en la última etapa ;).
 
 Recuerda siempre la importancia de la iteración. Si ya "pasaste" por una etapa
-siempre puedes volver, revisar, actualizar, mejorar, iterar, etc. Pide feedback, 
-y se activa durante toda esta preparación. 
-
+siempre puedes volver, revisar, actualizar, mejorar, iterar, etc. Pide feedback,
+y se activa durante toda esta preparación.
 
 ## Parte I: Envío de Currículum Vitae (CV)
 
@@ -68,13 +67,14 @@ LinkedIn, GitHub y tu portafolio - a los cuales se accede a través de tu CV.
 
 Una vez que completes tu CV (con los links a tu portafolio, LinkedIn y GitHub
 actualizados), tendrás que:
+
 * Pedirle a una compañera que te entregue feedback de tu CV.
 * Revisar el [check list](https://docs.google.com/spreadsheets/d/1MyOE5v1TxOMovsTiMQ21QzRPxCRXIKpaOOLS99y3MKQ/edit#gid=1386834576)
-antes de entregarlo.
-* Una vez que sientas que está listo, envíalo a la coordinadora de desarrollo 
-personal(psicóloga) de tu sede via e-mail incluyendo un breve párrafo indicando
- tu interés por el puesto. Ella revisará los documentos y te dirá si estás 
- preparada para avanzar a la parte II.
+  antes de entregarlo.
+* Una vez que sientas que está listo, envíalo a la coordinadora de desarrollo
+  personal(psicóloga) de tu sede via e-mail incluyendo un breve párrafo
+  indicando tu interés por el puesto. Ella revisará los documentos y te dirá si
+  estás preparada para avanzar a la parte II.
 
 En esta parte, específicamente se evaluará:
 
@@ -96,8 +96,8 @@ Para prepararte, te recomendamos revisar los siguientes recursos:
 * Un repositorio colaborativo en [GitHub](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
   sobre preguntas frecuentes en procesos de reclutamiento para Front-End
   developers.
-* También tendrás la posibilidad de inscribirte en Office Hours de entrevistas 
-grupales que te ayudarán en tu preparación.
+* También tendrás la posibilidad de inscribirte en Office Hours de entrevistas
+  grupales que te ayudarán en tu preparación.
 
 Al final de la entrevista, la coordinadora de desarrollo personal te dirá si
 estás preparada para avanzar a la parte III.
@@ -109,31 +109,31 @@ entrevista de 30-45 minutos con alguien de la industria (que llamamos
 “reclutadxr”).
 
 Lx reclutadxr se contactará contigo, ya sea a través del correo
-electrónico o vía telefónica. Aunque suene obvio, hemos tenido casos donde 
-egresadas no contestan el teléfono a números desconocidos o no revisan su 
-correo, perdiendo la oportunidad de tener una entrevista. Es importante que 
-estés atenta a la llamada del reclutadxr. Por otro lado, recuerda que no 
-todas las entrevistas son presenciales, por lo que puedes enfrentarte a 
-una entrevista online. En este caso, procura estar en un lugar tranquilo, 
+electrónico o vía telefónica. Aunque suene obvio, hemos tenido casos donde
+egresadas no contestan el teléfono a números desconocidos o no revisan su
+correo, perdiendo la oportunidad de tener una entrevista. Es importante que
+estés atenta a la llamada del reclutadxr. Por otro lado, recuerda que no
+todas las entrevistas son presenciales, por lo que puedes enfrentarte a
+una entrevista online. En este caso, procura estar en un lugar tranquilo,
 tener buena conexión a internet y una cámara disponible.
 
-Después de la entrevista, tu reclutadxr definirá y te informará si estás lista 
+Después de la entrevista, tu reclutadxr definirá y te informará si estás lista
 para seguir a la siguiente etapa. Cae en ti, recordarle al reclutadxr que envíe
-su feedback a la Training Manager y asi poder seguir a la siguiente etapa si 
+su feedback a la Training Manager y asi poder seguir a la siguiente etapa si
 corresponde.
 
 ## Parte IV: Entrevista técnica
 
 Este paso es una entrevista técnica de 1 hora donde unx developer de
-otra sede de Laboratoria simulará una entrevista técnica real contigo. 
-Te hará una serie de preguntas conceptuales y te pedirá codear “en vivo” 
-algunos retos cortos (usando jsbin, jsfiddle o cualquier otra plataforma) 
-para evaluar cómo enfrentas un problema y cómo llegas a la  solución. 
+otra sede de Laboratoria simulará una entrevista técnica real contigo.
+Te hará una serie de preguntas conceptuales y te pedirá codear “en vivo”
+algunos retos cortos (usando jsbin, jsfiddle o cualquier otra plataforma)
+para evaluar cómo enfrentas un problema y cómo llegas a la  solución.
 Tu entrevistadxr se contactará  contigo, ya sea a través del correo electrónico
-o vía telefónica; recuerda nuevamente estar atenta a tu correo o teléfono 
+o vía telefónica; recuerda nuevamente estar atenta a tu correo o teléfono
 para poder coordinar la fecha/hora de la entrevista.
 
-Asume que tu entrevistadxr no conoce nada de ti ni de Laboratoria y no des por 
+Asume que tu entrevistadxr no conoce nada de ti ni de Laboratoria y no des por
 hecho que conoce el proceso que has tenido dentro del bootcamp.
 
 Durante la entrevista, tu entrevistadxr te:
@@ -154,18 +154,17 @@ Durante la entrevista, tu entrevistadxr te:
   haciendo esto... ¿por qué has decidido hacerlo así?”, “Explícame qué hacen
   estas líneas de código”, etc.
 
-Al final de la entrevista, que debe durar máximo 1 hora, el entrevistadxr te 
-dirá si estás preparada para el siguiente paso del proceso de postulación, 
-o si deberás estudiar un poco más y repetir la entrevista. 
+Al final de la entrevista, que debe durar máximo 1 hora, el entrevistadxr te
+dirá si estás preparada para el siguiente paso del proceso de postulación,
+o si deberás estudiar un poco más y repetir la entrevista.
 
 ## Parte V: Desafíos para resolver y entregar
 
-Esta partes del proceso de postulación consiste en hacer algunos desafíos. 
-Los desafíos serán enviados a tu correo electrónico. El gran objetivo de esta 
-etapa es conocer algunos retos reales que las empresas hacen como 
-parte del proceso de selección. Asi que, que mejor que haber visto un par 
+Esta partes del proceso de postulación consiste en hacer algunos desafíos.
+Los desafíos serán enviados a tu correo electrónico. El gran objetivo de esta
+etapa es conocer algunos retos reales que las empresas hacen como
+parte del proceso de selección. Asi que, que mejor que haber visto un par
 antes?
-
 
 ## Recursos externos
 
