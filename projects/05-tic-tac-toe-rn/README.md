@@ -112,7 +112,7 @@ evaluaremos cuando lo  completes:
 ### Tech
 
 | Habilidad
-| ---------------------- 
+| ----------------------
 | **CS**
 | Lógica
 | Arquitectura

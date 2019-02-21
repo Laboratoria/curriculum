@@ -280,7 +280,7 @@ evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica 
+| Característica
 |----------------
 | Completitud
 
@@ -289,7 +289,7 @@ evaluaremos cuando lo  completes:
 Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-| Habilidad                    
+| Habilidad
 |------------------------------
 | **Autogestión**
 | Planificación y organización
@@ -305,7 +305,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 ### Tech
 
-| Habilidad              
+| Habilidad
 |------------------------
 | **CS**
 | Lógica

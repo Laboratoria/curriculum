@@ -228,9 +228,9 @@ evaluaremos cuando lo  completes:
 
 ### General
 
-| Característica 
+| Característica
 |----------------
-| Completitud    
+| Completitud
 
 ### Habilidades Blandas
 
@@ -252,7 +252,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 ### Tech
 
-| Habilidad              
+| Habilidad
 |------------------------
 | **CS**
 | Lógica

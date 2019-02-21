@@ -258,7 +258,7 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 ### Tech
 
 | Habilidad
-| ---------------------- 
+| ----------------------
 | **CS**
 | Lógica
 | Arquitectura
