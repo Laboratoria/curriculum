@@ -27,7 +27,8 @@ los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
 hacerlo es creando _interfaces_ y _visualizaciones_.
 
 En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario.
+izquierda se puede construir una interfaz amigable y entendible por el usuario
+al lado derecho.
 
 ![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
@@ -39,6 +40,12 @@ y la interfaz construida en este [link](https://app.talento.laboratoria.la/profi
 En este proyecto **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
+
+Como entregable final tendrás una página web que permita **visualizar la data,
+filtrarla, ordenarla y hacer algún calculo agregado**. Con cálculo agregado
+nos referimos a distintos cálculos que puedes hacer con la data para mostrar
+información aún más relevante para los usuarios (promedio, el valor máximo
+o mel ínimo, etc).
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
 explores y decidas con qué temática te interesa trabajar. Hemos elegido
@@ -69,17 +76,15 @@ Estos son datos que te proponemos:
   transporte, con data anual desde 1960 y categorizada por tipo de transporte
   (aire, barco, automóvil, moto, bicicleta, ...).
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
-con cálculo agregado nos referimos a distintos cálculos que puedes hacer con
-la data que tienes para mostrar información aún más relevante a los usuarios.
+<!---
+¡Too much information para comenzar (Diego)!
 Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
 por ejemplo, si tenemos una colección que representa a un grupo de personas,
 y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
-
+--->
 Cada set de datos tiene una identidad gráfica que deberás utilizar en la
-interfaz. La identidad gráfica; o también conocido como guía de estilos en
+interfaz. La identidad gráfica, también conocida como guía de estilos en
 diseño, de cada set la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
@@ -88,9 +93,7 @@ diseño, de cada set la podrás encontrar en el siguiente
 * Este proyecto se debe resolver en duplas.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 3 semanas. Trabaja durante el
-  primer Sprint (una semana) y al  final, decide en cuántas semanas lo
-  terminarás.
+* Tiempo para completarlo: Toma como referencia 3 semanas.
 
 ## Objetivos de aprendizaje
 
@@ -103,8 +106,8 @@ Dicho en palabras sencillas, aprenderás a:
 * Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
 * Pensar en las **necesidades de los usuarios** para crear historias de usuario.
 * Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) en la organización y planificación de tu
-  trabajo.
+  terminado (_definition of done_) y Criterios de Aceptación como herramienta
+  central de la organización y planificación de tu trabajo.
 * Definir qué data y de qué forma mostrarla en el producto, basándote en
   tu **entendimiento del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual** y
@@ -130,10 +133,16 @@ el problema (o problemas) que tiene tu usuario.
 
 ### Historias de usuario
 
-Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
+Una vez que entiendas las necesidades de tus usuarios, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
-de terminado (_definition of done_) para cada una.
+todo lo que el usuario necesita hacer/ver. Las **Historias de Usuario** deben
+ser el resultado de tu proceso de investigación o _research_ de tus usuarios.
+
+Asegúrate de incluir la definición de terminado (_definition of done_) y los
+Criterios de Aceptación para cada una.
+
+En la medida de lo posible, termina una historia de usuario antes de pasar
+a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 ### Diseño de la Interfaz de Usuario
 
@@ -141,7 +150,7 @@ de terminado (_definition of done_) para cada una.
 
 Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que realices, y las subas a tu repositorio, y las menciones en tu
+iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 `README.md`.
 
 #### Prototipo de alta fidelidad
@@ -170,8 +179,8 @@ mejoraste en tu propuesta final.
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-Como mencionamos, **no** es necesario que construyas la interfaz tal como la
-diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás
+Como mencionamos, **no** es necesario que construyas la interfaz exactamente
+como la diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás
 priorizar.
 
 Como mínimo, tu implementación debe:
@@ -181,46 +190,22 @@ Como mínimo, tu implementación debe:
 3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
    máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
    un determinado valor, por ejemplo.
-4. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
-   tablets y desktops.
+4. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
+tamaños de pantallas: móviles, tablets y desktops.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
 siga los fundamentos de _visual design_.
 
 ### Pruebas unitarias
 
-El _boilerplate_ de este proyecto no incluye pruebas unitarias, pero esperamos
-que escribas tu propias pruebas unitarias para las funciones encargadas de
-_procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
-Para ello te recomendamos implementar las siguientes funciones en el archivo
-`src/data.js`:
+El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (tests), así es
+que  tendrás que escribir tu propias pruebas unitarias para las funciones
+encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
+estadísticas.
 
-* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
-  data, y nos retornaría aquellos datos que sí cumplan con la condición.
-
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada.
-
-Estas son ideas de funciones que podrías implementar, pero esto depende de tu
-propia implementación.
-
-El archivo `src/data.js` tiene que tener una cobertura del 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_).
-
-Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
-e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
-filtrado, ordenado, ...).
+Tus Pruebas Unitarias deben dar una cobertura del 70% de _statements_ (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_ (_ramas_)
+del archivo `src/data.js` que contenga tus Funciones y está detallado en la
+sección [Data](###data) de las [Especificaciones Técnicas](##especificaciones-técnicas).
 
 ## Parte Opcional (Hacker edition)
 
@@ -253,7 +238,7 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── README.md
 ├── src
-│   ├── data
+│   ├── data (según con qué data trabajes)
 │   │   ├── injuries
 │   │   │   ├── injuries.js
 │   │   │   └── injuries.json
@@ -281,16 +266,16 @@ como toda la configuración de dependencias:
 
 ### `src/index.html`
 
-Al igual que en el proyecto anterior, existe un archivo `index.html`. Como ya
-sabrás, acá va la página que se mostrará al usuario. También nos sirve para
-indicar qué scripts se usarán y unir todo lo que hemos hecho.
+Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
+acá va la página que se mostrará al usuario. También nos sirve para indicar
+qué scripts se usarán y unir todo lo que hemos hecho.
 
 En este archivo encontrarás una serie de _etiquetas_ (_tags_) `<script>`
 _comentadas_. Para _cargar_ las diferentes fuentes de datos tendrás que
 _descomentar_ estas _etiquetas_. Cada uno estos scripts asignará una variable
 global con la data correspondiente a esa fuente de datos.
 
-Por ejemplo, si descomentamos la siguiente línea:
+Por ejemplo, si "descomentamos" la siguiente línea:
 
 ```html
 <!-- <script src="./data/worldbank/worldbank.js"></script> -->
@@ -317,12 +302,34 @@ carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
 ### `src/data.js`
 
-El corazón de este proyecto es la manipulación de datos a través de arreglos y
-objetos. La idea de este archivo es contener toda la funcionalidad
-que corresponda a obtener, procesar y manipular datos.
+El corazón de este proyecto es la manipulación de datos a través de arreglos
+y objetos.
 
-En este archivo esperamos que implementes las funciones detalladas en la sección
-de [_Pruebas Unitarias_](#pruebas-unitarias).
+Te reomendamos que este archivo contenga toda la funcionalidad que corresponda
+a obtener, procesar y manipular datos (tus funciones):
+
+* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
+  data, y nos retornaría aquellos datos que sí cumplan con la condición.
+
+* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
+  recibe tres parámetros.
+  El primer parámetro, `data`, nos entrega los datos.
+  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
+  la data se quiere ordenar.
+  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
+  ascendente o descendente.
+
+* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
+  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
+  proporcionada.
+
+Estos nombres de funciones y de parámetros son solamente referenciales, lu que
+decidas depende de tu propia implementación.
+
+Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
+e independientes del DOM. Estas funciones serán después usadas desde el archivo
+`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
+filtrado, ordenado, ...).
 
 ### `src/data`
 
@@ -352,10 +359,30 @@ cuando lo completes:
 |--------------------------|
 | Completitud |
 
+### Habilidades Blandas
+
+| Habilidad |
+|-----------|
+| Planificación, organización y manejo del tiempo |
+| Autoaprendizaje |
+| Presentaciones |
+| Adaptabilidad |
+| Solución de problemas |
+| Trabajo en equipo |
+| Responsabilidad |
+| Dar y recibir feedback |
+| Comunicación eficaz |
+
 ### Tech
 
 | Habilidad |
 |-----------|
+| **Computer Science** |
+| Lógica |
+| Arquitectura |
+| **Source Control Management** |
+| Git |
+| GitHub |
 | **JavaScript** |
 | Estilo |
 | Nomenclatura/semántica |
@@ -369,37 +396,22 @@ cuando lo completes:
 | **CSS** |
 | DRY |
 | Responsive |
-| **SCM** |
-| Git |
-| GitHub |
-| **CS** |
-| Lógica |
-| Arquitectura |
+
 
 ### UX
 
 | Habilidad |
 |-----------|
-| User Centricity |
+| **Investigación (_Reseacrh_)** |
+| User Centricity (_Diseño Centrado en el Usuario_)|
 | Entrevistas |
+| Pruebas (_tests_) de usabilidad|
+| **Diseño Visual (_Visual Design_)** |
 | Contraste |
 | Alineación |
 | Jerarquía |
 | Tipografía |
 | Color |
-
-### Habilidades Blandas
-
-| Habilidad |
-|-----------|
-| Planificación y organización |
-| Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
-| Presentaciones |
 
 ***
 
@@ -413,6 +425,11 @@ pueden ayudar:
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
+* Toda tu investigación previa debe tener como resultado todas las Historias
+de Usuario de tu proyecto.
+* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
+solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
+pistas en la guía de organización para el proyecto.
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
@@ -513,6 +530,13 @@ compañera:
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
+### Organización del Trabajo:
+
+* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s). Ojo que Cris no diferencia _Definición de terminado_ de
+_Criterios de Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
+* [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+* [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
+
 ***
 
 ## Checklist
@@ -535,3 +559,4 @@ compañera:
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [ ] UI: Permite filtrar data en base a una condición.
+* [ ] UI: Es _responsive_.
