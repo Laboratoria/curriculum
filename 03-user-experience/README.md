@@ -1,6 +1,9 @@
 # User Experience
 
-Neste curso, você aprenderá sobre User Experience (UX).
+Neste curso, você aprenderá e aprimorará seu conhecimentos sobre User Experience
+(UX) e User Interface (UI).
+
+Tags: ux, ui, user, user experience, prototype, iterface
 
 ## Público-alvo
 
@@ -45,6 +48,8 @@ Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
 criar seu produto final, é importante que você conheça as técnicas de design da
 experiência do usuário para que seu produto seja algo que as pessoas desejem
 usar.
+
+***
 
 ## Avaliação técnica
 

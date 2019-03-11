@@ -1,41 +1,34 @@
-# Caso Prático (vídeo)
+# Casos Práticos
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `2h`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `4h`
 
 ***
 
 ## Objetivos
 
-- Entender, por meio de um estudo de caso, como criar estruturas na web com
-  `html` e dar estilos com `css`
+* Praticar, praticar e praticar
 
-## Enunciado
+## Enunciados
 
-Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver
-problemas reais.
+Aqui estão alguns exercícios para você praticar sozinha \(ou no squad\). Caso
+alguma dúvida apareça chame a sua equipe de mentores :\)
 
-Imagine que você está criando seu primeiro site interativo e deseja fazer um
-menu de navegação. Sua equipe de projeto passou essas demonstrações para você
-replicar:
+Você deve fazer o upload dos exercícios no `GitHub` e publicá-los com o `GitHub
+Pages`.
 
-### 1. Menu Vertical
+### 1. Pinterest (layout)
 
-![Demonstra&#xE7;&#xE3;o vertical do menu](https://fotos.subefotos.com/3b523ebdaaa3e207adb555eaa26b8351o.gif)
+Crie uma réplica do [Pinterest](https://laboratoria.github.io/pinterestify/) com
+as imagens que você mais gosta :\)
 
-### 2. Menu horizontal
+### 2. Applove
 
-![Demo Menu horizontal](https://fotos.subefotos.com/9da8149c853131e7e7282a30c9dc37e6o.gif)
+Crie uma réplica do site da
+[Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png).
 
-## Soluções
-
-Em seguida, Lulu explica como resolveu esse desafio:
-
-### 1. Menu Vertical da Solução
-
-[![Vertical](https://img.youtube.com/vi/tk6DAx5Crn4/0.jpg)](https://www.youtube.com/watch?v=tk6DAx5Crn4)
-
-### 2. Menu Horizontal da Solução
-
-[![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
+Para completar este exercício, criamos um [repositório
+_padronizado_](https://github.com/Laboratoria/AppLove) \(modelo inicial\) com
+todos os recursos que você precisa. Isso inclui as imagens e algumas classes CSS
+que já criamos para você :\)

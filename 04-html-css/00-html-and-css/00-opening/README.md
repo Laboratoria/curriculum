@@ -1,4 +1,4 @@
-# Introdução: HTML & CSS
+# Introdução
 
 - Tipo: `leitura`
 - Formato: `individual`

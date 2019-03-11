@@ -1,4 +1,4 @@
-# Introdução a CSS
+# CSS
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -204,7 +204,68 @@ No final da sua pesquisa, você deve saber o que é e como usar:
 - Seletor descendente
 - Seletor filho
 - Seletores de atributo
-- Pseudo seletores
+
+## Pseudo-seletores
+
+Os pseudo seletores são palavras chaves que alteram o estado de um elemento. Os
+pseudo seletores não são encontrados sozinhos. Estão sempre acompanhados de um
+seletor e são precedidos por `:`. Os pseudo seletores ou pseudo classes
+apresentam a seguinte síntaxe:
+
+```css
+button:hover {
+  color: red;
+}
+```
+
+### :hover
+
+O `:hover` é um pseudo seletor que altera o estilo de um elemento quando passamos
+o mouse em cima dele. O uso desse pseudo seletor é bastante comum. Não
+precisamos ir muito longe para ver ele sendo usado na prática. Aqui mesmo no LMS
+ao realizarmos o login nos deparamos com o seguinte:
+
+![hover](https://i.imgur.com/GysD1Rh.gif)
+
+Note que ao passar do mouse os elementos adiquirem estilos novos. Isso é feito
+através do `:hover`.
+
+### :active
+
+Esse pseudo seletor é utilizado para alterar o estado de links ativos. Mas o que
+seriam links ativos? Os links se tornam ativos no momento do clique.
+
+```css
+button {
+  color: black;
+  background-color: yellow;
+}
+
+button:active {
+  color: white;
+  background-color: #ff008f;
+}
+```
+
+![active](https://i.imgur.com/tCctJcn.gif)
+
+Perceba que no exemplo, o estilo do botão é apenas alterado quando estamos
+clicando. Quando não está mais ocorrendo o evento de clique o botão assume o
+estilo aplicado sem o pseudo seletor `:active`.
+
+### :focus
+
+O `:focus` é um pseudo seletor que se aplica particulamente aos elementos que
+recebem eventos como entrada de texto, ou outros inputs de usuário, como por
+exemplo, os inputs e textareas.
+
+```css
+input:focus {
+  background-color: yellow;
+}
+```
+
+![focus](https://i.imgur.com/y5uGreS.gif)
 
 ## Regras de cascata e herança
 
@@ -282,10 +343,10 @@ Vejamos um exemplo:
 
 ## Continuando a página de Grace Hopper da wikipedia
 
-Agora que você sabe mais sobre a profundidade CSS você pode acompanhar Michelle
-no vídeo a seguir no qual ela termina de desenvolvar a página de Grace Hopper,
-usando uma estrutura semântica e todos os benefícios do CSS para representar o
-projeto o mais fiel possível.
+Agora que você sabe mais sobre a profundidade CSS você pode acompanhar a
+Palomita no vídeo a seguir no qual ela termina de desenvolvar a página de Grace
+Hopper, usando uma estrutura semântica e todos os benefícios do CSS para
+representar o projeto o mais fiel possível.
 
 [![Grace
-Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+Hopper](https://img.youtube.com/vi/CJtJbWs3qjQ/0.jpg)](https://www.youtube.com/watch?v=CJtJbWs3qjQ)

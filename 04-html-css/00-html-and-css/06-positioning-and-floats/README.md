@@ -218,17 +218,3 @@ Position:
 Float:
 
 - [All about floats - CSS Tricks](https://css-tricks.com/all-about-floats/)
-
-Flexbox:
-
-- [Conheça o Flexbox](http://desenvolvimentoparaweb.com/css/flexbox/)
-- [Guia de Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Guia Flexbox - Origamid](https://origamid.com/projetos/flexbox-guia-completo/)
-- [Posicionamento elementos e o Flebox - Caelum](http://blog.caelum.com.br/o-drama-do-posicionamento-de-elementos-na-tela-e-o-flexbox/)
-- [Flexbox Froggy](https://flexboxfroggy.com/)
-- [Flexbox Defense](http://www.flexboxdefense.com/)
-
-Grid:
-
-- [Grid CSS - Tableless](https://tableless.com.br/entendendo-sistemas-de-grid-css-do-zero/)
-- [Grid Layout - Chief Of Design](https://www.chiefofdesign.com.br/css-grid-layout/)

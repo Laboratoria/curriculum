@@ -79,14 +79,10 @@ Podemos visualizar esse conceito de _aninhamento_ de html da seguinte maneira:
 HTML](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
 
 Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe
-sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p` \( se você
-precisa de uma revisão sobre eles, sugerimos que leia novamente a lição sobre
-[criar seu primeiro
-site](https://lms.laboratoria.la/cohorts/spl-2018-05-bc-js-front-end-developer/courses/intro-pt/01-introduction/03-your-first-website)
-do curso _Introdução à Programação\)_. Alguns elementos adicionais que
-adicionamos são: o `em` que faz com que seu conteúdo seja exibido como texto em
-_itálico_ e `strong` que faz com que seu conteúdo seja exibido como texto em
-_negrito_.
+sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p`. Alguns
+elementos adicionais que adicionamos são: o `em` que faz com que seu conteúdo
+seja exibido como texto em _itálico_ e `strong` que faz com que seu conteúdo
+seja exibido como texto em _negrito_.
 
 Ao abrir este documento no navegador, teremos o seguinte:
 
@@ -282,12 +278,12 @@ o comentário e `-->` para fechá-lo.
 ## Recriando a página de Grace Hopper da Wikipédia
 
 Agora que você tem uma ideia dos elementos `html` mais comuns, seu comportamento
-\(em linha ou em bloco\) e seus principais atributos, Michelle explicará como
+\(em linha ou em bloco\) e seus principais atributos, a Paloma explicará como
 construir uma réplica da [página da Wikipédia de Grace
 Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) :
 
 [![Grace
-Hopper](https://img.youtube.com/vi/9w5ITAr2hlQ/0.jpg)](https://www.youtube.com/watch?v=9w5ITAr2hlQ)
+Hopper](https://img.youtube.com/vi/FM9aK638ICA/0.jpg)](https://www.youtube.com/watch?v=FM9aK638ICA)
 
 ## Os elementos `div`e`span`
 
