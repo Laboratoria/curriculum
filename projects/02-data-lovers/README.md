@@ -42,7 +42,7 @@ _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Con cálculo agregado
+filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
 o mel ínimo, etc).
@@ -52,9 +52,9 @@ explores y decidas con qué temática te interesa trabajar. Hemos elegido
 específicamente estos sets de datos porque creemos que se adecúan bien a esta
 etapa de tu aprendizaje.
 
-Una vez que definas tu área de interés, entiende quién es tu usuario y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que le
-ayude a interactuar y entender mejor esos datos.
+Una vez que definas tu área de interés, buscar entender quién es tu usuario
+y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
+le ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
@@ -323,7 +323,7 @@ a obtener, procesar y manipular datos (tus funciones):
   cálculos estadísticos básicos para ser mostrados de acuerdo a la data
   proporcionada.
 
-Estos nombres de funciones y de parámetros son solamente referenciales, lu que
+Estos nombres de funciones y de parámetros son solamente referenciales, lo que
 decidas depende de tu propia implementación.
 
 Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
