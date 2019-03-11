@@ -199,23 +199,24 @@ evaluaremos cuando lo  completes:
 
 | Habilidad |
 |-----------|
-| Planificación y organización |
+| Planificación, organización y manejo del tiempo |
 | Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
 | Presentaciones |
+| Adaptabilidad |
+| Solución de problemas |
+| Trabajo en equipo |
+| Responsabilidad |
+| Dar y recibir feedback |
+| Comunicación eficaz |
 
 ### Habilidades Técnicas Front-end
 
 | Habilidad |
 |-----------|
-| **CS** |
+| **Computer Science** |
 | Lógica |
 | Arquitectura |
-| **SCM** |
+| **Source Control Management** |
 | Git |
 | GitHub |
 | **JavaScript** |
@@ -293,8 +294,15 @@ Desarrollo Front-end:
 Herramientas:
 
 * GitHub y GitHub Pages.
-* [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf):
-  solamente para comenzar a entender cómo organizar tu trabajo.
+
+Organización del Trabajo:
+
+* [Metodologías Ágiles"](https://www.youtube.com/watch?v=v3fLx7VHxGM)
+* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
+* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No esperamos que hagas todo eso desde este proyecto.
+Iremos profundizando poco a poco a lo largo del -_bootcamp_
+* [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
+
 
 ## Checklist
 
