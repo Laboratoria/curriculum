@@ -1,17 +1,15 @@
-# Postulación a empresa de Silicon Valley
+# Proyecto Job Application
 
-## Preámbulo
+## Antecedentes
 
-Una egresada de Laboratoria que trabaja de manera remota para una empresa de
-Silicon Valley te ha recomendado para postular a una vacante de Front-End
+Una egresada de Laboratoria que trabaja de manera remota para una empresa en
+Estados Unidos te ha recomendado para postular a una vacante de Front-End
 Developer que se acaba de abrir. Es un proceso competitivo, pero tu compañera se
-ha ofrecido a ayudarte. Ella ya pasó por ahí, sabe el tipo de preguntas que
-hacen durante las entrevistas y recuerda los retos de código que le tocó
-resolver cuando postuló.
+ha ofrecido a ayudarte.
 
 Tu compañera te asegura que, con la experiencia que tienes del bootcamp y su
 coaching para esta postulación, tienes alta posibilidad de entrar. ¡Uff, qué
-valiosa es la red de egresadas de Laboratoria!
+suerte tener contacto con la comunidad de egresadas de Laboratoria!
 
 ## Introducción
 
@@ -27,15 +25,16 @@ Antes de empezar, tu compañera te deja muy claro lo siguiente:
 ## Objetivos de aprendizaje
 
 El objetivo principal de este reto es que conozcas un proceso de reclutamiento
-para una posición de Front-End development y estés preparada para enfrentar los
-meses de colocación laboral. **El 100% de las preguntas, retos, desafíos, etc.
-que se plantean en este proyecto son casos reales de empresas que han
-contratado y/o entrevistado a egresadas de Laboratoria**. Esta “simulación” es
-muy cercana a lo que pasará pronto en tu vida, así que sácale el máximo provecho
-;).
+para una posición de Front-End development y que estés más preparada para
+enfrentar los meses de colocación laboral. **El 100% de las preguntas, retos,
+desafíos, etc. que se plantean en este proyecto son casos reales de empresas que
+han contratado y/o entrevistado a egresadas de Laboratoria**. Esta “simulación”
+es muy cercana a lo que pasará pronto en tu vida, así que sácale el máximo
+provecho;).
 
 Ten en cuenta que en estos procesos no existe ninguna receta mágica ni tampoco
-la suerte, sólo la práctica y el esfuerzo te ayudarán a conseguir un trabajo.
+la suerte, pero la práctica y el esfuerzo te podrán ayudar mucho en el proceso
+que enfrentarás al salir del bootcamp..
 
 ## Consideraciones Generales
 
@@ -43,11 +42,17 @@ la suerte, sólo la práctica y el esfuerzo te ayudarán a conseguir un trabajo.
 * A menos que la descripción de alguna parte lo diga explícitamente, no está
   permitido el uso de librerías o frameworks.
 * Debes seguir la [guía de estilos de Airbnb](https://github.com/airbnb/javascript).
-* Deberás avanzar paso a paso por el proceso de postulación. Si no has
-  completado la primera parte, no puedes avanzar a la segunda y así
-  sucesivamente.
-* Completar este proyecto es un requisito indispensable en el camino a obtener
-  la recomendación de empleabilidad.
+* No todos los pasos de este proyecto son necesariamente secuenciales. Tu
+  training manager y/o la encargada de desarrollo personal será quien te irá
+  guiando en el orden de ellos.
+* Este proyecto funciona como cualquier otro, tendrás que desarrollarlo con
+  éxito. Para completarlo, tendrás que haber terminado cada uno de los pasos
+  aquí descritos. Igual esperamos que sea un proyecto muy entretenido, así que
+  ni te darás cuenta cuando ya estés en la última etapa ;).
+
+Recuerda siempre la importancia de la iteración. Si ya "pasaste" por una etapa
+siempre puedes volver, revisar, actualizar, mejorar, iterar, etc. Pide feedback,
+y se activa durante toda esta preparación.
 
 ## Parte I: Envío de Currículum Vitae (CV)
 
@@ -61,27 +66,28 @@ explica tu compañera, esta parte va más allá del CV, incluye también tu
 LinkedIn, GitHub y tu portafolio - a los cuales se accede a través de tu CV.
 
 Una vez que completes tu CV (con los links a tu portafolio, LinkedIn y GitHub
-actualizados), debes enviarlo a la coordinadora de desarrollo personal
-(psicóloga) de tu sede via e-mail incluyendo un breve párrafo indicando tu
-interés por el puesto. Ella revisará los documentos y te dirá si estás preparada
-para avanzar a la parte II o si debes mejorar algunas cosas.
+actualizados), tendrás que:
+
+* Pedirle a una compañera que te entregue feedback de tu CV.
+* Revisar el [check list](https://docs.google.com/spreadsheets/d/1MyOE5v1TxOMovsTiMQ21QzRPxCRXIKpaOOLS99y3MKQ/edit#gid=1386834576)
+  antes de entregarlo.
+* Una vez que sientas que está listo, envíalo a la coordinadora de desarrollo
+  personal(psicóloga) de tu sede via e-mail incluyendo un breve párrafo
+  indicando tu interés por el puesto. Ella revisará los documentos y te dirá si
+  estás preparada para avanzar a la parte II.
 
 En esta parte, específicamente se evaluará:
 
-* La calidad de tu CV.
+* La calidad y completitud de tu CV.
 * La calidad y completitud de tus perfil de LinkedIn y GitHub.
-* La calidad y completitud de tu portafolio.
+* El avance de tu portafolio.
 
 ## Parte II: Entrevista laboral (de “práctica”) con la coordinadora de desarrollo personal
 
-Si la coordinadora de desarrollo personal de tu sede considera que has
-completado la parte I satisfactoriamente, te invitará a una simulación de
+La coordinadora de desarrollo personal te invitará a una simulación de
 entrevista laboral con ella que te sirva de “práctica”.
 
-Aún cuando es de práctica, es importante que te prepares bien, dado que si no
-tienes un buen desempeño en este paso no podrás avanzar.
-
-Para esto, te recomendamos revisar los siguientes recursos:
+Para prepararte, te recomendamos revisar los siguientes recursos:
 
 * La [guía de Laboratoria](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing)
   sobre cómo prepararte para una entrevista laboral.
@@ -90,55 +96,49 @@ Para esto, te recomendamos revisar los siguientes recursos:
 * Un repositorio colaborativo en [GitHub](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
   sobre preguntas frecuentes en procesos de reclutamiento para Front-End
   developers.
+* También tendrás la posibilidad de inscribirte en Office Hours de entrevistas
+  grupales que te ayudarán en tu preparación.
 
 Al final de la entrevista, la coordinadora de desarrollo personal te dirá si
-estás preparada para avanzar a la parte III o si debes mejorar algunas cosas y
-repetir la entrevista de “práctica”.
+estás preparada para avanzar a la parte III.
 
 ## Parte III: Entrevista con alguien de la industria
 
-Si la coordinadora de desarrollo personal (psicóloga) de tu sede considera que
-has completado la parte I (CV, LinkedIn, GitHub y portafolio) y la parte II
-(entrevista de “prueba”) satisfactoriamente, coordinará para que tengas una
+La coordinadora de desarrollo personal coordinará para que tengas una
 entrevista de 30-45 minutos con alguien de la industria (que llamamos
-“reclutador”).
+“reclutadxr”).
 
-El/La reclutador(a) se contactará contigo, ya sea a través del correo
-electrónico o vía telefónica. Aunque suene obvio, hemos tenido casos donde no
-contestan el teléfono a números desconocidos o no revisan su correo, perdiendo
-la oportunidad de tener una entrevista. Es importante que estés atenta a la
-llamada del reclutador. Por otro lado, recuerda que no todas las entrevistas son
-presenciales, por lo que puedes enfrentarte a una entrevista online. En este
-caso, procura estar en un lugar tranquilo, tener buena conexión a internet y una
-cámara disponible.
+Lx reclutadxr se contactará contigo, ya sea a través del correo
+electrónico o vía telefónica. Aunque suene obvio, hemos tenido casos donde
+egresadas no contestan el teléfono a números desconocidos o no revisan su
+correo, perdiendo la oportunidad de tener una entrevista. Es importante que
+estés atenta a la llamada del reclutadxr. Por otro lado, recuerda que no
+todas las entrevistas son presenciales, por lo que puedes enfrentarte a
+una entrevista online. En este caso, procura estar en un lugar tranquilo,
+tener buena conexión a internet y una cámara disponible.
 
-Después de la entrevista, la coordinadora de desarrollo personal conversará con
-el/la reclutador(a) y te dirá si estás preparada para el siguiente paso, o si
-deberás practicar un poco más y repetir la entrevista con alguien de la
-industria. En este último caso, conversa con tu Training Manager para entender
-qué plan de acción debes implementar.
+Después de la entrevista, tu reclutadxr definirá y te informará si estás lista
+para seguir a la siguiente etapa. Cae en ti, recordarle al reclutadxr que envíe
+su feedback a la Training Manager y asi poder seguir a la siguiente etapa si
+corresponde.
 
 ## Parte IV: Entrevista técnica
 
-El paso siguiente es una entrevista técnica de 1 hora donde un/una coach te
-hará una serie de preguntas conceptuales y te pedirá codear “en vivo” algunos
-retos cortos (usando jsbin, jsfiddle o cualquier otra plataforma) para evaluar
-cómo enfrentas un problema y cómo llegas a la solución. El/la coach se
-contactará contigo, ya sea a través del correo electrónico o vía telefónica;
-recuerda nuevamente estar atenta a tu correo o teléfono para poder coordinar la
-fecha/hora de la entrevista.
+Este paso es una entrevista técnica de 1 hora donde unx developer de
+otra sede de Laboratoria simulará una entrevista técnica real contigo.
+Te hará una serie de preguntas conceptuales y te pedirá codear “en vivo”
+algunos retos cortos (usando jsbin, jsfiddle o cualquier otra plataforma)
+para evaluar cómo enfrentas un problema y cómo llegas a la  solución.
+Tu entrevistadxr se contactará  contigo, ya sea a través del correo electrónico
+o vía telefónica; recuerda nuevamente estar atenta a tu correo o teléfono
+para poder coordinar la fecha/hora de la entrevista.
 
-No sabes cuáles son las preguntas y los retos de código que te harán.
-Sin embargo, no eres la primera egresada de Laboratoria que ha pasado por este
-proceso. Tu compañera te ha pasado este documento que recopila las [preguntas y
-retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing).
-Lo más seguro es que la entrevista se base en ese documento, así que revísalo
-con detenimiento, contesta todas las preguntas y resuelve todos los retos para
-que estés lo mejor preparada posible.
+Asume que tu entrevistadxr no conoce nada de ti ni de Laboratoria y no des por
+hecho que conoce el proceso que has tenido dentro del bootcamp.
 
-Durante la entrevista, tu coach te:
+Durante la entrevista, tu entrevistadxr te:
 
-* Hará algunas de las preguntas conceptuales y tendrán una conversación
+* Hará algunas  preguntas conceptuales y tendrán una conversación
   alrededor de eso. Puedes usar papel, lápiz o incluso abrir la consola de
   chrome para complementar tus ideas con un ejemplo.
 * Presentará algunos retos para que los completes en vivo (desde cero usando
@@ -154,42 +154,23 @@ Durante la entrevista, tu coach te:
   haciendo esto... ¿por qué has decidido hacerlo así?”, “Explícame qué hacen
   estas líneas de código”, etc.
 
-Al final de la entrevista, que debe durar máximo 1 hora, tu coach te dirá si
-estás preparada para el siguiente paso del proceso de postulación, o si deberás
-estudiar un poco más y repetir la entrevista. Si has dado dos intentos a la
-entrevista y no has podido avanzar, es una señal de que algo anda mal y deberás
-comunicarte con tu Training Manager para entender qué plan de acción debes
-implementar. Una vez que hayas pasado exitosamente tu entrevista tech, debes
-avanzar a la quinta y última parte del proceso de postulación.
+Al final de la entrevista, que debe durar máximo 1 hora, el entrevistadxr te
+dirá si estás preparada para el siguiente paso del proceso de postulación,
+o si deberás estudiar un poco más y repetir la entrevista.
 
 ## Parte V: Desafíos para resolver y entregar
 
-La última parte del proceso de postulación consiste en hacer algunos desafíos
-de tarea y tener nuevamente una entrevista con un/una coach en la que le
-defiendas tus soluciones. Los desafíos serán enviados a tu correo electrónico
-y la entrevista será fijada con un plazo de 1.5 semanas. Es decir, debes
-completar los desafíos que te asignen en ese tiempo. Es importante que respetes
-los plazos que te dan, ya que esto demuestra responsabilidad e interés en el
-proceso. A diferencia de los retos de la etapa anterior, aquí debes enviar tu
-código con al menos un día de anticipación. Debes alojar tus soluciones en un
-repositorio de GitHub y debes enviar la dirección url del repositorio a
-tu coach.
-
-Tal como en la parte IV, no sabes cuáles son los desafíos que te asignarán.
-Sin embargo, gracias a la comunidad de egresadas de Laboratoria, sabes los retos
-que han sido asignados en el pasado. Tu compañera te ha pasado este documento
-que recopila los desafíos que se han utilizado en procesos anteriores. Lo más
-seguro es que te envíen 2-3 de los [desafíos](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)
-que se muestran en ese documento, así que lo más recomendable es que completes
-todos con anticipación. Recuerda que estás aquí para aprender. Nada mejor para
-tu preparación profesional que completes absolutamente todos ;)
+Esta partes del proceso de postulación consiste en hacer algunos desafíos.
+Los desafíos serán enviados a tu correo electrónico. El gran objetivo de esta
+etapa es conocer algunos retos reales que las empresas hacen como
+parte del proceso de selección. Asi que, que mejor que haber visto un par
+antes?
 
 ## Recursos externos
 
 * [Guía de estilos de Airbnb](https://github.com/airbnb/javascript).
 * [Elementos a considerar al escribir tu CV](https://drive.google.com/file/d/1TUHy3SxgalOWBqH-rtHKbejsKCXoLxWD/view?usp=sharing).
+* [Check list CV](https://docs.google.com/spreadsheets/d/1MyOE5v1TxOMovsTiMQ21QzRPxCRXIKpaOOLS99y3MKQ/edit#gid=1386834576)
 * [Guía de Laboratoria de Entrevistas](https://drive.google.com/file/d/1hwayjQlU7m6acBts9g0G5VBK8ZCcAN2b/view?usp=sharing).
 * [Taller de preparación para entrevistas](https://docs.google.com/presentation/d/1IKc49cO4PQZVytL8pEgu9rogWYcuoguBcnKHgPKKXLs/edit?usp=sharing).
 * [GitHub Entrevistas](https://github.com/h5bp/Front-end-Developer-Interview-Questions).
-* [Preguntas y retos de procesos anteriores](https://drive.google.com/file/d/11z6IVBmjGwv3dSezMFbSgFP_YeeMnhnr/view?usp=sharing)
-* [Desafíos de procesos anteriores](https://drive.google.com/file/d/1QjvVr72b3hx4hyWl6kl9QKBhM7EeMJyN/view?usp=sharing)
