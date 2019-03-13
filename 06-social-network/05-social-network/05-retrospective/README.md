@@ -9,7 +9,8 @@
 ## Objetivo
 
 - Refletir sobre a maneira que você está aprendendo.
-- Identificar as coisas que estão funcionando, as que não estão e as que devemos começar a fazer.
+- Identificar as coisas que estão funcionando, as que não estão e as que devemos
+  começar a fazer.
 
 ## Agenda
 

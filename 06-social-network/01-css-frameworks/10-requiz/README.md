@@ -6,7 +6,8 @@
 
 ## Objetivos
 
-- Fazer um segundo quiz para garantir que terminamos a unidade com um entendimento completo dos conceitos. 
+- Fazer um segundo quiz para garantir que terminamos a unidade com um
+  entendimento completo dos conceitos.
 
 ***
 
@@ -16,10 +17,12 @@
 
 #### Opções
 
-1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um modelo metodológico pré-estabelecido
+1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um
+   modelo metodológico pré-estabelecido
 2. Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente
 3. Folha de estilo externa a nosso projeto
-4. Ferramenta de organização que podemos usar em nosso projeto como se fosse um modelo pedagógico pré-estabelecido
+4. Ferramenta de organização que podemos usar em nosso projeto como se fosse um
+   modelo pedagógico pré-estabelecido
 
 <solution style="display:none;">1</solution>
 
@@ -34,7 +37,7 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 3) Exemplos de componentes que podemos encontrar em um Framework:
+### 3) Exemplos de componentes que podemos encontrar em um Framework
 
 #### Opções
 
@@ -45,12 +48,14 @@
 
 <solution style="display:none;">2,4</solution>
 
-### 4) Vantagem de usar um Framework:
+### 4) Vantagem de usar um Framework
 
 #### Opções
 
-1. Melhorar a navegação do sítio web em diferentes navegaores por meio do `reset` 
-2. Melhorar a compatibilidade do sítio web em diferentes navegadores por meio do `reset`
+1. Melhorar a navegação do sítio web em diferentes navegaores por meio do
+   `reset`
+2. Melhorar a compatibilidade do sítio web em diferentes navegadores por meio do
+   `reset`
 3. Controlar os estilos 100% pelo `html`
 
 <solution style="display:none;">2</solution>
@@ -59,14 +64,14 @@
 
 #### Opções
 
-1. ` <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
-2. ` <link rei="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
-3. ` <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.scss">`
-4. ` <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">`
+1. `<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
+2. `<link rei="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
+3. `<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.scss">`
+4. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">`
 
 <solution style="display:none;">4</solution>
 
-### 6) Formas de adicionar um Framework à sua área de trabalho:
+### 6) Formas de adicionar um Framework à sua área de trabalho
 
 #### Opçõs
 
@@ -98,7 +103,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Framework desenvolvido inicialmente pelo Twitter:
+### 9) Framework desenvolvido inicialmente pelo Twitter
 
 #### Opções
 
@@ -118,7 +123,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 11) Contêiner que usa toda a largura da tela em nosso dispositivo:
+### 11) Contêiner que usa toda a largura da tela em nosso dispositivo
 
 #### Opções
 
@@ -128,7 +133,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 12) Dispositivos que são levados em conta em um framework:
+### 12) Dispositivos que são levados em conta em um framework
 
 #### Opções
 

@@ -1,18 +1,26 @@
 # Crie sua própria rede social
 
-Neste curso você aprenderá tudo que é necessário para poder criar sua própria rede social - cuja temática será definida por você. Para tanto, você aprenderá a:
+Neste curso você aprenderá tudo que é necessário para poder criar sua própria
+rede social - cuja temática será definida por você. Para tanto, você aprenderá
+a:
 
-1. Projetar a experiência de usuário que seu produto oferecerá, aplicando técnicas e conceitos de UX Design.
-2. Prototipar uma aplicação web orientada a dispositivos móveis com técnicas como `mobile-first`.
-3. Tornar o processo de desenvolvimento mais rápido e reutilizar código existente na web utilizando frameworks de CSS e bibliotecas de JavaScript.
+1. Projetar a experiência de usuário que seu produto oferecerá, aplicando
+   técnicas e conceitos de UX Design.
+2. Prototipar uma aplicação web orientada a dispositivos móveis com técnicas
+   como `mobile-first`.
+3. Tornar o processo de desenvolvimento mais rápido e reutilizar código
+   existente na web utilizando frameworks de CSS e bibliotecas de JavaScript.
 
 ## Público alvo
 
-Este curso é destinado às estudantes da Laboratória. Este é o terceiro curso que faz parte do bootcamp.
+Este curso é destinado às estudantes da Laboratória. Este é o terceiro curso que
+faz parte do bootcamp.
 
 ## Requisitos prévios
 
-Para fazer este curso você deve ter completado o curso de `Programação Básica com JavaScript` e `Tornando seu sítio web interativo` da Laboratória. Assumimos que as alunas têm conhecimentos de HTML, CSS, JavaScript e do DOM.
+Para fazer este curso você deve ter completado o curso de `Programação Básica
+com JavaScript` e `Tornando seu sítio web interativo` da Laboratória. Assumimos
+que as alunas têm conhecimentos de HTML, CSS, JavaScript e do DOM.
 
 ## Aprenderá
 
@@ -22,7 +30,8 @@ Para fazer este curso você deve ter completado o curso de `Programação Básic
 
 ## Produto
 
-Durante este curso você construirá uma rede social com as seguintes características:
+Durante este curso você construirá uma rede social com as seguintes
+características:
 
 * Adaptável à uma tela de um dispositivo móvel.
 * Poder autenticar-se por meio do Facebook ou Google.
