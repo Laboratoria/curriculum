@@ -48,9 +48,10 @@ Este projeto deverá ser desenvolvido em trios.
 
 * A lógica do projeto deverá ser implementada totalmente em JavaScript (ES6+),
   HTML e CSS.
-* Deverá ser utilizada a biblioteca jQuery para manipulação de DOM
+* Deverá ser utilizada a biblioteca jQuery para manipulação de DOM.
 * Deverá ser utilizado o _framework_ Bootstrap v4 para elementos de leiaute e
   responsividade.
+* Todo o código deverá ser escrito seguindo o [guia de estilos da Laboratória](https://github.com/JulianaAmoasei/js-style-guide/blob/pt-translation/README-PT.md).
 
 Para iniciar, faça um _fork_ e _clone_ deste repositório.
 
@@ -223,6 +224,40 @@ imediata.
 O código do projeto deverá estar disponível no github, e a interface publicada
 utilizando o serviço _Firebase Hosting_.
 
+## Evaluación
+
+### Tech
+
+| Habilidade |
+|-----------|
+| **JavaScript** |
+| Estilo |
+| Nomenclatura/semântica |
+| Funções/modularidade |
+| Estrutura de dados |
+| **HTML** |
+| Estilo |
+| Semântica |
+| **CSS** |
+| DRY |
+| Responsividade |
+| **SCM** |
+| Git |
+| GitHub |
+| **CS** |
+| Lógica |
+| Arquitetura |
+| Padrões/paradigmas |
+
+### UX
+
+| Habilidade |
+|-----------|
+| User Centricity | 
+| Entrevistas |
+| Testes |
+| Fluxo do usuário |
+
 ***
 
 ## Dicas / Leituras complementares
@@ -281,7 +316,7 @@ Estes dados serão armazenados de forma remota utilizando o
 
 ### Timeline
 
-* [ ] Mustra a timeline ou lista de publicações.
+* [ ] Mostra a timeline.
 * [ ] Permite fazer novas publicações.
 * [ ] Permite apagar publicações.
 * [ ] Pede confirmação antes de apagar publicações.
@@ -298,4 +333,4 @@ Estes dados serão armazenados de forma remota utilizando o
 * [ ] Permite compartilhamento de publicações.
 * [ ] Permite comentar ou responder uma publicação.
 * [ ] Permite editar perfil.
-* [ ] Permite ver perfil ou timeline ou lista de publicações.
+* [ ] Permite ver perfil ou timeline.
