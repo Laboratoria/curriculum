@@ -55,9 +55,9 @@ medida que a tela do navegador diminui.
 O site web deve se comportar como as imagens anteriores. Pode encontrar os
 gatinhos e as paisagens aqui.
 
-* [sunny-day](https://user-images.githubusercontent.com/25912510/54451946-f7e53f80-4721-11e9-952b-ace4816d7b41.jpg)
-* [night](https://user-images.githubusercontent.com/25912510/54451947-f87dd600-4721-11e9-94b1-d0edd92d2339.jpg)
-* [kitten-small](https://user-images.githubusercontent.com/25912510/54451948-f87dd600-4721-11e9-9cfa-d5042362b3ed.png)
-* [dawn](https://user-images.githubusercontent.com/25912510/54451953-f9166c80-4721-11e9-8bb2-0da3ddf00cf4.png)
-* [kitten-medium](https://user-images.githubusercontent.com/25912510/54451949-f87dd600-4721-11e9-9f0f-3a7143642d6e.png)
-* [kitten-large](https://user-images.githubusercontent.com/25912510/54451951-f9166c80-4721-11e9-9722-efbfdf5255c0.png)
+- [sunny-day](https://user-images.githubusercontent.com/25912510/54451946-f7e53f80-4721-11e9-952b-ace4816d7b41.jpg)
+- [night](https://user-images.githubusercontent.com/25912510/54451947-f87dd600-4721-11e9-94b1-d0edd92d2339.jpg)
+- [kitten-small](https://user-images.githubusercontent.com/25912510/54451948-f87dd600-4721-11e9-9cfa-d5042362b3ed.png)
+- [dawn](https://user-images.githubusercontent.com/25912510/54451953-f9166c80-4721-11e9-8bb2-0da3ddf00cf4.png)
+- [kitten-medium](https://user-images.githubusercontent.com/25912510/54451949-f87dd600-4721-11e9-9f0f-3a7143642d6e.png)
+- [kitten-large](https://user-images.githubusercontent.com/25912510/54451951-f9166c80-4721-11e9-9722-efbfdf5255c0.png)

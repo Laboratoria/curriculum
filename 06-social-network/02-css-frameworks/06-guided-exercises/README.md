@@ -30,4 +30,4 @@ elementos ou componentes do framework de Materialize. Reutilize as imagens de
 seu desafio anterior.
 
 ![Love Love
-Panda](https://user-images.githubusercontent.com/25912510/54452495-4fd07600-4723-11e9-8c1d-28a44d09407d.png)
+Panda](https://user-images.githubusercontent.com/25912510/54453586-a0e16980-4725-11e9-934e-eec1b991d18c.png)
