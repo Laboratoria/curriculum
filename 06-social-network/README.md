@@ -89,31 +89,13 @@ características:
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 100min | Encerramento
 
-### Unidade 04: [O processo de design](03-design-process)
-
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 30min | Abertura
-| 01 | oficina | 2h | Prototipação Rápida
-| 02 | seminário | 15min | Aula de Conceitos
-| 04 | seminário | 10min | Encerramento
-
-### Unidade 05: [Firebase](04-firebase-101)
+### Unidade 04: [Firebase](03-firebase-101)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
 | 00 | leitura | 60min | Firebase: Criando apps melhores
 | 01 | leitura | 60min | Firebase: Autenticação
 | 02 | leitura | 60min | Firebase: Base de dados
-
-### Unidade 06: [Crie sua própria rede social](05-social-network)
-
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 01 | práctica | 30min | Red Social X
-| 02 | oficina | 30min | Revisão de Código
-| 03 | oficina | 30min | Solução Rede Social X
-| 05 | oficina | 2h | Retrospectiva
 
 ## Autores / Colaboradores
 
