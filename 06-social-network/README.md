@@ -16,19 +16,19 @@ a:
 Este curso é destinado às estudantes da Laboratória. Este é o terceiro curso que
 faz parte do bootcamp.
 
-## Requisitos prévios
+## Pré-requisitos
 
 Para fazer este curso você deve ter completado o curso de `Programação Básica
 com JavaScript` e `Tornando seu sítio web interativo` da Laboratória. Assumimos
 que as alunas têm conhecimentos de HTML, CSS, JavaScript e do DOM.
 
-## Aprenderá
+## Você aprenderá
 
 - Como estruturar os elementos que há em sua página web.
 - Tornar sua página web adaptável à tela de dispositivos móveis.
 - Usar bibliotecas e frameworks existentes para um desenvolvimento mais rápido.
 
-## Produto
+## Produtos a desenvolver
 
 Durante este curso você construirá uma rede social com as seguintes
 características:
@@ -41,7 +41,7 @@ características:
 
 ## Syllabus
 
-### Unidade 01: [A Web em um Dispositivo Móvel](00-rwd)
+### Unidade 01: [A Web em um Dispositivo Móvel](01-rwd)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -55,7 +55,7 @@ características:
 | 07 | quiz | 30min | Quiz #2
 | 08 | seminário | 20min | Encerramento
 
-### Unidade 02: [Não reinvente a roda](01-css-frameworks)
+### Unidade 02: [Não reinvente a roda](02-css-frameworks)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -72,7 +72,7 @@ características:
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 2h | Encerramento
 
-### Unidade 03: [Agilize seu desenvolvimento](02-jquery)
+### Unidade 03: [Agilize seu desenvolvimento](03-jquery)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -89,7 +89,7 @@ características:
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 100min | Encerramento
 
-### Unidade 04: [Firebase](03-firebase-101)
+### Unidade 04: [Firebase](04-firebase-101)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
