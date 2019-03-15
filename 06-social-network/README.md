@@ -43,59 +43,24 @@ características:
 
 ### Unidade 01: [A Web em um Dispositivo Móvel](01-rwd)
 
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 15min | Abertura
-| 01 | leitura | 30min | *Grid System*
-| 02 | leitura | 30min | *Media Queries* e *Viewport*
-| 03 | leitura | 20min | Web Design Responsivo
-| 04 | quiz | 30min | Quiz #1
-| 05 | oficina | 3h | Exercícios Guiados
-| 06 | seminário | 9h | Desafios
-| 07 | quiz | 30min | Quiz #2
-| 08 | seminário | 20min | Encerramento
+Nesta unidade você aprenderá a criar uma página web utilizando o enfoque
+de projeto Web Design Responsivo. Utilizar grid system e medias queries para
+estruturar o site de uma maneira melhor.
 
 ### Unidade 02: [Não reinvente a roda](02-css-frameworks)
 
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 30min | Abertura
-| 01 | leitura | 60min | Frameworks
-| 02 | leitura | 60min | Bootstrap
-| 03 | leitura | 20min | Materialize e outros
-| 04 | leitura | 20min | Componentes e funcionalidade
-| 05 | quiz | 30min | Quiz #1
-| 06 | seminário | 2h | Aula de Conceitos
-| 07 | oficina | 8h | Aula Prática
-| 08 | prática | 2h | Desafios
-| 09 | seminário | 2h | Resolução dos Desafios
-| 10 | quiz | 30min | Quiz #2
-| 12 | seminario | 2h | Encerramento
+Nesta unidade você aprenderá o que  são os frameworks e para que os usamos. E
+também a criar una página web utilizando frameworks.
 
 ### Unidade 03: [Agilize seu desenvolvimento](03-jquery)
 
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 30min | Abertura
-| 01 | leitura | 60min | jQuery
-| 02 | leitura | 30min | Seletores de jQuery
-| 03 | leitura | 60min | DOM
-| 04 | leitura | 60min | Eventos
-| 05 | quiz | 30min | Quiz #1
-| 06 | seminário | 2h | Aula de Conceitos
-| 07 | oficina | 2h | Aula Prática
-| 08 | prática | 20h | Desafios
-| 09 | seminário | 2h | Resolução dos Desafios
-| 10 | quiz | 30min | Quiz #2
-| 12 | seminario | 100min | Encerramento
+Nesta unidade você aprenderá a usar jQuery em nossos desenvolvimentos. A
+entender o uso dos seletores, manipulação do DOM e eventos por meio de JQuery.
 
 ### Unidade 04: [Firebase](04-firebase-101)
 
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 60min | Firebase: Criando apps melhores
-| 01 | leitura | 60min | Firebase: Autenticação
-| 02 | leitura | 60min | Firebase: Base de dados
+Nesta unidade você aprenderá o que é o Firebase e como utilizar alguma das suas
+ferramentas.
 
 ## Autores / Colaboradores
 
