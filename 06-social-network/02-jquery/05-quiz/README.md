@@ -8,7 +8,9 @@
 
 ## Objetivos
 
-- Nesta seção você terá a oportunidade de avaliar-se e colocar seus conhecimentos à prova. É uma oportunidade para que verifique se realmente está aprendendo. Sucesso!
+- Nesta seção você terá a oportunidade de avaliar-se e colocar seus
+  conhecimentos à prova. É uma oportunidade para que verifique se realmente está
+  aprendendo. Sucesso!
 
 ***
 
@@ -28,13 +30,16 @@
 
 #### Opções
 
-1. Faz coisas como o projeto e teste de documentos HTML, manipulação de eventos, animação, etc.
-2. Faz coisas como o projeto e manipulação de tags HTML / DOM, CSS, manipulação de eventos, animação, etc.
-3. Faz coisas como o projeto e manipulação de documentos CSS, manipulação de eventos, animação digital, etc.
+1. Faz coisas como o projeto e teste de documentos HTML, manipulação de eventos,
+   animação, etc.
+2. Faz coisas como o projeto e manipulação de tags HTML / DOM, CSS, manipulação
+   de eventos, animação, etc.
+3. Faz coisas como o projeto e manipulação de documentos CSS, manipulação de
+   eventos, animação digital, etc.
 
 <solution style="display:none;">2</solution>
 
-### 3) jQuery se baseia em:
+### 3) jQuery se baseia em
 
 #### Opções
 
@@ -94,7 +99,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Forma correta de adicionar um evento em jQuery:
+### 9) Forma correta de adicionar um evento em jQuery
 
 #### Opções
 

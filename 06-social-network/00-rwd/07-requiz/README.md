@@ -6,13 +6,15 @@
 
 ## Objetivos
 
-- Nesta seção você terá a oportunidade de avaliar-se para colocar seus conhecimentos à prova. É uma oportunidade para que verifique e valide que realmente está aprendendo. Sucesso!
+- Nesta seção você terá a oportunidade de avaliar-se para colocar seus
+  conhecimentos à prova. É uma oportunidade para que verifique e valide que
+  realmente está aprendendo. Sucesso!
 
 ***
 
 ## Perguntas
 
-### 1) "Técnica de projeto que consegue que um único sítio se adapte perfeitamente a todos os dispositivos". Esta é uma definição que corresponde a:
+### 1) "Técnica de projeto que consegue que um único sítio se adapte perfeitamente a todos os dispositivos". Esta é uma definição que corresponde a
 
 #### Opções
 
@@ -25,7 +27,8 @@
 
 ### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma *grid* de 12 colunas para cada coluna será `.col-`
 
-![Exemplo da *grid*](https://cdn.tutsplus.com/webdesign/uploads/2013/08/grids-1.jpg)
+![Exemplo da
+*grid*](https://cdn.tutsplus.com/webdesign/uploads/2013/08/grids-1.jpg)
 
 #### Opções
 
@@ -37,7 +40,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 3) Uma técnica que utiliza a regra `@media` para incluir blocos CSS que serão executados se as condições dadas forem verdadeiras. Esta é a definição de:
+### 3) Uma técnica que utiliza a regra `@media` para incluir blocos CSS que serão executados se as condições dadas forem verdadeiras. Esta é a definição de
 
 #### Opções
 
@@ -118,7 +121,8 @@
 
 ### 8) Quando desenvolvemos um sítio responsivo, mas encontramos o caso do dispositivo móvel à esquerda, o que devemos adicionar para que apareça como o dispositivo móvel da direita?
 
-![Missing viewport](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/viewport.png)
+![Missing
+viewport](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/viewport.png)
 
 #### Opções
 
@@ -142,13 +146,11 @@
 
 ### 10) Se desejarmos aplicar estilos a dispositivos com tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a *media query* a ser utilizada?
 
-> **Observação:**
-> Os pixels que usamos no CSS não são sempre a resolução do dispositivo. Isso acontece porque os que usamos em CSS são Device Independent Pixels (DIP), que como diz seu nome, são independentes do hardware. Para calcular o DIP de um dispositivo, usamos a seguinte fórmula:
-
-> ```
+> **Observação:** Os pixels que usamos no CSS não são sempre a resolução do
+> dispositivo. Isso acontece porque os que usamos em CSS são Device Independent
+> Pixels (DIP), que como diz seu nome, são independentes do hardware. Para
+> calcular o DIP de um dispositivo, usamos a seguinte fórmula:
 > DIP = Resolução / DPR
-> ```
-
 > Conhecendo esta fórmula, é suficiente para resolver esta questão?
 
 #### Opções

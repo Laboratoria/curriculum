@@ -6,7 +6,8 @@
 
 ## Objetivos
 
-- Fazer um segundo quiz para garantirmos que terminamos a unidade com um entendimento completo dos conceitos.
+- Fazer um segundo quiz para garantirmos que terminamos a unidade com um
+  entendimento completo dos conceitos.
 
 ***
 
@@ -17,8 +18,10 @@
 #### Opções
 
 1. jQuery é uma biblioteca de JavaScript rápida, pequena e com muitas funções.
-2. jQuery é uma linguagem de programação inspirada em JavaScript que ajuda a programar de forma rápida e rica em funções.
-3. jQuery é um framework de JavaScript que ajuda a programar de forma rápida e rica em funções.
+2. jQuery é uma linguagem de programação inspirada em JavaScript que ajuda a
+   programar de forma rápida e rica em funções.
+3. jQuery é um framework de JavaScript que ajuda a programar de forma rápida e
+   rica em funções.
 
 <solution style="display:none;">1</solution>
 
@@ -33,7 +36,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 3) jQuery é baseado em:
+### 3) jQuery é baseado em
 
 #### Opções
 
@@ -57,9 +60,9 @@
 
 #### Opções
 
-1. $("p").hide();
-2. $("<p>").hide();
-3. $(".p").hide();
+1. `$("p").hide();`
+2. `$("<p>").hide();`
+3. `$(".p").hide();`
 
 <solution style="display:none;">1</solution>
 
@@ -93,7 +96,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 9) Forma correta de adicionar un evento em jQuery:
+### 9) Forma correta de adicionar un evento em jQuery
 
 #### Opções
 

@@ -12,17 +12,29 @@
 
 ## Componentes com jQuery
 
-Nas leituras anteriores já vimos as maravilhosas vantagens que nos oferecem os frameworks de CSS, mas ainda há mais. Os frameworks não só nos permitem projetar e dar estilos mais rapidamente como também possuem componentes que já contam com essa funcionalidade. Isso é possível por meio do uso de **jQuery**.
+Nas leituras anteriores já vimos as maravilhosas vantagens que nos oferecem os
+frameworks de CSS, mas ainda há mais. Os frameworks não só nos permitem projetar
+e dar estilos mais rapidamente como também possuem componentes que já contam com
+essa funcionalidade. Isso é possível por meio do uso de **jQuery**.
 
-jQuery é uma biblioteca de javascript (que por enquanto não vamos nos esforçar a enteder 100%), que por meio de nosso framework nos dá a facilidade de adicionar nossa funcionalidade com poucas linhas. 
+jQuery é uma biblioteca de javascript (que por enquanto não vamos nos esforçar a
+enteder 100%), que por meio de nosso framework nos dá a facilidade de adicionar
+nossa funcionalidade com poucas linhas.
 
-Para isso também é preciso criar um *link* no nosso projeto para o CDN de JQuery ou para o caminho de onde estiver, se baixarmos JQuery no nosso projeto.
+Para isso também é preciso criar um *link* no nosso projeto para o CDN de JQuery
+ou para o caminho de onde estiver, se baixarmos JQuery no nosso projeto.
 
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
 
-Ao fazer o passo anterior podemos começar a fazer uso do componente que necessitamos. Para este exemplo usaremos um **modal** e um **Carousel**. Antes de tudo é necessário mencionar que os *modais* e os *carrosséis* podem ser criados utilizando CSS e javascript. Desta vez faremos que a magia do nosso melhor amigo venha nos ajudar (sim, o framework que você decidiu testar).
+Ao fazer o passo anterior podemos começar a fazer uso do componente que
+necessitamos. Para este exemplo usaremos um **modal** e um **Carousel**. Antes
+de tudo é necessário mencionar que os *modais* e os *carrosséis* podem ser
+criados utilizando CSS e javascript. Desta vez faremos que a magia do nosso
+melhor amigo venha nos ajudar (sim, o framework que você decidiu testar).
 
-Como já vimos (e praticamos) só precisamos ir à página de nosso framework, escolher o modal que nos faz mais feliz e copiar o código necessário. Para a funcionalidade copiaremos em nosso arquivo app.js as linhas que precisamos. 
+Como já vimos (e praticamos) só precisamos ir à página de nosso framework,
+escolher o modal que nos faz mais feliz e copiar o código necessário. Para a
+funcionalidade copiaremos em nosso arquivo app.js as linhas que precisamos.
 
 No nosso arquivo html:
 
@@ -94,20 +106,27 @@ Agora vamos ver o código para criar nosso Caruosel.
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 ```
+
 E em nosso arquivo app.js:
 
 ```js
+
 $('.carousel').carousel()
+
 ```
+
 E já temos nosso carrossel.
 
-### E se decidir usar outro framework...
+### E se decidir usar outro framework
 
-Não há o que temer, é só revisar a documentação do framework escolhido e praticar muito. Os passos a seguir são muito parecidos e em alguns caso, os mesmos.
+Não há o que temer, é só revisar a documentação do framework escolhido e
+praticar muito. Os passos a seguir são muito parecidos e em alguns caso, os
+mesmos.
 
 Lembre-se:
 
-* Investigar
-* Testar
-* Perguntar!!
+- Investigar
+- Testar
+- Perguntar!!

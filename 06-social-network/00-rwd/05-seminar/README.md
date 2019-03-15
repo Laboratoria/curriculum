@@ -8,7 +8,8 @@
 
 ## Objetivos
 
-- Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua equipe de professoras.
+- Revisar e consolidar os conceitos aprendidos por meio de uma aula com sua
+  equipe de professoras.
 - Esclarecer todas as dúvidas que você tenha!
 
 ## Agenda
