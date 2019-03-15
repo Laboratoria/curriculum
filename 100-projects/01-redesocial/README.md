@@ -30,7 +30,7 @@ certos temas onde gostaria de investir:
 O objetivo principal de aprendizagem deste projeto é desenvolver uma aplicação
 web responsiva onde possamos **ler e gravar dados.**
 
-Em outras palavras, aprenderá a:
+Em outras palavras, aprenderá a
 
 * Aplicar e aprofundar tudo o que aprendeu no projeto anterior.
 * Entender as necessidades dos usuários para quem será desenvolvido o produto e
@@ -91,7 +91,7 @@ incluir uma definição de pronto (_definition of done_) para cada uma.
 Você deve definir qual será o fluxo que o usuário seguirá dentro de seu produto,
 e a partir disso desenhar uma interface do usuário (UI) que siga este fluxo em
 sua rede social. Este design deverá representar a solução que será finalmente
-implementada em seu código. 
+implementada em seu código.
 
 ### Responsividade
 
@@ -105,7 +105,7 @@ A ideia para este produto é que o desenvolvimento siga o que está proposto no
 desenho da interface. Confira ao longo do desenvolvimento que os elementos
 propostos estão sendo implementados corretamente.
 
-A interface deverá permitir:
+A interface deverá permitir
 
 #### Criação de uma conta de usuário e início da sessão
 
@@ -253,7 +253,7 @@ utilizando o serviço _Firebase Hosting_.
 
 | Habilidade |
 |-----------|
-| User Centricity | 
+| User Centricity |
 | Entrevistas |
 | Testes |
 | Fluxo do usuário |

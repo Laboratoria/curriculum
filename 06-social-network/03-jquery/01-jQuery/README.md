@@ -35,13 +35,13 @@ Para incluí-lo em nosso projeto temos duas opções:
    no projeto.
 
    ```html
-   <script src=”jquery-3.2.1.min.js”></script>
+   <script src=”jquery-3.3.1min.js”></script>
    ```
 
 2. Incluindo a [CDN](https://code.jquery.com/) de jQuery.
 
    ```html
-   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1min.js"></script>
    ```
 
 Devemos lembrar de linkar nosso jQuery antes de outros scripts, já que muitos

@@ -21,15 +21,9 @@ Sugerimos que você tente resolver os exercícios por conta própria (ou em grup
 estará familiarizada com os desafios. Quem sabe, poderá apresentar sua solução
 para a turma e assim ajudar suas demais companheiras :)
 
-E não deixe de colocar os seus eexercícios no `Github`.
+E não deixe de colocar os seus exercícios no `Github`.
 
-### 1. Replicar a *grid* a seguir
-
-Tomando como base a imagem abaixo, replique a estrutura de *grid*.
-
-![grid](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ejercicio-grid-gral.png)
-
-### 2. De *desktop* para *mobile*
+### 1. De *desktop* para *mobile*
 
 Agora que você sabe fazer uma *grid* no desktop, vamos fazer um desafio mais
 divertido. Apresentamos três desafios. Em cada imagem, verá duas versões:
@@ -47,25 +41,19 @@ mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db27
 ![desktop para
 mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile3.png)
 
-### 3. Love Love Panda Desu
+## 2. Kitten
 
-Crie uma página web para os amantes dos pandas. Para obter as imagens use [este
-link](https://github.com/rafaelbcerri/love-panda).
+Crie uma página web na qual se mostre uma paisagem e um gatinho diferente a
+medida que a tela do navegador diminui.
 
-- Versão 1: Crie sua página utilizando *grid*.
-- Versão 2: Crie sua própria versão móvel da página.
+![Kitten Dawn][1]  ![Kitten Night][2]  ![Kitten Sunnyday][3]
 
-![Love Love
-Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)
+ [1]:
+ https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-dawn.png
+ [2]:
+ https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-night.png
+ [3]:
+ https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-sunnyday.png
 
-### 4. Rock Site
-
-Replique as imagens a seguir colocando em prática seus conhecimentos de `grid
-system`. Para obter as imagens use [este
-link](https://github.com/rafaelbcerri/rock-site)
-
-![Rock
-Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
-
-![Rock
-Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
+O site web deve se comportar como as imagens anteriores. Pode encontrar os
+gatinhos e as paisagens [aqui](https://github.com/rafaelbcerri/kitten).

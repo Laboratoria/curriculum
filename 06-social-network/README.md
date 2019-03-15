@@ -16,32 +16,32 @@ a:
 Este curso é destinado às estudantes da Laboratória. Este é o terceiro curso que
 faz parte do bootcamp.
 
-## Requisitos prévios
+## Pré-requisitos
 
 Para fazer este curso você deve ter completado o curso de `Programação Básica
 com JavaScript` e `Tornando seu sítio web interativo` da Laboratória. Assumimos
 que as alunas têm conhecimentos de HTML, CSS, JavaScript e do DOM.
 
-## Aprenderá
+## Você aprenderá
 
 - Como estruturar os elementos que há em sua página web.
 - Tornar sua página web adaptável à tela de dispositivos móveis.
 - Usar bibliotecas e frameworks existentes para um desenvolvimento mais rápido.
 
-## Produto
+## Produtos a desenvolver
 
 Durante este curso você construirá uma rede social com as seguintes
 características:
 
-* Adaptável à uma tela de um dispositivo móvel.
-* Poder autenticar-se por meio do Facebook ou Google.
-* Publicar conteúdo.
-* Comentar as publicações.
-* Dar *like* nas publicações.
+- Adaptável à uma tela de um dispositivo móvel.
+- Poder autenticar-se por meio do Facebook ou Google.
+- Publicar conteúdo.
+- Comentar as publicações.
+- Dar *like* nas publicações.
 
 ## Syllabus
 
-### Unidade 01: [A Web em um Dispositivo Móvel](00-rwd)
+### Unidade 01: [A Web em um Dispositivo Móvel](01-rwd)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -55,7 +55,7 @@ características:
 | 07 | quiz | 30min | Quiz #2
 | 08 | seminário | 20min | Encerramento
 
-### Unidade 02: [Não reinvente a roda](01-css-frameworks)
+### Unidade 02: [Não reinvente a roda](02-css-frameworks)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -72,7 +72,7 @@ características:
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 2h | Encerramento
 
-### Unidade 03: [Agilize seu desenvolvimento](02-jquery)
+### Unidade 03: [Agilize seu desenvolvimento](03-jquery)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -89,16 +89,7 @@ características:
 | 10 | quiz | 30min | Quiz #2
 | 12 | seminario | 100min | Encerramento
 
-### Unidade 04: [O processo de design](03-design-process)
-
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 00 | leitura | 30min | Abertura
-| 01 | oficina | 2h | Prototipação Rápida
-| 02 | seminário | 15min | Aula de Conceitos
-| 04 | seminário | 10min | Encerramento
-
-### Unidade 05: [Firebase](04-firebase-101)
+### Unidade 04: [Firebase](04-firebase-101)
 
 | # | Tipo | Duração | Tópico
 | - | ---- | -------- | ------
@@ -106,22 +97,13 @@ características:
 | 01 | leitura | 60min | Firebase: Autenticação
 | 02 | leitura | 60min | Firebase: Base de dados
 
-### Unidade 06: [Crie sua própria rede social](05-social-network)
-
-| # | Tipo | Duração | Tópico
-| - | ---- | -------- | ------
-| 01 | práctica | 30min | Red Social X
-| 02 | oficina | 30min | Revisão de Código
-| 03 | oficina | 30min | Solução Rede Social X
-| 05 | oficina | 2h | Retrospectiva
-
 ## Autores / Colaboradores
 
-* Allison Guzmán
-* Steph Salazar
-* Lalo Gonzalez
-* Ivan Medina
-* Otros colaboradores?
+- Allison Guzmán
+- Steph Salazar
+- Lalo Gonzalez
+- Ivan Medina
+- Otros colaboradores?
 
 ## Livros
 

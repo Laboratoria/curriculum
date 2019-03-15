@@ -30,7 +30,7 @@ ferramentas pré-programandas de **estilos** genéricos que podemos implementar
 para desenvolver nossos sítios web de uma maneira mais simples, rápida e
 responsiva.
 
-### Por que usamos frameworks?  
+### Por que usamos frameworks?
 
 Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito
 tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e
