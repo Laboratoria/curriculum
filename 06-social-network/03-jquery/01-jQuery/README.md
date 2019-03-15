@@ -66,7 +66,9 @@ $('selector').evento();
   acompanha pode ir vazio ou com uma função ou parâmetros, de acordo com o que
   se está utilizando.
 
-![menu-lateral](images/sintaxis-jquery.png) Exemplos
+![menu-lateral](https://user-images.githubusercontent.com/25912510/54452573-768eac80-4723-11e9-8c48-c7294fb34b67.png)
+
+ Exemplos
 
 ```js
 $(this).hide() - oculta o elemento atual.

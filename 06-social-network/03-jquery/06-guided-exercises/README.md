@@ -28,7 +28,7 @@ Você deve subir o exercício no `GitHub` e publicá-lo em `gh-pages`.
 Crie uma agenda de contatos em que você possa adicionar, excluir, filtrar e
 contar os contatos.
 
-![agenda](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/contactos.png)
+![agenda](https://user-images.githubusercontent.com/25912510/54452752-e3a24200-4723-11e9-94a0-4751da5a2e10.png)
 
 Por meio de um modal você deve poder adicionar:
 
@@ -36,9 +36,9 @@ Por meio de um modal você deve poder adicionar:
 - Número telefônico
 - Email (opcional)
 
-![agenda](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/modal-contactos.png)
+![agenda](https://user-images.githubusercontent.com/25912510/54452751-e3a24200-4723-11e9-8f3c-97a742e7a319.png)
 
 O contato criado deve ser adicionado ao nosso HTML com um botão/ícone que nos dê
 a opção de excluir o contato.
 
-![agenda](https://raw.githubusercontent.com/AnaSalazar/curricula-js/b8605ade7fc7b6b9093f25d37d1bcdf60c6f1888/04-social-network/02-jquery/07-guided-exercises/contactos-borrar.png)
+![agenda](https://user-images.githubusercontent.com/25912510/54452753-e3a24200-4723-11e9-83b4-1044bf184c06.png)

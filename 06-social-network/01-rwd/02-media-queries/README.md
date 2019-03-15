@@ -37,7 +37,7 @@ visualizar nossa página web. Na imagem a seguir, podemos ver os diferentes
 *media types* que podem ser utilizados.
 
 ![*Media
-Types*](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/02-media-queries/media_type.png?raw=true)
+Types*](https://user-images.githubusercontent.com/25912510/54451017-d5eabd80-471f-11e9-8c12-52dcc1f91e10.png)
 
 Os ***media features*** correspondem à condição que o dispositivo deve atender e
 a qual deve ser verdadeira para que se aplique o código contido em nossa *media
@@ -48,8 +48,7 @@ dispositivo, podendo estabelecer a altura e largura que serão aplicadas (com
 `height` e `width`), ou o que é mais interessante, a partir de qual largura ou
 altura se aplicarão (com `min/max-width` e `min/max-height`).
 
-![Media
-Feature](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
+![media_feature](https://user-images.githubusercontent.com/25912510/54451018-d5eabd80-471f-11e9-949d-51a08e31b3ec.png)
 
 Os **operadores lógicos** são `and`, `not`, `only` e *lista separada por
 vírgulas* (que funciona como o operador lógico `or` do Javascript) e se

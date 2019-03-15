@@ -24,7 +24,7 @@ nossa funcionalidade com poucas linhas.
 Para isso também é preciso criar um *link* no nosso projeto para o CDN de JQuery
 ou para o caminho de onde estiver, se baixarmos JQuery no nosso projeto.
 
-![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
+![Bootstrap](https://user-images.githubusercontent.com/25912510/54452405-1435ac00-4723-11e9-975c-5ca69ad33274.png)
 
 Ao fazer o passo anterior podemos começar a fazer uso do componente que
 necessitamos. Para este exemplo usaremos um **modal** e um **Carousel**. Antes

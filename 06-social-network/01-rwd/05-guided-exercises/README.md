@@ -33,27 +33,31 @@ Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Voc√
 consegue!
 
 ![desktop para
-mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile.png)
+mobile](https://user-images.githubusercontent.com/25912510/54451207-4c87bb00-4720-11e9-9c75-2f87ea07802b.png)
 
 ![desktop para
-mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile2.png)
+mobile](https://user-images.githubusercontent.com/25912510/54451205-4bef2480-4720-11e9-996b-72fcd0b37219.png)
 
 ![desktop para
-mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile3.png)
+mobile](https://user-images.githubusercontent.com/25912510/54451204-4b568e00-4720-11e9-8077-216dc64521d8.png)
 
 ## 2. Kitten
 
 Crie uma p√°gina web na qual se mostre uma paisagem e um gatinho diferente a
 medida que a tela do navegador diminui.
 
-![Kitten Dawn][1]  ![Kitten Night][2]  ![Kitten Sunnyday][3]
+![Kitten Dawn](https://user-images.githubusercontent.com/25912510/54451203-4abdf780-4720-11e9-9592-8a5783fa8685.png)
 
- [1]:
- https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-dawn.png
- [2]:
- https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-night.png
- [3]:
- https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-sunnyday.png
+![Kitten Night](https://user-images.githubusercontent.com/25912510/54451202-4abdf780-4720-11e9-9771-323e86222660.png)
+
+![Kitten Sunnyday](https://user-images.githubusercontent.com/25912510/54451201-4abdf780-4720-11e9-9091-b79ef5ec7e85.png)
 
 O site web deve se comportar como as imagens anteriores. Pode encontrar os
-gatinhos e as paisagens [aqui](https://github.com/rafaelbcerri/kitten).
+gatinhos e as paisagens aqui.
+
+* [sunny-day](https://user-images.githubusercontent.com/25912510/54451946-f7e53f80-4721-11e9-952b-ace4816d7b41.jpg)
+* [night](https://user-images.githubusercontent.com/25912510/54451947-f87dd600-4721-11e9-94b1-d0edd92d2339.jpg)
+* [kitten-small](https://user-images.githubusercontent.com/25912510/54451948-f87dd600-4721-11e9-9cfa-d5042362b3ed.png)
+* [dawn](https://user-images.githubusercontent.com/25912510/54451953-f9166c80-4721-11e9-8bb2-0da3ddf00cf4.png)
+* [kitten-medium](https://user-images.githubusercontent.com/25912510/54451949-f87dd600-4721-11e9-9f0f-3a7143642d6e.png)
+* [kitten-large](https://user-images.githubusercontent.com/25912510/54451951-f9166c80-4721-11e9-9722-efbfdf5255c0.png)

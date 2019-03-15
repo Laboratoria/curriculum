@@ -24,7 +24,7 @@ podemos ver os passos necessários para começar.
 Observamos que do lado esquerdo temos um menu lateral e podemos encontrar as
 opções possívels para que nossos usuários acessem:
 
-![menu-lateral](https://github.com/Laboratoria/curricula-js/blob/pt/04-social-network/00-rwd/04-firebase-101/side_menu.png?raw=true)
+![menu-lateral](https://user-images.githubusercontent.com/25912510/54453138-b013e780-4724-11e9-948b-fcb82bba53a7.png)
 
 Agora é só seguir os passos. Muitas vezes parece ser mais complicado do que é
 mas se você já leu de todas as formas a documentação e continua sem encontrar o
