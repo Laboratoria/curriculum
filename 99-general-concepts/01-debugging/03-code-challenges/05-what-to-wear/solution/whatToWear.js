@@ -13,9 +13,9 @@ function whatToWear(season) {
 }
 
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * Usaba operador de asignación en vez de comparación.
+ * Usava um operador de atribuição ao invés de um de comparação.
  */
 
 module.exports = whatToWear;

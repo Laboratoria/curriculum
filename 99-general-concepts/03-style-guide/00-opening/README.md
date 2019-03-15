@@ -1,38 +1,32 @@
-# Apertura: Guía de Estilos
+# Abertura: Guia de Estilos
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `10min`
 
 ***
 
-## Objetivos de aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos sobre guía de estilos:
+Nesta unidade aprenderemos sobre o guia de estilos:
 
-- Por qué es importante seguir una guía de estilos
-- Cómo ayuda en el proceso de **code review**
-- Cómo automatizar el uso de una guía de estilos
+- Por que é importante seguir um guia de estilos?
+- Como ele ajuda no processo de **code review**?
+- Como automatizar o uso de um guia de estilos?
 
-## Por qué aprender a usar una guía de estilos
+## Por que aprender a usar um guia de estilos
 
-Una guía de estilo es una lista de reglas para formatear tu código y usarla te
-ayudará a ser más consistente y tener un código mucho más legible.
+Um guia de estilo é uma lista de regras para formatar seu código e utilizá-la ajudará você a ser mais consistente e ter um código muito mais legível.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos mais importantes que vamos aprender e dos temas centrais aos quais devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-- ¿Por qué es importante seguir una guía de estilos?
-- ¿Qué es un code review y qué nos aporta como desarrolladores?
-- ¿Cómo afecta el uso de una guía de estilos en el code review?
-- ¿Cómo agregamos la guía de estilos a nuestro flujo de trabajo?
-- ¿Qué es un linter y cómo nos ayuda?
+- Por que é importante seguir um guia de estilos?
+- O que é um _code review_ e o que nos ajuda como desenvolvedoras?
+- Como o uso do guia de estilos influencia o _code review_?
+- Como adicionamos o guia de estilo no nosso fluxo de trabalho?
+- O que é um linter e como nos ajuda?
+

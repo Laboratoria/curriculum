@@ -2,9 +2,9 @@ function tellFortune(job, location) {
   return 'In the year 2025, you will be a ' + job + ' and live in ' + location + '.';
 }
 /**
- * ¿Cuál fue el problema con el código?
+ * Qual foi o problema com o código?
  *
- * A la linea 2 le faltaba un plus.
+ * Na linha 2 faltava um '+'.
  */
 
 module.exports = tellFortune;
