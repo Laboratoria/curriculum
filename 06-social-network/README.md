@@ -43,18 +43,18 @@ características:
 
 ### Unidade 01: [A Web em um Dispositivo Móvel](01-rwd)
 
-Nesta unidade você aprenderá a criar uma página web utilizando o enfoque 
-de projeto Web Design Responsivo. Utilizar grid system e medias queries para 
+Nesta unidade você aprenderá a criar uma página web utilizando o enfoque
+de projeto Web Design Responsivo. Utilizar grid system e medias queries para
 estruturar o site de uma maneira melhor.
 
 ### Unidade 02: [Não reinvente a roda](02-css-frameworks)
 
-Nesta unidade você aprenderá o que  são os frameworks e para que os usamos. E 
+Nesta unidade você aprenderá o que  são os frameworks e para que os usamos. E
 também a criar una página web utilizando frameworks.
 
 ### Unidade 03: [Agilize seu desenvolvimento](03-jquery)
 
-Nesta unidade você aprenderá a usar jQuery em nossos desenvolvimentos. A 
+Nesta unidade você aprenderá a usar jQuery em nossos desenvolvimentos. A
 entender o uso dos seletores, manipulação do DOM e eventos por meio de JQuery.
 
 ### Unidade 04: [Firebase](04-firebase-101)
