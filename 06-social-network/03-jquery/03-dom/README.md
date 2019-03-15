@@ -27,7 +27,7 @@ Os equivalentes em JavaScript são:
 
 A diferença é que em jQuery são funções e não propriedades.
 
-![Exemplo-text-html-val](https://raw.githubusercontent.com/Laboratoria/curricula-js/30b2d37a0714ed52d2b1ce924951bf61f96916ef/04-social-network/02-jquery/03-dom/text-html-val.png)
+![Exemplo-text-html-val](https://user-images.githubusercontent.com/25912510/54452672-b81f5780-4723-11e9-980e-cb74399e2863.png)
 
 > Já sabemos que o HTML não deve conter nosso script aí mesmo, mas esta imagem é
 > só para exemplificar o que mencionamos acima.

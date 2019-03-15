@@ -44,5 +44,5 @@ gostamos mais é fazendo uso deles. Testar e variar, testar e errar!
 Se quiser praticar um pouco sobre como funcionam esses dois frameworks, aqui
 deixamos pequenos cursos que poderá fazer em seu tempo livre
 
-1. ![Materialize](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk)
+1. [Materialize](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk)
 2. [Foundation](https://www.youtube.com/watch?v=y9MhCyDdJ8I&index=8&list=PLBg0qy4vMd5EyUcJF5roRM0WATzENxCaE)

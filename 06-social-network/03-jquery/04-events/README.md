@@ -52,12 +52,12 @@ $('p').click(function() {
 
 Os eventos que são usados com mais frequência são:
 
-![Eventos](https://imgur.com/Ldq5y4z)
+![Eventos](https://user-images.githubusercontent.com/25912510/54452911-30861880-4724-11e9-9248-626d17b451dd.png)
 
 E aqui temos uma lista de todos os eventos que podem ser utilizados no jQuery,
 para executar métodos e funções.
 
-![lista-eventos](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/04-events/lista-eventos.png?raw=true)
+![lista-eventos](https://user-images.githubusercontent.com/25912510/54452702-c7060a00-4723-11e9-9482-7fbd820a9505.png)
 
 Se você tiver curiosidade ou alguma dúvida, talvez este sítio educativo possa
 lhe ajudar a esclarecê-la: [Try jQuery](http://try.jquery.com/).

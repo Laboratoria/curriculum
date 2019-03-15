@@ -57,7 +57,7 @@ também a criar una página web utilizando frameworks.
 Nesta unidade você aprenderá a usar jQuery em nossos desenvolvimentos. A
 entender o uso dos seletores, manipulação do DOM e eventos por meio de JQuery.
 
-### Unidade 04: [Firebase](04-firebase-101)
+### Unidade 04: [Firebase](04-firebase)
 
 Nesta unidade você aprenderá o que é o Firebase e como utilizar alguma das suas
 ferramentas.

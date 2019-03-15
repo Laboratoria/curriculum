@@ -75,7 +75,7 @@
 
 ### 6) Quais números de colunas estão faltando?
 
-![Frameworks](https://raw.githubusercontent.com/Laboratoria/curricula-js/b6a70152fb5675d12ddc797fb9a209f63eab1283/04-social-network/01-css-frameworks/05-quiz/grid.jpg)
+![Frameworks](https://user-images.githubusercontent.com/25912510/54452462-3deed300-4723-11e9-8267-f0c150103ae2.jpg)
 
 #### Opções
 
