@@ -33,11 +33,11 @@ que as alunas têm conhecimentos de HTML, CSS, JavaScript e do DOM.
 Durante este curso você construirá uma rede social com as seguintes
 características:
 
-* Adaptável à uma tela de um dispositivo móvel.
-* Poder autenticar-se por meio do Facebook ou Google.
-* Publicar conteúdo.
-* Comentar as publicações.
-* Dar *like* nas publicações.
+- Adaptável à uma tela de um dispositivo móvel.
+- Poder autenticar-se por meio do Facebook ou Google.
+- Publicar conteúdo.
+- Comentar as publicações.
+- Dar *like* nas publicações.
 
 ## Syllabus
 
@@ -117,11 +117,11 @@ características:
 
 ## Autores / Colaboradores
 
-* Allison Guzmán
-* Steph Salazar
-* Lalo Gonzalez
-* Ivan Medina
-* Otros colaboradores?
+- Allison Guzmán
+- Steph Salazar
+- Lalo Gonzalez
+- Ivan Medina
+- Otros colaboradores?
 
 ## Livros
 
