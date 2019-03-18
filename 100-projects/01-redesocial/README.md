@@ -126,6 +126,7 @@ A interface deverá permitir
   - Ao recarregar a aplicação, deve-se verificar que o usuário está logado antes
     de exibir conteúdo privado.
 * Perspectiva da interface:
+
   ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 
 #### Timeline da rede social
@@ -224,19 +225,17 @@ imediata.
 O código do projeto deverá estar disponível no github, e a interface publicada
 utilizando o serviço _Firebase Hosting_.
 
-## Evaluación
+## Avaliação
 
 ### Tech
 
 | Habilidade |
 |-----------|
 | **JavaScript** |
-| Estilo |
 | Nomenclatura/semântica |
 | Funções/modularidade |
 | Estrutura de dados |
 | **HTML** |
-| Estilo |
 | Semântica |
 | **CSS** |
 | DRY |
@@ -293,12 +292,12 @@ Estes dados serão armazenados de forma remota utilizando o
 
 * [ ] O produto final segue o que foi especificado no desenho.
 
-### `README.md`
+### README.md
 
 * [ ] Definição do produto
 * [ ] Resumo das entrevistas com usuários
 * [ ] Link/imagens dos protótipos de baixa fidelidade
-* [ ] Conclusões dos testes de usuário feitos no o HTML
+* [ ] Conclusões dos testes de usuário feitos no HTML
 
 ### Criação de conta (sign up)
 
