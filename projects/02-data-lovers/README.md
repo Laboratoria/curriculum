@@ -404,14 +404,7 @@ cuando lo completes:
 |-----------|
 | **Investigación (_Reseacrh_)** |
 | User Centricity (_Diseño Centrado en el Usuario_)|
-| Entrevistas |
-| Pruebas (_tests_) de usabilidad|
 | **Diseño Visual (_Visual Design_)** |
-| Contraste |
-| Alineación |
-| Jerarquía |
-| Tipografía |
-| Color |
 
 ***
 

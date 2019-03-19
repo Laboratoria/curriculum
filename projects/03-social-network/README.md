@@ -1,5 +1,20 @@
 # Creando una Red Social
 
+## Índice
+
+* [Preámbulo](#preámbulo)
+* [Resumen del proyecto](#resumen-del-proyecto)
+* [Consideraciones generales](#consideraciones-generales)
+* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+* [Parte obligatoria](#parte-obligatoria)
+* [Parte opcional](#parte-opcional-hacker-edition)
+* [Consideraciones técnicas](#consideraciones-técnicas)
+* [Primeros pasos](#primeros-pasos)
+* [Contenido de referencia](#contenido-de-referencia)
+* [Checklist](#checklist)
+
+***
+
 ## Preámbulo
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
@@ -13,18 +28,14 @@ investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
 de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
 más comentado.
 
-## Introducción
+## Resumen del proyecto
 
-Una emprendedora nos ha encargado crear una red social. No nos da mucho detalle
-sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
-podamos, y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
-en los que le gustaría invertir:
+En este proyecto construirás una Red Social sobre lo que decidan en tu equipo.
+Por ejemplo, podría ser sobre alimentación saludable, feminismo, educación,
+salud, energías renovables, etc.
 
-* Alimentación
-* Feminismo
-* Educación
-* Salud
-* Energías Renovables
+Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
+acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
 ## Objetivos de Aprendizaje
 
@@ -35,14 +46,14 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 
 Dicho en palabras sencillas, aprenderás a:
 
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Entender las necesidades de los usuarios para los que crearás el producto y
-  que ayudarás a resolver.
+* Aplicar y profundizar todo lo que aprendiste en los proyectos anteriores.
+* Entender mejor las necesidades de los usuarios y los problemas que les
+ayudarás a resolver.
 * Poner en juego tu creatividad para generar ideas que lleven a una solución
   original y valiosa del problema.
 * Contar con el apoyo de tus compañeras, debes trabajar en equipo buscando
   _feedback_ constante.
-* Definir como crear la estructura de tu propia data y de qué forma mostrarla en
+* Definir cómo crear la estructura de tu propia data y de qué forma mostrarla en
   el producto.
 
 ## Consideraciones generales
@@ -185,7 +196,7 @@ _visual design_ como contraste, alineación, jerarquía, entre otros.
 * Permite editar perfil.
 * Permite ver perfil o resumen desde el _muro_ o lista de publicaciones.
 
-### Consideraciones técnicas
+### Consideraciones técnicas Front-end
 
 El corazón de este proyecto incluye:
 
@@ -204,7 +215,7 @@ Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
 
-### Consideraciones UX
+### Consideraciones técnicas UX
 
 Desde el punto de vista de UX, deberás:
 
@@ -214,7 +225,7 @@ Desde el punto de vista de UX, deberás:
   diseño.
 * Hacer sesiones de testing con el producto en HTML.
 
-### Consideraciones Ágil
+### Consideraciones de trabajo Ágil
 
 Esta vez te recomendamos que los ítems de tu Backlog de Producto estén escritos
 como [Historias de Usuario](http://jmbeas.es/guias/historias-de-usuario/).
