@@ -29,9 +29,9 @@ más comentado.
 ## Resumen del proyecto
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
-Ppodría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
+Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
 salud, energías renovables, amantes de las [empanadas](https://es.wikipedia.org/wiki/Empanada) o de
-los (tacos de canasta)(https://es.wikipedia.org/wiki/Taco), etc.
+los [tacos de canasta](https://es.wikipedia.org/wiki/Taco), etc.
 
 Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
 acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
@@ -52,8 +52,8 @@ HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
 frameworks o librerías de CSS y JS.
 
 - La división del trabajo debe permitir que todo el equipo
-practique el aprendizaje de todo lo esperado **cada sprint**. No se dividan el
-trabajo como en una fábrica.
+practique el aprendizaje de todo lo esperado **cada sprint**. _No se dividan el
+trabajo como en una fábrica._
 
 - Trabajen en una sola historia por vez, no pueden avanzar a la siguiente sin
 haber completado la anterior.
@@ -72,7 +72,7 @@ hacerlo, puedes guiarte de los proyectos anteriores.
 ### Definición del producto
 
 En el `README.md` cuéntanos brevemente cómo descubriste las necesidades de los
-usuarios y cómo llegaste  la definición final de tu producto. Comparte fotos de
+usuarios y cómo llegaste a la definición final de tu producto. Comparte fotos de
 entrevistas (si las tienes), cuestionarios y tus sketches/(bocetos).
 
 Es importante que detalles:
@@ -83,7 +83,7 @@ Es importante que detalles:
 ### Historias de usuario
 
 Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de
-Usuario que representen todo lo que necesitan hacer/ver.
+Usuario que representen todo lo que necesitan hacer/ver en la Red Social.
 
 Cada una de tus Historias de Usuario debe tener:
 - **Criterios de Aceptación:** todo lo que debe ocurrir para satisfacer las
@@ -132,7 +132,7 @@ tus H.U.:
 * Login con Firebase:
   - Para el login y las publicaciones en el muro puedes utilizar [Firebase](https://firebase.google.com/products/database/)
   - Creación de cuenta de acceso y autenticación con cuenta de correo y
-  contraseña, y con cuenta de Google.
+    contraseña, y con cuenta de Google.
 * Validaciones:
   - La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
   - No pueden haber usuarios repetidos.
@@ -158,15 +158,14 @@ tus H.U.:
   - Poder eliminar un post específico.
   - Pedir confirmación antes de eliminar un _post_.
   - Al dar _click_ para editar un _post_, debe cambiar el texto por un _input_
-  que permita editar el texto y luego guardar los cambios.
+    que permita editar el texto y luego guardar los cambios.
   - Al guardar los cambios debe cambiar de vuelta a un texto normal pero con la
     información editada.
-  - Al recargar la página debo de poder ver los textos editados
-
+  - Al recargar la página debo de poder ver los textos editados.
 
 ### Hacker edition
 
-* Crear posts con imágenes.
+* Permite crear posts con imágenes.
 * Permite buscar usuarios, agregar y eliminar "amigos".
 * Permite definir la privacidad de los _posts_ (público o solamente para amigos).
 * Permite ver su muro de cualquier usuario "no-amigo" (solamente los
@@ -220,7 +219,8 @@ puedas haber encontrado en el camino.
 | Solución de Problemas |
 | Dar y recibir feedback |
 | Adaptabilidad |
-| Trabajo en equipo (trabajo colaborativo y responsabilidad) |
+| Trabajo en equipo |
+| Responsabilidad |
 | Comunicación eficaz |
 | Presentaciones |
 
