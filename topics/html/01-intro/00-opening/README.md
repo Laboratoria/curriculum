@@ -13,7 +13,7 @@
   Javascript
 
 
-## Guia de perguntas e conceitos chaves
+## Guia de perguntas e conceitos-chave
 
 Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos
 mais importantes do que iremos aprender e dos temas centrais que devemos prestar

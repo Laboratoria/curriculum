@@ -12,9 +12,7 @@
 - Conhecer as tags mais comuns de HTML5
 - Criar um formulário
 
-
-
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos-chave
 
 A seguir, apresentamos uma série de perguntas que você deverá ser capaz de
 responder ao terminar esta unidade. Utilize estas perguntas como um guia para
