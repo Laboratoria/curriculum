@@ -44,7 +44,7 @@ explicaremos passo a passo mais abaixo):
 Ao abrir este mesmo arquivo HTML em um navegadro (como Chrome), se vê o
 seguinte:
 
-![Visualização no Chrome](https://imgur.com/25cRtGR)
+![Visualização no Chrome](https://i.imgur.com/25cRtGR.png)
 
 O navegador "lê" o arquivo HTML (o texto e as tags que estão dentro) e o
 apresenta segundo as regras da linguagem. Por exemplo, os textos que estão
@@ -92,7 +92,7 @@ fechamento `</p>`. O texto que se encontra entre as etiquetas de abertura e de
 fechamento é chamado de _conteúdo_ do elemento.
 
 > o elemento `p` (parágrafo) como exemplo: ![Exemplo de
-Tag](https://imgur.com/urQurOX)
+Tag](https://i.imgur.com/urQurOX.jpg)
 
 Vamos dar uma passada por todos os elementos do nosso arquivo:
 
