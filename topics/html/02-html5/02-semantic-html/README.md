@@ -1,46 +1,42 @@
-# HTML Semántico
+# HTML Semântico
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duraçaão: `1h`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Conocer elementos HTML semánticos
+- Conhecer elementos HTML semânticos
 
-## HTML semántico
+## HTML semântico
 
-Como hemos visto, los `div` son un excelente recurso para agrupar contenido de
-forma lógica y con ello poder darle estilos particulares a ciertas secciones.
-Por muchos años se ha desarrollado usando a los `div` como único recurso para
-agrupar contenido. Sin embargo, muchas web tienden a tener una estructura
-similar y a contener elementos comunes. Por ejemplo, casi todos los productos
-en la web tienen una cabecera, un menú de navegación, un contenido principal,
-contenido secundario, un footer, etc.
 
-Revisando la documentación del MDN sobre
-[estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura)
-podemos extraer:
+Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira
+lógica e com a capacidade de fornecer estilos específicos a determinadas seções.
+Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No
+entanto, muitos sites tendem a ter uma estrutura semelhante e conter elementos
+comuns. Por exemplo, quase todos os produtos na Web têm um cabeçalho, um menu de
+navegação, um conteúdo principal, um conteúdo secundário, um rodapé etc.
 
-> En nuestro código HTML, podemos crear secciones de contenido basadas en su
-funcionalidad — usando elementos que representen las diferentes secciones del
-contenido descritas anteriormente sin ambigüedad, de forma que las tecnologías
-de ayuda y los lectores de pantalla puedan reconocer esos elementos y asistir
-en tareas como "encontrar el menú de navegación", o "encontrar el contenido
-principal".
->
+Revendo a documentação do MDN sobre [estrutura e documentação da
+web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure),
+podemos extrair:
 
-En la siguiente imagen vemos como era el uso de HTML antes, como se puede
-observar hay muchos `<div>`. Ahora gracias a la semántica de HTML 5 podemos
-usar nuevas etiquetas para estructurar correctamente una página web.
+> Em nosso código HTML, podemos criar seções de conteúdo baseadas em sua
+> funcionalidade - utilizando elementos que representam diferentes secções do
+> conteúdo descrito acima, sem ambiguidades, para que tecnologias assistivas e
+> leitores de tela possam reconhecer esses elementos e ajudar em tarefas como
+> "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
 
-![html antes y ahora](https://user-images.githubusercontent.com/25906896/39723171-9ba63272-520a-11e8-9603-d57dec4af61c.png)
+Na imagem a seguir vemos como era o uso do HTML antes, como se pode observar existem muitas `<div>`. Agora, graças a semântica do HTML5 podemos usar novas tags para estruturar corretamente uma página web.
 
-Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuadas
-que podemos usar para representar estas secciones. Revisa el link anterior e
-investiga el uso de los siguientes elementos semánticos:
+![HTML antes e agora](https://imgur.com/RWr7eTW)
+
+Para implementar essas seções semânticas, o HTML possui tags apropriadas que
+podemos usar para representar essas seções. Verifique o link anterior e
+investigue o uso dos seguintes elementos semânticos:
 
 - `<header>`
 - `<nav>`
@@ -48,5 +44,11 @@ investiga el uso de los siguientes elementos semánticos:
 - `<aside>`
 - `<article>`
 - `<section>`
-- `<figure>`
 - `<footer>`
+
+### Leitura complementar
+
+- [Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+- [HTML Semântico](https://codefica.com/html-semantico/)
+- [Meu HTML é semântico e o
+  seu?](https://medium.com/collabcode/meu-html-%C3%A9-sem%C3%A2ntico-e-o-seu-4e97c81c0c49)

@@ -1,26 +1,29 @@
 # Opening
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Qué es HTML5 y su semántica
-- Conocerás las etiquetas más comunes de HTML5
-- Crearás un formulario
+- O que é HTML5 e sua semântica
+- Conhecer as tags mais comuns de HTML5
+- Criar um formulário
+
+
 
 ## Guía de preguntas y conceptos clave
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir, apresentamos uma série de perguntas que você deverá ser capaz de
+responder ao terminar esta unidade. Utilize estas perguntas como um guia para
+orientar seus estudos de aprendizagem. Retorne a elas constantemente à medida em
+que progride para certificar-se de que está na direção correta. Utilizem-nas
+como um checklist a ser marcado durante o seu progresso.
 
-- ¿Qué es HTML5?
-- ¿Para qué nos ayuda la semántica de HTML5?
-- ¿Cuáles son las nuevas etiquetas de HTML5 más comunes?
-- ¿Cuáles son etiquetas para crear un formulario?
+- O que é HTML5?
+- Em que a semântica HTML nos ajuda?
+- Quais são as novas etiquetas de HTML5 mais comuns?
+- Quais são as tags usadas para criar um formulario?
+

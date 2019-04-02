@@ -1,8 +1,8 @@
 # Closing
 
 - Tipo: `leitura`
-- Formato: `autoaprendizado`
-- Duración: `120min`
+- Formato: `individual`
+- Duração: `120min`
 
 ***
 

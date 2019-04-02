@@ -1,12 +1,12 @@
 # Closing
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 
-## ¿HTML5 es la última versión de HTML? Veamos
+## HTML5 é a última versão do HTML? 
 
 Sí y no. Es cierto que HTML5 es la última versión de HTML, pero además engloba
 un conjunto de tecnologías que define el estándar en relación a la web, tales

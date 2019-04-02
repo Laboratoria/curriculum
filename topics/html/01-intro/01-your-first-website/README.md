@@ -1,8 +1,8 @@
 # Sua primeira página Web
 
 - Tipo: `leitura`
-- Formato: `autoaprendizado`
-- Duración: `20min`
+- Formato: `individual`
+- Duração: `20min`
 
 ## Objetivos
 
