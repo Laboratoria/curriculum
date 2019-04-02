@@ -78,7 +78,7 @@ inicial `<p>` e termina com a tag final `</p>`. O texto entre as tags de
 abertura e fechamento é o _conteúdo_ do elemento.
 
 ![Tag de
-exemplo](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-tag-sample.png?raw=true)
+exemplo](https://i.imgur.com/urQurOX.jpg?1)
 
 
 ## Aninhamento de HTML
@@ -121,8 +121,7 @@ seja exibido como texto em _negrito_.
 
 Ao abrir este documento no navegador, teremos o seguinte:
 
-![HTML
-aninhado](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-nested-html.png?raw=true)
+![HTML aninhado](https://i.imgur.com/OHB7zz8.png)
 
 ## Elementos em bloco vs. inline
 
@@ -164,8 +163,7 @@ Vamos ver um exemplo:
 
 Ao visualizar o documento anterior no navegador, teremos:
 
-![Bloco vs.
-inline](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-block-inline.png?raw=true)
+![Bloco vs. inline](https://i.imgur.com/fBYvP1H.png)
 
 Tanto `em` quanto eles `strong` são elementos inline. Portanto, os primeiros
 três elementos são colocados na mesma linha, um após o outro, sem espaço entre
@@ -255,15 +253,14 @@ ou até mesmo não exibido:
 ```html
 <p>
   Um texto pode ser <strong>em linha</strong>,
-  <strong style="display: block">como bloco</strong>, y
+  <strong style="display: block">como bloco</strong>,
   <strong style="display: none">ou oculto</strong>.
 </p>
 ```
 
 A visão no navegador disto seria:
 
-![Exemplo de
-estilo](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-display.png?raw=true)
+![Exemplo de estilo](https://i.imgur.com/Mv6rAzy.png)
 
 O texto _"em linha"_ é exibido em linha (ou seja, na mesma linha do texto
 anterior _"Um texto pode ser exibido"_ ) porque lembramos que o elemento
@@ -379,8 +376,7 @@ Vejamos um exemplo:
 
 Ao visualizar o exemplo anterior no navegador, temos:
 
-![Div e
-Span](https://github.com/Laboratoria/curricula-js/raw/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/01-html/img-div-and-span.png?raw=true)
+![Div e Span](https://i.imgur.com/frH87y2.png)
 
 Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque
 ele cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas
