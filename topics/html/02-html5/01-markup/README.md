@@ -258,12 +258,6 @@ ou até mesmo não exibido:
 
 A visão no navegador disto seria:
 
-![Exemplo de estilo](https://i.imgur.com/Mv6rAzy.png)
-
-O texto _"em linha"_ é exibido em linha (ou seja, na mesma linha do texto
-anterior _"Um texto pode ser exibido"_ ) porque lembramos que o elemento
-_strong_ é do tipo em linha. O texto _"como um bloco"_ terminará em sua própria
-linha, uma vez que os elementos do tipo bloco não são mostrados de acordo com o
 texto ao redor. Lembre-se de que quando um item é do tipo bloco, ele aparecerá
 em uma nova linha de qualquer conteúdo que tenha vindo antes, e qualquer
 conteúdo que vier depois também aparecerá em uma nova linha. O texto _"ou

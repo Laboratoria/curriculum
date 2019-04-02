@@ -2,7 +2,11 @@
 
 - Tipo: `leitura`
 - Formato: `individual`
+<<<<<<< HEAD
 - Duração: `1h`
+=======
+- Duraçaão: `1h`
+>>>>>>> translate(topics/html/02-html5): openning, markup and semantic translated to portuguese
 
 ***
 
@@ -12,6 +16,7 @@
 
 ## HTML semântico
 
+<<<<<<< HEAD
 Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira
 lógica e com a capacidade de fornecer estilos específicos a determinadas seções.
 Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No
@@ -35,6 +40,30 @@ tags para estruturar corretamente uma página web.
 
 ![HTML antes e agora](https://i.imgur.com/RWr7eTW.png)
 
+=======
+
+Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira
+lógica e com a capacidade de fornecer estilos específicos a determinadas seções.
+Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No
+entanto, muitos sites tendem a ter uma estrutura semelhante e conter elementos
+comuns. Por exemplo, quase todos os produtos na Web têm um cabeçalho, um menu de
+navegação, um conteúdo principal, um conteúdo secundário, um rodapé etc.
+
+Revendo a documentação do MDN sobre [estrutura e documentação da
+web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure),
+podemos extrair:
+
+> Em nosso código HTML, podemos criar seções de conteúdo baseadas em sua
+> funcionalidade - utilizando elementos que representam diferentes secções do
+> conteúdo descrito acima, sem ambiguidades, para que tecnologias assistivas e
+> leitores de tela possam reconhecer esses elementos e ajudar em tarefas como
+> "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
+
+Na imagem a seguir vemos como era o uso do HTML antes, como se pode observar existem muitas `<div>`. Agora, graças a semântica do HTML5 podemos usar novas tags para estruturar corretamente uma página web.
+
+![HTML antes e agora](https://imgur.com/RWr7eTW)
+
+>>>>>>> translate(topics/html/02-html5): openning, markup and semantic translated to portuguese
 Para implementar essas seções semânticas, o HTML possui tags apropriadas que
 podemos usar para representar essas seções. Verifique o link anterior e
 investigue o uso dos seguintes elementos semânticos:
