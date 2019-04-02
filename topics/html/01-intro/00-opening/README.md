@@ -12,7 +12,6 @@
 - Aprender a implementar interações e dinamismo a uma página web usando
   Javascript
 
-
 ## Guia de perguntas e conceitos-chave
 
 Quando começamos a estudar um tema novo, é útil termos uma ideia dos conceitos
@@ -29,5 +28,5 @@ como um checklist a ser marcado durante o seu progresso.
 - Como ligamos o nosso `html` com o nosso `js`? Quais convenções devemos seguir
   ao fazer isso? Por quê?
 - Por que se diz que o `html` esta aninhado? Faça um desenho
-- Pense em exemplos de boas práticas decódigo `html`
+- Pense em exemplos de boas práticas de código `html`
 

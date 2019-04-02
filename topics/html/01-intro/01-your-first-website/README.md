@@ -7,7 +7,7 @@
 ## Objetivos
 
 - Conhecer os pricipais elementos e tags HTML
-- Aprender a dar dinamismi a uma página web usando JavaScript
+- Aprender a dar dinamismo a uma página web usando JavaScript
 - Ter uma aproximação ao mundo do código, criando seu primeiro site web
 
 ***
@@ -20,9 +20,9 @@ de Marijn Haverbeke, 2014.
 
 ## HTML: HyperText Markup Language
 
-HTML (HyperText Markup Language) é ua linguagem utilizada para criar uma
-estrutura de um site web. Para criar esse site, se começa criando um arquivo em
-formato HTML. Istoé muito parecido com criar um arquivo com formato word, excel
+HTML (HyperText Markup Language) é uma linguagem utilizada para criar a
+estrutura de um site web. Para criar esse site, começamos criando um arquivo em
+formato HTML. Isto é muito parecido com criar um arquivo com formato word, excel
 ou powerpoint.
 
 Um arquivo HTML simples se vê a seguir (não se assuste se não entender tudo, te
@@ -44,11 +44,9 @@ explicaremos passo a passo mais abaixo):
 Ao abrir este mesmo arquivo HTML em um navegadro (como Chrome), se vê o
 seguinte:
 
+![Visualização no Chrome](https://imgur.com/25cRtGR)
 
-![Visualização no
-Chrome](https://user-images.githubusercontent.com/25912510/35747209-7899e2de-0817-11e8-9ae7-fcfe96122470.png)
-
-O navegador "lê" o arquivo HTML (o texto e as etiquetas que estão dentro) e o
+O navegador "lê" o arquivo HTML (o texto e as tags que estão dentro) e o
 apresenta segundo as regras da linguagem. Por exemplo, os textos que estão
 dentro das tags `<h1> </h1>` são considerados cabeçalhos ou títulos, enquanto os
 textos que dentro da etiqueta `<p> </p>` são considerados parágrafos. Por isso,
@@ -57,8 +55,8 @@ primeira página Web._
 
 ## Crie sua primeira página Web
 
-Como já dicemos, _**a melhor maniera de aprender é fazendo**_. Por isso, é hora
-de você mesmo criar uma página webe aprender HTML.
+Como já dicemos, _**a melhor maneira de aprender é fazendo**_. Por isso, é hora
+de você mesmo criar uma página web e aprender HTML.
 
 A seguir um vídeo que explica o porquê de você precisar de um editor de texto
 para os exercícios: 
@@ -87,31 +85,31 @@ HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/wat
 ## Tags e elementos HTML
 
 Os arquivo HTML são compostos por `elementos`. Salvo algumas exceções (por
-exemplo `<!DOCTYPE html>`), os elementos começam com uma `tag de início` e
+exemplo `<!DOCTYPE html>`), os elementos começam com uma `tag de abertura` e
 terminam com uma `tag de fechamento`. Por exemplo, no nosso documento teremos o
-elemento `p`, que começa com a tag de início `<p>`e termina com uma tag de
+elemento `p`, que começa com a tag de abertura `<p>`e termina com uma tag de
 fechamento `</p>`. O texto que se encontra entre as etiquetas de abertura e de
 fechamento é chamado de _conteúdo_ do elemento.
 
 > o elemento `p` (parágrafo) como exemplo: ![Exemplo de
-Tag](https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png)
+Tag](https://imgur.com/urQurOX)
 
 Vamos dar uma passada por todos os elementos do nosso arquivo:
 
-1. O arquivo começa com a etiqueta `<!DOCTYPE html>` (que como vimos, não tem
-   início e fechamento). Sua função é fazer com que o navegador interprete o
-   arquivo como a _última versão_ do HTML, em contraposição a vários dialetos
+1. O arquivo começa com a tag `<!DOCTYPE html>` (que como vimos, não tem
+   abertura e fechamento). Sua função é fazer com que o navegador interprete o
+   arquivo como a _última versão_ do HTML, em contraposição a várias versões
    que estavam em uso no passado.
-2. Logo após vem a tag de abertura `<html>` (a etiqueta de fechamento `</ html>`
+2. Logo após vem a tag de abertura `<html>` (a tag de fechamento `</ html>`
    está ao final). Por convenção, todos os arquivos HTML devem ter o elemento
    `html` que englobe todos os demais.
 3. Dentro do elemento `html` estão dois elementos:  o `head` (cabeça, em
-   português) e o `body` (corpo, em protuguês). O `head` contem informações
+   português) e o `body` (corpo, em português). O `head` contem informações
    _sobre_ o arquivo e o `body` contem o arquivo em si.
-4. Dentro do elemento `head` está o elemento `title` (com sua tag de início e
-   fechamento), que contem o título doarquivo. É por isso que ao visualizar o
+4. Dentro do elemento `head` está o elemento `title` (com sua tag de abertura e
+   fechamento), que contem o título do arquivo. É por isso que ao visualizar o
    aquivo em um navegador, o título que aparece na aba do navegador é: "Minha
-   primeira página Web". é importante que notemos que o elemento `title` está
+   primeira página Web". É importante que notemos que o elemento `title` está
    _contido_ dentro do elemento `head`, o qual, por sua vez, está _contido_
    dentro do elemento `html`.
 5. Finalmente temos o elemento `body` que _contem_ o conteúdo que se mostrará no
@@ -126,7 +124,7 @@ Una manera de visualizar este concepto de "encapsulado" donde unos elementos
 ![HTML Jerarquía](http://apprize.info/javascript/kids/kids.files/image057.jpg)
 -->
 
-Existem muuitos mais elementos e tags HTML, que você vai aprender. Por agora, é
+Existem muito mais elementos e tags HTML que você vai aprender. Por agora, é
 hora de regressar ao JavaScript.
 
 
@@ -145,7 +143,7 @@ programação`. E a **única linguagem de programação que roda nos navegadores
 ações dos usuários, torndo-os interativos.
 
 Para incluir JavaScript em um arquivo HTML você pode utilizar o elemento
-`script` e colocar seu código JavaScript entre as tags de início e fechamento,
+`script` e colocar seu código JavaScript entre as tags de abertura e fechamento,
 tal como mostra o seguinte exemplo:
 
 ```html

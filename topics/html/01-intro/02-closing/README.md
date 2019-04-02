@@ -12,6 +12,6 @@
 - Como ligamos o nosso `html` com o nosso `js`? Quais convenções devemos seguir
   ao fazer isso? Por quê?
 - Por que se diz que o `html` esta aninhado? Faça um desenho
-- Pense em exemplos de boas práticas decódigo `html`
+- Pense em exemplos de boas práticas de código `html`
 
 

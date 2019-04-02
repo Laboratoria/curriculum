@@ -2,7 +2,7 @@
 
 - Tipo: `leitura`
 - Formato: `individual`
-- Duraçaão: `1h`
+- Duração: `1h`
 
 ***
 

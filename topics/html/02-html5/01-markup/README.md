@@ -16,17 +16,17 @@
 
 ## O que é HTML?
 
-Anteriormente você aprendeu a criar um arquivo HTML e vinculá-lo ao seu arquivo JavaScript. Nesta
-lição, nos aprofundaremos no HTML.
+Anteriormente você aprendeu a criar um arquivo HTML e vinculá-lo ao seu arquivo
+JavaScript. Nesta lição, nos aprofundaremos no HTML.
 
 Analisando diretamente a documentação da [Mozilla Developer
 Network](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started),
 temos o seguinte:
 
-> HTML (HyperText Markup Language) **não** é uma linguagem de programação, é
->uma _linguagem de marcação_ utilizada para dizer ao seu navegador como
->estruturar a página web que você visita. A página pode ser tão complicada ou
->tão simples quanto o desenvolvedor web desejar que seja.
+> HTML (HyperText Markup Language) **não** é uma linguagem de programação, é uma
+>_linguagem de marcação_ utilizada para dizer ao seu navegador como estruturar a
+>página web que você visita. A página pode ser tão complicada ou tão simples
+>quanto o desenvolvedor web desejar que seja.
 >
 >O HTML consiste em uma série de elementos que você usa para anexar, envolver ou
 >marcar diferentes partes do conteúdo para que apareça ou aja de uma certa
@@ -39,26 +39,35 @@ temos o seguinte:
 
 HTML5 é a última versão do HTML. Ele apresenta dois conceitos diferentes:
 
-- Se trata de uma nova versão de HTML, com novos elemetnos, atributos e comportamentos.
-- Contem um conjunto mais amplo de tecnologias que permite aos sites e apps serem mais diversos e de maior alcance. A este conjunto damos o nome de 
+- Se trata de uma nova versão de HTML, com novos elemetnos, atributos e
+  comportamentos.
+- Contem um conjunto mais amplo de tecnologias que permite aos sites e apps
+  serem mais diversos e de maior alcance. A este conjunto damos o nome de:
+  **HTML5**.
 
-HTML5 es la última versión de HTML. El término representa dos conceptos
-diferentes: **HTML5**.
+Desenhado de forma a ser utilizado por todos os desenvolvedores de Open Web,
+esta página referencia numerosos recursos sobre as tecnologias de HTML5,
+classificados em grupos segundo sua função.
 
-Desenhado de forma a ser utilizado por todos os desenvolvedores de Open Web, esta página referencia numerosos recursos sobre as tecnologias de HTML5, classificados em grupos segundo sua função.
+- **Semântica:** permitindo que descreva mais precisamente o que é o seu
+  conteúdo
+- **Conectividade:** permitindo que comunique com o servidor de maneiras novas e
+  inovadoras
+- **Off-line e armazenamento** permitindo webpages armazenem dados localmente no
+  client-side (lado do cliente) e operem offline de forma mais eficiente
+- **Multimédia** tornando o vídeo e áudio de primeira classe cidadãos na Open
+  Web
+- **Gráficos e efeitos 2D/3D:** permitindo uma gama muito mais diversificada de
+  opções de apresentação
+- **Desempenho e integração:** proporcionando maior otimização de velocidade e
+  melhor uso do hardware do computador
+- **Acesso ao dispositivo:** permitindo o uso de vários dispositivos de entrada
+  e saída
+- **Estilização:** permitindo que os autores escrevam temas mais sofisticados
 
-- **Semântica:** permitindo que descreva mais precisamente o que é o seu conteúdo.
-- **Conectividade:** permitindo que comunique com o servidor de maneiras novas e inovadoras.
-- **Off-line e armazenamento** permitindo webpages armazenem dados localmente no client-side (lado do cliente) e operem offline de forma mais eficiente.
-- **Multimédia** tornando o vídeo e áudio de primeira classe cidadãos na Open Web.
-- **Gráficos e efeitos 2D/3D:** permitindo uma gama muito mais diversificada de opções de apresentação.
-- **Desempenho e integração:** proporcionando maior otimização de velocidade e melhor uso do hardware do computador.
-- **Acesso ao dispositivo:** permitindo o uso de vários dispositivos de entrada e saída.
-  compomentes internos de entrada y salida de nuestro dispositivo.
-- **Estilização:** permitindo que os autores escrevam temas mais sofisticados.
-
-> Este é um [extrato da documentação do MDN](https://developer.mozilla.org/pt/docs/HTML/HTML5)
-que podemos encontrar sobre HTML5.
+> Este é um [extrato da documentação do
+MDN](https://developer.mozilla.org/pt/docs/HTML/HTML5) que podemos encontrar
+sobre HTML5.
 
 ## Anatomia de um elemento HTML
 
@@ -317,9 +326,9 @@ Hopper](https://img.youtube.com/vi/FM9aK638ICA/0.jpg)](https://www.youtube.com/w
 
 Muitas vezes, ao criar nossa estrutura HTML, torna-se necessário "agrupar"
 elementos para dividir nossa página web em seções ou partes lógicas. Por
-exemplo, se no _footer_ (ou rodapé) do nosso site, queremos mostrar os ícones
-de nossas redes sociais com links de contato, é útil agrupar todos os ícones em
-uma seção e os links em outra seção, e que ambos os grupos estejam contidos no
+exemplo, se no _footer_ (ou rodapé) do nosso site, queremos mostrar os ícones de
+nossas redes sociais com links de contato, é útil agrupar todos os ícones em uma
+seção e os links em outra seção, e que ambos os grupos estejam contidos no
 _footer_.
 
 Para fazer esses agrupamentos, podemos usar os elementos `div` e `span`. Os
