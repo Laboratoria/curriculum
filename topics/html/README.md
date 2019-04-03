@@ -1,33 +1,32 @@
 # HTML
 
-## Público Objetivo
+## Público Alvo
 
-Este curso está dirigido a personas _sin_ conocimientos previos de programación
-que tienen el interés de aventurarse al mundo del código. Será tu primer paso en
-la ruta de aprendizaje.
+Este curso é destinado a pessoas _sem_ conhecimentos prévios de programação que
+têm o interesse de se aventurar no mundo dos códigos. Será seu primeiro passo na
+rota de aprendizado.
 
 ***
 
-## Lo que aprenderás
+## O que você vai aprender
 
-* Conocer los principales elementos y etiquetas HTML
-* Profundizar en los elementos HTML
-* Conocer qué son y para qué sirven los atributos de elementos HTML
-* Conocer elementos HTML semánticos
+* Conhecer os principais elementos e tags HTML
+* Se aprofundar nos elementos HTML
+* Conhecer quem são e para qie servem os atributos dos elementos HTML
+* Conhecer elementos HTML semânticos
 
-## Requerimientos previos
+## Pré-requisitos
 
-Ningún conocimiento previo de programación es necesario para completar este
-curso. Está diseñado para principiantes.
+Nenhum conhecimento prévio de programação é necessário para completar este curso.
+Está desenhado para principiantes.
 
 ## Syllabus
 
-### Unidad 01: [Tu primera página web](01-intro)
+### Unidade 01: [Sua primeira página WEB](01-intro)
 
-En esta unidad crearás tu primera página web.
+Nessa unidade você criará sua primeira página web.
 
-### Unidad 02: [HTML5](02-html5)
+### Unidade 02: [HTML5](02-html5)
 
-Conocerás las nuevas etiquetas de HTML5 que gracias a su semántica podemos
-estructurar expresivamente una página web. También aprenderás sobre los
-formularios.
+Nessa unidade você vai conhecer as tags de HTML5 que tornam nossas páginas web
+semânticas e estruturadas. Você também vai aprender mais sobre formulários.
