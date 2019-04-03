@@ -1,30 +1,30 @@
-# Retos de código
+# Desafio
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `24h`
+- Tipo: `producto`
+- Formato: `individual`
+- Duração: `24h`
 
 ***
 
 ## Objetivos
 
-- A continuación te presentamos una serie de retos que debes completar para
-  poner tus conocimientos a prueba.
+- A seguir, apresentamos um defasio que você deve completar para colocar o seu
+  conhecimento para à prova.
 
-## Estructura de trabajo
+## Estrutura de trabalho
 
-Para cada reto hemos creado un repositorio _boilerplate_ (plantilla inicial)
-con todos los recursos que necesitas. En las instrucciones del reto encontrarás
-los pasos para usar este boilerplate.
+Criamos um repositório _padronizado_ \(modelo inicial\) com todos os recursos
+que você precisa. Nele você encontrará as instruções do desafio.
 
-## 1. Freelancer
+## Desafio
 
-- [Instrucciones Reto Freelancer](https://github.com/Laboratoria-learning/freelancer)
+Contruir a página do Freelancer usando os seus conhecimento de HTML e CSS.
 
-## 2. Lyft
+- [Instruções Desafio Freelancer](https://github.com/rafaelbcerri/freelancer)
 
-- [Instrucciones Reto Lyft](https://github.com/Laboratoria-learning/lyft)
+## Hacker Edition
 
-## 3. Workshopper (opcional)
+A versão hacker desse desafio é criar uma outra página, mas dessa vez se
+baseando no repositorio do Lyft:
 
-- [Learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
+- [Instruções Desafio Lyft](https://github.com/rafaelbcerri/lyft)

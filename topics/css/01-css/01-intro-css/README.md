@@ -1,74 +1,67 @@
-# Intro a CSS
+# CSS
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `4h`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `4h`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué es CSS y cómo funciona
-- Conocer las diferentes maneras de agregarle estilos a tu web
-- Aprender la sintaxis CSS
-- Aprender qué son selectores y cuáles son los selectores más utilizados
-- Entender cómo funcionan las reglas de cascada y herencia de CSS
-- Aprender los valores usuales de CSS y sus unidades
+- Entender o que é CSS e como funciona
+- Conhecer as diferentes maneiras de adicionar estilos à sua web
+- Aprender a sintaxe CSS
+- Aprender o que são os seletores e quais são os seletores mais usados
+- Entender como funcionam as regras de casacata e herança do CSS
+- Aprender os valores usuais de CSS e suas unidades
 
-<!-- link a slides de lab:
-https://docs.google.com/a/laboratoria.la/presentation/d/
-1Ng9C2jND0wHISfVzkqEWmGznJPMQZ3PtCZ_6DB_MXLk/edit?usp=drive_web
--->
+## O que é CSS e como funciona?
 
-## ¿Qué es CSS y cómo funciona?
+CSS significa _Cascading Style Sheets_ \(em português: folhas de estilo em
+cascata\). É uma linguagem usada para definir e criar a apresentação de um
+documento escrito em HTML. CSS descreve como os elementos na estrutura do
+documento devem ser apresentados na tela. Com CSS, damos estilo e design à
+páginas da web. Nós mudamos cores, tamanhos, espaços, adicionamos animações,
+etc.
 
-<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS -->
-
-CSS significa _Cascading Style Sheets_
-(en español: hojas de estilo en cascada). Es un lenguaje usado para definir y
-crear la presentación de un documento escrito en HTML. CSS describe cómo los
-elementos en la estructura del documento deben ser presentados en la
-pantalla. Con CSS damos estilo y diseño a las páginas web. Cambiamos colores,
-tamaños, espacios, agregamos animaciones, etc.
-
-Existen tres opciones para incluir CSS en un documento HTML:
+Existem três opções para incluir CSS em um documento HTML:
 
 ### 1. CSS Inline
 
-Ya hemos visto cómo agregar estilos a nuestros elementos HTML con el atributo
-style. Por ejemplo:
+Já vimos como adicionar estilos aos nossos elementos HTML com o atributo
+_style_. Por exemplo:
 
 ```html
 <h1 style="color: blue;
 background-color: yellow;
-border: 1px solid black;">¡Hola Mundo!</h1>
+border: 1px solid black;">Olá Mundo!</h1>
 ```
 
-En el navegador, el titular anterior se vería así:
+No navegador, o título anterior ficaria assim:
 
-![Inline Style](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/02-css/img-inline-style.png?raw=true)
+![Estilo
+Inline](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/02-css/img-inline-style.png?raw=true)
 
-Esta forma de agregar CSS se llama CSS Inline, pero no es muy recomendada. Su
-mantenimiento es complicado, ya que podríamos tener que
-actualizar la misma información muchas veces a lo largo del documento. Además,
-estamos mezclando la información de estilo con la información estructural del
-HTML, haciendo el CSS difícil de leer y de entender. Manteniendo los distintos
-tipos de código separados y puros facilitará la tarea a aquellos que vayan a
-trabajar posteriormente en el código. Recuerda que siempre debes pensar en
-organizar tu código de una manera que facilita a otros entender lo que estás
-haciendo.
+Esta maneira de adicionar CSS é chamada de **CSS Inline**, mas não é muito
+recomendada. Sua manutenção é complicada, já que poderíamos ter que atualizar as
+mesmas informações várias vezes ao longo do documento. Além disso, estamos
+misturando informações de estilo com informações HTML estruturais, tornando o
+CSS difícil de ler e entender. Manter os diferentes tipos de código separados e
+puros facilitará a tarefa para aqueles que posteriormente trabalharão no código.
+Lembre-se de que você deve sempre pensar em organizar seu código de uma maneira
+que torne mais fácil para os outros entenderem o que você está fazendo.
 
-### 2. CSS en el head
+### 2. CSS no head
 
-Otra opción es colocar los estilos dentro de un elemento html `<style>` que
-colocamos en el `head`. Por ejemplo, para representar
-los mismos estilos del `h1` anterior tendríamos lo siguiente:
+Outra opção é colocar os estilos dentro de um elemento html `<style>` que
+colocamos no `head`. Por exemplo, para representar os mesmos estilos do `h1`
+anterior, teríamos o seguinte:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Entendiendo CSS</title>
+    <title>Entendendo CSS</title>
     <style>
       h1 {
         color: blue;
@@ -78,50 +71,46 @@ los mismos estilos del `h1` anterior tendríamos lo siguiente:
     </style>
   </head>
   <body>
-    <h1>¡Hola Mundo!</h1>
+    <h1>Olá Mundo!</h1>
   </body>
 </html>
 ```
 
-Este método continúa siendo ineficiente. ¿Qué pasa si tenemos estilos similares
-en otras páginas de mi sitio web? Tendría que repetir los estilos en cada
-página. Y recordemos que no nos gusta repetirnos: DRY! :)
+Este método também é ineficiente. O que acontece se tivermos estilos semelhantes
+em outras páginas do meu site? Eu teria que repetir os estilos em cada página. E
+lembre-se que não gostamos de nos repetir: DRY! :\)
 
-### 3. CSS stylesheet externo
+### 3. Folha de estilos externa CSS
 
-La manera ideal de agregar estilos a tu producto web es tener un archivo CSS
-separado de tu archivo HTML. Todos los estilos se incluyen en este
-archivo de tipo CSS externo, que las páginas HTML enlazan mediante la
-etiqueta html `<link>`.
+A maneira ideal de adicionar estilos ao seu sítio da Web é ter um arquivo CSS
+separado do arquivo HTML. Todos os estilos estão incluídos neste arquivo CSS
+externo, que as páginas HTML vinculam usando a tag html `<link>`.
 
-Cabe mencionar que este link externo puede ser un archivo
-que esta en tu computadora o un link de un archivo externo
-de internet. (una dirección HTTP)
+Vale ressaltar que este link externo pode ser um arquivo que está no seu
+computador ou um link de um arquivo externo da Internet \(um endereço HTTP\).
 
-En el caso de nuestro ejemplo anterior con los estilos para el `h1`, tendríamos
-dos archivos:
+No caso do nosso exemplo anterior com os estilos para ele `h1`, teríamos dois
+arquivos:
 
-#### Archivo `index.html`
+#### Arquivo `index.html`
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Entendiendo CSS</title>
-    <!--Link a archivo que esta en la misma computadora-->
+    <title>Entendendo CSS</title>
+    <!--Link para o arquivo que está no mesmo computador-->
     <link rel="stylesheet" href="style.css">
-    <!--Link a archivo que esta en internet-->
+    <!--Link para o arquivo que está na internet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Olá, Mundo!</h1>
   </body>
 </html>
-
 ```
 
-#### Archivo `style.css`
+#### Arquivo `style.css`
 
 ```css
 h1 {
@@ -129,177 +118,235 @@ h1 {
   background-color: yellow;
   border: 1px solid black;
 }
-
 ```
 
-La etiqueta `<link>` cuenta con el atributo `rel` para indicar la relación del
-documento enlazado con el actual. El uso más común para este atributo es
-especificar el enlace a una hoja de estilos externa: el atributo `rel` se
-establece con valor `stylesheet`. El atributo `href` se establece con la
-ruta a la hoja de estilos externa para dar formato a la página. En el ejemplo
-anterior, dado que el archivo a linkear se encuentra en nuestro propio
-ambiente, simplemente le ponemos el nombre del archivo: `style.css`.
+A tag `<link>` tem o atributo `rel` para indicar o relacionamento do documento
+vinculado ao atual. O uso mais comum desse atributo é especificar o link para
+uma folha de estilos externa: o atributo `rel` é definido com o valor
+`stylesheet`. O atributo `href` é definido com o caminho para a folha de estilo
+externa para formatar a página. No exemplo acima, uma vez que o arquivo para
+ligação está em nosso próprio ambiente, nós simplesmente colocar o nome do
+arquivo: `style.css`.
 
-## Sintaxis CSS
+## Sintaxe CSS
 
-Como hemos visto en la lección anterior, para especificar el estilo hacemos
-uso de los pares `propiedades : valores`.
+Como vimos na lição anterior, para especificar o estilo, usamos os pares
+`propriedades : valores`.
 
-- Propiedades: son identificadores que indican
-  a las personas qué característica de estilo (ancho, color de fondo, fuente)
-  queremos cambiar.
+- Propriedades: são identificadores que indicam às pessoas qual recurso de
+  estilo \(largura, cor de fundo, fonte\) queremos alterar.
+- Valores: cada propriedade recebe um valor, que indica como queremos alterar
+  essa característica \(por exemplo, qual fonte, qual largura ou qual cor
+  usar\).
 
-- Valores: a cada propiedad se le da un valor, que indica cómo queremos cambiar
-  ésta característica (por ejemplo qué fuente, qué ancho o qué color usar).
+O par formado por uma propriedade e um valor é chamado de **instrução** CSS.
+Várias instruções juntas formam um **bloco de instruções**. Para definir para
+qual elemento da página da web o estilo especificado pelo bloco de declaração
+deve ser aplicado, usamos um **seletor**. O seletor informa ao navegador para
+qual elemento \(ou elementos\) de uma Web deve aplicar um determinado estilo.
+Por exemplo, um seletor pode ser um título, um parágrafo, uma imagem etc. Blocos
+de declaração CSS combinados com seletores formam **regras CSS**.
 
-El par formado por una propiedad y un valor se denomina **declaración** CSS.
-Varias declaraciones juntas forman un **bloque de declaraciones**. Para
-definir a qué elemento de la página web se debe aplicar el estilo
-que especifica el bloque de declaración utilizamos un **selector**. El
-selector le indica al navegador a qué elemento (o elementos) de una web debe
-aplicar cierto estilo. Por ejemplo, un selector puede ser un título, un
-párrafo, una imagen, etc. Los bloques de declaraciones CSS emparejados con
-selectores forman **reglas CSS**.
-
-Por ejemplo, una regla css sería:
+Por exemplo, uma regra de css seria:
 
 ```css
-selector
+seletor
 |
-p { color: red; font-size: 15px; }
-      |     |       |       |
-      prop  valor  prop    valor
-      ___________  ______________
-           |              |
-      declaración     declaración
-      ___________________________
-                  |
-         bloque de declaración
+p { color:red; font-size:15px ; }
+      |    |       |      |
+     prop  valor  prop   valor
+     ___________  ______________
+          |             |
+      declaração    declaração
+     ___________________________
+                 |
+         bloco de instruções
 
-/* ejemplo de una regla css */
+/ * exemplo de uma regra css * /
 ```
 
-La convención para representar el ejemplo anterior es la siguiente
-(es más fácil de leer cuando colocamos las declaraciones una debajo de la otra):
+A convenção para representar o exemplo anterior é a seguinte \(é mais fácil ler
+quando colocamos as instruções uma abaixo da outra\):
 
 ```css
 p {
-  color: red;
-  font-size: 15px;
+   color: red;
+   font-size: 15px ;
 }
-
 ```
 
-En resumen, el bloque de declaración indica qué hay que hacer y el selector
-indica a quién hay que aplicárselo. Por lo tanto, los selectores son
-imprescindibles para aplicar de forma correcta los estilos CSS en una
-página. A un mismo elemento HTML se le pueden aplicar varias reglas CSS y
-cada regla CSS puede aplicarse a un número ilimitado de elementos.
+Em resumo, o bloco de instruções indica o que precisa ser feito e o seletor
+indica a quem deve ser aplicado. Portanto, os seletores são essenciais para
+aplicar corretamente estilos CSS em uma página. Várias regras CSS podem ser
+aplicadas ao mesmo elemento HTML e cada regra CSS pode ser aplicada a um número
+ilimitado de elementos.
 
-## Selectores
+## Seletores
 
-Existen múltiples selectores. Lee la siguiente documentación para que aprendas
-más sobre selectores:
+Existem vários seletores. Leia a documentação a seguir para aprender mais sobre
+seletores:
 
-- [Selectores Simples - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples)
-- [Selectores Básicos - Libros Web](http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html)
-- [Selectores de Atributos - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_de_Atributos)
-- [Pseudo Selectores - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)
+- [CSS Básico -
+  MDN](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico)
+- [Seletores -
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS)
+- [Combinação de Seletores-
+  W3im](http://www.w3im.com/pt/css/css_combinators.html)
+- [Pseudo Seletores -
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 
-Al finalizar tu investigación debes saber qué es y cómo usar:
+No final da sua pesquisa, você deve saber o que é e como usar:
 
-- Selector universal
-- Selector de elementos (de tipo)
-- Selectores de clases
-- Selectores ID
-- Selector descendiente
-- Selector hijo
-- Selectores de atributo
-- Pseudo selectores
+- Seletor universal
+- Seletor de elementos \(de tipo\)
+- Seletores de classe
+- Seletores ID
+- Seletor descendente
+- Seletor filho
+- Seletores de atributo
 
-## Reglas de cascada y herencia
+## Pseudo-seletores
 
-Como hemos visto, diferentes reglas CSS pueden aplicarse a un número ilimitado
-de elementos. Esto puede generar estilos que entran en conflicto:
-declaraciones con estilos diferentes afectando el mismo elemento.
-Afortunadamente. CSS cuenta con un mecanismo conocido como la **cascada**
-que gobierna cómo interactúan los estilos y qué estilos tienen preferencia
-cuando existe un conflicto. De hecho, este mecanismo de cascada es la razón
-por la cual CSS tiene su nombre: _Cascading Style Sheets_
-(en español: hojas de estilo en cascada).
-
-Otra característica de CSS es la **herencia** de estilos. La herencia es el
-proceso por el cual algunas declaraciones de CSS aplicadas a un elemento pasan
-de forma automática a los elementos que se encuentran anidados
-(sus descendientes).
-
-Lee los siguientes artículos para entender los conceptos de cascada y herencia
-en CSS:
-
-- [Cascada y Herencia - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia)
-- [Herencia - Librosweb](http://librosweb.es/libro/css/capitulo_2/herencia.html)
-- [Colisiones de estilos - Librosweb](http://librosweb.es/libro/css/capitulo_2/colisiones_de_estilos.html)
-
-Al terminar tu investigación, debes ser capaz de entender los 3 factores que
-determinan el mecanismo de cascada. En particular, responde lo siguiente:
-
-- ¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
-- ¿Qué significa que un selector es más específico que otro? Dame un ejemplo
-- ¿Se aplica el estilo con mayor o menor especificidad?
-- ¿Cómo se calcula la especificidad?
-- ¿Qué significa `!important`? ¿Por qué **NO** debemos usarlo a menos que
-  sea estrictamente necesario?
-- ¿Todos los estilos en CSS se heredan? ¿Por qué?
-- ¿Qué es y para qué sirve `inherit`?
-
-## Valores y unidades
-
-Existen una gran variedad de valores CSS,los cuales se pueden expresar con
-diferentes unidades. Por ejemplo: la altura, el ancho y el margen de un
-elemento pueden ser definidos en milímetros, centímetros, pulgadas
-o pixeles. El color podemos definirlo con palabras clave (como `red`), con
-valores, o con el modelo RGB.
-
-Haz tu investigación de los siguientes recursos y aprende las múltiples formas
-de representar los valores en CSS:
-
-- [Valores y unidades - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
-- [Unidades y medidas - Librosweb](http://librosweb.es/libro/css/capitulo_3/unidades_de_medida.html)
-- [Colores - Librosweb](http://librosweb.es/libro/css/capitulo_3/colores.html)
-
-Al finalizar esta lectura, debes saber responder las siguientes preguntas:
-
-- Dame un ejemplo de una undidad absoluta y una relativa
-- ¿Para qué sirve `line-height`?
-- ¿Para qué sirven valores en procentajes? Dame un ejemplo
-- El tamaño de fuente por defecto que los navegadores usan antes de aplicar
-  CSS es de ...
-- ¿Qué unidad es `#ff0000`? ¿Qué color representa?
-- ¿RGB es una función?
-- ¿Qué color representa `rgb(0,0,255)`?
-- ¿Cómo le damos opacidad al color?
-- ¿Cuándo se utilizan valores sin unidades?
-- ¿Cuáles son las recomendaciones generales para el uso de unidades?
-
-## Comentarios en CSS
-
-Así como es buena práctica comentar tu código html y tu código js, es buena
-práctica comentar tu CSS. Los comentarios en CSS se hacen de la siguiente manera:
-
-- El comienzo se indica mediante los caracteres `/*` * El final del comentario
-  se indica mediante `*/`
-
-Veamos un ejemplo:
+Os pseudo seletores são palavras chaves que alteram o estado de um elemento. Os
+pseudo seletores não são encontrados sozinhos. Estão sempre acompanhados de um
+seletor e são precedidos por `:`. Os pseudo seletores ou pseudo classes
+apresentam a seguinte síntaxe:
 
 ```css
-/* Comentario en CSS */
+button:hover {
+  color: red;
+}
 ```
 
-## Continuando la página de Grace Hopper de wikipedia
+### :hover
 
-Ahora que ya conoces más a profundidad sobre CSS puedes seguir a Michelle en
-el siguiente video donde termina de desarrollar la página de Garce Hopper,
-utilizando una estructura semántica y todas las bondades de CSS para
-representar el diseño lo más fiel posible.
+O `:hover` é um pseudo seletor que altera o estilo de um elemento quando passamos
+o mouse em cima dele. O uso desse pseudo seletor é bastante comum. Não
+precisamos ir muito longe para ver ele sendo usado na prática. Aqui mesmo no LMS
+ao realizarmos o login nos deparamos com o seguinte:
 
-[![Grace Hopper](https://img.youtube.com/vi/RBeCotNZUq4/0.jpg)](https://www.youtube.com/watch?v=RBeCotNZUq4)
+![hover](https://i.imgur.com/GysD1Rh.gif)
+
+Note que ao passar do mouse os elementos adiquirem estilos novos. Isso é feito
+através do `:hover`.
+
+### :active
+
+Esse pseudo seletor é utilizado para alterar o estado de links ativos. Mas o que
+seriam links ativos? Os links se tornam ativos no momento do clique.
+
+```css
+button {
+  color: black;
+  background-color: yellow;
+}
+
+button:active {
+  color: white;
+  background-color: #ff008f;
+}
+```
+
+![active](https://i.imgur.com/tCctJcn.gif)
+
+Perceba que no exemplo, o estilo do botão é apenas alterado quando estamos
+clicando. Quando não está mais ocorrendo o evento de clique o botão assume o
+estilo aplicado sem o pseudo seletor `:active`.
+
+### :focus
+
+O `:focus` é um pseudo seletor que se aplica particulamente aos elementos que
+recebem eventos como entrada de texto, ou outros inputs de usuário, como por
+exemplo, os inputs e textareas.
+
+```css
+input:focus {
+  background-color: yellow;
+}
+```
+
+![focus](https://i.imgur.com/y5uGreS.gif)
+
+## Regras de cascata e herança
+
+Como vimos, regras CSS diferentes podem ser aplicadas a um número ilimitado de
+elementos. Isso pode gerar estilos que entram em conflito: instruções com
+diferentes estilos afetando o mesmo elemento. Felizmente O CSS possui um
+mecanismo conhecido como **cascata** que rege como os estilos interagem e quais
+estilos têm preferência quando há um conflito. Na verdade, esse mecanismo em
+cascata é a razão pela qual o CSS tem o seu nome:  _Cascading Style Sheets_ \(em
+português: folhas de estilo em cascata\).
+
+Outra característica do CSS é a **herança** de estilos. Herança é o processo
+pelo qual algumas instruções CSS aplicadas a um elemento passam automaticamente
+para os elementos que estão aninhados \(seus descendentes\).
+
+Leia o artigo a seguir para entender os conceitos de cascata e herança em CSS:
+
+- [Especificidade, Herança e Efeito Cascata - Emanuel G de
+  Souza](https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173)
+
+Quando você terminar sua pesquisa, você deve ser capaz de entender os 3 fatores
+que determinam o mecanismo de cascata. Em particular, responda o seguinte:
+
+- Qual ordem prevalece para atribuir um estilo? a última? a primeira?
+- O que significa que um seletor é mais específico que outro? Dê um exemplo;
+- O estilo se aplica com mais ou menos especificidade?
+- Como a especificidade é calculada?
+- O que isso significa `!important`? Por que **não** devemos usá-lo a menos que
+  seja estritamente necessário?
+- Todos os estilos em CSS são herdados? Por quê?
+- O que é e para que serve `inherit`?
+
+## Valores e unidades
+
+Existe uma grande variedade de valores de CSS, que podem ser expressos com
+diferentes unidades. Por exemplo: a altura, largura e margem de um elemento
+podem ser definidas em milímetros, centímetros, polegadas ou pixels. A cor pode
+ser definida com palavras-chave \(como `red`\), com valores ou com o padrão RGB.
+
+Faça sua pesquisa dos recursos a seguir e aprenda as várias maneiras de
+representar valores em CSS:
+
+- [Unidades e
+  medidas](https://helio.me/quais-medidas-css-usar-e-quando-usar-8dfeed9f42f5)
+- [Unidades - W3](https://www.w3.org/Style/Examples/007/units.pt_BR.html)
+- [Cores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value)
+- [Gerador de Cores - W3](https://www.w3schools.com/colors/colors_mixer.asp)
+
+No final desta leitura, você deve saber como responder às seguintes perguntas:
+
+- Dê um exemplo de uma unidade absoluta e uma relativa
+- Para que serve `line-height`?
+- Para que servem valores em porcentagens? Dê um exemplo
+- O tamanho de fonte padrão que os navegadores usam antes de aplicar CSS é...
+- Que unidade é `#ff0000`? Que cor representa?
+- RGB é uma função?
+- Que cor representa `rgb(0,0,255)`?
+- Como damos opacidade à cor?
+- Quando os valores são usados sem unidades?
+- Quais são as recomendações gerais para o uso de unidades?
+
+## Comentários em CSS
+
+Como é uma boa prática comentar seu código html e seu código js, é recomendável
+comentar seu CSS. Comentários em CSS são feitos da seguinte forma:
+
+- O começo é indicado pelos caracteres `/*`. O fim do comentário é indicado por
+  `*/`
+
+Vejamos um exemplo:
+
+```text
+/ * Comentário no CSS * /
+```
+
+## Continuando a página de Grace Hopper da wikipedia
+
+Agora que você sabe mais sobre a profundidade CSS você pode acompanhar a
+Palomita no vídeo a seguir no qual ela termina de desenvolvar a página de Grace
+Hopper, usando uma estrutura semântica e todos os benefícios do CSS para
+representar o projeto o mais fiel possível.
+
+[![Grace
+Hopper](https://img.youtube.com/vi/CJtJbWs3qjQ/0.jpg)](https://www.youtube.com/watch?v=CJtJbWs3qjQ)

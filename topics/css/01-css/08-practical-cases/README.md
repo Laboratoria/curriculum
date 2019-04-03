@@ -1,40 +1,41 @@
-# Caso práctico (video)
+# Casos Prático (vídeo)
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Entender, a través de un caso práctico, cómo crear estructuras en la web con
-  `html` y a darle estilos con `css`
+- Entender, por meio de um estudo de caso, como criar estruturas na web com
+  `html` e dar estilos com `css`
 
 ## Enunciado
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos
-para resolver problemas reales.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver
+problemas reais.
 
-Imagina que estás creando tu primera web interactiva y quieres hacerle un menú
-de navegación. Tu equipo de diseño te ha pasado estos demos para que repliques:
+Imagine que você está criando seu primeiro site interativo e deseja fazer um
+menu de navegação. Sua equipe de projeto passou essas demonstrações para você
+replicar:
 
-### 1. Menú Vertical
+### 1. Menu Vertical
 
-![Demo Menu vertical](https://fotos.subefotos.com/3b523ebdaaa3e207adb555eaa26b8351o.gif)
+![Menu vertical](https://i.imgur.com/m6WSYHE.gif)
 
-### 2. Menú Horizontal
+### 2. Menu horizontal
 
-![Demo Menu horizontal](https://fotos.subefotos.com/9da8149c853131e7e7282a30c9dc37e6o.gif)
+![Menu horizontal](https://i.imgur.com/S8KxWcj.gif)
 
-## Solucionario
+## Soluções
 
-A continuación, Lulu te explica cómo resolvió este reto:
+Em seguida, o Rafa explica como resolveu esse desafio:
 
-### 1. Solución Menú Vertical
+### 1. Menu Vertical da Solução
 
-[![Vertical](https://img.youtube.com/vi/tk6DAx5Crn4/0.jpg)](https://www.youtube.com/watch?v=tk6DAx5Crn4)
+[![Vertical](https://img.youtube.com/vi/pQcWM9p65EA/0.jpg)](https://www.youtube.com/watch?v=pQcWM9p65EA)
 
-### 2. Solución Menú Horizontal
+### 2. Menu Horizontal da Solução
 
-[![Horizontal](https://img.youtube.com/vi/2brqbH94z40/0.jpg)](https://www.youtube.com/watch?v=2brqbH94z40)
+[![Horizontal](https://img.youtube.com/vi/Tyd-iCYSIsw/0.jpg)](https://www.youtube.com/watch?v=Tyd-iCYSIsw)

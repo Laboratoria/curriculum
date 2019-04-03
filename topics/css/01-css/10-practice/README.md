@@ -1,39 +1,34 @@
-# Ejercicios libres
+# Casos Práticos
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `8h`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `4h`
 
 ***
 
 ## Objetivos
 
-- Practicar, practicar y practicar
+* Praticar, praticar e praticar
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante la clase y así ayudar al resto de tus compañeras :)
+Aqui estão alguns exercícios para você praticar sozinha \(ou no squad\). Caso
+alguma dúvida apareça chame a sua equipe de mentores :\)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve fazer o upload dos exercícios no `GitHub` e publicá-los com o `GitHub
+Pages`.
 
-### 1. Nuestras coders
+### 1. Pinterest (layout)
 
-Replica el siguiente esquema:
+Crie uma réplica do [Pinterest](https://laboratoria.github.io/pinterestify/) com
+as imagens que você mais gosta :\)
 
-![Nuestras coders](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-nuestras-coders.png?raw=true)
+### 2. Applove
 
-### 2. Pinterest (maquetado)
+Crie uma réplica do site da
+[Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png).
 
-Crea una réplica de [Pinterest](https://laboratoria.github.io/pinterestify/) con
-las imágenes que más te gusten :)
-
-### 3. Applove
-
-Sigue los pasos de tu profe para crear una réplica de la  web [Applove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png).
-
-Para completar este ejercicios hemos creado un [repositorio _boilerplate_](https://github.com/Laboratoria/AppLove)
-(plantilla inicial) con todos los recursos que necesitas. Esto incluye las
-imágenes y algunas clases CSS que ya hemos creado para ti :)
+Para completar este exercício, criamos um [repositório
+_padronizado_](https://github.com/Laboratoria/AppLove) \(modelo inicial\) com
+todos os recursos que você precisa. Isso inclui as imagens e algumas classes CSS
+que já criamos para você :\)
