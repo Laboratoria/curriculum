@@ -49,9 +49,14 @@ Quais outros você encontrou e gostaria de adicionar à sua página da web?
 
 ## Sprites
 
-Em certas ocasiões, você vai querer agregar muitas imagens relacionadas (por exemplo, um menu com bandeiras de diferentes países). No entanto, já chegou a pensar que entediante e trabalho seria colocar as imagens uma por uma? Para isso, existe umatécnica chamada `CSS sprites` que te permite lidar de uma maneira mais eficiente este tipo de caso. 
+Em certas ocasiões, você vai querer agregar muitas imagens relacionadas (por
+exemplo, um menu com bandeiras de diferentes países). No entanto, já chegou a
+pensar que entediante e trabalho seria colocar as imagens uma por uma? Para
+isso, existe umatécnica chamada `CSS sprites` que te permite lidar de uma
+maneira mais eficiente este tipo de caso.
 
-Aprenda mais sobre CSS sprites [nesse link](https://www.w3schools.com/css/css_image_sprites.asp)
+Aprenda mais sobre CSS sprites [nesse
+link](https://www.w3schools.com/css/css_image_sprites.asp)
 
 ## Link extra
 

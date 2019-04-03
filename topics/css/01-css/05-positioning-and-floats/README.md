@@ -78,7 +78,8 @@ src="https://mdn.mozillademos.org/files/13360/long.jpg"></p>
 body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid blue;  padding: 10px;  margin: 10px;}span {  background: red;  border: 1px solid black;}
 ```
 
-![Fluxo B&#xE1;sico de Documentos](https://github.com/Laboratoria/curricula-js/raw/441a522e53ff2f34843e1ca740c01ea526fe8c19/03-interactive-site/00-html-and-css/04-positioning-and-floats/img-normal-flow.png?raw=true)
+![Fluxo B&#xE1;sico de
+Documentos](https://github.com/Laboratoria/curricula-js/raw/441a522e53ff2f34843e1ca740c01ea526fe8c19/03-interactive-site/00-html-and-css/04-positioning-and-floats/img-normal-flow.png?raw=true)
 
 ## 2. Positioning
 
@@ -118,7 +119,8 @@ página\) por meio das propriedades: `top`, `bottom`, `left` e `right`.
 
 Leia mais sobre a posição relativa aqui:
 
-- [Posicionamento relativo - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Relative_positioning)
+- [Posicionamento relativo -
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Relative_positioning)
 
 ### Absolute
 
@@ -205,22 +207,24 @@ elementos flutuantes.
 
 Leia sobre o porque usar e como usar _clearfix_ aqui:
 
-- [Para o que serve o clearfix? - Origamid](https://www.origamid.com/codex/para-que-serve-o-clearfix/)
-- [CSS Clearfix](https://blog.samuelsimoes.com/html-css/2013/05/12/css-clearfix.html)
+- [Para o que serve o clearfix? - 
+Origamid](https://www.origamid.com/codex/para-que-serve-o-clearfix/)
+- [CSS 
+Clearfix](https://blog.samuelsimoes.com/html-css/2013/05/12/css-clearfix.html)
 
 ## Leituras complementares
 
 Position:
 
-- [Position CSS - Devmedia](https://www.devmedia.com.br/position-css-definindo-a-posicao-de-elementos-com-fixed-relative-e-absolute/37700)
-- [Posicionamento relativo e absoluto - Maujor](http://www.maujor.com/tutorial/absrel.php)
+- [Position CSS - Devmedia]
+(https://www.devmedia.com.br/position-css-definindo-a-posicao-
+de-elementos-com-fixed-relative-e-absolute/37700)
+- [Posicionamento relativo e absoluto - 
+Maujor](http://www.maujor.com/tutorial/absrel.php)
 
 Float:
 
 - [All about floats - CSS Tricks](https://css-tricks.com/all-about-floats/) -->
-
-
-
 
 <!-- ### Valores de float
 

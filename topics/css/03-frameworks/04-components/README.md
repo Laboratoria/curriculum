@@ -130,4 +130,3 @@ Lembre-se:
 - Investigar
 - Testar
 - Perguntar!!
-

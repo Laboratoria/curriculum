@@ -14,9 +14,9 @@
 
 ## Enunciados
 
-A seguir há um exercício prático que será resolvido, passo a passo, por
-sua equipe de professoras em uma sessão presencial (`oficina`). Sugerimos que
-você tente resolver o exercício por sua conta ou em equipe **antes** da seção
+A seguir há um exercício prático que será resolvido, passo a passo, por sua
+equipe de professoras em uma sessão presencial (`oficina`). Sugerimos que você
+tente resolver o exercício por sua conta ou em equipe **antes** da seção
 presencial. Assim, você já virá com suas dúvidas específicas e estará
 familiarizada com os desafios. Quiçá, poderá apresentar sua solução para a turma
 e assim ajudar suas colegas :)
@@ -37,5 +37,7 @@ Panda](https://user-images.githubusercontent.com/25912510/54453586-a0e16980-4725
 Recrea la siguiente imagen haciendo uso de los elementos o componentes del
 framework Bootstrap
 
-![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png)
+![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/
+f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/
+07-guided-exercises/template-bootstrap.png)
  -->
