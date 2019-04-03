@@ -176,10 +176,14 @@ elementos não os afetarão, sejam eles tocados ou não.
 
 Leia sobre os floats
 <<<<<<< HEAD
+<<<<<<< HEAD
 [aqui !](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
 =======
 [aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
 >>>>>>> translation(topics/css/01-css): section transalted to portuguese
+=======
+[aqui !](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
+>>>>>>> chore(topics/css): add flexbox section
 
 <!-- ### Valores de float
 

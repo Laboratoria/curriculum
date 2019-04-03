@@ -51,9 +51,9 @@
 
 #### Opções
 
-1. `<p>Sou uma <strong>excelente</p> <em>coder</em></strong>`
-2. `</p>Sou uma </strong>excelente<strong> </em>coder<em><p>`
-3. `<p>Sou uma <strong>excelente</strong> <em>coder</em></p>`
+1. `<p>Soy una <strong>excelente</p> <em>coder</em></strong>`
+2. `</p>Soy una </strong>excelente<strong> </em>coder<em><p>`
+3. `<p>Soy una <strong>excelente</strong> <em>coder</em></p>`
 
 <solution style="display:none;">3</solution>
 

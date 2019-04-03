@@ -1,6 +1,6 @@
 # Desafio
 
-- Tipo: `exercício`
+- Tipo: `producto`
 - Formato: `individual`
 - Duração: `24h`
 
