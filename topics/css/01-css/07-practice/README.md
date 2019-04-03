@@ -32,7 +32,7 @@ Replicar a seguinte imagem colocando em prática o seu conhecimento
 Replique as seguintes imagens colocando em prática o seu conhecimento de
 `positioning`:
 
-![6 cajas](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
+![6 caixas](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
 
 ### 3. O tríptico
 

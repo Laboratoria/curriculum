@@ -1,69 +1,70 @@
 # Quiz #1
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de avaliar-se e colocar seus
+  conhecimentos à prova. É uma oportunidade para que verifique se realmente está
+  aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Qué es un Framework?
+### 1) O que é um Framework?
 
-#### Opciones
+#### Opções
 
-1. Herramienta de trabajo que podemos usar en nuestros proyectos como si fuera
-   un modelo metodológico preestablecido
-2. Lenguaje de programación basado en CSS, que ayuda a diseñar más rápido
-3. Hoja de estilo externa a nuestro proyecto
-4. Herramienta de organización que podemos usar en nuestros proyectos como si
-   fuera un modelo pedagógico preestablecido
+1. Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um
+   modelo metodológico pré-estabelecido
+2. Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente
+3. Folha de estilo externa ao nosso projeto
+4. Ferramenta de organização que podemos usar em nossos projetos como se fosse
+   um modelo pedagógico pré-estabelecido
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Por qué usamos Frameworks?
+### 2) Por que usamos Frameworks?
 
-#### Opciones
+#### Opções
 
-1. Porque usándolos no hacemos código desde cero y ahorramos tiempo
-2. Porque nos ahorra hacer la maquetación de nuestra página
-3. Nos asegura que nuestro diseño va a ser funcional
-4. Porque así nos evita pensar en diseño
+1. Porque usando-os não fazemos o código do zero e economizamos tempo
+2. Porque nos economiza fazer o layout de nossa página
+3. Garante-nos que nosso design será funcional
+4. Porque assim evitamos pensar no design
 
 <solution style="display:none;">1,3</solution>
 
-### 3) Ejemplos de componentes que podemos encontrar en un Framework
+### 3) Exemplos de componentes que podemos encontrar em um Framework
 
-#### Opciones
+#### Opções
 
 1. section
 2. grid
-3. imágenes responsive
+3. imagens responsivas
 4. div
 
 <solution style="display:none;">2,3</solution>
 
-### 4) Ventaja de usar un Framework
+### 4) Vantagem de usar um Framework
 
-#### Opciones
+#### Opções
 
-1. Mejora la compatibilidad del sitio en los distintos navegadores por el `reset`
-2. Nos da mucho código complementario en cada acción
-3. Los estilos los controlas 100% desde el `html`
+1. Melhora a compatibilidade do sítio web em diferentes navegadores por meio do
+   `reset`
+2. Fornece-nos muito código complementar em cada ação
+3. Controle 100% dos estilo desde o `html`
 
 <solution style="display:none;">1</solution>
 
-### 5) ¿Cómo se adjunta el CDN?
+### 5) Como se anexo o CDN?
 
-#### Opciones
+#### Opções
 
 1. `<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize">`
 2. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min">`
@@ -72,44 +73,44 @@
 
 <solution style="display:none;">4</solution>
 
-### 6) ¿Qué número de columnas son las que faltan?
+### 6) Quais números de colunas estão faltando?
 
-![Frameworks](https://raw.githubusercontent.com/Laboratoria/curricula-js/b6a70152fb5675d12ddc797fb9a209f63eab1283/04-social-network/01-css-frameworks/05-quiz/grid.jpg)
+![Frameworks](https://user-images.githubusercontent.com/25912510/54452462-3deed300-4723-11e9-8267-f0c150103ae2.jpg)
 
-#### Opciones
+#### Opções
 
-1. 9 y 3
-2. 8 y 2
-3. 8 y 4
-4. 7 y 5
+1. 9 e 3
+2. 8 e 2
+3. 8 e 4
+4. 7 e 5
 
 <solution style="display:none;">3</solution>
 
-### 7) Formas de agregar un Framework al área de tu trabajo
+### 7) Formas de adicionar un Framework na área de trabalho
 
-#### Opciones
+#### Opções
 
-1. vía remota agregando el `cdn`
-2. Adjuntando una hoja de estilos
-3. Comprando una licencia
-4. Descargando el Framework y enlazándolo
+1. Via remota adicionando o `cdn`
+2. Adicionando uma folha de estilos
+3. Comprando uma licença
+4. Baixando o Framework e anexando-o
 
 <solution style="display:none;">1,4</solution>
 
-### 8) Según el estandar, ¿cuál es el número de columnas que componen la distribución de una página?
+### 8) Segundo o padrão, qual é o número de colunas que compõem uma distribuição de uma página?
 
-#### Opciones
+#### Opções
 
 1. 11
 2. 12
 3. 10
-4. Según el diseño
+4. De acordo com o layout
 
 <solution style="display:none;">2</solution>
 
-### 9) Framework desarrollado por Google
+### 9) Framework desenvolvido pelo Google
 
-#### Opciones
+#### Opções
 
 1. Materialize
 2. Foundation
@@ -117,9 +118,9 @@
 
 <solution style="display:none;">1</solution>
 
-### 10) Framework desarrollado inicialmente para Twitter
+### 10) Framework desenvolvido inicialmente pelo Twitter
 
-#### Opciones
+#### Opções
 
 1. Materialize
 2. Foundation

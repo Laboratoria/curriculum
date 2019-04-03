@@ -1,35 +1,41 @@
-# Ejercicios libres
+# Aula Prática
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `2h`
+- Tipo: `oficina`
+- Formato: `guiado`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Probar, intentar y practicar más.
+- Praticar programando junto à sua equipe de professoras resolvendo os
+  exercícios com a ajuda de `frameworks css`
+- Testar, praticar e praticar mais.
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante la clase y así ayudar al resto de tus compañeras :)
+A seguir há um exercício prático que será resolvido, passo a passo, por
+sua equipe de professoras em uma sessão presencial (`oficina`). Sugerimos que
+você tente resolver o exercício por sua conta ou em equipe **antes** da seção
+presencial. Assim, você já virá com suas dúvidas específicas e estará
+familiarizada com os desafios. Quiçá, poderá apresentar sua solução para a turma
+e assim ajudar suas colegas :)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir o exercício no `GitHub` e publicá-lo em `gh-pages`.
 
-### 1. Template de Bootstrap
+### 1. Love Love Panda
+
+Volte a fazer sua página para amantes dos pandas mas agora usando a *grid* e
+elementos ou componentes do framework de Materialize. Reutilize as imagens de
+seu desafio anterior.
+
+![Love Love
+Panda](https://user-images.githubusercontent.com/25912510/54453586-a0e16980-4725-11e9-934e-eec1b991d18c.png)
+
+<!-- ### 1. Template de Bootstrap
 
 Recrea la siguiente imagen haciendo uso de los elementos o componentes del
 framework Bootstrap
 
 ![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png)
-
-### 2. Love Love Panda
-
-Vuelve a hacer tu web para amantes de los pandas pero ahora usando la grid y
-elementos o componentes del framework de Materialize, reutiliza las imágenes de tu
-reto anterior.
-
-![Love Love Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)
+ -->
