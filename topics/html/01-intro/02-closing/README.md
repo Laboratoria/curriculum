@@ -1,15 +1,15 @@
 # Closing
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `120min`
 
 ***
 
-## Responde las preguntas del opening
+## Responda as perguntas do opening
 
-- ¿Cuál es la estructura básica (elementos principales) de un archivo `html`?
-- ¿Cómo vinculas tu `html` con tu `js`?
-  ¿Qué convenciones debes seguir al hacer esto? ¿Por qué?
-- ¿Por qué se dice que el `html` es anidado? Haz un dibujo
-- Piensa en un par de ejemplos de buenas prácticas de código `html`
+- Qual é a estrutura básica (elementos principais) de um arquivo `html`?
+- Como ligamos o nosso `html` com o nosso `js`? Quais convenções devemos seguir
+  ao fazer isso? Por quê?
+- Por que se diz que o `html` esta aninhado? Faça um desenho
+- Pense em exemplos de boas práticas de código `html`
