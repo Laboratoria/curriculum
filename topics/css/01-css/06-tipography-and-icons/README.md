@@ -56,7 +56,7 @@ isso, existe umatécnica chamada `CSS sprites` que te permite lidar de uma
 maneira mais eficiente este tipo de caso.
 
 Aprenda mais sobre CSS sprites [nesse
-link](https://www.w3schools.com/css/css_image_sprites.asp)
+link !](https://www.w3schools.com/css/css_image_sprites.asp)
 
 ## Link extra
 
