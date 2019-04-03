@@ -39,8 +39,7 @@ border: 1px solid black;">Olá Mundo!</h1>
 
 No navegador, o título anterior ficaria assim:
 
-![Estilo
-Inline](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/02-css/img-inline-style.png?raw=true)
+![Estilo Inline](https://i.imgur.com/gQttXWn.png)
 
 Esta maneira de adicionar CSS é chamada de **CSS Inline**, mas não é muito
 recomendada. Sua manutenção é complicada, já que poderíamos ter que atualizar as

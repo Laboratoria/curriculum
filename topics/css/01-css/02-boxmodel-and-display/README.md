@@ -46,7 +46,7 @@ Como um exemplo, temos o seguinte quadro, que mostra três caixas retangulares
 que são criados pelos três tags HTML usados: `<p>`, `<strong>` e novamente
 `<p>`.
 
-![modelo de caixa](https://i.imgur.com/ZPPTI2w.gif)
+![modelo de caixa](https://i.imgur.com/UUFCFnT.png)
 
 ### Elementos que compõem o modelo de caixas
 
@@ -85,7 +85,7 @@ _width_ e  _height_\).
 _Padding_ é o **preenchimento**, ou seja, o espaço livre opcional entre o
 _conteúdo_ e a _borda_.
 
-![preenchimento](https://i.imgur.com/gESF7mu.png)
+![preenchimento](https://i.imgur.com/DsOs2eg.png)
 
 Seu valor pode ser definido em: **unidades de medida**, **porcentagem** ou com o
 valor `inherit` \(especifica que o _padding_ deve ser herdado do elemento pai\).
@@ -243,7 +243,7 @@ div {
 É a **separação opcional** existente entre a caixa e o resto das caixas
 adjacentes.
 
-![margem](https://i.imgur.com/kDnCwIr.png)
+![margem](https://i.imgur.com/HaprJW7.png)
 
 Seu valor pode ser definido em: **Unidades de medida**, **porcentagem** ou
 `inherit` \(especifica que a margem deve ser herdada do elemento pai\).
@@ -294,7 +294,7 @@ div {
 
 Controla a largura da caixa ou um elemento.
 
-![largura](https://i.imgur.com/1OhbRpU.png)
+![largura](https://i.imgur.com/awjMvoa.png)
 
 O seu valor pode ser definido em: **unidades de medida**, **porcentagem**,
 `auto` ou `inherit`. Sendo como valor inicial `auto`. A propriedade **width**
@@ -311,7 +311,7 @@ div {
 
 Controla a altura da caixa ou um elemento.
 
-![altura](https://i.imgur.com/yALahCC.png)
+![altura](https://i.imgur.com/b58DzO1.png)
 
 Seu valor pode ser definido em: **Unidades de Medida**, **porcentagem**, `auto`
 ou `inherit`. Sendo como valor inicial `auto`. Como em _width_, a propriedade
@@ -428,12 +428,12 @@ uma diferença muito importante:
 - `display: none` remove o elemento definitivamente do espaço ocupado e é
   substituído pelos elementos adjacentes, como se o elemento não existisse mais.
 
-  ![none](https://i.imgur.com/pMsbKwf.png)
+  ![none](https://i.imgur.com/nW8Oe0a.png)
 
 - `visibility: hidden` oculta o elemento, mas ainda mantém o espaço ocupado,
   enquanto os elementos adjacentes mantêm sua localização.
 
-  ![hidden](https://i.imgur.com/DMBpJNd.png)
+  ![hidden](https://i.imgur.com/n2YNXF3.png)
 
 #### Resumo das características do Display
 
@@ -444,6 +444,6 @@ uma diferença muito importante:
 Continue lendo e aprendendo sobre o modelo de caixa e diplay com os seguintes
 recursos:
 
-- [Modelo da caixa - W3](http://www.w3im.com/pt/css/css_boxmodel.html)
+- [Modelo da caixa - W3S](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
 - [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
