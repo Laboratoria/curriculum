@@ -23,15 +23,14 @@ e assim ajudar suas colegas :)
 
 Você deve subir o exercício no `GitHub` e publicá-lo em `gh-pages`.
 
-### 1. Template Bootstrap
-
-### 1. Template de Bootstrap
+### 1. Love Love Panda
 
 Recrie a seguinte imagem usando o bootstrap:
 
-![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png)
+![Love Love
+Panda](https://user-images.githubusercontent.com/25912510/54453586-a0e16980-4725-11e9-934e-eec1b991d18c.png)
 
-### 2. Love Love Panda
+<!-- ### 1. Template de Bootstrap
 
 Volte a fazer sua página para amantes dos pandas mas agora usando a *grid* e
 elementos ou componentes do framework de Materialize. Reutilize as imagens de
