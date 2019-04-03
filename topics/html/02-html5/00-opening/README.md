@@ -24,4 +24,3 @@ como um checklist a ser marcado durante o seu progresso.
 - Em que a semântica HTML nos ajuda?
 - Quais são as novas etiquetas de HTML5 mais comuns?
 - Quais são as tags usadas para criar um formulario?
-

@@ -59,7 +59,7 @@ Como já dicemos, _**a melhor maneira de aprender é fazendo**_. Por isso, é ho
 de você mesmo criar uma página web e aprender HTML.
 
 A seguir um vídeo que explica o porquê de você precisar de um editor de texto
-para os exercícios: 
+para os exercícios:
 
 [![Editor de texto
 intro](https://img.youtube.com/vi/wQKn1fh3pAM/0.jpg)](https://www.youtube.com/watch?v=wQKn1fh3pAM)
@@ -116,7 +116,6 @@ Vamos dar uma passada por todos os elementos do nosso arquivo:
    navegador. Neste caso, dentro do body temos dois elementos adicionais: o `h1`
    (cabeçalho) e o `p` (parágrafo).
 
-
 <!--
 Una manera de visualizar este concepto de "encapsulado" donde unos elementos
 "contienen" a otros es a través de este gráfico:
@@ -126,7 +125,6 @@ Una manera de visualizar este concepto de "encapsulado" donde unos elementos
 
 Existem muito mais elementos e tags HTML que você vai aprender. Por agora, é
 hora de regressar ao JavaScript.
-
 
 <!-- ## HTML + CSS
 Agrega estilos con CSS
@@ -163,6 +161,7 @@ tal como mostra o seguinte exemplo:
   </body>
 </html>
 ```
+
 Muitas vezes o código JavaScript é tão extenso que você vai querer que ele não
 esteja escrito no mesmo arquivo HTML. Para isso, a solução é criar um novo
 arquivo, em formato JavaScript - usando a extensão `.js` - e "linkar" ambos

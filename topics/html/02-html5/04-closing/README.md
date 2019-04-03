@@ -6,7 +6,7 @@
 
 ***
 
-## HTML5 é a última versão do HTML? 
+## HTML5 é a última versão do HTML?
 
 Sí y no. Es cierto que HTML5 es la última versión de HTML, pero además engloba
 un conjunto de tecnologías que define el estándar en relación a la web, tales

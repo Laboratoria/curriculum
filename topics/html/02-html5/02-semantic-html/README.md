@@ -12,7 +12,6 @@
 
 ## HTML semântico
 
-
 Como vimos, `div` é um excelente recurso para agrupar o conteúdo de uma maneira
 lógica e com a capacidade de fornecer estilos específicos a determinadas seções.
 Por muitos anos, `div` usado como o único recurso para agrupar conteúdo. No
@@ -30,7 +29,9 @@ podemos extrair:
 > leitores de tela possam reconhecer esses elementos e ajudar em tarefas como
 > "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
 
-Na imagem a seguir vemos como era o uso do HTML antes, como se pode observar existem muitas `<div>`. Agora, graças a semântica do HTML5 podemos usar novas tags para estruturar corretamente uma página web.
+Na imagem a seguir vemos como era o uso do HTML antes, como se pode observar
+existem muitas `<div>`. Agora, graças a semântica do HTML5 podemos usar novas
+tags para estruturar corretamente uma página web.
 
 ![HTML antes e agora](https://imgur.com/RWr7eTW)
 

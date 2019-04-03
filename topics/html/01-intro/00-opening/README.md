@@ -29,4 +29,3 @@ como um checklist a ser marcado durante o seu progresso.
   ao fazer isso? Por quê?
 - Por que se diz que o `html` esta aninhado? Faça um desenho
 - Pense em exemplos de boas práticas de código `html`
-

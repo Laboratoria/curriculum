@@ -34,7 +34,6 @@ temos o seguinte:
 >elemento em um link para direcionar à uma outra página web, colocar as palavras
 >em itálico, e assim por diante.
 
-
 ## HTML5
 
 HTML5 é a última versão do HTML. Ele apresenta dois conceitos diferentes:
@@ -79,7 +78,6 @@ abertura e fechamento é o _conteúdo_ do elemento.
 
 ![Tag de
 exemplo](https://i.imgur.com/urQurOX.jpg?1)
-
 
 ## Aninhamento de HTML
 
@@ -384,4 +382,3 @@ seções separadas permite que você forneça estilos diferentes para cada seç�
 cor do plano de fundo e a cor da fonte variam para cada país. O mesmo acontece
 com as palavras que mostramos em amarelo. Graças a `span` nós podemos fazer com
 que certas partes do texto tenham um estilo diferente.
-
