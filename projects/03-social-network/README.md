@@ -10,7 +10,7 @@
 * [6. Hacker Edition](#6-hacker-edition)
 * [7. Entrega](#7-entrega)
 * [8. Evaluación](#8-evaluación)
-* [9. Pistas/Tips/Lecturas Complementarias](#9-Pistas,-tips-y-Lecturas-complementarias)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas,-tips-y-lecturas-complementarias)
 
 
 ***
