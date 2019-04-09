@@ -2,18 +2,20 @@
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Consideraciones generales](#consideraciones-generales)
-* [Parte obligatoria](#parte-obligatoria)
-* [Hacker Edition](#hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas-front-end)
-* [Contenido de referencia](#pistas-/-tips-/-lecturas-complementarias)
+* [1. Preámbulo](#1.-preámbulo)
+* [2. Resumen del Proyecto](#2.-resumen-del-proyecto)
+* [3. Objetivos de Aprendizaje](#3.-objetivos-de-aprendizaje)
+* [4. Consideraciones Generales](#4.-consideraciones-generales)
+* [5. Criterios de Aceptación Mínimos del Proyecto](#5.-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker Edition](#6.-hacker-edition)
+* [7. Entrega](#7.-entrega)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas/Tips/Lecturas Complementarias](#9.-pistas-/-tips-/-lecturas-complementarias)
+
 
 ***
 
-## Preámbulo
+## 1. Preámbulo
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
 sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos
@@ -26,134 +28,137 @@ investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
 de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
 más comentado.
 
-## Resumen del proyecto
+## 2. Resumen del Proyecto
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
-salud, energías renovables, amantes de las [empanadas](https://es.wikipedia.org/wiki/Empanada) o de
-los [tacos de canasta](https://es.wikipedia.org/wiki/Taco), etc.
+salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada) o de
+los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco),
+de la [Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
 
 Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
 acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
-## Objetivos de Aprendizaje
+## 3. Objetivos de Aprendizaje
 
 El objetivo principal de aprendizaje de este proyecto es construir una
 [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
  (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
-## Consideraciones generales
+## 4. Consideraciones Generales
 
-- Este proyecto se debe "resolver" en tríos.
+* Este proyecto se debe trabajar en equipos de tres.
 
-- La lógica del proyecto debe estar implementada completamente en JavaScript (ES6+),
-HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
-frameworks o librerías de CSS y JS.
+* La lógica del proyecto debe estar implementada completamente en JavaScript
+(ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
+_frameworks_ o librerías de CSS y JS.
 
-- La división del trabajo debe permitir que todo el equipo
-practique el aprendizaje de todo lo esperado **cada sprint**. _No se dividan el
-trabajo como en una fábrica._
+* La división y organización del trabajo debe permitir, sin excepciones, que
+**cada integrante** del equipo practique el aprendizaje de todo lo involucrado
+en **cada historia**. _No se dividan el trabajo como en una fábrica._
+  - ¿Hasta acá has avanzado en tus proyectos con cierta fluidez y sin mayores
+  problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
+  sin restricciones, aunque tome un poco más de tiempo. Aproveha de
+  _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
+  aprender es explicando verbalmente.
 
-- Trabajen en una sola historia por vez, no pueden avanzar a la siguiente sin
-haber completado la anterior.
+  - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
+  con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
+  para practicar y aprender lo que se te hace más difícil.
+
+* Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
+la siguiente sin haber completado la anterior. La historia se completa cuando
+se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
+de Terminado.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
 
-## Parte obligatoria
+## 5. Criterios de Aceptación Mínimos del Proyecto
 
-### General
+### 5.1 Boilerplate
 
 Este proyecto no incluye un _boilerplate_, así es que tendrás que definir la
-estructura de carpetas y escribir tus propias Pruebas Unitarias (tests). Para
+estructura de carpetas y escribir tus propias Pruebas Unitarias (_tests_). Para
 hacerlo, puedes guiarte de los proyectos anteriores.
 
-### Definición del producto
+### 5.2 Definición del producto
 
 En el `README.md` cuéntanos brevemente cómo descubriste las necesidades de los
-usuarios y cómo llegaste a la definición final de tu producto. Comparte fotos de
-entrevistas (si las tienes), cuestionarios y tus sketches/(bocetos).
-
-Es importante que detalles:
+usuarios y cómo llegaste a la definición final de tu producto. Es importante
+que detalles:
 
 * Quiénes son los principales usuarios de producto.
 * Qué problema resuelve el producto / para qué le servirá a estos usuarios.
 
-### Historias de usuario
+### 5.3 Historias de usuario
 
 Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de
-Usuario que representen todo lo que necesitan hacer/ver en la Red Social.
-
-Cada una de tus Historias de Usuario debe tener:
+Usuario que representen todo lo que necesitan hacer/ver en la Red Social. Cada
+una de tus Historias de Usuario debe tener:
 - **Criterios de Aceptación:** todo lo que debe ocurrir para satisfacer las
   necesidades del usuario.
 
 - **Definición de terminado:** todos los aspectos técnicos que deben cumplirse
 para que, como equipo, sepan que esa historia está terminada y lista
 para publicarse. **Todas** tus Historias de Usuario (salvo excepciones), deben
-incluir estos aspectos en su Definición de Terminado (más todas las que
+incluir estos aspectos en su Definición de Terminado (más todo lo que
   necesiten agregar):
 
   * Debe ser una SPA.
   * Debe ser _responsive_.
-  * Debes haber recibido _code review_ de al menos una compañera de otro equipo.
-  * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-  * Hiciste _pruebas_ de usabilidad e incorporaste el _feedback_ del usuario.
-  * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+  * Deben haber recibido _code review_ de al menos una compañera de otro equipo.
+  * Hicieron los _test_ unitarios
+  * Testearon manualmente buscando errores e imperfecciones simples.
+  * Hicieron _pruebas_ de usabilidad e incorporaron el _feedback_ de los
+  usuarios como mejoras.
+  * Desplegaron su aplicación y etiquetaron la versión (git tag).
 
-### Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
+### 5.4 Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
 
-Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y
-con eso deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de
-esta red social que siga este flujo.
-Este diseño debe representar la solución que se implementará finalmente en
-código.
+Debes definir cuál será el flujo que seguirá el usuario dentro de tu aplicación
+y, con eso, diseña la Interfaz de Usuario (UI por sus siglas en inglés) que
+siga este flujo.
 
-### Responsive
+### 5.5 Responsive
 
 Debe verse bien en dispositivos de pantallas grandes
-(computadoras/es, laptops, etc.) y pequeñas (tablets, celulares, etc.). Te
-sugerimos seguir la técnica de `mobile first` (más detalles sobre esta técnica
+(computadoras/es, laptops, etc.) y pequeñas (_tablets_, celulares, etc.). Te
+sugerimos seguir la técnica de _`mobile first`_ (más detalles sobre esta técnica
 al final).
 
-### Pruebas unitarias (unit tests)
+### 5.6 Consideraciones del comportamiento de la interfaz de usuario (UI)
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_, y _branches_.
-
-### Implementación de la Interfaz de Usuario (UI y comportamiento de Interfaz de Usuario)
-
-Estas son consideraciones para que escribas las Definicionns de Terminado de
+Estas consideraciones te ayudarán a escribir las Definiciones de Terminado de
 tus H.U.:
 
 #### Creación de cuenta de usuario e inicio de sesión
 
-* Login con Firebase:
-  - Para el login y las publicaciones en el muro puedes utilizar [Firebase](https://firebase.google.com/products/database/)
+* _Login_ con Firebase:
+  - Para el _login_ y las publicaciones en el muro puedes utilizar [Firebase](https://firebase.google.com/products/database/)
   - Creación de cuenta de acceso y autenticación con cuenta de correo y
-    contraseña, y con cuenta de Google.
+    contraseña, y también con una cuenta de Google.
 * Validaciones:
-  - La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
+  - Solamente se permite el acceso a usuarios con cuentas válidas.
   - No pueden haber usuarios repetidos.
   - La cuenta de usuario debe ser un correo electrónico válido.
   - Lo que se escriba en el campo (_input_) de contraseña debe ser secreto.
 * Comportamiento:
-  - Al enviarse un formulario de registro o inicio de sesión, debe validarse.
-  - En caso haya errores, el sistema debe mostrar mensajes de error para
-    ayudar al usuario a corregirlos.
-  - Al recargar la aplicación, se debe verificar si el usuario está
-    logueado antes de mostrarle el contenido.
+  - Al enviarse el formulario de registro o inicio de sesión, debe validarse.
+  - Si hay errores, se deben mostrar mensajes descriptivos para ayudar al
+  usuario a corregirlos.
 
 
-#### Muro/timeline de la red social
+#### Muro/timeline
 
 * Validaciones:
-  - Al apretar el botón de publicar, debe validar que exista contenido en
-  el _input_.
+  - Al publicar, se debe validar que exista contenido en el _input_.
 * Comportamiento:
+  - Al recargar la aplicación, se debe verificar si el usuario está _logueado_
+  antes de mostrar contenido.
   - Poder publicar un _post_.
-  - Poder dar y quitar _like_ a una publicación.
+  - Poder dar y quitar _like_ a una publicación. Máximo uno por usuario.
   - Llevar un conteo de los _likes_.
   - Poder eliminar un post específico.
   - Pedir confirmación antes de eliminar un _post_.
@@ -163,7 +168,34 @@ tus H.U.:
     información editada.
   - Al recargar la página debo de poder ver los textos editados.
 
-### Hacker edition
+### 5.7 Consideraciones técnicas Front-end
+
+* Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
+* Contar con múltiples vistas. Para esto, tu aplicación debe ser una
+ [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
+* Alterar y persistir datos. Los datos que agregues o modifiques deberán
+  persistir a lo largo de la aplicación. Te recomendamos que uses
+  [Firebase](https://firebase.google.com/) para eso también.
+
+#### Pruebas unitarias (unit tests)
+
+* Recuerda que no hay un _setup_ de **tests** definido, dependerá de
+la estructura de tu proyecto. Algo que no debes de olvidar es pensar en éstas
+pruebas, te pueden ayudar a definir la estructura y nomenclatura de tu lógica.
+
+* Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
+_lines_, y _branches_.
+
+
+### 5.8 Consideraciones técnicas UX
+
+* Hacer al menos 2 entrevistas con usuarios.
+* Hacer un  prototipo de baja fidelidad.
+* Asegurarte de que la implementación en código siga los lineamientos del
+  diseño.
+* Hacer sesiones de _testing de usabilidad_ con el producto en HTML.
+
+## 6. Hacker edition
 
 * Permite crear posts con imágenes.
 * Permite buscar usuarios, agregar y eliminar "amigos".
@@ -173,42 +205,13 @@ tus H.U.:
 * Permite comentar o responder una publicación.
 * Permite editar perfil.
 
-### Consideraciones técnicas Front-end
-
-El corazón de este proyecto incluye:
-
-* Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
-* Contar con multiples vistas para esto tu aplicacion debera ser una
- [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
-* Que el sitio sea responsive, ya dicho.
-* Alterar y persistir datos. Los datos que agregues o modifiques deberán
-  persistir a lo largo de la aplicación, te recomendamos que uses
-  [Firebase](https://firebase.google.com/).
-
-Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
-
-* Recuerda que no hay un setup de **tests** definido, dependerá de
-  la estructura de tu proyecto también, pero algo que no debes de olvidar es
-  pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
-  nomenclatura de tu lógica.
-
-### Consideraciones técnicas UX
-
-Desde el punto de vista de UX, deberás:
-
-* Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de baja fidelidad.
-* Asegurarte de que la implementación en código siga los lineamientos del
-  diseño.
-* Hacer sesiones de testing con el producto en HTML.
-
-## Entrega
+## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
 
-## Evaluación
+## 8. Evaluación
 
 ### Habilidades Blandas/Socioemocionales
 
@@ -259,7 +262,7 @@ puedas haber encontrado en el camino.
 
 ***
 
-## Pistas / Tips / Lecturas complementarias
+## 9. Pistas / Tips / Lecturas complementarias
 
 ### Mobile first
 
