@@ -2,15 +2,15 @@
 
 ## Índice
 
-* [1. Preámbulo](#1.-preámbulo)
-* [2. Resumen del Proyecto](#2.-resumen-del-proyecto)
-* [3. Objetivos de Aprendizaje](#3.-objetivos-de-aprendizaje)
-* [4. Consideraciones Generales](#4.-consideraciones-generales)
-* [5. Criterios de Aceptación Mínimos del Proyecto](#5.-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6.-hacker-edition)
-* [7. Entrega](#7.-entrega)
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del Proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones Generales](#4-consideraciones-generales)
+* [5. Criterios de Aceptación Mínimos del Proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker Edition](#6-hacker-edition)
+* [7. Entrega](#7-entrega)
 * [8. Evaluación](#8-evaluación)
-* [9. Pistas/Tips/Lecturas Complementarias](#9.-pistas-/-tips-/-lecturas-complementarias)
+* [9. Pistas/Tips/Lecturas Complementarias](#9-pistas-/-tips-/-lecturas-complementarias)
 
 
 ***
