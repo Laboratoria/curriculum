@@ -10,7 +10,7 @@
 * [6. Hacker Edition](#6-hacker-edition)
 * [7. Entrega](#7-entrega)
 * [8. Evaluación](#8-evaluación)
-* [9. Pistas/Tips/Lecturas Complementarias](#9-pistas-/-tips-/-lecturas-complementarias)
+* [9. Pistas/Tips/Lecturas Complementarias](#9-pistas/tips/lecturas-complementarias)
 
 
 ***
@@ -262,7 +262,7 @@ puedas haber encontrado en el camino.
 
 ***
 
-## 9. Pistas / Tips / Lecturas complementarias
+## 9. Pistas/Tips/Lecturas complementarias
 
 ### Mobile first
 
