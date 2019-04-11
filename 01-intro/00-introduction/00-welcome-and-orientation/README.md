@@ -32,7 +32,7 @@ disposição. O importante é que leia e releia todos os materiais com atenção
 
 Para passar para a próxima etapa do processo de seleção é preciso completar todo
 o pré-trabalho. As candidatas que demonstrarem maior empenho e potencial para
-aprender, serão convidadas a iniciar o período de pré-admissão, onde
+aprender serão convidadas a iniciar o período de pré-admissão, onde
 continuaremos com este curso de forma presencial. Será uma boa oportunidade para
 mostrar o que você já domina e sabe fazer.
 
