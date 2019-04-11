@@ -62,6 +62,10 @@ entender o uso dos seletores, manipulação do DOM e eventos por meio de JQuery.
 Nesta unidade você aprenderá o que é o Firebase e como utilizar alguma das suas
 ferramentas.
 
+### Unidade 05: [jQuery](05-jquery)
+
+jQuery é uma biblioteca focada em fazer a manipulação do DOM mais fácil (além de outras funcionalidades). Nesta lição não veremos a sintaxes das propriedades e métodos que esta biblioteca oferece, mas veremos aspectos importantes para melhorar o desempenho no uso desta biblioteca, além de considerações de encapsulamento de código por meio da criação de `plugins`.
+
 ## Autores / Colaboradores
 
 - Allison Guzmán

@@ -15,7 +15,7 @@ O desafio será feito em grupos de duas alunas e será apresentado ao final do c
 Todos os desafios devem incluir ao menos os seguintes arquivos:
 
 * `README.md` com descrição do módulo, instruções de instalação, uso e documentação da API.
-* `index.js`: Biblioteca deve exportar uma função ou objeto no escopo global (`window`) e fazer uso de _features_ de ES6 onde for apropriado.
+* `index.js`: Biblioteca deve exportar uma função e fazer uso de _features_ de ES6 onde for apropriado.
 * `package.json` com nome, versão, descrição, autores, licença, dependências, scripts (pretest, test, ...)
 * `.eslintrc` com configuração para linter (ver [guia de estilo de JavaScript](https://github.com/Laboratoria/js-style-guide))
 * `test/index.spec.js`: com as rotinas de teste escritas para esta biblioteca. Os testes devem ser implementados com Mocha e NYC (ver vídeo tutorial do Daniel :D)
@@ -81,3 +81,9 @@ console.log(links);
 ```
 
 A biblioteca será testada através da função `getLinksFromMd()`.
+
+### Desafio 4: Validador de CPF
+
+Implementar um validador de número de CPF. A biblioteca deverá validar o número do CPF através dos dígitos verificadores (utilizando a regra matemática específica) e retornar `true ` ou `false` de acordo com o caso.
+
+A biblioteca será testada através da função `cpfValidator()`.
