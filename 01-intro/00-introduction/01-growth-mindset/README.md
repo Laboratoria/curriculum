@@ -39,9 +39,9 @@ investigações, ela criou os termos Fixed mindset e Growth mindset, ou seja,
 mentalidade fixa e mentalidade de crescimento, para descrever ambos os tipos de
 crenças.
 
-Através de seus estudos em diferentes escolas nos USA,  ela descobriu que quando
+Através de seus estudos em diferentes escolas nos EUA, ela descobriu que quando
 os alunos acreditam que podem conseguir, a sua inteligência se desenvolve. Assim
-eles estão dispostos a fazer mais, porque eles entendem que vão conseguir algo
+eles estão dispostos a fazer mais porque eles entendem que vão conseguir algo
 melhor e maior.
 
 Atualmente, os mais recentes avanços na neurociência têm demonstrado que o
@@ -89,12 +89,12 @@ diferenças entre as duas mentalidades, e vai ajudá-la a identificar como melho
 Antes de passar para o próximo módulo, nós vamos lhe dar algumas dicas para o
 seu processo de aprendizagem:
 
-1. A aprendizagem é melhor e dura mais tempo quando é preciso fazer mais esforço
+1. A aprendizagem é melhor e dura mais tempo quando é preciso fazer mais esforço.
    As lições fáceis são lembradas hoje, mas não amanhã. Quando a aprendizagem
    é mais difícil, é mais forte e permanece em sua memória por mais tempo.
-2. Tentar resolver um problema antes que te mostrem a resposta, permite que você
+2. Tentar resolver um problema antes que te mostrem a resposta permite que você
    aprenda e compreenda a solução quando te ensinarem.
-3. Cometer erros e corrigí-los vai te permitir construir pontes para avançar no
+3. Cometer erros e corrigi-los vai te permitir construir pontes para avançar no
    processo de aprendizagem.
 
 Com todo esse conhecimento que você adquiriu e sua nova mentalidade, oferecemos
@@ -103,8 +103,8 @@ este desafio: aprender a programar para transformar o seu futuro.
 E para isso, você terá de propor o seguinte:
 
 > Eu, futura estudante da Laboratória, me comprometo a sempre lembrar que eu sou
-> capaz de desenvolver minha inteligência através da aprendizagem . Isso requer
-> esforço, ao mesmo tempo que que me permite alcançar uma maior realização. Eu
+> capaz de desenvolver minha inteligência através da aprendizagem. Isso requer
+> esforço, ao mesmo tempo que me permite alcançar uma maior realização. Eu
 > prometo sempre querer aprender mais, aceitando os desafios e sendo persistente
 > diante dos obstáculos, porque eu sei que com a prática posso superar. Eu sei
 > que os erros que cometo não significam um fracasso, e sim que são as
