@@ -55,7 +55,7 @@ seguinte:
 O navegador “lê” o arquivo HTML (o texto e os marcadores) e o apresenta de acordo
 com as regras da linguagem. Por exemplo, o texto que está entre esses marcadores
 `<h1> </h1>` são considerados cabeçalhos, enquanto o texto entre os marcadores
-`<p> </p>` são considerados parágrafos. Por isso, o texto _¡Olá Mundo!_ aparece
+`<p> </p>` são considerados parágrafos. Por isso, o texto _Olá Mundo!_ aparece
 maior do que o texto _Esta é a minha primeira página._
 
 ## Criando a sua primeira página

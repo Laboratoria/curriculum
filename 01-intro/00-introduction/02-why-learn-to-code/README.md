@@ -16,7 +16,7 @@ O texto abaixo é uma tradução para o português, com alguns ajustes, do capí
 1 do [JavaScript para Crianças](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015.
 
-## O que é programação?
+## O que é programação? 
 
 Os computadores são incrivelmente poderosos, máquinas capazes de realizar feitos
 incríveis, como jogar xadrez competitivo, ter milhares de páginas da internet ou
@@ -32,7 +32,7 @@ um conjunto de instruções para os computadores seguirem. Sem programas, os
 computadores não podem fazer nada! A programação é, portanto, a arte de criar um
 conjunto de instruções que mostram a um computador como executar uma tarefa.
 
-## Por que aprender a programar
+## Por que aprender a programar?
 
 A programação é um espaço para criar. É uma forma de expressão, assim como a
 arte e o desenho. É um mecanismo para transformar seus pensamentos em algo vivo
@@ -54,7 +54,7 @@ pelo mercado. Seguem três dados do mercado de trabalho para os programadores:
    profissões mais bem pagas na América Latina.
 3. Os empregos de tecnologia não são apenas no setor de tecnologia. Atualmente
    2 de 3 postos de trabalho são fora do setor de tecnologia. Isto significa que
-   o programa abre a porta para trabalhar em diferentes setores e trazer o seu
+   o programa abre portas para trabalhar em diferentes setores e trazer o seu
    talento para o desenvolvimento de diferentes indústrias.
 
 ## Histórias de graduadas da Laboratória
@@ -78,7 +78,7 @@ Danna (Chile)
 > ThoughtWorks,empresa que fez seu salário triplicar, e que a levou para a Índia
 > para um treinamento.
 
-Carol (Perú)
+Carol (Peru)
 
 > Carol estudou três anos de Design Gráfico Publicitário. Antes da Laboratória,
 > trabalhou longas horas, seis dias por semana para sustentar o seu filho. Hoje
@@ -87,8 +87,8 @@ Carol (Perú)
 
 ## O que é JavaScript?
 
-Computadores são tão bobos que não podemos dar nossas instruções em Inglês,
-Espanhol ou qualquer outra língua falada. Nós temos que escrever nossos programas
+Computadores são tão bobos que não podemos dar nossas instruções em inglês,
+espanhol ou qualquer outra língua falada. Nós temos que escrever nossos programas
 em uma `linguagem de programação`. JavaScript é exatamente isso: uma linguagem
 de programação.
 
@@ -121,7 +121,7 @@ linguagem mais popular nesta plataforma:
 
 ## História do JavaScript
 
-JavaScript foi criado (em apenas 10 dias!) por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich),
+JavaScript foi criado (em apenas 10 dias) por [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich),
 em 1995, para criar interatividade e dinamismo no Netscape Navigator, um dos
 primeiros navegadores web. Desde então, JavaScript tem sido adotado pela maioria
 dos navegadores modernos (pense Chrome, Safari, etc.). E por muitos anos
