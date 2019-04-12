@@ -19,19 +19,20 @@ verificar seu interesse em tecnologia, bem como o seu compromisso com o programa
 Além disso, analisaremos a sua capacidade de aprender sozinha e de
 forma independente.
 
-A duração aproximada do curso é de 15-20 horas. Você pode avançar conforme o seu
-ritmo, mas recomendamos que organize o seu tempo para ir fazendo gradualmente.
+A duração aproximada do curso é de 15-20 horas. Você pode avançar conforme o seu 
+ritmo, mas recomendamos que organize o seu tempo para ir fazendo gradualmente. 
+Você tem até dia 23/06/2019 para terminar.
 
 Nele pedimos que veja vídeos e faça leituras básicas sobre os temas que vai
 estudar durante o bootcamp. Estas informações vão te ajudar fazer alguns
 exercícios básicos de programação e responder a alguns testes rápidos (quiz).
 Mas não se preocupe. Você não precisa saber nada de programação para responder.
-Toda a informação que você precisa para fazer os exercícios estarão à sua
+Toda informação que você precisa para fazer os exercícios estarão à sua
 disposição. O importante é que leia e releia todos os materiais com atenção.
 
 Para passar para a próxima etapa do processo de seleção é preciso completar todo
 o pré-trabalho. As candidatas que demonstrarem maior empenho e potencial para
-aprender, serão convidadas a iniciar o período de pré-admissão, onde
+aprender serão convidadas a iniciar o período de pré-admissão, onde
 continuaremos com este curso de forma presencial. Será uma boa oportunidade para
 mostrar o que você já domina e sabe fazer.
 
@@ -57,7 +58,7 @@ porque quanto mais e-mails recebem, mais demoram a responder.
 
 Contatos para cada local são:
 
-* infosp@gmail.com
+* infosp@laboratoria.la
 * Whatsapp: 11 94067 3333
 
 ## Sobre este curso
@@ -67,7 +68,7 @@ Contatos para cada local são:
 Este curso é destinado a pessoas sem conhecimento prévio de programação que têm
 interesse em se aventurar no mundo da programação. Ele será o seu primeiro passo
 no caminho de aprendizagem.
-O objetivo deste curso é lhe dar uma idéia do que se trata o mundo do
+O objetivo deste curso é lhe dar uma ideia do que se trata o mundo do
 desenvolvimento de software, para que possa determinar se é algo que você ama
 exercer como profissão. Depois de completar este curso você vai saber se a
 programação é algo que você gosta e terá uma boa base para o desenvolvimento de
