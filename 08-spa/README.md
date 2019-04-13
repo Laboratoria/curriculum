@@ -15,7 +15,7 @@ Este curso é dirigido a estudantes da Labortória. É o segundo curso da especi
 
 Para acompanhar este curso, você deve ter completado os curso do núcleo comum e `Crie sua própria biblioteca usando JavaScript: JS Deep Dive` da Laboratória. Presume-se que as alunas tenham conhecimentos de HTML, CSS, JavaScript e jQuery.
 
-## Você aprenderá 
+## Você aprenderá
 
 - O que é o protocolo HTTP;
 - Como obter dados de um servidor (API's);
@@ -63,6 +63,10 @@ Referência:
 
 [![Asynchronous Requests](https://img.youtube.com/vi/P5JlebbqzTQ/0.jpg)](https://youtu.be/P5JlebbqzTQ)
 
+
+### Unidade 04: [Browser APIs](04-browser-apis)
+
+Nesta unidade focaremos nas API's que os navegadores disponibilizam para interagir com o `DOM` assim como alguns objetos globais como `window.navigator`, `window.console`, `window.location`, `window.history` e outras API's introduzidas por HTML5.
 
 
 ### Unidade 05: [Brincando com Web API's!](05-working-with-apis)

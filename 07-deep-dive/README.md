@@ -6,7 +6,7 @@ O objetivo prático deste curso é que você aprenda como criar sua própria bib
 
 Projetar sua própria biblioteca é uma experiência fundamental para qualquer programadora já que te obriga a pensar na interface (API) dos seus módulos, como serão utilizados por outras pessoas, ... e ter consideração especial em relação às peculiaridades da linguagem, convenções e boas práticas.
 
-Neste curso será apresentada uma série de desafios que requerem a implementação de uma ou mais bibliotecas. 
+Neste curso será apresentada uma série de desafios que requerem a implementação de uma ou mais bibliotecas.
 
 Palavras-chave: `types`, `operators`, `functions`, `objects`, `scope`, `closure`, `execution-context`, `linter`.
 
@@ -72,17 +72,9 @@ Nesta unidade veremos também algumas novas características de ES6 em relação
 
 O tratamento de erros é importante dentro do desenvolvimento de software, ainda mais quando se trata de desenvolver um produto que se espera que seja reutilizável e de fácil manutenção. Nesta unidade veremos como tratar erros em diversas partes do nosso código.
 
+### Unidade 05: [Desafio - Biblioteca](05-challenge)
 
-### Unidade 05: [Autoaprendizagem - Browser APIs](05-browser-apis)
-
-Nesta unidade focaremos nas API's que os navegadores disponibilizam para interagir com o `DOM` assim como alguns objetos globais como `window.navigator`, `window.console`, `window.location`, `window.history` e outras API's introduzidas por HTML5.
-
-### Unidade 06: [Autoaprendizagem - jQuery](06-jquery)
-
-jQuery é uma biblioteca focada em fazer a manipulação do DOM mais fácil (além de outras funcionalidades). Nesta lição não veremos a sintaxes das propriedades e métodos que esta biblioteca oferece, mas veremos aspectos importantes para melhorar o desempenho no uso desta biblioteca, além de considerações de encapsulamento de código por meio da criação de `plugins`.
-
-
-### Unidade 07: [Desafio - Biblioteca](07-challenge)
+Essa unidade contém os desafios
 
 ***
 
