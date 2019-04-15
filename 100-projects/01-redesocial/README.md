@@ -288,7 +288,7 @@ Estes dados serão armazenados de forma remota utilizando o
 
 ## Checklist
 
-### General
+### Geral
 
 * [ ] O produto final segue o que foi especificado no desenho.
 
@@ -298,6 +298,12 @@ Estes dados serão armazenados de forma remota utilizando o
 * [ ] Resumo das entrevistas com usuários
 * [ ] Link/imagens dos protótipos de baixa fidelidade
 * [ ] Conclusões dos testes de usuário feitos no HTML
+
+### UX
+
+* [ ] Produto alinhado com user
+* [ ] Fluxo das tarefas claro e intuitivo
+* [ ] Interface intuitiva
 
 ### Criação de conta (sign up)
 
@@ -324,6 +330,11 @@ Estes dados serão armazenados de forma remota utilizando o
 * [ ] Permite marcar publicações como _gostei_ (like, coração, estrela, etc).
 * [ ] Permite ver quantos likes, estrelas, corações (ou o que for utilizar) uma
   publicação recebeu.
+  
+### Responsividade
+
+* [ ] Interface pensada para telas portáteis (mobile first)
+* [ ] Menus, inputs, botões e demais elementos responsivos
 
 ### Hacker Edition
 
