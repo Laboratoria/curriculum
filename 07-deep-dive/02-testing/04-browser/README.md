@@ -224,3 +224,7 @@ Se executarmos o testes podemos ver que de fato o novo teste não passa:
 ![imagem](https://user-images.githubusercontent.com/110297/34906409-37ba7ecc-f83b-11e7-9500-10b5d1b49842.png)
 
 Na leitura seguinte veremos como consertar isso.
+
+## Exemplo
+
+*[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/browser)

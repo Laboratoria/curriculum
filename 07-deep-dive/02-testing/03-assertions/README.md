@@ -172,6 +172,10 @@ describe('isVowel()', () => {
 
 [Chai - Documentação oficial](http://chaijs.com/)
 
+## Exemplo
+
+* [Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/assertions)
+
 ## Leituras complementares
 
 * [BDD made simple in Node.JS with Mocha and Chai - @hbarcelos en medium.com](https://medium.com/@hbarcelos/bdd-made-simple-in-node-js-with-mocha-and-chai-3a3ce44ecce2)

@@ -264,3 +264,5 @@ ter que _manualmente_ exibir as mensagens no console.
 
 Na leitura seguinte, veremos como utilizar _asserts_ nos seus testes, com
 `assert` de Node.js e com `Chai.assert`.
+
+* [Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/frameworks)

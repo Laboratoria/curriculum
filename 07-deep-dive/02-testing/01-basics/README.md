@@ -200,6 +200,8 @@ Deveria retornar false para a letra b
 ✓ ok
 ```
 
+[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/basics)
+
 ***
 
 ## Leituras complementares

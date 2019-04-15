@@ -22,3 +22,5 @@ terá que instalar também um _preset_ (por exemplo, `babel-preset-env`) e criar
 um arquivo `.babelrc` com a configuração necessária.
 
 Para mais detalhes sobre `babel` e `babel-cli` veja a [documentação oficial](https://babeljs.io).
+
+[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/babel)

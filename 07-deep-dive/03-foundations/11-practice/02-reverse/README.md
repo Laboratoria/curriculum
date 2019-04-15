@@ -1,6 +1,8 @@
 # Inverter un vetor
 
-Use estruturas de controle para inverter um vetor de números. Como entrada você receberá um vetor de números e objetos e como saída é esperado um vetor com a ordem invertida dos elementos.
+Use estruturas de controle para inverter um vetor de números. Como entrada você
+receberá um vetor de números e objetos e como saída é esperado um vetor com a
+ordem invertida dos elementos.
 
 > Não pode utilizar `arr.reverse()`.
 

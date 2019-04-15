@@ -36,3 +36,7 @@ navegador normal.
 * [PhantomJS](http://phantomjs.org/)
 
 ...
+
+## Exemplo
+
+*[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/headless)

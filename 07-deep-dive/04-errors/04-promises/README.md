@@ -168,6 +168,10 @@ getLatestNodeInfo()
 
 ***
 
+## Exemplo
+
+*[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/promises)
+
 ## Leituras complementares
 
 * [Promises - Jake Archibald - Google Developers](https://developers.google.com/web/fundamentals/primers/promises)
