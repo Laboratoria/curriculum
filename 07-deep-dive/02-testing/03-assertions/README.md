@@ -6,13 +6,21 @@
 
 ***
 
-Nas leituras anteriores vimos como usar `mocha` para construir a estrutura que queremos verificar/testar, mas contudo ainda nos falta fazer as comprovações/asserções que permitam verificar se o código que estamos testando se comporta como esperamos.
+Nas leituras anteriores vimos como usar `mocha` para construir a estrutura que
+queremos verificar/testar, mas contudo ainda nos falta fazer as
+comprovações/asserções que permitam verificar se o código que estamos testando
+se comporta como esperamos.
 
-Para haver isso usamos as _asserções_. Uma _asserção_ é um pedaço de código que comprova se um valor é o esperado e no caso de não ser, avise-nos. Desta maneira, se no futuro algo mudar no comportamento do código, os testes permitirão ver exatamente o quê.
+Para haver isso usamos as _asserções_. Uma _asserção_ é um pedaço de código que
+comprova se um valor é o esperado e no caso de não ser, avise-nos. Desta maneira,
+se no futuro algo mudar no comportamento do código, os testes permitirão ver
+exatamente o quê.
 
 ## Vanilla
 
-Comecemos por implementar nossa própria _asserção_ de igualdade. Isso não é mais do que uma função que compara dois valores para ver se são iguais. Em caso negativo, exibe um erro com uma mensagem informativa.
+Comecemos por implementar nossa própria _asserção_ de igualdade. Isso não é
+mais do que uma função que compara dois valores para ver se são iguais. Em caso
+negativo, exibe um erro com uma mensagem informativa.
 
 ```js
 // Arquivo `isVowel.spec.js`
@@ -53,9 +61,12 @@ $ mocha ./isVowel.spec.js
 
 ```
 
-Agora toda a saída que vemos é produzido pelo Mocha (já não existe uma saída oriunda de nossos `console.log`'s) e vemos que ambos os testes passam.
+Agora toda a saída que vemos é produzido pelo Mocha (já não existe uma saída
+oriunda de nossos `console.log`'s) e vemos que ambos os testes passam.
 
-Só para testar (e vale a redundância) modifiquemos (melhor dizer "quebremos") a implementação de `isVowel()` para ver que nossos testes efetivamente reportam os problemas.
+Só para testar (e vale a redundância) modifiquemos (melhor dizer "quebremos") a
+implementação de `isVowel()` para ver que nossos testes efetivamente reportam os
+problemas.
 
 ```js
 // Arquivo `isVowel.js`
@@ -97,11 +108,18 @@ $ mocha ./isVowel.spec.js
 
 Como podemos ver, os testes se comportam como esperávamos!
 
-Este exemplo é ilustrativo, mas no mundo real provavelmente você não vai querer implementar seu próprio código de asserções (não somente de igualdade, mas sim todo o tipo de comparações). O mais comum é usar uma dependência externa (uma biblioteca ou módulo) como veremos nos próximos exemplos.
+Este exemplo é ilustrativo, mas no mundo real provavelmente você não vai querer
+implementar seu próprio código de asserções (não somente de igualdade, mas sim
+todo o tipo de comparações). O mais comum é usar uma dependência externa (uma
+biblioteca ou módulo) como veremos nos próximos exemplos.
 
 ## Módulo *assert* de Node.js
 
-Node.js contém seu próprio módulo de asserções sem necessidade de ter que instalar nenhuma dependência. Se você estiver executando seus testes com Node.js, é muito comum utilizar este módulo (`assert`), a menos que a biblioteca ou *framework* que estiver usando já contenham seus próprios sistemas de asserções (por exemplo, `Jest`).
+Node.js contém seu próprio módulo de asserções sem necessidade de ter que
+instalar nenhuma dependência. Se você estiver executando seus testes com Node.js,
+é muito comum utilizar este módulo (`assert`), a menos que a biblioteca ou
+*framework* que estiver usando já contenham seus próprios sistemas de asserções
+(por exemplo, `Jest`).
 
 Troquemos nossa função `assertEqual` com o módulo `assert` de Node.js:
 
@@ -128,7 +146,10 @@ describe('isVowel()', () => {
 
 ## Chai.assert
 
-O Mocha não contém uma interface para asserções e no navegador não temos o módulo `assert` de Node.js. Logo, é muito comum usar o Mocha em conjunto com `Chai`, que é uma biblioteca de asserções que nos oferece várias interfaces. Entre elas, uma muito parecida com o `assert` de Node.js:
+O Mocha não contém uma interface para asserções e no navegador não temos o
+módulo `assert` de Node.js. Logo, é muito comum usar o Mocha em conjunto com
+`Chai`, que é uma biblioteca de asserções que nos oferece várias interfaces.
+Entre elas, uma muito parecida com o `assert` de Node.js:
 
 ```js
 // Arquivo `isVowel.spec.js`

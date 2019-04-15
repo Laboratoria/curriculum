@@ -11,8 +11,11 @@
 
 ***
 
-Durante esta sessão garantiremos que todas tenham `node` e `npm`, além de que se habituem com node no terminal.
+Durante esta sessão garantiremos que todas tenham `node` e `npm`, além de que
+se habituem com node no terminal.
 
-As instrutoras farão exemplos ao vivo de instalação/desinstalação de módulos usando npm.
+As instrutoras farão exemplos ao vivo de instalação/desinstalação de módulos
+usando npm.
 
-Durante a oficina as instrutoras estarão disponíveis para ajudar a resolver problemas de instalação e resolver dúvidas com relação ao npm.
+Durante a oficina as instrutoras estarão disponíveis para ajudar a resolver
+problemas de instalação e resolver dúvidas com relação ao npm.
