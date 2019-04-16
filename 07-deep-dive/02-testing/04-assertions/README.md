@@ -1,4 +1,4 @@
-# *Asserts*
+# Asserts
 
 * Tipo: `leitura`
 * Formato: `individual`

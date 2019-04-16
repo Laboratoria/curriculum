@@ -126,3 +126,7 @@ const getLatestNodeInfo = (cb) =>
 
 Esta nova implementação nos assegura que os erros que possam ocorrer na função
 sempre sejam passados como argumentos para a _callback_ recebida pelo usuário.
+
+## Exemplo
+
+*[Exemplo](https://github.com/MaiaRojas/recursos-deep-dive-pt/tree/master/callbacks)

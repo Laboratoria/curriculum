@@ -1,4 +1,4 @@
-# *Frameworks*
+# Frameworks
 
 * Tipo: `leitura`
 * Formato: `individual`
