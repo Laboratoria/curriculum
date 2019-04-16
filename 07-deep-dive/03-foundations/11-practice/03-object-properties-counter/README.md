@@ -1,6 +1,7 @@
 # Contador de propriedades
 
-Dado um objeto como parâmetro, contar a quantidade de propriedades que ele contém e retorná-la.
+Dado um objeto como parâmetro, contar a quantidade de propriedades que ele
+contém e retorná-la.
 
 Exemplo:
 

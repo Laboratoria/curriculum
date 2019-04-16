@@ -13,25 +13,44 @@
 
 ## O que é a *shell* de UNIX?
 
-> Uma *Shell de Unix* ou também **shell**, é o terminal usado na informática para se referir a um intérprete de comandos, o qual consiste na interface de usuário tradicional dos sistemas operacionais baseados em Unix e similares como GNU/Linux.
+> Uma *Shell de Unix* ou também **shell**, é o terminal usado na informática
+para se referir a um intérprete de comandos, o qual consiste na interface de
+usuário tradicional dos sistemas operacionais baseados em Unix e similares como
+GNU/Linux.
 >
 > Fonte: [Shell de Unix - Wikipédia](https://pt.wikipedia.org/wiki/Shell_do_Unix)
 
-Basicamente, o shell é um _intérprete_ que é encarregado de executar os comandos que escrevemos no terminal (ou emulador de terminal). Assim como o motor do JavaScript (seja o do navegador, Node.js, ...) é o responsável por interpretar e executar nosso código JavaScript, a shell se encarrega dos comandos que escrevemos na linha de comando.
+Basicamente, o shell é um _intérprete_ que é encarregado de executar os comandos
+que escrevemos no terminal (ou emulador de terminal). Assim como o motor do
+JavaScript (seja o do navegador, Node.js, ...) é o responsável por interpretar e
+executar nosso código JavaScript, a shell se encarrega dos comandos que escrevemos
+na linha de comando.
 
 ## Shells comuns: bash, zsh, etc
 
-A shell mais comum é provavelmente `bash` ([Bourne Again SHell](https://pt.wikipedia.org/wiki/Bash)), mas não é demais mencionar que existem muitas shells distintas que compartilham grande parte de suas características, mas cada uma com suas peculiaridades. Outras shells comuns são: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
+A shell mais comum é provavelmente `bash` ([Bourne Again SHell](https://pt.wikipedia.org/wiki/Bash)),
+mas não é demais mencionar que existem muitas shells distintas que compartilham
+grande parte de suas características, mas cada uma com suas peculiaridades.
+Outras shells comuns são: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
 
-Dentro de um emulador do terminal podemos executar diferentes shells, assim como configurar sua shell por padrão (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
+Dentro de um emulador do terminal podemos executar diferentes shells, assim como
+configurar sua shell por padrão (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
 
 ## Interagindo com o sistema de arquivos
 
-Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições de UNIX). O terminal sempre _está_ em algum lugar do sistema de arquivos. Isso quer dizer que os comandos que executamos serão executados a partir desse _lugar_ (a pasta onde estamos).
+Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na
+nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições
+de UNIX). O terminal sempre _está_ em algum lugar do sistema de arquivos. Isso
+quer dizer que os comandos que executamos serão executados a partir desse
+_lugar_ (a pasta onde estamos).
 
-Para poder trabalhar com facilidade no terminal é importante conhecer alguns comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir a ordem dos exemplos você deve ver resultados similares.
+Para poder trabalhar com facilidade no terminal é importante conhecer alguns
+comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados
+logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir
+a ordem dos exemplos você deve ver resultados similares.
 
-* `pwd`: mostra o caminho de onde estamos atualmente (**P**rint **W**orking **D**irectory)
+* `pwd`: mostra o caminho de onde estamos atualmente (**P**rint **W**orking
+  **D**irectory)
   ```sh
   $ pwd
   /Users/lupo
@@ -46,7 +65,8 @@ Para poder trabalhar com facilidade no terminal é importante conhecer alguns co
   $ pwd
   /Users/lupo/exemplo
   ```
-* `touch`: Cria um arquivo em branco se não existe, ou atualiza a data de modificação se existir.
+* `touch`: Cria um arquivo em branco se não existe, ou atualiza a data de
+  modificação se existir.
   ```sh
   touch README.md
   touch index.js .gitignore
@@ -108,7 +128,10 @@ Para poder trabalhar com facilidade no terminal é importante conhecer alguns co
 <!--
 ## Execução de comandos
 
-Cada vez que apertamos as teclas _enter_ estamos pedindo ao terminal que execute a linha que escrevemos até aquele momento. É importante entender que todo comando é executado em um contexto (a pasta de onde estamos executando, as variáveis de ambiente, ...).
+Cada vez que apertamos as teclas _enter_ estamos pedindo ao terminal que execute
+a linha que escrevemos até aquele momento. É importante entender que todo comando
+é executado em um contexto (a pasta de onde estamos executando, as variáveis de
+ambiente, ...).
 
 ## Entrada/Saída/Pipes/Redirecionamento;
 
@@ -118,25 +141,37 @@ Cada vez que apertamos as teclas _enter_ estamos pedindo ao terminal que execute
 
 ## Comandos comuns.
 
-Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias de linha de comando, é recomendável você se habituar com alguns comandos comuns (além dos programas que já conhecemos, como `git`, `node`, `npm`, ...). Aqui temos alguns exemplos de comandos úteis:
+Além de operarmos o sistema de arquivos, como desenvolvedoras web, e usuárias de
+linha de comando, é recomendável você se habituar com alguns comandos comuns
+(além dos programas que já conhecemos, como `git`, `node`, `npm`, ...). Aqui
+temos alguns exemplos de comandos úteis:
 
-* `which`: verifica se um executável está em nosso `PATH`. Muito útil para saber se um comando está disponível e onde o executável está no sistema de arquivos.
+* `which`: verifica se um executável está em nosso `PATH`. Muito útil para saber
+  se um comando está disponível e onde o executável está no sistema de arquivos.
 
   ```sh
   which node
   /usr/local/bin/node
   ```
-* `grep`: filtra texto, mostrando somente aquelas linhas que contenham um padrão de busca.
+* `grep`: filtra texto, mostrando somente aquelas linhas que contenham um padrão
+  de busca.
 * ...
 -->
 
 ## Outros temas de interesse
 
-Neste curso não temos intenção de aprofundar em Bash ou na shell de UNIX, mas se você tiver curiosidade (ou necessidade) de aprender um pouco mais te recomendamos ler sobre **entrada e saída** de comandos (**stdin**, **stdout**, **stderr**), **processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...), **variáveis de ambiente**, ...
+Neste curso não temos intenção de aprofundar em Bash ou na shell de UNIX, mas
+se você tiver curiosidade (ou necessidade) de aprender um pouco mais te
+recomendamos ler sobre **entrada e saída** de comandos (**stdin**, **stdout**,
+**stderr**), **processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...),
+**variáveis de ambiente**, ...
 
 ## Personalização
 
-Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de trabalho com sua própria imagem de fundo, atalhos, ... os shells também permitem uma grande quantidade de personalização. Os detalhes de como personalizar seu shell estão fora do escopo deste curso, mas convidamos você a explorar o seguinte:
+Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de
+trabalho com sua própria imagem de fundo, atalhos, ... os shells também permitem
+uma grande quantidade de personalização. Os detalhes de como personalizar seu
+shell estão fora do escopo deste curso, mas convidamos você a explorar o seguinte:
 
 * `.profile`
 * `.bashrc`

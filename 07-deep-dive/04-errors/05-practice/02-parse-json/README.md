@@ -1,6 +1,9 @@
 # parseJson
 
-Implementa uma função que receba uma string (no formato JSON) e retorne o JSON parseado (usando `JSON.parse`). A função não deve lançar exceções, porém `JSON.parse` poderá lançá-las. Se ocorrer uma exceção ao parsear a string JSON, devemos evitar que seja lançado um erro, e sim devolvê-lo como valor de retorno.
+Implementa uma função que receba uma string (no formato JSON) e retorne o JSON
+parseado (usando `JSON.parse`). A função não deve lançar exceções, porém
+`JSON.parse` poderá lançá-las. Se ocorrer uma exceção ao parsear a string JSON,
+devemos evitar que seja lançado um erro, e sim devolvê-lo como valor de retorno.
 
 
 ## Exemplo

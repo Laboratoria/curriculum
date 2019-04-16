@@ -1,8 +1,10 @@
 # Montantes sem moeda
 
-Dado um vetor de montantes em distintas moedas, retornar somente os valores sem importar a moeda.
+Dado um vetor de montantes em distintas moedas, retornar somente os valores sem
+importar a moeda.
 
-> As moedas participantes são somente pesos chilenos ($ CLP), pesos mexicanos ($ MXN) e soles (S/. PEN).
+> As moedas participantes são somente pesos chilenos ($ CLP), pesos mexicanos
+($ MXN) e soles (S/. PEN).
 
 Exemplo:
 

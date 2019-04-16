@@ -10,13 +10,19 @@
 
 Nesta unidade:
 
-* Aprenderemos como utilizar o padrão mais recente aceito de JavaScript ES2015 || ES6.
-* Conheceremos as vantagens deste padrão assim como suas limitações e você aprenderá a lidar com elas para fazer cada mais um melhor desenvolvimento de produtos.
-* Detalharemos as particularidades de JavaScript e entenderemos melhor os tipos de dados que utilizamos anteriormente.
+* Aprenderemos como utilizar o padrão mais recente aceito de JavaScript
+  ES2015 || ES6.
+* Conheceremos as vantagens deste padrão assim como suas limitações e você
+  aprenderá a lidar com elas para fazer cada mais um melhor desenvolvimento de
+  produtos.
+* Detalharemos as particularidades de JavaScript e entenderemos melhor os tipos
+  de dados que utilizamos anteriormente.
 * Descobriremos que alguns conceitos como o escopo das funções mudam com JS ES6.
-* Aprenderemos a desenvolver melhores estruturas de dados e usaremos todo o conjunto de objetos e vetores que você já conhece.
+* Aprenderemos a desenvolver melhores estruturas de dados e usaremos todo o
+  conjunto de objetos e vetores que você já conhece.
 * Conheceremos a desestruturação dos vetores.
-* Conheceremos uma nova imagem de todos os tipos de dados que existem, como objetos construtores.
+* Conheceremos uma nova imagem de todos os tipos de dados que existem, como
+  objetos construtores.
 
 ## ES6: JavaScript com superpoderes
 
@@ -26,23 +32,24 @@ Até o dia de hoje, muito provavelmente você tem se perguntado:
 
 Com esta unidade chegamos na hora de responder a esta pergunta.
 
-Talvez você já saiba que o ES5 tem sido até agora a versão com mais navegadores compatíveis e isso lhe dá uma excelente aliada.
+Talvez você já saiba que o ES5 tem sido até agora a versão com mais navegadores
+compatíveis e isso lhe dá uma excelente aliada.
 
-Mas é hora de boas notícias. Assim como mudamos de ano, os navegadores também mudam e neste momento estão migrando para a ES6.
+Mas é hora de boas notícias. Assim como mudamos de ano, os navegadores também
+mudam e neste momento estão migrando para a ES6.
 
-Este padrão da linguagem tem inúmeras características que lhe ajudarão a escrever um código mais limpo e mais bacana.
+Este padrão da linguagem tem inúmeras características que lhe ajudarão a escrever
+um código mais limpo e mais bacana.
 
 Está pronta?
 
 Os seguintes slides apresentam previamente o que abordaremos nesta unidade:
 
-<iframe src="https://goo.gl/DNc73K" frameborder="0" width="684" height="430"
-allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-</iframe>
+[Apresentação](https://docs.google.com/presentation/d/e/2PACX-1vTZ2R6KoUS2hLSKwzhcCGS9ozBycLnp8SFHpbfiStQ9AvodyeCae4WcCa0w_MaYyUj5JUTzrU54EHEe/embed?start=false&loop=false&delayms=60000&slide=id.g25264d74fc_1_3)
 
 ## Outros dados para ter em conta
 
-### Terminologia.
+### Terminologia
 
 Estes são alguns termos que são usados frequentemente quando falamos de ECMAScript:
 
@@ -71,7 +78,11 @@ A seguir são listadas as versões do padrão e seu ano de publicação:
 
 * ECMAScript é o padrão que define a linguagem de programação JavaScript.
 * A primeira versão do padrão foi publicada em 1997.
-* A quarta edição do padrão foi desenvolvida mas não foi terminada; muito desse trabalho foi usado como parte da sexta edição.
-* ECMAScript 5 é a edição do padrão que atualmente é suportada pela maioria dos navegadores modernos (>= Internet Explorer 11).
-* ECMAScript 6 é o padrão que acumulou mais mudanças e por isso mesmo atualizando o padrão nos anos seguintes, manteve-se como ponto de referência para falar do JavaScript do futuro.
+* A quarta edição do padrão foi desenvolvida mas não foi terminada; muito desse
+  trabalho foi usado como parte da sexta edição.
+* ECMAScript 5 é a edição do padrão que atualmente é suportada pela maioria dos
+  navegadores modernos (>= Internet Explorer 11).
+* ECMAScript 6 é o padrão que acumulou mais mudanças e por isso mesmo atualizando
+  o padrão nos anos seguintes, manteve-se como ponto de referência para falar do
+  JavaScript do futuro.
 * ECMAScript 6 pode ser conhecido como ES6 ou ES2015 por ser o ano da publicação.
