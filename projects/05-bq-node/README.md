@@ -73,10 +73,10 @@ interfaz sometida a pruebas es HTTP.
 # Corre pruebas e2e sobre instancia local. Esto levanta la aplicación con npm
 # start y corre los tests contra la URL de esta instancia (por defecto
 # http://127.0.0.1:8080).
-yarn e2e
+npm run e2e
 
 # Corre pruebas e2e sobre URL remota
-REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh yarn e2e
+REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh npm run e2e
 ```
 
 Las pruebas _end-to-end_ ya están completas en el _boilerplate_, así que puedes
@@ -104,9 +104,6 @@ argumento a la hora de invocar nuestro programa:
 ```sh
 # Arranca la aplicación el puerto 8888 usando npm
 npm start 8888
-
-# Arranca la aplicación el puerto 8888 usando yarn
-yarn start 8888
 ```
 
 #### Variables de entorno
@@ -298,10 +295,10 @@ evaluaremos cuando lo  completes:
 
 1. Haz un fork de este repo.
 2. Clona el repo en tu computadora.
-3. Instala dependencias (`yarn` o `npm install`).
-4. Arranca la aplicación `yarn start`.
-5. Ejecuta pruebas unitarias y linter: `yarn test` o `npm test`.
-6. Ejecuta tests e2e (end-to-end): `yarn e2e` o `npm run e2e`.
+3. Instala dependencias (`npm i` o `npm install`).
+4. Arranca la aplicación `npm start`.
+5. Ejecuta pruebas unitarias y linter: `npm test`.
+6. Ejecuta tests e2e (end-to-end): `npm run e2e`.
 
 ### Despliegue
 
@@ -338,7 +335,7 @@ now \
 ```
 
 Este comando está configurado como tarea `deploy` en el `package.json`, así que
-puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
+puedes ejecutarlo con `npm run deploy`.
 
 ***
 
