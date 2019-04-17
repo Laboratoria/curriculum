@@ -149,7 +149,7 @@ Una vez insalada, deberías poder ejecutar el comando `expo` en tu terminal:
 
 ```sh
 $ expo -V
-2.2.0
+2.14.0
 ```
 
 #### Emulador / Dispositivo
@@ -180,8 +180,8 @@ repositorio y clónalo en tu computadora. Dentro de la carpeta del proyecto
 ejecutamos el siguiente comando para inicializar nuestro proyecto con Expo:
 
 ```sh
-# inicializa proyecto con expo en directorio actual
-expo init ./
+# inicializa proyecto con expo en carpeta "example"
+expo init example
 ```
 
 Al invocar este comando, nos preguntará que _plantilla_ (_template_) queremos
@@ -189,32 +189,48 @@ usar. Elige `blank`.
 
 ```txt
 ? Choose a template: (Use arrow keys)
-❯ blank
-  The Blank project template includes the minimum dependencies to run and an empty root component.
-  tabs
-  The Tab Navigation project template includes several example screens.
+  ----- Managed workflow -----
+❯ blank         minimal dependencies to run and an empty root component  
+  tabs          several example screens and tabs using react-navigation
+  ----- Bare workflow -----
+  bare-minimum  minimal setup for using unimodules
+```
+
+Después se nos preguntará por el nombre de la aplicación tal y como se verá la
+página de inicio (home screen).
+
+```text
+? Choose a template: expo-template-blank
+? Please enter a few initial configuration values.
+  Read more: https://docs.expo.io/versions/latest/workflow/configuration/ ‣ 50% completed
+ {
+   "expo": {
+     "name": "<The name of your app visible on the home screen>",
+     "slug": "example"
+   }
+ }
 ```
 
 Esto creará una serie de archivos y carpetas, incluyendo un archivo
-`package.json`, así como un `app.json` , nuestro componente principal `App.js` y
+`package.json`, así como un `app.json`, nuestro componente principal `App.js` y
 otros archivos de configuración y dependencias. La carpeta del proyecto debería
 contener los siguientes archivos:
 
 ```sh
+$ cd example
 $ tree . -L 1 -a
 .
 ├── App.js
 ├── app.json
 ├── assets
-├── .babelrc
-├── .git
+├── babel.config.js
 ├── .gitignore
 ├── node_modules
 ├── package.json
-├── README.md
+├── package-lock.json
 └── .watchmanconfig
 
-3 directories, 6 files
+2 directories, 7 files
 ```
 
 Si abrimos el archivo `App.js`, veremos que éste exporta un componente de
