@@ -64,7 +64,7 @@ seguintes telas:
 
   ![Passo 12 Git](https://i.imgur.com/bd6QhOS.png)
 
-### O que é Git Bash?
+## O que é Git Bash?
 
 Quando concluirmos a instalação do Git, encontraremos, em nossas novas
 aplicações, uma chamada `Git Bash`.
