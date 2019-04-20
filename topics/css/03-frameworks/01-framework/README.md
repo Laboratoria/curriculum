@@ -35,7 +35,7 @@ responsiva.
 Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito
 tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e
 esforço de criação e responder à pergunta _Por que reinventar a roda se você
-pode projetar um carro melhor?_
+pode projetar um carro melhor?
 
 Isso não significa que são substitutos para entender CCS ou que não mexeremos
 com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos

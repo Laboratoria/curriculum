@@ -29,9 +29,12 @@ Tomando como base a imagem abaixo, replique a estrutura de grid.
 
 ### 2. De desktop para mobile
 
-Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais divertido. Apresentamos três desafios. Em cada imagem, verá duas versões: desktop (à esquerda) e mobile (à direita).
+Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais
+divertido. Apresentamos três desafios. Em cada imagem, verá duas versões:
+desktop (à esquerda) e mobile (à direita).
 
-Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você consegue!
+Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você
+consegue!
 
 ![desktop a
 mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile.png)
@@ -44,7 +47,8 @@ mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db27
 
 ### 3. Love Love Panda Desu
 
-Crie uma página web para os amantes dos pandas. Para obter as imagens [use este link.](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
+Crie uma página web para os amantes dos pandas. Para obter as imagens [use este
+link.](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
 
 - Versão 1: Crie sua página utilizando grid.
 - Versão 2: Crie sua própria versão móvel da página.
@@ -54,7 +58,9 @@ Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb
 
 ### 4. Rock Site
 
-Replique as imagens a seguir colocando em prática seus conhecimentos de `grid system`. Para obter as imagens [este link](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
+Replique as imagens a seguir colocando em prática seus conhecimentos de `grid
+system`. Para obter as imagens [este
+link](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
 
 ![Rock
 Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
