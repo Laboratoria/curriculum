@@ -26,7 +26,7 @@ user.name = michellesegv
 user.email = michelle@laboratoria.la
 ```
 
-\(Esse são os dados que eu já havia configurado\)
+\(Esses são os dados que eu já havia configurado\)
 
 Agora, vamos definir o nosso ambiente de `Git`:
 

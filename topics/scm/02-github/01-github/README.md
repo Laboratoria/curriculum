@@ -100,7 +100,7 @@ su cuenta en `Github`. -->
 (https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)]
 (https://www.youtube.com/watch?v=1r9ixrSftaI) -->
 
-## como criamos um repositório remoto no GitHub?
+## Como criamos um repositório remoto no GitHub?
 
 Siga os passos a seguir para criar um repositório no `Github`:
 
