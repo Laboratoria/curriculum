@@ -2,13 +2,12 @@
 
 ## Syllabus
 
-### Unidad 01: [Git](01-git)
+### Unidade 01: [Git](01-git)
 
-En esta unidad cubrimos lo básico del sistema de control de versiones `Git`,
-como herramienta de línea de comandos.
+Nesta unidade aprenderemos o básco do sistema de controle de versões `Git`.
 
-### Unidad 02: [GitHub](02-github)
+### Unidade 02: [GitHub](02-github)
 
-Una vez visto `Git`, en esta unidad nos concentramos en el uso de `Git` en
-conjunción con `GitHub` (que es un servicio alojado de repositorios remotos y
-colaboración).
+Depois de termos visto sobre o `Git` é hora de nos concentramos, nesta unidade,
+no uso do `Git` em conjunto com o `GitHub`(que é um serviço de repositórios
+remotos e colaboração).
