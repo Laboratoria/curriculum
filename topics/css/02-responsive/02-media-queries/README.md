@@ -84,7 +84,7 @@ Suas propriedades são as seguintes:
 
 - **width**: controla a largura da área de visualização. Pode ser incializada
   com um número fixo de pixels ou com o valor especial `device-width` que indica
-  a targura total do dispositivo em pixels, em uma escala de 100%.
+  a largura total do dispositivo em pixels, em uma escala de 100%.
 
 - **initial-scale**: controla o nível de *zoom* inicial ao carregar a página. As
   propriedades `maximum-scale`, `minimum-scale` e `user-scalable` controlam como

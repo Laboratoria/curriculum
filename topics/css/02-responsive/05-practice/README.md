@@ -1,68 +1,70 @@
-# Ejercicios libres
+# Exercícios práticos
 
-- Tipo: `práctica`
-- Formato: `self-paced`
+- Tipo: `prática`
+- Formato: `individual`
 - Duración: `180min`
 
 ***
 
 ## Objetivos
 
-- Practicar, practicar y practicar
+- Praticar, praticar e praticar
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante la clase y así ayudar al resto de tus compañeras :)
+A seguir há alguns exercícios práticos que serão resolvidos, passo a passo, por
+sua equipe de professoras em uma sessão presencial (oficina). Sugerimos que você
+tente resolver os exercícios por sua conta ou em equipe antes da seção
+presencial. Assim, você já virá com suas dúvidas específicas e estará
+familiarizada com os desafios. Quiçá, poderá apresentar sua solução para a turma
+e assim ajudar suas colegas :)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir todos seus exercícios no `GitHub` publicá-los em `gh-pages`.
 
-### 1. Replica la siguiente grid
+### 1. Replicar o grid a seguir
 
-Tomando como base la imagen de abajo, replíca la estructura de grid usando las
-diferentes columnas que nos da un framework.
+Tomando como base a imagem abaixo, replique a estrutura de grid.
 
 ![grid](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ejercicio-grid-gral.png)
 
-### 2. De desktop a mobile
+### 2. De desktop para mobile
 
-Ahora que ya sabes hacer una grid en desktop, vamos a hacer un reto más
-divertido. Te damos tres retos, en cada imagen vas a ver dos versiones: desktop
-(a la izquierda ) y mobile (a la derecha).
+Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais divertido. Apresentamos três desafios. Em cada imagem, verá duas versões: desktop (à esquerda) e mobile (à direita).
 
-Replica la estructura desktop y modifícala a mobile como la imagen te lo dice,
-¡tú puedes!
+Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você consegue!
 
-![desktop a mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile.png)
+![desktop a
+mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile.png)
 
-![desktop a mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile2.png)
+![desktop a
+mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile2.png)
 
-![desktop a mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile3.png)
+![desktop a
+mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile3.png)
 
 ### 3. Love Love Panda Desu
 
-Crea una página web para amantes de los pandas. Puedes obtener las imágenes en
-[este enlace](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
+Crie uma página web para os amantes dos pandas. Para obter as imagens [use este link.](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
 
-- Versión 1: Crea tu página utilizando un grid system de tu elección (que no
-  pertenezca a un framework como Bootstrap o Materialize).
-- Versión 2: Crea tu propia versión móvil de la página.
+- Versão 1: Crie sua página utilizando grid.
+- Versão 2: Crie sua própria versão móvel da página.
 
-![Love Love Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)
+![Love Love
+Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)
 
 ### 4. Rock Site
 
-Replica las siguientes vistas poniendo en práctica tus conocimientos de `grid
-system`. Puedes obtener las fotografías en [este enlace](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
+Replique as imagens a seguir colocando em prática seus conhecimentos de `grid system`. Para obter as imagens [este link](https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing)
 
-![Rock Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
+![Rock
+Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png)
 
-![Rock Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
+![Rock
+Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
 
 ***
 
-Puedes ver el siguiente video para saber cómo crear y utilizar un grid system:
+Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
 
-[![Creando un grid system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+[![Creando un grid
+system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)

@@ -171,7 +171,7 @@ significado:
 É a **linha** que contém o _conteúdo_ e o _preenchimento_. É aplicável a todos
 os elementos.
 
-![borda](https://i.imgur.com/3Ny8vxe.png)
+![borda](https://i.imgur.com/5sFCFfr.png)
 
 Para cada borda você pode definir sua largura ou espessura, sua cor e seu
 estilo, portanto, o CSS  define diferentes propriedades relacionadas às bordas.
@@ -437,7 +437,7 @@ uma diferença muito importante:
 
 #### Resumo das características do Display
 
-![Resumo do display](https://i.imgur.com/68JKFQE.png)
+![Resumo do display](https://i.imgur.com/WlpD4H0.png)
 
 ## Leituras complementares
 
@@ -446,4 +446,4 @@ recursos:
 
 - [Modelo da caixa - W3S](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-- [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)git 
+- [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
