@@ -1,81 +1,84 @@
 # Shell de UNIX
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-## Qué es la shell de UNIX?
+## O que é a *shell* de UNIX?
 
-> Una Shell de Unix o también shell, es el término usado en informática para
-> referirse a un intérprete de comandos, el cual consiste en la interfaz de
-> usuario tradicional de los sistemas operativos basados en Unix y similares
+> Uma *Shell de Unix* ou também **shell**, é o terminal usado na informática
+> para se referir a um intérprete de comandos, o qual consiste na interface de
+> usuário tradicional dos sistemas operacionais baseados em Unix e similares
 > como GNU/Linux.
 >
-> Fuente: [Shell de Unix - Wikipedia](https://es.wikipedia.org/wiki/Shell_de_Unix)
+> Fonte: [Shell de Unix -
+> Wikipédia](https://pt.wikipedia.org/wiki/Shell_do_Unix)
 
-Básicamente, la shell es el _intérprete_ que se encarga de ejecutar los comandos
-que escribimos en el terminal (o emulador de terminal). Así como el motor de
-JavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar
-y ejecutar nuestro código JavaScript, la shell se encarga de los comandos que
-escribimos en la línea de comando.
+Basicamente, o shell é um _intérprete_ que é encarregado de executar os comandos
+que escrevemos no terminal (ou emulador de terminal). Assim como o motor do
+JavaScript (seja o do navegador, Node.js, ...) é o responsável por interpretar e
+executar nosso código JavaScript, a shell se encarrega dos comandos que
+escrevemos na linha de comando.
 
-## Shells comunes
+## Shells comuns: bash, zsh, etc
 
-La shell más común es problemente `bash` ([Bourne Again SHell](https://es.wikipedia.org/wiki/Bash)),
-pero no está de más mencionar que existen muchas shells distintas, que comparten
-gran parte de sus características, pero cada una con sus peculiaridades. Otras
-shells comunes son: `zsh`, `ksh`, `csh`, `ash`, `dash`, ...
+A shell mais comum é provavelmente `bash` ([Bourne Again
+SHell](https://pt.wikipedia.org/wiki/Bash)), mas não é demais mencionar que
+existem muitas shells distintas que compartilham grande parte de suas
+características, mas cada uma com suas peculiaridades. Outras shells comuns são:
+`zsh`, `ksh`, `csh`, `ash`, `dash`, ...
 
-Dentro de un emulador de terminal podemos ejecutar diferentes shells, así como
-configurar tu shell por defecto (ver comando [chsh](https://en.wikipedia.org/wiki/Chsh)).
+Dentro de um emulador do terminal podemos executar diferentes shells, assim como
+configurar sua shell por padrão (ver comando
+[chsh](https://en.wikipedia.org/wiki/Chsh)).
 
-## La línea de comandos
+## A linha de comandos
 
-La línea de comandos es también conocida como
+A linha de comandos também é conhecida como:
 
 * Terminal
-* Consola
-* Command Prompt
-* Símbolo de Sistema
+* Console
+* Prompt de comando
+* CLI
 * cmd
 * Git Bash, etc.
 
-Una de las herramientas que más nos acompañará en nuestro camino del código
-será la `línea de comandos`. En esta lección conoceremos y aprenderemos cómo
-usar esa famosa pantalla negra que los "hackers" usan; pero tranquila, no
-vamos a "hackear" nada, ni haremos nada ilegal :)
+Uma das ferramentas que mais nos acompanhará será a `linha de comandos`. Nessa
+lição conheceremos e aprenderemos como usar essa famosa tela preta que os
+"hackers" usam. Mas fique tranquila! Não vamos "hackear" nada, nem faremos nada
+ilegal.
 
-Puede parecer un poco aterrador al principio pero solo es una pantalla que
-espera a que le des órdenes.
+Pode parecer um pouco assustador no começo, mas é apenas uma tela esperando
+pelas suas ordens.
 
-## ¿Para qué sirve la línea de comandos?
+## Para que serve a linha de comandos?
 
-La `línea de comandos` es una aplicación que nos permite ver, manejar y
-manipular archivos de nuestra computadora por medio de `comandos`. Es como el
-Explorador de Windows o Finder en Mac, pero sin la "interfaz".
+A linha de comandos é uma aplicação que nos permite visualizar, gerenciar e
+manipular arquivos de nosso computador através de _comandos_. É como o Windows
+Explorer ou Finder do Mac, mas sem a interface gráfica.
 
-Por lo tanto, nos da un control que es rápido y automatizado de las
-computadoras.
+Dessa forma, a linha de comandos nos dá um controle rápido e automatizado dos
+computadores.
 
-## Accediendo a la línea de comandos
+## Acessando a linha de comando
 
 ### Windows
 
-Presionamos la tecla "windows" + r:
+Pressione as teclas "Windows" + r:
 
-![teclas](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
+![Teclas para a janela &quot;Executar&quot;](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
 
-Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que
-escribiremos **cmd.exe**
+Uma pequena tela aparecerá na parte inferior esquerda. Nela, escreveremos
+`cmd.exe`.
 
-![run](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
+![Executar](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
 
-Hacemos clic en el botón **OK** y estaremos abriendo nuestra terminal. Al abrir
-la aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:
+Ao clicar no botão "OK", abriremos nosso terminal. Ao abrir a aplicação,
+aparecerá uma nova janela aparecer com um fundo preto e letras como abaixo:
 
-![línea de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
+![Linha de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
 
 ### Mac OS X
 
@@ -83,33 +86,32 @@ Launchpad → Terminal
 
 ### Linux
 
-Actividades → Terminal
+Atividades → Terminal \(pode variar conforme sua distribuição e configuração\)
 
 ## Prompt
 
-Ahora tendremos una pantalla negra que está esperando nuestras órdenes.
+Agora temos uma tela preta que está esperando por nossas ordens.
 
-* Si nos encontramos en **Windows** debe de aparecernos una primera línea que termina
-  con el símbolo `>`
-
-  ```text
-   C: \Users\Michelle >
-  ```
-
-  Si no te aparece "Michelle" no te preocupes, está bien, ahí debería de
-  aparecer tu nombre de usuario.
-
-* Si te encuentras en **Linux**, te aparecerá una primera línea que termina con el
-  símbolo `$`
+* Se estiver no **Windows**, a primeira linha deve terminar com o símbolo `>`:
 
   ```text
-  [Laboratoria@Michelle ~] $
+  C:\Users\Michelle>
   ```
 
-  En tu computadora, "Laboratoria" y "Michelle" serán reemplazados por tus datos.
+  Se não aparecer `Michelle`, não se preocupe, está tudo certo: aqui deve
+  aparecer o seu próprio nome de usuário.
 
-* Si tienes una **Mac**, la primera línea estará compuesta por los datos de tu
-  computadora y terminará con el símbolo `$`
+* No **Linux**, a primeira linha terminará com o símbolo `$`:
+
+  ```bash
+  [Laboratoria@Michelle ~]$
+  ```
+
+  No seu computador, "Laboratoria" e "Michelle" serão substituídos pelos seus
+  dados.
+
+* Se você tem um **Mac**, a primeira linha será composta pelos dados do seu
+  computador terminando com o símbolo `$`:
 
   ```text
   Laboratoria-MacBook-Air:~ Michelle$
@@ -136,21 +138,24 @@ comandos comunes (además de los programas que ya conocemos, como `git`, `node`,
 * ...
 -->
 
-## Personalización
+## Personalização
 
-Para finalizar, cabe mencionar que así como uno puede configurar su escritorio,
-con tu propia imagen de fondo, shortcuts, ... los shells también permiten un
-montón de personalización. Los detalles de cómo personalizar tu shell quedan
-fuera del scope de este curso, pero te invitamos a que explores lo siguiente:
+Para finalizar, cabe mencionar que assim como alguém pode configurar sua área de
+trabalho com sua própria imagem de fundo, atalhos, ... os shells também permitem
+uma grande quantidade de personalização. Os detalhes de como personalizar seu
+shell estão fora do escopo deste curso, mas convidamos você a explorar o
+seguinte:
 
 * `.profile`
 * `.bashrc`
 * `.bash_history`
 * `oh-my-zsh`
 
-## Lecturas complementarias
+## Leituras Complementares
 
-* [Shell de Unix - Wikipedia](https://es.wikipedia.org/wiki/Shell_de_Unix)
-* [Emulador de terminal - Wikipedia](https://es.wikipedia.org/wiki/Emulador_de_terminal)
-* [Bash_(Unix_shell) - Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-* [Shell Builtin Commands - gnu.org](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
+* [Shell de Unix - Wikipédia](https://pt.wikipedia.org/wiki/Shell_do_Unix)
+* [Emulador de terminal -
+  Wikipédia](https://en.wikipedia.org/wiki/Terminal_emulator)
+* [Bash_(Unix_shell) - Wikipédia](https://pt.wikipedia.org/wiki/Bash)
+* [Shell Builtin Commands -
+  gnu.org](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)

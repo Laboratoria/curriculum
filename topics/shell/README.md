@@ -1,51 +1,50 @@
 # Unix Shell
 
-La línea de comandos es una interfaz que algunos pensarían está ya anticuada.
-Pero la realidad es completamente distinta. El terminal se ha convertido en una
-pieza crucial en el día a día de un desarrollador web, ya sea usando `git`,
-corriendo un `bundler`, instalando dependencias con `npm` o escribiendo scripts
-para arrancar o desplegar aplicaciones.
+A linha de comandos é uma interface que alguns pensariam já estar antiquada. Mas
+a realidade é completamente diferente. O terminal se converteu em uma peça
+crucial no dia a dia dos desenvolvedores, seja para o uso do `Git`, executando
+um `bundler` , nstalando dependências com `npm` ou escrevendo scripts para
+iniciar ou implantar aplicativos. 
 
-La primera `unix shell` apareció en 1971, con la primera versión de Unix. A
-pesar de sus más de 40 años de edad, sigue siendo una tecnología totalmente
-vigente, y de alguna forma se ha convertido en el estándar para la interacción
-con servidores y sistemas operativos "Unix-like" (GNU/Linux, BSD, MacOS,
-Android, ...).
+A primera `unix shell` surgiu em 1971, com a primeira versão do Unix. Apesar de
+seus mais de 40 anos de idade, segue senfo uma tecnologia totalmente vigente e
+de alguma forma se converteu no padrão para a interação com servidores e
+sistemas operacionais "Unix-like" (GNU/Linux, BSD, MacOS, Android, ...).
 
-De hecho, en 2016, `unix shell`, es uno de los skills más buscados en la
-industria (ranqueado No. 14 entre los 25 skills más importantes para ser
-contratado en 2016, según LinkedIn).
+De fato, em 2016, `unix shell`, é um dos skills mais buscados na indústra
+(ranqueado como número 14 entre os 25 skills mais importantes para ser
+contratado em 2016, segundo LinkedIn).
 
-En este curso aprenderás a interactuar con la línea de comandos y escribir shell
-scripts.
+Neste curso você aprenderá a interagir com a linha de comandos e escrever
+scripts shell.
 
 Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `environment`,
 `process`, `argv`, `pipes`, `stdin`, `stdout`, `stderr`, `nodejs`, `npm`,
 `npm-scripts`.
 
-## Aprenderás
+## Objetivos de aprendizagem
 
-* Qué es y cómo utilizar la interfaz de línea de comandos (`CLI`)
-* Qué es una shell de UNIX
-* Qué es un emulador de terminal
-* Uso básico de `bash`
-* A escribir shell scripts para automatizar tareas
-* A construir aplicaciones CLI con Node.js
-* A enteder qué es un proceso
-* A entender el "entorno" y usar variables de entorno
+* O que é e como utilizar a interface da linha de comando (`CLI`)
+* O que é shell de UNIX
+* O que é um emulador de terminal
+* Uso básico do `bash`
+* Escrever scripts shell para automatizar tarefas
+* Construir aplicações CLI com Node.js
+* Entender o que é um processo
+* Entender nosso "ambiente" e usar variáveis de ambiente
 
 ## Syllabus
 
-### Unidad 01: [Introducción](01-intro)
+### Unidade 01: [Introducción](01-intro)
 
-Esta unidad hace una introdcción a la _shell_ de UNIX, shells comunes, la línea
-de comandos, y otros conceptos básicos sobre este poderoso entorno.
+Esta unidade faz uma introdução a _shell_ de UNIX, shells comuns, a linha de
+comandos e outros conceitos básicos sobre este poderoso ambiente.
 
-### Unidad 02: [Sistema de archivos](02-filesystem)
+### Unidade 02: [Sistema de archivos](02-filesystem)
 
-En esta unidad nos concentramos en la interacción con el sistema de archivos
-desde el terminal. Veremos como navegar el sistema de archivos, crear carpetas,
-mover/copiar/borrar archivos y otros comandos comunes.
+Nesta unidade nos concentraremos na interação com o sistema de arquivos pelo
+terminal. Veremos como navegar pelo sistema de arquivos, criar pastas,
+mover/copiar/apagar arquivos e outros comandos comuns.
 
 <!--
 ### Unidad 03: [Entorno / Envirnoment](03-environment)

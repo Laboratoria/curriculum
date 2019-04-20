@@ -1,18 +1,15 @@
-# Entorno / Envirnoment
+# Ambiente/Environment
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Ejecución de comandos
+## Execução de comandos
 
-Cada vez que apretamos la tecla _enter_ le estamos pidiendo al terminal que
-ejecute la línea que hayamos escrito hasta ese punto. Es importante entender
-que todo comando se ejecuta en un contexto (la carpeta desde la que ejecutamos,
-las variables de entorno, ...).
+Cada vez que apertamos a tecla _enter_ estamos pedindo ao terminal que execute a linha de escrevemos até o momento. É importante entender que todo comando se executa em um contexto (a pasta em que estamos no momento da execução, variáveis de ambiente, etc...).
 
-## Variables de entorno
+## Variáveis de ambiente
 
 ...
