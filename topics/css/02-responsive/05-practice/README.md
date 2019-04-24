@@ -48,7 +48,7 @@ mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db27
 ### 3. Love Love Panda Desu
 
 Crie uma página web para os amantes dos pandas. Para obter as imagens [use este
-link.](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p?usp=sharing).
+link.](https://github.com/rafaelbcerri/love-panda).
 
 - Versão 1: Crie sua página utilizando grid.
 - Versão 2: Crie sua própria versão móvel da página.
@@ -72,5 +72,4 @@ Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb
 
 Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
 
-[![Creando un grid
-system](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+[![Criando um sistema de grid](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)

@@ -27,7 +27,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Os componentes de uma *grid* são
+### 2) Os componentes de uma grid são
 
 #### Opções
 
@@ -39,7 +39,7 @@
 
 <solution style="display:none;">1,4,5</solution>
 
-### 3) O que são as *Media Queries*?
+### 3) O que são as Media Queries?
 
 #### Opções
 
@@ -66,31 +66,31 @@
 
 <solution style="display:none;">2,3</solution>
 
-### 5) Os _____________ correspondem à condição que o dispositivo deve satisfazer e que deve ser verdadeira para que se aplique o código contido em nossa *media query*
+### 5) Os _____________ correspondem à condição que o dispositivo deve satisfazer e que deve ser verdadeira para que se aplique o código contido em nossa media query
 
 #### Opções
 
-1. *Media Queries*
-2. *Media Type*
-3. *Media Feature*
+1. Media Queries
+2. Media Type
+3. Media Feature
 4. Operadores Lógicos
 
 <solution style="display:none;">3</solution>
 
-### 6) As *Media Queries* são formadas por
+### 6) As Media Queries são formadas por
 
 #### Opções
 
-1. *Media Features*
-2. *Media Query*
-3. *Media Type*
-4. *Media Operators*
+1. Media Features
+2. Media Query
+3. Media Type
+4. Media Operators
 5. Operadores Lógicos
 6. Operadores Query
 
 <solution style="display:none;">1,3,5</solution>
 
-### 7) Para que serve o *viewport*?
+### 7) Para que serve o viewport?
 
 #### Opções
 
@@ -106,10 +106,10 @@
 
 #### Opções
 
-1. *Media Features*
-2. *Media Query*
-3. *Media Type*
-4. *Media Operators*
+1. Media Features
+2. Media Query
+3. Media Type
+4. Media Operators
 5. Operadores Lógicos
 6. Operadores Query
 

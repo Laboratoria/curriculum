@@ -25,20 +25,20 @@ turma e assim ajudar o restante de suas colegas :\)
 Replicar a seguinte imagem colocando em prática o seu conhecimento
 `positioning`.
 
-![A Quadra](https://fotos.subefotos.com/c8aebc7059f194f164e0c9c3f63421e6o.png)
+![A Quadra](https://user-images.githubusercontent.com/39506102/56682848-cd808d80-66a2-11e9-9270-ff182c734b7d.png)
 
 ### 2. Posicionando caixas
 
 Replique as seguintes imagens colocando em prática o seu conhecimento de
 `positioning`:
 
-![6 caixas](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
+![6 caixas](https://user-images.githubusercontent.com/39506102/56683303-9fe81400-66a3-11e9-829a-11503e0a1417.png)
 
 ### 3. O tríptico
 
 Replique a seguinte imagem colocando em prática o seu conhecimento de `float`:
 
-![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
+![css float](https://user-images.githubusercontent.com/39506102/56683367-c1e19680-66a3-11e9-9371-8ce0941a49e3.png)
 
 ### 4. Tipografias e ícones
 

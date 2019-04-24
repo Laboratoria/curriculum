@@ -18,14 +18,14 @@
 
 #### Opções
 
-1. *Grid system*
-2. *Media queries*
-3. *Viewport*
+1. Grid system
+2. Media queries
+3. Viewport
 4. Web Design Responsivo
 
 <solution style="display:none;">4</solution>
 
-### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma *grid* de 12 colunas para cada coluna será `.col-`
+### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma grid de 12 colunas para cada coluna será `.col-`
 
 ![Exemplo da
 *grid*](https://cdn.tutsplus.com/webdesign/uploads/2013/08/grids-1.jpg)
@@ -44,9 +44,9 @@
 
 #### Opções
 
-1. *Grid system*
-2. *Media queries*
-3. *Viewport*
+1. Grid system
+2. Media queries
+3. Viewport
 4. Web Design Responsivo
 
 <solution style="display:none;">2</solution>
@@ -62,7 +62,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 5) No código a seguir, qual é a *media feature*?
+### 5) No código a seguir, qual é a media feature?
 
 ```css
 @media screen and (max-width: 480px) {
@@ -81,7 +81,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) No código a seguir, qual é o *media type*?
+### 6) No código a seguir, qual é o media type?
 
 ```css
 @media screen and (max-width: 480px) {
@@ -133,7 +133,7 @@ viewport](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/view
 
 <solution style="display:none;">1</solution>
 
-### 9) Se for necessário adaptar estilos para dispositivos com tamanhos maiores ou iguais a um iPhone 6 (width: 375px), qual seria a *media feature* a ser utilizada?
+### 9) Se for necessário adaptar estilos para dispositivos com tamanhos maiores ou iguais a um iPhone 6 (width: 375px), qual seria a media feature a ser utilizada?
 
 #### Opções
 
@@ -144,7 +144,7 @@ viewport](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/view
 
 <solution style="display:none;">2</solution>
 
-### 10) Se desejarmos aplicar estilos a dispositivos com tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a *media query* a ser utilizada?
+### 10) Se desejarmos aplicar estilos a dispositivos com tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a media query a ser utilizada?
 
 > **Observação:** Os pixels que usamos no CSS não são sempre a resolução do
 > dispositivo. Isso acontece porque os que usamos em CSS são Device Independent
