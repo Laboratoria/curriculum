@@ -46,7 +46,7 @@ que calcule el cubo de un número, etc.
 
 ### Unidade 01: [Introdução a Web Development](01-web-development)
 
-Aprenda a usar variáveis para armazenar informações que mudam conforme você 
+Aprenda a usar variáveis para armazenar informações que mudam conforme você
 programa e os diferentes tipos de dados em JavaScript.
 
 ### Unidade 02: [Introdução a UX Design](02-ux-design)
