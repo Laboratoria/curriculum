@@ -25,25 +25,17 @@ turma e assim ajudar o restante de suas colegas :\)
 Replicar a seguinte imagem colocando em prática o seu conhecimento
 `positioning`.
 
-<<<<<<< HEAD
 ![A Quadra](https://user-images.githubusercontent.com/39506102/56682848-cd808d80-66a2-11e9-9270-ff182c734b7d.png)
-=======
-![A Quadra](https://fotos.subefotos.com/c8aebc7059f194f164e0c9c3f63421e6o.png)
->>>>>>> translation(topics/css/01-css): section transalted to portuguese
 
 ### 2. Posicionando caixas
 
 Replique as seguintes imagens colocando em prática o seu conhecimento de
 `positioning`:
-<<<<<<< HEAD
 
 ![6 caixas](https://user-images.githubusercontent.com/39506102/56683303-9fe81400-66a3-11e9-829a-11503e0a1417.png)
-=======
->>>>>>> translation(topics/css/01-css): section transalted to portuguese
 
 ### 3. O tríptico
 
-<<<<<<< HEAD
 Replique a seguinte imagem colocando em prática o seu conhecimento de `float`:
 
 ![css float](https://user-images.githubusercontent.com/39506102/56683367-c1e19680-66a3-11e9-9371-8ce0941a49e3.png)
@@ -54,19 +46,5 @@ Desenvolva o menu a seguir. Você deve usar pelo menos dois estilos de fontes da
 Web \(sugestão: Google Fonts\). Você pode usar os tipos de letra iconográficos
 de sua escolha.
 
-=======
-### 3. O tríptico
-
-Replique a seguinte imagem colocando em prática o seu conhecimento de `float`:
-
-![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
-
-### 4. Tipografias e ícones
-
-Desenvolva o menu a seguir. Você deve usar pelo menos dois estilos de fontes da
-Web \(sugestão: Google Fonts\). Você pode usar os tipos de letra iconográficos
-de sua escolha.
-
->>>>>>> translation(topics/css/01-css): section transalted to portuguese
 ![Tipografias e
 Ícones](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
