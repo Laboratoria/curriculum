@@ -1,43 +1,42 @@
-# Retos
+# Desafios
 
-- Tipo: `práctica`
-- Formato: `self-paced`
+- Tipo: `exercício`
+- Formato: `individual`
 - Duración: `20h`
 
 ## Objetivos
 
-- A continuación te presentamos los retos que debes completar para poner tus
-  conocimientos a prueba.
+- A seguir te apresentamos os desafios que você deve completar para por seus
+  conhecimentos em prática.
 
 ***
 
 ## Lab-<ar
 
-Recrea la siguiente página web. Las imágenes y todo lo que necesitas lo
-encuentras [aquí](https://github.com/Laboratoria-learning/lab-car-boilerplate),
-recuerda hacer un **fork** del repositorio y clonarlo en
-tu máquina.
+Recrie a seguinte página web. As imagens e tudo que precisa você encontrará
+[aqui.](https://github.com/Laboratoria-learning/lab-car-boilerplate) Lembre-se
+de fazer um fork do repositório e cloná-lo em sua máquina.
 
-### 1. La versión web
+### 1. A versão web
 
 ![Lab-car-web](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/desktop.png)
 
-### 2. La versión movil
+### 2. A versão móvel
 
-Y obviamente no podemos dejar de lado la versión móvil, así que créala como
-segunda parte.
+E obviamente não podemos deixar de lado a versão móvel, então crie-a em uma
+segunda etapa.
 
 ![Lab-car-movil](https://raw.githubusercontent.com/AnaSalazar/curricula-js/0b700308f0c6ed452596912fcef8103b8f88386b/04-social-network/01-css-frameworks/08-code-challenges/images/v-movil.png)
 
-### 3. Modales
+### 3. Modais
 
-Como **extra** puedes añadir los modales necesarios en la versión web
+Como **extra** pode adicionar os modais necessários na versão web.
 
-- Modal de Inicia Sesión
+- Modal de Início de Sessão
   ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
 
-- Modal de Regístrate
+- Modal de Registro
   ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
 
-- Y modal de Convierte en conductor
+- E modal de Tornar-se condutor
   ![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)
