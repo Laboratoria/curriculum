@@ -1,69 +1,51 @@
-# Componentes y funcionalidad
+# Componentes e funcionalidade
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Conocer y aprender a usar componentes de frameworks con jQuery
+- Conhecer e aprender a usar componentes de frameworks com jQuery.
 
-## ¿Componentes con jQuery?
+## Componentes com jQuery
 
-En las lecturas anteriores ya vimos las maravillosas ventajas que nos ofrecen
-los frameworks de CSS, pero aun hay más, los frameworks no solo nos
-permiten maquetar y dar estilos más rápido, también tienen algunos
-componentes que ya cuentan con la funcionalidad. Esto se logra a través de
-**jQuery**.
+Nas leituras anteriores já vimos as maravilhosas vantagens que nos oferecem os
+frameworks de CSS, mas ainda há mais. Os frameworks não só nos permitem projetar
+e dar estilos mais rapidamente como também possuem componentes que já contam com
+essa funcionalidade. Isso é possível por meio do uso de **jQuery**.
 
-jQuery es una biblioteca de javascript (que por el momento no nos vamos a
-enfocar en entender al 100%), que a través de nuestro framework nos da la
-facilidad de agregar nuestra funcionalidad con solo un par de líneas.
+jQuery é uma biblioteca de javascript (que por enquanto não vamos nos esforçar a
+enteder 100%), que por meio de nosso framework nos dá a facilidade de adicionar
+nossa funcionalidade com poucas linhas.
 
-Para esto también necesitamos *linkear* en nuestro proyecto el CDN de jQuery
-o la ruta de donde se encuentra, si es que descargamos jQuery en nuestro
-proyecto.
+Para isso também é preciso criar um *link* no nosso projeto para o CDN de JQuery
+ou para o caminho de onde estiver, se baixarmos JQuery no nosso projeto.
 
-![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/04-components/links-bootstrap.png)
+![Bootstrap](https://user-images.githubusercontent.com/25912510/54452405-1435ac00-4723-11e9-975c-5ca69ad33274.png)
 
-Ya hecho lo anterior podemos proceder a hacer uso del componente que
-necesitemos, para este caso como ejemplo usaremos un **modal** y un
-**Carousel**. Antes que nada es necesario mencionar que los modales como los
-carruseles podemos crearlos usando CSS y JavaScript, esta vez haremos que la
-magia salga con ayuda de nuestro mejor amigo (sí, el framework que ya decidiste
-probar).
+Ao fazer o passo anterior podemos começar a fazer uso do componente que
+necessitamos. Para este exemplo usaremos um **modal** e um **Carousel**. Antes
+de tudo é necessário mencionar que os *modais* e os *carrosséis* podem ser
+criados utilizando CSS e javascript. Desta vez faremos que a magia do nosso
+melhor amigo venha nos ajudar (sim, o framework que você decidiu testar).
 
-Como ya vimos (y practicamos) solo necesitamos ir a la página de nuestro
-framework, escoger el modal que más nos hace feliz y copiar el código
-necesario. Para la funcionalidad copiaremos en nuestro archivo app.js las
-líneas que se nos dan ahí mismo.
+Como já vimos (e praticamos) só precisamos ir à página de nosso framework,
+escolher o modal que nos faz mais feliz e copiar o código necessário. Para a
+funcionalidade copiaremos em nosso arquivo app.js as linhas que precisamos.
 
-En nuestro archivo html:
+No nosso arquivo html:
 
 ```html
-<button
-  type="button"
-  class="btn btn-primary"
-  data-toggle="modal"
-  data-target="#exampleModal"
-  data-whatever="@mdo"
->Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
 
-<div
-  class="modal fade"
-  id="exampleModal"
-  tabindex="-1"
-  role="dialog"
-  aria-labelledby="exampleModalLabel"
->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="exampleModalLabel">New message</h4>
       </div>
       <div class="modal-body">
@@ -87,15 +69,15 @@ En nuestro archivo html:
 </div>
 ```
 
-Y en nuestro archivo app.js:
+E em nosso arquivo app.js:
 
 ```javascript
 $('#myModal').modal('show');
 ```
 
-Listo!!! Ya podemos probar nuestro modal.
+Pronto!!! Já podemos testar nosso modal.
 
-Ahora vamos a ha ver el codigo para crear nuestro Caruosel.
+Agora vamos ver o código para criar nosso Caruosel.
 
 ``` html
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -124,24 +106,27 @@ Ahora vamos a ha ver el codigo para crear nuestro Caruosel.
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 ```
 
-Y en nuestro archivo app.js:
+E em nosso arquivo app.js:
 
 ```js
+
 $('.carousel').carousel()
+
 ```
 
-Y listo ya tenemos nuestro carrusel.
+E já temos nosso carrossel.
 
-### Y si decidí usar otro framework?
+### E se decidir usar outro framework
 
-Pues no hay que temer, solo revisa la documentación del framework seleccionado y
-practica mucho, los pasos a seguir son tremendamente parecidos y en algunas
-ocasiones, los mismos.
+Não há o que temer, é só revisar a documentação do framework escolhido e
+praticar muito. Os passos a seguir são muito parecidos e em alguns caso, os
+mesmos.
 
-Solo recuerda:
+Lembre-se:
 
 - Investigar
-- Intentarlo
-- ¡¡Preguntar!!
+- Testar
+- Perguntar!!

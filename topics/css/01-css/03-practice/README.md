@@ -1,37 +1,49 @@
-# Ejercicios libres
+# Casos Práticos
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `2h`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `90min`
 
 ***
 
 ## Objetivos
 
-- Practicar, practicar y practicar
+* Praticar programando junto com sua equipe de professores, resolvendo
+  exercícios de `html` e `css`
+* Praticar, pratica e praticar
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante la clase y así ayudar al resto de tus compañeras :)
+Aqui estão alguns exercícios práticos que serão resolvidos, passo a passo, pela
+sua equipe de professores em uma sessão presencial \(`oficina`\). Sugerimos que
+você tente resolver os exercícios sozinho \(ou em equipe\) **antes** da sessão
+presencial. Assim, você já virá com dúvidas específicas e estará familiarizada
+com os desafios. Talvez você possa apresentar sua solução para a turma e assim
+ajudar o restante de suas colegas :\)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve fazer o upload de todos os seus exercícios no `GitHub` e publicá-los
+em `gh-pages`.
 
 ### 1. CSS Diner
 
-Practica los selectores CSS a través de [este juego](https://laboratoria.github.io/css-diner).
+Pratique seletores CSS por meio [deste jogo](https://laboratoria.github.io/css-diner).
 
-### 2. Banderas Display
+### 2. Sinalizadores de Exibição
 
-Replica las siguientes vistas poniendo en práctica tus conocimientos de `display`.
-Debes utilizar únicamente `display`, no puedes utilizar `positioning` ni `floats`.
+Replique as seguintes visualizações, utilizando seu conhecimento de `display`.
+Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
 
-![Vistas Banderas1](https://fotos.subefotos.com/8157f58d3d2dcfcf689ec56554097266o.png)
+![Box1](https://i.imgur.com/bxC0Hz9.png)
 
-![Vistas Banderas2](https://fotos.subefotos.com/304ad94ffc6b76d7366894e1d9646961o.png)
+![Box2](https://i.imgur.com/casQEIG.png)
 
-![Vistas Banderas3](https://fotos.subefotos.com/ea2ba0950028f26c289e7ae55f2438d2o.png)
+![Box3](https://i.imgur.com/L8PqU8W.png)
 
-![Vistas Banderas4](https://fotos.subefotos.com/ce40c790a0ddf23ff36a075bf91d59c6o.png)
+![Box4](https://i.imgur.com/o4SsohW.png)
+
+#### Solução
+
+Assista ao vídeo do Rafa para e veja uma possível solução para esse exercício:
+
+[![Solução - sinalizadores de
+exbição](https://img.youtube.com/vi/fhdFSrRR-YQ/0.jpg)](https://www.youtube.com/watch?v=fhdFSrRR-YQ)

@@ -1,43 +1,44 @@
-# Opening: No reinventes la rueda
+# Abertura: Não reinvente a roda
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta lección aprenderemos:
+Nesta unidade aprenderemos:
 
-- Qué son los frameworks y para qué los usamos.
+- O que são os frameworks e para que os usamos.
 
-- A crear una página web utilizando frameworks.
+- A criar una página web utilizando frameworks.
 
-## ¿Por qué aprender a usar Frameworks?
+## Por que aprender a usar Frameworks?
 
-Usar frameworks nos hace personas más felices ya que nos evita escribir código
-repetitivo, nos ayuda a desarrollar más rápido y a utilizar buenas prácticas.
+Usar frameworks nos faz pessoas mais felizes já que nos ajuda a não escrever
+código repetitivo, ajuda-nos a desenvolver mais rápido e a utilizar boas
+práticas.
 
-El reto que tenemos en este curso es aprender "en qué, cuándo y cómo"
-hacer uso de los **frameworks**.
+O desafio que temos nesta unidade é aprender "em que, quando e como" utilizar os
+**frameworks**.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes que vamos a aprender y de los temas centrales
-a los que debemos prestar particular atención.
+Quando começamos a estudar um tema novo é útil termos uma ideia dos conceitos
+mais importantes que vamos aprender e dos temas centrais que devemos ter atenção
+especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de
+responder ao terminar esta unidade. Use estas perguntas como guia para orientar
+seu esforço de aprendizagem. Volte a elas constantemente a medida que avança
+para garantir que você está no caminho certo. Que estas perguntas sirvam como um
+"checklist" que você vai marcando conforme avança.
 
-- ¿Qué es un Framework?
+- O que é um Framework?
 
-- ¿Cuál es la diferencia entre Bootstrap y Materialize?
+- Qual a diferença entre Bootstrap e Materialize?
 
-- ¿Qué framework es el ideal?
+- Qual framework é o ideal?
 
-- ¿Qué ventajas tiene el usarlos en nuestros proyectos?
+- Qual vantagem possuem os usuários em nossos projetos?
