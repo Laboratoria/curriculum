@@ -447,5 +447,9 @@ recursos:
 
 - [Modelo da caixa - W3S](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
+<<<<<<< HEAD
 - [Display - CSS
   Tricks](https://css-tricks.com/almanac/properties/d/display/)
+=======
+- [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
+>>>>>>> translate(css): Translate content to portuguese (#819)
