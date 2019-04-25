@@ -1,51 +1,50 @@
-# Ejercicios libres
+# Exercícios Guiados
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `4h`
+* Tipo: `oficina`
+* Formato: `guiado`
+* Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Practicar, practicar y practicar
+* Praticar com sua equipe de profissionais, resolvendo exercícios `html` e `css`
+* Praticar, pratica e praticar
 
 ## Enunciados
 
-A continuación tienes algunos ejercicios para practicar, te sugerimos
-que intentes resolver los ejercicios por tu cuenta (o en equipo). Así, ya
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante la clase y así ayudar al resto de tus compañeras :)
+Aqui estão alguns exercícios práticos que serão resolvidos, passo a passo, pela
+sua equipe de professores em uma sessão presencial \(`taller`\). Sugerimos que
+você tente resolver os exercícios sozinho \(ou em equipe\) **antes** da sessão
+presencial. Então, você já virá com dúvidas específicas e você estará
+familiarizada com os desafios. Talvez você possa apresentar sua solução para a
+turma e assim ajudar o restante de suas colegas :\)
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+### 1. A quadra
 
-### 1. La cancha
+Replicar a seguinte imagem colocando em prática o seu conhecimento
+`positioning`.
 
-Replica la siguiente imagen poniendo en práctica tus conocimientos de `positioning`.
+![A Quadra](https://user-images.githubusercontent.com/39506102/56682848-cd808d80-66a2-11e9-9270-ff182c734b7d.png)
 
-![La Cancha](https://fotos.subefotos.com/c8aebc7059f194f164e0c9c3f63421e6o.png)
+### 2. Posicionando caixas
 
-### 2. Posicionando cajas
+Replique as seguintes imagens colocando em prática o seu conhecimento de
+`positioning`:
 
-Replica las siguiente imagenes poniendo en práctica tus conocimientos de `positioning`:
+![6 caixas](https://user-images.githubusercontent.com/39506102/56683303-9fe81400-66a3-11e9-829a-11503e0a1417.png)
 
-![6 cajas](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
+### 3. O tríptico
 
-### 3. CSS Positioning 101, por [Noah Stokes](https://alistapart.com/author/nstokes)
+Replique a seguinte imagem colocando em prática o seu conhecimento de `float`:
 
-Replica todos los ejemplos de layouts (`Examples A - J`) del siguiente artículo:
-[CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
+![css float](https://user-images.githubusercontent.com/39506102/56683367-c1e19680-66a3-11e9-9371-8ce0941a49e3.png)
 
-### 4. El tríptico
+### 4. Tipografias e ícones
 
-Replica la siguiente imagen poniendo en práctica tus conocimientos de `float`:
+Desenvolva o menu a seguir. Você deve usar pelo menos dois estilos de fontes da
+Web \(sugestão: Google Fonts\). Você pode usar os tipos de letra iconográficos
+de sua escolha.
 
-![css float](https://fotos.subefotos.com/320e77be1fc814d1a92edbc43cb59caco.png)
-
-### 5. Tipografías e íconos
-
-Desarrolla el siguiente menú. Debes usar al menos dos estilos de web fonts
-(sugerencia: Google Fonts). Puedes utilizar las tipografías iconográficas de tu
-preferencia.
-
-![Tipografías e íconos](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
+![Tipografias e
+Ícones](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
