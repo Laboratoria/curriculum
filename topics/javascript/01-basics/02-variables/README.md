@@ -4,15 +4,15 @@
 - Formato: `individual`
 - Duração: `60min`
 
-
 ## Objetivos de Aprendizagem
 
 - Aprender o que são _variáveis_ e suas utilidades.
-- Conhecer as boas práticas de nomeamento de variáveis. 
+- Conhecer as boas práticas de nomeamento de variáveis.
 
 ***
 
-O texto a seguir se baseia em grande parte, com certos ajstes, no  capítulo 1 de [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript), de Marijn
+O texto a seguir se baseia em grande parte, com certos ajstes, no  capítulo 1 de
+[Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript), de Marijn
 Haverbeke, 2014.
 
 ## Variáveis
@@ -29,8 +29,8 @@ utilizados ou se perdem. Segue no seu console o seguinte exemplo:
 ```
 
 Se quisesse utilizar esse `string` de novo, talvez porque a Paloma fez
-aniversário e agora queremos que apareça 20 anos no lugar de 19, não teria
-como fazer, pois o valor foi perdido.
+aniversário e agora queremos que apareça 20 anos no lugar de 19, não teria como
+fazer, pois o valor foi perdido.
 
 Para capturar e manter os valores, o JavaScript fornece algo chamado `variável`.
 É utilizada assim:
@@ -40,13 +40,14 @@ var age = 24;
 // returns: undefined
 ```
 
-A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variável.
-É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma
+variável. É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
 imediatamente um valor, é seguido do operador `=` e uma expressão (o número 24).
 
 ***
 
-NOTA: Neste primeiro exemplo usamos `var`, que nos dias de hoje é considerada uma forma antiquada de declarar variáveis. 
+NOTA: Neste primeiro exemplo usamos `var`, que nos dias de hoje é considerada
+uma forma antiquada de declarar variáveis.
 
 NOTA: En este primer ejemplo hemos usado `var`, que a día de hoy se considera
 una manera un poco anticuada de declarar variables, y hoy en día, desde ES6,
