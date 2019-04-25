@@ -1,6 +1,6 @@
 # Exercícios práticos
 
-- Tipo: `prática`
+- Tipo: `exercício`
 - Formato: `individual`
 - Duración: `180min`
 

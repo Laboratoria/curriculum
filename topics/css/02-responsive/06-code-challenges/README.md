@@ -1,6 +1,6 @@
 # Desafios
 
-- Tipo: `prática`
+- Tipo: `exercício`
 - Formato: `individual`
 - Duración: `20h`
 
