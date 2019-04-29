@@ -1,65 +1,65 @@
-# ¿Qué es Git?
+# O que é o Git?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en las
-siguientes páginas:
+O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes
+referências:
 
 - [Pro Git book](https://git-scm.com/book/en/v2)
 - [Getting Started with Git - Arun Sood](https://github.com/wdi-sf-september-2014/notes/tree/master/git_intro)
 
 ***
 
-`Git` es un `Sistema de Control de Versiones`.
+`Git` é um _Sistema de Controle de Versões_.
 
-> **¿Qué es el Sistema de Control de Versiones?**
+**O que é um Sistema de Controle de Versões**?
 
-El `Sistema de Control de Versiones` (VCS en inglés) es un sistema que
-registrará los cambios de uno, dos o varios archivos todo el tiempo para que
-si más adelante,necesitamos una versión, podamos recuperarla fácilmente.
-Por ejemplo, si alguna vez has elaborado un proyecto para una tarea ¿no te ha
-pasado algo así?:
+Um _Sistema de Controle de Versões_ \(VCS em inglês\) é um sistema que registra
+as alterações de um, dois ou mais arquivos o tempo todo para, caso necessário,
+recuperarmos uma versão facilmente. Por exemplo, se você alguma vez elaborou
+um projeto para uma tarefa qualquer, já fez algo como ilustrado na imagem
+abaixo?
 
-!['versiones'](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+![Versionamento](https://user-images.githubusercontent.com/39506102/56902962-bca09500-6a71-11e9-84f9-e332b3c63a87.png)
 
-Gracias al VCS podemos hacer que eso no suceda debido a que permite:
+Graças ao VCS, podemos fazer com que isso não ocorra, pois ele permite:
 
-- Revertir los archivos a un estado anterior.
-- Revertir todo el proyecto a un estado anterior.
-- Comparar los cambios que se hayan hecho a lo largo del proyecto.
-- Ver quién introdujo un cambio o actualizó el archivo y cuándo.
-- Y lo más importante, asegura que los archivos no se pierdan.
+- Reverter arquivos para um estado anterior.
+- Reverter o projeto inteiro para um estado anterior.
+- Comparar as alterações realizadas ao longo do projeto.
+- Ver quem introduziu uma mudança ou atualizou o arquivo, e quando.
+- E o mais importante: assegurar que os arquivos não se percam.
 
-Ahora bien, `Git` nos ayudará a guardar y diferenciar todos los cambios que
-haremos durante el desarrollo de un proyecto, ya sea de uno o más archivos.
+De agora em diante, o `Git` vai nos ajudar a salvar e identificar todas as
+mudanças que faremos durante o desenvolvimento de um projeto, seja de um ou
+mais arquivos.
 
-Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en `Git`,
-él básicamente hace una foto del estado de todos tus archivos en ese momento, y
-guarda una referencia a esa foto. Para ser eficiente, si los archivos no se han
-modificado, `Git` no almacena el archivo otra vez, sólo un enlace al archivo
-idéntico anterior que ya almacenó.
+Cada vez que confirmar uma mudança, ou salvar o estado de seu projeto no `Git`,
+ele basicamente tira uma foto do estado de todos os seus arquivos naquele
+momento, e salva uma referência a essa foto. Para ser eficiente, se os arquivos
+não foram modificados, o `Git` não armazena o arquivo novamente, apenas um link
+para o arquivo idêntico que já estava armazenado.
 
-Tanto la colección de archivos como sus versiones completas serán guardadas en
-un `repositorio`.
+Tanto a coleção de arquivos como suas versões completas serão salvas em um
+`repositório`.
 
-En resumen, `Git` piensa en tus archivos como un flujo de "imágenes". Por eso,
-a cada cambio que vayamos realizando le tomará una foto en el instante que le
-indiquemos y todo eso lo almacenará en un `repositorio local`.
+Em suma, o `Git` pensa em seus arquivos como um fluxo de "imagens". Assim, a
+cada mudança que realizamos, ele tirará uma foto no instante em que lhe
+indicarmos e tudo isso será armazenado em um `repositório local`.
 
-**Ahora conozcamos algunas palabras claves que de seguro escucharás al momento de
- trabajar con Git**
+**Vamos conhecer agora algumas palavras-chave que você certamente irá ouvir
+quando trabalhar com Git.**
 
-- Repositorio local: Cuando hablamos de un `repositorio local` hacemos referencia
-  a los archivos y a sus versiones que se encuentran en nuestro equipo.
-  Aquí encontraremos dos partes muy importantes.
-  * working directory: Es nuestro directorio de trabajo.
-  * staging area: Es el espacio en donde se encuentran los archivos a los que `Git`
-    les debe de hacer seguimiento y que en algún momento se convertirán en una nueva
-    versión del proyecto.
+- **Repositório local**: Quando falamos repositório local, fazemos referência
+  aos arquivos e suas versões localizados em nosso equipamento. Aqui,
+  encontraremos duas partes muito importantes:
+  * Working directory: é o nosso diretório de trabalho
+  * Staging area: área intermediária, de preparação, na qual alterações
+    são adicionadas para formar uma nova versão do projeto
 
-- Repositorio remoto: `Git` nos permite sincronizar nuestro repositorio local
-  con un repositorio remoto o repositorio en la "nube".
+- **Repositório remoto**: o `Git` nos permite sincronizar nosso repositório
+  local com um repositório remoto que pode estar na "nuvem"
