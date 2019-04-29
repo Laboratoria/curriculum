@@ -1,64 +1,78 @@
-# Instalación
+# Instalação
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 
-Si nos encontramos en Linux o Mac OS X no será necesario hacer la
-instalación de Git porque ya viene instalado, pero si nuestro sistema operativo
-es **Windows** debemos descargar e instalar `Git` en nuestro equipo.
+Se estivermos usando Linux ou Mac OS X, não será necessário instalar o Git
+porque ele já vem instalado, mas se nosso sistema operacional for Windows,
+devemos baixar e instalar o Git em nossa máquina.
 
-- [Descarga Git](https://git-scm.com/download/win)
+[Download Git](https://git-scm.com/download/win)
 
-Cuando haya terminado la descarga de nuestro programa comenzaremos con la
-instalación haciendo doble clic en el archivo que se acaba de descargar y luego
-nos aparecerán las siguientes pantallas:
+Quando terminar o download do nosso programa, começaremos a instalação com um
+duplo clique no arquivo que acabamos de baixar e, em seguida, aparecerão as
+seguintes telas:
 
-1. Hacemos clic en el botón **Run**
+- Clique no botão "Next >"
 
-  !['Paso 1, instalación de Git'](http://fotos.subefotos.com/dc926ac2d62764c9861d890a87cae1d1o.png)
-2. Ahora en **Next >**
+  ![Passo 1 Git](https://i.imgur.com/6TZ7Mcv.png)
 
-  !['Paso 2, instalación de Git'](http://fotos.subefotos.com/66ccdc66224e1b301c143e2f228c56d4o.png)
-3. Nos aparecerá la siguiente pantalla, aquí seleccionaremos las siguientes opciones
-   y hacemos clic en **Next >**
+- Selecione o local da instalação e clique em "Next >"
 
-  !['Paso 3, instalación de Git'](http://fotos.subefotos.com/6695c2d71e3574fea5a79d61ea8e8e11o.png)
-4. Seleccionamos la opción **Use Git and optional Unix tools from the Windows
-   Command Prompt** y hacemos clic en **Next >**
+  ![Passo 2 Git](https://i.imgur.com/leLJIjh.png)
 
-  ![Paso 4, instalación de Git](http://fotos.subefotos.com/3aeac78b635775f55e4365939b87d8e6o.png)
-5. Seleccionamos la opción **Use the OpenSSL library** y continuamos (**Next >**)
+- Selecione as mesmas opções e clique em "Next >"
 
-  !['Paso 5, instalación de Git'](http://fotos.subefotos.com/febf4d79afaa6d625173dca24d290dc8o.png)
-6. Elegimos la primera opción y seguimos
+  ![Passo 3 Git](https://i.imgur.com/UtgDxYc.png)
 
-  !['Paso 6, instalación de Git'](http://fotos.subefotos.com/3794e27ec38776180c13c14819fdc0f9o.png)
-7. Nos aseguramos de escoger la opción **Use MinTTY**
+- Clique em "Next >"
 
-  !['Paso 7, instalación de Git'](http://fotos.subefotos.com/7da9d7c8c7ee9eb92ef2cc548c0f0315o.png)
-8. Seleccionamos las dos primeras opciones y hacemos clic en **Install**
+  ![Passo 4 Git](https://i.imgur.com/TRRtH3z.png)
 
-  !['Paso 8, instalación de Git'](http://fotos.subefotos.com/93a5079b8524142b8e07fd97981afe38o.png)
-9. Ahora comenzará a instalarse
+- Selecione o Nano como o seu editor padrão e clique em "Next >"
 
-  !['Paso 9, instalación de Git'](http://fotos.subefotos.com/7ce940e5dec200b7203115b1ee22c6ffo.png)
-10. Y ya tendremos instalado `Git` en nuestro equipo al hacer clic en **Finish**
+  ![Passo 5 Git](https://i.imgur.com/YhmQ2KV.png)
 
-  !['Paso 10, instalación de Git'](http://fotos.subefotos.com/47a5605681eec98bd81c7f60489187e4o.png)
+- Selecione a opção "Use Git from Git Bash only" e clique em "Next >"
 
-## ¿Qué es Git Bash?
+  ![Passo 6 Git](https://i.imgur.com/QcGk1Me.png)
 
-Cuando terminemos de instalar `Git`, en nuestras nuevas aplicaciones
-encontraremos una que se llama `Git Bash`.
+- Selecione a opção "Use the OpenSSL library" e continue "Next >"
 
-En el sistema operativo Windows, debido a que el Command Prompt (o terminal de
-Windows) no es muy amigable y no soporta comandos UNIX, `Git` nos proporciona
-una herramienta muy buena llamada `Git Bash` que nos permitirá ejecutar
-comandos como si estuviéramos en Linux o Mac OS X.
+  ![Passo 7 Git](https://i.imgur.com/K3NfUUc.png)
 
-> Por lo tanto, `Git Bash` será la "línea de comandos" que utilizaremos cuando
-> trabajemos con `Git` en Windows, en cambio, si nos encontramos en Linux o Mac
-> OS X utilizaremos nuestra terminal.
+- Selecione a segunda opção e prossiga
+
+  ![Passo 8 Git](https://i.imgur.com/v38efAw.png)
+
+- Certifique-se de escolher a opção "Use MinTTY"
+
+  ![Passo 9 Git](https://i.imgur.com/PhUkeXX.png)
+
+- Selecione as duas primeiras opções e clique em "Install"
+
+  ![Passo 10 Git](https://i.imgur.com/9JKkZjy.png)
+
+- Finalmente, a instalação começará
+
+  ![Passo 11 Git](https://i.imgur.com/Lz06hWy.png)
+
+- Com o Git já instalado em nosso computador, clique em "Finish"
+
+  ![Passo 12 Git](https://i.imgur.com/bd6QhOS.png)
+
+## O que é Git Bash?
+
+Quando concluirmos a instalação do Git, encontraremos, em nossas novas
+aplicações, uma chamada `Git Bash`.
+
+No sistema operacional Windows, pelo fato do _Command Prompt_ \(ou terminal do
+Windows\) não ser muito amigável e não suportar comandos UNIX, o Git nos dá uma
+ferramenta muito boa chamada `Git Bash` que vai nos permitir executar comandos
+como se estivéssemos no Linux ou Mac OS X.
+
+> Assim, `Git Bash` será a "linha de comandos" que usaremos no Windows. Já no
+> Linux ou Mac OS X, utilizaremos o terminal.

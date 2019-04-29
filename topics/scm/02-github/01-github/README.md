@@ -1,193 +1,212 @@
 # GitHub
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `20min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `20min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-* Crear tu cuenta en `Github`
-* Diferenciar `Git` de `Github`
-* Entender los conceptos básicos: local, remoto, working directory, staging
-  area y branches
-* Saber utilizar los comandos esenciales: `remote`, `push` y `pull`
+* Criar sua conta no `GitHub`
+* Entender a diferença entre `Git` e `GitHub`
+* Compreender os conceitos básicos: repositórios local e remoto, _working
+  directory_, _staging area_ e _branches_
+* Saber utilizar os comandos essenciais: `init`,`status`, `add`, `commit`,
+  `push` e `pull`
 
 ## ¿Qué es Github?
 
-`Github` es conocida como la "red social" de los developers debido a que una
-gran cantidad de ellos suben sus proyectos aquí. Esto les permite crear
-`repositorios remotos` que guardarán siempre una copia de su código y a la cual
-podrán acceder fácilmente mediante `Git` que es el controlador de versiones.
+`GitHub` é conhecido como a "rede social" dos desenvolvedores, pois muitos deles
+enviam seus projetos para lá. Ele permite criar `repositórios remotos` que
+sempre terão uma cópia do seu código facilmente acessível pelo `Git`, o
+controlador de versões.
 
-Pero `Github` no solo sirve para "subir" nuestro código, él también contribuirá
-al desarrollo colaborativo del proyecto brindándonos herramientas como por
-ejemplo:
+Mas o `GitHub` não serve apenas para guardar o nosso código. Ele também
+contribuirá para o desenvolvimento colaborativo do projeto fornecendo
+ferramentas como:
 
-* Un `sistema de seguimiento de problemas` que permite a los miembros de un
-  equipo detallar un problema o una sugerencia que deseen hacer del proyecto.
-* Una `herramienta de revisión de código`, donde se pueden añadir anotaciones
-  en cualquier punto del proyecto y debatir sobre un cambio en específico.
-* Un `visor de versiones` donde se puede comparar el progreso del proyecto en
-  las distintas versiones.
+* Um _sistema de acompanhamento de problemas_ que permite aos membros da equipe
+  detalhar um problema ou sugerir alterações no projeto.
 
-**En resumen, se podría decir que `Github` es como Dropbox pero para developers.**
+* Uma _ferramenta de revisão código_, através da qual é possível adicionar
+  anotações em qualquer ponto do projeto e discutir sobre uma alteração em
+  específico.
 
-## ¿Cuál es la diferencia entre Git y Github?
+* Um _visualizador de versões_ para comparar o progresso do projeto ao longo das
+  diferentes versões.
 
-**`Git` y `Github` se complementan pero no son iguales.**
+**Resumindo, poderíamos dizer que GitHub é como o Dropbox, mas para
+desenvolvedores.**
 
-`Github` utiliza a `Git` como `Sistema de Control de Versiones`. Gracias a
-`Git` podremos guardar localmente los diferentes avances (estados) de nuestro
-proyecto y gracias a `Github` podremos subir esos avances a la `nube` y
-comenzar un trabajo colaborativo o trabajar en nuestros proyectos personales
-sin depender de la computadora donde se encuentre el proyecto o tener que estar
-guardándolo en un usb para copiarlo a otra computadora.
+## Qual é a diferença entre Git e GitHub?
 
-## ¿Por qué es importante Git y Github?
+**`Git` e `GitHub` se complementam, mas não são iguais.**
 
-La programación se da, en su mayoría de veces, en equipos. Varias empresas
-tienen un equipo que se complementa para cada proyecto. Ante esta situación
-te preguntarás:
+`GitHub` utiliza `Git` como sistema de controle de versões. Graças ao Git,
+podemos salvar localmente os diferentes progressos \(estado\) do nosso projeto
+e, graças ao GitHub, podemos enviá-los à nuvem e iniciar um trabalho
+colaborativo ou trabalhar em nossos projetos pessoais sem depender do computador
+onde se encontra o projeto ou de um _pen drive_ para copiá-lo a outra máquina.
 
-> ¿Cómo se organizan para trabajar todos en un solo proyecto? Tal vez tienen
-> todo en un usb y se lo turnan para poder trabajar, o trabajan cada uno por su
-> lado y al momento de tener que unir las partes tienen que ver detalladamente
-> si se repiten o no alguna parte.
+## Por que Git e GitHub são importantes?
 
-Esto no sería para nada eficiente, porque no se podría trabajar al mismo tiempo
-en algo en específico y se tendría que depender del avance de otro para que
-nosotros podamos avanzar.
+A programação é feita, na maioria das vezes, em equipes. Várias empresas têm uma
+equipe que se complementa para cada projeto. Diante dessa situação, você pode se
+perguntar:
 
-Para estos casos existen herramientas como `Git` y `Github`, los cuales nos
-ayudan al momento de un trabajo colaborativo. `Github` es el lugar perfecto
-para trabajar conjuntamente en un proyecto con uno o varios compañeros, podrás
-crear un proyecto y añadir como colaboradores a los miembros de tu equipo;
-además, podrás traer a tu repositorio local los cambios que tus compañeros
-hayan subido al repositorio remoto y podrás ver automáticamente lo que acaba de
-añadir tu compañero.
+> Como se organizam para trabalhar todos em um único projeto? Talvez eles tenham
+> tudo em um USB e se revezam para poderem trabalhar, ou cada um trabalha por si
+> e, na hora de juntar todas as partes, precisam analisar detalhadamente se
+> repetiram ou não algum pedaço.
 
-## ¿Cómo crear una cuenta en Github?
+Isso não seria nada eficiente, pois não seria possível trabalhar ao mesmo tempo
+em algo específico e dependeríamos do progresso de outra pessoa para que
+pudéssemos avançar.
 
-Para crear tu cuenta de `Github` debemos seguir los siguientes pasos:
+Para esses casos, existem ferramentas como o `Git` e `GitHub` que nos ajudam a
+trabalhar de forma colaborativa. `GitHub` é o lugar perfeito para trabalhar em
+conjunto num projeto com um ou vários companheiros, pois você poderá: criar um
+projeto e adicionar os membros de sua equipe como colaboradores; trazer ao seu
+repositório local as alterações que seus companheiros enviaram ao repositório
+remoto; ver automaticamente o que seu companheiro acabou de adicionar.
 
-1. Debemos de dirigirnos a la [página oficial de Github](https://github.com)
-2. Ya en la página, haremos clic en **Sign up**.
-3. Ahora deberás escribir un **username**, que podrá ser uno que ya tengas. Por
-   ejemplo, si tienes un **username** que creaste para un juego online podrías
-   usar ese. No hay límites de cómo debe de ser, pero ten en cuenta que será
-   visible para todo el mundo y puede que te lo pidan en algún momento para
-   añadirte como colaborador de un proyecto, así que ten cuidado con lo que
-   pongas como **username**. Luego ingresa tu **correo**, una **contraseña** y
-   haz clic en **Create an account**.
-4. En la siguiente pantalla asegúrate de marcar la opción **Unlimited public
-  repositories for free**, esta es la versión "free" de `Github`; luego haz
-  clic en **continue**.
-5. El paso 3 del registro puedes completarlo con tus datos y hacer clic en
-  **Submit**, o solo hacer clic en **Skip this step**.
+## Como criar uma conta no GitHub?
 
-¡Y listo! Al hacer todos estos pasos ya tendríamos nuestra cuenta de `Github`
-creada.
+Para criar sua conta no GitHub, siga estes passos:
 
-Ahora Michelle, siguiendo los pasos anteriores, creará su cuenta en `Github`.
+1. Vá à [página oficial do GitHub](https://github.com)
+2. Uma vez na página, clique em **"Sign up"**
+3. Digite um nome de usuário \(**username**\) que pode ser um que você já tenha.
+   Por exemplo, se você já criou um _username_ para um jogo online, poderá usar
+   ele mesmo. Há infinitas possibilidades para criar um novo, mas tenha em mente
+   que seu _username_ será visível para o mundo todo e poderá ser solicitado
+   quando alguém for incluí-la no time de colaboradores de um projeto. Portanto,
+   tenha cuidado com sua escolha de _username_. Em seguida, digite seu e-mail,
+   senha e clique em **"Create an account"**.
+4. Na próxima tela, certifique-se de marcar a opção **"Unlimited public**
+   **repositories for free"**, a versão "free" do GitHub. Em seguida, clique em
+   **"continue"**
 
-[![creando cuenta de github](https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)](https://www.youtube.com/watch?v=1r9ixrSftaI)
+5. No terceiro passo do registro, você pode completar com seus dados e clicar em
+   **"Submit"**, ou somente clicar em **"Skip this step"**
 
-## ¿Cómo creamos un repositorio remoto en Github?
+E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.*.
 
-Sigue los pasos de Michelle para crear un repositorio en `Github`:
+<!-- Ahora Michelle, siguiendo los pasos anteriores, creará 
+su cuenta en `Github`. -->
 
-[![Creando repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
+<!-- [![creando cuenta de github]
+(https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)]
+(https://www.youtube.com/watch?v=1r9ixrSftaI) -->
 
-Por último tenemos la pantalla donde encontrarmos la `url` de nuestro
-`repositorio remoto`, con la cual (más adelante) vincularemos nuestro
-repositorio remoto con nuestro repositorio local.
+## Como criamos um repositório remoto no GitHub?
 
-## ¿Cómo usar Git y Github?
+Siga os passos a seguir para criar um repositório no `Github`:
 
-Hemos leído las ventajas que nos pueden brindar `Git` y `Github`, con ellos
-podremos subir un repositorio local a uno remoto, trabajar con versiones y
-colaborativamente, etc. Ahora hagamos la "magia" de trabajar con `Git` y
-`Github`, vamos a subir nuestro `repositorio local` a uno `remoto` y trabajar
-colaborativamente.
+<!-- Traduzir esse vídeo -->
+[![Creando
+repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
 
-* `remote`: Con `remote` **vincularemos** nuestro repositorio local con nuestro
-  repositorio que se encuentra en la "nube" por medio de la **url**.
-  Este paso no se debe de hacer cada vez que creemos una nueva versión, solo
-  cuando queramos especificar el repositorio remoto que tendremos.
-  Entonces, para enlazar nuestro repositorio local con nuestro repositorio
-  remoto debemos de ejecutar el siguiente comando:
+Por último temos a tela onde encontramos a `url` do nosso `repositório remoto`,
+com o qual (mais adiante) vincularemos nosso repositório remoto com nosso
+repositório local.
 
-  ```text
-  git remote add nombre-remoto url
+## Como usar o Git e GitHub?
+
+Já lemos as vantagens que `Git` e `GitHub` podem nos oferecer: com eles, podemos
+fazer upload de um repositório local a outro remoto, trabalhar com versões e de
+forma colaborativa, etc. Agora, vamos a "mágica" do Git com GitHub: enviar nosso
+repositório _local_ a um repositório _remoto_ e trabalhar colaborativamente.
+
+* `remote`: Com `remote`, **vincularemos** nosso repositório local ao nosso
+  repositório localizado na "nuvem" por meio de uma **URL**. Este passo _não_ é
+  feito a cada versão criada, mas somente uma vez para especificarmos o
+  repositório remoto que temos à disposição. Para ligar o nosso repositório
+  local com nosso repositório remoto, devemos executar o seguinte comando:
+
+  ```bash
+  git remote add nome-remoto url
   ```
 
-  Normalmente, la mayoría de los developers, como **nombre-remoto** utiliza
-  `origin` y **url** es la "ruta" (url) de nuestro repositorio en `Github`.
-  Por ejemplo, hace un momento he creado el repositorio "prueba" en `Github` y
-  si quiero vincular mi repositorio local con ese repositorio remoto tendría
-  que ejecutar la siguiente línea de comando:
+  Normalmente, a maioria dos desenvolvedores utilizam _origin_ \(origem\) como
+  `nome-remoto` e `url` é o endereço do repositório no GitHub. Por exemplo,
+  criei um repositório "teste" no GitHub há pouco tempo atrás e, para vincular
+  meu repositório local a esse repositório remoto, eu devo executar a seguinte
+  linha de comando:
 
-  ```text
-  git remote add origin https://github.com/michellesegv/prueba.git
+  ```bash
+  git remote add origin https://github.com/michellesegv/teste.git
   ```
 
-* `push`: Por medio de `push` **enviaremos** nuestra nueva versión que
-  confirmamos en el `commit` a nuestro repositorio remoto. El comando es el
-  siguiente:
+* `push`: Através do `push`, **enviaremos** nossa nova versão, confirmada pelo
+  `commit`, ao nosso repositório remoto. O comando é o seguinte:
 
-  ```text
-  git push nombre-remoto master
+  ```bash
+  git push nome-remoto master
   ```
 
-  En **nombre-remoto** pondremos el mismo nombre-remoto que le hemos asignado
-  al momento de añadir la url de nuestro proyecto (en nuestro caso sería
-  **origin**) y seguido pondremos **master**, más adelante conoceremos el
-  trabajo en "ramas" que tiene `Github`. Las **ramas** son una copia paralela
-  que podemos crear de nuestro código. Por defecto, los repositorios traen una
-  "rama" llamada **master** y ahora trabajaremos solo en ella, así que
-  subiremos nuestros cambios a ella especificando **master** como el nombre de
-  la rama a la que queremos subir nuestra versión, entonces el comando a
-  ejecutar sería:
+  O `nome-remoto` é aquele atribuído com o comando anterior \(`remote add`\) e,
+  no nosso caso, é _origin_. Em seguida, digitamos `master`, o nome da _branch_.
+  Veremos mais adiante como trabalhar com _branches_ \(ramos\). Os ramos são uma
+  cópia paralela que podemos criar do nosso código. Por padrão, os repositórios
+  possuem um ramo chamado _master_ \(mestre\) e, por enquanto, trabalharemos
+  somente nele. Dessa forma, para enviar as mudanças ao ramo remoto _master_,
+  executamos:
 
-  ```text
+  ```bash
   git push origin master
   ```
 
-* `pull`: Sirve para actualizar nuestro repositorio local al último`commit` que
-  tengamos registrado en el repositorio remoto. Este comando nos servirá mucho
-  al momento de trabajar colaborativamente  porque podremos tener los avances
-  que nuestros colaboradores han subido al repositorio remotro a nuestro
-  repositorio local y mantenerlo actualizado. El comando es el siguiente:
+* `pull`: Permite atualizar nosso repositório local para o último `commit`
+  registrado no repositório remoto. Este comando irá nos ajudar muito ao
+  trabalharmos de forma colaborativa, pois poderemos trazer o progresso que
+  nossos colaboradores enviaram ao repositório remoto para o repositório local,
+  mantendo-o atualizado. O comando é o seguinte:
 
-  ```text
-  git pull nombre-remoto master
+  ```bash
+  git pull nome-remoto master
   ```
 
-  En nuestro caso, como nuestro **nombre-remoto** ya lo declaramos como
-  **origin** y la rama en la que estamos trabajando se llama **master**, el
-  comando sería:
+  No nosso caso, como já declaramos o nome do repositório remoto como _origin_ e
+  estamos trabalhando no ramo _master_ \(padrão\), o comando seria:
 
-  ```text
+  ```bash
   git pull origin master
   ```
 
-## Ejemplo
+## Exemplo
 
-Ahora veamos cómo Michelle utiliza `Git` y `Github` para manejar el control de
-versiones de sus proyectos y colaborar con otras coaches de Laboratoria.
+Agora vamos ver como Michelle utiliza `Git` e `Github` para manejar o controle
+de versões de ses projetos e colaborar com outras coaches de Laboratoria.
 
-[![Subiendo repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
+<!-- Traduzir este vídeo -->
+[![Subiendo
+repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
 
-## Lecturas complementarias
+### Material complementar
 
-Recomendamos los siguientes recursos:
+A seguir, temos uma lista de comandos do Git usados nesta aula:
+
+| Comando | Descrição |
+| --- | --- |
+| `git config --global user.name seu-username` | Configura o nome do usuário |
+| `git config --global user.email seu@email.com` | Configura o e-mail |
+| `git init` | Inicia o monitoramento do diretório indicado |
+| `git add arquivo` | Passa o arquivo do _working directory_ à _staging area_ |
+| `git add .` | Passa tudo do _working directory_ à _staging area_ |
+| `git commit -m 'Comentário'` | Confirma os arquivos para serem salvos |
+| `git remote add nome-remoto URL` | Vincula o repositório local com remoto |
+| `git push nome-remoto master` | Envia o conteúdo local no repositório remoto|
+| `git status` | Mostra o estado dos arquivos do diretório local |
+| `git pull nome-remoto master` | Atualiza o repositório local |
+
+## Leituras complementares
+
+Recomendamos as seguintes leituras:
 
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [GitHub Flow](https://services.github.com/on-demand/intro-to-github/)
-* [Learn git branching](https://learngitbranching.js.org/). Guía de temas un
-  poco más avanzados, especialmente los relacionados a branching y repositorios
-  remotos, no solo es visualmente atractivo y dinámico, sino que también es
-  interactivo.
-* [Otro tutorial interactivo y visual](http://www.ndpsoftware.com/git-cheatsheet.html)
+* [Learn git branching](https://learngitbranching.js.org/)
+* [Outro tutorial interativo e
+  visual](http://www.ndpsoftware.com/git-cheatsheet.html)

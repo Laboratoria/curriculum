@@ -151,7 +151,8 @@ significado:
 
 - Se os **quatro valores** forem indicados :
 
-  * Os preenchimentos serão atribuídos em **ordem horária**, da seguinte maneira:
+  * Os preenchimentos serão atribuídos em **ordem horária**, da seguinte
+    maneira:
 
     superior, direita, inferior e esquerda.
 
@@ -446,4 +447,5 @@ recursos:
 
 - [Modelo da caixa - W3S](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-- [Display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
+- [Display - CSS
+  Tricks](https://css-tricks.com/almanac/properties/d/display/)

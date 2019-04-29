@@ -1,76 +1,73 @@
-# Comandos comunes
+# Comandos comuns
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
+A seguir, você encontrará uma lista dos comandos mais comuns ao trabalhar com
+`Git` e `GitHub`.
 
-A continuación tienes la lista de los comandos más comunes que utilizarás
-trabajando con `Git` y `Github`. Si te sigue pareciendo muy "teórico" no te
-preocupes, más abajo habrá un video de Michelle utilizándolos.
+- `init`: Este comando diz ao Git para começar a monitorar o diretório atual,
+   criando um repositório. Em outras palavras, o Git vai começar a vigiar essa
+   pasta. O comando para tal é:
 
-- `init`: Este comando le indica a `Git` que comenzará a hacer seguimiento de
-  la carpeta actual. En otras palabras, comenzará a vigilar esta carpeta. El
-  comando para iniciar el seguimiento de la carpeta sería:
-
-  ```text
+  ```bash
   git init
   ```
 
-  Al ejecutar esta línea, `Git` creará una carpeta oculta llamada `.git` en el
-  working directory, en la raíz del proyecto.
+ Ao executar essa linha, o Git vai criar uma pasta oculta chamada `.git` no
+  _working directory_, o diretório raiz do projeto, local onde você digitou o
+  comando.
 
-- `add`: Con este comando estaremos indicando qué archivos queremos que pasen
-  de nuestro _working directory_ al _staging area_. Es decir que los archivos
-  ya han sido modificados y están **preparados**  para la nueva versión del
-  proyecto.
+- `add`: Com este comando, indicaremos quais arquivos queremos passar do nosso
+  _working directory_ para _staging area_. Isto é, dizer quais arquivos estão
+  **preparados** para a nova versão do projeto.
 
-  Por ejemplo, si quieremos añadir a nuestro _staging area_ el archivo `HTML`
-  llamado **index.html** debemos de ejecutar la siguiente línea:
+  Por exemplo, se quisermos adicionar o arquivo HTML **index.html** à nossa
+  _staging area_, devemos executar a seguinte linha:
 
-  ```text
+  ```bash
   git add index.html
   ```
 
-  Si queremos que todos los archivos del directorio actual se añadan al
-  _staging area_ (definir que ya están preparados), ejecutamos la siguiente
-  línea:
+  Se desejarmos que todos os arquivos do diretório atual sejam adicionados à
+  _staging area_ \(definir que já estão preparados para a nova versão\),
+  executamos a seguinte linha:
 
-  ```text
+  ```bash
   git add .
   ```
 
-- `commit`: Con `commit` **confirmaremos** los archivos que declaramos como
-  preparados con el comando anterior (`add`) .Con los archivos confirmados se
-  creará una nueva versión del proyecto.
-  La estructura del comando es la siguiente:
+- `commit`: Com `commit`, **confirmaremos** os arquivos que já definimos como
+  preparados pelo comando anterior \(`add`\). A estrutura do comando é a
+  seguinte:
 
-  ```text
-  git commit -m 'añadiendo un comentario'
+  ```bash
+  git commit -m 'Adicionar um comentário'
   ```
 
-  El texto que va dentro de las comillas ('') puede ser cualquiera, te
-  recomiendo que escribas un resumen de lo que estás subiendo en ese momento
-  para que tengas una mejor organizacion, además, un buen comentario te servirá
-  si quieres volver a una funcionalidad en especial sin tener que leer todo el
-  código y solo guiarte por el comentario de tu commit. Por ejemplo:
+  O texto entre aspas \(''\) pode ser qualquer um. Eu recomendo que você
+  escreva um resumo do que está sendo modificado nessa versão para melhor se
+  organizar. Além disso, um bom comentário irá ajudá-la se for necessário
+  voltar a uma determinada funcionalidade sem precisar ler todo o código, mas
+  apenas guiando-se pelos comentários dos commits. Por exemplo, se a "
+  **nova versão** _cria a estrutura do HTML_", um bom comentário seria:
 
-  ```text
-  git commit -m 'Creando estructura HTML'
+  ```bash
+  git commit -m 'Cria a estrutura do HTML'
   ```
 
-- `status`: Con `status` conoceremos el estado de los archivos de nuestro
-  repositorio local.
-  Es decir, nos dirá si existe un archivo que se ha modificado y no se ha
-  actualizado en el repositorio remoto o si hay un archivo que todavía no se
-  "sube" y nos informará si se encuentra en nuestro working directoy o staging
-  area. Este comando nos resultará muy útil para determinar qué archivos
-  debemos declarar como "preparados" (por medio del comando `add`) y luego
-  "confirmarlos" en la nueva versión (por medio del comando `commit`) que
-  subiremos a nuestro repositorio remoto. El comando para ver el estado de
-  nuestro repositorio local es:
+- `status`: Com `status`, podemos saber o estado dos arquivos no nosso
+  repositório local. Ou seja, o comando nos dirá se há algum arquivo modificado
+  que não foi atualizado no repositório ou se há arquivos que ainda não foram
+  enviados, e também nos informará se está em nosso _working directory_ ou
+  _staging area_. Este comando será muito útil para determinar quais arquivos
+  devemos declarar como "preparados" \(via `add`\) e, em seguida,
+  "confirmá-los" para a nova versão \(através do comando `commit`\) que
+  enviaremos ao repositório remoto. O comando para ver o estado do nosso
+  repositório é:
 
-  ```text
+  ```bash
   git status
   ```
