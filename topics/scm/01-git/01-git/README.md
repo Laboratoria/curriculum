@@ -24,7 +24,7 @@ recuperarmos uma versão facilmente. Por exemplo, se você alguma vez elaborou
 um projeto para uma tarefa qualquer, já fez algo como ilustrado na imagem
 abaixo?
 
-![Versionamento](http://fotos.subefotos.com/e6ea20e7174abf68ba4a047eaa0d5373o.png)
+![Versionamento](https://user-images.githubusercontent.com/39506102/56902962-bca09500-6a71-11e9-84f9-e332b3c63a87.png)
 
 Graças ao VCS, podemos fazer com que isso não ocorra, pois ele permite:
 

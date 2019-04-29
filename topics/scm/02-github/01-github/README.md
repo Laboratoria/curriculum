@@ -208,5 +208,5 @@ Recomendamos as seguintes leituras:
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [GitHub Flow](https://services.github.com/on-demand/intro-to-github/)
 * [Learn git branching](https://learngitbranching.js.org/)
-* [Otro tutorial interactivo y
+* [Outro tutorial interativo e
   visual](http://www.ndpsoftware.com/git-cheatsheet.html)
