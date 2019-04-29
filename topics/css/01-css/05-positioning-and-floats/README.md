@@ -167,6 +167,7 @@ página com posição absoluta não afetarão a posição de outros elementos e 
 elementos não os afetarão, sejam eles tocados ou não.
 
 Leia sobre os floats
+
 [aqui !](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
 
 <!-- ### Valores de float
