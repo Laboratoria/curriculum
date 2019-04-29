@@ -3,8 +3,8 @@
 A linha de comandos é uma interface que alguns pensariam já estar antiquada. Mas
 a realidade é completamente diferente. O terminal se converteu em uma peça
 crucial no dia a dia dos desenvolvedores, seja para o uso do `Git`, executando
-um `bundler` , nstalando dependências com `npm` ou escrevendo scripts para
-iniciar ou implantar aplicativos. 
+um `bundler` , instalando dependências com `npm` ou escrevendo scripts para
+iniciar ou implantar aplicativos.
 
 A primera `unix shell` surgiu em 1971, com a primeira versão do Unix. Apesar de
 seus mais de 40 anos de idade, segue senfo uma tecnologia totalmente vigente e

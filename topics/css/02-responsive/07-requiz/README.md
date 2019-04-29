@@ -18,24 +18,14 @@
 
 #### Opções
 
-<<<<<<< HEAD
 1. Grid system
 2. Media queries
 3. Viewport
-=======
-1. *Grid system*
-2. *Media queries*
-3. *Viewport*
->>>>>>> translation(topics/css/02-css): section transalted to portuguese
 4. Web Design Responsivo
 
 <solution style="display:none;">4</solution>
 
-<<<<<<< HEAD
 ### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma grid de 12 colunas para cada coluna será `.col-`
-=======
-### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma *grid* de 12 colunas para cada coluna será `.col-`
->>>>>>> translation(topics/css/02-css): section transalted to portuguese
 
 ![Exemplo da
 *grid*](https://cdn.tutsplus.com/webdesign/uploads/2013/08/grids-1.jpg)
@@ -54,15 +44,9 @@
 
 #### Opções
 
-<<<<<<< HEAD
 1. Grid system
 2. Media queries
 3. Viewport
-=======
-1. *Grid system*
-2. *Media queries*
-3. *Viewport*
->>>>>>> translation(topics/css/02-css): section transalted to portuguese
 4. Web Design Responsivo
 
 <solution style="display:none;">2</solution>
@@ -78,11 +62,7 @@
 
 <solution style="display:none;">3</solution>
 
-<<<<<<< HEAD
 ### 5) No código a seguir, qual é a media feature?
-=======
-### 5) No código a seguir, qual é a *media feature*?
->>>>>>> translation(topics/css/02-css): section transalted to portuguese
 
 ```css
 @media screen and (max-width: 480px) {
@@ -101,11 +81,7 @@
 
 <solution style="display:none;">3</solution>
 
-<<<<<<< HEAD
 ### 6) No código a seguir, qual é o media type?
-=======
-### 6) No código a seguir, qual é o *media type*?
->>>>>>> translation(topics/css/02-css): section transalted to portuguese
 
 ```css
 @media screen and (max-width: 480px) {
