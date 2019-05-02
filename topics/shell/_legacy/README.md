@@ -35,7 +35,7 @@ retornar à pasta anterior.
 Por exemplo, suponha que o terminal é nossa "casa" e que queiramos percorrê-la.
 Agora, estou no meu quarto, mas e se eu quiser ir ao _banheiro_?
 
-![Planta](https://fotos.subefotos.com/31c6b9a7726517ce121b0e66f283deaao.png)
+![Planta](https://user-images.githubusercontent.com/39506102/57093367-0d1f2900-6ce4-11e9-9d47-a15bc74ed341.png)
 
 Se estou no meu quarto \(nº 3\) e desejo ir ao banheiro, primeiro devo entrar
 no closet \(nº 2\) e em seguida, no banheiro \(nº 1\). Não posso chegar ao

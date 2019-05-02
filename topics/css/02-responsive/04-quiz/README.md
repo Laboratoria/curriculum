@@ -70,9 +70,9 @@
 
 #### Opções
 
-1. *Media Queries*
-2. *Media Type*
-3. *Media Feature*
+1. Media Queries
+2. Media Type
+3. Media Feature
 4. Operadores Lógicos
 
 <solution style="display:none;">3</solution>
