@@ -228,7 +228,7 @@ puedas haber encontrado en el camino.
 | Presentaciones |
 
 
-### Habilidades Técnicas, Fron-end
+### Habilidades Técnicas, Front-end
 
 | Habilidad |
 |-----------|
