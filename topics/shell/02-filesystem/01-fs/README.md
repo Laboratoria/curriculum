@@ -1,23 +1,23 @@
-# Sistema de archivos
+# Interagindo com o sistema de arquivos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Cuando abrimos un emulador de terminal, normalmente nos encontramos (por
-defecto) en nuestra carpeta `HOME` (por ejemplo: `/home/<usuario>` en la mayoría
-de distribuciones de UNIX). El terminal siempre _está_ en el algún lugar del
-sistema de archivos. Esto quiere decir que los comandos que ejecutemos se
-ejecutarán desde ese _lugar_ (la carpeta donde estemos).
+Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na
+nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições
+de UNIX). O terminal sempre _está_ em algum lugar do sistema de arquivos. Isso
+quer dizer que os comandos que executamos serão executados a partir desse
+_lugar_ (a pasta onde estamos).
 
-Para poder manejarse con facilidad en el terminal es importante familiarizarse
-con algunos comandos. Te recomendamos abrir tu terminal y ejecutar los comandos
-detallados más abajo (las líneas que empiezan con `$` en los bloques de código).
-Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
+Para poder trabalhar com facilidade no terminal é importante conhecer alguns
+comandos. Sugerimos que você abra seu terminal e execute os comandos detalhados
+logo abaixo (as linhas com começam com `$`nos blocos de código). Se você seguir
+a ordem dos exemplos você deve ver resultados similares.
 
-* `pwd`: muestra la ruta donde estamos actualmente (**P**rint **W**orking
+* `pwd`: mostra o caminho de onde estamos atualmente (**P**rint **W**orking
   **D**irectory)
 
   ```sh
@@ -25,29 +25,29 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   /Users/lupo
   ```
 
-* `mkdir`: crea una carpeta (**M**a**K**e **DIR**ectory)
+* `mkdir`: cria uma pasta (**M**a**K**e **DIR**ectory)
 
   ```sh
-  mkdir ejemplo
+  mkdir exemplo
   ```
 
-* `cd`: cambia de directorio a una nueva ruta (**C**hange **D**irectory)
+* `cd`: muda o diretório para uma nova rota (**C**hange **D**irectory)
 
   ```sh
-  $ cd ejemplo
+  $ cd exemplo
   $ pwd
-  /Users/lupo/ejemplo
+  /Users/lupo/exemplo
   ```
 
-* `touch`: Crea un archivo en blanco si no existe o actualiza la fecha de
-  modificación si existse.
+* `touch`: Cria um arquivo em branco se não existe, ou atualiza a data de
+  modificação se existir.
 
   ```sh
   touch README.md
   touch index.js .gitignore
   ```
 
-* `ls`: lista los archivos (y directorios/carpetas) en la carpeta actual
+* `ls`: lista os arquivos (e diretórios/pastas) na pasta atual
   (**L**i**S**t)
 
   ```sh
@@ -66,40 +66,40 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   -rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 index.js
   ```
 
-* `cat`: muestra el contenido de un archivo en el terminal (stdout)
+* `cat`: mostra o conteúdo de um arquivo no terminal (stdout)
   (con**CAT**enate)
 
   ```sh
-  $ echo 'hola mundo' > file.txt
+  $ echo 'olá mundo' > file.txt
   $ cat file.txt
-  hola mundo
+  olá mundo
   ```
 
-* `mv`: Mueve un archivo o carpeta de un lugar a otro en el sistema de archivos
+* `mv`: Move um arquivo ou pasta de um lugar para outro no sistema de arquivos
   (**M**o**V**e)
 
   ```sh
-  $ mv file.txt hola-mundo.txt
+  $ mv file.txt ola-mundo.txt
   $ ls -l
   total 8
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js
   ```
 
-* `cp`: Copia un archivo o carpeta de un lugar a otro (**C**o**P**y)
+* `cp`: Copia um arquivo ou pasta de um lugar para o outro (**C**o**P**y)
 
   ```sh
-  $ cp hola-mundo.txt hello-world.txt
+  $ cp ola-mundo.txt hello-world.txt
   $ ls -l
   total 16
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js
   ```
 
-* `rm`: Borra un archivo o carpeta (**R**e**M**ove)
+* `rm`: Apaga um arquivo ou pasta (**R**e**M**ove)
 
   ```sh
   $ rm index.js
@@ -107,5 +107,5 @@ Si sigues el orden de los ejemplos deberías de ver resultados equivalentes.
   total 16
   -rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md
   -rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt
-  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt
+  -rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 ola-mundo.txt
   ```
