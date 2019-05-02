@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 1: Diseño
+# Diseño
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,115 +6,15 @@
 
 ***
 
-En esta lectura vamos a hacer el proceso completo de diseñar una aplicación
-usando React y Redux.
+En las siguientes lecturas vamos a ir siguiendo el proceso completo de diseñar
+una aplicación usando `React` y `Redux`. Trataremos de simular un flujo habitual
+de tareas de la vida real.
 
-Usaremos como base nuestro proyecto de las lecciones anteriores, pero
-reemplazaremos el `MainSection` por un nuevo componente `FilterableProductTable`
-que nos muestre una tabla filtrable de productos.
+La aplicación (componente en este caso) que vamos a construir es una tabla
+filtrable de productos para una tienda online. El usuario debe poder filtrar por
+artículos "en stock" además de buscar por texto.
 
-## Setup
-
-Antes que nada vamos a instalar nuestras nuevas dependencias.
-
-```sh
-yarn add redux react-redux
-yarn add -D redux-devtools
-```
-
-Y desde tu navegador instala la [extensión](http://extension.remotedev.io/).
-
-Luego, vamos a convertir a `lib/components/Main.js` en un componente puramente
-presentacional:
-
-```js
-// lib/components/Main.js
-
-import React from 'react';
-import PropTypes from 'prop-types';
-
-import Page from './Page';
-import Header from './Header';
-// Nos quitamos de encima el `MainSection`
-// y ahora importamos nuestro nuevo componente
-import FilterableProductTable from '../FilterableProductTable/components';
-import Aside from './Aside';
-
-// toda los datos que Main necesita, ahora los recibimos como props
-const Main = ({ products, asideTitulo, asideLinks }) => {
-  // TODO: Hack para que renderice. Quitar luego de setear Redux.
-  products = []
-  asideLinks = []
-
-  return (
-    <Page>
-      <FilterableProductTable products={products} />
-      <Aside titulo={asideTitulo} links={asideLinks} />
-    </Page>
-  )
-}
-
-Main.propTypes = {
-  products: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  asideTitulo: PropTypes.string.isRequired,
-  asideLinks: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
-}
-
-export default Main
-```
-
-`FilterableProductTable` va a ser nuestra librería, así que creamos un archivo
-`lib/FilterableProductTable/components/index.js` con el siguiente contenido.
-
-> Más adelante entederás por qué elegimos esta estructura de carpetas.
-
-```js
-import React from 'react'
-
-const FilterableProductTable = () => {
-  const style = {
-    width: '70%',
-    float: 'left'
-  }
-  return (
-    <div style={style}>
-      <h2>Filterable Product Table</h2>
-    </div>
-  )
-}
-
-export default FilterableProductTable
-```
-
-y por últimos limpiamos un poco nuestro `index.html`
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ejemplo React + Redux</title>
-  </head>
-  <body>
-    <h1>Ejemplo React + Redux</h1>
-    <div id="container">
-      <p>
-        Si ves esto React <strong>no</strong> está funcionando.
-      </p>
-  </body>
-</html>
-```
-
-A esta altura tu aplicación se mostrará vacía (y habran algunos errores en tu
-consola de props no indicadas) y esto es porque `Main` está esperando props que
-todavia no le estamos proveyendo. Con esta base comenzamos nuestra
-implementación.
-
-## Implementación
-
-Entonces vamos a simular un flujo habitual de tareas de la vida real.
-
-## Paso 0: Comienza con un Mock
+## Comienza con un Mock
 
 Imagina que ya tenemos un mock de nuestrx diseñadorx que se ve asi:
 
@@ -129,23 +29,23 @@ Y nuestra API JSON nos devuelve data con la siguiente estructura:
   {category: "Sporting Goods", price: "$29.99", stocked: false, name: "Basketball"},
   {category: "Electronics", price: "$99.99", stocked: true, name: "iPod Touch"},
   {category: "Electronics", price: "$399.99", stocked: false, name: "iPhone 5"},
-  {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
+  {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"},
 ];
 ```
 
-## Paso 1: Divide la interfaz (UI) en una jerarquía de componentes
+## Divide la interfaz (UI) en una jerarquía de componentes
 
 Lo primero que deberías hacer es dibujar cajitas alrededor de cada uno de los
 componentes (y sub componentes) y les das nombres. Si trabajas con unx
-diseñadrx, probablemente ya haya hecho esto asi ve a preguntarle! Si tu
+diseñadrx, probablemente ya haya hecho esto, asi que ve a preguntarle! Si tu
 diseñadorx es buenx con la semántica, entonces los nombres de los Layers de
 Photoshop pueden ser buenos nombres para tus componentes de React!
 
-Pero ¿cómo determino que debería tener su propio componente? Sólo usa los mismos
+Pero ¿cómo determino qué debería tener su propio componente? Sólo usa los mismos
 criterios que utilizas para decidir si debes crear una nueva función u objecto.
 Una de éstas técnicas es la del [principio de única responsabilidad](https://en.wikipedia.org/wiki/Single_responsibility_principle),
 que en React sería que un componente debe idealmente hacer una sola cosa. Si
-comienza a crecer es hora de decomponerlos en componentes mas pequeños.
+comienza a crecer es hora de decomponerlos en componentes más pequeños.
 
 Como habitualmente estarás proyectando en la interfaz un objeto JSON, entenderás
 que cuando has modelado correctamente tu `state`, tu UI (y con ella la

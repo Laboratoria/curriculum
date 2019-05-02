@@ -1,11 +1,11 @@
 {
   "name": "curricula-js",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Malla curricular Full Stack JavaScript @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/javascript",
-    "validate": "cd topics && course-parser browser/README.md css/README.md html/README.md javascript/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "validate": "cd topics && course-parser babel/README.md browser/README.md css/README.md functional/README.md html/README.md javascript/README.md paradigms/README.md react/README.md redux/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run eslint && npm run validate",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "contributors:add": "all-contributors add",
@@ -27,21 +27,21 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "course-parser": "Laboratoria/course-parser#1.1.1",
-    "eslint": "^5.10.0",
+    "eslint": "^5.12.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jest": "^22.1.3",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.4",
     "gulp": "4",
     "gulp-shell": "^0.6.5",
     "jdi": "^1.1.3",
     "mdlint": "Laboratoria/mdlint#v1.0.0",
     "mocha": "^5.2.0",
-    "renamer": "^1.1.0",
-    "sinon": "^7.2.0"
+    "renamer": "^1.1.1",
+    "sinon": "^7.2.2"
   },
   "dependencies": {
-    "all-contributors-cli": "^5.4.1"
+    "all-contributors-cli": "^5.10.1"
   }
 }

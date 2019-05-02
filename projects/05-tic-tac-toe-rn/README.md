@@ -83,25 +83,48 @@ Como entregables, al final del proyeto debes presentar:
 
 ## Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
+
+### General
+
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
+
+### Habilidades Blandas
+
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 4              |
+| Autoaprendizaje              | 4              |
+| Presentaciones               | 4              |
+| Adaptabilidad                | 4              |
+| Solución de problemas        | 4              |
+| **Relaciones interpersonales**                |
+| Responsabilidad              | 4              |
+| Dar y recibir feedback       | 4              |
+| Comunicación eficaz          | 4              |
 
 ### Tech
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 5
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 3
-| Estructuras de datos | 2
-| Tests | 4
-| **SCM** | |
-| Git | 3
-| GitHub | 3
-| **CS** | |
-| Lógica | 3
-| Arquitectura | 3
+| Habilidad              | Nivel esperado |
+| ---------------------- | -------------- |
+| **CS**                 |                |
+| Lógica                 | 2              |
+| Arquitectura           | 3              |
+| **SCM**                |                |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**         |                |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 4              |
+| Estructuras de datos   | 3              |
+| Tests                  | 3              |
 
 ***
 
@@ -126,7 +149,7 @@ Una vez insalada, deberías poder ejecutar el comando `expo` en tu terminal:
 
 ```sh
 $ expo -V
-2.2.0
+2.14.0
 ```
 
 #### Emulador / Dispositivo
@@ -157,8 +180,8 @@ repositorio y clónalo en tu computadora. Dentro de la carpeta del proyecto
 ejecutamos el siguiente comando para inicializar nuestro proyecto con Expo:
 
 ```sh
-# inicializa proyecto con expo en directorio actual
-expo init ./
+# inicializa proyecto con expo en carpeta "example"
+expo init example
 ```
 
 Al invocar este comando, nos preguntará que _plantilla_ (_template_) queremos
@@ -166,32 +189,48 @@ usar. Elige `blank`.
 
 ```txt
 ? Choose a template: (Use arrow keys)
-❯ blank
-  The Blank project template includes the minimum dependencies to run and an empty root component.
-  tabs
-  The Tab Navigation project template includes several example screens.
+  ----- Managed workflow -----
+❯ blank         minimal dependencies to run and an empty root component  
+  tabs          several example screens and tabs using react-navigation
+  ----- Bare workflow -----
+  bare-minimum  minimal setup for using unimodules
+```
+
+Después se nos preguntará por el nombre de la aplicación tal y como se verá la
+página de inicio (home screen).
+
+```text
+? Choose a template: expo-template-blank
+? Please enter a few initial configuration values.
+  Read more: https://docs.expo.io/versions/latest/workflow/configuration/ ‣ 50% completed
+ {
+   "expo": {
+     "name": "<The name of your app visible on the home screen>",
+     "slug": "example"
+   }
+ }
 ```
 
 Esto creará una serie de archivos y carpetas, incluyendo un archivo
-`package.json`, así como un `app.json` , nuestro componente principal `App.js` y
+`package.json`, así como un `app.json`, nuestro componente principal `App.js` y
 otros archivos de configuración y dependencias. La carpeta del proyecto debería
 contener los siguientes archivos:
 
 ```sh
+$ cd example
 $ tree . -L 1 -a
 .
 ├── App.js
 ├── app.json
 ├── assets
-├── .babelrc
-├── .git
+├── babel.config.js
 ├── .gitignore
 ├── node_modules
 ├── package.json
-├── README.md
+├── package-lock.json
 └── .watchmanconfig
 
-3 directories, 6 files
+2 directories, 7 files
 ```
 
 Si abrimos el archivo `App.js`, veremos que éste exporta un componente de

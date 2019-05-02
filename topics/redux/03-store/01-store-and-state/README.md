@@ -1,4 +1,4 @@
-# Ejemplo Redux + React - Paso 3: Store & State
+# Store & State
 
 * Tipo: `lectura`
 * Formato: `self-paced`
@@ -6,16 +6,15 @@
 
 ***
 
-## Paso 3: Identifica la representación mínima (pero completa) del estado de tu UI
+## Identifica la representación mínima (pero completa) del estado de tu UI
 
 Piensa en cuál es el mínimo conjunto de datos mútuamente excluyentes que
 necesita tu aplicación. La clave aquí es DRY: *Don't Repeat Yourself*.
 Identifica la representación absolutamente mínima del `state` de tu aplicación y
 toda la información derivada la calculas bajo demanda. Por ejemplo si en nuestro
-ejemplo quisieramos mostrar la suma total de items disponibles, sólo nos alcanza
-con tener la lista de productos e iterarla para contabilizar la disponibilidad,
-sin necesidad de tener otra propiedad en nuestro `state` para guardar el
-cálculo.
+ejemplo quisieramos mostrar la suma total de items disponibles, solo necesitamos
+tener la lista de productos e iterarla para contabilizar la disponibilidad, sin
+necesidad de tener otra propiedad en nuestro `state` para guardar el cálculo.
 
 A veces uno pensaría que es ineficiente recomputar un valor cada vez que se
 necesita, pero el impacto en performance es mínimo en relación a la complejidad
@@ -31,30 +30,28 @@ funcional:
 * El texto de búsqueda que ingresa el usuario
 * El valor del checkbox
 
-> Uno podría decir que es necesario mantener dos
-copias de la lista: la original y la filtrada.
-Pero recuerda que el conjunto es el mínimoÑ la lista filtrada de productos
-se obtiene filtrando la lista original, segun el valor del checkbox, es decir
-que es una propiedad derivada de otras dos, por lo tanto no pertenece al `state`.
+> Uno podría decir que es necesario mantener dos copias de la lista: la original
+> y la filtrada. Pero recuerda que el conjunto es el mínimo, la lista filtrada
+> de productos se obtiene filtrando la lista original, segun el valor del
+> checkbox, es decir que es una propiedad derivada de otras dos, por lo tanto no
+> pertenece al `state`.
 
 Ahora hacemos la integración de React con Redux para comenzar con este estado
 global.
 
 > No esperamos que entiendas todo lo que está sucediendo aquí, sólo que puedas
-> luego desarrollar tus propios actions y reducers
+> luego desarrollar tus propios _actions_ y _reducers_ 😉
 
 Aquí es donde entra en acción Redux.
 
-### Configurando el store
+## Configurando el store
 
 Creamos un nuevo archivo `lib/store.js` que contendrá
 la configuración de nuestro `store`
 
 ```js
-// lib/store.js
-
+// src/store.js
 import { createStore, combineReducers } from 'redux';
-
 import AppReducer from './reducer';
 
 const rootReducer = combineReducers({
@@ -75,7 +72,7 @@ y luego creamos nuestro `lib/reducer.js` que contendrá el estado inicial de
 nuestra aplicación, como lo definimos más arriba.
 
 ```js
-// lib/reducer.js
+// src/reducer.js
 
 // Supongamos que estos son los productos que recibimos de nuestra API JSON
 const PRODUCTS = [
@@ -94,67 +91,45 @@ const INIT_STATE = {
   filterText: '',
   // El valor del checkbox
   inStockOnly: false,
-
-  // y heredamos las propiedades para la barra lateral
-  asideTitulo: 'Links',
-  asideLinks: [
-   { href: '#', texto: 'Link 1'},
-   { href: '#', texto: 'Link 2'},
-   { href: '#', texto: 'Link 3'},
-   { href: '#', texto: 'Link 4'},
-   { href: '#', texto: 'Link 5'},
- ],
 };
 
 // nuestro reducer todavía no reacciona a ninguna acción, pero ya tiene un valor
 // inicial
 export default (state = INIT_STATE, action) => {
   switch(action.type) {
-
-  default:
-    return state;
-  }
+    // ...
+    default:
+      return state;
+    }
 };
 ```
 
 y modificamos el `index.js` para que haga el setup inicial del store.
 
 ```js
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-
-// El componente Provider que expone `react-redux`
 import { Provider } from 'react-redux';
-// El que acabamos de crear
-import store from './lib/store';
+import './index.css';
+import store from './store';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import Main from './lib/components/Main';
+ReactDOM.render(
+  <Provider store={store}> {/* <---- wrapping con el store */}
+    <App />
+  </Provider>,
+  document.getElementById('root'),
+);
 
-require("./styles.css");
-
-const render = (Component, props = {}) => {
-  ReactDOM.render(
-    <AppContainer>
-      <Provider store={store}> {/* <---- wrapping con el store */}
-        <Component {...props} />
-      </Provider>
-    </AppContainer>,
-    document.getElementById('container'),
-  );
-};
-
-render(Main);
-
-if (module.hot) {
-  module.hot.accept('./lib/components/Main', () => {
-    const newApp = require('./lib/components/Main').default;
-    render(newApp);
-  });
-}
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();
 ```
 
 Si chequeas Redux Dev Tools verás como el state de la aplicación ya cuenta con
 la info indicada en INIT_STATE
 
-![State en Redux Dev Tools](https://user-images.githubusercontent.com/110297/37154993-b3cfd14e-22af-11e8-9336-7ba13ab31815.png)
+![State en Redux Dev Tools](https://user-images.githubusercontent.com/110297/51624686-5dc6ff00-1f09-11e9-9206-9012534201d8.png)
