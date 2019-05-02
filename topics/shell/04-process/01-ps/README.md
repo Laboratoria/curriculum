@@ -1,12 +1,12 @@
-# Procesos
+# Processos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## Entrada/Salida/Pipes/Redirección
+## Entrada/Saída/Pipes/Redirecionamento
 
-**entrada y salida** de comandos (**stdin**, **stdout**, **stderr**),
-**procesos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...)
+**entrada e saída** de comandos (**stdin**, **stdout**, **stderr**),
+**processos** (comandos como `ps`, `bg`, `fg`, `jobs`, ...)

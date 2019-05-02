@@ -1,52 +1,53 @@
-# Variables
+# Variáveis
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Aprender qué son _variables_ y su utilidad.
-- Conocer las buenas prácticas de nombramiento de variables.
+- Aprender o que são _variáveis_ e suas utilidades.
+- Conhecer as boas práticas de nomeamento de variáveis.
+
+***
+
+O texto a seguir se baseia em grande parte, com certos ajstes, no  capítulo 1 de
+[Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript), de Marijn
+Haverbeke, 2014.
+
+## Variáveis
+
+Você já conhece os tipos de dados mais frequentes no JavaScript. Você consegue
+criar, combinar e transformar `numbers`, `strings` e `booleans`. Mas, o que
+podemos fazer com isso? Até agora, tudo o que foi trabalhado tem sido para uso
+imediato. Ou seja, os novos valores que geramos devem ser imediatamente
+utilizados ou se perdem. Segue no seu console o seguinte exemplo:
+
+```js
+'Oi, meu nome é ' + 'Paloma' + ' e tenho ' + 24 + ' anos';
+// returns: "Oi, meu nome é Paloma e tenho 24 anos"
+```
+
+Se quisesse utilizar esse `string` de novo, talvez porque a Paloma fez
+aniversário e agora queremos que apareça 20 anos no lugar de 19, não teria como
+fazer, pois o valor foi perdido.
+
+Para capturar e manter os valores, o JavaScript fornece algo chamado `variável`.
+É utilizada assim:
+
+```js
+var age = 24;
+// returns: undefined
+```
+
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma
+variável. É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+imediatamente um valor, é seguido do operador `=` e uma expressão (o número 24).
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io).
-
-## Variables
-
-Ya conoces los tipos de datos más comunes en JavaScript. Sabes crear, combinar y
-transformar `numbers`, `strings` y `booleans`. Pero, ¿qué podemos hacer con
-esto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es
-decir, los nuevos valores que generamos deben ser inmediatamente utilizados o se
-pierden. Sigue en tu consola el siguiente ejemplo:
-
-```js
-'Hola, mi nombre es ' + 'Michelle' + ' y tengo ' + 19 + ' años';
-// retorna: "Hola, mi nombre es Michelle y tengo 19 años"
-```
-
-Si quisiera utilizar ese `string` de nuevo, digamos porque Michelle cumplió años
-y ahora queremos que diga 20 años en lugar de 19, no lo podemos hacer. Se ha
-perdido.
-
-Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada
-`variable`. Se utiliza así:
-
-```js
-var age = 19;
-// retorna: undefined
-```
-
-La palabra clave (_keyword_) `var` indica que esta frase va a definir una
-variable. Es seguida por el nombre de la variable (el nombre _age_) y, si
-queremos asignarle de inmediato un valor, le sigue el operador `=` (operador de
-asignación) y una expresión (el número `19`).
-
-***
+NOTA: Neste primeiro exemplo usamos `var`, que nos dias de hoje é considerada
+uma forma antiquada de declarar variáveis.
 
 NOTA: En este primer ejemplo hemos usado `var`, que a día de hoy se considera
 una manera un poco anticuada de declarar variables, y hoy en día, desde ES6,
