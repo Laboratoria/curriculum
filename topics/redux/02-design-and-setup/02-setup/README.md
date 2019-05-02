@@ -117,7 +117,8 @@ y por últimos limpiamos un poco nuestro `public/index.html`
 </html>
 ```
 
-Si vemos la aplicación en el navegador, usando [`react-devtools`](https://github.com/facebook/react-devtools), deberíamos ver como nuestro componente aparece dentro de `App`.
+Si vemos la aplicación en el navegador, usando [`react-devtools`](https://github.com/facebook/react-devtools),
+deberíamos ver como nuestro componente aparece dentro de `App`.
 
 ![image](https://user-images.githubusercontent.com/110297/51619171-c27c5c80-1efd-11e9-96ec-9e05c2c3e213.png)
 

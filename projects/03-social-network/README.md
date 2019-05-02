@@ -12,7 +12,6 @@
 * [8. Evaluación](#8-evaluación)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas,-tips-y-lecturas-complementarias)
 
-
 ***
 
 ## 1. Preámbulo
@@ -32,9 +31,9 @@ más comentado.
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
-salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada) o de
-los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco),
-de la [Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
+salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada)
+o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la
+[Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
 
 Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
 acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
@@ -51,29 +50,28 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 * Este proyecto se debe trabajar en equipos de tres.
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
-_frameworks_ o librerías de CSS y JS.
+  (ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
+  _frameworks_ o librerías de CSS y JS.
 
 * La división y organización del trabajo debe permitir, sin excepciones, que
-**cada integrante** del equipo practique el aprendizaje de todo lo involucrado
-en **cada historia**. _No se dividan el trabajo como en una fábrica._
+  **cada integrante** del equipo practique el aprendizaje de todo lo involucrado
+  en **cada historia**. _No se dividan el trabajo como en una fábrica._
   - ¿Hasta acá has avanzado en tus proyectos con cierta fluidez y sin mayores
-  problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
-  sin restricciones, aunque tome un poco más de tiempo. Aproveha de
-  _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
-  aprender es explicando verbalmente.
+    problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
+    sin restricciones, aunque tome un poco más de tiempo. Aproveha de
+    _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
+    aprender es explicando verbalmente.
 
   - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
-  con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
-  para practicar y aprender lo que se te hace más difícil.
+    con las partes "fáciles" del proyecto, conversa, negocia, exige tu
+    oportunidad para practicar y aprender lo que se te hace más difícil.
 
 * Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
-la siguiente sin haber completado la anterior. La historia se completa cuando
-se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
-de Terminado.
+  la siguiente sin haber completado la anterior. La historia se completa cuando
+  se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
+  de Terminado.
 
-Para comenzar tendrás que hacer un _fork_ y _clonar_ este
-repositorio.
+Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ## 5. Criterios de Aceptación Mínimos del Proyecto
 
@@ -97,23 +95,24 @@ que detalles:
 Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de
 Usuario que representen todo lo que necesitan hacer/ver en la Red Social. Cada
 una de tus Historias de Usuario debe tener:
-- **Criterios de Aceptación:** todo lo que debe ocurrir para satisfacer las
+
+* **Criterios de Aceptación:** todo lo que debe ocurrir para satisfacer las
   necesidades del usuario.
 
-- **Definición de terminado:** todos los aspectos técnicos que deben cumplirse
-para que, como equipo, sepan que esa historia está terminada y lista
-para publicarse. **Todas** tus Historias de Usuario (salvo excepciones), deben
-incluir estos aspectos en su Definición de Terminado (más todo lo que
+* **Definición de terminado:** todos los aspectos técnicos que deben cumplirse
+  para que, como equipo, sepan que esa historia está terminada y lista
+  para publicarse. **Todas** tus Historias de Usuario (salvo excepciones), deben
+  incluir estos aspectos en su Definición de Terminado (más todo lo que
   necesiten agregar):
 
-  * Debe ser una SPA.
-  * Debe ser _responsive_.
-  * Deben haber recibido _code review_ de al menos una compañera de otro equipo.
-  * Hicieron los _test_ unitarios
-  * Testearon manualmente buscando errores e imperfecciones simples.
-  * Hicieron _pruebas_ de usabilidad e incorporaron el _feedback_ de los
-  usuarios como mejoras.
-  * Desplegaron su aplicación y etiquetaron la versión (git tag).
+  - Debe ser una SPA.
+  - Debe ser _responsive_.
+  - Deben haber recibido _code review_ de al menos una compañera de otro equipo.
+  - Hicieron los _test_ unitarios
+  - Testearon manualmente buscando errores e imperfecciones simples.
+  - Hicieron _pruebas_ de usabilidad e incorporaron el _feedback_ de los
+    usuarios como mejoras.
+  - Desplegaron su aplicación y etiquetaron la versión (git tag).
 
 ### 5.4 Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
 
@@ -149,7 +148,6 @@ tus H.U.:
   - Si hay errores, se deben mostrar mensajes descriptivos para ayudar al
   usuario a corregirlos.
 
-
 #### Muro/timeline
 
 * Validaciones:
@@ -180,12 +178,11 @@ tus H.U.:
 #### Pruebas unitarias (unit tests)
 
 * Recuerda que no hay un _setup_ de **tests** definido, dependerá de
-la estructura de tu proyecto. Algo que no debes de olvidar es pensar en éstas
-pruebas, te pueden ayudar a definir la estructura y nomenclatura de tu lógica.
+  la estructura de tu proyecto. Algo que no debes de olvidar es pensar en éstas
+  pruebas, te pueden ayudar a definir la estructura y nomenclatura de tu lógica.
 
 * Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_, y _branches_.
-
+  _lines_, y _branches_.
 
 ### 5.8 Consideraciones técnicas UX
 
@@ -226,7 +223,6 @@ puedas haber encontrado en el camino.
 | Responsabilidad | 3 |
 | Comunicación eficaz | 3 |
 | Presentaciones | 3 |
-
 
 ### Habilidades Técnicas, Front-end
 

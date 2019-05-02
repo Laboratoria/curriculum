@@ -44,9 +44,9 @@ siguientes conocimientos previos:
 En esta primera unidad revisaremos los 3 conceptos básicos de `redux`,
 que articulan todo su funcionamiento:
 
-- Una sóla fuente de verdad
-- El estado es de "sólo-lectura"
-- Los cambios de estado, se realizan a través de funciones puras
+* Una sóla fuente de verdad
+* El estado es de "sólo-lectura"
+* Los cambios de estado, se realizan a través de funciones puras
 
 ### Unidad 02: [Diseño y mockup](02-design-and-setup)
 
