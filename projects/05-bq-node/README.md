@@ -46,6 +46,8 @@ una base datos** (MongoDB), **variables de entorno**, ...
 
 ## Consideraciones generales
 
+Este proyecto se realizará de forma individual.
+
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto está permitido usar librerías o frameworks.
 
@@ -71,10 +73,10 @@ interfaz sometida a pruebas es HTTP.
 # Corre pruebas e2e sobre instancia local. Esto levanta la aplicación con npm
 # start y corre los tests contra la URL de esta instancia (por defecto
 # http://127.0.0.1:8080).
-yarn e2e
+npm run e2e
 
 # Corre pruebas e2e sobre URL remota
-REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh yarn e2e
+REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh npm run e2e
 ```
 
 Las pruebas _end-to-end_ ya están completas en el _boilerplate_, así que puedes
@@ -102,9 +104,6 @@ argumento a la hora de invocar nuestro programa:
 ```sh
 # Arranca la aplicación el puerto 8888 usando npm
 npm start 8888
-
-# Arranca la aplicación el puerto 8888 usando yarn
-yarn start 8888
 ```
 
 #### Variables de entorno
@@ -237,33 +236,49 @@ aplicación será desplegada en [zeit.co](https://zeit.co/) y
 
 ## Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
+Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
+una lista de todas las habilidades involucradas en este proyecto y que
+evaluaremos cuando lo  completes:
 
-### Tech
+### General
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 5
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 3
-| Estructuras de datos | 2
-| Tests | 4
-| **SCM** | |
-| Git | 3
-| GitHub | 3
-| **CS** | |
-| Lógica | 3
-| Arquitectura | 3
-
-### UX
-
-[tbd]
+| Característica | Nivel esperado |
+|----------------|----------------|
+| Completitud    | 4              |
 
 ### Habilidades Blandas
 
-[tbd]
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| **Autogestión**                               |
+| Planificación y organización | 4              |
+| Autoaprendizaje              | 4              |
+| Presentaciones               | 4              |
+| Adaptabilidad                | 4              |
+| Solución de problemas        | 4              |
+| **Relaciones interpersonales**                |
+| Responsabilidad              | 4              |
+| Dar y recibir feedback       | 4              |
+| Comunicación eficaz          | 4              |
+
+### Tech
+
+| Habilidad              | Nivel esperado |
+| ---------------------- | -------------- |
+| **CS**                 |                |
+| Lógica                 | 2              |
+| Arquitectura           | 3              |
+| **SCM**                |                |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**         |                |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 4              |
+| Estructuras de datos   | 3              |
+| Tests                  | 3              |
+
 ***
 
 ## Primeros pasos
@@ -280,10 +295,10 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 
 1. Haz un fork de este repo.
 2. Clona el repo en tu computadora.
-3. Instala dependencias (`yarn` o `npm install`).
-4. Arranca la aplicación `yarn start`.
-5. Ejecuta pruebas unitarias y linter: `yarn test` o `npm test`.
-6. Ejecuta tests e2e (end-to-end): `yarn e2e` o `npm run e2e`.
+3. Instala dependencias (`npm i` o `npm install`).
+4. Arranca la aplicación `npm start`.
+5. Ejecuta pruebas unitarias y linter: `npm test`.
+6. Ejecuta tests e2e (end-to-end): `npm run e2e`.
 
 ### Despliegue
 
@@ -320,7 +335,7 @@ now \
 ```
 
 Este comando está configurado como tarea `deploy` en el `package.json`, así que
-puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
+puedes ejecutarlo con `npm run deploy`.
 
 ***
 
