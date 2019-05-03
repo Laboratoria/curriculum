@@ -87,6 +87,10 @@ tienes total libertad de proponer lo que consideres.
 
 ## 6. Hacker edition
 
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
 * Grilla (grid) configurable (3x3, 4x4, ...)
 
 ## 7. Entrega

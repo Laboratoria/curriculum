@@ -220,6 +220,10 @@ lo prefieres o si no tienes curl instalado.
 
 ## 6. Hacker edition
 
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
 Como _hacker edition_, te proponemos que elijas una o más de las siguientes
 _características_.
 

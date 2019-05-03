@@ -210,6 +210,10 @@ en la sección [Data](###data) de las [Especificaciones Técnicas](##especificac
 
 ## 6. Hacker edition
 
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
 Features/características extra sugeridas:
 
 * En lugar de consumir la data estática brindada en este repositorio, puedes

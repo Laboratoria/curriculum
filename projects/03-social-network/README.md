@@ -194,6 +194,10 @@ tus H.U.:
 
 ## 6. Hacker edition
 
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
 * Permite crear posts con imágenes.
 * Permite buscar usuarios, agregar y eliminar "amigos".
 * Permite definir la privacidad de los _posts_ (público o solamente para amigos).
