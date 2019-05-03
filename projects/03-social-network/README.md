@@ -225,49 +225,48 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 ### Habilidades Blandas/Socioemocionales
 
-| Habilidad |
-|-----------|
-| Planificación y organización |
-| Autoaprendizaje |
-| Solución de Problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Responsabilidad |
-| Comunicación eficaz |
-| Presentaciones |
+| Habilidad                    | Nivel esperado |
+|------------------------------|----------------|
+| Planificación y organización | 3              |
+| Autoaprendizaje              | 3              |
+| Solución de Problemas        | 3              |
+| Dar y recibir feedback       | 3              |
+| Adaptabilidad                | 3              |
+| Trabajo en equipo            | 3              |
+| Responsabilidad              | 3              |
+| Comunicación eficaz          | 3              |
+| Presentaciones               | 3              |
 
 ### Habilidades Técnicas, Front-end
 
-| Habilidad |
-|-----------|
-| **JavaScript** |
-| Estilo |
-| Nomenclatura/semántica |
-| Funciones/modularidad |
-| Estructuras de datos |
-| Tests |
-| **HTML** |
-| Validación |
-| Estilo |
-| Semántica |
-| SEO |
-| **CSS** |
-| DRY |
-| Responsive |
-| **SCM** |
-| Git |
-| GitHub |
-| **CS** |
-| Lógica |
-| Arquitectura |
+| Habilidad              | Nivel esperado |
+|------------------------|----------------|
+| **Computer Science**                    |
+| Lógica                 | 2              |
+| Arquitectura           | 2              |
+| **Source Control Management**           |
+| Git                    | 3              |
+| GitHub                 | 3              |
+| **JavaScript**                          |
+| Estilo                 | 3              |
+| Nomenclatura/semántica | 3              |
+| Funciones/modularidad  | 2              |
+| Estructuras de datos   | 2              |
+| Tests                  | 2              |
+| **HTML**                                |
+| Validación             | 3              |
+| Estilo                 | 3              |
+| Semántica              | 3              |
+| **CSS**                                 |
+| DRY                    | 3              |
+| Responsive             | 3              |
 
 ### Habilidades Técnicas, UX
 
-| Habilidad |
-|-----------|
-| User Centricity |
-| Visual Desing |
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 3              |
+| Visual Desing   | 2              |
 
 ***
 

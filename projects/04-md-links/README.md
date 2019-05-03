@@ -267,13 +267,11 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 | Habilidad                    | Nivel esperado |
 |------------------------------|----------------|
-| **Autogestión**                               |
 | Planificación y organización | 4              |
 | Autoaprendizaje              | 4              |
 | Presentaciones               | 4              |
 | Adaptabilidad                | 4              |
 | Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
 | Responsabilidad              | 4              |
 | Dar y recibir feedback       | 4              |
 | Comunicación eficaz          | 4              |
@@ -282,13 +280,13 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 
 | Habilidad              | Nivel esperado |
 | ---------------------- | -------------- |
-| **CS**                 |                |
+| **Computer Science**                    |
 | Lógica                 | 2              |
 | Arquitectura           | 3              |
-| **SCM**                |                |
+| **Source Control Management**           |
 | Git                    | 3              |
 | GitHub                 | 3              |
-| **JavaScript**         |                |
+| **JavaScript**                          |
 | Estilo                 | 3              |
 | Nomenclatura/semántica | 3              |
 | Funciones/modularidad  | 4              |

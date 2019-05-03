@@ -211,52 +211,51 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 ### General
 
-| Característica/Habilidad |
-|--------------------------|
-| Completitud |
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
+| Completitud              | 3              |
 
 ### Habilidades Blandas
 
-| Habilidad |
-|-----------|
-| Planificación, organización y manejo del tiempo |
-| Autoaprendizaje |
-| Presentaciones |
-| Adaptabilidad |
-| Solución de problemas |
-| Trabajo en equipo |
-| Responsabilidad |
-| Dar y recibir feedback |
-| Comunicación eficaz |
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 2              |
+| Autoaprendizaje                                 | 2              |
+| Presentaciones                                  | 2              |
+| Adaptabilidad                                   | 2              |
+| Solución de problemas                           | 2              |
+| Responsabilidad                                 | 2              |
+| Dar y recibir feedback                          | 2              |
+| Comunicación eficaz                             | 2              |
 
 ### Habilidades Técnicas Front-end
 
-| Habilidad |
-|-----------|
-| **Computer Science** |
-| Lógica |
-| Arquitectura |
-| **Source Control Management** |
-| Git |
-| GitHub |
-| **JavaScript** |
-| Estilo |
-| Nomenclatura/semántica |
-| Funciones/modularidad |
-| Tests |
-| **HTML** |
-| Validación |
-| Estilo |
-| Semántica |
-| **CSS** |
-| DRY |
-| Responsive |
+| Habilidad              | Nivel esperado |
+|------------------------|----------------|
+| **Computer Science**                    |
+| Lógica                 | 1              |
+| Arquitectura           | 1              |
+| **Source Control Management**           |
+| Git                    | 1              |
+| GitHub                 | 2              |
+| **JavaScript**                          |
+| Estilo                 | 2              |
+| Nomenclatura/semántica | 2              |
+| Funciones/modularidad  | 1              |
+| Tests                  | 2              |
+| **HTML**                                |
+| Validación             | 2              |
+| Estilo                 | 3              |
+| Semántica              | 2              |
+| **CSS**                                 |
+| DRY                    | 2              |
+| Responsive             | 2              |
 
 ### Habilidades Técnicas UX
 
-| Habilidad |
-|-----------|
-| User Centricity |
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 2              |
 
 ***
 

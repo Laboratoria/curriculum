@@ -128,13 +128,11 @@ Te aconsejamos revisar la rúbrica:
 
 | Habilidad                    | Nivel esperado |
 |------------------------------|----------------|
-| **Autogestión**                               |
 | Planificación y organización | 4              |
 | Autoaprendizaje              | 4              |
 | Presentaciones               | 4              |
 | Adaptabilidad                | 4              |
 | Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
 | Trabajo en equipo            | 4              |
 | Responsabilidad              | 4              |
 | Dar y recibir feedback       | 4              |
@@ -144,11 +142,11 @@ Te aconsejamos revisar la rúbrica:
 
 | Habilidad              | Nivel esperado |
 |------------------------|----------------|
-| **CS**                                  |
+| **Computer Science**                    |
 | Lógica                 | 2              |
 | Arquitectura           | 3              |
 | Patrones/Paradigmas    | 2              |
-| **SCM**                                 |
+| **Source Control Management**           |
 | Git                    | 3              |
 | GitHub                 | 3              |
 | **JavaScript**                          |

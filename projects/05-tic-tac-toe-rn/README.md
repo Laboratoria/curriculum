@@ -121,13 +121,11 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 | Habilidad                    | Nivel esperado |
 |------------------------------|----------------|
-| **Autogestión**                               |
 | Planificación y organización | 4              |
 | Autoaprendizaje              | 4              |
 | Presentaciones               | 4              |
 | Adaptabilidad                | 4              |
 | Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
 | Responsabilidad              | 4              |
 | Dar y recibir feedback       | 4              |
 | Comunicación eficaz          | 4              |
@@ -136,13 +134,13 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 | Habilidad              | Nivel esperado |
 | ---------------------- | -------------- |
-| **CS**                 |                |
+| **Computer Science**                    |
 | Lógica                 | 2              |
 | Arquitectura           | 3              |
-| **SCM**                |                |
+| **Source Control Management**           |
 | Git                    | 3              |
 | GitHub                 | 3              |
-| **JavaScript**         |                |
+| **JavaScript**                          |
 | Estilo                 | 3              |
 | Nomenclatura/semántica | 3              |
 | Funciones/modularidad  | 4              |
