@@ -255,10 +255,14 @@ aplicación será desplegada en [zeit.co](https://zeit.co/) y
 
 ## 8. Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
+NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
+cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
+así como _guías_ en el diseño curricular, pero no reglas absolutas.
+
+Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
+recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
+proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
 ### General
 
