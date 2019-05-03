@@ -1,6 +1,21 @@
 # Tic tac toe - React Native
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Entrega](#7-entrega)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Checklist](#10-checklist)
+
+***
+
+## 1. Preámbulo
 
 En este proyecto vamos a construir un simple videojuego de _3 en raya_, también
 conocido como _michi_ o _tic tac toe_ en inglés, para celulares y tabletas.
@@ -13,7 +28,7 @@ JavaScript y React para componer nuestra interfaz.
 Nuestro público objetivo en este caso son niños en edad pre-escolar, así que el
 juego debe ser simple, intuitivo, con botones grandes, poco o nada de texto, ...
 
-## Introducción
+## 2. Resumen del proyecto
 
 React Native es una herramienta que nos permite construir aplicaciones nativas
 para Android e iOS usando JavaScript y React.
@@ -36,7 +51,7 @@ aplicaciones realmente _nativas_, pero usando JavaScript y React. Esto significa
 mejor _performance_ y acceso directo al sistema en vez de estar confinado a una
 vista _web_.
 
-## Objetivos
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje es tener una primera experiencia en
 desarrollo de aplicaciones nativas con React Native.
@@ -49,7 +64,7 @@ Para completar el proyecto tendrás que familiarizarte con conceptos como `View`
 `Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
 nativas.
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto está permitido usar librerías o frameworks.
@@ -58,7 +73,7 @@ Este proyecto no incluye un _boilerplate_ per se. En vez de un _boilerplate_ te
 ofrecemos una serie de instrucciones (ver sección "Primeros pasos" más abajo)
 para que inicialices tu proyecto desde cero.
 
-## Parte obligatoria
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### UI
 
@@ -70,18 +85,18 @@ La interfaz debe permitir jugar el juego de _3 en raya_ como se muestra en la
 animación de arriba. Eso sí, a nivel de estilos (colores, tipografía, ...)
 tienes total libertad de proponer lo que consideres.
 
-## Hacker edition
+## 6. Hacker edition
 
 * Grilla (grid) configurable (3x3, 4x4, ...)
 
-## Entrega
+## 7. Entrega
 
 Como entregables, al final del proyeto debes presentar:
 
 * Link a repositorio en GitHub con tu código fuente
 * Link a tu aplicación desplegada en tu perfil en el website de [Expo](https://expo.io/).
 
-## Evaluación
+## 8. Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
@@ -128,11 +143,13 @@ evaluaremos cuando lo  completes:
 
 ***
 
-## Primeros pasos
+## 9. Pistas, tips y lecturas complementarias
 
-### Dependencias
+### Primeros pasos
 
-#### Expo
+#### Dependencias
+
+##### Expo
 
 La manera más fácil de empezar un nuevo proyecto de React Native es usando Expo,
 que es un conjunto de herramientas, librerįas y servicios que nos permiten
@@ -152,19 +169,19 @@ $ expo -V
 2.14.0
 ```
 
-#### Emulador / Dispositivo
+##### Emulador / Dispositivo
 
 En este proyecto, al tratarse de una aplicación nativa, no podemos _ver_ nuestra
 aplicación en el navegador, sino que necesitamos un dispositivo real o un
 emulador de Android y/o iOS.
 
-##### Expo App en dispositivos reales
+###### Expo App en dispositivos reales
 
 Para ejecutar la aplicación en dispositivos reales tendrás que instalar la app
 de Expo (disponible en [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
 y [Apple App Store](https://itunes.apple.com/us/app/expo-client/id982107779?mt=8)).
 
-##### Expo App en emuladores
+###### Expo App en emuladores
 
 Para ejecutar la aplicación en un emulador, te recomendamos instalar las
 herramientas para desarrolladores de Android y/o iOS (ambas incluyen el emulador
@@ -173,7 +190,7 @@ correspondiente).
 * [Android Studio](https://developer.android.com/studio/)
 * [Xcode](https://developer.apple.com/xcode/)
 
-### Inicializar proyecto
+#### Inicializar proyecto
 
 Ahora que ya tenemos todas las herramientas listas, haz un _fork_ de este
 repositorio y clónalo en tu computadora. Dentro de la carpeta del proyecto
@@ -245,7 +262,7 @@ cualquier otra interfaz contruida con `React`.
 En este archivo podríamos importar otros componetes que implementemos así como
 cualquier otro módulo de JavaScript.
 
-### Ejecutar aplicación en modo de desarrollo
+#### Ejecutar aplicación en modo de desarrollo
 
 Llegado a este punto ya estamos listos para _ver_ nuestra aplicación en un
 dispositivo (real o emulado). Para ello, `expo` nos ofrece un comando que
@@ -272,7 +289,7 @@ gráfica, como una página web.
 
 ![screenshot from 2018-10-15 18-38-31](https://user-images.githubusercontent.com/110297/46984223-c4868200-d0a9-11e8-8458-ee785ef8e9f0.png)
 
-### Despliegue
+#### Despliegue
 
 Como paso final, para publicar tu aplicación en la plataforma de Expo puedes
 usar la interfaz mostrada en el paso enterior (hay un link que dice _Publish or
@@ -282,9 +299,7 @@ republish project..._) o a través de la línea de comando:
 expo publish
 ```
 
-***
-
-## Tips / Pistas
+### Otros recursos
 
 * [React Native](https://facebook.github.io/react-native/)
 * [Expo](https://expo.io/)
@@ -293,7 +308,9 @@ expo publish
 * [Android Emulator](https://developer.android.com/studio/run/emulator)
 * [Xcode](https://developer.apple.com/xcode/)
 
-## Checklist
+***
+
+## 10. Checklist
 
 ### UI
 

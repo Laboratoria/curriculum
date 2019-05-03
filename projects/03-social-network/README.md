@@ -3,14 +3,14 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del Proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones Generales](#4-consideraciones-generales)
-* [5. Criterios de Aceptación Mínimos del Proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
 * [7. Entrega](#7-entrega)
 * [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas,-tips-y-lecturas-complementarias)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -27,7 +27,7 @@ investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
 de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
 más comentado.
 
-## 2. Resumen del Proyecto
+## 2. Resumen del proyecto
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
@@ -38,14 +38,14 @@ o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la
 Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
 acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
-## 3. Objetivos de Aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje de este proyecto es construir una
 [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
  (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
-## 4. Consideraciones Generales
+## 4. Consideraciones generales
 
 * Este proyecto se debe trabajar en equipos de tres.
 
@@ -63,8 +63,8 @@ El objetivo principal de aprendizaje de este proyecto es construir una
     aprender es explicando verbalmente.
 
   - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
-    con las partes "fáciles" del proyecto, conversa, negocia, exige tu
-    oportunidad para practicar y aprender lo que se te hace más difícil.
+    con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
+    para practicar y aprender lo que se te hace más difícil.
 
 * Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
   la siguiente sin haber completado la anterior. La historia se completa cuando
@@ -73,7 +73,7 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
-## 5. Criterios de Aceptación Mínimos del Proyecto
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### 5.1 Boilerplate
 
@@ -154,7 +154,7 @@ tus H.U.:
   - Al publicar, se debe validar que exista contenido en el _input_.
 * Comportamiento:
   - Al recargar la aplicación, se debe verificar si el usuario está _logueado_
-  antes de mostrar contenido.
+    antes de mostrar contenido.
   - Poder publicar un _post_.
   - Poder dar y quitar _like_ a una publicación. Máximo uno por usuario.
   - Llevar un conteo de los _likes_.
@@ -212,48 +212,49 @@ puedas haber encontrado en el camino.
 
 ### Habilidades Blandas/Socioemocionales
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 3 |
-| Autoaprendizaje | 3 |
-| Solución de Problemas | 3 |
-| Dar y recibir feedback | 3 |
-| Adaptabilidad | 3 |
-| Trabajo en equipo | 3 |
-| Responsabilidad | 3 |
-| Comunicación eficaz | 3 |
-| Presentaciones | 3 |
+| Habilidad |
+|-----------|
+| Planificación y organización |
+| Autoaprendizaje |
+| Solución de Problemas |
+| Dar y recibir feedback |
+| Adaptabilidad |
+| Trabajo en equipo |
+| Responsabilidad |
+| Comunicación eficaz |
+| Presentaciones |
 
 ### Habilidades Técnicas, Front-end
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
+| Habilidad |
+|-----------|
 | **JavaScript** |
-| Estilo | 3 |
-| Nomenclatura/semántica | 3 |
-| Funciones/modularidad | 2 |
-| Estructuras de datos | 2 |
-| Tests | 2 |
+| Estilo |
+| Nomenclatura/semántica |
+| Funciones/modularidad |
+| Estructuras de datos |
+| Tests |
 | **HTML** |
-| Validación | 3 |
-| Estilo | 3 |
-| Semántica | 3 |
+| Validación |
+| Estilo |
+| Semántica |
+| SEO |
 | **CSS** |
-| DRY | 3 |
-| Responsive | 3 |
+| DRY |
+| Responsive |
 | **SCM** |
-| Git | 3 |
-| GitHub | 3 |
+| Git |
+| GitHub |
 | **CS** |
-| Lógica | 2 |
-| Arquitectura | 2 |
+| Lógica |
+| Arquitectura |
 
 ### Habilidades Técnicas, UX
 
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 3 |
-| Visual Desing | 2 |
+| Habilidad |
+|-----------|
+| User Centricity |
+| Visual Desing |
 
 ***
 
@@ -304,5 +305,3 @@ Otras:
 * [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
 * [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-
-***

@@ -2,20 +2,20 @@
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Descripción](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
-* [Checklist](#checklist)
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Checklist](#10-checklist)
 
 ***
 
-## Preámbulo
+## 1. Preámbulo
 
 Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
 el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
@@ -35,7 +35,7 @@ al lado derecho.
 \* Puedes ver el detalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
 y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
-## Resumen del proyecto
+## 2. Resumen del proyecto
 
 En este proyecto **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
@@ -88,14 +88,7 @@ interfaz. La identidad gráfica, también conocida como guía de estilos en
 diseño, de cada set la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
-## Consideraciones generales
-
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 3 semanas.
-
-## Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
@@ -121,7 +114,14 @@ Dicho en palabras sencillas, aprenderás a:
 * Entender los beneficios y complejidades de **trabajar en equipo** en un
   ambiente de incertidumbre.
 
-## Parte Obligatoria
+## 4. Consideraciones generales
+
+* Este proyecto se debe resolver en duplas.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+* Tiempo para completarlo: Toma como referencia 3 semanas.
+
+## 5. Criterios de aceptación mínimos del proyecto
 
 Los criterios para considerar que has completado este proyecto son:
 
@@ -191,7 +191,7 @@ Como mínimo, tu implementación debe:
    máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
    un determinado valor, por ejemplo.
 4. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
-tamaños de pantallas: móviles, tablets y desktops.
+   tamaños de pantallas: móviles, tablets y desktops.
 
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
 siga los fundamentos de _visual design_.
@@ -203,11 +203,12 @@ que  tendrás que escribir tu propias pruebas unitarias para las funciones
 encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
 estadísticas.
 
-Tus Pruebas Unitarias deben dar una cobertura del 70% de _statements_ (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_ (_ramas_)
-del archivo `src/data.js` que contenga tus Funciones y está detallado en la
-sección [Data](###data) de las [Especificaciones Técnicas](##especificaciones-técnicas).
+Tus Pruebas Unitarias deben dar una cobertura del 70% de _statements_
+(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
+(_ramas_) del archivo `src/data.js` que contenga tus Funciones y está detallado
+en la sección [Data](###data) de las [Especificaciones Técnicas](##especificaciones-técnicas).
 
-## Parte Opcional (Hacker edition)
+## 6. Hacker edition
 
 Features/características extra sugeridas:
 
@@ -220,7 +221,7 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## Consideraciones técnicas
+## 7. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
@@ -238,26 +239,26 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── README.md
 ├── src
-│   ├── data (según con qué data trabajes)
-│   │   ├── injuries
-│   │   │   ├── injuries.js
-│   │   │   └── injuries.json
-│   │   ├── lol
-│   │   │   ├── lol.js
-│   │   │   └── lol.json
-│   │   ├── pokemon
-│   │   │   ├── pokemon.js
-│   │   │   └── pokemon.json
-│   │   ├── steam
-│   │   │   ├── steam.js
-│   │   │   └── steam.json
-│   │   └── worldbank
-│   │       ├── worldbank.js
-│   │       └── worldbank.json
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+│   ├── data (según con qué data trabajes)
+│   │   ├── injuries
+│   │   │   ├── injuries.js
+│   │   │   └── injuries.json
+│   │   ├── lol
+│   │   │   ├── lol.js
+│   │   │   └── lol.json
+│   │   ├── pokemon
+│   │   │   ├── pokemon.js
+│   │   │   └── pokemon.json
+│   │   ├── steam
+│   │   │   ├── steam.js
+│   │   │   └── steam.json
+│   │   └── worldbank
+│   │       ├── worldbank.js
+│   │       └── worldbank.json
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 └── test
     └── data.spec.js
 
@@ -346,18 +347,18 @@ asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_A
 Tendrás también que completar las pruebas unitarias de las funciones
 implementadas en el archivo `data.js`.
 
-## Evaluación
+## 8. Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
+Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada habilidad y cada nivel. Esta es una
+lista de todas las habilidades involucradas en este proyecto y que evaluaremos
+cuando lo completes:
 
 ### General
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
+| Característica/Habilidad |
+|--------------------------|
+| Completitud |
 
 ### Habilidades Blandas
 
@@ -397,7 +398,6 @@ evaluaremos cuando lo  completes:
 | DRY |
 | Responsive |
 
-
 ### UX
 
 | Habilidad |
@@ -408,7 +408,9 @@ evaluaremos cuando lo  completes:
 
 ***
 
-## Pistas sobre cómo empezar a trabajar en el proyecto
+## 9. Pistas, tips y lecturas complementarias
+
+### Primeros pasos
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto
 en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
@@ -419,10 +421,10 @@ pueden ayudar:
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
 * Toda tu investigación previa debe tener como resultado todas las Historias
-de Usuario de tu proyecto.
+  de Usuario de tu proyecto.
 * No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-pistas en la guía de organización para el proyecto.
+  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
+  pistas en la guía de organización para el proyecto.
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
@@ -490,14 +492,14 @@ compañera:
 
 ***
 
-## Contenido de referencia
+### Contenido de referencia
 
-### Diseño de experiencia de usuario (User Experience Design)
+#### Diseño de experiencia de usuario (User Experience Design)
 
 * Investigación con usuarios / entrevistas
 * Principios de diseño visual
 
-### Desarrollo Front-end
+#### Desarrollo Front-end
 
 * Unidad de testing en curso de JavaScript en LMS.
 * Unidad de arreglos en curso de JavaScript en LMS.
@@ -515,7 +517,7 @@ compañera:
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
 
-### Herramientas
+#### Herramientas
 
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
@@ -523,16 +525,17 @@ compañera:
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
-### Organización del Trabajo:
+#### Organización del Trabajo
 
-* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s). Ojo que Cris no diferencia _Definición de terminado_ de
-_Criterios de Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
+* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
+  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
+  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 * [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
 ***
 
-## Checklist
+## 10. Checklist
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.
