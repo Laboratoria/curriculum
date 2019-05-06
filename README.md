@@ -14,7 +14,7 @@ Cada _proyecto_ se acompaña con una serie de _tópicos_ sugeridos incluyendo
 materiales de aprendizaje por cuenta propia (_self-paced_).
 
 Los proyectos son evaluados por _coaches_ y _pares_ (_peers_) usando una
-[rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
+[rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 estandarizada que siempre incluye componentes _generales_, _habilidades
 blandas_, _habilidades técnicas_ y _ux_.
 
