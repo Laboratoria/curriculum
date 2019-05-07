@@ -255,13 +255,9 @@ En uso (`v2.x`):
 * [Paradigmas de programación](topics/paradigms)
 * [JavaScript Funcional](topics/functional)
 * [React](topics/react)
+* [Redux](topics/redux)
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
-
-Work in progress:
-
-* Node
-* Redux
 
 Wish list:
 
