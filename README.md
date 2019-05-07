@@ -5,38 +5,46 @@
 
 ## Introducción
 
-El _bootcamp_ de Laboratoria es un programa de aprendizaje inmersivo de 6 meses
-enfocado en los perfiles de **Front-end Development** y **UX Design**. Nuestro
-modelo de aprendizaje se basa en emular un ambiente laboral que prepare a
-nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
+El _bootcamp_ de Laboratoria es un **programa de aprendizaje inmersivo de 6
+meses** enfocado en los perfiles de **Front-end Developer** y **UX Designer**.
+Nuestro modelo de aprendizaje se basa en emular un ambiente laboral que prepare
+a nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
 que necesitan para comenzar a trabajar.
 
+<!--
 * [Perfil de Front-end Developer]()
 * [Perfil de UX Designer]()
+-->
 
-El aprendizaje basado en proyectos es el eje central sobre el que se articula
-la experiencia de aprendizaje. Completar una serie de _proyectos_, de
+El **aprendizaje basado en proyectos** es el eje central sobre el que se
+articula la experiencia de aprendizaje. Completar una serie de _proyectos_, de
 complejidad gradualmente creciente, permite a las estudiantes ir desarrollando
-las habilidades necesarias. De todas habilidades, el **Autoaprendizaje** es la
-más importante; creemos firmemente que, no solamente es una habilidad
-indispensable para el mundo laboral que les espera, si no  que es también una
-poderosa herramienta para que sean mujeres autosuficientes, seguras de su
-talento y habilidades y, finalmente, agentes de cambio a largo plazo.
+las habilidades necesarias. De todas estas habilidades, consideramos que el
+**Autoaprendizaje** es la más importante; creemos firmemente que, no solamente
+es una habilidad indispensable para el mundo laboral que les espera, si no que
+es también una poderosa herramienta para que sean mujeres autosuficientes,
+seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
+plazo.
 
+<!--
 Esta es una representación de la importancia de las habilidades que buscamos
 desarrollen nuestras estudiantes. Se van construyendo sobre la base de la(s)
 indispensable(s).
 
 ![maslow](http://i68.tinypic.com/14j2kgj.jpg)
+-->
 
-Los proyectos son evaluados por _coaches_ en función de la siguiente ["rúbrica"](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#).
+Los proyectos son evaluados por _coaches_ en función de la siguiente [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml).
 
 ## Mapa de aprendizaje
 
-El _mapa de aprendizaje/proyectos_ se divide en 4 _etapas_: **Preadmisión**,
-**Common Core**, **Track** (Front-end Development y UX Design) y **Electivos**.
+El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
+**Preadmisión**, **Common Core**, **Track** (Front-end Development y UX Design)
+y **Electivos**.
 
 ![mapaproyectos](http://i64.tinypic.com/20fcnx0.jpg)
+
+***
 
 ### Etapa 0: Preadmisión
 
@@ -50,6 +58,8 @@ completar un _proyecto_ presencialmente en una de nuestras sedes.
 * Equipos: 1 estudiante
 * Tópicos: [JavaScript Basics](topics/javascript/01-basics),
   [HTML Intro](topics/html/01-intro), [CSS](topics/css/01-css).
+
+***
 
 ### Etapa 1: Common Core
 
@@ -66,7 +76,7 @@ permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
 
 El principal objetivo de aprendizaje de este proyecto es tener una primera
 experiencia construyendo una aplicación web, utilizando los conocimientos
-adequiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
+adquiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
 diseñar un producto pensando en los usuarios, construir una interfaz, escuchar
 eventos básicos del DOM, escribir lógica para llevar a cabo el cifado y
 descifrado, _tests_ unitarios básicos para comprobar (y documentar) dicha
@@ -99,7 +109,7 @@ eso implica.
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
   [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
 
-#### Proyecto: [Social Network](projects/03-social-network)
+#### Proyecto: [Red Social](projects/03-social-network)
 
 En este _proyecto_ partimos del supuesto que una emprendedora ha pedido hacer
 un prototipo para una _red social_ sobre algunos temas de entre los cuales las
@@ -116,18 +126,7 @@ entendiendo las necesidades de los usuarios para los que sw creará el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Registro de Visitantes](projects/03-visitors)
-
-En este _proyecto_ tendrán que implementar un sistema web de registro de
-visitantes para un _coworking_.
-
-El objetivo principal de este proyecto es poner en práctica todo lo
-aprendido durante el _Common Core_, con foco en la calidad, trabajando en un
-equipo multifuncional y presentando el resultado final a una audiencia.
-
-* Duración estimada: 1 semana.
-* Equipos: 3 estudiantes.
-* Tópicos: Todo lo visto hasta este punto.
+***
 
 ### Etapa 2: Tracks
 
@@ -138,21 +137,6 @@ paralelos: _Front-end Development y UX Design_.
 
 Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
 [JavaScript Funcional](topics/functional).
-
-##### Proyecto: [Postulación a un trabajo](projects/04-job-application)
-
-En este _proyecto_ simulamos una postulación a una empresa como Front-end
-Developer.
-
-El objetivo principal de este reto es que conozcan un proceso de reclutamiento
-y estén preparadas para enfrentar los meses de colocación laboral al final del
-_Bootcamp_. El 100% de las preguntas, retos, desafíos, etc. que se plantean en
-este proyecto son casos reales de empresas que han contratado y/o entrevistado
-a egresadas de Laboratoria.
-
-* Duración estimada: ?
-* Equipos: 1 estudiante.
-* Tópicos: Todo lo visto en el _common core_.
 
 ##### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
 
@@ -197,6 +181,8 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Duración estimada: 4 semanas.
 * Tópicos: (tbd)
+
+***
 
 ### Etapa 3: Capstone / Electivos
 
