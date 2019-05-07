@@ -46,13 +46,13 @@ y **Electivos**.
 
 ***
 
-### Etapa 0: Preadmisión
+## Etapa 0: Preadmisión
 
 La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro Bootcamp. Al
 final de cada _proceso de admisión_ invitaremos a candidatas preseleccionadas a
 completar un _proyecto_ presencialmente en una de nuestras sedes.
 
-#### Proyecto: Trivia (necesita refactorización)
+### Proyecto: Trivia (necesita refactorización)
 
 * Duración estimada: 3 días.
 * Equipos: 1 estudiante
@@ -61,7 +61,7 @@ completar un _proyecto_ presencialmente en una de nuestras sedes.
 
 ***
 
-### Etapa 1: Common Core
+## Etapa 1: Common Core
 
 Todas las estudiantes admitidas, comienzan con el _common core_. En esta etapa
 completarán los siguientes _proyectos_ en orden; cada uno desbloquea el
@@ -69,7 +69,7 @@ siguiente. Al final del _common core_ las estudiantes participan en una o más
 _hackathones_ trabajando en proyectos más pequeños propuestos por Laboratoria
 y/o empresas/empleadores externos.
 
-#### Proyecto: [Cifrado César](projects/01-cipher)
+### Proyecto: [Cifrado César](projects/01-cipher)
 
 En este _proyecto_ implementan una aplicación web basada un _boilerplate_ que
 permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
@@ -89,7 +89,7 @@ lógica, y manipulación del DOM para mostrar (escribir) los resultados.
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
   [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
 
-#### Proyecto: [Data Lovers](projects/02-data-lovers)
+### Proyecto: [Data Lovers](projects/02-data-lovers)
 
 En este proyecto tendrán su primer acercamiento a transformar _data_ en
 información. El objetivo principal de este proyecto es aprender a diseñar y
@@ -109,6 +109,18 @@ eso implica.
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
   [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
 
+***
+
+## Etapa 2: Tracks
+
+Después del _common core_ cada grupo se separa en _tracks especializados_ y
+paralelos: _Front-end Development y UX Design_.
+
+### Track Front End Dev
+
+Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
+[JavaScript Funcional](topics/functional).
+
 #### Proyecto: [Red Social](projects/03-social-network)
 
 En este _proyecto_ partimos del supuesto que una emprendedora ha pedido hacer
@@ -126,19 +138,7 @@ entendiendo las necesidades de los usuarios para los que sw creará el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-***
-
-### Etapa 2: Tracks
-
-Después del _common core_ cada grupo se separa en _tracks especializados_ y
-paralelos: _Front-end Development y UX Design_.
-
-#### Track Front End Dev (JavaScript)
-
-Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
-[JavaScript Funcional](topics/functional).
-
-##### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
+#### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
 
 Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
 restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
@@ -155,7 +155,7 @@ para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 * Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
   Service Workers, Serverless.
 
-##### Proyecto: [Markdown Links](projects/04-md-links)
+#### Proyecto: [Markdown Links](projects/04-md-links)
 
 Dentro de una comunidad de código abierto, proponen crear una herramienta
 usando [Node.js](https://nodejs.org/), que lea y analice archivos en formato
@@ -175,25 +175,67 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
   Módulos, [Errores](topics/javascript/09-errors).
 
-#### Track UX Design
+### Track UX Design
 
-##### Proyecto: (tbd)
+#### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
+
+El banco más importante del país ha lanzado una nueva aplicación móvil al
+mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
+el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
+equipo detrás de este nuevo producto ha decidido contratar a una
+agencia/consultora de UX que los ayude a definir la dirección y evolución del
+producto. Tú y otra compañera de Laboratoria trabajan en la agencia/consultora
+de UX y son asignadas al proyecto.
+
+El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar un producto ya existente. Muchas de ustedes terminarán trabajando en productos existentes y deben estar familiarizadas con el proceso de analizar la data del producto, complementar con investigación de campo y con esto definir una estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un UX Designer en rediseño este blogpost.
+
+En este proyecto pondrás en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
 
 * Duración estimada: 4 semanas.
 * Tópicos: (tbd)
 
+#### Proyecto: [Plataforma de ventas en línea](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/marketplace.md)
+
+Este proyecto require hacer un estudio inicial de cómo debería ser un portal de
+ventas y cómo deben ofrecer los productos a los consumidores. Un cliente
+ficticio quiere que averigües cómo son los consumidores que utilizaría este
+canal de venta y cuáles son sus motivaciones, cómo es el mercado actual en el
+que incursionarán; y que propongas una visión de cómo podría plantearse este
+nuevo canal de ventas.
+
+Una vez conozcas a los posibles compradores debes formular una propuesta de
+valor, detallando cómo podría ser el portal, los contenidos, la interacción y el
+diseño del proceso a partir del cual el usuario podrá hacer sus pedidos en esta
+plataforma.
+
+El objetivo principal de aprendizaje de este proyecto es entender cómo pasamos
+de lo que un cliente quiere alcanzar a la definición de un producto digital en
+poco tiempo. Entender los principales pasos y preguntas que debemos hacernos,
+cómo involucrar a los usuarios y su feedback y cómo usar esos resultados sin
+perder de vista los objetivos iniciales. Esperamos que en este proyecto puedas
+entender las necesidades y falencias de las empresas, aprender y empezar a
+empaparte de los posibles modelos de negocio así como investigar a su audiencia,
+los usuarios que consumen sus productos, entendiendo sus preferencias y contexto
+en el que lo hacen.
+
+* Duración estimada: 4 semanas?
+* Equipos: 2 estudiantes.
+* Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
+  (flujo de contenido, mapa de sitio), diseño visual y de interacción
+  (wireframes y prototipado), y user testing.
+
 ***
 
-### Etapa 3: Capstone / Electivos
+## Etapa 3: Capstone / Electivos
 
 El último mes del Bootcamp - más o menos, cada una avanza a su ritmo - se espera
 que construyas tu proyecto _final_ o _capstone_, que puede estar basado en los
 tópicos/tecnologías vistas hasta el momento, o pueden cubrir algunos de los
 tópicos sugeridos (electivos).
 
-#### Front End Dev (JavaScripters)
+### Track Front End Dev
 
-##### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
+#### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
 
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
@@ -216,7 +258,7 @@ familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
   response, headers, body, status codes...), JSON, MongoDB,
   _variables de entorno_, JWT (_JSON Web Tokens_)...
 
-##### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
+#### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
 
 El objetivo principal de aprendizaje es tener una primera experiencia en
 desarrollo de aplicaciones nativas con React Native.
@@ -233,9 +275,9 @@ nativas.
 * Equipos: 1 estudiante
 * Tópicos: React Native, Expo, componentes nativos, touch events, ...
 
-#### UX
+### Track UX Design
 
-##### Proyecto: (tbd)
+#### Proyecto: (tbd)
 
 * Duración estimada: 4 semanas.
 * Tópicos: (tbd)
