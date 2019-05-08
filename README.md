@@ -177,23 +177,6 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ### Track UX Design
 
-#### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
-
-El banco más importante del país ha lanzado una nueva aplicación móvil al
-mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
-el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
-equipo detrás de este nuevo producto ha decidido contratar a una
-agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto. Tú y otra compañera de Laboratoria trabajan en la agencia/consultora
-de UX y son asignadas al proyecto.
-
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar un producto ya existente. Muchas de ustedes terminarán trabajando en productos existentes y deben estar familiarizadas con el proceso de analizar la data del producto, complementar con investigación de campo y con esto definir una estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un UX Designer en rediseño este blogpost.
-
-En este proyecto pondrás en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
-
-* Duración estimada: 4 semanas.
-* Tópicos: (tbd)
-
 #### Proyecto: [Plataforma de ventas en línea](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/marketplace.md)
 
 Este proyecto require hacer un estudio inicial de cómo debería ser un portal de
@@ -223,6 +206,35 @@ en el que lo hacen.
 * Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
   (flujo de contenido, mapa de sitio), diseño visual y de interacción
   (wireframes y prototipado), y user testing.
+
+#### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
+
+El banco más importante del país ha lanzado una nueva aplicación móvil al
+mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
+el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
+equipo detrás de este nuevo producto ha decidido contratar a una
+agencia/consultora de UX que los ayude a definir la dirección y evolución del
+producto. Tú y otra compañera de Laboratoria trabajan en la agencia/consultora
+de UX y son asignadas al proyecto.
+
+El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
+un producto ya existente. Muchas de ustedes terminarán trabajando en productos
+existentes y deben estar familiarizadas con el proceso de analizar la data del
+producto, complementar con investigación de campo y con esto definir una
+estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un UX
+Designer en rediseño este blogpost.
+
+En este proyecto pondrás en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
+
+* Duración estimada: 4 semanas.
+* Equipos: 2/3 estudiantes.
+* Tópicos: (tbd)
+
+#### Proyecto: Consultoría UX a empresas reales
+
+* Duración estimada: 4 semanas.
+* Equipos: Depende de proyectos.
+* Tópicos: (tbd)
 
 ***
 
