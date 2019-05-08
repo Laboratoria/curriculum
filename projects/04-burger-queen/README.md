@@ -306,8 +306,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 | Habilidad                                         | Nivel esperado |
 |---------------------------------------------------|----------------|
-| **Investigación (_Reseacrh_)**                    | ???            |
-| User Centricity (_Diseño Centrado en el Usuario_) | 3              |
+| User Centricity (_Diseño Centrado en el Usuario_) | 4              |
 | **Diseño Visual (_Visual Design_)**               | 2              |
 
 ***
