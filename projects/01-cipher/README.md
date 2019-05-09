@@ -1,5 +1,22 @@
 # Cifrado César
 
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Checklist](#10-checklist)
+
+***
+
+## 1. Preámbulo
+
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
@@ -25,7 +42,7 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## Resumen del proyecto
+## 2. Resumen del proyecto
 
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
 web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
@@ -42,17 +59,7 @@ ejemplo:
   una zona de conflicto.
 * Mensajería secreta para parejas.
 
-## Consideraciones generales
-
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
-
-## Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 En este proyecto aprenderás a construir una aplicación web que interactúe con el
 usuario a través del navegador y la lógica basada en esa interacción. Dicho en
@@ -69,7 +76,17 @@ palabras sencillas, aprenderás a:
 * Entender las **necesidades del usuario** y cómo proponer una solución.
 * Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
-## Parte Obligatoria
+## 4. Consideraciones generales
+
+* Este proyecto se debe resolver de manera individual.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
+  te preocupes, lo aprenderás durante este proyecto.
+* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
+  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
+  terminarás.
+
+## 5. Criterios de aceptación mínimos del proyecto
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -116,11 +133,11 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## Parte opcional o “Hacker edition”
+## 6. Hacker edition
 
-Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con
-todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar
-y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 La descripción general de este proyecto no menciona qué pasaría con las letras
 minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El
@@ -130,11 +147,10 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## Vamos a los detalles. Consideraciones Técnicas
+## 7. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6).
-En este proyecto NO está permitido usar librerías o frameworks, sólo
+(ES6). En este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
@@ -161,10 +177,10 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── README.md
 ├── package.json
 ├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
+│   ├── cipher.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
 └── test
     ├── cipher.spec.js
     ├── headless.js
@@ -182,43 +198,44 @@ entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
-## Evaluación
+## 8. Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
+NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
+cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
+así como _guías_ en el diseño curricular, pero no reglas absolutas.
+
+Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
+recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
+proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
 ### General
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 3              |
+| Característica/Habilidad | Nivel esperado |
+|--------------------------|----------------|
+| Completitud              | 3              |
 
 ### Habilidades Blandas
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 2              |
-| Autoaprendizaje              | 2              |
-| Presentaciones               | 2              |
-| Adaptabilidad                | 2              |
-| Solución de problemas        | 2              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 2              |
-| Responsabilidad              | 2              |
-| Dar y recibir feedback       | 2              |
-| Comunicación eficaz          | 2              |
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 2              |
+| Autoaprendizaje                                 | 2              |
+| Presentaciones                                  | 2              |
+| Adaptabilidad                                   | 2              |
+| Solución de problemas                           | 2              |
+| Responsabilidad                                 | 2              |
+| Dar y recibir feedback                          | 2              |
+| Comunicación eficaz                             | 2              |
 
 ### Habilidades Técnicas Front-end
 
 | Habilidad              | Nivel esperado |
 |------------------------|----------------|
-| **CS**                                  |
+| **Computer Science**                    |
 | Lógica                 | 1              |
 | Arquitectura           | 1              |
-| **SCM**                                 |
+| **Source Control Management**           |
 | Git                    | 1              |
 | GitHub                 | 2              |
 | **JavaScript**                          |
@@ -242,7 +259,9 @@ evaluaremos cuando lo  completes:
 
 ***
 
-## Pistas sobre cómo comenzar a trabajar en el proyecto
+## 9. Pistas, tips y lecturas complementarias
+
+### Primeros pasos
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -267,7 +286,7 @@ evaluaremos cuando lo  completes:
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. A codear se ha dicho! :rocket:
 
-## Recursos y temas relacionados
+### Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
@@ -296,10 +315,17 @@ Desarrollo Front-end:
 Herramientas:
 
 * GitHub y GitHub Pages.
-* [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf):
-  solamente para comenzar a entender cómo organizar tu trabajo.
 
-## Checklist
+Organización del Trabajo:
+
+* [Metodologías Ágiles"](https://www.youtube.com/watch?v=v3fLx7VHxGM)
+* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
+* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
+  esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
+  poco a lo largo del -_bootcamp_.
+* [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
+
+## 10. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 

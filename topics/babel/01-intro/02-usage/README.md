@@ -72,6 +72,7 @@ Continúa leyendo para una explicación detallada de cada una de estos pasos.
 Todos los módulos de Babel que vayas a necesitar, se encuentran publicados
 como paquetes independientes de npm, dentro del namespace `@babel`
 (desde la versión 7).
+
 Este diseño modular expone diferentes herramientas, cada una diseñada para un
 uso específico. En esta sección analizaremos `@babel/core` y `@babel/cli`.
 

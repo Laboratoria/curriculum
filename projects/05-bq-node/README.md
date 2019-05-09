@@ -1,12 +1,27 @@
 # Burger Queen - Backend con Node.js
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Entrega](#7-entrega)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Checklist](#10-checklist)
+
+***
+
+## 1. Preámbulo
 
 Continuando con el proyecto de [Burger Queen](../04-burger-queen), el cliente
 parece que quedó contento con la interfaz y ahora nos han pedido que completemos
 un prototipo de backend para su sistema de pedidos :tada:.
 
-## Introducción
+## 2. Resumen del proyecto
 
 Con un backend en este caso nos referimos a un _servidor web_, que es
 básicamente un programa que _escucha_ en un puerto de red, a través del cual
@@ -29,7 +44,7 @@ familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
 [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/),
 [mongoose](https://mongoosejs.com/), ...
 
-## Objetivos
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
@@ -44,7 +59,7 @@ Para completar el proyecto tendrás que familiarizarte con conceptos como
 body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_), **conexión con
 una base datos** (MongoDB), **variables de entorno**, ...
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 Este proyecto se realizará de forma individual.
 
@@ -73,16 +88,16 @@ interfaz sometida a pruebas es HTTP.
 # Corre pruebas e2e sobre instancia local. Esto levanta la aplicación con npm
 # start y corre los tests contra la URL de esta instancia (por defecto
 # http://127.0.0.1:8080).
-yarn e2e
+npm run e2e
 
 # Corre pruebas e2e sobre URL remota
-REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh yarn e2e
+REMOTE_URL=https://bq-node-cvtbcmdbro.now.sh npm run e2e
 ```
 
 Las pruebas _end-to-end_ ya están completas en el _boilerplate_, así que puedes
 usarlas como guía de implementación y checklist de completitud.
 
-## Parte obligatoria
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### CLI
 
@@ -104,9 +119,6 @@ argumento a la hora de invocar nuestro programa:
 ```sh
 # Arranca la aplicación el puerto 8888 usando npm
 npm start 8888
-
-# Arranca la aplicación el puerto 8888 usando yarn
-yarn start 8888
 ```
 
 #### Variables de entorno
@@ -206,7 +218,11 @@ crear usuarios. Ver docs para más información.
 Puedes ejecutar estas pruebas en [Postman](https://www.getpostman.com) si así
 lo prefieres o si no tienes curl instalado.
 
-## Hacker edition
+## 6. Hacker edition
+
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 Como _hacker edition_, te proponemos que elijas una o más de las siguientes
 _características_.
@@ -231,18 +247,22 @@ Más info acá: [Autenticación de acceso básica - Wikipedia](https://es.wikipe
 
 90%+ de cobertura en pruebas unitarias.
 
-## Entrega
+## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 aplicación será desplegada en [zeit.co](https://zeit.co/) y
 [cloud.mongodb.com](https://cloud.mongodb.com/), o servicios equivalentes.
 
-## Evaluación
+## 8. Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
+NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
+cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
+así como _guías_ en el diseño curricular, pero no reglas absolutas.
+
+Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
+recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
+proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
 ### General
 
@@ -254,13 +274,11 @@ evaluaremos cuando lo  completes:
 
 | Habilidad                    | Nivel esperado |
 |------------------------------|----------------|
-| **Autogestión**                               |
 | Planificación y organización | 4              |
 | Autoaprendizaje              | 4              |
 | Presentaciones               | 4              |
 | Adaptabilidad                | 4              |
 | Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
 | Responsabilidad              | 4              |
 | Dar y recibir feedback       | 4              |
 | Comunicación eficaz          | 4              |
@@ -269,13 +287,13 @@ evaluaremos cuando lo  completes:
 
 | Habilidad              | Nivel esperado |
 | ---------------------- | -------------- |
-| **CS**                 |                |
+| **Computer Science**                    |
 | Lógica                 | 2              |
 | Arquitectura           | 3              |
-| **SCM**                |                |
+| **Source Control Management**           |
 | Git                    | 3              |
 | GitHub                 | 3              |
-| **JavaScript**         |                |
+| **JavaScript**                          |
 | Estilo                 | 3              |
 | Nomenclatura/semántica | 3              |
 | Funciones/modularidad  | 4              |
@@ -284,9 +302,11 @@ evaluaremos cuando lo  completes:
 
 ***
 
-## Primeros pasos
+## 9. Pistas, tips y lecturas complementarias
 
-### Dependencias
+### Primeros pasos
+
+#### Dependencias
 
 1. Instala [MongoDB](https://www.mongodb.com/) localmente.
 2. Crea un cluster gratuito en [cloud.mongodb.com](https://cloud.mongodb.com/).
@@ -294,16 +314,16 @@ evaluaremos cuando lo  completes:
 4. Crea un cuenta en [zeit.co](https://zeit.co/).
 5. Instala herramienta de línea de comando `now`: `npm i -g now`
 
-### Copia local del proyecto
+#### Copia local del proyecto
 
 1. Haz un fork de este repo.
 2. Clona el repo en tu computadora.
-3. Instala dependencias (`yarn` o `npm install`).
-4. Arranca la aplicación `yarn start`.
-5. Ejecuta pruebas unitarias y linter: `yarn test` o `npm test`.
-6. Ejecuta tests e2e (end-to-end): `yarn e2e` o `npm run e2e`.
+3. Instala dependencias (`npm i` o `npm install`).
+4. Arranca la aplicación `npm start`.
+5. Ejecuta pruebas unitarias y linter: `npm test`.
+6. Ejecuta tests e2e (end-to-end): `npm run e2e`.
 
-### Despliegue
+#### Despliegue
 
 Antes de desplegar nuestra aplicación por primera vez tenemos que crear unos
 _secretos_ en el servidor, que usaremos después para configurar nuestra
@@ -338,11 +358,9 @@ now \
 ```
 
 Este comando está configurado como tarea `deploy` en el `package.json`, así que
-puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
+puedes ejecutarlo con `npm run deploy`.
 
-***
-
-## Tips / Pistas
+### Otros recursos
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
@@ -354,7 +372,9 @@ puedes ejecutarlo con `yarn deploy` o `npm install deploy`.
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
 
-## Checklist
+***
+
+## 10. Checklist
 
 ### HTTP API
 

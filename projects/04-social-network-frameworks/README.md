@@ -1,6 +1,21 @@
 # Rehaciendo tu red social usando librerías y frameworks
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Entrega](#7-entrega)
+* [8. Evaluación](#8-evaluación)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Checklist](#10-checklist)
+
+***
+
+## 1. Preámbulo
 
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
@@ -24,7 +39,7 @@ los que trabajes.
 
 ![caracoles](http://www.animated-photography.com/images/portfolio/full/Evolution.jpg)
 
-## Introducción
+## 2. Resumen del proyecto
 
 En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
 la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
@@ -38,7 +53,7 @@ El alcance del proyecto y el detalle de sus características es exactamente
 [el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
 incluyendo la parte de Hacker Edition pero excluyendo la parte de UX.
 
-## Objetivos
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
 usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva:
@@ -52,7 +67,7 @@ web, es muy común tener que enfrentarse a este tipo de escenario donde decidimo
 (o alguien decide por nosotros) que lo mejor para seguir evolucionando una
 aplicación es re-escribirla usando una nueva tecnología.
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 Este proyecto se debe "resolver" en duplas.
 
@@ -64,26 +79,30 @@ Vue) y elijan con cuál quieren trabajar.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
-## Parte obligatoria
+## 5. Criterios de aceptación mínimos del proyecto
 
 Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#parte-obligatoria).
 
-## Hacker edition
+## 6. Hacker edition
 
 Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#hacker-edition).
 
-## Entrega
+## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
 
-## Evaluación
+## 8. Evaluación
 
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
+NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
+cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
+así como _guías_ en el diseño curricular, pero no reglas absolutas.
+
+Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
+recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
+proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
 ### General
 
@@ -109,13 +128,11 @@ Te aconsejamos revisar la rúbrica:
 
 | Habilidad                    | Nivel esperado |
 |------------------------------|----------------|
-| **Autogestión**                               |
 | Planificación y organización | 4              |
 | Autoaprendizaje              | 4              |
 | Presentaciones               | 4              |
 | Adaptabilidad                | 4              |
 | Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
 | Trabajo en equipo            | 4              |
 | Responsabilidad              | 4              |
 | Dar y recibir feedback       | 4              |
@@ -125,11 +142,11 @@ Te aconsejamos revisar la rúbrica:
 
 | Habilidad              | Nivel esperado |
 |------------------------|----------------|
-| **CS**                                  |
+| **Computer Science**                    |
 | Lógica                 | 2              |
 | Arquitectura           | 3              |
 | Patrones/Paradigmas    | 2              |
-| **SCM**                                 |
+| **Source Control Management**           |
 | Git                    | 3              |
 | GitHub                 | 3              |
 | **JavaScript**                          |
@@ -148,7 +165,7 @@ Te aconsejamos revisar la rúbrica:
 
 ***
 
-## Pistas / Tips / Lecturas complementarias
+## 9. Pistas, tips y lecturas complementarias
 
 Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
@@ -192,7 +209,7 @@ se usan muchas veces en conjunción con Redux como manejador de _estado_.
 
 * [Redux - docs oficiales](https://redux.js.org/)
 
-## Checklist
+## 10. Checklist
 
 ### General
 
