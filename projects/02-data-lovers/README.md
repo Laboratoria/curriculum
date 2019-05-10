@@ -447,7 +447,10 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
-5. A codear se ha dicho! :rocket:
+5. Para ver la interfaz de tu programa en el navegador, usa el comando
+  `npm start` para arrancar el servidor web y dirígete a
+  `http://localhost:5000` en tu navegador.
+6. A codear se ha dicho! :rocket:
 
 <!--
 En este proyecto deberás trabajar colaborativamente. Para ello, una de las

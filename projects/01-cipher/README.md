@@ -284,7 +284,10 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
    incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
-7. A codear se ha dicho! :rocket:
+7. Para ver la interfaz de tu programa en el navegador, usa el comando
+   `npm start` para arrancar el servidor web y dirígete a
+   `http://localhost:5000` en tu navegador.
+8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
