@@ -287,7 +287,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 7. Para ver la interfaz de tu programa en el navegador, usa el comando
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
-7. A codear se ha dicho! :rocket:
+8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
