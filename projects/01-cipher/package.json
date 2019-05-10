@@ -9,14 +9,16 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test-browser": "opener ./test/index.html",
     "test-node": "nyc mocha ./test/headless.js",
-    "test": "npm run test-node --silent && npm run test-browser"
+    "test": "npm run test-node --silent && npm run test-browser",
+    "start": "serve ./src"
   },
   "dependencies": {
     "chai": "^4.1.2",
     "eslint": "^5.9.0",
-    "htmlhint": "^0.10.1",
-    "mocha": "^5.1.1",
-    "nyc": "^13.1.0",
-    "opener": "^1.4.3"
+    "htmlhint": "^0.11.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "opener": "^1.4.3",
+    "serve": "^11.0.0"
   }
 }
