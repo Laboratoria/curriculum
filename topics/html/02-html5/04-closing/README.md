@@ -8,27 +8,21 @@
 
 ## HTML5 é a última versão do HTML?
 
-Sí y no. Es cierto que HTML5 es la última versión de HTML, pero además engloba
-un conjunto de tecnologías que define el estándar en relación a la web, tales
-como CSS3 y un término que ahora escucharás muy seguido: **APIs**. Este último
-nos dará a conocer los superpoderes del navegador y entenderemos porqué el
-navegador se ha potenciado mucho desde sus inicios.
+Sim e não. HTML5 é a última versão do HTML, mas ele não é só isso, ele é um
+padrão engloba um conjunto de tecnologias da web, como CSS3 e uma palavra que
+vocês irão ouvir muito: **APIS**. Com as apis vocês irão conhecer os
+superpoderes do navegador e entender o porque o navegador evoluir tanto desdo
+seu início.
 
-## Dato curioso
+## Curiosidade
 
-En realidad ya se está trabajando en el primer borrador de la revisión del
-estándar **HTML5.3** :scream:. En este [blog de la W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/)
-puedes encontrar información al respecto.
+Na realidade você está trabalhando no primeiro esboço da revisão do padrão
+**HTML5.3** 😱. No [blog da W3C](https://www.w3.org/blog/2017/12/html-5-2-is-done-html-5-3-is-coming/)
+você pode encontrar mais informações sobre isso.
 
-Además, si quieres ir conociendo un poco más acerca de lo que HTML5 trae consigo,
-puedes revisar el siguiente video de nuestros amigos de Platzi, que si bien el
-video ya tiene varios años en internet, todavía nos puede dar una gran
-perspectiva del impacto que tuvo la llegada de este nuevo estándar.
+## Responda as perguntas do opening
 
-[![HTML5](https://img.youtube.com/vi/RBbviZLKEG0/0.jpg)](https://youtu.be/RBbviZLKEG0)
-
-## Respondamos las preguntas del opening
-
-- ¿Qué es HTML5?
-- ¿Para qué nos ayuda la semántica de HTML5?
-- ¿Cuáles son las nuevas etiquetas de HTML5 más comunes?
+- O que é `HTML5`?
+- Em que a semântica do `HTML5` nos ajuda?
+- Quais são as novas etiquetas de `HTML5` mais comuns?
+- Quais são as tags usadas para criar um formulário?

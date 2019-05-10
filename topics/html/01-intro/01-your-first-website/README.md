@@ -44,7 +44,7 @@ explicaremos passo a passo mais abaixo):
 Ao abrir este mesmo arquivo HTML em um navegadro (como Chrome), se vê o
 seguinte:
 
-![Visualização no Chrome](https://i.imgur.com/25cRtGR.png)
+![Visualização no Chrome](https://user-images.githubusercontent.com/11894994/57495168-425ae680-72a3-11e9-96e2-7f1d33a7865c.png)
 
 O navegador "lê" o arquivo HTML (o texto e as tags que estão dentro) e o
 apresenta segundo as regras da linguagem. Por exemplo, os textos que estão
@@ -55,32 +55,30 @@ primeira página Web._
 
 ## Crie sua primeira página Web
 
-Como já dicemos, _**a melhor maneira de aprender é fazendo**_. Por isso, é hora
-de você mesmo criar uma página web e aprender HTML.
+Como já dissemos, _**a melhor maneira de aprender é fazendo**_. Por isso, é hora
+de você mesma criar uma página web e aprender HTML.
 
-A seguir um vídeo que explica o porquê de você precisar de um editor de texto
-para os exercícios:
+A seguir um vídeo que explica o porquê você precisa de um editor de texto para
+os exercícios:
 
-[![Editor de texto
-intro](https://img.youtube.com/vi/wQKn1fh3pAM/0.jpg)](https://www.youtube.com/watch?v=wQKn1fh3pAM)
+[![Editor de texto intro](https://embed-ssl.wistia.com/deliveries/8cff57d37f73a74a557d246050d583027af215ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/37gb5iondx?wvideo=37gb5iondx)
 
-Nesse vídeo, você será guiado através dos seguintes passos para criar sua
+No próximo vídeo, você será guiada através dos seguintes passos para criar sua
 primeira página web:
 
 1. Baixar o Visual Studio Code, um editor de texto: [Baixe VSC
    aqui](https://code.visualstudio.com/). Existem versões para Mac e Windows. Se
-   desejar pode também baixar um editor de texto chamdo Atom:
+   desejar pode também baixar um editor de texto chamado Atom:
    [Baixar](https://atom.io/)
 2. Crie um arquivo HTML chamado `index.html`
-3. Agregue alguns elementos ao arquivo HTML (por exemplo: um título e um
-   parágrafo)
-4. Salve se arquivo HTML
+3. Escreva alguns elementos no arquivo HTML (por exemplo: um título `<h1>` e um
+   parágrafo `<p>`)
+4. Salve o arquivo HTML
 5. Abra o arquivo HTML em um navegador como o Chrome
 
 Aqui o vídeo:
 
-[![Minha primeira página Web
-HTML](https://img.youtube.com/vi/QP9FF9eoh-k/0.jpg)](https://www.youtube.com/watch?v=QP9FF9eoh-k)
+[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/5965a3abc9c483a990a081c16a199ce6ea2d70ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/u3xr67d4he?wvideo=u3xr67d4he)
 
 ## Tags e elementos HTML
 
@@ -92,7 +90,7 @@ fechamento `</p>`. O texto que se encontra entre as etiquetas de abertura e de
 fechamento é chamado de _conteúdo_ do elemento.
 
 > o elemento `p` (parágrafo) como exemplo: ![Exemplo de
-Tag](https://i.imgur.com/urQurOX.jpg)
+Tag](https://user-images.githubusercontent.com/11894994/57495817-43414780-72a6-11e9-9fb5-8ee6cab80f08.jpg)
 
 Vamos dar uma passada por todos os elementos do nosso arquivo:
 
@@ -116,19 +114,8 @@ Vamos dar uma passada por todos os elementos do nosso arquivo:
    navegador. Neste caso, dentro do body temos dois elementos adicionais: o `h1`
    (cabeçalho) e o `p` (parágrafo).
 
-<!--
-Una manera de visualizar este concepto de "encapsulado" donde unos elementos
-"contienen" a otros es a través de este gráfico:
-
-![HTML Jerarquía](http://apprize.info/javascript/kids/kids.files/image057.jpg)
--->
-
 Existem muito mais elementos e tags HTML que você vai aprender. Por agora, é
 hora de regressar ao JavaScript.
-
-<!-- ## HTML + CSS
-Agrega estilos con CSS
--->
 
 ## HTML e JavaScript
 
@@ -174,9 +161,9 @@ arquivos por meio do elemento `script` da seguinte maneira:
 O elemento `script` tem um "atributo" chamado `src` (de source, que significa
 fonte em inglês), no qual você pode colocar a caminho do seu arquivo JavaScript.
 
-## Inluindo interação ã sua página web
+## Adicionando interação à sua página
 
-Agora é sua vez! Continue assistindo os vídeos e seguindo os passs para agregar
+Agora é sua vez! Continue assistindo os vídeos e seguindo os passos para agregar
 interação a seu site.
 
 Os passos são os seguintes:
@@ -187,7 +174,7 @@ Os passos são os seguintes:
    `alert()`, `document.write()` ou `prompt()`)
 3. Salve o arquivo HTML
 4. Atualize a página de seu navegador onde está carregado o arquivo HTML
-5. Agora crie um novo arquico chamado `app.js` na mesma pasta onde está o seu
+5. Crie um novo arquivo chamado `app.js` na mesma pasta onde está o seu
    HTML
 6. Inclua no atributo `src` ao elemtento `script` com o caminho do arquivo
    `app.js`
@@ -197,11 +184,4 @@ Os passos são os seguintes:
 
 A seguir o vídeo:
 
-[![Minha primeira página cpm
-JS](https://img.youtube.com/vi/SSiWsDoK4GE/0.jpg)](https://www.youtube.com/watch?v=SSiWsDoK4GE)
-
-<!--
-## Sube tu página a GitHub Pages
-
-y deplegándola en [GitHub Pages](https://pages.github.com/)
--->
+[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/b01097fed7f8868ca3f815a940ab9761551e3d78.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/c7dis0vp80?wvideo=c7dis0vp80)
