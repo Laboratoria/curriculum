@@ -164,7 +164,7 @@ fonte em inglês), no qual você pode colocar a caminho do seu arquivo JavaScrip
 ## Adicionando interação à sua página
 
 Agora é sua vez! Continue assistindo os vídeos e seguindo os passos para agregar
-interação a seu site.
+interação ao seu site.
 
 Os passos são os seguintes:
 

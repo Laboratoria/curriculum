@@ -290,7 +290,7 @@ Algumas tags não contêm conteúdo diretamente; em vez disso, eles recebem uma
 _fonte_ da qual obter o conteúdo. Isto é o que acontece com o elemento `img`. O
 atributo `src` fornece o caminho do conteúdo. Neste caso, ao ir para o endereço
 [http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
-vamos encontrar a foto de Mariana com Mark e Barack :\)
+vamos encontrar a foto de Mariana com Mark e Barack 😀
 
 ![Foto Mari](https://camo.githubusercontent.com/23368379392933f09175126182a4da1bfe8d6dfa/687474703a2f2f6364652e322e74726f6d652e70652f696d612f302f312f312f382f352f313138353339372e6a7067)
 
