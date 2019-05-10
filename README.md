@@ -179,7 +179,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 #### Proyecto: [Plataforma de ventas en línea](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/marketplace.md)
 
-Para este reto inicial del track, las estudiantes trabajan con pequeños 
+Para este reto inicial del track, las estudiantes trabajan con pequeños
 emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
 Para ello, tienen que entender los objetivos de negocio y también las
 necesidades de los usuarios/clientes de estos emprendimientos. Durante este
@@ -195,7 +195,6 @@ Marvel.
 
 #### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
 
-
 Este es un proyecto de rediseño. Basándose en la data de los resultados
 que está teniendo una aplicación de servicios financieros, las estudiantes
 buscan mejorar la experiencia de la misma.
@@ -210,7 +209,6 @@ En este reto, las estudiantes trabajan en distintos casos reales
 propuestos por empresas de distintos rubros y tamaños. Anteriores retos
 han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
 Magical Startups, Laboratoria, entre otras.
-
 
 * Duración estimada: 2 semanas.
 * Equipos: Depende de proyectos.
@@ -271,9 +269,9 @@ nativas.
 
 #### Proyecto: Service  Design
 
-Con la ayuda de consultora especializadas como Amable o Touchpointg,
+Con la ayuda de consultoras especializadas como Amable o Touchpointg,
 las estudiantes se sumergen en el mundo del service design. Entendiendo
-problemas de negocio desde una visión más holística y utilizando 
+problemas de negocio desde una visión más holística y utilizando
 nuevas herramientas como el Service BluePrint.
 
 * Duración estimada: 2 semanas.
@@ -286,8 +284,7 @@ nuevas herramientas como el Service BluePrint.
 Durante 2 semanas, las estudiantes trabajan en retos de empresas, siguienndo
 la metodología de Design Sprints. Durante la primera semana entienden la
 metodología mediante un reto simulado, y durante la segunda semana ponen en
-práctica facilitan un Design Sprint con equipos de producto de distintas
-empresas.
+práctica un Design Sprint con equipos de producto de distintas empresas.
 
 * Duración estimada: 2 semanas.
 * Equipos: Depende de proyectos.
@@ -295,7 +292,7 @@ empresas.
 
 #### Proyecto: Visual Design
 
-En este reto buscamos mejorar las habilidades  de diseño visual de interfaces.
+En este reto buscamos mejorar las habilidades de diseño visual de interfaces.
 Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
 de una plataforma de venta de entradas a espectaculos (tradicional) para
 ayudarlos a competir con nuevos actores en la industria como Stubhub,
@@ -305,8 +302,7 @@ consistentes para mobile, desktop y smartwatches.
 * Duración estimada: 2 semanas.
 * Equipos: Depende de proyectos.
 * Tópicos: Design Systems, Grid systems, atomic design, componentes, consistencia,
-  jerarquía, responsive design. 
-
+  jerarquía, responsive design.
 
 ***
 
