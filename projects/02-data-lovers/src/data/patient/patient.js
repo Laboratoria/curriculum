@@ -1,4 +1,4 @@
-var PATIENT = {
+const PATIENT = {
   "resourceType": "Bundle",
   "id": "d56936e5-ad97-4ef1-ad4f-518497688457",
   "meta": {

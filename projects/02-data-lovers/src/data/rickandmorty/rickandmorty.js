@@ -1,4 +1,4 @@
-var RICKANDMORTY = {
+const RICKANDMORTY = {
   "info": {
     "count": 493,
     "pages": 25,
