@@ -1,7 +1,7 @@
 # Quiz #2: requizzing
 
 - Tipo: `quiz`
-- Formato: `guiado`
+- Formato: `individual`
 - Duração: `30min`
 
 ## Objetivos

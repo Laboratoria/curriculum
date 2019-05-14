@@ -208,9 +208,9 @@ elementos flutuantes.
 
 Leia sobre o porque usar e como usar _clearfix_ aqui:
 
-- [Para o que serve o clearfix? - 
+- [Para o que serve o clearfix? -
 Origamid](https://www.origamid.com/codex/para-que-serve-o-clearfix/)
-- [CSS 
+- [CSS
 Clearfix](https://blog.samuelsimoes.com/html-css/2013/05/12/css-clearfix.html)
 
 ## Leituras complementares
@@ -220,7 +220,7 @@ Position:
 - [Position CSS - Devmedia]
 (https://www.devmedia.com.br/position-css-definindo-a-posicao-
 de-elementos-com-fixed-relative-e-absolute/37700)
-- [Posicionamento relativo e absoluto - 
+- [Posicionamento relativo e absoluto -
 Maujor](http://www.maujor.com/tutorial/absrel.php)
 
 Float:

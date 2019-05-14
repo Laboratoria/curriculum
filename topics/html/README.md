@@ -12,7 +12,7 @@ rota de aprendizado.
 
 * Conhecer os principais elementos e tags HTML
 * Se aprofundar nos elementos HTML
-* Conhecer quem são e para qie servem os atributos dos elementos HTML
+* Conhecer quem são e para que servem os atributos dos elementos HTML
 * Conhecer elementos HTML semânticos
 
 ## Pré-requisitos

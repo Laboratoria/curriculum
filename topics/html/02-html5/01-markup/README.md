@@ -38,9 +38,9 @@ temos o seguinte:
 
 HTML5 é a última versão do HTML. Ele apresenta dois conceitos diferentes:
 
-- Se trata de uma nova versão de HTML, com novos elemetnos, atributos e
+- Se trata de uma nova versão de HTML, com novos elementos, atributos e
   comportamentos.
-- Contem um conjunto mais amplo de tecnologias que permite aos sites e apps
+- Contém um conjunto mais amplo de tecnologias que permite aos sites e apps
   serem mais diversos e de maior alcance. A este conjunto damos o nome de:
   **HTML5**.
 
@@ -77,7 +77,7 @@ inicial `<p>` e termina com a tag final `</p>`. O texto entre as tags de
 abertura e fechamento é o _conteúdo_ do elemento.
 
 ![Tag de
-exemplo](https://i.imgur.com/urQurOX.jpg?1)
+exemplo](https://user-images.githubusercontent.com/11894994/57495817-43414780-72a6-11e9-9fb5-8ee6cab80f08.jpg)
 
 ## Aninhamento de HTML
 
@@ -109,7 +109,7 @@ parágrafo `p` contém dois elementos adicionais (outras crianças): `em` ou
 Podemos visualizar esse conceito de _aninhamento_ de html da seguinte maneira:
 
 ![Aninhamento
-HTML](http://www.mrinitialman.com/Library/HTML/Pictures/HTML-Markup_Basics/html_nesting.png)
+HTML](https://camo.githubusercontent.com/b08bf1484cdde3bc5b3e45b71d414639f317d6a1/687474703a2f2f7777772e6d72696e697469616c6d616e2e636f6d2f4c6962726172792f48544d4c2f50696374757265732f48544d4c2d4d61726b75705f4261736963732f68746d6c5f6e657374696e672e706e67)
 
 Neste exemplo, vemos elementos que já devem ser familiares para você. Você sabe
 sobre a tag `DOCTYPE`, elementos `head`, `body`, `title`, `h1` e `p`. Alguns
@@ -119,14 +119,14 @@ seja exibido como texto em _negrito_.
 
 Ao abrir este documento no navegador, teremos o seguinte:
 
-![HTML aninhado](https://i.imgur.com/OHB7zz8.png)
+![HTML aninhado](https://user-images.githubusercontent.com/25906896/39716135-1c508578-51f5-11e8-97e4-074490066dac.png)
 
 ## Elementos em bloco vs. inline
 
 Vamos voltar para a leitura sobre HTML da [Mozilla Developer
 Network](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started):
 
-> Há duas categorias importantes no HTML, que você precisa conhecer — elementos
+>Há duas categorias importantes no HTML, que você precisa conhecer — elementos
 >em bloco e elementos inline.
 >
 >**Elementos em bloco** formam um bloco visível na página. Eles aparecerão em
@@ -161,7 +161,7 @@ Vamos ver um exemplo:
 
 Ao visualizar o documento anterior no navegador, teremos:
 
-![Bloco vs. inline](https://i.imgur.com/fBYvP1H.png)
+![Bloco vs. inline](https://user-images.githubusercontent.com/11894994/57496406-21958f80-72a9-11e9-8333-1c869f793a4d.png)
 
 Tanto `em` quanto eles `strong` são elementos inline. Portanto, os primeiros
 três elementos são colocados na mesma linha, um após o outro, sem espaço entre
@@ -230,7 +230,9 @@ seu elemento. Por exemplo, se quisermos que o conteúdo dentro de um elemento `p
 seja vermelho em um fundo amarelo e com uma borda preta, fazemos:
 
 ```html
-<p style="color:red; background-color: yellow; border: 1px solid black;">Código <em>que</em> <strong>transforma</strong></p>
+<p style="color:red; background-color: yellow; border: 1px solid black;">
+  Código <em>que</em> <strong>transforma</strong>
+</p>
 ```
 
 Ao visualizar o documento anterior no navegador, teremos:
@@ -258,7 +260,7 @@ ou até mesmo não exibido:
 
 A visão no navegador disto seria:
 
-![Exemplo de estilo](https://i.imgur.com/Mv6rAzy.png)
+![Exemplo de estilo](https://user-images.githubusercontent.com/11894994/57496514-da5bce80-72a9-11e9-986d-1042beb95efd.png)
 
 O texto _"em linha"_ é exibido em linha (ou seja, na mesma linha do texto
 anterior _"Um texto pode ser exibido"_ ) porque lembramos que o elemento
@@ -288,9 +290,9 @@ Algumas tags não contêm conteúdo diretamente; em vez disso, eles recebem uma
 _fonte_ da qual obter o conteúdo. Isto é o que acontece com o elemento `img`. O
 atributo `src` fornece o caminho do conteúdo. Neste caso, ao ir para o endereço
 [http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
-vamos encontrar a foto de Mariana com Mark e Barack :\)
+vamos encontrar a foto de Mariana com Mark e Barack 😀
 
-![Foto Mari](http://cde.2.trome.pe/ima/0/1/1/8/5/1185397.jpg)
+![Foto Mari](https://camo.githubusercontent.com/23368379392933f09175126182a4da1bfe8d6dfa/687474703a2f2f6364652e322e74726f6d652e70652f696d612f302f312f312f382f352f313138353339372e6a7067)
 
 Outro item que não tem uma tag de fechamento é `br`. [Leia a documentação do MDN
 sobre `br`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/br). Para
@@ -374,7 +376,7 @@ Vejamos um exemplo:
 
 Ao visualizar o exemplo anterior no navegador, temos:
 
-![Div e Span](https://i.imgur.com/frH87y2.png)
+![Div e Span](https://user-images.githubusercontent.com/11894994/57496615-52c28f80-72aa-11e9-9b69-c2a5d5c33ea3.png)
 
 Veja como agrupamos tudo relacionado a um país em um `div`. Isso é útil porque
 ele cria seções que seguem uma ordem lógica. Mas, mais importante, ter essas

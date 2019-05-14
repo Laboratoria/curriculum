@@ -9,7 +9,7 @@
 ## Objetivos de Aprendizagem
 
 - Conhecer e entender o que são os frameworks e como são úteis em nosso trabalho
-  quando vamos criar um sítio web.
+  quando vamos criar um site.
 
 ## O que é Framework?
 
@@ -37,7 +37,7 @@ tempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e
 esforço de criação e responder à pergunta _Por que reinventar a roda se você
 pode projetar um carro melhor?
 
-Isso não significa que são substitutos para entender CCS ou que não mexeremos
+Isso não significa que são substitutos para entender CSS ou que não mexeremos
 com CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos
 e estilos incríveis e totalmente personalizados, e conhecer muito melhor CSS!
 
@@ -59,14 +59,14 @@ Algumas das ferramentas que podemos encontrar nos frameworks de CSS são:
   corretamente em qualquer versão de qualquer navegador existente.
 
 ![componentes de
-frameworks](https://lh3.googleusercontent.com/-VklSSe3lPpE/WXeOFf__wqI/AAAAAAAAGbI/RnPVJQHJbDoc-NHkJYSGzE-jBtYXMjL2QCLcBGAs/s620/bootstrap-02.png)
+frameworks](https://camo.githubusercontent.com/1049c6b32557b0b3fb57f64562ac126bb1a90fe3/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d566b6c535365336c5070452f5758654f46665f5f7771492f41414141414141414762492f526e50564a51484a62446f632d4e486b4a5953477a452d6a427459584d6a4c3251434c63424741732f733632302f626f6f7473747261702d30322e706e67)
 
 > Utilizar um framework só é uma boa ideia se ele faz o que você quer no sítio
 > que você fizer.
 
 Alguns dos frameworks mais conhecidos são:
 
-- [Bootstrap(na sua versão 3)](https://getbootstrap.com/docs/3.3/)
+- [Bootstrap (versão 4.3)](https://getbootstrap.com/)
 - [Materialize](http://materializecss.com/)
 - [Foundation](https://foundation.zurb.com/)
 - [Material Lite](https://getmdl.io/index.html)

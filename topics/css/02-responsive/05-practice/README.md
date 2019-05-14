@@ -1,4 +1,4 @@
-# Exercícios práticos
+# Exercícios Livres
 
 - Tipo: `exercício`
 - Formato: `individual`
@@ -12,14 +12,12 @@
 
 ## Enunciados
 
-A seguir há alguns exercícios práticos que serão resolvidos, passo a passo, por
-sua equipe de professoras em uma sessão presencial (oficina). Sugerimos que você
-tente resolver os exercícios por sua conta ou em equipe antes da seção
-presencial. Assim, você já virá com suas dúvidas específicas e estará
-familiarizada com os desafios. Quiçá, poderá apresentar sua solução para a turma
-e assim ajudar suas colegas :)
+Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
+eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E
+se quiser pode apresentar a sua solução para a sala e ajudar as suas
+companheiras 😁
 
-Você deve subir todos seus exercícios no `GitHub` publicá-los em `gh-pages`.
+Você deve super o seu exercício para o GitHub e publicar no `gh-pages`.
 
 ### 1. Replicar o grid a seguir
 
@@ -69,7 +67,10 @@ Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1
 Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
 
 ***
-
+<!-- TODO: Create a portuguese version
 Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
 
-[![Criando um sistema de grid](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+Criando um sistema de grid
+https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg
+https://www.youtube.com/watch?v=uUGHF0dM6GA
+-->

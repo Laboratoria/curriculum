@@ -21,7 +21,7 @@
 \(modelo da caixa\). É muito fácil, mas entendê-lo bem é vital para poder fazer
 um bom layout do site.
 
-![modelo de caixa](https://i.imgur.com/DX24K0u.png)
+![modelo de caixa](https://camo.githubusercontent.com/9ea328b7d3e738e996f6a9e0f9482b5a1234c0aa/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f65313030316466376432313861396138613836373064383836323866306363356f2e706e67)
 
 ### O que é o modelo da caixas?
 
@@ -46,7 +46,7 @@ Como um exemplo, temos o seguinte quadro, que mostra três caixas retangulares
 que são criados pelos três tags HTML usados: `<p>`, `<strong>` e novamente
 `<p>`.
 
-![modelo de caixa](https://i.imgur.com/UUFCFnT.png)
+![modelo de caixa](https://user-images.githubusercontent.com/11894994/57650283-daf1af00-75a0-11e9-9b8b-25eaa772a485.png)
 
 ### Elementos que compõem o modelo de caixas
 
@@ -54,7 +54,7 @@ As partes que compõem cada caixa consistem no **conteúdo real**, o
 **preenchimento**, as **bordas** e as **margens**; podemos ver a imagem abaixo
 que ilustra o modelo de caixa:
 
-![modelo de caixa](https://i.imgur.com/S3cSEn3.png)
+![modelo de caixa](https://camo.githubusercontent.com/59ebe79e4a36ae634e28968835b896c40370816b/687474703a2f2f696d6167652e6962622e636f2f63515a7854772f6d6f64656c6f5f44655f43616a612e706e67)
 
 Explicação de cada parte que compõe cada caixa:
 
@@ -76,7 +76,7 @@ _width_ e  _height_\).
 - **Bottom**: lado inferior
 - **Left**: lado esquerdo
 
-![modelo de caixa](https://i.imgur.com/G8QTuLZ.png)
+![modelo de caixa](https://camo.githubusercontent.com/351982c1d9ce3a34111ee1fb238c3408be735ba8/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366364393962383561646561376633313036373030636439666661343733666f2e706e67)
 
 ## Preenchimento, Borda e Margem
 
@@ -85,7 +85,7 @@ _width_ e  _height_\).
 _Padding_ é o **preenchimento**, ou seja, o espaço livre opcional entre o
 _conteúdo_ e a _borda_.
 
-![preenchimento](https://i.imgur.com/DsOs2eg.png)
+![preenchimento](https://user-images.githubusercontent.com/11894994/57650391-12605b80-75a1-11e9-9aec-7c643f9a802b.png)
 
 Seu valor pode ser definido em: **unidades de medida**, **porcentagem** ou com o
 valor `inherit` \(especifica que o _padding_ deve ser herdado do elemento pai\).
@@ -172,7 +172,7 @@ significado:
 É a **linha** que contém o _conteúdo_ e o _preenchimento_. É aplicável a todos
 os elementos.
 
-![borda](https://i.imgur.com/5sFCFfr.png)
+![borda](https://user-images.githubusercontent.com/11894994/57650430-2ad07600-75a1-11e9-9b78-e770ee6206bf.png)
 
 Para cada borda você pode definir sua largura ou espessura, sua cor e seu
 estilo, portanto, o CSS  define diferentes propriedades relacionadas às bordas.
@@ -195,7 +195,7 @@ de borda seja explicitamente definido.
 Na imagem a seguir podemos ver os diferentes estilos de borda e a _palavra
 reservada_ para cada um deles:
 
-![estilos das bordas](https://i.imgur.com/ZM7E2QH.png)
+![estilos das bordas](https://camo.githubusercontent.com/5e32931f4471bd9bea864c69dae9c77765b3e925/68747470733a2f2f6c656e6775616a656373732e636f6d2f702f6373732f70726f70696564616465732f626f726465722d7374796c65732e706e67)
 
 #### Cor
 
@@ -295,7 +295,7 @@ div {
 
 Controla a largura da caixa ou um elemento.
 
-![largura](https://i.imgur.com/awjMvoa.png)
+![largura](https://user-images.githubusercontent.com/11894994/57650537-6a975d80-75a1-11e9-92ea-02d5fca1aa15.png)
 
 O seu valor pode ser definido em: **unidades de medida**, **porcentagem**,
 `auto` ou `inherit`. Sendo como valor inicial `auto`. A propriedade **width**
@@ -312,7 +312,7 @@ div {
 
 Controla a altura da caixa ou um elemento.
 
-![altura](https://i.imgur.com/b58DzO1.png)
+![altura](https://user-images.githubusercontent.com/11894994/57650560-76831f80-75a1-11e9-92cb-644752f5ed93.png)
 
 Seu valor pode ser definido em: **Unidades de Medida**, **porcentagem**, `auto`
 ou `inherit`. Sendo como valor inicial `auto`. Como em _width_, a propriedade
@@ -346,7 +346,7 @@ div {
 }
 ```
 
-![content-box](https://i.imgur.com/B7EPAii.png)
+![content-box](https://camo.githubusercontent.com/b47d9eaa6f87d7dd118ecc89a2b7b740404b7e67/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f39393538656561303032366636643930616531636439626530663437663265626f2e706e67)
 
 #### Valor "border-box"
 
@@ -359,7 +359,7 @@ div {
 }
 ```
 
-![border-box](https://i.imgur.com/qtxE1Mc.png)
+![border-box](https://camo.githubusercontent.com/55fe809da8e037eed91bf118eaaed6ba27eb3829/687474703a2f2f696d6167652e6962622e636f2f6e41626354772f626f726465725f626f782e706e67)
 
 > Também podemos usar o valor `inherit`, que é o valor que herda essa
 > propriedade de seu elemento pai.
@@ -369,7 +369,7 @@ div {
 ### O que é a propriedade _display_?
 
 Estabelece o tipo de caixa gerada por um elemento.
-![display](https://i.imgur.com/WL7jbEW.png)
+![display](https://camo.githubusercontent.com/184399b861f114f11d1af8295354091b5b570dde/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37666664346330633333666166623464383938613136613839333561303639376f2e706e67)
 
 ### Valores
 
@@ -379,7 +379,7 @@ A propriedade `display: inline` faz com que o elemento tenha como natureza se
 posicionar em linha, ou seja, um elemento é colocado ao lado do outro e,
 portanto, ocupa apenas o espaço necessário para mostrar seu conteúdo:
 
-![inline](https://i.imgur.com/ogvJbq1.png)
+![inline](https://camo.githubusercontent.com/0091dbe812aea6ab13f3aea0c048b307d236ac7e/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366464633864623661646463616332356161663564316237393237353233326f2e706e67)
 
 Suas características são:
 
@@ -397,7 +397,7 @@ A propriedade `display: block` faz com que o elemento tenha uma natureza
 posicionada em blocos, para que sempre inicie em uma nova linha e ocupe todo o
 espaço disponível na linha, mesmo que seu conteúdo não ocupe todo o site:
 
-![block](https://i.imgur.com/iIcfxcn.png)
+![block](https://camo.githubusercontent.com/949a1bd1cbf2d1fc40fd17d3e56b81c16f595363/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f30613762323138346165373635373530653339323961663634383234373362666f2e706e67)
 
 Suas características são:
 
@@ -414,7 +414,7 @@ A propriedade `display: inline-block` combina o melhor dos dois mundos, fazendo
 com que os elementos se posicionem em linha, mas mantendo sua natureza de bloco,
 ou seja, eles podem ser alinhados:
 
-![inline-block](https://i.imgur.com/caHTWId.png)
+![inline-block](https://camo.githubusercontent.com/49ca770293bb31c21cb1713524f11e80702daf56/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37383932663037363339313561353836353238643336353539643736613435316f2e706e67)
 
 #### Valor "none"
 
@@ -429,16 +429,16 @@ uma diferença muito importante:
 - `display: none` remove o elemento definitivamente do espaço ocupado e é
   substituído pelos elementos adjacentes, como se o elemento não existisse mais.
 
-  ![none](https://i.imgur.com/nW8Oe0a.png)
+  ![none](https://user-images.githubusercontent.com/11894994/57650731-d37ed580-75a1-11e9-9e09-d5561152782f.png)
 
 - `visibility: hidden` oculta o elemento, mas ainda mantém o espaço ocupado,
   enquanto os elementos adjacentes mantêm sua localização.
 
-  ![hidden](https://i.imgur.com/n2YNXF3.png)
+  ![hidden](https://user-images.githubusercontent.com/11894994/57650732-d37ed580-75a1-11e9-857b-8dbe55ad294c.png)
 
 #### Resumo das características do Display
 
-![Resumo do display](https://i.imgur.com/WlpD4H0.png)
+![Resumo do display](https://user-images.githubusercontent.com/11894994/57650733-d37ed580-75a1-11e9-902f-4830eca6fb9c.png)
 
 ## Leituras complementares
 
