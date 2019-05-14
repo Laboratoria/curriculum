@@ -1,6 +1,6 @@
 # Exercícios Livres
 
-* Tipo: `prática`
+* Tipo: `exercício`
 * Formato: `individual`
 * Duração: `4h`
 
