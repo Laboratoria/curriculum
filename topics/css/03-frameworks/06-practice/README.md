@@ -1,41 +1,33 @@
-# Aula Prática
+# Exercícios Livres
 
-- Tipo: `oficina`
-- Formato: `guiado`
+- Tipo: `práctica`
+- Formato: `individual`
 - Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Praticar programando junto à sua equipe de professoras resolvendo os
-  exercícios com a ajuda de `frameworks css`
 - Testar, praticar e praticar mais.
 
 ## Enunciados
 
-A seguir há um exercício prático que será resolvido, passo a passo, por sua
-equipe de professoras em uma sessão presencial (`oficina`). Sugerimos que você
-tente resolver o exercício por sua conta ou em equipe **antes** da seção
-presencial. Assim, você já virá com suas dúvidas específicas e estará
-familiarizada com os desafios. Quiçá, poderá apresentar sua solução para a turma
-e assim ajudar suas colegas :)
+Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
+eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E
+se quiser pode apresentar a sua solução para a sala e ajudar as suas
+companheiras 😁
 
-Você deve subir o exercício no `GitHub` e publicá-lo em `gh-pages`.
+Você deve super o seu exercício para o GitHub e publicar no `gh-pages`.
 
-### 1. Love Love Panda
+### 1. Template de Bootstrap
 
-Recrie a seguinte imagem usando o bootstrap:
+Recrie a seguinte imagem fazendo uso dos componentes do Bootstrap.
 
-![Love Love
-Panda](https://user-images.githubusercontent.com/25912510/54453586-a0e16980-4725-11e9-934e-eec1b991d18c.png)
+![template](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png)
 
-<!-- ### 1. Template de Bootstrap
+### 2. Love Love Panda
 
-Volte a fazer sua página para amantes dos pandas mas agora usando a *grid* e
-elementos ou componentes do framework de Materialize. Reutilize as imagens de
-seu desafio anterior.
+Volte a fazer o seu site para amantes de pandas, mas agora usando o grid e
+componentes do Materialize, utilize as imagens do desafio passado.
 
-![Love Love
-Panda](https://user-images.githubusercontent.com
-/25912510/54453586-a0e16980-4725-11e9-934e-eec1b991d18c.png)
+![Love Love Panda](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png)

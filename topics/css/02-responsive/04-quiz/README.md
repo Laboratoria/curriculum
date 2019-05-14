@@ -2,7 +2,7 @@
 
 - Tipo: `quiz`
 - Formato: `individual`
-- Duração: `30min`
+- Duração: `15min`
 
 ## Objetivos
 

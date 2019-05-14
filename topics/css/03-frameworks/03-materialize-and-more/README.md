@@ -15,7 +15,7 @@
 Bootstrap não poderia ser o único framework a existir. Aqui veremos outros que
 são bastante populares e fortes competidores de Bootstrap:
 
-![Materializecss](https://i.pinimg.com/originals/11/32/de/1132de743af11b94448b08e4e69e7bdf.jpg)
+![Materializecss](https://camo.githubusercontent.com/a8e94368a6c7f884777a33a3b88c190646278053/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f31312f33322f64652f31313332646537343361663131623934343438623038653465363965376264662e6a7067)
 
 **Materialize** é um framework de CSS baseado em *Material Design*. Com uma
 série de ferramentas e componentes predefinidos como boas práticas, botões,
@@ -26,7 +26,7 @@ fonte Roboto proposto pelo Google em seu estilo de projeto.
 [Materialize](http://materializecss.com) também possui quatro tipos diferentes
 de colunas: **s, m, l y, xl**.
 
-![Foundation](https://i3.ytimg.com/vi/lFrpnk0Oo_8/maxresdefault.jpg)
+![Foundation](https://camo.githubusercontent.com/0c620e316ae8cd1af872ae9d2b5f67cab36576f2/68747470733a2f2f69332e7974696d672e636f6d2f76692f6c4672706e6b304f6f5f382f6d617872657364656661756c742e6a7067)
 
 **Foundation** é um framework responsivo que inclui componentes de tipografia,
 formulários, botões, barras de navegação e outros, assim como extenções

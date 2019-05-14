@@ -19,26 +19,25 @@ Inicialmente foi criado como uma solução interna para o Twitter e posteriormen
 foi liberado ao público em agosto de 2011 como um projeto *open source* no
 GitHub.
 
-![Bootstrap](https://cdn-images-1.medium.com/max/800/1*aJ_JLvfVyiQj5iYryIulhw.jpeg)
+![Bootstrap](https://camo.githubusercontent.com/78b3550b5fec5f858d55b4ba4372d1e03b6f1dea/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a614a5f4a4c7666567969516a356959727949756c68772e6a706567)
 
 Foi feito para que possa ser utilizado por pessoas de todos os níveis, por
 dispositivos de todas as formas e projetos de todos os tamanhos.
 
-Bootstrap tem duas versões para trabalhar atualmente (versão 3 e 4). A mais
-popular é a versão 3 e é a que aprenderemos. Podemos encontrar o Bootstrap
-[aqui](https://getbootstrap.com/docs/3.3/).
+Bootstrap tem várias versões. A mais popular é a versão 4 e é a que
+aprenderemos. Podemos encontrar o Bootstrap [aqui](https://getbootstrap.com/docs).
 
 Podemos utilizar o Bootstrap em nossos projetos de diferentes formas, seja
 adicionando o código CDN ao nosso HTML para usá-lo de maneira remota ou baixando
 o Bootstrap na sua página web.
 
-![Bootstrap](https://user-images.githubusercontent.com/25912510/54452300-d9337880-4722-11e9-873d-2017d32f5192.png)
+![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/c6232fc0a639688fc216c72d17e325a588abae9d/04-social-network/01-css-frameworks/02-bootstrap/bcdn.png)
 
 Se utilizarmos as opções de baixar o Bootstrap, devemos descompactar e adicionar
 os arquivos do framework ao projeto. Além disso, devemo *linkar* todos no HTML
 para que funcione.
 
-![Bootstrap](https://cdn-images-1.medium.com/max/800/0*NuuR2bjpZck1wC6g.)
+![Bootstrap](https://camo.githubusercontent.com/095b7f079231a6d77cb81186e27344f739cba276/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a4e75755232626a705a636b31774336672e)
 
 Falando em CDN, precisamos entender: __O que é CDN?__
 
@@ -72,7 +71,7 @@ Você se conecta a algum lugar mais próximo. Como os Estado Unidos.
 
 Analize a imagem a seguir:
 
-![cdn-example](http://ba-devlab.com/wp-content/uploads/2016/04/cdn.png)
+![cdn-example](https://camo.githubusercontent.com/06c4b1519427a89f49cc81f80f24c142ef65a55f/687474703a2f2f62612d6465766c61622e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30342f63646e2e706e67)
 
 Se estiver na África, não se conecta à Europa. __Conecta-se à África.__
 
@@ -88,7 +87,7 @@ pouco de tudo o que nos oferece:
 
 Uma grid, ícones, botões, barras de navegação, etc.
 
-![Bootstrap](http://www.boss-development.biz/sites/default/files/bootstrap-02.png)
+![Bootstrap](https://camo.githubusercontent.com/c681e09ad23614d698347d94477054770a8a4e56/687474703a2f2f7777772e626f73732d646576656c6f706d656e742e62697a2f73697465732f64656661756c742f66696c65732f626f6f7473747261702d30322e706e67)
 
 A grid de Bootstrap é composta por 12 colunas e conta com os elementos típicos
 de um *grid system* (como *rows* e *columns*). Também possui tipos de
@@ -111,7 +110,7 @@ Para utilizar o que já nos oferece nosso framework, só necessitamos ir à sua
 página, procurar o componente que queremos utilizaer e *copiar e colar* em nosso
 HTML o código.
 
-![Bootstrap-btn](https://user-images.githubusercontent.com/25912510/54452299-d9337880-4722-11e9-9ace-126ab8471fde.PNG)
+![Bootstrap-btn](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/02-bootstrap/btn-example.PNG)
 
 E assim fácil e maravilhosamente já temos nossos botões.
 

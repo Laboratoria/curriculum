@@ -28,7 +28,7 @@
 ### 2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única `row`, a classe para usar em uma grid de 12 colunas para cada coluna será `.col-`
 
 ![Exemplo da
-*grid*](https://cdn.tutsplus.com/webdesign/uploads/2013/08/grids-1.jpg)
+*grid*](https://user-images.githubusercontent.com/11894994/57672459-94c33c80-75ee-11e9-9d0e-9fc11258bb3b.jpg)
 
 #### Opções
 
@@ -122,7 +122,7 @@
 ### 8) Quando desenvolvemos um sítio responsivo, mas encontramos o caso do dispositivo móvel à esquerda, o que devemos adicionar para que apareça como o dispositivo móvel da direita?
 
 ![Missing
-viewport](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/viewport.png)
+viewport](https://camo.githubusercontent.com/11e38991707aa776ed0768f201de894123959f5f/68747470733a2f2f646576656c6f706572732e676f6f676c652e636f6d2f7365617263682f6d6f62696c652d73697465732f696d67732f6d6f62696c652d73656f2f76696577706f72742e706e67)
 
 #### Opções
 

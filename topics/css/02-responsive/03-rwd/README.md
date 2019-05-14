@@ -21,7 +21,7 @@ Como se faz isto? Utilizando HTML e CSS para trocar o tamanho, ocultar, reduzir,
 ampliar ou mover o conteúdo para que se veja corretamente em qualquer tela.
 
 ![Exemplo de Web Design
-Responsivo](https://designmodo.com/wp-content/uploads/2011/10/4.jpg)
+Responsivo](https://camo.githubusercontent.com/006d1973c0743fe6ff1bb3fd1191a5b55e292fe9/68747470733a2f2f64657369676e6d6f646f2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031312f31302f342e6a7067)
 
 Os elementos básicos necessários para construir uma página com Web Design
 Responsivo são ao menos os três a seguir:

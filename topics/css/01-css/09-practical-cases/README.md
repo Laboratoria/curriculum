@@ -22,11 +22,11 @@ replicar:
 
 ### 1. Menu Vertical
 
-![Menu vertical](https://i.imgur.com/m6WSYHE.gif)
+![Menu vertical](https://user-images.githubusercontent.com/11894994/57671812-b66ef480-75eb-11e9-8c72-802872bfa5df.gif)
 
 ### 2. Menu horizontal
 
-![Menu horizontal](https://i.imgur.com/S8KxWcj.gif)
+![Menu horizontal](https://user-images.githubusercontent.com/11894994/57671833-c8509780-75eb-11e9-9621-c0b1de81e027.gif)
 
 ## Soluções
 

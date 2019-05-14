@@ -55,7 +55,7 @@ que seria o eixo vertical.
 
 ## Propriedades para o elemento-mãe
 
-![container flex](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
+![container flex](https://user-images.githubusercontent.com/11894994/57671699-482a3200-75eb-11e9-8e48-58d93e6138c4.png)
 
 Quando utilizamos o _Flexbox_, é muito importante saber quais propriedades são
 declaradas no elemento-mãe (por exemplo, uma `div` que irá conter os elementos
@@ -74,7 +74,7 @@ direita em `row`, cima para baixo em `column`, ou no sentido inverso utilizando
   }
 ```
 
-![flex-direction](https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg)
+![flex-direction](https://user-images.githubusercontent.com/11894994/57671702-482a3200-75eb-11e9-870e-e80dd50724e9.png)
 
 Você pode definir se os elementos serão forçados a ficar em uma mesma linha ou
 se eles irão quebrar em várias linhas com a propriedade **flex-wrap**.
@@ -85,7 +85,7 @@ se eles irão quebrar em várias linhas com a propriedade **flex-wrap**.
   }
 ```
 
-![flex-wrap](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
+![flex-wrap](https://user-images.githubusercontent.com/11894994/57671703-482a3200-75eb-11e9-9c49-7e8eef76d137.png)
 
 A propriedade **flex-flow** é uma propriedade _shorthand_ (uma mesma declaração
 inclui vários valores relacionados a uma mesma propriedade) que inclui
@@ -100,7 +100,7 @@ O **justify-content** define o alinhamento das filhas ao longo do eixo principal
   }
 ```
 
-![justify-content](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
+![justify-content](https://user-images.githubusercontent.com/11894994/57671705-482a3200-75eb-11e9-9b85-c2382736a79c.png)
 
 **align-items** define o comportamento padrão de como _flex items_ são
 alinhados de acordo com o eixo vertical (_cross axis_). De certa forma,
@@ -112,7 +112,7 @@ funciona de forma similar ao `justify-content`, porém no eixo perpendicular.
   }
 ```
 
-![align-items](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
+![align-items](https://user-images.githubusercontent.com/11894994/57671706-48c2c880-75eb-11e9-8bf3-2c5f7c4f3195.png)
 
 **align-content** alinha o conteúdo dentro do container quando há espaço extra
 no eixo vertical, similar à forma que `justify-content` alinha ítens
@@ -124,7 +124,7 @@ individuais dentro do eixo principal.
   }
 ```
 
-![align-content](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
+![align-content](https://user-images.githubusercontent.com/11894994/57671708-48c2c880-75eb-11e9-8de4-f3c0868cdbbf.png)
 
 ## Propriedades para elementos-filhas
 
@@ -159,7 +159,7 @@ A propriedade **order** determina o lugar que os elementos aparecerão.
   }
 ```
 
-![order](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
+![order](https://user-images.githubusercontent.com/11894994/57671711-48c2c880-75eb-11e9-8d43-c33172bc5390.png)
 
 **flex-grow** define a habilidade de um elemento-filha de "crescer" e ocupar
 uma área maior, se necessário. Por exemplo, se em uma lista de 3 filhas, 2
@@ -172,7 +172,7 @@ crescerá para ocupar o dobro do tamanho das irmãs.
   }
 ```
 
-![grow](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
+![grow](https://user-images.githubusercontent.com/11894994/57671710-48c2c880-75eb-11e9-8d7e-d9adddcd738f.png)
 
 **align-self** permite que o alinhamento padrão (definido por `align-items`)
 seja sobrescrito para ítens individuais.
@@ -183,7 +183,7 @@ seja sobrescrito para ítens individuais.
   }
 ```
 
-![align-self](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
+![align-self](https://user-images.githubusercontent.com/11894994/57671709-48c2c880-75eb-11e9-99e1-cc3727b85fca.png)
 
 Existem outras propriedades para as filhas, como `flex-shrink`, `flex-basis` e
 a shorthand `flex`, você pode pesquisar sobre elas para aumentar seu repertório.

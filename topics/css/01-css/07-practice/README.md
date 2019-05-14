@@ -18,7 +18,6 @@ se quiser pode apresentar a sua solução para a sala e ajudar as suas
 companheiras 😁
 
 Você deve super o seu exercício para o GitHub e publicar no `gh-pages`.
-Debes subir todos tus ejercicios a GitHub y publicarlos en gh-pages.
 
 ### 1. A quadra
 

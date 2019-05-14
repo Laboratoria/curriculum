@@ -18,11 +18,10 @@ bloco de propriedades CSS que serão executados na nossa página web **somente s
 as condições dadas à *@media* são verdadeiras**.
 
 ![Sintaxe de uma *media
-query*](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg)
+query*](https://camo.githubusercontent.com/98f619aafcc0fc3716a78a13e293501d68d20ec1/687474703a2f2f7074676d656469612e70656172736f6e636d672e636f6d2f696d616765732f63686170345f393738303332313838383933382f656c656d656e744c696e6b732f30343239622e6a7067)
 
 ![Sintaxe de uma *media
-query*](http://ptgmedia.pearsoncmg.com/images/chap4_9780321888938/elementLinks/0429b.jpg
-"Sintaxe de uma *media query*")
+query*](https://camo.githubusercontent.com/98f619aafcc0fc3716a78a13e293501d68d20ec1/687474703a2f2f7074676d656469612e70656172736f6e636d672e636f6d2f696d616765732f63686170345f393738303332313838383933382f656c656d656e744c696e6b732f30343239622e6a7067)
 
 As *Media Queries* estão definidas por ***Media Types***, ***Media Features*** e
 o bloco de código a ser executado se as condições definidas no *media type* são
@@ -30,7 +29,7 @@ verdadeiras. Tudo isso  funciona graças aos **operadores lógicos**
 correspondentes.
 
 ![*Media
-Queries*](https://internetingishard.com/html-and-css/responsive-design/media-query-terms-137d06.png)
+Queries*](https://camo.githubusercontent.com/6eda946d71791b93d04bbb67b3c37c6cc5567ab4/68747470733a2f2f696e7465726e6574696e676973686172642e636f6d2f68746d6c2d616e642d6373732f726573706f6e736976652d64657369676e2f6d656469612d71756572792d7465726d732d3133376430362e706e67)
 
 Os ***media types*** correspondem aos diferentes dispositivos nos quais se pode
 visualizar nossa página web. Na imagem a seguir, podemos ver os diferentes
