@@ -19,7 +19,6 @@ companheiras 😁
 
 Você deve super o seu exercício para o GitHub e publicar no `gh-pages`.
 
-
 ### 1. Nuestras coders
 
 Replique o seguinte layout:

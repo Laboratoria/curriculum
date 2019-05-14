@@ -67,7 +67,8 @@ Desktop](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1
 Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png)
 
 ***
-<!-- TODO: Create a portuguese version -->
-<!-- Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
+<!-- TODO: Create a portuguese version
+Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
 
-[![Criando um sistema de grid](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA) -->
+[![Criando um sistema de grid](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+-->
