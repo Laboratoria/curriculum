@@ -245,33 +245,40 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── package.json
+├── EXTRA.md
 ├── README.md
+├── package.json
 ├── src
-│   ├── data (según con qué data trabajes)
-│   │   ├── injuries
-│   │   │   ├── injuries.js
-│   │   │   └── injuries.json
-│   │   ├── lol
-│   │   │   ├── lol.js
-│   │   │   └── lol.json
-│   │   ├── pokemon
-│   │   │   ├── pokemon.js
-│   │   │   └── pokemon.json
-│   │   ├── steam
-│   │   │   ├── steam.js
-│   │   │   └── steam.json
-│   │   └── worldbank
-│   │       ├── worldbank.js
-│   │       └── worldbank.json
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+|  ├── data (según con qué data trabajes)
+|  |  ├── injuries
+|  |  |  ├── injuries.js
+|  |  |  └── injuries.json
+|  |  ├── lol
+|  |  |  ├── lol.js
+|  |  |  └── lol.json
+|  |  ├── patient
+|  |  |  ├── patient.js
+|  |  |  └── patient.json
+|  |  ├── pokemon
+|  |  |  ├── pokemon.js
+|  |  |  └── pokemon.json
+|  |  ├── rickandmorty
+|  |  |  ├── rickandmorty.js
+|  |  |  └── rickandmorty.json
+|  |  ├── steam
+|  |  |  ├── steam.js
+|  |  |  └── steam.json
+|  |  └── worldbank
+|  |     ├── worldbank.js
+|  |     └── worldbank.json
+|  ├── data.js
+|  ├── index.html
+|  ├── main.js
+|  └── style.css
 └── test
-    └── data.spec.js
+   └── data.spec.js
 
-8 directories, 17 files
+directory: 10 file: 22
 ```
 
 ### `src/index.html`
