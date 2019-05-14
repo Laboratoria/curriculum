@@ -70,5 +70,7 @@ Movil](https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb
 <!-- TODO: Create a portuguese version
 Você pode ver o seguinte vídeo para saber como criar e usar um grid system:
 
-[![Criando um sistema de grid](https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg)](https://www.youtube.com/watch?v=uUGHF0dM6GA)
+Criando um sistema de grid
+https://img.youtube.com/vi/uUGHF0dM6GA/0.jpg
+https://www.youtube.com/watch?v=uUGHF0dM6GA
 -->
