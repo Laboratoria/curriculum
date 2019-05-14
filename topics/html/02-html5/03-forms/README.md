@@ -1,43 +1,42 @@
-# Formularios
+# Formulários
 
-- Tipo: `lectura`
-- Formato: `self-paced`
+- Tipo: `leitura`
+- Formato: `individual`
 - Duración: `1h`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta lectura aprenderemos:
+Nesta leitura aprenderemos:
 
-- Qué son los formularios en HTML
-- Aprenderás los principales elementos de un formulario
-- Conocerás los atributos de los elementos de un formulario
+- O que são formulários no `HTML`
+- Os principais elementos de um formulário
+- Os atributos dos elementos de um formulário
 
-## Veamos qué son los formularios
+## Vejamos o que são os formulários
 
-Los formularios son una forma sencilla de solicitar información al usuario en
-una página web, permitiendo que el usuario ingrese información. Los formularios
-son uno de los puntos principales de interacción entre un usuario y un sitio web
-o aplicación.
+Os formulários são uma forma simples de solicitar informação ao usuário que está
+em uma página web, permitindo que o usuário insira informação. Os formulários
+são um dos pontos principais de interação do usuário com o site.
 
-## Guía de conceptos clave
+## Guia de conceitos chave
 
-Revisemos la documentación del MDN sobre
-[formularios](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form),
-además tenemos la Zona de Aprendizaje de MDN donde podrás aprender a más
-detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms).
+Vamos resivar a documentação do MDN sobre
+[formulários](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/form),
+também vamos ver a guia do MDN para aprender mais detalhes sobre
+[os forms](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms).
 
-Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
-Manos a la obra!!
+Agora que conhecemos os elementos para criar um formulário, vamos criar um.
+Mãos a obra!!👩🏽‍💻
 
-1. Crea un archivo con el nombre `index.html` y agrega la etiqueta `form` para
-   que empieces con tu formulario.
+1. Crie um arquivo com o nome `index.html` e adicione a tag `form` para comecar
+   o seu formulário.
 
-2. Luego agregarás un `input` donde el usuario ingresará su correo electrónico,
-   este campo será obligatorio.
-   > Recuerda colocar que tipo de `input` es y los atributos necesarios (no te
-   > olvides usar el atributo `required` para considerar un input obligatorio)
+2. Depois adicione um `input` onde o usuário irá inserir o seu email, este campo
+   deve ser obrigatório.
+   > Lembre de colocar o tipo do `input` e os atributos necessário (não se
+   > esqueça de usar o atributo `required` para deixar o `input` obrigatório)
 
    ```html
    <form>
@@ -51,12 +50,11 @@ Manos a la obra!!
    </form>
    ```
 
-3. También agrega la etiqueta `label` para asociar el `input` que acabas de
-   crear.
+3. Também adicione a tag `label` para associar o `input` criado.
 
    ```html
    <form>
-     <label for="email-example">Correo electrónico</label>
+     <label for="email-example">Email</label>
      <input
        type="email"
        id="email-example"
@@ -67,7 +65,7 @@ Manos a la obra!!
    </form>
    ```
 
-4. Realiza los mismos pasos para un `input` de tipo contraseña.
+4. Agora dentro do form adicione um `input` de senha.
 
    ```html
    <form>
@@ -82,54 +80,52 @@ Manos a la obra!!
    </form>
    ```
 
-5. Ahora, crearás un `select` para que el usuario pueda elegir un valor de la
-   lista desplegable.
+5. Agore, crie um `select` para que o usuário possa escolher um valor da lista.
 
    ```html
    <select name="select-example">
-     <option value="value1">Primera opción</option>
-     <option value="value2" selected>Segunda opción</option>
-     <option value="value3">Tercera opción</option>
+     <option value="value1">First option</option>
+     <option value="value2" selected>Second option</option>
+     <option value="value3">Third option</option>
    </select>
    ```
 
-6. También agrega un radiobutton donde el usuario solo puede escoger una
-   opción entre las distintas opciones relacionadas que se le presentan.
+6. Também adicione um `radiobutton`, no qual o usuário poderá escolher apenas uma
+   das opções.
 
    ```html
    <label>
-     <input type="radio" name="gender" value="female"> Mujer
+     <input type="radio" name="gender" value="female"> Woman
    </label>
    <label>
-     <input type="radio" name="gender" value="male"> Hombre
+     <input type="radio" name="gender" value="male"> Man
    </label>
    <label>
-     <input type="radio" name="gender" value="no-gender"> No deseo brindar información
+     <input type="radio" name="gender" value="other"> Other
    </label>
    ```
 
-7. Y adicionarás un checkbox para los términos y condiciones.
+7. E adicione um `checkbox` para cria os termos e condições.
 
    ```html
    <label>
      <input type="checkbox" name="conditions" value="accept-conditions" checked />
-     Acepto los términos y condiciones
+     I agree to terms and conditions
    </label>
    ```
 
-8. Por último pondrás un botón de enviar.
+8. Por útimo crie o botão de enviar.
 
    ```html
-   <button type="submit">Enviar</button>
+   <button type="submit">Send</button>
    ```
 
-El resultado de este HTML será:
+O resultado deste HTML deve ser esse:
 
-![ejemplo de formularios](https://user-images.githubusercontent.com/25906896/39826718-2daeff3e-537b-11e8-8d60-bba02479bf16.png)
+![Exemplo do formulário](https://user-images.githubusercontent.com/11894994/57497763-691f1a00-72af-11e9-879a-0b9ac62795ce.png)
 
-Ahora está en tus manos colocarle los estilos que desees en tu `css`
+Agora está em suas mãos colocar o estilo que quiser no `css`.
 
-Ahora, si deseas aprender como trabajamos con los forms desde javascript podemos
-ver el [capítulo 7 de javascript de librosweb](http://librosweb.es/libro/javascript/capitulo_7.html).
-Además tenemos la documentación del capítulo 18 de [Eloquent JavaScript](https://eloquentjavascript.net/18_http.html),
+Para aprender a trabalhar com `forms` e `JavaScript` leia a documentação do
+capítulo 18 do [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript/chapters/formularios-e-campos-de-formularios/),
 de Marijn Haverbeke, 2014.

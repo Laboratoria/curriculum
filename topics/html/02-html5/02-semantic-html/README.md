@@ -33,7 +33,7 @@ Na imagem a seguir vemos como era o uso do HTML antes, como se pode observar
 existem muitas `<div>`. Agora, graças a semântica do HTML5 podemos usar novas
 tags para estruturar corretamente uma página web.
 
-![HTML antes e agora](https://i.imgur.com/RWr7eTW.png)
+![HTML antes e agora](https://user-images.githubusercontent.com/11894994/57496872-8b169d80-72ab-11e9-88d7-6f3ec900f1f7.png)
 
 Para implementar essas seções semânticas, o HTML possui tags apropriadas que
 podemos usar para representar essas seções. Verifique o link anterior e

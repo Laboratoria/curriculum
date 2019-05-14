@@ -39,7 +39,7 @@ border: 1px solid black;">Olá Mundo!</h1>
 
 No navegador, o título anterior ficaria assim:
 
-![Estilo Inline](https://i.imgur.com/gQttXWn.png)
+![Estilo Inline](https://user-images.githubusercontent.com/11894994/57649406-851c0780-759e-11e9-96b9-e7ff01870593.png)
 
 Esta maneira de adicionar CSS é chamada de **CSS Inline**, mas não é muito
 recomendada. Sua manutenção é complicada, já que poderíamos ter que atualizar as
@@ -101,7 +101,7 @@ arquivos:
     <!--Link para o arquivo que está no mesmo computador-->
     <link rel="stylesheet" href="style.css">
     <!--Link para o arquivo que está na internet-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <h1>Olá, Mundo!</h1>
@@ -224,7 +224,7 @@ o mouse em cima dele. O uso desse pseudo seletor é bastante comum. Não
 precisamos ir muito longe para ver ele sendo usado na prática. Aqui mesmo no LMS
 ao realizarmos o login nos deparamos com o seguinte:
 
-![hover](https://i.imgur.com/GysD1Rh.gif)
+![hover](https://user-images.githubusercontent.com/11894994/57649699-489cdb80-759f-11e9-9af3-9159fa166124.gif)
 
 Note que ao passar do mouse os elementos adiquirem estilos novos. Isso é feito
 através do `:hover`.
@@ -246,7 +246,7 @@ button:active {
 }
 ```
 
-![active](https://i.imgur.com/tCctJcn.gif)
+![active](https://user-images.githubusercontent.com/11894994/57649729-59e5e800-759f-11e9-812e-dfaf0184c0f8.gif)
 
 Perceba que no exemplo, o estilo do botão é apenas alterado quando estamos
 clicando. Quando não está mais ocorrendo o evento de clique o botão assume o
@@ -264,7 +264,7 @@ input:focus {
 }
 ```
 
-![focus](https://i.imgur.com/y5uGreS.gif)
+![focus](https://user-images.githubusercontent.com/11894994/57649768-6f5b1200-759f-11e9-9a09-d62f500aaa5b.gif)
 
 ## Regras de cascata e herança
 
@@ -328,8 +328,8 @@ No final desta leitura, você deve saber como responder às seguintes perguntas:
 
 ## Comentários em CSS
 
-Como é uma boa prática comentar seu código html e seu código js, é recomendável
-comentar seu CSS. Comentários em CSS são feitos da seguinte forma:
+Como é uma boa prática comentar seu código `html` e seu código `js`, é
+recomendável comentar seu CSS. Comentários em CSS são feitos da seguinte forma:
 
 - O começo é indicado pelos caracteres `/*`. O fim do comentário é indicado por
   `*/`

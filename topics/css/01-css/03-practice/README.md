@@ -1,15 +1,13 @@
-# Casos Práticos
+# Exercícios Livres
 
 * Tipo: `exercício`
 * Formato: `individual`
-* Duração: `90min`
+* Duração: `2h`
 
 ***
 
 ## Objetivos
 
-* Praticar programando junto com sua equipe de professores, resolvendo
-  exercícios de `html` e `css`
 * Praticar, pratica e praticar
 
 ## Enunciados
@@ -33,13 +31,13 @@ Pratique seletores CSS por meio [deste jogo](https://laboratoria.github.io/css-d
 Replique as seguintes visualizações, utilizando seu conhecimento de `display`.
 Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
 
-![Box1](https://i.imgur.com/bxC0Hz9.png)
+![Box1](https://user-images.githubusercontent.com/11894994/57651330-581e2380-75a3-11e9-9018-cb94308496f1.png)
 
-![Box2](https://i.imgur.com/casQEIG.png)
+![Box2](https://user-images.githubusercontent.com/11894994/57651332-581e2380-75a3-11e9-8e90-7417a0d7ca49.png)
 
-![Box3](https://i.imgur.com/L8PqU8W.png)
+![Box3](https://user-images.githubusercontent.com/11894994/57651336-58b6ba00-75a3-11e9-90c9-bca269826f5f.png)
 
-![Box4](https://i.imgur.com/o4SsohW.png)
+![Box4](https://user-images.githubusercontent.com/11894994/57651337-58b6ba00-75a3-11e9-908d-aac21930ead0.png)
 
 #### Solução
 
