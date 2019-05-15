@@ -1,4 +1,4 @@
-# Ejercicios
+# Exercícios
 
 * Tipo: `practice`
 * Formato: `self-paced`

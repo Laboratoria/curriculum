@@ -1,25 +1,27 @@
-# Cuenta de restaurante
+# Conta do restaurante
 
-Imagina que has salido a comer con tus cuatro mejores amigas.  La cuenta total
-del consumo es de 50 dólares, pero a eso debes agregarle el 10% de Impuesto al
-Valor Agregado (IVA). Quieres dividir la cuenta equitativamente entre las cinco.
-Para eso has creado este programa.
+Imagine que você saiu para comer com seus quatro melhores amigos. A conta total
+de consumo é de 50 reais, mas para isso você deve adicionar 10% de imposto. Você
+quer dividir a conta igualmente entre os cinco.
 
-Sigue los pasos a continuación para que completes el programa y determines
-cuánto debe pagar cada una.
+Para isso você criou este programa.
 
-1. Crea una variable llamada tax (impuesto en inglés) y asígnale el resultado de
-   multiplicar bill por 10%. Tip: 10% en decimal se escribe 0.10
-2. Crea una variable llamada total y asígnale el resultado de sumar bill más tax
-3. Retorna el monto que cada una debe pagar (total divido entre 5), con
-   símbolo $ adelante (por ejemplo: $11). Tip: debes usar string concatenation
-   para imprimir con el símbolo $ adelante.
+Siga as etapas abaixo para completar o programa e determinar
+quanto deve pagar cada um.
 
-Ejemplo:
+1. Crie uma variável chamada tax (imposto em inglês) e atribua-lhe o resultado
+   de multiplique a conta em 10%. Dica: 10% em decimal é escrito 0,10.
+2. Crie uma variável chamada total e atribua-lhe o resultado da adição de conta
+   mais impostos
+3. Retorne o valor que cada um deve pagar (total dividido por 5), com o símbolo
+   $ antes (por exemplo: $ 11). Dica: você deve usar a cadeia de caracteres
+   (concatenação de strings) para imprimir com o símbolo $ adelante.
+
+Exemplo:
 
 ```js
 var output = restaurantBill(50);
 console.log(output); // --> $11
 ```
 
-¡Mucha suerte!
+Muita sorte!
