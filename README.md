@@ -179,27 +179,13 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 #### Proyecto: [Plataforma de ventas en línea](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/marketplace.md)
 
-Este proyecto require hacer un estudio inicial de cómo debería ser un portal de
-ventas y cómo deben ofrecer los productos a los consumidores. Un cliente
-ficticio quiere que averigües cómo son los consumidores que utilizaría este
-canal de venta y cuáles son sus motivaciones, cómo es el mercado actual en el
-que incursionarán; y que propongas una visión de cómo podría plantearse este
-nuevo canal de ventas.
-
-Una vez conozcas a los posibles compradores debes formular una propuesta de
-valor, detallando cómo podría ser el portal, los contenidos, la interacción y el
-diseño del proceso a partir del cual el usuario podrá hacer sus pedidos en esta
-plataforma.
-
-El objetivo principal de aprendizaje de este proyecto es entender cómo pasamos
-de lo que un cliente quiere alcanzar a la definición de un producto digital en
-poco tiempo. Entender los principales pasos y preguntas que debemos hacernos,
-cómo involucrar a los usuarios y su feedback y cómo usar esos resultados sin
-perder de vista los objetivos iniciales. Esperamos que en este proyecto puedas
-entender las necesidades y falencias de las empresas, aprender y empezar a
-empaparte de los posibles modelos de negocio así como investigar a su audiencia,
-los usuarios que consumen sus productos, entendiendo sus preferencias y contexto
-en el que lo hacen.
+Para este reto inicial del track, las estudiantes trabajan con pequeños
+emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
+Para ello, tienen que entender los objetivos de negocio y también las
+necesidades de los usuarios/clientes de estos emprendimientos. Durante este
+reto las estudiantes hacen trabajo de campo como entrevistas, observación y
+testing. Y diseñan soluciones utilizando herramientas de diseño como Figma y
+Marvel.
 
 * Duración estimada: 4 semanas?
 * Equipos: 2 estudiantes.
@@ -209,32 +195,24 @@ en el que lo hacen.
 
 #### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
 
-El banco más importante del país ha lanzado una nueva aplicación móvil al
-mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
-el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
-equipo detrás de este nuevo producto ha decidido contratar a una
-agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto. Tú y otra compañera de Laboratoria trabajan en la agencia/consultora
-de UX y son asignadas al proyecto.
-
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Muchas de ustedes terminarán trabajando en productos
-existentes y deben estar familiarizadas con el proceso de analizar la data del
-producto, complementar con investigación de campo y con esto definir una
-estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un UX
-Designer en rediseño este blogpost.
-
-En este proyecto pondrás en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
+Este es un proyecto de rediseño. Basándose en la data de los resultados
+que está teniendo una aplicación de servicios financieros, las estudiantes
+buscan mejorar la experiencia de la misma.
 
 * Duración estimada: 4 semanas.
 * Equipos: 2/3 estudiantes.
-* Tópicos: (tbd)
+* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design.
 
 #### Proyecto: Consultoría UX a empresas reales
 
-* Duración estimada: 4 semanas.
+En este reto, las estudiantes trabajan en distintos casos reales
+propuestos por empresas de distintos rubros y tamaños. Anteriores retos
+han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
+Magical Startups, Laboratoria, entre otras.
+
+* Duración estimada: 2 semanas.
 * Equipos: Depende de proyectos.
-* Tópicos: (tbd)
+* Tópicos: UX Research, prototipado, ideación, visual design
 
 ***
 
@@ -289,10 +267,42 @@ nativas.
 
 ### Track UX Design
 
-#### Proyecto: (tbd)
+#### Proyecto: Service  Design
 
-* Duración estimada: 4 semanas.
-* Tópicos: (tbd)
+Con la ayuda de consultoras especializadas como Amable o Touchpointg,
+las estudiantes se sumergen en el mundo del service design. Entendiendo
+problemas de negocio desde una visión más holística y utilizando
+nuevas herramientas como el Service BluePrint.
+
+* Duración estimada: 2 semanas.
+* Equipos: Depende de proyectos.
+* Tópicos: Service design, disruptive design, insights, service prototyping,
+  service blue print.
+
+#### Proyecto: Design Sprint
+
+Durante 2 semanas, las estudiantes trabajan en retos de empresas, siguienndo
+la metodología de Design Sprints. Durante la primera semana entienden la
+metodología mediante un reto simulado, y durante la segunda semana ponen en
+práctica un Design Sprint con equipos de producto de distintas empresas.
+
+* Duración estimada: 2 semanas.
+* Equipos: Depende de proyectos.
+* Tópicos: Design Sprints.
+
+#### Proyecto: Visual Design
+
+En este reto buscamos mejorar las habilidades de diseño visual de interfaces.
+Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
+de una plataforma de venta de entradas a espectaculos (tradicional) para
+ayudarlos a competir con nuevos actores en la industria como Stubhub,
+Eventbrite, Joinnus, entre otros. Para ello tendrán que crear soluciones
+consistentes para mobile, desktop y smartwatches.
+
+* Duración estimada: 2 semanas.
+* Equipos: Depende de proyectos.
+* Tópicos: Design Systems, Grid systems, atomic design, componentes, consistencia,
+  jerarquía, responsive design.
 
 ***
 
