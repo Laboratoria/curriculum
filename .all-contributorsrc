@@ -531,6 +531,16 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "florenciasilva",
+      "name": "Florencia Silva Olivera",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26350518?v=4",
+      "profile": "https://github.com/florenciasilva",
+      "contributions": [
+        "ideas"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }
