@@ -1,30 +1,30 @@
-# Bucles (Loops)
+# Laços (Loops)
 
-* Tipo: `lectura`
-* Formato: `self-paced`
+* Tipo: `leitura`
+* Formato: `individual`
 * Duración: `15min`
 
 ***
 
-## Mecanismos que pueden ser usados con ciclos/bucles
+## Mecanismos que podem ser usados como laços
 
-Los siguientes mecanismos pueden ser usados con ciclos:
+Os seguintes mecanismos podem ser usados como laços:
 
 ### `break [label]`
 
-Sale de un ciclo.
+Sai do laço.
 
 ### `continue [label]`
 
-Detiene la iteración actual e inmediatamente ejecuta la siguiente.
+Para a iteração atual e imediatamente executa a seguinte.
 
 ### `Labels`
 
-Un `label`(etiqueta) es un identificador seguido por `:`. Al inicio de un ciclo,
-un label te permite hacer `break` o `continue` incluso si está dentro anidado de
-otro ciclo anidado. Cuando está al inicio de un bloque, te permite salir del
-mismo con la sentencia `break`. En ambos casos, el nombre del label se convierte
-en un argumento de `break` o `continue`. Aquí un ejemplo de `break`:
+Uma `label` (etiqueta) é um identificador seguido por `:`. No início de um laço,
+uma label pode fazer `break` ou `continue` inclusive se está dentro de um outro
+laço aninhado. Quanto está no início do bloco, te permite sair do mesmo com a
+palavra `break`. Em ambos os casos, o nome da _label_ se converte em um
+argumento de `break` ou `continue`. Aqui um exemplo de `break`:
 
 ```js
 const findEvenNumber = arr => {
@@ -42,11 +42,11 @@ const findEvenNumber = arr => {
 };
 ```
 
-## Tipos de bucles (loops)
+## Tipos de laços (loops)
 
 ### while
 
-Un ciclo while:
+Um laço `while`:
 
 ```js
 while (condition) {
@@ -54,16 +54,16 @@ while (condition) {
 }
 ```
 
-Ejecuta `statement` tantas veces como la condición se cumpla. Si la condición es
-siempre `true`, entonces entra en un `infinite loop` (ciclo infinito).
+Executa `statement` até que a condição não seja mais satisfeita. Se a condição é
+sempre `true`, então entra em um `infinite loop` (laço infinito).
 
 ```js
 // infinite loop
 while (1 === 1) { }
 ```
 
-En el siguiente ejemplo, eliminamos todos los elementos del arreglo y los
-mostramos en la consola:
+No próximo exemplo, eliminamos todos os elemnto do `array` e os mostramos no
+console:
 
 ```js
 const arr = ['a', 'b', 'c'];
@@ -74,7 +74,7 @@ while (arr.length > 0) {
 
 /*
  *
- * La salida de este código será:
+ * A saída do código será:
  * a
  * b
  * c
@@ -84,7 +84,7 @@ while (arr.length > 0) {
 
 ### do-while
 
-Un ciclo do-while:
+Um laço `do-while`:
 
 ```js
 do {
@@ -92,8 +92,8 @@ do {
 } while (condition);
 ```
 
-Ejecuta los `statements` al menos una vez y luego tantas veces como se cumpla la
-condición. Por ejemplo:
+Executa os `statements` pelo menos uma vez e continua equanto a condição for
+satisfeita. Por exemplo:
 
 ```js
 const pattern = /^[0-9]+$/;
@@ -105,18 +105,17 @@ do {
 
 ### for
 
-En un ciclo for:
+Um laço `for`:
 
 ```js
 for ([init]; [condition]; [post_iteration]) {
   // statements
 }
 ```
-
-`init` es ejecuta una vez antes que inicie el ciclo, que ejecuta `statements`
-tantas veces como `condition` sea `true`. Puedes usar `let` para declarar
-variables, pero el scope de dicha variable solo será dentro del cliclo.
-`post_iteration` se ejecuta luego de cada iteración. Por ejemplo:
+`init` é executado uma vez antes de iniciar o laço, que depois executa
+`statements` enquanto a `condition` retorne `true`. Pode usar `let` para
+declarar variáveis, mas o escopo dela será apenas dentro do laço.
+`post_iteration` é executado logo após cada interação. Exemplo:
 
 ```js
 const arr = ['a', 'b', 'c'];
@@ -127,7 +126,7 @@ for (let i = 0, l = arr.length; i < l; i++) {
 
 /*
  *
- * El resultado de este código es:
+ * O resultado será esse:
  * a
  * b
  * c
