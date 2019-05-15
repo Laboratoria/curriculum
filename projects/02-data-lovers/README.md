@@ -76,11 +76,11 @@ Estos son datos que te proponemos:
   transporte, con data anual desde 1960 y categorizada por tipo de transporte
   (aire, barco, automóvil, moto, bicicleta, ...).
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-	Este set nos proporciona la lista de los personajes de la serie Rick and morty,
-	puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com)
+  Este set nos proporciona la lista de los personajes de la serie Rick and morty,
+  puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com)
 * [Patient en EEUU](src/data/patient/patient.json).
-	Este set nos proporciona una lista de pacientes de EEUU,
-	puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient)
+  Este set nos proporciona una lista de pacientes de EEUU,
+  puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient)
 <!---
 ¡Too much information para comenzar (Diego)!
 Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
