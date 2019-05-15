@@ -75,6 +75,12 @@ Estos son datos que te proponemos:
   Este set nos muestra el número de personas heridas en accidentes de
   transporte, con data anual desde 1960 y categorizada por tipo de transporte
   (aire, barco, automóvil, moto, bicicleta, ...).
+* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
+  Este set nos proporciona la lista de los personajes de la serie Rick and
+  Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com).
+* [Pacientes en EEUU](src/data/patient/patient.json).
+  Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la
+  documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
 
 <!---
 ¡Too much information para comenzar (Diego)!
@@ -83,9 +89,10 @@ por ejemplo, si tenemos una colección que representa a un grupo de personas,
 y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 --->
-Cada set de datos tiene una identidad gráfica que deberás utilizar en la
+
+Algunos sets de datos tiene una identidad gráfica que deberás utilizar en la
 interfaz. La identidad gráfica, también conocida como guía de estilos en
-diseño, de cada set la podrás encontrar en el siguiente
+diseño, de estos sets la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## 3. Objetivos de aprendizaje
@@ -240,33 +247,40 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── package.json
+├── EXTRA.md
 ├── README.md
+├── package.json
 ├── src
-│   ├── data (según con qué data trabajes)
-│   │   ├── injuries
-│   │   │   ├── injuries.js
-│   │   │   └── injuries.json
-│   │   ├── lol
-│   │   │   ├── lol.js
-│   │   │   └── lol.json
-│   │   ├── pokemon
-│   │   │   ├── pokemon.js
-│   │   │   └── pokemon.json
-│   │   ├── steam
-│   │   │   ├── steam.js
-│   │   │   └── steam.json
-│   │   └── worldbank
-│   │       ├── worldbank.js
-│   │       └── worldbank.json
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
+|  ├── data (según con qué data trabajes)
+|  |  ├── injuries
+|  |  |  ├── injuries.js
+|  |  |  └── injuries.json
+|  |  ├── lol
+|  |  |  ├── lol.js
+|  |  |  └── lol.json
+|  |  ├── patient
+|  |  |  ├── patient.js
+|  |  |  └── patient.json
+|  |  ├── pokemon
+|  |  |  ├── pokemon.js
+|  |  |  └── pokemon.json
+|  |  ├── rickandmorty
+|  |  |  ├── rickandmorty.js
+|  |  |  └── rickandmorty.json
+|  |  ├── steam
+|  |  |  ├── steam.js
+|  |  |  └── steam.json
+|  |  └── worldbank
+|  |     ├── worldbank.js
+|  |     └── worldbank.json
+|  ├── data.js
+|  ├── index.html
+|  ├── main.js
+|  └── style.css
 └── test
-    └── data.spec.js
+   └── data.spec.js
 
-8 directories, 17 files
+directory: 10 file: 22
 ```
 
 ### `src/index.html`
