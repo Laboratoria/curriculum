@@ -131,7 +131,7 @@ do nome é 3, que **não** é maior que 6. Portanto, o corpo do `if`
 **não** se executa. Desta forma, apenas a primeira mensagem 'Olá Ana'
 é executada.
 
-#### _Sentencia `if... else`_
+#### _Sentença `if... else`_
 
 Muitas vezes, você não só terá o código que é executado quando uma condição
 é verdadeira, mas também quando acontece o outro caso. Esse caminho alternativo
@@ -198,6 +198,8 @@ número grande".
 O fluxograma deste programa é algo assim:
 
 ![Flujo condicional](https://camo.githubusercontent.com/7da7c495c1528a60105d941be0181490fbffbc81/687474703a2f2f656c6f7175656e746a6176617363726970742e6e65742f696d672f636f6e74726f6c666c6f772d6e65737465642d69662e737667)
+
+#### _Utilizando Switch_
 
 É comum ver o código assim:
 
