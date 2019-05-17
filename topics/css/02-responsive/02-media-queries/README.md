@@ -94,10 +94,6 @@ Você pode se aprofundar um pouco mais em *Media Queries* e *Viewport* em:
 - [Como utilizamos as *media
   queries*?](https://www.chiefofdesign.com.br/media-queries-css-introducao-a-diferentes-resolucoes-de-tela/)
 
-- Vídeo: Media Queries
-
-[Media Queries](https://www.youtube.com/watch?v=AltqAPZzAqo)
-
 ### Material adicional
 
 Além disso, em seu tempo livre você pode ler um pouco sobre *Device Pixel Ratio*
