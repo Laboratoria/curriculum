@@ -1,4 +1,4 @@
-# Exercícios Guiados
+# Exercícios Livres
 
 - Tipo: `práctica`
 - Formato: `self-paced`
