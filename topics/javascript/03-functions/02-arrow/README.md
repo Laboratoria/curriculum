@@ -1,76 +1,74 @@
 # Arrow Functions
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-## Diferencias entre arrow functions y funciones clásicas
+### Diferenças entre _arrow functions_ e funções clássicas
 
-Una de las novedades más interesantes de ES6 son las denominadas **funciones
-flecha**, o *arrow functions*. Las funciones flecha son, como su
-nombre indica, definidas mediante una nueva sintaxis que utiliza una "flecha"
-(`=>`). Las funciones flecha se comportan de forma sensiblemente distinta a las
-funciones tradicionales de JavaScript, a continuación alguna de sus diferencias:
+Uma das novidades mais interessantes de ES6 são as denominadas **funções seta**,
+ou *arrow functions*. As funções setas são, como seu nome indica, definidas por
+meio de uma nova sintaxe que utiliza uma "seta" (`=>`). As funções seta se
+comportam de maneira sensivelmente diferente das funções tradicionais de
+JavaScript. A seguir, algumas de suas diferenças:
 
-* **No pueden llamarse con `new`**: Al no tener un método constructor, no pueden
-  ser utilizadas como constructores. Las funciones flecha lanzarán un error
-  cuando se utilicen con `new`.
-* **No hay prototipo**: Al no disponer de constructor, tampoco es necesario un
-  prototipo. Por lo tanto, no existirá la propiedad `prototype` en una función
-  flecha.
-* **No crean un nuevo contexto**. El valor de `this`, `super`, `arguments` y
-  `new.target` dentro de la función será el mismo que el de la función
-  tradicional (*non-arrow*) más cercana.
-* **No puedes cambiar `this`**: El valor de `this` dentro de la función flecha
-  permanece inmutable a lo largo de todo el ciclo de vida de la función.
-* **No hay objeto `arguments`**: Tan solo es posible proporcionarle parámetros a
-  una función flecha mediante parámetros nombrados y *rest parameters*.
-* **No es posible duplicar parámetros con el mismo nombre**: Tanto en modo
-  estricto como no estricto, a diferencia de las funciones clásicas, que no lo
-  permiten tan solo en modo estricto.
+* **Não podem ser chamadas com `new`**: Como não possuem um método construtor,
+  não podem ser executadas como construtores. As funções seta dispararão um erro
+  se forem utilizadas com `new`.
+* **Não há protótipo**: Como não possuem construtor, tampouco é necessário um
+  protótipo. Logo, não existirá a propriedade `prototype` e uma função seta.
+* **Não criam um novo contexto**. O valor de `this`, `super`, `arguments` e
+  `new.target` dentro da função será o mesmo que na função tradicional
+  (*non-arrow*) mais próxima.
+* **Não pode trocar `this`**: O valor de `this` dentro da função seta permanece
+  imutável ao longo de todo o ciclo de vida da função.
+* **Não existe objeto `arguments`**: Somente é possível atribuir parâmetros a
+  uma função seta mediante parâmetros nomeados e *rest parameters*.
+* **Não é possível duplicar parâmetros com o mesmo nome**: Tanto no modo estrito
+  como no não estrito, diferente das funções clássicas, que não permitem somente
+  o modo estrito.
 
-## Sintáxis
+### Sintaxe
 
-El ejemplo más simple de *arrow function* es el siguiente, aunque veremos en los
-ejemplos siguientes que existen diversas variaciones.
+O exemplo mais simples de uma **arrow functions* é o a seguir, embora vejamos
+nos exemplos seguintes que podem existir diversas variações.
 
 ```js
 const echo = text => text;
 ```
 
-Esta función sería equivalente a la siguiente:
+Esta função seria equivalente a seguinte:
 
 ```js
-const echo = function (text) {
+const echo = function(text) {
   return text;
 };
 ```
-
-En ambos casos, la ejecución de la función daría la siguiente salida:
+Nos dois casos, a execução da função daria a seguinte saída:
 
 ```js
-console.log(echo('Hola Mundo!')); // => Hola Mundo!
+console.log(echo('Olá Mundo!')); // Olá Mundo!
 ```
 
-Como con cualquier función, podemos pasar tantos argumentos como queramos a la
-función:
+Como com qualquer função, podemos passar tantos argumentos quanto quisermos para
+a função:
 
 ```js
 const sum = (a, b) => a + b;
-console.log(sum(1, 1)); // => 2
+console.log(sum(1, 1)); // 2
 ```
 
-O ninguno, claro:
+Ou nenhum, claro:
 
 ```js
-const greet = () => 'Hola, forastero!';
-console.log(greet()); // => Hola, forastero!
+const greet = () => 'Olá, estrangeiro!';
+console.log(greet()); // Olá, estrangeiro!
 ```
 
-Si queremos realizar operaciones más complicadas, podemos hacerlo con llaves y
-definiendo un valor de retorno:
+Se quisermos realizar operações mais complicadas, podemos usar chaves e definir
+um valor de retorno:
 
 ```js
 const resize = ({x, y}, ratio) => {
@@ -80,15 +78,15 @@ const resize = ({x, y}, ratio) => {
   };
 };
 
-console.log(resize({ x: 5, y: 15 }, 100)); // => { x: 500, y: 1500 }
+console.log(resize({x: 5, y: 15}, 100)); // { x: 500, y: 1500 }
 ```
 
-Una función flecha no crea un nuevo contexto. Una de las mayores fuentes de
-errores en JavaScript venía dada por la creación de distintos contextos en una
-función dependiendo de quien las esté ejecutando. Tomemos el siguiente ejemplo:
+Uma função seta não cria um novo contexto. Uma de suas maiores fontes de erros
+em JavaScript acontecia pela criação de diferentes contextos em uma função
+dependendo de quem a executa. Vejamos o exemplo a seguir:
 
 ```js
-const randomWinner = function (drivers) {
+const randomWinner = function(drivers) {
   const winner = Math.floor(Math.random() * (0 - drivers.length) + drivers.length);
   return drivers[winner];
 };
@@ -100,10 +98,10 @@ const F1Race = {
     'Button',
     'Massa'
   ],
-  init: function () {
-    console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
-    setTimeout((function () {
-      console.log('El ganador es', randomWinner(this.drivers));
+  init: function() {
+    console.log('Os seguintes pilotos começarão a corrida:', this.drivers);
+    setTimeout((function() {
+      console.log('O ganhador é ', randomWinner(this.drivers));
     }), 1000);
   }
 };
@@ -111,44 +109,42 @@ const F1Race = {
 F1Race.init();
 ```
 
-`F1Race` es un objeto que lanza una carrera de Fórmula 1 mediante su función
-`init()`. Al cabo de un segundo, se ejecutará la función `randomWinner()`, que a
-partir de un array de conductores, seleccionará uno al azar.
+`F1Race` é um objeto que inicia uma corrida de Fórmula 1 por meio de sua função
+`init()`. Após um segundo, será executada a função `randowWinner()`, que a
+partir de um array de pilotos, escolherá um aleatoriamente.
 
-Cuando ejecutamos la función `init()`, el programa escribe por consola lo
-siguiente:
+Quando executamos a função `init()`, o programa escreve no console o seguinte:
 
 ```text
-Los siguientes pilotos van a comenzar la carrera: [ 'Alonso', 'Vettel', 'Button', 'Massa']
+Os seguintes pilotos começarão a corrida: [ 'Alonso', 'Vettel', 'Button', 'Massa']
 ```
 
-Esto es posible ya que la función `init` tiene como contexto el propio objeto
-`F1Race`. Sin embargo, la función da error tras un segundo, mientras intenta
-calcular el ganador de forma aleatoria. ¿Cómo es posible?
+Isso é possível já que a função `init` tem como contexto o próprio objeto
+`F1Race`. Contudo, a função dá erro após um segundo, enquanto tenta calcular o
+ganhador de maneira aleatória. Como isso é possível?
 
-El motivo es que la función de callback que se le pasa a `setTimeout` crea un
-nuevo contexto, en el que no existe el array drivers.
+O motivo é que a função de *callback* que é passada ao `setTimetout` cria um
+novo contexto, no qual não existe o array de pilotos.
 
-En ES5 podíamos solucionar este problema utilizando `bind(this)` para asignar
-el contexto de la función de callback al del objeto que la contiene, de la
-siguiente forma:
+No ES5 podíamos solucionar esse problema utilizando `bind(this)` para atribuir o
+contexto de uma função de *callback* ao objeto que a contém da seguinte maneira:
 
 ```js
-init: function () {
-  console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
-  setTimeout((function () {
-    console.log('El ganador es', randomWinner(this.drivers));
+init: function() {
+  console.log('Os seguintes pilotos começarão a corrida:', this.drivers);
+  setTimeout((function() {
+    console.log('O ganhador é ', randomWinner(this.drivers));
   }).bind(this), 1000);
 }
 ```
 
-Con ES2015, podemos solucionar este contratiempo utilizando arrow functions de
-una forma mucho más elegante, ya que al no crear un nuevo contexto, `this`
-siempre vendrá determinado por la función que lo contiene:
+Com ES2015, podemos solucionar este contratempo utilizando funções seta de uma
+maneira muito mais elegante, já que ao criar o novo contexto, `this` sempre virá
+determinado pela função o contém:
 
 ```js
-init: function () {
-  console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
-  setTimeout(() => console.log('El ganador es', randomWinner(this.drivers)), 1000);
+init: function() {
+  console.log('Os seguintes pilotos começarão a corrida:', this.drivers);
+  setTimeout(() => console.log('O ganhador é ', randomWinner(this.drivers)), 1000);
 }
 ```

@@ -1,162 +1,160 @@
-# Funciones clásicas
+# Funções clásicas
 
-* Tipo: `lectura`
+* Tipo: `leitura`
 * Formato: `self-paced`
-* Duración: `20min`
+* Duração: `20min`
 
 ***
 
-## Definiendo una función
+## Declarando uma função
 
-La definición de una función es simplemente la definición de una variable
-regular donde el valor dado a dicha variable resulta ser una función. Por
-ejemplo, el siguiente código define la variable `square` para referirse a la
-función que devuelve el cuadrado de un número dado:
+A declaração de uma função é simplesmente a declaração de uma variável comum na
+qual o valor dado a tal variável resulta ser uma função. Por exemplo, o código a
+seguir define a variável `square` para fazer referência à função que retorna o
+quadrado de um dado número:
 
 ```js
-const square = function (x) {
-  return x * x;
-};
+  const square = function(x) {
+    return x * x;
+  };
 
-console.log(square(12)); // => 144
+  console.log(square(12)); // 144
 ```
 
 ***
 
-Funciones son valores que pueden ser llamados. Una manera de definir una función
-es llamada una `function declaration` o `declaración de función`. Por ejemplo,
-el siguiente código define una función `id` que tiene un simple parámetro `x`:
+Funções são valores que podem ser chamados (invocados). Uma maneira de definir
+uma função é chamada uma `function declaration` ou `declaração de função`. Por
+exemplo, o código a seguir define uma função `id` que possue um parâmetro
+simples `x`:
 
 ```js
 function id(x) {
   return x;
 }
 ```
-
-La sentencia `return` retorna un valor de la función `id`. Puedes llamar una
-función a través de su nombre, seguido de sus `argumentos` entre paréntesis:
-
-```js
-id('hello'); // => 'hello'
-```
-
-Si no se retorna nada de la función `undefined` es retornado (implícitamente):
+A instrução `return` retorna um valor da função `id`. Você pode chamar uma
+função por meio de seu nome, seguida de seus `argumentos` entre parênteses:
 
 ```js
-function f() {}
-f(); // => undefined
+id('hello'); // 'hello'
 ```
 
-Esta sección mostró solo una manera de definir y llamar una función. Otras
-formas serán mostradas luego.
+Se nada é retornado pela função, `undefined` é retornado (implicitamente):
 
-## Los 3 roles de funciones en JavaScript
+```js
+function f() { }
+f(); //undefined
+```
 
-Una vez definida una función, esta puede desarrollar diversos roles:
+Esta seção mostrou somente uma maneira de definir e chamar uma função. Outras
+formas serão mostradas em breve.
 
-### Nonmethod function (función normal)
+## Os 3 papéis das funções em JavaScript
 
-Puedes llamar a una función directamente como visto hace un momento. Acá un
-ejemplo de invocación:
+Uma vez definida uma função, ela pode realizar vários papéis:
+
+### Nonmethod function (função normal)
+
+Você pode chamar uma função diretamente como vimos até o momento. Aqui um
+exemplo de chamada:
 
 ```js
 id('hello');
 ```
 
-Por convención, los nombres de estas funciones _normales_ empiezan con minúscula
-siguiendo el estilo **lowerCamelCase**.
+Por convenção, os nomes destas funções _normais_ começam com letra minúscula
+seguindo o estilo **lowerCamelCase**.
 
-### Constructor
+### Construtor
 
-Puedes invocar una función a través del operador `new`. Es usado para la
-creación de objetos. Aquí un ejemplo de invocación:
+Você pode invocar uma função por meio do operador `new`. Ele é utilizado para
+criação de objetos. Aqui um exemplo de invocação:
 
 ```js
 new Date();
 ```
 
-Por convención, los nombres de los constructores empiezan con mayúscula,
-siguiendo el estilo **UpperCamelCase**.
+Por convenção, os nomes dos construtores começam com letra maiúscula, seguindo o
+estilo **UpperCamelCase**.
 
 ### Método
 
-Puedes almacenar una función en una propiedad de un objeto, lo que lo convierte
-en un _método_. Aquí un ejemplo de como invocar un método definido en un objeto
+Você pode armazenar uma função em uma propriedade de um objeto, o que o converte
+em um _método_. Aqui um exemplo de como invocar um método definido em um objeto
 `obj`:
 
 ```js
 obj.method();
 ```
 
-Por convención, los nombres de los métodos siguen el estilo de las funciones
-normales (_lowerCamelCase_).
+Por convenção, os nomes dos métodos seguem o estilo das funções normais
+(_lowerCamelCase_).
 
-## Terminología: "Parámetro" vs. "Argumento"
+## Terminologia: "Parâmetro" vs. "Argumento"
 
-Los términos `parámetro` y `argumento` son a menudo usados para referirse a lo
-mismo ya que se logra enteder a lo que se refiere. Sin embargo, a continuación
-se muestra una regla para diferenciarlos:
+Os termos `parâmetro` e `argumento` são frequentemente usados para se referirem
+à mesma coisa já que é possível entender ao que se referem. Contudo, a seguir
+mostramos uma regra para diferenciá-los.
 
-* **Parámetros** son usados para definir una función. En el siguiente ejemplo,
-  `param1` y `param2` son parámetros:
+* **Parâmetros** são utilizados para definir uma função: No exemplo a seguir,
+  `param1` e `param2` são parâmetros:
 
   ```js
   function foo(param1, param2) {
     // ...
   }
   ```
-
-* **Argumentos** son usados para invocar una función. En el siguiente ejemplo,
-  `3` y `7` son argumentos:
+* **Argumentos** são utilizados para invocar uma função. No exemplo a seguir,
+  `3` e `7` são argumentos:
 
   ```js
   foo(3, 7);
   ```
 
-## Definición de Funciones
+## Criação de Funções
 
-En esta sección veremos 3 formas de crear una función:
+Nesta seção veremos 3 maneiras de criar uma função:
 
-* Mediante un _function expression_ (función como expresión).
-* Mediante un _function declaration_ (declaración de una función).
-* Mediante el constructor `Function()`.
+* Por meio de uma _function expression_ (função como expressão).
+* Por meio de uma _function declaration_ (declaração de uma função).
+* Por meio do construtor `Function()`.
 
-Todas las funciones son objetos, instancias de `Function`:
+Todas as funções são objetos, instâncias de `Function`:
 
 ```js
 function id(x) {
   return x;
 }
 
-console.log(id instanceof Function); // => true
+console.log(id instanceof Function); // true
 ```
-
-Por lo tanto, las funciones obtienen sus métodos de `Function.prototype`.
+Para tal, as funções obtêm seus métodos de `Function.prototype`.
 
 ### Function Expressions
 
-Un _function expression_ produce un valor - un objeto de función. Por ejemplo:
+Uma _function expression_ produz um valor - um objeto de função. Por exemplo:
 
 ```js
-const add = function (x, y) {
+const add = function(x, y) {
   return x + y;
 };
 
-console.log(add(2, 3)); // => 5
+console.log(add(2, 3)); // 5
 ```
 
-El código anterior asigna el resultado de una función como expresión a la
-variable `add` y puede ser llamado a través de esta variable. En este tipo de
-función se puede asignar una función a una variable, pasar como parámetro de
-otra función y más. Debido a que este tipo de funciones no tienen un nombre,
-pueden ser llamadas _anonymous function expressions_ (funciones anónimas).
+O código anterior atribui o resultado de uma função como expressão para a
+variável `add` e pode ser chamada por meio desta variável. Neste tipo de função
+é possível atribuir uma função a uma variável, passar como parâmetros de outra
+função e outras coisas mais. Devido a este tipo de função não possuir um nome,
+podem ser chamadas de _anonymous function expressions_ (funções anônimas).
 
 #### Named Function Expressions
 
-Se puede poner nombre a una función como expresión. Los _named function
-expressions_ (funciones como expresión con nombre) permiten a la función poder
-referirse a si misma, su utilidad se ve reflejada cuando se desea aplicar
-recursividad por ejemplo:
+É possível nomear uma função como uma expressão. As _named function expressions_
+(funções que se expressam por nome) permitem à função fazer referências a si
+mesma. Vemos refletida sua utilidade quando desejamos aplicar recursividade. Por
+exemplo:
 
 ```js
 const factorial = function fact(number) {
@@ -166,24 +164,24 @@ const factorial = function fact(number) {
   return number * fact(number - 1);
 };
 
-console.log(factorial(3)); // => 6
+console.log(factorial(3)); // 6
 ```
 
-**Nota:** Los nombres de las funciones como expresión con nombre solo son
-accesibles dentro de la función:
+**Nota:** Os nomes das funções como expressão com nome só são acessíveis dentro
+da função:
 
 ```js
 const repeat = function me(n, str) {
-  return n > 0 ? str + me(n - 1, str) : '';
+  return n > 0 ? str + me(n-1, str) : '';
 };
 
-console.log(repeat(3, 'Yeah')); // => YeahYeahYeah
-console.log(me); // => ReferenceError: me is not defined
+console.log(repeat(3, 'Yeah')); // YeahYeahYeah
+console.log(me); // ReferenceError: me is not defined
 ```
 
 ### Function Declarations
 
-La siguiente es una declaración de función:
+A seguir temos uma declaração de função:
 
 ```js
 function add(x, y) {
@@ -191,64 +189,64 @@ function add(x, y) {
 }
 ```
 
-El código anterior se parece al de una función como expresión, pero es una
-sentencia. De cierta forma, es equivalente al siguiente código:
+O código anterior é parecido com o de uma função como expressão, mas é uma
+instrução. De certa maneira, é equivalente ao código a seguir:
 
 ```js
-const add = function (x, y) {
+const add = function(x, y) {
   return x + y;
 };
 ```
 
-En otras palabras, un _function declaration_ consiste de la palabra clave
-reservada _function_, una lista de parámetros para la función, encerrados en
-paréntesis y separados por comas, y la sentencia JavaScript que define la
-función, encerrada por llaves.
+Em outras palavras, uma _function declaration_ consiste na palavra chave
+reservada _function_, uma lista de parâmetros para a função, delimitados por
+parênteses e vírgulas, e a sentença JavaScript que define a função, delimitada
+por chaves.
 
 ### Function Constructor
 
-El constructor `Function()` evalua código JavaScript almacenado en strings. Por
-ejemplo, el siguiente código es equivalente a los ejemplos anteriores:
+O construtor `Function()` avalia código JavaScript armazenado em strings. Por
+exemplo, o código a seguir é equivalente aos dos exemplos anteriores:
 
 ```js
 const add = new Function('x', 'y', 'return x + y');
 ```
 
-Sin embargo, esta forma de definir una función es lenta y deja código en strings
-(inaccesible a herramientas, por ejemplo, al depurar con _Dev Tools_). Por lo
-tanto es mejor usar un _function expression_ o un _function declaration_ si es
-posible.
+No entanto, esta maneira de definir uma função é lenta e deixa o código entre
+strings (ficam inacessíveis a ferramentas, por exemplo, de depuração com _Dev
+Tools_). Portanto é melhor utilizar _function expression_ ou uma _function
+declaration_ se for possível.
 
 ## Hoisting
 
-**Hoisting** significa "mover al inicio del ámbito". _Function declarations_ son
-elevadas (_hoisted_) completamente, mientras las declaraciones de variables solo
+**Hoisting** significa "elevar para o início do escopo". _Function declarations_
+são elevadas (_hoisted_) completamente, enquanto as declarações de variáveis só
 parcialmente.
 
-_Function declarations_ son completamente elevadas, esto permite llamar a una
-función antes de que se hayan declarado:
+_Function declarations_ são completamente elevadas. Isso permite chamar uma
+função antes de sua declaração:
 
 ```js
-welcome(); // => 'Welcome to Laboratoria'
-function welcome() { // esta función es elevada - hoisting
+welcome(); // 'Welcome to Laboratoria'
+function welcome() { // esta função é elevada - hoisting
   console.log('Welcome to Laboratoria');
 }
 ```
 
-La razón por la cual el código anterior funciona es que el motor de JavaScript
-mueve la declaración de la función `welcome` al inicio del scope. Termina
-ejecutándose como si estuviera escrito de la siguiente manera:
+A razão pela qual o código anterior funciona é que o motor de JavaScript move a
+declaração da função `welcome` para o início do escopo. Ele acaba executando
+como se estivesse escrito da seguinte maneira:
 
 ```js
-function welcome() { // esta función es elevada - hoisting
+function welcome() { // esta função é elevada - hoisting
   console.log('Welcome to Laboratoria');
 }
-welcome(); // => 'Welcome to Laboratoria'
+welcome(); // 'Welcome to Laboratoria'
 ```
 
-Las declaraciones de variables son elevadas también, pero solo las declaraciones
-más no las asignaciones. Por lo tanto, definir una función como expresión
-asignándola a una variable termina en un error en el ejemplo anterior:
+As declarações de variáveis são elevadas também, mas somente as declarações mas
+não as atribuições. Portanto, definir uma função como expressão atribuindo a uma
+variável acaba em um erro no exemplo anterior:
 
 ```js
 welcome(); // TypeError: undefined is not a function
@@ -257,11 +255,11 @@ const welcome = function welcome() {
 };
 ```
 
-Solo las declaraciones son elevadas. El motor de JavaScript ejecuta el código
-anterior como si estuviese escrito de la siguiente manera:
+Somente as declarações são elevadas. O motor de JavaScript executa o código
+anterior como se estivesse escrito da seguinte maneira:
 
 ```js
-let welcome; // undefined
+const welcome; // undefined
 welcome(); // TypeError: undefined is not a function
 welcome = function welcome() {
   console.log('Welcome to Laboratoria');

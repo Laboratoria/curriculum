@@ -1,97 +1,67 @@
-# Arreglos
+# Arrays
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-***
-
-## Objetivos de Aprendizaje
-
-- Aprender qué son `arrays` y para qué sirven
-- Aprender a crear, acceder y modificar la información de un `array`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `60 min`
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en el
-capítulo 4 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io), y del capítulo 3
-de [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
-Nick Morgan, 2015.
+## Objetivos de Aprendizagem
+
+* Aprenda o que são vetores \(_arrays_\) e para que servem
+* Aprenda a criar, acessar e modificar os dados de um vetor
+
+O texto a seguir se baseia em grande medida, com alguns ajustes, ao
+capítulo 4 do [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
+Haverbeke, 2014. Tradução em
+[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores)
+, e ao capítulo 3 do
+[JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+Nick Morgan, 2015;
 
 ***
 
-## Agrupando y manipulando data
+## Agrupando e manipulando dados
 
-Como hemos visto, gran parte de la programación consiste en agrupar y manipular
-data. Esto nos permite transformar datos en información y utilizar esa información
-para resolver problemas. Hasta ahora hemos podido agrupar y manipular data haciendo
-uso de tipos de datos simples como: `numbers`,`booleans` y `strings`. Sobre ellos
-hemos creado una serie de programas sencillos. También hemos aprendido a modificar
-el control de flujo de estos programas, por medio de `estructuras repetitivas`,
-`estructuras condicionales` y `funciones`, lo cual nos ha permitido crear productos
-un poco más complejos. Sin embargo, nuestros programas han estado seriamente limitados
-debido a que operan únicamente con **tipos de datos simples**. Para resolver problemas
-más complejos necesitamos poder agrupar y manipular data de una manera más interesante.
-Afortunadamente, un entorno JavaScript nos permite lograr esto brindándonos `arrays`
-y `objects`.
+Como vimos, grande parte da programação consiste em agrupar e manipular dados. Isso nos permite transformar dados em informações e usar essas informações para resolver problemas. Até agora, pudemos agrupar e manipular dados usando tipos de dados simples, tais como: _numbers_, _booleans_ e _strings_. Com eles, criamos uma série de programas simples. Também aprendemos a modificar o fluxo desses programas, através de estruturas repetitivas, condicionais e funcionais, as quais nos permitiram criar produtos um pouco mais complexos. No entanto, nossos programas tinham muitas limitações porque operávamos apenas com **tipos de dados simples**.
 
-## ¿Por qué necesitamos arrays?
+Para resolver problemas mais complexos, precisamos ser capazes de agrupar e manipular dados de uma maneira mais interessante. Felizmente, um ambiente JavaScript nos permite alcançar isso através de _arrays_ e _objects_.
 
-Digamos, por poner un ejemplo, que queremos representar una colección de
-números: `2, 3, 5, 7 y 11`.
+## Por que precisamos de matrizes?
 
-Una opción para representar esto sería:
+Digamos, por exemplo, que queiramos representar um conjunto de números: `2`, `3`, `5`, `7` e `11`
 
-```js
-const firstNumber = 2;
-const secondNumber = 3;
-const thirdNumber = 5;
-const fourthNumber = 7;
+Uma opção para representar isso seria:
 
+```javascript
+var firstNumber = 2;
+var secondNumber = 3;
+var thirdNumber = 5;
+var fourthNumber = 7;
 ```
 
-Esta lista es bien extraña y engorrosa. Implica tener una variable para cada
-elemento de nuestra lista. Cuando en realidad sólo deberíamos tener una sola
-variable que "contenga" a cada una.¡Imagina que luego quieres tener una lista
-de 1,000 elementos!
+Esta lista é bem estranha e trabalhosa. Isso implica em ter uma variável para cada elemento da nossa lista. Quando, na realidade, devemos ter apenas uma única variável que "contenha" cada um. Imagine se você quiser uma lista de 1.000 elementos!
 
-Otra opción -más creativa- sería utilizar un `string`. Después de todo, los
-strings pueden ser de cualquier longitud, así que podemos poner mucha información
-en ellos. Podríamos usar un `string` con los números intercalados por un
-espacio, así:
+Outra opção - mais criativa - seria usar uma `string`. Afinal, as _strings_ podem ser de qualquer tamanho, e então podemos colocar muita informação nelas. Poderíamos usar uma cadeia de caracteres \(_string_\) com os números intercalados por um espaço, como esta:
 
-```js
-let listOfNumbers = '2 3 5 7 11';
+```javascript
+var listOfNumbers = '2 3 5 7 11';
 ```
 
-Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de
-extraer cada elemento del `string` (contando los espacios entre ellos) y además,
-tendríamos que convertirlos de vuelta a `number` para acceder y manipular cada
-número de manera individual.
+No entanto, isso também é complicado. Teríamos que encontrar uma maneira de extrair cada elemento de uma `string` \(considerando os espaços entre eles\) e também teríamos que convertê-los para `number` a fim de acessar e manipular cada um dos números.
 
-Afortunadamente, Javascript proporciona un tipo de dato específico para almacenar
-secuencias de valores. Se llama `array` (arreglo en español) y se escribe como una
-lista de valores entre corchetes, separados por comas.
+Felizmente, o Javascript fornece um tipo específico de dados para armazenar sequência de valores. É chamado de `array` \(arranjo ou vetor/matriz\) e é escrito como uma lista de valores entre colchetes, separados por vírgulas.
 
-```js
-listOfNumbers = [2, 3, 5, 7, 11];
-
+```javascript
+var listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
-Los `arrays` son tremendamente útiles para agrupar y manipular data. Es como
-cuando vamos al mercado y tenemos nuestra "lista de compras". Podríamos tener
-una hoja de papel para cada artículo que queremos comprar. Por ejemplo, podríamos
-tener una hoja de papel que dice "huevos", otra hoja que dice "pan", y otra hoja
-que dice "naranjas". Sin embargo, la mayoría de la gente escribe la lista completa
-de cosas a comprar en **una sola hoja de papel**.
+Os arranjos são extremamente úteis para agrupar e manipular dados. É como quando vamos ao mercado e temos nossa "lista de compras". Poderíamos ter uma folha de papel para cada item que queremos comprar. Por exemplo, poderíamos ter uma folha de papel que diz "ovos", outra folha que diz "pão" e outra folha que diz "laranjas". No entanto, a maioria das pessoas escreve todos os itens para comprar em **uma única folha de papel**.
 
-## Accediendo información de un array
+## Acessando informações de um vetor
 
-Antes de comenzar, vamos a generar una pequeña función utilitaria,
-que nos permita decir si dos string son iguales. La colocaremos
-en el `prototype` de `Array`.
+Antes de começar, vamos gerar uma pequena função utilitária, que nos permite
+descobrir se duas `strings` são iguais.
 
 ```js
 const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
@@ -99,41 +69,29 @@ const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
 console.assert(equal([1, 2, 3], [1, 2, 3]));
 console.assert(!equal([1, 2, 3], ['a', 'b', 'c']));
 console.assert(!equal([1, 2, 3], [3, 2, 1]));
-
 ```
 
-Para obtener un elemento dentro de un `array`, se utiliza la notación con corchetes,
-con el _index_ (índice en español) del elemento que se desea. Veamos un ejemplo:
+Para obter um elemento de um `array`, a notação com colchetes é usada contento o índice \(_index_\) do elemento desejado. Veja o exemplo abaixo:
 
-```js
-listOfNumbers = [2, 3, 5, 7, 11];
+```javascript
+const listOfNumbers = [2, 3, 5, 7, 11];
 
 console.assert(listOfNumbers[1] === 3);
 console.assert(listOfNumbers[1 - 1] === 2);
-
 ```
 
-El _index_ es el número que corresponde a (o que coincide con) el punto del `array`
-donde se almacena el valor. Al igual que con los `strings`, el primer elemento
-de un `array` está en el `index 0`, el segundo está en el `index 1`, el tercero
-en el `index 2`, y así sucesivamente. Es por eso que pedir index `1 - 1`
-(es decir, 0) del array anterior devuelve el número `2`.
+Índice é o número que corresponde a \(ou coincide com\) a posição em que o valor é armazenado. Assim como nas _strings_, o primeiro elemento de um vetor está no índice `0`, o segundo no `1`, o terceiro no `2`, e assim por diante. É por isso que acessar o índice `1 - 1` no vetor acima, ou seja, devolve o número `2` \(índice `0`\).
 
 ![image](https://user-images.githubusercontent.com/211721/40194836-51eebf22-59d1-11e8-8de8-8b29feb3bbf7.png)
 
-Si no tienes antecedentes en programación, acostumbrarte a esta convención puede
-tomarte algún tiempo. Pero el conteo con base cero tiene una larga tradición en
-tecnología y mientras la convención se siga de manera consistente (que se ha hecho
-en Javascript), funciona bien.
+Se você não tem experiência em programação, habituar-se com essa convenção pode levar algum tempo. Mas a contagem baseada em zero tem uma longa tradição em tecnologia e, desde que a convenção seja seguida consistentemente \(o que é feito em JavaScript\), ela funciona bem. Tome muito cuidado, pois esse descuido é a causa de muitos _bugs_, inclusive para programadores um pouco mais experientes.
 
-## Definiendo o cambiando los elementos de un array
 
-Podemos utilizar los _indexes_ entre corchetes para establecer, cambiar o incluso
-agregar elementos a un `array`. Por ejemplo, para reemplazar el primer elemento del
-array `listOfNumbers` por el número 1, podríamos hacer lo siguiente:
+## Definindo ou alterando os elementos de um array
+
+Podemos usar os índices entre colchetes para definir, alterar ou adicionar elementos a um vetor. Por exemplo, para substituir o primeiro elemento de `arraylistOfNumbers`  pelo número 1, poderíamos fazer o seguinte:
 
 ```js
-listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[0] = 1;
 
 console.assert(
@@ -142,25 +100,21 @@ console.assert(
 
 ```
 
-También podemos utilizar los _indexes_ entre corchetes para agregar elementos en
-un `array`. Por ejemplo, para agregar el número 13 al array `listOfNumbers`,
-haríamos lo siguiente:
+Também podemos usar os índices entre colchetes para adicionar elementos em um vetor. Por exemplo, para adicionar o número 13 ao _array_ `listOfNumbers`, faríamos assim:
 
 ```js
-listOfNumbers = [2, 3, 5, 7, 11];
 listOfNumbers[5] = 13;
 
 console.assert(
-  equal(listOfNumbers, [2, 3, 5, 7, 11, 13]),
+  equal(listOfNumbers, [1, 3, 5, 7, 11, 13]),
 );
 
 ```
 
-De hecho, podemos crear un `array` vacío y luego definir cada elemento de forma
-individual, así:
+Ainda, podemos criar um vetor vazio e definir cada elemento individualmente a seguir, da seguinte maneira:
 
 ```js
-listOfNumbers = [];
+const listOfNumbers = [];
 listOfNumbers[0] = 2;
 listOfNumbers[1] = 3;
 listOfNumbers[2] = 5;
@@ -173,11 +127,9 @@ console.assert(
 
 ```
 
-## Mezclando tipos de datos en arrays
+## Misturando tipos de dados em _arrays_
 
-Los elementos de un `array` no tienen que ser todos del mismo tipo de dato.
-Podemos, por ejemplo, tener un `array` que contenga un `number` (el número 3),
-un `string` ("hola mundo") y otro `number` (el número 3627.5):
+Os elementos de um _array_ não precisam ser todos do mesmo tipo de dados. Podemos, por exemplo, ter um vetor que contenha um `number` \(o número 3\), uma `string` \("dinossauros"\) e outro `number` \(o número 3627.5\):
 
 ```js
 const mixedArray = [3, 'hola mundo', 3627.5];
@@ -187,54 +139,44 @@ console.assert(mixedArray[2] === 3627.5);
 
 ```
 
-Inclusive podemos tener un `array` dentro de otro `array` (algo que mucha gente
-llama arrays de 2 dimensiones). Por ejemplo, para organizar la data de preguntas
-y respuestas de un quiz, podemos utilizar un `array` en el que cada elemento es,
-a su vez, un `array` que tiene dos elementos: una pregunta y una respuesta.
+Podemos até ter um vetor dentro de outro \(algo que muitas pessoas chamam de matriz ou _array_  de 2 dimensões\). Por exemplo, para organizar os dados de perguntas e respostas de um questionário, podemos usar um arranjo no qual cada elemento é um vetor com dois elementos: uma pergunta e uma resposta.
 
 ```js
 let questions = [
-  ['¿En cuántos países opera Laboratoria?', 4],
-  ['¿Cuál es la capital de Perú?', 'Lima'],
-  ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso'],
+  ['Em quantos países a Laboratoria opera?', 4],
+  ['Qual é a capital do Peru?', 'Lima'],
+  ['O que é dança chilena típica?', 'Cueca'],
+  ['Qual é a moeda do México?', 'Peso']
 ];
 
 ```
 
-Para acceder a elementos individuales de los arrays internos simplemente se añade
-un nuevo par de corchetes con el index correspondiente. Por ejemplo, para obtener
-la respuesta a la pregunta '¿Cuál es la moneda de México?' haríamos:
+Para acessar elementos individuais dos vetores internos, basta adicionar um novo par de colchetes com o índice correspondente. Por exemplo, para obter a resposta para a pergunta "Qual é a moeda do México?", nós faríamos:
 
 ```js
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 4],
-  ['¿Cuál es la capital de Perú?', 'Lima'],
-  ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso'],
+  ['Em quantos países a Laboratoria opera?', 4],
+  ['Qual é a capital do Peru?', 'Lima'],
+  ['O que é dança chilena típica?', 'Cueca'],
+  ['Qual é a moeda do México?', 'Peso']
 ];
 console.assert(questions[3][1] === 'Peso');
 
 ```
 
-Vamos a hacerlo de nuevo paso a paso
+Vamos fazer de novo passo a passo:
 
 ```js
 questions = [
-  ['¿En cuántos países opera Laboratoria?', 4],
-  ['¿Cuál es la capital de Perú?', 'Lima'],
-  ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso'],
+  ['Em quantos países a Laboratoria opera?', 4],
+  ['Qual é a capital do Peru?', 'Lima'],
+  ['O que é dança chilena típica?', 'Cueca'],
+  ['Qual é a moeda do México?', 'Peso']
 ];
 const quest3 = questions[3];
 console.assert(
-  equal(quest3, ['¿Cuál es la moneda de México?', 'Peso']),
+  equal(quest3, ['Qual é a moeda do México?', 'Peso']),
 );
 console.assert(quest3[1] === 'Peso');
 
 ```
-
-A continuación Michelle nos explica los conceptos principales de `arrays` con un
-ejemplo:
-
-[![ejemplo array dinosaurios pg 44 JS for Kids](https://img.youtube.com/vi/-hLSzYr3z44/0.jpg)](https://www.youtube.com/watch?v=-hLSzYr3z44)

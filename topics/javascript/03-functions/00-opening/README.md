@@ -1,45 +1,28 @@
-# Apertura
+# Opening
 
-* Tipo: `lectura`
+* Tipo: `leitura`
 * Formato: `self-paced`
-* Duración: `15min`
+* Duração: `15min`
 
 ***
 
-En esta unidad, veremos en profundidad el tema de funciones, aprovechando que
-JavaScript está fuertemente influenciado por la programación funcional desde su
-diseño, y nos ofrece características importantes como asignar funciones a una
-variable, pasar como parámetro de otra función, cambiar el scope de variables,
-asignar como valor de una propiedad de un objeto, etc.
+Nesta unidade veremos com maior profundidade o tema de funções, aproveitando
+que o Javascript é fortemente influênciado pela programação funcional desdo seu
+desenho inicial e que nos oferece características importante para atribuir
+funções a uma variável, passar como parametro à outra função, mudar o escopo de
+variáveis, atribuir como valor de um objeto, etc.
 
-Las funciones son bloques de construcción de aplicaciones que engloban múltiples
-sentencias de código. Son particularmente importantes en JavaScript porque
-soporta características como _first-class functions_, _functions as objects_,
-_runtime function definition_ y más que veremos en esta unidad.
+As funções são blocos de construção de aplicações que englobam múltiplas
+sequências de código. São particularmente importantes no Javascript porque
+suportam caracteristicas como _first-class functions_, _functions as objects_,
+_runtime function definition_ e mais que veremos nesta unidade.
 
-A continuación, se listan algunos principios que te ayudarán a escribir mejores
-funciones:
+Listamos alguns princípios que te vão te ajudar a escrever funções melhores:
 
-* **Don't Repeat Yourself (DRY)**: Es muy común que a lo largo del desarrollo de
-  una solución nos encontremos con un patrón que se va repitiendo a lo largo de
-  nuestro código. Una vez identificado un patrón, es tiempo de escribir una
-  función, objeto o módulo que encapsule dicho patrón para que sea fácilmente
-  reusable. Esto ayuda también a que si encontramos algún bug o quisiéramos
-  agregar funcionalidad, solo se tendría que hacer en un lugar. Además,
-  escribiendo una función reusable te obliga a aislar el patrón del problema, lo
-  cual ayuda a tener funcionalidad relacionada de manera agrupada.
+* **Don't Repeat Yourself (DRY)**: É muito comum que ao longo do desenvolvimento de uma solução encontremos um padrão que se repete ao longo de nosso código. Uma vez identificado um padrão, é hora de escrever uma função, objeto ou módulo que encapsule o padrão encontrado para que seja reutilizado facilmente. Isso ajuda também se encontrarmos algum *bug* ou quisermos adicionar alguma funcionalidade, só precisaremos fazer em um lugar. Além disso, escrevendo uma função reutilizável obriga você a analisar o padrão do problema, o que ajudar ter a funcionalidade relacionada de maneira agrupada.
 
-* **Do One Thing (DOT)**: Cada función debe hacer solo una cosa y hacerlo lo
-  mejor posible. Siguiendo este principio hará tu función más reusable, legible y
-  fácil de depurar.
+* **Do One Thing (DOT)**: Cada função deve fazer somente uma coisa e fazê-la o melhor possível. Seguindo este princípio, você escreverá funções mais reutilizáveis, legíveis e fáceis de depurar.
 
-* **Keep It Simple Stupid (KISS)**: Si bien las funciones deben de hacer solo
-  una cosa, es mejor hacerlo súper claro manteniendo la sencillez y no agregando
-  complejidad innecesaria para llevar a cabo una solución. Esto no quiere decir
-  que la solución no sea óptima, sino que pueda ser legible para poder mantenerla
-  a lo largo del tiempo.
+* **Keep It Simple Stupid (KISS)**: Se as funções devem fazer somente uma coisa, é melhor fazê-la claramente mantendo a simplicidade e não adicionando complexidade desnecessária para resolver um problema. Isto não quer dizer que a solução seja ótima, mas que pode ser legível para poder dar manutenção ao longo do tempo.
 
-* **Less Is More**: Para alcanzar la mayor legibilidad posible y reducir la
-  tentación de hacer más de una cosa, las funciones deben ser tan cortas como sea
-  posible. Si la función se vuelve muy extensa, es bueno considerar separarlo en
-  subtareas y datos a lo largo de funciones y objetos.
+* **Less Is More**: Para alcançar a maior legibilidade possível e reduzir a tentação de fazer mais de uma coisa, as funções devem ser tão pequenas quanto possível. Se a função se torna muito longa, é melhor considerar separá-la em subtarefas e dados ao longo de funções e objetos.
