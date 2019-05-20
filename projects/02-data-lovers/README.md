@@ -45,7 +45,7 @@ Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
-o mel ínimo, etc).
+o mínimo, etc).
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
 explores y decidas con qué temática te interesa trabajar. Hemos elegido
@@ -63,7 +63,7 @@ Estos son datos que te proponemos:
   indicadores demográficos, económicos y comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
+  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](http://pokemongolive.com).
 * [Steam noticias](src/data/steam/steam.json):
   Lista noticias relacionadas a los videojuegos presentes en la
   plataforma de [Steam](https://store.steampowered.com/).
@@ -155,7 +155,7 @@ a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 #### Prototipo de baja fidelidad
 
-Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
+Durante tu trabajo deberás haber hecho e iterado sketches (bocetos) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
 iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 `README.md`.
@@ -210,12 +210,12 @@ que  tendrás que escribir tu propias pruebas unitarias para las funciones
 encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
 estadísticas.
 
-Tus Pruebas Unitarias deben dar una cobertura del 70% de _statements_
+Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus Funciones y está detallado
-en la sección [Data](###data) de las [Especificaciones Técnicas](##especificaciones-técnicas).
+(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
+en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Hacker edition
+## 6. Hacker edition  
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -238,7 +238,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#parte-opcional-hacker-edition) más arriba.
+[_Parte opcional_](#6-hacker-edition) más arriba.
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
@@ -358,7 +358,7 @@ extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
 diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
 mientras que el `.json` está ahí para opcionalmente cargar la data de forma
 asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#parte-opcional-hacker-edition)).
+(ver sección de [_Parte Opcional_](#6-hacker-edition)).
 
 ### `test/data.spec.js`
 
