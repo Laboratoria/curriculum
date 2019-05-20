@@ -55,22 +55,18 @@ Passar este `string` a console.log deve mostrar algo assim:
 ```
 
 Quando você tiver um programa que gere este padrão, defina uma variável `size` = 8
-e mude o programa de tal forma que trabalhe para qualquier tamanho, que seja
+e mude o programa de tal forma que trabalhe para qualquer tamanho, que seja
 proporcionado por um `prompt()` produzindo um quadrado com as medidas indicadas.
 
 ## Gabaritos
 
-A seguir, Michelle te explica como resolveu cada um dos exercícios
+A seguir, o Rafael irá te explicar como ele resolveu cada um dos exerícios
 anteriores.
 
 ### 1. FizzBuzz: Gabarito
 
-<!-- TODO: translate to portuguese -->
-
-[![FizzBuzz Solution](https://img.youtube.com/vi/jmKiCMKM33A/0.jpg)](https://www.youtube.com/watch?v=jmKiCMKM33A)
+[![FizzBuzz](https://img.youtube.com/vi/AwweNciBXZo/0.jpg)](https://www.youtube.com/watch?v=AwweNciBXZo)
 
 ### 2. Tabuleiro de Xadrez: Gabarito
 
-<!-- TODO: translate to portuguese -->
-
-[![Tabuleiro](https://img.youtube.com/vi/ckaXH2IhUrw/0.jpg)](https://www.youtube.com/watch?v=ckaXH2IhUrw)
+[![Tabuleiro](https://img.youtube.com/vi/Ji_fnG3IYbE/0.jpg)](https://www.youtube.com/watch?v=Ji_fnG3IYbE)
