@@ -1,5 +1,5 @@
 function convertScoreToGrade(score) {
-  var str = 'PONTUAÇÃO INVÁLIDA';
+  let str = 'PONTUAÇÃO INVÁLIDA';
 
   switch (true) {
     case ((score <= 100) && (score >= 90)):
@@ -19,6 +19,6 @@ function convertScoreToGrade(score) {
       break;
   }
   return str;
-};
+}
 
 module.exports = convertScoreToGrade;

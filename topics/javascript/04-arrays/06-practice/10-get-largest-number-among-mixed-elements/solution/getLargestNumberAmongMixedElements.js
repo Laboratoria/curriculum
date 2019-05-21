@@ -3,10 +3,10 @@ function getLargestNumberAmongMixedElements(arr) {
     return 0;
   }
 
-  var max = 0;
-  var index = -1;
+  let max = 0;
+  let index = -1;
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] === 'number') {
       if (arr[i] > max) {
         max = arr[i];
