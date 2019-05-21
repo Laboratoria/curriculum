@@ -1,36 +1,37 @@
-# `filter`, `map`,`sort` y`reduce`
+# `filter`, `map`,`sort` e`reduce`
 
-- Tipo: `lectura`
-- Formato: `self-paced`
+- Tipo: `leitura`
+- Formato: `individual`
 - Duración: `45min`
 
 ***
 
-Ya vimos algunos de los métodos de uso más común de los arreglos,
-pero `Array.prototype` provee mucho métodos más.
+Já vimos alguns dos métodos de uso mais comuns para arrays, porém
+`Array.prototype` nos fornece vários outros métodos úteis.
 
-Para facilitarte un poco la vida, los hemos dividido de la siguiente manera:
+Para facilitar um pouco a vida, os dividimos da seguinte forma:
 
-- para agregar y quitar elementos: `push`, `pop`, `shift`, `unshift`, `slice`,
-  `splice` y `concat`.
-- para buscar elementos dentro del array: `indexOf`, `lastIndexOf`, `includes`,
-  `find`, `findIndex` y `filter`.
-- para transformar el array: `map`,`reduce`, `sort`, `reverse`, `split` y `join`.
+- para agregar e retirar elementos: `push`, `pop`, `shift`, `unshift`, `slice`,
+  `splice` e `concat`.
+- para buscar elementos dentro da array: `indexOf`, `lastIndexOf`, `includes`,
+  `find`, `findIndex` e `filter`.
+- para transformar arrays: `map`,`reduce`, `sort`, `reverse`, `split` e `join`.
 
-Nosotros ahora nos enfocaremos en los 4 que consideramos un poco más utilizados:
-`filter`, `map` `sort` y `reduce`.
+Agora focaremos nos quatro métodos que consideramos mais utilizados: `filter`,
+`map` `sort` e `reduce`.
 
-Para conocer al detalle cada unos de estos métodos, visita la documentación en
-[MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array#M.C3.A9todos),
+Para conhecer em detalhes cada um destes métodos, visite a documentação no
+[MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-Como hasta ahora, apelamos a nuestra función para comparar arrays.
+Vamos usar uma função para comparar arrays.
 
 ```js
 const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
 
 ```
 
-Y a un conjunto de datos que utilizaremos como ejemplo para nuestros ejemplos
+Abaixo segue  um conjunto de dados que utilizaremos como exemplo para nossos
+exemplos :)
 
 ```js
 const inventors = [
@@ -62,12 +63,12 @@ const inventors = [
 
 ```
 
-Ahora que tenemos todo, comencemos.
+Agora que já temos o que precisamos, vamos começar.
 
 ## `Array.prototype.filter`
 
-`filter` nos permite obtener un subconjunto de los elementos
-del array, que cumplan con cierta condición
+`filter` nos permite obter um subconjunto dos elementos da array, desde que
+cumpram uma certa condição.
 
 ```js
 const deadBeforeSXX = inventors.filter(inventor => (inventor.passed < 1900));
@@ -90,14 +91,18 @@ console.assert(
 
 ```
 
+A seguir o Dani explica mais a fundo como o método `filter` funciona:
+
+[![Filtrando Arrays em
+JavaScript](https://img.youtube.com/vi/M0sG5YTRiII/0.jpg)](https://www.youtube.com/watch?v=M0sG5YTRiII)
+
 ## `Array.prototype.map`
 
-`map` nos permite visitar cada uno de los elementos del array,
-recolectando en el proceso, un valor de retorno para cada
-elemento visitado
+`map` nos permite visitar cada um dos elementos da array, coletando neste
+processo um valor de retorno para cada elemento visitado.
 
-Por ejemplo, supongamos que queremos un lista de nombre y apellido
-de nuestro dataset
+Por exemplo, supondo que queremos uma lista de nomes e sobrenomes da nossa base
+de dados.
 
 ```js
 const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
@@ -112,7 +117,7 @@ console.assert(
 
 ```
 
-O los años que vivió cada una
+Ou quantos anos cada uma viveu.
 
 ```js
 const yearAlive = inventors.map(({
@@ -131,7 +136,7 @@ console.assert(
 
 ## `Array.prototype.sort`
 
-Ordena el array *in place*.
+Ordena a array *in place* (ou seja, dentro da própria array).
 
 ```js
 let arr = [1, 2, 15];
@@ -140,11 +145,11 @@ console.assert(equal(arr, [1, 15, 2]));
 
 ```
 
-Si te fijas bien, aquí hay algo raro, y es que por defecto sort ordena el array,
-convirtiendo a todos los elementos en `Strings`,
-es por eso que `15` aparece antes que `2`.
+Se olhar bem, vai perceber que algo está estranho: por padrão, `sort` ordena a
+array convertendo todos os elementos em `strings`. Por isso `15` apareceu antes
+de `2`.
 
-Cómo lo solucionamos?
+Como resolvemos isso?
 
 ```js
 const compareNumeric = (a, b) => {
@@ -161,9 +166,9 @@ console.assert(
 
 ```
 
-Veamos unos ejemplos más interesantes
+Vejamos alguns exemplos mais interessantes.
 
-### Ordenar de mayor a menor según año de nacimiento
+### Ordenar de maior a menor segundo o ano de nascimento
 
 ```js
 let ordered = inventors.sort((a, b) => {
@@ -204,15 +209,15 @@ console.assert(equal(
 
 ```
 
-Podríamos haber escrito la función de comparación con un operador
-ternario y obtenido el mismo resultado.
+Poderíamos escrever a função de comparação usando um operador ternário, obtendo
+o mesmo resultado.
 
 ```js
 ordered = inventors.sort((a, b) => (a.year > b.year ? 1 : -1));
 
 ```
 
-### Ordenar según la cantidad de años vividos
+### Ordenar segundo a quantidade de anos vividos
 
 ```js
 const moreYearsAlive = inventors.sort((a, b) => {
@@ -254,15 +259,13 @@ console.assert(equal(
 
 ## `Array.prototype.reduce`
 
-Cuando queremos iterar un array, usamos `forEach`.
-Ahora bien, para hacer lo mismo pero recolectando una lista de valores,
-con un valor de cada elemento, usamos `map`.
+Quando queremos iterar uma array, usamos `forEach`. Agora, para fazer o mesmo,
+mas coletando uma lista de valores, com um valor de cada elemento, usamos `map`.
 
-`reduce` es similar a map, pero lo usamos para iterar un array
-y obtener un **único valor** que contenga un consolidado de
-todos los elementos.
+`reduce` é similar ao `map`, porém o utilizamos para iterar uma array e obter um
+**único valor** que contenha um consolidado de todos os elementos.
 
-Su signatura es la siguiente:
+Façamos o seguinte:
 
 ```js
 let initial = 0;
@@ -272,20 +275,20 @@ const value = arr.reduce((previousValue, item, index, array) => {
 
 ```
 
-Donde
+Onde
 
-- `item` -- es el elemento actual que estamos iterando
+- `item` -- é o elemento atual que estamos iterando
 
-- `index` -- el índice actual
+- `index` -- é o índice atual
 
-- `array` -- el array actual.
+- `array` -- é a array atual
 
-Hasta aquí todo mas o menos normal, pero se agrega un parámetro:
+Até aqui tudo mais ou menos normal, porém adicionamos um parâmetro:
 
-- `previousValue` -- que es el resultado de la llamada anterior de la función.
-  En la primera llamada a la función, el valor de `previousValue` es `initial`.
+- `valorPrevio` -- que é o resultado da chamada anterior da função. Na primeira
+  chamada da função, o valor de `valorPrevio` é `inicial`.
 
-Veamos un ejemplo simple: Sumar todos los elementos de un array
+Vejamos um exemplo simples: somar todos os elementos de uma array.
 
 ```js
 arr = [1, 2, 3, 4, 5];
@@ -295,42 +298,42 @@ console.assert(arrSum === 15);
 
 ```
 
-Aqui usamos la variante más común de `reduce`, que sólo utiliza los dos primeros
-argumentos.
+Aqui usamos a variante mais comum de `reduce`, que só utiliza os dois primeiros
+parâmetros.
 
-Veamos más detalle que está sucediendo:
+Vejamos com mais detalhes o que está acontecendo:
 
-1. En la primera llamada, `sum` tiene el valor `initial` (el segundo argumento
-   de `reduce`), que es `0`. Y `current` es el primer elemento del array, que es
-   `1`. Entonces el resultado es `1`.
-2. En la segunda llamada, `sum === 1`, y sumamos el segundo elemento del array
-   (`2`) y devolvemos.
-3. En la tercera llamada, `sum === 3` y sumamos al tercer elemento (`3`) ...
+1. Na primeira chamada, `soma` tem o valor de `inicial` (o segundo argumento de
+   `reduce`), que é `0`. E `atual` é o primeiro elemento da array, que é `1`.
+   Então o resultado é `1`.
+2. Na segunda chamada, `sum === 1`, somamos o segundo elemento da array (`2`) e
+   devolvemos.
+3. Na terceira chamada, `sum === 3` e somamos ao terceiro elemento (`3`) ...
 
-Y así sigue:
+E assim segue:
 
 ![image](https://user-images.githubusercontent.com/211721/40194646-c88004e4-59d0-11e8-8ba2-71e6afeef003.png)
 
-Si lo pasamos a una tabla, donde cada fila representa una llamada a la función
-sobre el próximo elemento del array
+Se passarmos para uma tabela, onde cada fila representa uma chamada da função
+sobre o próximo elemento da array:
 
-|   |`sum`|`current`|`result`|
-|---|-----|---------|---------|
-|primera llamada|`0`|`1`|`1`|
-|segunda llamada|`1`|`2`|`3`|
-|tercera llamada|`3`|`3`|`6`|
-|cuarta llamada|`6`|`4`|`10`|
-|quinta llamada|`10`|`5`|`15`|
+|                |`soma`|`atual`|`resultado`|
+|----------------|------|-------|-----------|
+|primeira chamada|  `0` |  `1`  |    `1`    |
+|segunda chamada |  `1` |  `2`  |    `3`    |
+|terceira chamada|  `3` |  `3`  |    `6`    |
+|quarta chamada  |  `6` |  `4`  |   `10`    |
+|quinta chamada  | `10` |  `5`  |   `15`    |
 
-Como se puede apreciar, el resultado de la llamada anterior, se convierte en el
-primer parámetro de la próxima llamada.
+Como podemos ver, o resultado da chamada anterior se converte no primeiro
+parâmetro da próxima chamada.
 
-Y para terminar, solo decir que `reduceRight` hace lo mismo, pero comenzando por
-el final del array.
+Finalizando, apenas vamos mencionar que `reduceRight` faz a mesma coisa, porém
+começando pelo final da array.
 
-Veamos ahora un par de ejemplos:
+Vejamos agora dois exemplos:
 
-### Calcular la cantidad de años vividos, de todas las inventoras sumadas
+### Calcular a quantidade de anos vividos de todas as inventoras, somados
 
 ```js
 const totalYears = inventors.reduce(
@@ -341,9 +344,9 @@ console.assert(totalYears === 305);
 
 ```
 
-### Sumar la cantidad de apariciones de cada medio de transporte
+### Somar a quantidade de ocorrências de cada meio de transporte
 
-Cambiamos de dataset
+Vamos mudar de base de dados.
 
 ```js
 const transportationData = [
@@ -374,7 +377,7 @@ console.assert(equal(
 
 ```
 
-### Ahora lo mismo, pero agregando un nuevo medio de transporte (pogostick)
+### Agora a mesma coisa, porém agregando um novo meio de transporte (pogobol)
 
 ```js
 transportationData.push('pogostick');
@@ -390,10 +393,12 @@ console.assert(equal(
 
 ***
 
-En esta lectura hemos visto algunos ejemplos de métodos de arrays que siempre al
-comienzo, pero que una vez que uno aprende a dominarlos, son super útiles.
+Nesta leitura vimos alguns exemplos de métodos de arrays que, uma vez que se
+aprende a dominá-los, são super úteis.
 
-## Lecturas complementarias
+## Leituras complementares
 
-- [Array en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [Array methods en javascript.info](https://javascript.info/array-methods)
+- [Array no
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Array methods em javascript.info (em
+  inglês)](https://javascript.info/array-methods)

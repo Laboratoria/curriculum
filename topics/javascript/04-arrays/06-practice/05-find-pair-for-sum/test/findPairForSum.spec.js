@@ -1,4 +1,3 @@
-
 const Assert = require('chai').assert;
 const findPairForSum = require('../solution/findPairForSum');
 

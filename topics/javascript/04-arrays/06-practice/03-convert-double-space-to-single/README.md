@@ -1,18 +1,18 @@
 # convertDoubleSpaceToSingle
 
-Escribe una función llamada `convertDoubleSpaceToSingle`.
+Escreva uma função chamada `convertDoubleSpaceToSingle`.
 
-Dada una cadena, `convertDoubleSpaceToSingle` devuelve la cadena pasada en
-cadena con todos los espacios dobles convertidos a espacios simples.
+Dada uma _string_,  `convertDoubleSpaceToSingle` devolve essa cadeia de
+caracteres com os espaços duplos convertidos em espaços simples.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
-const output = convertDoubleSpaceToSingle('string  with  double  spaces');
+```javascript
+var output = convertDoubleSpaceToSingle("string  with  double  spaces");
 console.log(output); // --> "string with double spaces"
-
 ```
 
 Notas:
 
-- Para hacer este problema, debes estar familiarizada con `String.split`, y `Array.join`.
+* Para resolver esse problema, você deve estar familiarizado com `String.split`e
+  `Array.join`.

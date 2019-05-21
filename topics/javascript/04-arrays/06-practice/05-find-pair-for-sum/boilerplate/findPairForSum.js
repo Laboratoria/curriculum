@@ -1,5 +1,4 @@
-const findPairForSum = (array, number) => {
+function findPairForSum(array, number) {
 
-};
-
+}
 module.exports = findPairForSum;

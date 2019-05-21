@@ -1,21 +1,21 @@
 # convertScoreToGrade
 
-Escribe una función llamada `convertScoreToGrade`.
+Escreva uma função chamada `convertScoreToGrade`.
 
-Dada una puntuación, `convertScoreToGrade` devuelve una cadena que representa el
-grado de letra correspondiente a la puntuación dada.
+Dada uma pontuação numérica, `convertScoreToGrade` devolve uma letra
+\(_string_\) que representa essa pontuação.
 
 Notas:
 
-- (100 - 90) -> 'A'
-- (89 - 80) ->' B '
-- (79 - 70) -> 'C'
-- (69 - 60) -> 'D'
-- (59 - 0) -> 'F'
-- Si la puntuación dada es mayor que 100 o menor que 0, debe devolver
-  'PUNTUACION INVALIDA'.
+* \(100 - 90\) -&gt; 'A'
+* \(89 - 80\) -&gt; 'B'
+* \(79 - 70\) -&gt; 'C'
+* \(69 - 60\) -&gt; 'D'
+* \(59 - 0\) -&gt; 'F'
+* Se a pontuação dada for maior que 100 ou menor que 0, você deve retornar
+  'INVALID SCORE'.
 
-```js
-const output = convertScoreToGrade(91);
+```javascript
+var output = convertScoreToGrade(91);
 console.log(output); // -> 'A'
 ```

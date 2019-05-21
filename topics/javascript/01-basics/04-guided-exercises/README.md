@@ -1,60 +1,62 @@
-# Ejercicios Guiados
+# Exercícios Livres
 
 - Tipo: `práctica`
 - Formato: `self-paced`
 - Duración: `60min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizajem
 
-- Solidificar los conceptos de variables y tipos de datos resolviendo ejercicios
-  prácticos.
-- Darte una perspectiva de las cosas que puedes crear con lo que acabas de
+- Solidificar os conceitos de variáveis e tipos de dados resolvendo exercícios
+  práticos.
+- Dar uma perspectiva das coisas que você pode criar com o que você acaba de
   aprender.
 
 ***
 
 ## Enunciados
 
-Ahora que ya conoces ciertos conceptos base de la programación, es hora de que
-veas las cosas que puedes crear en la práctica.
+Agora que você já conhece certos conceitos básicos da programação, é hora de
+você ver na prática as coisas que você consegue criar. Não é um teste , mas é
+super importante você praticar!! Os projetos a criar são:
 
-Los proyectos a crear son:
-
-1. **Edad en segundos**: Crea una web que pida al usuario su edad en años,
-   utilizando `prompt()`, y devuelva su edad **en segundos**, utilizando
+1. **Idade em segundos**: Crie um site que peça ao usuário a idade dele em anos,
+   utilizando `prompt()`, e devolva a idade **em segundos**, utilizando
    `document.write()`.
-2. **Convertidor de temperatura**: Crea una página web que pida al usuario la
-   temperatura en grados Celsius (°C), utilizando `prompt()`, y devuelva, en la
-   consola, la temperatura en grados Farenheit (°F) utilizando `console.log()`.
-   La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) + 32`.
-3. **Ganancias y pérdidas**: Crea un programa que pide los ingresos, los costos
-   y el % de impuestos, y calcula la ganancia después de impuestos. Debe
-   imprimir el resultado en la web con el símbolo $ adelante.
-4. **Iniciales**: Crea un programa que pide el nombre y apellido al usuario. El
-   usuario debe ingresar dos palabras separadas por un espacio, por ejemplo:
-   "Ana Martinez". El programa debe devolver las iniciales **en mayúsculas**.
-   Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven las iniciales
-   "AM". "Michelle Seguil" y "michelle seguil" devuelven "MS".
+2. **Conversor de temperatura**:Crie um site que peça ao usuário a temperatura
+   em graus Celsius (°C), utilizando `prompt()`, e devolva, no console, a
+   temperatura em graus Farenheit (°F) utilizando `console.log()`. A fórmula
+   matemática para converter de °C a °F é: `T(°F) = ( T(°C) × 1.8 ) + 32`.
+3. **Ganhos e perdas**: Crie um programa que peça os ingressos, os custos e o %
+   de impostos, e calcule o ganho depois de impostos. Deve imprimir o resultado
+   no site com o símbolo $ na frente.
+4. **Iniciais**: Crie um programa que peça o nome e sobrenome do usuário. O
+   usuário deve introduzir duas palavras separadas por um espaço, por exemplo:
+   "Ana Martinez". O programa deve devolver as iniciais **em maiúsculas**. Vamos
+   ver alguns exemplos: "ana martinez" e "Ana Martinez" devolvem as iniciais
+   "AM". "Michelle Seguil" e "michelle seguil" devolvem "MS".
 
 ***
 
-## Solucionarios
+## Soluções
 
-A continuación, Michelle te explica cómo resolvió cada uno de los ejercicios
-anteriores.
+A seguir, Thaissa te explica como resolveu cada um dos exercícios anteriores.
 
-### 1. Edad en segundos
+### 1.  Idade em segundos
 
-[![Solution Age in Seconds](https://i.ytimg.com/vi/1IZT_7EfRMw/0.jpg)](https://www.youtube.com/watch?v=1IZT_7EfRMw)
+[![Solution Age in
+Seconds](https://embed-ssl.wistia.com/deliveries/9d6c875fd50f8b845f6f6e8ec6ca2d471c6a49ff.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/a9x43umo91?wvideo=a9x43umo91)
 
-### 2. Convertidor de temperatura
+### 2. Ganhos e perdas
 
-[![Solution Temperature converter](https://i.ytimg.com/vi/Ix6VLiBcABw/0.jpg)](https://www.youtube.com/watch?v=Ix6VLiBcABw)
+[![Solution Temperature
+converter](https://embed-ssl.wistia.com/deliveries/326565ee59de640f72cba3b9b227ef62d0a1b15a.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/ri4tobcdz5?wvideo=ri4tobcdz5)
 
 ### 3. Ganancias y pérdidas
 
-[![Solution Earnings and loses](https://i.ytimg.com/vi/2WtBw8eC0us/0.jpg)](https://www.youtube.com/watch?v=2WtBw8eC0us)
+[![Solution Earnings and
+loses](https://embed-ssl.wistia.com/deliveries/6cb92e318311cf2c730164f665c3ea4c5e0e7749.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/r92tdew4i6?wvideo=r92tdew4i6)
 
-### 4. Iniciales
+### 4. Iniciais
 
-[![Solution Initials](https://i.ytimg.com/vi/E5ozw3b6iM4/0.jpg)](https://www.youtube.com/watch?v=E5ozw3b6iM4)
+[![Solution
+Initials](https://embed-ssl.wistia.com/deliveries/5bbc757fbad4eb09b79aa261a502e815c0a3c983.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/cn7vfs5x1e?wvideo=cn7vfs5x1e)

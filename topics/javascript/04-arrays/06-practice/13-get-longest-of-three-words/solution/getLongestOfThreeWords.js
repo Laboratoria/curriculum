@@ -1,4 +1,4 @@
-const getLongestOfThreeWords = (word1, word2, word3) => {
+function getLongestOfThreeWords(word1, word2, word3) {
   let strLong = word1;
 
   if (strLong.length < word2.length) {
@@ -10,6 +10,6 @@ const getLongestOfThreeWords = (word1, word2, word3) => {
   }
 
   return strLong;
-};
+}
 
 module.exports = getLongestOfThreeWords;

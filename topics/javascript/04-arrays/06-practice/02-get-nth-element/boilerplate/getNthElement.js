@@ -1,5 +1,5 @@
-const getNthElement = (array, n) => {
+function getNthElement(array, n) {
   // your code here
-};
+}
 
 module.exports = getNthElement;

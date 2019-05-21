@@ -1,19 +1,19 @@
 # getLargestNumberAmongMixedElements
 
-Escriba una función llamada "getLargestNumberAmongMixedElements".
+Escreva uma função chamada "getLargestNumberAmongMixedElements".
 
-Dado cualquier arreglo, "getLargestNumberAmongMixedElements" devuelve el mayor
-número en el arreglo dado.
+Dado qualquer vetor, "getLargestNumberAmongMixedElements" retorna o maior número
+do vetor especificado.
 
 Notas:
 
-- El arreglo puede contener valores de un tipo distinto a los números.
-- Si el arreglo está vacío, debería devolver 0.
-- Si el arreglo no contiene números, debería devolver 0.
+* O _array_ pode conter valores de um tipo diferente de `number`.
+* Se o _array_ estiver vazio, ela deve retornar `0`.
+* Se o _array_ não contiver números, deverá retornar `0`.
 
-Ejemplo:
+Exemplo:
 
-```js
-const output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
+```javascript
+var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 5
 ```

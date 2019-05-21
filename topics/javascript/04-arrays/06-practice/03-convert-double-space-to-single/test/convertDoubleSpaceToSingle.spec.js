@@ -1,3 +1,4 @@
+
 const Assert = require('chai').assert;
 const convertDoubleSpaceToSingle = require('../solution/convertDoubleSpaceToSingle');
 

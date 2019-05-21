@@ -1,17 +1,17 @@
 # getNthElement
 
-Escribe una función llamada `getNthElement`.
+Escreva uma função chamada `getNthElement`.
 
-Dado un arreglo y un entero, `getNthElement` devuelve el valor según el entero
-dado, dentro del arreglo dado.
+Dado um _array_ e um inteiro, `getNthElement` devolve o valor de acordo com o
+inteiro dado, dentro do array fornecido.
 
 Notas:
 
-- Si el arreglo tiene una longitud de 0, debería devolver' `undefined`'.
+* Se o array tiver um comprimento de `0`, ele deve retornar  `undefined`.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
-const output = getNthElement([1, 3, 5], 1);
+```javascript
+var output = getNthElement([1, 3, 5], 1);
 console.log(output); // --> 3
 ```

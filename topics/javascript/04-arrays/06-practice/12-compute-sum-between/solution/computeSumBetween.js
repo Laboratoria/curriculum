@@ -1,4 +1,4 @@
-const computeSumBetween = (num1, num2) => {
+function computeSumBetween(num1, num2) {
   let sum = 0;
 
   for (let i = num1; i < num2; i += 1) {
@@ -6,6 +6,6 @@ const computeSumBetween = (num1, num2) => {
   }
 
   return sum;
-};
+}
 
 module.exports = computeSumBetween;

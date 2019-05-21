@@ -1,15 +1,15 @@
 # findShortestOfThreeWords
 
-Escribe una función llamada `findShortestOfThreeWords`.
+Escreva uma função chamada `findShortestOfThreeWords`.
 
-Dado 3 cadenas, `findShortestOfThreeWords` devuelve el más corto de las cadenas
-dadas.
+Com 3 _strings_, `findShortestOfThreeWords` devolve a _string_ mais curta delas.
 
 Notas:
 
-- Si hay empate, debe devolver la primera palabra en la lista de parámetros.
+* Se houver um empate, você deve retornar a primeira palavra da lista de
+  parâmetros.
 
-```js
-const = findShortestOfThreeWords('a', 'dos', 'tres');
-console.log(salida); // -> 'a'
+```javascript
+var output = findShortestOfThreeWords('a', 'dos', 'tres');
+console.log(output); // -> 'a'
 ```
