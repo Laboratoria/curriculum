@@ -2,10 +2,10 @@ const Assert = require('chai').assert;
 const convertScoreToGrade = require('../solution/convertScoreToGrade');
 
 describe('convertScoreToGrade()', () => {
-  it("deve devolver 'PONTUAÇÃO INVÁLIDA', para 102", () => {
+  it("deve devolver 'PUNTUACION INVALIDA', para 102", () => {
     const output = convertScoreToGrade(102);
 
-    Assert.deepEqual(output, 'PONTUAÇÃO INVÁLIDA');
+    Assert.deepEqual(output, 'PUNTUACION INVALIDA');
   });
 
   it("deve devolver 'F', para 59", () => {
