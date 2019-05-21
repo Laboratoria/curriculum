@@ -1,55 +1,60 @@
-# Ejercicios guiados
+# Exercícios Livres
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `80min`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `80min`
+
+***
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de
-  `funciones` y `arrays` para la resolución de problemas.
+- Entender, através de casos práticos, como aplicar os conceitos de `funções` e
+  `arrays` para a resolução de problemas.
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para
-resolver problemas.
+Como já fizemos anteriormente, agora é hora de aplicar os conceitos aprendidos
+para resolver problemas.
 
-A continuación tendrás varios problemas que debemos resolver. Intenta
-resolverlos primero por tu cuenta. Más abajo encontrarás las soluciones de
-Lourdes, otra instructora estrella de Laboratoria. Después de haberlo intentado,
-compara tus soluciones con las de Lourdes.
+A seguir, você verá vários problemas a serem resolvidos. Tente resolvê-los
+primeiro por conta própria. Mais abaixo, você encontrará as soluções da nossa
+equipe. Depois que você tentar, compare suas soluções a nossa.
 
 ### 1. Reverse
 
-Crea una función que invierta el orden de los elementos de un `array`. Completa
-este reto de dos maneras: en una, el `array` invertido es un _nuevo_ `array`;
-en la segunda, modifica el mismo `array` que se proporciona como argumento.
-Investiga sobre el método [`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse).
-¿Qué puedes concluir?
+Crie uma função que inverta a ordem dos elementos de um vetor \(_array_\).
+Complete este desafio de duas maneiras: em uma, o vetor invertido é um **novo**
+vetor; na segunda, modifique o **mesmo** _array_ que é fornecido como argumento
+\(_in place_\). Pesquise o método
+[`reverse`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse).
+O que você pode concluir?
 
 ### 2. Search
 
-Crea una función que busque un elemento en un `array`, devolviendo su posición
-(index) e imprima el valor en la consola. Tip: utiliza el [`algoritmo de linear
-search`](https://en.wikipedia.org/wiki/Linear_search). Con este ejercicio
-introducimos el concepto de `algoritmo`. Para entender qué es un algoritmo,
-revisa los siguientes videos:
+Crie uma função que procure um elemento em um vetor, retorne sua posição
+\(índice - _index_\) e imprima o valor no console. Dica: use o [algoritmo de
+busca linear](https://en.wikipedia.org/wiki/Linear_search). Nesse exercício,
+introduzimos o conceito de **algoritmo**. Para entender o que é um algoritmo,
+confira os seguintes vídeos:
 
-- [Magic Markers: ¿Qué es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
-- [Kahn Academy: ¿Qué es un algoritmo y por qué debería importarte?]
-  (<https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms>)
+* [Magic Markers: O que é um
+  algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
+* [Kahn Academy: O que é um algoritmo e por que você deve se importar com
+  isso?](https://pt.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
 
-## Solucionarios
+## Soluções
 
-A continuación, Lourdes te explica cómo resolvió cada uno de los ejercicios
+A seguir, Rafael lhe explicará como ele resolveu cada um dos exercícios
 anteriores.
 
 ### 1. Reverse
 
-[![Solution Reverse](https://img.youtube.com/vi/BgcnOdIrUdo/0.jpg)](https://www.youtube.com/watch?v=BgcnOdIrUdo)
+[![Solução para
+Reverse](https://img.youtube.com/vi/ErS_iFp8eFc&t/0.jpg)](https://www.youtube.com/watch?v=ErS_iFp8eFc&t)
 
 ### 2. Search
 
-[![Solution Search](https://img.youtube.com/vi/JjcDSIShTm0/0.jpg)](https://www.youtube.com/watch?v=JjcDSIShTm0)
+[![Solução para
+Search](https://img.youtube.com/vi/AJCWkJgTCj0/0.jpg)](https://www.youtube.com/watch?v=AJCWkJgTCj0)

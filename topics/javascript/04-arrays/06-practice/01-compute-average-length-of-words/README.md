@@ -1,11 +1,10 @@
 # computeAverageLengthOfWords
 
-Escribe una función 'computeAverageLengthOfWords' que recibe dos strings y
-devuelve el promedio de la longitud de ambos strings.
+Escreva uma função `computeAverageLengthOfWords` que receba duas strings e devolva o comprimento médio de ambas as strings.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
-const output = computeAverageLengthOfWords('code', 'programs');
+```javascript
+var output = computeAverageLengthOfWords('code', 'programs');
 console.log(output); // --> 6
 ```

@@ -1,50 +1,46 @@
-# Quiz 1
+# Quiz
 
-- Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `20min`
+* Tipo: `quiz`
+* Formato: `individual`
+* Duração: `20 min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+* Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
 
-***
+## Perguntas
 
-## Preguntas
+### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
 
-### 1) Los elementos de un Array tienen que ser todos del mismo tipo de dato
+#### Opções
 
-#### Opciones
-
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Para qué son útiles los Arrays?
+### 2\) Para que os Arrays são úteis?
 
-#### Opciones
+#### Opções
 
-1. Para ya no usar strings
-2. Para iniciar tu programa
-3. Para ya no usar variables
-4. Para agrupar y manipular data
+1. Para deixar de usar _strings_
+2. Para iniciar seu programa
+3. Para não mais usar variáveis
+4. Para agrupar e manipular dados
 
 <solution style="display:none;">4</solution>
 
-### 3) En el siguiente código
+### 3\) No código a seguir
 
-```js
-const listOfNumbers = [2, 3, 4, 5, 6];
+```javascript
+var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-¿Qué resultado obtengo al realizar `console.log(listOfNumbers[3])` ?
+Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 
-#### Opciones
+#### Opções
 
 1. `2`
 2. `3`
@@ -54,15 +50,15 @@ const listOfNumbers = [2, 3, 4, 5, 6];
 
 <solution style="display:none;">4</solution>
 
-### 4) En el siguiente código
+### 4\) No código a seguir,
 
-```js
-const listOfNumbers = [2, 3, 4, 5, 6];
+```javascript
+var listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
+se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 
-#### Opciones
+#### Opções
 
 1. `[1, 3, 4, 5, 6]`
 2. `[2, 1, 4, 5, 6]`
@@ -72,10 +68,10 @@ Si realizo `listOfNumbers[3] = 1` ¿cuál sería el resultado del Array?
 
 <solution style="display:none;">4</solution>
 
-### 5) En el siguiente código
+### 5\) No código a seguir,
 
-```js
-const questions = [
+```javascript
+var questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -83,9 +79,9 @@ const questions = [
 ];
 ```
 
-¿Cómo obtengo el dato `Lima`?
+como obtenho o elemento `Lima`?
 
-#### Opciones
+#### Opções
 
 1. `console.log(questions[1][1])`
 2. `console.log(questions[1][2])`
@@ -94,60 +90,59 @@ const questions = [
 
 <solution style="display:none;">1</solution>
 
-### 6) Los elementos de un Array se almacenan en propiedades
+### 6\) Os elementos de um Array são armazenados em propriedades.
 
-#### Opciones
+#### Opções
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">1</solution>
 
-### 7) ¿Cuál es el resultado del siguiente código?
+### 7\) Qual é o resultado do código a seguir?
 
-```js
-const coders = ['michelle', 'lourdes', 'ruth'];
-
-coders.push('alejandra');
+```javascript
+var coders = ['michelle', 'lourdes', 'ruth'];
+coders.push('alexandra');
 ```
 
-#### Opciones
+#### Opções
 
-1. `['alejandra']`
-2. `['alejandra','michelle', 'lourdes', 'ruth']`
-3. `['michelle', 'lourdes', 'ruth', 'alejandra']`
-4. El código carece de argumentos.
+1. `['alexandra']`
+2. `['alexandra','michelle', 'lourdes', 'ruth']`
+3. `['michelle', 'lourdes', 'ruth', 'alexandra']`
+4. Faltam argumentos.
 
 <solution style="display:none;">3</solution>
 
-### 8) ¿Cuál es el resultado del siguiente código?
+### 8\) Qual é o resultado do código abaixo?
 
-```js
-const coders = ['michelle', 'lourdes', 'ruth'];
-const removed = coders.shift();
+```javascript
+var coders = ['michelle', 'lourdes', 'ruth'];
+var removed = coders.shift();
 
 console.log('Elemento eliminado: ' + removed);
 ```
 
-#### Opciones
+#### Opções
 
-1. Elemento eliminado: michelle
-2. Elemento eliminado: lourdes
-3. Elemento eliminado: ruth
-4. undefined
+1. Elemento excluído: `michelle`
+2. Elemento excluído: `lourdes`
+3. Elemento excluído: `ruth`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
-### 9) ¿Cuál es el resultado del siguiente código?
+### 9\) Qual é o resultado do código seguinte?
 
-```js
-const courses = ['Intro JS', 'Intro UX', 'UX master'];
+```javascript
+var courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.unshift('JS master', 'English for Developers');
 
 console.log(courses.length);
 ```
 
-#### Opciones
+#### Opções
 
 1. `['JS master', 'English for Developers']`
 2. `['Intro JS', 'Intro UX', 'UX master', 'JS master', 'English for Developers']`
@@ -156,11 +151,11 @@ console.log(courses.length);
 
 <solution style="display:none;">4</solution>
 
-### 10) ¿Cuál es el resultado del siguiente código?
+### 10\) Qual é o resultado do código a seguir?
 
-```js
-const listOfNumbers = [];
-for (let i = 0; i <= 5; i += 1) {
+```javascript
+var listOfNumbers = [];
+for (var i = 0; i <= 5; i++) {
   listOfNumbers.push(i);
 }
 listOfNumbers.pop();
@@ -168,7 +163,7 @@ listOfNumbers.pop();
 console.log(listOfNumbers.length);
 ```
 
-#### Opciones
+#### Opções
 
 1. `2`
 2. `3`
@@ -177,20 +172,20 @@ console.log(listOfNumbers.length);
 
 <solution style="display:none;">4</solution>
 
-### 11) En el siguiente código, completa el espacio
+### 11\) No código a seguir, preencha a lacuna.
 
-```js
-const course1 = 'Intro JS, ' ;
-const course2 = 'Intro UX, ';
-const course3 = 'UX master.';
+```javascript
+var course1 = 'Intro JS, ' ;
+var course2 = 'Intro UX, ';
+var course3 = 'UX master.';
 
-const allCourses = ___________(course2, course3);
+var allCourses = ___________(course2, course3);
 
 console.log(allCourses);
 // → Intro JS, Intro UX, UX master.
 ```
 
-#### Opciones
+#### Opções
 
 1. `concat{course1}`
 2. `course1.concat`
@@ -199,17 +194,16 @@ console.log(allCourses);
 
 <solution style="display:none;">2</solution>
 
-### 12) ¿Cuál es el resultado del siguiente código?
+### 12\) Qual é o resultado código abaixo?
 
-```js
-const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+```javascript
+var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.pop();
 courses.push('English for Developers');
-
 courses.indexOf('English for Developers');
 ```
 
-#### Opciones
+#### Opções
 
 1. `1`
 2. `2`
@@ -218,17 +212,16 @@ courses.indexOf('English for Developers');
 
 <solution style="display:none;">3</solution>
 
-### 13) En el siguiente código, ¿qué método debo usar para obtener el resultado solicitado?
+### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
 
-```js
-const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+```javascript
+var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.___________;
 
 // → 'Intro JS,Intro UX,UX master,JS master'
-
 ```
 
-#### Opciones
+#### Opções
 
 1. `concat()`
 2. `join()`
@@ -237,10 +230,10 @@ courses.___________;
 
 <solution style="display:none;">2</solution>
 
-### 14) En el siguiente código, ¿cuál sería el resultado?
+### 14\) No código a seguir, qual seria o resultado?
 
-```js
-const coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
+```javascript
+var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
 if (coders.length < 3) {
   coders.push('alejandra');
   coders.slice(1,2);
@@ -250,7 +243,7 @@ if (coders.length < 3) {
 }
 ```
 
-#### Opciones
+#### Opções
 
 1. `['alejandra']`
 2. `['lourdes']`
@@ -259,14 +252,14 @@ if (coders.length < 3) {
 
 <solution style="display:none;">3</solution>
 
-### 15) ¿Cuál sería el resultado en el siguiente código?
+### 15\) Qual seria o resultado do código a seguir?
 
-```js
-const listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
+```javascript
+var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
 listOfNumbers.lastIndexOf(12);
 ```
 
-#### Opciones
+#### Opções
 
 1. `1`
 2. `2`
@@ -275,13 +268,13 @@ listOfNumbers.lastIndexOf(12);
 
 <solution style="display:none;">3</solution>
 
-### 16) En el siguiente código, completa los espacios para que se invierta el orden de los elementos del `array`
+### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
 
-```js
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```javascript
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i < array.length; i += 1) {
-  const item = array._________();
+for (var i = 0; i < array.length; i++) {
+  var item = array._________();
   array._________(i, 0, item);
 }
 
@@ -289,7 +282,7 @@ console.log(array);
 // → [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-#### Opciones
+#### Opções
 
 1. `pop` - `slice`
 2. `pop` - `splice`
@@ -298,11 +291,11 @@ console.log(array);
 
 <solution style="display:none;">2</solution>
 
-### 17) En el siguiente código, ¿qué debemos comparar? Completa los espacios
+### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
 
-```js
+```javascript
 function search(array, element) {
-  for (let i = 0; i < array.length; i += 1) {
+  for (var i = 0; i < array.length; i++) {
     if (_________ === _________) {
       return i;
     }
@@ -313,7 +306,7 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 // → 1
 ```
 
-#### Opciones
+#### Opções
 
 1. `array[i]` - `element`
 2. `length` - `array[i]`
@@ -321,27 +314,3 @@ console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 4. `element[i]` - `array`
 
 <solution style="display:none;">1</solution>
-
-<!--
-### 18) ¿Qué es un algoritmo?
-
-#### Opciones
-
-1. Es un sistema informático
-2. Es un conjunto de pasos para realizar una tarea
-3. Es una ciencia que transmite información que luego se analiza
-4. Es un método para generar una copia de seguridad de mis repositorios
-
-<solution style="display:none;">2</solution>
-
-### 19) Los algoritmos nos permiten comunicar \_\_\_\_\_ sin explicar el por qué
-
-#### Opciones
-
-1. diferentes funciones
-2. muchas propiedades
-3. métodos abstractos
-4. tareas complejas
-
-<solution style="display:none;">4</solution>
--->

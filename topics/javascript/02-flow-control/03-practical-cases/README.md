@@ -7,7 +7,7 @@
 ## Objetivos
 
 - Entender através de casos prácticos como aplicar os conceitos de
-  `estruturas condicionais` e `estruturas repetitivas` para a resolução de
+  `estruturas condicionais` e `estruturas repetitivas` para a resolução de
   problemas
 
 ***
@@ -16,11 +16,6 @@
 
 Como fizemos antes, é hora de aplicar os conceitos aprendidos para
 resolver problemas.
-
-A seguir veremos vários problemas que devemos resolver. Tente
-resolvê-los primeiro sozinha. Mais abaixo você encontrará as soluções da
-Michelle. Depois de haver tentado por si mesma, compare as suas soluções com as da
-Michelle.
 
 ### 1. FizzBuzz
 

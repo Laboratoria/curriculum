@@ -1,36 +1,34 @@
-# Quiz 2
+# Requiz
 
-- Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `15min`
+* Tipo: `quiz`
+* Formato: `individual`
+* Duração: `15 min`
 
 ***
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
-  entendimiento pleno de los conceptos.
+* Faça um segundo teste para garantir que terminamos a unidade com total
+  compreensão dos conceitos.
 
-***
+## Perguntas
 
-## Preguntas
+### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe.
 
-### 1) En el siguiente ejemplo, el Array `mixedArray` presenta un error de syntaxis
-
-```js
-const mixedArray = [3, hola mundo, 627.5];
+```javascript
+var mixedArray = [3, hola mundo, 627.5];
 ```
 
-#### Opciones
+#### Opções
 
-1. Verdadero
-2. Falso
+1. Verdadeiro
+2. Falsa
 
 <solution style="display:none;">1</solution>
 
-### 2) ¿Cuál de los siguientes enunciados NO es un método?
+### 2\) Qual das seguintes opções NÃO é um método?
 
-#### Opciones
+#### Opções
 
 1. `push`
 2. `concat`
@@ -39,15 +37,15 @@ const mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 3) En el siguiente código
+### 3\) Considere o código abaixo:
 
-```js
-const listOfNumbers = [1, 2, 3, 4, 5, 6];
+```javascript
+var listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
-¿Qué resultado obtengo al realizar `console.log(listOfNumbers[6])`?
+Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
 
-#### Opciones
+#### Opções
 
 1. `''`
 2. `4`
@@ -57,15 +55,15 @@ const listOfNumbers = [1, 2, 3, 4, 5, 6];
 
 <solution style="display:none;">5</solution>
 
-### 4) En el siguiente código
+### 4\) No código a seguir,
 
-```js
-const listOfNumbers = [1, 2, 3, 4, 5, 6];
+```javascript
+var listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
-Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
+como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
 
-#### Opciones
+#### Opções
 
 1. `[1, 2, 'hola', 4, 5, 6]`
 2. `[1, 2, 3, 'hola', 5, 6]`
@@ -75,10 +73,10 @@ Si realizo `listOfNumbers[3] = 'hola'` ¿cuál sería el resultado del Array?
 
 <solution style="display:none;">2</solution>
 
-### 5) En el siguiente código
+### 5\) No código a seguir,
 
-```js
-const questions = [
+```javascript
+var questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -86,9 +84,9 @@ const questions = [
 ];
 ```
 
-¿Cómo obtengo el dato `Peso`?
+como obtenho o elemento `Peso`?
 
-#### Opciones
+#### Opções
 
 1. `console.log(questions[1][3])`
 2. `console.log(questions[2][4])`
@@ -97,17 +95,17 @@ const questions = [
 
 <solution style="display:none;">3</solution>
 
-### 6) En el siguiente ejemplo, ¿qué método debo usar para obtener el resultado solicitado?
+### 6\) No exemplo a seguir, qual método devo usar para obter o resultado do comentário de código?
 
-```js
-const courses = ['Intro JS', 'Intro UX', 'UX master'];
-const removed = courses.__________;
+```javascript
+var courses = ['Intro JS', 'Intro UX', 'UX master'];
+var removed = courses.__________;
 
 console.log('Elemento eliminado: ' + removed);
 // → Elemento eliminado: Intro JS
 ```
 
-#### Opciones
+#### Opções
 
 1. `pop()`
 2. `push()`
@@ -116,30 +114,30 @@ console.log('Elemento eliminado: ' + removed);
 
 <solution style="display:none;">3</solution>
 
-### 7) En el siguiente ejemplo, ¿cuáles de los siguientes métodos podrías usar para obtener el resultado solicitado? Puedes elegir más de una opción
+### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção.
 
-```js
-const courses = ['Intro JS', 'Intro UX', 'UX master'];
+```javascript
+var courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.__________('JS master', 'English for Developers');
 
 console.log(courses.length);
 // → 5
 ```
 
-#### Opciones
+#### Opções
 
 1. `pop()`
 2. `push()`
 3. `shift()`
 4. `unshift()`
 
-<solution style="display:none;">2, 4</solution>
+<solution style="display:none;">2,4</solution>
 
-### 8) En el siguiente ejemplo, ¿qué métodos debo usar para obtener el resultado solicitado?
+### 8\) No exemplo a seguir, quais métodos devo usar para obter o resultado solicitado?
 
-```js
-const listOfNumbers = [];
-for (let i = 1; i <= 7; i += 1) {
+```javascript
+var listOfNumbers = [];
+for (var i = 1; i <= 7; i++) {
   listOfNumbers.__________(i);
 }
 listOfNumbers.__________();
@@ -148,7 +146,7 @@ console.log(listOfNumbers.length);
 // → 6
 ```
 
-#### Opciones
+#### Opções
 
 1. `join` - `search`
 2. `push` - `pop`
@@ -157,19 +155,19 @@ console.log(listOfNumbers.length);
 
 <solution style="display:none;">2</solution>
 
-### 9) ¿Cuál sería el resultado en el siguiente código?
+### 9\) Qual seria o resultado do código a seguir?
 
-```js
-const coder1 = 'Michelle, ';
-const coder2 = 'Lourdes, ';
-const coder3 = 'Ruth.';
+```javascript
+var coder1 = 'Michelle, ';
+var coder2 = 'Lourdes, ';
+var coder3 = 'Ruth.';
 
-const allCoders = coder1.concat(coder2, coder3);
+var allCoders = coder1.concat(coder2, coder3);
 
 console.log(allCoders);
 ```
 
-#### Opciones
+#### Opções
 
 1. `Michelle, Lourdes, Ruth.`
 2. `[Michelle, Lourdes, Ruth.]`
@@ -178,15 +176,15 @@ console.log(allCoders);
 
 <solution style="display:none;">1</solution>
 
-### 10) ¿Cuál es el resultado del siguiente código?
+### 10\) Qual é o resultado do código abaixo?
 
-```js
-const coders = ['Michelle', 'Lourdes', 'Ruth'];
+```javascript
+var coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.pop();
 coders.indexOf('Lourdes');
 ```
 
-#### Opciones
+#### Opções
 
 1. `0`
 2. `1`
@@ -195,15 +193,15 @@ coders.indexOf('Lourdes');
 
 <solution style="display:none;">2</solution>
 
-### 11) En el siguiente código, ¿cuál sería el resultado?
+### 11\) No código a seguir, qual seria o resultado?
 
-```js
-const coders = ['Michelle', 'Lourdes', 'Ruth'];
+```javascript
+var coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.push('Alejandra');
 coders.join();
 ```
 
-#### Opciones
+#### Opções
 
 1. `['Michelle,Lourdes,Ruth,Alejandra']`
 2. `['Michelle,Lourdes,Ruth']`
@@ -212,17 +210,17 @@ coders.join();
 
 <solution style="display:none;">4</solution>
 
-### 12) En el siguiente ejemplo completa los espacios
+### 12\) No exemplo a seguir, complete os espaços
 
-```js
-const coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
+```javascript
+var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
 coders.pop();
 coders.slice(____,____);
 
 // → ['lourdes', 'ruth']
 ```
 
-#### Opciones
+#### Opções
 
 1. `1` - `3`
 2. `2` - `4`
@@ -231,16 +229,16 @@ coders.slice(____,____);
 
 <solution style="display:none;">1</solution>
 
-### 13) En el siguiente ejemplo, ¿qué método debo usar para obtener el resultado solicitado?
+### 13\) No exemplo a seguir, qual método devo usar para obter o resultado comentado?
 
-```js
-const listOfNumbers = [1, 2, 3, 1, 2, 3];
+```javascript
+var listOfNumbers = [1, 2, 3, 1, 2, 3];
 listOfNumbers.____________(2);
 
 // → 4
 ```
 
-#### Opciones
+#### Opções
 
 1. `pop()`
 2. `indexOf()`
@@ -249,20 +247,20 @@ listOfNumbers.____________(2);
 
 <solution style="display:none;">4</solution>
 
-### 14) En el siguiente código, ¿cuál sería el resultado?
+### 14\) No código a seguir, qual seria o resultado?
 
-```js
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```javascript
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i < array.length; i += 1) {
-  const item = array.pop();
+for (var i = 0; i < array.length; i++) {
+  var item = array.pop();
   array.splice(i, 0, item);
 }
 
 console.log(array);
 ```
 
-#### Opciones
+#### Opções
 
 1. `[1, 2, 3, 4, 5]`
 2. `[6, 7, 8, 9, 10]`
@@ -271,11 +269,11 @@ console.log(array);
 
 <solution style="display:none;">4</solution>
 
-### 15) En el siguiente código, ¿cuál sería el resultado?
+### 15\) No código a seguir, qual seria o resultado?
 
-```js
+```javascript
 function search(array, element) {
-  for (let i = 0; i < array.length; i += 1) {
+  for (var i = 0; i < array.length; i++) {
     if (array[i] === element) {
       return i;
     }
@@ -285,7 +283,7 @@ function search(array, element) {
 console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 ```
 
-#### Opciones
+#### Opções
 
 1. `2`
 2. `3`
@@ -293,28 +291,3 @@ console.log(search([7, 6, 5, 4, 3, 2, 1], 5));
 4. `5`
 
 <solution style="display:none;">1</solution>
-
-<!--
-### 16) ¿Cuáles son los 2 criterios que hacen que un algoritmo sea bueno?
-
-#### Opciones
-
-1. Novedad
-2. Exactitud
-3. Antigüedad
-4. Dinámica
-5. Eficiencia
-
-<solution style="display:none;">2, 5</solution>
-
-### 17) Los algoritmos nos permiten comunicar \_\_\_\_\_ sin explicar el por qué
-
-#### Opciones
-
-1. diferentes funciones
-2. métodos abstractos
-3. tareas complejas
-4. muchas propiedades
-
-<solution style="display:none;">3</solution>
--->

@@ -1,12 +1,12 @@
-# Retos de código
+# Exercícios
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `3h`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `3 h`
 
 ***
 
 ## Objetivos
 
-- A continuación te presentamos una serie de retos que debes completar para
-  poner tus conocimientos a prueba.
+* A seguir, apresentaremos uma série de desafios para você completar enquanto coloca seus conhecimentos à prova.
+

@@ -1,5 +1,5 @@
-const convertScoreToGrade = (score) => {
-  let str;
+function convertScoreToGrade(score) {
+  var str = 'PONTUAÇÃO INVÁLIDA';
 
   switch (true) {
     case ((score <= 100) && (score >= 90)):
@@ -16,9 +16,6 @@ const convertScoreToGrade = (score) => {
       break;
     case ((score <= 59) && (score >= 0)):
       str = 'F';
-      break;
-    default:
-      str = 'PUNTUACION INVALIDA';
       break;
   }
   return str;

@@ -1,1 +1,5 @@
-module.exports = amount => amount + (amount * 0.095) + (amount * 0.15);
+function calculateBillTotal(preTaxAndTipAmount) {
+  return preTaxAndTipAmount + (preTaxAndTipAmount * 0.095) + (preTaxAndTipAmount * 0.15);
+}
+
+module.exports = calculateBillTotal;

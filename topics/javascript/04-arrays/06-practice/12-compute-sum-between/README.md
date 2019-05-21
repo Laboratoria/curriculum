@@ -1,16 +1,15 @@
 # computeSumBetween
 
-Escribe una función llamada "computeSumBetween".
+Escreva uma função chamada "computeSumBetween".
 
-Dado 2 enteros, "computeSumBetween" devuelve la suma entre los dos enteros
-dados, comenzando en num1 y excluyendo num2.
+Com 2 inteiros, por exemplo `num1` e `num2`, "computeSumBetween" devolve a soma de todos os números entre eles, começando em `num1` e excluindo `num2`.
 
 Notas:
 
-* La suma entre 1 y 4 es 1 + 2 + 3 = 6.
-* Si num2 no es mayor que num1, debe devolver 0.
+* A soma entre 1 e 4 é 1 + 2 + 3 = 6.
+* Se `num2` não for maior que `num1`, ela deve devolver 0.
 
-```js
-const output = computeSumBetween (2, 5);
+```javascript
+var output = computeSumBetween (2, 5);
 console.log (salida); // -> 9
 ```

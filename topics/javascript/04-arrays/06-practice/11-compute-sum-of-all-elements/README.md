@@ -1,13 +1,12 @@
 # computeSumOfAllElements
 
-Escribe una función llamada `computeSumOfAllElements`.
+Escreva uma função chamada `computeSumOfAllElements`.
 
-Dado un array de números, `computeSumOfAllElements` devuelve la suma de todos
-los elementos del array dado.
+Dado um _array_ de números, `computeSumOfAllElements` devolve a soma de todos os elementos do _array_ dado.
 
-Ejemplo:
+Exemplo:
 
-```js
-const output = computeSumOfAllElements([1, 2, 3]);
+```javascript
+var output = computeSumOfAllElements([1, 2, 3]);
 console.log(output); // --> 6
 ```

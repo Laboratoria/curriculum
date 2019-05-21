@@ -1,5 +1,5 @@
-const calculateBillTotal = (preTaxAndTipAmount) => {
+function calculateBillTotal(preTaxAndTipAmount) {
   // your code here
-};
+}
 
 module.exports = calculateBillTotal;
