@@ -191,9 +191,10 @@ configuración, deberás exponer los servicios en diferentes puertos.
 ## Entrega
 
 Una vez que tengas tu configuración de `docker-compose`, deberás crear un servidor
-en la nube (VPS) (en el area de recursos te proponemos algunas alternativas de
-proveedores) y ejecutar `docker-compose up` para levantar la aplicación y la
-documentación, para que queden online y accesibles.
+en la nube (VPS) (en el área de recursos te proponemos algunas alternativas de
+proveedores), acceder a él a través de `ssh`, clonar tu repositorio y ejecutar
+`docker-compose up` para levantar la aplicación y la documentación, para que
+queden online y accesibles.
 
 ## Recursos
 
@@ -206,6 +207,7 @@ documentación, para que queden online y accesibles.
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
 * TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
+* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
 
 ***
 
