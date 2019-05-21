@@ -2,7 +2,8 @@
 
 Escreva uma função chamada `getNthElement`.
 
-Dado um _array_ e um inteiro, `getNthElement` devolve o valor de acordo com o inteiro dado, dentro do array fornecido.
+Dado um _array_ e um inteiro, `getNthElement` devolve o valor de acordo com o
+inteiro dado, dentro do array fornecido.
 
 Notas:
 
@@ -14,4 +15,3 @@ Exemplo de entrada:
 var output = getNthElement([1, 3, 5], 1);
 console.log(output); // --> 3
 ```
-

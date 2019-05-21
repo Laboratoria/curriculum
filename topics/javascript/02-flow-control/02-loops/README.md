@@ -112,6 +112,7 @@ for ([init]; [condition]; [post_iteration]) {
   // statements
 }
 ```
+
 `init` é executado uma vez antes de iniciar o laço, que depois executa
 `statements` enquanto a `condition` retorne `true`. Pode usar `let` para
 declarar variáveis, mas o escopo dela será apenas dentro do laço.

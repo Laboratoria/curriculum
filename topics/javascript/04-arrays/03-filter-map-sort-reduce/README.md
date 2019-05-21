@@ -20,7 +20,6 @@ Para facilitar um pouco a vida, os dividimos da seguinte forma:
 Agora focaremos nos quatro métodos que consideramos mais utilizados: `filter`,
 `map` `sort` e `reduce`.
 
-
 Para conhecer em detalhes cada um destes métodos, visite a documentação no
 [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -96,7 +95,6 @@ A seguir o Dani explica mais a fundo como o método `filter` funciona:
 
 [![Filtrando Arrays em
 JavaScript](https://img.youtube.com/vi/M0sG5YTRiII/0.jpg)](https://www.youtube.com/watch?v=M0sG5YTRiII)
-
 
 ## `Array.prototype.map`
 

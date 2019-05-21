@@ -2,12 +2,14 @@
 
 Escreva uma função chamada "getLongestWordOfMixedElements".
 
-Dado um array de tipos mistos, "getLongestWordOfMixedElements" devolve a _string_ mais longa do _array_ especificado.
+Dado um array de tipos mistos, "getLongestWordOfMixedElements" devolve a
+_string_ mais longa do _array_ especificado.
 
 Notas:
 
 * Se o _array_ estiver vazio, ela deve devolver uma _string_ vazia \(`""`\).
-* Se o _array_ não contiver cadeias de texto, ela deverá devolver uma _string_ vazia.
+* Se o _array_ não contiver cadeias de texto, ela deverá devolver uma _string_
+  vazia.
 
 Exemplo:
 

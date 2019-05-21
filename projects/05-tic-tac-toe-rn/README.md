@@ -213,8 +213,8 @@ usar. Elige `blank`.
 ```txt
 ? Choose a template: (Use arrow keys)
   ----- Managed workflow -----
-❯ blank         minimal dependencies to run and an empty root component  
-  tabs          several example screens and tabs using react-navigation
+❯ blank: minimal dependencies to run and an empty root component
+  tabs: several example screens and tabs using react-navigation
   ----- Bare workflow -----
   bare-minimum  minimal setup for using unimodules
 ```

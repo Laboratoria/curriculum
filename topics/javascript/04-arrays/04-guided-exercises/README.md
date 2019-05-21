@@ -8,7 +8,7 @@
 
 ## Objetivos
 
-- Entender, através de casos práticos, como aplicar os conceitos de `funções` e
+* Entender, através de casos práticos, como aplicar os conceitos de `funções` e
   `arrays` para a resolução de problemas.
 
 ***

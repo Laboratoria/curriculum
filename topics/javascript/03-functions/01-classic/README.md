@@ -33,6 +33,7 @@ function id(x) {
   return x;
 }
 ```
+
 A instrução `return` retorna um valor da função `id`. Você pode chamar uma
 função por meio de seu nome, seguida de seus `argumentos` entre parênteses:
 
@@ -129,6 +130,7 @@ function id(x) {
 
 console.log(id instanceof Function); // true
 ```
+
 Para tal, as funções obtêm seus métodos de `Function.prototype`.
 
 ### Function Expressions

@@ -41,8 +41,8 @@ var age = 19;
 // returns: undefined
 ```
 
-A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variável.
-É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma
+variável. É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
 imediatamente um valor, é seguido do operador `=` e uma expressão (o número 19).
 
 ***
@@ -53,7 +53,6 @@ usar a `let` (para declarar variaveis com o escopo de bloco) ou `const` (para
 declarar referencias que não vão ser reatribuidas) como veremos mais a frente.
 
 ***
-
 
 A declaração anterior cria uma variável chamada `age` (ou idade no português) e
 é usada para reter o número `19`. A console devolve `undefined`, mas não pense
@@ -97,7 +96,9 @@ weight
 Quando uma variável aponta para um valor, não quer dizer que está ligada a esse
 valor para sempre. De fato, são chamadas de variáveis porque seu valor pode
 mudar. O operador `=` pode ser utilizado em qualquer momento em variáveis
-existentes (declaradas com `let` ou `var`)para desconectá-las do seu valor atual e ser apontadas para um novo. (valores declarados em `const` não podem ser alterados).
+existentes (declaradas com `let` ou `var`)para desconectá-las do seu valor atual
+e ser apontadas para um novo. (valores declarados em `const` não podem ser
+alterados).
 
 ```js
 let age = 19;
@@ -107,6 +108,7 @@ age = 24;
 'Oi, meu nome é' + 'Rafael' + 'e tenho' + age + 'anos';
 // returns "Oi, meu nome é Rafael e tenho 24 anos"
 ```
+
 Leve em consideração que para atribuir um novo valor, você não tem que utilizar
 a _keyword_ `var` ou `let` novamente. Você só utiliza ela quando precisa _criar_
 novas variáveis.
@@ -150,9 +152,9 @@ sugestões são:
 2. Utilizar nomes em inglês. A programação está baseada no inglês, dessa forma é
    uma boa prática que esteja acostumado a escrever seu código em inglês.
 3. Utilizar nomes descritivos. Assim como as outras sugestões, algo que você
-   sempre tem que considerar é que outras pessoas irão ler seu código e você deve
-   fazer o esforço para utilizar nomes descritivos que ajudem o leitor a entender
-   melhor o que seu programa faz.
+   sempre tem que considerar é que outras pessoas irão ler seu código e você
+   deve fazer o esforço para utilizar nomes descritivos que ajudem o leitor a
+   entender melhor o que seu programa faz.
 
 Vamos ver alguns exemplos:
 
@@ -237,8 +239,7 @@ balloons
 
 ## O escopo de uma variável
 
-O _scopo_ de uma variável é o local onde ela pode ser encontrada.
-Por exemplo:
+O _scopo_ de uma variável é o local onde ela pode ser encontrada. Por exemplo:
 
 ```js
 const foo = () => {
@@ -246,12 +247,12 @@ const foo = () => {
 }
 ```
 
-Aqui, o _direct scope_ (escopo direto) de `x` é a função `foo`. Esta variável poderá
-ser acessada apenas dentro do corpo da função `foo`, mas não fora dela.
+Aqui, o _direct scope_ (escopo direto) de `x` é a função `foo`. Esta variável
+poderá ser acessada apenas dentro do corpo da função `foo`, mas não fora dela.
 
 Normalmente, no JavaScript podiamos apenas criar um novo escopo quando criavamos
-uma nova função. Mas desde a atulização do ES6 (ES2015) temos a `let` e a `const`,
-que introduzição o conceito de _block scope_ no JavaScript.
+uma nova função. Mas desde a atulização do ES6 (ES2015) temos a `let` e a
+`const`, que introduzição o conceito de _block scope_ no JavaScript.
 
 ### Lexical scoping
 
@@ -264,8 +265,8 @@ não são visíveis fora desse _escopo_.
 
 ### Nested Scopes (escopos aninhados)
 
-Sim o escopo está aninado dentro de um escopo direto de uma variável e a variável
-será acessível a todos os escopos:
+Sim o escopo está aninado dentro de um escopo direto de uma variável e a
+variável será acessível a todos os escopos:
 
 ```js
 function foo(arg) {
@@ -278,16 +279,17 @@ function foo(arg) {
 console.log(foo('hello')); // arg: hello
 ```
 
-O escopo direto de `arg` é `foo`, mas também é acessível no escopo aninhado `bar`.
-Com respeito ao aninhamento, `foo` é um _outer scope_ (escopo externo) e `bar` é
-um _inner scope_ (escopo interno).
+O escopo direto de `arg` é `foo`, mas também é acessível no escopo aninhado
+`bar`. Com respeito ao aninhamento, `foo` é um _outer scope_ (escopo externo) e
+`bar` é um _inner scope_ (escopo interno).
 
 ### Shadowing (sombra)
 
 Sim, é possível declarar uma variável que tem o mesmo nome em um escopo interno
-de uma função, com isso o acesso a variável externa é bloqueado no escopo interno e
-todo os escopos aninhados dentro dela. Mudanças nas variávels internas não afetam
-a variável externa, a qual é acessível fora do escopo interno. Exemplo:
+de uma função, com isso o acesso a variável externa é bloqueado no escopo
+interno e todo os escopos aninhados dentro dela. Mudanças nas variávels internas
+não afetam a variável externa, a qual é acessível fora do escopo interno.
+Exemplo:
 
 ```js
 let x = 'global';
@@ -315,9 +317,10 @@ cuja a referência é sempre o objecto que está executando o código.
 ### Alcance de variáveis
 
 As variáveis podem ser declaradas com **alcance local** ou **alcance global**, o
-qual estabelece a sua acessibilidade de diferentes alcances no tempo de execução.
-Qualquer variável definida como global será acessível no tempo de execução em
-qualquer alcance, desde que tenha sido declarado fora do corpo de um função.
+qual estabelece a sua acessibilidade de diferentes alcances no tempo de
+execução. Qualquer variável definida como global será acessível no tempo de
+execução em qualquer alcance, desde que tenha sido declarado fora do corpo de um
+função.
 
 Em contraste, as variáveis locais existem somente dentro do corpo de uma função
 ou bloco. O alcance local de uma variável é somente definida a partir do corpo
@@ -381,6 +384,7 @@ do `if` se mantem dentro do seu escopo.
   // Imprime Olá Ju
 })();
 ```
+
 ## Variáveis não reatribuídas com "const"
 
 As variáveis somente de leitura são outra novidade do ECMAScript 6, com a
@@ -424,7 +428,6 @@ const user = {
  * objeto, e não o valor em si, que é a referência do objeto, a qual não é
  * alterada.
  **/
-
 
 user.name = 'João';
 

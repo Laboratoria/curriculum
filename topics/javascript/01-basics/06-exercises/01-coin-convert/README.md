@@ -13,7 +13,6 @@ pesosChilenos = dólares * 660
 
 Exemplo
 
-
 ```js
 function coinConvert(dollar = 50) {
   reais = dollar * 3.25;

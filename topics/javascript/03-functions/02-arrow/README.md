@@ -6,7 +6,7 @@
 
 ***
 
-### Diferenças entre _arrow functions_ e funções clássicas
+## Diferenças entre _arrow functions_ e funções clássicas
 
 Uma das novidades mais interessantes de ES6 são as denominadas **funções seta**,
 ou *arrow functions*. As funções setas são, como seu nome indica, definidas por
@@ -46,6 +46,7 @@ const echo = function(text) {
   return text;
 };
 ```
+
 Nos dois casos, a execução da função daria a seguinte saída:
 
 ```js

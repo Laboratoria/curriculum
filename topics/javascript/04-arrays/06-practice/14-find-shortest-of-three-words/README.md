@@ -6,7 +6,8 @@ Com 3 _strings_, `findShortestOfThreeWords` devolve a _string_ mais curta delas.
 
 Notas:
 
-* Se houver um empate, você deve retornar a primeira palavra da lista de parâmetros.
+* Se houver um empate, você deve retornar a primeira palavra da lista de
+  parâmetros.
 
 ```javascript
 var output = findShortestOfThreeWords('a', 'dos', 'tres');

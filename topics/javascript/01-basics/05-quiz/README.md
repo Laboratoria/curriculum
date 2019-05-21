@@ -25,13 +25,14 @@
 
 #### Opciones
 
-1. Afetam o fluxo do programa e são usados para tornar o código mais compreensível
+1. Afetam o fluxo do programa e são usados para tornar o código mais
+   compreensível
 2. Não afetam o fluxo do programa e são usados para fazer o código funcionar
    mais rápido
 3. Não afetam o fluxo do programa e são usados para tornar o código mais
    compreensível
-4. Afetam o fluxo do programa e são usados para fazer o código funcionar
-   mais rápido
+4. Afetam o fluxo do programa e são usados para fazer o código funcionar mais
+   rápido
 
 <solution style="display:none;">3</solution>
 
@@ -54,7 +55,7 @@
 2. Não importa
 3. Undefined  não tem valor e null é uma string vazia
 4. `indefinido` significa que um valor não foi atribuído, enquanto que `null`
-    significa que nós atribuímos o valor `null`
+       significa que nós atribuímos o valor `null`
 
 <solution style="display:none;">4</solution>
 

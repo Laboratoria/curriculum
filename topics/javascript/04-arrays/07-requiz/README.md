@@ -13,7 +13,7 @@
 
 ## Perguntas
 
-### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe.
+### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe
 
 ```javascript
 var mixedArray = [3, hola mundo, 627.5];
@@ -37,7 +37,7 @@ var mixedArray = [3, hola mundo, 627.5];
 
 <solution style="display:none;">3</solution>
 
-### 3\) Considere o código abaixo:
+### 3\) Considere o código abaixo
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -55,7 +55,7 @@ Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
 
 <solution style="display:none;">5</solution>
 
-### 4\) No código a seguir,
+### 4\) No código a seguir
 
 ```javascript
 var listOfNumbers = [1, 2, 3, 4, 5, 6];
@@ -73,7 +73,7 @@ como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
 
 <solution style="display:none;">2</solution>
 
-### 5\) No código a seguir,
+### 5\) No código a seguir
 
 ```javascript
 var questions = [
@@ -114,7 +114,7 @@ console.log('Elemento eliminado: ' + removed);
 
 <solution style="display:none;">3</solution>
 
-### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção.
+### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção
 
 ```javascript
 var courses = ['Intro JS', 'Intro UX', 'UX master'];

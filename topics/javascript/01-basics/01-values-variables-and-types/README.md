@@ -13,18 +13,20 @@
 ***
 
 O texto em seguida se baseia em grande parte, com certos ajustes, ao capítulo 1
-de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
-Haverbeke, 2014. Tradução em [Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
+de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke,
+2014. Tradução em
+[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
 
 ## Vivemos num mundo de Dados
 
-Em 2010, o então CEO da Google, Eric Schmidt,([mencionava](https://techcrunch.com/2010/08/04/schmidt-data/))
-que num período de dois dias nós criávamos tantos dados quanto no período que
-compreende desde o início da civilização até o ano de 2003. As compras que você
-faz são dados, as suas notas na escola são dados, seu perfil do Facebook está
-repleto de dados. Suas buscas no Google, os sinais de GPS do seu celular, os
-vídeos que você assiste e envia para o YouTube, as fotos que você vê no
-Instagram, o histórico do clima, os e-mails trocados… tudo são dados!
+Em 2010, o então CEO da Google, Eric
+Schmidt,([mencionava](https://techcrunch.com/2010/08/04/schmidt-data/)) que num
+período de dois dias nós criávamos tantos dados quanto no período que compreende
+desde o início da civilização até o ano de 2003. As compras que você faz são
+dados, as suas notas na escola são dados, seu perfil do Facebook está repleto de
+dados. Suas buscas no Google, os sinais de GPS do seu celular, os vídeos que
+você assiste e envia para o YouTube, as fotos que você vê no Instagram, o
+histórico do clima, os e-mails trocados… tudo são dados!
 
 Os dados são cruciais porque eles nos ajudam a tomar decisões e a entender o
 mundo que nos cerca. Dados são informações, informação é conhecimento, e
@@ -39,14 +41,14 @@ supermercado.
 Os computadores são excelentes instrumentos para trabalhar com grandes
 quantidades de dados. De fato, no universo dos computadores existem somente
 dados. Com os computadores podemos ler dados, modificar dados e criar novos
-dados. Todos os dados são armazenados em longas sequências dos famosos _bits_
-as sequências de 0s e 1s que você provavelmente já viu no filme Matrix.
+dados. Todos os dados são armazenados em longas sequências dos famosos _bits_ as
+sequências de 0s e 1s que você provavelmente já viu no filme Matrix.
 
 Os computadores manipulam bilhões de bits. Para que o manejo destas grandes
 quantidades de informação seja mais fácil, eles são divididos em “pedaços” que
 representam partes de informação. No contexto do JavaScript, esses pedaços são
-chamados de _**values**_ (valores, em português). Cada _value_ possui um
-_data type_ (tipo de dado) que determina qual a sua funcionalidade. Em JavaScript
+chamados de _**values**_ (valores, em português). Cada _value_ possui um _data
+type_ (tipo de dado) que determina qual a sua funcionalidade. Em JavaScript
 existem cinco tipos de dados primitivos:
 
 1. `numbers` (números).
@@ -62,12 +64,12 @@ esses tipos de dados.
 
 ## 1. Numbers
 
-Os _values_ do tipo `number` são, sem muita surpresa, valores numéricos. Ou seja,
-pedaços de dado que representam uma informação numérica são representados com o
-tipo `number`. Sua representação inclui números positivos, negativos, inteiros e
-decimais. Além disso, o tipo de dado `number` possui três valores simbólicos:
-+Infinity infinito positivo), -Infinity (infinito negativo) e NaN (not a number,
-ou “não-número”, em português).
+Os _values_ do tipo `number` são, sem muita surpresa, valores numéricos. Ou
+seja, pedaços de dado que representam uma informação numérica são representados
+com o tipo `number`. Sua representação inclui números positivos, negativos,
+inteiros e decimais. Além disso, o tipo de dado `number` possui três valores
+simbólicos: +Infinity infinito positivo), -Infinity (infinito negativo) e NaN
+(not a number, ou “não-número”, em português).
 
 Vejamos alguns exemplos. Abra o seu console (lembre-se: clique com o botão
 direito do mouse > inspect > console) e escreva os seguintes números. Ao tentar,
@@ -96,8 +98,8 @@ expoente do número:
 ### Operadores Aritméticos
 
 O que mais se faz com os números é aritmética. Sigamos explorando o
-comportamento do tipo de dado `numbers` no seu próprio console. Digite o seguinte
-exemplo no console e confirme que o resultado é o mesmo:
+comportamento do tipo de dado `numbers` no seu próprio console. Digite o
+seguinte exemplo no console e confirme que o resultado é o mesmo:
 
 ```js
 100 + 4 * 11
@@ -157,8 +159,6 @@ resto é mais preciso.
 // returns: 1
 ```
 
-
-
 ## 2. Strings
 
 O próximo _data type_ básico são as `strings`. É o tipo de dado que utilizamos
@@ -211,8 +211,8 @@ aspas, simples ou duplas).
 // retuns: "Minha linguagem favorita é      JavaScript"
 ```
 
-Quando as aspas são precedidas pela barra invertida, elas não terminarão a cadeia
-de caracteres, mas farão parte dela.
+Quando as aspas são precedidas pela barra invertida, elas não terminarão a
+cadeia de caracteres, mas farão parte dela.
 
 ```js
 'Eu \'estudo\' na Laboratoria'
@@ -252,8 +252,8 @@ Há outras maneiras de manipular `strings`, como veremos mais adiante.
 ### Operadores Unários
 
 Nem todos os operadores são símbolos. Alguns são escritos como palavras. Um
-exemplo é o operador typeof que produz uma cadeia de texto que representa o
-tipo do valor que lhe foi passado.
+exemplo é o operador typeof que produz uma cadeia de texto que representa o tipo
+do valor que lhe foi passado.
 
 ```js
 typeof 4.5
@@ -272,11 +272,13 @@ typeof Infinity
 Note que verificamos que _NaN_ e _Infinity_ são do tipo `number` (de valor
 simbólico), como mencionamos anteriormente.
 
-Os outros operadores que vimos operavam sobre dois valores, mas `typeof` só recebe
-um. Operadores que utilizam dois valores são chamados de operadores _binários_,
-enquanto aqueles que só recebem um são chamados de operadores _unários_.
+Os outros operadores que vimos operavam sobre dois valores, mas `typeof` só
+recebe um. Operadores que utilizam dois valores são chamados de operadores
+_binários_, enquanto aqueles que só recebem um são chamados de operadores
+_unários_.
 
-O operador menos (`-`) pode ser usado tanto como um operador binário como unário.
+O operador menos (`-`) pode ser usado tanto como um operador binário como
+unário.
 
 ```js
 - (10 - 2)
@@ -309,8 +311,9 @@ typeof (2 > 3)
 ```
 
 Os sinais > e < são os símbolos clássicos de "é maior que" e "é menor que",
-respectivamente. Estes são operadores binários (porque operam sobre dois valores).
-Aplicá-los resulta em um valor de tipo _boolean_ que indica se estão corretos.
+respectivamente. Estes são operadores binários (porque operam sobre dois
+valores). Aplicá-los resulta em um valor de tipo _boolean_ que indica se estão
+corretos.
 
 As `strings` podem ser comparadas da mesma maneira.
 
@@ -320,10 +323,10 @@ As `strings` podem ser comparadas da mesma maneira.
 ```
 
 A forma pela qual as `strings` são ordenadas é mais ou menos alfabética: em
-JavaScript, as letras maiúsculas são sempre "menores" que as minúsculas, por isso
-"Z" < "a" é _true_, e os caracteres não alfabéticos (!, -, e assim por diante)
-também estão incluídos na ordenação. A comparação efetiva é baseada no padrão
-[Eloquent Unicode](https://unicode-table.com/en/#control-character).
+JavaScript, as letras maiúsculas são sempre "menores" que as minúsculas, por
+isso "Z" < "a" é _true_, e os caracteres não alfabéticos (!, -, e assim por
+diante) também estão incluídos na ordenação. A comparação efetiva é baseada no
+padrão [Eloquent Unicode](https://unicode-table.com/en/#control-character).
 
 ```js
 "Zeyla" < "ana"
@@ -333,8 +336,8 @@ também estão incluídos na ordenação. A comparação efetiva é baseada no p
 // returns: false
 ```
 
-Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a),
-== (igual a) e != (não é igual a).
+Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a), ==
+(igual a) e != (não é igual a).
 
 ```js
 "Itchy" == "Itchy"
@@ -350,8 +353,8 @@ Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a),
 // returns: true
 ```
 
-Só existe um valor em JavaScript que não é igual a si mesmo: o NaN, que significa
-"não é um número".
+Só existe um valor em JavaScript que não é igual a si mesmo: o NaN, que
+significa "não é um número".
 
 ```js
 NaN == NaN
@@ -520,16 +523,16 @@ expressões no MDN que recomendamos que você _leia_ (ou olhe pelo menos).
 Quando avaliamos dois valores com este operador, a sequência a seguir é
 executada para determinar o resultado:
 
-* Se são do mesmo tipo, então são comparados com ===.
-* Se são de tipos diferentes:
-  - Se um é `null` e outro é `undefined`, retorna `true`.
-  - Se um é uma `string` e outro é um `number`, ele é convertido para `string`
-    e são comparados como números.
-  - Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se
+- Se são do mesmo tipo, então são comparados com ===.
+- Se são de tipos diferentes:
+  * Se um é `null` e outro é `undefined`, retorna `true`.
+  * Se um é uma `string` e outro é um `number`, ele é convertido para `string` e
+    são comparados como números.
+  * Se um é booleano, são convertidos: `true` em 1 e `false` em 0, e se
     comparam.
-  - Se um é um objeto e outro é um `number` ou `string`, converte o objeto para
+  * Se um é um objeto e outro é um `number` ou `string`, converte o objeto para
     um primitivo.
-  - Em outros casos, retorna `false`.
+  * Em outros casos, retorna `false`.
 
 ```js
 null == undefined // true
@@ -545,14 +548,14 @@ true == 1         // true
 Esta igualdade é mais restrita com os resultados, utilizando a sequência a
 seguir para determinar o resultado:
 
-* Se possuem tipos diferentes, retorna `false`.
-* Se ambos são `null`, retorna `true`.
-* Se ambos são `undefined`, retorna `true`.
-* Se ambos são `NaN`, retorna `false`.
-* Se ambos são `true` ou `false`, retorna `true`
-* Se ambos são `number` e possuem o mesmo valor, retorna `true`.
-* Se ambos são `string` e possuem o mesmo valor, retorna `true`.
-* Em outros casos, retorna `false`.
+- Se possuem tipos diferentes, retorna `false`.
+- Se ambos são `null`, retorna `true`.
+- Se ambos são `undefined`, retorna `true`.
+- Se ambos são `NaN`, retorna `false`.
+- Se ambos são `true` ou `false`, retorna `true`
+- Se ambos são `number` e possuem o mesmo valor, retorna `true`.
+- Se ambos são `string` e possuem o mesmo valor, retorna `true`.
+- Em outros casos, retorna `false`.
 
 ```js
 21 === "21"         // false
@@ -567,10 +570,10 @@ true === 1           // false
 
 Você pode considerar o seguinte para saber qual operador utilizar:
 
-* Se qualquer dos valores é booleano, utilize `===`.
-* Se não tiver certeza se os valores podem ser convertidos por coerção,
-  utilize `===`.
-* Nos outros casos pode utilizar `==` com certeza.
+- Se qualquer dos valores é booleano, utilize `===`.
+- Se não tiver certeza se os valores podem ser convertidos por coerção, utilize
+  `===`.
+- Nos outros casos pode utilizar `==` com certeza.
 
 > Nota: Por convenção, e uma boa prática a comunidade incentiva o uso de `===`.
 
@@ -588,10 +591,10 @@ operadores a seguir são utilizados para comparar desigualdades:
 
 Situações de uso:
 
-* Se algum é um `object`, converte-se para primitivo e é comparado.
-* Se ambos são `string`, é comparada a ordem dos caracteres alfabeticamente.
-* Se ambos são `number`, são comparados.
-* Em outros casos retorna `false`.
+- Se algum é um `object`, converte-se para primitivo e é comparado.
+- Se ambos são `string`, é comparada a ordem dos caracteres alfabeticamente.
+- Se ambos são `number`, são comparados.
+- Em outros casos retorna `false`.
 
 ```js
 [10] < 9    // false, caso 1
@@ -601,4 +604,5 @@ Situações de uso:
 
 ## Leituras complementares
 
-[Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)
+[Expressões e Operadores -
+MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)

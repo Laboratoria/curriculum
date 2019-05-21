@@ -8,11 +8,13 @@
 
 ## Objetivos
 
-* Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu conhecimento à prova. É uma oportunidade para você se testar e verificar que realmente está aprendendo. Sucesso!
+* Nesta seção, você terá a oportunidade de avaliar a si mesma colocando seu
+  conhecimento à prova. É uma oportunidade para você se testar e verificar que
+  realmente está aprendendo. Sucesso!
 
 ## Perguntas
 
-### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados.
+### 1\) Os elementos de uma matriz devem ser todos do mesmo tipo de dados
 
 #### Opções
 
@@ -50,7 +52,7 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 
 <solution style="display:none;">4</solution>
 
-### 4\) No código a seguir,
+### 4\) No código a seguir
 
 ```javascript
 var listOfNumbers = [2, 3, 4, 5, 6];
@@ -68,7 +70,7 @@ se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 
 <solution style="display:none;">4</solution>
 
-### 5\) No código a seguir,
+### 5\) No código a seguir
 
 ```javascript
 var questions = [
@@ -90,7 +92,7 @@ como obtenho o elemento `Lima`?
 
 <solution style="display:none;">1</solution>
 
-### 6\) Os elementos de um Array são armazenados em propriedades.
+### 6\) Os elementos de um Array são armazenados em propriedades
 
 #### Opções
 
@@ -145,7 +147,8 @@ console.log(courses.length);
 #### Opções
 
 1. `['JS master', 'English for Developers']`
-2. `['Intro JS', 'Intro UX', 'UX master', 'JS master', 'English for Developers']`
+2. `['Intro JS', 'Intro UX', 'UX master', 'JS master', 'English for
+   Developers']`
 3. `3`
 4. `5`
 
@@ -172,7 +175,7 @@ console.log(listOfNumbers.length);
 
 <solution style="display:none;">4</solution>
 
-### 11\) No código a seguir, preencha a lacuna.
+### 11\) No código a seguir, preencha a lacuna
 
 ```javascript
 var course1 = 'Intro JS, ' ;
@@ -291,7 +294,7 @@ console.log(array);
 
 <solution style="display:none;">2</solution>
 
-### 17\) No código a seguir, o que devemos comparar? Complete as lacunas.
+### 17\) No código a seguir, o que devemos comparar? Complete as lacunas
 
 ```javascript
 function search(array, element) {

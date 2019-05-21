@@ -10,7 +10,8 @@
 
 ### 1) Que forma de modificar o fluxo de um programa a figura a seguir revela?
 
-![Flujo bucle](https://camo.githubusercontent.com/48a2fb7be5218c417decdc954fe2e9bf7dc3a3a2/687474703a2f2f656c6f7175656e746a6176617363726970742e6e65742f696d672f636f6e74726f6c666c6f772d6c6f6f702e737667)
+![Flujo
+bucle](https://camo.githubusercontent.com/48a2fb7be5218c417decdc954fe2e9bf7dc3a3a2/687474703a2f2f656c6f7175656e746a6176617363726970742e6e65742f696d672f636f6e74726f6c666c6f772d6c6f6f702e737667)
 
 #### Opções
 
@@ -199,7 +200,7 @@ console.log(medalForScore(3));
 
 <solution style="display:none;">2</solution>
 
-### 11) Uma função pode retornar múltiplos valores ao mesmo tempo.
+### 11) Uma função pode retornar múltiplos valores ao mesmo tempo
 
 #### Opções
 

@@ -15,7 +15,6 @@ Nsta unidade aprenderemos:
 * O que são as `funções`, como se usam e por que são essenciais para a
   programação
 
-
 ***
 
 ## Guia de perguntas e conceitos-chave

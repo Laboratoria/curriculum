@@ -2,7 +2,8 @@
 
 Escreva uma função chamada "getLargestNumberAmongMixedElements".
 
-Dado qualquer vetor, "getLargestNumberAmongMixedElements" retorna o maior número do vetor especificado.
+Dado qualquer vetor, "getLargestNumberAmongMixedElements" retorna o maior número
+do vetor especificado.
 
 Notas:
 
@@ -16,4 +17,3 @@ Exemplo:
 var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 5
 ```
-

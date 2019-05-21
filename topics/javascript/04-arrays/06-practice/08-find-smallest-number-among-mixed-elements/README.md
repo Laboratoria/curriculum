@@ -2,7 +2,8 @@
 
 Escreva uma função chamada "findSmallestNumberAmongMixedElements".
 
-Dado um array de elementos mistos, "findSmallestNumberAmongMixedElements" devolve o menor número dentro do _array_ especificado.
+Dado um array de elementos mistos, "findSmallestNumberAmongMixedElements"
+devolve o menor número dentro do _array_ especificado.
 
 Notas:
 
@@ -15,4 +16,3 @@ Exemplo:
 var output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
 console.log(output); // --> 4
 ```
-
