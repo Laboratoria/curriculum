@@ -46,12 +46,12 @@ A seguir, Thaissa te explica como resolveu cada um dos exercícios anteriores.
 [![Solution Age in
 Seconds](https://embed-ssl.wistia.com/deliveries/9d6c875fd50f8b845f6f6e8ec6ca2d471c6a49ff.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/a9x43umo91?wvideo=a9x43umo91)
 
-### 2. Ganhos e perdas
+### 2. Conversor de temperatura
 
 [![Solution Temperature
 converter](https://embed-ssl.wistia.com/deliveries/326565ee59de640f72cba3b9b227ef62d0a1b15a.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/ri4tobcdz5?wvideo=ri4tobcdz5)
 
-### 3. Ganancias y pérdidas
+### 3. Ganhos e perdas
 
 [![Solution Earnings and
 loses](https://embed-ssl.wistia.com/deliveries/6cb92e318311cf2c730164f665c3ea4c5e0e7749.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/r92tdew4i6?wvideo=r92tdew4i6)
