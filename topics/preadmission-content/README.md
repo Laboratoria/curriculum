@@ -44,16 +44,28 @@ que calcule el cubo de un número, etc.
 
 ## Syllabus
 
-### Unidade 01: [Introdução a Web Development](01-web-development)
+### Unidade 01: [Introdução a Web Development](01-intro)
 
 Aprenda a usar variáveis para armazenar informações que mudam conforme você
 programa e os diferentes tipos de dados em JavaScript.
 
-### Unidade 02: [Introdução a UX Design](02-ux-design)
+### Unidade 02: [HTML](02-html5)
 
-Todo site da precisa ser projetado com o usuário em mente. Antes de começar a
-criar seu produto final, é importante que você conheça as técnicas de design da
-experiência do usuário para que seu produto seja algo que as pessoas desejem usar.
+Nessa unidade você vai conhecer as tags de HTML5 que tornam nossas páginas web
+semânticas e estruturadas. Você também vai aprender mais sobre formulários.
+
+### Unidade 03: [CSS](03-css)
+
+Nessa unidade você vai aprender a estilizar os seus sites.
+
+### Unidade 04: [JavaScript: Básico](04-js-basics)
+
+Aprenda como escrever JavaScript e fazer funções básicas.
+
+### Unidade 05: [JavaScript: Controle de fluxo](05-js-flow-control)
+
+Nesta unidade você irá explorar como controlar o fluxo do seu programa e
+com isso dar flexibilidade ao seu produto.
 
 ...
 
