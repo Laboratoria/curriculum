@@ -67,8 +67,6 @@ Aprenda como escrever JavaScript e fazer funções básicas.
 Nesta unidade você irá explorar como controlar o fluxo do seu programa e
 com isso dar flexibilidade ao seu produto.
 
-...
-
 ***
 
 ## Contributors

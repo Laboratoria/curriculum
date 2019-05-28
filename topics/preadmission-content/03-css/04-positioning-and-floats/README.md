@@ -79,7 +79,7 @@ body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid
 ```
 
 ![Fluxo Básico de
-Documentos](https://github.com/Laboratoria/curricula-js/raw/441a522e53ff2f34843e1ca740c01ea526fe8c19/03-interactive-site/00-html-and-css/04-positioning-and-floats/img-normal-flow.png?raw=true)
+Documentos](https://user-images.githubusercontent.com/25912510/58491471-a3543c80-8134-11e9-8ed5-83bc043d0ee2.png)
 
 ## 2. Positioning
 

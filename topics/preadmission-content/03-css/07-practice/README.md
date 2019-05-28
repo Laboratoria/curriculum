@@ -51,4 +51,4 @@ Web \(sugestão: Google Fonts\). Você pode usar os tipos de letra iconográfico
 de sua escolha.
 
 ![Tipografias e
-Ícones](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-tipo.png?raw=true)
+Ícones](https://user-images.githubusercontent.com/25912510/58491544-cd0d6380-8134-11e9-90af-96398889db1f.png)
