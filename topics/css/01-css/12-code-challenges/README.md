@@ -1,6 +1,6 @@
 # Desafio
 
-- Tipo: `exercício`
+- Tipo: `leitura`
 - Formato: `individual`
 - Duração: `24h`
 
