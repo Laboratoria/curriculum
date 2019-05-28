@@ -1,6 +1,6 @@
 # Exercícios Livres
 
-* Tipo: `exercício`
+* Tipo: `leitura`
 * Formato: `individual`
 * Duração: `8h`
 
@@ -23,7 +23,7 @@ Você deve super o seu exercício para o GitHub e publicar no `gh-pages`.
 
 Replique o seguinte layout:
 
-![Nuestras coders](https://github.com/Laboratoria/curricula-js/blob/632783f957accef3442934c87cecd254a202f2db/03-interactive-site/00-html-and-css/09-guided-exercises/img-nuestras-coders.png?raw=true)
+![Nuestras coders](https://user-images.githubusercontent.com/25912510/58491634-fd550200-8134-11e9-81c2-acfabc59de63.png)
 
 ### 2. Pinterest (layout)
 

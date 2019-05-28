@@ -1,6 +1,6 @@
 # Exercícios Livres
 
-- Tipo: `práctica`
+- Tipo: `leitura`
 - Formato: `self-paced`
 - Duração: `120min`
 

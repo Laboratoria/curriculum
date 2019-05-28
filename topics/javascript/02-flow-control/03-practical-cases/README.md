@@ -1,6 +1,6 @@
 # Casos práticos
 
-- Tipo: `lectura`
+- Tipo: `leitura`
 - Formato: `self-paced`
 - Duração: `60min`
 
