@@ -55,7 +55,7 @@ echo ""
 
 
 # Run build to generate projects and topics JSON files
-yarn build
+npm run build
 if [[ "$?" != "0" ]]; then
   echo "Build script failed!"
   exit "$?"
