@@ -6,9 +6,7 @@ projects=(
   '01-cipher'
   '02-data-lovers'
   '03-social-network'
-  # '03-visitors'
   '04-burger-queen'
-  # '04-job-application'
   '04-md-links'
   '04-social-network-frameworks'
   '05-bq-node'
@@ -24,7 +22,7 @@ topics=(
   'javascript'
   'paradigms'
   'react'
-  # 'redux'
+  'redux'
   'scm'
   'shell'
 )
