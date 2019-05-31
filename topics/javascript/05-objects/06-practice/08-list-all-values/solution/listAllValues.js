@@ -1,8 +1,8 @@
-const listAllValues = (obj) => {
-  const arr = [];
-  const arrKeys = Object.keys(obj);
+function listAllValues(obj) {
+  var arr = [];
+  var arrKeys = Object.keys(obj);
 
-  for (let i = 0; i < arrKeys.length; i += 1) {
+  for (var i = 0; i < arrKeys.length; i++) {
     arr.push(obj[arrKeys[i]]);
   }
 

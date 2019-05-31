@@ -1,5 +1,5 @@
-const addArrayProperty = (obj, key, arr) => {
+function addArrayProperty(obj, key, arr) {
   // your code here
-};
+}
 
 module.exports = addArrayProperty;

@@ -1,32 +1,26 @@
-# Ejercicios guiados
+# Exercícios Livres
 
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `40min`
+* Tipo: `exercício`
+* Formato: `individual`
+* Duração: `40 min`
 
 ***
 
 ## Objetivos
 
-- Entender, a través de casos prácticos, cómo aplicar los conceptos de
-  `funciones`, `arrays` y `objetos` para la resolución de problemas
+* Entender, através de casos práticos, como aplicar os conceitos de `funções`, `arrays` e `objetos` para resolução de problemas
 
 ***
 
 ## Enunciados
 
-Al igual que hemos hecho antes, es hora de aplicar los conceptos aprendidos para
-resolver problemas.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas.
 
-A continuación tendrás un problema que resolver. Intenta resolverlo primero por
-tu cuenta. Más abajo encontrarás la solución de Lourdes, otra instructora
-estrella de Laboratoria. Después de haberlo intentado, compara tus solución con
-la de Lourdes.
+Em seguida, você terá um problema para resolver. Tente resolvê-lo primeiro sozinha. Abaixo, você encontrará a solução de Lourdes, outra excelente instrutora da Laboratoria. Depois de tentar resolvê-lo, compare sua solução com a de Lourdes.
 
-### 1. Array to Object
+### 1. _Array_ para _Object_
 
-Escribe una función que tome un array 2D y devuelva un objeto con cada par de
-elementos en el `array` como un par _key-value_. Por ejemplo:
+Escreva uma função que receba um _array _2D \(vetor\) e retorne um objeto com cada par de elementos do `array` como um par chave-valor . Por exemplo:
 
 - Input
 
@@ -43,14 +37,15 @@ elementos en el `array` como un par _key-value_. Por ejemplo:
   year : 1964
 }
 ```
+Escreva também uma função que faça o contrário. Transforme os pares de _key-value_ de um `object` em um `array 2D`.
 
-También escribe una función que haga lo contrario. Transforme los pares
-_key-value_ de un `object` en un `array 2D`.
+<!--
+TODO: traduzir para português
 
-## Solucionario
+## Resolução
 
-A continuación, Lourdes te explica cómo resolvió el ejercicio:
+A seguir, Lourdes explica como ela resolveu o exercício:
 
-### 1. Array to Object
+### 1. _Array_ para _Object_
 
-[![Solution ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE)
+[![Solu&#xE7;&#xE3;o ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)](https://www.youtube.com/watch?v=41ZJrHO6BsE) -->

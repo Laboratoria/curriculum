@@ -1,31 +1,29 @@
 # Strings
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-* Aprender las posibilidades y flexibilidad que ofrecen los `strings`
+- Aprender as possibilidades e flexibilidade que as `strings` nos oferecem
 
-Esta lección es una traducción casi literal de
+Este conteúdo foi quase uma tradução literal de
 [https://javascript.info/string](https://javascript.info/string),
-aquí el [fuente](https://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/05-data-types/03-string/article.md)
+aqui a [fonte](https://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/05-data-types/03-string/article.md)
 
 ***
 
-En JavaScript, los tipos de dato *texto*, se guardan como *tiras de caracteres*,
-más popularmente conocidas como `strings`.
+Em JavaScript, todos os *textos* são do tipo `string`. Até apenas um caractere é
+do tipo `string`.
 
-## Comillas (*Quotes*)
+## Quotes (Aspas)
 
-Recordemos los tipos de comillas que tenemos.
+Vamos lembrar o tipo de aspas que temos.
 
-Los `Strings` pueden encerrarse en comillas simples (*single quotes*),
-dobles (*doble quotes*)
-o tildes invertidas (*backticks*):
+As `strings` podem ser aspas simples (*single quotes*), duplas (*double quotes*) ou crase (*backticks*):
 
 ```js
 const single = 'single-quoted';
@@ -34,13 +32,13 @@ const backticks = `backticks`;
 
 ```
 
-Las comillas simples y dobles, son básicamente lo mismo.
-Las tildes invertidas en cambio,
-nos permiten embeber (interpolar) cualquier expresión dentro de un string:
+As aspas simples e duplas, são basicamente a mesma coisa. A crase tem uma
+diferença, nos permite colocar (interpolar) qualquer expressão dentro de uma
+string:
 
 ```js
 const greeting = 'Mundo';
-console.assert(`Hola ${greeting}` === 'Hola Mundo');
+console.assert(`Olá ${greeting}` === 'Olá Mundo');
 
 const sqrt = Math.sqrt(7);
 console.assert(`sqrt(7) ~ ${sqrt.toFixed(2)}` === 'sqrt(7) ~ 2.65');
@@ -48,12 +46,12 @@ console.assert(`sqrt(7) ~ ${sqrt.toFixed(2)}` === 'sqrt(7) ~ 2.65');
 const sum = (a, b) => a + b;
 console.assert(`1 + 2 = ${sum(1, 2)}` === '1 + 2 = 3');
 
-console.assert(`${'Hola'.concat(` ${'Mun'.concat('do')}`)}!` === 'Hola Mundo!');
+console.assert(`${'Olá'.concat(` ${'Mun'.concat('do')}`)}!` === 'Olá Mundo!');
 
 ```
 
-Otra ventaja de usar tildes invertidas, es que nos permiten
-definir textos multi línea:
+Outra vantagem de usar crase, é o que nós permite criar textos com múltiplas
+linhas:
 
 ```js
 const guestList = `Guests:
@@ -66,28 +64,23 @@ console.assert(guestList === 'Guests:\n * John\n * Pete\n * Mary\n');
 
 ```
 
-Si intentamos usar comillas simples o dobles para hacer lo mismo,
-habrá un error
+Se tentarmos usar aspas simples ou duplas para fazer o mesmo, dará um erro:
 
 ```js
 let guestList = "Guests:  // Error: Unexpected token ILLEGAL
 * John";
 ```
 
-Las comillas simples y dobles las hemos heredado de
-los lenguajes tradicionales, donde no se contemplaban
-la interpolación de variables o los strings de más
-de una línea.
+As aspas simples ou duplas foram herdadas de linguagem tradicionais, onde não se
+contemplam a interpolação de variáveis ou as `strings` de mais de uma linha.
 
-Las tildes invertidas aparecieron mucho después y por lo tanto
-son más versátiles.
+As crases apareceram muito depois e por isso são muito mais versáteis.
 
-## Caracteres especiales
+## Caracteres especiais
 
-Como vimos antes, es posible crear un *multiline string*
-usando comillas simples, gracias a un caracter especial, llamado
-*"newline character"*, que se representa asi `\n`,
-y representa un salto de línea:
+Como vimos antes, é possível criar um *multiline string* usando aspas simples,
+graças a um caractere especial, chamado *newline character*, que é representado
+por `\n`, e isso adiciona uma nova linha:
 
 ```js
 console.assert(
@@ -104,9 +97,9 @@ World` === 'Hello\nWorld',
 
 ```
 
-Hay otros caracteres especiales, que no son tan comunes. Aca la lista:
+Existe outros caractes especiais, que não são tão comuns. Aqui está a lista:
 
-| Caracter | Descripción |
+| Caractere | Descrição |
 |-----------|-------------|
 |`\'`|Single quote
 |`\"`|Double quote
@@ -120,25 +113,24 @@ Hay otros caracteres especiales, que no son tan comunes. Aca la lista:
 |`\xdd`|Secuencia hexadecimal (2 digitos: dd)
 |`\uNNNN`|Símbolo unicode con código hexadecimal
 
-Algunos ejemplos con Unicode:
+Alguns exemplos com Unicode:
 
 ```js
 console.assert('\u00A9' === '©');
 console.assert('\u{1F60D}' === '😍');
 ```
 
-Todos los caracteres especiales, comienzan con la barra invertida `\`.
-También se la llama *"escape character"*.
+Todos os caracteres especiais, começam com a barra invertida `\`. Também chamado de
+*escape character*.
 
 ```js
 console.assert('I\'m the Walrus!' === "I'm the Walrus!");
 ```
 
-Ten cuenta que sólo usamos la barra invertida para que el intérprete de
-JavaScript entienda lo que le queremos decir. Una vez en memoria, el `\`
-desaparece.
+Note que só usamos a barra invertida apenas para que o intérprete do JavaScript
+entenda o que queremos dizer. Uma vez na memória, o `\` desaparece.
 
-¿Qué hacemos si necesitamos mostras una barra invertida? Usamos `\\`:
+O que fazemos se precisamos mostrar uma barra invertida? Usamos `\\`:
 
 ```js
 alert( `The backslash: \\` ); // The backslash: \
@@ -146,18 +138,18 @@ alert( `The backslash: \\` ); // The backslash: \
 
 ## `String.length`
 
-La propiedad `length` guarda la longitud del `String`:
+A propriedade `length` retorna o tamanho da `String`:
 
 ```js
 console.assert('My\n'.length === 3);
 ```
 
-Nota que los caracteres especiales, a pesar de estar compuestos por 2
-caracteres, cuentan como un sólo caracter.
+Note que os caracteres especiais, apesar de serem compostos por 2 caractes, contam
+apenas um.
 
-## Accediendo caracteres específicos
+## Acessando caracteres específicos
 
-Para obtener el caracter de la posición `pos`, usamos corchetes `[pos]` o el
+Para obter o caractere da possição `pos`, usamos os colchetes `[pos]` ou o
 método `str.charAt(pos)`.
 
 ```js
@@ -172,10 +164,10 @@ console.assert(str.charAt(1000) === '');
 console.assert(str[str.length - 1] === 'o');
 ```
 
-## Immutabilidad
+## Imutabilidade
 
-En JavaScript, a los `Strings` **no se puede modificar su valor**.
-Inclusive si lo intentamos, no podremos.
+Em JavaScript, as `string` **não podem alterar o seu valor**.
+Inclusive se tentarmos, não conseguimos.
 
 ```js
 str = 'Hi';
@@ -183,17 +175,17 @@ str[0] = 'P';
 console.assert(str[0] === 'H'); /* No cambió */
 ```
 
-La forma usual de lograr esto es creando un nuevo string
-pisando al anterior:
+A forma mais comum de fazer isso é criando uma nova `string`
+e passando a anterior:
 
 ```js
 str = 'Hi';
-str = `P${str[1]}`; /* replazamos */
+str = `P${str[1]}`; /* substituímos */
 
 console.assert(str === 'Pi');
 ```
 
-## Mayúsculas / minúsculas
+## Maiúscula / minúscula
 
 ```js
 console.assert('Interface'.toUpperCase() === 'INTERFACE');
@@ -213,15 +205,15 @@ console.assert(str.indexOf('widget') === -1);
 console.assert(str.indexOf('id') === 1);
 ```
 
-`String.indexOf` funciona de manera análoga a `Array.indexOf`:
-recibe un segundo parámetro opcional, que nos permite comenzar
-la búsqueda a partir de una posición en particular.
+`String.indexOf` funciona de maneira análoga `Array.indexOf`: recebe um segundo
+parâmetro opcional, que nós permite começar a buscar a partir de uma posição
+particular.
 
 ```js
 console.assert(str.indexOf('id', 2) === 12);
 ```
 
-Veamos como sería si queremos todas las ocurrencias:
+Vejamos como seriam todas as ocorrências:
 
 ```js
 const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
@@ -234,10 +226,10 @@ const result = [];
 let pos = 0;
 while (true) {
   const foundPos = str.indexOf(target, pos);
-  if (foundPos === -1) break; // ya no hay mas ocurrencias
+  if (foundPos === -1) break; // já não há mais ocorrências
 
   result.push(foundPos);
-  pos = foundPos + 1; // siguiente posición
+  pos = foundPos + 1; // próxima posição
 }
 
 console.assert(equal(
@@ -246,8 +238,8 @@ console.assert(equal(
 ));
 ```
 
-Asi como en `Arrays`, también existen los métodos `lastIndexOf(pos)`
-y `lastIndexOf`.
+Assim como no `Array`, também existem os métodos `lastIndexOf(pos)`
+e `lastIndexOf`.
 
 ### `includes`, `startsWith`, `endsWith`
 
@@ -256,7 +248,7 @@ console.assert('Widget with id'.includes('Widget'));
 console.assert(!'Hello'.includes('Bye'));
 ```
 
-También cuenta con un segundo parámetro opcional
+Também conta com um segundo parâmetro opcional
 
 ```js
 console.assert('Midget'.includes('id'));
@@ -265,14 +257,13 @@ console.assert('Widget'.startsWith('Wid'));
 console.assert('Widget'.endsWith('get'));
 ```
 
-## Obteniendo substrings
+## Obtendo substrings
 
-Hay 3 métodos en Javascript que nos permiten obtener substrings:
-`substring`, `substr` and `slice`.
+Existem 3 métodos no JavaScript que nos permitem obter substring:
+`substring`, `substr` e `slice`.
 
-`str.slice(start [, end])`
-: Devuelve parte del string comenzando en `start`
-hasta (pero sin incluir) `end`.
+`str.slice(start [, end])`: Retorna parte da string começando com `start` até
+(mas sem incluir) `end`.
 
 ```js
 str = 'stringify';
@@ -280,15 +271,15 @@ console.assert(str.slice(1, 4) === 'tri');
 console.assert(str.slice(0, 1) === 's');
 ```
 
-Si no hay segundo parámetro, corre hasta el final del string.
+Se não passar o segundo parâmetro, a função vai até o final da `string`.
 
 ```js
 str = 'stringify';
 console.assert(str.slice(2) === 'ringify');
 ```
 
-Valores negativos para `start/end` también son posibles.
-Quiere decir que la posición se cuenta comenzando por el final:
+Valores negativamos para `start/end` também são possível.
+Isso quer dizer que a posição é contada a partir do final:
 
 ```js
 str = 'stringify';
@@ -296,11 +287,9 @@ console.assert(str.slice(-4, -1) === 'gif');
 
 ```
 
-`str.substring(start [, end])`
-: Devuelve el substring *entre* `start` y `end`.
+`str.substring(start [, end])`: Retorna a substring entre `start` e `end`.
 
-Es casi idéntico a `slice`, pero permite valores
-de `start` mayores que `end`.
+É quase idêntico a `slice`, mas permite valores de `start` maiores que `end`.
 
 ```js
 str = 'stringify';
@@ -309,83 +298,82 @@ console.assert(str.substring(2, 6) === 'ring');
 console.assert(str.substring(6, 2) === 'ring');
 ```
 
-Con `slice` no funciona:
+Com `slice` não funciona:
 
 ```js
 console.assert(str.slice(2, 6) === 'ring');
 console.assert(str.slice(6, 2) === '');
 ```
 
-`str.substr(start [, length])`
-: Devuelve parte del string comenzando desde `start`, `length` caracteres.
+`str.substr(start [, end])`: Retorna parte da `string` começando do `start` até
+o `end`.
 
 ```js
 str = 'stringify';
 console.assert(str.substr(2, 4) === 'ring');
 ```
 
-El primer argumento puede ser negativo,
-para contar desde el final:
+O primeiro argumento pode ser negativo e assim irá contar desde o final:
 
 ```js
 str = 'stringify';
 console.assert(str.substr(-4, 2) === 'gi');
 ```
 
-En resumen:
+Em resumo:
 
-| método | selecciona... | argumentos negativos |
+| método | seleciona... | argumentos negativos |
 |--------|---------------|----------------------|
-|`slice(start, end)`|desde `start` hasta `end` (excluye `end`)|permite negativos|
-|`substring(start, end)`|entre `start` y `end`|los interpreta como `0`|
+|`slice(start, end)`|desde `start` até `end` (exclui `end`)|permite negativos|
+|`substring(start, end)`|entre `start` e `end`|interpreta como `0`|
 |`substr(start, length)`|desde `start`, `length` caracteres|permite `start` negativo|
 
-> Todos los anteriores realizan la misma tarea, pero debemos tener en cuenta que
-> `substr` no es parte de las especificación del `core` de JavaScript, sino del
-> *Anexo* B, que cubre funcionalidades exclusivas de los navegadores. Pero en la
-> práctica funciona en todos los entornos.
+> Todos os anteriores realizam  a mesma tarefa, mas devemos ter em conta que
+> `substr` não é parte das especificação do `core` do JavaScript, mas o *Anexo*
+> B, que cobre funcionalidades exclusicas dos navegadores. Mas a prática funciona
+> para todo o entorno.
 
 ## Comparando strings
 
-Los strings son comparados caracter por caracter en orden alfabético.
+As `strings` são comparadas caractere por caractere em ardem alfabética.
 
-Pero existen algunos casos raros:
+Mas existem alguns casos raros:
 
-1. Las minúsculas son siempre *"mayores"* que las mayúsculas:
+1. As minúsculas são sempre *maiores* que as maiúsculas:
 
    ```js
    console.assert('a' > 'Z');
    ```
 
-2. Los caracteres con signos diacríticos, son mayores que todos los otros
+2. Os caracteres com sinais diacríticos, são maiores que todos os outros
    caracteres:
 
    ```js
    console.assert('Ñandu' > 'Zebra');
    ```
 
-Para entender lo que sucede, veamos un poco como se representan internamente
-los strings en JavaScript
+Para entender o que acontence, vejamos um pouco como representam intermanente as
+`strings` em JavaScript.
 
-Los strings se codifican usando [UTF-16](https://en.wikipedia.org/wiki/UTF-16).
-Esto quiere decir que a cada caracter, le corresponde un código numérico.
-Contamos con métodos especiales que nos permite ir y venir entre un caracter
-y el código que lo representa.
+As `strings` se codificam usando [UTF-16](https://pt.wikipedia.org/wiki/UTF-16).
+Isso significa que cada caractere possui um código numérico. Nós temos métodos
+especiais que nos permitem ir e vir entre um caractere e o código que o
+representa.
 
-`str.codePointAt(pos)`: Devuelve el código del caracter en la posición `pos`:
+`str.codePointAt(pos)`: Retorna o código do caractere na posição `pos`:
 
 ```js
 console.assert('z'.codePointAt(0) === 122);
 console.assert('Z'.codePointAt(0) === 90);
 ```
 
-`String.fromCodePoint(code)`: Crea un string a partir del `code` numérico:
+`String.fromCodePoint(code)`: Criar uma `string` a partir do `code` numérico:
 
 ```js
 console.assert(String.fromCodePoint(90) === 'Z');
 ```
 
-Ahora veamos cuáles son los caracteres con códigos entre `65..220` (el
+Agora vejamos qual são os caracteres com códigos dentre `65..220` (o
 alfabeto):
 
 ```js
@@ -399,32 +387,32 @@ console.assert(
 );
 ```
 
-Ahora se ve claro por qué `a > Z`.
+Agora está claro porque `a > Z`.
 
-## Resumen
+## Resumo
 
-* Hay 3 tipos de comillas. Las tildes invertidas no permiten definir strings
-  multilineales e interpolar valores.
-* Los Strings en JavaScript se codifican usando UTF-16.
-* Existen caracteres especiales como `\n`.
-* Para obtener un caracter espec[ifico usamos: `[]`.
-* Para obtener un substring, usamos: `slice` o `substring`.
+- Tem 3 tipos de aspas. As crases nos permitem definir `strings` multilinhas e
+  interpolar valores.
+- As `strings` em JavaScript se codificam usando UTF-16.
+- Existem caracteres especiais como `\n`.
+- Para obter um caractere específico usamos: `[]`.
+- Para obter uma substring, usamod: `slice` ou `substring`.
 
-Quedan varios métodos bien útiles:
+Existem vários métodos úteis:
 
-* `str.trim()` -- quita espacios extras del comienzo y fin del string.
-* `str.repeat(n)` -- repite el string `n` veces.
-* ... mucho más. chequea [Strings en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String)
-  para más detalles.
+- `str.trim()` -- retira os espaços extras do começo e final da `string`.
+- `str.repeat(n)` -- repete a `string` `n` vezes.
+- ... muito mais. leia no [Strings no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+  para mais detalhes.
 
-Los `Strings` además tienen métodos para buscar y reemplazar usando *expresiones
-regulares*, pero eso queda para otra oportunidad.
+As `strings` também têm métodos para pesquisar e substituir usando expressões
+*regular*, mas isso é para outra chance.
 
 ***
 
 ## Recursos sugeridos
 
-* [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
-* [ASCII](https://ascii.cl/es/)
-* [Js Strings Internals y Unicode](https://javascript.info/string#internals-unicode)
-* [Usos de las tildes invertidas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings)
+- [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
+- [ASCII](https://ascii.cl/es/)
+- [Js Strings Internals e Unicode](https://javascript.info/string#internals-unicode)
+- [Uso da crase](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)

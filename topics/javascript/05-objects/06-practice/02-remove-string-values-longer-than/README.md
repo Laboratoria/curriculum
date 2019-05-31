@@ -1,20 +1,17 @@
 # removeStringValuesLongerThan
 
-Escribe una función llamada `removeStringValuesLongerThan`.
+Escreva uma função chamada "removeStringValuesLongerThan".
 
-Dado un número y un objeto, `removeStringValuesLongerThan` elimina cualquier
-propiedad en el objeto dado cuyos valores son cadenas de texto más largas que el
-número dado.
+Dado um número e um objeto, "removeStringValuesLongerThan" remove qualquer propriedade no objeto dado cujos valores são strings maiores que o número fornecido.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
-const obj = {
+```javascript
+var obj = {
   name: 'Montana',
   age: 20,
   location: 'Texas'
 };
-
 removeStringValuesLongerThan(6, obj);
-console.log(obj); // => { age: 20, location: 'Texas' }
+console.log(obj); // { age: 20, location: 'Texas' }
 ```

@@ -1,5 +1,5 @@
-const getProductOfAllElementsAtProperty = (obj, key) => {
+function getProductOfAllElementsAtProperty(obj, key) {
   // your code here
-};
+}
 
 module.exports = getProductOfAllElementsAtProperty;

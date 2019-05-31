@@ -1,13 +1,13 @@
-# Convertir a Mayúsculas
+# Conversor de Maiúsculas
 
 * Environment: `js`
 
 ***
 
-Implementa una función que capitalice la primera y última letra de un _string_.
+Implemente uma função de capitalize a primeira e a última letra de uma _string_.
 
-Sigue los pasos a continuación para que completes el programa.
+Siga os passos abaixo para completar o programa:
 
-1. Seleccione la primera y ultima letra y utilice la función
+1. Selecione a primeira e a última letra e utilize a função
    `String.prototype.toUpperCase`.
-2. Componer la nueva cadena y retornarla.
+2. Componha a nova `string` e devolva-a.

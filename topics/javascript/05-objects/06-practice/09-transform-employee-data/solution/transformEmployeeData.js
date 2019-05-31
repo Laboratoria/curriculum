@@ -1,12 +1,11 @@
-const transformEmployeeData = (array) => {
-  const arrayMain = [];
+function transformEmployeeData(array) {
+  var arrayMain = [];
 
-  for (let i = 0; i < array.length; i += 1) {
-    const arr = array[i];
-    const obj = {};
+  for (var i = 0; i < array.length; i++) {
+    var arr = array[i];
+    var obj = {};
 
-    for (let j = 0; j < arr.length; j += 1) {
-      /* eslint-disable-next-line prefer-destructuring */
+    for (var j = 0; j < arr.length; j++) {
       obj[arr[j][0]] = arr[j][1];
     }
 
@@ -14,6 +13,6 @@ const transformEmployeeData = (array) => {
   }
 
   return arrayMain;
-};
+}
 
 module.exports = transformEmployeeData;

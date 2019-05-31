@@ -1,12 +1,11 @@
-const fromListToObject = (array) => {
-  const obj = {};
+function fromListToObject(array) {
+  var obj = {};
 
-  for (let i = 0; i < array.length; i += 1) {
-    /* eslint-disable-next-line prefer-destructuring */
+  for (var i = 0; i < array.length; i++) {
     obj[array[i][0]] = array[i][1];
   }
 
   return obj;
-};
+}
 
 module.exports = fromListToObject;

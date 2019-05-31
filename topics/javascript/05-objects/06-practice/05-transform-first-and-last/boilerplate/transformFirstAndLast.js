@@ -1,5 +1,5 @@
-const transformFirstAndLast = (array) => {
+function transformFirstAndLast(array) {
   // your code here
-};
+}
 
 module.exports = transformFirstAndLast;

@@ -1,40 +1,37 @@
 # transformFirstAndLast
 
-Escribe una función `transformFirstAndLast` que toma un array y devuelve un
-objeto con:
+Escreva uma função 'transformFirstAndLast' que receba um vetor e retorne um objeto com:
 
-1. el primer elemento del array como la llave del objeto, y
-2. el último elemento del array como valor de esa llave.
+1. o primeiro elemento do vetor como a chave do objeto e
+2. o último elemento do vetor como o valor dessa chave.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
+```javascript
 ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```javascript
 {
   Queen: 'Beyonce'
 }
 ```
 
-No cambies el array de entrada. Piensa que todos los elementos del array de
-entrada serán del tipo `string`.
+Não altere o vetor de entrada. Suponha que todos os elementos do _array_ de entrada sejam do tipo `string`.
 
-Ten en cuenta que el array de entrada puede tener un número variable de
-elementos. Tu código debería acomodarse de manera flexible.
+Observe que o vetor de entrada pode ter um número variável de elementos. Seu código deve responder de forma flexível.
 
-Ejemplo, debe manejar la entrada como:
+Por exemplo, você deve manipular entradas como:
 
-```js
+```javascript
 ['Kevin', 'Bacon', 'Amor', 'Hart', 'Costner', 'Spacey']
 ```
 
-Valor de retorno de la función (salida):
+Saída da função:
 
-```js
+```javascript
 {
   Kevin: "Spacey"
 }

@@ -1,7 +1,7 @@
-# Retos de código
+# Desafios de código
 
 - Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `15min`
+- Formato: `individual`
+- Duração: `15min`
 
 ***

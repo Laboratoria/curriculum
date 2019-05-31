@@ -1,21 +1,19 @@
 # getSumOfAllElementsAtProperty
 
-Escribe una función llamada `getSumOfAllElementsAtProperty`.
+Escreva uma função chamada "getSumOfAllElementsAtProperty".
 
-Dado un objeto y una key, `getSumOfAllElementsAtProperty` devuelve la suma de
-todos los elementos del array.
+Dado um objeto e uma chave, "getSumOfAllElementsAtProperty" devolve a soma de todos os elementos da matriz.
 
 Notas:
 
-- Si el array está vacío, debe devolver `0`.
-- Si la propiedad en la key dada no es un array, debe devolver `0`.
-- Si no hay ninguna propiedad en la key dada, debe devolver `0`.
+* Se o _array_ estiver vazio, ela deve devolver 0.
+* Se a propriedade na chave fornecida não for um _array_, ela deverá devolver 0.
+* Se não houver nenhuma propriedade na chave fornecida, ela deverá devolver 0.
 
-```js
-const obj = {
-  key: [4, 1, 8];
+```javascript
+var obj = {
+  key: [4, 1, 8];
 };
-
-const output = getSumOfAllElementsAtProperty(obj, 'key');
-console.log(output); // => 13
+var output = getSumOfAllElementsAtProperty(obj, 'key');
+console.log(output); // -> 13
 ```

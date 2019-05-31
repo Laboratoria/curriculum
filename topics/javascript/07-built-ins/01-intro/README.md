@@ -1,18 +1,21 @@
-# Objetos preconstruidos
+# Objetos pré-construídos
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
-
-* ¿Qué son los objetos globales, objetos preconstruidos o librerías estándar en
+- O que são os objetos globais, objetos pré-construídos ou bibliotecas em
   JavaScript?
-* ¿Por qué utilizarlos?
+- Porque utilizar?
 
 ***
+
+
+
+<!-- TRADUZIR -->
+
 
 ### JavaScript, indagando en el núcleo del lenguaje
 

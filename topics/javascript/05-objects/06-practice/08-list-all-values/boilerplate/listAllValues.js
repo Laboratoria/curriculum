@@ -1,5 +1,5 @@
-const listAllValues = (obj) => {
+function listAllValues(obj) {
   // your code here
-};
+}
 
 module.exports = listAllValues;

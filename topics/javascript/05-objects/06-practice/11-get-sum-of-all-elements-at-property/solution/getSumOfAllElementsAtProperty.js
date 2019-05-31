@@ -1,11 +1,13 @@
-const getSumOfAllElementsAtProperty = (obj, key) => {
-  let sum = 0;
-  const array = obj[key];
+function getSumOfAllElementsAtProperty(obj, key) {
+  var sum = 0;
+  var array = obj[key];
 
-  if (Array.isArray(array) && (array.length > 0)) {
-    [sum] = array;
+  // if (array instanceof Array) {
+  if (Array.isArray(array) && (0 < array.length)) {
+    sum = array[0];
 
-    for (let i = 1; i < array.length; i += 1) { sum += array[i]; }
+    for(var i = 1; i < array.length; i++)
+      sum += array[i];
   }
 
   return sum;

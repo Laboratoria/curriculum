@@ -1,5 +1,5 @@
-const addFullNameProperty = (obj) => {
+function addFullNameProperty(obj) {
   // your code here
-};
+}
 
 module.exports = addFullNameProperty;
