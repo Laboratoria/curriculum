@@ -120,12 +120,20 @@ Related files: [`.travis.yml`](../.travis.yml).
 Helper aimed at **coaches**, used to create a _copy_ of a particular project,
 as _coaches_ do when creating a repo for a specific _cohort_.
 
-Usage: `./scripts/create-cohort-project.sh <src> <dest>`
+Usage: `./scripts/create-cohort-project.sh <src> <dest> [<cohortid>]`
+
+Arguments:
+
+* `src`: Path to project dir in file system.
+* `dest`: Path to dir where to create the new cohort project folder.
+* `cohortid`: The _cohortid_ (legacy) or _slug_ identifying the cohort.
+
+Options:
+
+* `--noop`
 
 ```sh
-./scripts/create-cohort-project.sh projects/01-cipher ~/lim-2019-06-bc-core-012
-
-# npm run create-cohort-project projects/01-cipher ~/lim-2019-06-bc-core-012
+./scripts/create-cohort-project.sh projects/01-cipher ~/tmp lim-2019-06-bc-core-012
 ```
 
 ### propagate (maintainers)
@@ -137,7 +145,4 @@ PR will be sent with the relevant changes.
 ```sh
 ./scripts/propagate.sh --noop
 ./scripts/propagate.sh
-
-# npm run propagate --noop
-# npm run propagate
 ```
