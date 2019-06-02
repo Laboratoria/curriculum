@@ -1,32 +1,168 @@
 #! /usr/bin/env bash
 
-POSITIONAL=()
+positional=()
 while [[ $# -gt 0 ]]; do
   key="$1"
 
   case $key in
+    -k|--keep_rubric_numbers)
+      keep_rubric_numbers=YES
+      shift
+      ;;
     -n|--noop)
-      NOOP=YES
+      noop=YES
       shift # past argument
       ;;
     *)
-      POSITIONAL+=("$1") # save it in an array for later
+      positional+=("$1") # save it in an array for later
       shift # past argument
       ;;
   esac
 done
 
 
-src=${POSITIONAL[0]}
-dest=${POSITIONAL[1]}
+src=${positional[0]}
+dest=${positional[1]}
+cohortid=${positional[2]}
+project_dirname=$( basename "${src}" )
+slug=${project_dirname:3}
+repo_name="${slug}"
+
+if [[ -z "$src" ]]; then
+  echo "Please specify a source dir containing a project"
+  exit 1
+fi
+
+if [[ ! -d "$src" ]]; then
+  echo "Source dir is not a directory!"
+  exit 1
+fi
+
+if [[ ! -z "${cohortid}" ]]; then
+  repo_name="${cohortid}-${slug}"
+fi
+
+if [[ -z "$dest" ]]; then
+  dest="${repo_name}"
+else
+  dest="$( realpath "${dest}" )/${repo_name}"
+fi
 
 
-cp -r "${src}/." "${dest}"
-cat "${src}/README.md" | sed -e 's/^|\([^|]*\)|.*|$/|\1|/g' > "${dest}/README.md"
-cd "${dest}"
-git init
-git add .
-git commit -m "chore(init): Adds project files from curriculum"
+if [[ -f "$dest" ]]; then
+  echo "Destination exists and its a file??"
+  exit 1
+fi
+
+if [[ -d "$dest" ]]; then
+  echo -n "Dir ${dest} already exists.. use it anyway? [y/N]: "
+  read use_existing_dir
+  if [[ "${use_existing_dir}" != "y" && "${use_existing_dir}" != "Y" ]]; then
+    echo "Aborting..."
+    exit 1
+  fi
+else
+  if [[ "${noop}" == "YES" ]]; then
+    echo "Would have created directory ${dest}"
+  else
+    mkdir -p "${dest}"
+  fi
+fi
+
+
+echo "You are about to copy all files from ${src} to ${dest}"
+echo -n "Are you sure you want to continue? [Y/n]: "
+read confirm_copy
+if [[ "${confirm_copy}" == "n" || "${confirm_copy}" == "N" ]]; then
+  exit 1
+fi
+
+
+if [[ "${noop}" == "YES" ]]; then
+  echo "Would have copied files from ${src} to ${dest}"
+else
+  echo "Copying files..."
+  cp -r "${src}/." "${dest}"
+fi
+
+
+if [[ "$keep_rubric_numbers" != "YES" ]]; then
+  if [[ "${noop}" == "YES" ]]; then
+    echo "Would have removed rubric numbers from README.md"
+  else
+    echo "Removing rubric numbers..."
+    cat "${src}/README.md" | sed -e 's/^|\([^|]*\)|.*|$/|\1|/g' > "${dest}/README.md"
+  fi
+fi
+
+
+if [[ "${noop}" == "YES" ]]; then
+  echo "Would have initialized local repo, added files and commited"
+else
+  echo "Initializing repo..."
+  cd "${dest}"
+  git init
+  git add .
+  git commit -m "chore(init): Adds project files from curriculum"
+fi
+
+
+echo -n "Would you like to create a repository on GitHub and push changes? [Y/n]: "
+read create_repo
+if [[ "${create_repo}" == "n" || "${create_repo}" == "N" ]]; then
+  echo "Done!"
+  exit 0
+fi
+
+
+git_config_email=$( git config --get user.email )
+echo -n "GitHub email [${git_config_email}]: "
+read gh_user
+if [[ "${gh_user}" == "" ]]; then
+  gh_user="${git_config_email}"
+fi
+
+echo -n "GitHub password: "
+read -s gh_pass
+echo ""
+
+echo -n "GitHub org [Laboratoria]: "
+read gh_org
+if [[ "${gh_org}" == "" ]]; then
+  gh_org="Laboratoria"
+fi
+
+
+if [[ "${noop}" == "YES" ]]; then
+  echo "Would have tried to create repo on ${gh_org}/${repo_name}"
+else
+  echo "Creating repo as ${gh_user}..."
+  result=$(
+    curl -s \
+      -u "${gh_user}:${gh_pass}" \
+      -X POST \
+      -H 'content-type: application/json' \
+      -d "{\"name\":\"${repo_name}\",\"private\":true}" \
+      "https://api.github.com/orgs/${gh_org}/repos"
+  )
+
+  html_url=$( node -e "console.log((${result}).html_url || '')" )
+  if [[ "$?" != "0" || "${html_url}" == "" ]]; then
+    echo "Error creating repo."
+    exit 1
+  fi
+
+  echo "You can visit the newly created repo here:"
+  echo "${html_url}"
+fi
+
+
+if [[ "${noop}" == "YES" ]]; then
+  echo "Would have pushed changes to ${gh_org}/${repo_name}"
+else
+  git remote add upstream "git@github.com:${gh_org}/${repo_name}.git"
+  git push -u upstream master
+fi
 
 
 echo "
@@ -34,13 +170,8 @@ Para continuar accede al directorio del proyecto del cohort:
 
 cd $(pwd)
 
-Después crea un repo en GitHub específicamente para tu cohort si todavía no lo
-has hecho.
+O visita el repo directamente en GitHub:
 
-Cuando ya hayas creado el repo en github procede a empujar nuestro commit
-inicial. Algo como:
-
-git remote add upstream git@github.com:<user>/<cohort-id>-<project-slug>.git
-git push -u upstream master
+${html_url}
 
 🚀🚀🚀"
