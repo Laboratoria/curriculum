@@ -1,108 +1,107 @@
-# Modo Estricto
+# Modo Estrito
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-El modo estricto realiza cambios en la semántica normal de javascript. Un
-aspecto importante es que el modo estricto elimina errores silenciosos, lo que
-obligó a escribir un código mejor y no cometer errores.
+O modo estrito realiza mudanças na semântica normal do JavaScript. Um aspecto
+importante disso é que o modo estrito elimina erros silenciosos, forçando a
+escrita de um código melhor.
 
-La directiva `use strict` es una directiva que no supone una instrucción de
-código, sino que indica el modo en que el navegador debe ejecutar el código
-JavaScript.
+O comando `use strict` não significa uma instrução de código, apenas indica ao
+navegador o modo como deve executar o código JavaScript.
 
-Podríamos hablar de dos modos de ejecución JavaScript: `normal mode`, que es el
-que hemos estudiado hasta ahora, y el `strict mode`, que vamos a explicar.
+Poderíamos falar de dois modos de execução do JavaScript: `normal mode`, que é
+como temos estudado até agora, e o `strict mode` que é o que vamos aprender.
 
-## Invocando el modo estricto
+## Chamando o modo estrito
 
-Para invocar el modo estricto, sólo tienes que escribir `'use strict';` en tu
-archivo JavaScript. Por ejemplo:
+Para chamar o modo estrito, você deve apenas escrever `'use strict';`em seu
+arquivo JavaScript. Por exemplo:
 
 ```js
 'use strict';
 ```
 
-Ahora que ya sabe cómo invocar el modo estricto, vamos a ver un ejemplo rápido.
+Agora que você sabe como chamar o modo estrito, vamos ver um exemplo rápido.
 
 ```js
 'use strict';
 foo = 'Alexandra'; // Uncaught ReferenceError: foo is not defined
 ```
 
-Ahora que estamos usando el _modo estricto_ esto resulta en un error, que nos
-dice que `foo` no está definida. Es necesario declarar la variable antes de
-usarla.
+Agora que estamos utilizando o _modo estrito_ o JavaScript nos retorna um erro,
+dizendo que `foo` não está definida. É necessário declarar a variável antes de
+utilizá-la.
 
 ```js
 'use strict';
-var foo = 'Guilherme'; // It works!
+const foo = 'Guilherme'; // Funciona!
 ```
 
-El modo estricto cambia la sintáxis y el comportamiento en tiempo de ejecución.
-Los cambios generalmente caen dentro de estas categorías: cambios que convierten
-erratas en errores (como errores de sintáxis o en tiempo de ejecución), cambios
-que simplifican como una variable particular es calculada, cambios que
-simplifian el uso de eval y arguments, cambios que hacen más fácil escribir
-JavaScript "seguro", y cambios que anticipan la evolución futura de EMACScript.
+O modo estrito modifica a sintaxe e o comportamento durante a execução. As
+mudanças geralmente caem dentro das seguintes categorias: modificações que
+convertem erratas em erros (como erros de sintaxe ou no tempo de execução), que
+simplificam como uma variável em particular é calculada, que simplificam o uso
+do eval() e argumentos, que tornam mais fácil a escrita de JavaScript "seguro" e
+que antecipam a evolução futura do ECMAScript.
 
-## Convirtiendo erratas en errores
 
-El modo estricto cambia algunos errores de sintáxis tolerados en modo no
-estricto y los convierte en errores.  JavaScript fue diseñado de modo que fuera
-fácil para programadores novatos, y puede haber operaciones que deberían ser
-errores pero son tratadas como libres de error. A veces esto sirve para
-solucionar el problema en el momento, pero puede crear problemas más graves
-en el futuro. El modo estricto trata las erratas como errores, para que puedan
-ser descubiertas y subsanadas inmediatamente.
+## Convertendo erratas em erros
 
-En primer lugar, el modo estricto hace imposible crear variables globales por
-accidente. En JavaScript no estricto, si se escribe mal una variable en una
-asignación, se creará una nueva propiedad en el objeto globlal y el código
-continuará "trabajando" como si nada (aunque es posible que el código así
-escrito falle en el futuro, en concreto, en JavaScript más moderno). En modo
-estricto, cualquier asignación que produzca variables globales por accidente
-lanzará un error.
+O modo estrito modifica alguns erros de sintaxe tolerados no modo normal e os
+converte em erros. O JavaScript foi desenvolvido de um modo que o tornasse mais
+fácil para programadoras iniciantes, dessa forma podem existir operações que
+deveriam ser erros, porém são tratadas como livres de erros. Algumas vezes isso
+é útil para solucionar um problema no momento, porém pode criar problemas mais
+graves no futuro. O modo estrito trata estas erratas como erros, para que possam
+ser encontradas e resolvidas imediatamente.
 
-En segundo lugar, el modo estricto lanza una excepción en asignaciones que de
-otro modo fallarían silenciosamente. Por ejemplo, NaN es una variable que no
-puede ser asignada. En un código normal, asignar a `NaN` un valor no tiene
-efectos; el programador no recibe ningún mensaje de error. En cambio, en modo
-estricto, si se intenta asignar un valor a `NaN`, el programador recibirá una
-exepción. Cualquier asignación que falle silenciosamente en código normal
-(asignaciones a una propiedad de no escritura, asignaciones a una propiedad get,
-asignaciones a una nueva propiedad o a un objecto no extendible) lanzará una
-exepción en modo estricto:
+Em primeiro lugar, o modo estrito impossibilita a criação de variáveis globais
+por acidente. No modo não estrito do JavaScript, uma variável declarada de forma
+incorreta criará uma nova propriedade no objeto global e o código continuará
+rodando como se nada tivesse acontecido (ainda que seja possível que o código
+falhe no futuro, em uma versão mais moderna do JS). No modo estrito, qualquer
+declaração de produza variáveis globais por acidente resultará em erro.
+
+Em segundo lugar, o modo estrito gera uma exceção para declarações que de outro
+modo falhariam silenciosamente. Por exemplo, NaN é uma variável que não pode ser
+declarada. Em um código normal, declarar um valor como `NaN` não tem efeito; a
+programadora não recebe nenhuma mensagem de erro. Ao invés disso, no modo
+estrito, ao tentar atribuir `NaN` como valor, a programadora receberá uma
+exceção. Qualquer declaração que falhe silenciosamente no código normal
+(declarações a uma propriedade do tipo "somente leitura", a uma propriedade get,
+adicionar propriedades a objetos não extensíveis) resultará em uma exceção no
+modo estrito:
 
 ```js
 'use strict';
-// Asignación a un no-escritura global
-var undefined = 5;
-var Infinity = 5;
+// atribuição global
+const undefined = 5;
+const Infinity = 5;
 
-// Asignación a una propiedad de no-escritura
-var obj1 = {};
+// Atribuição a uma propriedade somente leitura
+let obj1 = {};
 Object.defineProperty(obj1, 'x', { value: 42, writable: false });
-obj1.x = 9; // lanza un TypeError
+obj1.x = 9; // gera um TypeError
 
-// Asignación a una propiedad de tipo getter
-var obj2 = { get x() { return 17; } };
-obj2.x = 5; // lanza un TypeError
+// Atribuição a uma propriedade do tipo getter
+let obj2 = { get x() { return 17; } };
+obj2.x = 5; // gera um TypeError
 
-// Asignación a una nueva propiedad en un objeto no-extendible
-var fixed = {};
+// Atribuição a uma nova propriedade de um objeto não extensível
+let fixed = {};
 Object.preventExtensions(fixed);
-fixed.newProp = 'ohai'; // lanza un TypeError
+fixed.newProp = 'ohai'; // gera um TypeError
 ```
 
-En tercer lugar, el modo estricto lanza una excepción al intentar eliminar
-propiedades no eliminables (mientra que en código normal el intento no tendría
-ningún efecto):
+Em terceiro lugar, o modo estrito gera uma exceção ao tentar eliminar
+propriedades não elimináveis (enquanto no código normal a tentativa não surtiria
+nenhum efeito):
 
 ```js
 'use strict';
-delete Object.prototype; // lanza TypeError
+delete Object.prototype; // gera um TypeError
 ```

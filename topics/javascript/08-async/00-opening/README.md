@@ -1,44 +1,30 @@
-# Apertura
+# Abertura
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `5min`
 
 ***
 
-## ¿Por qué aprender esto?
+## Por que aprender isto?
 
-Entender el concepto de _asincronía_ y cómo manejar procesos asíncronos es
-fundamental para toda desarrollodora web. Todas las interacciones con el
-usuario, operaciones de red, eventos del navegador, ... son asíncronas. Esto
-quiere decir que tienen que _esperar_ (a que ocurra un evento, a que recibamos
-una respuesta por http, ...) para poder completar su trabajo.
+Entender o conceito de _assincronia_ e como manipular processos assíncronos é fundamental para toda desenvolvedora web. Todas as interações com o usuários, operações de rede, eventos do navegador, ... são assíncronas. Isso quer dizer que precisam _esperar_ (que um evento ocorra, que recebamos uma resposta por http, ...) para poder completar o trabalho.
 
-JavaScript es un lenguaje que permite manejar _asincronía_ de una manera
-elegante gracias a su implementación de funciones y su naturaleza _non-blocking_
-(que no bloquea el hilo - thread - mientras espera a que se complete una tarea
-asíncrona). En esta unidad veremos **callbacks**, **eventos** y **promesas**
-como maneras de trabajar con tareas asíncronas.
+JavaScript é uma linguagem que permite manipular _assincronia_ de uma maneira elegante graças à sua implementação de funções e sua natureza _non-blocking_ (que não bloqueia a *thread* enquanto espera que uma tarefa assíncrona seja completada). Nesta unidade veremos **callbacks**, **eventos** e **promessas** como maneiras de trabalhar com tarefas assíncronas.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos mais importantes que vamos aprender e dos temas centrais a que devemos prestar atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a medida
-que avanzas para validar que estás avanzando en la dirección correcta. Que te
-sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de responder ao terminar esta unidade. Use estas perguntas como guia para orientar seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança para validar que está indo na direção correta. Que este guia sirva como um "checklist" que você vai riscando conforme avança.
 
-* Qué es una tarea asíncrona?
-* Qué significa bloquear el _hilo_ o _thread_
-* Qué es un _callback_
-* Qué es un _evento_
-* Cómo escuchar _eventos_
-* Cómo dejar de escuchar _eventos_
-* Qué es una promesa?
-* Cómo usar promesas?
-* Cómo implementar promesas nuevas
-* Cómo encadenar promesas
+* O que é uma tarefa assíncrona?
+* O que significa bloquear a *thread*?
+* O que é um _callback_?
+* O que é um _evento_?
+* Como ouvir _eventos_?
+* Como deixar de ouvir _eventos_?
+* O que é uma promessa?
+* Como usar promessas?
+* Como implementar novas promessas?
+* Como encadear promessas?

@@ -1,114 +1,113 @@
-# ¿Qué es debugging?
+# O que é _debugging_?
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
-
-## Objetivos de Aprendizaje
-
-- Representar gráficamente las distintas etapas de un proceso y sus iteraciones,
-  facilitando la comprensión de su funcionamiento.
-- Conocer la utilidad  de los diagramas de flujo para analizar el proceso,
-  proponer ideas, representar los controles, etc.
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-Debugging es un proceso de identificación y resolución de errores (bugs). ¿A
-veces te has encontrado con la situación de realizar todo el código de un
-proyecto o script, luego lo pruebas y te das cuenta de que no funciona como
-esperabas? El paso siguiente, es volver a tu código y buscar la línea en la que
-puede estar fallando, ¿cierto?. Pues, dicho proceso es considerado _depuración_,
-encontrar ¿cuál es el error?, ¿porqué falla?, ¿cómo fue que falló?, ¿estará
-afectando otra parte del código?.
+## Objetivos de Aprendizagem
 
-Y su importancia, ya vista implícitamente, es que nos permite identificar
-errores para ser solucionados, además de no ser víctimas de memes como:
+- Representar graficamente as diferentes etapas de um processo e suas iterações,
+  facilitando a compreensão de seu funcionamento.
+- Conhecer a utilidade dos diagramas de fluxo para analisar o processo, propor
+  ideias, representar os controles, etc.
 
-![Curly Brace Bug](https://cdn-images-1.medium.com/max/800/1*S6iw5QmBC2v_NbUzbrhwMw.jpeg)
+***
 
-## Tipos de Errores
+_Debugging_ é um processo de identificação e resolução de erros (_bugs_). Você
+já se deparou com a situação de programar todo o código de um projeto ou script,
+testá-lo e perceber que não funciona como o esperado? O passo seguinte é
+retornar ao código e procurar a linha que pode estar errada, certo? Então, esse
+processo é chamado de _depuração_. Qual é o erro? Por que acontece o erro? Como
+aconteceu o erro? Vai prejudicar outra parte do código?
 
-Cuando hablamos de depuración, estamos hablando de errores y cuando programamos
-es muy probable que ocurran 2 tipos de errores: _errores de sintaxis_ y
-_errores lógicos_.
+E sua importância, já vista implicitamente, é que permite identificar os erros a
+serem resolvidos e não ser vítimas de memes como esse:
 
-> Un **error de sintaxis** se produce al escribir, incorrectamente, alguna parte
-> del código fuente de un programa. De forma que, dicho error impedirá, tanto al
-> compilador como al intérprete, traducir dicha instrucción, ya que, ninguno de
-> los dos entenderá qué le está diciendo el programador. — Wikipedia
+![Curly Brace
+Bug](https://cdn-images-1.medium.com/max/800/1*S6iw5QmBC2v_NbUzbrhwMw.jpeg)
+
+## Tipos de Erros
+
+Quando falamos de depuração, estamos falando de erros e quando programamos é
+muito provável que aconteçam dois tipos de erros: _erros de sintaxe_ e _erros
+lógicos_.
+
+
+> Um **erro de sintaxe** é gerado ao escrever, incorretamente, alguma parte do
+> código fonte do programa. Esse erro impedirá, tanto ao compilador como ao
+> intérprete, traduzir aquela instrução, já que nenhum dos dois entenderá o que
+> o programador está dizendo. — Wikipedia
 
 ```javascript
 /*
- * Errores de sintaxis
+ * Erros de sintaxe:
  */
 
-// Nombre de variable con tilde
+// Nome da variável com acento.
 var número = 10;
 
 /*
  *
- * Error de operador:
- * = es asignación, mientras, == es comparación, y, === es comparación estricta
+ * Erro de operador:
+ * '=' é atribuição enquanto que '==' é comparação e '===' é comparação estrita.
  *
  */
 if (numero = 0) {
-  console.log('Cero');
+  console.log('Zero');
 } else if (numero > 0) {
   /*
    *
-   * Positivo debe de ir entre comillas debido a que es un string,
-   * y no una variable definida anteriormente
+   * Positivo deve ser entre aspas pois é uma string
+   * e não uma variável definida anteriormente.
    *
    */
-  console.log(Positivo);
+  console.log(positivo);
 } else {
   /*
    *
-   * `lo` no es un método del objeto `console`, el método deseado en este
-   * snippet es `console.log`
-   * Este tipo de errores que ocurren al momento de escribir es conocido
-   * como un `typo`
+   * `lo` não é um método do objeto `console`. O método desejado neste
+   * snippet é `console.log`.
+   * Este tipo de erro que ocorre no momento de escrever é conhecido
+   * como um `typo`.
    *
    */
   console.lo('Negativo');
 }
 ```
 
-> Los **errores lógicos** son errores que impiden que su programa haga lo que
-> estaba previsto. Su código puede compilarse y ejecutarse sin errores, pero el
-> resultado de una operación puede generar un resultado no esperado. — Microsoft
-> Developer Network
+> Os **erros lógicos** são erros que impedem que seu programa faça o que estava
+> previsto. Seu código pode compilar e executar sem erros, mas o resultado da
+> operação pode gerar um resultado inesperado. — Microsoft Developer Network.
 
 ```javascript
 /*
- * Error lógico
+ * Erro lógico
  */
 
-// Función que espera 2 números como parámetros para devolver la suma de ambos
-var suma = function(num1, num2) {
+// Função que espera 2 números como parâmetros para retornar a soma de ambos.
+var soma = function(num1, num2) {
   return num1 + num2;
 };
 
-// Imaginemos que el número 1 es 6
-var num1 = prompt('Ingrese el número 1');
+// Imaginemos que o número 1 é 6.
+var num1 = prompt('Digite o número 1');
 
-// Imaginemos que el número 2 es 4
-var num2 = prompt('Ingrese el número 2');
+// Imaginemos que o número 2 é 4.
+var num2 = prompt('Digite o número 2');
 
-var resultado = suma(num1, num2);
+var resultado = soma(num1, num2);
 
-// Resultado esperado: 10
-// Resultado obtenido: "64"
+// Resultado esperado: 10.
+// Resultado obtido: "64".
 console.log(resultado);
 
 /*
  *
- * El error que ocurre en este snippet es que todo lo que ingresa el usuario
- * mediante un prompt es un string, y debemos de considerarlo para obtener el
- * resultado que esperamos.
- * En este caso, tendríamos que convertir el tipo de dato de string a número.
+ * O erro que acontece neste snippet é que tudo que o usuário digita por um prompt é
+ * uma string e devemos considerar isso para obter o resultado desejado.
+ * Neste caso, teríamos que converter o tipo de dado de string para número.
  *
  */
 ```

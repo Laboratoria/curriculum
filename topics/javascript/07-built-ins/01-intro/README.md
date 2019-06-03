@@ -17,98 +17,100 @@
 <!-- TRADUZIR -->
 
 
-### JavaScript, indagando en el núcleo del lenguaje
+### JavaScript, investigando o núcleo da linguagem
 
-Todos los lenguajes de programación tienen objetos preconstruidos (built-in)
-que ofrecen funcionalidad común más allá de lo que es el lenguaje en sí. Los
-objetos preconstruidos nos permiten ahorrar tiempo con funcionalidad disponible
-como parte del entorno del lenguaje.
+Todas as linguagens de programação tem objetos pré-construídos (built-in) que
+oferencem mais funcionalidades do que só a linguagem em si. Os objetos
+pré-construídos nos permitem salvar tempo com funcionalidades disponíveis como
+parte da linguagem.
 
-JavaScript tiene muchos [objetos preconstruidos](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales).
-El término "objetos globales" (u objetos preconstruidos estándar) no debe
-confundirse con el objeto global en sí. Aquí, los objetos globales se refieren a
-objetos en el [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
-Estos objetos y funciones que vienen con JavaScript pero que no son parte del
-lenguaje en sí, también se conocen como la _librería estándar_ (standard
-library) ya que siempre podemos contar con ellos. Son librerías que no tenemos
-que importar y siempre están disponibles, independientemente del entorno donde
-se ejecute nuestro código (navegador, node, ...).
+JavaScript tem muitos [objetos
+pré-construídos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects).
 
-### ¿Por qué usar la librería estándar?
+O termo "objetos globais" (ou objetos padrão pré-construídos) não devem ser
+confundidos com o objetvo global em si. Aqui, os objetos globais se referem a
+objetos no [ámbito
+global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope). Estes
+objetos e funções que já vem com o JavaScript mas que não são parte da linguagem
+em si, também conhecidas como _biblioteca padrão_, já que sempre podemos contar
+com elas. São bibliotecas que não temos que importar e sempre estão disponíveis,
+independentemente do escopo onde o código é executado (navegador, node,
+...).
 
-Hay muchas funciones disponibles para ayudarte a escribir un programa bueno
-y eficiente. Como desarrolladores de software, nuestro trabajo es encontrar
-la solución más simple a un problema. "Más simple" es un poco vago, así que
-vamos a definirlo como "funciona, es eficiente (suficiente), es relativamente
-fácil de entender y no tarda demasiado en implementarse".
+### Porque usar biblioteca padrão?
 
-¿Cuánto tardarías en escribir una función que corte una cadena o verifique si
-un número es positivo? Muchas funciones que encontraras en una librería
-estándar son probablemente triviales por naturaleza, pero tener un estándar
-acordado para hacer las cosas acelerará la implementación del código (habrá
-menos instancias de "¿hay una función para esto o debería codificarla yo
-mismo?") Además otras personas que leen tu código pueden concentrarse en
-aprender sobre las dependencias que realmente importan y no invertir su tiempo
-en entender librerías que consumes para una sola línea de código.
+Existem muitas funcionalidades disponíveis para ajudar a escrever um programa
+bom e eficiente. Como desenvolvedor de software, nosso trabalho é encontrar a
+solução mais simples a um problema. "Mais simples" é um pouco vago, vamos
+definir como "é eficiente, relativamente fácil de entender, funciona e não
+demora muito para implementar".
 
-### Ventajas más importantes de usar funciones de librería estándar
+Quanto você levaria para escrever uma função que pegue cada numero de um _array_
+e veja se ele é positivo? Muitas funções que você encontrará em um biblioteca
+padrão são provavelmente triviais por natureza, mas já ter essas funções padrão
+vão acelerar a implementação do código (você vai falar menos vezes "tem alguma
+função para isso, ou eu deveria fazer"). Além disso outras pessoas que leem o
+seu codigo podem concentrar em aprender sobre as partes que realmente importam e
+não perder o seu tempo tentando entendero bibliotecas que fazem apenas uma linha
+de código.
 
-* Funcionan
+### Algumas vantagem de utilizar bibliotecas padrão
 
-    Una de las razones más importantes por las que debes usar las funciones de
-    la librería estándar es simplemente porque funcionan, ya han pasado por
-    múltiples pruebas rigurosas y son fáciles de usar.
+* Funcionam
 
-* Están optimizadas para el rendimiento
+  Uma das razões mais importantes do porque utilizar funções de uma biblioteca
+  padrão é simplemente porque elas funcionam, elas já passaram por muitas provas
+  de uso e são fáceis de usar.
 
-    Un grupo dedicado de desarrollo las mejora constantemente. En el proceso,
-    estos equipos pueden crear el código más eficiente y optimizado para
-    obtener el máximo rendimiento.
+* Estão otimizadas para rendimento
 
-* Ahorran un considerable tiempo de desarrollo
+  Existe um grupo de desenvolvimento focado em melhorá-las contantemente. Um dos
+  objetivos dessa equipe é criar códigos mais eficientes e otimizados para obter
+  o máximo rendimento.
 
-    Dado que las funciones generales como imprimir en una pantalla, calcular la
-    raíz cuadrada y muchas más ya están escritas. No debes preocuparte por
-    crearlas una vez más. Ahorrarás un tiempo valioso, además que tu código
-    puede no ser siempre el más eficiente.
+* Salvam um tempo considerável
 
-* Son soportadas en la mayoría de los navegadores
+  Dado que as funções gerais, como _"printar"_ na tela, calcular uma raíz
+  quadrada e muitas outras já estão escritas. Com isso você não precisa se
+  preocupar em criar essas funções.
 
-    Con las cambiantes necesidades del mundo real, se espera que tu aplicación
-    funcione siempre, en cualquier lugar, en cualquier dispositivo.
-    Estas funciones de la biblioteca te ayudan a que tu aplicación funcione
-    igual en todos los dispositivos. Esto ahorra tiempo, esfuerzo y hace que tu
-    programa sea compatible con otros navegadores.
+* São suportadas na maioria dos navegadores
 
-### Ejemplo
+  Você esperar que a sua aplicação funcione para sempre, em qualquer lugar e
+  dispositivo. Mas no mundo real as coisas estão sempre mundando. Com essas
+  funções você terá uma garantia maior de que o seu código continuará
+  funcionando.
 
-Supongamos que quieres encontrar la raíz cuadrada de un número. Siempre puedes
-escribir tu propia pieza de código para encontrar la raíz cuadrada, pero este
-proceso lleva tiempo y puede no ser el más eficiente.
+### Exemplo
 
-Sin embargo, en la programación javascript puedes encontrar la raíz cuadrada
-simplemente usando la función `Math.sqrt()`.
+Suponhamos que você quer encontrar a raíz quadrada de um número. Você sempre
+pode escrever o seu próprio código para isso. Mas esse processo pode levar um
+tempo e pode não ser nada eficiente.
 
-### Algunos de los objetos preconstruidos más utilizados
+No JavaScript você pode encontrar a raíz quadrada utilizando a
+função`Math.sqrt()`.
 
-* [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object)
-* [Function](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function)
-* [Boolean](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Boolean)
-* [Number](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number)
-* [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
-* [Date](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
-* [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String)
-* [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
-* [JSON](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON)
-* [Symbol](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Symbol)
-* [Error](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Error)
-* [EvalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/EvalError)
-* [InternalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/InternalError)
-* [RangeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RangeError)
-* [ReferenceError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/ReferenceError)
-* [SyntaxError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/SyntaxError)
-* [TypeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypeError)
-* [URIError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/URIError)
-* [DataView](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/DataView)
-* [Proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Proxy)
+### Alguns objetos pré-construídos mais utilizados
+
+* [Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+* [Object](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object)
+* [Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Function)
+* [Boolean](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+* [Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
+* [Math](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
+* [Date](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
+* [String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+* [RegExp](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+* [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+* [Symbol](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+* [Error](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error)
+* [EvalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
+* [InternalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
+* [RangeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
+* [ReferenceError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+* [SyntaxError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+* [TypeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+* [URIError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/URIError)
+* [DataView](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/DataView)
+* [Proxy](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Proxy)

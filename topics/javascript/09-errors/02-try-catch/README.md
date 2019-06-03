@@ -1,45 +1,31 @@
 # Try...catch
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `15min`
 
 ***
 
-JavaScript soporta un conjunto compacto de sentencias específicamente para el
-manejo de flujo, que pueden ser utilizadas para incorporar mayor interactividad
-a tus aplicaciones.
+O JavaScript suporta um conjunto compacto de declarações específicas para o manejo de fluxo, que podem ser utilizadas para incorporar uma maior interatividade entre suas aplicações.
 
-La guía de referencia de JavaScript contiene detalles exhaustivos sobre las
-sentencias mencionadas en este capítulo. El punto y coma (`;`) se utiliza para
-separar sentencias de código JavaScript.
+A documentação do JavaScript contem muitos detalhes sobre as declarações mencionadas nesta unidade. O ponto e vírgula (;) é utilizado para separar sentenças no código JavaScript.
 
-En Javascript cualquier expresión es también una sentencia. Una sentencia
-condicional es un conjunto de comandos que se ejecutan si una condición es
-verdadera. JavaScript soporta dos sentencias condicionales: `if...else` y
-`switch`.
+No JavaScript, qualquer expressão é também uma sentença. Uma sentença condicional é um conjunto de comandos que são executados caso uma condição seja verdadeira. São suportados dois tipos se sentenças condicionais: `if...else` e `switch`.
 
-A través de toda la formación que a este minuto has recibido, ya sabes cuáles
-son las sentencias condicionales, además conoces los bucles o loops, que
-pertenecen a toda el área de control de flujo en JavaScript, en ésta parte me
-gustaría más contarte a cerca de las sentencias de manejo de excepciones.
-Prácticamente cualquier objeto puede ser lanzado (_thrown_ en inglés) en
-JavaScript. Sin embargo, no todos los objetos lanzados son creados igual.
-Mientras que es bastante común lanzar números o strings como errores,
-frecuentemente es más efectivo utilizar uno de los tipos de excepciones
-específicamente creados para este proposito:
+Com todo o conteúdo que estudamos até agora, você já sabe quais são as sentenças condicionais e também conhece os loops, que pertencem à parte de controle de fluxo no JavaScript. A partir de agora vamos falar sobre as sentenças para tratamento de exceções. Praticamente qualquer objeto pode ser lançado (_thrown_ em inglês) no JavaScript. Porém, nem todos os objetos lançados são criados da mesma forma. Embora seja bastante comum o lançamento de números ou strings como erros, normalmente é mais eficiente utilizar um dos tipos de exceção criados especificamente com este propósito:
 
-## Sentencia throw
 
-Utiliza la sentencia throw para lanzar una excepción. Cuando lanzas un
-excepción, se especifica la expresión que contiene el valor para ser lanzado:
+## Sentença throw
+
+Utilize a sentença throw para gerar uma exceção, especificando a expressão que contém o valor a ser lançado:
+
 
 ```js
 throw expresión;
 ```
 
-Puedes lanzar cualquier expresión, no solo expresiones de un tipo especifico. En
-el siguente código lanzamos varias excepciones de varios tipos:
+Pode lançar qualquer expressão, não apenas de um tipo específico. No código abaixo utilizamos expressões de vários tipos:
+
 
 ```js
 throw "Error2";   // Tipo string
@@ -48,16 +34,14 @@ throw true;       // Tipo booleano
 throw {toString: function() { return "¡Soy un objeto!"; } };
 ```
 
-Puedes especificar un objeto cuando lanzas una excepción. A continuación, puedes
-hacer referencia a las propiedades del objeto en un bloque catch. En el
-siguiente ejemplo se crea un objeto myUserException del tipo UserException y lo
-usa en la sentencia throw.
+É possível especificar um objeto para gerar a exceção. Em seguida, pode-se referenciar as propriedades deste objeto em um bloco catch. No exemplo seguinte, é criado o objeto myUserException do tipo UserException, que é utilizado na sentença throw.
+
 
 ```js
-// Crear un tipo de objeto UserException
+// Cria um tipo de objeto UserException
 function UserException (aviso){
   this.aviso=aviso;
-  this.nombre="UserException";
+  this.nome="UserException";
 }
 
 // Make the exception convert to a pretty string when used as a string
@@ -72,72 +56,47 @@ throw new UserException("Value too high");
 
 ## try...catch
 
-La sentencia `try...catch` marca un bloque de instrucciones a intentar que
-pueden causar alguna excepción, y declarar una o más respuestas en caso de que
-una excepción sea arrojada. Si una excepción es arrojada, la sentencia
-`try...catch` se encarga de atraparla.
+A sentença `try...catch` marca um bloco de instruções que podem causar alguma exceção, e declara uma ou mais respostas caso a exceção seja gerada. Neste caso, a sentença `try...catch` trata de interceptá-la.
 
-La sentencia `try...catch` consiste en un bloque `try`, el cuál contiene una o
-más instrucciones, y ninguno o varios bloques `catch`, conteniendo sentencias
-que especifican que hacer si una excepción es arrojada en un bloque `try`. Se
-desea que las instrucciones dentro del bloque `try` se ejecuten con éxito, de
-caso contrario caerán en el bloque `catch` para ser controladas. Si ninguna
-instrucción dentro del bloque `try` (o en una función llamada dentro del bloque
-try) arroja una excepción, el control pasa inmediatamente al bloque `catch`. Si
-ninguna excepción es arrojada en el bloque `try`, el bloque `catch` es ignorado.
-Por último se ejecuta el bloque `finally` luego de que los bloques `try` y
-`catch` hayan sido ejecutados, pero antes de las instrucciones que se encuentren
-luego de la sentencia `try...catch`.
+A `try...catch` consiste em um bloco `try`, que contém uma ou mais instruções, e nenhum a vários blocos `catch`, contendo sentenças que especificam o que fazer se uma exceção é pega no bloco `try`. É desejável que as instruções dentro do bloco `try` sejam executadas com êxito, caso contrário cairão no bloco `catch` para serem controladas. Se nenhuma instrução dentro do bloco `try` (ou em uma função chamada dentro do bloco) gera uma exceção, o controle passa imediatamente para o bloco `catch`. Caso nenhuma exceção seja gerada no bloco `try`, o bloco `catch` é ignorado. Por último, se executa o bloco `finally` assim que os blocos anteriores tenham sido executados, mas antes das instruções que estão em seguida ao `try...catch`.
 
-El siguiente ejemplo usa la sentencia `try...catch`. El ejemplo llama a una
-función que retorna el nombre de un mes desde un arreglo basado en un valor
-pasado como argumento a la función. Si el valor no corresponde con el número de
-un mes (entre `1` y `12`), una excepción es arrojada con el valor
-`'InvalidMonthNo'` y las instrucciones en el bloque catch le asignarán a la
-variable `monthName` el valor de `'unknown'`.
+O exemplo abaixo utiliza a sentença `try...catch`. O exemplo chama uma função que retorna o nome de um mês a partir de um array baseado em um valor que foi passado como argumento para a função. Se o valor não corresponde com o número de um mês (de `1` a `12`), a exceção é gerada com o valor `'InvalidMonthNo'` e as instruções no bloco `catch` atribuirão à variável `monthName` o valor de `unknown`.
 
 ```js
 function getMonthName (mo) {
-  mo = mo - 1; // Ajusta el indice del arreglo para el arreglo de meses (1=Jan, 12=Dec)
-  var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
+  mo = mo - 1; // Ajusta o índice do array para o aray de meses (1=Jan, 12=Dec)
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
                 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   if (months[mo] != null) {
     return months[mo];
   } else {
-    throw 'InvalidMonthNo'; //Arroja la palabra "InvalidMonthNo" al ocurrir una excepción
+    throw 'InvalidMonthNo'; //Lança o termo "InvalidMonthNo" ao ocorrer uma exceção
   }
 }
 
-try { // instrucciones a probar
-  monthName = getMonthName(myMonth); // La función puede arrojar una excepción
+try { // instruções a testar
+  monthName = getMonthName(myMonth); // A função pode gerar uma exceção
 }
 catch (e) {
   monthName = 'unknown';
-  logMyErrors(e); // Pasa el objeto de la excepción a un manejador de errores
+  logMyErrors(e); // Passa o objeto da exceção para o tratamento do erro
 }
 ```
 
-## El bloque catch
+## O bloco catch
 
-Un bloque `catch` es usado para manejar todas las excepciones que pueden ser
-generadas en el bloque `try`.
+Um bloco `catch` é utilizado para tratar todas as exceções que possam ser geradas no bloco `try`.
 
-El bloque `catch` especifica un identificar (catchID en la sintaxis anterior)
-que mantiene el valor especificado por la sentencia `throw`; puedes usar este
-identificador para obtener información acerca de la excepción que fue arrojada.
-JavaScript crea este identificador cuando ha entrado en el bloque `catch`; el
-identificador dura mientras dure el bloque `catch`; después de que el bloque
-`catch` termine su ejecución, el identificador ya no está disponible.
+O bloco `catch` especifica um identificador (catchID na sintaxe anterior) que mantem o valor especificado pela sentença `throw`; este identificador pode ser utilizado para obter informações a respeito da exceção gerada. O JavaScript cria este identificador ao entrar no bloco `catch`; o identificador se mantém na duração do bloco `catch`; após o término da execução do bloco `catch`, o identificador já não estará mais disponível.
 
-Por ejemplo, el siguiente código arroja una excepción. Cuando la excepción
-ocurre, el control es transferido al bloque `catch`.
+Por exemplo, o seguinte código gera uma exceção. Quando a exceção ocorre, o controle é transferido para o bloco `catch`.
 
 ```js
 try {
-  throw "myException" // genera una excepción
+  throw "myException" // gera uma exceção
 }
 catch (e) {
-  // instrucciones para manejar cualquier excepción generada
-  logMyErrors(e) // Pasa el objeto de excepción a un manejador de errores
+  // instruções para tratar qualquer exceção gerada
+  logMyErrors(e) // Passa o objeto de exceção para o tratamento de erros
 }
 ```
