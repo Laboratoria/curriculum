@@ -18,51 +18,51 @@ seguintes telas:
 
 - Clique no botão "Next >"
 
-  ![Passo 1 Git](https://i.imgur.com/6TZ7Mcv.png)
+  ![Passo 1 Git](https://user-images.githubusercontent.com/11894994/58835921-ab791400-862d-11e9-83fc-cb5f1c35d5a5.png)
 
 - Selecione o local da instalação e clique em "Next >"
 
-  ![Passo 2 Git](https://i.imgur.com/leLJIjh.png)
+  ![Passo 2 Git](https://user-images.githubusercontent.com/11894994/58835922-ab791400-862d-11e9-8fad-e9384a8402f0.png)
 
 - Selecione as mesmas opções e clique em "Next >"
 
-  ![Passo 3 Git](https://i.imgur.com/UtgDxYc.png)
+  ![Passo 3 Git](https://user-images.githubusercontent.com/11894994/58835923-ab791400-862d-11e9-9438-6243735a6c1e.png)
 
 - Clique em "Next >"
 
-  ![Passo 4 Git](https://i.imgur.com/TRRtH3z.png)
+  ![Passo 4 Git](https://user-images.githubusercontent.com/11894994/58836048-fd219e80-862d-11e9-8ad0-ada7b3e7d3bc.png)
 
 - Selecione o Nano como o seu editor padrão e clique em "Next >"
 
-  ![Passo 5 Git](https://i.imgur.com/YhmQ2KV.png)
+  ![Passo 5 Git](https://user-images.githubusercontent.com/11894994/58836050-fd219e80-862d-11e9-8d65-714ad0b6f240.png)
 
 - Selecione a opção "Use Git from Git Bash only" e clique em "Next >"
 
-  ![Passo 6 Git](https://i.imgur.com/QcGk1Me.png)
+  ![Passo 6 Git](https://user-images.githubusercontent.com/11894994/58836051-fdba3500-862d-11e9-8400-d436554381c2.png)
 
 - Selecione a opção "Use the OpenSSL library" e continue "Next >"
 
-  ![Passo 7 Git](https://i.imgur.com/K3NfUUc.png)
+  ![Passo 7 Git](https://user-images.githubusercontent.com/11894994/58836054-001c8f00-862e-11e9-99bc-6db7d5bd8c32.png)
 
 - Selecione a segunda opção e prossiga
 
-  ![Passo 8 Git](https://i.imgur.com/v38efAw.png)
+  ![Passo 8 Git](https://user-images.githubusercontent.com/11894994/58836055-00b52580-862e-11e9-9072-78d7a5b94b42.png)
 
 - Certifique-se de escolher a opção "Use MinTTY"
 
-  ![Passo 9 Git](https://i.imgur.com/PhUkeXX.png)
+  ![Passo 9 Git](https://user-images.githubusercontent.com/11894994/58836056-00b52580-862e-11e9-934b-bac93567f6fc.png)
 
 - Selecione as duas primeiras opções e clique em "Install"
 
-  ![Passo 10 Git](https://i.imgur.com/9JKkZjy.png)
+  ![Passo 10 Git](https://user-images.githubusercontent.com/11894994/58836057-00b52580-862e-11e9-9f32-a5976b91401c.png)
 
 - Finalmente, a instalação começará
 
-  ![Passo 11 Git](https://i.imgur.com/Lz06hWy.png)
+  ![Passo 11 Git](https://user-images.githubusercontent.com/11894994/58836059-00b52580-862e-11e9-823a-f02471c7d4bf.png)
 
 - Com o Git já instalado em nosso computador, clique em "Finish"
 
-  ![Passo 12 Git](https://i.imgur.com/bd6QhOS.png)
+  ![Passo 12 Git](https://user-images.githubusercontent.com/11894994/58836061-014dbc00-862e-11e9-9c74-6c72556b9b35.png)
 
 ## O que é Git Bash?
 

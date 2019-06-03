@@ -1,27 +1,27 @@
 # Quiz
 
-- Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `5min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `5min`
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) De los siguientes enunciados, ¿cuál **NO** pertenece a `Github`?
+### 1) Qual das frases a baixo **NÃO** pertence ao `Github`?
 
-#### Opciones
+#### Opções
 
-1. Una red donde podemos mantener nuestras cuentas unificadas
-2. Un sistema de seguimiento de problemas
-3. Una herramienta de revisión de código
-4. Un visor de versiones
+1. Um sistema para unificar as contas de desenvolvimento
+2. Um sistema de histórico
+3. Uma ferramenta de revisão de código
+4. Um revisor de versões
 
 <solution style="display:none;">1</solution>
 
-### 2) Por medio de \_\_\_\_\_\_\_\_\_\_\_\_\_ enviaremos nuestra _nueva versión_ a nuestro repositorio remoto, mientras que \_\_\_\_\_\_\_\_\_\_\_\_\_ sirve para actualizar nuestro repositorio local al _último commit_ que tengamos registrado en el repositorio remoto
+### 2) Através do comando \_\_\_\_\_\_\_\_\_\_\_\_\_ enviamos a nova versão ao repositório remoto, enquanto o comando \_\_\_\_\_\_\_\_\_\_\_\_\_ serve para atualizar o repositório local com o último _commit_ que está no repositório remoto
 
-#### Opciones
+#### Opções
 
 1. `add` - `update`
 2. `update` - `add`
@@ -30,27 +30,25 @@
 
 <solution style="display:none;">3</solution>
 
-### 3) De los siguientes enunciados ¿cuál pertenece a `Github`? Puedes seleccionar una o más opciones
+### 3) Das seguintes frases, qual pertence ao `Github`? Pode selecionar mais de uma.
 
-#### Opciones
+#### Opções
 
-1. Un visor de versiones
-2. Un Sistema de Control de Versiones
-3. Una herramienta de revisión de código
-4. Una red donde podemos mantener nuestras cuentas unificadas
+1. Revisor de versões
+2. Um sistema de controle de versões
+3. Uma ferramenta de revisão de código
+4. Um sistema para unificar as contas de desenvolvimento
 
 <solution style="display:none;">1, 3</solution>
 
-### 4) ¿Cuál es la diferencia entre `Git` y `Github`?
+### 4) Qual é a diferença entre `Git` e `Github`?
 
-#### Opciones
+#### Opções
 
-1. `Git` solamente sirve como una red social  y `Github` almacena extensiones
-    de archivos
-2. `Github` almacena los archivos JavaScript mientras que `Git`, los archivos
-   `HTML` y `CSS`
-3. `Git` guarda los archivos en la nube y `Github` solamente sirve como una red
-   social
-4. `Github` utiliza a `Git` como Sistema de Control de Versiones
+1. `Git` somente serve como uma rede social e o `Github` armazena as extensões
+dos arquivos.
+2. `Github` armazena os arquivos JavaScript enquanto o `Git` cuida do `HTML` e `CSS`
+3. `Git` guarda os arquivos na nuvem e o `Github` serve como rede social
+4. `Github` utiliza o `Git` como sistema de controle de versões
 
 <solution style="display:none;">4</solution>
