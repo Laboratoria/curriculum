@@ -1,29 +1,6 @@
 # Burger Queen - API con Node.js
 
-## Índice
-
-- [Burger Queen - API con Node.js](#burger-queen---api-con-nodejs)
-  - [Índice](#%C3%ADndice)
-  - [Preámbulo](#pre%C3%A1mbulo)
-  - [Resumen del proyecto](#resumen-del-proyecto)
-  - [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-  - [Consideraciones generales](#consideraciones-generales)
-  - [Requerimientos](#requerimientos)
-    - [CLI](#cli)
-      - [Argumentos de línea de comando](#argumentos-de-l%C3%ADnea-de-comando)
-      - [Variables de entorno](#variables-de-entorno)
-    - [HTTP API Docs](#http-api-docs)
-    - [Deployment](#deployment)
-  - [Entrega](#entrega)
-  - [Recursos](#recursos)
-  - [HTTP API Checklist](#http-api-checklist)
-      - [`/auth`](#auth)
-      - [`/users`](#users)
-      - [`/products`](#products)
-      - [`/orders`](#orders)
-***
-
-## Preámbulo
+## 1. Preámbulo
 
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
 sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
@@ -33,7 +10,7 @@ Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
 clienta nos ha solicitado desarrollar la API que se debe integra con la interfaz, 
 que otro equipo de desarrolladoras está trabajando simultáneamente
 
-## Resumen del proyecto
+## 2. Resumen del proyecto
 
 Con una API en este caso nos referimos a un _servidor web_, que es
 básicamente un programa que _escucha_ en un puerto de red, a través del cual
@@ -62,7 +39,7 @@ que especifica el comportamiento esperado de la API que expondremos por HTTP.
 Ahí puedes encontrar todos los detalles de qué _endpoints_ debe implementar 
 la aplicación, qué parámetros esperan, qué deben responder, etc.
 
-## Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
@@ -79,7 +56,7 @@ body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_), **conexión con
 una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**,
 **contenedores de `docker`**...
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 Este proyecto se realizará en duos y deberá integrarse con el proyecto
 [Burger Queen API client](link) que desarrolle simultáneamente el quipo
@@ -118,7 +95,7 @@ REMOTE_URL=<TODO: poner URL> npm run test:e2e
 Las pruebas _end-to-end_ ya están completas en el _boilerplate_, así que puedes
 usarlas como guía de implementación y checklist de completitud.
 
-## Requerimientos
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### CLI
 
@@ -187,8 +164,6 @@ la aplicación de node, tu tarea será extender esa configuración para incluir 
 configuración de base de datos, asi como el servidor con la documentación.
 Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
 configuración, deberás exponer los servicios en diferentes puertos.
-
-## Entrega
 
 Una vez que tengas tu configuración de `docker-compose`, deberás crear un servidor
 en la nube (VPS) (en el área de recursos te proponemos algunas alternativas de
