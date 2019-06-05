@@ -97,7 +97,44 @@ usarlas como guía de implementación y checklist de completitud.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-### CLI
+### 5.1 API
+
+Según lo establecido por la [documentación](https://documenter.getpostman.com/view/1721181/RWgozeom)
+entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
+
+#### 5.1,1 `/`
+
+* `GET /`
+
+#### 5.1.2 `/auth`
+
+* `POST /auth`
+
+#### 5.1.3 `/users`
+
+* `GET /users`
+* `GET /users/:uid`
+* `POST /users`
+* `PUT /users/:uid`
+* `DELETE /users/:uid`
+
+#### 5.1.4 `/products`
+
+* `GET /products`
+* `GET /products/:productid`
+* `POST /products`
+* `PUT /products/:productid`
+* `DELETE /products/:productid`
+
+#### 5.1.5 `/orders`
+
+* `GET /orders`
+* `GET /orders/:orderid`
+* `POST /orders`
+* `PUT /orders/:orderid`
+* `DELETE /orders/:orderid`
+
+### 5.2 CLI
 
 La clienta nos ha solicitado que la aplicación cuente un comando **`npm start`**
 que se debe encargar de ejecutar nuestra aplicación node y que además pueda
@@ -108,7 +145,7 @@ diferentes entornos (desarrollo, producción, ...). El _boilerplate_ ya implemen
 [argumentos de invocación](https://nodejs.org/docs/latest/api/process.html#process_process_argv) y el
 [entorno](https://nodejs.org/docs/latest/api/process.html#process_process_env).
 
-#### Argumentos de línea de comando
+#### 5.2.1 Argumentos de línea de comando
 
 Podemos especificar el puerto en el que debe arrancar la aplicación pasando un
 argumento a la hora de invocar nuestro programa:
@@ -118,7 +155,7 @@ argumento a la hora de invocar nuestro programa:
 npm start 8888
 ```
 
-#### Variables de entorno
+#### 5.2.2 Variables de entorno
 
 Nuestra aplicación usa las siguientes variables de entorno:
 
@@ -142,7 +179,7 @@ Nuestra aplicación usa las siguientes variables de entorno:
 * `ADMIN_PASSWORD`: Si hemos especificado un `ADMIN_EMAIL`, debemos pasar
   también una contraseña para el usuario admin. Valor por defecto: `changeme`.
 
-### Deployment
+### 5.3 Deployment
 
 Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con muchas
 tareas, por por lo que nos pide como requerimiento que la aplicación esté configurada
@@ -208,9 +245,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Estructuras de datos   | 3              |
 | Tests                  | 3              |
 
-***
-
-## Recursos
+## 7. Recursos
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
@@ -225,13 +260,17 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 ***
 
-## HTTP API Checklist
+## 8 HTTP API Checklist
 
-#### `/auth`
+#### 8.1 `/`
+
+* [ ] `GET /`
+
+#### 8.2 `/auth`
 
 * [ ] `POST /auth`
 
-#### `/users`
+#### 8.3 `/users`
 
 * [ ] `GET /users`
 * [ ] `GET /users/:uid`
@@ -239,7 +278,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 * [ ] `PUT /users/:uid`
 * [ ] `DELETE /users/:uid`
 
-#### `/products`
+#### 8.4 `/products`
 
 * [ ] `GET /products`
 * [ ] `GET /products/:productid`
@@ -247,7 +286,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 * [ ] `PUT /products/:productid`
 * [ ] `DELETE /products/:productid`
 
-#### `/orders`
+#### 8.5 `/orders`
 
 * [ ] `GET /orders`
 * [ ] `GET /orders/:orderid`
