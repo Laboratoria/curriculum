@@ -7,8 +7,9 @@ sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente.
 
 Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
-clienta nos ha solicitado desarrollar la API que se debe integra con la interfaz, 
-que otro equipo de desarrolladoras está trabajando simultáneamente
+clienta nos ha solicitado desarrollar la API que se debe integra con la
+interfaz,  que otro equipo de desarrolladoras está trabajando
+simultáneamente
 
 ## 2. Resumen del proyecto
 
@@ -35,9 +36,9 @@ datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/) y
 [MySQL](https://www.mysql.com/).
 
 La clienta nos ha dado un [link a la documentación](https://documenter.getpostman.com/view/1721181/RWgozeom)
-que especifica el comportamiento esperado de la API que expondremos por HTTP. 
-Ahí puedes encontrar todos los detalles de qué _endpoints_ debe implementar 
-la aplicación, qué parámetros esperan, qué deben responder, etc.
+que especifica el comportamiento esperado de la API que expondremos por
+HTTP.  Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
+implementar  la aplicación, qué parámetros esperan, qué deben responder, etc.
 
 ## 3. Objetivos de aprendizaje
 
@@ -142,7 +143,8 @@ recibir información de configuración, como el puerto en el que escuchar, a qu�
 base datos conectarse, etc. Estos datos de configuración serán distintos entre
 diferentes entornos (desarrollo, producción, ...). El _boilerplate_ ya implementa
 [el código necesario](config.js) para leer esta información de los
-[argumentos de invocación](https://nodejs.org/docs/latest/api/process.html#process_process_argv) y el
+[argumentos de invocación](https://nodejs.org/docs/latest/api/process.html#process_process_argv)
+y el
 [entorno](https://nodejs.org/docs/latest/api/process.html#process_process_env).
 
 #### 5.2.1 Argumentos de línea de comando
@@ -198,7 +200,56 @@ proveedores), acceder a él a través de `ssh`, clonar tu repositorio y ejecutar
 `docker-compose up` para levantar la aplicación y la documentación, para que
 queden online y accesibles.
 
-## 6. Evaluación
+## 6. Recursos
+
+* [Express](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [MySQL](https://www.mysql.com/)
+* [docker](https://docs.docker.com/)
+* [docker compose](https://docs.docker.com/compose/)
+* [Postman](https://www.getpostman.com)
+* [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
+* [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
+* TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
+* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
+
+***
+
+## 7 HTTP API Checklist
+
+### 7.1 `/`
+
+* [ ] `GET /`
+
+### 7.2 `/auth`
+
+* [ ] `POST /auth`
+
+### 7.3 `/users`
+
+* [ ] `GET /users`
+* [ ] `GET /users/:uid`
+* [ ] `POST /users`
+* [ ] `PUT /users/:uid`
+* [ ] `DELETE /users/:uid`
+
+### 7.4 `/products`
+
+* [ ] `GET /products`
+* [ ] `GET /products/:productid`
+* [ ] `POST /products`
+* [ ] `PUT /products/:productid`
+* [ ] `DELETE /products/:productid`
+
+### 7.5 `/orders`
+
+* [ ] `GET /orders`
+* [ ] `GET /orders/:orderid`
+* [ ] `POST /orders`
+* [ ] `PUT /orders/:orderid`
+* [ ] `DELETE /orders/:orderid`
+
+## 8. Rúbrica
 
 NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
 cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
@@ -244,52 +295,3 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Funciones/modularidad  | 4              |
 | Estructuras de datos   | 3              |
 | Tests                  | 3              |
-
-## 7. Recursos
-
-* [Express](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/)
-* [MySQL](https://www.mysql.com/)
-* [docker](https://docs.docker.com/)
-* [docker compose](https://docs.docker.com/compose/)
-* [Postman](https://www.getpostman.com)
-* [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
-* [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-* TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
-* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
-
-***
-
-## 8 HTTP API Checklist
-
-#### 8.1 `/`
-
-* [ ] `GET /`
-
-#### 8.2 `/auth`
-
-* [ ] `POST /auth`
-
-#### 8.3 `/users`
-
-* [ ] `GET /users`
-* [ ] `GET /users/:uid`
-* [ ] `POST /users`
-* [ ] `PUT /users/:uid`
-* [ ] `DELETE /users/:uid`
-
-#### 8.4 `/products`
-
-* [ ] `GET /products`
-* [ ] `GET /products/:productid`
-* [ ] `POST /products`
-* [ ] `PUT /products/:productid`
-* [ ] `DELETE /products/:productid`
-
-#### 8.5 `/orders`
-
-* [ ] `GET /orders`
-* [ ] `GET /orders/:orderid`
-* [ ] `POST /orders`
-* [ ] `PUT /orders/:orderid`
-* [ ] `DELETE /orders/:orderid`
