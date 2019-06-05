@@ -142,16 +142,6 @@ Nuestra aplicación usa las siguientes variables de entorno:
 * `ADMIN_PASSWORD`: Si hemos especificado un `ADMIN_EMAIL`, debemos pasar
   también una contraseña para el usuario admin. Valor por defecto: `changeme`.
 
-### HTTP API Docs
-
-Si bien la clienta nos ha dado la [documentación de la API](https://documenter.getpostman.com/view/1721181/RWgozeom), nos indica que es muy probable
-que se agreguen o cambien _endpoints_, por lo que nos solicita que:
-- documentemos nuestros endpoints dentro del mismo código usando [apiDoc](http://apidocjs.com/)
-  o [jsdoc](https://jsdoc.app/) con [`jsdoc-http-plugin`](https://www.npmjs.com/package/jsdoc-http-plugin)
-- expongamos un comando `npm run docs` que nos permita generar la documentación.
-- dentro de nuestra configuración de deployment incluyamos un servidor estático
-  que exponga la documentación de nuestra API en formato HTML
-
 ### Deployment
 
 Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con muchas
@@ -161,7 +151,7 @@ entorno.
 
 El _boilerplate_ ya cuenta con una configuración incial de `docker-compose` para
 la aplicación de node, tu tarea será extender esa configuración para incluir la
-configuración de base de datos, asi como el servidor con la documentación.
+configuración de base de datos que hayas elegido.
 Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
 configuración, deberás exponer los servicios en diferentes puertos.
 
