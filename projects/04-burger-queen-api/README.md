@@ -1,5 +1,16 @@
 # Burger Queen - API con Node.js
 
+## Índice
+
+- [1. Preámbulo](#1-pre%C3%A1mbulo)
+- [2. Resumen del proyecto](#2-resumen-del-proyecto)
+- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+- [4. Consideraciones generales](#4-consideraciones-generales)
+- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
+- [6. Evaluación](#6-evaluaci%C3%B3n)
+- [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+- [8 HTTP API Checklist](#8-http-api-checklist)
+
 ## 1. Preámbulo
 
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
@@ -200,56 +211,7 @@ proveedores), acceder a él a través de `ssh`, clonar tu repositorio y ejecutar
 `docker-compose up` para levantar la aplicación y la documentación, para que
 queden online y accesibles.
 
-## 6. Recursos
-
-* [Express](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/)
-* [MySQL](https://www.mysql.com/)
-* [docker](https://docs.docker.com/)
-* [docker compose](https://docs.docker.com/compose/)
-* [Postman](https://www.getpostman.com)
-* [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
-* [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-* TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
-* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
-
-***
-
-## 7 HTTP API Checklist
-
-### 7.1 `/`
-
-* [ ] `GET /`
-
-### 7.2 `/auth`
-
-* [ ] `POST /auth`
-
-### 7.3 `/users`
-
-* [ ] `GET /users`
-* [ ] `GET /users/:uid`
-* [ ] `POST /users`
-* [ ] `PUT /users/:uid`
-* [ ] `DELETE /users/:uid`
-
-### 7.4 `/products`
-
-* [ ] `GET /products`
-* [ ] `GET /products/:productid`
-* [ ] `POST /products`
-* [ ] `PUT /products/:productid`
-* [ ] `DELETE /products/:productid`
-
-### 7.5 `/orders`
-
-* [ ] `GET /orders`
-* [ ] `GET /orders/:orderid`
-* [ ] `POST /orders`
-* [ ] `PUT /orders/:orderid`
-* [ ] `DELETE /orders/:orderid`
-
-## 8. Rúbrica
+## 6. Evaluación
 
 NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
 cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
@@ -295,3 +257,52 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Funciones/modularidad  | 4              |
 | Estructuras de datos   | 3              |
 | Tests                  | 3              |
+
+## 7. Pistas, tips y lecturas complementarias
+
+* [Express](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [MySQL](https://www.mysql.com/)
+* [docker](https://docs.docker.com/)
+* [docker compose](https://docs.docker.com/compose/)
+* [Postman](https://www.getpostman.com)
+* [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
+* [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
+* TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
+* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
+
+***
+
+## 8 HTTP API Checklist
+
+### 8.1 `/`
+
+* [ ] `GET /`
+
+### 8.2 `/auth`
+
+* [ ] `POST /auth`
+
+### 8.3 `/users`
+
+* [ ] `GET /users`
+* [ ] `GET /users/:uid`
+* [ ] `POST /users`
+* [ ] `PUT /users/:uid`
+* [ ] `DELETE /users/:uid`
+
+### 8.4 `/products`
+
+* [ ] `GET /products`
+* [ ] `GET /products/:productid`
+* [ ] `POST /products`
+* [ ] `PUT /products/:productid`
+* [ ] `DELETE /products/:productid`
+
+### 8.5 `/orders`
+
+* [ ] `GET /orders`
+* [ ] `GET /orders/:orderid`
+* [ ] `POST /orders`
+* [ ] `PUT /orders/:orderid`
+* [ ] `DELETE /orders/:orderid`
