@@ -146,3 +146,11 @@ PR will be sent with the relevant changes.
 ./scripts/propagate.sh --noop
 ./scripts/propagate.sh
 ```
+
+### create-gource-video (maintainers)
+
+Create gource visualization like [this one](https://youtu.be/fqbcQliGPzE).
+
+```sh
+./scripts/create-gource-video.sh
+```
