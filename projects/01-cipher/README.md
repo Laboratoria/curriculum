@@ -209,13 +209,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud              | 3              |
-
-### Habilidades Blandas
+### Habilidades Blandas (Soft Skills)
 
 | Habilidad                                       | Nivel esperado |
 |-------------------------------------------------|----------------|
@@ -228,30 +222,29 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Dar y recibir feedback                          | 2              |
 | Comunicación eficaz                             | 2              |
 
-### Habilidades Técnicas Front-end
+### Habilidades Técnicas (Front-end)
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **Computer Science**                    |
-| Lógica                 | 1              |
-| Arquitectura           | 1              |
-| **Source Control Management**           |
-| Git                    | 1              |
-| GitHub                 | 2              |
-| **JavaScript**                          |
-| Estilo                 | 2              |
-| Nomenclatura/semántica | 2              |
-| Funciones/modularidad  | 1              |
-| Tests                  | 2              |
-| **HTML**                                |
-| Validación             | 2              |
-| Estilo                 | 3              |
-| Semántica              | 2              |
-| **CSS**                                 |
-| DRY                    | 2              |
-| Responsive             | 2              |
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 1              |
+| Arquitectura                            | 1              |
+| **Source Code Management (SCM)**                         |
+| Git                                     | 1              |
+| GitHub                                  | 2              |
+| **JavaScript**                                           |
+| Estilo (linter js)                      | 2              |
+| Nomenclatura / semántica                | 2              |
+| Uso de funciones / modularidad          | 1              |
+| Tests                                   | 2              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 2              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 2              |
+| DRY (CSS)                               | 2              |
+| Responsive Web Design                   | 2              |
 
-### Habilidades Técnicas UX
+### Habilidades Técnicas (UX)
 
 | Habilidad       | Nivel esperado |
 |-----------------|----------------|
