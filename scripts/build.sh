@@ -29,7 +29,7 @@ topics=(
 
 repo=$( node -e "console.log(require('./package.json').repository)" )
 version=$( node -e "console.log(require('./package.json').version)" )
-rubricVersion=$( node -e "console.log(require('rubric').version)" )
+rubricVersion="2.3.x"
 
 hasFailures=0
 

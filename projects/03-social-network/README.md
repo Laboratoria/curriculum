@@ -223,50 +223,49 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### Habilidades Blandas/Socioemocionales
+### Habilidades Blandas (Soft Skills)
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| Planificación y organización | 3              |
-| Autoaprendizaje              | 3              |
-| Solución de Problemas        | 3              |
-| Dar y recibir feedback       | 3              |
-| Adaptabilidad                | 3              |
-| Trabajo en equipo            | 3              |
-| Responsabilidad              | 3              |
-| Comunicación eficaz          | 3              |
-| Presentaciones               | 3              |
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 3              |
+| Autoaprendizaje                                 | 3              |
+| Presentaciones                                  | 3              |
+| Adaptabilidad                                   | 3              |
+| Solución de problemas                           | 3              |
+| Trabajo en equipo                               | 3              |
+| Responsabilidad                                 | 3              |
+| Dar y recibir feedback                          | 3              |
+| Comunicación eficaz                             | 3              |
 
-### Habilidades Técnicas, Front-end
+### Habilidades Técnicas (Front-end)
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **Computer Science**                    |
-| Lógica                 | 2              |
-| Arquitectura           | 2              |
-| **Source Control Management**           |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 2              |
-| Estructuras de datos   | 2              |
-| Tests                  | 2              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 3              |
-| **CSS**                                 |
-| DRY                    | 3              |
-| Responsive             | 3              |
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 2              |
+| Arquitectura                            | 2              |
+| **Source Code Management (SCM)**                         |
+| Git                                     | 3              |
+| GitHub                                  | 3              |
+| **JavaScript**                                           |
+| Estilo (linter js)                      | 3              |
+| Nomenclatura / semántica                | 3              |
+| Uso de funciones / modularidad          | 2              |
+| Estructuras de datos                    | 2              |
+| Tests                                   | 2              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 3              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 3              |
+| DRY (CSS)                               | 3              |
+| Responsive Web Design                   | 3              |
 
-### Habilidades Técnicas, UX
+### Habilidades Técnicas (UX)
 
 | Habilidad       | Nivel esperado |
 |-----------------|----------------|
 | User Centricity | 3              |
-| Visual Desing   | 2              |
+| Visual Design   | 2              |
 
 ***
 
