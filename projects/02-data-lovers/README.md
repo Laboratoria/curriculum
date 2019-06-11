@@ -376,13 +376,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud              | 4              |
-
-### Habilidades Blandas
+### Habilidades Blandas (Soft Skills)
 
 | Habilidad                                       | Nivel esperado |
 |-------------------------------------------------|----------------|
@@ -396,36 +390,35 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Dar y recibir feedback                          | 2              |
 | Comunicación eficaz                             | 2              |
 
-### Tech
+### Habilidades Técnicas (Front-end)
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **Computer Science**                    |
-| Lógica                 | 1              |
-| Arquitectura           | 2              |
-| **Source Control Management**           |
-| Git                    | 2              |
-| GitHub                 | 2              |
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 1              |
+| Arquitectura                            | 2              |
+| **Source Code Management (SCM)**                            |
+| Git                                     | 2              |
+| GitHub                                  | 2              |
 | **JavaScript**                          |
-| Estilo                 | 2              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 2              |
-| Estructuras de datos   | 2              |
-| Tests                  | 2              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 2              |
-| **CSS**                                 |
-| DRY                    | 3              |
-| Responsive             | 2              |
+| Estilo (linter js)                      | 2              |
+| Nomenclatura / semántica                | 3              |
+| Uso de funciones / modularidad          | 2              |
+| Estructuras de datos                    | 2              |
+| Tests                                   | 2              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 3              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 2              |
+| DRY (CSS)                               | 3              |
+| Responsive Web Design                   | 2              |
 
-### UX
+### Habilidades Técnicas (UX)
 
-| Habilidad                                         | Nivel esperado |
-|---------------------------------------------------|----------------|
-| User Centricity (_Diseño Centrado en el Usuario_) | 3              |
-| **Diseño Visual (_Visual Design_)**               | 2              |
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 3              |
+| Visual Design   | 2              |
 
 ***
 

@@ -117,35 +117,35 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 |----------------|----------------|
 | Completitud    | 4              |
 
-### Habilidades Blandas
+### Habilidades Blandas (Soft Skills)
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 4              |
+| Autoaprendizaje                                 | 4              |
+| Presentaciones                                  | 4              |
+| Adaptabilidad                                   | 4              |
+| Solución de problemas                           | 4              |
+| Responsabilidad                                 | 4              |
+| Dar y recibir feedback                          | 4              |
+| Comunicación eficaz                             | 4              |
 
-### Tech
+### Habilidades Técnicas (Front-end)
 
-| Habilidad              | Nivel esperado |
-| ---------------------- | -------------- |
-| **Computer Science**                    |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| **Source Control Management**           |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
+| Habilidad                      | Nivel esperado |
+| -------------------------------|----------------|
+| **Computer Science (CS)**                       |
+| Lógica / Algoritmia            | 2              |
+| Arquitectura                   | 3              |
+| **Source Code Management (SCM)**                |
+| Git                            | 3              |
+| GitHub                         | 3              |
+| **JavaScript**                                  |
+| Estilo (linter js)             | 3              |
+| Nomenclatura / semántica       | 3              |
+| Uso de funciones / modularidad | 4              |
+| Estructuras de datos           | 3              |
+| Tests                          | 3              |
 
 ***
 
