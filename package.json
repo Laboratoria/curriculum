@@ -8,7 +8,8 @@
     "pretest": "npm run mdlint && npm run eslint && npm run validate",
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "validate": "./scripts/build.sh --validate",
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an <%ae>)\""
   },
   "repository": "Laboratoria/curricula-js",
   "keywords": [
