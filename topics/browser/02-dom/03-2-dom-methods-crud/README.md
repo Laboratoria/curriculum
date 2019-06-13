@@ -1,85 +1,96 @@
-# Modificando el DOM
+# Modificando o DOM
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `120min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- Cómo manipular los nodos del DOM.
-- Cómo crear, añadir y eliminar Nodos al DOM.
+- Como manipular os nós no DOM
+- Como criar, adicionar e eliminar nós no DOM
   * `document.createTextNode()`
   * `document.createElement()`
   * `.appendChild()`
   * `.removeChild()`
-- Conocer sobre las siguientes propiedades:
+- Conhecer as seguintes propriedades:
   * `.innerHTML`
   * `.textContent`
   * `.innerText`
   * `.value`
-- Conocer sobre los siguientes métodos:
+- Conhecer sobre os seguintes métodos:
   * `.replaceChild()`
   * `.insertBefore()`
 
-## Modificando elementos y contenido del DOM
 
-En el tema anterior vimos qué es el DOM y cómo seleccionar nodos utilizando
-JavaScript. En esta ocasión vamos a utilizar el DOM para modificar el
-documento HTML utilizando JavaScript.
+## Modificando elementos e conteúdo do DOM
 
-## Creación de nodos
+No tópico anterior vimos o que é o DOM e como selecionar nós usando JavaScript.
+Desta vez vamos usar o DOM para modificar o documento HTML usando JavaScript.
 
-El DOM nos ofrece una serie de métodos para añadir nodos al árbol de un
-documento, pero los más básicos son `.createElement()`, que crea un elemento, y
-`.createTextNode()`, que crea un nodo de texto.
+## Criação de nós
 
-Crear y añadir a la página un nuevo elemento XHTML sencillo consta de cuatro
-pasos diferentes:
+O DOM nos oferece uma série de métodos para adicionar nós a árvore de um
+documento, os métodos mais básicos são `.createElement()`, para criar um
+elemento e `.createTextNode()`, para criar um nós de texto.
 
-1. Creación de un nodo de tipo Element que represente al elemento.
-2. Creación de un nodo de tipo Text que represente el contenido del elemento.
-3. Añadir el nodo Text como nodo hijo del nodo Element.
-4. Añadir el nodo Element a la página, en forma de nodo hijo de el nodo
-   existente en el HTML, en el cual se quiere insertar.
+Criar e adicionar a uma página um novo elemento é simples, você precisa de
+apenas quatro passos:
 
-Este proceso de creación de nuevos nodos implica la utilización de tres
-funciones DOM:
+1. Criar um nó do tipo `Element` que represente o elemento.
+2. Criar um nós do tipo `Text` que presente o conteúdo do elemento.
+3. Adicionar o nós `Text` como filho do nós `Element`.
+4. Adicionar nós `Element` na página.
 
-1. `createElement(etiqueta)`
+Este processo de criação de novos nós implica na utilização de três funções de
+DOM:
 
-   Crea un nodo de tipo Element que representa al elemento XHTML cuya etiqueta
-   se pasa como parámetro.
+1. `createElement(tag)`
 
-2. `createTextNode(contenido)`
+    Cria um nós do tipo `Element` que representa um elemento XHTML cuja a _tag_
+    é passada como parâmetro.
 
-   Crea un nodo de tipo Text que almacena el contenido textual de los elementos
-   XHTML.
+2. `createTextNode(conteúdo)`
 
-3. `nodoPadre.appendChild(nodoHijo)`
+    Criar um nós do tipo `Text` que armazena o conteúdo de texto dos elementos.
 
-   Añade un nodo como hijo de otro nodo. Si se ocupa esta función para añadir el
-   nodo `Text` como hijo del nodo `Element` y a su vez este nodo `Element` como
-   hijo del nodo existente en el HTML, `appendChild` se utiliza al menos dos
-   veces. Con esta función el nuevo nodo se incluye inmediatamente después de
-   los hijos ya existentes.
+3. `nóPai.appendChild(nóFilho)`
 
-De este modo, si se quiere añadir un párrafo simple al final de una página
-XHTML, es necesario incluir el siguiente código JavaScript.
+    Adiciona o `nóFilho` dentor do `nóPai`.
+
+Desta maneira, se quiser adicionar um parágrafo no final de um página, é necessário incluir o seguinte código JavaScript.
 
 ```js
-// Crear nodo de tipo Element
+// Cria o nó do tipo Element
 const paragraph = document.createElement("p");
-// Crear nodo de tipo Text
+// Cria o nó do tipo Text
 const content = document.createTextNode("Hola Mundo!");
-// Añadir el nodo Text como hijo del nodo Element
+// Adiciona o nó Text como filho do nós Element
 paragraph.appendChild(content);
-// Añadir el nodo Element como hijo de la pagina
+// Adiciona o nó Element como filho da página
 document.body.appendChild(parrafo);
 ```
+
+
+
+
+
+<!-- TODO CONTINUAR AQUI -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 Hay que recordar que el DOM es la interfaz que conecta el documento HTML con
 JavaScript. Es por eso que, al utilizar `.createElement()`, el nodo no será

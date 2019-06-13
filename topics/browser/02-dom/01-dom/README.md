@@ -214,7 +214,7 @@ Analisando a mesma imagem acima:
 ## Propriedades dos nós
 
 Primeiro, cada vez que falamos em `nós` na realidade estão nos referindo a um
-_objeti_ e como você lembra, os objetos possuem _propriedades e métodos_. Com
+_objeto_ e como você lembra, os objetos possuem _propriedades e métodos_. Com
 isso os `nós` tem também tem propriedades e métodos que irão te ajudar a
 identificá-los.
 
@@ -227,10 +227,15 @@ Os nós DOM possuem propriedades básicas, que são:
 - **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada
   apenas para nós do tipo 3 e nós do tipo comentário `8`.
 
+<!--
+TODO: Traduzir video
 ## Recapitulando
 
 Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
 refuerza lo aprendido.
 
 [![Recorriendo el
-DOM](https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)](https://www.youtube.com/watch?v=D93IP_n6kj8)
+DOM]
+(https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)]
+(https://www.youtube.com/watch?v=D93IP_n6kj8)
+  -->

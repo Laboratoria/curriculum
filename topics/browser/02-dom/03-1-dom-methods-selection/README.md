@@ -59,13 +59,13 @@ A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coinci
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -78,22 +78,20 @@ const firstItem = document.getElementById("highlight");
 <!-- TODOOOOOO -->
 <!-- Continuar a tradução a partir da aqui -->
 
-
 ### **getElementsByClassName()**
 
-La función `getElementsByClassName()` devuelve una [lista de
- nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
- XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
+A função `getElementsByClassName()` retorna uma lista de nós da página `XHTML` cuja o atributo `class`
+é igual ao parâmetro indicado na função.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -104,31 +102,27 @@ const items = document.getElementsByClassName("bolded");
 
 ### **getElementsByTagName()**
 
-Como sucede con todas las funciones que proporciona DOM, la función
-`getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
-autoexplicativo.
+Como algumas funções do `DOM` , a função `getElementsByTagName()` tem o nome muito grande,
+mas autoexplicativo.
 
-La función `getElementsByTagName(nombreEtiqueta)` obtiene una [lista de
-nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/).
-de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a la
-función.
+A função `getElementsByTagName(tagName)` retorna uma lista de nós da página
+`XHTML` cuja a _tag_ é igual ao parâmetro que foi passado na função.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
 
 ```js
 const titles = document.getElementsByTagName('h2');
-
 console.log(titles[0]);
 console.log(titles[1]);
 console.log(titles[2]);
@@ -142,18 +136,18 @@ console.log(listItems[2]);
 
 ### **querySelector()**
 
-Función que retorna el primer elemento que coincide con el selector CSS dado
-como parámetro.
+Está função retorna o primeiro elemento que coincide com o seletor `CSS` passado
+como parâmetro.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -171,54 +165,55 @@ console.log(item);
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - tag
 const title = document.querySelector('h2');
 console.log(title);
 ```
 
 ### **querySelectorAll()**
 
-Función que retorna una [lista de
-nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
-que coinciden con el selector CSS dado como parámetro.
+Está função retorna uma lista de nós que coincidem com o seletor `CSS` passado
+como parâmetro.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - tag
 const titles = document.querySelectorAll('h2');
 console.log(titles);
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - class
 const items = document.querySelectorAll('.bolded');
 console.log(items);
 ```
 
 ## Recapitulando
 
+
+<!--
+TODO: traduzir vídeo
+
 Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
 refuerza lo aprendido.
 
 [![Métodos de Selección
-DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)]
+(https://www.youtube.com/watch?v=7iHu7s54vIk)
+-->
 
-También tenemos el
-[link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
-de la documentación oficial de Mozilla de qué es el DOM.
-
-Otro
-[link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
-de cómo acceder a elementos del DOM con JS de la documentación oficial.
+Também recomendamos o
+[link](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction)
+da documentação oficinal do Mozilla sobre o DOM.
