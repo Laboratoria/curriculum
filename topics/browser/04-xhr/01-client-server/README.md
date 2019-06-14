@@ -1,51 +1,47 @@
-# Comunicación Cliente Servidor
+# Comunicação Cliente Servidor
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender el flujo de petición y respuesta
-- Qué significa que sea asíncrono
+- Entender o fluxo de _request_ e _response_ e o que significa assíncrono.
 
-## Petición y Respuesta
+## Requisição e Resposta
 
-Para entender esto, lo primero es recordar que existe un protocolo de
-comunicación en el que se deja claro cómo y de que manera un cliente
-(navegador) pide información/datos a un servidor. Ya teniendo en cuenta
-esto revisemos la siguiente imagen:
+Para entender isso, primeiro precisamos lembrar que existe um protocolo de
+comunicação que deixa claro de que maneira um cliente (navegador) solicita
+informações/dados de um servidor. Levando em conta isso vamos revisar com a
+imagem a seguir:
 
-![comunicación](http://www.solocodigoweb.com/wp-content/uploads/2017/06/clientserver.jpg)
+![Comunicação](https://user-images.githubusercontent.com/11894994/59535679-eef23e80-8ec7-11e9-8878-ccc13659946c.jpg)
 
-En la imagen se puede apreciar como un cliente (emisor) realiza una solicitud
-HTTP (**HTTP Request**) a un servidor (receptor) y este último le responde
-(**HTTP Response**) el pedido.
+Na imagem podemos ver como um cliente (emissor) faz uma solicitação HTTP (**HTTP
+Request**) para um servidor (receptor) e este último responde ao pedido (**HTTP
+Response**).
 
-Estas _peticiones y respuestas_ (que generalmente son conocidas como _requests
-y responses_, su traducción en inglés) son transportados a través de internet
-como medio de comunicación.
+Esses _request_ e _response_ são transportados pela internet como intermediário.
 
-Cuando hacemos esto normalmente lo realizamos de forma **Síncrona**, es decir
-que necesitamos que cada petición tenga su respuesta antes de enviar otra
-petición, tal como en una conversación entre dos personas.
+Quando fazemos isso normalmente o fazemos de forma **síncrona**, ou seja,
+necessitamos que cada solicitação tenha sua resposta antes de enviar outra
+petição.
 
-> Cuando el navegador hace una petición de forma síncrona tiene que esperar la
-> respuesta antes de proceder a la carga de una página
+> Quando o navegador faz uma petição de forma síncrona ele precisa esperar a
+> resposta antes de continuar com o carregamento de uma página.
 
-Pero esto en algún momento ya no nos va a resultar tan eficiente o funcional,
-ten en cuenta que generalmente solo una petición no es lo único que una
-aplicación está haciendo, y en general estará haciendo muchas peticiones a la
-vez, es por eso que podemos, y debemos, hacerlo de manera **Asíncrona** haciendo
-uso de **AJAX** y así lograr hacer más de una "tarea" a la vez.
+Mas isso em algum momento já não vai ser tão eficiente ou funcional, de maneira
+que podemos fazê-lo de forma **assíncrona** utilizando **AJAX**, podendo fazer
+mais de uma "tarefa" por vez.
 
-> Cuando el navegador hace peticiones de forma asíncrona, estas pueden
-> ocurrir en el fondo sin bloquear la carga de una página
+> Quando o navegador faz petições de forma assíncrona, elas podem ocorrer por
+> trás sem bloquear o carregamento de uma página.
 
-En el siguiente vídeo los geniales amigos de UDACITY nos explican de manera
-visual lo anterior, está en inglés pero ya sabemos que ese no es impedimento
-para que entendamos el concepto :muscle:
+No vídeo a seguir os amigos geniais da UDACITY explicam de maneira visual o
+conteúdo anterior. Está em inglês mas já sabemos que isso não é impedimento para
+que entendamos o conceito :muscle:
 
-[![Client-server communication](https://img.youtube.com/vi/nozbz6J3_4w/0.jpg)](https://youtu.be/nozbz6J3_4w)
+[![Client-server
+communication](https://img.youtube.com/vi/nozbz6J3_4w/0.jpg)](https://youtu.be/nozbz6J3_4w)

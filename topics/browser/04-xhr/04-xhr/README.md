@@ -1,150 +1,142 @@
 # XHR
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `90min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender qué es XHR
+- Entender o que é XHR
 
-## Analogía
+## Analogia
 
-Una buena manera de entender XHR es usando la siguiente analogía:
+Uma boa maneira de entender XHR é usando a seguinte analogia:
 
-> **Preparar un pastel!**
-> Para prepararlo necesitamos, harina, huevo, leche, mantequilla y un horno.
-> Encendemos el horno. Luego procedemos a mezclar los 4 ingredientes y ya
-> lista la mezcla la metemos al horno, aquí va a tardar un poco en lo que se
-> hornea pero mientras podemos ir preparando la cubierta del pastel.
+> **Preparar uma torta!** Para prepará-la, precisamos de farinha, ovo, leite,
+> manteiga e um forno. Acendemos o forno. Em seguida podemos misturar os 4
+> ingredientes e já pronta a massa a colocamos no forno. Aqui demora um pouco
+> até que asse, mas enquanto isso podemos ir fazendo o recheio.
 
-Un objeto XHR es proporcionado por el entorno de JavaScript y se utiliza para
-hacer peticiones AJAX, es muy parecido a la parte de la preparación de la mezcla
-donde primero debemos "preparar" las configuraciones y luego mandar nuestra
-petición, pero una vez hecho esto nuestro código puede seguir adelante y hacer
-otras peticiones o tareas.
+Um objeto XHR é fornecido pelo ambiente de JavaScript e é utilizado para fazer
+requisições AJAX. É muito parecido com a parte da preparação da massa em que
+primeiro devemos "preparar" as configurações e em seguida enviar nossa
+requisição. Uma vez isto feito, nosso código pode seguir adiante e fazer outras
+requisições ou tarefas.
 
-> Cuando el horno nos regresa el pastel horneado podemos continuar con
-> decorarlo
+> Quando o forno nos devolve a torta assada, podemos continuar a decorá-la.
 
-Una vez que nuestra petición tiene respuesta puede seguir adelante con lo que
-hayamos dispuesto para esta "tarea".
+Uma vez que nossa requisição tem uma resposta, o programa pode seguir em frente
+com o que programamos para esta "tarefa".
 
-## XMLHTTPRequest
+## XMLHttpRequest
 
-El entorno de JavaScript nos proporciona una forma de realizar solicitudes
-HTTP asíncronas. Esto lo hacemos con un objeto XMLHttpRequest, podemos usar
-este objeto con la función de constructor XMLHttpRequest proporcionada.
+O ambiente de JavaScript proporciona uma forma de realizar requisições HTTP
+assíncronas. Isso é feito com um objeto `XMLHttpRequest`. Podemos usar este
+objeto com a função do construtor `XMLHttpRequest`.
 
-XMLHttpRequests (comúnmente abreviado como XHR o xhr) se puede utilizar para
-solicitar cualquier tipo de archivo (por ejemplo, archivos de texto plano,
-HTML, JSON, de imagen, etc.) o datos de una API.
+XMLHttpRequests (comummente abreviado como XHR ou xhr) podem ser utilizados para
+requisitar qualquer tipo de arquivo (por exemplo, arquivos de texto puro, HTML,
+JSON, de imagem, etc.) ou dados de uma API.
 
-Ahora profundizaremos en el objeto XMLHttpRequest. Veremos cómo crearlo, qué
-métodos y propiedades se deben usar y cómo enviar realmente solicitudes
-asíncronas.
+Agora aprofundaremos o estudo no objeto XMLHttpRequest. Veremos como criá-lo,
+quais métodos e propriedades devem ser usadas e como enviar requisições
+assíncronas.
 
 [XMLHttpRequests](https://www.youtube.com/watch?v=nz9S3uZE_dM)
 
-### El objeto XHR y su método `.open()`
+### O objeto XHR e seu método `.open()`
 
-Ya que hemos construido un objeto XHR llamado _asyncRequestObject_.
+Construímos um objeto XHR chamado _asyncRequestObject_.
 
 ```javascript
-const asyncRequestObject = new XMLHttpRequest ();
+const asyncRequestObject = new XMLHttpRequest();
 ```
 
-Podemos acceder a sus métodos, uno de los más importantes es el método `.open()`
+Podemos acessar seus métodos. Um dos mais importantes é o método `.open()`
 
-asyncRequestObject.open();
+`asyncRequestObject.open();`
 
-`.open()` toma una serie de parámetros, pero los más importantes son sus dos
-primeros: el método HTTP y la URL para enviar la solicitud.
+`.open()` recebe uma série de parâmetros, mas os mais importantes são os dois
+primeiros: o método HTTP e a URL para enviar a requisição.
 
-![sintax-open](https://github.com/AnaSalazar/curricula-js/blob/ivandevp-06-spa/06-spa/02-asynchronous-js-request/04-xhr/sintax_open.png?raw=true)
+![sintax-open](https://user-images.githubusercontent.com/11894994/59536886-5493fa00-8ecb-11e9-9fb2-dbf4237c6ae4.png)
 
-Si queremos solicitar de manera asíncrona la página de inicio del popular sitio
-de imágenes de alta resolución, Unsplash, usaremos una solicitud GET y
-proporcionaremos la URL:
+Se queremos requisitar de maneira assíncrona a página inicial do popular sítio
+de imagens de alta resolução, Unsplash, usaremos uma requisição `GET` e
+forneceremos a URL:
 
 ```javascript
 asyncRequestObject.open('GET', 'https://unsplash.com');
 ```
 
-> Los métodos HTTP que por el momento más usaremos son:
-> GET - para recuperar datos.
-> POST - para enviar datos.
+> Os métodos HTTP que mais usaremos por enquanto são: GET - para recuperar
+> dados. POST - para enviar dados.
 
-## El objeto XHR y su método `.send()`
+## O objeto XHR e seu método `.send()`
 
-Para enviar la solicitud, necesitamos usar el método de envío:
+Para enviar a requisição, precisamos usar o método de envio:
 
 ```javascript
 asyncRequestObject.send();
 ```
 
-Ya sabemos que no hay mejor manera de aprender que practicar, para ver como
-funciona, dirígete a [Unsplash](https://unsplash.com), abre tu developer tools
-y agrega en consola el objeto y sus métodos open y send.
+Já sabemos que não há melhor maneira de aprender do que fazendo. Para ver como
+funciona, vá ao [Unsplash](https://unsplash.com), abra suas *developer tools* e
+adicione no console o objeto e seus métodos `open` e `send`.
 
-![XHR send method](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/59938614_ud109-l1-send-xhr-request-1/ud109-l1-send-xhr-request-1.gif)
+![XHR send
+method](https://user-images.githubusercontent.com/11894994/59536911-72615f00-8ecb-11e9-8e8a-5add6b412c9e.gif)
 
-En el siguiente video podemos ver que es lo pasa, está en inglés pero si vas
-haciendo el paso a paso como en el video, seguro que le entiendes.
+No vídeo a seguir podemos ver o que acontece. Está em inglês, mas vá fazendo
+passo a passo com o vídeo e certamente você entenderá.
 
-[![XHR sened method analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
+[![XHR sened method
+analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
 
-## Respuesta correcta
+## Resposta de sucesso
 
-Ya que la petición ha sido enviada debemos establecer la propiedad `onload` en
-el objeto a una función que manejará la respuesta exitosa de nuestra solicitud
-XHR:
+Uma vez que a petição foi enviada, devemos estabelecer a propriedade `onload` no
+objeto a uma função que manejará a resposta bem sucedida da nossa requisição
+XHR: XHR:
 
 ```javascript
 function handleSuccess () {
-    // en la función, `this` es el valor del objeto XHR
-    // this.responseText contiene la respuesta del servidor
+    // na função, `this` é o valor do objeto XHR
+    // this.responseText contém a resposta do servidor
 
-    console.log( this.responseText ); // el HTML de https://unsplash.com/
+    console.log( this.responseText ); // o HTML de https://unsplash.com/
 }
 
 asyncRequestObject.onload = handleSuccess;
 ```
+Com isso percebemos que se `onload` não estiver configurado, a solicitação
+retorna mas não faz nada.
 
-Con esto nos damos cuenta que si `onload` no está configurado, la solicitud
-vuelve pero no ocurre nada con eso.
+## Manipulação de erros
 
-## En caso de error
-
-Ahora veamos que pasa si sucede algo con la solicitud y no se puede cumplir,
-entonces necesitamos usar la propiedad onerror:
+Agora vejamos o que passa se algo acontece com a requisição e não acontece com
+sucesso. Nesse caso, precisamos usar a propriedade `onerror`:
 
 ```javascript
 function handleError () {
-    console.log( 'An error occurred 😞' );
+    console.log( 'Um erro aconteceu 😞' );
 }
 
 asyncRequestObject.onerror = handleError;
 ```
 
-Al igual que con `onload`, si `onerror` no está configurado y se produce un
-error, ese error simplemente fallará en _silencio_ y tu código (¡y tu usuario!)
-no sabrá qué es lo que está mal ni cómo recuperarlo.
+Assim como com `onload`, se `onerror` não estiver configurado e um erro
+acontece, esse erro simplesmente ficará em _silêncio_ e seu código (e seu
+usuário!) não saberá o que deu de errado e nem como refazer a operação.
 
-Es una buena práctica el tener ambos casos, correcto y error, en control
-siempre. Es nuestra responsabilidad de desarrolladoras el comunicar al usuario
-qué es lo que sucede mientras espera. Y ofrecer opciones en caso de error, eso
-hará que nuestras aplicaciones tengan una mejor UX (experiencia de usuario) y
-sean más robustas, esto es, que no se caigan con nada.
+## Juntando tudo
 
-## Juntando todo
+Aqui está o código completo que desenvolvemos:
 
-Aquí está el código completo que hemos desarrollado.
-
-Se crea el objeto XHR, se le dice qué información solicitar, configuramos los
-manejadores para un éxito o error y luego finalmente se envía la solicitud:
+Criamos o objeto XHR, dissemos qual informação requisitar, configuramos os
+manipuladores para sucesso ou erro e por fim enviamos a requisição:
 
 ```javascript
 function handleSuccess () {
@@ -153,7 +145,7 @@ function handleSuccess () {
 }
 
 function handleError () {
-  console.log( 'An error occurred 😞' );
+  console.log( 'Um erro aconteceu 😞' );
 }
 
 const asyncRequestObject = new XMLHttpRequest();
@@ -163,59 +155,34 @@ asyncRequestObject.onerror = handleError;
 asyncRequestObject.send();
 ```
 
-## APIs y JSON
+## APIs e JSON
 
-Obtener el HTML de un sitio web está bien, pero probablemente no sea muy útil.
-Los datos que devuelve están en un formato que es extremadamente difícil de
-analizar y consumir.
+Obter o HTML de um sítio web é fácil, mas provavelmente não é muito útil. Os
+dados que retornam estão em um formato que é extremamente difícil de analisar e
+consumir.
 
-Sería mucho más fácil (y útil) si pudiéramos obtener solo los datos que
-queremos en una estructura de datos mejor ordenada, aquí entra **JSON**
-(_JavaScript Object Notation_).
+Seria muito mais fácil (e útil) se pudéssemos obter somente os dados que
+queremos em uma estrutura de dados melhor ordenada. Aqui entra **JSON**.
 
-### JSON
-
-Es un formato de texto, es una forma de ordenar los datos de manera que sea
-fácil procesarlos y manejarlos. Nace del problema de cómo podemos intercambiar
-datos entre aplicaciones, páginas o servicios de una manera cómoda.
-**JSON** ES texto, pero con una estructura bien definida, tal como ordenamos
-libros en capítulos, secciones, parrafos, lineas. Un JSON estará compuesto de
-llaves y valores tal como en el siguiente ejemplo:
-
-```json
-{
-  "título": "La guía del viajero intergaláctico",
-  "autor": "Douglas Adams",
-  "descripción": "Triología de cinco partes"
-}
-```
-
-Título, autor y descripción son las llaves, mientras que el resto son los
-valores de esas llaves.
-
-### Comunicándose con una API-JSON
-
-Entonces, si estamos comunicándonos con una API a través de JSON, necesitamos
-que nuestro código entienda el formato de este texto especial, a este proceso le
-llamaremos análisis o _parsing_ en inglés. Luego de este análisis, el texto pasa
-a ser un objeto de javascript, que podemos manipular y acceder como cualquier
-otro objeto que hemos visto.
-Supongamos que la respuesta es el JSON que pusimos de ejemplo anteriormente,
-veamos cómo podemos analizar o _parsear_ ésta :
+Ao realizar uma requisição de uma API que retorna um JSON, tudo o que precisamos
+fazer é converter esse retorno JSON em um objeto JavaScript. Podemos fazer isso
+com `JSON.parse();`. Modifiquemos a função de carregamento para manipular uma
+resposta JSON:
 
 ```javascript
 function handleSuccess () {
   const data = JSON.parse( this.responseText );
-  console.log( `${data.autor} escribió el libro : ${data.título}` );
+  console.log( data );
 }
 
 asyncRequestObject.onload = handleSuccess;
 ```
 
-Para obtener más información sobre el uso del objeto XHR para realizar
-solicitudes asíncronas, puedes consultar estos enlaces:
+Para obter mais informação sobre o uso do objeto XHR para realizar requisições
+assíncronas, você pode consultar estes links:
 
-- [MDN's docs](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open)
+- [MDN's
+  docs](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest/open)
 
 - [WHATWG Spec](https://xhr.spec.whatwg.org/)
 

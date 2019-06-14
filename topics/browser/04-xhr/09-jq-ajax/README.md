@@ -1,62 +1,52 @@
-# AJAX con jQuery
+# AJAX com jQuery
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Usar jQuery para hacer requests asíncronos y entender qué ventajas nos da
+- Usar jQuery para fazer requisições assíncronas e entender quais vantagens ele nos fornece.
 
-## Analogía
+## Analogia
 
-Dejar que un experto prepare el pastel por ti.
+Deixe um profissional preparar a torta para você.
 
 [![XHR analogy](https://img.youtube.com/vi/NFGrayBZOVM/0.jpg)](https://youtu.be/NFGrayBZOVM)
 
-## ¿Por qué jQuery?
+## Por que jQuery?
 
-jQuery es una librería muy popular que ya has tenido la oportunidad de usar. El
-uso que le has dado hasta este momento ha sido para manipular y recorrer el DOM
-a través de métodos que hacen nuestro código más corto.
+jQuery é uma biblioteca muito popular que você já teve a oportunidade de usar. O uso que lhe demos até o momento foi para manipular o DOM por meio de métodos que fazem nosso código mais simples.
 
-Ahora, usaremos esta ventaja de usar métodos más pequeños y dejar la
-responsabilidad a jQuery de ver la compatibilidad de navegadores por nosotros
-en la implementación de AJAX.
+Agora, usaremos esta vantagem de utilizar métodos menores e deixar para o jQuery a responsabilidade de checar a compatibilidade dos navegadores na implementação do AJAX.
 
-Esto es posible gracias al método `.ajax()` que jQuery provee para realizar
-peticiones asíncronas.
+Isso é possível graças ao método `.ajax()` que jQuery fornece para realizar requisições assíncronas.
 
 ## Método `.ajax()`
 
-El método `.ajax()` es el corazón de las peticiones asíncronas en la librería
-de jQuery. Hay 2 formas de usar este método:
+O método`.ajax()` é o coração das requisições assíncronas na biblioteca de jQuery. Há duas formas de utilizar esse método:
 
-```js
-$.ajax(<url-a-realizar-la-petición>, <un-objeto-configuración>);
+```javascript
+$.ajax(<url-a-realizar-a-requisicao>, <um-objeto-de-configuracao>);
 
 // or
 
-$.ajax(<solo un objeto de configuración>);
+$.ajax(<só um objeto de configuração>);
 ```
 
-Fuente: [Documentación de jQuery](https://api.jquery.com/jQuery.ajax/)
+Fonte: [Documentação de jQuery](https://api.jquery.com/jQuery.ajax/)
 
-La manera más común de usar el método `.ajax()` es usando solo el objeto de
-configuración, esto en parte es debido a que es la forma más antigua que está
-disponible (versión 1.0, a ver si encuentras de donde obtuvimos este dato
-mirando la documentación), además de que toda la configuración lo puedes poner
-en un solo objeto.
+A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de configuração, em parte devido a esta ser a forma mais antiga que está disponível (versão 1.0). Além disso, toda a configuração pode estar somente em um objeto.
 
-> ### Qué es un objeto de configuración?
+> ### O que é um objeto de configuração?
+
+> É um objeto de JavaScript que utilizamos para configurar algo.
 >
-> Es un objeto de JavaScript que se usa para configurar algo.
+> Por exemplo:
 >
-> Por ejemplo:
->
-> ```js
+> ```javascript
 > var settings = {
 >    name: 'this is my name',
 >    colors: ['orange', 'blue'],
@@ -65,16 +55,15 @@ en un solo objeto.
 > };
 > ```
 >
-> El objeto de configuración puede ser pasado como parámetro de una función
-> constructora. Imaginemos la función constructora `MakeCake`:
+> O objeto de configuração pode ser passado como parâmetro de uma função construtora. Imaginemos a função construtora `MakeCake`:
 >
-> ```js
+> ```javascript
 > const myDeliciousCake = MakeCake( settings );
 > ```
 >
-> De igual manera, el objeto de configuración puede ser pasado directamente:
+> Da mesma forma, o objeto de configuração pode ser passado diretamente:
 >
-> ```js
+ ```javascript
 > const myDeliciousCake = MakeCake({
 >    name: 'this is my name',
 >    colors: ['orange', 'blue'],
@@ -83,25 +72,39 @@ en un solo objeto.
 > });
 > ```
 
-## Haciendo una llamada AJAX
+## Fazendo uma chamada AJAX
 
-El método `.ajax()` de jQuery tiene que ser increíblemente versátil y poderoso
-si es lo que le da vida a las peticiones asíncronas de jQuery. Una petición Ajax
-simple se vería así:
+O método `.ajax()` de jQuery tem que ser incrivelmente versátil e poderoso se é o que dá vida às requisições assíncronas. Uma requisição AJAX simples seria assim:
 
-```js
+```javascript
 $.ajax({
     url: `https://api.github.com/users/${searchedUser}`
 });
 ```
 
-Vamos a probarlo:
+Vamos testá-lo:
 
-1. Anda al sitio web de [jQuery](http://jquery.com/)
-2. Abre el `Developer Tools` de tu navegador
-3. Asegúrate que estás en la pestaña `Network` y que el botón de grabación está
-   encendido
-4. Agrega el script anterior en la consola y ejecútalo
+1. Vá para o sítio web de [jQuery](http://jquery.com/).
+2. Abra as `Developer Tools` do seu navegador.
+3. Garanta que está na aba `Network` e que o botão gravação está ligado.
+5. Adicione o script anterior na console e execute-o.
+
+
+
+
+<!--
+
+
+
+
+TODOOOOO
+
+
+
+
+-->
+
+
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 
