@@ -1,183 +1,156 @@
 # Events handling
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `20min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `20min`
 
 ***
 
 <iframe
-  src="https://goo.gl/wBwVRr"
-  frameborder="0"
-  width="684"
-  height="430"
-  allowfullscreen="true"
-  mozallowfullscreen="true"
+  src="https://goo.gl/wBwVRr" frameborder="0" width="684" height="430"
+  allowfullscreen="true" mozallowfullscreen="true"
   webkitallowfullscreen="true"></iframe>
 
-Un evento de JavaScript por sí mismo carece de utilidad. Para que los eventos
-resulten útiles, se deben asociar funciones o código JavaScript a cada evento.
-De esta forma, cuando se produce un evento se ejecuta el código indicado, por
-lo que la aplicación puede responder ante cualquier evento que se produzca
-durante su ejecución.
+Um evento de JavaScript por si só precisa de utilidade. Para que os eventos
+sejam úteis, devemos associar funções ou código JavaScript a cada evento. Desta
+forma, quando um evento é disparado, o código associado é executado, de forma
+que durante a execução da aplicação se possa responder a qualquer evento.
 
-Las funciones o código JavaScript que se definen para cada evento se denominan
-manejador de eventos (event handlers en inglés) y como JavaScript es un
-lenguaje muy flexible, existen varias formas diferentes de indicar los
-manejadores:
+As funções ou códigos JavaScript que são definidos em cada evento são
+denominadas manipuladores de eventos (*event handlers* em inglês) e como
+JavaScript é uma linguagem muito flexível, existem várias formas diferentes que
+indicar os manipuladores:
 
-* Manejadores como atributos de los elementos XHTML
-* Manejadores como funciones JavaScript externas
-* Manejadores "semánticos"
+* Manipuladores como atributos dos elementos XHMTL
+* Manipuladores como funções JavaScript externas
+* Manipuladores "semânticos"
 
-## Manejadores como Atributos de XHTML
+## Manipuladores como Atributos dos Elementos XHMTL
 
-Se trata del método más sencillo y a la vez menos profesional de indicar el
-código JavaScript que se debe ejecutar cuando se produzca un evento. En este
-caso, el código se incluye en un atributo del propio elemento XHTML. En el
-siguiente ejemplo, se quiere mostrar un mensaje cuando el usuario pinche con el
-ratón sobre un botón:
+Trata-se do método mais simples e ao mesmo tempo menos profissional de indicar o
+código JavaScript que deve ser executado quando ocorra o evento. Neste caso, o
+código é incluído como um atributo do próprio elemento XHTML. No exemplo a
+seguir, desejamos mostrar uma mensagem quando o usuário clique com o mouse sobre
+um botão:
 
 ```html
-<input type="button" value="Pinchame y verás" onclick="console.log('Gracias por pinchar');" />
+<input type="button" value="Clique em mim e verás" onclick="console.log('Obrigado por clicar');" />
 ```
 
-En este método, se definen atributos XHTML con el mismo nombre que los eventos
-que se quieren manejar. El ejemplo anterior sólo quiere controlar el evento de
-pinchar con el ratón, cuyo nombre es onclick. Así, el elemento XHTML para el que
-se quiere definir este evento, debe incluir un atributo llamado onclick.
+Neste método, são definidos atributos XHTML com o mesmo nome dos eventos que
+desejamos manipular. O exemplo anterior só quer controlar o evento de clicar com
+o mouse, cujo nome é *onclick*. Assim, o elemento XHTML para o qual queremos
+definir esse evento deve incluir um atributo chamado *onclick*.
 
-El contenido del atributo es una cadena de texto que contiene todas las
-instrucciones JavaScript que se ejecutan cuando se produce el evento. En este
-caso, el código JavaScript es muy sencillo
+O conteúdo do atributo é uma cadeia de texto que contém todas as instruções
+JavaScript que são executadas quando o evento é disparado. Neste caso, o código
+JavaScript é muito simples:
 
 ```js
-(console.log('Gracias por pinchar');) // ya que solamente se trata de mostrar un mensaje.
+(console.log('Obrigado por clicar');) // já que só se trata de mostrar uma mensagem.
 ```
 
-En este otro ejemplo, cuando el usuario pincha sobre el elemento `<div>` se
-muestra un mensaje y cuando el usuario pasa el ratón por encima del elemento,
-se muestra otro mensaje:
+Neste outro exemplo, quando o usuário clica sobre o elemento `<div>` é mostrada
+uma mensagem e quando o usuário passa o mouse por cima do elemento, outra
+mensagem é exibida:
 
 ```html
-<div
-  onclick="console.log('Has pinchado con el ratón');"
-  onmouseover="console.log('Acabas de  pasar el ratón por encima');"
->
-  Puedes pinchar sobre este elemento o simplemente pasar el ratón por encima
+<div onclick="console.log('Você clicou com o mouse.');" onmouseover="console.log('Você passou com o mouse por cima de mim.');">
+Você pode clicar neste elemento ou simplesmente passar o mouse por cima dele.
 </div>
 ```
 
-Este otro ejemplo incluye una de las instrucciones más utilizadas en las
-aplicaciones JavaScript más antiguas:
+Este outro exemplo inclui uma das instruções mais utilizadas nas aplicações
+JavaScript mais antigas:
 
 ```html
-<body onload="console.log('La página se ha cargado completamente');">
+<body onload="console.log('A página foi totalmente carregada.');">
  ...
 </body>
 ```
 
-El mensaje anterior se muestra después de que la página se haya cargado
-completamente, es decir, después de que se haya descargado su código HTML, sus
-imágenes y cualquier otro objeto incluido en la página.
+A mensagem anterior é exibida após a página ter sido totalmente carregada, ou
+seja, depois que todo seu código HTML, suas imagens e qualquer outro objeto da
+página tenham sido carregados.
 
-El evento onload es uno de los más utilizados ya que, como se vio en el
-capítulo de DOM, las funciones que permiten acceder y manipular los nodos del
-árbol DOM solamente están disponibles cuando la página se ha cargado
-completamente.
+O evento *onload* é um dos mais utilizados já que, como vimos no capítulo sobre
+DOM, as funções que permitem acessar e manipular os nós da árvore DOM só estão
+disponíveis quando toda a página tenha sido carregada.
 
-## Manejadores de eventos y variable `this`
+## Manipuladores de eventos e variável `this`
 
-JavaScript define una variable especial llamada this que se crea automáticamente
-y que se emplea en algunas técnicas avanzadas de programación. En los eventos,
-se puede utilizar la variable this para referirse al elemento XHTML que ha
-provocado el evento. Esta variable es muy útil para ejemplos como el siguiente:
+JavaScript define uma variável especial chamada `this` que é criada
+automaticamente e que utiliza algumas técnicas avançadas de programação. Nos
+eventos, é possível utilizar a variável `this` para se referir ao elemento XHTML
+que disparou o evento. Esta variável é muito útil para exemplos como o seguinte:
 
-Cuando el usuario pasa el ratón por encima del `<div>`, el color del borde se
-muestra de color negro. Cuando el ratón sale del `<div>`, se vuelve a mostrar el
-borde con el color gris claro original.
+Quando o usuário passa o mouse por cima da `<div>`, a cor da borda se torna
+preta. Quando o mouse sai da `<div>`, volta a mostrar a cor cinza original.
 
 ```html
-<div id="contenidos" style="width:150px; height:60px; border:thin solid silver">
-  Sección de contenidos...
+<div id="conteudos" style="width:150px; height:60px; border:thin solid silver">
+  Seção de conteúdos ...
 </div>
 ```
 
-Si no se utiliza la variable this, el código necesario para modificar el color
-de los bordes, sería el siguiente:
+Se a variável `this` não é utilizada, o código necessário para modificar a cor
+das bordas seria o seguinte:
 
 ```html
-<div
-  id="contenidos"
-  style="width:150px; height:60px; border:thin solid silver"
-  onmouseover="document.getElementById('contenidos').style.borderColor='black';"
-  onmouseout="document.getElementById('contenidos').style.borderColor='silver';"
->
-  Sección de contenidos...
+<div id="conteudos" style="width:150px; height:60px; border:thin solid silver" onmouseover="document.getElementById('conteudos').style.borderColor='black';" onmouseout="document.getElementById('conteudos').style.borderColor='silver';">
+    Seção de conteúdos ...
 </div>
 ```
 
-El código anterior es demasiado largo y demasiado propenso a cometer errores.
-Dentro del código de un evento, JavaScript crea automáticamente la variable
-`this`, que hace referencia al elemento XHTML que ha provocado el evento. Así,
-el ejemplo anterior se puede reescribir de la siguiente manera:
+O código anterior é muito grande e muito propenso a erros. Dentro do código de
+um evento, JavaScript cria automaticamente a variável `this`, que faz referência
+ao elemento XHTML que disparou o evento. Assim, o exemplo anterior pode ser
+reescrito da seguinte maneira:
 
 ```html
-<div
-  id="contenidos"
-  style="width:150px; height:60px; border:thin solid silver"
-  onmouseover="this.style.borderColor='black';"
-  onmouseout="this.style.borderColor='silver';"
->
-  Sección de contenidos...
+<div id="conteudos" style="width:150px; height:60px; border:thin solid silver" onmouseover="this.style.borderColor='black';" onmouseout="this.style.borderColor='silver';">
+    Seção de conteúdos ...
 </div>
 ```
 
-El código anterior es mucho más compacto, más fácil de leer y de escribir y
-sigue funcionando correctamente aunque se modifique el valor del atributo id
-del `<div>`.
+O código acima é muito mais compacto, mais fácil de ler e de escrever e segue
+funcionando corretamente sem que se modifique o valor do atributo id da `<div>`.
 
-## Manejadores de eventos como funciones externas
+## Manipuladores de eventos como funções externas
 
-La definición de manejadores de eventos en los atributos XHTML es un método
-sencillo pero poco aconsejable para tratar con los eventos en JavaScript. El
-principal inconveniente es que se complica en exceso en cuanto se añaden
-algunas pocas instrucciones, por lo que solamente es recomendable para los
-casos más sencillos.
+A definição de manipuladores de eventos nos atributos XHTML é um método simples
+mas pouco aconselhável para trabalhar com eventos em JavaScript. O principal
+inconveniente é que fica muito complicado quando são adicionadas algumas poucas
+instruções, o que é recomendável somente para os casos mais simples.
 
-Cuando el código de la función manejadora es más complejo, como por ejemplo la
-validación de un formulario, es aconsejable agrupar todo el código JavaScript
-en una función externa que se invoca desde el código XHTML cuando se produce
-el evento.
+Quando o código da função manipuladora é mais complexo, como por exemplo a
+validação de um formulário, é aconselhável agrupar todo o código JavaScript em
+uma função externa que é invocada no código XHTML quando o evento é disparado.
 
-De esta forma, el siguiente ejemplo:
+Desta forma, o exemplo a seguir:
 
 ```html
-<input
-  type="button"
-  value="Pinchame y verás"
-  onclick="console.log('Gracias por pinchar');"
-/>
+<input type="button" value="Clique em mim e verá." onclick="console.log('Obrigado por clicar.');" />
 ```
 
-Se puede transformar en:
+pode ser transformado em:
 
 ```js
-function muestraMensaje() {
-  console.log('Gracias por pinchar');
+function exibirMensagem() {
+  console.log('Obrigado por clicar.');
 }
 ```
 
 ```html
-<input type="button" value="Pinchame y verás" onclick="muestraMensaje()" />
+<input type="button" value="Clique em mim e verá" onclick="exibirMensagem()" />
 ```
 
-En las funciones externas no es posible utilizar la variable this de la misma
-forma que en los manejadores insertados en los atributos XHTML. Por tanto, es
-necesario pasar la variable this como parámetro a la función manejadora:
+Nas funções externas não é possível utilizar a variável `this` da mesma forma em
+que fazemos nos manipuladores inseridos nos atributos XHTML. Logo, é necessário
+passar a variável `this` como parâmetros para a função manipuladora:
 
 ```js
-function resalta(elemento) {
+function realcar(elemento) {
   switch(elemento.style.borderColor) {
     case 'silver':
     case 'silver silver silver silver':
@@ -194,119 +167,107 @@ function resalta(elemento) {
 ```
 
 ```html
-<div
-  style="padding: .2em; width: 150px; height: 60px; border: thin solid silver"
-  onmouseover="resalta(this)" onmouseout="resalta(this)"
->
-  Sección de contenidos...
+<div style="padding: .2em; width: 150px; height: 60px; border: thin solid silver" onmouseover="realcar(this)" onmouseout="realcar(this)">
+  Seção de conteúdos...
 </div>
 ```
 
-En el ejemplo anterior, a la función externa se le pasa el parámetro this, que
-dentro de la función se denomina elemento. Al pasar this como parámetro, es
-posible acceder de forma directa desde la función externa a las propiedades
-del elemento que ha provocado el evento.
+No exemplo anterior, passamos o parâmetro `this` na função externa, que dentro
+da função se chama _elemento_. Ao passar `this` como parâmetro, é possível
+acessar de forma direta a partir da função externa as propriedades do elemento
+que disparou o evento.
 
-Por otra parte, el ejemplo anterior se complica por la forma en la que los
-distintos navegadores almacenan el valor de la propiedad borderColor. Mientras
-que Firefox almacena (en caso de que los cuatro bordes coincidan en color) el
-valor simple `black`, Internet Explorer lo almacena como `black` `black` `blac`
-`black` y Opera almacena su representación hexadecimal `#000000`.
+Por outro lado, o exemplo anterior é complicado devido à forma com a qual os
+diferentes navegadores armazenam o valor da propriedade `borderColor`. Enquanto
+o Firefox armazena (no caso das quatro bordas terem a mesma cor) o valor simples
+`black`, Internet Explorer armazena como `black` `black` `black` `black` e o
+Opera armazena sua representação hexadecimal `#000000`.
 
-## Manejadores de eventos semánticos
+## Manipuladores de eventos semânticos
 
-Utilizar los atributos XHTML o las funciones externas para añadir manejadores
-de eventos tiene un grave inconveniente, "ensucian" el código XHTML de la
-página.
+Utilizar os atributos XHTML ou as funções externas para adicionar manipuladores
+de eventos possui um grave inconveniente: "sujam" o código XHTML da página.
 
-Como es conocido, al crear páginas web se recomienda separar los contenidos
-(XHTML) de la presentación (CSS). En lo posible, también se recomienda separar
-los contenidos (XHTML) de la programación (JavaScript). Mezclar JavaScript y
-XHTML complica excesivamente el código fuente de la página, dificulta su
-mantenimiento y reduce la semántica del documento final producido.
+Como sabemos, ao criar páginas web é recomendado separar os conteúdos (XHTML) da
+apresentação (CSS). Dentro do possível, também é recomendado separar os
+conteúdos (XHTML) da programação (JavaScript). Mesclar JavaScript e XHTML
+complica excessivamente o código fonte da página, dificulta sua manutenção e
+reduz a semântica do documento final produzido.
 
-Afortunadamente, existe un método alternativo para definir los manejadores de
-eventos de JavaScript. Esta técnica consiste en asignar las funciones externas
-mediante las propiedades DOM de los elementos XHTML. Así, el siguiente ejemplo
+Felizmente, existe um método alternativo para definir os manipuladores de
+eventos de JavaScript. Esta técnica consiste em alocar as funções externas por
+meio das propriedades DOM dos elementos XHTML. Assim, o exemplo a seguir:
 
 ```html
-<input
-  id="pinchable"
-  type="button"
-  value="Pinchame y verás"
-  onclick="console.log('Gracias por pinchar');"
-/>
+<input id="clicavel" type="button" value="Clique em mim e verá." onclick="console.log('Obrigado por clicar.');" />
 ```
-
-Se puede transformar en:
+pode ser transformado em:
 
 ```js
-function muestraMensaje() {
-  console.log('Gracias por pinchar');
+function exibirMensagem() {
+  console.log('Obrigado por clicar.');
 }
-
-document.getElementById('pinchable').onclick = muestraMensaje;
+document.getElementById('clicavel').onclick = exibirMensagem();
 ```
 
 ```html
-<input id="pinchable" type="button" value="Pinchame y verás" />
+<input id="clicavel" type="button" value="Clique em mim e verá." />
 ```
 
-El código XHTML resultante es muy "limpio", ya que no se mezcla con el código
-JavaScript. La técnica de los manejadores semánticos consiste en:
+O código XHTML resultante é muito "limpo", já que não se mistura com o código
+JavaScript. A técnica dos manipuladores semânticos consiste em:
 
-* Asignar un identificador único al elemento XHTML mediante el atributo id
-* Crear una función de JavaScript encargada de manejar el evento
-* Asignar la función a un evento concreto del elemento XHTML mediante DOM
-* Otra ventaja adicional de esta técnica es que las funciones externas pueden
-  utilizar la variable this referida al elemento que original el evento.
-* Asignar la función manejadora mediante DOM es un proceso que requiere una
-  explicación detallada. En primer lugar, se obtiene la referencia del elemento
-  al que se va a asignar el manejador:
+* Atribuir um identificador único ao elemento XHTML por meio do atributo `id`;
+* Criar uma função de JavaScript encarregada de manipular o evento;
+* Atribuir a função a um evento concreto do elemento XHTML por meio do DOM;
+
+Outra vantagem adicional desta técnica é que as funções externas podem utilizar
+a variável `this` referente ao elemento que disparou o evento.
+
+Atribuir a função manipuladora por meio do DOM é um processo que requer uma
+explicação detalhada. Em primeiro lugar, obtemos a referência do elemento ao
+qual vamos atribuir o manipulador:
 
 ```js
-document.getElementById('pinchable');
+document.getElementById('clicavel');
 ```
 
-A continuación, se asigna la función externa al evento deseado mediante una
-propiedad del elemento con el mismo nombre del evento:
+Em seguida, é atribuída a função externa ao evento desejado por meio de uma
+propriedade do elemento com o mesmo nome do evento:
 
 ```js
-document.getElementById('pinchable').onclick = ...
+document.getElementById('clicavel').onclick = ...
 ```
 
-Por último, se asigna la función externa. Como ya se ha comentado en capítulos
-anteriores, lo más importante (y la causa más común de errores) es indicar
-solamente el nombre de la función, es decir, prescindir de los paréntesis al
-asignar la función:
+Por fim, atribuímos a função externa. Como já comentamos em capítulos
+anteriores, o mais importante (e a causa mais comum de erros) é indicar somente
+o nome da função, ou seja, dispensar os parênteses ao atribuir a função:
 
 ```js
-document.getElementById('pinchable').onclick = muestraMensaje;
+document.getElementById('clicavel').onclick = exibirMensagem;
 ```
 
-Si se añaden los paréntesis al final, en realidad se está invocando la función
-y asignando el valor devuelto por la función al evento `onclick` de elemento.
+Se os parênteses são adicionados, na verdade estamos invocando a função e
+atribuindo o valor devolvido pela função ao evento `onclick` do elemento.
 
-El único inconveniente de este método es que los manejadores se asignan
-mediante las funciones DOM, que solamente se pueden utilizar después de que la
-página se ha cargado completamente. De esta forma, para que la asignación de
-los manejadores no resulte errónea, es necesario asegurarse de que la página
-ya se ha cargado.
+O único inconveniente deste método é que os manipuladores são atribuídos por
+meio das funções DOM, que podem somente ser utilizadas após o carregamento
+completo da página. Dessa maneira, para que a atribuição dos manipuladores não
+cause erro, é necessário ter certeza de que a página está carregada.
 
-Una de las formas más sencillas de asegurar que cierto código se va a ejecutar
-después de que la página se cargue por completo es utilizar el evento `onload`
+Uma das formas mais simples de garantir que certo código será executado após o
+carregamento total da página é utilizar o evento `onload`
 
 ```js
 window.onload = function () {
-  document.getElementById('pinchable').onclick = muestraMensaje;
+  document.getElementById('clicavel').onclick = exibirMensagem;
 }
 ```
 
-La técnica anterior utiliza una función anónima para asignar algunas
-instrucciones al evento onload de la página (en este caso se ha establecido
-mediante el objeto `window`). De esta forma, para asegurar que cierto código
-se va a ejecutar después de que la página se haya cargado, sólo es necesario
-incluirlo en el interior de la siguiente construcción
+A técnica anterior utiliza uma função anônima para atribuir algumas instruções
+ao evento `onload` da página (neste caso utilizando o objeto `window`). Desta
+forma, para garantir que certo código será executado após o carregamento da
+página, só é necessário incluí-lo no interior da seguinte estrutura:
 
 ```js
 window.onload = function () {

@@ -1,86 +1,86 @@
-# Modificando atributos desde el DOM
+# Modificando atributos do DOM
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `120min`
 
-## Objetivos de Aprendizaje
+***
 
-En esta unidad aprenderemos:
+## Objetivos de Aprendizagem
 
-- Cómo manipular atributos que utilizan la interfaz `HTMLElement` desde el DOM.
+Nesta unidade aprenderemos:
+
+- Como manipular atributos que utilizam a interface `HTMLElement` do DOM.
   * `.id`
   * `.src`
   * `.className`
-- Cómo manipular atributos que no utilizan la interfaz `HTMLElement`.
+- Como manipular atributos que não utilizam a interface `HTMLElement`.
   * `getAttribute()`
   * `setAttribute()`
-- Cómo modificar atributos CSS desde el DOM
+- Como modificar atributos CSS do DOM
   * `.style.property`
 
 ***
 
 ### Atributos
 
-Además de modificar el contenido del nodo o el nodo mismo, también podemos
-modificar los atributos del nodo, conocer el valor o valores que tienen y
-asignar valores distintos.
+Além de modificar o conteúdo do nó ou o próprio nó, também podemos buscar os
+atributos do nó, buscar os seus valores e modificá-los.
 
-Los atributos con los que podemos trabajar directamente son los que utilizan la
-interfaz `HTMLElement`.
+Os atributos que podemos trabalhar diretamente são os que utilizam a interface
+`HTMLElement`.
 
-![Nodos](http://blog.eamexicano.com/wp-content/uploads/2014/02/atributos.png)
+
+![Nodos](https://user-images.githubusercontent.com/11894994/59519308-f8ff4780-8e9d-11e9-96aa-edd666cb3aa8.png)
 
 ```js
 const paragraph = document.getElementById('paragraph');
 /*
- * Para obtener el valor asignado utilizamos el nodo seguido del atributo que
- * queremos obtener
+ * Para obter o valor designado utilizamos o nós seguido do
+ * atributo que queremos obter
  */
 paragraph.id;
 /*
- * Para asignar valor o valores además del nombre del atributo se le asigna el o
- * los valores
+ * Para atribuir o valor ou valores ao atributo, chame o nome do
+ * atributo e designe o valor
  */
 paragraph.className = 'nueva-clase';
 /*
- * Se utiliza `.className` para hacer referencia al atributo `class`. En
- * JavaScript, class es una palabra reservada.
-*/
+ * É utilizado ".className" para fazer referência ao atributo class.
+ * Pois no JavaScript class é uma palavra reservada
+ */
 ```
 
-Habrá ocasiones en que necesitamos trabajar con atributos que no son parte de
-la interfaz `HTMLElement`. Para esos casos existen dos métodos:
-`.setAttribute()` y `.getAttribute()`.
+Haverá momentos em que precisaremos trabalhar com atributos que não fazem parte da interface HTMLElement. Para esses casos, existem dois métodos: `.setAttribute()` e `.getAttribute().`
 
-#### setAttribute('atributo', 'valor')
+#### setAttribute ('atributo', 'valor')
 
-Crea un atributo y establece un valor.
+Cria um atributo e define um valor.
 
-#### getAttribute('atributo')
+#### getAttribute ('atributo')
 
-Obtiene el valor del atributo.
+Obtém o valor do atributo.
 
 ```html
 <img id='image'
-  src="http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png"
+  src="https://user-images.githubusercontent.com/11894994/59519308-f8ff4780-8e9d-11e9-96aa-edd666cb3aa8.png"
   alt="DOM - innerHTML" width="100%"  />
 ```
 
 ```js
 const image = document.getElementById('image');
 
-// Devuelve el tamaño de la imagen en px
+// Retorna o tamanho da imagem em px
 image.width;
 image.height;
 
-// Devuelve el tamaño de la imagen como está especificado  en la etiqueta
+// Retorna o tamanho da imagem como está especificado na tag
 image.getAttribute('width');
 image.getAttribute('height');
 
 /*
- * Si queremos asignar un tamaño a la imagen que no sea en px tenemos que
- * utilizar `.setAttribute()`
+ * Se quisermos atribuir um tamanho à imagem que não seja em px temos que
+ * utilizar '.setAttribute()'
  */
 image.width = '50%';
 image.height = 'auto';
@@ -89,25 +89,25 @@ image.setAttribute('width', '50%');
 image.setAttribute('height', 'auto');
 ```
 
-## Manipulando estilos CSS por Javascript
+## Manipulando CSS pelo Javascript
 
-A diferencia de la mayoría de los otros atributos, la propiedad de estilo en sí
-es un objeto, que contiene propiedades.
+É um pouco diferente da maioria dos outros atributos, pois a propriedade de
+estilo é um objeto, que irá conter as propriedades de CSS dentro dela.
 
 ### style
 
-Esta propiedad se utiliza para mostrar, para establecer, modoficar o elimiar el
-estilo del nodo sobre el que se esté utilizando.
+Esta propriedade é usada para exibir ou definir o estilo do nó no qual está
+sendo usado.
 
 - Sintaxis
 
   ```js
-  elemento.style.propiedad = valor;
+    elemento.style.propriedade = valor;
   ```
 
-Tomar en cuenta que las propiedades de CSS que están separadas por un guión
-(`font-family`, `font-size`, `border-bottom`) tienen que ser escritas con
-notación _lowerCamelCase_ (`fontFamily`, `fontSize`, `borderBottom`).
+Tenha em mente que as propriedades CSS que são separadas por um hífen
+\(`font-family`, `font-size`, `border-bottom`\) deve ser escrito notação
+_lowerCamelCase_ \(`fontFamily`, `fontSize`, `borderBottom`\).
 
 ```js
 const paragraph  = document.getElementById('paragraph');
@@ -116,4 +116,4 @@ paragraph.style.color = 'rgb(242, 242, 242)';
 paragraph.style.fontFamily = 'helvetica';
 ```
 
-![Styles in JS](http://blog.eamexicano.com/wp-content/uploads/2014/02/style.png)
+![Styles in JS](https://user-images.githubusercontent.com/11894994/59519792-0a951f00-8e9f-11e9-970a-81558d6b8baa.png)

@@ -1,47 +1,46 @@
-# Redibujo del navegador
+# Redesenho do navegador
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `10min`
 
 ***
 
-Con la llegada de las aplicaciones ricas de internet (RIA: Rich Internet
-Applications), nuestras páginas requieren mejor experiencia de usuario, lo que
-lleva a un mayor manejo del DOM con largas hojas de código `javascript`,
-animaciones, etc. Pero esto lleva a un problema que no siempre se prevé antes
-de desarrollar y de pronto todo empieza a funcionar lento o se come la memoria
-de la maquina del cliente.
+Com a chegada das aplicações ricas da internet (RIA: *Rich Internet
+Applications*), nossas páginas exigem uma melhor experiência para o usuário, o
+que leva a uma maior manipulação do DOM com muitas instruções `javascript`,
+animações, etc. Mas isto ocasiona um problema que nem sempre é previso antes do
+desenvolvimento e rapidamente tudo começa a funcionar lentamente ou consumindo
+muita memória na máquina do cliente.
 
-## Es útil entender cuándo se activan los re-flow
+## É útil entender quando se ativam os re-flow
 
-1.- Adición, eliminación o cambio de elementos DOM visibles.
+1. Adição, exclusão ou modificação de elementos do DOM visíveis.
 
-> La primera es obvia, el uso de JavaScript para cambiar el DOM provocará un
-re-flow.
+> A primeira é óbia, o uso de JavaScript para alterar o DOM provocará o um
+> re-flow.
 
-2.- Adición, eliminación o cambio de estilos CSS.
+2. Adição, exclusão ou modificação dos estilos de CSS.
 
-> Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede
-> alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los
-> elementos de la misma rama DOM y a los que la rodean.
+> Da mesma maneira que no JavaScript, aplicar diretamento os estilos, alterar
+> alguma classe ou propriedade, prococará um re-flow daquele ramo do DOM
 
-3.- Animaciones y transiciones CSS3.
+3. Animações e transições CSS
 
->Cada marco de la animación causará un reflujo.
+> Cada alteração na animação causará um re-flow
 
-4.- Uso de `offsetWidth` y `offsetHeight`.
+4. Uso de `offsetWidth` e `offsetHeight`
 
-> Curiosamente, leer la propiedad `offsetWidth` y `offsetHeight` de un elemento
-> puede desencadenar un reflow inicial para calcular las cifras.
+> Curiosamente, ler a propriedade `offsetWidth` e `offsetHeight` de um elemento
+> pode desencadear um re-flow inicial para calcular as estruturas.
 
-5.- Acciones de usuario
+5. Ações do usuário
 
-> Finalmente, el usuario puede activar los re-flow activando un efecto `hover`,
-> ingresando texto en un campo, cambiando el tamaño de la ventana, cambiando las
-> dimensiones de fuente, cambiando hojas de estilo o fuentes.
+> Finalmente, o usuário pode ativar os re-flow, como por exemplo ativando um
+> efeito de `hover`, adicionando texto ao um campo, alterando o tamanho de uma
+> tela, etc.
 
-El caudal de flujo de procesamiento de re-flow variará. Algunos navegadores
-son mejores que otros en ciertas operaciones. Algunos elementos generan más
-re-flow que otros. Afortunadamente, hay varios consejos generales que puede
-utilizar para [mejorar el rendimiento](https://developers.google.com/speed/docs/insights/browser-reflow).
+Cada fluxo de processamento de re-flow varia. Alguns navegadores são melhores
+que outros em alguns operações. Alguns elementos geram mais re-flow que outros.
+Felizmente, existem várias maneiras de [melhorar o
+rendimento](https://developers.google.com/speed/docs/insights/browser-reflow).
