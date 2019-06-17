@@ -46,7 +46,7 @@ familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/) y
 [MySQL](https://www.mysql.com/).
 
-La clienta nos ha dado un [link a la documentación](https://documenter.getpostman.com/view/1721181/RWgozeom)
+La clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
 que especifica el comportamiento esperado de la API que expondremos por
 HTTP.  Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
 implementar  la aplicación, qué parámetros esperan, qué deben responder, etc.
@@ -111,7 +111,7 @@ usarlas como guía de implementación y checklist de completitud.
 
 ### 5.1 API
 
-Según lo establecido por la [documentación](https://documenter.getpostman.com/view/1721181/RWgozeom)
+Según lo establecido por la [documentación](https://laboratoria.github.io/burger-queen-api/)
 entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 
 #### 5.1,1 `/`
