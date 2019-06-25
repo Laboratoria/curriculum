@@ -1,164 +1,158 @@
-# AJAX con fetch
+# AJAX com fetch
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de aprendizagem
 
-- Aprender cómo hacer llamadas asíncronas con Javascript moderno
-- Revisar fetch y sus funcionalidades
-- Usar promesas para encadenar varias llamadas http, o hacerlas en paralelo
+- Aprender como fazer chamas assíncronas com JavaScript moderno
+- Revisão de fetch e suas funcionalidades
+- Usar promessas para encadear várias chamadas http, ou fazer em paralelo
 
-## Alternativa a XHR y JQuery, pero solo con javascript puro
+## Alternativa ao XHR e JQuery com JavaScript puro
 
-Cuando usamos XHR vemos que se vuelve tedioso hacer peticiones. Tenemos que
-poner un montón de código para que recién funcione, además estamos en la
-obligación de usar callbacks, que rápidamente puede resultar en nuestro código
-transformado en espagueti.
+Quando usamos o XHR, vemos que se torna tedioso fazer requisições. Temos que
+colocar um monte de código para que tudo funcione e também temos a obrigação de
+usar callbacks, o que rapidamente pode resultar em um código espaguete.
 
-¿qué sucede si queremos hacer varias peticiones al mismo tiempo?
+O que acontece se quisermos fazer várias solicitações ao mesmo tempo?
 
-¿qué pasa si necesitamos datos de una llamada, para luego hacer otra, y otra?
+O que acontece se precisarmos dos dados de uma chamada em uma outra chamada?
 
-Por suerte para nosotras actualmente existe `fetch`, implementado por la mayoría
-de los navegadores (excepto _Internet Explorer_ y _Safari_), que usa *Promesas*
-para retornar los resultados, lo que trae como beneficio inmediato el no tener
-que depender de _callbacks_ para recibir las respuestas de las peticiones. El
-usar promesas también nos permite anidarlas o ejecutarlas en paralelo, haciendo
-nuestro código mucho más ordenado. Ahora, mucha charla, mejor veamos cómo usarla
-y algunos ejemplos.
+Para a nossa sorte o `fetch` está aqui, e já foi implementado pela maioria
+(exceto _Internet Explorer_). Com ele você pode utilizar _promises_ para
+retornar os resultados, só de não depender de _callbacks_ já é um benefício.
+Usar promessas também nos permite aninhar e exercutar elas em paralelo, deixando
+o nosso código muito mais ordenado. Agora, vamos ver como usar.
 
 ## Uso básico de fetch
 
 ```js
 fetch(url).then((response) => {
   if (response.status !== 200) {
-    // Código cuando recibimos una respuesta corréctamente del servidor
+    // O status de 200 é uma resposta de que deu tudo certo no servidor
   } else {
-    // Código en caso de que nos respondan con algún error
+    // Caso respodam com algum erro
   }
 }).catch((error) => {
-  /* Código en caso de que la llamada falle
-   * Como cuando el usuario NO tiene internet, o se haya cortado la
-   * comunicación.
+  /*
+   * Código em caso de erro na chamada.
+   * Como por exemplo quando cai da internet
    */
 });
 ```
 
-Como podemos ver, lo único que debemos proveer a fetch es la URL a la que
-llamaremos, luego a través de `then` escribimos la función que recibirá la
-respuesta desde el servicio. La diferencia con XHR o JQuery acá, es que
-cualquiera sea la respuesta, esta llegará a la función que colocas en `then`. La
-promesa solo fallará (pasando a ejecutar la función que está en `catch`) si es
-que hay algún problema con la conexión o no se recibe respuesta alguna.
+Como vimos a cima, a única coisa que de precisamos passar o o `fetch` é a URL
+que quermos chamar, logo depois usamos o `then` para receber a respostas da
+requisição. A diferença do `fetch` para o `XHR` e `JQuery` é que independente da
+resposta, ela chegará na `then` podendo ser um erro ou um sucesso. A promessa
+apenas irá falhar (passando pelo `catch`) se houver algum problema com a conexão
+ou se não receber nenhuma resposta.
 
-Observa también que la respuesta llega como un objeto `response`, que contiene
-el estado HTTP de la respuesta.
+Veja também que a respostas chega em um objeto `response` que contém o estado
+HTTP da resposta.
 
-Ahora, como vimos antes, muchas **API** usan el formato JSON para comunicar los
-datos, en el caso de `fetch`, tenemos que hacer solo un paso extra para obtener
-el JSON :
+Muitas **APIs** usam o formato `JSON` como o tipo de resposta, para isso temos
+que fazer um passo a mais:
 
 ```js
+
 fetch(url).then((response) => {
   if (response.status !== 200) {
+    // O status de 200 é uma resposta de que deu tudo certo no servidor
     return response.json();
-    // Solo si es que sabemos que la respuesta es JSON, o fallará
   } else {
-    // Código en caso de que nos respondan con algún error
+    // Caso respodam com algum erro
   }
-}).then((respuestaJson) => {
-  // Código que usa el JSON
+}).then((responseJSON) => {
+  // Codígo que irá usar o JSON
 }).catch((error) => {
-  /* Código en caso de que la llamada falle
-   * Como cuando el usuario NO tiene internet, o se haya cortado la
-   * comunicación.
+  /*
+   * Código em caso de erro na chamada.
+   * Como por exemplo quando cai da internet
    */
-});
+
 ```
 
-Como vemos, `response.json()` también retorna una promesa (todo es muy
-asíncrono), pero obtener el JSON queda bastante cómodo a través de un segundo
-`then` que nos da el JSON que nos devuelve la API finalmente.
+Como vimos, `response.json()` também retorna uma promessa (tudo é assíncrono),
+mas para obter o JSON precisamos de um segundo `then` para nos retornar o JSON
+que a API envia.
 
-Si la URL en cambio, no responde con un JSON, si no que con una imagen, por
-ejemplo, entonces debemos usar el método acorde :
+Se a URL responder com um JSON, ou com uma imagem, ou com um texto, podemos
+usar:
 
 ```js
-response.json() //Para respuestas en JSON
-response.blob() //Para archivos binarios como imágenes
-response.text() //Para respuestas en texto simple y plano
+response.json() //Para resposta deJSON
+response.blob() //Para arquivos binários como imagens
+response.text() //Para respotas em texto simples
 ```
 
-Todos los métodos anteriores funcionan con promesas, así que hay que anidar
-las funciones `then` acorde a esto.
+Todos os métodos anteriores funcionam com promessas, com isso você terá que
+utilizar funções `then` para todas elas.
 
-Puede que hacer todo así parezca más trabajo, o mucho más código que en las
-soluciones anteriores, pero ahora veremos que para hacer llamadas una tras otra,
-o incluso hacer peticiones en paralelo, esta es la mejor opción de todas.
+Pode parecer muito mais trabalhoso, ou muito mais código do que nas soluções
+anteriores, mas agora vamos ver como fazer uma chamada depois da outra. E até
+fazer chamadas em paralelo.
 
-## Llamadas sucesivas con fetch
+## Chamada sucessiva com fetch
 
-Muchas veces cuando estamos usando una API, necesitamos ciertos datos de una
-llamada para poder hacer la siguiente y así. Gracias a que `fetch` usa promesas
-esto se vuelve mucho más fácil y natural, veamos un ejemplo :
+Muitas vezes quando estamos usando uma API, precisamos de certos dados de uma
+chamada anterior. Graças ao `fetch` isso irá ficar muito mais fácil e natural,
+vejamos o exemplo:
 
 ```js
 fetch(url1).then((response) => {
   if (response.status == 200) {
     return response.json();
   } else {
-    throw new Error("La llamada a la API falló");
+    throw new Error("Primeira chamada falhou");
   }
 }).then((jsonData) => {
-  return fetch(jsonData.url); // Supongamos que obtenemos otra url de los datos
+  return fetch(jsonData.url); // Imagina que precisamos da url da resposta da primeira requisição
 }).then((response) => {
   if (response.status == 200){
     return response.json();
   } else {
-    throw new Error("La segunda llamada a la API falló");
+    throw new Error("Segunda chamada falhou");
   }
 }).then((jsonData) => {
-  // Código que procesa los datos de la segunda llamada
+  // Código que irá utilizar o json da segunda chamada
 }).catch((error) => {
-  // Código que se ejecuta en caso de **cualquier** error
+  // Código executado em caso de erro
 });
 ```
 
-Como vemos, podemos aprovechar todo el poder de las promesas para poder hacer
-una tras otras las peticiones, de una forma ordenada, sin caer en
-_callback hell_ (callbacks dentro de callbacks dentro de callbacks...). Otra
-cosa que ganamos al hacer las llamadas de esta forma es que concentramos todo el
-código que maneja errores en solo una función que se coloca en `catch`.
+Como vimos, podemos aproveitar todo o poder das promessas para fazer uma chamada
+depois da outra, de uma maneira ordenada e sem cair em um _callback hell_
+(callback dentro de callback). Outra coisa que ganhamos ao fazer as chamadas
+desta forma é que os erros irão retornar dentro da função `.catch`.
 
-## Muchas llamadas a la vez
 
-Otro caso muy común mientras programamos nuestras aplicaciones es que
-necesitemos de varias peticiones a API, o recursos de la internet, como
-imágenes, todo al mismo tiempo. En estos casos, nuevamente, gracias a que
-`fetch` usa promesas para retornar los resultados, es que podemos aprovecharnos
-de ellas para hacer cosas como la siguiente :
+## Muitas chamadas de uma vez
+
+Outro caso muito comum que ocorre quando estamos programando, é precisar chamar
+várias APIs de uma vez. E o `fetch` mais uma vez poderá nos ajudar com isso,
+veja os exemplos a seguir:
 
 ```js
-const llamadas = [];
-llamadas.push(fetch(url1));
-llamadas.push(fetch(url2));
-llamadas.push(fetch(url3));
+const chamadas = [];
+chamadas.push(fetch(url1));
+chamadas.push(fetch(url2));
+chamadas.push(fetch(url3));
 
-Promise.all(llamadas).then((responses) => {
+Promise.all(chamadas).then((responses) => {
   return responses.map(response => response.json());
-  // En caso de que sean llamadas a api
+  // Caso todas devam retornar JSON
 }).then((jsonResponses) => {
-  // Código que maneja las múltiples llamdas y sus respuestas en JSON
+  // Código para manipular todas as chamadas
 }).catch((error) => {
-  // Código que maneja errores
+  // Código para lidar com os erros
 });
 ```
 
-Como vemos, el código es mucho más directo y corto que si usaramos XHR o JQuery
-para hacer lo mismo. Otra cosa es el uso de map, que recorre todas las
-respuestas y devuelve un arreglo con las promesas de extraer la respuesta en
-JSON.
+Como vimos, este código é muito mais direto e simples do que usar XHR ou JQuery
+para fazer o mesmo. E com a ajuda do `map`, conseguimos transformar todas as
+respostas em objetos JSON.

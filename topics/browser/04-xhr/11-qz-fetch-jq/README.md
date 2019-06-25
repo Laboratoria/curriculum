@@ -1,24 +1,22 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `15min`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de se auto-avaliar para que teste seus
+  conhecimentos. É uma oportunidade para ajustes e validação do seu aprendizado.
+  Sucesso!
 
-***
+## Perguntas
 
-## Preguntas
+### 1) Quais métodos podemos usar para fazer uma solicitação GET usando JQuery?
 
-### 1) ¿Qué métodos podemos usar para hacer una petición GET usando JQuery?
-
-#### Opciones
+#### Opções
 
 1. `$.get()`
 2. `$.post()`
@@ -27,9 +25,9 @@
 
 <solution style="display:none;">1, 3, 4</solution>
 
-### 2) ¿Con qué trabaja fetch para entregar las respuestas?
+### 2) Com o que o fetch trabalha para entregar as respostas?
 
-#### Opciones
+#### Opções
 
 1. Callbacks
 2. Eventos
@@ -38,33 +36,35 @@
 
 <solution style="display:none;">3</solution>
 
-### 3) ¿Qué método podemos encadenar en una petición AJAX con jQuery para controlar los errores?
+### 3) Qual método podemos encadear em uma solicitação AJAX com JQuery para controlar erros?
 
-#### Opciones
+#### Opções
 
 1. `.fail()`
 2. `.done()`
 3. `.error()`
 4. `.load()`
 
-### 4) ¿cómo manejamos errores al hacer una petición con fetch?
+<solution style="display:none;">1</solution>
 
-#### Opciones
+### 4) Como manejamos erros os erros do fetch?
 
-1. A través de .catch(error => {//Manejo de error})
-2. A través de un callback de error
+#### Opções
+
+1. A través de .catch(error => {})
+2. A través de um callback de error
 3. Usando .error()
-4. Con try / catch
+4. Com try / catch
 
 <solution style="display:none;">1</solution>
 
-### 5) Si queremos hacer una llamada fetch tras otra en orden, entonces
+### 5) Se quisermos fazer uma chamada depois da outra usando fetch, você deve
 
-#### Opciones
+#### Opções
 
-1. usamos un ciclo `for` que itere por cada llamada
-2. usamos Funciones _callback_ dentro de otras
-3. las guardamos en un arreglo y usamos `map` para ejecutar cada una de ellas
-4. usamos promesas para hacer secuencialmente then().then()... catch()
+1. usar o laço `for` para iterar a cada chamada
+2. usar funções _callback_ uma dentro da outra
+3. guardar em um array e depois utilizar `.map` para executar cada chamada
+4. usar promessar e fazer um .then() depois do outro
 
 <solution style="display:none;">4</solution>

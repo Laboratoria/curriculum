@@ -53,12 +53,12 @@ As aplicações web de vanguarda como Flickr, GMail e Google Maps adotaram AJAX
 rapidamente. No lugar de ter que esperar para obter dados e atualizar a página
 completa, essas novas aplicações quase instantâneas eram incríveis.
 
-[Video AJAX](https://www.youtube.com/watch?v=_ybgWmSCAu8)
+[Video AJAX](https://www.youtube.com/watch?v=DAVOAzTX21U8)
 
 Na leitura e vídeo anteriores são mencionados JSON e XML. Vejamos este
 [link][https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
-para ler a respeito.
+em espanhol para ler a respeito.
 
 E por último terminamos com esta
 [leitura](https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72)
-que resume e explica com outras palavras o que é AJAX.
+em espanhol que resume e explica com outras palavras o que é AJAX.

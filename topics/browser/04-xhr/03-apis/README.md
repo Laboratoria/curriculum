@@ -31,7 +31,16 @@ segura e confiável.
 
 > **Há dados por aí que só esperam para serem utilizados.**
 
-![exemplosAPI](https://user-images.githubusercontent.com/11894994/59535872-78097580-8ec8-11e9-909a-34e4bcfa8e54.png)
+Exemplos de API:
+
+01. **Google Maps** através da sua API conseguimos pegar dados sobre os mapas,
+    criar rotas, buscar locais, e tudo isso dentro da nossa aplicação.
+02. Com a API **Twitter** você pode desenvolver muitas ferramentas, pois eles
+    possuem muitos serviços postar tweet, analisar as tendências e muitos
+    outros.
+03. **Facebook Connect** com está API você pode registar os usuários do facebook
+    no seu site ou em outros.
+04. A API do **Paypal** te permite fazer operações de pagamento através da web.
 
 [Google](https://developers.google.com/apis-explorer/#p/) conta com uma
 quantidade enorme de APIs. Podemos fazer uso de algumas delas ou buscar outros

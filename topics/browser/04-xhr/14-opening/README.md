@@ -1,36 +1,38 @@
-# Opening: A jugar con Web APIs
+# Abertura: Brincando com Web APIs!
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `15min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad vamos a practicar jugando con distintos tipos de Web APIs, con el
-objetivo de experimentar la extracción de datos sin autenticación, con un token
-generado, enviando datos a través de cabeceras HTTP, identificar cuando son
-RESTful y otros detalles que te darán superpoderes.
+Nesta unidade vamos praticar brincando com diferentes tipos de Web APIs, com o
+objetivo de experimentar a extração de dados sem autenticação, com um *token*
+gerado, enviando dados por meio de cabeçalhos HTTP, identificar quando são
+*RESTful* e outros detalhes que lhe darão superpoderes.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos
+mais importantes que vamos aprender e dos temas centrais a que devemos prestar
+atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de
+responder ao terminar esta unidade. Use estas perguntas como guia para orientar
+seu esforço de aprendizagem. Retorne a elas constantemente a medida que avança
+para validar que está indo na direção correta. Que este guia sirva como um
+"checklist" que você vai riscando conforme avança.
 
-- ¿Qué es un Web API?
-- Identificar cuáles APIs son públicas sin autenticación
-- Identificar cuáles APIs son públicas pero necesitan un API Key
-- ¿Qué es autenticación basada en tokens?
-- ¿Cómo enviar datos en las cabeceras HTTP usando AJAX?
-- ¿Qué es OAuth?
-- ¿Qué es REST?
-- ¿Cómo identificar una RESTful API?
-- ¿Qué es un CRUD?
+## Guia de perguntas e conceitos chaves
+
+- O que é uma Web API?
+- Identifique quais APIs são públicas sem autenticação.
+- Identifique quais APIs são públicas mas necessitam de uma API Key.
+- O que é autenticação baseada em *tokens*?
+- Como enviar dados nos cabeçalhos HTTP usando AJAX?
+- O que é OAuth?
+- O que é REST?
+- Como identificar uma RESTful API?
+- O que é um CRUD?

@@ -19,16 +19,15 @@ Este _tópico_ cubre JavaScript en el contexto del navegador.
 
 ## Syllabus
 
-### Unidad 01: [DOM](02-dom)
+### Unidade 01: [DOM](02-dom)
 
 ...
 
-### Unidad 02: [Browser APIs](03-browser-apis)
+### Unidade 02: [Browser APIs](03-browser-apis)
 
-En esta unidad nos enfocaremos en las APIs del navegador, tendrás una base
-para enfrentarte al variado universo de APIs que HTML5 trae consigo.
+...
 
-### Unidad 03: [Xhr](04-xhr)
+### Unidade 03: [Xhr](04-xhr)
 
 ...
 

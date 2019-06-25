@@ -77,7 +77,7 @@ Um pouco chato... então vamos enviar de fato a requisição.
 
 -->
 
-### 5) O método `.open ()` de um objeto XHR pode ter vários argumentos. Mas os mais importantes são:
+### 5) O método `.open()` de um objeto XHR pode ter vários argumentos. Mas os mais importantes são:
 
 #### Opções
 

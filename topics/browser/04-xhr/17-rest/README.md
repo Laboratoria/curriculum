@@ -1,66 +1,68 @@
 # RESTful APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Entender a grandes rasgos qué es REST y cómo detectar qué APIs son RESTful
+- Entender de forma geral o que é REST e como detectar quais APIs são RESTful.
 
-## Formato de contenido
+## Formato de conteúdo
 
 ### XML
 
-> Extensible Markup Language (XML) es un formato universal para datos y
-> documentos estructurados. Los archivos XML tienen una extensión de archivo de
-> `.xml`. Al igual que HTML, XML utiliza etiquetas (palabras delimitadas por los
-> caracteres `>` y `<`) para estructurar los datos del documento.
+> Extensible Markup Language (XML) é um formato universal para dados e
+>documentos estruturados. Os arquivos XML tem a extensão de arquivo `.xml`.
+>Assim como HTML, XML utiliza *tags* (palavras delimitadas pelos caracteres `<`
+>e `>`) para estruturar os dados do documento.
 >
-> ```xml
-> <?xml version="1.0" encoding=UTF-8"?>
-> <doc>
->    <customer id='123'>
->       <name>...</name>
->       <address>...</address>
->        ...
->       <order>
->          <amount>...</amount>
->             <date>...</date>
->          <item quant='12'>
->             <name>...</name>
->          </item>
->          <item quant='4'>...</item>
->           ...
->       </order>
->       <order>...</order>
->        ...
->       <payment>
->          <number>...</number>
->          <date>...</date>
->       </payment>
->       <payment>>...</payment>
->        ...
->    </customer>
->    <customer id='124'>...</customer>
-> </doc>
-> ```
+>```xml
+><?xml version="1.0" encoding=UTF-8"?>
+><doc>
+>  <customer id='123'>
+>     <name>...</name>
+>     <address>...</address>
+>      ...
+>     <order>
+>        <amount>...</amount>
+>           <date>...</date>
+>        <item quant='12'>
+>           <name>...</name>
+>        </item>
+>        <item quant='4'>...</item>
+>         ...
+>     </order>
+>     <order>...</order>
+>      ...
+>     <payment>
+>        <number>...</number>
+>        <date>...</date>
+>     </payment>
+>     <payment>>...</payment>
+>      ...
+>  </customer>
+>  <customer id='124'>...</customer>
+></doc>
+>```
 
-Fuente: [¿Qué es XML? - IBM](https://www.ibm.com/support/knowledgecenter/es/SSEPGG_8.2.0/com.ibm.db2.ii.doc/opt/c0007799.htm)
+Fonte: [O que é XML? -
+IBM](https://www.ibm.com/support/knowledgecenter/es/SSEPGG_8.2.0/com.ibm.db2.ii.doc/opt/c0007799.htm)
 
 ### JSON
 
-> JSON (JavaScript Object Notation) es un formato para el intercambios de datos,
-> básicamente JSON describe los datos con una sintaxis dedicada que se usa para
-> identificar y gestionar los datos. JSON nació como una alternativa a XML, el
-> fácil uso en javascript ha generado un gran numero de seguidores de esta
-> alternativa. Una de las mayores ventajas que tiene el uso de JSON es que puede
-> ser leído por cualquier lenguaje de programación. Por lo tanto, puede ser
-> usado para el intercambio de información entre distintas tecnologías.
+> JSON (JavaScript Object Notation) é um formato de dados. Basicamente, JSON
+> descreve os dados com uma sintaxe própria que se para validar e administrar os
+> dados. JSON nasceu como uma alternativa ao XML. O uso fácil em JavaScript
+> gerou um grande número de seguidores desta alternativa. Uma das maiores
+> vantagens do uso de JSON é poder ser lido por qualquer linguagem de
+> programação. Assim, pode ser utilizado para trocas de informação entre
+> diferentes tecnologias.
 
-Fuente: [¿Qué es y para qué sirve JSON? - GeekyTheory](https://geekytheory.com/json-i-que-es-y-para-que-sirve-json/)
+Fonte: [O que é e para que serve JSON? -
+GeekyTheory](https://geekytheory.com/json-i-que-es-y-para-que-sirve-json/)
 
 > ```json
 > {
@@ -106,99 +108,100 @@ Fuente: [¿Qué es y para qué sirve JSON? - GeekyTheory](https://geekytheory.co
 > }
 > ```
 
-Fuente: [Ejemplo - Trabajando con JSON - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
+Fonte: [Exemplo - Trabalhando con JSON -
+MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
-En el siguiente video, encuentras un resumen de formato de contenidos:
+No vídeo a seguir, você encontra um resumo do formato de conteúdos:
 
-[![Content Formatting](https://img.youtube.com/vi/hTdYO7tKh_k/0.jpg)](https://youtu.be/hTdYO7tKh_k)
+[![Content
+Formatting](https://img.youtube.com/vi/hTdYO7tKh_k/0.jpg)](https://youtu.be/hTdYO7tKh_k)
 
-Si quieres comparar un poco sobre estas 2 estructuras de información, aquí un
-video te lo resume:
+Se você quiser comparar um pouco essas 2 estruturas de dados, aqui há um vídeo
+de resumo:
 
-[![XML vs JSON](https://img.youtube.com/vi/95X-pHvGBnw/0.jpg)](https://youtu.be/95X-pHvGBnw)
+[![XML vs
+JSON](https://img.youtube.com/vi/95X-pHvGBnw/0.jpg)](https://youtu.be/95X-pHvGBnw)
 
-## Servicios Web
+## Serviços Web
 
 ### SOAP
 
-> SOAP (originalmente las siglas de Simple Object Access Protocol) es un
-> protocolo estándar que define cómo dos objetos en diferentes procesos pueden
-> comunicarse por medio de intercambio de datos XML. Este protocolo deriva de un
-> protocolo creado por Dave Winer en 1998, llamado XML-RPC. SOAP fue creado por
-> Microsoft, IBM y otros. Está actualmente bajo el auspicio de la W3C. Es uno de
-> los protocolos utilizados en los servicios Web.
+> SOAP (originalmente as siglas de Simple Object Access Protocol) é um protocolo
+> padrão que define como objetos em diferentes processos podem se comunicar por
+> meio de troca de dados XML. Esse protocolo deriva de um protocolo criado por
+> Dave Winer em 1998, chamado XML-RPC. SOAP foi criado pela Microsoft, IBM e
+> outros. Está atualmente sob o controle da W3C. É um dos protocolos mais
+> utilizados nos serviços web.
 
-Fuente: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol)
+Fonte: [SOAP -
+Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol)
 
 ### REST
 
-> "Representational State Transfer" o traducido a "Transferencia de presentación
-> de estado" es lo que se domina a REST. ¿Y eso es?, una técnica de arquitectura
-> de software usada para construir APIs que permitan comunicar a nuestro servidor
-> con sus clientes usando el protocolo HTTP mediante URIs lo suficientemente
-> inteligentes para poder satisfacer la necesidad del cliente.
->
-> - REST es STATELESS, es decir que cada petición que reciba nuestra API debe
->   perecer. Por ejemplo, no podemos RECORDAR un usuario logeado en el API
->   usando una sesión, esto es un PECADO ya que agotaría la memoria RAM de
->   nuestro servidor (10 mil usuarios conectados a nuestra API). Lo que correcto
->   es pasar un TOKEN para cada petición realizada al API, y el API deberá
->   validar si esta es correcta o no (por ahora no vamos hablar de técnicas para
->   generar el TOKEN, pero lo más común es usar una COOKIE).
-> - Se implementan RECURSOS para generar comunicación, es decir crea URIs únicas
->   que permiten al cliente entender y utilizar lo que está exponiendo.
->   Por ejemplo:
+> "Representational State Transfer" (ou traduzido para "Transferência de
+> Representação de Estado") é o que se denomina REST. E o que é isso? É uma
+> técnica de arquitetura de software para construir APIs que permitam o nosso
+> servidor comunicar-se com seus clientes usando protocolo HTTP mediante URIs
+> suficientemente inteligentes para satisfazer a necessidade do cliente.
+
+> - REST é STATELESS, ou seja, cada requisição que nossa API recebe deve morrer.
+>   Por exemplo, não podemos LEMBRAR um usuário logado na API usando uma sessão,
+>   isso é um PECADO já que usaria muita memória RAM de nosso servidor (10 mil
+>   usuários conectados em nossa API). O que é correto é passar um TOKEN para
+>   cada requisição realizada na API e a API deverá validar se ela está correta
+>   ou não (por enquanto, não vamos falar de técnicas para gerar o TOKEN, mas o
+>   mais comum é usar um COOKIE).
+> - São implementados RECURSOS para gerar comunicação, ou seja, criar URIs
+>   únicas que permitem ao cliente entender e utilizar o que estão expondo. Por
+>   exemplo:
 >   * `api.anexsoft.com/users/`
 >   * `api.anexsoft.com/users/1405`
-> - Cada petición realizada a nuestra API responde a un verbo, y dicho verbo a
->   una operación en común. Mediante los métodos HTTP hacemos las peticiones, lo
->   común es GET y POST, PUT y DELETE.
->   * **POST (create):** cuando mandamos información para insertar por ejemplo un
->     registro en la base de datos. La información es enviado en el cuerpo de la
->     petición, es decir que los datos no son visibles al usuario.
->     `POST /users`
->   * **GET (read):** es usado para modo lectura, por ejemplo: cuando queremos
->     listar a todos los usuarios de nuestra base de datos. Los parámetros son
->     enviados por la URL.
->     `GET /users`
->   * **PUT (update):** cuando queremos actualizar un registro. Actualizar la
->     información de un usuario X.
->     `PUT /users/:userId`
->   * **DELETE (delete):** cuando queremos eliminar un registro. Borrar un
->     usuario X de nuestra base de datos.
->     `DELETE /uses/:userId`
+> - Cada requisição realizada em nossa API responde a um verbo e este a uma
+>   operação em comum. Por meio dos métodos HTTP, fazemos as requisições. O
+>   comum é GET, POST, PUT e DELETE.
+>   * **POST (create):** quando enviamos informação para inserir um registro na
+>     base de dados, por exemplo. A informação é enviada no corpo da requisição,
+>     ou seja, os dados não são visíveis ao usuário. `POST /users`
+>   * **GET (read):** é utilizado para o modo de leitura. Por exemplo: quando
+>     queremos listar todos os usuários de nossa base de dados. Os parâmetros
+>     são enviados pela URL. `GET /users`
+>   * **PUT (update):** quando queremos atualizar um registro. Atualizar a
+>     informação de um usuário X. `PUT /users/:userId`
+>   * **DELETE (delete):** quando queremos apagar um registro. Eliminar um
+>     usuário X de nossa base de dados. `DELETE /uses/:userId`
 >
-> Con esto hemos mencionado algunas caracteristicas básicas de lo que es REST,
-> la cual podríamos decir que es un estándar para crear una REST Api o RESTFul.
+> Com isso mencionamos algumas características básicas do que é REST. Poderíamos
+> dizer que são um padrão para criar uma API REST ou RESTFul.
 
-Fuente: [¿Qué es REST? - Anexsoft](http://anexsoft.com/p/117/que-es-rest)
+Fonte: [O que é REST? - Anexsoft](http://anexsoft.com/p/117/que-es-rest)
 
-A continuación puedes ver un video que resume SOAP y REST:
+A seguir você pode ver um vídeo que resume SOAP e REST:
 
-[![Web Service Layer](https://img.youtube.com/vi/AyQboo5CycM/0.jpg)](https://youtu.be/AyQboo5CycM)
+[![Web Service
+Layer](https://img.youtube.com/vi/AyQboo5CycM/0.jpg)](https://youtu.be/AyQboo5CycM)
 
-Por convenciones, cada uno de los estándares usa un formato de contenido
-particular. En resumen, SOAP transfiere información a través de XML, mientras
-que REST frecuenta transferir datos usando JSON. Aquí tienes un video que resume
-este mensaje:
+Por convenção, cada um dos padrões usa um formato de conteúdo particular. Em
+resumo, SOAP transfere informação por meio de XML, enquanto REST transfere dados
+usando JSON. Aqui temos um vídeo que resume esta mensagem:
 
-[![SOAP vs REST](https://img.youtube.com/vi/aI1DSeZAEMA/0.jpg)](https://youtu.be/aI1DSeZAEMA)
+[![SOAP vs
+REST](https://img.youtube.com/vi/aI1DSeZAEMA/0.jpg)](https://youtu.be/aI1DSeZAEMA)
 
-## Conclusión
+## Conclusão
 
-¿No te quedó claro que son RESTful APIs? Mientras REST es un estándar, la
-implementación de éste en un API, viene a ser los RESTful APIs. Si bien al
-diseñar un API hay muchas más cosas que se toman en cuenta, la principal es que
-te enfoques en cómo se obtienen los recursos y así poder identificar los métodos
-y URIs necesarias para consumir el API.
+Não ficou claro para você o que são RESTful APIs? Enquanto REST é um padrão, a
+implementação deste é uma API, que vem a ser as APIs RESTful. Embora ao projetar
+uma API haja muitas coisas mais para levar em conta, a principal é que você se
+concentre em como se obtém os recursos e assim poder identificar os métodos e
+URIs necessárias para consumir a API.
 
-Ejemplos de RESTful APIs son:
+Exemplos de RESTful APIs são:
 
 - [Stripe](https://stripe.com/docs/api/php)
 - [Instagram](https://www.instagram.com/developer)
 - [Spotify](https://developer.spotify.com/web-api/)
 - [Lyft](https://developer.lyft.com/docs/overview)
-- Muchas más!
+- Muitas mais!
 
-Si quieres saber más sobre REST, aquí un [tutorial](http://www.restapitutorial.com/)
-que te puede ayudar.
+Se você quiser saber mais sobre REST, aqui tem um
+[tutorial](http://www.restapitutorial.com/) que pode te ajudar.
