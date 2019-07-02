@@ -84,7 +84,7 @@ fi
 hasFailures=0
 
 
-# Push projects to API??
+# Push projects to API
 for file in `ls build/projects`; do
   key=${file:3:-5}
   echo "Publishing project ${key}..."
@@ -112,7 +112,6 @@ done
 
 
 # Push topics to API
-# Push _courses_ (topics) to firestore (legacy)????
 for file in `ls build/topics`; do
   key=${file:0:-5}
   echo "Publishing topic ${key}..."
