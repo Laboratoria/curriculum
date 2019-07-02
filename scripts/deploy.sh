@@ -1,6 +1,13 @@
 #! /usr/bin/env bash
 
 
+# Deploy script should only run on Node v12 build!
+if [[ "$TRAVIS_NODE_VERSION" != "12" ]]; then
+  echo "Not Node.js v12. Ignoring..."
+  exit 0;
+fi
+
+
 production="https://api.laboratoria.la"
 staging="https://laboratoria-la-staging.firebaseapp.com"
 version=$( node -e "console.log(require('./package.json').version)" )
