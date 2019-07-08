@@ -1,25 +1,24 @@
 describe('cipher', () => {
 
-  it('debería ser un objeto', () => {
+  it('should be an object', () => {
     assert.equal(typeof cipher, 'object');
   });
 
   describe('cipher.encode', () => {
 
-    it('debería ser una función', () => {
+    it('should be a function', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
+    it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
       assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
-    
+
     // Hacker edition
     //
-    // Si decides agregar soporte para minúsculas descomenta el test a
-    // continuación.
+    // If you decide to add tests for lowercase, uncomment the test below.
     //
-    // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
+    // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
     //   assert.equal(
     //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'),
     //     'hijklmnopqrstuvwxyzabcdefg'
@@ -29,30 +28,30 @@ describe('cipher', () => {
     //
     // Hacker edition
     //
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
+    // If you decide to add tests for non-alphabetical characters, uncomment
+    // the test below.
     //
-    // it('debería retornar " !@" para " !@"', () => {
+    // it('should return " !@" for " !@"', () => {
     //   assert.equal(cipher.encode(33, ' !@'),' !@');
     // });
   });
 
   describe('cipher.decode', () => {
 
-    it('debería ser una función', () => {
+    it('should be a function', () => {
       assert.equal(typeof cipher.decode, 'function');
     });
 
-    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
+    it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
       assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
+
     //
     // Hacker edition
     //
-    // Si decides agregar soporte para minúsculas descomenta el test a
-    // continuación.
+    // If you decide to add tests for lowercase, uncomment the test below.
     //
-    // it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
+    // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
     //   assert.equal(
     //     cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'),
     //     'abcdefghijklmnopqrstuvwxyz'
@@ -62,10 +61,10 @@ describe('cipher', () => {
     //
     // Hacker edition
     //
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
+    // If you decide to add tests for non-alphabetical characters, uncomment
+    // the test below.
     //
-    // it('debería retornar " !@" para " !@"', () => {
+    // it('should return " !@" para " !@"', () => {
     //   assert.equal(cipher.decode(33, ' !@'),' !@');
     // });
   });
