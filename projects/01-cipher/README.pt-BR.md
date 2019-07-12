@@ -120,10 +120,10 @@ A interface deve permitir ao usuário:
 * `src/cipher.js`: aqui você deve implementar o objeto cipher, o qual deve estar
   _exportado_ no objeto global (`window`). Este objeto (`cipher`) deve conter
   dois métodos:
-    - `cipher.encode(offset, string)`: `offset` é o número de posições que
+  - `cipher.encode(offset, string)`: `offset` é o número de posições que
       queremos mover para a direita no alfabeto e `string` a mensagem (texto)
       que quemos cifrar.
-    - `cipher.decode(offset, string)`: `offset` é o número de posições que
+  - `cipher.decode(offset, string)`: `offset` é o número de posições que
       queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
       que queremos decifrar.
 * `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
@@ -290,7 +290,6 @@ projeto. Escute com atenção e siga seus conselhos ! :)
 
 [![Dicas Cifra de
 César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
-
 
 Desenho da experiência do usuário (User Experience Design):
 
