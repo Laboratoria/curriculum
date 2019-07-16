@@ -1,118 +1,118 @@
 # Quiz
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção você terá a oportunidade de se auto-avaliar para que teste seus
+  conhecimentos. É uma oportunidade para ajustes e validação do seu aprendizado.
+  Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Para qué usamos el método `GET`?
+### 1) Para que usamos o método `GET`?
 
-#### Opciones
+#### Opções
 
-1. Para confirmar que se puede establecer comunicación con el servidor
-2. Para recuperar datos
-3. Para el manejo de errores
-4. Para enviar datos
+1. Para confirmar que é possível estabelecer comunicação com o servidor.
+2. Para recuperar dados.
+3. Para manipulação de erros.
+4. Para enviar dados.
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Para qué usamos el método `POST`?
+### 2) Para que usamos o método `POST`?
 
-#### Opciones
+#### Opções
 
-1. Para confirmar que se puede establecer comunicación con el servidor
-2. Para recuperar datos
-3. Para el manejo de errores
-4. Para enviar datos
+1. Para confirmar que é possível estabelecer comunicação com o servidor.
+2. Para recuperar dados.
+3. Para a manipulação de erros.
+4. Para enviar dados.
 
 <solution style="display:none;">4</solution>
 
-### 3) XHR es la abreviación de
+### 3) XHR é a abreviação de
 
-#### Opciones
+#### Opções
 
-1. XMLHttpRequest
-2. Asynchronous JavaScript And XML
-3. AJAX
-4. Response Hipertext Xml
+1. XMLHttpRequest.
+2. Asynchronous JavaScript And XML.
+3. AJAX.
+4. Response Hipertext Xml.
 
 <solution style="display:none;">1</solution>
 
-### 4) Si en tu consola del navegador pones este código, ¿qué sucede?
+### 4) Vá ao Google, abra suas `developer tools` e execute o seguinte no console
 
 ```javascript
 const req = new XMLHttpRequest();
 req.open('GET', 'https://www.google.com/');
 ```
 
-¿Qué sucede?
+O que acontece?
 
-#### Opciones
+#### Opções
 
-1. La página de inicio de Google se abre en el navegador
-2. Una solicitud asíncrona es enviada a `https: // www.google.com`
-3. No pasa nada
-4. Se produce un error
+1. A página de início do Google se abre no navegador.
+2. Uma requisição assíncrona é enviada a `https://www.google.com`
+3. Nada acontece.
+4. Acontece um erro.
 
 <solution style="display:none;">3</solution>
 
 <!--
 
-Explanation:
+Explicação:
 
-The XHR's .open() method does not actually send the request! It sets the stage
-and gives the object the info it will need when the request is actually sent.
-bit anti-climactic… So let's actually send the request!
+O método .open() do XHR não envia de fato a requisição! Ele configura o estado e
+dá ao objeto a informação que será necessária quando o request de fato acontece.
+Um pouco chato... então vamos enviar de fato a requisição.
 
 -->
 
-### 5) El método `.open ()` de un objeto XHR puede tener varios argumentos. Pero los más importantes son
+### 5) O método `.open()` de um objeto XHR pode ter vários argumentos. Mas os mais importantes são
 
-#### Opciones
+#### Opções
 
-1. `.open ()` no tiene argumentos
-2. Nombre de la función y parámetro
-3. method HTTP y URL
-4. url y JSON
+1. `.open ()` não tem argumentos.
+2. Nome da função e parâmetro.
+3. método HTTP e URL.
+4. URL e JSON.
 
 <solution style="display:none;">3</solution>
 
-### 6) ¿Qué propiedad debemos establecer para el manejo de una respuesta exitosa?
+### 6) Qual propriedade devemos estabelecer para a manipulação de uma resposta com sucesso?
 
-#### Opciones
+#### Opções
 
-1. asyncRequestObject.onsucces
-2. asyncRequestObject.onload
-3. asyncRequestObject.handleSuccess
-4. asyncRequestObject.oncorrect
+1. asyncRequestObject.onsucces.
+2. asyncRequestObject.onload.
+3. asyncRequestObject.handleSuccess.
+4. asyncRequestObject.oncorrect.
 
 <solution style="display:none;">2</solution>
 
-### 7) ¿A qué propiedad hay que asignar una función para el manejo de errores?
+### 7) Qual a propriedade devemos estabelecer para a manipulação de erros?
 
-#### Opciones
+#### Opções
 
-1. asyncRequestObject.handleError
-2. asyncRequestObject.onincorrect
-3. asyncRequestObject.onerror
-4. asyncRequestObject.errorReponse
+1. asyncRequestObject.handleError.
+2. asyncRequestObject.onincorrect.
+3. asyncRequestObject.onerror.
+4. asyncRequestObject.errorReponse.
 
 <solution style="display:none;">3</solution>
 
-### 8) Cuando nuestra respuesta es un JSON, debemos convertirla a un objeto JavaScript y eso lo hacemos con
+### 8) Quando nossa resposta é um JSON, devemos convertê-la para um objeto JavaScript e isso é feito com
 
-#### Opciones
+#### Opções
 
 1. JSON.parse();
 2. Object.json();

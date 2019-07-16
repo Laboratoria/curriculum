@@ -5,9 +5,8 @@ nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primero
 pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
 fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
 
-En este curso aprenderás mejores formas de estructurar y manipular la data de
-tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
-`objetos`.
+En este curso aprenderás mejores formas de estructurar y manipular la data de tu
+programa haciendo uso de estructuras de datos básicas: `arreglos` y `objetos`.
 
 Tags: `value`, `variable`, `operator`, `comment`, `flow-control`, `branching`,
 `conditional`, `loop`, `function`, `array`, `object`, `string`, `built-ins`,
@@ -42,93 +41,87 @@ curso. Está diseñado para principiantes.
 
 ## Syllabus
 
-### Unidad 01: [Valores, variables, operadores, tipos y comentarios](01-basics)
+### Unidade 01: [Valores, variáveis, operadores, tipos e comentários](01-basics)
 
-Aprende a utilizar variables para almacenar información que cambia durante el
-transcurso del programa y los diferentes tipo de datos de los valores en
-JavaScript.
+Aprenda a utilizar variáveis para armazenar informações que alteram durante o
+curso do programa e os diferentes tipos de dados dos valores em JavaScript.
 
-### Unidad 02: [Control de Flujo](02-flow-control)
+### Unidade 02: [Controle de fluxo](02-flow-control)
 
-Explora una de las formas más comunes de controlar el flujo de tu programa, y
-por lo tanto darle flexibilidad a lo que hace tu producto.
+Explora uma das formas mais comuns de controlar o fluxo do seu programa, e assim
+de flexibilidade ao seu produtos.
 
-### Unidad 03: [Funciones](03-functions)
+### Unidade 03: [Funções](03-functions)
 
-En esta unidad, veremos en profundidad el tema de funciones, aprovechando que
-JavaScript está fuertemente influenciado por la programación funcional desde su
-diseño, y nos ofrece características importantes como asignar funciones a una
-variable, pasar como parámetro de otra función, cambiar el scope de variables,
-asignar como valor de una propiedad de un objeto, etc.
+Nesta unidade, veremos com profundidade o tempo de funções, aproveitando que
+JavaScript está fortemente influênciado pela programação funcional desde o seu
+desenho, e nos oferece caracteristicas importantes como designar funções a uma
+variável, passar como parâmetro outra função, trocar o escopo de variáveis, etc.
 
-### Unidad 04: [Arrays (arreglos)](04-arrays)
+### Unidade 04: [Arrays](04-arrays)
 
-Para resolver problemas complejos necesitamos poder agrupar y manipular data de
-una manera más interesante. Afortunadamente, un entorno JavaScript nos permite
-lograr esto brindándonos `arrays` y `objects`. En esta unidad nos concentraremos
-en los arreglos (`arrays`) para después pasar a los objetos en más detalle.
+Para resolver problemas complexos é preciso agrupar e manipular dados de uma
+maneira mais eficiente. Para resolver problemas complejos necesitamos poder
+agrupar y manipular data de una manera más interesante. Felizmente, o JavaScript
+nos permite utilizar `arrays` e `objects`. Nesta unidade vamos nos concentrar
+nos _arrays_ para depois passar aos objetos.
 
-### Unidad 05: [Objects (objetos)](05-objects)
+### Unidade 05: [Objects](05-objects)
 
-Qué son `objects` (objetos) y para qué sirven? Cómo crear, acceder y modificar
-la información de un `object`? Diferencias entre un `array` y un `object`.
+O que são `objects` (objetos) e para que servem? Como criar, acessar e modificar
+a informação de um objeto? Quais são as diferenças entre um `array` e um `object`.
 
-### Unidad 06: [Strings (cadenas de caracteres)](06-strings)
+### Unidade 06: [Strings](06-strings)
 
-En JavaScript, los tipos de dato *texto*, se guardan como *tiras de caracteres*,
-más popularmente conocidas como `strings`.
+Em JavaScript, textos são do tipo `string`, que guardam junções de caracteres.
 
-### Unidad 07: [Built-ins (standard library)](07-built-ins)
+### Unidade 07: [Built-ins (bibliotecas padrão)](07-built-ins)
 
-Existen algunos objetos y funciones especiales que vienen con JavaScript pero
-que no son parte del lenguaje en sí. Se conocen como la _librería estándar_
-(standard library) ya que siempre podemos contar con ellos.
+Existem alguns objetos e funções especiais que vem com o JavaScript mais que não
+são parte da linguagem em si. São conhecidas como _bibliotecas padrão_ e sempre
+podemos contar com elas.
 
-### Unidad 08: [Asincronía](08-async)
+### Unidade 08: [Asincronía](08-async)
 
-JavaScript es un lenguaje que por naturaleza se presta para manejar asincronía
-sin bloque del proceso, gracias a sus higher order functions y la propia
-arquitectura de los motores de JavaScript.
+JavaScript é uma linguagem que permite manipular _assincronia_ de uma maneira
+elegante graças à sua implementação de funções e sua natureza _non-blocking_
+(que não bloqueia a *thread* enquanto espera que uma tarefa assíncrona seja
+completada). Nesta unidade veremos **callbacks**, **eventos** e **promessas**
+como maneiras de trabalhar com tarefas assíncronas.
 
-Todo lo que sea interacción con usuarios, acceso de red, acceso a disco duro,
-... serán siempre operaciones asíncronas, done el resultado de una invocación no
-retorna immediatamente, sino después de un tiempo.
+### Unidad 09: [Erros](09-errors)
 
-Manipular el HTML a través del DOM es genial, sin embargo, en el desarrollo de
-aplicaciones web, estas alteraciones se realizan luego de cierta interacción
-por parte del usuario a través de `eventos`. En esta lección nos enfocaremos en
-entender aspectos importantes del comportamiento de eventos y como manejarlos.
+O tratamento de erros é importante dentro de todo o desenvolvimento de software,
+e mais ainda quando se pensa em costruir um produto que se esperar que sera
+reutilizável e mantenible. Nesta unidade vamos ver como tratar erros nas diversas
+parte do nosso código.
 
-### Unidad 09: [Errores](09-errors)
+### Unidad 10: [Debugging](10-debugging)
 
-El manejo de errores es importante dentro de todo desarrollo de software, y más
-aún cuando se piensa en construir un producto que se espera sea reusable y
-mantenible. En esta unidad veremos cómo manejar errores en las diversas partes
-de nuestro código.
+O debugging é um apescto importante na programação, trata de encontrar e
+corrigir diferentes tipos de erros que podem aparecer a qualquer momento.
 
-### Unidad 10: [Depuración (debugging)](10-debugging)
+### Unidad 11: [Testes](11-testing)
 
-La depuración es un aspecto importante en programación, trata de encontrar y
-corregir diferentes tipos de errores que pueden suceder al momento de programar.
-
-### Unidad 11: [Testing / Pruebas](11-testing)
-
-Probar tu código es importante para garantizar que funcione como unx espera,
-pero no solo eso, si no que escribir pruebas/tests desde el principio nos ayuda
-a diseñar mejor nuestro código.
+Testar o seu codigo é importante para garantir que funcione como se espera.
+Escrever testes desdo começo ajuda a desenhar melhor o nosso código.
 
 ***
 
 ## Libros de consulta
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+* [JavaScript for
+  kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
   Nick Morgan, 2015
-* [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do),
-  Douglas Crockford, O'Reilly Media
+* [JavaScript: The Good
+  Parts](http://shop.oreilly.com/product/9780596517748.do), Douglas Crockford,
+  O'Reilly Media
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS), Kyle Simpson,
   O'Reilly Media
-* [Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182/ref=as_li_ss_tl?ie=UTF8&redirect=true&linkCode=ll1&tag=eejs-20&linkId=4c5500843ce7dc958e290bdaeebd739b),
+* [Effective JavaScript: 68 Specific Ways to Harness the Power of
+  JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182/ref=as_li_ss_tl?ie=UTF8&redirect=true&linkCode=ll1&tag=eejs-20&linkId=4c5500843ce7dc958e290bdaeebd739b),
   David Herman, 2013
-* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do),
-  David Flanagan, O'Reilly Media
+* [JavaScript: The Definitive
+  Guide](http://shop.oreilly.com/product/9780596805531.do), David Flanagan,
+  O'Reilly Media

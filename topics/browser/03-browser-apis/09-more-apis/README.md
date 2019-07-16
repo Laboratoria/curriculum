@@ -1,219 +1,222 @@
-# Más APIs
+# Mais APIs
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `40min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Incentivar a explorar otras APIs de HTML5
+- Incentivar a explorar outras APIs de HTML5.
 
-## Otras APIs
+## Outras APIs
 
-En esta unidad, nos hemos enfocado en algunas APIs específicas, pero como bien
-lo hemos mencionado, no son las únicas y te invitamos a explorar por tu cuenta
-otras.
+Nesta unidade, focamos em algumas APIs específicas, mas como mencionamos, não
+são as únicas. Convidamos você a explorar por conta própria as outras.
 
-Acá te dejamos algunas con las que puedes ir jugando:
+Aqui deixamos algumas com as quais você pode ir brincando:
 
 ### Canvas
 
-El elemento HTML `<canvas>` es usado para dibujar gráficos a través de
-JavaScript. A nivel de HTML, el elemento solo es un contenedor de gráficos.
-El API provee variados métodos para dibujar rutas, cajas, círculos, texto y
-agregar imágenes.
+O elemento HTML `<canvas>` é utilizado para desenhar gráficos por meio de
+JavaScript. No HTML, o elemento é só um contêiner de gráficos. A API fornece
+diversos métodos para desenhar linhas, caixas, círculos, texto e adicionar
+imagens.
 
-#### Retos
+#### Desafios
 
-##### Jugando con formas
+##### Exercitando com formas
 
-Dibuja las diversas formas geométricas que conozcas y comienza a darle un estilo
-personalizado a cada una.
+Desenhe as diversas formas geométricas que você conhece e comece a dar um estilo
+personalizado a cada uma delas.
 
-Ejemplo:
+Exemplo:
 
 <iframe
-  height='265'
-  scrolling='no'
-  title='CSS Basic Shapes'
+  height='265' scrolling='no' title='CSS Basic Shapes'
   src='//codepen.io/krystalcampioni/embed/bgYxQa/?height=265&theme-id=0&default-tab=result&embed-version=2'
-  frameborder='no'
-  allowtransparency='true'
-  allowfullscreen='true'
-  style='width: 100%;'>
-  See the Pen [CSS Basic Shapes](https://codepen.io/krystalcampioni/pen/bgYxQa/)
-  by Krystal Campioni ([@krystalcampioni](https://codepen.io/krystalcampioni))
-  on [CodePen](https://codepen.io).
+  frameborder='no' allowtransparency='true' allowfullscreen='true' style='width:
+  100%;'> See the Pen [CSS Basic
+  Shapes](https://codepen.io/krystalcampioni/pen/bgYxQa/) by Krystal Campioni
+  ([@krystalcampioni](https://codepen.io/krystalcampioni)) on
+  [CodePen](https://codepen.io).
 </iframe>
 
-##### Imágenes pixeleadas
+##### Imagens pixeladas
 
-Crea una interfaz con tus imágenes preferidas y vuélvelas pixeleadas.
+Crie uma interface com suas imagens preferidas e torne-as pixeladas.
 
-Ejemplo: Mira la sección de **Quiénes somos?** en la web de [Developers
+Exemplo: Veja a seção de **Quem somos?** no sítio web das [Developers
 Laboratoria](http://developers.laboratoria.la/).
 
-#### Referencias
+#### Referências
 
 - [HTML5 Canvas](https://www.w3schools.com/html/html5_canvas.asp)
-- [Uso básico de Canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial/Basic_usage)
+- [Uso básico de
+  Canvas](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Canvas_tutorial/Utilizacao_basica)
 
 ### File
 
-Esta probablemente ya la haz conocido, ya sea a través del elemento `<input
-type="file" />` o cuando has querido adjuntar una imagen al momento de postear
-en tu red social. Cualquiera que haya sido el escenario, te habrás dado cuenta
-que es muy útil saber manipularla.
+Esta provavelmente você já conhece, por meio do elemento `<input type="file" />`
+ou quando você quis adicionar uma imagem no momento de postar em sua rede
+social. Qualquer que tenha sido o cenário, você perceberá que é muito útil saber
+manipulá-la.
 
-#### Retos
+#### Desafios
 
 ##### Editando foto de perfil
 
-¿Recuerdas el reto de web storage, donde podías editar los datos tu perfil? ¿Qué
-te parece si ahora editas también su foto de perfil? ¿Y si recargas la página,
-permanece la imagen que acabas de cambiar? Comienza a mezclar ambas APIs y
-comprueba hasta donde te lleva tu imaginación. Recuerda que una buena manera de
-indicar al usuario que su edición está correcta es mostrándole como quedaría
-antes de guardarlo.
+Lembra do desafio de *web storage*, no qual você podia editar os dados do seu
+perfil? Que tal se agora você puder alterar também sua foto de perfil? E se
+recarregar a página, permanecer a imagem que acabou de trocar? Comece a mesclar
+as duas APIs e vá até onde sua imaginação deixar. Lembre-se de que uma boa
+maneira de indicar ao usuário que sua edição está correta é exibindo como ficará
+antes de salvar efetivamente.
 
-> Debes probar esto en tu móvil una vez terminado, estamos seguros que te
-> llamará la atención ver que puedes poner un selfie que te tomas con la cámara
-> como foto de perfil. Ooopss, la idea era que lo descubrieras por tu cuenta ;)
+> Você deve testar isto no seu dispositivo móvel quando terminar. Estamos
+> confiantes que você perceberá que pode colocar uma selfie que tirou com sua
+> câmera como foto de perfil. Ooopss, a ideia era que você percebesse isso
+> sozinha ;)
 
-##### ¿Instragram?
+##### Instagram?
 
-Si ya sabes cómo mostrar las imágenes que tienes almacenadas en tu PC o móvil,
-tienes el poder de agregar interacción con el DOM, loguearte con redes sociales
-y almacenarlo en una base de datos gracias a Firebase; esto quiere decir que
-¡tienes todo lo necesario para construir tu propio Instagram! Deja volar tu
-imaginación y diviértete creando tu red social de fotografía a tu gusto.
+Se você já sabe como exibir imagens que estão armazenadas em seu PC ou celular,
+você pode adicionar interação com o DOM, logar em redes sociais e armazenar as
+informações em uma base de dados graças ao Firebase; isto quer dizer que você
+tem tudo o que precisa para construir o seu próprio Instagram! Solte sua
+imaginação e divirta-se criando sua rede social de imagens do seu jeito.
 
-> Nota, con CSS puedes hacer [filtros a tus imágenes](https://platzi.com/blog/filtros-css/)
-> :scream:
+> Nota: com CSS você pode adicionar [filtros em suas
+> imagens](https://platzi.com/blog/filtros-css/) :scream:
 
-#### Referencias
+#### Referências
 
-- [Cómo leer archivos en JavaScript a través del File API](https://www.html5rocks.com/es/tutorials/file/dndfiles/)
-- [File Reader API](http://blog.teamtreehouse.com/reading-files-using-the-html5-filereader-api)
+- [Como ler arquivos em JavaScript pode meio da API
+  File](https://www.html5rocks.com/pt/tutorials/file/dndfiles/)
+- [File Reader
+  API](http://blog.teamtreehouse.com/reading-files-using-the-html5-filereader-api)
 
 ### WebSockets
 
-¿Alguna vez te has preguntado cómo funcionan las aplicaciones en tiempo real?
-¿Cómo hace Facebook, WhatsApp u otra red social para notificarte que has
-recibido un mensaje inmediatamente después de que el remitente lo envió? Un
-ejemplo más técnico sería mediante Firebase, ¿te has dado cuenta que si escuchas
-los cambios de su base de datos, tu aplicación se actualzia automáticamente?
+Algumas vez lhe perguntaram como funcionam as aplicações em tempo real? Como
+funciona o Facebook, WhatsApp e outras redes sociais para notificar que você
+recebeu uma mensagem imediatamente depois de que o remetente a tenha enviado? Um
+exemplo mais técnico seria por meio de Firebase. Você percebeu que, se sua
+aplicação ouve as mudanças na base de dados, ela atualiza automaticamente?
 
-Todo esto es gracias a los Web Sockets, HTML5 provee esta API con la que puedes
-establecer conecciones _socket_ entre el navegador y un servidor. Esto significa
-que existe una conexión persistente en la que puedes enviar datos en cualquier
-momento.
+Tudo isso é graças aos *Web Sockets*. HTML5 fornece esta API com a qual você
+pode estabelecer conexões _socket_ entre o navegador e um servidor. Isso
+significa que existe uma conexão persistente na qual você pode enviar dados a
+qualquer momento.
 
-Como bien lo menciona en el párrafo anterior, se necesita escribir un script en
-el servidor y en el cliente para establecer una conexión de Web Sockets. Esto
-puede ser un poco complicado sobre todo porque la implementación varía en el
-back-end dependiendo del lenguaje y varía en el cliente por la compatibilidad
-entre navegadores. Para hacer probar esta API de una manera sencilla, podrías
-usar Node.js (JavaScript del lado del servidor) y una librería que funcione en
-ambos lados (cliente y servidor) como [socket.io](https://socket.io/).
+Como dissemos no parágrafo anterior, é necessário escrever um script no servidor
+e no cliente estabelecer uma conexão com Web Sockets. Isso pode ser um pouco
+complicado principalmente porque a implementação varia no *back-end* dependendo
+da linguagem e varia no cliente devido à compatibilidade entre navegadores. Para
+testar esta API de uma maneira simples, você poderia utilizar Node.js
+(JavaScript ao lado do servidor) e uma biblioteca que funcione em ambos os lados
+(cliente e servidor) como [socket.io](https://socket.io/).
 
-#### Retos
+#### Desafios
 
 ##### Real-time chat
 
-Probablemente dirás que con Firebase ya puedes hacer un chat en tiempo real, aun
-así te invitamos a vivir la experiencia de crearlo sin Firebase y veas como
-puedes armar una aplicación en tiempo real escribiendo código tanto en el cliente
-como en el servidor.
+Provavelmente você dirá que com Firebase já pode fazer um chat em tempo real,
+contudo convidamos você a viver a experiência de criá-lo sem Firebase e veja
+como pode fazer uma aplicação em tempo real escrevendo código tanto no cliente
+como no servidor.
 
 ##### Canvas + Socket.io
 
-¿Te imaginas tener una pizarra compartida? Con canvas puedes crear un lienzo y
-mediante eventos del mouse dibujar en él, si estos gráficos los envías hacia un
-socket podrías dibujarlo entre todos los usuarios conectados en tiempo real,
-algo así como una pizarra mágina. Piénsalo, puede ayudarte cuando quieres
-enseñar o estudiar junto a alguien.
+Você pode imaginar ter uma lousa compartilhada? Com canvas você pode criar uma
+tela e usando eventos de mouse para desenhar nela. Se esses desenhos forem
+enviados para um *socket* você poderia desenhá-los para todos os usuários
+conectados em tempo real (quase como um quadro mágico). Pense nisso, pode
+ajudá-la quando quiser ensinar ou estudar em conjunto com alguém.
 
-##### ¿Hangouts, Skype?
+##### Hangouts, Skype
 
-Si pudieras encender la cámara de tu laptop, mostrarla en la web, y enviarla a
-través de un socket, tendrías una aplicación de videollamadas. ¿Crees que aun
-no puedes lograrlo? Pues te comentamos, que con un par de APIs más Web Sockets
-y sobre todo tus ganas de querer hacerlo, lo puedes lograr ;)
+Se você pudesse acessar a câmera de seu notebook, exibi-la na web e transmitir a
+imagem por meio de um socket, você teria uma aplicação de vídeo-chamadas. Acha
+que ainda não pode? Como já lhe dissemos, com um par de APIs associados a Web
+Sockets e com sua vontade de fazer, você consegue ;)
 
-Las APIs serían [`getUserMedia`](https://davidwalsh.name/browser-camera)
-(parte de Media API) y Canvas. Y probablemente al investigar al respecto, te
-encontrarás con el término de [WebRTC](https://webrtc.org/).
+As APIs seriam [`getUserMedia`](https://davidwalsh.name/browser-camera) (parte
+de Media API) e Canvas. E provavelmente ao pesquisar sobre o assunto, você
+acabará encontrando o [WebRTC](https://webrtc.org/).
 
-Tranquila, le tendrás que dedicar tiempo, pero si te interesa estamos 100%
-seguros de que podrás lograrlo :).
+Calma, você terá que dedicar tempo, mas se estiver interessada, temos 100% de
+certeza de que você consegue :).
 
-#### Referencias
+#### Referências
 
-- [Introducción a los WebSockets: incorporación de sockets a la Web](https://www.html5rocks.com/es/tutorials/websockets/basics/)
-- [Real time chat with NodeJS, Socket.io and ExpressJS](https://code.tutsplus.com/tutorials/real-time-chat-with-nodejs-socketio-and-expressjs--net-31708)
-- [Dibujando a tiempo real con Canvas, Node.js y Socket.io](http://www.nazariglez.com/2012/07/08/dibujando-a-tiempo-real-con-canvas-node-js-y-socket-io/)
-- [Streaming de video con HTML5](http://html5facil.com/tutoriales/streaming-de-video-con-html5/)
+- [Introdução aos WebSockets: incorporação de sockets na
+  Web](https://www.html5rocks.com/pt/tutorials/websockets/basics/)
+- [Real time chat with NodeJS, Socket.io and
+  ExpressJS](https://code.tutsplus.com/tutorials/real-time-chat-with-nodejs-socketio-and-expressjs--net-31708)
 
-### Notifications
+### Notificações
 
-> La API de Notificaciones permite a una página web enviar notificaciones que
-> se mostrarán fuera de la web al nivel del sistema. Esto permite a las
-> aplicaciones web enviar información al usuario aunque estas estén de fondo.
+> A API de notificações permite que uma página web envie notificações que serão
+> exibidas fora da web no nível de sistema. Isso permite às aplicações web
+> enviar informações para o usuário embora estas estejam em segundo plano.
 
-Fuente: [MDN - Usando la API de Notificaciones](https://developer.mozilla.org/es/docs/Web/API/Notifications_API/Usando_la_API_de_Notificaciones)
+Fonte: [MDN - Usando a API de
+Notificações](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
 
-#### Retos
+#### Desafios
 
-##### Notificaciones de mensajes
+##### Notificações de Mensagens
 
-Ya tienes tu chat o red social ya sea con Firebase o tu propia implementación de
-Web Sockets, ahora que te parece si cada vez que un usuario interactúa con tu
-app, le envías una notificación. Eso estaría muy cool :muscle:
+Você já tem seu chat ou rede social seja com Firebase ou com sua própria
+implementação de Web Sockets. Agora, o que acha se a cada vez que um usuário
+interage com sua aplicação, ela envia uma notificação? Isso seria muito legal!
 
-#### Referencias
+#### Referências
 
-- [Notificaciones Web con HTML5](https://filisantillan.com/notificaciones-web-html5/)
-- [Usando la API de Notificaciones](https://developer.mozilla.org/es/docs/Web/API/Notifications_API/Usando_la_API_de_Notificaciones)
+- [Notificações Web con
+  HTML5](https://filisantillan.com/notificaciones-web-html5/)
+- [Usando a API de
+  Notificações](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
 
-### Vibration
+### Vibração
 
-> La mayoría de los dispositivos modernos pueden vibrar a través del hardware,
-> esto permite que a través del código de software se pueda emitir estas
-> vibraciones. La Vibration API  ofrece a las aplicaciones web la capacidad de
-> acceder a este hardware en caso este lo soporte, caso contrario el dispositivo
-> no hace nada.
+> A maioria dos dispositivos modernos podem vibrar utilizando o hardware. Isso
+> permite que por meio do código de software se possa emitir essas vibrações. A
+> Vibration API permite às aplicações web a capacidade de acessar esse hardware
+> no caso de haver suporte para tal. Caso contrário, o dispositivo não faz nada.
 
-Fuente: [MDN - Vibración API](https://developer.mozilla.org/es/docs/Web/Guide/API/Vibration)
+Fonte: [MDN - Vibration
+API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
 
-#### Retos
+#### Desafios
 
-##### Vibración de notificaciones
+##### Vibração de notificações
 
-Ya tienes tus notificaciones, ahora que te parece si agregas la capacidad de
-vibrar cuando éstas lleguen a tu usuario.
+Você já tem suas notificações. Agora, o que acha de adicionar a capacidade de
+vibrar quando elas chegarem para o usuário?
 
-#### Referencias
+#### Referências
 
-- [Vibración API](https://developer.mozilla.org/es/docs/Web/Guide/API/Vibration)
-- [Introducción y uso de la API de Vibración en HTML5](https://platzi.com/blog/api-vibracion-html5/)
+- [Vibración
+  API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
 
-## Conclusión
+## Conclusão
 
-Existen muchas APIs que vuelven cada vez más potente al navegador, y esto a
-permitido grandes avances en la web, lo único que te podemos decir es que nunca
-nos va a dar el tiempo de ver todos, solo hay que ser curiosas y comenzar a
-jugar sin miedo con ellas.
+Existem muitas APIs que tornam o navegador cada vez mais poderoso e isso tem
+permitido grandes avanços na web. Só podemos dizer que nunca teremos tempo de
+lhe mostrar todas, portanto você deve ser curiosa e começar a brincar com elas
+sem medo.
 
-Recuerda tener presente que muchas de ellas tienen problemas de compatibilidad
-con dispositivos o navegadores específicos así que no vayas a pensar que algo
-está fallando en tu código necesariamente, puede que sea algo de hardware. Por
-otro lado, recuerda que en [The HTML 5 JavaScript API Index](http://html5index.org/)
-puedes indagar un poco más acerca de las APIs existentes.
+Lembre-se que muitas delas possuem problemas de compatibilidade com dispositivos
+e navegadores específicos. Portanto, alguma falha pode estar acontecendo por
+falha de hardware e não por causa de seu software. Por outro lado, lembre-se que
+em [The HTML 5 JavaScript API Index](http://html5index.org/) você pode aprender
+um pouco mais sobre as APIs existentes.
 
-Y mira de manera interactiva cómo ha evolucionado la web en
+E veja de forma interativa como a web tem evoluído em
 [www.evolutionoftheweb.com](http://www.evolutionoftheweb.com/#/evolution/day).
 
-![Evolution of the web](http://www.evolutionoftheweb.com/img/Evolution_of_the_web.jpg)
+![Evolution of the
+web](https://user-images.githubusercontent.com/11894994/59535335-1563aa00-8ec7-11e9-8cea-73aa1816e0ef.jpg)

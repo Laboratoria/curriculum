@@ -1,22 +1,16 @@
 # addFullNameProperty
 
-Escribe una función llamada `addFullNameProperty(person)`.
+Escreva uma função chamada "addFullNameProperty".
 
-Dado un objeto `person` con una propiedad `firstName` y una propiedad
-`lastName`, `addFullNameProperty(person)` debe retornar un nuevo objeto con las
-mismas propiedades que el objeto recibido pero con una propiedad más `fullName`,
-cuyo valor debe ser una cadena (string) con el nombre y el apellido separados
-por un espacio.
+Dado um objeto que tem uma propriedade "firstName" e uma propriedade "lastName",
+"addFullNameProperty" retorna uma propriedade "fullName" cujo valor é uma string
+com o nome e sobrenome separados por um espaço.
 
-```js
-const person = {
+```javascript
+var person = {
   firstName: 'Jade',
   lastName: 'Smith'
 };
-
-const personWithFullName = addFullNameProperty(person);
-
-console.log(personWithFullName.fullName); // => 'Jade Smith'
-console.log(personWithFullName.firstName); // => 'Jade'
-console.log(personWithFullName.lastName); // => 'Smith'
+addFullNameProperty(person);
+console.log(person.fullName); // --> 'Jade Smith'
 ```

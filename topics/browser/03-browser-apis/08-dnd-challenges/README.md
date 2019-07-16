@@ -1,23 +1,23 @@
-# Jugando con DnD
+# Exercitando com DnD
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
-- Duración: `3h`
+- Duração: `3h`
 
 ***
 
 ## Objetivos
 
-- Practicar todo lo aprendido haciendo uso del API de Drag and Drop
-- Practicar, practicar y practicar
+- Praticar tudo o que foi aprendido utilizando a API de Drag and Drop.
+- Praticar, praticar e praticar.
 
-## Ejercicios
+## Exercícios
 
-Debes subir todos tu ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir todos os exercícios para o `GitHub` e publicá-los nas `gh-pages`.
 
-### Inta Collage
+### Insta Collage
 
-Revisa las siguientes diapositivas para resolver tu ejercicio
+Revise os seguintes slides para resolver seu exercício.
 
 <iframe
   src="https://docs.google.com/presentation/d/e/2PACX-1vR4AWSnJCx4t7sS9bOnyY6JeToc_IE8FVM8MXVu5EN0c5AgJv5Odkwb8sHHkw_hzqtFb8WAyeFtTsZX/embed?start=false&loop=false&delayms=5000"

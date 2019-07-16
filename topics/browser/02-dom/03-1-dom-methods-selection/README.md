@@ -1,14 +1,14 @@
-# Manipulación del DOM
+# Modificando o DOM
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `60min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `120min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-* Métodos de selección del DOM:
+* Métodos de seleção del DOM:
   - `document.getElementById()`
   - `document.getElementsByClassName()`
   - `document.getElementsByTagName()`
@@ -17,61 +17,59 @@ En esta unidad aprenderemos:
 
 ***
 
-## Selección de nodos del DOM
+## Seleção de nós com DOM
 
-Una vez construido automáticamente el árbol completo de nodos DOM, ya es
-posible utilizar las funciones DOM para acceder de forma directa a cualquier
-nodo del árbol.
+Uma vez construído automaticamente a árvore completa de nós do DOM, já é
+possível utilizar as funções DOM para acessar de maneira direta qualquer nó da
+árvore.
 
-Como acceder a un nodo del árbol es equivalente a acceder a
-"un trozo" de la página, una vez construido el árbol, ya es posible manipular
-de forma sencilla la página: acceder al valor de un elemento, establecer el
-valor de un elemento, mover un elemento de la página, crear y añadir nuevos
-elementos, etc.
+Como acessar um nó da árvore equivale a acessar "um pedaço" da página, uma vez
+construída a árvore já é possível manipular de forma simples a página: acessar o
+valor de um elemento, estabelecer o valor de um elemento, mover um elemento da
+página, criar e adicionar novos elementos, etc.
 
-DOM proporciona dos métodos alternativos para acceder a un nodo específico:
-acceso a través de sus nodos padre y acceso directo.
+DOM fornece dois métodos alternativos para acessar um nó específico: acesso por
+meios de seus nós pais e acesso direto.
 
-Las funciones que proporciona DOM para acceder a un nodo a través de sus nodos
-padre consisten en acceder al nodo raíz de la página y después a sus nodos
-hijos y a los nodos hijos de esos hijos y así sucesivamente hasta el último
-nodo de la rama terminada por el nodo buscado. Sin embargo, cuando se quiere
-acceder a un nodo específico, es mucho más rápido acceder directamente a ese
-nodo y no llegar hasta él descendiendo a través de todos sus nodos padre.
+As funções que o DOM disponibiliza para acessar um nó por meio de seus nós pais
+consistem em acessar o nó raiz da página e depois seus nós filhos e os nós
+filhos desses filhos e assim sucessivamente até o último nó folha contendo o nó
+procurado. Porém, quando queremos acessar um nó específico, é muito mais rápido
+acessar diretamente esse nó e não chegar até ele caminhando por todos os seus
+nós pais.
 
-Por ese motivo, no se van a presentar las funciones necesarias para el acceso
-jerárquico de nodos y se muestran solamente las que permiten acceder de forma
-directa a los nodos.
+Por essa razão, não vamos apresentar as funções necessárias para o acesso
+hierárquico dos nós e mostraremos somente as que permitem acesso os nós de forma
+direta.
 
-Es importante recordar que el acceso a los nodos, su modificación
-y su eliminación solamente es posible cuando el árbol DOM ha sido construido
-completamente, es decir, después de que la página XHTML se cargue por
-completo. Más adelante se verá cómo asegurar que un código JavaScript
-solamente se ejecute cuando el navegador ha cargado entera la página XHTML.
+É importante lembrar que o acesso aos nós, sua modificação e sua eliminação
+somente são possíveis quando a árvore do DOM estiver construída completamente,
+ou seja, depois que a página XHTML estiver carregada completamente. Mais adiante
+veremos como garantir que um código JavaScript só seja executado quando o
+navegador tenha carregado toda a página XHTML.
 
-Por último, te recomendamos que pruebes los siguientes métodos replicando el
-código en tu editor favorito.
+Por fim, tem recomendamos que prove os siguentes métodos replicando o código no
+seu editor de texto.
 
 ### **getElementById()**
 
-La función `getElementById()` es la más utilizada cuando se desarrollan
-aplicaciones web dinámicas. Se trata de la función preferida para acceder
-directamente a un nodo y poder leer o modificar sus propiedades.
+A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações
+web dinâmicas. É a função preferida para acessar diretamente um nó e poder ler
+suas propriedades.
 
-La función `getElementById()` devuelve el elemento XHTML cuyo atributo `id`
-coincide con el parámetro indicado en la función. Como el atributo id debe ser
-único para cada elemento de una misma página, la función devuelve únicamente
-el nodo deseado.
+A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coincide
+com o parâmetro informando na função. Como o atributo `id` deve ser único para
+cada elemento de uma mesma página, a função devolve somente o nó desejado.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -82,18 +80,18 @@ const firstItem = document.getElementById("highlight");
 
 ### **getElementsByClassName()**
 
-La función `getElementsByClassName()` devuelve una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
- XHTML cuyo atributo `class`coincide con el parámetro indicado en la función.
+A função `getElementsByClassName()` retorna uma lista de nós da página `XHTML`
+cuja o atributo `class` é igual ao parâmetro indicado na função.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -104,30 +102,27 @@ const items = document.getElementsByClassName("bolded");
 
 ### **getElementsByTagName()**
 
-Como sucede con todas las funciones que proporciona DOM, la función
-`getElementsByTagName()` tiene un nombre muy largo, pero que lo hace
-autoexplicativo.
+Como algumas funções do `DOM` , a função `getElementsByTagName()` tem o nome
+muito grande, mas autoexplicativo.
 
-La función `getElementsByTagName(nombreEtiqueta)` obtiene una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/).
-de la página XHTML cuya etiqueta sea igual que el parámetro que se le pasa a la
-función.
+A função `getElementsByTagName(tagName)` retorna uma lista de nós da página
+`XHTML` cuja a _tag_ é igual ao parâmetro que foi passado na função.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
 
 ```js
 const titles = document.getElementsByTagName('h2');
-
 console.log(titles[0]);
 console.log(titles[1]);
 console.log(titles[2]);
@@ -136,23 +131,22 @@ const listItems = document.getElementsByTagName('li');
 console.log(listItems[0]);
 console.log(listItems[1]);
 console.log(listItems[2]);
-
 ```
 
 ### **querySelector()**
 
-Función que retorna el primer elemento que coincide con el selector CSS dado
-como parámetro.
+Está função retorna o primeiro elemento que coincide com o seletor `CSS` passado
+como parâmetro.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
@@ -170,50 +164,53 @@ console.log(item);
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - tag
 const title = document.querySelector('h2');
 console.log(title);
 ```
 
 ### **querySelectorAll()**
 
-Función que retorna una [lista de nodos](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/)
-que coinciden con el selector CSS dado como parámetro.
+Está função retorna uma lista de nós que coincidem com o seletor `CSS` passado
+como parâmetro.
 
 ```html
 <body>
- <h2>Hola Laboratoria</h2>
- <h2>Hola Mundo</h2>
- <h2>Mis Hobbies</h2>
+ <h2>Hello Laboratoria</h2>
+ <h2>Hello Mundo</h2>
+ <h2>My Hobbies</h2>
  <ul>
-  <li id="highlight">Programar</li>
-  <li class="bolded">Bailar</li>
-  <li class="bolded">Ver peliculas</li>
+  <li id="highlight">Programming</li>
+  <li class="bolded">Dancing</li>
+  <li class="bolded">Watch Netflix</li>
  </ul>
 </body>
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - tag
 const titles = document.querySelectorAll('h2');
 console.log(titles);
 ```
 
 ```js
-// Selector css - etiqueta
+// Selector css - class
 const items = document.querySelectorAll('.bolded');
 console.log(items);
 ```
 
 ## Recapitulando
 
+<!--
+TODO: traduzir vídeo
+
 Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
 refuerza lo aprendido.
 
-[![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)](https://www.youtube.com/watch?v=7iHu7s54vIk)
+[![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)]
+(https://www.youtube.com/watch?v=7iHu7s54vIk)
+-->
 
-También tenemos el [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#Qu.C3.A9_es_el_DOM.3F)
-de la documentación oficial de Mozilla de qué es el DOM.
-
-Otro [link](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#C.C3.B3mo_se_accede_al_DOM.3F)
-de cómo acceder a elementos del DOM con JS de la documentación oficial.
+Também recomendamos o
+[link](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction)
+da documentação oficinal do Mozilla sobre o DOM.

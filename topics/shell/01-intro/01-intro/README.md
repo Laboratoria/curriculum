@@ -68,17 +68,17 @@ computadores.
 
 Pressione as teclas "Windows" + r:
 
-![Teclas para a janela &quot;Executar&quot;](https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png)
+![Teclas para a janela &quot;Executar&quot;](https://user-images.githubusercontent.com/11894994/58904749-80023200-86de-11e9-8743-97f5829a213f.png)
 
 Uma pequena tela aparecerá na parte inferior esquerda. Nela, escreveremos
 `cmd.exe`.
 
-![Executar](https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png)
+![Executar](https://user-images.githubusercontent.com/11894994/58904748-80023200-86de-11e9-84ba-5b6e471f4d43.png)
 
 Ao clicar no botão "OK", abriremos nosso terminal. Ao abrir a aplicação,
 aparecerá uma nova janela aparecer com um fundo preto e letras como abaixo:
 
-![Linha de comandos](https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png)
+![Linha de comandos](https://user-images.githubusercontent.com/11894994/58904746-80023200-86de-11e9-93a9-753e119e00e6.png)
 
 ### Mac OS X
 

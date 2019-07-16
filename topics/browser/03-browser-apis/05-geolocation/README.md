@@ -1,18 +1,18 @@
-# Geolocation
+# Geolocalização
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `60min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-Entender qué es la geolocalización y cómo usar el API
+Entender o que é a geolocalização e como usar a API.
 
-## Geolocalización
+## Geolocalização
 
-Revisemos las siguientes diapositivas
+Revisemos os seguintes conteúdos:
 
 <iframe
   src="https://docs.google.com/presentation/d/e/2PACX-1vQbFDCCktoR42Inmp5jjBt-OkwBMPS-CxOI4k4FgHvQKEOkLvht3qTZc5bYz4X8Vjt--a3NepBgu2A-/embed?start=false&loop=false&delayms=5000"
@@ -23,16 +23,7 @@ Revisemos las siguientes diapositivas
   mozallowfullscreen="true"
   webkitallowfullscreen="true"></iframe>
 
-Ahora vamos a leer el siguiente **[enlace](https://devcode.la/tutoriales/api-geolocalizacion-html5/)**
-de DevCode que aparte de tener información importante cuenta con un ejemplo
-práctico para ir resolviendo.
-
-Para finalizar, veamos el siguiente vídeo, notarás que pone todo en su HTML
-pero tú eres una desarrolladora que ama las buenas prácticas y a la hora de
-poner manos a la obra en tu editor de texto, pondrás cada cosa en su archivo
-correspondiente.
-
-[video](https://www.youtube.com/watch?v=XX9Kmg3qLRk)
-
-Si ya realizando lo anterior quieres algo más, DevCode tiene un **[tutorial](https://devcode.la/tutoriales/geolocalizacion-nodejs/)**
-para obtener la geolocalización con Nodejs.
+Agora vamos ler este
+**[link](https://developers.google.com/web/fundamentals/native-hardware/user-location/?hl=pt-br)**
+do Google developers que além de ter informação importante também apresenta um
+exemplo prático para ser resolvido.

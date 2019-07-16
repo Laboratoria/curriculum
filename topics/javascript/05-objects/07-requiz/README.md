@@ -1,76 +1,76 @@
 # Quiz 2
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `15min`
+- Formato: `individual`
+- Duração: `15 min`
 
 ***
 
 ## Objetivos
 
-- Tomar un segundo quiz para asegurarnos que terminamos la unidad con un
-  entendimiento pleno de los conceptos.
+- Faça um segundo teste para garantir que terminaremos a unidade com uma
+  compreensão completa dos conceitos.
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Para qué son útiles los Objects?
+### 1\) Para que os objetos são úteis?
 
-#### Opciones
+#### Opções
 
-1. Para dejar de usar arrays y variables
-2. Para poder utilizar repositorios en `Git`
-3. Para almacenar diferentes piezas de información sobre sí mismo
-4. Para guardar mi información en la nube y posteriormente compartirla
+1. Para deixar de usar _arrays_ e variáveis
+2. Para poder usar repositórios em `Git`
+3. Para armazenar diferentes peças de informação sobre você
+4. Para salvar minhas informações na nuvem e depois compartilhá-las
 
 <solution style="display:none;">3</solution>
 
-### 2) ¿Cuál de los siguientes enunciados sobre Objects SÍ es correcto? Puedes seleccionar una o más opciones
+### 2\) Qual das seguintes afirmações sobre Objetos é correta? Você pode selecionar uma ou mais opções
 
-#### Opciones
+#### Opções
 
-1. Las propiedades deben estar siempre entre comillas
-2. No debemos incluir un array como propiedad
-3. Podemos incluir una función como propiedad
-4. Los _keys_ de los Objects son equivalente a sus propiedades
+1. As propriedades devem sempre ser colocadas entre aspas
+2. Nós não devemos incluir um _array_ como propriedade
+3. Podemos incluir uma função como propriedade
+4. As chaves dos objetos são equivalentes às suas propriedades
 
 <solution style="display:none;">3,4</solution>
 
-### 3) Podemos acceder a los valores de un Object usando corchetes `[ ]` o usando punto `.`
+### 3\) Podemos acessar os valores de um objeto usando colchetes `[]`ou usando ponto`.`
 
-#### Opciones
+#### Opções
 
-1. Verdadero
+1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">1</solution>
 
-### 4) Los métodos son \_\_\_\_\_\_\_\_\_\_\_\_\_ que contienen \_\_\_\_\_\_\_\_\_\_\_\_\_
+### 4\) Os métodos são \_\_\_\_\_\_\_\_\_\_\_\_\_ que contêm \_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Opciones
+#### Opções
 
-1. propiedades - funciones
-2. funciones - propiedades
+1. propriedades - funções
+2. funções - propriedades
 3. elementos - objetos
 4. objetos - elementos
 
 <solution style="display:none;">1</solution>
 
-### 5) ¿Cuál es el resultado del siguiente código?
+### 5\) Qual é o resultado do código a seguir?
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
 };
 
 console.log(movie.tags[1]);
 ```
 
-#### Opciones
+#### Opções
 
 1. Adventure
 2. Comedy
@@ -79,24 +79,25 @@ console.log(movie.tags[1]);
 
 <solution style="display:none;">2</solution>
 
-### 6) ¿Cuál es el error en el siguiente código?
+### 6\) Qual é o erro no código a seguir?
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox'; 'Christopher Lloyd'; 'Lea Thompson'],
+  stars: ['Michael J. Fox'; 'Christopher Lloyd'; 'Lea Thompson'],
   oscar: 1,
   'other awards': 'best sound',
   tags: []
 };
 ```
 
-#### Opciones
+#### Opções
 
-1. La propiedad `tags` no puede estar vacía
-2. Le sobran las comillas `' '` a la propiedad `other awards`
-3. En la propiedad `stars`, deben ir comas `,` en lugar de puntos y comas `;`
-4. No hay ningún error
+1. A propriedade `tags` não pode estar vazia
+2. As aspas `' '` da propriedade `other awards` estão sobrando
+3. Na propriedade `stars`, devemos usar vírgulas \(`,`\) em vez de pontos e
+   vírgulas \(`;`\)
+4. Não há erro
 
 <solution style="display:none;">3</solution>

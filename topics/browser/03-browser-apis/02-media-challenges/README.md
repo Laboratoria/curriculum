@@ -1,65 +1,68 @@
-# Jugando con Audio & Video
+# Jogando com Áudio & Vídeo
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Practicar todo lo aprendido haciendo uso del API de Audio/Video
-- Practicar, practicar y practicar
+- Praticar tudo que foi aprendido fazendo uso da API de Áudio/Vídeo.
+- Praticar, praticar e praticar.
 
-## Ejercicios
+## Exercícios
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir todos seus exercícios para o `GitHub` e publicá-los na
+`gh-pages`.
 
-### Reproductor de Música
+### Reprodutor de Música
 
-Arma tu reproductor de música con tus propios controles y diseño, tu reproductor
-debería permitirte iniciar, pausar, adelantar y retroceder el audio así como
-poder controlar el volumen. Para este ejercicio, puedes tener tu audio
-predeterminado en el HTML.
+Faça seu reprodutor de música com seus próprios controles e design. Seu
+reprodutor deve permitir iniciar, pausar, avançar e retroceder o áudio assim
+como controlar o volume. Para este exercício, você pode ter seu áudio
+predeterminado no HTML.
 
-Puedes usar [este website](https://www.w3.org/2010/05/video/mediaevents.html)
-como referencia interactiva.
+Você pode usar [este website](https://www.w3.org/2010/05/video/mediaevents.html)
+como referência interativa.
 
-Si no se te ocurre bien el diseño, puedes usar este o cualquier otro que
-encuentres en internet.
+Se você não tem ideia do design, pode utilizar este ou qualquer outro que
+encontre na internet.
 
-![Music Player](https://www.dailydot.com/wp-content/uploads/c21/27/b76687f426e12252.png)
+![Music
+Player](https://user-images.githubusercontent.com/11894994/59532797-1cd38500-8ec0-11e9-98d5-cde6744dd297.png)
 
-### Reproduce en hover
+### Reproduzir em hover
 
-Busca tu(s) video(s) favorito(s) y muéstralos en tu sitio web, luego agrégale
-la funcionalidad de que se reproduzca cuando pases el mouse sobre el video
-(`hover`) y se pause cuando lo quites.
+Procure seu(s) vídeo(s) favorito(s) e publique-os no seu sítio web. Adicione a
+funcionalidade para que ao passar o mouse sobre o vídeo (`hover`), ele seja
+reproduzido. Quando o mouse sair, o vídeo é pausado.
 
-Ejemplo:
+Exemplo:
 
-![Video on hover](https://media.giphy.com/media/3o7WIKDFzrbuFJIm9G/giphy.gif)
+![Video on
+hover](https://user-images.githubusercontent.com/11894994/59533337-9029c680-8ec1-11e9-8ccb-5d23608a7b76.gif)
 
-> Nota: No se ve el mouse, pero el GIF parece que se pausa debido a que el mouse
-> se saca de la imagen.
+> Nota: Não se vê o mouse, mas o GIF parece que foi pausado devido ao mouse
+> saindo da imagem.
 
-## Más práctica para vol
+## Mais prática para o volume
 
-### Arma tu pLaylist
+### Prepare sua playlist
 
-¿Cómo mejorarías la experiencia de playlist de videos de Youtube? Arma un JSON
-con tu lista de videos favoritos que estén relacionados y muéstralo en una lista
-que te permita seleccionar y reproducir el video.
+Como você melhoraria a experiência de playlist de vídeos do YouTube? Prepare um
+JSON com sua lista de vídeos favoritos que estejam relacionados e mostre-os em
+uma lista que permita selecionar e reproduzir o vídeo.
 
-Ejemplo:
+Exemplo:
 
-![Video playlist](https://img.labnol.org/di/youtube-playlist.png)
+![Video playlist](https://user-images.githubusercontent.com/11894994/59533388-b0f21c00-8ec1-11e9-9a97-b25daf30c29b.png)
 
-No es necesario seguir la misma estructura, puedes proponer la que tu desees,
-piensa en cómo sería la experiencia en móvil.
+Não é necessário seguir a mesma estrutura. Você pode propor a que desejar. Pense
+como seria a experiência em um dispositivo móvel.
 
-### Red social de Música
+### Rede social de Música
 
-¿Cómo darías la experiencia a tus usuarios de que puedan armar su propio
-playlist y que lo puedan compartir con su red de amigos? Tal vez, mezclando tus
-poderes con Firebase y haciendo uso de algún API público. :thinking_face:
+Como você proporcionaria a experiência a seus usuários para que possam montar
+sua própria playlist e compartilhá-la com sua rede de amigos? Talvez, mesclando
+seus poderes com Firebase e fazendo uso de alguma API pública. 🤔

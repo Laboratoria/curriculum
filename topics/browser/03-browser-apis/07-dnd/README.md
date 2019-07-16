@@ -1,46 +1,37 @@
 # Drag and Drop
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `90min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-Entender a grandes rasgos qué es el Drag and Drop y cómo usar para
-algunas aplicaciones.
+Entender o que é o *Drag and Drop* e como usá-lo em algumas aplicações.
 
-## Arrastrar y soltar
+## Arrastar e soltar
 
->La función de arrastrar y soltar (Drag and Drop, DnD) tiene una gran
->importancia en HTML5. En la especificación se define un mecanismo basado en
->eventos, el API de JavaScript y elementos de marcado adicionales para indicar
->que prácticamente cualquier tipo de elemento de una página se pueda arrastrar.
->La compatibilidad nativa del navegador con la función DnD permite ofrecer
->aplicaciones web más interactivas.
+>A função de arrastar e soltar (*Drag and Drop* DnD) possui uma grande
+>importância em HTML5. Na especificação é definido um mecanismo baseado em
+>eventos, na API de JavaScript e em elementos marcadores adicionais para indicar
+>que praticamente qualquer tipo de elemento de uma página possa ser arrastado. A
+>compatibilidade nativa do navegador com a função DnD nos permite oferecer
+>aplicações web mais interativas.
 
-Este es un extracto de **html5rocks**, dirígete a este
-**[enlace](https://www.html5rocks.com/es/tutorials/dnd/basics/)** para que leas
-la explicación y veas el ejemplo de Drag and Drop.
+Este é um trecho de **html5rocks**. Vá para este
+**[link](https://www.html5rocks.com/pt/tutorials/dnd/basics/)** para que você
+possa ler a explicação e veja o exemplo de *Drag and Drop*.
 
-El siguiente **[enlace](https://developer.mozilla.org/es/docs/DragDrop/Drag_and_Drop)**
-es de la documentación de mozilla y aquí podemos darnos una idea de que es y que
-hace esta estupenda API de HTML5.
+Este **[link](https://developer.mozilla.org/pt-BR/docs/DragDrop/Drag_and_Drop)**
+contém a documentação da Mozilla e aqui você pode ter uma ideia do que é e o que
+faz esta fantástica API de HTML5.
 
-Y por último, revisaremos este **[enlace](http://www.desarrollolibre.net/blog/tema/45/html/el-drag-and-drop-en-html5-javascript#.Wniowa6WbIU)**,
-ya que es una maravilla con los ejemplos que proporciona con todo y
-su explicación.
+>Uma aplicação deve ser intuitiva e o que mais intuitivo do que arrastar um
+>"objeto" de uma parte para outra?
 
->Una aplicación debe ser intuitiva, y que más intuitivo que arrastrar un
->"objeto" de una parte a otra.
+![exemploDnD](https://user-images.githubusercontent.com/11894994/59534169-e7c93180-8ec3-11e9-88d4-eda8dbe57443.gif)
 
-![ejemploDnD](http://www.desarrollolibre.net/public/images/example/html/drag-and-drop/ejemplo-drag-and-drop-html5.gif)
-
-No te preocupes si sientes que de repente es mucha información, recuerda que la
-mejor manera de entender lo que leímos es ponerlo en practica, así que abre tu
-editor de texto y replica o modifica los ejemplos que ya vimos.
-
-Y si sientes que puedes con algo más y necesitas otro reto, puedes entrar a
-este **[enlace](https://devcode.la/tutoriales/draggable-con-jquery-ui/)**
-de DevCode para practicar esto pero con jQuery-UI
+Não se preocupe se você sentir de repente que é muita informação. Lembre-se de
+que a melhor maneira de entender o que lemos é colocá-lo em prática. Então, abra
+seu editor de texto e replique ou modifique os exemplos que já vimos.

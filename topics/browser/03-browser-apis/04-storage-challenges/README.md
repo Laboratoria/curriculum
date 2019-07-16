@@ -1,28 +1,28 @@
-# Jugando con Web Storage
+# Exercitando com Web Storage
 
-- Tipo: `taller`
+- Tipo: `oficina`
 - Formato: `guiado`
-- Duración: `2h`
+- Duração: `2h`
 
 ***
 
 ## Objetivos
 
-- Practicar todo lo aprendido haciendo uso del API de almacenamiento web
-- Practicar, practicar y practicar
+- Praticar tudo o que foi aprendido utilizando a API de armazenamento web.
+- Praticar, praticar e praticar.
 
-## Ejercicios
+## Exercícios
 
-Debes subir todos tus ejercicios a `GitHub` y publicarlos en `gh-pages`.
+Você deve subir todos os seus exercícios para o `GitHub` e publicá-los nas `gh-pages`.
 
-### Perfil de usuario
+### Perfil de usuário
 
-Implementa un login con Firebase, sea manual o con alguna red social,
-redireccionálo a la página principal de tu sitio (puedes darle la temática que
-desees) y permite tener una edición de perfil, para esto los datos deben de
-estar precargados con lo que almacenaste en el navegador. Ten en cuenta que
-debe funcionar para distintos usuarios, por lo que deberá estar existente
-durante una sesión del usuario. ¿Deberás usar `localStorage` o `sessionStorage`?
+Implemente um login com Firebase, seja manual ou com alguma rede social,
+redirecione para a página principal de seu sítio web (pode dar-lhe a temática
+que desejar) e permita ter uma edição de perfil. Para isto, os dados devem estar
+pré-carregados com o que foi armazenado no navegador. Leve em consideração que
+deve funcionar para diferentes usuários, motivo pelo qual deverá existir sessões
+por usuário. Você deverá usar `localStorage` ou `sessionStorage`?
 
 <iframe
   height='500'
@@ -39,14 +39,14 @@ durante una sesión del usuario. ¿Deberás usar `localStorage` o `sessionStorag
   [CodePen](https://codepen.io).
 </iframe>
 
-### Lector personalizado
+### Leitura personalizada
 
-Alguna vez te has puesto a leer un post de un blog pero te has sentido incómoda
-con la fuente, el tamaño o incluso los colores usados. Es hora de darle una
-solución, crea un sitio responsive (esto no es necesario indicarlo, pero por si
-las dudas) con un post real (tu preferido, no Lorem Ipsum) y dale la opción a tu
-usuario de personalizar su modo de lectura de la mejor forma que creas
-conveniente.
+Alguma vez você começou a ler um post de um blog, mas você se sentiu incomodada
+com a fonte, o tamanho ou as cores usados? Chegou a hora de resolver isso. Crie
+um site responsivo (não é preciso dizer, mas por via das dúvidas) com um post
+real (seu preferido, sem Lorem Ipsum) e implemente a opção para que o usuário
+possa personalizar seu modo de leitura da forma que achar conveniente.
 
-Algo muy similar al ejemplo visto en [la lectura del self-learning anterior](https://mdn.github.io/dom-examples/web-storage/).
-Si deseas que se mantenga la configuración del usuario guardada, ¿qué usarás?
+Algo muito similar ao exemplo visto na [leitura de self-learning
+anterior](https://mdn.github.io/dom-examples/web-storage/). Se desejar armazenar
+a configuração do usuário, o que você usará?

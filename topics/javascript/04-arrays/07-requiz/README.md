@@ -1,14 +1,14 @@
-# Requiz
+# Quiz 2
 
-* Tipo: `quiz`
-* Formato: `individual`
-* Duração: `15 min`
+- Tipo: `quiz`
+- Formato: `individual`
+- Duração: `15 min`
 
 ***
 
 ## Objetivos
 
-* Faça um segundo teste para garantir que terminamos a unidade com total
+- Faça um segundo teste para garantir que terminamos a unidade com total
   compreensão dos conceitos.
 
 ## Perguntas
@@ -16,7 +16,7 @@
 ### 1\) No exemplo a seguir, o _array_  `mixedArray` apresenta um erro de sintaxe
 
 ```javascript
-var mixedArray = [3, hola mundo, 627.5];
+const mixedArray = [3, oi mundo, 627.5];
 ```
 
 #### Opções
@@ -40,7 +40,7 @@ var mixedArray = [3, hola mundo, 627.5];
 ### 3\) Considere o código abaixo
 
 ```javascript
-var listOfNumbers = [1, 2, 3, 4, 5, 6];
+const listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
 Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
@@ -58,7 +58,7 @@ Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
 ### 4\) No código a seguir
 
 ```javascript
-var listOfNumbers = [1, 2, 3, 4, 5, 6];
+const listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
 como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
@@ -76,7 +76,7 @@ como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
 ### 5\) No código a seguir
 
 ```javascript
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
@@ -98,8 +98,8 @@ como obtenho o elemento `Peso`?
 ### 6\) No exemplo a seguir, qual método devo usar para obter o resultado do comentário de código?
 
 ```javascript
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
-var removed = courses.__________;
+let courses = ['Intro JS', 'Intro UX', 'UX master'];
+let removed = courses.__________;
 
 console.log('Elemento eliminado: ' + removed);
 // → Elemento eliminado: Intro JS
@@ -117,7 +117,7 @@ console.log('Elemento eliminado: ' + removed);
 ### 7\) No exemplo a seguir, quais dos seguintes métodos você poderia usar para obter o resultado solicitado? Você pode escolher mais de uma opção
 
 ```javascript
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
+let courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.__________('JS master', 'English for Developers');
 
 console.log(courses.length);
@@ -136,8 +136,8 @@ console.log(courses.length);
 ### 8\) No exemplo a seguir, quais métodos devo usar para obter o resultado solicitado?
 
 ```javascript
-var listOfNumbers = [];
-for (var i = 1; i <= 7; i++) {
+let listOfNumbers = [];
+for (let i = 1; i <= 7; i++) {
   listOfNumbers.__________(i);
 }
 listOfNumbers.__________();
@@ -158,11 +158,11 @@ console.log(listOfNumbers.length);
 ### 9\) Qual seria o resultado do código a seguir?
 
 ```javascript
-var coder1 = 'Michelle, ';
-var coder2 = 'Lourdes, ';
-var coder3 = 'Ruth.';
+const coder1 = 'Michelle, ';
+const coder2 = 'Lourdes, ';
+const coder3 = 'Ruth.';
 
-var allCoders = coder1.concat(coder2, coder3);
+const allCoders = coder1.concat(coder2, coder3);
 
 console.log(allCoders);
 ```
@@ -179,7 +179,7 @@ console.log(allCoders);
 ### 10\) Qual é o resultado do código abaixo?
 
 ```javascript
-var coders = ['Michelle', 'Lourdes', 'Ruth'];
+let coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.pop();
 coders.indexOf('Lourdes');
 ```
@@ -196,7 +196,7 @@ coders.indexOf('Lourdes');
 ### 11\) No código a seguir, qual seria o resultado?
 
 ```javascript
-var coders = ['Michelle', 'Lourdes', 'Ruth'];
+let coders = ['Michelle', 'Lourdes', 'Ruth'];
 coders.push('Alejandra');
 coders.join();
 ```
@@ -213,7 +213,7 @@ coders.join();
 ### 12\) No exemplo a seguir, complete os espaços
 
 ```javascript
-var coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
+let coders = ['michelle', 'lourdes', 'ruth', 'alejandra'];
 coders.pop();
 coders.slice(____,____);
 
@@ -232,7 +232,7 @@ coders.slice(____,____);
 ### 13\) No exemplo a seguir, qual método devo usar para obter o resultado comentado?
 
 ```javascript
-var listOfNumbers = [1, 2, 3, 1, 2, 3];
+let listOfNumbers = [1, 2, 3, 1, 2, 3];
 listOfNumbers.____________(2);
 
 // → 4
@@ -250,10 +250,10 @@ listOfNumbers.____________(2);
 ### 14\) No código a seguir, qual seria o resultado?
 
 ```javascript
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (var i = 0; i < array.length; i++) {
-  var item = array.pop();
+for (let i = 0; i < array.length; i++) {
+  let item = array.pop();
   array.splice(i, 0, item);
 }
 
@@ -273,7 +273,7 @@ console.log(array);
 
 ```javascript
 function search(array, element) {
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i] === element) {
       return i;
     }

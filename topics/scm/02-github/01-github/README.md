@@ -15,7 +15,7 @@
 * Saber utilizar os comandos essenciais: `init`,`status`, `add`, `commit`,
   `push` e `pull`
 
-## ¿Qué es Github?
+## O que é Github?
 
 `GitHub` é conhecido como a "rede social" dos desenvolvedores, pois muitos deles
 enviam seus projetos para lá. Ele permite criar `repositórios remotos` que
@@ -91,9 +91,13 @@ Para criar sua conta no GitHub, siga estes passos:
 5. No terceiro passo do registro, você pode completar com seus dados e clicar em
    **"Submit"**, ou somente clicar em **"Skip this step"**
 
-E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.*.
+E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
 
-<!-- Ahora Michelle, siguiendo los pasos anteriores, creará 
+<!--
+
+  Traduzir vídeo para PT
+
+Ahora Michelle, siguiendo los pasos anteriores, creará
 su cuenta en `Github`. -->
 
 <!-- [![creando cuenta de github]
@@ -104,9 +108,10 @@ su cuenta en `Github`. -->
 
 Siga os passos a seguir para criar um repositório no `Github`:
 
-<!-- Traduzir esse vídeo -->
-[![Creando
-repositorio](https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)](https://www.youtube.com/watch?v=KCLpcq9BPcc)
+<!-- Traduzir esse vídeo
+  [![Creando repositorio]
+(https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)]
+(https://www.youtube.com/watch?v=KCLpcq9BPcc) -->
 
 Por último temos a tela onde encontramos a `url` do nosso `repositório remoto`,
 com o qual (mais adiante) vincularemos nosso repositório remoto com nosso
@@ -180,9 +185,10 @@ repositório _local_ a um repositório _remoto_ e trabalhar colaborativamente.
 Agora vamos ver como Michelle utiliza `Git` e `Github` para manejar o controle
 de versões de ses projetos e colaborar com outras coaches de Laboratoria.
 
-<!-- Traduzir este vídeo -->
-[![Subiendo
-repositorio](https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)](https://www.youtube.com/watch?v=Af51B0tI8Zs)
+<!-- Traduzir este vídeo
+[![Subiendo repositorio]
+(https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)]
+(https://www.youtube.com/watch?v=Af51B0tI8Zs) -->
 
 ### Material complementar
 

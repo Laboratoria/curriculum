@@ -1,88 +1,86 @@
 # Opening
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `25min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `25min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Qué es un Browser API
-- A utilizar algunas Browser APIs
-- Qué es un API
-- Qué APIs nos ofrece HTML5
+- O que é uma API
+- O que é Browser API
+- Como utilizar as Browser APIs
+- Quais APIs o HTML5 nos oferece
 
-## HTML5 y la magia de sus APIs
+## HTML5 e a magia de suas APIs
 
-Anteriormente, nos enteramos que HTML5 viene con un conjunto de APIs, vamos
-a entrar un poco en contexto con la siguiente diapositiva:
+Na leitura anterior, descobrimos que HTML5 vem com um conjunto de APIs. Vamos
+entrar um pouco nesse contexto com o seguinte documento:
 
 <iframe
   src="https://docs.google.com/presentation/d/e/2PACX-1vTVOkfyF6VYPu9b3p667Sorg5KW9xbC2KO_-dL04fXm5XlIzp6jgduLzZgnBDU5QqDQp3UQTkuOCi-_/embed?start=false&loop=false&delayms=3000"
-  frameborder="0"
-  width="760"
-  height="749"
-  allowfullscreen="true"
-  mozallowfullscreen="true"
-  webkitallowfullscreen="true"></iframe>
+  frameborder="0" width="760" height="749" allowfullscreen="true"
+  mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-> ### Entonces, ¿qué es una API?
+> ### Então, o que é uma API?
 >
-> Una interfaz de programación de aplicaciones es una colección de instrucciones
-> y estándares de programación para acceder a una aplicación de software. Con
-> una API, es posible diseñar productos basados en el servicio que proporciona
-> la API.
+>Uma API (Interface de Programação de Aplicações) é uma coleção de instruções e
+>padrões de programação para acessar uma aplicação. Com uma API, é possível
+>projetar produtos baseados nos serviços que a API disponibiliza.
 >
-> HTML5 tiene varias APIs nuevas. Por ejemplo:
+>HTML5 possui várias APIs novas. Por exemplo:
 >
-> - Una API de dibujo en 2D utilizada con el nuevo elemento de lienzos para
->   representar gráficos y otras imágenes visuales
-> - Un mecanismo API de memoria caché que soporta aplicaciones web offline
-> - Una API para reproducir video y audio utilizado con los nuevos elementos de
->   video y audio
-> - Una API de historial que hace que el historial de navegación sea accesible y
->   permite que las páginas se agreguen a este
-> - Una API de arrastrar y soltar para ser utilizada con el atributo draggable
-> - Una API de edición para ser utilizada con el atributo contenteditable
-> - Almacenamiento del lado del cliente con APIs de JavaScript para pares de
->   valor clave y también bases de datos SQL intercaladas
+>- Uma API de desenho em 2D utilizada com o novo elemento de canvas para
+>  representar gráficos e outras imagens;
+>- Um mecanismo de API de memória cache que suporta aplicações web _offline_;
+>- Uma API para reproduzir vídeo e áudio utilizando os novos elementos de vídeo
+>  e áudio;
+>- Uma API de histórico que faz com que o histórico de navegação seja acessível
+>  e permita que as páginas o utilizem;
+>- Uma API para arrastar e soltar para ser utilizada com o atributo _draggable_;
+>- Uma API de edição para ser utilizada com o atributo _contenteditable_;
+>- Armazenamento do lado do cliente com APIs de JavaScript para pares de
+>  chave/valor e também bases de dados SQL intercaladas.
 >
-> Este texto es un extracto del [blog publicado en IBM](https://www.ibm.com/developerworks/ssa/web/library/wa-html5fundamentals3/index.html)
-> por Grace Walker.
+>Este texto é um trecho do [blog publicado na
+>IBM](https://www.ibm.com/developerworks/ssa/web/library/wa-html5fundamentals3/index.html)
+>por Grace Walker.
 
-## ¿Qué APIs veremos en esta unidad?
+## Quais APIs veremos nesta unidade?
 
-En esta unidad nos enfocaremos en 4 APIs del navegador, pero no será una
-limitante, lo que verás te dará una base para enfrentarte al variado universo
-de APIs que HTML5 trae consigo. Las APIs que revisaremos son **Media, Web
-Storage, Geolocation y Drag and Drop**.
+Nesta unidade abordaremos 4 APIs do navegador, mas isso não será um limitador. O
+que veremos lhe dará uma base para trabalhar no variado universo de APIs que
+HTML5 traz consigo. As APIs que veremos são **Media, Web Storage, Geolocation e
+Drag and Drop**.
 
-## ¿Quieres saber qué APIs existen?
+## Quer saber quais APIs existem?
 
-En el sitio de [html5index.org](http://html5index.org/) puedes encontrar la lista
-de HTML5 JavaScript APIs con algunos recursos para que puedas obtener mayor
-información. Como te darás cuenta, hay muchas de estas APIs y cubrirlas todas
-no sería posible, pero te sugerimos que no solo revises las que verás a
-continuación.
+No sítio web [html5index.org](http://html5index.org/) você pode encontrar a
+lista de APIs de JavaScript do HTML5 com alguns recursos para que possa obter
+mais informações. Como você perceberá, existem muitas destas APIs e vermos todas
+não seria possível, por isso sugerimos que você se atenha às que veremos a
+seguir.
 
-## Guía de preguntas y conceptos clave
+## Guia de perguntas e conceitos chave
 
-Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
-conceptos más importantes de lo que vamos a aprender y de los temas centrales
-que debemos prestar particular atención.
+Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos
+mais importantes que vamos aprender e dos temas centrais a que devemos prestar
+atenção especial.
 
-A continuación te presentamos una serie de preguntas que debes ser capaz de
-responder al terminar esta unidad. Utiliza estas preguntas como guía para
-orientar tus esfuerzos de aprendizaje. Regresa a ellas constantemente a
-medida que avanzas para validar que estás avanzando en la dirección correcta.
-Que te sirva como un "checklist" que vas marcando a medida que vas progresando.
+A seguir apresentamos uma série de perguntas que você deve ser capaz de
+responder ao terminar esta unidade. Use estas perguntas como guia para orientar
+seu esforço de aprendizagem. Retorne a elas constantemente à medida em que
+avança para validar que está indo na direção correta. Que este guia sirva como
+um "checklist" que você vai riscando conforme avança.
 
-- ¿Qué son las  APIs del navegador?
-- ¿Cómo uso las APIs del navegador?
-- ¿Qué se necesita para la manipulación de audio y video?
-- ¿Cómo almaceno datos en el navegador?
-- ¿Cuál es la diferencia entre `localStorage` y `sessionStorage`?
-- ¿Cómo obtengo la ubicación actual del usuario?
-- ¿Qué significa DnD?
-- ¿Qué otras APIs del navegador conoces?
+- O que é HTML5?
+- Qual é a diferença entre HTML e HTML5?
+- O que são as APIs do navegador?
+- Como utilizo as APIs do navegador?
+- O que é necessário para a manipulação de áudio e vídeo?
+- Como armazeno dados no navegador?
+- Qual é a diferença entre `localStorage` e `sessionStorage`?
+- Como obtenho a localização atual do usuário?
+- O que significa DnD?
+- Quais outras APIs do navegador você conhece?

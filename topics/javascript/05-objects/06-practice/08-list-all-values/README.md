@@ -1,40 +1,38 @@
 # listAllValues
 
-Escribe una función llamada `listAllValues` que devuelve un array de todos los
-valores del objeto de entrada.
+Escreva uma função chamada `listAllValues` que retorna um _array_ de todos os
+valores do objeto de entrada.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
+```javascript
 {
-  name: 'Krysten',
+  name: 'Krysten'
   age: 33,
-  hasPets: false
+  hasPets: false
 }
 ```
 
-Valor de retorno de la función (salida):
+Valor devolvido pela função \(saída\):
 
-```js
+```javascript
 ['Krysten', 33, false]
 ```
 
-Ten en cuenta que la entrada puede tener un número diferente de llaves y
-valores que la muestra dada.
+Observe que a entrada pode ter um número diferente de chaves e valores que a
+amostra fornecida. Por exemplo, você também deve manipular uma entrada como:
 
-Por ejemplo, también debe manejar una entrada como:
-
-```js
+```javascript
 {
-  a: 'a',
-  number: 11,
+  a: 'a',
+  number: 11 ,
   hungry: true,
-  grammyWins: 1
+  grammyWins: 1
 }
 ```
 
-Valor de retorno de la función (salida):
+Valor devolvido pela função \(saída\):
 
-```js
+```javascript
 ['a', 11, true, 1]
 ```

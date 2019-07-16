@@ -1,40 +1,40 @@
-# Combinando arrays con objects
+# Vetores e Objetos
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-***
-
-## Objetivos de Aprendizaje
-
-- Entender, por medio de un ejemplo, cómo combinar las dos estructuras de datos
-  aprendidas en esta unidad: `arrays` y `objects`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `60 min`
 
 ***
 
-El texto a continuación se basa en gran medida, con ciertos ajustes, en 4 de
-[JavaScript for kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+## Objetivos de Aprendizagem
+
+* Entender, por meio de um exemplo, como combinar as duas estruturas de dados
+  estudadas nesta unidade: `array` e `object`
+
+***
+
+O texto abaixo é amplamente baseado, com alguns ajustes, em 4 de [JavaScript for
+Kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf) ,
 Nick Morgan, 2015.
 
 ***
 
-## Combinando arrays con objects
+## Combinando _arrays_ com _objects_
 
-Ya hemos visto el caso de tener un `array` como valor de una propiedad
-**dentro** de un `object` (por ejemplo, un `array` de los protagonistas de un
-`object` movie), pero otra combinación bastante común para agrupar data es
-tener un `array` **de** `objects`.Veamos un ejemplo:
+Já vimos o caso de ter um `array`como valor de uma propriedade **dentro de** um
+`object` \(por exemplo, um `array` do elenco de um `object` _movie_\), mas outra
+combinação bem comum para agrupar dados é ter um `array` de `objects`. Vejamos
+um exemplo:
 
-Imaginemos que tenemos data de 3 estudiantes de Laboratoria y queremos
-estructurarla en nuestro programa. Para cada estudiante, tenemos cierta data: su
- nombre, sus puntos, los cursos que ha completado y si la estudiante ha
-abandonado o sigue cursando el programa.
+Imagine que temos dados de 3 estudantes da Laboratoria e queremos estruturá-los
+em nosso programa. Para cada aluna, temos os dados: seu nome, sua pontuação, os
+cursos que ela completou e se a aluna deixou ou continua com o programa.
 
-Una manera de estructurar esta data sería crear un `object` para cada estudiante
-, cada uno con su información, y luego un `array` que contenga los 3 `objects`.
+Uma maneira de estruturar esses dados seria criar um `object` para cada aluna,
+cada um com suas informações e, em seguida, um `array` que contenha todos os
+três `objects`.
 
-Veamos:
+Vamos ver:
 
 ```js
 
@@ -63,24 +63,28 @@ const students = [michelle, alexandra, andrea];
 
 ```
 
-Fíjate que para cada propiedad de los `objects` hemos utilizado un tipo de dato
-diferente:
+Observe que, para cada propriedade dos `objects`, usamos um tipo diferente de
+dados:
 
-- El nombre es un `string`
-- Los puntos son un `number`
-- Para saber si está estudiando o ha abandonado el programa escogimos un
-  `boolean`, donde `true` significa que está activa (es decir, estudiando)
-- Los cursos que ha completado son un `array`.
+* O nome é um `string`
+* Os pontos são um `number`
+* Para descobrir se ela está estudando ou saiu do programa, escolhemos um
+  `boolean`, onde `true` quer dizer que ela está ativa \(ou seja, estudando\)
+* Os cursos que completou estão em um `array`.
 
-Qué lindo cuando ya vemos todo lo que hemos aprendido aplicado en un solo bloque
-de código, ¿no? :) Lo mejor de todo es que con esta estrutura podemos acceder a
-la data de manera sencilla.
+Que legal quando vemos tudo o que aprendemos aplicado em um único bloco de
+código, né? :\) A melhor parte é que, com essa estrutura, podemos acessar os
+dados de maneira simples.
 
-A continuación Michelle te explica cómo utilizar `funciones`, `estructuras
-repetitivas` y `estructuras condicionales` para imprimir en la consola:
+<!--
+TODO: traduzir vídeo Em seguida, Michelle dirá como usar `funções`, `estruturas
+de repetição` e `estruturas condicionais` para imprimir no console:
 
-1. Los nombres de todas las estudiantes **activas**
-2. Los puntos totales de la clase
-3. Los nombres de las estudiantes que han llevado el curso de **'JS avanzado'**
+1. Os nomes de todos as alunas ativas
+2. O total de pontos da turma
+3. Os nomes das alunas que fizeram o curso **"JS avançado"**
 
-[![video](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)](https://www.youtube.com/watch?v=M4vXJ62IIlI)
+[![V&#xED;deo sobre arrays com
+objects](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)]
+(https://www.youtube.com/watch?v=M4vXJ62IIlI)
+-->

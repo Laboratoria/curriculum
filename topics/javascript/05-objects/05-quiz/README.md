@@ -1,68 +1,68 @@
 # Quiz 1
 
 - Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `15min`
+- Formato: `individual`
+- Duração: `15 min`
 
 ***
 
 ## Objetivos
 
-- En esta sección tendrás la oportunidad de evaluarte para que pongas tus
-  conocimientos a prueba. Es una oportunidad para que te calibres y valides que
-  realmente estás aprendiendo. ¡Mucho éxito!
+- Nesta seção, você terá a oportunidade de avaliar a si mesma para colocar seu
+  conhecimento à prova. É uma oportunidade para você se testar e verificar que
+  realmente está aprendendo. Sucesso!
 
 ***
 
-## Preguntas
+## Perguntas
 
-### 1) ¿Cuál de los siguientes enunciados sobre Objects **NO** es correcto?
+### 1\) Qual das seguintes afirmações sobre objetos **NÃO** está correta?
 
-#### Opciones
+#### Opções
 
-1. Los _Keys_ de los Objects son equivalente a sus propiedades
-2. Podemos calcular su longitud con la propiedad `length`
-3. No es necesario colocar los _Keys_ entre comillas
-4. Podemos incluir una función como propiedad
+1. As chaves dos objetos são equivalentes às suas propriedades
+2. Podemos calcular seu comprimento com a propriedade `length`
+3. Não é necessário colocar as chaves entre aspas
+4. Podemos incluir uma função como propriedade
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Cómo podemos acceder a los valores de un Object? Puedes seleccionar una o más opciones
+### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções
 
-#### Opciones
+#### Opções
 
-1. Usando corchetes `[]`
-2. Usando paréntesis `()`
-3. Usando dos puntos `:`
-4. Usando punto `.`
+1. Usando colchetes `[]`
+2. Usando parênteses `()`
+3. Usando dois pontos `:`
+4. Usando ponto `.`
 
-<solution style="display:none;">1,4</solution>
+1,<solution style="display:none;">4</solution>
 
-### 3) Las propiedades generalmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado y los métodos usualmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre el valor asociado
+### 3\) As propriedades geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado e os métodos geralmente \_\_\_\_\_\_\_\_\_\_\_\_\_ algo sobre o valor associado
 
-#### Opciones
+#### Opções
 
-1. nos muestran - conservan
-2. conservan -  nos muestran
-3. nos dicen - hacen
-4. hacen - nos dicen
+1. nos mostram - conservam
+2. conservam - nos mostram
+3. nos dizem - fazem
+4. fazem - nos dizem
 
 <solution style="display:none;">3</solution>
 
-### 4) `toUpperCase()` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que hace la acción de transformar a _mayúsculas_ el valor asociado, mientras que `length` es \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos dice la _longitud_ del valor asociado
+### 4\) `toUpperCase()` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que faz a ação de transformar em _maiúsculas_ o valor associado, enquanto `length` é \_\_\_\_\_\_\_\_\_\_\_\_\_ que nos informa o _comprimento_ do valor associado
 
-#### Opciones
+#### Opções
 
-1. un object - un array
-2. un array - un object
-3. una propiedad - un método
-4. un método - una propiedad
+1. um objeto - um _array_
+2. um _array_ - um objeto
+3. uma propriedade - um método
+4. um método - uma propriedade
 
 <solution style="display:none;">4</solution>
 
-### 5) En el siguiente código
+### 5\) Confira o código a seguir
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -71,9 +71,9 @@ var movie = {
 };
 ```
 
-¿Cómo accedo a la propiedad `director`?
+Como eu acesso a propriedade `director`?
 
-#### Opciones
+#### Opções
 
 1. `movie{director}`
 2. `director[0]`
@@ -82,53 +82,53 @@ var movie = {
 
 <solution style="display:none;">3</solution>
 
-### 6) ¿Cuál es el error en el siguiente código?
+### 6\) Qual é o erro no código abaixo?
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson' ],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   oscar: 1,
   other awards: 'best sound',
   tags: []
 }
 ```
 
-#### Opciones
+#### Opções
 
-1. El número `1` debe ir entre comillas
-2. Le faltan las comillas a la propiedad `other awards`
-3. La propiedad `tags` no puede estar vacía
-4. No hay ningún error
+1. O número `1` deve estar entre aspas
+2. Faltam as aspas para a propriedade `other awards`
+3. A propriedade `tags` não pode estar vazia
+4. Não há erro
 
 <solution style="display:none;">2</solution>
 
-### 7) ¿Cuál es el resultado del siguiente código?
+### 7\) Qual é o resultado do código seguinte?
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
-  stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
+  stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   tags: ['Adventure', 'Comedy', 'Sci-Fi']
 };
 
 console.log(movie.stars[2]);
 ```
 
-#### Opciones
+#### Opções
 
 1. Michael J. Fox
 2. Christopher Lloyd
 3. Lea Thompson
-4. undefined
+4. indefinido
 
 <solution style="display:none;">3</solution>
 
-### 8) En el siguiente código
+### 8\) No código a seguir
 
-```js
+```javascript
 var movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
@@ -137,9 +137,9 @@ var movie = {
 };
 ```
 
-¿cómo podemos acceder a la lista de _keys_ del Objeto `movie`?
+como podemos acessar a lista de chaves do objeto `movie`?
 
-#### Opciones
+#### Opções
 
 1. `movie:keys`
 2. `movie.length`
@@ -148,15 +148,15 @@ var movie = {
 
 <solution style="display:none;">3</solution>
 
-### 9) ¿Cuál es el error en el siguiente código?
+### 9\) Qual é o erro no código a seguir?
 
-```js
+```javascript
 function objectToArray(object) {
 
   var items = Object.keys(object);
   var newArray = [];
 
-  for (var i = 0; i < items.length; i += 1) {
+  for (var i = 0; i < items.length; i++) {
     newArray.pop([items[i], object[items[i]]]);
   }
 
@@ -167,11 +167,11 @@ console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 // → [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]
 ```
 
-#### Opciones
+#### Opções
 
-1. La variable `newArray` no puede estar vacía
-2. La variable `i` debe empezar en `1`
-3. Se debe usar `push` en lugar de `pop`
-4. Se debe usar `console.log` en lugar de `return`
+1. A variável `newArray` não pode estar vazia
+2. A variável `i` deve começar em `1`
+3. Deve ser usado em `push` vez de `pop`
+4. Deve ser usado em `console.log` ao invés de `return`
 
 <solution style="display:none;">3</solution>

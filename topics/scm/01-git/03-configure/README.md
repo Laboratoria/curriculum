@@ -48,5 +48,13 @@ Os dados das linhas acima devem ser os mesmos que você usou ao criar a sua cont
 no `GitHub`, pois eles ficarão gravados nos `commits` que você fizer no `Git` e
 farão parte do histórico do projeto que está armazenado no `GitHub`.
 
-[![Subiendo
-repositorio](https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)](https://www.youtube.com/watch?v=g9iNK_11KV4)
+<!--
+
+  Traduzir para PT
+
+[
+  ![Subiendo
+repositorio]
+  (https://img.youtube.com/vi/g9iNK_11KV4/0.jpg)
+](https://www.youtube.com/watch?v=g9iNK_11KV4)
+-->

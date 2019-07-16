@@ -1,114 +1,105 @@
-# Modificando el DOM
+# Modificando o DOM
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `120min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-En esta unidad aprenderemos:
+Nesta unidade aprenderemos:
 
-- Cómo manipular los nodos del DOM.
-- Cómo crear, añadir y eliminar Nodos al DOM.
-  * `document.createTextNode()`
-  * `document.createElement()`
-  * `.appendChild()`
-  * `.removeChild()`
-- Conocer sobre las siguientes propiedades:
-  * `.innerHTML`
-  * `.textContent`
-  * `.innerText`
-  * `.value`
-- Conocer sobre los siguientes métodos:
-  * `.replaceChild()`
-  * `.insertBefore()`
+* Como manipular os nós no DOM
+* Como criar, adicionar e eliminar nós no DOM
+  - `document.createTextNode()`
+  - `document.createElement()`
+  - `.appendChild()`
+  - `.removeChild()`
+* Conhecer as seguintes propriedades:
+  - `.innerHTML`
+  - `.textContent`
+  - `.innerText`
+  - `.value`
+* Conhecer sobre os seguintes métodos:
+  - `.replaceChild()`
+  - `.insertBefore()`
 
-## Modificando elementos y contenido del DOM
+## Modificando elementos e conteúdo do DOM
 
-En el tema anterior vimos qué es el DOM y cómo seleccionar nodos utilizando
-JavaScript. En esta ocasión vamos a utilizar el DOM para modificar el
-documento HTML utilizando JavaScript.
+No tópico anterior vimos o que é o DOM e como selecionar nós usando JavaScript.
+Desta vez vamos usar o DOM para modificar o documento HTML usando JavaScript.
 
-## Creación de nodos
+## Criação de nós
 
-El DOM nos ofrece una serie de métodos para añadir nodos al árbol de un
-documento, pero los más básicos son `.createElement()`, que crea un elemento, y
-`.createTextNode()`, que crea un nodo de texto.
+O DOM nos oferece uma série de métodos para adicionar nós a árvore de um
+documento, os métodos mais básicos são `.createElement()`, para criar um
+elemento e `.createTextNode()`, para criar um nós de texto.
 
-Crear y añadir a la página un nuevo elemento XHTML sencillo consta de cuatro
-pasos diferentes:
+Criar e adicionar a uma página um novo elemento é simples, você precisa de
+apenas quatro passos:
 
-1. Creación de un nodo de tipo Element que represente al elemento.
-2. Creación de un nodo de tipo Text que represente el contenido del elemento.
-3. Añadir el nodo Text como nodo hijo del nodo Element.
-4. Añadir el nodo Element a la página, en forma de nodo hijo de el nodo
-   existente en el HTML, en el cual se quiere insertar.
+1. Criar um nó do tipo `Element` que represente o elemento.
+2. Criar um nós do tipo `Text` que presente o conteúdo do elemento.
+3. Adicionar o nós `Text` como filho do nós `Element`.
+4. Adicionar nós `Element` na página.
 
-Este proceso de creación de nuevos nodos implica la utilización de tres
-funciones DOM:
+Este processo de criação de novos nós implica na utilização de três funções de
+DOM:
 
-1. `createElement(etiqueta)`
+1. `createElement(tag)`
 
-   Crea un nodo de tipo Element que representa al elemento XHTML cuya etiqueta
-   se pasa como parámetro.
+    Cria um nós do tipo `Element` que representa um elemento XHTML cuja a _tag_
+    é passada como parâmetro.
 
-2. `createTextNode(contenido)`
+2. `createTextNode(conteúdo)`
 
-   Crea un nodo de tipo Text que almacena el contenido textual de los elementos
-   XHTML.
+    Criar um nós do tipo `Text` que armazena o conteúdo de texto dos elementos.
 
-3. `nodoPadre.appendChild(nodoHijo)`
+3. `nóPai.appendChild(nóFilho)`
 
-   Añade un nodo como hijo de otro nodo. Si se ocupa esta función para añadir el
-   nodo `Text` como hijo del nodo `Element` y a su vez este nodo `Element` como
-   hijo del nodo existente en el HTML, `appendChild` se utiliza al menos dos
-   veces. Con esta función el nuevo nodo se incluye inmediatamente después de
-   los hijos ya existentes.
+    Adiciona o `nóFilho` dentor do `nóPai`.
 
-De este modo, si se quiere añadir un párrafo simple al final de una página
-XHTML, es necesario incluir el siguiente código JavaScript.
+Desta maneira, se quiser adicionar um parágrafo no final de um página, é
+necessário incluir o seguinte código JavaScript.
 
 ```js
-// Crear nodo de tipo Element
+// Cria o nó do tipo Element
 const paragraph = document.createElement("p");
-// Crear nodo de tipo Text
+// Cria o nó do tipo Text
 const content = document.createTextNode("Hola Mundo!");
-// Añadir el nodo Text como hijo del nodo Element
+// Adiciona o nó Text como filho do nós Element
 paragraph.appendChild(content);
-// Añadir el nodo Element como hijo de la pagina
+// Adiciona o nó Element como filho da página
 document.body.appendChild(parrafo);
 ```
 
-Hay que recordar que el DOM es la interfaz que conecta el documento HTML con
-JavaScript. Es por eso que, al utilizar `.createElement()`, el nodo no será
-visible, ya que hasta este momento no es más que una especie de fantasma que
-existe en el documento, pero hasta que no se le asigne una posición en el árbol
-no se mostrará al usuario. De la misma manera, con la función
-`.createTextNode()` el texto existe, pero en ninguna parte mas. Es necesario
-convertir cualquiera de estos nodos en hijo de otro nodo existente por medio de
-la función `.appendChild()`.
+Temos que lembrar que o DOM é uma interface que conecta o documento HTML com o
+JavaScript. É por isso que ao utilizar `.createElement()`, o nó não ficará
+visível, ele será uma espécie de fantasma dentro do documento. Isso ocorre da
+mesma maneira com a função `.createTextNode()` e o texto passado como parâmetro.
+Para que esses elementos sejam visíveis na tela, temos que lembrar de utilizar
+alguma função como `.appendChild()` para adicionar esses elementos ao documento
+HTML.
 
-## Eliminar nodos del DOM
+## Remover nós do DOM
 
-Dado que podemos incluir nuevos hijos en un nodo, tiene sentido que podamos
-eliminarlos. Para ello existe el siguiente método:
+Como podemos incluir novos filhos em um nó, faz sentido eliminá-los. Para isso,
+existe o seguinte método:
 
 ### `removeChild()`
 
-Para quitar un nodo del documento tenemos que seleccionar el padre del nodo, y
-desde ahí, remover el nodo deseado.
+Para remover um nó do documento, temos que selecionar o pai do nó e, a partir
+daí, remover o nó desejado.
 
-Si no conocemos el padre del nodo podemos seleccionar directamente el nodo,
-obtener el padre, con `.parentNode`, para después utilizar `.removeChild()`
-y eliminarlo.
+Se não soubermos o pai do nó, podemos selecionar diretamente o nó, obter o pai
+\(com `.parentElement`\) e usar `.removeChild()` para excluí-lo.
 
-- Sintaxis:
+Sintaxis:
 
-  ```js
-  padre.removeChild(nodoAEliminar);
-  ```
+```js
+  pai.removeChild(nóParaEliminacao);
+```
 
 ```js
 const container = document.getElementById('container');
@@ -116,9 +107,9 @@ const paragraph = document.getElementById('paragraph');
 container.removeChild(paragraph);
 
 /*
- * Con el nodo seleccionado utilizamos `.parentNode`
- * para seleccionar el padre. Desde el padre utilizamos
- * `.removeChild()` para eliminar el nodo seleccionado.
+ * Com o nó selecionado utilizamos '.parentElement'
+ * para selecionar o pai. A partir do pai utilizamos
+ * '.removeChild()' para eliminar o nó selecionado.
  */
 
 const paragraph = document.getElementById('paragraph');
@@ -130,129 +121,135 @@ hijos que tenga, por lo que no es necesario borrar manualmente cada nodo hijo.
 
 ## Más funciones para manipulación de DOM
 
-Aquí arriba te hemos mostrado algunas funciones con las cuales puedes empezar a
-guiarte, pero es importante mencionar que a la hora de programar no hay una
-única solución posible y la solución que uno como desarrollador puede ofrecer
-depende mucho de las necesidades de cada proyecto, así que te presentaremos
-otros métodos y propiedades que puedes comenzar a probar.
+A cima mostramos algumas funções com as quais você pode começar a praticar, mas
+é importante mencionar que na hora de programar não existe apenas uma única
+maneira de fazer ou uma única solução possível. Pensando nisso vamos te
+apresentar alguns outros métodos e propriedade para você praticar.
 
-Comencemos por `.textContent` y `.innerHTML` que funcionan como propiedades para
-obtener y establecer el valor de un elemento específico.
+Os atributos `.textContent` e `.innerHTML` funcionam como propriedades para
+obter e modificar o valor de um elemento específico.
 
 ### `textContent`
 
-Al utilizar textContent sobre un nodo, se va a mostrar el contenido del texto
-que exista en el nodo y en los hijos del mismo. Si hay etiquetas HTML, son
-ignoradas. Si se le asigna un valor, va a reemplazar todo el contenido del nodo
-por la cadena de texto que se le asigne. Si la cadena de texto contiene
-etiquetas HTML, éstas se van a escapar y se van a visualizar como texto.
-Los cambios realizados no van a ser permanentes, el documento va a regresar a
-su estado original una vez que se recargue el sitio.
+Ao usar `textContent` em um nó, ele mostrará o conteúdo do texto que existe no
+nó e seus filhos. Se houver tags HTML, elas serão ignoradas. Se um valor for
+atribuído, ele substituirá todo o conteúdo do nó pela _string_ atribuída a ele.
+Se a _string_ contiver tags HTML, elas serão interpretadas e exibidas como
+texto. As alterações feitas não serão permanentes, o documento retornará ao seu
+estado original assim que o site for recarregado.
 
-![textContent](http://blog.eamexicano.com/wp-content/uploads/2014/02/textcontent.png)
+![textContent](https://user-images.githubusercontent.com/11894994/59518266-b5a3d980-8e9b-11e9-8ee1-1624d0047213.png)
 
 #### innerHTML
 
-Funciona de manera similar a textContent pero, además de mostrar el texto que
-exista en el nodo seleccionado y en los hijos, se van a mostrar las etiquetas
-de HTML que pudieran existir. Si se le asigna un valor, se va a reemplazar el
-contenido del nodo incluyendo a sus hijos por la cadena de texto que se le
-asigne. A diferencia de `textContent`, si dentro de la cadena de texto asignada
-existen etiquetas HTML, se van a visualizar en el navegador. Los cambios
-realizados no van a ser permanentes, el documento va a regresar a su estado
-original una vez que se recargue el sitio.
+Funciona de maneira semelhante ao textContent, mas, além de mostrar o texto que
+existe no nó selecionado e nos filhos, ele mostrará as tags HTML que podem
+existir. Se um valor for atribuído a ele, o conteúdo do nó será substituído,
+incluindo seus filhos, pela sequência de texto atribuída a ele. Ao contrário
+do`textContent`, se as tags HTML existirem na _string_ atribuída, elas serão
+exibidas no navegador. As alterações feitas não serão permanentes, o documento
+retornará ao seu estado original assim que o site for recarregado.
 
-![textContent](http://blog.eamexicano.com/wp-content/uploads/2014/02/innerhtml.png)
+![textContent](https://user-images.githubusercontent.com/11894994/59518324-cf452100-8e9b-11e9-82a0-99a3895f5ad1.png)
 
-En el siguiente video vemos de forma práctica, cómo utilizar `.innerHTML` y
+No vídeo a seguir, vemos de uma maneira prática, como usar `.innerHTML` e
 `.textContent`:
 
-[Modificando, reemplazando y eliminando nodos](https://www.youtube.com/watch?v=KpiYwPLGEWs&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=16)
+[Modificando, substituindo e excluindo nós](https://www.youtube.com/watch?v=jWpUT_dF8EA)
 
 #### value
 
-La propiedad `value` establece o devuelve el valor del atributo value de un
-elemento html, siempre y cuando en dicho elemento exista la propiedad value,
-algunas de las etiquetas que contienen la propiedad `value` son elementos de
-formularios.
+A propriedade `value` retorna o valor do atributo `value` de um elemento HTML,
+sempre e quando existir a propriedade `value` no elemento. Algunas das _tags_
+que contém a propriedade `value` são os elementos de formulário.
 
-- Sintaxis
+Sintaxis
 
-  * Devuelve la propiedad value: `elemento.value;`
-  * Establece la propiedad value: `elemento.value = texto;`
+* Retorna a propriedade **value**: `elemento.value`;
+* Modifica a propriedade **value**: `elemento.value = texto`;
 
-> Nota: el valor devuelto es un string, que representa el valor del campo de
-> texto.
+> Nota: o valor de retorno é uma _string_, que representa o valor do campo de texto.
 
-Puedes ver un ejemplo más claro en este [pen](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0).
+Você pode ver um exemplo mais claro neste
+[pen](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0) .
 
-#### insertBefore
+### insertBefore
 
-Nos permite elegir un nodo del documento e incluir otro antes que él.
+ Permite escolher um nó do documento e incluir outro antes dele.
 
-```js
-padre.insertBefore(nuevoNodo, nodoDeReferencia);
+```javascript
+pai.insertBefore(novoNo, noDeReferencia);
 ```
 
-Si tuviéramos un fragmento de un documento como éste:
+ Se tivéssemos um fragmento de um documento como este:
 
 ```html
 <div id="container">
-    <p>Primer párrafo.</p>
-    <p>Segundo párrafo.</p>
+    <p>Primeiro parágrafo</p>
+    <p>Segundo paragráfo</p>
 </div>
 ```
 
-y quisiéramos añadir un nuevo párrafo antes del segundo, lo haríamos así:
+e quiséssemos adicionar um novo parágrafo antes do segundo, faríamos assim:
 
-```js
-// Creamos el nuevo párrafo con su hijo texto
+```javascript
+// Criamos o novo parágrago com seu texto filho
 const newParagraph = document.createElement('p');
-const paragraphText = document.createTextNode('Nuevo párrafo.');
+const paragraphText = document.createTextNode('Novo parágrafo.');
 newParagraph.appendChild(paragraphText);
 
-// Guardamos en una variable el padre y en otra variable el segundo párrafo
+// Armazenamos em uma varipavel o pai e em outra variável o segundo parágrafo
 const container = document.getElementById('container');
 const secondParagraph = container.getElementsByTagName('p')[1];
 
-// Y ahora lo insertamos
+// Agora inserimos
 container.insertBefore(newParagraph, secondParagraph);
 ```
 
-#### replaceChild
+### replaceChild
 
-Este método se utiliza para reemplazar un nodo secundario por otro. Toma como
-argumentos dos nodos: un nuevo nodo y el nodo a ser reemplazado. El nodo
-reemplazado debe ser un elemento secundario del elemento al que se llama el
-método.
+Este método é usado para substituir um nó secundário por outro. Tome como
+argumentos dois nós: um novo nó e o nó a ser substituído. O nó substituído deve
+ser um filho do elemento para o qual o método é chamado.
 
-- Sintaxis:
+Sintaxe:
 
-  ```js
-  padre.replaceChild(nuevoNodo, nodoAReemplazar);
-  ```
+```javascript
+    pai.replaceChild(novoNo, noParaSubstituir);
+```
 
-Con el mismo HTML que para el ejemplo de `.insertBefore()`, si quisiéramos
-sustituir el segundo párrafo por el que creamos, lo haríamos así:
+Com o mesmo HTML do exemplo de `.insertBefore()`, se quiséssemos substituir o
+segundo parágrafo pelo qual criamos, faríamos assim:
 
-```js
+```javascript
 container.replaceChild(newParagraph, secondParagraph);
 ```
 
-> Tenga en cuenta que tanto `.replaceChild()` como `.insertBefore()` esperan el
-> nuevo nodo como su primer argumento.
+> Note que tanto `.replaceChild()` tanto quanto `.insertBefore()` esperam que o
+> novo nó seja o primeiro argumento.
 
-### A practicar
+<!--
 
-Te recomendamos replicar los ejemplos de código que se han ido mostrando a la
-largo de la lectura. Además de poner en práctica la teoría con los siguientes
-vídeos.
+TODO: traduzir videos
 
-- Este video dura 8:18, en el minuto 2:25 empieza a utilizar los métodos
-  `.createElement()` y `.createTextNode()`.
+## Vamos praticar
 
-  [Creando nodos del DOM](https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
+Nos vídeos a seguir vamos colocar em prática a parte teórica já que eles usam os
+métodos como criar, adicionar e eliminar os nós do DOM por meio do Javascript e
+assim poder criar páginas dinâmicas. sugerimos que você faça o exercício junto
+com o vídeo e se necessário, você pode ir pausando.
 
-- Este otro video agrega los nodos creados al DOM.
+* Este vídeo dura 8:18, no minuto 2:25 começa a usar os métodos
+  `.createElement()` e `.createTextNode()`.
 
-  [Agragando nodos al DOM](https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
+  [Criando nós DOM]
+  (https://www.youtube.com/watch
+  ?v=b-ZWMiqsAeU
+  &list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
+
+* Este outro vídeo adiciona os nós criados ao DOM.
+
+  [Agregação de nós ao DOM]
+  (https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&
+  list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
+-->

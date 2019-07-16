@@ -1,69 +1,76 @@
 # Web Storage
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Aprender a almacenar datos en el navegador a través de la API de Web Storage
+- Aprender a armazenar dados no navegador por meio da API de Web Storage.
 
-## Almacenamiento web
+## Armazenamento web
 
-La API de almacenamiento web proporciona los mecanismos mediante los cuales
-el navegador puede almacenar información de tipo **clave/valor**, de una forma
-mucho más intuitiva que utilizando cookies.
+A API de armazenamento web fornece os mecanismos através do quais o navegador
+pode armazenar informação do tipo **chave/valor** de uma maneira muito mais
+intuitiva do que utilizando *cookies*.
 
-Los dos mecanismos en el almacenamiento web son los siguientes:
+Os dois mecanismos de armazenamento web são os seguintes:
 
-- `sessionStorage` mantiene un área de almacenamiento separada para cada origen
-  que está disponible por la duración de la sesión de la página (tanto si el
-  navegador esta abierto como si no, incluyendo recargas de página y
-  restablecimientos).
-- `localStorage` hace lo mismo, pero persiste incluso cuando el navegador es
-  cerrado y reabierto.
+- `sessionStorage`: mantém uma área de armazenamento separada para cada origem
+  que estiver disponível pela duração da sessão da página (tanto se o navegador
+  estiver aberto como se estiver fechado, incluindo recarregamento de páginas e
+  restabelecimentos).
+- `localStorage` faz o mesmo, mas persiste inclusive quando o navegador é
+  fechado e reaberto.
 
-Fuente: [MDN - API de almacenamiento web](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web)
+Fonte: [MDN - API de armazenamento
+web](https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API_pt_br)
 
-Mira el siguiente enlace: [https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/),
-juega con él y recarga la página, si deseas cierra la pestaña o el navegador y
-vuelve a ingresar. ¿Te diste cuenta que tus cambios permanecieron? Esto es lo
-que la API de Web Storage (almacenamiento web) nos permite hacer fácilmente.
+Veja o seguinte link:
+[https://mdn.github.io/dom-examples/web-storage/](https://mdn.github.io/dom-examples/web-storage/),
+brinque com ele e recarregue a página ou, se desejar, feche a janela ou o
+navegador e volte a acessar. Ele informa quantas mudanças permaneceram? Isto é o
+que a API de Web Storage (armazenamento web) permite que façamos facilmente.
 
-¿Aun no te queda del todo claro? Acá te dejamos [un post de Medium](https://medium.com/laboratoria-how-to/api-web-storage-ad9b1efa9b01)
-escrito por nuestra súper profe Marcia donde te explica los métodos que tenemos
-disponibles a través de esta API.
+Ainda não está claro pra você? Aqui deixamos um [post de
+Medium](https://medium.com/laboratoria-how-to/api-web-storage-ad9b1efa9b01)
+escrito por nossa super professora Marcia no qual ela explica os métodos que
+temos disponíveis por meio desta API.
 
-Si eres de las que prefiere el contenido visual, acá te dejamos un video que
-te permite ver un ejemplo de cómo usar `localStorage`.
+<!--
+TODO: Traduzir vídeo
 
-[![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)](https://youtu.be/hb8O0qRqiSk)
+Se você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe
+permite ver um exemplo de como usar `localStorage`.
 
-## ¿`JSON.stringify()`, `JSON.parse()`?
+[![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)]
+(https://youtu.be/hb8O0qRqiSk)
+-->
 
-Si revisaste el video, habrás percibido que usa los métodos `JSON.stringify()` y
-`JSON.parse()`, sino lo viste, aun así es bueno que tengas presente ambos
-métodos.
+## `JSON.stringify()`, `JSON.parse()`?
 
-Como bien es mencionado en la parte superior, esta API almacena elementos en el
-formato de clave/valor. Ejemplo: si tengo el nombre del usuario en una variable
-llamada `name` y quiero almacenarla en el navegador, haría lo siguiente:
+Se você assistiu ao vídeo, percebeu que ele usa os métodos `JSON.stringify()` e
+`JSON.parse()`. Se não o viu, é bom que tenha em mente ambos os métodos.
+
+Como é mencionado na parte superior, esta API armazena elementos no formato de
+chave/valor. Exemplo: se tenho o nome do usuário em uma variável chamada `name`
+e quero armazená-la no navegador, você faria o seguinte:
 
 ```javascript
-const name = 'nombre de usuario';
+const name = 'nome de usuário';
 /*
- * name es el identificador (clave),
- * y el valor está almacenada en la variable `name`
+ * name é o identificador (chave),
+ * e o valor está armazenado na variável `name`
  */
 localStorage.setItem('name', name);
-// Si usáramos sessionStorage, solo cambiaríamos el objeto de localStorage
+// Se usássemos sessionStorage, só mudaríamos o objeto de localStorage
 // sessionStorage.setItem('name', name);
 ```
 
-> El valor siempre será almacenado como `string` independientemente del tipo de
-> dato con el que se almacenen.
+> O valor sempre será armazenado como `string` independentemente do tipo de
+> dado.
 
 ```javascript
 // signup.html
@@ -75,12 +82,12 @@ const userAge = localStorage.getItem('age');
 typeof userAge; // "string"
 ```
 
-Bien, esto deberíamos tenerlo presente siempre, en especial cuando vamos a
-querer operar con esos valores como el caso de números o booleanos, pero
-¿cuándo usamos los métodos del objeto `JSON` entonces?. En ocasiones vamos a
-necesitar almacenar múltiples valores que estén relacionados entre sí,
-normalmente, lo representaríamos en un objeto, y debido a que todo lo que se
-almacena es un string, no lo podemos hacer directamente. Ejemplo:
+Bem, isso deveríamos saber sempre, em particular quando vamos operar com esses
+valores como o caso de números e booleanos. Mas e quando usamos os métodos do
+objeto `JSON`? Há situações em que vamos precisar armazenar múltiplos valores
+que estão relacionados entre si. Normalmente, representaríamos isso como um
+objeto e como tudo que ele armazena é uma string, não podemos fazê-lo
+diretamente. Exemplo:
 
 ```javascript
 // login.html
@@ -97,21 +104,23 @@ const loggedUser = sessionStorage.getItem('loggedUser');
 console.log(loggedUser); // "[object Object]"
 ```
 
-Esto ocurre ya que el intérprete trata de convertir el objeto a un string y
-esto hace que se almacence como `"[object Object]"`. Si quieres saber más sobre
-porqué el objeto se convierte a string de esa manera, debes de entender un poco
-sobre como funciona [coerción en JavaScript](https://jherax.wordpress.com/2014/07/05/javascript-coercion/),
-y entender sobre el método [`.toString()` de los objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/toString).
+Isto acontece porque o interpretador trata de converter o objeto para uma string
+e isto faz com que armazene como `"[object Object]"`. Se você quiser saber mais
+sobre porque o objeto é convertido para uma string dessa maneira, deve entender
+um pouco sobre como funciona a [coerção em
+JavaScript](https://jherax.wordpress.com/2014/07/05/javascript-coercion/) e
+entender sobre o método [`.toString()` dos
+objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects).
 
-En fin, ¿cómo solucionamos este inconveniente y logremos almacenar nuestro
-objeto? Entendamos qué hacen los siguientes métodos:
+Enfim, como resolvemos esta inconveniência e conseguimos armazenar nosso objeto?
+Entendamos o que fazem os seguintes métodos:
 
-- `JSON.stringify()`: convierte el objeto que es pasado como argumento a un
-  string, serializando las propiedades y valores.
-- `JSON.parse()`: convierte el string pasado como argumento a un objeto,
-  deserializando las propiedades y valores.
+- `JSON.stringify()`: converte o objeto que é passado como argumento para uma
+  string, serializando as propriedades e valores.
+- `JSON.parse()`: converte a string passada como argumento para um objeto,
+  desserializando as propriedades e valores.
 
-Ejemplo:
+Exemplo:
 
 ```javascript
 // login.html
@@ -122,23 +131,27 @@ const user = {
 };
 
 /*
- * Aquí se guarda el objeto en forma de string
+ * Aqui guardamos o objeto em forma de string.
  */
 sessionStorage.setItem('loggedUser', JSON.stringify(user));
 
 console.log(sessionStorage.getItem('loggedUser'));
-// {"name":"user","email":"user@gmail.com","photoUrl":"https://images.com/user.png"}
+// {
+//   "name":"user",
+//   "email":"user@gmail.com",
+//   "photoUrl":"https://images.com/user.png"
+// }
 
 
 // home.html
 /*
- * Aquí se obtiene el objeto en forma de string y se convierte (parsea) a objeto
+ * Aqui obtemos o objeto em forma de string e convertemos (parse) para objeto.
  */
 const loggedUser = JSON.parse(sessionStorage.getItem('loggedUser'));
 console.log(typeof loggedUser); // "object"
 ```
 
-> Para terminar, no olvides que lo almacenado en el localStorage persiste aun
-> cuando se cierra el navegador, así que si deseamos limpiar o eliminar lo que
-> tenemos almacenado, debemos de usar los métodos `.removeItem()` o `.clear()`
-> dependiendo si queremos eliminar una clave específica o todas.
+> Para finalizar, não esqueça de que o que foi armazenado no localStorage é
+> persistido mesmo quando fechamos o navegador. Logo, se desejamos limpar ou
+> apagar o que temos armazenado, devemos usar os métodos `.removeItem()` ou
+> `.clear()` dependendo se queremos eliminar uma chave específica ou todas.

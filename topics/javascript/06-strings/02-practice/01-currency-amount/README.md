@@ -1,16 +1,16 @@
-# Montos sin moneda
+# Montantes sem moeda
 
 * Environment: `js`
 
 ***
 
-Dado un arreglo de montos en distintas monedas, retornar solo los valores sin
-importar la moneda.
+Dado um `array` de valores em diferentes moedas, retorne apenas os valores sem
+importar a moeda.
 
-> Las monedas participantes solo son pesos chilenos ($ CLP), pesos mexicanos
-> ($ MXN) y soles (S/. PEN).
+> As moedas participantes são apenas pesos chilenos ($ CLP), pesos mexicanos
+> ($ MXN) e soles (S/. PEN).
 
-Ejemplo:
+Exemplo:
 
 ```javascript
 const output = currencyAmount([ '$ 600 CLP', '$ 1000 MXN', 'S/. 200 PEN' ]);

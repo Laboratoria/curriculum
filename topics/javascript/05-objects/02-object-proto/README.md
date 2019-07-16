@@ -1,19 +1,20 @@
 # Object.prototype
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+* Tipo: `leitura`
+* Formato: `individual`
+* Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Familiarizarse con `Object.prototype`
+* Conhecer o `Object.prototype`
 
 ## `Object.prototype`
 
-Todos los objetos en JavaScript provienen de `Object`, es decir que todos
-heredan los métodos y propiedades de `Object.prototype`, es decir que alterando
-este objeto, puedes alterar el comportamiento de **todos** los objetos.
+Todos os objetos em JavaScript provém de `Object`, quer dizer que todos herdam
+os métodos e propriedades de `Object.prototype`, quer dizer que alterando este
+objeto, se pode alterar o comportamento de **todos** os objetos.
 
-Entérate de más: [Object.prototype en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/prototype)
+Para entender melhor leia: [Object.prototype en
+MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)

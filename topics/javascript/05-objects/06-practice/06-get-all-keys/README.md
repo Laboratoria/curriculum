@@ -1,30 +1,30 @@
 # getAllKeys
 
-Escribe una función llamada `getAllKeys` que devuelve un array de todas las
-llaves del objeto de entrada.
+Escreva uma função chamada "getAllKeys" que retorna um _array_ com todas as
+chaves do objeto de entrada.
 
-Ejemplo de entrada:
+Exemplo de entrada:
 
-```js
+```javascript
 {
-  name: 'Sam',
+  name: 'Sam',
   age: 25,
-  hasPets: true
+  hasPets: true
 }
 ```
 
-Valor de retorno de la función (salida):
+Valor de retorno da função \(saída\):
 
-```js
+```javascript
 ['name', 'age', 'hasPets']
 ```
 
-Ten en cuenta que tu función debe ser capaz de manejar cualquier objeto pasado
-en ella.
+Tenha em mente que sua função deve ser capaz de manipular qualquer objeto
+passado nela.
 
-Por ejemplo, también debe manejar una entrada como:
+Por exemplo, você também deve tratar uma entrada como a seguinte:
 
-```js
+```javascript
 {
   a: 'a',
   number: 11,
@@ -33,8 +33,8 @@ Por ejemplo, también debe manejar una entrada como:
 }
 ```
 
-Valor de retorno de la función (salida):
+Saída da função:
 
-```js
+```javascript
 ['a', 'number', 'hungry', 'grammyWins']
 ```

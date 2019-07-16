@@ -1,48 +1,48 @@
-# XHR Recap
+# Revisão XHR
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+- Tipo: `leitura`
+- Formato: `individual`
+- Duração: `30min`
 
 ***
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
-- Reflexionar lo aprendido sobre XHR
+- Revisar o que foi aprendido sobre XHR.
 
 ## Como usamos XHR
 
-Hay una serie de pasos que debemos seguir para enviar una solicitud HTTP
-de forma asíncrona con JavaScript.
+Há uma série de passos que devemos seguir para enviar uma requisição HTTP de
+forma assíncrona com JavaScript.
 
-### Para enviar una petición
+### Para enviar una requisição
 
-- Creamos un objeto XHR con la función del constructor XMLHttpRequest
+- Criamos um objeto XHR com a função do construtor XMLHttpRequest.
 
-- Utilizamos el método .open() y configuramos el método HTTP y la URL
-  del recurso que se va a buscar
+- Utilizamos o método `.open()` e configuramos o método HTTP e a UTL do recurso
+  que vamos buscar.
 
-- Establecemos la propiedad .onload a nuestro objeto y a esto le asignamos
-  una función que se ejecutará en una búsqueda exitosa
+- Estabelecemos a propriedade `.onload` ao nosso objeto e a ela atribuímos uma
+  função que será executada se houver sucesso na pesquisa.
 
-- Establecer la propiedad .onerror a nuestro objeto y a esto le asignamos una
-  función que se ejecutará cuando se produzca un error
+- Estabelecer a propriedade `.onerror` a nosso objeto e a esta atribuímos uma
+  função que será executada se ocorrer um erro.
 
-- Usamos el método .send() para que envíe la solicitud
+- Usamos o método `.send()` para que envie a requisição.
 
-### Para usar la respuesta
+### Para usar a resposta
 
-- Usamos la propiedad .responseText, que contiene el texto de la respuesta de
-  la solicitud asincrónica
+- Usamos a propriedade `.responseText`, que contém o texto da resposta da
+  requisição assíncrona.
 
-- Podemos usarla tal cual nos es devuelta o en caso de ser devuelta como un JSON
-  la convertimos en Objeto JavaScript con JSON.parse()
+- Podemos usá-la como nos é retornada ou no caso de ser retornada como um JSON
+  podemos convertê-la em Objeto JavaScript com `JSON.parse()`
 
-## Qué sigue?
+## O que vem agora?
 
-Probablemente te preguntes si realmente es necesario escribir todos esos pasos
-para conseguir nuestras peticiones asíncronas, la respuesta es **Sí** pero lo
-que no es necesario es escribir todas esas líneas de código. Si hacemos uso de
-alguna biblioteca como jQuery, esta puede hacer la petición por nosotros y ya
-sabemos que cada que usamos una biblioteca se ocupa menos código y lo hacemos
-un poco más eficiente.
+Provavelmente você está se perguntando se realmente é necessário escrever todos
+esses passos para conseguir nossas solicitações assíncronas. A resposta é
+**sim** mas não é necessário escrever todas essas linhas de código. Se fizermos
+uso de alguma biblioteca, como jQuery, ela pode fazer a requisição por nós. Já
+sabemos que, quando utilizamos uma biblioteca, usamos menos código e podemos ser
+um pouco mais eficientes.

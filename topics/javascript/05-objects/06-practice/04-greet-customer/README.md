@@ -1,41 +1,40 @@
 # greetCustomer
 
-Escribe una función llamada `greetCustomer`.
+Escreva uma função chamada `greetCustomer`.
 
-Dando un nombre, `greetCustomer` devuelve un saludo basado en cuántas veces ese
-cliente ha visitado el restaurante.  Consulte el objeto `customerData`.
+Dado um nome, `greetCustomer` retorna uma saudação com base em quantas vezes o
+cliente visitou o restaurante. Consulte o objeto `customerData`.
 
-El saludo debe ser diferente, dependiendo del nombre de la reservación.
+A saudação deve ser diferente, dependendo do nome da reserva.
 
-Caso 1 - Cliente desconocido (el nombre no está presente en los datos de
-cliente):
+Caso 1 - Cliente desconhecido \(o nome não está presente nos dados do cliente\):
 
-```js
-console.log(greetCustomer('Terrance'));
-// => 'Welcome! Is this your first time?'
+```javascript
+var output = greetCustomer('Terrance');
+console.log(output); // --> 'Welcome! Is this your first time?'
 ```
 
-Caso 2 - Cliente que ha visitado sólo una vez (el valor de las visitas es 1)
+Caso 2 - Cliente que visitou apenas uma vez \(o valor das visitas é 1\)
 
-```js
-console.log(greetCustomer('Joe'));
-// => 'Welcome back, Joe! We're glad you liked us the first time!'
+```javascript
+var output = greetCustomer('Joe');
+console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
-Caso 3 - Repetir cliente: (valor de' visitas' es mayor que 1)
+Caso 3 - Cliente repetido: \(o valor de 'visitas' é maior que 1\)
 
-```js
-console.log(greetCustomer('Carol'));
-// --> 'Welcome back, Carol! So glad to see you again!'
+```javascript
+var output = greetCustomer('Carol');
+console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 
 Notas:
 
-- Tu función no debe alterar el objeto `customerData` para actualizar el número
-  de visitas.
-- No codificar los datos exactos de la muestra. Esto es una mala idea:
+* Sua função não deve alterar o objeto `customerData` para atualizar o número de
+  visitas.
+* Não codifique os dados exatos da amostra. Esta é uma má ideia:
 
-```js
+```javascript
 if (firstName === 'Joe') {
   // do something
 }

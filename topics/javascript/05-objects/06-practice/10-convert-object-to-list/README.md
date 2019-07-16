@@ -1,34 +1,34 @@
 # convertObjectToList
 
-Escribe una función llamada `convertObjectToList` que convierte un objeto
-literal en una array de arrays, como esto:
+Escreva uma função chamada "convertObjectToList" que converte um objeto literal
+em um vetor de vetores, como neste exemplo:
 
 Argumento:
 
-```js
+```javascript
 {
-  name: 'Holly',
-  edad: 35,
-  papel: 'productor'
+  name: 'Holly',
+  edad: 35,
+  papel: 'productor'
 }
 ```
 
-Valor de retorno:
+Valor devolvido:
 
-```js
+```javascript
 [['name', 'Holly'], ['edad', 35], ['rol', 'productor']]
 ```
 
-Ten en cuenta que tu función debe ser capaz de manejar cualquier objeto como
-este, no sólo la muestra exacta proporcionada anteriormente.
+Tenha em mente que sua função deve ser capaz de manipular qualquer objeto como
+este, não apenas a amostra exata fornecida acima.
 
-Por ejemplo, también debería ser capaz de manejar esto, o cualquier otro objeto
-que contiene pares llave-valor simples.
+Por exemplo, você também deve conseguir manipular a entrada abaixo ou qualquer
+outro objeto que contenha pares de chave-valor simples.
 
-```js
+```javascript
 {
-  species: 'canino',
-  name: 'Bowser',
-  weight: 45
+  species: 'canino',
+  name: 'Bowser',
+  weight: 45
 }
 ```
