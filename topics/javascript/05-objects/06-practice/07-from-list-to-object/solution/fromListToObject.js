@@ -1,7 +1,7 @@
 function fromListToObject(array) {
-  var obj = {};
+  const obj = {};
 
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     obj[array[i][0]] = array[i][1];
   }
 

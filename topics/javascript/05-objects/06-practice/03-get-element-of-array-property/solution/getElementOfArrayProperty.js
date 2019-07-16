@@ -1,6 +1,6 @@
 function getElementOfArrayProperty(obj, key, index) {
   // var output = getElementOfArrayProperty(obj, 'key', 0);
-  //console.log(output); // --> 'Jamil'
+  // console.log(output); // --> 'Jamil'
 
   if (!obj[key]) {
     return undefined;

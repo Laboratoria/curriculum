@@ -15,12 +15,12 @@ describe("transformFirstAndLast()", function () {
 const Assert = require('chai').assert;
 const transformFirstAndLast = require('../solution/transformFirstAndLast');
 
-describe("transformFirstAndLast()", function () {
-  it("deve devolver { King : 'Freddie' }, para ['King', 'Kemal', 'Freddie']", function () {
+describe('transformFirstAndLast()', () => {
+  it("deve devolver { King : 'Freddie' }, para ['King', 'Kemal', 'Freddie']", () => {
     Assert.deepEqual(transformFirstAndLast(['King', 'Kemal', 'Freddie']), { King: 'Freddie' });
   });
 
-  it("deve devolver { Queen : 'Beyonce' }, para ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']", function () {
+  it("deve devolver { Queen : 'Beyonce' }, para ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']", () => {
     Assert.deepEqual(transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']), { Queen: 'Beyonce' });
   });
 });

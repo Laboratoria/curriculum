@@ -1,6 +1,6 @@
 # Desafios de código
 
-- Tipo: `prática`
+- Tipo: `practice`
 - Formato: `individual`
 - Duração: `1h`
 

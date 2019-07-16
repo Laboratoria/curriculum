@@ -1,11 +1,11 @@
 function transformEmployeeData(array) {
-  var arrayMain = [];
+  const arrayMain = [];
 
-  for (var i = 0; i < array.length; i++) {
-    var arr = array[i];
-    var obj = {};
+  for (let i = 0; i < array.length; i++) {
+    const arr = array[i];
+    const obj = {};
 
-    for (var j = 0; j < arr.length; j++) {
+    for (let j = 0; j < arr.length; j++) {
       obj[arr[j][0]] = arr[j][1];
     }
 
