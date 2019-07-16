@@ -8,4 +8,5 @@
 
 ## Objetivos
 
-- A seguir apresentamos uma série de desafios que você deve completar para testar seus conhecimentos.
+- A seguir apresentamos uma série de desafios que você deve completar para
+  testar seus conhecimentos.

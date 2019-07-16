@@ -2,7 +2,8 @@
 
 Escreva uma função chamada "getSumOfAllElementsAtProperty".
 
-Dado um objeto e uma chave, "getSumOfAllElementsAtProperty" devolve a soma de todos os elementos da matriz.
+Dado um objeto e uma chave, "getSumOfAllElementsAtProperty" devolve a soma de
+todos os elementos da matriz.
 
 Notas:
 

@@ -20,7 +20,6 @@ Continuando com o exemplo da leitura anterior, modificamos nossa implementação
 de `getLatestNodeInfo()` para que retorne uma promessa ao invés de usar uma
 _callback_ simples:
 
-
 ```js
 const http = require('http');
 
@@ -48,19 +47,19 @@ const getLatestNodeInfo = () => new Promise((resolve, reject) => {
   }).on('error', reject);
 });
 ```
+
 Nesta nova implementação nós substituímos as chamadas a `cb()` (a _callback_ que
 recebíamos como argumento) com chamadas para `reject()` (nos casos de erro) e
 `resolve()` (em caso de êxito). Isto no permite agora chamar nossa função
 `getLatestNodeInfo()` da seguinte maneira:
-
 
 ```js
 getLatestNodeInfo()
   .then(data => console.log(`Versão mais recente de Node.js: ${data.version}`))
   .catch(err => console.error(err));
 ```
-Da mesma forma, poderíamos escrever:
 
+Da mesma forma, poderíamos escrever:
 
 ```js
 getLatestNodeInfo().then(
@@ -88,7 +87,6 @@ façamos com que devolva diretamente o texto recebido. Aproveitamos para mudar o
 nome da função, que agora não devolve a última versão, mas sim informações sobre
 todos os releases (em JSON sem parsear):
 
-
 ```js
 const getNodeReleases = () => new Promise((resolve, reject) => {
   http.get('http://nodejs.org/dist/index.json', (resp) => {
@@ -107,6 +105,7 @@ const getNodeReleases = () => new Promise((resolve, reject) => {
   }).on('error', reject);
 });
 ```
+
 Vamos chamar nossa nova função `getNodeReleases()`:
 
 ```js
@@ -118,7 +117,6 @@ getNodeReleases()
 Se não ocorrer nenhum erro de rede, isso deve resultar na invocação da função
 passada para `.then ()` com o texto recebido do request e não o último `catch
 ()`. A saída deve ser algo como isto:
-
 
 ```text
 [
@@ -132,7 +130,6 @@ Agora, para recuperar a funcionalidade que tínhamos antes, podemos encadear
 chamadas a `.then()`, onde cada uma representa uma transformação, que pode ser
 síncrona (simplesmente retornando um valor) ou assíncrona (retornando uma
 promessa).
-
 
 ```js
 getNodeReleases()
@@ -151,7 +148,6 @@ Para completar o exemplo, implantaremos novamente a função
 `getLatestNodeInfo()`, porém dessa vez fazendo uso de nessa nova função
 `getNodeReleases()` e encadeando promessas.
 
-
 ```js
 const getLatestNodeInfo = () =>
   getNodeReleases()
@@ -163,7 +159,6 @@ Esta nova implementação simplesmente encadeia algumas transformações atravé
 promessas que resolvem diretamente um valor e retornam uma promessa nova, o que
 nos permitirá usar a função `getLatestNodeInfo ()` da mesma forma que no
 primeiro exemplo desta leitura:
-
 
 ```js
 getLatestNodeInfo()

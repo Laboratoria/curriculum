@@ -74,35 +74,35 @@ Trello](https://media.giphy.com/media/l1J9Ai0amYnS22ChW/giphy.gif)
 
 ### Versão 0.0.1
 
-* O texto "Adicionar uma lista ..." será exibido.
-* Ao clicar, você deve ocultar o texto e mostrar um formulário.
-* O formulário é composto de um _input_ e um botão para que você possa adicionar
+- O texto "Adicionar uma lista ..." será exibido.
+- Ao clicar, você deve ocultar o texto e mostrar um formulário.
+- O formulário é composto de um _input_ e um botão para que você possa adicionar
   tarefas à sua lista.
 
 ### Versão 0.0.2
 
-* Ao clicar no botão "Salvar", uma nova caixa aparecerá mostrando o nome da
+- Ao clicar no botão "Salvar", uma nova caixa aparecerá mostrando o nome da
   lista adicionada.
-* Mostrar um texto de "Adicionar uma tarefa" na lista.
+- Mostrar um texto de "Adicionar uma tarefa" na lista.
 
 ### Versão 0.0.3
 
-* Quando você clica em "Adicionar uma tarefa", você deve mostrar um formulário
+- Quando você clica em "Adicionar uma tarefa", você deve mostrar um formulário
   com uma área de texto e um botão que diz "Adicionar".
 
 ### Versão 0.0.4
 
-* Coloque _focus_ no _input_ quando clicar em "Adicionar nova tarefa".
-* Ao clicar no botão "Adicionar", o texto da tarefa deve aparecer abaixo do
+- Coloque _focus_ no _input_ quando clicar em "Adicionar nova tarefa".
+- Ao clicar no botão "Adicionar", o texto da tarefa deve aparecer abaixo do
   título da lista.
 
 ### Versão 0.0.5
 
-* Mostrar o formulário novamente abaixo da última tarefa adicionada.
+- Mostrar o formulário novamente abaixo da última tarefa adicionada.
 
 ### Versão 0.0.6 (Extra)
 
-* Poder adicionar várias listas com cartões. Para isso, o formulário "Adicionar
+- Poder adicionar várias listas com cartões. Para isso, o formulário "Adicionar
   uma lista" deve aparecer à direita da lista criada anteriormente.
 
 ## 3. Labirinto (Opcional)
@@ -233,9 +233,9 @@ function exitMaze(player);
 
 #### [Dica 4. | Perguntas orientadoras]
 
-* Como podemos detectar o teclado do usuário? Em particular, as setas?
-* Como podemos mover o personagem no quadro?
-* Como limitamos o movimento do personagem no quadro? \(se houver uma parede,
+- Como podemos detectar o teclado do usuário? Em particular, as setas?
+- Como podemos mover o personagem no quadro?
+- Como limitamos o movimento do personagem no quadro? \(se houver uma parede,
   por exemplo\)
-* O que significa pintar ou renderizar?
-* Como fazer para renderizar o tabuleiro?
+- O que significa pintar ou renderizar?
+- Como fazer para renderizar o tabuleiro?

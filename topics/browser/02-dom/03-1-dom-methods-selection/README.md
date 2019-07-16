@@ -53,9 +53,13 @@ seu editor de texto.
 
 ### **getElementById()**
 
-A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações web dinâmicas. É a função preferida para acessar diretamente um nó e poder ler suas propriedades.
+A função `getElementById()` é a mais utilizada quando desenvolvemos aplicações
+web dinâmicas. É a função preferida para acessar diretamente um nó e poder ler
+suas propriedades.
 
-A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coincide com o parâmetro informando na função. Como o atributo `id` deve ser único para cada elemento de uma mesma página, a função devolve somente o nó desejado.
+A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coincide
+com o parâmetro informando na função. Como o atributo `id` deve ser único para
+cada elemento de uma mesma página, a função devolve somente o nó desejado.
 
 ```html
 <body>
@@ -74,14 +78,10 @@ A função `getElementById()` retorna o elemento XHTML cujo atributo `id` coinci
 const firstItem = document.getElementById("highlight");
 ```
 
-
-<!-- TODOOOOOO -->
-<!-- Continuar a tradução a partir da aqui -->
-
 ### **getElementsByClassName()**
 
-A função `getElementsByClassName()` retorna uma lista de nós da página `XHTML` cuja o atributo `class`
-é igual ao parâmetro indicado na função.
+A função `getElementsByClassName()` retorna uma lista de nós da página `XHTML`
+cuja o atributo `class` é igual ao parâmetro indicado na função.
 
 ```html
 <body>
@@ -102,8 +102,8 @@ const items = document.getElementsByClassName("bolded");
 
 ### **getElementsByTagName()**
 
-Como algumas funções do `DOM` , a função `getElementsByTagName()` tem o nome muito grande,
-mas autoexplicativo.
+Como algumas funções do `DOM` , a função `getElementsByTagName()` tem o nome
+muito grande, mas autoexplicativo.
 
 A função `getElementsByTagName(tagName)` retorna uma lista de nós da página
 `XHTML` cuja a _tag_ é igual ao parâmetro que foi passado na função.
@@ -131,7 +131,6 @@ const listItems = document.getElementsByTagName('li');
 console.log(listItems[0]);
 console.log(listItems[1]);
 console.log(listItems[2]);
-
 ```
 
 ### **querySelector()**
@@ -202,15 +201,13 @@ console.log(items);
 
 ## Recapitulando
 
-
 <!--
 TODO: traduzir vídeo
 
 Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
 refuerza lo aprendido.
 
-[![Métodos de Selección
-DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)]
+[![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)]
 (https://www.youtube.com/watch?v=7iHu7s54vIk)
 -->
 

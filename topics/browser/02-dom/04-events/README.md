@@ -43,17 +43,25 @@ mais visite este
 
 ## Tratamento de eventos
 
-Além de adicionar o _listener_ ao evento, ele também pode ser eliminado usando o método **removeEventListener** , que funciona quase da mesma maneira. A sintaxe é a seguinte:
+Além de adicionar o _listener_ ao evento, ele também pode ser eliminado usando o
+método **removeEventListener** , que funciona quase da mesma maneira. A sintaxe
+é a seguinte:
 
 ```javascript
   elemento_que_escuta.removeEventListener('evento', funcao_para_remover);
 ```
 
-Para que o método funcione corretamente, é obrigatório enviar como parâmetro o retorno de chamada \(função\) usado com addEventListener.
+Para que o método funcione corretamente, é obrigatório enviar como parâmetro o
+retorno de chamada \(função\) usado com addEventListener.
 
-Agora vamos falar sobre **objectEvent,** que é outra questão importante no tratamento de eventos. Quando um evento ocorre, a função que será executada precisa de informações adicionais sobre ele.
+Agora vamos falar sobre **objectEvent,** que é outra questão importante no
+tratamento de eventos. Quando um evento ocorre, a função que será executada
+precisa de informações adicionais sobre ele.
 
-**objectEvent** é o objeto que representa o evento que ocorreu. É criado automaticamente quando o evento ocorre e é destruído quando sua função de gerenciamento é executada. Este objeto tem um conjunto de propriedades com informações sobre o evento. No código a seguir, você encontrará um exemplo.
+**objectEvent** é o objeto que representa o evento que ocorreu. É criado
+automaticamente quando o evento ocorre e é destruído quando sua função de
+gerenciamento é executada. Este objeto tem um conjunto de propriedades com
+informações sobre o evento. No código a seguir, você encontrará um exemplo.
 
 ```javascript
 function olaMundo(event){
@@ -65,7 +73,8 @@ const boton = document.getElementById('boton');
 boton.addEventListener('click', olaMundo, false);
 ```
 
-Às vezes é necessário evitar certos comportamentos que um evento tem por padrão. Para isso existe **preventDefault.** Aqui está um exemplo:
+Às vezes é necessário evitar certos comportamentos que um evento tem por padrão.
+Para isso existe **preventDefault.** Aqui está um exemplo:
 
 > Este é o código para um formulário muito simples Há um _input_ para inserir o
 > nome e outro para inserir o sobrenome. Finalmente, há um _inpu_ do tipo
@@ -112,10 +121,10 @@ form.onsubmit = function(e) {
 
 ## Fluxo de Eventos (Propagação)
 
-Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_, _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
+Quando um evento é executado, ele passa por diferentes fases:  _Capture phase_,
+_Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
 ![flow-event](https://user-images.githubusercontent.com/11894994/59521680-4205ca80-8ea3-11e9-8332-0ac326994e11.png)
-
 
 <!--
 TODO: tradução do vídeo
@@ -127,29 +136,30 @@ un ejemplo práctico del flujo que siguen los eventos.
 
 ## Tipo de eventos
 
-Quando o usuário interage com o navegador, vários tipos de eventos podem ser acionados. Alguns dos mais comuns são:
+Quando o usuário interage com o navegador, vários tipos de eventos podem ser
+acionados. Alguns dos mais comuns são:
 
-- Eventos do mouse \(mouseEvent\)
-- Eventos de teclado \(keyboardEvent\)
-- Eventos de formulários
-- Eventos da janela
+* Eventos do mouse \(mouseEvent\)
+* Eventos de teclado \(keyboardEvent\)
+* Eventos de formulários
+* Eventos da janela
 
-
-Para mais informações sobre todos os eventos, acesse este [link](https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
+Para mais informações sobre todos os eventos, acesse este
+[link](https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/dom-event-types).
 
 ### Principais eventos
 
 Estes são alguns dos eventos mais usados:
 
-- keyup/keydown
-- mouse click
-- mouse motion
-- scroll
-- focus
-- load
-- script execution timeline
-- setting timers
-- debouncing
+* keyup/keydown
+* mouse click
+* mouse motion
+* scroll
+* focus
+* load
+* script execution timeline
+* setting timers
+* debouncing
 
 [Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um
 exemplo sobre interação com eventos.
@@ -158,7 +168,8 @@ exemplo sobre interação com eventos.
 > 1. Observe como o fundo é branco
 > 2. Agora clique no botão _Make magic_ :\)
 > 3. Verifique o código e analise a lógica de programação
-> 4. Agora tente modificar o código para que ele reaja com outros eventos, divirta-se;\)
+> 4. Agora tente modificar o código para que ele reaja com outros eventos,
+>    divirta-se;\)
 
 Finalmente, anexamos o
 [link](https://developer.mozilla.org/pt-BR/docs/Web/Events) da documentação

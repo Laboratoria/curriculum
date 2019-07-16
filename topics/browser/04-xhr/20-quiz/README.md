@@ -24,7 +24,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 2) Marque a opção onde só se encontrem APIs do navegador.
+### 2) Marque a opção onde só se encontrem APIs do navegador
 
 #### Opções
 
@@ -93,7 +93,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 8) CRUD é o acrônimo de "Criar, Ler, Atualizar e Apagar", palavras que correspondam a:
+### 8) CRUD é o acrônimo de "Criar, Ler, Atualizar e Apagar", palavras que correspondam a
 
 #### Opções
 

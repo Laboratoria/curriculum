@@ -44,15 +44,15 @@
 
 #### Eventos
 
-* O que é um evento?
-* Quais são os eventos mais usados em um navegador?
-* Como detectamos um "clique" do usuário?
-* Como podemos detectar a entrada de texto de um usuário?
-* Como detectamos o envio de um formulário?
-* Podemos usar o evento _submit_ para um _input text_?
-* Para que server a palavra reservada "event" ou "e"?
-* Como podemos armazenar ou passar informações entre elementos HTML?
-* O que é _event delegation_?
-* O que é _event propagation_?
-* Como definimos nossos próprios eventos?
-* Qual é a diferença entre onClick e addEventListener \("click"\)?
+- O que é um evento?
+- Quais são os eventos mais usados em um navegador?
+- Como detectamos um "clique" do usuário?
+- Como podemos detectar a entrada de texto de um usuário?
+- Como detectamos o envio de um formulário?
+- Podemos usar o evento _submit_ para um _input text_?
+- Para que server a palavra reservada "event" ou "e"?
+- Como podemos armazenar ou passar informações entre elementos HTML?
+- O que é _event delegation_?
+- O que é _event propagation_?
+- Como definimos nossos próprios eventos?
+- Qual é a diferença entre onClick e addEventListener \("click"\)?

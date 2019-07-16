@@ -58,7 +58,6 @@ JavaScript está fortemente influênciado pela programação funcional desde o s
 desenho, e nos oferece caracteristicas importantes como designar funções a uma
 variável, passar como parâmetro outra função, trocar o escopo de variáveis, etc.
 
-
 ### Unidade 04: [Arrays](04-arrays)
 
 Para resolver problemas complexos é preciso agrupar e manipular dados de uma

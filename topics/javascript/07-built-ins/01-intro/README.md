@@ -12,11 +12,6 @@
 
 ***
 
-
-
-<!-- TRADUZIR -->
-
-
 ### JavaScript, investigando o núcleo da linguagem
 
 Todas as linguagens de programação tem objetos pré-construídos (built-in) que
@@ -56,25 +51,25 @@ de código.
 
 ### Algumas vantagem de utilizar bibliotecas padrão
 
-* Funcionam
+- Funcionam
 
   Uma das razões mais importantes do porque utilizar funções de uma biblioteca
   padrão é simplemente porque elas funcionam, elas já passaram por muitas provas
   de uso e são fáceis de usar.
 
-* Estão otimizadas para rendimento
+- Estão otimizadas para rendimento
 
   Existe um grupo de desenvolvimento focado em melhorá-las contantemente. Um dos
   objetivos dessa equipe é criar códigos mais eficientes e otimizados para obter
   o máximo rendimento.
 
-* Salvam um tempo considerável
+- Salvam um tempo considerável
 
   Dado que as funções gerais, como _"printar"_ na tela, calcular uma raíz
   quadrada e muitas outras já estão escritas. Com isso você não precisa se
   preocupar em criar essas funções.
 
-* São suportadas na maioria dos navegadores
+- São suportadas na maioria dos navegadores
 
   Você esperar que a sua aplicação funcione para sempre, em qualquer lugar e
   dispositivo. Mas no mundo real as coisas estão sempre mundando. Com essas
@@ -92,25 +87,25 @@ função`Math.sqrt()`.
 
 ### Alguns objetos pré-construídos mais utilizados
 
-* [Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-* [Object](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object)
-* [Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Function)
-* [Boolean](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-* [Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
-* [Math](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
-* [Date](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
-* [String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
-* [RegExp](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
-* [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON)
-* [Symbol](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
-* [Error](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error)
-* [EvalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
-* [InternalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
-* [RangeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
-* [ReferenceError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
-* [SyntaxError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
-* [TypeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-* [URIError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/URIError)
-* [DataView](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/DataView)
-* [Proxy](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+- [Object](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Function)
+- [Boolean](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+- [Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
+- [Math](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [Date](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [RegExp](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [Symbol](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+- [Error](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error)
+- [EvalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
+- [InternalError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
+- [RangeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
+- [ReferenceError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+- [SyntaxError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+- [TypeError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+- [URIError](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/URIError)
+- [DataView](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/DataView)
+- [Proxy](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Proxy)

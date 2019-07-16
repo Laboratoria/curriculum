@@ -30,7 +30,6 @@ atributos do nó, buscar os seus valores e modificá-los.
 Os atributos que podemos trabalhar diretamente são os que utilizam a interface
 `HTMLElement`.
 
-
 ![Nodos](https://user-images.githubusercontent.com/11894994/59519308-f8ff4780-8e9d-11e9-96aa-edd666cb3aa8.png)
 
 ```js
@@ -51,7 +50,9 @@ paragraph.className = 'nueva-clase';
  */
 ```
 
-Haverá momentos em que precisaremos trabalhar com atributos que não fazem parte da interface HTMLElement. Para esses casos, existem dois métodos: `.setAttribute()` e `.getAttribute().`
+Haverá momentos em que precisaremos trabalhar com atributos que não fazem parte
+da interface HTMLElement. Para esses casos, existem dois métodos:
+`.setAttribute()` e `.getAttribute().`
 
 #### setAttribute ('atributo', 'valor')
 

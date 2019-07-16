@@ -111,6 +111,7 @@ function handleSuccess () {
 
 asyncRequestObject.onload = handleSuccess;
 ```
+
 Com isso percebemos que se `onload` não estiver configurado, a solicitação
 retorna mas não faz nada.
 

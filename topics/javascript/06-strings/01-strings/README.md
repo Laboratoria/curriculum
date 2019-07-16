@@ -11,8 +11,8 @@
 - Aprender as possibilidades e flexibilidade que as `strings` nos oferecem
 
 Este conteúdo foi quase uma tradução literal de
-[https://javascript.info/string](https://javascript.info/string),
-aqui a [fonte](https://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/05-data-types/03-string/article.md)
+[https://javascript.info/string](https://javascript.info/string), aqui a
+[fonte](https://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/05-data-types/03-string/article.md)
 
 ***
 
@@ -23,7 +23,8 @@ do tipo `string`.
 
 Vamos lembrar o tipo de aspas que temos.
 
-As `strings` podem ser aspas simples (*single quotes*), duplas (*double quotes*) ou crase (*backticks*):
+As `strings` podem ser aspas simples (*single quotes*), duplas (*double quotes*)
+ou crase (*backticks*):
 
 ```js
 const single = 'single-quoted';
@@ -120,8 +121,8 @@ console.assert('\u00A9' === '©');
 console.assert('\u{1F60D}' === '😍');
 ```
 
-Todos os caracteres especiais, começam com a barra invertida `\`. Também chamado de
-*escape character*.
+Todos os caracteres especiais, começam com a barra invertida `\`. Também chamado
+de *escape character*.
 
 ```js
 console.assert('I\'m the Walrus!' === "I'm the Walrus!");
@@ -144,8 +145,8 @@ A propriedade `length` retorna o tamanho da `String`:
 console.assert('My\n'.length === 3);
 ```
 
-Note que os caracteres especiais, apesar de serem compostos por 2 caractes, contam
-apenas um.
+Note que os caracteres especiais, apesar de serem compostos por 2 caractes,
+contam apenas um.
 
 ## Acessando caracteres específicos
 
@@ -166,8 +167,8 @@ console.assert(str[str.length - 1] === 'o');
 
 ## Imutabilidade
 
-Em JavaScript, as `string` **não podem alterar o seu valor**.
-Inclusive se tentarmos, não conseguimos.
+Em JavaScript, as `string` **não podem alterar o seu valor**. Inclusive se
+tentarmos, não conseguimos.
 
 ```js
 str = 'Hi';
@@ -175,8 +176,8 @@ str[0] = 'P';
 console.assert(str[0] === 'H'); /* No cambió */
 ```
 
-A forma mais comum de fazer isso é criando uma nova `string`
-e passando a anterior:
+A forma mais comum de fazer isso é criando uma nova `string` e passando a
+anterior:
 
 ```js
 str = 'Hi';
@@ -238,8 +239,8 @@ console.assert(equal(
 ));
 ```
 
-Assim como no `Array`, também existem os métodos `lastIndexOf(pos)`
-e `lastIndexOf`.
+Assim como no `Array`, também existem os métodos `lastIndexOf(pos)` e
+`lastIndexOf`.
 
 ### `includes`, `startsWith`, `endsWith`
 
@@ -259,8 +260,8 @@ console.assert('Widget'.endsWith('get'));
 
 ## Obtendo substrings
 
-Existem 3 métodos no JavaScript que nos permitem obter substring:
-`substring`, `substr` e `slice`.
+Existem 3 métodos no JavaScript que nos permitem obter substring: `substring`,
+`substr` e `slice`.
 
 `str.slice(start [, end])`: Retorna parte da string começando com `start` até
 (mas sem incluir) `end`.
@@ -278,8 +279,8 @@ str = 'stringify';
 console.assert(str.slice(2) === 'ringify');
 ```
 
-Valores negativamos para `start/end` também são possível.
-Isso quer dizer que a posição é contada a partir do final:
+Valores negativamos para `start/end` também são possível. Isso quer dizer que a
+posição é contada a partir do final:
 
 ```js
 str = 'stringify';
@@ -330,8 +331,8 @@ Em resumo:
 
 > Todos os anteriores realizam  a mesma tarefa, mas devemos ter em conta que
 > `substr` não é parte das especificação do `core` do JavaScript, mas o *Anexo*
-> B, que cobre funcionalidades exclusicas dos navegadores. Mas a prática funciona
-> para todo o entorno.
+> B, que cobre funcionalidades exclusicas dos navegadores. Mas a prática
+> funciona para todo o entorno.
 
 ## Comparando strings
 
@@ -373,8 +374,7 @@ console.assert('Z'.codePointAt(0) === 90);
 console.assert(String.fromCodePoint(90) === 'Z');
 ```
 
-Agora vejamos qual são os caracteres com códigos dentre `65..220` (o
-alfabeto):
+Agora vejamos qual são os caracteres com códigos dentre `65..220` (o alfabeto):
 
 ```js
 let alphabet = '';
@@ -402,7 +402,8 @@ Existem vários métodos úteis:
 
 - `str.trim()` -- retira os espaços extras do começo e final da `string`.
 - `str.repeat(n)` -- repete a `string` `n` vezes.
-- ... muito mais. leia no [Strings no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+- ... muito mais. leia no [Strings no
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
   para mais detalhes.
 
 As `strings` também têm métodos para pesquisar e substituir usando expressões
@@ -414,5 +415,7 @@ As `strings` também têm métodos para pesquisar e substituir usando expressõe
 
 - [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
 - [ASCII](https://ascii.cl/es/)
-- [Js Strings Internals e Unicode](https://javascript.info/string#internals-unicode)
-- [Uso da crase](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
+- [Js Strings Internals e
+  Unicode](https://javascript.info/string#internals-unicode)
+- [Uso da
+  crase](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)

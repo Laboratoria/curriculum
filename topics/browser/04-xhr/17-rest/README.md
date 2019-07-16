@@ -143,7 +143,7 @@ Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol)
 > técnica de arquitetura de software para construir APIs que permitam o nosso
 > servidor comunicar-se com seus clientes usando protocolo HTTP mediante URIs
 > suficientemente inteligentes para satisfazer a necessidade do cliente.
-
+>
 > - REST é STATELESS, ou seja, cada requisição que nossa API recebe deve morrer.
 >   Por exemplo, não podemos LEMBRAR um usuário logado na API usando uma sessão,
 >   isso é um PECADO já que usaria muita memória RAM de nosso servidor (10 mil

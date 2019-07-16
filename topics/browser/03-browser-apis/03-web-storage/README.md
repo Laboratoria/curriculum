@@ -45,7 +45,8 @@ TODO: Traduzir vídeo
 Se você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe
 permite ver um exemplo de como usar `localStorage`.
 
-[![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)](https://youtu.be/hb8O0qRqiSk)
+[![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)]
+(https://youtu.be/hb8O0qRqiSk)
 -->
 
 ## `JSON.stringify()`, `JSON.parse()`?

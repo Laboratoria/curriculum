@@ -48,7 +48,6 @@ simplificam como uma variável em particular é calculada, que simplificam o uso
 do eval() e argumentos, que tornam mais fácil a escrita de JavaScript "seguro" e
 que antecipam a evolução futura do ECMAScript.
 
-
 ## Convertendo erratas em erros
 
 O modo estrito modifica alguns erros de sintaxe tolerados no modo normal e os

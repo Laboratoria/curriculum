@@ -201,6 +201,7 @@ meio das propriedades DOM dos elementos XHTML. Assim, o exemplo a seguir:
 ```html
 <input id="clicavel" type="button" value="Clique em mim e verá." onclick="console.log('Obrigado por clicar.');" />
 ```
+
 pode ser transformado em:
 
 ```js

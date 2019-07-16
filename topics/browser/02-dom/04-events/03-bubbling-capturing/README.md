@@ -36,6 +36,7 @@ até chegar ao contexto global (`window`).
 Quando registramos um `listener`, é possível definir que seja executado na
 `capturing phase` ou na `bubbling phase`. A ordem na qual um `listener` é
 executado depende da fase a qual está adicionado.
+
 ```js
 window.addEventListener('click', function() {
   console.log('Bubbling click event');

@@ -8,7 +8,7 @@
 
 ## Objetivos de Aprendizagem
 
-- Conhecer o `Object.prototype`
+* Conhecer o `Object.prototype`
 
 ## `Object.prototype`
 

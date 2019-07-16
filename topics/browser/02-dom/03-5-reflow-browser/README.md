@@ -15,26 +15,26 @@ muita memória na máquina do cliente.
 
 ## É útil entender quando se ativam os re-flow
 
-1. Adição, exclusão ou modificação de elementos do DOM visíveis.
+### Adição, exclusão ou modificação de elementos do DOM visíveis
 
 > A primeira é óbia, o uso de JavaScript para alterar o DOM provocará o um
 > re-flow.
 
-2. Adição, exclusão ou modificação dos estilos de CSS.
+### Adição, exclusão ou modificação dos estilos de CSS
 
 > Da mesma maneira que no JavaScript, aplicar diretamento os estilos, alterar
 > alguma classe ou propriedade, prococará um re-flow daquele ramo do DOM
 
-3. Animações e transições CSS
+### Animações e transições CSS
 
 > Cada alteração na animação causará um re-flow
 
-4. Uso de `offsetWidth` e `offsetHeight`
+### Uso de `offsetWidth` e `offsetHeight`
 
 > Curiosamente, ler a propriedade `offsetWidth` e `offsetHeight` de um elemento
 > pode desencadear um re-flow inicial para calcular as estruturas.
 
-5. Ações do usuário
+### Ações do usuário
 
 > Finalmente, o usuário pode ativar os re-flow, como por exemplo ativando um
 > efeito de `hover`, adicionando texto ao um campo, alterando o tamanho de uma

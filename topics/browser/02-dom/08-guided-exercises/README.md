@@ -12,7 +12,6 @@
 
 ***
 
-
 ## Enunciados
 
 Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
@@ -80,6 +79,6 @@ código quando o usuário clicar no símbolo  **↻**.
 
 Dado: Gere os números e letras de maneira aleatória.
 
-* [Math.random()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Math.random()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 ![Captcha](https://user-images.githubusercontent.com/11894994/59530848-f8c17500-8eba-11e9-9409-fb993225d14c.gif)

@@ -2,7 +2,8 @@
 
 Escreva uma função chamada `getProductOfAllElementsAtProperty`.
 
-Dado um objeto e uma chave, `getProductOfAllElementsAtProperty` retorna o produto de todos os elementos do _array_.
+Dado um objeto e uma chave, `getProductOfAllElementsAtProperty` retorna o
+produto de todos os elementos do _array_.
 
 Notas:
 

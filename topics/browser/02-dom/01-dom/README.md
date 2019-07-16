@@ -10,20 +10,20 @@ Nesta unidade aprenderemos:
 
 * O que é o DOM e para que nos serve?
 * Conhecer as seguintes propriedades:
-  * `parentNode`
-  * `childNodes`
-  * `firstChild`
-  * `lastChild`
-  * `previousSibling`
-  * `previousElementSibling`
-  * `nextSibling`
-  * `nextElementSibling`
+  - `parentNode`
+  - `childNodes`
+  - `firstChild`
+  - `lastChild`
+  - `previousSibling`
+  - `previousElementSibling`
+  - `nextSibling`
+  - `nextElementSibling`
 * Conhecer os seguintes métodos:
-  * `document.getElementById()`
-  * `document.getElementsByTagName()`
-  * `document.getElementsByClassName()`
-  * `document.querySelector()`
-  * `document.querySelectorAll()`
+  - `document.getElementById()`
+  - `document.getElementsByTagName()`
+  - `document.getElementsByClassName()`
+  - `document.querySelector()`
+  - `document.querySelectorAll()`
 
 ## O que é o DOM?
 
@@ -74,16 +74,15 @@ Página Web (1)| Árbol de Nodos DOM (2)
 A transformação automática de uma página em uma árvore de nós sempre segue as
 mesmas regras.
 
-- `As etiquetas XHTML se transformar em nós`
+* `As etiquetas XHTML se transformar em nós`
 
 > O primeira é a própria tag e o segundo nó é o filho do primeiro e consistem no
 > conteúdo de texto da tag.
 
-- `Se uma etiqueta XHTML se encontra dentro da outra`
+* `Se uma etiqueta XHTML se encontra dentro da outra`
 
 > Segue o mesmo procedimento anterior, mas os nós gerados serão nós filhos das
 > tags pai.
-
 
 Como se pode supor, as páginas XHTML normalmente produzem árvores com milhares
 de nós. Mesmo assim, o processo de transformação é rápido e automático, sendo as
@@ -111,9 +110,9 @@ abaixo:
 Embora as páginas XHTML que iremos gerenciar possam ser manipuladas manipulando
 apenas quatro ou cinco tipos desses nós:
 
-- `DOCUMENT_NODE`, nó raíz que deriva todos os outros nodes da árvore.
+* `DOCUMENT_NODE`, nó raíz que deriva todos os outros nodes da árvore.
 
-- `ELEMENT_NODE`, representa cada uma das tags XHTML. Podem ser filhos de outro
+* `ELEMENT_NODE`, representa cada uma das tags XHTML. Podem ser filhos de outro
   nó de tipo _element_ e também ter filhos \(nó _element_ ou nó _text_\).
 
   ```html
@@ -125,7 +124,7 @@ apenas quatro ou cinco tipos desses nós:
   3 nós de Element -> tags html, head e body
   ```
 
-- `ATTRIBUTE_NODE`, um nó desse tipo é definido para representar cada um dos
+* `ATTRIBUTE_NODE`, um nó desse tipo é definido para representar cada um dos
   atributos das tags XHTML. Esses nós são sempre filhos de um nó Elemento e não
   podem ter filhos.
 
@@ -136,7 +135,7 @@ apenas quatro ou cinco tipos desses nós:
   2 nós Attr -> src e alt
   ```
 
-- `TEXT_NODE`, nó que contém o texto entre uma tag HTML. Esses nós são sempre
+* `TEXT_NODE`, nó que contém o texto entre uma tag HTML. Esses nós são sempre
   filhos de um nó Element e não podem ter filhos.
 
   ```html
@@ -154,7 +153,7 @@ apenas quatro ou cinco tipos desses nós:
   'praticar muito', 'Autoaprendizagem e perguntar sempre'
   ```
 
-- `COMMENT_NODE`, representa os comentários incluídos na página XHTML.
+* `COMMENT_NODE`, representa os comentários incluídos na página XHTML.
 
   ```html
   <html>
@@ -191,23 +190,23 @@ nós do DOM também tem alguma relação familiar**.
 ![DOM
 Tree](https://user-images.githubusercontent.com/11894994/58907764-4bde3f80-86e5-11e9-8c73-2fa2831dc891.gif)
 
-- A raiz da árvore de nós de qualquer página da web é sempre a mesma: **um nó
+* A raiz da árvore de nós de qualquer página da web é sempre a mesma: **um nó
   chamado document** que é o objeto `pai` dos demais objetos.
-- O nó **html** é aquele pai dos objetos ou nós **head** e **body** \(mas
+* O nó **html** é aquele pai dos objetos ou nós **head** e **body** \(mas
   **filho** do nó **document**\).
-- O objeto ou nó do **body** é o `pai` de **a** e **h1**, portanto, esses
+* O objeto ou nó do **body** é o `pai` de **a** e **h1**, portanto, esses
   rótulos são filhos do nó do **body**.
-- O nó de texto **My header** é filho do nó **h1** .
+* O nó de texto **My header** é filho do nó **h1** .
 
 ### Irmãos de relacionamento
 
 Analisando a mesma imagem acima:
 
-- Os nós `irmãos` referem-se aos nós que possuem o mesmo pai, ou seja, são nós
+* Os nós `irmãos` referem-se aos nós que possuem o mesmo pai, ou seja, são nós
   do mesmo nível na árvore DOM.
-- Os objetos ou nós **head** e **body** são `irmãos`, cujo pai é o objeto ou nó
+* Os objetos ou nós **head** e **body** são `irmãos`, cujo pai é o objeto ou nó
   **html** .
-- O nó de texto **My link** e o nó **attribute** são nós `irmãos`, cujo pai é o
+* O nó de texto **My link** e o nó **attribute** são nós `irmãos`, cujo pai é o
   objeto ou nó **a** . \(Na imagem parece que **attribute** é o irmão do nó
   **a**, mas **a** é pai de **attribute**.\)
 
@@ -220,11 +219,11 @@ identificá-los.
 
 Os nós DOM possuem propriedades básicas, que são:
 
-- **nodeName** , indica o nome do nó.
-- **nodeType** , é um número inteiro que descreve o tipo de nó: `1` para tags
+* **nodeName** , indica o nome do nó.
+* **nodeType** , é um número inteiro que descreve o tipo de nó: `1` para tags
   HTML, `3` para nós de tipo de texto, `8` para nós de tipo de comentário, `9`
   para nó de tipo de documento, etc.
-- **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada
+* **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada
   apenas para nós do tipo 3 e nós do tipo comentário `8`.
 
 <!--

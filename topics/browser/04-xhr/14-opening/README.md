@@ -1,4 +1,4 @@
-# Abertura: Brincando com Web APIs!
+# Abertura: Brincando com Web APIs
 
 - Tipo: `leitura`
 - Formato: `individual`

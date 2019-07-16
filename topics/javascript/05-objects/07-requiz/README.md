@@ -26,7 +26,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 2\) Qual das seguintes afirmações sobre Objetos é correta? Você pode selecionar uma ou mais opções.
+### 2\) Qual das seguintes afirmações sobre Objetos é correta? Você pode selecionar uma ou mais opções
 
 #### Opções
 
@@ -37,7 +37,7 @@
 
 <solution style="display:none;">3,4</solution>
 
-### 3\) Podemos acessar os valores de um objeto usando colchetes `[]`ou usando ponto`.`.
+### 3\) Podemos acessar os valores de um objeto usando colchetes `[]`ou usando ponto`.`
 
 #### Opções
 
@@ -96,7 +96,8 @@ var movie = {
 
 1. A propriedade `tags` não pode estar vazia
 2. As aspas `' '` da propriedade `other awards` estão sobrando
-3. Na propriedade `stars`, devemos usar vírgulas \(`,`\) em vez de pontos e vírgulas \(`;`\)
+3. Na propriedade `stars`, devemos usar vírgulas \(`,`\) em vez de pontos e
+   vírgulas \(`;`\)
 4. Não há erro
 
 <solution style="display:none;">3</solution>

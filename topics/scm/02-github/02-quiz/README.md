@@ -30,7 +30,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 3) Das seguintes frases, qual pertence ao `Github`? Pode selecionar mais de uma.
+### 3) Das seguintes frases, qual pertence ao `Github`? Pode selecionar mais de uma
 
 #### Opções
 
@@ -46,7 +46,7 @@
 #### Opções
 
 1. `Git` somente serve como uma rede social e o `Github` armazena as extensões
-dos arquivos.
+   dos arquivos.
 2. `Github` armazena os arquivos JavaScript enquanto o `Git` cuida do `HTML` e `CSS`
 3. `Git` guarda os arquivos na nuvem e o `Github` serve como rede social
 4. `Github` utiliza o `Git` como sistema de controle de versões

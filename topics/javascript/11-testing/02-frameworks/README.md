@@ -240,6 +240,7 @@ describe('isVowel()', () => {
 
 });
 ```
+
 Executemos os testes outra vez:
 
 ```sh

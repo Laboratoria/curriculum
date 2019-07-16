@@ -86,6 +86,7 @@ APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_
 >  processamento por terceiros.
 
 Esse prós e contras são parte de um [post de
-GenbetaDev](https://www.genbetadev.com/programacion-en-la-nube/pros-y-contras-del-uso-de-apis-de-terceros) (em espanhol).
-Nós focaremos nas coisas positivas neste momento e tiraremos proveito de tudo o
-que nos oferecem as APIs de terceiros para fazermos apps incríveis.
+GenbetaDev](https://www.genbetadev.com/programacion-en-la-nube/pros-y-contras-del-uso-de-apis-de-terceros)
+(em espanhol). Nós focaremos nas coisas positivas neste momento e tiraremos
+proveito de tudo o que nos oferecem as APIs de terceiros para fazermos apps
+incríveis.

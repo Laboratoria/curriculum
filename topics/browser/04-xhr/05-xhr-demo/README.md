@@ -19,7 +19,7 @@ mostrar suas notícias.
 
 ### Mãos no teclado
 
-1. Crie uma conta de desenvolvedor aqui https://developer.nytimes.com/ Será
+1. Crie uma conta de desenvolvedor [aqui](https://developer.nytimes.com/) Será
    enviada uma chave de acesso que usaremos nas requisições.
 
 2. Crie um projeto com seus arquivos HTML, CSS e JS (Nosso HTML tem uma
@@ -46,15 +46,15 @@ mostrar suas notícias.
 
    ![getnews](https://user-images.githubusercontent.com/110297/41572879-a16ae3c8-733f-11e8-85f6-b9a44caba985.png)
 
-  * Criamos nosso objeto _(linha 14)_.
+   * Criamos nosso objeto _(linha 14)_.
 
-  * Usamos o método `.open()` e aqui é onde devemos colocar a chave que chegou
+   * Usamos o método `.open()` e aqui é onde devemos colocar a chave que chegou
     no nosso e-mail, **substituindo* < SUA CHAVE> por sua chave _(linha 15)_.
 
-  * As propriedades `.onload` e `.onerror` têm suas funções correspondentes
+   * As propriedades `.onload` e `.onerror` têm suas funções correspondentes
     atribuídas.
 
-  * Enviamos a requisição com o método `.send()`.
+   * Enviamos a requisição com o método `.send()`.
 
 6. A função `handleError()` ficará assim:
 
@@ -62,12 +62,12 @@ mostrar suas notícias.
 
 7. Comecemos a trabalhar com a função `addNews()`.
 
-  * Primeiro podemos fazer um console.log de `this.responseText` para saber o
-    que será retornado nesta resposta (um JSON).
+   * Primeiro podemos fazer um console.log de `this.responseText` para saber o
+     que será retornado nesta resposta (um JSON).
 
-  * Após vermos que tipo de informação nos retornou, podemos proceder
-    armazenando-o em uma constante e e fazer novamente um console.log para
-    entender melhor a estrutura de dados.
+   * Após vermos que tipo de informação nos retornou, podemos proceder
+     armazenando-o em uma constante e e fazer novamente um console.log para
+     entender melhor a estrutura de dados.
 
      ![add-news1](https://user-images.githubusercontent.com/110297/41572917-cd4a8fde-733f-11e8-8461-d26417c1b42c.png)
 

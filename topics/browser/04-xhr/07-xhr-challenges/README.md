@@ -25,10 +25,10 @@ resposta.
 Neste caso, o desafio é que consiga que sejam visualizadas pelo menos 5 dessas
 notícias.
 
-  - Você precisa fazer mais requisições?
-  - E se quisermos adicionar imagens?
-  - Pode nos direcionar a cada nota de maneira individual?
-  - E se agora nossa requisição for para outro jornal?
-  - É possível ter diferentes requisições para diferentes sítios?
+- Você precisa fazer mais requisições?
+- E se quisermos adicionar imagens?
+- Pode nos direcionar a cada nota de maneira individual?
+- E se agora nossa requisição for para outro jornal?
+- É possível ter diferentes requisições para diferentes sítios?
 
 ![mostra](https://raw.githubusercontent.com/AnaSalazar/curricula-js/02c7691cd5325626c91a99f410fc8dddbc24b0fc/06-spa/02-asynchronous-js-request/07-xhr-challenges/muestra.png)

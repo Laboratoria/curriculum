@@ -27,7 +27,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções.
+### 2\) Como podemos acessar os valores de um objeto? Você pode selecionar uma ou mais opções
 
 #### Opções
 
@@ -60,7 +60,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 5\) Confira o código a seguir.
+### 5\) Confira o código a seguir
 
 ```javascript
 var movie = {
@@ -126,7 +126,7 @@ console.log(movie.stars[2]);
 
 <solution style="display:none;">3</solution>
 
-### 8\) No código a seguir,
+### 8\) No código a seguir
 
 ```javascript
 var movie = {

@@ -25,6 +25,7 @@ getLatestNodeInfo((err, data) => {
   console.log(data);
 });
 ```
+
 No mundo do Node.js é muito comum que os callbacks tenham esta sintaxe `(err,
 data)`, onde o primeiro argumento é um erro (caso ocorra algum) e o segundo
 argumento é a `data` ou o _resultado_ caso a operação se complete com sucesso.
@@ -52,6 +53,7 @@ const getLatestNodeInfo = (cb) =>
 
   }).on('error', cb);
 ```
+
 Nesta implementação (por enquanto incompleta e incorreta) estamos lançando um
 erro com `throw` dentro de uma _callback_. Vendo a sentença `throw`, poderíamos
 pensar que é possível usar `try...catch` para cercar o erro. Algo assim:
@@ -66,6 +68,7 @@ try {
   console.log('erro pego com try...catch', err);
 }
 ```
+
 Neste caso, se ocorrer a condição do erro (pode-se mudar `statusCode !== 200`
 para `statusCode === 200` temporariamente para causar o erro), vemos que a
 exceção não é pega no bloco `catch`; a execução do programa termina sem que
@@ -79,7 +82,6 @@ comunicam os erros através de argumentos passados a _callbacks_, seja em uma
 callback com vários argumentos onde o primeiro seja o possível erro, ou em
 callbacks dedicadas, como por exemplo o _handler_ que passamos por request no
 exemplo anterior:
-
 
 ```js
 http
@@ -95,7 +97,6 @@ data recebida (utilizando `JSON.parse()`), que é uma operação síncrona que
 devemos evitar que gere um erro, já que não poderia ser tratado de fora da
 função. Para solucionar isso, primeiro pegamos o erro e depois o devolvemos como
 argumento para a _callback_.
-
 
 ```js
 const getLatestNodeInfo = (cb) =>

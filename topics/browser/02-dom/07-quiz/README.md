@@ -6,7 +6,7 @@
 
 ## Objetivos
 
-* Nesta sessão, terá a oportunidade de se autoavaliar, colocando seus
+- Nesta sessão, terá a oportunidade de se autoavaliar, colocando seus
   conhecimentos à prova. É uma oportunidade para ajustar seu ritmo e
   certificar-se de que realmente esteja aprendendo. Sucesso!
 
@@ -28,9 +28,9 @@
 ### 2) Na imagem a seguir
 
 ```html
-        <body>
-            <h1>Olá Mundo! Programar é muito cool :3 !</h1>
-        </body>
+   <body>
+      <h1>Olá Mundo! Programar é muito cool :3 !</h1>
+   </body>
 ```
 
 ### O texto `Olá Mundo! Programar é muito cool!` entre as tags h1, corresponde a um nó do tipo **\_\_**
@@ -114,32 +114,43 @@
 
 #### Opções
 
-1. ```html
-    <ul>
-      <li data-lista="frutas">Maça</li>
-      <li data-lista="frutas">Peras</li>
-      <li data-lista="frutas">Morangos</li>
-    </ul>
-   ```
-   2. ```html
+1. Opção 1
+
+   ```html
       <ul>
-      <li data="frutas">Maça</li>
-      <li data="frutas">Peras</li>
-      <li data="frutas">Morangos</li>
+         <li data-lista="frutas">Maça</li>
+         <li data-lista="frutas">Peras</li>
+         <li data-lista="frutas">Morangos</li>
       </ul>
    ```
-3. ```html
-    <ul>
-      <li data-lista-frutas>Maçã</li>
-      <li data-lista-frutas>Peras</li>
-      <li data-lista-frutas>Morangos</li>
-    </ul>
-   ```
-   4. ```html
+
+2. Opção 2
+
+   ```html
       <ul>
-      <li data-lista(frutas)>Maçã</li>
-      <li data-lista(frutas)>Peras</li>
-      <li data-lista(frutas)>Morangos</li>
+         <li data="frutas">Maça</li>
+         <li data="frutas">Peras</li>
+         <li data="frutas">Morangos</li>
+      </ul>
+   ```
+
+3. Opção 3
+
+   ```html
+      <ul>
+         <li data-lista-frutas>Maçã</li>
+         <li data-lista-frutas>Peras</li>
+         <li data-lista-frutas>Morangos</li>
+      </ul>
+   ```
+
+4. Opção 4
+
+   ```html
+      <ul>
+         <li data-lista(frutas)>Maçã</li>
+         <li data-lista(frutas)>Peras</li>
+         <li data-lista(frutas)>Morangos</li>
       </ul>
    ```
 
@@ -155,19 +166,30 @@
 
 #### Opções
 
-1. ```javascript
-    var text = document.getElementById("text");
-    var autor = autor.dataset;
+1. Opção 1
+
+   ```javascript
+      var text = document.getElementById("text");
+      var autor = autor.dataset;
    ```
-   2. ```javascript
+
+2. Opção 2
+
+   ```javascript
       var text = document.getElementById("text");
       var autor = dataset.text.autor;
    ```
-3. ```javascript
-    var text = document.getElementById("text");
-    var autor = text.dataset.autor;
+
+3. Opção 3
+
+   ```javascript
+      var text = document.getElementById("text");
+      var autor = text.dataset.autor;
    ```
-   4. ```javascript
+
+4. Opção 4
+
+   ```javascript
       var text = document.getElementById("text");
       var text.dataset = autor;
    ```
@@ -203,7 +225,7 @@
 1. Ações que o navegador realiza quando algo não está certo.
 2. Ações que são disparadas a partir da interação do usuário com um elemento da
    página web.
-3.  Datas importantes para o navegador.
+3. Datas importantes para o navegador.
 
 <solution style="display:none;">2</solution>
 
@@ -211,21 +233,32 @@
 
 #### Opções
 
-1. ```javascript
-   var botao = document.getElementById('boton');
-   botao.createEventListener(click, funcao_a_executar);
-   ```
-   2. ```javascript
+1. Opção 1
+
+   ```javascript
       var botao = document.getElementById('boton');
-      botao.addEventListener = 'click' + 'funcao_a_executar';
+      botao.createEventListener(click, funcao_a_executar);
    ```
-3. ```javascript
-   var botao = document.getElementById('boton');
-   botao.addEventListener('click', funcao_a_executar);
+
+2. Opção 2
+
+   ```javascript
+         var botao = document.getElementById('boton');
+         botao.addEventListener = 'click' + 'funcao_a_executar';
    ```
-   4. ```javascript
+
+3. Opção 3
+
+   ```javascript
       var botao = document.getElementById('boton');
-      botao= document.addEventListener('click', funcao_a_executar);
+      botao.addEventListener('click', funcao_a_executar);
+   ```
+
+4. Opção 4
+
+   ```javascript
+         var botao = document.getElementById('boton');
+         botao= document.addEventListener('click', funcao_a_executar);
    ```
 
 <solution style="display:none;">3</solution>

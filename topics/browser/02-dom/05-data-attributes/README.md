@@ -41,6 +41,7 @@ Para acessar esses atributos, usamos o método `dataset`.
   const valor = exemplo.dataset.nome;
   const outroValor = exemplo.dataset.outroNome;
 ```
+
 <!--
 
 TODO: traduzir vídeo

@@ -20,7 +20,7 @@
 > sem precisar recarregar a página completamente. Isso cria aplicações mais
 > rápidas e com melhor resposta às ações do usuário.
 
-_Trecho de MDN WEB DOCS_
+Parta do MDN WEB DOCS
 
 >Na aplicação web tradicional, o computador cliente realiza uma solicitação de
 >uma página web. O servidor cria e retorna a página para o cliente. Finalmente,
@@ -56,7 +56,7 @@ completa, essas novas aplicações quase instantâneas eram incríveis.
 [Video AJAX](https://www.youtube.com/watch?v=DAVOAzTX21U8)
 
 Na leitura e vídeo anteriores são mencionados JSON e XML. Vejamos este
-[link][https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
+[link](https://medium.com/laboratoria-how-to/como-enviar-y-recibir-información-en-internet-json-y-xml-456d5109e885)
 em espanhol para ler a respeito.
 
 E por último terminamos com esta

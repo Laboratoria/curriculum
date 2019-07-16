@@ -34,7 +34,6 @@ Quando falamos de depuração, estamos falando de erros e quando programamos é
 muito provável que aconteçam dois tipos de erros: _erros de sintaxe_ e _erros
 lógicos_.
 
-
 > Um **erro de sintaxe** é gerado ao escrever, incorretamente, alguma parte do
 > código fonte do programa. Esse erro impedirá, tanto ao compilador como ao
 > intérprete, traduzir aquela instrução, já que nenhum dos dois entenderá o que

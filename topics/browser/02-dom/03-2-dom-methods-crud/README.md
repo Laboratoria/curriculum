@@ -10,21 +10,20 @@
 
 Nesta unidade aprenderemos:
 
-- Como manipular os nós no DOM
-- Como criar, adicionar e eliminar nós no DOM
-  * `document.createTextNode()`
-  * `document.createElement()`
-  * `.appendChild()`
-  * `.removeChild()`
-- Conhecer as seguintes propriedades:
-  * `.innerHTML`
-  * `.textContent`
-  * `.innerText`
-  * `.value`
-- Conhecer sobre os seguintes métodos:
-  * `.replaceChild()`
-  * `.insertBefore()`
-
+* Como manipular os nós no DOM
+* Como criar, adicionar e eliminar nós no DOM
+  - `document.createTextNode()`
+  - `document.createElement()`
+  - `.appendChild()`
+  - `.removeChild()`
+* Conhecer as seguintes propriedades:
+  - `.innerHTML`
+  - `.textContent`
+  - `.innerText`
+  - `.value`
+* Conhecer sobre os seguintes métodos:
+  - `.replaceChild()`
+  - `.insertBefore()`
 
 ## Modificando elementos e conteúdo do DOM
 
@@ -61,7 +60,8 @@ DOM:
 
     Adiciona o `nóFilho` dentor do `nóPai`.
 
-Desta maneira, se quiser adicionar um parágrafo no final de um página, é necessário incluir o seguinte código JavaScript.
+Desta maneira, se quiser adicionar um parágrafo no final de um página, é
+necessário incluir o seguinte código JavaScript.
 
 ```js
 // Cria o nó do tipo Element
@@ -95,11 +95,11 @@ daí, remover o nó desejado.
 Se não soubermos o pai do nó, podemos selecionar diretamente o nó, obter o pai
 \(com `.parentElement`\) e usar `.removeChild()` para excluí-lo.
 
-- Sintaxis:
+Sintaxis:
 
-  ```js
+```js
   pai.removeChild(nóParaEliminacao);
-  ```
+```
 
 ```js
 const container = document.getElementById('container');
@@ -163,14 +163,15 @@ A propriedade `value` retorna o valor do atributo `value` de um elemento HTML,
 sempre e quando existir a propriedade `value` no elemento. Algunas das _tags_
 que contém a propriedade `value` são os elementos de formulário.
 
-- Sintaxis
+Sintaxis
 
-  * Retorna a propriedade **value**: `elemento.value`;
-  * Modifica a propriedade **value**: `elemento.value = texto`;
+* Retorna a propriedade **value**: `elemento.value`;
+* Modifica a propriedade **value**: `elemento.value = texto`;
 
 > Nota: o valor de retorno é uma _string_, que representa o valor do campo de texto.
 
-Você pode ver um exemplo mais claro neste [pen](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0) .
+Você pode ver um exemplo mais claro neste
+[pen](https://codepen.io/Si7v4n4/pen/prBzoX?editors=1010#0) .
 
 ### insertBefore
 
@@ -211,19 +212,21 @@ Este método é usado para substituir um nó secundário por outro. Tome como
 argumentos dois nós: um novo nó e o nó a ser substituído. O nó substituído deve
 ser um filho do elemento para o qual o método é chamado.
 
-*  Sintaxe:
+Sintaxe:
 
-  ```javascript
+```javascript
     pai.replaceChild(novoNo, noParaSubstituir);
-  ```
+```
 
-Com o mesmo HTML do exemplo de `.insertBefore()`, se quiséssemos substituir o segundo parágrafo pelo qual criamos, faríamos assim:
+Com o mesmo HTML do exemplo de `.insertBefore()`, se quiséssemos substituir o
+segundo parágrafo pelo qual criamos, faríamos assim:
 
 ```javascript
 container.replaceChild(newParagraph, secondParagraph);
 ```
 
-> Note que tanto `.replaceChild()` tanto quanto `.insertBefore()` esperam que o novo nó seja o primeiro argumento.
+> Note que tanto `.replaceChild()` tanto quanto `.insertBefore()` esperam que o
+> novo nó seja o primeiro argumento.
 
 <!--
 
@@ -240,11 +243,13 @@ com o vídeo e se necessário, você pode ir pausando.
   `.createElement()` e `.createTextNode()`.
 
   [Criando nós DOM]
-  (https://www.youtube.com/watch?v=b-ZWMiqsAeU&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
+  (https://www.youtube.com/watch
+  ?v=b-ZWMiqsAeU
+  &list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
 
 * Este outro vídeo adiciona os nós criados ao DOM.
 
   [Agregação de nós ao DOM]
-  (https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
-
+  (https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&
+  list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
 -->

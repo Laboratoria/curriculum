@@ -46,25 +46,33 @@
 
 #### Opções
 
-1. ```javascript
-      var paragraph = document.getElementById('paragraph');
+1. Opção 1
+
+   ```javascript
+      const paragraph = document.getElementById('paragraph');
       paragraph.style.background='red';
    ```
-   2. ```javascript
-      var paragraph = document.getElementById('paragraph');
+
+2. Opção 2
+
+   ```javascript
+      const paragraph = document.getElementById('paragraph');
       paragraph.style.backgroundColor='red';
    ```
-3. ```javascript
-      var paragraph = document.getElementById('paragraph');
+
+3. Opção 3
+
+   ```javascript
+      const paragraph = document.getElementById('paragraph');
       paragraph.backgroundColor='red';
    ```
 
-   <solution style="display:none;">2</solution>
+<solution style="display:none;">2</solution>
 
-   ### 4) `document.getElementsByClassName('unaClase')`, retorna um
+### 4) `document.getElementsByClassName('unaClase')`, retorna um
 
-   ```javascript
-var elementos = document.getElementsByClassName('unaClase');
+```javascript
+const elementos = document.getElementsByClassName('unaClase');
 console.log(elementos);
 ```
 
@@ -80,7 +88,7 @@ console.log(elementos);
 
 <solution style="display:none;">1</solution>
 
-### 5) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo:
+### 5) Quando quero acessar todo os elementos que compartilham a mesta tag html, utilizo
 
 #### Opções
 

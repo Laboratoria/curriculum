@@ -1,4 +1,4 @@
-# Mais APIs!
+# Mais APIs
 
 - Tipo: `leitura`
 - Formato: `individual`
@@ -32,7 +32,6 @@ Desenhe as diversas formas geométricas que você conhece e comece a dar um esti
 personalizado a cada uma delas.
 
 Exemplo:
-
 
 <iframe
   height='265' scrolling='no' title='CSS Basic Shapes'

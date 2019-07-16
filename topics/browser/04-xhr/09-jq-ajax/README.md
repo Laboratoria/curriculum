@@ -50,7 +50,7 @@ A maneira mais comum de usar o método`.ajax()` é usando somente o objeto de
 configuração, em parte devido a esta ser a forma mais antiga que está disponível
 (versão 1.0). Além disso, toda a configuração pode estar somente em um objeto.
 
-> ### O que é um objeto de configuração?
+### O que é um objeto de configuração?
 
 > É um objeto de JavaScript que utilizamos para configurar algo.
 >
@@ -100,7 +100,7 @@ Vamos testá-lo:
 1. Vá para o sítio web de [jQuery](http://jquery.com/).
 2. Abra as `Developer Tools` do seu navegador.
 3. Garanta que está na aba `Network` e que o botão gravação está ligado.
-5. Adicione o script anterior na console e execute-o.
+4. Adicione o script anterior na console e execute-o.
 
 ![jQuery - ajax](https://media.giphy.com/media/l1KcRuWi059tT6VYQ/giphy.gif)
 

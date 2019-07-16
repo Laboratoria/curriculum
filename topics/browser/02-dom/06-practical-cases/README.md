@@ -6,15 +6,18 @@
 
 ## Objetivos
 
-* Entender, por meio de casos práticos, como aplicar os conceitos de navegar e manipular o DOM e responder a eventos.
+- Entender, por meio de casos práticos, como aplicar os conceitos de navegar e
+  manipular o DOM e responder a eventos.
 
 ***
 
 ## Enunciados
 
-Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver problemas.
+Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver
+problemas.
 
-A seguir, você terá vários problemas que deverá resolver. Tente resolvê-los primeiro por conta própria. Abaixo você encontrará as soluções.
+A seguir, você terá vários problemas que deverá resolver. Tente resolvê-los
+primeiro por conta própria. Abaixo você encontrará as soluções.
 
 Depois de tentar, compare suas soluções com os vídeos abaixo.
 
@@ -54,9 +57,16 @@ Abaixo, você encontrará dicas que poderão ajudá-la com a solução, boa sort
 
 #### [Dica | Representação usando Arrays]
 
-Use uma matriz unidimensional do tipo booleano para representar a tabela de assentos do avião. Inicialize todos os elementos do array com -false- para indicar que todos os lugares estão vazios. À medida que cada lugar é atribuído, defina o elemento correspondente da matriz como true para indicar que esse lugar não está mais disponível.
+Use uma matriz unidimensional do tipo booleano para representar a tabela de
+assentos do avião. Inicialize todos os elementos do array com -false- para
+indicar que todos os lugares estão vazios. À medida que cada lugar é atribuído,
+defina o elemento correspondente da matriz como true para indicar que esse lugar
+não está mais disponível.
 
-Seu aplicativo nunca deverá atribuir um lugar que já tenha sido atribuído. Quando a seção econômica ou a primeira classe estiver cheia, seu programa deve perguntar à pessoa se ela concorda em ser colocada na primeira classe (e vice-versa).
+Seu aplicativo nunca deverá atribuir um lugar que já tenha sido atribuído.
+Quando a seção econômica ou a primeira classe estiver cheia, seu programa deve
+perguntar à pessoa se ela concorda em ser colocada na primeira classe (e
+vice-versa).
 
 ![Avião](https://user-images.githubusercontent.com/11894994/59522653-98740880-8ea5-11e9-8733-84cc47264e9e.jpg)
 
@@ -68,13 +78,17 @@ Se não, você deve exibir a mensagem "O próximo vôo sai em 3 horas".
 
 #### 2. Crie um menu de hambúrguer
 
-Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão \(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as opções de menu são mostradas na tela.
+Um menu de hambúrguer nos permite ter o menu escondido e mostrar apenas um botão
+\(3 linhas horizontais\) que quando pressionamos \(ou clicamos\), todas as
+opções de menu são mostradas na tela.
 
 Algo assim:
 
-![Menu hamburger](https://user-images.githubusercontent.com/11894994/59522804-f7398200-8ea5-11e9-9e50-08ccec42da24.gif)
+![Menu
+hamburger](https://user-images.githubusercontent.com/11894994/59522804-f7398200-8ea5-11e9-9e50-08ccec42da24.gif)
 
-Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais",
+apenas foque na funcionalidade\)
 
 #### 3. Criação de tabs
 
@@ -82,9 +96,11 @@ As abas são usadas para agrupar conteúdo semelhante usando apenas um espaço.
 
 Algo assim:
 
-![Menu em tabs](https://user-images.githubusercontent.com/11894994/59522837-12a48d00-8ea6-11e9-9704-8d137aee4ee7.gif)
+![Menu em
+tabs](https://user-images.githubusercontent.com/11894994/59522837-12a48d00-8ea6-11e9-9704-8d137aee4ee7.gif)
 
-Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais", apenas foque na funcionalidade\)
+Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais",
+apenas foque na funcionalidade\)
 
 ### Soluções
 
@@ -92,12 +108,15 @@ A seguir a equipe te explica como ela resolveu cada um dos exercícios.
 
 ### 1. Reserva de assentos de avião
 
-[![Solución aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
+[![Solución
+aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
 
 #### 2. Crie um menu de hambúrguer
 
-[![Solución Menu Hamburguesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+[![Solución Menu
+Hamburguesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
 
 #### 3. Criação de tabs
 
-[![Solución Menu Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+[![Solución Menu
+Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)

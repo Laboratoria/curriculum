@@ -2,7 +2,8 @@
 
 Escreva uma função chamada `greetCustomer`.
 
-Dado um nome, `greetCustomer` retorna uma saudação com base em quantas vezes o cliente visitou o restaurante. Consulte o objeto `customerData`.
+Dado um nome, `greetCustomer` retorna uma saudação com base em quantas vezes o
+cliente visitou o restaurante. Consulte o objeto `customerData`.
 
 A saudação deve ser diferente, dependendo do nome da reserva.
 
@@ -29,7 +30,8 @@ console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 
 Notas:
 
-* Sua função não deve alterar o objeto `customerData` para atualizar o número de visitas.
+* Sua função não deve alterar o objeto `customerData` para atualizar o número de
+  visitas.
 * Não codifique os dados exatos da amostra. Esta é uma má ideia:
 
 ```javascript

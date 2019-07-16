@@ -130,7 +130,6 @@ depois da outra, de uma maneira ordenada e sem cair em um _callback hell_
 (callback dentro de callback). Outra coisa que ganhamos ao fazer as chamadas
 desta forma é que os erros irão retornar dentro da função `.catch`.
 
-
 ## Muitas chamadas de uma vez
 
 Outro caso muito comum que ocorre quando estamos programando, é precisar chamar

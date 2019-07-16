@@ -38,7 +38,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 3) XHR é a abreviação de:
+### 3) XHR é a abreviação de
 
 #### Opções
 
@@ -49,7 +49,7 @@
 
 <solution style="display:none;">1</solution>
 
-### 4) Vá ao Google, abra suas `developer tools` e execute o seguinte no console:
+### 4) Vá ao Google, abra suas `developer tools` e execute o seguinte no console
 
 ```javascript
 const req = new XMLHttpRequest();
@@ -77,7 +77,7 @@ Um pouco chato... então vamos enviar de fato a requisição.
 
 -->
 
-### 5) O método `.open()` de um objeto XHR pode ter vários argumentos. Mas os mais importantes são:
+### 5) O método `.open()` de um objeto XHR pode ter vários argumentos. Mas os mais importantes são
 
 #### Opções
 
@@ -110,7 +110,7 @@ Um pouco chato... então vamos enviar de fato a requisição.
 
 <solution style="display:none;">3</solution>
 
-### 8) Quando nossa resposta é um JSON, devemos convertê-la para um objeto JavaScript e isso é feito com:
+### 8) Quando nossa resposta é um JSON, devemos convertê-la para um objeto JavaScript e isso é feito com
 
 #### Opções
 

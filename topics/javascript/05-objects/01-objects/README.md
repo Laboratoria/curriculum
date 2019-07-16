@@ -29,19 +29,13 @@ Nick Morgan, 2015;
 Os `objetos` em JavaScript são muito similares ao `arrays`, mas com alguns
 diferenciais:
 
-1.
-## ¿Qué es un object en JavaScript?
-
-Los `objects` en JavaScript son muy similares a los `arrays`, pero con dos
-importantes diferencias:
-
 1. Como vimos, para acessar informações dentro de um `array`, nós usamos um
    número correspondente ao _índice_; isto é, a posição em que o valor está
    localizado. Os `objects`, por outro lado, utilizam `strings`ao invés de
    números para acessar os diferentes elementos. Essas `strings` são chamadas de
    chaves (_keys_) ou propriedades, e os elementos para os quais eles apontam
-   são chamados de valores_ _\(_values_\). Juntas, essas informações são
-   chamadas de_ pares de chave-valor_.
+   são chamados de valores \(_values_\). Juntas, essas informações são
+   chamadas de _pares de chave-valor_.
 2. Como nos `arrays` é necessário o _índice_ para acessar informações, é
    importante manter uma determinada ordem de seus valores. No caso dos _pares
    de chave-valor_, as informações podem estar em qualquer ordem.
@@ -190,7 +184,6 @@ Vamos analisar os dois erros:
    sintaxe, uma vez que `dot notation`não deve ser usada com `string`. Por isso,
    devolve-nos: `Uncaught SyntaxError: Unexpected string`.
 
-
 O que acontece quando pedimos uma chave que o `object` não tem? JavaScript nos
 retorna `undefined`. Vamos ver um exemplo:
 
@@ -207,7 +200,6 @@ movie = {
 };
 
 console.assert(movie['producer'] === undefined);
-
 ```
 
 E como conseguimos um dos atores \(`stars`\) do filme? Para isso, temos que
@@ -224,7 +216,6 @@ movie = {
 console.assert(movie.stars[0] === 'Michael J. Fox');
 console.assert(movie['stars'][1] === 'Christopher Lloyd');
 console.assert(movie.stars[2] === 'Lea Thompson');
-
 ```
 
 Observe que usamos `movie.stars`e `movie['stars']`para enfatizar que as duas
@@ -245,18 +236,18 @@ Vamos ver um exemplo que começa com um `object`vazio e segue adicionando e
 modificando elementos.
 
 ```js
-/* creando un object vacío */
+/* criando um objeto vazio */
 const student = {};
 
-/* añadiendo elementos al object con corchetes y comillas */
+/* adicionando elementos ao objeto */
 student['name'] = 'Carolina';
 student['points'] = 2500;
 
-/* añadiendo elementos al object con dot notation */
+/* adicionando elementos ao objeto */
 student.courses = ['Intro a JS', 'Intro a UX'];
 student.isActive = true;
 
-/* resucitamos nuestra función comparadora */
+/* ressucitamos a nossa função comparadora */
 
 const equal = (one, other) => JSON.stringify(one) === JSON.stringify(other);
 
@@ -270,7 +261,7 @@ console.assert(equal(
   },
 ));
 
-/* actualizando los puntos */
+/* atualiando os pontos */
 student['points'] = 3500;
 
 console.assert(equal(
@@ -292,5 +283,6 @@ A continuación Michelle nos explica los conceptos principales de `objects` con
 un ejemplo:
 
 [![ejemplo de crear y modificar un
-object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)](https://www.youtube.com/watch?v=J6U0gDzWsUg)
+object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)]
+(https://www.youtube.com/watch?v=J6U0gDzWsUg)
 -->

@@ -34,7 +34,9 @@ Player](https://user-images.githubusercontent.com/11894994/59532797-1cd38500-8ec
 
 ### Reproduzir em hover
 
-Procure seu(s) vídeo(s) favorito(s) e publique-os no seu sítio web. Adicione a funcionalidade para que ao passar o mouse sobre o vídeo (`hover`), ele seja reproduzido. Quando o mouse sair, o vídeo é pausado.
+Procure seu(s) vídeo(s) favorito(s) e publique-os no seu sítio web. Adicione a
+funcionalidade para que ao passar o mouse sobre o vídeo (`hover`), ele seja
+reproduzido. Quando o mouse sair, o vídeo é pausado.
 
 Exemplo:
 
