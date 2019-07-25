@@ -2,353 +2,276 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+- [Índice](#índice)
+- [Preámbulo](#preámbulo)
+- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+- [Consideraciones generales](#consideraciones-generales)
+- [Requerimientos del proyecto](#requerimientos-del-proyecto)
+  - [Planificación (Agile-Scrum)](#planificación-agile-scrum)
+  - [UX (Diseño de experiencia de usuario)](#ux-diseño-de-experiencia-de-usuario)
+  - [Front-end](#front-end)
+- [Entrega](#entrega)
+- [Parte opcional o "Hacker edition"](#parte-opcional-o-hacker-edition)
+- [Recursos y temas relacionados](#recursos-y-temas-relacionados)
+- [Detalles de aprendizaje](#detalles-de-aprendizaje)
 
-***
+## Preámbulo
 
-## 1. Preámbulo
+Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
+es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
+reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+Veamos los siguientes ejemplos:
+- Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
+se convierte en **D**.
+- Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
+**FDVD**.
+- Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
+  - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+  - Ya cifrado : D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+  ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+> En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad
+  y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
+  cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
+  cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+## Objetivos de aprendizaje
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
+interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
+como herramientas.
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
+En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un
+mensaje.
 
-## 2. Resumen del proyecto
+Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
+de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
+selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
+unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
+## Consideraciones generales
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
+- Este proyecto se debe resolver de manera individual.
+- Primero se deberá _forkear_ y _clonar_ este repositorio.
+- El tiempo sugerido para presentar este proyecto es de aproximadamente 2 semanas (2 sprints):
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+  | Tiempos           | Fechas         | Detalles                           |
+  | :---------------: | :------------: | :--------------------------------- |
+  | **1er Sprint**    | 30/05 al 07/06 |Planificación del sprint 1, prototipado de baja fidelidad (papel y lapiz) + iteración (herramienta [balsamiq](https://balsamiq.com/)), _code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas)  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 1ra semana), planificación del sprint 2  |
+  | **2do Sprint**    | 07/06 al 14/06 | _Code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas),  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 2da semana), _demo_ (presentación) y _feedback_ final del proyecto |
 
-## 3. Objetivos de aprendizaje
+## Requerimientos del proyecto
 
-En este proyecto aprenderás a construir una aplicación web que interactúe con el
-usuario a través del navegador y la lógica basada en esa interacción. Dicho en
-palabras sencillas, aprenderás a:
+La temática es libre pero la interfaz debe permitir al usuario:
 
-* Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-* Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**).
-* **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar tu implementación con **pruebas unitarias**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+- Mostrar una vista de ingreso que tenga como contraseña LABORATORIA. En caso de colocar una clave
+incorrecta, se mostrará un mensaje de error; sin embargo al tercer intento debería mostrar el mensaje
+_"Ya utilizaste todos tus intentos, en este momento no podrás ingresar"_.
+- Escribir un mensaje (texto) para ser cifrado.
+- Elegir un desplazamiento (_offset_) a usar en el cifrado y/o descifrado.
+- Ver el resultado del mensaje cifrado correctamente.
+- Escribir un mensaje (texto) para ser descifrado.
+- Ver el resultado del mensaje descifrado correctamente.
 
-## 4. Consideraciones generales
+En este proyecto, tu producto debe utilizar este alfabeto simple (solamente mayúsculas y sin ñ):
 
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-## 5. Criterios de aceptación mínimos del proyecto
+### Planificación (Agile-Scrum)
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
+actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
+No dudes en solicitar ayuda a tus coaches.
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+### UX (Diseño de experiencia de usuario)
 
-### Definición del producto
+Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
+aplicación lo soluciona.
+- Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
+- Luego valida esta solución con una compañera (pedir feedback).
+- Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un nuevo prototipo
+usando [Balsamiq](https://balsamiq.com/)). Estos puntos los presentarás en el `README.md`.
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+**`README.md`**:
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Debe contener lo siguiente:
+- Un título con el nombre de tu proyecto.
+- Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+- La imagen final de tu proyecto.
+- Investigación UX:
+  - Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+  - Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+  - Luego colocarás la foto de tu primer prototipo en papel.
+  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  - Imagen del prototipo final en Balsamiq.
 
-### Interfaz de usuario (UI)
+### Front-end
 
-La interfaz debe permitir al usuario:
+#### Visualmente (HTML5 y CSS3)
 
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
+Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq utilizando
+HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente, etc a usar.
 
-### Scripts / Archivos
+A continuación describimos los archivos que utilizarás:
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
-  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
+**`src/index.html`**:
 
-## 6. Hacker edition
+En este archivo va el contenido que se mostrará al usuario (esqueleto HTML). Encontrarás
+3 etiquetas iniciales:
 
-Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
-con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+- `<header>`: encabezado de tu proyecto.
+- `<main>`: contenido principal de tu proyecto.
+- `<footer>`: pie de página de tu proyecto.
 
-La descripción general de este proyecto no menciona qué pasaría con las letras
-minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El
-boilerplate incluye algunos tests (comentados en principio) que puedes usar como
-punto de partida para implementar el soporte para estos casos.
+**`src/style.css`**:
 
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
-hacker edition te invitamos a explorar también esta caso por tu cuenta.
+Este archivo debe contener las reglas de estilo. Queremos que escribas tus propias reglas,
+por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize, etc).
 
-## 7. Consideraciones técnicas
+#### Funcionalmente (JavaScript ES6 - pruebas unitarias)
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6). En este proyecto NO está permitido usar librerías o frameworks, sólo
+- La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
+- En este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+- No se debe utilizar la _pseudo-variable_ `this`.
 
-No se debe utilizar la _pseudo-variable_ `this`.
+Vamos a tener 2 archivos JavaScript separando responsabilidades, a continuación indicamos qué
+harás en cada archivo:
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
-test`.
+**`src/cipher.js`**:
 
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
+Acá escribirás las 2 funciones necesarias para el usuario pueda cifrar o descifrar.
+Para esto debes implementar el **objeto `cipher`**, el cual ya se encuentra _exportado_ en el
+objeto global (`window`). Este objeto (`cipher`) contiene dos métodos:
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
+  - **`cipher.encode(offset, string)`**: `offset` es el número de posiciones que queremos
+  mover a la derecha en el alfabeto y `string` el mensaje (texto) que queremos cifrar.
+  - **`cipher.decode(offset, string)`**: `offset` es el número de posiciones que queremos
+  mover a la izquierda en el alfabeto y `string` el mensaje (texto) que queremos descifrar.
 
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
+**`src/index.js`**:
 
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
+Acá escribirás todo el código que tenga que ver con la interacción del DOM (seleccionar,
+actualizar y manipular elementos del DOM y eventos).
+Es decir, en este archivo deberás invocar a `cipher.encode(offset, string)` y
+`cipher.decode(offset, string)` según sea necesario para actualizar el resultado en la
+pantalla(UI).
 
-El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
-`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
-configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+**`test/cipher.spec.js`**:
 
-## 8. Evaluación
+En este archivo tendrás que completar las pruebas unitarias de las funciones
+`cipher.encode(offset, string)` y `cipher.decode(offset, string)` implementadas en `cipher.js`
+utilizando Mocha.
+Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
+_functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
 
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
+## Entrega
 
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
+El proyecto será entregado subiendo tu código a GitHub (_commit/push_) y la interfaz será
+desplegada usando GitHub pages. Recuerda también completar el archivo `README.md` con la
+información solicitada.
 
-### Habilidades Blandas (Soft Skills)
+## Parte opcional o “Hacker edition”
 
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 2              |
-| Autoaprendizaje                                 | 2              |
-| Presentaciones                                  | 2              |
-| Adaptabilidad                                   | 2              |
-| Solución de problemas                           | 2              |
-| Responsabilidad                                 | 2              |
-| Dar y recibir feedback                          | 2              |
-| Comunicación eficaz                             | 2              |
+Esta sección es **opcional** y solo debería realizarse una vez **terminado todo lo anterior**.
+Acá podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+Si te queda tiempo, puedes explorar algunos de estos ejemplos:
 
-### Habilidades Técnicas (Front-end)
+- Cifra/descifra minúsculas.
+- Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...).
+- Permite usar un `offset` negativo.
 
-| Habilidad                               | Nivel esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 1              |
-| Arquitectura                            | 1              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 1              |
-| GitHub                                  | 2              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
-| Nomenclatura / semántica                | 2              |
-| Uso de funciones / modularidad          | 1              |
-| Tests                                   | 2              |
-| **HTML/CSS**                                             |
-| Correctitud / Validación                | 2              |
-| Estilo (linter html)                    | 3              |
-| Semántica / Arquitectura de información | 2              |
-| DRY (CSS)                               | 2              |
-| Responsive Web Design                   | 2              |
+## Recursos y temas relacionados
 
-### Habilidades Técnicas (UX)
+### Para la planificación:
 
-| Habilidad       | Nivel esperado |
-|-----------------|----------------|
-| User Centricity | 2              |
+- [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente
+para comenzar a entender cómo organizar tu trabajo.
 
-***
+### Para UX:
 
-## 9. Pistas, tips y lecturas complementarias
+- [El proceso de diseño](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+- [Balsamiq](https://balsamiq.com/)
 
-### Primeros pasos
+### Para el Desarrollo Front-end:
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-   darán acceso de lectura en ese repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-   incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
+#### HTML5
 
-### Recursos y temas relacionados
+- [HTML, semántica y formularios](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/html/02-html5/00-opening)
+- [Validador de html](https://validator.w3.org/)
 
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+#### CSS3
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+- [Modelo de cajas](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/css/01-css/02-boxmodel-and-display)
+- [Selectores CSS](https://disenowebakus.net/selectores-en-css.php)
 
-Diseño de experiencia de usuario (User Experience Design):
+#### Javascript ES6 y pruebas unitarias
 
-* Ideación
-* Prototipado (sketching)
-* Testeo e Iteración
+- Video de Michelle, acá encontrarás la fórmula matemática del Cifrado César y un par de cosas
+más que debes saber para resolver este proyecto. ¡Escúchala con detenimiento y sigue sus
+consejos! :)
+  [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+- [Aprende más sobre `ASCII`](https://elcodigoascii.com.ar/)
+- [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+- [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+- [Valores y tipos de datos](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/01-basics/01-values-variables-and-types)
+- [Variables](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/01-basics/02-variables)
+- [Control de flujo](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/02-flow-control/00-opening)
+- [Tests unitarios](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/11-testing/00-opening)
+- [GitHub y GitHub Pages](https://guides.github.com/)
+- [Documentación de NPM](https://docs.npmjs.com/)
 
-Desarrollo Front-end:
+## Detalles de aprendizaje
 
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Tests unitarios
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
+### A nivel de planificación
 
-Herramientas:
+- Aprender que antes de empezar a desarrollar un producto lo primero que se debe hacer es pensar
+en cómo solucionar un problema identificando tareas específicas (diagrama de flujo, pseudocódigo
+y tablero de planificación).
+- Planificar y realizar las tareas específicas y presentar el proyecto dentro del tiempo indicado
+(sprint).
+- Organizar el tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
-* GitHub y GitHub Pages.
+### A nivel de UX
 
-Organización del Trabajo:
+- Entender las **necesidades del usuario** y cómo proponer una solución para él.
+- Entender la importancia del proceso de prototipado durante la creación de un proyecto digital.
+- Conocer los principios básicos del diseño visual.
 
-* [Metodologías Ágiles"](https://www.youtube.com/watch?v=v3fLx7VHxGM)
-* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
-  esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
-  poco a lo largo del -_bootcamp_.
-* [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
+### A nivel del Desarrollo Front-end
 
-## 10. Checklist
+#### HTML5
 
-Esta sección está para ayudarte a llevar un control de lo que vas completando.
+- Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
+- Validar que tu marcado HTML5 esté correctamente implementado a través del
+[validador de html](https://validator.w3.org/).
 
-### Parte Obligatoria
+#### CSS3
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+- Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id, etc.
+- Comprender el modelo de cajas (border, margin, padding)
+- Definir reglas de estilos
 
-### Parte Opcional: "Hacker edition"
+#### DOM (Document Object Model)
 
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+- Utilizar eventos del DOM que le permitan al usuario interactuar con la aplicación.
+- Utilizar los métodos de selección del DOM.
+- Actualizar de manera dinámica el contenido de la aplicación a través de innerHTML o
+textContent
+
+#### JavaScript (ES6)
+
+- Manipular _**strings**_ (cadenas de texto).
+- Usar **control de flujo if-else, do-while** (bucles y condicionales).
+- _Implementar funciones_ dada una descripción de su comportamiento.
+- Verifica que tus funciones hagan las cosas para las que fueron creadas
+(**pruebas unitarias (_test_) con Mocha**)
+
+#### Git-Github
+
+- Configurar tu cuenta de git
+- _Forkear_ y _clonar_ el repositorio del proyecto.
+- Mantener actualizado los cambios  (commit, pull, push)
+- Desplegar tu proyecto en gh-pages
