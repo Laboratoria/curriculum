@@ -25,7 +25,9 @@
       "th",
       "td",
       "iframe",
-      "pre"
+      "pre",
+      "key",
+      "value"
     ]
   }
 }

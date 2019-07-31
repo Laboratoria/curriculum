@@ -330,7 +330,7 @@ _secretos_ en el servidor, que usaremos después para configurar nuestra
 aplicación a través de _variables de entorno_.
 
 La herramienta de `now` nos permite crear secretos con el comando `now secrets
-add <key> <balue>`. Por ejemplo:
+add <key> <value>`. Por ejemplo:
 
 ```sh
 $ now secrets add mongo-url "mongodb://system:<PASSWORD>@foo-shard-00-00-ust2z.gcp.mongodb.net:27017,foo-shard-00-01-ust2z.gcp.mongodb.net:27017,foo-shard-00-02-ust2z.gcp.mongodb.net:27017/test?ssl=true&replicaSet=bq-shard-0&authSource=admin&retryWrites=true"
