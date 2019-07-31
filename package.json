@@ -1,7 +1,7 @@
 {
-  "name": "curricula-js",
+  "name": "bootcamp",
   "version": "2.3.0",
-  "description": "Malla curricular Full Stack JavaScript @Laboratoria",
+  "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
     "eslint": "eslint topics/",
@@ -11,18 +11,19 @@
     "build": "./scripts/build.sh",
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an <%ae>)\""
   },
-  "repository": "Laboratoria/curricula-js",
+  "repository": "Laboratoria/bootcamp",
   "keywords": [
     "javascript",
     "laboratoria",
     "bootcamp",
-    "curricula",
-    "fullstack"
+    "curriculum",
+    "fullstack",
+    "ux"
   ],
   "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/Laboratoria/curricula-js/issues"
+    "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
     "chai": "^4.2.0",
