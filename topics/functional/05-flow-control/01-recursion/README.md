@@ -322,13 +322,15 @@ console.log("Bye")
 Veamos otra representación de lo mencionado previamente, mostraremos un esquema
 de cómo fluye el control en la función:
 
-    top
-        greet
-            console.log
-        greet
-    top
+```text
+top
+    greet
         console.log
-    top
+    greet
+top
+    console.log
+top
+```
 
 Como la función debe saltar de nuevo al lugar de la llamada original cuando
 llega al final de la función, la computadora debe recordar el contexto o entorno
@@ -427,14 +429,16 @@ Nota que hemos agregado un parámetro adicional a `factorial` este parametro es
 Hagamos una simulación escrita del método recurrente para ver cómo se acumula el
 resultado factorial:
 
-    factorial(5)
-    factorial(5, 1)
-    factorial(4, 5)
-    factorial(3, 20)
-    factorial(2, 60)
-    factorial(1, 120)
-    factorial(0, 120)
-    120
+```text
+factorial(5)
+factorial(5, 1)
+factorial(4, 5)
+factorial(3, 20)
+factorial(2, 60)
+factorial(1, 120)
+factorial(0, 120)
+120
+```
 
 Todas las funciones recursivas deben tener un caso base que termine la
 recursión. Anteriormente el caso base para la función `factorial` era cuando
