@@ -163,6 +163,7 @@ Estos son algunos de los eventos más utilizados:
 ejemplo sobre la interacción con los eventos.
 
 > Guía de uso:
+>
 > 1. Nota como el fondo es de color blanco
 > 2. Ahora haz click en el botón *Hacer magia :)*
 > 3. Revisa el código y analiza la lógica de programación

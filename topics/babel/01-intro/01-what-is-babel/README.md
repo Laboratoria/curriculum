@@ -147,6 +147,7 @@ Para saber más sobre plugins → [https://babeljs.io/docs/en/plugins](https://b
 > comenzar usando el
 > [generator-babel-plugin](https://github.com/babel/generator-babel-plugin)
 > para generar una plantilla.
+>
 > ```javascript
 > // Un plugin no es más que una función
 > export default function ({types: t}) {
