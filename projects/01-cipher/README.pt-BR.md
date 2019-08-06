@@ -52,7 +52,7 @@ indicando a chave de deslocamento (_offset_).
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (atela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
+usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
 exemplo:
 
 * Mensagens secretas para alguma pessoa.
@@ -68,7 +68,7 @@ você aprenderá:
 
 * Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
 * Permitir o usuário interagir com elementos do DOM e fazer com que a aplicação
-  responda (cifrar/descifrar) quando ocorrer os **eventos de DOM**.
+  responda (cifrar/decifrar) quando ocorrer os **eventos de DOM**.
 * Manipular _strings_ (cadeias de texto).
 * Usar **controle de fluxo** (laços, condicionais, ...).
 * Atualizar a tela com os resultados (**manipular o DOM**).
@@ -257,7 +257,7 @@ ao longo do Bootcamp.
 
 ## 9. Guias, dicas e leituras complementares
 
-### Primeiros pasos
+### Primeiros passos
 
 1. Antes de mais nada, se assegure de ter um bom :pencil: editor de texto, algo
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
