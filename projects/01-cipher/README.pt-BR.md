@@ -12,16 +12,16 @@
 * [7. Considerações técnicas](#7-considerações-técnicas)
 * [8. Avaliação](#8-avaliação)
 * [9. Guias, dicas e leituras
-  completares](#9-guias-dicas-e-leituras-completares)
+  complementares](#9-guias-dicas-e-leituras-complementares)
 * [10. Checklist](#10-checklist)
 
 ***
 
 ## 1. Prefácio
 
-Cifar significa codificar. A [cifra de
+Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidos na história. O imperador romano Júlio César
+tipos de criptografias conhecidas na história. O imperador romano Júlio César
 utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
 batalha.
 
@@ -51,8 +51,9 @@ aplicação web do _bootcamp_. Nela o usuário poderá cifrar e descrifrar um te
 indicando a chave de deslocamento (_offset_).
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência de uso (a
-tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de exemplo:
+necessário cifrar uma mensagem e pensar em como deve ser a experiência do
+usuário (atela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
+exemplo:
 
 * Mensagens secretas para alguma pessoa.
 * Ferramenta de mensagens internas de uma organização em uma zona de conflito.
@@ -61,20 +62,21 @@ tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de exemplo:
 
 ## 3. Objetivos de aprendizagem
 
-Neste projeto você aprenderá a contruir uma aplicação web que interaja com o
+Neste projeto você aprenderá a construir uma aplicação web que interaja com o
 usuário através do navegador e a lógica para essa interação. Em outras palavras,
 você aprenderá:
 
 * Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
 * Permitir o usuário interagir com elementos do DOM e fazer com que a aplicação
-  responda (cifra/descifrar) quando ocorrer os **eventos de DOM**.
+  responda (cifrar/descifrar) quando ocorrer os **eventos de DOM**.
 * Manipular _strings_ (cadeias de texto).
 * Usar **controle de fluxo** (laços, condicionais, ...).
-* Atualizar a tela com os resutados (**manipular o DOM**).
+* Atualizar a tela com os resultados (**manipular o DOM**).
 * **Implementar funções** dada uma descrição de comportamento.
 * Verificar a sua implementação com **provas unitárias**.
 * Entender as **necessidades do usuário** e propor soluções.
-* Organize o seu tempo e priorize tarefas em um ambiente de **alta incerteza**.
+* Organizar o seu tempo e priorizar tarefas em um ambiente de **alta
+  incerteza**.
 
 ## 4. Considerações gerais
 
@@ -92,22 +94,22 @@ Use o alfabeto simples (somente maiúsculas e sem ç):
 
 ### Definição do produto
 
-No README.md, escreva como você pensou sobre a usuária e qual foi o processo
-para definir o produto final a nível de expriência e interface.
+No README.md, escreva como você definiu seu usuário e qual foi o processo para
+definir o produto final a nível de expriência e interface.
 
-* Quem são os principais usuário do produto.
-* Quais são os objetivos do usuário em relação com o produto.
-* Como você acredita que o produto está resolvendo os problemas
+* Quem são os principais usuário do produto?
+* Quais são os objetivos do usuário em relação com o produto?
+* Como você acredita que o produto está resolvendo os problemas do usuário?
 
 ### Interface do usuário (UI)
 
 A interface deve permitir ao usuário:
 
 * Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
-  queremos que a cifra utilize.
-* Inserir uma mensagem (texto) que queremos cifrar.
+  quer que a cifra utilize.
+* Inserir uma mensagem (texto) para ser cifrada.
 * Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (text) para ser decifrada.
+* Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
 
 ### Scripts / Arquivos
@@ -121,13 +123,13 @@ A interface deve permitir ao usuário:
   _exportado_ no objeto global (`window`). Este objeto (`cipher`) deve conter
   dois métodos:
   - `cipher.encode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a direita no alfabeto e `string` a mensagem (texto)
-      que quemos cifrar.
+      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
+      que queremos cifrar.
   - `cipher.decode(offset, string)`: `offset` é o número de posições que
       queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
       que queremos decifrar.
 * `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
-  `cipher.encode()`.
+  `cipher.encode()` e `cipher.decode()`.
 * `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
   você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
 
@@ -151,7 +153,7 @@ A lógica do projeto deve estar implementada inteiramente em JavaScript(ES6).
 Nesse projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
 JavaScript.
 
-Você não deve usar o _pseudo-variable_ `this`.
+Você não deve usar a _pseudo-variable_ `this`.
 
 Os testes unitários devem cubrir no mínimo de 70% dos _statements_, _functions_
 e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
@@ -201,14 +203,14 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 ## 8. Avaliação
 
 OBS: Esta seção inclui uma lista de habilidades que será levada em conta na hora
-de avaliar o projeto. O níveis _esperados_ são níveis _guias_ no desenha
+de avaliar o projeto. O níveis _esperados_ são níveis _guias_ no desenho
 curricular, não são regras absolutas.
 
 Te aconselhamos revisar a [nossa
 rubrica](https://docs.google.com/spreadsheets/d/1hwyBoJWbA0MHGEMDLKqftIv64IhA1uKe2kmJhYpir4s/edit#gid=1789463812)
 para ver a descrição detalhada de cada _habilidade_ e _nível_. Te recomandamos
-também que trate de se auto aplicar a rubrica e nos projetos das suas
-companheiras ao longo do Bootcamp para acopanhar o sua evolução.
+também a se autoavaliar de acordo com a rubrica para acompanhar a sua evolução
+ao longo do Bootcamp.
 
 ### Soft Skills
 
@@ -253,15 +255,15 @@ companheiras ao longo do Bootcamp para acopanhar o sua evolução.
 
 ***
 
-## 9. Guias, dicas e leituras completares
+## 9. Guias, dicas e leituras complementares
 
-### Primeros pasos
+### Primeiros pasos
 
 1. Antes de mais nada, se assegure de ter um bom :pencil: editor de texto, algo
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
-2. Para executar os comando você precisará de um :shell: UNIX Shell, que é um
+2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
-   deve ter git instalado. Se você usa um sistema operacional "UNIX-like", como
+   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like", como
    GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
    provavelmente o `git` também). Se você usa Windows você pode usar o [Git
    bash](https://git-scm.com/download/win), embora seja recomendado que você
@@ -337,23 +339,23 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
   com o produto.
 * [ ] `README.md` explicar claramente como o produto soluciona os
   problemas/necessidades dos usuários.
-* [ ] Use VanillaJS.
-* [ ] **Não** use `this`.
-* [ ] Implemente `cipher.encode`.
-* [ ] Implemente `cipher.decode`.
-* [ ] Passe o linter com a configuração definida.
-* [ ] Passe as provas unitárias.
-* [ ] Teste unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e no
-  mínimo 50% das _branches_.
+* [ ] Usar VanillaJS.
+* [ ] **Não** usar `this`.
+* [ ] Implementar `cipher.encode`.
+* [ ] Implementar `cipher.decode`.
+* [ ] Passar o linter com a configuração definida.
+* [ ] Passar as provas unitárias.
+* [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
+  no mínimo 50% das _branches_.
 * [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
   para cifrar/descifrar.
 * [ ] Interface que permita escrever um texto para ser cifrado.
 * [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser descifrado.
-* [ ] Interface que mostre o resultado descifrado corretamente.
+* [ ] Interface que permita escrever um texto para ser decifrado.
+* [ ] Interface que mostre o resultado decifrado corretamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifrar/descifrar minúsculas.
-* [ ] Cifrar/descifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+* [ ] Cifrar/decifrar minúsculas.
+* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
 * [ ] Permitir usar `offset` negativo.
