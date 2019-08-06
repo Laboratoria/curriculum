@@ -39,7 +39,7 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 * A letra A será D
 * A palavra CASA será FDVD
 
-Atualmente todas as cifras de substituição alfabética simples, são descifradas
+Atualmente todas as cifras de substituição alfabética simples, são decifradas
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
@@ -47,7 +47,7 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## 2. Resumo do projeto
 
 O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e descrifrar um texto
+aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
 indicando a chave de deslocamento (_offset_).
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
@@ -348,7 +348,7 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
 * [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
-  para cifrar/descifrar.
+  para cifrar/decifrar.
 * [ ] Interface que permita escrever um texto para ser cifrado.
 * [ ] Interface que mostre o resultado da cifra corretamente.
 * [ ] Interface que permita escrever um texto para ser decifrado.
