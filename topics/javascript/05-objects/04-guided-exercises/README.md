@@ -47,16 +47,11 @@ cada par de elementos do `array` como um par chave-valor . Por exemplo:
 Escreva também uma função que faça o contrário. Transforme os pares de
 _key-value_ de um `object` em um `array 2D`.
 
-<!--
-TODO: traduzir para português
-
 ## Resolução
 
-A seguir, Lourdes explica como ela resolveu o exercício:
+A seguir, Daniel explica como ele resolveu o exercício:
 
 ### 1. _Array_ para _Object_
 
-[![Solu&#xE7;&#xE3;o
-ArrayToObject](https://img.youtube.com/vi/41ZJrHO6BsE/0.jpg)]
-(https://www.youtube.com/watch?v=41ZJrHO6BsE)
--->
+[![Solução
+ArrayToObject](https://img.youtube.com/vi/yQcNA41PMco/0.jpg)](https://www.youtube.com/watch?v=yQcNA41PMco)

@@ -39,15 +39,11 @@ Medium](https://medium.com/laboratoria-how-to/api-web-storage-ad9b1efa9b01)
 escrito por nossa super professora Marcia no qual ela explica os métodos que
 temos disponíveis por meio desta API.
 
-<!--
-TODO: Traduzir vídeo
-
 Se você for das que preferem o conteúdo visual, deixamos aqui um vídeo que lhe
 permite ver um exemplo de como usar `localStorage`.
 
-[![Local Storage](https://img.youtube.com/vi/hb8O0qRqiSk/0.jpg)]
-(https://youtu.be/hb8O0qRqiSk)
--->
+[![Local
+Storage](https://img.youtube.com/vi/2K4Z46CT5z4/0.jpg)](https://youtu.be/2K4Z46CT5z4)
 
 ## `JSON.stringify()`, `JSON.parse()`?
 

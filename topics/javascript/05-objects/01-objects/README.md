@@ -276,13 +276,7 @@ console.assert(equal(
 
 ```
 
-<!--
-TODO: traduzir vídeo da Michelle
+A seguir Daniel nos explica os conceitos principais de `objects` com um
+exemplo:
 
-A continuación Michelle nos explica los conceptos principales de `objects` con
-un ejemplo:
-
-[![ejemplo de crear y modificar un
-object](https://img.youtube.com/vi/J6U0gDzWsUg/0.jpg)]
-(https://www.youtube.com/watch?v=J6U0gDzWsUg)
--->
+[![Arrays](https://img.youtube.com/vi/_P1kAhq7W38/0.jpg)](https://www.youtube.com/watch?v=_P1kAhq7W38)

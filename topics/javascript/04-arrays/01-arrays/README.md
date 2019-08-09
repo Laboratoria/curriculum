@@ -228,3 +228,8 @@ console.assert(
 console.assert(quest3[1] === 'Peso');
 
 ```
+
+A seguir Juliana nos explica os conceitos principais de `arrays` con um
+exemplo:
+
+[![Arrays](https://img.youtube.com/vi/joMxeCl6ppg/0.jpg)](https://www.youtube.com/watch?v=joMxeCl6ppg)

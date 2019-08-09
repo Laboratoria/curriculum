@@ -45,9 +45,9 @@ isto é, um conjunto de sentenças que informa ao computador o que fazer.
 
 Quando um programa contém mais de uma frase, elas são executadas de cima para
 baixo, uma por uma. Por exemplo, o programa a seguir tem três sentenças: a
-primeira declara uma variável chamada `name` com o valor do string 'Michelle'; a
+primeira declara uma variável chamada `name` com o valor do string 'Samanta'; a
 segunda exibe no terminal uma mensagem de saudação personalizada: "Olá
-Michelle"; e a terceira exibe "Que nome longo você tem!".
+Samanta"; e a terceira exibe "Que nome longo você tem!".
 
 ```js
 const name = 'Samanta';
@@ -200,6 +200,11 @@ O fluxograma deste programa é algo assim:
 ![Flujo
 condicional](https://camo.githubusercontent.com/7da7c495c1528a60105d941be0181490fbffbc81/687474703a2f2f656c6f7175656e746a6176617363726970742e6e65742f696d672f636f6e74726f6c666c6f772d6e65737465642d69662e737667)
 
+Vamos ver outro exeplo de como usar `if...else`. Dessa vez com um vído da Paloma:
+
+[![if ...
+else](https://img.youtube.com/vi/wQ_s9sso9b0/0.jpg)](https://www.youtube.com/watch?v=wQ_s9sso9b0)
+
 #### _Utilizando Switch_
 
 É comum ver o código assim:
@@ -251,7 +256,9 @@ compartilhar o código entre os casos (é recomendado ir ao ar livre tanto para
 tempo ensolarado quanto nublado). Mas cuidado: é fácil esquecer o break, o que
 fará com que o programa execute um código que você não deseja executar.
 
-### 3. Flujo repetitivo: Bucles
+A seguir o Daniel te ajudará entender este caso um pouco melhor:
+
+[![Switch](https://img.youtube.com/vi/CbBTrBwzQfQ/0.jpg)](https://www.youtube.com/watch?v=CbBTrBwzQfQ)
 
 ### 3. Fluxo repetitivo: Loops
 
@@ -476,6 +483,10 @@ executa depois de cada execução do corpo do loop. Geralmente se utiliza para
 atualizar a variável do loop. No nosso exemplo, utilizamos para agregar 1 a
 counter cada vez que se executa o loop.
 
+A seguir Paloma te ajudará a entender o fluxo do loop for:
+
+[![For](https://img.youtube.com/vi/6iZEpRhzDKI/0.jpg)](https://www.youtube.com/watch?v=6iZEpRhzDKI)
+
 #### _Forçando a saída de um loop_
 
 Fazer com que a condição do loop produza _false_ não é a única forma para que um
@@ -510,6 +521,12 @@ se ficaria travado em um loop infinito.
 A palavra chave `continue` é parecida ao `break` pois influencia o progresso do
 loop. Quando se encontra `continue` no corpo de um loop, o controle sai do corpo
 do loop imediatamente e continua na próxima iteração do loop.
+
+A seguir Rafael te explicará, com um exemplo, as aplicações de `break` and
+`continue` dentro de um for:
+
+[![Break and
+Continue](https://img.youtube.com/vi/1B6pwKRDWgE/0.jpg)](https://www.youtube.com/watch?v=1B6pwKRDWgE)
 
 #### _Diferenças entre `for` e `while`_
 

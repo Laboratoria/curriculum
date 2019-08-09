@@ -102,21 +102,36 @@ tabs](https://user-images.githubusercontent.com/11894994/59522837-12a48d00-8ea6-
 Replicar essa funcionalidade usando DOM e CSS. \(Não adicione efeitos "legais",
 apenas foque na funcionalidade\)
 
+#### 4. Mini Zoo
+
+Esta página permite eleger efeitos como **sepia**, **branco e preto** e
+**inverter cores** que desejamos que nossas imagens tenham.
+Você deverá replicar usando DOM e CSS.
+
+Veja como a página deve ficar:
+![Mini
+Zoo](https://user-images.githubusercontent.com/11894994/62797560-613f6380-bab2-11e9-925d-a306c44368c4.gif)
+
 ### Soluções
 
 A seguir a equipe te explica como ela resolveu cada um dos exercícios.
 
 ### 1. Reserva de assentos de avião
 
-[![Solución
-aerolínea](https://img.youtube.com/vi/ov2pYXulNvc/0.jpg)](https://www.youtube.com/watch?v=ov2pYXulNvc)
+[![Reserva de
+assentos](https://img.youtube.com/vi/HwOqNq-QIss/0.jpg)](https://www.youtube.com/watch?v=HwOqNq-QIss)
 
 #### 2. Crie um menu de hambúrguer
 
-[![Solución Menu
-Hamburguesa](https://img.youtube.com/vi/ej2MVZpPaoM/0.jpg)](https://www.youtube.com/watch?v=ej2MVZpPaoM)
+[![Menu
+Hambúrguer](https://img.youtube.com/vi/5fzzEx7-a5k/0.jpg)](https://www.youtube.com/watch?v=5fzzEx7-a5k)
 
 #### 3. Criação de tabs
 
-[![Solución Menu
-Tabs](https://img.youtube.com/vi/nEKbaKIat1g/0.jpg)](https://www.youtube.com/watch?v=nEKbaKIat1g)
+[![Menu
+Tabs](https://img.youtube.com/vi/qziZsQC7C-c/0.jpg)](https://www.youtube.com/watch?v=qziZsQC7C-c)
+
+#### 4. Mini Zoo
+
+[![Mini
+Zoo](https://img.youtube.com/vi/Y-JmMbIP-Uw/0.jpg)](https://www.youtube.com/watch?v=Y-JmMbIP-Uw)

@@ -175,15 +175,8 @@ console.log(power(2, 10));
 // → 1024
 ```
 
-<!--
-TODO: traduzir vídeo A continuación Michelle te explica funciones con un ejemplo
-del libro JavaScript for Kids.
-
-[![ejercicio guiado JS for Kids pg 128 funcion de imprimir
-caras]
-(https://img.youtube.com/vi/Y0NgsjdumS8/0.jpg)]
-(https://www.youtube.com/watch?v=Y0NgsjdumS8)
--->
+A seguir Daniel te explica mais sobre funções:
+[![Funções](https://img.youtube.com/vi/68743wkEjiw/0.jpg)](https://www.youtube.com/watch?v=68743wkEjiw)
 
 ## Saindo de uma função com `return`
 
@@ -209,7 +202,7 @@ const fifthLetter = function (name) {
 };
 ```
 
-## Funciones y control de flujo
+## Funções e controle de fluxo
 
 A funções também afetam o controle de fluxo do nosso programa. Com funções
 podemos criar estruturas repetitivas (com algo que se chama `recursividade`) e
@@ -222,7 +215,7 @@ profundidade funções e o paradigma de programação funcional. Por enquanto, o
 importante é entender que as funções são uma forma de agrupar código para que
 possa ser reutilizado.
 
-## Utilizando múltiples `return` en lugar de `if... else`
+## Utilizando múltiplos `return` no lugar de `if... else`
 
 Podemos usar vários `return` dentro de diferentes sentenças `if` no corpo de uma
 função para que a função devolva um valor diferente, dependendo do argumento
