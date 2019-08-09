@@ -177,7 +177,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ### Track UX Design
 
-#### Proyecto: [Plataforma de ventas en línea](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/marketplace.md)
+#### Proyecto: [Emprendimientos](projects/06-emprendimientos)
 
 Para este reto inicial del track, las estudiantes trabajan con pequeños
 emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
@@ -187,31 +187,32 @@ reto las estudiantes hacen trabajo de campo como entrevistas, observación y
 testing. Y diseñan soluciones utilizando herramientas de diseño como Figma y
 Marvel.
 
-* Duración estimada: 4 semanas?
-* Equipos: 2 estudiantes.
+* Duración estimada: 3 semanas
+* Equipos: 2 o 3 estudiantes
 * Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
   (flujo de contenido, mapa de sitio), diseño visual y de interacción
-  (wireframes y prototipado), y user testing.
+  (wireframes y prototipado), y user testing
 
-#### Proyecto: [Aplicación financiera](https://github.com/Laboratoria/curricula-ux/blob/master/03-projects/financial-app.md)
+#### Proyecto: [Rediseño y análisis de data](projects/07-rediseno-y-data)
 
 Este es un proyecto de rediseño. Basándose en la data de los resultados
 que está teniendo una aplicación de servicios financieros, las estudiantes
-buscan mejorar la experiencia de la misma.
+buscan mejorar la experiencia de la misma. En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de
+aprendizaje.
 
-* Duración estimada: 4 semanas.
-* Equipos: 2/3 estudiantes.
-* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design.
+* Duración estimada: 2 semanas
+* Equipos: 2 o 3 estudiantes
+* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
 
-#### Proyecto: Consultoría UX a empresas reales
+#### Proyecto: [Consultoría UX](projects/08-consultoria-ux)
 
 En este reto, las estudiantes trabajan en distintos casos reales
-propuestos por empresas de distintos rubros y tamaños. Anteriores retos
+propuestos por empresas de diversos rubros y tamaños. Anteriores retos
 han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
 Magical Startups, Laboratoria, entre otras.
 
-* Duración estimada: 2 semanas.
-* Equipos: Depende de proyectos.
+* Duración estimada: 2 o 3 semanas
+* Equipos: Depende de proyectos
 * Tópicos: UX Research, prototipado, ideación, visual design
 
 ***
@@ -269,15 +270,15 @@ nativas.
 
 #### Proyecto: Service  Design
 
-Con la ayuda de consultoras especializadas como Amable o Touchpointg,
+Con la ayuda de consultoras especializadas como Amable o Touchpoint,
 las estudiantes se sumergen en el mundo del service design. Entendiendo
 problemas de negocio desde una visión más holística y utilizando
 nuevas herramientas como el Service BluePrint.
 
-* Duración estimada: 2 semanas.
-* Equipos: Depende de proyectos.
+* Duración estimada: 2 semanas
+* Equipos: Depende de proyectos
 * Tópicos: Service design, disruptive design, insights, service prototyping,
-  service blue print.
+  service blue print
 
 #### Proyecto: Design Sprint
 
@@ -286,9 +287,9 @@ la metodología de Design Sprints. Durante la primera semana entienden la
 metodología mediante un reto simulado, y durante la segunda semana ponen en
 práctica un Design Sprint con equipos de producto de distintas empresas.
 
-* Duración estimada: 2 semanas.
-* Equipos: Depende de proyectos.
-* Tópicos: Design Sprints.
+* Duración estimada: 2 semanas
+* Equipos: Depende de proyectos
+* Tópicos: Design Sprints
 
 #### Proyecto: Visual Design
 
@@ -297,10 +298,10 @@ Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
 de una plataforma de venta de entradas a espectaculos (tradicional) para
 ayudarlos a competir con nuevos actores en la industria como Stubhub,
 Eventbrite, Joinnus, entre otros. Para ello tendrán que crear soluciones
-consistentes para mobile, desktop y smartwatches.
+consistentes para mobile, desktop y smartwatches.  En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de aprendizaje.
 
-* Duración estimada: 2 semanas.
-* Equipos: Depende de proyectos.
+* Duración estimada: 2 o 3 semanas
+* Equipos: Depende de proyectos
 * Tópicos: Design Systems, Grid systems, atomic design, componentes, consistencia,
   jerarquía, responsive design.
 
