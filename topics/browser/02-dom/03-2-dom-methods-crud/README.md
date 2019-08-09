@@ -228,10 +228,6 @@ container.replaceChild(newParagraph, secondParagraph);
 > Note que tanto `.replaceChild()` tanto quanto `.insertBefore()` esperam que o
 > novo nó seja o primeiro argumento.
 
-<!--
-
-TODO: traduzir videos
-
 ## Vamos praticar
 
 Nos vídeos a seguir vamos colocar em prática a parte teórica já que eles usam os
@@ -239,17 +235,10 @@ métodos como criar, adicionar e eliminar os nós do DOM por meio do Javascript 
 assim poder criar páginas dinâmicas. sugerimos que você faça o exercício junto
 com o vídeo e se necessário, você pode ir pausando.
 
-* Este vídeo dura 8:18, no minuto 2:25 começa a usar os métodos
-  `.createElement()` e `.createTextNode()`.
-
-  [Criando nós DOM]
-  (https://www.youtube.com/watch
-  ?v=b-ZWMiqsAeU
-  &list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G&index=14)
+[![Criando nós
+DOM](https://img.youtube.com/vi/fDz1IgduZxA/0.jpg)](https://www.youtube.com/watch?v=fDz1IgduZxA)
 
 * Este outro vídeo adiciona os nós criados ao DOM.
 
-  [Agregação de nós ao DOM]
-  (https://www.youtube.com/watch?v=yQdi_8nh9HE&index=15&
-  list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G)
--->
+[![Adicionando nós
+DOM](https://img.youtube.com/vi/7MKCrho0nho/0.jpg)](https://www.youtube.com/watch?v=7MKCrho0nho)

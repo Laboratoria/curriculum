@@ -93,25 +93,18 @@ Para criar sua conta no GitHub, siga estes passos:
 
 E pronto! Ao finalizar essas etapas, teremos nossa conta GitHub criada.
 
-<!--
+Agora Juliana, seguindo os passos anteriores, criará
+sua conta no `Github`.
 
-  Traduzir vídeo para PT
-
-Ahora Michelle, siguiendo los pasos anteriores, creará
-su cuenta en `Github`. -->
-
-<!-- [![creando cuenta de github]
-(https://img.youtube.com/vi/1r9ixrSftaI/0.jpg)]
-(https://www.youtube.com/watch?v=1r9ixrSftaI) -->
+[![Criando conta no
+Github](https://img.youtube.com/vi/UciuMoszpp8/0.jpg)](https://www.youtube.com/watch?v=UciuMoszpp8)
 
 ## Como criamos um repositório remoto no GitHub?
 
 Siga os passos a seguir para criar um repositório no `Github`:
 
-<!-- Traduzir esse vídeo
-  [![Creando repositorio]
-(https://img.youtube.com/vi/KCLpcq9BPcc/0.jpg)]
-(https://www.youtube.com/watch?v=KCLpcq9BPcc) -->
+[![Criando um
+repositório](https://img.youtube.com/vi/ZPoYWdQdJRs/0.jpg)](https://www.youtube.com/watch?v=ZPoYWdQdJRs)
 
 Por último temos a tela onde encontramos a `url` do nosso `repositório remoto`,
 com o qual (mais adiante) vincularemos nosso repositório remoto com nosso
@@ -182,13 +175,11 @@ repositório _local_ a um repositório _remoto_ e trabalhar colaborativamente.
 
 ## Exemplo
 
-Agora vamos ver como Michelle utiliza `Git` e `Github` para manejar o controle
+Agora vamos ver como Juliana utiliza `Git` e `Github` para manejar o controle
 de versões de ses projetos e colaborar com outras coaches de Laboratoria.
 
-<!-- Traduzir este vídeo
-[![Subiendo repositorio]
-(https://img.youtube.com/vi/Af51B0tI8Zs/0.jpg)]
-(https://www.youtube.com/watch?v=Af51B0tI8Zs) -->
+[![Subindo um
+repositório](https://img.youtube.com/vi/rfb3abnbkxM/0.jpg)](https://www.youtube.com/watch?v=rfb3abnbkxM)
 
 ### Material complementar
 

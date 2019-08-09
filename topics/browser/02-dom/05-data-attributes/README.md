@@ -42,10 +42,6 @@ Para acessar esses atributos, usamos o método `dataset`.
   const outroValor = exemplo.dataset.outroNome;
 ```
 
-<!--
-
-TODO: traduzir vídeo
-
 ## E o que vem agora?
 
 Como temos uma noção do que são e como os atributos de dados são usados, o que
@@ -53,12 +49,8 @@ você acha de vermos o vídeo a seguir, no qual um exercício é mostrado fazend
 uso deles.
 
 [![Atributos de
-dados]
-(https://img.youtube.com/vi/fnn6mqN1S8Q/0.jpg)]
-(https://www.youtube.com/watch?v=fnn6mqN1S8Q)
+dados](https://img.youtube.com/vi/fvyo7d1JDcSs/0.jpg)](https://www.youtube.com/watch?v=fnn6mqN1S8Q)
 
 Para ler mais sobre os atributos de dados, verifique este
-[link]
-(hhttps://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Using_data_attributes)
+[link](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Using_data_attributes)
 e este outro [link](https://www.w3schools.com/tags/att_global_data.asp).
--->

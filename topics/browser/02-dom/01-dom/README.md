@@ -226,15 +226,10 @@ Os nós DOM possuem propriedades básicas, que são:
 * **nodeValue** , é o texto contido em um nó de texto. Esta propriedade é usada
   apenas para nós do tipo 3 e nós do tipo comentário `8`.
 
-<!--
-TODO: Traduzir video
 ## Recapitulando
 
-Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
-refuerza lo aprendido.
+Prepare seu editor, replique o que Daniel realiza no vídeo a seguir e reforce
+seu aprendizado.
 
-[![Recorriendo el
-DOM]
-(https://img.youtube.com/vi/D93IP_n6kj8/0.jpg)]
-(https://www.youtube.com/watch?v=D93IP_n6kj8)
-  -->
+[![Navegando no
+DOM](https://img.youtube.com/vi/3UE4ndfUQVk/0.jpg)](https://www.youtube.com/watch?v=3UE4ndfUQVk)

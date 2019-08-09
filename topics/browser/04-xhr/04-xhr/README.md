@@ -89,11 +89,10 @@ adicione no console o objeto e seus métodos `open` e `send`.
 ![XHR send
 method](https://user-images.githubusercontent.com/11894994/59536911-72615f00-8ecb-11e9-8e8a-5add6b412c9e.gif)
 
-No vídeo a seguir podemos ver o que acontece. Está em inglês, mas vá fazendo
-passo a passo com o vídeo e certamente você entenderá.
+No vídeo a seguir podemos ver o que acontece:
 
-[![XHR sened method
-analysis](https://img.youtube.com/vi/m9C0LJoWhOE/0.jpg)](https://youtu.be/m9C0LJoWhOE)
+[![APIs REST com
+XHR](https://img.youtube.com/vi/ravLi7zZA7Q/0.jpg)](https://youtu.be/ravLi7zZA7Q)
 
 ## Resposta de sucesso
 

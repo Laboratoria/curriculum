@@ -126,13 +126,11 @@ _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
 ![flow-event](https://user-images.githubusercontent.com/11894994/59521680-4205ca80-8ea3-11e9-8332-0ac326994e11.png)
 
-<!--
-TODO: tradução do vídeo
+A seguir, um vídeo que te explicará com um exemplo o fluco que seguem os
+eventos:
 
-Revisa éste [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontrarás
-un ejemplo práctico del flujo que siguen los eventos.
-
- -->
+[![Adicionando nós
+DOM](https://img.youtube.com/vi/wsim6ujXeOY/0.jpg)](https://www.youtube.com/watch?v=wsim6ujXeOY)
 
 ## Tipo de eventos
 

@@ -201,15 +201,11 @@ console.log(items);
 
 ## Recapitulando
 
-<!--
-TODO: traduzir vídeo
+Prepare seueditor, replique o que Daniel realiza no seguinte vídeo e
+reforce seu aprendizado.
 
-Prepara tu editor de código, replica lo que realiza Lulú en el siguiente video y
-refuerza lo aprendido.
-
-[![Métodos de Selección DOM](https://img.youtube.com/vi/7iHu7s54vIk/0.jpg)]
-(https://www.youtube.com/watch?v=7iHu7s54vIk)
--->
+[![Manipulando
+HTML](https://img.youtube.com/vi/6mzK28lEZsI/0.jpg)](https://www.youtube.com/watch?v=6mzK28lEZsI)
 
 Também recomendamos o
 [link](https://developer.mozilla.org/pt-PT/docs/Gecko_DOM_Reference/Introduction)

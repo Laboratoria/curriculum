@@ -76,15 +76,12 @@ Que legal quando vemos tudo o que aprendemos aplicado em um único bloco de
 código, né? :\) A melhor parte é que, com essa estrutura, podemos acessar os
 dados de maneira simples.
 
-<!--
-TODO: traduzir vídeo Em seguida, Michelle dirá como usar `funções`, `estruturas
+Em seguida, Daniel dirá como usar `funções`, `estruturas
 de repetição` e `estruturas condicionais` para imprimir no console:
 
-1. Os nomes de todos as alunas ativas
+1. Os nomes de todas as alunas ativas
 2. O total de pontos da turma
-3. Os nomes das alunas que fizeram o curso **"JS avançado"**
+3. Os nomes das alunas que fizeram um determinado curso
 
-[![V&#xED;deo sobre arrays com
-objects](https://img.youtube.com/vi/M4vXJ62IIlI/0.jpg)]
-(https://www.youtube.com/watch?v=M4vXJ62IIlI)
--->
+[![Vídeo sobre arrays com
+objects](https://img.youtube.com/vi/mU8FjHZcE0Y/0.jpg)](https://www.youtube.com/watch?v=mU8FjHZcE0Y)
