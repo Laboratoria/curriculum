@@ -74,7 +74,7 @@ sempre significam que você esqueceu de adicionar algo logo antes do token
 inesperado. Felizmente, Chrome DevTools dirá o número da linha na qual está o
 erro e `repl.it` dirá não só o número da linha como também o número da coluna.
 
-![repl.it screenshot](img-line-number.png).
+![repl.it screenshot](https://user-images.githubusercontent.com/11894994/62891126-4d4a6a80-bd1b-11e9-9087-2f1c5dd898d6.png).
 
 ### TypeError: "x" is not a function
 

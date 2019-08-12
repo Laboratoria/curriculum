@@ -1,6 +1,6 @@
 # Quiz
 
-- Tipo: `leitura`
+- Tipo: `quiz`
 - Formato: `individual`
 - Duração: `5min`
 

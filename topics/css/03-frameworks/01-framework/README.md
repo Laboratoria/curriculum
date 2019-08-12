@@ -58,9 +58,6 @@ Algumas das ferramentas que podemos encontrar nos frameworks de CSS são:
 - Criar leiautes de maneira simples garantindo que funcionará e será visualizado
   corretamente em qualquer versão de qualquer navegador existente.
 
-![componentes de
-frameworks](https://camo.githubusercontent.com/1049c6b32557b0b3fb57f64562ac126bb1a90fe3/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d566b6c535365336c5070452f5758654f46665f5f7771492f41414141414141414762492f526e50564a51484a62446f632d4e486b4a5953477a452d6a427459584d6a4c3251434c63424741732f733632302f626f6f7473747261702d30322e706e67)
-
 > Utilizar um framework só é uma boa ideia se ele faz o que você quer no sítio
 > que você fizer.
 
