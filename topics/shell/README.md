@@ -35,27 +35,13 @@ Tags: `cli`, `shell`, `bash`, `filesystem`, `profile`, `history`, `environment`,
 
 ## Syllabus
 
-### Unidade 01: [Introducción](01-intro)
+### Unidade 01: [Introdução](01-intro)
 
 Esta unidade faz uma introdução a _shell_ de UNIX, shells comuns, a linha de
 comandos e outros conceitos básicos sobre este poderoso ambiente.
 
-### Unidade 02: [Sistema de archivos](02-filesystem)
+### Unidade 02: [Sistema de arquivos](02-filesystem)
 
 Nesta unidade nos concentraremos na interação com o sistema de arquivos pelo
 terminal. Veremos como navegar pelo sistema de arquivos, criar pastas,
 mover/copiar/apagar arquivos e outros comandos comuns.
-
-<!--
-### Unidad 03: [Entorno / Envirnoment](03-environment)
-
-...
-
-### Unidad 04: [Procesos](04-process)
-
-...
-
-### Unidad 05: [Scripts](05-scripts)
-
-...
--->

@@ -19,15 +19,15 @@ Este _tópico_ cubre JavaScript en el contexto del navegador.
 
 ## Syllabus
 
-### Unidade 01: [DOM](02-dom)
+### Unidade 01: [DOM](01-dom)
 
 ...
 
-### Unidade 02: [Browser APIs](03-browser-apis)
+### Unidade 02: [Browser APIs](02-browser-apis)
 
 ...
 
-### Unidade 03: [Xhr](04-xhr)
+### Unidade 03: [Xhr](03-xhr)
 
 ...
 
