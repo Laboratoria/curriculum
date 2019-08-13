@@ -6,7 +6,7 @@
 
 ***
 
-[JS Deep Dive](https://goo.gl/wBwVRr)
+[JS Deep Dive](https://docs.google.com/presentation/d/e/2PACX-1vTKtVCzr-absyZJrte790kFPI1QLNLOm1G7QAtSFwexk6nc5ZWFl9H0QY0Io1q-iZO8ArNxAypNdvPm/embed)
 
 Um evento de JavaScript por si só precisa de utilidade. Para que os eventos
 sejam úteis, devemos associar funções ou código JavaScript a cada evento. Desta
