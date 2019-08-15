@@ -41,4 +41,4 @@ alguns slides com recursos e guias do fluxo do app. Lembre-se que não é
 necessário que siga o projeto ao pé da letra. Você pode adaptá-lo livremente ao
 seu gosto.
 
-[Weather](https://docs.google.com/presentation/d/e/2PACX-1vSJ0g3cXnpyO9R6DjngjIxIpgRXd_Fz9nA0l8E2iRCl97pQkAFMgFJzNtGnu5lHAeL0VeC21S7D7shg/embed?start=false&loop=false&delayms=3000)
+[Weather](https://docs.google.com/presentation/d/16kxaGLh87JVbSD_Kee5dBDA0sN4zHq7cQYHZ-rnfFJs/embed?start=false&loop=false&delayms=3000)
