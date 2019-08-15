@@ -1,6 +1,6 @@
 # Exercícios Livres
 
-- Tipo: `práctica`
+- Tipo: `leitura`
 - Formato: `individual`
 - Duração: `2h`
 

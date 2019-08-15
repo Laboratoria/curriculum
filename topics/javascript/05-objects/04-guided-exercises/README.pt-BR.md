@@ -1,6 +1,6 @@
 # Exercícios Livres
 
-* Tipo: `exercício`
+* Tipo: `leitura`
 * Formato: `individual`
 * Duração: `40 min`
 

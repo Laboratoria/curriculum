@@ -25,7 +25,7 @@ Pokeapi](https://pokeapi.co/), programe seu próprio *pokedex*. Deixamos aqui
 alguns slides com instruções um pouco mais detalhadas. Lembre-se de não se
 limitar e ir além do que foi proposto ;)
 
-[Pokedex](https://docs.google.com/presentation/d/e/2PACX-1vTZUDMeEBLTwGHncLRRQzdq4qcQAsV8Q1XNIhJGG4N2QyzFVXgQqf2nZ0zp4U42mitojFEtDxU-Gcan/embed?start=false&loop=false&delayms=3000)
+[Pokedex](https://docs.google.com/presentation/d/1X3EXk48jTJWm2dmIoeRKpu1rPh5sLaNsJRKnOuJ_Edc/embed?start=false&loop=false&delayms=3000)
 
 ### Buscador de GIFs
 
@@ -41,4 +41,5 @@ seu buscador estiver pronto, o que mais você acha que pode adicionar a ele?
 Aqui você tem um guia de como conseguir fazer. Não se contente com isso e
 adapte-o ao seu próprio estilo.
 
-[Buscador de gifs](https://docs.google.com/presentation/d/e/2PACX-1vRabPxOEWBZZ5srO-SaZQ83flBF2Swt9iS2t54ycoJ1tdP07BGQrEuSxU6Uq_M1Cocwbc0UuetdW6PD/embed?start=false&loop=false&delayms=3000)
+[Buscador de
+gifs](https://docs.google.com/presentation/d/1hR-LCtwMLm9vS0C18oRm1E1TOUdHEFXy-ETCEgAUD38/embed?start=false&loop=false&delayms=3000)
