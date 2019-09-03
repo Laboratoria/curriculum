@@ -40,6 +40,6 @@
     "mdlint": "Laboratoria/mdlint#v1.0.2",
     "mocha": "^6.2.0",
     "renamer": "^1.1.1",
-    "sinon": "^7.4.1"
+    "sinon": "^7.4.2"
   }
 }
