@@ -27,6 +27,15 @@ topics=(
   'shell'
 )
 
+topicsPt=(
+  'browser'
+  'css'
+  'html'
+  'javascript'
+  'scm'
+  'shell'
+)
+
 repo=$( node -e "console.log(require('./package.json').repository)" )
 version=$( node -e "console.log(require('./package.json').version)" )
 rubricVersion="2.3.x"
@@ -93,6 +102,33 @@ buildTopics() {
 }
 
 
+buildTopicsPt() {
+  echo "Building topics (portuguese)..."
+  for topic in ${topicsPt[@]}; do
+    echo "topics/${topic}"
+    if [[ "$validate" == "0" ]]; then
+      dest="build/topics/${topic}-pt.json"
+    else
+      dest="/dev/null"
+    fi
+    ${parser} topic topics/${topic} \
+      --repo ${repo} \
+      --version ${version} \
+      --track js \
+      --locale pt-BR \
+      --suffix pt \
+      > "${dest}"
+
+    if [[ "$?" != "0" ]]; then
+      hasFailures=1
+      echo "Failed"
+    else
+      echo "OK"
+    fi
+  done
+}
+
+
 if [[ "$validate" == "0" ]]; then
   rm -rf build/*
   mkdir -p build/projects
@@ -103,5 +139,6 @@ fi
 
 buildProjects
 buildTopics
+buildTopicsPt
 
 exit "$hasFailures"
