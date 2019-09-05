@@ -210,12 +210,6 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
 una lista de todas las habilidades involucradas en este proyecto y que
 evaluaremos cuando lo  completes:
 
-### General
-
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 5              |
-
 ### Habilidades Blandas
 
 | Habilidad                    | Nivel esperado |
@@ -237,19 +231,19 @@ evaluaremos cuando lo  completes:
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|
 | **Research**                                    |
-| User centricity                | 5              |
-| Entrevistas                    | 5              |
-| Testing                        | 4              |
-| Planeamiento y ejecución       | 4              |
-| Síntesis de resultados         | 4              |
+| User centricity                | 3              |
+| Entrevistas                    | 2              |
+| Testing                        | 2              |
+| Planeamiento y ejecución       | 2              |
+| Síntesis de resultados         | 2              |
 | **Interaction design**                          |
-| Diseño de interacción          | 4              |
-| Arquitectura de la información | 4              |
-| Prototyping                    | 5              |
+| Diseño de interacción          | 2              |
+| Arquitectura de la información | 2              |
+| Prototyping                    | 2              |
 | **Visual design**                               |
-| Visual Design                  | 4              |
+| Visual Design                  | 3              |
 | **Business mindset**                            |
-| Business mindset               | 4              |
+| Business mindset               | 2              |
 
 ## Entrega
 
