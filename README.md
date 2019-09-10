@@ -200,7 +200,7 @@ que está teniendo una aplicación de servicios financieros, las estudiantes
 buscan mejorar la experiencia de la misma. En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de
 aprendizaje.
 
-* Duración estimada: 2 semanas
+* Duración estimada: 3 semanas
 * Equipos: 2 o 3 estudiantes
 * Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
 
@@ -211,7 +211,7 @@ propuestos por empresas de diversos rubros y tamaños. Anteriores retos
 han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
 Magical Startups, Laboratoria, entre otras.
 
-* Duración estimada: 2 o 3 semanas
+* Duración estimada: 3 semanas
 * Equipos: Depende de proyectos
 * Tópicos: UX Research, prototipado, ideación, visual design
 

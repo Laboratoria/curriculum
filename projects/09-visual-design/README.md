@@ -118,13 +118,12 @@ evaluaremos cuando lo  completes:
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|
 | **Research**                                    |
-| User centricity                | 5              |
+| User centricity                | 4              |
 | Testing                        | 4              |
-| Planeamiento y ejecución       | 4              |
 | **Interaction design**                          |
 | Diseño de interacción          | 4              |
 | Arquitectura de la información | 4              |
-| Prototyping                    | 5              |
+| Prototyping                    | 4              |
 | **Visual design**                               |
 | Visual Design                  | 4              |
 | **Business mindset**                            |
