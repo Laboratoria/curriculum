@@ -212,7 +212,7 @@ para ver a descrição detalhada de cada _habilidade_ e _nível_. Te recomandamo
 também a se autoavaliar de acordo com a rubrica para acompanhar a sua evolução
 ao longo do Bootcamp.
 
-### Soft Skills
+### Habilidades Interpessoais (Soft Skills)
 
 | Habilidade                                      | Nível esperado |
 |-------------------------------------------------|----------------|
@@ -221,11 +221,11 @@ ao longo do Bootcamp.
 | Apresentações                                   | 2              |
 | Adaptabilidade                                  | 2              |
 | Solução de problemas                            | 2              |
-| Resposabilidade                                 | 2              |
+| Responsabilidade                                 | 2              |
 | Dar e receber feedback                          | 2              |
 | Comunicação eficaz                              | 2              |
 
-### Tech Skills
+### Habilidades Técnicas (Front-end)
 
 | Habilidade                              | Nível esperado |
 |-----------------------------------------|----------------|
@@ -247,7 +247,7 @@ ao longo do Bootcamp.
 | DRY (CSS)                               | 2              |
 | Responsive Web Design                   | 2              |
 
-### UX Skills
+### Habilidades Técnicas (UX)
 
 | Habilidade      | Nível esperado |
 |-----------------|----------------|
