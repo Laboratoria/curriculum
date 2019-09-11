@@ -1,6 +1,6 @@
-# coinConverter
+# coinConvert
 
-Escreva uma função com o nome `coinConverter` que converte o valor de dólares
+Escreva uma função com o nome `coinConvert` que converte o valor de dólares
 para reais, pesos mexicanos e pesos chilenos.
 
 Use as seguintes taxas de câmbio:
