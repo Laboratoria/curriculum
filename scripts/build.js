@@ -33,6 +33,10 @@ const topics = [
   'shell',
 ];
 
+const projectsPt = [
+  '01-cipher',
+];
+
 const topicsPt = [
   'browser',
   'css',
@@ -43,7 +47,7 @@ const topicsPt = [
 ];
 
 
-const rubricVersion = '2.3.x';
+const rubricVersion = '3.x';
 const validate = process.argv[2] === '--validate';
 const buildDir = path.join(__dirname, '..', 'build');
 
@@ -113,6 +117,7 @@ const buildItems = (items) => {
 buildItems([
   ...projects.map(id => ({ type: 'project', id, locale: 'es-ES' })),
   ...topics.map(id => ({ type: 'topic', id, locale: 'es-ES' })),
+  ...projectsPt.map(id => ({ type: 'project', id, locale: 'pt-BR' })),
   ...topicsPt.map(id => ({ type: 'topic', id, locale: 'pt-BR' })),
 ])
   .then(results => {
