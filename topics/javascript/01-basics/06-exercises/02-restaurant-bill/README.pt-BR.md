@@ -23,14 +23,17 @@ const restaurantBill = (bill) => {
 };
 ```
 
-Siga as etapas abaixo para completar a implementação da função _função_ `restaurantBill`.
+Siga as etapas abaixo para completar a implementação da função _função_
+`restaurantBill`.
 
 1. Atribua o resultado da multiplicação `bill` por `10%` na variável `tax`
    (imposto em inglês). Dica: `10%` em decimal se escreve `0.1`.
 2. Crie uma variável chamada `total` e atribua o resultado da soma de `bill`
    mais `tax`.
 3. Retorne o valor que cada uma deve pagar (`total` dividido por 5), com o
-   símbolo `$` na frente (exemplo: `$11`). Dica: pode usar concatenação de _strings_ (ou _string literals_) para criar uma _string_ com o número e o símbolo `$` na frente.
+   símbolo `$` na frente (exemplo: `$11`). Dica: pode usar concatenação de
+   _strings_ (ou _string literals_) para criar uma _string_ com o número e o
+   símbolo `$` na frente.
 
 Exemplo:
 
