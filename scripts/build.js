@@ -35,6 +35,7 @@ const topics = [
 
 const projectsPt = [
   '01-cipher',
+  '02-data-lovers',
 ];
 
 const topicsPt = [
