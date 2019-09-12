@@ -107,8 +107,8 @@ Em outras palavras, você aprenderá a:
   de organização e planejamento de seu trabalho.
 * Definir que dados utilizar e de que forma exibí-los em seu produto,
   baseando-se no seu **entendimento do usuário**.
-<!-- * Criar produtos que sigam os **princípios básicos do desenho visual** e as
-  **heurísticas de usabilidade**. -->
+  <!-- * Criar produtos que sigam os **princípios básicos do desenho visual** e
+  as **heurísticas de usabilidade**. -->
 * Iterar o desenho do produto, baseando-se nos resultados dos
   **testes de usabilidade**.
 * Manipular **arrays e objetos**.
@@ -195,7 +195,8 @@ No mínimo, sua implementação deverá:
    por exemplo.
 4. Ser _responsivo_, ou seja, deve ser visualizada sem problemas a partir de
    diversos tamanhos de tela: celulares, tablets, notebooks, etc.
-<!-- Es importante que tu interfaz, a pesar de ser una versión mínima de tu 
+
+<!-- Es importante que tu interfaz, a pesar de ser una versión mínima de tu
 ideal, siga los fundamentos de _visual design_. -->
 
 ### Testes unitários
@@ -367,7 +368,7 @@ para ver a descrição detalhada de cada habilidade e nível. Recomendamos tamb�
 que procure aplicar a rubrica a você mesma e/ou seus projetos ao longo do
 bootcamp para ir acompanhando sua evolução.
 
-### Habilidades sócio-emocionais (Soft Skills)
+### Habilidades Interpessoais (Soft Skills)
 
 | Habilidade                                      | Nível esperado |
 |-------------------------------------------------|----------------|
@@ -376,6 +377,7 @@ bootcamp para ir acompanhando sua evolução.
 | Apresentações                                   | 2              |
 | Adaptabilidade                                  | 2              |
 | Solução de problemas                            | 2              |
+| Trabalho em equipe                              | 2              |
 | Responsabilidade                                | 2              |
 | Dar e receber feedback                          | 2              |
 | Comunicação eficaz                              | 2              |
