@@ -1,6 +1,6 @@
 {
   "name": "bootcamp",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
@@ -26,13 +26,13 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^2.1.0",
+    "@laboratoria/curriculum-parser": "^2.2.0",
     "@laboratoria/mdlint": "^1.1.0",
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.16.0",
+    "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "gulp": "^4.0.2",

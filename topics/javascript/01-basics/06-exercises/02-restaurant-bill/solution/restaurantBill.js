@@ -1,1 +1,9 @@
-module.exports = bill => `$${((bill * 0.1) + bill) / 5}`;
+const restaurantBill = (bill) => {
+  const tax = bill * 0.1;
+
+  const total = bill + tax;
+
+  return `$${total / 5}`;
+};
+
+module.exports = restaurantBill;
