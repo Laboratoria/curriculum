@@ -63,7 +63,7 @@
 #### Opciones
 
 1. Documentación de la Red de Desarrolladores de Mozilla (MDN)
-2. www.w3schools.com
+2. elrincondelvago.com
 3. lineadecodigo.com
 4. stackoverflow.com
 
