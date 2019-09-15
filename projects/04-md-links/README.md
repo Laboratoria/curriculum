@@ -107,21 +107,27 @@ parsing,
 
 ## 4. Consideraciones generales
 
-Este proyecto se debe "resolver" de manera individual.
+* Este proyecto se debe "resolver" de manera individual.
 
-La librería debe estar implementada en JavaScript para ser ejecutada con
+* La librería debe estar implementada en JavaScript para ser ejecutada con
 Node.js. **Está permitido usar librerías externas**.
 
-## 5. Criterios de aceptación mínimos del proyecto
-
-Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
+* Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
 módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
 comando como una interfaz que podamos importar con `require` para usarlo
 programáticamente.
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
+* Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
 _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
 para tus pruebas unitarias.
+
+* Para este proyecto no está permitido utilizar `async/await`.
+
+* Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
+caso optes utilizarlo deberas de crear un script de `build` en el `package.json`
+que transforme el código ES6+ a ES5 con ayuda de babel.
+
+## 5. Criterios de aceptación mínimos del proyecto
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
