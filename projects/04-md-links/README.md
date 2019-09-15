@@ -56,6 +56,43 @@ desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
+A continuación puedes ver los objetivos de aprendizaje de este proyecto:
+
+### Javascript
+
+* [ ] Uso de callbacks
+* [ ] Consumo de Promesas
+* [ ] Creacion de Promesas
+* [ ] Modulos de Js
+* [ ] Recursión
+
+### Node
+
+* [ ] Sistema de archivos
+* [ ] package.json
+* [ ] crear modules
+* [ ] Instalar y usar modules
+* [ ] npm scripts
+* [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
+
+### Testing
+
+* [ ] Testeo de tus funciones
+* [ ] Testeo asíncrono
+* [ ] Uso de librerias de Mock
+* [ ] Mocks manuales
+* [ ] Testeo para multiples Sistemas Operativos
+
+### Git y Github
+
+* [ ] Organización en Github
+
+### Buenas prácticas de desarrollo
+
+* [ ] Modularización
+* [ ] Nomenclatura / Semántica
+* [ ] Linting
+
 Tópicos: [Node.js](https://nodejs.org/en/),
 [módulos (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
 [file system](https://nodejs.org/api/fs.html),
@@ -65,6 +102,8 @@ parsing,
 [markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
 [npm-scripts](https://docs.npmjs.com/misc/scripts),
 [semver](https://semver.org/), ...
+
+***
 
 ## 4. Consideraciones generales
 
