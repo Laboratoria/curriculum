@@ -20,14 +20,14 @@ donde le han asignado este proyecto a ti y otra compañera de Laboratoria.
 Durante la primera semana de entendimiento de los requerimientos, el Product
 Manager les comparte las hipótesis y preguntas que tienen dentro del equipo:
 
-> Los usuarios que anteriormente han sido clientes de algún banco, nos comparan
-  con las aplicacioens de esos bancos, parece que hay cosas que extrañan.
+> * Los usuarios que anteriormente han sido clientes de algún banco, nos comparan
+con las aplicacioens de esos bancos, parece que hay cosas que extrañan.
 
-> La aplicación que estamos probando es para iOS, sin embargo, para hacer un
-  lanzamiento nacional necesitamos crear un app para Android.
+> * La aplicación que estamos probando es para iOS, sin embargo, para hacer un
+lanzamiento nacional necesitamos crear un app para Android.
 
-> Nos falta acercarnos un poco más a los usuarios jóvenes, 100% digitales, los
-  que usan Netflix, Uber, Spotify, Instagram, entre otros.
+> * Nos falta acercarnos un poco más a los usuarios jóvenes, 100% digitales, los
+que usan Netflix, Uber, Spotify, Instagram, entre otros.
 
 ### Recursos
 
@@ -118,6 +118,7 @@ README.md  detallando:
   estos deberán ser diseñados y entregados en un prototipo de alta definición.
 
 Un video en Loom de máximo 5 minutos explicando tu documento.
+
 * Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
   el `README.md` y para hacer un demo de la solución propuesta.
 
@@ -128,15 +129,15 @@ agregar los documentos complementarios que sustenten tu proceso.
 
 Para el hacker edition puedes elegir una o varias de estas opciones:
 
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
+* Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
+  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante
+  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te
   fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
   en un documento adicional (en el formato que prefieras).
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
+* En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
   su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Escribe un post en Medium contando tu proceso de investigación.
+  tu propia web desde 0.
+* Escribe un post en Medium contando tu proceso de investigación.
 
 ## Otras consideraciones
 

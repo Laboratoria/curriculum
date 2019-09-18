@@ -275,7 +275,9 @@ Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
 de una plataforma de venta de entradas a espectaculos (tradicional) para
 ayudarlos a competir con nuevos actores en la industria como Stubhub,
 Eventbrite, Joinnus, entre otros. Para ello tendrán que crear soluciones
-consistentes para mobile, desktop y smartwatches.  En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de aprendizaje.
+consistentes para mobile, desktop y smartwatches.  En algunas casos este reto
+puede ser reemplazado por un reto con una empresa, pero con los mismos
+objetivos de aprendizaje.
 
 * Duración estimada: 3 semanas
 * Equipos: Depende de proyectos

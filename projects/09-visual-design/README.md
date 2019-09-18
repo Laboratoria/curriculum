@@ -46,16 +46,18 @@ problemas son los siguientes:
 
 Como parte del reto, Teleticket nos ha pedido que hagamos lo siguiente:
 
-* Revisar y entender los [resultados de la investigación proporcionada por Teleticket](https://docs.google.com/presentation/d/1CZolwsBxfaVf6hk_aL2RAsW_9G5RjctBX5-oqM89qz8/edit#slide=id.g5c6ac2b3a5_2_25) para entender a los usuarios y al mercado actual de venta de boletos en Perú.
+* Revisar y entender los [resultados de la investigación proporcionada por Teleticket](https://docs.google.com/presentation/d/1CZolwsBxfaVf6hk_aL2RAsW_9G5RjctBX5-oqM89qz8/edit#slide=id.g5c6ac2b3a5_2_25)
+  para entender a los usuarios y al mercado actual de venta de boletos en Perú.
 
-* Crear, testear, iterar una nueva propuesta del diseño de la plataforma: 
+* Crear, testear, iterar una nueva propuesta del diseño de la plataforma:
+
   * Elegir un proceso/flujo para re-diseñar
   * Crear y testear el flujo de la plataforma
   * Presentar 2 propuestas de diseño para ese flujo en versión mobile o crear
     una propuesta con versión mobile y versión desktop. Para realizar tu
     propuesta de diseño puedes usar [esta guía de estilos de Material Design](https://material.5ly.co/),
     recuerda que si crear nuevos componentes debes agregarlos a la guía de estilos.
-  
+
 ## Entrega
 
 El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
@@ -67,7 +69,7 @@ README.md  explicando el proceso del proyecto:
 * Definición de la solución/producto
 * Link a prototipo navegable
 * Explicación de cómo los contenidos y funcionalidades responden a los
-  objetivos del proyecto. 
+  objetivos del proyecto.
 * Explicación de cómo los contenidos y funcionalidades resuelven cada uno de
   las necesidades del usuario final.
 * Link de Zeplin, InVision inspects o Marvel Hand-offs para compartir tus
@@ -90,7 +92,6 @@ Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
 una lista de todas las habilidades involucradas en este proyecto y que
 evaluaremos cuando lo  completes:
-
 
 ### UX
 
