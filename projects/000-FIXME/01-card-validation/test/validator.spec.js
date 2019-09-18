@@ -1,13 +1,13 @@
-describe('validation', () => {
+describe('validator', () => {
 
   it('debería ser un objeto', () => {
-    assert.equal(typeof validation, 'object');
+    assert.equal(typeof validator, 'object');
   });
 
-  describe('validation.valid', () => {
+  describe('validator.isValid', () => {
 
     it('debería ser una función', () => {
-      assert.equal(typeof validation.valid, 'function');
+      assert.equal(typeof validator.isValid, 'function');
     });
 
     it('debería retornar true para "4083952015263"', () => {

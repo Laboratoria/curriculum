@@ -13,7 +13,7 @@
 
 ## 1. Preámbulo
 
-El algoritmo de Luhn, también llamado algoritmo de módulo 10, es un método de
+El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), también llamado algoritmo de módulo 10, es un método de
 suma de verificación, se utiliza para validar números de identificación; tales
 como el IMEI de los celulares, tarjetas de crédito, etc.
 
@@ -27,8 +27,9 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto validarás los dígitos de una
-tarjeta de crédito.
+¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
+aplicación web que le permita a un usuario validar el número de una tarjeta de
+crédito.
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
@@ -40,9 +41,6 @@ etc.
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
 y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6) como herramientas.
-
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito.
 
 Para completar el proyecto tendrás que familiarizarte con conceptos como las
 necesidades del usuario y propuesta de una solución; etiquetas semánticas y
@@ -80,7 +78,7 @@ cómo tu aplicación lo soluciona.
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
 * Luego valida esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-nuevo prototipo usando Balsamiq).
+nuevo prototipo usando alguna herramienta para diseño de prototipos.
 Estos puntos los presentarás en el `README.md`.
 
 **`README.md`**:
@@ -110,7 +108,8 @@ A continuación describimos los archivos que utilizarás:
 **`src/index.html`**:
 
 En este archivo va el contenido que se mostrará al usuario (esqueleto HTML).
-Encontrarás 3 etiquetas iniciales:
+Encontrarás 3 etiquetas iniciales, las cuales si deseas puedes borrar y empezar
+de cero:
 
 * `<header>`: encabezado de tu proyecto.
 * `<main>`: contenido principal de tu proyecto.
@@ -133,32 +132,32 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS3
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
 indicamos qué harás en cada archivo:
 
-**`src/validation.js`**:
+**`src/validator.js`**:
 
 Acá escribirás la función necesaria para que el usuario pueda verificar la
 tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
 
-Para esto debes implementar el **objeto `validation`**, el cual ya se encuentra
-_exportado_ en el objeto global (`window`). Este objeto (`validation`) contiene
+Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
+_exportado_ en el objeto global (`window`). Este objeto (`validator`) contiene
 un método:
 
-* **`validation.valid(number)`**: `number` es el número de tarjeta que se va a
-verificar.
+* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
+tarjeta que se va a verificar.
 
 **`src/index.js`**:
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
-Es decir, en este archivo deberás invocar a tu función `valid` según sea
+Es decir, en este archivo deberás invocar a tu función `isValid` según sea
 necesario para actualizar el resultado en la pantalla(UI).
 
-**`test/validation.spec.js`**:
+**`test/validator.spec.js`**:
 
 En este archivo tendrás que completar las pruebas unitarias de la función
-`validation.valid(number)` implementada en `validation.js` utilizando Mocha.
-Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_
-(sentencias), _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50%
-de _branches_ (ramas).
+`validator.isValid(creditCardNumber)` implementada en `validator.js` utilizando
+Mocha. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
+_statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
+mínimo del 50% de _branches_ (ramas).
 
 ## 6. Pistas, tips y lecturas complementarias
 
