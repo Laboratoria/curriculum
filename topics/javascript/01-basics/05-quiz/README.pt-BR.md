@@ -64,7 +64,7 @@
 #### Opciones
 
 1. Documentación de la Red de Desarrolladores de Mozilla (MDN)
-2. www.w3schools.com
+2. elrincondelvago.com
 3. lineadecodigo.com
 4. stackoverflow.com
 
@@ -185,7 +185,7 @@
 1. true
 2. false
 3. undefined
-4. Null
+4. null
 
 <solution style="display:none;">1</solution>
 
@@ -196,7 +196,7 @@
 1. true
 2. false
 3. undefined
-4. Null
+4. null
 
 <solution style="display:none;">2</solution>
 

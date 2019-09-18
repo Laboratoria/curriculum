@@ -33,6 +33,10 @@ const topics = [
   'shell',
 ];
 
+const projectsPt = [
+  '01-cipher',
+];
+
 const topicsPt = [
   'browser',
   'css',
@@ -43,7 +47,7 @@ const topicsPt = [
 ];
 
 
-const rubricVersion = '2.3.x';
+const rubricVersion = '3.x';
 const validate = process.argv[2] === '--validate';
 const buildDir = path.join(__dirname, '..', 'build');
 
@@ -51,10 +55,11 @@ const buildDir = path.join(__dirname, '..', 'build');
 const parse = ({ type, id, locale }) => new Promise((resolve) => {
   console.log(`=> Parsing ${type} ${id} ${locale}...`);
   const suffix = locale.split('-')[0];
-  const dest = fs.createWriteStream(
+  const fd = fs.openSync(
     validate
       ? '/dev/null'
       : `build/${type}s/${locale === 'es-ES' ? id : `${id}-${suffix}`}.json`,
+    'w',
   );
   const child = spawn('npx', [
     'curriculum-parser',
@@ -66,12 +71,10 @@ const parse = ({ type, id, locale }) => new Promise((resolve) => {
     '--track', 'js',
     '--locale', locale,
     ...(locale === 'es-ES' ? [] : ['--suffix', suffix]),
-  ]);
+  ], { stdio: [null, fd, 'pipe'] });
 
   const stderrChunks = [];
   child.stderr.on('data', chunk => stderrChunks.push(chunk));
-
-  child.stdout.pipe(dest);
 
   child.on('close', (code) => {
     if (code > 0) {
@@ -114,6 +117,7 @@ const buildItems = (items) => {
 buildItems([
   ...projects.map(id => ({ type: 'project', id, locale: 'es-ES' })),
   ...topics.map(id => ({ type: 'topic', id, locale: 'es-ES' })),
+  ...projectsPt.map(id => ({ type: 'project', id, locale: 'pt-BR' })),
   ...topicsPt.map(id => ({ type: 'topic', id, locale: 'pt-BR' })),
 ])
   .then(results => {
