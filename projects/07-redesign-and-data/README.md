@@ -174,22 +174,6 @@ Recuerda revisar la rúbrica para ver la descripción detallada de cada habilida
 y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
 que deberías alcanzar al finalizar este proyecto:
 
-### Habilidades Blandas
-
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
-
 ### UX
 
 | Habilidad                      | Nivel esperado |
