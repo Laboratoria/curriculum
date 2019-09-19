@@ -4,6 +4,6 @@
     "mocha": true
   },
   "globals": {
-    "assert": false
+    
   }
 }
