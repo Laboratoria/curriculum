@@ -1,17 +1,20 @@
+global.window = global;
+require('../src/cipher');
+
 describe('cipher', () => {
 
-  it('should be an object', () => {
-    assert.equal(typeof cipher, 'object');
+  test('should be an object', () => {
+    expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
 
-    it('should be a function', () => {
-      assert.equal(typeof cipher.encode, 'function');
+    test('should be a function', () => {
+      expect(typeof cipher.encode).toBe('function');
     });
 
-    it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
+    test('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
+      expect(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ")).toBe("HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
 
     // Hacker edition
@@ -48,12 +51,12 @@ describe('cipher', () => {
 
   describe('cipher.decode', () => {
 
-    it('should be a function', () => {
-      assert.equal(typeof cipher.decode, 'function');
+    test('should be a function', () => {
+      expect(typeof cipher.decode).toBe('function');
     });
 
-    it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    test('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
+      expect(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG")).toBe("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
 
     //
