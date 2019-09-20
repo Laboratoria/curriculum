@@ -13,9 +13,10 @@
 
 ## 1. Preámbulo
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), también llamado algoritmo de módulo 10, es un método de
-suma de verificación, se utiliza para validar números de identificación; tales
-como el IMEI de los celulares, tarjetas de crédito, etc.
+El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
+también llamado algoritmo de módulo 10, es un método de suma de verificación,
+se utiliza para validar números de identificación; tales como el IMEI de los
+celulares, tarjetas de crédito, etc.
 
 Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
 solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
@@ -42,12 +43,33 @@ El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
 y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6) como herramientas.
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como las
-necesidades del usuario y propuesta de una solución; etiquetas semánticas y
-formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
-selección y eventos del DOM; manipulación de strings, control de flujo y
-funciones en JS; así como pruebas unitarias en Mocha. Recuerda que parte
-fundamental es organizar tu tiempo y priorizar tus tareas.
+Dicho en palabras sencillas, aprenderás a:
+
+* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+* Entender las **necesidades del usuario** y cómo proponer una solución para él.
+* Entender la importancia del proceso de prototipado durante la creación de un
+  proyecto digital.
+* Conocer los principios básicos del diseño visual.
+* Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
+* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
+  etc.
+* Utilizar el modelo de cajas (border, margin, padding)
+* Definir reglas de estilos en CSS.
+* Utilizar eventos del DOM que le permitan al usuario interactuar con la
+  aplicación.
+* Utilizar los métodos de selección del DOM.
+* Actualizar de manera dinámica el contenido de la aplicación a través de
+  innerHTML o textContent.
+* Manipular _**strings**_ (cadenas de texto).
+* Usar **control de flujo if-else, do-while** (bucles y condicionales).
+* _Implementar funciones_ dada una descripción de su comportamiento.
+* Verificar que tus funciones hagan las cosas para las que fueron creadas
+(**pruebas unitarias (_test_) con Mocha**).
+* Configurar tu cuenta de _git_.
+* _Forkear_ y _clonar_ el repositorio del proyecto.
+* Mantener actualizado los cambios en tu repositorio remoto (_ commit_, _pull_,
+  _push_).
+* Desplegar tu proyecto en _gh-pages_.
 
 ## 4. Consideraciones generales
 
@@ -78,7 +100,9 @@ cómo tu aplicación lo soluciona.
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
 * Luego valida esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-nuevo prototipo usando alguna herramienta para diseño de prototipos.
+  nuevo prototipo usando alguna herramienta para diseño de prototipos
+  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
+  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
 
 **`README.md`**:
@@ -95,7 +119,7 @@ Debe contener lo siguiente:
     usuarios.
   * Luego colocarás la foto de tu primer prototipo en papel.
   * Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  * Imagen del prototipo final en Balsamiq.
+  * Imagen del prototipo final.
 
 #### Visualmente (HTML5 y CSS3)
 
@@ -139,7 +163,7 @@ tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
 
 Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
 _exportado_ en el objeto global (`window`). Este objeto (`validator`) contiene
-un método:
+un método el cual debe retornar un `boolean`:
 
 * **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
 tarjeta que se va a verificar.
