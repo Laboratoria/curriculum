@@ -27,11 +27,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
     //
-    // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
-    //   assert.equal(
-    //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'),
-    //     'hijklmnopqrstuvwxyzabcdefg'
-    //   );
+    // test('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
+    //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     // });
 
     // Hacker edition
@@ -44,8 +41,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
-    // it('should return " !@" for " !@"', () => {
-    //   assert.equal(cipher.encode(33, ' !@'),' !@');
+    // test('should return " !@" for " !@"', () => {
+    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
     // });
   });
 
@@ -70,11 +67,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
     //
-    // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
-    //   assert.equal(
-    //     cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'),
-    //     'abcdefghijklmnopqrstuvwxyz'
-    //   );
+    // test('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
+    //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
     // });
 
     // Hacker edition
@@ -87,8 +81,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
-    // it('should return " !@" para " !@"', () => {
-    //   assert.equal(cipher.decode(33, ' !@'),' !@');
+    // test('should return " !@" para " !@"', () => {
+    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
     // });
   });
 
