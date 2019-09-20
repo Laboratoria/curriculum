@@ -55,7 +55,7 @@ trivia | cipher > data-lovers |                                          |      
        |                      |\                                         |                |
        |                      | \                                        | service-design |
        |                      | UX                                       |/               |
-       |                      | marketplace > financial-app > consulting |-design-sprint  |
+       |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
        |                      |                                          |\               |
        |                      |                                          | visual-design  |
        |                      |                                          |                |
