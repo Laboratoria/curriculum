@@ -43,22 +43,22 @@ El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
 y **Electivos**.
 
 ```
-Pre    | Common Core          | Track                                    | Electivos      |
-===    | ===========          | =====                                    | =========      |
-       |                      |                                          |                |
-       |                      |                                          | bq-node        |
-       |                      | Frontend                                 |/               |
-       |                      | social-network > md-links > burger-queen |                |
-       |                      | /                                        |\               |
-       |                      |/                                         | tic-tac-toe-rn |
-trivia | cipher > data-lovers |                                          |                |
-       |                      |\                                         |                |
-       |                      | \                                        | service-design |
-       |                      | UX                                       |/               |
+Pre    | Common Core          | Track                                                 | Electivos      |
+===    | ===========          | =====                                                 | =========      |
+       |                      |                                                       |                |
+       |                      |                                                       | bq-node        |
+       |                      | Frontend                                              |/               |
+       |                      | social-network > md-links > burger-queen              |                |
+       |                      | /                                                     |\               |
+       |                      |/                                                      | tic-tac-toe-rn |
+trivia | cipher > data-lovers |                                                       |                |
+       |                      |\                                                      |                |
+       |                      | \                                                     | service-design |
+       |                      | UX                                                    |/               |
        |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
-       |                      |                                          |\               |
-       |                      |                                          | visual-design  |
-       |                      |                                          |                |
+       |                      |                                                       |\               |
+       |                      |                                                       | visual-design  |
+       |                      |                                                       |                |
 ```
 
 ***
