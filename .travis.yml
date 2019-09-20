@@ -10,5 +10,5 @@ deploy:
   script: ./scripts/deploy.sh
   skip_cleanup: true
   on:
-    repo: Laboratoria/curricula-js
+    repo: Laboratoria/bootcamp
     all_branches: true
