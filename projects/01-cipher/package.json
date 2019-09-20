@@ -7,13 +7,15 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --coverage && open ../coverage/lcov-report/index.html",
+    "test-browser": "opener ./coverage/lcov-report/index.html",
+    "test": "jest --coverage && npm run test-browser",
     "start": "serve ./src"
   },
   "dependencies": {
     "eslint": "^5.9.0",
     "htmlhint": "^0.11.0",
     "jest": "^24.9.0",
+    "opener": "^1.5.1",
     "serve": "^11.0.0"
   }
 }
