@@ -9,10 +9,10 @@ fornecido.
 Exemplo de entrada:
 
 ```javascript
-var obj = {
+const obj = {
   name: 'Montana',
   age: 20,
-  location: 'Texas'
+  location: 'Texas',
 };
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }

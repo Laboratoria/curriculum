@@ -1,5 +1,13 @@
 #! /usr/bin/env bash
 
+deps=(basename realpath read mkdir cp cat sed git curl node pwd)
+
+for dep in "${deps[@]}"; do
+  command -v "$dep" >/dev/null 2>&1 \
+  || { echo >&2 "I require ${dep} but it's not installed. Aborting."; exit 1; }
+done
+
+
 positional=()
 while [[ $# -gt 0 ]]; do
   key="$1"
@@ -7,6 +15,11 @@ while [[ $# -gt 0 ]]; do
   case $key in
     -k|--keep_rubric_numbers)
       keep_rubric_numbers=YES
+      shift
+      ;;
+    -l|--locale)
+      shift
+      locale="$1"
       shift
       ;;
     -n|--noop)
@@ -20,6 +33,15 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+if [[ ! -n "$locale" ]]; then
+  locale="es-ES"
+fi
+
+if [[ "$locale" != "es-ES" && "$locale" != "pt-BR" ]]; then
+  echo "Unknown locale: ${locale}"
+  exit 1
+fi
+
 
 src=${positional[0]}
 dest=${positional[1]}
@@ -27,6 +49,7 @@ cohortid=${positional[2]}
 project_dirname=$( basename "${src}" )
 slug=${project_dirname:3}
 repo_name="${slug}"
+
 
 if [[ -z "$src" ]]; then
   echo "Please specify a source dir containing a project"
@@ -83,6 +106,11 @@ if [[ "${noop}" == "YES" ]]; then
 else
   echo "Copying files..."
   cp -r "${src}/." "${dest}"
+  if [[ "$locale" == "es-ES" ]]; then
+    rm "${dest}/README.pt-BR.md"
+  elif [[ "$locale" == "pt-BR" ]]; then
+    mv "${dest}/README.pt-BR.md" "${dest}/README.md"
+  fi
 fi
 
 
@@ -91,7 +119,11 @@ if [[ "$keep_rubric_numbers" != "YES" ]]; then
     echo "Would have removed rubric numbers from README.md"
   else
     echo "Removing rubric numbers..."
-    cat "${src}/README.md" | sed -e 's/^|\([^|]*\)|.*|$/|\1|/g' > "${dest}/README.md"
+    readme="README.md"
+    if [[ "$locale" != "es-ES" ]]; then
+      readme="README.${locale}.md"
+    fi
+    cat "${src}/${readme}" | sed -e 's/^|\([^|]*\)|.*|$/|\1|/g' > "${dest}/README.md"
   fi
 fi
 

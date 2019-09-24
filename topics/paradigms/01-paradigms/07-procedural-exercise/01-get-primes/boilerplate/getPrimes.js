@@ -3,8 +3,8 @@ function isPrime(num) {
 }
 
 function getPrimes(start, end) {
-  for (var i = 2; i < 20; i++) {
-    var isPrime = true;
+  for (let i = 2; i < 20; i++) {
+    let isPrime = true;
 
     //...
 

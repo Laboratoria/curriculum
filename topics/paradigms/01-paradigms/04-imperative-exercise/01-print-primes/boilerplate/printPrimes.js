@@ -1,7 +1,7 @@
 function printPrimes() {
   // Iteramos desde 2 (el primer número primo) hasta 19 (menor que 20)
-  for (var i = 2; i < 20; i++) {
-    var isPrime = true;
+  for (let i = 2; i < 20; i++) {
+    let isPrime = true;
 
     // Ahora debemos iterar desde `2` hasta `i / 2` usando una variable `j` como
     // contador.

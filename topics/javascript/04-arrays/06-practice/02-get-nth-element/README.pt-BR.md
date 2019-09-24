@@ -12,6 +12,6 @@ Notas:
 Exemplo de entrada:
 
 ```javascript
-var output = getNthElement([1, 3, 5], 1);
+const output = getNthElement([1, 3, 5], 1);
 console.log(output); // --> 3
 ```

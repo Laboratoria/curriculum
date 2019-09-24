@@ -20,13 +20,13 @@ después de que ésta haya retornado. Considera el siguiente snippet:
 
 ```js
 const makeFunction = function () {
-  var foo = true;
+  const foo = true;
   return function () {
     return foo;
   };
 };
 
-var myFunc = makeFunction();
+const myFunc = makeFunction();
 myFunc(); // true
 ```
 
@@ -74,7 +74,7 @@ Pero... por qué, para qué? Veamos un ejemplo.
 
 ```js
 function fetchData() {
-  var reqId = 123;
+  const reqId = 123;
   $.get('/some-url', function () {
     alert('Request ' + reqId + ' completed');
   });

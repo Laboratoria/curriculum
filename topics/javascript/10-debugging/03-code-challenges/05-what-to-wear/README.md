@@ -6,6 +6,6 @@ comentario.
 Ejemplo de entrada:
 
 ```js
-var winterClothes = whatToWear('winter');
+const winterClothes = whatToWear('winter');
 console.log(winterClothes); // --> 'Bring a hat and gloves.'
 ```
