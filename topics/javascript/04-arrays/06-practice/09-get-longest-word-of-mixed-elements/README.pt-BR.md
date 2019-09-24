@@ -14,6 +14,6 @@ Notas:
 Exemplo:
 
 ```javascript
-var output = getLongestWordOfMixedElements([3, 'word', 5, 'up', 3, 1]);
+const output = getLongestWordOfMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 'word'
 ```

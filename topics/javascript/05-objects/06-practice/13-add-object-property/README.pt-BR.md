@@ -7,14 +7,16 @@ no primeiro objeto na chave determinada. O valor dessa nova propriedade é o
 segundo objeto completo.
 
 ```javascript
-var person1 = {
+const person1 = {
   name: 'Joe Blow',
-  role: 'schlub'
+  role: 'schlub',
 };
-var person2 = {
+
+const person2 = {
   name: 'Mr. Burns',
-  role: 'supervisor'
+  role: 'supervisor',
 };
+
 addObjectProperty(person1, 'manager', person2);
 console.log(person1.manager);
 // --> { name: 'Mr. Burns', role: 'supervisor' }

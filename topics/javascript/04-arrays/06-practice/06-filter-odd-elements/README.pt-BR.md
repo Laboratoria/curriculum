@@ -8,6 +8,6 @@ apenas os números ímpares do vetor fornecido.
 Exemplo:
 
 ```javascript
-var output = filterOddElements([1, 2, 3, 4, 5]);
+const output = filterOddElements([1, 2, 3, 4, 5]);
 console.log(output); // --> [1, 3, 5]
 ```

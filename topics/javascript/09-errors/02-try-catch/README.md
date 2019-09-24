@@ -99,7 +99,7 @@ variable `monthName` el valor de `'unknown'`.
 ```js
 function getMonthName (mo) {
   mo = mo - 1; // Ajusta el indice del arreglo para el arreglo de meses (1=Jan, 12=Dec)
-  var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
                 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   if (months[mo] != null) {
     return months[mo];
