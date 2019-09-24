@@ -7,9 +7,8 @@
 - [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 - [4. Consideraciones generales](#4-consideraciones-generales)
 - [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
-- [6. Evaluación](#6-evaluaci%C3%B3n)
-- [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-- [8 HTTP API Checklist](#8-http-api-checklist)
+- [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+- [7 HTTP API Checklist](#7-http-api-checklist)
 
 ## 1. Preámbulo
 
@@ -211,54 +210,7 @@ proveedores), acceder a él a través de `ssh`, clonar tu repositorio y ejecutar
 `docker-compose up` para levantar la aplicación y la documentación, para que
 queden online y accesibles.
 
-## 6. Evaluación
-
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### General
-
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
-
-### Habilidades Blandas
-
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
-
-### Tech
-
-| Habilidad              | Nivel esperado |
-| ---------------------- | -------------- |
-| **Computer Science**                    |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| **Source Control Management**           |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
-
-## 7. Pistas, tips y lecturas complementarias
+## 6. Pistas, tips y lecturas complementarias
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
@@ -273,17 +225,17 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 ***
 
-## 8 HTTP API Checklist
+## 7 HTTP API Checklist
 
-### 8.1 `/`
+### 7.1 `/`
 
 * [ ] `GET /`
 
-### 8.2 `/auth`
+### 7.2 `/auth`
 
 * [ ] `POST /auth`
 
-### 8.3 `/users`
+### 7.3 `/users`
 
 * [ ] `GET /users`
 * [ ] `GET /users/:uid`
@@ -291,7 +243,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 * [ ] `PUT /users/:uid`
 * [ ] `DELETE /users/:uid`
 
-### 8.4 `/products`
+### 7.4 `/products`
 
 * [ ] `GET /products`
 * [ ] `GET /products/:productid`
@@ -299,7 +251,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 * [ ] `PUT /products/:productid`
 * [ ] `DELETE /products/:productid`
 
-### 8.5 `/orders`
+### 7.5 `/orders`
 
 * [ ] `GET /orders`
 * [ ] `GET /orders/:orderid`
