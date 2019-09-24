@@ -7,7 +7,7 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones](#4-consideraciones)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas-tips)
+* [6. Pistas / tips](#6-pistas--tips)
 
 ***
 
