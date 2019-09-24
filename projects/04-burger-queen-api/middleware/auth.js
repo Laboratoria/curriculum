@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-module.exports = secret => (req, resp, next) => {
+module.exports = (secret) => (req, resp, next) => {
   const { authorization } = req.headers;
 
   if (!authorization) {
@@ -23,13 +23,13 @@ module.exports = secret => (req, resp, next) => {
 };
 
 
-module.exports.isAuthenticated = req => (
+module.exports.isAuthenticated = (req) => (
   // TODO: decidir por la informacion del request si la usuaria esta autenticada
   false
 );
 
 
-module.exports.isAdmin = req => (
+module.exports.isAdmin = (req) => (
   // TODO: decidir por la informacion del request si la usuaria es admin
   false
 );
