@@ -10,14 +10,17 @@ mismas palabras, pero todas en mayúsculas.
 
 ```js
 function toUpperArray(items) {
-  if (!items.length) return []             // caso base
-  var head = items[0]                      // elemento sobre el que operar
-  head = head.toUpperCase()                // llevamos a cabo operación
-  var tail = items.slice(1)                // siguiente
-  return [head].concat(toUpperArray(tail)) // recursión
+  if (!items.length) {                      // caso base
+    return [];
+  }
+
+  let head = items[0];                      // elemento sobre el que operar
+  head = head.toUpperCase();                // llevamos a cabo operación
+  const tail = items.slice(1);                // siguiente
+  return [head].concat(toUpperArray(tail)); // recursión
 }
 
-toUpperArray(['hello', 'world']) // => ['HELLO', 'WORLD']
+toUpperArray(['hello', 'world']); // => ['HELLO', 'WORLD']
 ```
 
 El objetivo de este ejercicio es que te familiarices con la recursión a través

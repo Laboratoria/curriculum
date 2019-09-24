@@ -42,7 +42,24 @@ El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
 **Preadmisión**, **Common Core**, **Track** (Front-end Development y UX Design)
 y **Electivos**.
 
-![mapaproyectos](http://i64.tinypic.com/20fcnx0.jpg)
+```
+Pre    | Common Core          | Track                                                 | Electivos      |
+===    | ===========          | =====                                                 | =========      |
+       |                      |                                                       |                |
+       |                      |                                                       | bq-node        |
+       |                      | Frontend                                              |/               |
+       |                      | social-network > md-links > burger-queen              |                |
+       |                      | /                                                     |\               |
+       |                      |/                                                      | tic-tac-toe-rn |
+trivia | cipher > data-lovers |                                                       |                |
+       |                      |\                                                      |                |
+       |                      | \                                                     | service-design |
+       |                      | UX                                                    |/               |
+       |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
+       |                      |                                                       |\               |
+       |                      |                                                       | visual-design  |
+       |                      |                                                       |                |
+```
 
 ***
 
@@ -295,7 +312,6 @@ nuevas herramientas como el Service BluePrint.
 * Equipos: Depende de proyectos
 * Tópicos: Service design, disruptive design, insights, service prototyping,
   service blue print
-
 
 ***
 

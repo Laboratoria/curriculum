@@ -38,7 +38,7 @@ Sigue los pasos a continuación para completar la implementación de la _funció
 Ejemplo:
 
 ```js
-var output = restaurantBill(50);
+const output = restaurantBill(50);
 console.log(output); // --> '$11'
 ```
 

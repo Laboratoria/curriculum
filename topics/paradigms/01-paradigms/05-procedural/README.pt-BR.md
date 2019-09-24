@@ -31,7 +31,7 @@ lista de objetos. Empecemos por envolver el código en una función:
 function getIds(inputArray) {
   const ids = [];
 
-  for (var i = 0; i < inputArray.length; i++) {
+  for (let i = 0; i < inputArray.length; i++) {
     if (inputArray[i].id) {
       ids.push(inputArray[i].id);
     }
@@ -60,7 +60,7 @@ function hasId(obj) {
 function getIds(inputArray) {
   const ids = [];
 
-  for (var i = 0; i < inputArray.length; i++) {
+  for (let i = 0; i < inputArray.length; i++) {
     if (hasId(inputArray[i])) {
       ids.push(inputArray[i].id);
     }

@@ -36,35 +36,33 @@
 
 <solution style="display:none;">1,3,4</solution>
 
-### 3) Para o elemento a seguir
+### 3) Para o elemento a seguir, como posso mudar a cor de fundo do parágrafo?
 
 ```html
-    <p id="paragraph">Olá, sou un parágrafo sensual</p>
+<p id="paragraph">Olá, sou un parágrafo sensual</p>
 ```
-
-### Como posso mudar a cor de fundo do parágrafo?
 
 #### Opções
 
 1. Opção 1
 
    ```javascript
-      const paragraph = document.getElementById('paragraph');
-      paragraph.style.background='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.style.background = 'red';
    ```
 
 2. Opção 2
 
    ```javascript
-      const paragraph = document.getElementById('paragraph');
-      paragraph.style.backgroundColor='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.style.backgroundColor = 'red';
    ```
 
 3. Opção 3
 
    ```javascript
-      const paragraph = document.getElementById('paragraph');
-      paragraph.backgroundColor='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.backgroundColor = 'red';
    ```
 
 <solution style="display:none;">2</solution>
@@ -177,9 +175,9 @@ console.log(elementos);
 
 #### Opções
 
-1. var data = "valor"
-2. data-nomeAtribuido="valor"
-3. data="valor"
+1. const data = "valor"
+2. data-nomeAtribuido = "valor"
+3. data = "valor"
 4. nomeAtribuido-Datos\(valor\)
 
 <solution style="display:none;">2</solution>

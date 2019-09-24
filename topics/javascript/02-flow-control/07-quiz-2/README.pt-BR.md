@@ -44,12 +44,12 @@ do {
 ### 3) Encontre o erro na seguinte função
 
 ```js
-var result = 0;
+let result = 0;
 
-var showSum = function(num1, num2) {
+const showSum = (num1, num2) => {
   result = num1 + num2;
   alert('El resultado es ' + result);
-}
+};
 
 showSum(if, else);
 ```
@@ -78,7 +78,7 @@ showSum(if, else);
 ### 5) Qual é o resultado de
 
 ```js
-var number = 0;
+let number = 0;
 while (number <= 12) {
   console.log(number);
   number = number + 2;
@@ -108,7 +108,7 @@ while (number <= 12) {
 ### 7) Qual o resultado de
 
 ```js
-for (var number = 1; number < 8; number = number * 3) {
+for (let number = 1; number < 8; number = number * 3) {
   console.log(number);
 }
 ```
@@ -125,7 +125,7 @@ for (var number = 1; number < 8; number = number * 3) {
 ### 8) Ao seguinte switch lhe faltam alguns "breaks". Qual seria o resultado de executar o código assim como está?
 
 ```js
-var weather = 'soleado';
+const weather = 'soleado';
 
 switch (weather) {
   case 'chuvoso':
@@ -155,7 +155,7 @@ switch (weather) {
 ### 9) Qual é o resultado de
 
 ```js
-for (var i = 0; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {
   if (i == 0) {
     continue;
   } else {

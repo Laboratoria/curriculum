@@ -23,7 +23,7 @@ Detrás de las cortinas JavaScript hace algo como:
 
 ```js
 function Alien() {
-  var this = {}; // no es JavaScript válido, sólo para ilustrar el concepto
+  const this = {}; // no es JavaScript válido, sólo para ilustrar el concepto
   this.__proto__ = Alien.prototype;
 
   this.kind = 'alien';
