@@ -25,16 +25,13 @@
 
 <solution style="display:none;">3</solution>
 
-### 2) En la siguiente imagen
+### 2) En la siguiente imagen, el texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______
 
 ```html
-        <body>
-            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
-        </body>
-
+<body>
+  <h1>¡Hola Mundo! ¡La programación es muy cool!</h1>
+</body>
 ```
-
-### El texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______
 
 #### Opciones
 

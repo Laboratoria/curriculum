@@ -25,15 +25,13 @@
 
 <solution style="display:none;">3</solution>
 
-### 2) Na imagem a seguir
+### 2) Na imagem a seguir, o texto `Olá Mundo! Programar é muito cool!` entre as tags h1, corresponde a um nó do tipo **\_\_**
 
 ```html
-   <body>
-      <h1>Olá Mundo! Programar é muito cool :3 !</h1>
-   </body>
+<body>
+  <h1>Olá Mundo! Programar é muito cool :3 !</h1>
+</body>
 ```
-
-### O texto `Olá Mundo! Programar é muito cool!` entre as tags h1, corresponde a um nó do tipo **\_\_**
 
 #### Opções
 
