@@ -1,5 +1,12 @@
 #! /usr/bin/env bash
 
+deps=(node npm curl)
+
+for dep in "${deps[@]}"; do
+  command -v "$dep" >/dev/null 2>&1 \
+  || { echo >&2 "I require ${dep} but it's not installed. Aborting."; exit 1; }
+done
+
 
 # Deploy script should only run on Node v12 build!
 if [[ "$TRAVIS_NODE_VERSION" != "12" ]]; then

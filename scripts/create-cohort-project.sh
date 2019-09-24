@@ -1,5 +1,13 @@
 #! /usr/bin/env bash
 
+deps=(basename realpath read mkdir cp cat sed git curl node pwd)
+
+for dep in "${deps[@]}"; do
+  command -v "$dep" >/dev/null 2>&1 \
+  || { echo >&2 "I require ${dep} but it's not installed. Aborting."; exit 1; }
+done
+
+
 positional=()
 while [[ $# -gt 0 ]]; do
   key="$1"
