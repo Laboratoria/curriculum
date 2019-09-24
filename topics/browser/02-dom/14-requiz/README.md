@@ -36,13 +36,11 @@
 
 <solution style="display:none;">1,3,4</solution>
 
-### 3) Para el siguiente elemento
+### 3) Para el siguiente elemento, ¿cómo puedo cambiar el color de fondo de párrafo?
 
 ```html
-    <p id="paragraph">Hola, soy un párrafo sensual</p>
+<p id="paragraph">Hola, soy un párrafo sensual</p>
 ```
-
-### ¿Cómo puedo cambiar el color de fondo de párrafo?
 
 #### Opciones
 

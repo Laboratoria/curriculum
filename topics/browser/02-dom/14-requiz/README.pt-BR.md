@@ -36,13 +36,11 @@
 
 <solution style="display:none;">1,3,4</solution>
 
-### 3) Para o elemento a seguir
+### 3) Para o elemento a seguir, como posso mudar a cor de fundo do parágrafo?
 
 ```html
-    <p id="paragraph">Olá, sou un parágrafo sensual</p>
+<p id="paragraph">Olá, sou un parágrafo sensual</p>
 ```
-
-### Como posso mudar a cor de fundo do parágrafo?
 
 #### Opções
 
