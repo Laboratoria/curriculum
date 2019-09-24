@@ -264,41 +264,35 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### General
+### Habilidades Blandas (Soft Skills)
 
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 4              |
+| Autoaprendizaje                                 | 4              |
+| Presentaciones                                  | 4              |
+| Adaptabilidad                                   | 4              |
+| Solución de problemas                           | 4              |
+| Responsabilidad                                 | 4              |
+| Dar y recibir feedback                          | 4              |
+| Comunicación eficaz                             | 4              |
 
-### Habilidades Blandas
+### Habilidades Técnicas (Front-end)
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
-
-### Tech
-
-| Habilidad              | Nivel esperado |
-| ---------------------- | -------------- |
-| **Computer Science**                    |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| **Source Control Management**           |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
+| Habilidad                      | Nivel esperado |
+| -------------------------------|----------------|
+| **Computer Science (CS)**                       |
+| Lógica / Algoritmia            | 2              |
+| Arquitectura                   | 3              |
+| **Source Code Management (SCM)**                |
+| Git                            | 3              |
+| GitHub                         | 3              |
+| **JavaScript**                                  |
+| Estilo (linter js)             | 3              |
+| Nomenclatura / semántica       | 3              |
+| Uso de funciones / modularidad | 4              |
+| Estructuras de datos           | 3              |
+| Tests                          | 3              |
 
 ***
 
@@ -330,7 +324,7 @@ _secretos_ en el servidor, que usaremos después para configurar nuestra
 aplicación a través de _variables de entorno_.
 
 La herramienta de `now` nos permite crear secretos con el comando `now secrets
-add <key> <balue>`. Por ejemplo:
+add <key> <value>`. Por ejemplo:
 
 ```sh
 $ now secrets add mongo-url "mongodb://system:<PASSWORD>@foo-shard-00-00-ust2z.gcp.mongodb.net:27017,foo-shard-00-01-ust2z.gcp.mongodb.net:27017,foo-shard-00-02-ust2z.gcp.mongodb.net:27017/test?ssl=true&replicaSet=bq-shard-0&authSource=admin&retryWrites=true"

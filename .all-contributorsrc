@@ -475,7 +475,8 @@
       "profile": "https://danielalab.github.io/Daniela-Gonzales/",
       "contributions": [
         "bug",
-        "ideas"
+        "ideas",
+        "code"
       ]
     },
     {
@@ -568,6 +569,15 @@
       "profile": "https://github.com/YolandaRib-4",
       "contributions": [
         "bug"
+      ]
+    },
+    {
+      "login": "carlosroec",
+      "name": "Carlos G. Rodriguez",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1981518?v=4",
+      "profile": "https://github.com/carlosroec",
+      "contributions": [
+        "maintenance"
       ]
     }
   ],
