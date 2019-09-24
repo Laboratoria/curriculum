@@ -11,9 +11,9 @@ module.exports = (app, nextMain) => {
    * @path {POST} /auth
    * @body {String} email Correo
    * @body {String} password Contraseña
-   * @response {String} token Token a usar para los requests sucesivos
+   * @response {Object} resp
+   * @response {String} resp.token Token a usar para los requests sucesivos
    * @code {200} si la autenticación es correcta
-   * @code {401} si cabecera de autenticación no está presente
    * @code {400} si no se proveen `email` o `password` o ninguno de los dos
    * @auth No requiere autenticación
    */
@@ -25,6 +25,7 @@ module.exports = (app, nextMain) => {
     }
 
     // TODO: autenticar a la usuarix
+    next();
   });
 
   return nextMain();
