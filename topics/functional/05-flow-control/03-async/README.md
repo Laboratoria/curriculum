@@ -246,12 +246,12 @@ a `setTimeout` en un _closure_, lo que creará un nuevo ámbito con una `i`
 diferente en cada iteración:
 
 ```js
-for(var i = 1; i <= 3; i++) {
-  (i => {
+for (var i = 1; i <= 3; i++) {
+  ((i) => {
     setTimeout(() => {
-      console.log(i + " second(s) elapsed")
-    }, i * 1000)
-  })(i)
+      console.log(`${i} second(s) elapsed`);
+    }, i * 1000);
+  })(i);
 }
 ```
 
@@ -260,10 +260,10 @@ más elegante es usar `let` en lugar de `var`, ya que permite crear un nuevo
 ámbito para `i` en cada iteración:
 
 ```js
-for(let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 3; i++) {
   setTimeout(() => {
-    console.log(i + " second(s) elapsed")
-  }, i * 1000)
+    console.log(`${i} second(s) elapsed`);
+  }, i * 1000);
 }
 ```
 

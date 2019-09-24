@@ -8,8 +8,8 @@ function Robot() {
 
 Robot.prototype.capabilities = [];
 
-var robby = new Robot();
-var cranky = new Robot();
+const robby = new Robot();
+const cranky = new Robot();
 
 // -> ¿Cúal es el resultado de robby.parts?
 claim(robby.parts, []);

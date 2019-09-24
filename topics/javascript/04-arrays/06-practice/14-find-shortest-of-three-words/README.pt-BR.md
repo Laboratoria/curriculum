@@ -10,6 +10,6 @@ Notas:
   parâmetros.
 
 ```javascript
-var output = findShortestOfThreeWords('a', 'dos', 'tres');
+const output = findShortestOfThreeWords('a', 'dos', 'tres');
 console.log(output); // -> 'a'
 ```

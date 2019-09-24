@@ -47,22 +47,22 @@
 1. Snippet 1:
 
    ```js
-   var paragraph = document.getElementById('paragraph');
-   paragraph.style.background='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.style.background = 'red';
    ```
 
 2. Snippet 2:
 
    ```js
-   var paragraph = document.getElementById('paragraph');
-   paragraph.style.backgroundColor='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.style.backgroundColor = 'red';
    ```
 
 3. Snippet 3:
 
    ```js
-   var paragraph = document.getElementById('paragraph');
-   paragraph.backgroundColor='red';
+   const paragraph = document.getElementById('paragraph');
+   paragraph.backgroundColor = 'red';
    ```
 
 <solution style="display:none;">2</solution>
@@ -70,7 +70,7 @@
 ### 4) `document.getElementsByClassName('unaClase')`, me regresa un
 
 ```js
-var elementos = document.getElementsByClassName('unaClase');
+const elementos = document.getElementsByClassName('unaClase');
 console.log(elementos);
 ```
 
@@ -174,9 +174,9 @@ console.log(elementos);
 
 #### Opciones
 
-1. var data = "valor"
-2. data-nombreAsignado="valor"
-3. data="valor"
+1. const data = "valor"
+2. data-nombreAsignado = "valor"
+3. data = "valor"
 4. nombreAsignado-Datos(valor)
 
 <solution style="display:none;">2</solution>

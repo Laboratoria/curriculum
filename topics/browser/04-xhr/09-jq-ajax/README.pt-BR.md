@@ -54,34 +54,34 @@ configuração, em parte devido a esta ser a forma mais antiga que está dispon�
 
 > É um objeto de JavaScript que utilizamos para configurar algo.
 >
->Por exemplo:
+> Por exemplo:
 >
->```javascript
->var settings = {
+> ```javascript
+> const settings = {
 >   name: 'this is my name',
 >   colors: ['orange', 'blue'],
 >   layers: 2,
->   isRound: true
->};
->```
+>   isRound: true,
+> };
+> ```
 >
->O objeto de configuração pode ser passado como parâmetro de uma função
->construtora. Imaginemos a função construtora `MakeCake`:
+> O objeto de configuração pode ser passado como parâmetro de uma função
+> construtora. Imaginemos a função construtora `MakeCake`:
 >
->```javascript
->const myDeliciousCake = MakeCake( settings );
->```
+> ```javascript
+> const myDeliciousCake = MakeCake(settings);
+> ```
 >
->Da mesma forma, o objeto de configuração pode ser passado diretamente:
+> Da mesma forma, o objeto de configuração pode ser passado diretamente:
 >
->```javascript
->const myDeliciousCake = MakeCake({
+> ```javascript
+> const myDeliciousCake = MakeCake({
 >   name: 'this is my name',
 >   colors: ['orange', 'blue'],
 >   layers: 2,
->   isRound: true
->});
->```
+>   isRound: true,
+> });
+> ```
 
 ## Fazendo uma chamada AJAX
 

@@ -44,8 +44,8 @@ _errores lógicos_.
  * Errores de sintaxis
  */
 
-// Nombre de variable con tilde
-var número = 10;
+// Nombre de variable empezando con número
+const 1cosa = 10;
 
 /*
  *
@@ -87,17 +87,15 @@ if (numero = 0) {
  */
 
 // Función que espera 2 números como parámetros para devolver la suma de ambos
-var suma = function(num1, num2) {
-  return num1 + num2;
-};
+const suma = (num1, num2) => num1 + num2;
 
 // Imaginemos que el número 1 es 6
-var num1 = prompt('Ingrese el número 1');
+const num1 = prompt('Ingrese el número 1');
 
 // Imaginemos que el número 2 es 4
-var num2 = prompt('Ingrese el número 2');
+const num2 = prompt('Ingrese el número 2');
 
-var resultado = suma(num1, num2);
+const resultado = suma(num1, num2);
 
 // Resultado esperado: 10
 // Resultado obtenido: "64"

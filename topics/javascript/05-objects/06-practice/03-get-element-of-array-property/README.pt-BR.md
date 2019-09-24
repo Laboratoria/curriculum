@@ -18,9 +18,10 @@ Notas:
 Exemplo de entrada:
 
 ```javascript
-var obj = {
- key: ['Jamil', 'Albrey']
+const obj = {
+ key: ['Jamil', 'Albrey'],
 };
-var output = getElementOfArrayProperty(obj, 'key', 0);
+
+const output = getElementOfArrayProperty(obj, 'key', 0);
 console.log(output); // --> 'Jamil'
 ```
