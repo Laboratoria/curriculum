@@ -48,7 +48,7 @@ No exemplo a seguir, temos um código que verifica se o número digitado por um
 usuário é zero, positivo ou negativo.
 
 ```javascript
-var number = prompt('Digite um número');
+let number = prompt('Digite um número');
 number = Number(numero);
 
 if (number === 0) {
@@ -96,7 +96,7 @@ function factorial(number) {
   return number * factorial(number - 1);
 }
 
-var result = factorial(5);
+const result = factorial(5);
 console.log(result);
 ```
 
@@ -115,8 +115,8 @@ que queremos que nosso aplicativo web seja depurado.
 A seguir temos uma demonstração usando o seguinte script:
 
 ```javascript
-var number = parseInt(prompt('Digite um número (de 1 a 10):'));
-var randomNumber = Math.floor(Math.random() * 10);
+const number = parseInt(prompt('Digite um número (de 1 a 10):'));
+const randomNumber = Math.floor(Math.random() * 10);
 
 debugger;
 if (randomNumber === number) {
@@ -140,16 +140,18 @@ Para colocar em prática esta leitura, você pode depurar o código a seguir:
  * o erro.
  */
 
-var reverse = function(text) {
-    var reversedText = '';
-    var textLength = text.length;
-    for (var i = textLength; i > 0; i--) {
-        reversedText += text.charAt(i);
-    }
-    return reversedText;
+const reverse = (text) => {
+  let reversedText = '';
+  const textLength = text.length;
+
+  for (let i = textLength; i > 0; i--) {
+   reversedText += text.charAt(i);
+  }
+
+  return reversedText;
 };
 
-var result = reverse('Laboratoria');
+const result = reverse('Laboratoria');
 // Resultado atual: airotaroba
 // Resultado esperado: airotarobaL
 console.log(result);

@@ -43,27 +43,24 @@ a algo que no debe estar ahí. Usualmente, esto significa que algo hace falta
 Ejemplos:
 
 ```javascript
-var foo = 'Nicole's code';
-// Uncaught SyntaxError: Unexpected identifier (Chrome)
-// SyntaxError: Unexpected token, expected ; (repl.it)
+const foo = 'Nicole's code';
+// SyntaxError: unexpected token: identifier
 ```
 
 ```javascript
-var list = [1, 2,
+const list = [1, 2,
 
-var instruments = [
+const instruments = [
   'Ukulele',
   'Guitar',
   'Piano'
 };
-// Uncaught SyntaxError: Unexpected token var (Chrome)
-// SyntaxError: Unexpected token (repl.it)
+// SyntaxError: expected expression, got keyword 'const'
 ```
 
 ```javascript
-var data = [{foo: 'bar'} {bar: 'foo'}];
-// Uncaught SyntaxError: Unexpected token { (Chrome)
-// SyntaxError: Unexpected token, expected , (repl.it)
+const data = [{foo: 'bar'} {bar: 'foo'}];
+// SyntaxError: missing ] after element list
 ```
 
 A veces, en lugar de "Unexpected Token", verás algo como "Unexpected Identifier"

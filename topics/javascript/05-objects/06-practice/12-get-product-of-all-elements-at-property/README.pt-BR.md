@@ -12,9 +12,10 @@ Notas:
 * Se não houver nenhuma propriedade na chave fornecida, ela deverá devolver 0.
 
 ```javascript
-var obj = {
-  key: [1, 2, 3, 4];
+const obj = {
+  key: [1, 2, 3, 4],
 };
-var output = getProductOfAllElementsAtProperty(obj, 'key');
+
+const output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 24
 ```

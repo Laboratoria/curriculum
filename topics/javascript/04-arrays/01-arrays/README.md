@@ -63,7 +63,7 @@ en ellos. Podríamos usar un `string` con los números intercalados por un
 espacio, así:
 
 ```js
-let listOfNumbers = '2 3 5 7 11';
+const listOfNumbers = '2 3 5 7 11';
 ```
 
 Sin embargo, esto también resulta engorroso. Tendríamos que buscar la manera de
@@ -76,7 +76,7 @@ secuencias de valores. Se llama `array` (arreglo en español) y se escribe como 
 lista de valores entre corchetes, separados por comas.
 
 ```js
-listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 
 ```
 

@@ -22,10 +22,10 @@ un caracter mucho más declarativo.
 Imáginemos que tenemos la siguiente data en un array de objetos:
 
 ```js
-var array = [
+const array = [
   {id: 'uno', name: 'el primero'},
   {id: 'dos', name: 'el segundo'},
-  {name: 'no tengo id'}
+  {name: 'no tengo id'},
 ];
 ```
 
@@ -36,7 +36,7 @@ problema desde un enfoque imperativo, podríamos implementar una solución así:
 ```js
 const ids = [];
 
-for (var i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i++) {
   if (array[i].id) {
     ids.push(array[i].id);
   }
