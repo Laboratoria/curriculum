@@ -2,7 +2,8 @@
   "default": true,
   "line-length": {
     "code_blocks": false,
-    "headers": false
+    "headings": false,
+    "tables": false
   },
   "ul-style": {
     "style": "sublist"

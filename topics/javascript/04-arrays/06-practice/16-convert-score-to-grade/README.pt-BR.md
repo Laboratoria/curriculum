@@ -16,6 +16,6 @@ Notas:
   'INVALID SCORE'.
 
 ```javascript
-var output = convertScoreToGrade(91);
+const output = convertScoreToGrade(91);
 console.log(output); // -> 'A'
 ```

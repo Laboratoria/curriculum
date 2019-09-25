@@ -6,9 +6,11 @@
 //
 
 module.exports = function doubleAll(numbers) {
-  var result = [];
-  for (var i = 0; i < numbers.length; i++) {
+  const result = [];
+
+  for (let i = 0; i < numbers.length; i++) {
     result.push(numbers[i] * 2);
   }
+
   return result;
 };

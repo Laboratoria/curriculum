@@ -11,7 +11,7 @@ por un espacio.
 ```js
 const person = {
   firstName: 'Jade',
-  lastName: 'Smith'
+  lastName: 'Smith',
 };
 
 const personWithFullName = addFullNameProperty(person);

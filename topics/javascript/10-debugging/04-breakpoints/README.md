@@ -47,7 +47,7 @@ En el siguiente ejemplo, tenemos un código que verifica si el número ingresado
 por un usuario es cero, positivo o negativo.
 
 ```javascript
-var number = prompt('Ingrese un número');
+let number = prompt('Ingrese un número');
 number = Number(numero);
 
 if (number === 0) {
@@ -96,7 +96,7 @@ function factorial(number) {
   return number * factorial(number - 1);
 }
 
-var result = factorial(5);
+const result = factorial(5);
 console.log(result);
 ```
 
@@ -115,8 +115,8 @@ ser depurada.
 A continuación una demostración usando el siguiente script:
 
 ```javascript
-var number = parseInt(prompt('Ingresa un número (del 1 al 10):'));
-var randomNumber = Math.floor(Math.random() * 10);
+const number = parseInt(prompt('Ingresa un número (del 1 al 10):'));
+const randomNumber = Math.floor(Math.random() * 10);
 
 debugger;
 if (randomNumber === number) {
@@ -139,16 +139,18 @@ Para poner en práctica esta lectura, puedes depurar el siguiente código:
  * el error.
  */
 
-var reverse = function(text) {
-    var reversedText = '';
-    var textLength = text.length;
-    for (var i = textLength; i > 0; i--) {
-        reversedText += text.charAt(i);
-    }
-    return reversedText;
+const reverse = (text) => {
+  let reversedText = '';
+  const textLength = text.length;
+
+  for (let i = textLength; i > 0; i--) {
+    reversedText += text.charAt(i);
+  }
+
+  return reversedText;
 };
 
-var result = reverse('Laboratoria');
+const result = reverse('Laboratoria');
 // Resultado actual: airotaroba
 // Resultado esperado: airotarobaL
 console.log(result);

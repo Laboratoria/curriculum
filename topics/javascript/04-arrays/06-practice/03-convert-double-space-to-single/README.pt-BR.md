@@ -8,7 +8,7 @@ caracteres com os espaços duplos convertidos em espaços simples.
 Exemplo de entrada:
 
 ```javascript
-var output = convertDoubleSpaceToSingle("string  with  double  spaces");
+const output = convertDoubleSpaceToSingle("string  with  double  spaces");
 console.log(output); // --> "string with double spaces"
 ```
 

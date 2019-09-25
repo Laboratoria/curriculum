@@ -30,9 +30,9 @@ function abc(one, two, three) {
 Se vería de la siguiente manera:
 
 ```js
-var curryC = curry3(abc)
-var curryB = curryC(6)
-var curryA = curryB(3)
+const curryC = curry3(abc)
+const curryB = curryC(6)
+const curryA = curryB(3)
 
 console.log(curryA(2)) // => 1
 ```
@@ -55,9 +55,9 @@ function add3(one, two, three) {
   return one + two + three
 }
 
-var curryC = curryN(add3)
-var curryB = curryC(1)
-var curryA = curryB(2)
+const curryC = curryN(add3)
+const curryB = curryC(1)
+const curryA = curryB(2)
 console.log(curryA(3)) // => 6
 console.log(curryA(10)) // => 13
 

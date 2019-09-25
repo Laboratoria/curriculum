@@ -44,8 +44,8 @@ lógicos_.
  * Erros de sintaxe:
  */
 
-// Nome da variável com acento.
-var número = 10;
+// Nome da variável começando com número
+const 1cosa = 10;
 
 /*
  *
@@ -86,17 +86,15 @@ if (numero = 0) {
  */
 
 // Função que espera 2 números como parâmetros para retornar a soma de ambos.
-var soma = function(num1, num2) {
-  return num1 + num2;
-};
+const soma = (num1, num2) => num1 + num2;
 
 // Imaginemos que o número 1 é 6.
-var num1 = prompt('Digite o número 1');
+const num1 = prompt('Digite o número 1');
 
 // Imaginemos que o número 2 é 4.
-var num2 = prompt('Digite o número 2');
+const num2 = prompt('Digite o número 2');
 
-var resultado = soma(num1, num2);
+const resultado = soma(num1, num2);
 
 // Resultado esperado: 10.
 // Resultado obtido: "64".

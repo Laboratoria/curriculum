@@ -12,9 +12,10 @@ Notas:
 * Se não houver nenhuma propriedade na chave fornecida, ela deverá devolver 0.
 
 ```javascript
-var obj = {
-  key: [4, 1, 8];
+const obj = {
+  key: [4, 1, 8],
 };
-var output = getSumOfAllElementsAtProperty(obj, 'key');
+
+const output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 ```
