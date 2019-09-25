@@ -8,52 +8,12 @@ const mkdirp = promisify(require('mkdirp'));
 const { repository, version } = require('../package.json');
 
 
-const projects = [
-  '01-cipher',
-  '02-data-lovers',
-  '03-social-network',
-  '04-burger-queen',
-  '04-md-links',
-  '04-social-network-frameworks',
-  '05-bq-node',
-  '05-tic-tac-toe-rn',
-];
-
-const topics = [
-  'babel',
-  'browser',
-  'css',
-  'functional',
-  'html',
-  'javascript',
-  'paradigms',
-  'react',
-  'redux',
-  'scm',
-  'shell',
-];
-
-const projectsPt = [
-  '01-cipher',
-  '02-data-lovers',
-];
-
-const topicsPt = [
-  'browser',
-  'css',
-  'html',
-  'javascript',
-  'scm',
-  'shell',
-];
-
-
 const rubricVersion = '3.x';
 const validate = process.argv[2] === '--validate';
 const buildDir = path.join(__dirname, '..', 'build');
 
 
-const parse = ({ type, id, locale }) => new Promise((resolve) => {
+const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
   console.log(`=> Parsing ${type} ${id} ${locale}...`);
   const suffix = locale.split('-')[0];
   const fd = fs.openSync(
@@ -69,7 +29,7 @@ const parse = ({ type, id, locale }) => new Promise((resolve) => {
     '--repo', repository,
     '--version', version,
     '--rubric', rubricVersion,
-    '--track', 'js',
+    '--track', track,
     '--locale', locale,
     ...(locale === 'es-ES' ? [] : ['--suffix', suffix]),
   ], { stdio: [null, fd, 'pipe'] });
@@ -116,10 +76,44 @@ const buildItems = (items) => {
 
 
 buildItems([
-  ...projects.map(id => ({ type: 'project', id, locale: 'es-ES' })),
-  ...topics.map(id => ({ type: 'topic', id, locale: 'es-ES' })),
-  ...projectsPt.map(id => ({ type: 'project', id, locale: 'pt-BR' })),
-  ...topicsPt.map(id => ({ type: 'topic', id, locale: 'pt-BR' })),
+  // JS Projects (spanish)
+  { type: 'project', id: '01-cipher', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '02-data-lovers', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '03-social-network', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-burger-queen', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-redesign-and-data', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-social-network-frameworks', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-bq-node', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  // JS Projects (portuguese)
+  { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
+  // UX Projects (spanish)
+  { type: 'project', id: '05-ux-consultancy', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '06-service-design', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '06-visual-design', locale: 'es-ES', track: 'ux' },
+
+  // JS Topics (spanish)
+  { type: 'topic', id: 'babel', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'browser', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'css', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'functional', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'html', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'javascript', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'paradigms', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'react', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'redux', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'scm', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'shell', locale: 'es-ES', track: 'js' },
+  // JS Topics (portuguese)
+  { type: 'topic', id: 'browser', locale: 'pt-BR', track: 'js' },
+  { type: 'topic', id: 'css', locale: 'pt-BR', track: 'js' },
+  { type: 'topic', id: 'html', locale: 'pt-BR', track: 'js' },
+  { type: 'topic', id: 'javascript', locale: 'pt-BR', track: 'js' },
+  { type: 'topic', id: 'scm', locale: 'pt-BR', track: 'js' },
+  { type: 'topic', id: 'shell', locale: 'pt-BR', track: 'js' },
 ])
   .then(results => {
     const hasErrors = results.reduce(
