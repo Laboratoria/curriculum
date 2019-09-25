@@ -8,6 +8,6 @@ elementos do _array_ dado.
 Exemplo:
 
 ```javascript
-var output = computeSumOfAllElements([1, 2, 3]);
+const output = computeSumOfAllElements([1, 2, 3]);
 console.log(output); // --> 6
 ```

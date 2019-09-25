@@ -60,11 +60,11 @@
 ### 5\) Qual é o resultado do código a seguir?
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
 
 console.log(movie.tags[1]);
@@ -82,13 +82,13 @@ console.log(movie.tags[1]);
 ### 6\) Qual é o erro no código a seguir?
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: ['Michael J. Fox'; 'Christopher Lloyd'; 'Lea Thompson'],
   oscar: 1,
   'other awards': 'best sound',
-  tags: []
+  tags: [],
 };
 ```
 

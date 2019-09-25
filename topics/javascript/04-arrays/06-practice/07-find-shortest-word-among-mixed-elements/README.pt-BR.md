@@ -17,6 +17,6 @@ Notas:
 Exemplo:
 
 ```javascript
-var output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
+const output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
 console.log(output); // --> 'two'
 ```

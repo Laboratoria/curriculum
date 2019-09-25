@@ -65,12 +65,12 @@ necesita información adicional sobre éste.
  ejemplo.
 
 ```javascript
-function holaMundo(event){
-  var evento = window.event || event;
+const holaMundo = (event) => {
+  const evento = window.event || event;
   alert('Hola Mundo.');
-}
+};
 
-var boton = document.getElementById('boton');
+const boton = document.getElementById('boton');
 boton.addEventListener('click', holaMundo, false);
 ```
 
@@ -108,11 +108,11 @@ por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
 
 ```javascript
-var form = document.querySelector('form');
-var fname = document.getElementById('fname');
-var lname = document.getElementById('lname');
-var submit = document.getElementById('submit');
-var para = document.querySelector('p');
+const form = document.querySelector('form');
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const submit = document.getElementById('submit');
+const para = document.querySelector('p');
 
 form.onsubmit = function(e) {
   if (fname.value === '' || lname.value === '') {

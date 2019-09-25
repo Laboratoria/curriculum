@@ -79,7 +79,7 @@ const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso']
+  ['¿Cuál es la moneda de México?', 'Peso'],
 ];
 ```
 
@@ -160,9 +160,11 @@ console.log(courses.length);
 
 ```js
 const listOfNumbers = [];
+
 for (let i = 0; i <= 5; i += 1) {
   listOfNumbers.push(i);
 }
+
 listOfNumbers.pop();
 
 console.log(listOfNumbers.length);
@@ -241,12 +243,13 @@ courses.___________;
 
 ```js
 const coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
+
 if (coders.length < 3) {
   coders.push('alejandra');
-  coders.slice(1,2);
+  coders.slice(1, 2);
 } else {
   coders.pop();
-  coders.slice(1,3);
+  coders.slice(1, 3);
 }
 ```
 
@@ -301,13 +304,13 @@ console.log(array);
 ### 17) En el siguiente código, ¿qué debemos comparar? Completa los espacios
 
 ```js
-function search(array, element) {
+const search = (array, element) => {
   for (let i = 0; i < array.length; i += 1) {
     if (_________ === _________) {
       return i;
     }
   }
-}
+};
 
 console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 // → 1

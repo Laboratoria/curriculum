@@ -1,14 +1,7 @@
 /* Regresa num1 por ciento de num2. */
-function calculatePercent(num1, num2) {
-  return num1 / 100 * num2;
-}
+const percent = (num1, num2) => num1 * num2 / 100;
 
-function calculateTip(billAmount) {
-  var percent = calculatePercent(15, billAmount);
-  return percent;
-}
-
-calculateTip(100);
+const calculateTip = billAmount => percent(15, billAmount);
 
 /**
  * ¿Cuál fue el problema con el código?

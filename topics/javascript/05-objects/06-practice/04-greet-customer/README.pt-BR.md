@@ -10,22 +10,19 @@ A saudação deve ser diferente, dependendo do nome da reserva.
 Caso 1 - Cliente desconhecido \(o nome não está presente nos dados do cliente\):
 
 ```javascript
-var output = greetCustomer('Terrance');
-console.log(output); // --> 'Welcome! Is this your first time?'
+console.log(greetCustomer('Terrance')); // --> 'Welcome! Is this your first time?'
 ```
 
 Caso 2 - Cliente que visitou apenas uma vez \(o valor das visitas é 1\)
 
 ```javascript
-var output = greetCustomer('Joe');
-console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
+console.log(greetCustomer('Joe')); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
 Caso 3 - Cliente repetido: \(o valor de 'visitas' é maior que 1\)
 
 ```javascript
-var output = greetCustomer('Carol');
-console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
+console.log(greetCustomer('Carol')); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 
 Notas:

@@ -13,7 +13,7 @@ Notas:
 
 ```js
 const obj = {
-  key: [4, 1, 8];
+  key: [4, 1, 8],
 };
 
 const output = getSumOfAllElementsAtProperty(obj, 'key');

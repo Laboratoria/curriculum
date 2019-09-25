@@ -13,7 +13,7 @@ Notas:
 
 ```js
 const obj = {
-  key: [1, 2, 3, 4];
+  key: [1, 2, 3, 4],
 };
 
 const output = getProductOfAllElementsAtProperty(obj, 'key');

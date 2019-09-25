@@ -37,9 +37,9 @@ consideremos más apropiado para el valor que va a guardar:
 Para poder acceder a estos atributos hacemos uso del método `dataset`.
 
 ```javascript
-  var ejemplo = document.getElementById("ejemplo");
-  var valor = ejemplo.dataset.nombre;
-  var otroValor = ejemplo.dataset.otroNombre;
+const ejemplo = document.getElementById("ejemplo");
+const valor = ejemplo.dataset.nombre;
+const otroValor = ejemplo.dataset.otroNombre;
 ```
 
 En este [link](https://cybmeta.com/los-atributos-data-y-el-dataset-api) podemos

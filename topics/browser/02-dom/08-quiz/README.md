@@ -25,16 +25,13 @@
 
 <solution style="display:none;">3</solution>
 
-### 2) En la siguiente imagen
+### 2) En la siguiente imagen, el texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______
 
 ```html
-        <body>
-            <h1>¡Hola Mundo! ¡La programación es muy cool :3 !</h1>
-        </body>
-
+<body>
+  <h1>¡Hola Mundo! ¡La programación es muy cool!</h1>
+</body>
 ```
-
-### El texto `¡Hola Mundo! ¡La programación es muy cool!` entre las etiquetas h1, corresponde a un nodo tipo ______
 
 #### Opciones
 
@@ -171,29 +168,29 @@
 1. Snippet 1:
 
    ```js
-   var text = document.getElementById("text");
-   var autor = autor.dataset;
+   const text = document.getElementById('text');
+   const autor = autor.dataset;
    ```
 
 2. Snippet 2:
 
    ```js
-   var text = document.getElementById("text");
-   var autor = dataset.text.autor;
+   const text = document.getElementById('text');
+   const autor = dataset.text.autor;
    ```
 
 3. Snippet 3:
 
    ```js
-   var text = document.getElementById("text");
-   var autor = text.dataset.autor;
+   const text = document.getElementById('text');
+   const autor = text.dataset.autor;
    ```
 
 4. Snippet 4:
 
    ```js
-   var text = document.getElementById("text");
-   var text.dataset = autor;
+   const text = document.getElementById('text');
+   const text.dataset = autor;
    ```
 
 <solution style="display:none;">3</solution>
@@ -238,28 +235,28 @@
 1. Snippet 1:
 
    ```js
-   var boton = document.getElementById('boton');
+   const boton = document.getElementById('boton');
    boton.createEventListener(click, funcion_a_ejecutar);
    ```
 
 2. Snippet 2:
 
    ```js
-   var boton = document.getElementById('boton');
+   const boton = document.getElementById('boton');
    boton.addEventListener = 'click' + 'funcion_a_ejecutar';
    ```
 
 3. Snippet 3:
 
    ```js
-   var boton = document.getElementById('boton');
+   const boton = document.getElementById('boton');
    boton.addEventListener('click', funcion_a_ejecutar);
    ```
 
 4. Snippet 4:
 
    ```js
-   var boton = document.getElementById('boton');
+   const boton = document.getElementById('boton');
    boton = document.addEventListener('click', funcion_a_ejecutar);
    ```
 
