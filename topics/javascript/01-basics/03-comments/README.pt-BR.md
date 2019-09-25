@@ -46,7 +46,7 @@ para oferecer sugestões ou instruções.
 Por exemplo, é normal ver algo tipo:
 
 ```js
-var firstName = // seu código aqui
+const firstName = // seu código aqui
 console.log(/* seu código aqui */);
 ```
 

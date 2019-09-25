@@ -63,7 +63,7 @@
 ### 5\) Confira o código a seguir
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -85,14 +85,14 @@ Como eu acesso a propriedade `director`?
 ### 6\) Qual é o erro no código abaixo?
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
   oscar: 1,
   other awards: 'best sound',
   tags: []
-}
+};
 ```
 
 #### Opções
@@ -107,11 +107,11 @@ var movie = {
 ### 7\) Qual é o resultado do código seguinte?
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: ['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
 
 console.log(movie.stars[2]);
@@ -129,11 +129,11 @@ console.log(movie.stars[2]);
 ### 8\) No código a seguir
 
 ```javascript
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
 ```
 
@@ -151,17 +151,16 @@ como podemos acessar a lista de chaves do objeto `movie`?
 ### 9\) Qual é o erro no código a seguir?
 
 ```javascript
-function objectToArray(object) {
+const objectToArray = (object) => {
+  const items = Object.keys(object);
+  const newArray = [];
 
-  var items = Object.keys(object);
-  var newArray = [];
-
-  for (var i = 0; i < items.length; i++) {
+  for (let i = 0; i < items.length; i += 1) {
     newArray.pop([items[i], object[items[i]]]);
   }
 
   return newArray;
-}
+};
 
 console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 // → [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]

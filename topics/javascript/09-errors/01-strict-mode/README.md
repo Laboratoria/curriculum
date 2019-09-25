@@ -39,7 +39,7 @@ usarla.
 
 ```js
 'use strict';
-var foo = 'Guilherme'; // It works!
+const foo = 'Guilherme'; // It works!
 ```
 
 El modo estricto cambia la sintáxis y el comportamiento en tiempo de ejecución.
@@ -75,25 +75,25 @@ estricto, si se intenta asignar un valor a `NaN`, el programador recibirá una
 exepción. Cualquier asignación que falle silenciosamente en código normal
 (asignaciones a una propiedad de no escritura, asignaciones a una propiedad get,
 asignaciones a una nueva propiedad o a un objecto no extendible) lanzará una
-exepción en modo estricto:
+excepción en modo estricto:
 
 ```js
 'use strict';
 // Asignación a un no-escritura global
-var undefined = 5;
-var Infinity = 5;
+var undefined = 5; // TypeError: "undefined" is read-only
+var Infinity = 5; // TypeError: "Infinity" is read-only
 
 // Asignación a una propiedad de no-escritura
-var obj1 = {};
+const obj1 = {};
 Object.defineProperty(obj1, 'x', { value: 42, writable: false });
 obj1.x = 9; // lanza un TypeError
 
 // Asignación a una propiedad de tipo getter
-var obj2 = { get x() { return 17; } };
+const obj2 = { get x() { return 17; } };
 obj2.x = 5; // lanza un TypeError
 
 // Asignación a una nueva propiedad en un objeto no-extendible
-var fixed = {};
+const fixed = {};
 Object.preventExtensions(fixed);
 fixed.newProp = 'ohai'; // lanza un TypeError
 ```

@@ -19,7 +19,7 @@ Ejemplo de entrada:
 
 ```js
 const obj = {
- key: ['Jamil', 'Albrey']
+ key: ['Jamil', 'Albrey'],
 };
 
 const output = getElementOfArrayProperty(obj, 'key', 0);
