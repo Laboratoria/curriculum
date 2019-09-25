@@ -1,6 +1,15 @@
 # User Interface
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Entrega](#3-entrega)
+* [4. Evaluación](#4-evaluación)
+
+***
+
+## 1. Preámbulo
 
 A muchas personas nos encantan los espectáculos: conciertos, obras de teatro,
 partidos de fútbol, partidos de basquetbol, circos, entre otros. Sin embargo,
@@ -20,7 +29,7 @@ venta de boletos incluyen a Razorgato, StubHub, Ticketmaster, Fandango,
 Movietickets.com, Grandes cines, Cinemark Holdings Inc ., BookMyShow.com, Vue
 Entertainment, Mtime y Kyazoonga.
 
-## Reto
+## 2. Resumen del proyecto
 
 En este reto entenderemos los distintos problemas relacionados a la venta de
 boletos para espectáculos, tanto del lado de las personas que utilizan el
@@ -58,7 +67,7 @@ Como parte del reto, Teleticket nos ha pedido que hagamos lo siguiente:
     propuesta de diseño puedes usar [esta guía de estilos de Material Design](https://material.5ly.co/),
     recuerda que si crear nuevos componentes debes agregarlos a la guía de estilos.
 
-## Entrega
+## 3. Entrega
 
 El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
 lo siguiente:
@@ -86,7 +95,7 @@ agregar los documentos complementarios que sustenten tu proceso:
 * Mapa de sitio
 * Etc.
 
-## Evaluación
+## 4. Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es

@@ -1,6 +1,21 @@
 # Plataforma de ventas en línea
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
+* [7. Evaluación](#7-evaluación)
+* [8. Entrega](#8-entrega)
+* [9. Otras consideraciones](#9-otras-consideraciones)
+* [10. Hacker edition](#10-hacker-edition)
+
+***
+
+## 1. Preámbulo
 
 En el mundo hay muchas formas de vender en línea, el porcentaje de compradores
 online sigue creciendo y la gama de cosas que pueden comprar también lo hace.
@@ -10,12 +25,13 @@ tienda. En el comercio minorista hay una serie de intermediarios que en
 ocasiones nos hacen perder la pista del ‘viaje’ de un producto; un viaje que va
 encareciendo el producto por cada empresa por la que debe pasar hasta que llega
 a las manos de nosotros, los consumidores.
+
 En esta realidad hay dos actores perjudicados: el consumidor, que acaba pagando
 más por un producto y el productor o fabricante, que se ve presionado a vender
 más barato para que su producto llegue al consumidor a un precio asequible y que
 todos puedan beneficiarse en el camino.
 
-## Introducción
+## 2. Resumen del proyecto
 
 ### “Nuevo portal de e-commerce”
 
@@ -46,7 +62,7 @@ empresa que elijas a entender tu visión, esperan que les hagas una propuesta de
 cómo podría ser el portal donde las personas puedan buscar, ver, elegir y
 comprar sus productos.
 
-## Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje de este proyecto es entender cómo pasamos
 de lo que un cliente quiere alcanzar a la definición de un producto digital en
@@ -68,14 +84,14 @@ es ganar experiencia en trabajos con entrega grupal. Cada uno de las integrantes
 será responsable de una parte del trabajo: (1) el entendimiento del problema y
 (2) planeamiento y validación de la solución.
 
-## Tópicos a cubrir
+### Tópicos a cubrir
 
 Para completar este proyecto tendrás que familiarizarte con conceptos como: UX
 research (entrevistas, benchmark), arquitectura de la información (flujo de
 contenido, mapa de sitio), diseño visual y de interacción (wireframes y
 prototipado), y user testing.
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 Para ser una gran UX no sólo debes familiarizarte con los conceptos sino,
 también, poner a prueba tus habilidades blandas. El uso de tu curiosidad y
@@ -143,7 +159,7 @@ la incertidumbre. La empatía es la habilidad que te va a guiar en las relacione
 tanto con el cliente como con el usuario, intenta salir de tu mente y tus
 supuestos para entender cómo piensan los otros.
 
-## Parte Obligatoria
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### 1) General
 
@@ -179,7 +195,7 @@ en el caso anterior, para crear y validar la solución puedes realizar muchas
 actividades, depende de ti elegir cuáles son las más adecuadas para el caso y
 los recursos que tienes.
 
-## Implementación
+## 6. Consideraciones técnicas
 
 Para poder realizar este proyecto tendrás un presupuesto de 300 puntos. Estos
 puntos los podrás utilizar realizando las actividades del siguiente cuadro.
@@ -203,7 +219,7 @@ El coach o jedi master te dará el ok para que puedas empezar.
 |Prototipado de contenido| Prototipado y testeo del contenido del producto. | 30 |
 |Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 |
 
-## Evaluación
+## 7. Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
@@ -229,7 +245,7 @@ evaluaremos cuando lo  completes:
 | **Business mindset**                            |
 | Business mindset               | 2              |
 
-## Entrega
+## 8. Entrega
 
 El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
 lo siguiente:
@@ -263,7 +279,7 @@ agregar los documentos complementarios que sustenten tu proceso:
 * Mapa de sitio
 * Etc.
 
-## Otras consideraciones
+## 9. Otras consideraciones
 
 ### 1) Planeamiento y presupuesto
 
@@ -295,7 +311,7 @@ herramienta adicional como Marvel o Invision. Recuerda que el diseño que
 trabajes debe seguir los fundamentos de visual design, como: contraste,
 alineación, jerarquía, entre otros.
 
-## Hacker edition
+## 10. Hacker edition
 
 * En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
   su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear

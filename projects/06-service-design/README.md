@@ -1,11 +1,20 @@
 # Service Design
 
+## Índice
+
+* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Evaluación](#7-evaluación)
+
+***
+
+## 1. Resumen del proyecto
+
 Con la ayuda de consultoras especializadas como Amable o Touchpoint, las
 estudiantes se sumergen en el mundo del service design. Entendiendo problemas
 de negocio desde una visión más holística y utilizando nuevas herramientas
 como el Service BluePrint.
 
-## Evaluación
+## 2. Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es

@@ -1,6 +1,19 @@
 # Aplicación financiera
 
-## Preámbulo
+## Índice
+
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Entrega](#5-entrega)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Otras consideraciones](#7-otras-consideraciones)
+* [8. Evaluación](#8-evaluación)
+
+***
+
+## 1. Preámbulo
 
 El banco más importante del país, siguiendo las tendencias de otros países, está
 planeando lanzar un banco 100% digital bajo otro nombe: "Banqui". Su principal
@@ -13,7 +26,7 @@ Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear
 el mejor banco digital del país han decidido contratar a una consultora de UX,
 donde le han asignado este proyecto a ti y otra compañera de Laboratoria.
 
-## Introducción
+## 2. Resumen del proyecto
 
 ### Contexto
 
@@ -43,7 +56,7 @@ links, encontrarán:
 * [Landing Page](http://tus-finanzas.pagedemo.co) inicial del producto `falta
   actualizar`
 
-## Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
 un producto ya existente. Es muy probable que termines trabajando en productos
@@ -57,7 +70,7 @@ En este proyecto pondrás en práctica habilidades de: análisis de datos,
 investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
 de componentes de la interfaz y user testing.
 
-## Consideraciones generales
+## 4. Consideraciones generales
 
 Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
 desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
@@ -104,7 +117,7 @@ el diseño de ellos y en la información que entregas, también busca la mejor
 manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
 cliente.
 
-## Entrega
+## 5. Entrega
 
 El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
 lo siguiente:
@@ -125,7 +138,7 @@ Un video en Loom de máximo 5 minutos explicando tu documento.
 En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
 agregar los documentos complementarios que sustenten tu proceso.
 
-### Hacker edition
+## 6. Hacker edition
 
 Para el hacker edition puedes elegir una o varias de estas opciones:
 
@@ -139,7 +152,7 @@ Para el hacker edition puedes elegir una o varias de estas opciones:
   tu propia web desde 0.
 * Escribe un post en Medium contando tu proceso de investigación.
 
-## Otras consideraciones
+## 7. Otras consideraciones
 
 ### 1) Planeamiento y presupuesto
 
@@ -169,7 +182,7 @@ ya que para el testing tendrás que usar una herramienta llamada
 Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
 como: contraste, alineación, jerarquía, entre otros.
 
-## Evaluación
+## 8. Evaluación
 
 Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
 y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
