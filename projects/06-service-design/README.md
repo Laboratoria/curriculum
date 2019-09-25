@@ -12,7 +12,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
 una lista de todas las habilidades involucradas en este proyecto y que
 evaluaremos cuando lo  completes:
 
-### UX
+### Habilidades Técnicas (UX)
 
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|

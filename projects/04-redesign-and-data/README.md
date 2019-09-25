@@ -175,7 +175,7 @@ Recuerda revisar la rúbrica para ver la descripción detallada de cada habilida
 y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
 que deberías alcanzar al finalizar este proyecto:
 
-### UX
+### Habilidades Técnicas (UX)
 
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|
