@@ -57,11 +57,11 @@ en un solo objeto.
 > Por ejemplo:
 >
 > ```js
-> var settings = {
->    name: 'this is my name',
->    colors: ['orange', 'blue'],
->    layers: 2,
->    isRound: true
+> const settings = {
+>   name: 'this is my name',
+>   colors: ['orange', 'blue'],
+>   layers: 2,
+>   isRound: true,
 > };
 > ```
 >
@@ -69,17 +69,17 @@ en un solo objeto.
 > constructora. Imaginemos la función constructora `MakeCake`:
 >
 > ```js
-> const myDeliciousCake = MakeCake( settings );
+> const myDeliciousCake = MakeCake(settings);
 > ```
 >
 > De igual manera, el objeto de configuración puede ser pasado directamente:
 >
 > ```js
 > const myDeliciousCake = MakeCake({
->    name: 'this is my name',
->    colors: ['orange', 'blue'],
->    layers: 2,
->    isRound: true
+>   name: 'this is my name',
+>   colors: ['orange', 'blue'],
+>   layers: 2,
+>   isRound: true,
 > });
 > ```
 

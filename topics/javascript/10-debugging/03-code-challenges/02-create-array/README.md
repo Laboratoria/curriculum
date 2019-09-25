@@ -6,6 +6,6 @@ comentario.
 Ejemplo de entrada:
 
 ```javascript
-var a = createArray();
+const a = createArray();
 console.log(a); // --> [1, 2, 3]
 ```

@@ -37,7 +37,7 @@
 ### 3\) No código a seguir
 
 ```javascript
-var listOfNumbers = [2, 3, 4, 5, 6];
+const listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
 Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
@@ -55,10 +55,10 @@ Qual o resultado que obtenho quando executo `console.log(listOfNumbers[3])`?
 ### 4\) No código a seguir
 
 ```javascript
-var listOfNumbers = [2, 3, 4, 5, 6];
+const listOfNumbers = [2, 3, 4, 5, 6];
 ```
 
-se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
+se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor resultante?
 
 #### Opções
 
@@ -73,11 +73,11 @@ se escrevermos `listOfNumbers[3] = 1`, qual seria o vetor_ _resultante?
 ### 5\) No código a seguir
 
 ```javascript
-var questions = [
+const questions = [
   ['¿En cuántos países opera Laboratoria?', 3],
   ['¿Cuál es la capital de Perú?', 'Lima'],
   ['¿Cuál es baile típico Chileno?', 'Cueca'],
-  ['¿Cuál es la moneda de México?', 'Peso']
+  ['¿Cuál es la moneda de México?', 'Peso'],
 ];
 ```
 
@@ -104,7 +104,7 @@ como obtenho o elemento `Lima`?
 ### 7\) Qual é o resultado do código a seguir?
 
 ```javascript
-var coders = ['michelle', 'lourdes', 'ruth'];
+const coders = ['michelle', 'lourdes', 'ruth'];
 coders.push('alexandra');
 ```
 
@@ -120,8 +120,8 @@ coders.push('alexandra');
 ### 8\) Qual é o resultado do código abaixo?
 
 ```javascript
-var coders = ['michelle', 'lourdes', 'ruth'];
-var removed = coders.shift();
+const coders = ['michelle', 'lourdes', 'ruth'];
+const removed = coders.shift();
 
 console.log('Elemento eliminado: ' + removed);
 ```
@@ -138,7 +138,7 @@ console.log('Elemento eliminado: ' + removed);
 ### 9\) Qual é o resultado do código seguinte?
 
 ```javascript
-var courses = ['Intro JS', 'Intro UX', 'UX master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master'];
 courses.unshift('JS master', 'English for Developers');
 
 console.log(courses.length);
@@ -157,10 +157,12 @@ console.log(courses.length);
 ### 10\) Qual é o resultado do código a seguir?
 
 ```javascript
-var listOfNumbers = [];
-for (var i = 0; i <= 5; i++) {
+const listOfNumbers = [];
+
+for (let i = 0; i <= 5; i += 1) {
   listOfNumbers.push(i);
 }
+
 listOfNumbers.pop();
 
 console.log(listOfNumbers.length);
@@ -178,11 +180,11 @@ console.log(listOfNumbers.length);
 ### 11\) No código a seguir, preencha a lacuna
 
 ```javascript
-var course1 = 'Intro JS, ' ;
-var course2 = 'Intro UX, ';
-var course3 = 'UX master.';
+const course1 = 'Intro JS, ' ;
+const course2 = 'Intro UX, ';
+const course3 = 'UX master.';
 
-var allCourses = ___________(course2, course3);
+const allCourses = ___________(course2, course3);
 
 console.log(allCourses);
 // → Intro JS, Intro UX, UX master.
@@ -200,7 +202,7 @@ console.log(allCourses);
 ### 12\) Qual é o resultado código abaixo?
 
 ```javascript
-var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.pop();
 courses.push('English for Developers');
 courses.indexOf('English for Developers');
@@ -218,7 +220,7 @@ courses.indexOf('English for Developers');
 ### 13\) No código a seguir, qual método devo usar para obter o resultado solicitado?
 
 ```javascript
-var courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
+const courses = ['Intro JS', 'Intro UX', 'UX master', 'JS master'];
 courses.___________;
 
 // → 'Intro JS,Intro UX,UX master,JS master'
@@ -236,13 +238,14 @@ courses.___________;
 ### 14\) No código a seguir, qual seria o resultado?
 
 ```javascript
-var coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
+const coders = ['michelle', 'lourdes', 'ruth', 'mariana'];
+
 if (coders.length < 3) {
   coders.push('alejandra');
-  coders.slice(1,2);
+  coders.slice(1, 2);
 } else {
   coders.pop();
-  coders.slice(1,3);
+  coders.slice(1, 3);
 }
 ```
 
@@ -258,7 +261,7 @@ if (coders.length < 3) {
 ### 15\) Qual seria o resultado do código a seguir?
 
 ```javascript
-var listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
+const listOfNumbers = [2, 12, 5, 8, 16, 12, 8];
 listOfNumbers.lastIndexOf(12);
 ```
 
@@ -274,10 +277,10 @@ listOfNumbers.lastIndexOf(12);
 ### 16\) No código seguinte, preencha os espaços para que a ordem dos elementos do vetor seja invertida
 
 ```javascript
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (var i = 0; i < array.length; i++) {
-  var item = array._________();
+for (let i = 0; i < array.length; i += 1) {
+  const item = array._________();
   array._________(i, 0, item);
 }
 
@@ -297,13 +300,13 @@ console.log(array);
 ### 17\) No código a seguir, o que devemos comparar? Complete as lacunas
 
 ```javascript
-function search(array, element) {
-  for (var i = 0; i < array.length; i++) {
+const search = (array, element) => {
+  for (let i = 0; i < array.length; i += 1) {
     if (_________ === _________) {
       return i;
     }
   }
-}
+};
 
 console.log(search([1, 2, 3, 4, 5, 6, 7], 2));
 // → 1

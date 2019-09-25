@@ -9,6 +9,6 @@ retorna `false`.
 Exemplo:
 
 ```javascript
-var output = areValidCredentials('Ritu', 'mylongpassword');
+const output = areValidCredentials('Ritu', 'mylongpassword');
 console.log(output); // --> true
 ```

@@ -130,7 +130,10 @@ Arguments:
 
 Options:
 
-* `--noop`
+* `--locale`: Either `es-ES` or `pt-BR`. Default value is `es-ES`.
+* `--noop`: If this option is present the command will only say what it would
+  have done instead of actually doing anything. Useful to familiarize yourself
+  with the command.
 
 ```sh
 ./scripts/create-cohort-project.sh projects/01-cipher ~/tmp lim-2019-06-bc-core-012

@@ -10,7 +10,7 @@ Notas:
 * Suponha que o imposto sobre vendas seja de 9,5% e a gorjeta seja de 15%.
 * NÃO aplique o imposto sobre a gorjeta, apenas sobre a venda.
 
-```text
-var output = calculateBillTotal(20);
+```js
+const output = calculateBillTotal(20);
 console.log(output); // -> 24,9
 ```

@@ -13,7 +13,7 @@ directamente (no hay necesidad de hacer `console.log`).
 ## Ejemplo
 
 ```js
-var inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']
+const inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']
 
 console.log(countWords(inputWords))
 
