@@ -22,10 +22,10 @@ Manager les comparte las hipótesis y preguntas que tienen dentro del equipo:
 
 > * Los usuarios que anteriormente han sido clientes de algún banco, nos comparan
 con las aplicacioens de esos bancos, parece que hay cosas que extrañan.
-
+>
 > * La aplicación que estamos probando es para iOS, sin embargo, para hacer un
 lanzamiento nacional necesitamos crear un app para Android.
-
+>
 > * Nos falta acercarnos un poco más a los usuarios jóvenes, 100% digitales, los
 que usan Netflix, Uber, Spotify, Instagram, entre otros.
 
@@ -34,13 +34,13 @@ que usan Netflix, Uber, Spotify, Instagram, entre otros.
 En esta carpeta de [Google Drive](http://bit.ly/uxd-reto-2) y en los siguientes
 links, encontrarán:
 
-- Los user personas
-- Los user flows del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=0%3A1)
+* Los user personas
+* Los user flows del MVP
+* El [diseño del app en Figma](https://www.figma.com/file/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=0%3A1)
   , con una guía de componentes y el [Prototipo navegable](https://www.figma.com/proto/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=50%3A74&scaling=scale-down).
-- Analytics de los primeros 6 meses del MVP `falta actualizar`
-- Data de uso del MVP de los primeros 6 meses `falta actualizar`
-- [Landing Page](http://tus-finanzas.pagedemo.co) inicial del producto `falta
+* Analytics de los primeros 6 meses del MVP `falta actualizar`
+* Data de uso del MVP de los primeros 6 meses `falta actualizar`
+* [Landing Page](http://tus-finanzas.pagedemo.co) inicial del producto `falta
   actualizar`
 
 ## Objetivos de aprendizaje
@@ -175,7 +175,7 @@ Recuerda revisar la rúbrica para ver la descripción detallada de cada habilida
 y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
 que deberías alcanzar al finalizar este proyecto:
 
-### UX
+### Habilidades Técnicas (UX)
 
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|

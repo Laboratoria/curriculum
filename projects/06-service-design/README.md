@@ -1,9 +1,9 @@
-# Consultoria UX
+# Service Design
 
-En este reto, las estudiantes trabajan en distintos casos reales propuestos
-por empresas de diversos rubros y tamaños. Anteriores retos han incluido
-empresas como Kmimos, Guvery, Globant, Sinenvolturas, Magical Startups,
-Laboratoria, entre otras.
+Con la ayuda de consultoras especializadas como Amable o Touchpoint, las
+estudiantes se sumergen en el mundo del service design. Entendiendo problemas
+de negocio desde una visión más holística y utilizando nuevas herramientas
+como el Service BluePrint.
 
 ## Evaluación
 
@@ -12,12 +12,12 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
 una lista de todas las habilidades involucradas en este proyecto y que
 evaluaremos cuando lo  completes:
 
-### UX
+### Habilidades Técnicas (UX)
 
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|
 | **Research**                                    |
-| User centricity                | 4              |
+| User centricity                | 5              |
 | Entrevistas                    | 4              |
 | Testing                        | 4              |
 | Planeamiento y ejecución       | 4              |

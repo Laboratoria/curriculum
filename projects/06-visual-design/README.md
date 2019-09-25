@@ -51,9 +51,9 @@ Como parte del reto, Teleticket nos ha pedido que hagamos lo siguiente:
 
 * Crear, testear, iterar una nueva propuesta del diseño de la plataforma:
 
-  * Elegir un proceso/flujo para re-diseñar
-  * Crear y testear el flujo de la plataforma
-  * Presentar 2 propuestas de diseño para ese flujo en versión mobile o crear
+  - Elegir un proceso/flujo para re-diseñar
+  - Crear y testear el flujo de la plataforma
+  - Presentar 2 propuestas de diseño para ese flujo en versión mobile o crear
     una propuesta con versión mobile y versión desktop. Para realizar tu
     propuesta de diseño puedes usar [esta guía de estilos de Material Design](https://material.5ly.co/),
     recuerda que si crear nuevos componentes debes agregarlos a la guía de estilos.
@@ -93,7 +93,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
 una lista de todas las habilidades involucradas en este proyecto y que
 evaluaremos cuando lo  completes:
 
-### UX
+### Habilidades Técnicas (UX)
 
 | Habilidad                      | Nivel esperado |
 |--------------------------------|----------------|
