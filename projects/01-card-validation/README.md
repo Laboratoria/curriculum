@@ -24,7 +24,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![credit card](https://img.etimg.com/thumb/height-450,width-800,msid-62766574,imgsize-35382/credit-card2-thinkstock.jpg)
+![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumen del proyecto
 
@@ -41,7 +41,7 @@ etc.
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6) como herramientas.
+y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a:
 
@@ -113,13 +113,13 @@ Debe contener lo siguiente:
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 * La imagen final de tu proyecto.
 * Investigación UX:
-  * Explicar quiénes son los usuarios y los objetivos en relación con el
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
-  * Explicar cómo el producto soluciona los problemas/necesidades de dichos
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
-  * Luego colocarás la foto de tu primer prototipo en papel.
-  * Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  * Imagen del prototipo final.
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Imagen del prototipo final.
 
 #### Visualmente (HTML5 y CSS3)
 
@@ -145,10 +145,9 @@ Este archivo debe contener las reglas de estilo. Queremos que escribas tus
 propias reglas, por eso NO está permitido el uso de frameworks de CSS3
 (Bootstrap, materialize, etc).
 
-#### Funcionalmente (JavaScript ES6 - pruebas unitarias)
+#### Funcionalmente (JavaScript - pruebas unitarias)
 
-* La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6).
+* La lógica del proyecto debe estar implementada completamente en JavaScript.
 * En este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 * No se debe utilizar la _pseudo-variable_ `this`.
@@ -220,6 +219,8 @@ y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
 con detenimiento y sigue sus consejos! :)
 
 [![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+
+[https://www.youtube.com/watch?v=f0zL6Ot9y_w](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
 Diseño de experiencia de usuario (User Experience Design):
 
