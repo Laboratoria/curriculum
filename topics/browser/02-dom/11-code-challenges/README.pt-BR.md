@@ -151,17 +151,17 @@ seguinte:
 
 ```javascript
 const mazeMap = [
-    "******************",
-    "*_________*______*",
-    "*_*****_____******",
-    "*______***__*__*_*",
-    "***_*____*____**_*",
-    "*___*____**__*___*",
-    "*_********__**_*_*",
-    "*____*______*__*_*",
-    "*_**_*__*****_**_*",
-    "*o*__*________**W*",
-    "******************"
+  '******************',
+  '*_________*______*',
+  '*_*****_____******',
+  '*______***__*__*_*',
+  '***_*____*____**_*',
+  '*___*____**__*___*',
+  '*_********__**_*_*',
+  '*____*______*__*_*',
+  '*_**_*__*****_**_*',
+  '*o*__*________**W*',
+  '******************',
 ];
 ```
 
@@ -183,52 +183,52 @@ código desses objetos e funções.
 
 ```javascript
 const maze = {
-    matrix: undefined, // representa o mapa do labirinto
-    startX: undefined,  // posição x inicial do labirinto
-    startY: undefined,  // posição y inicial do labirinto
-    endX: undefined,  // posição x que representa a saída
-    endY: undefined,// posição y que representa a saída
-    startOrientation: undefined // direção inicial
+  matrix: undefined,           // representa o mapa do labirinto
+  startX: undefined,           // posição x inicial do labirinto
+  startY: undefined,           // posição y inicial do labirinto
+  endX: undefined,             // posição x que representa a saída
+  endY: undefined,             // posição y que representa a saída
+  startOrientation: undefined, // direção inicial
 };
 
 const player  = {
-    x: undefined, // posição x atual do jogador
-    y: undefined, // posição y atual do jogador
-    orientation: undefined // direção atual do jogador
+  x: undefined,           // posição x atual do jogador
+  y: undefined,           // posição y atual do jogador
+  orientation: undefined, // direção atual do jogador
 };
 
 const ORIENTATION = {
   LEFT: 1,
   UP: 2,
   RIGHT: 3,
-  DOWN: 4
+  DOWN: 4,
 };
 
 // representa a interface usando DOM do labirinto
 const mazeInterface = [];
 
 // desenhar o labirinto
-function renderMaze(maze, player);
+const renderMaze = (maze, player) => {};
 // estabelecer o estilo na posição x, y
-function setStyleAt(maze, x, y, style);
+const setStyleAt = (maze, x, y, style) => {};
 
 // perguntar se (x,y) representa uma parede, ou seja, '*'
-function isWall(maze, x, y);
+const isWall = (maze, x, y) => {};
 // perguntar se (x,y) representa um espaço vazio, ou seja,  '_'
-function isSpace(maze, x, y);
+const isSpace = (maze, x, y) => {};
 // perguntar se (x,y) representa a saída do labirinto, ou seja, 'W'
-function isEnd(maze, x, y);
+const isEnd = (maze, x, y) => {};
 
 //  virar a esquerda
-function turnLeft(player) ;
+const turnLeft = (player) => {};
 //  virar a direita
-function turnRight(player) ;
+const turnRight = (player) => {};
 //  mover uma posição para frente na direção de player.direction
-function moveForward(player) ;
+const moveForward = (player) => {};
 
 // algoritmo de busca para encontrar un caminho de saída para um
 // labirinto qualquer
-function exitMaze(player);
+const exitMaze = (player) => {};
 ```
 
 #### [Dica 4. | Perguntas orientadoras]

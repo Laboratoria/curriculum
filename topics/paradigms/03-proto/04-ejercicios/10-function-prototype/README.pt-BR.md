@@ -40,7 +40,7 @@ function Alien(name) {
 Alien.prototype.kind = 'alien';
 
 // creamos un objeto usando `new`
-var zippy = new Alien('Zippy');
+const zippy = new Alien('Zippy');
 
 // el __proto__ del nuevo objeto apunta a Alien.prototype
 zippy.__proto__ == Alien.prototype; //=> true

@@ -63,7 +63,7 @@
 ### 5) En el siguiente código
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
@@ -85,14 +85,14 @@ var movie = {
 ### 6) ¿Cuál es el error en el siguiente código?
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson' ],
   oscar: 1,
   other awards: 'best sound',
   tags: []
-}
+};
 ```
 
 #### Opciones
@@ -107,11 +107,11 @@ var movie = {
 ### 7) ¿Cuál es el resultado del siguiente código?
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
 
 console.log(movie.stars[2]);
@@ -129,11 +129,11 @@ console.log(movie.stars[2]);
 ### 8) En el siguiente código
 
 ```js
-var movie = {
+const movie = {
   title: 'Back to the Future',
   director: 'Robert Zemeckis',
   stars: [ 'Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson'],
-  tags: ['Adventure', 'Comedy', 'Sci-Fi']
+  tags: ['Adventure', 'Comedy', 'Sci-Fi'],
 };
 ```
 
@@ -151,17 +151,16 @@ var movie = {
 ### 9) ¿Cuál es el error en el siguiente código?
 
 ```js
-function objectToArray(object) {
+const objectToArray = (object) => {
+  const items = Object.keys(object);
+  const newArray = [];
 
-  var items = Object.keys(object);
-  var newArray = [];
-
-  for (var i = 0; i < items.length; i += 1) {
+  for (let i = 0; i < items.length; i += 1) {
     newArray.pop([items[i], object[items[i]]]);
   }
 
   return newArray;
-}
+};
 
 console.log(objectToArray({make: 'Ford', model: 'Mustang', year: 1964}));
 // → [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]
