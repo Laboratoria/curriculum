@@ -1,17 +1,20 @@
+global.window = global;
+require('../src/cipher');
+
 describe('cipher', () => {
 
   it('should be an object', () => {
-    assert.equal(typeof cipher, 'object');
+    expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
 
     it('should be a function', () => {
-      assert.equal(typeof cipher.encode, 'function');
+      expect(typeof cipher.encode).toBe('function');
     });
 
     it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
+      expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
     // Hacker edition
@@ -25,10 +28,7 @@ describe('cipher', () => {
     // abaixo.
     //
     // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
-    //   assert.equal(
-    //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'),
-    //     'hijklmnopqrstuvwxyzabcdefg'
-    //   );
+    //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     // });
 
     // Hacker edition
@@ -42,18 +42,18 @@ describe('cipher', () => {
     // teste abaixo.
     //
     // it('should return " !@" for " !@"', () => {
-    //   assert.equal(cipher.encode(33, ' !@'),' !@');
+    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
     // });
   });
 
   describe('cipher.decode', () => {
 
     it('should be a function', () => {
-      assert.equal(typeof cipher.decode, 'function');
+      expect(typeof cipher.decode).toBe('function');
     });
 
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+      expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
     //
@@ -68,10 +68,7 @@ describe('cipher', () => {
     // abaixo.
     //
     // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
-    //   assert.equal(
-    //     cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'),
-    //     'abcdefghijklmnopqrstuvwxyz'
-    //   );
+    //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
     // });
 
     // Hacker edition
@@ -85,7 +82,7 @@ describe('cipher', () => {
     // teste abaixo.
     //
     // it('should return " !@" para " !@"', () => {
-    //   assert.equal(cipher.decode(33, ' !@'),' !@');
+    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
     // });
   });
 

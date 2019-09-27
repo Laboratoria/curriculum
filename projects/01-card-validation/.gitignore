@@ -1,13 +1,7 @@
-.DS_Store
-package-lock.json
-.nyc_output/
-node_modules/
 coverage/
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+node_modules/
+.DS_Store
+*.log
 
 # Editor directories and files
 .idea
