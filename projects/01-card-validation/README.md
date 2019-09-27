@@ -65,7 +65,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Usar **control de flujo if-else, do-while** (bucles y condicionales).
 * _Implementar funciones_ dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-(**pruebas unitarias (_test_) con Mocha**).
+(**pruebas unitarias (_test_) con Jest**).
 * Configurar tu cuenta de _git_.
 * _Forkear_ y _clonar_ el repositorio del proyecto.
 * Mantener actualizado los cambios en tu repositorio remoto (`commit`, `pull`,
@@ -176,7 +176,7 @@ Acá escribirás la función necesaria para que el usuario pueda verificar la
 tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
 
 Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
-_exportado_ en el objeto global (`window`). Este objeto (`validator`) contiene
+_exportado_ en el _boilerplate_. Este objeto (`validator`) contiene
 un método el cual debe retornar un `boolean`:
 
 * **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
@@ -193,7 +193,7 @@ necesario para actualizar el resultado en la pantalla(UI).
 
 En este archivo tendrás que completar las pruebas unitarias de la función
 `validator.isValid(creditCardNumber)` implementada en `validator.js` utilizando
-Mocha. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
+Jest. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
 _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
