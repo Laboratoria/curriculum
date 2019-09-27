@@ -17,8 +17,8 @@ Consideremos la siguiente función:
 
 ```js
 function sum(array) {
-  var total = 0;
-  for (var i = 0; i < array.length; i++) {
+  let total = 0;
+  for (let i = 0; i < array.length; i++) {
     total += array[i];
   }
   return total;
