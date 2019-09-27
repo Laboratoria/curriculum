@@ -197,7 +197,6 @@ Jest. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
 _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
-
 ## 6. Evaluación
 
 NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
