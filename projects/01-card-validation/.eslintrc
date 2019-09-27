@@ -7,7 +7,7 @@
     "sourceType": "module"
   },
   "extends": "eslint:recommended",
-  "globals": {
-    "validator": false
+  "rules": {
+    "no-console": "warn"
   }
 }
