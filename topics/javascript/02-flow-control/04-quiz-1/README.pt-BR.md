@@ -66,12 +66,12 @@ while (3 > 2) {
 ### 5) Encontre o erro na seguinte função
 
 ```js
-var result = 0;
+let result = 0;
 
-var showSum = function () {
+const showSum = () => {
   result = num1 + num2;
   alert('O resultado é ' + result);
-}
+};
 
 showSum();
 ```
@@ -88,9 +88,9 @@ showSum();
 ### 6) Complete os espaços em branco (ordenadamente)
 
 ```js
-var sum = _____(num1, num2) {
+const sum = _____ (num1, num2) {
   ________ num1 + num2;
-}
+};
 
 _______(2, 3);
 ```
@@ -107,15 +107,13 @@ _______(2, 3);
 ### 7) Qual o resultado de
 
 ```js
-var emoji = ':D';
+let emoji = ':D';
 
-var greet = function (name) {
+const greet = (name) => {
   emoji = ':)';
-  var myGreet = function () {
-    return 'Olá ' + name + ' ' + emoji;
-  }
+  const myGreet = () => `Hola ${name} ${emoji}`;
   return myGreet();
-}
+};
 
 console.log(greet('Laboratoria'));
 ```
@@ -132,7 +130,7 @@ console.log(greet('Laboratoria'));
 ### 8) Qual o resultado de
 
 ```js
-var number = 0;
+let number = 0;
 
 while (number <= 12) {
   console.log(number);
@@ -152,7 +150,7 @@ while (number <= 12) {
 ### 9) Qual o resultado de
 
 ```js
-for (var number = 1; number <= 8; number = number * 2) {
+for (let number = 1; number <= 8; number = number * 2) {
   console.log(number);
 }
 ```
@@ -169,7 +167,7 @@ for (var number = 1; number <= 8; number = number * 2) {
 ### 10) Ao seguinte switch lhe faltam alguns "breaks", porém qual seria o resultado de executar o código assim como está?
 
 ```js
-var weather = 'nublado';
+const weather = 'nublado';
 
 switch (weather) {
   case 'chuvoso':
@@ -209,7 +207,7 @@ switch (weather) {
 ### 12) Qual é o resultado de
 
 ```js
-for (var i = 0; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {
   if (i == 5) {
     continue;
   } else {
@@ -231,7 +229,7 @@ for (var i = 0; i <= 10; i++) {
 ### 13) Qual é o resultado de
 
 ```js
-var medalForScore = function (score) {
+const medalForScore = (score) => {
   if (score < 3){
     return 'Bronze';
   }
@@ -256,9 +254,7 @@ console.log(medalForScore(7));
 ### 14) No exemplo a seguir
 
 ```js
-var square = function (num) {
-  return num * num;
-};
+const square = num => num * num;
 square(12);
 //->144
 ```

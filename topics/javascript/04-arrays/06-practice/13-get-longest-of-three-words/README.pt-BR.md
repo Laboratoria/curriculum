@@ -9,6 +9,6 @@ Notas:
 * Se houver um empate, você deve retornar a primeira palavra do empate.
 
 ```javascript
-var output = getLongestOfThreeWords('estas', 'três', 'palavras');
+const output = getLongestOfThreeWords('estas', 'três', 'palavras');
 console.log(output); // -> 'palabras'
 ```

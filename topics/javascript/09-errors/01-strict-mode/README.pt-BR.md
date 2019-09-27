@@ -78,20 +78,20 @@ modo estrito:
 ```js
 'use strict';
 // atribuição global
-const undefined = 5;
-const Infinity = 5;
+var undefined = 5; // TypeError: "undefined" is read-only
+var Infinity = 5; // TypeError: "Infinity" is read-only
 
 // Atribuição a uma propriedade somente leitura
-let obj1 = {};
+const obj1 = {};
 Object.defineProperty(obj1, 'x', { value: 42, writable: false });
 obj1.x = 9; // gera um TypeError
 
 // Atribuição a uma propriedade do tipo getter
-let obj2 = { get x() { return 17; } };
+const obj2 = { get x() { return 17; } };
 obj2.x = 5; // gera um TypeError
 
 // Atribuição a uma nova propriedade de um objeto não extensível
-let fixed = {};
+const fixed = {};
 Object.preventExtensions(fixed);
 fixed.newProp = 'ohai'; // gera um TypeError
 ```

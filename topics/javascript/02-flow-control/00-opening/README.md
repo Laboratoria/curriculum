@@ -17,7 +17,7 @@ En esta unidad aprenderemos:
 
 ***
 
-## Guia de preguntas y conceptos clave
+## Guía de preguntas y conceptos clave
 
 Cuando empezamos a estudiar un tema nuevo, es útil tener una idea de los
 conceptos más importantes de lo que vamos a aprender y de los temas centrales

@@ -12,12 +12,12 @@
 
 #### Opciones
 
-1. var last_name = 'Martim';
-2. var score = 1;
-3. var cosita = "O retorno de Jedi";
-4. var undefined = true;
-5. var likesCoffee = false;
-6. var 2ndChild = 'Diana';
+1. const last_name = 'Martim';
+2. const score = 1;
+3. const cosita = "O retorno de Jedi";
+4. const undefined = true;
+5. const likesCoffee = false;
+6. const 2ndChild = 'Diana';
 
 <solution style="display:none;">2,5</solution>
 
@@ -64,7 +64,7 @@
 #### Opciones
 
 1. Documentación de la Red de Desarrolladores de Mozilla (MDN)
-2. www.w3schools.com
+2. elrincondelvago.com
 3. lineadecodigo.com
 4. stackoverflow.com
 

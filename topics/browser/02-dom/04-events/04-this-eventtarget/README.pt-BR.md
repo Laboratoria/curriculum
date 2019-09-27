@@ -47,7 +47,7 @@ fotos poder `click` em qualquer uma das miniaturas para mostrar a versão
 ampliada), nossa primeira ideia seria iterar sobre eles.
 
 ```js
-var galleryImg = document.querySelectorAll('.gallery-item');
+const galleryImg = document.querySelectorAll('.gallery-item');
 for(let i = 0; i < galleryImg.length; i++) {
   galleryImg[i].addEventListener('eventType', () =>
     // eventHandler

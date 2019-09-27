@@ -45,10 +45,10 @@ Digamos, por exemplo, que queiramos representar um conjunto de números: `2`,
 Uma opção para representar isso seria:
 
 ```javascript
-var firstNumber = 2;
-var secondNumber = 3;
-var thirdNumber = 5;
-var fourthNumber = 7;
+const firstNumber = 2;
+const secondNumber = 3;
+const thirdNumber = 5;
+const fourthNumber = 7;
 ```
 
 Esta lista é bem estranha e trabalhosa. Isso implica em ter uma variável para
@@ -62,7 +62,7 @@ Poderíamos usar uma cadeia de caracteres \(_string_\) com os números
 intercalados por um espaço, como esta:
 
 ```javascript
-var listOfNumbers = '2 3 5 7 11';
+const listOfNumbers = '2 3 5 7 11';
 ```
 
 No entanto, isso também é complicado. Teríamos que encontrar uma maneira de
@@ -75,7 +75,7 @@ sequência de valores. É chamado de `array` \(arranjo ou vetor/matriz\) e é
 escrito como uma lista de valores entre colchetes, separados por vírgulas.
 
 ```javascript
-var listOfNumbers = [2, 3, 5, 7, 11];
+const listOfNumbers = [2, 3, 5, 7, 11];
 ```
 
 Os arranjos são extremamente úteis para agrupar e manipular dados. É como quando

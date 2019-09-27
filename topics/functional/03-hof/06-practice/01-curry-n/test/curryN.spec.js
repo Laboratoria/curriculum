@@ -17,9 +17,9 @@ describe('curryN()', () => {
       return one + two + three;
     }
 
-    var curryC = Submission(add3);
-    var curryB = curryC(1);
-    var curryA = curryB(2);
+    const curryC = Submission(add3);
+    const curryB = curryC(1);
+    const curryA = curryB(2);
 
     Assert.equal(curryA(3), 6);
     Assert.equal(curryA(10), 13);

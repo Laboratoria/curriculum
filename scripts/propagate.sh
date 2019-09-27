@@ -1,5 +1,13 @@
 #! /usr/bin/env bash
 
+deps=(pwd mktemp mkdir git rm cp)
+
+for dep in "${deps[@]}"; do
+  command -v "$dep" >/dev/null 2>&1 \
+  || { echo >&2 "I require ${dep} but it's not installed. Aborting."; exit 1; }
+done
+
+
 projects=(
   '01-cipher'
   '02-data-lovers'
