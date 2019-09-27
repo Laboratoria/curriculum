@@ -1,5 +1,5 @@
-global.window = global;
-require('../src/cipher');
+// importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
+import cipher from '../src/cipher';
 
 describe('cipher', () => {
 

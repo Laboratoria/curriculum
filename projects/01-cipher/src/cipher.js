@@ -1,3 +1,5 @@
-window.cipher = {
-  // ... 
+const cipher = {
+  // ...
 };
+
+export default cipher;
