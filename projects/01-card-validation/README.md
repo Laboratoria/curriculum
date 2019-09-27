@@ -41,16 +41,16 @@ etc.
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a:
 
 * Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución para él.
+* Entender las **necesidades del usuario** y cómo proponerle una solución.
 * Entender la importancia del proceso de prototipado durante la creación de un
   proyecto digital.
 * Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
+* Utilizar etiquetas semánticas  de HTML y elementos de formulario.
 * Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
   etc.
 * Utilizar el modelo de cajas (border, margin, padding)
@@ -67,14 +67,14 @@ Dicho en palabras sencillas, aprenderás a:
 (**pruebas unitarias (_test_) con Mocha**).
 * Configurar tu cuenta de _git_.
 * _Forkear_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto (_ commit_, _pull_,
-  _push_).
-* Desplegar tu proyecto en _gh-pages_.
+* Mantener actualizado los cambios en tu repositorio remoto (`commit`, `pull`,
+  `push`).
+* Desplegar tu proyecto en [GitHub Pages](https://pages.github.com).
 
 ## 4. Consideraciones generales
 
 * Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+* El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 * Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
@@ -83,16 +83,26 @@ Dicho en palabras sencillas, aprenderás a:
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-Usa solo dígitos numéricos en la tarjeta a validar [0-9].
+Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
+
+### Definición del producto
+
+En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
+para definir el producto final a nivel de experiencia y de interfaz.
+
+* Quiénes son los principales usuarios de producto.
+* Cuáles son los objetivos de estos usuarios en relación con tu producto.
+* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
+### Interfaz de usuario (UI)
+
 La interfaz debe permitir al usuario:
 
 * Insertar el número que queremos validar.
 * Ver el resultado si es válido o no.
 * No debe poder ingresar un campo vacío.
 
-### Scripts / Archivos
-
-#### UX (Diseño de experiencia de usuario)
+### UX (Diseño de experiencia de usuario)
 
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
@@ -105,7 +115,11 @@ cómo tu aplicación lo soluciona.
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
 
-**`README.md`**:
+### Scripts / Archivos
+
+#### General
+
+##### `README.md`
 
 Debe contener lo siguiente:
 
@@ -121,15 +135,15 @@ Debe contener lo siguiente:
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
 
-#### Visualmente (HTML5 y CSS3)
+#### Visualmente (HTML y CSS)
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
-utilizando HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente,
+utilizando HTML y CSS. En este momento elegirás los colores, tipo de fuente,
 etc a usar.
 
 A continuación describimos los archivos que utilizarás:
 
-**`src/index.html`**:
+##### `src/index.html`
 
 En este archivo va el contenido que se mostrará al usuario (esqueleto HTML).
 Encontrarás 3 etiquetas iniciales, las cuales si deseas puedes borrar y empezar
@@ -139,10 +153,10 @@ de cero:
 * `<main>`: contenido principal de tu proyecto.
 * `<footer>`: pie de página de tu proyecto.
 
-**`src/style.css`**:
+##### `src/style.css`
 
 Este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS3
+propias reglas, por eso NO está permitido el uso de frameworks de CSS
 (Bootstrap, materialize, etc).
 
 #### Funcionalmente (JavaScript - pruebas unitarias)
@@ -155,7 +169,7 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS3
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
 indicamos qué harás en cada archivo:
 
-**`src/validator.js`**:
+##### `src/validator.js`
 
 Acá escribirás la función necesaria para que el usuario pueda verificar la
 tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
@@ -167,14 +181,14 @@ un método el cual debe retornar un `boolean`:
 * **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
 tarjeta que se va a verificar.
 
-**`src/index.js`**:
+##### `src/index.js`
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
 Es decir, en este archivo deberás invocar a tu función `isValid` según sea
 necesario para actualizar el resultado en la pantalla(UI).
 
-**`test/validator.spec.js`**:
+##### `test/validator.spec.js`
 
 En este archivo tendrás que completar las pruebas unitarias de la función
 `validator.isValid(creditCardNumber)` implementada en `validator.js` utilizando
@@ -190,9 +204,9 @@ mínimo del 50% de _branches_ (ramas).
   condiciones, algo como [Atom](https://atom.io/) o
   [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-  [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+  [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
   que es un programita que interpreta líneas de comando (command-line
-  interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+  interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
