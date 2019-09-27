@@ -7,7 +7,8 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Evaluación](#6-evaluación)
+* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -41,16 +42,16 @@ etc.
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a:
 
 * Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución para él.
+* Entender las **necesidades del usuario** y cómo proponerle una solución.
 * Entender la importancia del proceso de prototipado durante la creación de un
   proyecto digital.
 * Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
+* Utilizar etiquetas semánticas  de HTML y elementos de formulario.
 * Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
   etc.
 * Utilizar el modelo de cajas (border, margin, padding)
@@ -64,17 +65,17 @@ Dicho en palabras sencillas, aprenderás a:
 * Usar **control de flujo if-else, do-while** (bucles y condicionales).
 * _Implementar funciones_ dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-(**pruebas unitarias (_test_) con Mocha**).
+(**pruebas unitarias (_test_) con Jest**).
 * Configurar tu cuenta de _git_.
 * _Forkear_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto (_ commit_, _pull_,
-  _push_).
-* Desplegar tu proyecto en _gh-pages_.
+* Mantener actualizado los cambios en tu repositorio remoto (`commit`, `pull`,
+  `push`).
+* Desplegar tu proyecto en [GitHub Pages](https://pages.github.com).
 
 ## 4. Consideraciones generales
 
 * Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+* El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 * Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
@@ -83,16 +84,26 @@ Dicho en palabras sencillas, aprenderás a:
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-Usa solo dígitos numéricos en la tarjeta a validar [0-9].
+Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
+
+### Definición del producto
+
+En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
+para definir el producto final a nivel de experiencia y de interfaz.
+
+* Quiénes son los principales usuarios de producto.
+* Cuáles son los objetivos de estos usuarios en relación con tu producto.
+* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
+### Interfaz de usuario (UI)
+
 La interfaz debe permitir al usuario:
 
 * Insertar el número que queremos validar.
 * Ver el resultado si es válido o no.
 * No debe poder ingresar un campo vacío.
 
-### Scripts / Archivos
-
-#### UX (Diseño de experiencia de usuario)
+### UX (Diseño de experiencia de usuario)
 
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
@@ -105,7 +116,11 @@ cómo tu aplicación lo soluciona.
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
 
-**`README.md`**:
+### Scripts / Archivos
+
+#### General
+
+##### `README.md`
 
 Debe contener lo siguiente:
 
@@ -121,15 +136,15 @@ Debe contener lo siguiente:
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
 
-#### Visualmente (HTML5 y CSS3)
+#### Visualmente (HTML y CSS)
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
-utilizando HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente,
+utilizando HTML y CSS. En este momento elegirás los colores, tipo de fuente,
 etc a usar.
 
 A continuación describimos los archivos que utilizarás:
 
-**`src/index.html`**:
+##### `src/index.html`
 
 En este archivo va el contenido que se mostrará al usuario (esqueleto HTML).
 Encontrarás 3 etiquetas iniciales, las cuales si deseas puedes borrar y empezar
@@ -139,10 +154,10 @@ de cero:
 * `<main>`: contenido principal de tu proyecto.
 * `<footer>`: pie de página de tu proyecto.
 
-**`src/style.css`**:
+##### `src/style.css`
 
 Este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS3
+propias reglas, por eso NO está permitido el uso de frameworks de CSS
 (Bootstrap, materialize, etc).
 
 #### Funcionalmente (JavaScript - pruebas unitarias)
@@ -155,34 +170,89 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS3
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
 indicamos qué harás en cada archivo:
 
-**`src/validator.js`**:
+##### `src/validator.js`
 
 Acá escribirás la función necesaria para que el usuario pueda verificar la
 tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
 
 Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
-_exportado_ en el objeto global (`window`). Este objeto (`validator`) contiene
+_exportado_ en el _boilerplate_. Este objeto (`validator`) contiene
 un método el cual debe retornar un `boolean`:
 
 * **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
 tarjeta que se va a verificar.
 
-**`src/index.js`**:
+##### `src/index.js`
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
 Es decir, en este archivo deberás invocar a tu función `isValid` según sea
 necesario para actualizar el resultado en la pantalla(UI).
 
-**`test/validator.spec.js`**:
+##### `test/validator.spec.js`
 
 En este archivo tendrás que completar las pruebas unitarias de la función
 `validator.isValid(creditCardNumber)` implementada en `validator.js` utilizando
-Mocha. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
+Jest. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
 _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
-## 6. Pistas, tips y lecturas complementarias
+
+## 6. Evaluación
+
+NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
+cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
+así como _guías_ en el diseño curricular, pero no reglas absolutas.
+
+Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
+recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
+proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
+
+### Habilidades Blandas (Soft Skills)
+
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 2              |
+| Autoaprendizaje                                 | 2              |
+| Presentaciones                                  | 2              |
+| Adaptabilidad                                   | 2              |
+| Solución de problemas                           | 2              |
+| Responsabilidad                                 | 2              |
+| Dar y recibir feedback                          | 2              |
+| Comunicación eficaz                             | 2              |
+
+### Habilidades Técnicas (Front-end)
+
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 1              |
+| Arquitectura                            | 1              |
+| **Source Code Management (SCM)**                         |
+| Git                                     | 1              |
+| GitHub                                  | 2              |
+| **JavaScript**                                           |
+| Estilo (linter js)                      | 2              |
+| Nomenclatura / semántica                | 2              |
+| Uso de funciones / modularidad          | 1              |
+| Tests                                   | 2              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 2              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 2              |
+| DRY (CSS)                               | 2              |
+| Responsive Web Design                   | 2              |
+
+### Habilidades Técnicas (UX)
+
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 2              |
+
+***
+
+## 7. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -190,9 +260,9 @@ mínimo del 50% de _branches_ (ramas).
   condiciones, algo como [Atom](https://atom.io/) o
   [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-  [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+  [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
   que es un programita que interpreta líneas de comando (command-line
-  interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+  interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
