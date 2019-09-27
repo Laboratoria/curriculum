@@ -1,5 +1,13 @@
 coverage/
 node_modules/
 .DS_Store
-*.swp
-package-lock.json
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

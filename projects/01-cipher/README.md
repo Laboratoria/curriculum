@@ -119,9 +119,9 @@ La interfaz debe permitir al usuario:
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
+* `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
+  _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
+  métodos:
   - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
     que queremos cifrar.
