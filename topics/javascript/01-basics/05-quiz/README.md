@@ -12,12 +12,12 @@
 
 #### Opciones
 
-1. const last_name = 'Martinez';
-2. const score = 1;
-3. const cosita = "El retorno del Jedi";
-4. const undefined = true;
-5. const likesCoffee = false;
-6. const 2ndChild = 'Diana';
+1. `const last_name = 'Martinez';`
+2. `const score = 1;`
+3. `const cosita = 'El retorno del Jedi';`
+4. `const undefined = true;`
+5. `const likesCoffee = false;`
+6. `const 2ndChild = 'Diana';`
 
 <solution style="display:none;">2,5</solution>
 
@@ -39,10 +39,10 @@
 
 #### Opciones
 
-1. 3 > 3
-2. 'hola' + ' mundo'
-3. true && false
-4. "10" + 1
+1. `3 > 3`
+2. `'hola' + ' mundo'`
+3. `true && false`
+4. `'10' + 1`
 
 <solution style="display:none;">4</solution>
 
@@ -58,7 +58,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 5) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta
+### 5) De la lista a continuación, elige las dos (2) fuentes más confiables para aprender por tu cuenta
 
 #### Opciones
 
@@ -69,25 +69,33 @@
 
 <solution style="display:none;">1,4</solution>
 
-### 6) El resultado de 'Hola' + 'mundo' es
+### 6) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'Hola' + 'mundo'
+```
 
 #### Opciones
 
-1. "Hola Mundo"
-2. "Hola mundo"
-3. "Holamundo"
-4. 'HolaMundo'
+1. `'Hola Mundo'`
+2. `'Hola mundo'`
+3. `'Holamundo'`
+4. `'HolaMundo'`
 
 <solution style="display:none;">3</solution>
 
-### 7) ¿Qué tipo de dato es '123'?
+### 7) ¿Qué tipo de dato es el siguiente valor?
+
+```js
+'123'
+```
 
 #### Opciones
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">2</solution>
 
@@ -95,194 +103,262 @@
 
 #### Opciones
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
-### 9) El resultado de 10 == 'diez' es
+### 9) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+10 == 'diez'
+```
 
 #### Opciones
 
-1. true
-2. false
+1. `true`
+2. `false`
 
 <solution style="display:none;">2</solution>
 
-### 10)  El resultado de 10 % 3 es
+### 10) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+10 % 3
+```
 
 #### Opciones
 
-1. 1
-2. 0
-3. 3.33
-4. 10
+1. `1`
+2. `0`
+3. `3.33`
+4. `10`
 
-<solution style="display:none;">1</solution
+<solution style="display:none;">1</solution>
 
-### 11) El resultado de 'Me \"encanta\" JavaScript' es
+### 11) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'Me \'encanta\' JavaScript'
+```
 
 #### Opciones
 
-1. "Me \"encanta\" JavaScript"
-2. "Me \encanta\ JavaScript"
-3. "Me encanta JavaScript"
-4. "Me "encanta" JavaScript"
+1. `Me \'encanta\' JavaScript`
+2. `Me \encanta\ JavaScript`
+3. `Me encanta JavaScript`
+4. `Me 'encanta' JavaScript`
 
 <solution style="display:none;">4</solution>
 
-### 12)  El resultado de **typeof NaN** es
+### 12) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+typeof NaN
+```
 
 #### Opciones
 
-1. "boolean"
-2. "undefined"
-3. "number"
-4. "string"
+1. `'boolean'`
+2. `'undefined'`
+3. `'number'`
+4. `'string'`
 
 <solution style="display:none;">3</solution>
 
-### 13)  El resultado de 4 % 15 es
+### 13) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+4 % 15
+```
 
 #### Opciones
 
-1. 4
-2. false
-3. 15
-4. %
+1. `4`
+2. `false`
+3. `15`
+4. `%`
 
 <solution style="display:none;">1</solution>
 
-### 14) El resultado de 'diez' * 4 es
+### 14) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'diez' * 4
+```
 
 #### Opciones
 
-1. NaN
-2. 40
-3. diez4
-4. undefined
+1. `NaN`
+2. `40`
+3. `'diez4'`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
-### 15) El resultado de '50' + 1 es
+### 15) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'50' + 1
+```
 
 #### Opciones
 
-1. "501"
-2. 51
-3. "50+1"
-4. 50
+1. `'501'`
+2. `51`
+3. `'50+1'`
+4. `50`
 
 <solution style="display:none;">1</solution>
 
-### 16) El resultado de false == '' es
+### 16) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+false == ''
+```
 
 #### Opciones
 
-1. true
-2. false
-3. undefined
-4. null
+1. `true`
+2. `false`
+3. `undefined`
+4. `null`
 
 <solution style="display:none;">1</solution>
 
-### 17) El resultado de '' === NaN es
+### 17) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'' === NaN
+```
 
 #### Opciones
 
-1. true
-2. false
-3. undefined
-4. null
+1. `true`
+2. `false`
+3. `undefined`
+4. `null`
 
 <solution style="display:none;">2</solution>
 
-### 18) El resultado de 'a string'.slice(1, 5) es
+### 18) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'a string'.slice(1, 5)
+```
 
 #### Opciones
 
-1. " str"
-2. " string"
-3. "stri"
-4. " strin"
+1. `' str'`
+2. `' string'`
+3. `'stri'`
+4. `' strin'`
 
 <solution style="display:none;">1</solution>
 
-### 19) El resultado de 'My long string is long'.slice(5) es
+### 19) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'My long string is long'.slice(5)
+```
 
 #### Opciones
 
-1. "ng string is long"
-2. "long string is long"
-3. ""
-4. "My long string is long"
+1. `'ng string is long'`
+2. `'long string is long'`
+3. `''`
+4. `'My long string is long'`
 
 <solution style="display:none;">1</solution>
 
-### 20) El resultado de 'Quiero seguir aprendiendo!!!'.slice(0, -2) es
+### 20) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'Quiero seguir aprendiendo!!!'.slice(0, -2)
+```
 
 #### Opciones
 
-1. "Quiero seguir aprendiendo!!!"
-2. "Quiero seguir aprendiendo!!"
-3. "Quiero seguir aprendiendo!"
-4. "iero seguir aprendiendo!!!"
+1. `'Quiero seguir aprendiendo!!!'`
+2. `'Quiero seguir aprendiendo!!'`
+3. `'Quiero seguir aprendiendo!'`
+4. `'iero seguir aprendiendo!!!'`
 
 <solution style="display:none;">3</solution>
 
-### 21) El resultado de 'cualquier string'.charAt(100) es
+### 21) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'cualquier string'.charAt(100)
+```
 
 #### Opciones
 
-1. null
-2. undefined
-3. ""
-4. g
+1. `null`
+2. `undefined`
+3. `''`
+4. `'g'`
 
 <solution style="display:none;">3</solution>
 
-### 22) El resultado de 'Hola Mundo'.indexOf(' ') es
+### 22) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'Hola Mundo'.indexOf(' ')
+```
 
 #### Opciones
 
-1. null
-2. 3
-3. 4
-4. 5
+1. `null`
+2. `3`
+3. `4`
+4. `5`
 
 <solution style="display:none;">3</solution>
 
-### 23) El resultado de 'Hola Mundo'.indexOf('s') es
+### 23) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'Hola Mundo'.indexOf('s')
+```
 
 #### Opciones
 
-1. null
-2. undefined
-3. 0
-4. -1
+1. `null`
+2. `undefined`
+3. `0`
+4. `-1`
 
 <solution style="display:none;">4</solution>
 
-### 24) El resultado de 'alphabet'.toUpperCase() es
+### 24) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+'alphabet'.toUpperCase()
+```
 
 #### Opciones
 
-1. "AlphaBet"
-2. "ALPHABET"
-3. "alphabet"
-4. "Alphabet"
+1. `'AlphaBet'`
+2. `'ALPHABET'`
+3. `'alphabet'`
+4. `'Alphabet'`
 
 <solution style="display:none;">2</solution>
 
-### 25) El resultado de typeof parseInt('543') es
+### 25) ¿Cuál es el resultado de la siguiente expresión?
+
+```js
+typeof parseInt('543')
+```
 
 #### Opciones
 
-1. 543
-2. "543"
-3. "Boolean"
-4. "number"
+1. `543`
+2. `'543'`
+3. `'boolean'`
+4. `'number'`
 
 <solution style="display:none;">4</solution>
