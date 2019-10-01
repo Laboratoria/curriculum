@@ -17,7 +17,7 @@
 
 ## 1. Preámbulo
 
-[React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
+[React](https://es.reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -176,14 +176,14 @@ Hemos preparado algunos videos introductorios:
 
 * [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
 * [Introducción a Angular (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
-* [Introducción a React (Elizabeth)](https://reactjs.org/)
+* [Introducción a React (Elizabeth)](https://es.reactjs.org/)
 * [Introducción a Vue (Luis)](https://vuejs.org/)
 
 No dejes de explorar la documentación oficial de cada herramienta:
 
 ### React
 
-* [React - docs oficiales](https://reactjs.org/)
+* [React - docs oficiales](https://es.reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
 * [create-react-app](https://github.com/facebook/create-react-app)
