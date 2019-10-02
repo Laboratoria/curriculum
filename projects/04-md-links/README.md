@@ -46,10 +46,10 @@ En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
 sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 
-## 3. Objetivos de aprendizaje
+En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
+propia librería (o biblioteca - library) en JavaScript.
 
-El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
-**librería** (o biblioteca - _library_) en JavaScript.
+## 3. Objetivos de aprendizaje
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrollador porque que te obliga a pensar en la interfaz (API) de tus
@@ -124,8 +124,8 @@ para tus pruebas unitarias.
 * Para este proyecto no está permitido utilizar `async/await`.
 
 * Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
-caso optes utilizarlo deberas de crear un script de `build` en el `package.json`
-que transforme el código ES6+ a ES5 con ayuda de babel.
+caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
+que los transforme en `requires` y `module.exports` con ayuda de babel.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
