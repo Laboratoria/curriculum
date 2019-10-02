@@ -187,7 +187,7 @@ typeof NaN
 ### 14) Qual é o resultado da seguinte expressão?
 
 ```js
-"dez" * 4
+'dez' * 4
 ```
 
 #### Opciones
@@ -202,7 +202,7 @@ typeof NaN
 ### 15) Qual é o resultado da seguinte expressão?
 
 ```js
-"50" + 1
+'50' + 1
 ```
 
 #### Opciones
@@ -232,7 +232,7 @@ false == ''
 ### 17) Qual é o resultado da seguinte expressão?
 
 ```js
-"" === NaN
+'' === NaN
 ```
 
 #### Opciones
