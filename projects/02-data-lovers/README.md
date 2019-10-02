@@ -17,9 +17,9 @@
 
 ## 1. Preámbulo
 
-Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
+Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
 el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
+Cada día generamos 2.5 millones de terabytes de datos, una cifra sin precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
 grandes cantidades de datos se conviertan en **información** fácil de leer para
@@ -45,7 +45,7 @@ Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
-o mel ínimo, etc).
+o mínimo, etc).
 
 Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
 explores y decidas con qué temática te interesa trabajar. Hemos elegido
@@ -63,7 +63,7 @@ Estos son datos que te proponemos:
   indicadores demográficos, económicos y comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
+  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](http://pokemongolive.com).
 * [Steam noticias](src/data/steam/steam.json):
   Lista noticias relacionadas a los videojuegos presentes en la
   plataforma de [Steam](https://store.steampowered.com/).
@@ -155,7 +155,7 @@ a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 #### Prototipo de baja fidelidad
 
-Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
+Durante tu trabajo deberás haber hecho e iterado sketches (bocetos) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
 iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 `README.md`.
@@ -210,12 +210,12 @@ que  tendrás que escribir tu propias pruebas unitarias para las funciones
 encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
 estadísticas.
 
-Tus Pruebas Unitarias deben dar una cobertura del 70% de _statements_
+Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus Funciones y está detallado
-en la sección [Data](###data) de las [Especificaciones Técnicas](##especificaciones-técnicas).
+(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
+en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Hacker edition
+## 6. Hacker edition  
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -238,7 +238,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#parte-opcional-hacker-edition) más arriba.
+[_Parte opcional_](#6-hacker-edition) más arriba.
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
@@ -358,7 +358,7 @@ extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
 diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
 mientras que el `.json` está ahí para opcionalmente cargar la data de forma
 asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#parte-opcional-hacker-edition)).
+(ver sección de [_Parte Opcional_](#6-hacker-edition)).
 
 ### `test/data.spec.js`
 
@@ -376,13 +376,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud              | 4              |
-
-### Habilidades Blandas
+### Habilidades Blandas (Soft Skills)
 
 | Habilidad                                       | Nivel esperado |
 |-------------------------------------------------|----------------|
@@ -396,36 +390,35 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 | Dar y recibir feedback                          | 2              |
 | Comunicación eficaz                             | 2              |
 
-### Tech
+### Habilidades Técnicas (Front-end)
 
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **Computer Science**                    |
-| Lógica                 | 1              |
-| Arquitectura           | 2              |
-| **Source Control Management**           |
-| Git                    | 2              |
-| GitHub                 | 2              |
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 1              |
+| Arquitectura                            | 2              |
+| **Source Code Management (SCM)**                            |
+| Git                                     | 2              |
+| GitHub                                  | 2              |
 | **JavaScript**                          |
-| Estilo                 | 2              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 2              |
-| Estructuras de datos   | 2              |
-| Tests                  | 2              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 2              |
-| **CSS**                                 |
-| DRY                    | 3              |
-| Responsive             | 2              |
+| Estilo (linter js)                      | 2              |
+| Nomenclatura / semántica                | 3              |
+| Uso de funciones / modularidad          | 2              |
+| Estructuras de datos                    | 2              |
+| Tests                                   | 2              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 3              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 2              |
+| DRY (CSS)                               | 3              |
+| Responsive Web Design                   | 2              |
 
-### UX
+### Habilidades Técnicas (UX)
 
-| Habilidad                                         | Nivel esperado |
-|---------------------------------------------------|----------------|
-| User Centricity (_Diseño Centrado en el Usuario_) | 3              |
-| **Diseño Visual (_Visual Design_)**               | 2              |
+| Habilidad       | Nivel esperado |
+|-----------------|----------------|
+| User Centricity | 3              |
+| Visual Design   | 2              |
 
 ***
 

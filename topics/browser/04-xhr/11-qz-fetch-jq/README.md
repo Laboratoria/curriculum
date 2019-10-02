@@ -47,6 +47,8 @@
 3. `.error()`
 4. `.load()`
 
+<solution style="display:none;">1</solution>
+
 ### 4) ¿cómo manejamos errores al hacer una petición con fetch?
 
 #### Opciones

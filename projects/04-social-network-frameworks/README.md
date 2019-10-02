@@ -104,13 +104,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
 recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
 proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
 
-### General
-
-| Característica | Nivel esperado |
-|----------------|----------------|
-| Completitud    | 4              |
-
-### Habilidades Blandas
+### Habilidades Blandas (Soft Skills)
 
 Para este proyecto esperamos que ya hayas consolidado el nivel 4 en todas tus
 habilidades blandas pero te invitamos que las lleves al siguiente nivel
@@ -122,46 +116,43 @@ Particularmente lo que se refiere a probar/experimentar lo nuevo de manera
 aislada y no necesariamente en el mismo código que ya tienes implementado.
 Muchas cosas pueden interferir en lo que estás intentando hacer y puede parecer
 que no está bien lo que intentas cuando no es así. Revisa las diapos 15 y 16 de
-la [guia general para organizar, dividir y planificar tu ttrabajo](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
+la [guia general para organizar, dividir y planificar tu ttrabajo](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000).
 
-Te aconsejamos revisar la rúbrica:
+| Habilidad                                       | Nivel esperado |
+|-------------------------------------------------|----------------|
+| Planificación, organización y manejo del tiempo | 4              |
+| Autoaprendizaje                                 | 4              |
+| Presentaciones                                  | 4              |
+| Adaptabilidad                                   | 4              |
+| Solución de problemas                           | 4              |
+| Trabajo en equipo                               | 4              |
+| Responsabilidad                                 | 4              |
+| Dar y recibir feedback                          | 4              |
+| Comunicación eficaz                             | 4              |
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| Trabajo en equipo            | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
+### Habilidades Técnicas (Front-end)
 
-### Tech
-
-| Habilidad              | Nivel esperado |
-|------------------------|----------------|
-| **Computer Science**                    |
-| Lógica                 | 2              |
-| Arquitectura           | 3              |
-| Patrones/Paradigmas    | 2              |
-| **Source Control Management**           |
-| Git                    | 3              |
-| GitHub                 | 3              |
-| **JavaScript**                          |
-| Estilo                 | 3              |
-| Nomenclatura/semántica | 3              |
-| Funciones/modularidad  | 4              |
-| Estructuras de datos   | 3              |
-| Tests                  | 3              |
-| **HTML**                                |
-| Validación             | 3              |
-| Estilo                 | 3              |
-| Semántica              | 4              |
-| **CSS**                                 |
-| DRY                    | 4              |
-| Responsive             | 4              |
+| Habilidad                               | Nivel esperado |
+|-----------------------------------------|----------------|
+| **Computer Science (CS)**                                |
+| Lógica / Algoritmia                     | 2              |
+| Arquitectura                            | 3              |
+| Patrones/Paradigmas                     | 2              |
+| **Source Code Management (SCM)**                         |
+| Git                                     | 3              |
+| GitHub                                  | 3              |
+| **JavaScript**                                           |
+| Estilo (linter js)                      | 3              |
+| Nomenclatura / semántica                | 3              |
+| Uso de funciones / modularidad          | 4              |
+| Estructuras de datos                    | 3              |
+| Tests                                   | 3              |
+| **HTML/CSS**                                             |
+| Correctitud / Validación                | 3              |
+| Estilo (linter html)                    | 3              |
+| Semántica / Arquitectura de información | 4              |
+| DRY (CSS)                               | 4              |
+| Responsive Web Design                   | 4              |
 
 ***
 

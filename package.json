@@ -1,42 +1,45 @@
 {
-  "name": "curricula-js",
-  "version": "2.2.0",
-  "description": "Malla curricular Full Stack JavaScript @Laboratoria",
+  "name": "bootcamp",
+  "version": "2.5.0",
+  "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
-    "eslint": "eslint topics/javascript",
-    "validate": "cd topics && course-parser babel/README.md browser/README.md css/README.md functional/README.md html/README.md javascript/README.md paradigms/README.md react/README.md redux/README.md scm/README.md shell/README.md --track=js --locale=es-ES --validate",
+    "eslint": "eslint topics/",
     "pretest": "npm run mdlint && npm run eslint && npm run validate",
-    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose"
+    "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
+    "validate": "./scripts/build.js --validate",
+    "build": "./scripts/build.js",
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an <%ae>)\""
   },
-  "repository": "Laboratoria/curricula-js",
+  "repository": "Laboratoria/bootcamp",
   "keywords": [
     "javascript",
     "laboratoria",
     "bootcamp",
-    "curricula",
-    "fullstack"
+    "curriculum",
+    "fullstack",
+    "ux"
   ],
   "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/Laboratoria/curricula-js/issues"
+    "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
+    "@laboratoria/curriculum-parser": "^2.4.0",
+    "@laboratoria/mdlint": "^1.1.0",
     "chai": "^4.2.0",
-    "course-parser": "Laboratoria/course-parser#1.1.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-jest": "^22.5.1",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.0",
     "jdi": "^1.1.3",
-    "mdlint": "Laboratoria/mdlint#v1.0.0",
-    "mocha": "^6.1.4",
-    "renamer": "^1.1.1",
-    "sinon": "^7.3.2"
+    "mkdirp": "^0.5.1",
+    "mocha": "^6.2.0",
+    "sinon": "^7.5.0"
   }
 }

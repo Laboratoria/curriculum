@@ -157,7 +157,8 @@ _módulo_, aunque técnicamente residuo es más preciso.
 
 ## 2. Strings
 
-El siguiente _data type_ básico son los `strings`. Es el tipo de dato que
+El siguiente _data type_ básico es el `String` (_cadena_ en español, ya que hace
+referencia a _cadena de caracteres_). Es el tipo de dato que
 utilzamos para representar texto. Se declaran al poner el contenido entre
 comillas.
 
@@ -191,8 +192,8 @@ comillas simples de aquí en adelante.
 
 ***
 
-Existen un par de caracteres en los _data types_ `strings` que tienen un
-comportamiento especial. Por ejemplo, cuando una diagonal invertida ("\") se
+Existen un par de caracteres en los `strings` que tienen un
+comportamiento especial. Por ejemplo, cuando una diagonal invertida (`\`) se
 encuentra dentro de un texto entre comillas, indica que el carácter siguiente
 tiene un significado especial. Esto se denomina _escapar el carácter_. Cuando el
 carácter `n` sigue a una diagonal invertida (backslash - `\`), se interpreta
@@ -559,8 +560,8 @@ secuencia para determinar el resultado:
 21 === "21"         // false
 undefined === null  // false
 NaN === NaN         // false
-[10] === 10          // false
-true === 1           // false
+[10] === 10         // false
+true === 1          // false
 [] === []           // false
 '10' === '10'       // true
 ```
