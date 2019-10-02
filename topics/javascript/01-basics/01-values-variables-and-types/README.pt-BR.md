@@ -162,7 +162,7 @@ resto é mais preciso.
 ## 2. Strings
 
 O próximo _data type_ básico é a `string` (_sequência de caracteres_ em
-português).É o tipo de dado que utilizamos para representar texto. São
+português). É o tipo de dado que utilizamos para representar texto. São
 declaradas ao colocar o conteúdo entre aspas.
 
 Abra seu console e escreva:
