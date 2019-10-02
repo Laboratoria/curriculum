@@ -161,8 +161,9 @@ resto é mais preciso.
 
 ## 2. Strings
 
-O próximo _data type_ básico são as `strings`. É o tipo de dado que utilizamos
-para representar texto. São declaradas ao colocar o conteúdo entre aspas.
+O próximo _data type_ básico é a `string` (_sequência de caracteres_ em
+português).É o tipo de dado que utilizamos para representar texto. São
+declaradas ao colocar o conteúdo entre aspas.
 
 Abra seu console e escreva:
 
@@ -193,14 +194,14 @@ comillas simples de aquí en adelante.
 
 ***
 
-Existe um par de caracteres no _data types_ `strings` que tem um comportamento
-especial. Por exemplo, quando uma barra invertida (_backslash_ -`\`) se encontra
-dentro de um texto entre aspas, isso indica que o próximo caractere tem um
-significado especial. Chamamos isso de _escapar caractere_. Quando o caractere
-`n` segue uma barra invertida, o par de caracteres é interpretado como uma nova
-linha. Da mesma forma, um `t` após a barra invertida indica uma tabulação.
-Escreva os seguintes textos em seu console (lembre-se de sempre colocá-los entre
-aspas, simples ou duplas).
+Existe um par de caracteres no `strings` que tem um comportamento especial. Por
+exemplo, quando uma barra invertida (_backslash_ -`\`) se encontra dentro de um
+texto entre aspas, isso indica que o próximo caractere tem um significado
+especial. Chamamos isso de _escapar caractere_. Quando o caractere `n` segue uma
+barra invertida, o par de caracteres é interpretado como uma nova linha. Da
+mesma forma, um `t` após a barra invertida indica uma tabulação. Escreva os
+seguintes textos em seu console (lembre-se de sempre colocá-los entre aspas,
+simples ou duplas).
 
 ```js
 'sta é a primeira linha \n E esta a segunda'
