@@ -194,7 +194,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ### Track UX Design
 
-#### Proyecto: [Emprendimientos](projects/06-small-businesses)
+#### Proyecto: [Emprendimientos](projects/03-small-businesses)
 
 Para este reto inicial del track, las estudiantes trabajan con pequeños
 emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
@@ -210,7 +210,7 @@ Marvel.
   (flujo de contenido, mapa de sitio), diseño visual y de interacción
   (wireframes y prototipado), y user testing
 
-#### Proyecto: [Rediseño y análisis de data](projects/07-redesign-and-data)
+#### Proyecto: [Rediseño y análisis de data](projects/04-redesign-and-data)
 
 Este es un proyecto de rediseño. Basándose en la data de los resultados
 que está teniendo una aplicación de servicios financieros, las estudiantes
@@ -221,7 +221,7 @@ aprendizaje.
 * Equipos: 2 o 3 estudiantes
 * Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
 
-#### Proyecto: [Consultoría UX](projects/08-ux-consultancy)
+#### Proyecto: [Consultoría UX](projects/05-ux-consultancy)
 
 En este reto, las estudiantes trabajan en distintos casos reales
 propuestos por empresas de diversos rubros y tamaños. Anteriores retos
@@ -285,7 +285,7 @@ nativas.
 
 ### Track UX Design
 
-#### Proyecto: [Visual Design](projects/09-visual-design)
+#### Proyecto: [Visual Design](projects/06-visual-design)
 
 En este reto buscamos mejorar las habilidades de diseño visual de interfaces.
 Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
@@ -301,7 +301,7 @@ objetivos de aprendizaje.
 * Tópicos: Design Systems, Grid systems, atomic design, componentes,
   consistencia,jerarquía, responsive design.
 
-#### Proyecto: [Service Design](projects/10-service-design)
+#### Proyecto: [Service Design](projects/06-service-design)
 
 Con la ayuda de consultoras especializadas como Amable o Touchpoint,
 las estudiantes se sumergen en el mundo del service design. Entendiendo

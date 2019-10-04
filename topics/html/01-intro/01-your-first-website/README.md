@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `20min`
 
-## Objetivos
+## Objetivos de aprendizaje
 
 - Entender como construir la estructura básica de una página web usando HTML.
 - Conocer los principales elementos y etiquetas HTML.
