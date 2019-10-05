@@ -260,9 +260,9 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
    condiciones, algo como [Atom](https://atom.io/) o
    [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
