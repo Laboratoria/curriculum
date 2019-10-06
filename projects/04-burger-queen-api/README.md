@@ -67,6 +67,75 @@ body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_), **conexión con
 una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**,
 **contenedores de `docker`**...
 
+### Node
+
+* [ ] Instalar y usar modules
+* [ ] `npm scripts`
+
+### Express
+
+* [ ] Rutas
+* [ ] `middlewares`
+
+### HTTP
+
+* [ ] Request
+* [ ] Response
+* [ ] Headers
+* [ ] Body
+* [ ] Verbos HTTP
+* [ ] Codigos de status de HTTP
+* [ ] Encodings y `JSON`
+* [ ] CORS
+
+### Autenticación
+
+* [ ] `JWT`
+* [ ] Cómo guardar y validar contraseñas
+
+### Testing
+
+* [ ] Tests de integración
+* [ ] Tests unitarios
+
+### Frontend Development
+
+* [ ] Variables de entorno
+* [ ] `SSH`
+* [ ] `SSH` keys
+* [ ] Qué es un VPS
+
+### MongoDB o MySQL (según corresponda)
+
+* [ ] Instalación
+* [ ] Conexión a través de cliente
+* [ ] Connection string
+* [ ] Comandos/Queries de creacion, lectura, modificación y eliminación
+
+### Deployment
+
+* [ ] Contenedores
+* [ ] Qué es Docker
+* [ ] Qué es Docker compose
+* [ ] Uso de `docker-compose`
+
+### Colaboración y Organización con Git y Github
+
+* [ ] Forks
+* [ ] Branches
+* [ ] Pull Requests
+* [ ] Tags
+* [ ] Projects
+* [ ] Issues
+* [ ] Labels
+* [ ] Milestones
+
+### Buenas prácticas de desarrollo
+
+* [ ] Modularización
+* [ ] Nomenclatura / Semántica
+* [ ] Linting
+
 ## 4. Consideraciones generales
 
 Este proyecto se realizará en duos y deberá integrarse con el proyecto
