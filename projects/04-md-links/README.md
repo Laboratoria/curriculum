@@ -63,17 +63,18 @@ A continuación puedes ver los objetivos de aprendizaje de este proyecto:
 * [ ] Uso de callbacks
 * [ ] Consumo de Promesas
 * [ ] Creacion de Promesas
-* [ ] Modulos de Js
+* [ ] Modulos de JS (CommonJS vs ES Modules)
 * [ ] Recursión
 
 ### Node
 
-* [ ] Sistema de archivos
-* [ ] package.json
-* [ ] crear modules
-* [ ] Instalar y usar modules
-* [ ] npm scripts
+* [ ] Sistema de archivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
+* [ ] [package.json](https://docs.npmjs.com/files/package.json)
+* [ ] crear módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
+* [ ] Instalar y usar módulos ([npm](https://www.npmjs.com/))
+* [ ] [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
+* [ ] [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback)
 
 ### Testing
 
@@ -93,39 +94,30 @@ A continuación puedes ver los objetivos de aprendizaje de este proyecto:
 * [ ] Nomenclatura / Semántica
 * [ ] Linting
 
-Tópicos: [Node.js](https://nodejs.org/en/),
-[módulos (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
-[file system](https://nodejs.org/api/fs.html),
-[path](https://nodejs.org/api/path.html),
-[http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
-parsing,
-[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
-[npm-scripts](https://docs.npmjs.com/misc/scripts),
-[semver](https://semver.org/), ...
-
 ***
 
 ## 4. Consideraciones generales
 
 * Este proyecto se debe "resolver" de manera individual.
 
-* La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js. **Está permitido usar librerías externas**.
+* La librería y script ejecutable (herramienta de línea de comando -
+  CLI) debe estar implementada en JavaScript para ser ejecutada con
+  Node.js. **Está permitido usar librerías externas**.
 
 * Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
-módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
-comando como una interfaz que podamos importar con `require` para usarlo
-programáticamente.
+  módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
+  comando como una interfaz que podamos importar con `require` para usarlo
+  programáticamente.
 
-* Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
-para tus pruebas unitarias.
+* Los tests unitarios deben cubrir un mínimo del 70% de _statements_,
+  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
+  para tus pruebas unitarias.
 
 * Para este proyecto no está permitido utilizar `async/await`.
 
 * Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
-caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
-que los transforme en `requires` y `module.exports` con ayuda de babel.
+  caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
+  que los transforme en `requires` y `module.exports` con ayuda de babel.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
