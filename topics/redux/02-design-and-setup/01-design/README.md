@@ -18,7 +18,7 @@ artículos "en stock" además de buscar por texto.
 
 Imagina que ya tenemos un mock de nuestrx diseñadorx que se ve asi:
 
-![Mockup](https://reactjs.org/static/thinking-in-react-mock-1071fbcc9eed01fddc115b41e193ec11-4dd91.png)
+![Mockup](https://es.reactjs.org/static/thinking-in-react-mock-1071fbcc9eed01fddc115b41e193ec11-4dd91.png)
 
 Y nuestra API JSON nos devuelve data con la siguiente estructura:
 
@@ -55,7 +55,7 @@ implica que en general separar tu UI de tu data es trivial: divide tus
 componentes de tal manera que representen exactamente una porción de la
 información.
 
-![Component diagram](https://reactjs.org/static/thinking-in-react-components-eb8bda25806a89ebdc838813bdfa3601-82965.png)
+![Component diagram](https://es.reactjs.org/static/thinking-in-react-components-eb8bda25806a89ebdc838813bdfa3601-82965.png)
 
 Aquí verás que tenemos 5 componentes:
 
