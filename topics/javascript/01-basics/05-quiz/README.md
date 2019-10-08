@@ -8,7 +8,7 @@
 
 ## Preguntas
 
-### 1) ¿Cuál de las siguientes opciones reflejan "buenos" nombres de variables (es decir, cumplen con las reglas y las sugerencias de buenas prácticas)?
+### 1) ¿Cuál/cuáles de las siguientes opciones reflejan "buenos" nombres de variables (es decir, cumplen con las reglas y las sugerencias de buenas prácticas)?
 
 #### Opciones
 

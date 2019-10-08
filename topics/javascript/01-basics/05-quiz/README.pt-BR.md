@@ -8,7 +8,7 @@
 
 ## Perguntas
 
-### 1) Qual das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
+### 1) Qual/Quais das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
 
 #### Opciones
 

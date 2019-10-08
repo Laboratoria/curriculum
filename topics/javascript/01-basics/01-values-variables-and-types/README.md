@@ -66,7 +66,7 @@ Los _values_ de tipo `number` son, sin sorpresa alguna, valores numéricos. Es
 decir, pedazos de data que representan información numérica se representan con
 el tipo `number`. Esto incluye números positivos, negativos, enteros y
 decimales. Además, el tipo de datos `number` tiene tres valores simbólicos:
-+Infinity, -Infinity y NaN (no-un-número).
+`+Infinity`, `-Infinity` y `NaN` (no-un-número).
 
 Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click
 con el botón derecho del mouse -> inspect -> console) y escribe los siguientes
