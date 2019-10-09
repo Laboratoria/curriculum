@@ -63,7 +63,7 @@ origen acá.
 
 2. No menos importante, tendrás que diseñar y mantener el estado dentro de la
 aplicación, esto es la información que usas y guardas temporalmente por cada
-ejecución. Para esto unas herramientas para _react_ que te pueden servir son 
+ejecución. Para esto unas herramientas para _react_ que te pueden servir son
 __Redux__ o también __Context API__ así como también los estados internos de
 cada componente. Por el lado de _angular_ tendrás a los __observables__
 y su uso conjunto con los __servicios__ y por supuesto las propiedades que uses
@@ -142,7 +142,6 @@ internet :
 * [Babylon](https://www.babylonjs.com/)
 * [Impact](https://github.com/phoboslab/impact)
 * [Phaser](https://phaser.io)
-
 
 ### Otros recursos
 
