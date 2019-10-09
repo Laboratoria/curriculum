@@ -147,6 +147,7 @@ internet :
 * [servicios-angular](https://angular.io/tutorial/toh-pt4)
 * [contexto-react](https://es.reactjs.org/docs/context.html)
 * [hooks-react](https://es.reactjs.org/docs/hooks-intro.html)
+* [Más animaciones para frameworks](https://popmotion.io/pose/)
 
 #### Conceptos
 
