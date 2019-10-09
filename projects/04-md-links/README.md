@@ -46,43 +46,80 @@ En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
 sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 
-## 3. Objetivos de aprendizaje
+En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
+propia librería (o biblioteca - library) en JavaScript.
 
-El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
-**librería** (o biblioteca - _library_) en JavaScript.
+## 3. Objetivos de aprendizaje
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-Tópicos: [Node.js](https://nodejs.org/en/),
-[módulos (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
-[file system](https://nodejs.org/api/fs.html),
-[path](https://nodejs.org/api/path.html),
-[http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
-parsing,
-[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
-[npm-scripts](https://docs.npmjs.com/misc/scripts),
-[semver](https://semver.org/), ...
+A continuación puedes ver los objetivos de aprendizaje de este proyecto:
+
+### Javascript
+
+* [ ] Uso de callbacks
+* [ ] Consumo de Promesas
+* [ ] Creacion de Promesas
+* [ ] Modulos de JS (CommonJS vs ES Modules)
+* [ ] Recursión
+
+### Node
+
+* [ ] Sistema de archivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
+* [ ] [package.json](https://docs.npmjs.com/files/package.json)
+* [ ] crear módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
+* [ ] Instalar y usar módulos ([npm](https://www.npmjs.com/))
+* [ ] [npm-scripts](https://docs.npmjs.com/misc/scripts)
+* [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
+* [ ] [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback)
+
+### Testing
+
+* [ ] Testeo de tus funciones
+* [ ] Testeo asíncrono
+* [ ] Uso de librerias de Mock
+* [ ] Mocks manuales
+* [ ] Testeo para multiples Sistemas Operativos
+
+### Git y Github
+
+* [ ] Organización en Github
+
+### Buenas prácticas de desarrollo
+
+* [ ] Modularización
+* [ ] Nomenclatura / Semántica
+* [ ] Linting
+
+***
 
 ## 4. Consideraciones generales
 
-Este proyecto se debe "resolver" de manera individual.
+* Este proyecto se debe "resolver" de manera individual.
 
-La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js. **Está permitido usar librerías externas**.
+* La librería y script ejecutable (herramienta de línea de comando -
+  CLI) debe estar implementada en JavaScript para ser ejecutada con
+  Node.js. **Está permitido usar librerías externas**.
+
+* Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
+  módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
+  comando como una interfaz que podamos importar con `require` para usarlo
+  programáticamente.
+
+* Los tests unitarios deben cubrir un mínimo del 70% de _statements_,
+  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
+  para tus pruebas unitarias.
+
+* Para este proyecto no está permitido utilizar `async/await`.
+
+* Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
+  caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
+  que los transforme en `requires` y `module.exports` con ayuda de babel.
 
 ## 5. Criterios de aceptación mínimos del proyecto
-
-Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
-módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
-comando como una interfaz que podamos importar con `require` para usarlo
-programáticamente.
-
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
-para tus pruebas unitarias.
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
