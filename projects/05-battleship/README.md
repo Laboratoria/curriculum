@@ -14,7 +14,7 @@
 
 <img
 src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png"
-width="100%/>
+width="100%"/>
 
 Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de
 los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen
