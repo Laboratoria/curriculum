@@ -1,3 +1,4 @@
+<!-- markdownlint-disable no-bare-urls -->
 # Battleship
 
 ## Índice
@@ -11,7 +12,7 @@
 
 ## 1. Preámbulo
 
-<img 
+<img
 src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png"
 width="100%/>
 
