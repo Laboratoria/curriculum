@@ -11,7 +11,9 @@
 
 ## 1. Preámbulo
 
-<img src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png" width="100%"/>
+<img 
+src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png"
+width="100%/>
 
 Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de
 los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen
@@ -27,7 +29,9 @@ dominando el framework que elijas.
 
 ## 2. Resumen del proyecto
 
-<img src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png" width="100%"/>
+<img
+src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png"
+width="100%"/>
 
 Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
 linea (si no lo conoces, puedes verlo en este link :
@@ -130,12 +134,14 @@ grupo a hacer este proyecto usando algún framework orientado a videojuegos?. Te
 invitamos a aceptar el desafío e intentar hacer el juego usando algún
 __game engine__ como los que están a continuación o el que tu encuentres en la
 internet :
+
 * [GDevelop](https://gdevelop-app.com/)
 * [Moddio](https://www.modd.io/)
 * [Construct](https://www.scirra.com)
 * [Babylon](https://www.babylonjs.com/)
 * [Impact](https://github.com/phoboslab/impact)
 * [Phaser](https://phaser.io)
+
 
 ### Otros recursos
 
