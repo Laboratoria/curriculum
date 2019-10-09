@@ -7,14 +7,18 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
+* [6. Hacker edition](#6-hacker-edition)
 
 ## 1. Preámbulo
+
+<img src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png" width="100%"/>
 
 Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de
 los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen
 tener un juego corriendo en los primeros teléfonos. La idea era que si un juego
-ya estaba corriendo en la plataforma, un programa más simple con pantallas mucho
-más fáciles de trabajar con botones y texto debería funcionar aun mejor.
+podía ejecutarse en la plataforma, un programa más simple con pantallas mucho
+más fáciles de trabajar que solo tuviese botones y texto debería funcionar aun
+mejor.
 
 Entonces la idea de este proyecto es llevar los frameworks de aplicaciones web
 al límite de lo que pueden ofrecer, tratar de explorar sus funcionalidades más
@@ -22,6 +26,8 @@ avanzadas y lograr un producto que se luzca con tu talento y creatividad
 dominando el framework que elijas.
 
 ## 2. Resumen del proyecto
+
+<img src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png" width="100%"/>
 
 Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
 linea (si no lo conoces, puedes verlo en este link :
@@ -52,9 +58,11 @@ origen acá.
 
 2. No menos importante, tendrás que diseñar y mantener el estado dentro de la
 aplicación, esto es la información que usas y guardas temporalmente por cada
-ejecución. Para esto unas herramientas que están en _react_ son __Redux__ o
-también __Context API__. Por el lado de _angular_ tendrás a los __observables__
-y su uso conjunto con los __servicios__.
+ejecución. Para esto unas herramientas para _react_ que te pueden servir son 
+__Redux__ o también __Context API__ así como también los estados internos de
+cada componente. Por el lado de _angular_ tendrás a los __observables__
+y su uso conjunto con los __servicios__ y por supuesto las propiedades que uses
+en cada componente.
 
 3. Y finalmente tendrás que diseñar una interfaz llamativa, usando y abusando de
 todo lo que sabes de CSS y animaciones para que tengas un juego vistoso y que
@@ -89,14 +97,12 @@ contrincantes a cada jugador.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-* Los datos se deben mantener íntegros, incluso después de que un pedido ha
-  terminado. Todo esto para poder tener estadísticas en el futuro.
 
 ## 5. Pistas, tips y lecturas complementarias
 
-1. Modela los datos, es un paso muy importante, considera que el juego es de dos
-personas, pero más de una pareja puede estar jugando a la vez (modelo de salón
-de juego).
+1. Modelar los datos, es un paso muy importante, considera que el juego es de
+dos personas, pero más de una pareja puede estar jugando a la vez (modelo de
+salón de juego).
 
 2. Haz un _fork_ de este repositorio (en GitHub). Luego que tus compañeras de
 proyecto hagan a su vez _fork_ de __tu__ repositorio. Recuerda, como en
@@ -115,6 +121,21 @@ pueda detectar, como por ejemplo : todos los barcos se han hundido.
 reducidores y datos que estarán en cada juego, turno y movida de los jugadores.
 Puedes hacer un diagrama de estados para esto :
 [diagrama-estados](https://www.lucidchart.com/pages/es/diagrama-de-maquina-de-estados)
+
+## 6. Hacker edition
+
+Hasta el momento has usado javascript, html, css, react, angular, y otras
+herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
+grupo a hacer este proyecto usando algún framework orientado a videojuegos?. Te
+invitamos a aceptar el desafío e intentar hacer el juego usando algún
+__game engine__ como los que están a continuación o el que tu encuentres en la
+internet :
+* [GDevelop](https://gdevelop-app.com/)
+* [Moddio](https://www.modd.io/)
+* [Construct](https://www.scirra.com)
+* [Babylon](https://www.babylonjs.com/)
+* [Impact](https://github.com/phoboslab/impact)
+* [Phaser](https://phaser.io)
 
 ### Otros recursos
 
