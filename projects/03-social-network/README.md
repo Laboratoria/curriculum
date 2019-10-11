@@ -45,6 +45,44 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
  (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
+
+### HTML y CSS
+- [ ] HTML semántico
+- [ ] CSS `flexbox`
+- [ ] Maquetación
+
+### DOM y Web APIs
+- [ ] Manipulación dinámica del DOM
+- [ ] History API
+- [ ] `localStorage`
+
+### Javascript
+- [ ] Uso de callbacks
+- [ ] Consumo de Promesas
+- [ ] ES modules
+
+### Firebase
+- [ ] Firestore
+- [ ] Firebase Auth
+- [ ] Firebase security rules
+- [ ] Observables
+
+### Testing
+- [ ] Testeo de tus funciones
+- [ ] Testeo asíncrono
+- [ ] Mocking
+
+### Git y Github
+- [ ] Colaboración en Github
+- [ ] Organización en Github
+
+### Buenas prácticas de desarrollo
+- [ ] Modularización
+- [ ] Nomenclatura / Semántica
+- [ ] Linting
+
+***
+
 ## 4. Consideraciones generales
 
 * Este proyecto se debe trabajar en equipos de tres.
