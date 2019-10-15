@@ -2,7 +2,10 @@
 
 Especificación de endpoints
 
-- ## [`auth`](./module-auth.html)
-- ## [`users`](./module-users.html)
-- ## [`products`](./module-products.html)
-- ## [`orders`](./module-orders.html)
+## [`auth`](./module-auth.html)
+
+## [`users`](./module-users.html)
+
+## [`products`](./module-products.html)
+
+## [`orders`](./module-orders.html)
