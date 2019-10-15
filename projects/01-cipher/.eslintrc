@@ -3,10 +3,12 @@
     "browser": true
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
   "extends": "eslint:recommended",
-  "globals": {
-    "cipher": false
+  "rules": {
+    "no-console": "warn",
+    "import/extensions": 0
   }
 }

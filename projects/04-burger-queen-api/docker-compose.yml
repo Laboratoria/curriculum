@@ -1,0 +1,35 @@
+version: "3"
+services:
+  db:
+    # TODO: configura tu imagen de base de datos, te recomendamos una de las sgtes:
+    # https://hub.docker.com/_/mysql
+    # https://hub.docker.com/_/mongo
+    networks:
+      - private
+  node:
+    image: "node:10" # https://hub.docker.com/_/node/
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+      - DB_URL=<CONNECTION STRING>
+    env_file:
+      - secrets.env # los _secrets_ a incluir como variables de entorno. Usa el archivo `sample.secrets.env` como guia
+    volumes:
+      - ./:/home/node/app # montamos el codigo en el HOME del usuario _node_
+    expose:
+      - "8080" # nuestra app corre en el puerto 8080
+    ports:
+      - "80:8080" # mapeamos el puerto 8080 de nuestro contenedor al puerto 80 de nuestra maquina
+    command: "bash -c 'rm -rf node_modules && npm install && npm start'" # reinstalamos las dependencias y levantamos el servidor
+    depends_on:
+      - db
+    networks:
+      - public
+      - private
+networks:
+  public:
+    internal: false
+  private:
+    internal: true
