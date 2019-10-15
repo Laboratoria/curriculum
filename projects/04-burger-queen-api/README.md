@@ -2,13 +2,13 @@
 
 ## Índice
 
-- [1. Preámbulo](#1-pre%C3%A1mbulo)
-- [2. Resumen del proyecto](#2-resumen-del-proyecto)
-- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-- [4. Consideraciones generales](#4-consideraciones-generales)
-- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
-- [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-- [7 HTTP API Checklist](#7-http-api-checklist)
+* [1. Preámbulo](#1-pre%C3%A1mbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
+* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [7 HTTP API Checklist](#7-http-api-checklist)
 
 ## 1. Preámbulo
 
