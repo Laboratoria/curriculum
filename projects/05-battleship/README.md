@@ -126,22 +126,6 @@ reducidores y datos que estarán en cada juego, turno y movida de los jugadores.
 Puedes hacer un diagrama de estados para esto :
 [diagrama-estados](https://www.lucidchart.com/pages/es/diagrama-de-maquina-de-estados)
 
-## 6. Hacker edition
-
-Hasta el momento has usado javascript, html, css, react, angular, y otras
-herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
-grupo a hacer este proyecto usando algún framework orientado a videojuegos?. Te
-invitamos a aceptar el desafío e intentar hacer el juego usando algún
-__game engine__ como los que están a continuación o el que tu encuentres en la
-internet :
-
-* [GDevelop](https://gdevelop-app.com/)
-* [Moddio](https://www.modd.io/)
-* [Construct](https://www.scirra.com)
-* [Babylon](https://www.babylonjs.com/)
-* [Impact](https://github.com/phoboslab/impact)
-* [Phaser](https://phaser.io)
-
 ### Otros recursos
 
 #### Bibliotecas y componentes
@@ -159,3 +143,19 @@ internet :
 * [observables](https://angular.io/guide/observables)
 * [visualizador-observables](https://rxviz.com/)
 * [visualizador-observables-2](https://rxmarbles.com/)
+
+## 6. Hacker edition
+
+Hasta el momento has usado javascript, html, css, react, angular, y otras
+herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
+grupo a hacer este proyecto usando algún framework orientado a videojuegos?. Te
+invitamos a aceptar el desafío e intentar hacer el juego usando algún
+__game engine__ como los que están a continuación o el que tu encuentres en la
+internet:
+
+* [GDevelop](https://gdevelop-app.com/)
+* [Moddio](https://www.modd.io/)
+* [Construct](https://www.scirra.com)
+* [Babylon](https://www.babylonjs.com/)
+* [Impact](https://github.com/phoboslab/impact)
+* [Phaser](https://phaser.io)
