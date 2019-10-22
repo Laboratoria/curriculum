@@ -79,19 +79,20 @@ buildItems([
   // JS Projects (spanish)
   { type: 'project', id: '01-cipher', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '03-social-network', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '04-redesign-and-data', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '04-social-network-frameworks', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-bq-node', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
+  { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-redesign-and-data', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '05-ux-consultancy', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '06-service-design', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '06-visual-design', locale: 'es-ES', track: 'ux' },
