@@ -82,6 +82,7 @@ buildItems([
   { type: 'project', id: '03-social-network', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api-client', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-social-network-frameworks', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
