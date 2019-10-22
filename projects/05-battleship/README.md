@@ -1,4 +1,3 @@
-<!-- markdownlint-disable no-bare-urls -->
 # Battleship
 
 ## Índice
