@@ -48,7 +48,7 @@ Pre    | Common Core          | Track                                           
        |                      |                                                       |                |
        |                      |                                                       | bq-node        |
        |                      | Frontend                                              |/               |
-       |                      | social-network > md-links > burger-queen              |                |
+       |                      | social-network > md-links > burger-queen              |-battleship     |
        |                      | /                                                     |\               |
        |                      |/                                                      | tic-tac-toe-rn |
 trivia | cipher > data-lovers |                                                       |                |
@@ -282,6 +282,21 @@ nativas.
 * Duración estimada: 2 semanas.
 * Equipos: 1 estudiante
 * Tópicos: React Native, Expo, componentes nativos, touch events, ...
+
+#### Proyecto: [Battleship](projects/05-battleship)
+
+Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
+linea (si no lo conoces, puedes verlo en este link :
+[battle-ship](https://es.wikipedia.org/wiki/Batalla_naval_(juego))).
+
+En este proyecto deberás crear una nueva versión, agregándole algún giro para
+actualizarlo y hacerlo más atractivo para las nuevas generaciones. También, no
+estás atada a hacer este juego sobre barcos, puedes hacerlo con el tema que más
+te guste, siempre y cuando el modo de juego sea parecido.
+
+* Duración estimada: 2 semanas.
+* Equipos: 3 estudiantes
+* Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
 
 ### Track UX Design
 
