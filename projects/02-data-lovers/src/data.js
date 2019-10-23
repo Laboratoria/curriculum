@@ -1,8 +1,9 @@
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
+// estas funciones son de ejemplo
 
-const example = () => {
+export const example = () => {
   return 'example';
 };
 
-window.example = example;
+export const anotherExample = () => {
+  return 'OMG';
+};
