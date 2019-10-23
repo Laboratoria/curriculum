@@ -7,14 +7,18 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest",
+    "test": "jest --verbose --coverage",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve src/"
   },
   "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "babel-jest": "^24.9.0",
     "eslint": "^5.9.0",
-    "eslint-plugin-jest": "^22.1.2",
-    "htmlhint": "^0.10.1",
-    "jest": "^23.6.0",
+    "htmlhint": "^0.11.0",
+    "jest": "^24.9.0",
+    "opener": "^1.5.1",
     "serve": "^11.0.0"
   }
 }

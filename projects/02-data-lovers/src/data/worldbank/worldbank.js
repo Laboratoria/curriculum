@@ -1,4 +1,4 @@
-const WORLDBANK = {
+export default {
   "PER": {
     "indicators": [
       {
