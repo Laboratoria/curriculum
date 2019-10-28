@@ -373,4 +373,4 @@ para inspeccionar las props y trasladarte a través del árbol hasta que
 encuentre el componente responsable de actualizar el state.
 Esto te permite rastrear bugs hasta su origen:
 
-![Monitoreando State en React DevTools](https://reactjs.org/react-devtools-state-ef94afc3447d75cdc245c77efb0d63be.gif)
+![Monitoreando State en React DevTools](https://es.reactjs.org/react-devtools-state-ef94afc3447d75cdc245c77efb0d63be.gif)

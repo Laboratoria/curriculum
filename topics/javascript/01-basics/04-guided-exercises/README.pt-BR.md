@@ -41,6 +41,12 @@ super importante você praticar!! Os projetos a criar são:
 
 A seguir, Thaissa te explica como resolveu cada um dos exercícios anteriores.
 
+> NOTA: Nos vídeos a seguir, Thaissa usa `var` ao invés de `let` e `const` para
+> declarar variáveis, bem como outros _recursos_ um pouco antigos de JavaScript.
+> Eles são válidos e fazem parte da linguagem, mas hoje em dia preferimos usar
+> _recursos/features_ mais modernos e adequados como é o caso de `let` e
+> `const`. Nesse caso, esses vídeos foram gravados já faz um tempo... ;-)
+
 ### 1.  Idade em segundos
 
 [![Solution Age in

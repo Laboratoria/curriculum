@@ -43,22 +43,22 @@ El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
 y **Electivos**.
 
 ```
-Pre    | Common Core          | Track                                                 | Electivos      |
-===    | ===========          | =====                                                 | =========      |
-       |                      |                                                       |                |
-       |                      |                                                       | bq-node        |
-       |                      | Frontend                                              |/               |
-       |                      | social-network > md-links > burger-queen              |                |
-       |                      | /                                                     |\               |
-       |                      |/                                                      | tic-tac-toe-rn |
-trivia | cipher > data-lovers |                                                       |                |
-       |                      |\                                                      |                |
-       |                      | \                                                     | service-design |
-       |                      | UX                                                    |/               |
-       |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
-       |                      |                                                       |\               |
-       |                      |                                                       | visual-design  |
-       |                      |                                                       |                |
+Pre    | Common Core          | Track                                                   | Electivos      |
+===    | ===========          | =====                                                   | =========      |
+       |                      |                                                         |                |
+       |                      |  Frontend                                               |                |
+       |                      |  social-network > md-links     burger-queen             | battleship     |
+       |                      |  /                         \  /                       \ |/               |
+       |                      | /\                          > -burger-queen-api-client >|                |
+       |                      |/  \                        /  \                       / |\               |
+trivia | cipher > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn |
+       |                      |\                                                        |                |
+       |                      | \                                                       | service-design |
+       |                      |  UX                                                     |/               |
+       |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint  |
+       |                      |                                                         |\               |
+       |                      |                                                         | visual-design  |
+       |                      |                                                         |                |
 ```
 
 ***
@@ -155,23 +155,6 @@ entendiendo las necesidades de los usuarios para los que sw creará el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
-
-Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
-restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
-_tablet_.
-
-El objetivo principal de aprendizaje de este proyecto es construir una
-_interfaz web_ usando un _framework_ (React, Vue o Angular).
-
-Como objetivo secundario, la implementación debe seguir las recomendaciones
-para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
-
-* Duración estimada: 3 semanas.
-* Equipos: 1-2 estudiantes.
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
-  Service Workers, Serverless.
-
 #### Proyecto: [Markdown Links](projects/04-md-links)
 
 Dentro de una comunidad de código abierto, proponen crear una herramienta
@@ -192,58 +175,24 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
   Módulos, [Errores](topics/javascript/09-errors).
 
-### Track UX Design
+#### Proyecto: [Burger Queen Serverless](projects/04-burger-queen)
 
-#### Proyecto: [Emprendimientos](projects/06-small-businesses)
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
+restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
+_tablet_.
 
-Para este reto inicial del track, las estudiantes trabajan con pequeños
-emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
-Para ello, tienen que entender los objetivos de negocio y también las
-necesidades de los usuarios/clientes de estos emprendimientos. Durante este
-reto las estudiantes hacen trabajo de campo como entrevistas, observación y
-testing. Y diseñan soluciones utilizando herramientas de diseño como Figma y
-Marvel.
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
 
-* Duración estimada: 3 semanas
-* Equipos: 2 o 3 estudiantes
-* Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
-  (flujo de contenido, mapa de sitio), diseño visual y de interacción
-  (wireframes y prototipado), y user testing
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
-#### Proyecto: [Rediseño y análisis de data](projects/07-redesign-and-data)
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+  Service Workers, Serverless.
 
-Este es un proyecto de rediseño. Basándose en la data de los resultados
-que está teniendo una aplicación de servicios financieros, las estudiantes
-buscan mejorar la experiencia de la misma. En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de
-aprendizaje.
-
-* Duración estimada: 3 semanas
-* Equipos: 2 o 3 estudiantes
-* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
-
-#### Proyecto: [Consultoría UX](projects/08-ux-consultancy)
-
-En este reto, las estudiantes trabajan en distintos casos reales
-propuestos por empresas de diversos rubros y tamaños. Anteriores retos
-han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
-Magical Startups, Laboratoria, entre otras.
-
-* Duración estimada: 3 semanas
-* Equipos: Depende de proyectos
-* Tópicos: UX Research, prototipado, ideación, visual design
-
-***
-
-## Etapa 3: Capstone / Electivos
-
-El último mes del Bootcamp - más o menos, cada una avanza a su ritmo - se espera
-que construyas tu proyecto _final_ o _capstone_, que puede estar basado en los
-tópicos/tecnologías vistas hasta el momento, o pueden cubrir algunos de los
-tópicos sugeridos (electivos).
-
-### Track Front End Dev
-
-#### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
+#### Proyecto: [Burger Queen HTTP/JSON API](projects/04-burger-queen-api)
 
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
@@ -266,6 +215,74 @@ familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
   response, headers, body, status codes...), JSON, MongoDB,
   _variables de entorno_, JWT (_JSON Web Tokens_)...
 
+#### Proyecto: [Burger Queen API Client](projects/04-burger-queen-api-client)
+
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
+restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
+_tablet_.
+
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
+
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
+
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+  Service Workers, HTTP, JSON, `fetch`.
+
+### Track UX Design
+
+#### Proyecto: [Emprendimientos](projects/03-small-businesses)
+
+Para este reto inicial del track, las estudiantes trabajan con pequeños
+emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
+Para ello, tienen que entender los objetivos de negocio y también las
+necesidades de los usuarios/clientes de estos emprendimientos. Durante este
+reto las estudiantes hacen trabajo de campo como entrevistas, observación y
+testing. Y diseñan soluciones utilizando herramientas de diseño como Figma y
+Marvel.
+
+* Duración estimada: 3 semanas
+* Equipos: 2 o 3 estudiantes
+* Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
+  (flujo de contenido, mapa de sitio), diseño visual y de interacción
+  (wireframes y prototipado), y user testing
+
+#### Proyecto: [Rediseño y análisis de data](projects/04-redesign-and-data)
+
+Este es un proyecto de rediseño. Basándose en la data de los resultados
+que está teniendo una aplicación de servicios financieros, las estudiantes
+buscan mejorar la experiencia de la misma. En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de
+aprendizaje.
+
+* Duración estimada: 3 semanas
+* Equipos: 2 o 3 estudiantes
+* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
+
+#### Proyecto: [Consultoría UX](projects/05-ux-consultancy)
+
+En este reto, las estudiantes trabajan en distintos casos reales
+propuestos por empresas de diversos rubros y tamaños. Anteriores retos
+han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
+Magical Startups, Laboratoria, entre otras.
+
+* Duración estimada: 3 semanas
+* Equipos: Depende de proyectos
+* Tópicos: UX Research, prototipado, ideación, visual design
+
+***
+
+## Etapa 3: Capstone / Electivos
+
+El último mes del Bootcamp - más o menos, cada una avanza a su ritmo - se espera
+que construyas tu proyecto _final_ o _capstone_, que puede estar basado en los
+tópicos/tecnologías vistas hasta el momento, o pueden cubrir algunos de los
+tópicos sugeridos (electivos).
+
+### Track Front End Dev
+
 #### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
 
 El objetivo principal de aprendizaje es tener una primera experiencia en
@@ -283,9 +300,24 @@ nativas.
 * Equipos: 1 estudiante
 * Tópicos: React Native, Expo, componentes nativos, touch events, ...
 
+#### Proyecto: [Battleship](projects/05-battleship)
+
+Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
+linea (si no lo conoces, puedes verlo en este link :
+[battle-ship](https://es.wikipedia.org/wiki/Batalla_naval_(juego))).
+
+En este proyecto deberás crear una nueva versión, agregándole algún giro para
+actualizarlo y hacerlo más atractivo para las nuevas generaciones. También, no
+estás atada a hacer este juego sobre barcos, puedes hacerlo con el tema que más
+te guste, siempre y cuando el modo de juego sea parecido.
+
+* Duración estimada: 2 semanas.
+* Equipos: 3 estudiantes
+* Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
+
 ### Track UX Design
 
-#### Proyecto: [Visual Design](projects/09-visual-design)
+#### Proyecto: [Visual Design](projects/06-visual-design)
 
 En este reto buscamos mejorar las habilidades de diseño visual de interfaces.
 Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
@@ -301,7 +333,7 @@ objetivos de aprendizaje.
 * Tópicos: Design Systems, Grid systems, atomic design, componentes,
   consistencia,jerarquía, responsive design.
 
-#### Proyecto: [Service Design](projects/10-service-design)
+#### Proyecto: [Service Design](projects/06-service-design)
 
 Con la ayuda de consultoras especializadas como Amable o Touchpoint,
 las estudiantes se sumergen en el mundo del service design. Entendiendo

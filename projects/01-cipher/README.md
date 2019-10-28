@@ -137,9 +137,9 @@ La interfaz debe permitir al usuario:
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
+* `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
+  _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
+  métodos:
   - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
     que queremos cifrar.
@@ -278,9 +278,9 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
    condiciones, algo como [Atom](https://atom.io/) o
    [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
