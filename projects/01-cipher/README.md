@@ -87,7 +87,7 @@ Dicho en palabras sencillas, aprenderás a
   **innerHTML** o **textContent**.
 * **Implementar funciones** dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_test_) con Mocha**).
+  (**pruebas unitarias (_unit tests_) con Jest**).
 * Configurar tu cuenta de git.
 * _Forkear_ y _clonar_ el repositorio del proyecto.
 * Mantener actualizado los cambios en tu repositorio remoto
