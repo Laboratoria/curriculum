@@ -74,7 +74,7 @@ Dicho en palabras sencillas, aprenderás a
   producto digital.
 * Conocer los principios básicos del diseño visual.
 * Utilizar etiquetas semánticas de HTML5 y elementos de formulario.
-* Pintar elementos de formulario en la pantalla usando **HTML5** y **CSS3**.
+* Mostrar elementos de formulario en la pantalla usando **HTML5** y **CSS3**.
 * Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
 * Utilizar el modelo de cajas de CSS (border, margin, padding).
 * Definir reglas de estilo en CSS.
