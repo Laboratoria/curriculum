@@ -62,7 +62,7 @@ ejemplo:
 ## 3. Objetivos de aprendizaje
 
 En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
-interactúe con el usuario final a través del navegador utilizando HTML5, CCS3 y
+interactuará con el usuario final a través del navegador utilizando HTML, CSS y
 JavaScript (ES6) como herramientas.
 
 Dicho en palabras sencillas, aprenderás a
