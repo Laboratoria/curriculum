@@ -184,17 +184,17 @@ Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
 _exportado_ en el _boilerplate_. Este objeto (`validator`) contiene
 dos métodos (`isValid` y `maskify`):
 
-* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es un `string` con 
-el número de tarjeta que se va a verificar. Esta función debe retornar un `boolean`
-dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es un `string`
+con el número de tarjeta que se va a verificar. Esta función debe retornar un
+`boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
 * **`validator.maskify(creditCardNumber)`**: `creditCardNumber` es un `string` con
-el número de tarjeta y esta función debe retornar un `string` donde todos menos los 
-últimos cuatro caracteres sean reemplazados por un numeral (`#`) o 🐱.
+el número de tarjeta y esta función debe retornar un `string` donde todos menos
+los últimos cuatro caracteres sean reemplazados por un numeral (`#`) o 🐱.
 Esta función deberá siempre mantener los últimos cuatro caracteres intactos, aún
 cuando el `string` sea de menor longitud.
 
-    ##### Ejemplo de uso
+    Ejemplo de uso
 
     ```js
     maskify('4556364607935616') === '############5616'
