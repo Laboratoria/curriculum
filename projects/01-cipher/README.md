@@ -61,20 +61,38 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto aprenderás a construir una aplicación web que interactúe con el
-usuario a través del navegador y la lógica basada en esa interacción. Dicho en
-palabras sencillas, aprenderás a:
+En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
+interactuará con el usuario final a través del navegador utilizando HTML, CSS y
+JavaScript como herramientas.
 
-* Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+Dicho en palabras sencillas, aprenderás a
+
+* Organizar tu tiempo y priorizar tareas en un entorno de
+  **alta incertidumbre**.
+* Entender las **necesidades del usuario** y cómo proponer una solución.
+* Entender la importancia del proceso de prototipado durante la creación de un
+  producto digital.
+* Conocer los principios básicos del diseño visual.
+* Utilizar etiquetas semánticas de HTML y elementos de formulario.
+* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
+* Utilizar el modelo de cajas de CSS (border, margin, padding).
+* Definir reglas de estilo en CSS.
 * Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos **eventos del DOM**.
+  aplicación responda (cifrar/descifrar) cuando ocurran esos
+  **eventos del DOM**.
 * Manipular _**strings**_ (cadenas de texto).
 * Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**).
+* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
+  **innerHTML** o **textContent**.
 * **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar tu implementación con **pruebas unitarias**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+* Verificar que tus funciones hagan las cosas para las que fueron creadas
+  (**pruebas unitarias (_unit tests_) con Jest**).
+* Configurar tu cuenta de git.
+* Hacer _fork_ y _clonar_ el repositorio del proyecto.
+* Mantener actualizado los cambios en tu repositorio remoto
+  (commit, pull, push).
+* Desplegar tu proyecto en gh-pages.
 
 ## 4. Consideraciones generales
 
@@ -149,8 +167,8 @@ hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
 ## 7. Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6). En este proyecto NO está permitido usar librerías o frameworks, sólo
+La lógica del proyecto debe estar implementada completamente en JavaScript. En
+este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
@@ -171,6 +189,7 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 ```text
 ./
+├── .babelrc
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
@@ -182,9 +201,8 @@ como toda la configuración de dependencias y tests de ejemplo:
 │   ├── index.js
 │   └── style.css
 └── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
+    ├── .eslintrc
+    └── cipher.spec.js
 ```
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
