@@ -63,7 +63,7 @@ ejemplo:
 
 En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
 interactuará con el usuario final a través del navegador utilizando HTML, CSS y
-JavaScript (ES6) como herramientas.
+JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a
 
@@ -73,8 +73,8 @@ Dicho en palabras sencillas, aprenderás a
 * Entender la importancia del proceso de prototipado durante la creación de un
   producto digital.
 * Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas de HTML5 y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML5** y **CSS3**.
+* Utilizar etiquetas semánticas de HTML y elementos de formulario.
+* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
 * Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
 * Utilizar el modelo de cajas de CSS (border, margin, padding).
 * Definir reglas de estilo en CSS.
@@ -167,8 +167,8 @@ hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
 ## 7. Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6). En este proyecto NO está permitido usar librerías o frameworks, sólo
+La lógica del proyecto debe estar implementada completamente en JavaScript. En
+este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
@@ -189,6 +189,7 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 ```text
 ./
+├── .babelrc
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
@@ -200,9 +201,8 @@ como toda la configuración de dependencias y tests de ejemplo:
 │   ├── index.js
 │   └── style.css
 └── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
+    ├── .eslintrc
+    └── cipher.spec.js
 ```
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
