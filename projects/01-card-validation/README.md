@@ -31,7 +31,8 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
 aplicación web que le permita a un usuario validar el número de una tarjeta de
-crédito. // aqui mencionar requeriemiento
+crédito. Además de ocultar todos los dígitos de la tarjeta menos los últimos
+cuatro dígitos.
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
@@ -45,7 +46,6 @@ aplicaciones web (WebApp) que interactúen con el usuario a través del navegado
 y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a:
-
 
 * Organizar tu tiempo y priorizar tareas en un entorno de
   **alta incertidumbre**.
@@ -67,7 +67,7 @@ Dicho en palabras sencillas, aprenderás a:
   **innerHTML** o **textContent**.
 * **Implementar funciones** dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con Jest**).
+  (**pruebas unitarias (_unit tests_) con [Jest](https://jestjs.io/es-ES/)**).
 * Configurar tu cuenta de git.
 * Hacer _fork_ y _clonar_ el repositorio del proyecto.
 * Mantener actualizado los cambios en tu repositorio remoto
@@ -78,8 +78,8 @@ Dicho en palabras sencillas, aprenderás a:
 
 * Este proyecto se debe resolver de manera individual.
 * El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
+  interfaz será desplegada usando [GitHub pages](https://pages.github.com). Si
+  no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
 * Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
   primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
   terminarás.
@@ -103,6 +103,8 @@ La interfaz debe permitir al usuario:
 
 * Insertar el número que queremos validar.
 * Ver el resultado si es válido o no.
+* Ocultar todos los dígitos de su número de tarjeta menos los últimos
+4 caracteres.
 * No debe poder ingresar un campo vacío.
 
 ### UX (Diseño de experiencia de usuario)
@@ -174,28 +176,46 @@ indicamos qué harás en cada archivo:
 
 ##### `src/validator.js`
 
-Acá escribirás la función necesaria para que el usuario pueda verificar la
-tarjeta de crédito. Esta función debe ser pura e independiente del DOM.
+Acá escribirás las funciones necesarias para que el usuario pueda verificar la
+tarjeta de crédito y ocultar los dígitos de su número de tarjeta.
+Esta función debe ser pura e independiente del DOM.
 
 Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
 _exportado_ en el _boilerplate_. Este objeto (`validator`) contiene
-un método el cual debe retornar un `boolean`:
+dos métodos (`isValid` y `maskify`):
 
-* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es el número de
-tarjeta que se va a verificar.
+* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es un `string`
+con el número de tarjeta que se va a verificar. Esta función debe retornar un
+`boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+
+* **`validator.maskify(creditCardNumber)`**: `creditCardNumber` es un `string` con
+el número de tarjeta y esta función debe retornar un `string` donde todos menos
+los últimos cuatro caracteres sean reemplazados por un numeral (`#`) o 🐱.
+Esta función deberá siempre mantener los últimos cuatro caracteres intactos, aún
+cuando el `string` sea de menor longitud.
+
+    Ejemplo de uso
+
+    ```js
+    maskify('4556364607935616') === '############5616'
+    maskify(     '64607935616') ===      '#######5616'
+    maskify(               '1') ===                '1'
+    maskify(               '')  ===                ''
+    ```
 
 ##### `src/index.js`
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
-Es decir, en este archivo deberás invocar a tu función `isValid` según sea
-necesario para actualizar el resultado en la pantalla(UI).
+Es decir, en este archivo deberás invocar las funciones `isValid` y `maskify`
+según sea necesario para actualizar el resultado en la pantalla (UI).
 
 ##### `test/validator.spec.js`
 
-En este archivo tendrás que completar las pruebas unitarias de la función
-`validator.isValid(creditCardNumber)` implementada en `validator.js` utilizando
-Jest. Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
+En este archivo tendrás que completar las pruebas unitarias de las funciones
+`validator.isValid(creditCardNumber)` y `validator.maskify(creditCardNumber)`
+implementadas en `validator.js` utilizando [Jest](https://jestjs.io/es-ES/).
+Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
 _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
@@ -264,7 +284,7 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
   que es un programita que interpreta líneas de comando (command-line
   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
-  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+  instalado. Si usas un sistema operativo 'UNIX-like', como GNU/Linux o MacOS,
   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
   aunque recomendaría que consideres probar :penguin: GNU/Linux.
