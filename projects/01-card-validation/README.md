@@ -31,7 +31,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
 aplicación web que le permita a un usuario validar el número de una tarjeta de
-crédito.
+crédito. // aqui mencionar requeriemiento
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
@@ -46,30 +46,32 @@ y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
 
 Dicho en palabras sencillas, aprenderás a:
 
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponerle una solución.
+
+* Organizar tu tiempo y priorizar tareas en un entorno de
+  **alta incertidumbre**.
+* Entender las **necesidades del usuario** y cómo proponer una solución.
 * Entender la importancia del proceso de prototipado durante la creación de un
-  proyecto digital.
+  producto digital.
 * Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas  de HTML y elementos de formulario.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
-  etc.
-* Utilizar el modelo de cajas (border, margin, padding)
-* Definir reglas de estilos en CSS.
-* Utilizar eventos del DOM que le permitan al usuario interactuar con la
-  aplicación.
-* Utilizar los métodos de selección del DOM.
-* Actualizar de manera dinámica el contenido de la aplicación a través de
-  innerHTML o textContent.
+* Utilizar etiquetas semánticas de HTML y elementos de formulario.
+* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
+* Utilizar el modelo de cajas de CSS (border, margin, padding).
+* Definir reglas de estilo en CSS.
+* Permitir al usuario interactuar con elementos del DOM y hacer que la
+  aplicación responda (cifrar/descifrar) cuando ocurran esos
+  **eventos del DOM**.
 * Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo if-else, do-while** (bucles y condicionales).
-* _Implementar funciones_ dada una descripción de su comportamiento.
+* Usar **control de flujo** (bucles, condicionales, ...).
+* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
+  **innerHTML** o **textContent**.
+* **Implementar funciones** dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-(**pruebas unitarias (_test_) con Jest**).
-* Configurar tu cuenta de _git_.
-* _Forkear_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto (`commit`, `pull`,
-  `push`).
+  (**pruebas unitarias (_unit tests_) con Jest**).
+* Configurar tu cuenta de git.
+* Hacer _fork_ y _clonar_ el repositorio del proyecto.
+* Mantener actualizado los cambios en tu repositorio remoto
+  (commit, pull, push).
 * Desplegar tu proyecto en [GitHub Pages](https://pages.github.com).
 
 ## 4. Consideraciones generales
