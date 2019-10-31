@@ -1,5 +1,5 @@
 // importamos el objeto `validator`, que contiene la función `isValid`
-import validator from '../src/validator.js';
+import validator from '../src/validator';
 
 describe('validator', () => {
   it('debería ser un objeto', () => {
@@ -20,5 +20,21 @@ describe('validator', () => {
     });
   });
 
-  // agregar pruebas de makify
+  describe('validator.maskify', () => {
+    it('debería ser una función', () => {
+      expect(typeof validator.maskify).toBe('function');
+    });
+
+    it.skip('Debería retornar "############5616" para "4556364607935616"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('Debería retornar "1" para "1"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('Debería retornar "######orld" para "helloworld"', () => {
+      // escribe aquí tu test
+    });
+  });
 });
