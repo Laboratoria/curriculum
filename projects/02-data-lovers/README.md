@@ -289,26 +289,6 @@ Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
 acá va la página que se mostrará al usuario. También nos sirve para indicar
 qué scripts se usarán y unir todo lo que hemos hecho.
 
-En este archivo encontrarás una serie de _etiquetas_ (_tags_) `<script>`
-_comentadas_. Para _cargar_ las diferentes fuentes de datos tendrás que
-_descomentar_ estas _etiquetas_. Cada uno estos scripts asignará una variable
-global con la data correspondiente a esa fuente de datos.
-
-Por ejemplo, si "descomentamos" la siguiente línea:
-
-```html
-<!-- <script src="./data/worldbank/worldbank.js"></script> -->
-```
-
-La línea quedaría así:
-
-```html
-<script src="./data/worldbank/worldbank.js"></script>
-```
-
-Y ahora tendríamos la variable global `WORLDBANK` disponible en nuestros otros
-scripts (como `src/data.js` o `src/main.js`).
-
 ### `src/main.js`
 
 Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
@@ -318,6 +298,24 @@ manejadores de eventos (_event listeners_ o _event handlers_), ....
 
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+En este archivo encontrarás una serie de _imports_ _comentados_. Para _cargar_
+las diferentes fuentes de datos tendrás que _descomentar_ la línea
+correspondiente.
+
+Por ejemplo, si "descomentamos" la siguiente línea:
+
+```js
+// import data from './data/pokemon/pokemon.js';
+```
+
+La línea quedaría así:
+
+```js
+import data from './data/pokemon/pokemon.js';
+```
+
+Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
 
 ### `src/data.js`
 
