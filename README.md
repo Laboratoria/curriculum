@@ -43,22 +43,22 @@ El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
 y **Electivos**.
 
 ```
-Pre    | Common Core          | Track                                                 | Electivos      |
-===    | ===========          | =====                                                 | =========      |
-       |                      |                                                       |                |
-       |                      |                                                       | bq-node        |
-       |                      | Frontend                                              |/               |
-       |                      | social-network > md-links > burger-queen              |                |
-       |                      | /                                                     |\               |
-       |                      |/                                                      | tic-tac-toe-rn |
-trivia | cipher > data-lovers |                                                       |                |
-       |                      |\                                                      |                |
-       |                      | \                                                     | service-design |
-       |                      | UX                                                    |/               |
-       |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
-       |                      |                                                       |\               |
-       |                      |                                                       | visual-design  |
-       |                      |                                                       |                |
+Pre    | Common Core          | Track                                                   | Electivos      |
+===    | ===========          | =====                                                   | =========      |
+       |                      |                                                         |                |
+       |                      |  Frontend                                               |                |
+       |                      |  social-network > md-links     burger-queen             | battleship     |
+       |                      |  /                         \  /                       \ |/               |
+       |                      | /\                          > -burger-queen-api-client >|                |
+       |                      |/  \                        /  \                       / |\               |
+trivia | cipher > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn |
+       |                      |\                                                        |                |
+       |                      | \                                                       | service-design |
+       |                      |  UX                                                     |/               |
+       |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint  |
+       |                      |                                                         |\               |
+       |                      |                                                         | visual-design  |
+       |                      |                                                         |                |
 ```
 
 ***
@@ -155,23 +155,6 @@ entendiendo las necesidades de los usuarios para los que sw creará el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
-
-Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
-restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
-_tablet_.
-
-El objetivo principal de aprendizaje de este proyecto es construir una
-_interfaz web_ usando un _framework_ (React, Vue o Angular).
-
-Como objetivo secundario, la implementación debe seguir las recomendaciones
-para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
-
-* Duración estimada: 3 semanas.
-* Equipos: 1-2 estudiantes.
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
-  Service Workers, Serverless.
-
 #### Proyecto: [Markdown Links](projects/04-md-links)
 
 Dentro de una comunidad de código abierto, proponen crear una herramienta
@@ -191,6 +174,63 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Equipos: 1 estudiante.
 * Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
   Módulos, [Errores](topics/javascript/09-errors).
+
+#### Proyecto: [Burger Queen Serverless](projects/04-burger-queen)
+
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
+restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
+_tablet_.
+
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
+
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
+
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+  Service Workers, Serverless.
+
+#### Proyecto: [Burger Queen HTTP/JSON API](projects/04-burger-queen-api)
+
+El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
+como herramienta para desarrollar _aplicaciones de servidor_, junto con una
+serie de herramientas comunes usadas en este tipo de contexto (Express como
+framework, MongoDB como base datos, ...).
+
+En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
+sobre `HTTP`.
+
+En este proyecto partimos de un _boilerplate_ que ya contiene una serie de
+_endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
+Esto implica que tendremos que partir por leer la implementación existente, y
+familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
+[Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/),
+[mongoose](https://mongoosejs.com/), ...
+
+* Duración estimada: 2 semanas.
+* Equipos: 1 estudiante
+* Tópicos: Node.js, Express, _rutas_ (_routes_), URLs, HTTP (verbs, request,
+  response, headers, body, status codes...), JSON, MongoDB,
+  _variables de entorno_, JWT (_JSON Web Tokens_)...
+
+#### Proyecto: [Burger Queen API Client](projects/04-burger-queen-api-client)
+
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
+restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
+_tablet_.
+
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
+
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
+
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+  Service Workers, HTTP, JSON, `fetch`.
 
 ### Track UX Design
 
@@ -243,29 +283,6 @@ tópicos sugeridos (electivos).
 
 ### Track Front End Dev
 
-#### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
-
-El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
-como herramienta para desarrollar _aplicaciones de servidor_, junto con una
-serie de herramientas comunes usadas en este tipo de contexto (Express como
-framework, MongoDB como base datos, ...).
-
-En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
-sobre `HTTP`.
-
-En este proyecto partimos de un _boilerplate_ que ya contiene una serie de
-_endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
-Esto implica que tendremos que partir por leer la implementación existente, y
-familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
-[Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/),
-[mongoose](https://mongoosejs.com/), ...
-
-* Duración estimada: 2 semanas.
-* Equipos: 1 estudiante
-* Tópicos: Node.js, Express, _rutas_ (_routes_), URLs, HTTP (verbs, request,
-  response, headers, body, status codes...), JSON, MongoDB,
-  _variables de entorno_, JWT (_JSON Web Tokens_)...
-
 #### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
 
 El objetivo principal de aprendizaje es tener una primera experiencia en
@@ -282,6 +299,21 @@ nativas.
 * Duración estimada: 2 semanas.
 * Equipos: 1 estudiante
 * Tópicos: React Native, Expo, componentes nativos, touch events, ...
+
+#### Proyecto: [Battleship](projects/05-battleship)
+
+Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
+linea (si no lo conoces, puedes verlo en este link :
+[battle-ship](https://es.wikipedia.org/wiki/Batalla_naval_(juego))).
+
+En este proyecto deberás crear una nueva versión, agregándole algún giro para
+actualizarlo y hacerlo más atractivo para las nuevas generaciones. También, no
+estás atada a hacer este juego sobre barcos, puedes hacerlo con el tema que más
+te guste, siempre y cuando el modo de juego sea parecido.
+
+* Duración estimada: 2 semanas.
+* Equipos: 3 estudiantes
+* Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
 
 ### Track UX Design
 
