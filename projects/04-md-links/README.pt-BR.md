@@ -134,7 +134,6 @@ seguimento do seu progresso.
 
 Dentro de cada _milestone_ deve se criar e atribuir as _issues_.
 
-
 ### Arquivos do projeto
 
 * `README.md` com descrição do módulo, instruções de instalação e uso,
@@ -177,7 +176,6 @@ propriedades:
 * `href`: URL encontrada.
 * `text`: Texto que irá aparecer dentro de um link (`<a>`).
 * `file`: Rota do arquivo onde foi encontrada o link.
-
 
 #### Exemplo
 
@@ -337,7 +335,8 @@ Para que o módulo seja instalável pelo GitHub você tem que:
 * Ter um `package.json` válido
 
 Com o comando `npm install <githubname>/<reponame>` podemos instalar diretamente
-pelo GitHub. Ver [docs oficiais dp `npm install` aqui](https://docs.npmjs.com/cli/install).
+pelo GitHub. Ver [docs oficiais dp `npm install`
+aqui](https://docs.npmjs.com/cli/install)
 
 Por exemplo, o
 [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser) que é
