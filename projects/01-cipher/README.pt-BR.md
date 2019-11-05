@@ -148,8 +148,8 @@ hacker edition te convidamos a explorar esse caso sozinha.
 
 ## 7. Considerações técnicas
 
-A lógica do projeto deve estar implementada inteiramente em JavaScript(ES6).
-Nesse projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
+A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
+projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
 JavaScript.
 
 Você não deve usar a _pseudo-variable_ `this`.
@@ -169,6 +169,7 @@ como toda a configuração de dependências e testes de exemplo:
 
 ```text
 ./
+├── .babelrc
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
@@ -180,9 +181,8 @@ como toda a configuração de dependências e testes de exemplo:
 │   ├── index.js
 │   └── style.css
 └── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
+    ├── .eslintrc
+    └── cipher.spec.js
 ```
 
 O _boilerplate_ inclui tarefas que executam [eslint](https://eslint.org/) e
