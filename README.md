@@ -377,19 +377,6 @@ En uso (`v2.x`):
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
 
-Wish list:
-
-* Algorithms
-* Angular
-* Data Structures
-* Databases
-* Editors
-* ESNext
-* Modules
-* Serverless
-* Styleguides
-* The web stack
-
 ***
 
 ## Contribuciones
