@@ -1,5 +1,13 @@
 # Burger Queen - Backend con Node.js
 
+***
+
+:warning: **DEPRECATED**: Este proyecto ha sido re-emplazado por
+[`burger-queen-api`](../04-burger-queen-api) y será borrado de este repositorio
+en releases futuros.
+
+***
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
