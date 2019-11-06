@@ -11,11 +11,6 @@ Nuestro modelo de aprendizaje se basa en emular un ambiente laboral que prepare
 a nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
 que necesitan para comenzar a trabajar.
 
-<!--
-* [Perfil de Front-end Developer]()
-* [Perfil de UX Designer]()
--->
-
 El **aprendizaje basado en proyectos** es el eje central sobre el que se
 articula la experiencia de aprendizaje. Completar una serie de _proyectos_, de
 complejidad gradualmente creciente, permite a las estudiantes ir desarrollando
@@ -25,14 +20,6 @@ es una habilidad indispensable para el mundo laboral que les espera, si no que
 es también una poderosa herramienta para que sean mujeres autosuficientes,
 seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
 plazo.
-
-<!--
-Esta es una representación de la importancia de las habilidades que buscamos
-desarrollen nuestras estudiantes. Se van construyendo sobre la base de la(s)
-indispensable(s).
-
-![maslow](http://i68.tinypic.com/14j2kgj.jpg)
--->
 
 Los proyectos son evaluados por _coaches_ en función de la siguiente [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml).
 
