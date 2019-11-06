@@ -20,16 +20,16 @@
 ## 1. Prefácio
 
 [Markdown](https://pt.wikipedia.org/wiki/Markdown) é uma linguagem de marcação
-muito popular entre os programadores. É usado em muitas plataformas que
-manipulam texto (GitHub, fórum, blogs, ...), e é muito comum encontrar arquivos
+muito popular entre os programadores. É usada em muitas plataformas que
+manipulam texto (GitHub, fórum, blogs e etc) e é muito comum encontrar arquivos
 com este formato em qualquer repositório (começando pelo tradicional
 `README.md`).
 
-Os arquivos `Markdown` normalmente contém _links_ que muitas vezes estão
-quebrados, ou que já não são válidos e isso prejudica muito o valor da
+Os arquivos `Markdown` normalmente contém _links_ que podem estar
+quebrados, ou que já não são válidos, prejudicando muito o valor da
 informação que está ali.
 
-Uma comunidade open source nós propôs criar uma ferramenta, usando
+Uma comunidade open source nos propôs criar uma ferramenta, usando
 [Node.js](https://nodejs.org/), que leia e analise arquivos no formato
 `Markdown`, para verificar os arquivos que contenham links e mostrar algumas
 estatísticas.
@@ -40,33 +40,33 @@ estatísticas.
 
 [Node.js](https://nodejs.org/pt-br/) é um ambiente de execução para JavaScript
 construído com o [motor de JavaScript V8 do
-[Chrome](https://developers.google.com/v8/). Isso vai nos permitir executar o
+[Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
 JavaScript no nosso sistema operacional, seja no seu computador ou em um
 servidor, o que nos abre portas para poder interagir com sistemas, arquivos,
-redes, ...
+redes e etc.
 
 Neste projeto vamos ficar um pouco longe do navegador para construir um programa
 que seja executado com Node.js, onde iremos aprender sobre como interagir com
-sistemas de arquivo, com o ambiente que é executado o node (_proceso_, _env_,
-_stdin/stdout/stderr_), ...
+sistemas de arquivos e com o ambiente onde é executado o Node (_processo_, _env_,
+_stdin/stdout/stderr_).
 
-Este projeto você criará uma ferramenta de linha de comando (CLI) assim como a
+Neste projeto você criará uma ferramenta de linha de comando (CLI) assim como a
 sua própria biblioteca (library) em JavaScript.
 
 ## 3. Objetivos de aprendizagem
 
-Desenhar sua própria biblioteca é uma experiência fundamental para qualquer
-desenvolvedor porque te obriga a pensar na interface (API) dos seus _módulos_ e
-como será usado por outro desenvolvedores. Você deve levar em conta as
+Desenvolver sua própria biblioteca é uma experiência fundamental para qualquer
+desenvolvedora, pois te obriga a pensar na interface (API) dos seus _módulos_ e
+como ela será usada por outras desenvolvedoras. Você deve levar em conta as
 peculiaridades da linguagem, convenções e boas práticas.
 
-A seguir você pode ver os objetivos de aprendizagem deste projeto:
+A seguir você pode conferir os objetivos de aprendizagem deste projeto:
 
 ### Javascript
 
 * [ ] Uso de callbacks
 * [ ] Consumo de Promises
-* [ ] Criação de uma Promises
+* [ ] Criação de uma Promise
 * [ ] Módulos de JS (CommonJS vs ES Modules)
 * [ ] Recursão
 
@@ -105,51 +105,51 @@ A seguir você pode ver os objetivos de aprendizagem deste projeto:
 * Este projeto deve ser feito individualmente.
 
 * A biblioteca e script executável (ferramenta de linha de comando - CLI) devem
-  ser implementados em JavaScript para ser executada com Node.JS. **É permitido
-  usar bibliotecas externas**.
+  ser implementados em JavaScript para serem executadas com Node.JS. 
+  **É permitido usar bibliotecas externas**.
 
 * O seu módulo deve ser instalável via `npm install <github-user>/md-links`. O
   módulo deve incluir um _executável_ que pode ser chamado tanto por linha de
-  comando, quanto importado com `require` para usá-lo no seu código.
+  comando quanto importado com `require` para ser usado em seu código.
 
 * Os testes unitários devem cobrir no mínimo 70% dos _statements_, _functions_,
-  _lines_ e _branches_. Te recomendamos explorar o [Jest](https://jestjs.io/)
+  _lines_ e _branches_. Recomendamos que explore o [Jest](https://jestjs.io/)
   para as suas provas unitárias.
 
 * Neste projeto não é permitido utilizar `async/await`.
 
-* Para este projeto é opcional o uso de ES modules `(import/export)`, no caso
+* Para este projeto é opcional o uso de ES modules `(import/export)`. Caso
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
-  para que seja transformado em `requires` e `module.exports` com ajuda do babel.
+  para que seja transformado em `requires` e `module.exports` com ajuda do Babel.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
 Para começar este projeto você deverá fazer um _fork_ e _clonar_ este
 repositório.
 
-Antes de começar o código, é necessário criar um plano de ação. Isso deve estar
-detalhado no `README.md` do seu repositório e em uma séria de _issues_ e
-_milestones_ para priorizar e organizar o trabalho, e para poder fazer um
-seguimento do seu progresso.
+Antes de começar o código, é necessário criar um plano de ação. Ele deve estar
+detalhado no `README.md` do seu repositório e em uma série de _issues_ e
+_milestones_ para priorizar e organizar o trabalho, e para fazer um
+acompanhamento do seu progresso.
 
-Dentro de cada _milestone_ deve se criar e atribuir as _issues_.
+Dentro de cada _milestone_ deve-se criar e atribuir as _issues_.
 
 ### Arquivos do projeto
 
 * `README.md` com descrição do módulo, instruções de instalação e uso,
   documentação da API e exemplos. Tudo que for relevante para qualquer
-  desenvolvedor saber como utilizar a sua biblioteca sem inconvenientes.
-* `index.js` este arquivo deve exportar a função `mdLinks`.
+  desenvolvedora saber como utilizar a sua biblioteca sem inconvenientes.
+* `index.js`: este arquivo deve exportar a função `mdLinks`.
 * `package.json` deve possuir o nome, versão, descrição, autor, licença,
-  dependências e scripts (pretest, test, ...).
+  dependências e scripts (pretest, test e etc).
 * `.editorconfig` com a configuração para o editor de texto. Este arquivo não
   deve ser alterado.
 * `.eslintrc` com a configuração para o linter. Este arquivo não deve ser
-  alterado
-* `.gitignore` para ignorar o `node_modules` e outras pastas que não deve ser
-  includas no controle de versão (`git`).
+  alterado.
+* `.gitignore` para ignorar o `node_modules` e outras pastas que não devem
+  ser incluídas no controle de versão (`git`).
 * `test/md-links.spec.js` deve conter os testes unitários para a função
-  `mdLinks()`. A sua implementação deve rodar estes tests.
+  `mdLinks()`. A sua implementação deve rodar estes testes.
 
 ### JavaScript API
 
@@ -170,12 +170,12 @@ seguinte interface:
 ##### Valor de retorno
 
 A função deve retornar uma promessa (`Promise`) que resolve um array (`Array`) e
-objetos(`Object`), onde cada objeto representa um link, que contém as seguintes
+objetos(`Object`), onde cada objeto representa um link, contendo as seguintes
 propriedades:
 
 * `href`: URL encontrada.
 * `text`: Texto que irá aparecer dentro de um link (`<a>`).
-* `file`: Rota do arquivo onde foi encontrada o link.
+* `file`: Rota do arquivo onde foi encontrado o link.
 
 #### Exemplo
 
@@ -217,11 +217,11 @@ $ md-links ./some/example.md
 ./some/example.md http://google.com/ Google
 ```
 
-O comportamento padrão não deve validar se as URLs responde ok ou não, somente
-deve identificar o arquivo markdown (a partir da rota que recebeu como
+O comportamento padrão não deve validar se as URLs respondem ok ou não, somente
+deve identificar o arquivo Markdown (a partir da rota que recebeu como
 argumento), analisar o arquivo Markdown e imprimir os links que vão sendo
-encontrados, junto com a rota do arquivo onde aparece e o texto que tem dentro
-do link (truncado 50 caracteres).
+encontrados, junto com a rota do arquivo onde aparece e o texto encontrado
+dentro do link (truncado 50 caracteres).
 
 #### Options
 
@@ -241,7 +241,7 @@ $ md-links ./some/example.md --validate
 ```
 
 Vemos que o _output_ neste caso inclui a palavra `ok` e `fail` depois da URL,
-assim como o status da resposta recebida a requisição HTTP feita pela URL.
+assim como o status da resposta recebida à requisição HTTP feita pela URL.
 
 ##### `--stats`
 
@@ -268,23 +268,24 @@ Broken: 1
 
 O módulo deve ser instalável via `npm install <github-user>/md-links`. Este
 módulo deve incluir um executável que pode ser chamado tanto por linha de
-comando, quanto importado com `require` para usá-lo no seu código.
+comando quanto importado com `require` para usá-lo no seu código.
 
 ## 7. Hacker edition
 
 As seções chamadas _Hacker Edition_ são **opcionais**. É para caso você tenha
-**terminado** todos os requisitos anteriores e ainda sobrou. E assim profundizar
-e/ou exercitar mais sobre os objetivos de aprendizagem deste projeto.
+**terminado** todos os requisitos anteriores e ainda tenha tempo disponível, 
+e pode assim aprofundar e/ou exercitar mais sobre os objetivos de 
+aprendizagem deste projeto.
 
 * Poder adicionar uma propriedade `line` a cada objeto `link` indicando em que
   linha do arquivo está o link.
-* Pode agregar mais estatísticas.
+* Poder agregar mais estatísticas.
 * Integração contínua com Travis ou Circle CI.
 
 ## 8. Avaliação
 
-NOTA: Está seção inclui uma lista de habilidade que podem ser levadas em conta
-na hora de avaliar o projeto, os níveis esperados são _sugestões_ e _guias_ para
+NOTA: Esta seção inclui uma lista de habilidades que podem ser levadas em conta
+na hora de avaliar o projeto. Os níveis esperados são _sugestões_ e _guias_ para
 o desenho curricular, não são regras absolutas.
 
 Te aconselhamos revisar [nossa
@@ -341,17 +342,17 @@ aqui](https://docs.npmjs.com/cli/install)
 Por exemplo, o
 [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser) que é
 usado para o currículo não está publicado nos registros públicos do NPM, com
-isso temos que instalar diretamente desde o GitHub com o commando `npm install
+isso temos que instalar diretamente pelo GitHub com o commando `npm install
 Laboratoria/curriculum-parser`.
 
 ### Sugestões de implementação
 
 A implementação deste projeto tem várias partes: ler do sistema de arquivos,
-receber argumento através da linha de comando, analisar um teste, fazer
-consultas HTTP, ... e tudo isso pode ser feito de muitas formas, tanto com
+receber argumentos através da linha de comando, analisar um teste, fazer
+consultas HTTP, etc. Tudo isso pode ser feito de muitas formas, tanto com
 bibliotecas quanto com JS puro.
 
-Por exemplo, o _parse_ (análise) do markdown para extrair os links poderia ser
+Por exemplo, o _parse_ (análise) do Markdown para extrair os links poderia ser
 criado das seguintes maneiras (todas são válidas):
 
 * Usando um _módulo_ como
@@ -368,8 +369,8 @@ criado das seguintes maneiras (todas são válidas):
   (`new marked.Renderer()`).
 
 Não hesite em consultar as suas companheiras, mentores e/ou o [fórum da
-comunidade](http://community.laboratoria.la/c/js) se tiver dúvidas com respeito
-a estas decisões. Não existe uma única maneira certa :wink:
+comunidade](http://community.laboratoria.la/c/js) se tiver dúvidas a respeito
+destas decisões. Não existe uma única maneira certa :wink:
 
 ### Tutoriais / NodeSchool workshoppers
 
@@ -414,7 +415,7 @@ a estas decisões. Não existe uma única maneira certa :wink:
 
 ### `README.md`
 
-* [ ] Um board com o backlog com as implementações da sua biblioteca
+* [ ] Um board com o backlog das implementações da sua biblioteca
 * [ ] Documentação técnica da sua biblioteca
 * [ ] Guia de uso e instalação da biblioteca
 
@@ -436,4 +437,4 @@ a estas decisões. Não existe uma única maneira certa :wink:
 
 * [ ] Os testes unitários devem cobrir no mínimo 70% dos statements, functions,
   lines e branches.
-* [ ] Rodar os tests e linter (`npm test`).
+* [ ] Rodar os testes e linter (`npm test`).
