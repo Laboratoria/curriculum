@@ -1,5 +1,5 @@
 {
-  "name": "data-lovers",
+  "name": "card-validation",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve src/"
+    "start": "serve ./src"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
