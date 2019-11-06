@@ -11,11 +11,6 @@ Nuestro modelo de aprendizaje se basa en emular un ambiente laboral que prepare
 a nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
 que necesitan para comenzar a trabajar.
 
-<!--
-* [Perfil de Front-end Developer]()
-* [Perfil de UX Designer]()
--->
-
 El **aprendizaje basado en proyectos** es el eje central sobre el que se
 articula la experiencia de aprendizaje. Completar una serie de _proyectos_, de
 complejidad gradualmente creciente, permite a las estudiantes ir desarrollando
@@ -25,16 +20,6 @@ es una habilidad indispensable para el mundo laboral que les espera, si no que
 es también una poderosa herramienta para que sean mujeres autosuficientes,
 seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
 plazo.
-
-<!--
-Esta es una representación de la importancia de las habilidades que buscamos
-desarrollen nuestras estudiantes. Se van construyendo sobre la base de la(s)
-indispensable(s).
-
-![maslow](http://i68.tinypic.com/14j2kgj.jpg)
--->
-
-Los proyectos son evaluados por _coaches_ en función de la siguiente [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml).
 
 ## Mapa de aprendizaje
 
@@ -49,11 +34,11 @@ Pre    | Common Core          | Track                                           
        |                      |  Frontend                                               |                |
        |                      |  social-network > md-links     burger-queen             | battleship     |
        |                      |  /                         \  /                       \ |/               |
-       |                      | /\                          > -burger-queen-api-client >|                |
-       |                      |/  \                        /  \                       / |\               |
-trivia | cipher > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn |
-       |                      |\                                                        |                |
-       |                      | \                                                       | service-design |
+       | cipher               | /\                          > -burger-queen-api-client >|                |
+       |      \               |/  \                        /  \                       / |\               |
+trivia |        > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn |
+       |      /               |\                                                        |                |
+       | luhn                 | \                                                       | service-design |
        |                      |  UX                                                     |/               |
        |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint  |
        |                      |                                                         |\               |
@@ -80,16 +65,44 @@ completar un _proyecto_ presencialmente en una de nuestras sedes.
 
 ## Etapa 1: Common Core
 
-Todas las estudiantes admitidas, comienzan con el _common core_. En esta etapa
-completarán los siguientes _proyectos_ en orden; cada uno desbloquea el
-siguiente. Al final del _common core_ las estudiantes participan en una o más
+Todas las estudiantes admitidas, comienzan con el _common core_. Durante esta
+etapa completarán dos _proyectos_:
+
+1. Primero pudiendo elegir entre [Cifrado César](projects/01-cipher) y
+   [Tarjeta de crédito válida](projects/01-card-validation). Ambos proyectos
+   comparten los mismos objetivos de aprendizaje.
+2. Una vez completado el proyecto elegido en el punto anterior, tendrán que
+   completar el proyecto [Data Lovers](projects/02-data-lovers).
+
+Al final del _common core_ las estudiantes participan en una o más
 _hackathones_ trabajando en proyectos más pequeños propuestos por Laboratoria
 y/o empresas/empleadores externos.
 
 ### Proyecto: [Cifrado César](projects/01-cipher)
 
-En este _proyecto_ implementan una aplicación web basada un _boilerplate_ que
-permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
+Este _proyecto_ require implementar una aplicación web basada un _boilerplate_
+que permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
+
+El principal objetivo de aprendizaje de este proyecto es tener una primera
+experiencia construyendo una aplicación web, utilizando los conocimientos
+adquiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
+diseñar un producto pensando en los usuarios, construir una interfaz, escuchar
+eventos básicos del DOM, escribir lógica para llevar a cabo el cifado y
+descifrado, _tests_ unitarios básicos para comprobar (y documentar) dicha
+lógica, y manipulación del DOM para mostrar (escribir) los resultados.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1 estudiante.
+* Tópicos: [Flow control](topics/javascript/02-flow-control),
+  [Strings](topics/javascript/06-strings), [Testing](topics/testing),
+  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
+  [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
+
+### Proyecto: [Tarjeta de crédito válida](projects/01-card-validation)
+
+Este _proyecto_ require implementar una aplicación web basada un _boilerplate_
+que permita a un usuario validar el número de una tarjeta de crédito y además
+ocultar todos los dígitos de la tarjeta menos los últimos cuatro.
 
 El principal objetivo de aprendizaje de este proyecto es tener una primera
 experiencia construyendo una aplicación web, utilizando los conocimientos
@@ -364,19 +377,6 @@ En uso (`v2.x`):
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
 
-Wish list:
-
-* Algorithms
-* Angular
-* Data Structures
-* Databases
-* Editors
-* ESNext
-* Modules
-* Serverless
-* Styleguides
-* The web stack
-
 ***
 
 ## Contribuciones
@@ -400,7 +400,7 @@ contribuciones son bienvenidas.
 
 ## Licencia & Copyright
 
-Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
+Todos los materiales de este repo son (c) 2017-2019 [Laboratoria](http;//laboratoria.la/).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
