@@ -21,8 +21,6 @@ es también una poderosa herramienta para que sean mujeres autosuficientes,
 seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
 plazo.
 
-Los proyectos son evaluados por _coaches_ en función de la siguiente [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml).
-
 ## Mapa de aprendizaje
 
 El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
