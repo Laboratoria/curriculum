@@ -85,10 +85,6 @@ y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 --->
 
-Alguns conjuntos de dados têm uma identidade gráfica que você deverá utilizar
-na interface. Os guias de identidade gráfica podem ser encontrados neste
-[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
-
 ## 3. Objetivos de aprendizagem
 
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma
