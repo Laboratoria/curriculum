@@ -87,11 +87,6 @@ y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 --->
 
-Algunos sets de datos tiene una identidad gráfica que deberás utilizar en la
-interfaz. La identidad gráfica, también conocida como guía de estilos en
-diseño, de estos sets la podrás encontrar en el siguiente
-[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
-
 ## 3. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
@@ -212,7 +207,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
 en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Hacker edition  
+## 6. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
