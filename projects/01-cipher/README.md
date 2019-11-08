@@ -244,20 +244,14 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
 
 | Habilidad                               | Nivel esperado |
 |-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 1              |
-| Arquitectura                            | 1              |
 | **Source Code Management (SCM)**                         |
 | Git                                     | 1              |
 | GitHub                                  | 2              |
 | **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
 | Nomenclatura / semántica                | 2              |
-| Uso de funciones / modularidad          | 1              |
 | Tests                                   | 2              |
 | **HTML/CSS**                                             |
 | Correctitud / Validación                | 2              |
-| Estilo (linter html)                    | 3              |
 | Semántica / Arquitectura de información | 2              |
 | DRY (CSS)                               | 2              |
 | Responsive Web Design                   | 2              |

@@ -379,20 +379,17 @@ bootcamp para ir acompanhando sua evolução.
 | Habilidade                              | Nível esperado |
 |-----------------------------------------|----------------|
 | **Computer Science (CS)**                                |
-| Lógica / Algoritmos                     | 1              |
 | Arquitetura                             | 2              |
 | **Source Code Management (SCM)**                         |
 | Git                                     | 2              |
 | GitHub                                  | 2              |
 | **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
+| Estilo (linter js)                      | 3              |
 | Nomenclatura / semântica                | 3              |
-| Uso de funções / modularidade           | 2              |
 | Estruturas de dados                     | 2              |
 | Testes                                  | 2              |
 | **HTML/CSS**                                             |
 | Exatidão / Validação                    | 3              |
-| Estilo (linter html)                    | 3              |
 | Semântica / Arquitetura de Informação   | 2              |
 | DRY (CSS)                               | 3              |
 | Responsive Web Design                   | 2              |

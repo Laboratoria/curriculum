@@ -220,7 +220,7 @@ ao longo do Bootcamp.
 | Apresentações                                   | 2              |
 | Adaptabilidade                                  | 2              |
 | Solução de problemas                            | 2              |
-| Responsabilidade                                 | 2              |
+| Responsabilidade                                | 2              |
 | Dar e receber feedback                          | 2              |
 | Comunicação eficaz                              | 2              |
 
@@ -228,20 +228,14 @@ ao longo do Bootcamp.
 
 | Habilidade                              | Nível esperado |
 |-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmos                     | 1              |
-| Arquitetura                             | 1              |
 | **Source Code Management (SCM)**                         |
 | Git                                     | 1              |
 | GitHub                                  | 2              |
 | **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
 | Nomenclatura / semântica                | 2              |
-| Uso de funções / modularidade           | 1              |
 | Testes                                  | 2              |
 | **HTML/CSS**                                             |
 | Exatidão / Validação                    | 2              |
-| Estilo (linter html)                    | 3              |
 | Semântica / Arquitetura de Informação   | 2              |
 | DRY (CSS)                               | 2              |
 | Responsive Web Design                   | 2              |
