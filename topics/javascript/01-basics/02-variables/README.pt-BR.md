@@ -47,10 +47,16 @@ imediatamente um valor, é seguido do operador `=` e uma expressão (o número 1
 
 ***
 
-NOTA: Neste primeiro exemplo usamos `var`, que nos dias de hoje é considerada
-uma forma antiquada de declarar variáveis, e hoje em dia, desdo ES6, preferimos
-usar a `let` (para declarar variaveis com o escopo de bloco) ou `const` (para
-declarar referencias que não vão ser reatribuidas) como veremos mais a frente.
+NOTA: Neste primeiro exemplo usamos
+[`var`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var),
+que nos dias de hoje é considerada uma forma antiquada de declarar variáveis.
+Desdo ES6 (ES2015), preferimos usar a
+[`let`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let)
+(para declarar variáveis que vamos necessitar _reatribriuir_ um valor diferente)
+ou a
+[`const`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)
+(para declarar variáveis que não vamos reatribuir), ambas variáveis possuem
+escopo de bloco, como veremos mais a frente.
 
 ***
 
