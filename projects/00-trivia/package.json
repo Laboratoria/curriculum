@@ -1,0 +1,26 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest --verbose --coverage",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gh-pages": "^2.1.1",
+    "jest": "^24.9.0",
+    "serve": "^11.1.0"
+  }
+}
