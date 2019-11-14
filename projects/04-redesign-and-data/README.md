@@ -9,7 +9,6 @@
 * [5. Entrega](#5-entrega)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Otras consideraciones](#7-otras-consideraciones)
-* [8. Evaluación](#8-evaluación)
 
 ***
 
@@ -181,28 +180,3 @@ ya que para el testing tendrás que usar una herramienta llamada
 
 Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
 como: contraste, alineación, jerarquía, entre otros.
-
-## 8. Evaluación
-
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
-
-### Habilidades Técnicas (UX)
-
-| Habilidad                      | Nivel esperado |
-|--------------------------------|----------------|
-| **Research**                                    |
-| User centricity                | 4              |
-| Entrevistas                    | 3              |
-| Testing                        | 3              |
-| Planeamiento y ejecución       | 3              |
-| Síntesis de resultados         | 3              |
-| **Interaction design**                          |
-| Diseño de interacción          | 3              |
-| Arquitectura de la información | 3              |
-| Prototyping                    | 3              |
-| **Visual design**                               |
-| Visual Design                  | 3              |
-| **Business mindset**                            |
-| Business mindset               | 3              |

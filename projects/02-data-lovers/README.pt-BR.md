@@ -9,9 +9,8 @@
 * [5. Critérios mínimos de aceitação do projeto](#5-criterios-minimos-de-aceitacao-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Avaliação](#8-avaliacao)
-* [9. Pistas, dicas e leituras complementares](#9-pistas-dicas-e-leituras-complementares)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, dicas e leituras complementares](#8-pistas-dicas-e-leituras-complementares)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -349,54 +348,9 @@ para, opcionalmnente, ser carregado de forma assíncrona com
 Você também deverá fazer os teste unitários das funções implementadas no
 arquivo `data.js`.
 
-## 8. Avaliação
-
-NOTA: esta seção inclui uma lista de habilidades que poderão ser levadas em
-conta na avaliação do projeto. Os níveis esperados são _sugestões_, assim
-como _guias_, porém não são regras absolutas.
-
-Aconselhamos que revise [nossa rubrica](https://docs.google.com/spreadsheets/d/1hwyBoJWbA0MHGEMDLKqftIv64IhA1uKe2kmJhYpir4s/edit#gid=1789463812)
-para ver a descrição detalhada de cada habilidade e nível. Recomendamos também
-que procure aplicar a rubrica a você mesma e/ou seus projetos ao longo do
-bootcamp para ir acompanhando sua evolução.
-
-### Habilidades Interpessoais (Soft Skills)
-
-| Habilidade                                      | Nível esperado |
-|-------------------------------------------------|----------------|
-| Planejamento e administração do tempo           | 2              |
-| Autoaprendizado                                 | 2              |
-| Apresentações                                   | 2              |
-| Adaptabilidade                                  | 2              |
-| Solução de problemas                            | 2              |
-| Trabalho em equipe                              | 2              |
-| Responsabilidade                                | 2              |
-| Dar e receber feedback                          | 2              |
-| Comunicação eficaz                              | 2              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidade                              | Nível esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Arquitetura                             | 2              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 2              |
-| GitHub                                  | 2              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 3              |
-| Nomenclatura / semântica                | 3              |
-| Estruturas de dados                     | 2              |
-| Testes                                  | 2              |
-| **HTML/CSS**                                             |
-| Exatidão / Validação                    | 3              |
-| Semântica / Arquitetura de Informação   | 2              |
-| DRY (CSS)                               | 3              |
-| Responsive Web Design                   | 2              |
-
 ***
 
-## 9. Pistas, dicas e leituras complementares
+## 8. Pistas, dicas e leituras complementares
 
 ### Primeiros passos
 
@@ -526,7 +480,7 @@ compañera:
 
 ***
 
-## 10. Checklist
+## 9. Checklist
 
 * [ ] Usar VanillaJS.
 * [ ] Não utilizar `this`.

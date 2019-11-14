@@ -8,10 +8,9 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Evaluación](#7-evaluación)
-* [8. Entrega](#8-entrega)
-* [9. Otras consideraciones](#9-otras-consideraciones)
-* [10. Hacker edition](#10-hacker-edition)
+* [7. Entrega](#7-entrega)
+* [8. Otras consideraciones](#8-otras-consideraciones)
+* [9. Hacker edition](#9-hacker-edition)
 
 ***
 
@@ -219,33 +218,7 @@ El coach o jedi master te dará el ok para que puedas empezar.
 |Prototipado de contenido| Prototipado y testeo del contenido del producto. | 30 |
 |Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 |
 
-## 7. Evaluación
-
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
-
-### Habilidades Técnicas (UX)
-
-| Habilidad                      | Nivel esperado |
-|--------------------------------|----------------|
-| **Research**                                    |
-| User centricity                | 3              |
-| Entrevistas                    | 2              |
-| Testing                        | 2              |
-| Planeamiento y ejecución       | 2              |
-| Síntesis de resultados         | 2              |
-| **Interaction design**                          |
-| Diseño de interacción          | 2              |
-| Arquitectura de la información | 2              |
-| Prototyping                    | 2              |
-| **Visual design**                               |
-| Visual Design                  | 3              |
-| **Business mindset**                            |
-| Business mindset               | 2              |
-
-## 8. Entrega
+## 7. Entrega
 
 El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
 lo siguiente:
@@ -279,7 +252,7 @@ agregar los documentos complementarios que sustenten tu proceso:
 * Mapa de sitio
 * Etc.
 
-## 9. Otras consideraciones
+## 8. Otras consideraciones
 
 ### 1) Planeamiento y presupuesto
 
@@ -311,7 +284,7 @@ herramienta adicional como Marvel o Invision. Recuerda que el diseño que
 trabajes debe seguir los fundamentos de visual design, como: contraste,
 alineación, jerarquía, entre otros.
 
-## 10. Hacker edition
+## 9. Hacker edition
 
 * En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
   su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
