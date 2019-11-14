@@ -5,11 +5,13 @@
 
 ## Introducción
 
-El _bootcamp_ de Laboratoria es un **programa de aprendizaje inmersivo de 6
-meses** enfocado en los perfiles de **Front-end Developer** y **UX Designer**.
+El _bootcamp_ de [Laboratoria](https://www.laboratoria.la/) es un **programa de
+aprendizaje inmersivo de 6 meses** enfocado en los perfiles de **Front-end
+Developer** y **UX Designer**.
+
 Nuestro modelo de aprendizaje se basa en emular un ambiente laboral que prepare
-a nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
-que necesitan para comenzar a trabajar.
+a nuestras estudiantes desarrollando habilidades técnicas y socioemocionales
+fundamentales para comenzar a trabajar.
 
 El **aprendizaje basado en proyectos** es el eje central sobre el que se
 articula la experiencia de aprendizaje. Completar una serie de _proyectos_, de
@@ -21,11 +23,10 @@ es también una poderosa herramienta para que sean mujeres autosuficientes,
 seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
 plazo.
 
-## Mapa de aprendizaje
+## Mapa de proyectos
 
-El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
-**Preadmisión**, **Common Core**, **Track** (Front-end Development y UX Design)
-y **Electivos**.
+El _mapa de proyectos_ se divide en 4 _etapas_: **Admisión**, **Common Core**,
+**Track** (Front-end Development y UX Design) y **Electivos**.
 
 ```
 Pre    | Common Core          | Track                                                   | Electivos      |
@@ -45,6 +46,35 @@ trivia |        > data-lovers |   md-links > social-network    burger-queen-api 
        |                      |                                                         | visual-design  |
        |                      |                                                         |                |
 ```
+
+## Evaluación
+
+Durante el transcurso de cada proyecto nuestro equipo de coaches hará
+seguimiento de tu avance (o de tu equipo si el proyecto es en grupo).
+
+El tiempo estimado para completar un proyecto puede variar dependiendo de cómo
+vayas avanzando. Asegúrate de conversar con tus coaches para que te ayuden a
+planificar y definir el alcance de lo que quieras implementar. Recuerda que
+**los objetivos de aprendizaje son más importantes que la completitud de tu
+proyecto**.
+
+Al final del proyecto, tendrás una _sesión de feedback_ con tus coaches. Antes
+de esta sesión de feedback tendrás que reflexionar y autoevaluarte con respecto
+a los objetivos de aprendizaje. En la sesión de feedback validarás esa
+autoevaluación con tus coaches. En caso de no haberse completado algunos
+objetivos podrá ocurrir una de las siguientes:
+
+* Si se trata de objetivos de aprendizaje que vuelven a aparecer más adelante en
+  otros proyectos, simplemente quedarán anotados como _pendiente_ en los
+  siguientes proyectos y podrás continuar con el siguiente proyecto.
+* En caso contrario tus coaches te recomendarán cómo continuar para alcanzar los
+  objetivos de aprendizaje que te faltan, pudiendo ser a través de continuar con
+  el proyecto (más tiempo), hacer ejercicios enfocados en los temas necesarios,
+  etc, ...
+
+Recuerda que cada una aprende a su ritmo y lo importante es ir obteniendo las
+habilidades asociadas a los objetivos de aprendizaje de forma gradual. Tus
+coaches y compañeras están ahí para apoyarte.
 
 ***
 
