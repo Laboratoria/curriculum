@@ -19,7 +19,7 @@ complejidad gradualmente creciente, te permitirá ir desarrollando las
 habilidades necesarias; de todas las habilidades, consideramos que el
 **Autoaprendizaje** es la más importante; no sólo es una habilidad
 indispensable para el trabajo que te espera, si no que es también una poderosa
-herramienta para autosuficiente, segura de tu talento y habilidades.
+herramienta para ser autosuficiente, segura de tu talento y habilidades.
 
 ## Mapa de proyectos
 
