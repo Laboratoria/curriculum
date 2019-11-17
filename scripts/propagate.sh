@@ -14,8 +14,8 @@ projects=(
   '03-social-network'
   '04-burger-queen'
   '04-md-links'
-  '04-social-network-frameworks'
   '05-bq-node'
+  '05-social-network-fw'
   '05-tic-tac-toe-rn'
 )
 

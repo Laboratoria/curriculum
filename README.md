@@ -27,22 +27,22 @@ El _mapa de proyectos_ se divide en 4 _etapas_: **Admisión**, **Common Core**,
 **Track** (Front-end Development y UX Design) y **Electivos**.
 
 ```
-Pre    | Common Core          | Track                                                   | Electivos      |
-===    | ===========          | =====                                                   | =========      |
-       |                      |                                                         |                |
-       |                      |  Frontend                                               |                |
-       |                      |  social-network > md-links     burger-queen             | battleship     |
-       |                      |  /                         \  /                       \ |/               |
-       | cipher               | /\                          > -burger-queen-api-client >|                |
-       |      \               |/  \                        /  \                       / |\               |
-trivia |        > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn |
-       |      /               |\                                                        |                |
-       | luhn                 | \                                                       | service-design |
-       |                      |  UX                                                     |/               |
-       |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint  |
-       |                      |                                                         |\               |
-       |                      |                                                         | visual-design  |
-       |                      |                                                         |                |
+Pre    | Common Core          | Track                                                   | Electivos         |
+===    | ===========          | =====                                                   | =========         |
+       |                      |                                                         |                   |
+       |                      |  Frontend                                               |                   |
+       |                      |  social-network > md-links     burger-queen             | battleship        |
+       |                      |  /                         \  /                       \ |/                  |
+       | cipher               | /\                          > -burger-queen-api-client >|-social-network-fw |
+       |      \               |/  \                        /  \                       / |\                  |
+trivia |        > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn    |
+       |      /               |\                                                        |                   |
+       | luhn                 | \                                                       | service-design    |
+       |                      |  UX                                                     |/                  |
+       |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint     |
+       |                      |                                                         |\                  |
+       |                      |                                                         | visual-design     |
+       |                      |                                                         |                   |
 ```
 
 ## Evaluación
@@ -349,6 +349,20 @@ te guste, siempre y cuando el modo de juego sea parecido.
 * Duración estimada: 2 semanas.
 * Equipos: 3 estudiantes
 * Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
+
+#### Proyecto: [Red Social (con Frameworks)](projects/05-social-network-fw)
+
+En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
+la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
+
+Creemos que una muy buena manera de profundizar en estas herramientas puede ser
+eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
+cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
+Concéntrate en aprender y utilizar estas nuevas tecnologías.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1-2 estudiantes
+* Tópicos: _react_, _angular_, _vue_, _firebase_.
 
 ### Track UX Design
 

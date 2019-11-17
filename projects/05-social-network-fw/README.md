@@ -43,7 +43,7 @@ los que trabajes.
 En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
 la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
 
-Creemos que la mejor manera de enfrentarte a estas herramientas es
+Creemos que una muy buena manera de profundizar en estas herramientas puede ser
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
 cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
