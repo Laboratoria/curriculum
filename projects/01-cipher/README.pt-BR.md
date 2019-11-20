@@ -6,14 +6,11 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Avaliação](#8-avaliação)
-* [9. Guias, dicas e leituras
-  complementares](#9-guias-dicas-e-leituras-complementares)
-* [10. Checklist](#10-checklist)
+* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -199,56 +196,9 @@ recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 `eslint` quanto `htmlhint`.
 
-## 8. Avaliação
-
-OBS: Esta seção inclui uma lista de habilidades que será levada em conta na hora
-de avaliar o projeto. O níveis _esperados_ são níveis _guias_ no desenho
-curricular, não são regras absolutas.
-
-Te aconselhamos revisar a [nossa
-rubrica](https://docs.google.com/spreadsheets/d/1hwyBoJWbA0MHGEMDLKqftIv64IhA1uKe2kmJhYpir4s/edit#gid=1789463812)
-para ver a descrição detalhada de cada _habilidade_ e _nível_. Te recomandamos
-também a se autoavaliar de acordo com a rubrica para acompanhar a sua evolução
-ao longo do Bootcamp.
-
-### Habilidades Interpessoais (Soft Skills)
-
-| Habilidade                                      | Nível esperado |
-|-------------------------------------------------|----------------|
-| Planejamento e administração do tempo           | 2              |
-| Autoaprendizado                                 | 2              |
-| Apresentações                                   | 2              |
-| Adaptabilidade                                  | 2              |
-| Solução de problemas                            | 2              |
-| Responsabilidade                                | 2              |
-| Dar e receber feedback                          | 2              |
-| Comunicação eficaz                              | 2              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidade                              | Nível esperado |
-|-----------------------------------------|----------------|
-| **Source Code Management (SCM)**                         |
-| Git                                     | 1              |
-| GitHub                                  | 2              |
-| **JavaScript**                                           |
-| Nomenclatura / semântica                | 2              |
-| Testes                                  | 2              |
-| **HTML/CSS**                                             |
-| Exatidão / Validação                    | 2              |
-| Semântica / Arquitetura de Informação   | 2              |
-| DRY (CSS)                               | 2              |
-| Responsive Web Design                   | 2              |
-
-### Habilidades Técnicas (UX)
-
-| Habilidade      | Nível esperado |
-|-----------------|----------------|
-| User Centricity | 2              |
-
 ***
 
-## 9. Guias, dicas e leituras complementares
+## 8. Guias, dicas e leituras complementares
 
 ### Primeiros passos
 
@@ -321,7 +271,7 @@ Organização do trabalho:
 * [Guia em espanhol para a
   cifra](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 10. Checklist
+## 9. Checklist
 
 Essa seção é para te ajudar a ter um controle do que você precisa completar.
 

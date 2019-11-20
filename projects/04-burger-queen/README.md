@@ -7,8 +7,7 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Evaluación](#6-evaluación)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -253,64 +252,7 @@ rápidamente a los clientes que las hicieron.
 
 ***
 
-## 6. Evaluación
-
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### Habilidades Blandas (Soft Skills)
-
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 4              |
-| Autoaprendizaje                                 | 4              |
-| Presentaciones                                  | 4              |
-| Adaptabilidad                                   | 4              |
-| Solución de problemas                           | 4              |
-| Trabajo en equipo                               | 4              |
-| Responsabilidad                                 | 4              |
-| Dar y recibir feedback                          | 4              |
-| Comunicación eficaz                             | 4              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidad                               | Nivel esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 2              |
-| Arquitectura                            | 3              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 3              |
-| GitHub                                  | 3              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 3              |
-| Nomenclatura / semántica                | 3              |
-| Uso de funciones / modularidad          | 4              |
-| Estructuras de datos                    | 3              |
-| Tests                                   | 3              |
-| **HTML/CSS**                                             |
-| Correctitud / Validación                | 3              |
-| Estilo (linter html)                    | 3              |
-| Semántica / Arquitectura de información | 4              |
-| DRY (CSS)                               | 4              |
-| Responsive Web Design                   | 4              |
-
-### Habilidades Técnicas (UX)
-
-| Habilidad       | Nivel esperado |
-|-----------------|----------------|
-| User Centricity | 4              |
-| Visual Design   | 2              |
-
-***
-
-## 7. Pistas, tips y lecturas complementarias
+## 6. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 

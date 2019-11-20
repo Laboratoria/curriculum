@@ -5,7 +5,6 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Entrega](#3-entrega)
-* [4. Evaluación](#4-evaluación)
 
 ***
 
@@ -94,26 +93,3 @@ agregar los documentos complementarios que sustenten tu proceso:
 * Flujo de usuario
 * Mapa de sitio
 * Etc.
-
-## 4. Evaluación
-
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es
-una lista de todas las habilidades involucradas en este proyecto y que
-evaluaremos cuando lo  completes:
-
-### Habilidades Técnicas (UX)
-
-| Habilidad                      | Nivel esperado |
-|--------------------------------|----------------|
-| **Research**                                    |
-| User centricity                | 4              |
-| Testing                        | 4              |
-| **Interaction design**                          |
-| Diseño de interacción          | 4              |
-| Arquitectura de la información | 4              |
-| Prototyping                    | 4              |
-| **Visual design**                               |
-| Visual Design                  | 4              |
-| **Business mindset**                            |
-| Business mindset               | 4              |

@@ -6,14 +6,11 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
 * [6. Entregáveis](#6-entregáveis)
 * [7. Hacker edition](#7-hacker-edition)
-* [8. Avaliação](#8-avaliação)
-* [9. Guias, dicas e leituras
-  complementares](#9-guias-dicas-e-leituras-complementares)
-* [10. Checklist](#10-checklist)
+* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -282,49 +279,9 @@ aprendizagem deste projeto.
 * Poder agregar mais estatísticas.
 * Integração contínua com Travis ou Circle CI.
 
-## 8. Avaliação
+***
 
-NOTA: Esta seção inclui uma lista de habilidades que podem ser levadas em conta
-na hora de avaliar o projeto. Os níveis esperados são _sugestões_ e _guias_ para
-o desenho curricular, não são regras absolutas.
-
-Te aconselhamos revisar [nossa
-rubrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ler a descrição mais detalhada de cada _habilidade_ e cada _nível_. Te
-recomendamos também se auto aplicar a rubrica ao longo do Bootcamp para ir vendo
-a sua evolução.
-
-### Habilidades Socioemocionais (Soft Skills)
-
-| Habilidade                                      | Nível esperado |
-|-------------------------------------------------|----------------|
-| Planejamento e administração do tempo           | 4              |
-| Autoaprendizado                                 | 4              |
-| Apresentações                                   | 4              |
-| Adaptabilidade                                  | 4              |
-| Solução de problemas                            | 4              |
-| Responsabilidade                                | 4              |
-| Dar e receber feedback                          | 4              |
-| Comunicação eficaz                              | 4              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidade                              | Nível esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmos                     | 2              |
-| Arquitetura                             | 3              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 3              |
-| GitHub                                  | 3              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 3              |
-| Nomenclatura / semântica                | 3              |
-| Uso de funções / modularidade           | 4              |
-| Estrutura de dados                      | 3              |
-| Testes                                  | 3              |
-
-## 9. Guias, dicas e leituras complementares
+## 8. Guias, dicas e leituras complementares
 
 ### FAQs
 
@@ -407,7 +364,7 @@ destas decisões. Não existe uma única maneira certa :wink:
 * [Criando sua CLI com
   Node.js](https://medium.com/henriquekuwai/criando-sua-cli-com-node-js-d6dee7d03110)
 
-## 10. Checklist
+## 9. Checklist
 
 ### General
 

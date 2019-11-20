@@ -9,9 +9,8 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Entrega](#7-entrega)
-* [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -44,7 +43,7 @@ los que trabajes.
 En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
 la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
 
-Creemos que la mejor manera de enfrentarte a estas herramientas es
+Creemos que una muy buena manera de profundizar en estas herramientas puede ser
 eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
 cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
@@ -93,70 +92,9 @@ El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y l
 interfaz será desplegada usando GitHub pages u otro servicio de hosting que
 puedas haber encontrado en el camino.
 
-## 8. Evaluación
-
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### Habilidades Blandas (Soft Skills)
-
-Para este proyecto esperamos que ya hayas consolidado el nivel 4 en todas tus
-habilidades blandas pero te invitamos que las lleves al siguiente nivel
-alcanzando el nivel 5 en todas ellas. Particularmente, entrena tu habilidad de
-autoaprendizaje, planificación y organización, y dar y recibir feedback.
-
-Recuerda la importancia de organizar, dividir y planificar tu trabajo.
-Particularmente lo que se refiere a probar/experimentar lo nuevo de manera
-aislada y no necesariamente en el mismo código que ya tienes implementado.
-Muchas cosas pueden interferir en lo que estás intentando hacer y puede parecer
-que no está bien lo que intentas cuando no es así. Revisa las diapos 15 y 16 de
-la [guia general para organizar, dividir y planificar tu ttrabajo](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000).
-
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 4              |
-| Autoaprendizaje                                 | 4              |
-| Presentaciones                                  | 4              |
-| Adaptabilidad                                   | 4              |
-| Solución de problemas                           | 4              |
-| Trabajo en equipo                               | 4              |
-| Responsabilidad                                 | 4              |
-| Dar y recibir feedback                          | 4              |
-| Comunicación eficaz                             | 4              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidad                               | Nivel esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 2              |
-| Arquitectura                            | 3              |
-| Patrones/Paradigmas                     | 2              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 3              |
-| GitHub                                  | 3              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 3              |
-| Nomenclatura / semántica                | 3              |
-| Uso de funciones / modularidad          | 4              |
-| Estructuras de datos                    | 3              |
-| Tests                                   | 3              |
-| **HTML/CSS**                                             |
-| Correctitud / Validación                | 3              |
-| Estilo (linter html)                    | 3              |
-| Semántica / Arquitectura de información | 4              |
-| DRY (CSS)                               | 4              |
-| Responsive Web Design                   | 4              |
-
 ***
 
-## 9. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
@@ -200,7 +138,7 @@ se usan muchas veces en conjunción con Redux como manejador de _estado_.
 
 * [Redux - docs oficiales](https://redux.js.org/)
 
-## 10. Checklist
+## 9. Checklist
 
 ### General
 
