@@ -6,10 +6,12 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do
+  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
+* [8. Guias, dicas e leituras
+  complementares](#8-guias-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
 
 ***
@@ -66,10 +68,10 @@ JavaScript como ferramentas.
 Em outras palavras, você aprenderá:
 
 * Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
-incerteza**.
+  incerteza**.
 * Entender as **necessidade do usuário** e propor uma solução.
 * Entender a importância do processo de prototipação durante a criação de um
-produto digital.
+  produto digital.
 * Conhecer os princípios básicos de desenho visual.
 * Utilizar _tags_ semânticas de HTML e elementos de formulário.
 * Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
@@ -77,13 +79,14 @@ produto digital.
 * Utilizar o modelo de caixas do CSS (border, margin, padding).
 * Definir regras de estilo do CSS.
 * Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
-responda (cifrar/descifrar) quando os **evento de DOM** ocorrerem.
+  responda (cifrar/descifrar) quando os **evento de DOM** ocorrerem.
 * Manipular _**strings**_ (cadeias de texto).
 * Usar **controle de fluxo** (loops, condicionais, ...).
 * Atualizar a tela com os resultados (**manipular o DOM**) através de
-**innerHTML** ou **textContent**.
+  **innerHTML** ou **textContent**.
 * **Implementar uma função** dada a descrição do seu comportamento.
-* Verificar que as suas funções façam o esperado (**usando provas unitárias (_unit test_) com Jest**).
+* Verificar que as suas funções façam o esperado (**usando provas unitárias
+  (_unit test_) com Jest**).
 * Configurar a sua conta de git.
 * Fazer o _fork_ e _clone_ do repositório do projeto.
 * Manter o seu repositório remoto sempre atualizado (commit, pull, push).
@@ -220,8 +223,8 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
-   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like", como
-   GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
+   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
+   como GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
    provavelmente o `git` também). Se você usa Windows você pode usar o [Git
    bash](https://git-scm.com/download/win), embora seja recomendado que você
    teste :penguin: GNU/Linux.
