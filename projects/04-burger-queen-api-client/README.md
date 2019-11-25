@@ -200,7 +200,11 @@ pendientes de tu proyecto anterior.
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" de a pares.
+Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
+API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
+este terminada para empezar a codear, puedes utilizar herramientas
+como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
+o [mockoon](https://mockoon.com) para mockear la API.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
@@ -394,6 +398,9 @@ para mantener actualizado el menú.
 * [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
+* [json-server](https://www.npmjs.com/package/json-server)
+* [mockoon](https://mockoon.com)
+* [nock](https://github.com/nock/nock)
 
 ### PWA
 
