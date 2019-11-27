@@ -306,6 +306,7 @@ describe('PUT /orders/:orderId', () => {
         return resp.json();
       })
       .then((json) => fetchAsTestUser(`/orders/${json._id}`))
+      .then((resp) => resp.json())
       .then((json) => fetchAsAdmin(`/orders/${json._id}`, { method: 'PUT' }))
       .then((resp) => expect(resp.status).toBe(400))
   ));
