@@ -35,10 +35,6 @@ module.exports = (app, nextMain) => {
    * @description Obtiene los datos de un producto especifico
    * @path {GET} /products/:productId
    * @params {String} :productId `id` del producto
-   * @body {String} name Nombre
-   * @body {Number} price Precio
-   * @body {String} [imagen='']  URL a la imagen
-   * @body {String} [type=undefined] Tipo/Categoría
    * @auth Requiere `token` de autenticación
    * @response {Object} product
    * @response {String} product._id Id
