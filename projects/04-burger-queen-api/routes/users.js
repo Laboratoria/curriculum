@@ -106,11 +106,11 @@ module.exports = (app, next) => {
    * @body {Object} [roles]
    * @body {Boolean} [roles.admin]
    * @auth Requiere `token` de autenticación y que la usuaria sea **admin**
-   * @response {Array} users
-   * @response {String} users[]._id
-   * @response {Object} users[].email
-   * @response {Object} users[].roles
-   * @response {Boolean} users[].roles.admin
+   * @response {Object} user
+   * @response {String} user._id
+   * @response {Object} user.email
+   * @response {Object} user.roles
+   * @response {Boolean} user.roles.admin
    * @code {200} si la autenticación es correcta
    * @code {400} si no se proveen `email` o `password` o ninguno de los dos
    * @code {401} si no hay cabecera de autenticación
