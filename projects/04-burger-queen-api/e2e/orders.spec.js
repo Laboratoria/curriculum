@@ -190,7 +190,7 @@ describe('GET /orders', () => {
 });
 
 
-describe('GET /orders/:orderid', () => {
+describe('GET /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx')
       .then((resp) => expect(resp.status).toBe(401))
@@ -269,7 +269,7 @@ describe('GET /orders/:orderid', () => {
 });
 
 
-describe('PUT /orders/:orderid', () => {
+describe('PUT /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx', { method: 'PUT' })
       .then((resp) => expect(resp.status).toBe(401))
@@ -447,7 +447,7 @@ describe('PUT /orders/:orderid', () => {
 });
 
 
-describe('DELETE /orders/:orderid', () => {
+describe('DELETE /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx', { method: 'DELETE' })
       .then((resp) => expect(resp.status).toBe(401))

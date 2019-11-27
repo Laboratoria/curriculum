@@ -209,10 +209,10 @@ entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 #### 5.1.5 `/orders`
 
 * `GET /orders`
-* `GET /orders/:orderid`
+* `GET /orders/:orderId`
 * `POST /orders`
-* `PUT /orders/:orderid`
-* `DELETE /orders/:orderid`
+* `PUT /orders/:orderId`
+* `DELETE /orders/:orderId`
 
 ### 5.2 CLI
 
@@ -323,7 +323,7 @@ queden online y accesibles.
 ### 7.5 `/orders`
 
 * [ ] `GET /orders`
-* [ ] `GET /orders/:orderid`
+* [ ] `GET /orders/:orderId`
 * [ ] `POST /orders`
-* [ ] `PUT /orders/:orderid`
-* [ ] `DELETE /orders/:orderid`
+* [ ] `PUT /orders/:orderId`
+* [ ] `DELETE /orders/:orderId`
