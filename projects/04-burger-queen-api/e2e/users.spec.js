@@ -154,7 +154,7 @@ describe('POST /users', () => {
       .then((resp) => expect(resp.status).toBe(400))
   ));
 
-  it('should create new user', () => {
+  it('should create new user', () => (
     fetchAsAdmin('/users', {
       method: 'POST',
       body: {
@@ -173,10 +173,10 @@ describe('POST /users', () => {
         expect(typeof json.password).toBe('undefined');
         expect(typeof json.roles).toBe('object');
         expect(json.roles.admin).toBe(false);
-      });
-  });
+      })
+  ));
 
-  it('should create new admin user', () => {
+  it('should create new admin user', () => (
     fetchAsAdmin('/users', {
       method: 'POST',
       body: {
@@ -195,25 +195,16 @@ describe('POST /users', () => {
         expect(typeof json.password).toBe('undefined');
         expect(typeof json.roles).toBe('object');
         expect(json.roles.admin).toBe(true);
-      });
-  });
+      })
+  ));
 
-  it('should fail with 403 when user is already registered', () => {
+  it('should fail with 403 when user is already registered', () => (
     fetchAsAdmin('/users', {
       method: 'POST',
       body: { email: 'test@test.test', password: '123456' },
     })
-      .then((resp) => expect(resp.status).toBe(403));
-  });
-  // it.only('crea un user', () => (
-  //   fetchAsAdmin('/users', {
-  //     method: 'POST',
-  //     body: { email: 'test@test.test', password: '123456', state: true },
-  //   })
-  //   .then(resp => {
-  //     console.log(resp.status)
-  //   })
-  // ));
+      .then((resp) => expect(resp.status).toBe(403))
+  ));
 });
 
 
