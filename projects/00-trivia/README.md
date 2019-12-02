@@ -39,9 +39,10 @@ colores, ¿marca?) etc.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de este proyecto es, adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
+El objetivo principal de este proyecto es, tener una primera experiencia 
+desarrollando aplicaciones web (WebApp) que interactúen con el usuario a 
+través del navegador y la lógica, utilizando HTML, CSS y JavaScript como 
+herramientas.
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
 tu proyecto.
@@ -55,21 +56,21 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 ### HTML y CSS
 
 * [ ] Entender y reconocer por qué es importante el HTML semántico.
-* [ ] Identificar y entender tipos de selectores en CSS (`#id` | `.class`).
-* [ ] Construir tu aplicación respetando el diseño planeado (`maquetación`).
+* [ ] Identificar y entender tipos de selectores en CSS.
+* [ ] Construir tu aplicación respetando el diseño planeado.
 
 ### DOM
 
-* [ ] Entender y reconocer los selectores del DOM (`getElementById`).
-* [ ] Manejar eventos del DOM. (`addEventListener`)
-* [ ] Manipular dinámicamente el DOM. (`innerHTML` | `value`)
+* [ ] Entender y reconocer los selectores del DOM.
+* [ ] Manejar eventos del DOM.
+* [ ] Manipular dinámicamente el DOM.
 
-### Javascript
+### JavaScript
 
-* [ ] Manipular strings (`toUpperCase` | `length`).
-* [ ] Entender el uso de condicionales (`if-else` | `switch`).
-* [ ] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
-* [ ] Declaración correcta de variables (`const` & `let`).
+* [ ] Manipular strings.
+* [ ] Entender el uso de condicionales.
+* [ ] Utilizar funciones.
+* [ ] Conocer la diferencia entre los distintos tipos de variable.
 
 ### Buenas prácticas de desarrollo
 
@@ -114,7 +115,7 @@ Como mínimo, tu implementación debe:
 2. Mostrar un mensaje de Hola [tu nombre] y dos botones para comenzar a jugar.
    - Jugar con preguntas de tipo A (Por ejemplo: sobre comida)
    - Jugar con preguntas de tipo B (Por ejemplo: sobre cervezas)
-3. Lanzar la pregunta 1 con alternativas, el usuario responde, luego se lanza
+3. Lanzar la pregunta 1 con alternativas, el usuario responde, luego se muestra
    la pregunta 2 y luego la 3.
 4. Mostrar una pantalla de resultados (respuestas correctas) y dos botones de
    volver a jugar:
@@ -132,9 +133,9 @@ pages.
 
 ## 7. Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-JS, HTML y CSS. En este proyecto NO está permitido usar librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
+En este proyecto NO está permitido usar librerías o frameworks, 
+solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
