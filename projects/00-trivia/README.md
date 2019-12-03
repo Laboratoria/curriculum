@@ -30,8 +30,8 @@ incluso, ofrecen dinero como recompensa.
 ## 2. Resumen del proyecto
 
 ¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
-aplicación web que le permita a un usuario responder diferentes preguntas cuyas
-respuestas deben ser escogidas.
+aplicación web que le permita a un usuario responder distintas preguntas
+escogiendo sus respuestas de una lista de alternativas.
 
 La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
 en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
@@ -39,9 +39,9 @@ colores, ¿marca?) etc.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de este proyecto es, tener una primera experiencia 
-desarrollando aplicaciones web (WebApp) que interactúen con el usuario a 
-través del navegador y la lógica, utilizando HTML, CSS y JavaScript como 
+El objetivo principal de este proyecto es, tener una primera experiencia
+desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
+través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
 herramientas.
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
@@ -109,7 +109,8 @@ Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
 No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
 
-Como mínimo, tu implementación debe:
+El [MVP](https://www.youtube.com/watch?v=0Dn-BHj6l2E) (producto mínimo viable)
+de tu implementación debe:
 
 1. Mostrar una pantalla de bienvenida, pida tu nombre para comenzar a jugar.
 2. Mostrar un mensaje de Hola [tu nombre] y dos botones para comenzar a jugar.
@@ -134,7 +135,7 @@ pages.
 ## 7. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
-En este proyecto NO está permitido usar librerías o frameworks, 
+En este proyecto NO está permitido usar librerías o frameworks,
 solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
