@@ -227,7 +227,7 @@ para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
 * Duración estimada: 3 semanas.
 * Equipos: 1-2 estudiantes.
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline First,
   Service Workers, Serverless.
 
 #### Proyecto: [Burger Queen HTTP/JSON API](projects/04-burger-queen-api)
@@ -267,7 +267,7 @@ para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
 * Duración estimada: 3 semanas.
 * Equipos: 1-2 estudiantes.
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline First,
   Service Workers, HTTP, JSON, `fetch`.
 
 ### Track UX Design
@@ -399,18 +399,16 @@ nuevas herramientas como el _Service BluePrint_.
 
 ## Índice de tópicos
 
-En uso (`v2.x`):
-
 * [JavaScript](topics/javascript)
 * [HTML](topics/html)
 * [CSS](topics/css)
-* [Browser](topics/browser)
+* [Browser JavaScript](topics/browser)
 * [SCM: Git + GitHub](topics/scm)
 * [UNIX Shell](topics/shell)
 * [Paradigmas de programación](topics/paradigms)
 * [JavaScript Funcional](topics/functional)
-* [React](topics/react)
-* [Redux](topics/redux)
+* [React](topics/react) [DEPRECATED]
+* [Redux](topics/redux) [DEPRECATED]
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
 

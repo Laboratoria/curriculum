@@ -1,5 +1,14 @@
 # Redux
 
+***
+
+:warning: **DEPRECATED**: Este tópico se considera deprecado en favor de usar
+[hooks en react](https://es.reactjs.org/docs/hooks-intro.html) o si no
+directamente dirigir a las estudiantes a la [documentación oficial de Redux](https://redux.js.org/).
+Este tópico será borrado de este repositorio en releases futuros.
+
+***
+
 El manejo de estado en una aplicación es crítico, y desgraciadamente muchas
 veces se hace de forma desordenada y sin mucha consistencia. `Redux` nos ofrece
 un contenedor de estado que nos ayudará a manejar el estado de forma más

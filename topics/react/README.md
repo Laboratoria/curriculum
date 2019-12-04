@@ -1,5 +1,13 @@
 # React
 
+***
+
+:warning: **DEPRECATED**: Este tópico ha sido re-emplazado por la
+[documentación oficial en español](https://es.reactjs.org/) y será borrado de
+este repositorio en releases futuros.
+
+***
+
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 crear interfaces a través de lindos componentes, sino que representa un cambio
 de paradigma que va mucho más allá del navegador o incluso la web.
