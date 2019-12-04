@@ -75,7 +75,6 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 ### Buenas prácticas de desarrollo
 
 * [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
