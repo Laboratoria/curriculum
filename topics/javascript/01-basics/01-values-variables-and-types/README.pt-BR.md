@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `60min`
 
-## Objetivos de Aprendizaje
+## Objetivos de Aprendizagem
 
 - Entender o que são _values_ (valores) em JavaScript.
 - Conhecer os diferentes _data types_ (tipos de dados) em JavaScript.
@@ -13,8 +13,8 @@
 ***
 
 O texto em seguida se baseia em grande parte, com certos ajustes, ao capítulo 1
-de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke,
-2014. Tradução em
+de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke
+(2014). Tradução em
 [Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
 
 ## Vivemos num mundo de Dados
@@ -51,9 +51,9 @@ chamados de _**values**_ (valores, em português). Cada _value_ possui um _data
 type_ (tipo de dado) que determina qual a sua funcionalidade. Em JavaScript
 existem cinco tipos de dados primitivos:
 
-1. `numbers` (números).
-2. `strings` (cadeias de caracteres).
-3. `booleans` (booleanos).
+1. `number` (número).
+2. `string` (cadeias de caracteres).
+3. `boolean` (booleano).
 4. `undefined` (indefinido).
 5. `null` (nulo).
 
@@ -68,8 +68,8 @@ Os _values_ do tipo `number` são, sem muita surpresa, valores numéricos. Ou
 seja, pedaços de dado que representam uma informação numérica são representados
 com o tipo `number`. Sua representação inclui números positivos, negativos,
 inteiros e decimais. Além disso, o tipo de dado `number` possui três valores
-simbólicos: +Infinity infinito positivo), -Infinity (infinito negativo) e NaN
-(not a number, ou “não-número”, em português).
+simbólicos: `+Infinity` (infinito positivo), `-Infinity` (infinito negativo) e
+`NaN` (not a number, ou “não-número”, em português).
 
 Vejamos alguns exemplos. Abra o seu console (lembre-se: clique com o botão
 direito do mouse > inspect > console) e escreva os seguintes números. Ao tentar,
@@ -77,10 +77,10 @@ o console retornará o próprio número de volta.
 
 ```js
 13
-// returns 13
+// retorna: 13
 
 -9.81
-// returns -9.81
+// retorna: -9.81
 ```
 
 Você também pode usar a notação científica para números muito grandes ou muito
@@ -89,10 +89,10 @@ expoente do número:
 
 ```js
 5e10
-// returns 50000000000
+// retorna: 50000000000
 
 -2.998e8
-// returns -299800000
+// retorna: -299800000
 ```
 
 ### Operadores Aritméticos
@@ -103,7 +103,7 @@ seguinte exemplo no console e confirme que o resultado é o mesmo:
 
 ```js
 100 + 4 * 11
-// returns: 144
+// retorna: 144
 ```
 
 Os símbolos `+` e `*` são chamados de _operators_ (operadores). O primeiro
@@ -114,7 +114,7 @@ matemática, você pode mudar isso colocando a soma entre parênteses.
 
 ```js
 (100 + 4) * 11
-// returns: 1144
+// retorna: 1144
 ```
 
 Para a subtração, existe o operador `-`, e a divisão pode ser feita com o
@@ -123,29 +123,29 @@ também!):
 
 ```js
 12345 / 250
-// returns: 49.38
+// retorna: 49.38
 
 1234 + 57 * 3 - 31 / 4
-// returns: 1397.25
+// retorna: 1397.25
 
 100 / 0
-// returns: Infinity
+// retorna: Infinity
 
 100 / -0
-// returns: -Infinity
+// retorna: -Infinity
 
 1000 * Infinity
-// returns: Infinity
+// retorna: Infinity
 
 0/0
-// returns: NaN
+// retorna: NaN
 
 Infinity - Infinity
-// returns: NaN
+// retorna: NaN
 ```
 
 Também há um operador aritmético que pode não ser reconhecido imediatamente. O
-símbolo `%` é utilizado para representar a operação _residuo_. X `%` Y é o resto
+símbolo `%` é utilizado para representar a operação _resíduo_. X `%` Y é o resto
 da divisão de X por Y. Por exemplo, 314 % 100 é 14 (porque 100 multiplicado por
 3 + 14 = 314), e 144 % 12 dá 0 (porque 12 multiplicado por 12 + 0 = 144). Você
 verá este operador frequentemente referido como _módulo_ embora, tecnicamente,
@@ -153,28 +153,29 @@ resto é mais preciso.
 
 ```js
 5 % 3
-// returns: 2
+// retorna: 2
 
 7 % 2
-// returns: 1
+// retorna: 1
 ```
 
 ## 2. Strings
 
-O próximo _data type_ básico são as `strings`. É o tipo de dado que utilizamos
-para representar texto. São declaradas ao colocar o conteúdo entre aspas.
+O próximo _data type_ básico é a `string` (_sequência de caracteres_ em
+português). É o tipo de dado que utilizamos para representar texto. São
+declaradas ao colocar o conteúdo entre aspas.
 
 Abra seu console e escreva:
 
 ```js
 "Olá, meu nome é Michelle"
-// returns: "Olá, meu nome é Michelle"
+// retorna: "Olá, meu nome é Michelle"
 
 'Sou desenvolvedora web'
-// returns: "Sou desenvolvedora web"
+// retorna: "Sou desenvolvedora web"
 
 "123"
-// returns: "123"
+// retorna: "123"
 ```
 
 Tanto as aspas simples como as duplas podem ser usadas para declarar `strings`,
@@ -193,18 +194,18 @@ comillas simples de aquí en adelante.
 
 ***
 
-Existe um par de caracteres no _data types_ `strings` que tem um comportamento
-especial. Por exemplo, quando uma barra invertida (_backslash_ -`\`) se encontra
-dentro de um texto entre aspas, isso indica que o próximo caractere tem um
-significado especial. Chamamos isso de _escapar caractere_. Quando o caractere
-`n` segue uma barra invertida, o par de caracteres é interpretado como uma nova
-linha. Da mesma forma, um `t` após a barra invertida indica uma tabulação.
-Escreva os seguintes textos em seu console (lembre-se de sempre colocá-los entre
-aspas, simples ou duplas).
+Existe um par de caracteres no `strings` que tem um comportamento especial. Por
+exemplo, quando uma barra invertida (_backslash_ -`\`) se encontra dentro de um
+texto entre aspas, isso indica que o próximo caractere tem um significado
+especial. Chamamos isso de _escapar caractere_. Quando o caractere `n` segue uma
+barra invertida, o par de caracteres é interpretado como uma nova linha. Da
+mesma forma, um `t` após a barra invertida indica uma tabulação. Escreva os
+seguintes textos em seu console (lembre-se de sempre colocá-los entre aspas,
+simples ou duplas).
 
 ```js
 'sta é a primeira linha \n E esta a segunda'
-// returns: "Esta é a primeira linha
+// retorna: "Esta é a primeira linha
 //            E esta a segunda"
 
 'Minha linguagem favorita é \t JavaScript'
@@ -216,7 +217,7 @@ cadeia de caracteres, mas farão parte dela.
 
 ```js
 'Eu \'estudo\' na Laboratoria'
-// returns: "Eu 'estudo' na Laboratoria"
+// retorna: "Eu 'estudo' na Laboratoria"
 ```
 
 Existirão, com certeza, situações em que você desejará que uma barra invertida
@@ -226,7 +227,7 @@ sairá como resultado no valor da cadeia.
 
 ```js
 'Um caractere de nova linha está escrito \'\\n\'.'
-// returns: "Um caractere de nova linha está escrito '\n'."
+// retorna: "Um caractere de nova linha está escrito '\n'."
 ```
 
 Cadeias de caracteres não podem ser divididas como os números, multiplicadas, ou
@@ -236,7 +237,7 @@ concatena, ou seja, junta duas strings. A linha a seguir produz a string
 
 ```js
 "con" + "cat" + "e" + "nar"
-// returns > "concatenar"
+// retorna: "concatenar"
 ```
 
 Tome cuidado ao misturar _numbers_ e _strings_ em uma operação. Por exemplo,
@@ -244,7 +245,7 @@ multiplicar um _número_ por uma _string_ resulta em NaN.
 
 ```js
 "oi" * 3
-// returns > NaN
+// retorna: NaN
 ```
 
 Há outras maneiras de manipular `strings`, como veremos mais adiante.
@@ -257,16 +258,16 @@ do valor que lhe foi passado.
 
 ```js
 typeof 4.5
-// returns > "number"
+// retorna: "number"
 
 typeof "hola"
-// returns > "string"
+// retorna: "string"
 
 typeof NaN
-// returns > "number"
+// retorna: "number"
 
 typeof Infinity
-// returns > "number"
+// retorna: "number"
 ```
 
 Note que verificamos que _NaN_ e _Infinity_ são do tipo `number` (de valor
@@ -282,7 +283,7 @@ unário.
 
 ```js
 - (10 - 2)
-// returns > -8
+// retorna: -8
 ```
 
 ## 3. Booleans
@@ -298,16 +299,16 @@ Faça estas comparações em seu console:
 
 ```js
 3 > 2
-// returns: true
+// retorna: true
 
 2 > 3
-// returns: false
+// retorna: false
 
 typeof (3 > 2)
-// returns: "boolean"
+// retorna: "boolean"
 
 typeof (2 > 3)
-// returns: "boolean"
+// retorna: "boolean"
 ```
 
 Os sinais > e < são os símbolos clássicos de "é maior que" e "é menor que",
@@ -319,7 +320,7 @@ As `strings` podem ser comparadas da mesma maneira.
 
 ```js
 "Aardvark" < "Zoroaster"
-// returns: true
+// retorna: true
 ```
 
 A forma pela qual as `strings` são ordenadas é mais ou menos alfabética: em
@@ -330,10 +331,10 @@ padrão [Eloquent Unicode](https://unicode-table.com/en/#control-character).
 
 ```js
 "Zeyla" < "ana"
-// returns: true
+// retorna: true
 
 "Zeyla" < "!na"
-// returns: false
+// retorna: false
 ```
 
 Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a), ==
@@ -341,16 +342,16 @@ Outros operadores similares são >= (maior ou igual a), <= (menor ou igual a), =
 
 ```js
 "Itchy" == "Itchy"
-// returns: true
+// retorna: true
 
 "Itchy" != "Scratchy"
-// returns: true
+// retorna: true
 
 5 == 5
-// returns: true
+// retorna: true
 
 10 != "dez"
-// returns: true
+// retorna: true
 ```
 
 Só existe um valor em JavaScript que não é igual a si mesmo: o NaN, que
@@ -358,7 +359,7 @@ significa "não é um número".
 
 ```js
 NaN == NaN
-// returns: false
+// retorna: false
 ```
 
 A intenção do NaN é representar o resultado de um cálculo sem sentido e, como
@@ -380,26 +381,25 @@ resultado true. Vejamos alguns exemplos:
 
 ```js
 true && true
-// returns : true
+// retorna: true
 
 true && false
-// returns: false
+// retorna: false
 
 false && false
-// returns: false
+// retorna: false
 
 true || true
-// returns: true
+// retorna: true
 
 true || false
-// returns: true
+// retorna: true
 
 !true
-// returns: false
+// retorna: false
 
 !false
-// returns: true
-
+// retorna: true
 ```
 
 O último operador lógico que você aprenderá não é unário. Este é escrito usando
@@ -407,10 +407,10 @@ um símbolo de interrogação e dois pontos, da seguinte forma:
 
 ```js
 true ? 1 : 2
-// returns: 1
+// retorna: 1
 
 false ? 1 : 2
-// returns: 2
+// retorna: 2
 ```
 
 Este é chamado o operador condicional (ou algumas vezes o operador ternário já
@@ -450,19 +450,19 @@ do tipo_. Olha estes exemplos:
 
 ```js
 8 * null
-// returns 0
+// retorna: 0
 
 "5" - 1
-// returns 4
+// retorna: 4
 
 "5" + 1
-// returns 51
+// retorna: 51
 
 "cinco" * 2
-// returns NaN
+// retorna: NaN
 
 false == 0
-// returns true
+// retorna: true
 ```
 
 O null na primeira expressão muda para 0, e o "5" na segunda expressão torna-se
@@ -487,10 +487,10 @@ expressões devolvem _true_:
 
 ```js
 false == 0
-// returns true
+// retorna: true
 
 "" == 0
-// returns true
+// retorna: true
 ```
 
 Para casos em que você não quer que aconteça nenhuma conversão automática de
@@ -501,10 +501,10 @@ contrário: _false_:
 
 ```js
 false === 0
-// returns false
+// retorna: false
 
 "" === 0
-// returns false
+// retorna: false
 ```
 
 ***
@@ -561,8 +561,8 @@ seguir para determinar o resultado:
 21 === "21"         // false
 undefined === null  // false
 NaN === NaN         // false
-[10] === 10          // false
-true === 1           // false
+[10] === 10         // false
+true === 1          // false
 [] === []           // false
 {} === {}           // false
 '10' === '10'       // true

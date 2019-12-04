@@ -9,9 +9,8 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Entregables](#6-entregables)
 * [7. Hacker edition](#7-hacker-edition)
-* [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -46,43 +45,80 @@ En este proyecto nos alejamos un poco del navegador para construir un programa
 que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
 sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 
-## 3. Objetivos de aprendizaje
+En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
+propia librería (o biblioteca - library) en JavaScript.
 
-El objetivo práctico de este proyecto es que aprendas cómo crear tu propia
-**librería** (o biblioteca - _library_) en JavaScript.
+## 3. Objetivos de aprendizaje
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-Tópicos: [Node.js](https://nodejs.org/en/),
-[módulos (CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html),
-[file system](https://nodejs.org/api/fs.html),
-[path](https://nodejs.org/api/path.html),
-[http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
-parsing,
-[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
-[npm-scripts](https://docs.npmjs.com/misc/scripts),
-[semver](https://semver.org/), ...
+A continuación puedes ver los objetivos de aprendizaje de este proyecto:
+
+### Javascript
+
+* [ ] Uso de callbacks
+* [ ] Consumo de Promesas
+* [ ] Creacion de Promesas
+* [ ] Modulos de JS (CommonJS vs ES Modules)
+* [ ] Recursión
+
+### Node
+
+* [ ] Sistema de archivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
+* [ ] [package.json](https://docs.npmjs.com/files/package.json)
+* [ ] crear módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
+* [ ] Instalar y usar módulos ([npm](https://www.npmjs.com/))
+* [ ] [npm-scripts](https://docs.npmjs.com/misc/scripts)
+* [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
+* [ ] [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback)
+
+### Testing
+
+* [ ] Testeo de tus funciones
+* [ ] Testeo asíncrono
+* [ ] Uso de librerias de Mock
+* [ ] Mocks manuales
+* [ ] Testeo para multiples Sistemas Operativos
+
+### Git y Github
+
+* [ ] Organización en Github
+
+### Buenas prácticas de desarrollo
+
+* [ ] Modularización
+* [ ] Nomenclatura / Semántica
+* [ ] Linting
+
+***
 
 ## 4. Consideraciones generales
 
-Este proyecto se debe "resolver" de manera individual.
+* Este proyecto se debe "resolver" de manera individual.
 
-La librería debe estar implementada en JavaScript para ser ejecutada con
-Node.js. **Está permitido usar librerías externas**.
+* La librería y script ejecutable (herramienta de línea de comando -
+  CLI) debe estar implementada en JavaScript para ser ejecutada con
+  Node.js. **Está permitido usar librerías externas**.
+
+* Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
+  módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
+  comando como una interfaz que podamos importar con `require` para usarlo
+  programáticamente.
+
+* Los tests unitarios deben cubrir un mínimo del 70% de _statements_,
+  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
+  para tus pruebas unitarias.
+
+* Para este proyecto no está permitido utilizar `async/await`.
+
+* Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
+  caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
+  que los transforme en `requires` y `module.exports` con ayuda de babel.
 
 ## 5. Criterios de aceptación mínimos del proyecto
-
-Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
-módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
-comando como una interfaz que podamos importar con `require` para usarlo
-programáticamente.
-
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
-para tus pruebas unitarias.
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio.
@@ -243,48 +279,9 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 * Puedes agregar más estadísticas.
 * Integración continua con Travis o Circle CI.
 
-## 8. Evaluación
+***
 
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### Habilidades Blandas (Soft Skills)
-
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 4              |
-| Autoaprendizaje                                 | 4              |
-| Presentaciones                                  | 4              |
-| Adaptabilidad                                   | 4              |
-| Solución de problemas                           | 4              |
-| Responsabilidad                                 | 4              |
-| Dar y recibir feedback                          | 4              |
-| Comunicación eficaz                             | 4              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidad                       | Nivel esperado |
-| --------------------------------|----------------|
-| **Computer Science (CS)**                        |
-| Lógica / Algoritmia             | 2              |
-| Arquitectura                    | 3              |
-| **Source Code Management (SCM)**                 |
-| Git                             | 3              |
-| GitHub                          | 3              |
-| **JavaScript**                                   |
-| Estilo (linter js)              | 3              |
-| Nomenclatura / semántica        | 3              |
-| Uso de funciones / modularidad  | 4              |
-| Estructuras de datos            | 3              |
-| Tests                           | 3              |
-
-## 9. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 ### FAQs
 
@@ -356,7 +353,7 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 * [Path](https://nodejs.org/api/path.html)
 * [Linea de comando CLI](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
-## 10. Checklist
+## 9. Checklist
 
 ### General
 

@@ -1,0 +1,37 @@
+{
+  "name": "burger-queen-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "start": "node index.js",
+    "test:e2e": "jest --verbose --testPathPattern e2e --globalSetup ./e2e/globalSetup --globalTeardown ./e2e/globalTeardown --runInBand",
+    "test:unit": "jest --verbose --testPathIgnorePatterns e2e",
+    "test": "npm run test:e2e && npm run test:unit",
+    "lint": "eslint .",
+    "docs:generate": "jsdoc -c jsdoc.conf --readme README-docs.md",
+    "docs:deploy": "rm -rf docs && npm run docs:generate && gh-pages -d docs"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "docdash": "1.1.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gh-pages": "2.1.1",
+    "jest": "24.9.0",
+    "jsdoc": "3.6.3",
+    "jsdoc-http-plugin": "0.3.1",
+    "node-fetch": "2.6.0",
+    "tree-kill": "1.2.1"
+  }
+}

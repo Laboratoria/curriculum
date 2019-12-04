@@ -9,9 +9,8 @@
 * [5. Critérios mínimos de aceitação do projeto](#5-criterios-minimos-de-aceitacao-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Avaliação](#8-avaliacao)
-* [9. Pistas, dicas e leituras complementares](#9-pistas-dicas-e-leituras-complementares)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, dicas e leituras complementares](#8-pistas-dicas-e-leituras-complementares)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -32,9 +31,6 @@ podem ser usados para construir a interface amigável e compreensível que está
 na parte direita.
 
 ![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
-
-\* Você pode ver em detalhe os dados neste [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-e a interface construída a partir dele neste [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
 ## 2. Resumo do projeto
 
@@ -87,10 +83,6 @@ por ejemplo, si tenemos una colección que representa a un grupo de personas,
 y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 --->
-
-Alguns conjuntos de dados têm uma identidade gráfica que você deverá utilizar
-na interface. Os guias de identidade gráfica podem ser encontrados neste
-[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## 3. Objetivos de aprendizagem
 
@@ -284,26 +276,6 @@ Como no projeto anterior, existe um arquivo `index.html`. Como já sabe, aqui
 entra a página que vai ser exibida ao usuário. Também serve para indicar quais
 scripts serão utilizados e juntar tudo o que foi feito.
 
-Neste arquivo você encontrará uma séris de _tags_ `<script>` _comentadas_. Para
-carregar diferentes fontes de dados, você deverá "descomentar" estas _tags_.
-Cada um destes scripts criará uma variável global com os dados correspondentes
-à fonte escolhida.
-
-Por exemplo, se "descomentamos" a seguinte linha:
-
-```html
-<!-- <script src="./data/worldbank/worldbank.js"></script> -->
-```
-
-A linha ficaria assim:
-
-```html
-<script src="./data/worldbank/worldbank.js"></script>
-```
-
-E agora teríamos a variável global `WORLDBANK` disponível em nossos outros
-scripts (como `src/data.js` ou `src/main.js`).
-
 ### `src/main.js`
 
 Recomendamos que utilize `src/main.js` para todos os códigos que tenham a ver
@@ -313,6 +285,25 @@ eventos (_event listeners_ ou _event handlers_) e etc.
 
 Esta não é a única forma de dividir seu código. Pode utilizar mais arquivos e
 pastas, sempre e quando a estrutura estiver clara para suas colegas.
+
+Neste arquivo você encontrará uma séris de _imports comentados_. Para carregar
+diferentes fontes de dados, você deverá "descomentar" estos _imports_. Cada um
+destes _imports_ criará uma variável `data` com os dados correspondentes à fonte
+escolhida.
+
+Por exemplo, se "descomentamos" a seguinte linha:
+
+```js
+// import data from './data/pokemon/pokemon.js';
+```
+
+A linha ficaria assim:
+
+```js
+import data from './data/pokemon/pokemon.js';
+```
+
+E agora teríamos a variável `data` disponível em `src/main.js`.
 
 ### `src/data.js`
 
@@ -357,57 +348,9 @@ para, opcionalmnente, ser carregado de forma assíncrona com
 Você também deverá fazer os teste unitários das funções implementadas no
 arquivo `data.js`.
 
-## 8. Avaliação
-
-NOTA: esta seção inclui uma lista de habilidades que poderão ser levadas em
-conta na avaliação do projeto. Os níveis esperados são _sugestões_, assim
-como _guias_, porém não são regras absolutas.
-
-Aconselhamos que revise [nossa rubrica](https://docs.google.com/spreadsheets/d/1hwyBoJWbA0MHGEMDLKqftIv64IhA1uKe2kmJhYpir4s/edit#gid=1789463812)
-para ver a descrição detalhada de cada habilidade e nível. Recomendamos também
-que procure aplicar a rubrica a você mesma e/ou seus projetos ao longo do
-bootcamp para ir acompanhando sua evolução.
-
-### Habilidades Interpessoais (Soft Skills)
-
-| Habilidade                                      | Nível esperado |
-|-------------------------------------------------|----------------|
-| Planejamento e administração do tempo           | 2              |
-| Autoaprendizado                                 | 2              |
-| Apresentações                                   | 2              |
-| Adaptabilidade                                  | 2              |
-| Solução de problemas                            | 2              |
-| Trabalho em equipe                              | 2              |
-| Responsabilidade                                | 2              |
-| Dar e receber feedback                          | 2              |
-| Comunicação eficaz                              | 2              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidade                              | Nível esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmos                     | 1              |
-| Arquitetura                             | 2              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 2              |
-| GitHub                                  | 2              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
-| Nomenclatura / semântica                | 3              |
-| Uso de funções / modularidade           | 2              |
-| Estruturas de dados                     | 2              |
-| Testes                                  | 2              |
-| **HTML/CSS**                                             |
-| Exatidão / Validação                    | 3              |
-| Estilo (linter html)                    | 3              |
-| Semântica / Arquitetura de Informação   | 2              |
-| DRY (CSS)                               | 3              |
-| Responsive Web Design                   | 2              |
-
 ***
 
-## 9. Pistas, dicas e leituras complementares
+## 8. Pistas, dicas e leituras complementares
 
 ### Primeiros passos
 
@@ -537,7 +480,7 @@ compañera:
 
 ***
 
-## 10. Checklist
+## 9. Checklist
 
 * [ ] Usar VanillaJS.
 * [ ] Não utilizar `this`.

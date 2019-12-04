@@ -1,5 +1,13 @@
 # React
 
+***
+
+:warning: **DEPRECATED**: Este tópico ha sido re-emplazado por la
+[documentación oficial en español](https://es.reactjs.org/) y será borrado de
+este repositorio en releases futuros.
+
+***
+
 **React** es una tecnología realmente revolucionaria, que no sólo nos permite
 crear interfaces a través de lindos componentes, sino que representa un cambio
 de paradigma que va mucho más allá del navegador o incluso la web.
@@ -18,7 +26,7 @@ estática, una single-page app, una aplicación de escritorio o una aplicación
 móvil.
 
 En este curso continuarás construirás un Single Page App (SPA), usando
-[React](https://reactjs.org/), [JSX](https://facebook.github.io/jsx/),
+[React](https://es.reactjs.org/), [JSX](https://facebook.github.io/jsx/),
 [Babel](https://babeljs.io/) y [Webpack](https://webpack.js.org/).
 
 ***Tags***: `react`, `components`, `ui`, `stateless`, `HOCs`, `babel`,
@@ -124,7 +132,7 @@ compartir un estado, sino que necesitan una referencia explícita de uno a otro.
 ## Lecturas complementarias
 
 * [React resources](https://x-team.com/react-resources/)
-* [React - página oficial](https://facebook.github.io/react/)
+* [React - página oficial](https://es.reactjs.org/)
 * [React patterns](http://reactpatterns.com)
 * [Functional React - Get your App outta my Component](https://medium.com/@adamterlson/functional-react-series-part-1-get-your-app-outta-my-component-92656ae13e25?ref=mybridge.co)
 * [React in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)

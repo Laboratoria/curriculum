@@ -9,13 +9,17 @@ done
 
 
 projects=(
+  '01-card-validation'
   '01-cipher'
   '02-data-lovers'
   '03-social-network'
   '04-burger-queen'
+  # '04-burger-queen-api'
+  # '04-burger-queen-api-client'
   '04-md-links'
-  '04-social-network-frameworks'
+  # '05-battleship'
   '05-bq-node'
+  # '05-social-network-fw'
   '05-tic-tac-toe-rn'
 )
 

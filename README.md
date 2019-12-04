@@ -5,69 +5,81 @@
 
 ## Introducción
 
-El _bootcamp_ de Laboratoria es un **programa de aprendizaje inmersivo de 6
-meses** enfocado en los perfiles de **Front-end Developer** y **UX Designer**.
-Nuestro modelo de aprendizaje se basa en emular un ambiente laboral que prepare
-a nuestras estudiantes desarrollando las habilidades técnicas y socioemocionales
-que necesitan para comenzar a trabajar.
+El _bootcamp_ de [Laboratoria](https://www.laboratoria.la/) es un **programa de
+aprendizaje inmersivo de 6 meses** enfocado en los perfiles de **Front-end
+Developer** y **UX Designer**.
 
-<!--
-* [Perfil de Front-end Developer]()
-* [Perfil de UX Designer]()
--->
+Nuestro modelo de aprendizaje se basa en simular un ambiente laboral que te
+prepare desarrollando habilidades técnicas y socioemocionales necesarias para
+**comenzar** a trabajar.
 
-El **aprendizaje basado en proyectos** es el eje central sobre el que se
-articula la experiencia de aprendizaje. Completar una serie de _proyectos_, de
-complejidad gradualmente creciente, permite a las estudiantes ir desarrollando
-las habilidades necesarias. De todas estas habilidades, consideramos que el
-**Autoaprendizaje** es la más importante; creemos firmemente que, no solamente
-es una habilidad indispensable para el mundo laboral que les espera, si no que
-es también una poderosa herramienta para que sean mujeres autosuficientes,
-seguras de su talento y habilidades y, finalmente, agentes de cambio a largo
-plazo.
+El **aprendizaje basado en proyectos** es el eje central de la experiencia de
+aprendizaje de nuestro _bootcamp_. Trabajar en una serie de _proyectos_, de
+complejidad gradualmente creciente, te permitirá ir desarrollando las
+habilidades necesarias; de todas las habilidades, consideramos que el
+**Autoaprendizaje** es la más importante; no sólo es una habilidad
+indispensable para el trabajo que te espera, si no que es también una poderosa
+herramienta para ser autosuficiente, segura de tu talento y habilidades.
 
-<!--
-Esta es una representación de la importancia de las habilidades que buscamos
-desarrollen nuestras estudiantes. Se van construyendo sobre la base de la(s)
-indispensable(s).
+## Mapa de proyectos
 
-![maslow](http://i68.tinypic.com/14j2kgj.jpg)
--->
-
-Los proyectos son evaluados por _coaches_ en función de la siguiente [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml).
-
-## Mapa de aprendizaje
-
-El _mapa de aprendizaje_ (o _mapa de proyectos_ se divide en 4 _etapas_:
-**Preadmisión**, **Common Core**, **Track** (Front-end Development y UX Design)
-y **Electivos**.
+El _mapa de proyectos_ se divide en 4 _etapas_: **Admisión**, **Common Core**,
+**Track** (Front-end Development y UX Design) y **Electivos**.
 
 ```
-Pre    | Common Core          | Track                                                 | Electivos      |
-===    | ===========          | =====                                                 | =========      |
-       |                      |                                                       |                |
-       |                      |                                                       | bq-node        |
-       |                      | Frontend                                              |/               |
-       |                      | social-network > md-links > burger-queen              |                |
-       |                      | /                                                     |\               |
-       |                      |/                                                      | tic-tac-toe-rn |
-trivia | cipher > data-lovers |                                                       |                |
-       |                      |\                                                      |                |
-       |                      | \                                                     | service-design |
-       |                      | UX                                                    |/               |
-       |                      | small businesses > redesign-and-data > ux consultancy |-design-sprint  |
-       |                      |                                                       |\               |
-       |                      |                                                       | visual-design  |
-       |                      |                                                       |                |
+Pre    | Common Core          | Track                                                   | Electivos         |
+===    | ===========          | =====                                                   | =========         |
+       |                      |                                                         |                   |
+       |                      |  Frontend                                               |                   |
+       |                      |  social-network > md-links     burger-queen             | battleship        |
+       |                      |  /                         \  /                       \ |/                  |
+       | cipher               | /\                          > -burger-queen-api-client >|-social-network-fw |
+       |      \               |/  \                        /  \                       / |\                  |
+trivia |        > data-lovers |   md-links > social-network    burger-queen-api         | tic-tac-toe-rn    |
+       |      /               |\                                                        |                   |
+       | luhn                 | \                                                       | service-design    |
+       |                      |  UX                                                     |/                  |
+       |                      |  small businesses > redesign-and-data > ux consultancy  |-design-sprint     |
+       |                      |                                                         |\                  |
+       |                      |                                                         | visual-design     |
+       |                      |                                                         |                   |
 ```
+
+## Evaluación
+
+Durante el transcurso de cada proyecto nuestro equipo de _coaches_ hará un
+seguimiento **individual** de tu trabajo y el de tu equipo (si es en grupo).
+
+El tiempo estimado para completar un proyecto puede variar dependiendo de cómo
+vayas avanzando y aprendiendo. Asegúrate de conversar con tus _coaches_ para que
+te ayuden a planificar y definir el alcance de lo que quieras y necesites
+implementar para conseguir los objetivos de aprendizaje del proyecto. Recuerda
+que **los objetivos de aprendizaje son más importantes que la completitud de tu
+proyecto**.
+
+Al final del proyecto, tendrás una _sesión de feedback_ con tus _coaches_. Antes
+de esta sesión tendrás que reflexionar y autoevaluarte respecto a los objetivos
+de aprendizaje. En esta sesión de _feedback_ validarás tu autoevaluación con tus
+_coaches_. En caso de no haber conseguido algunos objetivos, podrá ocurrir:
+
+* Si se trata de objetivos de aprendizaje que vuelven a aparecer más adelante en
+  otros proyectos, pueden quedar simplemente anotados como _pendiente_ y podrás
+  continuar con otro proyecto.
+* En caso contrario, tus _coaches_ te recomendarán cómo seguir para alcanzar los
+  objetivos de aprendizaje que te falten, pudiendo ser a través de continuar con
+  el proyecto (más tiempo), hacer un proyecto complementario, etc.
+
+Recuerda que cada una aprende a su ritmo y lo importante es ir obteniendo las
+habilidades asociadas a los objetivos de aprendizaje de forma gradual. Tus
+_coaches_ y compañeras están ahí para apoyarte.
 
 ***
 
 ## Etapa 0: Preadmisión
 
-La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro Bootcamp. Al
+La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro _bootcamp_. Al
 final de cada _proceso de admisión_ invitaremos a candidatas preseleccionadas a
-completar un _proyecto_ presencialmente en una de nuestras sedes.
+completar presencialmente un _proyecto_ en una de nuestras sedes.
 
 ### Proyecto: Trivia (necesita refactorización)
 
@@ -80,27 +92,54 @@ completar un _proyecto_ presencialmente en una de nuestras sedes.
 
 ## Etapa 1: Common Core
 
-Todas las estudiantes admitidas, comienzan con el _common core_. En esta etapa
-completarán los siguientes _proyectos_ en orden; cada uno desbloquea el
-siguiente. Al final del _common core_ las estudiantes participan en una o más
-_hackathones_ trabajando en proyectos más pequeños propuestos por Laboratoria
-y/o empresas/empleadores externos.
+Todas las estudiantes admitidas, comienzan con el _common core_. Durante esta
+etapa trabajarás en dos _proyectos_:
+
+1. Primero puedes elegir entre [Cifrado César](projects/01-cipher) y
+   [Tarjeta de Crédito Válida](projects/01-card-validation). Ambos proyectos
+   comparten los mismos objetivos de aprendizaje.
+2. Después, tendrás que trabajar en [Data Lovers](projects/02-data-lovers).
+
+Al final del _common core_ participarás en una o más _hackathones_ trabajando
+en proyectos más pequeños propuestos por Laboratoria y/o
+empresas/empleadores externos.
 
 ### Proyecto: [Cifrado César](projects/01-cipher)
 
-En este _proyecto_ implementan una aplicación web basada un _boilerplate_ que
-permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
+Este _proyecto_ require implementar una aplicación web basada un _boilerplate_
+que permita cifrar y descifrar texto usando la técnica del _cifrado césar_.
 
 El principal objetivo de aprendizaje de este proyecto es tener una primera
 experiencia construyendo una aplicación web, utilizando los conocimientos
 adquiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
 diseñar un producto pensando en los usuarios, construir una interfaz, escuchar
-eventos básicos del DOM, escribir lógica para llevar a cabo el cifado y
+eventos básicos del DOM, escribir lógica para llevar a cabo el cifrado y
 descifrado, _tests_ unitarios básicos para comprobar (y documentar) dicha
 lógica, y manipulación del DOM para mostrar (escribir) los resultados.
 
 * Duración estimada: 2 semanas.
-* Equipos: 1 estudiante.
+* Equipos: 1 estudiante (individual).
+* Tópicos: [Flow control](topics/javascript/02-flow-control),
+  [Strings](topics/javascript/06-strings), [Testing](topics/testing),
+  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
+  [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
+
+### Proyecto: [Tarjeta de crédito válida](projects/01-card-validation)
+
+Este _proyecto_ requiere implementar una aplicación web basada un _boilerplate_
+que permita a un usuario validar el número de una tarjeta de crédito y además
+ocultar todos los dígitos de la tarjeta menos los últimos cuatro.
+
+El principal objetivo de aprendizaje de este proyecto es tener una primera
+experiencia construyendo una aplicación web, utilizando los conocimientos
+adquiridos sobre **User Experience Design** y **JavaScript**. Esto incluye
+diseñar un producto pensando en los usuarios, construir una interfaz, escuchar
+eventos básicos del DOM, escribir lógica para llevar a cabo el cifrado y
+descifrado, _tests_ unitarios básicos para comprobar (y documentar) dicha
+lógica, y manipulación del DOM para mostrar (escribir) los resultados.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1 estudiante (individual).
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
@@ -108,19 +147,18 @@ lógica, y manipulación del DOM para mostrar (escribir) los resultados.
 
 ### Proyecto: [Data Lovers](projects/02-data-lovers)
 
-En este proyecto tendrán su primer acercamiento a transformar _data_ en
+En este proyecto tendrás tu primer acercamiento a transformar _data_ en
 información. El objetivo principal de este proyecto es aprender a diseñar y
 construir una _interfaz web_ donde podamos visualizar y manipular _data_.
 
 Esperamos que puedan pensar en el usuario, entender cuál es la mejor manera de
-visualizar la data según sus necesidades, y plasmar todo eso en el diseño en
-la web.
+visualizar la data en la web según sus necesidades.
 
-Este proyecto se debe "resolver" en parejas, por lo que un objetivo importante
-es ganar experiencia en trabajos colaborativos con toda la complejidad que
+Este proyecto se debe "resolver" en duplas, por lo que un objetivo importante
+es ganar experiencia en trabajo colaborativo con toda la complejidad que
 eso implica.
 
-* Duración estimada: 3 semanas.
+* Duración estimada: 4 semanas.
 * Equipos: 2 estudiantes.
 * Tópicos: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
@@ -133,21 +171,21 @@ eso implica.
 Después del _common core_ cada grupo se separa en _tracks especializados_ y
 paralelos: _Front-end Development y UX Design_.
 
-### Track Front End Dev
+### Track Front-end Development
 
-Tópicos comunes (independientes de proyecto): [Paradigmas](topics/paradigms),
+Tópicos comunes (uno o más proyectos): [Paradigmas](topics/paradigms),
 [JavaScript Funcional](topics/functional).
 
 #### Proyecto: [Red Social](projects/03-social-network)
 
 En este _proyecto_ partimos del supuesto que una emprendedora ha pedido hacer
-un prototipo para una _red social_ sobre algunos temas de entre los cuales las
-estudiantes deberán elegir.
+un prototipo para una _red social_ sobre algunos temas de entre los cuales
+deberás elegir.
 
-El objetivo principal de aprendizaje de este proyecto es construir un sitio web
+El objetivo de aprendizaje principal de este proyecto es construir un sitio web
 [_responsive_](https://github.com/Laboratoria/bootcamp/tree/master/topics/css/02-responsive)
-con más de una vista (página), y en el que podamos leer y escribir datos,
-entendiendo las necesidades de los usuarios para los que sw creará el producto.
+con más de una vista (página), y en el que podamos leer y escribir datos
+entendiendo las necesidades de los usuarios.
 
 * Duración estimada: 3 semanas.
 * Equipos: 3 estudiantes.
@@ -155,13 +193,33 @@ entendiendo las necesidades de los usuarios para los que sw creará el producto.
   [Async](topics/javascript/08-async), Múltiples vistas, Routing, Escritura de
   datos, `localStorage`, [Firebase](https://firebase.google.com/).
 
-#### Proyecto: [Burger Queen WebApp](projects/04-burger-queen)
+#### Proyecto: [Markdown Links](projects/04-md-links)
+
+Dentro de una comunidad de código abierto, proponen crear una herramienta
+usando [Node.js](https://nodejs.org/), que lea y analice archivos en formato
+`Markdown`, para verificar los links que contengan y reportar
+algunas estadísticas al respecto.
+
+El objetivo práctico de este proyecto es aprender a crear una **librería**
+(o biblioteca - _library_) en JavaScript.
+
+Diseñar una librería es una experiencia fundamental para cualquier
+desarrolladora porque que le obliga a pensar en la interfaz (API) de sus
+_módulos_ y cómo será usada por otros _developers_. Se necesita tener especial
+consideración en peculiaridades del lenguaje, convenciones y "buenas prácticas".
+
+* Duración estimada: 3 semanas.
+* Equipos: 1 estudiante.
+* Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
+  Módulos, [Errores](topics/javascript/09-errors).
+
+#### Proyecto: [Burger Queen Serverless](projects/04-burger-queen)
 
 Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
 restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
 _tablet_.
 
-El objetivo principal de aprendizaje de este proyecto es construir una
+El objetivo de aprendizaje principal de este proyecto es construir una
 _interfaz web_ usando un _framework_ (React, Vue o Angular).
 
 Como objetivo secundario, la implementación debe seguir las recomendaciones
@@ -169,86 +227,15 @@ para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
 * Duración estimada: 3 semanas.
 * Equipos: 1-2 estudiantes.
-* Tópicos: Frameworks, [React](topics/react), Vue, Angular, PWA, Offline First,
+* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline First,
   Service Workers, Serverless.
 
-#### Proyecto: [Markdown Links](projects/04-md-links)
+#### Proyecto: [Burger Queen HTTP/JSON API](projects/04-burger-queen-api)
 
-Dentro de una comunidad de código abierto, proponen crear una herramienta
-usando [Node.js](https://nodejs.org/), que lea y analice archivos en formato
-`Markdown`, para verificar los links que contengan y reportar
-algunas estadísticas.
-
-El objetivo práctico de este proyecto es aprender a crear una **librería**
-(o biblioteca - _library_) en JavaScript.
-
-Diseñar una librería es una experiencia fundamental para cualquier
-desarrolladora porque que le obliga a pensar en la interfaz (API) de sus
-_módulos_ y cómo será usada por otros developers. Se necesita tener especial
-consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
-
-* Duración estimada: 3 semanas.
-* Equipos: 1 estudiante.
-* Tópicos: Node.js, NPM, File System, Semver, Parsing, Markdown, CLI, HTTP,
-  Módulos, [Errores](topics/javascript/09-errors).
-
-### Track UX Design
-
-#### Proyecto: [Emprendimientos](projects/06-small-businesses)
-
-Para este reto inicial del track, las estudiantes trabajan con pequeños
-emprendimientos buscando ofrecer una nueva y/o mejor experiencia online.
-Para ello, tienen que entender los objetivos de negocio y también las
-necesidades de los usuarios/clientes de estos emprendimientos. Durante este
-reto las estudiantes hacen trabajo de campo como entrevistas, observación y
-testing. Y diseñan soluciones utilizando herramientas de diseño como Figma y
-Marvel.
-
-* Duración estimada: 3 semanas
-* Equipos: 2 o 3 estudiantes
-* Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
-  (flujo de contenido, mapa de sitio), diseño visual y de interacción
-  (wireframes y prototipado), y user testing
-
-#### Proyecto: [Rediseño y análisis de data](projects/07-redesign-and-data)
-
-Este es un proyecto de rediseño. Basándose en la data de los resultados
-que está teniendo una aplicación de servicios financieros, las estudiantes
-buscan mejorar la experiencia de la misma. En algunas casos este reto puede ser reemplazado por un reto con una empresa, pero con los mismos objetivos de
-aprendizaje.
-
-* Duración estimada: 3 semanas
-* Equipos: 2 o 3 estudiantes
-* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
-
-#### Proyecto: [Consultoría UX](projects/08-ux-consultancy)
-
-En este reto, las estudiantes trabajan en distintos casos reales
-propuestos por empresas de diversos rubros y tamaños. Anteriores retos
-han incluido empresas como Kmimos, Guvery, Globant, Sinenvolturas,
-Magical Startups, Laboratoria, entre otras.
-
-* Duración estimada: 3 semanas
-* Equipos: Depende de proyectos
-* Tópicos: UX Research, prototipado, ideación, visual design
-
-***
-
-## Etapa 3: Capstone / Electivos
-
-El último mes del Bootcamp - más o menos, cada una avanza a su ritmo - se espera
-que construyas tu proyecto _final_ o _capstone_, que puede estar basado en los
-tópicos/tecnologías vistas hasta el momento, o pueden cubrir algunos de los
-tópicos sugeridos (electivos).
-
-### Track Front End Dev
-
-#### Proyecto: [Burger Queen HTTP/JSON API](projects/05-bq-node)
-
-El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
+El objetivo de aprendizaje principal es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
 serie de herramientas comunes usadas en este tipo de contexto (Express como
-framework, MongoDB como base datos, ...).
+_framework_, MongoDB como base datos, etc.).
 
 En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
 sobre `HTTP`.
@@ -266,47 +253,142 @@ familiarizarnos con el _stack_ elegido: [Node.js](https://nodejs.org/),
   response, headers, body, status codes...), JSON, MongoDB,
   _variables de entorno_, JWT (_JSON Web Tokens_)...
 
-#### Proyecto: [Tic tac toe con React Native](projects/05-tic-tac-toe-rn)
+#### Proyecto: [Burger Queen API Client](projects/04-burger-queen-api-client)
 
-El objetivo principal de aprendizaje es tener una primera experiencia en
-desarrollo de aplicaciones nativas con React Native.
+Este _proyecto_ requiere implementar un sistema para que lxs meserxs de un
+restautante (_Burger Queen_) puedan tomar nota de los pedidos usando una
+_tablet_.
 
-En este proyecto tendrás que construir una aplicación usando React Native y
-Expo, y publicarla en tu cuenta de Expo, para que se pueda instalar en cualquier
-dispositivo Android o iOS.
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz web_ usando un _framework_ (React, Vue o Angular).
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como `View`,
-`Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
-nativas.
+Como objetivo secundario, la implementación debe seguir las recomendaciones
+para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
+
+* Duración estimada: 3 semanas.
+* Equipos: 1-2 estudiantes.
+* Tópicos: Frameworks, React, Vue, Angular, PWA, Offline First,
+  Service Workers, HTTP, JSON, `fetch`.
+
+### Track UX Design
+
+#### Proyecto: [Emprendimientos](projects/03-small-businesses)
+
+Para este proyecto inicial del _track_, trabajarás con pequeños emprendimientos
+para ofrecer una nueva y/o mejor experiencia _online_ para sus usuarios. Para
+eso, tienes que entender los objetivos de negocio del emprendimiento y las
+necesidades de sus usuarios/clientes. Durante este proyecto harás trabajo de
+campo: entrevistas, observación y _testing_ y diseñarás soluciones utilizando
+herramientas de diseño como Figma y Marvel.
+
+* Duración estimada: 3 semanas
+* Equipos: 2 o 3 estudiantes
+* Tópicos: UX research (entrevistas, benchmark), arquitectura de la información
+  (flujo de contenido, mapa de sitio), diseño visual y de interacción
+  (wireframes y prototipado), y user testing
+
+#### Proyecto: [Rediseño y Análisis de Data](projects/04-redesign-and-data)
+
+Este es un proyecto de rediseño de un producto existente. Basándose en la data
+de los resultados que está teniendo una aplicación de servicios financieros,
+deberás mejorar la experiencia de la misma.
+
+En algunas casos este proyecto puede ser reemplazado por un uno con una
+empresa, pero tendrá siempre los mismos objetivos de aprendizaje.
+
+* Duración estimada: 3 semanas
+* Equipos: 2 o 3 estudiantes
+* Tópicos: Data analysis, UX Research, prototipado, ideación, visual design
+
+#### Proyecto: [Consultoría UX](projects/05-ux-consultancy)
+
+Trabajarás en distintos casos reales propuestos por empresas de diversos rubros
+y tamaños. En el pasado se ha trabajado con empresas como Kmimos, Guvery,
+Globant, Sinenvolturas, Magical Startups, Laboratoria, entre otras.
+
+* Duración estimada: 3 semanas
+* Equipos: Depende de proyectos
+* Tópicos: UX Research, prototipado, ideación, visual design
+
+***
+
+## Etapa 3: Electivos
+
+La última parte del _bootcamp_, y dependiendo de cómo hayas conseguido los
+objetivos de aprendizaje de los anteriores proyectos, podrás aprovechar para
+elegir trabajar en un proyecto _final_ que puede estar basado en los
+tópicos/tecnologías vistas hasta el momento, o puede cubrir algunos de los
+tópicos adicionales sugeridos.
+
+### Track Front-end Development
+
+#### Proyecto: [Tic Tac Toe Con React Native](projects/05-tic-tac-toe-rn)
+
+El objetivo de aprendizaje principal es tener una primera experiencia en
+desarrollo de una aplicación usando React Native y Expo, y publicarla en tu
+cuenta de Expo para que se pueda instalar en cualquier dispositivo Android o iOS.
+
+Tendrás que familiarizarte con conceptos como `View`, `Text` o
+`TouchableOpacity` y con el flujo de desarrollo propio de apps nativas.
 
 * Duración estimada: 2 semanas.
 * Equipos: 1 estudiante
 * Tópicos: React Native, Expo, componentes nativos, touch events, ...
 
+#### Proyecto: [Battleship](projects/05-battleship)
+
+Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
+línea (si no lo conoces, puedes verlo en este link :
+[battle-ship](https://es.wikipedia.org/wiki/Batalla_naval_(juego))).
+
+En este proyecto deberás crear una nueva versión, agregándole algún giro para
+actualizarlo y hacerlo más atractivo para las nuevas generaciones. No estás
+atada a hacer este juego sobre barcos, puedes hacerlo con el tema que más
+te guste, siempre y cuando el modo de juego sea parecido.
+
+* Duración estimada: 2 semanas.
+* Equipos: 3 estudiantes
+* Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
+
+#### Proyecto: [Red Social (con Frameworks)](projects/05-social-network-fw)
+
+En este proyecto tendrás la oportunidad de _re-escribir_ tu anterior proyecto de
+la _Red Social_, pero esta vez usando un _framework_ o una _librería_.
+
+Creemos que una muy buena manera de profundizar en estas herramientas puede ser
+eliminando de la ecuación el hecho de que tengas que entender un proyecto desde
+cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
+Concéntrate en aprender y utilizar estas nuevas tecnologías.
+
+* Duración estimada: 2 semanas.
+* Equipos: 1-2 estudiantes
+* Tópicos: _react_, _angular_, _vue_, _firebase_.
+
 ### Track UX Design
 
-#### Proyecto: [Visual Design](projects/09-visual-design)
+#### Proyecto: [Visual Design](projects/06-visual-design)
 
-En este reto buscamos mejorar las habilidades de diseño visual de interfaces.
-Para ello, las estudiantes trabajan en cómo mejorar y unificar la experiencia
-de una plataforma de venta de entradas a espectaculos (tradicional) para
-ayudarlos a competir con nuevos actores en la industria como Stubhub,
-Eventbrite, Joinnus, entre otros. Para ello tendrán que crear soluciones
-consistentes para mobile, desktop y smartwatches.  En algunas casos este reto
-puede ser reemplazado por un reto con una empresa, pero con los mismos
-objetivos de aprendizaje.
+En este proyecto buscamos mejorar las habilidades de diseño visual de interfaces.
+Para ello, las trabajarás en cómo mejorar y unificar la experiencia de una
+plataforma de venta de entradas a espectáculos (tradicional) para ayudarlos a
+competir con nuevos actores en la industria como Stubhub, Eventbrite, Joinnus,
+entre otros.
+
+Tendrán que crear soluciones consistentes para _mobile_, _desktop_ y
+_smartwatches_. En algunas casos este proyecto puede ser reemplazado por uno
+con una empresa, pero con los mismos objetivos de aprendizaje.
 
 * Duración estimada: 3 semanas
 * Equipos: Depende de proyectos
 * Tópicos: Design Systems, Grid systems, atomic design, componentes,
   consistencia,jerarquía, responsive design.
 
-#### Proyecto: [Service Design](projects/10-service-design)
+#### Proyecto: [Service Design](projects/06-service-design)
 
 Con la ayuda de consultoras especializadas como Amable o Touchpoint,
-las estudiantes se sumergen en el mundo del service design. Entendiendo
-problemas de negocio desde una visión más holística y utilizando
-nuevas herramientas como el Service BluePrint.
+te sumergirás  en el mundo del _service design_ (diseño de servicios)
+entendiendo problemas de negocio desde una visión más holística y utilizando
+nuevas herramientas como el _Service BluePrint_.
 
 * Duración estimada: 3 semanas
 * Equipos: Depende de proyectos
@@ -317,33 +399,18 @@ nuevas herramientas como el Service BluePrint.
 
 ## Índice de tópicos
 
-En uso (`v2.x`):
-
 * [JavaScript](topics/javascript)
 * [HTML](topics/html)
 * [CSS](topics/css)
-* [Browser](topics/browser)
+* [Browser JavaScript](topics/browser)
 * [SCM: Git + GitHub](topics/scm)
 * [UNIX Shell](topics/shell)
 * [Paradigmas de programación](topics/paradigms)
 * [JavaScript Funcional](topics/functional)
-* [React](topics/react)
-* [Redux](topics/redux)
+* [React](topics/react) [DEPRECATED]
+* [Redux](topics/redux) [DEPRECATED]
 * [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
 * [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
-
-Wish list:
-
-* Algorithms
-* Angular
-* Data Structures
-* Databases
-* Editors
-* ESNext
-* Modules
-* Serverless
-* Styleguides
-* The web stack
 
 ***
 
@@ -368,7 +435,7 @@ contribuciones son bienvenidas.
 
 ## Licencia & Copyright
 
-Todos los materiales de este repo son (c) 2017-2018 [Laboratoria](http;//laboratoria.la/).
+Todos los materiales de este repo son (c) 2017-2019 [Laboratoria](http;//laboratoria.la/).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 

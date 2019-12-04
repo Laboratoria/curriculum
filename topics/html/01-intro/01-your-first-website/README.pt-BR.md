@@ -4,8 +4,9 @@
 - Formato: `individual`
 - Duração: `20min`
 
-## Objetivos
+## Objetivos de aprendizagem
 
+- Entender o papel que o tem HTML de criar a estrutura básica de uma página web.
 - Conhecer os pricipais elementos e tags HTML
 - Aprender a dar dinamismo a uma página web usando JavaScript
 - Ter uma aproximação ao mundo do código, criando seu primeiro site web
