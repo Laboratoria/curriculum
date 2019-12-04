@@ -13,10 +13,6 @@ while [[ $# -gt 0 ]]; do
   key="$1"
 
   case $key in
-    -k|--keep_rubric_numbers)
-      keep_rubric_numbers=YES
-      shift
-      ;;
     -l|--locale)
       shift
       locale="$1"
@@ -110,20 +106,6 @@ else
     rm "${dest}/README.pt-BR.md"
   elif [[ "$locale" == "pt-BR" ]]; then
     mv "${dest}/README.pt-BR.md" "${dest}/README.md"
-  fi
-fi
-
-
-if [[ "$keep_rubric_numbers" != "YES" ]]; then
-  if [[ "${noop}" == "YES" ]]; then
-    echo "Would have removed rubric numbers from README.md"
-  else
-    echo "Removing rubric numbers..."
-    readme="README.md"
-    if [[ "$locale" != "es-ES" ]]; then
-      readme="README.${locale}.md"
-    fi
-    cat "${src}/${readme}" | sed -e 's/^|\([^|]*\)|.*|$/|\1|/g' > "${dest}/README.md"
   fi
 fi
 

@@ -1,3 +1,3 @@
 /*
-  Aquí van tus funciones
+  Aquí va tu JavaScript
 */

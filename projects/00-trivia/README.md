@@ -75,7 +75,6 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 ### Buenas prácticas de desarrollo
 
 * [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
@@ -162,7 +161,7 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos), entre otras
-funciones que sean necesarias para actualizar el resultado en la pantalla(UI).
+funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 
 ## 8. Pistas, tips y lecturas complementarias
 
