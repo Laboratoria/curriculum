@@ -77,6 +77,7 @@ const buildItems = (items) => {
 
 buildItems([
   // JS Projects (spanish)
+  { type: 'project', id: '00-trivia', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '01-card-validation', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'es-ES', track: 'js' },
