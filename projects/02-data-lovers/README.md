@@ -9,9 +9,8 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -31,9 +30,6 @@ izquierda se puede construir una interfaz amigable y entendible por el usuario
 al lado derecho.
 
 ![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
-
-\* Puedes ver el detalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
 ## 2. Resumen del proyecto
 
@@ -89,11 +85,6 @@ por ejemplo, si tenemos una colección que representa a un grupo de personas,
 y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 --->
-
-Algunos sets de datos tiene una identidad gráfica que deberás utilizar en la
-interfaz. La identidad gráfica, también conocida como guía de estilos en
-diseño, de estos sets la podrás encontrar en el siguiente
-[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
 ## 3. Objetivos de aprendizaje
 
@@ -215,7 +206,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
 en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Hacker edition  
+## 6. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -289,26 +280,6 @@ Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
 acá va la página que se mostrará al usuario. También nos sirve para indicar
 qué scripts se usarán y unir todo lo que hemos hecho.
 
-En este archivo encontrarás una serie de _etiquetas_ (_tags_) `<script>`
-_comentadas_. Para _cargar_ las diferentes fuentes de datos tendrás que
-_descomentar_ estas _etiquetas_. Cada uno estos scripts asignará una variable
-global con la data correspondiente a esa fuente de datos.
-
-Por ejemplo, si "descomentamos" la siguiente línea:
-
-```html
-<!-- <script src="./data/worldbank/worldbank.js"></script> -->
-```
-
-La línea quedaría así:
-
-```html
-<script src="./data/worldbank/worldbank.js"></script>
-```
-
-Y ahora tendríamos la variable global `WORLDBANK` disponible en nuestros otros
-scripts (como `src/data.js` o `src/main.js`).
-
 ### `src/main.js`
 
 Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
@@ -318,6 +289,24 @@ manejadores de eventos (_event listeners_ o _event handlers_), ....
 
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+En este archivo encontrarás una serie de _imports_ _comentados_. Para _cargar_
+las diferentes fuentes de datos tendrás que _descomentar_ la línea
+correspondiente.
+
+Por ejemplo, si "descomentamos" la siguiente línea:
+
+```js
+// import data from './data/pokemon/pokemon.js';
+```
+
+La línea quedaría así:
+
+```js
+import data from './data/pokemon/pokemon.js';
+```
+
+Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
 
 ### `src/data.js`
 
@@ -365,64 +354,9 @@ asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_A
 Tendrás también que completar las pruebas unitarias de las funciones
 implementadas en el archivo `data.js`.
 
-## 8. Evaluación
-
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### Habilidades Blandas (Soft Skills)
-
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 2              |
-| Autoaprendizaje                                 | 2              |
-| Presentaciones                                  | 2              |
-| Adaptabilidad                                   | 2              |
-| Solución de problemas                           | 2              |
-| Trabajo en equipo                               | 2              |
-| Responsabilidad                                 | 2              |
-| Dar y recibir feedback                          | 2              |
-| Comunicación eficaz                             | 2              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidad                               | Nivel esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 1              |
-| Arquitectura                            | 2              |
-| **Source Code Management (SCM)**                            |
-| Git                                     | 2              |
-| GitHub                                  | 2              |
-| **JavaScript**                          |
-| Estilo (linter js)                      | 2              |
-| Nomenclatura / semántica                | 3              |
-| Uso de funciones / modularidad          | 2              |
-| Estructuras de datos                    | 2              |
-| Tests                                   | 2              |
-| **HTML/CSS**                                             |
-| Correctitud / Validación                | 3              |
-| Estilo (linter html)                    | 3              |
-| Semántica / Arquitectura de información | 2              |
-| DRY (CSS)                               | 3              |
-| Responsive Web Design                   | 2              |
-
-### Habilidades Técnicas (UX)
-
-| Habilidad       | Nivel esperado |
-|-----------------|----------------|
-| User Centricity | 3              |
-| Visual Design   | 2              |
-
 ***
 
-## 9. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -552,7 +486,7 @@ compañera:
 
 ***
 
-## 10. Checklist
+## 9. Checklist
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.

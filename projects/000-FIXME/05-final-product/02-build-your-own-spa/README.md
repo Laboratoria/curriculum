@@ -56,7 +56,7 @@ su documentación y muy probablemente ver algunos tutoriales de cómo lograr hac
 funcionar ciertos aspectos particulares, no es nuestra recomendación sobretodo
 por el tiempo que tendrás para el producto final, pero no te limitamos tampoco :)
 
-Entre los frameworks más populares puedes encontrar a [React](https://reactjs.org/),
+Entre los frameworks más populares puedes encontrar a [React](https://es.reactjs.org/),
 [Angular](https://angular.io/), [VueJS](https://vuejs.org/), entre otros. Sin
 embargo, otros frameworks un poco más antiguos como [Backbone](http://backbonejs.org/),
 [AngularJS](https://angularjs.org/) o [Ember](https://www.emberjs.com/) no
