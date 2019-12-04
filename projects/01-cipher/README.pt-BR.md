@@ -6,10 +6,12 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do
+  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
+* [8. Guias, dicas e leituras
+  complementares](#8-guias-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
 
 ***
@@ -59,21 +61,36 @@ exemplo:
 
 ## 3. Objetivos de aprendizagem
 
-Neste projeto você aprenderá a construir uma aplicação web que interaja com o
-usuário através do navegador e a lógica para essa interação. Em outras palavras,
-você aprenderá:
+Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
+interagir com o usuário final através do navegador utilizando HTML, CSS e
+JavaScript como ferramentas.
 
-* Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
-* Permitir o usuário interagir com elementos do DOM e fazer com que a aplicação
-  responda (cifrar/decifrar) quando ocorrer os **eventos de DOM**.
-* Manipular _strings_ (cadeias de texto).
-* Usar **controle de fluxo** (laços, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**).
-* **Implementar funções** dada uma descrição de comportamento.
-* Verificar a sua implementação com **provas unitárias**.
-* Entender as **necessidades do usuário** e propor soluções.
-* Organizar o seu tempo e priorizar tarefas em um ambiente de **alta
+Em outras palavras, você aprenderá:
+
+* Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
   incerteza**.
+* Entender as **necessidade do usuário** e propor uma solução.
+* Entender a importância do processo de prototipação durante a criação de um
+  produto digital.
+* Conhecer os princípios básicos de desenho visual.
+* Utilizar _tags_ semânticas de HTML e elementos de formulário.
+* Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
+* Utilizar diversos tipos de seletores no CSS: elementos, classe e id.
+* Utilizar o modelo de caixas do CSS (border, margin, padding).
+* Definir regras de estilo do CSS.
+* Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
+  responda (cifrar/descifrar) quando os **evento de DOM** ocorrerem.
+* Manipular _**strings**_ (cadeias de texto).
+* Usar **controle de fluxo** (loops, condicionais, ...).
+* Atualizar a tela com os resultados (**manipular o DOM**) através de
+  **innerHTML** ou **textContent**.
+* **Implementar uma função** dada a descrição do seu comportamento.
+* Verificar que as suas funções façam o esperado (**usando provas unitárias
+  (_unit test_) com Jest**).
+* Configurar a sua conta de git.
+* Fazer o _fork_ e _clone_ do repositório do projeto.
+* Manter o seu repositório remoto sempre atualizado (commit, pull, push).
+* Subir o seu projeto para o Github Pages.
 
 ## 4. Considerações gerais
 
@@ -206,8 +223,8 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
-   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like", como
-   GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
+   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
+   como GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
    provavelmente o `git` também). Se você usa Windows você pode usar o [Git
    bash](https://git-scm.com/download/win), embora seja recomendado que você
    teste :penguin: GNU/Linux.
