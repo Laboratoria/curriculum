@@ -59,8 +59,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Utilizar el modelo de cajas de CSS (border, margin, padding).
 * Definir reglas de estilo en CSS.
 * Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos
-  **eventos del DOM**.
+  aplicación responda cuando ocurran esos **eventos del DOM**.
 * Manipular _**strings**_ (cadenas de texto).
 * Usar **control de flujo** (bucles, condicionales, ...).
 * Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
