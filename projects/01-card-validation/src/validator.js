@@ -1,5 +1,5 @@
-const validator = {
-  // ...
+window.validator = {
+  isValid: (creditCardNumber) => {
+    /* Acá va tu código que valida la tarjeta*/
+  }
 };
-
-export default validator;
