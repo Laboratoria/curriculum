@@ -81,10 +81,19 @@ La etapa de _admisión_ empieza _antes_ de ser aceptada a nuestro _bootcamp_. Al
 final de cada _proceso de admisión_ invitaremos a candidatas preseleccionadas a
 completar presencialmente un _proyecto_ en una de nuestras sedes.
 
-### Proyecto: Trivia (necesita refactorización)
+### Proyecto: [Trivia](./projects/00-trivia)
+
+En este proyecto tendrás que construir una aplicación web que le permita a un
+usuario responder distintas preguntas escogiendo sus respuestas de una lista de
+alternativas.
+
+El objetivo principal de este proyecto es, tener una primera experiencia
+desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
+través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
+herramientas.
 
 * Duración estimada: 3 días.
-* Equipos: 1 estudiante
+* Equipos: 2 estudiantes.
 * Tópicos: [JavaScript Basics](topics/javascript/01-basics),
   [HTML Intro](topics/html/01-intro), [CSS](topics/css/01-css).
 

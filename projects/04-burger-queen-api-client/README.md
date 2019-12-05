@@ -1,4 +1,4 @@
-# Burger Queen
+# Burger Queen (API Client)
 
 ## Índice
 
