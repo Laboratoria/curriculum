@@ -7,7 +7,8 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Evaluación](#6-evaluación)
+* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -58,8 +59,7 @@ Dicho en palabras sencillas, aprenderás a:
 * Utilizar el modelo de cajas de CSS (border, margin, padding).
 * Definir reglas de estilo en CSS.
 * Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos
-  **eventos del DOM**.
+  aplicación responda cuando ocurran esos **eventos del DOM**.
 * Manipular _**strings**_ (cadenas de texto).
 * Usar **control de flujo** (bucles, condicionales, ...).
 * Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
