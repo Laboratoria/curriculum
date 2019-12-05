@@ -1,13 +1,25 @@
 #! /usr/bin/env bash
 
+deps=(pwd mktemp mkdir git rm cp)
+
+for dep in "${deps[@]}"; do
+  command -v "$dep" >/dev/null 2>&1 \
+  || { echo >&2 "I require ${dep} but it's not installed. Aborting."; exit 1; }
+done
+
+
 projects=(
+  '01-card-validation'
   '01-cipher'
   '02-data-lovers'
   '03-social-network'
   '04-burger-queen'
+  # '04-burger-queen-api'
+  # '04-burger-queen-api-client'
   '04-md-links'
-  '04-social-network-frameworks'
+  # '05-battleship'
   '05-bq-node'
+  # '05-social-network-fw'
   '05-tic-tac-toe-rn'
 )
 

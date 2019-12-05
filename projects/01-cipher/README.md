@@ -9,9 +9,8 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Evaluación](#8-evaluación)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Checklist](#9-checklist)
 
 ***
 
@@ -61,20 +60,38 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto aprenderás a construir una aplicación web que interactúe con el
-usuario a través del navegador y la lógica basada en esa interacción. Dicho en
-palabras sencillas, aprenderás a:
+En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
+interactuará con el usuario final a través del navegador utilizando HTML, CSS y
+JavaScript como herramientas.
 
-* Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+Dicho en palabras sencillas, aprenderás a
+
+* Organizar tu tiempo y priorizar tareas en un entorno de
+  **alta incertidumbre**.
+* Entender las **necesidades del usuario** y cómo proponer una solución.
+* Entender la importancia del proceso de prototipado durante la creación de un
+  producto digital.
+* Conocer los principios básicos del diseño visual.
+* Utilizar etiquetas semánticas de HTML y elementos de formulario.
+* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
+* Utilizar el modelo de cajas de CSS (border, margin, padding).
+* Definir reglas de estilo en CSS.
 * Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos **eventos del DOM**.
+  aplicación responda (cifrar/descifrar) cuando ocurran esos
+  **eventos del DOM**.
 * Manipular _**strings**_ (cadenas de texto).
 * Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**).
+* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
+  **innerHTML** o **textContent**.
 * **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar tu implementación con **pruebas unitarias**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+* Verificar que tus funciones hagan las cosas para las que fueron creadas
+  (**pruebas unitarias (_unit tests_) con Jest**).
+* Configurar tu cuenta de git.
+* Hacer _fork_ y _clonar_ el repositorio del proyecto.
+* Mantener actualizado los cambios en tu repositorio remoto
+  (commit, pull, push).
+* Desplegar tu proyecto en gh-pages.
 
 ## 4. Consideraciones generales
 
@@ -119,9 +136,9 @@ La interfaz debe permitir al usuario:
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
+* `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
+  _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
+  métodos:
   - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
     que queremos cifrar.
@@ -149,8 +166,8 @@ hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
 ## 7. Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6). En este proyecto NO está permitido usar librerías o frameworks, sólo
+La lógica del proyecto debe estar implementada completamente en JavaScript. En
+este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
@@ -171,6 +188,7 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 ```text
 ./
+├── .babelrc
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
@@ -182,9 +200,8 @@ como toda la configuración de dependencias y tests de ejemplo:
 │   ├── index.js
 │   └── style.css
 └── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
+    ├── .eslintrc
+    └── cipher.spec.js
 ```
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
@@ -198,61 +215,9 @@ entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
-## 8. Evaluación
-
-NOTA: Esta sección incluye una lista de habilidades que se podrán tener en
-cuenta a la hora de evaluar el proyecto. Los niveles esperados son _sugerencias_
-así como _guías_ en el diseño curricular, pero no reglas absolutas.
-
-Te aconsejamos revisar [nuestra rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Te
-recomendamos también que trates de aplicarte la rúbrica a tí misma y/o a los
-proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolución.
-
-### Habilidades Blandas (Soft Skills)
-
-| Habilidad                                       | Nivel esperado |
-|-------------------------------------------------|----------------|
-| Planificación, organización y manejo del tiempo | 2              |
-| Autoaprendizaje                                 | 2              |
-| Presentaciones                                  | 2              |
-| Adaptabilidad                                   | 2              |
-| Solución de problemas                           | 2              |
-| Responsabilidad                                 | 2              |
-| Dar y recibir feedback                          | 2              |
-| Comunicación eficaz                             | 2              |
-
-### Habilidades Técnicas (Front-end)
-
-| Habilidad                               | Nivel esperado |
-|-----------------------------------------|----------------|
-| **Computer Science (CS)**                                |
-| Lógica / Algoritmia                     | 1              |
-| Arquitectura                            | 1              |
-| **Source Code Management (SCM)**                         |
-| Git                                     | 1              |
-| GitHub                                  | 2              |
-| **JavaScript**                                           |
-| Estilo (linter js)                      | 2              |
-| Nomenclatura / semántica                | 2              |
-| Uso de funciones / modularidad          | 1              |
-| Tests                                   | 2              |
-| **HTML/CSS**                                             |
-| Correctitud / Validación                | 2              |
-| Estilo (linter html)                    | 3              |
-| Semántica / Arquitectura de información | 2              |
-| DRY (CSS)                               | 2              |
-| Responsive Web Design                   | 2              |
-
-### Habilidades Técnicas (UX)
-
-| Habilidad       | Nivel esperado |
-|-----------------|----------------|
-| User Centricity | 2              |
-
 ***
 
-## 9. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -260,9 +225,9 @@ proyectos de tus compañeras a lo largo del Bootcamp para ir viendo tu evolució
    condiciones, algo como [Atom](https://atom.io/) o
    [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
@@ -321,7 +286,7 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 10. Checklist
+## 9. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 

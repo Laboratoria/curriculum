@@ -4,8 +4,9 @@
 - Formato: `self-paced`
 - Duración: `20min`
 
-## Objetivos
+## Objetivos de aprendizaje
 
+- Entender como construir la estructura básica de una página web usando HTML.
 - Conocer los principales elementos y etiquetas HTML.
 - Aprender a darle dinamismo a una web utilizando JavaScript.
 - Tener un primer acercamiento al mundo del código, creando tu primer sitio
@@ -69,7 +70,7 @@ que crees tu primera web:
    para Mac y Windows. Si deseas puedes descargar otro editor de texto llamado
    Visual Studio Code, ten en cuenta que las explicaciones que te dará Michelle
    estarán en Atom pero tú podrás hacer lo mismo en Visual Studio Code.
-   [Descarga VSC aquí](https://code.visualstudio.com/)
+   [Descarga VSCode aquí](https://code.visualstudio.com/)
 2. Crea un documento HTML llamado `index.html`
 3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un
    párrafo)
@@ -133,15 +134,15 @@ Agrega estilos con CSS
 
 Es importante que entiendas que HTML _**no**_ es un `lenguaje de programación`;
 es un `lenguaje de marcado de texto`. Como hemos visto, con HTML le damos una
-estructura a nuestro sitio. Sin embargo, si queremos darle _comportamiento_ o
+estructura a nuestra página. Sin embargo, si queremos darle _comportamiento_ o
 _interacción_ a nuestra web, necesitamos usar un `lenguaje de programación`. Y
 el **único lenguaje de programación para correr en los navegadores web es
-JavaScript**. Con JavaScript logramos que las sitios web puedan responder a las
+JavaScript**. Con JavaScript logramos que las páginas web puedan responder a las
 acciones de usuario, volviéndolas interactivas.
 
 Para incluir JavaScript en un documento HTML puedes utilizar el elemento
 `script` y colocar tu código JavaScript entre sus etiquetas de inicio
-(`<script type="text/javascript">`) y cierre (`</script>`), tal como lo muestra
+(`<script>`) y cierre (`</script>`), tal como lo muestra
 el siguiente ejemplo:
 
 ```html
@@ -154,7 +155,7 @@ el siguiente ejemplo:
     <h1>¡Hola Mundo!</h1>
     <p>Esta es mi primera web</p>
 
-    <script type="text/javascript">
+    <script>
       alert('¡Hola Mundo!');
     </script>
 

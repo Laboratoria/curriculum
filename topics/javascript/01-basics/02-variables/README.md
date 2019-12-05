@@ -14,7 +14,7 @@
 El texto a continuación se basa en gran medida, con ciertos ajustes, en el
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn
 Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](http://hectorip.github.io).
+disponible gracias a [hectorip](https://github.com/hectorip).
 
 ## Variables
 
@@ -48,10 +48,13 @@ asignación) y una expresión (el número `19`).
 
 ***
 
-NOTA: En este primer ejemplo hemos usado `var`, que a día de hoy se considera
-una manera un poco anticuada de declarar variables, y hoy en día, desde ES6,
-preferimos usar o `let` (para declarar variables con scope de bloque) o `const`
-(para declarar referencias que no se van a reasignar) como veremos más adelante.
+NOTA: En este primer ejemplo hemos usado [`var`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/var),
+que a día de hoy se considera una manera un poco anticuada de declarar
+variables. Desde ES6 (ES2015), preferimos usar o [`let`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/let)
+(para declarar variables a las que después necesitemos _reasignar_ un valor
+diferente) o [`const`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/const)
+(para declarar variables que no se van a reasignar), ambas ahora con ámbito
+(_scope_) de bloque, como veremos más adelante.
 
 ***
 
