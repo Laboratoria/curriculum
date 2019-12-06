@@ -68,3 +68,4 @@ o testeo.
 
 6. Distribuye el screener y elige a los participantes que cumplan los criterios
    que necesitan.
+   

@@ -86,7 +86,7 @@ Puedes usar esta plantilla para ayudarte a crear la historia que quieres contar
 
 ## Otro video sobre Storytelling
 
-[video](https://youtu.be/ufdvYrTeTuU?cc_load_policy=1&cc_lang_pref=es) 
+[video](https://youtu.be/ufdvYrTeTuU?cc_load_policy=1&cc_lang_pref=es)
 
 ## Referencias
 

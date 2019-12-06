@@ -15,7 +15,7 @@ para las personas.
 
 La forma más simple de una historia de usuario es esta:
 
-“Como  **[ tipo de usuario ]**, quiero **[ función ]**,  para poder
+“Como **[ tipo de usuario ]**, quiero **[ función ]**,  para poder
 **[ acción ]**.”
 
 Si te fijas hay que indicar “tipo de usuario” por lo que para hacer éstas
@@ -55,7 +55,7 @@ y establecer cómo entregaremos esa propuesta de valor.
 ## Ejercicio
 
 - Piensa en una app para reservar hora médica en múltiples centros de atención.
-  Haz las historias principales de reserva de hora. ( 20 minutos) 
+  Haz las historias principales de reserva de hora. ( 20 minutos)
 
 *¿Qué es lo primero que debemos hacer?*
 
@@ -94,4 +94,4 @@ diferentes necesidades.
 
 ## Referencias
 
-https://www.uxpin.com/studio/blog/write-smarter-user-stories-product-design-development/?utm_content=buffer8a567&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+- [User Stories](https://www.uxpin.com/studio/blog/write-smarter-user-stories-product-design-development/?utm_content=buffer8a567&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)

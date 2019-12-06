@@ -40,3 +40,4 @@ Para las preguntas de What If podemos usar los siguientes tips:
   quisiera comer saludable?`
 - Toma ideas de otras industrias: `¿Qué tal si hacer check-in para un vuelo
   fuese como un juego?`
+  

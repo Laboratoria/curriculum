@@ -38,7 +38,7 @@ a los usuarios y su interacción con los productos digitales. Además, aprender�
 a identificar mejor los problemas del negocio y la relación que tienen esos
 problemas con los del usuario.
 
-### Unidad 03: [Entendimiendo del negocioR](02-business-understanding)
+### Unidad 03: [Entendimiendo del negocio](02-business-understanding)
 
 En este curso formarás el mindset de negocios necesario para ser una exitosa
 UX Designer debe tener.
