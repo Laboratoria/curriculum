@@ -90,6 +90,7 @@ buildItems([
   { type: 'project', id: '05-bq-node', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
