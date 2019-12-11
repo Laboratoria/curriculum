@@ -416,10 +416,14 @@ nuevas herramientas como el _Service BluePrint_.
 * [UNIX Shell](topics/shell)
 * [Paradigmas de programación](topics/paradigms)
 * [JavaScript Funcional](topics/functional)
+* [Babel](topics/babel) [DEPRECATED]
 * [React](topics/react) [DEPRECATED]
 * [Redux](topics/redux) [DEPRECATED]
-* [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux)
-* [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual)
+* [Intro a UX Design](topics/intro-ux)
+* [Content Management](topics/content-management)
+* [Interaction Design](topics/interaction-design)
+* [UX Research](topcis/ux-research)
+* [Prototyping](topcis/prototyping)
 
 ***
 
