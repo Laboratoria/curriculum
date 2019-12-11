@@ -121,6 +121,13 @@ buildItems([
   { type: 'topic', id: 'javascript', locale: 'pt-BR', track: 'js' },
   { type: 'topic', id: 'scm', locale: 'pt-BR', track: 'js' },
   { type: 'topic', id: 'shell', locale: 'pt-BR', track: 'js' },
+  // UX Topics (spanish)
+  { type: 'topic', id: 'content-management', locale: 'es-ES', track: 'ux' },
+  { type: 'topic', id: 'interaction-design', locale: 'es-ES', track: 'ux' },
+  { type: 'topic', id: 'intro-ux', locale: 'es-ES', track: 'ux' },
+  { type: 'topic', id: 'prototyping', locale: 'es-ES', track: 'ux' },
+  { type: 'topic', id: 'talent-fest', locale: 'es-ES', track: 'ux' },
+  { type: 'topic', id: 'ux-research', locale: 'es-ES', track: 'ux' },
 ])
   .then(results => {
     const hasErrors = results.reduce(
