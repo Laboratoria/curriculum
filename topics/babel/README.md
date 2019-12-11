@@ -1,5 +1,13 @@
 # Babel
 
+***
+
+:warning: **DEPRECATED**: Este tópico ha sido deprecado en favor de la
+[documentación oficial](https://babeljs.io/docs/en/) y será borrado de este
+repositorio en releases futuros.
+
+***
+
 Javascript es un lenguage vivo, que año a año se va actualizando
 con nuevas APIs y estructuras sintácticas.
 
