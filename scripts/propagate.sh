@@ -9,6 +9,7 @@ done
 
 
 projects=(
+  '00-trivia'
   '01-card-validation'
   '01-cipher'
   '02-data-lovers'
