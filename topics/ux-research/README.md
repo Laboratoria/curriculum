@@ -31,14 +31,26 @@ experiencias que tengan en cuenta al usuario desde su concepción.
 Antes de empezar a trabajar en research, tenemos que entender el problema en
 el que estamos trabajando y cuáles son los objetivos del negocio en este reto.
 
-### Unidad 02: [Entendimiento del Usuario](01-user-understanding)
+### Unidad 02: [Entendimiento del Usuario: investigación cualitativa](01-qualitative-research)
 
 En este curso concerás distintas herramientas que te ayudarán a entender mejor
 a los usuarios y su interacción con los productos digitales. Además, aprenderás
 a identificar mejor los problemas del negocio y la relación que tienen esos
 problemas con los del usuario.
 
-### Unidad 03: [Entendimiendo del negocio](02-business-understanding)
+### Unidad 03: [Entendimiento del Usuario: investigación cuantitativa](02-quantitative-research)
+
+...
+
+### Unidad 04: [Entendimiento del Usuario: síntesis](03-synthesis)
+
+...
+
+### Unidad 05: [Entendimiendo del negocio: entendimiento del problema de negocio](04-business-problem-understanding)
 
 En este curso formarás el mindset de negocios necesario para ser una exitosa
 UX Designer debe tener.
+
+### Unidad 06: [Entendimiendo del negocio: métricas de producto](05-product-metrics)
+
+...
