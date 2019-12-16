@@ -1,4 +1,4 @@
-// importamos el objeto `validator`, que contiene la función `isValid`
+// importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
 import validator from '../src/validator';
 
 describe('validator', () => {
@@ -12,6 +12,10 @@ describe('validator', () => {
     });
 
     it.skip('debería retornar true para "4083952015263"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('debería retornar true para "79927398713"', () => {
       // escribe aquí tu test
     });
 
