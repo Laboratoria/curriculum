@@ -17,7 +17,7 @@ Un caso especial, y que es crítico en los hospitales, es manejar cuándo se
 atenderán los pacientes que llegan a la sala de urgencias. Los datos permiten
 asignar médicos y salas que siempre son escasas a quienes más lo necesitan. Para
 esto se ha inventado un sistema de categorización de pacientes, donde no importa
-el orden de llegada sino que su gravedad de acuerdo a esta tabla : 
+el orden de llegada sino que su gravedad de acuerdo a esta tabla :
 
 ![Categorización-UEH-660x1025](https://user-images.githubusercontent.com/7809496/71842401-4d6b4e00-30a0-11ea-9784-910bcc7b2a8a.png)
 
@@ -34,7 +34,7 @@ En esta ocasión tendrán que hacer duplas para crear un sistema de colas para l
 sala de emergencia de __LabSalud__, hospital que ha solicitado a ustedes ayuda
 para el desarrollo.
 
-Los requisitos que pide __LabSalud__ para este sistema son : 
+Los requisitos que pide __LabSalud__ para este sistema son :
 
 * Debe poder ser ingresado un paciente, guardando su nombre, edad, sexo,
 descripción de la emergencia y categoría de emergencia.
@@ -46,6 +46,7 @@ de cada paciente.
 boxes, avisando el nombre de quien debe pasar y a qué box.
 
 Para facilitar el desarrollo tomen en cuenta los siguientes consejos :
+
 * Quien usa el sistema es la doctora a cargo de categorizar los pacientes y
 nadie más. Su pantalla también es visible en la televisión del hospital.
 * Todo debe estar en una sola pantalla con resolución de TV (1270*720),
@@ -68,7 +69,9 @@ con los usuarios.
 5. Perfeccionar tus habilidades de diseño y CSS para lograr una interfaz que
 permita tener todos los elementos pedidos sin entorpecerse entre si.
 6. Pensar en las necesidades de las personas para crear historias de usuario.
-7. Escribir y trabajar con historias de usuario, sus definiciones de terminado (definition of done) y Criterios de Aceptación como herramienta central de la organización y planificación de tu trabajo.
+7. Escribir y trabajar con historias de usuario, sus definiciones de terminado
+(definition of done) y Criterios de Aceptación como herramienta central de la
+organización y planificación de tu trabajo.
 8. Definir la información y de qué forma mostrarla en el producto, basándote en
 tu entendimiento del usuario.
 9. Crear productos que sigan los principios básicos de diseño visual y las
