@@ -57,26 +57,38 @@ código, no de la interfaz de usuario).
 
 ## 3. Objetivos de aprendizaje
 
+### Comunes
+
 1. Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-2. El objetivo principal de este proyecto es que se familiaricen con el uso de
-arreglos y diccionarios, incluso que los combinen para obtener estructuras de
-datos más complejas que te permitan resolver problemas grandes de datos.
-3. Dominar la manipulación del DOM para hacer aplicaciones interactivas y
-dinámicas sin necesidad de tener todo en HTML o varios archivos de HTML, sino
-que generando y modificando HTML desde Javascript.
-4. Manejar eventos del DOM, como clicks o entradas de texto, para interactuar
-con los usuarios.
-5. Perfeccionar tus habilidades de diseño y CSS para lograr una interfaz que
-permita tener todos los elementos pedidos sin entorpecerse entre si.
-6. Pensar en las necesidades de las personas para crear historias de usuario.
-7. Escribir y trabajar con historias de usuario, sus definiciones de terminado
+2. Pensar en las necesidades de las personas para crear historias de usuario.
+3. Escribir y trabajar con historias de usuario, sus definiciones de terminado
 (definition of done) y Criterios de Aceptación como herramienta central de la
 organización y planificación de tu trabajo.
-8. Definir la información y de qué forma mostrarla en el producto, basándote en
-tu entendimiento del usuario.
-9. Crear productos que sigan los principios básicos de diseño visual y las
-heurísticas de usabilidad.
-10. Iterar el diseño del producto, basándote en los resultados de los tests de usabilidad.
+
+### FrontEnd
+
+1. El objetivo principal de este proyecto es que se familiaricen con el uso de
+arreglos y diccionarios, incluso que los combinen para obtener estructuras de
+datos más complejas que te permitan resolver problemas grandes de datos.
+2. Dominar la manipulación del DOM para hacer aplicaciones interactivas y
+dinámicas sin necesidad de tener todo en HTML o varios archivos de HTML, sino
+que generando y modificando HTML desde Javascript.
+3. Manejar eventos del DOM, como clicks o entradas de texto, para interactuar
+con los usuarios.
+4. Perfeccionar tus habilidades de diseño y CSS para lograr una interfaz que
+permita tener todos los elementos pedidos sin entorpecerse entre si.
+
+### UX
+
+1. Definir un producto que responda a las necesidades y dificultades de
+pacientes que esperan a ser atendidos/as en urgencias y los de el/la doctor/a
+que los/as ingresa a la lista de espera, a partir de un acercamiento a los/as
+usuarios/as (observación contextual, entrevistas, etc).
+2. Seleccionar y priorizar la información a mostrar a partir de objetivos de
+usuarios/as y del proyecto.
+3. Crear interfaces que sigan los principios de diseño visual.
+4. Iterar el diseño del producto y su usabilidad a partir del testeo con
+usuarios/as (mínimo 5 testeos de usabilidad).
 
 ## 4. Consideraciones generales
 
