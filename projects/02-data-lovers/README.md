@@ -18,7 +18,8 @@
 
 Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
 el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin precedentes.
+Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
+precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
 grandes cantidades de datos se conviertan en **información** fácil de leer para
@@ -88,29 +89,60 @@ podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+El objetivo principal de este proyecto es que, entendiendo las necesidades de
+tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
+visualizar y manipular data.
 
-Dicho en palabras sencillas, aprenderás a:
+Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
+proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
+y de equipo.
 
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) y Criterios de Aceptación como herramienta
-  central de la organización y planificación de tu trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
+### UX
+
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener _feedback_ e iterar.
+- [ ] Aplicar los principios de diseño visual
+(contraste, alineación, jerarquía).
+- [ ] Planear y ejecutar _tests_ de usabilidad.
+
+### HTML y CSS
+
+- [ ] Entender y reconocer por qué es importante el HTML semántico.
+- [ ] Identificar y entender tipos de selectores en CSS.
+- [ ] Entender como funciona `flexbox` en CSS.
+- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
+
+### DOM
+
+- [ ] Entender y reconocer los selectores del DOM
+(querySelector | querySelectorAll).
+- [ ] Manejar eventos del DOM. (addEventListener)
+- [ ] Manipular dinámicamente el DOM.
+(createElement, appendchild, innerHTML, value)
+
+### Javascript
+
+- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [ ] Manipular objects (key | value).
+- [ ] Entender el uso de condicionales (`if-else` | `switch`).
+- [ ] Entender el uso de bucles (`for` | `forEach`).
+- [ ] Entender la diferencia entre expression y statements.
+- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [ ] Utilizar ES Modules (`import` | `export`).
+
+### Pruebas Unitarias (_testing_)
+- [ ] Testear funciones (funciones puras).
+
+### Git y GitHub
+- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [ ] Colaborar en Github (pull requests).
+
+### Buenas prácticas de desarrollo
+- [ ] Organizar y dividir el código en módulos (Modularización).
+- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
@@ -146,9 +178,9 @@ a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 #### Prototipo de baja fidelidad
 
-Durante tu trabajo deberás haber hecho e iterado sketches (bocetos) de tu
+Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
+iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
 `README.md`.
 
 #### Prototipo de alta fidelidad
@@ -158,48 +190,43 @@ _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
 diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
 una herramienta que funciona en el navegador y, además, puedes crear una cuenta
 gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad
-gráfica correspondiente a cada set de datos que elijas.
+Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la
+[identidad gráfica](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE)
+correspondiente a cada set de datos que elijas.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
-diseño debe seguir los fundamentos de _visual design_. También, deberás exportar
-tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
-estilo que te dé Zeplin al momento de implementar tus diseños en código.
+desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
+diseño debe seguir los fundamentos de _visual design_.
 
 #### Testeos de usabilidad
 
-Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
-en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los
+Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
+en base a los resultados, deberás iterar tus diseños. Cuéntanos
+qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-Como mencionamos, **no** es necesario que construyas la interfaz exactamente
-como la diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás
-priorizar.
+**No** es necesario que construyas la interfaz exactamente como la diseñaste.
+No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
 
 Como mínimo, tu implementación debe:
 
-1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista, etc.
-2. Permitir al usuario filtrar y ordenar la data.
-3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
-   máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
-   un determinado valor, por ejemplo.
-4. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
+1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista,
+etc.
+2. Permitir al usuario interactuar para obtener la infomación que necesita.
+<!--filtrar y ordenar la data.-->
+3. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
    tamaños de pantallas: móviles, tablets y desktops.
-
-Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-siga los fundamentos de _visual design_.
+4. Que la interfaz siga los fundamentos de _visual design_.
 
 ### Pruebas unitarias
 
-El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (tests), así es
-que  tendrás que escribir tu propias pruebas unitarias para las funciones
-encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
-estadísticas.
+El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
+que  tendrás que escribirlas tú para las funciones que tenga tu código.
+<!--encargadas de  _procesar_, _filtrar_ y _ordenar_ la data, así
+como _calcular_ estadísticas.-->
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
@@ -219,7 +246,8 @@ Features/características extra sugeridas:
   `fetch`. La carpeta `src/data` contiene una versión `.js` y una `.json` de
   de cada set datos.
 * Agregarle a tu interfaz de usuario implementada visualizaciones gráficas. Para
-  ello te recomendamos explorar librerías de gráficas como [Chart.js](https://www.chartjs.org/)
+  ello te recomendamos explorar librerías de gráficas como
+  [Chart.js](https://www.chartjs.org/)
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
@@ -314,7 +342,7 @@ El corazón de este proyecto es la manipulación de datos a través de arreglos
 y objetos.
 
 Te reomendamos que este archivo contenga toda la funcionalidad que corresponda
-a obtener, procesar y manipular datos (tus funciones):
+a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
 
 * `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
   data, y nos retornaría aquellos datos que sí cumplan con la condición.
@@ -354,8 +382,6 @@ asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_A
 Tendrás también que completar las pruebas unitarias de las funciones
 implementadas en el archivo `data.js`.
 
-***
-
 ## 8. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
@@ -380,8 +406,9 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
    [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
    tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
    en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
-   un `remote` hacia el mismo.
+   repositorio de su compañera** y
+   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
+   hacia el mismo.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
 3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
