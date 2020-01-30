@@ -216,11 +216,11 @@ No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
 Como mínimo, tu implementación debe:
 
 1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista,
-etc.
+   etc.
 2. Permitir al usuario interactuar para obtener la infomación que necesita.
-  <!--filtrar y ordenar la data.-->
+   <!--filtrar y ordenar la data.-->
 3. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
-  tamaños de pantallas: móviles, tablets y desktops.
+   tamaños de pantallas: móviles, tablets y desktops.
 4. Que la interfaz siga los fundamentos de _visual design_.
 
 ### Pruebas unitarias
