@@ -93,58 +93,61 @@ El objetivo principal de este proyecto es que, entendiendo las necesidades de
 tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
 visualizar y manipular data.
 
-Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
-proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
-y de equipo.
+Para lograr este objetivo, revisa la lista y reflexiona sobre las
+*micro-habilidades técnicas* que conseguiste en el proyecto anterior y las que
+necesitas conseguir en este proyecto. Piensa en eso al decidir tu estrategia de
+trabajo individual y de equipo.
 
-### UX
+### Micro-habilidades técnicas
+
+#### UX
 
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [ ] Crear prototipos para obtener _feedback_ e iterar.
 * [ ] Aplicar los principios de diseño visual(contraste, alineación, jerarquía).
 * [ ] Planear y ejecutar _tests_ de usabilidad.
 
-### HTML y CSS
+#### HTML y CSS
 
-* [ ] Entender y reconocer por qué es importante el HTML semántico.
-* [ ] Identificar y entender tipos de selectores en CSS.
-* [ ] Entender como funciona `flexbox` en CSS.
+* [ ] [HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] [Selectores CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
+* [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
-### DOM
+#### DOM
 
-* [ ] Entender y reconocer los selectores del DOM (querySelector |
-querySelectorAll).
-* [ ] Manejar eventos del DOM. (addEventListener)
-* [ ] Manipular dinámicamente el DOM.
-(createElement, appendchild, innerHTML, value)
+* [ ] [Selección de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
+* [ ] [Manejar eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
+* [ ] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 
-### Javascript
+#### Javascript
 
-* [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-* [ ] Manipular objects (key | value).
-* [ ] Entender el uso de condicionales (`if-else` | `switch`).
-* [ ] Entender el uso de bucles (`for` | `forEach`).
-* [ ] Entender la diferencia entre expression y statements.
-* [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
-* [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-* [ ] Utilizar ES Modules (`import` | `export`).
+* [ ] [Manipular arrays](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/04-arrays/03-filter-map-sort-reduce)
+* [ ] [Manipular objetos](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/05-objects/01-objects)
+* [ ] [Estructuras condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
+* [ ] [Bucles (Loops)](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
+* [ ] [Expresión vs sentencia](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [ ] [Funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
+* [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [ ] ES Modules (`import` | `export`)
 
-### Pruebas Unitarias (_testing_)
+#### Pruebas Unitarias (_testing_)
 
-* [ ] Testear funciones (funciones puras).
+* [ ] [Testear funciones](https://jestjs.io/docs/es-ES/getting-started)
 
-### Git y GitHub
+#### Git y GitHub
 
-* [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-* [ ] Colaborar en Github (pull requests).
+* [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
+(`add` | `commit` | `pull` | `status` | `push`).
+* [ ] [Repositorio de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)
+(`clone` | `fork` | `gh-pages)`.
+* [ ] Colaboración en Github (`pull requests`).
 
-### Buenas prácticas de desarrollo
+#### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
-* [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
+* [ ] Modularización
+* [ ] Nomenclatura / Semántica
+* [ ] Linting
 
 ## 4. Consideraciones generales
 
@@ -496,6 +499,11 @@ compañera:
 * [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
+* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
+* [datos atomicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
+* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 
 #### Herramientas
 
