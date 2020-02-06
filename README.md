@@ -448,7 +448,7 @@ contribuciones son bienvenidas.
 
 ## Licencia & Copyright
 
-Todos los materiales de este repo son (c) 2017-2019 [Laboratoria](http;//laboratoria.la/).
+Todos los materiales de este repo son (c) 2017-2020 [Laboratoria](https://laboratoria.la/).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
