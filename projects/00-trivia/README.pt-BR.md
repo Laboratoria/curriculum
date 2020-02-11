@@ -22,8 +22,8 @@ apresentadas perguntas cujas respostas devem ser escolhidas entre diferentes
 opções.
 
 Atualmente, com o aumento do uso de smartphones, suas aplicações e o acesso a
-Internet, existem muitas possibildade de participar de um trivia online. Com uma
-rápida busca na Internet, você verá que existem trivias de diferentes temas
+Internet, existem muitas possibilidades de participar de um trivia online. Com
+uma rápida busca na Internet, você verá que existem trivias de diferentes temas
 (ciência, televisão, séries, etc..). Existem vários que, inclusive, oferecem
 dinheiro como recompensa.
 
@@ -32,10 +32,10 @@ dinheiro como recompensa.
 ## 2. Resumo do projeto
 
 O que tenho que fazer exatamente? Neste projeto você terá que construir uma
-aplicação web que permita ao usuário responder diferentes perguntas elegendo as
-respostas, a partir de uma lista de alternativas.
+aplicação web que permita que o usuário responda diferentes perguntas e escolha
+as respostas, a partir de uma lista de alternativas.
 
-O tema é livre. Você deve criar a melhor trivia que possa e pensar em como deve
+O tema é livre. Você deve criar a melhor trivia possível e pensar em como deve
 ser a experiência de uso (que telas, explicações, mensagens, cores, marca?,
 etc...).
 
@@ -79,7 +79,7 @@ equipe.
 
 ## 4. Considerações gerais
 
-* Este projeto deve ser reolvido em duplas.
+* Este projeto deve ser resolvido em duplas.
 * Tempo para implementá-lo: Tome como referência 3 dias. Trate de estimar um
   tempo para finalizar.
 
@@ -89,7 +89,7 @@ Os critérios que você deverá considerar para saber se completou o projeto sã
 
 ### Definição do projeto
 
-Documente brevemente teu trabalho no arquivo `README.md` do seu repositório, nos
+Documente brevemente seu trabalho no arquivo `README.md` do seu repositório, nos
 contando como foi o seu processo de desenho e como acredita que o projeto
 resolve o problema (ou problemas) que o usuário tem.
 
@@ -116,7 +116,7 @@ sua aplicação deve:
    jogar.
     - Jogar com perguntas do tipo A (Por exemplo: sobre comida)
     - Jogar com perguntas do tipo B (Por exemplo: sobre cervejas)
-3. Mostrar a pergunta 1 com alternativas, o usuário responde e depois é
+3. Mostrar a pergunta 1 com alternativas. O usuário responde e depois é
    apresentada a pergunta 2 e depois a 3.
 4. Mostrar uma tela de resultados (respostas corretas) e dois botões de voltar a
    jogar:
@@ -171,14 +171,14 @@ funções que sejam necessárias para atualizar o resultado na tela (UI).
 
 1. Antes de tudo, certifique-se de ter um :pencil: bom editor de texto, algo
    como [Atom](https://atom.io/) ou [VSCode](https://code.visualstudio.com/).
-2. Para exercutar os comandos a seguir você precisará de uma :shell: [UNIX
+2. Para executar os comandos a seguir você precisará de uma :shell: [UNIX
    Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell), que
    é um programa que interpreta linhas de comando (command-line interpreter)
    assim como ter o
    [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
    instalado. Se você já utiliza um sistema operacional "UNIX-like", como
    GNU/Linux ou MacOS já terá uma _shell_ (terminal) instalada por padrão (e
-   provavlemente `git` também). Se seu sistema é Windows você poderá usar [Git
+   provavelmente `git` também). Se seu sistema é Windows você poderá usar [Git
    bash](https://git-scm.com/download/win), mas indicamos testar :penguin:
    GNU/Linux.
 3. Faça seu próprio :fork_and_knife:
