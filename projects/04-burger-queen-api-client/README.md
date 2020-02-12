@@ -5,9 +5,10 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones](#4-consideraciones)
-* [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas--tips)
+* [4. Micro-habilidades](#4-micro-habilidades)
+* [5. Consideraciones](#4-consideraciones)
+* [6. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
+* [7. Pistas / tips](#6-pistas--tips)
 
 ***
 
@@ -117,7 +118,9 @@ qué parámetros esperan, qué deben responder, etc.
 3. Finalmente, la interfaz debe estar diseñada específicamente para correr en
   **tablets**.
 
-Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron
+## 4. Micro-habilidades
+
+Recuerda colocar en esta seccion las micro-hablidades que quedaron
 pendientes de tu proyecto anterior.
 
 ### HTML y CSS
@@ -214,7 +217,7 @@ pendientes de tu proyecto anterior.
 
 ***
 
-## 4. Consideraciones
+## 5. Consideraciones
 
 Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
 API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
@@ -254,7 +257,7 @@ Por otro lado, deberás definir la estructura de carpetas y archivos que conside
 necesaria. Puedes guiarte de las convenciones del _framework_ elegido. Por ende,
 los _tests_ y el _setup_ necesario para ejecutarlos, serán hechos por ti.
 
-## 5. Criterios de aceptación del proyecto
+## 6. Criterios de aceptación del proyecto
 
 ### Definición del producto
 
@@ -402,7 +405,7 @@ para mantener actualizado el menú.
 
 ***
 
-## 6. Pistas / Tips
+## 7. Pistas / Tips
 
 ### Frameworks / libraries
 
