@@ -44,37 +44,240 @@ desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
 través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
 herramientas.
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
-tu proyecto.
-Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
+### Habilidades técnicas
 
-### UX
+Estas son las habilidades que podrás desarrollar en este proyecto.
+
+* <details>
+    <summary>Proponer una interfaz usuario-computadora.</summary>
+    <!-- <p>This is the ability to understand and to develop a graphic
+    user interface which with the user can interact.</p> -->
+    <p>La habilidad para entender y desarrollar una interfaz gráfica de
+    usuario con la cual una usuaria puede interactuar.</p>
+
+    <ul>
+      <li><a href="#semantic-html-1">Uso de etiquetas semánticas (nivel-1)</a></li>
+      <li><a href="#dom-manipulation-1">Selección y manipulación del DOM (nivel-1)</a></li>
+      <li><a href="#dom-events-1">Eventos del DOM (nivel-1)</a></li>
+      <li><a href="#css-selectors-1">Selección de elementos con CSS (nivel-1)</a></li>
+      <li><a href="#css-styling-1">Darle estilos a elementos DOM (nivel-1)</a></li>
+    </ul>
+
+</details>
+
+* <details>
+    <summary>Entender los fundamentos de programación imperativa.</summary>
+    <!-- <p>The ability to give instructions to a computer in a procedural
+    way.</p> -->
+    <p>La habilidad de darle instrucciones a una computadora de forma
+    procedural.</p>
+
+    <ul>
+      <li><a href="#flow-control-1">Control de flujo (nivel-1)</a></li>
+      <li><a href="#string-manipulation-1">Manipulación de `strings` (nivel-1)</a></li>
+      <li><a href="#functions-1">Declaración y uso de funciones (nivel-1)</a></li>
+      <li><a href="#data-types-1">Tipos de datos (nivel-1)</a></li>
+      <li><a href="#logical-operators-1">Operaciones lógicas (nivel-1)</a></li>
+      <li><a href="#logical-operators-2">Operaciones lógicas (nivel-2)</a></li>
+    </ul>
+
+</details>
+
+* <details>
+    <summary>Agendar tareas basadas en entender el bucle de eventos de JS.</summary>
+    <!-- <p>The ability to pospone actions (functions) to be executed in the
+    future and the ability to schedule recurrent tasks at certain
+    intervals.</p> -->
+    <p>La habilidad para posponer acciones a ser ejecutadas en el futuro y
+    la habilidad para agendar tareas recurrentes que sucedan bajo intervalos.</p>
+
+    <ul>
+      <li><a href="#functions-1">Declaración y uso de funciones (nivel-1)</a></li>
+      <li><a href="#scheduling-1">Planificación de tiempo (nivel-1)</a></li>
+    </ul>
+
+</details>
+
+### Micro-habilidades técnicas
+
+Estas son las micro-habilidades que vas a poder revisar en el proyecto.
+
+#### Web
+
+* <details id="semantic-html-1">
+    <summary>Uso de etiquetas semánticas (nivel-1)</summary>
+
+    <ul>
+      <li>
+        <a href="//developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>p</code></a>
+      </li>
+      <li>
+        <a href="//developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>a</code></a>
+      </li>
+      <li>
+        <a href="//developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">
+          <code>headings (h1, etc)</code>
+        </a>
+      </li>
+      <li>
+        <a href="//developer.mozilla.org/en-US/docs/Web/HTML/Element/div"><code>div</code></a>
+      </li>
+      <li>
+        <a href="//developer.mozilla.org/en-US/docs/Web/HTML/Element/span"><code>span</code></a>
+      </li>
+    </ul>
+
+</details>
+
+* <details id="dom-manipulation-1">
+    <summary>Selección y manipulación del DOM (nivel-1)</summary>
+
+    <ul>
+      <li><code>document.getElementById</code></li>
+      <li><code>document.getElementByClassname</code></li>
+      <li><code>document.querySelector</code></li>
+      <li><code>document.querySelectorAll</code></li>
+      <li><code>element.innerHTML</code></li>
+      <li><code>element.innerText</code></li>
+    </ul>
+
+</details>
+
+* <details id="dom-events-1">
+    <summary>Eventos del DOM (nivel-1)</summary>
+
+    <ul>
+      <li><code>eventTarget.addEventListener</code></li>
+      <li><code>eventTarget.removeEventListener</code></li>
+    </ul>
+
+</details>
+
+* <details id="css-selectors-1">
+    <summary>Selección de elementos con CSS (nivel-1)</summary>
+
+    <ul>
+      <li>by tag name</li>
+      <li>by id name</li>
+      <li>by classname</li>
+      <li>by attribute</li>
+    </ul>
+
+</details>
+
+* <details id="css-styling-1">
+    <summary>Darle estilos a elementos DOM (nivel-1)</summary>
+
+    <ul>
+      <li><code>color</code></li>
+      <li><code>background-color</code></li>
+      <li><code>font-size</code></li>
+      <li><code>font-family</code></li>
+      <li><code>border-radius</code></li>
+      <li><code>height</code> with pixels and percentages</li>
+      <li><code>width</code> with pixels and percentages</li>
+      <li><code>text-align</code></li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-1">
+    <summary>Manipulación de `strings` (nivel-1)</summary>
+
+    <ul>
+      <li>concatenation with <code>+</code></li>
+      <li>concatenation with template literals</li>
+    </ul>
+
+</details>
+
+* <details id="flow-control-1">
+    <summary>Control de flujo (nivel-1)</summary>
+
+    <ul>
+      <li>introduction to imperative programming</li>
+      <li><code>if-else</code></li>
+      <li>conditional ternary operator</li>
+      <li>for loops</li>
+      <li><code>switch</code></li>
+    </ul>
+
+</details>
+
+* <details id="functions-1">
+    <summary>Declaración y uso de funciones (nivel-1)</summary>
+
+    <ul>
+      <li>functions as code blocks</li>
+    </ul>
+
+</details>
+
+* <details id="data-types-1">
+    <summary>Tipos de datos (nivel-1)</summary>
+
+    <ul>
+      <li>introduction to primitives</li>
+      <li><code>string</code></li>
+      <li><code>number</code></li>
+      <li><code>boolean</code></li>
+    </ul>
+
+</details>
+
+* <details id="logical-operators-1">
+    <summary>Operaciones lógicas (nivel-1)</summary>
+
+    <ul>
+      <li>AND operator <code>&&</code></li>
+      <li>OR operator <code>||</code></li>
+      <li>NOT operator <code>!</code></li>
+    </ul>
+
+</details>
+
+* <details id="logical-operators-2">
+    <summary>Operaciones lógicas (nivel-2)</summary>
+
+    <ul>
+      <li>Short circuit evaluation</li>
+      <li>Double NOT <code>!!</code></li>
+      <li>truthiness and falsiness</li>
+    </ul>
+
+</details>
+
+* <details>
+    <summary>Operaciones matemáticas (nivel-1)</summary>
+
+    <ul>
+      <li><code>+</code></li>
+      <li><code>-</code></li>
+      <li><code>&ast;</code></li>
+      <li><code>/</code></li>
+      <li><code>Math.floor</code></li>
+      <li><code>Math.ceil</code></li>
+      <li><code>Math.round</code></li>
+    </ul>
+
+</details>
+
+* <details id="scheduling-1">
+    <summary>Planificación de tiempo (nivel-1)</summary>
+
+    <ul>
+      <li><code>window.setTimeout</code></li>
+      <li><code>window.setInterval</code></li>
+      <li>Differences between both of them</li>
+      <li>Introduction to the event loop</li>
+    </ul>
+
+</details>
+
+#### UX
 
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [ ] Crear prototipos para obtener _feedback_ e iterar.
-
-### HTML y CSS
-
-* [ ] Entender y reconocer por qué es importante el HTML semántico.
-* [ ] Identificar y entender tipos de selectores en CSS.
-* [ ] Construir tu aplicación respetando el diseño planeado.
-
-### DOM
-
-* [ ] Entender y reconocer los selectores del DOM.
-* [ ] Manejar eventos del DOM.
-* [ ] Manipular dinámicamente el DOM.
-
-### JavaScript
-
-* [ ] Manipular strings.
-* [ ] Entender el uso de condicionales.
-* [ ] Utilizar funciones.
-* [ ] Conocer la diferencia entre los distintos tipos de variable.
-
-### Buenas prácticas de desarrollo
-
-* [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 
 ## 4. Consideraciones generales
 

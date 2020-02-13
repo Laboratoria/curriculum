@@ -28,7 +28,14 @@
       "iframe",
       "pre",
       "key",
-      "value"
+      "value",
+      "details",
+      "summary",
+      "ul",
+      "li",
+      "a",
+      "code",
+      "p"
     ]
   }
 }
