@@ -5,9 +5,10 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones](#4-consideraciones)
-* [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas--tips)
+* [4. Micro-habilidades](#4-micro-habilidades)
+* [5. Consideraciones](#4-consideraciones)
+* [6. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
+* [7. Pistas / tips](#6-pistas--tips)
 
 ***
 
@@ -117,7 +118,9 @@ qué parámetros esperan, qué deben responder, etc.
 3. Finalmente, la interfaz debe estar diseñada específicamente para correr en
   **tablets**.
 
-Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron
+## 4. Micro-habilidades
+
+Recuerda colocar en esta seccion las micro-hablidades que quedaron
 pendientes de tu proyecto anterior.
 
 ### HTML y CSS
@@ -163,6 +166,22 @@ pendientes de tu proyecto anterior.
 * [ ] [`CSS` modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
 * [ ] [React Router](https://reacttraining.com/react-router/web)
 
+### Vue
+
+* [Instancia de Vue.js](https://es.vuejs.org/v2/guide/instance.html)
+* [Datos y métodos](https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos)
+* [Uso
+ y creación de Componentes](https://vuejs.org/v2/guide/components.html)
+* [Props](https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props)
+* Directivas ([v-bind](https://es.vuejs.org/v2/api/#v-bind) | [v-model](https://es.vuejs.org/v2/guide/forms.html))
+* Renderizado condicional ([v-if](https://es.vuejs.org/v2/guide/conditional.html#v-if)
+ | [v-else](https://es.vuejs.org/v2/guide/conditional.html#v-else))
+* Iteraciones ([v-for](https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for))
+* Eventos ([v-on](https://es.vuejs.org/v2/guide/events.html))
+* [Propiedades Computadas y Observadores](https://es.vuejs.org/v2/guide/computed.html)
+* [Router](https://router.vuejs.org/guide/#html)
+* [Clases y Estilos](https://es.vuejs.org/v2/guide/class-and-style.html)
+
 ### APIs REST
 
 * [ ] Consumos de APIs REST
@@ -198,7 +217,7 @@ pendientes de tu proyecto anterior.
 
 ***
 
-## 4. Consideraciones
+## 5. Consideraciones
 
 Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
 API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
@@ -238,7 +257,7 @@ Por otro lado, deberás definir la estructura de carpetas y archivos que conside
 necesaria. Puedes guiarte de las convenciones del _framework_ elegido. Por ende,
 los _tests_ y el _setup_ necesario para ejecutarlos, serán hechos por ti.
 
-## 5. Criterios de aceptación del proyecto
+## 6. Criterios de aceptación del proyecto
 
 ### Definición del producto
 
@@ -386,7 +405,7 @@ para mantener actualizado el menú.
 
 ***
 
-## 6. Pistas / Tips
+## 7. Pistas / Tips
 
 ### Frameworks / libraries
 
