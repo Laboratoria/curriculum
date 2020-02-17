@@ -92,7 +92,7 @@ usuarios/as (mínimo 5 testeos de usabilidad).
 
 ## 4. Consideraciones generales
 
-* El trabajo debe ser hecho en duplas
+* El trabajo debe ser hecho en duplas.
 * Debes tener tu código respaldado en *GitHub* usando *Git* y sus comandos
 *commit*, *push*, *pull*, etc.
 * El tiempo que tendrán para realizar este proyecto es de 3 semanas.
