@@ -17,7 +17,7 @@ Un caso especial, y que es crítico en los hospitales, es manejar cuándo se
 atenderán los pacientes que llegan a la sala de urgencias. Los datos permiten
 asignar médicos y salas que siempre son escasas a quienes más lo necesitan. Para
 esto se ha inventado un sistema de categorización de pacientes, donde no importa
-el orden de llegada sino su gravedad de acuerdo a esta tabla :
+el orden de llegada sino su gravedad de acuerdo a esta tabla:
 
 ![Categorización-UEH-660x1025](https://user-images.githubusercontent.com/7809496/71842401-4d6b4e00-30a0-11ea-9784-910bcc7b2a8a.png)
 
