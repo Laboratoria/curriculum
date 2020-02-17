@@ -72,7 +72,7 @@ arreglos y diccionarios, incluso que los combinen para obtener estructuras de
 datos más complejas que te permitan resolver problemas grandes de datos.
 2. Dominar la manipulación del DOM para hacer aplicaciones interactivas y
 dinámicas sin necesidad de tener todo en HTML o varios archivos de HTML, sino
-que generando y modificando HTML desde Javascript.
+que generando y modificando HTML desde JavaScript.
 3. Usar eventos del DOM, como clicks o entradas de texto, para interactuar
 con los usuarios.
 4. Perfeccionar tus habilidades de diseño y CSS para lograr una interfaz que
