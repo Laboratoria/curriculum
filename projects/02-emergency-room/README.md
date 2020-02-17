@@ -59,7 +59,7 @@ código, no de la interfaz de usuario).
 
 ### Comunes
 
-1. Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
+1. Aplicar y profundizar todo lo que ya aprendiste.
 2. Pensar en las necesidades de las personas para crear historias de usuario.
 3. Escribir y trabajar con historias de usuario, sus definiciones de terminado
 (definition of done) y Criterios de Aceptación como herramienta central de la
