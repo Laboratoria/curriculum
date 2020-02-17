@@ -11,7 +11,7 @@ disciplina), o incluso salvar vidas si es que son usados correctamente.
 
 Estamos en un momento en que es vital saber manipular la información,
 transformarla de una forma tal de que nos entregue valor, que nos permita tomar
-decisiones y nos ayude a entener del mundo que nos rodea.
+decisiones y nos ayude a entender del mundo que nos rodea.
 
 Un caso especial, y que es crítico en los hospitales, es manejar cuándo se
 atenderán los pacientes que llegan a la sala de urgencias. Los datos permiten
