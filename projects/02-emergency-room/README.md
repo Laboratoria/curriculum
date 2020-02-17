@@ -34,7 +34,7 @@ En esta ocasión tendrán que hacer duplas para crear un sistema de colas para l
 sala de emergencia de __LabSalud__, hospital que ha solicitado a ustedes ayuda
 para el desarrollo.
 
-Los requisitos que pide __LabSalud__ para este sistema son :
+Los requisitos que pide __LabSalud__ para este sistema son:
 
 * Debe poder ser ingresado un paciente, guardando su nombre, edad, sexo,
 descripción de la emergencia y categoría de emergencia.
