@@ -94,7 +94,7 @@ usuarios/as (mínimo 5 testeos de usabilidad).
 
 * El trabajo debe ser hecho en duplas
 * Debes tener tu código respaldado en *Github* usando *git* y sus comandos
-*commit*, *push* y *pull*.
+*commit*, *push*, *pull*, etc.
 * El tiempo que tendrán para realizar este proyecto es de 3 semanas.
 
 ## Otros Recursos
