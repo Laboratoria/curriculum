@@ -52,7 +52,7 @@ nadie más. Su pantalla también es visible en la televisión del hospital.
 * Todo debe estar en una sola pantalla con resolución de TV (1270*720),
 considera esto al diseñar la interfaz.
 * __LabSalud__ tiene 6 boxes de emergencia en estos momentos, pero sería genial
-si la aplicación permite cambiar el número de boxes fácilmente (a través del
+si la aplicación permitiera cambiar el número de boxes fácilmente (a través del
 código, no de la interfaz de usuario).
 
 ## 3. Objetivos de aprendizaje
