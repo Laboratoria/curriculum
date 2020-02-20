@@ -143,7 +143,7 @@ O aplicativo deve fazer uso de `npm-scripts` e ter scripts `start`, `test`,
 `build` e `deploy`, que são responsáveis por inicializar, rodar os testes,
 empacotar e fazer deploy do aplicativo, respectivamente.
 
-Os testes unitários devem cubrir um mínimo de 70% de _statements_, _functions_,
+Os testes unitários devem cobrir um mínimo de 70% de _statements_, _functions_,
 _lines_ e _branches_.
 
 Este projeto inclui um _boilerplate_ com o código necessário para começar. A
