@@ -233,7 +233,7 @@ como toda la configuración de dependencias:
 |  |  |  └── README.md
 |  |  ├── pokemon
 |  |  |  ├── pokemon.js
-|  |  |  ├──  pokemon.json
+|  |  |  ├── pokemon.json
 |  |  |  └── README.md
 |  |  └── rickandmorty
 |  |     ├── rickandmorty.js
@@ -246,7 +246,7 @@ como toda la configuración de dependencias:
 └── test
    └── data.spec.js
 
-directory: 6 file: 14
+directory: 6 file: 17
 ```
 
 ### `src/index.html`
