@@ -55,29 +55,16 @@ le ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
-* [Indicadores de desarrollo del Banco Mundial](src/data/worldbank/worldbank.json)
-  de algunos países (Brasil, Chile, México y Perú). Estos datos incluyen
-  indicadores demográficos, económicos y comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](http://pokemongolive.com).
-* [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
   Este set de datos muestra la lista de jugadores en una liga del
   juego League of Legends (LoL), puedes revisar la documentación de su API en
   este [link](https://developer.riotgames.com/api-methods/).
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicicleta, ...).
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
   Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com).
-* [Pacientes en EEUU](src/data/patient/patient.json).
-  Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la
-  documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
 
 <!---
 ¡Too much information para comenzar (Diego)!
@@ -89,65 +76,29 @@ podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de este proyecto es que, entendiendo las necesidades de
-tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
-visualizar y manipular data.
+El objetivo principal de este proyecto es que aprendas a diseñar y construir una
+interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
+usuario necesita.
 
-Para lograr este objetivo, revisa la lista y reflexiona sobre las
-*micro-habilidades técnicas* que conseguiste en el proyecto anterior y las que
-necesitas conseguir en este proyecto. Piensa en eso al decidir tu estrategia de
-trabajo individual y de equipo.
+Dicho en palabras sencillas, aprenderás a:
 
-### Micro-habilidades técnicas
-
-#### UX
-
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener _feedback_ e iterar.
-* [ ] Aplicar los principios de diseño visual(contraste, alineación, jerarquía).
-* [ ] Planear y ejecutar _tests_ de usabilidad.
-
-#### HTML y CSS
-
-* [ ] [HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] [Selectores CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
-* [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
-
-#### DOM
-
-* [ ] [Selección de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
-* [ ] [Manejar eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
-* [ ] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-
-#### Javascript
-
-* [ ] [Manipular arrays](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/04-arrays/03-filter-map-sort-reduce)
-* [ ] [Manipular objetos](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/05-objects/01-objects)
-* [ ] [Estructuras condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
-* [ ] [Bucles (Loops)](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
-* [ ] [Expresión vs sentencia](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [ ] [Funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
-* [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [ ] ES Modules (`import` | `export`)
-
-#### Pruebas Unitarias (_testing_)
-
-* [ ] [Testear funciones](https://jestjs.io/docs/es-ES/getting-started)
-
-#### Git y GitHub
-
-* [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
-(`add` | `commit` | `pull` | `status` | `push`).
-* [ ] [Repositorio de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)
-(`clone` | `fork` | `gh-pages)`.
-* [ ] Colaboración en Github (`pull requests`).
-
-#### Buenas prácticas de desarrollo
-
-* [ ] Modularización
-* [ ] Nomenclatura / Semántica
-* [ ] Linting
+* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
+* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
+* Escribir y trabajar con **historias de usuario**, sus definiciones de
+  terminado (_definition of done_) y Criterios de Aceptación como herramienta
+  central de la organización y planificación de tu trabajo.
+* Definir qué data y de qué forma mostrarla en el producto, basándote en
+  tu **entendimiento del usuario**.
+* Crear productos que sigan los **principios básicos de diseño visual** y
+  las **heurísticas de usabilidad**.
+* Iterar el diseño del producto, basándote en los resultados de los
+  **tests de usabilidad**.
+* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
+* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
+* **Manejar eventos del DOM** para permitir interacción con el usuario
+  (filtrado, ordenado, ...).
+* Entender los beneficios y complejidades de **trabajar en equipo** en un
+  ambiente de incertidumbre.
 
 ## 4. Consideraciones generales
 
@@ -276,27 +227,15 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── src
 |  ├── data (según con qué data trabajes)
-|  |  ├── injuries
-|  |  |  ├── injuries.js
-|  |  |  └── injuries.json
 |  |  ├── lol
 |  |  |  ├── lol.js
 |  |  |  └── lol.json
-|  |  ├── patient
-|  |  |  ├── patient.js
-|  |  |  └── patient.json
 |  |  ├── pokemon
 |  |  |  ├── pokemon.js
 |  |  |  └── pokemon.json
 |  |  ├── rickandmorty
 |  |  |  ├── rickandmorty.js
 |  |  |  └── rickandmorty.json
-|  |  ├── steam
-|  |  |  ├── steam.js
-|  |  |  └── steam.json
-|  |  └── worldbank
-|  |     ├── worldbank.js
-|  |     └── worldbank.json
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -304,7 +243,7 @@ como toda la configuración de dependencias:
 └── test
    └── data.spec.js
 
-directory: 10 file: 22
+directory: 6 file: 14
 ```
 
 ### `src/index.html`
