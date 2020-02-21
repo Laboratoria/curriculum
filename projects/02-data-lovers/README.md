@@ -229,13 +229,16 @@ como toda la configuración de dependencias:
 |  ├── data (según con qué data trabajes)
 |  |  ├── lol
 |  |  |  ├── lol.js
-|  |  |  └── lol.json
+|  |  |  ├── lol.json
+|  |  |  └── README.md
 |  |  ├── pokemon
 |  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
-|  |  ├── rickandmorty
-|  |  |  ├── rickandmorty.js
-|  |  |  └── rickandmorty.json
+|  |  |  ├──  pokemon.json
+|  |  |  └── README.md
+|  |  └── rickandmorty
+|  |     ├── rickandmorty.js
+|  |     └── rickandmorty.json
+|  |     └── README.md
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
