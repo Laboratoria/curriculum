@@ -114,12 +114,12 @@ Application
   integrante** da equipe pratique a aprendizagem de tudo que está envolvido em
   **cada história**. _Não dividam o trabalho como em uma fábrica._
 
-- Está avançando em seus projetos com alguma fluidez e sem grandes problemas?
+* Está avançando em seus projetos com alguma fluidez e sem grandes problemas?
   Seja generosa com suas parceiras, deixe-as aprender e praticar sem restrições,
   mesmo que demore um pouco mais. Aproveite para _mentorá-las_, para fazer _pair
   programming_. Uma das melhores formas de aprender é explicar verbalmente.
 
-- Está sentindo dificuldade e para você é mais difícil de avançar? Não fique com
+* Está sentindo dificuldade e para você é mais difícil de avançar? Não fique com
   as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
   praticar e aprender o que é mais difícil para você.
 
