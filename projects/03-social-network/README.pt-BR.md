@@ -102,7 +102,7 @@ Application
 
 ***
 
-## 4. Considerações gerais 
+## 4. Considerações gerais
 
 * Este projeto deve ser desenvolvido em trios.
 
@@ -190,8 +190,8 @@ H.U.:
 #### Criação e login de conta de usuário
 
 * _Login_ com Firebase:
-  - Para o _login_ e postagens na timeline, você pode usar o [Firebase]
-    (https://firebase.google.com/products/database/)
+  - Para o _login_ e postagens na timeline, você pode usar o
+    [Firebase](https://firebase.google.com/products/database/)
   - O usuário deve poder criar uma conta de acesso ou autenticar-se com conta de
     e-mail e senha e também com uma conta do Google.
 * Validações:
@@ -226,10 +226,11 @@ H.U.:
 
 * Separar a manipulação do DOM da lógica (separação de responsabilidades).
 * Ter várias telas. Para isso, seu aplicativo deve ser um [Single Page
-  Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
+  Application
+  (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
 * Alterar e persistir dados. Os dados que você adiciona ou modifica devem
-  persistir por todo o aplicativo. Recomendamos que você use o [Firebase]
-  (https://firebase.google.com/) para isso também.
+  persistir por todo o aplicativo. Recomendamos que você use o
+  [Firebase](https://firebase.google.com/) para isso também.
 
 #### Testes unitários
 
@@ -264,9 +265,9 @@ projeto.
 
 ## 7. Entrega
 
-O projeto será entregue subindo seu código no GitHub (`commit` /` push`) e a
-interface será hospedada usando o GitHub pages ou outro serviço de
-hospedagem que você pode ter encontrado ao longo do caminho.
+O projeto será entregue subindo seu código no GitHub (`commit` /`push`) e a
+interface será hospedada usando o GitHub pages ou outro serviço de hospedagem
+que você pode ter encontrado ao longo do caminho.
 
 ***
 
@@ -294,19 +295,20 @@ interface em várias _views_ ou _pages_ e oferecer uma maneira de navegar entre
 essas telas. Esse problema pode ser resolvido de várias maneiras: com arquivos
 HTML independentes (cada um com seu próprio URL) e links tradicionais; mantendo
 na memória e renderizando condicionalmente (sem atualizar a página);
-[manipulando o histórico do navegador]
-(https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_na_gador)
-com [`window.history`]
-(https://developer.mozilla.org/es/docs/Web/API/Window/history). Neste projeto,
-convidamos você a explorar opções e decidir sobre uma opção de implementação.
+[manipulando o histórico do
+navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_na_gador)
+com
+[`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history).
+Neste projeto, convidamos você a explorar opções e decidir sobre uma opção de
+implementação.
 
 ### Gravação de dados
 
-Nos projetos anteriores, consumimos dados, mas ainda não tínhamos
-escrito dados (salvar alterações, criar dados, excluir, ...). Neste projeto,
-você precisará criar (salvar) novos dados, além de ler, atualizar e modificar os
-dados existentes. Esses dados podem ser salvos remotamente usando o [Firebase]
-(https://firebase.google.com/).
+Nos projetos anteriores, consumimos dados, mas ainda não tínhamos escrito dados
+(salvar alterações, criar dados, excluir, ...). Neste projeto, você precisará
+criar (salvar) novos dados, além de ler, atualizar e modificar os dados
+existentes. Esses dados podem ser salvos remotamente usando o
+[Firebase](https://firebase.google.com/).
 
 Outras:
 
