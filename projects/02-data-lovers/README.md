@@ -88,29 +88,292 @@ podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+### Habilidades técnicas
 
-Dicho en palabras sencillas, aprenderás a:
+* <details id="functional-programming-fundamentals">
+    <summary>Entender los fundamentos de programación funcional.</summary>
+    <p>The ability to understand and explain functional programming fundamentals like `pure functions` and `side-effects`.</p>
 
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) y Criterios de Aceptación como herramienta
-  central de la organización y planificación de tu trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
+  - [flow-control-2](#flow-control-2)
+  - [flow-control-3](#flow-control-3)
+  - [functions-2](#functions-2)
+  - [functions-3](#functions-3)
+
+</details>
+
+* <details id="data-driven-interfaces">
+    <summary>Crear una interfaz basada en data.</summary>
+    <p>The ability to use understand and develop an interface that is a function of data.</p>
+
+  - [arrays-1](#arrays-1)
+  - [arrays-2](#arrays-2)
+  - [arrays-3](#arrays-3)
+  - [DOM-manipulation-3](#DOM-manipulation-3)
+  - [logical-operators-2](#logical-operators-2)
+  - [objects-1](#objects-1)
+  - [objects-2](#objects-2)
+  - [semantic-html-3](#semantic-html-3)
+  - [string-manipulation-2](#string-manipulation-2)
+  - [string-manipulation-3](#string-manipulation-3)
+
+</details>
+
+* <details id="collaborative-version-control-system">
+    <summary>Usar un sistema de control de versiones para trabajar en equipo.</summary>
+    <p>The ability to use a version control system to work in groups.</p>
+
+  - [git-1](#git-1)
+  - [git-2](#git-2)
+  - [github-1](#github-1)
+  - [github-2](#github-2)
+
+</details>
+
+* <details id="user-interface-layout">
+    <summary>Maquetar elementos de una interfaz de usuario.</summary>
+    <p>The ability to develop a fluid layout that could be indicated by a design file.</p>
+
+  - [box-model-1](#box-model-1)
+  - [css-grid-1](#css-grid-1)
+  - [CSS-selectors-2](#CSS-selectors-2)
+  - [flexbox-1](#flexbox-1)
+
+</details>
+
+* <details id="basic-data-structures">
+    <summary>Tener conocimiento sobre las estructuras de datos de JavaScript.</summary>
+    <p>The ability to recognize the need to use and to use Arrays and Objects in a properly way.</p>
+
+  - [arrays-1](#arrays-1)
+  - [arrays-2](#arrays-2)
+  - [arrays-3](#arrays-3)
+  - [objects-1](#objects-1)
+  - [objects-2](#objects-2)
+
+</details>
+
+* <details id="test-driven-development-introduction">
+    <summary>Introducción al desarrollo basado en tests.</summary>
+    <p>The ability to think of requirements first and to write tests that validate those requirements before writing any functionality. Use of unit tests to write down requirements.</p>
+
+  - [unit-testing-1](#unit-testing-1)
+  - [unit-testing-2](#unit-testing-2)
+
+</details>
+
+
+### Micro-habilidades técnicas
+
+#### Web
+
+* <details id="semantic-html-3">
+    <summary>Uso de etiquetas semánticas (nivel-3)</summary>
+
+    <ul>
+      <li><code>Data attributes</code></li>
+      <li><code>`alt` attribute in images</code></li>
+      <li><code>Introduction to accesibility</code></li>
+    </ul>
+
+</details>
+
+* <details id="objects-2">
+    <summary>Objetos (nivel-2)</summary>
+
+    <ul>
+      <li><code>Object property dot notation `example.property`</code></li>
+      <li><code>Object property bracket notation `example[property]`</code></li>
+      <li><code>Differences between both of them and benefits of each approach</code></li>
+      <li><code>`Object.keys`</code></li>
+      <li><code>`Object.values`</code></li>
+    </ul>
+
+</details>
+
+* <details id="arrays-1">
+    <summary>Arreglos (nivel-1)</summary>
+
+    <ul>
+      <li><code>Array structure</code></li>
+      <li><code>Array literal</code></li>
+      <li><code>Array value bracket notation `example[value]`</code></li>
+      <li><code>`Array.length`</code></li>
+      <li><code>`Array.push`</code></li>
+      <li><code>Array element iteration with an imperative construct, e.g.: `for..of`, `while`</code></li>
+    </ul>
+
+</details>
+
+* <details id="arrays-2">
+    <summary>Arreglos (nivel-2)</summary>
+
+    <ul>
+      <li><code>`Array.concat`</code></li>
+      <li><code>`Array.forEach`</code></li>
+      <li><code>`Array.map`</code></li>
+      <li><code>`Array.filter`</code></li>
+      <li><code>`Array.reverse`</code></li>
+      <li><code>Differences between `forEach` and `map`</code></li>
+    </ul>
+
+</details>
+
+* <details id="arrays-3">
+    <summary>Arreglos (nivel-3)</summary>
+
+    <ul>
+      <li><code>`Array.find`</code></li>
+      <li><code>`Array.includes`</code></li>
+      <li><code>`Array.some`</code></li>
+      <li><code>`Array.every`</code></li>
+      <li><code>`Array.flat`</code></li>
+      <li><code>`Array.fill`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-manipulation-3">
+    <summary>Selección y manipulación del DOM (nivel-3)</summary>
+
+    <ul>
+      <li><code>`document.createElement`</code></li>
+      <li><code>`document.appendChild`</code></li>
+      <li><code>`document.insertBefore`</code></li>
+    </ul>
+
+</details>
+
+* <details id="CSS-selectors-2">
+    <summary>Selección de elementos con CSS (nivel-2)</summary>
+
+    <ul>
+      <li><code>Introduction to pseudo-elements</code></li>
+      <li><code>`:hover`</code></li>
+      <li><code>`:active`</code></li>
+      <li><code>`:focus`</code></li>
+      <li><code>`:after`</code></li>
+      <li><code>`:before`</code></li>
+      <li><code>`:first-letter`</code></li>
+      <li><code>`:first-line`</code></li>
+    </ul>
+
+</details>
+
+* <details id="box-model-1">
+    <summary>Modelo de cajas (nivel-1)</summary>
+
+    <ul>
+      <li><code>`margin`</code></li>
+      <li><code>`padding`</code></li>
+      <li><code>`border`</code></li>
+    </ul>
+
+</details>
+
+* <details id="flexbox-1">
+    <summary>Flexbox (nivel-1)</summary>
+
+    <ul>
+      <li><code>`display`</code></li>
+      <li><code>`flex-direction`</code></li>
+      <li><code>`flex-wrap`</code></li>
+      <li><code>`justify-content`</code></li>
+      <li><code>`align-items`</code></li>
+      <li><code>`align-content`</code></li>
+      <li><code>`align-self`</code></li>
+      <li><code>`flex-basis`</code></li>
+    </ul>
+
+</details>
+
+* <details id="css-grid-1">
+    <summary>CSS grid (nivel-1)</summary>
+
+    <ul>
+      <li><code>`display`</code></li>
+      <li><code>`grid-template-rows`</code></li>
+      <li><code>`grid-template-columns`</code></li>
+      <li><code>`grid-template-areas`</code></li>
+      <li><code>`grid-template`</code></li>
+      <li><code>`grid-gap`</code></li>
+      <li><code>`justify-items`</code></li>
+      <li><code>`align-items`</code></li>
+      <li><code>`justify-content`</code></li>
+      <li><code>`align-content`</code></li>
+      <li><code>`justify-self`</code></li>
+      <li><code>`align-self`</code></li>
+    </ul>
+
+</details>
+
+* <details id="flow-control-3">
+    <summary>Control de flujo (nivel-3)</summary>
+
+    <ul>
+      <li><code>introduction to functional programming</code></li>
+      <li><code>`function` as pieces of functionality that can be composed into more complex ones</code></li>
+      <li><code>pure functions</code></li>
+      <li><code>side-effects</code></li>
+      <li><code>state management</code></li>
+      <li><code>mutability vs immutability</code></li>
+      <li><code>single responsibility principle</code></li>
+    </ul>
+
+</details>
+
+* <details id="functions-3">
+    <summary>Declaración y uso de funciones (nivel-3)</summary>
+
+    <ul>
+      <li><code>function declaration vs function invocation</code></li>
+      <li><code>function statement vs function expression</code></li>
+      <li><code>arrow functions</code></li>
+      <li><code>arrow function's lexical scoping</code></li>
+      <li><code>higher-order functions</code></li>
+    </ul>
+
+</details>
+
+* <details id="unit-testing-2">
+    <summary>Pruebas unitarias (nivel-2)</summary>
+
+    <ul>
+      <li><code>write tests for own app's functionality</code></li>
+      <li><code>explain what an assertion is</code></li>
+      <li><code>`toBe`</code></li>
+      <li><code>`toEqual`</code></li>
+      <li><code>differences between `toBe` and `toEqual`</code></li>
+    </ul>
+
+</details>
+
+* <details id="git-2">
+    <summary>Git (nivel-2)</summary>
+
+    <ul>
+      <li><code>`git checkout`</code></li>
+      <li><code>`git pull`</code></li>
+    </ul>
+
+</details>
+
+* <details id="github-2">
+    <summary>GitHub (nivel-2)</summary>
+
+    <ul>
+      <li><code>pull request</code></li>
+      <li><code>issues</code></li>
+      <li><code>merge</code></li>
+      <li><code>squash</code></li>
+      <li><code>rebase</code></li>
+    </ul>
+
+</details>
+
+
+#### ux
+
+
 
 ## 4. Consideraciones generales
 
