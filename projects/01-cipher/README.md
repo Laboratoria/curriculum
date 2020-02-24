@@ -60,38 +60,257 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
-interactuará con el usuario final a través del navegador utilizando HTML, CSS y
-JavaScript como herramientas.
+### Habilidades técnicas
 
-Dicho en palabras sencillas, aprenderás a
+* <details id="version-control-system">
+    <summary>Usar un sistema de control de versiones para registrar cambios de un programa de manera individual.</summary>
+    <p>The ability to use a version control system to manage updates and diff to one's own work.</p>
 
-* Organizar tu tiempo y priorizar tareas en un entorno de
-  **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  producto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas de HTML y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
-* Utilizar el modelo de cajas de CSS (border, margin, padding).
-* Definir reglas de estilo en CSS.
-* Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos
-  **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
-  **innerHTML** o **textContent**.
-* **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con Jest**).
-* Configurar tu cuenta de git.
-* Hacer _fork_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto
-  (commit, pull, push).
-* Desplegar tu proyecto en gh-pages.
+  - [git-1](#git-1)
+  - [github-1](#github-1)
+
+</details>
+
+* <details id="basic-form-creation">
+    <summary>Crear un formulario básico para ingreso de data de la usuaria.</summary>
+    <p>The ability to develop basic forms that collects user data, like names, numbers and text.</p>
+
+  - [CSS-selectors-1](#CSS-selectors-1)
+  - [DOM-events-1](#DOM-events-1)
+  - [DOM-events-2](#DOM-events-2)
+  - [DOM-manipulation-1](#DOM-manipulation-1)
+  - [DOM-manipulation-2](#DOM-manipulation-2)
+  - [form-html-1](#form-html-1)
+  - [semantic-html-1](#semantic-html-1)
+  - [semantic-html-2](#semantic-html-2)
+
+</details>
+
+* <details id="mathematical-problem-solving">
+    <summary>Solucionar problemas matemáticos que presenta la usuaria.</summary>
+    <p>The ability to resolve mathematical operations using JavaScript.</p>
+
+  - [mathematical-operators-1](#mathematical-operators-1)
+  - [mathematical-operators-2](#mathematical-operators-2)
+
+</details>
+
+
+### Micro-habilidades técnicas
+
+#### Web
+
+* <details id="semantic-html-2">
+    <summary>Uso de etiquetas semánticas (nivel-2)</summary>
+
+    <ul>
+      <li><code>`section`</code></li>
+      <li><code>`header`</code></li>
+      <li><code>`main`</code></li>
+      <li><code>`footer`</code></li>
+      <li><code>`aside`</code></li>
+      <li><code>When to use `div`s and when to use `section`s</code></li>
+    </ul>
+
+</details>
+
+* <details id="form-html-1">
+    <summary>Uso de etiquetas del formulario (nivel-1)</summary>
+
+    <ul>
+      <li><code>`form`</code></li>
+      <li><code>`action`</code></li>
+      <li><code>`input`</code></li>
+      <li><code>`button`</code></li>
+      <li><code>`submit`</code></li>
+      <li><code>`textarea`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-manipulation-2">
+    <summary>Selección y manipulación del DOM (nivel-2)</summary>
+
+    <ul>
+      <li><code>`parentNode.querySelector`</code></li>
+      <li><code>`parentNode.querySelectorAll`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-events-2">
+    <summary>Eventos del DOM (nivel-2)</summary>
+
+    <ul>
+      <li><code>`event.preventDefault`</code></li>
+      <li><code>`event.stopPropagation`</code></li>
+      <li><code>differences between the both of them</code></li>
+    </ul>
+
+</details>
+
+* <details id="CSS-selectors-1">
+    <summary>Selección de elementos con CSS (nivel-1)</summary>
+
+    <ul>
+      <li><code>by tag name</code></li>
+      <li><code>by id name</code></li>
+      <li><code>by classname</code></li>
+      <li><code>by attribute</code></li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-2">
+    <summary>Manipulación de `strings` (nivel-2)</summary>
+
+    <ul>
+      <li><code>`string.chartAt`</code></li>
+      <li><code>strings as Array-like Objects (`'a'[0]`)</code></li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-3">
+    <summary>Manipulación de `strings` (nivel-3)</summary>
+
+    <ul>
+      <li><code>`'text'.split`</code></li>
+      <li><code>`'text'.concat`</code></li>
+      <li><code>`Array.from`</code></li>
+    </ul>
+
+</details>
+
+* <details id="objects-1">
+    <summary>Objetos (nivel-1)</summary>
+
+    <ul>
+      <li><code>Object structure</code></li>
+      <li><code>Object literals</code></li>
+      <li><code>Objects as related data abstraction</code></li>
+      <li><code>JSON vs JS objects</code></li>
+    </ul>
+
+</details>
+
+* <details id="flow-control-2">
+    <summary>Control de flujo (nivel-2)</summary>
+
+    <ul>
+      <li><code>introduction to declarative programming</code></li>
+      <li><code>`function` as new words added to the language</code></li>
+    </ul>
+
+</details>
+
+* <details id="functions-2">
+    <summary>Declaración y uso de funciones (nivel-2)</summary>
+
+    <ul>
+      <li><code>return value</code></li>
+      <li><code>arguments</code></li>
+      <li><code>input and output</code></li>
+      <li><code>scope</code></li>
+    </ul>
+
+</details>
+
+* <details id="data-types-2">
+    <summary>Tipos de datos (nivel-2)</summary>
+
+    <ul>
+      <li><code>`null`</code></li>
+      <li><code>`undefined`</code></li>
+      <li><code>differences between both of them</code></li>
+    </ul>
+
+</details>
+
+* <details id="logical-operators-2">
+    <summary>Operaciones lógicas (nivel-2)</summary>
+
+    <ul>
+      <li><code>Short circuit evaluation</code></li>
+      <li><code>Double NOT `!!`</code></li>
+      <li><code>truthiness and falsiness</code></li>
+    </ul>
+
+</details>
+
+* <details id="mathematical-operators-1">
+    <summary>Operaciones matemáticas (nivel-1)</summary>
+
+    <ul>
+      <li><code>`+`</code></li>
+      <li><code>`-`</code></li>
+      <li><code>`*`</code></li>
+      <li><code>`/`</code></li>
+      <li><code>`Math.floor`</code></li>
+      <li><code>`Math.ceil`</code></li>
+      <li><code>`Math.round`</code></li>
+    </ul>
+
+</details>
+
+* <details id="mathematical-operators-2">
+    <summary>Operaciones matemáticas (nivel-2)</summary>
+
+    <ul>
+      <li><code>`%` (remainder)</code></li>
+      <li><code>`**` (exponentiation)</code></li>
+      <li><code>`++` (increment)</code></li>
+      <li><code>`--` (decrement)</code></li>
+      <li><code>Unary plus and Unary negation</code></li>
+      <li><code>`Math.max`</code></li>
+      <li><code>`Math.min`</code></li>
+      <li><code>`Math.random`</code></li>
+      <li><code>`Math.pow`</code></li>
+    </ul>
+
+</details>
+
+* <details id="unit-testing-1">
+    <summary>Pruebas unitarias (nivel-1)</summary>
+
+    <ul>
+      <li><code>run already written tests</code></li>
+      <li><code>import ready to test code</code></li>
+      <li><code>explain what a test is</code></li>
+    </ul>
+
+</details>
+
+* <details id="git-1">
+    <summary>Git (nivel-1)</summary>
+
+    <ul>
+      <li><code>`git init`</code></li>
+      <li><code>`git clone`</code></li>
+      <li><code>`git commit`</code></li>
+      <li><code>descriptive commit messages (more why less what)</code></li>
+      <li><code>`git log`</code></li>
+      <li><code>`git remote`</code></li>
+      <li><code>`git push`</code></li>
+    </ul>
+
+</details>
+
+* <details id="github-1">
+    <summary>GitHub (nivel-1)</summary>
+
+    <ul>
+      <li><code>Sign up and configuration</code></li>
+      <li><code>Fork</code></li>
+      <li><code>GitHub pages</code></li>
+    </ul>
+
+</details>
+
+
+#### ux
+
+- TBD
 
 ## 4. Consideraciones generales
 
