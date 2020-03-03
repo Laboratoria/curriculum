@@ -59,17 +59,17 @@ Estos son datos que te proponemos:
   En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
   y Johto, junto con sus respectivas estadísticas usadas en el juego
   [Pokémon GO](http://pokemongolive.com).
-  * [Investigación con jugadores de Pokémon Go](/src/data/pokemon/README.md)
+  - [Investigación con jugadores de Pokémon Go](/src/data/pokemon/README.md)
 
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
   Este set de datos muestra la lista de campeones en una liga del
   juego League of Legends (LoL).
-  * [Investigación con jugadores de LoL](/src/data/lol/README.md)
+  - [Investigación con jugadores de LoL](/src/data/lol/README.md)
 
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
   Morty. [API Rick and Morty](https://rickandmortyapi.com).
-  * [Investigación con seguidores de Rick and Morty](/src/data/rickandmorty/README.md)
+  - [Investigación con seguidores de Rick and Morty](/src/data/rickandmorty/README.md)
 
 <!---
 ¡Too much information para comenzar (Diego)!
@@ -151,9 +151,7 @@ _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
 diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
 una herramienta que funciona en el navegador y, además, puedes crear una cuenta
 gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la
-[identidad gráfica](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE)
-correspondiente a cada set de datos que elijas.
+Illustrator, Photoshop, PowerPoint, Keynote, etc.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
@@ -170,14 +168,13 @@ mejoraste en tu propuesta final.
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
-No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
+Tu tiempo de hacking es escaso, así que deberás priorizar
 
 Como mínimo, tu implementación debe:
 
 1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista,
    etc.
 2. Permitir al usuario interactuar para obtener la infomación que necesita.
-   <!--filtrar y ordenar la data.-->
 3. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
    tamaños de pantallas: móviles, tablets y desktops.
 4. Que la interfaz siga los fundamentos de _visual design_.
@@ -185,9 +182,8 @@ Como mínimo, tu implementación debe:
 ### Pruebas unitarias
 
 El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
-que  tendrás que escribirlas tú para las funciones que tenga tu código.
-<!--encargadas de  _procesar_, _filtrar_ y _ordenar_ la data, así
-como _calcular_ estadísticas.-->
+que  tendrás que escribirlas tú para las funciones encargadas de  _procesar_,
+_filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
