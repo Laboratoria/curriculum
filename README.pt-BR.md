@@ -89,7 +89,7 @@ O principal objetivo de aprendizagem deste projeto é ter uma primeira experiên
 
 ### Projeto: [Data Lovers](projects/02-data-lovers)
 
-Neste projeto as alunas terão uma primeira aproximação com a processo de transformar _dados_ em informação. O objetivo principal deste projeto é aprender e desenvolver e construir uma _interface web_ onde se possa visualizar e manipular _dados_.
+Neste projeto as alunas terão uma primeira aproximação com a processo de transformar _dados_ em informação. O objetivo principal deste projeto é aprender, desenvolver e construir uma _interface web_ onde se possa visualizar e manipular _dados_.
 
 Espera-se que possam pensar no usuário, entender qual é a melhor maneira de visualizar os dados segundo suas necessidades e compor tudo isso em seu _web design_.
 
