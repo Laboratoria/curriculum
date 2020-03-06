@@ -123,7 +123,7 @@ Application
   as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
   praticar e aprender o que é mais difícil para você.
 
-* Vocês apenas poderão trabalhar em uma história por vez. Não avançem para a
+* Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
   próxima sem completar a anterior. As histórias apenas são concluídas quando se
   completam **todos** os critérios de aceitação + **toda** sua definição de
   pronto.
