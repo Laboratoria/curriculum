@@ -211,7 +211,7 @@ H.U.:
 * Comportamento:
   - Ao recarregar o aplicativo, é necessário verificar se o usuário está
     _logado_ antes de exibir o conteúdo,
-  - Consiguir publicar um _post_.
+  - Conseguir publicar um _post_.
   - Poder dar e remover _likes_ em uma publicação. Máximo de um por usuário.
   - Visualizar contagem de _likes_.
   - Poder excluir uma postagem específica.
