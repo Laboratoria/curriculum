@@ -284,7 +284,7 @@ contraposição ao modelo tradicional, no qual primeiro se desenha os websites (
 webapps) para desktops e depois os adaptam para telas menores.
 
 A motivação aqui é se assegurar que desde o começo sejam desenhadas telas
-_responsivas_.Dessa forma, começamos com a aparência e o comportamento do
+_responsivas_. Dessa forma, começamos com a aparência e o comportamento do
 aplicativo em uma tela e ambiente móvel.
 
 ### Múltiplas telas
