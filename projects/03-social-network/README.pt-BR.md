@@ -45,7 +45,7 @@ O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
 Application
 (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
 [_responsiva_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-(com mais de uma tela/ página) nas quais seja possível **ler e escrever dados.**
+(com mais de uma tela/ página) na qual seja possível **ler e escrever dados.**
 
 ### HTML e CSS
 
