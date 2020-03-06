@@ -76,7 +76,7 @@ O principal objetivo de aprendizagem deste projeto é passar pela primeira exper
 
 ### Projeto: [Cartão de crédito válido](projects/01-card-validation)
 
-Este _projeto_ requer a implementação de uma aplicação web baseada em um _boilerplate_ que permita a um usuário validar o número de um cartão de créditos e também ocultar todos os dígitos do cartão, exceto os últimos quatro.
+Este _projeto_ requer a implementação de uma aplicação web baseada em um _boilerplate_ que permita a um usuário validar o número de um cartão de crédito e também ocultar todos os dígitos do cartão, exceto os últimos quatro.
 
 O principal objetivo de aprendizagem deste projeto é ter uma primeira experiência no desenvolvimento de uma aplicação web, utilizando os conhecimentos adquiridos sobre **User Experience Design** e **JavaScript**. Isso inclui desenvolver um produto pensado nos usuários, desenvolver uma interface, escutar eventos básicos no DOM, escrever a lógica responsável pela validação do cartão, _testes_ de unidade básicos para validar (e documentar) essa lógica, e manipulação de DOM para exibir os resultados na tela.
 
