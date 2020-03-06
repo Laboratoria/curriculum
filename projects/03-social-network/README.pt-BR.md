@@ -45,7 +45,7 @@ O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
 Application
 (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
 [_responsiva_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-(com mais de uma tela/ página) nas quais seja possível **ler e escrever dados.**
+(com mais de uma tela/ página) na qual seja possível **ler e escrever dados.**
 
 ### HTML e CSS
 
@@ -123,7 +123,7 @@ Application
   as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
   praticar e aprender o que é mais difícil para você.
 
-* Vocês apenas poderão trabalhar em uma história por vez. Não avançem para a
+* Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
   próxima sem completar a anterior. As histórias apenas são concluídas quando se
   completam **todos** os critérios de aceitação + **toda** sua definição de
   pronto.
@@ -167,7 +167,7 @@ uma de suas histórias de usuário deve possuir:
   - Receber _code review_ de pelo menos uma parceira de outra equipe.
   - Fazer _tests_ unitários.
   - Fazer testes manuais buscando erros e imperfeições simples.
-  - Fazer testes de usabilidade e incorpor o _feedback_ dos usuários como
+  - Fazer testes de usabilidade e incorporar o _feedback_ dos usuários como
     melhorias.
   - Fazer deploy do aplicativo e marcar a versão (git tag).
 
@@ -211,7 +211,7 @@ H.U.:
 * Comportamento:
   - Ao recarregar o aplicativo, é necessário verificar se o usuário está
     _logado_ antes de exibir o conteúdo,
-  - Consiguir publicar um _post_.
+  - Conseguir publicar um _post_.
   - Poder dar e remover _likes_ em uma publicação. Máximo de um por usuário.
   - Visualizar contagem de _likes_.
   - Poder excluir uma postagem específica.
@@ -284,7 +284,7 @@ contraposição ao modelo tradicional, no qual primeiro se desenha os websites (
 webapps) para desktops e depois os adaptam para telas menores.
 
 A motivação aqui é se assegurar que desde o começo sejam desenhadas telas
-_responsivas_.Dessa forma, começamos com a aparência e o comportamento do
+_responsivas_. Dessa forma, começamos com a aparência e o comportamento do
 aplicativo em uma tela e ambiente móvel.
 
 ### Múltiplas telas
@@ -305,7 +305,7 @@ implementação.
 ### Gravação de dados
 
 Nos projetos anteriores, consumimos dados, mas ainda não tínhamos escrito dados
-(salvar alterações, criar dados, excluir, ...). Neste projeto, você precisará
+(salvar alterações, criar dados, excluir, etc). Neste projeto, você precisará
 criar (salvar) novos dados, além de ler, atualizar e modificar os dados
 existentes. Esses dados podem ser salvos remotamente usando o
 [Firebase](https://firebase.google.com/).
