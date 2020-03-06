@@ -9,7 +9,7 @@ O _bootcamp_ da Laboratória é um **programa imersivo de aprendizagem de 6
 meses** focado nos perfis de **Front-end Developer** e **UX Designer**.
 Nosso modelo de aprendizagem se baseia em emular um ambiente de trabalho que prepare nossas estudantes, desenvolvendo as habilidades técnicas e sócio-emocionais necessárias para que comecem a trabalhar.
 
-A **aprendizagem baseado em projetos** é o eixo central sobre o qual se articula a experiência de aprendizagem. Ao completarem uma série de _projetos_, de complexidade gradualmente crescente, permite-se que as estudantes desenvolvam as habilidades necessárias. De todas estas habilidades, consideramos que a **autoaprendizagem** seja a mais importante; acreditamos firmemente que, não somente é uma habilidade indispensável para o mundo do trabalho que as espera, como também é uma ferramenta poderosa para que se tornem mulheres autossuficientes, seguras de seu talento e habilidades e, finalmente, agentes de mudança a longo prazo.
+A **aprendizagem baseada em projetos** é o eixo central sobre o qual se articula a experiência de aprendizagem. Ao completarem uma série de _projetos_, de complexidade gradualmente crescente, permite-se que as estudantes desenvolvam as habilidades necessárias. De todas estas habilidades, consideramos que a **autoaprendizagem** seja a mais importante; acreditamos firmemente que, não somente é uma habilidade indispensável para o mundo do trabalho que as espera, como também é uma ferramenta poderosa para que se tornem mulheres autossuficientes, seguras de seu talento e habilidades e, finalmente, agentes de mudança a longo prazo.
 
 ## Mapa de aprendizagem
 
