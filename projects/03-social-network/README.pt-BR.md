@@ -167,7 +167,7 @@ uma de suas histórias de usuário deve possuir:
   - Receber _code review_ de pelo menos uma parceira de outra equipe.
   - Fazer _tests_ unitários.
   - Fazer testes manuais buscando erros e imperfeições simples.
-  - Fazer testes de usabilidade e incorpor o _feedback_ dos usuários como
+  - Fazer testes de usabilidade e incorporar o _feedback_ dos usuários como
     melhorias.
   - Fazer deploy do aplicativo e marcar a versão (git tag).
 
