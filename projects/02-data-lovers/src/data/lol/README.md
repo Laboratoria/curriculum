@@ -13,31 +13,6 @@ y que tienen un conjunto de habilidades únicas. Es con esos campeones con los
 que se juega toda la partida. Para entender un poco más del juego puedes entrar
 a este [link](https://www.redbull.com/es-es/5-consejos-empezar-jugar-league-of-legends#targetText=Lo%20primero%20que%20tienes%20que,donde%20lucha%20cinco%20contra%20cinco).
 
-## Algunos datos de cómo se juega
-
-* Para jugar tienes que elegir a **campeones** que son los personajes que
-estarán en tu equipo y que lucharán contra el enemigo.
-* Los campeones tienen distintos tipos de habilidades, algunas inherentes
-  (básicas/principales) a ellos y otras (pasivas/secundarias) que pueden ser
-  adquiridas. En ambos casos, estas habilidades pueden ir desarrollándose hasta
-  alcanzar su máximo nivel.
-* Los campeones tienen distintos roles en los que se desempeñan:
-  - Luchador: Especializado en combate cercano. Combinan objetos de daño con
-    objetos de aguante. También se los conoce como _offtanks_.
-  - Tirador: Especializado en ataque a distancia. Popularmente conocido como
-    _AD Carry_ del inglés _attack damage carry_ o carreador de daño de ataque.
-  - Mago o Hechicero: Especializado en habilidades y daño mágico. Popularmente
-    conocido como _AP Carry_ del inglés _ability power carry_ o carreador de
-    poder de habilidad.
-  - Asesino: Especializado en emboscar al enemigo, atacando por sorpresa y
-    retirándose rápidamente. Su misión es eliminar al jugador más importante del
-    equipo enemigo (generalmente el tirador) aunque ello suponga morir él
-    también.
-  - Tanque: Especializado en resistencia. Su misión es absorber la mayor
-    cantidad de daño posible e iniciar las peleas.
-  - Apoyo o Soporte: Especializado en apoyar a su equipo y aportar visión en el
-    mapa mediante guardianes de visión (_wards_).
-
 ## Hallazgos
 
 * Para poder elegir a los campeones que van a combatir en una partida, es

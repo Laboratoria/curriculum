@@ -14,6 +14,8 @@ entrenadores de Pokémon" y pueden:
 - **Hacer equipo** con otros entrenadores para atrapar poderosos Pokémon
   durante las incursiones.
 
+## Hallazgos
+
 Para entender mejor qué necesidades complementarias a la app tienen los
 usuarios, hicimos una rápida investigación (research) y estos son algunos
 de los hallazgos.
