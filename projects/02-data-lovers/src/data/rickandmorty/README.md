@@ -20,22 +20,21 @@ serie.
 
 ## Detalles de la data
 
-### Con este set de datos puedes obtener los siguientes datos de un personaje:
+* Con este set de datos puedes obtener los siguientes datos de un personaje:
 
-- nombre
-- imagen
-- estado de vida
-- especie
-- género
-- lugar de origen (planeta tierra)
-- lugar donde vive.
-- episodios donde aparece.
+  - nombre
+  - imagen
+  - estado de vida
+  - especie
+  - género
+  - lugar de origen (planeta tierra)
+  - lugar donde vive.
+  - episodios donde aparece.
 
+* Con este set de datos también puedes obtener lo siguiente:
 
-### Con este set de datos puedes obtener los siguientes datos:
-
-- Cantidad de personajes.
-- Cantidad de lugares de origen.
-- Lista de episodios de la serie.
-- Lista de personajes que pertenecen a una cierta locación.
-- Todos los personajes de la serie.
+  - Cantidad de personajes.
+  - Cantidad de lugares de origen.
+  - Lista de episodios de la serie.
+  - Lista de personajes que pertenecen a una cierta locación.
+  - Todos los personajes de la serie.
