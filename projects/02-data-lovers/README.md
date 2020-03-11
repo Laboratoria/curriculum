@@ -92,8 +92,8 @@ Dicho en palabras sencillas, aprenderás a:
 * Escribir y trabajar con **historias de usuario**, sus definiciones de
   terminado (_definition of done_) y Criterios de Aceptación como herramienta
   central de la organización y planificación de tu trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
+* Definir la data y la forma de mostrarla en el producto, basándote en
+  el **entendimiento que tienes del usuario**.
 * Crear productos que sigan los **principios básicos de diseño visual** y
   las **heurísticas de usabilidad**.
 * Iterar el diseño del producto, basándote en los resultados de los
@@ -289,7 +289,7 @@ Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
 El corazón de este proyecto es la manipulación de datos a través de arreglos
 y objetos.
 
-Te reomendamos que este archivo contenga toda la funcionalidad que corresponda
+Te recomendamos que este archivo contenga toda la funcionalidad que corresponda
 a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
 
 * `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
@@ -444,7 +444,7 @@ compañera:
 * [json.org](https://json.org/json-es.html)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atomicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
 * [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 
