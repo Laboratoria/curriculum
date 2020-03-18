@@ -91,8 +91,11 @@ buildItems([
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
+  { type: 'project', id: '00-trivia', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },
