@@ -109,8 +109,6 @@ buildItems([
   { type: 'topic', id: 'html', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'javascript', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'paradigms', locale: 'es-ES', track: 'js' },
-  { type: 'topic', id: 'react', locale: 'es-ES', track: 'js' },
-  { type: 'topic', id: 'redux', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'scm', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'shell', locale: 'es-ES', track: 'js' },
   // JS Topics (portuguese)
