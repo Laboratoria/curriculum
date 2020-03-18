@@ -3,8 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
-const { promisify } = require('util');
-const mkdirp = promisify(require('mkdirp'));
+const mkdirp = require('mkdirp');
 const { repository, version } = require('../package.json');
 
 
