@@ -163,8 +163,8 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 #### Funcionalmente (JavaScript - pruebas unitarias)
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript.
-* En este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+* En este proyecto NO está permitido usar librerías o frameworks, sólo JavaScript
+puro también conocido como Vanilla JavaScript.
 * No se debe utilizar la _pseudo-variable_ `this`.
 
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
