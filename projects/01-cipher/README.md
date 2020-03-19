@@ -165,8 +165,8 @@ hacker edition te invitamos a explorar también esta caso por tu cuenta.
 ## 7. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
-este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
+también conocido como Vanilla JavaScript.
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
