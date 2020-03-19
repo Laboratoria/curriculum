@@ -43,9 +43,9 @@ aplicación en el sistema ROT13.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
+¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
+web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
+un desplazamiento específico de caracteres (_offset_).
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
@@ -60,9 +60,9 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
-interactuará con el usuario final a través del navegador utilizando HTML, CSS y
-JavaScript como herramientas.
+Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
+como tecnologías.
 
 Dicho en palabras sencillas, aprenderás a
 
@@ -95,13 +95,11 @@ Dicho en palabras sencillas, aprenderás a
 
 ## 4. Consideraciones generales
 
-* Este proyecto se debe resolver de manera individual.
+* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
+  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -222,29 +220,33 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 ### Primeros pasos
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
+  condiciones, algo como [Atom](https://atom.io/) o
+  [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-   darán acceso de lectura en ese repo.
+  [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
+  que es un programita que interpreta líneas de comando (command-line
+  interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
+  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+  ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+  también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
+  que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows 10
+  o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
+  [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
+  tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
+  en ese repo. La otra integrante del equipo deber hacer un fork **del
+  repositorio de su compañera** y
+  [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
+  hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-   incluye [npm](https://docs.npmjs.com/)).
+  tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+  asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
+  pruebas unitarias (unit tests) con el comando `npm test`.
 7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
+  `npm start` para arrancar el servidor web y dirígete a
+  `http://localhost:5000` en tu navegador.
 8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
@@ -254,6 +256,20 @@ matemática del Cifrado César y un par de cosas más que debes saber para
 resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+
+[Link](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+
+Terminal y shell de UNIX:
+
+[![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+
+[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+
+Control de versiones y trabajo colaborativo con Git y GitHub:
+
+[![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
+
+[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
 Diseño de experiencia de usuario (User Experience Design):
 
@@ -272,10 +288,6 @@ Desarrollo Front-end:
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * [Documentación de NPM](https://docs.npmjs.com/)
-
-Herramientas:
-
-* GitHub y GitHub Pages.
 
 Organización del Trabajo:
 
