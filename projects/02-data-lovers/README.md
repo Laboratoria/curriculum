@@ -59,17 +59,17 @@ Estos son datos que te proponemos:
   En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
   y Johto, junto con sus respectivas estadísticas usadas en el juego
   [Pokémon GO](http://pokemongolive.com).
-  - [Investigación con jugadores de Pokémon Go](/src/data/pokemon/README.md)
+  - [Investigación con jugadores de Pokémon Go](src/data/pokemon/README.md)
 
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
   Este set de datos muestra la lista de campeones en una liga del
   juego League of Legends (LoL).
-  - [Investigación con jugadores de LoL](/src/data/lol/README.md)
+  - [Investigación con jugadores de LoL](src/data/lol/README.md)
 
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
   Morty. [API Rick and Morty](https://rickandmortyapi.com).
-  - [Investigación con seguidores de Rick and Morty](/src/data/rickandmorty/README.md)
+  - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
 
 <!---
 ¡Too much information para comenzar (Diego)!
