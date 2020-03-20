@@ -291,7 +291,7 @@ Desarrollo Front-end:
 
 Organización del Trabajo:
 
-* [Metodologías Ágiles"](https://www.youtube.com/watch?v=v3fLx7VHxGM)
+* [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
