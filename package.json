@@ -26,7 +26,7 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^2.5.0",
+    "@laboratoria/curriculum-parser": "^2.6.0",
     "@laboratoria/mdlint": "^1.1.0",
     "chai": "^4.2.0",
     "eslint": "^6.7.2",
