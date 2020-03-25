@@ -64,34 +64,266 @@ Trabajando en parejas aprenderán a construir una aplicación web que interactua
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
-Dicho en palabras sencillas, aprenderás a
+A continuación el listado de micro-habilidades técnicas.
 
-* Organizar tu tiempo y priorizar tareas en un entorno de
-  **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  producto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas de HTML y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
-* Utilizar el modelo de cajas de CSS (border, margin, padding).
-* Definir reglas de estilo en CSS.
-* Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos
-  **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
-  **innerHTML** o **textContent**.
-* **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con Jest**).
-* Configurar tu cuenta de git.
-* Hacer _fork_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto
-  (commit, pull, push).
-* Desplegar tu proyecto en gh-pages.
+### Micro-habilidades técnicas
+
+#### Web
+
+* <details id="semantic-html-2">
+    <summary>Uso de etiquetas semánticas (nivel-2)</summary>
+
+    <ul>
+      <li><code>`section`</code></li>
+      <li><code>`header`</code></li>
+      <li><code>`main`</code></li>
+      <li><code>`footer`</code></li>
+      <li><code>`aside`</code></li>
+      <li><code>Cuando usar `div`s y cuando usar `section`s</code></li>
+    </ul>
+
+</details>
+
+* <details id="form-html-1">
+    <summary>Uso de etiquetas del formulario (nivel-1)</summary>
+
+    <ul>
+      <li><code>`form`</code></li>
+      <li><code>`action`</code></li>
+      <li><code>`input`</code></li>
+      <li><code>`button`</code></li>
+      <li><code>`submit`</code></li>
+      <li><code>`textarea`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-manipulation-1">
+    <summary>Selección y manipulación del DOM (nivel-1)</summary>
+
+    <ul>
+      <li><code>`document.getElementById`</code></li>
+      <li><code>`document.getElementByClassname`</code></li>
+      <li><code>`document.querySelector`</code></li>
+      <li><code>`document.querySelectorAll`</code></li>
+      <li><code>`element.innerHTML`</code></li>
+      <li><code>`element.innerText`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-manipulation-2">
+    <summary>Selección y manipulación del DOM (nivel-2)</summary>
+
+    <ul>
+      <li><code>`parentNode.querySelector`</code></li>
+      <li><code>`parentNode.querySelectorAll`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-events-1">
+    <summary>Eventos del DOM (nivel-1)</summary>
+
+    <ul>
+      <li><code>`eventTarget.addEventListener`</code></li>
+      <li><code>`eventTarget.removeEventListener`</code></li>
+    </ul>
+
+</details>
+
+* <details id="DOM-events-2">
+    <summary>Eventos del DOM (nivel-2)</summary>
+
+    <ul>
+      <li><code>`event.preventDefault`</code></li>
+      <li><code>`event.stopPropagation`</code></li>
+      <li><code>Diferencias entre estos dos</code></li>
+    </ul>
+
+</details>
+
+* <details id="CSS-selectors-1">
+    <summary>Selección de elementos con CSS (nivel-1)</summary>
+
+    <ul>
+      <li><code>por tag name</code></li>
+      <li><code>por id name</code></li>
+      <li><code>por classname</code></li>
+      <li><code>por attribute</code></li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-1">
+    <summary>Manipulación de `strings` (nivel-1)</summary>
+
+    <ul>
+      <li>Concatenación con <code>+</code></li>
+      <li>Concatenación con template literals</li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-2">
+    <summary>Manipulación de `strings` (nivel-2)</summary>
+
+    <ul>
+      <li><code>`string.chartAt`</code></li>
+      <li><code>Strings como Array-like objects (`'a'[0]`)</code></li>
+    </ul>
+
+</details>
+
+* <details id="string-manipulation-3">
+    <summary>Manipulación de `strings` (nivel-3)</summary>
+
+    <ul>
+      <li><code>`'text'.split`</code></li>
+      <li><code>`'text'.concat`</code></li>
+      <li><code>`Array.from`</code></li>
+    </ul>
+
+</details>
+
+* <details id="objects-1">
+    <summary>Objetos (nivel-1)</summary>
+
+    <ul>
+      <li><code>Estructura de un Objeto</code></li>
+      <li><code>Object literals</code></li>
+      <li><code>JSON vs objetos JS</code></li>
+    </ul>
+
+</details>
+
+* <details id="functions-1">
+    <summary>Declaración y uso de funciones (nivel-1)</summary>
+
+    <ul>
+      <li><code>Funciones como bloques de código</code></li>
+    </ul>
+
+</details>
+
+* <details id="functions-2">
+    <summary>Declaración y uso de funciones (nivel-2)</summary>
+
+    <ul>
+      <li><code>Valor de retorno `return`</code></li>
+      <li><code>Argumentos / Parámetros</code></li>
+      <li><code>Contexto o `scope`</code></li>
+    </ul>
+
+</details>
+
+* <details id="data-types-1">
+    <summary>Tipos de datos (nivel-1)</summary>
+
+    <ul>
+      <li><code>`string`</code></li>
+      <li><code>`number`</code></li>
+      <li><code>`boolean`</code></li>
+    </ul>
+
+</details>
+
+* <details id="data-types-2">
+    <summary>Tipos de datos (nivel-2)</summary>
+
+    <ul>
+      <li><code>`null`</code></li>
+      <li><code>`undefined`</code></li>
+      <li><code>Diferencias entre los dos</code></li>
+    </ul>
+
+</details>
+
+* <details id="mathematical-operators-1">
+    <summary>Operaciones matemáticas (nivel-1)</summary>
+
+    <ul>
+      <li><code>`+`</code></li>
+      <li><code>`-`</code></li>
+      <li><code>`*`</code></li>
+      <li><code>`/`</code></li>
+      <li><code>`Math.floor`</code></li>
+      <li><code>`Math.ceil`</code></li>
+      <li><code>`Math.round`</code></li>
+    </ul>
+
+</details>
+
+* <details id="unit-testing-1">
+    <summary>Pruebas unitarias (nivel-1)</summary>
+
+    <ul>
+      <li><code>Correr tests ya escritos</code></li>
+      <li><code>Importar funcionalidad para ser usada en tests</code></li>
+      <li><code>Explicar qué es un test</code></li>
+    </ul>
+
+</details>
+
+* <details id="git-1">
+    <summary>Git (nivel-1)</summary>
+
+    <ul>
+      <li><code>`git init`</code></li>
+      <li><code>`git clone`</code></li>
+      <li><code>`git commit`</code></li>
+      <li><code>Mensajes de commit descriptivos</code></li>
+      <li><code>`git log`</code></li>
+      <li><code>`git remote`</code></li>
+      <li><code>`git push`</code></li>
+    </ul>
+
+</details>
+
+* <details id="github-1">
+    <summary>GitHub (nivel-1)</summary>
+
+    <ul>
+      <li><code>Creación de cuenta y configuración</code></li>
+      <li><code>Fork</code></li>
+      <li><code>Creación de GitHub pages</code></li>
+    </ul>
+
+</details>
+
+#### UX
+
+* <details id="user-needs-1">
+    <summary>Necesidades de usuario (nivel-1)</summary>
+
+    <ul>
+      <li>Listar necesidades de usuarix</li>
+      <li>Diferenciar al usuarix de la programadora</li>
+    </ul>
+
+</details>
+
+* <details id="prototyping-1">
+    <summary>Prototipado (nivel-1)</summary>
+
+    <ul>
+      <li>Enteder importancia de prototipado</li>
+      <li>Iteración de prototipos</li>
+      <li>Validación de prototipos</li>
+    </ul>
+
+</details>
+
+* <details id="visual-design-1">
+    <summary>Diseño visual (nivel-1)</summary>
+
+    <ul>
+      <li>Jerarquía de contenido</li>
+      <li>Balance de contenido</li>
+      <li>Contraste de colores</li>
+    </ul>
+
+</details>
 
 ## 4. Consideraciones generales
 
