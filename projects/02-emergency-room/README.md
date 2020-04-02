@@ -42,6 +42,9 @@ de filas/colas de la sala de emergencias de un hospital y que responda a los cri
 de gravedad antes descritos. Esta vez tú misma tendrás que crear los datos con
 los que trabajarás.
 
+Este proyecto es agnóstico a la tecnología que uses, es decir puedes desarrollarlo
+en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elección.
+
 ## 3. Objetivos de aprendizaje
 
 ### Generales
