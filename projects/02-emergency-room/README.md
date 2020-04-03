@@ -76,11 +76,11 @@ interfaz que permita tener todos los elementos pedidos sin entorpecerse entre s�
 1. Definir un producto que responda a las necesidades y dificultades de
 pacientes que esperan a ser atendidos/as en urgencias y los de el/la doctor/a
 que los/as ingresa a la lista de espera, a partir de un acercamiento a los/as
-usuarios/as (observación contextual, entrevistas, etc).
+usuarios/as (observación contextual, entrevistas con doctores, enfermeras, etc).
 2. Seleccionar y priorizar la información a mostrar para cada usuario/a.
 3. Crear interfaces que sigan los principios de diseño visual.
-4. Iterar el diseño del producto y su usabilidad a partir del "testeo" con
-usuarios/as (mínimo 5 "testeos" de usabilidad).
+4. Iterar el diseño del producto y su usabilidad a partir del testeo con
+usuarios/as (mínimo 5 testeos de usabilidad).
 
 ## 4. Consideraciones generales
 
