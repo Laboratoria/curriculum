@@ -12,10 +12,10 @@
 ## 1. Preámbulo
 
 Los datos son de poca utilidad si no están organizados para ser analizados y que
-sirvan como para entender y tomar decisiones sobre un fenómeno. Actualmente
-hay una necesidad creciente por extraer y analizar gran cantidad de información y
-es por eso que la ["minería de datos"](https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos)
-es una disciplina cada vez más valorada y demandada.
+sirvan como para entender y tomar decisiones sobre un fenómeno. Para que los datos
+se conviertan en **información** fácil de entender para los usuarios, necesitamos
+procesar estos datos. Una manera simple de hacerlo es creando _interfaces_ interactivas
+y _visualizaciones_.
 
 Un caso especial, y que es crítico en los hospitales, es la gestión de los
 pacientes que llegan a la sala de emergencias según sus necesidades particulares.
