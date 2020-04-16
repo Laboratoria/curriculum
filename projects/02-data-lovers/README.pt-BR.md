@@ -26,7 +26,7 @@ quantidades de dados se convertam em **informação** compreensível para os
 usuários, precisamos entender e processar estes dados. Uma forma simples de
 fazer isso é criando _interfaces_ e _visualizações_.
 
-Na imagem seguinte, você pode ser como os dados que estão na parte esquerda
+Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
 podem ser usados para construir a interface amigável e compreensível que está
 na parte direita.
 
@@ -39,8 +39,8 @@ Neste projeto você **construirá uma _página web_ para visualizar um conjunto
 
 Como entregável final terá uma página web que permita **visualizar dados,
 filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
-nos referimos aos diversos cálculos que pode fazer com os dados para mostrar a
-informação mais relevante para os usuários (médias, valores máximos e míimos,
+nos referimos aos diversos cálculos que podem ser feitos com os dados para mostrar a
+informação mais relevante para os usuários (médias, valores máximos e mínimos,
 etc).
 
 Para este projeto trazemos uma série de dados de _temáticas diferentes_ para
@@ -54,35 +54,18 @@ construir a interface que o ajude a interagir e entender melhor os dados.
 
 Este são os dados que propomos:
 
-* [Indicadores de desenvolvimento do Banco Mundial](src/data/worldbank/worldbank.json)
-  de alguns países (Brasil, Chile, México e Perú). Estes dados incluem
-  indicadores demográficos, econômicos e comerciais.
 * [Pokémon](src/data/pokemon/pokemon.json):
   Neste conjunto você encontrará uma lista com os 151 Pokémon da região de
   Kanto, com suas respectivas estatísticas utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-* [Steam notícias](src/data/steam/steam.json):
-  Lista notícias relacionadas aos jogos da plataforma [Steam](https://store.steampowered.com/).
+  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
   Este conjunto mostra a lista de jogadores de uma liga do jogo League of
-  Legends (LoL). Você pode revisar a documentação da API neste [link](https://developer.riotgames.com/api-methods/).
-* [Pessoas feridas por meios de transporte nos EUA](src/data/injuries/injuries.json).
-  Este conjunto mostra o número de pessoas feridas em acidentes de transporte,
-  com dados anuais desde 1960 e categorizados por tipo de transporte
-  (avião, barco, automóvel, moto e bicicleta).
+  Legends (LoL).
+  - [Pesquisa com jogadores de LoL](src/data/lol/README.md)
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Lista de personagens da série Rick & Morty. Você pode revisar a documentação
   da API neste [link](https://rickandmortyapi.com).
-* [Pacientes nos EUA](src/data/patient/patient.json).
-  Uma lista de pacientes nos EUA. Você pode revisar a documentação da API neste
-  [link](https://r2.smarthealthit.org/Patient).
-
-<!---
-¡Too much information para comenzar (Diego)!
-Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
-por ejemplo, si tenemos una colección que representa a un grupo de personas,
-y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
-podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
---->
+  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.md)
 
 ## 3. Objetivos de aprendizagem
 
@@ -99,8 +82,8 @@ Em outras palavras, você aprenderá a:
   de organização e planejamento de seu trabalho.
 * Definir que dados utilizar e de que forma exibí-los em seu produto,
   baseando-se no seu **entendimento do usuário**.
-  <!-- * Criar produtos que sigam os **princípios básicos do desenho visual** e
-  as **heurísticas de usabilidade**. -->
+  * Criar produtos que sigam os **princípios básicos do desenho visual** e
+  as **heurísticas de usabilidade**.
 * Iterar o desenho do produto, baseando-se nos resultados dos
   **testes de usabilidade**.
 * Manipular **arrays e objetos**.
@@ -148,7 +131,7 @@ Durante seu trabalho você deverá fazer e iterar rascunhos de sua solução usa
 lápis e papel. Recomendamos que fotografe todas as iterações que fizer, suba
 para seu repositório e as mencione no `README.md`.
 
-<!-- #### Prototipo de alta fidelidad
+#### Prototipo de alta fidelidad
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
 _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
@@ -160,9 +143,7 @@ gráfica correspondiente a cada set de datos que elijas.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
-diseño debe seguir los fundamentos de _visual design_. También, deberás exportar
-tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
-estilo que te dé Zeplin al momento de implementar tus diseños en código. -->
+diseño debe seguir los fundamentos de _visual design_.
 
 #### Testes de usabilidade
 
@@ -181,15 +162,10 @@ priorizar as tarefas.
 No mínimo, sua implementação deverá:
 
 1. Mostrar os dados em uma interface: pode ser em cards, tabelas, listas, etc.
-2. Permitir ao usuário filtrar e ordenar dados;
-3. Calcular estatísticas, como média aritmética, máximo ou mínimo de algum
-   atributo numérico, ou contar quantas vezes aparece determinada informação,
-   por exemplo.
-4. Ser _responsivo_, ou seja, deve ser visualizada sem problemas a partir de
+2. Permitir ao usuário interagit com a interface para obter as informações que necessita;
+3. Ser _responsivo_, ou seja, deve ser visualizada sem problemas a partir de
    diversos tamanhos de tela: celulares, tablets, notebooks, etc.
-
-<!-- Es importante que tu interfaz, a pesar de ser una versión mínima de tu
-ideal, siga los fundamentos de _visual design_. -->
+4. Que a interface siga os fundamentos de _visual design_.
 
 ### Testes unitários
 
@@ -238,28 +214,19 @@ como toda a configuração de dependências:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data
-|  |  ├── injuries
-|  |  |  ├── injuries.js
-|  |  |  └── injuries.json
+|  ├── data (de acordo com o data que forem trabalhar)
 |  |  ├── lol
 |  |  |  ├── lol.js
-|  |  |  └── lol.json
-|  |  ├── patient
-|  |  |  ├── patient.js
-|  |  |  └── patient.json
+|  |  |  ├── lol.json
+|  |  |  └── README.md
 |  |  ├── pokemon
 |  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
-|  |  ├── rickandmorty
-|  |  |  ├── rickandmorty.js
-|  |  |  └── rickandmorty.json
-|  |  ├── steam
-|  |  |  ├── steam.js
-|  |  |  └── steam.json
-|  |  └── worldbank
-|  |     ├── worldbank.js
-|  |     └── worldbank.json
+|  |  |  ├── pokemon.json
+|  |  |  └── README.md
+|  |  └── rickandmorty
+|  |     ├── rickandmorty.js
+|  |     └── rickandmorty.json
+|  |     └── README.md
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -267,7 +234,7 @@ como toda a configuração de dependências:
 └── test
    └── data.spec.js
 
-directory: 10 file: 22
+directory: 6 file: 17
 ```
 
 ### `src/index.html`
@@ -364,6 +331,7 @@ ajudar:
 * Quando utilizam ou utilizariam o produto?
 * Toda sua investigação prévia deve ter como resultado as histórias de
   usuário de seu projeto.
+* Não faça os protótipos de alta fidelidade de todas as suas histórias. Comece somente pela que necessite para seu Sprint 1.
 
 Quando estiver pronta para codar, sugerimos começar desta forma:
 
@@ -462,6 +430,11 @@ compañera:
 * [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Fetch API no MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-pt.html)
+<!-- * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
+* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/) -->
+* [Modulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
+* [Modulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
 
 #### Ferramentas
 
