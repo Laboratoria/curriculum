@@ -1,4 +1,4 @@
-# Movie Challenge
+# Movies Challenge
 
 ## Índice
 
@@ -13,43 +13,39 @@
 
 ## 1. Preámbulo
 
-La industria cinematográfica va a tener que adaptarse a muchos cambios en el corto
-y mediano plazo. Empezando por la aparición de varios servicios de _streaming_ de
-contenido como Netflix, HBO y Disney+ y agregándole la necesidad del público de pasar
-más tiempo realizando [distanciamiento social](https://es.wikipedia.org/wiki/Distanciamiento_social).
-Es un gran reto y oportunidad para proponer soluciones innovadoras que llamen la
-atención de lxs usuarixs y ganen popularidad rápidamente.
+La manera en que vemos películas ha cambiado radicalmente durante los últimos años
+debido, en parte, a la aparición de los servicios de  [_streaming_](https://es.wikipedia.org/wiki/Streaming) que nos permiten hacerlo desde donde estemos y en cualquier momento. El mejor reflejo
+de este fenómeno es el éxito de Netflix, HBO y Disney+, etc.
 
-![Pelis](https://i.giphy.com/media/3o6Ztl7RvfwCp9mqhW/source.gif)
+En tiempos en los que una de las principales herramientas para combatir [la pandemia de Covid-19](https://es.wikipedia.org/wiki/COVID-19) es [evitar](https://es.wikipedia.org/wiki/Distanciamiento_social) compartir espacios con muchas personas (como en el cine), ver películas por _streaming_ será una de
+las pocas maneras de hacerlo (¿o la única?).
+
+Creemos que hay una gran oportunidad de proponer productos/experiencias innovadoras
+de todo tipo utilizando datos de películas (directorxs, actorxs, sagas, secuelas,
+  fechas, etc.). Podríamos pensar en juegos, comunidades, catálogos, recomendaciones basadas en gustos personales, etc. (sólo por mencionar algunas ideas obvias).
+
+![Pelis](https://live.staticflickr.com/117/257368762_38bf6fcf9f_h.jpg)
 
 ## 2. Resumen del proyecto
 
-La idea de este proyecto es que usando un API de películas disponibles puedas idear,
-planear, organizar y desarrollar una aplicación web que aproveche estos datos y
-tenga una propuesta de valor interesante para lxs usuarixs.
+La idea de este proyecto es que, usando una API con información de películas,
+puedas idear, planear, organizar y desarrollar una aplicación web que aproveche
+estos datos y tenga una propuesta de valor atractiva para lxs usuarixs.
 
-Algunas ideas se encuentran en el rango de desarrollar un buscador de películas
-en general, un sistema de recomendación de películas basado en gustos personales,
-un juego donde tienes que adivinar el título de una película por su portada o una
-trivia sobre el año de aparición de los títulos de una franquicia, por poner ejemplos.
-
-Aunque al final la decisión de qué hacer es tuya, hay algunas consideraciones
-generales que se presentan a continuación pero cumpliendo esos requisitos ¡todo
-lo demás viene de tu investigación e imaginación!
+Aunque la decisión de qué hacer es enteramente tuya, hay algunas consideraciones
+generales que se presentan a continuación. Puedes cumplir esos requisitos en
+proyectos muy diferentes, ¡depende de tu creatividad y del entendimiento que
+tengas de tus potenciales usuarixs!
 
 ## 3. Consideraciones generales
 
-- Este proyecto se debe resolver en equipos o duplas.
-- Usa los datos de la API de [OMDB](http://www.omdbapi.com/) (The Open Movie
+- Este proyecto se debe resolver en equipos de 2 o más personas.
+- Debes utilizar los datos de la API de [OMDB](http://www.omdbapi.com/) (The Open Movie
 Database) con [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
-- La aplicación web debe mostrar alguna instancia de aleatoriedad, es decir se debe
-presentar a lx usuarix algún elemento de forma aleatoria ya sea la recomendación
-de alguna película o la aparición de preguntas de una trivia. Para esto generalmente
-se usa el método `random` del objeto `Math` en JavaScript.
-- Se te recomienda pensar en _test driven development_ al momento de programar la
-solución. Tendrás que escribir las pruebas unitarias, aprovechen la oportunidad
+- Piensa en _test driven development_ al momento de programar la
+solución. Tendrás que escribir las pruebas unitarias, aprovecha la oportunidad
 de comenzar haciéndolo antes de escribir la funcionalidad.
-- Este proyecto es agnóstico a la tecnología que uses, es decir puedes desarrollarlo
+- Este proyecto es "agnóstico" a la tecnología que uses, es decir puedes desarrollarlo
 en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elección.
 
 ## 4. Objetivos de aprendizaje
@@ -65,9 +61,10 @@ aprendido hasta ahora. Asume 2 semanas como una referencia inicial.
 - Utilizar la API de OMDB mediante _Fetch_ para obtener y mostrar una interfaz basada
 en los datos de cada respuesta.
 - Lo que sea que decidas hacer, deberás seleccionar aleatoriamente datos y mostrarlos
-en alguna de las características de tu proyecto.
-- Tu solución debe presentar la misma experiencia y adaptarse a cada pantalla que
-lx usuarix pueda tener, tanto escritorio, tableta y/o celular.
+en alguna de las características de tu proyecto. Para esto generalmente
+se usa el método `random` del objeto `Math` en JavaScript.
+- Tu solución debe ser _responsive_. Debe adaptarse a pantallas de escritorio,
+tabletas y teléfonos.
 - Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/).
 
 ## 6. Consideraciones técnicas
@@ -76,11 +73,10 @@ lx usuarix pueda tener, tanto escritorio, tableta y/o celular.
 a cada petición que hagas al servidor (revisar sección _Usage_ de su [sitio web](http://www.omdbapi.com/)),
 la llave la generas en este [link](http://www.omdbapi.com/apikey.aspx) llenando
 el formulario con la versión gratuita (_free_) seleccionada y luego revisando tu
-email para activar a esta y así poder empezar a usarla.
+_email_ para activarla y poder usarla.
 - Recuerda que GitHub Pages sirve sus páginas con un certificado [SSL](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte)
-por lo que las peticiones a la OMDB deben incluir `https` en el URL.
-- Recuerda que tienes un máximo de 1000 peticiones por día por IP, no creemos que
-te pases de ese número, pero también te recomendamos hace un uso responsable
+por lo que las peticiones a la OMDB deben incluir `https` en la URL.
+- Recuerda que tienes un máximo de 1.000 "peticiones" diarias a la API por cada [IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP), creemos que es suficiente pero te recomendamos hacer un uso responsable
 de este recurso gratuito.
 
 ## Contenido de referencia
@@ -88,4 +84,4 @@ de este recurso gratuito.
 - [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 - [Math.random](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/random)
 
-¡Trata de divertirte y a empezar esta aventura 🎬!
+Trata de divertirte durante este proyecto. ¡a empezar esta aventura 🎬!
