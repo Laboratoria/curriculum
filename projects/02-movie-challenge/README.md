@@ -40,21 +40,27 @@ tengas de tus potenciales usuarixs!
 ## 3. Consideraciones generales
 
 - Este proyecto se debe resolver en equipos de 2 o más personas.
+- Debes elegir y sustentar qué problema o necesidad estás resolviendo con el
+producto que estás diseñando y desarrollando.
 - Debes utilizar los datos de la API de [OMDB](http://www.omdbapi.com/) (The Open Movie
-Database) con [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
+Database) con [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) o
+cualquier otra API que encuentres.
 - Piensa en _test driven development_ al momento de programar la
 solución. Tendrás que escribir las pruebas unitarias, aprovecha la oportunidad
 de comenzar haciéndolo antes de escribir la funcionalidad.
 - Este proyecto es "agnóstico" a la tecnología que uses, es decir puedes desarrollarlo
 en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elección.
+- Intenta pensar en un alcance que, considerando su complejidad y las cantidad de
+personas en el equipo, permita terminar el proyecto en 2 semanas. Recuerda
+que dos mujeres no pueden tener un bebé en 4.5 meses y que más personas
+significa más capacidad pero también más complejidad.
 
 ## 4. Objetivos de aprendizaje
 
-1. Enfrentarte a un reto de corta duración en el que pongas en práctica todo lo
-aprendido hasta ahora. Asume 2 semanas como una referencia inicial.
-2. Obtener datos desde un servicio externo como OMDB usando _Fetch_.
-3. Entender la idea de aleatoriedad aplicada a algoritmos.
-4. Afianzar tus conocimientos de _Responsive Web Design_.
+- Diseñar y testear un producto antes de desarrollarlo.
+- Poner en práctica todo lo aprendido hasta ahora.
+- Obtener datos desde un servicio externo como OMDB usando _Fetch_.
+- Entender la idea de aleatoriedad aplicada a algoritmos.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -84,4 +90,4 @@ de este recurso gratuito.
 - [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 - [Math.random](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/random)
 
-Trata de divertirte durante este proyecto. ¡a empezar esta aventura 🎬!
+Trata de divertirte. ¡a empezar esta aventura 🎬!
