@@ -1308,7 +1308,9 @@ export default {
       id: "Evelynn",
       key: "28",
       name: "Evelynn",
-      title: "the Widowmaker",
+      title: "the Widowmaker",      
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Evelynn.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
       blurb:
@@ -3024,7 +3026,7 @@ export default {
       key: "7",
       name: "LeBlanc",
       title: "the Deceiver",
-      "name:":
+      img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Leblanc.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
