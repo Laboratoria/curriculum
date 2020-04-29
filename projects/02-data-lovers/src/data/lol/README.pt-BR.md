@@ -1,7 +1,7 @@
 # League of Legends (LoL)
 
 League of Legends é um jogo de estratégia online para vários jogadores. Possui
-milhões de jogadores em todo o mundo e, por enquanto, é um dos esportes de
+milhões de jogadores em todo o mundo e atualmente é um dos _e-sports_ de
 referência e que atrai o maior público.
 
 Durante o jogo, as equipes trabalham juntas para alcançar uma condição de
@@ -17,7 +17,7 @@ Para entender um pouco mais sobre o jogo, você pode entrar neste
 
 * Para escolher os campeões para lutar em um jogo, é importante que o jogador do
   LoL saiba qual é a função de cada campeão.
-* Além do função, cada campeão tem níveis de ataque diferentes, por exemplo,
+* Além da função, cada campeão tem níveis de ataque diferentes, por exemplo,
   dentro de campeões tipo tanque, existem campeões com níveis diferentes de
   ataque, defesa, velocidade ou poder. É importante que o jogador do LoL seja
   capaz de saber quem são os mais poderosos ou os mais defensivos, para ser
@@ -40,6 +40,6 @@ Para entender um pouco mais sobre o jogo, você pode entrar neste
     time inimigo (geralmente o atirador), mesmo que isso signifique morrer
     também.
   - Tanque: Especializado em resistência. Sua missão é absorver o máximo de dano
-    possível e iniciar brigas.
+    possível e iniciar combates.
   - Suporte: Especializado em apoiar sua equipe e fornecer visão no mapa através
     de sentinela de visão (_wards_).

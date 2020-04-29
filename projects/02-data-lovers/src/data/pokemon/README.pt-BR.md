@@ -5,12 +5,12 @@ downloads e foi nomeado "o melhor jogo para celular" pelo Game Developers Choice
 Awards e "a melhor aplicação do ano" pelo TechCrunch (extraído do Google Play).
 Os usuários do jogo se tornam "Mestres/ treinadores Pokémons" e podem:
 
-- **Descubrir o mundo Pokémon:** explorar e descubrir novos Pokémon onde quer
+- **Descobrir o mundo Pokémon:** explorar e descobrir novos Pokémon onde quer
   que estejam.
 - **Pegar** diferentes Pokémon para completar seu Pokédex.
 - **Lutar** contra Pokémon de outros treinadores e conquiste ginásios.
 - **Competir** em batalhas épicas contra outros treinadores.
-- **Junte-se** a outros treinadores para capturar Pokémon poderosos durante os
+- **Juntar-se** a outros treinadores para capturar Pokémon poderosos durante os
   ataques.
 
 ## Constatações
@@ -19,9 +19,9 @@ Os usuários do jogo se tornam "Mestres/ treinadores Pokémons" e podem:
 fizemos uma investigação rápida (pesquisa) e estas são algumas das descobertas.
 
 - Os Pokémons têm características únicas que determinam as decisões tomadas pelo
-  usuário (tipo, fraqueza, peso, multiplicador, etc.)
-- Um mestre Pokémon antes de sair para caças os Pokémons tem que conhecer os 10
-  principais Pokémons que aparecem com mais frequências
+  usuário (tipo, fraqueza, peso, multiplicador, etc.).
+- Um mestre Pokémon antes de sair para caçar os Pokémons tem que conhecer os 10
+  principais Pokémons que aparecem com mais frequência.
 - Os Pokémons têm diferentes tipos e fraquezas em combate. Estas características
   são importantes na escolha do Pokémon mais adequado para sua batalha. Às
   vezes, você tem que escolher aqueles com menos fraquezas e saber de que tipo
