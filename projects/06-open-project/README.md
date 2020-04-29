@@ -49,7 +49,7 @@ misma. Algunas sugerencias:
 
 - Reforzar algunas habilidades técnicas adquiridas durante el BC.
 - Profundizar en alguna(s) de las habilidades adquiridas para ser mucho más
-competente en ella(s), piensa en la idea de las [habilidades en forma de “T”](https://www.google.com/search?sxsrf=ALeKk02cBQJeEEGScy9-hBjW20FvEtM76A%3A1587658861013&ei=bcChXp4yyJ_9BvSGtagP&q=T-SHAPED+skills&oq=T-SHAPED+skills&gs_lcp=CgZwc3ktYWIQAzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoECCMQJ1Dw1QRYht8EYK7hBGgAcAB4AYABnASIAYkRkgELMC4zLjMuMS4wLjGYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwjenL2T-v7oAhXIT98KHXRDDfUQ4dUDCAw&uact=5).
+competente en ella(s), piensa en la idea de las [habilidades en forma de “T”](https://www.google.com/search?q=habilidades+en+forma+de+t).
 
 - Aprender un nuevo _framework_ (o incluso lenguaje de programación),
 metodología/marco de trabajo (_Design Sprint_ por ejemplo), herramienta o plataforma,
