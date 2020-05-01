@@ -57,7 +57,6 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 
 * [ ] Entender y reconocer por qué es importante el HTML semántico.
 * [ ] Identificar y entender tipos de selectores en CSS.
-* [ ] Construir tu aplicación respetando el diseño planeado.
 
 ### DOM
 
@@ -67,10 +66,10 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 
 ### JavaScript
 
-* [ ] Manipular strings.
 * [ ] Entender el uso de condicionales.
-* [ ] Utilizar funciones.
-* [ ] Conocer la diferencia entre los distintos tipos de variable.
+* [ ] Utilizar funciones como mecanismo de control de flujo y reuso de código.
+* [ ] Conocer la diferencia entre los distintos tipos de datos.
+* [ ] Conocer la diferencia entre las distintas formas de declarar variables.
 
 ### Buenas prácticas de desarrollo
 
