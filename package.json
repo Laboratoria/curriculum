@@ -1,6 +1,6 @@
 {
   "name": "bootcamp",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
@@ -9,7 +9,7 @@
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "validate": "./scripts/build.js --validate",
     "build": "./scripts/build.js",
-    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an <%ae>)\""
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\""
   },
   "repository": "Laboratoria/bootcamp",
   "keywords": [
@@ -26,7 +26,7 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^2.5.0",
+    "@laboratoria/curriculum-parser": "^2.6.0",
     "@laboratoria/mdlint": "^1.1.0",
     "chai": "^4.2.0",
     "eslint": "^6.7.2",
@@ -41,5 +41,8 @@
     "mkdirp": "^1.0.3",
     "mocha": "^7.1.1",
     "sinon": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=10.x"
   }
 }

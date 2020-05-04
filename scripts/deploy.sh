@@ -116,7 +116,7 @@ for file in `ls build/projects`; do
   if [[ "$?" != "0" ]]; then
     hasFailures=1
     echo "Failed running curl command"
-  elif [[ "$statusCode" != "200" ]]; then
+  elif [[ "$statusCode" != "200" || "$statusCode" != "201" ]]; then
     hasFailures=1
     echo "Failed (HTTP Status: ${statusCode})"
   else
@@ -143,7 +143,7 @@ for file in `ls build/topics`; do
   if [[ "$?" != "0" ]]; then
     hasFailures=1
     echo "Failed running curl command"
-  elif [[ "$statusCode" != "200" ]]; then
+  elif [[ "$statusCode" != "200" || "$statusCode" != "201" ]]; then
     hasFailures=1
     echo "Failed (HTTP Status: ${statusCode})"
   else
