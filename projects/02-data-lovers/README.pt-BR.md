@@ -67,7 +67,8 @@ Este são os dados que propomos:
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
   personagens da série Rick & Morty. Você pode revisar a documentação da API
   neste [link](https://rickandmortyapi.com).
-  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt-BR.md)
+  - [Pesquisa com seguidores de Rick and
+    Morty](src/data/rickandmorty/README.pt-BR.md)
 
 ## 3. Objetivos de aprendizagem
 
@@ -84,7 +85,7 @@ Em outras palavras, você aprenderá a:
   organização e planejamento de seu trabalho.
 * Definir que dados utilizar e de que forma exibí-los em seu produto,
   baseando-se no seu **entendimento do usuário**.
-  * Criar produtos que sigam os **princípios básicos do desenho visual** e as
+* Criar produtos que sigam os **princípios básicos do desenho visual** e as
     **heurísticas de usabilidade**.
 * Iterar o desenho do produto, baseando-se nos resultados dos **testes de
   usabilidade**.
@@ -115,9 +116,9 @@ resolver o problema (ou problemas) de seu usuário.
 ### Histórias de usuário
 
 Uma vez que entenda a necessidade dos usuários, escreva as [Historias de
-Usuario](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio) que representem
-tudo que o usuário precisa fazer/ver. As **histórias de usuário** devem ser o
-resultado de seu processo de investigação/pesquisa de seus usuários.
+Usuario](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio) que
+representem tudo que o usuário precisa fazer/ver. As **histórias de usuário**
+devem ser o resultado de seu processo de investigação/pesquisa de seus usuários.
 
 Não esqueça de incluir a definição de pronto (_definition of done_) e os
 critérios de aceitação para cada uma.
@@ -145,7 +146,7 @@ de dados que escolher.
 
 O protótipo deve apresentar o que seria _ideal_ em sua solução. Digamos que é o
 que desejaria implementar se tivesse tempo ilimitado para hackear. Não se
-esqueça de incluir em seu protótipo os fundamentos de _visual design_. 
+esqueça de incluir em seu protótipo os fundamentos de _visual design_.
 
 #### Testes de usabilidade
 
@@ -443,11 +444,8 @@ compañera:
   MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Fetch API no MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-pt.html)
-  <!-- * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expresión vs
-  sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atómicos vs datos
-  estructurados](https://www.todojs.com/tipos-datos-javascript-es6/) -->
+* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 * [Modulos:
   Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 * [Modulos:
