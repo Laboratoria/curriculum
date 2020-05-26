@@ -85,25 +85,54 @@ El objetivo principal de este proyecto es que aprendas a diseñar y construir un
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
 
-Dicho en palabras sencillas, aprenderás a:
+### HTML y CSS
 
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) y Criterios de Aceptación como herramienta
-  central de la organización y planificación de tu trabajo.
-* Definir la data y la forma de mostrarla en el producto, basándote en
-  el **entendimiento que tienes del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
+* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] Uso de selectores de CSS.
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### DOM y Web APIs
+
+* [ ] Uso de selectores del DOM.
+* [ ] Manejo de eventos del DOM.
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+* [ ] Uso de condicionales (if-else | switch | operador ternario)
+* [ ] Uso de bucles (for | for..in | for..of | while)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [ ] Manipular arrays (filter | map | sort | reduce)
+* [ ] Manipular objects (key | value)
+* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+| [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
+* [ ] Diferenciar entre expression y statements.
+* [ ] Diferenciar entre tipos de datos atómicos y estructurados.
+
+### Testing
+
+* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+
+### Estructura del código y guía de estilo
+
+* [ ] Organizar y dividir el código en módulos (Modularización)
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [ ] Uso de linter (ESLINT)
+
+### Git y GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [ ] Colaboración en Github (branches | pull requests | |tags)
+
+### UX
+
+* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+* [ ] Crear prototipos para obtener feedback e iterar.
+* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+* [ ] Planear y ejecutar tests de usabilidad.
 
 ## 4. Consideraciones generales
 
