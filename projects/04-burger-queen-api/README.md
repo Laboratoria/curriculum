@@ -135,8 +135,8 @@ una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**
 ## 4. Consideraciones generales
 
 Este proyecto se realizará en duos y deberá integrarse con el proyecto
-[Burger Queen API client](link) que desarrolle simultáneamente el quipo
-de Frontend developers de tu squad.
+[Burger Queen API client](https://github.com/Laboratoria/bootcamp/tree/master/projects/04-burger-queen-api-client)
+que desarrolle simultáneamente el equipo de Frontend developers de tu squad.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto está permitido usar librerías o frameworks, asi como
