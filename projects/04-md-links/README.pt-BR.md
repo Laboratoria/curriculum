@@ -92,7 +92,7 @@ A seguir você pode conferir os objetivos de aprendizagem deste projeto:
 
 ### Estrutura do código e guia de estilo
 
-* [ ] Organizar e dividir o código en módulos (Modularização)
+* [ ] Organizar e dividir o código em módulos (Modularização)
 * [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
 * [ ] Uso de linter (ESLINT)
 
