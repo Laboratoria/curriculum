@@ -69,78 +69,74 @@ una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**
 
 ### Node
 
-* [ ] Instalar y usar modules
-* [ ] `npm scripts`
+* [ ] Instalar y usar módulos. ([npm](https://www.npmjs.com/))
+* [ ] [Configuración de package.json.](https://docs.npmjs.com/files/package.json)
+* [ ] [Configuración de npm-scripts](https://docs.npmjs.com/misc/scripts)
+
+### Testing
+
+* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+* [ ] [Testeo asíncrono.](https://jestjs.io/docs/es-ES/asynchronous)
+* [ ] Tests de integración.
+
+### Estructura del código y guía de estilo
+
+* [ ] Organizar y dividir el código en módulos (Modularización)
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [ ] Uso de linter (ESLINT)
+
+### Git y GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [ ] Colaboración en Github (branches | pull requests | |tags)
+* [ ] Organización en Github (projects | issues | labels | milestones)
 
 ### Express
 
-* [ ] Rutas
+* [ ] Rutas.
 * [ ] `middlewares`
 
 ### HTTP
 
-* [ ] Request
-* [ ] Response
-* [ ] Headers
-* [ ] Body
-* [ ] Verbos HTTP
-* [ ] Codigos de status de HTTP
-* [ ] Encodings y `JSON`
-* [ ] CORS
+* [ ] [Request, Response.](https://developer.mozilla.org/es/docs/Web/HTTP/Messages)
+* [ ] Headers.
+* [ ] Body.
+* [ ] [Verbos HTTP.](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+* [ ] [Codigos de status de HTTP.](https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5)
+* [ ] Encodings y `JSON`.
+* [ ] [CORS.](https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS)
 
 ### Autenticación
 
 * [ ] `JWT`
-* [ ] Cómo guardar y validar contraseñas
+* [ ] Almacenamiento y acceso de contraseñas.
 
-### Testing
+### Servidores
 
-* [ ] Tests de integración
-* [ ] Tests unitarios
-
-### Frontend Development
-
-* [ ] Variables de entorno
+* [ ] Variables de entorno.
 * [ ] `SSH`
-* [ ] `SSH` keys
-* [ ] Qué es un VPS
+* [ ] `SSH` keys.
+* [ ] Qué es un VPS.
 
-### MongoDB o MySQL (según corresponda)
+### Base de datos (MongoDB o MySQL)
 
-* [ ] Instalación
-* [ ] Conexión a través de cliente
-* [ ] Connection string
-* [ ] Comandos/Queries de creacion, lectura, modificación y eliminación
+* [ ] Instalación.
+* [ ] Conexión a través de cliente.
+* [ ] Connection string.
+* [ ] Queries y comandos (creación, lectura, actualización, eliminación)
 
 ### Deployment
 
-* [ ] Contenedores
-* [ ] Qué es Docker
-* [ ] Qué es Docker compose
-* [ ] Uso de `docker-compose`
-
-### Colaboración y Organización con Git y Github
-
-* [ ] Forks
-* [ ] Branches
-* [ ] Pull Requests
-* [ ] Tags
-* [ ] Projects
-* [ ] Issues
-* [ ] Labels
-* [ ] Milestones
-
-### Buenas prácticas de desarrollo
-
-* [ ] Modularización
-* [ ] Nomenclatura / Semántica
-* [ ] Linting
+* [ ] Contenedores.
+* [ ] Docker.
+* [ ] Docker compose.
 
 ## 4. Consideraciones generales
 
 Este proyecto se realizará en duos y deberá integrarse con el proyecto
-[Burger Queen API client](link) que desarrolle simultáneamente el quipo
-de Frontend developers de tu squad.
+[Burger Queen API client](https://github.com/Laboratoria/bootcamp/tree/master/projects/04-burger-queen-api-client)
+que desarrolle simultáneamente el equipo de Frontend developers de tu squad.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto está permitido usar librerías o frameworks, asi como

@@ -3,8 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
-const { promisify } = require('util');
-const mkdirp = promisify(require('mkdirp'));
+const mkdirp = require('mkdirp');
 const { repository, version } = require('../package.json');
 
 
@@ -81,19 +80,26 @@ buildItems([
   { type: 'project', id: '01-card-validation', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '02-emergency-room', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '02-movie-challenge', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '03-social-network', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen-api-client', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-bq-node', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
+  { type: 'project', id: '00-trivia', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },
@@ -110,8 +116,6 @@ buildItems([
   { type: 'topic', id: 'html', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'javascript', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'paradigms', locale: 'es-ES', track: 'js' },
-  { type: 'topic', id: 'react', locale: 'es-ES', track: 'js' },
-  { type: 'topic', id: 'redux', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'scm', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'shell', locale: 'es-ES', track: 'js' },
   // JS Topics (portuguese)

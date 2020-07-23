@@ -40,47 +40,59 @@ etc.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
+Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
+como tecnologías.
 
-Dicho en palabras sencillas, aprenderás a:
+### HTML y CSS
 
-* Organizar tu tiempo y priorizar tareas en un entorno de
-  **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  producto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas de HTML y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
-* Utilizar el modelo de cajas de CSS (border, margin, padding).
-* Definir reglas de estilo en CSS.
-* Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda cuando ocurran esos **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
-  **innerHTML** o **textContent**.
-* **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con [Jest](https://jestjs.io/es-ES/)**).
-* Configurar tu cuenta de git.
-* Hacer _fork_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto
-  (commit, pull, push).
-* Desplegar tu proyecto en [GitHub Pages](https://pages.github.com).
+* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] Uso de selectores de CSS.
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+* [ ] Uso de selectores del DOM.
+* [ ] Manejo de eventos del DOM.
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+* [ ] Manipulación de strings.
+* [ ] Uso de condicionales (if-else | switch | operador ternario)
+* [ ] Uso de bucles (for | for..in | for..of | while)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [ ] Declaración correcta de variables (const & let)
+
+### Testing
+
+* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+
+### Estructura del código y guía de estilo
+
+* [ ] Organizar y dividir el código en módulos (Modularización)
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [ ] Uso de linter (ESLINT)
+
+### Git y GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+
+### UX
+
+* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+* [ ] Crear prototipos para obtener feedback e iterar.
+* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
 ## 4. Consideraciones generales
 
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
-  interfaz será desplegada usando [GitHub pages](https://pages.github.com). Si
-  no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
+* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
+  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
+  te preocupes, lo aprenderás durante este proyecto.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -140,9 +152,9 @@ Debe contener lo siguiente:
 
 #### Visualmente (HTML y CSS)
 
-Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
-utilizando HTML y CSS. En este momento elegirás los colores, tipo de fuente,
-etc a usar.
+Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
+de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás
+los colores, tipo de fuente, etc a usar.
 
 A continuación describimos los archivos que utilizarás:
 
@@ -165,8 +177,8 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 #### Funcionalmente (JavaScript - pruebas unitarias)
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript.
-* En este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+* En este proyecto NO está permitido usar librerías o frameworks, sólo JavaScript
+puro también conocido como Vanilla JavaScript.
 * No se debe utilizar la _pseudo-variable_ `this`.
 
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
@@ -230,18 +242,22 @@ mínimo del 50% de _branches_ (ramas).
   [UNIX Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell),
   que es un programita que interpreta líneas de comando (command-line
   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
-  instalado. Si usas un sistema operativo 'UNIX-like', como GNU/Linux o MacOS,
+  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-  también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-  aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-  del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-  darán acceso de lectura en ese repo.
+  también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
+  que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows 10
+  o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
+  [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
+  tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
+  en ese repo. La otra integrante del equipo deber hacer un fork **del
+  repositorio de su compañera** y
+  [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
+  hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-  install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-  incluye [npm](https://docs.npmjs.com/)).
+5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+  asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
   pruebas unitarias (unit tests) con el comando `npm test`.
 7. Para ver la interfaz de tu programa en el navegador, usa el comando
@@ -257,7 +273,25 @@ con detenimiento y sigue sus consejos! :)
 
 [![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
-[https://www.youtube.com/watch?v=f0zL6Ot9y_w](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+
+También una metodología para empezar a desarrollar tareas con JavaScript:
+
+[![Resolución de problemas con JavaScript](http://i3.ytimg.com/vi/lYfEmhLmu7A/hqdefault.jpg)](https://www.youtube.com/watch?v=lYfEmhLmu7A)
+
+[Link](https://www.youtube.com/watch?v=lYfEmhLmu7A)
+
+Terminal y shell de UNIX:
+
+[![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+
+[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+
+Control de versiones y trabajo colaborativo con Git y GitHub:
+
+[![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
+
+[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 
 Diseño de experiencia de usuario (User Experience Design):
 
@@ -273,10 +307,6 @@ Desarrollo Front-end:
 * Control de flujo
 * Tests unitarios
 * [Documentación de NPM](https://docs.npmjs.com/)
-
-Herramientas:
-
-* GitHub y GitHub Pages.
 
 Organización del Trabajo:
 

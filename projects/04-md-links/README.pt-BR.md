@@ -37,7 +37,7 @@ estatísticas.
 
 [Node.js](https://nodejs.org/pt-br/) é um ambiente de execução para JavaScript
 construído com o [motor de JavaScript V8 do
-[Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
+Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
 JavaScript no nosso sistema operacional, seja no seu computador ou em um
 servidor, o que nos abre portas para poder interagir com sistemas, arquivos,
 redes e etc.
@@ -61,39 +61,55 @@ A seguir você pode conferir os objetivos de aprendizagem deste projeto:
 
 ### Javascript
 
-* [ ] Uso de callbacks
-* [ ] Consumo de Promises
-* [ ] Criação de uma Promise
-* [ ] Módulos de JS (CommonJS vs ES Modules)
-* [ ] Recursão
+* [ ] Uso de condicionais (if-else | switch | operador ternario)
+* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+* [ ] Manipular arrays (filter | map | sort | reduce)
+* [ ] Manipular objects (key | value)
+* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+      | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
+* [ ] Diferença entre expression e statements.
+* [ ] Diferença entre tipos de dados atômicos e estruturados.
+* [ ] [Uso de callbacks](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
+* [ ] [Consumo de Promises](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
+* [ ] [Criação de uma Promise](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
 
 ### Node
 
-* [ ] Sistema de arquivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
-* [ ] [package.json](https://docs.npmjs.com/files/package.json)
+* [ ] Uso de sistema de arquivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
+* [ ] Instalar e usar módulos. ([npm](https://www.npmjs.com/))
 * [ ] criação de módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
-* [ ] Instalar e usar módulos ([npm](https://www.npmjs.com/))
-* [ ] [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [ ] CLI (Command Line Interface - Interface de Linha de Comando)
-* [ ] [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback)
+* [ ] [Configuração do package.json.](https://docs.npmjs.com/files/package.json)
+* [ ] [Configuração do npm-scripts](https://docs.npmjs.com/misc/scripts)
+* [ ] Uso de CLI (Command Line Interface - Interface de Linha de Comando)
 
 ### Testing
 
-* [ ] Testar suas funções
-* [ ] Teste assíncrono
-* [ ] Usar biblioteca de mock
-* [ ] Mock manual
-* [ ] Teste para múltiplos sistemas operacionais
+* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+* [ ] [Teste assíncrono.](https://jestjs.io/docs/pt-BR/asynchronous)
+* [ ] [Uso de bibliotecas de Mock.](https://jestjs.io/docs/pt-BR/manual-mocks)
+* [ ] Uso de Mocks manuais.
+* [ ] Teste para múltiplos Sistemas Operativos.
+
+### Estrutura do código e guia de estilo
+
+* [ ] Organizar e dividir o código em módulos (Modularização)
+* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
+* [ ] Uso de linter (ESLINT)
 
 ### Git e Github
 
-* [ ] Organização no Github
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
+* [ ] Colaboração no Github (branches | pull requests | |tags)
+* [ ] Organização no Github (projects | issues | labels | milestones)
 
-### Boas práticas de desenvolvimento
+### HTTP
 
-* [ ] Modularização
-* [ ] Nomenclatura / Semântica
-* [ ] Linting
+* [ ] Verbos HTTP ([http.get](https://nodejs.org/api/http.html#http_http_get_options_callback))
+
+### Fundamentos de programação
+
+* [ ] [Recursão.](https://www.youtube.com/watch?v=lPPgY3HLlhQ)
 
 ***
 
@@ -297,10 +313,9 @@ pelo GitHub. Ver [docs oficiais dp `npm install`
 aqui](https://docs.npmjs.com/cli/install)
 
 Por exemplo, o
-[`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser) que é
+[`course-parser`](https://github.com/Laboratoria/course-parser) que é
 usado para o currículo não está publicado nos registros públicos do NPM, com
-isso temos que instalar diretamente pelo GitHub com o commando `npm install
-Laboratoria/curriculum-parser`.
+isso temos que instalar diretamente pelo GitHub com o commando `npm install Laboratoria/course-parser`.
 
 ### Sugestões de implementação
 

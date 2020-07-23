@@ -28,7 +28,8 @@
       "iframe",
       "pre",
       "key",
-      "value"
+      "value",
+      "img"
     ]
   }
 }
