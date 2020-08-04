@@ -109,7 +109,6 @@ buildItems([
   { type: 'project', id: '06-visual-design', locale: 'es-ES', track: 'ux' },
 
   // JS Topics (spanish)
-  { type: 'topic', id: 'babel', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'browser', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'css', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'functional', locale: 'es-ES', track: 'js' },
