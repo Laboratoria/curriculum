@@ -19,7 +19,6 @@ projects=(
   # '04-burger-queen-api-client'
   '04-md-links'
   # '05-battleship'
-  '05-bq-node'
   # '05-social-network-fw'
   '05-tic-tac-toe-rn'
 )

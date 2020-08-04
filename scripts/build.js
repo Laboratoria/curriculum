@@ -89,7 +89,6 @@ buildItems([
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '05-bq-node', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
