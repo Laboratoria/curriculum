@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const transformEmployeeData = require('../solution/transformEmployeeData');
 
 describe('transformEmployeeData()', () => {
@@ -15,7 +15,7 @@ describe('transformEmployeeData()', () => {
       { a: 1, b: 2, c: true },
       { a: 10, b: 20, c: false },
     ];
-    Assert.deepEqual(transformEmployeeData(array), hasil);
+    assert.deepEqual(transformEmployeeData(array), hasil);
   });
 
   it("debería regresar [{firstName: 'Joe', lastName: 'Blow', age: 42, role: 'clerk'}, {firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager'}], para [[['firstName', 'Joe'], ['lastName', 'Blow'], ['age', 42], ['role', 'clerk']],[['firstName', 'Mary'], ['lastName', 'Jenkins'], ['age', 36], ['role', 'manager']]]", () => {
@@ -35,6 +35,6 @@ describe('transformEmployeeData()', () => {
         firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager',
       },
     ];
-    Assert.deepEqual(transformEmployeeData(array), hasil);
+    assert.deepEqual(transformEmployeeData(array), hasil);
   });
 });

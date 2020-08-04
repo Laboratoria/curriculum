@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const listAllValues = require('../solution/listAllValues');
 
 describe('listAllValues()', () => {
@@ -12,7 +12,7 @@ describe('listAllValues()', () => {
     };
     const hasil = [1, 2, 3, false, false];
 
-    Assert.deepEqual(listAllValues(obj), hasil);
+    assert.deepEqual(listAllValues(obj), hasil);
   });
 
   it("debería regresar ['a', 11, true, 1], para { a: 'a', number: 11, hungry: true, grammyWins: 1 }", () => {
@@ -24,7 +24,7 @@ describe('listAllValues()', () => {
     };
     const hasil = ['a', 11, true, 1];
 
-    Assert.deepEqual(listAllValues(obj), hasil);
+    assert.deepEqual(listAllValues(obj), hasil);
   });
 
   it("debería regresar ['yes'], para { tez: 'yes' }", () => {
@@ -33,6 +33,6 @@ describe('listAllValues()', () => {
     };
     const hasil = ['yes'];
 
-    Assert.deepEqual(listAllValues(obj), hasil);
+    assert.deepEqual(listAllValues(obj), hasil);
   });
 });

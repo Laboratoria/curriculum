@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const addFullNameProperty = require('../solution/addFullNameProperty');
 
 describe('addFullNameProperty()', () => {
@@ -6,9 +6,9 @@ describe('addFullNameProperty()', () => {
     const person = { firstName: 'Kemal', lastName: 'Mahmud' };
     const personWithFullName = addFullNameProperty(person);
 
-    Assert.ok(personWithFullName !== person);
-    Assert.equal(personWithFullName.firstName, 'Kemal');
-    Assert.equal(personWithFullName.lastName, 'Mahmud');
-    Assert.equal(personWithFullName.fullName, 'Kemal Mahmud');
+    assert.ok(personWithFullName !== person);
+    assert.equal(personWithFullName.firstName, 'Kemal');
+    assert.equal(personWithFullName.lastName, 'Mahmud');
+    assert.equal(personWithFullName.fullName, 'Kemal Mahmud');
   });
 });

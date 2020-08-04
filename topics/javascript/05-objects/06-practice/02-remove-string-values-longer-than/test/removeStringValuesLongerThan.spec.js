@@ -1,5 +1,4 @@
-
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const removeStringValuesLongerThan = require('../solution/removeStringValuesLongerThan');
 
 describe('removeStringValuesLongerThan()', () => {
@@ -14,7 +13,7 @@ describe('removeStringValuesLongerThan()', () => {
     const hasil = {
       age: 20,
     };
-    Assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
+    assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
   });
 
   it('Prueba: key-value mayor a 6', () => {
@@ -29,6 +28,6 @@ describe('removeStringValuesLongerThan()', () => {
       age: 20,
       location: 'Texas',
     };
-    Assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
+    assert.deepEqual(removeStringValuesLongerThan(num, obj), hasil);
   });
 });
