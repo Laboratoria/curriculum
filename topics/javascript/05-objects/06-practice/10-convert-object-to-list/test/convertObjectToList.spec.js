@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const convertObjectToList = require('../solution/convertObjectToList');
 
 describe('convertObjectToList()', () => {
@@ -11,7 +11,7 @@ describe('convertObjectToList()', () => {
     };
     const hasil = [['a', 1], ['b', 'c'], ['d', true], ['e', 10]];
 
-    Assert.deepEqual(convertObjectToList(obj), hasil);
+    assert.deepEqual(convertObjectToList(obj), hasil);
   });
 
   it("debería regresar [['name', 'Holly'], ['age', 35], ['role', 'producer']], para { name: 'Holly', age: 35, role: 'producer' }", () => {
@@ -22,6 +22,6 @@ describe('convertObjectToList()', () => {
     };
     const hasil = [['name', 'Holly'], ['age', 35], ['role', 'producer']];
 
-    Assert.deepEqual(convertObjectToList(obj), hasil);
+    assert.deepEqual(convertObjectToList(obj), hasil);
   });
 });

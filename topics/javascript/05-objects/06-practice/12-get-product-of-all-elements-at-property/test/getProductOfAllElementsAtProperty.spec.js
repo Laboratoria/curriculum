@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const getProductOfAllElementsAtProperty = require('../solution/getProductOfAllElementsAtProperty');
 
 describe('getProductOfAllElementsAtProperty()', () => {
@@ -8,7 +8,7 @@ describe('getProductOfAllElementsAtProperty()', () => {
     };
     const output = getProductOfAllElementsAtProperty(obj, 'key');
 
-    Assert.deepEqual(output, 0);
+    assert.deepEqual(output, 0);
   });
 
   it("debería regresar 0, para { key: 'nope' } y 'key'", () => {
@@ -17,7 +17,7 @@ describe('getProductOfAllElementsAtProperty()', () => {
     };
     const output = getProductOfAllElementsAtProperty(obj, 'key');
 
-    Assert.deepEqual(output, 0);
+    assert.deepEqual(output, 0);
   });
 
   it("debería regresar 0, para { key: [] } y 'key'", () => {
@@ -26,7 +26,7 @@ describe('getProductOfAllElementsAtProperty()', () => {
     };
     const output = getProductOfAllElementsAtProperty(obj, 'key');
 
-    Assert.deepEqual(output, 0);
+    assert.deepEqual(output, 0);
   });
 
   it("debería regresar 24, para { key: [1, 2, 3, 4] } y 'key'", () => {
@@ -35,7 +35,7 @@ describe('getProductOfAllElementsAtProperty()', () => {
     };
     const output = getProductOfAllElementsAtProperty(obj, 'key');
 
-    Assert.deepEqual(output, 24);
+    assert.deepEqual(output, 24);
   });
 
   it("debería regresar 60, para { key: [1, 5, 6, 2, 1] } y 'key'", () => {
@@ -44,6 +44,6 @@ describe('getProductOfAllElementsAtProperty()', () => {
     };
     const output = getProductOfAllElementsAtProperty(obj, 'key');
 
-    Assert.deepEqual(output, 60);
+    assert.deepEqual(output, 60);
   });
 });

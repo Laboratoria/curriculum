@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const addObjectProperty = require('../solution/addObjectProperty');
 
 describe('addObjectProperty(obj1, key, obj2)', () => {
@@ -8,6 +8,6 @@ describe('addObjectProperty(obj1, key, obj2)', () => {
 
     addObjectProperty(person1, 'bawahan', person2);
 
-    Assert.deepEqual(person1.bawahan, person2);
+    assert.deepEqual(person1.bawahan, person2);
   });
 });

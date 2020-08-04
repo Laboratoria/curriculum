@@ -9,6 +9,7 @@
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
     "function-paren-newline": ["error", "consistent"],
     "no-confusing-arrow": ["error", { "allowParens": true }],
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0, "maxBOF": 0 }],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
     "import/no-extraneous-dependencies": ["error", {
