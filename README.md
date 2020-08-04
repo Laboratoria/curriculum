@@ -416,7 +416,6 @@ nuevas herramientas como el _Service BluePrint_.
 * [UNIX Shell](topics/shell)
 * [Paradigmas de programación](topics/paradigms)
 * [JavaScript Funcional](topics/functional)
-* [Babel](topics/babel) [DEPRECATED]
 * [Intro a UX Design](topics/intro-ux)
 * [Content Management](topics/content-management)
 * [Interaction Design](topics/interaction-design)
