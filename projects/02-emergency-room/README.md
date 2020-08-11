@@ -1,4 +1,4 @@
-# Sala de Emergencias
+# Proyecto de extensión: Sala de Emergencias
 
 ## Índice
 

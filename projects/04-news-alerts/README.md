@@ -1,4 +1,4 @@
-# News Alerts
+# Proyecto de extensión: News Alerts
 
 ## Índice
 
