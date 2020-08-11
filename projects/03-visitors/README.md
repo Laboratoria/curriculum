@@ -1,4 +1,4 @@
-# Registro de Visitantes
+# Proyecto de extensión: Registro de Visitantes
 
 ## Índice
 
