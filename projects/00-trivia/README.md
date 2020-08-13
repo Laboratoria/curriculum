@@ -48,33 +48,33 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
 tu proyecto.
 Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 
+### HTML y CSS
+
+* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] Uso de selectores de CSS.
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+* [ ] Uso de selectores del DOM.
+* [ ] Manejo de eventos del DOM.
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+
+### JavaScript
+
+* [ ] Manipulación de strings.
+* [ ] Uso de condicionales (if-else | switch | operador ternario)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [ ] Declaración correcta de variables (const & let)
+
+### Estructura del código y guía de estilo
+
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+
 ### UX
 
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [ ] Crear prototipos para obtener _feedback_ e iterar.
-
-### HTML y CSS
-
-* [ ] Entender y reconocer por qué es importante el HTML semántico.
-* [ ] Identificar y entender tipos de selectores en CSS.
-* [ ] Construir tu aplicación respetando el diseño planeado.
-
-### DOM
-
-* [ ] Entender y reconocer los selectores del DOM.
-* [ ] Manejar eventos del DOM.
-* [ ] Manipular dinámicamente el DOM.
-
-### JavaScript
-
-* [ ] Manipular strings.
-* [ ] Entender el uso de condicionales.
-* [ ] Utilizar funciones.
-* [ ] Conocer la diferencia entre los distintos tipos de variable.
-
-### Buenas prácticas de desarrollo
-
-* [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 
 ## 4. Consideraciones generales
 
