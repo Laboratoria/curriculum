@@ -1,0 +1,156 @@
+// This is a mock response from `g-sheets-api` package
+
+module.exports = [
+  { español: 'UX [Diseñar la aplicación pensando y entendiendo al usuario.]' },
+  { español: 'UX [Crear prototipos para obtener feedback e iterar.]' },
+  {
+    español:
+      'UX [Aplicar los principios de diseño visual (contraste, alineación, jerarquía).]',
+  },
+  { español: 'UX [Planear y ejecutar tests de usabilidad.]' },
+  { español: 'HTML, CSS [Uso de HTML semántico.]' },
+  { español: 'HTML, CSS [Uso de selectores de CSS.]' },
+  {
+    español:
+      'HTML, CSS [Construir tu aplicación respetando el diseño realizado (maquetación).]',
+  },
+  { español: 'HTML, CSS [Uso de flexbox en CSS.]' },
+  { español: 'HTML, CSS [Uso de Media Queries.]' },
+  { español: 'HTML, CSS [Sass]' },
+  { español: 'DOM [Uso de selectores del DOM.]' },
+  { español: 'DOM [Manejo de eventos del DOM.]' },
+  {
+    español:
+      'DOM [Manipulación dinámica del DOM (appendChild |createElement | createTextNode| innerHTML | textContent | etc.).]',
+  },
+  { español: 'DOM [History API]' },
+  { español: 'DOM [Localstorage]' },
+  { español: 'Javascript [Manipulación de strings.]' },
+  {
+    español:
+      'Javascript [Uso de condicionales (if-else | switch | operador ternario).]',
+  },
+  { español: 'Javascript [Uso de bucles (for | for..in | for..of | while).]' },
+  {
+    español:
+      'Javascript [Uso de funciones (parámetros | argumentos | valor de retorno).]',
+  },
+  { español: 'Javascript [Declaración correcta de variables (const & let).]' },
+  { español: 'Javascript [Manipular arrays (filter | map | sort | reduce).]' },
+  { español: 'Javascript [Manipular objects (key | value).]' },
+  { español: 'Javascript [Uso de ES Modules (import | export).]' },
+  { español: 'Javascript [Diferenciar entre expression y statements.]' },
+  {
+    español:
+      'Javascript [Diferenciar entre tipos de datos atómicos y estructurados.]',
+  },
+  { español: 'Javascript [Uso de Callbacks]' },
+  { español: 'Javascript [Consumo de Promesas]' },
+  { español: 'Javascript [Creación de Promesas.]' },
+  { español: 'Node [Uso de sistema de archivos.]' },
+  { español: 'Node [Instalar y usar modules.]' },
+  { español: 'Node [Creación de modules.]' },
+  { español: 'Node [Configuración de package.json]' },
+  { español: 'Node [Configuración de npm scripts.]' },
+  {
+    español:
+      'Node [Uso de CLI (Command Line Interface - Interfaz de Línea de Comando)]',
+  },
+  { español: 'Testing [Testeo unitario.]' },
+  { español: 'Testing [Testeo asíncrono.]' },
+  { español: 'Testing [Uso de librerias de Mock.]' },
+  { español: 'Testing [Uso de Mocks manuales.]' },
+  { español: 'Testing [Testeo para múltiples Sistemas Operativos.]' },
+  { español: 'Testing [Test de integración.]' },
+  {
+    español:
+      'Estructura de código [Organizar y dividir el código en módulos (Modularización).]',
+  },
+  {
+    español:
+      'Guia de estilo [Uso de identificadores descriptivos (Nomenclatura | Semántica).]',
+  },
+  { español: 'Guia de estilo [Uso de linter (ESLINT).]' },
+  {
+    español:
+      'Git, GitHub [Uso de comandos de git (add | commit | pull | status | push).]',
+  },
+  {
+    español:
+      'Git, GitHub [Manejo de repositorios de GitHub (clone | fork | gh-pages).]',
+  },
+  {
+    español:
+      'GitHub [Colaboración en Github (branches | pull requests | |tags).]',
+  },
+  {
+    español:
+      'Git, GitHub [Organización en Github (projects | issues | labels | milestones)]',
+  },
+  { español: 'Firebase [Firestore]' },
+  { español: 'Firebase [Firebase Auth]' },
+  { español: 'Firebase [Firebase security rules]' },
+  { español: 'Firebase [Observables]' },
+  { español: 'Front-end Development [Uso de Componentes]' },
+  { español: 'Front-end Development [Manejo del estado]' },
+  { español: 'Express [Rutas]' },
+  { español: 'Express [middlewares]' },
+  { español: 'HTTP [Request, Response]' },
+  { español: 'HTTP [Headers]' },
+  { español: 'HTTP [Body]' },
+  { español: 'HTTP [Verbos HTTP]' },
+  { español: 'HTTP [Códigos de status HTTP]' },
+  { español: 'HTTP [Encodings y JSON]' },
+  { español: 'HTTP [CORS]' },
+  { español: 'Autenticación [JWT]' },
+  { español: 'Autenticación [Almacenamiento y acceso de contraseñas]' },
+  { español: 'Servidores [Variables de entorno]' },
+  { español: 'Servidores [SSH]' },
+  { español: 'Servidores [SSH Keys]' },
+  { español: 'Servidores [VPS]' },
+  { español: 'Base de datos [Instalación]' },
+  { español: 'Base de datos [Conexión a través de cliente]' },
+  { español: 'Base de datos [Connection String]' },
+  { español: 'Base de datos [Queries y comandos]' },
+  { español: 'Deployment [Contenedores]' },
+  { español: 'Deployment [Docker]' },
+  { español: 'Deployment [Docker compose]' },
+  { español: 'Angular [Components y templates]' },
+  { español: 'Angular [Directivas estructurales ngIf/ngFor]' },
+  { español: 'Angular [@input / @output]' },
+  { español: 'Angular [Creación y uso de servicios]' },
+  { español: 'Angular [Manejo de Rutas]' },
+  { español: 'Angular [Uso de Observables]' },
+  { español: 'Angular [Uso de HttpClient]' },
+  { español: 'Angular [Estilo de componentes ngStyle/ngClass]' },
+  { español: 'React [JSX]' },
+  { español: 'React [Componentes class y componentes function]' },
+  { español: 'React [props]' },
+  { español: 'React [Eventos en React]' },
+  { español: 'React [Listas y keys]' },
+  { español: 'React [Renderizado condicional]' },
+  { español: 'React [Elevación de estado]' },
+  { español: 'React [hooks]' },
+  { español: 'React [CSS modules]' },
+  { español: 'React [react-router] ' },
+  { español: 'Vue [Instancia de Vue.js]' },
+  { español: 'Vue [Datos y métodos]' },
+  { español: 'Vue [Uso y creación de Componentes]' },
+  { español: 'Vue [Props]' },
+  { español: 'Vue [Directivas v-bind y v-model]' },
+  { español: 'Vue [Renderizado condicional v-if y v-else]' },
+  { español: 'Vue [Iteraciones v-for]' },
+  { español: 'Vue [Eventos v-on]' },
+  { español: 'Vue [Propiedades computadas y observadores]' },
+  { español: 'Vue [Router]' },
+  { español: 'Vue [Clases y estilos]' },
+  { español: 'Fundamentos [Recursión]' },
+  { español: 'Fundamentos [Asignación por valor y por referencia]' },
+  { español: 'Fundamentos [Expresión / sentencia]' },
+  { español: 'Fundamentos [Hoisting (énfasis es declaración de funciones)]' },
+  { español: 'Fundamentos [Declaración vs ejecución de una función]' },
+  { español: 'Fundamentos [Objetos literales]' },
+  { español: 'Fundamentos [Call-stack en JavaScript]' },
+  { español: 'Fundamentos [Timeouts]' },
+  { español: 'Fundamentos [Variables (valores) y ámbito]' },
+];
