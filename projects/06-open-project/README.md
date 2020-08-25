@@ -47,7 +47,7 @@ en que te tome 2 a 3 semanas como máximo.
 Por la naturaleza de este proyecto, los objetivos los tendrás que definir tú
 misma. Algunas sugerencias:
 
-- Reforzar algunas habilidades técnicas adquiridas durante el BC.
+- [Reforzar algunas habilidades técnicas adquiridas durante el BC](../learning-objectives.md).
 - Profundizar en alguna(s) de las habilidades adquiridas para ser mucho más
 competente en ella(s), piensa en la idea de las [habilidades en forma de “T”](https://www.google.com/search?q=habilidades+en+forma+de+t).
 
