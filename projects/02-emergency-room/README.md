@@ -49,7 +49,7 @@ en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elecc
 
 ### Generales
 
-1. Aplicar y profundizar todo lo que ya aprendiste.
+1. [Aplicar y profundizar todo lo que ya aprendiste](../learning-objectives.md).
 2. Pensar en las necesidades de las personas para crear tus "Historias de Usuario".
 3. Escribir y trabajar con historias de usuario, sus definiciones de terminado
 (_definition of done_) y criterios de aceptación como herramienta central de la
