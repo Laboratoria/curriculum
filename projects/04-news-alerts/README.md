@@ -78,7 +78,7 @@ personas en el equipo, te permita terminar el proyecto en 3 semanas.
 
 ## 4. Objetivos de aprendizaje
 
-- [Poner en práctica todo lo aprendido hasta ahora](../learning-objectives.md).
+- [Poner en práctica todo lo aprendido hasta ahora](https://github.com/Laboratoria/bootcamp/blob/master/projects/learning-objectives.md).
 - Diseñar y _testear_ un producto antes de desarrollarlo.
 - Obtener datos de una fuente viva como lo es un sitio web usando alguna técnica
 de [_web scrapping_](https://es.wikipedia.org/wiki/Web_scraping).
