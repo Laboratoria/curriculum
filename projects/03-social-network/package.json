@@ -18,19 +18,21 @@
     "start": "serve src/"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.1.2",
-    "htmlhint": "^0.11.0",
-    "jest": "^24.8.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "htmlhint": "^0.14.0",
+    "jest": "^26.4.2",
     "regenerator-runtime": "^0.13.1",
     "serve": "^11.0.2",
-    "stylelint": "^10.1.0",
-    "stylelint-config-recommended": "^2.2.0"
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=10"
   }
 }
