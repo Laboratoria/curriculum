@@ -59,8 +59,8 @@ personas en el equipo, permita terminar el proyecto en 2 semanas.
 
 ## 4. Objetivos de aprendizaje
 
+- [Poner en práctica todo lo aprendido hasta ahora](https://github.com/Laboratoria/bootcamp/blob/master/projects/learning-objectives.md).
 - Diseñar y testear un producto antes de desarrollarlo.
-- Poner en práctica todo lo aprendido hasta ahora.
 - Obtener datos desde un servicio externo como OMDB usando _Fetch_.
 - Entender la idea de aleatoriedad aplicada a algoritmos.
 
