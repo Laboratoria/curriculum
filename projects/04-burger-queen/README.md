@@ -256,7 +256,7 @@ repositorio.
 
 ### Definición del producto
 
-El [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
+El [_Product Owner_](https://youtu.be/r2hU7MVIzxs) nos
 presenta este _backlog_ que es el resultado de su trabajo con el cliente hasta
 hoy.
 
