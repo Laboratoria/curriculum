@@ -5,31 +5,32 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del Proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones Generales](#4-consideraciones-generales)
-* [5. Hacker Edition](#5-hacker-edition)
-* [6. Pistas & Tips](#6-pistas--tips)
+* [4. Consideraciones](#4-consideraciones)
+* [5. Criterios de aceptación del proyecto](#5-Criterios-de-aceptación-del-proyecto)
+* [Hacker Edition](#hacker-edition)
+* [ Pistas / Tips](#Pistas-/-Tips)
 
 ***
 
 ## 1. Preámbulo
-
+Hoy en día no es práctico imaginar el desarrollo web sin HTML, CSS y JavaScript, esta última es el alma del desarrollo Frontend de aplicaciones web.
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
-son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
+son algunos de los _Frameworks_ y _Librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
 es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Al elegir un _framework_ o _librería_ para nuestra interfaz, nos apoyamos en una
+Al elegir un _Framework_ o _Librería_ para nuestra interfaz, nos apoyamos en una
 serie de convenciones e implementaciones _probadas_ y _documentadas_ para
 resolver un problema común a toda interfaz web. Esto nos permite concentrarnos
-mejor (dedicar más tiempo) en las caractrísticas _específicas_ de
+mejor (dedicar más tiempo) en las características _específicas_ de
 nuestra aplicación.
 
 Cuando elegimos una de estas tecnologías no solo importamos un pedacito de
-código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
+código para reusarlo (lo cual es un gran valor per se), si no que adoptamos una
 **arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
-**abstracciones**, un **vocabulario**, una **comunidad**, etc...
+**abstracciones**, un **vocabulario**, una **comunidad**, etc.
 
-Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte
+Como desarrolladora Frontend, estos kits de desarrollo pueden resultarte
 de gran ayuda para implementar rápidamente características de los proyectos en
 los que trabajes.
 
@@ -38,25 +39,22 @@ los que trabajes.
 No existe día que no tomemos notas, siempre necesitamos apuntar alguna
 dirección, número telefónico, notas de alguna reunión o guardar nuestras URLs
 favoritas para poder consultarlas más tarde. Muchas veces para esta actividad
-utilizamos libretas o agendas que terminan siendo olvidadas, las anotamos en
-algún mensaje de texto o terminan siendo escritas en la palma de nuestra mano.
+utilizamos libretas o agendas que terminan siendo olvidadas, o anotamos de manera dispersa de tal manera que perdemos de vista la prioridad y el propósito de la nota lo cual da como resultado una nota perdida.
 
-Hoy en día la mayoría de la población cuenta con algún dispositivo mobile o
-laptop y además todas nos estamos preocupando por implementar acciones para
-salvar el medio ambiente, por ello a una Laboratorian se le ocurre la idea de
-implementar una web app para tomar notas, que nos permita crear, editar,
+Hoy en día las personas contamos con algún dispositivo móvil o
+laptop y además nos estamos preocupando por implementar acciones para
+salvar el medio ambiente, además el uso de notas en el trabajo remoto se vuelve indispensable para aquello que debemos apuntar en el día con día, por ello a una Laboratorian se le ocurre la idea de
+tener una herramienta en una web app para tomar notas, que nos permita crear, editar,
 eliminar y consultar las notas en cualquier momento.
 
-Ella esta enamorada de la idea y quiere llevarla acabo, pero no tiene el tiempo
+Ella está enamorada de la idea y quiere llevarla a cabo, pero no tiene el tiempo
 necesario para empezar el proyecto, planea que sea un proyecto independiente a
-su trabajo, por ello esta buscando algunas colaboradoras dentro de la comunidad
-de Laboratoria para que implementen la idea, por lo cual te pedimos que la
-ayudes.
+su trabajo, por ello está buscando algunas colaboradoras dentro de la comunidad
+de Laboratoria para desarrollar la idea, por lo cual te invitamos a colaborar.
 
 ![Shows CRUD functionalities](https://raw.githubusercontent.com/florenciasilva/lab-notes/master/demo-crud.gif?token=AGJBHNTVAQRWOVF2IGMP6FK5NVFAS)
 
-Para este proyecto necesitas crear una Web App con `React`, `Firebase` y
-`react-router`.
+Para este proyecto necesitas crear una Web App con  `algún Framework de JavaScript` y `Firebase`.
 
 Si bien la temática es libre, tu aplicación tendrá que tener ciertas
 funcionalidades básicas:
@@ -64,67 +62,108 @@ funcionalidades básicas:
 * Autenticación con correo y/o Google y/o Facebook.
 * Cerrar sesión.
 * Crear una nueva nota.
-* Ver mis notas.
+* Cada usuarix deberá ver sus propias notas.
 * Editar mis notas.
-* Borrar mis enotas.
+* Borrar mis notas.
 
 Para este proyecto tendrás que manejar `vistas`. Esto significa que cada sección
 tendrá su propia URL, la cual indica que `vista` o `componente` será mostrado en
-pantalla. Para ello necesitaremos investigar acerca de `react-router` y el
-concepto de `Single Page Application`.
+pantalla. Para ello necesitaremos investigar acerca de `Router o Los módulos del sistema de rutas (en el Framework que tu elijas) ` y el
+concepto de `Single Page Application` además deberás seguir las recomendaciones para `PWAs (Progressive Web Apps)`.
 
 ### Archivos del proyecto
 
 El proyecto deberá contener los siguientes archivos base de configuración,
 aunque no serán los únicos archivos que quizás tendrás que crear.
 
-* `README.md` es donde se encontrará la descripción del proyecto y cosas
+* `README.md` es donde se encontrará la descripción del proyecto y elementos
   relevantes de tu proyecto.
-* `.editorconfig` este archivo contiene la configuración para editores de texto.
-* `.gitignore`  este archivo contiene reglas para ignorar `node_modules` u otras
+
+* `.gitignore`  este archivo contiene reglas para ignorar `/node_modules` u otras
   carpetas que no deban incluirse en control de versiones (`git`).
-* `.prettierrc` este archivo contiene reglas para formatear el codigo, el cual
-  aplica estilos consistentes apartir de tus reglas.
+* `.eslintrc` este archivo contiene reglas para formatear el código además de ser una buena practica tener configurado un Linting.
 
-## 3. Objetivos de Aprendizaje
+## 3. Objetivo de Aprendizaje
 
-El objetivo principal de este proyecto es aprender a construir una interfaz web
-usando el _framework_ elegido (en este caso vamos a preferir usar React). Este
-framework resuelve el problema de: **cómo mantener la interfaz y el estado
-sincronizados**. Así que esta experiencia espera familiarizarte con el concepto
-de _estado de pantalla_, y cómo cada cambio sobre el estado se va a ir
-reflejando en la interfaz (por ejemplo, cada vez que agregamos una _nota_, la
+El objetivo principal de es aprender a construir una _interfaz web_ usando
+   el _Framework_ elegido. Todos estos Frameworks de
+   Frontend atacan el mismo problema: **cómo mantener la interfaz y el estado
+   sincronizados**. Así que esta experiencia espera familiarizarte con el concepto
+   de _estado de pantalla_, y cómo cada cambio sobre el estado se va a
+   ir reflejando en la interfaz o DOM (por ejemplo, cada vez que agregamos un _producto_
+   a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
+(por ejemplo, cada vez que agregamos una _nota_, la
 interfaz debe actualizar la lista de notas).
 
+![Framewoks-img](https://miro.medium.com/max/700/1*paPkmhDhXifPg-64om52og.jpeg)
+
+### HTML y CSS
+
+- [ ] HTML semántico
+- [ ] CSS flexbox
+- [ ] Sass
+- [ ] Maquetación
+
+### Frontend Development
+
+- [ ] Componentes
+- [ ] Manejo del estado
 ### React
 
 * [ ] ¿Qué es React?
+* [ ] Virtual DOM
 * [ ] ReactDOM rendering
-* [ ] ¿Qué es un componente de React?
-* [ ] JSX
+* [ ] [`¿Qué es un componente de React?`](https://es.reactjs.org/docs/components-and-props.html)
+* [ ] [`JSX`](https://es.reactjs.org/docs/introducing-jsx.html)
 * [ ] Props
-* [ ] Renderizado condicional
-* [ ] Manejo de estado (ej: `this.state`, `useState`, `redux`, ...)
-* [ ] Manejo de eventos
+* [ ] Renderizado condicional (?)
+* [ ] State(ej: `this.state`, `useState`,`context`, `redux`, ...)
+* [ ] [`Manejo de eventos`](https://es.reactjs.org/docs/handling-events.html)
 * [ ] Refs
-* [ ] Component Lifecycle
+* [ ] [`Component Lifecycle`](https://es.reactjs.org/docs/hooks-effect.html)
+* [ ] [`React Router`](https://reacttraining.com/react-router/web)
 
-### `react-router`
+### Angular
 
-* [ ] Route Config
-* [ ] Links
-* [ ] Parámetros de URL
-* [ ] Navegación programatica
-* [ ] Rutas protegidas
-* [ ] Redirect
+- [ ] [`Uso de Components | Templates`](https://angular.io/guide/architecture-components#introduction-to-components)
+- [ ] [`Directivas estructurales (ngIf / ngFor)`](https://angular.io/guide/template-syntax#built-in-structural-directives)
+- [ ] [`@Input | @Ouput`](https://angular.io/guide/component-interaction#component-interaction)
+- [ ] [`Creación y uso de servicios`](https://angular.io/guide/architecture-services#providing-services)
+- [ ] [`Manejos de rutas`](https://angular.io/guide/router)
+- [ ] [`Uso de Observables`](https://angular.io/guide/observables-in-angular)
+- [ ] [`Uso de HttpClient`](https://angular.io/guide/http)
+- [ ] [`Estilos de componentes (ngStyle / ngClass)`](https://angular.io/guide/template-syntax#built-in-directives)
+
+### Vue
+
+- [ ] [`Instancia de Vue.js`](https://es.vuejs.org/v2/guide/instance.html)
+- [ ] [`Datos y métodos`](https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos)
+- [ ] [`Uso y creación de Componentes`](https://vuejs.org/v2/guide/components.html)
+- [ ] [`Props`](https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props)
+- [ ] Directivas ([v-bind](https://es.vuejs.org/v2/api/#v-bind) | [v-model](https://es.vuejs.org/v2/guide/forms.html))
+- [ ] Renderizado condicional ([v-if](https://es.vuejs.org/v2/guide/conditional.html#v-if) | [v-else](https://es.vuejs.org/v2/guide/conditional.html#v-else))
+- [ ] Iteraciones ([v-for](https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for))
+- [ ] Eventos ([v-on](https://es.vuejs.org/v2/guide/events.html))
+- [ ] [`Propiedades Computadas y Observadores`](https://es.vuejs.org/v2/guide/computed.html)
+- [ ] [`Router`](https://router.vuejs.org/guide/#html)
+- [ ] [`Clases y Estilos`](https://es.vuejs.org/v2/guide/class-and-style.html)
+- [ ] [`Gestión de Estado`](https://es.vuejs.org/v2/guide/state-management.html#Gestion-de-estado-simple-desde-cero)
 
 ### Firebase
 
-* [ ] Firestore
-* [ ] Firebase Auth
-* [ ] Firebase security rules
-* [ ] Uso de onSnapshot
-* [ ] onAuthStateChanged
+* [ ] [`Firestore`](https://firebase.google.com/docs/firestore?hl=es)
+* [ ] [`Firebase Auth`](https://firebase.google.com/docs/auth?hl=es)
+* [ ] [`Firebase security rules`](https://firebase.google.com/docs/firestore/security/get-started)
+* [ ] [`onSnapshot`](https://firebase.google.com/docs/firestore/query-data/listen)
+* [ ] [`onAuthStateChanged`](https://firebase.google.com/docs/auth/web/manage-users?hl=es)
+
+
+### Testing
+
+- [ ] Testeo de tus interfaces
+- [ ] Testeo de componentes
+- [ ] Testeo asíncrono
+- [ ] Mocking
 
 ### Buenas prácticas de desarrollo
 
@@ -132,28 +171,65 @@ interfaz debe actualizar la lista de notas).
 * [ ] Nomenclatura / Semántica
 * [ ] Linting
 
-## 4. Consideraciones Generales
+## 4. Consideraciones
 
-Este proyecto se debe "resolver" de forma individual.
+- Este proyecto se debe "resolver" de forma individual.
 
-Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
-hasta la historia que puedas en el tiempo especificado.
+- La duración propuesta del proyecto es 4 sprints, con una duración de una semana cada uno.
 
-La aplicación debe ser un _Single Page App_. Las notas serán realizadas desde
-una _tablet_, pero **no queremos una app nativa**, sino una web app que sea
+- Trabaja en una historia hasta terminarla antes de pasar a la siguiente.
+
+
+- La aplicación debe ser un _Single Page App_. Las notas serán realizadas desde
+una _tablet_, pero **no debe ser una app nativa**, sino una web app que sea
 **responsive** y pueda funcionar **offline**.
 
-Necesitamos pensar bien en el aspecto UX de quienes van a tomar las notas, el
+- Necesitamos pensar bien en el aspecto UX (podría adaptarse al contexto remoto) de quienes van a tomar las notas, el
 tamaño y aspecto de los botones, la visibilidad del estado actual del pedido,
 etc.
 
-La aplicación debe hacer uso de npm-scripts y contar con scripts `start`,
-`test`, `build` y `deploy`, que se encarguen de arrancar, correr las pruebas,
-empaquetar y desplegar la aplicación respectivamente.
+- Implementar pruebas unitarias de tus componentes.
 
-Implementar pruebas unitarias de tus componentes.
 
-## 5. Hacker Edition
+
+
+## 5. Criterios de aceptación del proyecto
+
+### Definición del producto
+
+La [_Product Owner_](https://youtu.be/r2hU7MVIzxs) nos presenta este _backlog_ que es el resultado de su trabajo colaborativo.
+
+---
+
+#### [Historia de usuario 1] Usuaria/o debe poder tomar nota
+
+Yo como usuaria quiero tomar nota para no depender de mi mala
+memoria y tener presente en todo momento los apuntes ó cosas importantes que antes escribía en papel.
+
+##### Criterios de aceptación
+
+Lo que debe ocurrir para que se satisfagan las necesidades del usuario
+
+- Anotar un título a mi nota
+- Agregar el contenido de mi nota.
+- Ver todas mis notas.
+- Ver la última modificación de la nota.
+- Modificar las notas.
+- Eliminar notas.
+- Se ve y funciona bien en una _Tablet_
+
+##### Definición de terminado
+
+Lo acordado que debe ocurrir para decir que la historia está terminada.
+
+- Debes haber recibido _code review_ de al menos una compañera.
+- Haces _test_ unitarios y, además, has testeado tu producto manualmente.
+- Desplegaste tu aplicación y has etiquetado tu versión ([`git tag`](https://youtu.be/5DkX3HFgklM) ).
+
+---
+
+
+## Hacker Edition
 
 Una vez que hayas terminado las funcionalidades base del proyecto, puedes
 pasarte a esta sección.
@@ -163,41 +239,52 @@ pasarte a esta sección.
   estaba.
 * Subir imágenes.
 * Ver el número de veces que he editado mi nota.
-* Consumo de API/s (Google Maps, Spotify, Pinterest, etc).
+* Consumo de API/s (Google Maps, Spotify, Pinterest, etc.)
 * Progressive Web App (PWA).
+* Puedes crear categorías y clasificar por tipo de nota.
+* Guardar el color de la nota.
+* Crear una nota como publica.
 
-## 6. Pistas & Tips
 
-### Primeros pasos
 
-Al usar `create-react-app` en el directorio del proyecto recibirás un
-error diciendo que hay archivos que podrían presentar un conflicto. Para evitar
-este problema puedes crear una nueva app usando `create-react-app` y de ahí
-_mezclarla_ con la carpeta del proyecto:
+## Pistas / Tips
 
-```sh
-# si estabase en la carpeta del proyecto, salimos a la carpeta de más arriba
-cd ..
+### Frameworks / libraries
 
-# Creamos app con create-react-app en dir temporal
-create-react-app lab-notes-tmp
-# Borramos README de create-react-app
-rm lab-notes-tmp/README.md
-# Copiamos archivos de create-react-app en repo de lab-notes
-cp -r lab-notes-tmp/.gitignore lab-notes-tmp/* lab-notes/
-# Borramos carpeta temporal donde instalamos reate-react-app
-rm -rf lab-notes-tmp
-# Entramos en repo de lab-notes ya con instalación de create-react-app
-cd lab-notes
-```
+- [React](https://reactjs.org/)
+- [Angular](https://angular.io/)
+- [Vue](https://es.vuejs.org/index.html)
+
+### Herramientas
+
+- [npm-scripts](https://docs.npmjs.com/misc/scripts)
+- [Babel](https://babeljs.io/)
+- [webpack](https://webpack.js.org/)
+
+### PWA
+
+- [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
+- [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
+- [offlinefirst.org](http://offlinefirst.org/)
+- [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+- [Cómo habilitar datos sin conexión - Firebase Docs](https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419)
+
+### Serverless
+
+- [Qué es eso de serverless? - @PamRucinque en Medium](https://medium.com/@PamRucinque/qu%C3%A9-es-eso-de-serverless-f4f6c8949b87)
+- [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
+- [Firebase](https://firebase.google.com/)
+- [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
+
+### Cloud functions
+
+- [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)
 
 ### Otros recursos
+- [Angular vs React vs Vue](https://medium.com/somoswigou/angular-vs-react-vs-vue-cual-es-la-mejor-opción-941a207951c7)
+- [create-react-app](https://create-react-app.dev/docs/getting-started)
+- [npm-scripts](https://docs.npmjs.com/misc/scripts)
+- [deploy con gh-pages](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 
-* [Reactjs](https://reactjs.org/)
-* [create-react-app](https://create-react-app.dev/docs/getting-started)
-* [react-router](https://reacttraining.com/react-router/web/guides/quick-start)
-* [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [deploy con gh-pages](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
-* [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
-* [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
-* [What is a Single Page Application](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
+- [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+- [What is a Single Page Application](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
