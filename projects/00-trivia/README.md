@@ -169,9 +169,9 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
   condiciones, algo como [Atom](https://atom.io/) o
-  [Code](https://code.visualstudio.com/).
+  [Visual Studio Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-  [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+  [UNIX Shell](https://es.wikipedia.org/wiki/Shell_de_Unix),
   que es un programita que interpreta líneas de comando (command-line
   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
@@ -208,5 +208,5 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 
 * [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
+* [Scrum en Detalle](https://youtu.be/nOlwF3HRrAY). No
   esperamos que hagas todo eso desde este proyecto.
