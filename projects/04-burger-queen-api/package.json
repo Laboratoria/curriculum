@@ -17,7 +17,7 @@
     "docs:deploy": "rm -rf docs && npm run docs:generate && gh-pages -d docs"
   },
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "body-parser": "1.19.0",
     "express": "4.17.1",
     "jsonwebtoken": "8.5.1"
