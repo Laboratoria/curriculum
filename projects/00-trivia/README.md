@@ -62,10 +62,11 @@ Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
 
 ### JavaScript
 
-* [ ] Manipulación de strings.
+* [ ] Tipos de datos.
+* [ ] Declaración correcta de variables (const & let)
+* [ ] Concatenación de strings.
 * [ ] Uso de condicionales (if-else | switch | operador ternario)
 * [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
 
 ### Estructura del código y guía de estilo
 
