@@ -514,6 +514,7 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://gabrieluizramos.com.br/"><img src="https://avatars0.githubusercontent.com/u/13336905?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Ramos</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Agabrieluizramos" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/raulingg"><img src="https://avatars1.githubusercontent.com/u/9435850?v=4" width="100px;" alt=""/><br /><sub><b>Raul Robinson Quispe Mendez</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Araulingg" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/reloadercf"><img src="https://avatars1.githubusercontent.com/u/6140157?v=4" width="100px;" alt=""/><br /><sub><b>Carlos</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/issues?q=author%3Areloadercf" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/paclaraujo"><img src="https://avatars2.githubusercontent.com/u/39506102?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Araujo</b></sub></a><br /><a href="#translation-paclaraujo" title="Translation">🌍</a></td>
   </tr>
 </table>
 
