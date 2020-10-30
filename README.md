@@ -511,6 +511,7 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/moniyama"><img src="https://avatars1.githubusercontent.com/u/52083679?v=4" width="100px;" alt=""/><br /><sub><b>Monica Yamazaki</b></sub></a><br /><a href="#translation-moniyama" title="Translation">🌍</a> <a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Amoniyama" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://gabrieluizramos.com.br/"><img src="https://avatars0.githubusercontent.com/u/13336905?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Ramos</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Agabrieluizramos" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
