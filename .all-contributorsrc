@@ -634,6 +634,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "vdemario",
+      "name": "Vitor De Mario",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6087424?v=4",
+      "profile": "https://github.com/vdemario",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
