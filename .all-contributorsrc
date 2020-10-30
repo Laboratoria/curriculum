@@ -625,6 +625,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "paclaraujo",
+      "name": "Paloma Araujo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/39506102?v=4",
+      "profile": "https://github.com/paclaraujo",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
