@@ -16,21 +16,18 @@
 
 ## 1. Preámbulo
 
-El juego _Memory Match_, también conocido como _Concentration_, _Match Match_,
-_Match Up_, _Memory_, entre otros, es un juego de cartas en el que todas las
-cartas se ponen cara abajo sobre una superficie y se le dan la vuelta a dos
-cartas en cada turno. El objetivo del juego es destapar parejas de cartas que
-coincidan.
+El juego [_Memory Match_](https://en.wikipedia.org/wiki/Concentration_(card_game)),
+también conocido como _Concentration_, _Match Match_, _Match Up_, _Memory_,
+entre otros, es un juego de cartas en el que todas las cartas se ponen cara
+abajo sobre una superficie y se le dan la vuelta a dos cartas en cada turno. El
+objetivo del juego es destapar parejas de cartas que coincidan.
 
 ![Concentration (card game)](https://upload.wikimedia.org/wikipedia/commons/4/4d/WMCZ_Protected_Areas_Card_Game-7_%28cropped%29.jpg)
 
-https://en.wikipedia.org/wiki/Concentration_(card_game)
-
 Ejemplos:
 
-* https://lupomontero.github.io/memory-match/
-* https://santatracker.google.com/matching.html
-* https://matchthememory.com/play
+* [Santa Tracker de Google](https://santatracker.google.com/matching.html)
+* [Match The Memory](https://matchthememory.com/play)
 
 ## 2. Resumen del proyecto
 
