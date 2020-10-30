@@ -1,5 +1,5 @@
 {
-  "projectName": "curricula-js",
+  "projectName": "bootcamp",
   "projectOwner": "Laboratoria",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -579,7 +579,17 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "luucamay",
+      "name": "Lupe CaMay",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15850514?v=4",
+      "profile": "http://laboratoria.la",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
