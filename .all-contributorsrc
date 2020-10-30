@@ -588,6 +588,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "moniyama",
+      "name": "Monica Yamazaki",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52083679?v=4",
+      "profile": "https://github.com/moniyama",
+      "contributions": [
+        "translation",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
