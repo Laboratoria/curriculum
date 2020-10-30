@@ -515,6 +515,7 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://github.com/raulingg"><img src="https://avatars1.githubusercontent.com/u/9435850?v=4" width="100px;" alt=""/><br /><sub><b>Raul Robinson Quispe Mendez</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Araulingg" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/reloadercf"><img src="https://avatars1.githubusercontent.com/u/6140157?v=4" width="100px;" alt=""/><br /><sub><b>Carlos</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/issues?q=author%3Areloadercf" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/paclaraujo"><img src="https://avatars2.githubusercontent.com/u/39506102?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Araujo</b></sub></a><br /><a href="#translation-paclaraujo" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/vdemario"><img src="https://avatars1.githubusercontent.com/u/6087424?v=4" width="100px;" alt=""/><br /><sub><b>Vitor De Mario</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Avdemario" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
