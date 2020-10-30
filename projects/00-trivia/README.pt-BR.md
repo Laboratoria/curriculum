@@ -63,10 +63,11 @@ equipe.
 
 ### JavaScript
 
-* [ ] Manipulação de strings.
+* [ ] Tipos de Dados
+* [ ] Declaração correta de variáveis (const & let)
+* [ ] Concatenação de strings
 * [ ] Uso de condicionais (if-else | switch | operador ternario)
 * [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Declaração correta de variáveis (const & let)
 
 ### Estrutura de código e guia de estilo
 
