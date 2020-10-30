@@ -509,6 +509,9 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://github.com/carlosroec"><img src="https://avatars0.githubusercontent.com/u/1981518?v=4" width="100px;" alt=""/><br /><sub><b>Carlos G. Rodriguez</b></sub></a><br /><a href="#maintenance-carlosroec" title="Maintenance">🚧</a></td>
     <td align="center"><a href="http://laboratoria.la"><img src="https://avatars0.githubusercontent.com/u/15850514?v=4" width="100px;" alt=""/><br /><sub><b>Lupe CaMay</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/issues?q=author%3Aluucamay" title="Bug reports">🐛</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/moniyama"><img src="https://avatars1.githubusercontent.com/u/52083679?v=4" width="100px;" alt=""/><br /><sub><b>Monica Yamazaki</b></sub></a><br /><a href="#translation-moniyama" title="Translation">🌍</a> <a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Amoniyama" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
