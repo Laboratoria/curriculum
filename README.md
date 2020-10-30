@@ -1,7 +1,7 @@
 # Bootcamp @Laboratoria
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors)
-[![Build Status](https://travis-ci.org/Laboratoria/bootcamp.svg?branch=master)](https://travis-ci.org/Laboratoria/bootcamp)
+![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
 ## Introducción
 
