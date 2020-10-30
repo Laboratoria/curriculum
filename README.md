@@ -1,6 +1,8 @@
 # Bootcamp @Laboratoria
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contribuciones)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
 ## Introducción

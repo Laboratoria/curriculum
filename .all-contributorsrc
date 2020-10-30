@@ -8,6 +8,9 @@
   ],
   "imageSize": 100,
   "commit": true,
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contribuciones)",
   "contributors": [
     {
       "login": "lupomontero",
@@ -644,7 +647,5 @@
         "review"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "skipCi": true
+  ]
 }
