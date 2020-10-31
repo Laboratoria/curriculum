@@ -13,11 +13,15 @@ projects=(
   '01-card-validation'
   '01-cipher'
   '02-data-lovers'
+  '02-emergency-room'
+  # '02-movie-challenge'
   '03-social-network'
+  # '03-visitors'
   '04-burger-queen'
   # '04-burger-queen-api'
   # '04-burger-queen-api-client'
   '04-md-links'
+  # '04-news-alerts'
   # '05-battleship'
   # '05-social-network-fw'
   '05-tic-tac-toe-rn'
@@ -74,7 +78,7 @@ for project in ${projects[@]}; do
     echo "Creating pull request..."
     git checkout -b "curriculum-update-${hash}"
     git add .
-    git commit -m "chore(house-keeping): Updates files with latests version from curriculum repo"
+    git commit -m "chore(house-keeping): Updates to latest version from curriculum repo"
     git push origin "curriculum-update-${hash}"
   fi
 done
