@@ -222,7 +222,14 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── README.md
 └── src
-    ├── data.js
+    ├── data
+    │   ├── pokemon
+    │   │   ├── pokemon.js
+    │   │   └── pokemon.json
+    │   ├── README.md
+    │   └── webdev
+    │       ├── webdev.js
+    │       └── webdev.json
     ├── index.html
     ├── main.js
     └── style.css
@@ -246,9 +253,15 @@ manejadores de eventos (_event listeners_ o _event handlers_), ....
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
-### `src/data.js`
+### `src/data`
 
-:warning: :construction_worker:
+En esta carpeta hay data con sets de cartas de ejemplo que puedes usar en tu
+aplicación, así como información sobre cómo agregar tus propios sets.
+Encontrarás una carpeta por cada set, y dentro de cada carpeta dos archivos: uno
+con la extensión `.js` y otro `.json`. Ambos archivos contienen la misma data;
+la diferencia es que el `.js` lo usaremos a través de un `import`, mientras que
+el `.json` está ahí para opcionalmente cargar la data de forma asíncrona con
+[`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
 
 ## 8. Pistas, tips y lecturas complementarias
 
