@@ -31,7 +31,7 @@ Ejemplos:
 
 ## 2. Resumen del proyecto
 
-En este proyecto **construirás una versión _web_ del juego _Memory Match_, en la
+En este proyecto construirás una versión _web_ del juego _Memory Match_, en la
 que una jugadora pueda jugar sola, en el navegador.
 
 ## 3. Objetivos de aprendizaje
@@ -165,6 +165,8 @@ Como mínimo, tu implementación debe:
 
 ### Pruebas unitarias
 
+:warning: :construction_worker:
+
 El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
 que  tendrás que escribirlas tú para ... ?????
 
@@ -197,6 +199,16 @@ HTML y CSS. En este proyecto NO está permitido usar librerías o frameworks, so
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
 No se debe utilizar la _pseudo-variable_ `this`.
+
+Para iniciar un nuevo juego, siempre tendremos que _barajar_ las cartas antes de
+pintarlas en la pantalla. Para eso, te invitamos a que explores algoritmos
+existentes para este tipo de operación (llamada _shuffle_ en inglés), como por
+ejemplo el [_algoritmo de Fisher-Yates (aka Knuth)_](https://es.wikipedia.org/wiki/Algoritmo_de_Fisher-Yates).
+
+En este proyecto no se espera que _inventes_ o implementes tu propio algoritmo
+para barajar las cartas, si no que _googlees_, veas opciones existentes,
+consideres opciones y adaptes una a tu proyecto (agregando una función `shuffle`
+que se pueda usar en tu aplicación).
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
