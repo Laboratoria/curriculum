@@ -57,7 +57,6 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 * [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
-
 ### JavaScript
 
 * [ ] Uso de condicionales (if-else | switch | operador ternario)
