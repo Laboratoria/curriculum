@@ -165,15 +165,14 @@ Como mínimo, tu implementación debe:
 
 ### Pruebas unitarias
 
-:warning: :construction_worker:
+El _boilerplate_ de este proyecto incluye
+[pruebas unitarias (_unit tests_) de un componente como ejemplo](./src/components/App.spec.js).
+A medida que vayas agregando componentes tendrás que ir agregando pruebas para
+mantener buena _cobertura_.
 
-El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
-que  tendrás que escribirlas tú para ... ?????
-
-Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
+Tus _pruebas unitarias_ deben tener una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
-en la sección de [Consideraciones técnicas](#srcdatajs).
+(_ramas_) de tus componentes.
 
 ## 6. Hacker edition
 
@@ -222,6 +221,9 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── README.md
 └── src
+    ├── components
+    │   ├── App.js
+    │   └── App.spec.js
     ├── data
     │   ├── pokemon
     │   │   ├── pokemon.js
@@ -243,15 +245,30 @@ qué scripts se usarán y unir todo lo que hemos hecho.
 
 ### `src/main.js`
 
-:warning: :construction_worker:
-
-Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
-mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
-interacción con el DOM. Operaciones como creación de nodos, registro de
-manejadores de eventos (_event listeners_ o _event handlers_), ....
+Recomendamos usar `src/main.js` como punto de entrada de tu aplicación. El
+_boilerplate_ incluye este archivo para _conectar_ o _montar_ el _componente_
+`App` en el DOM. De esta forma podremos hacer pruebas unitarias de nuestros
+componentes sin necesidad de que estén conectados a un DOM global.
 
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+### `src/components/App.js`
+
+Este archivo contiene un _componente_ de ejemplo que muestra cómo podemos
+representar un _componente_ como una función que retorna un `HTMLElement`. A la
+hora de construir interfaces es útil pensar en términos de _componentes_ o
+_vistas_ que podemos ir anidando unas dentro de otras. Te invitamos a que
+pienses qué _componentes_ o _cajitas_ necesitas para construir tu aplicación y
+que vayas agregando _componentes_ en el directorio `components` para implementar
+cada uno de ellos. Aunque, otra vez, la forma de organizar tu archivos depende
+al final de tí y de tu equipo. Hay muchas formas de hacerlo, y el _boilerplate_
+es solo una sugerencia 🙊.
+
+### `src/components/App.spec.js`
+
+Este archivo muestra cómo podemos crear archivos con _especificaciones_
+(expresadas como pruebas unitarias) de nuestros componentes.
 
 ### `src/data`
 
@@ -273,7 +290,7 @@ pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+* ¿Cuáles son los componentes principales de la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
 * Toda tu investigación previa debe tener como resultado todas las Historias
   de Usuario de tu proyecto.
@@ -361,11 +378,10 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   `README.md`.
 * [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
 * [ ] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
-* [ ] UI: Muestra tarjetas _barajadas_ correctamente.
-* [ ] UI: Permitir al usuario _destapar_ las cartas de 2 en 2.
+* [ ] UI: Muestra cartas _barajadas_ correctamente.
+* [ ] UI: Permite al usuario _destapar_ las cartas de 2 en 2.
 * [ ] UI: Deja destapadas las cartas que coincidan al destaparlas.
 * [ ] UI: Indica al usuario que ganó cuando sea relevante.
 * [ ] UI: Es _responsive_.
