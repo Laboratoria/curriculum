@@ -8,7 +8,7 @@ const pkg = require('./package.json');
 const { port, dbUrl, secret } = config;
 const app = express();
 
-// TODO: Conección a la BD en mogodb
+// TODO: Conexión a la Base de Datos (MongoDB o MySQL)
 
 app.set('config', config);
 app.set('pkg', pkg);

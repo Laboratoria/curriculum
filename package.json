@@ -26,21 +26,21 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^2.6.0",
+    "@laboratoria/curriculum-parser": "^2.7.0",
     "@laboratoria/mdlint": "^1.1.0",
     "chai": "^4.2.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.12.1",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.20.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.8.0",
     "jdi": "^1.1.3",
     "mkdirp": "^1.0.4",
-    "mocha": "^8.1.0",
-    "sinon": "^9.0.2"
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1"
   },
   "engines": {
     "node": ">=10.x"

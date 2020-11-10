@@ -1,5 +1,5 @@
 {
-  "projectName": "curricula-js",
+  "projectName": "bootcamp",
   "projectOwner": "Laboratoria",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -8,6 +8,9 @@
   ],
   "imageSize": 100,
   "commit": true,
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contribuciones)",
   "contributors": [
     {
       "login": "lupomontero",
@@ -579,7 +582,71 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "luucamay",
+      "name": "Lupe CaMay",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15850514?v=4",
+      "profile": "http://laboratoria.la",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "moniyama",
+      "name": "Monica Yamazaki",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52083679?v=4",
+      "profile": "https://github.com/moniyama",
+      "contributions": [
+        "translation",
+        "review"
+      ]
+    },
+    {
+      "login": "gabrieluizramos",
+      "name": "Gabriel Ramos",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13336905?v=4",
+      "profile": "https://gabrieluizramos.com.br/",
+      "contributions": [
+        "review",
+        "bug"
+      ]
+    },
+    {
+      "login": "raulingg",
+      "name": "Raul Robinson Quispe Mendez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9435850?v=4",
+      "profile": "https://github.com/raulingg",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "reloadercf",
+      "name": "Carlos",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6140157?v=4",
+      "profile": "https://github.com/reloadercf",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "paclaraujo",
+      "name": "Paloma Araujo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/39506102?v=4",
+      "profile": "https://github.com/paclaraujo",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "vdemario",
+      "name": "Vitor De Mario",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6087424?v=4",
+      "profile": "https://github.com/vdemario",
+      "contributions": [
+        "review"
+      ]
     }
-  ],
-  "contributorsPerLine": 7
+  ]
 }

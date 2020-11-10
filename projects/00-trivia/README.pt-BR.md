@@ -49,33 +49,34 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu
 projeto. Pense nisso para decidir sua estratégia de trabalho individual e em
 equipe.
 
+### HTML e CSS
+
+* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+* [ ] Uso de seletores de CSS.
+* [ ] Construa sua aplicação respeitando o design feito (layout).
+
+### DOM
+
+* [ ] Uso de seletores do DOM.
+* [ ] Gestão dos eventos do DOM.
+* [ ] [Manipulação dinâmica do DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+
+### JavaScript
+
+* [ ] Tipos de Dados
+* [ ] Declaração correta de variáveis (const & let)
+* [ ] Concatenação de strings
+* [ ] Uso de condicionais (if-else | switch | operador ternario)
+* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+
+### Estrutura de código e guia de estilo
+
+* [ ] Uso identificadores descritivos (Nomenclatura | Semântica).
+
 ### UX
 
 * [ ] Desenhar a aplicação pensando e entendendo o usuário.
 * [ ] Criar protótipos para obter _feedback_ e implementar.
-
-### HTML e CSS
-
-* [ ] Entender e reconhecer a importância do HTML semântico.
-* [ ] Identificar e entender tipos de seletores em CSS.
-* [ ] Construir uma aplicação respeitando o protótipo.
-
-### DOM
-
-* [ ] Entender e reconhecer os seletores do DOM.
-* [ ] Manejar os eventos do DOM.
-* [ ] Manipular dinamicamente o DOM.
-
-### JavaScript
-
-* [ ] Manipular strings.
-* [ ] Entender o uso de condicionais.
-* [ ] Utilizar funções.
-* [ ] Conhecer a diferença entre os distintos tipos de variáveis.
-
-### Boas práticas de desenvolvimento
-
-* [ ] Utilizar identificadores descritivos (Nomenclatura | Semântica).
 
 ## 4. Considerações gerais
 
