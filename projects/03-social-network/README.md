@@ -48,7 +48,7 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 * [ ] Uso de selectores de CSS.
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 * [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [] Uso de Grid
+* [ ] [Uso de CSS Grid Layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ### DOM y Web APIs
 
