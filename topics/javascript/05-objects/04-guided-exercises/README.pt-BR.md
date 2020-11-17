@@ -25,7 +25,7 @@ a de Lourdes.
 
 ### 1. _Array_ para _Object_
 
-Escreva uma função que receba um _array _2D \(vetor\) e retorne um objeto com
+Escreva uma função que receba um _array_ 2D \(vetor\) e retorne um objeto com
 cada par de elementos do `array` como um par chave-valor . Por exemplo:
 
 * Input

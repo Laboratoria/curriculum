@@ -186,7 +186,7 @@ implementação e quais casos consideramos (ou não).
 No *snippet* anterior invocamos `it()` com uma string que permite descrever a
 característica ou comportamento esperado. O mais comum é que estas strings
 comecem com a palavra _deveria ..._. Desta maneira vamos articulando a semântica
-que depois _leremos) como _isVowel() deveria..._.
+que depois _leremos_ como _isVowel() deveria..._.
 
 Mocha nos mostra os testes que adicionamos com `it()` mas nos diz que estão
 _pendentes_. Isto porque demos um nome mas fizemos uma implementação. Para

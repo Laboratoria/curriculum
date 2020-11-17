@@ -186,7 +186,7 @@ funções que sejam necessárias para atualizar o resultado na tela (UI).
    [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus
    mentores vão compartilhar um _link_ para o repositório com acesso de leitura.
 4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ em seu computador (cópia local).
+   seu *fork* em seu computador (cópia local).
 5. Agora é só codar! :rocket:
 
 ### Recursos e temas relacionados

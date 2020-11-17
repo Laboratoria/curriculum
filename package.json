@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@laboratoria/curriculum-parser": "^2.7.0",
-    "@laboratoria/mdlint": "^1.1.0",
+    "@laboratoria/mdlint": "^1.2.0",
     "chai": "^4.2.0",
     "eslint": "^7.12.1",
     "eslint-config-airbnb": "^18.2.0",

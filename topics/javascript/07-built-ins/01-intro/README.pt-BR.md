@@ -24,13 +24,12 @@ pré-construídos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Refer
 
 O termo "objetos globais" (ou objetos padrão pré-construídos) não devem ser
 confundidos com o objetvo global em si. Aqui, os objetos globais se referem a
-objetos no [ámbito
-global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope). Estes
-objetos e funções que já vem com o JavaScript mas que não são parte da linguagem
-em si, também conhecidas como _biblioteca padrão_, já que sempre podemos contar
-com elas. São bibliotecas que não temos que importar e sempre estão disponíveis,
-independentemente do escopo onde o código é executado (navegador, node,
-...).
+objetos no [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
+Estes objetos e funções que já vem com o JavaScript mas que não são parte da
+linguagem em si, também conhecidas como _biblioteca padrão_, já que sempre
+podemos contar com elas. São bibliotecas que não temos que importar e sempre
+estão disponíveis, independentemente do escopo onde o código é executado
+(navegador, node, ...).
 
 ### Porque usar biblioteca padrão?
 

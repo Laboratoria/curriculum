@@ -380,20 +380,15 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
    deve fazer um fork **a partir do repositório de sua companheira** e
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
    a partir dele.
-
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para seu computador (cópia local).
-
+   seu *fork* para seu computador (cópia local).
 3. Instale as dependências do projeto com o comando `npm install`, assumindo que
    já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).
-
 4. Se tudo correr bem, deve ser capaz de executar os :traffic_light: testes
    unitários (unit tests) com o comando `npm test`.
-
 5. Para ver a interface de seu programa no navegador, utilize o comando `npm
    start` para subir o servidor web no endereço `http://localhost:5000`.
-
 6. Comece a codar! :rocket:
 
 ***
