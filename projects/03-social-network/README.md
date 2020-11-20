@@ -53,9 +53,14 @@ El objetivo principal de aprendizaje de este proyecto es construir una
 ### DOM y Web APIs
 
 * [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM (addEventListener, removeEventListener, Event, delegación de eventos)
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+* [ ] Manejo de eventos del DOM (addEventListener, removeEventListener,
+Event objeto, delegación de eventos)
+* [ ] [Manipulación dinámica del DOM](
+  https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+(appendChild | createElement | createTextNode | innerHTML | textContent | etc.)
+* [ ] Implementación de routing ([History API.](
+  https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador
+  ) | `hashchange`)
 
 ### JavaScript
 
