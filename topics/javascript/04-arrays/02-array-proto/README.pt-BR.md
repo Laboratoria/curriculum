@@ -26,7 +26,7 @@ e `String.prototype.toLowerCase`, respectivamente.
 
 Voltando aos arranjos... Vejamos um exemplo: abra o console do navegador e
 digite `[].`. Deve aparecer automaticamente uma lista com todos os _métodos_ e
-_propriedades _de nossa matriz vazia \(`[]`\):
+_propriedades_ de nossa matriz vazia \(`[]`\):
 
 ![M&#xE9;todos e propriedades de &quot;Array&quot; no console do
 navegador](https://user-images.githubusercontent.com/110297/37485550-c77d636e-2859-11e8-8b76-21fc103691e5.png)
@@ -172,8 +172,7 @@ de _herança_ e a cadeia de protótipos.
 
 Nesta leitura, vimos alguns exemplos de métodos que todos os arranjos possuem,
 mas há muitos mais. Recomendamos que você explore a documentação oficial do
-[Array.prototype no
-MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype);
+[Array.prototype no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype);
 lá, você pode ver todos os _métodos_ e _propriedades_ disponíveis e suas
 interfaces \(quais argumentos eles esperam, o que devolvem, ...\).
 

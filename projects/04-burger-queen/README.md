@@ -230,18 +230,16 @@ _lines_ y _branches_.
 
 Este proyecto incluye un _boilerplate_ con el código necesario para arrancar con
 la parte de backend ya resuelta. El _boilerplate_ incluye los siguientes
-archivos/carpetas con la configuración de Fierbase (hosting, firestore y
-functions):
+archivos/carpetas con la configuración de Fierbase (hosting y firestore):
 
 ```text
-./04-burger-queen/
+.
+├── .editorconfig
 ├── firebase.json
 ├── firestore.indexes.json
 ├── firestore.rules
-├── functions
-│   ├── index.js
-│   ├── package.json
-└── README.md
+├── README.md
+└── README.pt-BR.md
 ```
 
 Por otro lado, la parte de la interfaz no está incluida, por lo que, deberás
@@ -337,73 +335,137 @@ rápidamente a los clientes que las hicieron.
 
 ### Primeros pasos
 
-1. El primer paso de este proyecto debe ser convertir el menú descrito por el
-   cliente en una estructura que podamos poner en un archivo JSON para después
-   _pintar_ en la pantalla
+NOTA: Si estás haciendo el proyecto en equipo, estos pasos solo los necesita
+hacer una persona por equipo. El resto de las integrantes del equipo después
+podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
 
-2. Haz un _fork_ de este repo (en GitHub).
+1. Haz un _fork_ de este repo (en GitHub).
 
-3. Clona tu _fork_ en tu computadora:
+2. Clona tu _fork_ en tu computadora:
 
    ```sh
    git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
    cd <cohortid>-burger-queen
    ```
 
-4. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
+3. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
 
    ```sh
    git checkout -b develop
    ```
 
-5. Crear proyecto en [Firebase](https://firebase.google.com/)
+4. Crea un proyecto en [Firebase](https://firebase.google.com/)
 
-6. Habilitar Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
+5. Habilita Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
    Datos" de [Firebase console](https://console.firebase.google.com/).
 
-7. Instalar utilidad de línea de comando de Firebase:
+6. Instala la [utilidad de línea de comando de Firebase](https://firebase.google.com/docs/cli?hl=es).
+   Esta utilidad nos permitirá usar el comando `firebase` desde nuestra
+   terminal. Ten en cuenta que el comando de instalación incluye la opción `-g`,
+   lo cual significa que estamos instalando `firebase-tools` de forma _global_,
+   con lo cual quedará disponible desde cualquier _lugar_ (es independiente de
+   un proyecto en particular, no queda instalado en la carpeta `node_modules` de
+   tu proyecto, si no globalmente, por lo tanto no importa desde qué carpeta
+   ejecutes el siguiente comando de instalación).
 
    ```sh
    npm i -g firebase-tools
    ```
 
-8. Agregamos entorno de producción para desplegar:
+7. Iniciamos sesión con Firebase y agregamos entorno que usaremos para
+   desplegar:
 
    ```sh
+   firebase login
    firebase use --add
+
+   # Una vez agregado el entorno (proyecto de firebase) puedes agregar otros y
+   # listar los entornos configurados para esta carpeta con este comando
+   firebase use
    ```
 
-9. Instalar dependencias de cloud functions:
+8. Llegado a este punto, ya puedes comenzar con la problemática del proyecto en
+   sí. Te recomendamos como siguiente paso convertir el menú descrito por el
+   cliente en una estructura que podamos poner en un archivo JSON para después
+   _pintar_ en la pantalla.
 
-   ```sh
-   # usando yarn
-   cd functions && yarn && cd ..
-   # alternativamente, usando npm
-   cd functions && npm install && cd ..
-   ```
+### Despliegue
 
-10. Desplegar: `firebase deploy`
+Cada framework incluye su propio _pipeline_ de _construcción_ o _build_. Con
+esto nos referimos a que para _construir_ nuestro proyecto y producir un
+_artefacto_ que podamos desplegar vamos a usar usar un script que normalmente
+configuramos como una tarea de `npm-scrips` con el nombre `build` e invocamos
+así:
 
-11. Llegado a este punto ya puedes comenzar con el _front-end_ :wink:
+```sh
+npm run build
+```
+
+Una vez hayamos _construido_ la aplicación, tendremos un directorio que contiene
+la app lista para desplegar. Dependiendo del framework que uses y tu
+configuración en particular, esa carpeta puede tener un nombre distinto;
+normalmente `build` o `dist`.
+
+La herramienta de línea de comando de Firebase (`firebase-tools`) incluye un
+comando que nos permite desplegar nuestro proyecto a Firebase:
+`firebase deploy`. A la hora de ejecutar este comando, se usará la configuración
+que tenemos en el archivo `firebase.json`. En ese archivo asegúrate de que la
+_propiedad_ `public` del _objeto_ `hosting` tenga la ruta correcta a la carpeta
+donde hemos _construido_ la aplicación. En este ejemplo es implemente `build`,
+asumiendo que la carpeta `build` es una subcarpeta del directorio donde se
+encuentra nuestro `firebase.json`.
+
+```json
+  ...
+  "hosting": {
+    "public": "build",
+    ...
+  },
+  ...
+```
+
+Finalmente, estás lista para desplegar tu proyecto a Firebase :rocket::fire:!
+
+```sh
+firebase deploy
+```
 
 ***
 
-Nota para estudiantes que elijan React y quieran usar `create-react-app`:
+### :information_source: Nota para estudiantes que elijan React y `create-react-app`
 
-Si tratas de usar `create-react-app` en el directorio del proyecto recibirás un
-error diciendo que hay archivos que podrían presentar un conflicto. Para evitar
-este problema puedes crear una nueva app usando `create-react-app` y de ahí
-_mezclarla_ con la carpeta del proyecto:
+Si tratas de usar [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
+en el directorio del proyecto recibirás un error diciendo que hay archivos que
+podrían presentar un conflicto. Para evitar este problema puedes crear una nueva
+app usando `create-react-app` y de ahí _mezclarla_ con la carpeta del proyecto:
 
 ```sh
-# si estabase en la carpeta del proyecto, salimos a la carpeta de más arriba
+# Si estabas en la carpeta del proyecto, salimos a la carpeta de más arriba
 cd ..
 
-create-react-app burger-queen-tmp
-cp -r burger-queen/* burger-queen-tmp/
-cp -r burger-queen-tmp/.gitignore burger-queen-tmp/* burger-queen/
+# Creamos una nueva aplicación con `create-react-app` en la carpeta
+# `burger-queen-tmp`
+npx create-react-app burger-queen-tmp
+
+# Copiamos el _boilerplate_ del proyecto _encima_ de la aplicación creada con
+# `create-react-app`
+cp -r <cohort-id>-burger-queen/* burger-queen-tmp/
+
+# Copiamos el contenido de la aplicación creada con `create-react-app` de vuelta
+# al repo del proyecto (teniendo en cuenta el archivo _oculto_ `.gitignore`).
+cp -r burger-queen-tmp/.gitignore burger-queen-tmp/* <cohort-id>-burger-queen/
+
+# Ya podemos borrar la instalación _temporal_ y quedarnos solo con el repo del
+# proyecto, con el que partimos.
 rm -rf burger-queen-tmp
-cd burger-queen
+
+# Volvemos a entrar en el directorio del proyecto y ya deberíamos estar listas
+# para comenzar.
+cd <cohort-id>-burger-queen
+
+# Para confirmar que todo fue bien arranca la aplicación con el siguinte comando
+# y verifica que la interfaz se abre en el navegador.
+yarn start
 ```
 
 ### Otros recursos
@@ -434,7 +496,3 @@ cd burger-queen
 * [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
 * [Firebase](https://firebase.google.com/)
 * [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
-
-#### Cloud functions
-
-* [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)

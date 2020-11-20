@@ -647,6 +647,24 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "betsyvies",
+      "name": "Betsy Vidal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/30939075?v=4",
+      "profile": "https://github.com/betsyvies",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "IsabellaSoares",
+      "name": "Isabella Soares de Lima",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32148199?v=4",
+      "profile": "https://github.com/IsabellaSoares",
+      "contributions": [
+        "review"
+      ]
     }
   ]
 }

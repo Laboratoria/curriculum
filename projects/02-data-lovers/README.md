@@ -71,6 +71,11 @@ Estos son datos que te proponemos:
   Morty. [API Rick and Morty](https://rickandmortyapi.com).
   - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
 
+* [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
+  Este set nos proporciona la lista de los atletas que ganaron medallas en las
+  olímpiadas de Río de Janeiro.
+  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](/src/data/athletes/README.md)
+
 ## 3. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
@@ -261,6 +266,10 @@ como toda la configuración de dependencias:
 |  |     ├── rickandmorty.js
 |  |     └── rickandmorty.json
 |  |     └── README.md
+|  |  └── athletes
+|  |     ├── athletes.js
+|  |     └── athletes.json
+|  |     └── README.md
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -379,7 +388,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
+   tu *fork* a tu computadora (copia local).
 3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:

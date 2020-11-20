@@ -105,20 +105,20 @@ _chat_ o red social.
 
 ## 6. Consideraciones técnicas
 
-- Para poder obtener los datos de un sitio _web_ vas a necesitar conocer sobre [_web
-scrapping_](https://es.wikipedia.org/wiki/Web_scraping). En Node.js esto se puede
-lograr usando en conjunto la _library_ llamada [axios](https://www.npmjs.com/package/axios)
-para hacer el _request_ del HTML y otra llamada [cheerio](https://cheerio.js.org/)
-que te permitirá obtener solo aquello en lo que estamos interesados de ese HTML.
+- Para poder obtener los datos de un sitio _web_ vas a necesitar conocer sobre
+  [_web scrapping_](https://es.wikipedia.org/wiki/Web_scraping). En Node.js esto
+  se puede lograr usando en conjunto la _librería_ llamada [axios](https://www.npmjs.com/package/axios)
+  para hacer el _request_ del HTML y otra llamada [cheerio](https://cheerio.js.org/)
+  que te permitirá obtener solo aquello en lo que estamos interesados de ese HTML.
 - Para poder correr tareas periódicamente en el servidor tendrás que conocer de
-los procesos del tipo [_daemon_](https://es.wikipedia.org/wiki/Daemon_(inform%C3%A1tica))
-y los [cron jobs](https://es.wikipedia.org/wiki/Cron_(Unix)) que te permitirán
-ejecutar constantemente una acción. En Node.js esto se puede lograr con la
-_library_ [node-cron](https://www.npmjs.com/package/node-cron).
-- Para poder enviar notificaciones tendrás que usar un servicio de terceros.
-Te tocará usar otra _library_ que permita usar estos servicios, por ejemplo [Twitter
-tiene uno](https://www.npmjs.com/package/twitter) que permite enviar mensajes a esa
-red social.
-Existen otras para enviar [mensajes de texto](https://www.npmjs.com/package/twilio),
-[mensajes por chat](https://www.npmjs.com/package/slack) o [correo electrónico](https://www.npmjs.com/package/mailchimp-api-v3).
+  los procesos del tipo [_daemon_](https://es.wikipedia.org/wiki/Daemon_(inform%C3%A1tica))
+  y los [cron jobs](https://es.wikipedia.org/wiki/Cron_(Unix)) que te permitirán
+  ejecutar constantemente una acción. En Node.js esto se puede lograr con la
+  _librería_ [node-cron](https://www.npmjs.com/package/node-cron).
+- Para poder enviar notificaciones tendrás que usar un servicio de terceros. Te
+  tocará usar otra _library_ que permita usar estos servicios, por ejemplo
+  [Twitter tiene uno](https://www.npmjs.com/package/twitter) que permite enviar
+  mensajes a esa red social. Existen otras para enviar [mensajes de texto](https://www.npmjs.com/package/twilio),
+  [mensajes por chat](https://www.npmjs.com/package/slack) o
+  [correo electrónico](https://www.npmjs.com/package/mailchimp-api-v3).
 - Siéntete libre de usar cualquier otra alternativa para enviar las notificaciones.

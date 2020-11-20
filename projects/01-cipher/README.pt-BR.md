@@ -233,7 +233,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    _mentores_ compartilharão com você um _link_ para um repositório privado e te
    darão acesso a este repositório.
 4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   o _fork_ para seu computador (cópia local).
+   o *fork* para seu computador (cópia local).
 5. 📦 Instale as dependências do projeto rodando o comando `npm install`. Mas
    antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
    (que inclui o [npm](https://docs.npmjs.com/)).

@@ -61,7 +61,7 @@ Que resultado obtenho ao executar `console.log(listOfNumbers[6])`?
 const listOfNumbers = [1, 2, 3, 4, 5, 6];
 ```
 
-como ficaria o _array _se executarmos `listOfNumbers[3] = 'hola'`?
+como ficaria o _array_ se executarmos `listOfNumbers[3] = 'hola'`?
 
 #### Opções
 

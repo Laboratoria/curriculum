@@ -169,21 +169,21 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 ### Primeros pasos
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-  condiciones, algo como [Atom](https://atom.io/) o
-  [Visual Studio Code](https://code.visualstudio.com/).
+   condiciones, algo como [Atom](https://atom.io/) o
+   [Visual Studio Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-  [UNIX Shell](https://es.wikipedia.org/wiki/Shell_de_Unix),
-  que es un programita que interpreta líneas de comando (command-line
-  interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-  ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-  también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-  aunque recomendaría que consideres probar :penguin: GNU/Linux.
+   [UNIX Shell](https://es.wikipedia.org/wiki/Shell_de_Unix),
+   que es un programita que interpreta líneas de comando (command-line
+   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
+   aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-  del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-  darán acceso de lectura en ese repo.
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
+   darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-  tu _fork_ a tu computadora (copia local).
+   tu *fork* a tu computadora (copia local).
 5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados

@@ -1,7 +1,7 @@
 # Bootcamp @Laboratoria
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contribuciones)
+[![All Contributors](https://img.shields.io/badge/all_contributors-64-orange.svg?style=flat-square)](#contribuciones)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
@@ -518,6 +518,10 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://github.com/reloadercf"><img src="https://avatars1.githubusercontent.com/u/6140157?v=4" width="100px;" alt=""/><br /><sub><b>Carlos</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/issues?q=author%3Areloadercf" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/paclaraujo"><img src="https://avatars2.githubusercontent.com/u/39506102?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Araujo</b></sub></a><br /><a href="#translation-paclaraujo" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/vdemario"><img src="https://avatars1.githubusercontent.com/u/6087424?v=4" width="100px;" alt=""/><br /><sub><b>Vitor De Mario</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Avdemario" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/betsyvies"><img src="https://avatars0.githubusercontent.com/u/30939075?v=4" width="100px;" alt=""/><br /><sub><b>Betsy Vidal</b></sub></a><br /><a href="#content-betsyvies" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/IsabellaSoares"><img src="https://avatars3.githubusercontent.com/u/32148199?v=4" width="100px;" alt=""/><br /><sub><b>Isabella Soares de Lima</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3AIsabellaSoares" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 

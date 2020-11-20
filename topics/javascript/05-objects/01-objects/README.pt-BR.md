@@ -137,7 +137,7 @@ contenha, ou melhor, "agarre" (com seus tentáculos) um valor.
 Podemos acessar os valores de um `object`de duas maneiras:
 
 1. O primeiro é usar os colchetes `[]`, assim como fazemos com _arrays_. A única
-   diferença é que, em vez de usar o índice_ _\(um `number`\), usamos a chave
+   diferença é que, em vez de usar o _índice_ \(um `number`\), usamos a chave
    \(uma `string`\), sempre entre aspas.
 2. O segundo é usando o ponto \( `.`\) com o nome da chave imediatamente depois,
    **sem** aspas. Isso é chamado notação de ponto \(_dot notation_\). Como na

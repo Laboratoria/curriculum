@@ -5,9 +5,9 @@
 * [1. Preâmbulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-consideracoes-gerais)
+* [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios mínimos de aceitação do
-  projeto](#5-criterios-minimos-de-aceitacao-do-projeto)
+  projeto](#5-critérios-mínimos-de-aceitação-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
 * [8. Pistas, dicas e leituras
@@ -60,10 +60,12 @@ Este são os dados que propomos:
   lista com os 151 Pokémon da região de Kanto, com suas respectivas estatísticas
   utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
   - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
+
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json): Este
   conjunto mostra a lista de jogadores de uma liga do jogo League of Legends
   (LoL).
   - [Pesquisa com jogadores de LoL](src/data/lol/README.pt-BR.md)
+
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
   personagens da série Rick & Morty. Você pode revisar a documentação da API
   neste [link](https://rickandmortyapi.com).
@@ -78,30 +80,61 @@ usuário necessita.
 
 Em outras palavras, você aprenderá a:
 
-* Aplicar e aprofundar tudo o que aprendeu no projeto anterior.
-* Pensar nas **necessidades dos usuários** para criar histórias de usuário.
-* Escrever e trabalhar com **histórias de usuário**, suas definições de pronto
-  (_definition of done_) e critérios de aceitação como ferramentas centrais de
-  organização e planejamento de seu trabalho.
-* Definir que dados utilizar e de que forma exibí-los em seu produto,
-  baseando-se no seu **entendimento do usuário**.
-* Criar produtos que sigam os **princípios básicos do desenho visual** e as
-    **heurísticas de usabilidade**.
-* Iterar o desenho do produto, baseando-se nos resultados dos **testes de
-  usabilidade**.
-* Manipular **arrays e objetos**.
-* **Manipular o DOM** (agregar elementos de forma dinâmica)
-* **Manejar eventos do DOM** para permitir interação com o usuário (filtros,
-  ordenação, etc).
-* Entender os benefícios e complexidades de **trabalhar em equipe** em um
-  ambiente de incerteza.
+### HTML y CSS
+
+* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] Uso de seletores de CSS.
+* [ ] Construir sua aplicação respeitando o desenho realizado (protótipo).
+* [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### DOM y Web APIs
+
+* [ ] Uso de seletores de DOM.
+* [ ] Gerenciamento de eventos de DOM.
+* [ ] [Manipulação dinâmica de DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+* [ ] Uso de condicionais (if-else | switch | operador ternário)
+* [ ] Uso de laços (for | for..in | for..of | while)
+* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+* [ ] Manipular arrays (filter | map | sort | reduce)
+* [ ] Manipular objects (key | value)
+* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+| [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
+* [ ] Diferenciar entre expression e statements.
+* [ ] Diferenciar entre tipos de dados atômicos e estruturados.
+
+### Testing
+
+* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+
+### Estrutura do código e guia de estilo
+
+* [ ] Organizar e dividir o código em módulos (Modularização)
+* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
+* [ ] Uso de linter (ESLINT)
+
+### Git e GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Gerenciar repositórios de GitHub (clone | fork | gh-pages)
+* [ ] Colaboração no Github (branches | pull requests | |tags)
+
+### UX
+
+* [ ] Desenhar a aplicação pensando e entendendo o usuário.
+* [ ] Criar protótipos para obter feedback e iterar.
+* [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+* [ ] Planejar e executar testes de usabilidade.
 
 ## 4. Considerações gerais
 
 * Este projeto será executado em duplas.
 * Este projeto será entregue através do GitHub e a interface deve ser publicada
   no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: três semanas.
+* Tempo para completá-lo: Tome como referencia 4 semanas.
 
 ## 5. Critérios mínimos de aceitação do projeto
 
@@ -347,68 +380,16 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
    deve fazer um fork **a partir do repositório de sua companheira** e
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
    a partir dele.
-
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para seu computador (cópia local).
-
+   seu *fork* para seu computador (cópia local).
 3. Instale as dependências do projeto com o comando `npm install`, assumindo que
    já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).
-
 4. Se tudo correr bem, deve ser capaz de executar os :traffic_light: testes
    unitários (unit tests) com o comando `npm test`.
-
 5. Para ver a interface de seu programa no navegador, utilize o comando `npm
    start` para subir o servidor web no endereço `http://localhost:5000`.
-
 6. Comece a codar! :rocket:
-
-<!--
-En este proyecto deberás trabajar colaborativamente. Para ello, una de las
-integrantes del equipo deberá forkear el repositorio del cohort y la otra
-integrante **deberá hacer un fork del repositorio de su compañera**. Luego de
-esto, deberás
-[configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
-un `remote` hacia el repositorio del cual hiciste el fork.
-
-Para mandar cambios desde un repositorio forkeado al original debes crear un
-[pull request](https://goo.gl/4bYnuh) y el propietario del repositorio original
-recibirá una notificación para [revisar el pull request](https://goo.gl/XSFcT5)
-y [aceptar los cambios](https://goo.gl/HLJtqN).
-
-Aquí algunas recomendaciones para que organices mejor el trabajo con tu
-compañera:
-
-* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de
-  trabajo con dos ramas principales:
-  - `master`: rama que contiene las funcionalidades terminadas y sin errores.
-  - `develop`: rama dónde integrarás las funcionalidades conforme las vayas
-    desarrollando.
-
-* Además de tener las dos ramas anteriores, puedes trabajar cada nueva
-  funcionalidad en una rama individual (_feature branches_), estas ramas en
-  lugar de crearse a partir de `master`, tienen a `develop` como su rama de
-  origen. Cuando una funcionalidad es terminada se integra de nuevo a `develop`.
-  Las _feature branches_ no se deben integrar directamente a `master`.
-
-* Por último, te sugerimos codear usando la técnica de [pair
-  programming](https://goo.gl/uAMBX2).
-
-¿Quieres saber más forks y pull requests?
-
-* Un [fork](https://help.github.com/articles/fork-a-repo/) es una copia de un
-  repositorio en el que puedes experimentar sin afectar al repositorio original.
-  Generalmente se usa para proponer cambios al proyecto de alguien más o para
-  usar el proyecto de otra persona como punto de partida para una idea que
-  quieras realizar.
-
-* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR)
-  te permite solicitar la inclusión de cambios al repositorio original (tu punto
-  de partida) en GitHub. Cuando un PR es abierto, este permite solicitar,
-  discutir y revisar los cambios realizados con todos los colaboradores y
-  agregar otros commits antes de que los cambios sean incluidos al repositorio
-  original.
-  -->
 
 ***
 
