@@ -348,7 +348,7 @@ podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
    cd <cohortid>-burger-queen
    ```
 
-3. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
+3. Crea una rama a partir de `main` para empezar a trabajar. Por ejemplo:
 
    ```sh
    git checkout -b develop

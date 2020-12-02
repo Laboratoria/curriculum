@@ -141,7 +141,7 @@ Options:
 
 ### propagate (maintainers)
 
-Compares the current state of each project to the `master` branch of each
+Compares the current state of each project to the `main` branch of each
 private repo with the example/model implementations. If changes are detected, a
 PR will be sent with the relevant changes.
 

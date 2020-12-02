@@ -172,15 +172,14 @@ funções que sejam necessárias para atualizar o resultado na tela (UI).
 
 1. Antes de tudo, certifique-se de ter um :pencil: bom editor de texto, algo
    como [Atom](https://atom.io/) ou [VSCode](https://code.visualstudio.com/).
-2. Para executar os comandos a seguir você precisará de uma :shell: [UNIX
-   Shell](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell), que
-   é um programa que interpreta linhas de comando (command-line interpreter)
-   assim como ter o
-   [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
+2. Para executar os comandos a seguir você precisará de uma :shell:
+   [UNIX Shell](../../topics/shell), que é um programa que interpreta linhas de
+   comando (command-line interpreter) assim como ter o
+   [git](../../topics/scm/01-git)
    instalado. Se você já utiliza um sistema operacional "UNIX-like", como
    GNU/Linux ou MacOS já terá uma _shell_ (terminal) instalada por padrão (e
-   provavelmente `git` também). Se seu sistema é Windows você poderá usar [Git
-   bash](https://git-scm.com/download/win), mas indicamos testar :penguin:
+   provavelmente `git` também). Se seu sistema é Windows você poderá usar
+   [Git bash](https://git-scm.com/download/win), mas indicamos testar :penguin:
    GNU/Linux.
 3. Faça seu próprio :fork_and_knife:
    [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus

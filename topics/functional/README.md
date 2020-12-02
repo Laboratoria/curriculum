@@ -36,7 +36,7 @@ siguientes conocimientos previos:
 
 * Manejo de línea de comandos (\*nix) y `git`
 * Manejo básico de `npm`
-* Debes haber completado el curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms).
+* Debes haber completado el curso de [paradigmas de programación](../paradigms).
 
 ## Aprenderás
 

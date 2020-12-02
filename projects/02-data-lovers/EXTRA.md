@@ -64,7 +64,7 @@ interfaz).
 ## ¿Cómo empezar?
 
 Para actualizar tu fork/rama de este proyecto con este archivo (`EXTRA.md`),
-puedes hacer _pull_ de los cambios desde la rama `master` del remoto de
+puedes hacer _pull_ de los cambios desde la rama `main` del remoto de
 `Laboratoria` con un comando como el siguiente:
 
 ```sh
@@ -72,8 +72,8 @@ git pull <repo-url> <branch>
 ```
 
 Por ejemplo, si el repo de tu cohort es
-`https://github.com/Laboratoria/lim-2018-11-bc-core-am-data-lovers.git`:
+`https://github.com/Laboratoria/LIM014-data-lovers.git`:
 
 ```sh
-git pull https://github.com/Laboratoria/lim-2018-11-bc-core-am-data-lovers.git master
+git pull https://github.com/Laboratoria/LIM014-data-lovers.git main
 ```

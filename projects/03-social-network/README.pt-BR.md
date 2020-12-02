@@ -44,8 +44,8 @@ logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
 O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
 Application
 (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
-[_responsiva_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-(com mais de uma tela/ página) na qual seja possível **ler e escrever dados.**
+[_responsiva_](../../topics/css/02-responsive) (com mais de uma tela/ página) na
+qual seja possível **ler e escrever dados.**
 
 ### HTML e CSS
 

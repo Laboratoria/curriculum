@@ -230,18 +230,17 @@ _branches_ (ramificações).
 1. Antes de tudo, verifique se você possui um :pencil: editor de texto em boa
    condição, algo como [Atom](https://atom.io/) ou
    [Code](https://code.visualstudio.com/).
-2. Para executar os comandos abaixo, você precisará de um :shell: [Shell
-   UNIX](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell), que
+2. Para executar os comandos abaixo, você precisará de um :shell:
+   [Shell UNIX](../../topics/shell), que
    é um pequeno programa que interpreta linhas de comando (command-line
    interpreter), além de ter o
-   [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
+   [git](../../topics/scm/01-git)
    instalado. Se você usa um sistema operacional do tipo UNIX, como GNU/Linux ou
    MacOS, já possui um _shell_ (terminal) instalado por padrão (e provavelmente
    `git`) também. Se você usa o Windows, pode utilizar a versão completa do
-   [Cmder](https://cmder.net/) que inclui [Git
-   bash](https://git-scm.com/download/win) e, se tiver o Windows 10 ou superior,
-   pode usar o [Windows Subsystem for
-   Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+   [Cmder](https://cmder.net/) que inclui [Git bash](https://git-scm.com/download/win)
+   e, se tiver o Windows 10 ou superior, pode usar o
+   [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
    sua *fork* no seu computador (cópia local).
 4. 📦 Instale as dependências do projeto com o comando `npm install`. Isso

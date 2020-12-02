@@ -1,9 +1,9 @@
 # Bootcamp @Laboratória
 
-[![All
-Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors)
-[![Build
-Status](https://travis-ci.org/Laboratória/bootcamp.svg?branch=master)](https://travis-ci.org/Laboratória/bootcamp)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-64-orange.svg?style=flat-square)](#contribuciones)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
 ## Introdução
 
@@ -98,8 +98,8 @@ para exibir os resultados.
 * Equipes: 1 estudante.
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
-  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell), [Intro a UX
-  Design](https://github.com/Laboratória/curricula-ux/tree/master/00-topics/00-intro-ux).
+  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
+  [Intro a UX Design](topics/intro-ux).
 
 ### Projeto: [Cartão de crédito válido](projects/01-card-validation)
 
@@ -119,8 +119,8 @@ manipulação de DOM para exibir os resultados na tela.
 * Equipes: 1 estudante.
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
-  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell), [Intro a UX
-  Design](https://github.com/Laboratória/curricula-ux/tree/master/00-topics/00-intro-ux).
+  [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
+  [Intro a UX Design](topics/intro-ux).
 
 ### Projeto: [Data Lovers](projects/02-data-lovers)
 
@@ -141,8 +141,7 @@ implica.
 * Equipes: 2 estudantes.
 * Tópicos: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
-  [XHR/fetch](topics/browser/04-xhr), [Visual
-  Design](https://github.com/Laboratória/curricula-ux/tree/master/00-topics/02-diseno-visual).
+  [XHR/fetch](topics/browser/04-xhr), [Visual Design](topics/interaction-design).
 
 ***
 
@@ -163,9 +162,9 @@ protótipo de _rede social_ com um tema específico, que deverá ser escolhido
 pelas estudantes.
 
 O objetivo principal de aprendizagem deste projeto é desenvolver um site
-[_responsivo_](https://github.com/Laboratória/bootcamp/tree/master/topics/css/02-responsive)
-com mais de uma _view_ (página) onde seja possível ler e escrever dados,
-entendendo as necessidades dos usuários a quem se destina o produto.
+[_responsivo_](topics/css/02-responsive) com mais de uma _view_ (página) onde
+seja possível ler e escrever dados, entendendo as necessidades dos usuários a
+quem se destina o produto.
 
 * Duração estimada: 3 semanas.
 * Equipes: 3 estudantes.
@@ -376,10 +375,8 @@ Em uso (`v2.x`):
 * [JavaScript Funcional](topics/functional)
 * [React](topics/react)
 * [Redux](topics/redux)
-* [Intro a UX
-  Design](https://github.com/Laboratória/curricula-ux/tree/master/00-topics/00-intro-ux)
-* [Visual
-  Design](https://github.com/Laboratória/curricula-ux/tree/master/00-topics/02-diseno-visual)
+* [Intro a UX Design](topics/intro-ux)
+* [Interaction Design](topics/interaction-design)
 
 ***
 

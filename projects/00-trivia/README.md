@@ -172,9 +172,9 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
    condiciones, algo como [Atom](https://atom.io/) o
    [Visual Studio Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://es.wikipedia.org/wiki/Shell_de_Unix),
+   [UNIX Shell](../../topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
+   interpreter) así como tener [git](../../topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),

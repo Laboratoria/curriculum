@@ -133,7 +133,7 @@ codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de d
 ## 4. Considerações gerais
 
 Este projeto será realizado em duplas e deverá estar integrado com o projeto
-[Burger Queen API client](https://github.com/Laboratoria/bootcamp/tree/master/projects/04-burger-queen-api-client)
+[Burger Queen API client](../04-burger-queen-api-client)
 que a equipe de Frontend developers do seu squad desenvolve simultaneamente.
 
 A lógica do projeto deve estar implementada totalmente em JavaScript (ES6).
