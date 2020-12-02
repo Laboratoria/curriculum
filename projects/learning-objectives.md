@@ -105,12 +105,11 @@
 - [ ] JWT
 - [ ] Almacenamiento y acceso de contraseñas
 
-## Servidores
+## WebOps
 
 - [ ] Variables de entorno
-- [ ] SSH
-- [ ] SSH Keys
-- [ ] VPS
+* [ ] Contenedores (Docker).
+* [ ] Docker compose.
 
 ## Base de datos
 
@@ -118,12 +117,6 @@
 - [ ] Conexión a través de cliente
 - [ ] Connection String
 - [ ] Queries y comandos
-
-## Deployment
-
-- [ ] Contenedores
-- [ ] Docker
-- [ ] Docker compose
 
 ## Angular
 

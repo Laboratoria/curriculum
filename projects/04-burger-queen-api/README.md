@@ -12,20 +12,22 @@
 
 ## 1. Preámbulo
 
+![Node.js logo](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg)
+
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
 sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente.
 
-Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
+Este proyecto tiene dos áreas: interfaz web (cliente) y API (servidor). Nuestra
 clienta nos ha solicitado desarrollar la API que se debe integra con la
-interfaz,  que otro equipo de desarrolladoras está trabajando
-simultáneamente
+interfaz, que otro equipo de desarrolladoras está trabajando simultáneamente.
 
 ## 2. Resumen del proyecto
 
 Con una API en este caso nos referimos a un _servidor web_, que es
 básicamente un programa que _escucha_ en un puerto de red, a través del cual
-podemos enviarle _consultas_ (_request_) y obtener _respuestas_ (_response_).
+podemos enviarle _consultas_ (_request_) y obtener _respuestas_ (_response_)
+usando el protocolo HTTP (o HTTPS).
 
 Un servidor web debe _manejar_ consultas entrantes y producir respuestas a esas
 consultas que serán enviadas de vuelta al _cliente_. Cuando hablamos de
@@ -34,7 +36,7 @@ donde el cliente es un programa que hace consultas a través de una red (por
 ejemplo el navegador, cURL, ...), y el _servidor_ es el programa que recibe
 estas consultas y las responde.
 
-[Node.js](https://nodejs.org/) nos permite crear servidores web super eficientes
+[Node.js](https://nodejs.org/) nos permite crear servidores web súper eficientes
 de manera relativamente simple y todo esto usando JavaScript!
 
 En este proyecto partimos de un _boilerplate_ que ya contiene una serie de
@@ -42,8 +44,8 @@ _endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
 Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
-datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/) y
-[MySQL](https://www.mysql.com/).
+datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/),
+[PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/).
 
 La clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -55,17 +57,17 @@ implementar  la aplicación, qué parámetros esperan, qué deben responder, etc
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
 serie de herramientas comunes usadas en este tipo de contexto (Express como
-framework, MongoDB o MySQL como base datos, contenedores de docker, servidores
-virtuales, etc).
+framework, MongoDB, PostgreSQL o MySQL como base datos, contenedores de docker,
+etc).
 
 En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
 sobre `HTTP`, y desplegarlo en un servidor en la nube.
 
 Para completar el proyecto tendrás que familiarizarte con conceptos como
-**rutas** (_routes_), **URLs**, **HTTP** y **REST** (verbs, request, response, headers,
-body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_), **conexión con
-una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**,
-**contenedores de `docker`**...
+**rutas** (_routes_), **URLs**, **HTTP** y **REST** (verbs, request, response,
+headers, body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_),
+**conexión con una base datos** (`MongoDB`, `PostgreSQL`, o `MySQL`),
+**variables de entorno**, **deployment**, **contenedores de `docker`**...
 
 ### Node
 
@@ -112,25 +114,18 @@ una base datos** (`MongoDB` o `MySQL`), **variables de entorno**, **deployment**
 * [ ] `JWT`
 * [ ] Almacenamiento y acceso de contraseñas.
 
-### Servidores
+### WebOps
 
 * [ ] Variables de entorno.
-* [ ] `SSH`
-* [ ] `SSH` keys.
-* [ ] Qué es un VPS.
+* [ ] Contenedores (Docker).
+* [ ] Docker compose.
 
-### Base de datos (MongoDB o MySQL)
+### Base de datos (MongoDB, PostgreSQL o MySQL)
 
 * [ ] Instalación.
 * [ ] Conexión a través de cliente.
 * [ ] Connection string.
 * [ ] Queries y comandos (creación, lectura, actualización, eliminación)
-
-### Deployment
-
-* [ ] Contenedores.
-* [ ] Docker.
-* [ ] Docker compose.
 
 ## 4. Consideraciones generales
 
@@ -141,7 +136,7 @@ que desarrolle simultáneamente el equipo de Frontend developers de tu squad.
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto está permitido usar librerías o frameworks, asi como
 extensiones al lenguaje con `babel` (caso en el cual deberás incluir un
-comando `npm build`).
+comando `npm run build`).
 
 Los tests deben cubrir un mínimo del 90% de _statements_, _functions_,
 _lines_ y _branches_. Si bien el boilerplate no incluye la configuración para
@@ -256,37 +251,56 @@ Nuestra aplicación usa las siguientes variables de entorno:
 * `ADMIN_PASSWORD`: Si hemos especificado un `ADMIN_EMAIL`, debemos pasar
   también una contraseña para el usuario admin. Valor por defecto: `changeme`.
 
-### 5.3 Deployment
+### 5.3 Despliegue (Deployment)
 
-Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con muchas
-tareas, por por lo que nos pide como requerimiento que la aplicación esté configurada
-con `docker-compose` para que pueda ser desplegada sin dificultades en cualquier
-entorno.
+Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con
+muchas tareas, por por lo que nos pide como requerimiento que la aplicación esté
+configurada con `docker-compose` para que pueda ser desplegada sin dificultades
+en cualquier entorno.
 
 El _boilerplate_ ya cuenta con una configuración incial de `docker-compose` para
 la aplicación de node, tu tarea será extender esa configuración para incluir la
-configuración de base de datos que hayas elegido.
-Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
-configuración, deberás exponer los servicios en diferentes puertos.
+configuración de base de datos que hayas elegido. Ten en cuenta que como vas a
+tener dos servidores corriendo sobre una misma configuración, deberás exponer
+los servicios en diferentes puertos.
 
-Una vez que tengas tu configuración de `docker-compose`, deberás crear un servidor
-en la nube (VPS) (en el área de recursos te proponemos algunas alternativas de
-proveedores), acceder a él a través de `ssh`, clonar tu repositorio y ejecutar
-`docker-compose up` para levantar la aplicación y la documentación, para que
-queden online y accesibles.
+Para este proyecto te recomendamos usar `docker-compose` localmente (en tu
+computadora) para ejecutar la aplicación junto con la base de datos
+seleccionada. Por otro lado, con respecto al despliegue, no es obligatorio usar
+`docker-compose`, puedes elegir el proveedor (o proveedores) que prefieras junto
+con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
+explorar las siguientes opciones:
+
+* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) es
+  probablemente la opción más _sencilla_ (la que requiere menos configuración) y
+  nos permite alojar tanto el servidor web como la base de datos (PostgreSQL) en
+  el mismo sitio con pocos clicks.
+* Si quieres explorar opciones más personalizadas y ver docker del lado del
+  servidor puedes cosiderar proveedores como
+  [AWS (Amazon Web Services)](https://aws.amazon.com/) o
+  [GCP (Google Cloud Platform)](https://cloud.google.com/), ambos algún tipo de
+  _free tier_ así como tanto _instancias_ de _servidores virtuales_ (VPS) donde
+  configurar nuestro propio Docker o servicios para desplegar aplicaciones en
+  contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
+  de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
+* Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+  es una muy buena opción para alojar nuestra base datos de producción, la cuál
+  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
+
+Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
+dudes en consultar con tus pares y tus coaches.
 
 ## 6. Pistas, tips y lecturas complementarias
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
 * [Postman](https://www.getpostman.com)
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-* TODO: providers de VPS recomendados, idealmente con un free tier o muy baratos.
-* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
 
 ***
 

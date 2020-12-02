@@ -12,6 +12,8 @@
 
 ## 1. Prefácio
 
+![Node.js logo](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg)
+
 Um pequeno restaurante de hamburgueres, que está crescendo, necessita de um
 sistema para realizar pedidos usando um _tablet_, e que os enviem à
 cozinha para que sejam preparados de forma ordenada e eficiente.
@@ -41,8 +43,8 @@ _endpoints_ (pontos de conexão ou URLs) e nos pedem para completar a aplicaçã
 Isto implica que teremos que começar a ler a implementação existente, e
 familiarizar-nos com a _stack_ escolhida ([Node.js](https://nodejs.org/) e
 [Express](https://expressjs.com/)) e complementá-la com um motor de banco de dados,
- no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/) e
-[MySQL](https://www.mysql.com/).
+no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/),
+[PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
 O cliente nos deu um [link para a documentação](https://laboratoria.github.io/burger-queen-api/)
 que especifica o comportamento esperado da API que iremos expor por
@@ -54,7 +56,7 @@ implementar na aplicação, que parâmetros esperam, o que devem responder, etc.
 O objetivo de aprendizagem principal é adquirir experiência com o **Node.js**
 como ferramenta para desenvolvimento de _aplicações de servidor_, junto com uma série
 de outras ferramentas comumente utilizadas nesse contexto (Express como framework,
-MongoDB ou MySQL como base de dados, containers de docker, servidores virtuais, etc).
+MongoDB, PostgreSQL ou MySQL como base de dados, containers de docker, etc).
 
 Neste projeto, você desenvolverá um servidor web que deverá _servir_ `JSON`
 através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
@@ -62,7 +64,7 @@ através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
 Ao final do projeto, você deverá estar familiarizada com conceitos como **rotas**
 (_routes_), **URLs**, **HTTP** (verbos, request, response, headers, body, status
 codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de dados**
-(`MongoDB` ou `MySQL`), **variables de ambiente**, **deployment**,
+(`MongoDB`, `PostgreSQL` ou `MySQL`), **variables de ambiente**, **deployment**,
 **containers de `docker`**...
 
 ### Node
@@ -110,25 +112,18 @@ codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de d
 * [ ] `JWT`
 * [ ] Armazenamento e acesso de senhas.
 
-### Servidores
+### WebOps
 
 * [ ] Variáveis de ambiente.
-* [ ] `SSH`
-* [ ] `SSH` keys.
-* [ ] o que é um VPS.
+* [ ] Containers (Docker).
+* [ ] Docker compose.
 
-### Base de dados (MongoDB ou MySQL)
+### Base de dados (MongoDB, PostgreSQL ou MySQL)
 
 * [ ] Instalação.
 * [ ] Conexão através de cliente.
 * [ ] String de conexão
 * [ ] Queries e comandos (criação, leitura, atualização, eliminação)
-
-### Deployment
-
-* [ ] Containers.
-* [ ] Docker.
-* [ ] Docker compose.
 
 ## 4. Considerações gerais
 
@@ -237,11 +232,11 @@ Nossa aplicação usa as seguintes variáveis de ambiente:
 * `PORT`: Se nenhuma porta for especificada como argumento da linha de comando
   podemos usar a variable de ambiente `PORT` para especificar a porta. Valor
   por padrão `8080`.
-* `DB_URL`: A _string_ de conexão de _MongoDB_ ou _MySQL_. Quando executemos a
-  aplicação em nosso computador (em ambiente de desenvolvimento), podemos usar
-  um banco de dados local, mas em produção deveremos usar as instâncias
-  configuradas com `docker-compose` (mais sobre isso na seção de
-  **Deployment**)
+* `DB_URL`: A _string_ de conexão de _MongoDB_, _PostgreSQL_ ou _MySQL_. Quando
+  executemos a aplicação em nosso computador (em ambiente de desenvolvimento),
+  podemos usar um banco de dados local, mas em produção deveremos usar as
+  instâncias configuradas com `docker-compose` (mais sobre isso na seção de
+  **Deployment**).
 * `JWT_SECRET`: Nossa aplicação implementa autenticação usando JWT (JSON
    Web Tokens). Para assinar (criptografar) e verificar (descriptografar) os tokens,
   nossa aplicação precisa de um segredo. Localmente, pode usar o valor
@@ -277,13 +272,13 @@ fiquem online e acessíveis.
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
 * [Postman](https://www.getpostman.com)
 * [Variável de ambiente - Wikipedia](https://pt.wikipedia.org/wiki/Variável_de_ambiente)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
 
 ***
 
