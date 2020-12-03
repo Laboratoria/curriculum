@@ -6,7 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-minimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Pistas, tips e leituras complementares](#6-pistas-tips-e-leituras-complementares)
 * [7 HTTP API Checklist](#7-http-api-checklist)
 
@@ -215,7 +215,7 @@ diferentes ambientes (desenvolvimento, produção, ...). O _boilerplate_ já imp
 e o
 [ambiente](https://nodejs.org/docs/latest/api/process.html#process_process_env).
 
-#### 5.2.1 Argumentos de línea de comando
+#### 5.2.1 Argumentos de linha de comando
 
 Podemos especificar a porta onde a aplicação deve iniciar, passando um argumento
 ao invocar nosso programa:
@@ -225,7 +225,7 @@ ao invocar nosso programa:
 npm start 8888
 ```
 
-#### 5.2.2 Variables de entorno
+#### 5.2.2 Variáveis de ambiente
 
 Nossa aplicação usa as seguintes variáveis de ambiente:
 
@@ -249,7 +249,7 @@ Nossa aplicação usa as seguintes variáveis de ambiente:
 * `ADMIN_PASSWORD`: Se for especificado um `ADMIN_EMAIL`, devemos passar
   também uma senha para o usuário admin. Valor por padrão: `changeme`.
 
-### 5.3 Deployment
+### 5.3 Implantação (Deployment)
 
 Nosso cliente nos informou que a sua equipe de _devops_ está sempre com muitas
 tarefas, portanto, pediu como requesito que a aplicação esteja configurada
@@ -260,15 +260,35 @@ O _boilerplate_ já conta com uma configuração incial de `docker-compose` para
 a aplicação de node, sua tarefa será estender essa configuração para incluir a
 configuração do banco de dados escolhido.
 Leve em consideração que como terá dois servidores rodando sobre uma mesma
-configuração, devera colocar os serviços em diferentes portas.
+configuração, deverá colocar os serviços em diferentes portas.
 
-Uma vez que tenha a configuração de `docker-compose`, deverá criar um servidor
-na nuvem (VPS) (na área de recursos, propomos algumas alternativas de
-provedores), o acessar através de `ssh`, clonar seu repositorio e executar
-`docker-compose up` para subir a aplicação e a documentação, para que
-fiquem online e acessíveis.
+Para este projeto te recomendamos a usar `docker-compose` localmente (em seu
+computador) para executar a aplicação junto com a base de dados
+selecionada. Por outro lado, em relação a implantação, não é obrigatório usar
+`docker-compose`, você pode escolher o provedor (ou provedores) que preferir junto
+com o mecanismo de implantação e estratégia de hospedagem. Te recomendamos
+explorar as seguintes opcões:
 
-## 6. Pistas, tips y leituras complementares
+* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) é
+provavelmente a opção mais _simples_ (requer menos configuração) e nos
+permite hospedar tanto o servidor web como a base de dados (PostgreSQL)
+em um mesmo lucar com poucos clicks.
+* Se quiser explorar opções mais personalizadas e ver o docker do lado do
+servidor, pode considerar provedores como
+[AWS (Amazon Web Services)](https://aws.amazon.com/) ou
+[GCP (Google Cloud Platform)](https://cloud.google.com/), ambos possuem algum tipo
+de serviço experimental gratuito (_free tier_) assim como instâncias de servidores
+virtuais (VPS), onde configuramos nosso próprio Docker ou serviços para implantar
+aplicações em contêineres (por exemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
+de GCP ou [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
+* Se quiser trabalhar com MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+é uma opção muito boa para hospedar a base dados de produção, que
+podemos usar em conjunto com qualquer uma das opções mencionadas acima.
+
+Se tiver dúvidas sobre as diferentes (e múltiplas) opções de implantação,
+não hesite em consultar seus colegas e mentores.
+
+## 6. Pistas, tips e leituras complementares
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
