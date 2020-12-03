@@ -94,7 +94,7 @@ npm run build
 
 ### deploy
 
-Run deploy script. This script is run by Travis CI.
+Run deploy script. This script is run via GitHub Actions.
 
 The deploy script is only run for builds containing a `release` or `prerelease`
 git tag. If such a tag is present it will implicitly run the `build` script
@@ -102,12 +102,12 @@ and then POST the JSON docs to the Laboratoria API.
 
 Env vars:
 
-* `TRAVIS_TAG`
+* `GITHUB_REF`
 * `LABORATORIA_API_EMAIL`
 * `LABORATORIA_API_PASS`
 * `LABORATORIA_API_URL`
 
-Related files: [`.travis.yml`](../.travis.yml).
+Related files: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
 
 ```sh
 ./scripts/deploy.sh

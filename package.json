@@ -9,6 +9,7 @@
     "test": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "validate": "./scripts/build.js --validate",
     "build": "./scripts/build.js",
+    "deploy": "./scripts/deploy.js",
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\""
   },
   "repository": "Laboratoria/bootcamp",
@@ -40,6 +41,7 @@
     "jdi": "^1.1.3",
     "mkdirp": "^1.0.4",
     "mocha": "^8.2.1",
+    "porch": "^1.1.4",
     "sinon": "^9.2.1"
   },
   "engines": {
