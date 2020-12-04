@@ -45,4 +45,7 @@ jobs:
       run: npm run build
     - name: Deploy
       if: success()
+      env:
+        LABORATORIA_API_EMAIL: ${{ secrets.LABORATORIA_API_EMAIL }}
+        LABORATORIA_API_PASS: ${{ secrets.LABORATORIA_API_PASS }}
       run: npm run deploy
