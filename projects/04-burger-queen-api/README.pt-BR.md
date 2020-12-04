@@ -6,11 +6,13 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-minimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Pistas, tips e leituras complementares](#6-pistas-tips-e-leituras-complementares)
 * [7 HTTP API Checklist](#7-http-api-checklist)
 
 ## 1. Prefácio
+
+![Node.js logo](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg)
 
 Um pequeno restaurante de hamburgueres, que está crescendo, necessita de um
 sistema para realizar pedidos usando um _tablet_, e que os enviem à
@@ -41,8 +43,8 @@ _endpoints_ (pontos de conexão ou URLs) e nos pedem para completar a aplicaçã
 Isto implica que teremos que começar a ler a implementação existente, e
 familiarizar-nos com a _stack_ escolhida ([Node.js](https://nodejs.org/) e
 [Express](https://expressjs.com/)) e complementá-la com um motor de banco de dados,
- no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/) e
-[MySQL](https://www.mysql.com/).
+no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/),
+[PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
 O cliente nos deu um [link para a documentação](https://laboratoria.github.io/burger-queen-api/)
 que especifica o comportamento esperado da API que iremos expor por
@@ -54,7 +56,7 @@ implementar na aplicação, que parâmetros esperam, o que devem responder, etc.
 O objetivo de aprendizagem principal é adquirir experiência com o **Node.js**
 como ferramenta para desenvolvimento de _aplicações de servidor_, junto com uma série
 de outras ferramentas comumente utilizadas nesse contexto (Express como framework,
-MongoDB ou MySQL como base de dados, containers de docker, servidores virtuais, etc).
+MongoDB, PostgreSQL ou MySQL como base de dados, containers de docker, etc).
 
 Neste projeto, você desenvolverá um servidor web que deverá _servir_ `JSON`
 através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
@@ -62,7 +64,7 @@ através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
 Ao final do projeto, você deverá estar familiarizada com conceitos como **rotas**
 (_routes_), **URLs**, **HTTP** (verbos, request, response, headers, body, status
 codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de dados**
-(`MongoDB` ou `MySQL`), **variables de ambiente**, **deployment**,
+(`MongoDB`, `PostgreSQL` ou `MySQL`), **variables de ambiente**, **deployment**,
 **containers de `docker`**...
 
 ### Node
@@ -110,30 +112,23 @@ codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de d
 * [ ] `JWT`
 * [ ] Armazenamento e acesso de senhas.
 
-### Servidores
+### WebOps
 
 * [ ] Variáveis de ambiente.
-* [ ] `SSH`
-* [ ] `SSH` keys.
-* [ ] o que é um VPS.
+* [ ] Containers (Docker).
+* [ ] Docker compose.
 
-### Base de dados (MongoDB ou MySQL)
+### Base de dados (MongoDB, PostgreSQL ou MySQL)
 
 * [ ] Instalação.
 * [ ] Conexão através de cliente.
 * [ ] String de conexão
 * [ ] Queries e comandos (criação, leitura, atualização, eliminação)
 
-### Deployment
-
-* [ ] Containers.
-* [ ] Docker.
-* [ ] Docker compose.
-
 ## 4. Considerações gerais
 
 Este projeto será realizado em duplas e deverá estar integrado com o projeto
-[Burger Queen API client](https://github.com/Laboratoria/bootcamp/tree/master/projects/04-burger-queen-api-client)
+[Burger Queen API client](../04-burger-queen-api-client)
 que a equipe de Frontend developers do seu squad desenvolve simultaneamente.
 
 A lógica do projeto deve estar implementada totalmente em JavaScript (ES6).
@@ -220,7 +215,7 @@ diferentes ambientes (desenvolvimento, produção, ...). O _boilerplate_ já imp
 e o
 [ambiente](https://nodejs.org/docs/latest/api/process.html#process_process_env).
 
-#### 5.2.1 Argumentos de línea de comando
+#### 5.2.1 Argumentos de linha de comando
 
 Podemos especificar a porta onde a aplicação deve iniciar, passando um argumento
 ao invocar nosso programa:
@@ -230,18 +225,18 @@ ao invocar nosso programa:
 npm start 8888
 ```
 
-#### 5.2.2 Variables de entorno
+#### 5.2.2 Variáveis de ambiente
 
 Nossa aplicação usa as seguintes variáveis de ambiente:
 
 * `PORT`: Se nenhuma porta for especificada como argumento da linha de comando
   podemos usar a variable de ambiente `PORT` para especificar a porta. Valor
   por padrão `8080`.
-* `DB_URL`: A _string_ de conexão de _MongoDB_ ou _MySQL_. Quando executemos a
-  aplicação em nosso computador (em ambiente de desenvolvimento), podemos usar
-  um banco de dados local, mas em produção deveremos usar as instâncias
-  configuradas com `docker-compose` (mais sobre isso na seção de
-  **Deployment**)
+* `DB_URL`: A _string_ de conexão de _MongoDB_, _PostgreSQL_ ou _MySQL_. Quando
+  executemos a aplicação em nosso computador (em ambiente de desenvolvimento),
+  podemos usar um banco de dados local, mas em produção deveremos usar as
+  instâncias configuradas com `docker-compose` (mais sobre isso na seção de
+  **Deployment**).
 * `JWT_SECRET`: Nossa aplicação implementa autenticação usando JWT (JSON
    Web Tokens). Para assinar (criptografar) e verificar (descriptografar) os tokens,
   nossa aplicação precisa de um segredo. Localmente, pode usar o valor
@@ -254,7 +249,7 @@ Nossa aplicação usa as seguintes variáveis de ambiente:
 * `ADMIN_PASSWORD`: Se for especificado um `ADMIN_EMAIL`, devemos passar
   também uma senha para o usuário admin. Valor por padrão: `changeme`.
 
-### 5.3 Deployment
+### 5.3 Implantação (Deployment)
 
 Nosso cliente nos informou que a sua equipe de _devops_ está sempre com muitas
 tarefas, portanto, pediu como requesito que a aplicação esteja configurada
@@ -265,25 +260,45 @@ O _boilerplate_ já conta com uma configuração incial de `docker-compose` para
 a aplicação de node, sua tarefa será estender essa configuração para incluir a
 configuração do banco de dados escolhido.
 Leve em consideração que como terá dois servidores rodando sobre uma mesma
-configuração, devera colocar os serviços em diferentes portas.
+configuração, deverá colocar os serviços em diferentes portas.
 
-Uma vez que tenha a configuração de `docker-compose`, deverá criar um servidor
-na nuvem (VPS) (na área de recursos, propomos algumas alternativas de
-provedores), o acessar através de `ssh`, clonar seu repositorio e executar
-`docker-compose up` para subir a aplicação e a documentação, para que
-fiquem online e acessíveis.
+Para este projeto te recomendamos a usar `docker-compose` localmente (em seu
+computador) para executar a aplicação junto com a base de dados
+selecionada. Por outro lado, em relação a implantação, não é obrigatório usar
+`docker-compose`, você pode escolher o provedor (ou provedores) que preferir junto
+com o mecanismo de implantação e estratégia de hospedagem. Te recomendamos
+explorar as seguintes opcões:
 
-## 6. Pistas, tips y leituras complementares
+* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) é
+provavelmente a opção mais _simples_ (requer menos configuração) e nos
+permite hospedar tanto o servidor web como a base de dados (PostgreSQL)
+em um mesmo lucar com poucos clicks.
+* Se quiser explorar opções mais personalizadas e ver o docker do lado do
+servidor, pode considerar provedores como
+[AWS (Amazon Web Services)](https://aws.amazon.com/) ou
+[GCP (Google Cloud Platform)](https://cloud.google.com/), ambos possuem algum tipo
+de serviço experimental gratuito (_free tier_) assim como instâncias de servidores
+virtuais (VPS), onde configuramos nosso próprio Docker ou serviços para implantar
+aplicações em contêineres (por exemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
+de GCP ou [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
+* Se quiser trabalhar com MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+é uma opção muito boa para hospedar a base dados de produção, que
+podemos usar em conjunto com qualquer uma das opções mencionadas acima.
+
+Se tiver dúvidas sobre as diferentes (e múltiplas) opções de implantação,
+não hesite em consultar seus colegas e mentores.
+
+## 6. Pistas, tips e leituras complementares
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
 * [Postman](https://www.getpostman.com)
 * [Variável de ambiente - Wikipedia](https://pt.wikipedia.org/wiki/Variável_de_ambiente)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-* [ssh](https://www.hostinger.es/tutoriales/que-es-ssh)
 
 ***
 

@@ -264,7 +264,7 @@ rapidamente aos clientes.
    cd <cohortid>-burger-queen
    ```
 
-4. Crie uma branch da `master` para começar a trabalhar. Por exemplo:
+4. Crie uma branch da `main` para começar a trabalhar. Por exemplo:
 
    ```sh
    git checkout -b develop

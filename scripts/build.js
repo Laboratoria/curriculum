@@ -81,8 +81,10 @@ buildItems([
   { type: 'project', id: '01-cipher', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-emergency-room', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '02-memory-match', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '02-movie-challenge', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '03-social-network', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '03-visitors', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-burger-queen-api-client', locale: 'es-ES', track: 'js' },
@@ -95,10 +97,12 @@ buildItems([
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
   { type: 'project', id: '00-trivia', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '01-card-validation', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '03-small-businesses', locale: 'es-ES', track: 'ux' },

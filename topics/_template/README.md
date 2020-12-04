@@ -26,7 +26,7 @@ Qué conocimientos previos se necesitan?
 ## Aprenderás
 
 En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
-extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms):
+extraído del curso de [paradigmas de programación](../paradigms):
 
 * Qué son los **paradigmas de programación**
 * Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan

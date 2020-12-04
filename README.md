@@ -133,7 +133,7 @@ lógica, y manipulación del DOM para mostrar (escribir) los resultados.
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
-  [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
+  [Intro a UX Design](topics/intro-ux).
 
 ### Proyecto: [Tarjeta de crédito válida](projects/01-card-validation)
 
@@ -154,7 +154,7 @@ lógica, y manipulación del DOM para mostrar (escribir) los resultados.
 * Tópicos: [Flow control](topics/javascript/02-flow-control),
   [Strings](topics/javascript/06-strings), [Testing](topics/testing),
   [HTML](topics/html), [SCM](topics/scm), [Shell](topics/shell),
-  [Intro a UX Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/00-intro-ux).
+  [Intro a UX Design](topics/intro-ux).
 
 ### Proyecto: [Data Lovers](projects/02-data-lovers)
 
@@ -173,7 +173,7 @@ eso implica.
 * Equipos: 2 estudiantes.
 * Tópicos: [Arrays](topics/javascript/04-arrays),
   [Objects](topics/javascript/05-objects), [DOM](topics/browser/02-dom),
-  [XHR/fetch](topics/browser/04-xhr), [Visual Design](https://github.com/Laboratoria/curricula-ux/tree/master/00-topics/02-diseno-visual).
+  [XHR/fetch](topics/browser/04-xhr), [Visual Design](topics/interaction-design).
 
 ***
 
@@ -194,7 +194,7 @@ un prototipo para una _red social_ sobre algunos temas de entre los cuales
 deberás elegir.
 
 El objetivo de aprendizaje principal de este proyecto es construir un sitio web
-[_responsive_](https://github.com/Laboratoria/bootcamp/tree/master/topics/css/02-responsive)
+[_responsive_](topics/css/02-responsive)
 con más de una vista (página), y en el que podamos leer y escribir datos
 entendiendo las necesidades de los usuarios.
 

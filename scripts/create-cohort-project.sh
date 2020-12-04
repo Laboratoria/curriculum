@@ -175,7 +175,7 @@ if [[ "${noop}" == "YES" ]]; then
   echo "Would have pushed changes to ${gh_org}/${repo_name}"
 else
   git remote add upstream "git@github.com:${gh_org}/${repo_name}.git"
-  git push -u upstream master
+  git push -u upstream main
 fi
 
 
