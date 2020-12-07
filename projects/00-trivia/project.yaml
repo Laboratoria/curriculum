@@ -1,0 +1,18 @@
+learningObjectives:
+  - html/semantics
+  - css/selectors
+  - dom/selectors
+  - dom/events
+  - dom/manipulation
+  - js/data-types/primitive-vs-non-primitive
+  - js/data-types/strings
+  - js/variables
+  - js/conditionals/if-else
+  - js/conditionals/switch
+  - js/conditionals/ternary-op
+  - js/functions/params
+  - js/functions/args
+  - js/functions/return
+  - js/semantics
+  - ux/user-understanding
+  - ux/prototyping
