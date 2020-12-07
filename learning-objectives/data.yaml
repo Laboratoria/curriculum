@@ -1,0 +1,200 @@
+html:
+  # - tags
+  # - attributes
+  # - block-vs-inline
+  - semantics
+
+css:
+  - selectors
+  # - box-model
+  # - values-and-units
+  # - relative-vs-absolute
+  - flexbox
+  # - grid
+  - media-queries
+
+dom:
+  - selectors
+  - events
+  - manipulation
+  - history
+  - storage
+
+js:
+  - data-types:
+    - primitive-vs-non-primitive
+    # - values-and-refs
+    # - typeof
+    # - instanceof
+    - strings
+    - arrays:
+      - sort
+      - map
+      - filter
+      - reduce
+    - objects
+  - variables:
+    - declaration
+    # - assignment
+    # - scope
+  - conditionals:
+    - if-else
+    - switch
+    - ternary-op
+    # - boolean-logic
+  - loops:
+    - for
+    - while
+    - for...of
+  - functions:
+    - params
+    - args
+    - return
+    - recursion
+  - testing:
+    - unit
+    # - cases
+    # - assertions
+    - mocks
+    - async
+    # - coverage
+    - e2e
+    - compatibility
+  - modules:
+    - es-modules
+    - commonjs
+  - linting
+  - semantics
+  - expression-vs-statement
+  - async:
+    - callbacks
+    - promises
+    # - async/await
+    # - streams
+
+scm:
+  - git:
+    - clone
+    - branch
+    - checkout
+    - add
+    - commit
+    - status
+    - push
+    - pull
+    - remote
+    - fetch
+    - merge
+    - reset
+    - rebase
+    - tag
+  - github:
+    - fork
+    - issues
+    - labels
+    - milestones
+    - pull-requests
+    - code-review
+    - gh-pages
+
+ux:
+  - user-understanding
+  - prototyping
+  - visual-design
+  - usability-testing
+
+firebase:
+  - firestore:
+    - rules
+    - onSnapshot
+  - auth:
+    - onAuthStateChanged
+
+front-end-web-dev:
+  - components
+  - state
+  # - routing
+
+angular:
+  - components-and-templates
+  - directives:
+    - ngIf
+    - ngFor
+    - input-output
+    - services
+    - routing
+    - observables
+    - http-client
+    - styles:
+      - ngStyle
+      - ngClass
+
+react:
+  - jsx
+  - components:
+    - function
+    - class
+  - props
+  - events
+  - lists-and-keys
+  - conditional-rendering
+  - lifting-up-state
+  - hooks
+  - css-modules
+  - routing
+
+vue:
+  - instance
+  - data-and-methods
+  - components
+  - props
+  - directives:
+    - v-if
+    - v-else
+  - iteration:
+    - v-for
+  - events:
+    - v-on
+  - computed-props-and-observers
+  - routing
+  - classes-and-styles
+
+http:
+  - request-response
+  - headers
+  - body
+  - verbs
+  - status-codes
+  - json
+  - cors
+
+node:
+  - npm-install
+  - package.json
+  - npm-scripts
+  - process:
+    # - env
+    # - argv
+    # - stdin-stdout-stderr
+    # - exit-code
+  - fs
+  - path
+
+express:
+  - routing
+  - middleware
+
+auth:
+  - jwt
+  - password-access-and-storage
+
+webops:
+  - env-vars
+  - docker-containers
+  - docker-compose
+
+# MongoDB, PostgreSQL o MySQL
+db:
+  - install
+  - conection
+  - queries
