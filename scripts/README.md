@@ -109,32 +109,61 @@ simply check the exit status to see whether it passed or not.
 npm run validate
 ```
 
-### test
+### test:topics
 
-Run unit tests (and implicitly the `pretest` script).
+Ejecuta pruebas unitarias en los ejercicios de los _tópicos_.
 
-NOTE: Tests are run with `mocha` because most tests are exercise tests that will
-need to run in the browser (`jest` does not run in the browser).
+NOTA: Estas pruebas se ejecutan con `mocha` ya que estas pruebas también
+necesitan ejecutarse en el navegador (`jest` no corre en el navegador).
 
 ```sh
-# Run tests with npm (and implicitly the pretest script)
-npm test
-
-# Run unit tests via npx (no pretest hook)
-npx mocha './topics/!(node_modules)/**/*.spec.js' --verbose
+# Run topics tests with npm (and implicitly the pretest script)
+npm run test:topics
 ```
 
 ### pretest
 
 The `pretest` hook makes sure that linters and validation are run _before_
-proceeding with the using tests.
+proceeding with the unit tests.
 
 ```sh
 # Run pretest script via npm
 npm run pretest
 
 # Run equivalent command
-npm run mdlint && npm run eslint && npm run validate
+npm run mdlint && npm run eslint && npm run validate && npm run test:topics
+```
+
+### test
+
+Run unit tests (and implicitly the `pretest` script).
+
+```sh
+# Run tests with npm (and implicitly the pretest script)
+npm test
+```
+
+### start
+
+Arranca la interfaz web.
+
+```sh
+npm start
+```
+
+Alternativamente:
+
+```sh
+npx react-scripts start
+```
+
+### watch
+
+Arranca la interfaz web y escucha cambios en los archivos de contenido (tópicos
+y proyectos) para automáticamente reflejar cambios localmente.
+
+```sh
+npm run watch
 ```
 
 ***
@@ -180,6 +209,9 @@ Archivos relacionados: [`.github/workflows/node.js.yml`](../.github/workflows/no
 ```sh
 npm run deploy
 ```
+
+⚠️ Por el momento la interfaz web se despliegue manualmente a `firebase` a la
+hora de etiquetar el release y reconstruir la carpeta `dist`.
 
 ***
 
