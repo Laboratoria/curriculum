@@ -120,7 +120,12 @@ Related files: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.ym
 Helper aimed at **coaches**, used to create a _copy_ of a particular project,
 as _coaches_ do when creating a repo for a specific _cohort_.
 
-Usage: `./scripts/create-cohort-project.sh <src> <dest> [<cohortid>]`
+Usage: `./scripts/create-cohort-project.js <src> <dest> [<cohortid>]`
+
+Env vars:
+
+* `GITHUB_TOKEN`: A GitHub Personal Access Token with permission to create repos
+  in the relevant GitHub account (ie: Laboratoria).
 
 Arguments:
 
@@ -136,7 +141,7 @@ Options:
   with the command.
 
 ```sh
-./scripts/create-cohort-project.sh projects/01-cipher ~/ LIM012
+./scripts/create-cohort-project.js projects/01-cipher ~/ LIM012
 ```
 
 ### propagate (maintainers)
