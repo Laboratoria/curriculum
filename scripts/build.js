@@ -30,6 +30,7 @@ const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
     '--rubric', rubricVersion,
     '--track', track,
     '--locale', locale,
+    '--lo', path.join(__dirname, '../learning-objectives'),
     ...(locale === 'es-ES' ? [] : ['--suffix', suffix]),
   ], { stdio: [null, fd, 'pipe'] });
 
