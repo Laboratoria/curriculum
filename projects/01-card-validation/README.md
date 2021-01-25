@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# Algoritmo de Luhn
 
 ## Índice
 
@@ -24,7 +24,14 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
+y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
+con detenimiento y sigue sus consejos! :)
+
+[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+
+[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+
 
 ## 2. Resumen del proyecto
 
@@ -267,13 +274,6 @@ mínimo del 50% de _branches_ (ramas).
 
 ### Recursos y temas relacionados
 
-A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
-y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
-con detenimiento y sigue sus consejos! :)
-
-[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
 También una metodología para empezar a desarrollar tareas con JavaScript:
 
