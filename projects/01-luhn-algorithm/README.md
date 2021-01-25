@@ -32,7 +32,6 @@ con detenimiento y sigue sus consejos! :)
 
 [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
-
 ## 2. Resumen del proyecto
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
@@ -273,7 +272,6 @@ mínimo del 50% de _branches_ (ramas).
 8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
-
 
 También una metodología para empezar a desarrollar tareas con JavaScript:
 
