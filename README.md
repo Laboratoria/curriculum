@@ -283,7 +283,18 @@ para PWAs (_Progressive Web Apps_), lo cual incluye conceptos como **offline**.
 
 ### Track UX Design
 
-#### Proyecto: [Emprendimientos](projects/03-small-businesses)
+#### Proyecto: [Emprendimientos](projects/00-usability)
+
+Para este proyecto trabajarás analizando y re-diseñando una aplicación de venta
+de abarrotes (compras de supermercado/despensa). Encontrarás cuáles son los
+principales problemas de usabilidad del sitio y propondrás una solución que
+testearás con usuarios reales.
+
+* Duración estimada: 2 semanas
+* Equipos: 2 estudiantes
+* Tópicos: Usabilidad, user testing, Figma.
+
+#### Proyecto: [Emprendimientos](projects/01-small-businesses)
 
 Para este proyecto inicial del _track_, trabajarás con pequeños emprendimientos
 para ofrecer una nueva y/o mejor experiencia _online_ para sus usuarios. Para
