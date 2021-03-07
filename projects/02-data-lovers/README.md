@@ -74,7 +74,12 @@ Estos son datos que te proponemos:
 * [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
   Este set nos proporciona la lista de los atletas que ganaron medallas en las
   olímpiadas de Río de Janeiro.
-  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](/src/data/athletes/README.md)
+  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
+
+* [Studio Ghibli](src/data/ghibli/ghibli.json).
+  En este set encontrarás una lista de las animaciones y sus personajes del
+  [Studio Ghibli](https://ghiblicollection.com/).
+  - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
 ## 3. Objetivos de aprendizaje
 
@@ -263,13 +268,17 @@ como toda la configuración de dependencias:
 |  |  |  ├── pokemon.json
 |  |  |  └── README.md
 |  |  └── rickandmorty
-|  |     ├── rickandmorty.js
-|  |     └── rickandmorty.json
-|  |     └── README.md
+|  |  |  ├── rickandmorty.js
+|  |  |  ├── rickandmorty.json
+|  |  |  └── README.md
 |  |  └── athletes
-|  |     ├── athletes.js
-|  |     └── athletes.json
-|  |     └── README.md
+|  |  |  ├── athletes.js
+|  |  |  ├── athletes.json
+|  |  |  └── README.md
+|  |  └── ghibli
+|  |  |  ├── ghibli.js
+|  |  |  ├── ghibli.json
+|  |  |  └── README.md
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -277,7 +286,7 @@ como toda la configuración de dependencias:
 └── test
    └── data.spec.js
 
-directory: 6 file: 17
+directory: 7 file: 20
 ```
 
 ### `src/index.html`
@@ -303,13 +312,13 @@ correspondiente.
 Por ejemplo, si "descomentamos" la siguiente línea:
 
 ```js
-// import data from './data/pokemon/pokemon.js';
+// import data from './data/lol/lol.js';
 ```
 
 La línea quedaría así:
 
 ```js
-import data from './data/pokemon/pokemon.js';
+import data from './data/lol/lol.js';
 ```
 
 Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
