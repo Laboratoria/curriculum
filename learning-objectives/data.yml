@@ -6,51 +6,37 @@ html:
 
 css:
   - selectors
-  # - box-model
+  - box-model
   # - values-and-units
   # - relative-vs-absolute
   - flexbox
-  # - grid
+  - grid
   - media-queries
 
-dom:
-  - selectors
-  - events
-  - manipulation
-  - history
+browser:
+  - dom:
+    - selectors
+    - events
+    - manipulation
+  - routing
   - storage
+  - fetch
 
 js:
   - data-types:
+    - primitive
     - primitive-vs-non-primitive
     # - values-and-refs
     # - typeof
     # - instanceof
     - strings
-    - arrays:
-      - sort
-      - map
-      - filter
-      - reduce
+    - arrays
     - objects
-  - variables:
-    - declaration
-    # - assignment
-    # - scope
-  - conditionals:
-    - if-else
-    - switch
-    - ternary-op
-    # - boolean-logic
-  - loops:
-    - for
-    - while
-    - for...of
-  - functions:
-    - params
-    - args
-    - return
-    - recursion
+  - variables
+  - conditionals
+  - loops
+  - functions
+  - recursion
   - testing:
     - unit
     # - cases
@@ -74,28 +60,15 @@ js:
 
 scm:
   - git:
-    - clone
-    - branch
-    - checkout
-    - add
-    - commit
-    - status
-    - push
-    - pull
-    - remote
-    - fetch
-    - merge
-    - reset
-    - rebase
-    - tag
+    - setup
+    - intro
+    - integration
   - github:
-    - fork
-    - issues
-    - labels
-    - milestones
-    - pull-requests
-    - code-review
+    - setup
     - gh-pages
+    - collaboration
+    - project-management
+    - ci
 
 ux:
   - user-understanding
@@ -104,11 +77,8 @@ ux:
   - usability-testing
 
 firebase:
-  - firestore:
-    - rules
-    - onSnapshot
-  - auth:
-    - onAuthStateChanged
+  - auth
+  - firestore
 
 front-end-web-dev:
   - components
@@ -117,24 +87,17 @@ front-end-web-dev:
 
 angular:
   - components-and-templates
-  - directives:
-    - ngIf
-    - ngFor
-    - input-output
-    - services
-    - routing
-    - observables
-    - http-client
-    - styles:
-      - ngStyle
-      - ngClass
+  - structural-directives
+  - input-output
+  - services
+  - routing
+  - observables
+  - http-client
+  - styles
 
 react:
   - jsx
-  - components:
-    - function
-    - class
-  - props
+  - components
   - events
   - lists-and-keys
   - conditional-rendering
@@ -148,13 +111,9 @@ vue:
   - data-and-methods
   - components
   - props
-  - directives:
-    - v-if
-    - v-else
-  - iteration:
-    - v-for
-  - events:
-    - v-on
+  - directives
+  - iteration
+  - events
   - computed-props-and-observers
   - routing
   - classes-and-styles
@@ -172,13 +131,8 @@ node:
   - npm-install
   - package.json
   - npm-scripts
-  - process:
-    # - env
-    # - argv
-    # - stdin-stdout-stderr
-    # - exit-code
-  - fs
-  - path
+  - process
+  - filesystem
 
 express:
   - routing
@@ -193,7 +147,6 @@ webops:
   - docker-containers
   - docker-compose
 
-# MongoDB, PostgreSQL o MySQL
 db:
   - install
   - conection

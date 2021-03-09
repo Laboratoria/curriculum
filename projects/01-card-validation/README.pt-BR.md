@@ -40,40 +40,19 @@ O tema é livre. Você deve pensar em quais situações da vida real um cartão 
 crédito precisaria ser validado e em como deveria ser a experiência do usuário
 (telas, explicações, mensagens, cores, marca?) etc.
 
-## 3. Objetivos de aprendizagem
-
 Você aprenderá a criar um aplicativo Web que irá interagir interagir com uma
 pessoa ao final do desenvolvimento através do navegador, usando HTML, CSS e
 JavaScript como tecnologias.
 
-Simplificando, você aprenderá a:
+## 3. Objetivos de aprendizagem
 
-* Organizar seu tempo e priorizar tarefas em um ambiente de **alta
-  insegurança**.
-* Compreender as **necessidades do usuário** e como propor uma solução.
-* Compreender a importância do processo de prototipagem durante a criação de um
-  produto digital.
-* Conhecer os princípios básicos do design visual.
-* Usar tags de HTML semânticas e elementos de formulário.
-* Mostrar elementos do formulário na tela usando **HTML** e **CSS**.
-* Empregar diversos tipos de seletores em CSS: de elemento, de tipo, de ID.
-* Empregar o modelo de caixa CSS (borda, margem, preenchimento).
-* Determinar as regras de estilo em CSS.
-* Permitir ao usuário que interaja com elementos do DOM e faça com que o
-  aplicativo responda quando ocorrerem esses **eventos do DOM**.
-* Manipular _**strings**_ (cadeias de texto).
-* Empregar **controle de fluxo** (loops, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**) mediante
-  **innerHTML** ou **textContent**.
-* **Implementar funções**, dada uma descrição do seu comportamento.
-* Verificar se suas funções realizam as tarefas para as quais foram criadas
-  (**testes de unidade (</em>unit tests</1>) com
-  [Jest](https://jestjs.io/pt-BR/)**).
-* Configurar sua conta git.
-* Realizar _fork_ e _clonar_ o repositório do projeto.
-* Manter atualizadas as alterações em seu repositório remoto (commit, pull,
-  push).
-* Implantar seu projeto nas [Páginas do GitHub](https://pages.github.com).
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

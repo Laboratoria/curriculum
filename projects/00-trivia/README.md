@@ -37,44 +37,20 @@ La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
 en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
 colores, ¿marca?) etc.
 
-## 3. Objetivos de aprendizaje
-
 El objetivo principal de este proyecto es, tener una primera experiencia
 desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
 través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
 herramientas.
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
-tu proyecto.
-Piensa en eso al decidir tu estrategia de trabajo individual y de equipo.
+## 3. Objetivos de aprendizaje
 
-### HTML y CSS
-
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
-
-### DOM
-
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-
-### JavaScript
-
-* [ ] Tipos de datos.
-* [ ] Declaración correcta de variables (const & let)
-* [ ] Concatenación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-
-### Estructura del código y guía de estilo
-
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-
-### UX
-
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener _feedback_ e iterar.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones generales
 

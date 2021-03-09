@@ -1,4 +1,4 @@
-# Proyecto de extensión: Sala de Emergencias
+# Sala de Emergencias
 
 ## Índice
 
@@ -45,42 +45,19 @@ los que trabajarás.
 Este proyecto es agnóstico a la tecnología que uses, es decir puedes desarrollarlo
 en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elección.
 
-## 3. Objetivos de aprendizaje
-
-### Generales
-
-1. Aplicar y profundizar todo lo que ya aprendiste.
-2. Pensar en las necesidades de las personas para crear tus "Historias de Usuario".
-3. Escribir y trabajar con historias de usuario, sus definiciones de terminado
-(_definition of done_) y criterios de aceptación como herramienta central de la
-organización y planificación de tu trabajo.
-4. Se te recomienda pensar en _test driven development_ al momento de programar la
-solución. Tendrás que escribir las pruebas unitarias, aprovechen la oportunidad
-de comenzar haciéndolo antes de escribir la funcionalidad.
-
-### Front-end
-
-1. El objetivo principal de este proyecto es que te familiarices con el uso de
+El objetivo principal de este proyecto es que te familiarices con el uso de
 arreglos y diccionarios, incluso que los combines para obtener estructuras de
 datos más complejas que te permitan resolver problemas grandes de datos.
-2. Dominar la manipulación del DOM para hacer aplicaciones interactivas y
-dinámicas sin necesidad de tener todo en HTML o varios archivos de HTML, sino
-que generando y modificando HTML desde JavaScript.
-3. Usar eventos del DOM, como _clicks_ o entradas de texto, para interactuar
-con los usuarios.
-4. Perfeccionar tus habilidades de diseño y CSS _responsive_ para lograr una
-interfaz que permita tener todos los elementos pedidos sin entorpecerse entre sí.
 
-### UX
+## 3. Objetivos de aprendizaje
 
-1. Definir un producto que responda a las necesidades y dificultades de
-pacientes que esperan a ser atendidos/as en urgencias y los de el/la doctor/a
-que los/as ingresa a la lista de espera, a partir de un acercamiento a los/as
-usuarios/as (observación contextual, entrevistas con doctores, enfermeras, etc).
-2. Seleccionar y priorizar la información a mostrar para cada usuario/a.
-3. Crear interfaces que sigan los principios de diseño visual.
-4. Iterar el diseño del producto y su usabilidad a partir del testeo con
-usuarios/as (mínimo 5 testeos de usabilidad).
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones generales
 

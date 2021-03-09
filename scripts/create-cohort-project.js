@@ -8,7 +8,10 @@ const exec = util.promisify(require('child_process').exec);
 const minimist = require('minimist');
 const mkdirp = require('mkdirp');
 const { Octokit } = require('@octokit/rest');
-const { getLearningObjectives, loadYaml } = require('@laboratoria/curriculum-parser/lib/project');
+const {
+  getLearningObjectives,
+  loadYaml,
+} = require('@laboratoria/curriculum-parser/lib/project');
 
 
 const prompt = text => new Promise((resolve) => {
@@ -41,7 +44,9 @@ const ensureRepoDir = async (repoDir, opts) => {
       throw new Error('Destination exists and its a file??');
     }
 
-    const confirmOverwrite = await prompt(`Dir ${repoDir} already exists.. use it anyway? [y/N]: `);
+    const confirmOverwrite = await prompt(
+      `Dir ${repoDir} already exists.. use it anyway? [y/N]: `,
+    );
     if (!['y', 'Y'].includes(confirmOverwrite)) {
       throw new Error('Aborting');
     }
@@ -71,10 +76,16 @@ const copy = async (src, repoDir, opts) => {
   await fs.copy(src, repoDir);
 
   if (opts.locale === 'pt-BR') {
-    return fs.move(`${repoDir}/README.pt-BR.md`, `${repoDir}/README.md`, { overwrite: true });
+    return fs.move(
+      `${repoDir}/README.pt-BR.md`,
+      `${repoDir}/README.md`,
+      { overwrite: true },
+    );
   }
 
-  return fs.unlink(`${repoDir}/README.pt-BR.md`);
+  if (fs.existsSync(`${repoDir}/README.pt-BR.md`)) {
+    return fs.unlink(`${repoDir}/README.pt-BR.md`);
+  }
 };
 
 
@@ -82,8 +93,15 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
   const learningObjectives = await getLearningObjectives(repoDir, {
     lo: path.join(__dirname, '../learning-objectives'),
   });
+
+  if (!learningObjectives) {
+    return;
+  }
+
   const lang = opts.locale ? opts.locale.split('-')[0] : 'es';
-  const intl = await loadYaml(path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yaml`));
+  const intl = await loadYaml(
+    path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
+  );
   const cats = learningObjectives.reduce(
     (memo, item) => {
       const cat = item.split('/')[0];
@@ -101,12 +119,15 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
             const item = intl[key] || {};
             const title = item.title || key.split('/').slice(1).join('/');
             if (!item.links || !item.links.length) {
-              return `${prev}\n\n- [ ] ${title}`;
+              return `${prev}\n\n- [ ] **${title}**`;
             }
+            // collapsible links
+            const detailsStart = '<details><summary>Links</summary><p>\n';
+            const detailsEnd = '\n</p></details>';
             return item.links.reduce(
               (p, link) => `${p}\n  * [${link.title}](${link.url})`,
-              `${prev}\n\n- [ ] ${title}\n\n  Links:\n`,
-            );
+              `${prev}\n\n- [ ] **${title}**\n\n  ${detailsStart}`,
+            ) + detailsEnd;
           },
           `${memo}\n\n### ${localizedCat.title || intl[cat] || cat}`,
         );
@@ -116,13 +137,21 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
 
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await fs.readFile(readmePath, 'utf8')).split('\n');
-  const startIndex = contents.findIndex(line => /^## \d\. Objetivos de aprendizaje/i.test(line));
+  const startIndex = contents.findIndex(
+    line => /^## \d\. Objetivos de aprendiza(je|gem)/i.test(line),
+  );
+
+  if (startIndex < 0) {
+    throw new Error('README.md is missing Learning Objectives heading');
+  }
+
   const endIndex = startIndex + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line));
   const updatedContent = contents.slice(0, startIndex + 1)
-    .concat('', text.trim(), contents.slice(endIndex))
+    .concat('', intl.description, text.trim(), contents.slice(endIndex))
     .join('\n');
 
   await fs.writeFile(readmePath, updatedContent);
+  await fs.unlink(path.join(repoDir, 'project.yml'));
 };
 
 
@@ -218,7 +247,7 @@ if (module === require.main) {
   const { _: args, ...opts } = minimist(process.argv.slice(2));
   main(args, opts)
     .catch((err) => {
-      console.error(err.message);
+      console.error(err);
       process.exit(1);
     });
 }
