@@ -51,8 +51,6 @@ que especifica o comportamento esperado da API que iremos expor por
 HTTP. Lá podemos encontrar todos os detalhes que os _endpoints_ deve
 implementar na aplicação, que parâmetros esperam, o que devem responder, etc.
 
-## 3. Objetivos de aprendizagem
-
 O objetivo de aprendizagem principal é adquirir experiência com o **Node.js**
 como ferramenta para desenvolvimento de _aplicações de servidor_, junto com uma série
 de outras ferramentas comumente utilizadas nesse contexto (Express como framework,
@@ -67,63 +65,15 @@ codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de d
 (`MongoDB`, `PostgreSQL` ou `MySQL`), **variables de ambiente**, **deployment**,
 **containers de `docker`**...
 
-### Node
+## 3. Objetivos de aprendizagem
 
-* [ ] Instalar e usar módulos. ([npm](https://www.npmjs.com/))
-* [ ] [Configuração de package.json.](https://docs.npmjs.com/files/package.json)
-* [ ] [Configuração de npm-scripts](https://docs.npmjs.com/misc/scripts)
-
-### Testes
-
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
-* [ ] [Teste assíncrono.](https://jestjs.io/docs/pt-BR/asynchronous)
-* [ ] Testes de integração.
-
-### Estrutura do código e guia de estilo
-
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
-
-### Git e GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
-* [ ] Colaboração no Github (branches | pull requests | | tags)
-* [ ] Organização no Github (projects | issues | labels | milestones)
-
-### Express
-
-* [ ] Rotas.
-* [ ] `middlewares`
-
-### HTTP
-
-* [ ] [Request, Response.](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Mensagens)
-* [ ] Headers.
-* [ ] Body.
-* [ ] [Verbos HTTP.](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
-* [ ] [Códigos de status de HTTP.](https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5)
-* [ ] Encodings e `JSON`.
-* [ ] [CORS.](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
-
-### Autenticação
-
-* [ ] `JWT`
-* [ ] Armazenamento e acesso de senhas.
-
-### WebOps
-
-* [ ] Variáveis de ambiente.
-* [ ] Containers (Docker).
-* [ ] Docker compose.
-
-### Base de dados (MongoDB, PostgreSQL ou MySQL)
-
-* [ ] Instalação.
-* [ ] Conexão através de cliente.
-* [ ] String de conexão
-* [ ] Queries e comandos (criação, leitura, atualização, eliminação)
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

@@ -80,61 +80,19 @@ Este são os dados que propomos:
   Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
   - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
 
-## 3. Objetivos de aprendizagem
-
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma
 interface web onde se possa visualizar e manipular dados, entendendo o que o
 usuário necessita.
 
-Em outras palavras, você aprenderá a:
+## 3. Objetivos de aprendizagem
 
-### HTML y CSS
-
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de seletores de CSS.
-* [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-### DOM y Web APIs
-
-* [ ] Uso de seletores de DOM.
-* [ ] Gerenciamento de eventos de DOM.
-* [ ] [Manipulação dinâmica de DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Uso de condicionais (if-else | switch | operador ternário)
-* [ ] Uso de laços (for | for..in | for..of | while)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Manipular arrays (filter | map | sort | reduce)
-* [ ] Manipular objects (key | value)
-* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-| [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [ ] Diferenciar entre expression e statements.
-* [ ] Diferenciar entre tipos de dados atômicos e estruturados.
-
-### Testing
-
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
-
-### Estrutura do código e guia de estilo
-
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
-
-### Git e GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciar repositórios de GitHub (clone | fork | gh-pages)
-* [ ] Colaboração no Github (branches | pull requests | |tags)
-
-### UX
-
-* [ ] Desenhar a aplicação pensando e entendendo o usuário.
-* [ ] Criar protótipos para obter feedback e iterar.
-* [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
-* [ ] Planejar e executar testes de usabilidade.
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

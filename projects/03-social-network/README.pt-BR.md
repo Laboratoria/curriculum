@@ -39,67 +39,21 @@ educação, saúde, energias renováveis, amantes das
 Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
 logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
 
-## 3. Objetivos de aprendizagem
-
 O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
 Application
 (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
 [_responsiva_](../../topics/css/02-responsive) (com mais de uma tela/ página) na
-qual seja possível **ler e escrever dados.**
+qual seja possível **ler e escrever dados**.
 
-### HTML e CSS
+## 3. Objetivos de aprendizagem
 
-* [ ] [HTML
-  semântico](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica)
-* [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-### DOM e Web APIs
-
-* [ ] [Manipulação do
-  DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-* [ ] [History
-  API](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
-* [ ]
-  [`localStorage`](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage)
-
-### Javascript
-
-* [ ] [Uso de
-  callbacks](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
-* [ ] [Consumo de
-  Promises](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
-* [ ] Uso de ES modules
-  ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-  |
-  [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-
-### Firebase
-
-* [ ] [Firestore](https://firebase.google.com/docs/firestore)
-* [ ] [Firebase Auth](https://firebase.google.com/docs/auth/web/start)
-* [ ] [Firebase security rules](https://firebase.google.com/docs/rules)
-* [ ] [Uso de
-  onSnapshot](https://firebase.google.com/docs/firestore/query-data/listen) |
-  [onAuthStateChanged](https://firebase.google.com/docs/auth/web/start#set_an_authentication_state_observer_and_get_user_data)
-
-### Testing
-
-* [ ] [Teste unitários](https://jestjs.io/docs/pt-BR/getting-started)
-* [ ] [Testes assíncronos](https://jestjs.io/docs/pt-BR/asynchronous)
-* [ ] [Mocking](https://jestjs.io/docs/pt-BR/manual-mocks)
-
-### Git e Github
-
-* [ ] Colaboração pelo Github
-* [ ] Organização pelo Github
-
-### Boas práticas de programação
-
-* [ ] Modularização
-* [ ] Nomenclatura / Semântica
-* [ ] Linting
-
-***
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

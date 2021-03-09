@@ -58,52 +58,19 @@ exemplo:
   em uma zona de conflito.
 * Mensagens secretas para alguma pessoa.
 
-## 3. Objetivos de aprendizagem
-
-Trabalhando em duplas, vocês aprenderam a construir uma aplicação web (_WebApp_)
-que irá interagir com o usuário final através do navegador utilizando HTML, CSS e
+Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
+interagir com o usuário final através do navegador utilizando HTML, CSS e
 JavaScript como ferramentas.
 
-### HTML e CSS
+## 3. Objetivos de aprendizagem
 
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
-
-### DOM
-
-* [ ] Uso de seletores do DOM.
-* [ ] Manipular eventos do DOM.
-* [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Manipulação de strings.
-* [ ] Uso de condicionais (if-else | switch | operador ternário)
-* [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Declaração correta de variáveis (const & let)
-
-### Testing
-
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
-
-### Estrutura do código e guia de estilo
-
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
-
-### Git e GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
-
-### UX
-
-* [ ] Desenhar a aplicação pensando e entendendo o usuário.
-* [ ] Criar protótipos para obter feedback e iterar.
-* [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

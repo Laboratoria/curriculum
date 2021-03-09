@@ -1,0 +1,584 @@
+# Párrafo que aparece en el README en la sección de Objetivos de aprendizaje
+# de cada proyecto.
+description: >
+  Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
+  tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+
+############################
+# Objetivos de aprendizaje #
+############################
+
+html: HTML
+
+html/semantics:
+  title: Uso de HTML semántico
+  description: ""
+  links:
+  - title: HTML semántico
+    url: topics/html/02-html5/02-semantic-html
+  - title: Semantics - MDN Web Docs Glossary
+    url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
+
+css: CSS
+
+css/selectors:
+  title: Uso de selectores de CSS
+  links:
+  - title: Intro a CSS
+    url: topics/css/01-css/01-intro-css
+  - title: CSS Selectors - MDN
+    url: https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors
+
+css/box-model:
+  title: "Modelo de caja (box model): borde, margen, padding"
+
+css/flexbox:
+  title: Uso de flexbox en CSS
+  links:
+  - title: A Complete Guide to Flexbox - CSS Tricks
+    url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  - title: Flexbox Froggy
+    url: https://flexboxfroggy.com/#es
+
+css/grid:
+  title: Uso de CSS Grid Layout
+  links:
+  - title: A Complete Guide to Grid - CSS Tricks
+    url: https://css-tricks.com/snippets/css/complete-guide-grid/
+
+css/media-queries:
+  title: Uso de media queries
+  links:
+  - title: CSS media queries - MDN
+    url: https://developer.mozilla.org/es/docs/CSS/Media_queries
+
+browser: Web APIs
+
+browser/dom: DOM (Document Object Model)
+
+browser/dom/selectors:
+  title: Uso de selectores del DOM
+  links:
+  - title: Manipulación del DOM
+    url: topics/browser/02-dom/03-1-dom-methods-selection
+  - title: Introducción al DOM - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction
+  - title: Localizando elementos DOM usando selectores - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
+
+browser/dom/events:
+  title: Manejo de eventos del DOM (listeners, propagación, delegación)
+  links:
+  - title: Introducción a eventos - MDN
+    url: https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events
+  - title: EventTarget.addEventListener() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener
+  - title: EventTarget.removeEventListener() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener
+  - title: El objeto Event
+    url: https://developer.mozilla.org/es/docs/Web/API/Event
+
+browser/dom/manipulation:
+  title: Manipulación dinámica del DOM
+  links:
+  - title: Node.appendChild() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Node/appendChild
+  - title: Document.createElement() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Document/createElement
+  - title: Document.createTextNode()
+    url: https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode
+  - title: Element.innerHTML - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML
+  - title: Node.textContent - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Node/textContent
+
+
+browser/routing:
+  title: Ruteado (History API, evento hashchange, window.location)
+  links:
+  - title: Manipulando el historial del navegador - MDN
+    url: https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador
+
+browser/storage:
+  title: Browser storage (localStorage, sessionStorage)
+  links:
+  - title: Window.localStorage - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Window/localStorage
+
+browser/fetch:
+  title: Fetch API
+  links:
+  - title: Fetch API - MDN
+    url: https://developer.mozilla.org/es/docs/Web/API/Fetch_API
+
+js: JavaScript
+
+js/data-types/primitive:
+  title: Tipos de datos primitivos
+
+js/data-types/strings:
+  title: Strings (cadenas de caracteres)
+
+js/data-types/arrays:
+  title: Arrays (arreglos)
+  links:
+  - title: Array - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/
+  - title: Array.prototype.sort() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+  - title: Array.prototype.forEach() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+  - title: Array.prototype.map() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+  - title: Array.prototype.filter() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+  - title: Array.prototype.reduce() - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+
+js/data-types/objects:
+  title: Objetos (key, value)
+
+js/data-types/primitive-vs-non-primitive:
+  title: Diferenciar entre tipos de datos primitivos y no primitivos
+
+js/variables:
+  title: Variables (declaración, asignación, ámbito)
+
+js/conditionals:
+  title: Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
+  links:
+  - title: Tomando decisiones en tu código — condicionales - MDN
+    url: https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals
+
+js/functions:
+  title: Funciones (params, args, return)
+  links:
+  - title: Funciones — bloques de código reutilizables
+    url: https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions
+
+js/loops:
+  title: Uso de bucles/ciclos (while, for, for..of)
+
+js/recursion:
+  title: Recursión o recursividad
+  links:
+  - title: Píldora recursión - YouTube Laboratoria Developers
+    url: https://www.youtube.com/watch?v=lPPgY3HLlhQ
+
+js/semantics:
+  title: Uso de identificadores descriptivos (Nomenclatura y Semántica)
+
+js/expression-vs-statement:
+  title: Diferenciar entre expresiones (expressions) y sentencias (statements)
+
+js/testing/unit:
+  title: Pruebas unitarias (unit tests)
+  links:
+  - title: Empezando con Jest - Documentación oficial
+    url: https://jestjs.io/docs/es-ES/getting-started
+
+js/testing/async:
+  title: Pruebas asíncronas
+  links:
+  - title: Tests de código asincrónico con Jest - Documentación oficial
+    url: https://jestjs.io/docs/es-ES/asynchronous
+
+js/testing/mocks:
+  title: Uso de mocks y espías
+  links:
+  - title: Manual Mocks con Jest - Documentación oficial
+    url: https://jestjs.io/docs/es-ES/manual-mocks
+
+js/testing/e2e:
+  title: Pruebas de integración (end-to-end)
+
+js/testing/compatibility:
+  title: Pruebas de compatibilidad en múltiples entornos de ejecución
+
+js/modules/es-modules:
+  title: Módulos de ECMAScript (ES Modules)
+  links:
+  - title: import - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import
+  - title: export - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export
+
+js/modules/commonjs:
+  title: Módulos de CommonJS
+  links:
+  - title: "Modules: CommonJS modules - Node.js Docs"
+    url: https://nodejs.org/docs/latest/api/modules.html
+
+js/linting:
+  title: Uso de linter (ESLINT)
+
+js/async/callbacks:
+  title: Callbacks
+  links:
+  - title: Función Callback - MDN
+    url: https://developer.mozilla.org/es/docs/Glossary/Callback_function
+
+js/async/promises:
+  title: Promesas
+  links:
+  - title: Promise - MDN
+    url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+  - title: How to Write a JavaScript Promise - freecodecamp (en inglés)
+    url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
+
+scm:
+  title: Control de Versiones (Git y GitHub)
+
+scm/git/setup:
+  title: "Git: Instalación y configuración"
+
+scm/git/intro:
+  title: "Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)"
+
+scm/git/integration:
+  title: "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github/setup:
+  title: "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
+
+scm/github/collaboration:
+  title: "GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)"
+
+scm/github/gh-pages:
+  title: "GitHub: Despliegue con GitHub Pages"
+  links:
+  - title: Sitio oficial de GitHub Pages
+    url: https://pages.github.com/
+
+scm/github/project-management:
+  title: "GitHub: Organización en Github (projects | issues | labels | milestones | releases)"
+
+scm/github/ci:
+  title: "GitHub: Integración continua con GitHub actions"
+
+ux: UX (User eXperience)
+
+ux/user-understanding:
+  title: Diseñar la aplicación pensando en y entendiendo al usuario
+
+ux/prototyping:
+  title: Crear prototipos para obtener feedback e iterar
+
+ux/visual-design:
+  title: Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+
+ux/usability-testing:
+  title: Planear y ejecutar tests de usabilidad
+
+firebase: Firebase
+
+firebase/auth:
+  title: Firebase Auth
+  links:
+  - title: Primeros pasos con Firebase Authentication en sitios web - Documentación oficial
+    url: https://firebase.google.com/docs/auth/web/start?hl=es
+  - title: Administra usuarios en Firebase (onAuthStateChanged)
+    url: https://firebase.google.com/docs/auth/web/manage-users?hl=es#get_the_currently_signed-in_user
+
+firebase/firestore:
+  title: Firestore
+  links:
+  - title: Firestore - Documentación oficial
+    url: https://firebase.google.com/docs/firestore?hl=es
+  - title: Reglas de seguridad de Firestore - Documentación oficial
+    url: https://firebase.google.com/docs/rules?hl=es
+  - title: Obtén actualizaciones en tiempo real con Cloud Firestore - Documentación oficial
+    url: https://firebase.google.com/docs/firestore/query-data/listen?hl=es
+
+node: Node.js
+
+node/npm-install:
+  title: Instalar y usar módulos con npm
+  links:
+  - title: Sitio oficial de npm (en inglés)
+    url: https://www.npmjs.com/
+
+node/package.json:
+  title: Configuración de package.json
+  links:
+  - title: package.json - Documentación oficial (en inglés)
+    url: https://docs.npmjs.com/files/package.json
+
+node/npm-scripts:
+  title: Configuración de npm-scripts
+  links:
+  - title: scripts - Documentación oficial (en inglés)
+    url: https://docs.npmjs.com/misc/scripts
+
+node/filesystem:
+  title: File system (fs, path)
+  links:
+  - title: File system - Documentación oficial (en inglés)
+    url: https://nodejs.org/api/fs.html
+  - title: Path - Documentación oficial (en inglés)
+    url: https://nodejs.org/api/path.html
+
+node/process:
+  title: process (env, argv, stdin-stdout-stderr, exit-code)
+  links:
+  - title: Process - Documentación oficial (en inglés)
+    url: https://nodejs.org/api/process.html
+
+express: Express.js
+
+express/routing:
+  title: Manejo de rutas
+
+express/middleware:
+  title: Uso y creación de middleware
+
+http: HTTP
+
+http/request-response:
+  title: Consulta o petición (request) y respuesta (response).
+  links:
+  - title: Generalidades del protocolo HTTP - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Overview
+  - title: Mensajes HTTP - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Messages
+
+http/headers:
+  title: Cabeceras (headers)
+  links:
+  - title: HTTP headers - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Headers
+
+http/body:
+  title: Cuerpo (body)
+  links:
+  - title: POST - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods/POST
+
+http/verbs:
+  title: Verbos HTTP
+  links:
+  - title: Métodos de petición HTTP - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+
+http/status-codes:
+  title: Codigos de status de HTTP
+  links:
+  - title: Códigos de estado de respuesta HTTP - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/Status
+  - title: The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to
+    url: https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5
+
+http/json:
+  title: Encodings y JSON
+  links:
+  - title: Introducción a JSON - Documentación oficial
+    url: https://www.json.org/json-es.html
+
+http/cors:
+  title: CORS (Cross-Origin Resource Sharing)
+  links:
+  - title: Control de acceso HTTP (CORS) - MDN
+    url: https://developer.mozilla.org/es/docs/Web/HTTP/CORS
+
+angular: Angular
+
+angular/components-and-templates:
+  title: Components & templates
+  links:
+  - title: Angular Components Overview - Documentación oficial (en inglés)
+    url: https://angular.io/guide/component-overview
+  - title: Introduction to components and templates - Documentación oficial (en inglés)
+    url: https://angular.io/guide/architecture-components#introduction-to-components
+
+angular/structural-directives:
+  title: Directivas estructurales (ngIf / ngFor)
+  links:
+  - title: Writing structural directives - Documentación oficial (en inglés)
+    url: https://angular.io/guide/structural-directives
+
+angular/input-output:
+  title: "@Input | @Ouput"
+  links:
+  - title: Component interaction - Documentación oficial (en inglés)
+    url: https://angular.io/guide/component-interaction#component-interaction
+
+angular/services:
+  title: Creación y uso de servicios
+  links:
+  - title: Providing services - Documentación oficial (en inglés)
+    url: https://angular.io/guide/architecture-services#providing-services
+
+angular/routing:
+  title: Manejo de rutas
+  links:
+  - title: "In-app navigation: routing to views - Documentación oficial (en inglés)"
+    url: https://angular.io/guide/router
+
+angular/observables:
+  title: Creación y uso Observables.
+  links:
+  - title: Observables in Angular - Documentación oficial (en inglés)
+    url: https://angular.io/guide/observables-in-angular
+
+angular/http-client:
+  title: Uso de HttpClient
+  links:
+  - title: Communicating with backend services using HTTP - Documentación oficial (en inglés)
+    url: https://angular.io/guide/http
+
+angular/styles:
+  title: Estilos de componentes (ngStyle / ngClass)
+  links:
+  - title: Template syntax - Documentación oficial (en inglés)
+    url: https://angular.io/guide/template-syntax#built-in-directives
+
+react: React
+
+react/jsx:
+  title: JSX
+  links:
+  - title: Presentando JSX - Documentación oficial
+    url: https://es.reactjs.org/docs/introducing-jsx.html
+
+react/components:
+  title: Componentes y propiedades (props)
+  links:
+  - title: Componentes y propiedades - Documentación oficial
+    url: https://es.reactjs.org/docs/components-and-props.html
+
+react/events:
+  title: Manejo de eventos
+  links:
+  - title: Manejando eventos - Documentación oficial
+    url: https://es.reactjs.org/docs/handling-events.html
+
+react/lists-and-keys:
+  title: Listas y keys
+  links:
+  - title: Listas y keys - Documentación oficial
+    url: https://es.reactjs.org/docs/lists-and-keys.html
+
+react/conditional-rendering:
+  title: Renderizado condicional
+  links:
+  - title: Renderizado condicional - Documentación oficial
+    url: https://es.reactjs.org/docs/conditional-rendering.html
+
+react/lifting-up-state:
+  title: Elevación de estado
+  links:
+  - title: Levantando el estado - Documentación oficial
+    url: https://es.reactjs.org/docs/lifting-state-up.html
+
+react/hooks:
+  title: Hooks
+  links:
+  - title: Presentando Hooks - Documentación oficial
+    url: https://es.reactjs.org/docs/hooks-intro.html
+
+react/css-modules:
+  title: CSS modules
+  links:
+  - title: Adding a CSS Modules Stylesheet - Documentación de Create React App (en inglés)
+    url: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
+
+react/routing:
+  title: React Router
+  links:
+  - title: Quick Start - Documentación oficial (en inglés)
+    url: https://reactrouter.com/web/guides/quick-start
+
+
+vue: Vue
+
+vue/instance:
+  title: Instancia de Vue.js
+  links:
+  - title: La instancia Vue - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/instance.html
+
+vue/data-and-methods:
+  title: Datos y métodos
+  links:
+  - title: Datos y Métodos - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos
+
+vue/components:
+  title: Uso y creación de componentes
+  links:
+  - title: Conceptos Básicos de Componentes - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/components.html
+
+vue/props:
+  title: Props
+  links:
+  - title: Pasando datos a componentes secundarios con Props - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props
+
+vue/directives:
+  title: Directivas (v-bind | v-model)
+  links:
+  - title: v-bind - Documentación oficial
+    url: https://es.vuejs.org/v2/api/#v-bind
+  - title: Binding en Formularios - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/forms.html
+
+vue/iteration:
+  title: Iteración (v-for)
+  links:
+  - title: Mapeando una matriz a elementos con v-for - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for
+
+vue/events:
+  title: Eventos (v-on)
+  links:
+  - title: Manejo de eventos - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/events.html
+
+vue/computed-props-and-observers:
+  title: Propiedades Computadas y Observadores
+  links:
+  - title: Propiedades Computadas y Observadores
+    url: https://es.vuejs.org/v2/guide/computed.html
+
+vue/routing:
+  title: Routing
+  links:
+  - title: Getting Started - Documentación oficial de Vue Router
+    url: https://router.vuejs.org/guide/#html
+
+vue/classes-and-styles:
+  title: Clases y Estilos
+  links:
+  - title: Enlace Clases y Estilos - Documentación oficial
+    url: https://es.vuejs.org/v2/guide/class-and-style.html
+
+auth: Autenticación
+
+auth/jwt:
+  title: JWT (JSON Web Token)
+
+auth/password-access-and-storage:
+  title: Almacenamiento y acceso de contraseñas
+
+webops: WebOps
+
+webops/env-vars:
+  title: Variables de entorno
+
+webops/docker-containers:
+  title: Contenedores (Docker)
+
+webops/docker-compose:
+  title: Docker compose
+
+db: Bases de datos (a elegir entre MongoDB, PostgreSQL o MySQL)
+
+db/install:
+  title: Instalación
+
+db/conection:
+  title: Conexión
+
+db/queries:
+  title: Queries y comandos (creación, lectura, actualización, eliminación)

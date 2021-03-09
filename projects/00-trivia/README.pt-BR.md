@@ -39,43 +39,19 @@ O tema é livre. Você deve criar a melhor trivia possível e pensar em como dev
 ser a experiência de uso (que telas, explicações, mensagens, cores, marca?,
 etc...).
 
-## 3. Objetivos de aprendizagem
-
 O objetivo principal deste projeto é ter uma primeira experiência desenvolvendo
 aplicações web (WebApp) que interajam com o usuário através do navegador e
 desenvolver a lógica, utilizando HTML, CSS e JavaScript como ferramentas.
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu
-projeto. Pense nisso para decidir sua estratégia de trabalho individual e em
-equipe.
+## 3. Objetivos de aprendizagem
 
-### HTML e CSS
-
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
-
-### DOM
-
-* [ ] Uso de seletores do DOM.
-* [ ] Gestão dos eventos do DOM.
-* [ ] [Manipulação dinâmica do DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-
-### JavaScript
-
-* [ ] Tipos de Dados
-* [ ] Declaração correta de variáveis (const & let)
-* [ ] Concatenação de strings
-* [ ] Uso de condicionais (if-else | switch | operador ternario)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-
-### Estrutura de código e guia de estilo
-
-* [ ] Uso identificadores descritivos (Nomenclatura | Semântica).
-
-### UX
-
-* [ ] Desenhar a aplicação pensando e entendendo o usuário.
-* [ ] Criar protótipos para obter _feedback_ e implementar.
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

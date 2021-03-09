@@ -95,27 +95,33 @@ adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
+O objetivo principal é aprender a construir uma _interface web_ usando o
+_framework_ escolhido (React, Vue ou Angular). Esse framework front-end ataca
+o seguinte problema: **como manter a interface e estado sincronizados**.
+Portanto, esta experiência espera familiarizá-la com o conceito de _estado da
+tela_, e como cada mudança no estado vai refletir na interface (por exemplo,
+toda vez que adicionamos um _produto_ para um _pedido_, a interface deve
+atualizar a lista de pedidos e o total).
+
+Como objetivo **SECUNDÁRIO**, você deve seguir as recomendações para PWAs
+(_Progressive Web Apps_), que inclui conceitos como **offline**. Para
+orientá-las sobre este tema,recomendamos que você use
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es), que
+é uma ferramenta do Google que nos ajuda a garantir que nossos aplicativos
+web sigam "boas práticas". Usaremos o Lighthouse ao avaliar o projeto.
+
+Finalmente, a interface deve estar desenhada especificamente para funcionar
+em **tablets**
+
 ## 3. Objetivos de aprendizagem
 
-1. O objetivo principal é aprender a construir uma _interface web_ usando o
-   _framework_ escolhido (React, Vue ou Angular). Esse framework front-end ataca
-   o seguinte problema: **como manter a interface e estado sincronizados**.
-   Portanto, esta experiência espera familiarizá-la com o conceito de _estado da
-   tela_, e como cada mudança no estado vai refletir na interface (por exemplo,
-   toda vez que adicionamos um _produto_ para um _pedido_, a interface deve
-   atualizar a lista de pedidos e o total).
-
-2. Como objetivo **SECUNDÁRIO**, você deve seguir as recomendações para PWAs
-   (_Progressive Web Apps_), que inclui conceitos como **offline**. Para
-   orientá-las sobre este tema,recomendamos que você use
-   [Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es), que
-   é uma ferramenta do Google que nos ajuda a garantir que nossos aplicativos
-   web sigam "boas práticas". Usaremos o Lighthouse ao avaliar o projeto.
-
-3. Finalmente, a interface deve estar desenhada especificamente para funcionar
-   em **tablets**
-
-Tópicos: _react_, _angular_, _vue_, _pwa_, _offline-first_, _service-worker_.
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 

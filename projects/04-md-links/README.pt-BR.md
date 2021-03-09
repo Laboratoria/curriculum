@@ -50,68 +50,20 @@ _stdin/stdout/stderr_).
 Neste projeto você criará uma ferramenta de linha de comando (CLI) assim como a
 sua própria biblioteca (library) em JavaScript.
 
-## 3. Objetivos de aprendizagem
-
 Desenvolver sua própria biblioteca é uma experiência fundamental para qualquer
 desenvolvedora, pois te obriga a pensar na interface (API) dos seus _módulos_ e
 como ela será usada por outras desenvolvedoras. Você deve levar em conta as
 peculiaridades da linguagem, convenções e boas práticas.
 
-A seguir você pode conferir os objetivos de aprendizagem deste projeto:
+## 3. Objetivos de aprendizagem
 
-### Javascript
-
-* [ ] Uso de condicionais (if-else | switch | operador ternario)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Manipular arrays (filter | map | sort | reduce)
-* [ ] Manipular objects (key | value)
-* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-      | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [ ] Diferença entre expression e statements.
-* [ ] Diferença entre tipos de dados atômicos e estruturados.
-* [ ] [Uso de callbacks](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
-* [ ] [Consumo de Promises](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
-* [ ] [Criação de uma Promise](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
-
-### Node
-
-* [ ] Uso de sistema de arquivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
-* [ ] Instalar e usar módulos. ([npm](https://www.npmjs.com/))
-* [ ] criação de módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
-* [ ] [Configuração do package.json.](https://docs.npmjs.com/files/package.json)
-* [ ] [Configuração do npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [ ] Uso de CLI (Command Line Interface - Interface de Linha de Comando)
-
-### Testing
-
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
-* [ ] [Teste assíncrono.](https://jestjs.io/docs/pt-BR/asynchronous)
-* [ ] [Uso de bibliotecas de Mock.](https://jestjs.io/docs/pt-BR/manual-mocks)
-* [ ] Uso de Mocks manuais.
-* [ ] Teste para múltiplos Sistemas Operativos.
-
-### Estrutura do código e guia de estilo
-
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
-
-### Git e Github
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
-* [ ] Colaboração no Github (branches | pull requests | |tags)
-* [ ] Organização no Github (projects | issues | labels | milestones)
-
-### HTTP
-
-* [ ] Verbos HTTP ([http.get](https://nodejs.org/api/http.html#http_http_get_options_callback))
-
-### Fundamentos de programação
-
-* [ ] [Recursão.](https://www.youtube.com/watch?v=lPPgY3HLlhQ)
-
-***
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 
