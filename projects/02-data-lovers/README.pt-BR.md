@@ -69,8 +69,16 @@ Este são os dados que propomos:
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
   personagens da série Rick & Morty. Você pode revisar a documentação da API
   neste [link](https://rickandmortyapi.com).
-  - [Pesquisa com seguidores de Rick and
-    Morty](src/data/rickandmorty/README.pt-BR.md)
+  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt-BR.md)
+
+* [Jogos Olímpicos do Rio de Janeiro](src/data/atletas/atletas.json).
+   Este conjunto nos fornece a lista de atletas que conquistaram medalhas no
+   Olimpíadas no Rio de Janeiro.
+  - [Pesquisa com stakeholders dos Jogos Olímpicos do Rio de Janeiro](src/data/atletas/README.pt-BR.md)
+
+* [Studio Ghibli](src/data/ghibli/ghibli.json).
+  Lista de animações e personagens da [Studio Ghibli](https://ghiblicollection.com/).
+  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
 
 ## 3. Objetivos de aprendizagem
 
@@ -263,9 +271,17 @@ como toda a configuração de dependências:
 |  |  |  ├── pokemon.json
 |  |  |  └── README.md
 |  |  └── rickandmorty
-|  |     ├── rickandmorty.js
-|  |     └── rickandmorty.json
-|  |     └── README.md
+|  |  |  ├── rickandmorty.js
+|  |  |  ├── rickandmorty.json
+|  |  |  └── README.md
+|  |  └── athletes
+|  |  |  ├── athletes.js
+|  |  |  ├── athletes.json
+|  |  |  └── README.md
+|  |  └── ghibli
+|  |  |  ├── ghibli.js
+|  |  |  ├── ghibli.json
+|  |  |  └── README.md
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -273,7 +289,7 @@ como toda a configuração de dependências:
 └── test
    └── data.spec.js
 
-directory: 6 file: 17
+directory: 7 file: 20
 ```
 
 ### `src/index.html`

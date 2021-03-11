@@ -48,15 +48,19 @@ en la que podamos **leer y escribir datos.**
 * [ ] Uso de selectores de CSS.
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 * [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [ ] [Uso de CSS Grid Layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ### DOM y Web APIs
 
 * [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-* [ ] [History API.](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
-* [ ] [localStorage.](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+* [ ] Manejo de eventos del DOM (addEventListener, removeEventListener,
+Event objeto, delegación de eventos)
+* [ ] [Manipulación dinámica del DOM](
+  https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+(appendChild | createElement | createTextNode | innerHTML | textContent | etc.)
+* [ ] Implementación de routing ([History API.](
+  https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador
+  ) | `hashchange`)
 
 ### JavaScript
 
