@@ -52,7 +52,6 @@ qual seja possível **ler e escrever dados.**
 * [ ] [HTML
   semântico](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica)
 * [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [ ] Construir sua aplicação respeitando o protótipo.
 
 ### DOM e Web APIs
 

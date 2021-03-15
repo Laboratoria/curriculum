@@ -53,7 +53,6 @@ equipe.
 
 * [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
 * [ ] Uso de seletores de CSS.
-* [ ] Construa sua aplicação respeitando o design feito (layout).
 
 ### DOM
 

@@ -109,7 +109,6 @@ A continuación puedes ver los objetivos de aprendizaje de este proyecto:
 
 * [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] Uso de selectores de CSS.
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 * [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [ ] [Uso de Media Queries.](https://developer.mozilla.org/es/docs/CSS/Media_queries)
 

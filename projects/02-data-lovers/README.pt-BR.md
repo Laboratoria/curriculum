@@ -92,7 +92,6 @@ Em outras palavras, você aprenderá a:
 
 * [ ] [Uso de HTML semântico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] Uso de seletores de CSS.
-* [ ] Construir sua aplicação respeitando o desenho realizado (protótipo).
 * [ ] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### DOM y Web APIs

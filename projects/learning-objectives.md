@@ -11,7 +11,6 @@
 
 - [ ] Uso de HTML semántico.
 - [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 - [ ] Uso de flexbox en CSS.
 - [ ] Uso de Media Queries.
 - [ ] Sass
