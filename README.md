@@ -1,7 +1,7 @@
 # Bootcamp @Laboratoria
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-66-orange.svg?style=flat-square)](#contribuciones)
+[![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](#contribuciones)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
@@ -535,6 +535,7 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://github.com/IsabellaSoares"><img src="https://avatars3.githubusercontent.com/u/32148199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabella Soares de Lima</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3AIsabellaSoares" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/dsandovalm"><img src="https://avatars.githubusercontent.com/u/58996746?v=4?s=100" width="100px;" alt=""/><br /><sub><b>dsandovalm</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/commits?author=dsandovalm" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/unjust"><img src="https://avatars.githubusercontent.com/u/92090?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivy Feraco</b></sub></a><br /><a href="#content-unjust" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/fakel"><img src="https://avatars.githubusercontent.com/u/10450905?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fares A. Akel C.</b></sub></a><br /><a href="#content-fakel" title="Content">🖋</a></td>
   </tr>
 </table>
 
