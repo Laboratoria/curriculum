@@ -62,7 +62,7 @@ A continuación puedes ver los objetivos de aprendizaje de este proyecto:
 
 * [ ] Uso de condicionales [(if-else | switch | operador ternario)](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 * [ ] Uso de funciones [(parámetros | argumentos | valor de retorno)](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
-* [ ] Manipular arrays ([filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) | [map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) | [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce))
+* [ ] Manipular arrays[(filter | map | sort | reduce)](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/)
 * [ ] Manipular objects (key | value)
 * [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
@@ -166,7 +166,7 @@ considere necesarios.
 * `test/md-links.spec.js` debe contener los tests unitarios para la función
   `mdLinks()`. Tu inplementación debe pasar estos tets.
 
-# Este proyecto consta de DOS partes
+## Este proyecto consta de DOS partes
 
 ### 1) JavaScript API
 
@@ -177,9 +177,9 @@ siguiente interfaz:
 
 ##### Argumentos
 
-* `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**. Si la ruta pasada es
-  relativa, debe resolverse como relativa al directorio desde donde se invoca
-  node - _current working directory_).
+* `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
+Si la ruta pasada es relativa, debe resolverse como relativa al directorio
+desde donde se invoca node - _current working directory_).
 * `options`: Un objeto con **únicamente** la siguiente propiedad:
   - `validate`: Booleano que determina si se desea validar los links
     encontrados.
