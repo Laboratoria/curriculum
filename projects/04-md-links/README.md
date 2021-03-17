@@ -454,7 +454,7 @@ Tomando en consideración los **entregables** del proyecto, el
 ### Antes de codear
 
 En esta ocasión estarás trabajando en **NodeJS**, asegúrate
-de saber para que sirve y sus consideraciones.
+de saber para qué sirve y sus consideraciones.
 
 En particular, deberás decidir desde un comienzo si usarás
 `ES Modules`, es decir, **import/export**, ó, por el contrario,
@@ -480,7 +480,7 @@ nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
 
 Aquí también podrá ser útil `FS`.
 
-### Obten el contenido de un directorio
+### Obtén el contenido de un directorio
 
 Este proyecto consiste en buscar archivos, pero para eso,
 primero debes poder verlos.
@@ -495,7 +495,7 @@ Para poder acceder a carpetas y archivos será necesario que
 indiques en qué lugar de tu computadora se encuentran, a esto
 le llamamos **rutas**.
 
-Usa la librería nativa PATH para unir dos segmentos de ruta,
+Usa la librería nativa `path` para unir dos segmentos de ruta,
 por ejemplo, si queremos unir:
 
 1) /home/Laboratoria/
