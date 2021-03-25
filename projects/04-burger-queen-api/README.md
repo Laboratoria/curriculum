@@ -49,8 +49,8 @@ datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/),
 
 La clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
 que especifica el comportamiento esperado de la API que expondremos por
-HTTP.  Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
-implementar  la aplicación, qué parámetros esperan, qué deben responder, etc.
+HTTP. Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
+implementar la aplicación, qué parámetros esperan, qué deben responder, etc.
 
 ## 3. Objetivos de aprendizaje
 
@@ -133,7 +133,7 @@ Este proyecto se realizará en duos y deberá integrarse con el proyecto
 [Burger Queen API client](../04-burger-queen-api-client)
 que desarrolle simultáneamente el equipo de Frontend developers de tu squad.
 
-La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
+La lógica del proyecto debe estar implementada completamente en JavaScript.
 En este proyecto está permitido usar librerías o frameworks, asi como
 extensiones al lenguaje con `babel` (caso en el cual deberás incluir un
 comando `npm run build`).
@@ -173,7 +173,7 @@ usarlas como guía de implementación y checklist de completitud.
 Según lo establecido por la [documentación](https://laboratoria.github.io/burger-queen-api/)
 entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 
-#### 5.1,1 `/`
+#### 5.1.1 `/`
 
 * `GET /`
 
@@ -240,7 +240,7 @@ Nuestra aplicación usa las siguientes variables de entorno:
   configuradas con `docker-compose` (mas sobre esto en la siguiente sección de
   **Deployment**)
 * `JWT_SECRET`: Nuestra aplicación implementa autenticación usando JWT (JSON
-   Web Tokens). Para poder firmar (cifrar) y verificar (descifrar) los tokens,
+  Web Tokens). Para poder firmar (cifrar) y verificar (descifrar) los tokens,
   nuestra aplicación necesita un secreto. En local puedes usar el valor por
   defecto (`xxxxxxxx`), pero es muy importante que uses un _secreto_ de verdad
   en producción.
@@ -278,10 +278,10 @@ explorar las siguientes opciones:
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes cosiderar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
-  [GCP (Google Cloud Platform)](https://cloud.google.com/), ambos algún tipo de
-  _free tier_ así como tanto _instancias_ de _servidores virtuales_ (VPS) donde
-  configurar nuestro propio Docker o servicios para desplegar aplicaciones en
-  contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
+  [GCP (Google Cloud Platform)](https://cloud.google.com/), ambos tienen algún
+  tipo de _free tier_ así como tanto _instancias_ de _servidores virtuales_
+  (VPS) donde configurar nuestro propio Docker o servicios para desplegar
+  aplicaciones en contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
   de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
 * Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
@@ -292,17 +292,27 @@ dudes en consultar con tus pares y tus coaches.
 
 ## 6. Pistas, tips y lecturas complementarias
 
+### Primeros pasos
+
+> :information_source: Antes de comenzar a programar te recomendamos leer y
+> seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED.md)
+> para ayudarte a elegir tu stack (base de datos, módulo para conectar a la base
+> de datos desde Node.js, etc) y configurar tu entorno de desarrollo.
+
+### Otros recursos
+
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
+* [¿Qué es Docker? | Curso de Docker | Platzi Cursos](https://youtu.be/hQgvt-s-AHQ)
 * [Postman](https://www.getpostman.com)
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
 
-***
+---
 
 ## 7 HTTP API Checklist
 
