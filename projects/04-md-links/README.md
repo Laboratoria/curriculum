@@ -104,7 +104,7 @@ A continuación puedes ver los objetivos de aprendizaje de este proyecto:
 
 ### HTTP
 
-* [ ] Verbos HTTP ([http.get](https://nodejs.org/api/http.html#http_http_get_options_callback))
+* [ ] [Códigos de status HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ### Fundamentos de programación
 
