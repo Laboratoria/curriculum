@@ -1,6 +1,7 @@
 {
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
