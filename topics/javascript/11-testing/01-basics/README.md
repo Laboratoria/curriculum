@@ -8,7 +8,7 @@
 
 Cuando hablamos de **tests** (pruebas), podríamos ponernos a pensar en
 herramientas de testing, como `Mocha`, `Jest`, `Jasmine`, ... o metodologías de
-desarrollo como TDD o BDD. Todo esto puedes ser super confuso. En esta unidad
+desarrollo como TDD o BDD. Todo esto puede ser super confuso. En esta unidad
 trataremos de desmitificar un poco este tema empezando desde el principio. Para
 ello pensemos en pruebas simplemente como el acto de ejecutar algo en la
 computadora y después comprobar que efectivamente ocurrió lo que esperábamos.
@@ -26,7 +26,7 @@ ojos y _comprobar_ qué es ese valor (de una forma visual). Estamos probando (o
 comprobando) que efectivamente la variable `a` tomó el valor `5`, que era
 exactamente lo que esperábamos.
 
-Este proceso nos perimite ir viendo qué está ocurriendo en el código mientras lo
+Este proceso nos permite ir viendo qué está ocurriendo en el código mientras lo
 escribimos. Usa `console.log`, y úsalo mucho. Pero obviamente tiene sus
 limitaciones. En este caso dependemos de que una persona ejecute el comando, vea
 el _output_ (salida) y en su cabeza haga la comprobación. Muy útil para uno
