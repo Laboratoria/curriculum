@@ -4,105 +4,241 @@
 
 - [1. Preámbulo](#1-preambulo)
 - [2. Resumen del proyecto](#2-resumen-del-proyecto)
-- [3. Consideraciones generales](#3-consideraciones-generales)
-- [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
-- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptacion-minimos-del-proyecto)
+- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+- [4. Consideraciones generales](#4-consideraciones-generales)
+- [5. Requerimientos funcionales](#5-requerimientos-funcionales)
 - [6. Consideraciones técnicas](#6-consideraciones-tecnicas)
+- [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
 ## 1. Preámbulo
 
-Dentro de las medidas de distanciamiento social del co-working más famoso de tu
-ciudad se encuentra modernizar el proceso del registro de visitantes, hasta ahora
-este co-working solo tenía un registro manual de visitantes lo cual hacía incómodo
-el proceso al momento de firmar un registro o hablar con una persona encargada.
+> El _cotrabajo​_, trabajo cooperativo, trabajo compartido, trabajo en
+> cooperación o trabajo en oficina integrada (del inglés _coworking_) es una
+> forma de trabajo que permite a profesionales independientes, emprendedores, y
+> pymes de diferentes sectores, compartir un mismo espacio de trabajo, tanto
+> físico como virtual, para desarrollar sus proyectos profesionales de manera
+> independiente, a la vez que fomentan proyectos conjuntos. El neologismo
+> "cotrabajo" es la traducción al español del término coworking.
+>
+> Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Trabajo_cooperativo)
 
-Lxs administradorxs del co-working se dan cuenta que necesitan una forma moderna
-de registrar a lxs visitantes donde no tengan que interactuar con otra persona y
-por eso contratan a tu equipo.
+Dentro de las medidas de distanciamiento social 😷, el espacio de coworking más
+famoso de tu ciudad se encuentra en el proceso de modernizar su
+_registro de visitantes_. Como espacio de trabajo compartido, un coworking
+recibe visitas constantemente que vienen a reunirse con lxs diferentes
+inquilinxs.
+
+Por ahora, como muchos otros espacios de oficinas, este coworking solo tiene un
+registro físico, en papel, lo cual hace incómodo el proceso de llenar el
+registro, autorizar acceso y auditar el historial de visitas. Además, este
+proceso en papel implica contacto físico cercano, uso compartido de lapiceros,
+etc.
+
+Lxs administradorxs del coworking se dan cuenta de que necesitan una forma más
+moderna de registrar a lxs visitantes donde no tengan que interactuar
+físicamente con otra persona. Para esto contratan a tu equipo!
+
+![Recepción](https://user-images.githubusercontent.com/110297/135544479-56a82d7c-a284-4d97-a5da-96c3ef752f89.jpg)
+
+Crédito: [Pxfuel](https://pxfuel.com/)
 
 ## 2. Resumen del proyecto
 
 En este proyecto construirás un prototipo para digitalizar el registro de
 visitantes en un coworking.
 
-Este co-working te anima a desarrollarles un prototipo con la nueva funcionalidad
-necesaria.
+Este prototipo debe ser una SPA (Single Page Application), lo que implica que
+nuestra aplicación debe manejar la idea de _rutas_ y poder _renderizar_
+diferentes _vistas_ dependiendo de la ruta (URL) actual así como reaccionar a
+eventos de navegación.
 
-![Recepción](https://user-images.githubusercontent.com/110297/135544479-56a82d7c-a284-4d97-a5da-96c3ef752f89.jpg)
-Crédito: [Pxfuel](https://pxfuel.com/)
+Usaremos la plataforma de Firebase para autenticación y persistencia de datos
+(Firestore). Además, la aplicación debe ser _responsive_ y poder usarse
+fácilmente desde celulares y PCs.
 
-En su investigación conocieron una herramienta parecida a lo que desean y te la
-comparten como [referencia](https://envoy.com/content/office-touchless-sign-in/).
+Por un lado, la aplicación debe permitir que lxs visitantes se registren. Por
+otro lado, lxs encargadxs del coworking deben poder acceder como _admin_ y
+revisar, aceptar o rechazar las visitas.
 
-La idea es que con esta referencia puedas desarrollar un prototipo [MVP](#que-es-un-mvp-minimum-viable-product)
-a presentar luego del tiempo estimado.
+## 3. Objetivos de aprendizaje
 
-Dado que deben presentar un prototipo, una amiga les recomienda usar un Framework
-de CSS para ahorrar tiempo con la parte visual del proyecto.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
-Al conocer de la metodología ágil la administración de este co-working también
-te pide que les compartas las historias de usuarix que tu equipo planea trabajar.
-Para eso podrás usar herramientas como [GitHub Projects](https://github.com/features/project-management/)
-o [Trello](https://trello.com/) por ejemplo.
-
-## 3. Consideraciones generales
+## 4. Consideraciones generales
 
 - Este proyecto se debe resolver en equipos de 2 o más personas.
-- Este proyecto es "agnóstico" a la tecnología que uses, es decir que puedes
-desarrollarlo en Vanilla JavaScript o algún _framework_ o biblioteca (librería)
-de tu elección.
+
+<!--
 - Intenta pensar en un alcance que, considerando su complejidad y la cantidad de
-personas en el equipo, te permita terminar el proyecto en 3 semanas.
+  personas en el equipo, te permita terminar el proyecto dentro del tiempo
+  estimado.
+-->
 
-## 4. Objetivos de aprendizaje
+- La división y organización del trabajo debe permitir, sin excepciones, que
+  **cada integrante** del equipo practique el aprendizaje de todo lo involucrado
+  en **cada historia de usuarix**. No se dividan el trabajo como en una fábrica.
+  * ¿Hasta acá has avanzado en tus proyectos con cierta fluidez y sin mayores
+    problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
+    sin restricciones, aunque tome un poco más de tiempo. Aproveha de
+    _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
+    aprender es explicando verbalmente.
 
-- Poner en práctica todo lo aprendido hasta ahora.
-- Diseñar y _testear_ un producto antes de desarrollarlo.
-- Usar Historias de Usuarix para dividir, comunicar y priorizar las tareas a
-realizar.
-- Usar un _framework_ de CSS o un sistema de componentes de interfaz, como por ejemplo:
-[Bulma.io](https://bulma.io/), [Tailwindcss.com](https://tailwindcss.com/),
-[Bootstrap](https://getbootstrap.com/), etc.
+  * ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
+    con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
+    para practicar y aprender lo que se te hace más difícil.
 
-## 5. Criterios de aceptación mínimos del proyecto
+- Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
+  la siguiente sin haber completado la anterior. La historia se completa cuando
+  se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
+  de Terminado.
 
-- Proponer y desarrollar una interfaz funcional donde lxs visitantes podrán
-registrarse. Esta interfaz en especial deberá de poder verse sin problema en
-celulares.
-- Esta interfaz de visitante deberá registrar el nombre, email, persona a la que
-visita, empresa a la que representa, fecha y hora de visita y duración de visita.
-- Proponer y desarrollar una interfaz funcional de administradora donde se pueda
-visualizar las visitas activas y las que están por llegar. Esta interfaz deberá
-poder verse sin problemas en tabletas y en escritorio.
-- La interfaz de administradora deberá estar protegida por nombre de usuarix y
-contraseña.
-- Las historias de usuarix deberán estar disponibles para ver en alguna herramienta
-online.
+## 5. Requerimientos funcionales
 
-### Hacker edition
+Al tratarse de un esfuerzo que busca reemplazar un proceso ya existente en el
+mundo físico (el registro de visitantes), el coworking ya tiene una idea
+bastante clara de la funcionalidad que quieren implementar. De hecho, ya han
+tenido algunas reuniones y sesiones de _lluvia de ideas_ (_brain storming_) y
+nos presentan el siguiente _storyboard_ con el flujo de navegación a grandes
+rasgos.
 
-Si logran terminar los criterios de aceptación mínimos listados líneas arriba,
-pueden dedicarle tiempo a agregar nuevas ideas como las siguientes:
+El _storyboard_ contiene dos casos de uso distintos (el de visitante y el de
+admin). En el dibujo podemos ver en la esquina superior izquierda la página de
+inicio (`Home`), a partir de la cual podemos iniciar sesión (flecha que va hacia
+la derecha) o acceder al formulario de registro (flecha que va hacia abajo).
 
-- Registrar una fotografía de la visitante usando el [API web de la cámara](https://developer.mozilla.org/es/docs/Web/API/MediaDevices/getUserMedia).
-- Registrar nuevas personas por empresa en el co-working, así el listado de personas
-a las que se puede visitar termina siendo validada.
-- Registrar empresas del co-working así se puede indicar desde la interfaz de la
-visitante.
-- Si tienes alguna idea propia también es bienvenida.
+<img alt="Storyboard" src="storyboard.jpg" width="100%">
+
+A pesar de la baja fidelidad del storyboard, ya podemos ir viendo que están
+pensando en una serie de _páginas_ o _vistas_ en particular (como `Home`,
+`CheckIn`, `Visitors`, ...) y dos grandes casos de uso a grandes rasgos:
+
+- Caso de uso de _visitante_:
+  * Comienza en la _página_ `Home` y escanea QR o hace click en link.
+  * Pasa a `CheckIn`, donde tenemos el formulario de registro.
+  * Una vez enviado el formulario pasamos a `CheckInResult`, donde vemos otro
+    QR (que apunta detalles de visita) y muestra el _estado_ (_status_) de la
+    visita.
+- Caso de uso de _admin_:
+  * Comienza en `Home` y hace click en _iniciar sesión_.
+  * Pasa a popup de inicio de sesión con Google.
+  * Una vez autenticado accedemos a `Visitors`, la lista de visitantes, donde
+    podemos aceptar o rechazar visitas así como acceder a más detalle en la
+    _página_ `Visitor`.
+
+### Historias de Usuaria
+
+Basado en el _storyboard_, nos entregan también una serie de
+_historias de usuaria_ que debemos usar como guía para el desarrollo de nuestra
+aplicación.
+
+- Como _visitante_, debo poder escanear un código QR para acceder al formulario de
+  registro de visitantes.
+- Como _visitante,_ debo poder llenar el formulario de registro de visitantes y
+  enviarlo para solicitar acceso al coworking. En este formulario el visitante
+  tendrá que incluir su nombre, email, persona a la que visita, empresa a la que
+  representa (si aplica), fecha, hora y duración de la visita.
+- Como _visitante_, después de enviar el formulario debo ver el estado de mi
+  registro (pendiente, aceptado o rechazado) así como un código QR con el que
+  identificarme en la puerta. El estado debe actualizarse sin tener que recargar
+  la página.
+- Como _admin_, debo poder iniciar sesión con google para acceder a
+  funcionalidad restringida.
+- Como _admin_, debo poder acceder a un listado de visitas para ver quienes
+  están solicitando acceso.
+- Como _admin_, debo poder filtrar el registro de visitas por fecha y status
+  para poder encontrar fácilmente las visitas.
+- Como _admin_, debo poder cambiar el estado (status) de las visitas
+  (_pendiente_, _aceptada_, _rechazada_).
+- Como _admin_, debo poder ver el detalle completo de cada visita por separado,
+  con su propia URL, para que así pueda a través de un QR (que en este caso
+  contiene una URL) ir directo al registro de esa visita.
+- Como _visitante_, debo poder tomar una fotografía (selfie) para incluir en el
+  formulario de registro (usando el [API web de la cámara](https://developer.mozilla.org/es/docs/Web/API/MediaDevices/getUserMedia)).
+
+Te recomendamos crear _issues_ en GitHub o un Trello para cada una de las
+historias de usuaria para así poder hacer seguimiento del avance.
+
+También ten en cuenta que es probable que a la hora de comenzar con las
+historias de usuario sientas la necesidad de crear _sub historias_ o romper
+historias grandes en otras más chiquitas.
 
 ## 6. Consideraciones técnicas
 
-- Dado que la información generada se tiene que almacenar en algún lugar va a ser
-necesario el uso de una Base de Datos, la recomendación es que programes un API
-que pueda realizar esas operaciones; tengan en cuenta el tiempo que les tomará hacer
-ese desarrollo con tu equipo. Si todavía no manejan ese concepto convérsalo con
-algún coach para ver si este proyecto es indicado para ti en este momento.
+- **Vanilla**: Este proyecto se debe desarrollar usando Vanilla JavaScript, HTML
+  y CSS. Este proyecto invita a explorar soluciones a temas comunes de las SPA
+  (vistas, componentes, renderizado, rutas, etc) sin _frameworks_, con la idea
+  de familiarizarnos con APIs nativas del DOM y navegador.
+- **Responsive**: Nuestra interfaz debe adaptarse con naturalidad a diferentes
+  tamaños de pantalla, relación de aspecto, etc. En particular, este producto es
+  esencial que funcione bien en celulares, tablets y PCs.
+- **SPA (Single Page Application)**: La aplicación debe ser una SPA, lo cual
+  implica que cuando la usuaria navega a _otra página_ de la aplicación, en vez
+  de ir a otra URL y cargar un nuevo documento HTML, nuestra aplicación se hace
+  cargo de hacer el ruteo y renderizar la _vista_ o _componente_ en cuestión.
+- **Arquitectura basada en componentes**: Como parte de la necesidad de hacer
+  una SPA, es de gran ayuda apoyarse en una arquitectura de componentes que nos
+  permita pensar en _cajitas dentro de cajitas_ (siguiendo el modelo del DOM),
+  reusarlas y componer poniendo unas dentro de otras. El boilerplate ?????
+- **Despliegue de front-end en Firebase Hosting**: En este proyecto haremos uso
+  del servicio de _hosting_ (_alojamiento web_) de Firebase para alojar nuestra
+  web app y que quede desplegada en una URL pública.
+- **Autenticación de Google con Firebase**: Para la autenticación de usuarios,
+  usaremos el sistema de autenticación de Firebase con la opción de
+  autenticación con Google. De esta forma las usuarias podrán iniciar sesión con
+  su cuenta existente de Google.
+- **Persistencia con Firestore**: Para almacenar el registro de visitas en sí
+  (la información de cada visita), haremos uso de Firestore, que es una base de
+  datos que nos ofrece Firebase. En principio solo deberíamos necesitar una
+  _colección_ en nuestra base de datos, donde cada _documento_ representa los
+  datos enviados por el formulario de registro de visitantes.
+- **Reglas de firestore**: El proyecto debe incluir reglas de Firestore que
+  garanticen que los documentos en la colección de visitas solo se pueden crear
+  con el campo `status` con el valor `pending` y además solo los usuarios
+  _admin_ deben poder _listar_ la colección. (Ver sección sobre el rol de
+  _admin_ más abajo).
+- **Real time**: Firestore nos ofrece un mecanismo que nos permite escuchar
+  cambios en una colección o un documento. En esta aplicación haremos uso de
+  estas características para actualizar el estado de las visitas (en el listado
+  de visitas, la vista de resultado de registro y la vista de detalle de
+  visita).
+- **Linters**: El _boilerplate_ incluye una configuración de _eslint_ que
+  debemos respetar dentro de lo posible/razonable.
+- **Pruebas unitarias**: El desarrollo de cada _historia_ y/o _feature_ debe ir
+  acompañado de pruebas unitarias como parte del _diseño_, _desarrollo_ y
+  _criterios de aceptación_. Esto implica describir las pruebas, basadas en el
+  _storyboard_ y las _historias de usuaria_, antes de la implementación, durante
+  la misma (para ejercitar el código) y después para validar y garantizar. La
+  arquitectura basada en componentes elegida en este proyecto facilita que nos
+  enfoquemos en las pruebas de los componentes de interfaz como unidad
+  principal.
+- **Códigos QR**: El _boilerplate_ incluye una librería
+  ([`QRCode`](https://davidshimjs.github.io/qrcodejs/)) para poder crear códigos
+  QR dínamicamente desde la interfaz. Esta librería está siendo incluída en una
+  etiqueta `<script>` en el archivo `index.html`. El constructor `QRCode` está
+  disponible en el ámbito _global_.
 
-## ¿Qué es un MVP (minimum viable product)?
+Sobre el _rol_ de admin...
 
-O en español "Producto mínimo viable", es la representación más simple y sencilla
-de un proyecto, se enfocan todos los esfuerzos en presentar a las usuarixs la funcionalidad
-necesaria con la que se pueda validar si les agrega valor o no.
-De acuerdo al feedback recibido luego de esta presentación se puede ir iterando
-y priorizando las historias de usuarix.
+## 7. Pistas, tips y lecturas complementarias
+
+Getting started
+
+- Para comenzar, una integrante del equipo tendrá que hacer un _fork_  de este
+  repositorio. Este _primer fork_ será usado para integrar los cambios de todo
+  el equipo. Una vez creado el primer _fork_, el resto de integrantes del equipo
+  crearán su propio _fork_ a partir del primero. De esta manera cada integrante
+  del equipo tiene su propio fork. Cada una puede trabajar en ramas dentro de su
+  fork y después integrar a través de _pull requests_ en la rama principal del
+  _primer fork_.
+- Arquitectura basada en componentes
+- Hello world!
+- Routing
+- Hello routes!
+- Hello auth
+- Subsripciones a eventos de larga vida y fugas de memoria (_memory leaks_).
