@@ -17,9 +17,16 @@ En esta unidad aprenderemos:
 
 ## ¿Qué es un evento?
 
-Es cuando el usuario realiza una acción permitiéndole interactuar con el
-programa. A cada evento se le asocia un manejador (*conocido como eventHandlers
-  o eventListener*) el cual, se ejecutará cuando ocurra el evento.
+Un _evento_ representa la idea de que algo ha pasado en nuestro programa, y
+tenemos la oportunidad de _hacer algo_ o _reaccionar_ a esa cosa que ha ocurrido
+(el _evento_).
+
+Por ejemplo, la interacción con el usuario se hace através de eventos. Cuando el
+usuario realiza una acción como hacer un `click`, esto _dispara_ un evento que
+nos va a permir reaccionar, y así agregar interacción al programa. A cada evento
+se le asocian una o más funciones que serán ejecutadas cuando ocurra dicho
+evento. A estas funciones las llamamos _manejadores_ o _manejadores de eventos_
+(conocidos en inglés como _event handlers_ o _event listeners_).
 
 Aquí hay un [video](https://www.youtube.com/watch?v=gyICdb1iwII) de referencia.
 
@@ -125,9 +132,11 @@ form.onsubmit = function(e) {
 ### Flujo de eventos (Propagation)
 
 Cuando un evento se ejecuta pasa por diferentes fases: *Capture phase*, *Target
-phase* y *Bubbling phase*, como se muestra en la siguiente imagen.
+phase* y *Bubbling phase*, como se muestra en las siguientes imágenes.
 
-![flow-event](https://fotos.subefotos.com/c2bdbf4b16698bcaec0b705f4e422be2o.png)
+![Event propagation tree](https://user-images.githubusercontent.com/110297/120246086-d60a0180-c234-11eb-9c38-0535154be569.png)
+
+![Event propagation markup](https://user-images.githubusercontent.com/110297/120246026-9e02be80-c234-11eb-8ce5-c73e13ae900d.png)
 
 Revisa éste [video](https://youtu.be/lgkqf6hldEk?t=15m5s) en donde encontrarás
 un ejemplo práctico del flujo que siguen los eventos.
