@@ -7,7 +7,6 @@ const mkdirp = require('mkdirp');
 const { repository, version } = require('../package.json');
 
 
-const rubricVersion = '3.x';
 const validate = process.argv[2] === '--validate';
 const buildDir = path.join(__dirname, '..', 'build');
 
@@ -27,7 +26,6 @@ const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
     `${type}s/${id}`,
     '--repo', repository,
     '--version', version,
-    '--rubric', rubricVersion,
     '--track', track,
     '--locale', locale,
     '--lo', path.join(__dirname, '../learning-objectives'),
