@@ -27,7 +27,7 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^2.7.1",
+    "@laboratoria/curriculum-parser": "lupomontero/curriculum-parser#breaking/remove-rubric",
     "@laboratoria/mdlint": "^1.2.1",
     "@octokit/rest": "^18.0.12",
     "chai": "^4.3.4",
