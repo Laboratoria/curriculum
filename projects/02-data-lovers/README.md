@@ -246,8 +246,6 @@ frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vani
 con la excepción de librerías para hacer gráficas (charts); ver
 [_Parte opcional_](#6-hacker-edition) más arriba.
 
-No se debe utilizar la _pseudo-variable_ `this`.
-
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
 
@@ -455,7 +453,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 ## 9. Checklist
 
 * [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
 * [ ] Pasa linter (`npm run pretest`)
 * [ ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
