@@ -249,8 +249,6 @@ JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd4
 com exceção das bibliotecas para gráficos (ver [_Parte
 opcional_](#6-hacker-edition) acima).
 
-Não se deve utilizar a _pseudo-variável_ `this`.
-
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, assim
 como toda a configuração de dependências:
 
@@ -469,7 +467,6 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
 ## 9. Checklist
 
 * [ ] Usar VanillaJS.
-* [ ] Não utilizar `this`.
 * [ ] Passa pelo linter (`npm run pretest`)
 * [ ] Passa pelos testes (`npm test`)
 * [ ] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
