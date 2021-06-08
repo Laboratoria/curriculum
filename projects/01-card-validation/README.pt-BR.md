@@ -170,7 +170,6 @@ NÃO é permitido.
 * A lógica do projeto deve ser totalmente implementada em JavaScript.
 * NÃO é permitido usar bibliotecas ou frameworks neste projeto, apenas
   JavaScript puro, também conhecido como JavaScript Vanilla.
-* A _pseudo variável_ `this` não deve ser utilizada.
 
 Você terá 2 arquivos JavaScript que separam responsabilidades, eis o que você
 fará em cada arquivo:
