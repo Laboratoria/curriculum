@@ -137,8 +137,6 @@ La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
 En este proyecto NO está permitido usar librerías o frameworks,
 solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
-No se debe utilizar la _pseudo-variable_ `this`.
-
 ### `src/index.html`
 
 Acá va la página que se mostrará al usuario, también nos sirve para indicar
