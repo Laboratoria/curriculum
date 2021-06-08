@@ -196,8 +196,6 @@ La lógica del proyecto debe estar implementada completamente en JavaScript,
 HTML y CSS. En este proyecto NO está permitido usar librerías o frameworks, solo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
-No se debe utilizar la _pseudo-variable_ `this`.
-
 Para iniciar un nuevo juego, siempre tendremos que _barajar_ las cartas antes de
 pintarlas en la pantalla. Para eso, te invitamos a que explores algoritmos
 existentes para este tipo de operación (llamada _shuffle_ en inglés), como por
@@ -366,7 +364,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 ## 9. Checklist
 
 * [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
 * [ ] Pasa linter (`npm run pretest`)
 * [ ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
