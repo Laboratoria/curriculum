@@ -180,8 +180,6 @@ La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
 también conocido como Vanilla JavaScript.
 
-No se debe utilizar la _pseudo-variable_ `this`.
-
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
@@ -328,7 +326,6 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
 * [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
 * [ ] Implementa `cipher.encode`.
 * [ ] Implementa `cipher.decode`.
 * [ ] Pasa linter con configuración provista.
