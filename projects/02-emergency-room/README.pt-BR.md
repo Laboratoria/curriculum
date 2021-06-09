@@ -28,8 +28,8 @@ a sua gravidade de acordo com a seguinte tabela:
 
 Os pacientes graves devem ser atendidos imediatamente por um
 médico. Os de gravidade mediana deverão esperar por uma maca livre, se
-houver mais de um paciente nesta categoria, são ordenados de acordo com a sua hora de chegada.
-Os demais pacientes se ordenam primero por categoria de gravidade e depois
+houver mais de um paciente nesta categoria, são ordenados de acordo com a sua hora
+de chegada. Os demais pacientes se ordenam primero por categoria de gravidade e depois
 pelo horário de chegada; Passam apenas se não houver alguém de maior prioridade
 esperando por atendimento.
 
@@ -121,8 +121,8 @@ definir.
 * É provável que na sua solução toda a informação se mantenha em memoria, ou
 seja, ao recarregar a página tudo que foi guardado desaparece; considere usar
 alguma ferramenta para manter a persistencia dessas informações.
-Uma opção é guardar os dados em [window.localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-, outra opção é considerar alguma base de dados, que dentre tantas opções, inclui o
+Uma opção é guardar os dados em [window.localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage),
+outra opção é considerar alguma base de dados, que dentre tantas opções, inclui o
 Firebase.
 
 ## Conteúdo de referência
